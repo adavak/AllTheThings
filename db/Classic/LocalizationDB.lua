@@ -8931,7 +8931,7 @@ localize(L.HEADER_NAMES, {
 	[-1000227] = "Gran espectáculo de pesca de Tuercespina",
 	[-1000235] = "La apertura del Portal Oscuro",
 	[-1000236] = "El cetro del Mar de Dunas",
-	[-1000373] = "Nueva personaje",
+	[-1000373] = "Nuevo personaje",
 	[-1000380] = "Prima",
 	[-1001035] = "Pescado de temporada: lubina de verano",
 	[-1001036] = "Pescado de temporada: calamares de invierno",
@@ -9981,7 +9981,7 @@ localize(L.HEADER_NAMES, {
 	[-1000163] = "独特外观",
 	[-1000165] = "T0.5套装",
 	[-1000166] = "船长",
-	[-1000168] = "天啓四骑士",
+	[-1000168] = "天启四骑士",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (东)",
 	[-1000174] = DUNGEON_FLOOR_DIREMAUL1.." (北)",
 	[-1000175] = DUNGEON_FLOOR_DIREMAUL2.." (西)",
@@ -10956,6 +10956,7 @@ localize(L.HEADER_NAMES, {
 	[-1000237] = "天譴軍團入侵",
 	[-1000243] = "暴雪嘉年華",
 	[-1000245] = "英雄版",
+	[-1000263] = "可口可樂活動",
 	[-1001035] = "季節性魚類：夏日鱸魚",
 	[-1001036] = "季節性魚類：冬魷魚",
 });
@@ -10973,6 +10974,7 @@ localize(L.HEADER_LORE, {
 localize(ObjectNames, {
 	[176785] = "彈藥箱",
 	[179697] = "競技場寶箱",
+	[180248] = "可口魚魚群",
 	[180456] = "次級風石",
 	[180461] = "風石",
 });

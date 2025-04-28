@@ -342,6 +342,7 @@ localize(L.HEADER_NAMES, {
 	[-1001084] = "Apprentice",
 	[-1001085] = "Opera of Malediction",
 	[-1001086] = "Tier-Set Shoulder Enchants",
+	[-1001179] = "Temple of Ahn'Qiraj Hardmode",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000015] = "Warlocks can teach their demons new tricks. Some of the higher level grimoires can only be purchased from the Demon Trainer in your faction's capital cities.",
@@ -528,6 +529,7 @@ localize(L.HEADER_ICONS, {
 	[-1001035] = 133889,
 	[-1001036] = 133899,
 	[-1001070] = _.asset("interface_upgrade"),
+	[-1001179] = 237211,
 });
 localize(L.HEADER_EVENTS, {
 	[-1000200] = 201,
@@ -11238,7 +11240,7 @@ localize(L.HEADER_NAMES, {
 	[-1000163] = "独特外观",
 	[-1000165] = "T0.5套装",
 	[-1000166] = "船长",
-	[-1000168] = "天啓四骑士",
+	[-1000168] = "天启四骑士",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (东)",
 	[-1000174] = DUNGEON_FLOOR_DIREMAUL1.." (北)",
 	[-1000175] = DUNGEON_FLOOR_DIREMAUL2.." (西)",

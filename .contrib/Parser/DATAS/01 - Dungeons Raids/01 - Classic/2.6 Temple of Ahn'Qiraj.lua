@@ -49,11 +49,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					["maps"] = { CAVERNS_OF_TIME, SILITHUS },
 				}),
 			}),
+			n(QUESTS, 
 			-- #if SEASON_OF_DISCOVERY
-			n(QUESTS, bubbleDown({ ["timeline"] = { SOD_REMOVED_1_15_5 } }, {
-			-- #else			
-			n(QUESTS, {
+			bubbleDown({ ["timeline"] = { REMOVED_1_15_5 } },
 			-- #endif
+			{
 				cl(DRUID, bubbleDown({ ["classes"] = { DRUID } }, {
 					q(8667, {	-- Genesis Helm
 						["qg"] = 15502,	-- Andorgos
@@ -1074,11 +1074,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(21709),	-- Ring of the Fallen God
 					},
 				}),
+			}
 			-- #if SEASON_OF_DISCOVERY
-			})),
-			-- #else			
-			}),
+			)
 			-- #endif
+			),
 			filter(RECIPES, {
 				["crs"] = {
 					15516,	-- Battleguard Sartura
@@ -2717,81 +2717,81 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(233523), -- Triad Girdle
 						i(233524), -- Angelista's Touch
 					},
-					n(15511, {	-- Lord Kri
-						["description"] = "Killing this boss last can drop the following items.",
-						["groups"] = {
-							i(233568), -- Vest of Swift Execution
-							i(233569), -- Ring of the Devoured
-							i(233570), -- Petrified Scarab
-							i(233571), -- Wand of Qiraji Nobility
-						},
-					}),
-					n(15543, {	-- Princess Yauj
-						["description"] = "Killing this boss last can drop the following items.",
-						["groups"] = {
-							i(233563), -- Mantle of Phrenic Power
-							i(233564), -- Bile-Covered Gauntlets
-							i(233565), -- Ukko's Ring of Darkness
-							i(233566), -- Mantle of the Desert's Fury
-							i(233567), -- Mantle of the Desert Crusade
-						},
-					}),
-					n(15544, {	-- Vem
-						["description"] = "Killing this boss last can drop the following items.",
-						["groups"] = {
-							i(233559), -- Gloves of Ebru
-							i(233560), -- Ooze-Ridden Gauntlets
-							i(233561), -- Boots of the Fallen Hero
-							i(233562), -- Angelista's Charm
-						},
-					}),
 				}),
-				e(1544, {	-- Battleguard Sartura
-					["creatureID"] = 15516,
+				n(15511, {	-- Lord Kri
+					["description"] = "Killing this boss last can drop the following items.",
 					["groups"] = {
-						i(233572), -- Necklace of Purity
-						i(233573), -- Recomposed Boots
-						i(233574), -- Leggings of the Festering Swarm
-						i(233575), -- Robes of the Battleguard
-						i(233576), -- Silithid Claw
-						i(233577), -- Thick Qirajihide Belt
-						i(233578), -- Creeping Vine Helm
-						i(233579), -- Gloves of Enforcement
-						i(233580), -- Badge of the Swarmguard
-						i(233581), -- Sartura's Might
-						i(233582), -- Gauntlets of Steadfast Determination
-						i(233583), -- Legplates of Blazing Light
-						i(233584), -- Scaled Leggings of Qiraji Fury
-						i(233643), -- Anubisath Warhammer
-						i(233644), -- Garb of Royal Ascension
-						i(233645), -- Gloves of the Immortal
-						i(233646), -- Gloves of the Redeemed Prophecy
-						i(233647), -- Neretzek, the Blood Drinker
-						i(233648), -- Ritssyn's Ring of Chaos
-						i(233649), -- Shard of the Fallen Star
-						i(235047), -- Gloves of the Fallen Prophet
+						i(233568), -- Vest of Swift Execution
+						i(233569), -- Ring of the Devoured
+						i(233570), -- Petrified Scarab
+						i(233571), -- Wand of Qiraji Nobility
 					},
 				}),
-				e(1545, {	-- Fankriss the Unyielding
-					["creatureID"] = 15510,
+				n(15543, {	-- Princess Yauj
+					["description"] = "Killing this boss last can drop the following items.",
 					["groups"] = {
-						i(233369), -- Qiraji Bindings of Dominance
-						i(233370), -- Qiraji Bindings of Command
-						i(233371), -- Qiraji Bindings of Sovereignty
-						i(233585), -- Ancient Qiraji Ripper
-						i(233586), -- Jaw of the Sand Reaver
-						i(233587), -- Barbed Choker
-						i(233588), -- Cloak of Untold Secrets
-						i(233589), -- Fetish of the Sand Reaver
-						i(233590), -- Hive Tunneler's Boots
-						i(233591), -- Silithid Carapace Chestguard
-						i(233592), -- Mantle of Wicked Revenge
-						i(233593), -- Pauldrons of the Unrelenting
-						i(233594), -- Robes of the Guardian Saint
-						i(233595), -- Scaled Sand Reaver Leggings
+						i(233563), -- Mantle of Phrenic Power
+						i(233564), -- Bile-Covered Gauntlets
+						i(233565), -- Ukko's Ring of Darkness
+						i(233566), -- Mantle of the Desert's Fury
+						i(233567), -- Mantle of the Desert Crusade
 					},
 				}),
-				e(1548, {	-- Viscidus
+				n(15544, {	-- Vem
+					["description"] = "Killing this boss last can drop the following items.",
+					["groups"] = {
+						i(233559), -- Gloves of Ebru
+						i(233560), -- Ooze-Ridden Gauntlets
+						i(233561), -- Boots of the Fallen Hero
+						i(233562), -- Angelista's Charm
+					},
+				}),
+			e(1544, {	-- Battleguard Sartura
+				["creatureID"] = 15516,
+				["groups"] = {
+					i(233572), -- Necklace of Purity
+					i(233573), -- Recomposed Boots
+					i(233574), -- Leggings of the Festering Swarm
+					i(233575), -- Robes of the Battleguard
+					i(233576), -- Silithid Claw
+					i(233577), -- Thick Qirajihide Belt
+					i(233578), -- Creeping Vine Helm
+					i(233579), -- Gloves of Enforcement
+					i(233580), -- Badge of the Swarmguard
+					i(233581), -- Sartura's Might
+					i(233582), -- Gauntlets of Steadfast Determination
+					i(233583), -- Legplates of Blazing Light
+					i(233584), -- Scaled Leggings of Qiraji Fury
+					i(233643), -- Anubisath Warhammer
+					i(233644), -- Garb of Royal Ascension
+					i(233645), -- Gloves of the Immortal
+					i(233646), -- Gloves of the Redeemed Prophecy
+					i(233647), -- Neretzek, the Blood Drinker
+					i(233648), -- Ritssyn's Ring of Chaos
+					i(233649), -- Shard of the Fallen Star
+					i(235047), -- Gloves of the Fallen Prophet
+				},
+			}),
+			e(1545, {	-- Fankriss the Unyielding
+				["creatureID"] = 15510,
+				["groups"] = {
+					i(233369), -- Qiraji Bindings of Dominance
+					i(233370), -- Qiraji Bindings of Command
+					i(233371), -- Qiraji Bindings of Sovereignty
+					i(233585), -- Ancient Qiraji Ripper
+					i(233586), -- Jaw of the Sand Reaver
+					i(233587), -- Barbed Choker
+					i(233588), -- Cloak of Untold Secrets
+					i(233589), -- Fetish of the Sand Reaver
+					i(233590), -- Hive Tunneler's Boots
+					i(233591), -- Silithid Carapace Chestguard
+					i(233592), -- Mantle of Wicked Revenge
+					i(233593), -- Pauldrons of the Unrelenting
+					i(233594), -- Robes of the Guardian Saint
+					i(233595), -- Scaled Sand Reaver Leggings
+				},
+			}),
+			e(1548, {	-- Viscidus
 					["description"] = "This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
 					["creatureID"] = 15299,
 					["groups"] = {

@@ -925,7 +925,7 @@ local function AddSourceInformation(sourceID, info, sourceGroup)
 			tinsert(info, { left = L.FORCE_REFRESH_REQUIRED, wrap = true, color = app.Colors.TooltipDescription });
 		end
 	end
-	local linkInfo
+	local linkInfo, sourceFilter, otherFilter
 	local useItemIDs, origSource = app.Settings:GetTooltipSetting("itemID"), app.Settings:GetTooltipSetting("IncludeOriginalSource")
 	if app.Settings:GetTooltipSetting("OnlyShowRelevantSharedAppearances") then
 		-- The user doesn't want to see Shared Appearances that don't match the item's requirements.
@@ -940,8 +940,10 @@ local function AddSourceInformation(sourceID, info, sourceGroup)
 				end
 			else
 				local otherATTSource = app.SearchForObject("sourceID", otherSourceID, "field") or UnknownAppearancesCache[otherSourceID]
+				sourceFilter = sourceGroup.f
+				otherFilter = otherATTSource.f
 				-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
-				if (sourceGroup.f == otherATTSource.f or sourceGroup.f == 2 or otherATTSource.f == 2) and not otherATTSource.nmc and not otherATTSource.nmr then
+				if (sourceFilter == otherFilter or sourceFilter == 2 or otherFilter == 2) and not otherATTSource.nmc and not otherATTSource.nmr then
 					linkInfo = GetLinkTooltipInfo(otherATTSource, useItemIDs)
 					if not working and linkInfo.working then
 						working = true
@@ -968,9 +970,11 @@ local function AddSourceInformation(sourceID, info, sourceGroup)
 					working = true
 				end
 				local failText = "";
+				sourceFilter = sourceGroup.f
+				otherFilter = otherATTSource.f
 				-- Show all of the reasons why an appearance does not meet given criteria.
 				-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
-				if sourceGroup.f ~= otherATTSource.f then
+				if sourceFilter ~= otherFilter and sourceFilter ~= 2 and otherFilter ~= 2 then
 					-- This is NOT the same type. Therefore, no credit for you!
 					if #failText > 0 then failText = failText .. ", "; end
 					failText = failText .. (L.FILTER_ID_TYPES[otherATTSource.f] or "???");

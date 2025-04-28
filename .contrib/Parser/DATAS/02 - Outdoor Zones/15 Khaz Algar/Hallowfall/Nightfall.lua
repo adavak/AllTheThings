@@ -212,6 +212,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["description"] = "Within the Toxins and Pheromones assault.",
 						["provider"] = { "o", 527413 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
+						["questID"] = 91160,
+						["isDaily"] = true,
 					}),
 					-- HALLOWFALL
 					-- Hold the Wall --
@@ -250,6 +252,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					n(241229, {	-- Dissenter Fervormyt
 						["description"] = "Within the Southern Swarm assault.",
 						["provider"] = { "o", 527409 },	-- Suspicious Document
+						["questID"] = 91153,
+						["isDaily"] = true,
 					}),
 					n(241238, {	-- Whisperer Siegesage
 						["description"] = "Within the Southern Swarm assault.",
@@ -678,11 +682,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88692, {	-- Arathi Crusader Set Chest Unlock
 					["name"] = "Unlocked Chest Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
+				q(88689, {	-- Arathi Crusader Set Belt Unlock
+					["name"] = "Unlocked Belt Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
 				q(88691, {	-- Arathi Crusader Set Feet Unlock
 					["name"] = "Unlocked Feet Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
 				q(88690, {	-- Arathi Crusader Set Hands Unlock
 					["name"] = "Unlocked Hands Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88695, {	-- Arathi Crusader Set Head Unlock
+					["name"] = "Unlocked Head Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
 				q(88693, {	-- Arathi Crusader Set Legs Unlock
 					["name"] = "Unlocked Legs Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
@@ -724,6 +734,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91163),	-- Daily Rep Flame Radiance for killing Skrimisher Sa'zryk (Ajz Kahet)
 				q(91164),	-- Daily Rep Flame Radiance for killing Umbraclaw Matta (Ajz Kahet)
 				q(91165),	-- Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
+				q(81608),	-- Enter Azj'Kahet post-patch?
 			})),
 		}),
 	}),

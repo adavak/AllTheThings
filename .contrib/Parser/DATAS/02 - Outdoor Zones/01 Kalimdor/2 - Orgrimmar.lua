@@ -632,7 +632,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						52428,	-- Infusing the Heart
 					},	--]]
 					["coords"] = {
-						{ 58.0, 62.8, DAZARALOR },	-- Nathanos Blightcaller
+						{ 58.0, 62.8, ZULDAZAR },	-- Nathanos Blightcaller
 						{ 48.9, 91.4, ORGRIMMAR },	-- Nathanos Blightcaller
 						{ 49.4, 76.6, ORGRIMMAR },	-- Warchief's Herald
 					},

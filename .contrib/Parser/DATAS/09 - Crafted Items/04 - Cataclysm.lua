@@ -1224,9 +1224,10 @@ Fire and Water - Damage against Elementals increased by 15%.
 				i(56480),	-- Savage Cloak
 				i(56549),	-- Twilight Dragonscale Cloak
 				-- #if ANYCLASSIC
-				-- Blizzard did a dumb when they implemented Cata Classic
-				dragonsoul(i(226181)),	-- Vicious Fur Cloak
-				dragonsoul(i(226183)),	-- Vicious Hide Cloak
+				-- Blizzard did a dumb when they implemented Cata Classic, making Dragon Soul PVP cloaks available at launch
+				-- and adding new, higher ilvl, cloaks which never got added to the game
+				i(226181, { ["timeline"] = { CREATED_4_4_0 } }), -- Vicious Fur Cloak
+				i(226183, { ["timeline"] = { CREATED_4_4_0 } }), -- Vicious Hide Cloak
 				i(75076, {	-- Vicious Fur Cloak
 					["timeline"] = {
 						ADDED_4_0_3_LAUNCH,
@@ -1594,8 +1595,9 @@ Fire and Water - Damage against Elementals increased by 15%.
 		n(BACK, {
 			bloodthirsty(i(70070)),	-- Bloodthirsty Embersilk Cape
 			-- #if ANYCLASSIC
-			-- Blizzard did a dumb when they implemented Cata Classic
-			dragonsoul(i(226182)),	-- Vicious Embersilk Cape
+			-- Blizzard did a dumb when they implemented Cata Classic, making Dragon Soul PVP cloaks available at launch
+			-- and adding a new, higher ilvl, cloak which never got added to the game
+			i(226182, { ["timeline"] = { CREATED_4_4_0 } }), -- Vicious Embersilk Cape
 			bloodied(i(75065)),	-- Vicious Embersilk Cape
 			-- #else
 			dragonsoul(i(75065)),	-- Vicious Embersilk Cape

@@ -1296,8 +1296,9 @@ root(ROOTS.Zones, {
 								i(44112),	-- Glimmershell Shoulder Protectors
 								i(44106),	-- Glitterscale Wrap
 								i(44111),	-- Gold Star Spaulders
-								i(39878, {	-- Mysterious Egg
-									["provider"] = { "i", 39883 },	-- Cracked Egg
+								i(39878),	-- Mysterious Egg
+								i(39883, {	-- Cracked Egg
+									["provider"] = { "i", 39878 },	-- Mysterious Egg
 									["groups"] = {
 										i(44707),	-- Green Proto-Drake (MOUNT!)
 										i(39898, {	-- Cobra Hatchling (PET!)
@@ -1349,8 +1350,9 @@ root(ROOTS.Zones, {
 								i(44117),	-- Azure Strappy Pants
 								i(41723),	-- Design: Jagged Forest Emerald (RECIPE!)
 								i(44123),	-- Discarded Titanium Legplates
-								i(44717, {	-- Disgusting Jar
-									["provider"] = { "i", 44718 },	-- Ripe Disgusting Jar
+								i(44717),	-- Disgusting Jar
+								i(44718, {	-- Ripe Disgusting Jar
+									["provider"] = { "i", 44717 },	-- Disgusting Jar
 									["groups"] = {
 										i(44719),	-- Frenzyheart Brew (TOY!)
 									},

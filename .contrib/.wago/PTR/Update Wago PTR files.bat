@@ -13,6 +13,7 @@ call :download SpellEffect
 call :download TaxiNodes
 call :download TransmogSet
 call :download TransmogSetItem
+call :download WorldMapOverlay
 
 @REM Cleanup the SpellEffect file
 call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.csv" "..\SpellEffect.regex"
@@ -23,6 +24,10 @@ if not exist "%1.%BUILD%.csv" (
 	if exist "%1*.csv" (
 		del /Q "%1*.csv"
 	)
-	curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv"
+	if "%1" == "WorldMapOverlay" (
+		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/worldmapoverlay/csv?build=%BUILD%"
+	) else (
+		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%"
+	)
 )
 exit /b

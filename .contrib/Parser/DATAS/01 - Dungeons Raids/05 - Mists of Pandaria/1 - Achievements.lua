@@ -120,39 +120,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 		})),
 		ach(13469, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Raiding with Leashes VI: Pets of Pandaria
 			i(167057),	-- Happiness (PET!)
-			crit(44269, {	-- Stoneclaw
-				["provider"] = { "i", 167047 },
-			}),
-			crit(44270, {	-- Wayward Spirit
-				["provider"] = { "i", 167048 },
-			}),
-			crit(44271, {	-- Comet
-				["provider"] = { "i", 167049 },
-			}),
-			crit(44272, {	-- Baoh-Xi
-				["provider"] = { "i", 167050 },
-			}),
-			crit(44273, {	-- Azure Windseeker
-				["provider"] = { "i", 167051 },
-			}),
-			crit(44274, {	-- Spirit of the Spring
-				["provider"] = { "i", 167052 },
-			}),
-			crit(44275, {	-- Kor'thik Swarmling
-				["provider"] = { "i", 167058 },
-			}),
-			crit(44276, {	-- Amberglow Stinger
-				["provider"] = { "i", 167053 },
-			}),
-			crit(44277, {	-- Spawn of Garalon
-				["provider"] = { "i", 167054 },
-			}),
-			crit(44278, {	-- Living Amber
-				["provider"] = { "i", 167055 },
-			}),
-			crit(44279, {	-- Ravenous Prideling
-				["provider"] = { "i", 167056 },
-			}),
 		})),
 		ach(11757, {["timeline"] = {ADDED_7_2_0}}),	-- Sha of Fabulous (Heart of Fear and Terrace of Endless Spring)
 	})),

@@ -134,7 +134,6 @@ root(ROOTS.Unsorted, {
 			filter(BATTLE_PETS, {
 				i(236409),	-- Frumpy Softpaw
 				i(238942),	-- Weechi \\ Chihuahua
-				i(241193),	-- Threadis's Workshop Bot 2.0 \\ Threadis's Survey Bot 2.0
 			}),
 			filter(COSMETIC, {
 				i(235985),	-- Heroic Half Shell
@@ -306,27 +305,11 @@ root(ROOTS.Unsorted, {
 				i(239096),	-- Formula: Enchant Weapon - Void Ritual
 			}),
 			n(WEEKLY_HOLIDAYS, {	-- Childrens Week
-				i(239689),	-- Khaz Algar Orphan Whistle
-				i(240196),	-- Khaz Algar Orphan Whistle
-				i(240197),	-- Khaz Algar Orphan Whistle
-				i(240198),	-- Khaz Algar Orphan Whistle
 				i(241632),	-- Heroic Waxy Figurine
 				i(241633),	-- Tiny Decorative Rocket
 				i(241635),	-- Patchy Spider-Silk Square
 				i(241636),	-- Storm Glass and Feather Necklace
-				i(242242),	-- Khaz Algar Orphan Whistle
-				i(242259),	-- Wooden Stormwind Shield
-				i(242260),	-- Arsenal: Children's Stormwind Guard Weapon Set
-				i(242261),	-- Painted Axe Prop
-				i(242262),	-- Painted Wooden Axe
-				i(242263),	-- Painted Wooden Hatchet
-				i(242264),	-- Wooden Orgrimmar Shield
-				i(242265),	-- Arsenal: Children's Orgrimmar Guard Weapon Set
 				i(242318),	-- Wooden Orgrimmar Shield
-				i(241215),	-- Well-loved Figurine
-				i(241234),	-- Painted Fighting Prop
-				i(241235),	-- Painted Wooden Sword
-				i(241236),	-- Painted Wooden Dagger
 			}),
 			i(237508),	-- Can of Amps
 			i(237509),	-- Bottle of Invisibility
@@ -347,7 +330,6 @@ root(ROOTS.Unsorted, {
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner
 				i(232856),	-- Scruff
-				i(232857),	-- Goggles
 				i(235909),	-- Gleam
 				i(235988),	-- Parley
 			}),

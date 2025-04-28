@@ -176,6 +176,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 66.7, 67.1, SURAMAR },
 					["g"] = {
 						i(140314),	-- Crab Shank (TOY!)
+						i(140402),	-- Green Or'ligai Egg
 					},
 				}),
 				n(111007, {	-- Randril

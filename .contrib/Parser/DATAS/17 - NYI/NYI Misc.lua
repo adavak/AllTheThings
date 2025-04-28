@@ -1745,7 +1745,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(227698),	-- Torn Diary, Page 2
 			i(229223),	-- Two of Earth
 			i(229215),	-- Two of Frost
-			i(232631),	-- Wrapped Spear
 		})),
 
 		-- 11.0.7

@@ -451,7 +451,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(191117),	-- Enchanted Claws
 			i(193858),	-- Enchanted Tools
 			i(191551),	-- Encrusted Key [DNT]
-			i(194426),	-- Enriched Soil
 			i(191308),	-- Envenomed Spear
 			i(192496),	-- Exhumed Hunter's Spear
 			i(193839),	-- Explosive Ash

@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 HORRIFIC_VISIONS_REVISITED = createHeader({
 	readable = "Horrific Visions Revisited",
-	icon = 609893,
+	icon = [[~_.asset("Feature_Horrific Visions")]],
 	text = {
 		en = "Horrific Visions Revisited",
 		cn = "重访惊魂幻象",

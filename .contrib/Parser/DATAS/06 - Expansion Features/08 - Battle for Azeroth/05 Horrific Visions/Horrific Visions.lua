@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 HORRIFIC_VISIONS = createHeader({
 	readable = "Horrific Visions",
-	icon = 609893,
+	icon = [[~_.asset("Feature_Horrific Visions")]],
 	text = {
 		en = [[~SPLASH_BATTLEFORAZEROTH_8_3_0_FEATURE1_TITLE]],
 	},

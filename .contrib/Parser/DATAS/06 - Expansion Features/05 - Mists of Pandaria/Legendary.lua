@@ -6,6 +6,7 @@ LEGENDARY_THE_BLACK_PRINCE = createHeader({
 	icon = 656543,
 	text = {
 		en = "Legendary: The Black Prince",
+		cn = "传说：黑王子",
 		tw = "傳奇：黑龍王子",
 		cn = "传说：黑王子",
 	},

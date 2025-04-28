@@ -1820,10 +1820,12 @@ end");
                     case "_npcs":
                     case "_objects":
                     case "_achievements":
+                    case "_exploration":
                     case "_factions":
                     case "extraTransmogSetSpells":
                     case "_tmogSetIDs":
                     case "_sourceIDs":
+                    case "_species":
                         {
                             MergeIntegerArrayData(item, field, value);
                             break;

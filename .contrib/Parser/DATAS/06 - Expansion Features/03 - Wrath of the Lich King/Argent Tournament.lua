@@ -83,6 +83,13 @@ local CLASSIC_ONLY_DB_FUNC = function(func)
 	-- #ENDIF
 end
 
+local FORCE_ITEM_FACTION = function(item, faction) -- Overwrite bad "races" Blizzard API data and force set it to faction only
+	return i(item , {
+		["_drop"] = { "races" },
+		["races"] = faction,
+	});
+end
+
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_TWO, bubbleDown({ ["timeline"] = { ADDED_3_2_0 } }, {
 	n(ARGENT_TOURNAMENT, {
 		["maps"] = { ICECROWN, 170 },
@@ -4310,31 +4317,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				n(33853, {	-- Broxel Goldgrasp <Souvenirs>
 					["coord"] = { 73.0, 23.0, ICECROWN },
 					["groups"] = {
-						i(45670),	-- Darnassus Doublet
-						i(45668),	-- Exodar Doublet
-						i(45671),	-- Gnomeregan Doublet
-						i(45666),	-- Ironforge Doublet
-						i(45672, {	-- Orgrimmar Doublet
-							["_drop"] = { "races" },	-- bad API data
-							["races"] = HORDE_ONLY,	-- Blizz tagged them for 2 Alliance Races
-						}),
-						i(45669, {	-- Sen'jin Doublet
-							["_drop"] = { "races" },	-- bad API data
-							["races"] = HORDE_ONLY,	-- Blizz tagged them for 2 Alliance Races
-						}),
-						i(45664, {	-- Silvermoon Doublet
-							["_drop"] = { "races" },	-- bad API data
-							["races"] = HORDE_ONLY,	-- Blizz tagged them for 2 Alliance Races
-						}),
-						i(45667),	-- Stormwind Doublet
-						i(45673, {	-- Thunder Bluff Doublet
-							["_drop"] = { "races" },	-- bad API data
-							["races"] = HORDE_ONLY,	-- Blizz tagged them for 2 Alliance Races
-						}),
-						i(45674, {	-- Undercity Doublet
-							["_drop"] = { "races" },	-- bad API data
-							["races"] = HORDE_ONLY,	-- Blizz tagged them for 2 Alliance Races
-						}),
+						FORCE_ITEM_FACTION(45670, ALLIANCE_ONLY), -- Darnassus Doublet
+						FORCE_ITEM_FACTION(45668, ALLIANCE_ONLY), -- Exodar Doublet
+						FORCE_ITEM_FACTION(45671, ALLIANCE_ONLY), -- Gnomeregan Doublet
+						FORCE_ITEM_FACTION(45666, ALLIANCE_ONLY), -- Ironforge Doublet
+						FORCE_ITEM_FACTION(45672, HORDE_ONLY),	  -- Orgrimmar Doublet
+						FORCE_ITEM_FACTION(45669, HORDE_ONLY),	  -- Sen'jin Doublet
+						FORCE_ITEM_FACTION(45664, HORDE_ONLY),	  -- Silvermoon Doublet
+						FORCE_ITEM_FACTION(45667, ALLIANCE_ONLY), -- Stormwind Doublet
+						FORCE_ITEM_FACTION(45673, HORDE_ONLY),	  -- Thunder Bluff Doublet
+						FORCE_ITEM_FACTION(45674, HORDE_ONLY),	  -- Undercity Doublet
 					},
 				}),
 				n(33307, {	-- Corporal Arthur Flew <Stormwind Quartermaster>

@@ -500,8 +500,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(157622, {	-- Silverscope Longrifle
 				["description"] = "New Mechagnome Hunters start with this weapon. The 4 remaining Mechagnome players gatekept this from us for far too long.",
 			}),
-			i(157650, {	-- Tracker's Spear
-				["description"] = "New Highmountain Tauren Hunters start with this weapon in your inventory via the Wrapped Spear.",
+			i(232631, {	-- Wrapped Spear
+				i(157650, {	-- Tracker's Spear
+					["description"] = "New Highmountain Tauren Hunters start with this weapon in your inventory via the Wrapped Spear.",
+				}),
 			}),
 		})),
 	}),
@@ -1279,6 +1281,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_2_0_1, REMOVED_9_0_1 }	-- TODO: I am not sure when this got removed.
 			}),
 			i(50057, {	-- Sharp Dirk
+				["description"] = "New Blood Elves start with this weapon.",
 				["timeline"] = { ADDED_3_3_0 }
 			}),
 			i(2092),	-- Worn Dagger

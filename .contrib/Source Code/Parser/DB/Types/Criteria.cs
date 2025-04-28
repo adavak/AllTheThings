@@ -60,7 +60,9 @@ namespace ATT.DB.Types
             // Equip item in slot "{$Equip Slot}"
             Type == 49 ||
             // Mythic Plus Completed
-            Type == 216;
+            Type == 216 ||
+            // Learned as new pet (Account Only)
+            Type == 155;
 
         public long GetSourceQuest() =>
             Type == 27 ? Asset : 0;
@@ -77,6 +79,9 @@ namespace ATT.DB.Types
         /// </summary>
         public long GetCastedSpellID() =>
             Type == 29 ? Asset : 0;
+
+        public long GetExplorationWorldMapOverlayID() =>
+            Type == 43 ? Asset : 0;
 
         public long GetFactionID() =>
             Type == 46 ? Asset : 0;

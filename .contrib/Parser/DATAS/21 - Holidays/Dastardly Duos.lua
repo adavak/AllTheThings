@@ -3,7 +3,7 @@
 --------------------------------------------
 DASTARDLY_DUOS = createHeader({
 	readable = "Dastardly Duos",
-	icon = 6740278,
+	icon = [[~_.asset("Event_Dastardly Duos")]],
 	eventID = EVENTS.DASTARDLY_DUOS,
 	eventSchedule = {
 		0, -- June 3rd, 2025 to July 15th, 2025

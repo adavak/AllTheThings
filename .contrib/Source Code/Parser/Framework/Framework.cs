@@ -1500,11 +1500,13 @@ namespace ATT
                 case "_quests":
                 case "_objects":
                 case "_achievements":
-                case "_factions":
                 case "_encounter":
+                case "_exploration":
+                case "_factions":
+                case "_flightpath":
+                case "_species":
                 case "_text":
                 case "_type":
-                case "_flightpath":
 
                     return field;
 

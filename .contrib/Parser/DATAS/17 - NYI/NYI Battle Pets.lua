@@ -1462,9 +1462,6 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			i(222969, {	-- Anub'Rekyute (PET!)
 				["displayID"] = 114049,
 			}),
-			i(221851, {	-- Argos (PET!)
-				["displayID"] = 118863,
-			}),
 			i(221764, {	-- Burntram (PET!)
 				["displayID"] = 103840,
 			}),

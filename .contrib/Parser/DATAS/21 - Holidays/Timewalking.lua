@@ -6377,11 +6377,11 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 						}),
 						i(234952, {	-- Crux of Blind Faith
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
-							["timeline"] = { ADDED_11_0_7 },
+							["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 }, -- EU users have reported it absent from the vendor (?)
 						}),
 						i(234953, {	-- Edge of the First Blade
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-							["timeline"] = { ADDED_11_0_7 },
+							["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 }, -- EU users have reported it absent from the vendor (?)
 						}),
 						iensemble(234946, {	-- Ensemble: Broken Shore Battlemender's Gear
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
