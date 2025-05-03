@@ -1,48 +1,96 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+-- #if MOP
+local CUTTING_EDGE_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. MOP_PHASE_LANDFALL .. [[;
+		t.rwp = 50200;
+	end
+end]];
+-- #endif
+root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
 	applyclassicphase(MOP_PHASE_LANDFALL, inst(320, {	-- Terrace of Endless Spring
-		["isRaid"] = true,
 		["coord"] = { 48.4, 61.4, THE_VEILED_STAIR },
 		["maps"] = { 456 },	-- Terrace of Endless Spring
 		["sharedLockout"] = 1,
+		["isRaid"] = true,
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(6689, {	-- Terrace of Endless Spring
 					crit(19518, {	-- Protectors of the Endless
-						["_encounter"] = { 683, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 683, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19519, {	-- Tsulong
-						["_encounter"] = { 742, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 742, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19520, {	-- Lei Shi
-						["_encounter"] = { 729, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 729, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19521, {	-- Sha of Fear
-						["_encounter"] = { 709, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 709, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 				}),
 				ach(6670),	-- Terrace of Endless Spring Guild Run
 			}),
-			n(COMMON_BOSS_DROPS, {
-				i(87208, {	-- Sigil of Power
-					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-				}),
-				i(87209, {	-- Sigil of Wisdom
-					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-				}),
-			}),
-			d(DIFFICULTY.RAID.FINDER, {	-- Queue NPC
+			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
+				-- #if AFTER 6.0.1
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
+				-- #endif
+				["g"] = {
+					e(683, {	-- Protectors of the Endless
+						["crs"] = {
+							60586,	-- Elder Asani
+							60585,	-- Elder Regail
+							60583,	-- Protector Kaolan
+						},
+					}),
+					e(742, {	-- Tsulong
+						["crs"] = { 62442 },	-- Tsulong
+						["g"] = {
+							i(167051, {	-- Azure Windseeker (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(729, {	-- Lei Shi
+						["crs"] = { 62983 },	-- Lei Shi
+						["g"] = {
+							i(167052, {	-- Spirit of the Spring (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(709, {	-- Sha of Fear
+						["crs"] = { 60999 },	-- Sha of Fear
+						["g"] = {
+							i(87210),	-- Chimera of Fear
+							i(138805, {	-- Illusion: Jade Spirit (ILLUSION!)
+								["timeline"] = { ADDED_7_0_3 },
+							}),
+							i(122199, {	-- Music Roll: Heart of Pandaria
+								["timeline"] = { ADDED_6_1_0 },
+							}),
+						},
+					}),
+				},
 			}),
-			d(DIFFICULTY.RAID.FINDER, {
+			d(DIFFICULTY.LEGACY_RAID.FINDER, {
+				-- #if AFTER 6.0.1
+				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
+				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
+				-- #endif
 				["ignoreBonus"] = true,
 				["g"] = {
 					i(95617, {	-- Dividends of the Everlasting Spring
+						-- #if AFTER 8.0.1
 						["description"] = "Since the introduction of Legacy Loot, this bag is only obtainable if you queue up as a Level 91-100 for the intended raid.  If you are 101+ then you will need to seek out each item based on their original sources.  This change occured in Patch 8.0.1.",
-						["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },
+						-- #endif
+						["timeline"] = { ADDED_5_1_0, REMOVED_8_0_1 },
 						["sym"] = {
 							{ "select", "itemID", 95618 },
 							{ "pop" },
@@ -99,16 +147,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(86881),	-- Stuff of Nightmares
 								i(86882),	-- Sunwrought Mail Hauberk
 								i(86898),	-- Weaver's Cord of Eternal Autumn
-								i(167051, {	-- Azure Windseeker (PET!)
-									["timeline"] = { ADDED_8_1_5 },
-								}),
 							},
 						}),
 						e(729, {	-- Lei Shi
 							["crs"] = { 62983 },	-- Lei Shi
 							["g"] = {
 								i(89277, {	-- Shoulders of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89278),	-- Shoulders of the Shadowy Protector
 								i(89276),	-- Shoulders of the Shadowy Vanquisher
@@ -129,20 +176,18 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(86889),	-- Taoren, the Soul Burner
 								i(86890),	-- Terror in the Mists
 								i(86898),	-- Weaver's Cord of Eternal Autumn
-								i(167052, {	-- Spirit of the Spring (PET!)
-									["timeline"] = { ADDED_8_1_5 },
-								}),
 							},
 						}),
 						e(709, {	-- Sha of Fear
 							["crs"] = { 60999 },	-- Sha of Fear
 							["g"] = {
 								i(89274, {	-- Helm of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89275),	-- Helm of the Shadowy Protector
 								i(89273),	-- Helm of the Shadowy Vanquisher
-								i(87210),	-- Chimera of Fear
 								i(86908),	-- Dreadwoven Leggings of Failure
 								i(86907),	-- Essence of Terror
 								i(86906),	-- Kilrak, Jaws of Terror
@@ -150,18 +195,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(89986),	-- Shadowgrip Girdle
 								i(86905),	-- Shin'ka, Execution of Dominion
 								i(89985),	-- Wrap of Instant Petrification
-								i(138805, {	-- Illusion: Jade Spirit (ILLUSION!)
-									["timeline"] = { ADDED_7_0_3 },
-								}),
-								i(122199, {	-- Music Roll: Heart of Pandaria
-									["timeline"] = { ADDED_6_1_0 },
-								}),
 							},
 						}),
 					}),
 				},
 			}),
-			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
+			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				n(ZONE_DROPS, {
 					i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
 					i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
@@ -182,8 +221,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
 					i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
 				}),
-			}),
-			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				e(683, {	-- Protectors of the Endless
 					["crs"] = {
 						60586,	-- Elder Asani
@@ -208,18 +245,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["crs"] = { 62442 },	-- Tsulong
 					["g"] = {
 						ach(6933),	-- Who's Got Two Green Thumbs?
-						i(167051, {	-- Azure Windseeker (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
 					},
 				}),
 				e(729, {	-- Lei Shi
 					["crs"] = { 62983 },	-- Lei Shi
 					["g"] = {
 						ach(6824),	-- Face Clutchers
-						i(167052, {	-- Spirit of the Spring (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
 					},
 				}),
 				e(709, {	-- Sha of Fear
@@ -227,13 +258,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["g"] = {
 						ach(6825),	-- The Mind-Killer
 						ach(8248, {	-- Ahead of the Curve: Sha of Fear
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
-						}),
-						i(138805, {	-- Illusion: Jade Spirit (ILLUSION!)
-							["timeline"] = { ADDED_7_0_3 },
-						}),
-						i(122199, {	-- Music Roll: Heart of Pandaria
-							["timeline"] = { ADDED_6_1_0 },
+							["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+							-- #if MOP
+							["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
+							-- #endif
 						}),
 					},
 				}),
@@ -316,7 +344,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 62983 },	-- Lei Shi
 						["g"] = {
 							i(89246, {	-- Shoulders of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89247),	-- Shoulders of the Shadowy Protector
 							i(89248),	-- Shoulders of the Shadowy Vanquisher
@@ -343,11 +373,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 60999 },	-- Sha of Fear
 						["g"] = {
 							i(89235, {	-- Helm of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89236),	-- Helm of the Shadowy Protector
 							i(89234),	-- Helm of the Shadowy Vanquisher
-							i(87210),	-- Chimera of Fear
 							i(86389),	-- Dreadwoven Leggings of Failure
 							i(86388),	-- Essence of Terror
 							i(86387),	-- Kilrak, Jaws of Terror
@@ -440,7 +471,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["g"] = {
 							ach(6733),	-- Heroic: Lei Shi
 							i(89262, {	-- Shoulders of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89263),	-- Shoulders of the Shadowy Protector
 							i(89261),	-- Shoulders of the Shadowy Vanquisher
@@ -470,18 +503,25 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								title(198),	-- the Fearless
 							}),
 							ach(7487, {	-- Cutting Edge: Sha of Fear
-								["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								-- #if MOP
+								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
+								-- #endif
 							}),
 							ach(6676),	-- Heroic: Sha of Fear Guild Run
 							ach(6678, {	-- Realm First! Sha of Fear
-								["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },
+								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								-- #if MOP
+								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
+								-- #endif
 							}),
 							i(89259, {	-- Helm of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89260),	-- Helm of the Shadowy Protector
 							i(89258),	-- Helm of the Shadowy Vanquisher
-							i(87210),	-- Chimera of Fear
 							i(87174),	-- Dreadwoven Leggings of Failure
 							i(87175),	-- Essence of Terror
 							i(87173),	-- Kilrak, Jaws of Terror

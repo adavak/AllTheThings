@@ -1833,6 +1833,7 @@ local getTimestamp = function(t)
 		minute=t.minute,
 	});
 end
+local SECONDS_IN_A_DAY = 86400;
 local SECONDS_IN_A_WEEK = 604800;
 createHeader = function(data)
 	if not data then
@@ -1972,7 +1973,7 @@ createHeader = function(data)
 						hour=0,
 						minute=0,
 					};
-					local startTimeStamp = getTimestamp(startTime);
+					local startTimeStamp = getTimestamp(startTime) + 30;	-- Add a 30 second offset to prevent bad imprecision from causing problems.
 
 					-- Find the first Sunday of the Month
 					for dayOffset = 1,14,1 do
@@ -2028,7 +2029,7 @@ createHeader = function(data)
 					--weekday=7,	-- generated below
 					hour=0,
 					minute=0,
-				});
+				}) + 30;	-- Add a 30 second offset to prevent bad imprecision from causing problems.
 
 				-- Calculate the difference between the first recorded event to now.
 				local currentYear, currentMonth = currentDate.year, currentDate.month;
@@ -2077,6 +2078,74 @@ createHeader = function(data)
 
 					-- Adjust by 2 weeks.
 					startTimeStamp = startTimeStamp + SECONDS_IN_TWO_WEEKS;
+					totalOffset = totalOffset + 1;
+				end
+			elseif data.eventSchedule[1] == 4 then	-- Recurring every week between specific weekdays and times
+				-- START: WEEKDAY, HOUR, MINUTE, DURATION (in minutes)
+				-- Example: 1, 21, 0, 120,	-- Sunday at 09:00 PM (21:00) until 11:00 AM (23:00)
+				-- Calculate the Duration of the Event (in seconds)
+				local durationOfEvent = data.eventSchedule[5] * 60;
+				
+				-- Find the first timestamp matching the desired weekday.
+				local weekday = data.eventSchedule[2];
+				local startTimeStamp = getTimestamp({
+					year=currentDate.year,
+					month=currentDate.month,
+					monthDay=currentDate.day,
+					hour=data.eventSchedule[3],
+					minute=data.eventSchedule[4],
+				}) + 30;	-- Add a 30 second offset to prevent bad imprecision from causing problems.
+				while os.date("*t", startTimeStamp).wday ~= weekday do
+					startTimeStamp = startTimeStamp - SECONDS_IN_A_DAY;
+				end
+
+				-- Calculate the difference between the first recorded event to now.
+				local currentYear, currentMonth = currentDate.year, currentDate.month;
+				local currentTimeStamp = os.time(currentDate);
+				local totalOffset = 0;
+				while true do
+					startTimeStamp = startTimeStamp + SECONDS_IN_A_WEEK;
+					if startTimeStamp < currentTimeStamp then
+						totalOffset = totalOffset + 1;
+					else
+						-- We want at least one event behind us if it is still active.
+						startTimeStamp = startTimeStamp - SECONDS_IN_A_WEEK;
+						break;
+					end
+				end
+
+				-- Now generate a full years worth of events going forward.
+				local veryfirst = true;
+				for week = 0,52,1 do
+					if veryfirst then
+						veryfirst = false;
+					else
+						schedule = schedule .. ",";
+					end
+
+					-- Determine when the event is supposed to end.
+					local startTime = os.date("*t", startTimeStamp);
+					local endTime = os.date("*t", startTimeStamp + durationOfEvent);
+
+					-- Append the schedule
+					schedule = schedule .. "\n\t_.Modules.Events.CreateSchedule(" .. concatKeyPairs({
+						year=startTime.year,
+						month=startTime.month,
+						monthDay=startTime.day,
+						weekday=startTime.wday,
+						hour=startTime.hour,
+						minute=startTime.minute,
+					}) .. "," .. concatKeyPairs({
+						year=endTime.year,
+						month=endTime.month,
+						monthDay=endTime.day,
+						weekday=endTime.wday,
+						hour=endTime.hour,
+						minute=endTime.minute,
+					}) .. ")";
+
+					-- Adjust by 1 week.
+					startTimeStamp = startTimeStamp + SECONDS_IN_A_WEEK;
 					totalOffset = totalOffset + 1;
 				end
 			else
@@ -2253,8 +2322,4 @@ for key,value in pairs(ItemDBConditional[20769]) do
 	print(" " .. key .. ": " .. value);
 end
 ]]--
-end
-
-function Harvest(things)
-	root("Items.HARVESTSOURCES", things);
 end

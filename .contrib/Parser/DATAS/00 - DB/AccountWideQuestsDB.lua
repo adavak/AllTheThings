@@ -460,6 +460,10 @@ ExportDB.AccountWideQuestsDB = {
 	[85181] = true,	-- Delver's Gob-Trotter Schematic: Balloon
 	[85183] = true,	-- Delver's Gob-Trotter Schematic: Green
 	[85775] = true,	-- G77C Ultra
+
+	-- 11.1.5
+	[86199] = true;	-- Delver's Dirigible Schematic: Arathi Decal
+	[86198] = true;	-- Delver's Dirigible Schematic: Pale Paint
 	-- #ENDIF
 
 	-- Manual scrape from a brand new character & 86000 scan of C_QuestLog.IsAccountQuest
@@ -1642,8 +1646,9 @@ ExportDB.AccountWideQuestsDB = {
 	[83700] = true,	-- Sturdy Chest
 	[83701] = true,	-- Sturdy Chest
 	[83702] = true,	-- Sturdy Chest
+	[83826] = true,	-- Luminous Nerubian Catalyst Stone
 	[83831] = true,	-- Completed Guest Relations intro quest finished with (84868) A Whiff of Help.
-	[83862] = true,	-- Luminous Nerubian Catalyst Stone
+	[84006] = true,	-- Queen's Pheromone
 	[84020] = true,	-- A Mech in Need
 	[84021] = true,	-- Machine Without Cogs
 	[84023] = true,	-- Orienting Ourselves
@@ -1855,5 +1860,7 @@ ExportDB.AccountWideQuestsDB = {
 	[89027] = true,	-- Fast Food
 	[89250] = true,
 	[89401] = true,	-- First weekly Gobfather account kill for warbound loot
+	[90597] = true,	-- Arsenal: Children's Stormwind Guard Weapon Set
+	[90598] = true,	-- Arsenal: Children's Orgrimmar Guard Weapon Set
 	-- #ENDIF
 }

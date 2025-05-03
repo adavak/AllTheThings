@@ -669,15 +669,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 						-- Repeatable Event quests within Ember Court
 						n(QUESTS, sharedData({["isDaily"] = true},{
 							applyevent(EVENTS.NOBLEGARDEN, q(63721, {	-- Lord Garridan's Egg
+								["qg"] = 165454, -- Lord Garridan
+								["coord"] = { 38.6, 33.0, 1644 }, -- Ember Court
 								["cost"] = { { "i", 185684, 1 } },	-- Lord Garridan's Egg
 							})),
 							applyevent(EVENTS.NOBLEGARDEN, q(63720, {	-- Prince Renethal's Egg
+								["qg"] = 164965, -- Prince Renathal
 								["cost"] = { { "i", 185683, 1 } },	-- Prince Renethal's Egg
 							})),
 							applyevent(EVENTS.NOBLEGARDEN, q(63718, {	-- Theotar's Egg
+								["qg"] = 165196, -- Theotar <The Mad Duke>
+								["coord"] = { 54.8, 21.0, 1644 }, -- Ember Court
 								["cost"] = { { "i", 185681, 1 } },	-- Theotar's Egg
 							})),
 							applyevent(EVENTS.NOBLEGARDEN, q(63719, {	-- Temel's Egg
+								["qg"] = 165149, -- Temel <The Party Herald>
+								["coord"] = { 41.0, 45.6, 1644 }, -- Ember Court
 								["cost"] = { { "i", 185682, 1 } },	-- Temel's Egg
 							})),
 							q(62146),	-- A Little More Comfortable
@@ -688,6 +695,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							q(62136),	-- Clumpdump
 							q(62128),	-- Concert Kick-Off
 							q(62138),	-- Court Crusher
+							q(61445, {	-- Court Gossip (+Relaxing)
+								["qg"] = 164965, -- Prince Renathal
+								["coord"] = { 51.8, 23.9, 1644 }, -- Ember Court
+							}),
 							q(62145),	-- Crime of Fashion
 							q(62129),	-- Dance For Love
 							q(62111),	-- Drezgruda
@@ -701,6 +712,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							q(62139),	-- Knockerbock
 							q(62144),	-- Legacy of Stone
 							q(62134),	-- Lower Your Standards
+							q(60930, {	-- Lower Your Standards
+								["qg"] = 165500, -- Picky Stefan
+								["coord"] = { 32.9, 57.6, 1644 }, -- Ember Court
+								["g"] = {
+									o_repeated({
+										i(180470),	-- Wild Fungus
+										o(354079),	-- Scorchshroom
+										o(354080),	-- Smokeshroom
+										o(354081),	-- Scorchshroom Clump
+										o(354082),	-- Smokeshroom Clump
+										o(354083),	-- Shardshroom
+									}),
+								},
+							}),
 							q(62133),	-- Made to Order
 							q(62122),	-- Mystery Mirrors
 							q(62113),	-- Party Crashers
@@ -719,7 +744,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							q(62114),	-- Sineater
 							q(62112),	-- Sloppy
 							q(62120),	-- Stolen Mementos
-							q(61725),	-- Stolen Mementos
+							q(61725, {	-- Stolen Mementos
+								["qg"] = 171449, -- Keeper Ta'saran
+								["coord"] = { 42.5, 73.6, 1644 }, -- Ember Court
+							}),
 							q(65056),	-- Stop the Slip
 							q(62131),	-- Tea Time
 							q(62171),	-- Tea Time
@@ -728,6 +756,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							q(62118),	-- Traditional Candles
 							q(65054),	-- Training Dummies
 							q(62140),	-- Venthyr Provocateur
+							q(60957, {	-- Ansel's Lucky Violin
+								["qg"] = 170881, -- Lucky Ansel
+								["coord"] = { 53.3, 36.5, 1644 }, -- Ember Court
+							}),
+							q(60960, {	-- Chiu's Lute
+								-- ["qg"] = 171449, -- Keeper Ta'saran
+								-- ["coord"] = { 42.5, 73.6, 1644 }, -- Ember Court
+							}),
+							q(60955, {	-- Noko's Flute
+								-- ["qg"] = 171449, -- Keeper Ta'saran
+								-- ["coord"] = { 42.5, 73.6, 1644 }, -- Ember Court
+							}),
 						})),
 						n(SCENARIO_COMPLETION, {
 							["description"] = "Some rewards drop from the non-Extravagant tribute chests, but targeting the Extravagant tribute from Elated guests is the best way to get rare loot.",	-- typically a few pieces will drop from the regular/medium chests, but it appears to be the same loot that drops from Extravagant chests - just listing the Extravagant chest for source and duplication reduction, especially since some pieces drop from multiple guests' chests
@@ -750,6 +790,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356693, {	-- Baroness Vashj's Extravagant Tribute
 									["crs"] = { 168444 },	-- Baroness Vashj <Matron of Spies>
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(VASHJ_GROUP, {
 										i(178894),	-- Decree: Baroness Vashj's Boon
 										i(183860),	-- The Death March: An Introduction to Maldraxxi Etiquette
@@ -759,6 +800,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356720, {	-- Choofa's Extravagant Tribute
 									["crs"] = { 168449 },	-- Choofa
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(CHOOFA_GROUP, {
 										i(178902),	-- Rejuvenating Sprig
 										i(178899),	-- Treecorn
@@ -773,12 +815,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356752, {	-- Cryptkeeper Kassir's Extravagant Tribute
 									["crs"] = { 168450 },	-- Cryptkeeper Kassir
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(KASSIR_GROUP, {
 										i(183862),	-- A Proper Soiree: A detailed account of Venthyr Etiquette by Theotar
 									}),
 								}),
 								o(356716, {	-- Droman Aliothe's Extravagant Tribute
 									["crs"] = { 171847 },	-- Droman Aliothe <Court of Night>
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(DORMAN_GROUP, {
 										i(183861),	-- The Winter Cycle: A Collection of Ardenweald Etiquettes and Parables
 										i(181438, {	-- The Wild Drum (EC!)
@@ -788,6 +832,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356700, {	-- Grandmaster Vole's Extravagant Tribute
 									["crs"] = { 171848 },	-- Grandmaster Vole
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(VOLE_GROUP, {
 										i(181761),	-- The Grandmaster's Voucher
 										i(181765),	-- Marcel Mullby's Marker
@@ -797,6 +842,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356712, {	-- Hunt-Captain Korayn's Extravagant Tribute
 									["crs"] = { 171836 },	-- Hunt-Captain Korayn <The Wild Hunt>
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(KORAYN_GROUP, {
 										i(181618),	-- Gorm Quishe Platter
 										i(181620),	-- Hard Boiled Gorm Egg
@@ -810,12 +856,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										171850,	-- Kleia
 										171851,	-- Pelagos
 									},
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(KLEIA_AND_PELAGOS_GROUP, {
 										i(183863),	-- The Proper Path and Etiquette for Aspirants
 									}),
 								}),
 								o(356709, {	-- Lady Moonberry's Extravagant Tribute
 									["crs"] = { 171830 },	-- Lady Moonberry <Court of Night>
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(MOONBERRY_GROUP, {
 										i(181613),	-- Decree: Lady Moonberry's Boon
 										i(181607),	-- Decree: Lady Moonberry's Esteem
@@ -828,6 +876,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356728, {	-- Mikanikos' Extravagant Tribute
 									["crs"] = { 171831 },	-- Mikanikos <Forgelite Prime>
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(MIKANIKOS_GROUP, {
 										i(181563),	-- Decree: Mikanikos's Boon
 										i(181564),	-- Decree: Mikanikos's Esteem
@@ -840,6 +889,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356705, {	-- Plague Deviser Marileth's Extravagant Tribute
 									["crs"] = { 171852 },	-- Plague Deviser Marileth
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(MARILETH_GROUP, {
 										i(181621),	-- Hyper-Reactive Slime Sample
 										i(181622),	-- Slightly Irradiated Slime Sample
@@ -852,6 +902,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356725, {	-- Polemarch Adrestes' Extravagant Tribute
 									["crs"] = { 168447 },	-- Polemarch Adrestes
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(ADRESTES_GROUP, {
 										i(178897),	-- Stalwart Pauldron of Resolve
 										i(178896),	-- Stalwart Gloves of Resolve
@@ -868,6 +919,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										171841,	-- Cudgelface
 										171839,	-- Rendle
 									},
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(RENDLE_AND_CUDGELFACE_GROUP, {
 										i(181780),	-- An Undelivered Tradesman's Shipment
 										i(183862),	-- A Proper Soiree: A detailed account of Venthyr Etiquette by Theotar
@@ -884,6 +936,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356737, {	-- Sika's Extravagant Tribute
 									["crs"] = { 171854 },	-- Sika
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(SIKA_GROUP, {
 										i(183886),	-- Sika's Rare Ore Pouch
 										i(183885),	-- Sika's Spare Ore Pouch
@@ -896,6 +949,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356748, {	-- Stonehead's Extravagant Tribute
 									["crs"] = { 171856 },	-- Stonehead
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(STONEHEAD_GROUP, {
 										i(183709),	-- Bronze-Bound Sinstone
 										i(183862),	-- A Proper Soiree: A detailed account of Venthyr Etiquette by Theotar
@@ -911,6 +965,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								}),
 								o(356741, {	-- The Countess' Extravagant Tribute
 									["crs"] = { 165269 },	-- The Countess <Harvester of Desire>
+									["coord"] = { 47.5, 41.2, 1644 }, -- Ember Court
 									["g"] = appendGroups(COUNTESS_GROUP, {
 										i(182209),	-- Desire's Battle Gargon (MOUNT!)
 										i(181566),	-- Decree: The Countess's Boon
@@ -1589,7 +1644,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 38.9, 66.0, REVENDRETH },
 									["g"] = {
 										i(178686),	-- RSVP: Stonehead
-										i(171343),	-- Blank Parchment (QI!)
+										o(354075, {	-- Blank Parchment
+											["coords"] = {
+												{ 37.8, 68.4, REVENDRETH },
+												{ 38.0, 70.3, REVENDRETH },
+												{ 38.1, 69.4, REVENDRETH },
+												{ 38.2, 71.4, REVENDRETH },
+												{ 38.8, 69.9, REVENDRETH },
+											},
+											["g"] = { i(171343) },	-- Blank Parchment (QI!)
+										}),
 										i(171344),	-- Venthyr Calligraphy Set (QI!)
 										i(180466),	-- Forged Permission Slip (QI!)
 									},
@@ -2005,6 +2069,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["icon"] = 3750314,
 							["g"] = {
 								q(60825, {	-- Amateur Spies
+									["provider"] = { "n", 168445 },	-- Baroness Vashj
 									["isDaily"] = true,
 									["g"] = {
 										i(180296),	-- Shrouded Necromancer Head
@@ -2055,7 +2120,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										i(181251),	-- Blooming Lasher Spur (QI!)
 										i(181250),	-- Gorm Pheromone Gland (QI!)
 										i(176112),	-- RSVP: Lady Moonberry
-										i(181252),	-- Silverheart Vine Leaves (QI!)
+										o(355807, {	-- Silverheart Vines
+											["coords"] = {
+												{ 47.7, 39.4, ARDENWEALD },
+												{ 48.2, 40.6, ARDENWEALD },
+												{ 49.6, 40.9, ARDENWEALD },
+												{ 49.9, 38.1, ARDENWEALD },
+												{ 49.9, 39.6, ARDENWEALD },
+												{ 50.4, 41.5, ARDENWEALD },
+												{ 50.5, 39.4, ARDENWEALD },
+												{ 50.5, 41.4, ARDENWEALD },
+											},
+											["g"] = { i(181252) },	-- Silverheart Vine Leaves (QI!)
+										}),
 									},
 								}),
 								q(61173, {	-- RSVP: Mikanikos
@@ -2572,12 +2649,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 					q(61929),	-- also completed when finishing "Theotar's Toast" objective
 					q(61164),	-- triggered completed upon finishing the #62117 "Party Crashers"
 					q(61162),	-- for the #62113 version of "Party Crashers"
-					q(60930),	-- "Lower Your Standards," sort of a real quest?  but repeatable, only available when certain choices are made for ember court, pointless in general, doesn't seem worth tracking
-					q(60957),	-- "Ansel's Lucky Violin," sort of a real quest?  but repeatable, only available when certain choices are made for ember court, pointless in general, doesn't seem worth tracking
-					q(60960),	-- "Chiu's Lute," sort of a real quest?  but repeatable, only available when certain choices are made for ember court, pointless in general, doesn't seem worth tracking
-					q(60955),	-- "Noko's Flute," same as above
 					q(61433),	-- "Lower Your Standards," for turning in Giant Lungcap to Picky Stefan
-					q(61445),	-- triggered completed upon turning in gossip to Prince Renathal for the "Venthyr Provocateur" objective (assume this is for sharing the gossip to make court +Exciting)
 					-- q(62496),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
 					-- q(62512),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
 					-- q(62499),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)

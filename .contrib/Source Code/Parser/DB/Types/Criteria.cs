@@ -55,6 +55,10 @@ namespace ATT.DB.Types
             GetRequiredFlightPath() > 0 ||
             GetRecruitFollowerID() > 0 ||
             GetGarrisonMissionID() > 0 ||
+            // Currency gained
+            Type == 12 ||
+            // Do an emote
+            Type == 54 ||
             // Reveal world map overlay "{WorldMapOverlay}" (Exploration stuff)
             Type == 43 ||
             // Equip item in slot "{$Equip Slot}"

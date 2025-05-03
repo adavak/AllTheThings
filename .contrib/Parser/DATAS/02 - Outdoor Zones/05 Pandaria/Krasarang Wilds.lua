@@ -23,7 +23,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(7518),	-- Wanderers, Dreamers, and You
 				}),
 				battlepets({
 					["sym"] = {{"select","speciesID",
@@ -39,9 +38,6 @@ root(ROOTS.Zones, {
 						pet(717),	-- Savory Beetle (PET!)
 						pet(712),	-- Sifang Otter Pup (PET!)
 						pet(723),	-- Spiny Terrapin (PET!)
-						pet(1013, {	-- Wanderer's Festival Hatchling (PET!)
-							["description"] = "This wild pet can be found on Turtle Beach in Krasarang Wilds. It only spawns during the Wanderer's Festival. The festival is held only on Sunday night from 9 PM to 11 PM (PST(US)/CEST(EU)/AEST(OCE). During the festival, floating lanterns appear on the surface of the water and Pandaren NPCs wander onto the beach to set up bonfires and shoot off fireworks. Shortly after, the Wanderer's Festival Hatchlings appear.",
-						}),
 					},
 				}),
 				explorationHeader({
@@ -3116,7 +3112,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 			}),
 			n(QUESTS, {
 				q(30087),	-- FLAG - Kung Fu Intro — triggers either when flying close to the magical barrier or after accepting The "Arcanic Oubliette" (questID 30274)
-				q(55163),	-- Throw a lantern into the water during the Wanderer's Festival
 				q(32477, { ["timeline"] = { ADDED_5_1_0 } }),	-- Tracking Event: Player is Back in Time - going back and forth in time via Taradormi
 			}),
 		}),

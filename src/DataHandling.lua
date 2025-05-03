@@ -292,25 +292,33 @@ app.UpdateGroups = UpdateGroups
 local function AdjustParentProgress(group, progChange, totalChange, costChange, upgradeChange)
 	-- rawget, .parent will default to sourceParent in some cases
 	local parent = group and not group.sourceIgnored and rawget(group, "parent")
-	if parent then
-		-- app.PrintDebug("APP:",parent.text)
-		-- app.PrintDebug("CUR:",parent.progress,parent.total)
-		-- app.PrintDebug("CHG:",progChange,totalChange)
-		parent.total = (parent.total or 0) + totalChange
-		parent.progress = (parent.progress or 0) + progChange
-		parent.costTotal = (parent.costTotal or 0) + costChange
-		parent.upgradeTotal = (parent.upgradeTotal or 0) + upgradeChange
-		-- Assign cost cache
-		-- app.PrintDebug("END:",parent.progress,parent.total)
-		-- verify visibility of the group, always a 'group' since it is already a parent of another group, as long as it's not the root window data
-		if not parent.window then
-			parent.visible = nil
-			SetGroupVisibility(rawget(parent, "parent"), parent)
-		end
-		AdjustParentProgress(parent, progChange, totalChange, costChange, upgradeChange)
-	end
-end
+	if not parent then return end
 
+	-- app.PrintDebug("APP:",parent.progress,progChange,parent.total,totalChange,costChange,upgradeChange,app:SearchLink(parent))
+	parent.total = (parent.total or 0) + totalChange
+	parent.progress = (parent.progress or 0) + progChange
+	parent.costTotal = (parent.costTotal or 0) + costChange
+	parent.upgradeTotal = (parent.upgradeTotal or 0) + upgradeChange
+	-- Assign cost cache
+	-- app.PrintDebug("END:",parent.progress,parent.total)
+	-- verify visibility of the group, always a 'group' since it is already a parent of another group, as long as it's not the root window data
+	if not parent.window then
+		parent.visible = nil
+		SetGroupVisibility(rawget(parent, "parent"), parent)
+	end
+	AdjustParentProgress(parent, progChange, totalChange, costChange, upgradeChange)
+end
+local function AdjustParentVisibility(group)
+	local parent = group and rawget(group, "parent")
+	if not parent then return end
+
+	-- app.PrintDebug("APV:",app:SearchLink(group),"->",app:SearchLink(parent))
+	if not parent.window then
+		group.visible = nil
+		SetGroupVisibility(parent, group)
+	end
+	AdjustParentVisibility(parent)
+end
 
 -- For directly applying the full Update operation for the top-level data group within a window
 local function TopLevelUpdateGroup(group)
@@ -327,14 +335,14 @@ local function TopLevelUpdateGroup(group)
 	end
 	if group.OnUpdate then
 		if not group:OnUpdate(nil, UpdateGroup) then
-			UpdateGroup(group)
+			UpdateGroup(group, rawget(group, "parent"))
 		elseif group.visible then
 			group.total = nil
 			group.progress = nil
 			UpdateGroups(group, group.g)
 		end
 	else
-		UpdateGroup(group)
+		UpdateGroup(group, rawget(group, "parent"))
 	end
 	-- app.PrintDebugPrior("TLUG",group.hash)
 end
@@ -410,6 +418,11 @@ end
 app.DirectGroupUpdate = DirectGroupUpdate
 -- Trigger a soft-Update of the window containing the specific group, regardless of Filtering/Visibility of the group
 local function DirectGroupRefresh(group)
+	local isForceShown = group.forceShow
+	-- Allow adjusting visibility only if needed
+	if isForceShown then
+		AdjustParentVisibility(group)
+	end
 	local window = app.GetRelativeRawWithField(group, "window")
 	if window then
 		-- app.PrintDebug("DGR:Refresh",group.hash,">",DGUDelay,window.Suffix,window.Refresh)

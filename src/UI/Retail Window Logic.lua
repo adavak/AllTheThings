@@ -30,6 +30,7 @@ local TryColorizeName = app.TryColorizeName
 local GetRelativeValue = app.GetRelativeValue
 local SearchForField, SearchForObject = app.SearchForField, app.SearchForObject
 local IsQuestFlaggedCompleted = app.IsQuestFlaggedCompleted
+local GetUnobtainableTexture = app.GetUnobtainableTexture
 
 app.Windows = {};
 
@@ -108,6 +109,9 @@ local function ProcessGroup(data, object)
 		end
 	end
 end
+-- TODO: instead of requiring 'got' parameter to indicate something was collected
+-- to trigger the complete sound for a 100% window, let's have the window check a field for externally-assigned new collection
+-- and clear on update
 local function UpdateWindow(self, force, got)
 	local data = self.data;
 	-- TODO: remove IsReady check when Windows have OnInit capability
@@ -135,10 +139,10 @@ local function UpdateWindow(self, force, got)
 		data.expanded = true;
 		if not self.doesOwnUpdate and force then
 			self:ToggleExtraFilters(true)
-			app.PrintDebug(Colorize("TLUG", app.Colors.Time),self.Suffix)
+			-- app.PrintDebug(Colorize("TLUG", app.Colors.Time),self.Suffix)
 			app.TopLevelUpdateGroup(data);
 			self.HasPendingUpdate = nil;
-			app.PrintDebugPrior("Done")
+			-- app.PrintDebugPrior("Done")
 			self:ToggleExtraFilters()
 		end
 
@@ -208,6 +212,7 @@ local function ClearRowData(self)
 	self.Indicator:Hide();
 	self.Summary:Hide();
 	self.Label:Hide();
+	self:SetHighlightLocked(false)
 end
 local function CalculateRowIndent(data)
 	if data.indent then return data.indent; end
@@ -283,44 +288,6 @@ local function SetPortraitIcon(self, data)
 	self:SetTexture(QUESTION_MARK_ICON);
 	return true
 end
-local function GetUnobtainableTexture(group)
-	if not group then return; end
-	if type(group) ~= "table" then
-		-- This function shouldn't be used with only u anymore!
-		app.print("Invalid use of GetUnobtainableTexture", group);
-		return;
-	end
-
-	-- Determine the texture color, default is green for events.
-	-- TODO: Use 4 for inactive events, use 5 for active events
-	local filter, u = 4, group.u;
-	if u then
-		-- only b = 0 (BoE), not BoA/BoP
-		-- removed, elite, bmah, tcg, summon
-		if u > 1 and u < 12 and group.itemID and (group.b or 0) == 0 then
-			filter = 2;
-		else
-			local phase = L.PHASES[u];
-			if phase then
-				if not phase.buildVersion or app.GameBuildVersion < phase.buildVersion then
-					filter = phase.state or 0;
-				else
-					-- This is a phase that's available. No icon.
-					return;
-				end
-			else
-				-- otherwise it's an invalid unobtainable filter
-				app.print("Invalid Unobtainable Filter:",u);
-				return;
-			end
-		end
-		return L.UNOBTAINABLE_ITEM_TEXTURES[filter];
-	end
-	if group.e then
-		return L.UNOBTAINABLE_ITEM_TEXTURES[app.Modules.Events.FilterIsEventActive(group) and 5 or 4];
-	end
-end
-app.GetUnobtainableTexture = GetUnobtainableTexture;
 -- Returns an applicable Indicator Icon Texture for the specific group if one can be determined
  local function GetIndicatorIcon(group)
 	-- Use the group's own indicator if defined
@@ -587,6 +554,9 @@ local function SetRowData(self, row, data)
 			rowLabel:SetFontObject("GameFontNormal");
 			rowSummary:SetFontObject("GameFontNormal");
 		end
+		if self.HightlightDatas[data] then
+			row:SetHighlightLocked(true)
+		end
 		row:Show();
 	else
 		row:Hide();
@@ -636,18 +606,38 @@ local function Refresh(self)
 
 	-- Fill the remaining rows up to the (visible) row count.
 	local container, windowPad, minIndent = self.Container, 0, nil;
+	local rows = container.rows
 	local current = math.max(1, math.min(self.ScrollBar.CurrentValue, totalRowCount)) + 1
 
 	-- Ensure that the first row doesn't move out of position.
-	local row = container.rows[1]
+	local row = rows[1]
 	SetRowData(self, row, rowData[1]);
 
 	local containerHeight = container:GetHeight();
 	local rowHeight = row:GetHeight()
 	local rowCount = math.floor(containerHeight / rowHeight)
 
+	-- Should this window attempt to scroll to specific data?
+	if self.ScrollInfo then
+		local field, value = self.ScrollInfo[1], self.ScrollInfo[2]
+		-- app.PrintDebug("ScrollInfo",field,value)
+		wipe(self.HightlightDatas)
+		local foundAt, ref
+		for i=2,totalRowCount do
+			ref = rowData[i]
+			if ref and ref[field] == value then
+				if not foundAt then foundAt = i end
+				self.HightlightDatas[ref] = true
+			end
+		end
+		if foundAt then
+			-- app.PrintDebug("ScrollTo",foundAt)
+			self.ScrollInfo.ScrollTo = foundAt
+		end
+	end
+
 	for i=2,rowCount do
-		row = container.rows[i]
+		row = rows[i]
 		SetRowData(self, row, rowData[current]);
 		-- track the minimum indentation within the set of rows so they can be adjusted later
 		if row.indent and (not minIndent or row.indent < minIndent) then
@@ -659,7 +649,7 @@ local function Refresh(self)
 
 	-- Readjust the indent of visible rows
 	-- if there's actually an indent to adjust on top row (due to possible indicator)
-	row = container.rows[1];
+	row = rows[1];
 	if row.indent ~= windowPad then
 		AdjustRowIndent(row, row.indent - windowPad);
 		-- increase the window pad extra for sub-rows so they will indent slightly more than the header row with indicator
@@ -672,7 +662,7 @@ local function Refresh(self)
 	--	-- header only adjust
 	-- 	headerAdjust = startIndent - 8;
 	-- 	print("header adjust",headerAdjust)
-	-- 	row = container.rows[1];
+	-- 	row = rows[1];
 	-- 	AdjustRowIndent(row, headerAdjust);
 	-- end
 	-- adjust remaining rows to align on the left
@@ -680,14 +670,14 @@ local function Refresh(self)
 		-- print("minIndent",minIndent,windowPad)
 		local adjust = minIndent - windowPad;
 		for i=2,rowCount do
-			row = container.rows[i];
+			row = rows[i];
 			AdjustRowIndent(row, adjust);
 		end
 	end
 
 	-- Hide the extra rows if any exist
-	for i=math.max(2, rowCount + 1),#container.rows do
-		row = container.rows[i];
+	for i=math.max(2, rowCount + 1),#rows do
+		row = rows[i];
 		ClearRowData(row);
 		row:Hide();
 	end
@@ -703,6 +693,14 @@ local function Refresh(self)
 		totalRowCount = totalRowCount + 1;
 		self.ScrollBar:SetMinMaxValues(1, totalRowCount - rowCount);
 		self.ScrollBar:SetStepsPerPage(rowCount - 2);
+	end
+
+	-- Actually do the scroll if it was determined above
+	if self.ScrollInfo then
+		if self.ScrollInfo.ScrollTo then
+			self.ScrollBar:SetValue(math.max(1, self.ScrollInfo.ScrollTo - (rowCount / 2)))
+		end
+		self.ScrollInfo = nil
 	end
 
 	-- If this window has an UpdateDone method which should process after the Refresh is complete
@@ -984,6 +982,9 @@ local function ToggleATTMoving(self)
 		self.isMoving = true
 	end
 end
+local function ScrollTo(self, field, value)
+	self.ScrollInfo = { field, value }
+end
 function app:GetWindow(suffix, parent, onUpdate)
 	if app.GetCustomWindowParam(suffix, "reset") then
 		ResetWindow(suffix);
@@ -1011,6 +1012,7 @@ function app:GetWindow(suffix, parent, onUpdate)
 	window.BuildData = BuildData;
 	window.GetRunner = GetRunner;
 	window.ToggleExtraFilters = ToggleExtraFilters
+	window.ScrollTo = ScrollTo
 
 	window:SetScript("OnMouseWheel", OnScrollBarMouseWheel);
 	window:SetScript("OnMouseDown", StartMovingOrSizing);
@@ -1121,6 +1123,7 @@ function app:GetWindow(suffix, parent, onUpdate)
 
 	-- Ensure the window updates itself when opened for the first time
 	window.HasPendingUpdate = true;
+	window.HightlightDatas = {}
 	-- TODO: eventually remove this when Windows are re-designed to have an OnInit/OnUpdate distinction for Retail
 	window:Update();
 	return window;
@@ -1700,6 +1703,11 @@ end)
 app.AddEventHandler("RowOnEnter", function(self)
 	local reference = self.ref;
 	if not reference then return; end
+	local window = self:GetParent():GetParent()
+	if window.HightlightDatas[reference] then
+		window.HightlightDatas[reference] = nil
+		self:SetHighlightLocked(false)
+	end
 	reference.working = nil;
 	local tooltip = GameTooltip;
 	if not tooltip then return end;
@@ -2222,8 +2230,8 @@ app.AddEventHandler("RowOnEnter", function(self)
 	end
 	-- Add info in tooltip for the header of a Window for whether it is locked or not
 	if self.index == 0 then
-		local owner = self:GetParent():GetParent();
-		if owner and owner.isLocked then
+		local window = self:GetParent():GetParent();
+		if window and window.isLocked then
 			tooltipInfo[#tooltipInfo + 1] = {
 				left = L.TOP_ROW_TO_UNLOCK,
 			}

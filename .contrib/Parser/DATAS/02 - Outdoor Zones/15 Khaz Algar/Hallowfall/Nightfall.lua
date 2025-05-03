@@ -636,25 +636,24 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(238391),	-- Arathi Minister's Receptacle
 								i(237494),	-- Hallowed Tome of the Abbot
 							}),
-							--[[	-- No Weapons on Vendor
 							n(WEAPONS, {
-								i(237791),	-- Arathi Zealot's Cleaver
-								i(237797),	-- Arathi Zealot's Dagger
-								i(237798),	-- Arathi Zealot's Knife
-								i(237803),	-- Arathi Abbot's Kris
-								i(237802),	-- Arathi Cleric's Blunderbuss
-								i(237804),	-- Arathi Zealot's Shotgun
-								i(237795),	-- Arathi Abbot's Gavel
-								i(237796),	-- Arathi Zealot's Cudgel
-								i(237801),	-- Arathi Abbot's Implement
-								i(237792),	-- Arathi Crusader's Halberd
-								i(237793),	-- Arathi Crusader's Bulwark
-								i(237800),	-- Arathi Cleric's Rod
-								i(237799),	-- Arathi Abbot's Greatstaff
-								i(237794),	-- Arathi Crusader's Greatsword
-								i(237806),	-- Arathi Abbot's Wand
-								i(237805),	-- Arathi Zealot's Warglaive
-							}),--]]
+								i(237795), -- Arathi Abbot's Gavel
+								i(237799), -- Arathi Abbot's Greatstaff
+								i(237801), -- Arathi Abbot's Implement
+								i(237803), -- Arathi Abbot's Kris
+								i(237806), -- Arathi Abbot's Wand
+								i(237802), -- Arathi Cleric's Blunderbuss
+								i(237800), -- Arathi Cleric's Rod
+								i(237793), -- Arathi Crusader's Bulwark
+								i(237794), -- Arathi Crusader's Greatsword
+								i(237792), -- Arathi Crusader's Halberd
+								i(237791), -- Arathi Zealot's Cleaver
+								i(237796), -- Arathi Zealot's Cudgel
+								i(237797), -- Arathi Zealot's Dagger
+								i(237798), -- Arathi Zealot's Knife
+								i(237804), -- Arathi Zealot's Shotgun
+								i(237805), -- Arathi Zealot's Warglaive
+							}),
 						}),
 					}),
 				}),

@@ -21,49 +21,49 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			n(ACHIEVEMENTS, {
 				ach(8069, {	-- Last Stand of the Zandalari
 					crit(22912, {	-- Jin'rokh the Breaker
-						["_encounter"] = { 827, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 827, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22984, {	-- Horridon
-						["_encounter"] = { 819, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 819, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22963, {	-- Council of Elders
-						["_encounter"] = { 816, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 816, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 				}),
 				ach(8070, {	-- Forgotten Depths
 					crit(22985, {	-- Tortos
-						["_encounter"] = { 825, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 825, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22986, {	-- Megaera
-						["_encounter"] = { 821, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 821, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22987, {	-- Ji-Kun
-						["_encounter"] = { 828, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 828, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 				}),
 				ach(8071, {	-- Halls of Flesh-Shaping
 					crit(22988, {	-- Durumu the Forgotten
-						["_encounter"] = { 818, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 818, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22989, {	-- Primordius
-						["_encounter"] = { 820, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 820, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22990, {	-- Dark Animus
-						["_encounter"] = { 824, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 824, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 				}),
 				ach(8072, {	-- Pinnacle of Storms
 					crit(22991, {	-- Iron Qon
-						["_encounter"] = { 817, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 817, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(22965, {	-- Twin Empyreans
-						["_encounter"] = { 829, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 829, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 					crit(23317, {	-- Lei Shen
-						["_encounter"] = { 832, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 832, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 				}),
-				ach(8124, {		-- Glory of the Thundering Raider
+				ach(8124, {	-- Glory of the Thundering Raider
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",
 						8056,	-- Heroic: Jin'rokh the Breaker
@@ -94,15 +94,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						i(93662),	-- Armored Skyscreamer (MOUNT!)
 					},
 				}),
-				ach(11758),	-- Thunderwear
+				ach(11758, {["timeline"] = {ADDED_7_2_0}}),	-- Thunderwear
 				ach(8210),	-- Shado-Pan Assault
 
 				-- Guild Achievements
 				ach(8140),	-- Throne of Thunder Guild Run
 			}),
 			n(COMMON_BOSS_DROPS, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 } }, {
-				i(87208),	-- Sigil of Power
-				i(87209),	-- Sigil of Wisdom
 				i(94593),	-- Secrets of the Empire
 				i(94594),	-- Titan Runestone
 			})),
@@ -215,11 +213,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(96340),	-- Vaultwalker Sabatons
 				}),
 			}),
-			d(DIFFICULTY.RAID.FINDER, {	-- Queue NPC
+			-- #if AFTER 6.0.1
+			d(DIFFICULTY.LEGACY_RAID.FINDER, {	-- Queue NPC
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
 			}),
-			d(DIFFICULTY.RAID.FINDER, {
+			-- #endif
+			d(DIFFICULTY.LEGACY_RAID.FINDER, {
 				header(HEADERS.Item, 95343, {	-- Treasures of the Thunder
 					-- Could sym it to every Throne boss for MOP Classic
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },

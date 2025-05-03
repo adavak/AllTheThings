@@ -7,7 +7,10 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 using static ATT.Export;
+using static ATT.Framework;
 
 namespace ATT
 {
@@ -60,12 +63,6 @@ namespace ATT
                 MergeItemDB(wagoItemDb.Values.Select(i => i.AsData()));
             }
 
-            // Item Modified Appearance (Sources)
-            if (TypeDB.TryGetValue("ItemModifiedAppearance", out IDictionary<long, IDBType> wagoSourceDb))
-            {
-                MergeItemDB(wagoSourceDb.Values.Select(i => i.AsData()));
-            }
-
             // Item Search Name (Quality, Required Skills, Item Level, Race/Class Requirements)
             if (TypeDB.TryGetValue("ItemSearchName", out IDictionary<long, IDBType> wagoItemSearchDb))
             {
@@ -75,7 +72,7 @@ namespace ATT
             // GlyphGB
             if (TypeDB.TryGetValue("GlyphProperties", out IDictionary<long, IDBType> wagoGlyphDb))
             {
-                foreach(var obj in wagoGlyphDb.Values)
+                foreach (var obj in wagoGlyphDb.Values)
                 {
                     if (obj is GlyphProperties glyph)
                     {
@@ -92,7 +89,7 @@ namespace ATT
                     if (obj is TaxiNodes fp)
                     {
                         string englishName = fp.Name_lang;
-                        if(!string.IsNullOrEmpty(englishName))
+                        if (!string.IsNullOrEmpty(englishName))
                         {
                             if (!FlightPathDB.TryGetValue(fp.ID, out var flightPath))
                             {
@@ -568,91 +565,154 @@ namespace ATT
                 CaptureDebugDBData(data);
             }
 
-            // handle the current processing against the data
-            if (!ProcessingFunction(data, parentData))
-                return false;
+            // Cache the state of values that are inherited from parent objects to their children.
+            
+            var cachedDifficultyRoot = DifficultyRoot;
+            long cachedDifficulty = NestedDifficultyID;
+            long cachedHeaderID = NestedHeaderID;
+            long cachedItemAppearanceModifierID = NestedItemAppearanceModifierID;
+            long cachedBonusID = NestedBonusID;
+            long cachedModID = NestedModID;
 
-            // If this container has an aqd or hqd, then process those objects as well.
-            if (data.TryGetValue("aqd", out IDictionary<string, object> qd)) Process(qd, data);
-            if (data.TryGetValue("hqd", out qd)) Process(qd, data);
-
-            // If this container has groups, then process those groups as well.
-            if (data.TryGetValue("g", out List<object> groups))
+            // Track the hierarchy of difficultyID
+            if ((data.TryGetValue("_multiDifficultyID", out long nestedDiffID) || data.TryGetValue("difficultyID", out nestedDiffID)) && nestedDiffID != NestedDifficultyID)
             {
-                var previousParent = CurrentParentGroup;
-                if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
-                    CurrentParentGroup = new KeyValuePair<string, object>(objectData.ObjectType, objKeyValue);
-                // Track the hierarchy of modID
-                bool restoreModID = false;
-                long previousMod = NestedModID;
-                if (data.TryGetValue("modID", out long nestedModID) && nestedModID != NestedModID)
-                {
-                    NestedModID = nestedModID;
-                    restoreModID = true;
-                    //LogDebug($"INFO: New inherited modID {NestedModID}", data);
-                }
-                // Track the hierarchy of difficultyID
-                bool restoreDifficulty = false;
-                var previousDifficultyRoot = DifficultyRoot;
-                var previousDifficulty = NestedDifficultyID;
-                if ((data.TryGetValue("_multiDifficultyID", out long nestedDiffID) || data.TryGetValue("difficultyID", out nestedDiffID)) && nestedDiffID != NestedDifficultyID)
-                {
-                    DifficultyRoot = data;
-                    NestedDifficultyID = nestedDiffID;
-                    restoreDifficulty = true;
-                    //LogDebug($"INFO: New inherited difficultyID {NestedDifficultyID}", data);
-                }
-                // Track the hierarchy of headerID
-                bool restoreHeader = false;
-                var previousHeaderID = NestedHeaderID;
-                // NOTE: Once autoID no longer clashes with headerID and npcID is no longer dumb, use headerID instead.
-                if (data.TryGetValue("npcID", out long npcID) && npcID < 0 && long.TryParse(npcID.ToString(), out long headerID))
-                {
-                    NestedHeaderID = headerID;
-                    restoreHeader = true;
-                }
-                // Track the hierarchy of lvl
-                bool restoreLvl = false;
-                long previousLvl = NestedMinLvl;
-                long dataLvl = GetDataMinLvl(data);
-                if (dataLvl > NestedMinLvl)
-                {
-                    NestedMinLvl = dataLvl;
-                    restoreLvl = true;
-                    //LogDebug($"INFO: New inherited lvl {NestedMinLvl}", data);
-                }
-
-                Process(groups, data);
-
-                // Parent field consolidation now that groups have been processed
-                if (CurrentParseStage >= ParseStage.Consolidation)
-                    HierarchicalFieldAdjustments.Apply(data, groups);
-
-                if (restoreDifficulty)
-                {
-                    //LogDebug($"INFO: Restore previous difficultyID {previousDifficulty} => {NestedDifficultyID}", data);
-                    DifficultyRoot = previousDifficultyRoot;
-                    NestedDifficultyID = previousDifficulty;
-                }
-                if (restoreHeader)
-                {
-                    //LogDebug($"INFO: Restore previous headerID {previousHeaderID} => {NestedHeaderID}", data);
-                    NestedHeaderID = previousHeaderID;
-                }
-                if (restoreModID)
-                {
-                    //LogDebug($"INFO: Restore previous modID {previousMod} => {NestedModID}", data);
-                    NestedModID = previousMod;
-                }
-                if (restoreLvl)
-                {
-                    //LogDebug($"INFO: Restore previous lvl {previousLvl} => {NestedMinLvl}", data);
-                    NestedMinLvl = previousLvl;
-                }
-                CurrentParentGroup = previousParent;
+                DifficultyRoot = data;
+                NestedDifficultyID = nestedDiffID;
             }
 
-            return true;
+            // Update the modID and associated ItemAppearanceModifierID
+            if (data.TryGetValue("modID", out long nestedModID) && nestedModID != NestedModID)
+            {
+                NestedModID = nestedModID;
+                if (ItemAppearanceModifierIDs_ModID.TryGetValue(NestedModID, out var id)) NestedItemAppearanceModifierID = id;
+            }
+
+            // Update the bonusID and associated ItemAppearanceModifierID
+            if (data.TryGetValue("bonusID", out long nestedBonusID) && nestedBonusID != NestedBonusID)
+            {
+                NestedBonusID = nestedBonusID;
+                if (ItemAppearanceModifierIDs_BonusID.TryGetValue(NestedBonusID, out var id)) NestedItemAppearanceModifierID = id;
+            }
+
+            // An explicitly defined value trumps the others.
+            if (data.TryGetValue("ItemAppearanceModifierID", out long nestedItemAppearanceModifierID))
+            {
+                NestedItemAppearanceModifierID = nestedItemAppearanceModifierID;
+            }
+
+            // Track the hierarchy of headerID
+            // NOTE: Once autoID no longer clashes with headerID and npcID is no longer dumb, use headerID instead.
+            if (data.TryGetValue("npcID", out long npcID) && npcID < 0 && long.TryParse(npcID.ToString(), out long headerID))
+            {
+                NestedHeaderID = headerID;
+            }
+
+            // Report context changes.
+            bool cachedShouldReportContextChanges = ShouldReportContextChanges;
+            long cachedContextReportDepth = ContextReportDepth;
+            /*
+            if (!cachedShouldReportContextChanges && NestedDifficultyID == 23 && Framework.CurrentParseStage == ParseStage.Consolidation)
+            {
+                ShouldReportContextChanges = true;
+                LogWarn("Report Start: ", data);
+            }
+            */
+            var cachedChangedDetected = NestedHeaderID != cachedHeaderID || NestedDifficultyID != cachedDifficulty
+                    || NestedModID != cachedModID || NestedBonusID != cachedBonusID || NestedItemAppearanceModifierID != cachedItemAppearanceModifierID;
+            if (ShouldReportContextChanges)
+            {
+                ContextReportDepth++;
+                if (cachedChangedDetected)
+                {
+                    var builder = new StringBuilder($">> [Context {NestedDifficultyID}, {NestedModID}, {NestedBonusID}, {NestedItemAppearanceModifierID}]");
+                    for (var i = 0; i < ContextReportDepth; i++) builder.Insert(0, ' ');
+                    LogWarn(builder.ToString());
+                }
+            }
+
+            /*
+            if (NestedHeaderID != cachedHeaderID) LogDebug($"INFO: Entered HeaderID Context: {NestedHeaderID}");
+            if (NestedDifficultyID != cachedDifficulty) LogDebug($"INFO: Entered DifficultyID Context: {NestedDifficultyID}");
+            if (NestedModID != cachedModID) LogDebug($"INFO: Entered ModID Context: {NestedModID}");
+            if (NestedBonusID != cachedBonusID) LogDebug($"INFO: Entered BonusID Context: {NestedBonusID}");
+            if (NestedItemAppearanceModifierID != cachedItemAppearanceModifierID) LogDebug($"INFO: Entered ItemAppearanceModifierID Context: {NestedItemAppearanceModifierID}");
+            */
+
+            // handle the current processing against the data
+            bool success = true;
+            if (ProcessingFunction(data, parentData))
+            {
+                // If this container has an aqd or hqd, then process those objects as well.
+                if (data.TryGetValue("aqd", out IDictionary<string, object> qd)) Process(qd, data);
+                if (data.TryGetValue("hqd", out qd)) Process(qd, data);
+
+                // If this container has groups, then process those groups as well.
+                if (data.TryGetValue("g", out List<object> groups))
+                {
+                    // Cache the state of values that are inherited from parent objects to their children.
+                    var cachedParentGroup = CurrentParentGroup;
+                    long cachedMinLevel = NestedMinLvl;
+
+                    // Track the hierarchy of lvl
+                    long? dataLvl = GetDataMinLevel(data);
+                    if (dataLvl.HasValue && dataLvl > NestedMinLvl) NestedMinLvl = dataLvl.Value;
+                    /*
+                    if (NestedMinLvl != cachedMinLevel) LogDebug($"INFO: Entered MinLevel Context: {NestedMinLvl}");
+                    */
+
+                    // Update the Current Parent Group
+                    if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
+                        CurrentParentGroup = new KeyValuePair<string, object>(objectData.ObjectType, objKeyValue);
+
+                    // Process all relative groups to this object.
+                    Process(groups, data);
+
+                    // Parent field consolidation now that groups have been processed
+                    if (CurrentParseStage >= ParseStage.Consolidation)
+                        HierarchicalFieldAdjustments.Apply(data, groups);
+
+                    /*
+                    if (NestedMinLvl != cachedMinLevel) LogDebug($"INFO: Left MinLevel Context: {NestedMinLvl}");
+                    */
+
+                    // Restore Previous Context
+                    NestedMinLvl = cachedMinLevel;
+                    CurrentParentGroup = cachedParentGroup;
+                }
+            }
+            else success = false;
+
+            /*
+            if (NestedItemAppearanceModifierID != cachedItemAppearanceModifierID) LogDebug($"INFO: Left ItemAppearanceModifierID Context: {NestedItemAppearanceModifierID}");
+            if (NestedBonusID != cachedBonusID) LogDebug($"INFO: Left BonusID Context: {NestedBonusID}");
+            if (NestedModID != cachedModID) LogDebug($"INFO: Left ModID Context: {NestedModID}");
+            if (NestedDifficultyID != cachedDifficulty) LogDebug($"INFO: Left DifficultyID Context: {NestedDifficultyID}");
+            if (NestedHeaderID != cachedHeaderID) LogDebug($"INFO: Left HeaderID Context: {NestedHeaderID}");
+            */
+
+            // Restore the Cached Context of the parent object.
+            NestedModID = cachedModID;
+            NestedBonusID = cachedBonusID;
+            NestedItemAppearanceModifierID = cachedItemAppearanceModifierID;
+            NestedHeaderID = cachedHeaderID;
+            NestedDifficultyID = cachedDifficulty;
+            DifficultyRoot = cachedDifficultyRoot;
+
+            // Report context changes.
+            if (ShouldReportContextChanges)
+            {
+                if (cachedChangedDetected)
+                {
+                    var builder = new StringBuilder($"<< [Context {NestedDifficultyID}, {NestedModID}, {NestedBonusID}, {NestedItemAppearanceModifierID}]");
+                    for (var i = 0; i < ContextReportDepth; i++) builder.Insert(0, ' ');
+                    LogWarn(builder.ToString());
+                }
+            }
+            ContextReportDepth = cachedContextReportDepth;
+            ShouldReportContextChanges = cachedShouldReportContextChanges;
+
+            return success;
         }
 
         private static void CaptureDebugDBData(IDictionary<string, object> data)
@@ -750,34 +810,23 @@ namespace ATT
                 else MarkPhaseAsRequired(phase);
             }
 
-            // Apply the inherited modID for items which do not specify their own modID
-            if (NestedModID > 0 && data.ContainsKey("itemID") && !data.ContainsKey("modID"))
-            {
-                //LogDebug($"INFO: Applied inherited modID {NestedModID} for item {data.GetString("itemID")}");
-                data["modID"] = NestedModID;
-            }
             if (data.ContainsKey("ignoreBonus"))
             {
                 // will be removed later
                 data.Remove("modID");
                 data.Remove("bonusID");
+                NestedBonusID = 0L;
+                NestedModID = 0L;
+                NestedItemAppearanceModifierID = 0L;
                 //Log("Removed ignoreBonus modID", data.GetString("itemID"));
             }
-
-            if (data.TryGetValue("artifactID", out long tempId)
-                && !data.ContainsKey("sourceID")
-                && Objects.ArtifactSources.TryGetValue(tempId, out Dictionary<string, long> sources))
+            else
             {
-                // off-hand artifact source
-                if (data.ContainsKey("isOffHand"))
+                // Apply the inherited modID for items which do not specify their own modID
+                if (NestedModID > 0 && data.ContainsKey("itemID") && !data.ContainsKey("modID"))
                 {
-                    if (sources.TryGetValue("offHand", out long s))
-                        data["sourceID"] = s;
-                }
-                else
-                {
-                    if (sources.TryGetValue("mainHand", out long s))
-                        data["sourceID"] = s;
+                    //LogDebug($"INFO: Applied inherited modID {NestedModID} for item {data.GetString("itemID")}");
+                    data["modID"] = NestedModID;
                 }
             }
 
@@ -840,8 +889,10 @@ namespace ATT
 
             Incorporate_Achievement(data);
             Incorporate_Criteria(data);
-            // Handles Spell->SpellEffect incorporation
+            // Handles Item->Spell->SpellEffect incorporation
             Incorporate_Item(data);
+            // Handles Spell->SpellEffect incorporation
+            Incorporate_Spell(data);
             Incorporate_Ensemble(data);
 
             bool cloned = Incorporate_DataCloning(data);
@@ -1350,6 +1401,16 @@ namespace ATT
                 {
                     yield return objectSources;
                 }
+            }
+        }
+
+        private static IEnumerable<HashSet<IDictionary<string, object>>> GetAllMatchingSOURCED(string field, object idObj)
+        {
+            if (SOURCED.TryGetValue(field, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
+                && idObj is long id && id > 0
+                && fieldSources.TryGetValue(id, out HashSet<IDictionary<string, object>> objectSources))
+            {
+                yield return objectSources;
             }
         }
 
@@ -2229,7 +2290,7 @@ namespace ATT
             {
                 if (!TryGetSOURCED("achID", achievementID, out _))
                 {
-                    LogDebugWarn($"Achievement {achievementID} linked to Criteria {achID}:{criteriaID}, but it's likely a hidden achievement. Not nesting Criteria.");
+                    LogDebugWarn($"Unsourced Achievement {achievementID} linked to Criteria {achID}:{criteriaID}, but it's likely a hidden achievement. Not nesting Criteria.");
                 }
                 else
                 {
@@ -2249,19 +2310,16 @@ namespace ATT
                         long explorationID = overlay.AreaID_0;
                         if (explorationID > 0)
                         {
-                            // CRIEVE NOTE: This check doesn't work for exploration, Runaway take a look at this when you get a chance.
-                            /*
                             if (!TryGetSOURCED("explorationID", explorationID, out _))
                             {
                                 LogWarn($"Exploration {explorationID} should be sourced for nesting Criteria {achID}:{criteriaID}");
                             }
                             else
                             {
-                            */
                                 LogDebug($"INFO: Added _exploration to Criteria {achID}:{criteriaID} => {explorationID}");
                                 Objects.Merge(data, "_exploration", explorationID);
                                 incorporated = true;
-                            //}
+                            }
                         }
                     }
                 }
@@ -2580,8 +2638,8 @@ namespace ATT
                         }
                     }
 
-                    // more than 1 criteria tree to nest, but none had any incorporated data, so add basic criterias by index
-                    if (!incorporated && !data.ContainsKey("achievement_criteria") && childTrees.Count > 1)
+                    // more than 1 useful & non-ignored criteria tree to nest, but none had any incorporated data, so add basic criterias by index
+                    if (!incorporated && !data.ContainsKey("achievement_criteria") && childTrees.Any(c => c.IsUseful() && !c.IsIgnoreFlags()))
                     {
                         extraData = extraData ?? new Dictionary<string, object>();
                         if (extraData.TryGetValue("id", out long id) && id == criteriaIndex)
@@ -2670,7 +2728,12 @@ namespace ATT
                         break;
                     // 91 (BETTLE_PET_SPECIES)
                     case 91:
-                        Objects.Merge(data, "_species", existingModifierTree.Asset);
+                        // world quest battle pets have 'speciesID' and are sourced under NYI... don't move any of their criteria there
+                        if (TryGetSOURCED("speciesID", existingModifierTree.Asset, out HashSet<IDictionary<string, object>> sourcedSpecies)
+                            && sourcedSpecies.All(s => IsObtainableData(s)))
+                        {
+                            Objects.Merge(data, "_species", existingModifierTree.Asset);
+                        }
                         break;
                     // 95 (FACTION_STANDING)
                     case 95:
@@ -2740,48 +2803,27 @@ namespace ATT
         {
             if (!data.TryGetValue("type", out string type) || !(type == "ensembleID" || type == "ensembleSpellID")) return;
             if (data.ContainsKey("_noautomation")) return;
+            if (data.ContainsKey("_Incorporate_Ensemble")) return;
 
-            if (!data.TryGetValue("spellID", out long spellID))
+            if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet) && tmogSet.TrackingQuestID > 0)
             {
-                LogWarn($"Ensemble Type Item missing linking SpellID", data);
-                return;
-            }
+                Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
+                TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
 
-            if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
-            {
-                foreach (SpellEffect spellEffect in spellEffects)
-                {
-                    Incorporate_SpellEffect(data, spellEffect);
-                }
-            }
-            else
-            {
-                data.TryGetValue("itemID", out long itemID);
-                LogWarn($"Ensemble {itemID} with Spell {spellID} missing Wago SpellEffect record(s)", data);
-            }
-
-            if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet))
-            {
-                if (tmogSet.TrackingQuestID > 0)
-                {
-                    Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
-                    TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
-
-                    // check if other Ensembles have the same name as well. this could be a case where alternate Ensembles are auto-learned via server-side
-                    // spellID triggers which may need to be added into the 'real' Ensemble Item to pull in the proper set of learned Sources
-                    //IEnumerable<TransmogSet> matchingTmogSets = GetTypeDBObjects<TransmogSet>(i => i.Name_lang == tmogSet.Name_lang
-                    //                                                                            && i.TrackingQuestID > 0
-                    //                                                                            && i.TrackingQuestID != tmogSet.TrackingQuestID);
-                    //data.TryGetValue("itemID", out long ensembleID);
-                    //foreach (var matchingTmogSet in matchingTmogSets)
-                    //{
-                    //    long? matchingTmogSetSpellID = GetTypeDBObjects<SpellEffect>(i => i.EffectMiscValue_0 == matchingTmogSet.ID && i.IsLearnedTransmogSet()).FirstOrDefault()?.SpellID;
-                    //    if (matchingTmogSetSpellID != null)
-                    //    {
-                    //        LogDebugWarn($"Matching Transmog Set {matchingTmogSet.Name_lang}:{matchingTmogSet.ID} may need a manual SpellID {matchingTmogSetSpellID} added within existing iensemble({ensembleID}");
-                    //    }
-                    //}
-                }
+                // check if other Ensembles have the same name as well. this could be a case where alternate Ensembles are auto-learned via server-side
+                // spellID triggers which may need to be added into the 'real' Ensemble Item to pull in the proper set of learned Sources
+                //IEnumerable<TransmogSet> matchingTmogSets = GetTypeDBObjects<TransmogSet>(i => i.Name_lang == tmogSet.Name_lang
+                //                                                                            && i.TrackingQuestID > 0
+                //                                                                            && i.TrackingQuestID != tmogSet.TrackingQuestID);
+                //data.TryGetValue("itemID", out long ensembleID);
+                //foreach (var matchingTmogSet in matchingTmogSets)
+                //{
+                //    long? matchingTmogSetSpellID = GetTypeDBObjects<SpellEffect>(i => i.EffectMiscValue_0 == matchingTmogSet.ID && i.IsLearnedTransmogSet()).FirstOrDefault()?.SpellID;
+                //    if (matchingTmogSetSpellID != null)
+                //    {
+                //        LogDebugWarn($"Matching Transmog Set {matchingTmogSet.Name_lang}:{matchingTmogSet.ID} may need a manual SpellID {matchingTmogSetSpellID} added within existing iensemble({ensembleID}");
+                //    }
+                //}
             }
 
             // add additional ensemble spells as sub-groups of the Item Ensemble
@@ -2803,6 +2845,8 @@ namespace ATT
             }
 
             AddPostProcessing(EnsembleCleanup, data);
+            // don't incorporate ensemble again
+            data["_Incorporate_Ensemble"] = true;
         }
 
         private static void Incorporate_Item_TransmogSetItems(IDictionary<string, object> data, long tmogSetID)
@@ -2860,24 +2904,14 @@ namespace ATT
             if (!data.TryGetValue("itemID", out long itemID)) return;
             if (data.ContainsKey("_noautomation")) return;
 
-            // See if there's a Spell and what it links to
-            if (data.TryGetValue("spellID", out long spellID))
-            {
-                if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
-                {
-                    foreach (SpellEffect spellEffect in spellEffects)
-                    {
-                        Incorporate_SpellEffect(data, spellEffect);
-                    }
-                }
-                else
-                {
-                    // quite spammy now with all Items being incorporated
-                    //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
-                }
-            }
+            // See if there's a Primary Spell already (can be set via WagoDB/Item/SpellID in AsData() when merging ItemDB)
+            data.TryGetValue("spellID", out long spellID);
 
             // See what direct ItemXItemEffects are linked to this Item
+            // Item X> ItemXItemEffect
+            // ItemXItemEffect 1> ItemEffect
+            // ItemEffect X> SpellEffect
+            // e.g. i:207046 -> 2 ItemXItemEffect -> 2 ItemEffect -> 2 SpellEffect & 4 SpellEffect
             if (TryGetTypeDBObjectCollection(itemID, out List<ItemXItemEffect> itemXItemEffects))
             {
                 foreach (ItemXItemEffect itemXItemEffect in itemXItemEffects)
@@ -2885,11 +2919,41 @@ namespace ATT
                     if (!TryGetTypeDBObject(itemXItemEffect.ItemEffectID, out ItemEffect itemEffect))
                         continue;
 
-                    // we may have already incorporated the specific SpellID above from the direct Item data
+                    // ignore matching spellID effect
                     if (itemEffect.SpellID == spellID)
                         continue;
 
-                    if (TryGetTypeDBObjectCollection(itemEffect.SpellID, out List<SpellEffect> spellEffects))
+                    // Incorporate_Spell will handle any 'extra' spells triggered by secondary ItemEffects
+                    Objects.Merge(data, "_extraSpells", itemEffect.SpellID);
+                }
+            }
+        }
+
+        private static void Incorporate_Spell(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("spellID", out long spellID)) return;
+            if (data.ContainsKey("_noautomation")) return;
+
+            // See what the Spell links to
+            if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
+            {
+                foreach (SpellEffect spellEffect in spellEffects)
+                {
+                    Incorporate_SpellEffect(data, spellEffect);
+                }
+            }
+            else
+            {
+                // quite spammy now with all Items being incorporated
+                //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
+            }
+
+            // Incorporate any extra spells
+            if (data.TryGetValue("_extraSpells", out List<object> extraSpells))
+            {
+                foreach (long extraSpellID in extraSpells.AsTypedEnumerable<long>())
+                {
+                    if (TryGetTypeDBObjectCollection(extraSpellID, out spellEffects))
                     {
                         foreach (SpellEffect spellEffect in spellEffects)
                         {
@@ -2906,20 +2970,22 @@ namespace ATT
             // ref. /att i:181538 -> SpellID 336988
             if (spellEffect.IsQuest())
             {
+                long questID = spellEffect.EffectMiscValue_0;
                 if (!data.TryGetValue("questID", out long existingQuestID))
                 {
                     // we only want to attach a questID to an Item if that Quest is only linked via 1 ItemEffect...
                     long spellID = spellEffect.SpellID;
                     if (TryGetTypeDBObjectCollection(spellID, out List<ItemEffect> matchingItemEffects) && matchingItemEffects.Count > 1)
                     {
-                        LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to {matchingItemEffects.Count} shared ItemEffect use", data);
+                        //LogDebug($"INFO: Ignored assignment of data 'questID' {spellEffect.EffectMiscValue_0} due to {matchingItemEffects.Count} shared ItemEffect use", data);
+                        // assign this data as a provider of the questID instead since this data may link to multiple questIDs
+                        Assign_QuestProviderFromData(questID, data);
                     }
                     else
                     {
-                        long questID = spellEffect.EffectMiscValue_0;
                         using (IEnumerator<SpellEffect> spellEffectEnumerator = GetTypeDBObjects<SpellEffect>((se) =>
                         {
-                            // quest spelleffect with either same spellID or same quest (should only be 1 if we aare going to apply it to an Item)
+                            // quest spelleffect with either same spellID or same quest (should only be 1 if we are going to apply it to an Item)
                             return se.IsQuest() && (se.SpellID == spellID || se.EffectMiscValue_0 == questID);
                         }).GetEnumerator())
                         {
@@ -2928,7 +2994,9 @@ namespace ATT
                             // if there's a 2nd (or more) then ignore assigning the questID from a specific Spell
                             if (spellEffectEnumerator.MoveNext())
                             {
-                                LogDebug($"INFO: Ignored assignment of Item 'questID' {questID} due to multiple SpellEffect use", data);
+                                //LogDebug($"INFO: Ignored assignment of data 'questID' {questID} due to multiple SpellEffect use", data);
+                                // assign this data as a provider of the questID instead since this data links to multiple questIDs
+                                Assign_QuestProviderFromData(questID, data);
                             }
                             else
                             {
@@ -2956,9 +3024,10 @@ namespace ATT
                         }
                     }
                 }
-                else
+                else if (questID != existingQuestID)
                 {
-                    LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to existing 'questID' of {existingQuestID}", data);
+                    // additional spell effects that trigger additional questIDs, we will link the data as a provider of that additional questID's Source if possible
+                    Assign_QuestProviderFromData(questID, data);
                 }
             }
             if (spellEffect.IsLearnedTransmogSet())
@@ -2972,6 +3041,48 @@ namespace ATT
                     LogDebug($"INFO: Assigned 'tmogSetID' {tmogSetID}", data);
                 }
                 Incorporate_Item_TransmogSetItems(data, tmogSetID);
+                // this is repeated later for the same data, yes, but we need to ensure some things happen in the correct order
+                Incorporate_Ensemble(data);
+            }
+        }
+
+        private static void Assign_QuestProviderFromData(long questID, IDictionary<string, object> data)
+        {
+            // additional spell effects that trigger additional questIDs, we will link the data as a provider of that additional questID's Source if possible
+            if (TryGetSOURCED("questID", questID, out var sourcedQuests))
+            {
+                foreach (var sourcedQuestData in sourcedQuests)
+                {
+                    if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
+                    {
+                        string providerType = null;
+                        switch (objectData.ConvertedKey ?? objectData.ObjectType)
+                        {
+                            case "itemID":
+                                providerType = "i";
+                                break;
+                            case "npcID":
+                                providerType = "n";
+                                break;
+                            case "objectID":
+                                providerType = "o";
+                                break;
+                            case "spellID":
+                                providerType = "s";
+                                break;
+                        }
+
+                        if (providerType != null)
+                        {
+                            Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
+                            LogDebug($"INFO: Assigning {providerType}:{objKeyValue} as Provider of 'questID' {questID}", sourcedQuestData);
+                        }
+                        else
+                        {
+                            LogDebugWarn($"Unable to determine provider type for data", data);
+                        }
+                    }
+                }
             }
         }
 
@@ -3249,6 +3360,22 @@ namespace ATT
                         }
                     }
                 }
+                // if the Criteria attempts to clone into a Species which is not Sourced, then ignore trying to move the criteria
+                //if (data.TryGetValue("_species", out List<object> speciesObjs))
+                //{
+                //    data.DataBreakPoint("criteriaID", 55537);
+                //    data.TryGetValue("achID", out long achID);
+                //    foreach (long speciesID in speciesObjs.AsTypedEnumerable<long>())
+                //    {
+                //        if (!TryGetSOURCED("speciesID", speciesID, out HashSet<IDictionary<string, object>> sourcedSpecies)
+                //            || sourcedSpecies.Any(s => !IsObtainableData(s)))
+                //        {
+                //            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested unsorted SpeciesID {speciesID}. Consider sourcing the SpeciesID");
+                //            Objects.TrackPostProcessMergeKey("speciesID", speciesID);
+                //            cloned = false;
+                //        }
+                //    }
+                //}
             }
 
             // Un-cloned data which is marked as ignored should allow itself to be removed from the list
@@ -3283,12 +3410,7 @@ namespace ATT
             if (!providers.TryConvert(out List<object> providersList))
                 return;
 
-            //if (data.TryGetValue("questID", out long questID) && questID == 13614)
-            //{
-
-            //}
-
-            bool hasNpcProvider = data.TryGetValue("qgs", out List<long> qgs);
+            bool hasQuestGivers = data.TryGetValue("qgs", out List<object> qgs) && qgs.Count > 0;
 
             int i = 0;
             while (i < providersList.Count)
@@ -3306,7 +3428,7 @@ namespace ATT
                 switch (pType)
                 {
                     case "i":
-                        if (hasNpcProvider || Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
+                        if (hasQuestGivers || Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
                         {
                             // if the provider is an item, we want that item to be listed as having been referenced to keep it out of Unsorted
                             Items.MarkItemAsReferenced(pID);
@@ -3314,13 +3436,13 @@ namespace ATT
                         else
                         {
                             var item = Items.GetNull(pID);
-                            // Crieve doesn't want this. Sometimes the only valid source is the provider, which is fine for quest items.
-                            // Quest Items which specifically are listed AFTER an NPC provider will now be considered referenced
-                            // Actual Quest-providing Items should still have a valid Source
-                            if (item == null || !Items.IsItemReferenced(pID))
+                            // Items which are the 'first' provider indicate that their acquisition is what 'provides' the data
+                            // and thus they must be Sourced to be properly visible for being acquired
+                            if (i == 0 && (item == null || !Items.IsItemReferenced(pID)))
                             {
                                 // The item isn't Sourced in Retail version
                                 // Holy... there are actually a ton of these. Will Debug Log for now until they are cleaned up...
+                                // There are currently about 1000 warnings due to unsourced Items of this nature
                                 LogDebugWarn($"Non-Sourced 'provider-item' {pID}", data);
                             }
                             else if (item.TryGetValue("u", out long u) && u == 1)
@@ -3334,7 +3456,6 @@ namespace ATT
                         break;
                     case "n":
                         NPCS_WITH_REFERENCES[(long)pID] = true;
-                        hasNpcProvider = true;
                         MarkCustomHeaderAsRequired((long)pID);
                         break;
                     case "o":
@@ -3474,6 +3595,29 @@ namespace ATT
                             LogDebugWarn($"Item {pId} used for both Provider and Cost on same data. Removing 'provider'", data);
                             providers.RemoveAt(i);
                         }
+                    }
+                }
+            }
+
+            // Items with Spells which are themselves directly Sourced as Recipe -- remove that spellID from the Item
+            if (data.TryGetValue("itemID", out long itemID) && data.TryGetValue("spellID", out long spellID))
+            {
+                //foreach (var spellSources in GetAllMatchingSOURCED("spellID", spellID))
+                //{
+                //    if (spellSources.Any(d => !d.ContainsKey("itemID")))
+                //    {
+                //        LogDebug($"INFO: Removed spellID {spellID} from Item {itemID} which is Sourced as a standalone Spell", data);
+                //        data.Remove("spellID");
+                //        break;
+                //    }
+                //}
+                foreach (var recipeSources in GetAllMatchingSOURCED("recipeID", spellID))
+                {
+                    if (recipeSources.Any(d => d.TryGetValue("recipeID", out long recipeID) && recipeID == spellID))
+                    {
+                        LogDebug($"INFO: Removed spellID {spellID} from Item {itemID} which is Sourced as a Recipe", data);
+                        data.Remove("spellID");
+                        break;
                     }
                 }
             }
@@ -3908,6 +4052,7 @@ namespace ATT
                         case "i":
                             if (!TryGetSOURCED("itemID", pID, out _))
                             {
+                                Items.MarkItemAsReferenced(pID);
                                 providerData = new Dictionary<string, object> { { "itemID", pID } };
                                 Objects.Merge(parentData, "g", providerData);
                             }
@@ -3952,7 +4097,9 @@ namespace ATT
 
         private static bool IsObtainableData(IDictionary<string, object> data)
         {
-            return !data.TryGetValue("u", out long u) || u > 2;
+            return !data.ContainsKey("_unsorted")
+                && !data.ContainsKey("_nyi")
+                && (!data.TryGetValue("u", out long u) || u > 2);
         }
 
         /// <summary>
@@ -4165,24 +4312,6 @@ namespace ATT
                     }
                 }
             }
-        }
-
-        private static long GetDataMinLvl(IDictionary<string, object> data)
-        {
-            // If the level of this object is less than the current minimum level, we can safely remove it.
-            if (data.TryGetValue("lvl", out object lvlRef))
-            {
-                if (lvlRef is List<object> lvls)
-                {
-                    return Convert.ToInt64(lvls[0]);
-                }
-                else
-                {
-                    return Convert.ToInt64(lvlRef);
-                }
-            }
-
-            return 1;
         }
 
         /// <summary>

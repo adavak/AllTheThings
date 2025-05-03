@@ -2684,6 +2684,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["cr"] = 6375,	-- Thunderhead Hippogryph
 				}),
 				-- #endif
+				-- #if AFTER 11.1.5
+				i(15751, {	-- Pattern: Blue Dragonscale Breastplate (RECIPE!)
+					-- Zonedrop, can drop from any mob now
+					["timeline"] = { ADDED_11_1_5 },	-- Data Discord 28.04.2025
+				}),
+				-- #endif
 				i(15763, {	-- Pattern: Blue Dragonscale Shoulders (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					-- #if BEFORE 4.0.3
@@ -2694,22 +2700,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 80.6, 18.6, AZSHARA },
 						{ 70.4, 17.6, AZSHARA },
 					},
-					-- #elseif AFTER 10.1.7
-					-- Zonedrop, can drop from any mob now
-					["coords"] = {
-						{ 48.4, 79.8, AZSHARA },
-						{ 34.4, 40.6, AZSHARA },
-						{ 15.0, 52.0, AZSHARA },
-						{ 53.0, 76.8, AZSHARA },
-
-						{ 14.2, 50.4, AZSHARA },
-						{ 29.2, 42.6, AZSHARA },
-						{ 45.4, 25.2, AZSHARA },
-						{ 50.6, 18.8, AZSHARA },
-						{ 68.2, 23.4, AZSHARA },
-					},
 					-- #endif
+					-- Zonedrop, can drop from any mob now
 				}),
+				-- #if AFTER 11.1.5
+				i(15729, {	-- Pattern: Chimeric Gloves (RECIPE!)
+					-- Zonedrop, can drop from any mob now
+					["timeline"] = { ADDED_11_1_5 },	-- Data Discord 28.04.2025
+				}),
+				-- #endif
 				i(14473, {	-- Pattern: Ghostweave Belt
 					["timeline"] = { REMOVED_4_0_3 },	-- Learned from trainer
 					["cr"] = 7864,	-- Lingering Highborne

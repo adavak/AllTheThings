@@ -88,11 +88,6 @@ namespace ATT
             /// Used to track what actual key/keyValues were used to merge data
             /// </summary>
             private static IDictionary<string, HashSet<decimal>> PostProcessMergedKeyValues { get; } = new Dictionary<string, HashSet<decimal>>();
-
-            /// <summary>
-            /// All of the SourceID's harvested for Legion Artifacts
-            /// </summary>
-            public static IDictionary<long, Dictionary<string, long>> ArtifactSources { get; } = new Dictionary<long, Dictionary<string, long>>();
             #endregion
 
             #region Filters
@@ -1258,6 +1253,7 @@ end");
                         case "npcID":
                         case "bonusID":
                         case "modID":
+                        case "ItemAppearanceModifierID":
                         case "rank":
                         case "gender":
                         case "creatureID":
@@ -1361,6 +1357,7 @@ end");
                         case "itemID":
                         case "npcID":
                         case "modID":
+                        case "ItemAppearanceModifierID":
                         case "rank":
                         case "gender":
                         case "creatureID":
@@ -1691,6 +1688,7 @@ end");
                     case "npcID":
                     case "displayID":
                     case "modID":
+                    case "ItemAppearanceModifierID":
                     case "bonusID":
                     case "runeforgepowerID":
                     case "raceID":
@@ -1826,6 +1824,7 @@ end");
                     case "_tmogSetIDs":
                     case "_sourceIDs":
                     case "_species":
+                    case "_extraSpells":
                         {
                             MergeIntegerArrayData(item, field, value);
                             break;

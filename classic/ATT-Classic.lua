@@ -76,6 +76,12 @@ local Colorize = app.Modules.Color.Colorize;
 local ColorizeRGB = app.Modules.Color.ColorizeRGB;
 local HexToARGB = app.Modules.Color.HexToARGB;
 local RGBToHex = app.Modules.Color.RGBToHex;
+local GetUnobtainableTexture
+
+-- Locals from future-loaded Modules
+app.AddEventHandler("OnLoad", function()
+	GetUnobtainableTexture = app.GetUnobtainableTexture
+end)
 
 -- WoW API Cache
 local GetSpellName = app.WOWAPI.GetSpellName;
@@ -109,44 +115,6 @@ local function GetProgressTextForTooltip(data)
 end
 app.GetProgressTextForRow = GetProgressTextForRow;
 app.GetProgressTextForTooltip = GetProgressTextForTooltip;
-local function GetUnobtainableTexture(group)
-	if not group then return; end
-	if type(group) ~= "table" then
-		-- This function shouldn't be used with only u anymore!
-		app.print("Invalid use of GetUnobtainableTexture", group);
-		return;
-	end
-
-	-- Determine the texture color, default is green for events.
-	-- TODO: Use 4 for inactive events, use 5 for active events
-	local filter, u = 4, group.u;
-	if u then
-		-- only b = 0 (BoE), not BoA/BoP
-		-- removed, elite, bmah, tcg, summon
-		if u > 1 and u < 12 and group.itemID and (group.b or 0) == 0 then
-			filter = 2;
-		else
-			local phase = L.PHASES[u];
-			if phase then
-				if not phase.buildVersion or app.GameBuildVersion < phase.buildVersion then
-					filter = phase.state or 0;
-				else
-					-- This is a phase that's available. No icon.
-					return;
-				end
-			else
-				-- otherwise it's an invalid unobtainable filter
-				app.print("Invalid Unobtainable Filter:",u);
-				return;
-			end
-		end
-		return L["UNOBTAINABLE_ITEM_TEXTURES"][filter];
-	end
-	if group.e then
-		return L["UNOBTAINABLE_ITEM_TEXTURES"][app.Modules.Events.FilterIsEventActive(group) and 5 or 4];
-	end
-end
-app.GetUnobtainableTexture = GetUnobtainableTexture;
 
 -- Keys for groups which are in-game 'Things'
 -- Copied from Retail since it's used in UI/Waypoints.lua
@@ -910,6 +878,7 @@ app.Settings.CreateInformationType("SourceLocations", {
 	text = "Source Locations",
 	HideCheckBox = true,
 	keys = {
+		["achievementID"] = true,
 		["creatureID"] = true,
 		["expansionID"] = false,
 		["explorationID"] = true,
@@ -1525,6 +1494,25 @@ local function SearchForLink(link)
 end
 app.SearchForLink = SearchForLink;
 
+-- Force Bind on Pickup Items to require the profession within the craftables section.
+function ProcessBindOnPickupProfession(profession, requireSkill)
+	if profession.requireSkill then
+		requireSkill = profession.requireSkill;
+	elseif profession.b and profession.itemID then
+		profession.requireSkill = requireSkill;
+	end
+	if profession.g then
+		for i,o in ipairs(profession.g) do
+			ProcessBindOnPickupProfession(o, requireSkill);
+		end
+	end
+end
+function ProcessBindOnPickupProfessions(craftables)
+	for i,profession in ipairs(craftables) do
+		ProcessBindOnPickupProfession(profession, profession.requireSkill);
+	end
+end
+
 -- TODO: Move the generation of this into Parser
 function app:GetDataCache()
 	if app.Categories then
@@ -1601,12 +1589,14 @@ function app:GetDataCache()
 
 		-- Crafted Items
 		if app.Categories.Craftables then
+			local craftables = app.Categories.Craftables;
+			ProcessBindOnPickupProfessions(craftables);
 			tinsert(g, {
 				text = LOOT_JOURNAL_LEGENDARIES_SOURCE_CRAFTED_ITEM,
 				icon = app.asset("Category_Crafting"),
 				DontEnforceSkillRequirements = true,
-				g = app.Categories.Craftables,
-				isCraftedCategory = true
+				isCraftedCategory = true,
+				g = craftables,
 			});
 		end
 
@@ -1723,7 +1713,7 @@ function app:GetDataCache()
 									break;
 								end
 							end
-							
+
 							local recipesList = app.CreateDynamicCategory(suffix);
 							recipesList.IgnoreBuildRequests = true;
 							if dynamicProfessionHeader then
@@ -2209,7 +2199,7 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 		local data = achievementData[t.achievementID];
 		return (data and data.icon) or app.GetIconFromProviders(t)
 			or (t.spellID and GetSpellIcon(t.spellID))
-			or t.parent.icon or 311226;
+			or (t.parent and t.parent.icon) or 311226;
 	end
 	fields.parentCategoryID = function(t)
 		local data = GetAchievementCategory(t.achievementID);
@@ -2813,7 +2803,7 @@ else
 		end
 	end
 	commonAchievementHandlers.LEVEL_OnUpdate = function(t)
-		t:SetAchievementCollected(t.achievementID, app.Level >= t.lvl);
+		t:SetAchievementCollected(t.achievementID, t.lvl and app.Level >= t.lvl or false);
 	end
 	commonAchievementHandlers.LOREMASTER_CONTINENT_OnUpdate = function(t, mapID, ...)
 		if t.collectible and t.parent then
@@ -3852,6 +3842,8 @@ end)();
 -- Startup Event
 local ADDON_LOADED_HANDLERS = {
 	[appName] = function()
+		app.HandleEvent("OnLoad")
+
 		AllTheThingsAD = _G["AllTheThingsAD"];	-- For account-wide data.
 		if not AllTheThingsAD then
 			AllTheThingsAD = { };
@@ -3985,5 +3977,3 @@ app.AddEventHandler("OnStartupDone", function()
 	-- Mark that we're ready now!
 	app.IsReady = true;
 end);
-
-app.HandleEvent("OnLoad")

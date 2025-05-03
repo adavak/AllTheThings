@@ -17,10 +17,12 @@ EVENTS = {
 	-- Seasonal Fish
 	SEASONAL_FISH_SUMMER_BASS = 133889,	-- Generic Header [Crieve made this up, it's just supposed to be Unique!]
 	SEASONAL_FISH_WINTER_SQUID = 133899,	-- Generic Header [Crieve made this up, it's just supposed to be Unique!]
-
+	
 	-- Weekly Events
 	KALUAK_FISHING_DERBY = 424,	-- Obtained from Wrath Classic
 	STRANGLETHORN_FISHING_EXTRAVAGANZA = 301,	-- Obtained from Wrath Classic
+	--WANDERERS_FESTIVAL = 1052,	-- This is the eventID for the yearly version, not the fake weekly one.
+	WANDERERS_FESTIVAL = 133900,	-- Generic Header [Crieve made this up, it's just supposed to be Unique!]
 
 	-- Micro-Holidays
 	CALL_OF_THE_SCARAB = 638,
@@ -60,7 +62,6 @@ EVENTS = {
 	SPRING_BALLOON_FESTIVAL = 645,
 	UNGORO_MADNESS = 644,
 	VOLUNTEER_GUARD_DAY = 635,
-	WANDERERS_FESTIVAL = 1052,
 	WELCOME_TO_SANCTUARY = 1383,
 	WORLD_QUEST_BONUS_EVENT = 592,
 

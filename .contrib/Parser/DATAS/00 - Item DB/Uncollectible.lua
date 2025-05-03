@@ -929,7 +929,6 @@ i(181643);	-- Weeping Corpseshroom
 i(180515);	-- Weird Egg
 i(178131);	-- Whetstone Talon File
 i(184149);	-- Widowbloom-Infused Fragrance
-i(180470);	-- Wild Fungus
 i(181490);	-- Wild Godrune
 i(180697);	-- Wing Commanders Insignia
 i(182711);	-- Winner Caller's Warbler

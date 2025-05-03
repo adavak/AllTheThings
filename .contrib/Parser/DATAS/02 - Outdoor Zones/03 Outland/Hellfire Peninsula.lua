@@ -1059,7 +1059,6 @@ root(ROOTS.Zones, {
 						["qg"] = 22430,	-- Assistant Klatu
 						["sourceQuest"] = 10903,	-- Return to Honor Hold
 						["coord"] = { 54.3, 63.6, HELLFIRE_PENINSULA },
-						["cost"] = { { "i", 31795, 1 } },	-- Draenei Prayer Beads
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(58, 58, 10),
 						["groups"] = {
@@ -1068,6 +1067,7 @@ root(ROOTS.Zones, {
 									{ "i", 31795 },	-- Draenei Prayer Beads
 									{ "o", 185302 },	-- Fei Fei's Cache
 								},
+								["coord"] = { 54.1, 63.3, HELLFIRE_PENINSULA },
 							}),
 						},
 					}),

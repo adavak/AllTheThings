@@ -1,7 +1,18 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+-- #if MOP
+local CUTTING_EDGE_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. MOP_PHASE_LANDFALL .. [[;
+		t.rwp = 50200;
+	end
+end]];
+-- #endif
+root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
 	applyclassicphase(MOP_PHASE_LANDFALL, inst(317, {	-- Mogu'shan Vaults
 		["coord"] = { 59.6, 39.1, KUN_LAI_SUMMIT },
 		["maps"] = {
@@ -15,47 +26,104 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			n(ACHIEVEMENTS, {
 				ach(6458, {	-- Guardians of Mogu'shan
 					crit(19110, {	-- The Stone Guard
-						["_encounter"] = { 679, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 679, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19111, {	-- Feng the Accursed
-						["_encounter"] = { 689, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 689, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19112, {	-- Gara'jal the Spiritbinder
-						["_encounter"] = { 682, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 682, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 				}),
 				ach(6844, {	-- The Vault of Mysteries
 					crit(19113, {	-- The Spirit Kings
-						["_encounter"] = { 687, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 687, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19767, {	-- Elegon
-						["_encounter"] = { 726, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 726, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 					crit(19115, {	-- Will of the Emperor
-						["_encounter"] = { 677, DIFFICULTY.RAID.FINDER },
+						["_encounter"] = { 677, DIFFICULTY.LEGACY_RAID.MULTI.ALL },
 					}),
 				}),
 				ach(6668),	-- Mogu'shan Vaults Guild Run
 			}),
-			n(COMMON_BOSS_DROPS, {
-				i(87208, {	-- Sigil of Power
-					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-				}),
-				i(87209, {	-- Sigil of Wisdom
-					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-				}),
-			}),
-			d(DIFFICULTY.RAID.FINDER, {	-- Queue NPC
+			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
+				-- #if AFTER 6.0.1
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
+				-- #endif
+				["groups"] = {
+					e(679, {	-- The Stone Guard
+						["crs"] = {
+							60047,	-- Amethyst Guardian
+							60051,	-- Cobalt Guardian
+							60043,	-- Jade Guardian
+							59915,	-- Jasper Guardian
+						},
+						["g"] = {
+							i(167047, {	-- Stoneclaw (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(689, {	-- Feng the Accursed
+						["crs"] = { 60009 },	-- Feng the Accursed
+					}),
+					e(682, {	-- Gara'jal the Spiritbinder
+						["crs"] = { 60143 },	-- Gara'jal the Spiritbinder
+						["g"] = {
+							i(167048, {	-- Wayward Spirit (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(687, {	-- The Spirit Kings
+						["crs"] = {
+							60708,	-- Meng the Demented
+							60709,	-- Qiang the Merciless
+							60710,	-- Subetai the Swift
+							60701,	-- Zian of the Endless Shadow
+						},
+						["g"] = {
+						
+						},
+					}),
+					e(726, {	-- Elegon
+						["crs"] = { 60410 },	-- Elegon
+						["g"] = {
+							i(167049, {	-- Comet (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(677, {	-- Will of the Emperor
+						["crs"] = {
+							60400,	-- Jan-xi <Emperor's Open Hand>
+							60399,	-- Qin-xi <Emperor's Closed Fist>
+						},
+						["g"] = {
+							i(167050, {	-- Baoh-Xi (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+							i(138804, {	-- Illusion: Colossus (ILLUSION!)
+								["timeline"] = { ADDED_7_0_3 },
+							}),
+						},
+					}),
+				},
 			}),
-			d(DIFFICULTY.RAID.FINDER, {
+			d(DIFFICULTY.LEGACY_RAID.FINDER, {
+				-- #if AFTER 6.0.1
+				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
+				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
+				-- #endif
 				["ignoreBonus"] = true,
 				["g"] = {
 					i(95618, {	-- Cache of Mogu Riches
 						-- Could sym it to every Mogu boss for MOP Classic
 						["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Mogu'shan Vaults.",
-						["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },
+						["timeline"] = { ADDED_5_1_0, REMOVED_8_0_1 },
 						["sym"] = {MOP_SYM_PETS},
 						["g"] = {
 							i(95972),	-- Abandoned Zandalari Arrowlinks
@@ -104,9 +172,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(89964),	-- Stonefang Chestguard
 								i(86743),	-- Stoneflesh Leggings
 								i(86740),	-- Stonemaw Armguards
-								i(167047, {	-- Stoneclaw (PET!)
-									["timeline"] = { ADDED_8_1_5 },
-								}),
 							},
 						}),
 						e(689, {	-- Feng the Accursed
@@ -144,9 +209,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(86760),	-- Sollerets of Spirit Splitting
 								i(86759),	-- Soulgrasp Choker
 								i(86768),	-- Spaulders of the Divided Mind
-								i(167048, {	-- Wayward Spirit (PET!)
-									["timeline"] = { ADDED_8_1_5 },
-								}),
 							},
 						}),
 					}),
@@ -192,9 +254,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(86799),	-- Starshatter
 								i(86796),	-- Torch of the Celestial Spark
 								i(86790),	-- Vial of Dragon's Blood
-								i(167049, {	-- Comet (PET!)
-									["timeline"] = { ADDED_8_1_5 },
-								}),
 							},
 						}),
 						e(677, {	-- Will of the Emperor
@@ -217,15 +276,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(86807),	-- Spaulders of the Emperor's Rage
 								i(86806),	-- Tihan, Scepter of the Sleeping Emperor
 								i(86810),	-- Worldwaker Cabochon
-								i(167050, {	-- Baoh-Xi (PET!)
-									["timeline"] = { ADDED_8_1_5 },
-								}),
 							},
 						}),
 					}),
 				},
 			}),
-			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
+			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
+				n(ACHIEVEMENTS, {
+					ach(7933),	-- And... It's Good!
+				}),
 				n(ZONE_DROPS, {
 					i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
 					i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
@@ -246,8 +305,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
 					i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
 				}),
-			}),
-			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				e(679, {	-- The Stone Guard
 					["crs"] = {
 						60047,	-- Amethyst Guardian
@@ -257,9 +314,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					},
 					["g"] = {
 						ach(6823),	-- Must Love Dogs
-						i(167047, {	-- Stoneclaw (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
 					},
 				}),
 				e(689, {	-- Feng the Accursed
@@ -278,9 +332,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["crs"] = { 60143 },	-- Gara'jal the Spiritbinder
 					["g"] = {
 						ach(7056),	-- Sorry, Were You Looking for This?
-						i(167048, {	-- Wayward Spirit (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
 					},
 				}),
 				e(687, {	-- The Spirit Kings
@@ -299,9 +350,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["g"] = {
 						ach(6686),	-- Straight Six
 						i(87777),	-- Astral Cloud Serpent (MOUNT!)
-						i(167049, {	-- Comet (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
 					},
 				}),
 				e(677, {	-- Will of the Emperor
@@ -312,13 +360,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["g"] = {
 						ach(6455),	-- Show Me Your Moves!
 						ach(6954, {	-- Ahead of the Curve: Will of the Emperor
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
-						}),
-						i(167050, {	-- Baoh-Xi (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-						i(138804, {	-- Illusion: Colossus (ILLUSION!)
-							["timeline"] = { ADDED_7_0_3 },
+							["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+							-- #if MOP
+							["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
+							-- #endif
 						}),
 					},
 				}),
@@ -326,9 +371,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL, {
 				["ignoreBonus"] = true,
 				["g"] = {
-					n(ACHIEVEMENTS, {
-						ach(7933),	-- And... It's Good!
-					}),
 					n(ZONE_DROPS, {
 						i(86042),	-- Jade Charioteer Figurine
 						i(86043),	-- Jade Bandit Figurine
@@ -560,7 +602,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 60410 },	-- Elegon
 						["g"] = {
 							ach(6723),	-- Heroic: Elegon
-							i(87777),	-- Astral Cloud Serpent (MOUNT!)
 							i(89937),	-- Band of Bursting Novas
 							i(87057),	-- Bottle of Infinite Stars
 							i(87058),	-- Chestguard of Total Annihilation
@@ -587,11 +628,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								title(204),	-- , Delver of the Vaults
 							}),
 							ach(7485, {	-- Cutting Edge: Will of the Emperor
-								["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								-- #if MOP
+								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
+								-- #endif
 							}),
 							ach(6675),	-- Heroic: Will of the Emperor Guild Run
 							ach(6680, {	-- Realm First! Will of the Emperor
-								["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },
+								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								-- #if MOP
+								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
+								-- #endif
 							}),
 							i(89941),	-- Chestguard of Eternal Vigilance
 							i(87070),	-- Crown of Opportunistic Strikes

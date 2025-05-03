@@ -4291,11 +4291,10 @@ n(236041, 4732);	-- Scavenging Snapdragon
 n(234369, 4711);	-- Snapdragon Pup
 n(236040, 4731);	-- Storminfused Snapdragon
 n(230394, 4628);	-- Tidal Kroling
---- UNSORTED ---
-i(234905, 4730);	-- Mech-Friend Maya
-i(233057, 4709);	-- Rock Hound Mica
 --- NYI ---
 i(0, 4725);			-- Titan Orb
+i(234905, 4730);	-- Mech-Friend Maya
+i(233057, 4709);	-- Rock Hound Mica
 
 ------------------
 -- PATCH 11.1.0 --
@@ -4367,19 +4366,25 @@ i(232856, 4633);	-- Scruff
 i(221851, 4466);	-- Argos
 i(212791, 4410);	-- Beetriz
 i(235794, 4747);	-- Eye of Chaos
+i(236409, 4757);	-- Frumpy Softpaw
 i(208446, 4264);	-- Fyrn
 i(232857, 4635);	-- Goggles
 i(241193, 3245);	-- Helpful Workshop Bot
 i(238986, 4794);	-- Mister Mans
 i(235980, 4756);	-- Scourge of the Aspects
+i(241188, 4804);	-- Swiftpaw
 i(235793, 4748);	-- Void-Scarred Parrot
 i(235795, 4749);	-- Void-Scarred Scorpid
 i(235797, 4750);	-- Void-Scarred Tallstrider Chick
+i(238942, 4793);	-- Weechi
 i(223498, 4568);	-- Whoopy
 --- UNSORTED ---
 i(0, 4792);	-- Ada the Sweetest
-i(236409, 4757);	-- Frumpy Softpaw
 i(0, 4761);	-- Pascal the Wonder Pup
 i(239019, 4806);	-- Spicy Mean-Ball
-i(241188, 4804);	-- Swiftpaw
-i(238942, 4793);	-- Weechi
+------------------
+-- PATCH 11.1.7 --
+------------------
+--- UNSORTED ---
+i(245543, 4849);	-- Flotsam Harvester
+i(245574, 4852);	-- Lil' Daz'ti

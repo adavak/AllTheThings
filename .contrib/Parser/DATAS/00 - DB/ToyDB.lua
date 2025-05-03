@@ -1393,7 +1393,7 @@ i(228789);	-- Coldflame Ring
 i(232305);	-- Forged Champion's Prestigious Banner
 i(224192);	-- Practice Ravager
 i(232301);	-- Tempered Banner of the Algari
---- UNSORTED ---
+--- NYI ---
 i(232303);	-- Unknown
 i(232304);	-- Unknown
 i(232307);	-- Unknown
@@ -1460,4 +1460,10 @@ i(232302);	-- Prized Banner of the Algari
 i(232306);	-- Prized Champion's Prestigious Banner
 i(239693);	-- Radiant Lynx Whistle
 i(239018);	-- Winner's Podium
---- UNSORTED ---
+
+------------------
+-- PATCH 11.1.7 --
+------------------
+i(245567);	-- K'aresh Memory Crystal
+i(245631);	-- Royal Visage
+i(244888);	-- Echo of the Xal'atath, Blade of the Black Empire
