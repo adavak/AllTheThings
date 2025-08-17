@@ -1741,7 +1741,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30645, {	-- The Might of Three
 					["sourceQuest"] = 30644,	-- What Comes to Pass
 					["qg"] = 58468,	-- Sun Tenderheart
-					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["coord"] = { 56.44, 43.26, VALE_OF_ETERNAL_BLOSSOMS },
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED },
 					["lvl"] = lvlsquish(90, 90, 30),
 				})),
