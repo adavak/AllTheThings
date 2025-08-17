@@ -2428,7 +2428,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=10,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=10,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=17,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=17,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=24,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=24,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=31,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=31,["weekday"]=1,["year"]=2025}),
@@ -2480,7 +2479,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=26,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=26,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=2,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=2,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=9,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=9,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=9,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=9,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=16,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=16,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -11117,6 +11117,7 @@ local ObjectNames = {
 	[539785] = "Sturdy Chest",
 	[543787] = "Phase Energy",
 	[547529] = "Scorched Poster",
+	[547532] = "Ky'veza's Etheric Cache",
 	[547995] = "Warglaive of the Audacious Hunter",
 	[548001] = "P.O.S.T. Master's Prototype Parcel and Postage Presser",
 	[548010] = "Phaseblade of the Void Marches",
@@ -18418,6 +18419,7 @@ local ObjectModels = {
 	[537690] = 1318183,
 	[539785] = 5128194,
 	[547529] = 1349039,
+	[547532] = 1664990,
 	[549326] = 3920034,
 	[558090] = 5387320,
 	[558105] = 949611,
@@ -28610,6 +28612,7 @@ localize(ObjectNames, {
 	[527842] = "Seltsamer Metallbarren",
 	[529289] = "Sporenprobe",
 	[529677] = "Leerengeschmiedeter Motorblock",
+	[547532] = "Ky'vezas ätherischer Hort",
 	[9999908] = "|cFFFFFFFFSchritt 1:|r Gather Consumables.",
 	[9999909] = "|cFFFFFFFFSchritt 2:|r Caverns of Consumption",
 	[9999910] = "|cFFFFFFFFSchritt 3:|r Fire Barrier",
@@ -35023,6 +35026,7 @@ localize(ObjectNames, {
 	[524391] = "Coffre de récompense",
 	[529289] = "Échantillon sporique",
 	[529677] = "Bloc moteur forgé par le Vide",
+	[547532] = "Cache éthérique de Ky’veza",
 	[9000000] = "Pierre de vent sculptée",
 	[9999908] = "|cFFFFFFFFÉtape 1:|r Rassemblez les consommables.",
 	[9999909] = "|cFFFFFFFFÉtape 2:|r Caverns of Consumption",
@@ -40633,6 +40637,7 @@ localize(ObjectNames, {
 	[524391] = "Cassa di Premi",
 	[529289] = "Campione di Spora",
 	[529677] = "Blocco Motore Forgiato dal Vuoto",
+	[547532] = "Cassa Eterica di Ky'veza",
 	[9999912] = "|cFFFFFFFFStep 5:|r Guardiano Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Guardia di Pietra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Strana Pietra",
@@ -46560,6 +46565,7 @@ localize(ObjectNames, {
 	[525434] = "Recompensa: Libertação da Inframina",
 	[529289] = "Amostra de Esporo",
 	[529677] = "Bloco de Motor Forjado no Caos",
+	[547532] = "Arca Etérea de Ky'veza",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigia Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Observador de Pedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Pedra Estranha",
@@ -53396,6 +53402,7 @@ localize(ObjectNames, {
 	[524391] = "Призовой сундук",
 	[529289] = "Образец спор",
 	[529677] = "Блок цилиндров из Бездны",
+	[547532] = "Астральный тайник Ки'везы",
 	[9999908] = "|cFFFFFFFFШаг 1:|r Соберите Расходники.",
 	[9999909] = "|cFFFFFFFFШаг 2:|r Пещера Увядания",
 	[9999910] = "|cFFFFFFFFШаг 3:|r Огненный Барьер",
@@ -58955,6 +58962,7 @@ localize(ObjectNames, {
 	[524391] = "경품 상자",
 	[529289] = "포자 표본",
 	[529677] = "공허벼림 동력장치 집합체",
+	[547532] = "카이베자의 실체 없는 보관함",
 	[9999912] = "|cFFFFFFFFStep 5:|r 성실한 감시자",
 	[9999915] = "|cFFFFFFFFStep 8:|r 바위 감시병",
 	[9999917] = "|cFFFFFFFFStep 10:|r 이상한 돌",
@@ -65748,6 +65756,7 @@ localize(ObjectNames, {
 	[527842] = "Barra de metal extraña",
 	[529289] = "Muestra de esporas",
 	[529677] = "Bloque motor forjado en el Vacío",
+	[547532] = "Alijo etérico de Ky'veza",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigía diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Vigía de piedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Piedra extraña",
@@ -72619,6 +72628,7 @@ localize(ObjectNames, {
 	[525434] = "悬赏：解放安德麦",
 	[529289] = "孢子样本",
 	[529677] = "虚铸引擎机体",
+	[547532] = "凯威扎的虚渺宝箱",
 	[9000000] = "微风雕塑之石",
 	[9999908] = "|cFFFFFFFF第1步:|r 收集消耗品",
 	[9999909] = "|cFFFFFFFF第2步:|r 吞噬洞穴",
@@ -73947,6 +73957,7 @@ localize(ObjectNames, {
 	[524391] = "獎賞箱",
 	[529289] = "孢子樣本",
 	[529677] = "虛無鑄造引擎本體",
+	[547532] = "奇維扎的以太儲物箱",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({
