@@ -430,10 +430,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				}))),
 				n(VENDORS, {
 				-- NOTE: There are 3 vendors outside the Raid Entrance. Items they sell are not renown locked.
-				n(245349, bubbleDownSelf({	-- Zo'ropo <Eccentric Engineer>
-					["cost"] = { { "i", 246727, 1 }, }, },{	-- Ethereal Essence Sliver
+				n(245349, {	-- Zo'ropo <Eccentric Engineer>
 					["coord"] = { 42.0, 22.0, KARESH },
-					["groups"] = {
+					["groups"] = sharedData({
+						["cost"] = { { "i", 246727, 1 }, }, -- Ethereal Essence Sliver
+					}, {
 						i(249206),	-- Manaforge Raider's Cosmic Baton (COSMETIC!)
 						i(249170),	-- Manaforge Raider's Cosmic Beamglaive (COSMETIC!)
 						i(249212),	-- Manaforge Raider's Cosmic Blade (COSMETIC!)
@@ -507,12 +508,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						i(249216),	-- Manaforge Raider's Umbral Starcrusher (COSMETIC!)
 						i(249186),	-- Manaforge Raider's Umbral Ward (COSMETIC!)
 						i(249180),	-- Manaforge Raider's Umbral Warpblade (COSMETIC!)
-					},
-				})),
-				n(245348, bubbleDownSelf({	-- Ba'choso <Curious Curator>
-					["cost"] = { { "i", 245510, 1 }, }, },{	-- Loombeast Silk
+					}),
+				}),
+				n(245348, {	-- Ba'choso <Curious Curator>
 					["coord"] = { 42.0, 22.4, KARESH },
-					["groups"] = {
+					["groups"] = sharedData({
+						["cost"] = { { "i", 245510, 1 }, }, -- Loombeast Silk
+					}, {
 						iensemble(248977),	-- Ensemble: Augur's Ephemeral Brilliance
 						iensemble(248978),	-- Ensemble: Breeze of Fallen Storms
 						iensemble(248981),	-- Ensemble: Capes of the Sudden Eclipse
@@ -526,8 +528,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						iensemble(248982),	-- Ensemble: Shawls of Channeled Fury
 						iensemble(248973),	-- Ensemble: Spellweaver's Immaculate Runecloaks
 						iensemble(248971),	-- Ensemble: Vicious Charhound's Felcovers
-					},
-				})),
+					}),
+				}),
 				n(248304, {	-- Acquirer Ba'theom <Exotic Armor>
 					["coord"] = { 42.1, 23.4, KARESH },
 					-- Sells Tier set tokens in exchange for Hungering Void Curios
@@ -569,7 +571,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}),
 					hqt(91064, {	-- Stay awhile and listen: Alleria Windrunnner
 						["name"] = "Stay awhile and listen: Alleria Windrunnner",
-						["description"] = "After defeating Dimensius",
+						["description"] = "Dialogue becomes available after defeating Dimensius.",
 						["qg"] = 242456,	-- Alleria Windrunnner
 					}),
 				}),
