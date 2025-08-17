@@ -423,6 +423,48 @@ namespace ATT
         }
 
         /// <summary>
+        /// Export the category to a new string builder instance.
+        /// </summary>
+        /// <param name="name">The name.</param>
+        /// <param name="category"></param>
+        /// <returns></returns>
+        public static StringBuilder ExportCompressedLuaCategory(string name, List<object> category)
+        {
+            // Export the Category
+            var builder = new StringBuilder();
+            builder.Append("_.Categories.").Append(name).AppendLine("={");
+            foreach (var group in category)
+            {
+                ExportCompressedLua(builder, group);
+                builder.Append(",");
+            }
+            builder.Remove(builder.Length - 1, 1).AppendLine("};");
+
+            // Simplify the structure of the string and then export to the builder.
+            if (!((string[])Framework.Config["PreProcessorTags"]).Contains("NOSIMPLIFY"))
+            {
+                var simplifyConfig = Framework.Config["SimplifyStructures"];
+                if (simplifyConfig.Defined)
+                {
+                    int[] simplify = simplifyConfig;
+                    SimplifyStructureForLua(builder, simplify[0], simplify[1]);
+                }
+                else
+                {
+                    SimplifyStructureForLua(builder);
+                }
+            }
+            ExportLocalVariablesForLua(builder);
+            builder.Insert(0, new StringBuilder()
+                .AppendLine("---@diagnostic disable: deprecated")
+                .AppendLine("local appName, _ = ...;"));
+            STRUCTURE_COUNTS.Clear();
+            FUNCTION_SHORTCUTS.Clear();
+            AddTableNewLines = false;
+            return builder;
+        }
+
+        /// <summary>
         /// Export the categories to a new string builder instance.
         /// </summary>
         /// <param name="categories"></param>

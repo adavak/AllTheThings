@@ -84,7 +84,6 @@ namespace ATT
         /// <param name="builder">The builder.</param>
         private static void ExportCategoriesHeaderForLua(StringBuilder builder)
         {
-            var utcNow = DateTime.UtcNow;
             builder.Insert(0, new StringBuilder()
                 .AppendLine("---@diagnostic disable: deprecated")
                 .AppendLine("-----------------------------------------------------")

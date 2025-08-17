@@ -1053,11 +1053,27 @@ namespace ATT
             public static void Export(string directory)
             {
                 var AllContainerClones = new SortedDictionary<string, List<object>>(AllContainers);
+                var builder = new StringBuilder("<Ui xmlns=\"http://www.blizzard.com/wow/ui/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.blizzard.com/wow/ui/..\\FrameXML\\UI.xsd\">");
+                var categoryFolder = Path.Combine(directory, "Categories");
+                if (Directory.Exists(categoryFolder)) Directory.Delete(categoryFolder, true);
+                Directory.CreateDirectory(categoryFolder);
+                foreach (var containerPair in AllContainerClones)
+                {
+                    if (containerPair.Value.Count > 0)
+                    {
+                        builder.AppendLine().Append("\t<Script file=\"Categories/").Append(containerPair.Key).Append(".lua\"/>");
 
-                var filename = Path.Combine(directory, "Categories.lua");
-                var content = ATT.Export.ExportCompressedLuaCategories(AllContainerClones).ToString();
-                if (!string.IsNullOrEmpty(DATA_REQUIREMENTS)) content = $"if not ({DATA_REQUIREMENTS}) then return; end \n{content}";
-                WriteIfDifferent(filename, content);
+                        // Build the category file.
+                        var filename = Path.Combine(categoryFolder, $"{containerPair.Key}.lua");
+                        var content = ATT.Export.ExportCompressedLuaCategory(containerPair.Key, containerPair.Value).ToString();
+                        if (!string.IsNullOrEmpty(DATA_REQUIREMENTS)) content = $"if not ({DATA_REQUIREMENTS}) then return; end \n{content}";
+                        WriteIfDifferent(filename, content);
+                    }
+                }
+
+                // Now write the Categories xml document.
+                builder.AppendLine().AppendLine("</Ui>");
+                WriteIfDifferent(Path.Combine(directory, "Categories.xml"), builder.ToString());
             }
 
             public static void ExportAutoLocale(string filename)

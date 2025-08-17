@@ -167,7 +167,7 @@ src\UI\Shared Window Logic.lua
 src\UI\Retail Window Logic.lua
 
 # Load expansion specific category database.
-db\Retail\Categories.lua
+db\Retail\Categories.xml
 
 # Window Definitions
 # src\UI\Windows\Windows.xml
