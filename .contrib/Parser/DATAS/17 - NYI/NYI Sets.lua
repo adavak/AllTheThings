@@ -15312,7 +15312,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					}),
 				})),
 			}),
-			n(SEASON_PRIZED, {
+			n(SEASON_ASTRAL, {
 				n(PVP_ELITE, bubbleDownSelf({ ["bonusID"] = 7532 }, {
 					-- TODO
 				})),
