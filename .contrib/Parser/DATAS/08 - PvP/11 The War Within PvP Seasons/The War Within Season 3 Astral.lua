@@ -746,6 +746,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 		})),
 		n(PVP_ELITE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }, ["bonusID"] = 7532 }, {
 			n(CLASSES, {
+				-- TODO: Only 9 pieces will be obtainable, move rest to NYI Sets when confirmed
 				cl(DEATHKNIGHT, {
 					i(230591),	-- Astral Gladiator's Cloak
 					i(230592),	-- Astral Gladiator's Drape
