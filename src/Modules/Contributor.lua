@@ -112,6 +112,8 @@ end
 -- 5) That number goes into this table for the mapID
 local MapPrecisionOverrides = {
 	 [629] = 3,	-- Aegwynn's Gallery
+	 [647] = 3,	-- Acherus The Ebon Hold, The Heart of Acherus
+	 [648] = 3,	-- Acherus The Ebon Hold, Hall of Command
 	 [720] = 3,	-- Mardum The Shattered Abyss, Upper Command Center
 	 [831] = 7,	-- The Vindicaar, Krokuun Upper
 	 [832] = 7,	-- The Vindicaar, Krokuun Lower

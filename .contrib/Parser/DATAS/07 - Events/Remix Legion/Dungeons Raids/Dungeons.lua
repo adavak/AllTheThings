@@ -88,137 +88,48 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		d(DIFFICULTY.DUNGEON.NORMAL, {
 			mapped(ARMOR, {
 				filter(CLOTH, {
-					i(213644),	-- Breezebinder's Bracers
-					i(213643),	-- Breezebinder's Cord
-					i(213638),	-- Breezebinder's Gloves
-					i(213639),	-- Breezebinder's Hood
-					i(213640),	-- Breezebinder's Leggings
-					i(213636),	-- Breezebinder's Robe
-					i(213637),	-- Breezebinder's Sandals
-					i(213642),	-- Breezebinder's Shoulderpads
 				}),
 				filter(LEATHER, {
-					i(214033),	-- Nimbletoe Belt
-					i(214028),	-- Nimbletoe Boots
-					i(214034),	-- Nimbletoe Bracers
-					i(214029),	-- Nimbletoe Gloves
-					i(214030),	-- Nimbletoe Helm
-					i(214031),	-- Nimbletoe Leggings
-					i(214032),	-- Nimbletoe Shoulderpads
-					i(214027),	-- Nimbletoe Tunic
 				}),
 				filter(MAIL, {
-					i(214408),	-- Stormbrew Belt
-					i(214405),	-- Stormbrew Boots
-					i(214403),	-- Stormbrew Bracers
-					i(214407),	-- Stormbrew Gauntlets
-					i(214404),	-- Stormbrew Hauberk
-					i(214406),	-- Stormbrew Helm
-					i(214410),	-- Stormbrew Leggings
-					i(214409),	-- Stormbrew Spaulders
 				}),
-				filter(PLATE, {
-					i(214743),	-- Greenstone Bracers
-					i(214744),	-- Greenstone Breastplate
-					i(214740),	-- Greenstone Gauntlets
-					i(214739),	-- Greenstone Girdle
-					i(214741),	-- Greenstone Helm
-					i(214737),	-- Greenstone Legguards
-					i(214738),	-- Greenstone Pauldrons
-					i(214742),	-- Greenstone Sabatons
+				filter(PLATE, {	-- Note: Legion
+					i(240296),	-- Honorforged Chestpiece
+					i(240291),	-- Honorforged Gauntlets
+					i(240295),	-- Honorforged Greatbelt
+					i(240298),	-- Honorforged Greathelm
+					i(240297),	-- Honorforged Mantle
+					i(240293),	-- Honorforged Stompers
+					i(240292),	-- Honorforged Vambraces
+					i(240294),	-- Honorforged Wargreaves
 				}),
 			}),
-			mapped(WEAPONS, bubbleDown({ ["modID"] = 0 }, {
-				i(215984),	-- Bjam's Greatsword
-				i(216581),	-- Deflector of the Protectorate
-				i(215535),	-- Featherdraw Warbow
-				i(215806),	-- Ghostheart Warspear
-				i(215883),	-- Greatstaff of the Path
-				i(215754),	-- Jol'Grum's Mace
-				i(215954),	-- Kor'dok's Sword
-				i(215604),	-- Mogu Severer
-				i(215879),	-- Mountainsage Spire
-				i(215750),	-- Ook Breaker
-				i(215705),	-- Penate's Pistol
-				i(215609),	-- Sha-Touched Shanker
-				i(215783),	-- Shado-Pan Maul
-				i(215490),	-- Snowdrift Battleaxe
-				i(215874),	-- Staff of Iron Will
-				i(216577),	-- Sutiru's Shield
-				i(215682),	-- Swarmkeeper's Channel
-				i(215645),	-- Tian Handblade
-				i(216005),	-- Wand of Spiritweaving
-				i(215612),	-- Yaungol Shanker
-			})),
 		}),
 		d(DIFFICULTY.DUNGEON.HEROIC, {
 			mapped(ARMOR, {
 				filter(CLOTH, {
-					i(213647),	-- Windwhisper Amice
-					i(213646),	-- Windwhisper Belt
-					i(213649),	-- Windwhisper Cowl
-					i(213645),	-- Windwhisper Cuffs
-					i(213650),	-- Windwhisper Handwraps
-					i(213648),	-- Windwhisper Pants
-					i(213652),	-- Windwhisper Raiment
-					i(213651),	-- Windwhisper Treads
 				}),
 				filter(LEATHER, {
-					i(214035),	-- Mogubreaker Bindings
-					i(214039),	-- Mogubreaker Cover
-					i(214041),	-- Mogubreaker Footguards
-					i(214040),	-- Mogubreaker Grips
-					i(214038),	-- Mogubreaker Legguards
-					i(214037),	-- Mogubreaker Spaulders
-					i(214042),	-- Mogubreaker Vest
-					i(214036),	-- Mogubreaker Waistband
 				}),
 				filter(MAIL, {
-					i(214418),	-- Mogu Lord's Armbands
-					i(214413),	-- Mogu Lord's Chain
-					i(214417),	-- Mogu Lord's Chestguard
-					i(214414),	-- Mogu Lord's Gloves
-					i(214415),	-- Mogu Lord's Headguard
-					i(214411),	-- Mogu Lord's Legguards
-					i(214412),	-- Mogu Lord's Pauldrons
-					i(214416),	-- Mogu Lord's Sabatons
 				}),
 				filter(PLATE, {
-					i(214745),	-- Yaungolian Battleplate
-					i(214750),	-- Yaungolian Greatbelt
-					i(214748),	-- Yaungolian Greathelm
-					i(214749),	-- Yaungolian Handguards
-					i(214752),	-- Yaungolian Legplates
-					i(214751),	-- Yaungolian Spaulders
-					i(214746),	-- Yaungolian Vambraces
-					i(214747),	-- Yaungolian Warboots
 				}),
 			}),
-			mapped(WEAPONS, bubbleDown({ ["modID"] = 0 }, {
-				i(216582),	-- Bulwark of the Protectorate
-				i(215646),	-- Claw of the Fallen Temple
-				i(215491),	-- Dubious Waraxe
-				i(215536),	-- Ennadee's Longbow
-				i(216578),	-- Impervious Bulwark
-				i(215983),	-- Jade Grand Falchion
-				i(215755),	-- Je'lyu, Scepter of the Serpent
-				i(215882),	-- Lorewalker's Staff
-				i(215704),	-- Mantid Firebelcher
-				i(215684),	-- Mantid Tuning Fork
-				i(215613),	-- Mogu Lord's Blade
-				i(215751),	-- Porter's Mace
-				i(215605),	-- Ravenclaw Dagger
-				i(215807),	-- Ritter's Spear
-				i(216006),	-- Skullcap Wand
-				i(215878),	-- Springrain Spire
-				i(215875),	-- Staff of Stolen Hope
-				i(215784),	-- Taran Zhu's Bonebreaker
-				i(215608),	-- Tolakesh, Horn of Niuzao
-				i(215955),	-- Zakai's Swarmslicer
-			})),
+		}),
+		d(DIFFICULTY.DUNGEON.MYTHIC, {
+			mapped(ARMOR, {
+				filter(CLOTH, {
+				}),
+				filter(LEATHER, {
+				}),
+				filter(MAIL, {
+				}),
+				filter(PLATE, {
+				}),
+			}),
 		}),
 		mapped(REWARDS, {
-			i(220764),	-- Bonus Experience
 		}),
 		inst(303, {	-- Gate of the Setting Sun
 			["coord"] = { 15.8, 74.8, VALE_OF_ETERNAL_BLOSSOMS },

@@ -4,9 +4,11 @@
 
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(REWARDS, {
+		------ Item Caches ------
+		i(248247),	-- Cache of Infinite Power
 		i(237812),	-- Cache of Infinite Treasure
 
-		------ Caches ------
+		------ Bronze Caches ------
 		i(246814),	-- Bronze Cache
 		i(246815),	-- Lesser Bronze Cache
 		i(246812),	-- Minor Bronze Cache
@@ -31,8 +33,24 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		------ Rare Memento ------
 
 		------ Epic Memento ------
+		i(242502),	-- Memento of Epoch History
+		i(242508),	-- Memento of Epoch Potential
+
+		------ Legendary Memento ------
+		i(242516),	-- Memento of Epoch Legends
+
+		------ Misc ------
+		i(251562),	-- Tome of Combat Training
 
 		filter(CONSUMABLES, {
+			i(238726),	-- Drake Treat
+			i(238727),	-- Nostwin's Voucher
+
+			------ Timeless Scrolls ------
+			i(217608),	-- Timeless Scroll of Battle Shout
+			i(217606),	-- Timeless Scroll of Fortitude
+			i(217928),	-- Timeless Scroll of Resurrection
+			i(217956),	-- Timeless Scroll of Summoning
 			i(217607),	-- Timeless Scroll of the Wild
 		}),
 	}),

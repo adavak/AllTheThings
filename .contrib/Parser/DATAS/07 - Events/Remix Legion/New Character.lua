@@ -84,9 +84,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 		q(92192),	-- Triggers when watching "What just happened" movie on a fresh character
 		q(92425),	-- Triggers when you activate 'Heroic World Tier'
 		-- HQTs triggered during campaign
-		q(91926),	-- Triggered after completing first Legion artifact weapon quest chain
-		q(91925),	-- Triggered after completing second Legion artifact weapon quest chain
-		q(92107),	-- Mission Table skip
+		q(91926),	-- Triggered after completing first Legion artifact weapon quest chain (on a DH on Aldrachi quest chain)
+		q(91925),	-- Triggered after completing second Legion artifact weapon quest chain (on a DH on Warglaives quest chain)
+		q(92107),	-- Mission Table skip (on a DH)
+		q(90716),	-- Looting the Curious Simulacrum (as a DK on Apocalypse quest chain)
+		q(91924),	-- Triggered after turning in 'The Dark Riders' (40986) (on a DK on Apocalypse quest chain)
 		q(90787),	-- Triggered after killing the first Rare?
 	})),
 })));

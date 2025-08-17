@@ -69,17 +69,12 @@ root(ROOTS.Unsorted, {
 			i(238459),	-- [DNT] Roaming Boss Token
 			i(238460),	-- [DNT] World Boss Token
 			i(238461),	-- [DNT] Minus Mob Token
-			i(238726),	-- Drake Treat
-			i(238727),	-- Nostwin's Voucher
 			i(239205),	-- [DNT] Raid Boss Token, Consolation
 			i(239247),	-- Bonus Experience
 			i(239303),	-- Cache of Infinite Treasure
 			i(239647),	-- Reins of the Bloodguard Fel Bat
-			i(239665),	-- Reins of the Bloodhunter Fel Bat
 			i(239666),	-- Reins of the Risen Fel Bat
-			i(239667),	-- Reins of the Ashplague Fel Bat
 			i(239686),	-- Reins of the Forgotten Fel Bat
-			i(239687),	-- Reins of the Wretched Fel Bat
 			i(239697),	-- Timeless Keystone
 			i(239699),	-- Tidbit
 			i(239705),	-- Morsel
@@ -421,14 +416,6 @@ root(ROOTS.Unsorted, {
 			i(240288),	-- Bloodforged Chestplate
 			i(240289),	-- Bloodforged Shoulderguards
 			i(240290),	-- Bloodforged Warhelm
-			i(240291),	-- Honorforged Gauntlets
-			i(240292),	-- Honorforged Vambraces
-			i(240293),	-- Honorforged Stompers
-			i(240294),	-- Honorforged Wargreaves
-			i(240295),	-- Honorforged Greatbelt
-			i(240296),	-- Honorforged Chestpiece
-			i(240297),	-- Honorforged Mantle
-			i(240298),	-- Honorforged Greathelm
 			i(240307),	-- Ravensteel Handguards
 			i(240308),	-- Ravensteel Wristguards
 			i(240309),	-- Ravensteel Stompers
@@ -1308,11 +1295,9 @@ root(ROOTS.Unsorted, {
 			i(242369),	-- The First Satyr's Spaulders
 			i(242370),	-- Horns of the First Satyr
 			i(242476),	-- Taah'bat's Desert Carbine
-			i(242502),	-- Memento of Epoch History
 			i(242503),	-- Memento of Epoch Stories
 			i(242506),	-- Memento of Epoch Rituals
 			i(242507),	-- Memento of Epoch Power
-			i(242508),	-- Memento of Epoch Potential
 			i(242572),	-- Tome of the Silver Hand
 			i(242590),	-- Strom'kar, the Warbreaker
 			i(242706),	-- Curious Curio
@@ -1834,7 +1819,6 @@ root(ROOTS.Unsorted, {
 			i(248223),	-- [DNT] Heroic Roaming Boss Token
 			i(248224),	-- [DNT] Heroic World Boss Token
 			i(248225),	-- [DNT] Heroic Minus Mob Token
-			i(248247),	-- Cache of Infinite Power
 			i(248393),	-- Blank Doomsayer's Pamphlet
 			i(248716),	-- Green Bountiful Backpack
 			i(248717),	-- Orange Bountiful Backpack
@@ -1984,7 +1968,6 @@ root(ROOTS.Unsorted, {
 			i(250106),	-- Floestrider Crest-horn
 			i(250108),	-- Cragstepper Crest-horn
 			i(250191),	-- Reins of the Bilebound Ur'zul
-			i(250192),	-- Reins of the Ghastly Ur'zul
 			i(250290),	-- Blistering Hot Portable Bakery
 			i(250291),	-- Hot and Fresh Portable Bakery
 			i(250292),	-- Piping Hot Portable Bakery
@@ -1993,44 +1976,17 @@ root(ROOTS.Unsorted, {
 			i(250408),	-- Add Keystone Affix: Dusk of the Infinite
 			i(250409),	-- Add Keystone Affix: Timeways Manifested
 			i(250410),	-- Add Keystone Affix: Twilight Reflections
-			i(250423),	-- Reins of the Slag Basilisk
-			i(250424),	-- Reins of the Leystone Basilisk
-			i(250425),	-- Reins of the Felslate Basilisk
-			i(250426),	-- Reins of the Aquamarine Basilisk
-			i(250427),	-- Reins of the Illidari Blightstalker
-			i(250428),	-- Reins of the Illidari Dreadstalker
-			i(250429),	-- Reins of the Highland Elderhorn
 			i(250464),	-- [DNT] Quest Token
-			i(250721),	-- Reins of the Snowy Highmountain Eagle
-			i(250723),	-- Reins of the Treetop Highmountain Eagle
 			i(250724),	-- Add Keystone Affix: Tyrannically Fortified
 			i(250726),	-- Reins of the Leyfrost Manasaber
 			i(250727),	-- Reins of the Nightwell Manasaber
-			i(250728),	-- Reins of the Arcberry Manasaber
 			i(250741),	-- Puzzling Cartel Chip
-			i(250745),	-- Reins of the Fel-scarred Mana Ray
-			i(250746),	-- Reins of the Bloodtooth Mana Ray
-			i(250747),	-- Reins of the Albino Mana Ray
-			i(250748),	-- Reins of the Luminous Mana Ray
-			i(250751),	-- Reins of the Twilight Courser
-			i(250752),	-- Reins of the Golden Sunrunner
-			i(250756),	-- Reins of the Turquoise Courser
-			i(250757),	-- Reins of the Gloomdark Nightmare
-			i(250758),	-- Reins of the Bonesteed of Oblivion
-			i(250759),	-- Reins of the Bonesteed of Plague
-			i(250760),	-- Reins of the Bonesteed of Bloodshed
-			i(250761),	-- Reins of the Bonesteed of Triumph
 			i(250762),	-- Felfueled Memento of the Abyss
 			i(250777),	-- Time-Lost Bite of the Frostwolves
 			i(250778),	-- Steel Food Fanatic Shield
 			i(250779),	-- Golden Food Fanatic Shield
 			i(250780),	-- Bronze Food Fanatic Shield
 			i(250781),	-- Silver Food Fanatic Shield
-			i(250802),	-- Reins of the Longhorned Sable Talbuk
-			i(250803),	-- Garnet Ruinstrider
-			i(250804),	-- Longhorned Bleakhoof Talbuk
-			i(250805),	-- Reins of the Longhorned Argussian Talbuk
-			i(250806),	-- Reins of the Longhorned Beryl Talbuk
 			i(250883),	-- Villager's Forest Bonnet
 			i(250884),	-- Villager's Forest Blouse
 			i(250885),	-- Villager's Forest Belt
@@ -2096,7 +2052,6 @@ root(ROOTS.Unsorted, {
 			i(251539),	-- Tattered Highmountain Cloak
 			i(251540),	-- Cloak of the Forest's Nightmare
 			i(251541),	-- Highmountain's Finest Cloak
-			i(251562),	-- Tome of Combat Training
 			i(251631),	-- Bottled Time
 			i(251656),	-- Bunch of Orange Carrots
 			i(251657),	-- Bunch of Pink Carrots
@@ -2112,8 +2067,6 @@ root(ROOTS.Unsorted, {
 			i(251672),	-- Used Wearable Pot Lid
 			i(251674),	-- Sssurine's Luxurious Sssandals
 			i(251690),	-- Stormborn Laminar Overdrape
-			i(251795),	-- Reins of the Brimstone Courser
-			i(251796),	-- Reins of the Chestnut Courser
 			i(251797),	-- Ears of Orange Corn
 			i(251798),	-- Ears of Purple Corn
 			i(251799),	-- Ears of White Corn
@@ -2186,18 +2139,6 @@ root(ROOTS.Unsorted, {
 			i(252750),	-- Aquatic Winter Hat
 			i(252751),	-- Snowy Winter Hat
 			i(252752),	-- Sunny Winter Hat
-			i(252954),	-- Felscorned Reins of the Vilebrood Vanquisher
-			i(253013),	-- Slayer's Reins of the Felscorned Shrieker
-			i(253024),	-- Feldruid's Scornwing Idol
-			i(253025),	-- Reins of the Felscorned Wolfhawk
-			i(253026),	-- Archmage's Felscorned Disc
-			i(253027),	-- Felscorned Grandmaster's Bell
-			i(253028),	-- Reins of the Highlord's Felscorned Charger
-			i(253029),	-- Felscorned Seeker's Whistle
-			i(253030),	-- Shadowblade's Reins of Felscorned Portent
-			i(253031),	-- Felscorned Tempest Totem
-			i(253032),	-- Felscorned Reins of the Netherlord's Dreadsteed
-			i(253033),	-- Iron Reins of the Felscorned War Wrym
 			i(253154),	-- Loyal Watchman's Gauntlets
 			i(253155),	-- Loyal Watchman's Belt
 			i(253156),	-- Loyal Watchman's Boots

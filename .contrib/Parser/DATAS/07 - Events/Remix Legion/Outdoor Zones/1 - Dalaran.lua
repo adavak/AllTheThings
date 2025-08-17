@@ -233,9 +233,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 				q(92688, {	-- Bronze Simulacrum
 					["provider"] = { "i", 247808 },	-- Bronze Simulacrum (QS!)
-					["groups"] = {
-						i(242516),	-- Memento of Epoch Legends (Legendary Memento)
-					},
 				}),
 				q(89418, {	-- A Fixed Point in Time
 					["sourceQuest"] = 89417,	-- Infinite Meetings
