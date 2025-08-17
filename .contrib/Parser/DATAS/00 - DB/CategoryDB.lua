@@ -226,6 +226,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			fr = "Carte",
 			it = "Carta",
 			pt = "Carta",
+			ru = "Карты",
 			tw = "卡片",
 		},
 	},
@@ -466,10 +467,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133127,
 		text = {
-			en = "Helms",
-			es = "Cascos",
-			mx = "Cascos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[219] = {
@@ -500,20 +498,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132616,
 		text = {
-			en = "Bracers",
-			es = "Muñecas",
-			mx = "Muñecas",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[223] = {
 		readable = "Belts",
 		icon = 132516,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[224] = {
@@ -530,10 +522,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Boots",
 		icon = 132535,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[226] = {
@@ -618,50 +607,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132606,
 		text = {
-			en = "Bracers",
-			es = "Muñecas",
-			mx = "Muñecas",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[238] = {
 		readable = "Belts",
 		icon = 132503,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[239] = {
 		readable = "Gloves",
 		icon = 132940,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[240] = {
 		readable = "Pants",
 		icon = 134586,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[241] = {
 		readable = "Boots",
 		icon = 132539,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[242] = {
@@ -727,10 +701,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133076,
 		text = {
-			en = "Helms",
-			es = "Cascos",
-			mx = "Cascos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[252] = {
@@ -751,50 +722,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132607,
 		text = {
-			en = "Bracers",
-			es = "Muñecas",
-			mx = "Muñecas",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[255] = {
 		readable = "Gloves",
 		icon = 132939,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[256] = {
 		readable = "Belts",
 		icon = 132513,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[257] = {
 		readable = "Pants",
 		icon = 134592,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[258] = {
 		readable = "Boots",
 		icon = 132544,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[259] = {
@@ -1357,6 +1313,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			fr = "Carte",
 			it = "Carta",
 			pt = "Carta",
+			ru = "Карты",
 			tw = "卡片",
 		},
 	},
@@ -2204,10 +2161,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133076,
 		text = {
-			en = "Helms",
-			es = "Cascos",
-			mx = "Cascos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[555] = {
@@ -2255,20 +2209,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132607,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[562] = {
 		readable = "Belts",
 		icon = 132513,
 		text = {
-			en = "Belts",
-			es = "Cinturas",
-			mx = "Cinturas",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[563] = {
@@ -2285,10 +2233,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Boots",
 		icon = 132539,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[565] = {
@@ -5080,10 +5025,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133076,
 		text = {
-			en = "Helms",
-			es = "Yelmos",
-			mx = "Yelmos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[892] = {
@@ -5104,50 +5046,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132607,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[895] = {
 		readable = "Gloves",
 		icon = 132939,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[896] = {
 		readable = "Belts",
 		icon = 132513,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[897] = {
 		readable = "Pants",
 		icon = 134592,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[898] = {
 		readable = "Boots",
 		icon = 132539,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[899] = {
@@ -5212,10 +5139,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133076,
 		text = {
-			en = "Helms",
-			es = "Yelmos",
-			mx = "Yelmos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[906] = {
@@ -5236,50 +5160,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132607,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[909] = {
 		readable = "Gloves",
 		icon = 132939,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[910] = {
 		readable = "Belts",
 		icon = 132513,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[911] = {
 		readable = "Pants",
 		icon = 134592,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[912] = {
 		readable = "Boots",
 		icon = 132539,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[913] = {
@@ -5326,10 +5235,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133076,
 		text = {
-			en = "Helms",
-			es = "Yelmos",
-			mx = "Yelmos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[918] = {
@@ -5352,50 +5258,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132607,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[921] = {
 		readable = "Gloves",
 		icon = 132939,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[922] = {
 		readable = "Belts",
 		icon = 132513,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[923] = {
 		readable = "Pants",
 		icon = 134592,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[924] = {
 		readable = "Boots",
 		icon = 132539,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[925] = {
@@ -5451,10 +5342,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Helms",
 		icon = 133076,
 		text = {
-			en = "Helms",
-			es = "Yelmos",
-			mx = "Yelmos",
-			ko = "머리",
+			en = [[~HEADSLOT]],
 		},
 	},
 	[931] = {
@@ -5475,50 +5363,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132607,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[934] = {
 		readable = "Gloves",
 		icon = 132939,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[935] = {
 		readable = "Belts",
 		icon = 132513,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[936] = {
 		readable = "Pants",
 		icon = 134592,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[937] = {
 		readable = "Boots",
 		icon = 132539,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[938] = {
@@ -5707,50 +5580,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132616,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[966] = {
 		readable = "Belts",
 		icon = 132516,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[967] = {
 		readable = "Gloves",
 		icon = 132940,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[968] = {
 		readable = "Pants",
 		icon = 134586,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[969] = {
 		readable = "Boots",
 		icon = 132535,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[970] = {
@@ -5830,50 +5688,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132616,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[979] = {
 		readable = "Belts",
 		icon = 132516,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[980] = {
 		readable = "Gloves",
 		icon = 132940,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[981] = {
 		readable = "Pants",
 		icon = 134586,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[982] = {
 		readable = "Boots",
 		icon = 132535,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[983] = {
@@ -5961,50 +5804,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132616,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[992] = {
 		readable = "Belts",
 		icon = 132516,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[993] = {
 		readable = "Gloves",
 		icon = 132940,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[994] = {
 		readable = "Pants",
 		icon = 134586,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[995] = {
 		readable = "Boots",
 		icon = 132535,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[996] = {
@@ -6110,50 +5938,35 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Bracers",
 		icon = 132616,
 		text = {
-			en = "Bracers",
-			es = "Brazales",
-			mx = "Brazales",
-			ko = "손목",
+			en = [[~WRISTSLOT]],
 		},
 	},
 	[1007] = {
 		readable = "Belts",
 		icon = 132516,
 		text = {
-			en = "Belts",
-			es = "Cintura",
-			mx = "Cintura",
-			ko = "허리",
+			en = [[~WAISTSLOT]],
 		},
 	},
 	[1008] = {
 		readable = "Gloves",
 		icon = 132940,
 		text = {
-			en = "Gloves",
-			es = "Guantes",
-			mx = "Guantes",
-			ko = "손",
+			en = [[~HANDSSLOT]],
 		},
 	},
 	[1009] = {
 		readable = "Pants",
 		icon = 134586,
 		text = {
-			en = "Pants",
-			es = "Pantalones",
-			mx = "Pantalones",
-			ko = "다리",
+			en = [[~LEGSSLOT]],
 		},
 	},
 	[1010] = {
 		readable = "Boots",
 		icon = 132535,
 		text = {
-			en = "Boots",
-			es = "Botas",
-			mx = "Botas",
-			ko = "발",
+			en = [[~FEETSLOT]],
 		},
 	},
 	[1011] = {
