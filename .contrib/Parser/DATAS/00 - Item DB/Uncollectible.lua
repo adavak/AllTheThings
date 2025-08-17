@@ -289,6 +289,7 @@ i(156624);	-- Blemished Pearl
 i(158820);	-- Blind-Worm Sting
 i(162978);	-- Blood Magic Ritual Dish
 i(158759);	-- Bloodgorged Sac
+i(163516);	-- Blue Glowing Puffer
 i(158750);	-- Bonebreaker Beak
 i(158853);	-- Bony Skullplate
 i(158851);	-- Bottled Squall
@@ -332,6 +333,7 @@ i(158795);	-- Glittering Chill
 i(163078);	-- Glittering Earring
 i(158868);	-- Golden Ornament
 i(162979);	-- Gral-Adorned Astrolabe
+i(163172);	-- Green Glowing Puffer
 i(158855);	-- Grim Skull Fetish
 i(152698);	-- Grimestone Stew
 i(158860);	-- Grindstone Molar
@@ -364,6 +366,7 @@ i(158751);	-- Matted Pelt
 i(161201);	-- Mermaid's Looking Glass
 i(158778);	-- Mucose Tendril
 i(158866);	-- Oily Blubber
+i(163520);	-- Orange Glowing Puffer
 i(162685);	-- Overflowing Loa Tribute
 i(163848);	-- Overused Voodoo Doll
 i(158831);	-- Parched Honeycomb
@@ -374,7 +377,9 @@ i(158781);	-- Pilfered Curio
 i(155601);	-- Pointy Leg Segment
 i(163375);	-- Portrait of Commander Martens
 i(158840);	-- Prehensile Tongue
+i(163518);	-- Purple Glowing Puffer
 i(162545);	-- Razordog
+i(163517);	-- Red Glowing Puffer
 i(158779);	-- Robust Horn
 i(162554);	-- Rootway Papaya
 i(158756);	-- Rotary Gasket
@@ -430,6 +435,7 @@ i(158834);	-- Winch Coil
 i(162672);	-- Witch Doctor's Juju Beads
 i(158870);	-- Wooly Hair
 i(158773);	-- Wriggling Goop
+i(163521);	-- Yellow Glowing Puffer
 
 -----------------
 -- PATCH 8.1.0 --

@@ -3936,7 +3936,6 @@ root(ROOTS.Unsorted, {
 				i(163112),	-- Imp's Tongue Charm
 				i(163113),	-- Corroded Copper Kettle \\ Copper Tea Kettle
 				i(163171),	-- De Gral Kantik
-				i(163172),	-- Green Glowing Puffer
 				i(163322),	-- Ian's Empty Bottle
 				i(163324),	-- Brian's Broken Compass
 				i(163325),	-- Ofer's Bound Journal
@@ -3947,11 +3946,6 @@ root(ROOTS.Unsorted, {
 				i(163372),	-- Damarcus' Backpack
 				i(163373),	-- Rachel's Flute \\ Rachel's Tambourine
 				i(163374),	-- Josh's Fang Necklace \\ Josh's Lucky Ferret's Foot
-				i(163516),	-- Blue Glowing Puffer
-				i(163517),	-- Red Glowing Puffer
-				i(163518),	-- Purple Glowing Puffer
-				i(163520),	-- Orange Glowing Puffer
-				i(163521),	-- Yellow Glowing Puffer
 				i(163535),	-- Outpost Upgrade
 				i(163544),	-- Scroll of Agile Swimming
 				i(163545),	-- Scroll of Ocean Ferocity

@@ -879,7 +879,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(40452, {	-- Just Keep Swimming
 			["maps"] = KOBYSS_DELVES,
-			["timeline"] = { REMOVED_11_2_0_SEASONSTART },
 		}),
 		ach(40506, {	-- Leave No Treasure Unfound
 			-- Meta Achievement
