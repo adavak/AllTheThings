@@ -153,9 +153,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(KARESH, {
 			n(WORLD_QUESTS, {
 				q(91075),	-- Triggered after completing 'Ecological Succession' (first time)
-				q(91179),	-- Triggered after completing 'Ecological Succession' (first time/Curious Slateback hqt?)
-							-- Triggered after completing 'Special Assignment: Overshadowed' (89293)
-							-- Triggered after completing 'Special Assignment: Aligned Views' (89294)
+				q(91179, name(HEADERS.Item, 244865,{["isWeekly"]=true})),	-- Pinnacle Cache #1 of the week
+				q(91180, name(HEADERS.Item, 244865,{["isWeekly"]=true})),	-- Pinnacle Cache #2 of the week
 				q(91193),	-- Special Assignment: Capstone 1 - Unlock
 				q(91203),	-- Special Assignment: Capstone 2 - Unlock
 				-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
