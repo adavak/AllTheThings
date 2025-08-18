@@ -121,7 +121,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				q(91706),	-- A Celestial Challenge: Durand
 				q(91703),	-- A Celestial Challenge: Flameweaver Koegler
 				q(91710),	-- A Celestial Challenge: Raigonn
-				q(91717),	-- A Celestial Challenge: Sha of Doubt
+				--q(91717),	-- A Celestial Challenge: Sha of Doubt
+				q(91718),	-- A Celestial Challenge: Sha of Doubt
 				q(91713),	-- A Celestial Challenge: Sha of Hatred
 				q(91708),	-- A Celestial Challenge: Wing Leader Ner'onok
 				q(91712),	-- A Celestial Challenge: Xin the Weaponmaster
