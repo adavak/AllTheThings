@@ -294,12 +294,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
 						{ "select","itemID",
-						3371,	-- Empty-/Crystal Vial
-						-- #if BEFORE CATA
-						3372,	-- Leaded Vial
-						8925,	-- Crystal Vial
-						18256,	-- Imbued Vial
-						-- #endif
 						2453,	-- Bruiseweed
 						2449,	-- Earthroot
 						3356,	-- Kingsblood
@@ -322,18 +316,9 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16713, {	-- Arras <Blacksmithing Supplies>
 					["coord"] = { 61.3, 89.3, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						-- #if AFTER 4.3.0
-						{ "sub", "common_recipes_vendor", 55684 },	-- Jordan Smith <Blacksmithing Trainer & Supplies>
-						-- #endif
-						{ "select","itemID",
-							2880,	-- Weak Flux
-							3466,	-- Strong Flux
-							18567,	-- Elemental Flux
-							3857,	-- Coal
-							5956,	-- Blacksmith Hammer
-						},
-					},
+					-- #if AFTER 4.3.0
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					-- #endif
 					["groups"] = {
 						i(23591, {	-- Plans: Adamantite Cleaver (RECIPE!)
 							["isLimited"] = true,
@@ -396,9 +381,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16739, {	-- Caregiver Breel <Innkeeper>
 					["coord"] = { 59.5, 18.76, THE_EXODAR },	-- The Exobar
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(1179),	-- Ice Cold Milk
-					},
 				}),
 				n(20121, {	-- Dekin <Fishing Supplies>
 					["coord"] = { 29.5, 20.1, THE_EXODAR },
@@ -434,18 +416,11 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						{"sub", "common_recipes_vendor", 1318},	-- Jessara Cordell <Enchanting Supplies>
 						-- #endif
 						{ "select","itemID",
-							6217,	-- Copper Rod
-							4470,	-- Simple Wood
-							11291,	-- Star Wood
-							10938,	-- Lesser Magic Essence
-							10940,	-- Strange Dust
 							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
 							20752,	-- Formula: Minor Mana Oil (RECIPE!)
 							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
 							-- #if BEFORE CATA
 							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-							-- #else
-							38682,	-- Enchanting Vellum
 							-- #endif
 							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
@@ -455,13 +430,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16657, {	-- Feera <Engineering Supplies>
 					["coord"] = { 53.6, 90.8, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							5956,	-- Blacksmith Hammer
-							4400,	-- Heavy Stock
-							4399,	-- Wooden Stock
-						},
-					},
 					["groups"] = {
 						i(23799, {	-- Schematic: Adamantite Rifle (RECIPE!)
 							["isLimited"] = true,
@@ -628,20 +596,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {{ "sub", "common_vendor", 4256 }},	-- Golnir Bouldertoe <Mining Supplies>
 				}),
-				n(16706, {	-- Musal <Alchemy Supplies & Reagents>
-					["coord"] = { 44.77, 63.2, THE_EXODAR },
-					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-						3371,	-- Empty-/Crystal Vial
-						-- #if BEFORE CATA
-						3372,	-- Leaded Vial
-						8925,	-- Crystal Vial
-						18256,	-- Imbued Vial
-						-- #endif
-						},
-					},
-				}),
 				n(16735, {	-- Muhaa
 					["coord"] = { 45.8, 89.2, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
@@ -665,20 +619,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						i(21897),	-- Pattern: Netherweave Tunic (RECIPE!)
 					},
 				}),
-				n(16768, {	-- Nurguni <Tradesman>
-					["coord"] = { 57.0, 50.05, THE_EXODAR },
-					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-						3371,	-- Empty-/Crystal Vial
-						-- #if BEFORE CATA
-						3372,	-- Leaded Vial
-						8925,	-- Crystal Vial
-						18256,	-- Imbued Vial
-						-- #endif
-						},
-					},
-				}),
 				n(16632, {	-- Oss
 					["coord"] = { 46.8, 60.4, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
@@ -696,17 +636,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16718, {	-- Phea <Cooking Supplies>
 					["coord"] = { 54.4, 26.3, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							159,	-- Refreshing Spring Water
-							30817,	-- Simple Flour
-							2678,	-- Mild Spices
-							-- #if BEFORE WRATH
-							2692,	-- Hot Spices
-							3713,	-- Soothing Spices
-							-- #endif
-						},
-					},
 					["groups"] = appendGroups(PHEA_GROUPS, {}),
 				}),
 				n(21019, {	-- Sixx <Moth Keeper>

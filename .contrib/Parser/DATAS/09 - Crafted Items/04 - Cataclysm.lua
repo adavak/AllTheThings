@@ -439,6 +439,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 	}),
 	prof(ENGINEERING, {
+		-- #if AFTER MOP
+		n(COMMON_VENDOR_ITEMS, {
+			i(90146),	-- Tinker's Kit
+		}),
+		-- #endif
 		prof(GNOMISH_ENGINEERING, {
 			["description"] = "These items can only be crafted by Engineers who have completed the Gnomish Engineering quest chain.",
 			["groups"] = {

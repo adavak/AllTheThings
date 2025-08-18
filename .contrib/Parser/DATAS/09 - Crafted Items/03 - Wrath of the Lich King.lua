@@ -14,6 +14,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	i(180059, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past V
 	prof(ALCHEMY, {
+		n(COMMON_VENDOR_ITEMS, {
+			i(40411, {	-- Enchanted Vial for WotLK, turns into Shattered Vial with Cataclysm.
+				["description"] = "Can be bought from Alchemy Suppliers, as well as some Trade vendors around the world.",
+				["providers"] = {
+					{ "n", 24341},	-- Barnabas Frye <Trade Goods>
+					{ "n", 27012},	-- Beem Goldsprocket <Trade Goods>
+					{ "n", 26941},	-- Brokkan Bear-Arms <Trade Goods>
+					{ "n", 28714},	-- Patricia Egan <Alchemy Supplies>
+					{ "n", 23802},	-- Wink Sprinklesprankle <General Goods & Trade Supplies>
+				},
+				["coords"] = {
+					{ 57.7, 72.32, BOREAN_TUNDRA },
+					{ 41.34, 34.61, BOREAN_TUNDRA },
+					{ 79.5, 30.47, HOWLING_FJORD },
+					{ 58.4, 62.75, HOWLING_FJORD },
+					{ 41.54, 33.32, NORTHREND_DALARAN },
+				},
+				["timeline"] = { ADDED_3_0_2, REMOVED_4_0_1 },
+			}),
+		}),
 		n(DISCOVERY, {
 			spell(60893, {	-- Northrend Alchemy Research
 				-- #if AFTER WOD
@@ -534,6 +554,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 	}),
 	prof(ENGINEERING, {
+		n(COMMON_VENDOR_ITEMS, sharedData({
+			["description"] = "Can be bought from Engineering Suppliers, as well as some Trade vendors around the world. Coordinates are for select vendors.",
+			["coords"] = {
+				{ 39.0, 26.0, NORTHREND_DALARAN },
+				-- #if AFTER CATA
+				{ 56.0, 56.0, ORGRIMMAR },
+				{ 63.07, 31.97, STORMWIND_CITY },
+				-- #endif
+			},
+			["providers"] = {
+				{ "n", 28722},	-- Bryan Landers <Engineering Supplies>
+				-- #if AFTER CATA
+				{ "n", 5519},	-- Billibub Cogspinner <Engineering Supplies>
+				{ "n", 3413},	-- Sovik <Engineering Supplies>
+				-- #endif
+			},
+		}, {
+			i(39684),	-- Hair Trigger
+			i(40533),	-- Walnut Stock
+		})),
 		prof(GNOMISH_ENGINEERING, {
 			["description"] = "These items can only be crafted by Engineers who have completed the Gnomish Engineering quest chain.",
 			["groups"] = {

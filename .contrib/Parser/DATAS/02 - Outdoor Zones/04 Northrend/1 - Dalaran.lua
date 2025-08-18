@@ -3034,7 +3034,7 @@ root(ROOTS.Zones, {
 					}),
 					n(28722, {	-- Bryan Landers <Engineering Supplies>
 						["coord"] = { 39.0, 26.0, NORTHREND_DALARAN },
-						["groups"] = appendGroups(WOTLK_ENGINEERING_SUPPLIES, {
+						["groups"] = {
 							i(136782, {	-- Fireworks Instruction Manual (CI!)
 								["timeline"] = { ADDED_7_0_3_LAUNCH },
 							}),
@@ -3042,7 +3042,7 @@ root(ROOTS.Zones, {
 								["isLimited"] = true,
 								["timeline"] = { ADDED_3_0_8 },
 							}),
-						}),
+						},
 					}),
 					n(29702, {	-- Chameli Banaphash <Haberdasher>
 						["coord"] = { 44.8, 46.6, NORTHREND_DALARAN },
@@ -3117,13 +3117,6 @@ root(ROOTS.Zones, {
 							emot(50, i(48724)),	-- Talisman of Resurgence
 							emoh(40, i(40685)),	-- The Egg of Mortal Essence
 							emoh(40, i(40683)),	-- Valor Medal of the First War
-						},
-					}),
-					n(31032, {	-- Derek Odds <Cooking Supplies>
-						["coord"] = { 40.7, 65.9, NORTHREND_DALARAN },
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							i(30817),	-- Simple Flour
 						},
 					}),
 					n(28726, {	-- Dominique Stefano <Tailoring Supplies>
@@ -3478,15 +3471,6 @@ root(ROOTS.Zones, {
 								TIER_NINE_GROUPS.WARRIOR_H, {})),
 						},
 					}),
-					-- #if AFTER CATA
-					n(28714, {	-- Ildine Sorrowspear <Enchanting Supplies>
-						["coord"] = { 38.78, 41.56, NORTHREND_DALARAN },
-						["sym"] = {{ "select","itemID", 38682 }},	-- Enchanting Vellum
-						-- #if AFTER BFA
-						["groups"] = RUNED_COPPER_ROD_REAGENTS,
-						-- #endif
-					}),
-					-- #endif
 					n(28682, {	-- Inzi Charmlight <Barmaid>
 						["coord"] = { 44.2, 62.3, NORTHREND_DALARAN },
 						["description"] = "Inzi is walking around in the Tavern.",
@@ -3764,13 +3748,6 @@ root(ROOTS.Zones, {
 							i(35949),	-- Tundra Berries
 						},
 					}),
-					n(31031, {	-- Misensi <Cooking Supplies>
-						["coord"] = { 70.0, 38.6, NORTHREND_DALARAN },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(30817),	-- Simple Flour
-						},
-					}),
 					n(29529, {	-- Ninsianna <Relics>
 						["description"] = "If you /dance with her, she will say Not bad, though some additional schooling wouldn't hurt! Here, watch my hips... like so! and start dancing.",
 						["groups"] = bubbleDown({ ["timeline"] = { REMOVED_5_0_4 } }, {
@@ -3862,14 +3839,6 @@ root(ROOTS.Zones, {
 							emov(60, i(40740)),	-- Wraps of the Astral Traveler
 							emov(40, i(40750)),	-- Xintor's Expeditionary Boots
 						},
-					}),
-					n(28725, {	-- Patricia Egan <Alchemy Supplies>
-						["coord"] = { 41.54, 33.32, NORTHREND_DALARAN },
-						-- #if AFTER CATA
-						["groups"] = CRYSTAL_VIAL,
-						-- #else
-						["groups"] = appendGroups(ENCHANTED_VIAL, IMBUED_VIAL, {}),
-						-- #endif
 					}),
 					n(35497, {	-- Rafael Langrom <Leather Armor Merchant>
 						["coord"] = { 51.2, 71.5, NORTHREND_DALARAN },

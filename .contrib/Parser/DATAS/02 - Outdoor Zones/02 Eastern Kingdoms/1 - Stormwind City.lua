@@ -4932,27 +4932,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(3421),	-- Simple Wildflowers
 					},
 				}),
-				n(5519, {	-- Billibub Cogspinner <Engineering Supplies>
-					["coords"] = {
-						-- #if AFTER 3.0.2
-						{ 63.07, 31.97, STORMWIND_CITY },
-						-- #else
-						{ 55.0, 7.0, STORMWIND_CITY },
-						-- #endif
-					},
-					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							5956,	-- Blacksmith Hammer
-							4400,	-- Heavy Stock
-							4399,	-- Wooden Stock
-							-- #if AFTER CATA
-							39684,	-- Hair Trigger
-							40533,	-- Walnut Stock
-							-- #endif
-						},
-					},
-				}),
 				n(5514, {	-- Brooke Stonebraid <Mining Supplies>
 					["coords"] = {
 						-- #if AFTER WRATH
@@ -5293,12 +5272,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{ "sub", "common_vendor", 4222 }},	-- Voloren <Fishing Supplies>
-					["groups"] = appendGroups(SHINY_BAUBLE, {
+					["groups"] = {
 						i(6325),	-- Recipe: Brilliant Smallfish (RECIPE!)
 						i(6330),	-- Recipe: Bristle Whisker Catfish (RECIPE!)
 						i(6368),	-- Recipe: Rainbow Fin Albacore (RECIPE!)
-					}),
+					},
 				}),
 				n(1307, {	-- Charys Yserian <Arcane Trinkets Vendor>
 					["coords"] = {
@@ -5563,13 +5541,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["description"] = "Elly is walking around in the Tavern.",
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(2594),	-- Flagon of Dwarven Honeymead/Mead
-						i(2593),	-- Flask of Stormwind Tawny
-						i(1179),	-- Ice Cold Milk
-						--i(2595),	-- Jug of Badlands Bourbon
-						i(2596),	-- Skin of Dwarven Stout
-					},
 				}),
 				n(5483, {	-- Erika Tate <Cooking Supplies> [TBC+] / Erika Tate <Cooking Supplier>
 					["coords"] = {
@@ -5580,19 +5551,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							159,	-- Refreshing Spring Water
-							-- #if AFTER TBC
-							30817,	-- Simple Flour
-							-- #endif
-							2678,	-- Mild Spices
-							-- #if BEFORE WRATH
-							2692,	-- Hot Spices
-							3713,	-- Soothing Spices
-							-- #endif
-						},
-					},
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
@@ -6086,18 +6044,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
 						{ "select","itemID",
-							6217,	-- Copper Rod
-							4470,	-- Simple Wood
-							11291,	-- Star Wood
-							10938,	-- Lesser Magic Essence
-							10940,	-- Strange Dust
 							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
 							20752,	-- Formula: Minor Mana Oil (RECIPE!)
 							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
 							-- #if BEFORE CATA
 							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-							-- #else
-							38682,	-- Enchanting Vellum
 							-- #endif
 							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
@@ -6143,18 +6094,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						-- #if AFTER 4.3.0
-						{ "sub", "common_recipes_vendor", 55684 },	-- Jordan Smith <Blacksmithing Trainer & Supplies>
-						-- #endif
-						{ "select","itemID",
-							2880,	-- Weak Flux
-							3466,	-- Strong Flux
-							18567,	-- Elemental Flux
-							3857,	-- Coal
-							5956,	-- Blacksmith Hammer
-						},
-					},
+					-- #if AFTER 4.3.0
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					-- #endif
 					["groups"] = {
 						i(12162, {	-- Plans: Hardened Iron Shortsword (RECIPE!)
 							["isLimited"] = true,
@@ -6890,16 +6832,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-						3371,	-- Empty-/Crystal Vial
-						-- #if BEFORE CATA
-						3372,	-- Leaded Vial
-						8925,	-- Crystal Vial
-						18256,	-- Imbued Vial
-						-- #endif
-						},
-					},
 					["groups"] = sharedData({
 						["isLimited"] = true,
 					}, {

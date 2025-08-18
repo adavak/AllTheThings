@@ -590,11 +590,6 @@ local MADAME_RUBY_GROUPS = {
 		["isLimited"] = true,
 	}),
 };
--- #if AFTER BFA
-local ZURII_YURIAL_GROUPS = appendGroups(ENCHANTING_SUPPLIES, RUNED_COPPER_ROD_REAGENTS, {});
--- #else
-local ZURII_YURIAL_GROUPS = ENCHANTING_SUPPLIES;
--- #endif
 -- #if AFTER CATA
 local EPIC_GEM_COSTS = { { "c", 395, 78 } };	-- 78x Justice Points
 -- #elseif AFTER WRATH
@@ -2591,11 +2586,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 45.8, 20.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
 						["groups"] = {
-							-- #if AFTER CATA
-							i(3371),	-- Crystal Vial
-							-- #else
-							i(18256),	-- Imbued Vial
-							-- #endif
 							i(23574, {	-- Recipe: Transmute Primal Might (RECIPE!)
 								["isLimited"] = true,
 							}),
@@ -2663,13 +2653,11 @@ root(ROOTS.Zones, {
 					n(19234, {	-- Yurial Soulwater <Enchanting Supplies>
 						["coord"] = { 44.6, 96.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
-						["groups"] = ZURII_YURIAL_GROUPS,
 					}),
 					n(33676, {	-- Zurii <Enchanting Trainer>
 						["coord"] = { 36.4, 44.6, SHATTRATH_CITY },
 						["timeline"] = { ADDED_3_1_0 },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
-						["groups"] = ZURII_YURIAL_GROUPS,
 					}),
 				}),
 			},

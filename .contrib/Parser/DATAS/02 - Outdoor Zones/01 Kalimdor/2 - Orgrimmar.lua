@@ -2573,15 +2573,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 55.1, 77.9, ORGRIMMAR },	-- The Broken Tusk
 					-- #endif
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(1179),	-- Ice Cold Milk
-						-- Danny Donkey: All these items get removed from this vendor with Cataclysm.
-						-- #if BEFORE 4.0.3
-						i(2594),	-- Flagon of Dwarven Honeymead/Mead
-						i(2593),	-- Flask of Stormwind Tawny
-						i(2596),	-- Skin of Dwarven Stout
-						-- #endif
-					},
 				}),
 				n(52809, {	-- Blax Bottlerocket <Toys and Novelties>
 					["coords"] = {
@@ -2871,13 +2862,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 41.0, 79.4, ORGRIMMAR },
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							159,	-- Refreshing Spring Water
-							30817,	-- Simple Flour
-							2678,	-- Mild Spices
-						},
-					},
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
@@ -3423,18 +3407,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["sym"] = {
 						{ "select","itemID",
-							6217,	-- Copper Rod
-							4470,	-- Simple Wood
-							11291,	-- Star Wood
-							10938,	-- Lesser Magic Essence
-							10940,	-- Strange Dust
 							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
 							20752,	-- Formula: Minor Mana Oil (RECIPE!)
 							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
 							-- #if BEFORE CATA
 							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-							-- #else
-							38682,	-- Enchanting Vellum
 							-- #endif
 							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
@@ -3476,7 +3453,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					["sym"] = {{ "sub", "common_vendor", 3010 }},	-- Mani Winterhoof <Alchemy Supplies>
 					["groups"] = {
 						i(13478, {	-- Recipe: Elixir of Superior Defense (RECIPE!)
 							["isLimited"] = true,
@@ -4863,11 +4839,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(FISHING_SUPPLIES, {
+					["groups"] = {
 						i(17062),	-- Recipe: Mithril Head Trout (RECIPE!)
 						i(6368),	-- Recipe: Rainbow Fin Albacore (RECIPE!)
 						i(6369),	-- Recipe: Rockscale Cod (RECIPE!)
-					}),
+					},
 				}),
 				n(49737, {	-- Shazdar <Sous Chef>
 					["coord"] = { 56.8, 62.6, ORGRIMMAR },
@@ -4932,19 +4908,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							5956,	-- Blacksmith Hammer
-							4400,	-- Heavy Stock
-							4399,	-- Wooden Stock
-							-- #if AFTER CATA
-							39684,	-- Hair Trigger
-							40533,	-- Walnut Stock
-							-- #endif
-						},
-					},
 					["groups"] = {
-						i(39684, { ["timeline"] = { ADDED_3_0_2 }}),	-- Hair Trigger
 						i(18647, {	-- Schematic: Red Firework (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -4964,7 +4928,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { CREATED_1_12_1, ADDED_2_3_0 },
 							["isLimited"] = true,
 						}),
-						i(40533, { ["timeline"] = { ADDED_3_0_2 }}),	-- Walnut Stock
 					},
 				}),
 				n(50488, {	-- Stone Guard Nargol <Orgrimmar Quartermaster>
@@ -5009,13 +4972,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 56.6, 61.2, ORGRIMMAR },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							159,	-- Refreshing Spring Water
-							30817,	-- Simple Flour
-							2678,	-- Mild Spices
-						},
-					},
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
@@ -5030,18 +4986,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						-- #if AFTER CATA
-						{"sub", "common_recipes_vendor", 46359},	-- Punra <Blacksmithing Supplies>
-						-- #endif
-						{ "select","itemID",
-							2880,	-- Weak Flux
-							3466,	-- Strong Flux
-							18567,	-- Elemental Flux
-							3857,	-- Coal
-							5956,	-- Blacksmith Hammer
-						},
-					},
+					-- #if AFTER CATA
+					["sym"] = {{"sub", "common_recipes_vendor", 46359}},	-- Punra <Blacksmithing Supplies>
+					-- #endif
 					["groups"] = {
 						i(12162, {	-- Plans: Hardened Iron Shortsword (RECIPE!)
 							["isLimited"] = true,
@@ -5580,10 +5527,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(VANILLA_COOKING_SUPPLIES, {
+					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
-					}),
+					},
 				}),
 				n(3405, {	-- Zeal'aya <Herbalism Supplies>
 					["coord"] = { 55.0, 39.6, ORGRIMMAR },

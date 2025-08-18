@@ -2887,7 +2887,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(VENDORS, {
-					["description"] = "Howling Fjord does not have any vendors offering enchanting supplies, nor jewelcrafting supplies.",
+					["description"] = "Howling Fjord does not have any vendors offering jewelcrafting supplies.",
 					["groups"] = {
 						n(24539, {	-- "Silvermoon" Harry
 							["coord"] = { 35.0, 80.8, HOWLING_FJORD },
@@ -2914,15 +2914,10 @@ root(ROOTS.Zones, {
 						}),
 						n(24341, {	-- Barnabas Frye <Trade Goods>
 							["coord"] = { 79.5, 30.47, HOWLING_FJORD },
+							["races"] = HORDE_ONLY,
 							["sym"] = {
 								{ "select","itemID",
 									38426,	-- Eternium Thread
-									-- #if AFTER CATA
-									3371,	-- Crystal Vial
-									-- #else
-									40411,	-- Enchanted Vial
-									18256,	-- Imbued Vial
-									-- #endif
 								},
 							},
 						}),
@@ -2987,15 +2982,10 @@ root(ROOTS.Zones, {
 						n(23802, {	-- Wink Sprinklesprankle <General Goods & Trade Supplies>
 							["coord"] = { 58.4, 62.75, HOWLING_FJORD },
 							["description"] = "Walks in a circle inside Valgarde Inn.",
+							["races"] = ALLIANCE_ONLY,
 							["sym"] = {
 								{ "select","itemID",
 									38426,	-- Eternium Thread
-									-- #if AFTER CATA
-									3371,	-- Crystal Vial
-									-- #else
-									40411,	-- Enchanted Vial
-									18256,	-- Imbued Vial
-									-- #endif
 								},
 							},
 						}),

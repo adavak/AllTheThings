@@ -553,18 +553,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(16670, {	-- Eriden <Blacksmithing Supplies>
 					["coord"] = { 80.6, 37.0, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						-- #if AFTER CATA
-						{"sub", "common_recipes_vendor", 46359},	-- Punra <Blacksmithing Supplies>
-						-- #endif
-						{ "select","itemID",
-							2880,	-- Weak Flux
-							3466,	-- Strong Flux
-							18567,	-- Elemental Flux
-							3857,	-- Coal
-							5956,	-- Blacksmith Hammer
-						},
-					},
+					-- #if AFTER CATA
+					["sym"] = {{"sub", "common_recipes_vendor", 46359}},	-- Punra <Blacksmithing Supplies>
+					-- #endif
 					["groups"] = {
 						i(23591, {	-- Plans: Adamantite Cleaver (RECIPE!)
 							["isLimited"] = true,
@@ -624,9 +615,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(17630, {	-- Innkeeper Jovia <Innkeeper>
 					["coord"] = { 67.85, 72.9, SILVERMOON_CITY },	-- Wayfarer's Rest
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(1179),	-- Ice Cold Milk
-					},
 				}),
 				n(16625, {	-- Keeli
 					["coord"] = { 61.2, 86.4, SILVERMOON_CITY },
@@ -665,18 +653,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						{"sub", "common_recipes_vendor", 3346},	-- Kithas <Enchanting Supplies>
 						-- #endif
 						{ "select","itemID",
-							6217,	-- Copper Rod
-							4470,	-- Simple Wood
-							11291,	-- Star Wood
-							10938,	-- Lesser Magic Essence
-							10940,	-- Strange Dust
 							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
 							20752,	-- Formula: Minor Mana Oil (RECIPE!)
 							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
 							-- #if BEFORE CATA
 							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-							-- #else
-							38682,	-- Enchanting Vellum
 							-- #endif
 							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
@@ -696,7 +677,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(16641, {	-- Melaris <Alchemy Supplies>
 					["coord"] = { 67.0, 19.2, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
-					["sym"] = {{ "sub", "common_vendor", 3010 }},	-- Mani Winterhoof <Alchemy Supplies>
 					["groups"] = sharedData({["isLimited"] = true}, {
 						i(2453),	-- Bruiseweed
 						i(2449),	-- Earthroot
@@ -734,30 +714,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						845,	-- Tanned Leather Pants
 					}},
 				}),
-				n(18347, {	-- Olirea <Fishing Supplies>
-					["coord"] = { 77.04, 68.2, SILVERMOON_CITY },
-					["races"] = HORDE_ONLY,
-					["sym"] = {{ "sub", "common_vendor", 3333 }},	-- Shankys <Fishing Supplies>
-				}),
-				n(16613, {	-- Parnis <Tradesman>
-					["coord"] = { 64.9, 64.7, SILVERMOON_CITY },
-					["races"] = HORDE_ONLY,
-					["sym"] = {{ "sub", "common_vendor", 3010 }},	-- Mani Winterhoof <Alchemy Supplies>
-				}),
 				n(16677, {	-- Quelis <Cooking Supplies>
 					["coord"] = { 69.6, 71.2, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							159,	-- Refreshing Spring Water
-							30817,	-- Simple Flour
-							2678,	-- Mild Spices
-							-- #if BEFORE WRATH
-							2692,	-- Hot Spices
-							3713,	-- Soothing Spices
-							-- #endif
-						},
-					},
 					["groups"] = appendGroups(QUELIS_GROUPS, {}),
 				}),
 				n(16678, {	-- Rahein <Blade Vendor>
@@ -796,20 +755,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						i(8093),	-- Platemail Leggings
 					},
 				}),
-				n(16612, {	-- Velanni <Alchemy Supplies & Reagents>
-					["coord"] = { 68.95, 66.8, SILVERMOON_CITY },
-					["races"] = HORDE_ONLY,
-					["sym"] = {{ "sub", "common_vendor", 3010 }},	-- Mani Winterhoof <Alchemy Supplies>
-				}),
 				n(16442, {	-- Vinemaster Suntouched <Wine & Spirits Merchant>
 					["coord"] = { 79.5, 58.5, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(2594),	-- Flagon of Dwarven Honeymead/Mead
-						i(2593),	-- Flask of Stormwind Tawny
-						--i(2595),	-- Jug of Badlands Bourbon
-						i(2596),	-- Skin of Dwarven Stout
-					},
 				}),
 				n(16637, {	-- Welethelon
 					["coord"] = { 56.2, 60.2, SILVERMOON_CITY },
@@ -852,13 +800,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(16782, {	-- Yatheon <Engineering Supplies>
 					["coord"] = { 75.8, 40.6, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-							5956,	-- Blacksmith Hammer
-							4400,	-- Heavy Stock
-							4399,	-- Wooden Stock
-						},
-					},
 					["groups"] = {
 						i(23799, {	-- Schematic: Adamantite Rifle (RECIPE!)
 							["isLimited"] = true,

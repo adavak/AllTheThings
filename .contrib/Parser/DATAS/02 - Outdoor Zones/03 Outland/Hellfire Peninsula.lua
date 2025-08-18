@@ -67,9 +67,6 @@ local VENDOR_GEMS = {
 	i(28467),	-- Smooth Amber (Both)
 	i(28470),	-- Thick Amber (TBC) / Subtle Amber (Cata+)
 };
--- #if BEFORE 3.1.0
-local FELANNIA_JOHAN_GROUPS = ENCHANTING_SUPPLIES;
--- #endif
 -- #if AFTER WRATH
 -- All of these were removed and the associated recipes are now available through trainers now.
 bubbleDown({ ["u"] = REMOVED_FROM_GAME }, JEWELCRAFTING_PATTERNS);
@@ -3061,15 +3058,6 @@ root(ROOTS.Zones, {
 					n(18802, {	-- Alchemist Gribble <Alchemy Trainer>
 						["coord"] = { 53.8, 65.8, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
-						["sym"] = {
-							{ "select","itemID",
-								-- #if AFTER CATA
-								3371,	-- Crystal Vial
-								-- #else
-								18256,	-- Imbued Vial
-								-- #endif
-							},
-						},
 						["groups"] = {
 							i(22900, {	-- Recipe: Elixir of Camouflage (RECIPE!)
 								["isLimited"] = true,
@@ -3079,15 +3067,6 @@ root(ROOTS.Zones, {
 					n(16588, {	-- Apothecary Antonivich <Alchemy Trainer>
 						["coord"] = { 52.2, 36.4, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
-						["sym"] = {
-							{ "select","itemID",
-								-- #if AFTER CATA
-								3371,	-- Crystal Vial
-								-- #else
-								18256,	-- Imbued Vial
-								-- #endif
-							},
-						},
 						["groups"] = {
 							i(22900, {	-- Recipe: Elixir of Camouflage (RECIPE!)
 								["isLimited"] = true,
@@ -3251,28 +3230,6 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					n(18753, {	-- Felannia <Enchanting Trainer>
-						["coord"] = { 52.2, 36.0, HELLFIRE_PENINSULA },
-						["races"] = HORDE_ONLY,
-						-- #if AFTER 3.1.0
-						["sym"] = {
-							{ "select","itemID",
-								4470,	-- Simple Wood
-								11291,	-- Star Wood
-								-- #if AFTER CATA
-								38682,	-- Enchanting Vellum
-								-- #endif
-								-- #if AFTER BFA
-								6217,	-- Copper Rod
-								10938,	-- Lesser Magic Essence
-								10940,	-- Strange Dust
-								-- #endif
-							},
-						},
-						-- #else
-						["groups"] = FELANNIA_JOHAN_GROUPS,
-						-- #endif
-					}),
 					n(16602, {	-- Floyd Pinkus <Innkeeper>
 						["coord"] = { 56.7, 37.5, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
@@ -3357,28 +3314,6 @@ root(ROOTS.Zones, {
 						-- #endif
 					}),
 					-- #endif
-					n(18773, {	-- Johan Barnes <Enchanting Trainer>
-						["coord"] = { 53.6, 66.0, HELLFIRE_PENINSULA },
-						["races"] = ALLIANCE_ONLY,
-						-- #if AFTER 3.1.0
-						["sym"] = {
-							{ "select","itemID",
-								4470,	-- Simple Wood
-								11291,	-- Star Wood
-								-- #if AFTER CATA
-								38682,	-- Enchanting Vellum
-								-- #endif
-								-- #if AFTER BFA
-								6217,	-- Copper Rod
-								10938,	-- Lesser Magic Essence
-								10940,	-- Strange Dust
-								-- #endif
-							},
-						},
-						-- #else
-						["groups"] = FELANNIA_JOHAN_GROUPS,
-						-- #endif
-					}),
 					n(18751, {	-- Kalaen <Jewelcrafting Trainer>
 						["coord"] = { 56.78, 37.79, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
