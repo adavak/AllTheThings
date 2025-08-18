@@ -2498,6 +2498,7 @@ table.insert(SCHOLOMANCE_GROUPS, applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL_DU
 				["groups"] = {
 					ach(60899),	-- Celestial: Scholomance
 					i(86782),	-- Arrow Breaking Windcloak
+					i(89968),	-- Feng's Ring of Dreams
 					i(86802),	-- Lei Shen's Final Orders
 				},
 			}),

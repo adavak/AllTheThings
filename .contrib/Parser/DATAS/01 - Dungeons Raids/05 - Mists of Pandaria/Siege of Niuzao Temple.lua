@@ -455,6 +455,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["groups"] = {
 							ach(60900),	-- Celestial: Siege of Niuzao Temple
 							i(86806),	-- Tihan, Scepter of the Sleeping Emperor
+							i(86783),	-- Zian's Choker of Coalesced Shadow
 							i(89972),	-- Band of Bursting Novas
 						},
 					}),

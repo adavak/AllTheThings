@@ -290,6 +290,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							ach(60897),	-- Celestial: Scarlet Halls
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
 							i(86753),	-- Cloak of Peacock Feathers
+							i(89967),	-- Feng's Seal of Binding
 						},
 					}),
 				},

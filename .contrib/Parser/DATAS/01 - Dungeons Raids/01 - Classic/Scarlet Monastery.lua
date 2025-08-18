@@ -1298,7 +1298,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["creatureID"] = 3977,	-- High Inquisitor Whitemane
 						["groups"] = {
 							ach(60898),	-- Celestial: Scarlet Monastery
+							i(86796),	-- Torch of the Celestial Spark
 							i(86754),	-- Amulet of Seven Curses
+							i(86792),	-- Light of the Cosmos
 						},
 					}),
 				},
