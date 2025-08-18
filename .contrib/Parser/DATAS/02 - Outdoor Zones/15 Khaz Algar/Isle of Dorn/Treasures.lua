@@ -7,6 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			-- Repeatable
 			o(444065, {	-- Elemental Geode
 				["coords"] = {
+					{ 45.6, 60.2, ISLE_OF_DORN },
 					{ 77.1, 35.7, ISLE_OF_DORN },
 					{ 70.0, 53.8, ISLE_OF_DORN },
 				},
@@ -42,6 +43,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					{"i", 220143, 5},	-- 5x Dornish Pike
 					{"i", 222533, 1},	-- 1x Goldengill Trout
 				},
+			}),
+			o(443754, {	-- Earthen Coffer
+				["coord"] = { 59.2, 27.5, ISLE_OF_DORN },
 			}),
 			o(442718, {	-- Elemental Pearl
 				["coord"] = { 53.0, 18.5, ISLE_OF_DORN },
