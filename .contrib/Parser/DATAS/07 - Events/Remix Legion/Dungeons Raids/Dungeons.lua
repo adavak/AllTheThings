@@ -63,37 +63,84 @@ local mapped = function(id, t)
 	o.maps = MAPS
 	return o
 end
---[[
+
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(DUNGEONS, {
 		mapped(ACHIEVEMENTS, {
-			ach(20005, {	-- Heroic: Pandaria Dungeons
-				-- Meta Achievement
-				["sym"] = {{"meta_achievement",
-					19903,	-- Heroic: Gate of the Setting Sun
-					19905,	-- Heroic: Mogu'shan Palace
-					19907,	-- Heroic: Scarlet Halls
-					19909,	-- Heroic: Scarlet Monastery
-					19911,	-- Heroic: Scholomance
-					19899,	-- Heroic: Shado-Pan Monastery
-					19901,	-- Heroic: Siege of Niuzao Temple
-					19897,	-- Heroic: Stormstout Brewery
-					19895,	-- Heroic: Temple of the Jade Serpent
-				}},
-				["groups"] = {
-					i(208491),	-- Timerunner's Seal
-				},
-			}),
+			-- Exo Note: Most of these are meta achievements but they do not have criteria shown on them yet
+			-- Any difficulty Meta
+			ach(61115),	-- Legion Dungeons: Might of the Legion
+			ach(61114),	-- Legion Dungeons: Power of the Ancients
+			ach(61113),	-- Legion Dungeons: Threats of the Isle
+			ach(42692),	-- Broken Isles Dungeoneer
+			ach(42320),	-- Legion Remix Dungeoneer
+			-- Heroic Meta
+			ach(61073),	-- Heroic Legion Remix Dungeoneer
+			-- Mythic Meta
+			ach(61074),	-- Mythic Legion Remix Dungeoneer
+			ach(42615),	-- Timeworn Keystone Apprentice
+			
+			-- Normal
+			ach(60846),	-- Assault on Violet Hold
+			ach(60834),	-- Black Rook Hold
+			ach(60849),	-- Cathedral of Eternal Night
+			ach(60843),	-- Court of Stars
+			ach(60837),	-- Darkheart Thicket
+			ach(60819),	-- Eye of Azshara
+			ach(60831),	-- Halls of Valor
+			ach(60828),	-- Maw of Souls
+			ach(60825),	-- Neltharion's Lair
+			ach(60840),	-- The Arcway
+			ach(60822),	-- Vault of the Wardens
+
+			-- Heroic
+			ach(60847),	-- Heroic: Assault on Violet Hold
+			ach(60835),	-- Heroic: Black Rook Hold
+			ach(60850),	-- Heroic: Cathedral of Eternal Night
+			ach(60844),	-- Heroic: Court of Stars
+			ach(60838),	-- Heroic: Darkheart Thicket
+			ach(60820),	-- Heroic: Eye of Azshara
+			ach(60832),	-- Heroic: Halls of Valor
+			ach(60829),	-- Heroic: Maw of Souls
+			ach(60826),	-- Heroic: Neltharion's Lair
+			ach(60854),	-- Heroic: Return to Karazhan
+			ach(60852),	-- Heroic: Seat of the Triumvirate
+			ach(60841),	-- Heroic: The Arcway
+			ach(60823),	-- Heroic: Vault of the Wardens
+
+			-- Mythic
+			ach(60848),	-- Mythic: Assault on Violet Hold
+			ach(60836),	-- Mythic: Black Rook Hold
+			ach(60851),	-- Mythic: Cathedral of Eternal Night
+			ach(60845),	-- Mythic: Court of Stars
+			ach(60839),	-- Mythic: Darkheart Thicket
+			ach(60821),	-- Mythic: Eye of Azshara
+			ach(60833),	-- Mythic: Halls of Valor
+			ach(60830),	-- Mythic: Maw of Souls
+			ach(60827),	-- Mythic: Neltharion's Lair
+			ach(60855),	-- Mythic: Return to Karazhan
+			ach(60853),	-- Mythic: Seat of the Triumvirate
+			ach(60842),	-- Mythic: The Arcway
+			ach(60824),	-- Mythic: Vault of the Wardens
+			
 		}),
 		d(DIFFICULTY.DUNGEON.NORMAL, {
 			mapped(ARMOR, {
 				filter(CLOTH, {
 				}),
 				filter(LEATHER, {
+					i(240339),	-- Gloves of Hungering Flesh
+					i(240340),	-- Cuffs of Hungering Flesh
+					i(240341),	-- Striders of Hungering Flesh
+					i(240342),	-- Legwraps of Hungering Flesh
+					i(240343),	-- Cinch of Hungering Flesh
+					i(240344),	-- Jerkin of Hungering Flesh
+					i(240345),	-- Shoulderguard of Hungering Flesh
+					i(240346),	-- Cap of Hungering Flesh
 				}),
 				filter(MAIL, {
 				}),
-				filter(PLATE, {	-- Note: Legion
+				filter(PLATE, {
 					i(240296),	-- Honorforged Chestpiece
 					i(240291),	-- Honorforged Gauntlets
 					i(240295),	-- Honorforged Greatbelt
@@ -131,238 +178,409 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		}),
 		mapped(REWARDS, {
 		}),
-		inst(303, {	-- Gate of the Setting Sun
-			["coord"] = { 15.8, 74.8, VALE_OF_ETERNAL_BLOSSOMS },
-			["maps"] = {
-				437,	-- Gate of the Setting Sun
-				438,	-- Gate Watch Tower
-			},
+		inst(777, {	-- Assault of Violet Hold (Legion)
+			["coord"] = { 66.2, 68.3, LEGION_DALARAN },
+			["maps"] = { 732 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(649, {	-- Raigonn
-						["crs"] = { 56877 },	-- Raigonn
+					e(1697, {	-- Sael'orn
+						["cr"] = 102387,	-- Sael'orn
 						["groups"] = {
-							ach(19902),	-- Gate of the Setting Sun
+							ach(60846),	-- Assault on Violet Hold
+						},
+					}),
+					e(1711, {	-- Fel Lord Betrug
+						["cr"] = 102446,	-- Fel Lord Betrug
+						["groups"] = {
+							ach(60846),	-- Assault on Violet Hold
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(649, {	-- Raigonn
-						["crs"] = { 56877 },	-- Raigonn
+					e(1697, {	-- Sael'orn
+						["cr"] = 102387,	-- Sael'orn
 						["groups"] = {
-							ach(19903),	-- Heroic: Gate of the Setting Sun
+							ach(60847),	-- Heroic: Assault on Violet Hold
+						},
+					}),
+					e(1711, {	-- Fel Lord Betrug
+						["cr"] = 102446,	-- Fel Lord Betrug
+						["groups"] = {
+							ach(60847),	-- Heroic: Assault on Violet Hold
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1697, {	-- Sael'orn
+						["cr"] = 102387,	-- Sael'orn
+						["groups"] = {
+							ach(60848),	-- Mythic: Assault on Violet Hold
+						},
+					}),
+					e(1711, {	-- Fel Lord Betrug
+						["cr"] = 102446,	-- Fel Lord Betrug
+						["groups"] = {
+							ach(60848),	-- Mythic: Assault on Violet Hold
 						},
 					}),
 				}),
 			},
 		}),
-		inst(321, {	-- Mogu'shan Palace
-			["coord"] = { 80.5, 33.0, VALE_OF_ETERNAL_BLOSSOMS },
-			["maps"] = {
-				453,	-- The Crimson Assembly Hall
-				454,	-- Vaults of Kings Past
-				455,	-- Throne of Ancient Conquerors
-			},
+		inst(740, {	-- Black Rook Hold
+			["coord"] = { 38.4, 50.8, VALSHARAH },
+			["maps"] = { 751, 752, 753, 754, 755, 756 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(698, {	-- Xin the Weaponmaster
-						["crs"] = { 61398 },	-- Xin the Weaponmaster
-						["groups"] = {
-							ach(19904),	-- Mogu'shan Palace
-						},
-					}),
-				}),
-				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(698, {	-- Xin the Weaponmaster
-						["crs"] = { 61398 },	-- Xin the Weaponmaster
-						["groups"] = {
-							ach(19905),	-- Heroic: Mogu'shan Palace
-						},
-					}),
-				}),
-			},
-		}),
-		inst(311, {	-- Scarlet Halls
-			["coord"] = { 78.0, 56.8, SCARLET_MONASTERY_ENTRANCE },
-			["maps"] = { 431, 432 },
-			["groups"] = {
-				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(656, {	-- Flameweaver Koegler
-						["crs"] = { 59150 },	-- Flameweaver Koegler
-						["groups"] = {
-							ach(19906),	-- Scarlet Halls
-						},
-					}),
-				}),
-				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(656, {	-- Flameweaver Koegler
-						["crs"] = { 59150 },	-- Flameweaver Koegler
-						["groups"] = {
-							ach(19907),	-- Heroic: Scarlet Halls
-						},
-					}),
-				}),
-			},
-		}),
-		inst(316, {	-- Scarlet Monastery
-			["coord"] = { 69.2, 24.9, SCARLET_MONASTERY_ENTRANCE },
-			["maps"] = {
-				SCARLET_MONASTERY,	-- Scarlet Monastery: Forlorn Cloister (First Boss)
-				436,	-- Scarlet Monasatery: Crusader's Chapel (Last two bosses)
-			},
-			["groups"] = {
-				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(674, {	-- High Inquisitor Whitemane
+					e(1672, {	-- Lord Kur'talos Ravencrest
 						["crs"] = {
-							3977,	-- High Inquisitor Whitemane
-							60040,	-- Commander Durand
+							98970,	-- Dantalionax
+							98965,	-- Kur'talos Ravencrest
 						},
 						["groups"] = {
-							ach(19908),	-- Scarlet Monastery
+							ach(60834),	-- Black Rook Hold
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(674, {	-- High Inquisitor Whitemane
+					e(1672, {	-- Lord Kur'talos Ravencrest
 						["crs"] = {
-							3977,	-- High Inquisitor Whitemane
-							60040,	-- Commander Durand
+							98970,	-- Dantalionax
+							98965,	-- Kur'talos Ravencrest
 						},
 						["groups"] = {
-							ach(19909),	-- Heroic: Scarlet Monastery
+							ach(60835),	-- Heroic: Black Rook Hold
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1672, {	-- Lord Kur'talos Ravencrest
+						["crs"] = {
+							98970,	-- Dantalionax
+							98965,	-- Kur'talos Ravencrest
+						},
+						["groups"] = {
+							ach(60836),	-- Mythic: Black Rook Hold
 						},
 					}),
 				}),
 			},
 		}),
-		inst(246, {	-- Scholomance
-			["coord"] = { 69.07, 72.96, WESTERN_PLAGUELANDS },
-			["maps"] = {
-				SCHOLOMANCE, 477, 478, 479,
-			},
+		inst(900, {	-- Cathedral of Eternal Night
+			["coord"] = { 64.7, 16.6, BROKEN_SHORE },
+			["maps"] = { 845, 846, 847, 848, 849 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(684, {	-- Darkmaster Gandling
-						["crs"] = { 59080 },
+					e(1878, {	-- Mephistroth
+						["cr"] = 120793,	-- Mephistroth
 						["groups"] = {
-							ach(19910),	-- Scholomance
+							ach(60849),	-- Cathedral of Eternal Night
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(684, {	-- Darkmaster Gandling
-						["crs"] = { 59080 },
+					e(1878, {	-- Mephistroth
+						["cr"] = 120793,	-- Mephistroth
 						["groups"] = {
-							ach(19911),	-- Heroic: Scholomance
+							ach(60850),	-- Heroic: Cathedral of Eternal Night
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1878, {	-- Mephistroth
+						["cr"] = 120793,	-- Mephistroth
+						["groups"] = {
+							ach(60851),	-- Mythic: Cathedral of Eternal Night
 						},
 					}),
 				}),
 			},
 		}),
-		inst(312, {	-- Shado-Pan Monastery
-			["coord"] = { 36.8 ,47.7, KUN_LAI_SUMMIT},
-			["maps"] = {
-				443,	-- Shado-Pan Monastery
-				444,	-- Cloudstrike Dojo
-				445,	-- Snowdrift Dojo
-				446,	-- Sealed Chambers
-			},
+		inst(800, {	-- Court of Stars
+			["coord"] = { 51.0, 65.6, SURAMAR },
+			["maps"] = { 761, 762, 763 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(686, {	-- Taran Zhu
-						["crs"] = { 56884 },	-- Taran Zhu
+					e(1720, {	-- Advisor Melandrus
+						["cr"] = 104218,	-- Advisor Melandrus
 						["groups"] = {
-							ach(19898),	-- Shado-Pan Monastery
+							ach(60843),	-- Court of Stars
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(686, {	-- Taran Zhu
-						["crs"] = { 56884 },	-- Taran Zhu
+					e(1720, {	-- Advisor Melandrus
+						["cr"] = 104218,	-- Advisor Melandrus
 						["groups"] = {
-							ach(19899),	-- Heroic: Shado-Pan Monastery
+							ach(60844),	-- Heroic: Court of Stars
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1720, {	-- Advisor Melandrus
+						["cr"] = 104218,	-- Advisor Melandrus
+						["groups"] = {
+							ach(60845),	-- Mythic: Court of Stars
 						},
 					}),
 				}),
 			},
 		}),
-		inst(324, {	-- Siege of Niuzao Temple
-			["coord"] = { 35, 82, TOWNLONG_STEPPES },
-			["maps"] = {
-				457,	-- Siege of Niuzao Temple
-				458,	-- The Hollowed Out Tree
-				459,	-- Upper Tree Ring
-			},
+		inst(762, {	-- Darkheart Thicket
+			["coord"] = { 59.0, 31.3, VALSHARAH },
+			["maps"] = { 733 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(727, {	-- Wing Leader Ner'onok
-						["crs"] = { 62205 },	-- Wing Leader Ner'onok
+					e(1657, {	-- Shade of Xavius
+						["cr"] = 99192,	-- Shade of Xavius
 						["groups"] = {
-							ach(19900),	-- Siege of Niuzao Temple
+							ach(60837),	-- Darkheart Thicket
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(727, {	-- Wing Leader Ner'onok
-						["crs"] = { 62205 },	-- Wing Leader Ner'onok
+					e(1657, {	-- Shade of Xavius
+						["cr"] = 99192,	-- Shade of Xavius
 						["groups"] = {
-							ach(19901),	-- Heroic: Siege of Niuzao Temple
+							ach(60838),	-- Heroic: Darkheart Thicket
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1657, {	-- Shade of Xavius
+						["cr"] = 99192,	-- Shade of Xavius
+						["groups"] = {
+							ach(60839),	-- Mythic: Darkheart Thicket
 						},
 					}),
 				}),
 			},
 		}),
-		inst(302, {	-- Stormstout Brewery
-			["coord"] = { 36, 69, VALLEY_OF_THE_FOUR_WINDS },
-			["maps"] = {
-				439,	-- Grain Cellar
-				440,	-- Stormstout Brewhall
-				441,	-- The Great Wheel
-				442,	-- The Tasting Room
-			},
+		inst(716, {	-- Eye of Azshara
+			["coord"] = { 61.2, 41.1, AZSUNA },
+			["maps"] = { 713 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(670, {	-- Yan-Zhu the Uncasked
-						["crs"] = { 59479 },	-- Yan-Zhu the Uncasked
+					e(1492, {	-- Wrath of Azshara
+						["cr"] = 96028,	-- Wrath of Azshara
 						["groups"] = {
-							ach(19896),	-- Stormstout Brewery
+							ach(60819),	-- Eye of Azshara
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(670, {	-- Yan-Zhu the Uncasked
-						["crs"] = { 59479 },	-- Hoptallus
+					e(1492, {	-- Wrath of Azshara
+						["cr"] = 96028,	-- Wrath of Azshara
 						["groups"] = {
-							ach(19897),	-- Heroic: Stormstout Brewery
+							ach(60820),	-- Heroic: Eye of Azshara
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1492, {	-- Wrath of Azshara
+						["cr"] = 96028,	-- Wrath of Azshara
+						["groups"] = {
+							ach(60821),	-- Mythic: Eye of Azshara
 						},
 					}),
 				}),
 			},
 		}),
-		inst(313, {	-- Temple of the Jade Serpent
-			["coord"] = { 56.0, 57.8, THE_JADE_FOREST },
-			["maps"] = {
-				429,	-- Temple of the Jade Serpent
-				430,	-- The Scrollkeeper's Sanctum
-			},
+		inst(721, {	-- Halls of Valor
+			["coord"] = { 70.4, 69.4, STORMHEIM },
+			["maps"] = { 703, 704, 705 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.NORMAL, {
-					e(335, {	-- Sha of Doubt
-						["crs"] = { 56439 },	-- Sha of Doubt
+					e(1489, {	-- Odyn
+						["creatureID"] = 95676,	-- Odyn
 						["groups"] = {
-							ach(19894),	-- Temple of the Jade Serpent
+							ach(60831),	-- Halls of Valor
 						},
 					}),
 				}),
 				d(DIFFICULTY.DUNGEON.HEROIC, {
-					e(335, {	-- Sha of Doubt
-						["crs"] = { 56439 },	-- Sha of Doubt
+					e(1489, {	-- Odyn
+						["creatureID"] = 95676,	-- Odyn
 						["groups"] = {
-							ach(19895),	-- Heroic: Temple of the Jade Serpent
+							ach(60832),	-- Heroic: Halls of Valor
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1489, {	-- Odyn
+						["creatureID"] = 95676,	-- Odyn
+						["groups"] = {
+							ach(60833),	-- Mythic: Halls of Valor
+						},
+					}),
+				}),
+			},
+		}),
+		inst(727, {	-- Maw of Souls
+			["coord"] = { 52.5, 45.3, STORMHEIM },
+			["maps"] = { 706, 707, 708 },
+			["groups"] = {
+				d(DIFFICULTY.DUNGEON.NORMAL, {
+					e(1663, {	-- Helya
+						["cr"] = 96759,	-- Helya
+						["groups"] = {
+							ach(60828),	-- Maw of Souls
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.HEROIC, {
+					e(1663, {	-- Helya
+						["cr"] = 96759,	-- Helya
+						["groups"] = {
+							ach(60829),	-- Heroic: Maw of Souls
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1663, {	-- Helya
+						["cr"] = 96759,	-- Helya
+						["groups"] = {
+							ach(60830),	-- Mythic: Maw of Souls
+						},
+					}),
+				}),
+			},
+		}),
+		inst(767, {	-- Neltharion's Lair
+			["coord"] = { 49.5, 68.5, HIGHMOUNTAIN },
+			["maps"] = { 731 },
+			["groups"] = {
+				d(DIFFICULTY.DUNGEON.NORMAL, {
+					e(1687, {	-- Dargrul
+						["cr"] = 91007,	-- Dargrul
+						["groups"] = {
+							ach(60825),	-- Neltharion's Lair
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.HEROIC, {
+					e(1687, {	-- Dargrul
+						["cr"] = 91007,	-- Dargrul
+						["groups"] = {
+							ach(60826),	-- Heroic: Neltharion's Lair
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1687, {	-- Dargrul
+						["cr"] = 91007,	-- Dargrul
+						["groups"] = {
+							ach(60827),	-- Mythic: Neltharion's Lair
+						},
+					}),
+				}),
+			},
+		}),
+		inst(860, {	-- Return to Karazhan
+			["coord"] = { 46.7, 70.1, DEADWIND_PASS },
+			["maps"] = {
+				815, 816, 817, 818, 819, 820, 821, 822,	-- Upper
+				809, 810, 811, 812, 813, 814,	-- Lower
+			},
+			["groups"] = {
+				d(DIFFICULTY.DUNGEON.HEROIC, {
+					e(1838, {	-- Viz'aduum the Watcher
+						["cr"] = 114790,	-- Viz'aduum the Watcher
+						["groups"] = {
+							ach(60854),	-- Heroic: Return to Karazhan
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1838, {	-- Viz'aduum the Watcher
+						["cr"] = 114790,	-- Viz'aduum the Watcher
+						["groups"] = {
+							ach(60855),	-- Mythic: Return to Karazhan
+						},
+					}),
+				}),
+			},
+		}),
+		inst(945, {	-- Seat of the Triumvirate
+			["coord"] = { 22.2, 55.9, EREDATH },
+			["maps"] = { 903 },
+			["groups"] = {
+				d(DIFFICULTY.DUNGEON.HEROIC, {
+					e(1982, {	-- L'ura
+						["cr"] = 124729,	-- L'ura
+						["groups"] = {
+							ach(60852),	-- Heroic: Seat of the Triumvirate
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1982, {	-- L'ura
+						["cr"] = 122314,	-- L'ura
+						["groups"] = {
+							ach(60853),	-- Mythic: Seat of the Triumvirate
+						},
+					}),
+				}),
+			},
+		}),
+		inst(726, {	-- The Arcway
+			["coord"] = { 49.5, 68.5, HIGHMOUNTAIN },
+			["maps"] = { 749 },
+			["groups"] = {
+				d(DIFFICULTY.DUNGEON.NORMAL, {
+					e(1501, {	-- Advisor Vandros
+						["cr"] = 98208,	-- Advisor Vandros
+						["groups"] = {
+							ach(60840),	-- The Arcway
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.HEROIC, {
+					e(1501, {	-- Advisor Vandros
+						["cr"] = 98208,	-- Advisor Vandros
+						["groups"] = {
+							ach(60841),	-- Heroic: The Arcway
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1501, {	-- Advisor Vandros
+						["cr"] = 98208,	-- Advisor Vandros
+						["groups"] = {
+							ach(60842),	-- Mythic: The Arcway
+						},
+					}),
+				}),
+			},
+		}),
+		inst(707, {	-- Vault of the Wardens
+			["coord"] = { 48.0, 82.1, AZSUNA },
+			["maps"] = { 710, 711, 712 },
+			["groups"] = {
+				d(DIFFICULTY.DUNGEON.NORMAL, {
+					e(1470, {	-- Cordana Felsong
+						["cr"] = 95888,	-- Cordana Felsong
+						["groups"] = {
+							ach(60822),	-- Vault of the Wardens
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.HEROIC, {
+					e(1470, {	-- Cordana Felsong
+						["cr"] = 95888,	-- Cordana Felsong
+						["groups"] = {
+							ach(60823),	-- Heroic: Vault of the Wardens
+						},
+					}),
+				}),
+				d(DIFFICULTY.DUNGEON.MYTHIC, {
+					e(1470, {	-- Cordana Felsong
+						["cr"] = 95888,	-- Cordana Felsong
+						["groups"] = {
+							ach(60824),	-- Mythic: Vault of the Wardens
 						},
 					}),
 				}),
 			},
 		}),
 	}),
-}))));--]]
+}))));

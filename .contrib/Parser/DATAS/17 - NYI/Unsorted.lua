@@ -448,14 +448,6 @@ root(ROOTS.Unsorted, {
 			i(240336),	-- Thirsting Harness
 			i(240337),	-- Thirsting Mantle
 			i(240338),	-- Thirsting Helm
-			i(240339),	-- Gloves of Hungering Flesh
-			i(240340),	-- Cuffs of Hungering Flesh
-			i(240341),	-- Striders of Hungering Flesh
-			i(240342),	-- Legwraps of Hungering Flesh
-			i(240343),	-- Cinch of Hungering Flesh
-			i(240344),	-- Jerkin of Hungering Flesh
-			i(240345),	-- Shoulderguard of Hungering Flesh
-			i(240346),	-- Cap of Hungering Flesh
 			i(240356),	-- Sanguine Oath Handwraps
 			i(240357),	-- Sanguine Oath Wristwraps
 			i(240358),	-- Sanguine Oath Treads
@@ -1918,15 +1910,6 @@ root(ROOTS.Unsorted, {
 			i(249761),	-- [PH] Purple Winter Hands
 			i(249762),	-- [PH] Purple Winter Cloak
 			i(249763),	-- [PH] Ensemble: The Purple Winter Collection
-			i(249780),	-- Army of the Light Champion's Insignia
-			i(249781),	-- Wardens Champion's Insignia
-			i(249782),	-- Valarjar Champion's Insignia
-			i(249783),	-- Nightfallen Champion's Insignia
-			i(249784),	-- Legionfall Champion's Insignia
-			i(249785),	-- Highmountain Tribe Champion's Insignia
-			i(249786),	-- Dreamweaver Champion's Insignia
-			i(249787),	-- Court of Farondis Champion's Insignia
-			i(249788),	-- Argussian Reach Champion's Insignia
 			i(249861),	-- [PH] Blue Winter Padded Shoulder
 			i(249862),	-- [PH] Teal Winter Padded Shoulder
 			i(249863),	-- [PH] Orange Winter Padded Shoulder

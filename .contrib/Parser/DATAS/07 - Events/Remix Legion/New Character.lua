@@ -75,7 +75,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 	}),
 }))));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		q(90686),	-- First Memento looted
 		q(90703, name(HEADERS.Spell,1232807)),	-- Unraveling Sands, Triggered upon accepting 'Obliterate, Then Iterate' (89413)
@@ -90,5 +90,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 		q(90716),	-- Looting the Curious Simulacrum (as a DK on Apocalypse quest chain)
 		q(91924),	-- Triggered after turning in 'The Dark Riders' (40986) (on a DK on Apocalypse quest chain)
 		q(90787),	-- Triggered after killing the first Rare?
+		q(91934),	-- Triggered after completing 1st Infinite Research quest
 	})),
 })));

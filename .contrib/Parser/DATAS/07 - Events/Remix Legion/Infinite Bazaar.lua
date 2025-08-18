@@ -512,6 +512,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 						249256,	-- Pile of Chronoqueries
 					},
 				}),
+				q(89464, {	-- Infinite Research: Combat Studies, Comprehensive
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
 				q(90112, {	-- Infinite Research: Combat Studies, Elite
 					["qgs"] = {
 						241748,	-- Eternus

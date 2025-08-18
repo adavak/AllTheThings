@@ -39,6 +39,17 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		------ Legendary Memento ------
 		i(242516),	-- Memento of Epoch Legends
 
+		------ Reputation Insignias ------
+		i(249788),	-- Argussian Reach Champion's Insignia
+		i(249780),	-- Army of the Light Champion's Insignia
+		i(249787),	-- Court of Farondis Champion's Insignia
+		i(249786),	-- Dreamweaver Champion's Insignia
+		i(249785),	-- Highmountain Tribe Champion's Insignia
+		i(249784),	-- Legionfall Champion's Insignia
+		i(249783),	-- Nightfallen Champion's Insignia
+		i(249782),	-- Valarjar Champion's Insignia
+		i(249781),	-- Wardens Champion's Insignia
+
 		------ Misc ------
 		i(251562),	-- Tome of Combat Training
 
@@ -49,6 +60,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			------ Timeless Scrolls ------
 			i(217608),	-- Timeless Scroll of Battle Shout
 			i(217606),	-- Timeless Scroll of Fortitude
+			i(217731),	-- Timeless Scroll of Mystic Power
 			i(217928),	-- Timeless Scroll of Resurrection
 			i(217956),	-- Timeless Scroll of Summoning
 			i(217607),	-- Timeless Scroll of the Wild
