@@ -643,7 +643,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4387),	-- Frenzyheart River
 	exploration(4388),	-- Wintergrasp River
 	exploration(4394),	-- Scarlet Tavern
-	exploration(4395),	-- Dalaran
 	exploration(4399),	-- Farshire Mine
 	exploration(4401),	-- Saragosa's Landing
 	exploration(4404),	-- New Agamand Inn
@@ -652,7 +651,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4407),	-- Hall of The Frostwolf
 	exploration(4408),	-- Hall of The Stormpike
 	exploration(4411),	-- Stormwind Harbor
-	exploration(4415),	-- The Violet Hold
 	exploration(4416),	-- Gundrak
 	exploration(4426),	-- Bor's Breath River
 	exploration(4427),	-- Argent Vanguard
@@ -682,7 +680,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4547),	-- Halls of Stone
 	exploration(4548),	-- Halls of Lightning
 	exploration(4560),	-- The Underbelly
-	exploration(4564),	-- Krasus' Landing
 	exploration(4567),	-- The Violet Hold
 	exploration(4568),	-- The Eventide
 	exploration(4569),	-- Sewer Exit Pipe
@@ -725,7 +722,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4617),	-- Elevator
 	exploration(4618),	-- Antonidas Memorial
 	exploration(4619),	-- The Violet Citadel
-	exploration(4620),	-- Magus Commerce Exchange
 	exploration(4621),	-- UNUSED
 	exploration(4623),	-- Hall of The Conquered Kings
 	exploration(4624),	-- Befouled Terrace
@@ -2442,10 +2438,8 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(7881),	-- Dalaran
 	exploration(7882),	-- Krasus' Landing
 	exploration(7884),	-- The Silver Enclave
-	exploration(7885),	-- Antonidas Memorial
 	exploration(7886),	-- Dalaran City
 	exploration(7887),	-- Circle of Wills
-	exploration(7888),	-- The Violet Citadel
 	exploration(7889),	-- The Violet Citadel Spire
 	exploration(7890),	-- Sewer Exit Pipe
 	exploration(7891),	-- Sewer Exit Pipe
@@ -2455,8 +2449,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(7895),	-- The Violet Hold
 	exploration(7896),	-- Runeweaver Square
 	exploration(7897),	-- The Underbelly
-	exploration(7898),	-- The Eventide
-	exploration(7899),	-- Magus Commerce Exchange
 	exploration(7900),	-- Vargoth's Retreat
 	exploration(7901),	-- Violet Citadel Balcony
 	exploration(7902),	-- The Wandering Isle
@@ -2612,7 +2604,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8123),	-- NightmareDragonNexus [PH]
 	exploration(8124),	-- Sword of Dawn
 	exploration(8125),	-- Firelands
-	exploration(8126),	-- The Violet Gate
 	exploration(8127),	-- Mortal's Demise
 	exploration(8128),	-- Beth'tilac's Lair
 	exploration(8129),	-- Shatterstone
@@ -2626,7 +2617,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8137),	-- Circle of Thorns
 	exploration(8138),	-- Sulfuron Keep
 	exploration(8139),	-- The Molten Fields
-	exploration(8140),	-- The Legerdemain Lounge
 	exploration(8141),	-- The Nexus
 	exploration(8142),	-- Shadowgore Citadel
 	exploration(8144),	-- Katterin's Hideaway
@@ -2723,7 +2713,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8280),	-- Runeaxe Training Grounds
 	exploration(8282),	-- The Fel Hammer
 	exploration(8283),	-- Circle of Glory
-	exploration(8284),	-- Illidari Redoubt
 	exploration(8285),	-- Scarlet Monastery
 	exploration(8286),	-- Forlorn Cloister
 	exploration(8287),	-- Chapel Gardens
@@ -2820,7 +2809,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8409),	-- Heroes' Rest
 	exploration(8411),	-- Lion's Rest
 	exploration(8412),	-- Sanderhoof's Ledge
-	exploration(8413),	-- Tanks for Everything
 	exploration(8414),	-- Legendary Leathers
 	exploration(8415),	-- Talismanic Textiles
 	exploration(8416),	-- Wileywisp Den
@@ -2916,7 +2904,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8528),	-- Wailing Caverns
 	exploration(8529),	-- Pit of Saron
 	exploration(8531),	-- Stormstout Brewery
-	exploration(8532),	-- The Bank of Dalaran
 	exploration(8534),	-- Bybeen Lair
 	exploration(8535),	-- Dalaran (Deadwind Pass)
 	exploration(8536),	-- Deadwood Islet
