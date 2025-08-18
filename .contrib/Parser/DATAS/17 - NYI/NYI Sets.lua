@@ -14525,20 +14525,482 @@ root(ROOTS.NeverImplemented, n(SETS, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_0 } }, {
 			header(HEADERS.Item, 246737, {	-- K'areshi Voidstone
 				d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {
-					-- TODO
+					cl(DEATHKNIGHT, {
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
+					}),
+					cl(DEMONHUNTER, {
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
+					}),
+					cl(DRUID, {
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
+					}),
+					cl(EVOKER, {
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
+					}),
+					cl(HUNTER, {
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
+					}),
+					cl(MAGE, {
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
+					}),
+					cl(MONK, {
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
+					}),
+					cl(PALADIN, {
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
+					}),
+					cl(PRIEST, {
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237708),	-- Dying Star's Leggings
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
+					}),
+					cl(ROGUE, {
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
+					}),
+					cl(SHAMAN, {
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
+					}),
+					cl(WARLOCK, {
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
+					}),
+					cl(WARRIOR, {
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237609),	-- Living Weapon's Legguards
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
+					}),
 				})),
 				d(DIFFICULTY.RAID.NORMAL, bubbleDown({ ["bonusID"] = 6895, ["modID"] = 0, }, {
-					-- TODO
+					cl(DEATHKNIGHT, {
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
+					}),
+					cl(DEMONHUNTER, {
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
+					}),
+					cl(DRUID, {
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
+					}),
+					cl(EVOKER, {
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
+					}),
+					cl(HUNTER, {
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
+					}),
+					cl(MAGE, {
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
+					}),
+					cl(MONK, {
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
+					}),
+					cl(PALADIN, {
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
+					}),
+					cl(PRIEST, {
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237708),	-- Dying Star's Leggings
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
+					}),
+					cl(ROGUE, {
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
+					}),
+					cl(SHAMAN, {
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
+					}),
+					cl(WARLOCK, {
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
+					}),
+					cl(WARRIOR, {
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237609),	-- Living Weapon's Legguards
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
+					}),
 				})),
 				d(DIFFICULTY.RAID.HEROIC, bubbleDown({ ["bonusID"] = 6896, ["modID"] = 0, }, {
-					-- TODO
+					cl(DEATHKNIGHT, {
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
+					}),
+					cl(DEMONHUNTER, {
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
+					}),
+					cl(DRUID, {
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
+					}),
+					cl(EVOKER, {
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
+					}),
+					cl(HUNTER, {
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
+					}),
+					cl(MAGE, {
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
+					}),
+					cl(MONK, {
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
+					}),
+					cl(PALADIN, {
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
+					}),
+					cl(PRIEST, {
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237708),	-- Dying Star's Leggings
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
+					}),
+					cl(ROGUE, {
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
+					}),
+					cl(SHAMAN, {
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
+					}),
+					cl(WARLOCK, {
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
+					}),
+					cl(WARRIOR, {
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237609),	-- Living Weapon's Legguards
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
+					}),
 				})),
 				d(DIFFICULTY.RAID.MYTHIC, bubbleDown({ ["bonusID"] = 6897, ["modID"] = 0, }, {
-					-- TODO
+					cl(DEATHKNIGHT, {
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
+					}),
+					cl(DEMONHUNTER, {
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
+					}),
+					cl(DRUID, {
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
+					}),
+					cl(EVOKER, {
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
+					}),
+					cl(HUNTER, {
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
+					}),
+					cl(MAGE, {
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
+					}),
+					cl(MONK, {
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
+					}),
+					cl(PALADIN, {
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
+					}),
+					cl(PRIEST, {
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237708),	-- Dying Star's Leggings
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
+					}),
+					cl(ROGUE, {
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
+					}),
+					cl(SHAMAN, {
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
+					}),
+					cl(WARLOCK, {
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
+					}),
+					cl(WARRIOR, {
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237609),	-- Living Weapon's Legguards
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
+					}),
 				})),
 				n(PVP_GLADIATOR, bubbleDown({ ["bonusID"] = 6898 }, {
 					cl(DEATHKNIGHT, {
-						-- TODO PvE
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230591),	-- Astral Gladiator's Cloak
@@ -14562,7 +15024,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230589),	-- Astral Gladiator's Plate Wristguards
 					}),
 					cl(DEMONHUNTER, {
-						-- TODO PvE
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230476),	-- Astral Gladiator's Cloak
@@ -14586,7 +15054,11 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230474),	-- Astral Gladiator's Leather Wristwraps
 					}),
 					cl(DRUID, {
-						-- TODO PvE
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230457),	-- Astral Gladiator's Cloak
@@ -14610,7 +15082,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230456),	-- Astral Gladiator's Leather Wristguards
 					}),
 					cl(EVOKER, {
-						-- TODO PvE
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230533),	-- Astral Gladiator's Cloak
@@ -14634,7 +15112,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230531),	-- Astral Gladiator's Chain Wristguards
 					}),
 					cl(HUNTER, {
-						-- TODO PvE
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230553),	-- Astral Gladiator's Cloak
@@ -14658,7 +15142,15 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230551),	-- Astral Gladiator's Chain Wristguards
 					}),
 					cl(MAGE, {
-						-- TODO PvE
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230399),	-- Astral Gladiator's Cloak
@@ -14682,7 +15174,9 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230397),	-- Astral Gladiator's Silk Wristwraps
 					}),
 					cl(MONK, {
-						-- TODO PvE
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230495),	-- Astral Gladiator's Cloak
@@ -14706,7 +15200,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230493),	-- Astral Gladiator's Leather Wristwraps
 					}),
 					cl(PALADIN, {
-						-- TODO PvE
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230610),	-- Astral Gladiator's Cloak
@@ -14730,7 +15230,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230608),	-- Astral Gladiator's Plate Wristguards
 					}),
 					cl(PRIEST, {
-						-- TODO PvE
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237708),	-- Dying Star's Leggings
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230418),	-- Astral Gladiator's Cloak
@@ -14754,7 +15260,14 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230416),	-- Astral Gladiator's Silk Wristwraps
 					}),
 					cl(ROGUE, {
-						-- TODO PvE
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230514),	-- Astral Gladiator's Cloak
@@ -14778,7 +15291,14 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230512),	-- Astral Gladiator's Leather Wristwraps
 					}),
 					cl(SHAMAN, {
-						-- TODO PvE
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230572),	-- Astral Gladiator's Cloak
@@ -14802,7 +15322,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230570),	-- Astral Gladiator's Chain Wristguards
 					}),
 					cl(WARLOCK, {
-						-- TODO PvE
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230438),	-- Astral Gladiator's Cloak
@@ -14826,7 +15352,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230436),	-- Astral Gladiator's Silk Wristwraps
 					}),
 					cl(WARRIOR, {
-						-- TODO PvE
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237609),	-- Living Weapon's Legguards
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230629),	-- Astral Gladiator's Cloak
@@ -14852,7 +15384,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 				})),
 				n(PVP_ELITE, bubbleDown({ ["bonusID"] = 8107 }, {
 					cl(DEATHKNIGHT, {
-						-- TODO PvE
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230591),	-- Astral Gladiator's Cloak
@@ -14876,7 +15414,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230589),	-- Astral Gladiator's Plate Wristguards
 					}),
 					cl(DEMONHUNTER, {
-						-- TODO PvE
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230476),	-- Astral Gladiator's Cloak
@@ -14900,7 +15444,11 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230474),	-- Astral Gladiator's Leather Wristwraps
 					}),
 					cl(DRUID, {
-						-- TODO PvE
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230457),	-- Astral Gladiator's Cloak
@@ -14924,7 +15472,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230456),	-- Astral Gladiator's Leather Wristguards
 					}),
 					cl(EVOKER, {
-						-- TODO PvE
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230533),	-- Astral Gladiator's Cloak
@@ -14948,7 +15502,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230531),	-- Astral Gladiator's Chain Wristguards
 					}),
 					cl(HUNTER, {
-						-- TODO PvE
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230553),	-- Astral Gladiator's Cloak
@@ -14972,7 +15532,15 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230551),	-- Astral Gladiator's Chain Wristguards
 					}),
 					cl(MAGE, {
-						-- TODO PvE
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230399),	-- Astral Gladiator's Cloak
@@ -14996,7 +15564,9 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230397),	-- Astral Gladiator's Silk Wristwraps
 					}),
 					cl(MONK, {
-						-- TODO PvE
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230495),	-- Astral Gladiator's Cloak
@@ -15020,7 +15590,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230493),	-- Astral Gladiator's Leather Wristwraps
 					}),
 					cl(PALADIN, {
-						-- TODO PvE
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230610),	-- Astral Gladiator's Cloak
@@ -15044,7 +15620,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230608),	-- Astral Gladiator's Plate Wristguards
 					}),
 					cl(PRIEST, {
-						-- TODO PvE
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237708),	-- Dying Star's Leggings
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230418),	-- Astral Gladiator's Cloak
@@ -15068,7 +15650,14 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230416),	-- Astral Gladiator's Silk Wristwraps
 					}),
 					cl(ROGUE, {
-						-- TODO PvE
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230514),	-- Astral Gladiator's Cloak
@@ -15092,7 +15681,14 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230512),	-- Astral Gladiator's Leather Wristwraps
 					}),
 					cl(SHAMAN, {
-						-- TODO PvE
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230572),	-- Astral Gladiator's Cloak
@@ -15116,7 +15712,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230570),	-- Astral Gladiator's Chain Wristguards
 					}),
 					cl(WARLOCK, {
-						-- TODO PvE
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230438),	-- Astral Gladiator's Cloak
@@ -15140,7 +15742,13 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(230436),	-- Astral Gladiator's Silk Wristwraps
 					}),
 					cl(WARRIOR, {
-						-- TODO PvE
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237609),	-- Living Weapon's Legguards
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
 
 						-- Entire PvP set is also copied with this bonusID and same appearance
 						i(230629),	-- Astral Gladiator's Cloak
