@@ -105,28 +105,43 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 			n(ACHIEVEMENTS, {
 				ach(60901),	-- Pandaria Celestial Hero (automated)
 			}),
+			-- Alliance Dailies
 			n(QUESTS, sharedData({
-				["providers"] = {
-					{ "n", 64028 },	-- Challenger Soong <Challenge Dungeons> (Alliance)
-					{ "n", 63994 },	-- Challenger Wuli <Challenge Dungeons> (Horde)
-				},
+				["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons> (Alliance)
+				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
 				["groups"] = {
 					currency(3350),	-- August Stone Fragment
 				},
 			}, {
-				-- Wouter NOTE: there's multiple quest IDs for the same quest, will probably have to adjust this list
-				--q(91701),	-- A Celestial Challenge: Darkmaster Gandling
 				q(91702),	-- A Celestial Challenge: Darkmaster Gandling
 				q(91706),	-- A Celestial Challenge: Durand
-				q(91703),	-- A Celestial Challenge: Flameweaver Koegler
+				q(91704),	-- A Celestial Challenge: Flameweaver Koegler
 				q(91710),	-- A Celestial Challenge: Raigonn
-				--q(91717),	-- A Celestial Challenge: Sha of Doubt
 				q(91718),	-- A Celestial Challenge: Sha of Doubt
-				q(91713),	-- A Celestial Challenge: Sha of Hatred
+				q(91714),	-- A Celestial Challenge: Sha of Hatred
 				q(91708),	-- A Celestial Challenge: Wing Leader Ner'onok
 				q(91712),	-- A Celestial Challenge: Xin the Weaponmaster
 				q(91716),	-- A Celestial Challenge: Yan-zhu the Uncasked
+			})),
+			-- Horde Dailies
+			n(QUESTS, sharedData({
+				["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons> (Horde)
+				["races"] = HORDE_ONLY,
+				["isDaily"] = true,
+				["groups"] = {
+					currency(3350),	-- August Stone Fragment
+				},
+			}, {
+				q(91701),	-- A Celestial Challenge: Darkmaster Gandling
+				q(91705),	-- A Celestial Challenge: Durand
+				q(91703),	-- A Celestial Challenge: Flameweaver Koegler
+				q(91709),	-- A Celestial Challenge: Raigonn
+				q(91717),	-- A Celestial Challenge: Sha of Doubt
+				q(91713),	-- A Celestial Challenge: Sha of Hatred
+				q(91707),	-- A Celestial Challenge: Wing Leader Ner'onok
+				q(91711),	-- A Celestial Challenge: Xin the Weaponmaster
+				q(91715),	-- A Celestial Challenge: Yan-zhu the Uncasked
 			})),
 			n(REWARDS, {
 				currency(AUGUST_STONE_FRAGMENT, {
