@@ -668,7 +668,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					hqt(90708, {	-- Stay awhile and listen: Ve'nari
 						["name"] = "Stay awhile and listen: Ve'nari",
 						["sourceQuest"] = 86458,	-- A Song for Our Future
-						["qg"] = 243653,	-- Ve'nari
+						["qg"] = 235155,	-- Ve'nari
 						["maps"] = { 2449 },	-- Eco-Dome Al'dani
 					}),
 				})),

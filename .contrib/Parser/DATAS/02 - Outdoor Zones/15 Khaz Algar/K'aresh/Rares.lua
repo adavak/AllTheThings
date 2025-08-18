@@ -148,6 +148,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(240117),	-- Reshii Magi's Wand
 					i(240112),	-- Reshii Scout's Blade
 					i(240111),	-- Reshii Skirmisher's Axe
+					i(240114),	-- Reshii Skirmisher's Morningstar
 					i(240119),	-- Reshii Skirmisher's Staff
 				},
 			}),

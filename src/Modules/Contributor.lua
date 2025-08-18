@@ -1456,6 +1456,7 @@ MobileDB.GameObject = {
 	[536867] = true,	-- Swoopwing Eggs (q: 90773)
 	[537690] = true,	-- Prosperity Pebble (q: 90770)
 	[543115] = true,	-- Funny Candle
+	[547532] = true,	-- Ky'veza's Etheric Cache
 	[567732] = true,	-- Kaja'6-Pack
 }
 
