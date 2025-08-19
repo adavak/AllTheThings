@@ -2703,12 +2703,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(12793, {	-- Brave Stonehide <Officer Accessories Quartermaster>
 					-- #if BEFORE TBC
 						["description"] = "Found within the Hall of Legends.",
+						["maps"] = { ORGRIMMAR },
 					-- #elseif BEFORE CATA
 						["coord"] = { 40.6, 69.5, ORGRIMMAR },
 					-- #else
 						["coord"] = { 37.8, 72.1, ORGRIMMAR },
 					-- #endif
-					["maps"] = { ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(18607),	-- Horde Battle Standard
