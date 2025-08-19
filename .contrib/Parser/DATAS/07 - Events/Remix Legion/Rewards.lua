@@ -58,12 +58,29 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			i(238727),	-- Nostwin's Voucher
 
 			------ Timeless Scrolls ------
+			i(217901),	-- Timeless Drums
 			i(217608),	-- Timeless Scroll of Battle Shout
+			i(217730),	-- Timeless Scroll of Chaos
+			i(217929),	-- Timeless Scroll of Cleansing
 			i(217606),	-- Timeless Scroll of Fortitude
 			i(217731),	-- Timeless Scroll of Mystic Power
 			i(217928),	-- Timeless Scroll of Resurrection
 			i(217956),	-- Timeless Scroll of Summoning
 			i(217607),	-- Timeless Scroll of the Wild
+		}),
+		filter(FINGER_F, {
+			i(246200),	-- Band of Twister Bark
+			i(246202),	-- Grasping Tentacle Loop
+			i(245997),	-- Seal of the Nazjatar Empire
+		}),
+		filter(NECK_F, {
+			i(245996),	-- Chaos-Forged Necklace
+			i(246193),	-- Strand of the Stars
+		}),
+		filter(TRINKET_F, {
+			i(246204),	-- Arcane Medal of Protection
+			i(246207),	-- Glimmering Soulbloom
+			i(246205),	-- Stormwalker's Icon
 		}),
 	}),
 }))));

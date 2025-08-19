@@ -1120,12 +1120,10 @@ root(ROOTS.Unsorted, {
 			i(241681),	-- [PH] Template
 			i(241684),	-- Oronaar Disciple's Cloak
 			i(241689),	-- Shroud of the Rosy Combatant
-			i(241690),	-- Cloak of the Rosy Combatant
 			i(241694),	-- Excellent Eredar Shroud
 			i(241695),	-- Excellent Eredar Cape
 			i(241701),	-- Eredar Battle Shroud
 			i(241702),	-- Eredar Battle Cloak
-			i(241707),	-- Conservatory Ward's Shroud
 			i(241710),	-- Conservatory Ward's Cloak
 			i(241712),	-- [PH] Template
 			i(241713),	-- [PH] Template
@@ -1253,7 +1251,6 @@ root(ROOTS.Unsorted, {
 			i(242171),	-- Warhide Draping Cloak
 			i(242176),	-- Shroud of the Hunting Dream
 			i(242177),	-- Draping Cloak of the Hunting Dream
-			i(242180),	-- Invasion Stalker's Draping Shroud
 			i(242181),	-- Invasion Stalker's Draping Cloak
 			i(242186),	-- Seaborne Shroud
 			i(242192),	-- Seaborne Cape

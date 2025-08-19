@@ -9,7 +9,17 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			}),
 			n(QUESTS, {
 			}),
+			n(RARES, {
+				n(244782, {	-- Eye of Greed
+					["coord"] = { 66.0, 45.9, AZSUNA },
+				}),
+			}),
 			n(ZONE_REWARDS, {
+				filter(CLOAKS, {
+					i(241690),	-- Cloak of the Rosy Combatant
+					i(241707),	-- Conservatory Ward's Shroud
+					i(242180),	-- Invasion Stalker's Draping Shroud
+				}),
 				filter(CLOTH, {
 				}),
 				filter(LEATHER, {

@@ -536,6 +536,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 						249256,	-- Pile of Chronoqueries
 					},
 				}),
+				q(89469, {	-- Infinite Research: Dungeoneers Wanted, Heroic
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
 				q(89468, {	-- Infinite Research: Dungeoneers Wanted, Normal
 					["qgs"] = {
 						241748,	-- Eternus
@@ -543,6 +549,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					},
 				}),
 				q(90110, {	-- Infinite Research: Gather Timewarped Samples
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(89524, {	-- Infinite Research: Maw of Souls, Normal
 					["qgs"] = {
 						241748,	-- Eternus
 						249256,	-- Pile of Chronoqueries
