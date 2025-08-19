@@ -15,6 +15,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 74.1, 32.6, KARESH },
 					["isWeekly"] = true,	-- TODO: remove after Blizzard fix it flag
 					["groups"] = {
+						i(241353),	-- Hydrobite (QI!)
 						o(483713, {	-- Watering Jug
 							i(232323),	-- Watering Jug (QI!)
 						}),

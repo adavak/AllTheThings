@@ -118,9 +118,6 @@ i(23796);	-- Permanent Swiftness of Zanza ("Retrieving Data" in-game)
 i(43352);	-- Pet Grooming Kit
 i(33448);	-- Runic Mana Potion
 i(165699);	-- Scarlet Herring Lure
-i(141016);	-- Scroll of Town Portal: Faronaar
-i(141015);	-- Scroll of Town Portal: Kal'delar
-i(141013);	-- Scroll of Town Portal: Shala'nir
 i(119449);	-- Shadowberry
 i(141655);	-- Shimmering Ancient Mana Cluster
 i(118905);	-- Sinister Spores

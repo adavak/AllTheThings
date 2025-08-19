@@ -1616,6 +1616,16 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40011,	-- Oculeth's Workshop
 					["provider"] = { "n", 101499 },	-- Chief Telemancer Oculeth
 					["coord"] = { 49.6, 48.1, SURAMAR },
+					["groups"] = {
+						o(246229, {	-- Cracked Warpsleeve
+							["coord"] = { 53.2, 46.8, SURAMAR },
+							["groups"] = { i(132894) },	-- Cracked Warpsleeve (QI!)
+						}),
+						o(246225, {	-- Weathered Telemancy Beacon
+							["coord"] = { 51.9, 35.0, SURAMAR },
+							["groups"] = { i(132893) },	-- Weathered Telemancy Beacon (QI!)
+						}),
+					},
 				}),
 				q(43362, {	-- The Emerald Nightmare: The Stuff of Dreams
 					["sourceQuest"] = 44156,	-- Another Arcan'dor Closes...

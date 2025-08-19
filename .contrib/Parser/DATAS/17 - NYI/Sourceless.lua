@@ -118,7 +118,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				}),
 				-- Tiragarde Sound items = Zuldazar quest rewards
 				filter(CLOTH, {
-					i(155048),	-- Navigator's Cuffs
+
 					i(158231),	-- Navigator's Slippers
 					i(160066),	-- Navigator's Wrap
 					i(160067),	-- Navigator's Headpiece
@@ -128,7 +128,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160854),	-- Navigator's Amice
 				}),
 				filter(LEATHER, {
-					i(155051),	-- Freebooter Bracers
 					i(158233),	-- Freebooter Treads
 					i(160069),	-- Freebooter Chestpiece
 					i(160070),	-- Freebooter Headcover
@@ -139,7 +138,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160892),	-- Freebooter Jerkin
 				}),
 				filter(MAIL, {
-					i(155050),	-- Outrigger Bracers
 					i(158232),	-- Outrigger Footguards
 					i(160072),	-- Outrigger Chestguard
 					i(160073),	-- Outrigger Skullguard
@@ -149,7 +147,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160893),	-- Outrigger Breastplate
 				}),
 				filter(PLATE, {
-					i(155049),	-- Sea Raider's Bracers
 					i(158230),	-- Sea Raider's Warboots
 					i(160075),	-- Sea Raider's Warplate
 					i(160076),	-- Sea Raider's Headgear
@@ -342,7 +339,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(158510),	-- Repurposed Dinghy Anchor
 				i(158518),	-- Harbormaster's Lantern
 				i(159079),	-- Captivating Glowfly Lantern
-				i(161290),	-- Grimestone Greatmace
+
 				-- i(161292),	-- Grimestone Spellmaul
 				i(158579),	-- Scalawag's Warglaive
 				i(153400),	-- Scalawag's Bolt-Thrower
@@ -585,7 +582,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(62578),	--
 				q(62687),	--
 				q(62690),	-- Encountered after using Focused Life Anima to create the final possible azerite power available from it (according to ATT), which was Fetish of the Hidden Labyrinths (Anima of Life and Death, Rank 3)?? Maybe new HQT for tracking?
-				q(60693),	--
+				q(60693),	-- After q(59781)
 			})),
 
 			-- 9.0.2

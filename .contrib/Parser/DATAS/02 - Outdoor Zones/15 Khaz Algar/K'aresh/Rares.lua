@@ -102,6 +102,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(240118),	-- Reshii Brute's Spear
 					i(240117),	-- Reshii Magi's Wand
 					i(240112),	-- Reshii Scout's Blade
+					i(240111),	-- Reshii Skirmisher's Axe
 				},
 			}),
 			n(235422, {	-- Phase-Thief Tezra
