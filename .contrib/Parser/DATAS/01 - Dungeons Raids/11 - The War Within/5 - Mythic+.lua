@@ -120,46 +120,46 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },	-- Added 3 weeks after 11.1.5 for historic purposes (hotfixed)
 			}),
 			ach(41724, {	-- The War Within Season 2: Resilient Keystone 12 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41726, {	-- The War Within Season 2: Resilient Keystone 13 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41727, {	-- The War Within Season 2: Resilient Keystone 14 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41728, {	-- The War Within Season 2: Resilient Keystone 15 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41729, {	-- The War Within Season 2: Resilient Keystone 16 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41730, {	-- The War Within Season 2: Resilient Keystone 17 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41731, {	-- The War Within Season 2: Resilient Keystone 18 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41732, {	-- The War Within Season 2: Resilient Keystone 19 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41733, {	-- The War Within Season 2: Resilient Keystone 20 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41734, {	-- The War Within Season 2: Resilient Keystone 21 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41735, {	-- The War Within Season 2: Resilient Keystone 22 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41736, {	-- The War Within Season 2: Resilient Keystone 23 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41737, {	-- The War Within Season 2: Resilient Keystone 24 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 			ach(41738, {	-- The War Within Season 2: Resilient Keystone 25 (automated)
-			--	["collectible"] = false,
+				["collectible"] = false,
 			}),
 		})),
 		header(HEADERS.Achievement, SEASON_3_TWW, bubbleDownSelf({
