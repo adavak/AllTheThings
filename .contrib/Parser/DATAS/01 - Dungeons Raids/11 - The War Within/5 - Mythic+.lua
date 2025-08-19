@@ -203,61 +203,61 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				spell(445414),	-- Path of the Arathi Flagship
 			}),
 			ach(42149, {	-- The War Within Season 3: Resilient Keystone 12
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42150, {	-- The War Within Season 3: Resilient Keystone 13
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42151, {	-- The War Within Season 3: Resilient Keystone 14
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42152, {	-- The War Within Season 3: Resilient Keystone 15
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42153, {	-- The War Within Season 3: Resilient Keystone 16
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42154, {	-- The War Within Season 3: Resilient Keystone 17
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42155, {	-- The War Within Season 3: Resilient Keystone 18
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42156, {	-- The War Within Season 3: Resilient Keystone 19
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42157, {	-- The War Within Season 3: Resilient Keystone 20
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42158, {	-- The War Within Season 3: Resilient Keystone 21
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42159, {	-- The War Within Season 3: Resilient Keystone 22
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42160, {	-- The War Within Season 3: Resilient Keystone 23
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42161, {	-- The War Within Season 3: Resilient Keystone 24
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42162, {	-- The War Within Season 3: Resilient Keystone 25
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42802, {	-- The War Within Season 3: Resilient Keystone 26
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42803, {	-- The War Within Season 3: Resilient Keystone 27
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42804, {	-- The War Within Season 3: Resilient Keystone 28
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42805, {	-- The War Within Season 3: Resilient Keystone 29
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 			ach(42806, {	-- The War Within Season 3: Resilient Keystone 30
-				["collectible"] = false,
+			--	["collectible"] = false,
 			}),
 		})),
 		n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
