@@ -405,7 +405,9 @@ root(ROOTS.WorldEvents, m(500, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Bi
 					i(98085),	-- Brucehide Jersey
 					i(93025),	-- Clock'em (PET!)
 					i(98092),	-- Digmaster's Bodysleeve
-					iensemble(167891),	-- Ensemble: Brawler's Garb
+					iensemble(167891, {	-- Ensemble: Brawler's Garb
+						["timeline"] = { ADDED_8_1_5 },
+					}),
 					i(98079),	-- Floot-Tooter's Tunic
 					TempForceMisc(i(127773, {	-- Gemcutter Module: Mastery
 						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
