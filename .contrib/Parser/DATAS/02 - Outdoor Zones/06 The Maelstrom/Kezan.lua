@@ -260,6 +260,12 @@ root(ROOTS.Zones, {
 						["coord"] = { 58.3, 76.4, KEZAN },
 						["repeatable"] = true,
 					}),
+					q(90869, {	-- It's All in the Image
+						--["sourceQuest"] = TODO,	-- TODO
+						["qg"] = 34874,	-- Megs Dreadshredder
+						["coord"] = { 58.3, 76.4, KEZAN },
+						["timeline"] = { ADDED_11_2_0 },
+					}),
 					q(14109, {	-- The New You [Male Version]
 						["sourceQuest"] = 26712,	-- Off to Bank [Male Version]
 						["qg"] = 35120,	-- FBoK Bank Teller
