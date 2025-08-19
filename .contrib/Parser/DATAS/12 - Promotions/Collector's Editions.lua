@@ -200,6 +200,7 @@ WARCRAFT_III_REFORGED_SPOILS_OF_WAR = createHeader({
 		en = "These rewards are available to anyone who purchased the Spoils of War Edition of Warcraft III: Reforged.",
 	},
 });
+
 root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY }, {
 	expansion(EXPANSION.CLASSIC, bubbleDownSelf({ ["timeline"] = { REMOVED_2_0_1 } }, {
 		["description"] = "These rewards were made available to anyone who purchased an original Collector's Edition of World of Warcraft.\n\nThere may still be copies online, but expect to lose a sizable chunk of real world currency for it.",
@@ -656,8 +657,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			["groups"] = {
 				mount(417888),	-- Algarian Stormrider (MOUNT!)
 				ach(19027),	-- Heroic Edition: Algarian Stormrider
-				iensemble(209336, {	-- Ensemble: Stormrider's Attire
-				}),
+				iensemble(209336),	-- Ensemble: Stormrider's Attire
 				skyriding(n(DRAGONRIDING_RACING, {
 					n(ACHIEVEMENTS, {
 						ach(18928, {	-- Storm Rider: Bronze
@@ -859,6 +859,25 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 						i(224260),	-- Thundo (PET!)
 					},
 				})),
+			},
+		}),
+	})),
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
+		n(HEROIC_EDITION, {
+			["description"] = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
+			["groups"] = {
+				--ach()
+				--iensemble(),	-- Lightstider Raiment
+				--,	-- Lightwing Dragonhawk (MOUNT!)
+			},
+		}),
+		n(EPIC_EDITION, {
+			["description"] = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
+			["groups"] = {
+				--ach()
+				--,	-- Doomfeathers (PET!)
+				--,	-- Hopeflutter (PET!)
+				--,	-- Voidwing Dragonhawk (MOUNT!)
 			},
 		}),
 	})),
