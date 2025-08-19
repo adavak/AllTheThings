@@ -1989,8 +1989,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				{ "i", 242919 },	-- Cracked Keystone (S2)
 				-- #endif
 			},
-			["isMonthly"] = true,	-- closest we have to 'seasonal' right now
 			["timeline"] = { ADDED_11_1_5 },
+			["isMonthly"] = true,	-- closest we have to 'seasonal' right now
 		}),
 		-- Season 2 - Overload stuff
 		q(90968, {	-- Titanic Rumblings

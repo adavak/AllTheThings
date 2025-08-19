@@ -284,8 +284,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["groups"] = { i(246808), },	-- Experiment Instructions (PQI!)
 		}),
 		q(90892, {	-- Clearing the Skies: A Fel of a Time
-			-- Exo note: Got this in Azsuna. I don't know if this quest is zone-specific. Will test on another character in other zone.
 			["description"] = "Quest pops-up when you fly through first 'Mote of Bronze' in the zone.",
+			-- Exo note: Got this in Azsuna. I don't know if this quest is zone-specific. Will test on another character in other zone.
 		}),
 		q(92563, {	-- Awoken by Accessory
 			["description"] = "Quest pops-up when you obtain and equip your first jewelry (Trinket, Ring, Necklace).",
