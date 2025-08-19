@@ -2468,7 +2468,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(7923),	-- Icepine Point
 	exploration(7924),	-- Howling Hills
 	exploration(7927),	-- Helmouth Cliffs
-	exploration(7928),	-- Shal'Aran
 	exploration(7929),	-- The Burning Sanctum
 	exploration(7930),	-- The Crimson Hall
 	exploration(7931),	-- The Spire
@@ -2846,7 +2845,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8455),	-- The Broken Shore
 	exploration(8456),	-- Stormwind City
 	exploration(8457),	-- Escape from The Vault
-	exploration(8458),	-- El'dranil Peak
 	exploration(8460),	-- Death Knight Campaign Flight Bounds
 	exploration(8461),	-- Sanctum of Enlightenment
 	exploration(8464),	-- Loch Varmad

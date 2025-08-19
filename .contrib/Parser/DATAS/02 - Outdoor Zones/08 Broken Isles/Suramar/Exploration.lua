@@ -30,6 +30,7 @@ root(ROOTS.Zones, {
 				exploration(8233),	-- Moonwhisper Gulch
 				exploration(8173),	-- Ruins of Elune'eth
 				exploration(7916),	-- Sashj'tar Ruins
+				visit_exploration(7928,{coord={35.1,47.4,SURAMAR}}),	-- Shal'Aran
 				exploration(8148),	-- Suramar City
 				exploration(7841),	-- Tel'anor
 				exploration(8163),	-- Temple of Fal'adora

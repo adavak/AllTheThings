@@ -290,5 +290,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		q(92563, {	-- Awoken by Accessory
 			["description"] = "Quest pops-up when you obtain and equip your first jewelry (Trinket, Ring, Necklace).",
 		}),
+		q(91613, {	-- Infinite Research Promotion: Timely Assistant
+			["description"] = "Quest pops-up after you complete 5 'Infinite Research' quests.",
+			--["sourceQuest"] = ??,
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+		}),
 	}),
 }))));

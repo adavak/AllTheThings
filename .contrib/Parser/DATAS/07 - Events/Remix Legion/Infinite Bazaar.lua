@@ -503,10 +503,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				["groups"] = {
 					i(251821),	-- Cache of Infinite Power
 					i(239224),	-- Cache of Infinite Treasure
-					i(246936),	-- Resonant Epoch Memento
 				},
 			}, {
 				q(90102, {	-- Infinite Research: Champion of the Broken Isles
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(90109, {	-- Infinite Research: Clear the Skies
 					["qgs"] = {
 						241748,	-- Eternus
 						249256,	-- Pile of Chronoqueries
@@ -536,6 +541,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 						249256,	-- Pile of Chronoqueries
 					},
 				}),
+				q(89521, {	-- Infinite Research: Court of Stars, Heroic
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
 				q(89469, {	-- Infinite Research: Dungeoneers Wanted, Heroic
 					["qgs"] = {
 						241748,	-- Eternus
@@ -547,6 +558,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 						241748,	-- Eternus
 						249256,	-- Pile of Chronoqueries
 					},
+					["groups"] = {
+						i(246936),	-- Resonant Epoch Memento
+					},
 				}),
 				q(90110, {	-- Infinite Research: Gather Timewarped Samples
 					["qgs"] = {
@@ -555,6 +569,24 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					},
 				}),
 				q(89524, {	-- Infinite Research: Maw of Souls, Normal
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(89465, {	-- Infinite Research: No Task Too Small
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(89679, {	-- Infinite Research: The Emerald Nightmare, Heroic
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(89676, {	-- Infinite Research: Time to Raid, Rift of Aln
 					["qgs"] = {
 						241748,	-- Eternus
 						249256,	-- Pile of Chronoqueries

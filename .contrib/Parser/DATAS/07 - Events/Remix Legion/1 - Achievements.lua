@@ -7,6 +7,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		ach(42502),	-- Artifact, Remixed II
 		ach(42503),	-- Artifact, Remixed III
 		ach(60959),	-- Tenured in the Timeways I
+		ach(60960),	-- Tenured in the Timeways II
+		ach(60961),	-- Tenured in the Timeways III
+		ach(60935, {	-- Tenured in the Timeways IV
+			title(646),	-- Chronoscholar (TITLE!)
+		}),
 		ach(42301, {	-- Timerunner
 			title(551),	-- Timerunner (TITLE!)
 		}),
@@ -47,5 +52,43 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			i(253033),	-- Iron Reins of the Felscorned War Wrym (MOUNT!)
 		}),
 		ach(42314),	-- Unlimited Power
+		ach(42315),	-- Unlimited Power II
+		ach(42505),	-- Unlimited Power III
+		ach(42506),	-- Unlimited Power IV
+		ach(42507),	-- Unlimited Power V
+		ach(42508),	-- Unlimited Power VI
+		ach(42509),	-- Unlimited Power VII
+		ach(42510),	-- Unlimited Power VIII
+		ach(42511),	-- Unlimited Power IX
+		ach(42512),	-- Unlimited Power X
+		ach(42513),	-- Unlimited Power XI
+		ach(42514),	-- Unlimited Power XII
+
+		------ Heroic World Tier ------
+		ach(61174),	-- Building a Heroic Army
+		ach(61057),	-- Heroic Broken Isles World Quests I
+		ach(61056),	-- Heroic Broken Isles World Quests II
+		ach(61054),	-- Heroic Broken Isles World Quests III
+		ach(61070, {	-- Heroic Broken Isles World Quests IV
+			-- Appearance: Sargerei Commander's Voidscarred Regalia
+			i(253325),	-- Sargerei Commander's Voidscarred Spaulders
+			i(253326),	-- Sargerei Commander's Voidscarred Crown
+			i(253327),	-- Sargerei Commander's Voidscarred Hauberk
+			i(253328),	-- Sargerei Commander's Voidscarred Buckle
+			i(253329),	-- Sargerei Commander's Voidscarred Chausses
+			i(253330),	-- Sargerei Commander's Voidscarred Sabatons
+			i(253331),	-- Sargerei Commander's Voidscarred Gauntlets
+			i(253332),	-- Sargerei Commander's Voidscarred Mantle
+		}),
+		ach(61059),	-- Legionslayer I
+		ach(61058),	-- Legionslayer II
+		ach(61053),	-- Legionslayer III
+		ach(61071),	-- Legionslayer IV
+		ach(61323),	-- Legionslayer V
+		ach(61061),	-- Power of the Obelisks I
+		ach(61060),	-- Power of the Obelisks II
+		ach(61055),	-- Power of the Obelisks III
+		ach(61072),	-- Power of the Obelisks IV
+		ach(42699),	-- You Were Not Prepared!
 	}),
 }))));

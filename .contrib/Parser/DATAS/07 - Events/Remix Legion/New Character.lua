@@ -42,9 +42,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					i(250411),	-- Timerunner's Hearthstone
 					i(216653),	-- Timerunner's Satchel
 				}),
-				filter(ONE_HANDED_AXES, {
-					-- No axes to grind...
-				}),
 				filter(ONE_HANDED_MACES, {
 					i(243372, {	-- Timerunner's Mace
 						["classes"] = { DEMONHUNTER, DRUID, MONK, PALADIN, PRIEST, ROGUE, SHAMAN, WARRIOR },
@@ -92,5 +89,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(90787),	-- Triggered after killing the first Rare?
 		q(91934),	-- Triggered after completing 1st Infinite Research quest
 		q(91094),	-- Triggered after completing 'Infinite Chaos' (91061)
+		q(92428),	-- Triggered after completing 'Uniting the Isles' (43341), Unlocking World Quests?
 	})),
 })));

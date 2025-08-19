@@ -395,7 +395,6 @@ root(ROOTS.Unsorted, {
 			i(240266),	-- Shroud of Hungering Flesh
 			i(240267),	-- Nightstalker's Shroud
 			i(240269),	-- Ered'ruin Cloak
-			i(240270),	-- Cape of Hungering Flesh
 			i(240271),	-- Thirsting Shroud
 			i(240272),	-- Stygian Silk Cape
 			i(240273),	-- Ered'ruin Shroud
@@ -523,14 +522,6 @@ root(ROOTS.Unsorted, {
 			i(240428),	-- Ambervale Bone Harness
 			i(240429),	-- Ambervale Bone Shoulderguard
 			i(240430),	-- Ambervale Bone Cowl
-			i(240431),	-- Nighthide Grips
-			i(240432),	-- Nighthide Cuffs
-			i(240433),	-- Nighthide Waders
-			i(240434),	-- Nighthide Trousers
-			i(240435),	-- Nighthide Girdle
-			i(240436),	-- Nighthide Gambeson
-			i(240438),	-- Nighthide Spaulders
-			i(240439),	-- Nighthide Hat
 			i(240440),	-- Dreadhide Stalker's Gloves
 			i(240441),	-- Dreadhide Stalker's Bindings
 			i(240442),	-- Dreadhide Stalker's Waders
@@ -1284,9 +1275,6 @@ root(ROOTS.Unsorted, {
 			i(242369),	-- The First Satyr's Spaulders
 			i(242370),	-- Horns of the First Satyr
 			i(242476),	-- Taah'bat's Desert Carbine
-			i(242503),	-- Memento of Epoch Stories
-			i(242506),	-- Memento of Epoch Rituals
-			i(242507),	-- Memento of Epoch Power
 			i(242572),	-- Tome of the Silver Hand
 			i(242590),	-- Strom'kar, the Warbreaker
 			i(242706),	-- Curious Curio
@@ -2163,14 +2151,6 @@ root(ROOTS.Unsorted, {
 			i(253322),	-- Sargerei Commander's Lightbound Sabatons
 			i(253323),	-- Sargerei Commander's Lightbound Gauntlets
 			i(253324),	-- Sargerei Commander's Lightbound Mantle
-			i(253325),	-- Sargerei Commander's Voidscarred Spaulders
-			i(253326),	-- Sargerei Commander's Voidscarred Crown
-			i(253327),	-- Sargerei Commander's Voidscarred Hauberk
-			i(253328),	-- Sargerei Commander's Voidscarred Buckle
-			i(253329),	-- Sargerei Commander's Voidscarred Chausses
-			i(253330),	-- Sargerei Commander's Voidscarred Sabatons
-			i(253331),	-- Sargerei Commander's Voidscarred Gauntlets
-			i(253332),	-- Sargerei Commander's Voidscarred Mantle
 			i(253333),	-- Sargerei Commander's Hellforged Spaulders
 			i(253334),	-- Sargerei Commander's Hellforged Crown
 			i(253335),	-- Sargerei Commander's Hellforged Hauberk
@@ -2245,7 +2225,6 @@ root(ROOTS.Unsorted, {
 			i(253574),	-- Everlasting Rock
 			i(253588),	-- Ensemble: World-Defiler's Battle Armor
 			i(253594),	-- Ensemble: Zealous Felslingers Battle Armor
-			i(253621),	-- Champion's Insignia
 			i(253756),	-- Insignia of the Broken Isles
 			i(253867),	-- Cache of Infinite Treasure
 		})),
