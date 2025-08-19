@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
+root(ROOTS.Instances, expansion(EXPANSION.SL, {
 	inst(1194, {	-- Tazavesh, the Veiled Market
 		["coords"] = {
 			{ 88.9, 44.3, TAZAVESH_THE_VEILED_MARKET_WORLD },
@@ -19,6 +19,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			TAZAVESH_BORALUS_HARBOR,
 			TAZAVESH_AGGRAMARS_VAULT,
 		},
+		["timeline"] = { ADDED_9_1_0 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(61093, {	-- Flawless Transaction
@@ -695,4 +696,13 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			-- #endif
 		},
 	}),
-})));
+}))
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
+	inst(1194, {	-- Tazavesh, the Veiled Market
+		["timeline"] = { ADDED_9_1_0 },
+		["groups"] = {
+			q(92651),	-- after hardmode first boss (+deaths)
+		},
+	}),
+}))

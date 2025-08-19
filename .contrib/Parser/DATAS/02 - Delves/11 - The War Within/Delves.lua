@@ -1844,7 +1844,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		hqt(88964, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 97
 		hqt(88965, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 98
 		hqt(88966, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 99
-		hqt(88967, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 100 TODO: probably attached to achievement
+		-- hqt(88967, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 100 Attached on achievement
 	}),
 	n(QUESTS, {
 		q(84370, {	-- The Key to Success
@@ -1981,6 +1981,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		q(90779, {	-- Cracked Keystone
+			["description"] = "Can be completed once per TWW Season.\n\nNOTE: This will allow over-capping crests if you are already capped, otherwise the rewarded crests will be considered part of the current cap.",
 			["providers"] = {
 				-- #if AFTER 11.2.0
 				{ "i", 251543 },	-- Cracked Keystone (S3)
@@ -1988,6 +1989,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				{ "i", 242919 },	-- Cracked Keystone (S2)
 				-- #endif
 			},
+			["isMonthly"] = true,	-- closest we have to 'seasonal' right now
 			["timeline"] = { ADDED_11_1_5 },
 		}),
 		-- Season 2 - Overload stuff
