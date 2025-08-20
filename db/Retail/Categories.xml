@@ -1,6 +1,7 @@
 ﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
 	<Script file="Categories/Achievements.lua"/>
 	<Script file="Categories/BlackMarket.lua"/>
+	<Script file="Categories/Character.lua"/>
 	<Script file="Categories/Craftables.lua"/>
 	<Script file="Categories/Delves.lua"/>
 	<Script file="Categories/ExpansionFeatures.lua"/>
@@ -9,7 +10,6 @@
 	<Script file="Categories/HiddenCurrencyTriggers.lua"/>
 	<Script file="Categories/HiddenQuestTriggers.lua"/>
 	<Script file="Categories/Holidays.lua"/>
-	<Script file="Categories/Character.lua"/>
 	<Script file="Categories/InGameShop.lua"/>
 	<Script file="Categories/Instances.lua"/>
 	<Script file="Categories/NeverImplemented.lua"/>

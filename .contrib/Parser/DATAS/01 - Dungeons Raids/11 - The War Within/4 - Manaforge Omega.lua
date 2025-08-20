@@ -404,6 +404,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}, {	-- RENOWN 2 --
 						q(91525, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Loom'ithar
 					}, {	-- RENOWN 3 --
+						q(91483, { ["timeline"] = { ADDED_11_2_0 } }),	-- Hacking the Mainframe
 						q(91481, { ["timeline"] = { ADDED_11_2_0 } }),	-- Speed Siphoner
 					}, {	-- RENOWN 4 --
 					}, {	-- RENOWN 5 --

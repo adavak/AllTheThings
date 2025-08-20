@@ -2231,7 +2231,6 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			n(ARMOR, {
 				-- Unknown (PvP Appearance?)
-				i(237997),	-- Ethereal Handchopper
 				i(237998),	-- Void Assassin's Ritual Blade
 				i(237999),	-- Battered Matter Destabilizer
 				i(238000),	-- Mana Manipulator
