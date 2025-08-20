@@ -1376,6 +1376,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 						i(238007),	-- Bulwark of the Great Dark
 						i(237997),	-- Ethereal Handchopper
+						i(238004),	-- Exile's Beacon
 						i(246086, {	-- Fate Weaver
 							["description"] = "Fly to Fate Weaver's Spool in Azj-Kahet to perform the ritual, coords 64.2, 74.8",
 							["groups"] = {
@@ -1383,8 +1384,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 								i(219382),	-- Fateweaved Needle
 							},
 						}),
+						i(238000),	-- Mana Manipulator
 						i(218125),	-- Reactive Webbed Escutcheon
 						i(238005),	-- Void-Steeped Falchion
+						i(238002),	-- Wanderer's Projectile Accelerator
+						i(238003),	-- Wyrmhunter's Skewer
 					})),
 				}),
 			},

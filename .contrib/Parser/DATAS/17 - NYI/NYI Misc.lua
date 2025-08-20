@@ -895,7 +895,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(186394),	-- Item Ehancement Matrix
 			i(186443),	-- Item Enhancement Kit
 			i(186389),	-- Jailer's Stygian Badge
-			i(184823),	-- Junk Mail
 			i(184824),	-- Junk Mail
 			i(184825),	-- Junk Mail
 			i(187434),	-- Lightseed Sapling

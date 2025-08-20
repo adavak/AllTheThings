@@ -8,7 +8,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 	m(KARESH, {
 		header(HEADERS.Spell, 1214374, {	-- Phase Diving
 			n(ACHIEVEMENTS, {
-				ach(42730),	-- Jump, Jump, and Away!
 				ach(61017, {	-- Phase-Lost-and-Found
 				--[[
 					Alex TODO: is there a better way?
@@ -286,12 +285,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 91058,
 					["groups"] = { i(245673), },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
 				}),
-				-- TODO: Replace quest with actual ObjectID upon discovery
 				o(527414, {	-- Ethereal Voidforged Container
 					["questID"] = 89378,
 					["description"] = "Requires some serious jumping precision in order to get to it.",
 					["coord"] = { 52.1, 68.3, KARESH },
-					["groups"] = { i(246293), },	-- Buckler of the Last Stand (COSMETIC!)
+					["groups"] = {
+						ach(42730),	-- Jump, Jump, and Away!
+						i(246293), 	-- Buckler of the Last Stand (COSMETIC!)
+					},
+				}),
+				o(529537, {	-- Efrat's Forgotten Bulwark
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 78.0, 48.9, KARESH },
+					["questID"] = 90514,
+					["groups"] = { i(243004), },	-- Efrat's Forgotten Bulwark (COSMETIC!)
 				}),
 				o(529669, {	-- Korgoraths Talon
 					["description"] = "Requires Rank 5 Reshii Wraps.",

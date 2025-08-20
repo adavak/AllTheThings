@@ -792,15 +792,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	inst(1302, bubbleDown({	-- Manaforge Omega
 		["isWeekly"] = true,
 	},{
--- PLEXUS
--- LOOMITHAR
--- NAAZINDHRI
--- ARAZ
--- HUNTERS
--- FRACTILLUS
--- SALHADAAR
--- DIMENSIUS
-
 		-- All
 		q(91046, name(HEADERS.Item, 245510)),	-- Loombeast Silk chance per week (assumed -- also triggered on alt with no loot)
 		q(91010, name(HEADERS.Encounter, PLEXUS)),	-- Sentinel Plexus

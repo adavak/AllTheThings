@@ -2233,10 +2233,6 @@ root(ROOTS.Unsorted, {
 				-- Unknown (PvP Appearance?)
 				i(237998),	-- Void Assassin's Ritual Blade
 				i(237999),	-- Battered Matter Destabilizer
-				i(238000),	-- Mana Manipulator
-				i(238002),	-- Wanderer's Projectile Accelerator
-				i(238003),	-- Wyrmhunter's Skewer
-				i(238004),	-- Exile's Beacon
 				i(238008),	-- Wastelander's Folly
 
 				-- Delve Armor?
@@ -4838,7 +4834,6 @@ root(ROOTS.Unsorted, {
 			i(168792),	-- Kobold's Candle
 			i(168793),	-- Bottle of Homemade Wine
 			i(168794),	-- Last Year's Brewfest Flyer
-			i(168795),	-- Old Boot
 			i(168796),	-- Recycled Scroll
 			i(168797),	-- Stack of Undeliverable Mail
 			i(168812),	-- Air Freshner

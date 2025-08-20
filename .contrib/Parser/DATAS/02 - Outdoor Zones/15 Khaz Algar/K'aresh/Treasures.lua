@@ -41,11 +41,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 86323,
 					["groups"] = { i(246295), },	-- Tazavesh Lookout's Mace (COSMETIC!)
 				}),
-				o(529537, {	-- Efrat's Forgotten Bulwark
-					["coord"] = { 78.0, 48.9, KARESH },
-					["questID"] = 90514,
-					["groups"] = { i(243004), },	-- Efrat's Forgotten Bulwark (COSMETIC!)
-				}),
 				o(499093, {	-- Forlorn Wind Chime
 					["coord"] = { 69.7, 52.3, KARESH },
 					["questID"] = 85837,

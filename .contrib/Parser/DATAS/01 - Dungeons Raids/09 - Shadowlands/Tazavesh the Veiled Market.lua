@@ -702,7 +702,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
 	inst(1194, {	-- Tazavesh, the Veiled Market
 		["timeline"] = { ADDED_9_1_0 },
 		["groups"] = {
-			q(92651),	-- after hardmode first boss (+deaths)
+			q(92651, {	-- Failed Deathless Run Attempt
+				["name"] = "Failed Deathless Run Attempt",
+				["isWeekly"] = true,
+			}),
 		},
 	}),
 }))

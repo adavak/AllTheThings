@@ -498,6 +498,7 @@ i(169988);	-- Inert Mineral Dust
 i(169129);	-- Lovingly Worn Wrench
 i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome
+i(168795);	-- Old Boot
 i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
 i(170001);	-- Seized Engine
@@ -1357,6 +1358,7 @@ i(187500);	-- Intricately Etched Letter Opener
 i(187555);	-- Irredeemable Trash
 i(185477);	-- Irridescent Eye
 i(187213);	-- Jo's Intergalactic Cache
+i(184823);	-- Junk Mail
 i(187471);	-- Large Shardhide Tooth
 i(185481);	-- Long Fibrous Tongue
 i(185946);	-- Long Tail Dynarats
