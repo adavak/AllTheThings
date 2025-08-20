@@ -817,6 +817,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 
 		-- LFR
 		q(90977, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+		q(90981, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
+		q(90989, name(HEADERS.NPC, 245617)),	-- The Bone Melter
+		-- q(, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 		-- Normal
 		q(90978, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
