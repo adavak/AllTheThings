@@ -651,7 +651,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 	})),
-	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7, REMOVED_11_2_0 } }, {
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased The War Within Heroic Edition.",
 			["groups"] = {
@@ -866,18 +866,16 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
 			["groups"] = {
-				--ach()
-				--iensemble(),	-- Lightstider Raiment
-				--,	-- Lightwing Dragonhawk (MOUNT!)
+				-- TODO iensemble(),	-- Lightstider Raiment
+				mount(1234305),	-- Lightwing Dragonhawk (MOUNT!)
 			},
 		}),
 		n(EPIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
 			["groups"] = {
-				--ach()
-				--,	-- Doomfeathers (PET!)
-				--,	-- Hopeflutter (PET!)
-				--,	-- Voidwing Dragonhawk (MOUNT!)
+				pet(4812),	-- Doomfeathers (PET!)
+				pet(4811),	-- Hopeflutter (PET!)
+				mount(1234303),	-- Voidwing Dragonhawk (MOUNT!)
 			},
 		}),
 	})),

@@ -2085,6 +2085,7 @@ i(248248, 1246781);	-- Azure Void Flyer
 i(242733, 1233559);	-- Blue Barry
 i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(242717, 1233518);	-- Lavender K'arroc
+i(0, 1234305);	-- Lightwing Dragonhawk
 i(246067, 1240632);	-- Pearlescent Krolusk
 i(250240, 1250578);	-- Phase-Lost Slateback
 i(242729, 1233546);	-- Ruby Void Creeper
@@ -2098,6 +2099,7 @@ i(243061, 1234573);	-- Unbound Star-Eater
 i(186640, 353265);	-- Vandal's Gearglider
 i(243157, 1234820);	-- Vicious Void Creeper [A]
 i(243159, 1234821);	-- Vicious Void Creeper [H]
+i(0, 1234303);	-- Voidwing Dragonhawk
 --- UNSORTED ---
 i(247791, 1245357);	-- Adorned Northeron Gryphon
 i(248761, 1247662);	-- Brewfest Barrel Bomber
