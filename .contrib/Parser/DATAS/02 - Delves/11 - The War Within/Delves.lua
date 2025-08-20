@@ -1128,7 +1128,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
 			i(212164),	-- Shallow Nautic Helm
 			i(225067),	-- Shadowlit Haversack
-			i(238006, { ["timeline"] = { ADDED_11_2_0 } }),	-- Soulbearer's Censer
 			i(245528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Wastelander's Phasebound Visor
 		}),
 		filter(MISC, {
@@ -1386,6 +1385,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						}),
 						i(238000),	-- Mana Manipulator
 						i(218125),	-- Reactive Webbed Escutcheon
+						i(238006),	-- Soulbearer's Censer
 						i(238005),	-- Void-Steeped Falchion
 						i(238002),	-- Wanderer's Projectile Accelerator
 						i(238003),	-- Wyrmhunter's Skewer

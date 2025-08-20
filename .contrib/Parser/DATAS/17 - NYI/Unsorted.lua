@@ -2235,8 +2235,9 @@ root(ROOTS.Unsorted, {
 				i(237999),	-- Battered Matter Destabilizer
 				i(238008),	-- Wastelander's Folly
 
-				-- Delve Armor?
+				-- Delve Trinket?
 				i(246947),	-- Twisted Mana Sprite
+
 				-- Mechagon Junkyard?
 				i(241239),	-- Epaulets of Arcing Power
 				i(241240),	-- Type II Bomber Jacket
@@ -2477,7 +2478,6 @@ root(ROOTS.Unsorted, {
 				i(240210),	-- Crimson Valorstone
 				i(240211),	-- Void-Touched Valorstone
 
-
 				-- Crests
 				i(240929),	-- Glorious Cluster of Gilded Ethereal Crests
 				i(240932),	-- Pack of Runed Undermine Crests
@@ -2514,7 +2514,6 @@ root(ROOTS.Unsorted, {
 				i(247795),	-- Ornery Breezestrider
 				i(248761),	-- Brewfest Barrel Bomber
 
-
 				-- Mount Mods
 				i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive
 			}),
@@ -2532,7 +2531,6 @@ root(ROOTS.Unsorted, {
 				i(246821),	-- A Steamy Romance Novel: The Lusty Draconian Mage
 				i(246822),	-- A Steamy Romance Novel: Devouring Love
 				i(246823),	-- A Steamy Romance Novel: Got Milk?
-
 			}),
 			n(PVP, {
 				i(232600),	-- Astral Gladiator's Weapon Token
