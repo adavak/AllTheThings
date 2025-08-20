@@ -1085,6 +1085,7 @@ MobileDB.GameObject = {
 	[350978] = true,	-- Queen's Conservatory Cache
 	[351473] = true,	-- Droplets of Anima (q:60176)
 	[352047] = true,	-- Ardenmoth Cocoon (q:60337)
+	[352719] = true,	-- Harvest Key
 	[352095] = true,	-- Soulbreaker Trap
 	[352433] = true,	-- Cache of Eyes
 	[352593] = true,	-- Place Shard (q:59751)
@@ -1485,6 +1486,7 @@ MobileDB.GameObject = {
 	[537690] = true,	-- Prosperity Pebble (q: 90770)
 	[543115] = true,	-- Funny Candle
 	[547532] = true,	-- Ky'veza's Etheric Cache
+	[549326] = true,	-- Phase-Lost Exchequer
 	[567732] = true,	-- Kaja'6-Pack
 }
 

@@ -862,23 +862,27 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 	})),
-	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
+	expansion(EXPANSION.MID, {
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
+			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
-				-- TODO iensemble(),	-- Lightstider Raiment
-				mount(1234305),	-- Lightwing Dragonhawk (MOUNT!)
+				iensemble(248249),	-- Lightstider Raiment
+				i(243020),	-- Lightwing Dragonhawk (MOUNT!)
 			},
 		}),
 		n(EPIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
+			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
-				pet(4812),	-- Doomfeathers (PET!)
-				pet(4811),	-- Hopeflutter (PET!)
-				mount(1234303),	-- Voidwing Dragonhawk (MOUNT!)
+				i(243063),	-- Doomfeathers (PET!)
+				i(243062),	-- Hopeflutter (PET!)
+				i(245610),	-- Voidlight Surger
+				iensemble(248974),	-- Voidstrider Raiment
+				i(243019),	-- Voidwing Dragonhawk (MOUNT!)
 			},
 		}),
-	})),
+	}),
 
 	-- Anniversary
 	n(WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 } }, {
@@ -943,8 +947,8 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	n(OVERWATCH_ORIGINS, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_3, REMOVED_10_0_2 } }, {
 		["description"] = "These rewards are available to anyone who purchases Overwatch Origins Collection.",
 		["groups"] = {
-			ach(11064),	-- Collector's Edition: Baby Winston
 			i(134047),	-- Baby Winston (PET!)
+			ach(11064),	-- Collector's Edition: Baby Winston
 		},
 	})),
 	n(STARCRAFT_II_WINGS_OF_LIBERTY, bubbleDownSelf({
@@ -973,8 +977,8 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	}, {
 		["description"] = "These rewards are available to anyone who purchases Starcraft 2: Heart of the Swarm Collection.",
 		["groups"] = {
-			ach(7842),	-- Collector's Edition: Baneling
 			i(90177),	-- Baneling (PET!)
+			ach(7842),	-- Collector's Edition: Baneling
 		},
 	})),
 	n(STARCRAFT_II_LEGACY_OF_THE_VOID, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {

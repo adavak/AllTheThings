@@ -4410,12 +4410,12 @@ i(239082, 4796);	-- Sa'bak's Blessed
 i(245274, 4848);	-- Cerulean Lapbug
 i(245273, 4847);	-- Copper Lapbug
 i(244916, 4835);	-- Cyan Siphonmite
-i(0, 4812);	-- Doomfeathers
+i(243063, 4812);	-- Doomfeathers
 i(244907, 4827);	-- Dread Horrorling
 i(245254, 4842);	-- Duskthief
 i(245252, 4840);	-- Graceful Cosmic Ray Pup
 i(245272, 4846);	-- Heka'Tarnos, Bringer of Discord
-i(0, 4811);	-- Hopeflutter
+i(243062, 4811);	-- Hopeflutter
 i(244909, 4828);	-- Impartial Watcher
 i(245253, 4844);	-- Inquisitive Cosmic Ray Pup
 i(243158, 4813);	-- Ixthal the Observling
