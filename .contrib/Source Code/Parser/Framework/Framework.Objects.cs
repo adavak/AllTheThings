@@ -1052,7 +1052,7 @@ namespace ATT
             /// <param name="directory">The directory to file the debug files to.</param>
             public static void Export(string directory)
             {
-                var AllContainerClones = new SortedDictionary<string, List<object>>(AllContainers);
+                var AllContainerClones = new SortedDictionary<string, List<object>>(AllContainers, StringComparer.InvariantCulture);
                 var builder = new StringBuilder("<Ui xmlns=\"http://www.blizzard.com/wow/ui/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.blizzard.com/wow/ui/..\\FrameXML\\UI.xsd\">");
                 var categoryFolder = Path.Combine(directory, "Categories");
                 if (Directory.Exists(categoryFolder)) Directory.Delete(categoryFolder, true);
