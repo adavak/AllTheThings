@@ -3970,6 +3970,11 @@ root(ROOTS.HiddenAchievementTriggers, {
 
 			-- 11.2.0.62610
 			ach(61343),	-- Hotfix 99733 Tracking
+
+			-- 11.2.0.62706
+			ach(61347),	-- <Hidden> Base 12.0 Tender [DNT]
+			ach(61348),	-- <Hidden> Heroic 12.0 Tender [DNT]
+			ach(61349),	-- <Hidden> Epic 12.0 Tender [DNT]
 		})),
 	}),
 });
