@@ -91,9 +91,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					
 				}),
 			}),
-			n(251042, {	-- Domelius <Housing Vendor>
-				
-			}),
+			--n(251042, { }),	-- Domelius <Housing Vendor> (Stripper of his title and no vendor 'option' in build 62687 but is still present.
 			n(241143, {	-- Durus <Normal Raid Apparel>
 				clWithoutLock(DEATHKNIGHT, {
 					
@@ -344,7 +342,177 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(241167, {	-- Horos <Rare Collections>
-				
+				filter(BATTLE_PETS, {
+					------ NEW PETS ------
+					i(239705, {	-- Morsel (PET!)
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(239699, {	-- Tidbit (PET!)
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(129108, {	-- Son of Goredome (PET!)
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					------ OLD PETS ------
+					i(140320, {	-- Corgnelius (PET!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(136901, {	-- Eye of Inquisition (PET!)
+						["cost"] = {{ "c", BRONZE, 100000 }},
+					}),
+					i(140316, {	-- Firebat Pup (PET!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(136900, {	-- Hateful Eye (PET!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					i(140261, {	-- Hungering Claw (PET!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(136903, {	-- Nightmare Whelpling (PET!)
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(153252, {	-- Rebellious Imp (PET!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					i(141349, {	-- Strange Humming Crystal (QS!) / Wondrous Wisdomball (PET!)
+						["cost"] = {{ "c", BRONZE, 100000 }},
+					}),
+					i(130167, {	-- Thistleleaf Adventurer (PET!)
+						["cost"] = {{ "c", BRONZE, 100000 }},
+					}),
+					i(136922, {	-- Wyrmy Tunkins (PET!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					------ Locked behind: Rise of the Nightfallen ------
+					i(144394, {	-- Tylarr Gronnden (PET!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					i(151828, {	-- Ageless Bronze Drake (PET!)
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(151829, {	-- Bronze Proto-Whelp (PET!)
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(146953, {	-- Scraps (PET!)
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(147841, {	-- Orphaned Felbat (PET!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					i(153026, {	-- Cross Gazer (PET!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(153054, {	-- Docile Skyfin (PET!)
+						["cost"] = {{ "c", BRONZE, 20000 }},
+					}),
+					i(153055, {	-- Fel-Afflicted Skyfin (PET!)
+						["cost"] = {{ "c", BRONZE, 20000 }},
+					}),
+					i(153056, {	-- Grasping Manifestation (PET!)
+						["cost"] = {{ "c", BRONZE, 20000 }},
+					}),
+					i(153195, {	-- Uuna's Doll (PET!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+				}),
+				filter(TOYS, {
+					i(129165, {	-- Barnacle-Encrusted Gem (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(131724, {	-- Crystalline Eye of Undravius (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(141862, {	-- Mote of Light (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(140363, {	-- Pocket Fel Spreader (TOY!)
+						["cost"] = {{ "c", BRONZE, 20000 }},
+					}),
+					i(131717, {	-- Starlight Beacon (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(140160, {	-- Stormforged Vrykul Horn
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(130169, {	-- Tournament Favor (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					------ Locked behind: Rise of the Nightfallen ------
+					i(142265, {	-- Big Red Raygun (TOY!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					i(142528, {	-- Crate of Bobbers: Can of Worms (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(142529, {	-- Crate of Bobbers: Cat Head (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(142530, {	-- Crate of Bobbers: Tugboat (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(143662, {	-- Crate of Bobbers: Wooden Pepe (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(119211, {	-- Golden Hearthstone Card: Lord Jaraxxus (TOY!)
+						["cost"] = {{ "c", BRONZE, 100000 }},
+					}),
+					i(143544, {	-- Skull of Corruption (TOY!)
+						["cost"] = {{ "c", BRONZE, 100000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					i(147867, {	-- Pilfered Sweeper (TOY!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					i(147843, {	-- Sira's Extra Cloak (TOY!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					i(153204, {	-- All-Seer's Eye (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(153193, {	-- Baarut the Brisk (TOY!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(153183, {	-- Barrier Generator (TOY!)
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(153179, {	-- Blue Conservatory Scroll (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153182, {	-- Holy Lightsphere (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153194, {	-- Legion Communication Orb (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153126, {	-- Micro-Artillery Controller (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153181, {	-- Red Conservatory Scroll (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153253, {	-- S.F.E. Interceptor (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153293, {	-- Sightless Eye (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+					i(153124, {	-- Spire of Spite (TOY!)
+						["cost"] = {{ "c", BRONZE, 35000 }},
+					}),
+					i(153004, {	-- Unstable Portal Emitter (TOY!)
+						["cost"] = {{ "c", BRONZE, 100000 }},
+					}),
+					i(152982, {	-- Vixx's Chest of Tricks (TOY!)
+						["cost"] = {{ "c", BRONZE, 80000 }},
+					}),
+					i(153180, {	-- Yellow Conservatory Scroll (TOY!)
+						["cost"] = {{ "c", BRONZE, 25000 }},
+					}),
+				}),
 			}),
 			n(241191, {	-- Larah Treebender <World Apparel>
 				i(226127, {	-- Recruit's Shirt (White)
@@ -380,6 +548,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				["groups"] = sharedData({
 					["cost"] = {{ "c", BRONZE, 5 }},
 				}, {
+					i(254320),	-- Elixir of Remembered Sight
 					i(250316),	-- Everlasting Nosh
 					i(188152),	-- Gateway Control Shard
 					i(226037),	-- Timeless Neural Silencer

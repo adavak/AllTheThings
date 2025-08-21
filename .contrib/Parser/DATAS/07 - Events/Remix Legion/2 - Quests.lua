@@ -296,5 +296,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
+		q(92855, {	-- Infinite Research Promotion: Timely Assistant
+			--["sourceQuest"] = ??,
+			["qg"] = 241189,	-- Lidamorrutu
+			["coord"] = { 45.9, 68.0, BROKEN_ISLES },
+			["repeatable"] = true,	-- Blue quest. Maybe daily?
+		}),
 	}),
 }))));

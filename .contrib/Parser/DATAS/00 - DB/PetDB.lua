@@ -2574,7 +2574,6 @@ i(0, 1772);			-- Wumpas
 --- NYI ---
 i(136907, 1758);	-- Black Piglet
 i(136906, 1757);	-- Brown Piglet
-i(129108, 1751);	-- Son of Goredome
 i(136897, 0);		-- Northern Hawk Owl
 i(136913, 0);		-- Red Broodling
 i(136902, 0);		-- Toxic Whelpling
@@ -4446,6 +4445,9 @@ i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 ------------------
 -- PATCH 11.2.5 --
 ------------------
+i(239705, 4802);	-- Morsel
+i(129108, 1751);	-- Son of Goredome
+i(239699, 4801);	-- Tidbit
 --- UNSORTED ---
 i(252200, 4900);	-- Bundled-up Bob
 i(252199, 4899);	-- Festive Eve
@@ -4453,6 +4455,4 @@ i(252194, 4897);	-- Fishmonger May
 i(252195, 4898);	-- Fishstick Keith
 i(252301, 4901);	-- Fledgeling Warden's Companion
 i(252137, 4895);	-- Lil' Chompers
-i(239705, 4802);	-- Morsel
 i(252193, 4896);	-- Slippery Saul
-i(239699, 4801);	-- Tidbit

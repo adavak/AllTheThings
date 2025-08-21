@@ -76,8 +76,6 @@ root(ROOTS.Unsorted, {
 			i(239666),	-- Reins of the Risen Fel Bat
 			i(239686),	-- Reins of the Forgotten Fel Bat
 			i(239697),	-- Timeless Keystone
-			i(239699),	-- Tidbit
-			i(239705),	-- Morsel
 			i(239717),	-- Doomsinger's Robe
 			i(239720),	-- Highmountain Riverscale Hauberk
 			i(239723),	-- Stormborn Laminar Hauberk
