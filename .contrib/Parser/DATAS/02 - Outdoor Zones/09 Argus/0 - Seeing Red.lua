@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_10_1_7 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_10_1_7 } }, {
 	header(HEADERS.Achievement, 18854, {	-- Seeing Red
 		n(QUESTS, {
 			q(77408, {	-- Prophecy Stirs
@@ -175,4 +175,4 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_10_1_7 } }, {
 			}),
 		}),
 	}),
-})));
+}))));

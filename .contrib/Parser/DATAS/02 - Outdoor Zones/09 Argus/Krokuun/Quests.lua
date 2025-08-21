@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(KROKUUN, {
 		n(QUESTS, {
 			q(40238, {	-- A Grim Equation
@@ -388,14 +388,14 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			}),
 		}),
 	}),
-})));
+}))));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-	m(ARGUS, {
+	m(BROKEN_ISLES, m(ARGUS, {
 		m(KROKUUN, {
 			n(QUESTS, {
 				q(48281),	-- Tracking Quest - getting into the Lightforged Warframe during "Dawn of Justice" (questID 47992)
 			}),
 		}),
-	}),
+	})),
 })));

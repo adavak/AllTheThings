@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(KROKUUN, {
 		n(TREASURES, {
 			o(276490, {	-- Krokul Emergency Cache
@@ -210,10 +210,10 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			}),
 		}),
 	}),
-})));
+}))));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-	m(ARGUS, {
+	m(BROKEN_ISLES, m(ARGUS, {
 		m(KROKUUN, {
 			n(TREASURES, {
 				q(48876),	-- jumping on the rubble in front of "Krokul Emergency Cache" (object id: 276490)
@@ -221,5 +221,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(48878),	-- clearing rubble for "Lost Krokul Chest" (object id: 276491)
 			}),
 		}),
-	}),
+	})),
 })));

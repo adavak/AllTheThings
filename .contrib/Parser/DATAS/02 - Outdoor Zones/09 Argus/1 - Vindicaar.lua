@@ -2,7 +2,7 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 local VEILED_ARGUNITE = 1508;
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(THE_VINDICAAR_ANTORAN_WASTES_UPPER, {
 		["icon"] = 1586383,
 		["lore"] = "For untold millennia, the Army of the Light waged war against the Burning Legion throughout the Twisting Nether. The draenei most committed to their long crusade would undergo a ritual to become Lightforged, infusing their bodies with the very essence of the Holy Light. After finally achieving victory on Argus, the Lightforged draenei have undertaken a new mission: protecting Azeroth from rising threats and helping the Alliance push back against Horde aggression.",
@@ -704,10 +704,10 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			}),
 		},
 	}),
-})));
+}))));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-	m(ARGUS, {
+	m(BROKEN_ISLES, m(ARGUS, {
 		m(THE_VINDICAAR_ANTORAN_WASTES_UPPER, {
 			n(FACTIONS, {
 				n(EMISSARY_QUESTS, {
@@ -732,5 +732,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 			q(48450),	-- Shroud of Arcane Echoes/Fel Heart
 			q(48451),	-- Shroud of Arcane Echoes/Light's Judgement/Fel Heart
 		}),
-	}),
+	})),
 })));

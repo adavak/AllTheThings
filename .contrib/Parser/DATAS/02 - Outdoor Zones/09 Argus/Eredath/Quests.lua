@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(EREDATH, {
 		n(QUESTS, {
 			q(47220, {	-- A Beacon in the Dark
@@ -300,14 +300,14 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			}),
 		}),
 	}),
-})));
+}))));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-	m(ARGUS, {
+	m(BROKEN_ISLES, m(ARGUS, {
 		m(EREDATH, {
 			n(QUESTS, {
 				q(49204),	-- Arriving in Eredath
 			}),
 		}),
-	}),
+	})),
 })));

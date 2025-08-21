@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	n(ZONE_REWARDS, {
 		n(BACK, {
 			i(150988),	-- Twisted-Ritualist's Shawl
@@ -67,4 +67,4 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 		}),
 		currency(1508),	-- Veiled Argunite
 	}),
-})));
+}))));

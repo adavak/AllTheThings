@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
+root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(ANTORAN_WASTES, {
 		n(TREASURES, {
 			o(277205, {	-- Ancient Legion War Cache
@@ -213,10 +213,10 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			}),
 		}),
 	}),
-})));
+}))));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-	m(ARGUS, {
+	m(BROKEN_ISLES, m(ARGUS, {
 		m(ANTORAN_WASTES, {
 			n(TREASURES, {
 				q(48613),	-- clearing the rubble in front of "Eredar Treasure Cache" (object id: 276223)
@@ -225,5 +225,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(48741),	-- clearing the rubble in front of "Chest of Ill-Gotten Gains" (object: 276224)
 			}),
 		}),
-	}),
+	})),
 })));
