@@ -45,6 +45,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						}),
 						--
 						i(245611, {	-- Wriggling Pinnacle Cache
+							["description"] = "|cFFE50D12Only the first Bag of the Week on your entire B.Net Account can contain a Pet or a Mount!|r",
 							["sym"] = {	-- K'aresh Zone Reward
 								{"select","mapID",KHAZ_ALGAR},{"pop"},
 								{"where","mapID",KARESH},{"pop"},
