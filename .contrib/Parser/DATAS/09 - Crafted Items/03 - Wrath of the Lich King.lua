@@ -1707,7 +1707,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(35627),	-- Eternal Shadow
 			--]]
 		}),
-		header(HEADERS.SPELL, 2656, {	-- Smelting
+		header(HEADERS.Spell, 2656, {	-- Smelting
 			i(36916, {	-- Cobalt Bar
 				["cost"] = ClassicCost({ { "i", 36909, 1 } }),	-- Cobalt Ore
 			}),

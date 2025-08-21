@@ -1759,7 +1759,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(23437),	-- Talasite
 			--]]
 		}),
-		header(HEADERS.SPELL, 2656, {	-- Smelting
+		header(HEADERS.Spell, 2656, {	-- Smelting
 			i(23446, {	-- Adamantite Bar
 				["cost"] = ClassicCost({ { "i", 23425, 2 } }),	-- Adamantite Ore
 			}),
