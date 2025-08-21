@@ -281,7 +281,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(TREASURES, {
 				header(HEADERS.Achievement, 42741, {	-- Treasures of K'aresh
 					o(548597, {	-- Bladed Rifle Of Unfettered Momentum
-						["description"] = "Requires Rank 4 Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
 						["coord"] = { 69.9, 70.8, KARESH },
 						["questID"] = 91058,
 						["groups"] = { i(245673), },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
@@ -296,61 +296,61 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						},
 					}),
 					o(529537, {	-- Efrat's Forgotten Bulwark
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 78.0, 48.9, KARESH },
 						["questID"] = 90514,
 						["groups"] = { i(243004), },	-- Efrat's Forgotten Bulwark (COSMETIC!)
 					}),
 					o(529669, {	-- Korgoraths Talon
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 64.4, 42.7, KARESH },
 						["questID"] = 90532,
 						["groups"] = { i(243153), },	-- Korgorath's Talon (COSMETIC!)
 					}),
 					o(529525, {	-- Light-Soaked Cleaver
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 52.5, 46.8, KARESH },
 						["questID"] = 90511,
 						["groups"] = { i(243002), },	-- Light-Soaked Cleaver (COSMETIC!)
 					}),
 					o(548001, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 47.5, 70.0, KARESH_TAZAVESH },
 						["questID"] = 91056,
 						["groups"] = { i(245669), },	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
 					}),
 					o(529539, {	-- Petrified Branch Of Janaa
-						["description"] = "Requires Rank 4 Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
 						["coord"] = { 78.3, 61.6, KARESH },
 						["questID"] = 90515,
 						["groups"] = { i(243006), },	-- Petrified Branch of Janaa (COSMETIC!)
 					}),
 					o(548010, {	-- Phaseblade Of The Void Marches
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 50.8, 35.3, KARESH },
 						["questID"] = 91057,
 						["groups"] = { i(245671), },	-- Phaseblade of the Void Marches (COSMETIC!)
 					}),
 					o(529664, {	-- Shadowguard Crusher
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 49.2, 18.0, KARESH },
 						["questID"] = 90527,
 						["groups"] = { i(243008), },	-- Shadowguard Crusher (COSMETIC!)
 					}),
 					o(529533, {	-- Spear Of Fallen Memories
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 23.7, 46.8, KARESH_TAZAVESH },
 						["questID"] = 90512,
 						["groups"] = { i(243003), },	-- Spear of Fallen Memories (COSMETIC!)
 					}),
 					o(529591, {	-- Sufaadi Skiff Lantern
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 80.7, 52.8, KARESH },
 						["questID"] = 90521,
 						["groups"] = { i(243009), },	-- Sufaadi Skiff Lantern (COSMETIC!)
 					}),
 					o(547995, {	-- Warglaive of the Audacious Hunter
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coords"] = {
 							{ 56.8, 24.1, KARESH },	-- Voidscar Cavern Entrance
 							{ 62.5, 52.2, 2477 },	-- Voidscar Cavern
@@ -359,7 +359,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = { i(245667), },	-- Warglaive of the Audacious Hunter (COSMETIC!)
 					}),
 					o(529643, {	-- Tulwar Of The Golden Guard
-						["description"] = "Requires Rank 4 Reshii Wraps.",
+						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 51.0, 65.1, KARESH },
 						["questID"] = 90522,
 						["groups"] = { i(243005), },	-- Tulwar of the Golden Guard (COSMETIC!)
@@ -394,7 +394,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				-- Phased
 				o(549326, {	-- Phase-Lost Exchequer
-					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 4 Reshii Wraps.\nCan be found at random locations through Untethered space.",
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires the 4th Upgrade unlocked from the Reshii Wraps.\nCan be found at random locations through Untethered space.",
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 11 },	-- The K'aresh Trust Renown 11
 					["maps"] = { KARESH_TAZAVESH, KARESH },
 					-- No quest attached to them.
@@ -410,7 +410,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				o(516626, {	-- Phase-Lost Pocket-Storage
-					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 4 Reshii Wraps.\nCan be found at random locations through Untethered space.",
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires the 4th Upgrade unlocked from the Reshii Wraps.\nCan be found at random locations through Untethered space.",
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
 					["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11
 					["maps"] = { KARESH_TAZAVESH, KARESH },
