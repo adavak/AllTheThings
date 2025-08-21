@@ -46,7 +46,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 85837,
 				}),
 				o(500046, {	-- Gift of the Brothers
-					["coord"] = { 76.1, 45.3, KARESH },
+					["description"] = "Talk to 3 NPC's after clicking on the treasure.\n\nEnable Quest tracking for detailed infos.",
+					["coords"] = { 
+						{ 76.1, 45.3, KARESH },	-- Treasure
+						{ 75.5, 39.8, KARESH },	-- Sahra
+						{ 68.3, 45.3, KARESH },	-- Naji
+						{ 69.9, 60.5, KARESH },	-- M'alim
+					},
 					["questID"] = 85959,
 					["groups"] = {
 						q(86065, {	-- Finding Sahra
@@ -115,11 +121,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 77.8, 27.9, KARESH },
 					["questID"] = 86322,
 					["groups"] = { i(243158), },	-- Ixthal the Observling (PET!)
-				}),
-				o(529533, {	-- Spear Of Fallen Memories
-					["coord"] = { 23.7, 46.8, KARESH_TAZAVESH },
-					["questID"] = 90512,
-					["groups"] = { i(243003), },	-- Spear of Fallen Memories (COSMETIC!)
 				}),
 				o(502452, {	-- Tumbled Package
 					["coord"] = { 65.3, 63.6, KARESH },
