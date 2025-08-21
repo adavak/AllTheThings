@@ -96,7 +96,12 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 62151 },	-- Xaril the Poisoned Mind
 						}),
 						crit(20956, {	-- Iron Mantid
-							["provider"] = { "n", 62774 },	-- Malik the Unscathed
+							["providers"] = {
+								{ "n",  62774 },	-- Malik the Unscathed
+								{ "o", 215872 },	-- Halberd of the Unscathed
+							},
+							["coord"] = { 55.1, 35.4, DREAD_WASTES },
+							["description"] = "If for some reason you can't find Malik, you can interact with the Halberd of the Unscathed instead to get the buff.",
 						}),
 						crit(20957, {	-- Silent Lucidity
 							["provider"] = { "n", 65305 },	-- Iyyokuk the Lucid
