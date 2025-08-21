@@ -13,4 +13,4 @@ root(ROOTS.Zones, m(BROKEN_ISLES, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7
 			}),
 		})),
 	}),
-})))),
+}))));
