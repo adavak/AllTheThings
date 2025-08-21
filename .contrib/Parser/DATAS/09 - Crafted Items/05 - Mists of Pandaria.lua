@@ -73,6 +73,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(76093),	-- Potion of the Jade Serpent
 			i(76090),	-- Potion of the Mountains
 			i(76089),	-- Virmen's Bite
+			-- #if ANYCLASSIC
+			i(247802, {["timeline"] = { ADDED_5_5_0 }}),	-- Venerable Potion of Invisibility
+			-- #endif
 		}),
 		filter(REAGENTS, {
 			i(87872),	-- Desecrated Oil

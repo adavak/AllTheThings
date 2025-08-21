@@ -1816,6 +1816,11 @@ root(ROOTS.Zones, {
 								i(89522),	-- Mark of the Dancing Crane
 								i(89296),	-- Nightwatcher's Helm
 								i(89300),	-- Red Smoke Bandana
+								-- #if ANYCLASSIC
+								i(247800, {	-- Recipe: Venerable Potion of Invisibility
+									["timeline"] = { ADDED_5_5_0 },
+								}),
+								-- #endif
 								i(89673),	-- Robe of Eternal Dynasty
 								i(89672),	-- Robe of Quiet Meditation
 								i(89078),	-- Sagewhisper's Wrap
