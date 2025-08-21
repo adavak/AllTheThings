@@ -11106,6 +11106,7 @@ local ObjectNames = {
 	[527409] = "Suspicious Document",
 	[527411] = "Suspicious Document",
 	[527413] = "Suspicious Document",
+	[527414] = "Ethereal Voidforged Container",
 	[527415] = "Suspicious Document",
 	[527416] = "Suspicious Document",
 	[527488] = "Phantom Bloom",
