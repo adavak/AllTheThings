@@ -115,7 +115,6 @@ i(20834);	-- Ornate Spyglass XT ("Retrieving Data" in-game)
 i(23794);	-- Permanent Sheen of Zanza ("Retrieving Data" in-game)
 i(23795);	-- Permanent Spirit of Zanza ("Retrieving Data" in-game)
 i(23796);	-- Permanent Swiftness of Zanza ("Retrieving Data" in-game)
-i(43352);	-- Pet Grooming Kit
 i(33448);	-- Runic Mana Potion
 i(165699);	-- Scarlet Herring Lure
 i(119449);	-- Shadowberry

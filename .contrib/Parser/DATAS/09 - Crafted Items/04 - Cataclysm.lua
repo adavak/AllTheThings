@@ -288,7 +288,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		i(62670),	-- Beer-Basted Crocolisk
 		i(62668),	-- Blackbelly Sushi
 		i(62676),	-- Blackened Surprise
-		i(62289),	-- Broiled Dragon Feast
+		i(62289, {["description"] = "This recipe is rewarded from the Guild Cooking achievement 'Set the Oven to Cataclysmic'."}),	-- Broiled Dragon Feast
 		i(62655),	-- Broiled Mountain Trout
 		i(62680),	-- Chocolate Cookie
 		i(62664),	-- Crocolisk Au Gratin
@@ -308,7 +308,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		i(62660),	-- Pickled Guppy
 		i(62653),	-- Salted Eye
 		i(68687, {["timeline"] = {ADDED_4_0_6}}),	-- Scalding Murglesnout
-		i(62290),	-- Seafood Magnifique Feast
+		i(62290, {["description"] = "This recipe is rewarded from the Guild Fishing achievement 'That's a Lot of Bait'."}),	-- Seafood Magnifique Feast
 		i(62652),	-- Seasoned Crab
 		i(62671),	-- Severed Sagefish Head
 		i(62669),	-- Skewered Eel

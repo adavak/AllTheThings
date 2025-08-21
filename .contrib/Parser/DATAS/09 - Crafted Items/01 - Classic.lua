@@ -6099,7 +6099,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	prof(MINING, {
 		["description"] = "Mining veins are usually found on uneven terrain and mountainsides as well as inside caves. It is beneficial to mine all veins in the area even if you only need specific ore because the node spawns are often connected.",
 		["groups"] = {
-			header(HEADERS.Spell, 2575, {	-- Mining
+			spell(2575, {	-- Mining
 				["groups"] = appendAllGroups(
 					{
 						-- Nodes:

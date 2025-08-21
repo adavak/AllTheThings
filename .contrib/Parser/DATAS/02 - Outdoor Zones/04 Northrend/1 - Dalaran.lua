@@ -3028,6 +3028,7 @@ root(ROOTS.Zones, {
 							i(48120, {	-- Obsidian Hatchling (PET!)
 								["timeline"] = { ADDED_3_2_0 },
 							}),
+							i(43352),	-- Pet Grooming Kit
 							i(44820),	-- Red Ribbon Pet Leash (TOY!)
 							i(37460),	-- Rope Pet Leash (TOY!)
 						},

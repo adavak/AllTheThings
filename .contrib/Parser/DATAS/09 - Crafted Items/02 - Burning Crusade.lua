@@ -1562,7 +1562,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 	}),
 	prof(MINING, {
-		header(HEADERS.Spell, 2575, {	-- Mining
+		spell(2575, {	-- Mining
 			-- Nodes
 			o(181556, {	-- Adamantite Deposit
 				["maps"] = {
@@ -1759,7 +1759,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(23437),	-- Talasite
 			--]]
 		}),
-		spell(2656, {	-- Smelting
+		header(HEADERS.SPELL, 2656, {	-- Smelting
 			i(23446, {	-- Adamantite Bar
 				["cost"] = ClassicCost({ { "i", 23425, 2 } }),	-- Adamantite Ore
 			}),
