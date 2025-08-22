@@ -63,13 +63,13 @@ local CUTTING_EDGE_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 		t.rwp = nil;
 	else
-		t.u = ]] .. MOP_PHASE_ONE .. [[;
+		t.u = ]] .. MOP_PHASE_ONE_HEART_OF_FEAR .. [[;
 		t.rwp = 50200;
 	end
 end]];
 -- #endif
 root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
-	applyclassicphase(MOP_PHASE_ONE, inst(330, {	-- Heart of Fear
+	applyclassicphase(MOP_PHASE_ONE_HEART_OF_FEAR, inst(330, {	-- Heart of Fear
 		["isRaid"] = true,
 		["coord"] = { 39.0, 34.9, DREAD_WASTES },	-- Heart of Fear
 		["maps"] = {

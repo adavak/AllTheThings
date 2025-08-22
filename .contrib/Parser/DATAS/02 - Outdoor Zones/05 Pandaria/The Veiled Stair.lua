@@ -87,7 +87,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 54.2, 72.9, THE_VEILED_STAIR },
 						["timeline"] = { ADDED_5_2_0 },
 						["groups"] = appendGroups(
-							applyclassicphase(MOP_PHASE_ONE, bubbleDown({
+							applyclassicphase(MOP_PHASE_ONE_MOGUSHAN_VAULTS, bubbleDown({
 								["sourceAchievement"] = 7533,	-- Chapter I: Trial of the Black Prince
 								["timeline"] = { ADDED_5_0_4 },
 								["cost"] = 100000000,	-- 10,000g

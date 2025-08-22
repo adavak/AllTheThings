@@ -127,13 +127,13 @@ local CUTTING_EDGE_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 		t.rwp = nil;
 	else
-		t.u = ]] .. MOP_PHASE_ONE .. [[;
+		t.u = ]] .. MOP_PHASE_ONE_TERRACE_OF_ENDLESS_SPRINGS .. [[;
 		t.rwp = 50200;
 	end
 end]];
 -- #endif
 root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
-	applyclassicphase(MOP_PHASE_ONE, inst(320, {	-- Terrace of Endless Spring
+	applyclassicphase(MOP_PHASE_ONE_TERRACE_OF_ENDLESS_SPRINGS, inst(320, {	-- Terrace of Endless Spring
 		["coord"] = { 48.4, 61.4, THE_VEILED_STAIR },
 		["maps"] = { 456 },	-- Terrace of Endless Spring
 		["sharedLockout"] = 1,
