@@ -44,13 +44,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 
 		------ Reputation Insignias ------
 		i(253621, {	-- Champion's Insignia
-			["description"] = "Turns into a random Reputation Insignia on Quest Completion.",
+			["description"] = "Turns into a Reputation Insignia for a Faction of the zone you are in.",
 		}),
 		i(249788),	-- Argussian Reach Champion's Insignia
 		i(249780),	-- Army of the Light Champion's Insignia
 		i(249787),	-- Court of Farondis Champion's Insignia
 		i(249786),	-- Dreamweaver Champion's Insignia
 		i(249785),	-- Highmountain Tribe Champion's Insignia
+		i(253756),	-- Insignia of the Broken Isles
 		i(249784),	-- Legionfall Champion's Insignia
 		i(249783),	-- Nightfallen Champion's Insignia
 		i(249782),	-- Valarjar Champion's Insignia
@@ -79,7 +80,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			i(246200),	-- Band of Twister Bark
 			i(246202),	-- Grasping Tentacle Loop
 			i(246198),	-- Jeweled Signet of Melandrus
+			i(245998),	-- Ring of Mind Shielding
 			i(245997),	-- Seal of the Nazjatar Empire
+			i(246201),	-- Signet of the Highborne Magi
 			i(246197),	-- Woe-Bearer's Band
 		}),
 		filter(NECK_F, {
@@ -100,6 +103,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			i(246000),	-- Lure of the Unknown Depths
 			i(246208),	-- Mote of Obscure Magics
 			i(246205),	-- Stormwalker's Icon
+			i(245999),	-- Volatile Chaos Talisman
 		}),
 	}),
 }))));

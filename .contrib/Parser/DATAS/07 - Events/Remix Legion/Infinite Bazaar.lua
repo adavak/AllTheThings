@@ -91,7 +91,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					
 				}),
 			}),
-			--n(251042, { }),	-- Domelius <Housing Vendor> (Stripper of his title and no vendor 'option' in build 62687 but is still present.
+			--n(251042, { }),	-- Domelius <Housing Vendor> (Stripped of his title and no vendor 'option' in build 62687 but is still present.)
 			n(241143, {	-- Durus <Normal Raid Apparel>
 				clWithoutLock(DEATHKNIGHT, {
 					
@@ -555,11 +555,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(241168, {	-- Pythagorus <Mythic Raid Apparel>
-				-- Cosmetics
-				-- i(242368),	-- The First Satyr's Spaulders
-				-- i(253273),	-- Scythe of the Unmaker (Infinite)
-				-- i(152094),	-- Taeshalach
-				-- Classes
 				clWithoutLock(DEATHKNIGHT, {
 					
 				}),
@@ -592,6 +587,26 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 				clWithoutLock(WARRIOR, {
 					
+				}),
+				filter(COSMETIC, {
+					iensemble(253273, {	-- Scythe of the Unmaker (ENSEMBLE!)
+						["cost"] = {
+							{ "i", 253304, 20 },	-- Cosmic Soulsliver
+							{ "c", BRONZE, 30000 },
+						},
+					}),
+					i(152094, {	-- Taeshalach (COSMETIC!)
+						["cost"] = {
+							{ "i", 242370, 20 },	-- Horns of the First Satyr
+							{ "c", BRONZE, 30000 },
+						},
+					}),
+					i(242368, {	-- The First Satyr's Spaulders (COSMETIC!)
+						["cost"] = {
+							{ "i", 253306, 20 },	-- Everflame of Hatred
+							{ "c", BRONZE, 30000 },
+						},
+					}),
 				}),
 			}),
 			n(246028, {	-- Sacerdormu <Heroic Raid Apparel>
@@ -630,41 +645,125 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(246026, {	-- Unicus <Exclusive Ensembles>
-				clWithoutLock(DEATHKNIGHT, {
-					
+				iensemble(253382, {	-- Arsenal: Arms of the Felforged Knight
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				clWithoutLock(DEMONHUNTER, {
-					
+				iensemble(253556, {	-- Arsenal: Bone Scythes
+					["cost"] = {{ "c", BRONZE, 2500 }},
 				}),
-				clWithoutLock(DRUID, {
-					
+				iensemble(253569, {	-- Arsenal: Gems of the Lightforged Draenei
+					["cost"] = {{ "c", BRONZE, 2500 }},
 				}),
-				clWithoutLock(HUNTER, {
-					
+				iensemble(253561, {	-- Arsenal: Immortal Maces
+					["cost"] = {{ "c", BRONZE, 2500 }},
 				}),
-				clWithoutLock(MAGE, {
-					
+				iensemble(253565, {	-- Arsenal: Mo'arg Hornmaces
+					["cost"] = {{ "c", BRONZE, 2500 }},
 				}),
-				clWithoutLock(MONK, {
-					
+				iensemble(253551, {	-- Arsenal: Mo'arg Swords
+					["cost"] = {{ "c", BRONZE, 2500 }},
 				}),
-				clWithoutLock(PALADIN, {
-					
+				iensemble(241389, {	-- Ensemble: Antoran Guard's Golden Battleplate
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				clWithoutLock(PRIEST, {
-					
+				iensemble(241392, {	-- Ensemble: Argussian Demonsbane Armor
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				clWithoutLock(ROGUE, {
-					
+				--iensemble(241357, {	-- Ensemble: Barkbinds of the Archdruid's Nightmare (Breaks the Parser)
+				--	["cost"] = {{ "c", BRONZE, 7500 }},
+				--}),
+				iensemble(241416, {	-- Ensemble: Blazing Dreamscribed Robes
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				clWithoutLock(SHAMAN, {
-					
+				iensemble(241358, {	-- Ensemble: Dream Defender's Emerald Guardplate
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				clWithoutLock(WARLOCK, {
-					
+				iensemble(241414, {	-- Ensemble: Dreamseeker Vestments
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				clWithoutLock(WARRIOR, {
-					
+				iensemble(241415, {	-- Ensemble: Dreamwatcher Vestments
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241399, {	-- Ensemble: Dreamweald Dragonscale
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241412, {	-- Ensemble: Earthrune Robes
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241408, {	-- Ensemble: Fel-Bloodied Battlegear
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241356, {	-- Ensemble: Ensemble: Fel-Marked Scales
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241397, {	-- Ensemble: Firewurm Dragonscale
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241406, {	-- Ensemble: Gladeraider's Battlegarb
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241387, {	-- Ensemble: Heritage of the Lightforged - Hologemmed
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241388, {	-- Ensemble: Heritage of the Lightforged - Holy Gold
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241386, {	-- Ensemble: Heritage of the Lightforged - Crimson Vengeance
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241385, {	-- Ensemble: Heritage of the Shal'dorei - Vineyard Red
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241400, {	-- Ensemble: Highpeak Dragonscale
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241396, {	-- Ensemble: Jarl's Battlehorns
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241403, {	-- Ensemble: Jarl's Battlescales
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(253385, {	-- Ensemble: Mantles of the Nightwell
+					["cost"] = {{ "c", BRONZE, 2500 }},
+				}),
+				iensemble(241413, {	-- Ensemble: Nightrune Robes
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241402, {	-- Ensemble: Ruby Drake Hunter's Kit
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241407, {	-- Ensemble: Searaider's Battlegarb
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241411, {	-- Ensemble: Skyrune Robes
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241410, {	-- Ensemble: Slayer's Golden Scarguards
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241409, {	-- Ensemble: Slayer's Silver Scarguards
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241395, {	-- Ensemble: Storm Champion's Warharness
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241360, {	-- Ensemble: Stygian Silks
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(253358, {	-- Ensemble: Tideskorn Hunter's Munitions
+					["cost"] = {{ "c", BRONZE, 2500 }},
+				}),
+				iensemble(251271, {	-- Ensemble: Tidesoaked Battlegear
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241355, {	-- Ensemble: Verdant Dreamscribed Robes
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(241390, {	-- Ensemble: Vestments of Eredathian Sacrifice
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
+				iensemble(253379, {	-- Ensemble: Windrunner Quivers
+					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
 			}),
 			n(QUESTS, sharedData({

@@ -128,6 +128,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			mapped(ARMOR, {
 				filter(CLOAKS, {
 					i(240270),	-- Cape of Hungering Flesh
+					i(240261),	-- Wrap of Hungering Flesh
 				}),
 				filter(CLOTH, {
 				}),
@@ -159,15 +160,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			mapped(ARMOR, {
 				filter(CLOTH, {
 				}),
-				filter(LEATHER, {	-- Might be wrong, I've been getting them drop from Heroics AND World Quests
-					i(240432),	-- Nighthide Cuffs
-					i(240436),	-- Nighthide Gambeson
-					i(240435),	-- Nighthide Girdle
-					i(240431),	-- Nighthide Grips
-					i(240439),	-- Nighthide Hat
-					i(240438),	-- Nighthide Spaulders
-					i(240434),	-- Nighthide Trousers
-					i(240433),	-- Nighthide Waders
+				filter(LEATHER, {
 				}),
 				filter(MAIL, {
 				}),

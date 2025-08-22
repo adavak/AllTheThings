@@ -16,6 +16,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				filter(CLOTH, {
 				}),
 				filter(LEATHER, {
+					i(240432),	-- Nighthide Cuffs
+					i(240436),	-- Nighthide Gambeson
+					i(240435),	-- Nighthide Girdle
+					i(240431),	-- Nighthide Grips
+					i(240439),	-- Nighthide Hat
+					i(240438),	-- Nighthide Spaulders
+					i(240434),	-- Nighthide Trousers
+					i(240433),	-- Nighthide Waders
 					i(239874),	-- Stygian Hide Drape
 					i(239883),	-- Stygian Hide Girdle
 					i(239880),	-- Stygian Hide Gloves

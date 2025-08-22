@@ -618,7 +618,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 66.6, 77.1, VALSHARAH },
 				}),
 				q(42857, {	-- Moist Around the Hedges
-					["coord"] = { 66.7, 75.7, VALSHARAH },
+					["provider"] = { "o", 251425 },	-- Moist Grizzlecomb
+					["coord"] = { 66.8, 75.7, VALSHARAH },
 				}),
 				-- KEK 4
 				q(40221, {	-- Spread Your Lunarwings and Fly

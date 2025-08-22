@@ -2672,7 +2672,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(8227),	-- Elwynn Forest
 	exploration(8228),	-- Trade District
 	exploration(8229),	-- The Canals
-	exploration(8230),	-- Irongrove Retreat
 	exploration(8232),	-- Dappled Hollow
 	exploration(8234),	-- Stormwind City
 	exploration(8235),	-- Old Town

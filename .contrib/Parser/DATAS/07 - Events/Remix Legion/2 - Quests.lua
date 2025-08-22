@@ -50,11 +50,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["coord"] = { 42.8, 27.8, LEGION_DALARAN },
 		}),
 		q(90659, {	-- Something Borrowed
+			["description"] = "You can get one Artifact Weapon of your chosice (based on your Specialization). Others can be obtained through Order Hall Campaign.",
 			["sourceQuest"] = 89409,	-- Infinite Bronze
 			["qg"] = 241744,	-- Momentus
 			["coord"] = { 42.8, 27.8, LEGION_DALARAN },
-			["groups"] = {	-- You can get any 1 (one) artifact weapon from this quest based on the Specialization you choose. You get other(s) through Order Hall campaign (I guess?).
-				-- currency(3268),	-- Infinite Power
+			["groups"] = {
 				cl(DEATHKNIGHT, {
 					i(242563),	-- Apocalypse
 					i(242559),	-- Blades of the Fallen Prince
@@ -273,8 +273,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
+		q(91721, {	-- Surpass Your Own Legend
+			["sourceQuest"] = 91639,	-- Embrace Your Own Legend
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+		}),
 		q(92430, {	-- Embracing the Infinite Chaos
 			["description"] = "Quest pops-up when you hit Level 25.",
+			["lvl"] = 25,
 			-- Exo Note: Will this be a Breadcrumb for 'Infinite Chaos'? I got it on my main AFTER having 'Infinite Chaos' in my log.
 		}),
 		q(91061, {	-- Infinite Chaos
@@ -297,10 +303,17 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
 		q(92855, {	-- Infinite Research Promotion: Timely Assistant
+			["description"] = "Grants a random ring, necklace, or trinket.",
 			--["sourceQuest"] = ??,
 			["qg"] = 241189,	-- Lidamorrutu
 			["coord"] = { 45.9, 68.0, BROKEN_ISLES },
-			["repeatable"] = true,	-- Blue quest. Maybe daily?
+			["isDaily"] = true,
+		}),
+		q(91631, {	-- Epoch Progress
+			["qg"] = 243853,	-- Lidamorrutu
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 40,
+			["groups"] = { i(245553), },	-- Heroic Cache of Infinite Treasure
 		}),
 	}),
 }))));

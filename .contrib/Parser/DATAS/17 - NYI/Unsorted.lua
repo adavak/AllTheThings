@@ -7,8 +7,7 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
 			i(133804),	-- Faded Bag of Loot
 			i(133956),	-- Volatile Spell Focus
-			i(190067),	-- Fel-Marked Grips
-			i(190072),	-- Fel-Marked Hauberk
+			-- Ensemble: Barkbinds of the Archdruid's Nightmare (Breaks the Parser)
 			i(190221),	-- Waistwrap of the Archdruid's Nightmare
 			i(190222),	-- Sandals of the Archdruid's Nightmare
 			i(190223),	-- Jerkin of the Archdruid's Nightmare
@@ -18,34 +17,15 @@ root(ROOTS.Unsorted, {
 			i(190227),	-- Raiment of the Archdruid's Nightmare
 			i(190228),	-- Mantle of the Archdruid's Nightmare
 			i(190229),	-- Bindings of the Archdruid's Nightmare
-			i(190432),	-- Fel-Marked Bracers
-			i(190435),	-- Verdant Dreamscribed Belt
-			i(190437),	-- Verdant Dreamscribed Collar
-			i(190440),	-- Fel-Marked Crown
+			--
 			i(190547),	-- Val'sharah Protector's Bracers
-			i(190555),	-- Verdant Dreamscribed Robe
-			i(190556),	-- Fel-Marked Legguards
 			i(190676),	-- Val'sharah Protector's Gauntlets
-			i(190700),	-- Fel-Marked Boots
-			i(190709),	-- Fel-Marked Pauldrons
-			i(190787),	-- Verdant Dreamscribed Cuffs
-			i(190806),	-- Fel-Marked Cinch
-			i(190809),	-- Verdant Dreamscribed Slippers
-			i(190815),	-- Verdant Dreamscribed Leggings
 			i(190868),	-- Verdant Dreamscribed Scrollmantle
 			i(232303),	-- Unbound Banner of the Algari
 			i(232307),	-- Astral Champion's Prestigious Banner
 			i(234273),	-- A Dimmed Crystal
 			i(235630),	-- Ensemble: Runespeaker Wraps
-			i(235900),	-- Holy Goldforged Chestguard
-			i(235901),	-- Holy Goldforged Gorget
-			i(235902),	-- Holy Goldforged Pauldrons
 			i(235903),	-- Gold Lightforged Chestguard
-			i(235904),	-- Holy Goldforged Gloves
-			i(235905),	-- Holy Goldforged Girdle
-			i(235906),	-- Holy Goldforged Legplates
-			i(235907),	-- Holy Goldforged Hoofguards
-			i(235908),	-- Holy Goldforged Bracers
 			i(235915),	-- Highmountain Hide Cap
 			i(237750),	-- Warbreaker's Revenge
 			i(237751),	-- Val'kyrian Rebirth
@@ -85,13 +65,6 @@ root(ROOTS.Unsorted, {
 			i(239728),	-- Wine-dark Royal Robe
 			i(239732),	-- Crescent Vale Robe
 			i(239733),	-- Hrydshal Runespeaker Robe
-			i(239734),	-- Antoran Guard's Golden Shawl
-			i(239735),	-- Antoran Guard's Golden Drape
-			i(239736),	-- Antoran Guard's Golden Cloak
-			i(239737),	-- Searaider's Drape
-			i(239738),	-- Searaider's Shroud
-			i(239739),	-- Searaider's Wrap
-			i(239740),	-- Searaider's Cloak
 			i(239741),	-- Blood Knight's Plate Shawl
 			i(239742),	-- Blood Knight's Plate Drape
 			i(239743),	-- Blood Knight's Plate Cloak
@@ -111,14 +84,6 @@ root(ROOTS.Unsorted, {
 			i(239766),	-- Breastplate of the Valhalas Champion
 			i(239767),	-- Warboots of the Valhalas Champion
 			i(239768),	-- Waistguard of the Valhalas Champion
-			i(239769),	-- Jarl's Battlehorned Armguards
-			i(239770),	-- Jarl's Battlehorned Epaulets
-			i(239771),	-- Jarl's Battlehorned Legguards
-			i(239772),	-- Jarl's Battlehorned Faceguard
-			i(239773),	-- Jarl's Battlehorned Gauntlets
-			i(239774),	-- Jarl's Battlehorned Battleplate
-			i(239775),	-- Jarl's Battlehorned Sabatons
-			i(239776),	-- Jarl's Battlehorned Waistguard
 			i(239777),	-- Valorborne Dragonscale Vambraces
 			i(239778),	-- Valorborne Dragonscale Epaulets
 			i(239779),	-- Valorborne Dragonscale Breeches
@@ -140,14 +105,6 @@ root(ROOTS.Unsorted, {
 			i(239795),	-- Sunborne Runemail Chestguard
 			i(239796),	-- Sunborne Runemail Greaves
 			i(239797),	-- Sunborne Runemail Girdle
-			i(239798),	-- Jarl's Scalemail Wristguards
-			i(239799),	-- Jarl's Scalemail Pinions
-			i(239800),	-- Jarl's Scalemail Leggings
-			i(239801),	-- Jarl's Scalemail Helmet
-			i(239802),	-- Jarl's Scalemail Handguards
-			i(239803),	-- Jarl's Scalemail Mail
-			i(239804),	-- Jarl's Scalemail Sabatons
-			i(239805),	-- Jarl's Scalemail Belt
 			i(239806),	-- Mountainborne Bindings
 			i(239807),	-- Mountainborne Trousers
 			i(239808),	-- Mountainborne Shoulders
@@ -164,79 +121,8 @@ root(ROOTS.Unsorted, {
 			i(239819),	-- Vest of the Hunting Dream
 			i(239820),	-- Boots of the Hunting Dream
 			i(239821),	-- Waistband of the Hunting Dream
-			i(239822),	-- Fel-bloodied Shawl
-			i(239823),	-- Fel-bloodied Drape
-			i(239824),	-- Fel-bloodied Overcloak
-			i(239825),	-- Fel-bloodied Cloak
-			i(239826),	-- Fel-bloodied Cuffs
-			i(239827),	-- Fel-bloodied Shoulderguard
-			i(239828),	-- Fel-bloodied Pants
-			i(239829),	-- Fel-bloodied Headgear
-			i(239830),	-- Fel-bloodied Gloves
-			i(239831),	-- Fel-bloodied Chestguard
-			i(239832),	-- Fel-bloodied Striders
-			i(239833),	-- Fel-bloodied Cinch
-			i(239834),	-- Blazing Dreamscribed Gloves
-			i(239835),	-- Blazing Dreamscribed Bindings
-			i(239836),	-- Blazing Dreamscribed Treads
-			i(239837),	-- Blazing Dreamscribed Pantaloons
-			i(239838),	-- Blazing Dreamscribed Sash
-			i(239839),	-- Blazing Dreamscribed Robe
-			i(239840),	-- Blazing Dreamscribed Chestwrap
-			i(239841),	-- Blazing Dreamscribed Cowl
-			i(239842),	-- Earthrune Skirt
-			i(239843),	-- Skyrune Skirt
-			i(239844),	-- Nightrune Skirt
-			i(239845),	-- Argussian Demonsbane Shawl
-			i(239846),	-- Argussian Demonsbane Drape
-			i(239847),	-- Argussian Demonsbane Cloak
-			i(239848),	-- Argussian Demonsbane Wraps
-			i(239849),	-- Argussian Demonsbane Mantle
-			i(239850),	-- Argussian Demonsbane Legguards
-			i(239851),	-- Argussian Demonsbane Cap
-			i(239852),	-- Argussian Demonsbane Grips
-			i(239853),	-- Argussian Demonsbane Tunic
-			i(239854),	-- Argussian Demonsbane Striders
-			i(239855),	-- Argussian Demonsbane Girdle
-			i(239856),	-- Antoran Guard's Golden Vambraces
-			i(239857),	-- Antoran Guard's Golden Epaulets
-			i(239858),	-- Antoran Guard's Golden Legguards
-			i(239859),	-- Antoran Guard's Golden Faceguard
-			i(239860),	-- Antoran Guard's Golden Handguards
-			i(239861),	-- Antoran Guard's Golden Waistguard
-			i(239862),	-- Antoran Guard's Golden Breastplate
-			i(239863),	-- Antoran Guard's Golden Jackboots
-			i(239864),	-- Hauberk of Eredathian Sacrifice
-			i(239865),	-- Wristguards of Eredathian Sacrifice
-			i(239866),	-- Spaulders of Eredathian Sacrifice
-			i(239867),	-- Wargreaves of Eredathian Sacrifice
-			i(239868),	-- Helm of Eredathian Sacrifice
-			i(239869),	-- Grips of Eredathian Sacrifice
-			i(239870),	-- Chainmail of Eredathian Sacrifice
-			i(239871),	-- Stompers of Eredathian Sacrifice
-			i(239872),	-- Girdle of Eredathian Sacrifice
-			i(239884),	-- Gladeraider's Shroud
-			i(239885),	-- Gladeraider's Cloak
-			i(239886),	-- Gladeraider's Drape
-			i(239887),	-- Gladeraider's Wrap
 			i(239888),	-- Wristguards of the Archdruid's Nightmare
 			i(239889),	-- Gambeson of the Archdruid's Nightmare
-			i(239890),	-- Dreamseeker's Bindings
-			i(239891),	-- Dreamseeker's Epaulets
-			i(239892),	-- Dreamseeker's Pants
-			i(239893),	-- Dreamseeker's Cowl
-			i(239894),	-- Dreamseeker's Gloves
-			i(239895),	-- Dreamseeker's Doublet
-			i(239896),	-- Dreamseeker's Slippers
-			i(239897),	-- Dreamseeker's Cinch
-			i(239898),	-- Dreamwatcher's Wraps
-			i(239899),	-- Dreamwatcher's Shoulders
-			i(239900),	-- Dreamwatcher's Leggings
-			i(239901),	-- Dreamwatcher's Hood
-			i(239902),	-- Dreamwatcher's Gloves
-			i(239903),	-- Dreamwatcher's Chestwrap
-			i(239904),	-- Dreamwatcher's Treads
-			i(239905),	-- Dreamwatcher's Cinch
 			i(239906),	-- Seaborne Wraps
 			i(239907),	-- Seaborne Pants
 			i(239908),	-- Seaborne Spaulders
@@ -245,20 +131,6 @@ root(ROOTS.Unsorted, {
 			i(239911),	-- Seaborne Vest
 			i(239912),	-- Seaborne Striders
 			i(239913),	-- Seaborne Waistband
-			i(239914),	-- Slayer's Silver Bindings
-			i(239915),	-- Slayer's Silver Shoulders
-			i(239916),	-- Slayer's Silver Legwraps
-			i(239917),	-- Slayer's Silver Headgear
-			i(239918),	-- Slayer's Silver Gloves
-			i(239919),	-- Slayer's Silver Vest
-			i(239920),	-- Slayer's Silver Striders
-			i(239921),	-- Slayer's Silver Girdle
-			i(239922),	-- Slayer's Golden Cuffs
-			i(239923),	-- Slayer's Golden Shoulderguard
-			i(239924),	-- Slayer's Golden Legwraps
-			i(239925),	-- Slayer's Golden Headgear
-			i(239926),	-- Slayer's Golden Gloves
-			i(239927),	-- Slayer's Golden Harness
 			i(239928),	-- Val'kyr's Armguards
 			i(239929),	-- Val'kyr's Shoulderguards
 			i(239930),	-- Val'kyr's Wargreaves
@@ -267,42 +139,15 @@ root(ROOTS.Unsorted, {
 			i(239933),	-- Val'kyr's Chestpiece
 			i(239934),	-- Val'kyr's Jackboots
 			i(239935),	-- Val'kyr's Waistguard
-			i(239936),	-- Slayer's Golden Waders
-			i(239937),	-- Slayer's Golden Cinch
-			i(239938),	-- Ruby Drake Hunter's Vambraces
-			i(239939),	-- Ruby Drake Hunter's Breeches
-			i(239940),	-- Ruby Drake Hunter's Epaulets
-			i(239941),	-- Ruby Drake Hunter's Helmet
-			i(239942),	-- Ruby Drake Hunter's Gauntlets
-			i(239943),	-- Ruby Drake Hunter's Chainmail
-			i(239944),	-- Ruby Drake Hunter's Sollerets
-			i(239945),	-- Ruby Drake Hunter's Belt
-			i(239946),	-- Storm Champion's Wristguards
-			i(239947),	-- Storm Champion's Legguards
-			i(239948),	-- Storm Champion's Shoulderguards
-			i(239949),	-- Storm Champion's Faceguard
-			i(239950),	-- Storm Champion's Handguards
-			i(239951),	-- Storm Champion's Chestpiece
-			i(239952),	-- Storm Champion's Stompers
-			i(239953),	-- Storm Champion's Greatbelt
-			i(239954),	-- Dream Defender's Emerald Armguards
-			i(239955),	-- Dream Defender's Emerald Pauldrons
-			i(239956),	-- Dream Defender's Emerald Wargreaves
-			i(239957),	-- Dream Defender's Emerald Helmet
-			i(239958),	-- Dream Defender's Emerald Handguards
 			i(239959),	-- Fel-marked Hauberk
 			i(239960),	-- Fel-marked Vambraces
 			i(239961),	-- Fel-marked Pinions
 			i(239962),	-- Fel-marked Wargreaves
-			i(239963),	-- Dream Defender's Emerald Battleplate
-			i(239964),	-- Dream Defender's Emerald Jackboots
-			i(239965),	-- Dream Defender's Emerald Greatbelt
 			i(239966),	-- Fel-marked Faceguard
 			i(239967),	-- Fel-marked Handguards
 			i(239968),	-- Fel-marked Chestguard
 			i(239969),	-- Fel-marked Greaves
 			i(239970),	-- Fel-marked Cinch
-			i(239971),	-- Firewurm Dragonscale Bracers
 			i(239972),	-- Skyborne Wraps
 			i(239973),	-- Skyborne Breeches
 			i(239974),	-- Skyborne Spaulders
@@ -316,76 +161,12 @@ root(ROOTS.Unsorted, {
 			i(239982),	-- Earthweald Dragonscale Coif
 			i(239983),	-- Earthweald Dragonscale Gauntlets
 			i(239984),	-- Earthweald Dragonscale Haubergeon
-			i(239985),	-- Skyrune Robe
-			i(239986),	-- Skyrune Cuffs
-			i(239987),	-- Skyrune Epaulets
-			i(239988),	-- Skyrune Pantaloons
 			i(239989),	-- Earthweald Dragonscale Stompers
 			i(239990),	-- Earthweald Dragonscale Cinch
-			i(239991),	-- Dreamweald Dragonscale Bracers
-			i(239992),	-- Dreamweald Dragonscale Shoulderguards
-			i(239993),	-- Skyrune Cover
-			i(239994),	-- Skyrune Handwraps
-			i(239995),	-- Skyrune Doublet
-			i(239996),	-- Skyrune Slippers
-			i(239997),	-- Skyrune Cinch
-			i(239998),	-- Earthrune Robe
-			i(239999),	-- Earthrune Wristwraps
-			i(240000),	-- Earthrune Shoulders
-			i(240001),	-- Earthrune Pants
-			i(240002),	-- Earthrune Hood
-			i(240003),	-- Earthrune Handwraps
-			i(240004),	-- Dreamweald Dragonscale Legguards
-			i(240005),	-- Dreamweald Dragonscale Mask
-			i(240006),	-- Earthrune Raiment
-			i(240007),	-- Earthrune Boots
-			i(240008),	-- Earthrune Cord
-			i(240009),	-- Nightrune Robe
-			i(240010),	-- Nightrune Wristwraps
-			i(240011),	-- Nightrune Mantle
-			i(240012),	-- Nightrune Pantaloons
-			i(240013),	-- Nightrune Cover
-			i(240014),	-- Nightrune Gloves
-			i(240015),	-- Nightrune Doublet
-			i(240016),	-- Nightrune Footwraps
-			i(240017),	-- Dreamweald Dragonscale Gauntlets
-			i(240219),	-- Dreamweald Dragonscale Chestguard
-			i(240220),	-- Dreamweald Dragonscale Sabatons
-			i(240221),	-- Dreamweald Dragonscale Waistband
-			i(240222),	-- Gladeraider's Wristguards
-			i(240223),	-- Gladeraider's Shoulderguard
-			i(240225),	-- Gladeraider's Cap
-			i(240226),	-- Gladeraider's Grips
-			i(240227),	-- Nightrune Cinch
-			i(240228),	-- Highpeak Dragonscale Wristguards
-			i(240229),	-- Highpeak Dragonscale Epaulets
-			i(240230),	-- Highpeak Dragonscale Wargreaves
-			i(240231),	-- Highpeak Dragonscale Faceguard
-			i(240234),	-- Gladeraider's Girdle
-			i(240235),	-- Highpeak Dragonscale Grips
-			i(240236),	-- Highpeak Dragonscale Chainmail
-			i(240237),	-- Highpeak Dragonscale Stompers
-			i(240238),	-- Highpeak Dragonscale Clasp
-			i(240239),	-- Searaider's Spaulders
-			i(240240),	-- Searaider's Bindings
-			i(240241),	-- Searaider's Trousers
-			i(240242),	-- Searaider's Cap
-			i(240243),	-- Searaider's Gloves
-			i(240244),	-- Searaider's Harness
-			i(240245),	-- Searaider's Striders
-			i(240246),	-- Searaider's Waistband
-			i(240247),	-- Firewurm Dragonscale Shoulderguard
-			i(240248),	-- Firewurm Dragonscale Wargreaves
-			i(240249),	-- Firewurm Dragonscale Helmet
-			i(240250),	-- Firewurm Dragonscale Handguards
-			i(240251),	-- Firewurm Dragonscale Haubergeon
-			i(240252),	-- Firewurm Dragonscale Greaves
-			i(240253),	-- Firewurm Dragonscale Waistband
 			i(240254),	-- Earthweald Dragonscale Vambraces
 			i(240256),	-- Thirsting Wrap
 			i(240257),	-- Nightstalker's Wrap
 			i(240258),	-- Drape of Hungering Flesh
-			i(240261),	-- Wrap of Hungering Flesh
 			i(240262),	-- Thirsting Cloak
 			i(240263),	-- Ered'ruin Shawl
 			i(240264),	-- Nightstalker's Cloak
@@ -394,7 +175,6 @@ root(ROOTS.Unsorted, {
 			i(240267),	-- Nightstalker's Shroud
 			i(240269),	-- Ered'ruin Cloak
 			i(240271),	-- Thirsting Shroud
-			i(240272),	-- Stygian Silk Cape
 			i(240273),	-- Ered'ruin Shroud
 			i(240274),	-- Thirsting Drape
 			i(240275),	-- Nightforged Handguards
@@ -587,17 +367,6 @@ root(ROOTS.Unsorted, {
 			i(240581),	-- Garothi Shroud
 			i(240582),	-- Garothi Shawl
 			i(240583),	-- Garothi Cloak
-			i(240584),	-- Stygian Silk Drape
-			i(240585),	-- Stygian Silk Shroud
-			i(240586),	-- Stygian Silk Gloves
-			i(240587),	-- Stygian Silk Armbands
-			i(240588),	-- Stygian Silk Slippers
-			i(240589),	-- Stygian Silk Trousers
-			i(240590),	-- Stygian Silk Sash
-			i(240591),	-- Stygian Silk Robe
-			i(240592),	-- Stygian Silk Raiment
-			i(240593),	-- Stygian Silk Shoulderpads
-			i(240594),	-- Stygian Silk Hood
 			i(240595),	-- Praetorium Guard's Shawl
 			i(240596),	-- Praetorium Guard's Shroud
 			i(240597),	-- Praetorium Guard's Drape
@@ -609,14 +378,12 @@ root(ROOTS.Unsorted, {
 			i(240606),	-- Shrinebreaker's Shroud
 			i(240609),	-- Arinor Keeper's Shawl
 			i(240610),	-- Doomsinger's Drape
-			i(240612),	-- Shroud of Remembered Eternity
 			i(240614),	-- Arinor Keeper's Cloak
 			i(240615),	-- Highmountain Riverscale Shroud
 			i(240619),	-- Dreadthorn Shroud
 			i(240622),	-- Highmountain Riverscale Cape
 			i(240625),	-- Arinor Keeper's Drape
 			i(240626),	-- Stormborn Laminar Cape
-			i(240627),	-- Cape of Remembered Eternity
 			i(240629),	-- Doomsinger's Cape
 			i(240630),	-- Shrinebreaker's Shawl
 			i(240631),	-- Shrinebreaker's Cape
@@ -730,14 +497,6 @@ root(ROOTS.Unsorted, {
 			i(240748),	-- Haustvelt Leather Boots
 			i(240749),	-- Haustvelt Leather Wraps
 			i(240750),	-- Haustvelt Leather Gloves
-			i(240751),	-- Sablehide Headgear
-			i(240752),	-- Sablehide Mantle
-			i(240753),	-- Sablehide Tunic
-			i(240754),	-- Sablehide Strap
-			i(240755),	-- Sablehide Breeches
-			i(240756),	-- Sablehide Boots
-			i(240757),	-- Sablehide Bindings
-			i(240758),	-- Sablehide Grips
 			i(240767),	-- Arinor Keeper's Cap
 			i(240768),	-- Arinor Keeper's Mantle
 			i(240769),	-- Arinor Keeper's Vest
@@ -804,37 +563,9 @@ root(ROOTS.Unsorted, {
 			i(241228),	-- Emerald Drake Hunter's Gloves
 			i(241229),	-- Emerald Drake Hunter's Bracers
 			i(241230),	-- Emerald Drake Hunter's Belt
-			i(241242),	-- Hologemmed Bracers
-			i(241243),	-- Hologemmed Hoofguards
-			i(241244),	-- Hologemmed Legplates
-			i(241245),	-- Hologemmed Girdle
-			i(241246),	-- Hologemmed Gloves
-			i(241247),	-- Hologemmed Pauldrons
-			i(241248),	-- Hologemmed Gorget
-			i(241249),	-- Hologemmed Chestguard
-			i(241250),	-- Crimson Vengeance Bracers
-			i(241251),	-- Crimson Vengeance Hoofguards
-			i(241252),	-- Crimson Vengeance Legplates
-			i(241253),	-- Crimson Vengeance Girdle
-			i(241254),	-- Crimson Vengeance Gloves
-			i(241255),	-- Crimson Vengeance Pauldrons
-			i(241256),	-- Crimson Vengeance Gorget
-			i(241257),	-- Crimson Vengeance Chestguard
 			i(241258),	-- Vineyard Red Shal'dorei Crown
-			i(241259),	-- Vineyard Red Shal'dorei Mantle
-			i(241260),	-- Vineyard Red Shal'dorei Finery
-			i(241261),	-- Vineyard Red Shal'dorei Gloves
-			i(241262),	-- Vineyard Red Shal'dorei Belt
-			i(241263),	-- Vineyard Red Shal'dorei Leggings
-			i(241264),	-- Vineyard Red Shal'dorei Slippers
-			i(241265),	-- Vineyard Red Shal'dorei Bracers
 			i(241354),	-- Ensemble: Emerald Drake Hunter's Kit
-			i(241355),	-- Ensemble: Verdant Dreamscribed Robes
-			i(241356),	-- Ensemble: Fel-marked Scales
-			i(241357),	-- Ensemble: Barkbinds of the Archdruid's Nightmare
-			i(241358),	-- Ensemble: Dream Defender's Emerald Guardplate
 			i(241359),	-- Ensemble: Garothi Battleplate
-			i(241360),	-- Ensemble: Stygian Silks
 			i(241361),	-- Ensemble: Moonshatter Warplate
 			i(241362),	-- Ensemble: Shrinebreaker's Battlegear
 			i(241363),	-- Ensemble: Lunarblight Leathers
@@ -859,38 +590,13 @@ root(ROOTS.Unsorted, {
 			i(241382),	-- Ensemble: Wine-dark Royal Robes
 			i(241383),	-- Ensemble: Crescent Vale Raiment
 			i(241384),	-- Ensemble: Regalia of the Hrydshal Runespeaker
-			i(241385),	-- Ensemble: Heritage of the Shal'dorei - Vineyard Red
-			i(241386),	-- Ensemble: Heritage of the Lightforged - Crimson Vengeance
-			i(241387),	-- Ensemble: Heritage of the Lightforged - Hologemmed
-			i(241388),	-- Ensemble: Heritage of the Lightforged - Holy Gold
-			i(241389),	-- Ensemble: Antoran Guard's Golden Battleplate
-			i(241390),	-- Ensemble: Vestments of Eredathian Sacrifice
 			i(241391),	-- Ensemble: Stygian Hides
-			i(241392),	-- Ensemble: Argussian Demonsbane Armor
 			i(241393),	-- Ensemble: Winged Plate of the Valhalas Champion
 			i(241394),	-- Ensemble: Val'kyr's Warharness
-			i(241395),	-- Ensemble: Storm Champion's Warharness
-			i(241396),	-- Ensemble: Jarl's Battlehorns
-			i(241397),	-- Ensemble: Firewurm Dragonscale
 			i(241398),	-- Ensemble: Earthbreaker Dragonscale
-			i(241399),	-- Ensemble: Dreamweald Dragonscale
-			i(241400),	-- Ensemble: Highpeak Dragonscale
 			i(241401),	-- Ensemble: Sunborne Runemail
-			i(241402),	-- Ensemble: Ruby Drake Hunter's Kit
-			i(241403),	-- Ensemble: Jarl's Battlescales
 			i(241404),	-- Ensemble: Seaborne Brigandine
 			i(241405),	-- Ensemble: Skyborne Brigandine
-			i(241406),	-- Ensemble: Gladeraider's Battlegarb
-			i(241407),	-- Ensemble: Searaider's Battlegarb
-			i(241408),	-- Ensemble: Fel-bloodied Battlegear
-			i(241409),	-- Ensemble: Slayer's Silver Scarguards
-			i(241410),	-- Ensemble: Slayer's Golden Scarguards
-			i(241411),	-- Ensemble: Skyrune Robes
-			i(241412),	-- Ensemble: Earthrune Robes
-			i(241413),	-- Ensemble: Nightrune Robes
-			i(241414),	-- Ensemble: Dreamseeker Vestments
-			i(241415),	-- Ensemble: Dreamwatcher Vestments
-			i(241416),	-- Ensemble: Blazing Dreamscribed Robes
 			i(241417),	-- Ensemble: Nightforged Felplate
 			i(241418),	-- Ensemble: Bloodforged Battleplate
 			i(241419),	-- Ensemble: Honorforged Valorplate
@@ -1085,8 +791,6 @@ root(ROOTS.Unsorted, {
 			i(241608),	-- Ensemble: Regalia of the Chosen Dead
 			i(241609),	-- Ensemble: Regalia of the Chosen Dead
 			i(241610),	-- Ensemble: Regalia of the Chosen Dead
-			i(241637),	-- Earthrune Band
-			i(241638),	-- Nightrune Band
 			i(241639),	-- Sunborne Runemail Kilt
 			i(241640),	-- Dreadthorn Kilt
 			i(241641),	-- Kilt of Remembered Eternity
@@ -1269,7 +973,6 @@ root(ROOTS.Unsorted, {
 			i(242238),	-- Ensemble: Cloaks of the Antoran Guard
 			i(242239),	-- Ensemble: Eredar Battle Capes
 			i(242240),	-- Ensemble: Cloaks of the Green Mountains
-			i(242368),	-- The First Satyr's Spaulders
 			i(242369),	-- The First Satyr's Spaulders
 			i(242370),	-- Horns of the First Satyr
 			i(242476),	-- Taah'bat's Desert Carbine
@@ -1299,7 +1002,6 @@ root(ROOTS.Unsorted, {
 			i(244862),	-- [DNT] Small Bronze Token
 			i(244863),	-- [DNT] Large Bronze Token
 			i(244864),	-- [DNT] Gathering Token
-			i(245553),	-- Heroic Cache of Infinite Treasure
 			i(245554),	-- Heroic Cache of Infinite Treasure
 			i(245663),	-- Holy Golden Greatsword
 			i(245664),	-- Holy Hologem Greatsword
@@ -2004,15 +1706,6 @@ root(ROOTS.Unsorted, {
 			i(251248),	-- [DNT] Keystone Dungeon - Any Completion
 			i(251249),	-- [DNT] Keystone Dungeon - Timed Only
 			i(251261),	-- [DNT] Keystone Level
-			i(251262),	-- Tidesoaked Champion's Vambraces
-			i(251263),	-- Tidesoaked Champion's Epaulets
-			i(251264),	-- Tidesoaked Champion's Legguards
-			i(251265),	-- Tidesoaked Champion's Faceguard
-			i(251266),	-- Tidesoaked Champion's Handguards
-			i(251267),	-- Tidesoaked Champion's Waistguard
-			i(251268),	-- Tidesoaked Champion's Breastplate
-			i(251269),	-- Tidesoaked Champion's Jackboots
-			i(251271),	-- Ensemble: Tidesoaked Battlegear
 			i(251536),	-- Highmountain's Finest Draping Cloak
 			i(251538),	-- Pondskipper's Cloak
 			i(251539),	-- Tattered Highmountain Cloak
@@ -2125,9 +1818,6 @@ root(ROOTS.Unsorted, {
 			i(253229),	-- Felscorned Ellemayne
 			i(253230),	-- Felscorned Shallamayne
 			i(253231),	-- Fallen King's Corrupted Blades
-			i(253273),	-- Scythe of the Unmaker
-			i(253283),	-- Scythe of the Unmaker
-			i(253284),	-- Scythe of the Unmaker
 			i(253285),	-- Felscorned Scythe of the Unmaker
 			i(253286),	-- Scythe of the Unmaker
 			i(253304),	-- Cosmic Soulsliver
@@ -2165,65 +1855,12 @@ root(ROOTS.Unsorted, {
 			i(253348),	-- Kaldorei Queen's Anklets
 			i(253349),	-- Kaldorei Queen's Bangles
 			i(253353),	-- Illusion: Felshatter
-			i(253354),	-- Tideskorn Hunter's Forest Quiver
-			i(253355),	-- Tideskorn Hunter's Wine-Dark Quiver
-			i(253356),	-- Tideskorn Hunter's Brightsea Quiver
 			i(253357),	-- Felscorned Arsenal
-			i(253358),	-- Ensemble: Tideskorn Hunter's Munitions
-			i(253359),	-- Shadow's Rage Windrunner Quiver
-			i(253360),	-- Sunwell's Legacy Windrunner Quiver
-			i(253361),	-- Legendary Windrunner Quiver
-			i(253362),	-- Fabled Windrunner Quiver
-			i(253363),	-- Forest's Rage Windrunner Quiver
-			i(253364),	-- Vindictive Windrunner Quiver
-			i(253365),	-- Vengeful Windrunner Quiver
-			i(253366),	-- Royal Blue Windrunner Quiver
-			i(253367),	-- North Sea Blue Windrunner Quiver
-			i(253368),	-- Sunset Windrunner Quiver
-			i(253369),	-- Eversong Classic Windrunner Quiver
-			i(253370),	-- Bright Blue Windrunner Quiver
-			i(253371),	-- Shadowy Windrunner Quiver
-			i(253372),	-- Sunrise Windrunner Quiver
-			i(253373),	-- Royal Windrunner Quiver
-			i(253374),	-- Valorous Red Windrunner Quiver
-			i(253375),	-- Valorous Purple Windrunner Quiver
-			i(253376),	-- Valorous Green Windrunner Quiver
-			i(253377),	-- Valorous Blue Windrunner Quiver
-			i(253379),	-- Ensemble: Windrunner Quivers
-			i(253380),	-- Felforged Bulwark
-			i(253381),	-- Felforged Spitblade
-			i(253382),	-- Arsenal: Arms of the Felforged Knight
-			i(253383),	-- Suramar Arcanist's Mantle
-			i(253384),	-- Duskwatch Manablade's Mantle
-			i(253385),	-- Ensemble: Mantles of the Nightwell
 			i(253520),	-- Enclave Aspirant's Hatchet
-			i(253548),	-- Legionforged Mo'arg Sword
-			i(253549),	-- Ebonsteel Mo'arg Sword
-			i(253550),	-- Brightsteel Mo'arg Sword
-			i(253551),	-- Arsenal: Mo'arg Swords
-			i(253552),	-- Bloodculling Bone Scythe
-			i(253553),	-- Bloodculling Bone Scythe
-			i(253554),	-- Plagueculling Bone Scythe
-			i(253555),	-- Plagueculling Bone Scythe
-			i(253556),	-- Arsenal: Bone Scythes
-			i(253557),	-- Immortal Soul Mace
-			i(253558),	-- Immortal Legion Mace
-			i(253559),	-- Immortal Iron Mace
-			i(253560),	-- Immortal Bronze Mace
-			i(253561),	-- Arsenal: Immortal Maces
-			i(253562),	-- Ebonsteel Mo'arg Hornmace
-			i(253563),	-- Bronze Mo'arg Hornmace
-			i(253564),	-- Fel Iron Mo'arg Hornmace
-			i(253565),	-- Arsenal: Mo'arg Hornmaces
-			i(253566),	-- Lightforged Starmace
-			i(253567),	-- Lightforged Gemsword
-			i(253568),	-- Lightforged Gem Mace
-			i(253569),	-- Arsenal: Gems of the Lightforged Draenei
 			i(253573),	-- Cerulean Phase-Hunter
 			i(253574),	-- Everlasting Rock
 			i(253588),	-- Ensemble: World-Defiler's Battle Armor
 			i(253594),	-- Ensemble: Zealous Felslingers Battle Armor
-			i(253756),	-- Insignia of the Broken Isles
 			i(253867),	-- Cache of Infinite Treasure
 		})),
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {

@@ -20,6 +20,7 @@ root(ROOTS.Zones, {
 				visit_exploration(10812,{coord={65.0,54.3,SURAMAR}}),	-- Felborne Outpost
 				exploration(7768),	-- Felsoul Hold
 				exploration(7844),	-- Felsoul Hold
+				visit_exploration(8230,{coord={25.1,32.3,SURAMAR}}),	-- Irongrove Retreat
 				exploration(7940),	-- Jandvik
 				exploration(7991),	-- Koralune Manor
 				exploration(8221),	-- Lower Gardens
