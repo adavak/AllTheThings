@@ -507,6 +507,13 @@ api.DeactivateFiller = function(name, scope)
 	end
 end
 
+-- Allows retrieval of a named, existing Filler for situations where a single Filler might be needed specifically
+api.GetFiller = function(name)
+	if not name then error("Fill.ActivateFiller - Requires a 'name'") end
+
+	return FillFunctions[name]
+end
+
 local function FillGroupDirect(group, FillData, doDGU)
 	local ignoreSkip = group.sym or group.headerID or group.classID
 	local groups, temp = {}, {}
@@ -639,14 +646,19 @@ local function HandleOnWindowFillComplete(window)
 	app.HandleEvent("OnWindowFillComplete", window)
 end
 -- Appends sub-groups into the item group based on what is required to have this item (cost, source sub-group, reagents, symlinks)
-local FillGroups = function(group)
+local FillGroups = function(group, options)
 	group.__FillGroups = true
 	-- Sometimes entire sub-groups should be preventing from even allowing filling (i.e. Dynamic groups)
 	local skipFull = app.GetRelativeRawWithField(group, "skipFull");
 	if skipFull then return end
+
 	-- Check if this group is inside a Window or not
 	local groupWindow = app.GetRelativeRawWithField(group, "window");
-	local fillScope = groupWindow and (groupWindow.Suffix == "CurrentInstance" and "LIST" or "POPOUT") or "TOOLTIP"
+	local fillers = options and options.Fillers
+	if not fillers then
+		local fillScope = groupWindow and (groupWindow.Suffix == "CurrentInstance" and "LIST" or "POPOUT") or "TOOLTIP"
+		fillers = ActiveFillFunctions[fillScope]
+	end
 	-- Setup the FillData for this fill operation
 	local FillData = {
 		Included = {},
@@ -657,7 +669,7 @@ local FillGroups = function(group)
 		-- TODO: Fillers can provide context requirements for themselves to be utilized for a given
 		-- fill operation.
 		-- i.e. provided the Root/Window/Instance/Combat -- the Filler may return that it should not be included
-		Fillers = ActiveFillFunctions[fillScope],
+		Fillers = fillers,
 		SkipLevel = app.GetSkipLevel(),
 		Root = group,
 		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0],
@@ -701,13 +713,13 @@ local FillGroups = function(group)
 		-- this logic performs fills across an entire logical layer of data via a breadth-first approach
 		-- which should ideally have less nesting in total
 		local FillLayer = {group}
-		local NextLayer = {}
+		local NextLayer
 		while #FillLayer > 0 do
+			NextLayer = {}
 			for i=1,#FillLayer do
 				app.ArrayAppend(NextLayer, FillGroupsLayered(FillLayer[i], FillData))
 			end
 			FillLayer = NextLayer
-			NextLayer = {}
 		end
 
 		AssignGroupFilledTag(group)
