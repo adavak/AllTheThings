@@ -1,6 +1,6 @@
 local _, app = ...;
 if not app.IsClassic then return; end	-- This is only available in Classic!
-local L, settings = app.L, app.Settings;
+local date, L, settings = date, app.L, app.Settings;
 
 -- Settings: General Page
 local child = settings:CreateOptionsPage(L.PHASES_PAGE, appName)
@@ -51,10 +51,11 @@ local UnobtainableOnRefresh = function(self)
 end;
 
 -- Update the default unobtainable states based on build version.
+local now = time();
 for u,phase in pairs(phases) do
 	if phase.minimumBuildVersion then
 		if app.GameBuildVersion >= phase.minimumBuildVersion then
-			if phase.buildVersion and app.GameBuildVersion >= phase.buildVersion then
+			if phase.buildVersion and app.GameBuildVersion >= phase.buildVersion and (not phase.release or phase.release <= now) then
 				UnobtainableSettingsBase.__index[u] = true;
 			else
 				UnobtainableSettingsBase.__index[u] = false;
@@ -82,6 +83,14 @@ function CreateExpansionPage(expansionID)
 	page.Label = label;
 	return page;
 end
+function GeneratePhaseTooltip(phase, u)
+	local description = phase.description;
+	if phase.lore then description = description .. "\n \n" .. phase.lore; end
+	if phase.release and now < phase.release then
+		description = description .. "\n\n|cFFFF8888Available:\n" .. app.Modules.Events.GetEventTimeString(date("*t", phase.release)) .. "|r";
+	end
+	return description .. "\n\nID: " .. u;
+end
 
 -- Classic Era Phases --
 local page = CreateExpansionPage(1);
@@ -92,9 +101,7 @@ for i,o in ipairs({ { 11, 0, 0 }, {1101, spacing, -vspacing }, { 12, 0, -vspacin
 	local phase = phases[u];
 	if phase then
 		local filter = page:CreateCheckBox(phase.name or tostring(u), UnobtainableOnRefresh, UnobtainableFilterOnClick);
-		local description = phase.description;
-		if phase.lore then description = description .. "\n \n" .. phase.lore; end
-		filter:SetATTTooltip(description .. "\n\nID: " .. u)
+		filter:SetATTTooltip(GeneratePhaseTooltip(phase, u))
 		filter:SetPoint("LEFT", page.Label, "LEFT", o[2], 0);
 		filter:SetPoint("TOP", last, "BOTTOMLEFT", 0, yoffset);
 		filter:SetScale(o[2] > 0 and 0.8 or 1);
@@ -113,9 +120,7 @@ if app.GameBuildVersion > 20000 then
 		local phase = phases[u];
 		if phase then
 			local filter = page:CreateCheckBox(phase.name or tostring(u), UnobtainableOnRefresh, UnobtainableFilterOnClick);
-			local description = phase.description;
-			if phase.lore then description = description .. "\n \n" .. phase.lore; end
-			filter:SetATTTooltip(description .. "\n\nID: " .. u)
+			filter:SetATTTooltip(GeneratePhaseTooltip(phase, u))
 			filter:SetPoint("LEFT", page.Label, "LEFT", o[2], 0);
 			filter:SetPoint("TOP", last, "BOTTOMLEFT", 0, yoffset);
 			filter:SetScale(o[2] > 0 and 0.8 or 1);
@@ -135,9 +140,7 @@ if app.GameBuildVersion > 30000 then
 		local phase = phases[u];
 		if phase then
 			local filter = page:CreateCheckBox(phase.name or tostring(u), UnobtainableOnRefresh, UnobtainableFilterOnClick);
-			local description = phase.description;
-			if phase.lore then description = description .. "\n \n" .. phase.lore; end
-			filter:SetATTTooltip(description .. "\n\nID: " .. u)
+			filter:SetATTTooltip(GeneratePhaseTooltip(phase, u))
 			filter:SetPoint("LEFT", page.Label, "LEFT", o[2], 0);
 			filter:SetPoint("TOP", last, "BOTTOMLEFT", 0, yoffset);
 			filter:SetScale(o[2] > 0 and 0.8 or 1);
@@ -157,9 +160,7 @@ if app.GameBuildVersion > 40000 then
 		local phase = phases[u];
 		if phase then
 			local filter = page:CreateCheckBox(phase.name or tostring(u), UnobtainableOnRefresh, UnobtainableFilterOnClick);
-			local description = phase.description;
-			if phase.lore then description = description .. "\n \n" .. phase.lore; end
-			filter:SetATTTooltip(description .. "\n\nID: " .. u)
+			filter:SetATTTooltip(GeneratePhaseTooltip(phase, u))
 			filter:SetPoint("LEFT", page.Label, "LEFT", o[2], 0);
 			filter:SetPoint("TOP", last, "BOTTOMLEFT", 0, yoffset);
 			filter:SetScale(o[2] > 0 and 0.8 or 1);
@@ -179,9 +180,7 @@ if app.GameBuildVersion > 50000 then
 		local phase = phases[u];
 		if phase then
 			local filter = page:CreateCheckBox(phase.name or tostring(u), UnobtainableOnRefresh, UnobtainableFilterOnClick);
-			local description = phase.description;
-			if phase.lore then description = description .. "\n \n" .. phase.lore; end
-			filter:SetATTTooltip(description .. "\n\nID: " .. u)
+			filter:SetATTTooltip(GeneratePhaseTooltip(phase, u))
 			filter:SetPoint("LEFT", page.Label, "LEFT", o[2], 0);
 			filter:SetPoint("TOP", last, "BOTTOMLEFT", 0, yoffset);
 			filter:SetScale(o[2] > 0 and 0.8 or 1);
