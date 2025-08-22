@@ -59,6 +59,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 48.4, 16.9, KARESH },
 				["questID"] = 90689,
+				["groups"] = {
+					i(239471),	-- Reshii Skirmisher's Armguards
+				},
 			}),
 			n(231229, {	-- Korgoth the Hungerer
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",

@@ -57,7 +57,7 @@ local mapped = function(t)
 	return t
 end
 
-root(ROOTS.Delves, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
 		ach(40460, {	-- Delve Deep
 			["maps"] = ALL_THE_DELVES_TWW,
@@ -85,4 +85,4 @@ root(ROOTS.Delves, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			["groups"] = { title(599) },	-- Infinite Delver %s
 		}),
 	}),
-}));
+})));

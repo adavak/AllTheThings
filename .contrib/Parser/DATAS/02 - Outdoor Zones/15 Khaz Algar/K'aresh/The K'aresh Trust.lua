@@ -44,7 +44,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(91143),	-- Carved Crests
 				}, {	-- RENOWN 15 --
 				}, {	-- RENOWN 16 --
+					q(92330),	-- Valorstones
 				}, {	-- RENOWN 17 --
+					q(90665),	-- Carved Crests
 				}, {	-- RENOWN 18 --
 				}, {	-- RENOWN 19 --
 				}, {	-- RENOWN 20 --

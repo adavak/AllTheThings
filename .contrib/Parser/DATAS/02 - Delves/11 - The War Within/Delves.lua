@@ -1074,6 +1074,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(246945, { ["timeline"] = { ADDED_11_2_0 } }),	-- Incorporeal Essence-Gorger
 				i(246940, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforged Aethercell
 				i(246944, { ["timeline"] = { ADDED_11_2_0 } }),	-- Mind-Fracturing Odium
+				i(246947, { ["timeline"] = { ADDED_11_2_0 } }),	-- Twisted Mana Sprite
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
 				i(246824, { ["timeline"] = { ADDED_11_2_0 } }),	-- Shadowguard's Twisted Harvester

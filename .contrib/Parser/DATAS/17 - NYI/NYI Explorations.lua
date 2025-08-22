@@ -1249,7 +1249,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5579),	-- Throne of The Tides Entrance
 	exploration(5580),	-- Grim Batol Entrance
 	exploration(5581),	-- The Stonecore Entrance
-	exploration(5584),	-- Altar of Twilight
 	exploration(5585),	-- Gate of Hamatep
 	exploration(5588),	-- Twilight Aerie
 	exploration(5592),	-- The Hidden Clutch
@@ -1674,7 +1673,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6480),	-- South Seas
 	exploration(6481),	-- South Seas
 	exploration(6483),	-- The Emperor's Step
-	exploration(6484),	-- The Golden Lantern
 	exploration(6485),	-- Chamber of Enlightenment
 	exploration(6486),	-- The Celestial Vault
 	exploration(6487),	-- Ethereal Corridor
@@ -4288,7 +4286,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(11111),	-- Big Blossom Excavation
 	exploration(11356),	-- Continent
 	exploration(11375),	-- The Eternal Palace
-	exploration(11381),	-- Hero's Rest
 	exploration(11382),	-- 8.2.5 War Campaign
 	exploration(11384),	-- Mogu'shan Palace
 	exploration(11385),	-- Gorm's Den
@@ -4364,10 +4361,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(11477),	-- EnvArtMaldraxxus- Battlefield
 	exploration(11478),	-- The Prime Reliquary
 	exploration(11479),	-- Crapopolis
-	exploration(11490),	-- Forge of The Zephyr
-	exploration(11503),	-- Kalliope's Rest
-	exploration(11505),	-- Sagehaven
-	exploration(11507),	-- Steward's Rest
 	exploration(11508),	-- SinewTestArea
 	exploration(11510),	-- Ardenweald
 	exploration(11513),	-- Spirit Glen
@@ -4453,13 +4446,11 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(12800),	-- Primrose Residence
 	exploration(12801),	-- Redelav Hall
 	exploration(12802),	-- Briarbane Stables
-	exploration(12803),	-- The Golden Pasture
 	exploration(12804),	-- Iremoore Estate
 	exploration(12806),	-- Sinfang Parlor
 	exploration(12807),	-- Thornhill Manor
 	exploration(12808),	-- Redelav Tower
 	exploration(12811),	-- The Silent Sanctuary
-	exploration(12815),	-- First Chamber of Kalliope
 	exploration(12816),	-- Second Chamber of Kalliope
 	exploration(12817),	-- Third Chamber of Kalliope
 	exploration(12818),	-- Autumnal Rise
@@ -4477,7 +4468,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(12833),	-- Hall of Beasts
 	exploration(12834),	-- Silverwing Flag Room
 	exploration(12835),	-- Warsong Flag Room
-	exploration(12836),	-- Greatwing Roost
 	exploration(12837),	-- Spires of Ascension
 	exploration(12838),	-- Hall of The Stormpike
 	exploration(12839),	-- Hall of The Frostwolf
@@ -4539,7 +4529,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(12959),	-- Throne of Ancient Conquerors
 	exploration(12960),	-- Bladelord's Retreat
 	exploration(12961),	-- Shrine of Nala'shi
-	exploration(12975),	-- The Walk of Recollection
 	exploration(12989),	-- Tirnenn's Rest
 	exploration(13176),	-- The Vortex Pinnacle
 	exploration(13177),	-- Throne of The Four Winds
@@ -4598,7 +4587,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13325),	-- Theater of Pain
 	exploration(13326),	-- Akarek's Tears
 	exploration(13329),	-- The Ember Court
-	exploration(13331),	-- Shimmering Pools
 	exploration(13332),	-- The Maw
 	exploration(13333),	-- Spider's Watch
 	exploration(13334),	-- Mists of Tirna Scithe
@@ -4633,10 +4621,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13387),	-- Ardenweald
 	exploration(13388),	-- Heart of The Forest
 	exploration(13389),	-- Stillglade
-	exploration(13390),	-- Vault of Memory
 	exploration(13391),	-- Vault of The Archon
-	exploration(13392),	-- Shattered Span
-	exploration(13393),	-- The Necrotic Wake
 	exploration(13398),	-- Forgotten Chamber
 	exploration(13399),	-- Xandria's Vigil
 	exploration(13400),	-- Skoldus Hall
@@ -4650,7 +4635,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13412),	-- Mort'regar
 	exploration(13413),	-- The Upper Reaches
 	exploration(13414),	-- The Sinposium
-	exploration(13415),	-- Aspirant's Awakening
 	exploration(13416),	-- Dev Lowlands (DO Not USE)
 	exploration(13417),	-- Sightless Hold
 	exploration(13418),	-- The Master's Keep
@@ -4676,15 +4660,12 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13441),	-- Stygian Abyss
 	exploration(13442),	-- Cinderwall Spire
 	exploration(13443),	-- Flesh Stitchery
-	exploration(13456),	-- Haetio's Solace
 	exploration(13457),	-- The Jagged Coast
 	exploration(13459),	-- Alluvium Hollow
 	exploration(13460),	-- The Forgotten Forge
-	exploration(13461),	-- Fate's Precipice
 	exploration(13462),	-- Ascension Coliseum
 	exploration(13463),	-- Molten Forge
 	exploration(13469),	-- Map 2437 [DEV AREA]
-	exploration(13470),	-- Terrace of Inner Grace
 	exploration(13471),	-- The Grim Harvest
 	exploration(13472),	-- The Final Toll
 	exploration(13473),	-- Fall of Courage
@@ -4710,7 +4691,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13497),	-- The Fracture Chambers
 	exploration(13498),	-- Ring of Transference
 	exploration(13499),	-- Ring of Fates
-	exploration(13500),	-- Vigil of The Endless
 	exploration(13501),	-- Shrine of The Silver Wind
 	exploration(13503),	-- Zolramus
 	exploration(13505),	-- Exoramas
@@ -4728,7 +4708,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13518),	-- The Sorcerous Steps
 	exploration(13519),	-- Interactive World - Sparkles
 	exploration(13520),	-- Interactive World - Containers
-	exploration(13521),	-- Path of Wisdom
 	exploration(13522),	-- The Runecarver's Oubliette
 	exploration(13523),	-- Sinfall
 	exploration(13524),	-- Hall of Blades
@@ -4762,7 +4741,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13556),	-- Revendreth
 	exploration(13560),	-- Detrithos
 	exploration(13561),	-- Sanctum of Domination
-	exploration(13567),	-- Terrace of The Collectors
 	exploration(13569),	-- Wrath of The Jailer
 	exploration(13570),	-- Korthia
 	exploration(13574),	-- PTH Test Area
@@ -4808,7 +4786,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13671),	-- Chamber of The Sigil
 	exploration(13672),	-- Tazavesh, the Veiled Market
 	exploration(13674),	-- Zerekriss
-	exploration(13680),	-- Ta Repository
 	exploration(13681),	-- Extractor's Sanatorium
 	exploration(13682),	-- Desolate Hollow
 	exploration(13683),	-- Cradle of Nascence
@@ -4975,7 +4952,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14096),	-- Little Scales Daycare
 	exploration(14098),	-- Azmerloth - Timeless Area
 	exploration(14099),	-- Quaking Cavern
-	exploration(14100),	-- Clearwater Basin
 	exploration(14104),	-- Toghusuq Village
 	exploration(14106),	-- Erupting Cavern
 	exploration(14142),	-- Wild Feeding Pits

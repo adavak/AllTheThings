@@ -119,6 +119,7 @@ root(ROOTS.Zones, {
 					visit_exploration(6539,{coord={27.1,72.6,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Sunblossom Hill
 					visit_exploration(6504,{coord={49.5,42.3,VALE_OF_ETERNAL_BLOSSOMS}}),	-- The Emperor's Approach
 					exploration(6055),	-- The Five Sisters
+					visit_exploration(6484,{coord={86.6,66.1,VALE_OF_ETERNAL_BLOSSOMS}}),	-- The Golden Lantern
 					exploration(6036),	-- The Golden Pagoda
 					visit_exploration(6033,{coord={43.0,16.6,VALE_OF_ETERNAL_BLOSSOMS}}),	-- The Golden Stair
 					exploration(6560),	-- The Golden Terrace

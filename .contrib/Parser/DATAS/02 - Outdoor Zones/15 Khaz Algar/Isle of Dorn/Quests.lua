@@ -809,7 +809,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["coord"] = { 61.7, 41.6, ISLE_OF_DORN },
 					["groups"] = {
 						o(414199, {	-- Pile of Earthen Belongings
-							i(211428),	-- Earthen Belongings (QI!)
+							["coords"] = {
+								{ 62.7, 44.3, ISLE_OF_DORN },
+								{ 63.2, 43.3, ISLE_OF_DORN },
+								{ 63.8, 42.3, ISLE_OF_DORN },
+							},
+							["groups"] = { i(211428) },	-- Earthen Belongings (QI!)
 						}),
 					},
 				}),
@@ -852,7 +857,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["groups"] = {
 						i(213002),	-- Charged Core (QI!)
 						o(420730, {	-- Vein of Ore
-							i(213001),	-- Clump of Ore (QI!)
+							["coords"] = {
+								{ 58.3, 42.3, ISLE_OF_DORN },
+								{ 59.4, 40.2, ISLE_OF_DORN },
+								{ 59.4, 43.9, ISLE_OF_DORN },
+								{ 59.5, 41.5, ISLE_OF_DORN },
+								{ 59.7, 39.1, ISLE_OF_DORN },
+								{ 60.4, 42.5, ISLE_OF_DORN },
+								{ 60.5, 43.6, ISLE_OF_DORN },
+								{ 60.6, 45.0, ISLE_OF_DORN },
+								{ 60.7, 40.4, ISLE_OF_DORN },
+								{ 60.7, 41.6, ISLE_OF_DORN },
+							},
+							["groups"] = { i(213001) },	-- Clump of Ore (QI!)
 						}),
 					},
 				}),
