@@ -2839,7 +2839,9 @@ root(ROOTS.Zones, {
 							{ "i", 90171, 1 },	-- Odd'nirok's Clamshell [Townlong Steppes]
 						},
 						["groups"] = {
-							i(90087),	-- Lobstmourne
+							i(90087, {	-- Lobstmourne
+								["description"] = "Everyone in the group that tags Clawlord will receive their own copy of this item. Bring friends to spread the fun.",
+							}),
 						},
 					}),
 					n(50768, {	-- Cournith Waterstrider
