@@ -2,6 +2,9 @@
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	d(DIFFICULTY.DUNGEON.MYTHIC, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
+		ig(182173),	-- Hyena Soul
+	})),
 	n(MYTHIC_PLUS, {
 		ig(182173, {	-- Hyena Soul
 			["timeline"] = { ADDED_9_0_2, REMOVED_10_0_2_LAUNCH },
@@ -143,7 +146,4 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 		})),
 	}),
-	d(DIFFICULTY.DUNGEON.MYTHIC, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-		ig(182173),	-- Hyena Soul
-	})),
 })));
