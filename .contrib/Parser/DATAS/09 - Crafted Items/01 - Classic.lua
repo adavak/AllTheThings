@@ -4894,6 +4894,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(43654),	-- Tome of the Dawn
 		}),
 		filter(GLYPHS, {
+			-- #if BEFORE LEGION
 			i(87891, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Afterlife
 			i(42897, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Aimed Shot / Glyph of Aspects [MOP+]
 			i(43316, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Aquatic Form
@@ -4916,7 +4917,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(44920, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Blast Wave / Glyph of Remove Curse [MOP+]
 			i(43365, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Blessing of Kings / Glyph of Contemplation [MOP+]
 			i(43340, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Blessing of Might / Glyph of the Mounted King [MOP+]
+			-- #endif
 			i(43366, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Blessing of Wisdom / Glyph of Insight [CATA] /Glyph of Winged Vengeance [MOP+]
+			-- #if BEFORE LEGION
 			i(42737, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Blink
 			i(43425, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Blocking / Glyph of Shield Slam [CATA+]
 			i(43396, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Bloodrage / Glyph of Berserker Rage [CATA] / Glyph of Bloodcurdling Shout [MOP+]
@@ -4925,7 +4928,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(85685, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Breath of Fire
 			i(80588, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Burning Anger
 			i(41517, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Chain Heal / Glyph of Unstable Earth [MOP+]
+			-- #endif
 			i(43334, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Challenging Roar / Glyph of the Ursol Chameleon [MOP+]
+			-- #if BEFORE LEGION
 			i(45781, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Chaos Bolt / Glyph of Ember Tap [5.2.0+]
 			i(43397, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Charge / Glyph of Long Charge [CATA+]
 			i(45625, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Chimera Shot / Glyph of Chimaera Shot [WoD]
@@ -4936,7 +4941,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(86541, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Confession
 			i(41099, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Consecration
 			i(42455, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Corruption / Glyph of Siphon Life [MOP+]
+			-- #endif
 			i(80587, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Crow Feast / Glyph of Hawk Feast [Legion+]
+			-- #if BEFORE LEGION
 			i(87880, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Crackling Jade Lightning / Glyph of Nimble Brew [5.4.0+]
 			i(41098, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Crusader Strike / Glyph of Avenging Wrath [MOP+]
 			i(43392, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Curse of Exhaustion
@@ -4951,7 +4958,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(43376, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Distract
 			i(41108, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Divinity
 			i(43390, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Drain Soul / Glyph of Soul Consumption [MOP+]
+			-- #endif
+			-- #if BEFORE BFA
 			i(45775, {["timeline"]={ ADDED_3_1_0, REMOVED_8_1_0 }}),	-- Glyph of Earth Shield / Glyph of Deluge [MOP+]
+			-- #endif
+			-- #if BEFORE LEGION
 			i(85689, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Enduring Healing Sphere
 			i(40924, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Entangling Roots
 			i(42960, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Evasion
@@ -4997,7 +5008,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(43418, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Heroic Strike / Glyph of Heroic Throw [CATA] / Glyph of Gag Order [MOP+]
 			i(41106, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Holy Light / Glyph of Divine Favor [CATA] / Glyph of Illumination [MOP]
 			i(87276, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Holy Resurrection
+			-- #endif
 			i(87883, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Honor
+			-- #if BEFORE LEGION
 			i(42907, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Hunter's Mark / Glyph of Misdirection [CATA+]
 			i(42743, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Ice Armor / Glyph of Pyroblast [CATA] / Glyph of Momentum [MOP+]
 			i(42744, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Ice Block
@@ -5008,7 +5021,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42909, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Improved Aspect of the Hawk / Glyph of the Hawk [3.1.0] / Glyph of the Dazzled Prey [CATA] / Glyph of Animal Bond [MOP+]
 			i(83096, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Incite
 			i(42402, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Inner Fire
+			-- #endif
 			i(40919, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Insect Swarm / Glyph of the Orca [MOP+] / Mark of the Orca [SL+]
+			-- #if BEFORE LEGION
 			i(87884, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Jab
 			i(41092, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Judgement / Glyph of Double Jeopardy [MOP+]
 			i(43391, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Kilrogg
@@ -5026,14 +5041,20 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(87279, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Marking
 			i(83107, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Mass Exorcism
 			i(40897, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Maul
+			-- #endif
 			i(43350, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Mend Pet / Glyph of Lesser Proportion [4.1.0+]
+			-- #if BEFORE LEGION
 			i(42415, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Mind Flay / Glyph of Dispel Magic [MOP+]
 			i(79513, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Mind Flay
+			-- #endif
 			i(43398, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Mocking Blow / Glyph of Demoralizing Shout [CATA] / Glyph of Gushing Wound [MOP+]
+			-- #if BEFORE LEGION
 			i(45622, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Monsoon / Glyph of Cyclone [MOP+]
 			i(40923, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Moonfire / Glyph of Savagery [MOP+]
 			i(42910, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Multi-Shot / Glyph of Silencing Shot [CATA] / Glyph of No Escape [MOP+]
+			-- #endif
 			i(45768, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Mutilate / Glyph of Disguise [MOP+]
+			-- #if BEFORE LEGION
 			i(43422, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Overpower / Glyph of Die by the Sword [5.2.0+]
 			i(45760, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Pain Suppression / Glyph of Desperation [CATA+] / Glyph of Binding Heal [5.2.0+]
 			i(87897, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Path of Blossoms / Glyph of Glyph of Paralysis [5.2.0+]
@@ -5052,10 +5073,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(85696, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Renewing Mists / Glyph of Renewing Mist [WOD]
 			i(43424, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Revenge / Glyph of Hold the Line [MOP+]
 			i(43338, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Revive Pet
+			-- #endif
 			i(41100, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Righteous Defense / Glyph of Righteousness [CATA] / Glyph of the Luminous Charger [MOP+]
+			-- #if BEFORE LEGION
 			i(80585, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Righteous Retreat
 			i(40902, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Rip / Glyph of Prowl [MOP+]
+			-- #endif
 			i(87885, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Rising Tiger Kick
+			-- #if BEFORE LEGION
 			i(43378, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Safe Fall
 			i(42970, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Sap / Glyph of Hemorrhaging Veins [5.4.0+]
 			i(40906, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Scare Beast / Glyph of Stampede [MOP+]
@@ -5063,9 +5088,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42466, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Searing Pain / Glyph of Soul Swap [CATA] / Glyph of Havoc [MOP+]
 			i(43368, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Sense Undead / Glyph of Truth [CATA] / Glyph of Seal of Blood [MOP+]
 			i(42912, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Serpent Sting / Glyph of Tame Beast [MOP+]
+			-- #endif
 			i(43373, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Shackle Undead
+			-- #if BEFORE MOP
 			i(42468, {["timeline"]={ ADDED_3_0_2, REMOVED_5_0_4 }}),	-- Glyph of Shadowburn
+			-- #enfi
 			i(87392, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Shadowy Friends
+			-- #if BEFORE LEGION
 			i(42972, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Sinister Strike / Glyph of Adrenaline Rush [MOP] / Glyph of Redirect [5.4.0+]
 			i(42973, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Slice and Dice / Glyph of Shiv [MOP+]
 			i(43364, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Slow Fall / Glyph of Arcane Language [MOP+]
@@ -5084,15 +5113,23 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(85699, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Surging Mist
 			i(81956, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of the Battle Healer
 			i(43362, {["timeline"]={ CREATED_3_0_2, ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of the Bear Cub
+			-- #endif
 			i(85221, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Blazing Trail
 			i(89868, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Cheetah
+			-- #if BEFORE LEGION
 			i(80584, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of the Falling Avenger
+			-- #endif
 			i(79538, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Heavens
+			-- #if BEFORE LEGION
 			i(43355, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of the Pack / Glyph of Aspect of the Pack [CATA+]
 			i(43361, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of the Penguin
+			-- #endif
 			i(87277, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Val'kyr
+			-- #if BEFORE LEGION
 			i(43335, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of the Wild / Glyph of Charm Woodland Creature [MOP+]
+			-- #endif
 			i(43369, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of the Wise / Glyph of Justice [CATA] / Glyph of Fire From the Heavens [MOP+]
+			-- #if BEFORE LEGION
 			i(43332, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Thorns / Glyph of Grace [MOP+]
 			i(43399, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Thunder Clap / Glyph of Unending Rage [MOP+]
 			i(87900, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Touch of Karma
@@ -5107,11 +5144,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(43344, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Water Breathing / Glyph of Healing Storm [MOP+]
 			i(41541, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Water Mastery / Glyph of Water Shield [CATA+]
 			i(87889, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Water Roll
+			-- #endif
 			i(43386, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Water Shield / Glyph of the Arctic Wolf [CATA] / Glyph of the Spectral Wolf [MOP+]
+			-- #if BEFORE LEGION
 			i(43388, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Water Walking / Glyph of Totemic Encirclement [MOP+]
 			i(40922, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Wrath / Glyph of Nature's Grasp [MOP+]
 			i(87890, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Zen Flight
 			i(85695, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Zen Meditation
+			-- #endif
 		}),
 		-- #if AFTER 10.0.7
 		filter(STAVES, {
