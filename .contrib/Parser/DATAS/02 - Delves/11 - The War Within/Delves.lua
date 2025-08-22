@@ -46,13 +46,13 @@ DELVES_TWW_S3 = createHeader({
 	},
 });
 local UNDERCOIN = 2803;
-local NERUBIAN_DELVES = { EARTHCRAWL_MINES, SKITTERING_BREACH, THE_DREAD_PIT, THE_SPIRAL_WEAVE, THE_UNDERKEEP };
-local FUNGARIAN_DELVES = { FUNGAL_FOLLY, MYCOMANCER_CAVERN };
-local KOBOLD_DELVES = { KRIEGVALS_REST, THE_WATERWORKS };
-local SHADOW_DELVES = { NIGHTFALL_SANCTUM };
-local KOBYSS_DELVES = { TAK_RETHAN_ABYSS, THE_SINKHOLE };
-local OVERCHARGED_DELVES = { FUNGAL_FOLLY, KRIEGVALS_REST, NIGHTFALL_SANCTUM, SIDESTREET_SLUICE, SKITTERING_BREACH, THE_SPIRAL_WEAVE };
-local ALL_REGULAR_DELVES = {
+local NERUBIAN_DELVES_TWW = { EARTHCRAWL_MINES, SKITTERING_BREACH, THE_DREAD_PIT, THE_SPIRAL_WEAVE, THE_UNDERKEEP };
+local FUNGARIAN_DELVES_TWW = { FUNGAL_FOLLY, MYCOMANCER_CAVERN };
+local KOBOLD_DELVES_TWW = { KRIEGVALS_REST, THE_WATERWORKS };
+local SHADOW_DELVES_TWW = { NIGHTFALL_SANCTUM };
+local KOBYSS_DELVES_TWW = { TAK_RETHAN_ABYSS, THE_SINKHOLE };
+local OVERCHARGED_DELVES_TWW = { FUNGAL_FOLLY, KRIEGVALS_REST, NIGHTFALL_SANCTUM, SIDESTREET_SLUICE, SKITTERING_BREACH, THE_SPIRAL_WEAVE };
+local ALL_REGULAR_DELVES_TWW = {
 	EARTHCRAWL_MINES,
 	FUNGAL_FOLLY,
 	KRIEGVALS_REST,
@@ -73,7 +73,7 @@ local ALL_REGULAR_DELVES = {
 	ARCHIVAL_ASSAULT,
 	-- #endif
 };
-local ALL_THE_DELVES = {
+local ALL_THE_DELVES_TWW = {
 	EARTHCRAWL_MINES,
 	FUNGAL_FOLLY,
 	KRIEGVALS_REST,
@@ -99,7 +99,7 @@ local ALL_THE_DELVES = {
 };
 local mapped = function(t)
 	if not t.maps then
-		t.maps = ALL_REGULAR_DELVES
+		t.maps = ALL_REGULAR_DELVES_TWW
 	end
 	return t
 end
@@ -107,7 +107,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 	n(DELVES_TWW_S1, {	-- Includes Zekvir's Lair
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
 			ach(40446, {	-- I TAKE Candle!
-				["maps"] = KOBOLD_DELVES,
+				["maps"] = KOBOLD_DELVES_TWW,
 			}),
 			mapped(ach(40515)),	-- War Within Delves: Tier 4 (Season 1)
 			mapped(ach(40516)),	-- War Within Delves: Tier 5 (Season 1)
@@ -268,11 +268,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 	})),
 	n(ACHIEVEMENTS, {
 		ach(40817, {	-- A Delver's Bounty
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(41115, {	-- Algari Delver
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				41106,	-- Algari Delver Damage Dealer
@@ -282,7 +282,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(41116, {	-- Algari Delver II
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				41109,	-- Algari Delver Damage Dealer II
@@ -714,47 +714,47 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		ach(40538, {	-- Brann Development
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40635, {	-- Branntastic
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(42676, {	-- Buddy System X
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(61342, {	-- Buddy System IX
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(41723, {	-- Buddy System VIII
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(41537, {	-- Buddy System VII
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40461, {	-- Buddy System VI
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40457, {	-- Buddy System V
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40456, {	-- Buddy System IV
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40451, {	-- Buddy System III
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40450, {	-- Buddy System II
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40455, {	-- Buddy System
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40882, {	-- Copious Coffers
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["groups"] = {
 				title(575),	-- <Name> the Bountiful
 				i(237358, {	-- Silver Coffer Key
@@ -764,35 +764,35 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(41097, {	-- Curiosity Never Killed the Looter
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40437, {	-- Delver of the Depths (automated)
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40447, {	-- Delver of the Depths II (automated)
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40448, {	-- Delver of the Depths III (automated)
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40449, {	-- Delver of the Depths IV (automated)
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40454, {	-- Daystormer
-			["maps"] = SHADOW_DELVES,
+			["maps"] = SHADOW_DELVES_TWW,
 		}),
 		ach(40460, {	-- Delve Deep
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40462, {	-- Delve Deeper
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40463, {	-- Delve Deepest
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(41095, {	-- Delve Beyond (500)
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 			["groups"] = {
 				-- #if AFTER 11.2.0
 				--title(650),	-- Delver %s // doesn't load ingame
@@ -803,7 +803,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(41096, {	-- Delve Infinite (1000)
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 			["groups"] = { title(599) },	-- Infinite Delver %s
 		}),
 		ach(40537, {	-- Delve Loremaster: War Within
@@ -822,7 +822,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				40535,	-- Tak-Rethan Abyss Stories
 				40534,	-- The Underkeep Stories
 			}},
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(41714, {	-- From Trash to Treasure (automated)
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
@@ -852,33 +852,33 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				-- #endif
 				40538,	-- Brann Development
 			}},
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 			["groups"] = {
 				i(224415),	-- Ivory Goliathus (MOUNT!)
 			},
 		}),
 		ach(40524, {	-- Good Deed Delver
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40732, {	-- Heavy-Handed
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40098, {	-- Immortal Spelunker
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["groups"] = {
 				title(549),	-- Immortal Spelunker <Name>
 			},
 		}),
 		ach(40763, {	-- I'm not a Thief, I'm a Treasure Hunter
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40459),		-- I've Got a Flying Machine!
 		ach(40789),		-- I've Got More Flying Machine?! (automated)
 		ach(40788, {	-- I Got the Keys
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40452, {	-- Just Keep Swimming
-			["maps"] = KOBYSS_DELVES,
+			["maps"] = KOBYSS_DELVES_TWW,
 		}),
 		ach(40506, {	-- Leave No Treasure Unfound
 			-- Meta Achievement
@@ -896,13 +896,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				40811,	-- Tak-Rethan Abyss Discoveries
 				40815,	-- The Underkeep Discoveries
 			}},
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["groups"] = {
 				title(570),	-- <Name>, Seeker of Loot
 			},
 		}),
 		ach(40523, {	-- On Brand
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(42241, {	-- Overcharged Delver
 			["timeline"] = { ADDED_11_1_7 },
@@ -929,41 +929,41 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		ach(40863, {	-- Perplexing Puzzle
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40864, {	-- Plentiful Perplexing Puzzles
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["crs"] = {
 				225401,	-- Wrapped Spool
 			},
 		}),
 		ach(41105, {	-- Prodigious Plentiful Perplexing Puzzles
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["crs"] = {
 				225401,	-- Wrapped Spool
 			},
 		}),
 		ach(40820, {	-- Raisin' Brann
-			["maps"] = ALL_THE_DELVES,
+			["maps"] = ALL_THE_DELVES_TWW,
 		}),
 		ach(40819, {	-- Ready to Turn
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(42678, {	-- So That's Where My Manaflux Capacitor Was!
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		}),
 		ach(40453, {	-- Spider Senses
-			["maps"] = NERUBIAN_DELVES,
+			["maps"] = NERUBIAN_DELVES_TWW,
 		}),
 		ach(40445, {	-- Sporesweeper
-			["maps"] = FUNGARIAN_DELVES,
+			["maps"] = FUNGARIAN_DELVES_TWW,
 		}),
 		ach(40458, {	-- Stranger Delves
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40885, {	-- The Key to Madness
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["groups"] = {
 				i(237355, {	-- Golden Coffer Key
 					["timeline"] = { ADDED_11_1_0 },
@@ -974,28 +974,28 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		}),
 		ach(42212, {	-- Titan Console Overcharged
-			["maps"] = OVERCHARGED_DELVES,
+			["maps"] = OVERCHARGED_DELVES_TWW,
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
 			["groups"] = { i(246237) },	-- OC91 Chariot (MOUNT!)
 		}),
 		ach(40100, {	-- Undying Caver
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40725, {	-- War Within Delves: Endgame (automated)
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40631, {	-- War Within Delves: Tier 1
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40512, {	-- War Within Delves: Tier 2
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(40514, {	-- War Within Delves: Tier 3
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		ach(60933, {	-- With Flying Colors (H)
 			["timeline"] = { ADDED_11_2_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
@@ -1006,7 +1006,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(60934, {	-- With Flying Colors (A)
 			["timeline"] = { ADDED_11_2_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
@@ -1016,7 +1016,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		ach(40436, {	-- You're Getting a Delve!
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 	}),
 	mapped(n(DELVE_COMPLETION, {
@@ -1860,7 +1860,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		q(84519, {	-- Ancient Curiosity: Combat
 			["provider"] = { "i", 228560 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
 			["timeline"] = { REMOVED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["groups"] = {
 				-- I don't think this is the curio everyone gets from this quest... is it RNG or only this one
 				-- that wowhead claims?
@@ -1874,7 +1874,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		q(84520, {	-- Ancient Curiosity: Utility
 			["provider"] = { "i", 228581 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
 			["timeline"] = { REMOVED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 			["groups"] = {
 				i(228582),	-- Streamlined Relic
 				-- i(225901, {	-- Streamlined Relic [Rank 1] (only tracking Rank 4 curios)
@@ -1934,12 +1934,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		q(86461, {	-- Ancient Curiosity: Combat
 			["provider"] = { "i", 234330 },	-- Ancient Curio
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
-			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
+			["maps"] = ALL_REGULAR_DELVES_TWW,	-- s2 delves or all delves?
 		}),
 		q(86462, {	-- Ancient Curiosity: Utility
 			["provider"] = { "i", 234329 },	-- Ancient Curio
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
-			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
+			["maps"] = ALL_REGULAR_DELVES_TWW,	-- s2 delves or all delves?
 		}),
 		q(88947, {	-- Undermined Delves
 			--["sourceQuests"] = { xx },	-- ??
@@ -2012,7 +2012,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["sourceQuests"] = { 90969 },	-- Titan Consoles
 			["provider"] = { "n", 235490 },	-- Overcharged Titan Console
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
-			["maps"] = OVERCHARGED_DELVES,
+			["maps"] = OVERCHARGED_DELVES_TWW,
 			["groups"] = {
 				i(244466),	-- Dagran's Pouch of Fragments
 			},
@@ -2021,7 +2021,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["sourceQuests"] = { 90970 },	-- Titan Disc-Count
 			["provider"] = { "n", 235490 },	-- Overcharged Titan Console
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
-			["maps"] = OVERCHARGED_DELVES,
+			["maps"] = OVERCHARGED_DELVES_TWW,
 		}),
 		q(91009, {	-- Durable Information Storage Container
 			["sourceQuests"] = { 90971 },	-- Overcharged Console (TODO: with 11.2 ptr this quest exist but I will test out chain next time)
@@ -2116,12 +2116,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		q(90776, {	-- Ancient Curiosity: Combat
 			["provider"] = { "i", 242849 },	-- Ancient Curio
 			["timeline"] = { ADDED_11_2_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		q(90778, {	-- Ancient Curiosity: Utility
 			["provider"] = { "i", 242850 },	-- Ancient Curio
 			["timeline"] = { ADDED_11_2_0 },
-			["maps"] = ALL_REGULAR_DELVES,
+			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
 		q(91780, {	-- Ethereal Delves
 			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
