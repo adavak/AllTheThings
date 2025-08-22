@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
 	n(QUESTS, {
 		q(81930, {	-- The War Within [A]
 			["races"] = ALLIANCE_ONLY,
@@ -40,12 +40,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 			["provider"] = { "n", 214651 },	-- Moira Thaurissan
 			["coord"] = { 40.5, 57.7, AEGWYNNS_GALLERY },
 		}),
-		q(84446, {	-- Renown of Khaz Algar
-			["sourceQuests"] = { 79197 },	-- Surface Bound
-			["provider"] = { "n", 216149 },	-- Moira Thaurissan
-			["coord"] = { 36.1, 80.3, DORNOGAL },
-			["lockCriteria"] = { 1, "renownID", FACTION_COUNCIL_OF_DORNOGAL + 0.05 },	-- Council of Dornogal, Rank 5
-		}),
 		header(HEADERS.Achievement, 20597, {	-- The War Within
 			header(HEADERS.AchCriteria, 20597.01, {	-- Against the Current
 				------ Chapter 1 ------
@@ -56,6 +50,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["groups"] = {
 						hqt(79573, name(HEADERS.AchCriteria, 40725.02)),	-- War Within Delves: Endgame [Complete Campaign]
 					},
+				}),
+				q(84446, {	-- Renown of Khaz Algar
+					["sourceQuests"] = { 79197 },	-- Surface Bound
+					["provider"] = { "n", 216149 },	-- Moira Thaurissan
+					["coord"] = { 36.1, 80.3, DORNOGAL },
+					["lockCriteria"] = { 1, "renownID", FACTION_COUNCIL_OF_DORNOGAL + 0.05 },	-- Council of Dornogal, Rank 5
 				}),
 				q(79333, {	-- The Fleet Arrives
 					["sourceQuests"] = { 79197 },	-- Surface Bound
@@ -779,10 +779,5 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				--
 			}),
 		})),
-		-- TODO: probably need a better place?
-		q(91624, {	-- Spark of Starlight
-			["provider"] = { "i", 231757 },	-- Fractured Spark of Starlight
-			["timeline"] = { ADDED_11_2_0 },
-		}),
 	}),
 })));

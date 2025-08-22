@@ -10,8 +10,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 49.8, 54.3, DORNOGAL },
 			}),
 			q(82651, {	-- Omens Unified
-				--["sourceQuests"] = { 82296 },	-- The Power of Creation //not required?
-				["provider"] = { "n", 223533 },	-- Custodian Khubon
+				["providers"] = {
+					{ "n", 223533 },	-- Custodian Khubon
+					{ "i", 211297 },	-- Fractured Spark of Omens
+				},
 				["coord"] = { 49.8, 54.1, DORNOGAL },
 				["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 				["groups"] = {
@@ -19,7 +21,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(86369, {	-- A Sparkling Fortune
-				["provider"] = { "n", 223533 },	-- Custodian Khubon
+				["providers"] = {
+					{ "n", 223533 },	-- Custodian Khubon
+					{ "i", 230905 },	-- Fractured Spark of Fortunes
+				},
 				["coord"] = { 49.8, 54.1, DORNOGAL },
 				["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 				["groups"] = {
@@ -33,6 +38,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 				["groups"] = {
 					i(230905),	-- Fractured Spark of Fortunes
+				},
+			}),
+			q(91624, {	-- Spark of Starlight
+				["providers"] = {
+					{ "n", 223533 },	-- Custodian Khubon
+					{ "i", 231757 },	-- Fractured Spark of Starlight
+				},
+				["timeline"] = { ADDED_11_2_0 },
+				["groups"] = {
+					i(231757),	-- Fractured Spark of Starlight
 				},
 			}),
 			------ Crests ------

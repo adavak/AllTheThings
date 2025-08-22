@@ -254,7 +254,10 @@ class Items(Thing):
     @staticmethod
     def extract_table_info(row: dict[str, str], build: str | None = None) -> str:
         # Helps Toys and Transmog
-        return f"{row['ID']}{DELIMITER}{row['Display_lang'].strip()}"
+        if build == "11.2.5.62554":
+            return f"{row['ID']}{DELIMITER}{row['Field_11_2_5_62554_005_lang'].strip()}"
+        else:
+            return f"{row['ID']}{DELIMITER}{row['Display_lang'].strip()}"
 
     @staticmethod
     def id_schema() -> list[str]:

@@ -114,6 +114,10 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	filter(MISC, {
 		i(220376),	-- Bismuth Lockbox
 	}),
+	filter(QUEST_ITEMS, {
+		i(212493),	-- Odd Glob of Wax // objectID 419696 (Waxy Lump)
+		i(228228),	-- Strange Lump of Wax (QS!/QI!)// World drop or from objectID 419696 (Waxy Lump)
+	}),
 	filter(REAGENTS, {
 		i(223512),	-- Basically Beef
 		i(225567),	-- Bug Brisket

@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(KARESH, {
 		n(TREASURES, {
 			header(HEADERS.Achievement, 42741, {	-- Treasures of K'aresh
@@ -47,7 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				o(500046, {	-- Gift of the Brothers
 					["description"] = "Talk to 3 NPC's after clicking on the treasure.\n\nEnable Quest tracking for detailed infos.",
-					["coords"] = { 
+					["coords"] = {
 						{ 76.1, 45.3, KARESH },	-- Treasure
 						{ 75.5, 39.8, KARESH },	-- Sahra
 						{ 68.3, 45.3, KARESH },	-- Naji
@@ -198,4 +198,4 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 		}),
 	}),
-})));
+}));
