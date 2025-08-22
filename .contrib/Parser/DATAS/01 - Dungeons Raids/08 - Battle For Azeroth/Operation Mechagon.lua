@@ -439,7 +439,7 @@ else
 					}),
 					Boss(MACHINIST, {
 					}),
-					Boss(KING, clone(AzeriteLoot[KING])),
+					Boss(KING, appendAllGroups(clone(AzeriteLoot[KING]), clone(AzewrongLoot[KING]))),
 				},
 			}),
 		}),
@@ -450,11 +450,12 @@ else
 				Boss(KUJO, {
 					i(199921, {	-- Trashmaster's Mantle
 						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						ItemAppearanceModifierID = 3,
 					}),
 				}),
 				Boss(MACHINIST, {
 				}),
-				Boss(KING, clone(AzeriteLoot[KING])),
+				Boss(KING, appendAllGroups(clone(AzeriteLoot[KING]), clone(AzewrongLoot[KING]))),
 			}),
 		}),
 	}
