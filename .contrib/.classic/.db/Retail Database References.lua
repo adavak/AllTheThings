@@ -20,7 +20,7 @@
 
 -- World Drops
 -- #IMPORT: 03 - World Drops\\01 Rooted\\
--- #IMPORT: 03 - World Drops\\05 Mists of Pandaria\\
+-- #IMPORT: 03 - World Drops\\05 - Mists of Pandaria.lua
 -- #IMPORT: 03 - World Drops\\Lockpicking.lua
 -- #IMPORT: 03 - World Drops\\Pick Pocket.lua
 
