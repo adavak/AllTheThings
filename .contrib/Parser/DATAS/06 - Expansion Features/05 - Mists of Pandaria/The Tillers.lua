@@ -2497,7 +2497,14 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				})),
 				n(58706, {	-- Gina Mudclaw <Tillers Quartermaster>
 					["coord"] = { 53.2, 51.6, VALLEY_OF_THE_FOUR_WINDS },
-					["groups"] = bubbleDownClassicRep(FACTION_THE_TILLERS, {
+					["groups"] = appendGroups(bubbleDown({
+						["minReputation"] = { FACTION_OLD_HILLPAW, 6 },	-- Old Hillpaw, Best Friend.
+					}, {
+						i(90893),	-- Straw Hat - Cloth
+						i(90894),	-- Straw Hat - Leather
+						i(90895),	-- Straw Hat - Mail
+						i(90896),	-- Straw Hat - Plate
+					}), bubbleDownClassicRep(FACTION_THE_TILLERS, {
 						{		-- Neutral
 							i(89814, {	-- "Earth-Slasher" Master Plow
 								["cost"] = 800000,	-- 80g
@@ -2508,10 +2515,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							i(89813, {	-- "Thunder King" Pest Repellers
 								["cost"] = 800000,	-- 80g
 							}),
-							i(90893),	-- Straw Hat - Cloth
-							i(90894),	-- Straw Hat - Leather
-							i(90895),	-- Straw Hat - Mail
-							i(90896),	-- Straw Hat - Plate
 						}, {	-- Friendly
 						}, {	-- Honored
 						}, {	-- Revered
@@ -2545,7 +2548,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 								["cost"] = 85000,	-- 8g 50s
 							}),
 						},
-					}),
+					})),
 				}),
 				n(58718, {	-- Merchant Greenfield
 					["coord"] = { 52.8, 52.0, VALLEY_OF_THE_FOUR_WINDS },
