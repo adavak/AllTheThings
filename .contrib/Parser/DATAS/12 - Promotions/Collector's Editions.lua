@@ -868,10 +868,9 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 	})),
-	expansion(EXPANSION.MID, {
+	n(MIDNIGHT_TEMPORARY, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } },{
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
-			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
 				iensemble(248249),	-- Lightstider Raiment
 				i(243020),	-- Lightwing Dragonhawk (MOUNT!)
@@ -879,7 +878,6 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		}),
 		n(EPIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
-			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
 				i(243063),	-- Doomfeathers (PET!)
 				i(243062),	-- Hopeflutter (PET!)
@@ -888,7 +886,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				i(243019),	-- Voidwing Dragonhawk (MOUNT!)
 			},
 		}),
-	}),
+	})),
 
 	-- Anniversary
 	n(WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 } }, {
