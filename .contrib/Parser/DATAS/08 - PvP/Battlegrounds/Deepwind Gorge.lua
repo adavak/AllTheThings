@@ -4,7 +4,7 @@
 root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 	m(519, {	-- Deepwind Gorge
 		["icon"] = 879931,
-		["timeline"] = { ADDED_5_2_0 },
+		["timeline"] = { ADDED_5_3_0 },
 		["maps"] = {
 			1576,	-- Deepwind Gorge (revamped)
 		},
