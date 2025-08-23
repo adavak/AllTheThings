@@ -140,27 +140,19 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				-- #endif
 				["ignoreBonus"] = true,
 				["groups"] =
+				-- #if ANYCLASSIC
+				bubbleDown({ ["timeline"] = { CREATED_5_5_0 }, },
+				-- #endif
 				{
 					i(89804, {	-- Cache of Mogu Riches (Original)
-						-- #if ANYCLASSIC
-						["timeline"] = { CREATED_5_5_0 },
-						-- #else
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
-						-- #endif
 					}),
 					i(89858, {	-- Cache of Mogu Riches (Original)
-						-- #if ANYCLASSIC
-						["timeline"] = { CREATED_5_5_0 },
-						-- #else
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
-						-- #endif
 					}),
 					i(95618, {	-- Cache of Mogu Riches
-						-- #if ANYCLASSIC
-						["timeline"] = { CREATED_5_5_0 },
-						-- #else
 						["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Mogu'shan Vaults.",
 						["timeline"] = { ADDED_5_2_0, REMOVED_8_0_1 },
 						["sym"] = {MOP_SYM_PETS},
@@ -195,7 +187,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							i(86773),	-- Jade Magistrate Figurine
 							i(86775),	-- Jade Warlord Figurine
 						},
-						-- #endif
 					}),
 					header(HEADERS.Achievement, 6458, {	-- Guardians of Mogu'shan
 						e(679, {	-- The Stone Guard
@@ -327,7 +318,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							},
 						}),
 					}),
-				},
+				}
+				-- #if ANYCLASSIC
+				)
+				-- #endif
+				,
 			}),
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				n(ACHIEVEMENTS, {
