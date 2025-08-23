@@ -1337,32 +1337,33 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							q(76586, {	-- Spreading The Light
 								["coord"] = { 55.3, 14.5, HALLOWFALL },
 								["groups"] = {
-									i(226264, {	-- Radiant Cache (S1)
-										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-										["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+									container(226264, {	-- Radiant Cache
+										["providers"] = {
+											-- future season versions
+											-- #if AFTER 11.1
+											{ "i", 239126 },	-- S2
+											-- #endif
+											-- #if AFTER 11.2
+											{ "i", 250766 },	-- S3
+											-- #endif
+										},
 										["groups"] = {
 											i(223134),	-- Formula: Illusory Adornment: Radiance (RECIPE!)
 											i(223099),	-- Pattern: Sanctified Torchbearer's Grips (RECIPE!)
 											i(227283),	-- Recipe: Feast of the Divine Day (RECIPE!)
 										},
+									}),
+									i(226264, {	-- Radiant Cache (S1)
+										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+										["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 									}),
 									i(239126, {	-- Radiant Cache (S2)
 										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 										["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
-										["groups"] = {
-											i(223134),	-- Formula: Illusory Adornment: Radiance (RECIPE!)
-											i(223099),	-- Pattern: Sanctified Torchbearer's Grips (RECIPE!)
-											i(227283),	-- Recipe: Feast of the Divine Day (RECIPE!)
-										},
 									}),
 									i(250766, {	-- Radiant Cache (S3)
 										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 										["timeline"] = { ADDED_11_2_0 },
-										["groups"] = {
-											i(223134),	-- Formula: Illusory Adornment: Radiance (RECIPE!)
-											i(223099),	-- Pattern: Sanctified Torchbearer's Grips (RECIPE!)
-											i(227283),	-- Recipe: Feast of the Divine Day (RECIPE!)
-										},
 									}),
 								},
 							}),

@@ -74,32 +74,33 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 								["isWeekly"] = true,
 								["groups"] = {
-									i(226273, {	-- Awakened Mechanical Cache (S1)
-										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-										["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
+									container(226273, {	-- Awakened Mechanical Cache
+										["providers"] = {
+											-- future season versions
+											-- #if AFTER 11.1
+											{ "i", 239121 },	-- S2
+											-- #endif
+											-- #if AFTER 11.2
+											{ "i", 250765 },	-- S3
+											-- #endif
+										},
 										["groups"] = {
 											i(223128),	-- Formula: Enchant Chest - Oathsworn's Strength (RECIPE!)
 											i(224426),	-- Pattern: Ignition Satchel (RECIPE!)
 											i(223040),	-- Plans: Charged Crusher (RECIPE!)
 										},
+									}),
+									i(226273, {	-- Awakened Mechanical Cache (S1)
+										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+										["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 									}),
 									i(239121, {	-- Awakened Mechanical Cache (S2)
 										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 										["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-										["groups"] = {
-											i(223128),	-- Formula: Enchant Chest - Oathsworn's Strength (RECIPE!)
-											i(224426),	-- Pattern: Ignition Satchel (RECIPE!)
-											i(223040),	-- Plans: Charged Crusher (RECIPE!)
-										},
 									}),
 									i(250765, {	-- Awakened Mechanical Cache (S3)
 										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 										["timeline"] = { ADDED_11_2_0_SEASONSTART },
-										["groups"] = {
-											i(223128),	-- Formula: Enchant Chest - Oathsworn's Strength (RECIPE!)
-											i(224426),	-- Pattern: Ignition Satchel (RECIPE!)
-											i(223040),	-- Plans: Charged Crusher (RECIPE!)
-										},
 									}),
 								},
 							}),

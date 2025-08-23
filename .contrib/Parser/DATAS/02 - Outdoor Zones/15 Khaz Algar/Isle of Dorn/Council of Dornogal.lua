@@ -151,9 +151,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 								["isWeekly"] = true,
 								["groups"] = {
-									i(226263, {	-- Theater Troupe's Trove (S1)
-										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-										["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
+									container(226263, {	-- Theater Troupe's Trove
+										["providers"] = {
+											-- future season versions
+											-- #if AFTER 11.1
+											{ "i", 239128 },	-- S2
+											-- #endif
+											-- #if AFTER 11.2
+											{ "i", 250763 },	-- S3
+											-- #endif
+										},
 										["groups"] = {
 											i(228320),	-- Design: Binding of Binding (RECIPE!)
 											i(228708),	-- Formula: Gleeful Glamour - Earthen (RECIPE!)
@@ -161,28 +168,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 											i(223095),	-- Pattern: Rook Feather Wristwraps (RECIPE!)
 											i(223036),	-- Plans: Charged Runeaxe (RECIPE!)
 										},
+									}),
+									i(226263, {	-- Theater Troupe's Trove (S1)
+										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+										["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 									}),
 									i(239128, {	-- Theater Troupe's Trove (S2)
 										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 										["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-										["groups"] = {
-											i(228320),	-- Design: Binding of Binding (RECIPE!)
-											i(228708),	-- Formula: Gleeful Glamour - Earthen (RECIPE!)
-											i(223126),	-- Formula: Enchant Chest - Stormrider's Agility (RECIPE!)
-											i(223095),	-- Pattern: Rook Feather Wristwraps (RECIPE!)
-											i(223036),	-- Plans: Charged Runeaxe (RECIPE!)
-										},
 									}),
 									i(250763, {	-- Theater Troupe's Trove (S3)
 										["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 										["timeline"] = { ADDED_11_2_0 },
-										["groups"] = {
-											i(228320),	-- Design: Binding of Binding (RECIPE!)
-											i(228708),	-- Formula: Gleeful Glamour - Earthen (RECIPE!)
-											i(223126),	-- Formula: Enchant Chest - Stormrider's Agility (RECIPE!)
-											i(223095),	-- Pattern: Rook Feather Wristwraps (RECIPE!)
-											i(223036),	-- Plans: Charged Runeaxe (RECIPE!)
-										},
 									}),
 									i(235151, {	-- Distinguished Actor's Chest
 										["timeline"] = { ADDED_11_1_0 },

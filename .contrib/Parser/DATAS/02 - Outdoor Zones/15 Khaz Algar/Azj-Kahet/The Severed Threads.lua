@@ -668,30 +668,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["groups"] = {
 								i(225572, {	-- The General's War Chest (S1)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-									["timeline"] = { REMOVED_11_1_0_SEASONSTART },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
+									["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 								}),
 								i(239122, {	-- The General's War Chest (S2)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 									["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
 								}),
 								i(250767, {	-- The General's War Chest (S3)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 									["timeline"] = { ADDED_11_2_0 },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
 								}),
 							},
 						}),
@@ -709,30 +694,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["groups"] = {
 								i(225573, {	-- The Vizier's Capital (S1)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-									["timeline"] = { REMOVED_11_1_0_SEASONSTART },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
+									["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 								}),
 								i(239124, {	-- The Vizier's Capital (S2)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 									["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
 								}),
 								i(250768, {	-- The Vizier's Capital (S3)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 									["timeline"] = { ADDED_11_2_0 },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
 								}),
 							},
 						}),
@@ -750,34 +720,41 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["groups"] = {
 								i(225571, {	-- The Weaver's Gratuity (S1)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-									["timeline"] = { REMOVED_11_1_0_SEASONSTART },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
+									["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 								}),
 								i(239125, {	-- The Weaver's Gratuity (S2)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 									["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
 								}),
 								i(250769, {	-- The Weaver's Gratuity (S3)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 									["timeline"] = { ADDED_11_2_0 },
-									["groups"] = {
-										i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-										i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-										i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
-									},
 								}),
 							},
 						}),
 					})),
+					n(REWARDS, {
+						["providers"] = {
+							{ "i", 225571 },	-- The Weaver's Gratuity (S1)
+							{ "i", 225573 },	-- The Vizier's Capital (S1)
+							{ "i", 225572 },	-- The General's War Chest (S1)
+							-- #if AFTER 11.1
+							{ "i", 239125 },	-- The Weaver's Gratuity (S2)
+							{ "i", 239124 },	-- The Vizier's Capital (S2)
+							{ "i", 239122 },	-- The General's War Chest (S2)
+							-- #endif
+							-- #if AFTER 11.2
+							{ "i", 250769 },	-- The Weaver's Gratuity (S3)
+							{ "i", 250768 },	-- The Vizier's Capital (S3)
+							{ "i", 250767 },	-- The General's War Chest (S3)
+							-- #endif
+						},
+						["groups"] = {
+							i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+							i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+							i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+						},
+					}),
 					n(VENDORS, {
 						n(228184, {	-- Yamas the Provider <Pact Information & Supplies>
 							["coord"] = { 55.4, 41.8, AZJ_KAHET },
