@@ -4721,25 +4721,27 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				-- #endif
-					n(1347, {	-- Alexandra Bolero <Tailoring Supplies>
-						["coords"] = {
-							-- #if AFTER WRATH
-							{ 53.2, 81.6, STORMWIND_CITY },
-							-- #else
-							{ 43.4, 74.0, STORMWIND_CITY },
-							-- #endif
-						},
-						["races"] = ALLIANCE_ONLY,
-						["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
-						["groups"] = {
-							i(6274, {	-- Pattern: Blue Overalls (RECIPE!)
-								["isLimited"] = true,
-							}),
-							i(10325, {	-- Pattern: White Wedding Dress (RECIPE!)
-								["isLimited"] = true,
-							}),
-						},
-					}),
+				n(1347, {	-- Alexandra Bolero <Tailoring Supplies>
+					["coords"] = {
+						-- #if AFTER WRATH
+						{ 53.2, 81.6, STORMWIND_CITY },
+						-- #else
+						{ 43.4, 74.0, STORMWIND_CITY },
+						-- #endif
+					},
+					["races"] = ALLIANCE_ONLY,
+					-- #if AFTER CATA
+					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
+					-- #endif
+					["groups"] = {
+						i(6274, {	-- Pattern: Blue Overalls (RECIPE!)
+							["isLimited"] = true,
+						}),
+						i(10325, {	-- Pattern: White Wedding Dress (RECIPE!)
+							["isLimited"] = true,
+						}),
+					},
+				}),
 				n(1315, {	-- Allan Hafgan <Staves Merchant>
 					["coords"] = {
 						-- #if AFTER WRATH
@@ -6064,8 +6066,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(5565, {	-- Jillian Tanner <Leatherworking Supplies>
 					["coord"] = { 71.7, 62.8, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{ "select","itemID", 7005 }},	-- Skinning Knife
-					["groups"] = appendGroups(COMMON_CATACLYSM_LEATHERWORKING_RECIPES, SALT, VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, {}),
+					["groups"] = COMMON_CATACLYSM_LEATHERWORKING_RECIPES,
 				}),
 				n(49701, {	-- Jon Casper <Sous Chef>
 					["coords"] = {
@@ -6152,16 +6153,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-						3371,	-- Empty-/Crystal Vial
-						-- #if BEFORE CATA
-						3372,	-- Leaded Vial
-						8925,	-- Crystal Vial
-						18256,	-- Imbued Vial
-						-- #endif
-						},
-					},
 				}),
 				n(340, {	-- Kendor Kabonka <Master of Cooking Recipes>
 					["coords"] = {
@@ -6832,19 +6823,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = sharedData({
-						["isLimited"] = true,
-					}, {
-						i(2453),	-- Bruiseweed
-						i(2449),	-- Earthroot
-						i(3356),	-- Kingsblood
-						i(3357),	-- Liferoot
-						i(785),	-- Mageroyal
-						i(2447),	-- Peacebloom
-						i(765),	-- Silverleaf
-						i(3355),	-- Wild Steelbloom
-						i(9301),	-- Recipe: Elixir of Shadow Power (RECIPE!)
-					}),
+					["groups"] = {
+						i(9301, {["isLimited"] = true}),	-- Recipe: Elixir of Shadow Power (RECIPE!)
+					},
 				}),
 				n(12781, {	-- Master Sergeant Biggins <Accessories Quartermaster> [WRATH+] / Master Sergeant Biggins <Officer Accessories Quartermaster>
 					-- #if BEFORE TBC
@@ -7481,16 +7462,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 63.1, 61.5, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "sub", "common_recipes_vendor", 50480 },	-- Isabel Jones <Jewelcrafting Supplies>
-						{ "select","itemID",
-						52188,	-- Jeweler's Setting
-						20815,	-- Jeweler's Toolset/-Kit
-						-- #if BEFORE MOP
-						20824,	-- Simple Grinder
-						-- #endif
-						},
-					},
+					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(1350, {	-- Theresa Moulaine <Robe Vendor>
 					["coords"] = {

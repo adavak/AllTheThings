@@ -1408,7 +1408,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 64.6, 21.6, DARNASSUS },
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
+					-- #if AFTER CATA
 					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
+					-- #endif
 					["groups"] = {
 						i(6272, {	-- Pattern: Blue Linen Robe (RECIPE!)
 							["isLimited"] = true,
@@ -1803,7 +1805,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(7451, {	-- Pattern: Green Whelp Bracers (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(7005),	-- Skinning Knife
 					},
 				}),
 				n(5191, {	-- Shalumon <Tabard Vendor>
@@ -1831,16 +1832,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 54.6, 29.8, DARNASSUS },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "sub", "common_recipes_vendor", 50480 },	-- Isabel Jones <Jewelcrafting Supplies>
-						{ "select","itemID",
-						52188,	-- Jeweler's Setting
-						20815,	-- Jeweler's Toolset/-Kit
-						-- #if BEFORE MOP
-						20824,	-- Simple Grinder
-						-- #endif
-						},
-					},
+					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(4235, {	-- Turian <Thrown Weapons Merchant>
 					-- #if AFTER CATA

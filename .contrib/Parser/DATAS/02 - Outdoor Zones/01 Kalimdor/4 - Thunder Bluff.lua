@@ -1235,7 +1235,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #if AFTER CATA
 						COMMON_CATACLYSM_TAILORING_RECIPES,
 						-- #endif
-						VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, VANILLA_TAILORING_SUPPLIES, {
+						{
 						i(10311, {	-- Pattern: Orange Martial Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -1320,16 +1320,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 34.75, 53.45, THUNDER_BLUFF },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "sub", "common_recipes_vendor", 50482 },	-- Marith Lazuria <Jewelcrafting Supplies>
-						{ "select","itemID",
-						52188,	-- Jeweler's Setting
-						20815,	-- Jeweler's Toolset/-Kit
-						-- #if BEFORE MOP
-						20824,	-- Simple Grinder
-						-- #endif
-						},
-					},
+					["sym"] = {{ "sub", "common_recipes_vendor", 50482 }},	-- Marith Lazuria <Jewelcrafting Supplies>
 				}),
 				n(8364, {	-- Pakwa <Bag Vendor>
 					["coord"] = { 39.31, 64.28, THUNDER_BLUFF },

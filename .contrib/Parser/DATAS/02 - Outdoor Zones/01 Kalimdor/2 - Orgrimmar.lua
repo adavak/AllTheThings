@@ -2654,7 +2654,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
+					-- #if AFTER CATA
 					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
+					-- #endif
 					["groups"] = {
 						i(6270, {	-- Pattern: Blue Linen Vest (RECIPE!)
 							["isLimited"] = true,
@@ -5004,11 +5006,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(COMMON_CATACLYSM_LEATHERWORKING_RECIPES, SALT, VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, {
+					["groups"] = appendGroups(COMMON_CATACLYSM_LEATHERWORKING_RECIPES, {
 						i(18731, {	-- Pattern: Heavy Leather Ball (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(7005),	-- Skinning Knife
 					}),
 				}),
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(57922, {	-- Taryssa Lazuria <Jewelcrafting Supplies>

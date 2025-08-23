@@ -1562,7 +1562,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 	}),
 	prof(MINING, {
-		spell(2575, {	-- Mining
+		header(HEADERS.Spell, 2575, {	-- Mining
 			-- Nodes
 			o(181556, {	-- Adamantite Deposit
 				["maps"] = {

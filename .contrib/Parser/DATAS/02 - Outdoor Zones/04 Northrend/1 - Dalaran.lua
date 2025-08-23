@@ -3122,7 +3122,7 @@ root(ROOTS.Zones, {
 					}),
 					n(28726, {	-- Dominique Stefano <Tailoring Supplies>
 						["coord"] = { 35.6, 34.4, NORTHREND_DALARAN },
-						["groups"] = appendGroups(ETERNIUM_THREAD, VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, VANILLA_TAILORING_SUPPLIES, {}),
+						["groups"] = ETERNIUM_THREAD,
 					}),
 					n(34252, {	-- Dubin Clay <Plate Armor Merchant>
 						["coord"] = { 46.2, 27.2, NORTHREND_DALARAN },
@@ -3472,6 +3472,11 @@ root(ROOTS.Zones, {
 								TIER_NINE_GROUPS.WARRIOR_H, {})),
 						},
 					}),
+					-- #if AFTER CATA
+					n(28714, {	-- Ildine Sorrowspear <Enchanting Supplies>
+						["coord"] = { 38.78, 41.56, NORTHREND_DALARAN },
+					}),
+					-- #endif
 					n(28682, {	-- Inzi Charmlight <Barmaid>
 						["coord"] = { 44.2, 62.3, NORTHREND_DALARAN },
 						["description"] = "Inzi is walking around in the Tavern.",
@@ -3909,7 +3914,7 @@ root(ROOTS.Zones, {
 					-- #endif
 					n(28721, {	-- Tiffany Cartier <Jewelcrafting Supplies>
 						["coord"] = { 40.4, 34.6, NORTHREND_DALARAN },
-						["groups"] = appendGroups(JEWELCRAFTING_SUPPLIES, {
+						["groups"] = {
 							daljewelcraftingtoken(2, i(42298)),	-- Design: Bold Dragon's Eye
 							daljewelcraftingtoken(3, i(41576)),	-- Design: Bold Scarlet Ruby
 							-- #if BEFORE CATA
@@ -4115,7 +4120,7 @@ root(ROOTS.Zones, {
 							-- #endif
 							daljewelcraftingtoken(4, i(43319)),	-- Design: Windfire Band
 							daljewelcraftingtoken(1, i(42225)),	-- Dragon's Eye
-						}),
+						},
 					}),
 					n(28701, {	-- Timothy Jones <Jewelcrafting Trainer>
 						["description"] = "Daily Jewelcrafting quests:\n\nShipment: Blood Jade Amulet - Vrykul can be found on Ymirheim, in the middle of Icecrown.\n\nShipment: Bright Armor Relic - Revenants/Elementals can be found in Dragonblight, following the mountainside from the Crystal Vice towards Wrathgate.\n\nShipment: Glowing Ivory Figurine - Mammoth can be found in southernmost Storm Peaks, by the road towards K3.\n\nShipment: Intricate Bone Figurine - Proto Dragons can be found in Storm Peaks, in the valley above Brunnhildar Village.\n\nShipment:Shifting Sun Curio - Scourge/Undead can be found as neutral ghosts in Crystalsong Forest, by the Violet Stand beneath Dalaran.\n\nShipment: Wicked Armour Relic - Iron Dwarfs can be found in the Storm Peaks, in a cave between Frosthold and Valkyrion.",

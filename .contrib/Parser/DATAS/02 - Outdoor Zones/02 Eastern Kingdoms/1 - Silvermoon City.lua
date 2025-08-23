@@ -540,7 +540,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(16638, {	-- Deynna <Tailoring Supplies>
 					["coord"] = { 56.0, 51.8, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
+					-- #if AFTER CATA
 					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
+					-- #endif
 					["groups"] = {
 						i(21892),	-- Pattern: Bolt of Imbued Netherweave (RECIPE!)
 						i(21894, {	-- Pattern: Bolt of Soulcloth (RECIPE!)
@@ -597,7 +599,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 							7337,	-- The Rock
 						},
 					},
-					["groups"] = appendGroups(JEWELCRAFTING_SUPPLIES, {
+					["groups"] = {
 						i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -610,7 +612,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						i(20975, {	-- Design: The Jade Eye (RECIPE!)
 							["isLimited"] = true,
 						}),
-					}),
+					},
 				}),
 				n(17630, {	-- Innkeeper Jovia <Innkeeper>
 					["coord"] = { 67.85, 72.9, SILVERMOON_CITY },	-- Wayfarer's Rest
@@ -678,14 +680,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 67.0, 19.2, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					["groups"] = sharedData({["isLimited"] = true}, {
-						i(2453),	-- Bruiseweed
-						i(2449),	-- Earthroot
-						i(3356),	-- Kingsblood
-						i(3357),	-- Liferoot
-						i(785),	-- Mageroyal
-						i(2447),	-- Peacebloom
-						i(765),	-- Silverleaf
-						i(3355),	-- Wild Steelbloom
 						i(22900),	-- Recipe: Elixir of Camouflage (RECIPE!)
 						i(23574),	-- Recipe: Transmute Primal Might (RECIPE!)
 					}),

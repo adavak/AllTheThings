@@ -1860,24 +1860,24 @@ root(ROOTS.Zones, {
 					n(19196, {	-- Cro Threadstrong <Leatherworking Supplies>
 						["coord"] = { 67.2, 67.6, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
-						["groups"] = appendGroups(VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, {
+						["groups"] = {
 							i(25720, {	-- Pattern: Heavy Knothide Leather
 								["timeline"] = { REMOVED_3_2_0},
 								["requireSkill"] = LEATHERWORKING,
 								["isLimited"] = true,
 								["f"] = RECIPES,
 							}),
-						}),
+						},
 					}),
 					n(19213, {	-- Eiin <Specialty Tailoring Supplies>
 						["coord"] = { 66.2, 68.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
-						["groups"] = appendGroups(VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, VANILLA_TAILORING_SUPPLIES, {
+						["groups"] = {
 							i(21892),	-- Pattern: Bolt of Imbued Netherweave (RECIPE!)
 							i(21893),	-- Pattern: Imbued Netherweave Bag (RECIPE!)
 							i(21896),	-- Pattern: Netherweave Robe (RECIPE!)
 							i(21897),	-- Pattern: Netherweave Tunic (RECIPE!)
-						}),
+						},
 					}),
 					n(33633, {	-- Enchantress Andiala <Enchanting Trainer>
 						["coord"] = { 56.2, 74.4, SHATTRATH_CITY },
@@ -2164,7 +2164,6 @@ root(ROOTS.Zones, {
 							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
 						-- #endif
-						["groups"] = JEWELCRAFTING_SUPPLIES,
 					}),
 					n(19195, {	-- Jim Saltit <Cooking Supplies>
 						["coord"] = { 63.4, 68.6, SHATTRATH_CITY },
@@ -2200,7 +2199,6 @@ root(ROOTS.Zones, {
 						["sym"] = {
 							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
-						["groups"] = JEWELCRAFTING_SUPPLIES,
 					}),
 					n(19186, {	-- Kylene <Barmaid>
 						["description"] = "Speak to her and tell her she's quite the cook to learn these recipes.",

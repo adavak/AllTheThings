@@ -17,7 +17,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		n(COMMON_VENDOR_ITEMS, {
 			i(40411, {	-- Enchanted Vial for WotLK, turns into Shattered Vial with Cataclysm.
 				["description"] = "Can be bought from Alchemy Suppliers, as well as some Trade vendors around the world.",
-				["providers"] = {
+				-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
+				--[[["providers"] = {
 					{ "n", 24341},	-- Barnabas Frye <Trade Goods>
 					{ "n", 27012},	-- Beem Goldsprocket <Trade Goods>
 					{ "n", 26941},	-- Brokkan Bear-Arms <Trade Goods>
@@ -30,7 +31,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					{ 79.5, 30.47, HOWLING_FJORD },
 					{ 58.4, 62.75, HOWLING_FJORD },
 					{ 41.54, 33.32, NORTHREND_DALARAN },
-				},
+				},]]
 				["timeline"] = { ADDED_3_0_2, REMOVED_4_0_1 },
 			}),
 		}),
@@ -555,7 +556,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	}),
 	prof(ENGINEERING, {
 		n(COMMON_VENDOR_ITEMS, sharedData({
-			["description"] = "Can be bought from Engineering Suppliers, as well as some Trade vendors around the world. Coordinates are for select vendors.",
+			["description"] = "Can be bought from Engineering Suppliers, as well as some Trade vendors around the world.",
+			-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
+			--[[["description"] = "Can be bought from Engineering Suppliers, as well as some Trade vendors around the world. Coordinates are for select vendors.",
 			["coords"] = {
 				{ 39.0, 26.0, NORTHREND_DALARAN },
 				-- #if AFTER CATA
@@ -569,7 +572,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ "n", 5519},	-- Billibub Cogspinner <Engineering Supplies>
 				{ "n", 3413},	-- Sovik <Engineering Supplies>
 				-- #endif
-			},
+			},]]
 		}, {
 			i(39684),	-- Hair Trigger
 			i(40533),	-- Walnut Stock
@@ -1571,7 +1574,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 	}),
 	prof(MINING, {
-		spell(2575, {	-- Mining
+		header(HEADERS.Spell, 2575, {	-- Mining
 			-- Nodes
 			o(189978, {	-- Cobalt Deposit
 				["maps"] = {

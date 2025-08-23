@@ -2025,7 +2025,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(4577, {	-- Millie Gregorian <Tailoring Supplies>
 					["coord"] = { 70.6, 30.1, UNDERCITY },
 					["races"] = HORDE_ONLY,
+					-- #if AFTER CATA
 					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
+					-- #endif
 					["groups"] = sharedData({
 						["isLimited"] = true,
 					}, {
@@ -2136,16 +2138,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 56.2, 36.6, UNDERCITY },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = HORDE_ONLY,
-					["sym"] = {
-						{ "sub", "common_recipes_vendor", 50482 },	-- Marith Lazuria <Jewelcrafting Supplies>
-						{ "select","itemID",
-						52188,	-- Jeweler's Setting
-						20815,	-- Jeweler's Toolset/-Kit
-						-- #if BEFORE MOP
-						20824,	-- Simple Grinder
-						-- #endif
-						},
-					},
+					["sym"] = {{ "sub", "common_recipes_vendor", 50482 }},	-- Marith Lazuria <Jewelcrafting Supplies>
 				}),
 				n(4599, {	-- Sarah Killan <Mining Supplies>
 					["coord"] = { 56.6, 37.3, UNDERCITY },

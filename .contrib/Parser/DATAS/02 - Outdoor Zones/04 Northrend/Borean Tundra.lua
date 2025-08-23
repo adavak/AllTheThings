@@ -3031,11 +3031,6 @@ root(ROOTS.Zones, {
 						["sym"] = {
 							{ "select","itemID",
 								38426,	-- Eternium Thread
-								-- Danny Donkey: The following got added at an unknown point between MoP and TWW.
-								-- #if NOT ANYCLASSIC
-								52188,	-- Jeweler's Setting
-								20815,	-- Jeweler's Toolset/-Kit
-								-- #endif
 							},
 						},
 					}),
@@ -3045,11 +3040,6 @@ root(ROOTS.Zones, {
 						["sym"] = {
 							{ "select","itemID",
 								38426,	-- Eternium Thread
-								-- Danny Donkey: The following got added at an unknown point between MoP and TWW.
-								-- #if NOT ANYCLASSIC
-								52188,	-- Jeweler's Setting
-								20815,	-- Jeweler's Toolset/-Kit
-								-- #endif
 							},
 						},
 					}),
@@ -3093,19 +3083,13 @@ root(ROOTS.Zones, {
 							},
 						}),
 					})),
+					-- #if AFTER CATA
+					n(27147, {	-- Librarian Erickson <Enchanting Supplies>
+						["coord"] = { 46.7, 32.5, BOREAN_TUNDRA },
+					}),
+					-- #endif
 					n(27142, {	-- Librarian Jeffers <Jewelcrafting Supplies>
 						["coord"] = { 46.26, 32.84, BOREAN_TUNDRA },
-						["sym"] = {
-							{ "select","itemID",
-							-- #if AFTER CATA
-							52188,	-- Jeweler's Setting
-							-- #endif
-							20815,	-- Jeweler's Toolset/-Kit
-							-- #if BEFORE MOP
-							20824,	-- Simple Grinder
-							-- #endif
-							},
-						},
 					}),
 					n(27139, {	-- Librarian Whitley <Wands>
 						["coord"] = { 46.4, 32.6, BOREAN_TUNDRA },

@@ -452,7 +452,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				},
 				sharedData({
 					["description"] = "Can be bought from Blacksmithing Suppliers, as well as some Trade vendors around the world.",
-					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords are given.
+					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
 					--[[["description"] = "Can be bought from Blacksmithing Suppliers, as well as some Trade vendors around the world. Coordinates are for select vendors.",
 					["coords"] = {
 						{ 51.8, 41.2, IRONFORGE },
@@ -1231,7 +1231,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			["groups"] = appendAllGroups(
 				sharedData({	-- Vanilla cooking reagents
 					["description"] = "Can be bought from Cooking Suppliers, as well as some Trade vendors around the world.",
-					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords are given.
+					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
 					--[[["coords"] = {
 						{ 60.6, 38.2, IRONFORGE },
 						{ 51.0, 52.5, THUNDER_BLUFF },
@@ -1252,7 +1252,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ 48.5, 21.6, DARNASSUS },
 						{ 57.6, 53.2, ORGRIMMAR },
 						-- #endif
-					},]]
+					},
 					["providers"] = {
 						{ "n", 5160},	-- Emrul Riknussun <Cooking Supplier>
 						{ "n", 5483},	-- Erika Tate <Cooking Supplies> [TBC+] / <Cooking Supplier>
@@ -1264,7 +1264,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ "n", 16718},	-- Phea <Cooking Supplies>
 						{ "n", 16677},	-- Quelis <Cooking Supplies>
 						-- #endif
-					},
+					},]]
 				}, {
 					i(159),	-- Refreshing Spring Water
 					i(30817, {["timeline"] = { ADDED_2_0_1 }}),	-- Simple Flour
@@ -1273,21 +1273,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					i(3713, {["timeline"] = { REMOVED_3_0_2 }}),	-- Soothing Spices
 				}),
 				sharedData({
-					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords are given.
-					--[[["coords"] = {
-						{ 18.6, 51.9, IRONFORGE },	-- The Stonefire Tavern
-						-- #if AFTER TBC
-						{ 79.5, 58.5, SILVERMOON_CITY },
-						-- #endif
-						-- #if AFTER WRATH
-						{ 76.0, 53.4, STORMWIND_CITY },	-- Pig and Whistle Tavern
-						-- #else
-						{ 73.0, 37.0, STORMWIND_CITY },	-- Pig and Whistle Tavern
-						-- #endif
-						-- #if BEFORE CATA
-						{ 54.0, 67.0, ORGRIMMAR },	-- The Broken Tusk
-						-- #endif
-					},]]
 					["description"] = "Coordinates are for select vendors.",
 					["providers"] = {
 						{ "n", 1328 },	-- Elly Langston <Barmaid>
@@ -1307,28 +1292,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				{
 					i(1179, {	-- Ice Cold Milk
-						-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords are given.
-						--[[["coords"] = {
-							{ 18.6, 51.9, IRONFORGE },	-- The Stonefire Tavern
-							{ 39.0, 64.4, THUNDER_BLUFF },	-- Wayfarer's Rest
-							{ 69.2, 48.9, UNDERCITY },	-- Trade Quarter
-							-- #if AFTER TBC
-							{ 67.85, 72.9, SILVERMOON_CITY },	-- Wayfarer's Rest
-							{ 59.5, 18.76, THE_EXODAR },	-- The Exobar
-							-- #endif
-							-- #if AFTER WRATH
-							{ 76.0, 53.4, STORMWIND_CITY },	-- Pig and Whistle Tavern
-							-- #else
-							{ 73.0, 37.0, STORMWIND_CITY },	-- Pig and Whistle Tavern
-							-- #endif
-							-- #if AFTER CATA
-							{ 62.54, 32.8, DARNASSUS },	-- Craftsmen's Terrace
-							{ 55.1, 77.9, ORGRIMMAR },	-- The Broken Tusk
-							-- #else
-							{ 67.2, 15.8, DARNASSUS },	-- Craftsmen's Terrace
-							{ 54.0, 67.0, ORGRIMMAR },	-- The Broken Tusk
-							-- #endif
-						},]]
 						["description"] = "Coordinates are for select vendors.",
 						["providers"] = {
 							{ "n", 5611},	-- Barkeep Morag
@@ -1462,7 +1425,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			["groups"] = appendAllGroups(
 				sharedData({ -- Enchanting supplies
 					["description"] = "Can be bought from Enchanting Suppliers, as well as some Trade vendors around the world.",
-					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords are given.
+					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
 					--[[["coords"] = {
 						{ 60.8, 44.2, IRONFORGE },
 						{ 39.9, 40.2, THE_EXODAR },
@@ -1518,7 +1481,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				sharedData({	-- Runed Copper Rod reagents
 					-- Danny Donkey:	This structure is used for Vanilla content as well as BFA and onwards when professions
 					--					are split on an expansion-basis, but one still need to craft and use this basic rod.
-					["coords"] = {
+					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
+					--[[["coords"] = {
 						{ 60.8, 44.2, IRONFORGE },
 						{ 39.9, 40.2, THE_EXODAR },
 						{ 44.9, 37.7, THUNDER_BLUFF },
@@ -1566,7 +1530,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ "n", 19234},	-- Yurial Soulwater <Enchanting Supplies>
 						{ "n", 33676},	-- Zurii <Enchanting Supplies>
 						-- #endif
-					},
+					},]]
 				},{
 					i(6217, {	-- Copper Rod
 						["description"] = "Can be bought from Enchanting Suppliers, as well as some Trade vendors around the world.",
@@ -2385,7 +2349,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		["groups"] = {
 			n(COMMON_VENDOR_ITEMS, sharedData({
 				["description"] = "Can be bought from Fishing Suppliers, as well as some Trade vendors around the world.",
-				["coords"] = {
+				-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
+				--[[["coords"] = {
 					{ 47.8, 6.6, IRONFORGE },
 					{ 55.8, 47.0, THUNDER_BLUFF },
 					{ 81.0, 30.8, UNDERCITY },
@@ -2417,7 +2382,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					{ "n", 20121 }, 	-- Dekin <Fishing Supplies>
 					{ "n", 18347 }, 	-- Olirea <Fishing Supplies>
 					-- #endif
-				},
+				},]]
 			}, {
 				i(6533, {["isLimited"] = true, }),	-- Aquadynamic Fish Attractor
 				i(6532),	-- Bright Baubles
@@ -5227,6 +5192,37 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	-- #endif
 	-- #if AFTER TBC
 	prof(JEWELCRAFTING, {
+		n(COMMON_VENDOR_ITEMS, sharedData({
+			["description"] = "Can be bought from Jewelcrafting Suppliers, as well as some Trade vendors around the world.",
+			-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when providers are given.
+			--[[["providers"] = {
+				{ "n", 17512},	-- Arred <Jewelcrafting Supplies>
+				{ "n", 16624},	-- Gelanthis <Jewelcrafting Supplies>
+				{ "n", 19065},	-- Inessera <Jewelcrafting Supplies>
+				{ "n", 18751},	-- Kalaen <Jewelcrafting Trainer>
+				{ "n", 18774},	-- Tatiana <Jewelcrafting Trainer>
+				-- #if AFTER WRATH
+				{ "n", 28721},	-- Tiffany Cartier <Jewelcrafting Supplies>
+				-- #endif
+				-- #if AFTER 3.1.0
+				{ "n", 33637},	-- Kirembri Silvermane <Jewelcrafting Trainer>
+				-- #endif
+				-- #if AFTER CATA
+				{ "n", 52584},	-- Laida Gembold <Jewelcrafting Supplies>
+				{ "n", 50482},	-- Marith Lazuria <Jewelcrafting Supplies>
+				{ "n", 52658},	-- Paku Cloudchaser <Jewelcrafting Supplies>
+				{ "n", 52588},	-- Sara Lanner <Jewelcrafting Supplies>
+				{ "n", 52644},	-- Tarien Silverdew <Jewelcrafting Supplies>
+				{ "n", 44583},	-- Terrance Denman <Jewelcrafting Supplies>
+				-- #endif
+			},]]
+		}, {
+			-- #if AFTER CATA
+			i(52188, { ["timeline"] = { ADDED_4_0_3 } }),	-- Jeweler's Setting
+			-- #endif
+			i(20815, {["collectible"] = false}),	-- Jeweler's Toolset/-Kit
+			i(20824, {["timeline"] = { REMOVED_5_0_4 }}),	-- Simple Grinder
+		})),
 		filter(COSMETIC, {
 			i(204404, {["timeline"] = { ADDED_10_0_7 }}),	-- Square Holders
 		}),
@@ -5309,9 +5305,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(21790),	-- Sapphire Pendant of Winter Night
 			i(21933),	-- Thick Bronze Necklace
 		}),
-		filter(PROFESSION_EQUIPMENT, {
-			i(20815, {["collectible"] = false}),	-- Jeweler's Toolset/-Kit
-		}),
 		header(HEADERS.Spell, 31212, {	-- Prospecting
 			-- Note: Neither Gold, Silver nor Truesilver can be prospected.
 			i(7909, {	-- Aquamarine
@@ -5379,6 +5372,80 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	}),
 	-- #endif
 	prof(LEATHERWORKING, {
+		n(COMMON_VENDOR_ITEMS, {
+			["groups"] = appendAllGroups(
+				{
+					i(4289, {	-- Salt
+						["description"] = "Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",
+						-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when providers are given.
+						--[[["providers"] = {
+							{ "n", 5128},	-- Bombus Finespindle <Leatherworking Supplies>
+							{ "n", 5565},	-- Jillian Tanner <Leatherworking Supplies>
+							{ "n", 4589},	-- Joseph Moore <Leatherworking Supplies>
+							{ "n", 4225},	-- Saenorion <Leatherworking Supplies>
+							{ "n", 3366},	-- Tamar <Leatherworking Supplies>
+							-- #if AFTER TBC
+							{ "n", 16748},	-- Haferet <Leatherworking Supplies>
+							{ "n", 16689},	-- Zaralda <Leatherworking Supplies>
+							-- #endif
+							-- #if AFTER CATA
+							{ "n", 3008},	-- Mak <Leatherworking Supplies> [CATA+] / <Journeyman Leatherworker>
+							-- #else
+							{ "n", 3005},	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
+							-- #endif
+						},]]
+					}),
+				},
+				sharedData({
+					["description"] = "Can be bought from Leatherworking- and Tailoring Suppliers, as well as some Trade vendors around the world.",
+					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when providers are given.
+					--[[["providers"] = {
+						{ "n", 1347},	-- Alexandra Bolero <Tailoring Supplies>
+						{ "n", 5128},	-- Bombus Finespindle <Leatherworking Supplies>
+						{ "n", 3364},	-- Borya <Tailoring Supplies>
+						{ "n", 4168},	-- Elynna <Tailoring Supplies>
+						{ "n", 5565},	-- Jillian Tanner <Leatherworking Supplies>
+						{ "n", 4589},	-- Joseph Moore <Leatherworking Supplies>
+						{ "n", 3005},	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
+						{ "n", 4577},	-- Millie Gregorian <Tailoring Supplies>
+						{ "n", 8681},	-- Outfitter Eric <Speciality Tailoring Supplies>
+						{ "n", 5154},	-- Poranna Snowbraid <Tailoring Supplies>
+						{ "n", 4225},	-- Saenorion <Leatherworking Supplies>
+						{ "n", 3366},	-- Tamar <Leatherworking Supplies>
+						-- #if AFTER TBC
+						{ "n", 18754},	-- Barim Spilthoof <Leatherworking Trainer>
+						{ "n", 18771},	-- Brumman <Leatherworking Trainer>
+						{ "n", 19196},	-- Cro Threadstrong <Leatherworking Supplies>
+						{ "n", 18749},	-- Dalinna <Tailoring Trainer>
+						{ "n", 16638},	-- Deynna <Tailoring Supplies>
+						{ "n", 19213},	-- Eiin <Specialty Tailoring Supplies>
+						{ "n", 16748},	-- Haferet <Leatherworking Supplies>
+						{ "n", 18772},	-- Hama <Tailoring Trainer>
+						{ "n", 16767},	-- Neii <Tailoring Supplies>
+						{ "n", 16689},	-- Zaralda <Leatherworking Supplies>
+						-- #endif
+						-- #if AFTER WRATH
+						{ "n", 28726},	-- Dominique Stefano <Tailoring Supplies>
+						-- #endif
+						-- #if AFTER CATA
+						{ "n", 3008},	-- Mak <Leatherworking Supplies> [CATA+] / <Journeyman Leatherworker>
+						-- #endif
+					},]]
+				}, {
+					i(2325),	-- Black Dye
+					i(6260),	-- Blue Dye
+					i(2605),	-- Green Dye
+					i(4340),	-- Grey Dye
+					i(4342),	-- Purple Dye
+					i(2604),	-- Red Dye
+					i(2320),	-- Coarse Thread
+					i(2321),	-- Fine Thread
+					i(4291),	-- Silken Thread
+					i(8343),	-- Heavy Silken Thread
+					i(14341),	-- Rune Thread
+				})
+			)
+		}),
 		-- #if BEFORE TBC
 		prof(10656, {	-- Dragonscale Leatherworking
 			["description"] = "These items can only be crafted by Leatherworkers who have completed the associated quest.",
@@ -7453,7 +7520,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		["description"] = "The following items can be gathered by skinning creatures out in the world.",
 		-- #endif
 		["groups"] = {
-			filter(PROFESSION_EQUIPMENT, {
+			n(COMMON_VENDOR_ITEMS, {
 				i(7005, {	-- Skinning Knife
 					["collectible"] = false,
 					["description"] = "Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",
@@ -8194,6 +8261,51 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(PHASE_FIVE, i(22251)), -- Cenarion Herb Bag
 			applyclassicphase(PHASE_FIVE_RECIPES, i(22248)), -- Enchanted Runecloth Bag
 			applyclassicphase(PHASE_FIVE, i(22252)), -- Satchel of Cenarius
+		}),
+		n(COMMON_VENDOR_ITEMS, {
+			["groups"] = appendAllGroups(
+				{	-- Danny Donkey: These are shared with Leatherworking.
+					i(2325),	-- Black Dye
+					i(6260),	-- Blue Dye
+					i(2605),	-- Green Dye
+					i(4340),	-- Grey Dye
+					i(4342),	-- Purple Dye
+					i(2604),	-- Red Dye
+					i(2320),	-- Coarse Thread
+					i(2321),	-- Fine Thread
+					i(4291),	-- Silken Thread
+					i(8343),	-- Heavy Silken Thread
+					i(14341),	-- Rune Thread
+				},
+				sharedData({
+					["description"] = "Can be bought from Tailoring Suppliers, as well as some Trade vendors around the world.",
+					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when providers are given.
+					--[[["providers"] = {
+						{ "n", 1347},	-- Alexandra Bolero <Tailoring Supplies>
+						{ "n", 3364},	-- Borya <Tailoring Supplies>
+						{ "n", 4168},	-- Elynna <Tailoring Supplies>
+						{ "n", 3005},	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
+						{ "n", 4577},	-- Millie Gregorian <Tailoring Supplies>
+						{ "n", 8681},	-- Outfitter Eric <Speciality Tailoring Supplies>
+						{ "n", 5154},	-- Poranna Snowbraid <Tailoring Supplies>
+						-- #if AFTER TBC
+						{ "n", 18749},	-- Dalinna <Tailoring Trainer>
+						{ "n", 16638},	-- Deynna <Tailoring Supplies>
+						{ "n", 19213},	-- Eiin <Specialty Tailoring Supplies>
+						{ "n", 18772},	-- Hama <Tailoring Trainer>
+						{ "n", 16767},	-- Neii <Tailoring Supplies>
+						-- #endif
+						-- #if AFTER WRATH
+						{ "n", 28726},	-- Dominique Stefano <Tailoring Supplies>
+						-- #endif
+					},]]
+				}, {
+					i(2324),	-- Bleach (Only sold by Tailoring Suppliers)
+					i(6261),	-- Orange Dye (Only used in Tailoring)
+					i(10290),	-- Pink Dye (Only used in Tailoring)
+					i(4341),	-- Yellow Dye (Only used in Tailoring)
+				})
+			)
 		}),
 		filter(MISC, {
 			applyclassicphase(PHASE_ONE_DIREMAUL, i(18258, {["timeline"] = { REMOVED_4_0_3, ADDED_10_1_5 }})),	-- Gordok Ogre Suit

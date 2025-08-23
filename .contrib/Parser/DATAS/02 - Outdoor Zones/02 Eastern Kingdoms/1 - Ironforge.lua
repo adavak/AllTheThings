@@ -1994,18 +1994,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 50.6, 27.0, IRONFORGE },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						-- #if AFTER CATA
-						{ "sub", "common_recipes_vendor", 50480 },	-- Isabel Jones <Jewelcrafting Supplies>
-						-- #endif
-						{ "select","itemID",
-						52188,	-- Jeweler's Setting
-						20815,	-- Jeweler's Toolset/-Kit
-						-- #if BEFORE MOP
-						20824,	-- Simple Grinder
-						-- #endif
-						},
-					},
+					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(5129, {	-- Lissyphus Finespindle
 					["coord"] = { 54.6, 88.2, IRONFORGE },
@@ -2125,7 +2114,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(8681, {	-- Outfitter Eric <Speciality Tailoring Supplies>
 					["coord"] = { 43.0, 29.2, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = appendGroups(VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, VANILLA_TAILORING_SUPPLIES, {
+					["groups"] = {
 						i(10314, {	-- Pattern: Lavender Mageweave Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -2141,16 +2130,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(10321, {	-- Pattern: Tuxedo Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
-					}),
+					},
 				}),
 				n(5154, {	-- Poranna Snowbraid <Tailoring Supplies>
 					["coord"] = { 43.8, 29.6, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = appendGroups(
-						-- #if AFTER CATA
-						COMMON_CATACLYSM_TAILORING_RECIPES,
-						-- #endif
-						VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, VANILLA_TAILORING_SUPPLIES, {}),
+					-- #if AFTER CATA
+					["groups"] = COMMON_CATACLYSM_TAILORING_RECIPES,
+					-- #endif
 				}),
 				n(5108, {	-- Raena Flinthammer <Light Armor Merchant>
 					["coord"] = { 32.6, 58.0, IRONFORGE },

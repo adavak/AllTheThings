@@ -292,18 +292,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16705, {	-- Altaa <Alchemy Supplies>
 					["coord"] = { 28.1, 61.9, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{ "select","itemID",
-						2453,	-- Bruiseweed
-						2449,	-- Earthroot
-						3356,	-- Kingsblood
-						785,	-- Mageroyal
-						3357,	-- Liferoot
-						2447,	-- Peacebloom
-						765,	-- Silverleaf
-						3355,	-- Wild Steelbloom
-						},
-					},
 					["groups"] =  {
 						i(22900, {	-- Recipe: Elixir of Camouflage (RECIPE!)
 							["isLimited"] = true,
@@ -348,7 +336,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 							7337,	-- The Rock
 						},
 					},
-					["groups"] = appendGroups(JEWELCRAFTING_SUPPLIES, {
+					["groups"] = {
 						i(20854, {	-- Design: Amulet of the Moon
 							["isLimited"] = true,
 						}),
@@ -361,7 +349,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						i(20975, {	-- Design: The Jade Eye
 							["isLimited"] = true,
 						}),
-					}),
+					},
 				}),
 				n(16715, {	-- Avelii
 					["coord"] = { 48.6, 90.2, THE_EXODAR },
@@ -609,7 +597,9 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16767, {	-- Neii <Tailoring Supplies>
 					["coord"] = { 64.7, 68.5, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
+					-- #if AFTER CATA
 					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
+					-- #endif
 					["groups"] = {
 						i(21892),	-- Pattern: Bolt of Imbued Netherweave (RECIPE!)
 						i(21894, {	-- Pattern: Bolt of Soulcloth (RECIPE!)
