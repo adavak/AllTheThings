@@ -393,7 +393,12 @@ local function PrintDiscordInformationForExploration(o)
 	end
 	if not x or not y then app.print("Area",areaID,"has no valid coords on mapID",mapID) end
 
-	local luaFormat = "visit_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
+	local luaFormat
+	if not IsInInstance() then
+		luaFormat = "visit_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
+	else
+		luaFormat = "visit_exploration(%d),\t-- %s"
+	end
 	tinsert(info, luaFormat:format(areaID,x or 0,y or 0,mapID,text));
 	tinsert(info, "");
 	tinsert(info, "areaID: " .. (areaID or "??"));
