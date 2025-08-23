@@ -95,7 +95,7 @@ MIDNIGHT_TEMPORARY = createHeader({
 		-- tw = "至暗之夜",
 	},
 	description = {
-		en = "The War Within is the tenth expansion for World of Warcraft and the beginning of the Worldsoul Saga. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees.",
+		en = "Midnight is the eleventh expansion for World of Warcraft and the second chapter of the Worldsoul Saga.",
 	};
 });
 WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION = createHeader({
