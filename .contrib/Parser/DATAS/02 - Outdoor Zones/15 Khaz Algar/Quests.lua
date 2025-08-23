@@ -689,7 +689,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 								{ 64.3, 43.0, ISLE_OF_DORN },
 								{ 63.2, 45.2, ISLE_OF_DORN },
 							},
-							["groups"] = { i(226162), },	-- Arcane Manuscript (QI!)
+							["groups"] = { i(226162) },	-- Arcane Manuscript (QI!)
 						}),
 					},
 				}),
@@ -743,15 +743,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 					["groups"] = {
 						o(465294, { -- Antonidas' Introduction to Arcane Magic
 							["coord"] = { 35.7, 51.4, AZJ_KAHET },
-							["groups"] = { i(228820), },	-- Antonidas' Introduction to Arcane Magic (QI!)
+							["groups"] = { i(228820) },	-- Antonidas' Introduction to Arcane Magic (QI!)
 						}),
 						o(465295, { -- Medivh's Karazhan Schematics
 							["coord"] = { 35.1, 51.2, AZJ_KAHET },
-							["groups"] = { i(228821), },	-- Medivh's Karazhan Schematics (QI!)
+							["groups"] = { i(228821) },	-- Medivh's Karazhan Schematics (QI!)
 						}),
 						o(465300, { -- Thalen Songweaver's Notes
 							["coord"] = { 36.1, 52.6, AZJ_KAHET },
-							["groups"] = { i(228823), },	-- Thalen Songweaver's Notes (QI!)
+							["groups"] = { i(228823) },	-- Thalen Songweaver's Notes (QI!)
 						}),
 					},
 				}),

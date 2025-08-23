@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["sourceQuests"] = { 90770 },	-- The Grift
 							["provider"] = { "n", 243915 },	-- Graftah
 							["coord"] = { 48.7, 41.5, KARESH_TAZAVESH },
-							["groups"] = { i(242733), },	-- Blue Barry (MOUNT!)
+							["groups"] = { i(242733) },	-- Blue Barry (MOUNT!)
 						}),
 					})),
 				}),

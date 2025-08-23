@@ -234,25 +234,25 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["sourceQuest"] = 90754,	-- Skyriding
 			["qg"] = 218469,	-- Lord Andestrasz
 			["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
-			["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+			["groups"] = { i(216712) },	-- Bronze Timepiece (PQI!)
 		}),
 		q(80015, {	-- How to Dive with Your Dragon
 			["sourceQuest"] = 80013,	-- How to Glide with Your Dragon
 			["qg"] = 218469,	-- Lord Andestrasz
 			["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
-			["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+			["groups"] = { i(216712) },	-- Bronze Timepiece (PQI!)
 		}),
 		q(80016, {	-- The Need For Higher Velocities
 			["sourceQuest"] = 80015,	-- How to Dive with Your Dragon
 			["qg"] = 218469,	-- Lord Andestrasz
 			["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
-			["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+			["groups"] = { i(216712) },	-- Bronze Timepiece (PQI!)
 		}),
 		q(80017, {	-- The Need For Higher Altitudes
 			["sourceQuest"] = 80016,	-- The Need For Higher Velocities
 			["qg"] = 218469,	-- Lord Andestrasz
 			["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
-			["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+			["groups"] = { i(216712) },	-- Bronze Timepiece (PQI!)
 		}),
 		q(80018, {	-- Fashionable Flying
 			["sourceQuest"] = 80017,	-- The Need For Higher Altitudes
@@ -287,7 +287,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["description"] = "Quest becomes available after you enable 'Heroic World Tier'.",
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
-			["groups"] = { i(246808), },	-- Experiment Instructions (PQI!)
+			["groups"] = { i(246808) },	-- Experiment Instructions (PQI!)
 		}),
 		q(90892, {	-- Clearing the Skies: A Fel of a Time
 			["description"] = "Quest pops-up when you fly through first 'Mote of Bronze' in the zone.",

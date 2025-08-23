@@ -52,22 +52,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 									{ 53.7, 88.8, SIREN_ISLE },
 									{ 54.9, 83.7, SIREN_ISLE },
 								},
-								["groups"] = { i(231786), },	-- Ookler's Diary (QI!)
+								["groups"] = { i(231786) },	-- Ookler's Diary (QI!)
 							}),
 							o(477366, {	-- Dat-Dat's Book Stash
 								["coord"] = { 60.6, 97.6, SIREN_ISLE },
-								["groups"] = { i(231802), },	-- Ashvane Co. Survey Report (QI!)
+								["groups"] = { i(231802) },	-- Ashvane Co. Survey Report (QI!)
 							}),
 							o(477612, {	-- Siren Isle Manifest
 								["coords"] = {
 									{ 55.2, 93.1, SIREN_ISLE },
 									{ 68.3, 94.3, SIREN_ISLE },
 								},
-								["groups"] = { i(231813), },	-- Siren Isle Manifest (QI!)
+								["groups"] = { i(231813) },	-- Siren Isle Manifest (QI!)
 							}),
 							o(477248, {	-- Songs of the Siren
 								["coord"] = { 62.8, 97.2, SIREN_ISLE },
-								["groups"] = { i(231788), },	-- Songs of the Siren (QI!)
+								["groups"] = { i(231788) },	-- Songs of the Siren (QI!)
 							}),
 						},
 					}),

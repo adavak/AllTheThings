@@ -62,24 +62,24 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						i(250281),	-- Phase-Lost Battleaxe (COSMETIC!)
 						i(250297),	-- Phase-Lost Beacon (COSMETIC!)
 						i(250286),	-- Phase-Lost Blunderbuss (COSMETIC!)
-						i(250298),	-- Phase-Lost Bulwark (COSMETIC!)		{ 51.2, 67.7, KARESH }
-						i(250273),	-- Phase-Lost Carver (COSMETIC!)		{ 78.4, 48.9, KARESH }
+						i(250298),	-- Phase-Lost Bulwark (COSMETIC!)
+						i(250273),	-- Phase-Lost Carver (COSMETIC!)
 						i(250280),	-- Phase-Lost Chopper (COSMETIC!)
-						i(250295),	-- Phase-Lost Claw (COSMETIC!)			{ 54.4, 49.3, KARESH }
+						i(250295),	-- Phase-Lost Claw (COSMETIC!)
 						i(250272),	-- Phase-Lost Cudgel (COSMETIC!)
 						i(250289),	-- Phase-Lost Dirk (COSMETIC!)
 						i(250278),	-- Phase-Lost Great Mace (COSMETIC!)
 						i(250276),	-- Phase-Lost Greatsword (COSMETIC!)
 						i(250271),	-- Phase-Lost Hammer (COSMETIC!)
 						i(250274),	-- Phase-Lost Hatchet (COSMETIC!)
-						i(250294),	-- Phase-Lost Katar (COSMETIC!)			{ 58.9, 57.5, KARESH }
+						i(250294),	-- Phase-Lost Katar (COSMETIC!)
 						i(250287),	-- Phase-Lost Longbow (COSMETIC!)
 						i(250269),	-- Phase-Lost Longsword (COSMETIC!)
 						i(250277),	-- Phase-Lost Maul (COSMETIC!)
 						i(250299),	-- Phase-Lost Pavise (COSMETIC!)
-						i(250300),	-- Phase-Lost Rod (COSMETIC!)			{ 51.2, 67.7, KARESH }
+						i(250300),	-- Phase-Lost Rod (COSMETIC!)
 						i(250270),	-- Phase-Lost Scimitar (COSMETIC!)
-						i(250285),	-- Phase-Lost Shillelagh (COSMETIC!)	{ 54.3, 63.2, KARESH }
+						i(250285),	-- Phase-Lost Shillelagh (COSMETIC!)
 						i(250296),	-- Phase-Lost Sigil (COSMETIC!)
 						i(250283),	-- Phase-Lost Spear (COSMETIC!)
 						i(250284),	-- Phase-Lost Spire (COSMETIC!)
@@ -281,7 +281,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
 						["coord"] = { 69.9, 70.8, KARESH },
 						["questID"] = 91058,
-						["groups"] = { i(245673), },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
+						["groups"] = { i(245673) },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
 					}),
 					o(527414, {	-- Ethereal Voidforged Container
 						["questID"] = 89378,
@@ -296,55 +296,55 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 78.0, 48.9, KARESH },
 						["questID"] = 90514,
-						["groups"] = { i(243004), },	-- Efrat's Forgotten Bulwark (COSMETIC!)
+						["groups"] = { i(243004) },	-- Efrat's Forgotten Bulwark (COSMETIC!)
 					}),
 					o(529669, {	-- Korgoraths Talon
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 64.4, 42.7, KARESH },
 						["questID"] = 90532,
-						["groups"] = { i(243153), },	-- Korgorath's Talon (COSMETIC!)
+						["groups"] = { i(243153) },	-- Korgorath's Talon (COSMETIC!)
 					}),
 					o(529525, {	-- Light-Soaked Cleaver
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 52.5, 46.8, KARESH },
 						["questID"] = 90511,
-						["groups"] = { i(243002), },	-- Light-Soaked Cleaver (COSMETIC!)
+						["groups"] = { i(243002) },	-- Light-Soaked Cleaver (COSMETIC!)
 					}),
 					o(548001, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 47.5, 70.0, KARESH_TAZAVESH },
 						["questID"] = 91056,
-						["groups"] = { i(245669), },	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
+						["groups"] = { i(245669) },	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
 					}),
 					o(529539, {	-- Petrified Branch Of Janaa
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
 						["coord"] = { 78.3, 61.6, KARESH },
 						["questID"] = 90515,
-						["groups"] = { i(243006), },	-- Petrified Branch of Janaa (COSMETIC!)
+						["groups"] = { i(243006) },	-- Petrified Branch of Janaa (COSMETIC!)
 					}),
 					o(548010, {	-- Phaseblade Of The Void Marches
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 50.8, 35.3, KARESH },
 						["questID"] = 91057,
-						["groups"] = { i(245671), },	-- Phaseblade of the Void Marches (COSMETIC!)
+						["groups"] = { i(245671) },	-- Phaseblade of the Void Marches (COSMETIC!)
 					}),
 					o(529664, {	-- Shadowguard Crusher
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 49.2, 18.0, KARESH },
 						["questID"] = 90527,
-						["groups"] = { i(243008), },	-- Shadowguard Crusher (COSMETIC!)
+						["groups"] = { i(243008) },	-- Shadowguard Crusher (COSMETIC!)
 					}),
 					o(529533, {	-- Spear Of Fallen Memories
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 23.7, 46.8, KARESH_TAZAVESH },
 						["questID"] = 90512,
-						["groups"] = { i(243003), },	-- Spear of Fallen Memories (COSMETIC!)
+						["groups"] = { i(243003) },	-- Spear of Fallen Memories (COSMETIC!)
 					}),
 					o(529591, {	-- Sufaadi Skiff Lantern
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 80.7, 52.8, KARESH },
 						["questID"] = 90521,
-						["groups"] = { i(243009), },	-- Sufaadi Skiff Lantern (COSMETIC!)
+						["groups"] = { i(243009) },	-- Sufaadi Skiff Lantern (COSMETIC!)
 					}),
 					o(547995, {	-- Warglaive of the Audacious Hunter
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
@@ -353,13 +353,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							{ 62.5, 52.2, 2477 },	-- Voidscar Cavern
 						},
 						["questID"] = 91055,
-						["groups"] = { i(245667), },	-- Warglaive of the Audacious Hunter (COSMETIC!)
+						["groups"] = { i(245667) },	-- Warglaive of the Audacious Hunter (COSMETIC!)
 					}),
 					o(529643, {	-- Tulwar Of The Golden Guard
 						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
 						["coord"] = { 51.0, 65.1, KARESH },
 						["questID"] = 90522,
-						["groups"] = { i(243005), },	-- Tulwar of the Golden Guard (COSMETIC!)
+						["groups"] = { i(243005) },	-- Tulwar of the Golden Guard (COSMETIC!)
 					}),
 				}),
 				header(HEADERS.Achievement, 60890, {	-- Secrets of the K'areshi

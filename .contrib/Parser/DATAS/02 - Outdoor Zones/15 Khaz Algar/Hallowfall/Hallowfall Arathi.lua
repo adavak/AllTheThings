@@ -482,7 +482,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 											{ 65.4, 27.3, HALLOWFALL },
 											{ 65.8, 24.4, HALLOWFALL },
 										},
-										["groups"] = { i(211975), },	-- Arathi Toolkit (QI!)
+										["groups"] = { i(211975) },	-- Arathi Toolkit (QI!)
 									}),
 									i(211968),	-- Blueprint Bundle (QI!)
 									o(416971, {	-- Fallow Corn
@@ -497,7 +497,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 											{ 65.5, 30.2, HALLOWFALL },
 											{ 66.2, 32.4, HALLOWFALL },
 										},
-										["groups"] = { i(211971), },	-- Fallow Corn (QI!)
+										["groups"] = { i(211971) },	-- Fallow Corn (QI!)
 									}),
 									o(416969, {	-- Harvest Wine
 										["coords"] = {
@@ -526,7 +526,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 											{ 66.4, 23.7, HALLOWFALL },
 											{ 66.5, 23.7, HALLOWFALL },
 										},
-										["groups"] = { i(211972), },	-- Hallowfall Farm Supplies (QI!)
+										["groups"] = { i(211972) },	-- Hallowfall Farm Supplies (QI!)
 									}),
 									i(211967),	-- Large Sealed Crate (QI!)
 									i(211966),	-- Nerubian Sealed Crate (QI!)
@@ -540,7 +540,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 											{ 67.6, 29.4, HALLOWFALL },
 											{ 67.6, 29.5, HALLOWFALL },
 										},
-										["groups"] = { i(211974), },	-- Rolled Arathi Rug (QI!)
+										["groups"] = { i(211974) },	-- Rolled Arathi Rug (QI!)
 									}),
 									i(211973),	-- Spider-Touched Bag (QI!)
 									o(416968, {	-- Stillstone Catch
@@ -555,7 +555,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 											{ 67.1, 24.5, HALLOWFALL },
 											{ 67.2, 27.9, HALLOWFALL },
 										},
-										["groups"] = { i(211964), },	-- Stillstone Catch (QI!)
+										["groups"] = { i(211964) },	-- Stillstone Catch (QI!)
 									}),
 								},
 							}),
@@ -575,7 +575,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 									i(211478),	-- Darkroot Persimmon (QI!)
 									o(414700, {	-- Ethereal Sugar
 										["coord"] = { 64.2, 28.1, HALLOWFALL },
-										["groups"] = { i(219808), },	-- Ethereal Sugar (QI!)
+										["groups"] = { i(219808) },	-- Ethereal Sugar (QI!)
 									}),
 									i(211479),	-- Frog-Kissed Caviar (QI!)
 								},

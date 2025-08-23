@@ -389,7 +389,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 										{ 31.6, 37.7, AZJ_KAHET },
 										{ 32.0, 42.0, AZJ_KAHET },
 									},
-									["groups"] = { i(219415), },	-- Bloodied Insignia (QI!)
+									["groups"] = { i(219415) },	-- Bloodied Insignia (QI!)
 								}),
 							},
 						}),
@@ -547,7 +547,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								}),
 								o(439324, {	-- Discarded Artifacts
 									["coord"] = { 36.6, 28.1, NERUBAR },
-									["groups"] = { i(219347), },	-- Kaheti Etching (QI!)
+									["groups"] = { i(219347) },	-- Kaheti Etching (QI!)
 								}),
 							},
 						}),

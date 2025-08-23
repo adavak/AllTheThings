@@ -2148,9 +2148,6 @@ root(ROOTS.Unsorted, {
 				i(247794),	-- Darkfeather Eclipse
 				i(247795),	-- Ornery Breezestrider
 				i(248761),	-- Brewfest Barrel Bomber
-
-				-- Mount Mods
-				i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive
 			}),
 			n(PROFESSIONS, {
 				i(231770),	-- Formula: Enchanted Gilded Ethereal Crest
@@ -2263,8 +2260,6 @@ root(ROOTS.Unsorted, {
 				i(233287),	-- Barrel of Swirling Energy
 				i(235983),	-- Warrant: Shatterpulse
 				i(238296),	-- Phase Disruptor
-				i(238903),	-- Appropriated Azerothian Camera
-				i(238906),	-- Appropriated Azerothian Camera
 				i(238907),	-- Anima Orb
 				i(238910),	-- Lasso
 				i(238914),	-- Hemet's Soothin' Flute

@@ -1153,7 +1153,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 75.8, 33.9, KARESH },
 					}),
 					q(87291, {	-- Salad Bar
-						["sourceQuests"] = { 87292 },	-- Rooting for Trouble
+						["sourceQuests"] = {
+							87292,	-- Rooting for Trouble
+							86351,	-- Strike a Pose
+						},
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
 						["groups"] = {
@@ -1552,6 +1555,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(89210, {	-- Photography is the Bee's Knees
 						["isDaily"] = true,
+						["groups"] = { i(238903) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.02, {	-- Slatebacks
@@ -1593,8 +1597,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(89212, {	-- Royal Photographer
 						["isDaily"] = true,
+						["groups"] = { i(238906) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
-					q(85465, {	--
+					q(85465, {	-- Play Ball
 						["isDaily"] = true,
 					}),
 					q(85721, {	--

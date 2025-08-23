@@ -360,7 +360,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 			n(THERAMORES_FALL, {
 				["maps"] = { 483 },	-- Theramore's Fall
 				["groups"] = {
-					n(ACHIEVEMENTS, bubbleDown({ ["lvl"] = lvlsquish(90, 90, 35), }, {
+					n(ACHIEVEMENTS, bubbleDown({ ["lvl"] = lvlsquish(90, 90, 35) }, {
 						a(ach(7526)),	-- Kite Flight (A)
 						h(ach(7529)),	-- Kite Fight (H)
 						a(ach(7527)),	-- No Tank You (A)

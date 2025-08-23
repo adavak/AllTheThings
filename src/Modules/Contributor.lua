@@ -1460,6 +1460,7 @@ MobileDB.GameObject = {
 	[510772] = true,	-- Weighty Variable Rod (q:87010)
 	[516163] = true,	-- Half-Empty Bag
 	[516296] = true,	-- Sureki Cage (Nightfall)
+	[516302] = true,	-- Pricklebloom
 	[516304] = true,	-- Lustrous Conker (q:87291, 89221)
 	[516444] = true,	-- Ethereal Pocket-Storage
 	[516465] = true,	-- Weighty Variable Rod (q:87010)

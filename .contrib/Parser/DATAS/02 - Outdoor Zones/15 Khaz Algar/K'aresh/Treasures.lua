@@ -13,17 +13,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						{ 60.1, 60.9, KARESH },
 					},
 					["questID"] = 92348,
-					["groups"] = { i(246299), },	-- Blade of Lost Hope (COSMETIC!)
+					["groups"] = { i(246299) },	-- Blade of Lost Hope (COSMETIC!)
 				}),
 				-- Groupping these together since they are all part of the same treasure
 				o(503363, {	-- Battered Book
 					["coord"] = { 66.6, 44.8, KARESH },
 					["questID"] = 86415,
-					["groups"] = { i(233794), },	-- Battered Book
+					["groups"] = { i(233794) },	-- Battered Book
 				}),
 				o(503370, {	-- Submerged Bottle
 					["coord"] = { 76.2, 31.2, KARESH },
-					["groups"] = { i(233799), },	-- Submerged Bottle
+					["groups"] = { i(233799) },	-- Submerged Bottle
 				}),
 				o(503375, {	-- Ancient Coffer
 					["description"] = "Find 'Battered Book' and 'Submerged Bottle' in order to reveal the Coffer and obtain it's Treasure.",
@@ -33,13 +33,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						{ "i", 233794, 1 },	-- Battered Book
 						{ "i", 233799, 1 },	-- Submerged Bottle
 					},
-					["groups"] = { i(245269), },	-- Mr. Long-Legs (PET!)
+					["groups"] = { i(245269) },	-- Mr. Long-Legs (PET!)
 				}),
 				--
 				o(502603, {	-- Crudely Stitched Sack
 					["coord"] = { 58.6, 34.3, KARESH },
 					["questID"] = 86323,
-					["groups"] = { i(246295), },	-- Tazavesh Lookout's Mace (COSMETIC!)
+					["groups"] = { i(246295) },	-- Tazavesh Lookout's Mace (COSMETIC!)
 				}),
 				o(499093, {	-- Forlorn Wind Chime
 					["coord"] = { 69.7, 52.3, KARESH },
@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				o(504172, {	-- Ixthar's Favorite Crystal
 					["coord"] = { 64.1, 44.0, KARESH },
 					["questID"] = 86492,
-					["groups"] = { i(243144), },	-- Reshi Crystal Fragments
+					["groups"] = { i(243144) },	-- Reshi Crystal Fragments
 				}),
 				o(499086, {	-- Lightly-Dented Luggage
 					["coords"] = {	-- Two (maybe more?) possible spawn points
@@ -98,7 +98,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["provider"] = { "o", 503837 },	-- Mailroom Distribution [Vignette]
 					["coord"] = { 48.1, 64.1, KARESH_TAZAVESH },
 					["questID"] = 86467,
-					["groups"] = { i(245970), },	-- P.O.S.T. Master's Express Hearthstone (TOY!)
+					["groups"] = { i(245970) },	-- P.O.S.T. Master's Express Hearthstone (TOY!)
 				}),
 				o(502471, {	-- Rashaal's Vase
 					["coords"] = {
@@ -110,17 +110,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				o(499097, {	-- Sand-Worn Coffer
 					["coord"] = { 54.5, 24.5, KARESH },
 					["questID"] = 85840,
-					["groups"] = { i(246297), },	-- Desperate Defender's Bladed Staff (COSMETIC!)
+					["groups"] = { i(246297) },	-- Desperate Defender's Bladed Staff (COSMETIC!)
 				}),
 				o(502485, {	-- Shattered Crystals
 					["coord"] = { 75.1, 55.3, KARESH },
 					["questID"] = 86308,
-					["groups"] = { i(243144), },	-- Reshi Crystal Fragments
+					["groups"] = { i(243144) },	-- Reshi Crystal Fragments
 				}),
 				o(502547, {	-- Skeletal Tail Bones
 					["coord"] = { 77.8, 27.9, KARESH },
 					["questID"] = 86322,
-					["groups"] = { i(243158), },	-- Ixthal the Observling (PET!)
+					["groups"] = { i(243158) },	-- Ixthal the Observling (PET!)
 				}),
 				o(502452, {	-- Tumbled Package
 					["coord"] = { 65.3, 63.6, KARESH },
