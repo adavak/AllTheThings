@@ -16,6 +16,11 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(93440),	-- Crafted Dreadful Gladiator's Endgame
 					i(93450),	-- Crafted Dreadful Gladiator's Reprieve
 				})),
+
+				-- 5.4.0
+				expansion(EXPANSION.MOP, patch(4,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_4_0 } }, {
+					i(104274),	-- Glyph of Focused Fire
+				})),
 			}),
 			expansion(EXPANSION.BFA, {
 				-- 8.0.1
@@ -390,6 +395,12 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				r(58309),	-- Glyph of the Bear Cub
 			}),
 			-- #endif
+			expansion(EXPANSION.MOP, {
+				-- 5.4.0
+				expansion(EXPANSION.MOP, patch(4,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_4_0 } }, {
+					i(104280),	-- Technique: Glyph of Focused Fire
+				})),
+			}),
 			expansion(EXPANSION.BFA, {
 				-- 8.0.1
 				expansion(EXPANSION.BFA, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_8_0_1 } }, {

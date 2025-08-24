@@ -1550,6 +1550,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 47.0, 87.4, TIMELESS_ISLE },	-- mapID needs verification
 						["groups"] = {
 							i(104303),	-- Rain Stone
+							i(104225),	-- Technique: Glyph of Condensation
 						},
 					}),
 					n(71919, {	-- Zhu-Gon the Sour

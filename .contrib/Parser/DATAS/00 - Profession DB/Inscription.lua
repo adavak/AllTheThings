@@ -669,17 +669,29 @@ i(0, 128922);	-- Portrait of Madam Goya (Quest?)
 -----------------
 -- PATCH 5.4.0 --
 -----------------
+i(102534, 146638);	-- Crafted Malevolent Gladiator's Medallion of Tenacity
+i(104228, 148275);	-- Glyph of Angels
+i(104240, 148287);	-- Glyph of Astral Fixation
+i(104225, 148272);	-- Glyph of Condensation
+i(104212, 148259);	-- Glyph of Divine Shield
+i(104239, 148286);	-- Glyph of Elemental Familiars
+i(104281, 148489);	-- Glyph of Enduring Deceit
+i(104215, 148262);	-- Glyph of Eternal Earth
+i(104224, 148271);	-- Glyph of Evaporation
+i(104211, 148258);	-- Glyph of Festering Blood
+i(104237, 148284);	-- Glyph of Flaming Serpent
+i(104213, 148260);	-- Glyph of Hand of Sacrifice
+i(104231, 148278);	-- Glyph of Inspired Hymns
+i(104235, 148282);	-- Glyph of Lingering Ancestors
+i(104227, 148274);	-- Glyph of Pillar of Light
 i(104234, 148281);	-- Glyph of Spirit Raptors
+i(104226, 148273);	-- Glyph of the Exorcist
+i(104229, 148276);	-- Glyph of the Sha
 i(104219, 148266);	-- Glyph of the Skeleton
 i(104245, 148292);	-- Glyph of the Weaponmaster
 i(104223, 148270);	-- Glyph of the Unbound Elemental
-i(102534, 146638);	-- Crafted Malevolent Gladiator's Medallion of Tenacity
-i(104224, 148271);	-- Glyph of Evaporation
-i(104231, 148278);	-- Glyph of Inspired Hymns
-i(104235, 148282);	-- Glyph of Lingering Ancestors
-i(104229, 148276);	-- Glyph of the Sha
-i(104228, 148275);	-- Glyph of Angels
-i(104227, 148274);	-- Glyph of Pillar of Light
+--- NYI ---
+i(104280, 148488);	-- Glyph of Focused Fire
 
 -- 5.0.3.15890
 i(0, 112437);	--
@@ -707,9 +719,6 @@ i(0, 112457);	--
 i(0, 112452);	--
 --6.0.1.18179
 -- if not all are 5.4.0 material?
-i(0, 148287);	--
-i(0, 148260);	--
-i(0, 148488);	--
 i(0, 148269);	--
 i(0, 148268);	--
 i(0, 148490);	--
@@ -722,16 +731,10 @@ i(0, 148261);	--
 i(0, 148285);	--
 i(0, 148280);	--
 i(0, 148487);	--
-i(0, 148259);	--
 i(0, 148279);	--
 i(0, 148283);	--
-i(0, 148284);	--
 i(0, 148257);	--
-i(0, 148273);	--
 i(0, 148288);	--
-i(0, 148286);	--
-i(0, 148489);	--
-i(0, 148272);	--
 
 
 -----------------

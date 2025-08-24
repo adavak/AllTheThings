@@ -603,8 +603,39 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = 
 			})),
 		}),
 		prof(INSCRIPTION, {
-			i(102534),	-- Technique: Crafted Malevolent Gladiator's Medallion of Tenacity
-			i(104228),	-- Technique: Glyph of Angels
+			i(102534, {	-- Technique: Crafted Malevolent Gladiator's Medallion of Tenacity
+				["timeline"] = { ADDED_5_4_0 },
+			}),
+			i(104228, {	-- Technique: Glyph of Angels
+				["timeline"] = { ADDED_5_4_0 },
+			}),
+			i(104240, {	-- Technique: Glyph of Astral Fixation
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104212, {	-- Technique: Glyph of Divine Shield
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104239, {	-- Technique: Glyph of Elemental Familiars
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104281, {	-- Technique: Glyph of Enduring Deceit
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104215, {	-- Technique: Glyph of Eternal Earth
+				["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+			}),
+			i(104226, {	-- Technique: Glyph of Exorcist
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104211, {	-- Technique: Glyph of Festering Blood
+				["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+			}),
+			i(104237, {	-- Technique: Glyph of Flaming Serpent
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104213, {	-- Technique: Glyph of Hand of Sacrifice
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
 			i(104234),	-- Technique: Glyph of Spirit Raptors
 			i(104229),	-- Technique: Glyph of the Sha
 			i(104223),	-- Technique: Glyph of the Unbound Elemental
