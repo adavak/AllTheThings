@@ -1830,9 +1830,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					}),
 					n(58949, {	-- Bai-Jin the Butcher <Shao-Tien Imperion>
 						["coords"] = {
-							{ 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
-							-- #if ANYCLASSIC
+							-- #if MOP_BEFORE_SOO
 							{ 15.36, 25.10, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #else
+							{ 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
 							-- #endif
 						},
 						-- #if ANYCLASSIC
@@ -1840,7 +1841,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						-- #endif
 					}),
 					n(63695, {	-- Baolai the Immolator <Shao-Tien Imperion>
-						["coord"] = { 28.7, 43.3, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							-- #if MOP_BEFORE_SOO
+							{ 37, 81, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #else
+							{ 28.7, 43.3, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
 						-- #if ANYCLASSIC
 						["crs"] = { 245163 },	-- Baolai the Immolator <Shao-Tien Imperion>
 						-- #endif
@@ -1858,31 +1865,44 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						-- #endif
 					}),
 					n(62881, {	-- Gaohun the Soul-Severer <Shao-Tien Imperion>
-						["coord"] = { 53.1, 59.3, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+						["coords"] = {
+							-- #if MOP_BEFORE_SOO
+							{ 39, 74.7, VALE_OF_ETERNAL_BLOSSOMS },	-- Pre-5.4
+							-- #else
+							{ 53.1, 59.3, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+							-- #endif
+						},
 						-- #if ANYCLASSIC
 						["crs"] = { 245153 },	-- Gaohun the Soul-Severer <Shao-Tien Imperion>
 						-- #endif
 					}),
 					n(63101, {	-- General Temuja <The Soul-Slaver>
 						["coords"] = {
+							-- #if MOP_BEFORE_SOO
+							{ 68, 55, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #else
 							{ 26.3, 51.1, VALE_OF_ETERNAL_BLOSSOMS },
-							{ 28.9, 56.3, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 30.6, 58.2, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
 						},
 						-- #if ANYCLASSIC
 						["crs"] = { 246242 },	-- General Temuja <The Soul-Slaver>
 						-- #endif
 					}),
 					n(62880, {	-- Gochao the Ironfist <Shao-Tien Imperion>
-						["coord"] = { 26.86, 13.08, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							-- #if MOP_BEFORE_SOO
+							{ 76.8, 72.0, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+							-- #else
+							{ 26.86, 13.08, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
 						-- #if ANYCLASSIC
 						["crs"] = { 246031 },	-- Gochao the Ironfist <Shao-Tien Imperion>
 						-- #endif
 					}),
 					n(63691, {	-- Huo-Shuang <Shao-Tien Imperion>
-						["coords"] = {
-							{ 63.92, 19.07, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
-							{ 63.98, 19.19, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
-						},
+						["coord"] = { 75.8, 47.5, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
 						-- #if ANYCLASSIC
 						["crs"] = { 246032 },	-- Huo-Shuang <Shao-Tien Imperion>
 						-- #endif
@@ -1895,15 +1915,24 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					}),
 					n(58771, {	-- Quid <Spirit of the Misty Falls>
 						["coords"] = {
+							-- #if MOP_BEFORE_SOO
 							{ 30.63, 79.24, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #else
 							{ 66.4, 39.3, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
 						},
 						-- #if ANYCLASSIC
 						["crs"] = { 244995 },	-- Quid <Spirit of the Misty Falls>
 						-- #endif
 					}),
 					n(63240, {	-- Shadowmaster Sydow <The Soul-Gatherer>
-						["coord"] = { 30.5, 78.4, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							-- #if MOP_BEFORE_SOO
+							{ 40, 48, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #else
+							{ 30.5, 78.4, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
 						-- #if ANYCLASSIC
 						["crs"] = { 246246 },	-- Shadowmaster Sydow <The Soul-Gatherer>
 						-- #endif
@@ -1928,10 +1957,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					}),
 					n(63510, {	-- Wulon <The Granite Sentinel>
 						["coords"] = {
+							-- #if MOP_BEFORE_SOO
+							{ 76.8, 72.0, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+							-- #else
 							{ 45.3, 76.3, VALE_OF_ETERNAL_BLOSSOMS },
 							{ 40.2, 77.1, VALE_OF_ETERNAL_BLOSSOMS },
-							-- #if ANYCLASSIC
-							{ 76.8, 72.0, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
 							-- #endif
 						},
 						["crs"] = {
