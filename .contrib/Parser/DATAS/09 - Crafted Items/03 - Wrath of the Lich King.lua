@@ -1272,6 +1272,20 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			i(45849),	-- Twilight Tome
 		}),
+		filter(MISC, {
+			i(49632),	-- Runescroll of Fortitude
+			i(43463),	-- Scroll of Agility VII
+			i(43464),	-- Scroll of Agility VIII
+			i(37091),	-- Scroll of Intellect VII
+			i(37092),	-- Scroll of Intellect VIII
+			i(44315),	-- Scroll of Recall
+			i(37093),	-- Scroll of Stamina VII
+			i(37094),	-- Scroll of Stamina VIII
+			i(43465),	-- Scroll of Strength VII
+			i(43466),	-- Scroll of Strength VIII
+			i(37097),	-- Scroll of Versatility VII
+			i(37098),	-- Scroll of Versatility VIII
+		}),
 		category(106, {	-- Tarot Cards
 			sp(59504, {	-- Darkmoon Card of the North
 				i(44277),	-- Ace of Chaos
