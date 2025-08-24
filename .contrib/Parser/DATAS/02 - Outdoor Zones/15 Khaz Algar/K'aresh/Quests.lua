@@ -1554,6 +1554,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["isDaily"] = true,
 					}),
 					q(89210, {	-- Photography is the Bee's Knees
+						["qg"] = 232385,	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
 						["isDaily"] = true,
 						["groups"] = { i(238903) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
@@ -1596,6 +1598,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(238911) },	-- Pheromone Disperser (PQI!)
 					}),
 					q(89212, {	-- Royal Photographer
+						["qg"] = 230736,	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
 						["groups"] = { i(238906) },	-- Appropriated Azerothian Camera (PQI!)
 					}),

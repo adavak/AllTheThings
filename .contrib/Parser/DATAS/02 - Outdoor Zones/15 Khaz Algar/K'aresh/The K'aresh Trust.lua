@@ -52,6 +52,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 17 --
 						q(90665),	-- Carved Crests
 					}, {	-- RENOWN 18 --
+						q(90666),	-- A Bundle of Crystals
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 					}, {	-- RENOWN 21 --
