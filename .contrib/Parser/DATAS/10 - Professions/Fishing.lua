@@ -228,9 +228,6 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 	})),
 	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 		ach(6839),	-- Zen Master Fisherman
-		ach(7614, {	-- Locking Down the Docks
-			["sym"] = {{ "achievement_criteria" }},
-		}),
 		ach(7611, {	-- Pandarian Angler
 			["sym"] = {{ "achievement_criteria" }},
 		}),

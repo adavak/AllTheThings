@@ -1904,13 +1904,6 @@ root(ROOTS.Zones, {
 							i(86566),	-- Forager's Gloves
 						},
 					}),
-					n(70323, {	-- Krakkanon
-						q(31664, {	-- An Angler's Quest
-							["provider"] = { "i", 88563 },	-- Nat's Fishing Journal
-							["collectible"] = false,
-							["repeatable"] = true,
-						}),
-					}),
 					n(50789, {	-- Nessos the Oracle
 						["coord"] = { 63.8, 13.7, KUN_LAI_SUMMIT },
 						["groups"] = {

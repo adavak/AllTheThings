@@ -3696,21 +3696,6 @@ root(ROOTS.Zones, {
 							i(87642),	-- Darkstaff of Annihilation
 						},
 					}),
-					n(70323, {	-- Krakkanon
-						["description"] = "Fished out of the daily Pandaria fishing holes. Talk to Ben of the Booming Voice near Halfhill in Valley of the Four Winds to find out what is the daily fishing hole.",
-						["coords"] = {
-							{ 50.8, 20.8, THE_JADE_FOREST },
-							{ 55.8, 21.4, THE_JADE_FOREST },
-						},
-						["groups"] = {
-							i(88563, {	-- Nat's Fishing Journal
-								--["questID"] = 31664,	-- An Angler's Quest
-								["repeatable"] = true,
-								["icon"] = 133743,
-								["collectible"] = false,
-							}),
-						},
-					}),
 					n(50363, {	-- Krax'ik
 						["coord"] = { 39.5, 62.7, THE_JADE_FOREST },
 						["groups"] = {

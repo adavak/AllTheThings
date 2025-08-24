@@ -155,6 +155,13 @@ root(ROOTS.Zones, {
 							["groups"] = MOP_ENGINEERING
 						}),
 					}),
+					prof(FISHING, {
+						n(70398, {	-- Ben of the Booming Voice <Fishing Trainer>
+							["description"] = "Ben of the Booming Voice is a pandaren fishing trainer located on the bank of the Gilding Stream in the Valley of the Four Winds. When asked, he tells where fish are swarming in Pandaria that day. Wherever fish are swarming, there are a large number of fishing pools containing the type of fish Ben specifies.",
+							["coord"] = { 58.8, 47.0, VALLEY_OF_THE_FOUR_WINDS },
+							["timeline"] = { ADDED_5_2_0 },
+						}),
+					}),
 					prof(TAILORING, {
 						n(57405, {	-- Silkmaster Tsai <"The Tailor of Pandaria">
 							["coord"] = { 62.6, 59.6, VALLEY_OF_THE_FOUR_WINDS },
