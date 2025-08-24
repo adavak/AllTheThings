@@ -114,7 +114,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	prof(ARCHAEOLOGY, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 		i(64394),	-- Draenei Tome
 		i(64392),	-- Orc Blood Text
-		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
 		header(HEADERS.Currency, ARCH_CURRENCY_DRAENEI, {
 			["provider"] = { "o", 207188 },	-- Draenei Archaeology Find
 			["maps"] = {

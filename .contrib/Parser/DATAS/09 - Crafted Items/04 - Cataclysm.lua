@@ -112,7 +112,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 	}),
 	prof(ARCHAEOLOGY, {
-		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
 		i(64397),	-- Tol'vir Hieroglyphic
 		header(HEADERS.Currency, ARCH_CURRENCY_TOLVIR, {
 			["provider"] = { "o", 207190 },	-- Tol'vir Archaeology Find

@@ -139,7 +139,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	}),
 	prof(ARCHAEOLOGY, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 		i(64396),	-- Nerubian Obelisk
-		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
 		i(64395),	-- Vrykul Rune Stick
 		header(HEADERS.Currency, ARCH_CURRENCY_NERUBIAN, {
 			["provider"] = { "o", 203078 },	-- Nerubian Archaeology Find

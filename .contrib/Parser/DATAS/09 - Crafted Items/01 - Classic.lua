@@ -268,7 +268,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	prof(ARCHAEOLOGY, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 		i(52843),	-- Dwarf Rune Stone
 		i(63127),	-- Highborne Scroll
-		i(87399, {["timeline"] = { ADDED_5_0_4 }}),	-- Restored Artifact
 		i(63128),	-- Troll Tablet
 		header(HEADERS.Currency, ARCH_CURRENCY_DWARF, {
 			["provider"] = { "o", 204282 },	-- Dwarf Archaeology Find
