@@ -302,6 +302,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(86400, {["timeline"] = {ADDED_11_1_0}}),	-- provided 15x Carved Undermine Crest
 				-- 86365 (Crests Transmutation)
 				q(91744, {["timeline"] = {ADDED_11_2_0}}),	-- provided 15x Carved Ethereal Crest
+				-- 11.2?
+				--q(92487, {["timeline"] = {ADDED_11_2_0}}),	-- After turn in disk weekly quest, could be coffer key shard lockout?
 			}),
 		}),
 	}),

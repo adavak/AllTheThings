@@ -2590,13 +2590,16 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 				-- During main story
 				q(84901),	-- [DNT] CH04Q05p - Triggered after completing 'Like a Knife Through Aether' (84900)
 				q(85111),	-- [DNT] K'aresh Trust Renown Unlock (spellID 466720)
-				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
-				q(92627, {	-- Triggered after unlocking Renown 3 of The K'aresh Trust, unlocks Warrants
+				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910) / WQ unlocked? (spellID 1246760)
+				q(92626),	-- pop after 84967 (renown 3?) (spellID - 1256253 / Mark 11.2 Chapter 1 pre rep buff completion), phase into 'normal' Tazavesh area?
+				q(92627, {	-- Triggered after unlocking Renown 3 of The K'aresh Trust, unlocks Warrants (spellID 1256199 / Mark 11.2 Chapter 2 pre rep buff completion)
 					["name"] = "An Arrested Development",
 				}),
-				q(92629),	-- Triggered after completing 'That's a Wrap' (85037)
+				q(92628),	-- Mark 11.2 Chapter 3 pre rep buff completion (spellID 1256254 / 1246760?)
+				q(92629),	-- Triggered after completing 'That's a Wrap' (85037) / Skip for 86820 questID being up for alts? (spellID 1256200 / Mark 11.2 Chapter 4 pre rep buff completion)
 				-- ??
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
+				q(90814),	-- pop after 84958 with 90812
 				q(90807, { ["repeatable"] = true, } ),	-- Triggered at the completion of a main Warrant quest and obtaining the (QS!) item that starts "Eliminate" quest
 				q(91286, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
 				q(91287, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
