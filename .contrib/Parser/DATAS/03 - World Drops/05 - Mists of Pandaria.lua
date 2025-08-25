@@ -219,6 +219,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = 
 			i(82225),	-- Bejeweled Amulet
 			i(87473),	-- Necklace of the Eternal Watch
 			i(90583),	-- Don Guerrero's Glorious Choker
+			i(90590),	-- Dorian's Necklace of Burgeoning Dreams
 			i(82060),	-- Gemmed Amulet
 			i(82170),	-- Grummle Amulet
 			i(82280),	-- Immaculate Amulet
