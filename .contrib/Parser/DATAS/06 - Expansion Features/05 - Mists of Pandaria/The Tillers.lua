@@ -1106,23 +1106,23 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 64597,	-- Nana Mudclaw
 					["coord"] = { 54.7, 47.0, VALLEY_OF_THE_FOUR_WINDS },
 					["groups"] = {
-						objective(1, {	-- 0/3 Plant Juicycrunch Carrot Seeds
+						objective(1, {	-- 0/3 Plant Witchberry Seeds
 							["providers"] = {
-								{ "i", 80590 },	-- Juicycrunch Carrot Seeds
+								{ "i", 89326 },	-- Witchberry Seeds
 								{ "n", 59990 },	-- Tilled Soil
 							},
 							["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
 						}),
-						objective(2, {	-- 0/3 Harvest Juicycrunch Carrots
+						objective(2, {	-- 0/3 Harvest Witchberries
 							["providers"] = {
-								{ "n", 63154 },	-- Ripe Juicycrunch Carrot
-								{ "n", 63158 },	-- Bursting Juicycrunch Carrot
-								{ "n", 63156 },	-- Plump Juicycrunch Carrot
+								{ "n", 66085 },	-- Ripe Witchberry
+								{ "n", 66080 },	-- Bursting Witchberry
+								{ "n", 66084 },	-- Plump Witchberry
 							},
 							["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
 						}),
-						objective(3, {	-- 0/15 Juicycrunch Carrot
-							["provider"] = { "i", 74841 },	-- Juicycrunch Carrot
+						objective(3, {	-- 0/15 Witchberries
+							["provider"] = { "i", 74846 },	-- Witchberries
 						}),
 					},
 				}),
