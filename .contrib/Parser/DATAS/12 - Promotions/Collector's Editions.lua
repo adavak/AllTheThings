@@ -872,6 +872,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
 			["groups"] = {
+				ach(61401),	-- Heroic Edition: Lightwing Dragonhawk
 				iensemble(248249),	-- Lightstider Raiment
 				i(243020),	-- Lightwing Dragonhawk (MOUNT!)
 			},
@@ -880,6 +881,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			["description"] = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
 			["groups"] = {
 				i(243063),	-- Doomfeathers (PET!)
+				ach(61402),	-- Epic Edition: Voidlight Surger
 				i(243062),	-- Hopeflutter (PET!)
 				i(245610),	-- Voidlight Surger
 				iensemble(248974),	-- Voidstrider Raiment
