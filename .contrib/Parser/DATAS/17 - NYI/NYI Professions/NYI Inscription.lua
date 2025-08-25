@@ -11,6 +11,11 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
+				-- 5.1.0
+				expansion(EXPANSION.MOP, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_1_0 } }, {
+					i(93197),	-- Glyph of Supernova
+				})),
+
 				-- 5.2.0
 				expansion(EXPANSION.MOP, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_2_0 } }, {
 					i(93440),	-- Crafted Dreadful Gladiator's Endgame
@@ -19,6 +24,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 
 				-- 5.4.0
 				expansion(EXPANSION.MOP, patch(4,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_4_0 } }, {
+					i(104278),	-- Glyph of Chameleon
 					i(104274),	-- Glyph of Focused Fire
 				})),
 			}),
@@ -396,9 +402,15 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
+				-- 5.1.0
+				expansion(EXPANSION.MOP, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_1_0 } }, {
+					r(135535),	-- Glyph of Supernova
+				})),
+
 				-- 5.4.0
 				expansion(EXPANSION.MOP, patch(4,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_4_0 } }, {
 					i(104280),	-- Technique: Glyph of Focused Fire
+					i(104282),	-- Technique: Glyph of the Chameleon
 				})),
 			}),
 			expansion(EXPANSION.BFA, {

@@ -1214,6 +1214,9 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = {
 							i(104169),	-- Gulp Froglet (PET!)
+							i(104241, {	-- Technique: Glyph of Rain of Frogs
+								["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+							}),
 						},
 					}),
 					n(73171, {	-- Champion of the Black Flame
@@ -1427,8 +1430,11 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["coord"] = { 67.2, 44.0, TIMELESS_ISLE },
 						["groups"] = {
-							i(104289),	-- Faintly-Glowing Herb
 							i(104156),	-- Ashleaf Spriteling (PET!)
+							i(104289),	-- Faintly-Glowing Herb
+							i(104222, {	-- Technique: Glyph of One with Nature
+								["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+							}),
 						},
 					}),
 					n(73166, {	-- Monstrous Spineclaw
@@ -1479,8 +1485,11 @@ root(ROOTS.Zones, {
 							{ 43.1, 41.2, TIMELESS_ISLE },	-- entrance
 						},
 						["groups"] = {
-							i(104312),	-- Strange Glowing Mushroom
 							i(104313),	-- Golden Moss
+							i(104312),	-- Strange Glowing Mushroom
+							i(104210, {	-- Technique: Glyph of Regenerative Magic
+								["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+							}),
 						},
 					}),
 					n(71864, {	-- Spelurk
@@ -1524,8 +1533,8 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["coord"] = { 43.6, 26.0, TIMELESS_ISLE },
 						["groups"] = {
-							i(104306),	-- Sunset Stone
 							i(104296),	-- Ordon Ceremonial Robes
+							i(104306),	-- Sunset Stone
 						},
 					}),
 					n(73170, {	-- Watcher Osu
@@ -1533,8 +1542,8 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["coord"] = { 57.6, 76.6, TIMELESS_ISLE },
 						["groups"] = {
-							i(104296),	-- Ordon Ceremonial Robes
 							i(104305),	-- Ashen Stone
+							i(104296),	-- Ordon Ceremonial Robes
 						},
 					}),
 					n(71876, {	-- Zarhym
@@ -1552,7 +1561,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 47.0, 87.4, TIMELESS_ISLE },	-- mapID needs verification
 						["groups"] = {
 							i(104303),	-- Rain Stone
-							i(104225),	-- Technique: Glyph of Condensation
+							i(104225, {	-- Technique: Glyph of Condensation
+								["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+							}),
 						},
 					}),
 					n(71919, {	-- Zhu-Gon the Sour
@@ -2326,6 +2337,10 @@ root(ROOTS.Zones, {
 							i(71153, {	-- Magical Pet Biscuit
 								["cost"] = { { "c", 777, 500 } },	-- 500x Timeless Coin
 							}),
+							i(104230, {	-- Technique: Glyph of Shifted Appearances
+								["cost"] = { { "c", 777, 4000 } },	-- 4000x Timeless Coin
+								["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+							}),
 						},
 					}),
 				}),
@@ -2334,8 +2349,11 @@ root(ROOTS.Zones, {
 						i(104293),	-- Scuttler's Shell
 					}),
 					n(72877, {	-- Ashleaf Sprite
-						i(104289),	-- Faintly-Glowing Herb
 						i(106130),	-- Big Bag of Herbs
+						i(104289),	-- Faintly-Glowing Herb
+						i(104222, {	-- Technique: Glyph of One with Nature
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
 					}),
 					n(72897, {	-- Blazebound Chanter
 						i(104304),	-- Blizzard Stone
@@ -2345,14 +2363,25 @@ root(ROOTS.Zones, {
 						i(104287),	-- Windfeather Plume
 					}),
 					n(72895, {	-- Burning Berserker
-						i(86566),	-- Forager's Gloves
 						i(106130),	-- Big Bag of Herbs
+						i(86566),	-- Forager's Gloves
+						i(104232, {	-- Technique: Glyph of Headhunting
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
+					}),
+					n(72807, {	-- Crag Stalker
+						i(104279, {	-- Technique: Glyph of the Lean Pack
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
 					}),
 					n(72876, {	-- Crimsonscale Firestorm
 						i(104286),	-- Quivering Firestorm Egg
 					}),
 					n(72771, {	-- Damp Shambler
 						i(104312),	-- Strange Glowing Mushroom
+						i(104210, {	-- Technique: Glyph of Regenerative Magic
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
 					}),
 					n(72841, {	-- Death Adder
 						i(104292),	-- Partially-Digested Meal
@@ -2364,6 +2393,9 @@ root(ROOTS.Zones, {
 					n(72896, {	-- Eternal Kilnmaster
 						i(104297),	-- Blazing Sigil of Ordos
 						i(104309),	-- Eternal Kiln (TOY!)
+						i(104217, {	-- Technique: Glyph of Impaling Throws
+							["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+						}),
 					}),
 					n(73162, {	-- Foreboding Flame
 						i(104261),	-- Glowing Blue Ash
@@ -2373,6 +2405,11 @@ root(ROOTS.Zones, {
 					i(104265, {	-- Great Turtle Meat
 						["description"] = "Can be turned in for 50 Timeless Coins.",
 					}),
+					n(72777, {	-- Gulp Frog
+						i(104241, {	-- Technique: Glyph of Rain of Frogs
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
+					}),
 					i(104266, {	-- Heavy Yak Flank
 						["description"] = "Can be turned in for 50 Timeless Coins.",
 					}),
@@ -2381,8 +2418,8 @@ root(ROOTS.Zones, {
 					}),
 					n(72767, {	-- Jademist Dancer
 						i(104288),	-- Condensed Jademist
-						i(104224),	-- Technique: Glyph of Evaporation
 						i(104164),	-- Jademist Dancer (PET!)
+						i(104224),	-- Technique: Glyph of Evaporation
 					}),
 					i(104264, {	-- Meaty Crane Leg
 						["description"] = "Can be turned in for 20 Timeless Coins.",
@@ -2392,23 +2429,38 @@ root(ROOTS.Zones, {
 					}),
 					n(72875, {	-- Ordon Candlekeeper
 						i(86565),	-- Battle Horn (TOY!)
+						i(104209, {	-- Technique: Glyph of Loud Horn
+							["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+						}),
 					}),
 					n(72894, {	-- Ordon Fire-Watcher
 						i(104297),	-- Blazing Sigil of Ordos
 						i(104296),	-- Ordon Ceremonial Robes
+						i(104209, {	-- Technique: Glyph of Loud Horn
+							["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+						}),
 					}),
 					n(72892, {	-- Ordon Oathguard
+						i(104209, {	-- Technique: Glyph of Loud Horn
+							["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+						}),
+						i(104244, {	-- Technique: Glyph of the Watchful Eye
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
 						i(104330),	-- Warped Warning Sign
 					}),
 					n(72805, {	-- Primal Stalker
 						i(104268),	-- Pristine Stalker Hide
+						i(104279, {	-- Technique: Glyph of the Lean Pack
+							["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+						}),
 					}),
 					i(104257, {	-- Pristine Firestorm Egg
 						["description"] = "Can be turned in for 500 Timeless Coins.",
 					}),
 					n(73018, {	-- Spectral Brewmaster
-						i(104335),	-- Thick Pi'jiu Brew
 						i(104235),	-- Technique: Glyph of Lingering Ancestors
+						i(104335),	-- Thick Pi'jiu Brew
 					}),
 					n(73025, {	-- Spectral Mistweaver
 						i(104334),	-- Misty Pi'jiu Brew

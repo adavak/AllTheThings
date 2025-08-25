@@ -602,13 +602,9 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = 
 				["_drop"] = { "g" },
 			})),
 		}),
-		prof(INSCRIPTION, {
-			i(102534, {	-- Technique: Crafted Malevolent Gladiator's Medallion of Tenacity
-				["timeline"] = { ADDED_5_4_0 },
-			}),
-			i(104228, {	-- Technique: Glyph of Angels
-				["timeline"] = { ADDED_5_4_0 },
-			}),
+		prof(INSCRIPTION, sharedData({ ["timeline"] = { ADDED_5_4_0 } }, {
+			i(102534),	-- Technique: Crafted Malevolent Gladiator's Medallion of Tenacity
+			i(104228),	-- Technique: Glyph of Angels
 			i(104240, {	-- Technique: Glyph of Astral Fixation
 				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
 			}),
@@ -636,10 +632,43 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = 
 			i(104213, {	-- Technique: Glyph of Hand of Sacrifice
 				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
 			}),
+			i(104233, {	-- Technique: Glyph of Improved Distraction
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104220, {	-- Technique: Glyph of Long Winter
+				["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+			}),
+			i(104214, {	-- Technique: Glyph of Purging
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
 			i(104234),	-- Technique: Glyph of Spirit Raptors
+			i(104236, {	-- Technique: Glyph of Spirit Wolf
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104221, {	-- Technique: Glyph of Sprouting Mushroom
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104197, {	-- Technique: Glyph of Swift Death
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104218, {	-- Technique: Glyph of the Executor
+				["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+			}),
+			i(104238, {	-- Technique: Glyph of the Compy
+				-- #if BEFORE LEGION
+				["description"] = "Drops off high level mobs in Pandaria instances and Timeless Isle.",
+				-- #endif
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104242, {	-- Technique: Glyph of the Raging Whirlwind
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
 			i(104229),	-- Technique: Glyph of the Sha
-			i(104223),	-- Technique: Glyph of the Unbound Elemental
-		}),
+			i(104243, {	-- Technique: Glyph of the Subtle Defender
+				["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+			}),
+			i(104223),	-- Technique: Glyph of (the) Unbound Elemental
+		})),
 		prof(JEWELCRAFTING, {
 			i(83811),	-- Design: Agile Primal Diamond
 			i(83815),	-- Design: Austere Primal Diamond

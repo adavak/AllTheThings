@@ -718,6 +718,14 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							["provider"] = { "o", 210419 },	-- Pandaren Gravestone
 							["coord"] = { 45.3, 70.3, VALE_OF_ETERNAL_BLOSSOMS },
 						}),
+						-- Wouter TODO: verify if this is an actual source for this technique in MoP Classic
+						-- #if MOP_BEFORE_SOO
+						-- o(210419, {
+						-- 	i(104238, {	-- Technique: Glyph of the Compy
+						-- 		["timeline"] = { ADDED_5_5_0, REMOVED_5_5_2 },
+						-- 	}),
+						-- }),
+						-- #endif
 					},
 				})),
 				RemovedWithSOO(q(30232, {	-- Ruffling Some Feathers

@@ -785,10 +785,10 @@ GLYPH_OF_EVASION = r(57119, {	-- Glyph of Evasion
 	["name"] = "Glyph of Evasion",
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
-GLYPH_OF_EVAPORATION = r(148271, {	-- Glyph of Evaporation
+GLYPH_OF_EVAPORATION = applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, r(148271, {	-- Glyph of Evaporation
 	["name"] = "Glyph of Evaporation",
 	["timeline"] = { ADDED_5_4_0 },
-});
+}));
 GLYPH_OF_EVISCERATE_AND_DEBILITATION_AND_RECOVERY = r(57120, {	-- Glyph of Eviscerate / Glyph of Debilitation [MOP-5.4.0] / Glyph of Recovery [5.4.0+]
 	-- #if AFTER 5.4.0
 	["name"] = "Glyph of Recovery",
@@ -1447,10 +1447,10 @@ GLYPH_OF_INSECT_SWARM_AND_THE_ORCA = r(56948, {	-- Glyph of Insect Swarm / Glyph
 	-- #endif
 	["timeline"] = { ADDED_3_0_2 },
 });
-GLYPH_OF_INSPIRED_HYMNS = r(148278, {	-- Glyph of Inspired Hymns
+GLYPH_OF_INSPIRED_HYMNS = applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, r(148278, {	-- Glyph of Inspired Hymns
 	["name"] = "Glyph of Inspired Hymns",
 	["timeline"] = { ADDED_5_4_0 },
-});
+}));
 GLYPH_OF_INTERCEPT_AND_BULL_RUSH = r(94406, {	-- Glyph of Intercept / Glyph of Bull Rush [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Bull Rush",
@@ -1609,10 +1609,10 @@ GLYPH_OF_LIGHTWELL = r(57189, {	-- Glyph of Lightwell / Glyph of Lightspring [5.
 	-- #endif
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
-GLYPH_OF_LINGERING_ANCESTORS = r(148282, {	-- Glyph of Lingering Ancestors
+GLYPH_OF_LINGERING_ANCESTORS = applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, r(148282, {	-- Glyph of Lingering Ancestors
 	["name"] = "Glyph of Lingering Ancestors",
 	["timeline"] = { ADDED_5_4_0 },
-});
+}));
 GLYPH_OF_LIVING_BOMB_AND_SLOW = r(64275, {	-- Glyph of Living Bomb / Glyph of Slow [CATA+]
 	-- #if AFTER CATA
 	["name"] = "Glyph of Slow",
@@ -1875,10 +1875,10 @@ GLYPH_OF_PICK_POCKET = r(58326, {	-- Glyph of Pick Pocket
 	["name"] = "Glyph of Pick Pocket",
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
-GLYPH_OF_PILLAR_OF_LIGHT = r(148274, {	-- Glyph of Pillar of Light
+GLYPH_OF_PILLAR_OF_LIGHT = applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, r(148274, {	-- Glyph of Pillar of Light
 	["name"] = "Glyph of Pillar of Light",
-	["timeline"] = { ADDED_5_0_4 },
-});
+	["timeline"] = { ADDED_5_4_0 },
+}));
 GLYPH_OF_PLAGUE_STRIKE_AND_PESTILENCE = r(57221, {	-- Glyph of Plague Strike / Glyph of Pestilence [CATA+]
 	-- #if AFTER CATA
 	["name"] = "Glyph of Pestilence",
@@ -2776,10 +2776,10 @@ GLYPH_OF_THE_SHIVARRA = r(225556, {	-- Glyph of the Shivarra
 	["name"] = "Glyph of the Shivarra",
 	["timeline"] = { ADDED_7_0_3 },
 });
-GLYPH_OF_THE_SKELETON = r(148266, {	-- Glyph of the Skeleton
+GLYPH_OF_THE_SKELETON = applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, r(148266, {	-- Glyph of the Skeleton
 	["name"] = "Glyph of the Skeleton",
 	["timeline"] = { ADDED_5_4_0 },
-});
+}));
 GLYPH_OF_THE_SKULLSEYE = r(225542, {	-- Glyph of the Skullseye
 	["name"] = "Glyph of the Skullseye",
 	["timeline"] = { ADDED_7_0_3, DELETED_8_0_1 },
@@ -2832,10 +2832,10 @@ GLYPH_OF_THE_VOIDLORD = r(225558, {	-- Glyph of the Voidlord
 	["name"] = "Glyph of the Voidlord",
 	["timeline"] = { ADDED_7_0_3 },
 });
-GLYPH_OF_THE_WEAPONMASTER = r(148292, {	-- Glyph of the Weaponmaster
+GLYPH_OF_THE_WEAPONMASTER = applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, r(148292, {	-- Glyph of the Weaponmaster
 	["name"] = "Glyph of the Weaponmaster",
 	["timeline"] = { ADDED_5_4_0 },
-});
+}));
 GLYPH_OF_THE_WILD_AND_CHARM_WOODLAND_CREATURE = r(58296, {	-- Glyph of the Wild / Glyph of Charm Woodland Creature [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Charm Woodland Creature",
@@ -4280,6 +4280,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				GLYPH_OF_GARROTE,
 				GLYPH_OF_ICE_BLOCK,
 				GLYPH_OF_MEND_PET_AND_LESSER_PROPORTION,
+				GLYPH_OF_PILLAR_OF_LIGHT,
 				GLYPH_OF_STARFIRE_AND_THE_MOONBEAST_AND_GUIDED_STARS_AND_UNTAMED_STARS,
 				GLYPH_OF_UNBURDENED_REBIRTH_AND_BLOOMING,
 			}),
@@ -4322,6 +4323,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				GLYPH_OF_MULTISHOT_AND_SILENCING_SHOT_AND_NO_ESCAPE,
 				GLYPH_OF_PICK_LOCK,
 				GLYPH_OF_REVIVE_PET,
+				GLYPH_OF_SPIRIT_RAPTORS,
 				GLYPH_OF_VANISH_AND_POISONS,
 			}),
 		}),
@@ -4334,10 +4336,12 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				GLYPH_OF_BLURRED_SPEED,
 				GLYPH_OF_FLAMETONGUE_WEAPON_AND_WIND_SHEAR,
 				GLYPH_OF_HEALING_STREAM_TOTEM,
+				GLYPH_OF_LINGERING_ANCESTORS,
 				GLYPH_OF_MOCKING_BLOW_AND_DEMORALIZING_SHOUT_AND_GUSHING_WOUND,
 				GLYPH_OF_PICK_POCKET,
 				GLYPH_OF_SERPENT_STING_AND_TAME_BEAST,
 				GLYPH_OF_THE_PACK_AND_ASPECT_OF_THE_PACK,
+				GLYPH_OF_THE_SKELETON,
 				GLYPH_OF_THUNDER_CLAP_AND_UNENDING_RAGE,
 			}),
 		}),
@@ -4345,6 +4349,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			["timeline"] = { ADDED_6_0_2 },
 			-- Crieve NOTE: I haven't updated this list yet.
 			["groups"] = insertionSort({
+				GLYPH_OF_INSPIRED_HYMNS,
 				GLYPH_OF_VIGILANCE_AND_FURIOUS_SUNDERING_AND_VICTORIOUS_THROW,
 				GLYPH_OF_WATER_SHIELD_AND_THE_ARCTIC_WOLF_AND_THE_SPECTRAL_WOLF,
 			}),
