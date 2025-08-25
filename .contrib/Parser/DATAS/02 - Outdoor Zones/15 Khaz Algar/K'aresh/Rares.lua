@@ -103,6 +103,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240118),	-- Reshii Brute's Spear
+					i(240113),	-- Reshii Magi's Dagger
 					i(240117),	-- Reshii Magi's Wand
 					i(240112),	-- Reshii Scout's Blade
 					i(240111),	-- Reshii Skirmisher's Axe
