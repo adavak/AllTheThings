@@ -128,6 +128,7 @@ root(ROOTS.WorldDrops, {
 			i(88567, {	-- Ghost Iron Lockbox
 				["timeline"] = { ADDED_5_0_4 },
 			}),
+			i(4633),	-- Heavy Bronze Lockbox
 			i(16885, {	-- Heavy Junkbox
 				["sym"] = { {
 					"select", "itemID",
