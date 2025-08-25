@@ -166,6 +166,7 @@ i(163826);	-- Raider's Supply Cache
 -- Bfa Quest Items
 i(169473);	-- Dormant Scale of the Blue Aspect
 -- Grey
+i(158873);	-- Crystalline Honeymead
 i(158931);	-- Shiny Object
 i(159621);	-- Personal Anchor
 i(162126);	-- River Clam Meat

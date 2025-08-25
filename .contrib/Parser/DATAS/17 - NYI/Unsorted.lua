@@ -3649,7 +3649,6 @@ root(ROOTS.Unsorted, {
 				i(158852),	-- PH Flavor - Unused \\ PH Flavor - Fox
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
-				i(158873),	-- Crystalline Honeymead \\ PH Flavor - Dire Troll Female - Blood Troll
 				i(158727),	-- Decayed Equipment
 				i(161198),	-- Old Sailor's Almanac
 				i(161202),	-- Polished Brass Sextant

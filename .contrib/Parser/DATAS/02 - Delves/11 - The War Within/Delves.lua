@@ -3064,7 +3064,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					["questID"] = 92573,
 				}),
 				o(539785, { -- Sturdy Chest
-					["coord"] = { 43.9, 64.7, 2455 },	-- Lower Chamber
+					["coords"] = {
+						{ 43.9, 64.7, 2455 },	-- Lower Chamber
+						{ 43.3, 65.7, 2476 },	-- Archival Assault
+					},
 					["questID"] = 90839,
 				}),
 			}),
