@@ -1277,7 +1277,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(43464),	-- Scroll of Agility VIII
 			i(37091),	-- Scroll of Intellect VII
 			i(37092),	-- Scroll of Intellect VIII
-			i(44315),	-- Scroll of Recall
+			i(44315),	-- Scroll of Recall III
 			i(37093),	-- Scroll of Stamina VII
 			i(37094),	-- Scroll of Stamina VIII
 			i(43465),	-- Scroll of Strength VII

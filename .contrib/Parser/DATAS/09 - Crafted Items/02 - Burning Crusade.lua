@@ -1209,6 +1209,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(43667),	-- Book of Clever Tricks
 			i(43666),	-- Hellfire Tome
 		}),
+		filter(MISC, {
+			i(33457),	-- Scroll of Agility VI
+			i(33462),	-- Scroll of Intellect VI
+			i(33458),	-- Scroll of Strength VI
+		}),
 		category(106, {	-- Tarot Cards
 			i(44317, {	-- Greater Darkmoon Card
 				-- Blessings Deck

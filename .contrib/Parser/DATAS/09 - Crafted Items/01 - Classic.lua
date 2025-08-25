@@ -5166,6 +5166,37 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(85695, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Zen Meditation
 			-- #endif
 		}),
+		filter(MISC, {
+			i(3012),	-- Scroll of Agility
+			i(1477),	-- Scroll of Agility II
+			i(4425),	-- Scroll of Agility III
+			i(10309),	-- Scroll of Agility IV
+			i(27498),	-- Scroll of Agility V
+			i(955),	-- Scroll of Intellect
+			i(2290),	-- Scroll of Intellect II
+			i(4419),	-- Scroll of Intellect III
+			i(10308),	-- Scroll of Intellect IV
+			i(27499),	-- Scroll of Intellect V
+			i(37118),	-- Scroll of Recall
+			i(44314),	-- Scroll of Recall II
+			i(1180),	-- Scroll of Stamina
+			i(1711),	-- Scroll of Stamina II
+			i(4422),	-- Scroll of Stamina III
+			i(10307),	-- Scroll of Stamina IV
+			i(27502),	-- Scroll of Stamina V
+			i(33461),	-- Scroll of Stamina VI
+			i(954),	-- Scroll of Strength
+			i(2289),	-- Scroll of Strength II
+			i(4426),	-- Scroll of Strength III
+			i(10310),	-- Scroll of Strength IV
+			i(27503),	-- Scroll of Strength V
+			i(1181),	-- Scroll of Versatility
+			i(1712),	-- Scroll of Versatility II
+			i(4424),	-- Scroll of Versatility III
+			i(10306),	-- Scroll of Versatility IV
+			i(27501),	-- Scroll of Versatility V
+			i(33460),	-- Scroll of Versatility VI
+		}),
 		-- #if AFTER 10.0.7
 		filter(STAVES, {
 			i(203815, {["timeline"] = { ADDED_10_0_7 }}),	-- Gurubashi Ceremonial Staff

@@ -1029,6 +1029,15 @@ Fire and Water - Damage against Elementals increased by 15%.
 			i(62234),	-- Dungeoneering Guide
 			i(62233),	-- Lord Rottington's Pressed Wisp Book
 		}),
+		filter(MISC, {
+			i(62251),	-- Runescroll of Fortitude II
+			i(63303),	-- Scroll of Agility IX
+			i(63305),	-- Scroll of Intellect IX
+			i(63308),	-- Scroll of Protection IX
+			i(63306),	-- Scroll of Stamina IX
+			i(63304),	-- Scroll of Strength IX
+			i(63307),	-- Scroll of Versatility IX
+		}),
 		-- #if BEFORE 5.0.4
 		n(RELICS, {
 			i(62240, {	-- Etched Horn
