@@ -159,6 +159,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				n(232077, {	-- Korgorath the Ravager
 					["coord"] = { 64.7, 43.6, KARESH },
 					["questID"] = 90586,
+					["groups"] = {
+						i(239475),	-- Reshii Brute's Helmet
+					},
 				}),
 				n(231981, {	-- Maw of the Sands
 					["isDaily"] = IGNORED_VALUE,

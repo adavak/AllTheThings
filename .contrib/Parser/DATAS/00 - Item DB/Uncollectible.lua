@@ -2514,6 +2514,7 @@ i(237313);	-- Totally Legit Samophlange
 i(231899);	-- Trash
 i(236921);	-- Triumphant Satchel of Carved Harbinger Crests
 i(236635);	-- Uncut Semi-Smoky Quartz
+i(236651);	-- Vince's Old Left Shoe
 i(229809);	-- Weighted Metal Ball
 
 ------------------

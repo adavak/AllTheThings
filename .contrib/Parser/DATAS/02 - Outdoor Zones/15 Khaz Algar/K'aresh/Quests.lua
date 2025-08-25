@@ -2497,6 +2497,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							o_repeated({	-- Tazavesh Trash
 								i(236781),	-- Discarded Shadow Writ (QI!)
 								o(516994),	-- Tazavesh Trash
+								o(516995),	-- Tazavesh Trash
 								o(517000),	-- Tazavesh Trash
 							}),
 							--

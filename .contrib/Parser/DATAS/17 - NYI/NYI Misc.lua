@@ -1885,7 +1885,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(235627),	-- Scribbles' Favorite Candies
 			i(230990),	-- Set Keystone Map: Operation: Floodgate
 			i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
-			i(236651),	-- Vince's Old Left Shoe
 			i(229810),	-- Vintage Kaja'Cola Can
 			i(236956),	-- Void-Touched Valorstone
 			i(235713),	-- Weird Sand

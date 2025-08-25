@@ -1099,6 +1099,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		})),
 		filter(COSMETIC, {
+			i(212162),	-- Bitter Shroom Cap
 			i(245527, { ["timeline"] = { ADDED_11_2_0 } }),	-- Consortium's Phasebound Visor
 			i(235617, { ["timeline"] = { ADDED_11_1_0 } }),	-- Lucky Goblin's Strapped Rockets
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
@@ -3218,7 +3219,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
-						i(212162),	-- Bitter Shroom Cap
 						i(212168),	-- Cinderbee Wax Candle Hat
 						i(211801),	-- Poisonous Shroom Cap
 						i(212163),	-- Soporific Shroom Cap
@@ -3366,7 +3366,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
 					filter(COSMETIC, {
-						i(212162),	-- Bitter Shroom Cap
 						i(212165),	-- Deep Nautic Helm
 						i(211801),	-- Poisonous Shroom Cap
 						i(212163),	-- Soporific Shroom Cap
@@ -3523,7 +3522,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
 					filter(COSMETIC, {
-						i(212162),	-- Bitter Shroom Cap
 						i(212167),	-- Taken Candle
 					}),
 				}),
@@ -3576,7 +3574,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
-						i(212162),	-- Bitter Shroom Cap
 						i(212173),	-- Rulk'Nerub Raptorial Spine
 					}),
 				}),

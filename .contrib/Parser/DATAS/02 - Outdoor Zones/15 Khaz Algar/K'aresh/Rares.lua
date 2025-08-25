@@ -78,6 +78,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(240116),	-- Reshii Brute's Longsword
 					i(240115),	-- Reshii Brute's Warmace
 					i(239448),	-- Reshii Magi's Vestments
+					i(240117),	-- Reshii Magi's Wand
 					i(239462),	-- Reshii Scout's Belt
 				},
 			}),

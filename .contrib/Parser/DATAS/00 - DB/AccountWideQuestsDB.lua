@@ -1966,6 +1966,7 @@ ExportDB.AccountWideQuestsDB = {
 	[90776] = true,	-- Ancient Curiosity: Combat
 	[90778] = true,	-- Ancient Curiosity: Utility
 	[90783] = true,
+	[90815] = true,	-- ??
 	[90816] = true,
 	[90839] = true,	-- Sturdy Chest
 	[90903] = true,	-- Contract: The K'aresh Trust [R1]
@@ -2018,5 +2019,8 @@ ExportDB.AccountWideQuestsDB = {
 	[91812] = true, --
 	[92573] = true,	-- Sturdy Chest
 	[92031] = true,	-- Meet the Vandals
+	[92487] = true,	-- ??
+	[92626] = true,	-- ??
+	[92628] = true,	-- ??
 	-- #ENDIF
 }
