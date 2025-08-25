@@ -2089,10 +2089,10 @@ root(ROOTS.Zones, {
 				}),
 				n(VENDORS, {
 					n(65515, {	-- Acon Deathwielder <Glorious Conquest Quartermaster>
-						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 61.6, 24.2, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.3, 52.4, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = HORDE_ONLY,
@@ -2717,10 +2717,10 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(65165, {	-- Doris Chiltonius <Conquest Quartermaster>
-						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 61.8, 24.1, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.5, 52.5, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = HORDE_ONLY,
@@ -2741,10 +2741,10 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(65164, {	-- Lok'nor Bloodfist <Honor Quartermaster>
-						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 62.0, 24.0, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.1, 52.5, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = HORDE_ONLY,

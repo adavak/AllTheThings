@@ -1684,10 +1684,10 @@ root(ROOTS.Zones, {
 						["sym"] = {{"select","npcID",56705},{"pop"}},	-- Singegruff <Adventuring Supplies>
 					}),
 					n(65514, {	-- Ethan Natice <Glorious Conquest Quartermaster>
-						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 85.6, 59.6, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.3, 65, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = ALLIANCE_ONLY,
@@ -1957,10 +1957,10 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(65166, {	-- Hayden Christophen <Honor Quartermaster>
-						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 85.8, 59.4, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.1, 65, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = ALLIANCE_ONLY,
@@ -2191,10 +2191,10 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(65167, {	-- Lucan Malory <Conquest Quartermaster>
-						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 86.1, 59.7, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.6, 64.8, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = ALLIANCE_ONLY,
