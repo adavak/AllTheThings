@@ -693,6 +693,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			},
 			["description"] = "Can be caught by fishing in lava using a special lure.",
 			["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
+			-- #if AFTER TWW
+			["collectible"] = false,	-- remove when Blizzard fix fish collection
+			-- #endif
 		}),
 		-- #endif
 		i(53067, {	-- Striped Lurker
