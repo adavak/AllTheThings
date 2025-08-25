@@ -1198,7 +1198,9 @@ root(ROOTS.Zones, {
 							{ "i", 103684, 1 },	-- Scroll of Challenge
 						},
 						["groups"] = {
-							un(REMOVED_FROM_GAME, i(86574)),	-- Elixir of Ancient Knowledge
+							i(86574, {	-- Elixir of Ancient Knowledge
+								["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3 },
+							}),
 						},
 					}),
 					n(72775, {	-- Bufo
@@ -1321,8 +1323,8 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["coord"] = { 62.2, 63.2, TIMELESS_ISLE },
 						["groups"] = {
-							i(104262),	-- Odd Polished Stone (TOY!)
 							i(104263),	-- Glinting Pile of Stone
+							i(104262),	-- Odd Polished Stone (TOY!)
 						},
 					}),
 					n(73161, {	-- Great Turtle Furyshell
@@ -1347,8 +1349,8 @@ root(ROOTS.Zones, {
 							{ 32.4, 78.2, TIMELESS_ISLE },
 						},
 						["groups"] = {
-							i(104290),	-- Sticky Silkworm Goo
 							i(104291),	-- Gu'chi Swarmling (PET!)
+							i(104290),	-- Sticky Silkworm Goo
 						},
 					}),
 					n(73167, {	-- Huolon
@@ -1406,9 +1408,9 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["coord"] = { 53.0, 82.4, TIMELESS_ISLE },
 						["groups"] = {
-							i(104331),	-- Warning Sign (TOY!)
-							i(104245),	-- Technique: Glyph of the Weaponmaster
 							i(104296),	-- Ordon Ceremonial Robes
+							i(104245),	-- Technique: Glyph of the Weaponmaster
+							i(104331),	-- Warning Sign (TOY!)
 						},
 					}),
 					n(72193, {	-- Karkanos
@@ -1985,7 +1987,9 @@ root(ROOTS.Zones, {
 							i(105920, {	-- Pandaren Peace Offering
 								["cost"] = { { "c", 777, 10000 } },	-- 10,000x Timeless Coin
 							}),
-							un(REMOVED_FROM_GAME, i(104014)),	-- Pouch of Timeless Coins (was purchased via valor points)
+							i(104014, {	-- Pouch of Timeless Coins (was purchased via valor points)
+								["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+							}),
 							i(103990, {	-- Resolve of Niuzao
 								["cost"] = { { "c", 777, 50000 } },	-- 50,000x Timeless Coin
 							}),
@@ -2334,8 +2338,8 @@ root(ROOTS.Zones, {
 						i(106130),	-- Big Bag of Herbs
 					}),
 					n(72897, {	-- Blazebound Chanter
-						i(104296),	-- Ordon Ceremonial Robes
 						i(104304),	-- Blizzard Stone
+						i(104296),	-- Ordon Ceremonial Robes
 					}),
 					n(72762, {	-- Brilliant Windfeather
 						i(104287),	-- Windfeather Plume
@@ -2404,15 +2408,15 @@ root(ROOTS.Zones, {
 					}),
 					n(73018, {	-- Spectral Brewmaster
 						i(104335),	-- Thick Pi'jiu Brew
-						i(104235),		-- Technique: Glyph of Lingering Ancestors
+						i(104235),	-- Technique: Glyph of Lingering Ancestors
 					}),
 					n(73025, {	-- Spectral Mistweaver
 						i(104334),	-- Misty Pi'jiu Brew
-						i(104235),		-- Technique: Glyph of Lingering Ancestors
+						i(104235),	-- Technique: Glyph of Lingering Ancestors
 					}),
 					n(73021, {	-- Spectral Windwalker
 						i(104336),	-- Bubbling Pi'jiu Brew
-						i(104235),		-- Technique: Glyph of Lingering Ancestors
+						i(104235),	-- Technique: Glyph of Lingering Ancestors
 					}),
 					n(72908, {	-- Spotted Swarmer
 						i(104290),	-- Sticky Silkworm Goo
