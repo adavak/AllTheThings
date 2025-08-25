@@ -728,9 +728,22 @@ CacheFields = function(group, skipMapCaching)
 	return group;
 end
 
--- This data type requires additional processing.
-fieldConverters.otherQuestData = function(group, value)
-	_CacheFields(value);
+do
+	-- we need special handling since the data in the 'otherQuestData' needs to cache against the 'group' not the other data itself
+	-- otherwise this leads to raw data tables being cached against costs and providers etc.
+	local function CacheOtherQuestData(group, otherQuestData)
+		for key,value in pairs(otherQuestData) do
+			_converter = fieldConverters[key]
+			if _converter then
+				-- other quest data never needs to cache map-based keys
+				_converter(group, value)
+			end
+		end
+	end
+	-- This data type requires additional processing.
+	fieldConverters.otherQuestData = function(group, value)
+		CacheOtherQuestData(group, value)
+	end
 end
 
 -- Performance Tracking for Caching
