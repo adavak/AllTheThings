@@ -127,163 +127,123 @@ root(ROOTS.Unsorted, {
 			i(241258),	-- Vineyard Red Shal'dorei Crown
 			i(241445),	-- Ensemble: Juggernaut Battlegear
 			i(241446),	-- Ensemble: Juggernaut Battlegear
-			i(241447),	-- Ensemble: Juggernaut Battlegear
 			i(241448),	-- Ensemble: Juggernaut Battlegear
 			i(241449),	-- Ensemble: Light's Vanguard Battleplate
 			i(241450),	-- Ensemble: Light's Vanguard Battleplate
 			i(241451),	-- Ensemble: Light's Vanguard Battleplate
-			i(241452),	-- Ensemble: Light's Vanguard Battleplate
 			i(241453),	-- Ensemble: Dreadwake Armor
 			i(241454),	-- Ensemble: Dreadwake Armor
 			i(241455),	-- Ensemble: Dreadwake Armor
-			i(241456),	-- Ensemble: Dreadwake Armor
 			i(241457),	-- Ensemble: Garb of Venerated Spirits
-			i(241458),	-- Ensemble: Garb of Venerated Spirits
 			i(241459),	-- Ensemble: Garb of Venerated Spirits
 			i(241460),	-- Ensemble: Garb of Venerated Spirits
 			i(241461),	-- Ensemble: Serpentstalker Guise
 			i(241462),	-- Ensemble: Serpentstalker Guise
-			i(241463),	-- Ensemble: Serpentstalker Guise
 			i(241464),	-- Ensemble: Serpentstalker Guise
 			i(241465),	-- Ensemble: Regalia of the Dashing Scoundrel
-			i(241466),	-- Ensemble: Regalia of the Dashing Scoundrel
 			i(241467),	-- Ensemble: Regalia of the Dashing Scoundrel
 			i(241468),	-- Ensemble: Regalia of the Dashing Scoundrel
 			i(241469),	-- Ensemble: Chi-Ji's Battlegear
 			i(241470),	-- Ensemble: Chi-Ji's Battlegear
 			i(241471),	-- Ensemble: Chi-Ji's Battlegear
-			i(241472),	-- Ensemble: Chi-Ji's Battlegear
 			i(241473),	-- Ensemble: Bearmantle Battlegear
 			i(241474),	-- Ensemble: Bearmantle Battlegear
 			i(241475),	-- Ensemble: Bearmantle Battlegear
-			i(241476),	-- Ensemble: Bearmantle Battlegear
 			i(241477),	-- Ensemble: Felreaper Vestments
 			i(241478),	-- Ensemble: Felreaper Vestments
 			i(241479),	-- Ensemble: Felreaper Vestments
-			i(241480),	-- Ensemble: Felreaper Vestments
 			i(241481),	-- Ensemble: Grim Inquisitor's Regalia
-			i(241482),	-- Ensemble: Grim Inquisitor's Regalia
 			i(241483),	-- Ensemble: Grim Inquisitor's Regalia
 			i(241484),	-- Ensemble: Grim Inquisitor's Regalia
 			i(241485),	-- Ensemble: Gilded Seraph's Raiment
-			i(241486),	-- Ensemble: Gilded Seraph's Raiment
 			i(241487),	-- Ensemble: Gilded Seraph's Raiment
 			i(241488),	-- Ensemble: Gilded Seraph's Raiment
 			i(241489),	-- Ensemble: Runebound Regalia
-			i(241490),	-- Ensemble: Runebound Regalia
 			i(241491),	-- Ensemble: Runebound Regalia
 			i(241492),	-- Ensemble: Runebound Regalia
 			i(241493),	-- Ensemble: Titanic Onslaught Armor
-			i(241494),	-- Ensemble: Titanic Onslaught Armor
 			i(241495),	-- Ensemble: Titanic Onslaught Armor
 			i(241496),	-- Ensemble: Titanic Onslaught Armor
 			i(241497),	-- Ensemble: Radiant Lightbringer Armor
 			i(241498),	-- Ensemble: Radiant Lightbringer Armor
-			i(241499),	-- Ensemble: Radiant Lightbringer Armor
 			i(241500),	-- Ensemble: Radiant Lightbringer Armor
 			i(241501),	-- Ensemble: Gravewarden Armaments
 			i(241502),	-- Ensemble: Gravewarden Armaments
-			i(241503),	-- Ensemble: Gravewarden Armaments
 			i(241504),	-- Ensemble: Gravewarden Armaments
 			i(241505),	-- Ensemble: Regalia of the Skybreaker
 			i(241506),	-- Ensemble: Regalia of the Skybreaker
-			i(241507),	-- Ensemble: Regalia of the Skybreaker
 			i(241508),	-- Ensemble: Regalia of the Skybreaker
 			i(241509),	-- Ensemble: Wildstalker Armor
-			i(241510),	-- Ensemble: Wildstalker Armor
 			i(241511),	-- Ensemble: Wildstalker Armor
 			i(241512),	-- Ensemble: Wildstalker Armor
 			i(241513),	-- Ensemble: Fanged Slayer's Armor
 			i(241514),	-- Ensemble: Fanged Slayer's Armor
-			i(241515),	-- Ensemble: Fanged Slayer's Armor
 			i(241516),	-- Ensemble: Fanged Slayer's Armor
 			i(241517),	-- Ensemble: Xuen's Battlegear
-			i(241518),	-- Ensemble: Xuen's Battlegear
 			i(241519),	-- Ensemble: Xuen's Battlegear
 			i(241520),	-- Ensemble: Xuen's Battlegear
 			i(241521),	-- Ensemble: Stormheart Raiment
 			i(241522),	-- Ensemble: Stormheart Raiment
-			i(241523),	-- Ensemble: Stormheart Raiment
 			i(241524),	-- Ensemble: Stormheart Raiment
 			i(241525),	-- Ensemble: Demonbane Armor
 			i(241526),	-- Ensemble: Demonbane Armor
-			i(241527),	-- Ensemble: Demonbane Armor
 			i(241528),	-- Ensemble: Demonbane Armor
 			i(241529),	-- Ensemble: Diabolic Raiment
 			i(241530),	-- Ensemble: Diabolic Raiment
-			i(241531),	-- Ensemble: Diabolic Raiment
 			i(241532),	-- Ensemble: Diabolic Raiment
 			i(241533),	-- Ensemble: Vestments of Blind Absolution
 			i(241534),	-- Ensemble: Vestments of Blind Absolution
-			i(241535),	-- Ensemble: Vestments of Blind Absolution
 			i(241536),	-- Ensemble: Vestments of Blind Absolution
 			i(241537),	-- Ensemble: Regalia of the Arcane Tempest
 			i(241538),	-- Ensemble: Regalia of the Arcane Tempest
-			i(241539),	-- Ensemble: Regalia of the Arcane Tempest
 			i(241540),	-- Ensemble: Regalia of the Arcane Tempest
 			i(241541),	-- Ensemble: Warplate of the Obsidian Aspect
 			i(241542),	-- Ensemble: Warplate of the Obsidian Aspect
 			i(241543),	-- Ensemble: Warplate of the Obsidian Aspect
-			i(241544),	-- Ensemble: Warplate of the Obsidian Aspect
 			i(241545),	-- Ensemble: Battleplate of the Highlord
 			i(241546),	-- Ensemble: Battleplate of the Highlord
 			i(241547),	-- Ensemble: Battleplate of the Highlord
-			i(241548),	-- Ensemble: Battleplate of the Highlord
 			i(241549),	-- Ensemble: Dreadwyrm Battleplate
 			i(241550),	-- Ensemble: Dreadwyrm Battleplate
-			i(241551),	-- Ensemble: Dreadwyrm Battleplate
 			i(241552),	-- Ensemble: Dreadwyrm Battleplate
 			i(241553),	-- Ensemble: Regalia of Shackled Elements
 			i(241554),	-- Ensemble: Regalia of Shackled Elements
 			i(241555),	-- Ensemble: Regalia of Shackled Elements (Felfire)
-			i(241556),	-- Ensemble: Regalia of Shackled Elements
 			i(241557),	-- Ensemble: Regalia of Shackled Elements (Ice)
 			i(241558),	-- Ensemble: Eagletalon Battlegear
-			i(241559),	-- Ensemble: Eagletalon Battlegear
 			i(241560),	-- Ensemble: Eagletalon Battlegear
 			i(241561),	-- Ensemble: Eagletalon Battlegear
 			i(241562),	-- Ensemble: Doomblade Battlegear
-			i(241563),	-- Ensemble: Doomblade Battlegear
 			i(241564),	-- Ensemble: Doomblade Battlegear
 			i(241565),	-- Ensemble: Doomblade Battlegear
 			i(241566),	-- Ensemble: Vestments of Enveloped Dissonance
 			i(241567),	-- Ensemble: Vestments of Enveloped Dissonance
-			i(241568),	-- Ensemble: Vestments of Enveloped Dissonance
 			i(241569),	-- Ensemble: Vestments of Enveloped Dissonance
 			i(241570),	-- Ensemble: Garb of the Astral Warden
-			i(241571),	-- Ensemble: Garb of the Astral Warden
 			i(241572),	-- Ensemble: Garb of the Astral Warden
 			i(241573),	-- Ensemble: Garb of the Astral Warden
 			i(241574),	-- Ensemble: Vestment of Second Sight
-			i(241575),	-- Ensemble: Vestment of Second Sight
 			i(241576),	-- Ensemble: Vestment of Second Sight
 			i(241577),	-- Ensemble: Vestment of Second Sight
 			i(241578),	-- Ensemble: Legacy of Azj'aqir
-			i(241579),	-- Ensemble: Legacy of Azj'aqir
 			i(241580),	-- Ensemble: Legacy of Azj'aqir
 			i(241581),	-- Ensemble: Legacy of Azj'aqir
 			i(241582),	-- Ensemble: Vestments of the Purifier
-			i(241583),	-- Ensemble: Vestments of the Purifier
 			i(241584),	-- Ensemble: Vestments of the Purifier
 			i(241585),	-- Ensemble: Vestments of the Purifier
 			i(241586),	-- Ensemble: Regalia of Everburning Knowledge
-			i(241587),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241588),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241589),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241596),	-- Ensemble: Funerary Plate of the Chosen Dead
-			i(241597),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241599),	-- Ensemble: Chains of the Chosen Dead
 			i(241600),	-- Ensemble: Chains of the Chosen Dead
-			i(241601),	-- Ensemble: Chains of the Chosen Dead
 			i(241602),	-- Ensemble: Chains of the Chosen Dead
 			i(241603),	-- Ensemble: Garb of the Chosen Dead
-			i(241604),	-- Ensemble: Garb of the Chosen Dead
 			i(241605),	-- Ensemble: Garb of the Chosen Dead
 			i(241606),	-- Ensemble: Garb of the Chosen Dead
-			i(241607),	-- Ensemble: Regalia of the Chosen Dead
 			i(241608),	-- Ensemble: Regalia of the Chosen Dead
 			i(241609),	-- Ensemble: Regalia of the Chosen Dead
 			i(241610),	-- Ensemble: Regalia of the Chosen Dead
@@ -375,222 +335,6 @@ root(ROOTS.Unsorted, {
 			i(246991),	-- Sinister Felstaff
 			i(246994),	-- Infernal's Hellfire Staff
 			i(246997),	-- Sinister Felwand
-			i(247002),	-- Gloves of Everburning Knowledge
-			i(247003),	-- Purifier's Gloves
-			i(247004),	-- Clutch of Azj'Aqir
-			i(247005),	-- Hood of Everburning Knowledge
-			i(247006),	-- Purifier's Gorget
-			i(247007),	-- Eyes of Azj'Aqir
-			i(247008),	-- Leggings of Everburning Knowledge
-			i(247009),	-- Purifier's Leggings
-			i(247010),	-- Leggings of Azj'Aqir
-			i(247011),	-- Robe of Everburning Knowledge
-			i(247012),	-- Purifier's Cassock
-			i(247013),	-- Finery of Azj'Aqir
-			i(247014),	-- Mantle of Everburning Knowledge
-			i(247015),	-- Purifier's Mantle
-			i(247016),	-- Pauldrons of Azj'Aqir
-			i(247017),	-- Robe of the Astral Warden
-			i(247018),	-- Tunic of Enveloped Dissonance
-			i(247019),	-- Doomblade Tunic
-			i(247020),	-- Gloves of the Astral Warden
-			i(247021),	-- Gloves of Enveloped Dissonance
-			i(247022),	-- Doomblade Gauntlets
-			i(247023),	-- Hood of the Astral Warden
-			i(247024),	-- Hood of Enveloped Dissonance
-			i(247025),	-- Doomblade Cowl
-			i(247026),	-- Leggings of the Astral Warden
-			i(247027),	-- Leggings of Enveloped Dissonance
-			i(247028),	-- Doomblade Pants
-			i(247029),	-- Mantle of the Astral Warden
-			i(247030),	-- Pauldrons of Enveloped Dissonance
-			i(247031),	-- Doomblade Spaulders
-			i(247032),	-- Eagletalon Tunic
-			i(247033),	-- Eagletalon Gauntlets
-			i(247034),	-- Gauntlets of Shackled Elements
-			i(247035),	-- Eagletalon Cowl
-			i(247036),	-- Helm of Shackled Elements
-			i(247037),	-- Eagletalon Legchains
-			i(247038),	-- Leggings of Shackled Elements
-			i(247039),	-- Raiment of Shackled Elements
-			i(247040),	-- Eagletalon Spaulders
-			i(247041),	-- Pauldrons of Shackled Elements
-			i(247042),	-- Dreadwyrm Breastplate
-			i(247043),	-- Breastplate of the Highlord
-			i(247044),	-- Chestplate of the Obsidian Aspect
-			i(247045),	-- Dreadwyrm Gauntlets
-			i(247046),	-- Gauntlets of the Highlord
-			i(247047),	-- Gauntlets of the Obsidian Aspect
-			i(247048),	-- Dreadwyrm Crown
-			i(247049),	-- Helmet of the Highlord
-			i(247050),	-- Warhelm of the Obsidian Aspect
-			i(247051),	-- Dreadwyrm Legplates
-			i(247052),	-- Legplates of the Highlord
-			i(247053),	-- Legplates of the Obsidian Aspect
-			i(247054),	-- Dreadwyrm Shoulderguards
-			i(247055),	-- Pauldrons of the Highlord
-			i(247056),	-- Shoulderplates of the Obsidian Aspect
-			i(247057),	-- Dreadwyrm Greatcloak
-			i(247058),	-- Cloak of Everburning Knowledge
-			i(247059),	-- Cloak of the Astral Warden
-			i(247060),	-- Cloak of Enveloped Dissonance
-			i(247061),	-- Eagletalon Cloak
-			i(247062),	-- Greatmantle of the Highlord
-			i(247063),	-- Purifier's Drape
-			i(247064),	-- Doomblade Shadowwrap
-			i(247065),	-- Cloak of Shackled Elements
-			i(247066),	-- Cloak of Azj'Aqir
-			i(247067),	-- Greatcloak of the Obsidian Aspect
-			i(247068),	-- Cape of Second Sight
-			i(247069),	-- Tunic of Second Sight
-			i(247070),	-- Gloves of Second Sight
-			i(247071),	-- Mask of Second Sight
-			i(247072),	-- Legwraps of Second Sight
-			i(247073),	-- Shoulderguards of Second Sight
-			i(247074),	-- Gravewarden Chestplate
-			i(247075),	-- Gravewarden Cloak
-			i(247076),	-- Gravewarden Handguards
-			i(247077),	-- Gravewarden Visage
-			i(247078),	-- Gravewarden Legplates
-			i(247079),	-- Gravewarden Pauldrons
-			i(247080),	-- Demonbane Harness
-			i(247081),	-- Demonbane Shroud
-			i(247082),	-- Demonbane Gauntlets
-			i(247083),	-- Demonbane Faceguard
-			i(247084),	-- Demonbane Leggings
-			i(247085),	-- Demonbane Shoulderpads
-			i(247086),	-- Stormheart Tunic
-			i(247087),	-- Stormheart Drape
-			i(247088),	-- Stormheart Gloves
-			i(247089),	-- Stormheart Headdress
-			i(247090),	-- Stormheart Legguards
-			i(247091),	-- Stormheart Mantle
-			i(247092),	-- Wildstalker Chestguard
-			i(247093),	-- Wildstalker Cape
-			i(247094),	-- Wildstalker Gauntlets
-			i(247095),	-- Wildstalker Helmet
-			i(247096),	-- Wildstalker Leggings
-			i(247097),	-- Wildstalker Spaulders
-			i(247098),	-- Drape of the Arcane Tempest
-			i(247099),	-- Gloves of the Arcane Tempest
-			i(247100),	-- Crown of the Arcane Tempest
-			i(247101),	-- Leggings of the Arcane Tempest
-			i(247102),	-- Robes of the Arcane Tempest
-			i(247103),	-- Mantle of the Arcane Tempest
-			i(247104),	-- Xuen's Tunic
-			i(247105),	-- Xuen's Cloak
-			i(247106),	-- Xuen's Gauntlets
-			i(247107),	-- Xuen's Helm
-			i(247108),	-- Xuen's Legguards
-			i(247109),	-- Xuen's Shoulderguards
-			i(247110),	-- Radiant Lightbringer Breastplate
-			i(247111),	-- Radiant Lightbringer Cape
-			i(247112),	-- Radiant Lightbringer Gauntlets
-			i(247113),	-- Radiant Lightbringer Crown
-			i(247114),	-- Radiant Lightbringer Greaves
-			i(247115),	-- Radiant Lightbringer Shoulderguards
-			i(247116),	-- Shawl of Blind Absolution
-			i(247117),	-- Gloves of Blind Absolution
-			i(247118),	-- Hood of Blind Absolution
-			i(247119),	-- Leggings of Blind Absolution
-			i(247120),	-- Robes of Blind Absolution
-			i(247121),	-- Mantle of Blind Absolution
-			i(247122),	-- Fanged Slayer's Chestguard
-			i(247123),	-- Fanged Slayer's Shroud
-			i(247124),	-- Fanged Slayer's Handguards
-			i(247125),	-- Fanged Slayer's Helm
-			i(247126),	-- Fanged Slayer's Legguards
-			i(247127),	-- Fanged Slayer's Shoulderpads
-			i(247128),	-- Harness of the Skybreaker
-			i(247129),	-- Drape of the Skybreaker
-			i(247130),	-- Grips of the Skybreaker
-			i(247131),	-- Helmet of the Skybreaker
-			i(247132),	-- Legguards of the Skybreaker
-			i(247133),	-- Pauldrons of the Skybreaker
-			i(247134),	-- Diabolic Shroud
-			i(247135),	-- Diabolic Gloves
-			i(247136),	-- Diabolic Helm
-			i(247137),	-- Diabolic Leggings
-			i(247138),	-- Diabolic Robe
-			i(247139),	-- Diabolic Mantle
-			i(247140),	-- Titanic Onslaught Breastplate
-			i(247141),	-- Titanic Onslaught Cloak
-			i(247142),	-- Titanic Onslaught Handguards
-			i(247143),	-- Titanic Onslaught Greathelm
-			i(247144),	-- Titanic Onslaught Greaves
-			i(247145),	-- Titanic Onslaught Pauldrons
-			i(247146),	-- Dreadwake Bonecage
-			i(247147),	-- Dreadwake Greatcloak
-			i(247148),	-- Dreadwake Gauntlets
-			i(247149),	-- Dreadwake Helm
-			i(247150),	-- Dreadwake Legplates
-			i(247151),	-- Dreadwake Pauldrons
-			i(247152),	-- Felreaper Vest
-			i(247153),	-- Felreaper Drape
-			i(247154),	-- Felreaper Gloves
-			i(247155),	-- Felreaper Hood
-			i(247156),	-- Felreaper Leggings
-			i(247157),	-- Felreaper Spaulders
-			i(247158),	-- Bearmantle Harness
-			i(247159),	-- Bearmantle Cloak
-			i(247160),	-- Bearmantle Paws
-			i(247161),	-- Bearmantle Headdress
-			i(247162),	-- Bearmantle Legguards
-			i(247163),	-- Bearmantle Shoulders
-			i(247164),	-- Serpentstalker Tunic
-			i(247165),	-- Serpentstalker Drape
-			i(247166),	-- Serpentstalker Grips
-			i(247167),	-- Serpentstalker Helmet
-			i(247168),	-- Serpentstalker Legguards
-			i(247169),	-- Serpentstalker Mantle
-			i(247170),	-- Runebound Cape
-			i(247171),	-- Runebound Gloves
-			i(247172),	-- Runebound Collar
-			i(247173),	-- Runebound Leggings
-			i(247174),	-- Runebound Tunic
-			i(247175),	-- Runebound Mantle
-			i(247176),	-- Tunic of Chi-Ji
-			i(247177),	-- Cloak of Chi-Ji
-			i(247178),	-- Grips of Chi-Ji
-			i(247179),	-- Douli of Chi-Ji
-			i(247180),	-- Leggings of Chi-Ji
-			i(247181),	-- Meditation Spheres of Chi-Ji
-			i(247182),	-- Light's Vanguard Breastplate
-			i(247183),	-- Light's Vanguard Greatcloak
-			i(247184),	-- Light's Vanguard Gauntlets
-			i(247185),	-- Light's Vanguard Helm
-			i(247186),	-- Light's Vanguard Legplates
-			i(247187),	-- Light's Vanguard Shoulderplates
-			i(247188),	-- Gilded Seraph's Drape
-			i(247189),	-- Gilded Seraph's Handwraps
-			i(247190),	-- Gilded Seraph's Crown
-			i(247191),	-- Gilded Seraph's Leggings
-			i(247192),	-- Gilded Seraph's Robes
-			i(247193),	-- Gilded Seraph's Amice
-			i(247194),	-- Vest of the Dashing Scoundrel
-			i(247195),	-- Cloak of the Dashing Scoundrel
-			i(247196),	-- Gloves of the Dashing Scoundrel
-			i(247197),	-- Cavalier Hat of the Dashing Scoundrel
-			i(247198),	-- Pants of the Dashing Scoundrel
-			i(247199),	-- Shoulderpads of the Dashing Scoundrel
-			i(247200),	-- Robes of Venerated Spirits
-			i(247201),	-- Drape of Venerated Spirits
-			i(247202),	-- Gloves of Venerated Spirits
-			i(247203),	-- Headdress of Venerated Spirits
-			i(247204),	-- Leggings of Venerated Spirits
-			i(247205),	-- Pauldrons of Venerated Spirits
-			i(247206),	-- Grim Inquisitor's Cloak
-			i(247207),	-- Grim Inquisitor's Gloves
-			i(247208),	-- Grim Inquisitor's Death Mask
-			i(247209),	-- Grim Inquisitor's Leggings
-			i(247210),	-- Grim Inquisitor's Robes
-			i(247211),	-- Grim Inquisitor's Shoulderguards
-			i(247212),	-- Juggernaut Breastplate
-			i(247213),	-- Juggernaut Cloak
-			i(247214),	-- Juggernaut Gauntlets
-			i(247215),	-- Juggernaut Helm
-			i(247216),	-- Juggernaut Legplates
-			i(247217),	-- Juggernaut Pauldrons
 			i(247429),	-- Robes of Fluctuating Energy
 			i(247430),	-- Antiquated Highborne Cinch
 			i(247431),	-- Bracers of Harnessed Flame
