@@ -1975,8 +1975,12 @@ GLYPH_OF_RAPID_REJUVENATION = r(71015, {	-- Glyph of Rapid Rejuvenation
 	["name"] = "Glyph of Rapid Rejuvenation",
 	["timeline"] = { ADDED_3_3_0, DELETED_4_0_1 },
 });
-GLYPH_OF_RAPID_ROLLING = r(124448, {	-- Glyph of Rapid Rolling
+GLYPH_OF_EXPEL_HARM_AND_RAPID_ROLLING = r(124448, {	-- Glyph of Expel Harm / Glyph of Rapid Rolling [5.4.0+]
+	-- #if AFTER 5.4.0
 	["name"] = "Glyph of Rapid Rolling",
+	-- #else
+	["name"] = "Glyph of Expel Harm",
+	-- #endif
 	["timeline"] = { ADDED_5_0_4, DELETED_6_0_2 },
 });
 GLYPH_OF_RAPTOR_STRIKE_AND_MIRRORED_BLADES = r(64246, {	-- Glyph of Raptor Strike / Glyph of Mirrored Blades [5.0.4+]
@@ -3142,7 +3146,7 @@ GLYPH_OF_ZEN_MEDITATION = r(124451, {	-- Glyph of Zen Meditation
 	["name"] = "Glyph of Zen Meditation",
 	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
 });
-MARK_OF_THE_CHEETAH = r(131152, {	-- Glyph of the Cheetah / Mark of the Cheetah [SL+]
+GLYPH_MARK_OF_THE_CHEETAH = r(131152, {	-- Glyph of the Cheetah / Mark of the Cheetah [SL+]
 	-- #if AFTER 9.0.1
 	["name"] = "Mark of the Cheetah",
 	-- #else
@@ -3290,7 +3294,7 @@ local CLASS_GLYPHS = cat(1126, {	-- Glyphs
 		GLYPH_OF_UNBURDENED_REBIRTH_AND_BLOOMING,
 		GLYPH_OF_WILD_GROWTH,
 		GLYPH_OF_WRATH_AND_NATURES_GRASP,
-		MARK_OF_THE_CHEETAH,
+		GLYPH_MARK_OF_THE_CHEETAH,
 		MARK_OF_THE_DOE,
 		MARK_OF_THE_DUSKWING_RAVEN,
 		MARK_OF_THE_SENTINEL,
@@ -3431,7 +3435,7 @@ local CLASS_GLYPHS = cat(1126, {	-- Glyphs
 			GLYPH_OF_LIFE_COCOON,
 			GLYPH_OF_MANA_TEA,
 			GLYPH_OF_PATH_OF_BLOSSOMS_AND_PARALYSIS,
-			GLYPH_OF_RAPID_ROLLING,
+			GLYPH_OF_EXPEL_HARM_AND_RAPID_ROLLING,
 			GLYPH_OF_RENEWING_MIST,
 			GLYPH_OF_RISING_TIGER_KICK,
 			GLYPH_OF_SPARRING,
@@ -3845,7 +3849,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 	-- #if ANYCLASSIC
 	CLASS_GLYPHS,
 	n(DISCOVERY, {
-		-- #if BEFORE 6.0.1.18379
+		-- #if BEFORE WOD
 		header(HEADERS.Item, 45912, {	-- Book of Glyph Mastery
 			["provider"] = { "i", 45912 },	-- Book of Glyph Mastery
 			["description"] = "Recipes listed below are learned by using a Book of Glyph Mastery.",
@@ -4199,6 +4203,50 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				-- #endif
 			}),
 		}),
+		-- #if BEFORE WOD
+		spell(112996, {	-- Scroll of Wisdom (MoP)
+			["timeline"] = { ADDED_5_0_4 },
+			["groups"] = insertionSort({
+				GLYPH_OF_BLADED_JUDGMENT,
+				GLYPH_OF_BLACK_ICE,
+				GLYPH_OF_BLACKOUT_KICK,
+				GLYPH_OF_BLADED_JUDGMENT,
+				GLYPH_OF_BREATH_OF_FIRE,
+				GLYPH_OF_BURNING_ANGER,
+				GLYPH_OF_CLASH,
+				GLYPH_OF_CONFESSION,
+				GLYPH_OF_CROW_FEAST_AND_HAWK_FEAST,
+				GLYPH_OF_DIRECTION,
+				GLYPH_OF_ENDURING_HEALING_SPHERE,
+				GLYPH_OF_FOCUSED_WRATH,
+				GLYPH_OF_GUARD,
+				GLYPH_OF_HOLY_RESURRECTION,
+				GLYPH_OF_HONOR,
+				GLYPH_OF_INCITE,
+				GLYPH_OF_JAB,
+				GLYPH_OF_MANA_TEA,
+				GLYPH_OF_MARKING,
+				GLYPH_OF_MASS_EXORCISM,
+				GLYPH_OF_EXPEL_HARM_AND_RAPID_ROLLING,
+				GLYPH_OF_RIGHTEOUS_RETREAT,
+				GLYPH_OF_RISING_TIGER_KICK,
+				GLYPH_OF_SHADOW_WORD_DEATH,
+				GLYPH_OF_SHADOWY_FRIENDS,
+				GLYPH_OF_SPINNING_FIRE_BLOSSOM,
+				GLYPH_OF_SPIRIT_ROLL,
+				GLYPH_OF_THE_BATTLE_HEALER,
+				GLYPH_OF_THE_BLAZING_TRAIL,
+				GLYPH_MARK_OF_THE_CHEETAH,
+				GLYPH_OF_THE_FALLING_AVENGER,
+				GLYPH_OF_THE_HEAVENS,
+				GLYPH_OF_THE_VALKYR,
+				GLYPH_OF_TRANSCENDENCE,
+				GLYPH_OF_VAMPIRIC_EMBRACE,
+				GLYPH_OF_WATER_ROLL,
+				GLYPH_OF_ZEN_FLIGHT,
+			}),
+		}),
+		-- #endif
 		spell(165466, {	-- Research: Blackfallow Ink
 			["timeline"] = { ADDED_6_0_2 },
 			["groups"] = insertionSort({
