@@ -5913,12 +5913,5 @@ local itemrecipe = function(name, itemID, spellID, phase, timeline)
 	return o;
 end
 
--- #if BEFORE 4.0.1
--- These techniques get completely deleted from the database with cataclysm.
-itemrecipe("Technique: Glyph of Eternal Water", 50166, 71101, WRATH_PHASE_ONE);
-itemrecipe("Technique: Glyph of Quick Decay", 50168, 71102, WRATH_PHASE_ONE);
-itemrecipe("Technique: Glyph of Rapid Rejuvenation", 50167, 71015, WRATH_PHASE_ONE);
--- #endif
-itemrecipe("Technique: Rituals of the New Moon", 46108, 64051, WRATH_PHASE_ONE);
 -- #endif
 -- #endif

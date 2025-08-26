@@ -3613,7 +3613,7 @@ root(ROOTS.Zones, {
 								["timeline"] = { ADDED_3_3_0, DELETED_7_0_3 },
 							}),
 							i(50167, {	-- Technique: Glyph of Rapid Rejuvenation
-								["timeline"] = { DELETED_4_0_1 },
+								["timeline"] = { ADDED_3_3_0, DELETED_4_0_1 },
 							}),
 						},
 					}),
