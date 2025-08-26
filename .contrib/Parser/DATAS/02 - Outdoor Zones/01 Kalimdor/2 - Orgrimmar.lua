@@ -630,7 +630,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["coord"] = { 35.6, 69.2, ORGRIMMAR },
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_3_0_2 },
-						["groups"] = CLASSIC_INSCRIPTION,
+						["groups"] = appendGroups(
+							WRATH_INSCRIPTION,
+							-- #if AFTER CATA
+							CATA_INSCRIPTION
+							-- #endif
+						),
 					}),
 				}),
 				-- #endif

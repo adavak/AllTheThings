@@ -1923,7 +1923,7 @@ GLYPH_OF_PSYCHIC_SCREAM = r(57196, {	-- Glyph of Psychic Scream
 	["name"] = "Glyph of Psychic Scream",
 	["timeline"] = { ADDED_3_1_0, DELETED_7_0_3 },
 });
-GLYPH_OF_QUICK_DECAY_AND_LASH_OF_PAIN_AND_EVERLASTING_AFFLICTION_AND_ETERNAL_RESOLVE = r(71102, {	-- Glyph of Quick Decay / Glyph of Lash of Pain [CATA+] / Glyph of Everlasting Affliction [5.0.4+] / Glyph of Eternal Resolve [5.4.0+]
+GLYPH_OF_QUICK_DECAY_AND_LASH_OF_PAIN_AND_EVERLASTING_AFFLICTION_AND_ETERNAL_RESOLVE = r(71102, {	-- Glyph of Quick Decay / Glyph of Lash of Pain [CATA] / Glyph of Everlasting Affliction [5.0.4+] / Glyph of Eternal Resolve [5.4.0+]
 	-- #if AFTER 5.4.0
 	["name"] = "Glyph of Eternal Resolve",
 	-- #elseif AFTER 5.0.4

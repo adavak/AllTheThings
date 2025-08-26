@@ -621,7 +621,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 						["timeline"] = { ADDED_3_0_2 },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = appendGroups(CLASSIC_INSCRIPTION, {
+						["groups"] = appendGroups(
+							WRATH_INSCRIPTION,
+							-- #if AFTER CATA
+							CATA_INSCRIPTION,
+							-- #endif
+							{
 							i(140566, {	-- Technique: Songs of the Alliance (RECIPE!)
 								["timeline"] = { ADDED_7_0_3 },
 							}),

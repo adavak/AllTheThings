@@ -244,17 +244,13 @@ i(0, 67600);	-- Glyph of Claw / Glyph of Ferocious Bite
 -----------------
 -- PATCH 3.3.0 --
 -----------------
-i(50166, 71101);	-- Glyph of Eternal Water / Glyph of Mana Shield[CATA-MOP] / Glyph of Counterspell[MOP+] (not sourced yet) https://www.wowhead.com/wotlk/spell=71101/glyph-of-eternal-water
-
-
-
+i(50166, 71101);	-- Glyph of Eternal Water / Glyph of Mana Shield [CATA] / Glyph of Counterspell [MOP+]
+i(50168, 71102);	-- Glyph of Quick Decay / Glyph of Lash of Pain [CATA] / Glyph of Everlasting Affliction [5.0.4+] / Glyph of Eternal Resolve [5.4.0+]
+i(50167, 71015);	-- Glyph of Rapid Rejuvenation
 
 --weird?
 i(0, 58321);	-- Glyph of Shadow Protection / Glyph of Reflective Shield[MOP+]
 i(0, 56957);	-- Glyph of Shred
-
-
-
 
 -----------------
 --   TBC   --
@@ -269,7 +265,6 @@ i(0, 57026);	-- Glyph of Flash of Light[Wrath-Cata] / Glyph of Word of Glory[Cat
 i(0, 57221);	-- Glyph of Plague Strike [Removed Cata?]
 i(0, 50602);	-- Scroll of Intellect VI
 i(0, 57122);	-- Glyph of Feint[Legion removed]
-
 
 -- 3.1.0?
 i(0, 58489);	-- Scroll of Strength VI
@@ -477,7 +472,7 @@ i(0, 64287);	--
 i(0, 58481);	-- Scroll of Agility VI
 i(0, 56999);	--
 i(0, 57716);	-- Snowfall Ink
-i(46108, 64051);	-- Rituals of the Moon
+i(46108, 64051);	-- Rituals of the New Moon
 i(0, 57247);	--
 i(0, 57264);	--
 i(0, 61119);	-- Master's Inscription of the Pinnacle
@@ -503,11 +498,8 @@ i(0, 56960);	-- Swiftmend??
 i(0, 64282);	--
 i(0, 57014);	--
 --3.3.5.12340
-i(0, 71015);	--
-i(0, 71102);	--
 i(0, 68166);	-- Glyph of Thunder Strike
 i(0, 69385);	-- Runescroll of Fortitude
-
 
 -----------------
 -- PATCH 4.0.3 --
@@ -544,12 +536,10 @@ i(65651, 86646);	-- Origami Beetle
 i(65650, 86645);	-- Origami Rock
 i(65649, 86644);	-- Origami Slime
 
-
 -----------------
 -- PATCH 4.3.0 --
 -----------------
 i(0, 107907);	-- Glyph of Shadow (Minor Inscription Research??) (4.3.0
-
 
 -- Taken from Twinstar
 -- 4.0.1
@@ -577,8 +567,6 @@ i(0, 94401);	-- Glyph of Tiger's Fury
 i(0, 101057);	-- Glyph of Unleashed Lightning
 i(0, 99548);	-- Vicious Eyeball of Dominance
 i(0, 95215);	-- Glyph of the Treant
-
-
 
 -----------------
 -- PATCH 5.0.3 --
