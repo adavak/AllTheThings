@@ -75,14 +75,6 @@ root(ROOTS.Unsorted, {
 			i(239749),	-- Blood Knight's Plate Breastplate
 			i(239750),	-- Blood Knight's Plate Sabatons
 			i(239751),	-- Blood Knight's Plate Girdle
-			i(239752),	-- Armplates of the Valhalas Champion
-			i(239753),	-- Spaulders of the Valhalas Champion
-			i(239754),	-- Wargreaves of the Valhalas Champion
-			i(239755),	-- Helmet of the Valhalas Champion
-			i(239765),	-- Handguards of the Valhalas Champion
-			i(239766),	-- Breastplate of the Valhalas Champion
-			i(239767),	-- Warboots of the Valhalas Champion
-			i(239768),	-- Waistguard of the Valhalas Champion
 			i(239777),	-- Valorborne Dragonscale Vambraces
 			i(239778),	-- Valorborne Dragonscale Epaulets
 			i(239779),	-- Valorborne Dragonscale Breeches
@@ -91,19 +83,11 @@ root(ROOTS.Unsorted, {
 			i(239782),	-- Valorborne Dragonscale Haubergeon
 			i(239783),	-- Valorborne Dragonscale Greaves
 			i(239784),	-- Valorborne Dragonscale Waistband
-			i(239785),	-- Emerald Drake Hunter's Shoulderpads
 			i(239786),	-- [DNT]
 			i(239787),	-- [DNT]
 			i(239788),	-- [DNT]
-			i(239789),	-- Sunborne Runemail Hauberk
-			i(239790),	-- Sunborne Runemail Vambraces
 			i(239791),	-- Sunborne Runemail Shoulderguards
-			i(239792),	-- Sunborne Runemail Legguards
 			i(239793),	-- Sunborne Runemail Mask
-			i(239794),	-- Sunborne Runemail Grips
-			i(239795),	-- Sunborne Runemail Chestguard
-			i(239796),	-- Sunborne Runemail Greaves
-			i(239797),	-- Sunborne Runemail Girdle
 			i(239806),	-- Mountainborne Bindings
 			i(239807),	-- Mountainborne Trousers
 			i(239808),	-- Mountainborne Shoulders
@@ -122,22 +106,6 @@ root(ROOTS.Unsorted, {
 			i(239821),	-- Waistband of the Hunting Dream
 			i(239888),	-- Wristguards of the Archdruid's Nightmare
 			i(239889),	-- Gambeson of the Archdruid's Nightmare
-			i(239906),	-- Seaborne Wraps
-			i(239907),	-- Seaborne Pants
-			i(239908),	-- Seaborne Spaulders
-			i(239909),	-- Seaborne Cowl
-			i(239910),	-- Seaborne Gloves
-			i(239911),	-- Seaborne Vest
-			i(239912),	-- Seaborne Striders
-			i(239913),	-- Seaborne Waistband
-			i(239928),	-- Val'kyr's Armguards
-			i(239929),	-- Val'kyr's Shoulderguards
-			i(239930),	-- Val'kyr's Wargreaves
-			i(239931),	-- Val'kyr's Faceguard
-			i(239932),	-- Val'kyr's Gauntlets
-			i(239933),	-- Val'kyr's Chestpiece
-			i(239934),	-- Val'kyr's Jackboots
-			i(239935),	-- Val'kyr's Waistguard
 			i(239959),	-- Fel-marked Hauberk
 			i(239960),	-- Fel-marked Vambraces
 			i(239961),	-- Fel-marked Pinions
@@ -147,22 +115,6 @@ root(ROOTS.Unsorted, {
 			i(239968),	-- Fel-marked Chestguard
 			i(239969),	-- Fel-marked Greaves
 			i(239970),	-- Fel-marked Cinch
-			i(239972),	-- Skyborne Wraps
-			i(239973),	-- Skyborne Breeches
-			i(239974),	-- Skyborne Spaulders
-			i(239975),	-- Skyborne Helm
-			i(239976),	-- Skyborne Gloves
-			i(239977),	-- Skyborne Harness
-			i(239978),	-- Skyborne Boots
-			i(239979),	-- Skyborne Belt
-			i(239980),	-- Earthweald Dragonscale Epaulets
-			i(239981),	-- Earthweald Dragonscale Breeches
-			i(239982),	-- Earthweald Dragonscale Coif
-			i(239983),	-- Earthweald Dragonscale Gauntlets
-			i(239984),	-- Earthweald Dragonscale Haubergeon
-			i(239989),	-- Earthweald Dragonscale Stompers
-			i(239990),	-- Earthweald Dragonscale Cinch
-			i(240254),	-- Earthweald Dragonscale Vambraces
 			i(240256),	-- Thirsting Wrap
 			i(240257),	-- Nightstalker's Wrap
 			i(240258),	-- Drape of Hungering Flesh
@@ -548,15 +500,7 @@ root(ROOTS.Unsorted, {
 			i(241146),	-- Epoch Memento
 			i(241221),	-- Riven Priesthood Robe
 			i(241222),	-- Oronaar Disciple's Hauberk
-			i(241224),	-- Emerald Drake Hunter's Tunic
-			i(241225),	-- Emerald Drake Hunter's Pants
-			i(241226),	-- Emerald Drake Hunter's Boots
-			i(241227),	-- Emerald Drake Hunter's Coif
-			i(241228),	-- Emerald Drake Hunter's Gloves
-			i(241229),	-- Emerald Drake Hunter's Bracers
-			i(241230),	-- Emerald Drake Hunter's Belt
 			i(241258),	-- Vineyard Red Shal'dorei Crown
-			i(241354),	-- Ensemble: Emerald Drake Hunter's Kit
 			i(241359),	-- Ensemble: Garothi Battleplate
 			i(241361),	-- Ensemble: Moonshatter Warplate
 			i(241362),	-- Ensemble: Shrinebreaker's Battlegear
@@ -583,12 +527,6 @@ root(ROOTS.Unsorted, {
 			i(241383),	-- Ensemble: Crescent Vale Raiment
 			i(241384),	-- Ensemble: Regalia of the Hrydshal Runespeaker
 			i(241391),	-- Ensemble: Stygian Hides
-			i(241393),	-- Ensemble: Winged Plate of the Valhalas Champion
-			i(241394),	-- Ensemble: Val'kyr's Warharness
-			i(241398),	-- Ensemble: Earthbreaker Dragonscale
-			i(241401),	-- Ensemble: Sunborne Runemail
-			i(241404),	-- Ensemble: Seaborne Brigandine
-			i(241405),	-- Ensemble: Skyborne Brigandine
 			i(241417),	-- Ensemble: Nightforged Felplate
 			i(241418),	-- Ensemble: Bloodforged Battleplate
 			i(241419),	-- Ensemble: Honorforged Valorplate
@@ -779,7 +717,6 @@ root(ROOTS.Unsorted, {
 			i(241608),	-- Ensemble: Regalia of the Chosen Dead
 			i(241609),	-- Ensemble: Regalia of the Chosen Dead
 			i(241610),	-- Ensemble: Regalia of the Chosen Dead
-			i(241639),	-- Sunborne Runemail Kilt
 			i(241640),	-- Dreadthorn Kilt
 			i(241641),	-- Kilt of Remembered Eternity
 			i(241642),	-- Stormborn Laminar Kilt

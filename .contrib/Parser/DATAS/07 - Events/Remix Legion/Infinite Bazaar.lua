@@ -43,38 +43,22 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(241184, {	-- Agos the Silent <Lost and Found Apparel>
-				clWithoutLock(DEATHKNIGHT, {
-					
-				}),
-				clWithoutLock(DRUID, {
-					
-				}),
-				clWithoutLock(HUNTER, {
-					
-				}),
-				clWithoutLock(MAGE, {
-					
-				}),
-				clWithoutLock(MONK, {
-					
-				}),
-				clWithoutLock(PALADIN, {
-					
-				}),
-				clWithoutLock(PRIEST, {
-					
-				}),
-				clWithoutLock(ROGUE, {
-					
-				}),
-				clWithoutLock(SHAMAN, {
-					
-				}),
-				clWithoutLock(WARLOCK, {
-					
-				}),
-				clWithoutLock(WARRIOR, {
-					
+				["groups"] = sharedData({
+					["cost"] = {{ "c", BRONZE, 15000 }},
+				}, {
+					filter(LEATHER, {
+						iensemble(241354),	-- Ensemble: Emerald Drake Hunter's Kit
+						iensemble(241404),	-- Ensemble: Seaborne Brigandine
+						iensemble(241405),	-- Ensemble: Skyborne Brigandine
+					}),
+					filter(MAIL, {
+						iensemble(241398),	-- Ensemble: Earthbreaker Dragonscale
+						iensemble(241401),	-- Ensemble: Sunborne Runemail
+					}),
+					filter(PLATE, {
+						iensemble(241394),	-- Ensemble: Val'kyr's Warharness
+						iensemble(241393),	-- Ensemble: Winged Plate of the Valhalas Champion
+					}),
 				}),
 			}),
 			n(241147, {	-- Arturos <Dungeon Apparel>
