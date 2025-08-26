@@ -24,7 +24,6 @@ root(ROOTS.Unsorted, {
 			i(232303),	-- Unbound Banner of the Algari
 			i(232307),	-- Astral Champion's Prestigious Banner
 			i(234273),	-- A Dimmed Crystal
-			i(235630),	-- Ensemble: Runespeaker Wraps
 			i(235903),	-- Gold Lightforged Chestguard
 			i(235915),	-- Highmountain Hide Cap
 			i(237750),	-- Warbreaker's Revenge
@@ -364,25 +363,18 @@ root(ROOTS.Unsorted, {
 			i(240578),	-- Garothi Pauldrons
 			i(240579),	-- Garothi Warhelm
 			i(240580),	-- Garothi Drape
-			i(240581),	-- Garothi Shroud
-			i(240582),	-- Garothi Shawl
 			i(240583),	-- Garothi Cloak
-			i(240595),	-- Praetorium Guard's Shawl
-			i(240596),	-- Praetorium Guard's Shroud
 			i(240597),	-- Praetorium Guard's Drape
 			i(240598),	-- Praetorium Guard's Cape
-			i(240599),	-- Oronaar Disciple's Shroud
 			i(240601),	-- Oronaar Disciple's Drape
 			i(240603),	-- Lunarblight Leather Wrap
 			i(240605),	-- Doomsinger's Shroud
 			i(240606),	-- Shrinebreaker's Shroud
-			i(240609),	-- Arinor Keeper's Shawl
 			i(240610),	-- Doomsinger's Drape
 			i(240614),	-- Arinor Keeper's Cloak
 			i(240615),	-- Highmountain Riverscale Shroud
 			i(240619),	-- Dreadthorn Shroud
 			i(240622),	-- Highmountain Riverscale Cape
-			i(240625),	-- Arinor Keeper's Drape
 			i(240626),	-- Stormborn Laminar Cape
 			i(240629),	-- Doomsinger's Cape
 			i(240630),	-- Shrinebreaker's Shawl
@@ -770,10 +762,6 @@ root(ROOTS.Unsorted, {
 			i(241587),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241588),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241589),	-- Ensemble: Regalia of Everburning Knowledge
-			i(241590),	-- Ensemble: Stormborne Wraps
-			i(241591),	-- Ensemble: Legion Hunter's Capes
-			i(241592),	-- Ensemble: Cloaks of the Lost Combatant
-			i(241593),	-- Ensemble: Cloaks of the Lost Gladiator
 			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241596),	-- Ensemble: Funerary Plate of the Chosen Dead
@@ -800,179 +788,19 @@ root(ROOTS.Unsorted, {
 			i(241645),	-- Imbued Silkweave Doublet
 			i(241647),	-- Battlebound Mailcoat
 			i(241648),	-- Template
-			i(241661),	-- Druidic Fur Shroud
 			i(241665),	-- Druidic Fur Trim Cape
-			i(241667),	-- Druidic Fur Cloak
-			i(241671),	-- Shawl of Demonic Dominance
-			i(241672),	-- Drape of Demonic Dominance
-			i(241674),	-- Praetorium Noble's Shroud
-			i(241675),	-- Praetorium Noble's Shawl
 			i(241678),	-- [PH] Template
 			i(241679),	-- [PH] Template
 			i(241680),	-- [PH] Template
 			i(241681),	-- [PH] Template
-			i(241684),	-- Oronaar Disciple's Cloak
-			i(241689),	-- Shroud of the Rosy Combatant
-			i(241694),	-- Excellent Eredar Shroud
-			i(241695),	-- Excellent Eredar Cape
-			i(241701),	-- Eredar Battle Shroud
-			i(241702),	-- Eredar Battle Cloak
-			i(241710),	-- Conservatory Ward's Cloak
 			i(241712),	-- [PH] Template
 			i(241713),	-- [PH] Template
 			i(241714),	-- [PH] Template
 			i(241715),	-- [PH] Template
-			i(241716),	-- Shroud of Dragon's Dominance
-			i(241717),	-- Shawl of Dragon's Dominance
-			i(241722),	-- Shroud of the Master at Arms
-			i(241723),	-- Shawl of the Master at Arms
-			i(241724),	-- Lost Dragonhide Shawl
-			i(241725),	-- Lost Dragonhide Drape
-			i(241727),	-- Stygian Silk Shroud
-			i(241730),	-- Gladiator's Pious Shroud
-			i(241731),	-- Gladiator's Pious Cape
-			i(241735),	-- Shroud of Eredar Nobility
-			i(241738),	-- Combatant's Pious Shroud
-			i(241739),	-- Combatant's Pious Cloak
-			i(241741),	-- Doomsinger's Shroud
-			i(241742),	-- Doomsinger's Cape
-			i(241749),	-- Cloak of Eredar Nobility
-			i(241751),	-- Shrinebreaker's Draping Shawl
-			i(241752),	-- Shrinebreaker's Draping Shroud
-			i(241755),	-- Gladiator's Scaled Draping Shawl
-			i(241756),	-- Gladiator's Scaled Draping Shroud
-			i(241759),	-- Draping Shroud of Devouring Night
-			i(241761),	-- Ered'ruin Draping Shawl
-			i(241762),	-- Ered'ruin Draping Shroud
-			i(241764),	-- Combatant's Scaled Draping Shroud
-			i(241767),	-- Combatant's Scaled Draping Shawl
-			i(241773),	-- Dalaran's Finest Cape
-			i(241777),	-- Dalaran's Finest Draping Shroud
-			i(241779),	-- Lost Dreadwyrm Trim Drape
-			i(241780),	-- Lost Dreadwyrm Wrap
-			i(241785),	-- Trim Drape of Enveloped Clarity
-			i(241790),	-- Draping Shroud of Enveloped Clarity
-			i(241796),	-- Shroud of Azj'Aqir's Royalty
-			i(241802),	-- Overdrape of Azj'Aqir's Royalty
-			i(241803),	-- Legion's Grim Shortcloak
-			i(241804),	-- Legion's Grim Full Wrap
 			i(241805),	-- [PH] Template
 			i(241806),	-- [PH] Template
 			i(241807),	-- [PH] Template
 			i(241808),	-- [PH] Template
-			i(241809),	-- Legion's Grim Oversized Shroud
-			i(241812),	-- Legion's Grim Cape
-			i(241820),	-- Cape of Everdeepening Knowledge
-			i(241830),	-- Cloak of Evergrowing Knowledge
-			i(241832),	-- Draping Shroud of Evergrowing Knowledge
-			i(241839),	-- Soldier's Silken Cape
-			i(241842),	-- Soldier's Silken Draping Shroud
-			i(241850),	-- Combatant's Silken Cloak
-			i(241851),	-- Combatant's Silken Draping Shroud
-			i(241858),	-- Gladiator's Silken Drape
-			i(241859),	-- Gladiator's Silken Shroud
-			i(241863),	-- Gladiator's Silken Draping Cloak
-			i(241868),	-- Twisted Arcanum Drape
-			i(241869),	-- Twisted Arcanum Shroud
-			i(241873),	-- Twisted Arcanum Draping Cloak
-			i(241879),	-- Drape of Everburning Knowledge
-			i(241880),	-- Shroud of Everburning Knowledge
-			i(241882),	-- Draping Cloak of Everburning Knowledge
-			i(241885),	-- Trim Drape of Enveloped Dissonance
-			i(241891),	-- Draping Shroud of Enveloped Dissonance
-			i(241894),	-- Trim Drape of the Cruel Gladiator
-			i(241900),	-- Draping Shroud of the Cruel Gladiator
-			i(241903),	-- Trim Drape of the Ironskin Gladiator
-			i(241909),	-- Draping Shroud of the Ironskin Gladiator
-			i(241912),	-- Evergreen Vinewrap Trim Drape
-			i(241918),	-- Evergreen Vinewrap Draping Shroud
-			i(241921),	-- Trim Drape of Lavish Meditations
-			i(241927),	-- Draping Shroud of Lavish Meditations
-			i(241930),	-- Lost Ironskin Trim Drape
-			i(241935),	-- Lost Ironskin Draping Overcloak
-			i(241944),	-- Battlebound Drape
-			i(241949),	-- Battlebound Draping Cloak
-			i(241953),	-- Fel-marked Drape
-			i(241955),	-- Fel-marked Draping Cloak
-			i(241958),	-- Trim Drape of Lost Cruelty
-			i(241965),	-- Wrap of Lost Cruelty
-			i(241969),	-- Trim Drape of Fearless Vindication
-			i(241976),	-- Wrap of Fearless Vindication
-			i(241980),	-- Trim Drape of Withering Twilight
-			i(241987),	-- Wrap of Withering Twilight
-			i(241991),	-- Plaguewyrm Trim Drape
-			i(241998),	-- Plaguewyrm Wrap
-			i(242002),	-- Lost Combatant's Icy Trim Drape
-			i(242011),	-- Lost Combatant's Icy Wrap
-			i(242012),	-- Lost Dreamwyrm Trim Drape
-			i(242022),	-- Lost Dreamwyrm Wrap
-			i(242027),	-- Lost Combatant's Fiery Shroud
-			i(242029),	-- Lost Combatant's Fiery Cape
-			i(242037),	-- Lost Crimson Felweave Trim Shroud
-			i(242043),	-- Lost Crimson Felweave Draping Shroud
-			i(242046),	-- Trim Shroud of Azj'Aqir's Grief
-			i(242052),	-- Draping Shroud of Azj'Aqir's Grief
-			i(242056),	-- Draping Shroud of Azj'Aqir's Hatred
-			i(242057),	-- Trim Shroud of Azj'Aqir's Hatred
-			i(242064),	-- Trim Shroud of Azj'Aqir's Envy
-			i(242070),	-- Draping Shroud of Azj'Aqir's Envy
-			i(242073),	-- Lost Azure Felweave Trim Shroud
-			i(242078),	-- Lost Azure Felweave Draping Shroud
-			i(242082),	-- Trim Shroud of Lost Ferocity
-			i(242090),	-- Draping Shroud of Lost Ferocity
-			i(242091),	-- Leystone Shawl
-			i(242093),	-- Leystone Shroud
-			i(242098),	-- Lost Gladiator's Crimson Shawl
-			i(242100),	-- Lost Gladiator's Crimson Shroud
-			i(242105),	-- Dream Defender's Emerald Shawl
-			i(242107),	-- Dream Defender's Emerald Shroud
-			i(242117),	-- Broken Shore Battlemender's Trim Cape
-			i(242121),	-- Broken Shore Battlemender's Draping Shroud
-			i(242127),	-- Dreamseeker's Trim Cape
-			i(242128),	-- Dreamseeker's Draping Shroud
-			i(242131),	-- Silkweave Trim Cape
-			i(242135),	-- Silkweave Draping Shroud
-			i(242138),	-- Dreamwatcher's Trim Cape
-			i(242142),	-- Dreamwatcher's Draping Shroud
-			i(242144),	-- Lost Gladiator's Azure Shawl
-			i(242146),	-- Lost Gladiator's Azure Shroud
-			i(242156),	-- Lost Combatant's Crimson Draping Shroud
-			i(242157),	-- Lost Combatant's Crimson Trim Cape
-			i(242160),	-- Lost Combatant's Azure Trim Cape
-			i(242163),	-- Lost Combatant's Azure Cape
-			i(242170),	-- Warhide Draping Shroud
-			i(242171),	-- Warhide Draping Cloak
-			i(242176),	-- Shroud of the Hunting Dream
-			i(242177),	-- Draping Cloak of the Hunting Dream
-			i(242181),	-- Invasion Stalker's Draping Cloak
-			i(242186),	-- Seaborne Shroud
-			i(242192),	-- Seaborne Cape
-			i(242193),	-- Mountainborne Shroud
-			i(242195),	-- Mountainborne Cape
-			i(242198),	-- Skyborne Shroud
-			i(242200),	-- Skyborne Cloak
-			i(242202),	-- Skyrune Oversized Shroud
-			i(242207),	-- Skyrune Cape
-			i(242208),	-- Earthrune Oversized Shroud
-			i(242213),	-- Earthrune Cape
-			i(242214),	-- Nightrune Oversized Shroud
-			i(242219),	-- Nightrune Cloak
-			i(242221),	-- Tattered Highmountain Draping Cloak
-			i(242222),	-- Draping Cloak of the Forest's Nightmare
-			i(242223),	-- Pondskipper's Draping Cloak
-			i(242228),	-- Ensemble: Shrouds of Azj'Aqir
-			i(242229),	-- Ensemble: Druidic Fur Drapes
-			i(242230),	-- Ensemble: Shrouds of the Lost Deathwyrms
-			i(242231),	-- Ensemble: Cloaks of the Fel Battler
-			i(242232),	-- Ensemble: Cloaks of the Ironskin Gladiator
-			i(242233),	-- Ensemble: Cloaks of Silken Knowledge
-			i(242234),	-- Ensemble: Dalaran's Finest Silken Cloaks
-			i(242235),	-- Ensemble: Drapes of Devouring Night
-			i(242236),	-- Ensemble: Drapes of Eredar Finery
-			i(242237),	-- Ensemble: Argussian Demonsbane Cloaks
-			i(242238),	-- Ensemble: Cloaks of the Antoran Guard
-			i(242239),	-- Ensemble: Eredar Battle Capes
-			i(242240),	-- Ensemble: Cloaks of the Green Mountains
 			i(242369),	-- The First Satyr's Spaulders
 			i(242370),	-- Horns of the First Satyr
 			i(242476),	-- Taah'bat's Desert Carbine
@@ -1706,11 +1534,6 @@ root(ROOTS.Unsorted, {
 			i(251248),	-- [DNT] Keystone Dungeon - Any Completion
 			i(251249),	-- [DNT] Keystone Dungeon - Timed Only
 			i(251261),	-- [DNT] Keystone Level
-			i(251536),	-- Highmountain's Finest Draping Cloak
-			i(251538),	-- Pondskipper's Cloak
-			i(251539),	-- Tattered Highmountain Cloak
-			i(251540),	-- Cloak of the Forest's Nightmare
-			i(251541),	-- Highmountain's Finest Cloak
 			i(251631),	-- Bottled Time
 			i(251656),	-- Bunch of Orange Carrots
 			i(251657),	-- Bunch of Pink Carrots
@@ -1734,7 +1557,6 @@ root(ROOTS.Unsorted, {
 			i(251802),	-- Offhand Ears of Purple Corn
 			i(251803),	-- Offhand Ears of White Corn
 			i(251804),	-- Offhand Ears of Yellow Corn
-			i(251827),	-- Stygian Silk Cloak
 			i(251854),	-- Bunch of Green Chile
 			i(251855),	-- Bunch of Orange Chile
 			i(251856),	-- Bunch of Red Chile
@@ -1743,11 +1565,6 @@ root(ROOTS.Unsorted, {
 			i(251870),	-- Offhand Bunch of Orange Chile
 			i(251872),	-- Offhand Bunch of Red Chile
 			i(251873),	-- Offhand Bunch of Yellow Chile
-			i(251874),	-- Antoran Guard's Golden Cape
-			i(251876),	-- Cloak of the Hunting Dream
-			i(251877),	-- Ruthless Marauder's Cape
-			i(251878),	-- Ruthless Marauder's Shroud
-			i(251879),	-- Draping Shroud of the Hunting Dream
 			i(251964),	-- Frost Marshal's Carbine
 			i(251966),	-- Libram of Azure Light
 			i(251971),	-- Tome of Cerulean Ciphers

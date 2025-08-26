@@ -133,7 +133,62 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			}),
 			n(246030, {	-- Freddie Threads <Discount Cloak Dealer>
 				filter(CLOAKS, {
-					
+					iensemble(242231, {	-- Ensemble: Cloaks of the Fel Battler
+						["cost"] = {{ "c", BRONZE, 2000 }},
+					}),
+					iensemble(242240, {	-- Ensemble: Cloaks of the Green Mountains
+						["cost"] = {{ "c", BRONZE, 4000 }},
+					}),
+					iensemble(242232, {	-- Ensemble: Cloaks of the Ironskin Gladiator
+						["cost"] = {{ "c", BRONZE, 8000 }},
+					}),
+					iensemble(241592, {	-- Ensemble: Cloaks of the Lost Combatant
+						["cost"] = {{ "c", BRONZE, 8000 }},
+					}),
+					iensemble(241593, {	-- Ensemble: Cloaks of the Lost Gladiator
+						["cost"] = {{ "c", BRONZE, 4000 }},
+					}),
+					iensemble(242233, {	-- Ensemble: Cloaks of Silken Knowledge
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
+					iensemble(242234, {	-- Ensemble: Dalaran's Finest Silken Cloaks
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
+					iensemble(242229, {	-- Ensemble: Druidic Fur Drapes
+						["cost"] = {{ "c", BRONZE, 2000 }},
+					}),
+					iensemble(241591, {	-- Ensemble: Legion Hunter's Capes
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
+					iensemble(235630, {	-- Ensemble: Runespeaker Wraps
+						["cost"] = {{ "c", BRONZE, 4000 }},
+					}),
+					iensemble(242228, {	-- Ensemble: Shrouds of Azj'Aqir
+						["cost"] = {{ "c", BRONZE, 8000 }},
+					}),
+					iensemble(242230, {	-- Ensemble: Shrouds of the Lost Deathwyrms
+						["cost"] = {{ "c", BRONZE, 8000 }},
+					}),
+					iensemble(241590, {	-- Ensemble: Stormborne Wraps
+						["cost"] = {{ "c", BRONZE, 4000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					iensemble(242235, {	-- Ensemble: Drapes of Devouring Night
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					iensemble(242237, {	-- Ensemble: Argussian Demonsbane Cloaks
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
+					iensemble(242238, {	-- Ensemble: Cloaks of the Antoran Guard
+						["cost"] = {{ "c", BRONZE, 8000 }},
+					}),
+					iensemble(242236, {	-- Ensemble: Drapes of Eredar Finery
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
+					iensemble(242239, {	-- Ensemble: Eredar Battle Capes
+						["cost"] = {{ "c", BRONZE, 6000 }},
+					}),
 				}),
 			}),
 			n(241186, {	-- Grandmaster Jakkus <Class Mounts>
@@ -555,7 +610,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["cost"] = {{ "c", BRONZE, 5 }},
 				}, {
 					i(254320, {	-- Elixir of Remembered Sight
-						["description"] = "|cFFE50D12NOT CONSUMABLE:|r Buy only 1.",
+						["description"] = "|cFFE50D12NOT CONSUMED ON USE:|r Buy only 1.",
 					}),
 					i(250316),	-- Everlasting Nosh
 					i(188152),	-- Gateway Control Shard
