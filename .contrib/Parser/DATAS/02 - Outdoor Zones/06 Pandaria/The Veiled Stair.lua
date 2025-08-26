@@ -12,6 +12,7 @@ root(ROOTS.Zones, {
 					pet(709),	-- Malayan Quillrat Pup (PET!)
 				}),
 				explorationHeader({
+					visit_exploration(6372,{coord={49.7,63.5,THE_VEILED_STAIR}}),	-- Gate of Endless Spring
 					visit_exploration(6377,{coord={55.7,55.4,THE_VEILED_STAIR}}),	-- Hatescale Burrow
 					visit_exploration(6382,{coord={69.4,78.6,THE_VEILED_STAIR}}),	-- Mason's Folly
 					exploration(6380),	-- Path of a Hundred Steps

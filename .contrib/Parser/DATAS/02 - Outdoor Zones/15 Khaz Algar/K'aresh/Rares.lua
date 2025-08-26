@@ -24,6 +24,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				--["coord"] = { x, y, KARESH },
 				--["questID"] = ,
+				["groups"] = {
+					i(239467),	-- Reshii Skirmisher's Cowl
+				},
 			}),
 			n(238540, {	-- Grubber
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
@@ -149,6 +152,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier
 					i(240118),	-- Reshii Brute's Spear
+					i(240115),	-- Reshii Brute's Warmace
 					i(240113),	-- Reshii Magi's Dagger
 					i(240120),	-- Reshii Magi's Lantern
 					i(240117),	-- Reshii Magi's Wand

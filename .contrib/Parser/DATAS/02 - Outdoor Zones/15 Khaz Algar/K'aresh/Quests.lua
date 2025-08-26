@@ -2249,8 +2249,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(90081, {	-- Arcane Runed Sigil
 						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238181,	-- Acquisitioner Xy'gui
+						["coord"] = { 51.2, 48.2, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(245740),	-- Etched Fragment (QI!)
@@ -2260,8 +2260,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(89501, {	-- Charged Crystal
 						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238057,	-- Engineer Om'loof
+						["coord"] = { 48.0, 57.4, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(239446),	-- Uncharged Cyrstal (QI!)
@@ -2271,8 +2271,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(89505, {	-- Smuggler's Mark
 						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238486,	-- Citizen Om'sto
+						["coord"] = { 46.6, 50.2, KARESH_TAZAVESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(239497),	-- Hidden Tokens (QI!)

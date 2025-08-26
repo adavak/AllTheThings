@@ -105,6 +105,7 @@ root(ROOTS.Zones, {
 					visit_exploration(6149,{coord={18.8,22.0,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Ancestral Rise
 					visit_exploration(6538,{coord={17.4,37.4,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Autumnshade Ridge
 					visit_exploration(6735,{coord={61.5,59.1,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Big Blossom Mine
+					visit_exploration(5976,{coord={5.8,47.6,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Gate of the Setting Sun
 					exploration(6074),	-- Guo-Lai Halls
 					visit_exploration(6144,{coord={40.6,61.3,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Jin Yang Road
 					exploration(6031),	-- Mistfall Village

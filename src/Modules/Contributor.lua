@@ -1341,6 +1341,7 @@ MobileDB.GameObject = {
 	[439342] = true,	-- Arathi Crate (q:81620)
 	[441181] = true,	-- Research Cache (q:81908)
 	[441225] = true,	-- Deepwalker Crate (q:81908)
+	[441966] = true,	-- Moldy Chest
 	[443754] = true,	-- Earthen Coffer
 	[444105] = true,	-- Escape Rope (q:81691)
 	[444798] = true,	-- Arathi Treasure Hoard

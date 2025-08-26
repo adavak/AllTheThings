@@ -52,6 +52,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					418,	-- Water Snake (PET!)
 				}},
 			}),
+			explorationHeader({
+				visit_exploration(5170,{coord={48.8,83.3,ORGRIMMAR}}),	-- Valley of Strength
+			}),
 			n(FACTIONS, {
 				faction(FACTION_BILGEWATER_CARTEL, {	-- Bilgewater Cartel
 					["provider"] = { "i", 64884 },	-- Bilgewater Cartel Tabard

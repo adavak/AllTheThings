@@ -333,14 +333,16 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 				}),
 				q(78880, {	-- The Eastern Kingdoms Cup Begins
 					["providers"] = {
-						{ "n", 214031 },	-- Holiday Enthusiast
-						-- #if AFTER DF
+						-- #if AFTER TWW
 						{ "n", 220870 },	-- Holiday Enthusiast
+						-- #endif
+						{ "n", 214031 },	-- Holiday Enthusiast
 					},
 					["coords"] = {
-						{ 62.3, 74.4, STORMWIND_CITY },
-						-- #if AFTER DF
+						-- #if AFTER TWW
 						{ 55.4, 61.2, DORNOGAL },
+						-- #endif
+						{ 62.3, 74.4, STORMWIND_CITY },
 					},
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,

@@ -44,6 +44,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}},
 			}),
 			explorationHeader({
+				visit_exploration(5150,{coord={64.5,28.4,STORMWIND_CITY}}),	-- Dwarven District
 				visit_exploration(5390,{coord={50.2,72.7,STORMWIND_CITY}}),	-- The Canals
 				visit_exploration(5148,{coord={61.4,74.8,STORMWIND_CITY}}),	-- Trade District
 				visit_exploration(10523,{coord={47.2,92.1,STORMWIND_CITY}}),	-- Wizard's Sanctum
