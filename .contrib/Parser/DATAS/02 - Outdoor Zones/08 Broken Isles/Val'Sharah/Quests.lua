@@ -678,7 +678,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 
 				q(38889, {	-- Adopting the Adorable
 					["description"] = "You have to kill Jinikki the Puncturer to get this quest.",
-					["coord"] = { 53.0, 87.7, VALSHARAH },	-- cave entrance
+					["qg"] = 93677,	-- Shivering Ashmaw Cub
+					["coord"] = { 53.1, 87.9, VALSHARAH },	-- cave entrance
 					["crs"] = { 93686 },	-- Jinikki the Puncturer
 					["groups"] = {
 						i(128690),	-- Ashmaw Cub (PET!)

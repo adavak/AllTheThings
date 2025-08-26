@@ -66,6 +66,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			visit_exploration(7668,{coord={42.6,70.2,VALSHARAH}}),	-- Thas'talah Basin
 			exploration(7913),	-- The Crescent Vale
 			exploration(7846),	-- The Dreamgrove
+			visit_exploration(8387,{coord={50.7,66.8,VALSHARAH}}),	-- The Hidden Pools
 			visit_exploration(8066,{coord={70.7,48.6,VALSHARAH}}),	-- The High Road
 			exploration(8363),	-- The Wildwood
 			visit_exploration(8494,{coord={44.7,8.9,VALSHARAH}}),	-- Verdant Cliffs

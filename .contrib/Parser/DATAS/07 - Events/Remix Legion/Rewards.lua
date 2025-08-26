@@ -70,6 +70,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			i(217730),	-- Timeless Scroll of Chaos
 			i(217929),	-- Timeless Scroll of Cleansing
 			i(217606),	-- Timeless Scroll of Fortitude
+			i(217605),	-- Timeless Scroll of Intellect
 			i(217731),	-- Timeless Scroll of Mystic Power
 			i(217928),	-- Timeless Scroll of Resurrection
 			i(217956),	-- Timeless Scroll of Summoning

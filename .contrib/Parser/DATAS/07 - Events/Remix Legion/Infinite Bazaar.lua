@@ -78,17 +78,21 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(241147, {	-- Arturos <Dungeon Apparel>
-				filter(CLOTH, {
-					
-				}),
-				filter(LEATHER, {
-					
-				}),
-				filter(MAIL, {
-					
-				}),
-				filter(PLATE, {
-					
+				["groups"] = sharedData({
+					["cost"] = {{ "c", BRONZE, 15000 }},
+				}, {
+					filter(CLOTH, {
+						
+					}),
+					filter(LEATHER, {
+						
+					}),
+					filter(MAIL, {
+						
+					}),
+					filter(PLATE, {
+						
+					}),
 				}),
 			}),
 			--n(251042, { }),	-- Domelius <Housing Vendor> (Stripped of his title and no vendor 'option' in build 62687 but is still present.)
@@ -128,7 +132,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(246030, {	-- Freddie Threads <Discount Cloak Dealer>
-				
+				filter(CLOAKS, {
+					
+				}),
 			}),
 			n(241186, {	-- Grandmaster Jakkus <Class Mounts>
 				["groups"] = sharedData({
@@ -548,7 +554,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				["groups"] = sharedData({
 					["cost"] = {{ "c", BRONZE, 5 }},
 				}, {
-					i(254320),	-- Elixir of Remembered Sight
+					i(254320, {	-- Elixir of Remembered Sight
+						["description"] = "|cFFE50D12NOT CONSUMABLE:|r Buy only 1.",
+					}),
 					i(250316),	-- Everlasting Nosh
 					i(188152),	-- Gateway Control Shard
 					i(226037),	-- Timeless Neural Silencer
@@ -797,6 +805,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 						249256,	-- Pile of Chronoqueries
 					},
 				}),
+				q(92439, {	-- Infinite Research: Combat Studies, Felrunner
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
 				q(90099, {	-- Infinite Research: Combat Studies, Rare
 					["qgs"] = {
 						241748,	-- Eternus
@@ -848,7 +862,19 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 						249256,	-- Pile of Chronoqueries
 					},
 				}),
+				q(90101, {	-- Infinite Research: Terrors of the Broken Isles
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
 				q(89679, {	-- Infinite Research: The Emerald Nightmare, Heroic
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(89644, {	-- Infinite Research: Time to Raid, Darkbough
 					["qgs"] = {
 						241748,	-- Eternus
 						249256,	-- Pile of Chronoqueries

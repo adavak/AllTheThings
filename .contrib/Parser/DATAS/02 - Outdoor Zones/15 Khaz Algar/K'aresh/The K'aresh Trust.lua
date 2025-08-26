@@ -291,7 +291,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 }));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
-	header(HEADERS.Faction, FACTION_THE_KARESH_TRUST, {	-- Exo Note to Senior Contrib(s): I think this structure should be different but dunno how to structure it. Please fix and remove comment.
+	header(HEADERS.Faction, FACTION_THE_KARESH_TRUST, {
 		q(90725),	-- Daily(?) Lockout, triggered at the completion of quests starting with 'Stealing What is Ours' (90663)
 	}),
 }));
