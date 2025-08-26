@@ -313,7 +313,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			["qg"] = 243853,	-- Lidamorrutu
 			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
 			["lvl"] = 40,
-			["groups"] = { i(245553), },	-- Heroic Cache of Infinite Treasure
+			["groups"] = { i(245553) },	-- Heroic Cache of Infinite Treasure
 		}),
 	}),
 }))));

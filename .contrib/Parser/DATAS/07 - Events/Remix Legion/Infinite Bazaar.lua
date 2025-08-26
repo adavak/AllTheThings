@@ -66,16 +66,32 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["cost"] = {{ "c", BRONZE, 15000 }},
 				}, {
 					filter(CLOTH, {
-						
+						iensemble(241427),	-- Ensemble: Sanguine Oath Vestments
+						iensemble(241439),	-- Ensemble: Seawitch's Terrorcloth
+						iensemble(241428),	-- Ensemble: Vesture of Borrowed Souls
+						------ Locked behind: Legionfall ------
+						iensemble(241426),	-- Ensemble: Raiment of Night Eternal
 					}),
 					filter(LEATHER, {
-						
+						iensemble(241425),	-- Ensemble: Bindings of Hungering Flesh
+						iensemble(241436),	-- Ensemble: Nighthide Coat
+						iensemble(241424),	-- Ensemble: Thirsting Hides
+						------ Locked behind: Legionfall ------
+						iensemble(241423),	-- Ensemble: Guise of the Nightstalker
 					}),
 					filter(MAIL, {
-						
+						iensemble(241422),	-- Ensemble: Armor of the Skyfather's Chosen
+						iensemble(241421),	-- Ensemble: Ravensteel Mail
+						------ Locked behind: Legionfall ------
+						iensemble(241420),	-- Ensemble: Scalemail of Devouring Night
 					}),
 					filter(PLATE, {
-						
+						iensemble(241418),	-- Ensemble: Bloodforged Battleplate
+						iensemble(241434),	-- Ensemble: Chains of Nightmare's Embrace
+						iensemble(241419),	-- Ensemble: Honorforged Valorplate
+						iensemble(241431),	-- Ensemble: Suramar Silver Plating
+						------ Locked behind: Legionfall ------
+						iensemble(241417),	-- Ensemble: Nightforged Felplate
 					}),
 				}),
 			}),

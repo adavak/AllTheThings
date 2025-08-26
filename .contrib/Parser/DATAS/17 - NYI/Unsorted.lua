@@ -105,90 +105,10 @@ root(ROOTS.Unsorted, {
 			i(239968),	-- Fel-marked Chestguard
 			i(239969),	-- Fel-marked Greaves
 			i(239970),	-- Fel-marked Cinch
-			i(240256),	-- Thirsting Wrap
-			i(240257),	-- Nightstalker's Wrap
-			i(240258),	-- Drape of Hungering Flesh
-			i(240262),	-- Thirsting Cloak
-			i(240264),	-- Nightstalker's Cloak
 			i(240265),	-- [DNT]
-			i(240266),	-- Shroud of Hungering Flesh
-			i(240267),	-- Nightstalker's Shroud
-			i(240271),	-- Thirsting Shroud
-			i(240274),	-- Thirsting Drape
-			i(240275),	-- Nightforged Handguards
-			i(240276),	-- Nightforged Armplates
-			i(240277),	-- Nightforged Greatboots
-			i(240278),	-- Nightforged Wargreaves
-			i(240279),	-- Nightforged Waistguard
-			i(240280),	-- Nightforged Chestpiece
-			i(240281),	-- Nightforged Shoulderguards
-			i(240282),	-- Nightforged Warhelm
-			i(240283),	-- Bloodforged Handguards
-			i(240284),	-- Bloodforged Vambraces
-			i(240285),	-- Bloodforged Sabatons
-			i(240286),	-- Bloodforged Wargreaves
-			i(240287),	-- Bloodforged Girdle
-			i(240288),	-- Bloodforged Chestplate
-			i(240289),	-- Bloodforged Shoulderguards
-			i(240290),	-- Bloodforged Warhelm
-			i(240307),	-- Ravensteel Handguards
-			i(240308),	-- Ravensteel Wristguards
-			i(240309),	-- Ravensteel Stompers
-			i(240310),	-- Ravensteel Wargreaves
-			i(240311),	-- Ravensteel Belt
-			i(240312),	-- Ravensteel Chestguard
-			i(240313),	-- Ravensteel Pinions
-			i(240314),	-- Ravensteel Helmet
-			i(240315),	-- Grips of Skyfather's Chosen
-			i(240316),	-- Bracers of Skyfather's Chosen
-			i(240317),	-- Boots of Skyfather's Chosen
-			i(240318),	-- Leggings of Skyfather's Chosen
-			i(240319),	-- Cinch of Skyfather's Chosen
-			i(240320),	-- Chestguard of Skyfather's Chosen
-			i(240321),	-- Pinions of Skyfather's Chosen
-			i(240322),	-- Faceguard of Skyfather's Chosen
-			i(240323),	-- Nightstalker's Grips
-			i(240324),	-- Nightstalker's Wraps
-			i(240325),	-- Nightstalker's Boots
-			i(240326),	-- Nightstalker's Trousers
-			i(240327),	-- Nightstalker's Cinch
-			i(240328),	-- Nightstalker's Chestguard
-			i(240329),	-- Nightstalker's Mantle
-			i(240330),	-- Nightstalker's Cap
-			i(240331),	-- Thirsting Grips
-			i(240332),	-- Thirsting Bindings
-			i(240333),	-- Thirsting Boots
-			i(240334),	-- Thirsting Legguards
-			i(240335),	-- Thirsting Cinch
-			i(240336),	-- Thirsting Harness
-			i(240337),	-- Thirsting Mantle
-			i(240338),	-- Thirsting Helm
-			i(240356),	-- Sanguine Oath Handwraps
-			i(240357),	-- Sanguine Oath Wristwraps
-			i(240358),	-- Sanguine Oath Treads
-			i(240359),	-- Sanguine Oath Legwraps
-			i(240360),	-- Sanguine Oath Cinch
-			i(240361),	-- Sanguine Oath Robe
-			i(240362),	-- Sanguine Oath Vestments
 			i(240363),	-- Sanguine Oath Shoulders
-			i(240364),	-- Sanguine Oath Cowl
-			i(240365),	-- Gloves of Borrowed Souls
-			i(240366),	-- Armbands of Borrowed Souls
-			i(240367),	-- Slippers of Borrowed Souls
-			i(240368),	-- Pants of Borrowed Souls
-			i(240369),	-- Cinch of Borrowed Souls
-			i(240370),	-- Robe of Borrowed Souls
-			i(240371),	-- Raiment of Borrowed Souls
 			i(240372),	-- Shawl of Borrowed Souls
-			i(240373),	-- Cover of Borrowed Souls
-			i(240390),	-- Suramar Silver Handguards
-			i(240391),	-- Suramar Silver Wristguards
-			i(240392),	-- Suramar Silver Jackboots
-			i(240393),	-- Suramar Silver Legguards
-			i(240394),	-- Suramar Silver Girdle
-			i(240395),	-- Suramar Silver Breastplate
 			i(240396),	-- Suramar Silver Mantle
-			i(240397),	-- Suramar Silver Greathelm
 			i(240414),	-- Gauntlets of the Nightmare's Embrace
 			i(240415),	-- Bracers of the Nightmare's Embrace
 			i(240416),	-- Boots of the Nightmare's Embrace
@@ -197,15 +117,6 @@ root(ROOTS.Unsorted, {
 			i(240419),	-- Chestguard of the Nightmare's Embrace
 			i(240420),	-- Pinions of the Nightmare's Embrace
 			i(240421),	-- Helmet of the Nightmare's Embrace
-			i(240458),	-- Terrorcloth Handwraps
-			i(240459),	-- Terrorcloth Cuffs
-			i(240460),	-- Terrorcloth Footwraps
-			i(240461),	-- Terrorcloth Leggings
-			i(240462),	-- Terrorcloth Cinch
-			i(240463),	-- Terrorcloth Robe
-			i(240464),	-- Terrorcloth Raiment
-			i(240465),	-- Terrorcloth Amice
-			i(240466),	-- Terrorcloth Cowl
 			i(240563),	-- Vileweave Gloves
 			i(240564),	-- Vileweave Bindings
 			i(240567),	-- Vileweave Cord
@@ -214,22 +125,6 @@ root(ROOTS.Unsorted, {
 			i(240571),	-- Vileweave Guise
 			i(241146),	-- Epoch Memento
 			i(241258),	-- Vineyard Red Shal'dorei Crown
-			i(241417),	-- Ensemble: Nightforged Felplate
-			i(241418),	-- Ensemble: Bloodforged Battleplate
-			i(241419),	-- Ensemble: Honorforged Valorplate
-			i(241420),	-- Ensemble: Scalemail of Devouring Night
-			i(241421),	-- Ensemble: Ravensteel Mail
-			i(241422),	-- Ensemble: Armor of the Skyfather's Chosen
-			i(241423),	-- Ensemble: Guise of the Nightstalker
-			i(241424),	-- Ensemble: Thirsting Hides
-			i(241425),	-- Ensemble: Bindings of Hungering Flesh
-			i(241426),	-- Ensemble: Raiment of Night Eternal
-			i(241427),	-- Ensemble: Sanguine Oath Vestments
-			i(241428),	-- Ensemble: Vesture of Borrowed Souls
-			i(241431),	-- Ensemble: Suramar Silver Plating
-			i(241434),	-- Ensemble: Chains of Nightmare's Embrace
-			i(241436),	-- Ensemble: Nighthide Coat
-			i(241439),	-- Ensemble: Seawitch's Terrorcloth
 			i(241445),	-- Ensemble: Juggernaut Battlegear
 			i(241446),	-- Ensemble: Juggernaut Battlegear
 			i(241447),	-- Ensemble: Juggernaut Battlegear
