@@ -564,16 +564,152 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["cost"] = {{ "c", BRONZE, 5 }},
 				}),
 				filter(CLOTH, {
-					
+					iensemble(241383, {	-- Ensemble: Crescent Vale Raiment
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(139170, {	-- Ensemble: Fel-Infused Cloth Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241381, {	-- Ensemble: Leyline Scholar's Regalia
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241438, {	-- Ensemble: Moonfall Robes
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241384, {	-- Ensemble: Regalia of the Hrydshal Runespeaker
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241440, {	-- Ensemble: Vestments of the Manasinged
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241382, {	-- Ensemble: Wine-dark Royal Robes
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					iensemble(241364, {	-- Ensemble: Riven Priesthood Regalia
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241444, {	-- Ensemble: Vileweave Vestments
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					iensemble(241368, {	-- Ensemble: Doomsinger's Cloth Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(253594, {	-- Ensemble: Zealous Felslingers Battle Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
 				}),
 				filter(LEATHER, {
-					
+					iensemble(241435, {	-- Ensemble: Ambervale Bonehide
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241437, {	-- Ensemble: Battlegear of the Dreadhide Stalker
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(139169, {	-- Ensemble: Felshroud Leather Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241379, {	-- Ensemble: Haustvelt Leathers
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241380, {	-- Ensemble: Highmountain Hides
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241377, {	-- Ensemble: Llothien Prowler's Kit
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241378, {	-- Ensemble: Sablehide Vestments
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					iensemble(241363, {	-- Ensemble: Lunarblight Leathers
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241443, {	-- Ensemble: Netherfiend Battlegear
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					iensemble(241367, {	-- Ensemble: Arinor Keeper's Leather Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241391, {	-- Ensemble: Stygian Hides
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
 				}),
 				filter(MAIL, {
-					
+					iensemble(241433, {	-- Ensemble: Chains of Helheim
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241432, {	-- Ensemble: Darkwatcher Bindings
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241376, {	-- Ensemble: Dreadthorn Battlegear
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(139168, {	-- Ensemble: Fel-Chain Mail Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241373, {	-- Ensemble: Highmountain Riverscales
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241375, {	-- Ensemble: Scales of Remembered Eternity
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241374, {	-- Ensemble: Stormborn Laminar Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					iensemble(241442, {	-- Ensemble: Ered'ruin Scalemail
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241362, {	-- Ensemble: Shrinebreaker's Battlegear
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					iensemble(241366, {	-- Ensemble: Oronaar Disciple's Mail Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
 				}),
 				filter(PLATE, {
-					
+					iensemble(139167, {	-- Ensemble: Felforged Plate Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241430, {	-- Ensemble: Jandvik Diver's Metal
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241370, {	-- Ensemble: Kal'delar Battleplate
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241429, {	-- Ensemble: Leyline Defender's Sunplate Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241371, {	-- Ensemble: Nar'thalas Graduate's Trim
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241372, {	-- Ensemble: Thunderpeak Boneguards
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241369, {	-- Ensemble: Vrykul Funereal Regalia
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Legionfall ------
+					iensemble(241361, {	-- Ensemble: Moonshatter Warplate
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241441, {	-- Ensemble: Xorothian Plate Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					------ Locked behind: Argus Eternal ------
+					iensemble(241359, {	-- Ensemble: Garothi Battleplate
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(241365, {	-- Ensemble: Praetorium Guard's Plate Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(253588, {	-- Ensemble: World-Defiler's Battle Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
 				}),
 			}),
 			n(241142, {	-- Momentus
