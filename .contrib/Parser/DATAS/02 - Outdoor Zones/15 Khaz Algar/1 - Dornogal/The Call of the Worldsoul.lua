@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(DORNOGAL, {
 		header(HEADERS.Quest, 82449, {	-- The Call of the Worldsoul
 			n(QUESTS, sharedData({
@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0}
 					}),
 					i(231757, {	-- Fractured Spark of Starlight
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
 					}),
 				},
 			},{
@@ -102,4 +102,4 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			})),
 		}),
 	}),
-})));
+}));

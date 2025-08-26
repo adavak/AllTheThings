@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(DORNOGAL, {
 		explorationHeader({
 			visit_exploration(15110,{coord={55.7,70.6,DORNOGAL}}),	-- Contender's Gate
@@ -17,4 +17,4 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			visit_exploration(15185,{coord={42.6,35.7,DORNOGAL}}),	-- Thraegar Rest
 		}),
 	}),
-})));
+}));
