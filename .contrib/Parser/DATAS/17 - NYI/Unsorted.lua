@@ -1599,12 +1599,6 @@ root(ROOTS.Unsorted, {
 			}),
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249235),	-- Bottomless Bag of Entropy
-			i(249560),	-- Skymaster's Silver Mantle
-			i(249561),	-- Skymaster's Silver Cloak
-			i(249562),	-- Skymaster's Silver Tabard
-			i(249563),	-- Skymaster's Sapphire Crown
-			i(249564),	-- Skymaster's Sapphire Shoulderguards
-			i(249565),	-- Skymaster's Sapphire Epaulets
 			i(249699),	-- Shadowguard Translocator
 
 
