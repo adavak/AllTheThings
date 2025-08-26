@@ -730,19 +730,29 @@ end
 
 do
 	-- we need special handling since the data in the 'otherQuestData' needs to cache against the 'group' not the other data itself
+	local IgnoredOtherFactionFields = {
+		coords = 1,
+		coord = 1,
+		maps = 1,
+		g = 1,
+	}
 	-- otherwise this leads to raw data tables being cached against costs and providers etc.
-	local function CacheOtherQuestData(group, otherQuestData)
-		for key,value in pairs(otherQuestData) do
-			_converter = fieldConverters[key]
-			if _converter then
-				-- other quest data never needs to cache map-based keys
-				_converter(group, value)
+	local function CacheOtherFactionData(group, otherFactionData)
+		-- if the other faction data was actually made into a Type, then cache it against itself
+		if otherFactionData.__type then
+			_CacheFields(otherFactionData)
+		else
+			for key,value in pairs(otherFactionData) do
+				_converter = not IgnoredOtherFactionFields[key] and fieldConverters[key]
+				if _converter then
+					_converter(group, value)
+				end
 			end
 		end
 	end
 	-- This data type requires additional processing.
 	fieldConverters.otherQuestData = function(group, value)
-		CacheOtherQuestData(group, value)
+		CacheOtherFactionData(group, value)
 	end
 end
 
