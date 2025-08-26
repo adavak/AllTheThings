@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["sourceQuests"] = { 82050 },	-- The Harbinger of Crests
 				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
-				["timeline"] = { ADDED_11_0_2, SREMOVED_11_1_0 },
+				["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 				["groups"] = { i(221269) },	-- Crimson Valorstone
 			}),
 			------ Season 2 ------
