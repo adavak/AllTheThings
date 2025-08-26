@@ -633,8 +633,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["groups"] = appendGroups(
 							WRATH_INSCRIPTION,
 							-- #if AFTER CATA
-							CATA_INSCRIPTION
+							CATA_INSCRIPTION,
 							-- #endif
+							{}
 						),
 					}),
 				}),
