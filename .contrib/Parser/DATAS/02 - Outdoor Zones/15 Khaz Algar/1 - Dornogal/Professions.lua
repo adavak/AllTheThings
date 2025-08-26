@@ -117,15 +117,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						i(227208),	-- Bismuth Rod
 						i(220789, {	-- Nascent Gilded Harbinger Crest
 							["cost"] = {{"c", GILDED_HARBINGER_CREST, 60}},
-							["timeline"] = { ADDED_11_0_2, REMOVED_11_0_0 },
+							["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 						}),
 						i(220790, {	-- Nascent Runed Harbinger Crest
 							["cost"] = {{"c", RUNED_HARBINGER_CREST, 45}},
-							["timeline"] = { ADDED_11_0_2, REMOVED_11_0_0 },
+							["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 						}),
 						i(220788, {	-- Nascent Weathered Harbinger Crest
 							["cost"] = {{"c", WEATHERED_HARBINGER_CREST, 30}},
-							["timeline"] = { ADDED_11_0_2, REMOVED_11_0_0 },
+							["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 						}),
 					},
 				}),
