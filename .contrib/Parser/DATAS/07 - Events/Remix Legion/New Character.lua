@@ -2,7 +2,7 @@
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
 
-root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(NEW_CHARACTER, {
 		filter(CLOTH, {
 			i(240565),	-- Vileweave Footwraps
@@ -70,25 +70,28 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			},
 		}),
 	}),
-}))));
-
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
-	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
-		q(90686),	-- First Memento looted
-		q(90703, name(HEADERS.Spell,1232807)),	-- Unraveling Sands, Triggered upon accepting 'Obliterate, Then Iterate' (89413)
-		q(90864, name(HEADERS.Achievement,42313)),	-- Remixing Time, Triggered when completing Introductory quest-chain
-		q(91962),	-- Triggers when you spawn in Bazaar for the first time
-		q(92192),	-- Triggers when watching "What just happened" movie on a fresh character
-		q(92425),	-- Triggers when you activate 'Heroic World Tier'
-		-- HQTs triggered during campaign
-		q(91926),	-- Triggered after completing first Legion artifact weapon quest chain (on a DH on Aldrachi quest chain)
-		q(91925),	-- Triggered after completing second Legion artifact weapon quest chain (on a DH on Twinblades quest chain)
-		q(92107),	-- Mission Table skip (on a DH)
-		q(90716),	-- Looting the Curious Simulacrum (as a DK on Apocalypse quest chain)
-		q(91924),	-- Triggered after turning in 'The Dark Riders' (40986) (on a DK on Apocalypse quest chain)
-		q(90787),	-- Triggered after killing the first Rare?
-		q(91934),	-- Triggered after completing 1st Infinite Research quest
-		q(91094),	-- Triggered after completing 'Infinite Chaos' (91061)
-		q(92428),	-- Triggered after completing 'Uniting the Isles' (43341), Unlocking World Quests?
-	})),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
+	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
+		["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END },
+		["groups"] = {
+			q(90686),	-- First Memento looted
+			q(90703, name(HEADERS.Spell,1232807)),	-- Unraveling Sands, Triggered upon accepting 'Obliterate, Then Iterate' (89413)
+			q(90864, name(HEADERS.Achievement,42313)),	-- Remixing Time, Triggered when completing Introductory quest-chain
+			q(91962),	-- Triggers when you spawn in Bazaar for the first time
+			q(92192),	-- Triggers when watching "What just happened" movie on a fresh character
+			q(92425),	-- Triggers when you activate 'Heroic World Tier'
+			-- HQTs triggered during campaign
+			q(91926),	-- Triggered after completing first Legion artifact weapon quest chain (on a DH on Aldrachi quest chain)
+			q(91925),	-- Triggered after completing second Legion artifact weapon quest chain (on a DH on Twinblades quest chain)
+			q(92107),	-- Mission Table skip (on a DH)
+			q(90716),	-- Looting the Curious Simulacrum (as a DK on Apocalypse quest chain)
+			q(91924),	-- Triggered after turning in 'The Dark Riders' (40986) (on a DK on Apocalypse quest chain)
+			q(90787),	-- Triggered after killing the first Rare?
+			q(91934),	-- Triggered after completing 1st Infinite Research quest
+			q(91094),	-- Triggered after completing 'Infinite Chaos' (91061)
+			q(92428),	-- Triggered after completing 'Uniting the Isles' (43341), Unlocking World Quests?
+		},
+	})),
+}))

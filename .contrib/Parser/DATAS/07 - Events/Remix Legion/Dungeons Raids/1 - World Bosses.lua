@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
---[[root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
+--[[root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(WORLD_BOSSES, {
 			n(ACHIEVEMENTS, {
 				ach(11786, {	-- Terrors of the Shore
@@ -337,7 +337,7 @@
 			}),
 		},
 	}),
-}));
+});
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 		-- The Kill ID is added here because the WQ ID is attached to the Worldboss to show up in /att wq

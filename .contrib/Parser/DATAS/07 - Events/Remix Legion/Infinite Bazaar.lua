@@ -3,14 +3,14 @@
 -----------------------------------------------------
 local BRONZE = 3252;
 
-root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(INFINITE_BAZAAR, {
 		["coord"] = { 45.7, 68.1, BROKEN_ISLES },
 		["groups"] = {
 			n(241145, {	-- Aeonicus <Raid Finder Apparel>
-				["groups"] = sharedData({
+				["groups"] = bubbleDownFiltered({
 					["cost"] = {{ "c", BRONZE, 20000 }},
-				}, {
+				},FILTERFUNC_itemID,{
 					clWithoutLock(DEATHKNIGHT, {
 						iensemble(241551),	-- Ensemble: Dreadwyrm Battleplate
 						------ Locked behind: Legionfall ------
@@ -112,9 +112,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(241184, {	-- Agos the Silent <Lost and Found Apparel>
-				["groups"] = sharedData({
+				["groups"] = bubbleDownFiltered({
 					["cost"] = {{ "c", BRONZE, 15000 }},
-				}, {
+				},FILTERFUNC_itemID,{
 					filter(LEATHER, {
 						iensemble(241354),	-- Ensemble: Emerald Drake Hunter's Kit
 						iensemble(241404),	-- Ensemble: Seaborne Brigandine
@@ -131,9 +131,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 			}),
 			n(241147, {	-- Arturos <Dungeon Apparel>
-				["groups"] = sharedData({
+				["groups"] = bubbleDownFiltered({
 					["cost"] = {{ "c", BRONZE, 15000 }},
-				}, {
+				},FILTERFUNC_itemID,{
 					filter(CLOTH, {
 						iensemble(241427),	-- Ensemble: Sanguine Oath Vestments
 						iensemble(241439),	-- Ensemble: Seawitch's Terrorcloth
@@ -167,37 +167,37 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			--n(251042, { }),	-- Domelius <Housing Vendor> (Stripped of his title and no vendor 'option' in build 62687 but is still present.)
 			n(241143, {	-- Durus <Normal Raid Apparel>
 				clWithoutLock(DEATHKNIGHT, {
-					
+
 				}),
 				clWithoutLock(DRUID, {
-					
+
 				}),
 				clWithoutLock(HUNTER, {
-					
+
 				}),
 				clWithoutLock(MAGE, {
-					
+
 				}),
 				clWithoutLock(MONK, {
-					
+
 				}),
 				clWithoutLock(PALADIN, {
-					
+
 				}),
 				clWithoutLock(PRIEST, {
-					
+
 				}),
 				clWithoutLock(ROGUE, {
-					
+
 				}),
 				clWithoutLock(SHAMAN, {
-					
+
 				}),
 				clWithoutLock(WARLOCK, {
-					
+
 				}),
 				clWithoutLock(WARRIOR, {
-					
+
 				}),
 			}),
 			n(246030, {	-- Freddie Threads <Discount Cloak Dealer>
@@ -824,37 +824,37 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			}),
 			n(241168, {	-- Pythagorus <Mythic Raid Apparel>
 				clWithoutLock(DEATHKNIGHT, {
-					
+
 				}),
 				clWithoutLock(DRUID, {
-					
+
 				}),
 				clWithoutLock(HUNTER, {
-					
+
 				}),
 				clWithoutLock(MAGE, {
-					
+
 				}),
 				clWithoutLock(MONK, {
-					
+
 				}),
 				clWithoutLock(PALADIN, {
-					
+
 				}),
 				clWithoutLock(PRIEST, {
-					
+
 				}),
 				clWithoutLock(ROGUE, {
-					
+
 				}),
 				clWithoutLock(SHAMAN, {
-					
+
 				}),
 				clWithoutLock(WARLOCK, {
-					
+
 				}),
 				clWithoutLock(WARRIOR, {
-					
+
 				}),
 				filter(COSMETIC, {
 					iensemble(253273, {	-- Scythe of the Unmaker (ENSEMBLE!)
@@ -879,37 +879,37 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			}),
 			n(246028, {	-- Sacerdormu <Heroic Raid Apparel>
 				clWithoutLock(DEATHKNIGHT, {
-					
+
 				}),
 				clWithoutLock(DRUID, {
-					
+
 				}),
 				clWithoutLock(HUNTER, {
-					
+
 				}),
 				clWithoutLock(MAGE, {
-					
+
 				}),
 				clWithoutLock(MONK, {
-					
+
 				}),
 				clWithoutLock(PALADIN, {
-					
+
 				}),
 				clWithoutLock(PRIEST, {
-					
+
 				}),
 				clWithoutLock(ROGUE, {
-					
+
 				}),
 				clWithoutLock(SHAMAN, {
-					
+
 				}),
 				clWithoutLock(WARLOCK, {
-					
+
 				}),
 				clWithoutLock(WARRIOR, {
-					
+
 				}),
 			}),
 			n(246026, {	-- Unicus <Exclusive Ensembles>
@@ -1149,4 +1149,4 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			})),
 		},
 	}),
-}))));
+})))

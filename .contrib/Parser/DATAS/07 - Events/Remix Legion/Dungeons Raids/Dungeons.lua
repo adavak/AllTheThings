@@ -64,7 +64,7 @@ local mapped = function(id, t)
 	return o
 end
 
-root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(DUNGEONS, {
 		mapped(ACHIEVEMENTS, {
 			-- Exo Note: Most of these are meta achievements but they do not have criteria shown on them yet
@@ -79,7 +79,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			-- Mythic Meta
 			ach(61074),	-- Mythic Legion Remix Dungeoneer
 			ach(42615),	-- Timeworn Keystone Apprentice
-			
+
 			-- Normal
 			ach(60846),	-- Assault on Violet Hold
 			ach(60834),	-- Black Rook Hold
@@ -122,7 +122,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			ach(60853),	-- Mythic: Seat of the Triumvirate
 			ach(60842),	-- Mythic: The Arcway
 			ach(60824),	-- Mythic: Vault of the Wardens
-			
+
 		}),
 		d(DIFFICULTY.DUNGEON.NORMAL, {
 			mapped(ARMOR, {
@@ -587,4 +587,4 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			},
 		}),
 	}),
-}))));
+})));
