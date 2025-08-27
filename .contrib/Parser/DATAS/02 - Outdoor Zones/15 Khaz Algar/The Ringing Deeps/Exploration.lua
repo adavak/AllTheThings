@@ -24,11 +24,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			visit_exploration(14822,{coord={53.7,44.1,THE_RINGING_DEEPS}}),	-- Pillarstone Spire
 			visit_exploration(15526,{coord={72.1,96.6,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- Sanity's Rest
 			exploration(15031),	-- Shadowvein Extraction Site
+			visit_exploration(15170,{coord={54.3,35.8,THE_RINGING_DEEPS}}),	-- Shadowvein Mine
 			visit_exploration(14820,{coord={60.5,45.6,THE_RINGING_DEEPS}}),	-- Shadowvein Point
 			exploration(15345),	-- Shimmermist Falls
 			exploration(15104),	-- Taelloch
 			exploration(14815),	-- Taelloch Mine
-			visit_exploration(15170,{coord={54.3,35.8,THE_RINGING_DEEPS}}),	-- Shadowvein Mine
 			exploration(14810),	-- The Cataract River
 			exploration(14800),	-- The Earthenworks
 			exploration(14799),	-- The Hallowfall Gate

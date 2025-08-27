@@ -7,15 +7,21 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			exploration(13795),	-- Algeth'ar Academy
 			exploration(13796),	-- Algeth'era Court
 			visit_exploration(13878,{coord={43.3,52.6,THALDRASZUS}}),	-- Aqueduct Basin
+			visit_exploration(15151,{coord={62.0,29.7,THALDRASZUS}}),	-- Azerothian Archives
 			exploration(13861),	-- Bluefeather Cliffs
 			exploration(13799),	-- Chittering Caverns
+			visit_exploration(13798,{coord={59.4,32.5,THALDRASZUS}}),	-- Drake Grotto
+			visit_exploration(13865,{coord={58.6,66.9,THALDRASZUS}}),	-- East Shrine
 			visit_exploration(13797,{coord={55.0,36.6,THALDRASZUS}}),	-- Eclipse Lake
 			exploration(13820),	-- Eon's Fringe
 			visit_exploration(13800,{coord={57.0,27.7,THALDRASZUS}}),	-- Fetid Encampment
 			visit_exploration(13814,{coord={35.5,80.3,THALDRASZUS}}),	-- Garden Shrine
 			exploration(13812),	-- Gardens of Unity
+			visit_exploration(14064,{coord={52.7,60.3,THALDRASZUS}}),	-- Gelikyr Gardens
 			visit_exploration(13803,{coord={52.8,63.6,THALDRASZUS}}),	-- Gelikyr Overlook
 			exploration(13864),	-- Gelikyr Post
+			visit_exploration(14343,{coord={54.6,55.5,THALDRASZUS}}),	-- Hall of Records
+			visit_exploration(14935,{coord={59.1,69.9,THALDRASZUS}}),	-- Ironormu's Vault
 			visit_exploration(13815,{coord={42.9,79.0,THALDRASZUS}}),	-- Misty Vale
 			exploration(13823),	-- Passage of Time
 			visit_exploration(13827,{coord={39.9,77.9,THALDRASZUS}}),	-- Pleasant Hill
@@ -34,8 +40,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			exploration(13818),	-- Temporal Conflux
 			exploration(13822),	-- The Flowing Forest
 			exploration(13876),	-- The Cascades
+			visit_exploration(14934,{coord={52.5,80.8,THALDRASZUS}}),	-- The Chronosmith's Forge
+			visit_exploration(13879,{coord={34.7,63.7,THALDRASZUS}}),	-- The Petitioner's Concourse
 			exploration(13801),	-- Tyrhold
 			exploration(13802),	-- Tyrhold Reservoir
+			visit_exploration(15056,{coord={61.1,63.3,THALDRASZUS}}),	-- Tyr's Rest
 			exploration(13862),	-- Valdrakken
 			exploration(14095),	-- Vault of the Incarnates
 			exploration(13794),	-- Veiled Ossuary
