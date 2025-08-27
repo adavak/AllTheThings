@@ -1343,7 +1343,6 @@ root(ROOTS.Unsorted, {
 			}),
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249235),	-- Bottomless Bag of Entropy
-			i(249699),	-- Shadowguard Translocator
 
 
 			i(249710),	-- Cartel Zo Cypher
