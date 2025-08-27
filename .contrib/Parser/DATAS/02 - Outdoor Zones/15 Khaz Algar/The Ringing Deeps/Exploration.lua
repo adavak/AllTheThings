@@ -28,6 +28,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			exploration(15345),	-- Shimmermist Falls
 			exploration(15104),	-- Taelloch
 			exploration(14815),	-- Taelloch Mine
+			visit_exploration(15170,{coord={54.3,35.8,THE_RINGING_DEEPS}}),	-- Shadowvein Mine
 			exploration(14810),	-- The Cataract River
 			exploration(14800),	-- The Earthenworks
 			exploration(14799),	-- The Hallowfall Gate
