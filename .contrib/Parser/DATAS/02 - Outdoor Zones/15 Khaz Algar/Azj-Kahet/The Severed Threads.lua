@@ -61,11 +61,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 9 --
 						q(82431),	-- Unsevered Threads
 						q(85531, {	-- Earth-Encrusted Gem
-							["groups"] = { i(223951) },	-- Earth-Encrusted Gem
+							i(223951),	-- Earth-Encrusted Gem
 						}),
 					}, {	-- RENOWN 10 --
 						q(82432, {	-- A Gift Handwoven
-							["groups"] = { i(218349) },	-- Tabard of the Severed Threads (COSMETIC!)
+							i(218349),	-- Tabard of the Severed Threads (COSMETIC!)
 						}),
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
@@ -92,7 +92,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 23 --
 					}, {	-- RENOWN 24 --
 						q(82446, {	-- For What Glimmers in Shadow
-							["groups"] = { i(224072) },	-- Enchanted Runed Harbinger Crest
+							i(224072),	-- Enchanted Runed Harbinger Crest
 						}),
 					}, {	-- RENOWN 25 --
 						------ Paragon ------

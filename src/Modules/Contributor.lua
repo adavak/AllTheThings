@@ -1215,6 +1215,7 @@ MobileDB.GameObject = {
 	[390140] = true,	-- Lambent Saxifrage
 	[390142] = true,	-- Lambent Bubble Poppy
 	[396020] = true,	-- Stolen Stash
+	[398751] = true,	-- Lush Bubble Poppy
 	[398754] = true,	-- Lush Saxifrage
 	[398755] = true,	-- Bubble Poppy
 	[398756] = true,	-- Writhebark

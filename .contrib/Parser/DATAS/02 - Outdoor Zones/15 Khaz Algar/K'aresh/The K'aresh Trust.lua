@@ -54,13 +54,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 18 --
 						q(90666),	-- A Bundle of Crystals
 					}, {	-- RENOWN 19 --
+						q(90667, {	-- Enchanted Runed Ethereal Crest
+							i(231769),	-- Enchanted Runed Ethereal Crest
+						}),
 					}, {	-- RENOWN 20 --
-					}, {	-- RENOWN 21 --
-					}, {	-- RENOWN 22 --
-					}, {	-- RENOWN 23 --
-					}, {	-- RENOWN 24 --
-					}, {	-- RENOWN 25 --
 						------ Paragon ------
+						q(85109, {	-- Renowned with the K'aresh Trust
+							["isRepeatable"] = true,
+							["groups"] = { i(230032) },	-- Overflowing K'aresh Trust Trove
+						}),
 					},
 				}))),
 				n(QUESTS, {

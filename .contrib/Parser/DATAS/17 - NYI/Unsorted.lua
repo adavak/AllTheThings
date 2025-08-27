@@ -1157,7 +1157,6 @@ root(ROOTS.Unsorted, {
 				i(247926),	-- Muted Mana-Stone
 				i(247927),	-- Humming Mana-Stone
 				-- Box/Weekly Box
-				i(230032),	-- Overflowing K'aresh Trust Trove
 				i(238921),	-- Containment Canister
 				i(239204),	-- (DNT NEEDS CRESTS) Overflowing K'aresh Trove
 				i(244300),	-- Phase-Sealed Box
@@ -1172,7 +1171,6 @@ root(ROOTS.Unsorted, {
 				i(240211),	-- Void-Touched Valorstone
 
 				-- Crests
-				i(240929),	-- Glorious Cluster of Gilded Ethereal Crests
 				i(240932),	-- Pack of Runed Undermine Crests
 				i(240934),	-- Pouch of Weathered Undermine Crests
 				i(240935),	-- Glorious Cluster of Gilded Undermine Crests

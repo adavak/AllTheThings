@@ -220,49 +220,41 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 3 --
 					}, {	-- RENOWN 4 --
 						q(82367, {	-- Earth-Encrusted Gem
-							["groups"] = { i(223951) },	-- Earth-Encrusted Gem
+							i(223951),	-- Earth-Encrusted Gem
 						}),
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
 						q(82369, {	-- A Shining Bundle of Goods
-							["groups"] = { i(226148) },	-- Wax-sealed Weathered Crests
+							i(226148),	-- Wax-sealed Weathered Crests
 						}),
 						q(85538, {	-- Shinies
-							["groups"] = {
 								currency(RESONANCE_CRYSTALS),
-							},
 						}),
 					}, {	-- RENOWN 7 --
 						q(84914),	-- Valorstones
 					}, {	-- RENOWN 8 --
 						q(82371, {	-- A Flickering Candle
-							["groups"] = { i(226146) },	-- Handful of Humming Shinies
+							i(226146),	-- Handful of Humming Shinies
 						}),
 					}, {	-- RENOWN 9 --
 						q(82370),	-- Crests
 						q(85539),	-- Take Candle!
 					}, {	-- RENOWN 10 --
 						q(82372, {	-- Deeps Unifier
-							["groups"] = {
-								i(218343),	-- Tabard of the Assembly (COSMETIC!)
-								i(226146),	-- Handful of Humming Shinies
-							},
+							i(218343),	-- Tabard of the Assembly (COSMETIC!)
+							i(226146),	-- Handful of Humming Shinies
 						}),
 					}, {	-- RENOWN 11 --
 						q(82373, {	-- Crests and Rocks
-							["groups"] = { i(226147) },	-- Bunch of Brave Rocks
+							i(226147),	-- Bunch of Brave Rocks
 						}),
 					}, {	-- RENOWN 12 --
 						q(82374, {	-- A Shining Candle
-							["groups"] = {
-								i(226149),	-- Pile of Humming Shinies
-							},
+							i(226149),	-- Pile of Humming Shinies
 						}),
 					}, {	-- RENOWN 13 --
 						q(85540, {	-- Take Big Candle!
-							["groups"] = {
-								i(226155),	-- Big Candle
-							},
+							i(226155),	-- Big Candle
 						}),
 						q(82375),	-- Take Key!
 					}, {	-- RENOWN 14 --
@@ -270,7 +262,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 15 --
 						q(82377),	-- Crests
 						q(85541, {	-- Here's a Shiny!
-							["groups"] = { i(226150)	},	-- Gem-Studded Candelabra
+							i(226150),	-- Gem-Studded Candelabra
 						}),
 					}, {	-- RENOWN 16 --
 						q(82378),	-- Valorstones
@@ -278,38 +270,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(83043),	-- Carved Crests
 					}, {	-- RENOWN 18 --
 						q(82379, {	-- An Overflowing Bundle of Shinies
-							["groups"] = {
-								currency(RESONANCE_CRYSTALS),
-								i(226151),	-- Wax-Coated Coffer Unlocker
-							},
+							currency(RESONANCE_CRYSTALS),
+							i(226151),	-- Wax-Coated Coffer Unlocker
 						}),
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 						q(82381, {	-- A Scintillating Candle
-							["groups"] = { i(226150) },	-- Gem-Studded Candelabra
+							i(226150),	-- Gem-Studded Candelabra
 						}),
 					}, {	-- RENOWN 21 --
 						q(82382),	-- Crests
 						q(85542, {	-- Take Really Big Candle!
-							["groups"] = { i(226156) },	-- Really Big Candle
+							i(226156),	-- Really Big Candle
 						}),
 					}, {	-- RENOWN 22 --
 						q(82383, {	-- Brave Rocks
-							["groups"] = { i(226147) },	-- Bunch of Brave Rocks
+							i(226147),	-- Bunch of Brave Rocks
 						}),
 						q(85543),	-- More Shinies!
 					}, {	-- RENOWN 23 --
 						q(83046),	-- Carved Crests
 					}, {	-- RENOWN 24 --
 						q(82384, {	-- A Big, Big Shiny!
-							["groups"] = { i(224072) },	-- Enchanted Runed Harbinger Crest
+							i(224072),	-- Enchanted Runed Harbinger Crest
 						}),
 						q(85544, {	-- Many Little Shinies!
-							["groups"] = { i(226153) },	-- Big Pile of Humming Shinies
+							i(226153),	-- Big Pile of Humming Shinies
 						}),
 					}, {	-- RENOWN 25 --
 						q(82385, {	-- For What Glimmers in Candlelight
-							["groups"] = { i(226147) },	-- Bunch of Rocks
+							i(226147),	-- Bunch of Rocks
 						}),
 						------ Paragon ------
 						q(79220, {	-- Renowned with the Assembly of the Deeps

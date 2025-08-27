@@ -362,8 +362,16 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 						78881,	-- The Eastern Kingdoms Cup Begins
 					},
 					["sourceQuestNumRequired"] = 1,
-					["provider"] = { "n", 206737 },	-- Lord Andestrasz
-					["coord"] = { 27.1, 47.1, VALDRAKKEN },
+					["qgs"] = {
+						206737,	-- Lord Andestrasz
+						214111,	-- Lord Andestrasz [A]
+						214112,	-- Lord Andestrasz [H]
+					},
+					["coords"] = {
+						{ 52.2, 59.8, ORGRIMMAR },
+						{ 60.0, 66.0, STORMWIND_CITY },
+						{ 27.1, 47.1, VALDRAKKEN },
+					},
 					["repeatable"] = true,
 					["groups"] = {
 						currency(RIDERS_OF_AZEROTH_BADGE),

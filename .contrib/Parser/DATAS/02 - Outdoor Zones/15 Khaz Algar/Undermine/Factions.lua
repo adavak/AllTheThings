@@ -239,17 +239,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							q(90557),	-- Whose Key is This?
 						}, {	-- RENOWN 10 --
 							q(86555, {	-- Undermine Benefactor
-								["groups"] = { i(231737) },	-- Undermine Enforcer's Padding (COSMETIC!)
+								i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
 							}),
 						}, {	-- RENOWN 11 --
 							-- TODO: missing Scrappy S.C.R.A.P.per II
 							q(85820, {	-- Valorstones
-								["groups"] = { i(231737) },	-- Undermine Enforcer's Padding (COSMETIC!)
+								i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
 							}),
 						}, {	-- RENOWN 12 --
 							-- TODO: missing Master Negotiator
 							q(85821, {	-- Valorstones
-								["groups"] = { i(231737) },	-- Undermine Enforcer's Padding (COSMETIC!)
+								i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
 							}),
 						}, {	-- RENOWN 13 --
 						}, {	-- RENOWN 14 --
@@ -263,7 +263,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						}, {	-- RENOWN 19 --
 						}, {	-- RENOWN 20 --
 							q(85827, {	-- Glinting and Gleaming
-								["groups"] = { i(230936) },	-- Enchanted Runed Undermine Crest
+								i(230936),	-- Enchanted Runed Undermine Crest
 							}),
 							------ Paragon ------
 							q(85805, {	-- Renowned with the Cartels of Undermine

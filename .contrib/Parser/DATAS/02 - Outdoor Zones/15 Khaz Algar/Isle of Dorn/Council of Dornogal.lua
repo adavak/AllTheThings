@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(82342),	-- A Small Bundle of Goods
 					}, {	-- RENOWN 4 --
 						q(82345, {	-- A Shining Stone
-							["groups"] = { i(223951) },	-- Earth-Encrusted Gem
+							i(223951),	-- Earth-Encrusted Gem
 						}),
 					}, {	-- RENOWN 5 --
 						q(84404),	-- A Small Bundle of Goods
@@ -50,13 +50,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 8 --
 						q(84403),	-- A Small Bundle of Goods
 						q(85718, {	-- A Shining Stone
-							["groups"] = { i(223951) },	-- Earth-Encrusted Gem
+							i(223951),	-- Earth-Encrusted Gem
 						}),
 					}, {	-- RENOWN 9 --
 						q(82344),	-- Weathered Crests
 					}, {	-- RENOWN 10 --
 						q(82347, {	-- Assistant Councilmember
-							["groups"] = { i(218346) },	-- Honorary Councilmember's Tabard (COSMETIC!)
+							i(218346),	-- Honorary Councilmember's Tabard (COSMETIC!)
 						}),
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
@@ -76,12 +76,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 21 --
 					}, {	-- RENOWN 22 --
 						q(82361, {	-- A Small Bundle of Goods
-							["groups"] = { i(226147) },	-- Bunch of Brave Rocks
+							i(226147),	-- Bunch of Brave Rocks
 						}),
 					}, {	-- RENOWN 23 --
 					}, {	-- RENOWN 24 --
 						q(82365, {	-- A Crafter's Delight
-							["groups"] = { i(224072) },	-- Enchanted Runed Harbinger Crest
+							i(224072),	-- Enchanted Runed Harbinger Crest
 						}),
 						q(85546),	-- Resonance Crystals
 					}, {	-- RENOWN 25 --

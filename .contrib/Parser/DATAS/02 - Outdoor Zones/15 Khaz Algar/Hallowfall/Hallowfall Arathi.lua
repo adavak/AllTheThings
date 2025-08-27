@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(82335),	-- Crystals
 					}, {	-- RENOWN 5 --
 						q(82391, {	-- Precious Stones
-							["groups"] = { i(223951) },	-- Earth-Encrusted Gem
+							i(223951),	-- Earth-Encrusted Gem
 						}),
 						--
 						q(81990, {	-- The Light's Call
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(82394),	-- A Cache of Crests
 					}, {	-- RENOWN 10 --
 						q(82395, {	-- Flame-touched Tabard
-							["groups"] = { i(218352) },	-- Expeditionary Tabard (COSMETIC!)
+							i(218352),	-- Expeditionary Tabard (COSMETIC!)
 						}),
 					}, {	-- RENOWN 11 --
 						q(81692, {	-- The Flame Within
