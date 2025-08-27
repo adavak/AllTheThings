@@ -226,13 +226,10 @@ root(ROOTS.Unsorted, {
 			i(241576),	-- Ensemble: Vestment of Second Sight
 			i(241577),	-- Ensemble: Vestment of Second Sight
 			i(241578),	-- Ensemble: Legacy of Azj'aqir
-			i(241580),	-- Ensemble: Legacy of Azj'aqir
 			i(241581),	-- Ensemble: Legacy of Azj'aqir
 			i(241582),	-- Ensemble: Vestments of the Purifier
-			i(241584),	-- Ensemble: Vestments of the Purifier
 			i(241585),	-- Ensemble: Vestments of the Purifier
 			i(241586),	-- Ensemble: Regalia of Everburning Knowledge
-			i(241588),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241589),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead

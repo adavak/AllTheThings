@@ -166,38 +166,60 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}),
 			--n(251042, { }),	-- Domelius <Housing Vendor> (Stripped of his title and no vendor 'option' in build 62687 but is still present.)
 			n(241143, {	-- Durus <Normal Raid Apparel>
-				clWithoutLock(DEATHKNIGHT, {
-
-				}),
-				clWithoutLock(DRUID, {
-
-				}),
-				clWithoutLock(HUNTER, {
-
-				}),
-				clWithoutLock(MAGE, {
-
-				}),
-				clWithoutLock(MONK, {
-
-				}),
-				clWithoutLock(PALADIN, {
-
-				}),
-				clWithoutLock(PRIEST, {
-
-				}),
-				clWithoutLock(ROGUE, {
-
-				}),
-				clWithoutLock(SHAMAN, {
-
-				}),
-				clWithoutLock(WARLOCK, {
-
-				}),
-				clWithoutLock(WARRIOR, {
-
+				["groups"] = bubbleDownFiltered({
+					["cost"] = {{ "c", BRONZE, 20000 }},
+				},FILTERFUNC_itemID,{
+					clWithoutLock(DEATHKNIGHT, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(DEMONHUNTER, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(DRUID, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(HUNTER, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(MAGE, {
+						iensemble(241588),	-- Ensemble: Regalia of Everburning Knowledge
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(MONK, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(PALADIN, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(PRIEST, {
+						iensemble(241584),	-- Ensemble: Vestments of the Purifier
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(ROGUE, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(SHAMAN, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(WARLOCK, {
+						iensemble(241580),	-- Ensemble: Legacy of Azj'aqir
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
+					clWithoutLock(WARRIOR, {
+						------ Locked behind: Legionfall ------
+						------ Locked behind: Argus Eternal ------
+					}),
 				}),
 			}),
 			n(246030, {	-- Freddie Threads <Discount Cloak Dealer>
