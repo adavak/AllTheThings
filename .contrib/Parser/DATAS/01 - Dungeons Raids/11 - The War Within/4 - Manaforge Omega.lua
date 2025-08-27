@@ -407,6 +407,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						q(91483, { ["timeline"] = { ADDED_11_2_0 } }),	-- Hacking the Mainframe
 						q(91481, { ["timeline"] = { ADDED_11_2_0 } }),	-- Speed Siphoner
 					}, {	-- RENOWN 4 --
+						q(91476, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
