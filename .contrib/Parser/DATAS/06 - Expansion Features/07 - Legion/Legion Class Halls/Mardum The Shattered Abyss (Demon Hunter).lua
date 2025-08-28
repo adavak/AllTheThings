@@ -554,7 +554,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 57.7, 51.7, 721 },
 						["lvl"] = 10,
-						["g"] = {
+						["groups"] = {
 							i(137690),	-- Blood Offering (QI!)
 						},
 					}),

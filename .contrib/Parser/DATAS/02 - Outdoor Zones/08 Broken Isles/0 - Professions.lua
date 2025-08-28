@@ -30,7 +30,7 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 40530 },	-- An Eye for Detail
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
-						["g"] = {
+						["groups"] = {
 							i(132259),	-- Bag of Real Jewels (QI!)
 						},
 					}),

@@ -399,7 +399,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 731 },	-- Neltharion's Lair
-						["g"] = {
+						["groups"] = {
 							i(139537),	-- Braid of the Underking (QI!)
 						},
 					}),
@@ -452,7 +452,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 93491 },	-- Lord Thorval
 						["coord"] = { 63.1, 69.4, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
-						["g"] = {
+						["groups"] = {
 							i(141307),	-- Beating Fel-Heart (QI!)
 							i(141308),	-- Demonic Entrails (QI!)
 							i(141309),	-- Eye of the Warden (QI!)

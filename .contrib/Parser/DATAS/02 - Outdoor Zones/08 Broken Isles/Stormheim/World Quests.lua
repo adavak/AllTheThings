@@ -25,7 +25,7 @@ root(ROOTS.Zones, {
 				q(46010),	-- Bonecrusher Korgolath (Invasion wq)
 				q(41534, {	-- Brambly Fjarnskaggl
 					["requireSkill"] = HERBALISM,
-					["g"] = {
+					["groups"] = {
 						i(140959),	-- Brambly Fjarnskaggl (QI!)
 					},
 				}),

@@ -12,7 +12,7 @@ root(ROOTS.Zones, {
 				q(45071),	-- Barrels o' Fun
 				q(40978),	-- Bears Behaving Badly
 				q(40951, {	-- Bitestone Bazaar
-					["g"] = {
+					["groups"] = {
 						i(133972),	-- Basilisk Meat (QI!)
 					},
 				}),
@@ -23,7 +23,7 @@ root(ROOTS.Zones, {
 				q(46193),	-- Borne of Fel (Invasion WQ)
 				q(41203, {	-- Bright Leystone Deposits
 					["requireSkill"] = MINING,
-					["g"] = {
+					["groups"] = {
 						i(141231),	-- Bright Leystone Ore (QI!)
 					},
 				}),

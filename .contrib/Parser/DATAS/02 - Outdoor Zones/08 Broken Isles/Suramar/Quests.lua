@@ -137,7 +137,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 41.5, 71.2, SURAMAR },
 					-- TODO: figure out the sourceQuest. this isn't always available
 					--["sourceQuest"] =
-					["g"] = {
+					["groups"] = {
 						i(134041),	-- Bloodspattered Signet Ring (QI!)
 					},
 				}),
@@ -920,7 +920,7 @@ root(ROOTS.Zones, {
 						{ 35.7, 24.2, SURAMAR },	-- cave entrance
 						{ 54.2, 45.5, 689 },
 					},
-					["g"] = {
+					["groups"] = {
 						i(140317),	-- Broken Leydar Dish (QI!)
 					},
 				}),
@@ -1808,7 +1808,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40227,	-- Bad Intentions
 					["provider"] = { "n", 99093 },	-- Thaedris Feathersong
 					["coord"] = { 49.1, 43.8, SURAMAR },
-					["g"] = {
+					["groups"] = {
 						i(134092),	-- Chest of Shrouds (QI!)
 						i(132253),	-- Flask of Sacred Oil (QI!)
 						i(132255),	-- Bundle of Preserving Incense (QI!)

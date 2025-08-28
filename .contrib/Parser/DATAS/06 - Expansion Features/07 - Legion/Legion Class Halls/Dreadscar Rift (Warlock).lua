@@ -394,7 +394,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41759 },	-- An Unlikely Ally
 						["provider"] = { "n", 105816 },	-- Kira Iresoul
 						["coord"] = { 60.8, 30.6, AZSUNA },
-						["g"] = {
+						["groups"] = {
 							i(127710),	-- Bloodstone (QI!)
 						},
 					}),
@@ -407,7 +407,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 39389 },	-- It Hungers for Blood
 						["provider"] = { "n", 105816 },	-- Kira Iresoul
 						["coord"] = { 60.8, 30.6, AZSUNA },
-						["g"] = {
+						["groups"] = {
 							i(136386),	-- Bloodstone (QI!)
 						},
 					}),

@@ -28,7 +28,7 @@ root(ROOTS.Zones, {
 				}),
 				q(41447, {	-- Burning Felslate Deposits
 					["requireSkill"] = MINING,
-					["g"] = {
+					["groups"] = {
 						i(141250),	-- Burning Felslate (QI!)
 					},
 				}),
