@@ -16354,6 +16354,10 @@
 11.2.0.62049
 61092@@@Hard Mode: Tazavesh, the Veiled Market
 61093@@@Flawless Transaction
+11.2.0.62610
+42676@@@Buddy System X
+61342@@@Buddy System IX
+61343@@@Hotfix 99733 Tracking
 11.2.5.62554
 42301@@@Timerunner
 42312@@@Artifact, Remixed
@@ -16460,7 +16464,6 @@
 42673@@@Defending the Broken Isles I
 42674@@@Broken Isles World Quests V
 42675@@@Defending the Broken Isles III
-42676@@@Buddy System X
 42684@@@Timerunner: Warrior
 42685@@@Timerunner: Death Knight
 42686@@@Timerunner: Shaman
@@ -16641,5 +16644,3 @@
 61325@@@<Hidden>[DNT] Jewelry Equipped
 61337@@@To Fel and Back
 61338@@@Bronze gained across Warband
-61342@@@Buddy System IX
-61343@@@Hotfix 99733 Tracking
