@@ -2548,10 +2548,6 @@
 14483@@@Wintergrasp Boundary
 3.4.0.45102
 14483@@@Uncharted Territory
-3.4.5.62544
-1997@@@Bloodvenom Post 
-1998@@@Talonbranch Glade 
-4096@@@Claytön's WoWEdit Land
 4.4.0.53627
 17@@@Northern Barrens
 33@@@Northern Stranglethorn
