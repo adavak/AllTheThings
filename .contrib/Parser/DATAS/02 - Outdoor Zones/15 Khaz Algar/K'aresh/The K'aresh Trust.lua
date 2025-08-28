@@ -54,10 +54,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 18 --
 						q(90666),	-- A Bundle of Crystals
 					}, {	-- RENOWN 19 --
+					}, {	-- RENOWN 20 --
 						q(90667, {	-- Enchanted Runed Ethereal Crest
 							i(231769),	-- Enchanted Runed Ethereal Crest
 						}),
-					}, {	-- RENOWN 20 --
 						------ Paragon ------
 						q(85109, {	-- Renowned with the K'aresh Trust
 							["isRepeatable"] = true,

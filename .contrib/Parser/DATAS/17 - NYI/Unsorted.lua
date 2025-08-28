@@ -1133,7 +1133,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
-				i(238879),	-- Cracked Void Carapace
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
 				i(241220),	-- Loose Parts
 				i(242380),	-- Black Blood Blower

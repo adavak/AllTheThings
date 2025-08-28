@@ -2539,6 +2539,7 @@ i(238834);	-- Burnished Void Claw
 i(238808);	-- Celeste-Touched Fin
 i(238874);	-- Congealed Mana
 i(246298);	-- Cracked Staff of the Desperate Defender
+i(238879);	-- Cracked Void Carapace
 i(247686);	-- Crystallized Nightshade
 i(238882);	-- Cursed Eyeball Cluster
 i(238883);	-- Dimly Glowing Scrap
