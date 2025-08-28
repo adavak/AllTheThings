@@ -3603,6 +3603,24 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
+					-- Wouter TODO: check if these are added early with MoP Classic's Landfall phase
+					applyclassicphase(MOP_PHASE_ESCALATION, i(97980, {	-- Hozen-Fur Fuse
+						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+						["description"] = "Best farmed by doing The Burlap Grind quest. This can take more than a few hundred kills to drop.",
+						["crs"] = {
+							60742,	-- Broketooth Leaper
+							60743,	-- Broketooth Ravager
+							60753,	-- Ookin Marauder
+							60752,	-- Ookin Shaman
+							60746,	-- Silverback Piker
+							60749,	-- Silverback Smasher
+						},
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(97978, {	-- Knockoff Grumplefloot
+						["coord"] = { 65, 60, KUN_LAI_SUMMIT },
+						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+						["description"] = "Dance with Grandpa Grumplefloot to receive the Knockoff Grumplefloot.",
+					})),
 					i(74849),	-- Pink Turnip
 					i(74844),	-- Red Blossom Leek
 				}),

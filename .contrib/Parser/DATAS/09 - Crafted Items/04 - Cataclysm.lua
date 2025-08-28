@@ -123,6 +123,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				i(64652, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,45}}}),	-- Castle of Sand
 				i(64653, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,45}}}),	-- Cat Statue with Emerald Eyes
 				i(60847, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,150}}}),	-- Crawling Claw (PET!)
+				-- Wouter TODO: check if this is added early with MoP Classic's Landfall phase
+				applyclassicphase(MOP_PHASE_ESCALATION, i(97986, {	-- Digmaster's Earthblade (QI!)
+					["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+				})),
 				i(64656, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,45}}}),	-- Engraved Scimitar Hilt
 				i(64881, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,150}}}),	-- Pendant of the Scarab Storm (TOY!)
 				i(64904, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,150}}}),	-- Ring of the Boy Emperor

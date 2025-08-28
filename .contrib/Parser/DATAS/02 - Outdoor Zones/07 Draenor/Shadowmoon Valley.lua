@@ -1878,6 +1878,21 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
+					i(97979, {	-- The Bear and the Lady Fair
+						["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3_LAUNCH },
+						["crs"] = {
+							85168,	-- Sargerei Acolyte
+							81542,	-- Sargerei Binder
+							84945,	-- Sargerei Darkblade
+							81543,	-- Sargerei Demonlord
+							86024,	-- Sargerei Demonspeaker
+							81541,	-- Sargerei Initiate
+							81605,	-- Sargerei Initiate
+							79681,	-- Sargerei Netherbinder
+							84888,	-- Sargerei Worker
+							81858,	-- Soulbinder Zamaya
+						},
+					}),
 					i(113554, {	-- Zomstrok (PET!)
 						["description"] = "Can be found on the islands southwest of Socrethar's Rise.",
 						["crs"] = {

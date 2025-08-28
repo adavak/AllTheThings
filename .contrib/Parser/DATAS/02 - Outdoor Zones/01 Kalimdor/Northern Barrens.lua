@@ -4774,12 +4774,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						3272,	-- Kolkar Wrangler
 					},
 				}),
-				i(97990, {	-- Raptorhide Boxing Gloves
-					-- #if AFTER 7.0.3
-					["description"] = "This item used to start a Brawler's Guild quest prior to the release of Legion.\n\nIt is safe to destroy this item as it serves no purpose.",
-					-- #endif
-					["timeline"] = { ADDED_5_3_0 },
-				}),
+				-- Wouter TODO: check if this is added early with MoP Classic's Escalation phase
+				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(97990, {	-- Raptorhide Boxing Gloves (QI!)
+					["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3_LAUNCH },
+					["crs"] = {
+						70997,	-- Hellscream Laborer
+						71012,	-- Kor'kron Butcher
+						71188,	-- Kor'kron Earthshaker
+						71002,	-- Kor'kron Incinerator
+						70999,	-- Kor'kron Marauder
+						71006,	-- Kor'kron Overseer
+						71000,	-- Mercenary Engineer
+						71001,	-- Mercenary Shredder
+						71141,	-- Overburdened Laborer
+					},
+				})),
 				i(6663, {	-- Recipe: Elixir of Giant Growth (RECIPE!)
 					["description"] = "Can drop from any creature in the Barrens.",
 				}),

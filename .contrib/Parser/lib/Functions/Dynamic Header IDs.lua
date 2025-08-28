@@ -61,6 +61,7 @@ HeaderAssignments = {
 	["Bosses"] = -16,
 	["Bountiful"] = -381,
 	["Bounty"] = -487,
+	["Brawler's Guild"] = -656,
 	["Brewery"] = -129,
 	["Brewfest"] = -557,
 	["Broken Isles Cup"] = -568,
@@ -653,4 +654,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -656;
+NextHeaderID = -657;

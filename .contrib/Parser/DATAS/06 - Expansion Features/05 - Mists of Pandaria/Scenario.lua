@@ -832,6 +832,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["timeline"] = { ADDED_5_3_0 },
 						-- no longer available to queue random scenarios post 9.0 squish
 						["groups"] = {
+							n(QUESTS, {
+								i(97979, {	-- The Bear and the Lady Fair
+									["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+								}),
+								i(97982, {	-- Vial of Reddish Ooze
+									["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+								}),
+							}),
 							n(BACK, {
 								i(92881),	-- Bladesnap Drape
 								i(89503),	-- Greenstone Drape

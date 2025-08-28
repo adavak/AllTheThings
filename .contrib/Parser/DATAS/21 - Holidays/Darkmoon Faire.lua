@@ -3273,9 +3273,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					i(73905, {	-- Darkmoon Zeppelin  (PET!)
 						["timeline"] = { ADDED_4_3_0 },
 					}),
-					i(97987, {	-- Well-Worn Blindfold
-						["timeline"] = { ADDED_5_3_0, DELETED_7_0_3 },
-					}),
+					-- Wouter TODO: check if this is added early with MoP Classic's Landfall phase
+					applyclassicphase(MOP_PHASE_ESCALATION, i(97987, {	-- Well-Worn Blindfold (QI!)
+						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+					})),
 				},
 			}),
 		}),

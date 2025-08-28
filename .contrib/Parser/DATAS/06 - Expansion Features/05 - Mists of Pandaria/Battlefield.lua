@@ -327,7 +327,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({
 						i(LATENT_KORKRON_BELT),
 						i(LATENT_KORKRON_LEGGINGS),
 						i(LATENT_KORKRON_BOOTS),
-						i(97990),	-- Raptorhide Boxing Gloves (QUEST!)
+						i(97990),	-- Raptorhide Boxing Gloves (QI!)
 						i(98561),	-- Darkspear Battle Standard
 						i(98563),	-- Rainstick
 					},

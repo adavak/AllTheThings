@@ -222,6 +222,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							i(85220),	-- Terrible Turnip (PET!)
 						},
 					}),
+					-- Wouter TODO: check if this is added early with MoP Classic's Landfall phase
+					applyclassicphase(MOP_PHASE_ESCALATION, i(97988, {	-- Paper-Covered Rock (QI!)
+						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+						-- #if BEFORE LEGION
+						["description"] = "Can only be harvested along with normal crops or Portal Shard crops.",
+						-- #endif
+					})),
 					n(67482, {	-- Portal Shard
 						["cost"] = {{ "i", 91806, 1 }},	-- Unstable Portal Shard
 						["crs"] = { 67446 },	-- Unstable Portal Shard
