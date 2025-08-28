@@ -15390,6 +15390,8 @@
 40888@@@Heroic: Awakened Storms (DNT) (Character specific hidden copy)
 40892@@@Heroic: Awakened Shadows (DNT) (Character specific copy)
 40893@@@Heroic: Awakened Flames (DNT) (Character specific hidden copy)
+11.0.0.55939
+15558@@@Survey Bot
 11.0.2.55399
 40764@@@Powers from Strange Disturbances obtained
 40836@@@Assembly of the Deeps
@@ -15908,7 +15910,6 @@
 11.1.0.59888
 42116@@@Let Me Solo Him: The Underpin (copy)
 11.1.0.60037
-15558@@@Survey Bot
 11.1.5.59571
 41237@@@Visions - Trait Power 1
 41238@@@Visions - Trait Power 2

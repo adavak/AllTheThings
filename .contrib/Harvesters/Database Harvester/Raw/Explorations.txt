@@ -9949,6 +9949,11 @@
 15549@@@Dayspring Fields
 15550@@@Stagnant Mire
 15551@@@The Fangs
+11.0.0.55939
+1221@@@Ruins of Eldarath 
+1997@@@Bloodvenom Post 
+1998@@@Talonbranch Glade 
+4096@@@Claytön's WoWEdit Land
 11.0.2.55399
 15094@@@Duskrise Acreage
 15552@@@The Undersea

@@ -2012,6 +2012,10 @@
 451489@@@Siesbarg
 11.0.0.55419
 453785@@@Earthen Ordinant's Ramolith
+11.0.0.55939
+454682@@@Startouched Furline
+457485@@@Grizzly Hills Packmaster
+459784@@@Golden Ashes of Al'ar
 11.0.0.55960
 464443@@@Harmonious Salutations Bear
 11.0.2.55522
@@ -2024,7 +2028,6 @@
 11.0.2.56380
 448850@@@Kah, Legend of the Deep
 11.0.2.56625
-457485@@@Grizzly Hills Packmaster
 11.0.5.56487
 428013@@@Incognitro, the Indecipherable Felcycle
 428067@@@Hateforged Blazecycle
@@ -2036,7 +2039,6 @@
 11.0.5.57147
 449132@@@Blackrock Warsaber
 449142@@@Kaldorei War Wolf
-454682@@@Startouched Furline
 11.0.5.57292
 465235@@@Trader's Gilded Brutosaur
 466811@@@Chaos-Forged Gryphon
@@ -2069,7 +2071,6 @@
 11.0.7.57641
 303767@@@Honeyback Hivemother
 11.0.7.58608
-459784@@@Golden Ashes of Al'ar
 468205@@@Timbered Sky Snake
 1216542@@@Blazing Royal Fire Hawk
 11.0.7.59302
