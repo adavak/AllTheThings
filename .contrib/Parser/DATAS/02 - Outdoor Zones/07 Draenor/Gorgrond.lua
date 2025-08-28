@@ -3275,7 +3275,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
-					i(97982, {	-- Vial of Reddish Ooze
+					i(97982, {	-- Vial of Reddish Ooze (QI!)
 						["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3_LAUNCH },
 						["crs"] = {
 							78259,	-- Crude Slime

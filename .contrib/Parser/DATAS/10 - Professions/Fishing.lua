@@ -234,7 +234,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 			}),
 		}),
 		n(QUESTS, {
-			applyclassicphase(MOP_PHASE_ESCALATION, i(97981, {	-- Impeccably Sharp Tooth
+			applyclassicphase(MOP_PHASE_ESCALATION, i(97981, {	-- Impeccably Sharp Tooth (QI!)
 				["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
 				["description"] = "Drops from fishing pools in Pandaria",
 			})),

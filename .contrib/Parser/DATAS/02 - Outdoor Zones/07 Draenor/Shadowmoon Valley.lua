@@ -1878,7 +1878,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
-					i(97979, {	-- The Bear and the Lady Fair
+					i(97979, {	-- The Bear and the Lady Fair (QI!)
 						["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3_LAUNCH },
 						["crs"] = {
 							85168,	-- Sargerei Acolyte
