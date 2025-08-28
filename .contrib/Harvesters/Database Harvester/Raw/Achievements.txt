@@ -16358,6 +16358,10 @@
 42676@@@Buddy System X
 61342@@@Buddy System IX
 61343@@@Hotfix 99733 Tracking
+11.2.0.62706
+61347@@@<Hidden> Base 12.0 Tender [DNT]
+61348@@@<Hidden> Heroic 12.0 Tender [DNT]
+61349@@@<Hidden> Epic 12.0 Tender [DNT]
 11.2.5.62554
 42301@@@Timerunner
 42312@@@Artifact, Remixed

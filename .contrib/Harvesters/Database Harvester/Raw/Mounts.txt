@@ -2232,6 +2232,10 @@
 1227192@@@Herald of Sa'bak
 11.2.0.62493
 1243589@@@Void-Forged Overseer
+11.2.0.62706
+1234303@@@Voidwing Dragonhawk
+1234305@@@Lightwing Dragonhawk
+1239138@@@Voidlight Surger
 11.2.5.62554
 428062@@@Jeweled Sapphire Scarab
 1229264@@@Bloodguard Fel Bat
