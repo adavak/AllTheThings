@@ -400,7 +400,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					["coord"] = { 42.0, 22.1, KARESH },
 				},bubbleDownRep(FACTION_MANAFORGE_VANDALS, {
 					{		-- RENOWN 1 --
-						q(92031, { ["timeline"] = { ADDED_11_2_0 } }),	--Meet the Vandals
+						q(92031, { ["timeline"] = { ADDED_11_2_0 } }),	-- Meet the Vandals
 					}, {	-- RENOWN 2 --
 						q(91525, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Loom'ithar
 					}, {	-- RENOWN 3 --
