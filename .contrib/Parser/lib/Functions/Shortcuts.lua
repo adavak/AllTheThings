@@ -1450,6 +1450,11 @@ root = function(category, g)							-- Create a ROOT CATEGORY Object
 	end
 	return o;
 end
+sensemble = function(spellID, t)						-- Create an Ensemble directly from SpellID
+	local i = sp(spellID, t);
+	i.type = "ensembleSpellID"
+	return i
+end
 skyriding = function(t)									-- Skyriding (bubbleDown sr filter)
 	return bubbleDown({ ["sr"] = true }, t);
 end
@@ -1461,11 +1466,6 @@ itemsource = function(id, t)							-- Create an Item Source Object
 	return struct("sourceID", id, t)
 end
 title = function(id, t)									-- Create a TITLE Object
-sensemble = function(spellID, t)						-- Create an Ensemble directly from SpellID
-	local i = sp(spellID, t);
-	i.type = "ensembleSpellID"
-	return i
-end
 	return struct("titleID", id, t);
 end
 title_female = function(id, t)							-- Create a TITLE Object for Female Characters
