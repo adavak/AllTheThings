@@ -133,7 +133,7 @@ def pre_process(thing: type[Thing], current_patch: str, id: str, flavor: str) ->
     # Fallback: handle old IDs that still belong to Retail
     if flavor == "Retail" and (
         (thing == Achievements and id_int < 15000) or
-        # (thing == Explorations and id_int < 1) or #TODO
+        (thing == Explorations and id_int < 13649) or
         (thing == Factions and id_int < 2400) or
         (thing == FlightPaths and id_int < 2900) or
         (thing == Items and id_int < 172000) or
@@ -687,7 +687,7 @@ def create_missing_files(flavor: str) -> None:
 
 """How to add latest data from a new Build"""
 """Step 1: Run add_latest_data(build: str) (You have to uncomment) with the build as a string ex. add_latest_data("10.2.5.53441"). """
-add_latest_data("11.2.5.62554")
+# add_latest_data("")
 """Step 2a: If new SkillLines have has been added they need to be sorted manually. Ex. Language:Furbolg is not a real profession so it has to be added into Exclusion/SkillLines.txt. If its an interesting SkillLine it can be added to Exclusion/SkillLineOther.txt. If its a new profession just let it be"""
 """Step 3a: Run sort_raw_file_recipes() (you have to uncomment it) this will sort raw recipes into respective profession."""
 # sort_raw_file_recipes()
