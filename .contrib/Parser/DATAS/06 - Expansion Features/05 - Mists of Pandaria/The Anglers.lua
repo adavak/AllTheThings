@@ -9,6 +9,9 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 		["lvl"] = lvlsquish(85, 85, 10),
 		["groups"] = {
 			n(ACHIEVEMENTS, {
+				ach(7274, {  -- Learning From The Best
+					i(86596),	-- Nat's Fishing Chair (TOY!)
+				}),
 				ach(7614),	-- Locking Down the Docks (automated)
 				ach(6547),	-- The Anglers
 			}),
