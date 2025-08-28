@@ -642,7 +642,7 @@ exploration(4072),	-- Sub zone
 exploration(4073),	-- Winter's Terrace
 exploration(4074),	-- The Waking Halls
 exploration(4079),	-- Frostblade Pass
-exploration(4096),	-- Clayt�n's WoWEdit Land \\ Claytön's WoWEdit Land
+exploration(4096),	-- Clayt�n's WoWEdit Land \\ Claytön's WoWEdit Land
 exploration(4100),	-- The Culling of Stratholme
 exploration(4102),	-- Krom's Landing
 exploration(4110),	-- Farshire Fields
@@ -5381,8 +5381,6 @@ exploration(15168),	-- Botanist's Terrace
 exploration(15353),	-- Barrows of Reverie
 exploration(15382),	-- Cosmic Horizon
 exploration(15383),	-- Equinox Reach
-11.0.2.55959
-exploration(15786),	-- Hallowfall
 11.0.5.56487
 exploration(15431),	-- Silithus
 exploration(15432),	-- The Scarab Dais
@@ -5406,50 +5404,6 @@ exploration(15509),	-- The Forbidden Reach
 exploration(15510),	-- The War Creche
 exploration(15780),	-- Forbidden Reach - (11.0.5 Version) - Dracthyr for All
 exploration(15913),	-- Blackrock Depths
-11.0.7.57361
-exploration(15914),	-- Hozen's Paw
-exploration(15941),	-- Bilge Rat Corsair
-exploration(16101),	-- Pridetalon Hotsprings
-exploration(16108),	-- The Great Sea
-11.1.0.58221
-exploration(15332),	-- Cage of Carnage
-exploration(15452),	-- Operation: Floodgate
-exploration(15455),	-- Venture Plaza
-exploration(15456),	-- Steamwheedle Laboratories
-exploration(15465),	-- Slam Central Station
-exploration(15518),	-- Lucky Break Mines
-exploration(15522),	-- Liberation of Undermine \\ Undermine
-exploration(15530),	-- The Squandered Retreat
-exploration(15533),	-- The Hoardroom
-exploration(15643),	-- Airship Supply Depot
-exploration(15644),	-- Plunder Party
-exploration(15651),	-- Castaway Cove
-exploration(15652),	-- Demolition Dome
-exploration(15655),	-- The Incontinental Lobby
-exploration(15657),	-- Port Authority
-exploration(15659),	-- The Scrapshop
-exploration(15660),	-- Blackwater Marina
-exploration(15664),	-- Slam Central Station
-exploration(15710),	-- The Waterworks
-exploration(15783),	-- The Moneymaker
-exploration(15836),	-- Excavation Site 9
-exploration(15838),	-- Research and Destruction
-exploration(15839),	-- The House of Chrome
-exploration(15990),	-- Sidestreet Sluice
-exploration(16075),	-- Earthcrawl Mines
-exploration(16078),	-- Warband_Plains
-exploration(16145),	-- The Heartbreak Room
-exploration(16146),	-- The Tower of Spades
-exploration(16174),	-- The High Roller Suite
-exploration(16175),	-- The Shooting Gallery
-exploration(16176),	-- The Midnight Lounge
-exploration(16177),	-- The Golden Cabana
-11.1.5.59571
-exploration(15942),	-- Vision of Stormwind
-exploration(15946),	-- Vision of Orgrimmar
-exploration(16077),	-- Dornogal Test
-exploration(16092),	-- Dastardly Duos
-exploration(16093),	-- Undermine
 11.1.7.60520
 exploration(15713),	-- Wetlands
 exploration(15714),	-- The Hinterlands
@@ -5521,23 +5475,5 @@ exploration(15841),	-- Scarlet Halls
 exploration(15842),	-- Huntsman's Cloister
 exploration(15843),	-- Training Grounds
 exploration(15989),	-- Lordaeron Garrison
-11.2.0.61476
-exploration(15334),	-- 11.2 - Karesh Test
-exploration(15336),	-- K'aresh
-exploration(15798),	-- Wastelander Ruins [PH] - UNUSED
-exploration(16104),	-- Eco-Dome Al'dani
-exploration(16178),	-- Manaforge Omega
-exploration(16339),	-- The Dark Heart
-exploration(16358),	-- The Forge Core
-exploration(16419),	-- Breached Dome
-exploration(16420),	-- Devastated Annex
-exploration(16421),	-- Warcamp Al'den
-exploration(16422),	-- Al'dani Sands
-exploration(16427),	-- Archival Assault
-exploration(16539),	-- Voidrazor Sanctuary
-exploration(16569),	-- Temple of the Untamed
-exploration(16571),	-- Wastes of K'aresh
-exploration(16572),	-- The Glassed Expanse
-exploration(16579),	-- K'aresh
 11.2.5.62554
 exploration(16363),	-- The Skyfire

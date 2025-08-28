@@ -1127,6 +1127,38 @@ root(ROOTS.Unsorted, {
 				i(248396),	-- The Speaker's Ritualistic Mantle
 				i(248397),	-- Bronzbeard's Ritualistic Mantle
 			}),
+			n(EXPLORATION, {
+				-- Raid: Manaforge Omega
+				exploration(16178),	-- Manaforge Omega
+				exploration(16339),	-- The Dark Heart
+				exploration(16358),	-- The Forge Core
+				exploration(16571),	-- Wastes of K'aresh
+				exploration(16572),	-- The Glassed Expanse
+
+				-- Dungeon: Eco-Dome Al'dani
+				exploration(16104),	-- Eco-Dome Al'dani
+				exploration(16419),	-- Breached Dome
+				exploration(16420),	-- Devastated Annex
+				exploration(16421),	-- Warcamp Al'den
+				exploration(16422),	-- Al'dani Sands
+				exploration(16569),	-- Temple of the Untamed
+
+				-- Delve: Voidrazor Sanctuary
+				exploration(16539),	-- Voidrazor Sanctuary
+
+				-- Delve: Archival Assault
+				exploration(16427),	-- Archival Assault
+
+				-- Zone: K'aresh
+				exploration(15336),	-- K'aresh
+
+				-- Warband Scene: The Fate of the Devoured
+				exploration(16579),	-- K'aresh
+
+				-- NYI?
+				exploration(15334),	-- 11.2 - Karesh Test
+				exploration(15798),	-- Wastelander Ruins [PH] - UNUSED
+			}),
 			header(HEADERS.LFGDungeon, 2805, {	-- Manaforge Omega
 				i(238029),	-- 11.2 Raid - Cloth - Waist
 			}),
@@ -1370,11 +1402,103 @@ root(ROOTS.Unsorted, {
 			i(246897),	-- Void's Binding Halter Top
 			i(246898),	-- Ensemble: Void's Binding Swimwear
 		})),
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+			n(EXPLORATION, {
+				-- Event: Horrific Visions
+				exploration(15942),	-- Vision of Stormwind
+				exploration(15946),	-- Vision of Orgrimmar
+
+				-- Event: Dastardly Duos
+				exploration(16092),	-- Dastardly Duos
+				exploration(16093),	-- Undermine
+
+				-- NYI?
+				exploration(16077),	-- Dornogal Test
+			}),
+		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			-- Left Remaining To Darkal --
 			n(ARMOR, {
 				-- Darkal Check Later
 				i(238243),	-- Hidden Boots
+			}),
+			n(EXPLORATION, {
+				-- Raid: Liberation of Undermine
+				exploration(15522),	-- Liberation of Undermine
+				exploration(15644),	-- Plunder Party
+				exploration(15645),	-- Pleasant Heights
+				exploration(15646),	-- The Incontinental Hotel
+				exploration(15647),	-- The Heaps
+				exploration(15648),	-- The Vatworks
+				exploration(15649),	-- Shipping and Handling
+				exploration(15650),	-- Steamwheedle Laboratories
+				exploration(15651),	-- Castaway Cove
+				exploration(15652),	-- Demolition Dome
+				exploration(15653),	-- Hovel Hill
+				exploration(15654),	-- Bilgewater Flats
+				exploration(15655),	-- The Incontinental Lobby
+				exploration(15656),	-- Public Parking
+				exploration(15657),	-- Port Authority
+				exploration(15658),	-- Emerald Hills Golf Course
+				exploration(15659),	-- The Scrapshop
+				exploration(15660),	-- Blackwater Marina
+				exploration(15661),	-- The Hoardroom
+				exploration(15662),	-- Tailgate Park
+				exploration(15663),	-- Venture Plaza
+				exploration(15664),	-- Slam Central Station
+				exploration(15665),	-- The Gallagio
+				exploration(15838),	-- Research and Destruction
+				exploration(15839),	-- The House of Chrome
+				exploration(16106),	-- Venturewood
+				exploration(16145),	-- The Heartbreak Room
+				exploration(16146),	-- The Tower of Spades
+				exploration(16174),	-- The High Roller Suite
+				exploration(16175),	-- The Shooting Gallery
+				exploration(16176),	-- The Midnight Lounge
+				exploration(16177),	-- The Golden Cabana
+
+				-- Dungeon: Operation: Floodgate
+				exploration(15452),	-- Operation: Floodgate
+				exploration(15710),	-- The Waterworks
+
+				-- Delve: Demolition Dome
+				exploration(15991),	-- Demolition Dome
+
+				-- Delve: Excavation Site 9
+				exploration(15836),	-- Excavation Site 9
+
+				-- Delve: Sidestreet Sluice
+				exploration(15990),	-- Sidestreet Sluice
+
+				-- PvP Arena:
+				exploration(15332),	-- Cage of Carnage
+
+				-- Zone: Undermine
+				exploration(15455),	-- Venture Plaza
+				exploration(15456),	-- Steamwheedle Laboratories
+				exploration(15465),	-- Slam Central Station
+				exploration(15533),	-- The Hoardroom
+				exploration(15643),	-- Airship Supply Depot
+				exploration(15783),	-- The Moneymaker
+
+				-- Zone: Zuldazar
+				exploration(15518),	-- Lucky Break Mines
+				exploration(15530),	-- The Squandered Retreat
+
+				-- Warband Scene: Gallagio Grand Gallery
+				exploration(16078),	-- Warband_Plains
+
+				-- NYI??
+				exploration(16075),	-- Earthcrawl Mines
+			}),
+		})),
+		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+			n(EXPLORATION, {
+				-- Zone: Siren Isle
+				exploration(15914),	-- Hozen's Paw
+				exploration(15941),	-- Bilge Rat Corsair
+				exploration(16101),	-- Pridetalon Hotsprings
+				exploration(16108),	-- The Great Sea
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
@@ -1398,8 +1522,9 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			-- Left Remaining To Darkal --
 			explorationHeader({
-				exploration(15667),	-- Delves
 				exploration(15552),	-- The Undersea
+				exploration(15667),	-- Delves
+				exploration(15786),	-- Hallowfall
 			}),
 			-- Have QuestID attached
 			i(228947),	-- Weaver's Lair Profession Table
