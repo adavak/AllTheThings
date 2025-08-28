@@ -12726,3 +12726,8 @@
 8091@@@Perfected Rage of the Tides
 8092@@@Perfected Sundered Comet
 8549@@@Felshatter
+11.2.5.62785
+8575@@@Pristine Everchill Pearl
+8576@@@Intricate Everchill Pearl
+8577@@@Flawed Everchill Pearl
+8578@@@Perfected Everchill Pearl
