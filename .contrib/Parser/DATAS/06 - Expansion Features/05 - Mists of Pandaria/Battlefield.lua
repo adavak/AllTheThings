@@ -312,7 +312,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({
 			}),
 			n(VENDORS, {
 				n(71226, {	-- Ravika <Darkspear Quartermaster> 5.3 Version
-					["description"] = "Rebellion Quatermaster during Barrens Battlefield.",
+					["description"] = "Rebellion Quartermaster during Barrens Battlefield.",
 					["groups"] = {
 						i(97901),	-- Griftah's Authentic Troll Shoes
 						i(97919),	-- Whole-Body Shinka' (TOY!)
