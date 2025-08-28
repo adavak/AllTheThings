@@ -2301,3 +2301,12 @@
 1255480@@@Felscorned Netherlord's Dreadsteed
 1255482@@@Felscorned War Wyrm
 1256677@@@Cerulean Phase-Hunter
+11.2.5.62687
+1248309@@@Kalu'ak Crest-Horn
+1250287@@@Floestrider Crest-Horn
+1250288@@@Cragstepper Crest-Horn
+1251279@@@Fel-Scarred Mana Ray
+1251680@@@Highlands Gobbler
+1251685@@@Quirky Turkey
+1251689@@@Murky Turkey
+1251690@@@Prized Turkey
