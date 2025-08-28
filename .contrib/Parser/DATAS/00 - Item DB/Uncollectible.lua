@@ -499,6 +499,7 @@ i(169129);	-- Lovingly Worn Wrench
 i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome
 i(168795);	-- Old Boot
+i(168796);	-- Recycled Scroll
 i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
 i(170001);	-- Seized Engine

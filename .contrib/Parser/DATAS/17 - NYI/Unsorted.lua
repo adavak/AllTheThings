@@ -970,20 +970,12 @@ root(ROOTS.Unsorted, {
 
 				-- Trading Post?
 				i(245947),	-- Barrel Helm
-				i(245948),	-- Bronzebeard's Portable Forge
-				i(245949),	-- The Speaker's Portable Forge
 				i(245950),	-- Dark Iron Portable Forge
 				i(245951),	-- Wildhammer's Portable Forge
-				i(245952),	-- Bronzbeard's Ceremonial Mace
-				i(245953),	-- The Speaker's Ceremonial Mace
 				i(245954),	-- Wildhammer's Ceremonial Mace
 				i(245955),	-- Dark Iron's Ceremonial Mace
-				i(245956),	-- Bronzebeard's Crystal Ward
-				i(245957),	-- The Speaker's Crystal Ward
 				i(245958),	-- Wildhammer's Crystal Ward
 				i(245959),	-- Dark Iron's Crystal Ward
-				i(246781),	-- Bronzbeard's Ancient Crusher
-				i(246782),	-- The Speaker's Ancient Crusher
 				i(246783),	-- Wildhammer's Ancient Crusher
 				i(246784),	-- Dark Iron's Ancient Crusher
 				i(246785),	-- Coldsnap Felblade
@@ -994,8 +986,6 @@ root(ROOTS.Unsorted, {
 				i(246791),	-- Hellfire Feldirk
 				i(246792),	-- Netherstorm Feldirk
 				i(246793),	-- Sinister Feldirk
-				i(246798),	-- Bronzebeard's Mighty Crossbow
-				i(246799),	-- The Speaker's Mighty Crossbow
 				i(246800),	-- Wildhammer's Mighty Crossbow
 				i(246801),	-- Dark Iron's Mighty Crossbow
 				i(246949),	-- Felreaver's Azure Treads
@@ -1086,24 +1076,6 @@ root(ROOTS.Unsorted, {
 				i(247989),	-- The Horseman's Ghostly Grips
 				i(247990),	-- The Horseman's Ghostly Cloak
 				i(247991),	-- Ensemble: The Horseman's Ghostly Collection
-				i(248291),	-- Bronzbeard's Ceremonial Crown
-				i(248292),	-- Bronzbeard's Ceremonial Mantle
-				i(248293),	-- Bronzbeard's Ceremonial Chestplate
-				i(248294),	-- Bronzbeard's Ceremonial Belt
-				i(248295),	-- Bronzbeard's Ceremonial Boots
-				i(248296),	-- Bronzbeard's Ceremonial Legguards
-				i(248297),	-- Bronzbeard's Ceremonial Gauntlets
-				i(248298),	-- Bronzbeard's Ceremonial Cloak
-				i(248299),	-- Ensemble: Bronzebeard's Ceremonial Collection
-				i(248301),	-- The Speaker's Ceremonial Crown
-				i(248302),	-- The Speaker's Ceremonial Mantle
-				i(248303),	-- The Speaker's Ceremonial Chestplate
-				i(248304),	-- The Speaker's Ceremonial Belt
-				i(248305),	-- The Speaker's Ceremonial Boots
-				i(248306),	-- The Speaker's Ceremonial Legguards
-				i(248307),	-- The Speaker's Ceremonial Gauntlets
-				i(248308),	-- The Speaker's Ceremonial Cloak
-				i(248309),	-- Ensemble: The Speaker's Ceremonial Collection
 				i(248310),	-- Wildhammer's Ceremonial Crown
 				i(248311),	-- Wildhammer's Ceremonial Mantle
 				i(248312),	-- Wildhammer's Ceremonial Chestplate
@@ -1230,10 +1202,7 @@ root(ROOTS.Unsorted, {
 				i(247722),	-- The Headless Horseman's Burning Charger
 				i(247723),	-- The Headless Horseman's Ghostly Charger
 				i(247791),	-- Windmaster's Battlesworn
-				i(247792),	-- Akil'darah Windscarred
-				i(247793),	-- Ohn'ahran Windborne
 				i(247794),	-- Darkfeather Eclipse
-				i(247795),	-- Ornery Breezestrider
 				i(248761),	-- Brewfest Barrel Bomber
 			}),
 			n(PROFESSIONS, {
@@ -3634,7 +3603,6 @@ root(ROOTS.Unsorted, {
 			i(168792),	-- Kobold's Candle
 			i(168793),	-- Bottle of Homemade Wine
 			i(168794),	-- Last Year's Brewfest Flyer
-			i(168796),	-- Recycled Scroll
 			i(168797),	-- Stack of Undeliverable Mail
 			i(168812),	-- Air Freshner
 			i(168815),	-- Kelpberry Cask

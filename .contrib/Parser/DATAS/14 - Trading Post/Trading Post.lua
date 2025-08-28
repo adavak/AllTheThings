@@ -1570,6 +1570,45 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(50, i(235035)),	-- Vigilante's Snowy Mask
 			}),
 		})),
+		n(SEPTEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61967", "removed 11.2.0.99999" } }, {	-- TODO: Timeline in/out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				i(247792),	-- High Shaman's Aerie Gryphon (MOUNT!)
+			}),
+			filter(MOUNTS, {
+				traderstender(650, i(247793)),	-- Cinder-Plumed Highland Gryphon (MOUNT!)
+				traderstender(600, i(226041)),	-- Keg Leg's Radiant Crocolisk (MOUNT!)
+				traderstender(325, i(247795)),	-- Ornery Breezestrider (MOUNT!)
+			}),
+			filter(BATTLE_PETS, {
+				traderstender(330, i(226104)),	-- Claudius (PET!)
+			}),
+			filter(COSMETIC, {
+				traderstender(20, i(233183)),	-- Banded Aquatic War Slippers
+				traderstender(20, i(233166)),	-- Banded Aquatic War Wraps
+				traderstender(230, i(246781)),	-- Bronzebeard's Ancient Crusher
+				traderstender(210, i(245952)),	-- Bronzebeard's Ceremonial Gavel
+				traderstender(80, i(245956)),	-- Bronzebeard's Crystal Ward
+				traderstender(150, i(246798)),	-- Bronzebeard's Mighty Crossbow
+				traderstender(200, i(245948)),	-- Bronzebeard's Portable Forge
+				traderstender(100, iensemble(242485)),	-- Ensemble: Aquatic Sweatsuit\
+				traderstender(575, iensemble(248299)),	-- Ensemble: Bronzebeard's Ceremonial Collection
+				traderstender(750, iensemble(226017)),	-- Ensemble: Plunderlord's Radiant Finery
+				traderstender(100, iensemble(230181)),	-- Ensemble: Prowler's Aquatic Headgear
+				traderstender(375, iensemble(242346)),	-- Ensemble: Rainy Day Attire
+				traderstender(575, iensemble(248309)),	-- Ensemble: The Speaker's Ceremonial Collection
+				traderstender(300, i(209053)),	-- Green Brewfest Bulwark
+				traderstender(40, i(233110)),	-- Long Aquatic War Skirt
+				traderstender(50, i(233149)),	-- Long Aquatic War Skirt and Leg Wraps
+				traderstender(40, i(233093)),	-- Short Aquatic War Skirt
+				traderstender(50, i(233132)),	-- Short Aquatic War Skirt and Leg Wraps
+				traderstender(230, i(246782)),	-- The Speaker's Ancient Crusher
+				traderstender(210, i(245953)),	-- The Speaker's Ceremonial Mallet
+				traderstender(80, i(245957)),	-- The Speaker's Crystal Ward
+				traderstender(150, i(246799)),	-- The Speaker's Mighty Crossbow
+				traderstender(200, i(245949)),	-- The Speaker's Portable Forge
+				traderstender(200, i(211258)),	-- Wildhammer Scouts Headgear
+			}),
+		})),
 	}),
 }));
 

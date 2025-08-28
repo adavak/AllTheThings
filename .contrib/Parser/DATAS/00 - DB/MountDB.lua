@@ -2083,9 +2083,12 @@ i(242730, 1233547);	-- Acidic Void Creeper
 i(232617, 472157);	-- Astral Gladiator's Fel Bat
 i(248248, 1246781);	-- Azure Void Flyer
 i(242733, 1233559);	-- Blue Barry
+i(247793, 1245359);	-- Cinder-Plumed Highland Gryphon
 i(238051, 1224048);	-- Delver's Mana-Skimmer
+i(247792, 1245358);	-- High Shaman's Aerie Gryphon
 i(242717, 1233518);	-- Lavender K'arroc
 i(243020, 1234305);	-- Lightwing Dragonhawk
+i(247795, 1245370);	-- Ornery Breezestrider
 i(246067, 1240632);	-- Pearlescent Krolusk
 i(250240, 1250578);	-- Phase-Lost Slateback
 i(242729, 1233546);	-- Ruby Void Creeper
@@ -2104,13 +2107,10 @@ i(243019, 1234303);	-- Voidwing Dragonhawk
 --- UNSORTED ---
 i(247791, 1245357);	-- Adorned Northeron Gryphon
 i(248761, 1247662);	-- Brewfest Barrel Bomber
-i(247793, 1245359);	-- Cinder-Plumed Highland Gryphon
 i(246919, 1244259);	-- Cinder-seared Elekk
 i(242734, 1233561);	-- Curious Slateback
 i(247794, 1245361);	-- Emberwing Sky Guide
-i(247792, 1245358);	-- High Shaman's Aerie Gryphon
 i(246921, 1244261);	-- Legion Forged Elekk
-i(247795, 1245370);	-- Ornery Breezestrider
 i(242713, 1221132);	-- Resplendent K'arroc
 i(246445, 1242272);	-- Royal Voidwing
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger

@@ -84,6 +84,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(239448),	-- Reshii Magi's Vestments
 					i(240117),	-- Reshii Magi's Wand
 					i(239462),	-- Reshii Scout's Belt
+					i(240114),	-- Reshii Skirmisher's Morningstar
 				},
 			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
@@ -176,6 +177,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier
 					i(240116),	-- Reshii Brute's Longsword
+					i(240115),	-- Reshii Brute's Warmace
 					i(240113),	-- Reshii Magi's Dagger
 					i(240120),	-- Reshii Magi's Lantern
 					i(240112),	-- Reshii Scout's Blade

@@ -511,9 +511,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_5 } }, {
 			n(SETS, {
 				------ Prowler's Aquatic Set ------
-				i(230181),	-- Ensemble: Prowler's Aquatic Headgear
-				i(230071),	-- Prowler's Aquatic Cowl
-				i(230091),	-- Prowler's Aquatic Mask
 				i(230050),	-- Prowler's Aquatic Shoulder Cape
 
 				------ Prowler's Cloudy Set ------
@@ -557,8 +554,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233931),	-- [PH] Shoulder
 				i(233933),	-- [PH] Tabard
 				i(233238),	-- Azure Pack of Lunar Explosives
-				i(233183),	-- Banded Aquatic War Slippers
-				i(233166),	-- Banded Aquatic War Wraps
 				i(233179),	-- Banded Carrot War Slippers
 				i(233162),	-- Banded Carrot War Wraps
 				i(233173),	-- Banded Cloudy War Slippers
@@ -577,8 +572,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234709),	-- Earthen Travel Kilt
 				i(234758),	-- Korkron Spaulders
 				i(233237),	-- Lively Pack of Lunar Explosives
-				i(233110),	-- Long Aquatic War Skirt
-				i(233149),	-- Long Aquatic War Skirt and Leg Wraps
 				i(233106),	-- Long Carrot War Skirt
 				i(233145),	-- Long Carrot War Skirt and Leg Wraps
 				i(233100),	-- Long Cloudy War Skirt
@@ -604,8 +597,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234051),	-- Lunar Festival Spaulders - Purple
 				i(234052),	-- Lunar Festival Spaulders - Teal
 				i(232924),	-- Sailor's Belt
-				i(233093),	-- Short Aquatic War Skirt
-				i(233132),	-- Short Aquatic War Skirt and Leg Wraps
 				i(233089),	-- Short Carrot War Skirt
 				i(233128),	-- Short Carrot War Skirt and Leg Wraps
 				i(233083),	-- Short Cloudy War Skirt
@@ -955,10 +946,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		-- 11.1.7
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
 			n(SETS, {
-				------ Aquatic Sweatsuit Set ------
-				i(242485),	-- Ensemble: Aquatic Sweatsuit
-				i(242451),	-- Aquatic Sweatpants
-				i(242422),	-- Aquatic Sweatshirt
 
 				------ Azure Sweatsuit Set ------
 				i(242456),	-- Ensemble: Azure Sweatsuit
@@ -1063,14 +1050,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242455),	-- Ensemble: Midnight Sweatsuit
 				i(242407),	-- Midnight Sweatpants
 				i(242454),	-- Midnight Sweatshirt
-
-				------ Rainy Day Attire Set ------
-				i(242346),	-- Ensemble: Rainy Day Attire
-				i(242330),	-- Rainy Day Belt
-				i(242338),	-- Rainy Day Coat
-				i(242326),	-- Rainy Day Galoshes
-				i(242342),	-- Rainy Day Hood
-				i(242334),	-- Rainy Day Pants
 
 				------ Rosy Sweatsuit Set ------
 				i(242471),	-- Ensemble: Rosy Sweatsuit
