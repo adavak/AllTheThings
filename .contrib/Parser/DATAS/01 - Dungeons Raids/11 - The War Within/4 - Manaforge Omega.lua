@@ -279,6 +279,12 @@ InstanceHelper.UpgradeMapping = {
 	-- #ENDIF
 };
 
+-- TODO:
+-- Hungering Void Curio Warbound versions
+-- LFR ?
+-- N mod 151
+-- H mod 152
+
 root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
 		["isRaid"] = true,
@@ -834,7 +840,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		q(90980, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(90984, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
 		-- q(, name(HEADERS.NPC, 245617)),	-- The Bone Melter
-		-- q(, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
+		q(90988, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 	})),
 }));
