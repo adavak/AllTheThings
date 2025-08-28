@@ -1764,6 +1764,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 						["groups"] = {
 							i(131734),	-- Spirit of Eche'ro (MOUNT!)
+							i(134095),	-- Bone Fragment of Eche'ro (QI!)
 						},
 					}),
 				})),

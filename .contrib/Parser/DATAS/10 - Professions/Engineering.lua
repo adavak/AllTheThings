@@ -618,6 +618,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 43.0, 62.8, AZSUNA },
 				["groups"] = {
 					r(198975),	-- Gunpack [Rank 1] (RECIPE!)
+					i(133798),	-- Barrel of Gunpowder (QI!)
 				},
 			}),
 			q(40874, {	-- I'd Do It Myself, But...

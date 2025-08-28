@@ -28,6 +28,9 @@ root(ROOTS.Zones, {
 				}),
 				q(41447, {	-- Burning Felslate Deposits
 					["requireSkill"] = MINING,
+					["g"] = {
+						i(141250),	-- Burning Felslate (QI!)
+					},
 				}),
 				petbattle(q(41990)),	-- Chopped
 				q(45307),	-- Claws for Alarm!

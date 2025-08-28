@@ -445,6 +445,9 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
 					["provider"] = { "n", 92618 },	-- Granny Marl
 					["coord"] = { 38.9, 61.4, VALSHARAH },
+					["g"] = {
+						i(127005),	-- Barrel of Corn (QI!)
+					},
 				}),
 				q(39117, {	-- Shriek No More
 					["sourceQuests"] = { 38643 },	-- A Village in Peril

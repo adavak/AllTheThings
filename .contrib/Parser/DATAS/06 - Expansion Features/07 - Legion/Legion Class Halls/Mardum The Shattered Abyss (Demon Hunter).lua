@@ -553,7 +553,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							107724,	-- Kayn Sunfury
 						},
 						["coord"] = { 57.7, 51.7, 721 },
-						["lvl"] = 103,
+						["lvl"] = 10,
+						["g"] = {
+							i(137690),	-- Blood Offering (QI!)
+						},
 					}),
 					q(39741, {	-- Into Our Ranks (Altruis)
 						["sourceQuests"] = { 42634 },	-- Confrontation at the Black Temple (Altruis)

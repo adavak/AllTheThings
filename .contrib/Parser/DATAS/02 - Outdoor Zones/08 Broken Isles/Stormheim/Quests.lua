@@ -103,6 +103,9 @@ root(ROOTS.Zones, {
 				q(42639, {	-- A Stone of Blood
 					["provider"] = { "n", 108072 },	-- Sir Finley Mrrggglton
 					["coord"] = { 74.8, 55.5, STORMHEIM },
+					["g"] = {
+						i(138150),	-- Broketooth's Ruby Amulet (QI!)
+					},
 				}),
 				q(44771, {	-- A Threat Rises
 					["sourceQuest"] = 44720,	-- A Call to Action
@@ -281,6 +284,9 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 94318 },	-- Genn Greymane
 					["coord"] = { 71.5, 59.9, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
+					["g"] = {
+						i(127295),	-- Blazing Torch (QI!)
+					},
 				}),
 				q(54147, {	-- Confront the Val'kyr
 					["sourceQuests"] = { 53781 },	-- Eyir

@@ -283,6 +283,11 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["sourceQuests"] = { 39325 },	-- Get Your Mix On
 			["provider"] = { "n", 92458 },	-- Deucus Valdera
 			["coord"] = { 41.6, 32.8, LEGION_DALARAN },
+			["g"] = {
+				i(128356),	-- Barrel of Fish Oil (QI!)
+				i(128357),	-- Basket of Dried Herbs (QI!)
+				i(128355),	-- Crate of Khadgar's Whiskers (QI!)
+			},
 		}),
 		q(39566, {	-- The Search for Knowledge
 			["sourceQuests"] = { 39326 },	-- Missing Shipments
@@ -333,6 +338,12 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["sourceQuests"] = { 39332 },	-- Furbolg Firewater
 			["provider"] = { "n", 92458 },	-- Deucus Valdera
 			["coord"] = { 41.6, 32.8, LEGION_DALARAN },
+			["g"] = {
+				i(136675),	-- Barm's Mortar and Pestle (QI!)
+				i(128515),	-- Cracked Dual-Chambered Mixing Flask (QI!)
+				i(136674),	-- Ripe Pumpkin Juice (QI!)
+				i(136673),	-- Rivermane Remedy (QI!)
+			},
 		}),
 		q(39334, {	-- Thanks for Flasking
 			["sourceQuests"] = { 39430 },	-- Flasking for a Favor
