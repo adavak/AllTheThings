@@ -2731,7 +2731,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213651, {	-- Equipment Locker
 						["coord"] = { 43.7, 92.3, KRASARANG_WILDS },
-						["icon"] = 985959,
+						["icon"] = 644388,
 						["questID"] = 31410,
 						["description"] = "On the bottom level of the ship. You will have to go down two sets of stairs.\nThis chest may follow the personal loot rule and be based on your current spec, NOT your Loot Spec.",
 						["groups"] = {
