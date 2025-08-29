@@ -15,6 +15,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 47.9, 62.6, KARESH },
 				}),
 				crit(106225, {	-- Empurror
+					["description"] = "Must fly up to reach him.",
 					["coord"] = { 73.2, 23.7, KARESH },
 				}),
 				crit(106226, {	-- K'aresh'ire
