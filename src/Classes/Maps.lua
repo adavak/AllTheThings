@@ -398,7 +398,7 @@ local function PrintDiscordInformationForExploration(o)
 		luaFormat = "visit_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
 		tinsert(info, luaFormat:format(areaID,x or 0,y or 0,mapID,text));
 	else
-		luaFormat = "visit_exploration(%d),\t-- %s"
+		luaFormat = "instance_exploration(%d),\t-- %s"
 		tinsert(info, luaFormat:format(areaID,text));
 	end
 	tinsert(info, "");
