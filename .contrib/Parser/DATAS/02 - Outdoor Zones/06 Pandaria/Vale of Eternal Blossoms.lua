@@ -666,9 +666,9 @@ root(ROOTS.Zones, {
 				}),
 				n(REWARDS, {
 					petbattle(container(94207, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {	-- Fabled Pandaren Pet Supplies
-						i(94210),	-- Mountain Panda (PET!)
-						i(94209),	-- Snowy Panda (PET!)
-						i(94208),	-- Sunfur Panda (PET!)
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94210)),	-- Mountain Panda (PET!)
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94209)),	-- Snowy Panda (PET!)
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94208)),	-- Sunfur Panda (PET!)
 						i(89139),	-- Chain Pet Leash
 						i(44820),	-- Red Ribbon Pet Leash
 						i(37460),	-- Rope Pet Leash
