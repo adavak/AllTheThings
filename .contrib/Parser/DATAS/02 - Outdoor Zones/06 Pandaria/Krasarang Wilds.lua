@@ -431,7 +431,7 @@ root(ROOTS.Zones, {
 							30272,	-- Striking the Rain
 						},
 						["qg"] = 59608,	-- Anduin Wrynn
-					--	Anduin seems to follow you constantly even if you abandon this, so coords do not appear to be unnecessary
+					--	Anduin seems to follow you constantly even if you abandon this, so coords appear to be unnecessary
 						["groups"] = {
 							i(81493),	-- Dojani Girdle
 							i(81492),	-- Korjan Girdle
@@ -1065,24 +1065,11 @@ root(ROOTS.Zones, {
 							i(88580),	-- Ken-Ken's Mask (TOY!)
 						},
 					}),
-
-
-	-------------------------------------------------------------------------------------------
-	-------------------------------------------------------------------------------------------
-	-------------------------------------------------------------------------------------------
-
-
-
-
-
-
 					q(32134, {	-- Hard Counter
 						["qg"] = 67402,	-- Zazzix "Toasty" Sparkrocket
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-
-
 					q(32139, {	-- Stacked!
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -1107,8 +1094,6 @@ root(ROOTS.Zones, {
 						["requireSkill"] = FISHING,
 						["races"] = HORDE_ONLY,
 					}),
-
-
 					q(32238, {	-- Universal Remote-Explode
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -1121,13 +1106,12 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-
-	--[[
+					--[[
 					The following quests have all been removed from the game
 					q(30677, {	-- Shuttle Service
 						["u"] = REMOVED_FROM_GAME,
 					}),
-	]]--
+					]]--
 				}),
 				n(RARES, {
 					n(COMMON_BOSS_DROPS, {
