@@ -2102,6 +2102,7 @@ i(243061, 1234573);	-- Unbound Star-Eater
 i(186640, 353265);	-- Vandal's Gearglider
 i(243157, 1234820);	-- Vicious Void Creeper [A]
 i(243159, 1234821);	-- Vicious Void Creeper [H]
+i(246732, 1243589);	-- Void-Forged Overseer (CN ONLY)
 i(245610, 1239138);	-- Voidlight Surger
 i(243019, 1234303);	-- Voidwing Dragonhawk
 --- UNSORTED ---

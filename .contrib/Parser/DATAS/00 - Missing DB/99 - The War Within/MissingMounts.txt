@@ -1,5 +1,3 @@
-11.2.0.62493
-mount(1243589),	-- Void-Forged Overseer
 11.2.5.62554
 mount(1229264),	-- Bloodguard Fel Bat
 mount(1229276),	-- Bloodhunter Fel Bat
