@@ -126,4 +126,3 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		},
 	}),
 })));
-

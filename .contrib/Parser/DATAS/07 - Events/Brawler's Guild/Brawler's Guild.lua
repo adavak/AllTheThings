@@ -341,7 +341,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32837, {	-- Grandpa Grumplefloot
-					["sourceQuest"] = 32836,	-- A Knockoff Grumplefloot
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -360,6 +359,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98099),	-- Giant Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32836,	-- A Knockoff Grumplefloot
 				}),
 				q(32838, {	-- A Tale of Romance and Chivalry
 					-- #if BEFORE LEGION
@@ -367,7 +367,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32839, {	-- The Bear and the Lady Fair
-					["sourceQuest"] = 32838,	-- A Tale of Romance and Chivalry
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -385,6 +384,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98102),	-- Overflowing Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32838,	-- A Tale of Romance and Chivalry
 				}),
 				q(32840, {	-- Boom Boom's Fuse
 					-- #if BEFORE LEGION
@@ -392,7 +392,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32841, {	-- Master Boom Boom
-					["sourceQuest"] = 32840,	-- Boom Boom's Fuse
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -410,6 +409,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98099),	-- Giant Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32840,	-- Boom Boom's Fuse
 				}),
 				q(32842, {	-- Teeth Like Swords
 					-- #if BEFORE LEGION
@@ -417,7 +417,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32843, {	-- Razorgrin
-					["sourceQuest"] = 32842,	-- Teeth Like Swords
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -435,6 +434,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98100),	-- Humongous Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32842,	-- Teeth Like Swords
 				}),
 				q(32844, {	-- Secret of the Ooze
 					-- #if BEFORE LEGION
@@ -442,7 +442,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32845, {	-- Splat
-					["sourceQuest"] = 32844,	-- Secret of the Ooze
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -461,6 +460,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98100),	-- Humongous Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32844,	-- Secret of the Ooze
 				}),
 				q(32846, {	-- Modified Chomping Apparatus
 					-- #if BEFORE LEGION
@@ -468,7 +468,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32847, {	-- Mecha-Bruce
-					["sourceQuest"] = 32846,	-- Modified Chomping Apparatus
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -486,6 +485,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98101),	-- Enormous Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32846,	-- Modified Chomping Apparatus
 				}),
 				q(32848, {	-- Frost-Tipped Eggshell
 					-- #if BEFORE LEGION
@@ -493,7 +493,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32849, {	-- Dippy and Doopy
-					["sourceQuest"] = 32848,	-- Frost-Tipped Eggshell
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -514,6 +513,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98100),	-- Humongous Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32848,	-- Frost-Tipped Eggshell
 				}),
 				q(32850, {	-- Last Year's Model
 					-- #if BEFORE LEGION
@@ -521,7 +521,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32851, {	-- Blingtron 3000
-					["sourceQuest"] = 32850,	-- Last Year's Model
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -539,6 +538,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98101),	-- Enormous Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32850,	-- Last Year's Model
 				}),
 				q(32852, {	-- The Digmaster's Earthblade
 					-- #if BEFORE LEGION
@@ -546,7 +546,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32853, {	-- Mingus Diggs
-					["sourceQuest"] = 32852,	-- The Digmaster's Earthblade
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -564,6 +563,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98103),	-- Gigantic Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32852,	-- The Digmaster's Earthblade
 				}),
 				q(32854, {	-- Well-Worn Blindfold
 					-- #if BEFORE LEGION
@@ -571,7 +571,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32855, {	-- The Blind Hero
-					["sourceQuest"] = 32854,	-- Well-Worn Blindfold
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -589,6 +588,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98103),	-- Gigantic Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32854,	-- Well-Worn Blindfold
 				}),
 				q(32856, {	-- Paper-Covered Rock
 					-- #if BEFORE LEGION
@@ -596,7 +596,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32857, {	-- Ro-Shambo
-					["sourceQuest"] = 32856,	-- Paper-Covered Rock
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -614,6 +613,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98102),	-- Overflowing Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32856,	-- Paper-Covered Rock
 				}),
 				q(32858, {	-- Raptorhide Boxing Gloves
 					-- #if BEFORE LEGION
@@ -621,7 +621,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				}),
 				q(32859, {	-- Ty'thar
-					["sourceQuest"] = 32858,	-- Raptorhide Boxing Gloves
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
@@ -639,13 +638,14 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						i(98099),	-- Giant Sack of Coins
 					}
 					-- #endif
+					["sourceQuest"] = 32858,	-- Raptorhide Boxing Gloves
 				}),
 			})),
 			-- WOD
 			sharedData({ ["timeline"] = { ADDED_6_0_2, REMOVED_9_0_2_LAUNCH }, ["races"] = ALLIANCE_ONLY }, {
 				q(36702, {	-- Meatball
-					["qg"] = 86272,	-- Meatball
 					["description"] = "Reach Rank 5 in the arena.",
+					["qg"] = 86272,	-- Meatball
 					["groups"] = {
 						follower(203),	-- Meatball
 					},
@@ -653,8 +653,8 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 			sharedData({ ["timeline"] = { ADDED_6_0_2, REMOVED_9_0_2_LAUNCH }, ["races"] = HORDE_ONLY }, {
 				q(36702, {	-- Meatball
-					["qg"] = 86272,	-- Meatball
 					["description"] = "Reach Rank 5 in the arena.",
+					["qg"] = 86272,	-- Meatball
 					["groups"] = {
 						follower(203),	-- Meatball
 					},
@@ -663,9 +663,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			-- BFA
 			sharedData({ ["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH }, ["races"] = ALLIANCE_ONLY }, {
 				q(55002, {	-- Murder at the Brawlpub
+					["description"] = "This quest can be accepted after you successfully complete any (or your first) Brawl.",
 					["qg"] = 68363,	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
 					["coord"] = { 50.2, 23.1, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-					["description"] = "This quest can be accepted after you successfully complete any (or your first) Brawl.",
 				}),
 				q(55003, {	-- Put Up Your Dukes
 					["sourceQuest"] = 55002,	-- Murder at the Brawlpub
@@ -711,19 +711,19 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					["coord"] = { 72.7, 68.4, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				}),
 				q(55010, {	-- Soul Splinters
+					["description"] = "You can save previously earned Brawler's Purses and open them while on this quest - Each Brawler's Purse gives 10 - 12 Soul Splinters, so you will need 9 - 10 Brawler's Purses to complete this quest.",
 					["sourceQuest"] = 55009,	-- Undercover Agent: Saralara Fizzlesprang
 					["qg"] = 150317,	-- Shadowmaster O'Flannerty
 					["coord"] = { 68.0, 24.8, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-					["description"] = "You can save previously earned Brawler's Purses and open them while on this quest - Each Brawler's Purse gives 10 - 12 Soul Splinters, so you will need 9 - 10 Brawler's Purses to complete this quest.",
 					["groups"] = {
 						i(164928),	-- Soul Splinter (QI!)
 					},
 				}),
 				q(55011, {	-- Super Soul Splinters
+					["description"] = "You can save previously earned Rumbler's Purses and open them while on this quest - Each Rumbler's Purse gives 1 Super Soul Splinter, so you will need 3 Rumbler's Purses to complete this quest.",
 					["sourceQuest"] = 55010,	-- Soul Splinters
 					["qg"] = 150317,	-- Shadowmaster O'Flannerty
 					["coord"] = { 68.0, 24.8, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-					["description"] = "You can save previously earned Rumbler's Purses and open them while on this quest - Each Rumbler's Purse gives 1 Super Soul Splinter, so you will need 3 Rumbler's Purses to complete this quest.",
 					["groups"] = {
 						i(164929),	-- Super Soul Splinter (QI!)
 					},
