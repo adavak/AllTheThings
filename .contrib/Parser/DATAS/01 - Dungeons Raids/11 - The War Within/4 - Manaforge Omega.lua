@@ -281,7 +281,7 @@ InstanceHelper.UpgradeMapping = {
 
 -- TODO:
 -- Hungering Void Curio Warbound versions
--- LFR ?
+-- LFR mod 149
 -- N mod 151
 -- H mod 152
 

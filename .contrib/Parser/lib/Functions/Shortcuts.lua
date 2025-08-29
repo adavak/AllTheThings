@@ -145,7 +145,7 @@ applyData = function(data, t)
 		for key, value in pairs(data) do
 			if t[key] == nil and key ~= "IgnoreWarnings" then	-- don't replace existing data
 				if SharedKeyWarnings[key] and not data.IgnoreWarnings then
-					print(SharedKeyWarnings[key],"[",value,"]")
+					print(SharedKeyWarnings[key],key,"[",value,"]")
 				end
 				t[key] = clone(value)
 			-- else

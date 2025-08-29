@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			n(241956, {	-- Arcana-Monger So'zer
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 33.6, 36.9, KARESH_TAZAVESH },
-				--["questID"] = ,
+				["questID"] = 90696,
 				["groups"] = {
 					i(239474),	-- Reshii Brute's Handguards
 					i(239467),	-- Reshii Skirmisher's Cowl

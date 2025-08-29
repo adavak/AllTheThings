@@ -2652,7 +2652,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(43826, { ["name"] = "Hidden History", }),	-- Hidden History
 			q(41008, { ["name"] = "Hunter to Hunter", }),	-- Hunter to Hunter
 			q(40780, { ["name"] = "Hunting Impaired", }),	-- Hunting Impaired
-			q(42729, { ["name"] = "Challenger's Armaments", }),	-- Challenger's Armaments
+			-- q(42729, { ["name"] = "Challenger's Armaments", }),	-- Challenger's Armaments
 			q(42853, { ["name"] = "Champion: Aponi Brightmane [NYI]", }),	-- Champion: Aponi Brightmane [NYI]
 			q(42855, { ["name"] = "Champion: Arator the Redeemer [NYI]", }),	-- Champion: Arator the Redeemer [NYI]
 			q(42617, { ["name"] = "Champion: King Ymiron", }),	-- Champion: King Ymiron
