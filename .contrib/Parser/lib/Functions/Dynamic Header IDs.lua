@@ -305,6 +305,7 @@ HeaderAssignments = {
 	["Junkyard"] = -374,
 	["Kalimdor Cup"] = -570,
 	["Kalu'ak Fishing Derby"] = -578,
+	["Krasarang Wilds Campaign"] = -657,
 	["Kukuru's Cache"] = -390,
 	["Kyrian"] = -159,
 	["Leeching Vaults"] = -376,
@@ -654,4 +655,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -657;
+NextHeaderID = -658;
