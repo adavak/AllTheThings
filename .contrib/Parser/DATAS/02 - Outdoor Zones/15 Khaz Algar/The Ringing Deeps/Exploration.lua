@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			visit_exploration(15519,{coord={75.8,75.3,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- The Verdant Gutters
 			visit_exploration(15520,{coord={74.3,86.5,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- The Writhing Fields
 			exploration(14803),	-- The Warrens
-			visit_exploration(15099,{coord={48.2,40.8,THE_RINGING_DEEPS}}),	-- The Waterworks
+			visit_exploration(14798,{coord={48.2,40.8,THE_RINGING_DEEPS}}),	-- The Waterworks
 		}),
 	}),
 }));

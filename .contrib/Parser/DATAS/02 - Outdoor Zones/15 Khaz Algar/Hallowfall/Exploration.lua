@@ -27,7 +27,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			exploration(14918),	-- Priory of the Sacred Flame
 			exploration(15337),	-- Priory of the Sacred Flame
 			exploration(14924),	-- Rumshackle
-			visit_exploration(15460,{coord={41.0,33.7,HALLOWFALL}}),	-- Sanctified Grounds
 			exploration(15176),	-- Sanguine Grasps
 			visit_exploration(15114,{coord={66.1,32.6,HALLOWFALL}}),	-- Shadowgrove Vineyards
 			exploration(15032),	-- Shadowmire

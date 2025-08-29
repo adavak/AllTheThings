@@ -15,6 +15,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			exploration(14789),	-- Dhar Oztan
 			exploration(14771),	-- Dornogal
 			visit_exploration(14837,{coord={67.2,43.3,ISLE_OF_DORN}}),	-- Durgaz Cabin
+			visit_exploration(15047,{coord={57.4,43.9,ISLE_OF_DORN}}),	-- Fallside Outpost
 			exploration(14772),	-- Freywold Village
 			visit_exploration(15361,{coord={35.0,75.3,ISLE_OF_DORN}}),	-- Gemvein Tunnels
 			exploration(14778),	-- Glimmering Shore
