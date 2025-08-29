@@ -357,7 +357,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98079),	-- Floot-Tooter's Tunic
 						i(98099),	-- Giant Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32836,	-- A Knockoff Grumplefloot
 				}),
@@ -382,7 +382,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98080),	-- Gorgeous Blouse
 						i(98102),	-- Overflowing Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32838,	-- A Tale of Romance and Chivalry
 				}),
@@ -407,7 +407,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98081),	-- The Boomshirt
 						i(98099),	-- Giant Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32840,	-- Boom Boom's Fuse
 				}),
@@ -432,7 +432,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98083),	-- Sharkskin Tunic
 						i(98100),	-- Humongous Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32842,	-- Teeth Like Swords
 				}),
@@ -458,7 +458,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98084),	-- Ooze-Soaked Shirt
 						i(98100),	-- Humongous Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32844,	-- Secret of the Ooze
 				}),
@@ -483,7 +483,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98085),	-- Brucehide Jersey
 						i(98101),	-- Enormous Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32846,	-- Modified Chomping Apparatus
 				}),
@@ -511,7 +511,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98086),	-- Tuxedo-Like Shirt
 						i(98100),	-- Humongous Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32848,	-- Frost-Tipped Eggshell
 				}),
@@ -536,7 +536,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98091),	-- Last Season's Shirt
 						i(98101),	-- Enormous Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32850,	-- Last Year's Model
 				}),
@@ -561,7 +561,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98092),	-- Digmaster's Bodysleeve
 						i(98103),	-- Gigantic Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32852,	-- The Digmaster's Earthblade
 				}),
@@ -586,7 +586,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98093),	-- Sightless Mantle
 						i(98103),	-- Gigantic Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32854,	-- Well-Worn Blindfold
 				}),
@@ -611,7 +611,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98087),	-- Paper Shirt
 						i(98102),	-- Overflowing Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32856,	-- Paper-Covered Rock
 				}),
@@ -636,7 +636,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						}),
 						i(98082),	-- Undisputed Champion's Shirt
 						i(98099),	-- Giant Sack of Coins
-					}
+					},
 					-- #endif
 					["sourceQuest"] = 32858,	-- Raptorhide Boxing Gloves
 				}),
