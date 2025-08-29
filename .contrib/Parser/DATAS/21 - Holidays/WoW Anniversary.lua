@@ -1361,6 +1361,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					-- there's quite a many more it seems, not worth for more coords, only need 3 to get achieve
 				},
 			}),
+			ach(41220, { ["timeline"] = { "removed 11.0.7.58238" } }),	-- WoW's 20th Anniversary
 		}),
 		n(FACTIONS, {
 			faction(FACTION_ZANDALAR_TRIBE, {	-- Zandalar Tribe
