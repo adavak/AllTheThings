@@ -4434,7 +4434,6 @@ i(244914, 4833);	-- Xanthous Siphonmite
 i(246694, 4859);	-- Zo'ya
 --- UNSORTED ---
 i(0, 4824);	-- Baby Karesh Fox - Orange
-i(246339, 4854);	-- Duskytooth Fel Snooter
 i(246342, 4855);	-- Mustyfur Fel Snooter
 i(0, 4830);	-- Observer, Baby (Green) - no icon
 i(246337, 4853);	-- Rustyroot Fel Snooter
@@ -4445,6 +4444,8 @@ i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 ------------------
 -- PATCH 11.2.5 --
 ------------------
+i(246339, 4854);	-- Duskytooth Fel Snooter
+i(252301, 4901);	-- Fledgeling Warden's Companion
 i(239705, 4802);	-- Morsel
 i(129108, 1751);	-- Son of Goredome
 i(239699, 4801);	-- Tidbit
@@ -4453,6 +4454,5 @@ i(252200, 4900);	-- Bundled-up Bob
 i(252199, 4899);	-- Festive Eve
 i(252194, 4897);	-- Fishmonger May
 i(252195, 4898);	-- Fishstick Keith
-i(252301, 4901);	-- Fledgeling Warden's Companion
 i(252137, 4895);	-- Lil' Chompers
 i(252193, 4896);	-- Slippery Saul

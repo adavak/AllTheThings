@@ -2,43 +2,90 @@
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
-	m(AZSUNA, {
-		["icon"] = 624970,
-		["groups"] = {
-			n(ACHIEVEMENTS, {
-			}),
-			n(QUESTS, {
-			}),
-			n(RARES, {
-				n(244782, {	-- Eye of Greed
-					["coord"] = { 66.0, 45.9, AZSUNA },
+	m(BROKEN_ISLES, {
+		m(AZSUNA, {
+			["icon"] = 624970,
+			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42319, {	-- Azsuna
+						-- Meta Achievement
+						["sym"] = {{"meta_achievement",
+							42317,	-- Campaign: Azsuna
+							42318,	-- Court of Farondis
+							42519,	-- Looking for Group: Azsuna
+							42515,	-- Tour Azsuna
+						}},
+						["groups"] = { i(252301) },	-- Fledgeling Warden's Companion (PET!)
+					}),
+					ach(42317),	-- Campaign: Azsuna
+					ach(42518),	-- Elusive Foes: Azsuna
+					ach(42516),	-- Explore Azsuna
+					ach(42517),	-- Hidden Treasures: Azsuna
+					ach(42519, {	-- Looking for Group: Azsuna
+						-- Meta Achievement
+						["sym"] = {{"meta_achievement",
+							60819,	-- Eye of Azshara
+							60822,	-- Vault of the Wardens
+						}},
+					}),
+					ach(61108, {	-- Lorerunner of Azsuna
+						-- Meta Achievement
+						["sym"] = {{"meta_achievement",
+							42317,	-- Campaign: Azsuna
+							61103,	-- Sojourner of Azsuna
+						}},
+					}),
+					ach(61103),	-- Sojourner of Azsuna
+					ach(42515, {	-- Tour Azsuna
+						-- Meta Achievement
+						["sym"] = {{"meta_achievement",
+							42518,	-- Elusive Foes: Azsuna
+							42516,	-- Explore Azsuna
+							42517,	-- Hidden Treasures: Azsuna
+						}},
+					}),
 				}),
-			}),
-			n(ZONE_REWARDS, {
-				filter(CLOAKS, {
-					i(241690),	-- Cloak of the Rosy Combatant
-					i(241707),	-- Conservatory Ward's Shroud
-					i(242180),	-- Invasion Stalker's Draping Shroud
+				n(FACTIONS, {
+					faction(FACTION_COURT_OF_FARONDIS, {
+						n(ACHIEVEMENTS, {
+							ach(42318),	-- Court of Farondis
+						}),
+					}),
+					faction(FACTION_THE_WARDENS, {
+						n(ACHIEVEMENTS, {
+							ach(61218),	-- The Wardens
+						}),
+					}),
 				}),
-				filter(CLOTH, {
+				n(RARES, {
+					n(244782, {	-- Eye of Greed
+						["coord"] = { 66.0, 45.9, AZSUNA },
+					}),
 				}),
-				filter(LEATHER, {
-					i(240762),	-- Llothien Prowler's Belt
-					i(240765),	-- Llothien Prowler's Cuffs
-					i(240766),	-- Llothien Prowler's Gloves
-					i(240761),	-- Llothien Prowler's Harness
-					i(240759),	-- Llothien Prowler's Hat
-					i(240763),	-- Llothien Prowler's Legguards
-					i(240760),	-- Llothien Prowler's Shoulderguard
-					i(240764),	-- Llothien Prowler's Waders
+				n(ZONE_REWARDS, {
+					filter(CLOAKS, {
+						i(241690),	-- Cloak of the Rosy Combatant
+						i(241707),	-- Conservatory Ward's Shroud
+						i(242180),	-- Invasion Stalker's Draping Shroud
+					}),
+					filter(CLOTH, {
+					}),
+					filter(LEATHER, {
+						i(240762),	-- Llothien Prowler's Belt
+						i(240765),	-- Llothien Prowler's Cuffs
+						i(240766),	-- Llothien Prowler's Gloves
+						i(240761),	-- Llothien Prowler's Harness
+						i(240759),	-- Llothien Prowler's Hat
+						i(240763),	-- Llothien Prowler's Legguards
+						i(240760),	-- Llothien Prowler's Shoulderguard
+						i(240764),	-- Llothien Prowler's Waders
+					}),
+					filter(MAIL, {
+					}),
+					filter(PLATE, {
+					}),
 				}),
-				filter(MAIL, {
-				}),
-				filter(PLATE, {
-				}),
-				n(WEAPONS, {
-				}),
-			}),
-		},
+			},
+		}),
 	}),
 })));

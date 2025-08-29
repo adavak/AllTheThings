@@ -286,210 +286,234 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				["groups"] = sharedData({
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}, {
-					i(252954),	-- Felscorned Reins of the Vilebrood Vanquisher (MOUNT!)
-					i(253013),	-- Slayer's Reins of the Felscorned Shrieker (MOUNT!)
-					i(253024),	-- Feldruid's Scornwing Idol (MOUNT!)
-					i(253025),	-- Reins of the Felscorned Wolfhawk (MOUNT!)
-					i(253026),	-- Archmage's Felscorned Disc (MOUNT!)
-					i(253027),	-- Felscorned Grandmaster's Bell (MOUNT!)
-					i(253028),	-- Reins of the Highlord's Felscorned Charger (MOUNT!)
-					i(253029),	-- Felscorned Seeker's Whistle (MOUNT!)
-					i(253030),	-- Shadowblade's Reins of Felscorned Portent (MOUNT!)
-					i(253031),	-- Felscorned Tempest Totem (MOUNT!)
-					i(253032),	-- Felscorned Reins of the Netherlord's Dreadsteed (MOUNT!)
-					i(253033),	-- Iron Reins of the Felscorned War Wrym (MOUNT!)
+					clWithoutLock(DEATHKNIGHT, {
+						i(252954),	-- Felscorned Reins of the Vilebrood Vanquisher (MOUNT!)
+					}),
+					clWithoutLock(DEMONHUNTER, {
+						i(253013),	-- Slayer's Reins of the Felscorned Shrieker (MOUNT!)
+					}),
+					clWithoutLock(DRUID, {
+						i(253024),	-- Feldruid's Scornwing Idol (MOUNT!)
+					}),
+					clWithoutLock(HUNTER, {
+						i(253025),	-- Reins of the Felscorned Wolfhawk (MOUNT!)
+					}),
+					clWithoutLock(MAGE, {
+						i(253026),	-- Archmage's Felscorned Disc (MOUNT!)
+					}),
+					clWithoutLock(MONK, {
+						i(253027),	-- Felscorned Grandmaster's Bell (MOUNT!)
+					}),
+					clWithoutLock(PALADIN, {
+						i(253028),	-- Reins of the Highlord's Felscorned Charger (MOUNT!)
+					}),
+					clWithoutLock(PRIEST, {
+						i(253029),	-- Felscorned Seeker's Whistle (MOUNT!)
+					}),
+					clWithoutLock(ROGUE, {
+						i(253030),	-- Shadowblade's Reins of Felscorned Portent (MOUNT!)
+					}),
+					clWithoutLock(SHAMAN, {
+						i(253031),	-- Felscorned Tempest Totem (MOUNT!)
+					}),
+					clWithoutLock(WARLOCK, {
+						i(253032),	-- Felscorned Reins of the Netherlord's Dreadsteed (MOUNT!)
+					}),
+					clWithoutLock(WARRIOR, {
+						i(253033),	-- Iron Reins of the Felscorned War Wrym (MOUNT!)
+					}),
 				}),
 			}),
 			n(241182, {	-- Hemet Nesingwary XVII <Beastmaster>
 				------ NEW MOUNTS ------
-				i(239667, {	-- Reins of the Ashplague Fel Bat
+				i(239667, {	-- Reins of the Ashplague Fel Bat (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250426, {	-- Reins of the Aquamarine Basilisk
+				i(250426, {	-- Reins of the Aquamarine Basilisk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(239665, {	-- Reins of the Bloodhunter Fel Bat
+				i(239665, {	-- Reins of the Bloodhunter Fel Bat (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(251795, {	-- Reins of the Brimstone Courser
+				i(251795, {	-- Reins of the Brimstone Courser (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(251796, {	-- Reins of the Chestnut Courser
+				i(251796, {	-- Reins of the Chestnut Courser (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250425, {	-- Reins of the Felslate Basilisk
+				i(250425, {	-- Reins of the Felslate Basilisk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250757, {	-- Reins of the Gloomdark Nightmare
+				i(250757, {	-- Reins of the Gloomdark Nightmare (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250752, {	-- Reins of the Golden Sunrunner
+				i(250752, {	-- Reins of the Golden Sunrunner (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250429, {	-- Reins of the Highland Elderhorn
+				i(250429, {	-- Reins of the Highland Elderhorn (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250427, {	-- Reins of the Illidari Blightstalker
+				i(250427, {	-- Reins of the Illidari Blightstalker (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250428, {	-- Reins of the Illidari Dreadstalker
+				i(250428, {	-- Reins of the Illidari Dreadstalker (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250424, {	-- Reins of the Leystone Basilisk
+				i(250424, {	-- Reins of the Leystone Basilisk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250423, {	-- Reins of the Slag Basilisk
+				i(250423, {	-- Reins of the Slag Basilisk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250721, {	-- Reins of the Snowy Highmountain Eagle
+				i(250721, {	-- Reins of the Snowy Highmountain Eagle (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250723, {	-- Reins of the Treetop Highmountain Eagle
+				i(250723, {	-- Reins of the Treetop Highmountain Eagle (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250756, {	-- Reins of the Turquoise Courser
+				i(250756, {	-- Reins of the Turquoise Courser (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250751, {	-- Reins of the Twilight Courser
+				i(250751, {	-- Reins of the Twilight Courser (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(239687, {	-- Reins of the Wretched Fel Bat
+				i(239687, {	-- Reins of the Wretched Fel Bat (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
 				------ Locked behind: Rise of the Nightfallen ------
-				i(250728, {	-- Reins of the Arcberry Manasaber
+				i(250728, {	-- Reins of the Arcberry Manasaber (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250760, {	-- Reins of the Bonesteed of Bloodshed
+				i(250760, {	-- Reins of the Bonesteed of Bloodshed (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250758, {	-- Reins of the Bonesteed of Oblivion
+				i(250758, {	-- Reins of the Bonesteed of Oblivion (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250759, {	-- Reins of the Bonesteed of Plague
+				i(250759, {	-- Reins of the Bonesteed of Plague (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250761, {	-- Reins of the Bonesteed of Triumph
+				i(250761, {	-- Reins of the Bonesteed of Triumph (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
 				------ Locked behind: Argus Eternal ------
-				i(250803, {	-- Garnet Ruinstrider
+				i(250803, {	-- Garnet Ruinstrider (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250804, {	-- Longhorned Bleakhoof Talbuk
+				i(250804, {	-- Longhorned Bleakhoof Talbuk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250192, {	-- Reins of the Ghastly Ur'zul
+				i(250192, {	-- Reins of the Ghastly Ur'zul (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250747, {	-- Reins of the Albino Mana Ray
+				i(250747, {	-- Reins of the Albino Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250746, {	-- Reins of the Bloodtooth Mana Ray
+				i(250746, {	-- Reins of the Bloodtooth Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250745, {	-- Reins of the Fel-scarred Mana Ray
+				i(250745, {	-- Reins of the Fel-scarred Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250805, {	-- Reins of the Longhorned Argussian Talbuk
+				i(250805, {	-- Reins of the Longhorned Argussian Talbuk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250806, {	-- Reins of the Longhorned Beryl Talbuk
+				i(250806, {	-- Reins of the Longhorned Beryl Talbuk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250802, {	-- Reins of the Longhorned Sable Talbuk
+				i(250802, {	-- Reins of the Longhorned Sable Talbuk (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
-				i(250748, {	-- Reins of the Luminous Mana Ray
+				i(250748, {	-- Reins of the Luminous Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 10000 }},
 				}),
 
 				------ OLD MOUNTS ------
-				i(141713, {	-- Arcadian War Turtle
+				i(141713, {	-- Arcadian War Turtle (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
-				i(138201, {	-- Fathom Dweller
+				i(138201, {	-- Fathom Dweller (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(138258, {	-- Reins of the Long-Forgotten Hippogryph
+				i(138258, {	-- Reins of the Long-Forgotten Hippogryph (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(131734, {	-- Spirit of Eche'ro
+				i(131734, {	-- Spirit of Eche'ro (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
 				------ Locked behind: Rise of the Nightfallen ------
-				i(137575, {	-- Fiendish Hellfire Core
+				i(137575, {	-- Fiendish Hellfire Core (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
-				i(137574, {	-- Living Infernal Core
+				i(137574, {	-- Living Infernal Core (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
-				i(142236, {	-- Midnight's Eternal Reins
+				i(142236, {	-- Midnight's Eternal Reins (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
 				------ Locked behind: Legionfall ------
-				i(143643, {	-- Abyss Worm
+				i(143643, {	-- Abyss Worm (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
-				i(147806, {	-- Cloudwing Hippogryph
+				i(147806, {	-- Cloudwing Hippogryph (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(147807, {	-- Highmountain Elderhorn
+				i(147807, {	-- Highmountain Elderhorn (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(143764, {	-- Leywoven Flying Carpet
+				i(143764, {	-- Leywoven Flying Carpet (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(147805, {	-- Valajar Stormwing
+				i(147805, {	-- Valajar Stormwing (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(147804, {	-- Wild Dreamrunner
+				i(147804, {	-- Wild Dreamrunner (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
 				------ Locked behind: Argus Eternal ------
-				i(152904, {	-- Acid Belcher
+				i(152904, {	-- Acid Belcher (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(153044, {	-- Avenging Felcrusher
+				i(153044, {	-- Avenging Felcrusher (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(153043, {	-- Blessed Felcrusher
+				i(153043, {	-- Blessed Felcrusher (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(153042, {	-- Glorious Felcrusher
+				i(153042, {	-- Glorious Felcrusher (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				}),
-				i(152816, {	-- Antoran Charhound
+				i(152816, {	-- Antoran Charhound (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
-				i(152903, {	-- Biletooth Gnasher
+				i(152903, {	-- Biletooth Gnasher (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152905, {	-- Crimson Slavermaw
+				i(152905, {	-- Crimson Slavermaw (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152843, {	-- Darkspore Mana Ray
+				i(152843, {	-- Darkspore Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152841, {	-- Felglow Mana Ray
+				i(152841, {	-- Felglow Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152844, {	-- Lambent Mana Ray
+				i(152844, {	-- Lambent Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152814, {	-- Maddened Chaosrunner
+				i(152814, {	-- Maddened Chaosrunner (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152840, {	-- Scintillating Mana Ray
+				i(152840, {	-- Scintillating Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152789, {	-- Shackled Ur'zul
+				i(152789, {	-- Shackled Ur'zul (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
 				}),
-				i(152842, {	-- Vibrant Mana Ray
+				i(152842, {	-- Vibrant Mana Ray (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
-				i(152790, {	-- Vile Fiend
+				i(152790, {	-- Vile Fiend (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
 			}),
@@ -612,6 +636,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["cost"] = {{ "c", BRONZE, 100000 }},
 					}),
 					i(143544, {	-- Skull of Corruption (TOY!)
+						["classes"] = { DEMONHUNTER },
 						["cost"] = {{ "c", BRONZE, 100000 }},
 					}),
 					------ Locked behind: Legionfall ------
@@ -819,6 +844,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 			}),
+			--n(??, { }),	-- Lindormi <Mythic Keystones>
 			n(241142, {	-- Momentus
 				["groups"] = sharedData({
 					["cost"] = {{ "c", BRONZE, 5 }},
@@ -882,6 +908,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					iensemble(253273, {	-- Scythe of the Unmaker (ENSEMBLE!)
 						["cost"] = {
 							{ "i", 253304, 20 },	-- Cosmic Soulsliver
+							{ "c", BRONZE, 30000 },
+						},
+					}),
+					i(151524, {	-- Hammer of Vigilance (COSMETIC!)
+						["cost"] = {
+							{ "i", 253305, 20 },	-- Felwarped Slab
 							{ "c", BRONZE, 30000 },
 						},
 					}),
@@ -1121,9 +1153,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					["qgs"] = {
 						241748,	-- Eternus
 						249256,	-- Pile of Chronoqueries
-					},
-					["groups"] = {
-						i(246936),	-- Resonant Epoch Memento
 					},
 				}),
 				q(90110, {	-- Infinite Research: Gather Timewarped Samples

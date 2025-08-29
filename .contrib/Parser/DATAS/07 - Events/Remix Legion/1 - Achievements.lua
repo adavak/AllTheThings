@@ -6,6 +6,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42312),	-- Artifact, Remixed
 		ach(42502),	-- Artifact, Remixed II
 		ach(42503),	-- Artifact, Remixed III
+		ach(42565),	-- Bringing Order to the Isles
+		ach(42624),	-- Broken Isles World Quests I
+		ach(42539),	-- Broken Isles World Quests II
+		ach(42570),	-- Broken Isles World Quests III
+		ach(42555),	-- Broken Isles World Quests IV
+		ach(42674),	-- Broken Isles World Quests V
+		ach(42807),	-- Cloudy With a Chance of Infernals
+		ach(42593),	-- Pillars of Creation
+		ach(42313),	-- Remixing Time
 		ach(60959),	-- Tenured in the Timeways I
 		ach(60960),	-- Tenured in the Timeways II
 		ach(60961),	-- Tenured in the Timeways III
@@ -51,6 +60,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42684, {	-- Timerunner: Warrior
 			i(253033),	-- Iron Reins of the Felscorned War Wrym (MOUNT!)
 		}),
+		ach(61337, {	-- To Fel and Back
+			iensemble(253343),	-- Ensemble: Sargerei Commander's Felscorned Regalia
+		}),
 		ach(42314),	-- Unlimited Power
 		ach(42315),	-- Unlimited Power II
 		ach(42505),	-- Unlimited Power III
@@ -70,7 +82,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(61056),	-- Heroic Broken Isles World Quests II
 		ach(61054),	-- Heroic Broken Isles World Quests III
 		ach(61070, {	-- Heroic Broken Isles World Quests IV
-			-- Appearance: Sargerei Commander's Voidscarred Regalia
+			-- Ensemble: Sargerei Commander's Voidscarred Regalia
 			i(253325),	-- Sargerei Commander's Voidscarred Spaulders
 			i(253326),	-- Sargerei Commander's Voidscarred Crown
 			i(253327),	-- Sargerei Commander's Voidscarred Hauberk

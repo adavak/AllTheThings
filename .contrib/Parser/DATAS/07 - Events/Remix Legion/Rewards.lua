@@ -7,10 +7,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		i(248247),	-- Cache of Infinite Power
 		i(237812),	-- Cache of Infinite Treasure
 
-		------ Bronze Caches ------
-		i(246814),	-- Bronze Cache
-		i(246815),	-- Lesser Bronze Cache
-		i(246812),	-- Minor Bronze Cache
+		------ Bronze Caches, ordered by quality ------
+		i(246812),	-- Minor Bronze Cache (Uncommon)
+		i(246815),	-- Lesser Bronze Cache (Rare)
+		i(246814),	-- Bronze Cache (Epic)
+		i(246813),	-- Greater Bronze Cache (Legendary)
 
 		------ Weapon Empowerement ------
 		i(245925),	-- Artifactium Sand
@@ -37,9 +38,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		------ Epic Memento ------
 		i(242502),	-- Memento of Epoch History
 		i(242508),	-- Memento of Epoch Potential
+		i(246936),	-- Resonant Epoch Memento
 
 		------ Legendary Memento ------
 		i(242516),	-- Memento of Epoch Legends
+		i(246937),	-- Perfected Epoch Memento
 
 		------ Reputation Insignias ------
 		i(253621, {	-- Champion's Insignia

@@ -24,7 +24,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			i(240691),	-- Nar'thalas Graduate's Sabatons
 		}),
 		n(REWARDS, {
-			["description"] = "These items are in the box you get when you make a new character.",
+			["description"] = "These items are equipped on your character or in the box you get when you make a new character during Legion Remix.",
 			["groups"] = {
 				i(243373),	-- Timerunner's Weaponry
 				filter(BOWS, {
@@ -47,22 +47,22 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 				filter(ONE_HANDED_SWORDS, {
-					i(243371, {	-- Timerunner's Sword (DH, DK, Mage, Monk, Paladin, Rogue, Warrior, Warlock)
+					i(243371, {	-- Timerunner's Sword
 						["classes"] = { DEMONHUNTER, DEATHKNIGHT, MAGE, MONK, PALADIN, ROGUE, WARRIOR, WARLOCK },
 					}),
 				}),
 				filter(SHIELDS, {
-					i(243367, {	-- Timerunner's Shield (Paladin, Shaman, Warrior)
+					i(243367, {	-- Timerunner's Shield
 						["classes"] = { PALADIN, SHAMAN, WARRIOR },
 					}),
 				}),
 				filter(STAVES, {
-					i(243366, {	-- Timerunner's Staff (Druid, Hunter, Mage, Monk, Priest, Shaman, Warrior, Warlock)
+					i(243366, {	-- Timerunner's Staff
 						["classes"] = { DRUID, HUNTER, MAGE, MONK, PRIEST, SHAMAN, WARRIOR, WARLOCK },
 					}),
 				}),
 				filter(TWO_HANDED_SWORDS, {
-					i(243370, {	-- Timerunner's Greatsword (DK, Paladin, Warrior)
+					i(243370, {	-- Timerunner's Greatsword
 						["classes"] = { DEATHKNIGHT, PALADIN, WARRIOR },
 					}),
 				}),

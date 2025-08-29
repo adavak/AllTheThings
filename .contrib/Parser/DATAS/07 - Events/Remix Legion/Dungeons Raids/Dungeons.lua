@@ -68,61 +68,117 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(DUNGEONS, {
 		mapped(ACHIEVEMENTS, {
 			-- Exo Note: Most of these are meta achievements but they do not have criteria shown on them yet
-			-- Any difficulty Meta
-			ach(61115),	-- Legion Dungeons: Might of the Legion
-			ach(61114),	-- Legion Dungeons: Power of the Ancients
-			ach(61113),	-- Legion Dungeons: Threats of the Isle
-			ach(42692),	-- Broken Isles Dungeoneer
-			ach(42320),	-- Legion Remix Dungeoneer
-			-- Heroic Meta
-			ach(61073),	-- Heroic Legion Remix Dungeoneer
-			-- Mythic Meta
-			ach(61074),	-- Mythic Legion Remix Dungeoneer
-			ach(42615),	-- Timeworn Keystone Apprentice
-
-			-- Normal
-			ach(60846),	-- Assault on Violet Hold
-			ach(60834),	-- Black Rook Hold
-			ach(60849),	-- Cathedral of Eternal Night
-			ach(60843),	-- Court of Stars
-			ach(60837),	-- Darkheart Thicket
-			ach(60819),	-- Eye of Azshara
-			ach(60831),	-- Halls of Valor
-			ach(60828),	-- Maw of Souls
-			ach(60825),	-- Neltharion's Lair
-			ach(60840),	-- The Arcway
-			ach(60822),	-- Vault of the Wardens
-
-			-- Heroic
-			ach(60847),	-- Heroic: Assault on Violet Hold
-			ach(60835),	-- Heroic: Black Rook Hold
-			ach(60850),	-- Heroic: Cathedral of Eternal Night
-			ach(60844),	-- Heroic: Court of Stars
-			ach(60838),	-- Heroic: Darkheart Thicket
-			ach(60820),	-- Heroic: Eye of Azshara
-			ach(60832),	-- Heroic: Halls of Valor
-			ach(60829),	-- Heroic: Maw of Souls
-			ach(60826),	-- Heroic: Neltharion's Lair
-			ach(60854),	-- Heroic: Return to Karazhan
-			ach(60852),	-- Heroic: Seat of the Triumvirate
-			ach(60841),	-- Heroic: The Arcway
-			ach(60823),	-- Heroic: Vault of the Wardens
-
-			-- Mythic
-			ach(60848),	-- Mythic: Assault on Violet Hold
-			ach(60836),	-- Mythic: Black Rook Hold
-			ach(60851),	-- Mythic: Cathedral of Eternal Night
-			ach(60845),	-- Mythic: Court of Stars
-			ach(60839),	-- Mythic: Darkheart Thicket
-			ach(60821),	-- Mythic: Eye of Azshara
-			ach(60833),	-- Mythic: Halls of Valor
-			ach(60830),	-- Mythic: Maw of Souls
-			ach(60827),	-- Mythic: Neltharion's Lair
-			ach(60855),	-- Mythic: Return to Karazhan
-			ach(60853),	-- Mythic: Seat of the Triumvirate
-			ach(60842),	-- Mythic: The Arcway
-			ach(60824),	-- Mythic: Vault of the Wardens
-
+			ach(61115, {	-- Legion Dungeons: Might of the Legion
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60846,	-- Assault of Violet Hold
+					60834,	-- Black Rook Hold
+					60822,	-- Vault of the Wardens
+				}},
+			}),
+			ach(61114, {	-- Legion Dungeons: Power of the Ancients
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60843,	-- Court of Stars
+					60819,	-- Eye of Azshara
+					60840,	-- The Arcway
+				}},
+			}),
+			ach(61113, {	-- Legion Dungeons: Threats of the Isle
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60837,	-- Darkheart Thicket
+					60831,	-- Halls of Valor
+					60828,	-- Maw of Souls
+					60825,	-- Neltharion's Lair
+				}},
+			}),
+			ach(42692, {	-- Broken Isles Dungeoneer
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60846,	-- Assault on Violet Hold
+					60834,	-- Black Rook Hold
+					60843,	-- Court of Stars
+					60837,	-- Darkheart Thicket
+					60819,	-- Eye of Azshara
+					60831,	-- Halls of Valor
+					60828,	-- Maw of Souls
+					60825,	-- Neltharion's Lair
+					60840,	-- The Arcway
+					60822,	-- Vault of the Wardens
+				}},
+			}),
+			ach(42320, {	-- Legion Remix Dungeoneer
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60846,	-- Assault on Violet Hold
+					60834,	-- Black Rook Hold
+					60849,	-- Cathedral of Eternal Night
+					60843,	-- Court of Stars
+					60837,	-- Darkheart Thicket
+					60819,	-- Eye of Azshara
+					60831,	-- Halls of Valor
+					60854,	-- Heroic: Return to Karazhan
+					60852,	-- Heroic: Seat of the Triumvirate
+					60828,	-- Maw of Souls
+					60825,	-- Neltharion's Lair
+					60840,	-- The Arcway
+					60822,	-- Vault of the Wardens
+				}},
+			}),
+			ach(61073, {	-- Heroic Legion Remix Dungeoneer
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60847,	-- Heroic: Assault on Violet Hold
+					60835,	-- Heroic: Black Rook Hold
+					60850,	-- Heroic: Cathedral of Eternal Night
+					60844,	-- Heroic: Court of Stars
+					60838,	-- Heroic: Darkheart Thicket
+					60820,	-- Heroic: Eye of Azshara
+					60832,	-- Heroic: Halls of Valor
+					60829,	-- Heroic: Maw of Souls
+					60826,	-- Heroic: Neltharion's Lair
+					60854,	-- Heroic: Return to Karazhan
+					60852,	-- Heroic: Seat of the Triumvirate
+					60841,	-- Heroic: The Arcway
+					60823,	-- Heroic: Vault of the Wardens
+				}},
+			}),
+			ach(61074, {	-- Mythic Legion Remix Dungeoneer
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					60848,	-- Mythic: Assault on Violet Hold
+					60836,	-- Mythic: Black Rook Hold
+					60851,	-- Mythic: Cathedral of Eternal Night
+					60845,	-- Mythic: Court of Stars
+					60839,	-- Mythic: Darkheart Thicket
+					60821,	-- Mythic: Eye of Azshara
+					60833,	-- Mythic: Halls of Valor
+					60830,	-- Mythic: Maw of Souls
+					60827,	-- Mythic: Neltharion's Lair
+					60855,	-- Mythic: Return to Karazhan
+					60853,	-- Mythic: Seat of the Triumvirate
+					60842,	-- Mythic: The Arcway
+					60824,	-- Mythic: Vault of the Wardens
+				}},
+			}),
+			ach(42615),	-- Timeworn Keystone Apprentice (L2)
+			ach(42688),	-- Timeworn Keystone Adept (L7)
+			ach(42689),	-- Timeworn Keystone Master (L15)
+			ach(42690, {	-- Timeworn Keystone Hero (L25)
+				-- Ensemble: Sargerei Commander's Hellforged Regalia
+				i(253333),	-- Sargerei Commander's Hellforged Spaulders
+				i(253334),	-- Sargerei Commander's Hellforged Crown
+				i(253335),	-- Sargerei Commander's Hellforged Hauberk
+				i(253336),	-- Sargerei Commander's Hellforged Buckle
+				i(253337),	-- Sargerei Commander's Hellforged Chausses
+				i(253338),	-- Sargerei Commander's Hellforged Sabatons
+				i(253339),	-- Sargerei Commander's Hellforged Gauntlets
+				i(253340),	-- Sargerei Commander's Hellforged Mantle
+			}),
+			ach(42691, {	-- Timeworn Keystone Hero (L30)
+				title(658),	-- %s the Infernal (TITLE!)
+			}),
 		}),
 		d(DIFFICULTY.DUNGEON.NORMAL, {
 			mapped(ARMOR, {

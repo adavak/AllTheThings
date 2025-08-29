@@ -233,15 +233,11 @@ root(ROOTS.Unsorted, {
 			i(241589),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
-			i(241596),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
-			i(241599),	-- Ensemble: Chains of the Chosen Dead
 			i(241600),	-- Ensemble: Chains of the Chosen Dead
 			i(241602),	-- Ensemble: Chains of the Chosen Dead
-			i(241603),	-- Ensemble: Garb of the Chosen Dead
 			i(241605),	-- Ensemble: Garb of the Chosen Dead
 			i(241606),	-- Ensemble: Garb of the Chosen Dead
-			i(241608),	-- Ensemble: Regalia of the Chosen Dead
 			i(241609),	-- Ensemble: Regalia of the Chosen Dead
 			i(241610),	-- Ensemble: Regalia of the Chosen Dead
 			i(241644),	-- Corrupted Runelord's Band
@@ -262,7 +258,6 @@ root(ROOTS.Unsorted, {
 			i(241807),	-- [PH] Template
 			i(241808),	-- [PH] Template
 			i(242369),	-- The First Satyr's Spaulders
-			i(242370),	-- Horns of the First Satyr
 			i(242476),	-- Taah'bat's Desert Carbine
 			i(242572),	-- Tome of the Silver Hand
 			i(242590),	-- Strom'kar, the Warbreaker
@@ -325,9 +320,7 @@ root(ROOTS.Unsorted, {
 			i(246238),	-- [DNT] Affix Token
 			i(246789),	-- Cache of Infinite Power
 			i(246796),	-- Epic Cache of Infinite Power
-			i(246813),	-- Greater Bronze Cache
 			i(246889),	-- Orb of Synchronized Power
-			i(246937),	-- Perfected Epoch Memento
 			i(246990),	-- Infernal's Azure Staff
 			i(246991),	-- Sinister Felstaff
 			i(246994),	-- Infernal's Hellfire Staff
@@ -865,56 +858,11 @@ root(ROOTS.Unsorted, {
 			i(253158),	-- Loyal Watchman's Cuirass
 			i(253159),	-- Loyal Watchman's Spaulders
 			i(253160),	-- Loyal Watchman's Helm
-			i(253200),	-- Felscorned Scythe of the Unmaker
-			i(253201),	-- Felscorned Scythe of the Unmaker
-			i(253219),	-- Bulwark of Mannoroth
-			i(253220),	-- Bulwark of Mannoroth
-			i(253221),	-- Bulwark of Mannoroth
 			i(253222),	-- Corrupted Thorn of the Dream
 			i(253223),	-- Fractal Felshard
 			i(253224),	-- Mote of the Unmaker's Heart
 			i(253227),	-- Flawless Thread of Time
-			i(253228),	-- Felscorned Shalla'tor
-			i(253229),	-- Felscorned Ellemayne
-			i(253230),	-- Felscorned Shallamayne
-			i(253231),	-- Fallen King's Corrupted Blades
-			i(253285),	-- Felscorned Scythe of the Unmaker
 			i(253286),	-- Scythe of the Unmaker
-			i(253304),	-- Cosmic Soulsliver
-			i(253305),	-- Felwarped Slab
-			i(253306),	-- Everflame of Hatred
-			i(253308),	-- Sargerei Commander's Felscorned Spaulders
-			i(253309),	-- Sargerei Commander's Felscorned Crown
-			i(253310),	-- Sargerei Commander's Felscorned Hauberk
-			i(253311),	-- Sargerei Commander's Felscorned Buckle
-			i(253312),	-- Sargerei Commander's Felscorned Chausses
-			i(253313),	-- Sargerei Commander's Felscorned Sabatons
-			i(253314),	-- Sargerei Commander's Felscorned Gauntlets
-			i(253315),	-- Sargerei Commander's Felscorned Mantle
-			i(253317),	-- Sargerei Commander's Lightbound Spaulders
-			i(253318),	-- Sargerei Commander's Lightbound Crown
-			i(253319),	-- Sargerei Commander's Lightbound Hauberk
-			i(253320),	-- Sargerei Commander's Lightbound Buckle
-			i(253321),	-- Sargerei Commander's Lightbound Chausses
-			i(253322),	-- Sargerei Commander's Lightbound Sabatons
-			i(253323),	-- Sargerei Commander's Lightbound Gauntlets
-			i(253324),	-- Sargerei Commander's Lightbound Mantle
-			i(253333),	-- Sargerei Commander's Hellforged Spaulders
-			i(253334),	-- Sargerei Commander's Hellforged Crown
-			i(253335),	-- Sargerei Commander's Hellforged Hauberk
-			i(253336),	-- Sargerei Commander's Hellforged Buckle
-			i(253337),	-- Sargerei Commander's Hellforged Chausses
-			i(253338),	-- Sargerei Commander's Hellforged Sabatons
-			i(253339),	-- Sargerei Commander's Hellforged Gauntlets
-			i(253340),	-- Sargerei Commander's Hellforged Mantle
-			i(253343),	-- Ensemble: Sargerei Commander's Felscorned Regalia
-			i(253344),	-- Kaldorei Queen's Sarong
-			i(253345),	-- Kaldorei Queen's Crown
-			i(253346),	-- Kaldorei Queen's Robe
-			i(253347),	-- Kaldorei Queen's Sash
-			i(253348),	-- Kaldorei Queen's Anklets
-			i(253349),	-- Kaldorei Queen's Bangles
-			i(253353),	-- Illusion: Felshatter
 			i(253357),	-- Felscorned Arsenal
 			i(253520),	-- Enclave Aspirant's Hatchet
 			i(253573),	-- Cerulean Phase-Hunter
@@ -937,7 +885,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(BATTLE_PETS, {
 				i(246337),	-- Rustyroot Fel Snooter
-				i(246339),	-- Duskytooth Fel Snooter
 				i(246342),	-- Mustyfur Fel Snooter
 				i(246343),	-- Scruffyhorn Fel Snooter
 				i(246723),	-- Unfazed Diver

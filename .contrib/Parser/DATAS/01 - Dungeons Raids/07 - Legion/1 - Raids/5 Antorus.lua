@@ -1575,7 +1575,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(49364),	-- Argus Mythic - first kill
 			q(49717),	-- Argus Mythic - first kill
 			q(49771),	-- Argus Mythic - first kill?
-			q(49718),	-- Argus - first kill - received "Khaz'goroth's Courage" (itemID 154176 / "Aggramar's Conviction" (itemID 154173)
+			q(49718),	-- Argus - first kill - received "Khaz'goroth's Courage" (itemID 154176 / "Aggramar's Conviction" (itemID 154173))
 			q(49362),	-- full raid cleared
 			q(48570),	-- Tracking Quest - triggers when the door opens to Kin'garoth
 		}),

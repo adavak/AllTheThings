@@ -1575,8 +1575,9 @@ localize(L.HEADER_NAMES, {
 	[-651] = "Final Wave Boss",
 	[-652] = "Zandalari Incursions",
 	[-654] = "Harvesting",
-	[-656] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-657] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-656] = "Brawler's Guild",
+	[-657] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-658] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -2233,6 +2234,7 @@ localize(L.HEADER_ICONS, {
 	[-651] = 135771,
 	[-652] = 838687,
 	[-654] = 134427,
+	[-656] = 132356,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -11038,6 +11040,7 @@ local ObjectNames = {
 	[504669] = "Mouthwash Bottle",
 	[504670] = "Leftover Food",
 	[505248] = "Rune Dispenser",
+	[505258] = "Pestilential Necroray",
 	[505260] = "Potion of Truth",
 	[505476] = "Stone Carver's Scramseax",
 	[505503] = "Ashvane Issued Workboots",
@@ -11051,6 +11054,10 @@ local ObjectNames = {
 	[506696] = "Buried Treasure",
 	[507058] = "Northeast Barrier Projector",
 	[507120] = "Ducky Friend",
+	[507176] = "Crate of Food",
+	[507178] = "Bowl of Succulents",
+	[507219] = "Slab of Meat",
+	[507220] = "Chopped Plants",
 	[507221] = "Sturdy Chest",
 	[507226] = "Sturdy Chest",
 	[507227] = "Sturdy Chest",
@@ -18394,6 +18401,7 @@ local ObjectModels = {
 	[504191] = 337607,
 	[504195] = 5364090,
 	[505248] = 5933735,
+	[505258] = 1570694,
 	[505260] = 892744,
 	[505503] = 3718225,
 	[505504] = 979399,
@@ -18404,6 +18412,10 @@ local ObjectModels = {
 	[506525] = 5689833,
 	[506696] = 1804876,
 	[507120] = 4690953,
+	[507176] = 3450703,
+	[507178] = 3870815,
+	[507219] = 4254401,
+	[507220] = 3870813,
 	[507221] = 5128194,
 	[507226] = 5128194,
 	[507227] = 5128194,
@@ -21251,7 +21263,7 @@ L.QUEST_NAMES = {
 	[50185] = "Green Crystal Monocle",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-657],
+	[52819] = _.L.HEADER_NAMES[-658],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -22751,8 +22763,8 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Saisonfisch: Winterkalmar",
 	[-591] = "Wanderfest",
 	[-654] = "Abbauen",
-	[-656] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-657] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-657] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-658] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -29187,8 +29199,8 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Poisson de saison : calmar d'hiver",
 	[-591] = "Festival de l’explorateur",
 	[-654] = "Récolte",
-	[-656] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-657] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-657] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-658] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -35234,8 +35246,8 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Pesce di stagione: calamari invernali",
 	[-591] = "Festa del Nomade",
 	[-654] = "Raccolta",
-	[-656] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-657] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-657] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-658] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -40850,8 +40862,8 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Peixe sazonal: Lula de Inverno",
 	[-591] = "Festival do Andarilho",
 	[-654] = "Colhendo",
-	[-656] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-657] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-657] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-658] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -47481,8 +47493,8 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Сезонная рыба: зимний кальмар",
 	[-591] = "Фестиваль странника",
 	[-654] = "Сбор",
-	[-656] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-657] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-657] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-658] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -53603,8 +53615,8 @@ localize(L.HEADER_NAMES, {
 	[-587] = "제철 생선: 겨울 오징어",
 	[-591] = "유랑객의 축제",
 	[-654] = "채취",
-	[-656] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-657] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-657] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-658] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -59943,8 +59955,8 @@ localize(L.HEADER_NAMES, {
 	[-591] = "Festival del Errante",
 	[-652] = "Incursiones zandalari",
 	[-654] = "Cosecha",
-	[-656] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-657] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-657] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-658] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -66072,7 +66084,7 @@ localize(L.HEADER_NAMES, {
 	[-567] = "Copa de Cielonáutica",
 	[-591] = "Festival del errante",
 	[-654] = "Cosechando",
-	[-657] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-658] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -66239,12 +66251,17 @@ localize(ObjectNames, {
 	[504338] = "Teletransportador de azotea",
 	[504670] = "Sobras de comida",
 	[505248] = "Expendedor de runas",
+	[505258] = "Necrorraya pestífero",
 	[505503] = "Botas de trabajo de calidad Aspafresno",
 	[505504] = "Hachuela de leñador kultirano",
 	[505505] = "Pico de minería de hierro",
 	[505510] = "Cofre incrustado de percebe",
 	[506525] = "Artefactos saqueados",
 	[507120] = "Patito amigo",
+	[507176] = "Cajón de comida",
+	[507178] = "Cuenco de suculentas",
+	[507219] = "Porción de carne",
+	[507220] = "Plantas cortadas",
 	[507768] = "Montón de monedas goblin desechadas",
 	[508377] = "Caja de seguridad de Renzik",
 	[508718] = "Teletransportador de azotea",
@@ -67301,8 +67318,8 @@ localize(L.HEADER_NAMES, {
 	[-591] = "云游节",
 	[-652] = "赞达拉入侵",
 	[-654] = "收获",
-	[-656] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-657] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-657] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-658] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
