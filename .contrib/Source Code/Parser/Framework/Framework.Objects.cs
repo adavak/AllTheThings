@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace ATT
 {
@@ -1057,23 +1058,67 @@ namespace ATT
                 var categoryFolder = Path.Combine(directory, "Categories");
                 if (Directory.Exists(categoryFolder)) Directory.Delete(categoryFolder, true);
                 Directory.CreateDirectory(categoryFolder);
+
+                // Add the XML tags
                 foreach (var containerPair in AllContainerClones)
                 {
                     if (containerPair.Value.Count > 0)
                     {
                         builder.AppendLine().Append("\t<Script file=\"Categories/").Append(containerPair.Key).Append(".lua\"/>");
-
-                        // Build the category file.
-                        var filename = Path.Combine(categoryFolder, $"{containerPair.Key}.lua");
-                        var content = ATT.Export.ExportCompressedLuaCategory(containerPair.Key, containerPair.Value).ToString();
-                        if (!string.IsNullOrEmpty(DATA_REQUIREMENTS)) content = $"if not ({DATA_REQUIREMENTS}) then return; end \n{content}";
-                        WriteIfDifferent(filename, content);
                     }
                 }
 
                 // Now write the Categories xml document.
                 builder.AppendLine().AppendLine("</Ui>");
                 WriteIfDifferent(Path.Combine(directory, "Categories.xml"), builder.ToString());
+
+                // Build all categories
+                Dictionary<string, Exporter> categoryBuilders = new Dictionary<string, Exporter>(AllContainerClones.Count);
+                AllContainerClones.AsParallel().ForAll((containerPair) =>
+                {
+                    if (containerPair.Value.Count > 0)
+                    {
+                        // Build the category file.
+                        categoryBuilders[containerPair.Key] = ATT.Export.ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
+                    }
+                });
+
+                // Simplify the structure of each Category builder
+                if (!((string[])Config["PreProcessorTags"]).Contains("NOSIMPLIFY"))
+                {
+                    var categoriesByLength = categoryBuilders.OrderByDescending(b => b.Value.Length).ToList();
+                    var simplifyConfig = Config["SimplifyStructures"];
+                    Action<Exporter> simplifyFunc;
+                    if (simplifyConfig.Defined)
+                    {
+                        int[] simplify = simplifyConfig;
+                        simplifyFunc = (s) => { ATT.Export.SimplifyStructureForLua(s, simplify[0], simplify[1]); };
+                    }
+                    else
+                    {
+                        simplifyFunc = (s) => { ATT.Export.SimplifyStructureForLua(s); };
+                    }
+
+                    // Perform replacements on all small StringBuilders in parallel tasks
+                    // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
+                    Task[] replacementTasks = new Task[categoriesByLength.Count];
+                    for (int i = 0; i < categoriesByLength.Count; i++)
+                    {
+                        var s = categoriesByLength[i];
+                        //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
+                        replacementTasks[i] = Task.Run(() => simplifyFunc(s.Value));
+                    }
+                    Task.WaitAll(replacementTasks);
+                }
+
+                // Write the Category file for each builder
+                categoryBuilders.AsParallel().ForAll((containerPair) =>
+                {
+                    var filename = Path.Combine(categoryFolder, $"{containerPair.Key}.lua");
+                    var content = containerPair.Value.ToString();
+                    if (!string.IsNullOrEmpty(DATA_REQUIREMENTS)) content = $"if not ({DATA_REQUIREMENTS}) then return; end \n{content}";
+                    WriteIfDifferent(filename, content);
+                });
             }
 
             public static void ExportAutoLocale(string filename)
