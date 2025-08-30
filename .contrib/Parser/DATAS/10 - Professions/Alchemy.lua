@@ -507,6 +507,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN},
 			["maps"] = { 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, },	-- The Emerald Nightmare
+			["groups"] = { i(136820) },	-- Nythendra's Heart (QI!)
 		}),
 		q(42081, {	-- In With the New
 			["sourceQuests"] = { 39351 },	-- The Emerald Nightmare: Rage Fire
