@@ -1830,6 +1830,7 @@ end");
                     case "sourceAchievements":
                     case "sourceQuests":
                     case "altQuests":
+                    case "nextQuests":
                     case "races":
                     case "races_disp":
                     case "maps":

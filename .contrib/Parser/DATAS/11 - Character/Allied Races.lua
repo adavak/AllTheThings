@@ -164,7 +164,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			visit_exploration(15379,{coord={49.6,49.5,2322}}),	-- Procedural Forum
 			visit_exploration(15378,{coord={30.2,49.4,2322}}),	-- Bulwark of Authorization
 		}),
-		n(QEUSTS, {
+		n(QUESTS, {
 			q(79200, {	-- Who am I?
 				--["sourceQuests"] = { xx },	-- probably some hqt or something like from adventure mode (if they didn't change requirement?)
 				["provider"] = { "n", 221839 },	-- Dawn
