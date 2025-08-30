@@ -1465,9 +1465,6 @@ root(ROOTS.Unsorted, {
 				exploration(14834),	-- <Unnamed POI 018>
 				exploration(14835),	-- <Unnamed POI 019>
 				exploration(14836),	-- <Unnamed POI 020>
-				exploration(15169),	-- Shadowvein Power Station
-				exploration(15170),	-- Shadowvein Mine
-				exploration(15171),	-- Deepforge Manufacturing Bay
 
 				-- Zone: Hallowfall
 				exploration(14838),	-- Hallowfall
