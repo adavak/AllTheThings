@@ -29,6 +29,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 		["timeline"] = { ADDED_11_2_0 },
 		["maps"] = { 2449 },	-- Eco-Dome Al'dani
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(16422),	-- Al'dani Sands
+				instance_exploration(16419),	-- Breached Dome
+				instance_exploration(16420),	-- Devastated Annex
+				instance_exploration(16104),	-- Eco-Dome Al'dani
+				instance_exploration(16569),	-- Temple of the Untamed
+				instance_exploration(16421),	-- Warcamp Al'den
+			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(AZHICCAR, {
 					i(242468),	-- Al'dani Attendant's Gauze

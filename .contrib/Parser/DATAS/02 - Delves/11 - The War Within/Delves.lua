@@ -202,6 +202,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235614),	-- Golden-Gob Propulsion Rig
 					}),
 				})),
+				n(EXPLORATION, {
+					instance_exploration(15991),	-- Demolition Dome
+				}),
 				hqt(86407, {
 					["name"] = "Received Item from Underpin (Delve)",
 					["providers"] = {
@@ -262,6 +265,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					ach(42194, {	-- Pruning the Princess
 						title(639),	-- Contract Killer %s
 					}),
+				}),
+				n(EXPLORATION, {
+					instance_exploration(16539),	-- Voidrazor Sanctuary
 				}),
 			},
 		})),
@@ -3029,6 +3035,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(106404),	-- Waygate Wiles
 				}),
 			}),
+			n(EXPLORATION, {
+				instance_exploration(16427),	-- Archival Assault
+			}),
 			filter(MISC, {
 				-- Story Variant: Relic Retrieval
 				i(244859),	-- Armoire of Invincibility
@@ -3170,6 +3179,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(211801),	-- Poisonous Shroom Cap
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				instance_exploration(15836),	-- Excavation Site 9
 			}),
 			n(TREASURES, {
 				o(503011, {	-- Sturdy Chest
@@ -3528,6 +3540,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212167),	-- Taken Candle
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				instance_exploration(15990),	-- Sidestreet Sluice
 			}),
 			filter(MISC, {
 				i(244901, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Statically Charged (CI!)

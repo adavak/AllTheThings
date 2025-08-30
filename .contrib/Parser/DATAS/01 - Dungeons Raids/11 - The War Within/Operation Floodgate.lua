@@ -9,7 +9,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			2388,	-- The G.R.I.D
 		},
 		["groups"] = {
-			n(QUESTS, {
+			n(EXPLORATION, {
+				instance_exploration(15452),	-- Operation: Floodgate
+				instance_exploration(15710),	-- The Waterworks
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				e(2648, {	-- Big M.O.M.M.A.

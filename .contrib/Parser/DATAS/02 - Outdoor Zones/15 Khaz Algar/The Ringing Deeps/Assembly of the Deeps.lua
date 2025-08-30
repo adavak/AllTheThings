@@ -56,6 +56,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								title(568),	-- <Name>, Machine-Warden
 							}),
 						}),
+						n(EXPLORATION, {
+							instance_exploration(15133),	-- Awakening The Machine
+						}),
 						n(QUESTS, {
 							q(83333, {	-- Gearing Up for Trouble
 								["providers"] = {

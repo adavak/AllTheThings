@@ -6,6 +6,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["coord"] = { 59.6, 21.6, THE_RINGING_DEEPS },
 		["maps"] = { 2303 },	-- Darkflame Cleft
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(14882),	-- Darkflame Cleft
+				instance_exploration(15022),	-- Hall of the Candle King
+				instance_exploration(15019),	-- Hewn Passage
+				instance_exploration(15023),	-- Lightless Depths
+				instance_exploration(15020),	-- Sprawling Trackyard
+				instance_exploration(15021),	-- The Waxatory
+			}),
 			n(QUESTS, {
 				q(83154, {	-- Knicknack's Knickknacks
 					--["sourceQuests"] = { x },	-- ?

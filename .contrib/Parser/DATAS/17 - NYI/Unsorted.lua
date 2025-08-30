@@ -1047,27 +1047,6 @@ root(ROOTS.Unsorted, {
 				i(248397),	-- Bronzbeard's Ritualistic Mantle
 			}),
 			n(EXPLORATION, {
-				-- Raid: Manaforge Omega
-				exploration(16178),	-- Manaforge Omega
-				exploration(16339),	-- The Dark Heart
-				exploration(16358),	-- The Forge Core
-				exploration(16571),	-- Wastes of K'aresh
-				exploration(16572),	-- The Glassed Expanse
-
-				-- Dungeon: Eco-Dome Al'dani
-				exploration(16104),	-- Eco-Dome Al'dani
-				exploration(16419),	-- Breached Dome
-				exploration(16420),	-- Devastated Annex
-				exploration(16421),	-- Warcamp Al'den
-				exploration(16422),	-- Al'dani Sands
-				exploration(16569),	-- Temple of the Untamed
-
-				-- Delve: Voidrazor Sanctuary
-				exploration(16539),	-- Voidrazor Sanctuary
-
-				-- Delve: Archival Assault
-				exploration(16427),	-- Archival Assault
-
 				-- Zone: K'aresh
 				exploration(15336),	-- K'aresh
 
@@ -1320,14 +1299,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 			n(EXPLORATION, {
-				-- Event: Horrific Visions
-				exploration(15942),	-- Vision of Stormwind
-				exploration(15946),	-- Vision of Orgrimmar
-
-				-- Event: Dastardly Duos
-				exploration(16092),	-- Dastardly Duos
-				exploration(16093),	-- Undermine
-
 				-- NYI?
 				exploration(16077),	-- Dornogal Test
 			}),
@@ -1339,53 +1310,6 @@ root(ROOTS.Unsorted, {
 				i(238243),	-- Hidden Boots
 			}),
 			n(EXPLORATION, {
-				-- Raid: Liberation of Undermine
-				exploration(15522),	-- Liberation of Undermine
-				exploration(15644),	-- Plunder Party
-				exploration(15645),	-- Pleasant Heights
-				exploration(15646),	-- The Incontinental Hotel
-				exploration(15647),	-- The Heaps
-				exploration(15648),	-- The Vatworks
-				exploration(15649),	-- Shipping and Handling
-				exploration(15650),	-- Steamwheedle Laboratories
-				exploration(15651),	-- Castaway Cove
-				exploration(15652),	-- Demolition Dome
-				exploration(15653),	-- Hovel Hill
-				exploration(15654),	-- Bilgewater Flats
-				exploration(15655),	-- The Incontinental Lobby
-				exploration(15656),	-- Public Parking
-				exploration(15657),	-- Port Authority
-				exploration(15658),	-- Emerald Hills Golf Course
-				exploration(15659),	-- The Scrapshop
-				exploration(15660),	-- Blackwater Marina
-				exploration(15661),	-- The Hoardroom
-				exploration(15662),	-- Tailgate Park
-				exploration(15663),	-- Venture Plaza
-				exploration(15664),	-- Slam Central Station
-				exploration(15665),	-- The Gallagio
-				exploration(15838),	-- Research and Destruction
-				exploration(15839),	-- The House of Chrome
-				exploration(16106),	-- Venturewood
-				exploration(16145),	-- The Heartbreak Room
-				exploration(16146),	-- The Tower of Spades
-				exploration(16174),	-- The High Roller Suite
-				exploration(16175),	-- The Shooting Gallery
-				exploration(16176),	-- The Midnight Lounge
-				exploration(16177),	-- The Golden Cabana
-
-				-- Dungeon: Operation: Floodgate
-				exploration(15452),	-- Operation: Floodgate
-				exploration(15710),	-- The Waterworks
-
-				-- Delve: Demolition Dome
-				exploration(15991),	-- Demolition Dome
-
-				-- Delve: Excavation Site 9
-				exploration(15836),	-- Excavation Site 9
-
-				-- Delve: Sidestreet Sluice
-				exploration(15990),	-- Sidestreet Sluice
-
 				-- PvP Arena:
 				exploration(15332),	-- Cage of Carnage
 
@@ -1469,7 +1393,6 @@ root(ROOTS.Unsorted, {
 				-- Zone: Hallowfall
 				exploration(14838),	-- Hallowfall
 				exploration(14920),	-- The Basin
-				exploration(15140),	-- Gloomcrag Bower
 				exploration(15552),	-- The Undersea
 
 				-- Zone: Azj-Kahet
@@ -1483,10 +1406,6 @@ root(ROOTS.Unsorted, {
 				-- Zone: Hall of Awakening [Earthen]
 				exploration(14665),	-- Khaz Algar
 				exploration(15342),	-- Hall of Awakening
-				exploration(15377),	-- Analysis Interface
-				exploration(15378),	-- Bulwark of Authorization
-				exploration(15379),	-- Procedural Forum
-				exploration(15380),	-- Awakening Machine
 
 				-- Scenario: Dalaran
 				exploration(15177),	-- Dalaran
@@ -1508,78 +1427,6 @@ root(ROOTS.Unsorted, {
 				exploration(15142),	-- Firewall of Negation
 				exploration(15143),	-- Processing Unit
 				exploration(15144),	-- Annihilation Interface
-
-				-- Event: Awakening the Machine
-				exploration(15133),	-- Awakening The Machine
-
-				-- Raid: Nerub-ar Palace
-				exploration(14980),	-- Nerub-ar Palace
-				exploration(15362),	-- Nerub-ar Gatehouse
-				exploration(15363),	-- Grand Rampart
-				exploration(15364),	-- The Pulsing Pit
-				exploration(15365),	-- The Congealing Pool
-				exploration(15366),	-- The Ascending Reach
-				exploration(15367),	-- Terrace of Majesty
-				exploration(15368),	-- Kili-zar Arena
-				exploration(15369),	-- The Swaying Span
-				exploration(15370),	-- The Narthex
-				exploration(15371),	-- Skittering Cavern
-				exploration(15372),	-- Brood Pens
-				exploration(15373),	-- Gossamer Gallery
-				exploration(15374),	-- Hall of Whispers
-				exploration(15375),	-- Silken Court
-				exploration(15376),	-- Crown of Shadows
-
-				-- Dungeon: Cinderbrew Meadery
-				exploration(15103),	-- Cinderbrew Meadery
-				exploration(15338),	-- The Flaming Taps
-				exploration(15339),	-- The Stills
-				exploration(15340),	-- The Buzz Barns
-				exploration(15341),	-- The BEE.E.O. Suite
-
-				-- Dungeon: The Rookery
-				exploration(14938),	-- The Rookery
-				exploration(15328),	-- The Rookery Landing
-
-				-- Dungeon: The Stonevault
-				exploration(14883),	-- The Stonevault
-
-				-- Dungeon: Darkflame Cleft
-				exploration(14882),	-- Darkflame Cleft
-				exploration(15019),	-- Hewn Passage
-				exploration(15020),	-- Sprawling Trackyard
-				exploration(15021),	-- The Waxatory
-				exploration(15022),	-- Hall of the Candle King
-				exploration(15023),	-- Lightless Depths
-
-				-- Dungeon: The Dawnbreaker
-				exploration(14971),	-- Hallowfall
-				exploration(15544),	-- Tenir's Ascent
-				exploration(15545),	-- Mereldar
-				exploration(15546),	-- Veneration Grounds
-				exploration(15547),	-- Beledar's Bounty
-				exploration(15548),	-- The Hungering Pool
-				exploration(15549),	-- Dayspring Fields
-				exploration(15550),	-- Stagnant Mire
-				exploration(15551),	-- The Fangs
-				exploration(15786),	-- Hallowfall
-
-				-- Dungeon: Priory of the Sacred Flame
-				exploration(14954),	-- Priory of the Sacred Flame
-				exploration(15055),	-- zzoldPriory of the Sacred Flame
-				exploration(15460),	-- Sanctified Grounds
-
-				-- Dungeon: City of Threads
-				exploration(14979),	-- City of Threads
-				exploration(15111),	-- Umbral Bazaar
-				exploration(15112),	-- High Hollows
-				exploration(15113),	-- The Transformatory
-
-				-- Dungeon: Ara-Kara, City of Echoes
-				exploration(15093),	-- Ara-Kara, City of Echoes
-				exploration(15154),	-- The Shredded Strands
-				exploration(15155),	-- Echoing Overlook
-				exploration(15156),	-- The Undercache
 
 				-- Delves: All
 				exploration(14957),	-- Fungal Folly
@@ -1632,6 +1479,7 @@ root(ROOTS.Unsorted, {
 				exploration(15180),	-- 11.0 warband camp
 				exploration(15108),	-- Dev Map - Exile's Reach - Tower
 				exploration(15343),	-- KVigue Test
+				exploration(15055),	-- zzoldPriory of the Sacred Flame
 			}),
 			-- Have QuestID attached
 			i(228947),	-- Weaver's Lair Profession Table

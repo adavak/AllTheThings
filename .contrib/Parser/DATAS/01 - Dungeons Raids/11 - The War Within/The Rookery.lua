@@ -13,6 +13,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			2320,	-- Abandoned Mines
 		},
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(14938),	-- The Rookery
+				instance_exploration(15328),	-- The Rookery Landing
+			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				e(2566, {	-- Kyrioss
 					["crs"] = { 209230 },	-- Kyrioss

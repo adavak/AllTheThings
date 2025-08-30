@@ -396,6 +396,24 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				ach(40256),	-- Nerub-ar Palace Guild Run
 				ach(40257),	-- Heroic: Nerub-ar Palace Guild Run
 			}),
+			n(EXPLORATION, {
+				instance_exploration(15372), -- Brood Pens
+				instance_exploration(15376), -- Crown of Shadows
+				instance_exploration(15373), -- Gossamer Gallery
+				instance_exploration(15363), -- Grand Rampart
+				instance_exploration(15374), -- Hall of Whispers
+				instance_exploration(15368), -- Kili-zar Arena
+				instance_exploration(14980), -- Nerub-ar Palace
+				instance_exploration(15362), -- Nerub-ar Gatehouse
+				instance_exploration(15375), -- Silken Court
+				instance_exploration(15371), -- Skittering Cavern
+				instance_exploration(15367), -- Terrace of Majesty
+				instance_exploration(15366), -- The Ascending Reach
+				instance_exploration(15365), -- The Congealing Pool
+				instance_exploration(15370), -- The Narthex
+				instance_exploration(15364), -- The Pulsing Pit
+				instance_exploration(15369), -- The Swaying Span
+			}),
 			n(FLIGHT_PATHS, sharedData({
 				["collectible"] = false,	-- these are not collectible since they change/reset with difficulty-based lockout and progress
 			},{

@@ -9,6 +9,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			2344,	-- The Transformatory
 		},
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(14979),	-- City of Threads
+				instance_exploration(15112),	-- High Hollows
+				instance_exploration(15113),	-- The Transformatory
+				instance_exploration(15111),	-- Umbral Bazaar
+			}),
 			n(QUESTS, {
 				q(83164, {	-- City of Threads: Splice the Splicer
 					["provider"] = { "n", 224733 },	-- Tulumun

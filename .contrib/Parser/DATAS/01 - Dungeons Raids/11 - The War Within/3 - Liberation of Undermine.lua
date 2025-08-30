@@ -402,6 +402,40 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				ach(41289),	-- Liberation of Undermine Guild Run
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
 			}),
+			n(EXPLORATION, {
+				instance_exploration(15654), -- Bilgewater Flats
+				instance_exploration(15660), -- Blackwater Marina
+				instance_exploration(15651), -- Castaway Cove
+				instance_exploration(15652), -- Demolition Dome
+				instance_exploration(15658), -- Emerald Hills Golf Course
+				instance_exploration(15653), -- Hovel Hill
+				instance_exploration(15522), -- Liberation of Undermine
+				instance_exploration(15645), -- Pleasant Heights
+				instance_exploration(15644), -- Plunder Party
+				instance_exploration(15657), -- Port Authority
+				instance_exploration(15656), -- Public Parking
+				instance_exploration(15838), -- Research and Destruction
+				instance_exploration(15649), -- Shipping and Handling
+				instance_exploration(15664), -- Slam Central Station
+				instance_exploration(15650), -- Steamwheedle Laboratories
+				instance_exploration(15662), -- Tailgate Park
+				instance_exploration(15665), -- The Gallagio
+				instance_exploration(16177), -- The Golden Cabana
+				instance_exploration(15647), -- The Heaps
+				instance_exploration(16145), -- The Heartbreak Room
+				instance_exploration(16174), -- The High Roller Suite
+				instance_exploration(15661), -- The Hoardroom
+				instance_exploration(15839), -- The House of Chrome
+				instance_exploration(15646), -- The Incontinental Hotel
+				instance_exploration(15655), -- The Incontinental Lobby
+				instance_exploration(16176), -- The Midnight Lounge
+				instance_exploration(15659), -- The Scrapshop
+				instance_exploration(16175), -- The Shooting Gallery
+				instance_exploration(16146), -- The Tower of Spades
+				instance_exploration(15648), -- The Vatworks
+				instance_exploration(15663), -- Venture Plaza
+				instance_exploration(16106), -- Venturewood
+			}),
 			header(HEADERS.Faction, FACTION_GALLAGIO, {	-- Gallagio Loyalty Rewards Club
 				n(ACHIEVEMENTS, {
 					ach(60939, {["timeline"] = { ADDED_11_2_0 }}),	-- Bringing Down the House
