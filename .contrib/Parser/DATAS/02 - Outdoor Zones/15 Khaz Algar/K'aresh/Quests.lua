@@ -549,7 +549,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(238390) },	-- Soulbreaker's Sigil
 					}),
 					q(84898, {	-- The Sands of K'aresh
-						["sourceQuests"] = { 84896 },	-- The Next Dimension
+						["sourceQuests"] = { 84897 },	-- The Calm Before we Storm
 						["qg"] = 231443,	-- Soul-Scribe
 						["coord"] = { 60.7, 28.0, KARESH },
 						["groups"] = {
@@ -644,6 +644,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(86456, {	-- An Elegy for a Silent World
 						["provider"] = { "i", 234273 },	-- A Dimmed Crystal
+						["sourceQuests"] = { 85037 },	-- That's a Wrap
 					}),
 					------ Stay awhile and listen ------
 					hqt(90753, {	-- Stay awhile and listen: Alleria Windrunner
