@@ -7,7 +7,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["maps"] = { 2341 },	-- The Stonevault
 		["groups"] = {
 			n(EXPLORATION, {
-				exploration(14883),	-- The Stonevault
+				instance_exploration(14883),	-- The Stonevault
 			}),
 			n(QUESTS, {
 				q(83108, {	-- Daily Diagnostics
@@ -90,4 +90,3 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		},
 	})
 })));
---]]
