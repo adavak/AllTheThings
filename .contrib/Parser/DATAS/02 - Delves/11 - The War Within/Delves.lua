@@ -3996,7 +3996,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	n(DELVES, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-		n(BOUNTIFUL, {	-- Bountiful Delve runs
+		n(BOUNTIFUL, sharedData({
+			["isDaily"] = true,
+		},{	-- Bountiful Delve runs
 			q(82944),	-- Earthcrawl Mines
 			q(85187, { ["timeline"]={ ADDED_11_1_0 }  }),	-- Excavation Site 9
 			q(82939),	-- Fungal Folly
@@ -4018,7 +4020,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(83320),	-- Hallowfall Arathi
 			q(87407, { ["timeline"]={ ADDED_11_1_0 } }),	-- Undermine Cartel
 			q(91453, { ["timeline"]={ ADDED_11_2_0_SEASONSTART } }),	-- K'aresh Trust
-		}),
+		})),
 		n(DELVES_TWW_S1, {
 			--Delver's Journey Rewards
 			q(83158),	-- Adventurer's Warbound Battlegear Drop (spellID 453929)
