@@ -1633,6 +1633,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(229393) },	-- Lapbug Essence (QI!)
 					}),
 					q(85470, {	-- Root Redux
+						["qg"] = 232385,	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
 						["isDaily"] = true,
 					}),
 					q(89254, {	-- Shutterbug

@@ -3462,7 +3462,6 @@ root(ROOTS.Unsorted, {
 			i(169122),	-- Gibraltian Monkey Wrench
 			i(169125),	-- Sonic Drive Screw
 			i(169126),	-- Supercharged Graphics Cog
-			i(169143),	-- Seized Sparksaw
 			i(169146),	-- Brittle Thrust Booster
 			i(169190),	-- Blueprint: Mega-Sized Spare Parts \\ Blueprint: TK45
 			i(169193),	-- Nazjatar Ring A
