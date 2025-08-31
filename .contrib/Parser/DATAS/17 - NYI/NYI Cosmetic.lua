@@ -126,17 +126,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190913),	-- Vambraces of the Honored Valarjar
 				i(190912),	-- Warboots of the Honored Valarjar
 
-				------ Nightmare Forest Set ------
-				i(190229),	-- Nightmare Forest Bindings
-				i(190224),	-- Nightmare Forest Grips
-				i(190223),	-- Nightmare Forest Jerkin
-				i(190226),	-- Nightmare Forest Leggings
-				i(190228),	-- Nightmare Forest Mantle
-				i(190225),	-- Nightmare Forest Mask
-				i(190227),	-- Nightmare Forest Raiment
-				i(190222),	-- Nightmare Forest Sandals
-				i(190221),	-- Nightmare Forest Waistwrap
-
 				------ Slumbering Caldera Set ------
 				i(190781),	-- Slumbering Caldera Bracers
 				i(190780),	-- Slumbering Caldera Crown
@@ -171,7 +160,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			n(SETS, {
 				i(190575),	-- Ensemble: Chains of the Honored Valarjar
 				i(190165),	-- Ensemble: Twisted Arcanum Regalia
-				i(190772),	-- Ensemble: Vestments of the Nightmare Forest
 
 				------ Highborne Scholar Set ------
 				i(190435),	-- Highborne Scholar's Belt

@@ -7,17 +7,6 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
 			i(133804),	-- Faded Bag of Loot
 			i(133956),	-- Volatile Spell Focus
-			-- Ensemble: Barkbinds of the Archdruid's Nightmare (Breaks the Parser)
-			i(190221),	-- Waistwrap of the Archdruid's Nightmare
-			i(190222),	-- Sandals of the Archdruid's Nightmare
-			i(190223),	-- Jerkin of the Archdruid's Nightmare
-			i(190224),	-- Grips of the Archdruid's Nightmare
-			i(190225),	-- Mask of the Archdruid's Nightmare
-			i(190226),	-- Leggings of the Archdruid's Nightmare
-			i(190227),	-- Raiment of the Archdruid's Nightmare
-			i(190228),	-- Mantle of the Archdruid's Nightmare
-			i(190229),	-- Bindings of the Archdruid's Nightmare
-			--
 			i(190547),	-- Val'sharah Protector's Bracers
 			i(190676),	-- Val'sharah Protector's Gauntlets
 			i(190868),	-- Verdant Dreamscribed Scrollmantle
@@ -94,8 +83,6 @@ root(ROOTS.Unsorted, {
 			i(239819),	-- Vest of the Hunting Dream
 			i(239820),	-- Boots of the Hunting Dream
 			i(239821),	-- Waistband of the Hunting Dream
-			i(239888),	-- Wristguards of the Archdruid's Nightmare
-			i(239889),	-- Gambeson of the Archdruid's Nightmare
 			i(239959),	-- Fel-marked Hauberk
 			i(239960),	-- Fel-marked Vambraces
 			i(239961),	-- Fel-marked Pinions
@@ -125,112 +112,6 @@ root(ROOTS.Unsorted, {
 			i(240571),	-- Vileweave Guise
 			i(241146),	-- Epoch Memento
 			i(241258),	-- Vineyard Red Shal'dorei Crown
-			i(241445),	-- Ensemble: Juggernaut Battlegear
-			i(241446),	-- Ensemble: Juggernaut Battlegear
-			i(241448),	-- Ensemble: Juggernaut Battlegear
-			i(241449),	-- Ensemble: Light's Vanguard Battleplate
-			i(241450),	-- Ensemble: Light's Vanguard Battleplate
-			i(241451),	-- Ensemble: Light's Vanguard Battleplate
-			i(241453),	-- Ensemble: Dreadwake Armor
-			i(241454),	-- Ensemble: Dreadwake Armor
-			i(241455),	-- Ensemble: Dreadwake Armor
-			i(241457),	-- Ensemble: Garb of Venerated Spirits
-			i(241459),	-- Ensemble: Garb of Venerated Spirits
-			i(241460),	-- Ensemble: Garb of Venerated Spirits
-			i(241461),	-- Ensemble: Serpentstalker Guise
-			i(241462),	-- Ensemble: Serpentstalker Guise
-			i(241464),	-- Ensemble: Serpentstalker Guise
-			i(241465),	-- Ensemble: Regalia of the Dashing Scoundrel
-			i(241467),	-- Ensemble: Regalia of the Dashing Scoundrel
-			i(241468),	-- Ensemble: Regalia of the Dashing Scoundrel
-			i(241469),	-- Ensemble: Chi-Ji's Battlegear
-			i(241470),	-- Ensemble: Chi-Ji's Battlegear
-			i(241471),	-- Ensemble: Chi-Ji's Battlegear
-			i(241473),	-- Ensemble: Bearmantle Battlegear
-			i(241474),	-- Ensemble: Bearmantle Battlegear
-			i(241475),	-- Ensemble: Bearmantle Battlegear
-			i(241477),	-- Ensemble: Felreaper Vestments
-			i(241478),	-- Ensemble: Felreaper Vestments
-			i(241479),	-- Ensemble: Felreaper Vestments
-			i(241481),	-- Ensemble: Grim Inquisitor's Regalia
-			i(241483),	-- Ensemble: Grim Inquisitor's Regalia
-			i(241484),	-- Ensemble: Grim Inquisitor's Regalia
-			i(241485),	-- Ensemble: Gilded Seraph's Raiment
-			i(241487),	-- Ensemble: Gilded Seraph's Raiment
-			i(241488),	-- Ensemble: Gilded Seraph's Raiment
-			i(241489),	-- Ensemble: Runebound Regalia
-			i(241491),	-- Ensemble: Runebound Regalia
-			i(241492),	-- Ensemble: Runebound Regalia
-			i(241493),	-- Ensemble: Titanic Onslaught Armor
-			i(241495),	-- Ensemble: Titanic Onslaught Armor
-			i(241496),	-- Ensemble: Titanic Onslaught Armor
-			i(241497),	-- Ensemble: Radiant Lightbringer Armor
-			i(241498),	-- Ensemble: Radiant Lightbringer Armor
-			i(241500),	-- Ensemble: Radiant Lightbringer Armor
-			i(241501),	-- Ensemble: Gravewarden Armaments
-			i(241502),	-- Ensemble: Gravewarden Armaments
-			i(241504),	-- Ensemble: Gravewarden Armaments
-			i(241505),	-- Ensemble: Regalia of the Skybreaker
-			i(241506),	-- Ensemble: Regalia of the Skybreaker
-			i(241508),	-- Ensemble: Regalia of the Skybreaker
-			i(241509),	-- Ensemble: Wildstalker Armor
-			i(241511),	-- Ensemble: Wildstalker Armor
-			i(241512),	-- Ensemble: Wildstalker Armor
-			i(241513),	-- Ensemble: Fanged Slayer's Armor
-			i(241514),	-- Ensemble: Fanged Slayer's Armor
-			i(241516),	-- Ensemble: Fanged Slayer's Armor
-			i(241517),	-- Ensemble: Xuen's Battlegear
-			i(241519),	-- Ensemble: Xuen's Battlegear
-			i(241520),	-- Ensemble: Xuen's Battlegear
-			i(241521),	-- Ensemble: Stormheart Raiment
-			i(241522),	-- Ensemble: Stormheart Raiment
-			i(241524),	-- Ensemble: Stormheart Raiment
-			i(241525),	-- Ensemble: Demonbane Armor
-			i(241526),	-- Ensemble: Demonbane Armor
-			i(241528),	-- Ensemble: Demonbane Armor
-			i(241529),	-- Ensemble: Diabolic Raiment
-			i(241530),	-- Ensemble: Diabolic Raiment
-			i(241532),	-- Ensemble: Diabolic Raiment
-			i(241533),	-- Ensemble: Vestments of Blind Absolution
-			i(241534),	-- Ensemble: Vestments of Blind Absolution
-			i(241536),	-- Ensemble: Vestments of Blind Absolution
-			i(241537),	-- Ensemble: Regalia of the Arcane Tempest
-			i(241538),	-- Ensemble: Regalia of the Arcane Tempest
-			i(241540),	-- Ensemble: Regalia of the Arcane Tempest
-			i(241541),	-- Ensemble: Warplate of the Obsidian Aspect
-			i(241542),	-- Ensemble: Warplate of the Obsidian Aspect
-			i(241543),	-- Ensemble: Warplate of the Obsidian Aspect
-			i(241545),	-- Ensemble: Battleplate of the Highlord
-			i(241546),	-- Ensemble: Battleplate of the Highlord
-			i(241547),	-- Ensemble: Battleplate of the Highlord
-			i(241549),	-- Ensemble: Dreadwyrm Battleplate
-			i(241550),	-- Ensemble: Dreadwyrm Battleplate
-			i(241552),	-- Ensemble: Dreadwyrm Battleplate
-			i(241553),	-- Ensemble: Regalia of Shackled Elements
-			i(241554),	-- Ensemble: Regalia of Shackled Elements
-			i(241555),	-- Ensemble: Regalia of Shackled Elements (Felfire)
-			i(241557),	-- Ensemble: Regalia of Shackled Elements (Ice)
-			i(241558),	-- Ensemble: Eagletalon Battlegear
-			i(241560),	-- Ensemble: Eagletalon Battlegear
-			i(241561),	-- Ensemble: Eagletalon Battlegear
-			i(241562),	-- Ensemble: Doomblade Battlegear
-			i(241564),	-- Ensemble: Doomblade Battlegear
-			i(241565),	-- Ensemble: Doomblade Battlegear
-			i(241566),	-- Ensemble: Vestments of Enveloped Dissonance
-			i(241567),	-- Ensemble: Vestments of Enveloped Dissonance
-			i(241569),	-- Ensemble: Vestments of Enveloped Dissonance
-			i(241570),	-- Ensemble: Garb of the Astral Warden
-			i(241572),	-- Ensemble: Garb of the Astral Warden
-			i(241573),	-- Ensemble: Garb of the Astral Warden
-			i(241574),	-- Ensemble: Vestment of Second Sight
-			i(241576),	-- Ensemble: Vestment of Second Sight
-			i(241577),	-- Ensemble: Vestment of Second Sight
-			i(241578),	-- Ensemble: Legacy of Azj'aqir
-			i(241581),	-- Ensemble: Legacy of Azj'aqir
-			i(241582),	-- Ensemble: Vestments of the Purifier
-			i(241585),	-- Ensemble: Vestments of the Purifier
-			i(241586),	-- Ensemble: Regalia of Everburning Knowledge
-			i(241589),	-- Ensemble: Regalia of Everburning Knowledge
 			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
@@ -322,9 +203,7 @@ root(ROOTS.Unsorted, {
 			i(246796),	-- Epic Cache of Infinite Power
 			i(246889),	-- Orb of Synchronized Power
 			i(246990),	-- Infernal's Azure Staff
-			i(246991),	-- Sinister Felstaff
 			i(246994),	-- Infernal's Hellfire Staff
-			i(246997),	-- Sinister Felwand
 			i(247429),	-- Robes of Fluctuating Energy
 			i(247430),	-- Antiquated Highborne Cinch
 			i(247431),	-- Bracers of Harnessed Flame
@@ -926,13 +805,11 @@ root(ROOTS.Unsorted, {
 				i(246783),	-- Wildhammer's Ancient Crusher
 				i(246784),	-- Dark Iron's Ancient Crusher
 				i(246785),	-- Coldsnap Felblade
-				i(246786),	-- Sinister Felblade
 				i(246787),	-- Hellfire Felblade
 				i(246788),	-- Netherstorm Felblade
 				i(246790),	-- Coldsnap Feldirk
 				i(246791),	-- Hellfire Feldirk
 				i(246792),	-- Netherstorm Feldirk
-				i(246793),	-- Sinister Feldirk
 				i(246800),	-- Wildhammer's Mighty Crossbow
 				i(246801),	-- Dark Iron's Mighty Crossbow
 				i(246949),	-- Felreaver's Azure Treads
@@ -968,11 +845,9 @@ root(ROOTS.Unsorted, {
 				i(246988),	-- Felreaver's Arcane Treads
 				i(246989),	-- Ensemble: Felreaver's Arcane Attire
 				i(246990),	-- Felreaver's Azure Staff
-				i(246991),	-- Felreaver's Legion Staff
 				i(246992),	-- Felreaver's Arcane Staff
 				i(246994),	-- Felreaver's Hellfire Staff
 				i(246996),	-- Felreaver's Azure Wand
-				i(246997),	-- Felreaver's Legion Wand
 				i(246998),	-- Felreaver's Hellfire Wand
 				i(246999),	-- Felreaver's Arcane Wand
 				i(247705),	-- The Horseman's Chilling Blade

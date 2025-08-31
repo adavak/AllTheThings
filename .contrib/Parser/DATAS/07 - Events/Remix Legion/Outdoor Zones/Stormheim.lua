@@ -35,7 +35,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							42578,	-- Looking for Group: Stormheim
 							42590,	-- Tour Stormheim
 						}},
-						--["groups"] = { i(??) },	-- Sinister Fel Arsenal
+						["groups"] = {	-- Sinister Fel Arsenal
+							i(246786),	-- Sinister Felblade
+							i(246793),	-- Sinister Feldirk
+							i(246991),	-- Sinister Felstaff
+							i(246997),	-- Sinister Felwand
+						},
 					}),
 					ach(42590, {	-- Tour Stormheim
 						-- Meta Achievement

@@ -170,55 +170,88 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					["cost"] = {{ "c", BRONZE, 20000 }},
 				},FILTERFUNC_itemID,{
 					clWithoutLock(DEATHKNIGHT, {
+						iensemble(241550),	-- Ensemble: Dreadwyrm Battleplate
 						------ Locked behind: Legionfall ------
+						iensemble(241504),	-- Ensemble: Gravewarden Armaments
 						------ Locked behind: Argus Eternal ------
+						iensemble(241455),	-- Ensemble: Dreadwake Armor
 					}),
 					clWithoutLock(DEMONHUNTER, {
+						iensemble(241577),	-- Ensemble: Vestment of Second Sight
 						------ Locked behind: Legionfall ------
+						iensemble(241528),	-- Ensemble: Demonbane Armor
 						------ Locked behind: Argus Eternal ------
+						iensemble(241478),	-- Ensemble: Felreaper Vestments
 					}),
 					clWithoutLock(DRUID, {
+						iensemble(241572),	-- Ensemble: Garb of the Astral Warden
 						------ Locked behind: Legionfall ------
+						iensemble(241522),	-- Ensemble: Stormheart Raiment
 						------ Locked behind: Argus Eternal ------
+						iensemble(241474),	-- Ensemble: Bearmantle Battlegear
 					}),
 					clWithoutLock(HUNTER, {
+						iensemble(241561),	-- Ensemble: Eagletalon Battlegear
 						------ Locked behind: Legionfall ------
+						iensemble(241511),	-- Ensemble: Wildstalker Armor
 						------ Locked behind: Argus Eternal ------
+						iensemble(241462),	-- Ensemble: Serpentstalker Guise
 					}),
 					clWithoutLock(MAGE, {
 						iensemble(241588),	-- Ensemble: Regalia of Everburning Knowledge
 						------ Locked behind: Legionfall ------
+						iensemble(241538),	-- Ensemble: Regalia of the Arcane Tempest
 						------ Locked behind: Argus Eternal ------
+						iensemble(241492),	-- Ensemble: Runebound Regalia
 					}),
 					clWithoutLock(MONK, {
+						iensemble(241567),	-- Ensemble: Vestments of Enveloped Dissonance
 						------ Locked behind: Legionfall ------
+						iensemble(241520),	-- Ensemble: Xuen's Battlegear
 						------ Locked behind: Argus Eternal ------
+						iensemble(241471),	-- Ensemble: Chi-Ji's Battlegear
 					}),
 					clWithoutLock(PALADIN, {
+						iensemble(241546),	-- Ensemble: Battleplate of the Highlord
 						------ Locked behind: Legionfall ------
+						iensemble(241498),	-- Ensemble: Radiant Lightbringer Armor
 						------ Locked behind: Argus Eternal ------
+						iensemble(241450),	-- Ensemble: Light's Vanguard Battleplate
 					}),
 					clWithoutLock(PRIEST, {
 						iensemble(241584),	-- Ensemble: Vestments of the Purifier
 						------ Locked behind: Legionfall ------
+						iensemble(241536),	-- Ensemble: Vestments of Blind Absolution
 						------ Locked behind: Argus Eternal ------
+						iensemble(241488),	-- Ensemble: Gilded Seraph's Raiment
 					}),
 					clWithoutLock(ROGUE, {
+						iensemble(241564),	-- Ensemble: Doomblade Battlegear
 						------ Locked behind: Legionfall ------
+						iensemble(241514),	-- Ensemble: Fanged Slayer's Armor
 						------ Locked behind: Argus Eternal ------
+						iensemble(241467),	-- Ensemble: Regalia of the Dashing Scoundrel
 					}),
 					clWithoutLock(SHAMAN, {
+						iensemble(241554),	-- Ensemble: Regalia of Shackled Elements
 						------ Locked behind: Legionfall ------
+						iensemble(241508),	-- Ensemble: Regalia of the Skybreaker
 						------ Locked behind: Argus Eternal ------
+						iensemble(241460),	-- Ensemble: Garb of Venerated Spirits
 					}),
 					clWithoutLock(WARLOCK, {
 						iensemble(241580),	-- Ensemble: Legacy of Azj'aqir
 						------ Locked behind: Legionfall ------
+						iensemble(241530),	-- Ensemble: Diabolic Raiment
 						------ Locked behind: Argus Eternal ------
+						iensemble(241483),	-- Ensemble: Grim Inquisitor's Regalia
 					}),
 					clWithoutLock(WARRIOR, {
+						iensemble(241542),	-- Ensemble: Warplate of the Obsidian Aspect
 						------ Locked behind: Legionfall ------
+						iensemble(241496),	-- Ensemble: Titanic Onslaught Armor
 						------ Locked behind: Argus Eternal ------
+						iensemble(241448),	-- Ensemble: Juggernaut Battlegear
 					}),
 				}),
 			}),
@@ -845,7 +878,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			--n(??, { }),	-- Lindormi <Mythic Keystones>
-			n(241142, {	-- Momentus
+			n(241142, {	-- Momentus <Weaponmaster>
 				["groups"] = sharedData({
 					["cost"] = {{ "c", BRONZE, 5 }},
 				}, {
@@ -871,99 +904,210 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			n(241168, {	-- Pythagorus <Mythic Raid Apparel>
-				clWithoutLock(DEATHKNIGHT, {
-
-				}),
-				clWithoutLock(DRUID, {
-
-				}),
-				clWithoutLock(HUNTER, {
-
-				}),
-				clWithoutLock(MAGE, {
-
-				}),
-				clWithoutLock(MONK, {
-
-				}),
-				clWithoutLock(PALADIN, {
-
-				}),
-				clWithoutLock(PRIEST, {
-
-				}),
-				clWithoutLock(ROGUE, {
-
-				}),
-				clWithoutLock(SHAMAN, {
-
-				}),
-				clWithoutLock(WARLOCK, {
-
-				}),
-				clWithoutLock(WARRIOR, {
-
-				}),
-				filter(COSMETIC, {
-					iensemble(253273, {	-- Scythe of the Unmaker (ENSEMBLE!)
-						["cost"] = {
-							{ "i", 253304, 20 },	-- Cosmic Soulsliver
-							{ "c", BRONZE, 30000 },
-						},
+				["groups"] = bubbleDownFiltered({
+					["cost"] = {{ "c", BRONZE, 20000 }},
+				},FILTERFUNC_itemID,{
+					clWithoutLock(DEATHKNIGHT, {
+						iensemble(241549),	-- Ensemble: Dreadwyrm Battleplate
+						------ Locked behind: Legionfall ------
+						iensemble(241501),	-- Ensemble: Gravewarden Armaments
+						------ Locked behind: Argus Eternal ------
+						iensemble(241453),	-- Ensemble: Dreadwake Armor
 					}),
-					i(151524, {	-- Hammer of Vigilance (COSMETIC!)
-						["cost"] = {
-							{ "i", 253305, 20 },	-- Felwarped Slab
-							{ "c", BRONZE, 30000 },
-						},
+					clWithoutLock(DEMONHUNTER, {
+						iensemble(241574),	-- Ensemble: Vestment of Second Sight
+						------ Locked behind: Legionfall ------
+						iensemble(241525),	-- Ensemble: Demonbane Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241477),	-- Ensemble: Felreaper Vestments
 					}),
-					i(152094, {	-- Taeshalach (COSMETIC!)
-						["cost"] = {
-							{ "i", 242370, 20 },	-- Horns of the First Satyr
-							{ "c", BRONZE, 30000 },
-						},
+					clWithoutLock(DRUID, {
+						iensemble(241570),	-- Ensemble: Garb of the Astral Warden
+						------ Locked behind: Legionfall ------
+						iensemble(241521),	-- Ensemble: Stormheart Raiment
+						------ Locked behind: Argus Eternal ------
+						iensemble(241473),	-- Ensemble: Bearmantle Battlegear
 					}),
-					i(242368, {	-- The First Satyr's Spaulders (COSMETIC!)
-						["cost"] = {
-							{ "i", 253306, 20 },	-- Everflame of Hatred
-							{ "c", BRONZE, 30000 },
-						},
+					clWithoutLock(HUNTER, {
+						iensemble(241558),	-- Ensemble: Eagletalon Battlegear
+						------ Locked behind: Legionfall ------
+						iensemble(241509),	-- Ensemble: Wildstalker Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241461),	-- Ensemble: Serpentstalker Guise
+					}),
+					clWithoutLock(MAGE, {
+						iensemble(241586),	-- Ensemble: Regalia of Everburning Knowledge
+						------ Locked behind: Legionfall ------
+						iensemble(241537),	-- Ensemble: Regalia of the Arcane Tempest
+						------ Locked behind: Argus Eternal ------
+						iensemble(241489),	-- Ensemble: Runebound Regalia
+					}),
+					clWithoutLock(MONK, {
+						iensemble(241566),	-- Ensemble: Vestments of Enveloped Dissonance
+						------ Locked behind: Legionfall ------
+						iensemble(241517),	-- Ensemble: Xuen's Battlegear
+						------ Locked behind: Argus Eternal ------
+						iensemble(241469),	-- Ensemble: Chi-Ji's Battlegear
+					}),
+					clWithoutLock(PALADIN, {
+						iensemble(241545),	-- Ensemble: Battleplate of the Highlord
+						------ Locked behind: Legionfall ------
+						iensemble(241497),	-- Ensemble: Radiant Lightbringer Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241449),	-- Ensemble: Light's Vanguard Battleplate
+					}),
+					clWithoutLock(PRIEST, {
+						iensemble(241582),	-- Ensemble: Vestments of the Purifier
+						------ Locked behind: Legionfall ------
+						iensemble(241533),	-- Ensemble: Vestments of Blind Absolution
+						------ Locked behind: Argus Eternal ------
+						iensemble(241485),	-- Ensemble: Gilded Seraph's Raiment
+					}),
+					clWithoutLock(ROGUE, {
+						iensemble(241562),	-- Ensemble: Doomblade Battlegear
+						------ Locked behind: Legionfall ------
+						iensemble(241513),	-- Ensemble: Fanged Slayer's Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241465),	-- Ensemble: Regalia of the Dashing Scoundrel
+					}),
+					clWithoutLock(SHAMAN, {
+						iensemble(241553),	-- Ensemble: Regalia of Shackled Elements
+						------ Locked behind: Legionfall ------
+						iensemble(241505),	-- Ensemble: Regalia of the Skybreaker
+						------ Locked behind: Argus Eternal ------
+						iensemble(241459),	-- Ensemble: Garb of Venerated Spirits
+					}),
+					clWithoutLock(WARLOCK, {
+						iensemble(241578),	-- Ensemble: Legacy of Azj'aqir
+						------ Locked behind: Legionfall ------
+						iensemble(241529),	-- Ensemble: Diabolic Raiment
+						------ Locked behind: Argus Eternal ------
+						iensemble(241481),	-- Ensemble: Grim Inquisitor's Regalia
+					}),
+					clWithoutLock(WARRIOR, {
+						iensemble(241541),	-- Ensemble: Warplate of the Obsidian Aspect
+						------ Locked behind: Legionfall ------
+						iensemble(241493),	-- Ensemble: Titanic Onslaught Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241445),	-- Ensemble: Juggernaut Battlegear
+					}),
+					filter(COSMETIC, {
+						iensemble(253273, {	-- Scythe of the Unmaker (ENSEMBLE!)
+							["cost"] = {
+								{ "i", 253304, 20 },	-- Cosmic Soulsliver
+								{ "c", BRONZE, 30000 },
+							},
+						}),
+						i(151524, {	-- Hammer of Vigilance (COSMETIC!)
+							["cost"] = {
+								{ "i", 253305, 20 },	-- Felwarped Slab
+								{ "c", BRONZE, 30000 },
+							},
+						}),
+						i(152094, {	-- Taeshalach (COSMETIC!)
+							["cost"] = {
+								{ "i", 242370, 20 },	-- Horns of the First Satyr
+								{ "c", BRONZE, 30000 },
+							},
+						}),
+						i(242368, {	-- The First Satyr's Spaulders (COSMETIC!)
+							["cost"] = {
+								{ "i", 253306, 20 },	-- Everflame of Hatred
+								{ "c", BRONZE, 30000 },
+							},
+						}),
 					}),
 				}),
 			}),
 			n(246028, {	-- Sacerdormu <Heroic Raid Apparel>
-				clWithoutLock(DEATHKNIGHT, {
-
-				}),
-				clWithoutLock(DRUID, {
-
-				}),
-				clWithoutLock(HUNTER, {
-
-				}),
-				clWithoutLock(MAGE, {
-
-				}),
-				clWithoutLock(MONK, {
-
-				}),
-				clWithoutLock(PALADIN, {
-
-				}),
-				clWithoutLock(PRIEST, {
-
-				}),
-				clWithoutLock(ROGUE, {
-
-				}),
-				clWithoutLock(SHAMAN, {
-
-				}),
-				clWithoutLock(WARLOCK, {
-
-				}),
-				clWithoutLock(WARRIOR, {
-
+				["groups"] = bubbleDownFiltered({
+					["cost"] = {{ "c", BRONZE, 20000 }},
+				},FILTERFUNC_itemID,{
+					clWithoutLock(DEATHKNIGHT, {
+						iensemble(241552),	-- Ensemble: Dreadwyrm Battleplate
+						------ Locked behind: Legionfall ------
+						iensemble(241502),	-- Ensemble: Gravewarden Armaments
+						------ Locked behind: Argus Eternal ------
+						iensemble(241454),	-- Ensemble: Dreadwake Armor
+					}),
+					clWithoutLock(DEMONHUNTER, {
+						iensemble(241576),	-- Ensemble: Vestment of Second Sight
+						------ Locked behind: Legionfall ------
+						iensemble(241526),	-- Ensemble: Demonbane Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241479),	-- Ensemble: Felreaper Vestments
+					}),
+					clWithoutLock(DRUID, {
+						iensemble(241573),	-- Ensemble: Garb of the Astral Warden
+						------ Locked behind: Legionfall ------
+						iensemble(241524),	-- Ensemble: Stormheart Raiment
+						------ Locked behind: Argus Eternal ------
+						iensemble(241475),	-- Ensemble: Bearmantle Battlegear
+					}),
+					clWithoutLock(HUNTER, {
+						iensemble(241560),	-- Ensemble: Eagletalon Battlegear
+						------ Locked behind: Legionfall ------
+						iensemble(241512),	-- Ensemble: Wildstalker Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241464),	-- Ensemble: Serpentstalker Guise
+					}),
+					clWithoutLock(MAGE, {
+						iensemble(241589),	-- Ensemble: Regalia of Everburning Knowledge
+						------ Locked behind: Legionfall ------
+						iensemble(241540),	-- Ensemble: Regalia of the Arcane Tempest
+						------ Locked behind: Argus Eternal ------
+						iensemble(241491),	-- Ensemble: Runebound Regalia
+					}),
+					clWithoutLock(MONK, {
+						iensemble(241569),	-- Ensemble: Vestments of Enveloped Dissonance
+						------ Locked behind: Legionfall ------
+						iensemble(241519),	-- Ensemble: Xuen's Battlegear
+						------ Locked behind: Argus Eternal ------
+						iensemble(241470),	-- Ensemble: Chi-Ji's Battlegear
+					}),
+					clWithoutLock(PALADIN, {
+						iensemble(241547),	-- Ensemble: Battleplate of the Highlord
+						------ Locked behind: Legionfall ------
+						iensemble(241500),	-- Ensemble: Radiant Lightbringer Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241451),	-- Ensemble: Light's Vanguard Battleplate
+					}),
+					clWithoutLock(PRIEST, {
+						iensemble(241585),	-- Ensemble: Vestments of the Purifier
+						------ Locked behind: Legionfall ------
+						iensemble(241534),	-- Ensemble: Vestments of Blind Absolution
+						------ Locked behind: Argus Eternal ------
+						iensemble(241487),	-- Ensemble: Gilded Seraph's Raiment
+					}),
+					clWithoutLock(ROGUE, {
+						iensemble(241565),	-- Ensemble: Doomblade Battlegear
+						------ Locked behind: Legionfall ------
+						iensemble(241516),	-- Ensemble: Fanged Slayer's Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241468),	-- Ensemble: Regalia of the Dashing Scoundrel
+					}),
+					clWithoutLock(SHAMAN, {
+						iensemble(241555),	-- Ensemble: Regalia of Shackled Elements (Felfire)
+						iensemble(241557),	-- Ensemble: Regalia of Shackled Elements (Ice)
+						------ Locked behind: Legionfall ------
+						iensemble(241506),	-- Ensemble: Regalia of the Skybreaker
+						------ Locked behind: Argus Eternal ------
+						iensemble(241457),	-- Ensemble: Garb of Venerated Spirits
+					}),
+					clWithoutLock(WARLOCK, {
+						iensemble(241581),	-- Ensemble: Legacy of Azj'aqir
+						------ Locked behind: Legionfall ------
+						iensemble(241532),	-- Ensemble: Diabolic Raiment
+						------ Locked behind: Argus Eternal ------
+						iensemble(241484),	-- Ensemble: Grim Inquisitor's Regalia
+					}),
+					clWithoutLock(WARRIOR, {
+						iensemble(241543),	-- Ensemble: Warplate of the Obsidian Aspect
+						------ Locked behind: Legionfall ------
+						iensemble(241495),	-- Ensemble: Titanic Onslaught Armor
+						------ Locked behind: Argus Eternal ------
+						iensemble(241446),	-- Ensemble: Juggernaut Battlegear
+					}),
 				}),
 			}),
 			n(246026, {	-- Unicus <Exclusive Ensembles>
@@ -991,9 +1135,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				iensemble(241392, {	-- Ensemble: Argussian Demonsbane Armor
 					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
-				--iensemble(241357, {	-- Ensemble: Barkbinds of the Archdruid's Nightmare (Breaks the Parser)
-				--	["cost"] = {{ "c", BRONZE, 7500 }},
-				--}),
+				iensemble(190772, {	-- Ensemble: Barkbinds of the Archdruid's Nightmare
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
 				iensemble(241416, {	-- Ensemble: Blazing Dreamscribed Robes
 					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
