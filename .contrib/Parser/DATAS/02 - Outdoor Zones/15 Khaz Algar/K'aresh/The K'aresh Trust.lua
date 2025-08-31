@@ -216,7 +216,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								}),
 								i(235859, {	-- Ethereal Tome of Jewelcrafting Knowledge (CI!)
 									["cost"] = {{"i", ARTISANS_ACUITY, 75}},
-									["requireSkill"] = LEATHERWORKING,
+									["requireSkill"] = JEWELCRAFTING,
 								}),
 								i(235858, {	-- Ethereal Tome of Leatherworking Knowledge (CI!)
 									["cost"] = {{"i", ARTISANS_ACUITY, 75}},
