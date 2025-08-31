@@ -227,9 +227,9 @@ WOW_ANNIVERSARY_TWENTYONE = createHeader({
 		2025, 11, 16,	-- 11/16/2025
 		2025, 12, 07,	-- 12/07/2025
 	},
-	-- text = {
-	-- 	en = WOWAPI_GetAchievementName(41220),
-	-- },
+	text = {
+		en = WOWAPI_GetAchievementName(61406),
+	},
 });
 ]]--
 local BRONZE_TOKEN = 3100;
@@ -2037,6 +2037,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
+--[[
+	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDown({ ["timeline"] = { ADDED_11_2_5, "removed 11.2.5.99999" } }, {
+		ach(61406),	-- WoW's 21st Anniversary
+		n(MAILBOX, {
+			i(XXXXXX, {	-- Anniversary Gift
+				i(XXXXXX),	-- Celebration Package
+				i(XXXXXX),	-- Celebration Firework
+				i(XXXXXX),	-- Invitation from the Timewalkers
+			}),
+		}),
+	})),
+]]--
 	-- Stuff that's still in the game
 	n(WOW_ANNIVERSARY_TWELVE, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } },{
 		n(QUESTS, {
