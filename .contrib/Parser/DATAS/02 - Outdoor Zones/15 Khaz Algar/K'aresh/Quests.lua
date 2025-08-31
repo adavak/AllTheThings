@@ -528,7 +528,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["qg"] = 230786,	-- Soul-Scribe
 						["coord"] = { 74.4, 30.4, KARESH },
 					}),
-					q(84897, {	-- The Calm Before we Storm
+					q(84897, {	-- The Calm Before We Storm
 						["sourceQuests"] = { 84896 },	-- The Next Dimension
 						["qg"] = 230818,	-- Soul-Scribe
 						["coord"] = { 60.2, 29.2, KARESH },
@@ -536,20 +536,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					--hqt(???, {	-- Stay awhile and listen: Alleria Windrunner - no questID
 					--	["name"] = "Stay awhile and listen: Alleria Windrunner",
-					--	["description"] = "Dialogue becomes available after you accept 'The Calm Before we Storm' (84897).",
+					--	["description"] = "Dialogue becomes available after you accept 'The Calm Before We Storm' (84897).",
 					--	["sourceQuests"] = { 84896 },	-- The Next Dimension
 					--	["qg"] = 230817,	-- Alleria Windrunner
 					--	["coord"] = { 60.7, 27.9, KARESH },
 					--}),
 					--
 					q(84899, {	-- Shadowguard Diffusion
-						["sourceQuests"] = { 84897 },	-- The Calm Before we Storm
+						["sourceQuests"] = { 84897 },	-- The Calm Before We Storm
 						["qg"] = 230817,	-- Alleria Windrunner
 						["coord"] = { 60.7, 27.9, KARESH },
 						["groups"] = { i(238390) },	-- Soulbreaker's Sigil
 					}),
 					q(84898, {	-- The Sands of K'aresh
-						["sourceQuests"] = { 84897 },	-- The Calm Before we Storm
+						["sourceQuests"] = { 84897 },	-- The Calm Before We Storm
 						["qg"] = 231443,	-- Soul-Scribe
 						["coord"] = { 60.7, 28.0, KARESH },
 						["groups"] = {
