@@ -2066,6 +2066,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	header(HEADERS.Faction, FACTION_GOLDEN_LOTUS, {
 		n(QUESTS, {
 			q(31652),	-- Roll Club: Serpent's Spine Tracking Quest
+			RemovedWithSOO(q(30294)),	-- Small Comforts, auto completed after completing Burning Away the Filth (30282)
 		}),
 	}),
 })));
