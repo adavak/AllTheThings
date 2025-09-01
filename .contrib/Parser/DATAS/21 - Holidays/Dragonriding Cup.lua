@@ -342,7 +342,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 					["coords"] = {
 						-- #if AFTER TWW
 						{ 46.1, 54.9, DORNOGAL },
-						{ 55.4, 61.2, DORNOGAL },
+						{ 55.6, 61.2, DORNOGAL },
 						-- #endif
 						{ 62.3, 74.4, STORMWIND_CITY },
 					},
@@ -351,8 +351,20 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 					["repeatable"] = true,
 				}),
 				q(78881, {	-- The Eastern Kingdoms Cup Begins
-					["provider"] = { "n", 213769 },	-- Holiday Enthusiast
-					["coord"] = { 52.7, 79.4, ORGRIMMAR },
+					["qgs"] = {
+						-- #if AFTER TWW
+						220307,	-- Holiday Enthusiast
+						220870,	-- Holiday Enthusiast
+						-- #endif
+						213769,	-- Holiday Enthusiast
+					 },
+					["coords"] = {
+						-- #if AFTER TWW
+						{ 46.1, 54.9, DORNOGAL },
+						{ 55.6, 61.2, DORNOGAL },
+						-- #endif
+						{ 52.7, 79.4, ORGRIMMAR },
+					},
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
 					["repeatable"] = true,
