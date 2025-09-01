@@ -224,6 +224,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["sourceQuest"] = 89418,	-- A Fixed Point in Time
 			["qg"] = 243948,	-- Moratari
 			["coord"] = { 72.1, 41.7, LEGION_DALARAN },
+			["classes"] = { DEMONHUNTER },
 		}),
 		q(90754, {	-- Skyriding
 			["sourceQuest"] = 89418,	-- A Fixed Point in Time

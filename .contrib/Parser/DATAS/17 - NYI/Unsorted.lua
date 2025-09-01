@@ -112,6 +112,7 @@ root(ROOTS.Unsorted, {
 			i(240571),	-- Vileweave Guise
 			i(241146),	-- Epoch Memento
 			i(241258),	-- Vineyard Red Shal'dorei Crown
+			i(241357),	-- Ensemble: Barkbinds of the Archdruid's Nightmare
 			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
