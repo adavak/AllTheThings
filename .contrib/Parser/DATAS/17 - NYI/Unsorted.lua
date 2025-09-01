@@ -756,9 +756,6 @@ root(ROOTS.Unsorted, {
 				i(237999),	-- Battered Matter Destabilizer
 				i(238008),	-- Wastelander's Folly
 
-				-- Delve Trinket?
-				i(246947),	-- Twisted Mana Sprite
-
 				-- Mechagon Junkyard?
 				i(241239),	-- Epaulets of Arcing Power
 				i(241240),	-- Type II Bomber Jacket

@@ -128,12 +128,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["filterID"] = BATTLE_PETS,
 			})),
 			q(53106, {	-- Censership
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = { i(163212) },	-- Cleansing Thurible (QI!)
+				i(163212),	-- Cleansing Thurible (QI!)
 			}),
 			q(53343, {	-- Censership
-				["races"] = HORDE_ONLY,
-				["groups"] = { i(163212) },	-- Cleansing Thurible (QI!)
+				i(163212),	-- Cleansing Thurible (QI!)
 			}),
 			q(52882, {	-- Controlled Burn
 				["races"] = HORDE_ONLY,

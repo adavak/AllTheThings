@@ -3999,6 +3999,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		n(BOUNTIFUL, sharedData({
 			["isDaily"] = true,
 		},{	-- Bountiful Delve runs
+			q(89246, { ["timeline"]={ ADDED_11_2_0 }  }),	-- Archival Assault
 			q(82944),	-- Earthcrawl Mines
 			q(85187, { ["timeline"]={ ADDED_11_1_0 }  }),	-- Excavation Site 9
 			q(82939),	-- Fungal Folly
