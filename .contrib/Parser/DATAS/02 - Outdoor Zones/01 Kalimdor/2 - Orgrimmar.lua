@@ -2081,6 +2081,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 63.0, 68.4, TIRISFAL_GLADES },
 						{ 48.6, 48.6, ORGRIMMAR },
 					},
+					["lockCriteria"] = { 1, "questID", 54107 },	-- Grim Tidings (non-loyalist split quest)
 					["timeline"] = { ADDED_10_1_7 },
 					["races"] = HORDE_ONLY,
 				}),
