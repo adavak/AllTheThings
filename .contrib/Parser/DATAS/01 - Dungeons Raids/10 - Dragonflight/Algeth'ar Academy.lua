@@ -10,6 +10,14 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2099,	-- Algeth'ar Academy
 		},
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(14032),	-- Algeth'ar Academy
+				instance_exploration(14034),	-- Terrace of Lectures
+				instance_exploration(14037),	-- The Botanica
+				instance_exploration(14036),	-- The Headteacher's Enclave
+				instance_exploration(14035),	-- The Pitch
+				instance_exploration(14033),	-- The Quad
+			}),
 			n(QUESTS, {
 				q(72193, {	-- The Algeth'ar Academy
 					-- ["sourceQuests"] = {  },	--

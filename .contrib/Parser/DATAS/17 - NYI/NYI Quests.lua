@@ -834,7 +834,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(30677, { ["name"] = "Shuttle Service", }),	-- Shuttle Service
 			q(30122, { ["name"] = "Silver Filigree Flask", ["_drop"] = { "g" }, }),	-- Silver Filigree Flask
 			q(29718, { ["name"] = "Sixteen Fluid Ounces of Prevention", }),	-- Sixteen Fluid Ounces of Prevention
-			q(30294, { ["name"] = "Small Comforts", }),	-- Small Comforts
 			q(29744, { ["name"] = "Some \"Pupil of Nature\"", }),	-- Some "Pupil of Nature"
 			q(30759, { ["name"] = "Sotelo's Quest", }),	-- Sotelo's Quest
 			q(29554, { ["name"] = "Sunken Junk", }),	-- Sunken Junk

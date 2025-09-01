@@ -19194,7 +19194,6 @@ L.QUEST_NAMES = {
 	[30262] = "NOT USED",
 	[30278] = "REUSE FOR PROGRESSION",
 	[30279] = "REUSE FOR PROGRESSION",
-	[30294] = "Small Comforts",
 	[30295] = "Turn-in Quest Test Case",
 	[30303] = "NOT USED",
 	[30311] = "High Standards",

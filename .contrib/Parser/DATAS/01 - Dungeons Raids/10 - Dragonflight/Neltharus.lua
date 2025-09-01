@@ -9,6 +9,12 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2081,	-- Chamber of Flames
 		},
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(14011),	-- Neltharus
+				instance_exploration(14157),	-- Chamber of Flames
+				instance_exploration(14440),	-- The Dragon's Hoard
+				instance_exploration(14441),	-- The Burning Cauldron
+			}),
 			n(QUESTS, {
 				q(72135, {	-- Neltharus: Secrets Wihtin
 					["qgs"] = {

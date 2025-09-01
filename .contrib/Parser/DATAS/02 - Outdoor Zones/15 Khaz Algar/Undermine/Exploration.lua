@@ -15,6 +15,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			visit_exploration(15454,{coord={63.0,18.1,UNDERMINE}}),	-- Port Authority
 			visit_exploration(15463,{coord={62.3,55.7,UNDERMINE}}),	-- Public Parking
 			visit_exploration(15541,{coord={37.3,46.7,UNDERMINE}}),	-- Shipping and Handling
+			visit_exploration(15456,{coord={28.9,69.6,UNDERMINE}}),	-- Steamwheedle Laboratories
 			visit_exploration(15348,{coord={53.8,13.9,UNDERMINE}}),	-- Tailgate Park
 			visit_exploration(15352,{coord={62.3,55.7,UNDERMINE}}),	-- The Gallagio
 			visit_exploration(15351,{coord={60.8,53.5,UNDERMINE}}),	-- The Heaps
@@ -22,6 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			visit_exploration(15457,{coord={39.7,25.9,UNDERMINE}}),	-- The Scrapshop
 			visit_exploration(15350,{coord={36.0,83.9,UNDERMINE}}),	-- The Vatworks
 			visit_exploration(15347,{coord={26.7,53.1,UNDERMINE}}),	-- Undermine
+			visit_exploration(15455,{coord={51.4,70.7,UNDERMINE}}),	-- Venture Plaza
 			visit_exploration(15527,{coord={44.0,49.5,UNDERMINE}}),	-- Venturewood
 		}),
 	}),

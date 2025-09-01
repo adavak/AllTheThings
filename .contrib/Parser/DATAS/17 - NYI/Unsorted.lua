@@ -1185,8 +1185,6 @@ root(ROOTS.Unsorted, {
 				exploration(15332),	-- Cage of Carnage
 
 				-- Zone: Undermine
-				exploration(15455),	-- Venture Plaza
-				exploration(15456),	-- Steamwheedle Laboratories
 				exploration(15465),	-- Slam Central Station
 				exploration(15533),	-- The Hoardroom
 				exploration(15643),	-- Airship Supply Depot
@@ -1300,30 +1298,11 @@ root(ROOTS.Unsorted, {
 				exploration(15144),	-- Annihilation Interface
 
 				-- Delves: All
-				exploration(14957),	-- Fungal Folly
-				exploration(14998),	-- Mycomancer Cavern
-				exploration(14999),	-- Earthcrawl Mines
-				exploration(15000),	-- Kriegval's Rest
-				exploration(15001),	-- Zekvir's Lair
-				exploration(15002),	-- The Waterworks
-				exploration(15003),	-- The Dread Pit
-				exploration(15004),	-- Skittering Breach
-				exploration(15005),	-- Nightfall Sanctum
 				exploration(15006),	-- The Sinkhole
-				exploration(15007),	-- The Spiral Weave
-				exploration(15008),	-- Tak-Rethan Abyss
-				exploration(15009),	-- The Underkeep
-				exploration(15175),	-- The Sinkhole
 				exploration(15327),	-- Tak-Rethan Abyss
 
 				-- Warband Scene: Warband Camp
 				exploration(15387),	-- Warband Camp
-
-				-- Battleground: Deephaul Ravine
-				exploration(14990),	-- Deephaul Ravine
-				exploration(15099),	-- The Waterworks
-				exploration(15100),	-- The Earthenworks
-				exploration(15101),	-- Junction
 
 				-- ??
 				exploration(15513),	-- Pocket Dimension
@@ -1366,6 +1345,182 @@ root(ROOTS.Unsorted, {
 			n(PVP, {
 				-- This is all broken as of 10.2.7. Currently added a placeholder data to the SL PvP vendor.
 				i(223769),	-- Eternal Aspirant's Cape
+			}),
+		})),
+		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
+			n(EXPLORATION, {
+				-- Amirdrassil
+				exploration(14969),	-- Amirdrassil
+				exploration(14978),	-- Craggy Reef
+				exploration(14981),	-- Ancient Bough
+				exploration(14982),	-- Emerald Gardens
+				exploration(14983),	-- Lunedane
+				exploration(14984),	-- The Storm Scar
+				exploration(14985),	-- The Azure Span
+				exploration(14986),	-- Ohn'ahran Plains
+			}),
+		})),
+		expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
+			n(EXPLORATION, {
+				-- Emerald Dream
+				exploration(14529),	-- Emerald Dream
+				exploration(14859),	-- Fields of Reverie
+				exploration(14862),	-- Barrows of Reverie
+				exploration(14864),	-- Scorching Chasm
+				exploration(14912),	-- Wellspring Overlook
+				exploration(14914),	-- Wildfire Canyon
+				exploration(14955),	-- The Char
+				exploration(14959),	-- Lucid Reef
+				exploration(14961),	-- Shiversnap Grove
+				exploration(14973),	-- Springrain River
+				exploration(14988),	-- Swirling Mists
+				exploration(15013),	-- Sor'theril Barrow Den
+				exploration(15014),	-- Sprigling Gloam
+				exploration(15017),	-- Rootwoven Strand
+				exploration(15053),	-- Aviana's Perch
+				exploration(15096),	-- Winter's Landing
+			}),
+		})),
+		expansion(EXPANSION.DF, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
+			n(EXPLORATION, {
+				-- Zaralek Cavern
+				exploration(14022),	-- Zaralek Cavern
+				exploration(14694),	-- Iridikron's Gambit
+				exploration(14716),	-- Burning Oasis
+				exploration(14721),	-- Mysterious Cave A
+				exploration(14725),	-- The Bone Gallery
+				exploration(14731),	-- Mysterious Cave B
+				exploration(14732),	-- Mysterious Cave C
+				exploration(14733),	-- Mysterious Cave D
+				exploration(14734),	-- Mysterious Cave E
+				exploration(14735),	-- Mysterious Cave F
+				exploration(14736),	-- Mysterious Cave G
+				exploration(14737),	-- Mysterious Cave H
+				exploration(14738),	-- Mysterious Cave I
+				exploration(14739),	-- Mysterious Cave J
+			}),
+		})),
+		expansion(EXPANSION.DF, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
+			n(EXPLORATION, {
+				-- The Forbidden Reach
+				exploration(14433),	-- The Forbidden Reach
+				exploration(14532),	-- zzOLDThe Lost Atheneum
+				exploration(14533),	-- zzOLDThe Old Weyrn Grounds
+				exploration(14534),	-- The Siege Creche
+				exploration(14535),	-- The Support Creche
+				exploration(14537),	-- zzOLDHornswog Grounds
+				exploration(14538),	-- Lair of the Scythid
+				exploration(14541),	-- zzOLDScaleborn Pass
+				exploration(14544),	-- zzOLDStormsunder Mountain
+				exploration(14545),	-- Stormsunder Overlook
+				exploration(14546),	-- zzOLDTalonlords' Perch
+				exploration(14598),	-- zzOLDDarksand Hollow
+				exploration(14599),	-- zzOLDTempest Coast
+				exploration(14603),	-- zzOLDFroststone Vault
+				exploration(14605),	-- zzOLDTalonlords' Perch
+				exploration(14611),	-- zzOLDHornswog Grounds
+				exploration(14619),	-- Zskera Vaults
+				exploration(14670),	-- Burrow of the Faithful
+				exploration(14671),	-- Hoard of Shimmermaw
+				exploration(14691),	-- Talon's Watch
+			}),
+		})),
+		expansion(EXPANSION.DF, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2 } }, {
+			n(EXPLORATION, {
+				-- The Waking Shores
+				exploration(13644),	-- The Waking Shores
+				exploration(13710),	-- Uktulut Backwater
+				exploration(13713),	-- The Lost Path
+				exploration(13731),	-- Hatchery Observatory
+				exploration(13942),	-- Rubyscale Outpost
+				exploration(14006),	-- Burning Ascent [DNT]
+				exploration(14007),	-- Obsidian Citadel
+				exploration(14042),	-- Hornspike Nest
+				exploration(14047),	-- Shattered Vaults
+				exploration(14086),	-- Ashscale Halls
+				exploration(14087),	-- Ashscale HallsS
+				exploration(14088),	-- Cliffdrip Camp
+				exploration(14099),	-- Quaking Cavern
+				exploration(14142),	-- Wild Feeding Pits
+				exploration(14158),	-- Hissing Grotto
+				exploration(14456),	-- Kilpi Isle
+				exploration(14466),	-- Outcast's Alcove
+				exploration(14501),	-- The Bubble Bath
+				exploration(14511),	-- Wingrest Bay
+				exploration(14516),	-- Lost Canal
+
+				-- Ohn'ahran Plains
+				exploration(13752),	-- Storm Drake Roost
+				exploration(13754),	-- The Carving Winds
+				exploration(13763),	-- Cloverwood Hollow
+				exploration(13765),	-- Ohn'ahra's Roost
+				exploration(14020),	-- Lunedane
+				exploration(14104),	-- Toghusuq Village
+				exploration(14347),	-- Mountainview Post
+				exploration(14452),	-- Greenscale Inn
+				exploration(14463),	-- Eaglewatch Outpost
+				exploration(14468),	-- The Mane Squeeze
+				exploration(14977),	-- Craggy Reef
+
+				-- The Azure Span
+				exploration(13646),	-- The Azure Span
+				exploration(13735),	-- Lev'al Rock Isle
+				exploration(13830),	-- Rockhide Village
+				exploration(13831),	-- Rustpine Den
+				exploration(13845),	-- Djardin Cliff Camp
+				exploration(13849),	-- Kalthraz Fortress
+				exploration(13851),	-- Cobalt Library
+				exploration(13854),	-- Primalist POI
+				exploration(13855),	-- Primalist POI 2
+				exploration(13856),	-- Frost Giant Cliffs
+				exploration(13885),	-- Tuskarr Ice Elemental Cave
+				exploration(13893),	-- Drake Eye's Pond
+				exploration(13933),	-- Kargpaw's Den
+				exploration(13934),	-- Rhonin's Shield
+				exploration(13997),	-- Creektooth Den - Decayve
+				exploration(14091),	-- Vakthros Cavern
+				exploration(14432),	-- The Missing Hinge Inn
+				exploration(14458),	-- Longclaw Island
+				exploration(14467),	-- Lair of Stoneheart
+				exploration(14486),	-- Forgotten Cavern
+				exploration(14515),	-- Ley Pools
+				exploration(14620),	-- Blue Dragon Choice
+
+				-- Thaldraszus
+				exploration(13647),	-- Thaldraszus
+				exploration(13819),	-- DefunctThaldraszusarea
+				exploration(13884),	-- Temporal Overlook
+				exploration(14031),	-- Emberslate Cavern
+				exploration(14093),	-- [PH] Epoch's Rest
+				exploration(14344),	-- Hall of Samples
+				exploration(14345),	-- Hall of the Aspects
+				exploration(14475),	-- Rhuzast's Roost
+				exploration(14488),	-- Algeth'ar Tower
+				exploration(14491),	-- The Late Night Lab
+				exploration(14742),	-- Everywhen Inn
+
+				-- The Primalist Future
+				exploration(13992),	-- The Primalist Future
+				exploration(14148),	-- Out of Temporal Bounds
+				exploration(14454),	-- Temporal Conflux
+			}),
+		})),
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_10_0_0 } }, {
+			n(EXPLORATION, {
+				-- The Forbidden Reach (Evoker)
+				exploration(13769),	-- The Forbidden Reach
+				exploration(13806),	-- The War Creche
+				exploration(13977),	-- Lost Grotto
+				exploration(13978),	-- Lair of the Scythid
+				exploration(13999),	-- The Siege Creche
+				exploration(14000),	-- The Support Creche
+				exploration(14001),	-- Burrow of the Faithful
+				exploration(14002),	-- Stormsunder Overlook
+				exploration(14003),	-- Darksand Hollow
+				exploration(14004),	-- Hoard of Shimmermaw
+				exploration(14153),	-- Stormsunder Mountain
+				exploration(14154),	-- Sharpscale Coast
+				exploration(14495),	-- The High Creche
 			}),
 		})),
 	}),

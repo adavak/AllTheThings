@@ -6,6 +6,17 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		["coord"] = { 60.9, 39.1, OHNAHRAN_PLAINS },
 		["maps"] = { 2093 },	-- The Nokhud Offensive
 		["groups"] = {
+			n(EXPLORATION, {
+				instance_exploration(14481), -- Battle of Spears
+				instance_exploration(14476), -- Maruukai
+				instance_exploration(14478), -- Nokhudon Hold
+				instance_exploration(13982), -- Ohn'ahran Plains
+				instance_exploration(14485), -- Ohn'ahran Plains
+				instance_exploration(14482), -- Ohn'iri Springs
+				instance_exploration(14477), -- The Eternal Kurgans
+				instance_exploration(14479), -- The Nokhud Approach
+				instance_exploration(14480), -- The Nokhud Offensive
+			}),
 			n(FLIGHT_PATHS, {
 				fp(2847, {	-- Maruukai, The Nokhud Offensive
 					--["coord"] = { XX.Y, XX.Y, 2093 },	-- The Nokhud Offensive

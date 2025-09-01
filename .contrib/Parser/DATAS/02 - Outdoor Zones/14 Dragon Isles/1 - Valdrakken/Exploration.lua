@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			visit_exploration(14507,{coord={73.5,44.6,VALDRAKKEN}}),	-- The Bronze Enclave
 			visit_exploration(14508,{coord={78.5,64.0,VALDRAKKEN}}),	-- The Emerald Enclave
 			visit_exploration(14509,{coord={43.6,73.7,VALDRAKKEN}}),	-- The Artisan's Market
-			visit_exploration(14617,{coord={59.5,41.4,VALDRAKKEN}}),	-- The Seat of the Aspects
+			visit_exploration(14489,{coord={59.5,41.4,VALDRAKKEN}}),	-- The Seat of the Aspects
 			visit_exploration(14530,{coord={55.0,57.6,VALDRAKKEN}}),	-- Valdrakken Treasury Hoard
 		}),
 	}),

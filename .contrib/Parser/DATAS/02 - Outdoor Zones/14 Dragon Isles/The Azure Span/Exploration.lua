@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			visit_exploration(13826,{coord={44.3,53.8,THE_AZURE_SPAN}}),	-- Kauriq Gleamlet
 			exploration(14039),	-- Khuri's Fishing Spot
 			visit_exploration(14464,{coord={72.2,52.4,THE_AZURE_SPAN}}),	-- Lonely Falls
-			visit_exploration(14745,{coord={18.9,23.3,THE_AZURE_SPAN}}),	-- Lookout Breach
+			visit_exploration(14746,{coord={18.9,23.3,THE_AZURE_SPAN}}),	-- Lookout Breach
 			exploration(14103),	-- Lost Ruins
 			visit_exploration(14430,{coord={46.6,40.2,THE_AZURE_SPAN}}),	-- Mage's Rest
 			visit_exploration(13858,{coord={64.4,14.5,THE_AZURE_SPAN}}),	-- Misty Canyon

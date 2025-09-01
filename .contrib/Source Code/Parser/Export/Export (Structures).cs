@@ -87,7 +87,7 @@ namespace ATT
                 }
                 Task.WaitAll(replacementTasks);
 
-                Framework.Log($" - {builder.Name}:Done");
+                Framework.Log($" - {builder.Name}: Done");
 
                 // Replace the main string builder with the multiple builder content
                 builder.Clear();

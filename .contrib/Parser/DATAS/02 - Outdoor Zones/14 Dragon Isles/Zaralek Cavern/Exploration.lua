@@ -21,12 +21,12 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 			visit_exploration(14684,{coord={50.5,74.3,ZARALEK_CAVERN}}),	-- Hermit's Hovel
 			exploration(14712),	-- Igira's Watch
 			exploration(14520),	-- Loamm
-			visit_exploration(14746,{coord={35.8,91.0,ZARALEK_CAVERN}}),	-- Lookout Breach
+			visit_exploration(14745,{coord={35.8,91.0,ZARALEK_CAVERN}}),	-- Lookout Breach
 			exploration(14704),	-- Molten Overflow
 			exploration(14646),	-- Nal ks'kol
 			exploration(14655),	-- Obsidian Rest
 			visit_exploration(14693,{coord={47.6,30.0,ZARALEK_CAVERN}}),	-- Obsidian Spire Outpost
-			visit_exploration(14743,{coord={34.5,79.6,ZARALEK_CAVERN}}),	-- Old Loamm Road
+			visit_exploration(14744,{coord={34.5,79.6,ZARALEK_CAVERN}}),	-- Old Loamm Road
 			visit_exploration(14650,{coord={47.1,55.7,ZARALEK_CAVERN}}),	-- Ruins of Drekazera
 			exploration(14683),	-- Shimmering Towers
 			visit_exploration(14654,{coord={53.7,29.0,ZARALEK_CAVERN}}),	-- Slitherdrake Roost
