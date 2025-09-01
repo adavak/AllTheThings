@@ -1249,7 +1249,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_EIGHTEEN, bubbleDown({ ["timeline"] = { ADDED_10_0_0, REMOVED_10_0_2_LAUNCH } }, {
+	n(WOW_ANNIVERSARY_EIGHTEEN, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_0, REMOVED_10_0_2_LAUNCH } }, {
 		ach(15218),	-- WoW's 18th Anniversary
 		n(MAILBOX, {
 			i(187710, {	-- Anniversary Gift
