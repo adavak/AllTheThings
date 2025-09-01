@@ -1001,7 +1001,6 @@ root(ROOTS.Unsorted, {
 				i(247723),	-- The Headless Horseman's Ghostly Charger
 				i(247791),	-- Windmaster's Battlesworn
 				i(247794),	-- Darkfeather Eclipse
-				i(248761),	-- Brewfest Barrel Bomber
 			}),
 			n(PROFESSIONS, {
 				i(231770),	-- Formula: Enchanted Gilded Ethereal Crest
