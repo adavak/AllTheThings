@@ -199,6 +199,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 		})),
+		n(REWARDS, {
+			i(246159, {	-- Translocated Gorger (MOUNT!)
+				["description"] = "|cff1eff00Devoured Energy-Pods|r can be obtained by killing Rare Elite Bosses of the 'Devourer Attacks'\n1 Energy-Pod can be obtained per Rare, Warband, and Week.",
+				["cost"] = {{ "i", 246240, 20 }},	-- Devoured Energy-Pod
+			}),
+		}),
 	}),
 }));
 

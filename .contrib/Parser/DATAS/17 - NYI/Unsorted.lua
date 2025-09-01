@@ -993,7 +993,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
 				i(242713),	-- Resplendent K'arroc
-				i(246159),	-- Translocated Gorger
 				i(246698),	-- Sunwarmed Furline
 				i(246917),	-- Thunder-ridged Elekk
 				i(246919),	-- Cinder-seared Elekk

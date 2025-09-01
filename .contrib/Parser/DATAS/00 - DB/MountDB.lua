@@ -2109,6 +2109,7 @@ i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
 i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger
 i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
+i(246159, 1241070);	-- Translocated Gorger
 i(242714, 1233511);	-- Umbral K'arroc
 i(243061, 1234573);	-- Unbound Star-Eater
 i(186640, 353265);	-- Vandal's Gearglider
@@ -2120,7 +2121,6 @@ i(245610, 1239138);	-- Voidlight Surger
 i(243019, 1234303);	-- Voidwing Dragonhawk
 --- UNSORTED ---
 i(242713, 1221132);	-- Resplendent K'arroc
-i(246159, 1241070);	-- Translocated Gorger
 i(186639, 353264);	-- Xy Trustee's Gearglider
 
 ------------------
