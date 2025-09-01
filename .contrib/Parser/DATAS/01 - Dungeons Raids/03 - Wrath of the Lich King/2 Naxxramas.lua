@@ -48,7 +48,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			{ 35.7, 22.9, EASTERN_PLAGUELANDS },
 			-- #endif
 		},
-		-- #if AFTER CATA
+		-- #if NOT ANYCLASSIC
 		["sharedLockout"] = 1,
 		-- #endif
 		["isRaid"] = true,
