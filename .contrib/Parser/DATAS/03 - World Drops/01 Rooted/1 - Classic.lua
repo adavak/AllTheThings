@@ -3321,12 +3321,6 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(5574),	-- White Leather Bag
 	}),
 	filter(MISC, {
-		i(17962),	-- Blue Sack of Gems
-		i(17964),	-- Gray Sack of Gems
-		i(17963),	-- Green Sack of Gems
-		i(17969),	-- Red Sack of Gems
-		i(17965, {	-- Yellow Sack of Gems
-		}),
 		-- #if BEFORE 5.0.4
 		applyclassicphase(PHASE_FIVE_RECIPES, i(23197, {	-- Idol of the Moon [Phase 5/6]
 			["timeline"] = { REMOVED_5_0_4 },
@@ -4006,6 +4000,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		--	Elemetal reagents
 		--	Clams
 		--	Cooking reagents
+		--	Sacks of Gems
 		--	Other reagents
 		--_______________________________
 		--
@@ -5692,6 +5687,14 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 		}),
 		-- i(7974),	-- Zesty Clam Meat > Properly sourced under Big-mouth Clam listed above.
+		--______________________________________
+		--
+		-- Sacks of Gems
+		i(17962),	-- Blue Sack of Gems
+		i(17964),	-- Gray Sack of Gems
+		i(17963),	-- Green Sack of Gems
+		i(17969),	-- Red Sack of Gems
+		i(17965),	-- Yellow Sack of Gems
 		--______________________________________
 		--
 		-- Other reagents:
