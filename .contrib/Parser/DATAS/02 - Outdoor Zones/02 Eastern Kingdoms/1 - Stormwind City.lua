@@ -45,6 +45,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			explorationHeader({
 				visit_exploration(5150,{coord={64.5,28.4,STORMWIND_CITY}}),	-- Dwarven District
+				visit_exploration(6292,{coord={82.2,36.0,STORMWIND_CITY}}),	-- Stormwind Keep
 				visit_exploration(5390,{coord={50.2,72.7,STORMWIND_CITY}}),	-- The Canals
 				visit_exploration(5148,{coord={61.4,74.8,STORMWIND_CITY}}),	-- Trade District
 				visit_exploration(10523,{coord={47.2,92.1,STORMWIND_CITY}}),	-- Wizard's Sanctum
@@ -6016,6 +6017,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sym"] = {
 						{"select", "npcID", 158061},					-- Select Historian Ma'di
 						{"pop"},										-- Discard Header and aquire their children
+					},
+				}),
+				n(113404, {	-- Illidari Darkdealer
+					["coord"] = { 40.2, 78.6, STORMWIND_CITY },
+					["timeline"] = { ADDED_7_0_3 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(129096),	-- Battle-Mender's Dressing
+						i(124069),	-- Felstone
+						i(128805),	-- Potion of Fel Protection
 					},
 				}),
 				n(50480, {	-- Isabel Jones <Jewelcrafting Design Vendor>

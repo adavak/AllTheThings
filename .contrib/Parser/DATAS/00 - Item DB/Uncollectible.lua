@@ -251,9 +251,14 @@ i(4361);	-- Copper Tube
 -----------------
 -- PATCH 7.0.3 --
 -----------------
+i(130268);	-- Bone Toothpick
+i(130261);	-- Brutarg's Sword
+i(130267);	-- Extinguished Demon Stone
+i(130264);	-- Fel-Stained Claw
 i(132184);	-- Intact Shimmering Scale
 i(132183);	-- Razor Tooth
 i(123865);	-- Relic of Ursol
+i(130265);	-- Sharpened Canine
 
 -----------------
 -- PATCH 7.3.5 --

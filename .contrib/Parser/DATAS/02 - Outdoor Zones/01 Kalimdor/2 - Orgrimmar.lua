@@ -2714,12 +2714,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #else
 				n(12793, {	-- Brave Stonehide <Officer Accessories Quartermaster>
 					-- #if BEFORE TBC
-						["description"] = "Found within the Hall of Legends.",
-						["maps"] = { ORGRIMMAR },
+					["description"] = "Found within the Hall of Legends.",
+					["maps"] = { ORGRIMMAR },
 					-- #elseif BEFORE CATA
-						["coord"] = { 40.6, 69.5, ORGRIMMAR },
+					["coord"] = { 40.6, 69.5, ORGRIMMAR },
 					-- #else
-						["coord"] = { 37.8, 72.1, ORGRIMMAR },
+					["coord"] = { 37.8, 72.1, ORGRIMMAR },
 					-- #endif
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -3255,6 +3255,16 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_7_1_0 },
 					["races"] = HORDE_ONLY,
 				})),
+				n(95057, {	-- Illidari Darkdealer
+					["coord"] = { 53.0, 56.5, ORGRIMMAR },
+					["timeline"] = { ADDED_7_0_3 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(129096),	-- Battle-Mender's Dressing
+						i(124069),	-- Felstone
+						i(128805),	-- Potion of Fel Protection
+					},
+				}),
 				n(46556, {	-- Jamus'Vaz <Valor Quartermaster>
 					["coord"] = { 48.6, 71.4, ORGRIMMAR },
 					["timeline"] = { ADDED_4_0_1 },

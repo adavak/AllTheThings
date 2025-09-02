@@ -2173,10 +2173,10 @@ i(250751, 1251295);	-- Twilight Courser
 i(239687, 1229288);	-- Wretched Fel Bat
 --- UNSORTED ---
 i(0, 1254363);	--(PH LEGION REMIX MOUNT)`
-i(250926, 1251680);	-- [PH] Turkey Mount - Black
-i(250927, 1251685);	-- [PH] Turkey Mount - Brown
-i(250928, 1251689);	-- [PH] Turkey Mount - Purple
-i(250929, 1251690);	-- [PH] Turkey Mount - White
+i(250926, 1251680);	-- Highlands Gobbler
+i(250927, 1251685);	-- Quirky Turkey
+i(250928, 1251689);	-- Murky Turkey
+i(250929, 1251690);	-- Prized Turkey
 i(250191, 1250481);	-- Bilebound Ur'zul
 i(239647, 1229264);	-- Bloodguard Fel Bat
 i(253573, 1256677);	-- Cerulean Phase-Hunter

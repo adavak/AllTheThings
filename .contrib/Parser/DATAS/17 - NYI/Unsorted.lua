@@ -628,10 +628,10 @@ root(ROOTS.Unsorted, {
 			i(250909),	-- Villager's City Skirt
 			i(250910),	-- Villager's City Sabatons
 			i(250911),	-- Ensemble: Villager's City Collection
-			i(250926),	-- [PH] Turkey Mount - Black
-			i(250927),	-- [PH] Turkey Mount - Brown
-			i(250928),	-- [PH] Turkey Mount - Purple
-			i(250929),	-- [PH] Turkey Mount - White
+			i(250926),	-- Highlands Gobbler
+			i(250927),	-- Quirky Turkey
+			i(250928),	-- Murky Turkey
+			i(250929),	-- Prized Turkey
 			i(251016),	-- Ensemble: Forged Warmonger's Cloth Armor
 			i(251017),	-- Ensemble: Forged Warmonger's Leather Armor
 			i(251018),	-- Ensemble: Forged Warmonger's Mail Armor
