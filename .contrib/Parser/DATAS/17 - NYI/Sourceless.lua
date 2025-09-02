@@ -231,28 +231,21 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(161248),	-- Zanchuli Pantaloons
 				}),
 				filter(LEATHER, {
-					i(158655),	-- Jambani Boots
 					i(158665),	-- Jambani Grasps
 					i(161145),	-- Jambani Tunic
 					i(161151),	-- Jambani Mantle
 					i(161225),	-- Jambani Guise
 					i(161229),	-- Jambani Shoulderguards
 					i(161233),	-- Jambani Chestpiece
-					i(161243),	-- Jambani Cincture
-					i(161249),	-- Jambani Britches
 					i(161250),	-- Jambani Leggings
 				}),
 				filter(MAIL, {
-					i(158656),	-- Torcalin Striders
-					i(158673),	-- Torcalin Armguards
+					i(161238),	-- Torcalin Bands
 					i(161146),	-- Torcalin Harness
 					i(161148),	-- Torcalin Shoulderguards
 					i(161226),	-- Torcalin Helm
 					i(161230),	-- Torcalin Mantle
 					i(161234),	-- Torcalin Chestguard
-					i(161238),	-- Torcalin Bands
-					i(161244),	-- Torcalin Cincture
-					i(161251),	-- Torcalin Leggings
 					i(161252),	-- Torcalin Pants
 				}),
 				filter(PLATE, {

@@ -1197,6 +1197,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 74.6, 19.7, ISLE_OF_DORN },
 				["groups"] = {
 					i(224119),	-- Electric Eel (QI!)
+					i(232510),	-- Electric Eel (QI!)
 				},
 			}),
 			q(82768, {	-- Cloud Fishing

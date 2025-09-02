@@ -1076,7 +1076,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242335),	-- Waterproof Pants
 			}),
 			n(WEAPONS, {
-				i(244540),	-- Charred Flamewake Sprout
 				i(242521),	-- Chiling Forsaken Cauldron
 				i(242627),	-- Chilling Forsaken Blade
 				i(242631),	-- Chilling Forsaken Great Blade
@@ -1085,12 +1084,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242381),	-- Chilling Forsaken Quiver
 				i(242385),	-- Chilling Forsaken Wand
 				i(242352),	-- Chilling Forsaken Warglaives
-				i(244542),	-- Chronosmith's Temporal Safeguard
-				i(244647),	-- Crook of the White Flame
-				i(244651),	-- Forest Ranger's Buckler
-				i(244544),	-- Forest Watcher's Rune-Axe
-				i(244546),	-- Forgotten Bow of the Banshee
-				i(244650),	-- Fort Triumph Longbow
 				i(242526),	-- Grandmaster's Blue Axe
 				i(242373),	-- Grandmaster's Blue Bulwark
 				i(242540),	-- Grandmaster's Blue Mace
@@ -1099,15 +1092,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242375),	-- Grandmaster's White Bulwark
 				i(242542),	-- Grandmaster's White Mace
 				i(242360),	-- Grandmaster's White Stave
-				i(244549),	-- Light's Dawn Cryptblade
-				i(244680),	-- Morchie's Desynchronized Chime
-				i(244652),	-- Prayer Beacon of the Goddess
-				i(244681),	-- Pyrewood Silver Blade
-				i(244543),	-- Scimitar of the Crocolisk God
-				i(244648),	-- Scipture of the Scarlet High Priest
-				i(244646),	-- Seared Root of Regrowth
-				i(244649),	-- Shadowforge Senator's Ledger
-				i(244548),	-- Shattered Highvale Staff
 				i(242524),	-- Sickening Forsaken Cauldron
 				i(242630),	-- Sickly Forsaken Blade
 				i(242634),	-- Sickly Forsaken Great Blade
@@ -1116,9 +1100,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242384),	-- Sickly Forsaken Quiver
 				i(242389),	-- Sickly Forsaken Wand
 				i(242355),	-- Sickly Forsaken Warglaives
-				i(244550),	-- Sunwalker's Ashen Warmaul
-				i(244551),	-- Time-Lost Worldbreaker
-				i(244541),	-- Zin-Azshari Court Scepter
 			}),
 		})),
 	}),
