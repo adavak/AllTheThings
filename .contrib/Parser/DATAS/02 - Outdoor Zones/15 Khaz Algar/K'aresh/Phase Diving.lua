@@ -28,6 +28,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						{ 47.2, 15.8, KARESH },
 						{ 50.1, 36.2, KARESH },
 						{ 50.5, 54.1, KARESH },
+						{ 50.6, 35.1, KARESH },
+						{ 51.0, 36.7, KARESH },
 						{ 51.0, 69.1, KARESH },
 						{ 51.2, 67.7, KARESH },
 						{ 52.2, 64.9, KARESH },
@@ -299,156 +301,144 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 			})),
 			n(TREASURES, {
-				header(HEADERS.Achievement, 42741, {	-- Treasures of K'aresh
-					o(548597, {	-- Bladed Rifle Of Unfettered Momentum
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
-						["coord"] = { 69.9, 70.8, KARESH },
-						["questID"] = 91058,
-						["groups"] = { i(245673) },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
+				["sharedDescription"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
+				["groups"] = {
+					header(HEADERS.Achievement, 42741, {	-- Treasures of K'aresh
+						o(548597, {	-- Bladed Rifle Of Unfettered Momentum
+							["description"] = "It is recommended to buy some Gliders if you can't glide/slow fall yourself.",
+							["coord"] = { 69.9, 70.8, KARESH },
+							["questID"] = 91058,
+							["groups"] = { i(245673) },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
+						}),
+						o(527414, {	-- Ethereal Voidforged Container
+							["questID"] = 89378,
+							["description"] = "Requires some serious jumping precision in order to get to it.",
+							["coord"] = { 52.1, 68.3, KARESH },
+							["groups"] = {
+								ach(42730),	-- Jump, Jump, and Away!
+								i(246293), 	-- Buckler of the Last Stand (COSMETIC!)
+							},
+						}),
+						o(529537, {	-- Efrat's Forgotten Bulwark
+							["coord"] = { 78.0, 48.9, KARESH },
+							["questID"] = 90514,
+							["groups"] = { i(243004) },	-- Efrat's Forgotten Bulwark (COSMETIC!)
+						}),
+						o(529669, {	-- Korgoraths Talon
+							["coord"] = { 64.4, 42.7, KARESH },
+							["questID"] = 90532,
+							["groups"] = { i(243153) },	-- Korgorath's Talon (COSMETIC!)
+						}),
+						o(529525, {	-- Light-Soaked Cleaver
+							["coord"] = { 52.5, 46.8, KARESH },
+							["questID"] = 90511,
+							["groups"] = { i(243002) },	-- Light-Soaked Cleaver (COSMETIC!)
+						}),
+						o(548001, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
+							["coord"] = { 47.5, 70.0, KARESH_TAZAVESH },
+							["questID"] = 91056,
+							["groups"] = { i(245669) },	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
+						}),
+						o(529539, {	-- Petrified Branch Of Janaa
+							["description"] = "It is recommended to buy some Gliders if you can't glide/slow fall yourself.",
+							["coord"] = { 78.3, 61.6, KARESH },
+							["questID"] = 90515,
+							["groups"] = { i(243006) },	-- Petrified Branch of Janaa (COSMETIC!)
+						}),
+						o(548010, {	-- Phaseblade Of The Void Marches
+							["coord"] = { 50.8, 35.3, KARESH },
+							["questID"] = 91057,
+							["groups"] = { i(245671) },	-- Phaseblade of the Void Marches (COSMETIC!)
+						}),
+						o(529664, {	-- Shadowguard Crusher
+							["coord"] = { 49.2, 18.0, KARESH },
+							["questID"] = 90527,
+							["groups"] = { i(243008) },	-- Shadowguard Crusher (COSMETIC!)
+						}),
+						o(529533, {	-- Spear Of Fallen Memories
+							["coord"] = { 23.7, 46.8, KARESH_TAZAVESH },
+							["questID"] = 90512,
+							["groups"] = { i(243003) },	-- Spear of Fallen Memories (COSMETIC!)
+						}),
+						o(529591, {	-- Sufaadi Skiff Lantern
+							["coord"] = { 80.7, 52.8, KARESH },
+							["questID"] = 90521,
+							["groups"] = { i(243009) },	-- Sufaadi Skiff Lantern (COSMETIC!)
+						}),
+						o(547995, {	-- Warglaive of the Audacious Hunter
+							["coords"] = {
+								{ 56.8, 24.1, KARESH },	-- Voidscar Cavern Entrance
+								{ 62.5, 52.2, 2477 },	-- Voidscar Cavern
+							},
+							["questID"] = 91055,
+							["groups"] = { i(245667) },	-- Warglaive of the Audacious Hunter (COSMETIC!)
+						}),
+						o(529643, {	-- Tulwar Of The Golden Guard
+							["coord"] = { 51.0, 65.1, KARESH },
+							["questID"] = 90522,
+							["groups"] = { i(243005) },	-- Tulwar of the Golden Guard (COSMETIC!)
+						}),
 					}),
-					o(527414, {	-- Ethereal Voidforged Container
-						["questID"] = 89378,
-						["description"] = "Requires some serious jumping precision in order to get to it.",
-						["coord"] = { 52.1, 68.3, KARESH },
-						["groups"] = {
-							ach(42730),	-- Jump, Jump, and Away!
-							i(246293), 	-- Buckler of the Last Stand (COSMETIC!)
+					header(HEADERS.Achievement, 60890, {	-- Secrets of the K'areshi
+						o(558375, {	-- Checklist of Minor Pleasures
+							["coord"] = { 38.2, 45.6, KARESH_TAZAVESH },
+							["questID"] = 91687,
+						}),
+						o(558110, {	-- From Vengeance to Void
+							["coord"] = { 42.3, 20.9, KARESH },
+							["questID"] = 91646,
+						}),
+						o(558117, {	-- I Have Become Void!
+							["coord"] = { 36.7, 58.1, KARESH_TAZAVESH },
+							["questID"] = 91649,
+						}),
+						o(558108, {	-- Multiversal Energy Dynamics and the Murmurration Paradox
+							["coord"] = { 49.6, 26.8, KARESH },
+							["questID"] = 91643,
+						}),
+						o(558112, {	-- The Facets of K'aresh
+							["coord"] = { 72.1, 29.4, KARESH },
+							["questID"] = 91647,
+						}),
+					}),
+					-- Phased
+					o(549326, {	-- Phase-Lost Exchequer
+						["description"] = "Can be found at random locations through Untethered space.",
+						["minReputation"] = { FACTION_THE_KARESH_TRUST, 11 },	-- The K'aresh Trust Renown 11
+						["maps"] = { KARESH_TAZAVESH, KARESH },
+						-- No quest attached to them.
+						["sym"] = {	-- Zone Drop (This may need to change as the R11 Trait states "Find bigger treasures". Dunno if that means better rewards or some other reward pool.)
+							{"select","mapID",KHAZ_ALGAR},{"pop"},
+							{"where","mapID",KARESH},{"pop"},
+							{"where","headerID",ZONE_DROPS},{"pop"},
+						},
+						["groups"] = {	-- Has a chance to drop following
+							i(243147),	-- Ethereal Defense Pylon
+							i(243219),	-- Phased Ethereal Bow
+							i(242371),	-- Untethered Xy'bucha
 						},
 					}),
-					o(529537, {	-- Efrat's Forgotten Bulwark
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 78.0, 48.9, KARESH },
-						["questID"] = 90514,
-						["groups"] = { i(243004) },	-- Efrat's Forgotten Bulwark (COSMETIC!)
-					}),
-					o(529669, {	-- Korgoraths Talon
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 64.4, 42.7, KARESH },
-						["questID"] = 90532,
-						["groups"] = { i(243153) },	-- Korgorath's Talon (COSMETIC!)
-					}),
-					o(529525, {	-- Light-Soaked Cleaver
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 52.5, 46.8, KARESH },
-						["questID"] = 90511,
-						["groups"] = { i(243002) },	-- Light-Soaked Cleaver (COSMETIC!)
-					}),
-					o(548001, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 47.5, 70.0, KARESH_TAZAVESH },
-						["questID"] = 91056,
-						["groups"] = { i(245669) },	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
-					}),
-					o(529539, {	-- Petrified Branch Of Janaa
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
-						["coord"] = { 78.3, 61.6, KARESH },
-						["questID"] = 90515,
-						["groups"] = { i(243006) },	-- Petrified Branch of Janaa (COSMETIC!)
-					}),
-					o(548010, {	-- Phaseblade Of The Void Marches
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 50.8, 35.3, KARESH },
-						["questID"] = 91057,
-						["groups"] = { i(245671) },	-- Phaseblade of the Void Marches (COSMETIC!)
-					}),
-					o(529664, {	-- Shadowguard Crusher
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 49.2, 18.0, KARESH },
-						["questID"] = 90527,
-						["groups"] = { i(243008) },	-- Shadowguard Crusher (COSMETIC!)
-					}),
-					o(529533, {	-- Spear Of Fallen Memories
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 23.7, 46.8, KARESH_TAZAVESH },
-						["questID"] = 90512,
-						["groups"] = { i(243003) },	-- Spear of Fallen Memories (COSMETIC!)
-					}),
-					o(529591, {	-- Sufaadi Skiff Lantern
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 80.7, 52.8, KARESH },
-						["questID"] = 90521,
-						["groups"] = { i(243009) },	-- Sufaadi Skiff Lantern (COSMETIC!)
-					}),
-					o(547995, {	-- Warglaive of the Audacious Hunter
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coords"] = {
-							{ 56.8, 24.1, KARESH },	-- Voidscar Cavern Entrance
-							{ 62.5, 52.2, 2477 },	-- Voidscar Cavern
+					o(516626, {	-- Phase-Lost Pocket-Storage
+						["description"] = "Can be found at random locations through Untethered space.",
+						["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
+						["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11
+						["maps"] = { KARESH_TAZAVESH, KARESH },
+						-- No quest attached to them.
+						["sym"] = {	-- Zone Drop
+							{"select","mapID",KHAZ_ALGAR},{"pop"},
+							{"where","mapID",KARESH},{"pop"},
+							{"where","headerID",ZONE_DROPS},{"pop"},
 						},
-						["questID"] = 91055,
-						["groups"] = { i(245667) },	-- Warglaive of the Audacious Hunter (COSMETIC!)
+						["groups"] = {	-- Has a chance to drop following
+							i(243147),	-- Ethereal Defense Pylon
+							i(243219),	-- Phased Ethereal Bow
+							i(242371),	-- Untethered Xy'bucha
+						},
 					}),
-					o(529643, {	-- Tulwar Of The Golden Guard
-						["description"] = "Requires the 4th Upgrade unlocked from the Reshii Wraps.",
-						["coord"] = { 51.0, 65.1, KARESH },
-						["questID"] = 90522,
-						["groups"] = { i(243005) },	-- Tulwar of the Golden Guard (COSMETIC!)
-					}),
-				}),
-				header(HEADERS.Achievement, 60890, {	-- Secrets of the K'areshi
-					o(558375, {	-- Checklist of Minor Pleasures
-						["description"] = "You need to Phasedive in order to see the Lore Object.",
-						["coord"] = { 38.2, 45.6, KARESH_TAZAVESH },
-						["questID"] = 91687,
-					}),
-					o(558110, {	-- From Vengeance to Void
-						["description"] = "You need to Phasedive in order to see the Lore Object.",
-						["coord"] = { 42.3, 20.9, KARESH },
-						["questID"] = 91646,
-					}),
-					o(558117, {	-- I Have Become Void!
-						["description"] = "You need to Phasedive in order to see the Lore Object.",
-						["coord"] = { 36.7, 58.1, KARESH_TAZAVESH },
-						["questID"] = 91649,
-					}),
-					o(558108, {	-- Multiversal Energy Dynamics and the Murmurration Paradox
-						["description"] = "You need to Phasedive in order to see the Lore Object.",
-						["coord"] = { 49.6, 26.8, KARESH },
-						["questID"] = 91643,
-					}),
-					o(558112, {	-- The Facets of K'aresh
-						["description"] = "You need to Phasedive in order to see the Lore Object.",
-						["coord"] = { 72.1, 29.4, KARESH },
-						["questID"] = 91647,
-					}),
-				}),
-				-- Phased
-				o(549326, {	-- Phase-Lost Exchequer
-					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires the 4th Upgrade unlocked from the Reshii Wraps.\nCan be found at random locations through Untethered space.",
-					["minReputation"] = { FACTION_THE_KARESH_TRUST, 11 },	-- The K'aresh Trust Renown 11
-					["maps"] = { KARESH_TAZAVESH, KARESH },
-					-- No quest attached to them.
-					["sym"] = {	-- Zone Drop (This may need to change as the R11 Trait states "Find bigger treasures". Dunno if that means better rewards or some other reward pool.)
-						{"select","mapID",KHAZ_ALGAR},{"pop"},
-						{"where","mapID",KARESH},{"pop"},
-						{"where","headerID",ZONE_DROPS},{"pop"},
-					},
-					["groups"] = {	-- Has a chance to drop following
-						i(243147),	-- Ethereal Defense Pylon
-						i(243219),	-- Phased Ethereal Bow
+					o(531961, {	-- Untethered Xy'bucha
 						i(242371),	-- Untethered Xy'bucha
-					},
-				}),
-				o(516626, {	-- Phase-Lost Pocket-Storage
-					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires the 4th Upgrade unlocked from the Reshii Wraps.\nCan be found at random locations through Untethered space.",
-					["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
-					["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11
-					["maps"] = { KARESH_TAZAVESH, KARESH },
-					-- No quest attached to them.
-					["sym"] = {	-- Zone Drop
-						{"select","mapID",KHAZ_ALGAR},{"pop"},
-						{"where","mapID",KARESH},{"pop"},
-						{"where","headerID",ZONE_DROPS},{"pop"},
-					},
-					["groups"] = {	-- Has a chance to drop following
-						i(243147),	-- Ethereal Defense Pylon
-						i(243219),	-- Phased Ethereal Bow
-						i(242371),	-- Untethered Xy'bucha
-					},
-				}),
-				o(531961, {	-- Untethered Xy'bucha
-					i(242371),	-- Untethered Xy'bucha
-				}),
+					}),
+				},
 			}),
 			n(WORLD_QUESTS, {
 				--["sourceQuests"] = {},
