@@ -1505,6 +1505,7 @@ MobileDB.GameObject = {
 	[527488] = true,	-- Phantom Bloom
 	[527489] = true,	-- Lush Phantom Bloom
 	[529289] = true,	-- Spore Sample (q: 88711)
+	[531961] = true,	-- Untethered Xy'bucha
 	[536867] = true,	-- Swoopwing Eggs (q: 90773)
 	[537690] = true,	-- Prosperity Pebble (q: 90770)
 	[543115] = true,	-- Funny Candle
@@ -1688,16 +1689,16 @@ local UnknownObjectsCache = setmetatable({}, { __index = function(t, objectID)
 	return o
 end})
 local LastSoftInteract = {}
-local RegisterUNIT_SPELLCAST_START, UnregisterUNIT_SPELLCAST_START
+local RegisterUNIT_SPELLCAST_SENT, UnregisterUNIT_SPELLCAST_SENT
 -- Allows automatically tracking nearby ObjectID's and running check functions on them for data verification
 local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- app.PrintDebug("PLAYER_SOFT_INTERACT_CHANGED",previousGuid,newGuid)
 
-	-- previousGuid == newGuid when the player distance becomes close enough or far enough to change interaction cursor
+	-- previousGuid == newGuid when the player distance becomes close enough to interact
 	if not newGuid or previousGuid ~= newGuid then
 		LastSoftInteract.GuidType = nil
 		LastSoftInteract.ID = nil
-		UnregisterUNIT_SPELLCAST_START()
+		UnregisterUNIT_SPELLCAST_SENT()
 		return
 	end
 
@@ -1706,13 +1707,13 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	id = tonumber(id)
 	LastSoftInteract.GuidType = guidtype
 	LastSoftInteract.ID = id
-	-- app.PrintDebug(guidtype,id)
+	-- app.PrintDebug("Interact:",guidtype,id)
 
 	-- only check object soft-interact (for now)
 	if guidtype ~= "GameObject" then return end
 
-	-- close enough to an object to open, track potential looting via mouseclick for a few seconds
-	RegisterUNIT_SPELLCAST_START(10)
+	-- close enough to an object to open, track potential looting via mouseclick/interact for a few seconds
+	RegisterUNIT_SPELLCAST_SENT(10)
 
 	local objRef = app.SearchForObject("objectID", id)
 	-- only check sourced objects
@@ -1734,11 +1735,11 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 end
 AddEventFunc("PLAYER_SOFT_INTERACT_CHANGED", OnPLAYER_SOFT_INTERACT_CHANGED)
 
--- UNIT_SPELLCAST_START
+-- UNIT_SPELLCAST_SENT
 -- Allows handling some special logic in special cases for special spell casts
 local SpellIDHandlers = {
 	-- Opening (on Objects)
-	[6478] = function(source)
+	[6478] = function(source, dest)
 		if source ~= "player" then return end
 
 		-- Verify 'Opening' cast, report ObjectID if not Sourced
@@ -1749,7 +1750,7 @@ local SpellIDHandlers = {
 		-- if it's Sourced, we've already checked it via PLAYER_SOFT_INTERACT_CHANGED
 		if objRef then return end
 
-		local tooltipName = GameTooltipTextLeft1:GetText()
+		local tooltipName = dest or (GameTooltipTextLeft1 and GameTooltipTextLeft1:GetText())
 		objRef = UnknownObjectsCache[id]
 		local objID = objRef.keyval
 		-- report openable object
@@ -1763,28 +1764,30 @@ local SpellIDHandlers = {
 }
 -- Other 'Opening' spells
 SpellIDHandlers[3365] = SpellIDHandlers[6478]
+SpellIDHandlers[6247] = SpellIDHandlers[6478]
 
-local RegisteredUNIT_SPELLCAST_START
-local function OnUNIT_SPELLCAST_START(...)
-	-- app.PrintDebug("UNIT_SPELLCAST_START",...)
-	local source, _, id = ...
+local RegisteredUNIT_SPELLCAST_SENT
+local function OnUNIT_SPELLCAST_SENT(...)
+	-- app.PrintDebug("UNIT_SPELLCAST_SENT",...)
+	local source, dest, _, id = ...
 	local spellHandler = SpellIDHandlers[id]
 	if not spellHandler then return end
 
-	spellHandler(source)
+	spellHandler(source, dest)
+	UnregisterUNIT_SPELLCAST_SENT()
 end
-UnregisterUNIT_SPELLCAST_START = function()
-	if not RegisteredUNIT_SPELLCAST_START then return end
-	-- app.PrintDebug("Unregister.UNIT_SPELLCAST_START")
-	app:UnregisterEvent("UNIT_SPELLCAST_START")
-	RegisteredUNIT_SPELLCAST_START = nil
+UnregisterUNIT_SPELLCAST_SENT = function()
+	if not RegisteredUNIT_SPELLCAST_SENT then return end
+	-- app.PrintDebug("Unregister.UNIT_SPELLCAST_SENT")
+	app:UnregisterEvent("UNIT_SPELLCAST_SENT")
+	RegisteredUNIT_SPELLCAST_SENT = nil
 end
-RegisterUNIT_SPELLCAST_START = function(secTilRemove)
-	if RegisteredUNIT_SPELLCAST_START then return end
-	RegisteredUNIT_SPELLCAST_START = true
-	-- app.PrintDebug("Register.UNIT_SPELLCAST_START",secTilRemove)
-	app:RegisterFuncEvent("UNIT_SPELLCAST_START",OnUNIT_SPELLCAST_START)
-	app.CallbackHandlers.DelayedCallback(UnregisterUNIT_SPELLCAST_START, secTilRemove or 0.5)
+RegisterUNIT_SPELLCAST_SENT = function(secTilRemove)
+	if RegisteredUNIT_SPELLCAST_SENT then return end
+	RegisteredUNIT_SPELLCAST_SENT = true
+	-- app.PrintDebug("Register.UNIT_SPELLCAST_SENT",secTilRemove)
+	app:RegisterFuncEvent("UNIT_SPELLCAST_SENT",OnUNIT_SPELLCAST_SENT)
+	app.CallbackHandlers.DelayedCallback(UnregisterUNIT_SPELLCAST_SENT, secTilRemove or 0.5)
 end
 
 -- PLAYER_SOFT_TARGET_INTERACTION
@@ -1799,7 +1802,7 @@ local function OnPLAYER_SOFT_TARGET_INTERACTION()
 	if IgnoredChecksByType.GameObject.coord(LastSoftInteract.ID) then return end
 
 	-- If the player attempts to interact, hook for spell cast start event
-	RegisterUNIT_SPELLCAST_START()
+	RegisterUNIT_SPELLCAST_SENT()
 end
 AddEventFunc("PLAYER_SOFT_TARGET_INTERACTION", OnPLAYER_SOFT_TARGET_INTERACTION)
 
