@@ -1737,7 +1737,7 @@ AddEventFunc("PLAYER_SOFT_INTERACT_CHANGED", OnPLAYER_SOFT_INTERACT_CHANGED)
 
 -- UNIT_SPELLCAST_SENT
 -- Allows handling some special logic in special cases for special spell casts
-local SpellIDHandlers = {
+local SpellIDHandlers = setmetatable({
 	-- Opening (on Objects)
 	[6478] = function(source, dest)
 		if source ~= "player" then return end
@@ -1761,7 +1761,15 @@ local SpellIDHandlers = {
 			Name = tooltipName or "(No Tooltip Text Available)",
 		})
 	end
-}
+}, { __index = function(t, key)
+	if app.Debugging then
+		return function(source, dest)
+			if dest then
+				app.PrintDebug(app.Modules.Color.Colorize("Object Interact SpellID", app.Colors.LockedWarning),key,source,dest)
+			end
+		end
+	end
+end})
 -- Other 'Opening' spells
 SpellIDHandlers[3365] = SpellIDHandlers[6478]
 SpellIDHandlers[6247] = SpellIDHandlers[6478]
