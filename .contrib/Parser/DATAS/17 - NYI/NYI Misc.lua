@@ -1347,7 +1347,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(204885),	-- Boulder Breakdown Mixture
 			i(205220),	-- Corroded Key
 			i(204890),	-- Dampening Emitter
-			i(205198),	-- Detailed Titan Key
+			i(205198, {_wipe={"spellID"}}),	-- Detailed Titan Key
 			i(206026),	-- Ensemble: Enmity Hood and Cloak
 			i(205691),	-- Hypnotic Murloc Lure
 			i(204886),	-- Insulating Embershard

@@ -26,18 +26,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						{ 44.2, 16.9, KARESH },
 						{ 47.2, 15.8, KARESH },
 						{ 50.1, 36.2, KARESH },
+						{ 50.5, 54.1, KARESH },
 						{ 51.0, 69.1, KARESH },
 						{ 51.2, 67.7, KARESH },
-						{ 53.4, 20.6, KARESH },
 						{ 53.2, 60.4, KARESH },
+						{ 53.4, 20.6, KARESH },
+						{ 53.7, 48.4, KARESH },
+						{ 54.3, 63.2, KARESH },
+						{ 54.5, 50.1, KARESH },
 						{ 54.9, 63.8, KARESH },
 						{ 56.0, 21.5, KARESH },
 						{ 56.5, 20.9, KARESH },
+						{ 58.9, 57.5, KARESH },
+						{ 59.4, 60.5, KARESH },
 						{ 60.3, 28.4, KARESH },
 						{ 60.5, 55.5, KARESH },
 						{ 60.6, 42.0, KARESH },
 						{ 61.1, 27.3, KARESH },
 						{ 61.2, 39.2, KARESH },
+						{ 62.6, 41.6, KARESH },
 						{ 64.9, 55.0, KARESH },
 						{ 64.9, 52.2, KARESH },
 						{ 69.7, 55.3, KARESH },
@@ -428,6 +435,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						i(243219),	-- Phased Ethereal Bow
 						i(242371),	-- Untethered Xy'bucha
 					},
+				}),
+				o(531961, {	-- Untethered Xy'bucha
+					i(242371),	-- Untethered Xy'bucha
 				}),
 			}),
 			n(WORLD_QUESTS, {
