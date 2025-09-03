@@ -279,6 +279,10 @@ InstanceHelper.UpgradeMapping = {
 	-- #ENDIF
 };
 
+InstanceHelper.BossObjects = {
+	[SALHADAAR] = { 562348 },	-- Spoils of the Nexus-King
+}
+
 -- TODO:
 -- Hungering Void Curio Warbound versions
 -- LFR mod 149
@@ -425,7 +429,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 							["groups"] = { i(249699) },	-- Shadowguard Translocator
 						}),
 					}, {	-- RENOWN 5 --
-						q(91460, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow
+						q(91459, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow [N]
+						q(91460, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow [H]
+						q(91461, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow [M]
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
