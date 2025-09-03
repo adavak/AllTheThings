@@ -423,6 +423,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 							i(86799),	-- Starshatter
 							i(86764),	-- Eye of the Ancient Spirit
 							i(89971),	-- Mindshard Drape
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86851)),	-- Painful Thorned Ring (HoF)
 						},
 					}),
 				},
