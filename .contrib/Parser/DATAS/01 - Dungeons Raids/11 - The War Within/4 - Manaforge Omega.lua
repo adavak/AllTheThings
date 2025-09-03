@@ -425,6 +425,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 							["groups"] = { i(249699) },	-- Shadowguard Translocator
 						}),
 					}, {	-- RENOWN 5 --
+						q(91460, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
