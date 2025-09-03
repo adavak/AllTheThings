@@ -203,7 +203,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(161256),	-- Scorching Sands Helm
 					i(161260),	-- Scorching Sands Mantle
 					i(161265),	-- Scorching Sands Tunic
-					i(161277),	-- Scorching Sands Britches
 				}),
 				filter(MAIL, {
 					i(161155),	-- Resilient Outcast's Helmet

@@ -26,6 +26,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 90696,
 				["groups"] = {
 					i(239474),	-- Reshii Brute's Handguards
+					i(239456),	-- Reshii Scout's Jerkin
 					i(239467),	-- Reshii Skirmisher's Cowl
 				},
 			}),
@@ -108,6 +109,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
+					i(240121),	-- Reshii Brute's Barrier
 					i(240118),	-- Reshii Brute's Spear
 					i(240113),	-- Reshii Magi's Dagger
 					i(240117),	-- Reshii Magi's Wand

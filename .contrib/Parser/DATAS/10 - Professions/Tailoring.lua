@@ -915,7 +915,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(66899, {	-- Fuzzy Legs
 				["description"] = "Requires 25 Skill.",
-				["provider"] = { "n", 191000 },	-- Dothenos
+				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil <Requisitions Officer>
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
 				["groups"] = {
 					i(193865),	-- Fuzzy Legs (QI!)

@@ -1062,7 +1062,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(191053),	-- 10.0 Food/Drink Template - Drink Only - Level 70 - Required Level 65
 			i(191050),	-- 10.0 Food/Drink Template - Food Only - Level 65 - Required Level 60
 			i(191051),	-- 10.0 Food/Drink Template - Food Only - Level 70 - Required Level 65
-			i(200282),	-- A Steamy Romance Novel: The Lusty Draconian Mage
 			i(194442),	-- Activity Map: Apex Canopy
 			i(201834),	-- Add Keystone Affix: Thundering
 			i(191667),	-- Aged Key

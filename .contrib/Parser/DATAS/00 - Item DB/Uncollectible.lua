@@ -2540,6 +2540,7 @@ i(241633);	-- Tiny Decorative Rocket
 ------------------
 i(244358);	-- "Prophecies of the Void"
 i(246584);	-- A Steamy Romance Novel: Devouring Love
+i(200282);	-- A Steamy Romance Novel: The Lusty Draconian Mage
 i(238881);	-- Barbed Predator Tusk
 i(245672);	-- Blade of the Void Swamp
 i(238834);	-- Burnished Void Claw

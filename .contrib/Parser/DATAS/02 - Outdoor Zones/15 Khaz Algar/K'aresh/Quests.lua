@@ -1685,10 +1685,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["isDaily"] = true,
 						["groups"] = { i(238913) },	-- Condenser Disc (PQI!)
 					}),
-					q(86342, {	--
+					q(86342, {	-- Soaring over K'aresh
+						["qg"] = 230736,	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
 					}),
-					q(89192, {	--
+					q(89192, {	-- A Hard Day's Work
+						["qg"] = 230736,	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
 					}),
 				}),
@@ -2253,7 +2257,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(90081, {	-- Arcane Runed Sigil
 						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
 						["qg"] = 238181,	-- Acquisitioner Xy'gui
-						["coord"] = { 51.2, 48.2, KARESH },
+						["coords"] = {
+							{ 51.2, 48.2, KARESH },
+							{ 53.8, 26.8, KARESH },
+						},
 						["repeatable"] = true,
 						["groups"] = {
 							i(245740),	-- Etched Fragment (QI!)
