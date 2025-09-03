@@ -366,6 +366,10 @@ end})
 local ReportedAreas = {};
 app.AddEventHandler("OnReportReset", function() wipe(ReportedAreas) end)
 local function PrintDiscordInformationForExploration(o)
+	-- Temporarily disabled reports for users until we have most areas sorted.
+	-- We can't rely on the ID guessing based on the area name when we miss so many still.
+	if true then return end
+
 	if not app.Contributor then return end
 	local areaID = o.explorationID;
 	if not areaID or ReportedAreas[areaID] then return; end

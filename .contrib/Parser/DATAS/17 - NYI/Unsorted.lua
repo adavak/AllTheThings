@@ -1381,6 +1381,19 @@ root(ROOTS.Unsorted, {
 				exploration(15096),	-- Winter's Landing
 			}),
 		})),
+		expansion(EXPANSION.DF, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
+			n(EXPLORATION, {
+				-- Time Rifts
+				instance_exploration(14770),	-- Azmerloth
+				instance_exploration(14840),	-- A.Z.E.R.O.T.H.
+				instance_exploration(14841),	-- Azq'roth
+				instance_exploration(14842),	-- Ulderoth
+				instance_exploration(14843),	-- Azewrath
+				instance_exploration(14845),	-- The Warlands
+				instance_exploration(14846),	-- Ulderoth
+				instance_exploration(14844),	-- Azmourne
+			}),
+		})),
 		expansion(EXPANSION.DF, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 			n(EXPLORATION, {
 				-- Zaralek Cavern
@@ -1503,6 +1516,15 @@ root(ROOTS.Unsorted, {
 				exploration(13992),	-- The Primalist Future
 				exploration(14148),	-- Out of Temporal Bounds
 				exploration(14454),	-- Temporal Conflux
+				exploration(13993),	-- The Gnoll War
+				exploration(13994),	-- War of the Shifting Sands
+				exploration(13995),	-- Pandaren Revolution
+				exploration(13996),	-- The Black Empire
+				exploration(14092),	-- Azmerloth
+				exploration(14098),	-- Azmerloth - Timeless Area
+				exploration(14149),	-- Pandaren Revolution - No Man's Land
+				exploration(14151),	-- The Gnoll War- No Man's Land
+				exploration(14152),	-- War of the Shifting Sands - No Man's Land
 			}),
 		})),
 		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_10_0_0 } }, {
