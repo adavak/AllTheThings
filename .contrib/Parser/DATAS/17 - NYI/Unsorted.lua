@@ -10,8 +10,6 @@ root(ROOTS.Unsorted, {
 			i(190547),	-- Val'sharah Protector's Bracers
 			i(190676),	-- Val'sharah Protector's Gauntlets
 			i(190868),	-- Verdant Dreamscribed Scrollmantle
-			i(232303),	-- Unbound Banner of the Algari
-			i(232307),	-- Astral Champion's Prestigious Banner
 			i(234273),	-- A Dimmed Crystal
 			i(235903),	-- Gold Lightforged Chestguard
 			i(237750),	-- Warbreaker's Revenge
