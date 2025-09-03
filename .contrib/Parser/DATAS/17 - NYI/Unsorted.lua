@@ -989,16 +989,7 @@ root(ROOTS.Unsorted, {
 				i(186639),	-- Xy Trustee's Gearglider
 				i(242713),	-- Resplendent K'arroc
 				i(246698),	-- Sunwarmed Furline
-				i(246917),	-- Thunder-ridged Elekk
-				i(246919),	-- Cinder-seared Elekk
 				i(246920),	-- Void-Razed Elekk
-				i(246921),	-- Legion Forged Elekk
-				i(247720),	-- The Headless Horseman's Chilling Charger
-				i(247721),	-- The Headless Horseman's Ghoulish Charger
-				i(247722),	-- The Headless Horseman's Burning Charger
-				i(247723),	-- The Headless Horseman's Ghostly Charger
-				i(247791),	-- Windmaster's Battlesworn
-				i(247794),	-- Darkfeather Eclipse
 			}),
 			n(PROFESSIONS, {
 				i(231770),	-- Formula: Enchanted Gilded Ethereal Crest

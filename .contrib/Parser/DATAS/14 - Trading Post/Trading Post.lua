@@ -1887,6 +1887,15 @@ root(ROOTS.NeverImplemented, {
 		filter(MOUNTS, {
 			mount(369480),	-- Cerulean Marsh Hopper (MOUNT!)
 			i(137615),	-- Molten Flarecore (MOUNT!)
+			i(247791),	-- Adorned Northeron Gryphon
+			i(246919),	-- Cinder-seared Elekk
+			i(247794),	-- Emberwing Sky Guide
+			i(246921),	-- Legion Forged Elekk
+			i(246917),	-- Thunder-ridged Elekk
+			i(247720),	-- The Headless Horseman's Chilling Charger
+			i(247721),	-- The Headless Horseman's Ghoulish Charger
+			i(247722),	-- The Headless Horseman's Burning Charger
+			i(247723),	-- The Headless Horseman's Ghostly Charger
 		}),
 	})),
 });
