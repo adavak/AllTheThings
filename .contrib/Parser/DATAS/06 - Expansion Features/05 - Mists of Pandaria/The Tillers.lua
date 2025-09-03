@@ -984,7 +984,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						objective(1, {	-- 0/1 Sheepie
 							["providers"] = {
 								{ "i", 86446 },	-- Sheepie (QI!)
-								{ "n", 64386 },	-- Sheepie
+								{ "n", 64385 },	-- Sheepie
 							},
 							["coord"] = { 34.91, 38.34, VALLEY_OF_THE_FOUR_WINDS },
 						}),
@@ -999,7 +999,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						objective(1, {	-- 0/1 Sheepie
 							["providers"] = {
 								{ "i", 86446 },	-- Sheepie (QI!)
-								{ "n", 64385 },	-- Sheepie
+								{ "n", 64386 },	-- Sheepie
 							},
 							["coord"] = { 35.0, 38.6, VALLEY_OF_THE_FOUR_WINDS },
 						}),
