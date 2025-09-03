@@ -305,9 +305,9 @@ REMOVED_4_4_0 = "removed 4.4.0.54481";					-- Cataclysm Classic 4.4.0/Pre-Patch 
 CREATED_4_4_1 = "created 4.4.1.54481";					-- Cataclysm Classic 4.4.1 launch on October 29th, 2024
 ADDED_4_4_1 = "added 4.4.1.54481";						-- Cataclysm Classic 4.4.1 launch on October 29th, 2024
 REMOVED_4_4_1 = "removed 4.4.1.54481";					-- Cataclysm Classic 4.4.1 launch on October 29th, 2024
-CREATED_4_4_2 = "created 4.4.2";						-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
-ADDED_4_4_2 = "added 4.4.2";							-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
-REMOVED_4_4_2 = "removed 4.4.2";						-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
+CREATED_4_4_2 = "created 4.4.2.59185";					-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
+ADDED_4_4_2 = "added 4.4.2.59185";						-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
+REMOVED_4_4_2 = "removed 4.4.2.59185";					-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
 
 -----------------------
 -- MISTS OF PANDARIA --
