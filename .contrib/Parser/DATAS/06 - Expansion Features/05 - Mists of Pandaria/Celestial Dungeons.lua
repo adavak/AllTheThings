@@ -105,6 +105,33 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 			n(ACHIEVEMENTS, {
 				ach(60901),	-- Pandaria Celestial Hero (automated)
 			}),
+			n(COMMON_BOSS_DROPS, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+					1243929	-- Dominion of the Empress
+				),
+				["description"] = "The following can drop from the final boss of any heroic dungeon on Celestial difficulty.",
+				["maps"] = CELESTIAL_DUNGEON_MAPS,
+				["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES,
+				["groups"] = appendGroups(applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, {	-- Tier Tokens
+					i(89274),	-- Helm of the Shadowy Conqueror (Terrace)
+					i(89275),	-- Helm of the Shadowy Protector (Terrace)
+					i(89273),	-- Helm of the Shadowy Vanquisher (Terrace)
+					i(89277),	-- Shoulders of the Shadowy Conqueror (Terrace)
+					i(89278),	-- Shoulders of the Shadowy Protector (Terrace)
+					i(89276),	-- Shoulders of the Shadowy Vanquisher (Terrace)
+				}),
+				applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, {	-- Tier Tokens
+					i(89265),	-- Chest of the Shadowy Conqueror (HoF)
+					i(89266),	-- Chest of the Shadowy Protector (HoF)
+					i(89264),	-- Chest of the Shadowy Vanquisher (HoF)
+					i(89271),	-- Gauntlets of the Shadowy Conqueror (HoF)
+					i(89272),	-- Gauntlets of the Shadowy Protector (HoF)
+					i(89270),	-- Gauntlets of the Shadowy Vanquisher (HoF)
+					i(89268),	-- Leggings of the Shadowy Conqueror (HoF)
+					i(89269),	-- Leggings of the Shadowy Protector (HoF)
+					i(89267),	-- Leggings of the Shadowy Vanquisher (HoF)
+				}), {}),
+			}),
 			-- Alliance Dailies
 			n(QUESTS, sharedData({
 				["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons> (Alliance)
