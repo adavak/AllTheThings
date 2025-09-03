@@ -1503,9 +1503,11 @@ MobileDB.GameObject = {
 	[523535] = true,	-- Torch (Nightfall)
 	[523689] = true,	-- Mossy Snake Bed (q:88666)
 	[524223] = true,	-- K'arroc Egg (q:88671)
-	[526959] = true,	-- Challenger's Cache
-	[526972] = true,	-- Challenger's Cache
-	[526979] = true,	-- Challenger's Cache
+	[526959] = true,	-- Challenger's Cache (Priory of the Sacred Flame)
+	[526963] = true,	-- Challenger's Cache (Ara'kara, City of Echoes)
+	[526972] = true,	-- Challenger's Cache (Tazavesh, the Veiled Market - Streets)
+	[526977] = true,	-- Challenger's Cache (Tazavesh, the Veiled Market - Gambit)
+	[526979] = true,	-- Challenger's Cache (Halls of Atonement)
 	[527488] = true,	-- Phantom Bloom
 	[527489] = true,	-- Lush Phantom Bloom
 	[529289] = true,	-- Spore Sample (q: 88711)
@@ -1515,6 +1517,7 @@ MobileDB.GameObject = {
 	[543115] = true,	-- Funny Candle
 	[547532] = true,	-- Ky'veza's Etheric Cache
 	[549326] = true,	-- Phase-Lost Exchequer
+	[562348] = true,	-- Spoils of the Nexus-King
 	[567732] = true,	-- Kaja'6-Pack
 }
 

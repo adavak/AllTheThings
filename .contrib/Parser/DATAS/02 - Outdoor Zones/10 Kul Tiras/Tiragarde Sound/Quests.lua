@@ -306,7 +306,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 55.4, 24.6, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(158673),	-- Torcalin Armguards
+					h(i(158673)),	-- Torcalin Armguards
 				},
 			}),
 			q(49439, {	-- Boss' Revenge
@@ -1467,9 +1467,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					h(i(158672)),	-- Jambani Bracers
 					h(i(158674)),	-- Rastari Wristwraps
 					h(i(158675)),	-- Zanchuli Bracelets
-					--i(158673, {	-- Torcalin Armguards
-					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					--}),
 				},
 			}),
 			q(50058, {	-- The Witch's Pet
