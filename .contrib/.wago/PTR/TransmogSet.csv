@@ -1447,10 +1447,10 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Juggernaut Battlegear",1517,1,0,256,62,2015,1516,1,6,70300,9302,0
 "Juggernaut Battlegear",1518,1,0,256,62,13145,1516,1,6,70300,9303,0
 "Juggernaut Battlegear",1519,1,0,256,62,1641,1516,1,6,70300,9300,0
-"Highmountain's Heritage",1522,0,49783,10,64,0,0,1,0,70305,10,54204
-"Heritage of the Shal'dorei",1523,0,49784,10,64,0,0,1,0,70305,10,54205
-"Heritage of the Ren'dorei",1524,0,49928,6,64,0,0,1,0,70305,10,54203
-"Heritage of the Lightforged",1525,0,49782,6,64,0,0,1,0,70305,10,54202
+"Highmountain's Heritage",1522,0,49783,10,208,0,0,1,0,70305,10,54204
+"Heritage of the Shal'dorei",1523,0,49784,10,208,0,0,1,0,70305,10,54205
+"Heritage of the Ren'dorei",1524,0,49928,6,208,0,0,1,0,70305,10,54203
+"Heritage of the Lightforged",1525,0,49782,6,208,0,0,1,0,70305,10,54202
 "Goldspine Plate",1526,35,50347,2,60,0,0,1,1,20000,1150,0
 "Crimson Sentinel Garb",1527,4164,50346,2,60,0,0,1,1,20000,1150,0
 "Tundraspite Armor",1528,3592,50345,2,60,0,0,1,1,20000,1150,0
@@ -1503,10 +1503,10 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Dread Gladiator's Plate",1675,35,63568,280,167,13301,0,1,7,80001,11002,0
 "Dread Aspirant's Plate",1676,35,60682,282,167,13303,1675,1,7,80001,10999,0
 "Honorbound Centurion's Plate",1677,35,0,280,167,13448,1675,1,7,80001,11001,0
-"Heritage of the Dark Iron",1679,0,51483,6,64,0,0,1,0,80001,10,61660
-"Heritage of the Warsong",1680,0,51484,10,64,0,0,1,0,80001,10,61661
-"Heritage of the Blackrock",1681,0,51484,10,64,0,0,1,0,80001,10,61661
-"Heritage of the Frostwolves",1682,0,51484,10,64,0,0,1,0,80001,10,61661
+"Heritage of the Dark Iron",1679,0,51483,6,208,0,0,1,0,80001,10,61660
+"Heritage of the Warsong",1680,0,51484,10,208,0,0,1,0,80001,10,61661
+"Heritage of the Blackrock",1681,0,51484,10,208,0,0,1,0,80001,10,61661
+"Heritage of the Frostwolves",1682,0,51484,10,208,0,0,1,0,80001,10,61661
 "Dread Gladiator's Vestment",1691,400,0,27,0,0,0,1,7,80001,11003,0
 "Dread Gladiator's Vestment",1692,400,0,27,0,0,0,1,7,80001,11003,0
 "Dread Gladiator's Vestment",1693,400,0,27,0,0,0,1,7,80001,11003,0
@@ -1545,8 +1545,8 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Dread Gladiator's Vestment",1738,400,0,278,167,3859,1654,1,7,80001,11003,0
 ,1739,0,0,1,0,0,0,1,7,80001,1200,0
 ,1740,0,0,3,0,0,0,1,0,20001,200,0
-"Heritage of Kul Tiras",1741,0,53722,6,64,0,0,1,0,80105,10,66693
-"Heritage of the Zandalari",1742,0,53721,10,64,0,0,1,0,80105,10,64968
+"Heritage of Kul Tiras",1741,0,53722,6,208,0,0,1,0,80105,10,66693
+"Heritage of the Zandalari",1742,0,53721,10,208,0,0,1,0,80105,10,64968
 "Sinister Gladiator's Vestment",1743,400,0,27,0,0,0,1,7,80100,11103,0
 "Sinister Gladiator's Vestment",1744,35,0,27,0,0,0,1,7,80100,11103,0
 "Deathguard's Battleplate",1745,35,0,280,168,13448,0,1,7,80100,11101,0
@@ -1607,8 +1607,8 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Sinister Gladiator's Vestment",1800,400,0,23,0,0,0,1,7,80100,11103,0
 "Sinister Gladiator's Vestment",1801,400,0,278,168,3859,1796,1,7,80100,11103,0
 "Sinister Gladiator's Vestment",1802,400,63560,278,168,13301,1796,1,7,80100,11102,0
-"Heritage of the Bronzebeard",1803,0,53846,2,0,0,0,1,0,80001,10,34465
-"Heritage of the Sin'dorei",1804,0,54096,2,0,0,0,1,0,80001,10,47452
+"Heritage of the Bronzebeard",1803,0,53846,2,208,0,0,1,0,80001,10,34465
+"Heritage of the Sin'dorei",1804,0,54096,2,208,0,0,1,0,80001,10,47452
 "Soul Reaper's Raiment",1806,400,0,0,169,13193,0,1,7,80001,11110,0
 "Soul Reaper's Raiment",1807,400,0,0,169,1641,1806,1,7,80001,11109,0
 "Soul Reaper's Raiment",1808,400,0,0,169,2015,1806,1,7,80001,11111,0
@@ -1631,8 +1631,8 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Chainmail of the Timeless Hunt",1825,4164,55566,2,60,0,0,1,1,20000,1150,0
 "Restless Dreambound Battlegear",1826,3592,55572,2,60,0,0,1,1,20000,1150,0
 "Tranquil Spiritbind Regalia",1827,400,55587,2,60,0,0,1,1,20000,1150,0
-"Heritage of Gnomeregan",1828,0,54642,6,0,0,0,1,0,80200,10,33812
-"Heritage of the Shu'halo",1829,0,54765,10,0,0,0,1,0,80200,10,40576
+"Heritage of Gnomeregan",1828,0,54642,6,208,0,0,1,0,80200,10,33812
+"Heritage of the Shu'halo",1829,0,54765,10,208,0,0,1,0,80200,10,40576
 "Naga Lord's Warplate",1830,35,0,0,172,13193,0,1,7,80200,11110,0
 "Queen's Guard Scalemail",1831,4164,0,0,172,13193,0,1,7,80200,11110,0
 "Razorfin Regalia",1832,3592,0,0,172,13193,0,1,7,80200,11110,0
@@ -1713,7 +1713,7 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Beaststalker Armor",1911,4,0,3,0,0,0,1,0,80205,0,0
 "Wildheart Raiment",1912,1024,0,3,0,0,0,1,0,80205,0,0
 "Vestments of the Eternal Traveler",1913,0,57686,2,239,0,0,1,7,80205,10,0
-"Sprite Darter's Wings",1914,0,0,2,238,0,0,1,7,80305,10,0
+"Sprite Darter's Wings",1914,0,0,258,238,0,0,1,7,80305,10,0
 "Crown of Eternal Winter",1915,0,0,1,0,0,0,1,7,80205,10,0
 "Jewel of the Firelord",1916,0,0,1,0,0,0,1,7,80205,10,0
 "Hood of Hungering Darkness",1917,0,0,1,0,0,0,1,7,80205,10,0
@@ -1745,11 +1745,11 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Corrupted Gladiator's Chain",1973,4164,0,282,175,3859,1957,1,7,80300,3601,0
 "Corrupted Gladiator's Leathers",1974,3592,0,282,175,3859,1963,1,7,80300,3601,0
 "Corrupted Gladiator's Vestment",1975,400,0,282,175,3859,1969,1,7,80300,3601,0
-"Heritage of Gilneas",1976,0,54990,6,0,0,0,1,0,80300,10,47456
-"Heritage of Kezan",1977,0,57080,10,0,0,0,1,0,80305,10,34466
+"Heritage of Gilneas",1976,0,54990,6,208,0,0,1,0,80300,10,47456
+"Heritage of Kezan",1977,0,57080,10,208,0,0,1,0,80305,10,34466
 "Zeppelin Pilot's Helmet",1978,0,57080,11,0,0,0,1,0,80305,10,0
-"Heritage of the Mechagnome",1980,0,58436,6,64,0,0,1,0,80305,10,74394
-"Heritage of the Vulpera",1981,0,58435,10,64,0,0,1,0,80305,10,74393
+"Heritage of the Mechagnome",1980,0,58436,6,208,0,0,1,0,80305,10,74394
+"Heritage of the Vulpera",1981,0,58435,10,208,0,0,1,0,80305,10,74393
 "Cosmic Aberration's Plate",1982,35,0,0,176,13193,0,1,7,80305,4301,0
 "Cosmic Aberration's Plate",1983,35,0,0,176,1641,1982,1,7,80305,4300,0
 "Cosmic Aberration's Plate",1984,35,0,0,176,2015,1982,1,7,80305,4302,0
@@ -1961,7 +1961,7 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Corrupted Aspirant's Arsenal",2197,0,63234,281,0,0,0,1,8,90002,600,0
 "Corrupted Gladiator's Arsenal",2198,0,63236,277,0,0,0,1,8,90002,600,0
 "Corrupted Gladiator's Arsenal",2199,0,63235,281,0,0,0,1,8,90002,600,0
-"Celestial Observer's Ensemble",2200,0,0,2,237,0,0,1,8,90100,10,0
+"Celestial Observer's Ensemble",2200,0,0,258,237,0,0,1,8,90100,10,0
 "Dark Iron Weapons",2201,0,63536,1,0,0,0,1,8,0,3700,0
 "Garb of the Azure Dusk",2202,0,63595,0,184,13859,2205,1,8,90100,10,93649
 "Garb of the Twilight Grove",2203,0,63596,0,184,13850,2205,1,8,90100,10,93649
@@ -2050,8 +2050,8 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Unchained Gladiator's Plate",2289,35,0,19,0,0,0,1,8,90100,2000,0
 "Unchained Gladiator's Plate",2290,35,0,19,0,0,0,1,8,90100,2000,0
 "Baby Murloc Satch-Shells",2291,0,0,131,0,0,0,1,8,90105,10,0
-"Ravencrest's Battleplate",2292,35,65176,2,0,0,0,1,8,90105,1640,0
-"Wings of Awakening",2293,0,0,131,0,0,0,1,8,90105,10,0
+"Ravencrest's Battleplate",2292,35,65176,2,349,0,0,1,8,90105,1640,0
+"Wings of Awakening",2293,0,0,387,0,0,0,1,8,90105,10,0
 "Gravewarden Armaments",2294,32,64923,2,56,13216,1337,1,6,90105,8904,0
 "Demonbane Armor",2295,2048,64924,2,56,13216,1333,1,6,90105,8904,0
 "Stormheart Raiment",2296,1024,64925,2,56,13216,1329,1,6,90105,8904,0
@@ -2232,10 +2232,10 @@ BT,1344,0,0,1,0,0,0,1,0,0,4630,0
 "Cosmic Gladiator's Plate Armor",2477,1,0,19,0,0,0,1,8,90200,2000,0
 "Cosmic Gladiator's Plate Armor",2478,1,0,19,0,0,0,1,8,90200,2000,0
 "Cosmic Gladiator's Plate Armor",2479,1,0,19,0,0,0,1,8,90200,2000,0
-"Blood Knight's Dedication",2481,2,66280,256,0,0,0,1,8,90205,10,95684
-"Fireplume Regalia",2482,0,0,2,236,0,0,1,8,90205,10,0
+"Blood Knight's Dedication",2481,2,66280,256,347,0,0,1,8,90205,10,95684
+"Fireplume Regalia",2482,0,0,258,236,0,0,1,8,90205,10,0
 "Lavaforge Arsenal",2483,0,66302,3,0,0,0,1,8,90205,10,0
-"Dark Ranger's Attire",2484,4,66309,0,0,0,0,1,8,90205,10,42890
+"Dark Ranger's Attire",2484,4,66309,0,350,0,0,1,8,90205,10,42890
 "Dracthyr Battlegear",2485,0,66371,3,0,0,0,1,9,100000,2000,0
 "Cosmic Gladiator's Prestigious Cloak",2486,0,0,19,0,0,0,1,8,90200,1550,0
 "Cosmic Gladiator's Vestment",2487,0,0,19,0,0,0,1,8,90200,10,0
@@ -2347,7 +2347,7 @@ Drakebreaker,2664,4164,0,0,199,13980,2663,1,9,100000,10200,0
 Drakebreaker,2666,3592,0,0,199,13980,2665,1,9,100000,10200,0
 "Raging Tempest",2667,35,0,0,199,13979,0,1,9,100000,10200,0
 Drakebreaker,2668,35,0,0,199,13980,2667,1,9,100000,10200,0
-"Solemn Watchman's Garb",2669,0,72092,2,198,0,0,1,9,100005,10,0
+"Solemn Watchman's Garb",2669,0,72092,2,351,13968,0,1,9,100005,10,0
 "Obsidian Dracthyr Battlegear",2670,4164,72112,0,200,13981,2672,1,9,100000,10050,0
 "Sabellian's Battlegear",2671,0,72115,65,201,0,0,1,9,100000,10150,0
 "Emerald Dracthyr Battlegear",2672,4164,0,2,200,13983,0,1,9,100000,10050,0
@@ -2762,7 +2762,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Silks of the Unnamed Cult",3083,0,77506,67,0,0,0,1,9,100105,10,0
 "Blood Onyx Uniform",3084,0,77567,67,0,0,0,1,9,100105,10,0
 "High Scholar's Arcana",3085,0,77569,2,234,0,0,1,9,100105,10,0
-"Forsaken Champion's Attire",3086,0,77654,10,222,0,0,1,0,100107,10,112641
+"Forsaken Champion's Attire",3086,0,77654,10,208,0,0,1,0,100107,10,112641
 "Anachronistic Vestments",3087,400,0,0,215,14028,3011,1,9,100105,4020,0
 "Garments of Discontinuity",3088,3592,0,0,215,14028,3015,1,9,100105,4020,0
 "Paradoxical Raiment",3089,4164,0,0,215,14028,3019,1,9,100105,4020,0
@@ -2797,7 +2797,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Tools of Krag'wa's Executor",3118,0,77752,67,0,0,0,1,9,100200,10,0
 "Traditionalist's Kaldorei Blades",3119,0,77783,67,0,0,0,1,9,100107,10,0
 "Rose Gold Titan Key",3120,0,77830,3,0,0,0,1,9,100107,10,0
-"Kaldorei Protector's Adornment",3121,0,77884,6,222,14033,0,1,0,100107,10,38250
+"Kaldorei Protector's Adornment",3121,0,77884,6,208,14033,0,1,0,100107,10,38250
 "Cosmic Weapons Cache",3122,0,77952,195,0,0,0,1,9,100107,10,0
 "Chromatically Calibrated Holo-Gogs",3123,0,78030,1,0,0,0,1,9,100107,10999,0
 "Chromatically Calibrated Bio-Optic Killshades",3124,0,78031,1,0,0,0,1,9,100107,10999,0
@@ -2806,7 +2806,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Chromatically Calibrated Cranial Cannons",3127,0,78035,1,0,0,0,1,9,100107,10999,0
 "Stormrider's Attire",3128,0,78048,2,233,14130,0,1,9,100107,1640,0
 "Thundering Stormrider's Attire",3129,0,78049,2,233,14036,3128,1,9,100107,1640,0
-"Raiment of Amirdrassil",3130,0,78086,6,222,14032,3121,1,9,100200,10,38250
+"Raiment of Amirdrassil",3130,0,78086,6,208,14032,3121,1,9,100200,10,38250
 "Ceremonial Jacaranda Regalia",3131,400,0,0,224,14034,0,1,9,100200,10,0
 "Embrace of the Dreamfused Skull",3132,4164,0,0,224,14034,0,1,9,100200,10,0
 "Barkbloom Warleathers",3133,3592,0,0,224,14034,0,1,9,100200,10,0
@@ -2978,7 +2978,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Barkbloom Warleathers",3299,3592,0,0,224,14041,3133,1,9,100200,10,0
 "Ceremonial Jacaranda Regalia",3300,400,0,0,224,14041,3131,1,9,100200,10,0
 "[DNT] 10.2 Mythic VFX Unlock - All Items",3301,0,78422,259,0,0,0,1,9,100200,3986,0
-"Elegant Green Dragon Outerwear",3302,0,78599,0,0,13591,2912,1,9,100200,10,0
+"Elegant Green Dragon Outerwear",3302,0,78599,0,213,13591,2912,1,9,100200,10,0
 "Scarlet Zealot's Trappings",3303,0,78644,67,198,0,0,1,9,0,1640,0
 "Moonberry's Many Mischief Makers",3304,0,78707,273,0,0,0,1,9,0,4150,0
 "Burden of Unrelenting Justice",3305,0,78712,2,246,14134,0,1,9,100200,10299,0
@@ -3022,11 +3022,11 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Stormrider's Stormhammers",3343,0,78822,67,0,0,0,1,9,100107,1640,0
 "Ochre Ornament of the Grove",3344,0,78829,3,0,0,0,1,9,100200,9050,0
 "Whispering Temple Blades",3345,0,78840,65,0,0,0,1,9,100200,1640,0
-"Embrace of Lost Embaari",3346,0,78841,6,228,14015,0,1,0,100207,10,38254
-"Endurance of Temple Telhamat",3347,0,78843,6,228,14097,3346,1,0,100207,10,38254
+"Embrace of Lost Embaari",3346,0,78841,6,208,14015,0,1,0,100207,10,38254
+"Endurance of Temple Telhamat",3347,0,78843,6,208,14097,3346,1,0,100207,10,38254
 "Additional Tokens of Lost Embaari",3348,0,78844,7,0,0,0,1,0,100207,10,38254
 "Additional Tokens of Telhamat",3349,0,78845,7,0,0,0,1,0,100207,10,38254
-"Covenant of the Darkspear",3350,0,78913,10,228,14125,0,1,0,100207,10,56823
+"Covenant of the Darkspear",3350,0,78913,10,208,14125,0,1,0,100207,10,56823
 "Gilnean Noble's Suit",3351,0,80080,2,250,0,0,1,9,100205,4150,0
 "Outlandish Drake Racer's Silks",3352,0,0,0,227,14105,3054,1,9,100205,10,0
 "Ruby Riders of Azeroth Tabard",3353,0,79142,3,0,0,0,1,9,100205,10,0
@@ -3190,13 +3190,13 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Secrets of the Abyssal Cult",3512,0,80460,323,0,0,0,1,9,100207,10,0
 "Armaments of the Holy Avenger",3513,0,80459,323,0,0,0,1,9,100207,10,0
 "Plate of the Holy Avenger",3514,0,80458,323,0,0,0,1,9,100207,10,0
-"Loyalty of the Darkspear",3515,0,80503,10,228,13965,3350,1,0,100207,10,56823
+"Loyalty of the Darkspear",3515,0,80503,10,208,13965,3350,1,0,100207,10,56823
 "Mask of Lukou",3516,0,80542,11,0,0,0,1,0,100207,10,56823
 "Mask of Lukou",3517,0,80543,11,0,0,0,1,0,100207,10,56823
 "Expeditionary Arathi Attire",3518,0,0,0,253,13591,0,1,10,110000,10,0
 "Honorary Councilmember's Mandate",3519,0,0,0,254,13591,0,1,10,110000,10,0
-"Finery of the Assembly",3520,0,0,0,0,13591,0,1,10,110000,10,0
-"Thread-Bearer's Carapace",3521,0,0,0,0,13591,0,1,10,110000,10,0
+"Finery of the Assembly",3520,0,0,0,345,13591,0,1,10,110000,10,0
+"Thread-Bearer's Carapace",3521,0,0,0,346,13591,0,1,10,110000,10,0
 "Cardinal Educator's Knowledge",3522,0,81517,0,261,13965,3525,1,10,110000,10,0
 "Lilac Educator's Knowledge",3523,0,81519,256,261,14015,3525,1,10,110000,10,0
 "Leafy Educator's Knowledge",3524,0,81520,0,261,13968,3525,1,10,110000,10,0
@@ -3373,9 +3373,9 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Forged Aspirant's Chain Armor",3697,4164,85374,272,271,13303,3656,1,10,110000,10200,0
 "Forged Aspirant's Leather Armor",3698,3592,85375,272,271,13303,3657,1,10,110000,10200,0
 "Forged Aspirant's Silk Armor",3699,400,85376,272,271,13303,3658,1,10,110000,10200,0
-"Heritage of Khaz Algar",3700,0,82771,2,272,14166,0,1,0,110000,10,123985
-"Heritage of Khaz Algar",3701,0,82771,2,272,14165,3700,1,0,110000,10,123985
-"Heritage of Khaz Algar",3702,0,82771,2,272,14164,3700,1,0,110000,10,123985
+"Heritage of Khaz Algar",3700,0,82771,2,208,14166,0,1,0,110000,10,123985
+"Heritage of Khaz Algar",3701,0,82771,2,208,14165,3700,1,0,110000,10,123985
+"Heritage of Khaz Algar",3702,0,82771,2,208,14164,3700,1,0,110000,10,123985
 "Forged Gladiator's Silk Armor",3704,128,0,19,0,0,0,1,10,110000,3820,0
 "Forged Gladiator's Silk Armor",3705,128,0,19,0,0,0,1,10,110000,3820,0
 "Forged Gladiator's Silk Armor",3706,128,0,19,0,0,0,1,10,110000,3820,0
@@ -3974,7 +3974,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Ensemble: Topsy Turvy Mask Set",4328,0,86940,323,0,0,0,1,10,0,1640,0
 "Cloak of Infinite Potential",4329,0,86963,323,0,0,0,1,10,110005,9901,0
 "Vileweave Vestments",4330,400,87159,320,306,13193,0,1,6,70001,3000,0
-"Heritage of the Lightforged",4331,0,87224,70,64,14228,1525,1,0,70305,5000,54202
+"Heritage of the Lightforged",4331,0,87224,70,208,14228,1525,1,0,70305,5000,54202
 "Swabbie's Shovel",4332,0,0,3,0,0,0,1,10,110007,10,0
 "Venture Co. Bruiser's Attire",4333,0,0,0,308,14122,4265,1,10,110100,10,0
 "Steamwheedle Bruiser's Attire",4334,0,0,0,308,13968,4265,1,10,110100,10,0
@@ -4058,7 +4058,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Skyrune Robes",4432,400,87193,322,321,14126,4430,1,6,70000,1002,0
 "Slayer's Golden Scarguards",4433,3592,87194,322,321,14130,0,1,6,70000,1000,0
 "Slayer's Silver Scarguards",4434,3592,87195,322,321,14131,4433,1,6,70000,1001,0
-"Fel-bloodied Battlegear",4435,3592,87196,322,321,13965,0,1,6,70000,1000,0
+"Fel-Bloodied Battlegear",4435,3592,87196,322,321,13965,0,1,6,70000,1000,0
 "Searaider's Battlegarb",4436,3592,87197,322,321,13967,0,1,6,70000,3000,0
 "Gladeraider's Battlegarb",4437,3592,87198,322,321,13968,4436,1,6,70000,3002,0
 "Barkbinds of the Archdruid's Nightmare",4439,3592,87200,322,321,13676,0,1,6,70000,7001,0
@@ -4108,7 +4108,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Moonshatter Warplate",4488,35,87251,320,319,14162,0,1,6,70000,3000,0
 "Stygian Silks",4489,400,87252,322,321,14015,4481,1,6,70000,3001,0
 "Garothi Battleplate",4490,35,87253,320,319,14265,4484,1,6,70000,3002,0
-"Verdant Dreamscribed Robes",4491,401,87187,322,321,0,0,1,4,100005,3000,0
+"Verdant Dreamscribed Robes",4491,400,87187,322,321,0,0,1,4,100005,3000,0
 "Emerald Drake Hunter's Kit",4492,4164,87205,322,321,13968,0,1,6,70001,3001,0
 "Runespeaker Wraps",4494,16383,0,451,321,0,0,1,10,110205,130,0
 "Stormborne Wraps",4495,16383,0,451,321,0,0,1,10,110205,130,0
@@ -4134,7 +4134,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Girded Mist Attire",4520,0,90608,258,322,13968,4519,1,10,110107,10,0
 "Rainy Day Attire",4521,0,90609,258,322,13965,4519,1,10,110107,10,0
 "Waterproof Attire",4522,0,90610,258,322,14122,4519,1,10,110107,10,0
-"The First Satyr's Spaulders",4523,0,90628,323,0,0,0,1,9,100207,7000,0
+"The First Satyr's Spaulders",4523,8191,90628,323,0,0,0,1,9,100207,7000,0
 "Midnight Sweatsuit",4524,0,90639,67,0,0,0,1,10,110107,1640,0
 "Azure Sweatsuit",4525,0,90640,67,0,0,0,1,10,110107,1640,0
 "Sepia Sweatsuit",4526,0,90641,67,0,0,0,1,10,110107,1640,0
@@ -4468,10 +4468,10 @@ Earth-Warder,5090,1,0,450,0,0,0,1,10,110205,350,0
 "Inquisitor's All-Seeing Madness",5208,0,91950,323,0,0,0,1,10,110200,10,0
 "Living Weapon's Capes",5209,0,91951,323,0,0,0,1,10,110200,10,0
 "Shawls of Channeled Fury",5210,0,91951,323,0,0,0,1,10,110200,10,0
-"The Icy Winter Collection",5238,0,92095,258,342,13967,0,1,10,110205,4000,0
-"The Teal Winter Collection",5239,0,92096,258,342,14145,5238,1,10,110205,4000,0
-"The Orange Winter Collection",5240,0,92097,258,342,13965,5238,1,10,110205,4000,0
-"The Purple Winter Collection",5241,0,92098,258,342,14015,5238,1,10,110205,4000,0
+"The Noble's Winter Collection",5238,0,92095,258,342,13967,0,1,10,110205,4000,0
+"Ensemble: The Seafarer's Winter Collection",5239,0,92096,258,342,14145,5238,1,10,110205,4000,0
+"The Drustvar Winter Collection",5240,0,92097,258,342,13965,5238,1,10,110205,4000,0
+"The Kirin Tor Winter Collection",5241,0,92098,258,342,14015,5238,1,10,110205,4000,0
 "Villager's Forest Attire",5242,0,92112,258,343,13968,0,1,10,110205,4000,0
 "Villager's Seaside Attire",5243,0,92115,258,343,13967,5242,1,10,110205,4000,0
 "Villager's Country Attire",5244,0,92116,258,343,14125,5242,1,10,110205,4000,0
@@ -4507,7 +4507,7 @@ Earth-Warder,5090,1,0,450,0,0,0,1,10,110205,350,0
 "Sargerei Commander's Felscorned Regalia",5278,0,0,322,321,13989,0,1,9,110205,7000,0
 "Sargerei Commander's Lightbound Regalia",5279,0,0,322,321,14359,5278,1,9,110205,7000,0
 "Sargerei Commander's Hellforged Regalia",5280,0,0,322,321,14095,5278,1,9,110205,7000,0
-"Sargerei Commander's Voidscarred Regalia",5281,0,0,322,321,14360,5278,1,9,110205,7000,0
+"Sargerei Commander's Voidscarred Regalia",5281,0,93154,322,321,14360,5278,1,9,110205,7000,0
 "Moonpriest's Vestments",5282,400,0,276,168,2015,1796,1,7,80100,11101,0
 "Darkwood Sentinel's Guise",5283,3592,0,276,168,2015,1789,1,7,80100,11101,0
 "Kaldorei Archer's Chainmail",5284,4164,0,276,168,2015,1782,1,7,80100,11101,0
@@ -4521,13 +4521,46 @@ Earth-Warder,5090,1,0,450,0,0,0,1,10,110205,350,0
 "Windrunner Quivers",5292,16383,92614,451,0,0,0,1,6,0,1641,0
 "Arms of the Felforged Knight",5293,16383,92615,451,0,0,0,1,6,0,1641,0
 "Mantles of the Nightwell",5294,16383,92619,451,0,0,0,1,6,0,1641,0
-"Mo'arg Swords",5295,16383,92655,451,0,0,0,1,6,0,1641,0
+"Mo'arg Swords",5295,0,92655,451,0,0,0,1,6,0,1641,0
 "Bone Scythes",5296,16383,92656,451,0,0,0,1,6,0,1641,0
-"Bone Scythes",5297,16383,92663,451,0,0,0,1,6,0,1641,0
+"Immortal Maces",5297,16383,92663,451,0,0,0,1,6,0,1641,0
 "Mo'arg Hornmaces",5298,16383,92664,451,0,0,0,1,6,0,1641,0
-"Mo'arg Hornmaces",5299,16383,92665,451,0,0,0,1,6,0,1641,0
+"Gems of the Lightforged Draenei",5299,16383,92665,451,0,0,0,1,6,0,1641,0
 "World-Defiler's Battle Armor",5300,0,92680,451,0,0,0,1,10,110205,130,0
 "Zealous Felslingers Battle Armor",5301,0,92681,451,0,0,0,1,10,110205,130,0
+"Eredath Lightseeker's Regalia",5302,0,92861,451,0,0,0,1,10,110205,130,0
+"Forgotten Conservatory Clothes",5303,0,92862,451,0,0,0,1,10,110205,130,0
+"Triumvirate High Guard's Battlegear",5304,0,92863,451,0,0,0,1,10,110205,130,0
+Taeshalach,5305,0,92886,323,0,0,0,1,9,100207,7000,0
+"Odyn's Spears",5306,16383,92889,451,0,0,0,1,6,0,1641,0
+"Loyal Watchman's Garb",5307,0,0,2,351,14173,2669,1,10,110205,10,0
+"Bot Wrangler's Violet Apron",5308,0,0,131,0,0,0,1,10,0,10,0
+"Classic Lively Tabard",5309,0,0,131,0,0,0,1,10,0,10,0
+"Tropical Sunrise Mrgl Floater",5310,0,0,131,0,0,0,1,10,0,10,0
+"Bot Wrangler's Crimson Apron",5311,0,0,131,0,0,0,1,10,0,10,0
+"Crown of the Violet Rose",5312,0,0,131,0,0,0,1,10,0,10,0
+"Treasure Nabbin' Bag",5313,0,0,131,0,0,0,1,10,0,10,0
+"Wirt's Haunted Leg",5314,0,0,131,0,0,0,1,10,0,10,0
+"Tabard of Frost",5315,0,0,131,0,0,0,1,10,0,10,0
+"Classic Sunny Tabard",5316,0,0,131,0,0,0,1,10,0,10,0
+"Classic Brick Tabard",5317,0,0,131,0,0,0,1,10,0,10,0
+"Wirt's Fightin' Leg",5318,0,0,131,0,0,0,1,10,0,10,0
+"War Mantle of the Horde",5319,0,0,131,0,0,0,1,10,0,10,0
+"Wirt's Last Leg",5320,0,0,131,0,0,0,1,10,0,10,0
+"Gossamer Magenta Gown",5321,0,0,131,0,0,0,1,10,0,10,0
+"War Mantle of the Alliance",5322,0,0,131,0,0,0,1,10,0,10,0
+"Drape of Foreboding Mists",5323,0,0,131,0,0,0,1,10,0,10,0
+"Tabard of Fury",5324,0,0,131,0,0,0,1,10,0,10,0
+"Jewel of the Firelord",5325,0,0,131,0,0,0,1,10,0,10,0
+"Enmity Cloak",5326,0,0,131,0,0,0,1,10,0,10,0
+"Bot Wrangler's Belt",5327,0,0,131,0,0,0,1,10,0,10,0
+"Adorned Half Shell",5328,0,0,131,0,0,0,1,10,0,10,0
+"Livestock Lochaber Axe",5329,0,0,131,0,0,0,1,10,0,10,0
+"Classic Crimson Tabard",5330,0,0,131,0,0,0,1,10,0,10,0
+"The Coward's Azure Target",5331,0,0,131,0,0,0,1,10,0,10,0
+"Halfhill Farmer's Backpack",5332,0,0,131,0,0,0,1,10,0,10,0
+"Chen Stormstout's Keg",5333,0,0,131,0,0,0,1,10,0,10,0
+"Enmity Hood",5334,0,0,131,0,0,0,1,10,0,10,0
 "Feathered Drape of the Archmage",4377,0,0,3,0,0,0,1,10,110105,10,0
 "Feathered Cowl of the Archmage",4378,0,0,3,0,0,0,1,10,110105,10,0
 "Standard of the Archmage",4379,0,0,3,0,0,0,1,10,110105,10,0
@@ -4539,6 +4572,8 @@ Earth-Warder,5090,1,0,450,0,0,0,1,10,110205,350,0
 "Feathered Collection of the Archmage",4550,0,90877,258,329,13967,4551,1,10,110105,10,0
 "Feathered Collection of the Prophet",4551,0,90878,258,329,13965,0,1,10,110105,10,0
 "Stormstout Sha-Warped Collection",4372,0,88806,258,328,13966,0,1,10,110105,10,0
+"Voidstrider Raiment",5164,0,91953,258,334,14342,5165,1,11,120000,10,0
+"Lightstrider Raiment",5165,0,91814,258,334,14343,0,1,11,120000,10,0
 "Golden Crests of the Kingdom",3901,0,84999,67,0,14130,3900,1,10,110005,1640,0
 "Void's Binding Swimwear",5149,0,91625,2,0,0,0,1,9,110200,10,0
 "Enduring Stormrage Armor",3902,1024,0,1,274,14172,3870,1,10,110005,10,0
