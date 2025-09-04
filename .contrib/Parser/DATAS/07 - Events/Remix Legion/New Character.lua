@@ -79,6 +79,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(90703, name(HEADERS.Spell,1232807)),	-- Unraveling Sands, Triggered upon accepting 'Obliterate, Then Iterate' (89413)
 			q(90864, name(HEADERS.Achievement,42313)),	-- Remixing Time, Triggered when completing Introductory quest-chain
 			q(91962),	-- Triggers when you spawn in Bazaar for the first time
+			q(93033),	-- Triggers when you spawn in Bazaar for the first time
 			q(92192),	-- Triggers when watching "What just happened" movie on a fresh character
 			q(92425),	-- Triggers when you activate 'Heroic World Tier'
 			-- HQTs triggered during campaign

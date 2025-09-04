@@ -4,7 +4,7 @@
 
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(LEGION_DALARAN, {
-	--	["icon"] = 618798,
+		["icon"] = 1535374,
 		["groups"] = {
 			explorationHeader({
 				visit_exploration(15177,{coord={47.2,87.7,LEGION_DALARAN}}),	-- Dalaran

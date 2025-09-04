@@ -4,7 +4,7 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(BROKEN_ISLES, {
 		m(BROKEN_SHORE, {
-			["icon"] = 294481,
+			["icon"] = 1408999,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42647),	-- Breaching the Tomb

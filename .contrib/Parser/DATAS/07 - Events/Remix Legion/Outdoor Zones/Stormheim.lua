@@ -4,7 +4,7 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(BROKEN_ISLES, {
 		m(STORMHEIM, {
-			["icon"] = 623769,
+			["icon"] = 1409001,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42596),	-- Campaign: Stormheim

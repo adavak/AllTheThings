@@ -4,7 +4,7 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(BROKEN_ISLES, {
 		m(HIGHMOUNTAIN, {
-			["icon"] = 136014,
+			["icon"] = 1409000,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42552),	-- Campaign: Highmountain

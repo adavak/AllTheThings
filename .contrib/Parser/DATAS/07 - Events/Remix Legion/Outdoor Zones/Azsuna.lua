@@ -4,7 +4,7 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(BROKEN_ISLES, {
 		m(AZSUNA, {
-			["icon"] = 624970,
+			["icon"] = 1408998,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42319, {	-- Azsuna

@@ -54,7 +54,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["sourceQuest"] = 89409,	-- Infinite Bronze
 			["qg"] = 241744,	-- Momentus
 			["coord"] = { 42.8, 27.8, LEGION_DALARAN },
-			["groups"] = {
+			["groups"] = sharedData({
+				["ItemAppearanceModifierID"] = 9,
+			}, {
 				cl(DEATHKNIGHT, {
 					i(242563),	-- Apocalypse
 					i(242559),	-- Blades of the Fallen Prince
@@ -135,7 +137,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(237746),	-- Warswords of the Valarjar
 					i(237747),	-- Warswords of the Valarjar
 				}),
-			},
+			}),
 		}),
 		q(90901, {	-- As A Matter of Artifact
 			["sourceQuest"] = 90659,	-- Something Borrowed
@@ -193,6 +195,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["sourceQuest"] = 89416,	-- Eternal Gratitude
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["groups"] = { i(254320) },	-- Elixir of Remembered Sight
 		}),
 		q(91955, {	-- Just Between Us
 			["sourceQuest"] = 89416,	-- Eternal Gratitude
@@ -291,8 +294,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["groups"] = { i(246808) },	-- Experiment Instructions (PQI!)
 		}),
 		q(90892, {	-- Clearing the Skies: A Fel of a Time
-			["description"] = "Quest pops-up when you fly through first 'Mote of Bronze' in the zone.",
-			-- Exo note: Got this in Azsuna. I don't know if this quest is zone-specific. Will test on another character in other zone.
+			["description"] = "Quest pops-up when you fly through first 'Mote of Bronze'.",
 		}),
 		q(92563, {	-- Awoken by Accessory
 			["description"] = "Quest pops-up when you obtain and equip your first jewelry (Trinket, Ring, Necklace).",

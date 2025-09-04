@@ -4,7 +4,7 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(BROKEN_ISLES, {
 		m(VALSHARAH, {
-			["icon"] = 617824,
+			["icon"] = 1409010,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42617),	-- Campaign: Val'Sharah

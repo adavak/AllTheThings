@@ -94,14 +94,6 @@ root(ROOTS.Unsorted, {
 			i(240363),	-- Sanguine Oath Shoulders
 			i(240372),	-- Shawl of Borrowed Souls
 			i(240396),	-- Suramar Silver Mantle
-			i(240414),	-- Gauntlets of the Nightmare's Embrace
-			i(240415),	-- Bracers of the Nightmare's Embrace
-			i(240416),	-- Boots of the Nightmare's Embrace
-			i(240417),	-- Breeches of the Nightmare's Embrace
-			i(240418),	-- Cinch of the Nightmare's Embrace
-			i(240419),	-- Chestguard of the Nightmare's Embrace
-			i(240420),	-- Pinions of the Nightmare's Embrace
-			i(240421),	-- Helmet of the Nightmare's Embrace
 			i(240563),	-- Vileweave Gloves
 			i(240564),	-- Vileweave Bindings
 			i(240567),	-- Vileweave Cord
@@ -111,7 +103,6 @@ root(ROOTS.Unsorted, {
 			i(241146),	-- Epoch Memento
 			i(241258),	-- Vineyard Red Shal'dorei Crown
 			i(241357),	-- Ensemble: Barkbinds of the Archdruid's Nightmare
-			i(241594),	-- Ensemble: Scavenged Chains of Karazhan
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241600),	-- Ensemble: Chains of the Chosen Dead

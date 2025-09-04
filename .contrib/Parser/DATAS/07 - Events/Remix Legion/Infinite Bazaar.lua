@@ -316,9 +316,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			n(241186, {	-- Grandmaster Jakkus <Class Mounts>
-				["groups"] = sharedData({
-					["cost"] = {{ "c", BRONZE, 10000 }},
-				}, {
+				["groups"] = bubbleDownFiltered({
+					["cost"] = {{ "c", BRONZE, 20000 }},
+				},FILTERFUNC_itemID,{
 					clWithoutLock(DEATHKNIGHT, {
 						i(252954),	-- Felscorned Reins of the Vilebrood Vanquisher (MOUNT!)
 					}),
@@ -744,6 +744,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					iensemble(241384, {	-- Ensemble: Regalia of the Hrydshal Runespeaker
 						["cost"] = {{ "c", BRONZE, 15000 }},
 					}),
+					iensemble(241594, {	-- Ensemble: Scavenged Chains of Karazhan
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
 					iensemble(241440, {	-- Ensemble: Vestments of the Manasinged
 						["cost"] = {{ "c", BRONZE, 15000 }},
 					}),
@@ -759,6 +762,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					------ Locked behind: Argus Eternal ------
 					iensemble(241368, {	-- Ensemble: Doomsinger's Cloth Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(254753, {	-- Ensemble: Forgotten Conservatory Clothes
 						["cost"] = {{ "c", BRONZE, 15000 }},
 					}),
 					iensemble(253594, {	-- Ensemble: Zealous Felslingers Battle Armor
@@ -866,10 +872,16 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["cost"] = {{ "c", BRONZE, 15000 }},
 					}),
 					------ Locked behind: Argus Eternal ------
+					iensemble(254754, {	-- Ensemble: Eredath Lightseeker's Regalia
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
 					iensemble(241359, {	-- Ensemble: Garothi Battleplate
 						["cost"] = {{ "c", BRONZE, 15000 }},
 					}),
 					iensemble(241365, {	-- Ensemble: Praetorium Guard's Plate Armor
+						["cost"] = {{ "c", BRONZE, 15000 }},
+					}),
+					iensemble(254752, {	-- Ensemble: Triumvirate High Guard's Battlegear
 						["cost"] = {{ "c", BRONZE, 15000 }},
 					}),
 					iensemble(253588, {	-- Ensemble: World-Defiler's Battle Armor
@@ -877,7 +889,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 			}),
-			--n(??, { }),	-- Lindormi <Mythic Keystones>
+			--n(244792, { }),	-- Lindormi <Mythic Keystones>
 			n(241142, {	-- Momentus <Weaponmaster>
 				["groups"] = sharedData({
 					["cost"] = {{ "c", BRONZE, 5 }},
@@ -896,7 +908,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					["cost"] = {{ "c", BRONZE, 5 }},
 				}, {
 					i(254320, {	-- Elixir of Remembered Sight
-						["description"] = "|cFFE50D12NOT CONSUMED ON USE:|r Buy only 1.",
+						["description"] = "|cFFE50D12NOT CONSUMED ON USE:|r If you, by any chance, destroyed the one you received from the quest, buy only 1.",
 					}),
 					i(250316),	-- Everlasting Nosh
 					i(188152),	-- Gateway Control Shard
@@ -905,7 +917,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}),
 			n(241168, {	-- Pythagorus <Mythic Raid Apparel>
 				["groups"] = bubbleDownFiltered({
-					["cost"] = {{ "c", BRONZE, 20000 }},
+					["cost"] = {{ "c", BRONZE, 30000 }},
 				},FILTERFUNC_itemID,{
 					clWithoutLock(DEATHKNIGHT, {
 						iensemble(241549),	-- Ensemble: Dreadwyrm Battleplate
@@ -1004,13 +1016,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 								{ "c", BRONZE, 30000 },
 							},
 						}),
-						i(152094, {	-- Taeshalach (COSMETIC!)
+						iensemble(255006, {	-- Taeshalach (COSMETIC!)
 							["cost"] = {
 								{ "i", 242370, 20 },	-- Horns of the First Satyr
 								{ "c", BRONZE, 30000 },
 							},
 						}),
 						i(242368, {	-- The First Satyr's Spaulders (COSMETIC!)
+							["ItemAppearanceModifierID"] = 1,
 							["cost"] = {
 								{ "i", 253306, 20 },	-- Everflame of Hatred
 								{ "c", BRONZE, 30000 },
@@ -1129,6 +1142,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				iensemble(253551, {	-- Arsenal: Mo'arg Swords
 					["cost"] = {{ "c", BRONZE, 2500 }},
 				}),
+				iensemble(255156, {	-- Arsenal: Odyn's Spears
+					["cost"] = {{ "c", BRONZE, 7500 }},
+				}),
 				iensemble(241389, {	-- Ensemble: Antoran Guard's Golden Battleplate
 					["cost"] = {{ "c", BRONZE, 7500 }},
 				}),
@@ -1238,11 +1254,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					249256,	-- Pile of Chronoqueries
 				},
 				["isDaily"] = true,
-				["groups"] = {
+			}, {
+				n(REWARDS, {
 					i(251821),	-- Cache of Infinite Power
 					i(239224),	-- Cache of Infinite Treasure
-				},
-			}, {
+					i(254579),	-- Epoch Resonance
+				}),
 				q(91445),	-- Infinite Research: Advanced Combat Studies, Comprehensive
 				q(91447),	-- Infinite Research: Advanced Combat Studies, Demonology
 				q(91444),	-- Infinite Research: Advanced Combat Studies, Elite

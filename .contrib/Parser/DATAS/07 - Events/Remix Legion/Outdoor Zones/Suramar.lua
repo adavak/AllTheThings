@@ -4,7 +4,7 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	m(BROKEN_ISLES, {
 		m(SURAMAR, {
-			["icon"] = 617832,
+			["icon"] = 1409002,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42586),	-- Campaign: Suramar
