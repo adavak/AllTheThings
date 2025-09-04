@@ -9,6 +9,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 			exploration(14652),	-- Battlefield Ruins
 			exploration(14682),	-- Brimstone Garrison
 			exploration(14664),	-- Buried Vault
+			visit_exploration(14716,{coord={44.9,47.2,ZARALEK_CAVERN}}),	-- Burning Oasis
 			exploration(14714),	-- Cascades Column
 			visit_exploration(14645,{coord={60.4,44.5,ZARALEK_CAVERN}}),	-- Deepflayer Nest
 			exploration(14644),	-- Deephollow Lake
@@ -20,6 +21,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 			exploration(14713),	-- Glitterspore Lake
 			visit_exploration(14684,{coord={50.5,74.3,ZARALEK_CAVERN}}),	-- Hermit's Hovel
 			exploration(14712),	-- Igira's Watch
+			visit_exploration(14694,{coord={73.6,49.2,ZARALEK_CAVERN}}),	-- Iridikron's Gambit
 			exploration(14520),	-- Loamm
 			visit_exploration(14745,{coord={35.8,91.0,ZARALEK_CAVERN}}),	-- Lookout Breach
 			exploration(14704),	-- Molten Overflow
