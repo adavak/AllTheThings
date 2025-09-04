@@ -72,8 +72,14 @@ root(ROOTS.Zones, {
 				n(TREASURES, {
 					o(214325, {	-- Forgotten Lockbox
 						["questID"] = 31867, -- Forgotten Lockbox
-						["description"] = "Located on a barrel on the second floor of the inn",
 						["coord"] = { 54.66, 71.67, THE_VEILED_STAIR },
+						-- #if ANYCLASSIC
+						["description"] = "Located on a barrel on the second floor of the inn. However, this item cannot currently be looted as the directional interaction modifications they brought in from Retail to Classic have broken the ability to target this object specifically to loot it.",
+						["isBounty"] = true,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_5_0 },
+						-- #else
+						["description"] = "Located on a barrel on the second floor of the inn",
+						-- #endif
 					}),
 					o(213845, {	-- The Hammer of Folly
 						["questID"] = 31428,
