@@ -1422,9 +1422,7 @@ root(ROOTS.Unsorted, {
 
 				-- The Azure Span
 				exploration(13646),	-- The Azure Span
-				exploration(13735),	-- Lev'al Rock Isle
 				exploration(13830),	-- Rockhide Village
-				exploration(13831),	-- Rustpine Den
 				exploration(13845),	-- Djardin Cliff Camp
 				exploration(13849),	-- Kalthraz Fortress
 				exploration(13851),	-- Cobalt Library
@@ -1432,14 +1430,8 @@ root(ROOTS.Unsorted, {
 				exploration(13855),	-- Primalist POI 2
 				exploration(13856),	-- Frost Giant Cliffs
 				exploration(13885),	-- Tuskarr Ice Elemental Cave
-				exploration(13893),	-- Drake Eye's Pond
-				exploration(13933),	-- Kargpaw's Den
-				exploration(13934),	-- Rhonin's Shield
 				exploration(13997),	-- Creektooth Den - Decayve
 				exploration(14091),	-- Vakthros Cavern
-				exploration(14432),	-- The Missing Hinge Inn
-				exploration(14458),	-- Longclaw Island
-				exploration(14467),	-- Lair of Stoneheart
 				exploration(14486),	-- Forgotten Cavern
 				exploration(14515),	-- Ley Pools
 				exploration(14620),	-- Blue Dragon Choice
@@ -1447,20 +1439,12 @@ root(ROOTS.Unsorted, {
 				-- Thaldraszus
 				exploration(13647),	-- Thaldraszus
 				exploration(13819),	-- DefunctThaldraszusarea
-				exploration(13884),	-- Temporal Overlook
-				exploration(14031),	-- Emberslate Cavern
 				exploration(14093),	-- [PH] Epoch's Rest
 				exploration(14344),	-- Hall of Samples
 				exploration(14345),	-- Hall of the Aspects
-				exploration(14475),	-- Rhuzast's Roost
-				exploration(14488),	-- Algeth'ar Tower
-				exploration(14491),	-- The Late Night Lab
-				exploration(14742),	-- Everywhen Inn
 
 				-- The Primalist Future
 				exploration(13992),	-- The Primalist Future
-				exploration(14148),	-- Out of Temporal Bounds
-				exploration(14454),	-- Temporal Conflux
 				exploration(13993),	-- The Gnoll War
 				exploration(13994),	-- War of the Shifting Sands
 				exploration(13995),	-- Pandaren Revolution
