@@ -291,6 +291,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
 							i(86753),	-- Cloak of Peacock Feathers
 							i(89967),	-- Feng's Seal of Binding
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86858)),	-- Seal of the Profane (HoF)
 						},
 					}),
 				},
