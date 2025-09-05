@@ -207,7 +207,7 @@ root(ROOTS.Zones, {
 					visit_exploration(7189,{coord={50.4,82.0,DRAENOR_SHADOWMOON_VALLEY}}),	-- Shrine of Othaar
 					exploration(6909),	-- Socrethar's Rise
 					exploration(7231),	-- Swamplight Trail
-					visit_exploration(7265,{coord={41.8,10.7,DRAENOR_SHADOWMOON_VALLEY}}),	-- Tanaan Channel
+					visit_exploration(7262,{coord={41.8,10.7,DRAENOR_SHADOWMOON_VALLEY}}),	-- Tanaan Channel
 					visit_exploration(6794,{coord={48.3,36.2,DRAENOR_SHADOWMOON_VALLEY}}),	-- Teluuna Observatory
 					visit_exploration(6872,{coord={30.7,42.6,DRAENOR_SHADOWMOON_VALLEY}}),	-- Terrace of the Stars
 					exploration(6791),	-- The Burial Fields

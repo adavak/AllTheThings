@@ -32,6 +32,350 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 		exploration(4690),	-- Thunder Peak
 		exploration(4644),	-- Orendil's Retreat
 	}),
+	expansion(EXPANSION.DF, {
+		-- 10.0.0
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			-- Zone: The Waking Shores
+			exploration(14086),	-- Ashscale Halls
+			exploration(14087),	-- Ashscale HallsS
+			exploration(14006),	-- Burning Ascent [DNT]
+			exploration(14042),	-- Hornspike Nest
+			exploration(14456),	-- Kilpi Isle
+			exploration(14007),	-- Obsidian Citadel
+			exploration(14047),	-- Shattered Vaults
+			exploration(13644),	-- The Waking Shores
+			exploration(13713),	-- The Lost Path
+
+			-- Zone: Ohn'ahran Plains
+			exploration(14080),	-- Blueshore Prairie
+			exploration(13773),	-- Cliffside Burrows
+			exploration(13752),	-- Storm Drake Roost
+
+			-- Zone: The Azure Span
+			exploration(14620),	-- Blue Dragon Choice
+			exploration(13851),	-- Cobalt Library
+			exploration(13997),	-- Creektooth Den - Decayve
+			exploration(13845),	-- Djardin Cliff Camp
+			exploration(14486),	-- Forgotten Cavern
+			exploration(13856),	-- Frost Giant Cliffs
+			exploration(13849),	-- Kalthraz Fortress
+			exploration(14515),	-- Ley Pools
+			exploration(13854),	-- Primalist POI
+			exploration(13855),	-- Primalist POI 2
+			exploration(13830),	-- Rockhide Village
+			exploration(13646),	-- The Azure Span
+			exploration(13885),	-- Tuskarr Ice Elemental Cave
+			exploration(14091),	-- Vakthros Cavern
+
+			-- Zone: Thaldraszus
+			exploration(13819),	-- DefunctThaldraszusarea
+			exploration(14344),	-- Hall of Samples
+			exploration(14345),	-- Hall of the Aspects
+			exploration(13647),	-- Thaldraszus
+			exploration(14093),	-- [PH] Epoch's Rest
+
+			-- Zone: Dragon Isles
+			exploration(13642),	-- Dragon Isles
+
+			-- Zone: The Great Sea
+			exploration(13643),	-- The Great Sea
+
+			-- Zone: Forbidden Reach [Dracthyr-Evoker]
+			exploration(14001),	-- Burrow of the Faithful
+			exploration(14003),	-- Darksand Hollow
+			exploration(14004),	-- Hoard of Shimmermaw
+			exploration(13978),	-- Lair of the Scythid
+			exploration(13977),	-- Lost Grotto
+			exploration(14154),	-- Sharpscale Coast
+			exploration(14002),	-- Stormsunder Overlook
+			exploration(14153),	-- Stormsunder Mountain
+			exploration(13769),	-- The Forbidden Reach
+			exploration(14510),	-- The Great Sea
+			exploration(14495),	-- The High Creche
+			exploration(13999),	-- The Siege Creche
+			exploration(14000),	-- The Support Creche
+			exploration(13806),	-- The War Creche
+
+			-- Zone: Grand Time Adventure [Big Time Adventurer storyline]
+			exploration(14092),	-- Azmerloth
+			exploration(14098),	-- Azmerloth - Timeless Area
+			exploration(13995),	-- Pandaren Revolution
+			exploration(14149),	-- Pandaren Revolution - No Man's Land
+			exploration(13992),	-- The Primalist Future
+			exploration(13996),	-- The Black Empire
+			exploration(13993),	-- The Gnoll War
+			exploration(14151),	-- The Gnoll War- No Man's Land
+			exploration(13994),	-- War of the Shifting Sands
+			exploration(14152),	-- War of the Shifting Sands - No Man's Land
+
+			-- Scenario: Emerald Dreamway
+			instance_exploration(14084),	-- Emerald Dreamway
+
+			-- Raid: Vault of the Incarnates
+			instance_exploration(14030),	-- Vault of the Incarnates
+			instance_exploration(14617),	-- The Seat of the Aspects
+
+			-- Arena: Nokhudon Proving Grounds
+			exploration(14436),	-- Nokhudon Proving Grounds
+
+			-- Transportation: Ship from SW to The Waking Shores
+			exploration(14513),	-- The Rugged Dragonscale
+
+			-- NYI?
+			exploration(13554),	-- 10 Canyon
+			exploration(13636),	-- 10 Highlands
+			exploration(13613),	-- 10.0 Hackathon: Living World
+			exploration(14618),	-- Azure Vault (delete me)
+			exploration(14041),	-- Big Lava Cave 1
+			exploration(14014),	-- Content Playground
+			exploration(13416),	-- DEV Lowlands (DO NOT USE)
+			exploration(13519),	-- Interactive World - Sparkles
+			exploration(13520),	-- Interactive World - Containers
+			exploration(13579),	-- Interactive World - Rain Test
+			exploration(13585),	-- Interactive World - Night Test
+			exploration(14023),	-- JrzTest
+			exploration(13955),	-- LDNewHire
+			exploration(13936),	-- Marie Lazar Land
+			exploration(13946),	-- Marie Lazar Land Panda Farm
+			exploration(13495),	-- MattTestTerrain3
+			exploration(13870),	-- mesten_dev1
+			exploration(14457),	-- Sully Test Start
+			exploration(14459),	-- Sully Test Plains
+			exploration(14460),	-- Sully Test Desert
+			exploration(14461),	-- Sully Test Forest
+			exploration(14009),	-- The Waking Shores [DNT]
+			exploration(13532),	-- Zone2lDoodadtest
+			exploration(13576),	-- Zone2lDoodadtest2
+			exploration(13635),	-- Zone4TyrholdTest
+			exploration(13790),	-- zsewell
+		})),
+
+		-- 10.0.7
+		expansion(EXPANSION.DF, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_7 } }, {
+			-- The Forbidden Reach
+			exploration(14545),	-- Stormsunder Overlook
+			exploration(14433),	-- The Forbidden Reach
+			exploration(14619),	-- Zskera Vaults
+
+			-- Scenario: Alterac Valley
+			instance_exploration(14525),	-- Alterac Valley
+			instance_exploration(14526),	-- Frostwolf Keep
+			instance_exploration(14527),	-- Frostwolf Village
+			instance_exploration(14528),	-- Hall of the Frostwolf
+
+			-- NYI?
+			exploration(14707),	-- Amy Test Forest
+			exploration(14708),	-- Amy Test Town
+			exploration(14687),	-- Lake Subzone
+			exploration(14688),	-- Lava Lake Subzone
+			exploration(14686),	-- Professions Land
+			exploration(14689),	-- Tyler's Corner
+			exploration(14598),	-- zzOLDDarksand Hollow
+			exploration(14603),	-- zzOLDFroststone Vault
+			exploration(14537),	-- zzOLDHornswog Grounds
+			exploration(14611),	-- zzOLDHornswog Grounds
+			exploration(14541),	-- zzOLDScaleborn Pass
+			exploration(14544),	-- zzOLDStormsunder Mountain
+			exploration(14546),	-- zzOLDTalonlords' Perch
+			exploration(14605),	-- zzOLDTalonlords' Perch
+			exploration(14599),	-- zzOLDTempest Coast
+			exploration(14532),	-- zzOLDThe Lost Atheneum
+			exploration(14533),	-- zzOLDThe Old Weyrn Grounds
+		})),
+
+		-- 10.1.0
+		expansion(EXPANSION.DF, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_0 } }, {
+			-- Zone: Zaralek Cavern
+			exploration(14725),	-- The Bone Gallery
+			exploration(14022),	-- Zaralek Cavern
+
+			-- Scenario: Deathwing's Final Moment
+			instance_exploration(14706),	-- The Maelstrom
+
+			-- Scenario: The Azure Vault
+			instance_exploration(14727),	-- The Azure Vault
+
+			-- Scenario: Tyr's Fall
+			instance_exploration(14518),	-- The Eastern Glades
+
+			-- Scenario: Zaralek Caverns - Chapter 1
+			instance_exploration(14667),	-- The Throughway
+
+			-- Scenario: Zaralek Caverns - Chapter 6
+			instance_exploration(14705),	-- Aberrus, the Shadowed Crucible
+
+			-- Raid: Aberrus, the Shadowed Crucible
+			instance_exploration(14663),	-- Aberrus, the Shadowed Crucible
+
+			-- NYI?
+			exploration(14721),	-- Mysterious Cave A
+			exploration(14731),	-- Mysterious Cave B
+			exploration(14732),	-- Mysterious Cave C
+			exploration(14733),	-- Mysterious Cave D
+			exploration(14734),	-- Mysterious Cave E
+			exploration(14735),	-- Mysterious Cave F
+			exploration(14736),	-- Mysterious Cave G
+			exploration(14737),	-- Mysterious Cave H
+			exploration(14738),	-- Mysterious Cave I
+			exploration(14739),	-- Mysterious Cave J
+			exploration(14709),	-- Shane Test Area
+			exploration(14657),	-- WB New Hires
+			exploration(14668),	-- ZZ_AlexandraDD
+		})),
+
+		-- 10.1.5
+		expansion(EXPANSION.DF, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_5 } }, {
+			-- Zone: Dragon Isles
+			exploration(14750),	-- Dragon Isles
+
+			-- Zone: The Waking Shores
+			exploration(14751),	-- The Waking Shores
+
+			-- Event: Hallow's End [Headless Horseman Revamp]
+			instance_exploration(14873),	-- Chapel Gardens
+			instance_exploration(14874),	-- Forlorn Cloister
+			instance_exploration(14872),	-- Scarlet Monastery
+
+			-- Event: Time Rifts
+			instance_exploration(14843),	-- Azewrath
+			instance_exploration(14770),	-- Azmerloth
+			instance_exploration(14844),	-- Azmourne
+			instance_exploration(14841),	-- Azq'roth
+			instance_exploration(14840),	-- A.Z.E.R.O.T.H.
+			instance_exploration(14845),	-- The Warlands
+			instance_exploration(14842),	-- Ulderoth
+			instance_exploration(14846),	-- Ulderoth
+		})),
+
+		-- 10.1.7
+		expansion(EXPANSION.DF, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_7 } }, {
+			-- Scenario: Reforging the Tyr's Guard
+			instance_exploration(14970),	-- The Black
+
+			-- NYI?
+			exploration(14966),	-- Dev Map - Exile's Reach
+			exploration(14968),	-- Dev Map - Mechagon
+			exploration(14963),	-- Dev Map - Quest Training
+			exploration(14967),	-- Dev Map - Zereth Mortis
+		})),
+
+		-- 10.2.0
+		expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_0 } }, {
+			-- Emerald Dream
+			exploration(15053),	-- Aviana's Perch
+			exploration(14529),	-- Emerald Dream
+			exploration(14955),	-- The Char
+			exploration(15096),	-- Winter's Landing
+
+			-- Zone: Darkshore [8.1  Outdoor Final Phase]
+			exploration(15041),	-- Felwood
+
+			-- Zone: Dawn of the Infinite [Outdoor]
+			exploration(15010),	-- The Timeways
+
+			-- Scenario: Aberrus, the Shadowed Crucible
+			instance_exploration(15028),	-- Aberrus, the Shadowed Crucible
+
+			-- Scenario: Storm the Halls of Valor
+			instance_exploration(14849),	-- Halls of Valor
+			instance_exploration(15098),	-- The High Gate
+
+			-- Scenario: The Nighthold
+			instance_exploration(14936),	-- The Nighthold
+
+			-- Raid: Amirdrassil, the Dream's Hope
+			instance_exploration(14643),	-- Amirdrassil, the Dream's Hope
+			instance_exploration(15026),	-- Heart of Amirdrassil
+			instance_exploration(15049),	-- Pit of Volcoross
+			instance_exploration(14880),	-- The Blessed Boughs
+			instance_exploration(15050),	-- Wellspring Atrium
+
+			-- NYI?
+			exploration(14519),	-- 10Zone6-Devland
+			exploration(14038),	-- Env Art Land - Detail Doodad Test
+		})),
+
+		-- 10.2.5
+		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
+			-- Unknown [Map 2666] Amirdrassil
+			exploration(14969),	-- Amirdrassil
+			exploration(14981),	-- Ancient Bough
+			exploration(14978),	-- Craggy Reef
+			exploration(14982),	-- Emerald Gardens
+			exploration(14983),	-- Lunedane
+			exploration(14986),	-- Ohn'ahran Plains
+			exploration(14985),	-- The Azure Span
+			exploration(14984),	-- The Storm Scar
+
+			-- Zone: Amirdrassil
+			exploration(15105),	-- Amirdrassil
+			exploration(15115),	-- Bel'ameth
+			exploration(15137),	-- Crafter's Gallery
+			exploration(15138),	-- Turn of the Tide
+
+			-- Zone: Ardenweald
+			exploration(14962),	-- De Other Side
+
+			-- Zone: Ruins of Gilneas
+			exploration(14995),	-- Aderic's Repose
+			exploration(14997),	-- Greymane Manor
+			exploration(14993),	-- Keel Harbor
+			exploration(14996),	-- The Headlands
+
+			-- NYI?
+			exploration(15011),	-- FX - Test Dungeon \\ FX Test Dungeon
+			exploration(14987),	-- James's Dynamic Mount Testground
+			exploration(15109),	-- Sound Room - Audio Smoketest
+		})),
+
+		-- 10.2.6
+		expansion(EXPANSION.DF, patch(2,6), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_6 } }, {
+			-- Game Mode: Plunderstorm
+			exploration(14357),	-- Arathi Highlands
+			exploration(15058),	-- Arathi Highlands
+			exploration(15068),	-- Ar'gorok
+			exploration(15077),	-- Boulderfist Hall
+			exploration(15083),	-- Brew Bay
+			exploration(15079),	-- Circle of East Binding
+			exploration(15070),	-- Circle of Elements
+			exploration(15063),	-- Circle of Inner Binding
+			exploration(15074),	-- Circle of Outer Binding
+			exploration(15086),	-- Clearfell's Patch
+			exploration(15088),	-- Contested Pass
+			exploration(15075),	-- Dabyrie's Farmstead
+			exploration(15069),	-- Drywhisker Mine
+			exploration(15081),	-- Drywhisker Gorge
+			exploration(15071),	-- Faldir's Cove
+			exploration(15090),	-- Forsaken Wagon
+			exploration(15062),	-- Galson's Lode
+			exploration(15076),	-- Go'Shek Farm
+			exploration(15080),	-- Hammerfall
+			exploration(15067),	-- Hatchet Ridge
+			exploration(15064),	-- High Perch
+			exploration(15060),	-- Highlands Mill
+			exploration(15087),	-- Labor's Rest
+			exploration(15089),	-- Marrow's Farm
+			exploration(15059),	-- Newstead
+			exploration(15065),	-- Northfold Crossing
+			exploration(15073),	-- Refuge Pointe
+			exploration(15057),	-- Stromgarde Keep
+			exploration(15072),	-- Thandol Span
+			exploration(15084),	-- The Drowned Reef
+			exploration(15082),	-- The Forbidding Sea
+			exploration(15085),	-- The Great Sea
+			exploration(15091),	-- The Mangled Chord
+			exploration(15092),	-- The Neglected Seat
+			exploration(15066),	-- Thoradin's Wall
+			exploration(15061),	-- Valorcall Pass
+			exploration(15078),	-- Witherbark Village
+		})),
+
+		-- 10.2.7
+		expansion(EXPANSION.DF, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_7 } }, {
+			-- Zone: Suramar
+			exploration(15168),	-- Botanist's Terrace
+		})),
+	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.2
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
@@ -146,22 +490,22 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			instance_exploration(15001),	-- Zekvir's Lair
 
 			-- Raid: Nerub-ar Palace
-			instance_exploration(15372), -- Brood Pens
-			instance_exploration(15376), -- Crown of Shadows
-			instance_exploration(15373), -- Gossamer Gallery
-			instance_exploration(15363), -- Grand Rampart
-			instance_exploration(15374), -- Hall of Whispers
-			instance_exploration(15368), -- Kili-zar Arena
-			instance_exploration(14980), -- Nerub-ar Palace
-			instance_exploration(15362), -- Nerub-ar Gatehouse
-			instance_exploration(15375), -- Silken Court
-			instance_exploration(15371), -- Skittering Cavern
-			instance_exploration(15367), -- Terrace of Majesty
-			instance_exploration(15366), -- The Ascending Reach
-			instance_exploration(15365), -- The Congealing Pool
-			instance_exploration(15370), -- The Narthex
-			instance_exploration(15364), -- The Pulsing Pit
-			instance_exploration(15369), -- The Swaying Span
+			instance_exploration(15372),	-- Brood Pens
+			instance_exploration(15376),	-- Crown of Shadows
+			instance_exploration(15373),	-- Gossamer Gallery
+			instance_exploration(15363),	-- Grand Rampart
+			instance_exploration(15374),	-- Hall of Whispers
+			instance_exploration(15368),	-- Kili-zar Arena
+			instance_exploration(14980),	-- Nerub-ar Palace
+			instance_exploration(15362),	-- Nerub-ar Gatehouse
+			instance_exploration(15375),	-- Silken Court
+			instance_exploration(15371),	-- Skittering Cavern
+			instance_exploration(15367),	-- Terrace of Majesty
+			instance_exploration(15366),	-- The Ascending Reach
+			instance_exploration(15365),	-- The Congealing Pool
+			instance_exploration(15370),	-- The Narthex
+			instance_exploration(15364),	-- The Pulsing Pit
+			instance_exploration(15369),	-- The Swaying Span
 
 			-- Dungeon: Ara-Kara, City of Echoes
 			instance_exploration(15093),	-- Ara-Kara, City of Echoes
@@ -227,56 +571,56 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 
 			-- NYI?
 			exploration(14484),	-- 10.2 Devland
-			exploration(14730),	-- Abandoned Creche
-			exploration(14853),	-- Test Dungeon
-			exploration(14512),	-- RebornTree
-			exploration(15667),	-- Delves
-			exploration(14517),	-- 11Test1
 			exploration(14523),	-- 11 Zone3
-			exploration(14662),	-- 11Test5
-			exploration(14855),	-- 11Test7
-			exploration(15027),	-- 2510 Coreway
+			exploration(14517),	-- 11Test1
 			exploration(14615),	-- 11Test2
-			exploration(14616),	-- Darkglow Hollows
 			exploration(14658),	-- 11Test3
 			exploration(14661),	-- 11Test4
+			exploration(14662),	-- 11Test5
 			exploration(14723),	-- 11Test6
-			exploration(14747),	-- Zone 4 Dev Land
-			exploration(14748),	-- Khaz Algar
+			exploration(14855),	-- 11Test7
 			exploration(14908),	-- 11.0 - Underground Test
 			exploration(15180),	-- 11.0 warband camp
+			exploration(15027),	-- 2510 Coreway
+			exploration(14730),	-- Abandoned Creche
+			exploration(14616),	-- Darkglow Hollows
+			exploration(15667),	-- Delves
 			exploration(15108),	-- Dev Map - Exile's Reach - Tower
+			exploration(14748),	-- Khaz Algar
 			exploration(15343),	-- KVigue Test
+			exploration(14512),	-- RebornTree
+			exploration(14853),	-- Test Dungeon
+			exploration(14747),	-- Zone 4 Dev Land
 			exploration(15055),	-- zzoldPriory of the Sacred Flame
 		})),
 
 		-- 11.0.5
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_5 } }, {
-			-- Zone: The Forbidden Reach (Dracthyr starting zone for all classes)
+			-- Zone: The Forbidden Reach [Dracthyr starting zone for all classes]
 			exploration(15509),	-- The Forbidden Reach
 			exploration(15510),	-- The War Creche
 
 			-- Scenario: The Codex of Chromie
-			instance_exploration(15439), -- Bones of Grakkarond
-			instance_exploration(15436), -- Bronzebeard Encampment
-			instance_exploration(15443), -- Cenarion Hold
-			instance_exploration(15448), -- Hive'Ashi
-			instance_exploration(15437), -- Hive'Regal
-			instance_exploration(15435), -- Hive'Zora
-			instance_exploration(15446), -- Ravaged Twilight Camp
-			instance_exploration(15431), -- Silithus
-			instance_exploration(15438), -- Southwind Village
-			instance_exploration(15445), -- Staghelm Point
-			instance_exploration(15447), -- The Crystal Vale
-			instance_exploration(15432), -- The Scarab Dais
-			instance_exploration(15433), -- The Scarab Wall
-			instance_exploration(15440), -- The Swarming Pillar
-			instance_exploration(15441), -- Twilight Base Camp
-			instance_exploration(15434), -- Twilight Outpost
-			instance_exploration(15442), -- Twilight Post
-			instance_exploration(15444), -- Valor's Rest
+			instance_exploration(15439),	-- Bones of Grakkarond
+			instance_exploration(15436),	-- Bronzebeard Encampment
+			instance_exploration(15443),	-- Cenarion Hold
+			instance_exploration(15448),	-- Hive'Ashi
+			instance_exploration(15437),	-- Hive'Regal
+			instance_exploration(15435),	-- Hive'Zora
+			instance_exploration(15446),	-- Ravaged Twilight Camp
+			instance_exploration(15431),	-- Silithus
+			instance_exploration(15438),	-- Southwind Village
+			instance_exploration(15445),	-- Staghelm Point
+			instance_exploration(15447),	-- The Crystal Vale
+			instance_exploration(15432),	-- The Scarab Dais
+			instance_exploration(15433),	-- The Scarab Wall
+			instance_exploration(15440),	-- The Swarming Pillar
+			instance_exploration(15441),	-- Twilight Base Camp
+			instance_exploration(15434),	-- Twilight Outpost
+			instance_exploration(15442),	-- Twilight Post
+			instance_exploration(15444),	-- Valor's Rest
 
-			-- Raid: Blackrock Depths (Anniversary event)
+			-- Raid: Blackrock Depths [Anniversary event]
 			instance_exploration(15913),	-- Blackrock Depths
 
 			-- NYI?
@@ -304,7 +648,7 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			exploration(15518),	-- Lucky Break Mines
 			exploration(15530),	-- The Squandered Retreat
 
-			-- Zone: Dornogal "DelvesNerubians01SpecialInstance"
+			-- Zone: Dornogal [DelvesNerubians01SpecialInstance]
 			exploration(16075),	-- Earthcrawl Mines
 
 			-- Delve: Demolition Dome
@@ -321,38 +665,38 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			instance_exploration(15710),	-- The Waterworks
 
 			-- Raid: Liberation of Undermine
-			instance_exploration(15654), -- Bilgewater Flats
-			instance_exploration(15660), -- Blackwater Marina
-			instance_exploration(15651), -- Castaway Cove
-			instance_exploration(15652), -- Demolition Dome
-			instance_exploration(15658), -- Emerald Hills Golf Course
-			instance_exploration(15653), -- Hovel Hill
-			instance_exploration(15522), -- Liberation of Undermine
-			instance_exploration(15645), -- Pleasant Heights
-			instance_exploration(15644), -- Plunder Party
-			instance_exploration(15657), -- Port Authority
-			instance_exploration(15656), -- Public Parking
-			instance_exploration(15838), -- Research and Destruction
-			instance_exploration(15649), -- Shipping and Handling
-			instance_exploration(15664), -- Slam Central Station
-			instance_exploration(15650), -- Steamwheedle Laboratories
-			instance_exploration(15662), -- Tailgate Park
-			instance_exploration(15665), -- The Gallagio
-			instance_exploration(16177), -- The Golden Cabana
-			instance_exploration(15647), -- The Heaps
-			instance_exploration(16145), -- The Heartbreak Room
-			instance_exploration(16174), -- The High Roller Suite
-			instance_exploration(15661), -- The Hoardroom
-			instance_exploration(15839), -- The House of Chrome
-			instance_exploration(15646), -- The Incontinental Hotel
-			instance_exploration(15655), -- The Incontinental Lobby
-			instance_exploration(16176), -- The Midnight Lounge
-			instance_exploration(15659), -- The Scrapshop
-			instance_exploration(16175), -- The Shooting Gallery
-			instance_exploration(16146), -- The Tower of Spades
-			instance_exploration(15648), -- The Vatworks
-			instance_exploration(15663), -- Venture Plaza
-			instance_exploration(16106), -- Venturewood
+			instance_exploration(15654),	-- Bilgewater Flats
+			instance_exploration(15660),	-- Blackwater Marina
+			instance_exploration(15651),	-- Castaway Cove
+			instance_exploration(15652),	-- Demolition Dome
+			instance_exploration(15658),	-- Emerald Hills Golf Course
+			instance_exploration(15653),	-- Hovel Hill
+			instance_exploration(15522),	-- Liberation of Undermine
+			instance_exploration(15645),	-- Pleasant Heights
+			instance_exploration(15644),	-- Plunder Party
+			instance_exploration(15657),	-- Port Authority
+			instance_exploration(15656),	-- Public Parking
+			instance_exploration(15838),	-- Research and Destruction
+			instance_exploration(15649),	-- Shipping and Handling
+			instance_exploration(15664),	-- Slam Central Station
+			instance_exploration(15650),	-- Steamwheedle Laboratories
+			instance_exploration(15662),	-- Tailgate Park
+			instance_exploration(15665),	-- The Gallagio
+			instance_exploration(16177),	-- The Golden Cabana
+			instance_exploration(15647),	-- The Heaps
+			instance_exploration(16145),	-- The Heartbreak Room
+			instance_exploration(16174),	-- The High Roller Suite
+			instance_exploration(15661),	-- The Hoardroom
+			instance_exploration(15839),	-- The House of Chrome
+			instance_exploration(15646),	-- The Incontinental Hotel
+			instance_exploration(15655),	-- The Incontinental Lobby
+			instance_exploration(16176),	-- The Midnight Lounge
+			instance_exploration(15659),	-- The Scrapshop
+			instance_exploration(16175),	-- The Shooting Gallery
+			instance_exploration(16146),	-- The Tower of Spades
+			instance_exploration(15648),	-- The Vatworks
+			instance_exploration(15663),	-- Venture Plaza
+			instance_exploration(16106),	-- Venturewood
 
 			-- PvP Arena:
 			instance_exploration(15332),	-- Cage of Carnage
@@ -378,65 +722,65 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 		-- 11.1.7
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_7 } }, {
 			-- Lorewalking Zone: Arathi Highlands
-			exploration(15716), -- Arathi Highlands
-			exploration(15735), -- Ar'gorok
-			exploration(15727), -- Boulderfist Hall
-			exploration(15721), -- Boulder'gor
-			exploration(15722), -- Circle of East Binding
-			exploration(15718), -- Circle of Elements
-			exploration(15734), -- Circle of Inner Binding
-			exploration(15732), -- Circle of Outer Binding
-			exploration(15731), -- Dabyrie's Farmstead
-			exploration(15730), -- Drywhisker Gorge
-			exploration(15740), -- Drywhisker Mine
-			exploration(15724), -- Faldir's Cove
-			exploration(15744), -- Galson's Lode
-			exploration(15729), -- Go'Shek Farm
-			exploration(15719), -- Hammerfall
-			exploration(15736), -- Hatchet Ridge
-			exploration(15738), -- High Perch
-			exploration(15741), -- Highlands Mill
-			exploration(15737), -- Newstead
-			exploration(15739), -- Northfold Crossing
-			exploration(15733), -- Refuge Pointe
-			exploration(15742), -- Stromgarde Keep
-			exploration(15726), -- Thandol Span
-			exploration(15723), -- The Drowned Reef
-			exploration(15720), -- The Forbidding Sea
-			exploration(15725), -- Thoradin's Wall
-			exploration(15743), -- Valorcall Pass
-			exploration(15728), -- Witherbark Village
+			exploration(15716),	-- Arathi Highlands
+			exploration(15735),	-- Ar'gorok
+			exploration(15727),	-- Boulderfist Hall
+			exploration(15721),	-- Boulder'gor
+			exploration(15722),	-- Circle of East Binding
+			exploration(15718),	-- Circle of Elements
+			exploration(15734),	-- Circle of Inner Binding
+			exploration(15732),	-- Circle of Outer Binding
+			exploration(15731),	-- Dabyrie's Farmstead
+			exploration(15730),	-- Drywhisker Gorge
+			exploration(15740),	-- Drywhisker Mine
+			exploration(15724),	-- Faldir's Cove
+			exploration(15744),	-- Galson's Lode
+			exploration(15729),	-- Go'Shek Farm
+			exploration(15719),	-- Hammerfall
+			exploration(15736),	-- Hatchet Ridge
+			exploration(15738),	-- High Perch
+			exploration(15741),	-- Highlands Mill
+			exploration(15737),	-- Newstead
+			exploration(15739),	-- Northfold Crossing
+			exploration(15733),	-- Refuge Pointe
+			exploration(15742),	-- Stromgarde Keep
+			exploration(15726),	-- Thandol Span
+			exploration(15723),	-- The Drowned Reef
+			exploration(15720),	-- The Forbidding Sea
+			exploration(15725),	-- Thoradin's Wall
+			exploration(15743),	-- Valorcall Pass
+			exploration(15728),	-- Witherbark Village
 
 			-- Lorewalking Zone: Hillsbrad Foothills
-			exploration(15748), -- Dun Garok
-			exploration(15747), -- Durnholde Keep
-			exploration(15749), -- Eastern Strand
-			exploration(15717), -- Hillsbrad Foothills
-			exploration(15746), -- Nethander Stead
-			exploration(15752), -- Ravenholdt Manor
-			exploration(15751), -- The Great Sea
-			exploration(15750), -- Thoradin's Wall
+			exploration(15748),	-- Dun Garok
+			exploration(15747),	-- Durnholde Keep
+			exploration(15749),	-- Eastern Strand
+			exploration(15717),	-- Hillsbrad Foothills
+			exploration(15746),	-- Nethander Stead
+			exploration(15752),	-- Ravenholdt Manor
+			exploration(15751),	-- The Great Sea
+			exploration(15750),	-- Thoradin's Wall
 
 			-- Lorewalking Zone: Lordaeron Garrison
 			exploration(15989),	-- Lordaeron Garrison
 
 			-- Lorewalking Zone: Ny'alotha, the Waking City
-			exploration(15777), -- Annex of Prophecy
-			exploration(15772), -- Chamber of Rebirth
-			exploration(15768), -- Den of Transfusion
-			exploration(15766), -- Locus of Infinite Truths
-			exploration(15774), -- Maw of Gor'ma
-			exploration(15765), -- Ny'alotha
-			exploration(15764), -- Ny'alotha, the Waking City
-			exploration(15767), -- N'Zoth
-			exploration(15778), -- Obsidian Overlook
-			exploration(15773), -- Spawning Pit
-			exploration(15769), -- Terrace of Desolation
-			exploration(15775), -- The Hive
-			exploration(15776), -- The Ritual Chamber
-			exploration(15770), -- Twilight Landing
-			exploration(15779), -- Vision of Destiny
-			exploration(15771), -- Warren of Decay
+			exploration(15777),	-- Annex of Prophecy
+			exploration(15772),	-- Chamber of Rebirth
+			exploration(15768),	-- Den of Transfusion
+			exploration(15766),	-- Locus of Infinite Truths
+			exploration(15774),	-- Maw of Gor'ma
+			exploration(15765),	-- Ny'alotha
+			exploration(15764),	-- Ny'alotha, the Waking City
+			exploration(15767),	-- N'Zoth
+			exploration(15778),	-- Obsidian Overlook
+			exploration(15773),	-- Spawning Pit
+			exploration(15769),	-- Terrace of Desolation
+			exploration(15775),	-- The Hive
+			exploration(15776),	-- The Ritual Chamber
+			exploration(15770),	-- Twilight Landing
+			exploration(15779),	-- Vision of Destiny
+			exploration(15771),	-- Warren of Decay
 
 			-- Lorewalking Zone: Scarlet Halls
 			exploration(15842),	-- Huntsman's Cloister
