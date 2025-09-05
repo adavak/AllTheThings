@@ -146,9 +146,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						}),
 					}),
 				}),
-				n(EXPLORATION, {
-					instance_exploration(15001),	-- Zekvir's Lair
-				}),
 				n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
 					q(83752, {	-- Threats of Zekvir
 						["provider"] = { "n", 227492 },	-- Brann Bronzebeard
@@ -205,9 +202,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235614),	-- Golden-Gob Propulsion Rig
 					}),
 				})),
-				n(EXPLORATION, {
-					instance_exploration(15991),	-- Demolition Dome
-				}),
 				hqt(86407, {
 					["name"] = "Received Item from Underpin (Delve)",
 					["providers"] = {
@@ -268,9 +262,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					ach(42194, {	-- Pruning the Princess
 						title(639),	-- Contract Killer %s
 					}),
-				}),
-				n(EXPLORATION, {
-					instance_exploration(16539),	-- Voidrazor Sanctuary
 				}),
 			},
 		})),
@@ -3038,9 +3029,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(106404),	-- Waygate Wiles
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(16427),	-- Archival Assault
-			}),
 			filter(MISC, {
 				-- Story Variant: Relic Retrieval
 				i(244859),	-- Armoire of Invincibility
@@ -3113,9 +3101,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(14999),	-- Earthcrawl Mines
-			}),
 			filter(MISC, {
 				i(233021, {	-- Grappling-Grabber 9000 (QI!)
 					["timeline"] = { ADDED_11_1_0 },
@@ -3186,9 +3171,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15836),	-- Excavation Site 9
-			}),
 			n(TREASURES, {
 				o(503011, {	-- Sturdy Chest
 					["coord"] = { 57.0, 46.8, EXCAVATION_SITE_9 },
@@ -3245,9 +3227,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212163),	-- Soporific Shroom Cap
 					}),
 				}),
-			}),
-			n(EXPLORATION, {
-				instance_exploration(14957),	-- Fungal Folly
 			}),
 			filter(MISC, {
 				o(409302, {	-- Dispersal Crystal
@@ -3334,9 +3313,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15000),	-- Kriegval's Rest
-			}),
 			filter(MISC, {
 				i(210970),	-- Crumbled Keepsake (QI!)
 				i(210981),	-- Kriegval's Helm (QI!)
@@ -3398,9 +3374,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212163),	-- Soporific Shroom Cap
 					}),
 				}),
-			}),
-			n(EXPLORATION, {
-				instance_exploration(14998),	-- Mycomancer Cavern
 			}),
 			filter(MISC, {
 				i(218002),	-- Priceless Pumpkin (QI!)
@@ -3493,9 +3466,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15005),	-- Nightfall Sanctum
-			}),
 			filter(MISC, {
 				i(244905, { ["timeline"] = { ADDED_11_1_7 } }),	-- Miniature Titan Disc: Charged Crystal (CI!)
 				i(215466),	-- Sanctified Supplies (QI!)
@@ -3559,9 +3529,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15990),	-- Sidestreet Sluice
-			}),
 			filter(MISC, {
 				i(244901, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Statically Charged (CI!)
 				i(234454),	-- Remote Teleporter (QI!)
@@ -3613,9 +3580,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212173),	-- Rulk'Nerub Raptorial Spine
 					}),
 				}),
-			}),
-			n(EXPLORATION, {
-				instance_exploration(15004),	-- Skittering Breach
 			}),
 			filter(MISC, {
 				i(225719),	-- Light's Mantle (QI!)
@@ -3676,9 +3640,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15008),	-- Tak-Rethan Abyss
-			}),
 			filter(MISC, {
 				o(415296, {	-- Repair Kit
 					i(211776),	-- Damp Repair Kit (QI!)
@@ -3736,9 +3697,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15003),	-- The Dread Pit
-			}),
 			filter(MISC, {
 				i(217965),	-- Repair Kit (QI!)
 			}),
@@ -3793,9 +3751,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212165),	-- Deep Nautic Helm
 					}),
 				}),
-			}),
-			n(EXPLORATION, {
-				instance_exploration(15175),	-- The Sinkhole
 			}),
 			filter(MISC, {
 				i(218122),	-- Stolen Relic (QI!)
@@ -3858,9 +3813,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212173),	-- Rulk'Nerub Raptorial Spine
 					}),
 				}),
-			}),
-			n(EXPLORATION, {
-				instance_exploration(15007),	-- The Spiral Weave
 			}),
 			filter(MISC, {
 				i(244902, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Electric Current (CI!)
@@ -3935,9 +3887,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15009),	-- The Underkeep
-			}),
 			filter(MISC, {
 				i(217715),	-- Key Scroll (QI!)
 				i(217895),	-- Volatile Pheromone (QI!)
@@ -3997,9 +3946,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212167),	-- Taken Candle
 					}),
 				}),
-			}),
-			n(EXPLORATION, {
-				instance_exploration(15002),	-- The Waterworks
 			}),
 			n(QUESTS, {
 				q(83749, {	-- Delves: The Waterworks

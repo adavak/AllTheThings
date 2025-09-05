@@ -33,12 +33,6 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				ach(40616),	-- Unexpected Arrivals
 				ach(40607),	-- Wandering in the Ravine
 			}),
-			n(EXPLORATION, {
-				instance_exploration(14990),	-- Deephaul Ravine
-				instance_exploration(15101),	-- Junction
-				instance_exploration(15100),	-- The Earthenworks
-				instance_exploration(15099),	-- The Waterworks
-			}),
 			n(QUESTS, {
 				q(82748),	-- Deephaul Ravine (auto-accepted when you first time on battleground)
 			}),

@@ -6,18 +6,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["coord"] = { 54.8, 62.9, HALLOWFALL },
 		["maps"] = { 2359 },	-- The Dawnbreaker
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(15547),	-- Beledar's Bounty
-				instance_exploration(15549),	-- Dayspring Fields
-				instance_exploration(15786),	-- Hallowfall
-				instance_exploration(15545),	-- Mereldar
-				instance_exploration(15550),	-- Stagnant Mire
-				instance_exploration(15544),	-- Tenir's Ascent
-				instance_exploration(14971),	-- The Dawnbreaker
-				instance_exploration(15551),	-- The Fangs
-				instance_exploration(15548),	-- The Hungering Pool
-				instance_exploration(15546),	-- Veneration Grounds
-			}),
 			n(QUESTS, {
 				q(83322, {	-- The Dawnbreaker: The Christening
 					-- ["sourceQuests"] = { xx },	-- TODO: figure out when they become available

@@ -908,17 +908,6 @@ root(ROOTS.Unsorted, {
 				i(248396),	-- The Speaker's Ritualistic Mantle
 				i(248397),	-- Bronzbeard's Ritualistic Mantle
 			}),
-			n(EXPLORATION, {
-				-- Zone: K'aresh
-				exploration(15336),	-- K'aresh
-
-				-- Warband Scene: The Fate of the Devoured
-				exploration(16579),	-- K'aresh
-
-				-- NYI?
-				exploration(15334),	-- 11.2 - Karesh Test
-				exploration(15798),	-- Wastelander Ruins [PH] - UNUSED
-			}),
 			header(HEADERS.LFGDungeon, 2805, {	-- Manaforge Omega
 				i(238029),	-- 11.2 Raid - Cloth - Waist
 			}),
@@ -1148,46 +1137,11 @@ root(ROOTS.Unsorted, {
 			i(246897),	-- Void's Binding Halter Top
 			i(246898),	-- Ensemble: Void's Binding Swimwear
 		})),
-		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
-			n(EXPLORATION, {
-				-- NYI?
-				exploration(16077),	-- Dornogal Test
-			}),
-		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			-- Left Remaining To Darkal --
 			n(ARMOR, {
 				-- Darkal Check Later
 				i(238243),	-- Hidden Boots
-			}),
-			n(EXPLORATION, {
-				-- PvP Arena:
-				exploration(15332),	-- Cage of Carnage
-
-				-- Zone: Undermine
-				exploration(15465),	-- Slam Central Station
-				exploration(15533),	-- The Hoardroom
-				exploration(15643),	-- Airship Supply Depot
-				exploration(15783),	-- The Moneymaker
-
-				-- Zone: Zuldazar
-				exploration(15518),	-- Lucky Break Mines
-				exploration(15530),	-- The Squandered Retreat
-
-				-- Zone: Dornogal "DelvesNerubians01SpecialInstance" ??
-				exploration(16075),	-- Earthcrawl Mines
-
-				-- Warband Scene: Gallagio Grand Gallery
-				exploration(16078),	-- Warband_Plains
-			}),
-		})),
-		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
-			n(EXPLORATION, {
-				-- Zone: Siren Isle
-				exploration(15914),	-- Hozen's Paw
-				exploration(15941),	-- Bilge Rat Corsair
-				exploration(16101),	-- Pridetalon Hotsprings
-				exploration(16108),	-- The Great Sea
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
@@ -1210,107 +1164,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			-- Left Remaining To Darkal --
-			explorationHeader({
-				-- Zone: Dornogal
-				exploration(15329),	-- Delver's Headquarters
-				-- Sub-zone:
-				exploration(15051),	-- Chamber of Heart
-
-				-- Zone: Isle of Dorn
-				exploration(14717),	-- Isle of Dorn
-				exploration(15525),	-- The Great Sea
-
-				-- Zone: The Rinding Deeps
-				exploration(14795),	-- The Ringing Deeps
-				exploration(14807),	-- The Glittering Shelf
-				exploration(14818),	-- Darkflame Cleft Exterior
-				exploration(14823),	-- <Unnamed POI 007>
-				exploration(14824),	-- <Unnamed POI 008>
-				exploration(14825),	-- <Unnamed POI 009>
-				exploration(14826),	-- <Unnamed POI 010>
-				exploration(14827),	-- <Unnamed POI 011>
-				exploration(14828),	-- <Unnamed POI 012>
-				exploration(14829),	-- <Unnamed POI 013>
-				exploration(14830),	-- <Unnamed POI 014>
-				exploration(14831),	-- <Unnamed POI 015>
-				exploration(14832),	-- <Unnamed POI 016>
-				exploration(14833),	-- <Unnamed POI 017>
-				exploration(14834),	-- <Unnamed POI 018>
-				exploration(14835),	-- <Unnamed POI 019>
-				exploration(14836),	-- <Unnamed POI 020>
-
-				-- Zone: Hallowfall
-				exploration(14838),	-- Hallowfall
-				exploration(14920),	-- The Basin
-				exploration(15552),	-- The Undersea
-
-				-- Zone: Azj-Kahet
-				exploration(14752),	-- Azj-Kahet
-				exploration(14753),	-- City of Threads
-				exploration(14903),	-- Deepstrike Point
-				exploration(15359),	-- Sundered's Crucible
-				-- Sub-zone: City of Threads
-				exploration(15470),	-- Laboratory of the Grand Splicer
-
-				-- Zone: Hall of Awakening [Earthen]
-				exploration(14665),	-- Khaz Algar
-				exploration(15342),	-- Hall of Awakening
-
-				-- Scenario: Dalaran
-				exploration(15177),	-- Dalaran
-
-				-- Scenario: Darkflame Cleft
-				exploration(15052),	-- Darkflame Cleft
-
-				-- Scenario: Priory of the Sacred Flame
-				exploration(15145),	-- Hallowfall
-				exploration(15146),	-- The Undersea
-				exploration(15147),	-- Veneration Grounds
-				exploration(15148),	-- Velhan's Claim
-				exploration(15149),	-- Mereldar
-				exploration(15150),	-- Priory of the Sacred Flame
-
-				-- Scenario: Hall of Awakening
-				exploration(15048),	-- Hall of Awakening
-				exploration(15141),	-- Awakening Machine
-				exploration(15142),	-- Firewall of Negation
-				exploration(15143),	-- Processing Unit
-				exploration(15144),	-- Annihilation Interface
-
-				-- Delves: All
-				exploration(15006),	-- The Sinkhole
-				exploration(15327),	-- Tak-Rethan Abyss
-
-				-- Warband Scene: Warband Camp
-				exploration(15387),	-- Warband Camp
-
-				-- ??
-				exploration(15513),	-- Pocket Dimension
-
-				-- NYI??
-				exploration(14484),	-- 10.2 Devland
-				exploration(14730),	-- Abandoned Creche
-				exploration(14853),	-- Test Dungeon
-				exploration(14512),	-- RebornTree
-				exploration(15667),	-- Delves
-				exploration(14517),	-- 11Test1
-				exploration(14523),	-- 11 Zone3
-				exploration(14662),	-- 11Test5
-				exploration(14855),	-- 11Test7
-				exploration(15027),	-- 2510 Coreway
-				exploration(14615),	-- 11Test2
-				exploration(14616),	-- Darkglow Hollows
-				exploration(14658),	-- 11Test3
-				exploration(14661),	-- 11Test4
-				exploration(14723),	-- 11Test6
-				exploration(14747),	-- Zone 4 Dev Land
-				exploration(14748),	-- Khaz Algar
-				exploration(14908),	-- 11.0 - Underground Test
-				exploration(15180),	-- 11.0 warband camp
-				exploration(15108),	-- Dev Map - Exile's Reach - Tower
-				exploration(15343),	-- KVigue Test
-				exploration(15055),	-- zzoldPriory of the Sacred Flame
-			}),
 			-- Have QuestID attached
 			i(228947),	-- Weaver's Lair Profession Table
 		})),

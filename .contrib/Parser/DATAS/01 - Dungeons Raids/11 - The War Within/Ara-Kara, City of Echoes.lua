@@ -9,12 +9,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			2358,	--	-- CityOfEchoes_B // The Undercache
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(15093),	-- Ara-Kara, City of Echoes
-				instance_exploration(15155),	-- Echoing Overlook
-				instance_exploration(15154),	-- The Shredded Strands
-				instance_exploration(15156),	-- The Undercache
-			}),
 			n(QUESTS, {
 				q(83166, {	-- Ara-Kara, the City of Echoes: Harverst's End
 					["provider"] = { "n", 224733 },	-- Tulumun

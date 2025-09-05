@@ -6,13 +6,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["coord"] = { 76.6, 43.8, ISLE_OF_DORN },
 		["maps"] = { 2335 },	-- Cinderbrew Meadery
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(15103),	-- Cinderbrew Meadery
-				instance_exploration(15341),	-- The BEE.E.O. Suite
-				instance_exploration(15340),	-- The Buzz Barns
-				instance_exploration(15338),	-- The Flaming Taps
-				instance_exploration(15339),	-- The Stills
-			}),
 			n(QUESTS, {
 				q(83099, {	-- Mergers and Acquisitions
 					["qgs"] = {

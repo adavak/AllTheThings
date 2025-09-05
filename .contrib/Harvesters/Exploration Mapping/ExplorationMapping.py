@@ -126,9 +126,9 @@ def exploration_mapping(build):
 
         # Exploration type
         if instance_name in ("Outdoor", "Unknown", "N/A"):
-            exploration_text = f"exploration({area_id})"
+            exploration_text = f"exploration({area_id}),"
         else:
-            exploration_text = f"instance_exploration({area_id})"
+            exploration_text = f"instance_exploration({area_id}),"
 
         line = f"[{expansion_name}] [{instance_name}] [{label}] {exploration_text}\t-- {area_name}"
         return (int(area_id), int(continent_id) if continent_id.isdigit() else 9999999, line)

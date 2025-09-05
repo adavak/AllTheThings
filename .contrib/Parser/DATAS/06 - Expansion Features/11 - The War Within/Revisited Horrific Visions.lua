@@ -79,10 +79,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				}),
 				ach(41725),	-- We Have the Memories
 			}),
-			n(EXPLORATION, {
-				instance_exploration(15946),	-- Vision of Orgrimmar
-				instance_exploration(15942),	-- Vision of Stormwind
-			}),
 			n(QUESTS, {
 				-- Intro --
 				q(86706, {	-- Seeking Knowledge of the Past

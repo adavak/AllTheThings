@@ -6,9 +6,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["coord"] = { 46.8, 8.5, THE_RINGING_DEEPS },
 		["maps"] = { 2341 },	-- The Stonevault
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(14883),	-- The Stonevault
-			}),
 			n(QUESTS, {
 				q(83108, {	-- Daily Diagnostics
 					["sourceQuests"] = { 79354 },	-- The Machine Speakers

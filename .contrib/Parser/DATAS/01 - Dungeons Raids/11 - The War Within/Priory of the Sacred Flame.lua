@@ -9,10 +9,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			2309,	-- Priory of the Sacred Flame
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(14954),	-- Priory of the Sacred Flame
-				instance_exploration(15460),	-- Sanctified Grounds
-			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				e(2571, {	-- Captain Dailcry
 					["crs"] = { 207946 },

@@ -465,13 +465,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				ach(41620),	-- Manaforge Omega Guild Run
 				ach(41621),	-- Heroic: Manaforge Omega Guild Run
 			}),
-			n(EXPLORATION, {
-				instance_exploration(16178),	-- Manaforge Omega
-				instance_exploration(16339),	-- The Dark Heart
-				instance_exploration(16358),	-- The Forge Core
-				instance_exploration(16572),	-- The Glassed Expanse
-				instance_exploration(16571),	-- Wastes of K'aresh
-			}),
 			header(HEADERS.Faction, FACTION_MANAFORGE_VANDALS, {
 				n(ACHIEVEMENTS, {
 					ach(60940),	-- Vandals! In! Space!

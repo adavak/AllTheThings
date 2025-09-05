@@ -57,10 +57,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 			n(ADVENTURE_GUIDE, {
 				i(234449),	-- Dastardly Invitation (QS!/QI!)
 			}),
-			n(EXPLORATION, {
-				instance_exploration(16092),	-- Dastardly Duos
-				instance_exploration(16093),	-- Undermine
-			}),
 			n(QUESTS, {
 				q(86491, {	-- Dastardly Duos! It's on!
 					["provider"] = { "i", 234449 },	-- Dastardly Invitation
