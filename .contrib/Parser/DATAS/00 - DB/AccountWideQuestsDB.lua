@@ -2005,6 +2005,7 @@ ExportDB.AccountWideQuestsDB = {
 	[91310] = true, -- Miasmawrath
 	[91311] = true, -- The Harvester
 	[91312] = true, -- The Wallbreaker
+	[91413] = true,	-- A Twilight Oath's End
 	[91421] = true,	-- Weekly reputation: Malek'ta
 	[91422] = true,	-- Weekly reputation: Heka'tamos
 	[91431] = true,	-- Weekly reputation: Sthaarbs

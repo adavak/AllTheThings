@@ -283,11 +283,76 @@ InstanceHelper.BossObjects = {
 	[SALHADAAR] = { 562348 },	-- Spoils of the Nexus-King
 }
 
--- TODO:
--- Hungering Void Curio Warbound versions
--- LFR mod 149
--- N mod 151
--- H mod 152
+local TokenModID = {
+	[DIFFICULTY.RAID.LFR] = 149,
+	[DIFFICULTY.RAID.NORMAL] = 149,
+	[DIFFICULTY.RAID.HEROIC] = 151,
+	[DIFFICULTY.RAID.MYTHIC] = 152,
+}
+local TokenSymModID = {
+	[DIFFICULTY.RAID.LFR] = 4,
+	[DIFFICULTY.RAID.NORMAL] = 4,
+	[DIFFICULTY.RAID.HEROIC] = 3,
+	[DIFFICULTY.RAID.MYTHIC] = 5,
+}
+
+InstanceHelper.ExtraLoots = {
+	-- Warbound Tier Tokens (has different modIDs because of course)
+	{
+		Add = function(encounter, id, difficulty, data)
+			local g = data[id]
+			if g then
+				g = clone(g)
+				-- use alternate versions of the Tokens with different ModID, but non-filling symlink to the base tokens
+				-- to prevent dupes in Main & Mini
+				local dropModID = TokenModID[difficulty]
+				local symModID = TokenSymModID[difficulty]
+				-- copied from old Castle Nathria implementation
+				for _,item in ipairs(g) do
+					item.modID = dropModID
+					item.skipFill = true
+					item.up = IGNORED_VALUE
+					item.sym = {{"select","itemID",modItemId(item.itemID,symModID)},{"groupfill",true},{"pop"}}	-- Base Version & Fill
+					item.nomerge = true
+				end
+				encounter.groups = appendAllGroups(encounter.groups, g)
+				return encounter
+			end
+		end,
+		Data = {
+			[FRACTILLUS] = {	-- Chest
+				i(237581),	-- Dreadful Voidglass Contaminant
+				i(237582),	-- Mystic Voidglass Contaminant
+				i(237583),	-- Venerated Voidglass Contaminant
+				i(237584),	-- Zenith Voidglass Contaminant
+			},
+			[HUNTERS] = {	-- Shoulder
+				i(237597),	-- Dreadful Yearning Cursemark
+				i(237598),	-- Mystic Yearning Cursemark
+				i(237599),	-- Venerated Yearning Cursemark
+				i(237600),	-- Zenith Yearning Cursemark
+			},
+			[ARAZ] = {	-- Head
+				i(237589),	-- Dreadful Foreboding Beaker
+				i(237590),	-- Mystic Foreboding Beaker
+				i(237591),	-- Venerated Foreboding Beaker
+				i(237592),	-- Zenith Foreboding Beaker
+			},
+			[NAAZINDHRI] = {	-- Hands
+				i(237585),	-- Dreadful Binding Agent
+				i(237586),	-- Mystic Binding Agent
+				i(237587),	-- Venerated Binding Agent
+				i(237588),	-- Zenith Binding Agent
+			},
+			[LOOMITHAR] = {	-- Legs
+				i(237593),	-- Dreadful Silken Offering
+				i(237594),	-- Mystic Silken Offering
+				i(237595),	-- Venerated Silken Offering
+				i(237596),	-- Zenith Silken Offering
+			},
+		}
+	},
+}
 
 root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
@@ -650,7 +715,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				header(HEADERS.LFGDungeon, 2801, {	-- Heart of Darkness
 					Boss(SALHADAAR),
 					Boss(DIMENSIUS, {
-						i(237602, {	-- Excessively Bejeweled Curio
+						i(237602, {	-- Hungering Void Curio
 							["sym"] = {{"sub","instance_tier",1302,DIFFICULTY.RAID.LFR}},
 							["up"] = IGNORED_VALUE,
 						}),
