@@ -847,25 +847,25 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						o(243819, {	-- Yotnar's Left Arm
 							["coord"] = { 48.1, 47.5, STORMHEIM },
-							["g"] = {
+							["groups"] = {
 								i(128493),	-- Yotnar's Left Arm (QI!)
 							},
 						}),
 						o(243823, {	-- Yotnar's Left Foot
 							["coord"] = { 48.8, 46.1, STORMHEIM },
-							["g"] = {
+							["groups"] = {
 								i(128497),	-- Yotnar's Left Foot (QI!)
 							},
 						}),
 						o(243820, {	-- Yotnar's Right Arm
 							["coord"] = { 49.2, 45.6, STORMHEIM },
-							["g"] = {
+							["groups"] = {
 								i(128495),	-- Yotnar's Right Arm (QI!)
 							},
 						}),
 						o(243822, {	-- Yotnar's Right Foot
 							["coord"] = { 49.2, 45.6, STORMHEIM },
-							["g"] = {
+							["groups"] = {
 								i(128496),	-- Yotnar's Right Foot (QI!)
 							},
 						}),
