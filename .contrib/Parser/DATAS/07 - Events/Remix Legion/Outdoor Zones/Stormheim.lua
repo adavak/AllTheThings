@@ -59,9 +59,20 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 				n(ZONE_REWARDS, {
+					filter(CLOAKS, {
+						i(242177),	-- Draping Cloak of the Hunting Dream
+					}),
 					filter(CLOTH, {
 					}),
 					filter(LEATHER, {
+						i(240743),	-- Haustvelt Leather Headgear
+						i(240744),	-- Haustvelt Leather Mantle
+						i(240745),	-- Haustvelt Leather Chestguard
+						i(240746),	-- Haustvelt Leather Belt
+						i(240747),	-- Haustvelt Leather Breeches
+						i(240748),	-- Haustvelt Leather Boots
+						i(240749),	-- Haustvelt Leather Wraps
+						i(240750),	-- Haustvelt Leather Gloves
 					}),
 					filter(MAIL, {
 					}),

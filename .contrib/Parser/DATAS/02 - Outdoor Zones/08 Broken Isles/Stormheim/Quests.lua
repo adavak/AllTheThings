@@ -123,11 +123,13 @@ root(ROOTS.Zones, {
 				}),
 				q(39591, {	-- A Trial of Valor
 					["sourceQuests"] = { 39590 },	-- Ahead of the Game
-					["coord"] = { 46.6, 44.4, STORMHEIM },
+					["provider"] = { "o", 243836 },	-- Yotnar's Head
+					["coord"] = { 46.7, 44.4, STORMHEIM },
 				}),
 				q(39592, {	-- A Trial of Will
 					["sourceQuests"] = { 39590 },	-- Ahead of the Game
-					["coord"] = { 46.6, 44.4, STORMHEIM },
+					["provider"] = { "o", 243836 },	-- Yotnar's Head
+					["coord"] = { 46.7, 44.4, STORMHEIM },
 				}),
 				q(38412, {	-- Above the Winter Moonlight (Alliance)
 					["sourceQuests"] = { 38342 },	-- Another Way
@@ -148,7 +150,11 @@ root(ROOTS.Zones, {
 				q(39590, {	-- Ahead of the Game
 					["sourceQuests"] = { 38331 },	-- Havi's Test
 					["provider"] = { "n", 96254 },	-- Havi
-					["coord"] = { 41.8, 42.9, STORMHEIM },
+					["coord"] = { 43.2, 49.2, STORMHEIM },
+					["groups"] = {
+						i(128508),	-- Gutspill's Head (QI!)
+						i(128509),	-- Rumblehoof's Head (QI!)
+					},
 				}),
 				q(38342, {	-- Another Way (Alliance)
 					["sourceQuests"] = { 38410 },	-- Impalement Insurance (A)
@@ -168,6 +174,8 @@ root(ROOTS.Zones, {
 					["coord"] = { 33.6, 50.8, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						i(122295),	-- Transponder Battery (QI!)
+						--
 						i(134554),	-- Runespeaker's Gloves
 						i(134555),	-- Runesworn Grips
 						i(134556),	-- Stormborn Gloves
@@ -218,8 +226,7 @@ root(ROOTS.Zones, {
 						96236,	-- Mightstone Savage
 						108283,	-- Mightstone Savage
 					},
-					-- Wowhead information on this quest is inaccurate.
-					-- No prereqs required; quest item was looted from the first mob I killed.
+					["groups"] = { i(128511) },	-- Challenger's Tribute (QI!)
 				}),
 				q(38052, {	-- Boarded!
 					["sourceQuests"] = { 39800 },	-- Greymane's Gambit
@@ -388,7 +395,7 @@ root(ROOTS.Zones, {
 						38459,	-- The Ancient Trials (Horde)
 					},
 					["provider"] = { "n", 96254 },	-- Havi
-					["coord"] = { 41.8, 42.9, STORMHEIM },
+					["coord"] = { 43.2, 49.2, STORMHEIM },
 				}),
 				q(38414, {	-- Heart of a Dragon
 					["sourceQuests"] = {
@@ -514,7 +521,7 @@ root(ROOTS.Zones, {
 				q(38059, {	-- Pins and Needles
 					["sourceQuests"] = { 38057 },	-- The Lost Legion
 					["provider"] = { "n", 92414 },	-- Knight-Captain Rhodes
-					["coord"] = { 77.6, 49.5, 636 },	-- Stormscale Cavern
+					["coord"] = { 77.1, 48.3, 636 },	-- Stormscale Cavern
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(42444, {	-- Plight of the Blackfeather
@@ -584,6 +591,14 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 90866 },	-- Tinkmaster Overspark
 					["coord"] = { 33.6, 50.8, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						o(240286, {	-- Crystal Oscillator
+							["coord"] = { 33.6, 57.3, STORMHEIM },
+							["groups"] = {
+								i(123887),	-- Crystal Oscillator (QI!)
+							},
+						}),
+					},
 				}),
 				q(40044, {	-- Shadows in the Mists
 					["sourceQuests"] = { 39984 },	-- Remnants of the Past
@@ -694,6 +709,11 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 90783 },	-- Mishka
 					["coord"] = { 33.6, 50.8, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						o(241275, {	-- Skyfire Medical Supplies
+							i(123876),	-- Skyfire First Aid Kit (QI!)
+						}),
+					},
 				}),
 				q(38210, {	-- The Ancient Trials (Alliance)
 					["sourceQuests"] = { 38060 },	-- Signal Boost
@@ -710,6 +730,7 @@ root(ROOTS.Zones, {
 				q(39597, {	-- The Blessing of the Watchers
 					["sourceQuests"] = { 39594 },	-- A Trial of Might
 					["provider"] = { "n", 96258 },	-- Yotnar
+					["coord"] = { 46.3, 44.8, STORMHEIM },
 					["groups"] = {
 						i(200666, {	-- Storm-Imbued Pole
 							["classes"] = { EVOKER },
@@ -821,8 +842,34 @@ root(ROOTS.Zones, {
 				}),
 				q(39593, {	-- The Shattered Watcher
 					["sourceQuests"] = { 39590 },	-- Ahead of the Game
-					["coord"] = { 46.6, 44.4, STORMHEIM },
+					["provider"] = { "o", 243836 },	-- Yotnar's Head
+					["coord"] = { 46.7, 44.4, STORMHEIM },
 					["groups"] = {
+						o(243819, {	-- Yotnar's Left Arm
+							["coord"] = { 48.1, 47.5, STORMHEIM },
+							["g"] = {
+								i(128493),	-- Yotnar's Left Arm (QI!)
+							},
+						}),
+						o(243823, {	-- Yotnar's Left Foot
+							["coord"] = { 48.8, 46.1, STORMHEIM },
+							["g"] = {
+								i(128497),	-- Yotnar's Left Foot (QI!)
+							},
+						}),
+						o(243820, {	-- Yotnar's Right Arm
+							["coord"] = { 49.2, 45.6, STORMHEIM },
+							["g"] = {
+								i(128495),	-- Yotnar's Right Arm (QI!)
+							},
+						}),
+						o(243822, {	-- Yotnar's Right Foot
+							["coord"] = { 49.2, 45.6, STORMHEIM },
+							["g"] = {
+								i(128496),	-- Yotnar's Right Foot (QI!)
+							},
+						}),
+						--
 						i(129316),	-- Watcher's Pendant of Courage
 						i(121560),	-- Signet of the Watcher's Guile
 					},

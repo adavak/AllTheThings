@@ -46,16 +46,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					42576,	-- Mythic: Tomb of Sargeras
 					42636,	-- Mythic: Trial of Valor
 				}},
-				["groups"] = {	-- Ensemble: Sargerei Commander's Lightbound Regalia
-					i(253317),	-- Sargerei Commander's Lightbound Spaulders
-					i(253318),	-- Sargerei Commander's Lightbound Crown
-					i(253319),	-- Sargerei Commander's Lightbound Hauberk
-					i(253320),	-- Sargerei Commander's Lightbound Buckle
-					i(253321),	-- Sargerei Commander's Lightbound Chausses
-					i(253322),	-- Sargerei Commander's Lightbound Sabatons
-					i(253323),	-- Sargerei Commander's Lightbound Gauntlets
-					i(253324),	-- Sargerei Commander's Lightbound Mantle
-				},
+				["groups"] = { iensemble(257106) },	-- Ensemble: Sargerei Commander's Lightbound Regalia
 			}),
 		}),
 		--n(REWARDS, {

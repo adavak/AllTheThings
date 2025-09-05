@@ -189,10 +189,12 @@ root(ROOTS.Zones, {
 				}),
 				n(107840, {	-- Stormforged Grapple Launcher
 					["questID"] = 39775,
-					["coord"] = { 36.9, 31.8, STORMHEIM },
+					["coord"] = { 33.8, 45.7, STORMHEIM },
 					["groups"] = {
-						i(138111, {	-- Stormforged Grapple Launcher
+						i(138111, {	-- Stormforged Grapple Launcher	// (TOY!) as of 11.2.5
+							-- #if BEFORE 11.2.5
 							["description"] = "This item can be safely deleted and you'll still be able to interact with the hooks.",
+							-- #endif
 						}),
 					},
 				}),

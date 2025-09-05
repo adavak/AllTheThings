@@ -1251,7 +1251,7 @@ root(ROOTS.Zones, {
 				q(43341, {	-- Uniting the Isles
 					["provider"] = { "n", 90417 },	-- Archmage Khadgar
 					["groups"] = {
-						i(141605, {	-- Flight Master Whistle
+						i(141605, {	-- Flight Master Whistle	// (TOY!) as of 11.2.5
 							["modID"] = 11,
 						}),
 					},
@@ -1260,7 +1260,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 90417 },	-- Archmage Khadgar
 					["coord"] = { 28.5, 48.3, LEGION_DALARAN },
 					["groups"] = {
-						i(141605, {	-- Flight Master Whistle
+						i(141605, {	-- Flight Master Whistle	// (TOY!) as of 11.2.5
 							["modID"] = 11,
 						}),
 					},

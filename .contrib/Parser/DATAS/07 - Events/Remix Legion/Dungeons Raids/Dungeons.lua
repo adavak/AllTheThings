@@ -166,15 +166,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			ach(42688),	-- Timeworn Keystone Adept (L7)
 			ach(42689),	-- Timeworn Keystone Master (L15)
 			ach(42690, {	-- Timeworn Keystone Hero (L25)
-				-- Ensemble: Sargerei Commander's Hellforged Regalia
-				i(253333),	-- Sargerei Commander's Hellforged Spaulders
-				i(253334),	-- Sargerei Commander's Hellforged Crown
-				i(253335),	-- Sargerei Commander's Hellforged Hauberk
-				i(253336),	-- Sargerei Commander's Hellforged Buckle
-				i(253337),	-- Sargerei Commander's Hellforged Chausses
-				i(253338),	-- Sargerei Commander's Hellforged Sabatons
-				i(253339),	-- Sargerei Commander's Hellforged Gauntlets
-				i(253340),	-- Sargerei Commander's Hellforged Mantle
+				iensemble(257105),	-- Ensemble: Sargerei Commander's Hellforged Regalia
 			}),
 			ach(42691, {	-- Timeworn Keystone Hero (L30)
 				title(658),	-- %s the Infernal (TITLE!)

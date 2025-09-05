@@ -82,15 +82,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(61056),	-- Heroic Broken Isles World Quests II
 		ach(61054),	-- Heroic Broken Isles World Quests III
 		ach(61070, {	-- Heroic Broken Isles World Quests IV
-			-- Ensemble: Sargerei Commander's Voidscarred Regalia
-			i(253325),	-- Sargerei Commander's Voidscarred Spaulders
-			i(253326),	-- Sargerei Commander's Voidscarred Crown
-			i(253327),	-- Sargerei Commander's Voidscarred Hauberk
-			i(253328),	-- Sargerei Commander's Voidscarred Buckle
-			i(253329),	-- Sargerei Commander's Voidscarred Chausses
-			i(253330),	-- Sargerei Commander's Voidscarred Sabatons
-			i(253331),	-- Sargerei Commander's Voidscarred Gauntlets
-			i(253332),	-- Sargerei Commander's Voidscarred Mantle
+			iensemble(257104),	-- Ensemble: Sargerei Commander's Voidscarred Regalia
 		}),
 		ach(61059),	-- Legionslayer I
 		ach(61058),	-- Legionslayer II
