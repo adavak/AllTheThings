@@ -442,6 +442,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 							ach(60895),	-- Celestial: Shado-Pan Monastery
 							i(86777),	-- Screaming Tiger, Qiang's Unbreakable Polearm
 							i(86739),	-- Beads of the Mogu'shi
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86813)),	-- Vizier's Ruby Signet (HoF)
 							i(86805),	-- Qin-xi's Polarizing Seal
 						},
 					}),
