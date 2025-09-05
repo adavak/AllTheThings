@@ -9,13 +9,6 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2094,	-- Ruby Overlook
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(14449),	-- Flashfrost Incursion
-				instance_exploration(14450),	-- Infusion Chambers
-				instance_exploration(14063),	-- Ruby Life Pools
-				instance_exploration(14448),	-- Ruby Lifeshrine
-				instance_exploration(14451),	-- Ruby Overlook
-			}),
 			n(QUESTS, {
 				q(66119, {	-- Defend the Life Pools!
 					["sourceQuests"] = { 66118 },	-- Basalt Assault

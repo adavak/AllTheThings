@@ -9,13 +9,6 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2072,	-- The Vault of Tyr
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(14144),	-- Hall of the Keepers
-				instance_exploration(14143),	-- The Dig
-				instance_exploration(14145),	-- The Earthworks
-				instance_exploration(14146),	-- The Vault of Tyr
-				instance_exploration(13968),	-- Uldaman
-			}),
 			n(QUESTS, {
 				q(71093, {	-- Legacy of Tyr: Secrets of the Past
 					["description"] = "Given on zoning into the instance on a character that did not do the pre-patch version of this quest.",

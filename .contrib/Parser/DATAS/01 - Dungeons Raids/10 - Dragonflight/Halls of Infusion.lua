@@ -10,9 +10,6 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2083,	-- Infusion Chamber
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(14082),	-- Halls of Infusion
-			}),
 			n(QUESTS, {
 				q(72192, {	-- Halls of Infusion: Entropy to Order
 					-- ["sourceQuests"] = {  },	--

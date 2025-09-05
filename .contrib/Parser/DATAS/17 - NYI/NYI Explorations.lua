@@ -115,8 +115,60 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			instance_exploration(14030),	-- Vault of the Incarnates
 			instance_exploration(14617),	-- The Seat of the Aspects
 
+			-- Dungeon: Algeth'ar Academy
+			instance_exploration(14032),	-- Algeth'ar Academy
+			instance_exploration(14034),	-- Terrace of Lectures
+			instance_exploration(14037),	-- The Botanica
+			instance_exploration(14036),	-- The Headteacher's Enclave
+			instance_exploration(14035),	-- The Pitch
+			instance_exploration(14033),	-- The Quad
+
+			-- Dungeon: Brackenhide Hollow
+			instance_exploration(13991),	-- Brackenhide Hollow
+			instance_exploration(14445),	-- Den of Decay
+			instance_exploration(14443),	-- Gutshot's Overlook
+			instance_exploration(14442),	-- Lost Kanniak
+			instance_exploration(14444),	-- The Rotwood
+
+			-- Dungeon: Halls of Infusion
+			instance_exploration(14082),	-- Halls of Infusion
+
+			-- Dungeon: Neltharus
+			instance_exploration(14011),	-- Neltharus
+			instance_exploration(14157),	-- Chamber of Flames
+			instance_exploration(14440),	-- The Dragon's Hoard
+			instance_exploration(14441),	-- The Burning Cauldron
+
+			-- Dungeon: Ruby Life Pools
+			instance_exploration(14449),	-- Flashfrost Incursion
+			instance_exploration(14450),	-- Infusion Chambers
+			instance_exploration(14063),	-- Ruby Life Pools
+			instance_exploration(14448),	-- Ruby Lifeshrine
+			instance_exploration(14451),	-- Ruby Overlook
+
+			-- Dungeon: The Azure Vault
+			instance_exploration(13954),	-- The Azure Vault
+
+			-- Dungeon: The Nokhud Offensive
+			instance_exploration(14481),	-- Battle of Spears
+			instance_exploration(14476),	-- Maruukai
+			instance_exploration(14478),	-- Nokhudon Hold
+			instance_exploration(13982),	-- Ohn'ahran Plains
+			instance_exploration(14485),	-- Ohn'ahran Plains
+			instance_exploration(14482),	-- Ohn'iri Springs
+			instance_exploration(14477),	-- The Eternal Kurgans
+			instance_exploration(14479),	-- The Nokhud Approach
+			instance_exploration(14480),	-- The Nokhud Offensive
+
+			-- Dungeon: Uldaman
+			instance_exploration(14144),	-- Hall of the Keepers
+			instance_exploration(14143),	-- The Dig
+			instance_exploration(14145),	-- The Earthworks
+			instance_exploration(14146),	-- The Vault of Tyr
+			instance_exploration(13968),	-- Uldaman
+
 			-- Arena: Nokhudon Proving Grounds
-			exploration(14436),	-- Nokhudon Proving Grounds
+			instance_exploration(14436),	-- Nokhudon Proving Grounds
 
 			-- Transportation: Ship from SW to The Waking Shores
 			exploration(14513),	-- The Rugged Dragonscale
@@ -152,7 +204,7 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 
 		-- 10.0.7
 		expansion(EXPANSION.DF, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_7 } }, {
-			-- The Forbidden Reach
+			-- Zone: The Forbidden Reach
 			exploration(14545),	-- Stormsunder Overlook
 			exploration(14433),	-- The Forbidden Reach
 			exploration(14619),	-- Zskera Vaults
@@ -230,6 +282,25 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 
 			-- Zone: The Waking Shores
 			exploration(14751),	-- The Waking Shores
+
+			-- Dungeon: Dawn of the Infinite
+			instance_exploration(14892), -- Crossroads of Fate
+			instance_exploration(14514), -- Dawn of the Infinite
+			instance_exploration(14891), -- Galakrond's Fall
+			instance_exploration(14893), -- Gelid Caverns
+			instance_exploration(14897), -- Immemorial Battlefield
+			instance_exploration(14895), -- Infinite Conflux
+			instance_exploration(14894), -- Iridikron's Precipice
+			instance_exploration(14889), -- Locus of Eternity
+			instance_exploration(14887), -- Millennia's Threshold
+			instance_exploration(14898), -- Murozond's Rise
+			instance_exploration(14886), -- Sanctum of Chronology
+			instance_exploration(14900), -- Shifting Sands
+			instance_exploration(14890), -- Spoke of Endless Winter
+			instance_exploration(14885), -- Temporal Vestibule
+			instance_exploration(14899), -- The Flowing Forest
+			instance_exploration(14888), -- The Timeways
+			instance_exploration(14896), -- Twisting Approach
 
 			-- Event: Hallow's End [Headless Horseman Revamp]
 			instance_exploration(14873),	-- Chapel Gardens
@@ -698,7 +769,7 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			instance_exploration(15663),	-- Venture Plaza
 			instance_exploration(16106),	-- Venturewood
 
-			-- PvP Arena:
+			-- Arena: Cage of Carnage
 			instance_exploration(15332),	-- Cage of Carnage
 
 			-- Warband Scene: Gallagio Grand Gallery

@@ -14,13 +14,6 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					i(200631),	-- Happy Tuskarr Palooza (TOY!)
 				}),
 			}),
-			n(EXPLORATION, {
-				instance_exploration(13991),	-- Brackenhide Hollow
-				instance_exploration(14445),	-- Den of Decay
-				instance_exploration(14443),	-- Gutshot's Overlook
-				instance_exploration(14442),	-- Lost Kanniak
-				instance_exploration(14444),	-- The Rotwood
-			}),
 			n(QUESTS, {
 				q(66211, {	-- Brackenhide Hollow: To the Source
 					["sourceQuests"] = { 65849 },	-- To Iskaara

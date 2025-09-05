@@ -675,25 +675,6 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2198,	-- Dawn of the Infinite
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(14892), -- Crossroads of Fate
-				instance_exploration(14514), -- Dawn of the Infinite
-				instance_exploration(14891), -- Galakrond's Fall
-				instance_exploration(14893), -- Gelid Caverns
-				instance_exploration(14897), -- Immemorial Battlefield
-				instance_exploration(14895), -- Infinite Conflux
-				instance_exploration(14894), -- Iridikron's Precipice
-				instance_exploration(14889), -- Locus of Eternity
-				instance_exploration(14887), -- Millennia's Threshold
-				instance_exploration(14898), -- Murozond's Rise
-				instance_exploration(14886), -- Sanctum of Chronology
-				instance_exploration(14900), -- Shifting Sands
-				instance_exploration(14890), -- Spoke of Endless Winter
-				instance_exploration(14885), -- Temporal Vestibule
-				instance_exploration(14899), -- The Flowing Forest
-				instance_exploration(14888), -- The Timeways
-				instance_exploration(14896), -- Twisting Approach
-			}),
 			n(QUESTS, {
 				q(76140, {	-- Dawn of the Infinite
 					["provider"] = { "n", 187669 },	-- Nozdormu

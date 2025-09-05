@@ -12,9 +12,6 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			2077,	-- Crystal Chambers
 		},
 		["groups"] = {
-			n(EXPLORATION, {
-				instance_exploration(13954),	-- The Azure Vault
-			}),
 			n(QUESTS, {
 				q(71155, {	-- The Azure Vaults
 					--["sourceQuests"] = { },	-- TODO
