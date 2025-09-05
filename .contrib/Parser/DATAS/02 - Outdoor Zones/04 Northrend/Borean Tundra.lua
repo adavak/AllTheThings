@@ -2985,7 +2985,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(32357, {	-- Old Crystalbark
-						["coord"] = { 33.8, 30.8, BOREAN_TUNDRA },
+						["coords"] = {
+							{ 21.0, 30.0, BOREAN_TUNDRA },
+							{ 23.0, 27.0, BOREAN_TUNDRA },
+							{ 33.8, 30.8, BOREAN_TUNDRA },
+						},
 						["groups"] = {
 							i(44649),	-- Crystalbark's Toenail
 						},

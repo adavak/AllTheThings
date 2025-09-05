@@ -3042,7 +3042,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				-- Story Variant: Waygate Wiles
 				i(245746),	-- Energy Barrel
 				i(245884),	-- Energy Pyramid
-				i(245747),	-- Energy Urn
+				o(549999, {	-- Energy Urn
+					i(245747),	-- Energy Urn
+				}),
 				i(246053),	-- Waygate Piece
 			}),
 			n(TREASURES, {

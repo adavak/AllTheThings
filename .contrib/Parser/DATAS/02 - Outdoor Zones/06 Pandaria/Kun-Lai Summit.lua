@@ -103,6 +103,7 @@ root(ROOTS.Zones, {
 					exploration(6100),	-- Muskpaw Ranch
 					visit_exploration(6180,{coord={44.7,52.2,KUN_LAI_SUMMIT}}),	-- Neverest Pinnacle
 					exploration(6085),	-- One Keg
+					visit_exploration(6462,{coord={63.5,41.9,KUN_LAI_SUMMIT}}),	-- Path of Conquerors
 					exploration(6081),	-- Peak of Serenity
 					visit_exploration(6099,{coord={73.2,73.6,KUN_LAI_SUMMIT}}),	-- Pranksters' Hollow
 					visit_exploration(6530,{coord={44.6,89.3,KUN_LAI_SUMMIT}}),	-- Serpent's Spine
