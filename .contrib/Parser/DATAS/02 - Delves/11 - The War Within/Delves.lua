@@ -3238,6 +3238,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					},
 				}),
 				i(210017),	-- Fungal Fish (QI!)
+				o(531965, {	-- Loose Parts
+					["timeline"] = { ADDED_11_2_0 },
+					["g"] = {
+						i(241220),	-- Loose Parts (QI!)
+					},
+				}),
 				i(244900, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Spark Burst (CI!)
 				o(536065, {	-- Nuts and Bolts
 					["timeline"] = { ADDED_11_2_0 },
@@ -3246,6 +3252,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					},
 				}),
 				i(238254, {["timeline"] = { ADDED_11_2_0 }}),	-- Nuts and Bolts (QI!)
+				o(531965, {	-- Work Table
+					["timeline"] = { ADDED_11_2_0 },
+					["g"] = {
+						i(242380),	-- Black Blood Blower (QI!)
+					},
+				}),
 			}),
 			n(QUESTS, {
 				q(83758, {	-- Delver's Call: Fungal Folly

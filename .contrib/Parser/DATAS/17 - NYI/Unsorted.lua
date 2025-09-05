@@ -915,8 +915,6 @@ root(ROOTS.Unsorted, {
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
-				i(241220),	-- Loose Parts
-				i(242380),	-- Black Blood Blower
 				i(243152),	-- NEW ITem
 				i(243235),	-- Adventurer's Footlocker
 				i(243246),	-- Funny Candle

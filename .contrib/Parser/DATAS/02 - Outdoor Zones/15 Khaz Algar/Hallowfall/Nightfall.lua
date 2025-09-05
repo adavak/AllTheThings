@@ -759,9 +759,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 				q(91164),	-- Daily Rep Flame Radiance for killing Umbraclaw Matta (Ajz Kahet)
 				q(91165),	-- Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
 				q(81608),	-- Enter Azj'Kahet post-patch? [DNT] Vizier - Level 4 Unlock / 443686 [DNT] Dummy - Pact Backup / 1231879
-				-- 11.2?
-				--q(92488, {["timeline"]={ADDED_11_2_0}}),	-- after opening The Flame Burns Eternal weekly satchel (first since 11.2) was looted veteran piece of gear
-				--could be lockout for coffer key shards (s3)?
+				--
+				q(92488, {["timeline"]={ADDED_11_2_0}}),	-- Additional 600 crystals lockout per week per account, after opening The Flame Burns Eternal weekly satchel
 			})),
 		}),
 	}),

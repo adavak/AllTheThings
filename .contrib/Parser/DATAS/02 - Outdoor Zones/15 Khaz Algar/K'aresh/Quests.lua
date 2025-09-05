@@ -1762,6 +1762,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["groups"] = {
 						-- The only observed source of this currency is this repeatable quest
 						currency(3303),	-- Untethered Coin
+						i(255676),	-- Phase Diver's Cache
 					},
 				}),
 			}),

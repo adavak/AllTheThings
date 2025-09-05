@@ -2034,6 +2034,7 @@ ExportDB.AccountWideQuestsDB = {
 	[91812] = true, --
 	[92031] = true,	-- Meet the Vandals
 	[92487] = true,	-- ??
+	[92488] = true,	-- Weekly lockout: 600 bonus crystals from The Flame Burns Eternal
 	[92573] = true,	-- Sturdy Chest
 	[92626] = true,	-- ??
 	[92628] = true,	-- ??
