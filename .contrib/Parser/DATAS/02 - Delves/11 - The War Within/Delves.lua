@@ -3240,7 +3240,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(210017),	-- Fungal Fish (QI!)
 				o(531965, {	-- Loose Parts
 					["timeline"] = { ADDED_11_2_0 },
-					["g"] = {
+					["groups"] = {
 						i(241220),	-- Loose Parts (QI!)
 					},
 				}),
@@ -3254,7 +3254,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(238254, {["timeline"] = { ADDED_11_2_0 }}),	-- Nuts and Bolts (QI!)
 				o(531965, {	-- Work Table
 					["timeline"] = { ADDED_11_2_0 },
-					["g"] = {
+					["groups"] = {
 						i(242380),	-- Black Blood Blower (QI!)
 					},
 				}),
