@@ -1450,7 +1450,11 @@ i(90897, 278);		-- Fox Kit [A]
 i(90898, 278);		-- Fox Kit [H]
 i(86564, 834);		-- Grinder
 i(86562, 835);		-- Hopling
+-- #if ANYCLASSIC
+i(88148, 792);		-- Jade Crane Chick
+-- #else
 i(0, 792);			-- Jade Crane Chick
+-- #endif
 i(82774, 845);		-- Jade Owl
 i(89686, 856);		-- Jade Tentacle
 i(85871, 671);		-- Lucky Quilen Cub
