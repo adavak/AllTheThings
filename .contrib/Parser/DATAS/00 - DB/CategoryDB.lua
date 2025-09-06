@@ -3010,6 +3010,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[653] = {
@@ -3053,6 +3054,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			en = "Armor Enchantments",
 			es = "Encantamientos de armadura",
 			mx = "Encantamientos de armadura",
+			ru = "Наложение чар на броню",
 		},
 	},
 	[658] = {
@@ -3063,6 +3065,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[659] = {
@@ -3144,6 +3147,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			en = "Armor Enchantments",
 			es = "Encantamientos de armadura",
 			mx = "Encantamientos de armadura",
+			ru = "Наложение чар на броню",
 		},
 	},
 	[669] = {
@@ -3154,6 +3158,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[670] = {
@@ -3241,6 +3246,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[679] = {
@@ -3321,6 +3327,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[687] = {
@@ -3411,6 +3418,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[696] = {
@@ -7727,6 +7735,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 			es = "Encantamientos de arma",
 			mx = "Encantamientos de arma",
 			ko = "무기 마법부여",
+			ru = "Наложение чар на оружие",
 		},
 	},
 	[1381] = {
