@@ -80,7 +80,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(232467, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					i(246240),	-- Devoured Energy-Pod
+					q(91286, { -- -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
+						["name"] = "Devoured Energy-Pod Devourer Attack: The Oasis",
+						["isWeekly"] = true
+						["groups"] = {
+							i(246240),	-- Devoured Energy-Pod
+						},
+					}),
 					i(239475),	-- Reshii Brute's Helmet
 					i(240116),	-- Reshii Brute's Longsword
 					i(240115),	-- Reshii Brute's Warmace
@@ -109,7 +115,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(238663, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					i(246240),	-- Devoured Energy-Pod
+					q(91287, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
+						["name"] = "Devoured Energy-Pod Devourer Attack: Eco-dome Primus",
+						["isWeekly"] = true
+						["groups"] = {
+							i(246240),	-- Devoured Energy-Pod
+						},
+					}),
 					i(240121),	-- Reshii Brute's Barrier
 					i(240118),	-- Reshii Brute's Spear
 					i(240113),	-- Reshii Magi's Dagger
@@ -156,7 +168,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(238664, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					i(246240),	-- Devoured Energy-Pod
+					q(91289, { -- -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
+						["name"] = "Devoured Energy-Pod Devourer Attack: The Atrium",
+						["isWeekly"] = true
+						["groups"] = {
+							i(246240),	-- Devoured Energy-Pod
+						},
+					}),
 					i(240121),	-- Reshii Brute's Barrier
 					i(240118),	-- Reshii Brute's Spear
 					i(240115),	-- Reshii Brute's Warmace
@@ -179,7 +197,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(238665, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					i(246240),	-- Devoured Energy-Pod
+					q(91290, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
+						["name"] = "Devoured Energy-Pod Devourer Attack: Tazavesh",
+						["isWeekly"] = true
+						["groups"] = {
+							i(246240),	-- Devoured Energy-Pod
+						},
+					}),
 					i(240121),	-- Reshii Brute's Barrier
 					i(240116),	-- Reshii Brute's Longsword
 					i(240118),	-- Reshii Brute's Spear
