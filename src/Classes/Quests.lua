@@ -877,7 +877,7 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange, forceShow)
 		if forceShow or not (
 			filter
 			and inGame
-			and incomplete
+			(and incomplete and not app.IsClassic)
 			and metPrereq
 			-- debugging, show link for any accepted quest
 			-- and false
