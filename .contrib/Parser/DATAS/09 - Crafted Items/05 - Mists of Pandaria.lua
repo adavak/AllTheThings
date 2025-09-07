@@ -1635,10 +1635,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(82446),	-- Royal Satchel
 		}),
 		filter(BATTLE_PETS, {
-			i(92960, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {	-- Silkworm Cocoon
+			applyclassicphase(MOP_PHASE_LANDFALL, i(92960, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {	-- Silkworm Cocoon
 				i(90900),	-- Imperial Moth (PET!)
 				i(90902),	-- Imperial Silkworm (PET!)
-			})),
+			}))),
 		}),
 		-- #if AFTER BFA
 		filter(MISC, {
