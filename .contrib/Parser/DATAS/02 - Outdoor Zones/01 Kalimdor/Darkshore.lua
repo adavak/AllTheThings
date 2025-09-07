@@ -22,14 +22,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
-						13568,	-- Spirit of the Moonstalker
-						13567,	-- Spirit of the Stag
-						13597,	-- Spirit of the Thistle Bear
 						13515,	-- Ending the Threat
 						13588,	-- The Eye of All Storms
 						13891,	-- The Devourer of Darkshore
 						13546,	-- The Defiler
 						13897,	-- The Battle for Darkshore
+						13569,	-- The Ritual Bond
 					},
 					-- #endif
 				}),
@@ -256,6 +254,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/1 Greymist Murloc Home Built
+							["providers"] = {
+								{ "i",  46385 },	-- Marvelous Mobile Murloc Manor Maker
+								{ "o", 195043 },	-- Greymist Murloc Build Site
+							},
+							["coord"] = { 35.9, 81.9, DARKSHORE },
+						}),
 						i(52663, {	-- Groff's Tarpaulin
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -297,6 +302,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/8 Frenzied Cyclone bracers destroyed
+							["provider"] = { "i", 44868 },	-- Frenzied Cyclone Bracers
+							["cr"] = 32985,	-- Frenzied Cyclone
+						}),
 						i(52593, {	-- Becalmed Bracers
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -337,6 +346,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 45.2, 74.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Lifebringer Sapling Tested
+							["provider"] = { "i", 46363 },	-- Lifebringer Sapling
+							["crs"] = {
+								2165,	-- Grizzled Thistle Bear
+								34318,	-- Whitetail Stag
+								2071,	-- Moonstalker Matriarch
+								2237,	-- Moonstalker Sire
+							},
+						}),
+					},
 				}),
 				q(13578, {	-- Aroom's Farewell
 					["sourceQuest"] = 13577,	-- The Last Wildkin
@@ -789,7 +809,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/7 Blackwood Furbolg Cleansed
-							["provider"] = { "n", 33000 },	-- Spirit of Corruption
+							["providers"] = {
+								{ "n", 33000 },	-- Spirit of Corruption
+								{ "i", 44889 },	-- Blessed Herb Bundle
+							},
+							["cr"] = 33043,	-- Maddened Blackwood
 						}),
 					},
 				}),
@@ -1253,6 +1277,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/8 Jadefire Brazier
 							["provider"] = { "o", 194150 },	-- Jadefire Brazier
+							["coord"] = { 44.9, 81.9, DARKSHORE },
 						}),
 						i(52608, {	-- Torn Fur Belt
 							["timeline"] = { ADDED_4_0_3 },
@@ -1282,6 +1307,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 45.3, 75.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Twilight's Hammer surveillance
+							["provider"] = { "i", 46696 },	-- Panther Figurine
+							["coord"] = { 40.62, 84.46, DARKSHORE },
+							["cr"] = 34406,	-- Foreman Balsoth
+						}),
+					},
 				}),
 				q(13940, {	-- Leaving the Dream
 					["sourceQuest"] = 13587,	-- The Waking Nightmare
@@ -1333,6 +1365,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/8 Unbound Fire Elemental absorbed
+							["providers"] = {
+								{ "n", 32999 },	-- Unbound Fire Elemental
+								{ "i", 44959 },	-- Soothing Totem
+							},
+						}),
 						i(52656, {	-- Scorched Shield
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -1623,6 +1661,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/1 Ritual of Soothing complete
+							["provider"] = { "i", 46546 },	-- Energized Soothing Totem
+							["coord"] = { 39.72, 62.57, DARKSHORE },
+						}),
 						i(52598, {	-- Soothsaying Vest
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -1687,9 +1729,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13948, {	-- Stepping Up Surveillance
 					["sourceQuest"] = 13892,	-- Leave No Tracks
-					["coord"] = { 40.5, 84.2, DARKSHORE },
+					["qg"] = 34402,	-- Balren of the Claw
+					["coord"] = { 45.3, 75.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Master's Glaive surveillance
+							["provider"] = { "i", 46696 },	-- Panther Figurine
+							["coord"] = { 39.87, 84.7, DARKSHORE },
+							["cr"] = 34326,	-- Doomspeaker Trevellion
+						}),
+					},
 				}),
 				q(13512, {	-- Strategic Strikes
 					["sourceQuests"] = {
@@ -1702,10 +1752,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Lorenth Thundercall slain
-							["provider"] = { "n", 32868 },	-- Lorenth Thundercall
+							["providers"] = {
+								{ "n", 32868 },	-- Lorenth Thundercall
+								{ "i", 44995 },	-- Dryad Spear
+							},
+							["coord"] = { 56.6, 25.8, DARKSHORE },
 						}),
 						objective(2, {	-- 0/1 Sheya Stormweaver slain
-							["provider"] = { "n", 32869 },	-- Sheya Stormweaver
+							["providers"] = {
+								{ "n", 32869 },	-- Sheya Stormweaver
+								{ "i", 44995 },	-- Dryad Spear
+							},
+							["coord"] = { 61.2, 20.4, DARKSHORE },
 						}),
 						i(52650, {	-- Dryad's Wand
 							["timeline"] = { ADDED_4_0_3 },
@@ -1720,7 +1778,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Mud-Crusted Ancient Disc
 							["providers"] = {
-								{ "i", 46386 },	-- Mud-Crusted Ancient Disc
+								{ "i",  46386 },	-- Mud-Crusted Ancient Disc
 								{ "o", 195054 },	-- Mud-Crusted Ancient Disc
 							},
 						}),
@@ -1734,8 +1792,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/10 Murloc Squatters Killed
 							["providers"] = {
-								{ "n", 2207},	-- Greymist Oracle
-								{ "n", 34339},	-- Greymist Refugee
+								{ "n", 2207 },	-- Greymist Oracle
+								{ "n", 34339 },	-- Greymist Refugee
 							},
 						}),
 					},
@@ -1845,9 +1903,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/30 Shatterspear Vale Trolls killed
 							["providers"] = {
-								{ "n", 32858},	-- Shatterspear Champion
-								{ "n", 32855},	-- Shatterspear Priestess
-								{ "n", 33071},	-- Shatterspear Raider
+								{ "n", 32858 },	-- Shatterspear Champion
+								{ "n", 32855 },	-- Shatterspear Priestess
+								{ "n", 33071 },	-- Shatterspear Raider
+								{ "n", 43742 },	-- Vengeful Protector
 							},
 						}),
 					},
@@ -1861,7 +1920,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Avatar of Soggoth slain
-							["provider"] = { "n", 34485 },	-- Avatar of Soggoth
+							["providers"] = {
+								{ "n", 34485 },	-- Avatar of Soggoth
+								{ "i", 58365 },	-- Horn of the Ancients
+							},
+							["coord"] = { 40.2, 84.0, DARKSHORE },
 						}),
 						i(52616, {	-- Bracers of the Ancient Grove
 							["timeline"] = { ADDED_4_0_3 },
@@ -1880,6 +1943,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 43.5, 81.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- 0/1 Blessed Herb Bundle
+							["providers"] = {
+								{ "i",  44887 },	-- Blessed Herb Bundle
+								{ "o", 194106 },	-- Ancient Bear Statue
+							},
+							["coord"] = { 45.3, 76.8, DARKSHORE },
+							["cost"] = {
+								{ "i", 44886, 1 },	-- Fleetfoot's Tailfeathers
+								{ "i", 44888, 1 },	-- Bear's Paw Bundle
+							},
+						}),
+						i(44886, {	-- Fleetfoot's Tailfeathers
+							["coord"] = { 45.6, 79.0, DARKSHORE },
+							["cr"] = 32997,	-- Fleetfoot
+						}),
+					},
 				}),
 				q(13526, {	-- The Bear's Paw
 					["sourceQuest"] = 13525,	-- What's Happening to the Blackwood Furbolg?
@@ -2062,7 +2142,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Devouring Artifact Destroyed
-							["provider"] = { "n", 34331 },	-- Yoth'al the Devourer
+							["providers"] = {
+								{ "n",  34331 },	-- Yoth'al the Devourer
+								{ "i",  46370 },	-- Lifebringer Sapling
+								{ "o", 195057 },	-- Devouring Artifact
+							},
+							["coord"] = { 45.0, 79.2, DARKSHORE },
 						}),
 						i(52618, {	-- Ancient Cuffs
 							["timeline"] = { ADDED_4_0_3 },
@@ -2084,8 +2169,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13581,	-- The Blackwood Pledge
 						13583,	-- The Wildkin's Oath
 					},
-					["qg"] = 33091,	-- Malfurion Stormrage
-					["coord"] = { 43.7, 53.4, DARKSHORE },
+					["providers"] = {
+						{ "n",  33091 },	-- Malfurion Stormrage
+						{ "o", 195071 },	-- Nightmare Portal
+					},
+					["coords"] = {
+						{ 43.7, 53.4, DARKSHORE },
+						{ 49.1, 57.0, DARKSHORE },
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2190,7 +2281,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13513,	-- On the Brink
 						13512,	-- Strategic Strikes
 					},
-					["qg"] = 32963,	-- Lieutenant Morra Starbreeze
+					["providers"] = {
+						{ "n", 32963 },	-- Lieutenant Morra Starbreeze
+						{ "i", 44985 },	-- Shattershield Arrow
+					},
 					["coord"] = { 58.9, 19.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2268,10 +2362,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Teegan Holloway slain
 							["provider"] = { "n", 34033 },	-- Teegan Holloway
+							["coord"] = { 58.0, 24.0, DARKSHORE },
 						}),
 						objective(2, {	-- 0/1 Narassin's Tome
 							["providers"] = {
-								{ "i", 45944 },	-- Narassin's Tome
+								{ "i",  45944 },	-- Narassin's Tome
 								{ "o", 194787 },	-- Charred Book
 							},
 							["coord"] = { 58.3, 24.0, DARKSHORE },
@@ -2309,6 +2404,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- Offering to Azshara prevented
+							["providers"] = {
+								{ "n",  34415 },	-- Darkscale Priestess
+								{ "o", 204228 },	-- Horn of the Ancients
+							},
+							["coord"] = { 32.9, 84.1, DARKSHORE },
+						}),
 						i(52588, {	-- Ritual Stopper's Slippers
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -2485,6 +2587,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/1 Ancient Slotted Device
+							["provider"] = { "i", 46387 },	-- Ancient Slotted Device
+							["cost"] = {{ "i", 46702, 5 }},	-- Ancient Device Fragment
+						}),
+						o(195055, {	-- Buried Debris
+							["description"] = "Use the detector to spawn these on the beach.",
+							["provider"] = { "i", 46388 },	-- Buried Artifact Detector
+							["coord"] = { 36.8, 81.7, DARKSHORE },
+							["groups"] = {
+								i(46702),	-- Ancient Device Fragment
+							},
+						}),
 						i(52653, {	-- Unidentified Cooking Utensil
 							["timeline"] = { ADDED_4_0_3 },
 						}),
