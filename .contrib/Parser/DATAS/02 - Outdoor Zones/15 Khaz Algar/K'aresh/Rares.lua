@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(91286, { -- -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
 						["name"] = "Devoured Energy-Pod Devourer Attack: The Oasis",
-						["isWeekly"] = true
+						["isWeekly"] = true,
 						["groups"] = {
 							i(246240),	-- Devoured Energy-Pod
 						},
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(91287, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 						["name"] = "Devoured Energy-Pod Devourer Attack: Eco-dome Primus",
-						["isWeekly"] = true
+						["isWeekly"] = true,
 						["groups"] = {
 							i(246240),	-- Devoured Energy-Pod
 						},
@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(91289, { -- -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
 						["name"] = "Devoured Energy-Pod Devourer Attack: The Atrium",
-						["isWeekly"] = true
+						["isWeekly"] = true,
 						["groups"] = {
 							i(246240),	-- Devoured Energy-Pod
 						},
@@ -199,7 +199,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					q(91290, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
 						["name"] = "Devoured Energy-Pod Devourer Attack: Tazavesh",
-						["isWeekly"] = true
+						["isWeekly"] = true,
 						["groups"] = {
 							i(246240),	-- Devoured Energy-Pod
 						},
