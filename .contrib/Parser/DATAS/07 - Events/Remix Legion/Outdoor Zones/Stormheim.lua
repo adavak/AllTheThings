@@ -61,22 +61,47 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				n(ZONE_REWARDS, {
 					filter(CLOAKS, {
 						i(242177),	-- Draping Cloak of the Hunting Dream
+						i(251876),	-- Cloak of the Hunting Dream
 					}),
 					filter(CLOTH, {
+						i(240740),	-- Hrydshal Runespeaker Bindings
+						i(240736),	-- Hrydshal Runespeaker Chestwrap
+						i(240737),	-- Hrydshal Runespeaker Cord
+						i(240734),	-- Hrydshal Runespeaker Cowl
+						i(240741),	-- Hrydshal Runespeaker Gloves
+						i(240735),	-- Hrydshal Runespeaker Mantle
+						i(240738),	-- Hrydshal Runespeaker Pants
+						i(240739),	-- Hrydshal Runespeaker Slippers
 					}),
 					filter(LEATHER, {
+						i(240746),	-- Haustvelt Leather Belt
+						i(240748),	-- Haustvelt Leather Boots
+						i(240747),	-- Haustvelt Leather Breeches
+						i(240745),	-- Haustvelt Leather Chestguard
+						i(240750),	-- Haustvelt Leather Gloves
 						i(240743),	-- Haustvelt Leather Headgear
 						i(240744),	-- Haustvelt Leather Mantle
-						i(240745),	-- Haustvelt Leather Chestguard
-						i(240746),	-- Haustvelt Leather Belt
-						i(240747),	-- Haustvelt Leather Breeches
-						i(240748),	-- Haustvelt Leather Boots
 						i(240749),	-- Haustvelt Leather Wraps
-						i(240750),	-- Haustvelt Leather Gloves
 					}),
 					filter(MAIL, {
+						i(240801),	-- Stormborn Laminar Chainmail
+						i(240804),	-- Stormborn Laminar Greaves
+						i(240806),	-- Stormborn Laminar Handguards
+						i(240799),	-- Stormborn Laminar Helmet
+						i(240803),	-- Stormborn Laminar Leggings
+						i(240800),	-- Stormborn Laminar Shoulderguards
+						i(240805),	-- Stormborn Laminar Vambraces
+						i(240802),	-- Stormborn Laminar Waistband
 					}),
 					filter(PLATE, {
+						i(240676),	-- Vrykul Funereal Armplates
+						i(240672),	-- Vrykul Funereal Battleplate
+						i(240673),	-- Vrykul Funereal Greatbelt
+						i(240677),	-- Vrykul Funereal Handguards
+						i(240675),	-- Vrykul Funereal Jackboots
+						i(240674),	-- Vrykul Funereal Legguards
+						i(240671),	-- Vrykul Funereal Pauldrons
+						i(240670),	-- Vrykul Funereal Warhelm
 					}),
 				}),
 			},

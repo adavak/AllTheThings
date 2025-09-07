@@ -8,7 +8,10 @@ root(ROOTS.Zones, {
 			n(QUESTS, {
 				q(40002, {	-- A Familiar Fate
 					["sourceQuests"] = { 40001 },	-- Knocking on Valor's Door
-					["provider"] = { "n", 91743 },	-- Circle of Binding
+					["qgs"] = {
+						91743,	-- Circle of Binding
+						97979,	-- Vethir
+					},
 					["coord"] = { 65.8, 59.4, STORMHEIM },
 				}),
 				q(39385, {	-- A Gift for Greymane
@@ -310,6 +313,7 @@ root(ROOTS.Zones, {
 				q(39472, {	-- Cut Out the Heart
 					["icon"] = 134269,
 					["sourceQuests"] = { 39855 },	-- Paid in Lifeblood
+					["provider"] = { "o", 243700 },	-- Forsaken Battle Plans
 					["coord"] = { 72.3, 61.0, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -499,6 +503,7 @@ root(ROOTS.Zones, {
 				}),
 				q(42445, {	-- Nithogg's Tribute
 					["sourceQuests"] = { 42444 },	-- Plight of the Blackfeather
+					["provider"] = { "o", 250536 },	-- Intact Greatstag Antler
 					["coord"] = { 49.8, 32.5, STORMHEIM },
 				}),
 				q(38318, {	-- No Wings Required (Alliance)
@@ -550,6 +555,7 @@ root(ROOTS.Zones, {
 						39786,	-- A Stone Cold Gamble
 					},
 					["provider"] = { "n", 107674 },	-- Snaggle Sixtrigger
+					["coord"] = { 51.4, 57.3, STORMHEIM },
 					["groups"] = {
 						title(343),	-- <Name> the Gullible
 					},
@@ -574,6 +580,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39984, {	-- Remnants of the Past
+					["provider"] = { "o", 244708 },	-- Watcher's Journal
 					["coord"] = { 62.9, 48.4, STORMHEIM },
 				}),
 				q(39787, {	-- Rigging the Wager
@@ -668,6 +675,7 @@ root(ROOTS.Zones, {
 				}),
 				q(39405, {	-- Stories of Battle
 					["sourceQuests"] = { 39154 },	-- To Skold-Ashil
+					["provider"] = { "o", 251571 },	-- Ashilvara, Verse 1
 					["coord"] = { 58.5, 64.2, STORMHEIM },
 				}),
 				q(44700, {	-- Stormheim (A)
@@ -833,6 +841,7 @@ root(ROOTS.Zones, {
 						38811,	-- Judgment Day
 						39791,	-- Lay Them to Rest
 					},
+					["provider"] = { "o", 241840 },	-- Rune-Carved Tablet
 					["coord"] = { 69.8, 45.6, STORMHEIM },
 				}),
 				q(39788, {	-- The Runewood's Revenge
@@ -881,6 +890,8 @@ root(ROOTS.Zones, {
 				}),
 				q(42640, {	-- The Value of Knowledge
 					["coord"] = { 75.5, 50.8, STORMHEIM },
+					["provider"] = { "o", 250990 },	-- Crate of Ancient Relics
+					["groups"] = { i(138151) },	-- Crate of Ancient Relics (QI!)
 				}),
 				q(38360, {	-- The Windrunner's Fate
 					["sourceQuests"] = { 38332 },	-- The Ranger Lord

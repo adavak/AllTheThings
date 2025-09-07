@@ -52,13 +52,48 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 				n(ZONE_REWARDS, {
+					filter(CLOAKS, {
+						i(241665),	-- Druidic Fur Trim Cape
+					}),
 					filter(CLOTH, {
+						i(240718),	-- Wine-dark Royal Cowl
+						i(240719),	-- Wine-dark Royal Epaulets
+						i(240720),	-- Wine-dark Royal Doublet
+						i(240721),	-- Wine-dark Royal Belt
+						i(240722),	-- Wine-dark Royal Trousers
+						i(240723),	-- Wine-dark Royal Boots
+						i(240724),	-- Wine-dark Royal Armbands
+						i(240725),	-- Wine-dark Royal Handwraps
 					}),
 					filter(LEATHER, {
+						i(240643),	-- Highmountain Hide Boots
+						i(240638),	-- Highmountain Hide Cap
+						i(240645),	-- Highmountain Hide Gloves
+						i(240642),	-- Highmountain Hide Legwraps
+						i(240639),	-- Highmountain Hide Shoulders
+						i(240641),	-- Highmountain Hide Strap
+						i(240640),	-- Highmountain Hide Vest
+						i(240644),	-- Highmountain Hide Wristguards
 					}),
 					filter(MAIL, {
+						i(240812),	-- Highmountain Riverscale Boots
+						i(240809),	-- Highmountain Riverscale Chainmail
+						i(240810),	-- Highmountain Riverscale Clasp
+						i(240807),	-- Highmountain Riverscale Helm
+						i(240814),	-- Highmountain Riverscale Grips
+						i(240808),	-- Highmountain Riverscale Pauldrons
+						i(240811),	-- Highmountain Riverscale Wargreaves
+						i(240813),	-- Highmountain Riverscale Wristguards
 					}),
 					filter(PLATE, {
+						i(240696),	-- Thunderpeak Bone Battleplate
+						i(240694),	-- Thunderpeak Bone Faceguard
+						i(240701),	-- Thunderpeak Bone Gauntlets
+						i(240697),	-- Thunderpeak Bone Girdle
+						i(240695),	-- Thunderpeak Bone Spaulders
+						i(240699),	-- Thunderpeak Bone Stompers
+						i(240700),	-- Thunderpeak Bone Vambraces
+						i(240698),	-- Thunderpeak Bone Wargreaves
 					}),
 				}),
 			},

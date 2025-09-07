@@ -524,7 +524,7 @@ root(ROOTS.Zones, {
 				q(43106, {	-- Feed Oculeth
 					["sourceQuest"] = 44691,	-- Hungry Work
 					["provider"] = { "n", 98548 },	-- Chief Telemancer Oculeth
-					["coord"] = { 36.6, 45.1, SURAMAR },
+					["coord"] = { 36.6, 47.0, SURAMAR },
 					["isDaily"] = true,
 				}),
 				q(43994, {	-- Feed Thalyssra

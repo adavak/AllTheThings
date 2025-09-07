@@ -23,6 +23,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(241758),	-- Draping Shawl of Devouring Night
 						i(240604),	-- Lunarblight Leather Cloak
 						i(240602),	-- Lunarblight Leather Shroud
+						i(240603),	-- Lunarblight Leather Wrap
 						i(240259),	-- Shawl of Devouring Night
 						i(240255),	-- Shroud of Devouring Night
 					}),

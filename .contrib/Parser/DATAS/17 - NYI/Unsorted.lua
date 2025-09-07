@@ -115,7 +115,6 @@ root(ROOTS.Unsorted, {
 			i(241645),	-- Imbued Silkweave Doublet
 			i(241647),	-- Battlebound Mailcoat
 			i(241648),	-- Template
-			i(241665),	-- Druidic Fur Trim Cape
 			i(241678),	-- [PH] Template
 			i(241679),	-- [PH] Template
 			i(241680),	-- [PH] Template
@@ -159,6 +158,7 @@ root(ROOTS.Unsorted, {
 			i(245554),	-- Heroic Cache of Infinite Treasure
 			i(245663),	-- Holy Golden Greatsword
 			i(245664),	-- Holy Hologem Greatsword
+			i(246013),	-- Thas'dorah, Legacy of the Windrunners
 			i(246072),	-- Intricate Everchill Pearl
 			i(246073),	-- Intricate Rage of the Tides
 			i(246074),	-- Intricate Sundered Comet

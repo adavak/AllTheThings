@@ -131,6 +131,10 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		})),
 	}),
 	n(QUESTS, {
+		n(REWARDS, {
+			i(256763),	-- Cache from the Infinite's Armory
+			i(245553),	-- Heroic Cache of Infinite Treasure
+		}),
 		q(89404, {	-- Time Crisis
 			["qg"] = 241140,	-- Moratari
 			["coord"] = { 72.4, 46.0, LEGION_DALARAN },
@@ -207,8 +211,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				cl(HUNTER, {
 					i(242566),	-- Talonclaw
-					-- Kick the intruder. Both are marked as '[DNT] Remix Artifact Weapon'
-					i(246013),	-- Thas'dorah, Legacy of the Windrunners
 					i(242574),	-- Thas'dorah, Legacy of the Windrunners
 					i(242581),	-- Titanstrike
 				}),
@@ -433,7 +435,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
-		q(92855, {	-- Infinite Research Promotion: Timely Assistant
+		q(92855, {	-- Make Haste, Not Waste
 			["description"] = "Grants a random ring, necklace, or trinket.",
 			--["sourceQuest"] = ??,
 			["qg"] = 241189,	-- Lidamorrutu
@@ -444,7 +446,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 			["lvl"] = 20,
-			["groups"] = { i(256763) },	-- Cache from the Infinite's Armory
 		}),
 		q(91844, {	-- Infinite Research: Honorary Chronographer
 			["description"] = "Quest becomes available after you complete 20 'Infinite Research' quests.",
@@ -452,11 +453,40 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 			["lvl"] = 25,
 		}),
+		q(93113, {	-- Infinite Research: Special Assignment, Rare Dare
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 30,
+		}),
+		q(93055, {	-- Extracurriculars
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 30,
+		}),
 		q(91631, {	-- Epoch Progress
-			["qg"] = 243853,	-- Lidamorrutu
+			["qg"] = 243853,	-- Moratari
 			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
 			["lvl"] = 40,
-			["groups"] = { i(245553) },	-- Heroic Cache of Infinite Treasure
+		}),
+		q(93114, {	-- Infinite Research: Special Assignment, Sampling the World
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 40,
+		}),
+		q(93116, {	-- Infinite Research: Special Assignment, Here to Slay
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 50,
+		}),
+		q(93056, {	-- A Lesson in Alacrity
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 60,
+		}),
+		q(93117, {	-- Infinite Research: Special Assignment, Boss Rush
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 60,
 		}),
 	}),
 })))

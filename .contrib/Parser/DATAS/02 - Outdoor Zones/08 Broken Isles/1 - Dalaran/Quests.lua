@@ -759,8 +759,10 @@ root(ROOTS.Zones, {
 				q(38907, {	-- Keepers of the Hammer
 					["sourceQuests"] = { 39733 },	-- The Lone Mountain
 					["provider"] = { "n", 97666 },	-- Warbrave Oro
-					["coord"] = { 69.9, 43.8, LEGION_DALARAN },
-					["maps"] = { HIGHMOUNTAIN },
+					["coords"] = {
+						{ 69.9, 43.8, LEGION_DALARAN },
+						{ 36.0, 65.7, HIGHMOUNTAIN },
+					},
 				}),
 				q(39985, {	-- Khadgar's Discovery
 					["provider"] = { "n", 90417 },	-- Archmage Khadgar

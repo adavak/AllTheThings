@@ -59,6 +59,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(240612),	-- Shroud of Remembered Eternity
 					}),
 					filter(CLOTH, {
+						i(240729),	-- Crescent Vale Belt
+						i(240731),	-- Crescent Vale Boots
+						i(240726),	-- Crescent Vale Cowl
+						i(240733),	-- Crescent Vale Gloves
+						i(240730),	-- Crescent Vale Legwraps
+						i(240727),	-- Crescent Vale Shawl
+						i(240728),	-- Crescent Vale Vestments
+						i(240732),	-- Crescent Vale Wristwraps
 					}),
 					filter(LEATHER, {
 						i(240757),	-- Sablehide Bindings
@@ -71,10 +79,26 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(240753),	-- Sablehide Tunic
 					}),
 					filter(MAIL, {
+						i(240785),	-- Dreadthorn Chestguard
+						i(240788),	-- Dreadthorn Greaves
+						i(240790),	-- Dreadthorn Handguards
+						i(240783),	-- Dreadthorn Helmet
+						i(240787),	-- Dreadthorn Legguards
+						i(240784),	-- Dreadthorn Spaulders
+						i(240786),	-- Dreadthorn Waistband
+						i(240789),	-- Dreadthorn Wristguards
+						
 					}),
 					filter(PLATE, {
-					}),
-					n(WEAPONS, {
+						i(240696),	-- Thunderpeak Bone Battleplate
+						i(240694),	-- Thunderpeak Bone Faceguard
+						i(240701),	-- Thunderpeak Bone Gauntlets
+						i(240697),	-- Thunderpeak Bone Girdle
+						i(240695),	-- Thunderpeak Bone Spaulders
+						i(240699),	-- Thunderpeak Bone Stompers
+						i(240700),	-- Thunderpeak Bone Vambraces
+						i(240698),	-- Thunderpeak Bone Wargreaves
+						
 					}),
 				}),
 			},

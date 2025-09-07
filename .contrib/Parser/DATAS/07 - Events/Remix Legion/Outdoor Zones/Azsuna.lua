@@ -69,6 +69,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(242180),	-- Invasion Stalker's Draping Shroud
 					}),
 					filter(CLOTH, {
+						i(240716),	-- Leyline Scholar's Bindings
+						i(240710),	-- Leyline Scholar's Cowl
+						i(240717),	-- Leyline Scholar's Gloves
+						i(240714),	-- Leyline Scholar's Leggings
+						i(240713),	-- Leyline Scholar's Sash
+						i(240711),	-- Leyline Scholar's Shawl
+						i(240715),	-- Leyline Scholar's Slippers
+						i(240712),	-- Leyline Scholar's Vestments
 					}),
 					filter(LEATHER, {
 						i(240762),	-- Llothien Prowler's Belt
@@ -81,8 +89,24 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(240764),	-- Llothien Prowler's Waders
 					}),
 					filter(MAIL, {
+						i(240795),	-- Breeches of Remembered Eternity
+						i(240793),	-- Chainmail of Remembered Eternity
+						i(240794),	-- Cinch of Remembered Eternity
+						i(240791),	-- Coif of Remembered Eternity
+						i(240798),	-- Grips of Remembered Eternity
+						i(240792),	-- Pinions of Remembered Eternity
+						i(240796),	-- Sollerets of Remembered Eternity
+						i(240797),	-- Vambraces of Remembered Eternity
 					}),
 					filter(PLATE, {
+						i(240688),	-- Nar'thalas Graduate's Breastplate
+						i(240686),	-- Nar'thalas Graduate's Faceguard
+						i(240690),	-- Nar'thalas Graduate's Legguards
+						i(240691),	-- Nar'thalas Graduate's Sabatons
+						i(240687),	-- Nar'thalas Graduate's Shoulderguards
+						i(240689),	-- Nar'thalas Graduate's Greatbelt
+						i(240692),	-- Nar'thalas Graduate's Vambraces
+						i(240693),	-- Nar'thalas Graduate's Handguards
 					}),
 				}),
 			},
