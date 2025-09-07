@@ -1353,8 +1353,9 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/10 Thunder Hold Munitions destroyed
 								["providers"] = {
-									{ "i", 89605 },	-- Nazgrim's Flare Gun (QI!)
-									{ "o", 66308 },	-- Thunder Hold Munitions
+									{ "i",  89605 },	-- Nazgrim's Flare Gun (QI!)
+									{ "n",  66308 },	-- Thunder Hold Munitions
+									{ "o", 215649 },	-- Thunder Hold Munitions
 								},
 								["coord"] = { 33.6, 13.4, THE_JADE_FOREST },
 							}),

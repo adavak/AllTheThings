@@ -871,13 +871,13 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange, forceShow)
 		-- This now checks recursively outwards to ensure that an in-game quest isn't buried inside a removed header
 		local inGame = not GetRelativeByFunc(questRef, NotInGame)
 		-- repeatable or not previously completed or the accepted quest was immediately completed prior to the check, or character in party sync
-		local incomplete = (questRef.repeatable or not completed or LastQuestTurnedIn == completed or IsPartySyncActive);
+		local incomplete = (questRef.repeatable or not completed or LastQuestTurnedIn == completed or IsPartySyncActive) or app.IsClassic;
 		-- not missing pre-requisites
 		local metPrereq = not questRef.missingReqs;
 		if forceShow or not (
 			filter
 			and inGame
-			and (incomplete and not app.IsClassic)
+			and incomplete
 			and metPrereq
 			-- debugging, show link for any accepted quest
 			-- and false

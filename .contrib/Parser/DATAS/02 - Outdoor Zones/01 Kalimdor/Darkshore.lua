@@ -271,6 +271,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["qg"] = 33175,	-- Johnathan Staats
 					["coord"] = { 52.3, 18.0, DARKSHORE },
+					["cost"] = {{ "i", 12238, 4 }},	-- Darkshore Grouper
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = FISHING,
 					["races"] = ALLIANCE_ONLY,
@@ -282,7 +283,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13831, {	-- A Troubling Prescription
 					["sourceQuest"] = 13528,	-- Buzzbox 723
-					["provider"] = { "o", 194714 },	-- Disgusting Workbench
+					["providers"] = {
+						{ "o", 194714 },	-- Disgusting Workbench
+						{ "i",  45898 },	-- Apothecary Furrows' Notes
+					},
 					["coord"] = { 57.4, 33.8, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -311,6 +315,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/50 Scavenging Greymist Murlocs
+							["provider"] = { "o", 195006 },	-- Decoy Bot Control Console
+							["coord"] = { 53.0, 11.0, DARKSHORE },
+							["crs"] = {
+								33262,	-- Greymist Tidehunter
+								33277,	-- Greymist Warrior
+							},
+						}),
 						i(52652, {	-- Glowing Murloc Eye
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -538,11 +550,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13557, {	-- Bearer of Good Fortune
 					["provider"] = { "i", 44927 },	-- Corruptor's Master Key
+					["coord"] = { 57.6, 33.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["crs"] = {
 						33022,	-- Vile Corruptor
 						33020,	-- Zenn Foulhoof
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Uncorrupted animals freed
+							["providers"] = {
+								{ "o", 194124 },	-- Secure Bear Cage
+								{ "o", 194133 },	-- Secure Duskrat Cage
+								{ "i",  44925 },	-- Corruptor's Master Key
+							},
+							["crs"] = {
+								33024,	-- Uncorrupted Thistle Bear
+								33023,	-- Uncorrupted Duskrat
+							},
+						}),
 					},
 				}),
 				q(53130, {	-- Bloodied Sentinel's Glaive (Alliance)
@@ -1328,6 +1354,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 53.2, 19.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- 0/1 Foul Bear Carcass Sample
+							["provider"] = { "i", 44911 },	-- Foul Bear Carcass Sample
+							["coord"] = { 55.0, 21.0, DARKSHORE },
+							["cr"] = 32975,	-- Decomposing Thistle Bear
+						}),
+					},
 				}),
 				q(13513, {	-- On the Brink
 					["sourceQuests"] = {
@@ -1432,7 +1465,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/6 Tidal Spirit Soothed
-							["provider"] = { "n", 32937 },	-- Tranquil Tidal Spirit
+							["providers"] = {
+								{ "n", 32890 },	-- Enraged Tidal Spirit
+								{ "n", 32937 },	-- Tranquil Tidal Spirit
+								{ "i", 44975 },	-- Orb of Elune
+							},
 						}),
 						i(55127, {	-- Tharill's Blessing
 							["timeline"] = { ADDED_4_0_3 },
@@ -1528,6 +1565,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 43.0, 39.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- 0/3 Moonstalker Whisker
+							["provider"] = { "i", 44969 },	-- Moonstalker Whisker
+							["coord"] = { 41.8, 37.0, DARKSHORE },
+							["cr"] = 33127,	-- Moonstalker
+						}),
+						objective(2, {	-- 0/3 Tuft of Mottled Doe Hair
+							["provider"] = { "i", 45027 },	-- Tuft of Mottled Doe Hair
+							["coord"] = { 44.6, 40.8, DARKSHORE },
+							["cr"] = 33313,	-- Mottled Doe
+						}),
+						objective(3, {	-- 0/3 Thistle Bear Fur
+							["provider"] = { "i", 45885 },	-- Thistle Bear Fur
+							["coord"] = { 48.2, 38.6, DARKSHORE },
+							["cr"] = 33978,	-- Hungry Thistle Bear
+						}),
+					},
 				}),
 				q(13504, {	-- Shatterspear Laborers
 					["sourceQuest"] = 13589,	-- The Shatterspear Invaders
@@ -2105,6 +2159,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Extinguish the Final Flame of Bashal'Aran
+							["provider"] = { "o", 194179 },	-- The Final Flame of Bashal'Aran
+							["coord"] = { 46.0, 34.2, DARKSHORE },
+						}),
+					},
 				}),
 				q(4813, {	-- The Fragments Within
 					["sourceQuest"] = 4812,	-- As Water Cascades
@@ -2295,6 +2355,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- Receive the blessing of a great animal spirit.
+							["provider"] = { "o", 194771 },	-- Grovekeeper's Incense
+							["coord"] = { 43.0, 39.0, DARKSHORE },
+						}),
 						i(52615, {	-- Moonstalker Bracers
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -2604,11 +2668,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13510, {	-- Timely Arrival
 					["description"] = "In order to obtain this quest, loot a |cffffffffShatterspear Torturer's Cage Key|r dropped by |cffe50d12Rit'ko|r.",
-					["qg"] = 32964,	-- Sentinel Aynasha
+					["providers"] = {
+						{ "i",  45040 },	-- Shatterspear Torturer's Cage Key
+						{ "o", 194101 },	-- Shatterspear Cage
+						{ "n",  32964 },	-- Sentinel Aynasha
+					},
 					["coord"] = { 64.4, 5.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["cr"] = 32970,	-- Rit'ko
 					["groups"] = {
 						i(52637, {	-- Aynasha's Spare Sword
 							["timeline"] = { ADDED_4_0_3 },
@@ -2665,6 +2732,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["provider"] = { "n", 33207 },	-- Lady Janira
 							["coord"] = { 48.6, 40.4, DARKSHORE },
 						}),
+						objective(2, {	-- 0/6 Withered Ents called
+							["providers"] = {
+								{ "n", 34009 },	-- Withered Ent
+								{ "i", 45911 },	-- Petrified Root
+							},
+							["cr"] = 33206,	-- Darkscale Scout
+						}),
 						i(52629, {	-- Naga Plate Bracers
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -2685,7 +2759,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/6 Twilight Plans
 							["providers"] = {
-								{ "i", 44968 },	-- Twilight Plans
+								{ "i",  44968 },	-- Twilight Plans
 								{ "o", 194204 },	-- Twilight Plans
 							},
 						}),
@@ -2746,6 +2820,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 58.9, 19.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- 0/12 Shatterspear Armaments burned
+							["providers"] = {
+								{ "o", 194103 },	-- Shatterspear Armaments
+								{ "i",  44999 },	-- Sentinel Torch
+							},
+							["coord"] = { 62.0, 8.9, DARKSHORE },
+						}),
+					},
 				}),
 				q(3524, {	-- Washed Ashore (1/2)
 					["qg"] = 10219,	-- Gwennyth Bly'Leggonde
@@ -2957,8 +3040,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
+				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209836, {	-- Althalaxx Orb
 					["provider"] = { "o", 409289 },	-- Strange Orb
 					["coord"] = { 56.2, 26.5, DARKSHORE },
@@ -2966,6 +3049,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { PALADIN },
 				})),
+				-- #endif
+				o(13359, {	-- Cat Figurine
+					["description"] = "Can be found scattered around the Ruins of Mathystra. Rarely spawns a Ghost Saber which can be tamed by a Hunter and can also drop a Glowing Cat Figurine.",
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 60.9, 18.9, DARKSHORE },
+						-- #else
+						{ 58.9, 21.2, DARKSHORE },
+						-- #endif
+					},
+					["groups"] = {
+						i(5332, {	-- Glowing Cat Figurine
+							["cr"] = 3619,	-- Ghost Saber
+						}),
+					},
+				}),
+				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209047, {	-- Gnarled Harpoon
 					["provider"] = { "o", 408802 },	-- Gnarled Harpoon
 					["coords"] = {
@@ -3034,8 +3134,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						recipe(424984),	-- Engrave Gloves - Saber Slash
 					},
 				})),
+				-- #endif
 			}),
-			-- #endif
 			n(VENDORS, {
 				n(33980, {	-- Apothecary Furrows
 					["coord"] = { 57.2, 33.8, DARKSHORE },
@@ -3138,9 +3238,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				-- #endif
-				i(5332, {	-- Glowing Cat Figurine
-					["cr"] = 3619,	-- Ghost Saber
-				}),
 				-- #if BEFORE 4.0.3
 				i(5839, {	-- Journal Page
 					["timeline"] = { DELETED_4_0_3 },
