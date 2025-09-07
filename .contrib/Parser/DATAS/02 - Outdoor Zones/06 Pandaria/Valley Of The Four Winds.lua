@@ -173,17 +173,6 @@ root(ROOTS.Zones, {
 					prof(COOKING, {
 						["requireSkill"] = COOKING,
 						["groups"] = {
-							q(31337, {	-- A Token of Appreciation
-								["providers"] = {
-									{ "n", 64337 },	-- Nomi
-									{ "i", 86425 },	-- Cooking School Bell
-								},
-								["isDaily"] = true,
-								["groups"] = {
-									currency(402),	-- Ironpaw Token
-									i(90735),	-- Goodies from Nomi
-								},
-							}),
 							q(30329, {	-- Cindergut Peppers
 								["qg"] = 58713,	-- Anthea Ironpaw
 								["coord"] = { 52.7, 52.0, VALLEY_OF_THE_FOUR_WINDS },
@@ -229,41 +218,6 @@ root(ROOTS.Zones, {
 								["groups"] = {
 									i(79867),	-- Fatty Goatsteak (QI!)
 								},
-							}),
-							q(31332, {	-- Lesson 1: Sliced Peaches
-								["providers"] = {
-									{ "n", 64337 },	-- Nomi
-									{ "i", 86425 },	-- Cooking School Bell
-								},
-								["isDaily"] = true,
-							}),
-							q(31333, {	-- Lesson 2: Instant Noodles
-								["providers"] = {
-									{ "n", 64337 },	-- Nomi
-									{ "i", 86425 },	-- Cooking School Bell
-								},
-								["isDaily"] = true,
-							}),
-							q(31334, {	-- Lesson 3: Toasted Fish Jerky
-								["providers"] = {
-									{ "n", 64337 },	-- Nomi
-									{ "i", 86425 },	-- Cooking School Bell
-								},
-								["isDaily"] = true,
-							}),
-							q(31335, {	-- Lesson 4: Dried Needle Mushrooms
-								["providers"] = {
-									{ "n", 64337 },	-- Nomi
-									{ "i", 86425 },	-- Cooking School Bell
-								},
-								["isDaily"] = true,
-							}),
-							q(31336, {	-- Lesson 5: Pounded Rice Cake
-								["providers"] = {
-									{ "n", 64337 },	-- Nomi
-									{ "i", 86425 },	-- Cooking School Bell
-								},
-								["isDaily"] = true,
 							}),
 							q(33146, {	-- Noodle Time
 								["qg"] = 64231,	-- Sungshin Ironpaw
@@ -314,6 +268,7 @@ root(ROOTS.Zones, {
 							q(31521, {	-- To Be a Master
 								["description"] = "Becomes available on reaching max Pandaria cooking, but you must master all 6 Pandaren cooking ways for this quest to be completed.",
 								["qg"] = 64231,	-- Sungshin Ironpaw
+								["sourceAchievement"] = 7306,	-- Master of Pandaren Cooking
 								["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 							}),
 						},
@@ -2573,9 +2528,11 @@ root(ROOTS.Zones, {
 						["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 						["groups"] = {
 							i(86468, {	-- Apron
+								["sourceQuest"] = 31820,	-- A Present for Teacher (Nomi)
 								["cost"] = { { "c", 402, 50 }, },	-- 50x Ironpaw Token
 							}),
 							i(86425, {	-- Cooking School Bell
+								["sourceQuest"] = 31521,	-- To Be a Master
 								["cost"] = { { "c", 402, 50 }, },	-- 50x Ironpaw Token
 							}),
 							i(88801, {	-- Flippable Table (TOY!)
@@ -2588,9 +2545,11 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 402, 10 }, },	-- 10x Ironpaw Token
 							}),
 							i(75017, {	-- Recipe: Great Pandaren Banquet (RECIPE!)
+								["sourceAchievement"] = 7306,	-- Master of Pandaren Cooking
 								["cost"] = { { "c", 402, 10 }, },	-- 10x Ironpaw Token
 							}),
 							i(75013, {	-- Recipe: Pandaren Banquet (RECIPE!)
+								["sourceAchievement"] = 7306,	-- Master of Pandaren Cooking
 								["cost"] = { { "c", 402, 10 }, },	-- 10x Ironpaw Token
 							}),
 							i(86558, {	-- Rolling Pin
