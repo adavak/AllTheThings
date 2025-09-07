@@ -1691,7 +1691,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["isDaily"] = true,
 					}),
 					q(89192, {	-- A Hard Day's Work
-						["qg"] = 230736,	-- Om'talad
+						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
 					}),
@@ -2275,7 +2275,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 48.0, 57.4, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
-							i(239446),	-- Uncharged Cyrstal (QI!)
+							o(528358, {	-- Uncharged Cyrstal
+								i(239446),	-- Uncharged Cyrstal (QI!)
+							}),
 							--
 							i(239607),	-- Charged Cyrstal (QI!) (Reward, required for the Warrant)
 						},

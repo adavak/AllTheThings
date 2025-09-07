@@ -913,7 +913,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(238853),	-- Netherbound Heart
-				i(238856),	-- Nightpiercer Feather
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
 				i(243152),	-- NEW ITem
 				i(243235),	-- Adventurer's Footlocker

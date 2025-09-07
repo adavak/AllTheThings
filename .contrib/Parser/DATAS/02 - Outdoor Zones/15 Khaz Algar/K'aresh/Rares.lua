@@ -65,6 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 48.4, 16.9, KARESH },
 				["questID"] = 90689,
 				["groups"] = {
+					i(239477),	-- Reshii Brute's Epaulettes
 					i(239462),	-- Reshii Scout's Belt
 					i(239471),	-- Reshii Skirmisher's Armguards
 				},
@@ -130,6 +131,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["isWeekly"] = true,
 				["groups"] = {
 					i(239472),	-- Reshii Brute's Breastplate
+					i(240168),	-- Reshii Magi's Seal
 					i(239448),	-- Reshii Magi's Vestments
 					i(239460),	-- Reshii Scout's Breeches
 					i(239459),	-- Reshii Scout's Hood
