@@ -1528,6 +1528,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 44.0, 44.2, TELDRASSIL },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/5 Mossy Tumor
+							["provider"] = { "i", 5170 },	-- Mossy Tumor
+							["crs"] = {
+								2030,	-- Elder Timberling
+								2029,	-- Timberling Mire Beast
+								2027,	-- Timberling Trampler
+							},
+						}),
 						i(5605),	-- Pruning Knife
 						i(157016, {	-- Gnarled Gavel
 							["timeline"] = { ADDED_7_3_5 },
