@@ -2100,9 +2100,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["timeline"] = { ADDED_11_2_0 },
 			["maps"] = ALL_REGULAR_DELVES_TWW,
 		}),
-		q(91780, {	-- Ethereal Delves
+		q(91780, {	-- Ethereal Delves [auto pop on login]
 			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
-			-- auto pop on login
 		}),
 		q(91781, {	-- Seasonal Reminder
 			["sourceQuests"] = { 91780 },	-- Ethereal Delves
