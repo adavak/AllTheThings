@@ -276,8 +276,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["qg"] = 33175,	-- Johnathan Staats
 					["coord"] = { 52.3, 18.0, DARKSHORE },
-					["cost"] = {{ "i", 12238, 4 }},	-- Darkshore Grouper
 					["timeline"] = { ADDED_4_0_3 },
+					["cost"] = {{ "i", 12238, 4 }},	-- Darkshore Grouper
 					["requireSkill"] = FISHING,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

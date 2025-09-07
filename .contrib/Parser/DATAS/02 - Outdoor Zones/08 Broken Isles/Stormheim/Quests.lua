@@ -889,8 +889,8 @@ root(ROOTS.Zones, {
 					["coord"] = { 47.9, 54.6, STORMHEIM },
 				}),
 				q(42640, {	-- The Value of Knowledge
-					["coord"] = { 75.5, 50.8, STORMHEIM },
 					["provider"] = { "o", 250990 },	-- Crate of Ancient Relics
+					["coord"] = { 75.5, 50.8, STORMHEIM },
 					["groups"] = { i(138151) },	-- Crate of Ancient Relics (QI!)
 				}),
 				q(38360, {	-- The Windrunner's Fate
