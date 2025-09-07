@@ -284,11 +284,14 @@ local PrintQuestInfo
 local DoQuestPrints
 local IgnoreErrorQuests = {}
 do
-	local function UpdateDoQuestPrints()
-		DoQuestPrints = app.IsReady and app.Settings:GetTooltipSetting("Report:CompletedQuests")
-	end
-	app.AddEventHandler("OnSettingsRefreshed", UpdateDoQuestPrints)
-	app.AddEventHandler("OnReady", UpdateDoQuestPrints)
+	app.AddEventHandler("Settings.OnSet", function(container, key, value)
+		if container == "Tooltips" and key == "Report:CompletedQuests" then
+			DoQuestPrints = value or nil
+		end
+	end)
+	app.AddEventHandler("OnReady", function()
+		DoQuestPrints = app.Settings:GetTooltipSetting("Report:CompletedQuests")
+	end)
 end
 local function PrintQuestInfoCallback(questID, success, params)
 	-- app.PrintDebug("PrintQuestInfoCallback",questID,success,params and unpack(params))
