@@ -4909,7 +4909,6 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					i(180564),	-- Pauldrons of Enveloped
 				}),
 				cl(PALADIN, {
-					i(180535),	-- Breastplate of the Highlord
 					i(180540),	-- Light's Vanguard Breastplate
 					i(180541),	-- Light's Vanguard Legplates
 					i(180542),	-- Light's Vanguard Shoulderplates

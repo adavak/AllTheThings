@@ -188,6 +188,7 @@ local QUANTUM_GROUP = sharedData({
 			hqt(77634, {	-- when you learn everything from Quantum Chestpiece (Plate)
 				["name"] = "Quantum Chestpiece (Plate) completed.",
 			}),
+			ig(180535),	-- Breatplate of the Highlord			(NYI)
 			ig(108078),	-- Hardened Draenic Steel Chestplate	(NYI)
 			ig(108162),	-- Peerless Draenic Steel Chestplate	(NYI)
 			ig(108178),	-- Peerless Draenic Steel Chestplate	(NYI)
