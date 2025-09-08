@@ -1168,19 +1168,21 @@ local function ToggleMiniListForCurrentZone()
 end
 app.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
 
-local function LocationTrigger(forceNewMap)
-	if not app.InWorld or not app.IsReady then return end
-	local window = app:GetWindow("CurrentInstance");
-	if not window:IsVisible() then return end
-	-- app.PrintDebug("LocationTrigger-Callback",forceNewMap)
-	if forceNewMap then
-		-- this allows minilist to rebuild itself
-		wipe(window.CurrentMaps)
+app.LocationTrigger = app.EmptyFunction
+app.AddEventHandler("OnReady", function()
+	local function LocationTrigger(forceNewMap)
+		local window = app:GetWindow("CurrentInstance")
+		if not window:IsVisible() then return end
+		-- app.PrintDebug("LocationTrigger-Callback",forceNewMap)
+		if forceNewMap then
+			-- this allows minilist to rebuild itself
+			wipe(window.CurrentMaps)
+		end
+		AfterCombatOrDelayedCallback(window.RefreshLocation, 0.1)
 	end
-	AfterCombatOrDelayedCallback(window.RefreshLocation, 0.25);
-end
-app.LocationTrigger = LocationTrigger;
-app.AddEventHandler("OnCurrentMapIDChanged", LocationTrigger);
+	app.LocationTrigger = LocationTrigger
+	app.AddEventHandler("OnCurrentMapIDChanged", LocationTrigger)
+end)
 
 app.ToggleMainList = function()
 	app:GetWindow("Prime"):Toggle();
