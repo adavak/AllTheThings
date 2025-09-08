@@ -511,6 +511,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				i(164972, {	-- Severed Crimsonscale Head
 					["timeline"] = { ADDED_8_1_5 },
 				}),
+				i(133688, {	-- Tugboat Bobber
+					["timeline"] = { ADDED_6_2_0 },
+				}),
 			}),
 		}),
 		-- #endif
