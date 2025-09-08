@@ -28,9 +28,6 @@ i(235464);	-- Sha-Touched Tea Set
 -----------------
 i(18984);	-- Dimensional Ripper - Everlook
 i(21540);	-- Elune's Lantern
--- #if ANYCLASSIC
-i(6948);	-- Hearthstone (Should be a toy...)
--- #endif
 i(1973);	-- Orb of Deception
 i(13379);	-- Piccolo of the Flaming Fire
 i(17716);	-- Snowmaster 9000
