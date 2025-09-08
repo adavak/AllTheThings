@@ -768,7 +768,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		i(197770),	-- Zesty Water
 	}),
 	prof(ENCHANTING, {
-		n(DISCOVERY, {
+		n(DISCOVERY, sharedData({
+			["requireSkill"] = ENCHANTING,
+		},{
 			r(391185, {	-- Primal Invocation Extract
 				["description"] = "Discovered only after obtaining all 5 Glimmers and then disenchanting a Sophic Amalgamation. Turn on +HQT Tracking to see which Glimmers you have already disenchanted",
 				["cost"] = {{"i",200479,1}},	-- 1x Sophic Amalgamation
@@ -816,7 +818,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			itemDropHQT(201356, 71941),	-- Glimmer of Fire Drop
 			itemDropHQT(201357, 71942),	-- Glimmer of Frost Drop
 			itemDropHQT(201360, 71943),	-- Glimmer of Order Drop
-		}),
+		})),
 		spell(392888, {	-- Disenchant
 			i(194123),	-- Chromatic Dust
 			i(200113),	-- Resonant Crystal
