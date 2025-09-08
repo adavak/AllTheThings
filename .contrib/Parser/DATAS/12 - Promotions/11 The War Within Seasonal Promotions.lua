@@ -279,12 +279,13 @@ root(ROOTS.Promotions, {
 			}),
 			i(246451, { -- Shadefur Brewthief (PET!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between August 5th, 10:00 a.m. & September 2nd, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 2, 2025
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.62958" },	-- Removed September 2, 2025
 			}),
 			-- Season 3
 			cnONLY(i(246732, {	-- Void-Forged Overseer (CN Only)
 				["description"] = "Rewarded from the Season 3 Shop Bundle.",
 				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_5 },
+				["u"] = REAL_MONEY,
 			})),
 			i(232307, {	-- Astral Champion's Prestigious Banner (TOY!)(PVP)
 				["description"] = "Arena World Championship: TWW Season 3\n\nSign up on Raider.io for any of the 3 Cups, available until October 22nd 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
@@ -294,10 +295,15 @@ root(ROOTS.Promotions, {
 				["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
 				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_7 },
 			}),
+			i(246343, {	-- Scruffyhorn Fel Snooter (PET!)
+				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-12, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
+				["timeline"] = { ADDED_11_1_0, "removed 11.1.0.99999" },	-- Removed September 12, 2025
+				["u"] = REAL_MONEY,
+			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
 		--	PVE	["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
-		--	PVP	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",		
+		--	PVP	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
 		--		["timeline"] = { ADDED_11_0_2 },
 		--		["icon"] = 4731630,
 		--		["name"] = "Tempered Banner of the Algari (TOY!)(PVE)"

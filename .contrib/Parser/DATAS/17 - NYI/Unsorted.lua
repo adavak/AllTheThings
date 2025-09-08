@@ -752,7 +752,6 @@ root(ROOTS.Unsorted, {
 			filter(BATTLE_PETS, {
 				i(246337),	-- Rustyroot Fel Snooter
 				i(246342),	-- Mustyfur Fel Snooter
-				i(246343),	-- Scruffyhorn Fel Snooter
 				i(246723),	-- Unfazed Diver
 			}),
 			filter(COSMETIC, {
