@@ -1694,7 +1694,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 				},
 			})),
-			q(33354, {	-- Den Mother's Demise
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, q(33354, {	-- Den Mother's Demise
 				["providers"] = {
 					{ "i", 105891 },	-- Moonfang's Pelt
 					{ "n", 14829 },	-- Yebb Neblegear
@@ -1706,7 +1706,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["groups"] = {
 					DARKMOON_PRIZE_TICKET,
 				},
-			}),
+			})),
 			q(7903, {	-- Evil Bat Eyes [Tier 5]
 				["qg"] = 14829,	-- Yebb Neblegear
 				-- #if AFTER 4.3.0
@@ -3132,7 +3132,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					i(151397),	-- Sweaty Wristbands
 				},
 			})),
-			n(71992, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 }, }, {	-- Moonfang <Darkmoon Den Mother>
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, n(71992, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 }, }, {	-- Moonfang <Darkmoon Den Mother>
 				["coord"] = { 39.65, 44.07, DARKMOON_ISLAND },
 				["groups"] = {
 					i(101570),	-- Moon Moon (PET!)
@@ -3141,7 +3141,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					i(105891),	-- Moonfang's Pelt
 					i(101675),	-- Shimmering Moonstone
 				},
-			})),
+			}))),
 			n(204964, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Twinkle <Madam Shadow's Minion>
 				["questID"] = 77158,
 				["isDaily"] = true,	-- maybe weekly/monthly?
