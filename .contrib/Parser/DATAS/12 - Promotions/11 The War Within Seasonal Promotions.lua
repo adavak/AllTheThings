@@ -279,7 +279,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(246451, { -- Shadefur Brewthief (PET!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between August 5th, 10:00 a.m. & September 16th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 2, 2025
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 16, 2025
 			}),
 			-- Season 3
 			cnONLY(i(246732, {	-- Void-Forged Overseer (CN Only)
