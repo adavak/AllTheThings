@@ -30,8 +30,8 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 29800,	-- New Allies
 						["qg"] = 56013,	-- Spirit of Master Shang Xi
 						["coord"] = { 51.4, 48.3, THE_WANDERING_ISLE_STARTING_ZONE },
-						["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE, PANDAREN_HORDE },
 						["maps"] = { ORGRIMMAR, STORMWIND_CITY },
+						["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE, PANDAREN_HORDE },
 					}),
 					q(29679, {	-- A New Friend
 						["sourceQuest"] = 29678,	-- Shu, the Spirit of Water

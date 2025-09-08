@@ -337,8 +337,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["sourceQuest"] = 30142,	-- It's A...
 					["qg"] = 58511,	-- Qua-Ro Whitebrow
 					["coord"] = { 57.2, 43.5, THE_JADE_FOREST },
-					["maps"] = { THE_JADE_FOREST_THE_WIDOWS_WAIL },
 					["minReputation"] = { FACTION_ORDER_OF_THE_CLOUD_SERPENT, HONORED },
+					["maps"] = { THE_JADE_FOREST_THE_WIDOWS_WAIL },
 					["groups"] = {
 						objective(1, {	-- 0/25 Serpent's Scale
 							["providers"] = {
@@ -463,8 +463,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["sourceQuest"] = 30142,	-- It's A...
 					["qg"] = 58564,	-- Elder Anli
 					["coord"] = { 57.6, 44.9, THE_JADE_FOREST },
-					["maps"] = { THE_JADE_FOREST_THE_WIDOWS_WAIL },
 					["minReputation"] = { FACTION_ORDER_OF_THE_CLOUD_SERPENT, HONORED },
+					["maps"] = { THE_JADE_FOREST_THE_WIDOWS_WAIL },
 					["groups"] = {
 						objective(1, {	-- Seed of Doubt slain
 							["provider"] = { "n", 65614 },	-- Seed of Doubt
@@ -608,8 +608,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["sourceQuest"] = 30142,	-- It's A...
 					["qg"] = 58228,	-- Instructor Skythorn
 					["coord"] = { 57.5, 45.1, THE_JADE_FOREST },
-					["maps"] = { THE_JADE_FOREST_THE_WIDOWS_WAIL },
 					["minReputation"] = { FACTION_ORDER_OF_THE_CLOUD_SERPENT, HONORED },
+					["maps"] = { THE_JADE_FOREST_THE_WIDOWS_WAIL },
 					["groups"] = {
 						objective(1, {	-- 0/7 Weeping Widow slain
 							["providers"] = {
