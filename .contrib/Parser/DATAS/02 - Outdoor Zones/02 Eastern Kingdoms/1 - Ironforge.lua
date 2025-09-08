@@ -1181,12 +1181,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						-- #if AFTER TBC
+						-- #if BEFORE MOP
 						i(33792, {	-- Plans: Heavy Copper Longsword (RECIPE!)
 							["description"] = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
 							["timeline"] = { ADDED_2_3_0 },
 						}),
 						-- #else
 						i(3609),	-- Plans: Copper Chain Vest (RECIPE!)
+						-- #endif
 						-- #endif
 					},
 				}),
