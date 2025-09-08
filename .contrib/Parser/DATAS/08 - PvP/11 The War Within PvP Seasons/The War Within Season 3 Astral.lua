@@ -24,7 +24,9 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			ach(41026, {	-- Duelist: The War Within Season 3
 				i(244234),	-- Astral Gladiator's Prestigious Cloak
 			}),
-			ach(41027),	-- Elite: The War Within Season 3
+			ach(41027, {	-- Elite: The War Within Season 3
+				i(232908),	-- Astral Gladiator's Tabard
+			}),
 			ach(41049, {	-- Gladiator: The War Within Season 3
 				i(232617),	-- Astral Gladiator's Fel Bat (MOUNT!)
 			}),
