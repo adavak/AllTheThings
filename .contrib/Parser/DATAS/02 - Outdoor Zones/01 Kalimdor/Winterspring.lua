@@ -2378,9 +2378,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 67.0, 83.6, WINTERSPRING },
 					["timeline"] = { ADDED_5_1_0 },
 					["groups"] = {
-						i(4191, {	-- Owlbeast Leggings
-							["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 10.09.2023
-						}),
 					},
 				}),
 				n(10200, {	-- Rak'shiri
