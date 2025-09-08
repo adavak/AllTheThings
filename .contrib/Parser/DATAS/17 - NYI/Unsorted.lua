@@ -1093,8 +1093,6 @@ root(ROOTS.Unsorted, {
 				i(246593),	-- Shadowguard Credentials
 			}),
 			filter(TOYS, {
-				-- PvP
-				i(242636),	-- Astral Legend's Pennant
 				-- Brewfest
 				i(245946),	-- Brewer's Balloon
 			}),
