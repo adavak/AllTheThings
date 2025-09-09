@@ -594,6 +594,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42079,	-- Masquerade
 					["provider"] = { "n", 105342 },	-- Ly'leth Lunastre
 					["coord"] = { 43.3, 78.7, SURAMAR },
+					["groups"] = { i(137010) },	-- Half-Full Bottle of Arcwine
 				}),
 				q(40334, {	-- Fisherman's Tonic
 					["sourceQuests"] = {
@@ -1233,6 +1234,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40963,	-- Take Them in Claw
 					["provider"] = { "n", 102425 },	-- Serena Windfeather
 					["coord"] = { 31.4, 23.1, SURAMAR },
+					["groups"] = { i(133956) },	-- Volatile Spell Focus (QI!)
 				}),
 				q(44563, {	-- Redemption for the Fallen
 					["sourceQuest"] = 44562,	-- Growing Strong
@@ -1240,10 +1242,9 @@ root(ROOTS.Zones, {
 					["coord"] = { 36.7, 46.5, SURAMAR },
 				}),
 				q(41473, {	-- Redhoof the Ancient
-					["sourceQuest"] = 41464,	-- Not Here, Not Now, Not Ever
+					["sourceQuest"] = 41197,	-- You've Got to Be Kitten Me Right Meow
 					["provider"] = { "n", 103568 },	-- Mayruna Moonwing
 					["coord"] = { 25.6, 30.8, SURAMAR },
-					-- TODO: verify sourceQuest
 				}),
 				q(40730, {	-- Redistribution
 					["sourceQuest"] = 41878,	-- The Gondolier
@@ -1771,7 +1772,10 @@ root(ROOTS.Zones, {
 				}),
 				q(43360, {	-- The Shardmaidens
 					["sourceQuest"] = 44152,	-- A Growing Crisis
-					["provider"] = { "n", 112967 },	-- Valewalker Farodin
+					["qgs"] = {
+						112967,	-- Valewalker Farodin
+						110538,	-- Valewalker Farodin (mobileNPC)
+					},
 					["coord"] = { 42.3, 14.8, 684 },
 				}),
 				q(42230, {	-- The Valewalker's Burden
@@ -1897,6 +1901,7 @@ root(ROOTS.Zones, {
 				q(41109, {	-- Waiting for Revenge
 					["description"] = "Automatically granted after looting the |cFFFFD700Volatile Spell Focus|r.",
 					["sourceQuest"] = 40968,	-- Recovering Stolen Power
+					["groups"] = { i(133956) },	-- Volatile Spell Focus (QI!)
 				}),
 				q(41110, {	-- Waiting for Revenge
 					["sourceQuest"] = 40968,	-- Recovering Stolen Power

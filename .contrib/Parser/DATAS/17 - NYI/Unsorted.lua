@@ -6,11 +6,9 @@ root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
 			i(133804),	-- Faded Bag of Loot
-			i(133956),	-- Volatile Spell Focus
 			i(190547),	-- Val'sharah Protector's Bracers
 			i(190676),	-- Val'sharah Protector's Gauntlets
 			i(190868),	-- Verdant Dreamscribed Scrollmantle
-			i(234273),	-- A Dimmed Crystal
 			i(235903),	-- Gold Lightforged Chestguard
 			i(237750),	-- Warbreaker's Revenge
 			i(237751),	-- Val'kyrian Rebirth
@@ -37,9 +35,9 @@ root(ROOTS.Unsorted, {
 			i(239205),	-- [DNT] Raid Boss Token, Consolation
 			i(239247),	-- Bonus Experience
 			i(239303),	-- Cache of Infinite Treasure
-			i(239647),	-- Reins of the Bloodguard Fel Bat
-			i(239666),	-- Reins of the Risen Fel Bat
-			i(239686),	-- Reins of the Forgotten Fel Bat
+			i(239647),	-- Reins of the Bloodguard Fel Bat (MOUNT!)
+			i(239666),	-- Reins of the Risen Fel Bat (MOUNT!)
+			i(239686),	-- Reins of the Forgotten Fel Bat (MOUNT!)
 			i(239697),	-- Timeless Keystone
 			i(239741),	-- Blood Knight's Plate Shawl
 			i(239742),	-- Blood Knight's Plate Drape
@@ -63,8 +61,8 @@ root(ROOTS.Unsorted, {
 			i(239786),	-- [DNT]
 			i(239787),	-- [DNT]
 			i(239788),	-- [DNT]
-			i(239791),	-- Sunborne Runemail Shoulderguards
-			i(239793),	-- Sunborne Runemail Mask
+			i(239791),	-- Sunborne Runemail Shoulderguards (missing from iensemble 241401)
+			i(239793),	-- Sunborne Runemail Mask (missing from iensemble 241401)
 			i(239806),	-- Mountainborne Bindings
 			i(239807),	-- Mountainborne Trousers
 			i(239808),	-- Mountainborne Shoulders
@@ -91,7 +89,6 @@ root(ROOTS.Unsorted, {
 			i(239969),	-- Fel-marked Greaves
 			i(239970),	-- Fel-marked Cinch
 			i(240265),	-- [DNT]
-			i(240363),	-- Sanguine Oath Shoulders
 			i(240372),	-- Shawl of Borrowed Souls
 			i(240396),	-- Suramar Silver Mantle
 			i(240563),	-- Vileweave Gloves
@@ -101,7 +98,7 @@ root(ROOTS.Unsorted, {
 			i(240570),	-- Vileweave Shawl
 			i(240571),	-- Vileweave Guise
 			i(241146),	-- Epoch Memento
-			i(241258),	-- Vineyard Red Shal'dorei Crown
+			i(241258),	-- Vineyard Red Shal'dorei Crown (missing from iensemble 241385)
 			i(241357),	-- Ensemble: Barkbinds of the Archdruid's Nightmare
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
@@ -128,7 +125,6 @@ root(ROOTS.Unsorted, {
 			i(241807),	-- [PH] Template
 			i(241808),	-- [PH] Template
 			i(242369),	-- The First Satyr's Spaulders
-			i(242476),	-- Taah'bat's Desert Carbine
 			i(242572),	-- Tome of the Silver Hand
 			i(242590),	-- Strom'kar, the Warbreaker
 			i(242706),	-- Curious Curio
@@ -148,8 +144,7 @@ root(ROOTS.Unsorted, {
 			i(243035),	-- Flawed Ettin Bone Fragment
 			i(243036),	-- Flawed Gleaming Iron Spike
 			i(243037),	-- Flawed Xakal's Determination
-			i(243194),	-- Grandiose Grrloc
-			i(244295),	-- Untethered Captain's Greaves
+			i(243194),	-- Grandiose Grrloc (MOUNT!)	/ New 12-month sub mount https://www.mmo-champion.com/content/13616-New-Promotions-12-Month-Subscription-Burning-Crusade-Classic-and-China-Exclusives
 			i(244449),	-- Set Keystone Map: Black Rook Hold
 			i(244458),	-- Add Keystone Affix: Sands of Time
 			i(244862),	-- [DNT] Small Bronze Token
@@ -194,66 +189,6 @@ root(ROOTS.Unsorted, {
 			i(246889),	-- Orb of Synchronized Power
 			i(246990),	-- Infernal's Azure Staff
 			i(246994),	-- Infernal's Hellfire Staff
-			i(247429),	-- Robes of Fluctuating Energy
-			i(247430),	-- Antiquated Highborne Cinch
-			i(247431),	-- Bracers of Harnessed Flame
-			i(247432),	-- Nighthold Custodian's Hood
-			i(247433),	-- Master Warmage's Leggings
-			i(247434),	-- Chaos-Scarred Mantle
-			i(247435),	-- Perpetually Muddy Sandals
-			i(247436),	-- Dreadlord's Tattered Wingcover
-			i(247437),	-- Well-Flattened Wristguards
-			i(247438),	-- Cake Carrier's Girdle
-			i(247439),	-- Girdle of Nefarious Strategy
-			i(247440),	-- Stutterstep Treads
-			i(247441),	-- Grove-Tender's Moccasins
-			i(247442),	-- Gnawed Nightfallen Britches
-			i(247443),	-- Temporally Displaced Gloves
-			i(247444),	-- Mantle of the Torn Sky
-			i(247445),	-- Tunic of Unwavering Devotion
-			i(247446),	-- Nightborne Battle-Magus Hood
-			i(247447),	-- Sabatons of Burning Steps
-			i(247448),	-- Emblazoned Duskwatch Belt
-			i(247449),	-- Sterilizer's Insulated Gauntlets
-			i(247450),	-- Architect's Coif of Despair
-			i(247451),	-- Pertinacious Legplates
-			i(247452),	-- Pauldrons of Warped Memory
-			i(247453),	-- Shal'dorei Weedstompers
-			i(247454),	-- Thistle-Proof Thorngrabbers
-			i(247455),	-- Arcanochitin Hauberk
-			i(247456),	-- Stinger Resistant Bracers
-			i(247457),	-- Captain's Parade Breastplate
-			i(247458),	-- Duskwatch Plate Bracers
-			i(247459),	-- Gauntlets of Fractured Eons
-			i(247460),	-- Gilded Nightborne Waistplate
-			i(247461),	-- Eventide Casque
-			i(247462),	-- Chrono-Tempered Legplates
-			i(247463),	-- Shoulderguard of the Eclipse
-			i(247464),	-- Leystone-Toe Kickers
-			i(247465),	-- Treads of Galactic Odyssey
-			i(247466),	-- Woven Lasher Tendril Bracers
-			i(247467),	-- Man'ari Skullbuckled Cinch
-			i(247468),	-- Scorpid Handler's Gloves
-			i(247469),	-- Bracers of Impossible Choices
-			i(247470),	-- Belt of Celestial Alignment
-			i(247471),	-- Sabatons of Unchanging Fate
-			i(247472),	-- Goresmeared Abyssal Waistplate
-			i(247473),	-- Eternally Recurring Bracers
-			i(247474),	-- Vintage Suramar Nobility Hat
-			i(247475),	-- Jagged Carapace Wristclamps
-			i(247476),	-- Hood of Fading Opportunity
-			i(247477),	-- Immaculately Polished Boots
-			i(247478),	-- Gloves of Synchronous Elements
-			i(247479),	-- Bridgebreaker Gauntlets
-			i(247480),	-- Trousers of Cultivation
-			i(247481),	-- Astromancer's Greatcloak
-			i(247482),	-- Cloak of Temporal Recalibration
-			i(247483),	-- Mantle of Prestidigitation
-			i(247484),	-- Waistplate of Fractured Realities
-			i(247485),	-- Breastplate of the Remembered King
-			i(247486),	-- Outcast Wanderer's Footrags
-			i(247487),	-- Netherbranded Shoulderpads
-			i(247488),	-- High Shadow Councilor's Wrap
 			i(247489),	-- Aristocrat's Winter Drape
 			i(247490),	-- Feathermane Feather Cloak
 			i(247491),	-- Cloak of Multitudinous Sheaths
@@ -262,63 +197,6 @@ root(ROOTS.Unsorted, {
 			i(247494),	-- Waistclasp of Unethical Power
 			i(247495),	-- Vintage Duskwatch Cinch
 			i(247496),	-- Gleaming Celestial Waistguard
-			i(247504),	-- Malignant Sabatons
-			i(247505),	-- Handwraps of Delusional Power
-			i(247506),	-- Gauntlets of the Demented Mind
-			i(247507),	-- Dreamscale Inlaid Vestments
-			i(247508),	-- Horror Inscribed Chestguard
-			i(247509),	-- Pliable Spider Silk Cinch
-			i(247510),	-- Dragonbone Wristclamps
-			i(247511),	-- Dragonspur Wristguards
-			i(247512),	-- Gossamer-Spun Greatcloak
-			i(247513),	-- Clasp of Cosmic Insignificance
-			i(247514),	-- Celestially Aligned Hood
-			i(247515),	-- Hood of Darkened Visions
-			i(247516),	-- Ragged Horrorweave Leggings
-			i(247517),	-- Ancient Dreamwoven Mantle
-			i(247518),	-- Mantle of Perpetual Bloom
-			i(247519),	-- Maddening Robe of Secrets
-			i(247520),	-- Cozy Dryad Hoof-Socks
-			i(247521),	-- Crimson Wool-Lined Slippers
-			i(247522),	-- Ragged Fur Wristwraps
-			i(247523),	-- Lifeless Buckled Girdle
-			i(247524),	-- Forest-Lord's Waistwrap
-			i(247525),	-- Boots of Endless Betrayal
-			i(247526),	-- Stained Maggot Squishers
-			i(247527),	-- Splotched Bloodfur Leggings
-			i(247528),	-- Dreamsculptor's Gloves
-			i(247529),	-- Repulsive Leathery Pants
-			i(247530),	-- Mask of Multitudinous Eyes
-			i(247531),	-- Cowl of Fright
-			i(247532),	-- Otherworldy Leather Mantle
-			i(247533),	-- Grove Keeper's Robe
-			i(247534),	-- Scarred Ragefang Chestpiece
-			i(247535),	-- Wristwraps of Broken Trust
-			i(247536),	-- Laughing Sister's Pouch-Chain
-			i(247537),	-- Creeping String of Larva
-			i(247538),	-- Gauntlets of Malevolent Intent
-			i(247539),	-- Greyed Dragonscale Coif
-			i(247540),	-- Singular Chain Leggings
-			i(247541),	-- Disjointed Linkage Leggings
-			i(247542),	-- Matted Fur Pauldrons
-			i(247543),	-- Thorny Bramblemail Pauldrons
-			i(247544),	-- Black Venom Sabatons
-			i(247545),	-- Scored Ironclaw Sabatons
-			i(247546),	-- Patient Ambusher's Hauberk
-			i(247547),	-- Manacles of the Nightmare Colossus
-			i(247548),	-- Insect-Etched Chestplate
-			i(247549),	-- Fitted Ironbark Gauntlets
-			i(247550),	-- Primal Gauntlets of Rage
-			i(247551),	-- Waistplate of Nameless Horror
-			i(247552),	-- Eon-Tempered Waistplate
-			i(247553),	-- Venom-Fanged Barbute
-			i(247554),	-- Storm-Battered Legplates
-			i(247555),	-- Crown of Steely Brambles
-			i(247556),	-- Midnight Herald's Pauldrons
-			i(247557),	-- Pauldrons of Shifting Runes
-			i(247558),	-- Trampling Warboots
-			i(247559),	-- Wristclamps of Mad Dreams
-			i(247560),	-- Evergreen Vinewrap Drape
 			i(247561),	-- Gloves of Murmured Promises
 			i(247562),	-- Grips of Silent Screams
 			i(247564),	-- Gauntlets of Fractured Dreams
@@ -350,29 +228,6 @@ root(ROOTS.Unsorted, {
 			i(247590),	-- Reinforced Hound-Handler's Gauntlets
 			i(247591),	-- Drape of the Unworthy
 			i(247592),	-- Mantle of the Victorious Dead
-			i(247594),	-- Emberscatter Treads
-			i(247595),	-- Slippers of Enduring Vigilance
-			i(247596),	-- Braided Torture Lash
-			i(247597),	-- Strife-Riddled Cinch
-			i(247598),	-- Ravenous Devotee's Bracelets
-			i(247599),	-- Oathbreaker's Cuffs
-			i(247600),	-- Glacier Walkers
-			i(247601),	-- Felscape Pathfinders
-			i(247602),	-- Cinch of Sizzling Flesh
-			i(247603),	-- Etched Bone Waistband
-			i(247604),	-- Sinew-Stitched Wristguards
-			i(247605),	-- Bracers of Rippling Darkness
-			i(247606),	-- Insulated Finpads
-			i(247607),	-- Star-Stalker Treads
-			i(247608),	-- Belt of Screaming Slag
-			i(247609),	-- Waistguard of Interminable Unity
-			i(247610),	-- Pain-Singed Armguards
-			i(247611),	-- Iron Ballast Sabatons
-			i(247612),	-- Steadfast Purifier's Warboots
-			i(247613),	-- Shiversleet Waistguard
-			i(247614),	-- Soul-Render's Greatbelt
-			i(247615),	-- Bonemeal-Crusted Armplates
-			i(247616),	-- Waistguard of Profane Duplicity
 			i(247617),	-- Acolyte's Abandoned Footwraps
 			i(247618),	-- Sash of the Unredeemed
 			i(247619),	-- Treads of Violent Intrusion
@@ -381,44 +236,12 @@ root(ROOTS.Unsorted, {
 			i(247622),	-- Pristine Moon-Wrought Clasp
 			i(247623),	-- Spiked Terrorwake Greatboots
 			i(247624),	-- Girdle of the Crumbling Sanctum
-			i(247625),	-- Whisperstep Runners
-			i(247626),	-- Sandals of the Reborn Colossus
-			i(247627),	-- Cord of Surging Hysteria
-			i(247628),	-- Lady Dacidion's Silk Slippers
-			i(247629),	-- Enhanced Worldscorcher Cinch
-			i(247630),	-- Cord of Blossoming Petals
-			i(247631),	-- Man'ari Pyromancer Cuffs
-			i(247632),	-- Blood-Drenched Bindings
-			i(247633),	-- Life-Bearing Footpads
-			i(247634),	-- Vicious Flamepaws
-			i(247635),	-- Death-Enveloping Cincture
-			i(247636),	-- Portal Keeper's Cincture
-			i(247637),	-- Belt of Fractured Sanity
-			i(247638),	-- Fiendish Logistician's Wristwraps
-			i(247639),	-- Deft Soulhunter's Sabatons
-			i(247640),	-- Nathrezim Shade-Walkers
-			i(247641),	-- Depraved Tactician's Waistguard
-			i(247642),	-- Sash of the Gilded Rose
-			i(247643),	-- Reality-Splitting Wristguards
-			i(247644),	-- Doomwalker Warboots
-			i(247645),	-- Burning Coven Sabatons
-			i(247646),	-- Eredar Warcouncil Sabatons
-			i(247647),	-- Nathrezim Battle Girdle
-			i(247648),	-- Flamelicked Girdle
-			i(247649),	-- Grond-Father Girdle
-			i(247650),	-- Vambraces of Life's Assurance
-			i(247651),	-- Scalding Shatterguards
-			i(247652),	-- Varimathras' Shattered Manacles
-			i(247653),	-- Depraved Machinist's Footpads
-			i(247654),	-- Bracers of Wanton Morality
-			i(247655),	-- World-Ravager Waistguard
-			i(247656),	-- Greatboots of the Searing Tempest
 			i(247894),	-- Dalaran Hearthstone
-			i(248088),	-- Jade, Bright Foreseer
-			i(248089),	-- Tangled Dreamweaver
-			i(248090),	-- Viridian Phase-Hunter
-			i(248091),	-- Anima Wyrmling
-			i(248092),	-- Blinky
+			i(248088),	-- Jade, Bright Foreseer (MOUNT!)
+			i(248089),	-- Tangled Dreamweaver (MOUNT!)
+			i(248090),	-- Viridian Phase-Hunter (MOUNT!)
+			i(248091),	-- Anima Wyrmling (PET!)	/ Shadowlands Epic Edition, Pet added in 8.2.5
+			i(248092),	-- Blinky (PET!)
 			i(248093),	-- Ensemble: Dreadlord's Shadowsbane Regalia
 			i(248094),	-- Ensemble: Waveborne Diplomat's Regalia
 			i(248140),	-- Bronze Simulacrum
@@ -472,7 +295,7 @@ root(ROOTS.Unsorted, {
 			i(248924),	-- Stale Mulgore Spice Bread
 			i(248925),	-- Months Old Sourdough Bread
 			i(248926),	-- Ancient Thirteen Grain Loaf
-			i(248994),	-- Kalu'ak Crest-horn
+			i(248994),	-- Kalu'ak Crest-horn (MOUNT!)
 			i(249229),	-- Black Temple Scroll
 			i(249230),	-- Temple of Zin-Malor Scroll
 			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
@@ -574,14 +397,14 @@ root(ROOTS.Unsorted, {
 			i(250291),	-- Hot and Fresh Portable Bakery
 			i(250292),	-- Piping Hot Portable Bakery
 			i(250293),	-- Red Hot Portable Bakery
-			i(250321),	-- Reins of the Thorignir Drake
+			i(250321),	-- Reins of the Thorignir Drake (MOUNT!)
 			i(250408),	-- Add Keystone Affix: Dusk of the Infinite
 			i(250409),	-- Add Keystone Affix: Timeways Manifested
 			i(250410),	-- Add Keystone Affix: Twilight Reflections
 			i(250464),	-- [DNT] Quest Token
 			i(250724),	-- Add Keystone Affix: Tyrannically Fortified
-			i(250726),	-- Reins of the Leyfrost Manasaber
-			i(250727),	-- Reins of the Nightwell Manasaber
+			i(250726),	-- Reins of the Leyfrost Manasaber (MOUNT!)
+			i(250727),	-- Reins of the Nightwell Manasaber (MOUNT!)
 			i(250741),	-- Puzzling Cartel Chip
 			i(250762),	-- Felfueled Memento of the Abyss
 			i(250777),	-- Time-Lost Bite of the Frostwolves
@@ -617,10 +440,10 @@ root(ROOTS.Unsorted, {
 			i(250909),	-- Villager's City Skirt
 			i(250910),	-- Villager's City Sabatons
 			i(250911),	-- Ensemble: Villager's City Collection
-			i(250926),	-- Highlands Gobbler
-			i(250927),	-- Quirky Turkey
-			i(250928),	-- Murky Turkey
-			i(250929),	-- Prized Turkey
+			i(250926),	-- Highlands Gobbler (MOUNT!)
+			i(250927),	-- Quirky Turkey (MOUNT!)
+			i(250928),	-- Murky Turkey (MOUNT!)
+			i(250929),	-- Prized Turkey (MOUNT!)
 			i(251016),	-- Ensemble: Forged Warmonger's Cloth Armor
 			i(251017),	-- Ensemble: Forged Warmonger's Leather Armor
 			i(251018),	-- Ensemble: Forged Warmonger's Mail Armor
@@ -692,15 +515,13 @@ root(ROOTS.Unsorted, {
 			i(252018),	-- Pristine Lightbound Crystal
 			i(252020),	-- Intricate Lightbound Crystal
 			i(252021),	-- Flawed Lightbound Crystal
-			i(252137),	-- Lil' Chompers
-			i(252193),	-- Slippery Saul
-			i(252194),	-- Fishmonger May
-			i(252195),	-- Fishstick Keith
-			i(252199),	-- Festive Eve
-			i(252200),	-- Bundled-up Bob
+			i(252137),	-- Lil' Chompers (PET!)
+			i(252193),	-- Slippery Saul (PET!)
+			i(252194),	-- Fishmonger May (PET!)
+			i(252195),	-- Fishstick Keith (PET!)
+			i(252199),	-- Festive Eve (PET!)
+			i(252200),	-- Bundled-up Bob (PET!)
 			i(252300),	-- Bronze Cluster
-			i(252301),	-- Warden's Companion
-			i(252364),	-- Gem of Gul'dan
 			i(252656),	-- K'areshi Scientific Expedition Supply
 			i(252710),	-- Midnight Winter Hat
 			i(252711),	-- Azure Winter Hat
@@ -727,14 +548,10 @@ root(ROOTS.Unsorted, {
 			i(253158),	-- Loyal Watchman's Cuirass
 			i(253159),	-- Loyal Watchman's Spaulders
 			i(253160),	-- Loyal Watchman's Helm
-			i(253222),	-- Corrupted Thorn of the Dream
-			i(253223),	-- Fractal Felshard
-			i(253224),	-- Mote of the Unmaker's Heart
-			i(253227),	-- Flawless Thread of Time
 			i(253286),	-- Scythe of the Unmaker
 			i(253357),	-- Felscorned Arsenal
 			i(253520),	-- Enclave Aspirant's Hatchet
-			i(253573),	-- Cerulean Phase-Hunter
+			i(253573),	-- Cerulean Phase-Hunter (MOUNT!)
 			i(253574),	-- Everlasting Rock
 			i(253867),	-- Cache of Infinite Treasure
 		})),

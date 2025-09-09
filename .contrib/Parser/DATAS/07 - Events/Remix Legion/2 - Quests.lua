@@ -488,5 +488,20 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 			["lvl"] = 60,
 		}),
+		q(93118, {	-- Infinite Research: Special Assignment, Power Overwhelming
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 70,
+		}),
+		q(93120, {	-- Infinite Research: Special Assignment, A World to Explore
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 80,
+		}),
+		q(91632, {	-- The End of an Epoch Journey
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 80,
+		}),
 	}),
 })))

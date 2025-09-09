@@ -15,7 +15,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							42519,	-- Looking for Group: Azsuna
 							42515,	-- Tour Azsuna
 						}},
-						["groups"] = { i(252301) },	-- Fledgeling Warden's Companion (PET!)
+						["groups"] = { i(252301) },	-- Warden's Companion (PET!)
 					}),
 					ach(42317),	-- Campaign: Azsuna
 					ach(42518),	-- Elusive Foes: Azsuna
