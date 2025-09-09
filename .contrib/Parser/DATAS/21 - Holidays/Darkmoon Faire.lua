@@ -496,9 +496,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				i(124669, {	-- Darkmoon Daggermaw
 					["timeline"] = { ADDED_6_2_0 },
 				}),
-				i(93732, {	-- Darkmoon Fishing Cap
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93732, {	-- Darkmoon Fishing Cap
 					["timeline"] = { ADDED_5_2_0 },
-				}),
+				})),
 				i(73953, {	-- Sea Pony (PET!)
 					["timeline"] = { ADDED_4_3_0 },
 				}),
