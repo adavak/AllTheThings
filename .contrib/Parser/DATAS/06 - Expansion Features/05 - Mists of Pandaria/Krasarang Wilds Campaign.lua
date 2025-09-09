@@ -1311,7 +1311,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 	}),
 }))));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, MOP_PHASE_LANDFALL, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0} }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
 	m(KRASARANG_WILDS, {
 		faction(FACTION_DOMINANCE_OFFENSIVE, {
 			n(QUESTS, {
@@ -1331,4 +1331,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, MOP_PHASE_LANDFALL, bub
 			}),
 		}),
 	}),
-})));
+}))));
