@@ -236,12 +236,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Ranged
 						frags(50, i(86889)),	-- Taoren, the Soul Burner (Terrace)
 
-						-- Off-hand
-						
-
-						-- Shields
-						
-
 						-- Necks
 						frags(30, i(86872)),	-- Kaolan's Withering Necklace (Terrace)
 						frags(30, i(86871)),	-- Shackle of Eversparks (Terrace)
@@ -253,8 +247,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Plate Armor
 						-- Head
 						frags(50, i(86876)),	-- Casque of Expelled Corruption (Terrace)
-						-- Shoulder
-						
 						-- Chest
 						frags(50, i(86891)),	-- Cuirass of the Animated Protector (Terrace)
 						-- Wrist
@@ -266,45 +258,32 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(50, i(86904)),	-- Patroller's Girdle of Endless Spring (Terrace)
 						frags(50, i(86903)),	-- Protector's Girdle of Endless Spring (Terrace)
 						-- Legs
-						
+						frags(45, i(86854)),	-- Articulated Legplates (Terrace)
+						frags(45, i(89963)),	-- Legplates of Regal Reinforcement (Terrace)
 						-- Feet
 						frags(50, i(86870)),	-- Deepwater Greatboots (Terrace)
 						frags(50, i(86887)),	-- Sollerets of Instability (Terrace)
 
 						-- Mail Armor
-						-- Head
-						
 						-- Shoulders
 						frags(30, i(89979)),	-- Waterborne Shoulderguards (Terrace)
 						-- Chest
 						frags(50, i(86882)),	-- Sunwrought Mail Hauberk (Terrace)
-						-- Wrist
-						
-						-- Hands
-						
 						-- Waist
 						frags(50, i(86900)),	-- Binder's Chain of Unending Summer (Terrace)
 						frags(50, i(86901)),	-- Ranger's Chain of Unending Summer (Terrace)
 						frags(50, i(89986)),	-- Shadowgrip Girdle (Terrace)
-						-- Legs
-						
 						-- Feet
 						frags(50, i(86877)),	-- Lightning Prisoner's Boots (Terrace)
 
 						-- Leather Armor
-						-- Head
-						
-						-- Shoulders
-						
 						-- Chest
-						--frags(50, i(89985)),	-- Wrap of Instant Petrification (Terrace)
-						-- Wrist
-						
+						frags(50, i(89985)),	-- Wrap of Instant Petrification (Terrace)
 						-- Hands
 						frags(30, i(89980)),	-- Gauntlets of the Shadow's Caress (Terrace)
 						-- Waist
-						--frags(50, i(86899)),	-- Stalker's Cord of Eternal Autumn
-						--frags(50, i(86898)),	-- Weaver's Cord of Eternal Autumn
+						frags(50, i(86899)),	-- Stalker's Cord of Eternal Autumn (Terrace)
+						frags(50, i(86898)),	-- Weaver's Cord of Eternal Autumn (Terrace)
 						-- Legs
 						frags(50, i(89983)),	-- Fear-Blackened Leggings (Terrace)
 						frags(50, i(89978)),	-- Legguards of Failing Purification (Terrace)
@@ -312,8 +291,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(50, i(86878)),	-- Asani's Uncleansed Sandals (Terrace)
 
 						-- Cloth Armor
-						-- Head
-						
 						-- Shoulders
 						frags(30, i(89982)),	-- Shoulderpads of Twisted Fate (Terrace)
 						-- Chest
@@ -321,8 +298,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(50, i(86892)),	-- Robes of the Unknown Fear (Terrace)
 						-- Wrist
 						frags(30, i(86875)),	-- Cuffs of the Corrupted Waters (Terrace)
-						-- Gloves
-						
 						-- Waist
 						frags(50, i(86884)),	-- Belt of Embodied Terror (Terrace)
 						frags(50, i(86895)),	-- Healer's Belt of Final Winter (Terrace)
@@ -353,17 +328,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(30, i(86863)),	-- Scimitar of Seven Stars (HoF)
 						frags(30, i(86862)),	-- Un'sok's Amber Scalpel (HoF)
 
-						-- Two-Handed
-						
-
-						-- Ranged
-						
-
 						-- Off-hand
 						frags(15, i(86829)),	-- Tornado-Summoning Censer (HoF)
-
-						-- Shields
-						
 
 						-- Necks
 						frags(30, i(86824)),	-- Choker of the Unleashed Storm (HoF)
@@ -397,9 +363,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Waist
 						frags(45, i(86822)),	-- Waistplate of Overwhelming Assault (HoF)
 						frags(45, i(89954)),	-- Warbelt of Sealed Pods (HoF)
-						-- Legs
-						--frags(45, i(86854)),	-- Articulated Legplates
-						--frags(45, i(89963)),	-- Legplates of Regal Reinforcement
 						-- Feet
 						frags(45, i(86852)),	-- Impaling Treads (HoF)
 
@@ -420,8 +383,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Hands
 						frags(30, i(86833)),	-- Grips of the Leviathan (HoF)
 						frags(30, i(90739)),	-- Kaz'tik's Stormseizer Gauntlets (HoF)
-						-- Waist
-						
 						-- Legs
 						frags(45, i(89955)),	-- Sword Dancer's Leggings (HoF)
 						-- Feet
@@ -442,18 +403,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(30, i(86834)),	-- Bonebreaker Gauntlets (HoF)
 						frags(30, i(86912)),	-- Clutches of Dying Hope (HoF)
 						frags(30, i(86817)),	-- Gauntlets of Undesired Gifts (HoF)
-						-- Waist
-						frags(50, i(86899)),	-- Stalker's Cord of Eternal Autumn
-						frags(50, i(86898)),	-- Weaver's Cord of Eternal Autumn
-						-- Legs
-						
 						-- Feet
 						frags(45, i(86811)),	-- Boots of the Still Breath (HoF)
 						frags(45, i(86859)),	-- Treads of Deadly Secretions (HoF)
 
 						-- Cloth Armor
 						-- Head
-						frags(45, i(86839)),	-- Xaril's Hood of Intoxicating Vapors
+						frags(45, i(86839)),	-- Xaril's Hood of Intoxicating Vapors (HoF)
 						-- Shoulders
 						frags(30, i(89959)),	-- Shoulders of Foaming Fluids (HoF)
 						-- Chest
@@ -465,7 +421,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(30, i(86841)),	-- Shining Cicada Bracers (HoF)
 						frags(30, i(86828)),	-- Twisting Wind Bracers (HoF)
 						-- Hands
-						frags(30, i(86819)),	-- Gloves of Grasping Claws
+						frags(30, i(86819)),	-- Gloves of Grasping Claws (HoF)
 						-- Waist
 						frags(50, i(86857)),	-- Belt of Malleable Amber (HoF)
 						-- Legs
@@ -482,41 +438,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(30, i(86830)),	-- Ring of the Shattered Shell (HoF)
 						frags(30, i(86858)),	-- Seal of the Profane (HoF)
 						frags(30, i(86813)),	-- Vizier's Ruby Signet (HoF)
-
-						-- Trinkets
-						
 					}),
 					{	-- Original Celestial Dungeon Loot
 						-- Weapons
 						-- One-Handed
-						--frags(30, i(86864)),	-- Claws of Shek'zeer (HoF)
 						frags(25, i(86741)),	-- Dagger of the Seven Stars
 						frags(25, i(86789)),	-- Elegion, the Fanged Crescent
 						frags(25, i(86762)),	-- Gara'kal, Fist of the Spiritbinder
-						--frags(30, i(86865)),	-- Kri'tak, Imperial Scepter of the Swarm (HoF)
-						--frags(30, i(86886)),	-- Kilrak, Jaws of Terror (Terrace)
-						--frags(30, i(86886)),	-- Loshan, Terror Incarnate (Terrace)
-						--frags(30, i(86909)),	-- Regail's Crackling Dagger (Terrace)
-						--frags(30, i(86863)),	-- Scimitar of Seven Stars (HoF)
-						--frags(30, i(86910)),	-- Spiritsever (Terrace)
 						frags(25, i(86806)),	-- Tihan, Scepter of the Sleeping Emperor
-						--frags(30, i(86862)),	-- Un'sok's Amber Scalpel (HoF)
 
 						-- Two-Handed
-						--frags(50, i(86893)),	-- Jin'ya, Orb of the Waterspeaker (Terrace)
-						--frags(50, i(86879)),	-- Gao-Rei, Staff of the Legendary Protector (Terrace)
-						--frags(50, i(86905)),	-- Shin'ka, Execution of Dominion (Terrace)
 						frags(40, i(86777)),	-- Screaming Tiger, Qiang's Unbreakable Polearm
 						frags(40, i(86799)),	-- Starshatter
 
 						-- Ranged
 						frags(40, i(86801)),	-- Fang Kung, Spark of Titans
-						--frags(50, i(86889)),	-- Taoren, the Soul Burner (Terrace)
 						frags(40, i(86796)),	-- Torch of the Celestial Spark
 
 						-- Off-hand
 						frags(15, i(89426)),	-- Fan of Fiery Winds
-						--frags(15, i(86829)),	-- Tornado-Summoning Censer (HoF)
 
 						-- Shields
 						frags(15, i(86764)),	-- Eye of the Ancient Spirit
@@ -526,12 +466,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(25, i(86754)),	-- Amulet of Seven Curses
 						frags(25, i(86776)),	-- Amulet of the Hidden Kings
 						frags(25, i(86739)),	-- Beads of the Mogu'shi
-						--frags(30, i(86824)),	-- Choker of the Unleashed Storm (HoF)
-						--frags(30, i(86872)),	-- Kaolan's Withering Necklace (Terrace)
-						--frags(30, i(86856)),	-- Korven's Amber-Sealed Beetle (HoF)
-						--frags(30, i(86835)),	-- Necklace of Congealed Weaknesses (HoF)
-						--frags(30, i(89952)),	-- Pheromone-Coated Choker (HoF)
-						--frags(30, i(86871)),	-- Shackle of Eversparks (Terrace)
 						frags(25, i(86759)),	-- Soulgrasp Choker
 						frags(25, i(86810)),	-- Worldwaker Cabochon
 						frags(25, i(86783)),	-- Zian's Choker of Coalesced Shadow
@@ -539,213 +473,109 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Cloaks
 						frags(25, i(86782)),	-- Arrow Breaking Windcloak
 						frags(25, i(86748)),	-- Cape of Three Lanterns
-						--frags(30, i(86874)),	-- Cloak of Overwhelming Corruption (Terrace)
 						frags(25, i(86753)),	-- Cloak of Peacock Feathers
-						--frags(30, i(86853)),	-- Cloak of Raining Blades (HoF)
-						--frags(30, i(86883)),	-- Daybreak Drape (Terrace)
-						--frags(30, i(86827)),	-- Drape of Gathering Clouds (HoF)
-						--frags(30, i(86812)),	-- Hisek's Chrysanthemum Cape (HoF)
-						--frags(30, i(86831)),	-- Legbreaker Greatcloak (HoF)
 						frags(25, i(89971)),	-- Mindshard Drape
-						--frags(30, i(86840)),	-- Stormwake Mistcloak (HoF)
 
 						-- Plate Armor
 						-- Head
-						--frags(50, i(86876)),	-- Casque of Expelled Corruption (Terrace)
 						frags(40, i(89974)),	-- Crown of Keening Stars
-						--frags(45, i(86832)),	-- Garalon's Hollow Skull (HoF)
 						frags(40, i(86752)),	-- Nullification Greathelm
 						-- Shoulder
-						--frags(30, i(89956)),	-- Pauldrons of the Broken Blade (HoF)
 						frags(25, i(86780)),	-- Shoulderguards of the Unflanked
-						--frags(30, i(86860)),	-- Shoulderpads of Misshapen Life (HoF)
 						frags(25, i(86807)),	-- Spaulders of the Emperor's Rage
 						-- Chest
 						frags(40, i(86779)),	-- Breastplate of the Kings' Guard
 						frags(40, i(89976)),	-- Chestguard of Eternal Vigilance
-						--frags(45, i(86816)),	-- Chestplate of the Forbidden Tower (HoF)
-						--frags(50, i(86891)),	-- Cuirass of the Animated Protector (Terrace)
-						--frags(45, i(89958)),	-- Garalon's Graven Carapace (HoF)
 						-- Wrist
 						frags(25, i(86766)),	-- Bindings of Ancient Spirits
 						frags(25, i(89969)),	-- Bonded Soul Bracers
-						--frags(30, i(86868)),	-- Bracers of Defiled Earth (Terrace)
 						frags(25, i(86751)),	-- Bracers of Six Oxen
-						--frags(30, i(86846)),	-- Inlaid Cricket Bracers (HoF)
-						--frags(30, i(86849)),	-- Plated Locust Bracers (HoF)
-						--frags(30, i(86848)),	-- Serrated Wasp Bracers (HoF)
 						-- Hands
-						--frags(30, i(86837)),	-- Grasps of Panic (HoF)
-						--frags(30, i(89981)),	-- Grasps of Serpentine Might (Terrace)
 						frags(25, i(86794)),	-- Starcrusher Gauntlets
-						--frags(30, i(86823)),	-- Windblade Talons (HoF)
 						-- Waist
 						frags(40, i(86785)),	-- Girdle of Delirious Visions
-						--frags(50, i(86902)),	-- Mender's Girdle of Endless Spring (Terrace)
-						--frags(50, i(86904)),	-- Patroller's Girdle of Endless Spring (Terrace)
-						--frags(50, i(86903)),	-- Protector's Girdle of Endless Spring (Terrace)
 						frags(40, i(86793)),	-- Star-Stealer Waistguard
-						--frags(45, i(86822)),	-- Waistplate of Overwhelming Assault (HoF)
-						--frags(45, i(89954)),	-- Warbelt of Sealed Pods (HoF)
 						-- Legs
-						--frags(45, i(86854)),	-- Articulated Legplates
 						frags(40, i(86803)),	-- Jang-xi's Devastating Legplates
-						--frags(45, i(89963)),	-- Legplates of Regal Reinforcement
 						frags(40, i(86756)),	-- Legplates of Sagacious Shadows
 						-- Feet
-						--frags(50, i(86870)),	-- Deepwater Greatboots (Terrace)
 						frags(40, i(86744)),	-- Heavenly Jade Greatboots
-						--frags(45, i(86852)),	-- Impaling Treads (HoF)
 						frags(40, i(86742)),	-- Jasper Clawfeet
-						--frags(50, i(86887)),	-- Sollerets of Instability (Terrace)
 						frags(40, i(86760)),	-- Sollerets of Spirit Splitting
 
 						-- Mail Armor
 						-- Head
-						--frags(45, i(86866)),	-- Crown of the Doomed Empress (HoF)
 						frags(40, i(89975)),	-- Dreadeye Gaze
-						--frags(45, i(89962)),	-- Hood of Dark Dreams (HoF)
 						frags(40, i(86745)),	-- Sixteen-Fanged Crown
 						-- Shoulders
 						frags(25, i(86800)),	-- Shoulders of Empyreal Focus
-						--frags(30, i(89979)),	-- Waterborne Shoulderguards (Terrace)
-						--frags(30, i(86855)),	-- Wingslasher Pauldrons (HoF)
 						-- Chest
-						--frags(45, i(86818)),	-- Mail of Screaming Secrets (HoF)
 						frags(40, i(89964)),	-- Stonefang Chestguard
-						--frags(50, i(86882)),	-- Sunwrought Mail Hauberk (Terrace)
-						--frags(45, i(89960)),	-- Vestments of Steaming Ichor (HoF)
-						--frags(45, i(87823)),	-- Zor'lok's Fizzing Chestguard (HoF)
 						-- Wrist
-						--frags(30, i(86826)),	-- Bracers of Tempestuous Fury (HoF)
-						--frags(30, i(86847)),	-- Jagged Hornet Bracers (HoF)
-						--frags(30, i(86842)),	-- Luminescent Firefly Wristguards (HoF)
 						frags(25, i(86740)),	-- Stonemaw Armguards
 						-- Hands
 						frags(25, i(89977)),	-- Enameled Grips of Solemnity
 						frags(25, i(87826)),	-- Grips of Terra Cotta
-						--frags(30, i(86833)),	-- Grips of the Leviathan (HoF)
-						--frags(30, i(90739)),	-- Kaz'tik's Stormseizer Gauntlets (HoF)
 						-- Waist
-						--frags(50, i(86900)),	-- Binder's Chain of Unending Summer (Terrace)
 						frags(40, i(86755)),	-- Chain of Shadow
 						frags(40, i(86761)),	-- Fetters of Death
-						--frags(50, i(86901)),	-- Ranger's Chain of Unending Summer (Terrace)
-						--frags(50, i(89986)),	-- Shadowgrip Girdle (Terrace)
 						-- Legs
 						frags(40, i(86769)),	-- Leggings of Imprisoned Will
 						frags(40, i(86781)),	-- Subetai's Pillaging Leggings
-						--frags(45, i(89955)),	-- Sword Dancer's Leggings (HoF)
 						-- Feet
-						--frags(50, i(86877)),	-- Lightning Prisoner's Boots (Terrace)
 						frags(40, i(86784)),	-- Meng's Treads of Insanity
-						--frags(45, i(86861)),	-- Monstrous Stompers (HoF)
 						frags(40, i(86749)),	-- Wildfire Worldwalkers
 
 						-- Leather Armor
 						-- Head
 						frags(40, i(86804)),	-- Crown of Opportunistic Strikes
 						frags(40, i(86757)),	-- Hood of Cursed Dreams
-						--frags(45, i(89957)),	-- Hood of Stilled Winds (HoF)
 						-- Shoulders
 						frags(25, i(86763)),	-- Netherrealm Shoulderpads
-						--frags(30, i(89961)),	-- Shadow Heart Spaulders (HoF)
 						frags(25, i(86768)),	-- Spaulders of the Divided Mind
 						-- Chest
 						frags(40, i(86795)),	-- Chestguard of Total Annihilation
-						--frags(45, i(86838)),	-- Robes of Eighty Lights (HoF)
-						--frags(50, i(89985)),	-- Wrap of Instant Petrification (Terrace)
 						-- Wrist
 						frags(25, i(86786)),	-- Bracers of Dark Thoughts
-						--frags(30, i(86821)),	-- Bracers of Unseen Strikes (HoF)
 						frags(25, i(89970)),	-- Bracers of Violent Meditation
-						--frags(30, i(86845)),	-- Pearlescent Butterfly Wristbands (HoF)
-						--frags(30, i(86843)),	-- Smooth Beetle Wristbands (HoF)
-						-- Hands
-						--frags(30, i(86834)),	-- Bonebreaker Gauntlets (HoF)
-						--frags(30, i(86912)),	-- Clutches of Dying Hope (HoF)
-						--frags(30, i(89980)),	-- Gauntlets of the Shadow's Caress (Terrace)
-						--frags(30, i(86817)),	-- Gauntlets of Undesired Gifts (HoF)
 						-- Waist
-						--frags(50, i(86899)),	-- Stalker's Cord of Eternal Autumn
 						frags(40, i(86746)),	-- Stonebound Cinch
 						frags(40, i(86750)),	-- Tomb Raider's Girdle
-						--frags(50, i(86898)),	-- Weaver's Cord of Eternal Autumn
 						-- Legs
-						--frags(50, i(89983)),	-- Fear-Blackened Leggings (Terrace)
-						--frags(50, i(89978)),	-- Legguards of Failing Purification (Terrace)
 						frags(40, i(86808)),	-- Magnetized Leggings
 						frags(40, i(86743)),	-- Stoneflesh Leggings
 						-- Feet
-						--frags(50, i(86878)),	-- Asani's Uncleansed Sandals (Terrace)
-						--frags(45, i(86811)),	-- Boots of the Still Breath (HoF)
 						frags(40, i(86797)),	-- Phasewalker Striders
-						--frags(45, i(86859)),	-- Treads of Deadly Secretions (HoF)
 
 						-- Cloth Armor
 						-- Head
 						frags(40, i(86788)),	-- Hood of Blind Eyes
 						frags(40, i(86809)),	-- Hood of Focused Energy
-						--frags(45, i(86839)),	-- Xaril's Hood of Intoxicating Vapors
 						-- Shoulders
 						frags(25, i(86770)),	-- Shadowsummoner Spaulders
-						--frags(30, i(89982)),	-- Shoulderpads of Twisted Fate (Terrace)
-						--frags(30, i(89959)),	-- Shoulders of Foaming Fluids (HoF)
 						-- Chest
 						frags(40, i(86758)),	-- Imperial Ghostbinder's Robes
-						--frags(50, i(89984)),	-- Robes of Pinioned Eyes (Terrace)
-						--frags(50, i(86892)),	-- Robes of the Unknown Fear (Terrace)
-						--frags(45, i(86911)),	-- Robes of Torn Nightmares (HoF)
 						-- Wrist
-						--frags(30, i(86815)),	-- Attenuating Bracers (HoF)
-						--frags(30, i(86875)),	-- Cuffs of the Corrupted Waters (Terrace)
-						--frags(30, i(86850)),	-- Darting Damselfly Cuffs (HoF)
-						--frags(30, i(86844)),	-- Gleaming Moth Cuffs (HoF)
-						--frags(30, i(86841)),	-- Shining Cicada Bracers (HoF)
-						--frags(30, i(86828)),	-- Twisting Wind Bracers (HoF)
 						-- Hands
 						frags(25, i(89966)),	-- Claws of Amethyst
-						--frags(30, i(86819)),	-- Gloves of Grasping Claws
 						frags(25, i(86787)),	-- Undying Shadow Grips
 						-- Waist
-						--frags(50, i(86884)),	-- Belt of Embodied Terror (Terrace)
-						--frags(50, i(86857)),	-- Belt of Malleable Amber (HoF)
 						frags(40, i(89973)),	-- Galaxyfire Girdle
-						--frags(50, i(86895)),	-- Healer's Belt of Final Winter (Terrace)
-						--frags(50, i(86896)),	-- Invoker's Belt of Final Winter (Terrace)
 						frags(40, i(86798)),	-- Orbital Belt
 						frags(40, i(89965)),	-- Ruby-Linked Girdle
-						--frags(50, i(86897)),	-- Sorcerer's Belt of Final Winter (Terrace)
 						-- Legs
-						--frags(50, i(86908)),	-- Dreadwoven Leggings of Failure (Terrace)
 						frags(40, i(86747)),	-- Jade Dust Leggings
-						--frags(45, i(86867)),	-- Leggings of Shadow Infestation (HoF)
 						-- Feet
-						--frags(45, i(86825)),	-- Boots of the Blowing Wind (HoF)
-						--frags(50, i(86888)),	-- Sandals of the Blackest Night (Terrace)
 						frags(40, i(86765)),	-- Sandals of the Severed Soul
-						--frags(45, i(86836)),	-- Sandals of the Unbidden (HoF)
-						--frags(45, i(89953)),	-- Scent-Soaked Sandals (HoF)
 
 						-- Rings
 						frags(25, i(89972)),	-- Band of Bursting Novas
 						frags(25, i(86767)),	-- Circuit of the Frail Soul
-						--frags(30, i(86880)),	-- Dread Shadow Ring (Terrace)
 						frags(25, i(89968)),	-- Feng's Ring of Dreams
 						frags(25, i(89967)),	-- Feng's Seal of Binding
-						--frags(30, i(86814)),	-- Fragment of Fear Made Flesh (HoF)
-						--frags(30, i(86851)),	-- Painful Thorned Ring (HoF)
-						--frags(30, i(86869)),	-- Regail's Band of the Endless (Terrace)
-						--frags(30, i(86820)),	-- Ring of the Bladed Tempest (HoF)
-						--frags(30, i(86830)),	-- Ring of the Shattered Shell (HoF)
-						--frags(30, i(86858)),	-- Seal of the Profane (HoF)
-						--frags(30, i(86813)),	-- Vizier's Ruby Signet (HoF)
-						--frags(30, i(86873)),	-- Watersoul Signet (Terrace)
 
 						-- Trinkets
 						frags(40, i(86791)),	-- Bottle of Infinite Stars
-						--frags(50, i(86894)),	-- Darkmist Vortex (Terrace)
-						--frags(50, i(86907)),	-- Essence of Terror (Terrace)
 						frags(40, i(86772)),	-- Jade Bandit Figurine
 						frags(40, i(86771)),	-- Jade Charioteer Figurine
 						frags(40, i(86774)),	-- Jade Courtesan Figurine
@@ -754,10 +584,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(40, i(86802)),	-- Lei Shen's Final Orders
 						frags(40, i(86792)),	-- Light of the Cosmos
 						frags(40, i(86805)),	-- Qin-xi's Polarizing Seal
-						--frags(50, i(86885)),	-- Spirits of the Sun (Terrace)
-						--frags(50, i(86881)),	-- Stuff of Nightmares (Terrace)
-						--frags(50, i(86890)),	-- Terror in the Mists (Terrace)
 						frags(40, i(86790)),	-- Vial of Dragon's Blood
+
 						-- Currency Conversion
 						frags(1, i(247796), {	-- Commendation of Service
 							currency(395),	-- Justice Points
@@ -765,10 +593,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					}, {
 						-- Bags
 						frags(10, i(248666, {	-- Satchel of Celestial Chance
-							-- Wouter TODO: verify origins for mounts, Crane specifically was previously mentioned to be a reward from the Celestial Dungeon Hero achievement,
-							-- but it's not listed as a reward in-game
-							-- MAAAOUNTS
-							-- Confirmed
 							i(87777),	-- Astral Cloud Serpent (MOUNT!)
 							i(87786),	-- Black Riding Yak (MOUNT!)
 							i(87787),	-- Brown Riding Yak (MOP) / Modest Expedition Yak (Retail) (MOUNT!)
@@ -785,11 +609,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 
 							-- Unconfirmed (but speculated)
 							-- CRIEVE NOTE: I don't know who made this list, but half of them are from content that gets added later. I highly doubt they'd make them drop before they're supposed to.
-							--i(87793),	-- Jade Water Strider (MOUNT!)
+							-- i(87793),	-- Jade Water Strider (MOUNT!)
 							-- i(87776),	-- Heavenly Azure Cloud Serpent (MOUNT!)
-							--i(87774),	-- Heavenly Golden Cloud Serpent (MOUNT!)
-							--i(87775),	-- Heavenly Jade Cloud Serpent (MOUNT!)
-							--i(95057),	-- Thundering Cobalt Cloud Serpent (MOUNT!)
+							-- i(87774),	-- Heavenly Golden Cloud Serpent (MOUNT!)
+							-- i(87775),	-- Heavenly Jade Cloud Serpent (MOUNT!)
+							-- i(95057),	-- Thundering Cobalt Cloud Serpent (MOUNT!)
 							-- i(94228),	-- Cobalt Primordial Direhorn (MOUNT!)
 
 							-- Pets

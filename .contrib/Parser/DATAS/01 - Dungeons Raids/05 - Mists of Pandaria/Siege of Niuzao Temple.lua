@@ -457,6 +457,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 							i(86806),	-- Tihan, Scepter of the Sleeping Emperor
 							i(86783),	-- Zian's Choker of Coalesced Shadow
 							i(89972),	-- Band of Bursting Novas
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86830)),	-- Ring of the Shattered Shell
 						},
 					}),
 				},
