@@ -143,6 +143,7 @@ local function presetStore()
 		["Show:OnlyActiveEvents"] = settings:Get("Show:OnlyActiveEvents"),
 		["Show:PetBattles"] = settings:Get("Show:PetBattles"),
 		["Hide:PvP"] = settings:Get("Hide:PvP"),
+		["Hide:ChallengeMaster"] = settings:Get("Hide:ChallengeMaster"),
 		["Show:Skyriding"] = settings:Get("Show:Skyriding"),
 
 		-- Expansion Things
@@ -225,6 +226,7 @@ modeButton:SetScript("OnClick", function()
 				settings:Set("Show:OnlyActiveEvents", settings:Get("PresetRestore")["Show:OnlyActiveEvents"])
 				settings:Set("Show:PetBattles", settings:Get("PresetRestore")["Show:PetBattles"])
 				settings:Set("Hide:PvP", settings:Get("PresetRestore")["Hide:PvP"])
+				settings:Set("Hide:ChallengeMaster", settings:Get("PresetRestore")["Hide:ChallengeMaster"])
 				settings:Set("Show:Skyriding", settings:Get("PresetRestore")["Show:Skyriding"])
 
 				-- Expansion Things
@@ -305,6 +307,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Show:OnlyActiveEvents", true)
 			settings:Set("Show:PetBattles", false)
 			settings:Set("Hide:PvP", true)
+			settings:Set("Hide:ChallengeMaster", true)
 			settings:Set("Show:Skyriding", false)
 
 			-- Expansion Things
@@ -362,6 +365,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Show:OnlyActiveEvents", false)
 			settings:Set("Show:PetBattles", true)
 			settings:Set("Hide:PvP", false)
+			settings:Set("Hide:ChallengeMaster", true)
 			settings:Set("Show:Skyriding", true)
 
 			-- Expansion Things
@@ -419,6 +423,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Show:OnlyActiveEvents", false)
 			settings:Set("Show:PetBattles", true)
 			settings:Set("Hide:PvP", false)
+			settings:Set("Hide:ChallengeMaster", false)
 			settings:Set("Show:Skyriding", true)
 
 			-- Expansion Things
@@ -485,6 +490,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Show:OnlyActiveEvents", false)
 			settings:Set("Show:PetBattles", true)
 			settings:Set("Hide:PvP", false)
+			settings:Set("Hide:ChallengeMaster", false)
 			settings:Set("Show:Skyriding", true)
 
 			-- Expansion Things
@@ -1194,6 +1200,26 @@ function(self)
 end)
 checkboxShowPvP:SetATTTooltip(L.SHOW_PVP_CHECKBOX_TOOLTIP)
 checkboxShowPvP:AlignBelow(checkboxShowPetBattles)
+
+if app.GameBuildVersion > 50000 and app.GameBuildVersion <= 70000 then
+	local checkboxShowChallengeMaster = child:CreateCheckBox("|TInterface\\Icons\\achievement_challengemode_platinum:0|t |c" .. app.DefaultColors.Insane .. L.SHOW_CHALLENGE_MASTER_CHECKBOX,
+	function(self)
+		self:SetChecked(not settings:Get("Hide:ChallengeMaster"))	-- Inversed, so enabled = show
+		if app.MODE_DEBUG then
+			self:Disable()
+			self:SetAlpha(0.4)
+		else
+			self:Enable()
+			self:SetAlpha(1)
+		end
+	end,
+	function(self)
+		settings:Set("Hide:ChallengeMaster", not self:GetChecked())	-- Inversed, so enabled = show
+		settings:UpdateMode(1)
+	end)
+	checkboxShowChallengeMaster:SetATTTooltip(L.SHOW_CHALLENGE_MASTER_CHECKBOX_TOOLTIP)
+	checkboxShowChallengeMaster:AlignBelow(checkboxShowPvP)
+end
 
 if app.GameBuildVersion >= 100000 then
 	local checkboxShowSkyriding = child:CreateCheckBox("|TInterface\\Icons\\ability_dragonriding_dragonridinggliding01:0|t |c" .. app.DefaultColors.Insane .. L.SHOW_SKYRIDING_CHECKBOX,

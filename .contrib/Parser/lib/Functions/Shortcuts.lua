@@ -888,6 +888,9 @@ cl = function(id, spec, t)								-- Create a CHARACTER CLASS Object
 	end;
 	return struct("classID", id, t);
 end
+challengemaster = function(t)							-- Flag all nested content to require achieving Challenge Master FoS (Realm Best times for Challenge Modes in MoP and WoD)
+	return bubbleDown({ ["cm"] = true }, t);
+end
 clWithoutLock = function(id, t)							-- Create a CHARACTER CLASS Object without a Class Lock
 	t = struct("headerID", id, t);
 	t.type = HEADERS.Class;

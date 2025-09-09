@@ -1370,6 +1370,7 @@ end");
                         case "isYearly":
                         case "isWorldQuest":
                         case "repeatable":
+                        case "cm":
                         case "pvp":
                         case "pb":
                         case "sr":
@@ -1645,6 +1646,7 @@ end");
                     case "collectible":
                     case "equippable":
                     case "repeatable":
+                    case "cm":
                     case "pvp":
                     case "pb":
                     case "sr":

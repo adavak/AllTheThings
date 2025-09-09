@@ -120,6 +120,12 @@ function(item)
 	return not item.pvp or false
 end);
 
+-- Challenge Master
+DefineToggleFilter("ChallengeMaster", AccountFilters,
+function(item)
+	return not item.cm or false
+end);
+
 -- PetBattles
 DefineToggleFilter("PetBattles", AccountFilters,
 function(item)

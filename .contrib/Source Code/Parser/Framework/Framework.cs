@@ -1463,6 +1463,7 @@ namespace ATT
                 case "buildingID":
                 case "class":
                 case "classID":
+                case "cm": // mop/wod challenge master flag
                 case "collectible":
                 case "cost":
                 case "cr":

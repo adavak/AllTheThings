@@ -368,9 +368,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 } }, {
-				ach(8431, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Stormstout Brewery
+				challengemaster(ach(8431, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Stormstout Brewery
 					title(248),	-- Stormbrewer <Name>
-				})),
+				}))),
 				ach(6888),	-- Stormstout Brewery Challenger
 				ach(6889),	-- Stormstout Brewery: Bronze
 				ach(6890),	-- Stormstout Brewery: Silver
