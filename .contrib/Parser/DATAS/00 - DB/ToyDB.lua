@@ -1495,6 +1495,7 @@ i(131717);	-- Starlight Beacon
 ------------------
 -- PATCH 11.2.5 --
 ------------------
+i(242636);	-- Astral Legend's Pennant
 -- #if AFTER 11.2.5
 i(141605);	-- Flight Master's Whistle
 i(131717);	-- Starlight Beacon
@@ -1502,5 +1503,4 @@ i(138111);	-- Stormforged Grapple Launcher
 -- #endif
 
 --- UNSORTED ---
-i(242636);	-- Astral Legend's Pennant
 i(254666);	-- Lil' Exodar

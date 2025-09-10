@@ -54,11 +54,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				["races"]= HORDE_ONLY,
 			}),
 			ach(42024, {	-- Strategist: The War Within Season 3
-				i(242636),	-- Astral Legend's Pennant
+				i(242636),	-- Astral Legend's Pennant (TOY!)
 			}),
 			-- Solo
 			ach(42023, {	-- Legend: The War Within Season 3
-				i(242636),	-- Astral Legend's Pennant
+				i(242636),	-- Astral Legend's Pennant (TOY!)
 			}),
 			ach(42044),	-- Battle Mender: The War Within Season 3
 			ach(42033, {	-- Astral Legend: The War Within Season 3
