@@ -35,7 +35,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							60811,	-- Hidden Treasures: Val'sharah
 						}},
 					}),
-					ach(42605, {	-- Val'Sharah
+					ach(42630, {	-- Val'Sharah
 						-- Meta Achievement
 						["sym"] = {{"meta_achievement",
 							42617,	-- Campaign: Val'Sharah

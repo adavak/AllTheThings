@@ -27,7 +27,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}},
 					}),
 					ach(61105),	-- Sojourner of Stormheim
-					ach(42605, {	-- Stormheim
+					ach(42582, {	-- Stormheim
 						-- Meta Achievement
 						["sym"] = {{"meta_achievement",
 							42596,	-- Campaign: Stormheim

@@ -37,7 +37,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					title(659),	-- %s of the Infinite Chaos (TITLE!)
 				},
 			}),
-			ach(61079, {	-- Mythic Legion Remix Raids
+			ach(61078, {	-- Mythic Legion Remix Raids
 				-- Meta Achievement
 				["sym"] = {{"meta_achievement",
 					42583,	-- Mythic: Antorus the Burning Throne

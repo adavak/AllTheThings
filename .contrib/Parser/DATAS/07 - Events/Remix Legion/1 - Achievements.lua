@@ -14,6 +14,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42674),	-- Broken Isles World Quests V
 		ach(42807),	-- Cloudy With a Chance of Infernals
 		ach(42593),	-- Pillars of Creation
+		ach(61339),	-- Putting the Finite in Infinite
 		ach(42313),	-- Remixing Time
 		ach(60959),	-- Tenured in the Timeways I
 		ach(60960),	-- Tenured in the Timeways II
