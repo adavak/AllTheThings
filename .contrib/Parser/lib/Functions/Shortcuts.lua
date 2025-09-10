@@ -1519,6 +1519,31 @@ driverace = function(id, t)						-- Creates a QUEST which is for a D.R.I.V.E. Ra
 	-- };
 	return t;
 end
+-- Simple function for First Craft HQTs
+FirstCraft = function(questID, recipeID, added, removed)
+	local t = hqt(questID, name(HEADERS.Spell, recipeID))
+	t.provider = { "s", recipeID };
+	if added then
+		t.timeline = { added };
+	end
+	if removed then
+		if not added then
+			error("Cannot have removed FirstCraft without added")
+		end
+		t.timeline[#t.timeline + 1] = removed
+	end
+	return t;
+end
+-- Simple function for First Skin HQTs
+FirstSkin = function(questID, creatureID, added, t)
+	local t = hqt(questID, name(HEADERS.NPC, creatureID, t))
+	t.provider = { "n", creatureID };
+	t.isWeekly = true;
+	if added then
+		t.timeline = { added };
+	end
+	return t;
+end
 
 -- Outdoor Zones Headers with Filters
 battlepets = function(timeline, t)						-- Creates a BATTLE_PETS header with pet battle filter on it. Use this with Outdoor Zones.

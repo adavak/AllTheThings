@@ -1536,7 +1536,7 @@ end");
 
                 if (oldList.Count == 0)
                 {
-                    Log($"int-array field: '{field}' contained no data after merge.{Environment.NewLine}{ToJSON(item)}");
+                    LogError($"int-array field: '{field}' contained no data after merge.{Environment.NewLine}{ToJSON(item)}");
                 }
             }
 

@@ -1,35 +1,6 @@
 ---------------------------------------------
 --    C R A F T A B L E S   M O D U L E    --
 ---------------------------------------------
--- Simple function for First Craft HQTs
--- ex. FirstCraft(QUESTID, RECIPEID);	-- RECIPE_NAME
-local function FirstCraft(questID, recipeID, added, removed)
-	local t = hqt(questID, name(HEADERS.Spell, recipeID))
-	t.provider = { "s", recipeID };
-	if added then
-		t.timeline = { added };
-	end
-	if removed then
-		if not added then
-			error("Cannot have removed FirstCraft without added")
-		end
-		t.timeline[#t.timeline + 1] = removed
-	end
-	return t;
-end
-local function FirstSkin(questID, creatureID, added, group)
-	local t = hqt(questID, name(HEADERS.NPC, creatureID))
-	t.provider = { "n", creatureID };
-	t.isWeekly = true;
-	if added then
-		t.timeline = { added };
-	end
-	if group then
-		t.group = { group };
-	end
-	return t;
-end
-
 root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	i(ARTISANS_ACUITY),
 	i(228338),	-- Soul Sigil I
