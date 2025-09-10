@@ -491,7 +491,6 @@ UpdateCostGroup = function(c)
 		end
 	end
 	-- update providers
-	-- TODO add spell providers
 	if providers and type(providers) == "table" then
 		-- app.PrintDebug("UCG:providers",#providers)
 		local prov, type, id
@@ -503,6 +502,8 @@ UpdateCostGroup = function(c)
 				UpdateCostsByItemID(id, refresh, true)
 			elseif type == "c" then
 				UpdateCostsByCurrencyID(id, refresh, true)
+			elseif type == "s" then
+				UpdateCostsBySpellID(id, refresh, true)
 			end
 		end
 	end
