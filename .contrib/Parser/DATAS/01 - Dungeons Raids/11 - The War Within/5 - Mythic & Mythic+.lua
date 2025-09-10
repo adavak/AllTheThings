@@ -286,9 +286,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		})),
 		n(QUESTS, {
 			q(87327, {	-- A Challenger's Resilience
-				["description"] = "Granted automatically once you have completed each seasonal dungeon in time on at least +12 difficulty.",
+				["description"] = "Granted automatically once you have completed each seasonal dungeon in time on at least +12 difficulty.\n\nCan be completed each season.",
 				["qg"] = 197915,	-- Lindormi
 				["timeline"] = { ADDED_11_1_0_SEASONSTART },
+				["isYearly"] = true,	-- can be completed once per season
 				["maps"] = { DORNOGAL },
 			}),
 		}),
