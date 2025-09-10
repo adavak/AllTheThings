@@ -389,7 +389,6 @@ i(23833),	-- e Murloc Knife \\ Crude Murloc Knife
 i(23834),	-- e Murloc Idol \\ Crude Murloc Idol
 i(23843),	-- l of Air \\ Whorl of Air
 i(23845),	-- ger Hide \\ Ravager Hide
-i(23847),	-- ai's Band \\ Nolkai's Band
 i(23849),	-- lpine Grain \\ Stillpine Grain
 i(23851),	-- ered Journal \\ Battered Journal
 i(23853),	-- Letter to <Name>
@@ -1017,7 +1016,6 @@ i(27854),	-- ed Talbuk Venison \\ Smoked Talbuk Venison
 i(27855),	-- har Grainbread \\ Mag'har Grainbread
 i(27856),	-- hyl Berries \\ Skethyl Berries
 i(27857),	-- dar Sharp \\ Garadar Sharp
-i(27858),	-- pring Carp \\ Sunspring Carp
 i(27859),	-- ar Caps \\ Zangar Caps
 i(27860),	-- fied Draenic Water \\ Purified Draenic Water
 i(27861),	-- rai's Stolen Goods \\ Lathrai's Stolen Goods
@@ -1107,7 +1105,6 @@ i(28399),	-- ered Draenic Water \\ Filtered Draenic Water
 i(28408),	-- en Silver Star \\ Broken Silver Star
 i(28417),	-- er Ray Stinger \\ Nether Ray Stinger
 i(28452),	-- dgem Shard \\ Bloodgem Shard
-i(28455),	-- mage Vargoth's Staff \\ Archmage Vargoth's Staff
 i(28457),	-- real Technology \\ Ethereal Technology
 i(28471),	-- Krasus' Compendium \\ Krasus's Compendium
 i(28472),	-- us' Compendium - Chapter 1 \\ Krasus' Compendium - Chapter 1 \\ Krasus's Compendium - Chapter 1
@@ -1226,7 +1223,6 @@ i(29448),	-- har Mild Cheese \\ Mag'har Mild Cheese
 i(29449),	-- espire Bagel \\ Bladespire Bagel
 i(29450),	-- ari Grapes \\ Telaari Grapes
 i(29451),	-- thoof Ribs \\ Clefthoof Ribs
-i(29452),	-- ar Trout \\ Zangar Trout
 i(29453),	-- eggar Mushroom \\ Sporeggar Mushroom
 i(29454),	-- erwine \\ Silverwine
 i(29459),	-- reum Relay Data \\ Ethereum Relay Data
@@ -1627,7 +1623,6 @@ i(31389),	-- Captured Eye of Grillok
 i(31403),	-- emane's Sleeping Powder \\ Sablemane's Sleeping Powder
 i(31449),	-- illed Stalker Sight \\ Distilled Stalker Sight
 i(31450),	-- lth of the Stalker \\ Stealth of the Stalker
-i(31451),	-- Energy \\ Pure Energy
 i(31463),	-- ak's Shard \\ Zezzak's Shard
 i(31469),	-- k Dragon Corpse \\ Black Dragon Corpse
 i(31489),	-- of the Grishna \\ Orb of the Grishna
@@ -2310,9 +2305,7 @@ i(37906),	-- ry Brew \\ Binary Brew
 i(37907),	-- mnal Acorn Ale \\ Autumnal Acorn Ale
 i(37908),	-- lett's Bitter Brew \\ Bartlett's Bitter Brew
 i(37909),	-- of Frost's Private Label \\ Lord of Frost's Private Label
-i(38291),	-- real Mutagen \\ Ethereal Mutagen
 i(38294),	-- real Liqueur \\ Ethereal Liqueur
-i(38300),	-- ted Ethereum Essence \\ Diluted Ethereum Essence
 i(38308),	-- real Essence Sphere \\ Ethereal Essence Sphere
 i(38427),	-- led Egg \\ Pickled Egg
 i(38428),	-- -Salted Pretzel \\ Rock-Salted Pretzel
