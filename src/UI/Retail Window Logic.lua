@@ -2274,3 +2274,54 @@ app.AddEventHandler("RowOnEnter", function(self)
 	-- Tooltip for something which was not attached via search, so mark it as complete here
 	tooltip.ATT_AttachComplete = not reference.working;
 end)
+
+-- TODO: move to Minilist window UI file once split
+do
+	local MinilistSuffix = "CurrentInstance"
+	local containsValue = app.containsValue;
+	local function TryGeneralExpand(window)
+		-- check to expand groups after they have been built and updated
+		-- dont re-expand if the user has previously full-collapsed the minilist
+		-- need to force expand if so since the groups haven't been updated yet
+		if not window.fullCollapsed and app.Settings:GetTooltipSetting("Expand:MiniList") then
+			window.ExpandInfo = { Expand = true };
+			Callback(window.Update, window)
+		end
+	end
+	local function TryExpandMinilist(window)
+		if window.Suffix ~= MinilistSuffix then return end
+
+		local header = window.data
+		local g = header and header.g
+		if not g then return end
+
+		-- app.PrintDebug("Try expand minilist",app.Settings:GetTooltipSetting("Expand:Difficulty"),app.GetCurrentDifficultyID())
+		if app.Settings:GetTooltipSetting("Expand:Difficulty") then
+			local difficultyID = app.GetCurrentDifficultyID()
+			if difficultyID and difficultyID ~= 0 then
+				local expanded, row
+				for i=1,#g do
+					row = g[i]
+					if row.difficultyID or row.difficulties then
+						if (row.difficultyID or -1) == difficultyID or (row.difficulties and containsValue(row.difficulties, difficultyID)) then
+							ExpandGroupsRecursively(row, true, true)
+							expanded = true
+						elseif row.expanded then
+							ExpandGroupsRecursively(row, false, true)
+						end
+					-- Zone Drops/Common Boss Drops should also be expanded within instances
+					-- elseif row.headerID == app.HeaderConstants.ZONE_DROPS or row.headerID == app.HeaderConstants.COMMON_BOSS_DROPS then
+					-- 	if not row.expanded then ExpandGroupsRecursively(row, true); expanded = true; end
+					end
+				end
+
+				if expanded then
+					Callback(window.Update, window)
+					return
+				end
+			end
+		end
+		TryGeneralExpand(window)
+	end
+	app.AddEventHandler("OnWindowFillComplete", TryExpandMinilist)
+end

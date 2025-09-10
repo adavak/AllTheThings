@@ -998,6 +998,7 @@ MobileDB.GameObject = {
 	[292535] = true,	-- Altar of Kimbul (q:47578)
 	[292764] = true,	-- Metal Scraps (q:52142 & q:52160)
 	[292765] = true,	-- Discarded Toolbox (q:52142 & q:52160)
+	[292835] = true,	-- Titan Console (Uldir)
 	[292868] = true,	-- Horde Banner (q:52222)
 	[292917] = true,	-- Sparkling Tidescale (q:52258)
 	[293121] = true,	-- Horde Banner (q:52276)
