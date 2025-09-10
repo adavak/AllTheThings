@@ -5974,20 +5974,43 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Drops from Bluegill murlocs in Wetlands.",
 			-- #elseif ANYCLASSIC
 			["maps"] = {
-				DUSTWALLOW_MARSH,
-				-- #if BEFORE 4.0.3
-				STRANGLETHORN_VALE,
+				-- #if AFTER MOP
+				VASHJIR,
+				VASHJIR_ABYSSAL_DEPTHS,
+				VASHJIR_KELPTHAR_FOREST,
+				VASHJIR_SHIMMERING_EXPANSE,
+				-- #elseif CATA
+				HILLSBRAD_FOOTHILLS,
 				-- #else
-				NORTHERN_STRANGLETHORN,
+				DUSTWALLOW_MARSH,
+				HILLSBRAD_FOOTHILLS,
+				STRANGLETHORN_VALE,
 				-- #endif
 			},
-			-- #endif
-			-- #if ANYCLASSIC
-				-- #if AFTER 4.0.3
-				["description"] = "Supposedly drops from murlocs in Northen Stranglethorn and Dustwallow Marsh. If you find any other reliable sources, please let us know in the ATT discord!",
+			["crs"] = {
+				-- Wouter NOTE: listed most common sources for each Murloc tribe which has >10% drop chance, otherwise this would become pretty bloated
+				-- #if AFTER MOP
+				41017,	-- Gilblin Collector
+				41746,	-- Gilblin Plunderer
+				40811,	-- Gilblin Scavenger
+				41566,	-- Muckskin Scrounger
+				40911,	-- Redgill Scavenger
+				46474,	-- Shimmerspine Harvester
+				41729,	-- Taken Gilblin
+				-- #elseif CATA
+				14276,	-- Scargil
 				-- #else
-				["description"] = "Drops from murlocs in Stranglethorn Vale and Dustwallow Marsh.",
+				4362,	-- Mirefin Coastrunner
+				4363,	-- Mirefin Oracle
+				4360,	-- Mirefin Warrior
+				4458,	-- Murkgill Hunter
+				4459,	-- Murkgill Oracle
+				4461,	-- Murkgill Warrior
+				879,	-- Saltscale Hunter
+				875,	-- Saltscale Tide Lord
+				871,	-- Saltscale Warrior
 				-- #endif
+			},
 			-- #endif
 		}),
 		i(9260, {	-- Volatile Rum
