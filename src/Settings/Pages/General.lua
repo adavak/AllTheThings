@@ -1280,7 +1280,7 @@ if app.GameBuildVersion >= 60000 then
 
 			-- Runeforge Legendaries (Shadowlands+)
 			local accwideCheckboxRunecarvingPowers =
-			child:CreateForcedAccountWideCheckbox()
+			child:CreateAccountWideCheckbox("RUNEFORGELEGENDARIES", "RuneforgeLegendaries")
 				:AlignBelow(accwideCheckboxConduits)
 			child:CreateTrackingCheckbox("RUNEFORGELEGENDARIES", "RuneforgeLegendaries", true)
 				:AlignAfter(accwideCheckboxRunecarvingPowers)
@@ -1288,7 +1288,7 @@ if app.GameBuildVersion >= 60000 then
 			if app.GameBuildVersion >= 100000 then
 				-- Mount Mods (Dragonflight+)
 				local accwideCheckboxMountMods =
-				child:CreateForcedAccountWideCheckbox()
+				child:CreateAccountWideCheckbox("MOUNTMODS", "MountMods")
 					:AlignBelow(accwideCheckboxRunecarvingPowers)
 				child:CreateTrackingCheckbox("MOUNTMODS", "MountMods", true)
 					:AlignAfter(accwideCheckboxMountMods)
