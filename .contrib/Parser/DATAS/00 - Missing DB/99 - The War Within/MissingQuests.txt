@@ -791,7 +791,9 @@ q(42760),	--
 q(42761),	--
 q(42793),	--
 q(42794),	--
+q(43115),	-- Wild Gladiator's Dreadplate Armor
 q(43181),	-- Tracking Down the Scepter
+q(43214),	-- Primal Gladiator's Plate Armor
 q(43320),	--
 q(43321),	--
 q(43322),	--
@@ -1014,6 +1016,8 @@ q(48457),	-- Tracking Quest
 q(48796),	--
 q(48798),	--
 q(48937),	-- Create Netherwalker's Portal Generator
+10.1.0.48661
+q(75866),	--
 10.1.5.49719
 q(76705),	--
 q(76706),	--
@@ -1849,7 +1853,6 @@ q(85118),	--
 q(85121),	--
 q(85122),	--
 q(85126),	--
-q(85133),	--
 q(85136),	--
 q(85137),	--
 q(85372),	--
@@ -2196,7 +2199,6 @@ q(87562),	-- Aiding the Dragon Isles
 q(89382),	--
 q(90607),	--
 q(90608),	--
-q(90609),	--
 q(90610),	--
 q(90640),	--
 q(90641),	--
@@ -2210,7 +2212,6 @@ q(90650),	--
 q(90651),	--
 q(90653),	--
 q(90654),	--
-q(90655),	--
 q(90657),	--
 q(90757),	--
 q(90855),	--
@@ -2305,7 +2306,6 @@ q(89033),	--
 q(89036),	--
 q(89042),	--
 q(89043),	--
-q(89246),	--
 q(90087),	-- Distance Tracker (DNT)
 q(90118),	--
 q(90119),	-- test
@@ -2317,7 +2317,6 @@ q(90581),	--
 q(90582),	--
 q(90668),	--
 q(90670),	--
-q(90696),	--
 q(90697),	--
 q(90815),	--
 q(90816),	--
@@ -2326,8 +2325,6 @@ q(90870),	-- Gathering the Grub
 q(90879),	--
 q(90880),	--
 q(90985),	--
-q(90988),	--
-q(90992),	--
 q(90999),	--
 q(91066),	--
 q(91067),	-- Gathering the Grub
@@ -2339,9 +2336,6 @@ q(91195),	--
 q(91353),	--
 q(91423),	--
 q(91442),	--
-q(91459),	--
-q(91460),	--
-q(91461),	--
 q(91477),	--
 q(91478),	--
 q(91479),	--
@@ -2349,7 +2343,6 @@ q(91480),	--
 q(91482),	--
 q(91484),	--
 q(91485),	--
-q(91486),	--
 q(91487),	--
 q(91489),	--
 q(91526),	--
@@ -2368,8 +2361,6 @@ q(91768),	-- Sweating Mana
 q(91771),	--
 q(91773),	--
 q(91774),	--
-q(91815),	--
-q(91816),	--
 q(91817),	--
 q(91818),	--
 q(91894),	--
@@ -2392,7 +2383,6 @@ q(92082),	--
 q(90930),	--
 11.2.0.62213
 q(92487),	--
-q(92488),	--
 11.2.0.62493
 q(91625),	--
 11.2.0.62610
@@ -2654,142 +2644,17 @@ q(88750),	-- PTR:Tracking Quest
 q(88752),	--
 q(88753),	--
 q(89403),	--
-q(89404),	-- PTR:Time Crisis
-q(89405),	-- PTR:Mean Streets of Dalaran
-q(89406),	-- PTR:Seal and Protect
-q(89407),	-- PTR:Thrift
-q(89408),	-- PTR:Threadbare
-q(89409),	-- PTR:Infinite Bronze
 q(89410),	--
-q(89411),	-- PTR:Scavenger Hunting
-q(89412),	-- PTR:Get Plenty of Exorcise
-q(89413),	-- PTR:Obliterate, Then Iterate
-q(89414),	-- PTR:Not A Memento Too Soon
-q(89415),	-- PTR:Storm the Citadel
-q(89416),	-- PTR:Eternal Gratitude
-q(89417),	-- PTR:Infinite Meetings
-q(89418),	-- PTR:A Fixed Point in Time
 q(89419),	--
-q(89466),	-- PTR:Infinite Research: Time to Raid, Light's Breach
-q(89467),	-- PTR:Infinite Research: Time to Raid, Forbidden Descent
-q(89516),	-- PTR:Infinite Research: Assault on Violet Hold, Normal
-q(89517),	-- PTR:Infinite Research: Assault on Violet Hold, Heroic
-q(89518),	-- PTR:Infinite Research: Cathedral of Eternal Night, Heroic
-q(89519),	-- PTR:Infinite Research: Black Rook Hold, Heroic
-q(89520),	-- PTR:Infinite Research: Darkheart Thicket, Mythic
-q(89521),	-- PTR:Infinite Research: Court of Stars, Heroic
-q(89522),	-- PTR:Infinite Research: Cathedral of Eternal Night, Mythic
-q(89523),	-- PTR:Infinite Research: Black Rook Hold, Normal
-q(89524),	-- PTR:Infinite Research: Maw of Souls, Normal
-q(89525),	-- PTR:Infinite Research: Eye of Azshara, Mythic
-q(89526),	-- PTR:Infinite Research: Eye of Azshara, Normal
-q(89527),	-- PTR:Infinite Research: Eye of Azshara, Heroic
-q(89528),	-- PTR:Infinite Research: Black Rook Hold, Mythic
-q(89529),	-- PTR:Infinite Research: Court of Stars, Normal
-q(89530),	-- PTR:Infinite Research: Cathedral of Eternal Night, Normal
-q(89531),	-- PTR:Infinite Research: Assault on Violet Hold, Mythic
-q(89532),	-- PTR:Infinite Research: Neltharion's Lair, Mythic
-q(89533),	-- PTR:Infinite Research: Seat of the Triumvirate, Heroic
-q(89534),	-- PTR:Infinite Research: The Arcway, Normal
-q(89535),	-- PTR:Infinite Research: The Arcway, Mythic
-q(89536),	-- PTR:Infinite Research: Upper Return to Karazhan, Heroic
-q(89537),	-- PTR:Infinite Research: Vault of the Wardens, Heroic
-q(89538),	-- PTR:Infinite Research: Vault of the Wardens, Normal
-q(89539),	-- PTR:Infinite Research: Vault of the Wardens, Mythic
-q(89541),	-- PTR:Infinite Research: Upper Return to Karazhan, Mythic
-q(89542),	-- PTR:Infinite Research: Upper Return to Karazhan, Normal
-q(89543),	-- PTR:Infinite Research: The Arcway, Heroic
-q(89544),	-- PTR:Infinite Research: Seat of the Triumvirate, Mythic
-q(89545),	-- PTR:Infinite Research: Seat of the Triumvirate, Normal
-q(89546),	-- PTR:Infinite Research: Maw of Souls, Heroic
-q(89547),	-- PTR:Infinite Research: Maw of Souls, Mythic
-q(89548),	-- PTR:Infinite Research: Neltharion's Lair, Normal
-q(89549),	-- PTR:Infinite Research: Neltharion's Lair, Heroic
-q(89550),	-- PTR:Infinite Research: Halls of Valor, Normal
-q(89551),	-- PTR:Infinite Research: Halls of Valor, Heroic
-q(89552),	-- PTR:Infinite Research: Halls of Valor, Mythic
-q(89553),	-- PTR:Infinite Research: Lower Return to Karazhan, Normal
-q(89554),	-- PTR:Infinite Research: Lower Return to Karazhan, Heroic
-q(89555),	-- PTR:Infinite Research: Lower Return to Karazhan, Mythic
-q(89556),	-- PTR:Infinite Research: Court of Stars, Mythic
-q(89557),	-- PTR:Infinite Research: Darkheart Thicket, Normal
-q(89558),	-- PTR:Infinite Research: Darkheart Thicket, Heroic
-q(89590),	-- PTR:Infinite Research: Time to Raid, Hope's End
-q(89591),	-- PTR:Infinite Research: Time to Raid, Seat of the Pantheon
-q(89592),	-- PTR:Infinite Research: Antorus, the Burning Throne, Normal
-q(89593),	-- PTR:Infinite Research: Time to Raid, Nightspire
-q(89594),	-- PTR:Infinite Research: Time to Raid, Betrayer's Rise
-q(89595),	-- PTR:Infinite Research: Antorus, the Burning Throne, Heroic
-q(89596),	-- PTR:Infinite Research: Trial of Valor, Heroic
-q(89597),	-- PTR:Infinite Research: Trial of Valor, Mythic
-q(89598),	-- PTR:Infinite Research: Nighthold, Normal
-q(89599),	-- PTR:Infinite Research: Nighthold, Heroic
-q(89600),	-- PTR:Infinite Research: The Nighthold, Mythic
-q(89601),	-- PTR:Infinite Research: Antorus, the Burning Throne, Mythic
-q(89602),	-- PTR:Infinite Research: Tomb of Sargeras, Heroic
-q(89603),	-- PTR:Infinite Research: Tomb of Sargeras, Mythic
-q(89604),	-- PTR:Infinite Research: Time to Raid, The Gates of Hell
-q(89605),	-- PTR:Infinite Research: Time to Raid, Wailing Halls
-q(89606),	-- PTR:Infinite Research: Time to Raid, Chamber of the Avatar
-q(89607),	-- PTR:Infinite Research: Time to Raid, Deceiver's Fall
-q(89622),	-- PTR:Infinite Research: Tomb of Sargeras, Normal
-q(89644),	-- PTR:Infinite Research: Time to Raid, Darkbough
-q(89665),	-- PTR:Infinite Research: Time to Raid, Tormented Guardians
-q(89676),	-- PTR:Infinite Research: Time to Raid, Rift of Aln
-q(89677),	-- PTR:Infinite Research: The Emerald Nightmare, Normal
-q(89678),	-- PTR:Infinite Research: Time to Raid, Arcing Aqueducts
-q(89679),	-- PTR:Infinite Research: The Emerald Nightmare, Heroic
-q(89680),	-- PTR:Infinite Research: The Emerald Nightmare, Mythic
-q(89681),	-- PTR:Infinite Research: Time to Raid, Trial of Valor
-q(89682),	-- PTR:Infinite Research: Trial of Valor, Normal
-q(89683),	-- PTR:Infinite Research: Time to Raid, Royal Athenaeum
-q(90096),	-- PTR:Infinite Research: Worldly Deeds
-q(90097),	-- PTR:Infinite Research: Invasion Points
-q(90098),	-- PTR:Infinite Research: Greater Invasion Points
-q(90099),	-- PTR:Infinite Research: Combat Studies, Rare
-q(90100),	-- PTR:Infinite Research: Combat Studies, Rare Elites
-q(90101),	-- PTR:Infinite Research: Terrors of the Broken Isles
-q(90102),	-- PTR:Infinite Research: Champion of the Broken Isles
-q(90103),	-- PTR:Infinite Research: Champion of the Order Hall
-q(90108),	-- PTR:Infinite Research: Artifact Collector
-q(90109),	-- PTR:Infinite Research: Clear the Skies
-q(90110),	-- PTR:Infinite Research: Gather Timewarped Samples
-q(90111),	-- PTR:Infinite Research: Combat Studies, Demonology
-q(90112),	-- PTR:Infinite Research: Combat Studies, Elite
-q(90115),	-- PTR:Infinite Research: Combat Studies, Groverunner
 q(90628),	--
-q(90659),	-- PTR:Something Borrowed
-q(90686),	--
-q(90703),	--
 q(90704),	--
-q(90716),	--
-q(90754),	-- PTR:Skyriding
-q(90755),	-- PTR:Time Flies
-q(90787),	--
 q(90808),	--
 q(90809),	--
 q(90810),	--
 q(90811),	--
-q(90864),	--
 q(90891),	--
-q(90892),	-- PTR:Clearing the Skies: A Fel of a Time
-q(90901),	-- PTR:As A Matter of Artifact
-q(90995),	-- PTR:The Future of The Fel Hammer
-q(91061),	-- PTR:Infinite Chaos
 q(91076),	--
-q(91094),	--
-q(91438),	-- PTR:Infinite Research: Heroic Worldly Deeds
-q(91439),	-- PTR:Infinite Research: Heroic Invasion Points
-q(91440),	-- PTR:Infinite Research: Hero of the Broken Isles
-q(91441),	-- PTR:Infinite Research: Heroic Greater Invasion Points
-q(91443),	-- PTR:Infinite Research: Advanced Combat Studies, Rare
-q(91444),	-- PTR:Infinite Research: Advanced Combat Studies, Elite
-q(91446),	-- PTR:Infinite Research: Advanced Combat Studies, Rare Elites
-q(91447),	-- PTR:Infinite Research: Advanced Combat Studies, Demonology
-q(91448),	-- PTR:Infinite Research: Heroic Terrors of the Broken Isles
-q(91449),	-- PTR:Infinite Research: Advanced Combat Studies, Empowerment
 q(91522),	-- PTR:Order from Chaos
-q(91613),	-- PTR:Infinite Research Promotion: Timely Assistant
 q(91614),	-- PTR:Focusing the Energies
 q(91615),	--
 q(91616),	-- PTR:Required Reagents
@@ -2797,9 +2662,6 @@ q(91618),	--
 q(91619),	-- PTR:Blood of Sargeras
 q(91620),	-- PTR:Noggenfogger's Reasonable Request
 q(91621),	--
-q(91631),	-- PTR:Epoch Progress
-q(91632),	-- PTR:The End of an Epoch Journey
-q(91639),	-- PTR:Embrace Your Own Legend
 q(91641),	--
 q(91650),	--
 q(91651),	--
@@ -2836,7 +2698,6 @@ q(91681),	--
 q(91682),	--
 q(91683),	--
 q(91684),	--
-q(91721),	-- PTR:Surpass Your Own Legend
 q(91722),	-- PTR:Shape a New Legend
 q(91727),	--
 q(91728),	-- PTR:Suramar Liberated
@@ -2850,28 +2711,19 @@ q(91790),	--
 q(91791),	--
 q(91792),	--
 q(91821),	--
-q(91844),	-- PTR:Infinite Research Promotion: Honorary Chronographer
 q(91845),	-- PTR:Infinite Research Promotion: Senior Executive Chronographer
 q(91846),	--
 q(91851),	--
-q(91924),	--
-q(91925),	--
-q(91926),	--
-q(91934),	--
-q(91955),	-- PTR:Just Between Us
 q(91957),	--
 q(91961),	--
-q(91962),	--
 q(92095),	--
 q(92096),	--
 q(92097),	--
 q(92098),	--
-q(92107),	--
 q(92112),	--
 q(92115),	--
 q(92116),	--
 q(92117),	--
-q(92192),	--
 q(92331),	-- PTR:Turbo-Boost: Trade Must Flow
 q(92367),	--
 q(92368),	--
@@ -2879,18 +2731,10 @@ q(92369),	--
 q(92370),	--
 q(92394),	--
 q(92400),	--
-q(92425),	--
-q(92428),	--
-q(92430),	-- PTR:Embracing the Infinite Chaos
-q(92439),	-- PTR:Infinite Research: Combat Studies, Felrunner
-q(92440),	-- PTR:Infinite Research: Combat Studies, Stormrunner
-q(92441),	-- PTR:Infinite Research: Combat Studies, Magerunner
-q(92442),	-- PTR:Infinite Research: Combat Studies, Lightrunner
 q(92523),	-- PTR:Tracking Quest
 q(92538),	--
 q(92540),	--
 q(92541),	--
-q(92563),	-- PTR:Awoken by Accessory
 q(92586),	--
 q(92587),	--
 q(92588),	--
@@ -2911,14 +2755,14 @@ q(92665),	--
 q(92680),	--
 q(92681),	--
 q(92686),	--
-q(92688),	-- PTR:Bronze Simulacrum
 11.2.5.62687
-q(92835),	--
 q(92843),	--
-q(92855),	-- PTR:Make Haste, Not Waste
 q(92861),	--
 q(92862),	--
 q(92863),	--
 11.2.5.62785
 q(92886),	--
 q(92889),	--
+11.2.5.62940
+q(93154),	--
+q(93155),	--

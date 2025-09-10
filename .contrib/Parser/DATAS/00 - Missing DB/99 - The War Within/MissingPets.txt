@@ -1,5 +1,3 @@
-7.3.0.24473
-pet(1751),	-- Son of Goredome
 11.1.0.58221
 pet(4670),	-- Hermes
 pet(4671),	-- Cauldrone
@@ -10,16 +8,6 @@ pet(4792),	-- Ada the Sweetest
 pet(4824),	-- Baby Karesh Fox - Orange
 pet(4830),	-- Observer, Baby (Green)
 pet(4837),	-- Worm, Cosmic - Critter (Red)
-11.2.5.62554
-pet(4801),	-- Tidbit
-pet(4802),	-- Morsel
-pet(4895),	-- Lil' Chompers
-pet(4896),	-- Slippery Saul
-pet(4897),	-- Fishmonger May
-pet(4898),	-- Fishstick Keith
-pet(4899),	-- Festive Eve
-pet(4900),	-- Bundled-Up Bob \\ Bundled-up Bob
-pet(4901),	-- Fledgeling Warden's Companion
 
 
 Nothing is Missing in PetDB.lua! Good Work!

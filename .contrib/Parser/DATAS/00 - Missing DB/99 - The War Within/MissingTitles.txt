@@ -1,3 +1,8 @@
+5.5.1.62856
+title(250),	-- Grievous Skirmisher %s
+title(980),	-- Skirmisher %s
+title(995),	-- Malevolent Skirmisher %s
+title(996),	-- Tyrannical Skirmisher %s
 11.1.7.60520
 title(629),	-- %s of Hammerfall
 title(630),	-- %s of Stromgarde
@@ -12,6 +17,3 @@ title(649),	-- Om'%s
 title(650),	-- Delver %s
 11.2.5.62554
 title(645),	-- Khaz Algar Enthusiast %s
-title(646),	-- Chronoscholar %s
-title(658),	-- %s the Infernal
-title(659),	-- %s of the Infinite Chaos

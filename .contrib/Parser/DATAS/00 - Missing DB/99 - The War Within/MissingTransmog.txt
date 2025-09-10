@@ -29718,8 +29718,6 @@ s(74528)/i(130213),	--
 s(74623)/i(130280),	--
 s(74624)/i(130281),	--
 s(75223)/i(130890),	-- Scissorblade \\ sorblade
-s(75535)/i(131254),	-- Huntsman's Chain Cuffs \\ sman's Chain Cuffs
-s(75907)/i(131626),	-- Shrouded Gauntlets \\ uded Gauntlets
 s(75999)/i(131726),	-- Bruiser Scale Pauldrons \\ ser Scale Pauldrons
 s(76006)/i(131749),	--
 s(76008)/i(131759),	--
@@ -36556,7 +36554,7 @@ s(288353)/i(239723),	-- Stormborn Laminar Hauberk
 s(288354)/i(239724),	-- Hauberk of Remembered Eternity
 s(288355)/i(239725),	-- Dreadthorn Hauberk
 s(288356)/i(239727),	-- Leyline Scholar's Robe
-s(288357)/i(239728),	-- Wine-dark Royal Robe
+s(288357)/i(239728),	-- Wine-Dark Royal Robe \\ Wine-dark Royal Robe
 s(288358)/i(239732),	-- Crescent Vale Robe
 s(288359)/i(239733),	-- Hrydshal Runespeaker Robe
 s(288360)/i(239734),	-- Antoran Guard's Golden Shawl
@@ -37270,14 +37268,14 @@ s(289271)/i(240714),	-- Leyline Scholar's Leggings
 s(289272)/i(240715),	-- Leyline Scholar's Slippers
 s(289273)/i(240716),	-- Leyline Scholar's Bindings
 s(289274)/i(240717),	-- Leyline Scholar's Gloves
-s(289275)/i(240718),	-- Wine-dark Royal Cowl
-s(289276)/i(240719),	-- Wine-dark Royal Epaulets
+s(289275)/i(240718),	-- Wine-Dark Royal Cowl \\ Wine-dark Royal Cowl
+s(289276)/i(240719),	-- Wine-Dark Royal Epaulets \\ Wine-dark Royal Epaulets
 s(289277)/i(240720),	-- Wine-Dark Royal Doublet \\ Wine-dark Royal Doublet
-s(289278)/i(240721),	-- Wine-dark Royal Belt
-s(289279)/i(240722),	-- Wine-dark Royal Trousers
-s(289280)/i(240723),	-- Wine-dark Royal Boots
-s(289281)/i(240724),	-- Wine-dark Royal Armbands
-s(289282)/i(240725),	-- Wine-dark Royal Handwraps
+s(289278)/i(240721),	-- Wine-Dark Royal Belt \\ Wine-dark Royal Belt
+s(289279)/i(240722),	-- Wine-Dark Royal Trousers \\ Wine-dark Royal Trousers
+s(289280)/i(240723),	-- Wine-Dark Royal Boots \\ Wine-dark Royal Boots
+s(289281)/i(240724),	-- Wine-Dark Royal Armbands \\ Wine-dark Royal Armbands
+s(289282)/i(240725),	-- Wine-Dark Royal Handwraps \\ Wine-dark Royal Handwraps
 s(289283)/i(240726),	-- Crescent Vale Cowl
 s(289284)/i(240727),	-- Crescent Vale Shawl
 s(289285)/i(240728),	-- Crescent Vale Vestments
@@ -41291,7 +41289,7 @@ s(298681)/i(253219),	-- Bulwark of Mannoroth
 s(298689)/i(253220),	-- Bulwark of Mannoroth
 s(298712)/i(253228),	-- Felscorned Shalla'tor
 s(298714)/i(253229),	-- Felscorned Ellemayne
-s(298716)/i(253230),	-- Felscorned Shallamayne
+s(298716)/i(253230),	-- Felscorned Shalamayne \\ Felscorned Shallamayne
 s(298780)/i(253282),	--
 s(298781)/i(253283),	-- Scythe of the Unmaker
 s(298782)/i(253284),	-- Scythe of the Unmaker
@@ -41303,7 +41301,7 @@ s(298791)/i(253311),	-- Sargerei Commander's Felscorned Buckle
 s(298792)/i(253312),	-- Sargerei Commander's Felscorned Chausses
 s(298793)/i(253313),	-- Sargerei Commander's Felscorned Sabatons
 s(298794)/i(253314),	-- Sargerei Commander's Felscorned Gauntlets
-s(298795)/i(253315),	-- Sargerei Commander's Felscorned Mantle
+s(298795)/i(253315),	-- Sargerei Commander's Felscorned Shroud \\ Sargerei Commander's Felscorned Mantle
 s(298796)/i(253317),	-- Sargerei Commander's Lightbound Spaulders
 s(298797)/i(253318),	-- Sargerei Commander's Lightbound Crown
 s(298798)/i(253319),	-- Sargerei Commander's Lightbound Hauberk
@@ -41311,7 +41309,7 @@ s(298799)/i(253320),	-- Sargerei Commander's Lightbound Buckle
 s(298800)/i(253321),	-- Sargerei Commander's Lightbound Chausses
 s(298801)/i(253322),	-- Sargerei Commander's Lightbound Sabatons
 s(298802)/i(253323),	-- Sargerei Commander's Lightbound Gauntlets
-s(298803)/i(253324),	-- Sargerei Commander's Lightbound Mantle
+s(298803)/i(253324),	-- Sargerei Commander's Lightbound Shroud \\ Sargerei Commander's Lightbound Mantle
 s(298804)/i(253325),	-- Sargerei Commander's Voidscarred Spaulders
 s(298805)/i(253326),	-- Sargerei Commander's Voidscarred Crown
 s(298806)/i(253327),	-- Sargerei Commander's Voidscarred Hauberk
@@ -41319,7 +41317,7 @@ s(298807)/i(253328),	-- Sargerei Commander's Voidscarred Buckle
 s(298808)/i(253329),	-- Sargerei Commander's Voidscarred Chausses
 s(298809)/i(253330),	-- Sargerei Commander's Voidscarred Sabatons
 s(298810)/i(253331),	-- Sargerei Commander's Voidscarred Gauntlets
-s(298811)/i(253332),	-- Sargerei Commander's Voidscarred Mantle
+s(298811)/i(253332),	-- Sargerei Commander's Voidscarred Shroud \\ Sargerei Commander's Voidscarred Mantle
 s(298812)/i(253333),	-- Sargerei Commander's Hellforged Spaulders
 s(298813)/i(253334),	-- Sargerei Commander's Hellforged Crown
 s(298814)/i(253335),	-- Sargerei Commander's Hellforged Hauberk
@@ -41327,7 +41325,7 @@ s(298815)/i(253336),	-- Sargerei Commander's Hellforged Buckle
 s(298816)/i(253337),	-- Sargerei Commander's Hellforged Chausses
 s(298817)/i(253338),	-- Sargerei Commander's Hellforged Sabatons
 s(298818)/i(253339),	-- Sargerei Commander's Hellforged Gauntlets
-s(298819)/i(253340),	-- Sargerei Commander's Hellforged Mantle
+s(298819)/i(253340),	-- Sargerei Commander's Hellforged Shroud \\ Sargerei Commander's Hellforged Mantle
 s(298820)/i(253344),	-- Kaldorei Queen's Sarong
 s(298821)/i(253345),	-- Kaldorei Queen's Crown
 s(298822)/i(253346),	-- Kaldorei Queen's Robe

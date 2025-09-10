@@ -5137,3 +5137,5 @@
 91577@@@--
 91578@@@--
 91580@@@--
+43115@@@Wild Gladiator's Dreadplate Armor
+43214@@@Primal Gladiator's Plate Armor

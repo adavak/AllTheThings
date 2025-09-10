@@ -642,7 +642,7 @@ exploration(4072),	-- Sub zone
 exploration(4073),	-- Winter's Terrace
 exploration(4074),	-- The Waking Halls
 exploration(4079),	-- Frostblade Pass
-exploration(4096),	-- Clayt�n's WoWEdit Land \\ Claytön's WoWEdit Land
+exploration(4096),	-- Clayt�n's WoWEdit Land \\ Claytön's WoWEdit Land
 exploration(4100),	-- The Culling of Stratholme
 exploration(4102),	-- Krom's Landing
 exploration(4110),	-- Farshire Fields
@@ -1688,7 +1688,6 @@ exploration(6458),	-- Kyparite Quarry
 exploration(6459),	-- Venomsting Pits
 exploration(6460),	-- The Briny Muck
 exploration(6461),	-- Whispering Stones
-exploration(6462),	-- Path of Conquerors
 exploration(6463),	-- Dustwallow Marsh
 exploration(6470),	-- The Gilded Foyer
 exploration(6471),	-- The Crimson Assembly Hall
@@ -3097,8 +3096,6 @@ exploration(9521),	-- Ridge
 exploration(9522),	-- Temple
 exploration(9528),	-- Uncharted Territory
 exploration(9529),	-- Alliance Airship
-7.3.5.25716
-exploration(9531),	-- Fathom's Edge
 8.0.1.25902
 exploration(8448),	-- [TEMP] JT Zandalar Swamp
 exploration(8449),	-- xxOLD - Zuldazar City
@@ -4562,7 +4559,12 @@ exploration(11477),	-- EnvArtMaldraxxus- Battlefield
 exploration(11478),	-- The Prime Reliquary
 exploration(11508),	-- SinewTestArea
 exploration(11510),	-- Ardenweald
+exploration(11513),	-- Spirit Glen
+exploration(11515),	-- Tirna Vaal
+exploration(11516),	-- Dusty Burrows
+exploration(11517),	-- Tranquil Pools
 exploration(11518),	-- Muck Pool: Banewood
+exploration(11532),	-- Creeping Hive
 exploration(11535),	-- Path of Rebirth
 exploration(12071),	-- Tirna Rowen
 exploration(12624),	-- Vaal Grotto
@@ -4580,6 +4582,7 @@ exploration(12807),	-- Thornhill Manor
 exploration(12808),	-- Redelav Tower
 exploration(12816),	-- Second Chamber of Kalliope
 exploration(12817),	-- Third Chamber of Kalliope
+exploration(12818),	-- Autumnal Rise
 exploration(12819),	-- Zerekriss
 exploration(12820),	-- Vortrexxis
 exploration(12821),	-- Exoramas
@@ -4601,11 +4604,14 @@ exploration(12848),	-- Bastion - Treasures
 exploration(12851),	-- Jrokgar's Coast
 exploration(12898),	-- Butchers Block \\ Butcher's Block
 exploration(12901),	-- Etheric Vault
+exploration(12902),	-- Grove of Awakening
 exploration(12916),	-- The Necrotic Wake
 exploration(12917),	-- Sinfall
 exploration(12918),	-- Tirna Glayn
 exploration(12919),	-- Dreamshrine Basin
 exploration(12920),	-- Emerald Glade
+exploration(12921),	-- Path of Rebirth
+exploration(12922),	-- Shimmerbough
 exploration(12923),	-- Heart of the Forest
 exploration(12924),	-- Ardenweald
 exploration(12953),	-- Lakeshire
@@ -4634,6 +4640,7 @@ exploration(13226),	-- The Fearstalker's Lodge
 exploration(13228),	-- Plaguefall
 exploration(13229),	-- Bastion
 exploration(13230),	-- Felscar Breach
+exploration(13231),	-- Root-Home
 exploration(13233),	-- Pit of Anguish
 exploration(13235),	-- The Blade Crypt
 exploration(13238),	-- Prime Siegeworks
@@ -4692,6 +4699,8 @@ exploration(13376),	-- Gleaming Overlook
 exploration(13377),	-- The North Sea
 exploration(13385),	-- The Ring
 exploration(13387),	-- Ardenweald
+exploration(13388),	-- Heart of the Forest
+exploration(13389),	-- Stillglade
 exploration(13391),	-- Vault of the Archon
 exploration(13398),	-- Forgotten Chamber
 exploration(13399),	-- Xandria's Vigil
@@ -4755,6 +4764,9 @@ exploration(13477),	-- The Defiled Altar
 exploration(13478),	-- Death's Roar
 exploration(13479),	-- Desolate Hollow
 9.0.1.34972
+exploration(13480),	-- The Forgotten Retreat
+exploration(13481),	-- The Distant Grotto
+exploration(13482),	-- The Faraway Pools
 exploration(13483),	-- Arkelios' Solace \\ Lost Ridge
 9.0.1.35078
 exploration(13485),	-- Kala's Den
@@ -4806,6 +4818,7 @@ exploration(13541),	-- Veiled Enclave
 9.0.1.35679
 exploration(13542),	-- Woeful Cavern
 9.0.1.35755
+exploration(13543),	-- Highland Path
 exploration(13545),	-- Exoramas
 9.0.1.35828
 exploration(13550),	-- Redridge Mountains

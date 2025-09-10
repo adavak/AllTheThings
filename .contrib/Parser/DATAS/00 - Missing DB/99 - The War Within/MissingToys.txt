@@ -1,17 +1,5 @@
-11.2.0.62748
-i(242636),	-- Astral Legend's Pennant
-11.2.5.62554
-i(138111),	-- Stormforged Grapple Launcher \\ mforged Grapple Launcher
-i(141605),	-- Flight Master's Whistle \\ ht Master's Whistle
 11.2.5.62687
 i(254666),	-- Lil' Exodar
 
 
-
-
-Missing in ToyDB.lua
-
-11.2.0.62748
-i(242636),	-- Astral Legend's Pennant
-11.2.5.62687
-i(254666),	-- Lil' Exodar
+Nothing is Missing in ToyDB.lua! Good Work!
