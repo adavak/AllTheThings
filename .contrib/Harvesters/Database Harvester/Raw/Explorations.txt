@@ -2553,6 +2553,8 @@
 14483@@@Wintergrasp Boundary
 3.4.0.45102
 14483@@@Uncharted Territory
+3.4.5.62824
+4096@@@Claytön's WoWEdit Land
 4.4.0.53627
 17@@@Northern Barrens
 33@@@Northern Stranglethorn
@@ -9955,7 +9957,6 @@
 15550@@@Stagnant Mire
 15551@@@The Fangs
 11.0.0.55939
-4096@@@Claytön's WoWEdit Land
 11.0.2.55399
 15094@@@Duskrise Acreage
 15552@@@The Undersea
