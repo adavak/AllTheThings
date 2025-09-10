@@ -17,17 +17,15 @@ local SearchForFieldContainer, GetRawField, GetRelativeByFunc, SearchForObject
 	= app.SearchForFieldContainer, app.GetRawField, app.GetRelativeByFunc, app.SearchForObject
 local OneTimeQuests = app.EmptyTable
 local GetItemCount = app.WOWAPI.GetItemCount
-local IsSpellKnownHelper
-app.AddEventHandler("OnLoad", function()
-	IsSpellKnownHelper = app.IsSpellKnownHelper
-end)
+local IsSpellKnownHelper, CreateObject, FillGroups
 
 -- Module locals
-local RecursiveGroupRequirementsFilter, RecursiveAccountFilter, DGU, UpdateRunner, ExtraFilters, ResolveSymbolicLink
+local RecursiveGroupRequirementsFilter, RecursiveAccountFilter, DGU, UpdateRunner, ExtraFilters
 -- If a Thing which has a cost is not a quest or is available as a quest
 local function IsAvailable(ref)
 	return not ref.questID or app.IsQuestAvailable(ref)
 end
+local CostLinkedFillOptions = {Fillers={}}
 
 local Depth = 0
 local CostDebugIDs = {
@@ -48,6 +46,8 @@ local CostDebugIDs = {
 	-- [515] = true, -- DMF Ticket
 	-- [241] = true, -- Champion's Seal
 	-- [40610] = true, -- Chestguard of the Lost Conqueror [10M]
+	-- [194681] = true, -- Sugarwing Cupcake
+	-- [193215] = true, -- Scaleseeker Mezeri
 }
 local function PrintDebug(id, ...)
 	if CostDebugIDs.ALL then
@@ -69,16 +69,17 @@ end
 -- 2 - Available to collect based on only Unobtainable Filtering
 -- 3 - Available to collect without Filtering
 local function CheckCollectible(ref, costid)
+	-- local RefSearch = app:RawSearchLink(ref.key,ref[ref.key])
 	-- Depth = Depth + 1
 	-- Only track Costs through Things which are Available
 	if not IsAvailable(ref) then
-		-- app.PrintDebug("Non-available Thing blocking Cost chain",app:SearchLink(ref))
+		-- PrintDebug(costid, "Non-available Thing blocking Cost chain",RefSearch)
 		return;
 	end
-	-- PrintDebug(costid, "CheckCollectible",app:SearchLink(ref))
+	-- PrintDebug(costid, "CheckCollectible",RefSearch,ref.__FillGroups,FilterRequirement(ref))
 	-- Used as a cost for something which is collectible itself and not collected
 	if ref.collectible and not ref.collected then
-		-- PrintDebug(costid, "Purchase via Collectible",app:SearchLink(ref),FilterRequirement(ref) == 1 and "VISIBLE" or FilterRequirement(ref) == 2 and "ACCOUNT" or "FILTERED")
+		-- PrintDebug(costid, "Purchase via Collectible",RefSearch,FilterRequirement(ref) == 1 and "VISIBLE" or FilterRequirement(ref) == 2 and "ACCOUNT" or "FILTERED")
 		return FilterRequirement(ref)
 	end
 	-- If this group has sub-groups, are any of them collectible?
@@ -93,41 +94,27 @@ local function CheckCollectible(ref, costid)
 			collectible = CheckCollectible(o, costid)
 			if collectible then
 				mincollectible = math_min(collectible,mincollectible or 99)
-				-- PrintDebug(costid, "Purchase via sub-group Collectible",collectible,app:SearchLink(ref),"<=",app:SearchLink(o))
+				-- PrintDebug(costid, "Purchase via sub-group Collectible",collectible,RefSearch,"<=",app:RawSearchLink(o.key,o[o.key]))
 				-- quick escape if we've already determined this container contains something visible with current filters
 				if mincollectible == 1 then return mincollectible end
 			end
 		end
-		return mincollectible
-	end
-	-- If this group has a symlink, generate the symlink into a cached version of the ref for the following sub-group check
-	local symresults
-	if ref.sym then
-		-- since 'sym' is cached itself when retrieved, we don't need the recreating of objects here for caching
-		symresults = ResolveSymbolicLink(ref, true)
-	end
-	-- If this group has sym results, are any of them collectible?
-	if symresults then
-		local o, collectible
-		local mincollectible
-		-- local subDepth = Depth
-		for i=1,#symresults do
-			o = symresults[i];
-			-- Depth = subDepth
-			collectible = CheckCollectible(o, costid)
-			if collectible then
-				mincollectible = math_min(collectible,mincollectible or 99)
-				-- PrintDebug(costid, "Purchase via sym-group Collectible",collectible,app:SearchLink(ref),"<=",app:SearchLink(o))
-				-- quick escape if we've already determined this container contains something visible with current filters
-				if mincollectible == 1 then return mincollectible end
-			end
-		end
-		return mincollectible
+		-- PrintDebug(costid, "mincollectible after no collectible sub-groups",mincollectible,RefSearch)
+		if mincollectible then return mincollectible end
 	end
 	-- Used as a cost for something which is collectible as a cost itself
 	if ref.collectibleAsCost then
-		-- PrintDebug(costid, "Purchase via collectibleAsCost",app:SearchLink(ref),FilterRequirement(ref) == 1 and "VISIBLE" or FilterRequirement(ref) == 2 and "ACCOUNT" or "FILTERED")
+		-- PrintDebug(costid, "Purchase via collectibleAsCost",RefSearch,FilterRequirement(ref) == 1 and "VISIBLE" or FilterRequirement(ref) == 2 and "ACCOUNT" or "FILTERED")
 		return FilterRequirement(ref)
+	end
+	-- NPC/Sym are Filler checks
+	if not ref.__FillGroups then
+		local clone = CreateObject(ref, true)
+		FillGroups(clone, CostLinkedFillOptions)
+		if clone.g then
+			-- PrintDebug(costid, "Check filled cost",RefSearch)
+			return CheckCollectible(clone, costid)
+		end
 	end
 end
 app.CheckCollectible = CheckCollectible;
@@ -504,6 +491,7 @@ UpdateCostGroup = function(c)
 		end
 	end
 	-- update providers
+	-- TODO add spell providers
 	if providers and type(providers) == "table" then
 		-- app.PrintDebug("UCG:providers",#providers)
 		local prov, type, id
@@ -590,12 +578,18 @@ local api = {};
 app.Modules.Costs = api;
 app.AddEventHandler("OnLoad", function()
 	DGU = app.DirectGroupUpdate;
-	ResolveSymbolicLink = app.ResolveSymbolicLink
+	IsSpellKnownHelper = app.IsSpellKnownHelper
+	CreateObject = app.__CreateObject
+	FillGroups = app.FillGroups
 	UpdateRunner = app.CreateRunner("costs");
 	api.Runner = UpdateRunner
 	UpdateRunner.SetPerFrameDefault(100)
 	UpdateRunner.DefaultOnStart(ResetCostTotals)
 	UpdateRunner.DefaultOnReset(ResetCostTotals)
+	local fillers = CostLinkedFillOptions.Fillers
+	local getFiller = app.Modules.Fill.GetFiller
+	fillers[#fillers + 1] = getFiller("NPC")
+	fillers[#fillers + 1] = getFiller("SYMLINK")
 	-- UpdateRunner.ToggleDebugFrameTime()
 end)
 app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, accountWideData)
@@ -683,9 +677,9 @@ do
 		if not group.visible or group.sourceIgnored then return end
 
 		local runner = Collector.Runner
-		-- app.PrintDebug("AGC:Run",app:SearchLink(group))
-		-- don't include NonCollectible or VisualHeaders
 		local groupType = group.__type
+		-- app.PrintDebug("AGC:Run",app:SearchLink(group),IgnoredTypesForCost[groupType],IgnoredTypesForNestedCosts[groupType],group.filledCost)
+		-- don't include NonCollectible or VisualHeaders
 		if not IgnoredTypesForCost[groupType] then
 			runner.Run(AddGroupCosts, group, Collector)
 		end
@@ -1002,7 +996,6 @@ app.AddEventHandler("OnLoad", function()
 	local Fill = app.Modules.Fill
 	if not Fill then return end
 
-	local CreateObject = app.__CreateObject
 	Fill.AddFiller("COST",
 	function(group, FillData)
 		-- do not fill purchases on certain items, can skip the skip though based on a level
