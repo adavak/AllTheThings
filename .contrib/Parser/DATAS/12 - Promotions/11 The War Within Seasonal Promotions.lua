@@ -289,15 +289,16 @@ root(ROOTS.Promotions, {
 			})),
 			i(232307, {	-- Astral Champion's Prestigious Banner (TOY!)(PVP)
 				["description"] = "Arena World Championship: TWW Season 3\n\nSign up on Raider.io for any of the 3 Cups, available until October 22nd 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
-				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_7 },
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_7 },	-- Removed after 11.2.5 Release
+			--	["u"] = REMOVED_FROM_GAME,	-- 26th September 2024
 			}),
 			i(232303, {	-- Unbound Banner of the Algari (TOY!)
 				["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
-				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_7 },
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_5 },	-- Removed before 11.2.5 Release
 			}),
 			i(246343, {	-- Scruffyhorn Fel Snooter (PET!)
-				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-12, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 12, 2025
+				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-22, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 22, 2025
 				["u"] = REAL_MONEY,
 			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE

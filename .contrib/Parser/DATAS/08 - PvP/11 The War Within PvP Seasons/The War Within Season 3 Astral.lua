@@ -4,7 +4,9 @@
 root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
 	n(SEASON_ASTRAL, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
-			ach(41048),	-- Astral Weapons of Conquest
+			ach(41048, {	-- Astral Weapons of Conquest
+				i(232600),	-- Astral Gladiator's Weapon Token
+			}),
 			ach(42042, {	-- Astral Combatant
 				["races"] = ALLIANCE_ONLY,
 				["collectible"] = false,
