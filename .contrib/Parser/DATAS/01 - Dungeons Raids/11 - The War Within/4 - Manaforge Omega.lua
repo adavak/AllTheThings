@@ -491,6 +491,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						q(91460, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow [H]
 						q(91461, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforge Omega: A Walking Shadow [M]
 					}, {	-- RENOWN 6 --
+						q(91486, { ["timeline"] = { ADDED_11_2_0 } }),	-- Attuned to the Aether
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
 						i(249709),	-- Formula: Gleeful Glamour - Ethereal (RECIPE!)
