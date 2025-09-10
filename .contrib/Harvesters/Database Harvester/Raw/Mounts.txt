@@ -524,6 +524,8 @@
 127274@@@Jade Water Strider
 127278@@@Golden Water Strider
 1238816@@@Envoy of Sa'bak
+5.5.1.62856
+1249659@@@Sha-scarred Drake
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild
