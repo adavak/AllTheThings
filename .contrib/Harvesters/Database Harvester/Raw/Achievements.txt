@@ -5173,6 +5173,35 @@
 61363@@@Tyrannical Marauder: Season 13
 61364@@@Grievous Marauder: Season 14
 61365@@@Prideful Marauder: Season 15
+5.5.1.63014
+8214@@@Malevolent Gladiator: Season 12 (3v3)
+8643@@@Grievous Gladiator: Season 14 (3v3)
+8644@@@Gladiator: Season 14 (3v3)
+8666@@@Prideful Gladiator: Season 15 (3v3)
+8667@@@Gladiator: Season 15 (3v3)
+8791@@@Tyrannical Gladiator: Season 13 (3v3)
+42765@@@Gladiator: Season 12 (3v3)
+61096@@@Gladiator: Season 13 (3v3)
+61350@@@Gladiator: Season 12 (2v2)
+61351@@@Gladiator: Season 13 (2v2)
+61352@@@Gladiator: Season 14 (2v2)
+61353@@@Gladiator: Season 15 (2v2)
+61354@@@Malevolent Gladiator: Season 12 (2v2)
+61355@@@Tyrannical Gladiator: Season 13 (2v2)
+61356@@@Grievous Gladiator: Season 14 (2v2)
+61357@@@Prideful Gladiator: Season 15 (2v2)
+61358@@@Gladiator: Season 12 (5v5)
+61359@@@Gladiator: Season 13 (5v5)
+61360@@@Gladiator: Season 14 (5v5)
+61361@@@Gladiator: Season 15 (5v5)
+61362@@@Malevolent Gladiator: Season 12 (5v5)
+61363@@@Tyrannical Gladiator: Season 13 (5v5)
+61364@@@Grievous Gladiator: Season 14 (5v5)
+61365@@@Prideful Gladiator: Season 15 (5v5)
+61415@@@Undisputed Gladiator: Season 12
+61416@@@Undisputed Gladiator: Season 13
+61417@@@Undisputed Gladiator: Season 14
+61418@@@Undisputed Gladiator: Season 15
 6.0.1.18179
 8394@@@The Frostwind Slayer
 8463@@@Mythic: Immerseus
