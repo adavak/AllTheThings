@@ -2019,6 +2019,7 @@ ExportDB.AccountWideQuestsDB = {
 	[91476] = true,	-- Behind Enemy Lines
 	[91481] = true,	-- Speed Siphoner
 	[91483] = true,	-- Hacking the Mainframe
+	[91486] = true,	-- Attuned to the Aether
 	[91521] = true,	-- K'areshi Voidstone
 	[91525] = true,	-- Head Hunting: Loom'ithar
 	[91640] = true, -- A Dog-eared Book
