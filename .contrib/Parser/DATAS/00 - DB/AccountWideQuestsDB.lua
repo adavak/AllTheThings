@@ -408,6 +408,7 @@ ExportDB.AccountWideQuestsDB = {
 	[79458] = true,	-- Grimoire of the Riftsmolder Darkglare
 	[79690] = true,	-- Winding Slitherdrake: Void Scales
 	[80014] = true,	-- Highland Drake: Embodiment of the Draconic Gladiator
+	[82543] = true,	-- Increased Noble Flying Carpet Droprate (Daily Accountwide)
 	[82741] = true,	-- Cliffside Wylderdrake: Midsummer Fire Festival Armor
 	-- #ENDIF
 
