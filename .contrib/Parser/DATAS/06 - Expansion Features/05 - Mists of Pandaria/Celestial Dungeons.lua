@@ -6,14 +6,13 @@ local AUGUST_STONE_FRAGMENT = 3350;	-- August Stone Fragment
 local frags = function(cost, item)
 	return applycost(item, { "c", AUGUST_STONE_FRAGMENT, cost });
 end
-local CELESTIAL_DUNGEON_MAPS = {
+
+local CELESTIAL_DUNGEON_MAPS_SIGIL_OF_POWER = {
 	GATE_OF_THE_SETTING_SUN,
 	GATE_OF_THE_SETTING_SUN_GATE_WATCH_TOWER,
 	MOGUSHAN_PALACE_THE_CRIMSON_ASSEMBLY_HALL,
 	MOGUSHAN_PALACE_THRONE_OF_ANCIENT_CONQUERORS,
 	MOGUSHAN_PALACE_VAULTS_OF_KINGS_PAST,
-	SCARLET_HALLS_TRAINING_GROUNDS,
-	SCARLET_HALLS_ATHENAEUM,
 	SCARLET_MONASTERY,
 	SCARLET_MONASTERY_CRUSADERS_CHAPEL,
 	SHADOPAN_MONASTERY,
@@ -23,6 +22,10 @@ local CELESTIAL_DUNGEON_MAPS = {
 	SIEGE_OF_NIUZAO_TEMPLE,
 	SIEGE_OF_NIUZAO_TEMPLE_THE_HOLLOWED_OUT_TREE,
 	SIEGE_OF_NIUZAO_TEMPLE_UPPER_TREE_RING,
+}
+local CELESTIAL_DUNGEON_MAPS_SIGIL_OF_WISDOM = {
+	SCARLET_HALLS_TRAINING_GROUNDS,
+	SCARLET_HALLS_ATHENAEUM,
 	STORMSTOUT_BREWERY_GRAIN_CELLAR,
 	STORMSTOUT_BREWERY_STORMSTOUT_BREWHALL,
 	STORMSTOUT_BREWERY_THE_GREAT_WHEEL,
@@ -30,6 +33,10 @@ local CELESTIAL_DUNGEON_MAPS = {
 	TEMPLE_OF_THE_JADE_SERPENT,
 	TEMPLE_OF_THE_JADE_SERPENT_THE_SCROLLKEEPERS_SANCTUM,
 }
+local CELESTIAL_DUNGEON_MAPS = appendGroups(
+	CELESTIAL_DUNGEON_MAPS_SIGIL_OF_POWER,
+	CELESTIAL_DUNGEON_MAPS_SIGIL_OF_WISDOM
+)
 local CELESTIAL_DUNGEON_BOSSES = {
 	-- Gate of the Setting Sun
 	56906,	-- Saboteur Kip'tilak
@@ -78,26 +85,33 @@ local CELESTIAL_DUNGEON_BOSSES = {
 	56732,	-- Liu Flameheart
 	56439,	-- Sha of Doubt
 }
-local CELESTIAL_DUNGEON_LAST_BOSSES = {
+local CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER = {
 	-- Gate of the Setting Sun
 	56877,	-- Raigonn
 	-- Mogu'shan Palace
 	61398,	-- Xin the Weaponmaster
-	-- Scarlet Halls
-	59150,	-- Flameweaver Koegler
 	-- Scarlet Monastery
 	60040,	-- Commander Durand
-	-- Scholomance
-	59080,	-- Darkmaster Gandling
 	-- Shado-Pan Monastery
 	56884,	-- Taran Zhu
 	-- Siege of Niuzao Temple
 	62205,	-- Wing Leader Ner'onok
+}
+local CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_WISDOM = {
+	-- Scarlet Halls
+	59150,	-- Flameweaver Koegler
+	-- Scholomance
+	59080,	-- Darkmaster Gandling
 	-- Stormstout Brewery
 	59479,	-- Yan-Zhu the Uncasked
 	-- Temple of the Jade Serpent
 	56439,	-- Sha of Doubt
 }
+local CELESTIAL_DUNGEON_LAST_BOSSES = appendGroups(
+	CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER,
+	CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_WISDOM
+)
+
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, {
 	n(CELESTIAL_DUNGEON_DIFFICULTY, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_0 } }, {
 		["lvl"] = 90,
@@ -109,28 +123,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
 					1243929	-- Dominion of the Empress
 				),
-				["description"] = "The following can drop from the final boss of any heroic dungeon on Celestial difficulty.",
+				["description"] = "The following can drop from the final boss of any Celestial dungeon.",
 				["maps"] = CELESTIAL_DUNGEON_MAPS,
 				["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES,
-				["groups"] = appendGroups(applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, {	-- Tier Tokens
-					i(89274),	-- Helm of the Shadowy Conqueror (Terrace)
-					i(89275),	-- Helm of the Shadowy Protector (Terrace)
-					i(89273),	-- Helm of the Shadowy Vanquisher (Terrace)
-					i(89277),	-- Shoulders of the Shadowy Conqueror (Terrace)
-					i(89278),	-- Shoulders of the Shadowy Protector (Terrace)
-					i(89276),	-- Shoulders of the Shadowy Vanquisher (Terrace)
-				}),
-				applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, {	-- Tier Tokens
-					i(89265),	-- Chest of the Shadowy Conqueror (HoF)
-					i(89266),	-- Chest of the Shadowy Protector (HoF)
-					i(89264),	-- Chest of the Shadowy Vanquisher (HoF)
-					i(89271),	-- Gauntlets of the Shadowy Conqueror (HoF)
-					i(89272),	-- Gauntlets of the Shadowy Protector (HoF)
-					i(89270),	-- Gauntlets of the Shadowy Vanquisher (HoF)
-					i(89268),	-- Leggings of the Shadowy Conqueror (HoF)
-					i(89269),	-- Leggings of the Shadowy Protector (HoF)
-					i(89267),	-- Leggings of the Shadowy Vanquisher (HoF)
-				}), {}),
+				["groups"] = appendGroups(
+					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, {	-- Tier Tokens
+						i(89274),	-- Helm of the Shadowy Conqueror (Terrace)
+						i(89275),	-- Helm of the Shadowy Protector (Terrace)
+						i(89273),	-- Helm of the Shadowy Vanquisher (Terrace)
+						i(89277),	-- Shoulders of the Shadowy Conqueror (Terrace)
+						i(89278),	-- Shoulders of the Shadowy Protector (Terrace)
+						i(89276),	-- Shoulders of the Shadowy Vanquisher (Terrace)
+					}),
+					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, {	-- Tier Tokens
+						i(89265),	-- Chest of the Shadowy Conqueror (HoF)
+						i(89266),	-- Chest of the Shadowy Protector (HoF)
+						i(89264),	-- Chest of the Shadowy Vanquisher (HoF)
+						i(89271),	-- Gauntlets of the Shadowy Conqueror (HoF)
+						i(89272),	-- Gauntlets of the Shadowy Protector (HoF)
+						i(89270),	-- Gauntlets of the Shadowy Vanquisher (HoF)
+						i(89268),	-- Leggings of the Shadowy Conqueror (HoF)
+						i(89269),	-- Leggings of the Shadowy Protector (HoF)
+						i(89267),	-- Leggings of the Shadowy Vanquisher (HoF)
+					})
+				),
 			}),
 			-- Alliance Dailies
 			n(QUESTS, sharedData({
@@ -177,20 +193,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["maps"] = CELESTIAL_DUNGEON_MAPS,
 					["crs"] = CELESTIAL_DUNGEON_BOSSES,
 				}),
-				-- CRIEVE NOTE: We assume these sigils are last boss drops, but they may be specific.
-				-- Obtained from: Gate of the Setting Sun
 				i(87208, {	-- Sigil of Power
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
-					["description"] = "This can drop from the last boss of any Celestial Dungeon.",
-					["maps"] = CELESTIAL_DUNGEON_MAPS,
-					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES,
+					["description"] = "This can drop from any \"physical\" last boss of a Celestial dungeon.",
+					["maps"] = CELESTIAL_DUNGEON_MAPS_SIGIL_OF_POWER,
+					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER,
 				}),
-				-- Obtained from: Scholomance
 				i(87209, {	-- Sigil of Wisdom
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
-					["description"] = "This can drop from the last boss of any Celestial Dungeon.",
-					["maps"] = CELESTIAL_DUNGEON_MAPS,
-					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES,
+					["description"] = "This can drop from any \"magical\" last boss of a Celestial dungeon.",
+					["maps"] = CELESTIAL_DUNGEON_MAPS_SIGIL_OF_WISDOM,
+					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_WISDOM,
 				}),
 			}),
 			n(VENDORS, {
