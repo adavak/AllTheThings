@@ -133,17 +133,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
+			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {
 				-- #if AFTER 6.0.1
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
 				-- #endif
 				["ignoreBonus"] = true,
-				["groups"] =
-				-- #if ANYCLASSIC
-				bubbleDown({ ["timeline"] = { CREATED_5_5_0 }, },
-				-- #endif
-				{
+				["groups"] = {
 					i(89804, {	-- Cache of Mogu Riches (Original)
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
@@ -318,12 +315,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							},
 						}),
 					}),
-				}
-				-- #if ANYCLASSIC
-				)
-				-- #endif
-				,
+				},
 			}),
+			-- #endif
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				n(ACHIEVEMENTS, {
 					ach(7933),	-- And... It's Good!

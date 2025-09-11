@@ -562,6 +562,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
+			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {
 				["description"] = "Loot from this LFR is NOT tradeable to others in group.",
 				-- #if AFTER 6.0.1
@@ -569,11 +570,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
 				-- #endif
 				["ignoreBonus"] = true,
-				["groups"] =
-				-- #if ANYCLASSIC
-				bubbleDown({ ["timeline"] = { CREATED_5_5_0 }, },
-				-- #endif
-				{
+				["groups"] = {
 					i(89807, {	-- Amber Encased Treasure Pouch (Original)
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
@@ -708,12 +705,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							},
 						}),
 					}),
-				}
-				-- #if ANYCLASSIC
-				)
-				-- #endif
-				,
+				},
 			}),
+			-- #endif
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				n(ZONE_DROPS, {
 					i(86192),	-- Darting Damselfly Cuffs
