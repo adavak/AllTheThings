@@ -765,6 +765,23 @@ namespace ATT
             return success;
         }
 
+        private static void CloneAndMergeForDebugData(IDictionary<string, object> data, IDictionary<string, object> keyValueValues)
+        {
+            Dictionary<string, object> clone = new Dictionary<string, object>(data);
+            clone.Remove("g");
+            // cost can be variable so don't merge into Debug DBs
+            clone.Remove("cost");
+            // special case for criteria, to list under their achievement instead of into it since they contain the same achID
+            if (data.ContainsKey("criteriaID"))
+            {
+                Objects.Merge(keyValueValues, "g", clone);
+            }
+            else
+            {
+                Objects.Merge(keyValueValues, clone);
+            }
+        }
+
         private static void CaptureDebugDBData(IDictionary<string, object> data)
         {
             foreach (KeyValuePair<string, ConcurrentDictionary<decimal, IDictionary<string, object>>> dbKeyDatas in DebugDBs)
@@ -775,18 +792,22 @@ namespace ATT
                     if (!dbKeyDatas.Value.TryGetValue(keyValue, out IDictionary<string, object> keyValueValues))
                         dbKeyDatas.Value[keyValue] = keyValueValues = new Dictionary<string, object>();
 
-                    Dictionary<string, object> clone = new Dictionary<string, object>(data);
-                    clone.Remove("g");
-                    // cost can be variable so don't merge into Debug DBs
-                    clone.Remove("cost");
-                    // special case for criteria, to list under their achievement instead of into it since they contain the same achID
-                    if (data.ContainsKey("criteriaID"))
+                    CloneAndMergeForDebugData(data, keyValueValues);
+                }
+            }
+
+            // Special Source cases -- we don't want these data to be considered 'missing' even though they aren't 'sourced' as a direct group
+            // so we need to hook them into the DebugDBs in a slightly different manner
+            if (data.TryGetValue("qis", out List<object> qis))
+            {
+                if (DebugDBs.TryGetValue("itemID", out var itemDebugDB))
+                {
+                    foreach(decimal qi in qis.AsTypedEnumerable<decimal>())
                     {
-                        Objects.Merge(keyValueValues, "g", clone);
-                    }
-                    else
-                    {
-                        Objects.Merge(keyValueValues, clone);
+                        if (!itemDebugDB.TryGetValue(qi, out IDictionary<string, object> keyValueValues))
+                            itemDebugDB[qi] = keyValueValues = new Dictionary<string, object>();
+
+                        CloneAndMergeForDebugData(data, keyValueValues);
                     }
                 }
             }
