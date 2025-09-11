@@ -2378,19 +2378,24 @@ namespace ATT
             long providerItem = criteriaData.GetProviderItem();
             if (providerItem > 0)
             {
-                // if parent criteriaTree specifies a larger amount, then need to assign as a Cost instead of Provider
-                data.TryGetValue("_parentAmount", out long parentAmount);
-                if (parentAmount <= 1)
+                // sometimes we mark the Criteria as the item itself to reduce duplication when the only purpose of obtaining the Item is granting the Criteria
+                // so don't add the provider for itself in this case
+                if (!data.TryGetValue("itemID", out long itemID) || itemID != providerItem)
                 {
-                    LogDebug($"INFO: Added Item Provider to Criteria {achID}:{criteriaID} => {providerItem}");
-                    Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
+                    // if parent criteriaTree specifies a larger amount, then need to assign as a Cost instead of Provider
+                    data.TryGetValue("_parentAmount", out long parentAmount);
+                    if (parentAmount <= 1)
+                    {
+                        LogDebug($"INFO: Added Item Provider to Criteria {achID}:{criteriaID} => {providerItem}");
+                        Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
+                    }
+                    else
+                    {
+                        LogDebug($"INFO: Added Item Cost to Criteria {achID}:{criteriaID} => {providerItem}x{parentAmount}");
+                        Cost.Merge(data, "i", providerItem, parentAmount);
+                    }
+                    incorporated = true;
                 }
-                else
-                {
-                    LogDebug($"INFO: Added Item Cost to Criteria {achID}:{criteriaID} => {providerItem}x{parentAmount}");
-                    Cost.Merge(data, "i", providerItem, parentAmount);
-                }
-                incorporated = true;
             }
 
             // Provider Object for the Criteria
