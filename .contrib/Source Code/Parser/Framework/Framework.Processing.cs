@@ -802,12 +802,34 @@ namespace ATT
             {
                 if (DebugDBs.TryGetValue("itemID", out var itemDebugDB))
                 {
-                    foreach(decimal qi in qis.AsTypedEnumerable<decimal>())
+                    foreach (decimal qi in qis.AsTypedEnumerable<decimal>())
                     {
                         if (!itemDebugDB.TryGetValue(qi, out IDictionary<string, object> keyValueValues))
                             itemDebugDB[qi] = keyValueValues = new Dictionary<string, object>();
 
                         CloneAndMergeForDebugData(data, keyValueValues);
+                    }
+                }
+            }
+
+            if (data.TryGetValue("providers", out List<object> providers) && data.TryGetValue("headerID", out object headerID))
+            {
+                foreach (List<object> provider in providers.AsTypedEnumerable<List<object>>())
+                {
+                    switch (provider[0])
+                    {
+                        case "i":
+                            if (DebugDBs.TryGetValue("itemID", out var itemDebugDB))
+                            {
+                                if (provider[1].TryConvert(out decimal id))
+                                {
+                                    if (!itemDebugDB.TryGetValue(id, out IDictionary<string, object> keyValueValues))
+                                        itemDebugDB[id] = keyValueValues = new Dictionary<string, object>();
+
+                                    CloneAndMergeForDebugData(data, keyValueValues);
+                                }
+                            }
+                            break;
                     }
                 }
             }
@@ -4301,6 +4323,9 @@ namespace ATT
                 Objects.Merge(parentData, "cost", cost);
                 LogDebug($"Merged 'cost' to parent from Objective {cost}", parentData);
             }
+
+            // After the merging of objective data into the parent, make sure to re-capture it properly
+            CaptureDebugDBData(parentData);
         }
 
         private static bool IsObtainableData(IDictionary<string, object> data)
