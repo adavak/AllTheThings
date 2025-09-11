@@ -435,6 +435,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["groups"] = {
 							ach(60894),	-- Celestial: Mogu'shan Palace
 							i(86789),	-- Elegion, the Fanged Crescent
+							i(89952),	-- Pheromone-Coated Choker
 							i(86748),	-- Cape of Three Lanterns
 							i(86790),	-- Vial of Dragon's Blood
 						},
