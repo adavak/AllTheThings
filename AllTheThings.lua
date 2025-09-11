@@ -7244,9 +7244,23 @@ end)
 app.Wait_OnStartupDone = true
 app.AddEventHandler("OnStartupDone", function() app.Wait_OnStartupDone = nil end)
 
--- app.PrintMemoryUsage("AllTheThings.EOF");
+-- Clean up unused saved variables if they become deprecated after being pushed to Git
+do
+	local function CleanupDeprecatedSavedVariables()
+		ATTAccountWideData.Campsite = nil
+		ATTAccountWideData.WarbandScene = nil
+		ATTAccountWideData.TEMP_TWWSources = nil
+		Callback(app.RemoveEventHandler, CleanupDeprecatedSavedVariables)
+	end
+	app.AddEventHandler("OnAfterSavedVariablesAvailable", CleanupDeprecatedSavedVariables)
+end
+
 -- app.AddEventHandler("Addon.Memory", function(info)
 -- 	app.PrintMemoryUsage(info)
 -- end)
+-- app.LinkEventSequence("OnLoad", "Addon.Memory")
+-- app.LinkEventSequence("OnInit", "Addon.Memory")
+-- app.LinkEventSequence("OnReady", "Addon.Memory")
 -- app.LinkEventSequence("OnStartupDone", "Addon.Memory")
 -- app.LinkEventSequence("OnWindowFillComplete", "Addon.Memory")
+-- app.HandleEvent("Addon.Memory", "AllTheThings.EOF")
