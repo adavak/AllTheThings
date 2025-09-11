@@ -26960,7 +26960,7 @@ i(133583),	-- Warmongering Gladiator's Runeaxe \\ ongering Gladiator's Runeaxe
 i(133586),	-- Illidari Waterskin \\ dari Waterskin
 i(133587),	-- Broken Eye Protectors \\ en Eye Protectors
 i(133588),	-- Flaked Sea Salt \\ ed Sea Salt
-i(133589),	-- Dalape�o Pepper \\ Dalapeño Pepper \\ Dalape�o Pepper \\ pe�o Pepper
+i(133589),	-- Dalape�o Pepper \\ Dalapeño Pepper \\ Dalape�o Pepper \\ pe�o Pepper
 i(133590),	-- Muskenbutter \\ enbutter
 i(133591),	-- River Onion \\ r Onion
 i(133592),	-- Stonedark Snail \\ edark Snail
@@ -29441,19 +29441,6 @@ i(164942),	-- Shadowscrawled Tome
 8.1.5.29141
 i(167232),	-- Mechanical Parts
 i(167549),	-- Unwaning Bones
-10.0.0.44649
-i(191813),	-- Sandshaped Dracthyr Battlegear Hauberk
-i(191814),	-- Sandshaped Dracthyr Battlegear Grips
-i(191815),	-- Sandshaped Dracthyr Battlegear Helm
-i(191816),	-- Sandshaped Dracthyr Battlegear Leggings
-i(191817),	-- Sandshaped Dracthyr Battlegear Monnion
-i(191818),	-- Sandshaped Dracthyr Battlegear Belt
-i(191819),	-- Sandshaped Dracthyr Battlegear Bracers
-i(191820),	-- Sandshaped Dracthyr Battlegear Cover
-10.0.0.45570
-i(200968),	-- Sandshaped Winglord's Drape
-10.1.0.48661
-i(205451),	-- Flawless Crystal Scale
 11.0.0.54311
 i(210813),	-- Wild Experimentation
 i(211796),	-- Thaumaturgy
@@ -29467,18 +29454,6 @@ i(230033),	-- Prowler's Midnight Shoulder Cape
 i(230054),	-- Prowler's Midnight Cowl
 i(230074),	-- Prowler's Midnight Mask
 i(230152),	-- Ensemble: Prowler's Midnight Headgear
-11.1.0.58221
-i(235222),	-- Apogee Inventor's Goggles
-i(235223),	-- Psychogenic Prognosticator's Lenses
-i(235224),	-- Mekgineer's Mindbending Headgear
-i(235226),	-- Inventor's Ingenious Trifocals
-i(235415),	-- Skyscorcher Pauldrons
-i(235416),	-- Crashguard Spaulders
-i(235417),	-- Venture Co. Plenipotentiary Vest
-i(235418),	-- Exquisitely Aerodynamic Shoulderpads
-i(235419),	-- High Altitude Turban
-i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
-i(235460),	-- Shrapnel-Dampening Chestguard
 11.1.7.61965
 i(250776),	-- Illusion: Sha Corruption
 11.2.0.62610

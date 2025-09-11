@@ -310,21 +310,6 @@ if CombineSeasonalLoot then
 				))),
 			}),
 		}),
-		-- Non-upgraded Items
-		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK, {
-			difficulties = { DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
-		}).AddGroups({
-			n(MECHAGON_WORKSHOP, {
-				BossOnly(KING, sharedData({
-					timeline = {ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART},
-				},{
-					i(235222),	-- Apogee Inventor's Goggles
-					i(235226),	-- Inventor's Ingenious Trifocals
-					i(235224),	-- Mekgineer's Mindbending Headgear
-					i(235223),	-- Psychogenic Prognosticator's Lenses
-				})),
-			}),
-		}),
 		-- Myth Track Appearances via Upgrade only
 		n(UPGRADE, bubbleDownFiltered({
 			modID = DifficultyDB[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_MYTHTRACK].modID
@@ -601,6 +586,21 @@ local INSTANCE_GROUPS = {
 				i(169774),	-- Progression Sprocket
 				i(167556),	-- Subroutine: Overclock
 			}),
+		}),
+	}),
+	-- Non-upgraded Items
+	Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK, {
+		difficulties = { DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
+	}).AddGroups({
+		n(MECHAGON_WORKSHOP, {
+			BossOnly(KING, sharedData({
+				timeline = {ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART},
+			},{
+				i(235222),	-- Apogee Inventor's Goggles
+				i(235226),	-- Inventor's Ingenious Trifocals
+				i(235224),	-- Mekgineer's Mindbending Headgear
+				i(235223),	-- Psychogenic Prognosticator's Lenses
+			})),
 		}),
 	}),
 	Difficulty(DIFFICULTY.DUNGEON.HEROIC).AddGroups({
