@@ -1980,8 +1980,9 @@ namespace ATT
                 }
             }
 
+            data.TryGetValue("type", out string type);
             // Convert any 'n' providers into 'qgs' for data simplicity, if not an item listed first
-            if (data.TryGetValue("providers", out List<object> providers)
+            if (type != "hqt" && data.TryGetValue("providers", out List<object> providers)
                 // if not an item listed first
                 && !(providers.Count > 0
                     && providers[0] is List<object> firstProvider
@@ -2014,7 +2015,7 @@ namespace ATT
             if (!data.ContainsKey("objectID") && !data.ContainsKey("itemID") && !data.ContainsKey("npcID"))
             {
                 // don't warn this for HQTs
-                if (!data.TryGetValue("type", out string type) || type != "hqt")
+                if (type != "hqt")
                 {
                     if (CurrentParentGroup.HasValue &&
                         (CurrentParentGroup.Value.Key == "itemID" ||
