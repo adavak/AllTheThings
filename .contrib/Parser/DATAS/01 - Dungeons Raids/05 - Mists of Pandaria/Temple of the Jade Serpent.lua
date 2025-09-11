@@ -436,6 +436,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["creatureID"] = 56439,	-- Sha of Doubt
 						["groups"] = {
 							ach(60892),	-- Celestial: Temple of the Jade Serpent
+							i(248204),	-- Chimera of Doubt
 							i(86762),	-- Gara'kal, Fist of the Spiritbinder
 							i(86759),	-- Soulgrasp Choker
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86814)),	-- Fragment of Fear Made Flesh
