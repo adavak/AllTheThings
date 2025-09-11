@@ -3062,10 +3062,15 @@ namespace ATT
             if (data.ContainsKey("_noautomation")) return;
             if (data.ContainsKey("_Incorporate_Ensemble")) return;
 
-            if (data.TryGetValue("tmogSetID", out long tmogSetID) && WagoData.TryGetValue(tmogSetID, out TransmogSet tmogSet) && tmogSet.TrackingQuestID > 0)
+            if (data.TryGetValue("tmogSetID", out long tmogSetID) && WagoData.TryGetValue(tmogSetID, out TransmogSet tmogSet))
             {
-                Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
-                TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
+                if (tmogSet.TrackingQuestID > 0)
+                {
+                    Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
+                    TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
+                }
+
+                Incorporate_Item_TransmogSetItems(data, tmogSetID);
 
                 // check if other Ensembles have the same name as well. this could be a case where alternate Ensembles are auto-learned via server-side
                 // spellID triggers which may need to be added into the 'real' Ensemble Item to pull in the proper set of learned Sources
@@ -3121,19 +3126,16 @@ namespace ATT
                 // check if other Ensembles have the same TrackingQuestID -- these seem to additionally be granted without relying on a nested SpellEffect trigger
                 if (data.TryGetValue("questID", out long questID))
                 {
-                    foreach (var sameQuestTransmogSet in WagoData.GetAll<TransmogSet>().Values)
+                    foreach (var sameQuestTransmogSet in WagoData.GetAll<TransmogSet>().Values.Where(s => s.TrackingQuestID == questID && s.ID != tmogSetID))
                     {
-                        if (sameQuestTransmogSet.TrackingQuestID == questID && sameQuestTransmogSet.ID != tmogSetID)
+                        if (!WagoData.TryGetTransmogSetAssociations(sameQuestTransmogSet.ID, out List<TransmogSetItem> additionalTmogSetItems) || additionalTmogSetItems.Count < 1)
                         {
-                            if (!WagoData.TryGetTransmogSetAssociations(tmogSetID, out List<TransmogSetItem> associations) || associations.Count < 1)
-                            {
-                                LogDebugWarn($"Ensemble {tmogSetID} missing addtional Wago TransmogSetItem record(s) for TransmogSetID {sameQuestTransmogSet.ID}", data);
-                            }
-                            else
-                            {
-                                allSourceIDs.AddRange(transmogSetItems.Select(i => i.ItemModifiedAppearanceID));
-                                LogDebug($"INFO: Ensemble {tmogSetID} has addtional TransmogSetItem record(s) from TransmogSetID {sameQuestTransmogSet.ID}", data);
-                            }
+                            LogDebug($"INFO: Ensemble {tmogSetID} missing addtional Wago TransmogSetItem record(s) for TransmogSetID {sameQuestTransmogSet.ID}", data);
+                        }
+                        else
+                        {
+                            allSourceIDs.AddRange(additionalTmogSetItems.Select(i => i.ItemModifiedAppearanceID));
+                            LogDebug($"INFO: Ensemble {tmogSetID} has {additionalTmogSetItems.Count} addtional TransmogSetItem record(s) from TransmogSetID {sameQuestTransmogSet.ID}", data);
                         }
                     }
                 }
@@ -3305,7 +3307,6 @@ namespace ATT
                 }
                 // this is repeated later for the same data, yes, but we need to ensure some things happen in the correct order
                 Incorporate_Ensemble(data);
-                Incorporate_Item_TransmogSetItems(data, tmogSetID);
             }
         }
 

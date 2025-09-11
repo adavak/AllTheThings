@@ -813,9 +813,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 					}),
 					iensemble(215281, { -- Ensemble: Trailseeker's Laminar Armor (White)
 						["cost"] = {{"c", BRONZE, 750}},
-						-- currently inaccurate in Wago, but hotfixed from Blizzard
-						-- learning either 215279 or this ensemble seems to grant both 3407 & 3409
-						["tmogSetID"] = 3409,
 					}),
 				}),
 				filter(PLATE, {
