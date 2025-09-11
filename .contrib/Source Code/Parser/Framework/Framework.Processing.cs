@@ -688,8 +688,14 @@ namespace ATT
             if (ProcessingFunction(data, parentData))
             {
                 // If this container has an aqd or hqd, then process those objects as well.
-                if (data.TryGetValue("aqd", out IDictionary<string, object> qd)) Process(qd, data);
-                if (data.TryGetValue("hqd", out qd)) Process(qd, data);
+                if (data.TryGetValue("aqd", out IDictionary<string, object> aqd)) Process(aqd, data);
+                if (data.TryGetValue("hqd", out IDictionary<string, object> hqd)) Process(hqd, data);
+                if (aqd != null || hqd != null)
+                {
+                    // Include Parent field consolidation on the aqd/hqd data also
+                    if (CurrentParseStage >= ParseStage.Consolidation)
+                        HierarchicalFieldAdjustments.Apply(data, aqd ?? new Dictionary<string, object>(), hqd ?? new Dictionary<string, object>());
+                }
 
                 // If this container has groups, then process those groups as well.
                 if (data.TryGetValue("g", out List<object> groups))
