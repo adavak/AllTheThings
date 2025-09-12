@@ -522,6 +522,7 @@ root(ROOTS.Unsorted, {
 			i(252199),	-- Festive Eve (PET!)
 			i(252200),	-- Bundled-up Bob (PET!)
 			i(252300),	-- Bronze Cluster
+			i(252364),	-- Gem of Gul'dan
 			i(252656),	-- K'areshi Scientific Expedition Supply
 			i(252710),	-- Midnight Winter Hat
 			i(252711),	-- Azure Winter Hat
@@ -548,6 +549,9 @@ root(ROOTS.Unsorted, {
 			i(253158),	-- Loyal Watchman's Cuirass
 			i(253159),	-- Loyal Watchman's Spaulders
 			i(253160),	-- Loyal Watchman's Helm
+			i(253222),	-- Corrupted Thorn of the Dream
+			i(253223),	-- Fractal Felshard
+			i(253224),	-- Mote of the Unmaker's Heart
 			i(253286),	-- Scythe of the Unmaker
 			i(253357),	-- Felscorned Arsenal
 			i(253520),	-- Enclave Aspirant's Hatchet
