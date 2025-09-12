@@ -125,6 +125,7 @@ def exploration_mapping(build):
             children_count += 1
 
         # Exploration type
+        # TODO: Change this to exploration / map_exploration only
         if instance_name in ("Outdoor", "Unknown", "N/A"):
             exploration_text = f"exploration({area_id}),"
         else:

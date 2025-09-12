@@ -1047,6 +1047,7 @@ visit_exploration = function(id, t)						-- Create an EXPLORATION Object (which 
 	-- #ENDIF
 	return t
 end
+map_exploration = visit_exploration;
 instance_exploration = visit_exploration;
 faction = function(id, t)								-- Create a FACTION Object
 	return struct("factionID", id, t);
