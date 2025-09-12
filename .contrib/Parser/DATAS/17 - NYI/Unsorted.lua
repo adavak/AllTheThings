@@ -198,7 +198,6 @@ root(ROOTS.Unsorted, {
 			i(247495),	-- Vintage Duskwatch Cinch
 			i(247496),	-- Gleaming Celestial Waistguard
 			i(247561),	-- Gloves of Murmured Promises
-			i(247562),	-- Grips of Silent Screams
 			i(247564),	-- Gauntlets of Fractured Dreams
 			i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 			i(247566),	-- Robes of Celestial Adornment
@@ -305,7 +304,6 @@ root(ROOTS.Unsorted, {
 			i(249680),	-- Ordained Hunter's Crown
 			i(249681),	-- Shoulders of the Dragonslayer
 			i(249682),	-- Supreme Runecaster's Crown
-			i(249683),	-- Shoulderguards of Divine Arts
 			i(249684),	-- Horns of Unwavering Faith
 			i(249685),	-- Mantle of Unforgotten Souls
 			i(249716),	-- Steel Food Fanatic Backpack
@@ -553,7 +551,6 @@ root(ROOTS.Unsorted, {
 			i(253223),	-- Fractal Felshard
 			i(253224),	-- Mote of the Unmaker's Heart
 			i(253286),	-- Scythe of the Unmaker
-			i(253357),	-- Felscorned Arsenal
 			i(253520),	-- Enclave Aspirant's Hatchet
 			i(253573),	-- Cerulean Phase-Hunter (MOUNT!)
 			i(253574),	-- Everlasting Rock

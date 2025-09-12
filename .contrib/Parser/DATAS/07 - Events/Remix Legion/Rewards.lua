@@ -133,6 +133,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(247600),	-- Glacier Walkers
 				i(247478),	-- Gloves of Synchronous Elements
 				i(247442),	-- Gnawed Nightfallen Britches
+				i(247562),	-- Grips of Silent Screams
 				i(247441),	-- Grove-Tender's Moccasins
 				i(247533),	-- Grove Keeper's Robe
 				i(247488),	-- High Shadow Councilor's Wrap

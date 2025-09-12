@@ -101,6 +101,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						filter(CLOTH, {
 						}),
 						filter(LEATHER, {
+							i(249683),	-- Shoulderguards of Divine Arts
 						}),
 						filter(MAIL, {
 						}),
