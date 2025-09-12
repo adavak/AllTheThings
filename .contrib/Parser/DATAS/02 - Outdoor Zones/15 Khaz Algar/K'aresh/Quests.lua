@@ -1516,6 +1516,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(85520),	-- Lil' Lapbugs
 				q(89306),	-- Rays of Sunshine
 				q(84992),	-- Slatebacks
+				q(88976, {	-- The Hope of K'aresh
+					["sourceAchievement"] = 41811,	-- Ecological Stability
+					["qg"] = 231820,	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+					["groups"] = { i(242713) },	-- Resplendent K'arroc (MOUNT!)
+				}),
 			})),
 			header(HEADERS.Achievement, 41809, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Variety (Daily Quests) Exo note: These are probably weekly quests, not daily.
 				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
@@ -1605,7 +1611,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(238906) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 					q(85465, {	-- Play Ball
+						["qg"] = 230736,	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
+						["groups"] = { i(238907) },	-- Anima Orb (QI!)
 					}),
 					q(85721, {	--
 						["isDaily"] = true,
@@ -1662,8 +1671,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["isDaily"] = true,
 						["groups"] = { i(238915) },	-- Anima Orb (PQI!)
 					}),
-					q(89197, {	--
+					q(89197, {	-- Ray Ranching
+						["qg"] = 231820,	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
 						["isDaily"] = true,
+						["groups"] = { i(238910) },	-- Lasso (QI!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.06, {	-- Hard K'arroc
@@ -1698,6 +1710,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				header(HEADERS.AchCriteria, 41809.07, {	-- A Slither of Snakes
 					q(88659, {	-- More Cozy Beds
+						["qg"] = 235353,	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
 						["isDaily"] = true,
 					}),
 					q(88981, {	-- Nesting Upkeep

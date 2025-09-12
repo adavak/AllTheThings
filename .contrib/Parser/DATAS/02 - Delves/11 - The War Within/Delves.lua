@@ -1350,6 +1350,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235422),	-- Venture Co Seal
 					})),
 					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
+						i(237999),	-- Battered Matter Destabilizer
 						i(238007),	-- Bulwark of the Great Dark
 						i(237997),	-- Ethereal Handchopper
 						i(238004),	-- Exile's Beacon
@@ -3039,8 +3040,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(244854),	-- Purloined Artifact
 				i(244857),	-- The 1 Ring
 				-- Story Variant: Waygate Wiles
-				i(245746),	-- Energy Barrel
-				i(245884),	-- Energy Pyramid
+				o(549986, {	-- Energy Barrel
+					i(245746),	-- Energy Barrel
+				}),
+				o(550001, {	-- Energy Pyramid
+					i(245884),	-- Energy Pyramid
+				}),
 				o(549999, {	-- Energy Urn
 					i(245747),	-- Energy Urn
 				}),

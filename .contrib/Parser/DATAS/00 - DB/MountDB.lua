@@ -2093,6 +2093,7 @@ i(243020, 1234305);	-- Lightwing Dragonhawk
 i(247795, 1245370);	-- Ornery Breezestrider
 i(246067, 1240632);	-- Pearlescent Krolusk
 i(250240, 1250578);	-- Phase-Lost Slateback
+i(242713, 1221132);	-- Resplendent K'arroc
 i(246445, 1242272);	-- Royal Voidwing
 i(242729, 1233546);	-- Ruby Void Creeper
 i(247822, 1245517);	-- Scarlet Void Flyer
@@ -2120,7 +2121,6 @@ i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger
 i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
 --- UNSORTED ---
-i(242713, 1221132);	-- Resplendent K'arroc
 i(246920, 1244260);	-- Void-Razed Elekk
 i(186639, 353264);	-- Xy Trustee's Gearglider
 

@@ -559,7 +559,6 @@ root(ROOTS.Unsorted, {
 			n(ARMOR, {
 				-- Unknown (PvP Appearance?)
 				i(237998),	-- Void Assassin's Ritual Blade
-				i(237999),	-- Battered Matter Destabilizer
 				i(238008),	-- Wastelander's Folly
 
 				-- Mechagon Junkyard?
@@ -780,7 +779,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
-				i(242713),	-- Resplendent K'arroc
 				i(246698),	-- Sunwarmed Furline
 				i(246920),	-- Void-Razed Elekk
 			}),
@@ -800,7 +798,6 @@ root(ROOTS.Unsorted, {
 				i(246823),	-- A Steamy Romance Novel: Got Milk?
 			}),
 			n(PVP, {
-				i(232600),	-- Astral Gladiator's Weapon Token
 				i(232616),	-- Astral Gladiator's Coin Pouch
 				i(230722),	-- Astral Equipment Chest
 				i(230814),	-- [11.2 PVP] Gladiator's Axe <TEMPLATE>
@@ -895,8 +892,6 @@ root(ROOTS.Unsorted, {
 				i(233287),	-- Barrel of Swirling Energy
 				i(235983),	-- Warrant: Shatterpulse
 				i(238296),	-- Phase Disruptor
-				i(238907),	-- Anima Orb
-				i(238910),	-- Lasso
 				i(238914),	-- Hemet's Soothin' Flute
 				i(239566),	-- Arcane Runed Signet
 				i(242547),	-- Cracked Keystone

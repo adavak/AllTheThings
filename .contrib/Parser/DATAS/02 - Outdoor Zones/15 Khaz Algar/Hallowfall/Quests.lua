@@ -895,7 +895,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							i(216525),	-- Dented Boots (QI!)
 						}),
 						o(423979, {	-- Kobyss Chest
-							i(216526),	-- Resplendant Shield (QI!)
+							i(216526),	-- Resplendent Shield (QI!)
 						}),
 						o(423978, {	-- Kobyss Chest
 							i(216524),	-- Salt-pitted Sword (QI!)

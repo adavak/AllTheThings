@@ -17,7 +17,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 		}),
 		i(211297, {	-- Fractured Spark of Omens
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_2_0}
+			["timeline"] = { ADDED_11_0_2 }
 		}),
 
 		-- Season 2 TWW
@@ -34,7 +34,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 		}),
 		i(230905, {	-- Fractured Spark of Fortunes
-			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0}
+			["timeline"] = { ADDED_11_1_0 }
 		}),
 
 		-- Season 3 TWW
