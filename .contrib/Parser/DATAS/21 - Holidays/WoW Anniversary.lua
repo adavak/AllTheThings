@@ -217,6 +217,19 @@ WOW_ANNIVERSARY_TWENTY = createHeader({
 		en = WOWAPI_GetAchievementName(41220),
 	},
 });
+WOW_ANNIVERSARY_TWENTYONE = createHeader({
+	readable = "WoW's 21st Anniversary",
+	icon = 133783,
+	--eventID = ?,
+	-- eventSchedule = {
+	-- 	0, -- October 22nd through Jan 7th
+	-- 	2024, 10, 22,	-- 10/22/2024
+	-- 	2025, 01, 07,	-- 01/07/2025
+	-- },
+	text = {
+		en = WOWAPI_GetAchievementName(61406),
+	},
+});
 --[[
 WOW_ANNIVERSARY_TWENTYONE = createHeader({
 	readable = "WoW's 21st Anniversary",
@@ -3509,6 +3522,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 				}),
 			},
+		}),
+	})),
+	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } },{
+		n(ACHIEVEMENTS, {
+			ach(61406),	-- WoW's 21st Anniversary
 		}),
 	})),
 })));

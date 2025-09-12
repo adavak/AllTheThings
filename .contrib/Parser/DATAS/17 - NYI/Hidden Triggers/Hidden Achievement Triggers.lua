@@ -3962,5 +3962,24 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(61348),	-- <Hidden> Heroic 12.0 Tender [DNT]
 			ach(61349),	-- <Hidden> Epic 12.0 Tender [DNT]
 		})),
+
+		-- 11.2.5
+		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
+			-- 11.2.5.62554
+			ach(60936),	-- Empowered enemies killed in Heroic World Tier
+			ach(60937),	-- Deaths in Heroic World Tier
+			ach(60938),	-- Demons slain
+			ach(61062),	-- <DNT> Season 3 Midseason - Eco-Dome - Timed +12
+			ach(61063),	-- <DNT> Season 3 Midseason - Ara-Kara - Timed +12
+			ach(61064),	-- <DNT> Season 3 Midseason - Dawnbreaker - Timed +12
+			ach(61065),	-- <DNT> Season 3 Midseason - Priory - Timed +12
+			ach(61066),	-- <DNT> Season 3 Midseason - Floodgate - Timed +12
+			ach(61067),	-- <DNT> Season 3 Midseason - Tazavesh: Streets - Timed +12
+			ach(61068),	-- <DNT> Season 3 Midseason - Tazavesh: Gambit - Timed +12
+			ach(61069),	-- <DNT> Season 3 Midseason - Halls of Atonement - Timed +12
+			ach(61324),	-- <Hidden>[DNT] Jewelry Unlocked
+			ach(61325),	-- <Hidden>[DNT] Jewelry Equipped
+			ach(61338),	-- Bronze gained across Warband
+		})),
 	}),
 });
