@@ -1688,7 +1688,6 @@ local function Check_providers(objID, objRef, providerType, id, reportData)
 	end
 end
 
-local LastQUEST_DETAIL
 -- Add a check when interacting with a Quest Giver NPC to verify coordinates of the related Quest
 local function OnQUEST_DETAIL(...)
 	-- local questStartItemID = ...;
@@ -1706,11 +1705,11 @@ local function OnQUEST_DETAIL(...)
 	end
 
 	-- don't check the same quest back to back (had cases where QUEST_DETAIL fires twice within 1ms for some reason?)
-	if LastQUEST_DETAIL == questID then
+	if api.LastQUEST_DETAIL == questID then
 		app.PrintDebug(app.Modules.Color.Colorize("Contrib Check attempted twice on Quest!",app.Colors.LockedWarning),questID)
 		return
 	end
-	LastQUEST_DETAIL = questID
+	api.LastQUEST_DETAIL = questID
 
 	local objRef = app.SearchForObject("questID", questID, "field")
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",objRef and objRef.hash)

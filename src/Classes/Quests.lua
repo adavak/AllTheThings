@@ -784,7 +784,7 @@ PrintQuestInfo = function(questID, new)
 		if nmr then text = text .. "[R]"; end
 		-- only check to report when accepting a quest, quests flag complete all the time without being filtered
 		-- contributor quest info is checked when viewed so no need to check after accepting as well
-		if new == true and not app.Contributor then
+		if new == true and (not app.Contributor or app.Modules.Contributor.LastQUEST_DETAIL ~= questID) then
 			app.CheckInaccurateQuestInfo(questRef, questChange);
 		end
 
