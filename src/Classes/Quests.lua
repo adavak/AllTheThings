@@ -24,7 +24,6 @@ local GetQuestLogRewardInfo =
 
 -- WoW API Cache
 local GetFactionName = app.WOWAPI.GetFactionName;
-local GetFactionCurrentReputation = app.WOWAPI.GetFactionCurrentReputation;
 local GetSpellName = app.WOWAPI.GetSpellName;
 local GetSpellIcon = app.WOWAPI.GetSpellIcon;
 local IsQuestFlaggedCompletedOnAccount = app.WOWAPI.IsQuestFlaggedCompletedOnAccount;
@@ -672,10 +671,8 @@ end
 local function BuildDiscordQuestInfoTable(id, infoText, questChange, questRef, checks)
 	-- Builds a table to be used in the SetupReportDialog to display text which is copied into Discord for player reports
 	local info = {
-		"### "..(infoText or "quest-info")..":"..id,
-		"```elixir",	-- discord fancy box start
-		questChange.." '"..(QuestNameFromID[id] or "???").."'",
-		"L:"..app.Level.." R:"..app.RaceID.." ("..app.Race..") C:"..app.ClassIndex.." ("..app.Class..")",
+		infoText,
+		questChange..": \""..(QuestNameFromID[id] or "???").."\"",
 	};
 	if checks then
 		for k,v in pairs(checks) do
@@ -741,20 +738,6 @@ local function BuildDiscordQuestInfoTable(id, infoText, questChange, questRef, c
 	end
 	tinsert(info, "sq:"..GenerateSourceQuestString(questRef or id));
 	tinsert(info, "lq:"..(app.TableConcat(MostRecentQuestTurnIns, nil, nil, "<") or ""));
-
-	local mapID = app.CurrentMapID;
-	tinsert(info, mapID and ("mapID:"..mapID.." ("..(app.GetMapName(mapID) or "??")..")") or "mapID:??");
-
-	local position, coord = mapID and C_Map.GetPlayerMapPosition(mapID, "player"), nil;
-	if position then
-		local x,y = position:GetXY();
-		coord = (math_floor(x * 1000) / 10) .. ", " .. (math_floor(y * 1000) / 10);
-	end
-	tinsert(info, coord and ("coord:"..coord) or "coord:??");
-
-	tinsert(info, "ver:"..app.Version);
-	tinsert(info, "build:"..app.GameBuildVersion);
-	tinsert(info, "```");	-- discord fancy box end
 	return info;
 end
 local function SearchForQuestData(questID)
@@ -806,29 +789,23 @@ PrintQuestInfo = function(questID, new)
 
 		-- give a chat output if the user has just interacted with a quest flagged as NYI
 		if nyi then
-			-- Play a sound when a reportable error is found, if any sound setting is enabled
-			app.Audio:PlayReportSound();
-
-			-- Linkify the output
-			local popupID = "quest-" .. questID .. questChange;
-			app:SetupReportDialog(popupID, "NYI Quest: " .. questID,
-				BuildDiscordQuestInfoTable(questID, "nyi-quest", questChange)
-			);
-			app.print("Quest", questChange, app:Linkify(text .. " [NYI] ATT " .. app.Version, app.Colors.ChatLinkError, "dialog:" .. popupID));
+			-- Report the output
+			app.Modules.Contributor.AddReportData(
+				questRef.__type,
+				questID,
+				BuildDiscordQuestInfoTable(questID, "nyi-quest", questChange),
+				"Quest "..questChange.." "..text.." [NYI] ATT "..app.Version)
 			return
 		end
 
 		-- give a chat output if the user has just interacted with a quest flagged as Unsorted
 		if unsorted then
-			-- Play a sound when a reportable error is found, if any sound setting is enabled
-			app.Audio:PlayReportSound();
-
-			-- Linkify the output
-			local popupID = "quest-" .. questID .. questChange;
-			app:SetupReportDialog(popupID, "Unsorted Quest: " .. questID,
-				BuildDiscordQuestInfoTable(questID, "unsorted-quest", questChange)
-			);
-			app.print("Quest", questChange, app:Linkify(text .. " [UNS] ATT " .. app.Version, app.Colors.ChatLinkError, "dialog:" .. popupID));
+			-- Report the output
+			app.Modules.Contributor.AddReportData(
+				questRef.__type,
+				questID,
+				BuildDiscordQuestInfoTable(questID, "unsorted-quest", questChange),
+				"Quest "..questChange.." "..text.." [UNS] ATT "..app.Version)
 			return
 		end
 
@@ -844,15 +821,12 @@ PrintQuestInfo = function(questID, new)
 	else
 		text = (QuestNameFromID[questID] or UNKNOWN) .. " (" .. questID .. ")";
 
-		-- Play a sound when a reportable error is found, if any sound setting is enabled
-		app.Audio:PlayReportSound();
-
-		-- Linkify the output
-		local popupID = "quest-" .. questID .. questChange;
-		app:SetupReportDialog(popupID, "Missing Quest: " .. questID,
-			BuildDiscordQuestInfoTable(questID, "missing-quest", questChange)
-		);
-		app.print("Quest", questChange, app:Linkify(text .. " (Not in ATT " .. app.Version .. ")", app.Colors.ChatLinkError, "dialog:" .. popupID), GetQuestFrequency(questID) or "");
+		-- Report the output
+		app.Modules.Contributor.AddReportData(
+			"Quest",
+			questID,
+			BuildDiscordQuestInfoTable(questID, "missing-quest", questChange),
+			"Quest "..questChange.." "..text.." (Not in ATT "..app.Version..")"..(GetQuestFrequency(questID) or ""))
 	end
 end
 local function NotInGame(ref)
@@ -886,27 +860,32 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange, forceShow)
 			-- and false
 			)
 		then
-			-- Play a sound when a reportable error is found, if any sound setting is enabled
-			app.Audio:PlayReportSound();
-
-			local popupID = "quest-filter-" .. id;
 			local checks = {
 				Filter = filter and true or false,
 				InGame = inGame and true or false,
 				Incomplete = incomplete and true or false,
 				PreReq = metPrereq and true or false,
 			};
-			if app:SetupReportDialog(popupID, "Inaccurate Quest Info: " .. id,
-				BuildDiscordQuestInfoTable(id, "inaccurate-quest", questChange, questRef, checks))
-			then
-				app.print(app:Linkify(L.REPORT_INACCURATE_QUEST, app.Colors.ChatLinkError, "dialog:" .. popupID));
-			end
+			app.Modules.Contributor.AddReportData(
+				questRef.__type,
+				id,
+				BuildDiscordQuestInfoTable(id, "inaccurate-quest", questChange, questRef, checks),
+				L.REPORT_INACCURATE_QUEST)
 		end
 	end
 end
--- /run ATTC.CheckQuestInfo(12345,1)
-app.CheckQuestInfo = function(questID, isTest)
-	app.CheckInaccurateQuestInfo(Search("questID",questID), "test-show", isTest)
+if app.Debugging then
+	-- testing
+	-- missing quest /run ATTC.PrintQuestInfo(99999)
+	-- NYI quest /run ATTC.PrintQuestInfo(28902)
+	-- UNS quest /run ATTC.PrintQuestInfo(24444)
+	-- HQT quest /run ATTC.PrintQuestInfo(49813)
+	-- REG quest /run ATTC.PrintQuestInfo(83083)
+	app.PrintQuestInfo = PrintQuestInfo
+	-- /run ATTC.CheckQuestInfo(12345,1)
+	app.CheckQuestInfo = function(questID, isTest)
+		app.CheckInaccurateQuestInfo(Search("questID",questID), "test-show", isTest)
+	end
 end
 
 local RefreshAllQuestInfo, RefreshQuestInfo;
