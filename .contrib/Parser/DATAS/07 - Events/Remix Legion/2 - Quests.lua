@@ -503,5 +503,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
 			["lvl"] = 80,
 		}),
+		-- Unsorted
+		q(91845, {	-- Infinite Research Promotion: Senior Executive Chronographer
+			-- ["qg"] = 241748,	-- Eternus
+			-- ["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			-- ["lvl"] = 25,
+		}),
 	}),
 })))
