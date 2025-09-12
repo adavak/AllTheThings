@@ -473,7 +473,7 @@ local function PrintDiscordInformationForAllExplorations(o, type)
 
 	if type == "subzone" then
 		if inInstance then
-			luaFormat = "map_exploration(%d),\t-- %s"
+			luaFormat = "visit_exploration(%d),\t-- %s"
 			tinsert(ExplorationReportLines, luaFormat:format(areaID, text))
 		else
 			luaFormat = "visit_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
