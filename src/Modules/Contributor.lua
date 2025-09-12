@@ -100,6 +100,12 @@ local function AddReportData(reporttype, id, data, chatlink)
 	if reportData.REPORTED then app.PrintDebug("Duplicate Report Ignored",reporttype,id) return end
 
 	if type(data) == "table" then
+		-- add any ordered data first
+		for i=1,#data do
+			reportData[#reportData + 1] = data[i]
+		end
+		app.wipearray(data)
+		-- add/replace keyed data
 		for k,v in pairs(data) do
 			reportData[k] = v
 		end
@@ -120,8 +126,8 @@ api.AddReportData = AddReportData
 
 local function BuildGenericReportData(objRef, id)
 	return {
-		"id: "..id,
-		"type: "..(objRef and objRef.__type or UNKNOWN),
+		id = id,
+		type = (objRef and objRef.__type or UNKNOWN),
 		[objRef and objRef.key or "RefID"] = (objRef and objRef[objRef.key]) or UNKNOWN,
 	}
 end
@@ -1700,10 +1706,7 @@ local function OnQUEST_DETAIL(...)
 
 	local objRef = app.SearchForObject("questID", questID, "field")
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",objRef and objRef.hash)
-	if not objRef then
-		-- this is reported from Quest class
-		return
-	end
+	app.CheckInaccurateQuestInfo(objRef, "viewed")
 
 	local guid = UnitGUID("questnpc") or UnitGUID("npc")
 	local providerid, guidtype, _

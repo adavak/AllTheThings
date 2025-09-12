@@ -783,7 +783,8 @@ PrintQuestInfo = function(questID, new)
 		if nmc then text = text .. "[C]"; end
 		if nmr then text = text .. "[R]"; end
 		-- only check to report when accepting a quest, quests flag complete all the time without being filtered
-		if new == true then
+		-- contributor quest info is checked when viewed so no need to check after accepting as well
+		if new == true and not app.Contributor then
 			app.CheckInaccurateQuestInfo(questRef, questChange);
 		end
 
@@ -836,7 +837,6 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange, forceShow)
 	-- Checks a given quest reference against the current character info to see if something is inaccurate
 	-- accepted quests from old removed items shouldn't trigger a notification to report as inaccurate, non-removed items should still validate
 	if questRef and questRef.questID and (not questRef.itemID or not questRef.u) then
-		-- app.PrintDebug("CheckInaccurateQuestInfo",questRef.questID,questChange)
 		local id = questRef.questID;
 		local completed = app.CurrentCharacter.Quests[id];
 		-- expectations for accurate quest data
@@ -851,6 +851,7 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange, forceShow)
 		local incomplete = (questRef.repeatable or not completed or LastQuestTurnedIn == completed or IsPartySyncActive) or app.IsClassic;
 		-- not missing pre-requisites
 		local metPrereq = not questRef.missingReqs;
+		-- app.PrintDebug("CheckInaccurateQuestInfo",questRef.questID,questChange,filter,inGame,incomplete,metPrereq)
 		if forceShow or not (
 			filter
 			and inGame
