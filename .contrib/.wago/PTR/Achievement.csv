@@ -12477,7 +12477,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete 5 Legion Assaults in the Broken Isles with a Timerunner.","Defending the Broken Isles II","+1 Infinite Knowledge",42672,-1,-1,42673,15558,0,0,131200,34,1536896,0,215741,0,0,0,0
 "Complete a Legion Assault in the Broken Isles with a Timerunner.","Defending the Broken Isles I","+1 Infinite Knowledge",42673,-1,-1,0,15558,0,0,131072,33,1536896,0,215736,0,0,0,0
 "Complete 150 world quests across the Broken Isles with a Timerunner.","Broken Isles World Quests V","Bronze Cache",42674,-1,-1,42555,15556,0,0,131072,38,4622478,0,215391,0,0,0,0
-"Complete 10 Legion Assaults in the Broken Isles with a Timerunner.","Defending the Broken Isles III","Bronze Cache",42675,-1,-1,42672,15558,0,0,131200,35,1536896,0,215746,0,0,0,0
+"Complete 10 Legion Assaults in the Broken Isles with a Timerunner.","Defending the Broken Isles III","Greater Bronze Cache",42675,-1,-1,42672,15558,0,0,131200,35,1536896,0,215746,0,0,0,0
 "Raise a companion to level 100.","Buddy System X",,42676,-1,-1,61342,15522,0,10,131072,16,1033987,0,211526,0,0,0,0
 "Obtain the Delver's Mana-Skimmer.","This Machine Flies?! Don't Care I Got It!",,42677,-1,-1,0,15523,0,10,131072,26,6361900,0,211648,0,0,0,0
 "Collect the following cosmetic unlocks for the Delver's Mana-Skimmer.","So That's Where My Manaflux Capacitor Was!",,42678,-1,-1,42677,15523,0,10,131072,27,6215895,0,211650,0,0,0,0
@@ -12488,8 +12488,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach level 80 with a Hunter in Legion: Remix.","Timerunner: Hunter","Mount: Felscorned Wolfhawk",42687,-1,-1,0,15554,0,0,131072,9,4622478,0,215875,0,0,0,0
 "Complete any Timeworn Keystone Dungeon with a key level of 7 or greater with a Timerunner.","Timeworn Keystone Adept","+1 Infinite Knowledge",42688,-1,-1,42615,15559,0,0,131072,39,413577,0,215361,0,0,0,0
 "Complete any Timeworn Keystone Dungeon with a key level of 15 or greater with a Timerunner.","Timeworn Keystone Master","Bronze Cache",42689,-1,-1,42688,15559,0,0,131072,40,413577,0,215363,0,0,0,0
-"Complete any Timeworn Keystone Dungeon with a key level of 25 or greater with a Timerunner.","Timeworn Keystone Hero","Appearance: Sargerei Commander's Hellforged Regalia",42690,-1,-1,42689,15559,0,0,131072,41,413577,0,215365,0,0,0,0
-"Complete any Timeworn Keystone Dungeon with a key level of 30 or greater with a Timerunner.","Timeworn Keystone Enthusiast","Title: The Infernal",42691,-1,-1,42690,15559,0,0,131072,42,413577,0,215367,0,0,0,0
+"Complete any Timeworn Keystone Dungeon with a key level of 30 or greater with a Timerunner.","Timeworn Keystone Hero","Appearance: Sargerei Commander's Hellforged Regalia",42690,-1,-1,42689,15559,0,0,131072,41,413577,0,215365,0,0,0,0
+"Complete any Timeworn Keystone Dungeon with a key level of 40 or greater with a Timerunner.","Timeworn Keystone Enthusiast","Title: The Infernal",42691,-1,-1,42690,15559,0,0,131072,42,413577,0,215367,0,0,0,0
 "Complete each of the following Legion Dungeons on any difficulty with a Timerunner.","Broken Isles Dungeoneer","Bronze Cache",42692,-1,-1,0,15559,0,0,131072,46,1536896,0,214286,0,0,0,0
 "Complete a Lesser Invasion Point on Argus with a Timerunner.","Breaking the Legion I","+1 Infinite Knowledge",42693,-1,-1,0,15558,0,0,131072,36,1714096,0,215751,0,0,0,0
 "Defeat 5 Lesser Invasion Point Commanders on Argus with a Timerunner.","Breaking the Legion II","Lesser Bronze Cache",42694,-1,-1,42693,15558,0,0,131072,37,1714096,0,215765,0,0,0,0
@@ -12584,12 +12584,12 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat the leader of the Assault on Violet Hold on Heroic difficulty or higher.","Heroic: Assault on Violet Hold","Bronze Cache",60847,1544,-1,0,15559,0,0,0,29,1417432,0,213594,0,0,0,0
 "Defeat the leader of the Assault on Violet Hold on Mythic difficulty.","Mythic: Assault on Violet Hold","Greater Bronze Cache",60848,1544,-1,0,15559,0,0,0,30,1417432,0,213616,0,0,0,0
 "Defeat Mephistroth within the Cathedral of Eternal Night.","Cathedral of Eternal Night","Lesser Bronze Cache",60849,1677,-1,0,15559,0,0,0,33,1378283,0,213619,0,0,0,0
-"Defeat Mephistroth in Cathedral of Eternal Night on Heroic difficulty or higher.","Heroic: Cathedral of Eternal Night","+1 Infinite Knowledge",60850,1677,-1,0,15559,0,0,0,34,136149,0,213621,0,0,0,0
+"Defeat Mephistroth in Cathedral of Eternal Night on Heroic difficulty or higher.","Heroic: Cathedral of Eternal Night","+1 Infinite Knowledge",60850,1677,-1,0,15559,0,0,131072,34,136149,0,213621,0,0,0,0
 "Defeat Mephistroth in Cathedral of Eternal Night on Mythic difficulty.","Mythic: Cathedral of Eternal Night","Greater Bronze Cache",60851,1677,-1,0,15559,0,0,0,35,237561,0,213623,0,0,0,0
-"Defeat L'ura in Seat of the Triumvirate on Heroic difficulty or higher.","Heroic: Seat of the Triumvirate","+1 Infinite Knowledge",60852,1753,-1,0,15559,0,0,0,36,1711340,0,213625,0,0,0,0
+"Defeat L'ura in Seat of the Triumvirate on Heroic difficulty or higher.","Heroic: Seat of the Triumvirate","+1 Infinite Knowledge",60852,1753,-1,0,15559,0,0,131072,36,1711340,0,213625,0,0,0,0
 "Defeat L'ura in Seat of the Triumvirate on Mythic difficulty.","Mythic: Seat of the Triumvirate","Greater Bronze Cache",60853,1753,-1,0,15559,0,0,0,37,1711336,0,213627,0,0,0,0
-"Defeat Viz'aduum the Watcher in Return to Karazhan on Heroic difficulty or higher.","Heroic: Return to Karazhan","+1 Infinite Knowledge",60854,1651,-1,0,15559,0,0,0,31,1530372,0,213629,0,0,0,0
-"Defeat Viz'aduum the Watcher in Return to Karazhan on Mythic difficulty.","Mythic: Return to Karazhan","+1 Infinite Knowledge",60855,1651,-1,0,15559,0,0,0,32,1530372,0,213631,0,0,0,0
+"Defeat Viz'aduum the Watcher in Return to Karazhan on Heroic difficulty or higher.","Heroic: Return to Karazhan","+1 Infinite Knowledge",60854,1651,-1,0,15559,0,0,131072,31,1530372,0,213629,0,0,0,0
+"Defeat Viz'aduum the Watcher in Return to Karazhan on Mythic difficulty.","Mythic: Return to Karazhan","+1 Infinite Knowledge",60855,1651,-1,0,15559,0,0,131072,32,1530372,0,213631,0,0,0,0
 "Defeat the following bosses within the clutches of The Emerald Nightmare.",Darkbough,"Minor Bronze Cache",60856,1520,-1,0,15560,0,0,131072,9,1413864,0,213633,0,0,0,0
 "Defeat the following corrupted protectors in The Emerald Nightmare.","Tormented Guardians","Minor Bronze Cache",60857,1520,-1,0,15560,0,0,131072,10,1413865,0,213637,0,0,0,0
 "Defeat Xavius in The Emerald Nightmare.","Rift of Aln","Minor Bronze Cache",60858,1520,-1,0,15560,0,0,0,11,1413871,0,213641,0,0,0,0
@@ -12672,15 +12672,15 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Trial of Valor on Mythic Difficulty without dying as a Hunter or Shaman.","The Deathless Marauder","Appearance: Chains of the Chosen Dead",61025,-1,-1,0,15560,0,0,0,65,1530373,0,215898,0,0,0,0
 "Complete Trial of Valor on Mythic Difficulty without dying as a Rogue, Druid, Demon Hunter or Monk.","The Deathless Wanderer","Appearance: Garb of the Chosen Dead",61026,-1,-1,0,15560,0,0,0,66,1530373,0,215900,0,0,0,0
 "Complete Trial of Valor on Mythic Difficulty without dying as a Warlock, Mage or Priest.","The Deathless Magus","Appearance: Regalia of the Chosen Dead",61027,-1,-1,0,15560,0,0,0,67,1530373,0,215902,0,0,0,0
-"Defeat 50 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer III","+1 Infinite Knowledge",61053,-1,-1,61058,15561,0,0,0,8,1723990,0,215819,0,0,0,0
-"Complete 50 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests III","Greater Bronze Cache",61054,-1,-1,61056,15561,0,0,0,4,7266188,0,215837,0,0,0,0
-"Activate 25 Timewarped Obelisks in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks III","Bronze Cache",61055,-1,-1,61060,15561,0,0,0,13,1378283,0,215827,0,0,0,0
-"Complete 30 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests II","Greater Bronze Cache",61056,-1,-1,61057,15561,0,0,0,3,7266188,0,215839,0,0,0,0
-"Complete 10 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests I","Greater Bronze Cache",61057,-1,-1,0,15561,0,0,0,2,7266188,0,215831,0,0,0,0
-"Defeat 10 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer II","Lesser Bronze Cache",61058,-1,-1,61059,15561,0,0,0,7,1723990,0,215817,0,0,0,0
-"Defeat an empowered enemy in Heroic World Tier as a Legion Timerunner.","Legionslayer I","Minor Bronze Cache",61059,-1,-1,0,15561,0,0,0,6,1723990,0,215815,0,0,0,0
-"Activate 5 Timewarped Obelisks in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks II","Bronze Cache",61060,-1,-1,61061,15561,0,0,0,12,1378283,0,215825,0,0,0,0
-"Activate a Timewarped Obelisk in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks I","Minor Bronze Cache",61061,-1,-1,0,15561,0,0,0,11,1378283,0,215823,0,0,0,0
+"Defeat 50 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer III","+1 Infinite Knowledge",61053,-1,-1,61058,15561,0,0,131072,8,1723990,0,215819,0,0,0,0
+"Complete 50 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests III","Greater Bronze Cache",61054,-1,-1,61056,15561,0,0,131072,4,7266188,0,215837,0,0,0,0
+"Activate 25 Timewarped Obelisks in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks III","Bronze Cache",61055,-1,-1,61060,15561,0,0,131072,13,1378283,0,215827,0,0,0,0
+"Complete 30 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests II","Greater Bronze Cache",61056,-1,-1,61057,15561,0,0,131072,3,7266188,0,215839,0,0,0,0
+"Complete 10 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests I","Greater Bronze Cache",61057,-1,-1,0,15561,0,0,131072,2,7266188,0,215831,0,0,0,0
+"Defeat 10 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer II","Lesser Bronze Cache",61058,-1,-1,61059,15561,0,0,131072,7,1723990,0,215817,0,0,0,0
+"Defeat an empowered enemy in Heroic World Tier as a Legion Timerunner.","Legionslayer I","Minor Bronze Cache",61059,-1,-1,0,15561,0,0,131072,6,1723990,0,215815,0,0,0,0
+"Activate 5 Timewarped Obelisks in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks II","Bronze Cache",61060,-1,-1,61061,15561,0,0,131072,12,1378283,0,215825,0,0,0,0
+"Activate a Timewarped Obelisk in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks I","Minor Bronze Cache",61061,-1,-1,0,15561,0,0,131072,11,1378283,0,215823,0,0,0,0
 ,"<DNT> Season 3 Midseason - Eco-Dome - Timed +12",,61062,-1,-1,0,15524,0,0,1048576,35,136243,0,215293,0,0,0,0
 ,"<DNT> Season 3 Midseason - Ara-Kara - Timed +12",,61063,-1,-1,0,15524,0,0,1048576,36,136243,0,215295,0,0,0,0
 ,"<DNT> Season 3 Midseason - Dawnbreaker - Timed +12",,61064,-1,-1,0,15524,0,0,1048576,37,136243,0,215297,0,0,0,0
@@ -12689,9 +12689,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<DNT> Season 3 Midseason - Tazavesh: Streets - Timed +12",,61067,-1,-1,0,15524,0,0,1048576,40,136243,0,215303,0,0,0,0
 ,"<DNT> Season 3 Midseason - Tazavesh: Gambit - Timed +12",,61068,-1,-1,0,15524,0,0,1048576,41,136243,0,215305,0,0,0,0
 ,"<DNT> Season 3 Midseason - Halls of Atonement - Timed +12",,61069,-1,-1,0,15524,0,0,1048576,42,136243,0,215307,0,0,0,0
-"Complete 100 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests IV","Appearance: Sargerei Commander's Voidscarred Regalia",61070,-1,-1,61054,15561,0,0,0,5,7266188,0,215835,0,0,0,0
-"Defeat 200 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer IV","Bronze Cache",61071,-1,-1,61053,15561,0,0,0,9,1723990,0,215821,0,0,0,0
-"Activate 100 Timewarped Obelisks in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks IV","Greater Bronze Cache",61072,-1,-1,61055,15561,0,0,0,14,1378283,0,215829,0,0,0,0
+"Complete 100 World Quests in Heroic World Tier as a Legion Timerunner.","Heroic Broken Isles World Quests IV","Appearance: Sargerei Commander's Voidscarred Regalia",61070,-1,-1,61054,15561,0,0,131072,5,7266188,0,215835,0,0,0,0
+"Defeat 200 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer IV","Bronze Cache",61071,-1,-1,61053,15561,0,0,131072,9,1723990,0,215821,0,0,0,0
+"Activate 100 Timewarped Obelisks in Heroic World Tier as a Legion Timerunner.","Power of the Obelisks IV","Greater Bronze Cache",61072,-1,-1,61055,15561,0,0,131072,14,1378283,0,215829,0,0,0,0
 "Complete all Legion Dungeons on Heroic difficulty with a Timerunner.","Heroic Legion Remix Dungeoneer","+1 Infinite Knowledge",61073,-1,-1,0,15559,0,0,131072,48,1711341,0,215331,0,0,0,0
 "Complete all Legion Dungeons on Mythic difficulty with a Timerunner.","Mythic Legion Remix Dungeoneer","+1 Infinite Knowledge",61074,-1,-1,0,15559,0,0,131072,49,1711341,0,215345,0,0,0,0
 "Complete any Legion Raid on heroic difficulty.","Heroic Legion Remix Raider","+1 Infinite Knowledge",61075,-1,-1,0,15560,0,0,131072,2,464118,0,215403,0,0,0,0
@@ -12722,9 +12722,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete each of the following Legion Dungeons on any difficulty with a Timerunner.","Legion Dungeons: Threats of the Isle","+1 Infinite Knowledge",61113,-1,-1,0,15559,0,0,131072,43,1536896,0,216128,0,0,0,0
 "Complete each of the following Legion Dungeons on any difficulty with a Timerunner.","Legion Dungeons: Power of the Ancients","+1 Infinite Knowledge",61114,-1,-1,0,15559,0,0,131072,44,1536896,0,216137,0,0,0,0
 "Complete each of the following Legion Dungeons on any difficulty with a Timerunner.","Legion Dungeons: Might of the Legion","+1 Infinite Knowledge",61115,-1,-1,0,15559,0,0,131072,45,1536896,0,216133,0,0,0,0
-"Complete the Withered Army Training scenario in Heroic World Tier with a score of 200 or higher.","Building a Heroic Army","Bronze Cache",61174,-1,-1,0,15561,0,0,0,15,1525726,0,216215,0,0,0,0
+"Complete the Withered Army Training scenario in Heroic World Tier with a score of 200 or higher.","Building a Heroic Army","Bronze Cache",61174,-1,-1,0,15561,0,0,131072,15,1525726,0,216215,0,0,0,0
 "Earn Exalted status with the Wardens with a Timerunner.","The Wardens","Bronze Cache",61218,-1,-1,0,15557,0,0,131072,8,1394958,0,216308,0,0,0,0
-"Defeat 500 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer V","Greater Bronze Cache",61323,-1,-1,61071,15561,0,0,0,10,1723990,0,216841,0,0,0,0
+"Defeat 500 empowered enemies in Heroic World Tier as a Legion Timerunner.","Legionslayer V","Greater Bronze Cache",61323,-1,-1,61071,15561,0,0,131072,10,1723990,0,216841,0,0,0,0
 ,"<Hidden>[DNT] Jewelry Unlocked",,61324,-1,-1,0,15554,0,0,11665412,40,136243,0,216847,0,0,0,0
 ,"<Hidden>[DNT] Jewelry Equipped",,61325,-1,-1,0,15554,0,0,11665412,41,136243,0,216857,0,0,0,0
 "Complete the Legion Remix campaign.","To Fel and Back","Appearance: Sargerei Commander's Felscorned Regalia",61337,-1,-1,42313,15556,0,0,131072,2,5199633,0,216944,0,0,0,0
