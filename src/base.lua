@@ -327,6 +327,20 @@ app.GetNameFromProviders = function(group)
 	end
 	return name
 end
+-- Returns the 'name' of a provider based on a given 'providerType' and 'providerID'
+app.GetNameFromProvider = function(pt, id)
+	if not pt or not id or id < 1 then return end
+
+	if pt == "o" then
+		return app.ObjectNames[id];
+	elseif pt == "i" then
+		return GetItemInfo(id);
+	elseif pt == "n" then
+		return app.NPCNameFromID[id];
+	elseif pt == "s" then
+		return app.GetSpellName(id)
+	end
+end
 
 -- Common Metatable Functions
 app.MetaTable = {}
