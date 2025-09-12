@@ -697,24 +697,24 @@ local function BuildDiscordQuestInfoTable(id, infoText, questChange, questRef, c
 		else
 			covInfo = covInfo .. "N/A";
 		end
-		if C_MajorFactions then
-			local MajorFactionIDs, majorFactionInfo, data = C_MajorFactions.GetMajorFactionIDs(10), {}, nil;
-			if MajorFactionIDs then
-				for _,factionID in ipairs(MajorFactionIDs) do
-					tinsert(majorFactionInfo, "|");
-					tinsert(majorFactionInfo, factionID);
-					data = C_MajorFactions.GetMajorFactionData(factionID);
-					if data then
-						tinsert(majorFactionInfo, ":");
-						tinsert(majorFactionInfo, data.name:sub(1,4));
-						tinsert(majorFactionInfo, ":");
-						tinsert(majorFactionInfo, data.renownLevel);
-					end
+		tinsert(info, covInfo);
+	end
+	if C_MajorFactions then
+		local MajorFactionIDs, majorFactionInfo, data = C_MajorFactions.GetMajorFactionIDs(10), {}, nil;
+		if MajorFactionIDs then
+			for _,factionID in ipairs(MajorFactionIDs) do
+				tinsert(majorFactionInfo, "|");
+				tinsert(majorFactionInfo, factionID);
+				data = C_MajorFactions.GetMajorFactionData(factionID);
+				if data then
+					tinsert(majorFactionInfo, ":");
+					tinsert(majorFactionInfo, data.name:sub(1,4));
+					tinsert(majorFactionInfo, ":");
+					tinsert(majorFactionInfo, data.renownLevel);
 				end
 			end
-			covInfo = covInfo .. " renown"..(app.TableConcat(majorFactionInfo))
+			tinsert(info, "renown:"..app.TableConcat(majorFactionInfo));
 		end
-		tinsert(info, covInfo);
 	end
 
 	if app.CurrentCharacter.Professions and #app.CurrentCharacter.Professions > 0 then
