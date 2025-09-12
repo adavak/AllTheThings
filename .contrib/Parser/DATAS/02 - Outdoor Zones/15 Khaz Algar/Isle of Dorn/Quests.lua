@@ -701,6 +701,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["provider"] = { "o", 423987 },	-- Dropped Package
 					["coords"] = {
 						{ 55.1, 59.3, ISLE_OF_DORN },
+						{ 55.5, 56.5, ISLE_OF_DORN },
 						{ 68.7, 52.5, ISLE_OF_DORN },
 						{ 61.5, 33.2, ISLE_OF_DORN },
 					},

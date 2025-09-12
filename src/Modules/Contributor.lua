@@ -37,19 +37,28 @@ end
 local function GetReportPlayerLocation()
 	local mapID, px, py, fake = app.GetPlayerPosition()
 	if fake then
-		return UNKNOWN..", "..UNKNOWN..", "..tostring(mapID or UNKNOWN).." ("..(app.GetMapName(mapID) or "??")..")"
+		return UNKNOWN..", "..UNKNOWN..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""
 	end
 	-- floor coords to nearest tenth
 	if px then px = round(px, 1) end
 	if py then py = round(py, 1) end
-	return tostring(px or UNKNOWN)..", "..tostring(py or UNKNOWN)..", "..tostring(mapID or UNKNOWN).." ("..(app.GetMapName(mapID) or "??")..")"
+	return tostring(px or UNKNOWN)..", "..tostring(py or UNKNOWN)..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""
 end
 
 local function DoReport(reporttype, id)
-	local dialogID = reporttype.."_"..id
+	local dialogID = reporttype.."-"..id
 	-- app.PrintDebug("Contributor.DoReport",reporttype,id)
 
 	local reportData = Reports[reporttype][id]
+	-- report-based fields
+	local chatlink = reportData.CHATLINK
+	reportData.CHATLINK = nil
+	-- ordered report data
+	local orderedReportData = {}
+	for i=1,#reportData do
+		orderedReportData[#orderedReportData + 1] = reportData[i]
+	end
+	app.wipearray(reportData)
 	-- keyed report data
 	local keyedData = {}
 	for k,v in pairs(reportData) do
@@ -57,20 +66,25 @@ local function DoReport(reporttype, id)
 	end
 	-- common report data
 	reportData[#reportData + 1] = "### "..reporttype..":"..id
-	reportData[#reportData + 1] = "```elixir"	-- discord fancy box start
-	for _,text in pairs(keyedData) do
-		reportData[#reportData + 1] = text
+	reportData[#reportData + 1] = "```vbnet"	-- discord fancy box start (testing: https://highlightjs.org/demo)
+	-- add ordered data
+	for i=1,#orderedReportData do
+		reportData[#reportData + 1] = orderedReportData[i]
+	end
+	-- add keyed data
+	for i=1,#keyedData do
+		reportData[#reportData + 1] = keyedData[i]
 	end
 	-- common report data
 	reportData[#reportData + 1] = "---- User Info ----"
 	reportData[#reportData + 1] = "PlayerLocation: "..GetReportPlayerLocation()
-	reportData[#reportData + 1] = "L:"..app.Level.." R:"..app.RaceID.." ("..app.Race..") C:"..app.ClassIndex.." ("..app.Class..")"
-	reportData[#reportData + 1] = "ver: "..app.Version
-	reportData[#reportData + 1] = "build: "..app.GameBuildVersion
+	reportData[#reportData + 1] = "Character: L:"..app.Level.." R:"..app.RaceID.." ("..app.Race..") C:"..app.ClassIndex.." ("..app.Class..")"
+	reportData[#reportData + 1] = "ATT: "..app.Version
+	reportData[#reportData + 1] = "GameBuild: "..app.GameBuildVersion
 	reportData[#reportData + 1] = "```";	-- discord fancy box end
 
 	if app:SetupReportDialog(dialogID, "Contributor Report: " .. dialogID, reportData) then
-		app.print(app:Linkify("Contributor Report: "..dialogID, app.Colors.ChatLinkError, "dialog:" .. dialogID));
+		app.print(app:Linkify(chatlink or "Contributor Report: "..dialogID, app.Colors.ChatLinkError, "dialog:" .. dialogID));
 		app.Audio:PlayReportSound();
 	end
 
@@ -79,7 +93,7 @@ local function DoReport(reporttype, id)
 	reportData.REPORTED = true
 end
 
-local function AddReportData(reporttype, id, data)
+local function AddReportData(reporttype, id, data, chatlink)
 	-- app.PrintDebug("Contributor.AddReportData",reporttype,id)
 	-- app.PrintTable(data)
 	local reportData = Reports[reporttype][id]
@@ -92,6 +106,8 @@ local function AddReportData(reporttype, id, data)
 	else
 		reportData[#reportData + 1] = tostring(data)
 	end
+
+	reportData.CHATLINK = chatlink
 	-- after adding data for a report, we will trigger that report shortly afterwards in case more data is added elsewhere within
 	-- that timeframe
 	DelayedCallback(DoReport, 0.25, reporttype, id)
@@ -99,6 +115,15 @@ end
 
 api.DoReport = function(id, text)
 	AddReportData("test", id, text)
+end
+api.AddReportData = AddReportData
+
+local function BuildGenericReportData(objRef, id)
+	return {
+		"id: "..id,
+		"type: "..(objRef and objRef.__type or UNKNOWN),
+		[objRef and objRef.key or "RefID"] = (objRef and objRef[objRef.key]) or UNKNOWN,
+	}
 end
 
 -- Used to override the precision of coord accuracy based on irregularly sized maps
@@ -152,7 +177,7 @@ local function Check_coords(objRef, id, maxCoordDistance)
 	if not coords then return end
 
 	local relCoords = not objRef.coords
-	local dist, sameMap, check
+	local dist, sameMap
 	local closest = 9999
 	maxCoordDistance = MapPrecisionOverrides[mapID] or maxCoordDistance or 1
 	for _,coord in ipairs(coords) do
@@ -166,22 +191,20 @@ local function Check_coords(objRef, id, maxCoordDistance)
 	if sameMap then
 		-- quest has an accurate coord on accurate map
 		if closest > maxCoordDistance then
+			local reportData = BuildGenericReportData(objRef, id)
 			-- round to the tenth
 			closest = round(closest, 1)
-			AddReportData(objRef.__type,id,{
-				[objRef.key or "ID"] = id,
-				VerifyOrAddCoords = ("Closest %s Coordinates are off by: %d on mapID: %d"):format(relCoords and "relative" or "existing", closest, mapID),
-			})
-			check = 1
+			reportData.VerifyOrAddCoords = ("Closest %s Coordinates are off by: %d on mapID: %d"):format(relCoords and "relative" or "existing", closest, mapID)
+			AddReportData(objRef.__type,id,reportData)
+			return 1
 		end
 	else
-		AddReportData(objRef.__type,id,{
-			[objRef.key or "ID"] = id,
-			MissingMap = "No Coordinates on current Map!",
-		})
-		check = 1
+		local reportData = BuildGenericReportData(objRef, id)
+		reportData.MissingMap = "No Coordinates on current Map!"
+		AddReportData(objRef.__type,id,reportData)
+		return 1
 	end
-	return check or true
+	return true
 end
 
 -- Temporary implementation until better, global DB(s) provides similar data references
@@ -1602,7 +1625,7 @@ local GuidTypeProviders = {
 }
 
 local ProviderTypeChecks = {
-	n = function(objID, objRef, providers, providerID)
+	n = function(objID, objRef, providers, providerID, reportData)
 		-- app.PrintDebug("Check.n",objID,providerID,app:SearchLink(objRef))
 		-- app.PrintTable(providers)
 		-- app.PrintTable(objRef.qgs)
@@ -1628,18 +1651,14 @@ local ProviderTypeChecks = {
 			end
 		end
 		if not found then
-			AddReportData(objRef.__type,objID, {
-				[objRef.key or "ID"] = objID,
-				QuestGiver = "Missing Quest Giver: "..providerID..", -- "..(app.NPCNameFromID[providerID] or UNKNOWN),
-			})
+			reportData.MissingProvider = "Missing Quest Giver!"
+			AddReportData(objRef.__type,objID,reportData)
 		end
 	end,
-	o = function(objID, objRef, providers, providerID)
+	o = function(objID, objRef, providers, providerID, reportData)
 		if not providers then
-			AddReportData(objRef.__type,objID, {
-				[objRef.key or "ID"] = objID,
-				QuestGiver = "Missing Object Provider: "..providerID..", -- "..(app.ObjectNames[providerID] or UNKNOWN),
-			})
+			reportData.MissingProvider = "Missing Object Provider!"
+			AddReportData(objRef.__type,objID,reportData)
 			return
 		end
 		local found
@@ -1647,10 +1666,8 @@ local ProviderTypeChecks = {
 			if provider[1] == "o" and provider[2] == providerID then found = 1 break end
 		end
 		if not found then
-			AddReportData(objRef.__type,objID, {
-				[objRef.key or "ID"] = objID,
-				QuestGiver = "Missing Object Provider: "..providerID..", -- "..(app.ObjectNames[providerID] or UNKNOWN),
-			})
+			reportData.MissingProvider = "Missing Object Provider!"
+			AddReportData(objRef.__type,objID,reportData)
 		end
 	end,
 	-- TODO: Items are weird, maybe handle eventually
@@ -1658,10 +1675,10 @@ local ProviderTypeChecks = {
 	-- end,
 }
 
-local function Check_providers(objID, objRef, providerType, id)
+local function Check_providers(objID, objRef, providerType, id, reportData)
 	local providerTypeCheck = ProviderTypeChecks[providerType]
 	if providerTypeCheck then
-		providerTypeCheck(objID, objRef, objRef.providers, id)
+		providerTypeCheck(objID, objRef, objRef.providers, id, reportData)
 	end
 end
 
@@ -1704,33 +1721,43 @@ local function OnQUEST_DETAIL(...)
 		end
 		return
 	end
-	app.PrintDebug(guidtype,providerid,app.NPCNameFromID[providerid] or app.ObjectNames[providerid]," => Quest #", questID)
+	local providerType = GuidTypeProviders[guidtype]
+	app.PrintDebug(guidtype,providerid,app.GetNameFromProvider(providerType, providerid)," => Quest #", questID)
+
+	local questData = BuildGenericReportData(objRef, questID)
+	questData.provider = providerid..", -- "..(app.GetNameFromProvider(providerType, providerid)
+		or (GameTooltipTextLeft1 and GameTooltipTextLeft1:GetText()) or UNKNOWN)
+	questData.providerType = providerType
 
 	-- check coords
 	if not IgnoredChecksByType[guidtype].coord(providerid) then
-		if not Check_coords(objRef, objRef.keyval) then
+		local checkCoords = Check_coords(objRef, objRef.keyval)
+		if not checkCoords then
 			-- is this quest listed directly under an NPC which has coords instead? check that NPC for coords
 			-- e.g. Garrison NPCs Bronzebeard/Saurfang
 			local questParent = objRef.parent
 			if questParent and questParent.__type == "NPC" then
-				if not Check_coords(questParent, questParent.keyval) then
-					AddReportData(objRef.__type,questID,{
-						[objRef.key or "ID"] = questID,
-						MissingCoords = "No Coordinates for this quest under NPC!",
-					})
+				checkCoords = Check_coords(questParent, questParent.keyval)
+				if not checkCoords then
+					questData.MissingCoordsUnderNPC = "No Coordinates for this quest under NPC!"
+					AddReportData(objRef.__type,questID,questData)
+				elseif checkCoords == 1 then
+					-- Check_coords did a report, so add more info for the quest parent
+					AddReportData(questParent,questParent.keyval,questData)
 				end
 			else
-				AddReportData(objRef.__type,questID,{
-					[objRef.key or "ID"] = questID,
-					MissingCoords = "No Coordinates for this quest!",
-				})
+				questData.MissingCoords = "No Coordinates for this quest!"
+				AddReportData(objRef.__type,questID,questData)
 			end
+		elseif checkCoords == 1 then
+			-- Check_coords did a report, so add more info
+			AddReportData(objRef.__type,questID,questData)
 		end
 	end
 
 	-- check provider
 	if not IgnoredChecksByType[guidtype].provider(providerid) then
-		Check_providers(questID, objRef, GuidTypeProviders[guidtype], providerid)
+		Check_providers(questID, objRef, GuidTypeProviders[guidtype], providerid, questData)
 	end
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.Done")
 end
@@ -1782,12 +1809,13 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	if not IgnoredChecksByType[guidtype].coord(id) then
 		-- object auto-detect can happen from rather far, so using 2 distance
 		local objID = objRef.keyval
-		if not Check_coords(objRef, objID, 2) then
-			AddReportData(objRef.__type,objID,{
-				[objRef.key or "ID"] = objID,
-				["objectID"] = id,
-				MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type),
-			})
+		local checkCoords = Check_coords(objRef, objID, 2)
+		if not checkCoords then
+			local reportData = BuildGenericReportData(objRef, id)
+			reportData.MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type)
+			AddReportData(objRef.__type,objID,reportData)
+		elseif checkCoords == 1 then
+			-- no extra data to add for object detection
 		end
 	end
 end
@@ -1812,12 +1840,11 @@ local SpellIDHandlers = setmetatable({
 		objRef = UnknownObjectsCache[id]
 		local objID = objRef.keyval
 		-- report openable object
-		AddReportData(objRef.__type,objID,{
-			[objRef.key or "ID"] = objID,
-			["objectID"] = id,
-			NotSourced = "Openable Object not Sourced!",
-			Name = tooltipName or "(No Tooltip Text Available)",
-		})
+		local reportData = BuildGenericReportData(objRef, id)
+		reportData.NotSourced = "Openable Object not Sourced!"
+		reportData.Name = tooltipName or "(No Tooltip Text Available)"
+		reportData.objectID = id
+		AddReportData(objRef.__type,objID,reportData)
 	end
 }, { __index = function(t, key)
 	if app.Debugging then
