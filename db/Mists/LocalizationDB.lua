@@ -1311,6 +1311,7 @@ localize(L.HEADER_NAMES, {
 	[-655] = "Celestial Dungeons",
 	[-656] = "Brawler's Guild",
 	[-657] = "Krasarang Wilds Campaign",
+	[-658] = select(2,GetAchievementInfo(61406)),
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -1585,6 +1586,7 @@ localize(L.HEADER_ICONS, {
 	[-654] = 134427,
 	[-655] = 840010,
 	[-656] = 132356,
+	[-658] = 133783,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -1608,6 +1610,7 @@ localize(L.HEADER_EVENTS, {
 	[-588] = 6,
 	[-591] = 133900,
 	[-592] = 242,
+	[-658] = 1501,
 });
 localize(L.EVENT_REMAPPING, {
 	[141] = 14,
@@ -1693,6 +1696,9 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=23,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=23,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=30,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=30,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026})
+});
+_.Modules.Events.SetEventInformation(1501, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -9299,7 +9305,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Mogu'shan Vaults.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1753956000,
+		release = 1753988400,
 		state = 2,
 	},
 	[5002] = {
@@ -9308,7 +9314,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Celestial Dungeons with MSV loot.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1754992800,
+		release = 1755025200,
 		state = 2,
 	},
 	[5003] = {
@@ -9317,7 +9323,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1755770400,
+		release = 1755802800,
 		state = 2,
 	},
 	[5004] = {
@@ -9326,7 +9332,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Tier 14 Gear from Sha of Anger.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756202400,
+		release = 1756234800,
 		state = 2,
 	},
 	[5005] = {
@@ -9335,7 +9341,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756807200,
+		release = 1756839600,
 		state = 2,
 	},
 	[5006] = {
@@ -9344,7 +9350,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756980000,
+		release = 1757012400,
 		state = 2,
 	},
 	[5007] = {
@@ -9353,7 +9359,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1758016800,
+		release = 1758049200,
 		state = 2,
 	},
 	[51] = {
