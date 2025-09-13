@@ -1673,7 +1673,6 @@ root(ROOTS.Unsorted, {
 				i(159900),	-- Caraway Rye Loaf
 				i(159919),	-- Salted Tideway Cod
 				i(159920),	-- Fermented Greatshark
-				i(160092),	-- Pineapple Pizza
 				i(160483),	-- Steamed Clams
 				i(160518),	-- Great Turtle Soup
 				i(160554),	-- Stormsong Sourdough

@@ -1353,9 +1353,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			r(444793),	-- Dornish Pike
 			r(454442),	-- Fishing Skill and You
 			r(444790),	-- Goldengill Trout
-			r(456590),	-- Hallowfall
+			r(456590, {["learnedAt"]=150}),	-- Hallowfall
 			r(444797),	-- Kaheti Slum Shark
-			r(456180),	-- Mereldar Fishing Derby
+			r(456180, {["learnedAt"]=150}),	-- Mereldar Fishing Derby
 			r(444788),	-- Nibbling Minnow
 			r(444798),	-- Pale Huskfish
 			r(444801),	-- Queen's Lurefish

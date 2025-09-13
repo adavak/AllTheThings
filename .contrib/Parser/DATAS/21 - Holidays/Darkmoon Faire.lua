@@ -504,6 +504,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				}),
 				i(124670, {	-- Sealed Darkmoon Crate
 					["timeline"] = { ADDED_6_2_0 },
+					["groups"] = {
+						i(160092, {["timeline"] = { ADDED_8_0_1 },}),	-- Pineapple Pizza
+					},
 				}),
 				i(164973, {	-- Severed Azurefin Head
 					["timeline"] = { ADDED_8_1_5 },
