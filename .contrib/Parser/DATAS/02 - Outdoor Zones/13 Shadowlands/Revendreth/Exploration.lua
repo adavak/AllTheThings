@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			exploration(10994),	-- Charred Ramparts
 			exploration(11435),	-- Cinderwall
 			visit_exploration(13442,{coord={26.6,58.2,REVENDRETH}}),	-- Cinderwall Spire
-			visit_exploration(12827,{coord={42.4,37.2,REVENDRETH}}),	-- Court of the Harvesters
+			visit_exploration(10984,{coord={42.4,37.2,REVENDRETH}}),	-- Court of the Harvesters
 			exploration(10998),	-- Crypt of the Forgotten
 			exploration(10979),	-- Darkhaven
 			exploration(11003),	-- Darkwall Tower
