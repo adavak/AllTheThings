@@ -321,11 +321,11 @@ root(ROOTS.PVP, {
 							i(77786),	-- Replica First Sergeant's Silk Cuffs
 							i(77788),	-- Replica First Sergeant's Silk Cuffs
 						}),
-						filter(PLATE, {
-							i(77861),	-- Replica First Sergeant's Plate Bracers
-						}),
 						filter(MAIL, {
 							i(77835),	-- Replica First Sergeant's Mail Wristguards
+						}),
+						filter(PLATE, {
+							i(77861),	-- Replica First Sergeant's Plate Bracers
 						}),
 						cl(DRUID, {
 							i(120984),	-- Replica Blood Guard's Dragonhide Belt
