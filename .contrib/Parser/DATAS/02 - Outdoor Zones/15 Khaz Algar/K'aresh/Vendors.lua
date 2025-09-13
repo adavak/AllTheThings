@@ -58,9 +58,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					i(246903, {	-- Guise of the Phase Diver (TOY!)
 						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
-						-- #if BEFORE 11.2.5
-						["description"] = "Dont use this toy on the Dimensius Bossfight in the Manaforge Raid or you die on pull.",
-						-- #endif
 					}),
 					i(244336, {	-- K'aresh Box of Resonance Crystals
 						["cost"] = { { "c", 3303, 1 }, },	-- Untethered Coin
