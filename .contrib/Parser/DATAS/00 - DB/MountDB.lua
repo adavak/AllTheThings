@@ -805,6 +805,16 @@ i(107951, 153489);	-- Iron Skyreaver
 -----------------
 i(109013, 155741);	-- Dread Raven
 
+-- #if ANYCLASSIC
+-----------------
+-- PATCH 5.5.0 --
+-----------------
+i(248741, 1247591);	-- Celestial Riding Crane
+i(248744, 1247597);	-- Celestial Riding Ox
+i(248743, 1247596);	-- Celestial Riding Serpent
+i(248742, 1247598);	-- Celestial Riding Tiger
+-- #endif
+
 -----------------
 -- PATCH 6.0.2 --
 -----------------
