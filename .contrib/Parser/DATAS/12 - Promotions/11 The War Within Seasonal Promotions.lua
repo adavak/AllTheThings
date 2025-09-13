@@ -105,7 +105,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 1
 			i(232305, {	-- Forged Champion's Prestigious Banner (TOY!)(PVP)
-				["description"] = "Arena World Championship: TWW Season 1\n\nSign up on Raider.io for any of the 4 Cups, available until October 13th 2024, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments/AWC",
+				["description"] = "Arena World Championship: TWW Season 1\n\nSign up on Raider.io for any of the 4 Cups, available until October 13th 2024, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments/AWC",
 				["timeline"] = { ADDED_11_0_5, REMOVED_11_0_5 },
 			}),
 			i(232301, {	-- Tempered Banner of the Algari (TOY!)
@@ -249,11 +249,11 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 2
 			i(232306, {	-- Prized Champion's Prestigious Banner (TOY!)(PVP)
-				["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
+				["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments",
 				["timeline"] = { ADDED_11_1_5, REMOVED_11_1_5 },
 			}),
 			i(232302, {	-- Prized Banner of the Algari (TOY!)
-				["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
+				["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",
 				["timeline"] = { ADDED_11_1_5, REMOVED_11_1_5 },
 			}),
 			i(238796, {	-- Thrrrdgl (PET!)
@@ -288,12 +288,12 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			})),
 			i(232307, {	-- Astral Champion's Prestigious Banner (TOY!)(PVP)
-				["description"] = "Arena World Championship: TWW Season 3\n\nSign up on Raider.io for any of the 3 Cups, available until October 22nd 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
+				["description"] = "Arena World Championship: TWW Season 3\n\nSign up on Raider.io for any of the 3 Cups, available until October 22nd 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments",
 				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_7 },	-- Removed after 11.2.5 Release
 			--	["u"] = REMOVED_FROM_GAME,	-- 26th September 2024
 			}),
 			i(232303, {	-- Unbound Banner of the Algari (TOY!)
-				["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
+				["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",
 				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_5 },	-- Removed before 11.2.5 Release
 			}),
 			i(246343, {	-- Scruffyhorn Fel Snooter (PET!)
@@ -303,8 +303,8 @@ root(ROOTS.Promotions, {
 			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
-		--	PVE	["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
-		--	PVP	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
+		--	PVE	["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",
+		--	PVP	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments",
 		--		["timeline"] = { ADDED_11_0_2 },
 		--		["icon"] = 4731630,
 		--		["name"] = "Tempered Banner of the Algari (TOY!)(PVE)"
