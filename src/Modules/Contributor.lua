@@ -36,13 +36,15 @@ end
 
 local function GetReportPlayerLocation()
 	local mapID, px, py, fake = app.GetPlayerPosition()
+	local difficultyID = app.GetCurrentDifficulty()
+	local diffVal = (difficultyID and difficultyID ~= 0 and ("Diff: "..difficultyID) or "")
 	if fake then
-		return UNKNOWN..", "..UNKNOWN..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""
+		return UNKNOWN..", "..UNKNOWN..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""..diffVal
 	end
 	-- floor coords to nearest tenth
 	if px then px = round(px, 1) end
 	if py then py = round(py, 1) end
-	return tostring(px or UNKNOWN)..", "..tostring(py or UNKNOWN)..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""
+	return tostring(px or UNKNOWN)..", "..tostring(py or UNKNOWN)..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""..diffVal
 end
 
 local function DoReport(reporttype, id)
