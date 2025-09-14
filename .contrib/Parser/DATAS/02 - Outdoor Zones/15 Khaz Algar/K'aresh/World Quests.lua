@@ -86,12 +86,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(85822, {	-- Making a Market
 					["coord"] = { 58.8, 58.9, KARESH },
 					["groups"] = {
-						o(495603, {	--  Loose Sand
+						o_repeated({
 							i(232578),	-- Wastelander Artifact (QI!)
 							i(232626),	-- Wastelander Artifact (QI!)
 							i(232625),	-- Wastelander Artifact (QI!)
 							i(232627),	-- Wastelander Artifact (QI!)
 							i(232628),	-- Wastelander Artifact (QI!)
+							o(495603),	-- Loose Sand
+							o(495605),	-- Sealed Coffer
 						}),
 					},
 				}),

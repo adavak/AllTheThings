@@ -1672,7 +1672,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(238915) },	-- Anima Orb (PQI!)
 					}),
 					q(89197, {	-- Ray Ranching
-						["qg"] = 231820,	-- Ve'nari
+						["qg"] =  230736,	-- Om'talad
 						["coord"] = { 75.9, 34.2, KARESH },
 						["isDaily"] = true,
 						["groups"] = { i(238910) },	-- Lasso (QI!)

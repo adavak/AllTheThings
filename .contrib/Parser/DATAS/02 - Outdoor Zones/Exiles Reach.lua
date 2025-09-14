@@ -437,7 +437,10 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(174074),	-- Cooked Meat (QI!)
+						o(349962, {	-- Campfire
+							["coord"] = { 58.5, 74.5, EXILES_REACH },
+							["groups"] = { i(174074) },	-- Cooked Meat (QI!)
+						}),
 						i(174072),	-- Raw Meat (QI!)
 					},
 				}),
@@ -447,7 +450,10 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(174074),	-- Cooked Meat (QI!)
+						o(339769, {
+							["coord"] = { 58.5, 74.5, EXILES_REACH },
+							["groups"] = { i(174074) },	-- Cooked Meat (QI!)
+						}),
 						i(174072),	-- Raw Meat (QI!)
 					},
 				}),
@@ -777,6 +783,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(85678, {	-- Repair Yourself [A]
+					["qg"] = 156807,	-- Captain Garrick
 					["coord"] = { 52.2, 55.2, EXILES_REACH },
 					["timeline"] = { ADDED_11_1_7 },
 					["races"] = ALLIANCE_ONLY,
