@@ -19,7 +19,7 @@ local api = {};
 app.Modules.Symlink = api;
 
 -- Module locals
-local ResolveSymbolicLink, FinalizeModID, PruneFinalized, FillFinalized, SelectMod, CreateObject, NestObject, NestObjects, CleanInheritingGroups, MergeProperties, ExpandGroupsRecursively, MergeObjects, PriorityNestObjects, GetGroupItemIDWithModID, GetItemIDAndModID
+local ResolveSymbolicLink, FinalizeModID, PruneFinalized, FillFinalized, SelectMod, CreateObject, NestObject, NestObjects, CleanInheritingGroups, MergeProperties, ExpandGroupsRecursively, MergeObjects, PriorityNestObjects, GetGroupItemIDWithModID, GetItemIDAndModID, FillGroups
 
 app.AddEventHandler("OnLoad", function()
 	CreateObject = app.__CreateObject
@@ -61,6 +61,10 @@ app.AddEventHandler("OnLoad", function()
 	GetItemIDAndModID = app.GetItemIDAndModID
 	if not GetItemIDAndModID then
 		error("Symlink Module requires app.GetItemIDAndModID definition!")
+	end
+	FillGroups = app.FillGroups
+	if not FillGroups then
+		error("Symlink Module requires app.FillGroups definition!")
 	end
 end)
 
@@ -506,11 +510,10 @@ local ResolveFunctions = {
 			if #searchResults == 0 then return end
 			local orig = CloneArray(searchResults);
 			wipe(searchResults);
-			local Fill = app.FillGroups
 			local result
 			for k=1,#orig do
 				result = CreateObject(orig[k])
-				Fill(result)
+				FillGroups(result)
 				searchResults[#searchResults + 1] = result
 			end
 		else
