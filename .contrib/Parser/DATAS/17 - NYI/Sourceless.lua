@@ -340,7 +340,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(153401),	-- Whaler's Pike
 				i(158509),	-- Tideshaper Staff
 				i(158506),	-- Scalawags Claymore
-				i(161924),	-- Seapriest's Wand (A) (never addedd)
 
 				-- Nazmir items = Drustvar quest rewards
 
@@ -375,7 +374,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(154972),	-- Tomb-Rustler's Polearm
 				i(166887),	-- Pakura Priest Staff
 				i(158568),	-- Mojo-Drainer Staff
-				i(152871),	-- Seapriest's Wand
 				i(158580),	-- Loa-Claimer's Wariglaives
 			})),
 		}),
