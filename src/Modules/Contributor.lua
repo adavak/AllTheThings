@@ -36,7 +36,7 @@ end
 
 local function GetReportPlayerLocation()
 	local mapID, px, py, fake = app.GetPlayerPosition()
-	local difficultyID = app.GetCurrentDifficulty()
+	local difficultyID = app.GetCurrentDifficultyID()
 	local diffVal = (difficultyID and difficultyID ~= 0 and ("Diff: "..difficultyID) or "")
 	if fake then
 		return UNKNOWN..", "..UNKNOWN..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\""..diffVal
