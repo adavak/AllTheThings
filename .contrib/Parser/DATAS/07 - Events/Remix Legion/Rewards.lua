@@ -15,6 +15,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 
 		------ Weapon Empowerement ------
 		i(245925),	-- Artifactium Sand
+		i(249891),	-- Mound of Artifactium Sand
 
 		------ Common Memento ------
 		i(242513),	-- Memento of Epoch Collections

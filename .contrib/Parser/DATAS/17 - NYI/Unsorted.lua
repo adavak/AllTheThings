@@ -192,7 +192,6 @@ root(ROOTS.Unsorted, {
 			i(247489),	-- Aristocrat's Winter Drape
 			i(247490),	-- Feathermane Feather Cloak
 			i(247491),	-- Cloak of Multitudinous Sheaths
-			i(247492),	-- Fashionable Autumn Cloak
 			i(247493),	-- Mana-Cord of Deception
 			i(247494),	-- Waistclasp of Unethical Power
 			i(247495),	-- Vintage Duskwatch Cinch
@@ -354,7 +353,6 @@ root(ROOTS.Unsorted, {
 			i(249862),	-- [PH] Teal Winter Padded Shoulder
 			i(249863),	-- [PH] Orange Winter Padded Shoulder
 			i(249864),	-- [PH] Purple Winter Padded Shoulder
-			i(249891),	-- Mound of Artifactium Sand
 			i(249906),	-- Villager's Forest Cap
 			i(249908),	-- Villager's Forest Handwraps
 			i(249909),	-- Villager's Forest Tunic
@@ -549,11 +547,9 @@ root(ROOTS.Unsorted, {
 			i(253160),	-- Loyal Watchman's Helm
 			i(253222),	-- Corrupted Thorn of the Dream
 			i(253223),	-- Fractal Felshard
-			i(253224),	-- Mote of the Unmaker's Heart
 			i(253286),	-- Scythe of the Unmaker
 			i(253520),	-- Enclave Aspirant's Hatchet
 			i(253573),	-- Cerulean Phase-Hunter (MOUNT!)
-			i(253574),	-- Everlasting Rock
 			i(253867),	-- Cache of Infinite Treasure
 		})),
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {

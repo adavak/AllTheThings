@@ -474,6 +474,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(131734, {	-- Spirit of Eche'ro (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 40000 }},
 				}),
+				i(140495, {	-- Torn Invitation (QS!) / Reins of the Llothien Prowler (MOUNT!)
+					["cost"] = {{ "c", BRONZE, 40000 }},
+				}),
 				------ Locked behind: Rise of the Nightfallen ------
 				i(137575, {	-- Fiendish Hellfire Core (MOUNT!)
 					["cost"] = {{ "c", BRONZE, 100000 }},
@@ -910,7 +913,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(254320, {	-- Elixir of Remembered Sight
 						["description"] = "|cFFE50D12NOT CONSUMED ON USE:|r If you, by any chance, destroyed the one you received from the quest, buy only 1.",
 					}),
-					i(250316),	-- Everlasting Nosh
+					i(250316, {	-- Everlasting Nosh
+						["races"] = exclude({ EARTHEN_ALLIANCE, EARTHEN_HORDE }, ALL_RACES),
+					}),
+					i(253574, {	-- Everlasting Rock
+						["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
+					}),
 					i(188152),	-- Gateway Control Shard
 					i(226037),	-- Timeless Neural Silencer
 				}),
@@ -1018,14 +1026,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}),
 						iensemble(255006, {	-- Taeshalach (COSMETIC!)
 							["cost"] = {
-								{ "i", 242370, 20 },	-- Horns of the First Satyr
+								{ "i", 253306, 20 },	-- Everflame of Hatred
 								{ "c", BRONZE, 30000 },
 							},
 						}),
 						i(242368, {	-- The First Satyr's Spaulders (COSMETIC!)
 							["ItemAppearanceModifierID"] = 1,
 							["cost"] = {
-								{ "i", 253306, 20 },	-- Everflame of Hatred
+								{ "i", 242370, 20 },	-- Horns of the First Satyr
 								{ "c", BRONZE, 30000 },
 							},
 						}),
