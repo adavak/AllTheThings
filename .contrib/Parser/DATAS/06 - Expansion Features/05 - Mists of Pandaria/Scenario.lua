@@ -1310,7 +1310,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				})),
 				applyclassicphase(MOP_PHASE_ESCALATION, i(98134, {	-- Heroic Cache of Treasures
 					["timeline"] = { ADDED_5_3_0, REMOVED_9_0_1 },
-					["sym"] = {{"select","itemID",98546},{"pop"}},
+					["sym"] = {{"select","itemID",98546},{"groupfill"}},
 					-- no longer available to queue random scenarios post 9.0 squish
 				})),
 			}),
