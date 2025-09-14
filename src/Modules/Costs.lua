@@ -13,8 +13,8 @@ local PlayerHasToy, C_CurrencyInfo_GetCurrencyInfo
 	= PlayerHasToy, C_CurrencyInfo.GetCurrencyInfo
 
 -- App locals
-local SearchForFieldContainer, GetRawField, GetRelativeByFunc, SearchForObject
-	= app.SearchForFieldContainer, app.GetRawField, app.GetRelativeByFunc, app.SearchForObject
+local SearchForFieldContainer, GetRawField, GetRelativeByFunc, SearchForObject, IsComplete
+	= app.SearchForFieldContainer, app.GetRawField, app.GetRelativeByFunc, app.SearchForObject, app.IsComplete
 local OneTimeQuests = app.EmptyTable
 local GetItemCount = app.WOWAPI.GetItemCount
 local IsSpellKnownHelper, CreateObject, FillGroups
@@ -572,6 +572,37 @@ app.CollectibleAsCost = function(t)
 	t.collectibleAsCost = nil;
 	CACChain[thash] = nil
 end
+local function CalculateGroupsCostAmount(g, costID, includedHashes)
+	local o, subg, subcost, c
+	local cost = 0
+	for i=1,#g do
+		o = g[i]
+		subcost = o.visible and not IsComplete(o) and o.cost or nil
+		if not includedHashes[o.hash] and subcost and type(subcost) == "table" then
+			for j=1,#subcost do
+				c = subcost[j]
+				if c[2] == costID then
+					includedHashes[o.hash] = true
+					cost = cost + c[3];
+					break
+				end
+			end
+		end
+		subg = o.g
+		if subg then
+			cost = cost + CalculateGroupsCostAmount(subg, costID, includedHashes)
+		end
+	end
+	return cost
+end
+-- Returns the total amount of 'costID' for all non-collected Things within the group (not including the group itself)
+local function CalculateTotalCosts(group, costID)
+	-- app.PrintDebug("CalculateTotalCosts",group.hash,costID)
+	local g = group and group.g
+	local cost = g and CalculateGroupsCostAmount(g, costID, {}) or 0
+	-- app.PrintDebug("CalculateTotalCosts",group.hash,costID,"=>",cost)
+	return cost
+end
 
 -- Costs API Implementation
 -- Access via AllTheThings.Modules.Costs
@@ -600,7 +631,22 @@ app.AddEventHandler("OnAfterSavedVariablesAvailable", function(currentCharacter,
 	OneTimeQuests = accountWideData.OneTimeQuests
 end)
 app.AddEventHandler("OnRecalculate_NewSettings", UpdateCosts)
+-- Information Types
+app.AddEventHandler("OnLoad", function()
+	app.Settings.CreateInformationType("Cost_Calculation", {
+		text = "Cost_Calculation",
+		priority = 2.91, HideCheckBox = true, ForceActive = true,
+		Process = function(t, reference, tooltipInfo)
+			if not app.Settings:GetTooltipSetting("Currencies") then return end
 
+			local id = reference[reference.key]
+			local currencyCount = CalculateTotalCosts(reference, id)
+			if currencyCount > 0 then
+				tooltipInfo[#tooltipInfo + 1] = { left = L.CURRENCY_NEEDED_TO_BUY, right = app.formatNumericWithCommas(currencyCount) }
+			end
+		end
+	})
+end)
 -- Cost Capture Handling
 do
 	local setmetatable, tonumber, wipe = setmetatable, tonumber, wipe
@@ -624,7 +670,7 @@ do
 		-- app.PrintDebug("AGC",app:SearchLink(o),o.visible,amount)
 		-- if we're adding a specific amount, then we ignore the duplicate prevention
 		if not amount then
-			if app.IsComplete(o) then return end
+			if IsComplete(o) then return end
 			-- only add costs once per hash in case it is duplicated
 			local hash = o.hash
 			if not hash or Collector.Hashes[hash] then return end
@@ -637,6 +683,11 @@ do
 		if not cost and not providers then return; end
 
 		amount = amount or 1
+		-- app.PrintDebug("AGC.Needed",
+		-- 	o.visible and "VISIBLE",
+		-- 	o.saved and "SAVED",
+		-- 	o.collectible and "COLLECTIBLE",
+		-- 	o.collected and "COLLECTED",amount)
 		-- Gold cost currently ignored
 		-- app.PrintDebug("AGC:Add",o.hash)
 		-- app.PrintTable(cost)
