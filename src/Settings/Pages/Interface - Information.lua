@@ -542,6 +542,7 @@ local function AppendInformationTextEntry(entry)
 	tinsert(AppendedInformationTextEntries, entry);
 end
 settings.AppendInformationTextEntry = AppendInformationTextEntry;
+local AccountWideIcon = app.GameBuildVersion >= 110005 and "|T6124644:0:0:0:0:64:64:4:60:4:60|t " or "|T413589:0:0:0:0:64:64:4:60:4:60|t "
 
 -- All of the Default Information Types.
 local InformationTypes = {
@@ -994,9 +995,11 @@ local InformationTypes = {
 		Process = function(t, reference, tooltipInfo)
 			local questID = reference.questID
 			if not questID then return end
+
+			local account = app.AccountWideQuestsDB[questID]
 			tinsert(tooltipInfo, {
 				left = L.QUEST_ID,
-				right = reference.questID.." "..app.GetCompletionIcon(app.IsQuestFlaggedCompleted(questID)),
+				right = reference.questID.." "..(account and AccountWideIcon or "")..app.GetCompletionIcon(app.IsQuestFlaggedCompleted(questID)),
 			});
 		end
 	}),
