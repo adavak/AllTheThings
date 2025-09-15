@@ -1073,6 +1073,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["description"] = "Shirts are only available to those who have already earned them.",
 				-- #endif
 				["groups"] = {
+					-- #if BEFORE WOD
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93858, {	-- Brawler's Bladed Claws (Pre-WoD)
+						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+					})),
+					-- #endif
 					i(142403, {	-- Brawler's Burly Basilisk (MOUNT!) unobtainable as of BFA prepatch
 						["timeline"] = { ADDED_7_1_0, REMOVED_8_0_1 },
 					}),
@@ -1085,6 +1090,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					i(167812, {	-- Brawlers Guild Tabard
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
+					-- #if BEFORE WOD
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(92948, {	-- Brawler's Razor Claws (Pre-WoD)
+						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+					})),
+					-- #endif
 					i(122396, {	-- Brawler's Razor Claws
 						["timeline"] = { ADDED_6_1_0, REMOVED_9_0_2_LAUNCH },
 					}),
@@ -1164,6 +1174,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["description"] = "Shirts are only available to those who have already earned them.",
 				-- #endif
 				["groups"] = {
+					-- #if BEFORE WOD
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93858, {	-- Brawler's Bladed Claws (Pre-WoD)
+						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+					})),
+					-- #endif
 					i(142403, {	-- Brawler's Burly Basilisk (MOUNT!) unobtainable as of BFA prepatch
 						["timeline"] = { ADDED_7_1_0, REMOVED_8_0_1 },
 					}),
@@ -1176,6 +1191,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					i(167811, {	-- Brawlers Guild Tabard
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
+					-- #if BEFORE WOD
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(92948, {	-- Brawler's Razor Claws (Pre-WoD)
+						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+					})),
+					-- #endif
 					i(122396, {	-- Brawler's Razor Claws
 						["timeline"] = { ADDED_6_1_0, REMOVED_9_0_2_LAUNCH },
 					}),
