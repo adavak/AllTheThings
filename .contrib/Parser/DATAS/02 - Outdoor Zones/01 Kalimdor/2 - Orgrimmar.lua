@@ -2577,11 +2577,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(5611, {	-- Barkeep Morag
-					-- #if BEFORE 4.0.3
-					["coord"] = { 54.0, 67.0, ORGRIMMAR },	-- The Broken Tusk
-					-- #else
-					["coord"] = { 55.1, 77.9, ORGRIMMAR },	-- The Broken Tusk
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.1, 77.9, ORGRIMMAR },	-- The Broken Tusk
+						-- #else
+						{ 54.0, 67.0, ORGRIMMAR },	-- The Broken Tusk
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 				}),
 				n(52809, {	-- Blax Bottlerocket <Toys and Novelties>
@@ -2716,11 +2718,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #if BEFORE TBC
 					["description"] = "Found within the Hall of Legends.",
 					["maps"] = { ORGRIMMAR },
-					-- #elseif BEFORE CATA
-					["coord"] = { 40.6, 69.5, ORGRIMMAR },
-					-- #else
-					["coord"] = { 37.8, 72.1, ORGRIMMAR },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 37.8, 72.1, ORGRIMMAR },
+						-- #else
+						{ 40.6, 69.5, ORGRIMMAR },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(18607),	-- Horde Battle Standard
