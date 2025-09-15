@@ -2718,6 +2718,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #if BEFORE TBC
 					["description"] = "Found within the Hall of Legends.",
 					["maps"] = { ORGRIMMAR },
+					-- #endif
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 37.8, 72.1, ORGRIMMAR },
@@ -4505,11 +4506,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 				}),
 				n(12796, {	-- Raider Bork <War Mount Quartermaster> [WRATH+] / Raider Bork <Mount Quartermaster>
-					-- #if BEFORE WRATH
+						-- #if BEFORE WRATH
 						["description"] = "Found within the Hall of Legends.",
-					-- #else
+						-- #else
 						["coord"] = { 41.8, 72.6, ORGRIMMAR },
-					-- #endif
+						-- #endif
 					["races"] = HORDE_ONLY,
 					["groups"] = pvp({
 						i(29466, {	-- Black War Kodo (MOUNT!)
