@@ -29,7 +29,9 @@ root(ROOTS.Craftables, {
 							})),
 							i(103670),	-- Lil' Bling (PET!)
 							i(90561, {	-- Eternium Rose
+								-- #if AFTER 6.2.0
 								["description"] = "Can be turned in in Booty Bay for a bag of gold!",
+								-- #endif
 							}),
 						},
 					}),
