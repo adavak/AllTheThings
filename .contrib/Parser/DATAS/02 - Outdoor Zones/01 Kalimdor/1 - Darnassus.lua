@@ -471,11 +471,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(7671, {	-- Frostsaber Replacement
 					["description"] = "If you are one of the poor unfortunate souls that turned in your unique mount for one of the generic mounts I'm so sorry.",
 					["qg"] = 4730,	-- Lelanai
-					-- #if AFTER CATA
-					["coord"] = { 42.6, 32.8, DARNASSUS },
-					-- #else
-					["coord"] = { 38.3, 15.3, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 42.6, 32.8, DARNASSUS },
+						-- #else
+						{ 38.3, 15.3, DARNASSUS },
+						-- #endif
+					},
 					["timeline"] = { REMOVED_1_4_0 },
 					["cost"] = { { "i", 12302, 1 } },	-- Ancient Frostsaber (MOUNT!)
 					["races"] = ALLIANCE_ONLY,
@@ -571,11 +573,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(1582, {	-- Moonglow Vest
 					["qg"] = 6034,	-- Lotherias
-					-- #if AFTER CATA
-					["coord"] = { 60.4, 37.0, DARNASSUS },
-					-- #else
-					["coord"] = { 64.4, 22.2, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 60.4, 37.0, DARNASSUS },
+						-- #else
+						{ 64.4, 22.2, DARNASSUS },
+						-- #endif
+					},
 					["cost"] = {
 						{ "i", 2309, 5 },	-- Embossed Leather Boots
 						{ "i", 2310, 5 },	-- Embossed Leather Cloak
@@ -640,11 +644,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(7672, {	-- Nightsaber Replacement
 					["description"] = "If you are one of the poor unfortunate souls that turned in your unique mount for one of the generic mounts I'm so sorry.",
 					["qg"] = 4730,	-- Lelanai
-					-- #if AFTER CATA
-					["coord"] = { 42.6, 32.8, DARNASSUS },
-					-- #else
-					["coord"] = { 38.3, 15.3, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 42.6, 32.8, DARNASSUS },
+						-- #else
+						{ 38.3, 15.3, DARNASSUS },
+						-- #endif
+					},
 					["timeline"] = { REMOVED_1_4_0 },
 					["cost"] = { { "i", 12303, 1 } },	-- Nightsaber (MOUNT!)
 					["races"] = ALLIANCE_ONLY,
@@ -1402,11 +1408,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}},
 				}),
 				n(4168, {	-- Elynna <Tailoring Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 60.4, 36.8, DARNASSUS },
-					-- #else
-					["coord"] = { 64.6, 21.6, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 60.4, 36.8, DARNASSUS },
+						-- #else
+						{ 64.6, 21.6, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER CATA
 					["sym"] = {{ "sub", "common_vendor", 5154 }},	-- Poranna Snowbraid <Tailoring Supplies>
@@ -1428,11 +1436,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4223, {	-- Fyldan <Cooking Supplies> [TBC+] / Fyldan <Cooking Supplier>
-					-- #if AFTER CATA
-					["coord"] = { 49.6, 36.6, DARNASSUS },
-					-- #else
-					["coord"] = { 48.5, 21.6, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 49.6, 36.6, DARNASSUS },
+						-- #else
+						{ 48.5, 21.6, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER CATA
 					["sym"] = {{"sub", "common_vendor", 49701}},	-- Jon Casper <Sous Chef>
@@ -1443,11 +1453,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4232, {	-- Glorandiir <Axe Merchant>
-					-- #if AFTER CATA
-					["coord"] = { 60.2, 62.6, DARNASSUS },
-					-- #else
-					["coord"] = { 64.2, 59.0, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 60.2, 62.6, DARNASSUS },
+						-- #else
+						{ 64.2, 59.0, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {{"select","itemID",
 						926,	-- Battle Axe
@@ -1474,11 +1486,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				n(6735, {	-- Innkeeper Saelienne <Innkeeper>
-					-- #if AFTER CATA
-					["coord"] = { 62.54, 32.8, DARNASSUS },	-- Craftsmen's Terrace
-					-- #else
-					["coord"] = { 67.2, 15.8, DARNASSUS },	-- Craftsmen's Terrace
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 62.5, 32.8, DARNASSUS },
+						-- #else
+						{ 67.2, 15.8, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 				}),
 				n(4231, {	-- Kieran <Weapon Merchant>
@@ -1528,11 +1542,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				}),
 				n(4173, {	-- Landria <Bow Merchant>
-					-- #if AFTER CATA
-					["coord"] = { 59.6, 67.6, DARNASSUS },
-					-- #else
-					["coord"] = { 63.3, 66.3, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.6, 67.6, DARNASSUS },
+						-- #else
+						{ 63.3, 66.3, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {{"select","itemID",
 						3027,	-- Heavy Recurve Bow
@@ -1564,11 +1580,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4730, {	-- Lelanai <Saber Handler>
-					-- #if AFTER CATA
-					["coord"] = { 42.6, 32.8, DARNASSUS },
-					-- #else
-					["coord"] = { 38.3, 15.3, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 42.6, 32.8, DARNASSUS },
+						-- #else
+						{ 38.3, 15.3, DARNASSUS },
+						-- #endif
+					},
 					-- Available to Night Elves without faction requirements.
 					["minReputation"] = { FACTION_DARNASSUS, EXALTED },	-- Darnassus, Exalted.
 					["OnInit"] = [[function(t)
@@ -1747,11 +1765,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}},
 				}),
 				n(4229, {	-- Mythrin'dir <Trade Supplies> [TBC+] / Mythrin'dir <General Trade Supplier>
-					-- #if AFTER CATA
-					["coord"] = { 58.2, 35.0, DARNASSUS },
-					-- #else
-					["coord"] = { 61.0, 17.7, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 58.2, 35.0, DARNASSUS },
+						-- #else
+						{ 61.0, 17.7, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(20854, {	-- Design: Amulet of the Moon
@@ -1791,11 +1811,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_1 },
 				}),
 				n(4225, {	-- Saenorion <Leatherworking Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 60.0, 37.2, DARNASSUS },
-					-- #else
-					["coord"] = { 63.7, 22.3, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 60.0, 37.2, DARNASSUS },
+						-- #else
+						{ 63.7, 22.3, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 					["groups"] = {
@@ -1808,20 +1830,24 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(5191, {	-- Shalumon <Tabard Vendor>
-					-- #if AFTER CATA
-					["coord"] = { 64.6, 37.8, DARNASSUS },
-					-- #else
-					["coord"] = { 70.4, 23.2, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 64.6, 37.8, DARNASSUS },
+						-- #else
+						{ 70.4, 23.2, DARNASSUS },
+						-- #endif
+					},
 					["sym"] = {{"sub", "common_vendor", 5193}},	-- Rebecca Laughlin <Tabard Designer>
 					["races"] = ALLIANCE_ONLY,
 				}),
 				n(8665, {	-- Shylenai <Owl Trainer>
-					-- #if AFTER CATA
-					["coord"] = { 64.0, 53.6, DARNASSUS },
-					-- #else
-					["coord"] = { 69.8, 45.4, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 64.0, 53.6, DARNASSUS },
+						-- #else
+						{ 69.8, 45.4, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(8500),	-- Great Horned Owl (PET!)
@@ -1835,11 +1861,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(4235, {	-- Turian <Thrown Weapons Merchant>
-					-- #if AFTER CATA
-					["coord"] = { 59.6, 67.4, DARNASSUS },
-					-- #else
-					["coord"] = { 62.7, 65.6, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.6, 67.4, DARNASSUS },
+						-- #else
+						{ 62.7, 65.6, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(12247, {	-- Broad Bladed Knife
@@ -1848,11 +1876,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4226, {	-- Ulthir <Alchemy Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 54.6, 39.6, DARNASSUS },
-					-- #else
-					["coord"] = { 55.8, 24.5, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 54.6, 39.6, DARNASSUS },
+						-- #else
+						{ 55.8, 24.5, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(5642, {	-- Recipe: Free Action Potion (RECIPE!)
@@ -1867,11 +1897,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4228, {	-- Vaean <Enchanting Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 56.5, 32.2, DARNASSUS },
-					-- #else
-					["coord"] = { 58.6, 14.7, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 56.5, 32.2, DARNASSUS },
+						-- #else
+						{ 58.6, 14.7, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
 						-- #if AFTER CATA
@@ -1889,11 +1921,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4175, {	-- Vinasia <Cloth Armor Merchant>
-					-- #if AFTER CATA
-					["coord"] = { 57.9, 71.8, DARNASSUS },
-					-- #else
-					["coord"] = { 60.7, 72.5, DARNASSUS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 57.9, 71.8, DARNASSUS },
+						-- #else
+						{ 60.7, 72.5, DARNASSUS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {{"select","itemID",
 						2435,	-- Embroidered Armor
