@@ -57,14 +57,29 @@ local function DoReport(reporttype, id)
 	reportData.CHATLINK = nil
 	-- ordered report data
 	local orderedReportData = {}
+	-- id/type are ordered first always if existing
+	if reportData.id then
+		orderedReportData[#orderedReportData + 1] = "id: "..reportData.id
+		reportData.id = nil
+	end
+	if reportData.type then
+		orderedReportData[#orderedReportData + 1] = "type: "..reportData.type
+		reportData.type = nil
+	end
 	for i=1,#reportData do
 		orderedReportData[#orderedReportData + 1] = reportData[i]
 	end
 	app.wipearray(reportData)
 	-- keyed report data
 	local keyedData = {}
+	local vtype
 	for k,v in pairs(reportData) do
-		keyedData[#keyedData + 1] = tostring(k)..": \""..tostring(v).."\""
+		vtype = type(v)
+		if vtype == "number" then
+			keyedData[#keyedData + 1] = tostring(k)..": "..tostring(v)
+		else
+			keyedData[#keyedData + 1] = tostring(k)..": \""..tostring(v).."\""
+		end
 	end
 	-- common report data
 	reportData[#reportData + 1] = "### "..reporttype..":"..id
@@ -1868,7 +1883,10 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 		local objID = objRef.keyval
 		local checkCoords = Check_coords(objRef, objID, 2)
 		if not checkCoords then
-			local reportData = BuildGenericReportData(objRef, id)
+			local reportData = {
+				id = id,
+				type = "Object",
+			}
 			reportData.MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type)
 			AddReportData(objRef.__type,objID,reportData)
 		elseif checkCoords == 1 then
