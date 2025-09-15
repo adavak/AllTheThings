@@ -475,11 +475,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {
 			-- #endif
 			n(ZONE_DROPS, sharedData({
-				-- #if AFTER TWW
-				["description"] = "This armour was a 'Binds when equipped' prior to TWW.",
-				-- #elseif AFTER DF
-				["description"] = "This item will likely become soulbound with The War Within, you might want an appropriate character to hold on to it.",
-				-- #endif
+				["description"] =
+					-- #if AFTER TWW
+					"This armour was a 'Binds when equipped' prior to TWW.",
+					-- #elseif AFTER DF
+					"This item will likely become soulbound with The War Within, you might want an appropriate character to hold on to it.",
+					-- #endif
 			}, {
 				i(16802),	-- Arcanist Belt (Mage)
 				i(16799),	-- Arcanist Bindings (Mage)
