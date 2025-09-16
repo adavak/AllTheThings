@@ -64,12 +64,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 				}),
 				-- #endif
 				i(34350, {	-- Gauntlets of the Ancient Shadowmoon
+					-- #if ANYCLASSIC
 					i(34409),	-- Gauntlets of the Ancient Frostwolf
+					-- #endif
 				}),
 				i(34346),	-- Mounting Vengeance
 				i(34183),	-- Shivering Felspine
 				i(34351, {	-- Tranquil Majesty Wraps
+					-- #if ANYCLASSIC
 					i(34407),	-- Tranquil Moonlight Wraps
+					-- #endif
 				}),
 				i(34348),	-- Wand of Cleansing Light
 				i(34347),	-- Wand of the Demonsoul
@@ -114,13 +118,19 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					i(34164),	-- Dragonscale-Encrusted Longblade
 					i(34165),	-- Fang of Kalecgos
 					i(34169, {	-- Breeches of Natural Aggression
+						-- #if ANYCLASSIC
 						i(34384),	-- Breeches of Natural Splendor
+						-- #endif
 					}),
 					i(34167, {	-- Legplates of the Holy Juggernaut
+						-- #if ANYCLASSIC
 						i(34382),	-- Judicator's Legguards
+						-- #endif
 					}),
 					i(34170, {	-- Pantaloons of Calming Strife
+						-- #if ANYCLASSIC
 						i(34386),	-- Pantaloons of Growing Strife
+						-- #endif
 					}),
 					i(34168),	-- Starstalker Legguards
 					i(34166),	-- Band of Lucent Beams
@@ -146,7 +156,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					i(34177),	-- Clutch of Demise
 					i(34178),	-- Collar of the Pit Lord
 					i(34180, {	-- Felfury Legplates
+						-- #if ANYCLASSIC
 						i(34381),	-- Felstrength Legplates
+						-- #endif
 					}),
 					i(34181),	-- Leggings of Calamity
 				},
@@ -168,10 +180,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					i(34184),	-- Brooch of the Highborne
 					i(34352),	-- Borderland Fortress Grips
 					i(34186, {	-- Chain Links of the Tumultuous Storm
+						-- #if ANYCLASSIC
 						i(34383),	-- Kilt of Spiritual Reconstruction
+						-- #endif
 					}),
 					i(34188, {	-- Leggings of the Immortal Night
+						-- #if ANYCLASSIC
 						i(34385),	-- Leggings of the Immortal Beast
+						-- #endif
 					}),
 				},
 			}),
@@ -223,23 +239,35 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					i(35292),	-- Sin'dorei Pendant of Triumph
 					i(34210),	-- Amice of the Convoker
 					i(34208, {	-- Equilibrium Epaulets
+						-- #if ANYCLASSIC
 						i(34390),	-- Erupting Epaulets
+						-- #endif
 					}),
 					i(34194),	-- Mantle of the Golden Forest
 					i(34192, {	-- Pauldrons of Perseverance
+						-- #if ANYCLASSIC
 						i(34388),	-- Pauldrons of Berserking
+						-- #endif
 					}),
 					i(34202, {	-- Shawl of Wonderment
+						-- #if ANYCLASSIC
 						i(34393),	-- Shoulderpads of Knowledge's Pursuit
+						-- #endif
 					}),
 					i(34195, {	-- Shoulderpads of Vehemence
+						-- #if ANYCLASSIC
 						i(34392),	-- Demontooth Shoulderpads
+						-- #endif
 					}),
 					i(34209, {	-- Spaulders of Reclamation
+						-- #if ANYCLASSIC
 						i(34391),	-- Spaulders of Devastation
+						-- #endif
 					}),
 					i(34193, {	-- Spaulders of the Thalassian Savior
+						-- #if ANYCLASSIC
 						i(34389),	-- Spaulders of the Thalassian Defender
+						-- #endif
 					}),
 					i(34190),	-- Crimson Paragon's Cover
 					i(34205),	-- Shroud of Redeemed Souls
@@ -262,23 +290,35 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					i(34231),	-- Aegis of Angelic Fortune
 					i(34232),	-- Fel Conqueror Raiments
 					i(34229, {	-- Garments of Serene Shores
+						-- #if ANYCLASSIC
 						i(34396),	-- Garments of Crashing Shores
+						-- #endif
 					}),
 					i(34211, {	-- Harness of Carnal Instinct
+						-- #if ANYCLASSIC
 						i(34397),	-- Bladed Chaos Tunic
+						-- #endif
 					}),
 					i(34216, {	-- Heroic Judicator's Chestguard
+						-- #if ANYCLASSIC
 						i(34395),	-- Noble Judicator's Chestguard
+						-- #endif
 					}),
 					i(34233, {	-- Robes of Faltered Light
+						-- #if ANYCLASSIC
 						i(34399),	-- Robes of Ghostly Hatred
+						-- #endif
 					}),
 					i(34212, {	-- Sunglow Vest
+						-- #if ANYCLASSIC
 						i(34398),	-- Utopian Tunic of Elune
+						-- #endif
 					}),
 					i(34228),	-- Vicious Hawkstrider Hauberk
 					i(34215, {	-- Warharness of Reckless Fury
+						-- #if ANYCLASSIC
 						i(34394),	-- Breastplate of Agony's Aversion
+						-- #endif
 					}),
 					i(34240),	-- Gauntlets of the Soothed Soul
 					i(34234),	-- Shadowed Gauntlets of Paroxysm
@@ -319,30 +359,44 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					i(34336),	-- Sunfire
 					i(34333),	-- Coif of Alleria
 					i(34245, {	-- Cover of Ursol the Wise
+						-- #if ANYCLASSIC
 						i(34403),	-- Cover of Ursoc the Mighty
+						-- #endif
 					}),
 					i(34332, {	-- Cowl of Gul'dan
+						-- #if ANYCLASSIC
 						i(34402),	-- Shroud of Chieftain Ner'zhul
+						-- #endif
 					}),
 					i(34339, {	-- Cowl of Light's Purity
+						-- #if ANYCLASSIC
 						i(34405),	-- Helm of Arcane Purity
+						-- #endif
 					}),
 					i(34345, {	-- Crown of Anasterian
+						-- #if ANYCLASSIC
 						i(34400),	-- Crown of Dath'Remar
+						-- #endif
 					}),
 					i(34340),	-- Dark Conjuror's Collar
 					i(34244, {	-- Duplicitous Guise
+						-- #if ANYCLASSIC
 						i(34404),	-- Mask of the Fury Hunter
+						-- #endif
 					}),
 					i(34243, {	-- Helm of Burning Righteousness
+						-- #if ANYCLASSIC
 						i(34401),	-- Helm of Uther's Resolve
+						-- #endif
 					}),
 					i(34241),	-- Cloak of Unforgivable Sin
 					i(34242),	-- Tattered Cape of Antonidas
 					i(34341),	-- Borderland Paingrips
 					i(34344),	-- Handgrips of Defiled Worlds
 					i(34342, {	-- Handguards of the Dawn
+						-- #if ANYCLASSIC
 						i(34406),	-- Gloves of Tyri's Power
+						-- #endif
 					}),
 					i(34343),	-- Thalassian Ranger Gauntlets
 				},
