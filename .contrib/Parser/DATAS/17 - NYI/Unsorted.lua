@@ -1920,7 +1920,6 @@ root(ROOTS.Unsorted, {
 				i(163090),	-- Cured Billow-Weed
 				i(163093),	-- Witch's Ritual Chalk
 				i(163095),	-- Golden Troll Berserker \\ Finely Crafted Tin Soldier
-				i(163096),	-- Lead-Glass Hand Mirror
 				i(163097),	-- Carved Rabbit Effigy
 				i(163111),	-- Blackstone Cat Statue
 				i(163112),	-- Imp's Tongue Charm
@@ -2118,16 +2117,11 @@ root(ROOTS.Unsorted, {
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
 				i(158727),	-- Decayed Equipment
-				i(161198),	-- Old Sailor's Almanac
 				i(161202),	-- Polished Brass Sextant
-				i(161204),	-- Oily Glass Eyeball \\ Glass Eyeball
 				i(161205),	-- Wooden Horse Carving
-				i(161207),	-- Admiral's Black Rum \\ Admiral's Spiced Black Rum
 				i(161209),	-- Coven Dream Catcher
 				i(161210),	-- Homemade Child's Doll
-				i(161211),	-- Ship-in-a-Bottle
 				i(161212),	-- Wavespeaker's Star Chart
-				i(161213),	-- Sagehold Hymnal
 				i(158736),	-- Trophy Antlers
 				i(158797),	-- Jar of Truffles
 				i(158858),	-- Adder's Fork
@@ -2166,8 +2160,6 @@ root(ROOTS.Unsorted, {
 				i(160581),	-- Vulture Egg Shell
 				i(160582),	-- Broken Lizard Bones
 				i(160583),	-- Broken Sethrak Blade
-				i(162664),	-- Dented Cuirass
-				i(162666),	-- Ripped Satchel
 				i(162667),	-- Farraki Funeral Urn
 				i(162683),	-- Archaic Dinomancy Carvings
 			}),
@@ -2606,21 +2598,7 @@ root(ROOTS.Unsorted, {
 			i(159970),	-- Hull-Plate Half Helm
 			i(159971),	-- Token of Ironside Blessing
 			-- Somehow has sourceID attached
-			i(162651),	-- Rusted Chains
 			i(162654),	-- REUSE ME (DNT)
-			i(162659),	-- Worn Mace
-			i(162660),	-- Burnished Shield
-			i(162661),	-- Battered Skull
-			i(162662),	-- Etched Mask
-			i(162663),	-- Broken Spearhead
-			i(162671),	-- Broken Crossbow
-			i(162674),	-- Cracked Helmet
-			i(162676),	-- Ragged Furs
-			i(162677),	-- Dull Throwing Knives
-			i(162678),	-- Crimson Flail
-			i(162679),	-- Misfired Pistol
-			i(162680),	-- Ruined Collar
-			i(162682),	-- Tarnished Longsword
 		})),
 		-- 8.1.0
 		expansion(EXPANSION.BFA, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_8_1_0 } }, {

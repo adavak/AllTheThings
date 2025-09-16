@@ -314,7 +314,6 @@ i(158792);	-- Digestive Acid
 i(155618);	-- Discarded Molting
 i(163587);	-- Discarded Zandalari Brooch
 i(158757);	-- Disquiet Earth
-i(163092);	-- Embroidered Falconry Hood
 i(168787);	-- Empty Birdcage
 i(162684);	-- Etched Dock Cleat
 i(162976);	-- Exile's Abandoned Memoirs
@@ -353,7 +352,6 @@ i(158794);	-- Ivory Tusk
 i(158830);	-- Jade Sigilstone
 i(158859);	-- Jagged Fang
 i(163321);	-- Jason's Rusty Blade
-i(163091);	-- Jeweled Spyglass
 i(163323);	-- Julie's Cracked Dish
 i(155593);	-- Keeled Breastbone
 i(162673);	-- Knotted Bowline
@@ -365,7 +363,6 @@ i(158823);	-- Malfunctioning Rocket Boots
 i(163593);	-- Map of Zandalar Trade Winds
 i(163028);	-- Masterwork Statue of the First Trolls
 i(158751);	-- Matted Pelt
-i(161201);	-- Mermaid's Looking Glass
 i(158778);	-- Mucose Tendril
 i(158866);	-- Oily Blubber
 i(163520);	-- Orange Glowing Puffer
@@ -396,14 +393,12 @@ i(162025);	-- Sermon of the High Exarch
 i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible
 i(155629);	-- Shaggy Mane
-i(161203);	-- Shanty Sheet Music
 i(163844);	-- Shredded Alliance Emblem
 i(163843);	-- Shredded Horde Emblem
 i(152099);	-- Shriveled Onion
 i(158783);	-- Silken White Feather
 i(163846);	-- Silver Monkey Head
 i(163845);	-- Silver Statue Base
-i(161199);	-- Silver-Plated Tankard
 i(155635);	-- Sinewy Wing
 i(155620);	-- Singed Sprig of Teldrassil
 i(158788);	-- Sleek Quill
