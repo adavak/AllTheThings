@@ -95,6 +95,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(92835),	-- Triggered after killing a Doomguard Challenger
 			q(93121),	-- Triggered after opening the (main) Glimmering Treasure Chest after completing the Withered Training
 			q(93155),	-- Triggered after killing 50 Empowered Enemies and obtaining achievement 'Legionslayer III'
+			q(91851),	-- Triggered after completing 10 WQs in Heroic World Tier and obtaining achievement 'Heroic Broken Isles World Quests I'
+			q(93243),	-- Triggered after completing 'Flow of the Nightmare' (q:43241) bonus objective in Val'sharah
 		},
 	})),
 }))

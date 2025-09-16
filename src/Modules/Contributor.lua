@@ -160,6 +160,7 @@ end
 -- 5) That number goes into this table for the mapID
 local MapPrecisionOverrides = {
 	 [629] = 3,	-- Aegwynn's Gallery
+	 [643] = 2,	-- Sleeper's Barrow, Val'sharah
 	 [647] = 3,	-- Acherus The Ebon Hold, The Heart of Acherus
 	 [648] = 3,	-- Acherus The Ebon Hold, Hall of Command
 	 [695] = 3,	-- Skyhold
