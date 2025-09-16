@@ -1379,18 +1379,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(773, {	-- Rite of Wisdom
-					["qgs"] = {
-						-- #if AFTER CATA
-						3233,	-- Lorekeeper Raintotem
-						-- #else
-						2984,	-- Seer Wiserunner
-						-- #endif
-					},
 					["sourceQuests"] = {
 						-- #if AFTER CATA
 						20441,	-- Rite of Vision (2/2)
 						-- #else
 						772,	-- Rite of Vision (3/3)
+						-- #endif
+					},
+					["qgs"] = {
+						-- #if AFTER CATA
+						3233,	-- Lorekeeper Raintotem
+						-- #else
+						2984,	-- Seer Wiserunner
 						-- #endif
 					},
 					["coords"] = {

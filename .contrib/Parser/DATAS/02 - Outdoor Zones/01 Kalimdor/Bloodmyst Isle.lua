@@ -487,6 +487,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					-- #if AFTER CATA
 					["altQuests"] = { 28559 },	-- Hero's Call: Bloodmyst Isle!
 					-- #endif
+					["qg"] = 17584,	-- Torallius the Pack Handler
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 81.5, 51.5, THE_EXODAR },
@@ -494,7 +495,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						{ 35.3, 43.1, AZUREMYST_ISLE },
 						-- #endif
 					},
-					["qg"] = 17584,	-- Torallius the Pack Handler
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,	-- TODO: Double check this is actually a breadcrumb. If you finish Alien Predators, does this diappear? [Not required for Alien Predators, Discord 2023-07-29]
 					["lvl"] = lvlsquish(10, 10, 1),
@@ -524,13 +524,13 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						9761,	-- Clearing the Way
 						-- #endif
 					},
+					["qg"] = 17982,	-- Demolitionist Legoso
+					["coord"] = { 30.8, 46.6, BLOODMYST_ISLE },
 					-- #if BEFORE CATA
 					["races"] = { DRAENEI },
 					-- #else
 					["races"] = ALLIANCE_ONLY,
 					-- #endif
-					["qg"] = 17982,	-- Demolitionist Legoso
-					["coord"] = { 30.8, 46.6, BLOODMYST_ISLE },
 					["lvl"] = lvlsquish(18, 18, 1),
 					["groups"] = {
 						objective(1, {	-- Vector Coil Destroyed and Sironas Slain
