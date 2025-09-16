@@ -5,7 +5,7 @@
 -- Validation Code replace r with a helper that will determine if we have a glyph in the list or not.
 local oldR = r;
 local recipeList,recipeListBySpellID = {},{};
-r = function(...)
+local r = function(...)
 	local recipe = oldR(...);
 	local spellID = recipe.recipeID or recipe.spellID;
 	if recipe.name then
