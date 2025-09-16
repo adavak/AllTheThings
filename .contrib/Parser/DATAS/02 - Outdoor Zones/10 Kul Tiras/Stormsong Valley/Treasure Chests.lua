@@ -67,12 +67,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(162660),	-- Burnished Shield
 					i(162674),	-- Cracked Helmet
 					i(162678),	-- Crimson Flail
-					i(162664),	-- Dented Cuirass
 					i(162677),	-- Dull Throwing Knives
 					i(162662),	-- Etched Mask
 					i(162679),	-- Misfired Pistol
 					i(162676),	-- Ragged Furs
-					i(162666),	-- Ripped Satchel
 					i(162680),	-- Ruined Collar
 					i(162651),	-- Rusted Chains
 					i(162682),	-- Tarnished Longsword

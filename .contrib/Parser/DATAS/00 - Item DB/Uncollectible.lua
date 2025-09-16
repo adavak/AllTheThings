@@ -309,6 +309,7 @@ i(155607);	-- D.E.H.T.A. Membership Card
 i(155841);	-- Defaced Statuette
 i(155608);	-- Defiled Bone
 i(163580);	-- Delicate Cathedral of Light Replica
+i(162664);	-- Dented Cuirass
 i(159756);	-- Depleted Azerite
 i(158792);	-- Digestive Acid
 i(155618);	-- Discarded Molting
@@ -379,6 +380,7 @@ i(158840);	-- Prehensile Tongue
 i(163518);	-- Purple Glowing Puffer
 i(162545);	-- Razordog
 i(163517);	-- Red Glowing Puffer
+i(162666);	-- Ripped Satchel
 i(158779);	-- Robust Horn
 i(162554);	-- Rootway Papaya
 i(158756);	-- Rotary Gasket
