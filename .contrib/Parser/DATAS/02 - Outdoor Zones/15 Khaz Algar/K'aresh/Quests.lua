@@ -2267,6 +2267,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(89490, {	-- Warrant: Arcana-Monger So'zer
 						["qg"] = 241951,	-- Warrant: Arcana-Monger So'zer
 						["coord"] = { 48.4, 59.0, KARESH_TAZAVESH },
+						["isMonthly"] = true,	-- unflagged after completing 4 warrants
 						["groups"] = { i(239314) },	-- Arcane Lure (QS!)
 					}),
 					q(90081, {	-- Arcane Runed Sigil
@@ -2320,6 +2321,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(87405, {	-- Warrant: Grubber
 						["qg"] = 238548,	-- Warrant: Grubber
 						["coord"] = { 48.5, 58.8, KARESH_TAZAVESH },
+						["isMonthly"] = true,	-- unflagged after completing 4 warrants
 						["groups"] = { i(236967) },	-- Grubber Lure (QS!)
 					}),
 					q(87548, {	-- A Dozen Veilshards
@@ -2375,6 +2377,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(87343, {	-- Warrant: Hollowbane
 						["qg"] = 238269,	-- Warrant: Hollowbane
 						["coord"] = { 48.5, 58.1, KARESH_TAZAVESH },
+						["isMonthly"] = true,	-- unflagged after completing 4 warrants
 						["groups"] = { i(236957) },	-- Hollowbane Portal Key (QS!)
 					}),
 					q(87597, {	-- A Bag of Veilshards
@@ -2429,6 +2432,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(87546, {	-- Warrant: Purple Peat
 						["qg"] = 238919,	-- Warrant: Purple Peat
 						["coord"] = { 48.5, 58.3, KARESH_TAZAVESH },
+						["isMonthly"] = true,	-- unflagged after completing 4 warrants
 						["groups"] = { i(239276) },	-- Purple Peat Cell Key (QS!)
 					}),
 					q(87404, {	-- Energy Encapsulation
@@ -2471,6 +2475,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(87001, {	-- Warrant: Shatterpulse
 						["qg"] = 238265,	-- Warrant: Shatterpulse
 						["coord"] = { 48.5, 58.6, KARESH_TAZAVESH },
+						["isMonthly"] = true,	-- unflagged after completing 4 warrants
 						["groups"] = { i(236353) },	-- Shatterpulse Cell Key (QS!)
 					}),
 					q(87010, {	-- Calculation Container
@@ -2513,6 +2518,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(87345, {	-- Warrant: Xy'vox the Twisted
 						["qg"] = 238271,	-- Warrant: Xy'Vox the Twisted
 						["coord"] = { 48.5, 58.4, KARESH_TAZAVESH },
+						["isMonthly"] = true,	-- unflagged after completing 4 warrants
 						["groups"] = { i(236753) },	-- Xy'vox Refuge Dampener (QS!)
 					}),
 					q(87376, {	-- Ethereal Seal
