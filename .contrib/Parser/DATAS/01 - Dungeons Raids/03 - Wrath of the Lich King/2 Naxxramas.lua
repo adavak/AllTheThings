@@ -189,13 +189,6 @@ local NAXX_10MAN_METADATA_AND_ACHIEVEMENTS = d(DIFFICULTY.LEGACY_RAID.PLAYER10_N
 						["isBounty"] = true,
 						-- #endif
 					}),
-					i(39254, {	-- Saltarello Shoes
-						-- #if ANYCLASSIC
-						["description"] = "This item was originally available in Naxxramas 10, but after H+ was introduced to Wrath Classic, it was removed.",
-						["timeline"] = { ADDED_3_0_2, REMOVED_3_4_1 },
-						["isBounty"] = true,
-						-- #endif
-					}),
 					-- #endif
 				},
 			}),
@@ -475,12 +468,7 @@ local NAXX_10MAN_LOOT = d(DIFFICULTY.LEGACY_RAID.PLAYER10_NORMAL, {
 			i(39247),	-- Cuffs of Dark Shadows
 			i(39252),	-- Preceptor's Bindings
 			i(39251),	-- Necrogenic Belt
-			i(39254, {	-- Saltarello Shoes
-				-- #if ANYCLASSIC
-				["description"] = "This item was originally available in Naxxramas 10, but after H+ was introduced to Wrath Classic, it was removed.",
-				["timeline"] = { ADDED_3_0_2, REMOVED_3_4_1 },
-				-- #endif
-			}),
+			i(39254),	-- Saltarello Shoes
 			i(39250),	-- Ring of Holy Cleansing
 		}),
 		e(1606, {	-- Loatheb
@@ -710,12 +698,7 @@ local NAXX_10MAN_LOOT = d(DIFFICULTY.LEGACY_RAID.PLAYER10_NORMAL, {
 				i(39234),	-- Plague-Impervious Boots
 				i(39139),	-- Ravaging Sabatons
 				i(39369),	-- Sabatons of Deathlike Gloom
-				i(39254, {	-- Saltarello Shoes
-					-- #if ANYCLASSIC
-					["description"] = "This item was originally available in Naxxramas 10, but after H+ was introduced to Wrath Classic, it was removed.",
-					["timeline"] = { ADDED_3_0_2, REMOVED_3_4_1 },
-					-- #endif
-				}),
+				i(39254),	-- Saltarello Shoes
 				i(39273),	-- Sullen Cloth Boots
 				i(39236),	-- Trespasser's Boots
 				i(39193),	-- Band of Neglected Pleas
