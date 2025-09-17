@@ -1666,7 +1666,7 @@ root(ROOTS.Zones, {
 							}, {	-- Honored
 								applyclassicphase(TBC_PHASE_TWO, i(35404)),	-- Crusader's Ornamented Headguard
 								applyclassicphase(TBC_PHASE_TWO, i(35416)),	-- Crusader's Scaled Shoulders
-								i(33155),	-- Design: Kailee's Rose (RECIPE!)
+								i(33155, {["timeline"] = {ADDED_2_2_0}}),	-- Design: Kailee's Rose (RECIPE!)
 								i(30826),	-- Design: Ring of Arcane Shielding (RECIPE!)
 								i(29195, {	-- Glyph of Arcane Warding
 									["timeline"] = { REMOVED_5_0_4 },
@@ -1687,7 +1687,7 @@ root(ROOTS.Zones, {
 								applyclassicphase(TBC_PHASE_TWO, i(35375)),	-- Wyrmhide Robe
 							}, {	-- Revered
 								i(29180),	-- Blessed Scale Girdle
-								i(33159),	-- Design: Blood of Amber (RECIPE!)
+								i(33159, {["timeline"] = {ADDED_2_2_0}}),	-- Design: Blood of Amber (RECIPE!)
 								i(24182),	-- Design: Talasite Owl (RECIPE!)
 								applyclassicphase(TBC_PHASE_TWO, i(35359)),	-- Dragonhide Spaulders
 								applyclassicphase(TBC_PHASE_TWO, i(35330)),	-- Dreadweave Leggings
@@ -2336,7 +2336,7 @@ root(ROOTS.Zones, {
 									["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateCompareOtherKey(185691),
 									-- #endif
 								}),
-								i(33157),	-- Design: Falling Star (RECIPE!)
+								i(33157, {["timeline"] = {ADDED_2_2_0}}),	-- Design: Falling Star (RECIPE!)
 								i(24179),	-- Design: Felsteel Boar (RECIPE!)
 								i(24175),	-- Design: Pendant of Thawing (RECIPE!)
 								i(30846, {	-- Glyph of the Outcast
@@ -2455,7 +2455,7 @@ root(ROOTS.Zones, {
 								i(24292),	-- Pattern: Mystic Spellthread (RECIPE!)
 								i(23598),	-- Plans: Enchanted Adamantite Boots (RECIPE!)
 							}, {	-- Revered
-								i(24176),	-- Design: Pendant of Withering
+								i(24176),	-- Design: Pendant of Withering (RECIPE!)
 								i(29134),	-- Gauntlets of the Chosen
 								i(29700),	-- Pattern: Enchanted Clefthoof Gloves (RECIPE!)
 								i(29684),	-- Pattern: Enchanted Felscale Boots (RECIPE!)

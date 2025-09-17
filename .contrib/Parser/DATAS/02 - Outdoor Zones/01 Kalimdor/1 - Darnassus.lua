@@ -1774,10 +1774,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(20854, {	-- Design: Amulet of the Moon
+						applyclassicphase(TBC_PHASE_ONE, i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
 							["isLimited"] = true,
-							["timeline"] = { ADDED_2_0_1 },
-						}),
+							["timeline"] = { ADDED_2_0_5 },
+						})),
 						i(11223, {	-- Formula: Enchant Bracer - Dodge (RECIPE!) / Formula: Enchant Bracer - Deflection
 							["isLimited"] = true,
 						}),

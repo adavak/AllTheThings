@@ -3760,16 +3760,16 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				["timeline"] = { REMOVED_8_0_1 },
 			}),
 		}),
-		applyclassicphase(TBC_PHASE_ONE, prof(JEWELCRAFTING, {
-			i(20976),	-- Design: Citrine Pendant of Golden Healing
-			i(21953),	-- Design: Emerald Owl
-			i(21947),	-- Design: Gem Studded Band
-			i(21940),	-- Design: Golden Hare
-			i(20974),	-- Design: Jade Pendant of Blasting
-			i(21949),	-- Design: Ruby Serpent
-			i(21945),	-- Design: The Aquamarine Ward
-			i(21944),	-- Design: Truesilver Boar
-		})),
+		applyclassicphase(TBC_PHASE_ONE, prof(JEWELCRAFTING, sharedDataSelf({ ["timeline"] = { ADDED_2_0_5 } }, {
+			i(20976),	-- Design: Citrine Pendant of Golden Healing (RECIPE!)
+			i(21953),	-- Design: Emerald Owl (RECIPE!)
+			i(21947),	-- Design: Gem Studded Band (RECIPE!)
+			i(21940),	-- Design: Golden Hare (RECIPE!)
+			i(20974),	-- Design: Jade Pendant of Blasting (RECIPE!)
+			i(21949),	-- Design: Ruby Serpent (RECIPE!)
+			i(21945),	-- Design: The Aquamarine Ward (RECIPE!)
+			i(21944),	-- Design: Truesilver Boar (RECIPE!)
+		}))),
 		prof(LEATHERWORKING, {
 			i(4301),	-- Pattern: Barbaric Belt (RECIPE!)
 			i(4297),	-- Pattern: Barbaric Gloves (RECIPE!)

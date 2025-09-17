@@ -5010,10 +5010,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["groups"] = {
-						i(21954, {	-- Design: Ring of Bitter Shadows (RECIPE!)
-							["timeline"] = { ADDED_2_0_1 },
+						applyclassicphase(TBC_PHASE_ONE, i(21954, {	-- Design: Ring of Bitter Shadows (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
 							["isLimited"] = true,
-						}),
+						})),
 						i(15756, {	-- Pattern: Runic Leather Headband (RECIPE!)
 							["timeline"] = { REMOVED_2_3_0 },	-- Now taught by trainer, recipe removed from the game.
 							["isLimited"] = true,

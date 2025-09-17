@@ -1181,14 +1181,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						-- #if AFTER TBC
-						-- #if BEFORE MOP
 						i(33792, {	-- Plans: Heavy Copper Longsword (RECIPE!)
+							-- #if BEOFRE MOP
 							["description"] = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
+							-- #endif
 							["timeline"] = { ADDED_2_3_0 },
 						}),
 						-- #else
 						i(3609),	-- Plans: Copper Chain Vest (RECIPE!)
-						-- #endif
 						-- #endif
 					},
 				}),
@@ -1566,14 +1566,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 46.6, 27.2, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
+						applyclassicphase(TBC_PHASE_ONE, i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
 							["isLimited"] = true,
-							["timeline"] = { ADDED_2_0_1 },
-						}),
-						i(20975, {	-- Design: The Jade Eye (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
+						})),
+						applyclassicphase(TBC_PHASE_ONE, i(20975, {	-- Design: The Jade Eye (RECIPE!)
 							["isLimited"] = true,
-							["timeline"] = { ADDED_2_0_1 },
-						}),
+							["timeline"] = { ADDED_2_0_5 },
+						})),
 					},
 				}),
 				-- #endif

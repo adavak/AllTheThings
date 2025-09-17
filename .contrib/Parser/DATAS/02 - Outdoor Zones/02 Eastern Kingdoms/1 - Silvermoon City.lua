@@ -37,6 +37,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["races"] = HORDE_ONLY,
 				}),
 			}),
+			-- #if BEFORE CATA
+			n(PROFESSIONS, {
+				prof(JEWELCRAFTING, {
+					n(19775, {	-- Kalinda <Jewelcrafting Trainer>
+						["coord"] = { 90.6, 73.8, SILVERMOON_CITY },
+						["races"] = HORDE_ONLY,
+						["groups"] = CLASSIC_JEWELCRAFTING,
+					}),
+				}),
+			}),
+			-- #endif
 			n(QUESTS, {
 				q(9725, {	-- A Demonstration of Loyalty
 					["sourceQuest"] = 9723,	-- A Gesture of Commitment

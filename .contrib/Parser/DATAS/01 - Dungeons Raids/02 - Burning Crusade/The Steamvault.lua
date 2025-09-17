@@ -94,7 +94,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			n(ZONE_DROPS, {
 				i(24368),	-- Coilfang Armaments
-				i(24159, {	-- Design: Khorium Band of Frost
+				i(24159, {	-- Design: Khorium Band of Frost (RECIPE!)
 					["cr"] = 17722,	-- Coilfang Sorceress
 				}),
 				i(22533, {	-- Formula: Enchant Bracer - Fortitude (RECIPE!)

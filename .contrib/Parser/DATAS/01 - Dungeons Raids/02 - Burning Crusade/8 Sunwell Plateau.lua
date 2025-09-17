@@ -24,12 +24,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 				["_drop"] = { "classes", "c" },
 			-- #endif
 			},{
-				i(35202),	-- Design: Amulet of Flowing Life
-				i(35200),	-- Design: Hard Khorium Band
-				i(35203),	-- Design: Hard Khorium Choker
-				i(35198),	-- Design: Loop of Forged Power
-				i(35201),	-- Design: Pendant of Sunfire
-				i(35199),	-- Design: Ring of Flowing Life
+				i(35202),	-- Design: Amulet of Flowing Life (RECIPE!)
+				i(35200),	-- Design: Hard Khorium Band (RECIPE!)
+				i(35203),	-- Design: Hard Khorium Choker (RECIPE!)
+				i(35198),	-- Design: Loop of Forged Power (RECIPE!)
+				i(35201),	-- Design: Pendant of Sunfire (RECIPE!)
+				i(35199),	-- Design: Ring of Flowing Life (RECIPE!)
 				i(35218),	-- Pattern: Carapace of Sun and Shadow (RECIPE!)
 				i(35217),	-- Pattern: Embrace of the Phoenix (RECIPE!)
 				i(35213),	-- Pattern: Fletcher's Gloves of the Phoenix (RECIPE!)

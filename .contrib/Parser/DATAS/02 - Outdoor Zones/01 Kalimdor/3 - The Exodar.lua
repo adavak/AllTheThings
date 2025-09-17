@@ -58,6 +58,17 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				["skipFill"] = true,
 			}),
 			-- #endif
+			-- #if BEFORE CATA
+			n(PROFESSIONS, {
+				prof(JEWELCRAFTING, {
+					n(19778, {	-- Farii <Jewelcrafting Trainer>
+						["coord"] = { 44.8, 24.6, THE_EXODAR },
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = CLASSIC_JEWELCRAFTING,
+					}),
+				}),
+			}),
+			-- #endif
 			n(QUESTS, {
 				q(10356, {	-- A Donation of Mageweave
 					["qg"] = 20604,	-- Dugiru <Alliance Cloth Quartermaster>
@@ -337,16 +348,16 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						},
 					},
 					["groups"] = {
-						i(20854, {	-- Design: Amulet of the Moon
+						i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(20856, {	-- Design: Heavy Golden Necklace of Battle
+						i(20856, {	-- Design: Heavy Golden Necklace of Battle (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(21948, {	-- Design: Opal Necklace of Impact
+						i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(20975, {	-- Design: The Jade Eye
+						i(20975, {	-- Design: The Jade Eye (RECIPE!)
 							["isLimited"] = true,
 						}),
 					},

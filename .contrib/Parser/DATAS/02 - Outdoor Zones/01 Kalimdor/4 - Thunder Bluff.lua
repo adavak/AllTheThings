@@ -1370,10 +1370,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 40.6, 64.0, THUNDER_BLUFF },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(21948, {	-- Design: Opal Necklace of Impact
+						applyclassicphase(TBC_PHASE_ONE, i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
 							["isLimited"] = true,
-							["timeline"] = { ADDED_2_0_1 },
-						}),
+							["timeline"] = { ADDED_2_0_5 },
+						})),
 					},
 				}),
 				n(3022, {	-- Sunn Ragetotem <Staff Merchant>

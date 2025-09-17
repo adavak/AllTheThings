@@ -643,17 +643,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 				}),
 				-- #endif
-				-- #if AFTER TBC
+				-- #if AFTER CATA
 				prof(JEWELCRAFTING, {
 					n(46675, {	-- Lugrah <Jewelcrafting Trainer>
 						["coord"] = { 72.5, 34.3, ORGRIMMAR },
-						["timeline"] = { ADDED_4_0_1 },
+						["timeline"] = { ADDED_4_0_3 },
 						["races"] = HORDE_ONLY,
-						["groups"] = {
+						["groups"] = appendGroups(CLASSIC_JEWELCRAFTING, {
 							r(404740, {	-- Cataclysm Crushing
 								["timeline"] = { ADDED_10_0_7 },
 							}),
-						},
+						}),
 					}),
 				}),
 				-- #endif
@@ -2869,10 +2869,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(20856, {	-- Design: Heavy Golden Necklace of Battle
-							["timeline"] = { ADDED_2_0_1 },
+						applyclassicphase(TBC_PHASE_ONE, i(20856, {	-- Design: Heavy Golden Necklace of Battle (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
 							["isLimited"] = true,
-						}),
+						})),
 					},
 				}),
 				n(133261, {	-- Feng Su <Cooking Trainer>

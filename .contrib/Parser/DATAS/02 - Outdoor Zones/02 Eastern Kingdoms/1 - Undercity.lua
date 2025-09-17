@@ -1583,10 +1583,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 64.0, 37.4, UNDERCITY },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
-							["timeline"] = { ADDED_2_0_1 },
+						applyclassicphase(TBC_PHASE_ONE, i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
 							["isLimited"] = true,
-						}),
+						})),
 						i(16217, {	-- Formula: Enchant Shield - Greater Stamina (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -1770,10 +1770,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 64.1, 50.6, UNDERCITY },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(20975, {	-- Design: The Jade Eye (RECIPE!)
-							["timeline"] = { ADDED_2_0_1 },
+						applyclassicphase(TBC_PHASE_ONE, i(20975, {	-- Design: The Jade Eye (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
 							["isLimited"] = true,
-						}),
+						})),
 					},
 				}),
 				n(4601, {	-- Francis Eliot

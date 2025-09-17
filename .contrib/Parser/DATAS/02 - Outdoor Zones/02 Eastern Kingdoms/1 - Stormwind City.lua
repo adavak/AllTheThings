@@ -640,13 +640,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				prof(JEWELCRAFTING, {
 					n(44582, {	-- Theresa Denman <Jewelcrafting Trainer>
 						["coord"] = { 63.6, 61.6, STORMWIND_CITY },
-						["timeline"] = { ADDED_4_0_1 },
+						["timeline"] = { ADDED_4_0_3 },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
+						["groups"] = appendGroups(CLASSIC_JEWELCRAFTING, {
 							r(404740, {	-- Cataclysm Crushing
 								["timeline"] = { ADDED_10_0_7 },
 							}),
-						},
+						}),
 					}),
 				}),
 				-- #endif
@@ -5505,10 +5505,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(20856, {	-- Design: Heavy Golden Necklace of Battle (RECIPE!)
+						applyclassicphase(TBC_PHASE_ONE, i(20856, {	-- Design: Heavy Golden Necklace of Battle (RECIPE!)
 							["isLimited"] = true,
-							["timeline"] = { ADDED_2_0_1 },
-						}),
+							["timeline"] = { ADDED_2_0_5 },
+						})),
 					},
 				}),
 				-- #if SEASON_OF_DISCOVERY

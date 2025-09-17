@@ -5302,10 +5302,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(20815, {["collectible"] = false}),	-- Jeweler's Toolset/-Kit
 			i(20824, {["timeline"] = { REMOVED_5_0_4 }}),	-- Simple Grinder
 		})),
-		filter(COSMETIC, {
-			i(204404, {["timeline"] = { ADDED_10_0_7 }}),	-- Square Holders
-		}),
-		category(167, {	-- Crowns
+		n(ARMOR, {
 			i(21774),	-- Emerald Crown of Destruction
 			i(20832),	-- Moonsoul Crown
 			i(20969),	-- Ruby Crown of Restoration
@@ -5346,15 +5343,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(20833),	-- Wicked Moonstone Ring
 			i(21931),	-- Woven Copper Ring
 		}),
-		filter(FIST_WEAPONS, {
-			i(20954),	-- Heavy Iron Knuckles
-		}),
-		category(168, {	-- Materials
-			i(20817),	-- Bronze Setting
-			i(20816),	-- Delicate Copper Wire
-			i(20963),	-- Mithril Filigree
-			i(21752),	-- Thorium Setting
-		}),
 		filter(MISC, {
 			i(25880),	-- Coarse Stone Statue
 			i(25883),	-- Dense Stone Statue
@@ -5364,9 +5352,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 		filter(NECK_F, {
 			i(20830),	-- Amulet of the Moon
-			applyclassicphase(WRATH_PHASE_ONE, i(45627, {	-- Amulet of Truesight
-				["timeline"] = { ADDED_3_1_0 },
-			})),
 			i(21755),	-- Aquamarine Pendant of the Warrior
 			i(20909),	-- Barbaric Iron Collar
 			i(30419),	-- Brilliant Necklace
@@ -5376,13 +5361,40 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(20966),	-- Jade Pendant of Blasting
 			i(21791),	-- Living Emerald Pendant
 			i(25438),	-- Malachite Pendant
-			i(21792),	-- Necklace of the Diamond Tower
 			i(21766),	-- Opal Necklace of Impact
 			i(21934),	-- Ornate Tigerseye Necklace
 			i(20950),	-- Pendant of the Agate Shield
 			i(21764),	-- Ruby Pendant of Fire
 			i(21790),	-- Sapphire Pendant of Winter Night
 			i(21933),	-- Thick Bronze Necklace
+		}),
+		filter(REAGENTS, {
+			i(20817),	-- Bronze Setting
+			i(20816),	-- Delicate Copper Wire
+			i(20963),	-- Mithril Filigree
+			i(21752),	-- Thorium Setting
+		}),
+		filter(TRINKET_F, {
+			i(21784),	-- Figurine - Black Diamond Crab
+			i(21758),	-- Figurine - Black Pearl Panther
+			i(21789),	-- Figurine - Dark Iron Scorpid
+			i(21777),	-- Figurine - Emerald Owl
+			i(21756),	-- Figurine - Golden Hare
+			i(21748),	-- Figurine - Jade Owl
+			i(21769),	-- Figurine - Ruby Serpent
+			i(21763),	-- Figurine - Truesilver Boar
+			i(21760),	-- Figurine - Truesilver Crab
+		}),
+		n(WEAPONS, {
+			i(20954),	-- Heavy Iron Knuckles
+		}),
+		filter(COSMETIC, {
+			i(204404, {["timeline"] = { ADDED_10_0_7 }}),	-- Square Holders
+		}),
+		filter(NECK_F, {
+			applyclassicphase(WRATH_PHASE_ONE, i(45627, {	-- Amulet of Truesight
+				["timeline"] = { ADDED_3_1_0 },
+			})),
 		}),
 		header(HEADERS.Spell, 31212, {	-- Prospecting
 			-- Note: Neither Gold, Silver nor Truesilver can be prospected.
@@ -5431,17 +5443,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(818, {	-- Tigerseye
 				["provider"] = { "i", 2770 },	-- Copper Ore
 			}),
-		}),
-		filter(TRINKET_F, {
-			i(21784),	-- Figurine - Black Diamond Crab
-			i(21758),	-- Figurine - Black Pearl Panther
-			i(21789),	-- Figurine - Dark Iron Scorpid
-			i(21777),	-- Figurine - Emerald Owl
-			i(21756),	-- Figurine - Golden Hare
-			i(21748),	-- Figurine - Jade Owl
-			i(21769),	-- Figurine - Ruby Serpent
-			i(21763),	-- Figurine - Truesilver Boar
-			i(21760),	-- Figurine - Truesilver Crab
 		}),
 		n(WEAPONS, {
 			i(206505, {["timeline"] = { ADDED_10_1_5 }}),	-- Frostwyrm's Frigid Stare

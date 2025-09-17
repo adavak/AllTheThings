@@ -3078,10 +3078,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(20970, {	-- Design: Pendant of the Agate Shield (RECIPE!)
-							["timeline"] = { ADDED_2_0_1, REMOVED_4_1_0 },	-- Now taught by trainer, recipe removed from the game.
+						applyclassicphase(TBC_PHASE_ONE, i(20970, {	-- Design: Pendant of the Agate Shield (RECIPE!)
+							["timeline"] = { ADDED_2_0_5, REMOVED_4_1_0 },	-- Now taught by trainer, recipe removed from the game.
 							["isLimited"] = true,
-						}),
+						})),
 						i(5973, {	-- Pattern: Barbaric Leggings (RECIPE!)
 							["isLimited"] = true,
 						}),

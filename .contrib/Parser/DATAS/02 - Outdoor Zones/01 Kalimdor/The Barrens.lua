@@ -4734,10 +4734,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["groups"] = {
-						i(20855, {	-- Design: Wicked Moonstone Ring
-							["timeline"] = { ADDED_2_0_1 },
+						applyclassicphase(TBC_PHASE_ONE, i(20855, {	-- Design: Wicked Moonstone Ring (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
 							["isLimited"] = true,
-						}),
+						})),
 						i(6272, {	-- Pattern: Blue Linen Robe (RECIPE!)
 							["isLimited"] = true,
 						}),

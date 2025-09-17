@@ -2503,10 +2503,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 61.2, 37.2, WINTERSPRING },
 					-- #endif
 					["groups"] = {
-						i(21957, {	-- Design: Necklace of the Diamond Tower
-							["timeline"] = { ADDED_2_0_1 },
+						applyclassicphase(TBC_PHASE_ONE, i(21957, {	-- Design: Necklace of the Diamond Tower (RECIPE!)
+							["timeline"] = { ADDED_2_0_5 },
 							["isLimited"] = true,
-						}),
+						})),
 						i(16221, {	-- Formula: Enchant Chest - Major Health (RECIPE!)
 							["isLimited"] = true,
 						}),
