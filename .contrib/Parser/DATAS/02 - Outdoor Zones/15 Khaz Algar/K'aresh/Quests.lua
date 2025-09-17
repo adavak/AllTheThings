@@ -1616,7 +1616,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["isDaily"] = true,
 						["groups"] = { i(238907) },	-- Anima Orb (QI!)
 					}),
-					q(85721, {	--
+					q(85721, {	-- Killer Instinct
+						["qg"] = 235353,	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
 						["isDaily"] = true,
 					}),
 				}),
