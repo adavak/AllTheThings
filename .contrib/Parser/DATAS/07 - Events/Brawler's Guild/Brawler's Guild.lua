@@ -14,9 +14,14 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 		DEEPRUN_TRAM_BIZMOS_BRAWLPUB,
 		BRAWLGAR_ARENA,
 	},
-	-- Wouter TODO: fix level requirements
 	-- #if MOP
 	["lvl"] = 90,
+	-- #elseif WOD
+	["lvl"] = 100,
+	-- #elseif LEGION
+	["lvl"] = 110,
+	-- #elseif BFA
+	["lvl"] = 120,
 	-- #endif
 	["groups"] = {
 		n(ACHIEVEMENTS, {
@@ -331,8 +336,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 		}),
 		n(QUESTS, appendGroups(
-			-- Wouter TODO: check if any of these are added early with MoP Classic's Landfall phase
-			-- Wouter TODO: add coordinates
 			-- MOP
 			applyclassicphase(MOP_PHASE_ESCALATION, sharedData({ ["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH } }, {
 				q(32836, {	-- A Knockoff Grumplefloot
@@ -344,11 +347,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Grandpa Grumplefloot defeated
@@ -370,11 +373,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Argh defeated
@@ -395,11 +398,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Master Boom Boom defeated
@@ -420,11 +423,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Razorgrin defeated
@@ -445,11 +448,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Splat defeated
@@ -471,11 +474,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Mecha-Bruce defeated
@@ -496,11 +499,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Dippy & Doopy defeated
@@ -524,11 +527,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Blingtron 3000 defeated
@@ -549,11 +552,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Mingus Diggs defeated
@@ -574,11 +577,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Blind Hero defeated
@@ -599,11 +602,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Ro-Shambo defeated
@@ -624,11 +627,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #if BEFORE LEGION
 					["aqd"] = {
 						["qg"] = 70752,	-- Card Trader Leila
-						-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+						["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 					},
 					["hqd"] = {
 						["qg"] = 70751,	-- Card Trader Ami
-						-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+						["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Ty'thar defeated
@@ -665,7 +668,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				q(55002, {	-- Murder at the Brawlpub
 					["description"] = "This quest can be accepted after you successfully complete any (or your first) Brawl.",
 					["qg"] = 68363,	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
-					["coord"] = { 50.2, 23.1, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+					["coord"] = { 54.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				}),
 				q(55003, {	-- Put Up Your Dukes
 					["sourceQuest"] = 55002,	-- Murder at the Brawlpub
@@ -812,7 +815,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				q(53914, {	-- Murder at the Brawl'gar Arena
 					["description"] = "This quest can be accepted after you successfully complete any (or your first) Brawl.",
 					["qg"] = 68364,	-- Paul North
-					["coord"] = { 48.4, 29.2, BRAWLGAR_ARENA },
+					["coord"] = { 50.8, 29.4, BRAWLGAR_ARENA },
 				}),
 				q(53915, {	-- Put Up Your Dukes
 					["sourceQuest"] = 53914,	-- Murder at the Brawl'gar Arena
@@ -984,15 +987,15 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(145695, {	-- "Bad Luck" Symmes <Brawl'gar Arena Quartermaster>
 				["sourceQuest"] = 53914,	-- Murder at the Brawl'gar Arena
 				["maps"] = { BRAWLGAR_ARENA },
+				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 				["sym"] = { {"sub", "common_vendor", 68364} },	-- Paul North <Brawl'gar Arena Quartermaster>
 			}),
-			n(70752, {	-- Card Trader Leila
-				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-				-- Wouter TODO: add coords
-				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-				["races"] = ALLIANCE_ONLY,
+			n(70751, {	-- Card Trader Ami
+				["maps"] = { BRAWLGAR_ARENA },
+				["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
+				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_9_0_2_LAUNCH },
 				["groups"] = {
 					-- #if BEFORE LEGION
@@ -1005,9 +1008,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					}),
 					-- #endif
 					-- #if BEFORE SL
-					i(94178, {	-- Challenge Card: G.G. Engineering
+					applyclassicphase(MOP_PHASE_ESCALATION, i(94178, {	-- Challenge Card: G.G. Engineering
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(164935, {	-- Challenge Card: Lord Sylysthrel
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
@@ -1025,7 +1028,43 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					-- #endif
 				},
 			}),
-			n(70723, {	-- Dame Jesepha
+			n(70752, {	-- Card Trader Leila
+				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				["races"] = ALLIANCE_ONLY,
+				["timeline"] = { ADDED_5_1_0, REMOVED_9_0_2_LAUNCH },
+				["groups"] = {
+					-- #if BEFORE LEGION
+					i(93823, {	-- Challenge Card: Bruce
+						n(67262, {	-- Bruce
+							applyclassicphase(MOP_PHASE_ESCALATION, i(97983, {	-- Modified Chomping Apparatus
+								["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH }
+							})),
+						}),
+					}),
+					-- #endif
+					-- #if BEFORE SL
+					applyclassicphase(MOP_PHASE_ESCALATION, i(94178, {	-- Challenge Card: G.G. Engineering
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+					})),
+					i(164935, {	-- Challenge Card: Lord Sylysthrel
+						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
+					}),
+					i(164936, {	-- Mysterious Challenge Card
+						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
+						["description"] = "If you fail to kill Xan-Sallish for the 'Solving the Mystery' quest, you can buy this card again from this vendor.",
+						["groups"] = {
+							n(145782, {	-- Xan-Sallish <Blade of the Watcher>
+								i(164940, {	-- Mysterious Satchel
+									i(164942),	-- Shadowscrawled Tome
+								}),
+							}),
+						},
+					}),
+					-- #endif
+				},
+			}),
+			n(70723, {	-- Dame Jesepha <Luxury Food Vendor>
 				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				-- Wouter TODO: add coords
 				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
@@ -1042,11 +1081,26 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(151941, {	-- Dershway the Triggered <Bizmo's Brawlpub Quartermaster>
 				["sourceQuest"] = 55002,	-- Murder at the Brawlpub
 				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 				["sym"] = { {"sub", "common_vendor", 68363} },	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
 			}),
-			n(70719, {	-- Mozzle Gearbeer
+			n(70714, {	-- Harr Grayhide <Luxury Food Vendor>
+				["maps"] = { BRAWLGAR_ARENA },
+				-- Wouter TODO: add coords
+				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+				["races"] = HORDE_ONLY,
+				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+				-- #if BFA
+				["groups"] = {
+					i(98121, {	-- Amberseed Bun
+						["description"] = "Throw this at Brawlers while on the 'Flaunt It If You Got It' quest.",
+					}),
+				},
+				-- #endif
+			}),
+			n(70713, {	-- Haxxil Drinkmeister <Rare and Luxury Drink Vendor>
 				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				-- Wouter TODO: add coords
 				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
@@ -1060,11 +1114,23 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				},
 				-- #endif
 			}),
-			-- Wouter TODO: set coordinates for these two NPCs when Landfall comes in MoP Classic
+			n(70719, {	-- Mozzle Gearbeer <Rare and Luxury Drink Vendor>
+				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				-- Wouter TODO: add coords
+				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				["races"] = ALLIANCE_ONLY,
+				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+				-- #if BFA
+				["groups"] = {
+					i(98117, {	-- Moneybrau
+						["description"] = "Drink this while on the 'Flaunt It If You Got It' quest.",
+					}),
+				},
+				-- #endif
+			}),
 			n(68364, {	-- Paul North <Brawl'gar Arena Quartermaster>
 				["maps"] = { BRAWLGAR_ARENA },
-				-- Wouter TODO: add coords
-				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+				["coord"] = { 50.8, 29.4, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0 },
 				-- #if AFTER SL
@@ -1098,39 +1164,39 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					i(122396, {	-- Brawler's Razor Claws
 						["timeline"] = { ADDED_6_1_0, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98085, {	-- Brucehide Jersey
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98085, {	-- Brucehide Jersey
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(93025, {	-- Clock'em (PET!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98092, {	-- Digmaster's Bodysleeve
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98092, {	-- Digmaster's Bodysleeve
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					iensemble(167892, {	-- Ensemble: Brawlers Garb
+					})),
+					iensemble(167892, {	-- Ensemble: Brawler's Garb
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98079, {	-- Floot-Tooter's Tunic
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98079, {	-- Floot-Tooter's Tunic
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					TempForceMisc(i(127773, {	-- Gemcutter Module: Mastery
 						["timeline"] = { ADDED_6_2_0, REMOVED_9_0_2_LAUNCH },
 						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
 						["requireSkill"] = JEWELCRAFTING,
 					})),
-					i(98080, {	-- Gorgeous Blouse
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98080, {	-- Gorgeous Blouse
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98091, {	-- Last Season's Shirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98091, {	-- Last Season's Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98084, {	-- Ooze-Soaked Shirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98084, {	-- Ooze-Soaked Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98087, {	-- Paper Shirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98087, {	-- Paper Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(118908, {	-- Pit Fighter's Punching Ring
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_6_0_2, REMOVED_9_0_2_LAUNCH },
@@ -1139,33 +1205,36 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98083, {	-- Sharkskin Tunic
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98083, {	-- Sharkskin Tunic
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98093, {	-- Sightless Mantle
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98093, {	-- Sightless Mantle
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98081, {	-- The Boomshirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98081, {	-- The Boomshirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+					})),
+					i(95050, {	-- The Brassiest Knuckle
+						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
 					}),
-					i(98086, {	-- Tuxedo-Like Shirt
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98086, {	-- Tuxedo-Like Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(144394, {	-- Tylarr Gronnden (PET!)
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98082, {	-- Undisputed Champion's Shirt
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98082, {	-- Undisputed Champion's Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98543, {	-- Wraps of the Blood-Soaked Brawler
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98543, {	-- Wraps of the Blood-Soaked Brawler
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 				},
 			}),
 			n(68363, {	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
 				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-				-- Wouter TODO: add coords
-				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+				["coord"] = { 54.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_1_0 },
 				-- #if AFTER SL
@@ -1199,39 +1268,39 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					i(122396, {	-- Brawler's Razor Claws
 						["timeline"] = { ADDED_6_1_0, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98085, {	-- Brucehide Jersey
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98085, {	-- Brucehide Jersey
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(93025, {	-- Clock'em (PET!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98092, {	-- Digmaster's Bodysleeve
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98092, {	-- Digmaster's Bodysleeve
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					iensemble(167891, {	-- Ensemble: Brawler's Garb
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98079, {	-- Floot-Tooter's Tunic
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98079, {	-- Floot-Tooter's Tunic
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					TempForceMisc(i(127773, {	-- Gemcutter Module: Mastery
 						["timeline"] = { ADDED_6_2_0, REMOVED_9_0_2_LAUNCH },
 						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
 						["requireSkill"] = JEWELCRAFTING,
 					})),
-					i(98080, {	-- Gorgeous Blouse
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98080, {	-- Gorgeous Blouse
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98091, {	-- Last Season's Shirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98091, {	-- Last Season's Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98084, {	-- Ooze-Soaked Shirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98084, {	-- Ooze-Soaked Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98087, {	-- Paper Shirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98087, {	-- Paper Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(118907, {	-- Pit Fighter's Punching Ring
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { ADDED_6_0_2, REMOVED_9_0_2_LAUNCH },
@@ -1240,27 +1309,31 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98083, {	-- Sharkskin Tunic
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98083, {	-- Sharkskin Tunic
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98093, {	-- Sightless Mantle
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98093, {	-- Sightless Mantle
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98081, {	-- The Boomshirt
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98081, {	-- The Boomshirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+					})),
+					i(95051, {	-- The Brassiest Knuckle
+						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
 					}),
-					i(98086, {	-- Tuxedo-Like Shirt
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98086, {	-- Tuxedo-Like Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 					i(144394, {	-- Tylarr Gronnden (PET!)
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
-					i(98082, {	-- Undisputed Champion's Shirt
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98082, {	-- Undisputed Champion's Shirt
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
-					i(98543, {	-- Wraps of the Blood-Soaked Brawler
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98543, {	-- Wraps of the Blood-Soaked Brawler
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
-					}),
+					})),
 				},
 			}),
 			n(115797, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH } }, {	-- Tiana Nevermorn <Gold Exchange>
