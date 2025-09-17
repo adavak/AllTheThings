@@ -5,7 +5,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	inst(755, {	-- The Obsidian Sanctum
 		["mapID"] = THE_OBSIDIAN_SANCTUM,
 		["coord"] = { 60.0, 56.7, DRAGONBLIGHT },
-		-- #if AFTER CATA
+		-- #if AFTER WOD
 		["sharedLockout"] = 1,
 		-- #endif
 		["isRaid"] = true,
