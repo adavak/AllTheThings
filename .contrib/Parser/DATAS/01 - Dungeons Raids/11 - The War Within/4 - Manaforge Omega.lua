@@ -497,6 +497,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 							["timeline"] = { ADDED_11_2_0 },
 						}),
 					}, {	-- RENOWN 7 --
+						q(91477, {	-- Behind Enemy Lines II
+							["provider"] = { "n", 245344 },	-- Zo'turu
+							["coord"] = { 42.0, 22.1, KARESH },
+							["timeline"] = { ADDED_11_2_0 },
+						}),
+						q(91484, {	-- Hacking the Forgeweaver
+							["provider"] = { "n", 245344 },	-- Zo'turu
+							["coord"] = { 42.0, 22.1, KARESH },
+							["timeline"] = { ADDED_11_2_0 },
+						}),
 					}, {	-- RENOWN 8 --
 						i(249709),	-- Formula: Gleeful Glamour - Ethereal (RECIPE!)
 						i(249703),	-- Technique: Deal: Cartel Ba (RECIPE!)
