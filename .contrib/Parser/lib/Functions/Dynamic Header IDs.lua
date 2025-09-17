@@ -567,6 +567,9 @@ HeaderAssignments = {
 	["Treasures"] = -56,
 	["Trial of Style"] = -38,
 	["Trinket"] = -99,
+	["Twilight Assist"] = -659,
+	["Twilight Duo"] = -660,
+	["Twilight Zone"] = -661,
 	["Tyrannical Gladiator: Season 13"] = -260,
 	["UI - Bounty"] = -343,
 	["Unchained Gladiator: Shadowlands Season 2"] = -281,
@@ -656,4 +659,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -659;
+NextHeaderID = -662;
