@@ -36,8 +36,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					ach(41630, {	-- "Employee" of the Month
 						["groups"] = {
-							-- Temporary? Its a hidden FoS
-							title(617),	-- <Name>, "Employee" of the Month
+							title(617, {	-- <Name>, "Employee" of the Month
+								["collectible"] = false,	-- You only keep it for a few days
+							}),
 						},
 					}),
 				}),
