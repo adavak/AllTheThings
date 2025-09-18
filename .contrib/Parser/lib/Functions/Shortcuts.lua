@@ -1136,7 +1136,8 @@ iupgrade = function(itemID, modID, bonusID, t)			-- Create an ITEM Object which 
 	i.up = (tonumber(modID) or 0) + ((tonumber(bonusID) or 0) / 100000);
 	return i;
 end
-iensemble = function(itemID, t)
+iensemble = function(itemID, t)							-- Create an ITEM which imports Wago Ensemble data during Parse
+	-- Include '_IgnoreSharedEnsembleByQuestID' in the RARE situation that two distinct ensembles are given the same QuestID by Blizz
 	local i = i(itemID, t);
 	i.type = "ensembleID"
 	return i

@@ -3172,7 +3172,7 @@ namespace ATT
                 List<long> allSourceIDs = transmogSetItems.Select(i => i.ItemModifiedAppearanceID).ToList();
 
                 // check if other Ensembles have the same TrackingQuestID -- these seem to additionally be granted without relying on a nested SpellEffect trigger
-                if (data.TryGetValue("questID", out long questID))
+                if (data.TryGetValue("questID", out long questID) && !data.ContainsKey("_IgnoreSharedEnsembleByQuestID"))
                 {
                     foreach (var sameQuestTransmogSet in WagoData.GetAll<TransmogSet>().Values.Where(s => s.TrackingQuestID == questID && s.ID != tmogSetID))
                     {

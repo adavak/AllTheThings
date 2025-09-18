@@ -620,11 +620,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						iensemble(248979),	-- Ensemble: Gilded Cloaks of the Lucent Battalion
 						iensemble(248969),	-- Ensemble: Hollow Sentinel's Wingdrapes
 						iensemble(248983),	-- Ensemble: Inquisitor's All-Seeing Madness
-						iensemble(248984),	-- Ensemble: Living Weapon's Capes
+						iensemble(248984, {_IgnoreSharedEnsembleByQuestID=true}),	-- Ensemble: Living Weapon's Capes
 						iensemble(248980),	-- Ensemble: Memories of a Dying Star
 						iensemble(248976),	-- Ensemble: Midnight Herald's Shrouds
 						iensemble(248972),	-- Ensemble: Plumes of the Mother Eagle
-						iensemble(248982),	-- Ensemble: Shawls of Channeled Fury
+						iensemble(248982, {_IgnoreSharedEnsembleByQuestID=true}),	-- Ensemble: Shawls of Channeled Fury
 						iensemble(248973),	-- Ensemble: Spellweaver's Immaculate Runecloaks
 						iensemble(248971),	-- Ensemble: Vicious Charhound's Felcovers
 					}),
