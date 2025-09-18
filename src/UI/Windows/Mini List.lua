@@ -274,7 +274,7 @@ local CachedMapData = setmetatable({}, {
 		end
 	end
 });
-_.GetCachedDataForMapID = function(mapID)
+app.GetCachedDataForMapID = function(mapID)
 	return CachedMapData[mapID];
 end
 
