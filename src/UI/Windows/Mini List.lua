@@ -274,6 +274,9 @@ local CachedMapData = setmetatable({}, {
 		end
 	end
 });
+_.GetCachedDataForMapID = function(mapID)
+	return CachedMapData[mapID];
+end
 
 -- Implementation
 app:CreateWindow("MiniList", {
