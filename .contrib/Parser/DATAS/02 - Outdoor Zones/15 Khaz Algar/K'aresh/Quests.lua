@@ -1474,6 +1474,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							o(523827, {	-- Comfy Snake Bed
 								["coord"] = { 74.5, 31.2, KARESH },
 							}),
+							o(523828, {	-- Extra Cushiony Moss
+								["coord"] = { 74.5, 31.2, KARESH },
+							}),
 						},
 					}),
 					q(88670, {	-- Soothing Serpents

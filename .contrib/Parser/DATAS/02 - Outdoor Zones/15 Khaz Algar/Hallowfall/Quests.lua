@@ -837,7 +837,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			header(HEADERS.AchCriteria, 40844.10, {	-- Rest at Last
 				q(83497, {	-- A Concerned Friend
-					["sourceQuests"] = { 78658 },	-- The Hallowed Path
 					["provider"] = { "n", 226708 },	-- Val Thalvassa
 					["coord"] = { 51.1, 46.0, DORNOGAL },
 					["isBreadcrumb"] = true,

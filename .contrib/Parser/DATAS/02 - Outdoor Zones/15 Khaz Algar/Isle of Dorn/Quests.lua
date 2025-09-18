@@ -551,10 +551,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 60.5, 33.1, DORNOGAL },
 				}),
 				q(79526, {	-- Sedition
-					["sourceQuests"] = {
-						79546,	-- The Machine Speakeasy
-						78630,	-- The Rise of the Reckoning
-					},
+					["sourceQuests"] = { 79546 },	-- The Machine Speakeasy
 					["provider"] = { "o", 429303 },	-- Angrily-Scrawled Poster
 					["coord"] = { 45.9, 47.2, DORNOGAL },
 					["groups"] = {
