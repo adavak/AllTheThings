@@ -228,7 +228,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["description"] = "Can only be harvested along with normal crops or Portal Shard crops.",
 						-- #endif
 					})),
-					n(67482, {	-- Portal Shard
+					applyclassicphase(MOP_PHASE_LANDFALL, n(67482, {	-- Portal Shard
 						["cost"] = {{ "i", 91806, 1 }},	-- Unstable Portal Shard
 						["crs"] = { 67446 },	-- Unstable Portal Shard
 						["groups"] = {
@@ -257,7 +257,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 								["races"] = HORDE_ONLY,
 							}),
 						},
-					}),
+					})),
 					n(66016, {	-- Raptorleaf
 						["cost"] = {{ "i", 89202, 1 }},	-- Raptorleaf Seed
 						["cr"] = 66013,	-- Growing Raptorleaf
