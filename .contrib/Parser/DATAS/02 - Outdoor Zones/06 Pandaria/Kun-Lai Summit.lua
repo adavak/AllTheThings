@@ -3604,7 +3604,6 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
-					-- Wouter TODO: check if these are added early with MoP Classic's Landfall phase
 					applyclassicphase(MOP_PHASE_ESCALATION, i(97980, {	-- Hozen-Fur Fuse (QI!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
 						["description"] = "Best farmed by doing The Burlap Grind quest. This can take more than a few hundred kills to drop.",
