@@ -89,7 +89,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
 						["filterID"] = CONSUMABLES,	-- Changed from "Toy"
 					}),
 					i(217373, {	-- Frenzied Hat of the Dark Depths
-						["timeline"] = { CREATED_10_2_6, ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0 },
 						["cost"] = 10000000,	-- 1k
 					}),
 					i(208858, {	-- Highland Drake: Pirates' Day Armor (MM!)

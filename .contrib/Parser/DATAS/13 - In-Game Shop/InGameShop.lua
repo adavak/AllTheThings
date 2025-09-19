@@ -405,6 +405,14 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_9_1_5 },
 		}),
 
+		------ Spirit Healer Collection ------
+		iensemble(239481, { ["timeline"] = { ADDED_11_2_0 } }),	-- Arsenal: Soul-Touched Collection
+		iensemble(239445, { ["timeline"] = { ADDED_11_2_0 } }),	-- Arsenal: Spirit-Touched Collection
+		iensemble(239441, { ["timeline"] = { ADDED_11_2_0 } }),	-- Ensemble: Soulbringer Attire
+		iensemble(239444, { ["timeline"] = { ADDED_11_2_0 } }),	-- Ensemble: Soulrune Attire
+		iensemble(239439, { ["timeline"] = { ADDED_11_2_0 } }),	-- Ensemble: Spiritbringer Attire
+		iensemble(239443, { ["timeline"] = { ADDED_11_2_0 } }),	-- Ensemble: Spiritrune Attire
+
 		------ Sprite Darter Set ------
 		i(172378, {	-- Sprite Darter's Bangle
 			["timeline"] = { ADDED_8_3_0 },
