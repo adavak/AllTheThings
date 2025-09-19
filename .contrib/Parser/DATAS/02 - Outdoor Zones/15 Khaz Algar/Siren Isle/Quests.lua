@@ -456,8 +456,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 				q(85070),	-- when Special Assigment npc unlocked for storm phase (pop talking head)
 				-- Snapdragon timer after quest
 				q(86566),	-- [DNT] Snapdragon Progress Update (spellID 1214684)
-				-- Treasure
-				q(85714, {["isWeekly"]=true,}),	-- Solving puzzle to unlock Rune-Sealed Coffer
 				-- Another unlock for vendor (snapdragon treats)
 				-- ^ moved into CharacterItemDB instead
 				-- color changes questID (otherwise it will block 100% for zone)

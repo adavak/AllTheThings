@@ -79,6 +79,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["questID"] = 86171,
 						["isWeekly"] = true,
 					}),
+					o(493373, {	-- Unsolved Amethyst Runelock
+						["coord"] = { 67.8, 73.5, SIREN_ISLE },
+						["questID"] = 85714,
+						["isWeekly"] = true,
+					}),
 				}),
 				n(WORLD_QUESTS, {
 					["sourceQuests"] = {
