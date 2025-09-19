@@ -100,6 +100,13 @@ root(ROOTS.Zones, {
 								i(89882),	-- Crystallized Horror
 								i(89881),	-- Crystallized Terror
 							})),
+							-- #if ANYCLASSIC
+							applyclassicphase(MOP_PHASE_LANDFALL, {
+								i(254313, {	-- Grand Commendation of the Black Prince
+									["minReputation"] = { FACTION_THE_BLACK_PRINCE, REVERED },
+								}),
+							}),
+							-- #endif
 							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, bubbleDown({
 								["sourceAchievements"] = {
 									7534,	-- Chapter II: Wrathion's War
