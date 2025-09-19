@@ -5537,7 +5537,20 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
 				["groups"] = {
-					i(204435),	-- Obsidian Tablet (QI!)
+					o(390556, {	-- Obsidian Tablet
+						["coords"] = {
+							{ 38.6, 50.7, ZARALEK_CAVERN },
+							{ 39.3, 53.9, ZARALEK_CAVERN },
+							{ 40.1, 51.2, ZARALEK_CAVERN },
+							{ 40.8, 50.3, ZARALEK_CAVERN },
+							{ 41.0, 48.7, ZARALEK_CAVERN },
+							{ 41.2, 47.7, ZARALEK_CAVERN },
+							{ 41.7, 45.2, ZARALEK_CAVERN },
+							{ 41.7, 50.9, ZARALEK_CAVERN },
+							{ 42.1, 46.6, ZARALEK_CAVERN },
+						},
+						["groups"] = { i(204435) },	-- Obsidian Tablet (QI!)
+					}),
 				},
 			}),
 			q(75573, {	-- Proclamation Reclamation

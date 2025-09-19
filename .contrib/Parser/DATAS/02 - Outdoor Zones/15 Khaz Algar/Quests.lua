@@ -663,7 +663,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				}),
 				------ Stay awhile and listen ------
 				hqt(86818, {	-- Stay awhile and listen: Archamge Aethas Sunreaver
-					["name"] = "Stay awhile and listen: Archamge Aethas Sunreaver",
+					["name"] = "Stay awhile and listen: Archmage Aethas Sunreaver",
 					["description"] = "Dialogue becomes available after accepting 'Magic-stealing Kobolds' (83553). Wait for Kalecgos to cast his Mirror Images and fly away.",
 					["sourceQuests"] = { 83539 },	-- Feeling Blue
 					["provider"] = { "n", 226895 },	-- Archmage Aethas Sunreaver

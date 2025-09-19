@@ -993,7 +993,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["sym"] = { {"sub", "common_vendor", 68364} },	-- Paul North <Brawl'gar Arena Quartermaster>
 			}),
 			n(70751, {	-- Card Trader Ami
-				["maps"] = { BRAWLGAR_ARENA },
 				["coord"] = { 60.4, 77.5, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_9_0_2_LAUNCH },
@@ -1029,7 +1028,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				},
 			}),
 			n(70752, {	-- Card Trader Leila
-				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["coord"] = { 52.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_9_0_2_LAUNCH },
@@ -1129,7 +1127,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				-- #endif
 			}),
 			n(68364, {	-- Paul North <Brawl'gar Arena Quartermaster>
-				["maps"] = { BRAWLGAR_ARENA },
 				["coord"] = { 50.8, 29.4, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0 },
@@ -1233,7 +1230,6 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				},
 			}),
 			n(68363, {	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
-				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["coord"] = { 54.3, 25.2, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_1_0 },

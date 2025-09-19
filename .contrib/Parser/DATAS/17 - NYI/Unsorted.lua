@@ -555,7 +555,6 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			n(ARMOR, {
 				-- Unknown (PvP Appearance?)
-				i(237998),	-- Void Assassin's Ritual Blade
 				i(238008),	-- Wastelander's Folly
 
 				-- Mechagon Junkyard?

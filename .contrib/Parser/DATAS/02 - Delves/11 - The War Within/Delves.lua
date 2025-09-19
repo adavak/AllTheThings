@@ -1097,6 +1097,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
+			i(228413, { ["timeline"] = { ADDED_11_2_0 } }),	-- Lampyridae Lure (TOY!)
 		})),
 		filter(COSMETIC, {
 			i(212162),	-- Bitter Shroom Cap
@@ -1364,6 +1365,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(238000),	-- Mana Manipulator
 						i(218125),	-- Reactive Webbed Escutcheon
 						i(238006),	-- Soulbearer's Censer
+						i(237998),	-- Void Assassin's Ritual Blade
 						i(238005),	-- Void-Steeped Falchion
 						i(238002),	-- Wanderer's Projectile Accelerator
 						i(238003),	-- Wyrmhunter's Skewer
