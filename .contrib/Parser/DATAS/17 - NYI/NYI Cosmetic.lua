@@ -370,9 +370,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			i(212879),	-- Drake Racer's Azure Scarf
 			i(212880),	-- Drake Racer's Azure Shoulderpads
 			i(212881),	-- Drake Racer's Azure Helmet
-
-			------ Single Pieces ------
-			i(217373),	-- Frenzied Hat of the Dark Depths
 		})),
 
 		-- 10.2.7
