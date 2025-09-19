@@ -267,7 +267,7 @@ root(ROOTS.Promotions, {
 			}),
 			mount(1236262, {	-- Shaohao's Sage Serpent (MOUNT!)
 				["description"] = "Finish the Pandaren Wandering Isle starting zone in |cFFfe040fMoP Classic|r until you arrive in Orgrimmar/Stormwind to receive this mount in Retail.\n\nPromotion starts on July 1st until July 30th.",
-				["timeline"] = { ADDED_11_1_7, "removed 11.1.7.99999" },	-- Removed July 30th, 2025
+				["timeline"] = { ADDED_11_1_7, "removed 11.1.7.61967" },	-- Removed July 30th, 2025
 			}),
 			i(232302, {	-- Prized Banner of the Algari (TOY!)
 				["description"] = "Break the Meta: TWW Season 2\n\nInstead of teams fighting to beat their opponent's time, Break the Meta is focused on teams pushing keys as high as they can with Season 2's off-meta specs and classes.\n\nRegister for the event on |cFFFFFFFFraider.io/events/break-the-meta-the-war-within-season-2/register|r and complete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +10|r or higher during the Competition Period, and the Tempered Banner of the Algari will be automatically added to your collection in-game after the conclusion of the event.\n\nThe Event starts on June 24th for US, June 25th for EU & June 26th for CN/KR/TW & lasts for 1 week.",
@@ -279,7 +279,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(246451, { -- Shadefur Brewthief (PET!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between August 5th, 10:00 a.m. & September 16th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 16, 2025
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.63163" },	-- Removed September 16, 2025
 			}),
 			-- Season 3
 			cnONLY(i(246732, {	-- Void-Forged Overseer (CN Only)
@@ -297,8 +297,8 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_5 },	-- Removed before 11.2.5 Release
 			}),
 			i(246343, {	-- Scruffyhorn Fel Snooter (PET!)
-				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-22, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 22, 2025
+				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-30, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 30, 2025
 				["u"] = REAL_MONEY,
 			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
