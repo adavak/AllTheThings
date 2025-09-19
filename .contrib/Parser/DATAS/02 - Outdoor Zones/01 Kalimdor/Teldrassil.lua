@@ -1871,6 +1871,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #endif
 				q(2438, {	-- The Emerald Dreamcatcher
+					-- #if AFTER CATA
+					-- #if BEFORE LEGION
+					["description"] = "This quest is incorrectly marked as a weekly by Blizzard up until Legion. Complete it on a Night Elf character to prevent it from reappearing in ATT.",
+					-- #endif
+					-- #endif
 					["qg"] = 3567,	-- Tallonkai Swiftroot
 					["coords"] = {
 						-- #if AFTER CATA
