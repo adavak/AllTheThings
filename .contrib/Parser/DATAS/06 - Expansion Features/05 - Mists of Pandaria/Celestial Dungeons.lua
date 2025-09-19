@@ -22,7 +22,7 @@ local CELESTIAL_DUNGEON_MAPS_SIGIL_OF_POWER = {
 	SIEGE_OF_NIUZAO_TEMPLE,
 	SIEGE_OF_NIUZAO_TEMPLE_THE_HOLLOWED_OUT_TREE,
 	SIEGE_OF_NIUZAO_TEMPLE_UPPER_TREE_RING,
-}
+};
 local CELESTIAL_DUNGEON_MAPS_SIGIL_OF_WISDOM = {
 	SCARLET_HALLS_TRAINING_GROUNDS,
 	SCARLET_HALLS_ATHENAEUM,
@@ -32,11 +32,11 @@ local CELESTIAL_DUNGEON_MAPS_SIGIL_OF_WISDOM = {
 	STORMSTOUT_BREWERY_THE_TASTING_ROOM,
 	TEMPLE_OF_THE_JADE_SERPENT,
 	TEMPLE_OF_THE_JADE_SERPENT_THE_SCROLLKEEPERS_SANCTUM,
-}
+};
 local CELESTIAL_DUNGEON_MAPS = appendGroups(
 	CELESTIAL_DUNGEON_MAPS_SIGIL_OF_POWER,
 	CELESTIAL_DUNGEON_MAPS_SIGIL_OF_WISDOM
-)
+);
 local CELESTIAL_DUNGEON_BOSSES = {
 	-- Gate of the Setting Sun
 	56906,	-- Saboteur Kip'tilak
@@ -84,7 +84,7 @@ local CELESTIAL_DUNGEON_BOSSES = {
 	56843,	-- Lorewalker Stonestep
 	56732,	-- Liu Flameheart
 	56439,	-- Sha of Doubt
-}
+};
 local CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER = {
 	-- Gate of the Setting Sun
 	56877,	-- Raigonn
@@ -96,7 +96,7 @@ local CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER = {
 	56884,	-- Taran Zhu
 	-- Siege of Niuzao Temple
 	62205,	-- Wing Leader Ner'onok
-}
+};
 local CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_WISDOM = {
 	-- Scarlet Halls
 	59150,	-- Flameweaver Koegler
@@ -106,11 +106,34 @@ local CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_WISDOM = {
 	59479,	-- Yan-Zhu the Uncasked
 	-- Temple of the Jade Serpent
 	56439,	-- Sha of Doubt
-}
+};
 local CELESTIAL_DUNGEON_LAST_BOSSES = appendGroups(
 	CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER,
 	CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_WISDOM
-)
+);
+local CELESTIAL_TOKENS = {
+	CONQUEROR = {	-- Paladin, Priest, Warlock
+		HELM = 89274,		-- Helm of the Shadowy Conquerer
+		SHOULDERS = 89277,	-- Shoulders of the Shadowy Conquerer
+		CHEST = 89265,		-- Chest of the Shadowy Conquerer
+		GAUNTLETS = 89271,	-- Gauntlets of the Shadowy Conquerer
+		LEGS = 89268,		-- Leggings of the Shadowy Conquerer
+	},
+	PROTECTOR = {	-- Warrior, Hunter, Shaman, Monk
+		HELM = 89275,		-- Helm of the Shadowy Protector
+		SHOULDERS = 89278,	-- Shoulders of the Shadowy Protector
+		CHEST = 89266,		-- Chest of the Shadowy Protector
+		GAUNTLETS = 89272,	-- Gauntlets of the Shadowy Protector
+		LEGS = 89269,		-- Leggings of the Shadowy Protector
+	},
+	VANQUISHER = {	-- Rogue, Death Knight, Mage, Druid
+		HELM = 89273,		-- Helm of the Shadowy Vanquisher
+		SHOULDERS = 89276,	-- Shoulders of the Shadowy Vanquisher
+		CHEST = 89264,		-- Chest of the Shadowy Vanquisher
+		GAUNTLETS = 89270,	-- Gauntlets of the Shadowy Vanquisher
+		LEGS = 89267,		-- Leggings of the Shadowy Vanquisher
+	},
+};
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, {
 	n(CELESTIAL_DUNGEON_DIFFICULTY, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_0 } }, {
@@ -207,6 +230,179 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				}),
 			}),
 			n(VENDORS, {
+				n(64606, {	-- Commander Oxheart <Valor Quartermaster>
+					["coord"] = { 37.8, 64.6, TOWNLONG_STEPPES },
+					["groups"] = {
+						cl(WARRIOR, {
+							-- DPS
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86673)),		-- Helmet of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86669)),	-- Pauldrons of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86672)),		-- Battleplate of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86671)),	-- Gauntlets of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86670)),		-- Legplates of Resounding Rings
+
+							-- Tank
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86666)),		-- Faceguard of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86664)),	-- Shoulderguards of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86668)),		-- Chestguard of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86667)),	-- Handguards of Resounding Rings
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86665)),		-- Legguards of Resounding Rings
+						}),
+						cl(PALADIN, {
+							-- DPS
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.HELM, i(86681)),		-- White Tiger Helmet
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.SHOULDERS, i(86679)),	-- White Tiger Pauldrons
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.CHEST, i(86683)),		-- White Tiger Battleplate
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.GAUNTLETS, i(86682)),	-- White Tiger Gauntlets
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.LEGS, i(86680)),		-- White Tiger Legplates
+
+							-- Healer
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.HELM, i(86686)),		-- White Tiger Headguard
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.SHOULDERS, i(86684)),	-- White Tiger Mantle
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.CHEST, i(86688)),		-- White Tiger Breastplate
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.GAUNTLETS, i(86687)),	-- White Tiger Gloves
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.LEGS, i(86685)),		-- White Tiger Greaves
+
+							-- Tank
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.HELM, i(86661)),		-- White Tiger Faceguard
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.SHOULDERS, i(86659)),	-- White Tiger Shoulderguards
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.CHEST, i(86663)),		-- White Tiger Chestguard
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.GAUNTLETS, i(86662)),	-- White Tiger Handguards
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.LEGS, i(86660)),		-- White Tiger Legguards
+						}),
+						cl(DEATHKNIGHT, {
+							-- DPS
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86676)),		-- Helmet of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86674)),	-- Pauldrons of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86678)),		-- Breastplate of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86677)),	-- Gauntlets of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86675)),			-- Greaves of the Lost Catacomb
+
+							-- Tank
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86656)),			-- Faceguard of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86654)),	-- Shoulderguards of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86658)),		-- Chestguard of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86657)),	-- Handguards of the Lost Catacomb
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86655)),		-- Legguards of the Lost Catacomb
+						}),
+						cl(HUNTER, {
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86636)),		-- Yaungol Slayer's Headguard
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86634)),	-- Yaungol Slayer's Spaulders
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86638)),		-- Yaungol Slayer's Tunic
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86637)),	-- Yaungol Slayer's Gloves
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86635)),		-- Yaungol Slayer's Legguards
+						}),
+						cl(ROGUE, {
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86641)),		-- Helmet of the Thousandfold Blades
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86639)),	-- Spaulders of the Thousandfold Blades
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86643)),		-- Tunic of the Thousandfold Blades
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86642)),	-- Gloves of the Thousandfold Blades
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86640)),		-- Legguards of the Thousandfold Blades
+						}),
+						cl(PRIEST, {
+							-- DPS
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.HELM, i(86705)),		-- Guardian Serpent Hood
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.SHOULDERS, i(86708)),	-- Guardian Serpent Shoulderguards
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.CHEST, i(86707)),		-- Guardian Serpent Raiment
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.GAUNTLETS, i(86704)),	-- Guardian Serpent Gloves
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.LEGS, i(86706)),		-- Guardian Serpent Leggings
+
+							-- Healer
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.HELM, i(86702)),		-- Guardian Serpent Cowl
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.SHOULDERS, i(86699)),	-- Guardian Serpent Mantle
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.CHEST, i(86700)),		-- Guardian Serpent Robes
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.GAUNTLETS, i(86703)),	-- Guardian Serpent Handwraps
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.LEGS, i(86701)),		-- Guardian Serpent Legwraps
+						}),
+						cl(SHAMAN, {
+							-- DPS (Enhance)
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86626)),		-- Firebird's Helmet
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86624)),	-- Firebird's Spaulders
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86628)),		-- Firebird's Cuirass
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86627)),	-- Firebird's Grips
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86625)),		-- Firebird's Legguards
+
+							-- DPS (Elemental)
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86631)),		-- Firebird's Headpiece
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86633)),	-- Firebird's Shoulderwraps
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86629)),		-- Firebird's Hauberk
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86630)),	-- Firebird's Gloves
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86632)),		-- Firebird's Kilt
+
+							-- Healer
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86691)),		-- Firebird's Faceguard
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86689)),	-- Firebird's Mantle
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86693)),		-- Firebird's Tunic
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86692)),	-- Firebird's Handwraps
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86690)),		-- Firebird's Legwraps
+						}),
+						cl(MAGE, {
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86717)),		-- Hood of the Burning Scroll
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86714)),	-- Mantle of the Burning Scroll
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86715)),		-- Robes of the Burning Scroll
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86718)),	-- Gloves of the Burning Scroll
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86716)),		-- Leggings of the Burning Scroll
+						}),
+						cl(MONK, {
+							-- DPS
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86736)),		-- Red Crane Headpiece
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86738)),	-- Red Crane Spaulders
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86734)),		-- Red Crane Tunic
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86735)),	-- Red Crane Grips
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86737)),		-- Red Crane Leggings
+
+							-- Healer
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86730)),		-- Red Crane Helm
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86733)),	-- Red Crane Mantle
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86732)),		-- Red Crane Vest
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86729)),	-- Red Crane Handwraps
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86731)),		-- Red Crane Legwraps
+
+							-- Tank
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.HELM, i(86726)),		-- Red Crane Crown
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.SHOULDERS, i(86724)),	-- Red Crane Shoulderguards
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.CHEST, i(86728)),		-- Red Crane Chestguard
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.GAUNTLETS, i(86727)),	-- Red Crane Gauntlets
+							tokencost(CELESTIAL_TOKENS.PROTECTOR.LEGS, i(86725)),		-- Red Crane Legguards
+						}),
+						cl(WARLOCK, {
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.HELM, i(86710)),		-- Sha-Skin Hood
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.SHOULDERS, i(86713)),	-- Sha-Skin Mantle
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.CHEST, i(86712)),		-- Sha-Skin Robes
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.GAUNTLETS, i(86709)),	-- Sha-Skin Gloves
+							tokencost(CELESTIAL_TOKENS.CONQUEROR.LEGS, i(86711)),		-- Sha-Skin Leggings
+						}),
+						cl(DRUID, {
+							-- DPS (Boomkin)
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86647)),		-- Eternal Blossom Cover
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86644)),	-- Eternal Blossom Shoulderwraps
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86645)),		-- Eternal Blossom Vestment
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86648)),	-- Eternal Blossom Gloves
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86646)),		-- Eternal Blossom Leggings
+
+							-- DPS (Feral)
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86651)),		-- Eternal Blossom Headpiece
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86649)),	-- Eternal Blossom Spaulders
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86653)),		-- Eternal Blossom Raiment
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86652)),	-- Eternal Blossom Grips
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86650)),		-- Eternal Blossom Legguards
+
+							-- Healer
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86697)),		-- Eternal Blossom Helm
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86694)),	-- Eternal Blossom Mantle
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86695)),		-- Eternal Blossom Robes
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86698)),	-- Eternal Blossom Handwraps
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86696)),		-- Eternal Blossom Legwraps
+
+							-- Tank
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.HELM, i(86721)),		-- Eternal Blossom Headguard
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.SHOULDERS, i(86723)),	-- Eternal Blossom Shoulderguards
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.CHEST, i(86719)),		-- Eternal Blossom Tunic
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.GAUNTLETS, i(86720)),	-- Eternal Blossom Handguards
+							tokencost(CELESTIAL_TOKENS.VANQUISHER.LEGS, i(86722)),		-- Eternal Blossom Breeches
+						}),
+					},
+				}),
 				n(248108, {	-- Avatar of the August Celestials <August Stone Fragment Exchange>
 					["aqd"] = {
 						["coord"] = { 41.4, 46.3, SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },

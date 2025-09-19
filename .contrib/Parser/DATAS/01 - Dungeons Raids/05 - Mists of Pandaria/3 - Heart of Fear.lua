@@ -1,8 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
---[[
--- SPLIT UP VERSION
+
 local TOKENS = {
 	RAIDFINDER = {
 		CONQUEROR = {	-- Paladin, Priest, Warlock
@@ -56,7 +55,7 @@ local TOKENS = {
 		},
 	},
 };
-]]--
+
 -- #if MOP
 local CUTTING_EDGE_ONUPDATE = [[function(t)
 	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
@@ -103,9 +102,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				}),
 				ach(6669),	-- Heart of Fear Guild Run
 			}),
-			--[[
-			-- SPLIT UP VERSION
 			n(VENDORS, {
+				-- #if NOT ANYCLASSIC
 				n(RAID_FINDER_VENDOR, {
 					["provider"] = { "n", 64606 },	-- Commander Oxheart <Valor Quartermaster>
 					["coord"] = { 37.8, 64.6, TOWNLONG_STEPPES },
@@ -234,6 +232,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						}),
 					},
 				}),
+				-- #endif
 				n(RAID_NORMAL_VENDOR, {
 					["provider"] = { "n", 64606 },	-- Commander Oxheart <Valor Quartermaster>
 					["coord"] = { 37.8, 64.6, TOWNLONG_STEPPES },
@@ -491,7 +490,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					},
 				}),
 			}),
-			]]--
 			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
 				["groups"] = {
 					n(ZONE_DROPS, {
