@@ -93,6 +93,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["races"] = HORDE_ONLY,
 					["coord"] = { 89.5, 22.7, KRASARANG_WILDS },	-- manually verified October 19, 2020
 					["groups"] = {
+						i(93227, {	-- Blood-Soaked Invitation
+							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+						}),
 						i(92783),	-- Mark of the Hardened Grunt
 					},
 				}),
@@ -102,6 +105,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["races"] = HORDE_ONLY,
 					["coord"] = { 92.2, 24.8, KRASARANG_WILDS },	-- manually verified October 19, 2020
 					["groups"] = {
+						i(93227, {	-- Blood-Soaked Invitation
+							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+						}),
 						i(92787),	-- Horde Insignia of Conquering
 					},
 				}),
@@ -109,6 +115,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["coord"] = { 13.5, 54.8, KRASARANG_WILDS },	-- manually verified October 19, 2020
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						i(93194, {	-- Blood-Soaked Invitation
+							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+						}),
 						i(92782),	-- Steadfast Footman's Medallion
 					},
 				}),
@@ -118,6 +127,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["coord"] = { 89.1, 26.8, KRASARANG_WILDS },	-- manually verified October 19, 2020
 					["races"] = HORDE_ONLY,
 					["groups"] = {
+						i(93227, {	-- Blood-Soaked Invitation
+							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+						}),
 						i(92785),	-- Kor'kron Book of Hurting
 					},
 				}),
@@ -126,12 +138,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(92786),	-- Alliance Insignia of Conquering
+						i(93194, {	-- Blood-Soaked Invitation
+							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+						}),
 					},
 				}),
 				n(68320, {	-- Ubunti the Shade
 					["coord"] = { 12.8, 64.7, KRASARANG_WILDS },	-- manually verified October 19, 2020
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						i(93194, {	-- Blood-Soaked Invitation
+							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+						}),
 						i(92784),	-- SI:7 Operative's Manual
 					},
 				}),
