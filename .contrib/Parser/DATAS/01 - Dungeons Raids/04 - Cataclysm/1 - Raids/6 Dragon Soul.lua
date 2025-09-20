@@ -274,23 +274,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					-- #endif
 				})),
 			}),
-			-----------------------------------------------------------------------------------------------------------------------------
-			-- CRIEVE TODO: After I add the vendor data for Protocol Twilight, this section can likely be excluded for Cataclysm Classic.
-			-----------------------------------------------------------------------------------------------------------------------------
+			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {
 				-- #if AFTER 6.0.1.18322
 				["crs"] = { 80675 },	-- Auridormi <Raid Finder Guardian>
 				["coord"] = { 63.0, 27.6, CAVERNS_OF_TIME },
 				-- #endif
-				-- #if ANYCLASSIC
-				["description"] = "Blizzard decided that they didn't want to provide access to LFR to Cataclysm Classic players. Instead, refer to this list as what you can get from Protocol Twilight heroics & the vendor instead.",
-				["timeline"] = { CREATED_4_4_2 },
-				-- #endif
 				["ignoreBonus"] = true,
 				["groups"] =
-				-- #if ANYCLASSIC
-				bubbleDown({ ["timeline"] = { CREATED_4_4_2 }, },
-				-- #endif
 				{
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
@@ -450,14 +441,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						})),
 					}),
 				}
-				-- #if ANYCLASSIC
-				)
-				-- #endif
 				,
 			}),
-			-----------------------------------------------------------------------------------------------------------------------------
-			-- CRIEVE TODO: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-			-----------------------------------------------------------------------------------------------------------------------------
+			-- #endif
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				["ignoreBonus"] = true,
 				["groups"] = {
