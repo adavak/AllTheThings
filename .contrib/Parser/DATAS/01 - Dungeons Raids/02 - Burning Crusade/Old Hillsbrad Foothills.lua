@@ -123,6 +123,17 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				n(18664, {	-- Aged Dalaran Wizard
 					i(22539),	-- Formula: Enchant Shield - Intellect (RECIPE!)
 				}),
+				n(20377, {	-- Barkeep Kelly <Bartender>
+					["description"] = "Can be found inside Southshore tavern.",
+					["groups"] = {
+						i(19222),	-- Cheap Beer
+						i(4600),	-- Cherry Grog
+						i(21151),	-- Rumsey Rum Black Label
+						i(3703),	-- Southshore Stout
+						i(29401),	-- Sparkling Southshore Cider
+						i(23585),	-- Stouthammer Lite
+					},
+				}),
 				n(20378, {	-- Chef Jessen <Speciality Meat & Slop>
 					["description"] = "Can be found inside Southshore tavern.",
 					["groups"] = {
