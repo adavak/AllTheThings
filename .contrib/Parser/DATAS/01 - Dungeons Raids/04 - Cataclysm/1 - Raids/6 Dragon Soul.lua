@@ -216,7 +216,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				},
 				["groups"] = {
 					currency(614, {	-- Mote of Darkness
-						["description"] = "Used to buy uncut gems contaned in Crystalline Geode from vendor Dasnurimi in Wyrmrest Temple.",
+						["description"] = "Used to buy uncut gems contained in Crystalline Geode from vendor Dasnurimi in Wyrmrest Temple.",
 					}),
 				},
 			}),
@@ -269,7 +269,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				--	}),
 					-- #if AFTER 9.1.5
 					currency(615, {	-- Essence of Corrupted Deathwing
-						["description"] = "Used to buy random epic uncut gems contaned in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
+						["description"] = "Used to buy random epic uncut gems contained in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
 					}),
 					-- #endif
 				})),
@@ -591,7 +591,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						}),
 						-- #if BEFORE 9.1.5
 						currency(615, {	-- Essence of Corrupted Deathwing
-							["description"] = "Used to buy random epic uncut gems contaned in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
+							["description"] = "Used to buy random epic uncut gems contained in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
 						}),
 						-- #endif
 					})),
