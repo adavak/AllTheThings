@@ -70,6 +70,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 			}),
 			n(ZONE_DROPS, {
+				i(32902),	-- Bottled Nethergon Energy
+				i(32905),	-- Bottled Nethergon Vapor
 				i(24172, {	-- Design: Coronet of Verdant Flame (RECIPE!)
 					["cr"] = 18422,	-- Sunseeker Botanist
 				}),

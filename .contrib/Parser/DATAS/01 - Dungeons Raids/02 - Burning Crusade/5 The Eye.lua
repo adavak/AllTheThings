@@ -63,6 +63,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 				i(30324),	-- Plans: Red Havoc Boots (RECIPE!)
 				i(30026),	-- Bands of the Celestial Archer
 				i(30029),	-- Bark-Gloves of Ancient Wisdom
+				i(32902),	-- Bottled Nethergon Energy
+				i(32905),	-- Bottled Nethergon Vapor
 				i(30020),	-- Fire-Cord of the Magus
 				i(30030),	-- Girdle of Fallen Stars
 				i(30024),	-- Mantle of the Elven Kings

@@ -75,6 +75,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 			}),
 			n(ZONE_DROPS, {
+				i(32902),	-- Bottled Nethergon Energy
+				i(32905),	-- Bottled Nethergon Vapor
 				-- #if BEFORE 4.3.0.14942
 				i(30438, {	-- Cache of the Legion Key
 					["cost"] = {

@@ -124,6 +124,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 			}),
 			n(ZONE_DROPS, {
+				i(32902),	-- Bottled Nethergon Energy
+				i(32905),	-- Bottled Nethergon Vapor
 				i(29460),	-- Ethereum Prison Key
 				i(22556, {	-- Formula: Enchant 2H Weapon - Major Agility (RECIPE!)
 					["cr"] = 20880,	-- Eredar Deathbringer

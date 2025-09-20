@@ -714,6 +714,12 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(60, 60, 10),
 						["groups"] = {
 							i(24402, {	-- Package of Identified Plants
+								i(24405),	-- Common Azerothian Species
+								i(24403),	-- Common Fern
+								i(24406),	-- Common Flower
+								i(24540),	-- Edible Fern
+								i(24408),	-- Edible Stalks
+								i(24404),	-- Ruined Specimen
 								i(24407),	-- Uncatalogued Species
 							}),
 						},
@@ -1078,6 +1084,12 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(60, 60, 10),
 						["groups"] = {
 							i(24402, {	-- Package of Identified Plants
+								i(24405),	-- Common Azerothian Species
+								i(24403),	-- Common Fern
+								i(24406),	-- Common Flower
+								i(24540),	-- Edible Fern
+								i(24408),	-- Edible Stalks
+								i(24404),	-- Ruined Specimen
 								i(24407),	-- Uncatalogued Species
 							}),
 						},
@@ -2067,6 +2079,11 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					n(23373, {	-- Mortog Steamhead
+						["description"] = "Will only serve players who are Exalted with Cenarion Expedition.",
+						["minReputation"] = { FACTION_CENARION_EXPEDITION, EXALTED },	-- Cenarion Expedition, Exalted.
+						["timeline"] = { ADDED_2_1_0 },
+					}),
 					n(18382, {	-- Mycah <Sporeggar Quartermaster>
 						["coord"] = { 18.27, 51.12, ZANGARMARSH },
 						["groups"] = bubbleDownClassicRep(FACTION_SPOREGGAR, {
@@ -2197,7 +2214,9 @@ root(ROOTS.Zones, {
 							18280,	-- Sporewing
 						},
 					}),
-					i(24401),	-- Unidentified Plant Parts
+					i(24401, {	-- Unidentified Plant Parts
+						["description"] = "Lauranna Thar'well in Cenarion Refugee will accept these and increase your reputation with Cenarion Expedition. The repeatable quest is only available until you become Honoured with the faction.",
+					}),
 				}),
 			},
 		})),

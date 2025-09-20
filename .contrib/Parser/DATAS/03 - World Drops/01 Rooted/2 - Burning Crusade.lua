@@ -1136,10 +1136,6 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		i(31896),	-- Seven of Storms
 		i(31893),	-- Eight of Storms
 	})),
-	filter(CONSUMABLES, {
-		i(27858),	-- Sunspring Carp
-		i(29452),	-- Zangar Trout
-	}),
 	filter(REAGENTS, {
 		["groups"] = appendAllGroups(
 			-- Table of Content:

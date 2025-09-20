@@ -1857,6 +1857,14 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 						["groups"] = TIER_FOUR_GROUPS,
 					}),
+					n(23263, {	-- Brendan Turner <Meat Vendor>
+						["coord"] = { 60.5, 69.3, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
+						["groups"] = {
+							i(29451),	-- Clefthoof Ribs
+							i(27854),	-- Smoked Talbuk Venison
+						},
+					}),
 					n(19196, {	-- Cro Threadstrong <Leatherworking Supplies>
 						["coord"] = { 67.2, 67.6, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
@@ -2066,6 +2074,14 @@ root(ROOTS.Zones, {
 							i(21908),	-- Pattern: Spellfire Belt (RECIPE!)
 							i(21909),	-- Pattern: Spellfire Gloves (RECIPE!)
 							i(21910),	-- Pattern: Spellfire Robe (RECIPE!)
+						},
+					}),
+					n(19223, {	-- Granny Smith <Fruit Seller>
+						["coord"] = { 64.0, 68.8, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
+						["groups"] = {
+							i(27856),	-- Skethyl Berries
+							i(29450),	-- Telaari Grapes
 						},
 					}),
 					n(19227, {	-- Griftah
@@ -2301,6 +2317,15 @@ root(ROOTS.Zones, {
 							-- #endif
 						}},
 					}),
+					n(19664, {	-- Muffin Man Moser <Bread Merchant>
+						["coord"] = { 61.4, 69.2, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
+						["groups"] = {
+							i(29449),	-- Bladespire Bagel
+							i(27855),	-- Mag'har Grainbread
+							i(28486),	-- Moser's Magnificent Muffin
+						},
+					}),
 					n(21655, {	-- Nakodu <Lower City Quartermaster>
 						["coord"] = { 62.6, 69.0, SHATTRATH_CITY },
 						["groups"] = bubbleDownClassicRep(FACTION_LOWER_CITY, {
@@ -2378,6 +2403,14 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_3_1_0 },
 						["sym"] = {
 							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
+						},
+					}),
+					n(19045, {	-- Oloraak <Fish Merchant>
+						["coord"] = { 58.0, 15.2, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
+						["groups"] = {
+							i(27858),	-- Sunspring Carp
+							i(29452),	-- Zangar Trout
 						},
 					}),
 					applyclassicphase(TBC_PHASE_FIVE, n(27666, {	-- Ontuvo <Jewelcrafting Supplies>
@@ -2579,6 +2612,14 @@ root(ROOTS.Zones, {
 							2534,	-- Rondel
 							2529,	-- Zweihander
 						}},
+					}),
+					n(19182, {	-- Shaarubo <Bartender>
+						["coord"] = { 75.2, 33.9, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
+						["groups"] = {
+							i(28399),	-- Filtered Draenic Water
+							i(27860),	-- Purified Draenic Water
+						},
 					}),
 					n(19074, {	-- Skreah <Alchemy Supplies>
 						["coord"] = { 45.8, 20.8, SHATTRATH_CITY },
