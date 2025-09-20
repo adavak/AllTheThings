@@ -649,11 +649,20 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["coord"] = { 72.5, 34.3, ORGRIMMAR },
 						["timeline"] = { ADDED_4_0_3 },
 						["races"] = HORDE_ONLY,
-						["groups"] = appendGroups(CLASSIC_JEWELCRAFTING, {
-							r(404740, {	-- Cataclysm Crushing
-								["timeline"] = { ADDED_10_0_7 },
-							}),
-						}),
+						["groups"] = appendGroups(
+							CLASSIC_JEWELCRAFTING,
+							-- #if BEFORE BFA
+							TBC_JEWELCRAFTING,
+							WRATH_JEWELCRAFTING,
+							CATA_JEWELCRAFTING,
+							MOP_JEWELCRAFTING,
+							-- #endif
+							{
+								r(404740, {	-- Cataclysm Crushing
+									["timeline"] = { ADDED_10_0_7 },
+								}),
+							}
+						),
 					}),
 				}),
 				-- #endif

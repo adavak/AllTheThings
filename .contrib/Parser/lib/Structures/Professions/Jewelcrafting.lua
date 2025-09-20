@@ -2,7 +2,7 @@
 -- JEWELCRAFTING --
 -------------------
 CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_2_0_5 } }, {
-	r(25229, {	-- Jewelcrafting(Apprentice)
+	r(25229, {	-- Jewelcrafting (Apprentice)
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
 		-- #else
@@ -36,42 +36,6 @@ CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline
 		["lvl"] = 35,
 		-- #endif
 		["rank"] = 4,
-	}),
-	r(28897, {	-- Jewelcrafting (Master)
-		["timeline"] = { ADDED_2_0_5, REMOVED_8_0_1_LAUNCH },
-		-- #if NOT ANYCLASSIC
-		["collectible"] = false,
-		-- #else
-		["lvl"] = 50,
-		-- #endif
-		["rank"] = 5,
-	}),
-	r(51311, {	-- Jewelcrafting (Grand Master)
-		["timeline"] = { ADDED_3_0_2, REMOVED_8_0_1_LAUNCH },
-		-- #if NOT ANYCLASSIC
-		["collectible"] = false,
-		-- #else
-		["lvl"] = 65,
-		-- #endif
-		["rank"] = 6,
-	}),
-	r(73318, {	-- Jewelcrafting (Illustrious Grand Master)
-		["timeline"] = { ADDED_4_0_3, REMOVED_8_0_1_LAUNCH },
-		-- #if NOT ANYCLASSIC
-		["collectible"] = false,
-		-- #else
-		["lvl"] = 75,
-		-- #endif
-		["rank"] = 7,
-	}),
-	r(110420, {	-- Jewelcrafting (Zen Master)
-		["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1_LAUNCH },
-		-- #if NOT ANYCLASSIC
-		["collectible"] = false,
-		-- #else
-		["lvl"] = 80,
-		-- #endif
-		["rank"] = 8,
 	}),
 	r(31252),	-- Prospecting
 	applyclassicphase(BFA_PHASE_ONE, r(264532, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Jewelcrafting
@@ -250,14 +214,40 @@ TBC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] =
 
 	r(48789, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Purified Shadowsong Amethyst [REMOVED: 4.0.3]
 	r(46404, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Reckless Noble Topaz [REMOVED: 4.0.3]
-
-
-
-
-
-
-
 }));
+WRATH_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_3_0_2 } }, {
+	r(51311, {	-- Jewelcrafting (Grand Master)
+		["timeline"] = { ADDED_3_0_2, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 65,
+		-- #endif
+		["rank"] = 6,
+	}),
+});
+CATA_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_4_0_3 } }, {
+	r(73318, {	-- Jewelcrafting (Illustrious Grand Master)
+		["timeline"] = { ADDED_4_0_3, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 75,
+		-- #endif
+		["rank"] = 7,
+	}),
+});
+MOP_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+	r(110420, {	-- Jewelcrafting (Zen Master)
+		["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 80,
+		-- #endif
+		["rank"] = 8,
+	}),
+});
 COMMON_CATACLYSM_JEWELCRAFTING_RECIPES = {
 	i(52409, {	-- Design: Accurate Demonseye
 		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token

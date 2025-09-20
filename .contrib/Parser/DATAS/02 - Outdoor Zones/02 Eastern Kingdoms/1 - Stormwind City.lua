@@ -642,11 +642,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["coord"] = { 63.6, 61.6, STORMWIND_CITY },
 						["timeline"] = { ADDED_4_0_3 },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = appendGroups(CLASSIC_JEWELCRAFTING, {
-							r(404740, {	-- Cataclysm Crushing
-								["timeline"] = { ADDED_10_0_7 },
-							}),
-						}),
+						["groups"] = appendGroups(
+							CLASSIC_JEWELCRAFTING,
+							-- #if BEFORE BFA
+							TBC_JEWELCRAFTING,
+							WRATH_JEWELCRAFTING,
+							CATA_JEWELCRAFTING,
+							MOP_JEWELCRAFTING,
+							-- #endif
+							{
+								r(404740, {	-- Cataclysm Crushing
+									["timeline"] = { ADDED_10_0_7 },
+								}),
+							}
+						),
 					}),
 				}),
 				-- #endif
