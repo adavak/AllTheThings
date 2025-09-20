@@ -432,7 +432,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, {
 						-- Weapons
 						-- One-Handed
-						frags(30, i(86886)),	-- Kilrak, Jaws of Terror (Terrace)
+						frags(30, i(86906)),	-- Kilrak, Jaws of Terror (Terrace)
 						frags(30, i(86886)),	-- Loshan, Terror Incarnate (Terrace)
 						frags(30, i(86909)),	-- Regail's Crackling Dagger (Terrace)
 						frags(30, i(86910)),	-- Spiritsever (Terrace)
