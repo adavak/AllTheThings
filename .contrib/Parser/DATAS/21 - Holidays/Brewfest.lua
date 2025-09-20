@@ -671,15 +671,19 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						i(33977, {	-- Swift Brewfest Ram (MOUNT!)
 							["timeline"] = { ADDED_2_0_1 },
 						}),
-						i(107217, {	-- Direbrew's Bloodied Shanker [Level 90]
-							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-						}),
-						i(107218, {	-- Tremendous Tankard O'Terror [Level 90]
-							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-						}),
 						-- #if ANYCLASSIC
-						-- The idiots at Blizzard decided that they wanted to give people 353 ilvl stuff from Coren in Cataclysm Classic.
-						-- Level 365 items will not be available in Classic 2025 Brewfest, it will be in MOP
+						i(257863, {	-- Direbrew's Bloodied Shanker [Level 90, ilvl 489]
+							["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+						}),
+						i(257865, {	-- Tremendous Tankard O'Terror [Level 90, ilvl 489]
+							["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+						}),
+						i(107217, {	-- Direbrew's Bloodied Shanker [Level 90, ilvl 470]
+							["timeline"] = { CREATED_5_5_0 },
+						}),
+						i(107218, {	-- Tremendous Tankard O'Terror [Level 90, ilvl 470]
+							["timeline"] = { CREATED_5_5_0 },
+						}),
 						applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71331, {	-- Direbrew's Bloodied Shanker [Level 85, ilvl 365]
 							["timeline"] = { CREATED_4_0_1 },
 						})),
@@ -695,6 +699,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["OnUpdate"] = BREWFEST_2024_OnUpdate,
 						})),
 						-- #else
+						i(107217, {	-- Direbrew's Bloodied Shanker [Level 90]
+							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+						}),
+						i(107218, {	-- Tremendous Tankard O'Terror [Level 90]
+							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+						}),
 						i(71331, {	-- Direbrew's Bloodied Shanker [Level 85]
 							["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
 						}),
@@ -724,6 +734,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_2_0_1 },
 				}),
 				-- #endif
+
 				-- Warlords of Draenor+
 				i(117361, {	-- Bitterest Balebrew Charm [Level 100+]
 					["timeline"] = { ADDED_6_0_2 },
@@ -743,7 +754,28 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				i(117359, {	-- Thousand-Year Pickled Egg [Level 100+]
 					["timeline"] = { ADDED_6_0_2 },
 				}),
+
 				-- Mists of Pandaria
+				-- #if ANYCLASSIC
+				i(257873, {	-- Bitterest Balebrew Charm [Level 90, ilvl 489]
+					["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+				}),
+				i(257885, {	-- Brawler's Statue [Level 90, ilvl 489]
+					["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+				}),
+				i(257877, {	-- Bubbliest Brightbrew Charm [Level 90, ilvl 489]
+					["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+				}),
+				i(257880, {	-- Coren's Cold Chromium Coaster [Level 90, ilvl 489]
+					["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+				}),
+				i(257884, {	-- Mithril Wristwatch [Level 90, ilvl 489]
+					["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+				}),
+				i(257881, {	-- Thousand-Year Pickled Egg [Level 90, ilvl 489]
+					["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
+				}),
+				-- #else
 				i(87576, {	-- Bitterest Balebrew Charm [Level 90]
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 				}),
@@ -762,6 +794,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				i(87573, {	-- Thousand-Year Pickled Egg [Level 90]
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 				}),
+				-- #endif
+
 				-- Cataclysm
 				-- #if ANYCLASSIC
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71333, {	-- Bitterer Balebrew Charm [Level 85, ilvl 365]
@@ -828,6 +862,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
 				}),
 				-- #endif
+
 				-- Wrath of the Lich King
 				i(49078, {	-- Ancient Pickled Egg [Level 80]
 					["timeline"] = { ADDED_3_0_2, REMOVED_4_0_1 },
@@ -847,6 +882,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				i(49076, {	-- Mithril Pocketwatch [Level 80]
 					["timeline"] = { ADDED_3_0_2, REMOVED_4_0_1 },
 				}),
+
 				-- Burning Crusade
 				i(37597, {	-- Direbrew's Shanker [Level 70]
 					["timeline"] = { ADDED_2_0_1, REMOVED_3_0_2 },
@@ -1432,7 +1468,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_2_2_2 },	-- Originally added 3.0.2, but in TBC Classic?!
 					["maps"] = { DUN_MOROGH },
 					["races"] = ALLIANCE_ONLY,
-					-- #IF ANYCLASSIC
+					-- #if ANYCLASSIC
 					-- #if AFTER WRATH
 					["OnUpdate"] = [[function(t)
 						if not (_.IsQuestFlaggedCompleted(t.questID) or _.IsQuestFlaggedCompleted(t.altQuests[1])) then
@@ -1445,7 +1481,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					-- #endif
 				}),
-				-- #IF NOT ANYCLASSIC
+				-- #if NOT ANYCLASSIC
 				q(12420, {	-- Brew of the Month Club (A)
 					["altQuests"] = { 12278 },	-- Brew of the Month Club (A)
 					["provider"] = { "i", 37736 },	-- "Brew of the Month" Club Membership Form (original)
@@ -1455,7 +1491,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["isYearly"] = true,	-- original quest was reset yearly
 					["u"] = REMOVED_FROM_GAME,	-- this version isn't available, but don't know when it was 'removed'
 				}),
-				-- #ENDIF
+				-- #endif
 				q(12306, {	-- Brew of the Month Club (H)
 					-- #if AFTER 3.0.0
 					["provider"] = { "i", 37599 },	-- "Brew of the Month" Club Membership Form (current)
@@ -1469,7 +1505,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_2_2_2 },	-- Originally added 3.0.2, but in TBC Classic?!
 					["maps"] = { DUROTAR },
 					["races"] = HORDE_ONLY,
-					-- #IF ANYCLASSIC
+					-- #if ANYCLASSIC
 					-- #if AFTER WRATH
 					["OnUpdate"] = [[function(t)
 						if not (_.IsQuestFlaggedCompleted(t.questID) or _.IsQuestFlaggedCompleted(t.altQuests[1])) then
@@ -1482,7 +1518,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					-- #endif
 				}),
-				-- #IF NOT ANYCLASSIC
+				-- #if NOT ANYCLASSIC
 				q(12421, {	-- Brew of the Month Club (H)
 					["altQuests"] = { 12306 },	-- Brew of the Month Club (H)
 					["provider"] = { "i", 37737 },	-- "Brew of the Month" Club Membership Form (original)
@@ -1492,7 +1528,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["isYearly"] = true,	-- original quest was reset yearly
 					["u"] = REMOVED_FROM_GAME,	-- this version isn't available, but don't know when it was 'removed'
 				}),
-				-- #ENDIF
+				-- #endif
 				q(76591, {	-- Bubbling Brews
 					["qg"] = 207496,	-- Bragdur Battlebrew
 					["coord"] = { 29.7, 56.2, VALDRAKKEN },
@@ -1536,9 +1572,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				q(11431, {	-- Catch the Wild Wolpertinger! (H) [Non-EU Only!]
 					["qgs"] = {
 						24657,	-- Glodrak Huntsniper
-						-- #IF AFTER 8.2.0
+						-- #if AFTER 8.2.0
 						155269, -- Snipehunter Goro
-						-- #ENDIF
+						-- #endif
 					},
 					-- #if AFTER CATA
 					["coord"] = { 41.2, 18.4, DUROTAR },
@@ -1837,9 +1873,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				q(11120, {	-- Pink Elekks On Parade (H) [Non-EU Only!]
 					["qgs"] = {
 						24657,	-- Glodrak Huntsniper
-						-- #IF AFTER 8.2.0
+						-- #if AFTER 8.2.0
 						155269, -- Snipehunter Goro
-						-- #ENDIF
+						-- #endif
 					},
 					-- #if AFTER CATA
 					["coord"] = { 41.2, 18.4, DUROTAR },
@@ -2089,9 +2125,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			},
 		}),
 		n(REWARDS, bubbleDown({
-			-- #IF NOT ANYCLASSIC
+			-- #if NOT ANYCLASSIC
 			["f"] = COSMETIC,	-- These Steins turn into 'Miscellanous' filter, which doesn't allow SourceIDs to be attached in Retail
-			-- #ENDIF
+			-- #endif
 		},{
 			fillstein(i(33016, {	-- Blue Brewfest Stein
 				["lore"] = "This stein was the reward from the 2008 Brewfest.",
