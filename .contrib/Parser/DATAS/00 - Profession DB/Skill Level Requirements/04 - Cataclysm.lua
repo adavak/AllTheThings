@@ -182,8 +182,6 @@ for spellID,learnedAt in pairs({
 
 -- Enchanting
 for spellID,learnedAt in pairs({
-	[7428] = 1,	-- Enchant Bracer - Minor Dodge
-	[7418] = 1,	-- Enchant Bracer - Minor Health
 	[74189] = 425,	-- Enchant Boots - Earthen Vitality
 	[74191] = 425,	-- Enchant Chest - Mighty Stats
 	[74132] = 425,	-- Enchant Gloves - Mastery
@@ -351,9 +349,6 @@ for spellID,learnedAt in pairs({
 	[86375] = 500,	-- Swiftsteel Inscription
 	[86649] = 505,	-- Runed Dragonscale
 	[86643] = 510,	-- Battle Tome
-	[1216316] = 510,	-- Bloodthirsty Charm of Triumph
-	[1216290] = 510,	-- Bloodthirsty Eyeball of Dominance
-	[1216317] = 510,	-- Bloodthirsty Jawbone of Conquest
 	[86642] = 510,	-- Divine Companion
 	[86641] = 510,	-- Dungeoneering Guide
 	[99547] = 510,	-- Vicious Charm of Triumph
@@ -362,6 +357,9 @@ for spellID,learnedAt in pairs({
 	[86650] = 515,	-- Notched Jawbone
 	[86653] = 515,	-- Silver Inlaid Leaf
 	[86652] = 515,	-- Tattooed Eyeball
+	[1216316] = 520,	-- Bloodthirsty Charm of Triumph
+	[1216290] = 520,	-- Bloodthirsty Eyeball of Dominance
+	[1216317] = 520,	-- Bloodthirsty Jawbone of Conquest
 	[86615] = 525,	-- Darkmoon Card of Destruction
 }) do recipeDB[spellID].learnedAt = learnedAt; end
 
