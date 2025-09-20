@@ -120,10 +120,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 			}),
 			n(VENDORS, {
-				n(18672, THOMAS_YANCE_GROUPS),	-- Thomas Yance
 				n(18664, {	-- Aged Dalaran Wizard
 					i(22539),	-- Formula: Enchant Shield - Intellect (RECIPE!)
 				}),
+				n(20378, {	-- Chef Jessen <Speciality Meat & Slop>
+					["description"] = "Can be found inside Southshore tavern.",
+					["groups"] = {
+						i(29412),	-- Jessen's Special Slop
+					},
+				}),
+				n(18672, THOMAS_YANCE_GROUPS),	-- Thomas Yance
 			}),
 			n(ZONE_DROPS, {
 				i(25729, {	-- Pattern: Stylin' Adventure Hat (RECIPE!)
@@ -132,6 +138,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						17820,	-- Durnholde Rifleman
 					},
 				}),
+				i(30458),	-- Stromgarde Muenster
 			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				n(28132, {	-- Don Carlos
