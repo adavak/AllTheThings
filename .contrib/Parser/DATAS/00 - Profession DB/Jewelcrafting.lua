@@ -820,45 +820,45 @@ i(0,73259);	-- Resolute Hessonite
 -- PATCH 4.0.3 --
 -----------------
 --- TRAINER ---
-i(0,73318)	-- Jewelcrafting (Illustrious Grand Master)
-i(0,73222);	-- Bold Carnelian
-i(0,73223);	-- Delicate Carnelian
-i(0,73225);	-- Brilliant Carnelian
-i(0,73226);	-- Precise Carnelian
-i(0,73227);	-- Solid Zephyrite
-i(0,73228);	-- Sparkling Zephyrite
-i(0,73230);	-- Rigid Zephyrite
-i(0,73232);	-- Smooth Alicite
-i(0,73234);	-- Quick Alicite
-i(0,73239);	-- Fractured Alicite
-i(0,73240);	-- Sovereign Nightstone
-i(0,73241);	-- Shifting Nightstone
-i(0,73243);	-- Timeless Nightstone
-i(0,73246);	-- Etched Nightstone
-i(0,73247);	-- Glinting Nightstone
-i(0,73249);	-- Veiled Nightstone
-i(0,73250);	-- Accurate Nightstone
-i(0,73265);	-- Deft Hessonite
-i(0,73267);	-- Skillful Hessonite
-i(0,73268);	-- Adept Hessonite
-i(0,73270);	-- Artful Hessonite
-i(0,73274);	-- Jagged Jasper
-i(0,73279);	-- Puissant Jasper
-i(0,73281);	-- Sensey's Jasper
-i(0,73478);	-- Fire Prism
-i(0,73494);	-- Jasper Ring
-i(0,73495);	-- Hessonite Band
-i(0,73496);	-- Alicite Pendant
-i(0,73497);	-- Nightstone Choker
-i(0,73620);	-- Carnelian Spikes
-i(0,73621);	-- The Perforator
-i(0,73622);	-- Stardust
-i(0,99539);	-- Vicious Sapphire Ring
-i(0,99540);	-- Vicious Amberjewel Band
-i(0,99541);	-- Vicious Ruby Signet
-i(0,99542);	-- Vicious Sapphire Necklace
-i(0,99543);	-- Vicious Amberjewel Pendant
-i(0,99544);	-- Vicious Ruby Choker
+i(0, 73318);	-- Jewelcrafting (Illustrious Grand Master)
+i(0, 73222);	-- Bold Carnelian
+i(0, 73223);	-- Delicate Carnelian
+i(0, 73225);	-- Brilliant Carnelian
+i(0, 73226);	-- Precise Carnelian
+i(0, 73227);	-- Solid Zephyrite
+i(0, 73228);	-- Sparkling Zephyrite
+i(0, 73230);	-- Rigid Zephyrite
+i(0, 73232);	-- Smooth Alicite
+i(0, 73234);	-- Quick Alicite
+i(0, 73239);	-- Fractured Alicite
+i(0, 73240);	-- Sovereign Nightstone
+i(0, 73241);	-- Shifting Nightstone
+i(0, 73243);	-- Timeless Nightstone
+i(0, 73246);	-- Etched Nightstone
+i(0, 73247);	-- Glinting Nightstone
+i(0, 73249);	-- Veiled Nightstone
+i(0, 73250);	-- Accurate Nightstone
+i(0, 73265);	-- Deft Hessonite
+i(0, 73267);	-- Skillful Hessonite
+i(0, 73268);	-- Adept Hessonite
+i(0, 73270);	-- Artful Hessonite
+i(0, 73274);	-- Jagged Jasper
+i(0, 73279);	-- Puissant Jasper
+i(0, 73281);	-- Sensey's Jasper
+i(0, 73478);	-- Fire Prism
+i(0, 73494);	-- Jasper Ring
+i(0, 73495);	-- Hessonite Band
+i(0, 73496);	-- Alicite Pendant
+i(0, 73497);	-- Nightstone Choker
+i(0, 73620);	-- Carnelian Spikes
+i(0, 73621);	-- The Perforator
+i(0, 73622);	-- Stardust
+i(0, 99539);	-- Vicious Sapphire Ring
+i(0, 99540);	-- Vicious Amberjewel Band
+i(0, 99541);	-- Vicious Ruby Signet
+i(0, 99542);	-- Vicious Sapphire Necklace
+i(0, 99543);	-- Vicious Amberjewel Pendant
+i(0, 99544);	-- Vicious Ruby Choker
 --- ITEM ---
 i(52362, 73335);	-- Design: Bold Inferno Ruby
 i(52380, 73336);	-- Design: Delicate Inferno Ruby
@@ -1084,6 +1084,7 @@ i(83932, 121842);	-- Design: Sapphire Panther (Guessed via Filter Recipe with Sp
 i(90471, 131898);	-- Design: Sapphire Cub (Guessed via Filter Recipe with SpellID)
 i(90470, 131897);	-- Design: Jade Owl (Guessed via Filter Recipe with SpellID)
 --- TRAINER ---
+i(0, 110420);	-- Jewelcrafting (Zen Master)
 i(0, 122675);	-- Bold Serpent's Eye
 i(0, 122676);	-- Brilliant Serpent's Eye
 i(0, 122674);	-- Delicate Serpent's Eye

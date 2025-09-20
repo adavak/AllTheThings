@@ -37,6 +37,42 @@ CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline
 		-- #endif
 		["rank"] = 4,
 	}),
+	r(28897, {	-- Jewelcrafting (Master)
+		["timeline"] = { ADDED_2_0_5, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 50,
+		-- #endif
+		["rank"] = 5,
+	}),
+	r(51311, {	-- Jewelcrafting (Grand Master)
+		["timeline"] = { ADDED_3_0_2, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 65,
+		-- #endif
+		["rank"] = 6,
+	}),
+	r(73318, {	-- Jewelcrafting (Illustrious Grand Master)
+		["timeline"] = { ADDED_4_0_3, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 75,
+		-- #endif
+		["rank"] = 7,
+	}),
+	r(110420, {	-- Jewelcrafting (Zen Master)
+		["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 80,
+		-- #endif
+		["rank"] = 8,
+	}),
 	r(31252),	-- Prospecting
 	applyclassicphase(BFA_PHASE_ONE, r(264532, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Jewelcrafting
 	n(ARMOR, {
