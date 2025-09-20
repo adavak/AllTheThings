@@ -4,6 +4,14 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(ISLE_OF_DORN, {
 		n(RARES, sharedData({ ["isDaily"] = true }, {
+			n(219281, {	-- Alunira
+				["coord"] = { 23.1, 58.5, ISLE_OF_DORN },
+				["questID"] = 85158,
+				["cost"] = {{"i", 224026, 1}},	-- 1x Storm Vessel
+				["groups"] = {
+					i(223270),	-- Alunira (MOUNT!)
+				},
+			}),
 			n(221128, {	-- Clawbreaker K'zithix
 				["description"] = "Walking around in the area.",
 				["coord"] = { 55.6, 27.0, ISLE_OF_DORN},	-- old coords: 80.3, 35.1 / 79.1, 34.2 / 64.0, 39.2
@@ -138,14 +146,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 		})),
 		n(RARES, {
-			n(219281, {	-- Alunira
-				["coord"] = { 23.1, 58.5, ISLE_OF_DORN },
-				["questID"] = 85158,
-				["cost"] = {{"i", 224026, 1}},	-- 1x Storm Vessel
-				["groups"] = {
-					i(223270),	-- Alunira (MOUNT!)
-				},
-			}),
 			n(219264, {	-- Bloodmaw
 				["description"] = "Walking around in the area.",
 				["coords"] = {
