@@ -1510,15 +1510,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 			})),
 			header(HEADERS.Achievement, 41811, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Stability
-				-- Exo Note: These are Achievement criteria. They don't appear as quests when you do /att q: in-game
-				-- @Myrhial, This is a job for you, Mistress...
-				q(84744),	-- A Slither of Snakes
-				q(84742),	-- Fox-strut
-				q(86793),	-- Hard K'arroc
-				q(84745),	-- Honey Bees (Move to HQT? Triggered when "Honey Bees" criteria for the ach is fulfilled)
-				q(85520),	-- Lil' Lapbugs
-				q(89306),	-- Rays of Sunshine
-				q(84992),	-- Slatebacks
+				-- Ecological Stability Trackers (Criteria will nest in these)
+				hqt(84744, { ["name"] = "A Slither of Snakes" }),	-- A Slither of Snakes
+				hqt(84742, { ["name"] = "Fox-strut" }),	-- Fox-strut
+				hqt(86793, { ["name"] = "Hard K'arroc" }),	-- Hard K'arroc
+				hqt(84745, { ["name"] = "Honey Bees" }),	-- Honey Bees
+				hqt(85520, { ["name"] = "Lil' Lapbugs" }),	-- Lil' Lapbugs
+				hqt(89306, { ["name"] = "Rays of Sunshine" }),	-- Rays of Sunshine
+				hqt(84992, { ["name"] = "Slatebacks" }),	-- Slatebacks
 				q(88976, {	-- The Hope of K'aresh
 					["sourceAchievement"] = 41811,	-- Ecological Stability
 					["qg"] = 231820,	-- Ve'nari
@@ -1526,47 +1525,47 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["groups"] = { i(242713) },	-- Resplendent K'arroc (MOUNT!)
 				}),
 			})),
-			header(HEADERS.Achievement, 41809, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Variety (Daily Quests) Exo note: These are probably weekly quests, not daily.
+			header(HEADERS.Achievement, 41809, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Variety (Weekly Quests)
 				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
 					q(90545, {	-- A Reel Problem
 						["description"] = "Requires Fishing profession.",
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(241352) },	-- Hydrobite (QI!)
 					}),
 					q(85459, {	-- Anima Reclamation Program
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(229412) },	-- Devourer Anima (QI!)
 					}),
 					q(89209, {	-- Bu-zzz
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(85461, {	-- Food Run
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(231508) },	-- Stolen Food Shipment (QI!)
 					}),
 					q(89195, {	-- Funny Buzzness
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238904) },	-- Anima Vacuum (PQI!)
 					}),
 					q(89194, {	-- Shake your Bee-hind
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(89210, {	-- Photography is the Bee's Knees
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238903) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 				}),
@@ -1574,23 +1573,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(85462, {	-- A Challenge for Dominance
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(85481, {	-- Ridge Racer
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(85710, {	-- Sizing Them Up
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238905) },	-- Condenser Disc (PQI!)
 					}),
 					q(88980, {	-- Who You Gonna Call?
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(229395) },	-- Slateback Essence (QI!)
 					}),
 				}),
@@ -1598,38 +1597,38 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(89240, {	--  Dream-Dream-Dream-Dream-Dreameringeding!
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238912) },	-- Tranquilizing Dart (PQI!)
 					}),
 					q(89057, {	-- Pee-Yew de Foxy
 						["qg"] = 234316,	-- Rhubarn
 						["coord"] = { 75.9, 34.6, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238911) },	-- Pheromone Disperser (PQI!)
 					}),
 					q(89212, {	-- Royal Photographer
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238906) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 					q(85465, {	-- Play Ball
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238907) },	-- Anima Orb (QI!)
 					}),
 					q(85721, {	-- Killer Instinct
 						["qg"] = 235353,	-- Hemet Nesingwary
 						["coord"] = { 75.8, 34.0, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.04, {	-- Lil' Lapbugs
 					q(89221, {	--  Leafing Things on the Ground
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = {
 							o_repeated({
 								i(235914),	-- Chopped Oasis Plants (QI!)
@@ -1643,18 +1642,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(89297, {	-- Not as Cute When They Are Bigger and Angrier
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(229393) },	-- Lapbug Essence (QI!)
 					}),
 					q(85470, {	-- Root Redux
 						["qg"] = 232385,	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(89254, {	-- Shutterbug
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238933) },	-- Appropriated S.E.L.F.I.E. Camera (PQI!)
 					}),
 				}),
@@ -1662,24 +1661,24 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(89242, {	--  I Want a Golden Ooze!
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238916) },	-- Anima Vacuum (PQI!)
 					}),
 					q(89065, {	--  Ray-cing for the Future
 						["qg"] = 235353,	-- Hemet Nesingwary
 						["coord"] = { 75.8, 34.0, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(89056, {	--  Ray-ket Ball, Redux
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238915) },	-- Anima Orb (PQI!)
 					}),
 					q(89197, {	-- Ray Ranching
 						["qg"] =  230736,	-- Om'talad
 						["coord"] = { 75.9, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238910) },	-- Lasso (QI!)
 					}),
 				}),
@@ -1687,47 +1686,47 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					q(89198, {	-- Dry Cleaning
 						["qg"] = 234316,	-- Rhubarn
 						["coord"] = { 75.9, 34.6, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238909) },	-- Anima Vacuum (PQI!)
 					}),
 					q(89213, {	--  Flights of Fancy
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238908) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 					q(89238, {	-- Follow-up Appointment
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238913) },	-- Condenser Disc (PQI!)
 					}),
 					q(86342, {	-- Soaring over K'aresh
 						["qg"] = 230736,	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(89192, {	-- A Hard Day's Work
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.07, {	-- A Slither of Snakes
 					q(88659, {	-- More Cozy Beds
 						["qg"] = 235353,	-- Hemet Nesingwary
 						["coord"] = { 75.8, 34.0, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(88981, {	-- Nesting Upkeep
 						["qg"] = 235353,	-- Hemet Nesingwary
 						["coord"] = { 75.8, 34.0, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 					}),
 					q(88975, {	-- Spooked Slitherin' Snakes
 						["qg"] = 235353,	-- Hemet Nesingwary
 						["coord"] = { 75.8, 34.0, KARESH },
-						["isDaily"] = true,
+						["isWeekly"] = true,
 						["groups"] = { i(238914) },	-- Hemet's Soothin' Flute (QI!)
 					}),
 				}),
