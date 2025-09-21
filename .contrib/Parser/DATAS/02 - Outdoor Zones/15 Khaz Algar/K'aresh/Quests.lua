@@ -1724,8 +1724,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 75.8, 34.0, KARESH },
 						["isDaily"] = true,
 					}),
-					q(88975, {	--
+					q(88975, {	-- Spooked Slitherin' Snakes
+						["qg"] = 235353,	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
 						["isDaily"] = true,
+						["groups"] = { i(238914) },	-- Hemet's Soothin' Flute (QI!)
 					}),
 				}),
 			})),

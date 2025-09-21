@@ -51,9 +51,13 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					q(71238, {	-- The Ruby Feast!
 						["provider"] = { "o", 382166 },	-- The Ruby Feast!
 						["coords"] = {
+							{ 11.5, 58.5, VALDRAKKEN },
 							{ 29.2, 67.9, VALDRAKKEN },
+							{ 36.4, 64.9, VALDRAKKEN },
 							{ 43.7, 38.9, VALDRAKKEN },
 							{ 47.8, 46.6, VALDRAKKEN },
+							{ 53.2, 64.4, VALDRAKKEN },
+							{ 60.7, 16.5, VALDRAKKEN },
 							{ 72.6, 51.0, VALDRAKKEN },
 						},
 						["isBreadcrumb"] = true,

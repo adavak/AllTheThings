@@ -888,7 +888,6 @@ root(ROOTS.Unsorted, {
 				i(233287),	-- Barrel of Swirling Energy
 				i(235983),	-- Warrant: Shatterpulse
 				i(238296),	-- Phase Disruptor
-				i(238914),	-- Hemet's Soothin' Flute
 				i(239566),	-- Arcane Runed Signet
 				i(242547),	-- Cracked Keystone
 				i(242654),	-- Shadowtrade Overstock

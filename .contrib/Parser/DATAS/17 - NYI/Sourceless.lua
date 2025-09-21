@@ -635,6 +635,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 
 			-- 10.2.0
 			expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
+				q(77758),	-- Killed Aurostor
 				q(78253),	--
 				q(78737),	--
 			})),

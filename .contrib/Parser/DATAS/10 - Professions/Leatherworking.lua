@@ -1124,7 +1124,9 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["timeline"] = { ADDED_10_2_0 },
 				["groups"] = {
 					i(198613),	-- Leatherworking Designs
-					i(208950),	-- Emerald Fiber (QI!)
+					o(408134, {	-- Enchanted Thicket
+						i(208950),	-- Emerald Fiber (QI!)
+					}),
 				},
 			}),
 		})),
