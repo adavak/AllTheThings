@@ -1511,13 +1511,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			})),
 			header(HEADERS.Achievement, 41811, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Stability
 				-- Ecological Stability Trackers (Criteria will nest in these)
-				hqt(84744, { ["name"] = "A Slither of Snakes" }),	-- A Slither of Snakes
-				hqt(84742, { ["name"] = "Fox-strut" }),	-- Fox-strut
-				hqt(86793, { ["name"] = "Hard K'arroc" }),	-- Hard K'arroc
-				hqt(84745, { ["name"] = "Honey Bees" }),	-- Honey Bees
-				hqt(85520, { ["name"] = "Lil' Lapbugs" }),	-- Lil' Lapbugs
-				hqt(89306, { ["name"] = "Rays of Sunshine" }),	-- Rays of Sunshine
-				hqt(84992, { ["name"] = "Slatebacks" }),	-- Slatebacks
+				hqt(84744, name(HEADERS.AchCriteria, 41811.07)),	-- A Slither of Snakes
+				hqt(84742, name(HEADERS.AchCriteria, 41811.03)),	-- Fox-strut
+				hqt(86793, name(HEADERS.AchCriteria, 41811.06)),	-- Hard K'arroc
+				hqt(84745, name(HEADERS.AchCriteria, 41811.01)),	-- Honey Bees
+				hqt(85520, name(HEADERS.AchCriteria, 41811.04)),	-- Lil' Lapbugs
+				hqt(89306, name(HEADERS.AchCriteria, 41811.05)),	-- Rays of Sunshine
+				hqt(84992, name(HEADERS.AchCriteria, 41811.02)),	-- Slatebacks
 				q(88976, {	-- The Hope of K'aresh
 					["sourceAchievement"] = 41811,	-- Ecological Stability
 					["qg"] = 231820,	-- Ve'nari
