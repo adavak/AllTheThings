@@ -67,6 +67,121 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				},
 			}),
+			-- #if AFTER 10.1.5
+			header(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
+				["description"] = "With 10.1.5, Blizzard readded the original version of Scholomance!\n\nThank you, Blizzard!\n  -Crieve\n\nHere is how to get started:\n\n1. Obtain 'Krastinov's Bag of Horrors' from the rare spawn Doctor Theolen Krastinov in Scholomance, Heroic difficulty. This step can be skipped if you are accompanied by someone who already have the toy.\n\n2. Defeat Darkmaster Gandling in Headmaster's Retreat and enter the upper level centre room.\n\n3. Find a pile of bones on the ground in the southeastern part of the room, and use the toy 'Krastinov's Bag of Horrors'.\n\n4. Eva Sarkhoff should now have spawned, but you cannot interact with her before you remove the toy visage/buff named 'Surgical Alterations'.\n\n5. Accept Eva Sarkhoof's quest and her Inert Spectral Essence. Loot Eva's Femur from the pile of bones.\n\n6. Walk back upstairs to The Viewing Room. There is two bookcases in the southwestern corner of the room. Eva's Journal can be found on a middle shelf on the backside of the left bookcase.\n\n7. Obtain the reagents 3x Dark Runes and 5x Essence of Undeath and use the Inert Spetral Essence. Equip the crafted trinket 'Spectral Essence'.\n\n8. Obtain candles from doing objectives around Caer Darrow (outside Scholomance):\n8.1 Loot 'The Deed to Andorhal' from inside Andorhal Townhall at 43.35, 69.3., and give it to Magistrate Marduke at 70.5, 74.0.\n8.2 Loot 'Bucket of Fountain Water' from the candylit fountain at 68.9, 78.8., and give it to Joseph Dirte at 68.0, 74.8.\n8.3 Loot 'Trampled Doll' from the meatwagon in Darrowshire at 35.7, 83.5. (Eastern Plaguelands!), return to Caer Darrow and give it to Sammy at 69.15, 78.7.\n8.4 Loot 'The Road Ahead' from a wall inside old Corin's Crossing tavern  at 55.0, 64.0. (Eastern Plaguelands!), return to Caer Darrow and give it to Artist Renfray at 65.8, 75.4.\n8.5 Loot 'Undelivered Shipment of Smokes' from a wagon behind the fountain at King's Square in Stratholme, return to Caer Darrow and give it to Rory at 63.4, 75.5.\n\n9. Use Eva's Journal to begin the ritual at 69.7, 71.7., inside Caer Darrow keep/open world Scholomance.",
+				["groups"] = {
+					n(TREASURES, {
+						o(403532, {	-- Bucket of Fountain Water
+							["description"] = "Located by the water fountain in Caer Darrow.",
+							["sourceQuest"] = 76250,	-- Spectral Essence
+							["coord"] = { 68.8, 78.9, WESTERN_PLAGUELANDS },
+							["timeline"] = { ADDED_10_1_5 },
+							["groups"] = { i(206359) },	-- Caer Darrow Fountain Water
+						}),
+						o(403535, {	-- The Deed to Andorhal
+							["description"] = "Located by the town hall in Andorhal, on a wall to the right of where Rattlegore spawns.",
+							["sourceQuest"] = 76250,	-- Spectral Essence
+							["coord"] = { 43.6, 69.3, WESTERN_PLAGUELANDS },
+							["timeline"] = { ADDED_10_1_5 },
+							["groups"] = { i(206362) },	-- The Deed to Andorhal
+						}),
+						o(403536, {	-- The Road Ahead
+							["description"] = "Located by Corrin's Crossing in the Eastern Plaguelands, by the building that used to be the inn. The painting is on the first floor, by the wall beside the stairs leading to the second floor.",
+							["sourceQuests"] = 76250,	-- Spectral Essence
+							["coord"] = { 55.0, 64.1, EASTERN_PLAGUELANDS },
+							["timeline"] = { ADDED_10_2_5 },
+							["groups"] = {
+								i(206363),	-- The Road Ahead
+							},
+						}),
+						o(403534, {	-- Trampled Doll
+							["description"] = "Located by a meat wagon in Darrowshire.",
+							["sourceQuests"] = 76250,	-- Spectral Essence
+							["coord"] = { 35.7, 83.6, EASTERN_PLAGUELANDS },
+							["timeline"] = { ADDED_10_2_5 },
+							["groups"] = {
+								i(206361),	-- Trampled Doll
+							},
+						}),
+						o(403533, {	-- Undelivered Shipment of Smokes
+							["description"] = "Located in live Stratholme, near Ezra Grimm's tobacco place (enter the instance, take a left and another left). By a cart next to where Ezra Grimm spawns.",
+							["maps"] = { STRATHOLME },
+							["sourceQuests"] = { 76250 },	-- Spectral Essence
+							["timeline"] = { ADDED_10_1_5 },
+							["groups"] = {
+								i(206360),	-- Undelivered Shipment of Smokes
+							},
+						}),
+					}),
+					n(VENDORS, {
+						n(11936, {	-- Artist Renfray
+							-- #IF AFTER 10.1.5
+							["provider"] = {"i",13544},	-- Spectral Essence
+							["description"] = "Only visible if you have the Spectral Essence equipped.",
+							-- #ENDIF
+							["coord"] = { 65.8, 75.4, WESTERN_PLAGUELANDS },
+							["groups"] = {
+								i(206358, {	-- Imported Candle
+									["cost"] = {{ "i", 206363, 1 }},	-- The Road Ahead
+									["timeline"] = { ADDED_10_1_5 },
+								}),
+							},
+						}),
+						n(11316, {	-- Joseph Dirte
+							["provider"] = {"i",13544},	-- Spectral Essence
+							["description"] = "Only visible if you have the Spectral Essence equipped.",
+							["coord"] = { 68.0, 74.8, WESTERN_PLAGUELANDS },
+							["groups"] = {
+								i(206354, {	-- Stinky Candle
+									["cost"] = {{ "i", 206359, 1 }},	-- Caer Darrow Fountain Water
+									["timeline"] = { ADDED_10_1_5 },
+								}),
+							},
+						}),
+						n(11286, {	-- Magistrate Marduke
+							-- #IF AFTER 10.1.5
+							["provider"] = {"i",13544},	-- Spectral Essence
+							["description"] = "Only visible if you have the Spectral Essence equipped.",
+							-- #ENDIF
+							["coord"] = { 70.5, 74.0, WESTERN_PLAGUELANDS },
+							["groups"] = {
+								i(206357, {	-- Authentic Andorhal Candle
+									["cost"] = {{ "i", 206362, 1 }},	-- The Deed to Andorhal
+									["timeline"] = { ADDED_10_1_5 },
+								}),
+							},
+						}),
+						n(11285, {	-- Rory
+							-- #IF AFTER 10.1.5
+							["provider"] = {"i",13544},	-- Spectral Essence
+							["description"] = "Only visible if you have the Spectral Essence equipped.",
+							-- #ENDIF
+							["coord"] = { 63.4, 75.6, WESTERN_PLAGUELANDS },
+							["groups"] = {
+								i(206355, {	-- Tobacco-Filled Candle
+									["cost"] = {{ "i", 206360, 1 }},	-- Undelivered Shipment of Smokes
+									["timeline"] = { ADDED_10_1_5 },
+								}),
+							},
+						}),
+						n(11283, {	-- Sammy
+							-- #IF AFTER 10.1.5
+							["provider"] = {"i",13544},	-- Spectral Essence
+							["description"] = "Only visible if you have the Spectral Essence equipped.",
+							-- #ENDIF
+							["coord"] = { 69.1, 78.7, WESTERN_PLAGUELANDS },
+							["groups"] = {
+								i(206356, {	-- Ghost-Warding Candle
+									["cost"] = {{ "i", 206361, 1 }},	-- Trampled Doll
+									["timeline"] = { ADDED_10_1_5 },
+								}),
+							},
+						}),
+					}),
+				},
+			}),
+			-- #endif
 			explorationHeader({
 				-- #if AFTER CATA
 				exploration(193),	-- Andorhal
@@ -2998,24 +3113,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_5_2_0 },
 				}),
 			}),
-			-- #if AFTER 10.1.5
-			n(TREASURES, {
-				o(403532, {	-- Bucket of Fountain Water
-					["description"] = "Located by the water fountain in Caer Darrow.",
-					["sourceQuest"] = 76250,	-- Spectral Essence
-					["coord"] = { 68.8, 78.9, WESTERN_PLAGUELANDS },
-					["timeline"] = { ADDED_10_1_5 },
-					["groups"] = { i(206359) },	-- Caer Darrow Fountain Water
-				}),
-				o(403535, {	-- The Deed to Andorhal
-					["description"] = "Located by the town hall in Andorhal, on a wall to the right of where Rattlegore spawns.",
-					["sourceQuest"] = 76250,	-- Spectral Essence
-					["coord"] = { 43.6, 69.3, WESTERN_PLAGUELANDS },
-					["timeline"] = { ADDED_10_1_5 },
-					["groups"] = { i(206362) },	-- The Deed to Andorhal
-				}),
-			}),
-			-- #endif
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226413, {	-- Rune of Arcane Specialization
@@ -3075,32 +3172,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				n(11936, {	-- Artist Renfray
-					-- #IF AFTER 10.1.5
-					["provider"] = {"i",13544},	-- Spectral Essence
-					["description"] = "Only visible if you have the Spectral Essence equipped.",
-					-- #ENDIF
-					["coord"] = { 65.8, 75.4, WESTERN_PLAGUELANDS },
-					["groups"] = {
-						i(206358, {	-- Imported Candle
-							["cost"] = {{ "i", 206363, 1 }},	-- The Road Ahead
-							["timeline"] = { ADDED_10_1_5 },
-						}),
-					},
-				}),
-				n(11316, {	-- Joseph Dirte
-					-- #IF AFTER 10.1.5
-					["provider"] = {"i",13544},	-- Spectral Essence
-					["description"] = "Only visible if you have the Spectral Essence equipped.",
-					-- #ENDIF
-					["coord"] = { 68.0, 74.8, WESTERN_PLAGUELANDS },
-					["groups"] = {
-						i(206354, {	-- Stinky Candle
-							["cost"] = {{ "i", 206359, 1 }},	-- Caer Darrow Fountain Water
-							["timeline"] = { ADDED_10_1_5 },
-						}),
-					},
-				}),
 				n(12942, {	-- Leonard Porter <Leatherworking Supplies>
 					["coord"] = { 43.0, 84.3, WESTERN_PLAGUELANDS },
 					["races"] = ALLIANCE_ONLY,
@@ -3110,19 +3181,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						i(15725, {	-- Pattern: Wicked Leather Gauntlets (RECIPE!)
 							["isLimited"] = true,
-						}),
-					},
-				}),
-				n(11286, {	-- Magistrate Marduke
-					-- #IF AFTER 10.1.5
-					["provider"] = {"i",13544},	-- Spectral Essence
-					["description"] = "Only visible if you have the Spectral Essence equipped.",
-					-- #ENDIF
-					["coord"] = { 70.5, 74.0, WESTERN_PLAGUELANDS },
-					["groups"] = {
-						i(206357, {	-- Authentic Andorhal Candle
-							["cost"] = {{ "i", 206362, 1 }},	-- The Deed to Andorhal
-							["timeline"] = { ADDED_10_1_5 },
 						}),
 					},
 				}),
@@ -3148,32 +3206,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						})),
 						-- #endif
 						i(13485),	-- Recipe: Transmute Water to Air (RECIPE!)
-					},
-				}),
-				n(11285, {	-- Rory
-					-- #IF AFTER 10.1.5
-					["provider"] = {"i",13544},	-- Spectral Essence
-					["description"] = "Only visible if you have the Spectral Essence equipped.",
-					-- #ENDIF
-					["coord"] = { 63.4, 75.6, WESTERN_PLAGUELANDS },
-					["groups"] = {
-						i(206355, {	-- Tobacco-Filled Candle
-							["cost"] = {{ "i", 206360, 1 }},	-- Undelivered Shipment of Smokes
-							["timeline"] = { ADDED_10_1_5 },
-						}),
-					},
-				}),
-				n(11283, {	-- Sammy
-					-- #IF AFTER 10.1.5
-					["provider"] = {"i",13544},	-- Spectral Essence
-					["description"] = "Only visible if you have the Spectral Essence equipped.",
-					-- #ENDIF
-					["coord"] = { 69.1, 78.7, WESTERN_PLAGUELANDS },
-					["groups"] = {
-						i(206356, {	-- Ghost-Warding Candle
-							["cost"] = {{ "i", 206361, 1 }},	-- Trampled Doll
-							["timeline"] = { ADDED_10_1_5 },
-						}),
 					},
 				}),
 			}),

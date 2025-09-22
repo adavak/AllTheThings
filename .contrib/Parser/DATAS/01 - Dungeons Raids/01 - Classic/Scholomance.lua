@@ -1974,7 +1974,7 @@ end
 -- #if AFTER 10.1.5
 table.insert(SCHOLOMANCE_GROUPS, header(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
 	["sourceQuest"] = 76249,	-- Memory of Scholomance
-	["description"] = "With 10.1.5, Blizzard readded the original version of Scholomance!\n\nThank you, Blizzard!\n  -Crieve",
+	["description"] = "With 10.1.5, Blizzard readded the original version of Scholomance!\n\nThank you, Blizzard!\n  -Crieve\n\nHere is how to get started:\n\n1. Obtain 'Krastinov's Bag of Horrors' from the rare spawn Doctor Theolen Krastinov in Scholomance, Heroic difficulty. This step can be skipped if you are accompanied by someone who already have the toy.\n\n2. Defeat Darkmaster Gandling in Headmaster's Retreat and enter the upper level centre room.\n\n3. Find a pile of bones on the ground in the southeastern part of the room, and use the toy 'Krastinov's Bag of Horrors'.\n\n4. Eva Sarkhoff should now have spawned, but you cannot interact with her before you remove the toy visage/buff named 'Surgical Alterations'.\n\n5. Accept Eva Sarkhoof's quest and her Inert Spectral Essence. Loot Eva's Femur from the pile of bones.\n\n6. Walk back upstairs to The Viewing Room. There is two bookcases in the southwestern corner of the room. Eva's Journal can be found on a middle shelf on the backside of the left bookcase.\n\n7. Obtain the reagents 3x Dark Runes and 5x Essence of Undeath and use the Inert Spetral Essence. Equip the crafted trinket 'Spectral Essence'.\n\n8. Obtain candles from doing objectives around Caer Darrow (outside Scholomance):\n8.1 Loot 'The Deed to Andorhal' from inside Andorhal Townhall at 43.35, 69.3., and give it to Magistrate Marduke at 70.5, 74.0.\n8.2 Loot 'Bucket of Fountain Water' from the candylit fountain at 68.9, 78.8., and give it to Joseph Dirte at 68.0, 74.8.\n8.3 Loot 'Trampled Doll' from the meatwagon in Darrowshire at 35.7, 83.5. (Eastern Plaguelands!), return to Caer Darrow and give it to Sammy at 69.15, 78.7.\n8.4 Loot 'The Road Ahead' from a wall inside old Corin's Crossing tavern  at 55.0, 64.0. (Eastern Plaguelands!), return to Caer Darrow and give it to Artist Renfray at 65.8, 75.4.\n8.5 Loot 'Undelivered Shipment of Smokes' from a wagon behind the fountain at King's Square in Stratholme, return to Caer Darrow and give it to Rory at 63.4, 75.5.\n\n9. Use Eva's Journal to begin the ritual at 69.7, 71.7., inside Caer Darrow keep/open world Scholomance.",
 	["mapID"] = 306,
 	["maps"] = { 307, 308, 309 },
 	["modID"] = 1,
@@ -2007,43 +2007,47 @@ table.insert(SCHOLOMANCE_GROUPS, n(createHeader({
 table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
 	["timeline"] = { ADDED_5_0_4 },
 	["groups"] = {
-		n(TREASURES, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
-			o(403552, {	-- Eva's Femur
-				["description"] = "To start unlocking old Scholomance, you must first do a normal run of the MoP-Revamped Scholomance all the way to the final boss, Darkmaster Gandling. Once you complete the run, you must go to the room that used to be Doctor Theolen Krastinov's room in the original Scholomance (top center room), and at the top left portion of the room, you will be able to loot the first item of the secret, Eva's Femur.",
-				["sourceQuests"] = { 76248 },	-- Eva Sarkhoff
-				["groups"] = {
-					i(206364),	-- Eva's Femur
-				},
-			}),
-			o(403498, {	-- Eva's Journal
-				["description"] = "Located in new Scholomance, on a bookshelf in the Viewing Room (the room right before Darkmaster Gandling), to the right of the entrance of the corridor that leads to Darkmaster Gandling. The book is very hard to see and click, hidden behind other books on the middle shelf. The book is noticeably brighter than other books in the shelf.\n\nLook at the back of the bookshelf.",
-				["sourceQuests"] = { 76248 },	-- Eva Sarkhoff
-				["groups"] = {
-					i(206346, {	-- Eva's Journal
-						["description"] = "Use at 69.7, 71.7 outside the Scholomance Dungeon",
-					}),
-				},
-			}),
-		})),
-		n(206014, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Eva Sarkhoff
-			["description"] = "Go to the room that used to be Doctor Theolen Krastinov's room in the original Scholomance (Upper level, South (center) room).\nAt the South-East area of the room, use the Krastinov's Bag of Horrors toy to spawn Eva, then click off the buff so you can talk with her.\nShe will give you the Inert Spectral Essence.",
-			["provider"] = {"i",88566},	-- Krastinov's Bag of Horrors
-			["questID"] = 76248,
+		-- #if AFTER 10.1.5
+		header(HEADERS.NPC, 206014, bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Eva Sarkhoff
+			["description"] = "See the 'Memory of Scholomance'-header for proper instructions on how to do this.",
 			["groups"] = {
-				i(206365),	-- Inert Spectral Essence
-				hqt(76250, name(HEADERS.Item, 13544, {	-- Spectral Essence
-					["cost"] = {
-						{ "i", 20520, 3 },	-- 3x Dark Rune
-						{ "i", 12808, 5 },	-- 5x Essence of Undeath
-						{ "i", 206365, 1 },	-- 1x Inert Spectral Essence
-					},
-					-- ["lockCriteria"] = {},	-- cannot be triggered if Spectral Essence already in player inventory from Vanilla
+				n(TREASURES, {
+					o(403552, {	-- Eva's Femur
+						["sourceQuests"] = { 76248 },	-- Eva Sarkhoff
+						["groups"] = {
+							i(206364),	-- Eva's Femur
+						},
+					}),
+					o(403498, {	-- Eva's Journal
+						["sourceQuests"] = { 76248 },	-- Eva Sarkhoff
+						["groups"] = {
+							i(206346, {	-- Eva's Journal
+								["description"] = "Use at 69.7, 71.7 outside the Scholomance Dungeon",
+							}),
+						},
+					}),
+				}),
+				n(206014, {	-- Eva Sarkhoff
+					["provider"] = {"i",88566},	-- Krastinov's Bag of Horrors
+					["questID"] = 76248,
 					["groups"] = {
-						i(13544),	-- Spectral Essence
+						i(206365),	-- Inert Spectral Essence
+						hqt(76250, name(HEADERS.Item, 13544, {	-- Spectral Essence
+							["cost"] = {
+								{ "i", 20520, 3 },	-- 3x Dark Rune
+								{ "i", 12808, 5 },	-- 5x Essence of Undeath
+								{ "i", 206365, 1 },	-- 1x Inert Spectral Essence
+							},
+							-- ["lockCriteria"] = {},	-- cannot be triggered if Spectral Essence already in player inventory from Vanilla
+							["groups"] = {
+								i(13544),	-- Spectral Essence
+							},
+						})),
 					},
-				})),
+				}),
 			},
 		})),
+		-- #endif
 		n(59613, {	-- Professor Slate <Potions Master>
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = bubbleDown({["ignoreBonus"] = true},{

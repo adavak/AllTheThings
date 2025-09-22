@@ -513,14 +513,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				o(181085, {	-- Stratholme Supply Crate
 					i(13180),	-- Stratholme Holy Water
 				}),
-				o(403533, {	-- Undelivered Shipment of Smokes
-					["description"] = "Located in live Stratholme, near Ezra Grimm's tobacco place (enter the instance, take a left and another left). By a cart next to where Ezra Grimm spawns.",
-					["sourceQuests"] = { 76250 },	-- Spectral Essence
-					["timeline"] = { ADDED_10_1_5 },
-					["groups"] = {
-						i(206360),	-- Undelivered Shipment of Smokes
-					},
-				}),
 			}),
 			n(ZONE_DROPS, {
 				applyclassicphase(PHASE_SIX, i(22526)),	-- Bone Fragments
