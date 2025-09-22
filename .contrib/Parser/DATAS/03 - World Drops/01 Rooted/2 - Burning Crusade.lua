@@ -1545,7 +1545,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					},
 				}),
 				i(23572, {	-- Primal Nether
-					["description"] = "Is a guarranteed drop from TBC Heroic dungeon end bosses.",
+					["description"] = "Guaranteed drop from the last boss in any Heroic TBC dungeon.",
 					-- Danny Donkey: Uncommenting this will create a Reagents header with Primal Nether in the given minilists on retail despite Primal Nether already being sourced on the bosses themselves.
 					--[[["maps"] = {
 						AUCHINDOUN_AUCHENAI_CRYPTS,

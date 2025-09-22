@@ -1071,7 +1071,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 		--
 		-- Other reagents:
 		i(52078, {	-- Chaos Orb
-			["description"] = "Is a guarranteed drop from Cataclysm Heroic dungeon end bosses.",
+			["description"] = "Guaranteed drop from the last boss in any Heroic Cataclysm dungeon.",
 		}),
 	}),
 }))));
