@@ -243,6 +243,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	m(KHAZ_ALGAR, {
 		m(KARESH, {
 			n(RARES, {
+				q(90697, {	-- Weekly reputation: "Arcana-Monger So'zer"
+					["name"] = "Arcana-Monger So'zer weekly reputation obtained.",
+				}),
 				q(90676, {	-- Weekly reputation: "Chowdar"
 					["name"] = "Chowdar weekly reputation obtained.",
 				}),

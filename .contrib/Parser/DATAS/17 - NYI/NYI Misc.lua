@@ -1879,7 +1879,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(235559),	-- Hidden Trove
 			i(230017),	-- Master Blaster's Insignia
 			i(238207),	-- Nanny's Surge Dividend
-			i(234618),	-- Omega Oyster Outbreak
 			i(231291),	-- Radar
 			i(235627),	-- Scribbles' Favorite Candies
 			i(230990),	-- Set Keystone Map: Operation: Floodgate
@@ -1933,6 +1932,14 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 				i(238740),	-- Distilled Knowledge of Timeways
 				i(246730),	-- Landro's Loot Box
 			}),
+		})),
+
+		-- 11.2.5
+		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
+			i(246889),	-- Orb of Synchronized Power
+			i(246807),	-- Package of Remix Necklaces
+			i(246805),	-- Package of Remix Rings
+			i(246806),	-- Package of Remix Trinkets
 		})),
 	}),
 }));

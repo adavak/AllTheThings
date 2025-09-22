@@ -1684,6 +1684,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(226004),	-- Odlen Text (was looted from Sturdy Chest (objectID) 455495)
 			i(226005),	-- Ancient Tool (was looted from Sturdy Chest (objectID) 455914)
 			--
+			i(234618, {	-- Omega Oyster Outbreak (Curio buff item)
+				["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+			}),
 			i(234619, {	-- Ultimate Orange O-pocalypse (Curio buff item)
 				["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 			}),

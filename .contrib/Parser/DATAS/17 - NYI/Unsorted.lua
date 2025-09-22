@@ -186,7 +186,6 @@ root(ROOTS.Unsorted, {
 			i(246238),	-- [DNT] Affix Token
 			i(246789),	-- Cache of Infinite Power
 			i(246796),	-- Epic Cache of Infinite Power
-			i(246889),	-- Orb of Synchronized Power
 			i(246990),	-- Infernal's Azure Staff
 			i(246994),	-- Infernal's Hellfire Staff
 			i(247489),	-- Aristocrat's Winter Drape
@@ -748,7 +747,6 @@ root(ROOTS.Unsorted, {
 				i(238921),	-- Containment Canister
 				i(239204),	-- (DNT NEEDS CRESTS) Overflowing K'aresh Trove
 				i(244300),	-- Phase-Sealed Box
-				i(244354),	-- Ethereal Equipment Chest
 
 				-- Valorstone
 				i(239594),	-- Crimson Valorstone

@@ -558,6 +558,16 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 						conquest(525, i(230632)),	-- Astral Gladiator's Ring
 						conquest(525, i(230634)),	-- Astral Gladiator's Signet
 					}),
+					filter(MISC, {
+						i(254308, {	-- Conqueror's Astral Lacquer
+							["cost"] = {{ "c", CONQUEST, 700 }},
+							["timeline"] = { ADDED_11_2_5, REMOVED_12_0_0 },
+						}),
+						i(254307, {	-- Conqueror's Astral Varnish
+							["cost"] = {{ "c", CONQUEST, 875 }},
+							["timeline"] = { ADDED_11_2_5, REMOVED_12_0_0 },
+						}),
+					}),
 					filter(NECK_F, {
 						conquest(525, i(230637)),	-- Astral Gladiator's Amulet
 						conquest(525, i(230635)),	-- Astral Gladiator's Necklace
