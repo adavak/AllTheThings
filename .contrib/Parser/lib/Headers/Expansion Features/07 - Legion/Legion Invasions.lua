@@ -9,7 +9,6 @@ LEGION_INVASIONS = createHeader({
 		fr = "Invasions de Legion",
 		-- ko = "",
 		-- it = "",
-		mx = "Asaltos de la legion",
 		-- pt = "",
 		ru = "Вторжение Легиона",
 		cn = "军团入侵",

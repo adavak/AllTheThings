@@ -1051,6 +1051,169 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					mission(1382, {	-- Win the Crowd
 						i(130169),	-- Tournament Favor (TOY!)
 					}),
+					n(CHAMPION_EQUIPMENT, {
+						cl(DEATHKNIGHT, {
+							i(139877),	-- Death's Touch
+							i(139878),	-- Relic of the Ebon Blade
+							i(139876),	-- Rune of Reckoning
+							i(147572, { ["timeline"] = { ADDED_7_2_0 } }),	-- Sigil of Ebon Frost
+							i(139875),	-- Undead Token
+						}),
+						cl(DEMONHUNTER, {
+							i(139837),	-- Demon's Sigil
+							i(152932, { ["timeline"] = { ADDED_7_2_0 } }),	-- Demonic Standard
+							i(139838),	-- Essence of Malice
+							i(139835),	-- Marauder's Vestige
+							i(139836),	-- Shadow Relic
+						}),
+						cl(DRUID, {
+							i(147570, { ["timeline"] = { ADDED_7_2_0 } }),	-- Dreamgrove Leaf
+							i(139863),	-- Elune's Sight
+							i(139866),	-- Forest Ember
+							i(139865),	-- Glowing Token
+							i(139864),	-- Scroll of Growth
+						}),
+						cl(HUNTER, {
+							i(147569, { ["timeline"] = { ADDED_7_2_0 } }),	-- Arcane Trap
+							i(139847),	-- Bow of Ancient Kings
+							i(139850),	-- Cloak of Deception
+							i(139848),	-- Seeker's Scrip
+							i(139849),	-- Windrunner's Gift
+						}),
+						cl(MAGE, {
+							i(139844),	-- Arcanist's Trifle
+							i(139845),	-- Band of Primordial Strength
+							i(139843),	-- Conjurer's Bauble
+							i(147568, { ["timeline"] = { ADDED_7_2_0 } }),	-- Essence of Nether
+							i(139846),	-- Highborne Bauble
+						}),
+						cl(MONK, {
+							i(139862),	-- Bell of Fury
+							i(139859),	-- Chi Empowered Jewel
+							i(139861),	-- Mogu Madstone
+							i(147567, { ["timeline"] = { ADDED_7_2_0 } }),	-- Soothing Focus
+							i(139860),	-- Tea of Blessing
+						}),
+						cl(PALADIN, {
+							i(147566, { ["timeline"] = { ADDED_7_2_0 } }),	-- Horn of Valor
+							i(139867),	-- Justice Hammer
+							i(139869),	-- Libram of Enlightenment
+							i(147300, { ["timeline"] = { ADDED_7_3_2 } }),	-- Light-Bound Reliquary
+							i(139868),	-- Light's Shield
+							i(139870),	-- Silver Hand Ornament
+						}),
+						cl(PRIEST, {
+							i(147565, { ["timeline"] = { ADDED_7_2_0 } }),	-- Book of Lost Sermons
+							i(139873),	-- Bottled Sanity
+							i(139871),	-- Holy Figurine
+							i(139872),	-- Light's Command
+							i(139874),	-- Sanity Edge
+						}),
+						cl(ROGUE, {
+							i(147564, { ["timeline"] = { ADDED_7_2_0 } }),	-- Diamond Stone
+							i(139833),	-- Leech Brew
+							i(139832),	-- Sleep Potion
+							i(139831),	-- Smoke Grenades
+							i(139834),	-- Vanishing Dust
+						}),
+						cl(SHAMAN, {
+							i(139840),	-- Earthly Pincer
+							i(139842),	-- Furious Charge
+							i(147563, { ["timeline"] = { ADDED_7_2_0 } }),	-- Stone Totem
+							i(139841),	-- Totem of the Earth
+							i(139839),	-- Voodoo Post
+						}),
+						cl(WARLOCK, {
+							i(139858),	-- Black Harvest Curio
+							i(139856),	-- Demonic Brew
+							i(139857),	-- Helm of Command
+							i(147304, { ["timeline"] = { ADDED_7_3_2 } }),	-- Pocket Keystone to Abandoned World
+							i(147561, { ["timeline"] = { ADDED_7_2_0 } }),	-- Relic of Demonic Influence
+							i(139855),	-- Skull of Embrace
+						}),
+						cl(WARRIOR, {
+							i(139853),	-- Axe of the Valkyra
+							i(147560, { ["timeline"] = { ADDED_7_2_0 } }),	-- Horn of Rage
+							i(139854),	-- Skull of a Fallen Foe
+							i(139851),	-- Valarjar's Might
+							i(139852),	-- War Banner
+						}),
+						i(152928, { ["timeline"] = { ADDED_7_3_0 } }),	-- Archaic Seerstone
+						i(152450, { ["timeline"] = { ADDED_7_3_0 } }),	-- Augari Censorite Staff
+						i(139802),	-- Auspicious Fetish
+						i(152449, { ["timeline"] = { ADDED_7_3_0 } }),	-- Azurelight Candelabra
+						i(152936, { ["timeline"] = { ADDED_7_3_0 } }),	-- Azurelight Sapphire
+						i(139845),	-- Band of Primordial Strength
+						i(140582),	-- Bottomless Flask
+						i(139827),	-- Brooch of Endless Dreams
+						i(147348, { ["timeline"] = { ADDED_7_2_0 } }),	-- Bulky Armor Set
+						i(139814),	-- Carrot on a Stick
+						i(147556, { ["timeline"] = { ADDED_7_2_0 } }),	-- Cloak of Concealment
+						i(139808),	-- Cuiro of Abundant Happiness
+						i(152454, { ["timeline"] = { ADDED_7_3_0 } }),	-- Darklost Claw
+						i(139830),	-- Demon in a Box
+						i(139795),	-- Draught of Courage
+						i(139822),	-- Dust of Azeroth
+						i(140573),	-- Elixir of Overwhelming Focus
+						i(139809),	-- Elixir of Plenty
+						i(139826),	-- Eltrig's Grace
+						i(139819),	-- Embers of the Firelands
+						i(151843, { ["timeline"] = { ADDED_7_3_0 } }),	-- Eredath Armor Set
+						i(152444, { ["timeline"] = { ADDED_7_3_0 } }),	-- Exalted Xenedar Hammer
+						i(152453, { ["timeline"] = { ADDED_7_3_0 } }),	-- Fel-Infused Legion Effigy
+						i(147557, { ["timeline"] = { ADDED_7_2_0 } }),	-- Fel Imp Tooth
+						i(139792),	-- Fruitful Bauble
+						i(139804),	-- Glacial Fang
+						i(139419),	-- Golden Banana
+						i(147554, { ["timeline"] = { ADDED_7_2_0 } }),	-- Harpy Feather
+						i(140572),	-- Hasty Pocketwatch
+						i(152442, { ["timeline"] = { ADDED_7_3_0 } }),	-- Impervious Shadoweave Hood
+						i(147350, { ["timeline"] = { ADDED_7_2_0 } }),	-- Invincible Armor Set
+						i(151842, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Armor Set
+						i(152438, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Sledgehammer
+						i(139824),	-- Light's Haven
+						i(152447, { ["timeline"] = { ADDED_7_3_0 } }),	-- Lightburst Charge
+						i(139801),	-- Lucky Doodad
+						i(152445, { ["timeline"] = { ADDED_7_3_0 } }),	-- Memento of the Lightforged
+						i(139811),	-- Necklace of Endless Memories
+						i(139823),	-- Nightmare's End
+						i(139821),	-- Omen's Bidding
+						i(139799),	-- Pathfinder's Saddle
+						i(152439, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pit Lord Tusk
+						i(140571),	-- Potion of Energy
+						i(139829),	-- Potion of Sacrifice
+						i(139812),	-- Potion of Triton
+						i(147558, { ["timeline"] = { ADDED_7_2_0 } }),	-- Pouch of Wonder
+						i(152448, { ["timeline"] = { ADDED_7_3_0 } }),	-- Praetorium Tome of Arcana
+						i(152929, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pronged Ridgestalker Spear
+						i(152452, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pulsing Wrathguard Skull
+						i(139828),	-- Queen's Feathers
+						i(152932, { ["timeline"] = { ADDED_7_3_0 } }),	-- Runewarded Lightblade
+						i(152443, { ["timeline"] = { ADDED_7_3_0 } }),	-- Sanctified Armaments of the Light
+						i(152441, { ["timeline"] = { ADDED_7_3_0 } }),	-- Satchel of Lucidity
+						i(139670),	-- Scream of the Dead
+						i(152927, { ["timeline"] = { ADDED_7_3_0 } }),	-- Serrated Stone Axe
+						i(152934, { ["timeline"] = { ADDED_7_3_0 } }),	-- Shadow-Soaked Stalker Heart
+						i(152933, { ["timeline"] = { ADDED_7_3_0 } }),	-- Shadowguard Void Effusion
+						i(147553, { ["timeline"] = { ADDED_7_2_0 } }),	-- Shard of Twisting Nether
+						i(147349, { ["timeline"] = { ADDED_7_2_0 } }),	-- Spiked Armor Set
+						i(140581),	-- Sturdy Hiking Boots
+						i(143850, { ["timeline"] = { ADDED_7_2_0 } }),	-- Summon Grimtotem Warrior
+						i(139813),	-- Swift Boots
+						i(139825),	-- Tome of Secrets
+						i(147555, { ["timeline"] = { ADDED_7_2_0 } }),	-- Vial of Sight
+						i(140583),	-- Vial of Timeless Breath
+						i(152930, { ["timeline"] = { ADDED_7_3_0 } }),	-- Vilefiend-Spine Whip
+						i(152437, { ["timeline"] = { ADDED_7_3_0 } }),	-- Viscid Demon Blood
+						i(152440, { ["timeline"] = { ADDED_7_3_0 } }),	-- Void-Touched Arinor Blossom
+						i(152451, { ["timeline"] = { ADDED_7_3_0 } }),	-- Volatile Stygian Scroll
+						i(152935, { ["timeline"] = { ADDED_7_3_0 } }),	-- Wakener's Bauble
+						i(147559, { ["timeline"] = { ADDED_7_2_0 } }),	-- Ward of Infinite Fury
+						i(139816),	-- Well-Worn Stone
+						i(152446, { ["timeline"] = { ADDED_7_3_0 } }),	-- Writ of Holy Orders
+						i(151844, { ["timeline"] = { ADDED_7_3_0 } }),	-- Xenedar Armor Set
+						i(152931, { ["timeline"] = { ADDED_7_3_0 } }),	-- Xenic Tincture
+					}),
 					-- Rep Insignias
 					i(152960, { ["timeline"] = { ADDED_7_3_0 } }),	-- Argussian Reach Insignia
 					i(152959, { ["timeline"] = { ADDED_7_3_0 } }),	-- Argussian Reach Insignia
@@ -1107,79 +1270,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					un(REMOVED_FROM_GAME, i(139457)),	-- Odyn's Challenge -> Halls of Valor: Odyn's Challenge -> Halls of Valor
 					un(REMOVED_FROM_GAME, i(139473)),	-- Vial of Poisoned Blood -> Darkheart Thicket: Into Darkheart Thicket -> Darkheart Thicket
 					un(REMOVED_FROM_GAME, i(139475)),	-- Waterlogged Letter -> Maw of Souls: Into the Maw of Souls -> Maw of Souls
-					-- Follower Equipments
-					i(147569, { ["timeline"] = { ADDED_7_2_0 } }),	-- Arcane Trap
-					i(152928, { ["timeline"] = { ADDED_7_3_0 } }),	-- Archaic Seerstone
-					i(139802),	-- Auspicious Fetish
-					i(152936, { ["timeline"] = { ADDED_7_3_0 } }),	-- Azurelight Sapphire
-					i(139845),	-- Band of Primordial Strength
-					i(139873),	-- Bottled Sanity
-					i(140582),	-- Bottomless Flask
-					i(139827),	-- Brooch of Endless Dreams
-					i(147348, { ["timeline"] = { ADDED_7_2_0 } }),	-- Bulky Armor Set
-					i(139814),	-- Carrot on a Stick
-					i(147556, { ["timeline"] = { ADDED_7_2_0 } }),	-- Cloak of Concealment
-					i(139808),	-- Cuiro of Abundant Happiness
-					i(139877),	-- Death's Touch
-					i(139830),	-- Demon in a Box
-					i(139795),	-- Draught of Courage
-					i(139822),	-- Dust of Azeroth
-					i(139809),	-- Elixir of Plenty
-					i(139826),	-- Eltrig's Grace
-					i(139819),	-- Embers of the Firelands
-					i(151843, { ["timeline"] = { ADDED_7_3_0 } }),	-- Eredath Armor Set
-					i(152444, { ["timeline"] = { ADDED_7_3_0 } }),	-- Exalted Xenedar Hammer
-					i(147557, { ["timeline"] = { ADDED_7_2_0 } }),	-- Fel Imp Tooth
-					i(139792),	-- Fruitful Bauble
-					i(139804),	-- Glacial Fang
-					i(139419),	-- Golden Banana
-					i(147554, { ["timeline"] = { ADDED_7_2_0 } }),	-- Harpy Feather
-					i(152442, { ["timeline"] = { ADDED_7_3_0 } }),	-- Impervious Shadoweave Hood
-					i(147350, { ["timeline"] = { ADDED_7_2_0 } }),	-- Invincible Armor Set
-					i(151842, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Armor Set
-					i(152438, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Sledgehammer
-					i(139824),	-- Light's Haven
-					i(152447, { ["timeline"] = { ADDED_7_3_0 } }),	-- Lightburst Charge
-					i(139801),	-- Lucky Doodad
-					i(139811),	-- Necklace of Endless Memories
-					i(139823),	-- Nightmare's End
-					i(139821),	-- Omen's Bidding
-					i(139799),	-- Pathfinder's Saddle
-					i(152439, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pit Lord Tusk
-					i(139829),	-- Potion of Sacrifice
-					i(139812),	-- Potion of Triton
-					i(147558, { ["timeline"] = { ADDED_7_2_0 } }),	-- Pouch of Wonder
-					i(152929, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pronged Ridgestalker Spear
-					i(139828),	-- Queen's Feathers
-					i(139878),	-- Relic of the Ebon Blade
-					i(139876),	-- Rune of Reckoning
-					i(152932, { ["timeline"] = { ADDED_7_3_0 } }),	-- Runewarded Lightblade
-					i(152443, { ["timeline"] = { ADDED_7_3_0 } }),	-- Sanctified Armaments of the Light
-					i(152441, { ["timeline"] = { ADDED_7_3_0 } }),	-- Satchel of Lucidity
-					i(139670),	-- Scream of the Dead
-					i(152934, { ["timeline"] = { ADDED_7_3_0 } }),	-- Shadow-Soaked Stalker Heart
-					i(152933, { ["timeline"] = { ADDED_7_3_0 } }),	-- Shadowguard Void Effusion
-					i(147553, { ["timeline"] = { ADDED_7_2_0 } }),	-- Shard of Twisting Nether
-					i(147572, { ["timeline"] = { ADDED_7_2_0 } }),	-- Sigil of Ebon Frost
-					i(147349, { ["timeline"] = { ADDED_7_2_0 } }),	-- Spiked Armor Set
-					i(140581),	-- Sturdy Hiking Boots
-					i(143850, { ["timeline"] = { ADDED_7_2_0 } }),	-- Summon Grimtotem Warrior
-					i(139813),	-- Swift Boots
-					i(139825),	-- Tome of Secrets
-					i(139841),	-- Totem of the Earth
-					i(139875),	-- Undead Token
-					i(139851),	-- Valarjar's Might
-					i(147555, { ["timeline"] = { ADDED_7_2_0 } }),	-- Vial of Sight
-					i(140583),	-- Vial of Timeless Breath
-					i(152930, { ["timeline"] = { ADDED_7_3_0 } }),	-- Vilefiend-Spine Whip
-					i(152440, { ["timeline"] = { ADDED_7_3_0 } }),	-- Void-Touched Arinor Blossom
-					i(152935, { ["timeline"] = { ADDED_7_3_0 } }),	-- Wakener's Bauble
-					i(147559, { ["timeline"] = { ADDED_7_2_0 } }),	-- Ward of Infinite Fury
-					i(139816),	-- Well-Worn Stone
-					i(139849),	-- Windrunner's Gift
-					i(152446, { ["timeline"] = { ADDED_7_3_0 } }),	-- Writ of Holy Orders
-					i(151844, { ["timeline"] = { ADDED_7_3_0 } }),	-- Xenedar Armor Set
-					i(152931, { ["timeline"] = { ADDED_7_3_0 } }),	-- Xenic Tincture
 				}),
 				n(QUESTS, {
 					q(44057, {	-- A "Noble" Event
@@ -1191,7 +1281,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							{ "i", 140563, 1 },	-- Second Half of the Map
 						},
 					}),
-					un(REMOVED_FROM_GAME, q(43557, {	-- Assault on Violet Hold: Into the Violet Hold(Normal)
+					un(REMOVED_FROM_GAME, q(43557, {	-- Assault on Violet Hold: Into the Violet Hold (Normal)
 						un(REMOVED_FROM_GAME, i(141164)),	-- Violet Hold Contraband Locker (Normal)
 					})),
 					un(REMOVED_FROM_GAME, q(44258, {	-- Assault on Violet Hold: Into the Violet Hold (Heroic)

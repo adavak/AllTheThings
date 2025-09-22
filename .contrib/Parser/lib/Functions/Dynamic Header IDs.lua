@@ -98,6 +98,7 @@ HeaderAssignments = {
 	["Cgi.Children's Week"] = -559,
 	["Challenge Appearance"] = -134,
 	["Challenge Mode"] = -65,
+	["Champion Equipment"] = -662,
 	["Chest"] = -90,
 	["Clan Aylaag"] = -463,
 	["Class Hall"] = -138,
@@ -659,4 +660,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -662;
+NextHeaderID = -663;

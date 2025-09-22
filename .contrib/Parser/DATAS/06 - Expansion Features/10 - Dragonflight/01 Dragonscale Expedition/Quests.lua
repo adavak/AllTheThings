@@ -116,7 +116,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["maxReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 25 },
 						["isWeekly"] = true,
 						["groups"] = {
-							i(200179),	-- Ruby Lifeband (QI!)
+							o(381652, {	-- Ruby Lifeband 
+								i(200179),	-- Ruby Lifeband (QI!)
+							}),
 						},
 					}),
 				}, {	-- RENOWN 2 --

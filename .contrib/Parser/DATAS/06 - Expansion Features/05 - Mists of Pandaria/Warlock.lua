@@ -83,6 +83,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						{ 50.2, 6.8, IRONFORGE },
 						{ 53.8, 35.8, ORGRIMMAR },
 					},
+					["groups"] = { i(92471) },	-- Jubeka's Journal (PQI!)
 				}),
 				q(32324, {	-- Seek the Signal
 					["sourceQuests"] = { 32317 },	-- Seeking the Soulstones
