@@ -288,6 +288,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["creatureID"] = 59150,	-- Flameweaver Koegler
 						["groups"] = {
 							ach(60897),	-- Celestial: Scarlet Halls
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86906)),	-- Kilrak, Jaws of Terror (Terrace)
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
 							i(86753),	-- Cloak of Peacock Feathers
 							i(89967),	-- Feng's Seal of Binding
