@@ -3424,6 +3424,11 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		})),
 		-- #endif
 	}),
+	filter(PROFESSION_EQUIPMENT, {
+		i(1819, {	-- Gouging Pick
+			["collectible"] = false,
+		}),
+	}),
 	category(106, applyclassicphase(PHASE_THREE_DMF_CARDS, {	-- Tarot Cards
 		i(19230),	-- Two of Beasts
 		i(19231),	-- Three of Beasts
@@ -5699,6 +5704,19 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		--
 		-- Other reagents:
 		i(11754, {["maps"] = { BLACKROCK_DEPTHS }, }),	-- Black Diamond
+		-- #if AFTER MOP
+		-- Danny Donkey: Dark Rune was only obtainable from Scholomance prior to MoP. With it's revamp Dark Runes became a zone drop from given mobs in Eastern Plaguelands. With the return of old Scholomance in 10.1.5, that is again a source for Dark Runes.
+		i(20520, {	-- Dark Rune
+			["coords"] = {
+				{ 55.1, 62.2, EASTERN_PLAGUELANDS },	-- Corin's Crossing
+				{ 62.4, 76.0, EASTERN_PLAGUELANDS },	-- Death Cultist Base Camp
+			},
+			["crs"] = {
+				8551,	-- Dark Summoner
+				8548,	-- Vile Tutor
+			},
+		}),
+		-- #endif
 		i(7191),	-- Fused Wiring
 		i(19441, {	-- Huge Venom Sac
 			-- #if BEFORE 4.0.3
