@@ -1300,6 +1300,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							ach(60898),	-- Celestial: Scarlet Monastery
 							i(86796),	-- Torch of the Celestial Spark
 							i(86754),	-- Amulet of Seven Curses
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86872)),	-- Kaolan's Withering Necklace (Terrace)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86820)),	-- Ring of the Bladed Tempest
 							i(86792),	-- Light of the Cosmos
 						},
