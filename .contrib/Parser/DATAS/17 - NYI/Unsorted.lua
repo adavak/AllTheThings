@@ -566,13 +566,6 @@ root(ROOTS.Unsorted, {
 				i(246723),	-- Unfazed Diver
 			}),
 			filter(COSMETIC, {
-				-- Brewfest?
-				i(241232),	-- Brewer's Basic Shoulder Cape
-				i(241341),	-- Brewer's Blue Shoulder Cape
-				i(241343),	-- Brewer's Basic Beret
-				i(241345),	-- Brewer's Blue Beret
-				i(241347),	-- Brewer's Basic Kilt
-				i(241350),	-- Brewer's Blue Kilt
 
 				-- Reputation Cosmetic
 				i(248784),	-- Ensemble: Void-Scarred Captain's Plate
@@ -586,14 +579,10 @@ root(ROOTS.Unsorted, {
 				i(244806),	-- Renowned Explorer's Versatile Vest
 
 				-- Trading Post?
-				i(245950),	-- Dark Iron Portable Forge
 				i(245951),	-- Wildhammer's Portable Forge
 				i(245954),	-- Wildhammer's Ceremonial Mace
-				i(245955),	-- Dark Iron's Ceremonial Mace
 				i(245958),	-- Wildhammer's Crystal Ward
-				i(245959),	-- Dark Iron's Crystal Ward
 				i(246783),	-- Wildhammer's Ancient Crusher
-				i(246784),	-- Dark Iron's Ancient Crusher
 				i(246785),	-- Coldsnap Felblade
 				i(246787),	-- Hellfire Felblade
 				i(246788),	-- Netherstorm Felblade
@@ -601,7 +590,6 @@ root(ROOTS.Unsorted, {
 				i(246791),	-- Hellfire Feldirk
 				i(246792),	-- Netherstorm Feldirk
 				i(246800),	-- Wildhammer's Mighty Crossbow
-				i(246801),	-- Dark Iron's Mighty Crossbow
 				i(246949),	-- Felreaver's Azure Treads
 				i(246950),	-- Felreaver's Azure Helm
 				i(246952),	-- Felreaver's Azure Shoulderguards
@@ -881,8 +869,6 @@ root(ROOTS.Unsorted, {
 			i(249711),	-- Cartel Ba Cypher
 			i(249712),	-- Cartel Om Cypher
 			i(249713),	-- Cartel Transmorpher
-			i(249857),	-- Brewer's Blue Belt
-			i(249858),	-- Brewer's Basic Belt
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250708),	-- The Horseman's Ghoulish Cowl
