@@ -2343,7 +2343,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			})),
 		})),
 		n(REWARDS, {
-			n(EVENT_COMPLETION, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
+			n(EVENT_COMPLETION, bubbleDown({
+				["sourceQuests"] = {
+					90880,	-- Serving with Style (A)
+					91068,	-- Serving with Style (H)
+				},
+				["sourceQuestNumRequired"] = 1,
+				["timeline"] = { ADDED_11_2_0 }
+			},{
 				i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
 					["description"] = "Granted for achieving 33% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
 					["groups"] = {
