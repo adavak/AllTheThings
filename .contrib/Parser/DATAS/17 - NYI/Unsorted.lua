@@ -568,17 +568,11 @@ root(ROOTS.Unsorted, {
 			filter(COSMETIC, {
 				-- Brewfest?
 				i(241232),	-- Brewer's Basic Shoulder Cape
-				i(241266),	-- Brewer's Black Shoulder Cape
 				i(241341),	-- Brewer's Blue Shoulder Cape
-				i(241342),	-- Brewer's Green Shoulder Cape
 				i(241343),	-- Brewer's Basic Beret
-				i(241344),	-- Brewer's Black Beret
 				i(241345),	-- Brewer's Blue Beret
-				i(241346),	-- Brewer's Green Beret
 				i(241347),	-- Brewer's Basic Kilt
-				i(241348),	-- Brewer's Black Kilt
 				i(241350),	-- Brewer's Blue Kilt
-				i(241351),	-- Brewer's Green Kilt
 
 				-- Reputation Cosmetic
 				i(248784),	-- Ensemble: Void-Scarred Captain's Plate
@@ -592,7 +586,6 @@ root(ROOTS.Unsorted, {
 				i(244806),	-- Renowned Explorer's Versatile Vest
 
 				-- Trading Post?
-				i(245947),	-- Barrel Helm
 				i(245950),	-- Dark Iron Portable Forge
 				i(245951),	-- Wildhammer's Portable Forge
 				i(245954),	-- Wildhammer's Ceremonial Mace
@@ -704,16 +697,7 @@ root(ROOTS.Unsorted, {
 				i(248316),	-- Wildhammer's Ceremonial Gauntlets
 				i(248317),	-- Wildhammer's Ceremonial Cloak
 				i(248318),	-- Ensemble: Wildhammer's Ceremonial Collection
-				i(248319),	-- Dark Iron's Ceremonial Crown
-				i(248320),	-- Dark Iron's Draping Mantle
-				i(248321),	-- Dark Iron's Ceremonial Chestplate
-				i(248322),	-- Dark Iron's Ceremonial Belt
-				i(248323),	-- Dark Iron's Ceremonial Boots
-				i(248324),	-- Dark Iron's Ceremonial Legguards
-				i(248325),	-- Dark Iron's Ceremonial Gauntlets
-				i(248326),	-- Dark Iron's Ceremonial Cloak
 				i(248327),	-- Ensemble: Dark Iron's Ceremonial Collection
-				i(248394),	-- Dark Iron's Crystal Mantle
 				i(248395),	-- Wildhammer's Ritualistic Mantle
 				i(248396),	-- The Speaker's Ritualistic Mantle
 				i(248397),	-- Bronzbeard's Ritualistic Mantle
@@ -728,8 +712,6 @@ root(ROOTS.Unsorted, {
 				i(243235),	-- Adventurer's Footlocker
 				i(243246),	-- Funny Candle
 				i(243580),	-- Etheric Pylon
-				i(244141),	-- Barley Soup
-				i(244142),	-- Brew Keg
 				i(244421),	-- Set Keystone Map: Eco-Dome Al'dani
 				i(246492),	-- Soulgorged Augment Rune
 				i(246837),	-- Mysterious Notebook
@@ -769,7 +751,6 @@ root(ROOTS.Unsorted, {
 				i(243293),	-- Bag of Brewfest Merchandise
 				i(243344),	-- Chef's Hat
 				i(243347),	-- Keg of Curiosities
-				i(243479),	-- Bag of Brewfest Ingredients
 			}),
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
@@ -889,17 +870,8 @@ root(ROOTS.Unsorted, {
 				i(239566),	-- Arcane Runed Signet
 				i(242547),	-- Cracked Keystone
 				i(242654),	-- Shadowtrade Overstock
-				i(244064),	-- Pretzel
-				i(246041),	-- Brew Keg
-				i(246042),	-- Pretzel
-				i(246044),	-- Bag of Brewfest Ingredients
-				i(246052),	-- Barley Soup
 				i(246592),	-- Shadowguard Credentials
 				i(246593),	-- Shadowguard Credentials
-			}),
-			filter(TOYS, {
-				-- Brewfest
-				i(245946),	-- Brewer's Balloon
 			}),
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249235),	-- Bottomless Bag of Entropy
@@ -911,8 +883,6 @@ root(ROOTS.Unsorted, {
 			i(249713),	-- Cartel Transmorpher
 			i(249857),	-- Brewer's Blue Belt
 			i(249858),	-- Brewer's Basic Belt
-			i(249859),	-- Brewer's Green Belt
-			i(249860),	-- Brewer's Black Belt
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250708),	-- The Horseman's Ghoulish Cowl
@@ -1739,7 +1709,6 @@ root(ROOTS.Unsorted, {
 				i(163137),	-- Oyster Shot
 				i(163138),	-- Snorkle Dropper
 				i(163140),	-- Viscous Ooze
-				i(163143),	-- The Burning Black Beverage
 				i(163145),	-- Throatkiller
 				i(163147),	-- Rum Fatigue
 				i(163149),	-- Anchor Drop
@@ -2710,7 +2679,6 @@ root(ROOTS.Unsorted, {
 			i(166398),	-- Set Keystone Map: Waycrest Manor
 			i(166399),	-- Add Keystone Affix: Infested
 			i(166419),	-- Kelp'thar Bubble Tea
-			i(166420),	-- Xibala Kombucha \\ Xibala Kombacha
 			i(166421),	-- PH Alliance Warfront Skullcleaver
 			i(166423),	-- PH Horde Warfront Claymore
 			i(166424),	-- PH Horde Warfront Warhammer
@@ -2889,7 +2857,6 @@ root(ROOTS.Unsorted, {
 			i(168594),	-- REUSE ME [MTMM] \\ Spellweaver's Desperation
 			i(168595),	-- REUSE ME [MTMM] \\ Scoundrel's Vigor
 			i(168597),	-- REUSE ME [MTMM] \\ Vanguard's Bulwark
-			i(168607),	-- Bottle of Voidwine
 			i(168630),	-- Chitterspine Meat
 			i(168635),	-- Leviathan's Eye
 			i(168655),	-- Greater Mystical Flask
@@ -2924,7 +2891,6 @@ root(ROOTS.Unsorted, {
 			i(169146),	-- Brittle Thrust Booster
 			i(169190),	-- Blueprint: Mega-Sized Spare Parts \\ Blueprint: TK45
 			i(169193),	-- Nazjatar Ring A
-			i(169219),	-- Alcohol-Free Brewfest Sampler
 			i(169291),	-- Petrified Ebony Scale
 			i(169330),	-- PH - Nazjatar - Trinket
 			i(169331),	-- Mardivas's Arcane Coffer
@@ -2938,27 +2904,9 @@ root(ROOTS.Unsorted, {
 			i(169342),	-- Relinquished Azerite Chestpiece
 			i(169343),	-- Relinquished Azerite Chestpiece
 			i(169386),	-- Elune's Favor
-			i(169397),	-- Admiralty Ale
-			i(169436),	-- Fireblood Stout
-			i(169439),	-- Dark Iron Ale
-			i(169441),	-- Azuremyst Mead
-			i(169442),	-- Exodar Martini
-			i(169443),	-- Shadowmoon Schnapps
 			i(169446),	-- Water Filled Bladder
 			i(169447),	-- Air Filled Bladder \\ Air Filled Bladder - NYI
 
-			i(169458),	-- Vol'dunshine
-			i(169459),	-- Saurid Sipper
-			i(169460),	-- Really Really Really Old Fashioned
-			i(169462),	-- Boxed Nightwine
-			i(169463),	-- Nightwine Cooler
-			i(169464),	-- Sparkling Suramar Spritz
-			i(169466),	-- Everbloom IPA
-			i(169467),	-- Doomlager
-			i(169468),	-- Ancestral Ale
-			i(169469),	-- Mag'helada
-			i(169521),	-- Butterhoof Milk Stout
-			i(169527),	-- Thunder Stumbler
 			i(169590),	-- Burgeoning Battlefield Furor \\ Azeroth's Undying Gift
 			i(169615),	-- Small Skull
 			i(169616),	-- Rusty Tube
@@ -3061,7 +3009,6 @@ root(ROOTS.Unsorted, {
 			i(170078),	-- Gleaming Ashmaul Strongbox
 			i(170100),	-- Hungry Herald's Tentacle Taco
 			i(170113),	-- Deeptide Scroll
-			i(170202),	-- Shwayderbrau
 			i(170250),	-- Honorbound Weapons Cache
 			i(170251),	-- 7th Legion Weapons Cache
 			i(170260),	-- Funeral Prayer Beads

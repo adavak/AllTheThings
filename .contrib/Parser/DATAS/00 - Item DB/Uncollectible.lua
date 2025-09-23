@@ -417,6 +417,7 @@ i(158746);	-- Tattered White Flag
 i(161200);	-- Teardrop Pearl
 i(158861);	-- Tensile Eye Stalk
 i(163914);	-- Tentacle Scrimshaw
+i(163143);	-- The Burning Black Beverage
 i(158839);	-- Thick Crab Claw
 i(158775);	-- Thick Hivewax
 i(158808);	-- Thick Tendon
@@ -462,6 +463,7 @@ i(166872);	-- Sterling Truesilver Flatware
 i(166796);	-- Sunset Amber (Opulence Crown Consumable)
 i(170038);	-- Torn Mesh
 i(166288);	-- Waterlogged Junk
+i(166420);	-- Xibala Kombucha
 i(166859);	-- Zinj'alor Blue Diamond
 
 -----------------

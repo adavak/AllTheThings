@@ -1470,6 +1470,7 @@ i(245942);	-- Sea-Blessed Shrine
 ------------------
 -- PATCH 11.2.0 --
 ------------------
+i(245946);	-- Brewer's Balloon
 i(246907);	-- Broker Supply Crate
 i(242323);	-- Chowdar's Favorite Ribbon
 i(246565);	-- Cosmic Hearthstone
@@ -1483,7 +1484,6 @@ i(246905);	-- Overtuned K'areshi Goggles
 i(245970);	-- P.O.S.T. Master's Express Hearthstone
 --- UNSORTED ---
 i(242534);	-- Azure Sea Skiff
-i(245946);	-- Brewer's Balloon
 i(249713);	-- Cartel Transmorpher
 -- SPECIAL CASE --
 -- #if BEFORE 11.2.5
