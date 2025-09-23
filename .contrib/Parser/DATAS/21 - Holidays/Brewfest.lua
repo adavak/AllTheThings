@@ -624,29 +624,30 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["timeline"] = { ADDED_11_2_0 },
 							["isDaily"] = true,
 						}),
-						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
-							["timeline"] = { ADDED_2_0_1 },
 						}),
-						i(33977, {	-- Swift Brewfest Ram (MOUNT!)
-							["timeline"] = { ADDED_2_0_1 },
+						i(248761, {	-- Brewfest Barrel Bomber (MOUNT!)
+							["timeline"] = { ADDED_11_2_0 },
 						}),
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
+						}),
+						i(37863, {	-- Direbrew's Remote
+							["timeline"] = { ADDED_2_0_1 },
+						}),
+						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
+							["timeline"] = { ADDED_2_0_1 },
+						}),
+						i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
+							["timeline"] = { ADDED_10_1_7 },
+						}),
+						i(33977, {	-- Swift Brewfest Ram (MOUNT!)
+							["timeline"] = { ADDED_2_0_1 },
 						}),
 						i(150922, {	-- Terrific Tankard O'Terror [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
 						}),
 						i(117379, {	-- Tremendous Tankard O'Terror [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(37863, {	-- Direbrew's Remote
-							["timeline"] = { ADDED_2_0_1 },
-						}),
-						i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
-							["timeline"] = { ADDED_10_1_7 },
-						}),
-						i(248761, {	-- Brewfest Barrel Bomber (MOUNT!)
-							["timeline"] = { ADDED_11_2_0 },
 						}),
 					}),
 				}),
@@ -1570,12 +1571,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				q(90879, {	-- Brewmaster's Kitchen (A)
 					["sourceQuest"] = 90870,	-- Gathering the Grub (A)
 					["qg"] = 242172,	-- Gritta Brewstone
-					["coord"] = { 46.0, 37.4, DUN_MOROGH },
+					["coord"] = { 56.0, 37.4, DUN_MOROGH },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
 						i(244141),	-- Barley Soup (QI!)
-						i(244051),	-- Barley Soup Ingredients (QI!)
+						i(244051),	-- Barley Porridge Ingredients (QI!)
 						i(244052),	-- Brew Ingredients (QI!)
 						i(244142),	-- Brew Keg (QI!)
 						i(244064),	-- Pretzel (QI!)
@@ -1877,7 +1878,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				q(90870, {	-- Gathering the Grub (A)
 					["qg"] = 242172,	-- Gritta Brewstone
-					["coord"] = { 46.0, 37.4, DUN_MOROGH },
+					["coord"] = { 56.0, 37.4, DUN_MOROGH },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
@@ -2110,7 +2111,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				q(90880, {	-- Serving with Style (A)
 					["sourceQuest"] = 90879,	-- Brewmaster's Kitchen (A)
 					["qg"] = 242172,	-- Gritta Brewstone
-					["coord"] = { 46.0, 37.4, DUN_MOROGH },
+					["coord"] = { 56.0, 37.4, DUN_MOROGH },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
 				}),
