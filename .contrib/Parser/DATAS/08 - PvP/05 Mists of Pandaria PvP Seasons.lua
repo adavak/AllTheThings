@@ -53,9 +53,19 @@ root(ROOTS.PVP, {
 				ach(8244, {	-- Hero of the Horde: Malevolent
 					["races"] = HORDE_ONLY,
 				}),
-				ach(8214, {	-- Malevolent Gladiator: Mists of Pandaria Season 1
+				-- #if ANYCLASSIC
+				ach(61354, {	-- Malevolent Gladiator: Season 12 (2v2)
 					title(223),	-- Malevolent Gladiator <Name>
 				}),
+				-- #endif
+				ach(8214, {	-- Malevolent Gladiator (Retail) // Malevolent Gladiator: Season 12 (3v3) (Classic)
+					title(223),	-- Malevolent Gladiator <Name>
+				}),
+				-- #if ANYCLASSIC
+				ach(61362, {	-- Malevolent Gladiator: Season 12 (5v5)
+					title(223),	-- Malevolent Gladiator <Name>
+				}),
+				-- #endif
 				ach(8216, {	-- Malevolent Gladiator's Cloud Serpent
 					["provider"] = { "i", 95041 },	-- Malevolent Gladiator's Cloud Serpent
 					["filterID"] = MOUNTS,
@@ -64,6 +74,11 @@ root(ROOTS.PVP, {
 					["description"] = "Awarded to members of the Arena teams during MoP Season 1 that were in the 0.5% bracket of their battlegroup.",
 				}),
 				ach(11717, {["timeline"] = {ADDED_7_2_0}}),	-- Why Male(volent) Models? (PvP Season 12)
+				-- #if ANYCLASSIC
+				ach(61415, {	-- Undisputed Gladiator: Season 12
+					title(261),	-- Undisputed Gladiator <Name>
+				}),
+				-- #endif
 			})),
 			n(PVP_HONOR, {
 				-- #if ANYCLASSIC

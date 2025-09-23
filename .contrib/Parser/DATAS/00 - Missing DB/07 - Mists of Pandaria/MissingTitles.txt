@@ -8,7 +8,6 @@ title(257),	-- Lumberjack %s \\ Malevolent Marauder %s
 title(258),	-- Echochaser %s \\ Timber Lord %s \\ Timer Lord %s \\ Tyrannical Marauder %s
 title(259),	-- %s the Commandojack \\ %s The Commandojack \\ Grievous Marauder %s
 title(260),	-- Architect %s \\ Prideful Marauder %s
-title(261),	-- Blood Champion %s \\ Undisputed Gladiator %s
 title(980),	-- Skirmisher %s
 title(995),	-- Malevolent Skirmisher %s
 title(996),	-- Tyrannical Skirmisher %s
