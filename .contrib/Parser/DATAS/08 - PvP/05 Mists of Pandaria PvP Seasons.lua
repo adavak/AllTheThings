@@ -41,6 +41,9 @@ end]];
 root(ROOTS.PVP, {
 	run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.MOP, {
 		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+			n(ACHIEVEMENTS, {
+				ach(11717, {["timeline"] = {ADDED_7_2_0}}),	-- Why Male(volent) Models? (PvP Season 12)
+			}),
 			n(ACHIEVEMENTS, bubbleDown({
 				["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 				-- #if BEFORE WOD
@@ -73,7 +76,6 @@ root(ROOTS.PVP, {
 				i(95041, {	-- Malevolent Gladiator's Cloud Serpent
 					["description"] = "Awarded to members of the Arena teams during MoP Season 1 that were in the 0.5% bracket of their battlegroup.",
 				}),
-				ach(11717, {["timeline"] = {ADDED_7_2_0}}),	-- Why Male(volent) Models? (PvP Season 12)
 				-- #if ANYCLASSIC
 				ach(61415, {	-- Undisputed Gladiator: Season 12
 					title(261),	-- Undisputed Gladiator <Name>
@@ -849,6 +851,9 @@ root(ROOTS.PVP, {
 			})),
 		}))),
 		n(SEASON_TYRANNICAL, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {
+			n(ACHIEVEMENTS, {
+				ach(11718, {["timeline"] = {ADDED_7_2_0}}),	-- Dressed to Oppress (PvP Season 13)
+			}),
 			n(ACHIEVEMENTS, bubbleDown({
 				["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 },
 				-- #if BEFORE WOD
@@ -871,7 +876,6 @@ root(ROOTS.PVP, {
 				i(104325, {	-- Tyrannical Gladiator's Cloud Serpent
 					["description"] = "Awarded to members of the Arena teams during MoP Season 2 that were in the 0.5% bracket of their battlegroup.",
 				}),
-				ach(11718, {["timeline"] = {ADDED_7_2_0}}),	-- Dressed to Oppress (PvP Season 13)
 			})),
 			n(PVP_HONOR, {
 				["description"] = "These items are available from Malevolent Gladiator: Season 12 Vendor.",
@@ -1861,6 +1865,9 @@ root(ROOTS.PVP, {
 		}))),
 		-- Wouter NOTE: temporarily tied this to SoO phase release for MoP Classic, but this will likely be different
 		n(SEASON_GRIEVOUS, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {
+			n(ACHIEVEMENTS, {
+				ach(11719, {["timeline"] = {ADDED_7_2_0}}),	-- It's Not Fashion Unless It Hurts (PvP Season 14)
+			}),
 			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 				ach(8649),	-- Challenger: Mists of Pandaria Season 3/Season 14
 				ach(8645, {	-- Duelist: Mists of Pandaria Season 3/Season 14
@@ -1901,7 +1908,6 @@ root(ROOTS.PVP, {
 					},
 				}),
 				ach(8646),	-- Rival: Mists of Pandaria Season 3/Season 14
-				ach(11719, {["timeline"] = {ADDED_7_2_0}}),	-- It's Not Fashion Unless It Hurts (PvP Season 14)
 			})),
 			n(FACTION_HEADER_ALLIANCE, {
 				["races"] = ALLIANCE_ONLY,
@@ -3152,6 +3158,9 @@ root(ROOTS.PVP, {
 		}))),
 		-- Wouter NOTE: temporarily tied this to SoO phase release for MoP Classic, but this will likely be different
 		n(SEASON_PRIDEFUL, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_7 } }, {
+			n(ACHIEVEMENTS, {
+				ach(11720, {["timeline"] = {ADDED_7_2_0}}),	-- Wear It With Pride (PvP Season 15)
+			}),
 			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 				ach(8670),	-- Challenger: Mists of Pandaria Season 4/Season 15
 				ach(8668, {	-- Duelist: Mists of Pandaria Season 4/Season 15
@@ -3192,7 +3201,6 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				ach(8669),	-- Rival: Mists of Pandaria Season 4/Season 15
-				ach(11720, {["timeline"] = {ADDED_7_2_0}}),	-- Wear It With Pride (PvP Season 15)
 			})),
 			n(FACTION_HEADER_ALLIANCE, {
 				["races"] = ALLIANCE_ONLY,
