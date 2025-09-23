@@ -619,14 +619,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_6_0_2 },
 					["lvl"] = 98,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						hqt(91894, {	-- Increased Brewfest Barrel Bomber/Brewfest Armor Droprate (Daily Accountwide)
-							["name"] = "Increased Brewfest Barrel Bomber/Brewfest Armor Droprate (Daily Accountwide)",
-							["timeline"] = { ADDED_11_2_0 },
+						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)
+							-- Used 77775 as old tracking ID
+							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
+							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+							["timeline"] = { ADDED_10_1_7 },
 							["isDaily"] = true,
-						}),
-						}),
-						i(248761, {	-- Brewfest Barrel Bomber (MOUNT!)
-							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = {
+								i(248761, {	-- Brewfest Barrel Bomber (MOUNT!)
+									["timeline"] = { ADDED_11_2_0 },
+								}),
+								i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
+									["timeline"] = { ADDED_10_1_7 },
+								}),
+							},
 						}),
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
@@ -636,9 +642,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
 							["timeline"] = { ADDED_2_0_1 },
-						}),
-						i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
-							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(33977, {	-- Swift Brewfest Ram (MOUNT!)
 							["timeline"] = { ADDED_2_0_1 },
@@ -3268,7 +3271,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			q(77775, {	-- Daily kill of Coren Direbrew
-				["name"] = "Coren Direbrew killed. Cheers...",
+				["name"] = "Daily kill of Coren Direbrew",
 			}),
 		})),
 	})),
