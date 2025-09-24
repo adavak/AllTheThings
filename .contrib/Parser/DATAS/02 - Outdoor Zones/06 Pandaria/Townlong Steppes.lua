@@ -1699,7 +1699,12 @@ root(ROOTS.Zones, {
 					}),
 					n(64606, {	-- Commander Oxheart <Valor Quartermaster>
 						["coord"] = { 37.8, 64.6, TOWNLONG_STEPPES },
-						-- some items are available via faction vendors in/near main city
+						-- #if ANYCLASSIC
+						["groups"] = {
+							applyclassicphase(MOP_PHASE_LANDFALL, i(256883)),	-- Commendation of Justice
+						},
+						-- #endif
+						-- Some items are available via faction vendors in/near main city
 						["sym"] = {{"select","itemID",
 							88741,	-- Gloves of Red Feathers
 							88742,	-- Sunspeaker's Flared Gloves
