@@ -2353,9 +2353,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			},{
 				i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
 					["description"] = "Granted for achieving 33% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-					["groups"] = {
-						BREWFEST_TOKEN,
-					},
+					["groups"] = BREWFEST_TOKEN,
 				}),
 				i(243292, {	-- Bag of Brewfest Merchandise (Rare) Only Cosmectics
 					["description"] = "Granted for achieving 66% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
