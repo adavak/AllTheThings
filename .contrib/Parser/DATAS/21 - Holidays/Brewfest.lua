@@ -2343,50 +2343,51 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			})),
 		})),
 		n(REWARDS, {
-			n(EVENT_COMPLETION, bubbleDown({
+			n(EVENT_COMPLETION, {
 				["sourceQuests"] = {
 					90880,	-- Serving with Style (A)
 					91068,	-- Serving with Style (H)
 				},
 				["sourceQuestNumRequired"] = 1,
-				["timeline"] = { ADDED_11_2_0 }
-			},{
-				i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
-					["description"] = "Granted for achieving 33% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-					["groups"] = BREWFEST_TOKEN,
-				}),
-				i(243292, {	-- Bag of Brewfest Merchandise (Rare) Only Cosmectics
-					["description"] = "Granted for achieving 66% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-					["groups"] = {
-						i(241232),	-- Brewer's Basic Shoulder Cape
-						i(241341),	-- Brewer's Blue Shoulder Cape
-						i(241343),	-- Brewer's Basic Beret
-						i(241345),	-- Brewer's Blue Beret
-						i(241347),	-- Brewer's Basic Kilt
-						i(241350),	-- Brewer's Blue Kilt
-						i(249857),	-- Brewer's Blue Belt
-						i(249858),	-- Brewer's Basic Belt
-					},
-				}),
-				i(243293, {	-- Bag of Brewfest Merchandise (Epic) BoE's & Cosmetics
-					["description"] = "Granted for achieving 100% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-					["groups"] = {
-						i(241232),	-- Brewer's Basic Shoulder Cape
-						i(241341),	-- Brewer's Blue Shoulder Cape
-						i(241343),	-- Brewer's Basic Beret
-						i(241345),	-- Brewer's Blue Beret
-						i(241347),	-- Brewer's Basic Kilt
-						i(241350),	-- Brewer's Blue Kilt
-						i(249857),	-- Brewer's Blue Belt
-						i(249858),	-- Brewer's Basic Belt
-						i(245950),	-- Dark Iron Portable Forge
-						i(245955),	-- Dark Iron's Ceremonial Mace
-						i(245959),	-- Dark Iron's Crystal Ward
-						i(246784),	-- Dark Iron's Ancient Crusher
-						i(246801),	-- Dark Iron's Mighty Crossbow
-					},
-				}),
-			})),
+				["timeline"] = { ADDED_11_2_0 },
+				["groups"] = {
+					i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
+						["description"] = "Granted for achieving 33% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
+						["groups"] = BREWFEST_TOKEN,
+					}),
+					i(243292, {	-- Bag of Brewfest Merchandise (Rare) Only Cosmectics
+						["description"] = "Granted for achieving 66% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
+						["groups"] = {
+							i(241232),	-- Brewer's Basic Shoulder Cape
+							i(241341),	-- Brewer's Blue Shoulder Cape
+							i(241343),	-- Brewer's Basic Beret
+							i(241345),	-- Brewer's Blue Beret
+							i(241347),	-- Brewer's Basic Kilt
+							i(241350),	-- Brewer's Blue Kilt
+							i(249857),	-- Brewer's Blue Belt
+							i(249858),	-- Brewer's Basic Belt
+						},
+					}),
+					i(243293, {	-- Bag of Brewfest Merchandise (Epic) BoE's & Cosmetics
+						["description"] = "Granted for achieving 100% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
+						["groups"] = {
+							i(241232),	-- Brewer's Basic Shoulder Cape
+							i(241341),	-- Brewer's Blue Shoulder Cape
+							i(241343),	-- Brewer's Basic Beret
+							i(241345),	-- Brewer's Blue Beret
+							i(241347),	-- Brewer's Basic Kilt
+							i(241350),	-- Brewer's Blue Kilt
+							i(249857),	-- Brewer's Blue Belt
+							i(249858),	-- Brewer's Basic Belt
+							i(245950),	-- Dark Iron Portable Forge
+							i(245955),	-- Dark Iron's Ceremonial Mace
+							i(245959),	-- Dark Iron's Crystal Ward
+							i(246784),	-- Dark Iron's Ancient Crusher
+							i(246801),	-- Dark Iron's Mighty Crossbow
+						},
+					}),
+				},
+			}),
 		}),
 		n(VENDORS, {
 			-- #if ANYCLASSIC
