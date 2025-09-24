@@ -734,9 +734,6 @@ root(ROOTS.Unsorted, {
 				i(240938),	-- Triumphant Satchel of Carved Undermine Crests
 
 				-- Brewfest
-				i(243291),	-- Bag of Brewfest Merchandise
-				i(243292),	-- Bag of Brewfest Merchandise
-				i(243293),	-- Bag of Brewfest Merchandise
 				i(243344),	-- Chef's Hat
 				i(243347),	-- Keg of Curiosities
 			}),
@@ -2852,7 +2849,6 @@ root(ROOTS.Unsorted, {
 			i(168788),	-- Toy Soldier Weapons
 			i(168789),	-- Perpetual Motion Device
 			i(168790),	-- Sack of Fish Bones
-			i(168791),	-- Shiny Rocks
 			i(168792),	-- Kobold's Candle
 			i(168793),	-- Bottle of Homemade Wine
 			i(168794),	-- Last Year's Brewfest Flyer

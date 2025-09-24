@@ -1357,6 +1357,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						19177,	-- Troll Commoner
 						19178,	-- Forsaken Commoner
 						20102,	-- Goblin Commoner
+						-- #if AFTER TWW
+						220307,	-- Holiday Enthusiast
+						220870, -- Holiday Enthusiast
+						-- #endif
 					},
 					["timeline"] = { ADDED_2_2_2 },
 					["maps"] = {
@@ -1374,6 +1378,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						THE_STORM_PEAKS,
 						NORTHREND_DALARAN,
 						THE_CAPE_OF_STRANGLETHORN,
+						-- #if AFTER TWW
+						DORNOGAL,
+						-- #endif
 					},
 					["races"] = HORDE_ONLY,
 					["isYearly"] = true,
@@ -1431,7 +1438,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				q(76545, {	-- Brewfest in Valdrakken (N)
 					["qg"] = 199261,	-- Holiday Enthusiast
-					["coord"] = { 54.4, 60.2, VALDRAKKEN },
+					["coords"] = {
+						{ 54.4, 60.2, VALDRAKKEN },
+						{ 54.9, 37.4, VALDRAKKEN },
+					},
 					["timeline"] = { ADDED_10_1_7 },
 					["isYearly"] = true,
 				}),

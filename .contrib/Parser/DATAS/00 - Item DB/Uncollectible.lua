@@ -508,6 +508,7 @@ i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
 i(170001);	-- Seized Engine
 i(169143);	-- Seized Sparksaw
+i(168791);	-- Shiny Rocks
 i(170096);	-- Sodden Highborne Painting
 i(169135);	-- Warped Shock Absorber
 i(169998);	-- Weathered Bulwark
