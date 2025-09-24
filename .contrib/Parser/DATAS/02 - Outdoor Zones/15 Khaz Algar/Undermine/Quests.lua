@@ -1463,10 +1463,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 43.3, 50.5, UNDERMINE },
 			}),
 			-- Gorillon
-			q(87406, {	-- Inoperative Gorillion
-				["provider"] = { "i", 236961 },	-- Inoperative Gorillion
+			q(87406, {	-- Inoperative Gorillion / Inoperative Mega-Mecha Gorilla (post 11.2.0)
+				["provider"] = { "i", 236961 },	-- Inoperative Gorillion / Inoperative Mega-Mecha Gorilla (post 11.2.0)
 				["groups"] = {
-					i(232843),	-- Gorillion (PET!)
+					i(232843),	-- Gorillion / Mega-Mecha Gorilla (post 11.2.0) (PET!)
 				},
 			}),
 			-- Darkfuse Unlock

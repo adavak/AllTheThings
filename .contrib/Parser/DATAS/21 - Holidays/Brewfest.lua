@@ -24,6 +24,16 @@ BREWFEST_HEADER = createHeader({
 		-- #endif
 	},
 });
+-- #if AFTER 11.2.0
+BREWFEST_BANQUET = createHeader({
+	readable = "Brewfest Banquet",
+	constant = "BREWFEST_BANQUET",
+	icon = [[~_.asset("Holiday_brewfest")]],
+	text = {
+		en = "Brewfest Banquet",
+	},
+});
+-- #endif
 -- Developer note: Use the BREWFEST_TOKEN constant in place of the reward.
 local BREWFEST_TOKEN = {
 	-- #if AFTER 2.4.3
@@ -588,6 +598,122 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				["provider"] = { "i", 32912 },	-- Yellow Brewfest Stein
 				["timeline"] = { ADDED_2_0_1, REMOVED_2_4_3 },
 			}),
+		}),
+		n(BREWFEST_BANQUET, {
+			["description"] = "Every hour at the top of the hour, the public scenario takes place.\n\nTo take part, first complete the three required tutorial quests:\n1. Gathering the Grub\n2. Brewmaster's Kitchen\n3. Serving with Style.\n\nOnce that's done, speak with the event organizer to choose a role (gather, cook, or serve), and repeatedly complete those tasks to fill a shared progress bar within six minutes.\n\nOnce the six minutes are up, Keggor the Fermented will crash the party. Defeat the boss to end the event.",
+			["timeline"] = { ADDED_11_2_0 },
+			["groups"] = {
+				filter(QUEST_ITEMS, {	-- Items used during the 'cooking' section of the event
+					i(241130),	-- Bag of Brewfest Ingredients
+					i(242499),	-- Barley Porridge Ingredients
+					i(243340),	-- Barley Soup
+					i(242500),	-- Brew Ingredients
+					i(243339),	-- Brew Keg
+					i(243341),	-- Pretzel
+					i(242498),	-- Pretzel Ingredients
+				}),
+				n(EVENT_COMPLETION, {
+					i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
+						["description"] = "Granted for achieving a minimum of 33% shared progress & then killing Keggor at the end of the Brewfest Banquet event.",
+						["groups"] = BREWFEST_TOKEN,
+					}),
+					i(243292, {	-- Bag of Brewfest Merchandise (Rare) Only Cosmectics
+						["description"] = "Granted for achieving a minimum of 66% shared progress & then killing Keggor at the end of the Brewfest Banquet event.",
+						["groups"] = {
+							i(241232),	-- Brewer's Basic Shoulder Cape
+							i(241341),	-- Brewer's Blue Shoulder Cape
+							i(241343),	-- Brewer's Basic Beret
+							i(241345),	-- Brewer's Blue Beret
+							i(241347),	-- Brewer's Basic Kilt
+							i(241350),	-- Brewer's Blue Kilt
+							i(249857),	-- Brewer's Blue Belt
+							i(249858),	-- Brewer's Basic Belt
+						},
+					}),
+					i(243293, {	-- Bag of Brewfest Merchandise (Epic) BoE's & Cosmetics
+						["description"] = "Granted for achieving 100% shared progress & then killing Keggor at the end of the Brewfest Banquet event.",
+						["groups"] = {
+							i(241232),	-- Brewer's Basic Shoulder Cape
+							i(241341),	-- Brewer's Blue Shoulder Cape
+							i(241343),	-- Brewer's Basic Beret
+							i(241345),	-- Brewer's Blue Beret
+							i(241347),	-- Brewer's Basic Kilt
+							i(241350),	-- Brewer's Blue Kilt
+							i(249857),	-- Brewer's Blue Belt
+							i(249858),	-- Brewer's Basic Belt
+							i(245950),	-- Dark Iron Portable Forge
+							i(245955),	-- Dark Iron's Ceremonial Mace
+							i(245959),	-- Dark Iron's Crystal Ward
+							i(246784),	-- Dark Iron's Ancient Crusher
+							i(246801),	-- Dark Iron's Mighty Crossbow
+						},
+					}),
+				}),
+				n(QUESTS, {
+					q(90870, {	-- Gathering the Grub (A)
+						["qg"] = 242172,	-- Gritta Brewstone
+						["coord"] = { 56.0, 37.4, DUN_MOROGH },
+						["timeline"] = { ADDED_11_2_0 },
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = appendGroups(BREWFEST_TOKEN, {
+							i(243479),	-- Bag of Brewfest Ingredients (QI!)
+						}),
+					}),
+					q(91067, {	-- Gathering the Grub (H)
+						["qg"] = 245967,	-- Gorgrum Kegfist
+						["coord"] = { 40.9, 17.5, DUROTAR },
+						["timeline"] = { ADDED_11_2_0 },
+						["races"] = HORDE_ONLY,
+						["groups"] = appendGroups(BREWFEST_TOKEN, {
+							i(246044),	-- Bag of Brewfest Ingredients (QI!)
+						}),
+					}),
+					q(90879, {	-- Brewmaster's Kitchen (A)
+						["sourceQuest"] = 90870,	-- Gathering the Grub (A)
+						["qg"] = 242172,	-- Gritta Brewstone
+						["coord"] = { 56.0, 37.4, DUN_MOROGH },
+						["timeline"] = { ADDED_11_2_0 },
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = appendGroups(BREWFEST_TOKEN, {
+							i(244141),	-- Barley Soup (QI!)
+							i(244051),	-- Barley Porridge Ingredients (QI!)
+							i(244052),	-- Brew Ingredients (QI!)
+							i(244142),	-- Brew Keg (QI!)
+							i(244064),	-- Pretzel (QI!)
+							i(244050),	-- Pretzel Ingredients (QI!)
+						}),
+					}),
+					q(91066, {	-- Brewmaster's Kitchen (H)
+						["sourceQuest"] = 91067,	-- Gathering the Grub (H)
+						["qg"] = 245967,	-- Gorgrum Kegfist
+						["coord"] = { 40.9, 17.5, DUROTAR },
+						["timeline"] = { ADDED_11_2_0 },
+						["races"] = HORDE_ONLY,
+						["groups"] = appendGroups(BREWFEST_TOKEN, {
+							i(246052),	-- Barley Soup (QI!)
+							i(246049),	-- Barley Porridge Ingredients (QI!)
+							i(246040),	-- Brew Ingredients (QI!)
+							i(246041),	-- Brew Keg (QI!)
+							i(246042),	-- Pretzel (QI!)
+							i(246047),	-- Pretzel Ingredients (QI!)
+						}),
+					}),
+					q(90880, {	-- Serving with Style (A)
+						["sourceQuest"] = 90879,	-- Brewmaster's Kitchen (A)
+						["qg"] = 242172,	-- Gritta Brewstone
+						["coord"] = { 56.0, 37.4, DUN_MOROGH },
+						["timeline"] = { ADDED_11_2_0 },
+						["races"] = ALLIANCE_ONLY,
+					}),
+					q(91068, {	-- Serving with Style (H)
+						["sourceQuest"] = 91066,	-- Brewmaster's Kitchen (H)
+						["qg"] = 245967,	-- Gorgrum Kegfist
+						["coord"] = { 40.9, 17.5, DUROTAR },
+						["timeline"] = { ADDED_11_2_0 },
+						["races"] = HORDE_ONLY,
+					}),
+				}),
+			},
 		}),
 		n(23872, {	-- Coren Direbrew
 			-- #if AFTER 3.0.1
@@ -1313,6 +1439,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						19172,	-- Gnome Commoner
 						19173,	-- Night Elf Commoner
 						20102,	-- Goblin Commoner
+						-- #if AFTER DF
+						199261,	-- Holiday Enthusiast
+						-- #endif
 						-- #if AFTER TWW
 						220307,	-- Holiday Enthusiast
 						220870, -- Holiday Enthusiast
@@ -1326,6 +1455,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						THE_EXODAR,
 						-- #if AFTER MOP
 						ISLE_OF_THUNDER,
+						-- #endif
+						-- #if AFTER DF
+						VALDRAKKEN,
 						-- #endif
 						-- #if AFTER TWW
 						DORNOGAL,
@@ -1357,6 +1489,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						19177,	-- Troll Commoner
 						19178,	-- Forsaken Commoner
 						20102,	-- Goblin Commoner
+						-- #if AFTER DF
+						199261,	-- Holiday Enthusiast
+						-- #endif
 						-- #if AFTER TWW
 						220307,	-- Holiday Enthusiast
 						220870, -- Holiday Enthusiast
@@ -1378,6 +1513,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						THE_STORM_PEAKS,
 						NORTHREND_DALARAN,
 						THE_CAPE_OF_STRANGLETHORN,
+						-- #if AFTER DF
+						VALDRAKKEN,
+						-- #endif
 						-- #if AFTER TWW
 						DORNOGAL,
 						-- #endif
@@ -1485,6 +1623,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["cost"] = { { "i", 33306, 1 } },	-- Ram Racing Reins
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
+					["groups"] = {
+						i(33306),	-- Ram Racing Reins (PQI!)
+						i(33797),	-- Portable Brewfest Keg (QI!)
+					},
 				}),
 				q(29393, {	-- Brew For Brewfest (H)
 					["sourceQuest"] = 11412,	-- There and Back Again (H)
@@ -1500,6 +1642,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["cost"] = { { "i", 33306, 1 } },	-- Ram Racing Reins
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
+					["groups"] = {
+						i(33306),	-- Ram Racing Reins (PQI!)
+						i(33797),	-- Portable Brewfest Keg (QI!)
+					},
 				}),
 				q(12278, {	-- Brew of the Month Club (A)
 					-- #if BEFORE 3.0.0
@@ -1581,36 +1727,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["u"] = REMOVED_FROM_GAME,	-- this version isn't available, but don't know when it was 'removed'
 				}),
 				-- #endif
-				q(90879, {	-- Brewmaster's Kitchen (A)
-					["sourceQuest"] = 90870,	-- Gathering the Grub (A)
-					["qg"] = 242172,	-- Gritta Brewstone
-					["coord"] = { 56.0, 37.4, DUN_MOROGH },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						i(244141),	-- Barley Soup (QI!)
-						i(244051),	-- Barley Porridge Ingredients (QI!)
-						i(244052),	-- Brew Ingredients (QI!)
-						i(244142),	-- Brew Keg (QI!)
-						i(244064),	-- Pretzel (QI!)
-						i(244050),	-- Pretzel Ingredients (QI!)
-					}),
-				}),
-				q(91066, {	-- Brewmaster's Kitchen (H)
-					["sourceQuest"] = 91067,	-- Gathering the Grub (H)
-					["qg"] = 245967,	-- Gorgrum Kegfist
-					["coord"] = { 40.9, 17.5, DUROTAR },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						i(246052),	-- Barley Soup (QI!)
-						i(246049),	-- Barley Porridge Ingredients (QI!)
-						i(246040),	-- Brew Ingredients (QI!)
-						i(246041),	-- Brew Keg (QI!)
-						i(246042),	-- Pretzel (QI!)
-						i(246047),	-- Pretzel Ingredients (QI!)
-					}),
-				}),
 				q(76591, {	-- Bubbling Brews
 					["qg"] = 207496,	-- Bragdur Battlebrew
 					["coord"] = { 29.7, 56.2, VALDRAKKEN },
@@ -1889,24 +2005,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 				}),
-				q(90870, {	-- Gathering the Grub (A)
-					["qg"] = 242172,	-- Gritta Brewstone
-					["coord"] = { 56.0, 37.4, DUN_MOROGH },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						i(243479),	-- Bag of Brewfest Ingredients (QI!)
-					}),
-				}),
-				q(91067, {	-- Gathering the Grub (H)
-					["qg"] = 245967,	-- Gorgrum Kegfist
-					["coord"] = { 40.9, 17.5, DUROTAR },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						i(246044),	-- Bag of Brewfest Ingredients (QI!)
-					}),
-				}),
 				q(56372, {	-- Hozen Totem (A)
 					["altQuests"] = {
 						56322,	-- Contained Alemental (A)
@@ -2120,20 +2218,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_2_0_1, REMOVED_2_4_3 },
 					["maps"] = { BLACKROCK_DEPTHS },
 					["lvl"] = lvlsquish(48, 48, 48),
-				}),
-				q(90880, {	-- Serving with Style (A)
-					["sourceQuest"] = 90879,	-- Brewmaster's Kitchen (A)
-					["qg"] = 242172,	-- Gritta Brewstone
-					["coord"] = { 56.0, 37.4, DUN_MOROGH },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = ALLIANCE_ONLY,
-				}),
-				q(91068, {	-- Serving with Style (H)
-					["sourceQuest"] = 91066,	-- Brewmaster's Kitchen (H)
-					["qg"] = 245967,	-- Gorgrum Kegfist
-					["coord"] = { 40.9, 17.5, DUROTAR },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = HORDE_ONLY,
 				}),
 				q(11486, {	-- The Best of Brews (A)
 					["sourceQuest"] = 11454,	-- Seek the Saboteurs
@@ -2352,53 +2436,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				},
 			})),
 		})),
-		n(REWARDS, {
-			n(EVENT_COMPLETION, {
-				["sourceQuests"] = {
-					90880,	-- Serving with Style (A)
-					91068,	-- Serving with Style (H)
-				},
-				["sourceQuestNumRequired"] = 1,
-				["timeline"] = { ADDED_11_2_0 },
-				["groups"] = {
-					i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
-						["description"] = "Granted for achieving 33% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-						["groups"] = BREWFEST_TOKEN,
-					}),
-					i(243292, {	-- Bag of Brewfest Merchandise (Rare) Only Cosmectics
-						["description"] = "Granted for achieving 66% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-						["groups"] = {
-							i(241232),	-- Brewer's Basic Shoulder Cape
-							i(241341),	-- Brewer's Blue Shoulder Cape
-							i(241343),	-- Brewer's Basic Beret
-							i(241345),	-- Brewer's Blue Beret
-							i(241347),	-- Brewer's Basic Kilt
-							i(241350),	-- Brewer's Blue Kilt
-							i(249857),	-- Brewer's Blue Belt
-							i(249858),	-- Brewer's Basic Belt
-						},
-					}),
-					i(243293, {	-- Bag of Brewfest Merchandise (Epic) BoE's & Cosmetics
-						["description"] = "Granted for achieving 100% & then killing Keggor at the end of the Brewfest Banquet event.\nThe bar is increased by participating in the Event with various Tasks.\n\nThe event always starts on the hour.",
-						["groups"] = {
-							i(241232),	-- Brewer's Basic Shoulder Cape
-							i(241341),	-- Brewer's Blue Shoulder Cape
-							i(241343),	-- Brewer's Basic Beret
-							i(241345),	-- Brewer's Blue Beret
-							i(241347),	-- Brewer's Basic Kilt
-							i(241350),	-- Brewer's Blue Kilt
-							i(249857),	-- Brewer's Blue Belt
-							i(249858),	-- Brewer's Basic Belt
-							i(245950),	-- Dark Iron Portable Forge
-							i(245955),	-- Dark Iron's Ceremonial Mace
-							i(245959),	-- Dark Iron's Crystal Ward
-							i(246784),	-- Dark Iron's Ancient Crusher
-							i(246801),	-- Dark Iron's Mighty Crossbow
-						},
-					}),
-				},
-			}),
-		}),
 		n(VENDORS, {
 			-- #if ANYCLASSIC
 			["OnTooltip"] = BREWFEST_VENDOR_OnTooltip,
@@ -3290,6 +3327,12 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(77775, {	-- Daily kill of Coren Direbrew
 				["name"] = "Daily kill of Coren Direbrew",
 			}),
+		})),
+	})),
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
+		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
+			q(90118),	-- Triggers when you kill Keggor the Fermented during Brewfest Banquet, 1st kill of the day
+			q(91960),	-- Triggers when you kill Keggor the Fermented during Brewfest Banquet, 2nd kill of the day
 		})),
 	})),
 });

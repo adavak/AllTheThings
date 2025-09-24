@@ -81,13 +81,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 49.7, 90.2, UNDERMINE },
 				["questID"] = 85694,
 			}),
-			i(236961, {	-- Inoperative Gorillion (QS!)
+			i(236961, {	-- Inoperative Gorillion / Inoperative Mega-Mecha Gorilla (post 11.2.0) (QS!)
 				["cost"] = {
-					{ "i", 234431, 1 },	-- Gorillion Batteries
-					{ "i", 234433, 1 },	-- Gorillion Chasis
-					{ "i", 234432, 1 },	-- Gorillion Engine
-					{ "i", 234427, 1 },	-- Gorillion Fork
-					{ "i", 234430, 1 },	-- Gorillion Grease
+					{ "i", 234431, 1 },	-- Gorillion Batteries / Mega-Mecha Gorilla Batteries (post 11.2.0)
+					{ "i", 234433, 1 },	-- Gorillion Chasis / Mega-Mecha Chasis (post 11.2.0)
+					{ "i", 234432, 1 },	-- Gorillion Engine / Mega-Mecha Engine (post 11.2.0)
+					{ "i", 234427, 1 },	-- Gorillion Fork / Mega-Mecha Fork (post 11.2.0)
+					{ "i", 234430, 1 },	-- Gorillion Grease / Mega-Mecha Grease (post 11.2.0)
 				},
 			}),
 			o(499119, {	-- Lonely Tub

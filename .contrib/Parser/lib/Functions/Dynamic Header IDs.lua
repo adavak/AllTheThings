@@ -64,6 +64,7 @@ HeaderAssignments = {
 	["Brawler's Guild"] = -656,
 	["Brewery"] = -129,
 	["Brewfest"] = -557,
+	["Brewfest Banquet"] = -665,
 	["Broken Isles Cup"] = -568,
 	["Broken MirrorA1"] = -447,
 	["Broken MirrorA2"] = -448,
@@ -660,4 +661,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -663;
+NextHeaderID = -666;
