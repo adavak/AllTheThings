@@ -1505,6 +1505,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #if BEFORE 3.0.0
 					["description"] = "We're not sure if completing this at the moment will get you progress on the achievement during Wrath as it does NOT retain its completion status after acquired.",
 					-- #endif
+					["altQuests"] = { 12420 },	-- Brew of the Month Club (A) [???]
 					["providers"] = {
 						-- #if AFTER 3.0.0
 						{ "i", 37571 },	-- "Brew of the Month" Club Membership Form (current)
@@ -1512,11 +1513,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						{ "i", 37736 },	-- "Brew of the Month" Club Membership Form (original)
 						-- #endif
 					},
-					["repeatable"] = true,
-					["altQuests"] = { 12420 },	-- Brew of the Month Club (A) [???]
 					["timeline"] = { ADDED_2_2_2 },	-- Originally added 3.0.2, but in TBC Classic?!
 					["maps"] = { DUN_MOROGH },
 					["races"] = ALLIANCE_ONLY,
+					["repeatable"] = true,
 					-- #if ANYCLASSIC
 					-- #if AFTER WRATH
 					["OnUpdate"] = [[function(t)
@@ -1545,6 +1545,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #if BEFORE 3.0.0
 					["description"] = "We're not sure if completing this at the moment will get you progress on the achievement during Wrath as it does NOT retain its completion status after acquired.",
 					-- #endif
+					["altQuests"] = { 12421 },	-- Brew of the Month Club (H) [???]
 					["providers"] = {
 						-- #if AFTER 3.0.0
 						{ "i", 37599 },	-- "Brew of the Month" Club Membership Form (current)
@@ -1552,11 +1553,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						{ "i", 37737 },	-- "Brew of the Month" Club Membership Form (original)
 						-- #endif
 					},
-					["repeatable"] = true,
-					["altQuests"] = { 12421 },	-- Brew of the Month Club (H) [???]
 					["timeline"] = { ADDED_2_2_2 },	-- Originally added 3.0.2, but in TBC Classic?!
 					["maps"] = { DUROTAR },
 					["races"] = HORDE_ONLY,
+					["repeatable"] = true,
 					-- #if ANYCLASSIC
 					-- #if AFTER WRATH
 					["OnUpdate"] = [[function(t)
