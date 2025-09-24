@@ -24,7 +24,6 @@ BREWFEST_HEADER = createHeader({
 		-- #endif
 	},
 });
--- #if AFTER 11.2.0
 BREWFEST_BANQUET = createHeader({
 	readable = "Brewfest Banquet",
 	constant = "BREWFEST_BANQUET",
@@ -33,7 +32,6 @@ BREWFEST_BANQUET = createHeader({
 		en = "Brewfest Banquet",
 	},
 });
--- #endif
 -- Developer note: Use the BREWFEST_TOKEN constant in place of the reward.
 local BREWFEST_TOKEN = {
 	-- #if AFTER 2.4.3
