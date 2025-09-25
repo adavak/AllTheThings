@@ -1347,7 +1347,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						{ 49.0, 39.8, DUN_MOROGH },
 						-- #endif
 					},
-					["timeline"] = { ADDED_2_2_2 },
+					["timeline"] = { ADDED_2_2_2, REMOVED_11_2_0 },
 					["maps"] = { IRONFORGE },
 					["cost"] = { { "i", 33306, 1 } },	-- Ram Racing Reins
 					["races"] = ALLIANCE_ONLY,
@@ -1371,7 +1371,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						{ 44.4, 17.9, DUROTAR },
 						-- #endif
 					},
-					["timeline"] = { ADDED_2_2_2 },
+					["timeline"] = { ADDED_2_2_2, REMOVED_11_2_0 },
 					["maps"] = { ORGRIMMAR },
 					["cost"] = { { "i", 33306, 1 } },	-- Ram Racing Reins
 					["races"] = HORDE_ONLY,
@@ -1395,7 +1395,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						{ 49.5, 38.7, DUN_MOROGH },
 						-- #endif
 					},
-					["timeline"] = { ADDED_2_2_2 },
+					["timeline"] = { ADDED_2_2_2, REMOVED_11_2_0 },
 					["maps"] = { IRONFORGE },
 					["cost"] = { { "i", 33306, 1 } },	-- Ram Racing Reins
 					["races"] = ALLIANCE_ONLY,
@@ -1419,7 +1419,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						{ 44.4, 17.9, DUROTAR },
 						-- #endif
 					},
-					["timeline"] = { ADDED_2_2_2 },
+					["timeline"] = { ADDED_2_2_2, REMOVED_11_2_0 },
 					["maps"] = { ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -1891,7 +1891,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["provider"] = { "o", 327669 },	-- Contained Alemental
 					["coord"] = { 55.5, 37.7, DUN_MOROGH },
-					["timeline"] = { ADDED_8_2_0 },
+					["timeline"] = { ADDED_8_2_0, REMOVED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 				}),
@@ -1903,7 +1903,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["provider"] = { "o", 330168 },	-- Contained Alemental
 					["coord"] = { 41.0, 17.8, DUROTAR },
-					["timeline"] = { ADDED_8_2_0 },
+					["timeline"] = { ADDED_8_2_0, REMOVED_11_2_0 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 				}),
@@ -1987,7 +1987,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["provider"] = { "o", 328343 },	-- Direbrew Cog
 					["coord"] = { 55.5, 37.7, DUN_MOROGH },
-					["timeline"] = { ADDED_8_2_0 },
+					["timeline"] = { ADDED_8_2_0, REMOVED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 				}),
@@ -1999,7 +1999,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["provider"] = { "o", 330169 },	-- Direbrew Cog
 					["coord"] = { 41.0, 17.8, DUROTAR },
-					["timeline"] = { ADDED_8_2_0 },
+					["timeline"] = { ADDED_8_2_0, REMOVED_11_2_0 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 				}),
@@ -2011,7 +2011,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["provider"] = { "o", 328413 },	-- Hozen Totem
 					["coord"] = { 55.5, 37.7, DUN_MOROGH },
-					["timeline"] = { ADDED_8_2_0 },
+					["timeline"] = { ADDED_8_2_0, REMOVED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 				}),
@@ -2023,7 +2023,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["provider"] = { "o", 330170 },	-- Hozen Totem
 					["coord"] = { 41.0, 17.8, DUROTAR },
-					["timeline"] = { ADDED_8_2_0 },
+					["timeline"] = { ADDED_8_2_0, REMOVED_11_2_0 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 				}),
@@ -3330,6 +3330,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			q(90118),	-- Triggers when you kill Keggor the Fermented during Brewfest Banquet, 1st kill of the day
+			q(91959),	-- Triggers along with 90118 on Horde characters when you kill Keggor the Fermented during Brewfest Banquet, 1nd kill of the day
 			q(91960),	-- Triggers when you kill Keggor the Fermented during Brewfest Banquet, 2nd kill of the day
 		})),
 	})),
