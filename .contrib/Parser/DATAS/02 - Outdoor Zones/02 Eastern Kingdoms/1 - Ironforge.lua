@@ -1740,6 +1740,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(5112, {	-- Gwenna Firebrew <Barmaid>
 					["coord"] = { 18.6, 51.9, IRONFORGE },	-- The Stonefire Tavern
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(8766),	-- Morning Glory Dew
+					}
 				}),
 				n(5138, {	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
 					["coord"] = { 55.08, 59.51, IRONFORGE },
@@ -2085,6 +2088,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(1202),	-- Wall Shield
 					},
 				}),
+				n(5109, {	-- Myra Tyrngaarde <Bread Vendor>
+					["coord"] = { 29.8, 67.5, IRONFORGE },
+					["description"] = "Walks around The Commons.",
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(4541),	-- Freshly Baked Bread
+						i(4542),	-- Moist Cornbread
+						i(4544),	-- Mulgore Spice Bread
+						i(4601),	-- Soft Banana Bread
+						i(4540),	-- Tough Hunk of Bread
+					},
+				}),
 				n(5126, {	-- Olthran Craghelm
 					["coord"] = { 55.0, 88.4, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
@@ -2181,6 +2196,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				n(5124, {	-- Sognar Cliffbeard <Meat Vendor>
+					["coord"] = { 62.1, 72.0, IRONFORGE },
+					["description"] = "Walks around The Military Ward.",
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(4599),	-- Cured Ham Steak
+						i(2287),	-- Haunch of Meat
+						i(3770),	-- Mutton Chop
+						i(8952),	-- Roasted Quail
+						i(117),		-- Tough Jerky
+						i(3771),	-- Wild Hog Shank
+					},
+				}),
 				n(5178, {	-- Soolie Berryfizz <Alchemy Supplies>
 					["coord"] = { 66.6, 54.6, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
@@ -2191,6 +2219,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(5642, {	-- Recipe: Free Action Potion (RECIPE!)
 							["isLimited"] = true,
 						}),
+					},
+				}),
+				n(9099, {	-- Sraaz <Pie Vendor>
+					["coord"] = { 46.6, 47.2, IRONFORGE },
+					["description"] = "Walks around The Great Forge.",
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(8950),	-- Homemade Cherry Pie
 					},
 				}),
 				n(5162, {	-- Tansy Puddlefizz <Fishing Supplier>

@@ -1597,6 +1597,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(1179),	-- Ice Cold Milk
+						i(8766),	-- Morning Glory Dew
 					},
 				}),
 				-- #if AFTER 6.1.0

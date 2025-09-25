@@ -1062,6 +1062,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}},
 				}),
 				-- #endif
+				n(3003, {	-- Fyr Mistrunner <Bread Vendor>
+					["coord"] = { 41.4, 53.2, THUNDER_BLUFF },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(4541),	-- Freshly Baked Bread
+						i(8950),	-- Homemade Cherry Pie
+						i(4542),	-- Moist Cornbread
+						i(4544),	-- Mulgore Spice Bread
+						i(4601),	-- Soft Banana Bread
+						i(4540),	-- Tough Hunk of Bread
+					},
+				}),
 				n(3093, {	-- Grod <Leather Armor Merchant>
 					["coord"] = { 42.4, 43.2, THUNDER_BLUFF },
 					["races"] = HORDE_ONLY,
@@ -1187,6 +1199,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						2027,	-- Scimitar
 						20982,	-- Sharp Dagger
 					}},
+				}),
+				n(3025, {	-- Kaga Mistrunner <Meat Vendor>
+					["coord"] = { 52.3, 47.8, THUNDER_BLUFF },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(4599),	-- Cured Ham Steak
+						i(2287),	-- Haunch of Meat
+						i(3770),	-- Mutton Chop
+						i(8952),	-- Roasted Quail
+						i(117),		-- Tough Jerky
+						i(3771),	-- Wild Hog Shank
+					},
 				}),
 				n(3015, {	-- Kuna Thunderhorn <Bowyer & Fletching Goods>
 					["coord"] = { 46.8, 45.8, THUNDER_BLUFF },
