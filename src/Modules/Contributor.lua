@@ -191,13 +191,15 @@ local MapPrecisionOverrides = {
 	[2477] = 4,	-- Voidscar Cavern, K'aresh
 }
 
-local function Check_coords(objRef, id, maxCoordDistance)
+local function Check_coords(objRef, maxCoordDistance)
 	-- check coord distance
 	local mapID, px, py, fake = app.GetPlayerPosition()
 	-- fake player coords (instances, etc.) cannot be checked
 	if fake then return true end
 
 	if not objRef then return end
+
+	local id = objRef.keyval
 	local coords = app.GetRelativeValue(objRef, "coords")
 	if not coords then return end
 
@@ -1470,6 +1472,7 @@ MobileDB.GameObject = {
 	[422154] = true,	-- Brann's Cozy Campfire
 	[423714] = true,	-- Duskstem Stalk
 	[425875] = true,	-- Nerubian Explosive Cache (q:78555)
+	[426994] = true,	-- Whispering Explosives (delve objective)
 	[452948] = true,	-- Hallowfall Farm Supplies
 	[453968] = true,	-- Torch (q:82583)
 	[428699] = true,	-- Sizzling Barrel (q:79205)
@@ -1840,19 +1843,19 @@ local function OnQUEST_DETAIL(...)
 
 	-- check coords
 	if not IgnoredChecksByType[guidtype].coord(providerid) then
-		local checkCoords = Check_coords(objRef, objRef.keyval)
+		local checkCoords = Check_coords(objRef)
 		if not checkCoords then
 			-- is this quest listed directly under an NPC which has coords instead? check that NPC for coords
 			-- e.g. Garrison NPCs Bronzebeard/Saurfang
 			local questParent = objRef.parent
 			if questParent and questParent.__type == "NPC" then
-				checkCoords = Check_coords(questParent, questParent.keyval)
+				checkCoords = Check_coords(questParent)
 				if not checkCoords then
 					questData.MissingCoordsUnderNPC = "No Coordinates for this quest under NPC!"
 					AddReportData(objRef.__type,questID,questData)
 				elseif checkCoords == 1 then
 					-- Check_coords did a report, so add more info for the quest parent
-					AddReportData(questParent,questParent.keyval,questData)
+					AddReportData(questParent,questData)
 				end
 			else
 				questData.MissingCoords = "No Coordinates for this quest!"
@@ -1918,7 +1921,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	if not IgnoredChecksByType[guidtype].coord(id) then
 		-- object auto-detect can happen from rather far, so using 2 distance
 		local objID = objRef.keyval
-		local checkCoords = Check_coords(objRef, objID, 2)
+		local checkCoords = Check_coords(objRef, 2)
 		if not checkCoords then
 			local reportData = {
 				id = id,
