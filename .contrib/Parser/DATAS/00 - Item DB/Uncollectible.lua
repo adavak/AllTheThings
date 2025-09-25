@@ -296,6 +296,7 @@ i(158750);	-- Bonebreaker Beak
 i(158853);	-- Bony Skullplate
 i(158851);	-- Bottled Squall
 i(155843);	-- Brittle Ceremonial Necklace
+i(162558);	-- Broiled Crocolisk
 i(155649);	-- Broken Zandalari Spear
 i(158818);	-- Canine Tongue
 i(163590);	-- Careworn Loa Statuette
@@ -315,6 +316,8 @@ i(158792);	-- Digestive Acid
 i(155618);	-- Discarded Molting
 i(163587);	-- Discarded Zandalari Brooch
 i(158757);	-- Disquiet Earth
+i(163052);	-- Dry Goat Strips
+i(162565);	-- Dustmane Jerky
 i(168787);	-- Empty Birdcage
 i(162684);	-- Etched Dock Cleat
 i(162976);	-- Exile's Abandoned Memoirs
@@ -371,6 +374,7 @@ i(162685);	-- Overflowing Loa Tribute
 i(163848);	-- Overused Voodoo Doll
 i(158831);	-- Parched Honeycomb
 i(158740);	-- Pearly Incisor
+i(163105);	-- Peppered Trout Jerky
 i(155615);	-- Pestilent Muck
 i(162633);	-- Petrified Jungle Orchid
 i(158781);	-- Pilfered Curio
@@ -391,6 +395,7 @@ i(161053);	-- Salty Dog Crackers
 i(162630);	-- Sandy Ornate Relic
 i(163087);	-- Satchel of Blood Oranges
 i(158849);	-- Sawtooth Jawbone
+i(163106);	-- Seasoned Stag Jerky
 i(162025);	-- Sermon of the High Exarch
 i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible

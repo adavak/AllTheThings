@@ -443,6 +443,7 @@ MobileDB.Creature = {
 	[193985] = true,	-- Initiate Zorig
 	[197478] = true,	-- Herald Flaps
 	[197915] = true,	-- Lindormi
+	[199261] = true,	-- Holiday Enthusiast
 	-- #if BEFORE 10.2.7
 	[205127] = true,	-- Newsy
 	-- #endif
@@ -1320,6 +1321,7 @@ MobileDB.GameObject = {
 	[382284] = true,	-- Mature Gift of the Grove [Dragon Isle Resources]
 	[382286] = true,	-- Singing River Bell [Dragon Isle Resources]
 	[382287] = true,	-- Blooming Fangtooth [Dragon Isle Resources]
+	[382288] = true,	-- Ripe Winter Berries [Dragon Isle Resources]
 	[382291] = true,	-- Mature Highland Milkweed [Dragon Isle Resources]
 	[382292] = true,	-- Ripe Cuppressa [Dragon Isle Resources]
 	[382294] = true,	-- Blooming Titian Orchid [Dragon Isle Resources]

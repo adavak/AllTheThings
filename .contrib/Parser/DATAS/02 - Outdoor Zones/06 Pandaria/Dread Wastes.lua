@@ -1702,6 +1702,10 @@ root(ROOTS.Zones, {
 							i(86585),	-- Golden Fleece
 						},
 					}),
+					n(66587, {	-- Pengsong
+						["coord"] = { 51.8, 70.2, DREAD_WASTES },
+						["groups"] = { i(89770) },	-- Tuft of Yak Fur
+					}),
 				}),
 				n(TREASURES, {
 					o(213411, {	-- Amber

@@ -148,10 +148,12 @@ root(ROOTS.Zones, {
 				n(112802, {	-- Mar'tura
 					["questID"] = 44124,
 					["coord"] = { 13.5, 53.4, SURAMAR },
+					["groups"] = { i(140949) },	-- Onyx Or'ligai Egg
 				}),
 				n(111329, {	-- Matron Hagatha
 					["questID"] = 43718,
 					["coord"] = { 36.2, 33.8, SURAMAR },
+					["groups"] = { i(140390) },	-- Red Or'ligai Egg
 				}),
 				n(111653, {	-- Miasu
 					["questID"] = 43793,
@@ -220,6 +222,7 @@ root(ROOTS.Zones, {
 				n(103841, {	-- Shadowquill
 					["questID"] = 43996,
 					["coord"] = { 16.8, 26.6, SURAMAR },
+					["groups"] = { i(140401) },	-- Blue Or'ligai Egg
 				}),
 				n(109054, {	-- Shal'an
 					["questID"] = 42831,
@@ -235,6 +238,7 @@ root(ROOTS.Zones, {
 				n(110824, {	-- Tideclaw
 					["questID"] = 43542,
 					["coord"] = { 18.7, 61.1, SURAMAR },
+					["groups"] = { i(140399) },	-- Yellow Or'ligai Egg
 				}),
 				n(99899, {	-- Vicious Whale Shark
 					["questID"] = 44669,

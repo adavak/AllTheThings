@@ -324,6 +324,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(39987),	-- Tuskarr Fishing Spear
 				},
 			}),
+			n(129376, {	-- Lenne
+				["coord"] = { 47.0, 91.4, DAZARALOR },
+				["groups"] = { i(36981, { ["timeline"] = { ADDED_8_0_1 } }) },	-- Hardened Vrykul Throwing Axe
+			}),
 			n(131287, {	-- Natal'hakata <Zandalari Empire Emissary>
 				["coord"] = { 67.2, 71.7, HALL_OF_CHRONICLERS },
 				["races"] = HORDE_ONLY,

@@ -2588,10 +2588,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 74.8, 34.6, ARATHI_HIGHLANDS },
 						-- #endif
 					},
+					-- #if BEFORE 11.1.7.61491
 					["races"] = HORDE_ONLY,
+					-- #endif
 					["groups"] = {
 						i(13287, {	-- Pattern: Raptor Hide Harness (RECIPE!)
+							-- #if BEFORE 11.1.7.61491
+							-- Made available to Alliance during the 'Rise of the Red Dawn' storyline
 							["races"] = HORDE_ONLY,
+							-- #endif
 							["isLimited"] = true,
 						}),
 					},

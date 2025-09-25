@@ -9,7 +9,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_
 	filter(RECIPES, {
 		i(201257, {["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_0 }}),	-- Bloodstained Pattern: Infurious Hide (RECIPE!)
 		i(201259, {["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_0 }}),	-- Bloodstained Pattern: Infurious Scales (RECIPE!)
-		i(201258, {["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_0 }}),	-- Bloodstained Pattern: Infurious Wildercloth Bolt (RECIPE!)
+		i(201258, {["timeline"] = { ADDED_10_0_2_LAUNCH }}),	-- Bloodstained Pattern: Infurious Wildercloth Bolt (RECIPE!)
 		i(201256),	-- Bloodstained Plans: Infurious Alloy (RECIPE!)
 		-- #if AFTER TWW
 		n(221421, { -- Eraneth <Draconic Combatant Recipes>

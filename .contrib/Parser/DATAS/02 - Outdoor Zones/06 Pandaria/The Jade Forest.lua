@@ -4011,6 +4011,10 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
+					i(89682, {	-- Oddly-Shaped Horn
+						["cr"] = 58895,	-- Sungraze Behemoth
+						["coord"] = { 27.6, 59.6, THE_JADE_FOREST },
+					}),
 					i(87522),	-- Star-Carrier Bracers
 					i(120138, {	-- Tome of Polymorph: Monkey (CI!)
 						["crs"] = {

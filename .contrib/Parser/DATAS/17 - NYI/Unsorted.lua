@@ -1642,13 +1642,11 @@ root(ROOTS.Unsorted, {
 				i(162555),	-- Zocalo Cheddar
 				i(162556),	-- Zeb'ahari Kiwi \\ Zeb'Ahri Kiwi
 				i(162557),	-- Salted Frog Legs
-				i(162558),	-- Broiled Crocolisk
 				i(162559),	-- Hearty Swamp Gumbo
 				i(162561),	-- Glowfly Wedge Salad
 				i(162562),	-- Crunchy Direbat Skewer
 				i(162563),	-- Succulent Dunemelon
 				i(162564),	-- Whistlebloom Pomegranate
-				i(162565),	-- Dustmane Jerky
 				i(162566),	-- Sun-Turned Curds
 				i(162567),	-- Aged Alpaca Ricotta
 				i(162568),	-- Desert Dry Rub P'terrorwings
@@ -1659,7 +1657,6 @@ root(ROOTS.Unsorted, {
 				i(163049),	-- Dark Bean Hash
 				i(163050),	-- Sea-Bone Soup
 				i(163051),	-- Seafarer's Biscuit
-				i(163052),	-- Dry Goat Strips
 				i(163053),	-- Southsea Breadfruit
 				i(163054),	-- Stranglethorn Prickly Pear
 				i(163056),	-- Greatstag Flank Steak
@@ -1676,8 +1673,6 @@ root(ROOTS.Unsorted, {
 				i(163101),	-- Drustvar Dark Roast
 				i(163102),	-- Starhook Special Blend
 				i(163104),	-- Sailor's Choice Coffee
-				i(163105),	-- Peppered Trout Jerky
-				i(163106),	-- Seasoned Stag Jerky
 				i(163107),	-- Deep-Fried Butter Cookies
 				i(163108),	-- Ravasaur Empanadas
 				i(163109),	-- Frosted Umbernut Cake

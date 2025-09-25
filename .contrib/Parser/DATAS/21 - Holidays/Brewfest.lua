@@ -1575,8 +1575,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				q(76545, {	-- Brewfest in Valdrakken (N)
 					["qg"] = 199261,	-- Holiday Enthusiast
 					["coords"] = {
+						{ 31.2, 66.1, VALDRAKKEN },	-- mobileNPC
 						{ 54.4, 60.2, VALDRAKKEN },
 						{ 54.9, 37.4, VALDRAKKEN },
+						{ 55.1, 37.0, VALDRAKKEN },
 					},
 					["timeline"] = { ADDED_10_1_7 },
 					["isYearly"] = true,
@@ -3330,7 +3332,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			q(90118),	-- Triggers when you kill Keggor the Fermented during Brewfest Banquet, 1st kill of the day
-			q(91959),	-- Triggers along with 90118 on Horde characters when you kill Keggor the Fermented during Brewfest Banquet, 1nd kill of the day
+			q(91959),	-- (Sometimes) Triggers along with 90118 when you kill Keggor the Fermented during Brewfest Banquet, 1nd kill of the day
 			q(91960),	-- Triggers when you kill Keggor the Fermented during Brewfest Banquet, 2nd kill of the day
 		})),
 	})),

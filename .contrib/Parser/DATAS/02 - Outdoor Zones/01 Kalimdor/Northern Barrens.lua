@@ -4775,6 +4775,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						3272,	-- Kolkar Wrangler
 					},
 				}),
+				i(98059, { ["timeline"] = { ADDED_5_3_0 } }),	-- Kor'kron Supply Satchel
 				-- Wouter TODO: check if this is added early with MoP Classic's Escalation phase
 				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(97990, {	-- Raptorhide Boxing Gloves (QI!)
 					["timeline"] = { ADDED_5_4_0, REMOVED_7_0_3_LAUNCH },
