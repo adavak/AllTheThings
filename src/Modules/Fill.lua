@@ -564,7 +564,7 @@ local function SkipFillingGroup(group, FillData)
 	if skipFill then return true end
 
 	skipFill = group.skipFill
-	if (skipFill and FillData.InWindow) or skipFill == 2 then return true; end
+	if (skipFill and FillData.InMinilist) or skipFill == 2 then return true; end
 
 	-- do not fill the same object twice in multiple Locations
 	local groupHash, included = group.hash, FillData.Included;
@@ -681,6 +681,7 @@ local FillGroups = function(group, options)
 		NextLayer = {},
 		-- CurrentLayer = 0,	-- debugging
 		InWindow = groupWindow and true or nil,
+		InMinilist = groupWindow and groupWindow.Suffix == "CurrentInstance" and true or nil,
 		-- TODO: Fillers can provide context requirements for themselves to be utilized for a given
 		-- fill operation.
 		-- i.e. provided the Root/Window/Instance/Combat -- the Filler may return that it should not be included
