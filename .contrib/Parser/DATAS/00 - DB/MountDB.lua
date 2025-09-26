@@ -2093,7 +2093,7 @@ i(242730, 1233547);	-- Acidic Void Creeper
 i(232617, 472157);	-- Astral Gladiator's Fel Bat
 i(248248, 1246781);	-- Azure Void Flyer
 i(242733, 1233559);	-- Blue Barry
-i(248761, 1247662);	-- Brewfest Barrel Bomber
+i(248761, 1247662);	-- Brewfest Bomber
 i(247793, 1245359);	-- Cinder-Plumed Highland Gryphon
 i(242734, 1233561);	-- Curious Slateback
 i(238051, 1224048);	-- Delver's Mana-Skimmer

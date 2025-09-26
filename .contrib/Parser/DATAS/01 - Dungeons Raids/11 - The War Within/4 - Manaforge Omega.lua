@@ -497,23 +497,31 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 							["timeline"] = { ADDED_11_2_0 },
 						}),
 					}, {	-- RENOWN 7 --
-						q(91477, {	-- Behind Enemy Lines II
-							["provider"] = { "n", 245344 },	-- Zo'turu
-							["coord"] = { 42.0, 22.1, KARESH },
-							["timeline"] = { ADDED_11_2_0 },
-						}),
-						q(91484, {	-- Hacking the Forgeweaver
-							["provider"] = { "n", 245344 },	-- Zo'turu
-							["coord"] = { 42.0, 22.1, KARESH },
-							["timeline"] = { ADDED_11_2_0 },
-						}),
+						q(91477, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines II
+						q(91484, { ["timeline"] = { ADDED_11_2_0 } }),	-- Hacking the Forgeweaver
 					}, {	-- RENOWN 8 --
-						i(249709),	-- Formula: Gleeful Glamour - Ethereal (RECIPE!)
-						i(249703),	-- Technique: Deal: Cartel Ba (RECIPE!)
-						i(249705),	-- Technique: Deal: Cartel Om (RECIPE!)
-						i(249701),	-- Technique: Deal: Cartel Zo (RECIPE!)
-						i(186640),	-- Vandal's Gearglider (MOUNT!)
-						i(246694),	-- Zo'ya (PET!)
+						q(91489, {	-- A Curious Companion
+							["provider"] = { "n", 245357 },	-- Zo'ya
+							["coord"] = { 42.0, 22.4, KARESH },
+							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = { i(246694) },	-- Zo'ya (PET!)
+						}),
+						q(92078, {	-- A New Recipe!
+							["provider"] = { "n", 245348 },	-- Ba'choso
+							["coord"] = { 42.0, 22.4, KARESH },
+							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = {
+								i(249709),	-- Formula: Gleeful Glamour - Ethereal (RECIPE!)
+								i(249703),	-- Technique: Deal: Cartel Ba (RECIPE!)
+								i(249705),	-- Technique: Deal: Cartel Om (RECIPE!)
+								i(249701),	-- Technique: Deal: Cartel Zo (RECIPE!)
+							},
+						}),
+						q(91526, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Forgeweaver Araz
+						q(91487, {	-- Welcome to the Team
+							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = { i(186640) },	-- Vandal's Gearglider (MOUNT!)
+						}),
 					}, {	-- RENOWN 9 --
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --

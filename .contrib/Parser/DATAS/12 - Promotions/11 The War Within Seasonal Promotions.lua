@@ -301,6 +301,10 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 30, 2025
 				["u"] = REAL_MONEY,
 			}),
+			i(257515, { -- Lil' Coalee (PET!)
+				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between October 1st, 10:00 a.m. & October 29th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.5.99999" },	-- Removed October 29th, 2025
+			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
 		--	PVE	["description"] = "Mythic Dungeon International: TWW Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",

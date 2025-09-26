@@ -1852,7 +1852,19 @@ root(ROOTS.Zones, {
 					o(222687),	-- Ordon Supplies
 					o(221689),	-- Ripe Crispfruit
 					o(223538),	-- Riverspeaker's Trident
-					o(221764),	-- Roasted Seed
+					o(221764, {	-- Roasted Seed
+						["coords"] = {
+							{ 63.1, 41.6, TIMELESS_ISLE },
+							{ 63.3, 36.4, TIMELESS_ISLE },
+							{ 65.6, 58.4, TIMELESS_ISLE },
+							{ 66.8, 38.8, TIMELESS_ISLE },
+							{ 67.3, 44.3, TIMELESS_ISLE },
+							{ 68.5, 52.3, TIMELESS_ISLE },
+							{ 70.2, 55.9, TIMELESS_ISLE },
+							{ 70.7, 41.8, TIMELESS_ISLE },
+							{ 73.6, 47.0, TIMELESS_ISLE },
+						},
+					}),
 					o(220902, {	-- Rope-Bound Treasure Chest
 						["description"] = "Coordinates are for the beginning of the rope pathway. You need to carefully walk along the ropes, dropping down to the lower ropes, until you've crossed Red Stone Run and can drop down to the treasure.",
 						["isWeekly"] = true,

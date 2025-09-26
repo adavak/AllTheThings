@@ -436,16 +436,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(51847),	-- Tort Jaw
 			q(53078, {	-- Treasure in the Tides (H)
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(163099),	-- Proudmoore Supply Crate (QI!)
-				},
+				i(163099),	-- Proudmoore Supply Crate (QI!)
 			}),
 			q(52155, {	-- Treasure in the Tides (A)
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(163099),	-- Proudmoore Supply Crate (QI!)
-				},
+				i(163099),	-- Proudmoore Supply Crate (QI!)
 			}),
 			a(q(53346, {	-- Trogg Tromping
 				["groups"] = {

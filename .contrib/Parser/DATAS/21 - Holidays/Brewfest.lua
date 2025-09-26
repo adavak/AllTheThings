@@ -750,7 +750,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["timeline"] = { ADDED_10_1_7 },
 							["isDaily"] = true,
 							["groups"] = {
-								i(248761, {	-- Brewfest Barrel Bomber (MOUNT!)
+								i(248761, {	-- Brewfest Bomber (MOUNT!)
 									["timeline"] = { ADDED_11_2_0 },
 								}),
 								i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
