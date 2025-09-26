@@ -77,40 +77,6 @@ local BREWFEST_RIDING_RAMS_ONUPDATE = [[function(t)
 		end
 	end
 end]];
-local BREWFEST_REGALIA = {
-	i(33968, {	-- Blue Brewfest Hat
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(50),
-	}),
-	i(33864, {	-- Brown Brewfest Hat
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(50),
-	}),
-	i(33967, {	-- Green Brewfest Hat
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(50),
-	}),
-	i(33969, {	-- Purple Brewfest Hat
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(50),
-	}),
-	i(33863, {	-- Brewfest Dress
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(200),
-	}),
-	i(33862, {	-- Brewfest Regalia
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(200),
-	}),
-	i(33868, {	-- Brewfest Boots
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(100),
-	}),
-	i(33966, {	-- Brewfest Slippers
-		["timeline"] = { ADDED_2_0_1 },
-		["cost"] = BREWFEST_TOKEN_COST(100),
-	}),
-};
 local BREWFEST_VENDOR_OnTooltip = [[function(t, tooltipInfo)
 	local itemID = 37829;
 	local item = _.SearchForField("itemID", itemID)[1];
@@ -2531,144 +2497,198 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["timeline"] = { ADDED_2_2_2 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = appendGroups(BREWFEST_REGALIA, {
-						i(122339, {	-- Ancient Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(300),
-							["timeline"] = { ADDED_6_1_0 },
+					["groups"] = {
+						-- #if BEFORE 11.2.0
+						filter(BATTLE_PETS, {
+							i(46707, {	-- Pint-Sized Pink Pachyderm (PET!)
+								["timeline"] = { ADDED_3_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116756, {	-- Stout Alemental (PET!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(32233, {	-- Wolpertinger's Tankard (PET!)
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["timeline"] = { ADDED_2_2_2 },
+							}),
 						}),
-						i(167732, {	-- Battle-Hardened Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(500),
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-						i(187998, {	-- Eternal Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(500),
-							["timeline"] = { ADDED_9_1_5 },
-						}),
-						i(122341, {	-- Timeworn Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(500),
-							["timeline"] = { ADDED_6_1_0 },
-						}),
-						i(151615, {	-- Weathered Heirloom Scabbard
-							["timeline"] = { ADDED_7_2_5 },
-							["cost"] = BREWFEST_TOKEN_COST(500),
-						}),
-						i(37571, {	-- "Brew of the Month" Club Membership Form (current)
-							["timeline"] = { CREATED_2_2_2, ADDED_3_0_2 },	-- NOTE: Not used in 2007
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							["races"] = ALLIANCE_ONLY,
-						}),
-						i(37736, {	-- "Brew of the Month" Club Membership Form (original)
-							["timeline"] = { ADDED_2_2_2, REMOVED_3_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							["races"] = ALLIANCE_ONLY,
-						}),
-						i(34028, {	-- "Honorary Brewer" Hand Stamp (Alliance)
-							["timeline"] = {
-								-- #if AFTER WRATH
-								ADDED_2_0_1, REMOVED_2_4_3,
-								-- #else
-								ADDED_2_0_1, REMOVED_3_0_2,	-- Originally removed 2.4.3, actually available in classic!
+						filter(COSMETIC, {
+							-- Brewfest Regalia
+							i(33968, {	-- Blue Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33868, {	-- Brewfest Boots
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33863, {	-- Brewfest Dress
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33862, {	-- Brewfest Regalia
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33966, {	-- Brewfest Slippers
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33864, {	-- Brown Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33967, {	-- Green Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33969, {	-- Purple Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							--
+							i(33047, {	-- Belbi's Eyesight Enhancing Romance Goggles
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- Needs marked because for some reason ATT thinks it is a collectible TODO: Look into this
 								-- #endif
-							},
-							["cost"] = BREWFEST_TOKEN_COST(600),
-							["races"] = ALLIANCE_ONLY,
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+								["races"] = ALLIANCE_ONLY,
+							}),
+							i(169448, {	-- Bottomless Brewfest Stein
+								["timeline"] = { ADDED_8_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(10),
+							}),
+							i(169461, {	-- Garland of Grain
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(227795, {	-- Homebrewer's Sampling Mantle
+								["timeline"] = { ADDED_11_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(209044, {	-- Orange Brewfest Bulwark
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(138730, {	-- Synthebrew Goggles XL
+								["timeline"] = { ADDED_7_0_3 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- TODO: Look into this
+								-- #endif
+							}),
+							i(168915, {	-- Tabard of Brew
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
-						i(119209, {	-- Angry Brewfest Letter
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(50),
+						filter(MISC, {
+							i(90426, {	-- Brewhelm
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
+							i(37750, {	-- Fresh Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
+							i(39476, {	-- Fresh Goblin Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(5),
+							}),
+							i(37816, {	-- Preserved Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(20),
+							}),
 						}),
-						i(33047, {	-- Belbi's Eyesight Enhancing Romance Goggles
-							-- #if BEFORE 10.0.5
-							["collectible"] = false,	-- Needs marked because for some reason ATT thinks it is a collectible TODO: Look into this
-							-- #endif
-							["timeline"] = { ADDED_2_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-							["races"] = ALLIANCE_ONLY,
+						-- #endif
+						filter(QUEST_ITEMS, {
+							i(37571, {	-- "Brew of the Month" Club Membership Form (current)
+								["timeline"] = { CREATED_2_2_2, ADDED_3_0_2 },	-- NOTE: Not used in 2007
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["races"] = ALLIANCE_ONLY,
+							}),
+							i(37736, {	-- "Brew of the Month" Club Membership Form (original)
+								["timeline"] = { ADDED_2_2_2, REMOVED_3_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["races"] = ALLIANCE_ONLY,
+							}),
+							i(34028, {	-- "Honorary Brewer" Hand Stamp (Alliance)
+								["timeline"] = {
+									-- #if AFTER WRATH
+									ADDED_2_0_1, REMOVED_2_4_3,
+									-- #else
+									ADDED_2_0_1, REMOVED_3_0_2,	-- Originally removed 2.4.3, actually available in classic!
+									-- #endif
+								},
+								["cost"] = BREWFEST_TOKEN_COST(600),
+								["races"] = ALLIANCE_ONLY,
+							}),
+							i(119209, {	-- Angry Brewfest Letter
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
 						}),
-						i(169448, {	-- Bottomless Brewfest Stein
-							["timeline"] = { ADDED_8_0_1 },
-							["cost"] = BREWFEST_TOKEN_COST(10),
+						-- #if BEFORE 11.2.0
+						filter(TOYS, {
+							i(209052, {	-- Brew Barrel (TOY!)
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(116758, {	-- Brewfest Banner (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(71137, {	-- Brewfest Keg Pony (TOY!)
+								["timeline"] = { ADDED_4_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33927, {	-- Brewfest Pony Keg (TOY!)
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(166747, {	-- Brewfest Reveler's Hearthstone (TOY!)
+								["timeline"] = { ADDED_8_1_5 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(90427, {	-- Pandaren Brewpack (TOY!)
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116757, {	-- Steamworks Sausage Grill (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
-						i(209052, {	-- Brew Barrel (TOY!)
-							["timeline"] = { ADDED_10_1_7 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
+						-- #endif
+						n(HEIRLOOMS, {
+							i(122339, {	-- Ancient Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(300),
+								["timeline"] = { ADDED_6_1_0 },
+							}),
+							i(204337, {	-- Awakened Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_10_1_0 },
+							}),
+							i(167732, {	-- Battle-Hardened Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+							i(187998, {	-- Eternal Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_9_1_5 },
+							}),
+							i(122341, {	-- Timeworn Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_6_1_0 },
+							}),
+							i(151615, {	-- Weathered Heirloom Scabbard
+								["timeline"] = { ADDED_7_2_5 },
+								["cost"] = BREWFEST_TOKEN_COST(500),
+							}),
 						}),
-						i(116758, {	-- Brewfest Banner (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(71137, {	-- Brewfest Keg Pony (TOY!)
-							["timeline"] = { ADDED_4_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(33927, {	-- Brewfest Pony Keg (TOY!)
-							["timeline"] = { ADDED_2_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(166747, {	-- Brewfest Reveler's Hearthstone (TOY!)
-							["timeline"] = { ADDED_8_1_5 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(90426, {	-- Brewhelm
-							["timeline"] = { ADDED_5_0_4 },
-							["cost"] = BREWFEST_TOKEN_COST(2),
-						}),
-						i(37750, {	-- Fresh Brewfest Hops
-							["timeline"] = { ADDED_2_4_3 },
-							["cost"] = BREWFEST_TOKEN_COST(2),
-						}),
-						i(39476, {	-- Fresh Goblin Brewfest Hops
-							["timeline"] = { ADDED_2_4_3 },
-							["cost"] = BREWFEST_TOKEN_COST(5),
-						}),
-						i(169461, {	-- Garland of Grain
-							["timeline"] = { ADDED_8_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(227795, {	-- Homebrewer's Sampling Mantle
-							["timeline"] = { ADDED_11_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(209044, {	-- Orange Brewfest Bulwark
-							["timeline"] = { ADDED_10_1_7 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(90427, {	-- Pandaren Brewpack (TOY!)
-							["timeline"] = { ADDED_5_0_4 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(46707, {	-- Pint-Sized Pink Pachyderm (PET!)
-							["timeline"] = { ADDED_3_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(37816, {	-- Preserved Brewfest Hops
-							["timeline"] = { ADDED_2_4_3 },
-							["cost"] = BREWFEST_TOKEN_COST(20),
-						}),
-						i(116757, {	-- Steamworks Sausage Grill (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(116756, {	-- Stout Alemental (PET!)
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(138730, {	-- Synthebrew Goggles XL
-							["timeline"] = { ADDED_7_0_3 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							-- #if BEFORE 10.0.5
-							["collectible"] = false,	-- TODO: Look into this
-							-- #endif
-						}),
-						i(168915, {	-- Tabard of Brew
-							["timeline"] = { ADDED_8_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(32233, {	-- Wolpertinger (PET!)
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							["timeline"] = { ADDED_2_2_2 },
-						}),
-					}),
+					},
 				}),
 				n(207496, {	-- Bragdur Battlebrew
 					["coord"] = { 29.8, 56.6, VALDRAKKEN },
@@ -2680,14 +2700,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(169397),	-- Admiralty Ale
-					},
-				}),
-				n(240493, {	-- Brina Bearclaw <Creature Collector>
-					["coord"] = { 56.2, 36.5, DUN_MOROGH },
-					["timeline"] = { ADDED_11_2_0 },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						-- MOVE/TIMELINE/PREPROCESSOR CORRESPONDING PETS AND STUFF FROM BELBI HERE!
 					},
 				}),
 				n(23605, {	-- Bron <Sausage Vendor>
@@ -2738,144 +2750,233 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					},
 					["timeline"] = { ADDED_2_2_2 },
 					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(BREWFEST_REGALIA, {
-						i(122339, {	-- Ancient Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(300),
-							["timeline"] = { ADDED_6_1_0 },
+					["groups"] = {
+						-- #if BEFORE 11.2.0
+						filter(BATTLE_PETS, {
+							i(46707, {	-- Pint-Sized Pink Pachyderm (PET!)
+								["timeline"] = { ADDED_3_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116756, {	-- Stout Alemental (PET!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(32233, {	-- Wolpertinger's Tankard (PET!)
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["timeline"] = { ADDED_2_2_2 },
+							}),
 						}),
-						i(167732, {	-- Battle-Hardened Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(500),
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-						i(187998, {	-- Eternal Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(500),
-							["timeline"] = { ADDED_9_1_5 },
-						}),
-						i(122341, {	-- Timeworn Heirloom Scabbard
-							["cost"] = BREWFEST_TOKEN_COST(500),
-							["timeline"] = { ADDED_6_1_0 },
-						}),
-						i(151615, {	-- Weathered Heirloom Scabbard
-							["timeline"] = { ADDED_7_2_5 },
-							["cost"] = BREWFEST_TOKEN_COST(500),
-						}),
-						i(37599, {	-- "Brew of the Month" Club Membership Form (current)
-							["timeline"] = { CREATED_2_2_2, ADDED_3_0_2 },	-- NOTE: Not used in 2007
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							["races"] = HORDE_ONLY,
-						}),
-						i(37737, {	-- "Brew of the Month" Club Membership Form (original)
-							["timeline"] = { ADDED_2_2_2, REMOVED_3_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							["races"] = HORDE_ONLY,
-						}),
-						i(33978, {	-- "Honorary Brewer" Hand Stamp (Horde)
-							["timeline"] = {
-								-- #if AFTER WRATH
-								ADDED_2_0_1, REMOVED_2_4_3,
-								-- #else
-								ADDED_2_0_1, REMOVED_3_0_2,	-- Originally removed 2.4.3, actually available in classic!
+						filter(COSMETIC, {
+							-- Brewfest Regalia
+							i(33968, {	-- Blue Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33868, {	-- Brewfest Boots
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33863, {	-- Brewfest Dress
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33862, {	-- Brewfest Regalia
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33966, {	-- Brewfest Slippers
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33864, {	-- Brown Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33967, {	-- Green Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33969, {	-- Purple Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							--
+							i(34008, {	-- Blix's Eyesight Enhancing Romance Goggles
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- Needs marked because for some reason ATT thinks it is a collectible
 								-- #endif
-							},
-							["cost"] = BREWFEST_TOKEN_COST(600),
-							["races"] = HORDE_ONLY,
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+								["races"] = HORDE_ONLY,
+							}),
+							i(169448, {	-- Bottomless Brewfest Stein
+								["timeline"] = { ADDED_8_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(10),
+							}),
+							i(169461, {	-- Garland of Grain
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(227795, {	-- Homebrewer's Sampling Mantle
+								["timeline"] = { ADDED_11_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(209044, {	-- Orange Brewfest Bulwark
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(138730, {	-- Synthebrew Goggles XL
+								["timeline"] = { ADDED_7_0_3 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- TODO: Look into this
+								-- #endif
+							}),
+							i(168915, {	-- Tabard of Brew
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
-						i(119209, {	-- Angry Brewfest Letter
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(50),
+						filter(MISC, {
+							i(90426, {	-- Brewhelm
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
+							i(37750, {	-- Fresh Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
+							i(39477, {	-- Fresh Dwarven Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(5),
+							}),
+							i(37816, {	-- Preserved Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(20),
+							}),
 						}),
-						i(34008, {	-- Blix's Eyesight Enhancing Romance Goggles
-							-- #if BEFORE 10.0.5
-							["collectible"] = false,	-- Needs marked because for some reason ATT thinks it is a collectible
-							-- #endif
-							["timeline"] = { ADDED_2_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-							["races"] = HORDE_ONLY,
+						-- #endif
+						filter(QUEST_ITEMS, {
+							i(37599, {	-- "Brew of the Month" Club Membership Form (current)
+								["timeline"] = { CREATED_2_2_2, ADDED_3_0_2 },	-- NOTE: Not used in 2007
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["races"] = HORDE_ONLY,
+							}),
+							i(37737, {	-- "Brew of the Month" Club Membership Form (original)
+								["timeline"] = { ADDED_2_2_2, REMOVED_3_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["races"] = HORDE_ONLY,
+							}),
+							i(33978, {	-- "Honorary Brewer" Hand Stamp (Horde)
+								["timeline"] = {
+									-- #if AFTER WRATH
+									ADDED_2_0_1, REMOVED_2_4_3,
+									-- #else
+									ADDED_2_0_1, REMOVED_3_0_2,	-- Originally removed 2.4.3, actually available in classic!
+									-- #endif
+								},
+								["cost"] = BREWFEST_TOKEN_COST(600),
+								["races"] = HORDE_ONLY,
+							}),
+							i(119209, {	-- Angry Brewfest Letter
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
 						}),
-						i(169448, {	-- Bottomless Brewfest Stein
-							["timeline"] = { ADDED_8_0_1 },
-							["cost"] = BREWFEST_TOKEN_COST(10),
+						-- #if BEFORE 11.2.0
+						filter(TOYS, {
+							i(209052, {	-- Brew Barrel (TOY!)
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(116758, {	-- Brewfest Banner (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(71137, {	-- Brewfest Keg Pony (TOY!)
+								["timeline"] = { ADDED_4_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33927, {	-- Brewfest Pony Keg (TOY!)
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(166747, {	-- Brewfest Reveler's Hearthstone (TOY!)
+								["timeline"] = { ADDED_8_1_5 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(90427, {	-- Pandaren Brewpack (TOY!)
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116757, {	-- Steamworks Sausage Grill (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
-						i(209052, {	-- Brew Barrel (TOY!)
-							["timeline"] = { ADDED_10_1_7 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
+						-- #endif
+						n(HEIRLOOMS, {
+							i(122339, {	-- Ancient Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(300),
+								["timeline"] = { ADDED_6_1_0 },
+							}),
+							i(204337, {	-- Awakened Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_10_1_0 },
+							}),
+							i(167732, {	-- Battle-Hardened Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+							i(187998, {	-- Eternal Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_9_1_5 },
+							}),
+							i(122341, {	-- Timeworn Heirloom Scabbard
+								["cost"] = BREWFEST_TOKEN_COST(500),
+								["timeline"] = { ADDED_6_1_0 },
+							}),
+							i(151615, {	-- Weathered Heirloom Scabbard
+								["timeline"] = { ADDED_7_2_5 },
+								["cost"] = BREWFEST_TOKEN_COST(500),
+							}),
 						}),
-						i(116758, {	-- Brewfest Banner (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
+					},
+				}),
+				n(240493, {	-- Brina Bearclaw <Creature Collector>
+					["coord"] = { 56.2, 36.5, DUN_MOROGH },
+					["timeline"] = { ADDED_11_2_0 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						filter(BATTLE_PETS, {
+							i(46707, {	-- Pint-Sized Pink Pachyderm (PET!)
+								["timeline"] = { ADDED_3_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116756, {	-- Stout Alemental (PET!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(32233, {	-- Wolpertinger's Tankard (PET!)
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["timeline"] = { ADDED_2_2_2 },
+							}),
 						}),
-						i(71137, {	-- Brewfest Keg Pony (TOY!)
-							["timeline"] = { ADDED_4_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
+						filter(MISC, {
+							i(37750, {	-- Fresh Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
+							i(39476, {	-- Fresh Goblin Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(5),
+							}),
+							i(37816, {	-- Preserved Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(20),
+							}),
 						}),
-						i(33927, {	-- Brewfest Pony Keg (TOY!)
-							["timeline"] = { ADDED_2_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(166747, {	-- Brewfest Reveler's Hearthstone (TOY!)
-							["timeline"] = { ADDED_8_1_5 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(90426, {	-- Brewhelm
-							["timeline"] = { ADDED_5_0_4 },
-							["cost"] = BREWFEST_TOKEN_COST(2),
-						}),
-						i(37750, {	-- Fresh Brewfest Hops
-							["timeline"] = { ADDED_2_4_3 },
-							["cost"] = BREWFEST_TOKEN_COST(2),
-						}),
-						i(39477, {	-- Fresh Dwarven Brewfest Hops
-							["timeline"] = { ADDED_2_4_3 },
-							["cost"] = BREWFEST_TOKEN_COST(5),
-						}),
-						i(169461, {	-- Garland of Grain
-							["timeline"] = { ADDED_8_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(227795, {	-- Homebrewer's Sampling Mantle
-							["timeline"] = { ADDED_11_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(209044, {	-- Orange Brewfest Bulwark
-							["timeline"] = { ADDED_10_1_7 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(90427, {	-- Pandaren Brewpack (TOY!)
-							["timeline"] = { ADDED_5_0_4 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(46707, {	-- Pint-Sized Pink Pachyderm (PET!)
-							["timeline"] = { ADDED_3_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(37816, {	-- Preserved Brewfest Hops
-							["timeline"] = { ADDED_2_4_3 },
-							["cost"] = BREWFEST_TOKEN_COST(20),
-						}),
-						i(116757, {	-- Steamworks Sausage Grill (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(116756, {	-- Stout Alemental (PET!)
-							["timeline"] = { ADDED_6_0_2 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(138730, {	-- Synthebrew Goggles XL
-							["timeline"] = { ADDED_7_0_3 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							-- #if BEFORE 10.0.5
-							["collectible"] = false,	-- TODO: Look into this
-							-- #endif
-						}),
-						i(168915, {	-- Tabard of Brew
-							["timeline"] = { ADDED_8_2_0 },
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(32233, {	-- Wolpertinger (PET!)
-							["cost"] = BREWFEST_TOKEN_COST(200),
-							["timeline"] = { ADDED_2_2_2 },
-						}),
-					}),
+					},
 				}),
 				n(153574, {	-- Britta Steinheart <Chowdown Organizer>
 					["coord"] = { 54.8, 38.6, DUN_MOROGH },
@@ -2886,14 +2987,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["cost"] = { { "i", 169599, 5 } },	-- 5x Chowdown Champion Token
 							["timeline"] = { ADDED_8_2_0 },
 						}),
-					},
-				}),
-				n(152871, {	-- Brewer Gerrat <Brew Vendor>
-					["coord"] = { 56.5, 37.5, DUN_MOROGH },
-					["timeline"] = { ADDED_8_2_0 },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(169397),	-- Admiralty Ale
 					},
 				}),
 				n(24510, {	-- Driz Tumblequick <Ram Racing Apprentice>
@@ -2985,7 +3078,34 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						-- MOVE/TIMELINE/PREPROCESSOR CORRESPONDING PETS AND STUFF FROM BLIX HERE!
+						filter(BATTLE_PETS, {
+							i(46707, {	-- Pint-Sized Pink Pachyderm (PET!)
+								["timeline"] = { ADDED_3_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116756, {	-- Stout Alemental (PET!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(32233, {	-- Wolpertinger's Tankard (PET!)
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								["timeline"] = { ADDED_2_2_2 },
+							}),
+						}),
+						filter(MISC, {
+							i(37750, {	-- Fresh Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
+							i(39477, {	-- Fresh Dwarven Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(5),
+							}),
+							i(37816, {	-- Preserved Brewfest Hops
+								["timeline"] = { ADDED_2_4_3 },
+								["cost"] = BREWFEST_TOKEN_COST(20),
+							}),
+						}),
 					},
 				}),
 				n(152948, {	-- Ha'ka Openview <Brew Vendor>
@@ -3001,9 +3121,39 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["coord"] = { 56.3, 36.7, DUN_MOROGH },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {	-- MOVE/TIMELINE/PREPROCESSOR CORRESPONDING TOYS AND STUFF FROM BELBI HERE!
-						i(245946, {	-- Brewer's Balloon (TOY!)
-							["cost"] = BREWFEST_TOKEN_COST(200),
+					["groups"] = {
+						filter(TOYS, {
+							i(209052, {	-- Brew Barrel (TOY!)
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(245946, {	-- Brewer's Balloon (TOY!)
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(116758, {	-- Brewfest Banner (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(71137, {	-- Brewfest Keg Pony (TOY!)
+								["timeline"] = { ADDED_4_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33927, {	-- Brewfest Pony Keg (TOY!)
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(166747, {	-- Brewfest Reveler's Hearthstone (TOY!)
+								["timeline"] = { ADDED_8_1_5 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(90427, {	-- Pandaren Brewpack (TOY!)
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116757, {	-- Steamworks Sausage Grill (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
 					},
 				}),
@@ -3083,9 +3233,39 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["coord"] = { 40.3, 17.0, DUROTAR },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = HORDE_ONLY,
-					["groups"] = {	-- MOVE/TIMELINE/PREPROCESSOR CORRESPONDING TOYS AND STUFF FROM BLIX HERE!
-						i(245946, {	-- Brewer's Balloon (TOY!)
-							["cost"] = BREWFEST_TOKEN_COST(200),
+					["groups"] = {
+						filter(TOYS, {
+							i(209052, {	-- Brew Barrel (TOY!)
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(245946, {	-- Brewer's Balloon (TOY!)
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(116758, {	-- Brewfest Banner (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(71137, {	-- Brewfest Keg Pony (TOY!)
+								["timeline"] = { ADDED_4_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33927, {	-- Brewfest Pony Keg (TOY!)
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(166747, {	-- Brewfest Reveler's Hearthstone (TOY!)
+								["timeline"] = { ADDED_8_1_5 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(90427, {	-- Pandaren Brewpack (TOY!)
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(116757, {	-- Steamworks Sausage Grill (TOY!)
+								["timeline"] = { ADDED_6_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
 					},
 				}),
@@ -3093,60 +3273,137 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["coord"] = { 40.2, 17.1, DUROTAR },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = HORDE_ONLY,
-					["groups"] = {	-- MOVE/TIMELINE/PREPROCESSOR CORRESPONDING COSMETICS AND STUFF FROM BLIX HERE!
-						i(249860, {	-- Brewer's Black Belt
-							["cost"] = BREWFEST_TOKEN_COST(150),
+					["groups"] = {
+						filter(COSMETIC, {
+							-- Brewfest Regalia
+							i(33968, {	-- Blue Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33868, {	-- Brewfest Boots
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33863, {	-- Brewfest Dress
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33862, {	-- Brewfest Regalia
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33966, {	-- Brewfest Slippers
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33864, {	-- Brown Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33967, {	-- Green Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33969, {	-- Purple Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							--
+							i(245947, {	-- Barrel Helm
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33047, {	-- Belbi's Eyesight Enhancing Romance Goggles
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- Needs marked because for some reason ATT thinks it is a collectible TODO: Look into this
+								-- #endif
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+								["races"] = ALLIANCE_ONLY,
+							}),
+							i(169448, {	-- Bottomless Brewfest Stein
+								["timeline"] = { ADDED_8_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(10),
+							}),
+							i(249860, {	-- Brewer's Black Belt
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(241344, {	-- Brewer's Black Beret
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241348, {	-- Brewer's Black Kilt
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241266, {	-- Brewer's Black Shoulder Cape
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(249859, {	-- Brewer's Green Belt
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(241346, {	-- Brewer's Green Beret
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241351, {	-- Brewer's Green Kilt
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241342, {	-- Brewer's Green Shoulder Cape
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(248322, {	-- Dark Iron's Ceremonial Belt
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(248323, {	-- Dark Iron's Ceremonial Boots
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(248321, {	-- Dark Iron's Ceremonial Chestplate
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(248326, {	-- Dark Iron's Ceremonial Cloak
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(248319, {	-- Dark Iron's Ceremonial Crown
+								["cost"] = BREWFEST_TOKEN_COST(250),
+							}),
+							i(248325, {	-- Dark Iron's Ceremonial Gauntlets
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(248324, {	-- Dark Iron's Ceremonial Legguards
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(248394, {	-- Dark Iron's Crystal Mantle
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(248320, {	-- Dark Iron's Draping Mantle
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(169461, {	-- Garland of Grain
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(227795, {	-- Homebrewer's Sampling Mantle
+								["timeline"] = { ADDED_11_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(209044, {	-- Orange Brewfest Bulwark
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(138730, {	-- Synthebrew Goggles XL
+								["timeline"] = { ADDED_7_0_3 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- TODO: Look into this
+								-- #endif
+							}),
+							i(168915, {	-- Tabard of Brew
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
-						i(241344, {	-- Brewer's Black Beret
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241348, {	-- Brewer's Black Kilt
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241266, {	-- Brewer's Black Shoulder Cape
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(249859, {	-- Brewer's Green Belt
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(241346, {	-- Brewer's Green Beret
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241351, {	-- Brewer's Green Kilt
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241342, {	-- Brewer's Green Shoulder Cape
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(245947, {	-- Barrel Helm
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(248322, {	-- Dark Iron's Ceremonial Belt
-							["cost"] = BREWFEST_TOKEN_COST(50),
-						}),
-						i(248323, {	-- Dark Iron's Ceremonial Boots
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(248321, {	-- Dark Iron's Ceremonial Chestplate
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(248326, {	-- Dark Iron's Ceremonial Cloak
-							["cost"] = BREWFEST_TOKEN_COST(50),
-						}),
-						i(248319, {	-- Dark Iron's Ceremonial Crown
-							["cost"] = BREWFEST_TOKEN_COST(250),
-						}),
-						i(248325, {	-- Dark Iron's Ceremonial Gauntlets
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(248324, {	-- Dark Iron's Ceremonial Legguards
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(248394, {	-- Dark Iron's Crystal Mantle
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(248320, {	-- Dark Iron's Draping Mantle
-							["cost"] = BREWFEST_TOKEN_COST(200),
+						filter(MISC, {
+							i(90426, {	-- Brewhelm
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
 						}),
 					},
 				}),
@@ -3176,60 +3433,137 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["coord"] = { 56.3, 36.4, DUN_MOROGH },
 					["timeline"] = { ADDED_11_2_0 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {	-- MOVE/TIMELINE/PREPROCESSOR CORRESPONDING COSMETICS AND STUFF FROM BELBI HERE!
-						i(249860, {	-- Brewer's Black Belt
-							["cost"] = BREWFEST_TOKEN_COST(150),
+					["groups"] = {
+						filter(COSMETIC, {
+							-- Brewfest Regalia
+							i(33968, {	-- Blue Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33868, {	-- Brewfest Boots
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33863, {	-- Brewfest Dress
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33862, {	-- Brewfest Regalia
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33966, {	-- Brewfest Slippers
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(33864, {	-- Brown Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33967, {	-- Green Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(33969, {	-- Purple Brewfest Hat
+								["timeline"] = { ADDED_2_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							--
+							i(245947, {	-- Barrel Helm
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(33047, {	-- Belbi's Eyesight Enhancing Romance Goggles
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- Needs marked because for some reason ATT thinks it is a collectible TODO: Look into this
+								-- #endif
+								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(100),
+								["races"] = ALLIANCE_ONLY,
+							}),
+							i(169448, {	-- Bottomless Brewfest Stein
+								["timeline"] = { ADDED_8_0_1 },
+								["cost"] = BREWFEST_TOKEN_COST(10),
+							}),
+							i(249860, {	-- Brewer's Black Belt
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(241344, {	-- Brewer's Black Beret
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241348, {	-- Brewer's Black Kilt
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241266, {	-- Brewer's Black Shoulder Cape
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(249859, {	-- Brewer's Green Belt
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(241346, {	-- Brewer's Green Beret
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241351, {	-- Brewer's Green Kilt
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(241342, {	-- Brewer's Green Shoulder Cape
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(248322, {	-- Dark Iron's Ceremonial Belt
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(248323, {	-- Dark Iron's Ceremonial Boots
+								["cost"] = BREWFEST_TOKEN_COST(100),
+							}),
+							i(248321, {	-- Dark Iron's Ceremonial Chestplate
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(248326, {	-- Dark Iron's Ceremonial Cloak
+								["cost"] = BREWFEST_TOKEN_COST(50),
+							}),
+							i(248319, {	-- Dark Iron's Ceremonial Crown
+								["cost"] = BREWFEST_TOKEN_COST(250),
+							}),
+							i(248325, {	-- Dark Iron's Ceremonial Gauntlets
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(248324, {	-- Dark Iron's Ceremonial Legguards
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(248394, {	-- Dark Iron's Crystal Mantle
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(248320, {	-- Dark Iron's Draping Mantle
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(169461, {	-- Garland of Grain
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(150),
+							}),
+							i(227795, {	-- Homebrewer's Sampling Mantle
+								["timeline"] = { ADDED_11_0_2 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(209044, {	-- Orange Brewfest Bulwark
+								["timeline"] = { ADDED_10_1_7 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
+							i(138730, {	-- Synthebrew Goggles XL
+								["timeline"] = { ADDED_7_0_3 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+								-- #if BEFORE 10.0.5
+								["collectible"] = false,	-- TODO: Look into this
+								-- #endif
+							}),
+							i(168915, {	-- Tabard of Brew
+								["timeline"] = { ADDED_8_2_0 },
+								["cost"] = BREWFEST_TOKEN_COST(200),
+							}),
 						}),
-						i(241344, {	-- Brewer's Black Beret
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241348, {	-- Brewer's Black Kilt
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241266, {	-- Brewer's Black Shoulder Cape
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(249859, {	-- Brewer's Green Belt
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(241346, {	-- Brewer's Green Beret
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241351, {	-- Brewer's Green Kilt
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(241342, {	-- Brewer's Green Shoulder Cape
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(245947, {	-- Barrel Helm
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(248322, {	-- Dark Iron's Ceremonial Belt
-							["cost"] = BREWFEST_TOKEN_COST(50),
-						}),
-						i(248323, {	-- Dark Iron's Ceremonial Boots
-							["cost"] = BREWFEST_TOKEN_COST(100),
-						}),
-						i(248321, {	-- Dark Iron's Ceremonial Chestplate
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(248326, {	-- Dark Iron's Ceremonial Cloak
-							["cost"] = BREWFEST_TOKEN_COST(50),
-						}),
-						i(248319, {	-- Dark Iron's Ceremonial Crown
-							["cost"] = BREWFEST_TOKEN_COST(250),
-						}),
-						i(248325, {	-- Dark Iron's Ceremonial Gauntlets
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(248324, {	-- Dark Iron's Ceremonial Legguards
-							["cost"] = BREWFEST_TOKEN_COST(150),
-						}),
-						i(248394, {	-- Dark Iron's Crystal Mantle
-							["cost"] = BREWFEST_TOKEN_COST(200),
-						}),
-						i(248320, {	-- Dark Iron's Draping Mantle
-							["cost"] = BREWFEST_TOKEN_COST(200),
+						filter(MISC, {
+							i(90426, {	-- Brewhelm
+								["timeline"] = { ADDED_5_0_4 },
+								["cost"] = BREWFEST_TOKEN_COST(2),
+							}),
 						}),
 					},
 				}),
