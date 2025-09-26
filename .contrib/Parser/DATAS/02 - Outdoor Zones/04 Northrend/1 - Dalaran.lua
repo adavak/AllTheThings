@@ -108,6 +108,7 @@ local EMBLEM_OF_TRIUMPH_QUARTERMASTER_GROUPS = {
 	i(41281),	-- Furious Gladiator's Wyrmhide Spaulders
 	emot(50, i(47735)),	-- Glyph of Indomitability
 	emot(35, i(47733)),	-- Heartmender Circle
+	-- #if BEFORE MOP
 	emoc(25, i(47671, {	-- Idol of Flaring Growth
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -126,15 +127,19 @@ local EMBLEM_OF_TRIUMPH_QUARTERMASTER_GROUPS = {
 	emoc(25, i(47662, {	-- Libram of Veracity
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emot(50, i(47734)),	-- Mark of Supremacy
 	emot(50, i(48722)),	-- Shard of the Crystal Heart
+	-- #if BEFORE MOP
 	emoc(25, i(47672, {	-- Sigil of Insolence
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
 	emoc(25, i(47673, {	-- Sigil of Virulence
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emot(50, i(48724)),	-- Talisman of Resurgence
+	-- #if BEFORE MOP
 	emoc(25, i(47665, {	-- Totem of Calming Tides
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -144,6 +149,7 @@ local EMBLEM_OF_TRIUMPH_QUARTERMASTER_GROUPS = {
 	emoc(25, i(47667, {	-- Totem of Quaking Earth
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 };
 local EMBLEM_OF_TRIUMPH_QUARTERMASTER_A_GROUPS = appendGroups(EMBLEM_OF_TRIUMPH_QUARTERMASTER_GROUPS, {
 	emot(45, i(47708)),	-- Duskstalker Shoulderpads
@@ -287,6 +293,7 @@ local EMBLEM_OF_CONQUEST_QUARTERMASTER_GROUPS = {
 	emoc(28, i(45838)),	-- Gloves of the Blind Stalker
 	emoc(28, i(45836)),	-- Gloves of Unerring Aim
 	emoc(28, i(45839)),	-- Grips of the Secret Grove
+	-- #if BEFORE MOP
 	emoc(19, i(45509, {	-- Idol of the Corruptor
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -296,12 +303,14 @@ local EMBLEM_OF_CONQUEST_QUARTERMASTER_GROUPS = {
 	emoc(19, i(46138, {	-- Idol of the Flourishing Life
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoc(39, i(45844)),	-- Leggings of the Tireless Sentry
 	emoc(39, i(45845)),	-- Leggings of the Weary Mystic
 	emoc(39, i(45846)),	-- Leggings of Wavering Shadow
 	emoc(39, i(45843)),	-- Legguards of the Peaceful Covenant
 	emoc(39, i(45841)),	-- Legplates of the Violet Champion
 	emoc(39, i(45848)),	-- Legwraps of the Master Conjurer
+	-- #if BEFORE MOP
 	emoc(19, i(45510, {	-- Libram of Discord
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -311,17 +320,21 @@ local EMBLEM_OF_CONQUEST_QUARTERMASTER_GROUPS = {
 	emoc(19, i(45145, {	-- Libram of the Sacred Shield
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoc(18, i(45087)),	-- Runed Orb
 	emoc(28, i(45831)),	-- Sash of Potent Incantations
 	emoc(19, i(45821)),	-- Shard of the Crystal Forest
 	emoc(28, i(45825)),	-- Shieldwarder Girdle
+	-- #if BEFORE MOP
 	emoc(19, i(45144, {	-- Sigil of Deflection
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
 	emoc(19, i(45254, {	-- Sigil of the Vengeful Heart
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoc(19, i(45819)),	-- Spiked Battleguard Choker
+	-- #if BEFORE MOP
 	emoc(19, i(45114, {	-- Steamcaller's Totem
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -331,6 +344,7 @@ local EMBLEM_OF_CONQUEST_QUARTERMASTER_GROUPS = {
 	emoc(19, i(45169, {	-- Totem of the Dancing Flame
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoc(28, i(45840)),	-- Touch of the Occult
 	emoc(39, i(45847)),	-- Wildstrider Legguards
 	emoc(28, i(45828)),	-- Windchill Binding
@@ -340,9 +354,11 @@ local EMBLEM_OF_FROST_QUARTERMASTER_GROUPS = {
 	emof(60, i(50993)),	-- Band of the Night Raven
 	emof(60, i(50996)),	-- Belt of Omission
 	emof(60, i(50994)),	-- Belt of Petrified Ivy
+	-- #if BEFORE MOP
 	emof(30, i(50458, {	-- Bizuri's Totem of Shattered Ice
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emof(60, i(50980)),	-- Blizzard Keeper's Mitts
 	emof(95, i(50965)),	-- Castle Breaker's Battleplate
 	emof(60, i(50982)),	-- Cat Burglar's Grips
@@ -359,6 +375,7 @@ local EMBLEM_OF_FROST_QUARTERMASTER_GROUPS = {
 	emof(60, i(50983)),	-- Gloves of False Gestures
 	emof(60, i(50981)),	-- Gloves of the Great Horned Owl
 	emof(60, i(50355)),	-- Herkuml War Token
+	-- #if BEFORE MOP
 	emof(30, i(50454, {	-- Idol of the Black Willow
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -377,6 +394,7 @@ local EMBLEM_OF_FROST_QUARTERMASTER_GROUPS = {
 	emof(30, i(50455, {	-- Libram of Three Truths
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emof(60, i(50989)),	-- Lich Killer's Lanyard
 	emof(60, i(50979)),	-- Logsplitters
 	emof(95, i(50970)),	-- Longstrider's Vest
@@ -473,6 +491,7 @@ local EMBLEM_OF_FROST_QUARTERMASTER_GROUPS = {
 	emof(30, i(50474, {	-- Shrapnel Star
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #if BEFORE MOP
 	emof(30, i(50462, {	-- Sigil of the Bone Gryphon
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -485,6 +504,7 @@ local EMBLEM_OF_FROST_QUARTERMASTER_GROUPS = {
 	emof(30, i(50464, {	-- Totem of the Surging Sea
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emof(60, i(50995)),	-- Vengeful Noose
 	emof(60, i(50991)),	-- Verdigris Chain Belt
 	emof(95, i(50973)),	-- Vestments of Spruce and Fir
@@ -506,6 +526,7 @@ local EMBLEM_OF_HEROISM_QUARTERMASTER_GROUPS = {
 	emoh(60, i(40615)),	-- Gloves of the Lost Vanquisher
 	emoh(50, i(40703)),	-- Grasscutter
 	emoh(25, i(40699)),	-- Handbook of Obscure Remedies
+	-- #if BEFORE MOP
 	emoh(15, i(40711, {	-- Idol of Lush Moss
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -515,8 +536,10 @@ local EMBLEM_OF_HEROISM_QUARTERMASTER_GROUPS = {
 	emoh(15, i(40713, {	-- Idol of the Ravenous Beast
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoh(40, i(40694)),	-- Jorach's Crocolisk Skin Belt
 	emoh(25, i(40681)),	-- Lattice Choker of Light
+	-- #if BEFORE MOP
 	emoh(15, i(40707, {	-- Libram of Obstruction
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -529,6 +552,7 @@ local EMBLEM_OF_HEROISM_QUARTERMASTER_GROUPS = {
 	emoh(15, i(40716, {	-- Lillehoff's Winged Blades
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoh(40, i(40691)),	-- Magroth's Meditative Cincture
 	emoh(40, i(40684)),	-- Mirror of Truth
 	emoh(25, i(40678)),	-- Pendant of the Outcast Hero
@@ -616,14 +640,17 @@ local EMBLEM_OF_HEROISM_QUARTERMASTER_GROUPS = {
 	i(41301),	-- Savage Gladiator's Wyrmhide Legguards
 	i(41313),	-- Savage Gladiator's Wyrmhide Robes
 	i(41278),	-- Savage Gladiator's Wyrmhide Spaulders
+	-- #if BEFORE MOP
 	emoh(15, i(40715, {	-- Sigil of Haunted Dreams
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
 	emoh(15, i(40714, {	-- Sigil of the Unfaltering Knight
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoh(40, i(40682)),	-- Sundial of the Exiled
 	emoh(40, i(40685)),	-- The Egg of Mortal Essence
+	-- #if BEFORE MOP
 	emoh(15, i(40709, {	-- Totem of Forest Growth
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
@@ -633,6 +660,7 @@ local EMBLEM_OF_HEROISM_QUARTERMASTER_GROUPS = {
 	emoh(15, i(40708, {	-- Totem of the Elemental Plane
 		["timeline"] = { REMOVED_5_0_4 },
 	})),
+	-- #endif
 	emoh(40, i(40683)),	-- Valor Medal of the First War
 	emoh(40, i(40688)),	-- Verdungo's Barbarian Cord
 	emoh(40, i(40692)),	-- Vereesa's Silver Chain Belt
@@ -2814,7 +2842,9 @@ root(ROOTS.Zones, {
 								i(44171),	-- Spaulders of Grounded Lightning
 							}, {	-- Revered
 								i(50368, {	-- Arcanum of Burning Mysteries
+									-- #if BEFORE MOP
 									["description"] = "This version is only visible on the vendor when you aren't at the required reputation to purchase it yet on your current character.",
+									-- #endif
 									["timeline"] = { REMOVED_5_0_4 },
 									["filterID"] = CONSUMABLES,
 								}),
@@ -3756,6 +3786,7 @@ root(ROOTS.Zones, {
 					}),
 					n(29529, {	-- Ninsianna <Relics>
 						["description"] = "If you /dance with her, she will say Not bad, though some additional schooling wouldn't hurt! Here, watch my hips... like so! and start dancing.",
+						-- #if BEFORE MOP
 						["groups"] = bubbleDown({ ["timeline"] = { REMOVED_5_0_4 } }, {
 							emof(30, i(50458)),	-- Bizuri's Totem of Shattered Ice
 							emov(25, i(40342)),	-- Idol of Awakening
@@ -3790,6 +3821,7 @@ root(ROOTS.Zones, {
 							emof(30, i(50463)),	-- Totem of the Avalanche
 							emof(30, i(50464)),	-- Totem of the Surging Sea
 						}),
+						-- #endif
 					}),
 					n(29495, {	-- Norvin Alderman <Cloaks>
 						["coord"] = { 44.7, 48.9, NORTHREND_DALARAN },

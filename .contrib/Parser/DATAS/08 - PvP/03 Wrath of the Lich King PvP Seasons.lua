@@ -334,7 +334,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(40836)),	-- Savage Gladiator's Plate Legguards
 						moh(2, i(40856)),	-- Savage Gladiator's Plate Shoulders
 					}),
-					-- #if ANYCLASSIC
+					-- #if BEFORE MOP
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
@@ -651,6 +651,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42110),	-- Hateful Gladiator's Band of Dominance
 						i(42112),	-- Hateful Gladiator's Band of Triumph
 					})),
+					-- #if BEFORE MOP
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
@@ -667,6 +668,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42601),	-- Hateful Gladiator's Totem of Survival
 						i(42596),	-- Hateful Gladiator's Totem of the Third Wind
 					})),
+					-- #endif
 				}),
 		-- #if AFTER 7.0.3
 			},
@@ -930,6 +932,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42114),	-- Deadly Gladiator's Band of Ascendancy
 						i(42115),	-- Deadly Gladiator's Band of Victory
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
@@ -946,6 +949,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42602),	-- Deadly Gladiator's Totem of Survival
 						i(42597),	-- Deadly Gladiator's Totem of the Third Wind
 					})),
+					-- #endif
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
@@ -1262,6 +1266,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42116),	-- Furious Gladiator's Band of Dominance
 						i(42117),	-- Furious Gladiator's Band of Triumph
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_1_0, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
@@ -1278,6 +1283,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42603),	-- Furious Gladiator's Totem of Survival
 						i(42598),	-- Furious Gladiator's Totem of the Third Wind
 					})),
+					-- #endif
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_1_0, REMOVED_3_2_0 },
 						-- #if BEFORE CATA
@@ -1622,6 +1628,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42118),	-- Relentless Gladiator's Band of Ascendancy
 						i(42119),	-- Relentless Gladiator's Band of Victory
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_2_0, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
@@ -1638,6 +1645,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42604),	-- Relentless Gladiator's Totem of Survival
 						i(42599),	-- Relentless Gladiator's Totem of the Third Wind
 					})),
+					-- #endif
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_2_0, REMOVED_3_3_2 },
 						-- #if BEFORE CATA
@@ -1985,6 +1993,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(51336),	-- Wrathful Gladiator's Band of Dominance
 						i(51358),	-- Wrathful Gladiator's Band of Triumph
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_3_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
@@ -2001,6 +2010,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(51513),	-- Wrathful Gladiator's Totem of Survival
 						i(51501),	-- Wrathful Gladiator's Totem of the Third Wind
 					})),
+					-- #endif
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_3_2, REMOVED_4_0_1 },
 						-- #if BEFORE CATA
