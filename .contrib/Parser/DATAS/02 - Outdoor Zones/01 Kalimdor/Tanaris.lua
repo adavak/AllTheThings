@@ -3662,7 +3662,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
-				-- #if NOT ANYCLASSIC
+				-- #if ANYCLASSIC
+				n(251798, {	-- Blazzek the Biter <Vicious Gladiator>
+					["coord"] = { 51.4, 28.1, TANARIS },
+					["timeline"] = { ADDED_5_5_1 },
+					["groups"] = VICIOUS_GROUPS,
+				}),
+				-- #else
 				n(33915, {	-- Argex Irongut <Furious Gladiator Vendor>
 					["u"] = REMOVED_FROM_GAME,
 				}),
@@ -3724,7 +3730,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(18046),	-- Recipe: Tender Wolf Steak (RECIPE!)
 					},
 				}),
-				-- #if NOT ANYCLASSIC
+				-- #if ANYCLASSIC
+				-- Wouter NOTE: I have no idea when these NPCs were actually added, I am filling this info in for MoP Classic
+				n(69979, {	-- Ecton Brasstumbler <Honor Quartermaster>
+					["coord"] = { 51.4, 28.1, TANARIS },
+					["timeline"] = { ADDED_5_5_0 },
+					["groups"] = RUTHLESS_GROUPS,
+				}),
+				n(69980, {	-- Evee Copperspring <Conquest Quartermaster>
+					["coord"] = { 51.5, 28.1, TANARIS },
+					["timeline"] = { ADDED_5_5_0 },
+					["groups"] = CATACLYSMIC_GROUPS,
+				}),
+				-- #else
 				-- TODO: Add all PVP Vendor Variants
 				n(69979, {	-- Ecton Brasstumbler <Honor Quartermaster>
 					["u"] = REMOVED_FROM_GAME,
