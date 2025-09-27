@@ -969,3 +969,51 @@ app.FillAchievementCriteriaAsync = function(o)
 	-- app.PrintDebug("resolve achievement_criteria",o.hash)
 	app.FillRunner.Run(ResolveSymlinkGroupAsync, o);
 end
+
+local function GetAllNestedGroupsByFunc(results, groups, func)
+	local g,o
+	for i=1,#groups do
+		o = groups[i]
+		if func(o) then results[#results + 1] = o end
+		g = o.g
+		if g then
+			for i=1,#g do
+				GetAllNestedGroupsByFunc(results, g[i], func)
+			end
+		end
+	end
+end
+local function GetNpcIDForDrops(group)
+	-- assuming for any 'crs' references on an encounter/header group that all crs are linked to the same resulting content
+	-- Fyrakk Assaults uses two headers with 'crs' test that when changing this check
+	return group.npcID or ((group.encounterID or group.isWorldQuest) and group.crs and group.crs[1])
+end
+
+app.AddEventHandler("OnLoad", function()
+	local Fill = app.Modules.Fill
+	if not Fill then return end
+
+	Fill.AddFiller("SYMLINK",
+	function(group, FillData)
+		if group.sym then
+			-- app.PrintDebug("DSG-Now",app:SearchLink(group));
+			local groups = ResolveSymbolicLink(group);
+			-- make sure this group doesn't waste time getting resolved again somehow
+			group.sym = nil;
+			if groups and #groups > 0 then
+				-- flag all nested symlinked content so that any NPC groups do not nest NPC data
+				local results = {}
+				GetAllNestedGroupsByFunc(results, groups, GetNpcIDForDrops)
+				for i=1,#results do
+					results[i].NestNPCDataSkip = true
+				end
+			end
+			-- app.PrintDebug("DSG",groups and #groups);
+			return groups;
+		end
+	end,
+	{
+		-- SettingsIcon = ,
+		SettingsTooltip = "Fills content which has alternate & notable availability under additional Sources.\nThis concept is generally utilized to help show content which may be Sourced under a general 'Rewards' (or similar) group in the Main list but can more-clearly be shown under specific Sources (multiple Vendors,etc.) when within the Mini list or Tooltips.\n\nNOTE: Tooltips where a Symlink is available will show this text:\n"..app.Modules.Color.Colorize(app.L.SYM_ROW_INFORMATION, app.Colors.SymLink),
+	})
+end)

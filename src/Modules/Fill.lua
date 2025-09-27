@@ -45,10 +45,9 @@ local api = {}
 app.Modules.Fill = api
 
 -- OnLoad locals
-local CreateObject, ResolveSymbolicLink, PriorityNestObjects, NPCExpandHeaders, ForceFillDB, IsQuestAvailable, DirectGroupUpdate
+local CreateObject, PriorityNestObjects, NPCExpandHeaders, ForceFillDB, IsQuestAvailable, DirectGroupUpdate
 app.AddEventHandler("OnLoad", function()
 	CreateObject = app.__CreateObject
-	ResolveSymbolicLink = app.ResolveSymbolicLink
 	PriorityNestObjects = app.PriorityNestObjects
 	NPCExpandHeaders = app.HeaderData.FILLNPCS or app.EmptyTable
 	ForceFillDB = app.ForceFillDB
@@ -94,19 +93,6 @@ local function DetermineRecipeOutputGroups(group, FillData)
 		search = (search and CreateObject(search)) or app.CreateItem(craftedItemID)
 		-- app.PrintDebug("DetermineRecipeOutput",search.hash,app:SearchLink(group),"=>",app:SearchLink(search))
 		return {search}
-	end
-end
-local function GetAllNestedGroupsByFunc(results, groups, func)
-	local g,o
-	for i=1,#groups do
-		o = groups[i]
-		if func(o) then results[#results + 1] = o end
-		g = o.g
-		if g then
-			for i=1,#g do
-				GetAllNestedGroupsByFunc(results, g[i], func)
-			end
-		end
 	end
 end
 local function GetNpcIDForDrops(group)
@@ -220,25 +206,6 @@ local FillFunctions = {
 		end
 		return groups;
 	end,
-	-- TODO: Move to symlink module once added
-	SYMLINK = function(group, FillData)
-		if group.sym then
-			-- app.PrintDebug("DSG-Now",app:SearchLink(group));
-			local groups = ResolveSymbolicLink(group);
-			-- make sure this group doesn't waste time getting resolved again somehow
-			group.sym = nil;
-			if groups and #groups > 0 then
-				-- flag all nested symlinked content so that any NPC groups do not nest NPC data
-				local results = {}
-				GetAllNestedGroupsByFunc(results, groups, GetNpcIDForDrops)
-				for i=1,#results do
-					results[i].NestNPCDataSkip = true
-				end
-			end
-			-- app.PrintDebug("DSG",groups and #groups);
-			return groups;
-		end
-	end,
 	-- Pulls in Common drop content for specific NPCs if any exists
 	-- (so we don't need to always symlink every NPC which is included in common boss drops somewhere)
 	NPC = function(group, FillData)
@@ -315,7 +282,6 @@ for i=1,#Scopes do
 end
 -- TEMP: fill the Priority scopes with any remaining static values
 local tempPriority = {
-	"SYMLINK",
 	"REAGENT",
 }
 for scope,priority in pairs(ScopeFillPriority) do
@@ -325,7 +291,6 @@ for scope,priority in pairs(ScopeFillPriority) do
 end
 app.AddEventHandler("OnStartup", function()
 	FillSettings.Tooltips.NPC = app.L.FILL_NPC_DATA_CHECKBOX_TOOLTIP
-	FillSettings.Tooltips.SYMLINK = "Fills content which has alternate & notable availability under additional Sources.\nThis concept is generally utilized to help show content which may be Sourced under a general 'Rewards' (or similar) group in the Main list but can more-clearly be shown under specific Sources (multiple Vendors,etc.) when within the Mini list or Tooltips.\n\nNOTE: Tooltips where a Symlink is available will show this text:\n"..app.Modules.Color.Colorize(app.L.SYM_ROW_INFORMATION, app.Colors.SymLink)
 	FillSettings.Col = ArrayAppend({NAME}, Scopes)
 	local names = {"[]"}
 	for name,_ in pairs(FillFunctions) do
