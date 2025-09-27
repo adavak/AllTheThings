@@ -2785,6 +2785,13 @@ root(ROOTS.Zones, {
 							i(21918),	-- Pattern: Primal Mooncloth Shoulders (RECIPE!)
 						},
 					}),
+					n(32631, {	-- Alfred Copperworth <Butler>
+						["coord"] = { 26.2, 39.2, NORTHREND_DALARAN },
+						["description"] = "Walks around the Purple Parlour.",
+						["groups"] = {
+							i(35947),	-- Sparkling Frostcap
+						},
+					}),
 					n(29628, {	-- Angelique Butler <First Aid Supplies>
 						["coord"] = { 37.0, 37.4, NORTHREND_DALARAN },
 						["groups"] = {

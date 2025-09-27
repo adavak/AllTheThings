@@ -1742,7 +1742,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(8766),	-- Morning Glory Dew
-					}
+					},
 				}),
 				n(5138, {	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
 					["coord"] = { 55.08, 59.51, IRONFORGE },

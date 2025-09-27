@@ -149,6 +149,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						17820,	-- Durnholde Rifleman
 					},
 				}),
+				i(30457),	-- Gilneas Sparkled Water
+				i(30610),	-- Smoked Black Bear Meat
 				i(30458),	-- Stromgarde Muenster
 			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
