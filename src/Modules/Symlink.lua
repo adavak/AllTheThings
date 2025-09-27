@@ -10,8 +10,8 @@ local select,tremove,unpack,ipairs,GetAchievementNumCriteria,tinsert,wipe,type
 	= select,tremove,unpack,ipairs,GetAchievementNumCriteria,tinsert,wipe,type
 
 -- App locals
-local GetItemInfoInstant,SearchForObject,ArrayAppend,CloneArray,AssignChildren
-= app.WOWAPI.GetItemInfoInstant,app.SearchForObject,app.ArrayAppend,app.CloneArray,app.AssignChildren
+local GetItemInfoInstant,SearchForObject,ArrayAppend,CloneArray,AssignChildren,SearchForField,GetRelativeValue
+= app.WOWAPI.GetItemInfoInstant,app.SearchForObject,app.ArrayAppend,app.CloneArray,app.AssignChildren,app.SearchForField,app.GetRelativeValue
 
 -- Upgrade API Implementation
 -- Access via AllTheThings.Modules.Symlink
@@ -19,10 +19,11 @@ local api = {};
 app.Modules.Symlink = api;
 
 -- Module locals
-local ResolveSymbolicLink, FinalizeModID, PruneFinalized, FillFinalized, SelectMod, CreateObject, NestObject, NestObjects, CleanInheritingGroups, MergeProperties, ExpandGroupsRecursively, MergeObjects, PriorityNestObjects, GetGroupItemIDWithModID, GetItemIDAndModID, FillGroups
+local ResolveSymbolicLink, FinalizeModID, PruneFinalized, FillFinalized, SelectMod, CreateObject, NestObject, NestObjects, CleanInheritingGroups, MergeProperties, ExpandGroupsRecursively, MergeObjects, PriorityNestObjects, GetGroupItemIDWithModID, GetItemIDAndModID, FillGroups, NPCExpandHeaders
 
 app.AddEventHandler("OnLoad", function()
 	CreateObject = app.__CreateObject
+	NPCExpandHeaders = app.HeaderData.FILLNPCS or app.EmptyTable
 	if not CreateObject then
 		error("Symlink Module requires app.__CreateObject definition!")
 	end
@@ -970,6 +971,12 @@ app.FillAchievementCriteriaAsync = function(o)
 	app.FillRunner.Run(ResolveSymlinkGroupAsync, o);
 end
 
+local function GetRelativeFieldInSet(group, field, set)
+	if group then
+		local val = group[field]
+		return set[val] and val or GetRelativeFieldInSet(group.sourceParent or group.parent, field, set);
+	end
+end
 local function GetAllNestedGroupsByFunc(results, groups, func)
 	local g,o
 	for i=1,#groups do
@@ -1015,5 +1022,76 @@ app.AddEventHandler("OnLoad", function()
 	{
 		-- SettingsIcon = ,
 		SettingsTooltip = "Fills content which has alternate & notable availability under additional Sources.\nThis concept is generally utilized to help show content which may be Sourced under a general 'Rewards' (or similar) group in the Main list but can more-clearly be shown under specific Sources (multiple Vendors,etc.) when within the Mini list or Tooltips.\n\nNOTE: Tooltips where a Symlink is available will show this text:\n"..app.Modules.Color.Colorize(app.L.SYM_ROW_INFORMATION, app.Colors.SymLink),
+	})
+
+	-- Pulls in Common drop content for specific NPCs if any exists
+	-- (so we don't need to always symlink every NPC which is included in common boss drops somewhere)
+	Fill.AddFiller("NPC",
+	function(group, FillData)
+		if group.NestNPCDataSkip then return end
+
+		local npcID = GetNpcIDForDrops(group)
+		if not npcID then return end
+
+		-- app.PrintDebug("NPC Group",app:SearchLink(group),npcID)
+		-- search for groups of this NPC
+		local npcGroups = SearchForField("npcID", npcID);
+		if not npcGroups or #npcGroups == 0 then return end
+
+		-- see if there's a difficulty wrapping the fill group
+		local difficultyID = GetRelativeValue(group, "difficultyID");
+		if difficultyID then
+			-- app.PrintDebug("FillNPC.Diff",difficultyID)
+			-- can only fill npc groups for the npc which match the difficultyID
+			local headerID, groups, npcDiff, npcGroup
+			for i=1,#npcGroups do
+				npcGroup = npcGroups[i]
+				if npcGroup.hash ~= group.hash then
+					headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
+					-- app.PrintDebug("DropCheck",app:SearchLink(npcGroup),"=>",headerID)
+					-- where headerID is allowed and the nested difficultyID matches
+					if headerID then
+						npcDiff = GetRelativeValue(npcGroup, "difficultyID");
+						-- copy the header under the NPC groups
+						if not npcDiff or npcDiff == difficultyID then
+							-- wrap the npcGroup in the matching header if it is not a header
+							if not npcGroup.headerID then
+								npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
+							end
+							-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",npcGroup.hash)
+							if groups then groups[#groups + 1] = CreateObject(npcGroup)
+							else groups = { CreateObject(npcGroup) }; end
+						end
+					end
+				end
+			end
+			return groups;
+		else
+			-- app.PrintDebug("FillNPC")
+			local headerID,groups,npcGroup
+			for i=1,#npcGroups do
+				npcGroup = npcGroups[i]
+				if npcGroup.hash ~= group.hash then
+					headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
+					-- app.PrintDebug("DropCheck",app:SearchLink(npcGroup),"=>",headerID)
+					-- where headerID is allowed
+					if headerID then
+						-- copy the header under the NPC groups
+						-- wrap the npcGroup in the matching header if it is not a header
+						if not npcGroup.headerID then
+							npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
+						end
+						-- app.PrintDebug("IsDrop",group.hash,"<==",npcGroup.hash)
+						if groups then groups[#groups + 1] = CreateObject(npcGroup)
+						else groups = { CreateObject(npcGroup) }; end
+					end
+				end
+			end
+			return groups;
+		end
+	end,
+	{
+		-- SettingsIcon = ,
+		SettingsTooltip = app.L.FILL_NPC_DATA_CHECKBOX_TOOLTIP,
 	})
 end)

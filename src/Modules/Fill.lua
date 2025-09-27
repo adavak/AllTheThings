@@ -35,8 +35,8 @@ local pairs,rawget,math_floor,unpack
 	= pairs,rawget,math.floor,unpack
 
 -- App locals
-local SearchForObject, SearchForField, GetRelativeValue, ArrayAppend, AssignChildren
-	= app.SearchForObject, app.SearchForField, app.GetRelativeValue, app.ArrayAppend, app.AssignChildren
+local SearchForObject, GetRelativeValue, ArrayAppend, AssignChildren
+	= app.SearchForObject, app.GetRelativeValue, app.ArrayAppend, app.AssignChildren
 local wipearray = app.wipearray
 
 -- Fill API Implementation
@@ -45,11 +45,10 @@ local api = {}
 app.Modules.Fill = api
 
 -- OnLoad locals
-local CreateObject, PriorityNestObjects, NPCExpandHeaders, ForceFillDB, IsQuestAvailable, DirectGroupUpdate
+local CreateObject, PriorityNestObjects, ForceFillDB, IsQuestAvailable, DirectGroupUpdate
 app.AddEventHandler("OnLoad", function()
 	CreateObject = app.__CreateObject
 	PriorityNestObjects = app.PriorityNestObjects
-	NPCExpandHeaders = app.HeaderData.FILLNPCS or app.EmptyTable
 	ForceFillDB = app.ForceFillDB
 	IsQuestAvailable = app.IsQuestAvailable
 	if not IsQuestAvailable then
@@ -93,17 +92,6 @@ local function DetermineRecipeOutputGroups(group, FillData)
 		search = (search and CreateObject(search)) or app.CreateItem(craftedItemID)
 		-- app.PrintDebug("DetermineRecipeOutput",search.hash,app:SearchLink(group),"=>",app:SearchLink(search))
 		return {search}
-	end
-end
-local function GetNpcIDForDrops(group)
-	-- assuming for any 'crs' references on an encounter/header group that all crs are linked to the same resulting content
-	-- Fyrakk Assaults uses two headers with 'crs' test that when changing this check
-	return group.npcID or ((group.encounterID or group.isWorldQuest) and group.crs and group.crs[1])
-end
-local function GetRelativeFieldInSet(group, field, set)
-	if group then
-		local val = group[field]
-		return set[val] and val or GetRelativeFieldInSet(group.sourceParent or group.parent, field, set);
 	end
 end
 
@@ -206,71 +194,6 @@ local FillFunctions = {
 		end
 		return groups;
 	end,
-	-- Pulls in Common drop content for specific NPCs if any exists
-	-- (so we don't need to always symlink every NPC which is included in common boss drops somewhere)
-	NPC = function(group, FillData)
-		if group.NestNPCDataSkip then return end
-
-		local npcID = GetNpcIDForDrops(group)
-		if not npcID then return end
-
-		-- app.PrintDebug("NPC Group",app:SearchLink(group),npcID)
-		-- search for groups of this NPC
-		local npcGroups = SearchForField("npcID", npcID);
-		if not npcGroups or #npcGroups == 0 then return end
-
-		-- see if there's a difficulty wrapping the fill group
-		local difficultyID = GetRelativeValue(group, "difficultyID");
-		if difficultyID then
-			-- app.PrintDebug("FillNPC.Diff",difficultyID)
-			-- can only fill npc groups for the npc which match the difficultyID
-			local headerID, groups, npcDiff, npcGroup
-			for i=1,#npcGroups do
-				npcGroup = npcGroups[i]
-				if npcGroup.hash ~= group.hash then
-					headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
-					-- app.PrintDebug("DropCheck",app:SearchLink(npcGroup),"=>",headerID)
-					-- where headerID is allowed and the nested difficultyID matches
-					if headerID then
-						npcDiff = GetRelativeValue(npcGroup, "difficultyID");
-						-- copy the header under the NPC groups
-						if not npcDiff or npcDiff == difficultyID then
-							-- wrap the npcGroup in the matching header if it is not a header
-							if not npcGroup.headerID then
-								npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
-							end
-							-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",npcGroup.hash)
-							if groups then groups[#groups + 1] = CreateObject(npcGroup)
-							else groups = { CreateObject(npcGroup) }; end
-						end
-					end
-				end
-			end
-			return groups;
-		else
-			-- app.PrintDebug("FillNPC")
-			local headerID,groups,npcGroup
-			for i=1,#npcGroups do
-				npcGroup = npcGroups[i]
-				if npcGroup.hash ~= group.hash then
-					headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
-					-- app.PrintDebug("DropCheck",app:SearchLink(npcGroup),"=>",headerID)
-					-- where headerID is allowed
-					if headerID then
-						-- copy the header under the NPC groups
-						-- wrap the npcGroup in the matching header if it is not a header
-						if not npcGroup.headerID then
-							npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
-						end
-						-- app.PrintDebug("IsDrop",group.hash,"<==",npcGroup.hash)
-						if groups then groups[#groups + 1] = CreateObject(npcGroup)
-						else groups = { CreateObject(npcGroup) }; end
-					end
-				end
-			end
-			return groups;
-		end
-	end
 }
 
 do
@@ -290,7 +213,6 @@ for scope,priority in pairs(ScopeFillPriority) do
 	end
 end
 app.AddEventHandler("OnStartup", function()
-	FillSettings.Tooltips.NPC = app.L.FILL_NPC_DATA_CHECKBOX_TOOLTIP
 	FillSettings.Col = ArrayAppend({NAME}, Scopes)
 	local names = {"[]"}
 	for name,_ in pairs(FillFunctions) do
