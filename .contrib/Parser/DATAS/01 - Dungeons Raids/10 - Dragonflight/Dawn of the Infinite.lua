@@ -551,7 +551,6 @@ local QUANTUM_GROUP = sharedData({
 		ig(134611),	-- Scorching Pummeler					(Removed)
 		ig(134789),	-- Seasoned Gavel						(Removed)
 		ig(134781),	-- Seasoned Pummeler					(Removed)
-		ig(22322),	-- The Jaw Breaker						(Removed)
 		ig(134588),	-- Vanguard Gavel						(Removed)
 	}),
 	i(208116, {	-- Quantum Polearm

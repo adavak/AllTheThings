@@ -2762,19 +2762,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		prof(ALCHEMY, {
 			q(82473),	-- Transmutation 15/30
 			q(82474),	-- Transmutation 30/30
-			q(82388),	-- Together with First Craft of Algari Mana Potion or Algari Healing Potion
-			-- Unsure what are these
-
-			q(81898),	-- On proc of bonus flask
-
-			--q(78604),	-- Randomly when crafting Wild Experimentation
-						-- When learning Algari Mana Potion (first use of Mycobloom in Wild Experimentation)
-						-- "was doing DF experiments in dornigal"
-						-- "Alchemy learning [Algarischer Manatrank] (430591)"
-
-
-			--q(81090),	-- Randomly when crafting Wild Experimentation
-						-- Randomly when crafting Thaumaturgy
+			q(82388, {["isDaily"]=true}),	-- Daily craft bonus potion
+			q(81898, {["isDaily"]=true}),	-- Daily craft bonus flask
 		}),
 		prof(BLACKSMITHING, {
 			q(83111),	-- 10/40 Everburning Forge
