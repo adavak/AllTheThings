@@ -271,7 +271,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(63128),	-- Troll Tablet
 		header(HEADERS.Currency, ARCH_CURRENCY_DWARF, {
 			["provider"] = { "o", 204282 },	-- Dwarf Archaeology Find
-			["maps"] = {
+			["maps_disp"] = {
 				ARATHI_HIGHLANDS,
 				BADLANDS,
 				BURNING_STEPPES,
@@ -319,7 +319,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 		header(HEADERS.Currency, ARCH_CURRENCY_FOSSIL, {
 			["provider"] = { "o", 206836 },	-- Fossil Archaeology Find
-			["maps"] = {
+			["maps_disp"] = {
 				BLASTED_LANDS,
 				BURNING_STEPPES,
 				DESOLACE,
@@ -359,7 +359,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 		header(HEADERS.Currency, ARCH_CURRENCY_NIGHTELF, {
 			["provider"] = { "o", 203071 },	-- Night Elf Archaeology Find
-			["maps"] = {
+			["maps_disp"] = {
 				ASHENVALE,
 				AZSHARA,
 				BOREAN_TUNDRA,
@@ -408,7 +408,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 		header(HEADERS.Currency, ARCH_CURRENCY_TROLL, {
 			["provider"] = { "o", 202655 },	-- Troll Archaeology Find
-			["maps"] = {
+			["maps_disp"] = {
 				ARATHI_HIGHLANDS,
 				EASTERN_PLAGUELANDS,
 				GRIZZLY_HILLS,
@@ -2405,7 +2405,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			filter(ONE_HANDED_MACES, {
 				i(6360, {	-- Steelscale Crushfish
 					["description"] = "Can be caught in open water in the given zones.",
-					["maps"] = {
+					["maps_disp"] = {
 						ASHENVALE,
 						HILLSBRAD_FOOTHILLS,
 						WETLANDS,
@@ -2486,7 +2486,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(6351),	-- Dented Crate
 				i(13874),	-- Heavy Crate
 				i(21150, {	-- Iron Bound Trunk
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						ASHENVALE,
 						AZSHARA,
@@ -2541,7 +2541,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(6307),	-- Message in a Bottle
 				i(21228, {	-- Mitril Bound Trunk
-					["maps"] = {
+					["maps_disp"] = {
 						BLASTED_LANDS,
 						EASTERN_PLAGUELANDS,
 						SWAMP_OF_SORROWS,
@@ -2566,7 +2566,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(13918),	-- Reinforced Locked Chest
 				i(6357),	-- Sealed Crate
 				i(20708, {	-- Tightly Sealed Trunk
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						DUSKWOOD,
 						REDRIDGE_MOUNTAINS,
@@ -2594,7 +2594,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(6352),	-- Waterlogged Crate
 				i(21113, {	-- Watertight Trunk
-					["maps"] = {
+					["maps_disp"] = {
 						ASHENVALE,
 						HILLSBRAD_FOOTHILLS,
 						STONETALON_MOUNTAINS,
@@ -2638,7 +2638,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(20709, {	-- Rumsey Rum Light
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						DUSKWOOD,
 						REDRIDGE_MOUNTAINS,
@@ -2659,7 +2659,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			filter(PROFESSION_EQUIPMENT, {
 				i(6366, {	-- Darkwood Fishing Pole
 					["description"] = "Can be caught in Ashenvale, Arathi Highlands, Hillsbrad Foothills, Northern Stranglethorn, Redridge Mountains and Wetlands.",
-					["maps"] = {
+					["maps_disp"] = {
 						ASHENVALE,
 						ARATHI_HIGHLANDS,
 						HILLSBRAD_FOOTHILLS,
@@ -2682,7 +2682,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- Fish:
 			i(13888, {	-- Darkclaw Lobster
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if AFTER 4.0.3
 					BLASTED_LANDS,
 					SWAMP_OF_SORROWS,
@@ -2708,7 +2708,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6359, {	-- Firefin Snapper
 				["description"] = "Schools can be found on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					ARATHI_HIGHLANDS,
 					ASHENVALE,
 					AZSHARA,
@@ -2744,7 +2744,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(13893, {	-- Large Raw Mightfish
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if AFTER 4.0.3
 					BLASTED_LANDS,
 					SWAMP_OF_SORROWS,
@@ -2756,7 +2756,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(13757, {	-- Lightening Eel
 				["coord"] = { 60.6, 71.7, SILITHUS },
 				["description"] = "Can be caught in inland waters and waterways. This fish have a 5-10% drop rate.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE 4.0.3
 					BURNING_STEPPES,
 					EASTERN_PLAGUELANDS,
@@ -2767,7 +2767,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6358, {	-- Oily Blackmouth
 				["description"] = "Schools can be found on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					ARATHI_HIGHLANDS,
 					ASHENVALE,
 					AZSHARA,
@@ -2803,7 +2803,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6291, {	-- Raw Brilliant Smallfish
 				["description"] = "Can be caught in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					DUN_MOROGH,
 					ELWYNN_FOREST,
 					MULGORE,
@@ -2812,7 +2812,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6308, {	-- Raw Bristle Whisker Catfish
 				["description"] = "Can be caught in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					ASHENVALE,
 					DUSKWOOD,
 					REDRIDGE_MOUNTAINS,
@@ -2821,7 +2821,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(13754, {	-- Raw Glossy Mightfish
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					TANARIS,
 					-- #if BEFORE 4.0.3
 					AZSHARA,
@@ -2832,7 +2832,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(21153, {	-- Raw Greater Sagefish
 				["description"] = "Schools can be found in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE 4.0.3
 					ALTERAC_MOUNTAINS,
 					STRANGLETHORN_VALE,
@@ -2854,11 +2854,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6317, {	-- Raw Loch Frenzy
 				["description"] = "Can be caught in The Loch.",
-				["maps"] = { LOCH_MODAN },
+				["maps_disp"] = { LOCH_MODAN },
 			}),
 			i(6289, {	-- Raw Longjaw Mud Snapper
 				["description"] = "Can be caught in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					DARNASSUS,
 					-- #if AFTER 4.0.3
 					DUN_MOROGH,
@@ -2871,7 +2871,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(8365, {	-- Raw Mithril Head Trout
 				["description"] = "Can be caught in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE 4.0.3
 					ARATHI_HIGHLANDS,
 					THOUSAND_NEEDLES,
@@ -2887,7 +2887,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(13759, {	-- Raw Nightfin Snapper
 				["description"] = "Can be caught in inland waters and waterways during night time: 18:00/6pm to 12:00/12pm server time.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE 4.0.3
 					DEADWIND_PASS,
 					MOONGLADE,
@@ -2904,7 +2904,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6361, {	-- Raw Rainbow Fin Albacore
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE 4.0.3
 					ASHENVALE,
 					HILLSBRAD_FOOTHILLS,
@@ -2924,7 +2924,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(13758, {	-- Raw Redgill
 				["description"] = "Can be caught in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					FELWOOD,
 					MOONGLADE,
 					-- #if BEFORE 4.0.3
@@ -2935,7 +2935,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6362, {	-- Raw Rockscale Cod
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE 4.0.3
 					DUSTWALLOW_MARSH,
 					SWAMP_OF_SORROWS,
@@ -2951,7 +2951,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #endif
 				},
 				["description"] = "Schools can be found in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					ASHENVALE,
 					HILLSBRAD_FOOTHILLS,
 					LOCH_MODAN,
@@ -2973,7 +2973,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(6303, {	-- Raw Slitherskin Mackerel
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					DUROTAR,
 					TELDRASSIL,
 					-- #if AFTER TBC
@@ -2983,7 +2983,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(4603, {	-- Raw Spotted Yellowtail
 				["description"] = "Can be caught on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					TANARIS,
 					-- #if BEFORE 4.0.3
 					SWAMP_OF_SORROWS,
@@ -3000,7 +3000,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(13889, {	-- Raw Whitescale Salmon
 				["description"] = "Can be caught in inland waters and waterways.",
-				["maps"] = {
+				["maps_disp"] = {
 					-- #if BEFORE TBC
 					DEADWIND_PASS,
 					-- #endif
@@ -3016,7 +3016,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(13422, {	-- Stonescale Eel
 				["description"] = "Schools can be found on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					TANARIS,
 					-- #if BEFORE 4.0.3
 					AZSHARA,
@@ -3087,7 +3087,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			o(216761, {	-- Mixed Ocean School
-				["maps"] = {
+				["maps_disp"] = {
 					NORTHERN_STRANGLETHORN,
 					THE_CAPE_OF_STRANGLETHORN,
 				},
@@ -3095,7 +3095,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			o(180682, {	-- Oily Blackmouth School
 				["description"] = "Can be found on the seaside.",
-				["maps"] = {
+				["maps_disp"] = {
 					ARATHI_HIGHLANDS,
 					ASHENVALE,
 					AZSHARA,
@@ -3248,7 +3248,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["timeline"] = { REMOVED_4_0_3 }
 				}),
 				i(13468, {	-- Black Lotus
-					["maps"] = {
+					["maps_disp"] = {
 						SILITHUS,
 						-- #if BEFORE WRATH
 						BURNING_STEPPES,
@@ -3287,7 +3287,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ 49.2, 5.9, FERALAS },	-- Northwestern Jademir Lake
 					},
 					-- #else
-					["maps"] = { SWAMP_OF_SORROWS },
+					["maps_disp"] = { SWAMP_OF_SORROWS },
 					-- #endif
 					["provider"] = { "o", 142143 },	-- Blindweed
 				}),
@@ -3299,13 +3299,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(22710, {	-- Bloodthistle
-					["maps"] = { EVERSONG_WOODS },
+					["maps_disp"] = { EVERSONG_WOODS },
 					["provider"] = { "o", 181166 },	-- Bloodthistle
 					["races"] = BLOODELF,
 					["timeline"] = { ADDED_2_0_5 },
 				}),
 				applyclassicphase(PHASE_FOUR, i(19726, {	-- Bloodvine
-					["maps"] = { ZULGURUB },
+					["maps_disp"] = { ZULGURUB },
 					["providers"] = {
 						{ "o", 180168 },	-- Dreamfoil (Zul'Gurub)
 						{ "o", 180167 },	-- Golden Sansam (Zul'Gurub)
@@ -3316,7 +3316,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["timeline"] = { REMOVED_4_0_3 },
 				})),
 				i(2450, {	-- Briarthorn
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						DUSKWOOD,
 						HILLSBRAD_FOOTHILLS,
@@ -3358,7 +3358,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(2453, {	-- Bruiseweed
-					["maps"] = {
+					["maps_disp"] = {
 						ASHENVALE,
 						DUSKWOOD,
 						HILLSBRAD_FOOTHILLS,
@@ -3397,11 +3397,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3819, {	-- Dragon's Teeth [CATA+] / Wintersbite
-					["_allowObjectProvider"] = true,
 					-- #if AFTER CATA
+					["_allowObjectProvider"] = true,
 					["coord"] = { 33.5,52.7, BADLANDS },	-- Scar of the Worldbreaker
 					-- #else
-					["maps"] = { ALTERAC_MOUNTAINS },
+					["maps_disp"] = { ALTERAC_MOUNTAINS },
 					-- #endif
 					["provider"] = { "o", 2044 },	-- Dragon's Teeth [CATA+] / Wintersbite
 				}),
@@ -3413,7 +3413,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(13463, {	-- Dreamfoil
-					["maps"] = {
+					["maps_disp"] = {
 						BURNING_STEPPES,
 						FELWOOD,
 						SILITHUS,
@@ -3443,7 +3443,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(2449, {	-- Earthroot
-					["maps"] = {
+					["maps_disp"] = {
 						DUN_MOROGH,
 						DUROTAR,
 						ELWYNN_FOREST,
@@ -3478,7 +3478,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3818, {	-- Fadeleaf
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						FERALAS,
 						THE_CAPE_OF_STRANGLETHORN,
@@ -3500,7 +3500,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(4625, {	-- Firebloom
-					["maps"] = {
+					["maps_disp"] = {
 						BADLANDS,
 						SEARING_GORGE,
 						TANARIS,
@@ -3520,6 +3520,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(8845, {	-- Ghost Mushroom
+					-- #if ANYCLASSIC
 					["_allowObjectProvider"] = true,
 					["coords"] = {
 						-- #if AFTER CATA
@@ -3534,6 +3535,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ 17.25, 9.2, ZANGARMARSH },	-- Ango'rosh Stronghold cave
 						-- #endif
 					},
+					-- #endif
 					["provider"] = { "o", 142144 },	-- Ghost Mushroom
 				}),
 				i(108337, {	-- Ghost Mushroom Cap
@@ -3544,7 +3546,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(13464, {	-- Golden Sansam
-					["maps"] = {
+					["maps_disp"] = {
 						FELWOOD,
 						SILITHUS,
 						UNGORO_CRATER,
@@ -3576,7 +3578,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3821, {	-- Goldthorn
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						DUSTWALLOW_MARSH,
 						FERALAS,
@@ -3600,6 +3602,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3369, {	-- Grave Moss
+					-- #if ANYCLASSIC
 					["_allowObjectProvider"] = true,
 					["coords"] = {
 						{ 20.0, 40.0, DUSKWOOD },	-- Raven Hill Cemetery
@@ -3608,6 +3611,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ 80.0, 71.0, DUSKWOOD },
 						-- #endif
 					},
+					-- #endif
 					["provider"] = { "o", 1628 },	-- Grave Moss
 				}),
 				i(108327, {	-- Grave Moss Leaf
@@ -3618,13 +3622,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(8846, {	-- Gromsblood
+					-- #if ANYCLASSIC
 					["_allowObjectProvider"] = true,
 					["coords"] = {
 						{ 84.1, 71.65, ASHENVALE },	-- Felfire Hill
 						{ 53.5, 46.5, BLASTED_LANDS },
 						{ 50.0, 80.0, DESOLACE },
 					},
-					["maps"] = { FELWOOD },
+					-- #endif
+					["maps_disp"] = { FELWOOD },
 					["providers"] = {
 						{ "o", 142145 },	-- Gromsblood
 						-- #if BEFORE CATA
@@ -3651,7 +3657,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				})),
 				-- #endif
 				i(13467, {	-- Icecap
-					["maps"] = { WINTERSPRING },
+					["maps_disp"] = { WINTERSPRING },
 					["provider"] = { "o", 176588 },	-- Icecap
 				}),
 				i(108343, {	-- Icecap Petal
@@ -3662,7 +3668,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3358, {	-- Khadgar's Whisker
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						DUSTWALLOW_MARSH,
 						FERALAS,
@@ -3690,7 +3696,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3356, {	-- Kingsblood
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						DUSKWOOD,
 						WETLANDS,
@@ -3723,7 +3729,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3357, {	-- Liferoot
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						DUSTWALLOW_MARSH,
 						THE_HINTERLANDS,
@@ -3752,7 +3758,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(785, {	-- Mageroyal
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						LOCH_MODAN,
 						SILVERPINE_FOREST,
@@ -3794,7 +3800,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(13465, {	-- Mountain Silversage
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						BLASTED_LANDS,
 						-- #else
@@ -3824,7 +3830,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(2447, {	-- Peacebloom
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						DUN_MOROGH,
 						DUROTAR,
@@ -3856,7 +3862,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ 56.95, 85.55, FELWOOD },	-- Morlos'Aran
 					},
 					-- #else
-					["maps"] = {
+					["maps_disp"] = {
 						AZSHARA,
 						FERALAS,
 						STRANGLETHORN_VALE,
@@ -3880,7 +3886,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(765, {	-- Silverleaf
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						DUN_MOROGH,
 						DUROTAR,
@@ -3900,7 +3906,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(13466, {	-- Sorrowmoss [CATA+] / Plaguebloom
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						SWAMP_OF_SORROWS,
 						-- #else
@@ -3924,7 +3930,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3820, {	-- Stranglekelp
-					["maps"] = {
+					["maps_disp"] = {
 						ASHENVALE,
 						DARKSHORE,
 						DUSTWALLOW_MARSH,
@@ -3955,7 +3961,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(8838, {	-- Sungrass
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						BADLANDS,
 						BURNING_STEPPES,
@@ -3989,25 +3995,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(2452, {	-- Swiftthistle
-						["maps"] = {
-							DARKSHORE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							LOCH_MODAN,
-							SILVERPINE_FOREST,
-							STONETALON_MOUNTAINS,
-							TELDRASSIL,
-							WESTFALL,
-							WETLANDS,
-							-- #if AFTER CATA
-							AZSHARA,
-							NORTHERN_BARRENS,
-							-- #else
-							ASHENVALE,
-							REDRIDGE_MOUNTAINS,
-							THE_BARRENS,
-							-- #endif
-						},
+					["maps_disp"] = {
+						DARKSHORE,
+						DUSKWOOD,
+						HILLSBRAD_FOOTHILLS,
+						LOCH_MODAN,
+						SILVERPINE_FOREST,
+						STONETALON_MOUNTAINS,
+						TELDRASSIL,
+						WESTFALL,
+						WETLANDS,
+						-- #if AFTER CATA
+						AZSHARA,
+						NORTHERN_BARRENS,
+						-- #else
+						ASHENVALE,
+						REDRIDGE_MOUNTAINS,
+						THE_BARRENS,
+						-- #endif
+					},
 					["providers"] = {
 						{ "o", 1621 },	-- Briarthorn
 						{ "o", 1620 },	-- Mageroyal
@@ -4032,7 +4038,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(3355, {	-- Wild Steelbloom
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						ASHENVALE,
 						DESOLACE,
@@ -6657,7 +6663,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						--____________________________________________
 						-- Ores
 						i(2770, {	-- Copper Ore
-							["maps"] = {
+							["maps_disp"] = {
 								DARKSHORE,
 								DUN_MOROGH,
 								DUROTAR,
@@ -6683,7 +6689,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							["provider"] = { "o", 1731 },	-- Copper Vein
 						}),
 						i(11370, {	-- Dark Iron Ore
-							["maps"] = {
+							["maps_disp"] = {
 								BLACKROCK_DEPTHS,
 								MOLTEN_CORE,
 								-- #if BEFORE CATA
@@ -6695,7 +6701,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(2776, {	-- Gold Ore
 							["description"] = "Gold Veins is a rare spawn in place of Iron Deposits and Mithril Deposits.",
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
 								BURNING_STEPPES,
@@ -6734,7 +6740,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(2772, {	-- Iron Ore
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
 								DESOLACE,
@@ -6761,7 +6767,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						applyclassicphase(PHASE_FIVE, i(22203, {	-- Large Obsidian Shard
-							["maps"] = {
+							["maps_disp"] = {
 								RUINS_OF_AHNQIRAJ,
 								TEMPLE_OF_AHNQIRAJ,
 								-- #if BEFORE CATA
@@ -6774,7 +6780,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						})),
 						i(3858, {	-- Mithril Ore
-							["maps"] = {
+							["maps_disp"] = {
 								BADLANDS,
 								BURNING_STEPPES,
 								FELWOOD,
@@ -6799,7 +6805,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(2775, {	-- Silver Ore
 							["description"] = "Silver Veins is a rare spawn in place of Tin Veins and Iron Deposits.",
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								ASHENVALE,
 								BADLANDS,
@@ -6839,7 +6845,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						applyclassicphase(PHASE_FIVE, i(22202, {	-- Small Obsidian Shard
-							["maps"] = {
+							["maps_disp"] = {
 								RUINS_OF_AHNQIRAJ,
 								TEMPLE_OF_AHNQIRAJ,
 								-- #if BEFORE CATA
@@ -6852,7 +6858,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						})),
 						i(10620, {	-- Thorium Ore
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -6893,7 +6899,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(2771, {	-- Tin Ore
-							["maps"] = {
+							["maps_disp"] = {
 								ASHENVALE,
 								HILLSBRAD_FOOTHILLS,
 								STONETALON_MOUNTAINS,
@@ -6916,7 +6922,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(7911, {	-- Truesilver Ore
 							["description"] = "Truesilver Deposits is a rare spawn in place of Mithril Deposits and Thorium Veins.",
-							["maps"] = {
+							["maps_disp"] = {
 								BADLANDS,
 								BURNING_STEPPES,
 								EASTERN_PLAGUELANDS,
@@ -6953,7 +6959,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						--____________________________________________
 						-- Stones:
 						i(2836, {	-- Coarse Stone
-							["maps"] = {
+							["maps_disp"] = {
 								ASHENVALE,
 								DUSKWOOD,
 								HILLSBRAD_FOOTHILLS,
@@ -6969,7 +6975,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							["provider"] = { "o", 1732 },	-- Tin Vein
 						}),
 						i(12365, {	-- Dense Stone
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -6995,7 +7001,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(2838, {	-- Heavy Stone
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
 								DESOLACE,
@@ -7015,7 +7021,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							["provider"] = { "o", 1735 },	-- Iron Deposit
 						}),
 						i(2835, {	-- Rough Stone
-							["maps"] = {
+							["maps_disp"] = {
 								DARKSHORE,
 								DUN_MOROGH,
 								DUROTAR,
@@ -7041,7 +7047,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							["provider"] = { "o", 1731 },	-- Copper Vein
 						}),
 						i(7912, {	-- Solid Stone
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -7072,7 +7078,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #else
 							["description"] = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low.",
 							-- #endif
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -7106,7 +7112,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(11382, {	-- Blood of the Mountain
-							["maps"] = {
+							["maps_disp"] = {
 								BLACKROCK_DEPTHS,
 								MOLTEN_CORE,
 								-- #if BEFORE CATA
@@ -7118,7 +7124,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(8150, {	-- Deeprock Salt
 							["description"] = "Can drop from any highlevel earth elemental and construct creatures, and miners can get additional yield from mining the corpse.",
-							["maps"] = {
+							["maps_disp"] = {
 								BLACKROCK_DEPTHS,
 								MARAUDON,
 								ULDAMAN,
@@ -7140,7 +7146,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 					}, {
 						i(7909, {	-- Aquamarine
-							["maps"] = {
+							["maps_disp"] = {
 								BADLANDS,
 								BURNING_STEPPES,
 								FELWOOD,
@@ -7162,7 +7168,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(12800, {	-- Azerothian Diamond
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -7188,7 +7194,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(12361, {	-- Blue Sapphire
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -7214,7 +7220,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(3864, {	-- Citrine
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
 								BURNING_STEPPES,
@@ -7246,7 +7252,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(12364, {	-- Huge Emerald
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -7272,7 +7278,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(1529, {	-- Jade
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
 								DESOLACE,
@@ -7297,7 +7303,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(12799, {	-- Large Opal
-							["maps"] = {
+							["maps_disp"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
 								-- #if AFTER CATA
@@ -7323,7 +7329,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(1705, {	-- Lesser Moonstone
-							["maps"] = {
+							["maps_disp"] = {
 								ARATHI_HIGHLANDS,
 								ASHENVALE,
 								BADLANDS,
@@ -7357,7 +7363,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(774, {	-- Malachite
-							["maps"] = {
+							["maps_disp"] = {
 								DARKSHORE,
 								DUN_MOROGH,
 								DUROTAR,
@@ -7374,7 +7380,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(1206, {	-- Moss Agate
-							["maps"] = {
+							["maps_disp"] = {
 								ASHENVALE,
 								DUSKWOOD,
 								HILLSBRAD_FOOTHILLS,
@@ -7395,7 +7401,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(1210, {	-- Shadowgem
-							["maps"] = {
+							["maps_disp"] = {
 								-- #if BEFORE TBC
 								DARKSHORE,
 								DUN_MOROGH,
@@ -7429,7 +7435,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(7910, {	-- Star Ruby
-							["maps"] = {
+							["maps_disp"] = {
 								BADLANDS,
 								BURNING_STEPPES,
 								FELWOOD,
@@ -7462,7 +7468,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						i(818, {	-- Tigerseye
-							["maps"] = {
+							["maps_disp"] = {
 								DARKSHORE,
 								DUN_MOROGH,
 								DUROTAR,
@@ -7608,7 +7614,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- Base leathers:
 				i(4234, {	-- Heavy Leather
-					["maps"] = {
+					["maps_disp"] = {
 						DUSTWALLOW_MARSH,
 						TANARIS,
 						THE_HINTERLANDS,
@@ -7618,7 +7624,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(2318, {	-- Light Leather
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						LOCH_MODAN,
 						SILVERPINE_FOREST,
@@ -7630,18 +7636,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(2319, {	-- Medium Leather
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						STONETALON_MOUNTAINS,
 					},
 				}),
 				i(8170, {	-- Rugged Leather
-					["maps"] = {
+					["maps_disp"] = {
 						BLASTED_LANDS,
 					},
 				}),
 				i(2934, {	-- Ruined Leather Scraps
-					["maps"] = {
+					["maps_disp"] = {
 						DUN_MOROGH,
 						DUROTAR,
 						ELWYNN_FOREST,
@@ -7651,7 +7657,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(4304, {	-- Thick Leather
-					["maps"] = {
+					["maps_disp"] = {
 						BADLANDS,
 						FELWOOD,
 						THOUSAND_NEEDLES,
@@ -7662,7 +7668,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				-- Base hides:
 				i(4235, {	-- Heavy Hide
 					["description"] = "Is a rare drop in place of Heavy Leather.",
-					["maps"] = {
+					["maps_disp"] = {
 						DUSTWALLOW_MARSH,
 						TANARIS,
 						THE_HINTERLANDS,
@@ -7673,7 +7679,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					}),
 				i(783, {	-- Light Hide
 					["description"] = "Is a rare drop in place of Light Leather.",
-					["maps"] = {
+					["maps_disp"] = {
 						DARKSHORE,
 						LOCH_MODAN,
 						SILVERPINE_FOREST,
@@ -7686,20 +7692,20 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(4232, {	-- Medium Hide
 					["description"] = "Is a rare drop in place of Medium Leather.",
-					["maps"] = {
+					["maps_disp"] = {
 						ARATHI_HIGHLANDS,
 						STONETALON_MOUNTAINS,
 					},
 				}),
 				i(8171, {	-- Rugged Hide
 					["description"] = "Is a rare drop in place of Rugged Leather.",
-					["maps"] = {
+					["maps_disp"] = {
 						BLASTED_LANDS,
 					},
 				}),
 				i(8169, {	-- Thick Hide
 					["description"] = "Is a rare drop in place of Thick Leather.",
-					["maps"] = {
+					["maps_disp"] = {
 						BADLANDS,
 						FELWOOD,
 						THOUSAND_NEEDLES,
@@ -7717,7 +7723,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						8764,	-- Mistwing Ravager
 						8763,	-- Mistwing Rogue
 					},
-					["maps"] = {
+					["maps_disp"] = {
 						AZSHARA,
 						WINTERSPRING,
 					},
@@ -7731,7 +7737,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 						11982,	-- Magmadar
 					},
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						FIRELANDS,
 						-- #endif
@@ -7775,7 +7781,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						684,	-- Shadowmaw Panther
 					},
 					["description"] = "Panthers can be found in central Stranglethorn Vale and eastern Swamp of Sorrows.",
-					["maps"] = {
+					["maps_disp"] = {
 						STRANGLETHORN_VALE,
 						SWAMP_OF_SORROWS,
 					},
@@ -7783,13 +7789,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(8368, {	-- Thick Wolfhide
 					["description"] = "Can be skinned from all wolfs in the level bracket 40-60 though the droprate is 3-5 %.",
-					["maps"] = { BURNING_STEPPES },
+					["maps_disp"] = { BURNING_STEPPES },
 					["timeline"] = { REMOVED_3_1_0 },
 				}),
 				-- Scales
 				i(15416, {	-- Black Dragonscale
 					["description"] = "Can be skinned from elite creatures of the Black Dragonflight.",
-					["maps"] = {
+					["maps_disp"] = {
 						BLACKWING_LAIR,
 						-- #if BEFORE WOD
 						BLACKROCK_SPIRE,
@@ -7804,7 +7810,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #if AFTER WOD
 					["cr"] = 14020,	-- Chromaggus
 					["description"] = "Blizzard being Blizzard, Blue Dragonscale is only obtainable from Chromaggus in Blackwing Lair. All other sources are removed.",
-					["maps"] = { BLACKWING_LAIR },
+					["maps_disp"] = { BLACKWING_LAIR },
 					-- #elseif AFTER CATA
 					["crs"] = {
 						14020,	-- Chromaggus
@@ -7813,7 +7819,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						10442,	-- Chromatic Whelp
 					},
 					["description"] = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
-					["maps"] = { BLACKROCK_SPIRE },
+					["maps_disp"] = { BLACKROCK_SPIRE },
 					-- #else
 					["description"] = "Can be skinned from elite creatures of the Blue Dragonflight, though is a pain to farm in regards to drop rate.",
 					["coords"] = {
@@ -7827,7 +7833,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				applyclassicphase(PHASE_FOUR, i(20381, {	-- Dreamscale
 					-- #if AFTER 10.1.5
 					["description"] = "Can be skinned from corrupted creatures of the Green Dragonflight in Temple of Atal'hakkar. Can also be skinned from the Dragons of Nightmare during the Anniversary event.",
-					["maps"] = { TEMPLE_OF_ATALHAKKAR },
+					["maps_disp"] = { TEMPLE_OF_ATALHAKKAR },
 					-- #elseif AFTER 7.2.5
 					["description"] = "Can be skinned from the Dragons of Nightmare during the Anniversary event.",
 					-- #elseif AFTER 4.0.3
@@ -7839,16 +7845,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				})),
 				i(15412, {	-- Green Dragonscale
 					["description"] = "Can be skinned from elite creatures of the Green Dragonflight around the world.",
-					["maps"] = { TEMPLE_OF_ATALHAKKAR },
+					["maps_disp"] = { TEMPLE_OF_ATALHAKKAR },
 				}),
 				i(7392),	-- Green Whelp Scale (Sourced in Feralas [CATA+] / Swamp of Sorrows)
 				i(15408, {	-- Heavy Scorpid Scale
 					-- #if AFTER 4.0.3
 					["description"] = "Can be skinned from scorpids in Silithus.",
-					["maps"] = { SILITHUS },
+					["maps_disp"] = { SILITHUS },
 					-- #else
 					["description"] = "Can be skinned from scorpids in the level bracket 50-60.",
-					["maps"] = {
+					["maps_disp"] = {
 						BURNING_STEPPES,
 						SILITHUS
 					},
@@ -7859,7 +7865,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #if AFTER WOD
 					["cr"] = 14020,	-- Chromaggus
 					["description"] = "Blizzard being Blizzard, Red Dragonscale is only obtainable from Chromaggus in Blackwing Lair. All other sources are removed.",
-					["maps"] = { BLACKWING_LAIR },
+					["maps_disp"] = { BLACKWING_LAIR },
 					-- #elseif AFTER CATA
 					["crs"] = {
 						14020,	-- Chromaggus
@@ -7868,7 +7874,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						10442,	-- Chromatic Whelp
 					},
 					["description"] = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
-					["maps"] = { BLACKROCK_SPIRE },
+					["maps_disp"] = { BLACKROCK_SPIRE },
 					-- #else
 					["description"] = "Can be skinned from elite creatures of the Red Dragonflight around the world.",
 					["coord"] = { 80.0, 48.0, WETLANDS },
@@ -7877,7 +7883,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(7287),	-- Red Whelp Scale (Sourced in Wetlands)
 				i(15410),	-- Scale of Onyxia (Sourced in Onyxia's Lair)
 				i(8154, {	-- Scorpid Scale
-					["maps"] = { TANARIS },
+					["maps_disp"] = { TANARIS },
 					-- #if AFTER BFA
 					["description"] = "Drops from scorpids in previously higher intermediate- to higher level vanilla zones like scorpids in Tanaris.",
 					-- #elseif AFTER 4.0.3
@@ -7894,7 +7900,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #else
 					["description"] = "Can be skinned from turtles in the level bracket 35-60 like Mudrock turtles in Dustwallow.",
 					-- #endif
-					["maps"] = {
+					["maps_disp"] = {
 						-- #if AFTER CATA
 						TANARIS,
 						THOUSAND_NEEDLES,
@@ -7905,7 +7911,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(8165, {	-- Worn Dragonscale
 					["description"] = "Can be skinned from elite creatures of any Dragonflights around the world.",
-					["maps"] = { TEMPLE_OF_ATALHAKKAR },
+					["maps_disp"] = { TEMPLE_OF_ATALHAKKAR },
 				}),
 				-- Other
 				i(20501),	-- Heavy Silithid Carapace (Sourced in Silithus)
