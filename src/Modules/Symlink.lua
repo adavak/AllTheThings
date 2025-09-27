@@ -1094,4 +1094,54 @@ app.AddEventHandler("OnLoad", function()
 		-- SettingsIcon = ,
 		SettingsTooltip = app.L.FILL_NPC_DATA_CHECKBOX_TOOLTIP,
 	})
+
+	-- Pulls in Common drop content for specific Objects if any exists (e.g. mining/herbing/fishing nodes)
+	-- This allows Object providers on Items to show as Sources when Filled
+	Fill.AddFiller("OBJECT",
+	function(group, FillData)
+
+		local objectID = group.objectID
+		if not objectID then return end
+
+		-- app.PrintDebug("Object Group",app:SearchLink(group),objectID)
+		-- search for groups of this Object
+		local objectGroups = SearchForField("objectID", objectID);
+		if not objectGroups or #objectGroups == 0 then return end
+
+		-- see if there's a difficulty wrapping the fill group
+		local difficultyID = GetRelativeValue(group, "difficultyID");
+		if difficultyID then
+			-- app.PrintDebug("FillOBJ.Diff",difficultyID)
+			-- can only fill obj groups for the obj which match the difficultyID
+			local groups, objDiff, objGroup
+			for i=1,#objectGroups do
+				objGroup = objectGroups[i]
+				if objGroup.hash ~= group.hash then
+					objDiff = GetRelativeValue(objGroup, "difficultyID");
+					if not objDiff or objDiff == difficultyID then
+						-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",objGroup.hash)
+						if groups then groups[#groups + 1] = CreateObject(objGroup)
+						else groups = { CreateObject(objGroup) }; end
+					end
+				end
+			end
+			return groups;
+		else
+			-- app.PrintDebug("FillOBJ")
+			local groups,objGroup
+			for i=1,#objectGroups do
+				objGroup = objectGroups[i]
+				if objGroup.hash ~= group.hash then
+					-- app.PrintDebug("IsDrop",group.hash,"<==",objGroup.hash)
+					if groups then groups[#groups + 1] = CreateObject(objGroup)
+					else groups = { CreateObject(objGroup) }; end
+				end
+			end
+			return groups;
+		end
+	end,
+	{
+		-- SettingsIcon = ,
+		SettingsTooltip = app.L.FILL_OBJECT_DATA_CHECKBOX_TOOLTIP,
+	})
 end)
