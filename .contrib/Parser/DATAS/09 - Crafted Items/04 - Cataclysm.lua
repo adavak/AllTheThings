@@ -1225,7 +1225,12 @@ Fire and Water - Damage against Elementals increased by 15%.
 			i(52487),	-- Jeweler's Amber Monocle
 			i(52485),	-- Jeweler's Ruby Monocle
 			i(52486),	-- Jeweler's Sapphire Monocle
-			i(52489),	-- Rhinestone Sunglasses
+			i(52489, {	-- Rhinestone Sunglasses
+				-- #if BEFORE SL
+				["collectible"] = false,
+				["description"] = "Keep this somewhere until the appearance can be learned in Shadowlands."
+				-- #endif
+			}),
 		}),
 		filter(MISC, {
 			i(204356, {["timeline"]={ADDED_10_0_7}}),	-- Illustrious Gemdust
