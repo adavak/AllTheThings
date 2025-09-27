@@ -545,14 +545,42 @@ MOP_ENGINEERING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"
 	}),
 	applyclassicphase(BFA_PHASE_ONE, r(264485, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Pandaria Engineering
 	n(ARMOR, {
-		r(127118),	-- Agile Retinal Armor
-		r(127119),	-- Camouflage Retinal Armor
-		r(127120),	-- Deadly Retinal Armor
-		r(127121),	-- Energized Retinal Armor
-		r(127117),	-- Lightweight Retinal Armor
+		r(127118, {	-- Agile Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = LEATHER_CLASSES,
+			-- #endif
+		}),
+		r(127119, {	-- Camouflage Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = { DRUID },
+			-- #endif
+		}),
+		r(127120, {	-- Deadly Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = MAIL_CLASSES,
+			-- #endif
+		}),
+		r(127121, {	-- Energized Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = { SHAMAN },
+			-- #endif
+		}),
+		r(127117, {	-- Lightweight Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = CLOTH_CLASSES,
+			-- #endif
+		}),
 		r(127130),	-- Mist-Piercing Goggles
-		r(127123),	-- Reinforced Retinal Armor
-		r(127122),	-- Specialized Retinal Armor
+		r(127123, {	-- Reinforced Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = PLATE_CLASSES,
+			-- #endif
+		}),
+		r(127122, {	-- Specialized Retinal Armor
+			-- #if BEFORE 7.3.0
+			["classes"] = { PALADIN },
+			-- #endif
+		}),
 	}),
 	n(ARMOR_ENCHANTMENTS, {
 		r(126392),	-- Goblin Glider
