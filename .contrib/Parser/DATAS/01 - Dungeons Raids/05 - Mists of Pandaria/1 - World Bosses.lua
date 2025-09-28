@@ -601,14 +601,30 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					-- Mounts
 					i(89783),	-- Son of Galleon (MOUNT!)
 					-- Helms
-					i(90410),	-- Cap of Wandering Pride
+					i(90410, {	-- Cap of Wandering Pride
+						-- #if BEFORE WOD
+						["classes"] = LEATHER_CLASSES_INTELLECT,
+						-- #endif
+					}),
 					i(90413),	-- Crest of the Grand Warband
-					i(90416),	-- Crown of Ranging Invasion
+					i(90416, {	-- Crown of Ranging Invasion
+						-- #if BEFORE WOD
+						["classes"] = { PALADIN },
+						-- #endif
+					}),
 					i(90411),	-- Facemask of Unrepentant Banditry
-					i(90408),	-- Free Spirit Hood
+					i(90408, {	-- Free Spirit Hood
+						-- #if BEFORE WOD
+						["classes"] = { PRIEST },
+						-- #endif
+					}),
 					i(90415),	-- Giantfoot Headguard
 					i(90414),	-- Greathelm of the Monstrous Mushan
-					i(90412),	-- Helm of Restoring Wind
+					i(90412, {	-- Helm of Restoring Wind
+						-- #if BEFORE WOD
+						["classes"] = { SHAMAN },
+						-- #endif
+					}),
 					i(90409),	-- Sky-Sear Cowl
 					-- Necks
 					i(90432),	-- Hellrider's Choker
@@ -617,33 +633,81 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(90431),	-- Saddlebinder Links
 					i(90430),	-- Stomphowl Pendant
 					-- Chests
-					i(90422),	-- Armor of the Single Cloud
+					i(90422, {	-- Armor of the Single Cloud
+						-- #if BEFORE WOD
+						["classes"] = { SHAMAN },
+						-- #endif
+					}),
 					i(90425),	-- Carapace of Crushed Conviction
 					i(90421),	-- Chain of Unsiezed Skies
-					i(90423),	-- Chestguard of the Unbowed Back
-					i(90419),	-- Fireproofed Chestguard
+					i(90423, {	-- Chestguard of the Unbowed Back
+						-- #if BEFORE WOD
+						["classes"] = { PALADIN },
+						-- #endif
+					}),
+					i(90419, {	-- Fireproofed Chestguard
+						-- #if BEFORE WOD
+						["classes"] = LEATHER_CLASSES_INTELLECT,
+						-- #endif
+					}),
 					i(90420),	-- Flameshot Wrap
 					i(90424),	-- Ravaging Warrior's Chestplate
-					i(90417),	-- Robes of Blue Skies
+					i(90417, {	-- Robes of Blue Skies
+						-- #if BEFORE WOD
+						["classes"] = { PRIEST },
+						-- #endif
+					}),
 					i(90418),	-- Robes of the Lightning Rider
 					-- Waist
 					i(90449),	-- Belt of Detonation
 					i(90451),	-- Cannoneer's Gunpowder Carrier
-					i(90448),	-- Cannonfire Cord
-					i(90450),	-- Carrot-Holder Belt
+					i(90448, {	-- Cannonfire Cord
+						-- #if BEFORE WOD
+						["classes"] = { PRIEST },
+						-- #endif
+					}),
+					i(90450, {	-- Carrot-Holder Belt
+						-- #if BEFORE WOD
+						["classes"] = LEATHER_CLASSES_INTELLECT,
+						-- #endif
+					}),
 					i(90456),	-- Cord of Crazed Strength
-					i(90454),	-- Girdle of the Galloping Giant
+					i(90454, {	-- Girdle of the Galloping Giant
+						-- #if BEFORE WOD
+						["classes"] = { PALADIN },
+						-- #endif
+					}),
 					i(90453),	-- Girdle of the Raging Rider
 					i(90455),	-- Greatbelt of Livid Fury
-					i(90452),	-- Sparkmaker Girdle
+					i(90452, {	-- Sparkmaker Girdle
+						-- #if BEFORE WOD
+						["classes"] = { SHAMAN },
+						-- #endif
+					}),
 					-- Boots
-					i(90443),	-- Burnmender Boots
-					i(90445),	-- Firerider Treads
+					i(90443, {	-- Burnmender Boots
+						-- #if BEFORE WOD
+						["classes"] = { SHAMAN },
+						-- #endif
+					}),
+					i(90445, {	-- Firerider Treads
+						-- #if BEFORE WOD
+						["classes"] = { SHAMAN },
+						-- #endif
+					}),
 					i(90442),	-- Flamefoot Tabi
 					i(90439),	-- Open Steppe Sandals
 					i(90446),	-- Silverspur Warboots
-					i(90440),	-- Slippers of Fiery Retribution
-					i(90441),	-- Stompdodger Boots
+					i(90440, {	-- Slippers of Fiery Retribution
+						-- #if BEFORE WOD
+						["classes"] = { PRIEST },
+						-- #endif
+					}),
+					i(90441, {	-- Stompdodger Boots
+						-- #if BEFORE WOD
+						["classes"] = LEATHER_CLASSES_INTELLECT,
+						-- #endif
+					}),
 					i(90447),	-- Stompers of Vigorous Stomping
 					i(90444),	-- Treads of Gentle Nudges
 					-- Rings
