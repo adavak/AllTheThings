@@ -759,7 +759,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						i(117379, {	-- Tremendous Tankard O'Terror [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
 						}),
-						
 						-- #if BEFORE 10.1.7
 						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
 							["timeline"] = { ADDED_2_0_1 },
@@ -3675,19 +3674,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	-- expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
-	-- 	applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
-	-- 		n(QUESTS, {
-	-- 			q(37247)	-- Angry Brewfest Letter - triggers when using "Angry Brewfest Letter" to cancel Brew of the Month subscription
-	-- 		})
-	-- 	})),
-	-- })),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
-			-- #IF AFTER 10.1.7
-			q(77775, {	-- Daily kill of Coren Direbrew
-				["name"] = "Daily kill of Coren Direbrew",
-			}),
+			-- This is replaced with 91894 since 11.2.0
+			-- #IF AFTER 11.2.0
+			q(77775), -- 	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
 			-- #endif
 		})),
 	})),
