@@ -94,7 +94,11 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- Probably removed in 2025
 			})),
 			i(93671, {	-- Ghastly Charger's Skull (MOUNT!)
+				-- #if AFTER 11.0.2
+				-- #if BEFORE 12.0.2
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between August 26th, 03:00 p.m. & September 19th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_11_0_2 },
 				["u"] = REMOVED_FROM_GAME,	-- 19th September 2024
 			}),
@@ -148,7 +152,11 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(72153, {	-- Sand Scarab (PET!)
+				-- #if AFTER 11.0.2
+				-- #if BEFORE 12.0.2
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between October 22nd, 10:00 a.m. & November 5th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_11_0_5 },
 				["u"] = REMOVED_FROM_GAME,	-- 5th November 2024
 			}),
@@ -183,7 +191,11 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(68385, {	-- Lil' Ragnaros (PET!)
+				-- #if AFTER 11.0.2
+				-- #if BEFORE 12.0.2
 				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
@@ -213,7 +225,11 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 19th December 2024
 			}),
 			i(95341, {	-- Armored Bloodwing (MOUNT!)
+				-- #if AFTER 11.0.2
+				-- #if BEFORE 12.0.2
 				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until an unknown date.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 },
 			}),
 			i(233207, {	-- The Coward's Azure Target (COSMETIC!)
