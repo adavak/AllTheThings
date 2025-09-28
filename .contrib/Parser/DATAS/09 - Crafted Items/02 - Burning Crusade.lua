@@ -578,27 +578,87 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			applyclassicphase(TBC_PHASE_TWO, i(32478, {["timeline"] = {ADDED_2_1_0}})),	-- Deathblow X11 Goggles
 			applyclassicphase(TBC_PHASE_TWO, i(32494, {["timeline"] = {ADDED_2_1_0}})),	-- Destruction Holo-Gogs
 			applyclassicphase(TBC_PHASE_TWO, i(32461, {["timeline"] = {ADDED_2_1_0}})),	-- Furious Gizmatic Goggles
-			applyclassicphase(TBC_PHASE_TWO, i(32476, {["timeline"] = {ADDED_2_1_0}})),	-- Gadgetstorm Goggles
+			applyclassicphase(TBC_PHASE_TWO, i(32476, {	-- Gadgetstorm Goggles
+				["timeline"] = { ADDED_2_1_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { SHAMAN },
+				-- #endif
+			})),
 			applyclassicphase(TBC_PHASE_FIVE, i(34357, {["timeline"] = {ADDED_2_4_0}})),	-- Hard Khorium Goggles
-			applyclassicphase(TBC_PHASE_FIVE, i(35182, {["timeline"] = {ADDED_2_4_0}})),	-- Hyper-Magnified Moon Specs
+			applyclassicphase(TBC_PHASE_FIVE, i(35182, { 	-- Hyper-Magnified Moon Specs
+				["timeline"] = { ADDED_2_4_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = LEATHER_CLASSES_INTELLECT,
+				-- #endif
+			})),
 			i(23763),	-- Hyper-Vision Goggles
-			applyclassicphase(TBC_PHASE_TWO, i(32472, {["timeline"] = {ADDED_2_1_0}})),	-- Justicebringer 2000 Specs
-			applyclassicphase(TBC_PHASE_FIVE, i(35185, {["timeline"] = {ADDED_2_4_0}})),	-- Justicebringer 3000 Specs
-			applyclassicphase(TBC_PHASE_FIVE, i(34355, {["timeline"] = {ADDED_2_4_0}})),	-- Lightning Etched Specs
-			applyclassicphase(TBC_PHASE_TWO, i(32475, {["timeline"] = {ADDED_2_1_0}})),	-- Living Replicator Specs
-			applyclassicphase(TBC_PHASE_TWO, i(32480, {["timeline"] = {ADDED_2_1_0}})),	-- Magnified Moon Specs
+			applyclassicphase(TBC_PHASE_TWO, i(32472, {	-- Justicebringer 2000 Specs
+				["timeline"] = { ADDED_2_1_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { PALADIN },
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_FIVE, i(35185, {	-- Justicebringer 3000 Specs
+				["timeline"] = { ADDED_2_4_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { PALADIN },
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_FIVE, i(34355, {	-- Lightning Etched Specs
+				["timeline"] = { ADDED_2_4_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { SHAMAN },
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_TWO, i(32475, {	-- Living Replicator Specs
+				["timeline"] = { ADDED_2_1_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { SHAMAN },
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_TWO, i(32480, {	-- Magnified Moon Specs
+				["timeline"] = { ADDED_2_1_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = LEATHER_CLASSES_INTELLECT,
+				-- #endif
+			})),
 			applyclassicphase(TBC_PHASE_FIVE, i(34354, {["timeline"] = {ADDED_2_4_0}})),	-- Mayhem Projection Goggles
 			i(23761),	-- Power Amplification Goggles
-			applyclassicphase(TBC_PHASE_TWO, i(32495, {["timeline"] = {ADDED_2_1_0}})),	-- Powerheal 4000 Lens
-			applyclassicphase(TBC_PHASE_FIVE, i(35181, {["timeline"] = {ADDED_2_4_0}})),	-- Powerheal 9000 Lens
-			applyclassicphase(TBC_PHASE_FIVE, i(35184, {["timeline"] = {ADDED_2_4_0}})),	-- Primal-Attuned Goggles
+			applyclassicphase(TBC_PHASE_TWO, i(32495, {	-- Powerheal 4000 Lens
+				["timeline"] = { ADDED_2_1_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { PRIEST },
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_FIVE, i(35181, {	-- Powerheal 9000 Lens
+				["timeline"] = { ADDED_2_4_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { PRIEST },
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_FIVE, i(35184, {	-- Primal-Attuned Goggles
+				["timeline"] = { ADDED_2_4_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { SHAMAN },
+				-- #endif
+			})),
 			applyclassicphase(TBC_PHASE_FIVE, i(34353, {["timeline"] = {ADDED_2_4_0}})),	-- Quad Deathblow X44 Goggles
 			applyclassicphase(TBC_PHASE_TWO, i(32474, {["timeline"] = {ADDED_2_1_0}})),	-- Surestrike Goggles v2.0
 			applyclassicphase(TBC_PHASE_FIVE, i(34356, {["timeline"] = {ADDED_2_4_0}})),	-- Surestrike Goggles v3.0
 			applyclassicphase(TBC_PHASE_TWO, i(32473, {["timeline"] = {ADDED_2_1_0}})),	-- Tankatronic Goggles
 			i(23762),	-- Ultra-Spectropic Detection Goggles
-			applyclassicphase(TBC_PHASE_TWO, i(32479, {["timeline"] = {ADDED_2_1_0}})),	-- Wonderheal XT40 Shades
-			applyclassicphase(TBC_PHASE_FIVE, i(35183, {["timeline"] = {ADDED_2_4_0}})),	-- Wonderheal XT68 Shades
+			applyclassicphase(TBC_PHASE_TWO, i(32479, {	-- Wonderheal XT40 Shades
+				["timeline"] = { ADDED_2_1_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = LEATHER_CLASSES_INTELLECT,
+				-- #endif
+			})),
+			applyclassicphase(TBC_PHASE_FIVE, i(35183, {	-- Wonderheal XT68 Shades
+				["timeline"] = { ADDED_2_4_0 },
+				-- #if BEFORE 7.3.0
+				["classes"] = LEATHER_CLASSES_INTELLECT,
+				-- #endif
+			})),
 		}),
 		filter(MISC, {
 			i(23737),	-- Adamantite Grenade

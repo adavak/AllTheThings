@@ -599,14 +599,27 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		n(ARMOR, {
 			i(42549),	-- Armored Titanium Goggles
 			i(42552),	-- Charged Titanium Specs
-			i(42555),	-- Electroflux Sight Enhancers
-			i(42554),	-- Greensight Gogs
+			i(42555, {	-- Electroflux Sight Enhancers
+				-- #if BEFORE 7.3.0
+				["classes"] = { SHAMAN },
+				-- #endif
+			}),
+			i(42554, {	-- Greensight Gogs
+				-- #if BEFORE 7.3.0
+				["classes"] = LEATHER_CLASSES_INTELLECT,
+				-- #endif
+			}),
 			i(41112),	-- Mechanized Snow Goggles
 			i(44740),	-- Mechanized Snow Goggles
 			i(44741),	-- Mechanized Snow Goggles
 			i(44742),	-- Mechanized Snow Goggles
 			i(42551),	-- Truesight Ice Blinders
-			i(44949, {["timeline"] = {ADDED_3_0_8}}),	-- Unbreakable Healing Amplifiers
+			i(44949, {	-- Unbreakable Healing Amplifiers
+				["timeline"] = { ADDED_3_0_8 },
+				-- #if BEFORE 7.3.0
+				["classes"] = { PALADIN },
+				-- #endif
+			}),
 			i(42553),	-- Visage Liquification Goggles
 			i(42550),	-- Weakness Spectralizers
 		}),

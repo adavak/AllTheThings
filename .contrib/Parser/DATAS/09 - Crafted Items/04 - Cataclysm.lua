@@ -481,7 +481,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(60222),	-- Authentic Jr. Engineer Goggles
 			i(59453, {	-- Camouflage Bio-Optic Killshades
 				-- #if BEFORE 7.3.0
-				["classes"] = { DRUID },
+				["classes"] = LEATHER_CLASSES_INTELLECT,
 				-- #endif
 			}),
 			i(59456),	-- Deadly Bio-Optic Killshades

@@ -652,13 +652,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		}),
 		n(ARMOR, {
 			i(77534),	-- Agile Retinal Armor
-			i(77535),	-- Camouflage Retinal Armor
+			i(77535, {	-- Camouflage Retinal Armor
+				-- #if BEFORE 7.3.0
+				["classes"] = LEATHER_CLASSES_INTELLECT,
+				-- #endif
+			}),
 			i(77536),	-- Deadly Retinal Armor
-			i(77537),	-- Energized Retinal Armor
+			i(77537, {	-- Energized Retinal Armor
+				-- #if BEFORE 7.3.0
+				["classes"] = { SHAMAN },
+				-- #endif
+			}),
 			i(77533),	-- Lightweight Retinal Armor
 			i(87213),	-- Mist-Piercing Goggles
 			i(77539),	-- Reinforced Retinal Armor
-			i(77538),	-- Specialized Retinal Armor
+			i(77538, {	-- Specialized Retinal Armor
+				-- #if BEFORE 7.3.0
+				["classes"] = { PALADIN },
+				-- #endif
+			}),
 		}),
 		filter(BATTLE_PETS, {
 			i(87526),	-- Mechanical Pandaren Dragonling (PET!)

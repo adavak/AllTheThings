@@ -181,68 +181,68 @@ TBC_ENGINEERING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = {
 	n(ARMOR, {
 		applyclassicphase(TBC_PHASE_TWO, r(41317, {	-- Deathblow X11 Goggles
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { ROGUE, MONK, DRUID },
+			-- #if BEFORE 7.3.0
+			["classes"] = LEATHER_CLASSES,
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41320, {	-- Destruction Holo-gogs
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { PRIEST, MAGE, WARLOCK },
+			-- #if BEFORE 7.3.0
+			["classes"] = CLOTH_CLASSES,
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(40274, {	-- Furious Gizmatic Goggles
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+			-- #if BEFORE 7.3.0
+			["classes"] = PLATE_CLASSES,
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41315, {	-- Gadgetstorm Goggles
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
+			-- #if BEFORE 7.3.0
 			["classes"] = { SHAMAN },
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41311, {	-- Justicebringer 2000 Specs
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
+			-- #if BEFORE 7.3.0
 			["classes"] = { PALADIN },
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41316, {	-- Living Replicator Specs
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
+			-- #if BEFORE 7.3.0
 			["classes"] = { SHAMAN },
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41319, {	-- Magnified Moon Specs
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { DRUID },
+			-- #if BEFORE 7.3.0
+			["classes"] = LEATHER_CLASSES_INTELLECT,
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41321, {	-- Powerheal 4000 Lens
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
+			-- #if BEFORE 7.3.0
 			["classes"] = { PRIEST },
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41314, {	-- Surestrike Goggles v2.0
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { HUNTER, SHAMAN },
+			-- #if BEFORE 7.3.0
+			["classes"] = MAIL_CLASSES,
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41312, {	-- Tankatronic Goggles
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+			-- #if BEFORE 7.3.0
+			["classes"] = PLATE_CLASSES,
 			-- #endif
 		})),
 		applyclassicphase(TBC_PHASE_TWO, r(41318, {	-- Wonderheal XT40 Shades
 			["timeline"] = { ADDED_2_1_0 },
-			-- #if BEFORE 7.3.5
-			["classes"] = { DRUID },
+			-- #if BEFORE 7.3.0
+			["classes"] = LEATHER_CLASSES_INTELLECT,
 			-- #endif
 		})),
 	}),
@@ -309,69 +309,63 @@ WRATH_ENGINEERING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"]
 	n(ARMOR, {
 		r(56480, {	-- Armored Titanium Goggles
 			-- #if BEFORE 7.3.0
-			["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+			["classes"] = PLATE_CLASSES,
 			-- #endif
 		}),
 		r(56483, {	-- Charged Titanium Specs
 			-- #if BEFORE 7.3.0
-			["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+			["classes"] = PLATE_CLASSES,
 			-- #endif
 		}),
 		r(56487, {	-- Electroflux Sight Enhancers
 			-- #if BEFORE 7.3.0
-			["classes"] = {
-				-- #if AFTER CATA
-				-- CRIEVE NOTE: Not sure what patch this becomes available to hunters.
-				HUNTER,
-				-- #endif
-				SHAMAN,
-			},
+			["classes"] = { SHAMAN },
 			-- #endif
 		}),
 		r(56486, {	-- Greensight Gogs
 			-- #if BEFORE 7.3.0
-			["classes"] = { DRUID },
+			["classes"] = LEATHER_CLASSES_INTELLECT,
 			-- #endif
 		}),
 		r(56465, {	-- Mechanized Snow Goggles
 			-- #if BEFORE 7.3.0
-			["classes"] = { PRIEST, MAGE, WARLOCK },
+			["classes"] = CLOTH_CLASSES,
 			-- #endif
 		}),
 		r(61481, {	-- Mechanized Snow Goggles
 			-- #if BEFORE 7.3.0
-			["classes"] = { DRUID, ROGUE, MONK, DEMONHUNTER },
+			["classes"] = LEATHER_CLASSES,
 			-- #endif
 		}),
 		r(61482, {	-- Mechanized Snow Goggles
 			-- #if BEFORE 7.3.0
-			["classes"] = { HUNTER, SHAMAN },
+			["classes"] = MAIL_CLASSES,
 			-- #endif
 		}),
 		r(61483, {	-- Mechanized Snow Goggles
 			-- #if BEFORE 7.3.0
-			["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+			["classes"] = PLATE_CLASSES,
 			-- #endif
 		}),
 		r(56574, {	-- Truesight Ice Blinders
 			-- #if BEFORE 7.3.0
-			["classes"] = { HUNTER, SHAMAN },
+			["classes"] = MAIL_CLASSES,
 			-- #endif
 		}),
 		r(62271, {	-- Unbreakable Healing Amplifiers
-			["timeline"] = {ADDED_3_0_8},
+			["timeline"] = { ADDED_3_0_8 },
 			-- #if BEFORE 7.3.0
 			["classes"] = { PALADIN },
 			-- #endif
 		}),
 		r(56484, {	-- Visage Liquification Goggles
 			-- #if BEFORE 7.3.0
-			["classes"] = { PRIEST, MAGE, WARLOCK },
+			["classes"] = CLOTH_CLASSES,
 			-- #endif
 		}),
 		r(56481, {	-- Weakness Spectralizers
 			-- #if BEFORE 7.3.0
-			["classes"] = { DRUID, ROGUE, MONK, DEMONHUNTER },
+			["classes"] = LEATHER_CLASSES,
 			-- #endif
 		}),
 	}),
@@ -463,7 +457,7 @@ CATA_ENGINEERING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] =
 		r(84406),	-- Authentic Jr. Engineer Goggles
 		r(81724, {	-- Camouflage Bio-Optic Killshades
 			-- #if BEFORE 7.3.0
-			["classes"] = { DRUID },
+			["classes"] = LEATHER_CLASSES_INTELLECT,
 			-- #endif
 		}),
 		r(81716, {	-- Deadly Bio-Optic Killshades
@@ -552,7 +546,7 @@ MOP_ENGINEERING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"
 		}),
 		r(127119, {	-- Camouflage Retinal Armor
 			-- #if BEFORE 7.3.0
-			["classes"] = { DRUID },
+			["classes"] = LEATHER_CLASSES_INTELLECT,
 			-- #endif
 		}),
 		r(127120, {	-- Deadly Retinal Armor
