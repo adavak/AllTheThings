@@ -95,7 +95,7 @@ root(ROOTS.Promotions, {
 			})),
 			i(93671, {	-- Ghastly Charger's Skull (MOUNT!)
 				-- #if AFTER 11.0.2
-				-- #if BEFORE 12.0.2
+				-- #if BEFORE 12.0.0
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between August 26th, 03:00 p.m. & September 19th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				-- #endif
 				-- #endif
@@ -153,7 +153,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(72153, {	-- Sand Scarab (PET!)
 				-- #if AFTER 11.0.2
-				-- #if BEFORE 12.0.2
+				-- #if BEFORE 12.0.0
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between October 22nd, 10:00 a.m. & November 5th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				-- #endif
 				-- #endif
@@ -192,7 +192,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(68385, {	-- Lil' Ragnaros (PET!)
 				-- #if AFTER 11.0.2
-				-- #if BEFORE 12.0.2
+				-- #if BEFORE 12.0.0
 				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
 				-- #endif
 				-- #endif
@@ -226,7 +226,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(95341, {	-- Armored Bloodwing (MOUNT!)
 				-- #if AFTER 11.0.2
-				-- #if BEFORE 12.0.2
+				-- #if BEFORE 12.0.0
 				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until an unknown date.",
 				-- #endif
 				-- #endif
