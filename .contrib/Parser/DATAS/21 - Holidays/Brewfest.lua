@@ -709,12 +709,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_6_0_2 },
 					["lvl"] = 98,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						-- #IF AFTER 10.1.7
-						-- #IF BEFORE 11.2.0
-						hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
-						-- #ELSE
+						-- add this QuestID for DF Classic
+						-- hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
 						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
-						-- #endif
 							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
 							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
 							["timeline"] = { ADDED_10_1_7 },
@@ -740,7 +737,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 								-- #endif
 							},
 						}),
-						-- #endif
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
 						}),
