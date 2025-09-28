@@ -709,9 +709,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_6_0_2 },
 					["lvl"] = 98,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
-						-- add this QuestID for DF Classic
-						-- hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
+						-- #if AFTER 11.2.0
 						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
+						-- #else
+						hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
+						-- #endif
 							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
 							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
 							["timeline"] = { ADDED_10_1_7 },
@@ -725,7 +727,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 									["timeline"] = { ADDED_10_1_7 },
 									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
 								}),
-								-- #if AFTER 10.1.7
 								i(37828, {	-- Great Brewfest Kodo (MOUNT!)
 									["timeline"] = { ADDED_2_0_1 },
 									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
@@ -734,7 +735,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 									["timeline"] = { ADDED_2_0_1 },
 									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
 								}),
-								-- #endif
 							},
 						}),
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
@@ -759,7 +759,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						-- #endif
 					}),
 				}),
-				i(149752, {	-- Keg-Shaped Treasure Box		(Uncommon Quality)
+				i(149752, {	-- Keg-Shaped Treasure Box	(Uncommon Quality)
 					["timeline"] = { ADDED_7_0_3 },
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
