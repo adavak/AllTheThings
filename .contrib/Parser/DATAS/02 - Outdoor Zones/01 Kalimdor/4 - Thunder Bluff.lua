@@ -1294,6 +1294,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
 					},
 				}),
+				n(3017, {	-- Nan Mistrunner <Fruit Vendor>
+					["coord"] = { 47.3, 42.4, THUNDER_BLUFF },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(8953),	-- Deep Fried Plantains
+						i(4539),	-- Goldenbark Apple
+						i(4602),	-- Moon Harvest Pumpkin
+						i(4536),	-- Shiny Red Apple
+						i(4538),	-- Snapvine Watermelon
+						i(4537),	-- Tel'Abim Banana
+					},
+				}),
 				n(3012, {	-- Nata Dawnstrider <Enchanting Supplies>
 					["coord"] = { 44.9, 37.7, THUNDER_BLUFF },
 					["races"] = HORDE_ONLY,

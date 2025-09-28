@@ -1490,6 +1490,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(VENDORS, {
+				n(7978, {	-- Bimble Longberry <Fruit Vendor>
+					["coord"] = { 32.4, 21.2, IRONFORGE },
+					["description"] = "Walks around The Mystic Ward.",
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(8953),	-- Deep Fried Plantains
+						i(4539),	-- Goldenbark Apple
+						i(4602),	-- Moon Harvest Pumpkin
+						i(4536),	-- Shiny Red Apple
+						i(4538),	-- Snapvine Watermelon
+						i(4537),	-- Tel'Abim Banana
+					},
+				}),
 				n(5152, {	-- Bingus
 					["coord"] = { 23.2, 17.6, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
