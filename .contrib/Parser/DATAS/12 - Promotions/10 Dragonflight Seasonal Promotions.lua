@@ -32,14 +32,22 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			i(34493, {	-- Dragon Kite (PET!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 15th, 03:00 p.m. & November 18th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2,
 					REMOVED_10_0_2_LAUNCH,	-- After November 17th, 11:59 p.m. PST
 				},
 			}),
 			i(79771, {	-- Fel Drake (MOUNT!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 28th, 03:00 p.m. & December 1st, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2_LAUNCH,
 					REMOVED_10_0_2_LAUNCH,	-- After December 1st 2022
@@ -47,6 +55,8 @@ root(ROOTS.Promotions, {
 			}),
 			i(190583, {	-- Ichabod (PET!)
 				["description"] = "Obtained by gifting an eligible creator's channel two Twitch subscriptions between November 28th, 03:00 p.m. & December 12th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2_LAUNCH,
 					REMOVED_10_0_2_LAUNCH,
@@ -56,14 +66,22 @@ root(ROOTS.Promotions, {
 				-- #endif
 			}),
 			i(70099, {	-- Cenarion Hatchling (PET!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching the Race to World First streams with Drops enabled for at least 4 hours between December 9th, 12:00 a.m. & December 13th, 02:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2_LAUNCH,
 					REMOVED_10_0_2_LAUNCH,
 				},
 			}),
 			i(92724, {	-- Swift Windsteed (MOUNT!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching the Race to World First streams with Drops enabled for at least 8 hours between December 9th, 12:00 a.m. & December 13th, 02:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2_LAUNCH,
 					REMOVED_10_0_2_LAUNCH,
@@ -71,7 +89,11 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 1
 			i(49703, {	-- Perpetual Purple Firework (TOY!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 2 hours between December 13th, 03:00 p.m. & December 28th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2,
 					REMOVED_10_0_2_LAUNCH,
@@ -82,14 +104,22 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_0_5, REMOVED_10_0_7 },
 			}),
 			i(35227, {	-- Goblin Weather Machine - Prototype 01-B (TOY!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between February 1st, 10:00 a.m. & February 5th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_5,
 					REMOVED_10_0_5,
 				},
 			}),
 			i(38301, {	-- D.I.S.C.O. (TOY!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between February 21st, 10:00 a.m. & April 2nd, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_10_0_7 },
 				["u"] = REMOVED_FROM_GAME,	-- 2nd April 2023
 			}),
@@ -102,11 +132,19 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 2
 			i(54452, {	-- Ethereal Portal (TOY!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between May 2nd, 10:00 a.m. & May 9th, 9:59 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },
 			}),
 			i(54069, {	-- Blazing Hippogryph (MOUNT!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between May 9th, 10:00 a.m. & May 17th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },
 			}),
 			i(208057, {	-- Smoldering Banner of the Aspects (TOY!)
@@ -118,7 +156,11 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 },
 			}),
 			i(32566, {	-- Picnic Basket (TOY!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between July 11th, 10:00 a.m. & July 18th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_10_1_5 },	-- REMOVED_10_1_0 },
 				["u"] = REMOVED_FROM_GAME,	-- 18th July 2023
 			}),
@@ -144,7 +186,11 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 },
 			}),
 			i(72575, {	-- White Riding Camel (MOUNT!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between November 14th, 10:00 a.m. & November 21st, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 },
 			}),
 			i(211424, {	-- Dreaming Banner of the Aspects (TOY!)
@@ -156,7 +202,11 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_2_0, REMOVED_11_2_0 },	-- Removed from Promotions with the next Promotion. Still purchaseable in the Shop
 			}),
 			i(67097, {	-- Grim Campfire (TOY!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between January 23, 10:00 a.m. & January 30, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },
 			}),
 			pet(4437, {	-- Fathom (PET!)
@@ -169,7 +219,11 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 4
 			i(79744, {	-- Eye of the Legion (PET!)
+				-- #if AFTER 10.0.2
+				-- #if BEFORE 11.0.2
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between May 16, 10:00 a.m. & May 30, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				-- #ENDIF
+				-- #ENDIF
 				["timeline"] = { ADDED_MOP_REMIX, "removed 10.2.7.99999" },
 			}),
 			i(218128, {	-- Draconic Banner of the Aspects (TOY!)
