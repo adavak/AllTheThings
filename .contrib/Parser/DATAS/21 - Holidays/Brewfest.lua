@@ -711,9 +711,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
 						-- #IF AFTER 10.1.7
 						-- #IF BEFORE 11.2.0
-						hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)
+						hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
 						-- #ELSE
-						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)
+						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
 						-- #endif
 						-- #endif
 							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
