@@ -279,10 +279,15 @@ L.FACTION_SPECIFIC_REP = "Not all reputations can be viewed on a single characte
 L.FACTIONS = "Factions";
 L.FAILED_ITEM_INFO = "Failed to acquire item information. The item may be invalid or may not have been cached on your server yet.";
 L.FEATURES_PAGE = FEATURES_LABEL;
+L.FILL_CATALYST_DATA_CHECKBOX_TOOLTIP = "Fills the Catalyst |T" .. _.asset("Interface_Catalyst") .. ":0|t result of the current Item if one is possible and determined via ATT.\n\nNOTE: This Filler is not applied to the ATT Mini List.";
+L.FILL_COST_DATA_CHECKBOX_TOOLTIP = "Fills any Purchases which can be made with a given Cost |T".._.asset("Currency")..":0|t\n\nNOTE: A 'Purchase' is a loose term in that it essentially means it requires/consumes/uses/depletes/etc. the 'Cost' in order to be obtained.";
 L.FILL_DYNAMIC_QUESTS_CHECKBOX = "Fill Dynamic Quests";
 L.FILL_DYNAMIC_QUESTS_CHECKBOX_TOOLTIP = "Enable this option if you want to allow Items/Currencies which are used to purchase collectible Things to be filled with those purchases when under automatically-populated Quests.\n\nFor example, this will cause the [World Quests] window to behave like the minilist rather than the Main list regarding Cost display.\nNote that in most cases, this will drastically increase the apparent content within the window.";
 L.FILL_NPC_DATA_CHECKBOX = "Fill NPC Data";
 L.FILL_NPC_DATA_CHECKBOX_TOOLTIP = "Enable this option if you want to fill all relevant data for a given NPC (Common Boss Drops, Drops, etc). This option may cause a significant amount of duplication, but the idea is that the NPC will remain visible if you need something available from that NPC.\n\nNote: A lot of Dragonflight outdoors content relies on this setting being enabled for accuracy due to how many Rares share common drops.\n\nDefault: Off";
+L.FILL_OBJECT_DATA_CHECKBOX_TOOLTIP = "Fills common data which is provided by a Sourced Object (e.g. Mining/Herbalism/Fishing nodes).";
+L.FILL_SYMLINK_DATA_CHECKBOX_TOOLTIP = "Fills content which has alternate & notable availability under additional Sources.\nThis concept is generally utilized to help show content which may be Sourced under a general 'Rewards' (or similar) group in the Main list but can more-clearly be shown under specific Sources (multiple Vendors, etc.) when within the Mini list or Tooltips.\n\nNOTE: Tooltips where a Symlink is available will show this text:\n%s";
+L.FILL_UPGRADE_DATA_CHECKBOX_TOOLTIP = "Fills any Upgrade |T".._.asset("Interface_Upgrade")..":0|t which is available to the given Item\n\nFor an ATT List this is typically shown if available for the default state of an Item as Sourced, whereas in Tooltips it is based on the raw Item data when shown.";
 L.FILLERS_EXPLANATION = "|cffFFFFFFFillers are mechanisms by which extra Data is 'filled' into/beneath other ATT content within various UI elements to show further use or purpose of a given Thing. For example, showing the resulting Purchases of an Item would be provided by a 'Filler'.\nThis tab allows you to modify your preferences of which Fillers will be active throughout ATT.|r";
 L.FILLERS_LABEL = "Fillers";
 L.FILTER_ID = "Filter ID";
@@ -480,6 +485,7 @@ L.NOT_TRADEABLE = "Not Tradeable";
 L.NOTHING_TO_SELECT_FROM = "There was nothing collectible (according to current Settings) to randomly select from. If 'Ad-Hoc Updates' is enabled in Settings, the Main list must be updated (/att) before using this window.";
 L.NPC = "NPC";
 L.NPC_ID = "NPC ID";
+L.OBJECT = "Object";
 L.OBJECT_ID = "Object ID";
 L.OBJECT_TYPE = "Object Type";
 L.OBJECTIVES = "Objectives";
@@ -899,6 +905,7 @@ _.HeaderConstants = {
 	BLACK_MARKET_AUCTION_HOUSE = -554,
 	BONUS_OBJECTIVES = -14,
 	BONUS_ROLL = -15,
+	BREWFEST_BANQUET = -665,
 	BREWFEST_HEADER = -557,
 	BUILDINGS = -115,
 	CALL_OF_THE_SCARAB_HEADER = -558,
@@ -1575,8 +1582,10 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Twilight Assist",
 	[-660] = "Twilight Duo",
 	[-661] = "Twilight Zone",
-	[-662] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-663] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-662] = "Champion Equipment",
+	[-665] = "Brewfest Banquet",
+	[-666] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-667] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -2241,6 +2250,8 @@ localize(L.HEADER_ICONS, {
 	[-659] = 236469,
 	[-660] = 236473,
 	[-661] = 236471,
+	[-662] = 1599042,
+	[-665] = _.asset("holiday_brewfest"),
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -2444,7 +2455,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=21,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=9,["monthDay"]=21,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=28,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=9,["monthDay"]=28,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=5,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=5,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025}),
@@ -2496,7 +2506,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=30,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=30,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=13,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=13,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -9597,6 +9608,7 @@ local ObjectNames = {
 	[381579] = "Archivists' Request",
 	[381584] = "Archivists' Request",
 	[381650] = "Archivists' Request",
+	[381652] = "Ruby Lifeband",
 	[381653] = "Fang Flap Fire Signups",
 	[381661] = "Archivists' Request",
 	[381662] = "Archivists' Request",
@@ -17239,6 +17251,7 @@ local ObjectModels = {
 	[381579] = 4268252,
 	[381584] = 4198205,
 	[381650] = 4198204,
+	[381652] = 4551449,
 	[381653] = 4252961,
 	[381661] = 4268252,
 	[381662] = 4198205,
@@ -21404,7 +21417,7 @@ L.QUEST_NAMES = {
 	[50185] = "Green Crystal Monocle",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-663],
+	[52819] = _.L.HEADER_NAMES[-667],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -21962,7 +21975,7 @@ L.QUEST_NAMES = {
 	[77639] = "Quantum Shoulders (Mail) completed.",
 	[77640] = "Quantum Shoulders (Leather) completed.",
 	[77641] = "Quantum Shoulders (Cloth) completed.",
-	[77775] = "Coren Direbrew killed. Cheers...",
+	[77775] = "Daily kill of Coren Direbrew",
 	[77973] = "Third Lock",
 	[77974] = "First Lock",
 	[78912] = "When donating to the Gala (daily)",
@@ -22186,10 +22199,7 @@ L.QUEST_NAMES = {
 	[84699] = "Stay awhile and listen: Moira Thaurissan",
 	[84702] = "Press the Red Button 100 times",
 	[84703] = "Press the Red Button 1000 times",
-	[84742] = "Fox-strut",
 	[84743] = "Stay awhile and listen: Moira Thaurissan",
-	[84744] = "A Slither of Snakes",
-	[84745] = "Honey Bees",
 	[84754] = "Stay awhile and listen: Alleria Windrunner",
 	[84780] = "Use the Scroll of Fel Binding at Uther's Tomb",
 	[84786] = "Acquire the Piece of Hate from the Lucky slot machine consoles",
@@ -22207,7 +22217,6 @@ L.QUEST_NAMES = {
 	[84830] = "Insert the Warden's Mirror into the Enigma Machine",
 	[84837] = "Decipher the Enigma Machine",
 	[84916] = "Place the Sentry Statue in the Vault of Mirrors",
-	[84992] = "Slatebacks",
 	[85103] = "Stay awhile and listen: Apprentice Tanmar",
 	[85156] = "Stay awhile and listen: Angorla",
 	[85157] = "Stay awhile and listen: Didi the Wrench",
@@ -22220,7 +22229,6 @@ L.QUEST_NAMES = {
 	[85165] = "Deathtide weekly reputation obtained.",
 	[85166] = "Tka'ktath weekly reputation obtained.",
 	[85167] = "The One Left weekly reputation obtained.",
-	[85520] = "Lil' Lapbugs",
 	[85680] = "Stay awhile and listen: Adelgonn ",
 	[85681] = "Stay awhile and listen: Moira Thaurissan",
 	[85682] = "Stay awhile and listen: Magni Bronzebeard",
@@ -22246,7 +22254,6 @@ L.QUEST_NAMES = {
 	[86302] = "Looted Mutt",
 	[86303] = "Looted Personal-Use Sapper",
 	[86407] = "Received Item from Underpin (Delve)",
-	[86793] = "Hard K'arroc",
 	[86815] = "Stay awhile and listen: Xal'atath",
 	[86818] = "Stay awhile and listen: Archmage Aethas Sunreaver",
 	[86819] = "Stay awhile and listen: Archmage Khadgar",
@@ -22275,7 +22282,6 @@ L.QUEST_NAMES = {
 	[88912] = "Completion & 5 Mask",
 	[89292] = "Stay awhile and listen: Rhubarn",
 	[89305] = "Stay awhile and listen: Botanist Alaenra",
-	[89306] = "Rays of Sunshine",
 	[89330] = "Stay awhile and listen: Hemet Nesingwary",
 	[90130] = "Add both Voidflame Wheels to the Voidfire Deathcycle Frame",
 	[90131] = "Add the Boarhide Deathcycle Seat to the Voidfire Deathcycle Frame",
@@ -22328,6 +22334,7 @@ L.QUEST_NAMES = {
 	[91524] = "Stay awhile and listen: Captaion Roderick Brewston",
 	[91532] = "Stay awhile and listen: Faerin Lothar",
 	[91534] = "Stay awhile and listen: Eitrigg",
+	[91894] = "Has rolled for Coren Special Loot (Daily Accountwide)",
 	[92627] = "An Arrested Development",
 	[92651] = "Deathless Attempt Finished",
 }
@@ -22919,8 +22926,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Zwielicht-Assistent",
 	[-660] = "Zwielicht-Duo",
 	[-661] = "Zwielichtzone",
-	[-662] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-663] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-662] = "Championausrüstung",
+	[-666] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-667] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -27669,6 +27677,7 @@ localize(ObjectNames, {
 	[381579] = "Anfrage des Archivars",
 	[381584] = "Anfrage des Archivars",
 	[381650] = "Anfrage des Archivars",
+	[381652] = "Rubinlebensband",
 	[381653] = "Einschreibungen für Zahnflatterfeuer",
 	[381661] = "Anfrage des Archivars",
 	[381662] = "Anfrage des Archivars",
@@ -29419,8 +29428,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Aide Crépusculaire",
 	[-660] = "Duo Crépusculaire",
 	[-661] = "Chroniques des Crépusculaires",
-	[-662] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-663] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-662] = "Équipement de champion",
+	[-666] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-667] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -34182,6 +34192,7 @@ localize(ObjectNames, {
 	[381579] = "Requête des archives",
 	[381584] = "Requête des archives",
 	[381650] = "Requête des archives",
+	[381652] = "Bague de vie en rubis",
 	[381653] = "Inscriptions à Croc-claque-crame",
 	[381661] = "Requête des archives",
 	[381662] = "Requête des archives",
@@ -35531,8 +35542,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Assist Crepuscolare",
 	[-660] = "Doppietta Crepuscolare",
 	[-661] = "Zona del Crepuscolo",
-	[-662] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-663] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-662] = "Equipaggiamento campione",
+	[-666] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-667] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -39981,6 +39993,7 @@ localize(ObjectNames, {
 	[381579] = "Richiesta degli Archivisti",
 	[381584] = "Richiesta degli Archivisti",
 	[381650] = "Richiesta degli Archivisti",
+	[381652] = "Fascia della Vita di Rubino",
 	[381653] = "Iscrizioni a Zanne Ali Fuoco.",
 	[381661] = "Richiesta degli Archivisti",
 	[381662] = "Richiesta degli Archivisti",
@@ -41208,8 +41221,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Assistente do Crepúsculo",
 	[-660] = "Dupla do Crepúsculo",
 	[-661] = "Além da Imaginação",
-	[-662] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-663] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-662] = "Equipamento de Campeão",
+	[-666] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-667] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -45857,6 +45871,7 @@ localize(ObjectNames, {
 	[381579] = "Pedido dos Arquivistas",
 	[381584] = "Pedido dos Arquivistas",
 	[381650] = "Pedido dos Arquivistas",
+	[381652] = "Elo Vital Rubi",
 	[381653] = "Inscrições Fogo, Asa, Presa",
 	[381661] = "Pedido dos Arquivistas",
 	[381662] = "Pedido dos Arquivistas",
@@ -47247,10 +47262,15 @@ L.FACTION_MODE_TOOLTIP = "Включите данную настройку, ес
 L.FACTION_SPECIFIC_REP = "Не все репутации видны одному персонажу. Например, Всадники Песни Войны не видны Игрокам Альянса, а Среброкрылые Часовые - Игрокам Орды.";
 L.FACTIONS = "Фракции";
 L.FAILED_ITEM_INFO = "Не удалось получить информацию о предмете. Предмет может быть неправильный или ещё не был кэширован на Вашем сервере.";
+L.FILL_CATALYST_DATA_CHECKBOX_TOOLTIP = "Заполняет результат Катализатора |T" .. _.asset("Interface_Catalyst") .. ":0|t текущего предмета, если это возможно и определено через ATT.\n\nПРИМЕЧАНИЕ: Этот Заполнитель не применяется к мини-списку ATT.";
+L.FILL_COST_DATA_CHECKBOX_TOOLTIP = "Заполняет любые Покупки, которые можно сделать с данной Стоимостью |T".._.asset("Currency")..":0|t\n\nПРИМЕЧАНИЕ: 'Покупка' - это общее понятие, которое в основном означает, что она требует/потребляет/использует/истощает и т.д. 'Стоимость' для получения.";
 L.FILL_DYNAMIC_QUESTS_CHECKBOX = "Считать Валюту собираемой";
 L.FILL_DYNAMIC_QUESTS_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите считать валюту/предметы, которые можно использовать для получения собираемых Штучек, тоже считать собираемыми в наградах Заданий.";
 L.FILL_NPC_DATA_CHECKBOX = "Расширенная вложенность для NPC";
 L.FILL_NPC_DATA_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть все вложенные данные для существ (Общая добыча, Добыча, и т.п.) отображаемых в мини-списке. Эта опция может привести к значительному дублированию Штучек, но идея в том, чтоб существа оставались в мини-списке, как будто с них что-то ещё нужно.\n\nПо умолчанию: отключено";
+L.FILL_OBJECT_DATA_CHECKBOX_TOOLTIP = "Заполняет общие данные, которые предоставляются Известным Объектом (например, узлы горного дела/травничества/рыбной ловли).";
+L.FILL_SYMLINK_DATA_CHECKBOX_TOOLTIP = "Заполняет контент, который имеет альтернативную и большую доступность через дополнительные Источники.\nЭта концепция обычно используется для отображения контента, который может быть получен из общей группы 'Награды' (или подобной) в Основном списке, но может быть более четко показан под конкретными Источниками (несколько Продавцов и т.д.) в Мини-списке или Всплывающих Подсказках.\n\nПРИМЕЧАНИЕ: В Подсказках, где доступен Симлинк, будет показан данный текст:\n%s";
+L.FILL_UPGRADE_DATA_CHECKBOX_TOOLTIP = "Заполняет любое Улучшение |T" .. _.asset("Interface_Upgrade") .. ":0|t, которое доступно для данного Предмета\n\nДля Списка ATT это обычно показывается, если Улучшение доступно для базового Известного Предмета, в то время как в Подсказках это основано на конкретной версии Предмета.";
 L.FILLERS_EXPLANATION = "|cffFFFFFFЗаполнители - это механизмы, с помощью которых дополнительные данные \"встраиваются\" в другие элементы интерфейса ATT или под ними, чтобы показать дальнейшее использование или назначение данного объекта. Например, отображение результатов покупок предмета будет предоставлено \"Заполнителем\".\nЭта вкладка позволяет вам изменить свои предпочтения относительно того, какие Заполнители будут активны в ATT.|r";
 L.FILLERS_LABEL = "Заполнители";
 L.FILTER_MINI_LIST_FOR_TIMERUNNING_CHECKBOX = "Фильтровать Мини Список для Путешествий во времени";
@@ -47401,6 +47421,7 @@ L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333Не Собра�
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX = "Кроме НИП";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX_TOOLTIP = "Включите эту опцию, чтобы игнорировать отображение подсказок НИП во время боя.";
 L.NOTHING_TO_SELECT_FROM = "Не из чего делать случайный выбор. Если включена опция 'Обновлять только видимые окна', то предварительно нужно открыть Основной Список (/att).";
+L.OBJECT = "Объект";
 L.OBJECTIVES = "Цели";
 L.ONLY_RELEVANT_CHECKBOX = "Только Уместные";
 L.ONLY_RELEVANT_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть только те общие облики, которые Ваш персонаж может открыть.\n\nПримечание: Мы рекомендуем оставить эту опцию выключенной, поскольку знание требований для разблокирования может быть полезным для понимания, почему предмет считается Не Собранным.";
@@ -47917,8 +47938,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Сумеречные помощники",
 	[-660] = "Сумеречный дуэт",
 	[-661] = "Зона сумерек",
-	[-662] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-663] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-662] = "Снаряжение защитника",
+	[-666] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-667] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -52712,6 +52734,7 @@ localize(ObjectNames, {
 	[381579] = "Просьба архивариуса",
 	[381584] = "Просьба архивариуса",
 	[381650] = "Просьба архивариуса",
+	[381652] = "Рубиновое кольцо Жизни",
 	[381653] = "Запись на игру в \"Клык, взмах, огонь\"",
 	[381661] = "Просьба архивариуса",
 	[381662] = "Просьба архивариуса",
@@ -54101,8 +54124,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "황혼의 지원",
 	[-660] = "황혼의 2인조",
 	[-661] = "황혼 지대",
-	[-662] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-663] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-662] = "용사 장비",
+	[-666] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-667] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -60498,8 +60522,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Ayuda Crepuscular",
 	[-660] = "Dúo Crepuscular",
 	[-661] = "Dimensión Desconocida",
-	[-662] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-663] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-662] = "Equipo de campeón",
+	[-666] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-667] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -65241,6 +65266,7 @@ localize(ObjectNames, {
 	[381579] = "Petición de los archivistas",
 	[381584] = "Petición de los archivistas",
 	[381650] = "Petición de los archivistas",
+	[381652] = "Sortija de vida rubí",
 	[381653] = "Inscripción a colmillo, ala o fuego",
 	[381661] = "Petición de los archivistas",
 	[381662] = "Petición de los archivistas",
@@ -66688,7 +66714,7 @@ localize(L.HEADER_NAMES, {
 	[-567] = "Copa de Cielonáutica",
 	[-591] = "Festival del errante",
 	[-654] = "Cosechando",
-	[-663] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-667] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -67931,8 +67957,9 @@ localize(L.HEADER_NAMES, {
 	[-659] = "暮光帮凶",
 	[-660] = "暮光二重奏",
 	[-661] = "暮光领域",
-	[-662] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-663] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-662] = "勇士装备",
+	[-666] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-667] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
@@ -72288,6 +72315,7 @@ localize(ObjectNames, {
 	[381575] = "鸭子陷阱工具",
 	[381579] = "档案员的请求",
 	[381650] = "档案员的请求",
+	[381652] = "红玉新生指环",
 	[381653] = "“炽齿翅”报名处",
 	[381661] = "档案员的请求",
 	[381662] = "档案员的请求",
@@ -74059,6 +74087,7 @@ localize(L.HEADER_NAMES, {
 	[-659] = "暮光協助",
 	[-660] = "暮光雙人組",
 	[-661] = "暮光地帶",
+	[-662] = "勇士裝備",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成探究時獎勵的東西。",
