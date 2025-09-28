@@ -55,8 +55,6 @@ root(ROOTS.Promotions, {
 			}),
 			i(190583, {	-- Ichabod (PET!)
 				["description"] = "Obtained by gifting an eligible creator's channel two Twitch subscriptions between November 28th, 03:00 p.m. & December 12th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				-- #ENDIF
-				-- #ENDIF
 				["timeline"] = {
 					ADDED_10_0_2_LAUNCH,
 					REMOVED_10_0_2_LAUNCH,

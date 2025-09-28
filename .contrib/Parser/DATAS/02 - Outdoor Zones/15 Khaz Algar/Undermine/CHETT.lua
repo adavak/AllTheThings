@@ -35,6 +35,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						},
 					}),
 					ach(41630, {	-- "Employee" of the Month
+						["description"] = "Rumored to be obtainable by turning in the most Chett Cards on a single Character in a month.\nOnly 1 Person per Region can get it.\nExpect minimum 150+ Card Turn-in's.",
 						["groups"] = {
 							title(617, {	-- <Name>, "Employee" of the Month
 								["collectible"] = false,	-- You only keep it for a few days

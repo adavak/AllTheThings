@@ -709,8 +709,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_6_0_2 },
 					["lvl"] = 98,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
+						-- #IF AFTER 10.1.7
+						-- #IF BEFORE 11.2.0
+						hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)
+						-- #ELSE
 						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)
-							-- Used 77775 as old tracking ID
+						-- #endif
+						-- #endif
 							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
 							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
 							["timeline"] = { ADDED_10_1_7 },
@@ -724,7 +729,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 									["timeline"] = { ADDED_10_1_7 },
 									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
 								}),
-								-- #if AFTER TWW
+								-- #if AFTER 10.1.7
 								i(37828, {	-- Great Brewfest Kodo (MOUNT!)
 									["timeline"] = { ADDED_2_0_1 },
 									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
@@ -735,7 +740,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 								}),
 								-- #endif
 							},
+						-- #IF AFTER 10.1.7
+						-- #IF BEFORE 11.2.0
 						}),
+						-- #ELSE
+						}),
+						-- #endif
+						-- #endif
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
 						}),
@@ -749,8 +760,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["timeline"] = { ADDED_6_0_2 },
 						}),
 						
-						-- #if BEFORE TWW
-						-- Only obtainable on the first try of the day since 11.0.0
+						-- #if BEFORE 10.1.7
 						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
 							["timeline"] = { ADDED_2_0_1 },
 						}),
@@ -3674,9 +3684,11 @@ root(ROOTS.HiddenQuestTriggers, {
 	-- })),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
+			-- #IF AFTER 10.1.7
 			q(77775, {	-- Daily kill of Coren Direbrew
 				["name"] = "Daily kill of Coren Direbrew",
 			}),
+			-- #endif
 		})),
 	})),
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
