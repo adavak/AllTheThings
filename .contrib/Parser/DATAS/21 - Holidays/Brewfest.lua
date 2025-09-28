@@ -718,10 +718,22 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["groups"] = {
 								i(248761, {	-- Brewfest Bomber (MOUNT!)
 									["timeline"] = { ADDED_11_2_0 },
+									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
 								}),
 								i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
 									["timeline"] = { ADDED_10_1_7 },
+									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
 								}),
+								-- #if AFTER TWW
+								i(37828, {	-- Great Brewfest Kodo (MOUNT!)
+									["timeline"] = { ADDED_2_0_1 },
+									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
+								}),
+								i(33977, {	-- Swift Brewfest Ram (MOUNT!)
+									["timeline"] = { ADDED_2_0_1 },
+									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
+								}),
+								-- #endif
 							},
 						}),
 						i(117378, {	-- Direbrew's Bloodied Shanker [Level 100+]
@@ -730,18 +742,22 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						i(37863, {	-- Direbrew's Remote
 							["timeline"] = { ADDED_2_0_1 },
 						}),
-						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
-							["timeline"] = { ADDED_2_0_1 },
-						}),
-						i(33977, {	-- Swift Brewfest Ram (MOUNT!)
-							["timeline"] = { ADDED_2_0_1 },
-						}),
 						i(150922, {	-- Terrific Tankard O'Terror [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
 						}),
 						i(117379, {	-- Tremendous Tankard O'Terror [Level 100+]
 							["timeline"] = { ADDED_6_0_2 },
 						}),
+						
+						-- #if BEFORE TWW
+						-- Only obtainable on the first try of the day since 11.0.0
+						i(37828, {	-- Great Brewfest Kodo (MOUNT!)
+							["timeline"] = { ADDED_2_0_1 },
+						}),
+						i(33977, {	-- Swift Brewfest Ram (MOUNT!)
+							["timeline"] = { ADDED_2_0_1 },
+						}),
+						-- #endif
 					}),
 				}),
 				i(149752, {	-- Keg-Shaped Treasure Box		(Uncommon Quality)
