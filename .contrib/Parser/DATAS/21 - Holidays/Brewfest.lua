@@ -170,7 +170,13 @@ end]];
 -- Helper functions for the filled steins
 local barleybrewclear = function(t)		-- Barleybrew Clear - Alliance
 	t.provider = { "o", 186183 };	-- Barleybrew Festive Keg
-	t.coord = { 48.8, 39.8, DUN_MOROGH };
+	t.coords = {
+		-- #if AFTER CATA
+		{ 55.8, 38.2, DUN_MOROGH }
+		-- #else
+		{ 48.8, 39.8, DUN_MOROGH }
+		-- #endif
+	};
 	return t;
 end
 local thunderfortyfive = function(t)	-- Thunder 45 - Alliance
@@ -190,7 +196,7 @@ local gordokgrog = function(t)			-- Gordok Grog - Alliance/Horde
 	};
 	return t;
 end
-local smallstepbrew = function(t)		-- Small Step Brew - Horde]
+local smallstepbrew = function(t)		-- Small Step Brew - Horde
 	t.provider = { "o", 186186 };	-- Drohn's Distillery Festive Keg
 	t.coords = {
 		-- #if AFTER CATA
