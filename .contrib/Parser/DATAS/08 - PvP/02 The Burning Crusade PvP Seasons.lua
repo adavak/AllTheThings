@@ -886,7 +886,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(1, i(28378)),	-- Sergeant's Heavy Cape (H)
 						moh(1, i(28377)),	-- Sergeant's Heavy Cape (H)
 					}),
-					-- Orinally sold Offhand/Neck/Finger by
+					-- Originally sold Offhand/Neck/Finger by
 					-- Alliance SW: n(12781, {	-- Master Sergeant Biggins  &
 					-- Horde OG: n(12793, {	-- Brave Stonehide
 					filter(NECK_F, {
@@ -967,6 +967,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_6_0_2 },
 						}),
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, {
 						i(33945, {	-- Gladiator's Idol of Resolve
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
@@ -996,6 +997,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
 						}),
 					}),
+					-- #endif
 				}),
 	-- #if AFTER 7.0.3
 			},
@@ -1296,6 +1298,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_2_5_4 },
 						}),
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, {
 						i(33946, {	-- Merciless Gladiator's Idol of Resolve
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
@@ -1325,6 +1328,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
 						}),
 					}),
+					-- #endif
 				}),
 	-- #if AFTER 7.0.3
 			},
@@ -1632,6 +1636,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
 						}),
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, {
 						i(33947, {	-- Vengeful Gladiator's Idol of Resolve
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
@@ -1661,6 +1666,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
 						}),
 					}),
+					-- #endif
 					filter(TRINKET_F, {
 						applyclassicphase(TBC_PHASE_FOUR, i(35327, {	-- Battlemaster's Alacrity
 							["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 },
@@ -2007,6 +2013,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_4_0_3 },
 						}),
 					}),
+					-- #if BEFORE MOP
 					filter(RELICS_F, {
 						i(35019, {	-- Brutal Gladiator's Idol of Resolve
 							["timeline"] = { ADDED_2_0_3, REMOVED_5_0_4 },
@@ -2036,6 +2043,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = { ADDED_2_0_3, REMOVED_5_0_4 },
 						}),
 					}),
+					-- #endif
 					filter(TRINKET_F, {
 						i(41587, {	-- Battlemaster's Celerity
 							["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3 },
