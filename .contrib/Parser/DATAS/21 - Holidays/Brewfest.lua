@@ -172,9 +172,9 @@ local barleybrewclear = function(t)		-- Barleybrew Clear - Alliance
 	t.provider = { "o", 186183 };	-- Barleybrew Festive Keg
 	t.coords = {
 		-- #if AFTER CATA
-		{ 55.8, 38.2, DUN_MOROGH }
+		{ 55.8, 38.2, DUN_MOROGH },
 		-- #else
-		{ 48.8, 39.8, DUN_MOROGH }
+		{ 48.8, 39.8, DUN_MOROGH },
 		-- #endif
 	};
 	return t;
@@ -715,11 +715,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["timeline"] = { ADDED_6_0_2 },
 					["lvl"] = 98,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
+						hqt(
 						-- #if AFTER 11.2.0
-						hqt(91894, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
+						91894,	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
 						-- #else
-						hqt(77775, {	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
+						77775,	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
 						-- #endif
+						{
 							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
 							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
 							-- #if AFTER 11.2.0
@@ -3678,7 +3680,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			-- This is replaced with 91894 since 11.2.0
 			-- #IF AFTER 11.2.0
-			q(77775), -- 	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
+			q(77775, {["name"]="Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)", ["isDaily"]=true}),
 			-- #endif
 		})),
 	})),
