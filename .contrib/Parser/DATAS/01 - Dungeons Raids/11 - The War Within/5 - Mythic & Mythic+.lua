@@ -254,12 +254,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 			ach(42804, {	-- The War Within Season 3: Resilient Keystone 28
 				["_noautomation"] = true,
+				["collectible"] = false,
 			}),
 			ach(42805, {	-- The War Within Season 3: Resilient Keystone 29
 				["_noautomation"] = true,
+				["collectible"] = false,
 			}),
 			ach(42806, {	-- The War Within Season 3: Resilient Keystone 30
 				["_noautomation"] = true,
+				["collectible"] = false,
 			}),
 		})),
 		n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
@@ -294,6 +297,22 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 		}),
 	}),
+	--[[	-- Maybe better here than under Tazavesh?
+	d(DIFFICULTY.DUNGEON.MYTHIC, {
+		header(HEADERS.Achievement, SEASON_3_TWW, bubbleDownSelf({
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH }
+		},{	
+			inst(1194, {	-- Tazavesh, the Veiled Market
+				ach(61093, {	-- Flawless Transaction
+					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH },
+				}),
+				ach(61092, {	-- Hard Mode: Tazavesh, the Veiled Market
+					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH },
+				}),
+			}),
+		})),
+	}),
+	--]]
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {

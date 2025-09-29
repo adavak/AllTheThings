@@ -184,6 +184,7 @@ local ABBREVIATIONS = {
 	["Ara-Kara, City of Echoes"] = "Ara-Kara",
 	["Enterprising Hero: The War Within Season Two"] = "Enterprising Hero: TWW S2",
 	["The War Within Keystone Legend: SeasonTwo"] = "TWW Keystone Legend: S2",
+	["Unbound Hero: The War Within Season Three"] = "Unbound Hero: TWW S3",
 	["Mug'Zee, Heads of Security"] = "Mug'Zee",
 	["Sikran, Captain of the Sureki"] = "Sikran",
 	["Vexie and the Geargrinders"] = "Vexie & the Geargrinders",
