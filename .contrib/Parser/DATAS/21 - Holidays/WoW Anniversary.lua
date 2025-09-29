@@ -1257,7 +1257,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_NINETEEN, bubbleDown({ ["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 } }, {
+	n(WOW_ANNIVERSARY_NINETEEN, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 } }, {
 		ach(18702),	-- WoW's 19th Anniversary
 		n(MAILBOX, {
 			i(208211, {	-- Anniversary Gift
@@ -2035,7 +2035,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDown({ ["timeline"] = { ADDED_11_2_5, "removed 11.2.5.99999" } }, {
+	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5, "removed 11.2.5.99999" } }, {
 		ach(61406),	-- WoW's 21st Anniversary
 		n(MAILBOX, {
 --[[
