@@ -543,8 +543,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233162),	-- Banded Carrot War Wraps
 				i(233173),	-- Banded Cloudy War Slippers
 				i(233156),	-- Banded Cloudy War Wraps
-				i(233178),	-- Banded Faded War Slippers
-				i(233161),	-- Banded Faded War Wraps
 				i(233172),	-- Banded Grassy War Slippers
 				i(233155),	-- Banded Grassy War Wraps
 				i(233177),	-- Banded Lively War Slippers
@@ -561,8 +559,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233145),	-- Long Carrot War Skirt and Leg Wraps
 				i(233100),	-- Long Cloudy War Skirt
 				i(233139),	-- Long Cloudy War Skirt and Leg Wraps
-				i(233105),	-- Long Faded War Skirt
-				i(233144),	-- Long Faded War Skirt and Leg Wraps
 				i(233099),	-- Long Grassy War Skirt
 				i(233138),	-- Long Grassy War Skirt and Leg Wraps
 				i(233104),	-- Long Lively War Skirt
@@ -586,8 +582,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233128),	-- Short Carrot War Skirt and Leg Wraps
 				i(233083),	-- Short Cloudy War Skirt
 				i(233122),	-- Short Cloudy War Skirt and Leg Wraps
-				i(233088),	-- Short Faded War Skirt
-				i(233127),	-- Short Faded War Skirt and Leg Wraps
 				i(233082),	-- Short Grassy War Skirt
 				i(233121),	-- Short Grassy War Skirt and Leg Wraps
 				i(233087),	-- Short Lively War Skirt
@@ -656,7 +650,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
 				i(235034),	-- Vigilante's Aquatic Mask
 				i(235023),	-- Vigilante's Cloudy Mask
-				i(235028),	-- Vigilante's Faded Mask
 				i(235022),	-- Vigilante's Grassy Mask
 				i(235027),	-- Vigilante's Lively Mask
 				i(235030),	-- Vigilante's Rosy Mask
@@ -990,19 +983,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242460),	-- Ensemble: Deep Sweatsuit
 				i(242441),	-- Deep Sweatpants
 				i(242412),	-- Deep Sweatshirt
-
-				------ Faded Sweatsuit Set ------
-				i(242467),	-- Ensemble: Faded Sweatsuit
-				i(242445),	-- Faded Sweatpants
-				i(242416),	-- Faded Sweatshirt
-
-				------ Girded Mist Attire Set ------
-				i(242345),	-- Ensemble: Girded Mist Attire
-				i(242329),	-- Girded Mist Belt
-				i(242337),	-- Girded Mist Coat
-				i(242325),	-- Girded Mist Galoshes
-				i(242341),	-- Girded Mist Hood
-				i(242333),	-- Girded Mist Pants
 
 				------ Grandmaster's Deep Set ------
 				i(243268),	-- Ensemble: Grandmaster's Deep Attire

@@ -4428,6 +4428,7 @@ i(244913, 4832);	-- Looker Gaz'kreth Jr.
 i(245269, 4845);	-- Mr. Long-Legs
 i(245214, 4838);	-- Palek'ti, the Mouth of Nothingness
 i(244910, 4829);	-- Penumbral Terror
+i(246337, 4853);	-- Rustyroot Fel Snooter
 i(245256, 4843);	-- Sao'rhon
 i(244468, 4826);	-- Scrappy Thorntail
 i(246343, 4856);	-- Scruffyhorn Fel Snooter
@@ -4443,7 +4444,6 @@ i(0, 4824);	-- Baby Karesh Fox - Orange
 i(257518, 4908);	-- Lil' Ashlee
 i(246342, 4855);	-- Mustyfur Fel Snooter
 i(0, 4830);	-- Observer, Baby (Green) - no icon
-i(246337, 4853);	-- Rustyroot Fel Snooter
 i(246723, 4860);	-- Unfazed Diver
 i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 

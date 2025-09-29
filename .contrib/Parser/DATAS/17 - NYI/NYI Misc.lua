@@ -1743,7 +1743,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(219693),	-- Trophy Uncommon Fish B
 			i(219694),	-- Trophy Uncommon Fish C
 			i(219695),	-- Trophy Uncoomon Fish D
-			i(223316),	-- Trusty Hat
 			i(212677),	-- Underground Cloth 01
 			i(212678),	-- Underground Cloth 01
 			i(212679),	-- Underground Cloth 01

@@ -2099,6 +2099,7 @@ i(242734, 1233561);	-- Curious Slateback
 i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(247792, 1245358);	-- High Shaman's Aerie Gryphon
 i(242717, 1233518);	-- Lavender K'arroc
+i(246921, 1244261);	-- Legion Forged Elekk
 i(243020, 1234305);	-- Lightwing Dragonhawk
 i(247795, 1245370);	-- Ornery Breezestrider
 i(246067, 1240632);	-- Pearlescent Krolusk
@@ -2111,6 +2112,7 @@ i(246160, 1241076);	-- Sthaarbs's Last Lunch
 i(237485, 1223191);	-- Terror of the Night
 i(237484, 1223187);	-- Terror of the Wastes
 i(242728, 1233542);	-- The Bone Freezer
+i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger
 i(246159, 1241070);	-- Translocated Gorger
 i(242714, 1233511);	-- Umbral K'arroc
 i(243061, 1234573);	-- Unbound Star-Eater
@@ -2124,10 +2126,8 @@ i(243019, 1234303);	-- Voidwing Dragonhawk
 i(247791, 1245357);	-- Adorned Northeron Gryphon
 i(246919, 1244259);	-- Cinder-seared Elekk
 i(247794, 1245361);	-- Emberwing Sky Guide
-i(246921, 1244261);	-- Legion Forged Elekk
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger
 i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
-i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger
 i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
 --- UNSORTED ---

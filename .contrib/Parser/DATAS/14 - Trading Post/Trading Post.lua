@@ -1609,6 +1609,43 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(200, i(211258)),	-- Wildhammer Scouts Headgear
 			}),
 		})),
+		n(OCTOBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.0.62876", "removed 11.2.5.99999" } }, {	-- TODO: Timeline in/out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				i(246921),	-- Legion Forged Elekk (MOUNT!)
+			}),
+			filter(MOUNTS, {
+				traderstender(750, i(226506)),	-- Hand of Reshkigaal (MOUNT!)
+				traderstender(750, i(247723)),	-- The Headless Horseman's Hallowed Charger (MOUNT!)
+			}),
+			filter(BATTLE_PETS, {
+				traderstender(250, i(246337)),	-- Rustyroot Fel Snooter (PET!)
+				traderstender(200, i(205148)),	-- Soot-Stained Shalewing (PET!)
+			}),
+			filter(TOYS, {
+				traderstender(200, i(212525)),	-- Delicate Ebony Parasol (TOY!)
+			}),
+			filter(COSMETIC, {
+				traderstender(20, i(233178)),	-- Banded Faded War Slippers
+				traderstender(20, i(233161)),	-- Banded Faded War Wraps
+				traderstender(100, iensemble(242467)),	-- Ensemble: Faded Sweatsuit
+				traderstender(575, iensemble(246965)),	-- Ensemble: Felreaver's Azure Attire
+				traderstender(375, iensemble(242345)),	-- Ensemble: Girded Mist Attire
+				traderstender(800, iensemble(226429)),	-- Ensemble: Ragged Harvest Golem
+				traderstender(600, iensemble(247991)),	-- Ensemble: The Horseman's Ghostly Collection
+				traderstender(125, i(246992)),	-- Infernal's Profane Staff
+				traderstender(100, i(246999)),	-- Infernal's Profane Touched
+				traderstender(40, i(233105)),	-- Long Faded War Skirt
+				traderstender(50, i(233144)),	-- Long Faded War Skirt and Leg Wraps
+				traderstender(100, i(246788)),	-- Netherstorm Felblade
+				traderstender(100, i(246792)),	-- Netherstorm Feldirk
+				traderstender(230, i(247708)),	-- The Horseman's Hallowed Blade
+				traderstender(100, i(247717)),	-- The Horseman's Hallowed Bulwark
+				traderstender(260, i(247712)),	-- The Horseman's Hallowed Great Blade
+				traderstender(40, i(233088)),	-- Short Faded War Skirt
+				traderstender(50, i(233127)),	-- Short Faded War Skirt and Leg Wraps
+				traderstender(50, i(235028)),	-- Vigilante's Faded Mask
+			}),
+		})),
 	}),
 }));
 
@@ -1890,12 +1927,10 @@ root(ROOTS.NeverImplemented, {
 			i(247791),	-- Adorned Northeron Gryphon
 			i(246919),	-- Cinder-seared Elekk
 			i(247794),	-- Emberwing Sky Guide
-			i(246921),	-- Legion Forged Elekk
 			i(246917),	-- Thunder-ridged Elekk
 			i(247720),	-- The Headless Horseman's Chilling Charger
 			i(247721),	-- The Headless Horseman's Ghoulish Charger
 			i(247722),	-- The Headless Horseman's Burning Charger
-			i(247723),	-- The Headless Horseman's Ghostly Charger
 		}),
 	})),
 });

@@ -1106,6 +1106,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
 			i(212164),	-- Shallow Nautic Helm
 			i(225067),	-- Shadowlit Haversack
+			i(212167),	-- Taken Candle
 			i(245528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Wastelander's Phasebound Visor
 		}),
 		filter(MISC, {
@@ -2403,6 +2404,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(223312, {	-- Trusty Hat (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+						["groups"] = { i(223316) },	-- Trusty Hat
 					}),
 				}),
 				filter(MISC, {
@@ -3107,7 +3109,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(211801),	-- Poisonous Shroom Cap
-						i(212167),	-- Taken Candle
 						i(225066),	-- Trailblazer's Haversack
 					}),
 				}),
@@ -3331,7 +3332,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat
 						i(212169),	-- Mint-Scented Candle Hat
-						i(212167),	-- Taken Candle
 						i(225066),	-- Trailblazer's Haversack
 					}),
 				}),
@@ -3543,13 +3543,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(70988),	-- All That Glitters
 					crit(70989),	-- Mr. DELVER
 					crit(70990),	-- Teleporter Tantrums
-				}),
-			}),
-			n(DELVE_COMPLETION, {
-				n(TREASURES, {
-					filter(COSMETIC, {
-						i(212167),	-- Taken Candle
-					}),
 				}),
 			}),
 			filter(MISC, {
@@ -3966,7 +3959,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat
 						i(212169),	-- Mint-Scented Candle Hat
-						i(212167),	-- Taken Candle
 					}),
 				}),
 			}),

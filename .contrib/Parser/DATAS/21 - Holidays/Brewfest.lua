@@ -722,7 +722,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						-- #endif
 							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
 							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+							-- #if AFTER 11.2.0
+							["timeline"] = { ADDED_11_2_0 },
+							-- #else
 							["timeline"] = { ADDED_10_1_7 },
+							-- #endif
 							["isDaily"] = true,
 							["groups"] = {
 								i(248761, {	-- Brewfest Bomber (MOUNT!)

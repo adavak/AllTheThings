@@ -561,7 +561,6 @@ root(ROOTS.Unsorted, {
 				i(241240),	-- Type II Bomber Jacket
 			}),
 			filter(BATTLE_PETS, {
-				i(246337),	-- Rustyroot Fel Snooter
 				i(246342),	-- Mustyfur Fel Snooter
 				i(246723),	-- Unfazed Diver
 			}),
@@ -585,19 +584,9 @@ root(ROOTS.Unsorted, {
 				i(246783),	-- Wildhammer's Ancient Crusher
 				i(246785),	-- Coldsnap Felblade
 				i(246787),	-- Hellfire Felblade
-				i(246788),	-- Netherstorm Felblade
 				i(246790),	-- Coldsnap Feldirk
 				i(246791),	-- Hellfire Feldirk
-				i(246792),	-- Netherstorm Feldirk
 				i(246800),	-- Wildhammer's Mighty Crossbow
-				i(246949),	-- Felreaver's Azure Treads
-				i(246950),	-- Felreaver's Azure Helm
-				i(246952),	-- Felreaver's Azure Shoulderguards
-				i(246956),	-- Felreaver's Azure Jacket
-				i(246962),	-- Felreaver's Azure Belt
-				i(246963),	-- Felreaver's Azure Legguards
-				i(246964),	-- Felreaver's Azure Gauntlets
-				i(246965),	-- Ensemble: Felreaver's Azure Attire
 				i(246966),	-- Felreaver's Legion Gauntlets
 				i(246967),	-- Felreaver's Legion Legguards
 				i(246968),	-- Felreaver's Legion Belt
@@ -623,23 +612,18 @@ root(ROOTS.Unsorted, {
 				i(246988),	-- Felreaver's Arcane Treads
 				i(246989),	-- Ensemble: Felreaver's Arcane Attire
 				i(246990),	-- Felreaver's Azure Staff
-				i(246992),	-- Felreaver's Arcane Staff
 				i(246994),	-- Felreaver's Hellfire Staff
 				i(246996),	-- Felreaver's Azure Wand
 				i(246998),	-- Felreaver's Hellfire Wand
-				i(246999),	-- Felreaver's Arcane Wand
 				i(247705),	-- The Horseman's Chilling Blade
 				i(247706),	-- The Horseman's Ghoulish Blade
 				i(247707),	-- The Horseman's Burning Blade
-				i(247708),	-- The Horseman's Ghostly Blade
 				i(247709),	-- The Horseman's Chilling Great Blade
 				i(247710),	-- The Horseman's Ghoulish Great Blade
 				i(247711),	-- The Horseman's Burning Great Blade
-				i(247712),	-- The Horseman's Ghostly Great Blade
 				i(247714),	-- The Horseman's Chilling Bulwark
 				i(247715),	-- The Horseman's Ghoulish Bulwark
 				i(247716),	-- The Horseman's Burning Bulwark
-				i(247717),	-- The Horseman's Ghostly Bulwark
 				i(247897),	-- The Horseman's Chilling Helm
 				i(247898),	-- The Horseman's Chilling Mantle
 				i(247899),	-- The Horseman's Chilling Breastplate
@@ -667,15 +651,6 @@ root(ROOTS.Unsorted, {
 				i(247980),	-- The Horseman's Burning Grips
 				i(247981),	-- The Horseman's Burning Cloak
 				i(247982),	-- Ensemble: The Horseman's Burning Collection
-				i(247983),	-- The Horseman's Ghostly Helm
-				i(247984),	-- The Horseman's Ghostly Mantle
-				i(247985),	-- The Horseman's Ghostly Breastplate
-				i(247986),	-- The Horseman's Ghostly Cinch
-				i(247987),	-- The Horseman's Ghostly Greaves
-				i(247988),	-- The Horseman's Ghostly Treads
-				i(247989),	-- The Horseman's Ghostly Grips
-				i(247990),	-- The Horseman's Ghostly Cloak
-				i(247991),	-- Ensemble: The Horseman's Ghostly Collection
 				i(248310),	-- Wildhammer's Ceremonial Crown
 				i(248311),	-- Wildhammer's Ceremonial Mantle
 				i(248312),	-- Wildhammer's Ceremonial Chestplate
