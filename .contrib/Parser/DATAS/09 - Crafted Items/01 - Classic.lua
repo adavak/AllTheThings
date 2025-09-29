@@ -3037,7 +3037,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			--i(13755),	-- Winter Squid: Is properly sourced in 21 - Holidays/Seasonal Fish.lua.
 			-- Fish schools:
-			o(180684, {	-- Firefin Snapper School
+			o(180683, {	-- Firefin Snapper School
 				["description"] = "Can be found on the seaside.",
 				["maps"] = {
 					ARATHI_HIGHLANDS,
@@ -3063,7 +3063,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					WESTFALL,
 					WETLANDS,
 				},
-				["nomerge"] = true,
 			}),
 			-- These Firefin Snapper school IDs needs to be confirmed in game.
 			o(180657),	-- Firefin Snapper School 2
@@ -3143,7 +3142,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					REDRIDGE_MOUNTAINS,
 					WETLANDS,
 				},
-				["nomerge"] = true,
 				["timeline"] = { ADDED_5_1_0 },
 			}),
 			o(180658, {	-- School of Deviate Fish
@@ -3201,7 +3199,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					NORTHERN_BARRENS,
 					-- #endif
 				},
-				["nomerge"] = true,
 			}),
 			o(180751, {	-- Floating Wreckage
 				["description"] = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",

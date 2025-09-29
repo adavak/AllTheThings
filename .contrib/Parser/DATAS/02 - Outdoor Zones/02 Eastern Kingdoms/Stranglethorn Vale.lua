@@ -2666,7 +2666,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coords"] = {
 						{ 28.1, 45.9, NORTHERN_STRANGLETHORN },	-- The Vile Reef
 					},
-					["nomerge"] = true,
 					["groups"] = {
 						i(4611),	-- Blue Pearl
 						i(4655),	-- Giant Clam Meat
