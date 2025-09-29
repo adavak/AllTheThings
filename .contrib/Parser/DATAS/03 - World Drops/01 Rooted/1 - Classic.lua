@@ -4815,14 +4815,12 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		o(2744),	-- Giant Clam (with Giant Clam Meat, found in STV)
 		o(19017, {	-- Giant Clam (with Clam Meat, found in Bloodmyst Isle and Ghostlands)
 			["description"] = "Can be found in the sea.",
-			["nomerge"] = true,
 			["groups"] = {
 				i(5503),	-- Clam Meat
 				i(5498),	-- Small Lustrous Pearl
 			},
 		}),
 		o(19018, {	-- Giant Clam (with Tangy Clam Meat, found in BfD)
-			["nomerge"] = true,
 			["groups"] = {
 				i(2143),	-- Cuirboulli Boots (confirmed - Danny Donkey)
 				i(5500),	-- Iridescent Pearl
