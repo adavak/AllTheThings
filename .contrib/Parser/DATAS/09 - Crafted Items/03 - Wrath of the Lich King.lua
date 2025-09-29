@@ -7,6 +7,11 @@ local function ClassicCost(cost)
 	return cost
 	-- #ENDIF
 end
+local MAPS_FIELD = "maps"
+-- #if RETAIL_STYLE_FILL_ENABLED
+-- Filling allows users to 'chose' whether the Items dropped from Objects should show up in lists and potentially be Filled
+MAPS_FIELD = "maps_disp"
+-- #ENDIF
 root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_3 } }, {
 	i(180055, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past I
 	i(180057, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past II
@@ -723,14 +728,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	prof(FISHING, {
 		-- Fish
 		i(41812, {	-- Barrelhead Goby
-			["maps"] = { SHOLAZAR_BASIN },
+			[MAPS_FIELD] = { SHOLAZAR_BASIN },
 		}),
 		i(45905, {	-- Bloodtooth Frenzy (Dalaran Fishing daily quest objective)
 			["description"] = "Kill an animal and then swim in a body of water to create a pool to fish from.",
 			["provider"] = { "o", 194479 },	-- Pool of Blood
 		}),
 		i(41808, {	-- Bonescale Snapper
-			["maps"] = {
+			[MAPS_FIELD] = {
 				BOREAN_TUNDRA,
 				CRYSTALSONG_FOREST,
 				DRAGONBLIGHT,
@@ -745,7 +750,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(41805, {	-- Borean Man O' War
 			["description"] = "Schools can be found on the seaside.",
-			["maps"] = { BOREAN_TUNDRA },
+			[MAPS_FIELD] = { BOREAN_TUNDRA },
 			["provider"] = { "o", 192051 },	-- Borean Man O' War School
 		}),
 		i(41800, {	-- Deep Sea Monsterbelly
@@ -772,7 +777,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["provider"] = { "o", 192048 },	-- Dragonfin Angelfish School
 		}),
 		i(44703, {	-- Dark Herring
-			["maps"] = { HOWLING_FJORD },
+			[MAPS_FIELD] = { HOWLING_FJORD },
 			["provider"] = { "o", 192049 },	-- Fangtooth Herring School
 			["description"] =
 				-- #if BEFORE LEGION
@@ -803,7 +808,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(41810, {	-- Fangtooth Herring
 			["description"] = "Schools can be found in inland waters.",
-			["maps"] = { HOWLING_FJORD },
+			[MAPS_FIELD] = { HOWLING_FJORD },
 			["provider"] = { "o", 192049 },	-- Fangtooth Herring School
 		}),
 		i(43646, {	-- Fountain Goldfish
@@ -811,7 +816,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["coord"] = { 52.9, 65.9, NORTHREND_DALARAN },	-- Dalaran fountain
 		}),
 		i(45909, {	-- Giant Darkwater Clam
-			["maps"] = { WINTERGRASP },
+			[MAPS_FIELD] = { WINTERGRASP },
 			["groups"] = {
 				i(36782),	-- Succulent Clam Meat
 				i(36783),	-- Northsea Pearl
@@ -820,16 +825,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(41809, {	-- Glacial Salmon
 			["description"] = "Schools can be found in inland waters.",
-			["maps"] = { GRIZZLY_HILLS },
+			[MAPS_FIELD] = { GRIZZLY_HILLS },
 			["provider"] = { "o", 192050 },	-- Glacial Salmon School
 		}),
 		i(41814, {	-- Glassfin Minnow
-			["maps"] = { CRYSTALSONG_FOREST },
+			[MAPS_FIELD] = { CRYSTALSONG_FOREST },
 			["provider"] = { "o", 192059 },	-- Glassfin Minnow School
 		}),
 		i(41802, {	-- Imperial Manta Ray
 			["description"] = "Schools can be found on the seaside.",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				BOREAN_TUNDRA,
 				DRAGONBLIGHT,
 				GRIZZLY_HILLS,
@@ -839,7 +844,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(43572, {	-- Magic Eater
 			["description"] = "Can be caught in any waters on both WotLK and Legion Dalaran.",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NORTHREND_DALARAN,
 				NORTHREND_THE_UNDERBELLY,
 			},
@@ -861,16 +866,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["provider"] = { "o", 192046 },	-- Musselback Sculpin School
 		}),
 		i(41813, {	-- Nettlefish
-			["maps"] = { SHOLAZAR_BASIN },
+			[MAPS_FIELD] = { SHOLAZAR_BASIN },
 			["provider"] = { "o", 192057 },	-- Nettlefish School
 		}),
 		i(45902, {	-- Phantom Ghostfish (Dalaran Fishing daily quest objective)
 			["description"] = "Eat this before it despawns!",
-			["maps"] = { SHOLAZAR_BASIN },
+			[MAPS_FIELD] = { SHOLAZAR_BASIN },
 			["_noautomation"] = true,
 		}),
 		i(40199, {	-- Pygmy Suckerfish
-			["maps"] = {
+			[MAPS_FIELD] = {
 				BOREAN_TUNDRA,
 				CRYSTALSONG_FOREST,
 				DRAGONBLIGHT,
@@ -912,7 +917,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(41803, {	-- Rockfin Grouper
 			["description"] = "Can be caught on the seaside around Northrend.",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				BOREAN_TUNDRA,
 				DRAGONBLIGHT,
 				GRIZZLY_HILLS,
@@ -925,7 +930,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(46109, {	-- Sea Turtle (MOUNT!)
 			-- #if BEFORE 4.0.3
-			["maps"] = {
+			[MAPS_FIELD] = {
 				BOREAN_TUNDRA,
 				CRYSTALSONG_FOREST,
 				DRAGONBLIGHT,
@@ -949,7 +954,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(43571, {	-- Sewer Carp
 			["description"] = "Can be caught in any waters on both WotLK and Legion Dalaran.",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NORTHREND_DALARAN,
 				NORTHREND_THE_UNDERBELLY,
 			},
@@ -963,7 +968,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["coord"] = { 63.8, 64.3, NORTHREND_DALARAN },	-- The Violet Hold
 		}),
 		i(45904, {	-- Terrorfish (Dalaran Fishing daily quest objective)
-			["maps"] = { WINTERGRASP },
+			[MAPS_FIELD] = { WINTERGRASP },
 		}),
 		-- Schools
 		o(192051, {	-- Borean Man O' War School
@@ -1038,7 +1043,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		spell(2366, {	-- Herb Gathering
 			--	Herbs
 			i(36903, {	-- Adder's Tongue
-				["maps"] = { SHOLAZAR_BASIN },
+				[MAPS_FIELD] = { SHOLAZAR_BASIN },
 				["provider"] = { "o", 191019 },	-- Adder's Tongue
 			}),
 			i(108353, {	-- Adder's Tongue Stem
@@ -1050,7 +1055,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			i(37921, {	-- Deadnettle
 				["description"] = "Is obtained from gathering other herbs.",
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BOREAN_TUNDRA,
 					DRAGONBLIGHT,
 					GRIZZLY_HILLS,
@@ -1100,7 +1105,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					{ 63.5, 72.5, DRAGONBLIGHT },	-- Emerald Dragonshrine
 				},
 				["description"] = "Found on grassy terrain.",
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BOREAN_TUNDRA,
 					GRIZZLY_HILLS,
 					HOWLING_FJORD,
@@ -1117,7 +1122,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			i(36906, {	-- Icethorn
-				["maps"] = {
+				[MAPS_FIELD] = {
 					ICECROWN,
 					THE_STORM_PEAKS,
 				},
@@ -1131,7 +1136,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			i(36905, {	-- Lichbloom
-				["maps"] = {
+				[MAPS_FIELD] = {
 					ICECROWN,
 					THE_STORM_PEAKS,
 				},
@@ -1160,7 +1165,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(36904, {	-- Tiger Lily
 				["coord"] = { 51.6, 45.0, BOREAN_TUNDRA },	-- Lake Kum'uya
 				["description"] = "Found around inland waters and waterways.",
-				["maps"] = {
+				[MAPS_FIELD] = {
 					GRIZZLY_HILLS,
 					HOWLING_FJORD,
 					SHOLAZAR_BASIN,
@@ -1649,7 +1654,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			-- Ores
 			i(36909, {	-- Cobalt Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BOREAN_TUNDRA,
 					DRAGONBLIGHT,
 					GRIZZLY_HILLS,
@@ -1671,7 +1676,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			i(36912, {	-- Saronite Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					ICECROWN,
 					SHOLAZAR_BASIN,
 					THE_STORM_PEAKS,
@@ -1693,7 +1698,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			i(36910, {	-- Titanium Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					ICECROWN,
 					SHOLAZAR_BASIN,
 					THE_STORM_PEAKS,
@@ -1785,7 +1790,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					32572,	-- Dragonblight Mage Hunter (dragonkin)
 					28378,	-- Primordial Drake
 				},
-				["maps"] = {
+				[MAPS_FIELD] = {
 					THE_OBSIDIAN_SANCTUM,
 					-- #if AFTER 3.3.5
 					THE_RUBY_SANCTUM
@@ -1846,7 +1851,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					25294,	-- Nerub'ar Web Lord
 					25582,	-- Scourged Flamespitter
 				},
-				["maps"] = {
+				[MAPS_FIELD] = {
 					AHNKAHET_THE_OLD_KINGDOM,
 					AZJOL_NERUB,
 				},

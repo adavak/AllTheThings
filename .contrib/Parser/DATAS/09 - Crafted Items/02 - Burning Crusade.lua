@@ -7,6 +7,11 @@ local function ClassicCost(cost)
 	return cost
 	-- #ENDIF
 end
+local MAPS_FIELD = "maps"
+-- #if RETAIL_STYLE_FILL_ENABLED
+-- Filling allows users to 'chose' whether the Items dropped from Objects should show up in lists and potentially be Filled
+MAPS_FIELD = "maps_disp"
+-- #ENDIF
 root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_5 } }, {
 	i(180055, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I
 	i(180057, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II
@@ -743,7 +748,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	prof(FISHING, {
 		-- Fish
 		i(27422, {	-- Barbed Gill Trout
-			["maps"] = {
+			[MAPS_FIELD] = {
 				DEADWIND_PASS,
 				NAGRAND,
 				TEROKKAR_FOREST,
@@ -751,26 +756,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 		}),
 		i(34865, {	-- Blackfin Darter (Quest Item for Terokkar Forest fishing daily q(11666) Bait Bandits)
-			["maps"] = { TEROKKAR_FOREST } ,
+			[MAPS_FIELD] = { TEROKKAR_FOREST } ,
 			["timeline"] = { ADDED_2_4_0 },
 		}),
 		i(35313, {	-- Bloated Barbed Gill Trout (Quest Item for Terokkar Forest fishing daily q(11668) Shrimpin' Ain't Easy)
-			["maps"] = ZANGARMARSH,
+			[MAPS_FIELD] = ZANGARMARSH,
 			["timeline"] = { ADDED_2_4_0 },
 			["groups"] = {
 				i(34866),	-- Giant Freshwater Shrimp
 			},
 		}),
 		applyclassicphase(TBC_PHASE_FIVE, i(35286, {	-- Bloated Giant Sunfish
-			["maps"] = { ISLE_OF_QUELDANAS },
+			[MAPS_FIELD] = { ISLE_OF_QUELDANAS },
 			["timeline"] = { ADDED_2_4_0 },
 		})),
 		applyclassicphase(TBC_PHASE_FOUR, i(33823, {	-- Bloodfin Catfish
-			["maps"] = { DEADWIND_PASS },
+			[MAPS_FIELD] = { DEADWIND_PASS },
 			["timeline"] = { ADDED_2_3_0 },
 		})),
 		applyclassicphase(TBC_PHASE_FOUR, i(33824, {	-- Crescent-Tail Skullfish
-			["maps"] = { DEADWIND_PASS },
+			[MAPS_FIELD] = { DEADWIND_PASS },
 			["timeline"] = { ADDED_2_3_0 },
 		})),
 		i(27513, {	-- Curious Crate
@@ -784,7 +789,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
 			},
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NAGRAND,
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
@@ -801,7 +806,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
 			},
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NAGRAND,
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
@@ -809,7 +814,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		i(27435, {	-- Figluster's Mudfish
 			["provider"] = { "o", 182958 },	-- Mudfish School
-			["maps"] = { NAGRAND },
+			[MAPS_FIELD] = { NAGRAND },
 		}),
 		i(27439, {	-- Furious Crawdad
 			["coords"] = {
@@ -821,7 +826,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			["provider"] = { "o", 182957 },	-- Highland Mixed School
 		}),
 		applyclassicphase(TBC_PHASE_FIVE, i(35285, {	-- Giant Sunfish
-			["maps"] = { ISLE_OF_QUELDANAS },
+			[MAPS_FIELD] = { ISLE_OF_QUELDANAS },
 			["timeline"] = { ADDED_2_4_0 },
 		})),
 		i(27438, {	-- Golden Darter
@@ -830,7 +835,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182957 },	-- Highland Mixed School
 				{ "o", 182956 },	-- School of Darter
 			},
-			["maps"] = TEROKKAR_FOREST,
+			[MAPS_FIELD] = TEROKKAR_FOREST,
 		}),
 		i(27442, {	-- Goldenscale Vendorfish
 			["providers"] = {
@@ -843,7 +848,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
 			},
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NAGRAND,
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
@@ -863,7 +868,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
 			},
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NAGRAND,
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
@@ -871,7 +876,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		i(27437, {	-- Icefin Bluefish
 			["provider"] = { "o", 182959 },	-- Bluefish School
-			["maps"] = { NAGRAND },
+			[MAPS_FIELD] = { NAGRAND },
 		}),
 		i(27511, {	-- Inscribed Scrollcase
 			["providers"] = {
@@ -884,14 +889,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
 			},
-			["maps"] = {
+			[MAPS_FIELD] = {
 				NAGRAND,
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
 			},
 		}),
 		i(34867, {	-- Monstrous Felblood Snapper (Quest Item for Terokkar Forest fishing daily q(11669) Felblood Fillet)
-			["maps"] = {
+			[MAPS_FIELD] = {
 				HELLFIRE_PENINSULA,
 				SHADOWMOON_VALLEY,
 			},
@@ -917,17 +922,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 		}),
 		i(27425, {	-- Spotted Feltail
-			["maps"] = {
+			[MAPS_FIELD] = {
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
 			},
 		}),
 		i(34868, {	-- World's Largest Mudfish (Quest Item for Terokkar Forest fishing daily q(11667) The One That Got Away)
-			["maps"] = { NAGRAND },
+			[MAPS_FIELD] = { NAGRAND },
 		}),
 		i(27429, {	-- Zangarian Sporefish
 			["provider"] = { "o", 182953 },	-- Sporefish School
-			["maps"] = { ZANGARMARSH },
+			[MAPS_FIELD] = { ZANGARMARSH },
 		}),
 		-- Schools
 		o(182959, {	-- Bluefish School
@@ -973,7 +978,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		header(HEADERS.Spell, 2366, {	-- Herb Gathering
 			-- Herbs
 			i(22790, {	-- Ancient Lichen
-				["maps"] = {
+				[MAPS_FIELD] = {
 					AUCHINDOUN_AUCHENAI_CRYPTS,
 					AUCHINDOUN_MANA_TOMBS,
 					AUCHINDOUN_SETHEKK_HALLS,
@@ -993,7 +998,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22786, {	-- Dreaming Glory
 				["description"] = "Found near edges and highly uneven terrain.",
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BLADES_EDGE_MOUNTAINS,
 					NAGRAND,
 					NETHERSTORM,
@@ -1026,7 +1031,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(22785, {	-- Felweed
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BLADES_EDGE_MOUNTAINS,
 					HELLFIRE_PENINSULA,
 					NAGRAND,
@@ -1044,7 +1049,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(22788, {	-- Flame Cap
-				["maps"] = {
+				[MAPS_FIELD] = {
 					COILFANG_RESERVOIR_SLAVE_PENS,
 					COILFANG_RESERVOIR_STEAMVAULT,
 					COILFANG_RESERVOIR_UNDERBOG,
@@ -1053,7 +1058,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["provider"] = { "o", 181276 },	-- Flame Cap
 			}),
 			i(22793, {	-- Mana Thistle
-				["maps"] = { ISLE_OF_QUELDANAS },
+				[MAPS_FIELD] = { ISLE_OF_QUELDANAS },
 				["provider"] = { "o", 181281 },	-- Mana Thistle
 			}),
 			i(108351, {	-- Mana Thistle Leaf
@@ -1077,7 +1082,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["timeline"] = { ADDED_2_4_0 },
 			}),
 			i(22791, {	-- Netherbloom
-				["maps"] = { NETHERSTORM },
+				[MAPS_FIELD] = { NETHERSTORM },
 				["provider"] = { "o", 181279 },	-- Netherbloom
 			}),
 			i(108349, {	-- Netherbloom Leaf
@@ -1099,7 +1104,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
 				},
 				["description"] = "Although it can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
-				["maps"] = SHADOWMOON_VALLEY,
+				[MAPS_FIELD] = SHADOWMOON_VALLEY,
 				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 181280 },	-- Nightmare Vine
 			}),
@@ -1111,7 +1116,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(22787, {	-- Ragveil
-				["maps"] = ZANGARMARSH,
+				[MAPS_FIELD] = ZANGARMARSH,
 				["provider"] = { "o", 181275 },	-- Ragveil
 			}),
 			i(108346, {	-- Ragveil Cap
@@ -1129,7 +1134,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
 				},
 				["description"] = "Found near the base of trees.",
-				["maps"] = TEROKKAR_FOREST,
+				[MAPS_FIELD] = TEROKKAR_FOREST,
 				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 181277 },	-- Terocone
 			}),
@@ -1141,7 +1146,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(24401, {	-- Unidentified Plant Parts (Quest Item for Zangarmarsh q(9802) and q(9784))
-				["maps"] = ZANGARMARSH,
+				[MAPS_FIELD] = ZANGARMARSH,
 			}),
 			-- Nodes
 			o(181278, {	-- Ancient Lichen
@@ -1980,7 +1985,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			-- Ores
 			i(23425, {	-- Adamantite Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BLADES_EDGE_MOUNTAINS,
 					ISLE_OF_QUELDANAS,
 					NAGRAND,
@@ -2006,7 +2011,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}
 			}),
 			i(23427, {	-- Eternium Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BLADES_EDGE_MOUNTAINS,
 					ISLE_OF_QUELDANAS,
 					NAGRAND,
@@ -2029,7 +2034,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}
 			}),
 			i(23424, {	-- Fel Iron Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					BLADES_EDGE_MOUNTAINS,
 					HELLFIRE_PENINSULA,
 					NAGRAND,
@@ -2048,7 +2053,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}
 			}),
 			i(23426, {	-- Khorium Ore
-				["maps"] = {
+				[MAPS_FIELD] = {
 					AUCHINDOUN_AUCHENAI_CRYPTS,
 					AUCHINDOUN_MANA_TOMBS,
 					AUCHINDOUN_SETHEKK_HALLS,
@@ -2323,7 +2328,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					19183,	-- Clefthoof Calf
 					18205,	-- Clefthoof
 				},
-				["maps"] = { NAGRAND },
+				[MAPS_FIELD] = { NAGRAND },
 			}),
 			i(29547, {	-- Wind Scales
 				["crs"] = {
@@ -2492,7 +2497,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["coord"] = { 58.3, 70.9, SHADOWMOON_VALLEY },
 			}),
 			i(24271, {	-- Spellcloth
-				["maps"] = { NETHERSTORM },
+				[MAPS_FIELD] = { NETHERSTORM },
 			}),
 		}),
 	}),

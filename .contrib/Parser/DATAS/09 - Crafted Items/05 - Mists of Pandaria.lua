@@ -7,6 +7,11 @@ local function ClassicCost(cost)
 	return cost
 	-- #ENDIF
 end
+local MAPS_FIELD = "maps"
+-- #if RETAIL_STYLE_FILL_ENABLED
+-- Filling allows users to 'chose' whether the Items dropped from Objects should show up in lists and potentially be Filled
+MAPS_FIELD = "maps_disp"
+-- #ENDIF
 root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 	i(180055, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I
 	i(180057, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II
@@ -754,7 +759,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94933, {	-- Tiny Blue Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Jewel Danio & Redbelly Mandarin\n\n|cFFFfffff— Fish of the Day:|r Townlong Steppes & Vale of Eternal Blossoms\n\n|cFFFfffff— Inland open water:|r Townlong Steppes & Vale of Eternal Blossoms\n",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				TIMELESS_ISLE,
 				TOWNLONG_STEPPES,
 				VALE_OF_ETERNAL_BLOSSOMS,
@@ -763,7 +768,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94934, {	-- Tiny Green Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Emperor Salmon, Jade Lungfish, & Krasarang Paddlefish\n\n|cFFFfffff— Fish of the Day:|r Jade Forest, Krasarang Wilds, & Valley of the Four Winds\n\n|cFFFfffff— Inland open water:|r Jade Forest, Krasarang Wilds, & Valley of the Four Winds\n",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				KRASARANG_WILDS,
 				THE_JADE_FOREST,
 				TOWNLONG_STEPPES,
@@ -773,7 +778,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94932, {	-- Tiny Red Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Spinefish\n\n|cFFFfffff— Fish of the Day:|r Kun-Lai Summit\n\n|cFFFfffff— Sha-Touched water:|r Dread Wastes, Kun-Lai Summit & Townlong Steppes\n",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				DREAD_WASTES,
 				KUN_LAI_SUMMIT,
 				TOWNLONG_STEPPES,
@@ -782,7 +787,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94935, {	-- Tiny White Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Giant Mantis Shrimp, Reef Octopus, & Tiger Gourami\n\n|cFFFfffff— Fish of the Day:|r Dread Wastes, Jade Forest, & Kun-Lai Summit\n\n|cFFFfffff— Inland open water:|r Kun-Lai Summit & The Veiled Stair\n\nIt can also be caught in most coastal open water.\n",
-			["maps"] = {
+			[MAPS_FIELD] = {
 				DREAD_WASTES,
 				ISLE_OF_GIANTS,
 				ISLE_OF_THUNDER,
