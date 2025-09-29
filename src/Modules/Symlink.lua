@@ -1113,10 +1113,11 @@ app.AddEventHandler("OnLoad", function()
 		if difficultyID then
 			-- app.PrintDebug("FillOBJ.Diff",difficultyID)
 			-- can only fill obj groups for the obj which match the difficultyID
-			local groups, objDiff, objGroup
+			local groups,objDiff,objGroup,objID
 			for i=1,#objectGroups do
 				objGroup = objectGroups[i]
-				if objGroup.hash ~= group.hash then
+				objID = objGroup.objectID
+				if not objID or objID ~= objectID then
 					objDiff = GetRelativeValue(objGroup, "difficultyID");
 					if not objDiff or objDiff == difficultyID then
 						-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",objGroup.hash)
@@ -1128,10 +1129,11 @@ app.AddEventHandler("OnLoad", function()
 			return groups;
 		else
 			-- app.PrintDebug("FillOBJ")
-			local groups,objGroup
+			local groups,objGroup,objID
 			for i=1,#objectGroups do
 				objGroup = objectGroups[i]
-				if objGroup.hash ~= group.hash then
+				objID = objGroup.objectID
+				if not objID or objID ~= objectID then
 					-- app.PrintDebug("IsDrop",group.hash,"<==",objGroup.hash)
 					if groups then groups[#groups + 1] = CreateObject(objGroup)
 					else groups = { CreateObject(objGroup) }; end
