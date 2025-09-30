@@ -468,6 +468,13 @@ ExportDB.AccountWideQuestsDB = {
 	[86198] = true;	-- Delver's Dirigible Schematic: Pale Paint
 	-- #ENDIF
 
+	-- Retroactively changed Raid Skips
+	-- #IF AFTER 11.1.7
+	[37029] = true,	-- Sigil of the Black Hand [N]
+	[37030] = true,	-- Sigil of the Black Hand [H]
+	[37031] = true,	-- Sigil of the Black Hand [M]
+	-- #ENDIF
+
 	-- Manual scrape from a brand new character & 86000 scan of C_QuestLog.IsAccountQuest
 	-- Nothing in this section was in the game prior to MOP that I can tell
 	-- #IF AFTER MOP
