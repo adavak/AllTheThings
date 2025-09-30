@@ -41,6 +41,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(239478),	-- Reshii Brute's Greatbelt
 					i(239454),	-- Reshii Magi's Cord
 					i(246064),	-- Reshii Magi's Pendant
+					i(239463),	-- Reshii Scout's Bracers
 					i(239465),	-- Reshii Skirmisher's Boots
 					i(239469),	-- Reshii Skirmisher's Pauldrons
 				},
@@ -73,6 +74,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			n(231229, {	-- Korgoth the Hungerer
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
 				["coord"] = { 71.5, 27.4, KARESH },
+				["crs"] = { 231232 },	-- Devourer Attack (Vignette)
 				["questID"] = 91309,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
@@ -108,6 +110,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			n(234970, {	-- Miasmawrath
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
 				["coord"] = { 50.6, 54.1, KARESH },
+				["crs"] = { 234967 },	-- Soroth Miasmawrath (Vignette)
 				["questID"] = 91310,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
