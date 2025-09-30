@@ -1357,6 +1357,18 @@ namespace ATT
                 CaptureDebugDBData(source);
             }
 
+            // when Blizzard references a questID and tmogSetID which conflict from the same SpellID on an Item, we end up with one Item potentially granting 2 TransmogSets
+            // and we should nest that separate TransmogSet under the Item instead of at the same level BUT only if the questID is not already Sourced elsewhere by another
+            // distinct Ensemble
+            if (data.TryGetValue("_altTmogSetQuestID", out long altTransmogSetQuestID))
+            {
+                if (!TryGetSOURCED("questID", altTransmogSetQuestID, out HashSet<IDictionary<string, object>> questSources))
+                {
+                    data.TryGetValue("ensembleID", out long ensembleID);
+                    LogWarn($"Ensemble {ensembleID} has matching un-sourced alternate transmog set questID {altTransmogSetQuestID}", data);
+                }
+            }
+
             if (symlinkSources.Count == 0) return;
 
             // replace any existing symlink with the raw select
@@ -3114,8 +3126,18 @@ namespace ATT
             {
                 if (tmogSet.TrackingQuestID > 0)
                 {
-                    Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
-                    TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
+                    if (data.TryGetValue("questID", out long existingQuestID) && existingQuestID != tmogSet.TrackingQuestID)
+                    {
+                        LogDebugWarn($"Existing QuestID {existingQuestID} on Ensemble with TransmogSet {tmogSetID} which has different TrackingQuestID {tmogSet.TrackingQuestID}", data);
+                        // if this tmogSet's TrackingQuestID is different, then we will just store it as an alternate questID for reference and
+                        // deal with it in EnsembleCleanup if no other Ensemble sources this questID
+                        data["_altTmogSetQuestID"] = tmogSet.TrackingQuestID;
+                    }
+                    else
+                    {
+                        Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
+                        TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
+                    }
                 }
 
                 Incorporate_Item_TransmogSetItems(data, tmogSetID);
@@ -3314,26 +3336,18 @@ namespace ATT
                         }
                         else
                         {
-                            // we only want to attach a questID to an item if that Quest is only linked via 1 SpellEffect...
-                            // and not already Sourced as a Quest
-                            if (!TryGetSOURCED("questID", questID, out var sourcedQuests))
-                            {
-                                Objects.Merge(data, "questID", questID);
-                                LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
-                                Objects.MergeQuestData(data);
-                                TrackIncorporationData(data, "questID", questID);
-                            }
-                            else if (sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedQuest))
+                            // warn if this Quest is already Sourced in Unsorted
+                            // otherwise, duplicate Ensembles still need to receive the duplicated QuestID
+                            if (TryGetSOURCED("questID", questID, out var sourcedQuests)
+                                && sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedQuest))
                             {
                                 LogWarn($"Item 'questID' {questID} is currently listed in Unsorted but should be directly linked on the trigger group. Remove Unsorted group so the QuestID is not duplicated", data);
-                                Objects.Merge(data, "questID", questID);
-                                Objects.MergeQuestData(data);
-                                TrackIncorporationData(data, "questID", questID);
                             }
-                            else
-                            {
-                                LogDebug($"INFO: Ignoring Item 'questID' {questID} since it is already Sourced", data);
-                            }
+
+                            Objects.Merge(data, "questID", questID);
+                            LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
+                            Objects.MergeQuestData(data);
+                            TrackIncorporationData(data, "questID", questID);
                         }
                     }
                 }
@@ -3353,8 +3367,6 @@ namespace ATT
                     TrackIncorporationData(data, "tmogSetID", tmogSetID);
                     LogDebug($"INFO: Assigned 'tmogSetID' {tmogSetID}", data);
                 }
-                // this is repeated later for the same data, yes, but we need to ensure some things happen in the correct order
-                Incorporate_Ensemble(data);
             }
         }
 
