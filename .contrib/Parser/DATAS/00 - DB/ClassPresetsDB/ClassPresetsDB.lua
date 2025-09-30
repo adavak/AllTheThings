@@ -138,6 +138,7 @@ local Presets = {
 
 -- Apply Common Transmog Filter Types
 local CommonTransmogFilterTypes = {
+	FILTER_ARTIFACTS,
 	HELD_IN_OFF_HAND,
 	COSMETIC,
 	CLOAKS,
