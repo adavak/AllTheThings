@@ -559,6 +559,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	}),
 	-- #endif
 	filter(MOUNTS, {	-- AVAILABLE --
+		-- #if ANYCLASSIC
+		mount(1229672, {	-- Archmage's Great Crow
+			["timeline"] = { ADDED_5_5_1 },
+		}),
+		-- #endif
 		i(238994, {	-- Archmage's Great Raven (MOUNT!)
 			["timeline"] = { ADDED_11_1_5 },
 		}),
@@ -646,6 +651,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(190581, {	-- Nether-Gorged Greatwyrm (MOUNT!)
 			["timeline"] = { ADDED_9_2_5 },
 		}),
+		-- #if ANYCLASSIC
+		mount(1229670, {	-- Prophet's Great Crow
+			["timeline"] = { ADDED_5_5_1 },
+		}),
+		-- #endif
 		i(238943, {	-- Prophet's Great Raven (MOUNT!)
 			["timeline"] = { ADDED_11_1_5 },
 		}),
