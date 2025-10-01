@@ -2048,6 +2048,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						i(29957),	-- Silver Dragonhawk Hatchling (PET!)
 					},
 				}),
+				n(18929, {	-- Kyrenna <Cheese Vendor>
+					["coord"] = { 47.5, 45.4, EVERSONG_WOODS },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(8932),	-- Alterac Swiss
+						i(414),		-- Dalaran Sharp
+						i(2070),	-- Darnassian Bleu
+						i(422),		-- Dwarven Mild
+						i(3927),	-- Fine Aged Cheddar
+						i(1707),	-- Stormwind Brie
+					},
+				}),
 				n(16262, {	-- Landraelanis <Tradesman>
 					["coord"] = { 49.0, 47.0, EVERSONG_WOODS },
 					["races"] = HORDE_ONLY,

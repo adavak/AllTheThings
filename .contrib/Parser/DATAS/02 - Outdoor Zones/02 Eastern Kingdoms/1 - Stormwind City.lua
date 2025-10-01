@@ -5538,6 +5538,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				-- #endif
+				n(483, {	-- Elaine Trias <Mistress of Cheese>
+					["coords"] = {
+						-- #if AFTER WRATH
+						{ 66.6, 73.4, STORMWIND_CITY },
+						-- #else
+						{ 60.6, 63.4, STORMWIND_CITY },
+						-- #endif
+					},
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(8932),	-- Alterac Swiss
+						i(414),		-- Dalaran Sharp
+						i(2070),	-- Darnassian Bleu
+						i(422),		-- Dwarven Mild
+						i(3927),	-- Fine Aged Cheddar
+						i(1707),	-- Stormwind Brie
+					},
+				}),
 				n(5503, {	-- Eldraeith <Herbalism Supplies> [TBC+] / Eldraeith <Herbalism Supplier>
 					["coords"] = {
 						-- #if AFTER WRATH
@@ -7540,6 +7558,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = TIER_ELEVEN_GROUPS,
 					["description"] = "Sells gear related to Cataclysm raid tier 11 (Throne of the Four Winds, Blackwing Descent, and Bastion of Twilight) as well as Baradin Hold.",
+				}),
+				n(50524, {	-- Travis Nichols <Hot Coffee Vendor>
+					["coord"] = { 69.4, 65.4, STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_4_0_1 },
+					["groups"] = {
+						i(33042),	-- Black Coffee
+					},
 				}),
 				n(1341, {	-- Wilhelm Strang <Mail Armor Merchant>
 					["coords"] = {
