@@ -266,7 +266,7 @@ root(ROOTS.Zones, {
 							},
 							["coords"] = {
 								{ 59.1, 20.2, EREDATH },
-								{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+								{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_LOWER },
 								{ 45.8, 23.9, THE_VINDICAAR_EREDATH_UPPER },
 								{ 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
 							},
@@ -373,7 +373,15 @@ root(ROOTS.Zones, {
 						}),
 						q(48912, {	-- Supplying the Antoran Campaign
 							["sourceQuests"] = { 48448 },	-- Hindering the Legion War Machine
-							["qg"] = 126954,	-- High Exarch Turalyon
+							["qgs"] = {
+								124312,	-- High Exarch Turalyon @ Eredath & Krokuun
+								126954,	-- High Exarch Turalyon @ Antoran Wastes
+							},
+							["coords"] = {
+								{ 33.5, 58.2, THE_VINDICAAR_ANTORAN_WASTES_LOWER },
+								{ 45.9, 23.9, THE_VINDICAAR_EREDATH_UPPER },
+								{ 39.2, 24.8, THE_VINDICAAR_KROKUUN_UPPER },
+							},
 							["cost"] = { { "c", 1220, 150 } },	-- 150x Order Resources
 							["isWeekly"] = true,
 							["groups"] = {

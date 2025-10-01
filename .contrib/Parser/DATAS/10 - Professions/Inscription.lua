@@ -4954,6 +4954,9 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			["provider"] = { "n", 92195 },	-- Professor Pallin
 			["coord"] = { 41.6, 37.2, LEGION_DALARAN },
 			["groups"] = {
+				i(129047, {	-- Unsigned Contract (PQI!)
+					i(129043),	-- Signed Contract (QI!)
+				}),
 				r(195115, {	-- Inscription (Legion) (RECIPE!)
 					["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
 					["collectible"] = false,

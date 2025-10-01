@@ -153,6 +153,9 @@ root(ROOTS.Zones, {
 									}),
 								},
 							}),
+							i(140213, {	-- Boon of the Gemfinder
+								["cost"] = 1500000,	-- 150g
+							}),
 							i(139606, {	-- Cadet's Gaudy Scarf
 								["cost"] = 10000000,	-- 1,000g
 							}),
