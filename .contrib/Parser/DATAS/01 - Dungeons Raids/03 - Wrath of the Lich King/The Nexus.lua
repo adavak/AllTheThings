@@ -351,8 +351,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 								["timeline"] = { ADDED_4_0_3 },
 							}),
 							ach(2036),	-- Intense Cold
-							i(41794, {	-- Design: Deadly Monarch Topaz
-								["timeline"] = { REMOVED_4_0_1 },
+							i(41794, {	-- Design: Deadly Monarch Topaz (RECIPE!)
+								["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 							}),
 							-- #if AFTER 7.3.5
 							i(35595),	-- Glacier Sharpened Vileblade (7.3.5 - Used to be only Normal Mode)

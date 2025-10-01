@@ -1200,7 +1200,7 @@ root(ROOTS.Zones, {
 						["groups"] = bubbleDownClassicRep(FACTION_THE_ORACLES, {
 							{		-- Neutral
 							}, {	-- Friendly
-								i(41567),	-- Design: Nimble Dark Jade [CATA+] / Design: Vivid Dark Jade [WRATH]
+								i(41567),	-- Design: Nimble Dark Jade [CATA+] / Design: Vivid Dark Jade [WRATH] (RECIPE!)
 								i(44065),	-- Oracle Secret Solution
 							}, {	-- Honored
 								i(44071),	-- Slow-Roasted Eel

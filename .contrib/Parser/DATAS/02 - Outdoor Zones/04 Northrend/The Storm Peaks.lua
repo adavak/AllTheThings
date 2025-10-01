@@ -1693,7 +1693,7 @@ root(ROOTS.Zones, {
 								i(44195),	-- Spaulders of the Giant Lords
 								i(44192),	-- Stalactite Chopper
 							}, {	-- Exalted
-								i(41720),	-- Design: Smooth Autumn's Glow
+								i(41720),	-- Design: Smooth Autumn's Glow (RECIPE!)
 								ach(2083, {	-- Grand Ice Mammoth
 									["providers"] = {
 										{ "i", 43961 },	-- Reins of the Grand Ice Mammoth (A) (MOUNT!)
@@ -1791,7 +1791,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
-					i(41820, {	-- Design: Defender's Twilight Opal
+					i(41820, {	-- Design: Defender's Twilight Opal (RECIPE!)
 						["crs"] = {
 							30208,	-- Stormforged Ambusher
 							29376,	-- Stormforged Artificer
@@ -1799,11 +1799,11 @@ root(ROOTS.Zones, {
 							30222,	-- Stormforged Infiltrator
 						},
 					}),
-					i(41817, {	-- Design: Fractured Scarlet Ruby [WRATH] / Design: Smooth Autumn's Glow [CATA+]
-						["timeline"] = { REMOVED_4_0_1 },
+					i(41817, {	-- Design: Fractured Scarlet Ruby [WRATH] / Design: Smooth Autumn's Glow [CATA+] (RECIPE!)
+						["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 						["cr"] = 29570,	-- Nascent Val'kyr
 					}),
-					i(41819, {	-- Design: Radiant Forest Emerald
+					i(41819, {	-- Design: Radiant Forest Emerald (RECIPE!)
 						["crs"] = {
 							29793,	-- Frostfeather Witch
 							29792,	-- Frostfeather Screecher

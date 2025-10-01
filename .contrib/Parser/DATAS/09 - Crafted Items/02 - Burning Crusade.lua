@@ -1680,6 +1680,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		filter(MISC, {
 			i(35945, {["timeline"] = {ADDED_2_4_0}}),	-- Brilliant Glass
+			applyclassicphase(WRATH_PHASE_ONE, i(45054, {["timeline"] = {ADDED_3_1_0, REMOVED_4_0_3}})),	-- Prismatic Black Diamond
 		}),
 		filter(REAGENTS, {
 			i(31079),	-- Mercurial Adamantite
@@ -1695,11 +1696,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			applyclassicphase(TBC_PHASE_FIVE, i(35703, {["timeline"] = {ADDED_2_4_0}})),	-- Figurine - Seaspray Albatross
 			applyclassicphase(TBC_PHASE_FIVE, i(35702, {["timeline"] = {ADDED_2_4_0}})),	-- Figurine - Shadowsong Panther
 			i(24127),	-- Figurine - Talasite Owl
-		}),
-		category(867, {	-- Prisms & Statues
-			applyclassicphase(WRATH_PHASE_ONE, i(45054, {	-- Prismatic Black Diamond
-				["timeline"] = { ADDED_3_1_0 },
-			})),
 		}),
 	}),
 	prof(LEATHERWORKING, {

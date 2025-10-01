@@ -149,8 +149,8 @@ i(20855, 25323);	-- Wicked Moonstone Ring
 i(23131, 28905);	-- Bold Blood Garnet [TRAINER: 3.0.2]
 i(24193, 31084);	-- Bold Living Ruby
 i(28596, 34590);	-- Bright Blood Garnet [TRAINER: 3.0.2]
-i(24192, 31089);	-- Bright Living Ruby [REMOVED 4.0.3]
-i(24203, 31096);	-- Brilliant Dawnstone [REMOVED 4.0.3]
+i(24192, 31089);	-- Bright Living Ruby [REMOVED: 4.0.3]
+i(24203, 31096);	-- Brilliant Dawnstone [REMOVED: 4.0.3]
 i(23148, 28938);	-- Brilliant Golden Draenite [TRAINER: 3.0.2, REMOVED: 4.0.3]
 i(23143, 28924);	-- Dazzling Deep Peridot [REMOVED: 4.0.3]
 i(24219, 31112);	-- Dazzling Talasite
@@ -159,7 +159,7 @@ i(24194, 31085);	-- Delicate Living Ruby
 i(23142, 28918);	-- Enduring Deep Peridot [A]
 i(31359, 28918);	-- Enduring Deep Peridot [H]
 i(24198, 31091);	-- Flashing Living Ruby
-i(24206, 31099);	-- Gleaming Dawnstone [REMOVED 4.0.3]
+i(24206, 31099);	-- Gleaming Dawnstone [REMOVED: 4.0.3]
 i(23149, 28944);	-- Gleaming Golden Draenite
 i(23137, 28914);	-- Glinting Flame Spessarite [TRAINER: 3.0.2]
 i(24216, 31109);	-- Glinting Noble Topaz
@@ -172,15 +172,15 @@ i(24220, 31113);	-- Jagged Talasite
 i(23136, 28912);	-- Luminous Flame Spessarite
 i(24215, 31108);	-- Luminous Noble Topaz
 i(23155, 28957);	-- Lustrous Azure Moonstone [REMOVED: 4.0.3]
-i(24201, 31094);	-- Lustrous Star of Elune [REMOVED 4.0.3]
+i(24201, 31094);	-- Lustrous Star of Elune [REMOVED: 4.0.3]
 i(23138, 28915);	-- Potent Flame Spessarite
 i(24214, 31107);	-- Potent Noble Topaz
 i(23140, 28916);	-- Radiant Deep Peridot [TRAINER: 3.0.2]
 i(24218, 31111);	-- Radiant Talasite
-i(24217, 31110);	-- Regal Talasite [REMOVED 4.0.3]
+i(24217, 31110);	-- Regal Talasite [REMOVED: 4.0.3]
 i(24205, 31098);	-- Rigid Dawnstone
 i(23151, 28948);	-- Rigid Golden Draenite [TRAINER: 3.0.2]
-i(24212, 31105);	-- Royal Nightseye [REMOVED 4.0.3]
+i(24212, 31105);	-- Royal Nightseye [REMOVED: 4.0.3]
 i(23145, 28927);	-- Royal Shadow Draenite
 i(23133, 28906);	-- Runed Blood Garnet [REMOVED: 4.0.3]
 i(24196, 31088);	-- Runed Living Ruby
@@ -198,8 +198,8 @@ i(23154, 28955);	-- Stormy Azure Moonstone
 i(24202, 31095);	-- Stormy Star of Elune
 i(24197, 31090);	-- Subtle Living Ruby
 i(23130, 28903);	-- Teardrop Blood Garnet [TRAINER: 3.0.2]
-i(24195, 31087);	-- Teardrop Living Ruby [REMOVED 4.0.3]
-i(24207, 31100);	-- Thick Dawnstone [REMOVED 4.0.3]
+i(24195, 31087);	-- Teardrop Living Ruby [REMOVED: 4.0.3]
+i(24207, 31100);	-- Thick Dawnstone [REMOVED: 4.0.3]
 i(23150, 28947);	-- Thick Golden Draenite
 -- #else
 i(23131, 28905);	-- Bold Blood Garnet [TRAINER: 3.0.2]
@@ -257,26 +257,27 @@ i(24207, 31090);	-- Subtle Dawnstone
 i(23150, 28947);	-- Subtle Golden Draenite
 i(24211, 31104);	-- Timeless Nightseye
 i(23144, 28925);	-- Timeless Shadow Draenite [TRAINER: 3.0.2]
--- #endif
 --- REMOVED WITH CATA ---
-i(0, 31089);	-- Bright Living Ruby [REMOVED 4.0.3]
-i(0, 31096);	-- Brilliant Dawnstone [REMOVED 4.0.3]
+i(0, 31089);	-- Bright Living Ruby [REMOVED: 4.0.3]
+i(0, 31096);	-- Brilliant Dawnstone [REMOVED: 4.0.3]
 i(0, 28924);	-- Dazzling Deep Peridot [REMOVED: 4.0.3]
 i(0, 28907);	-- Delicate Blood Garnet [REMOVED: 4.0.3]
-i(0, 31110);	-- Regal Talasite [REMOVED 4.0.3]
-i(0, 31099);	-- Gleaming Dawnstone [REMOVED 4.0.3]
+i(0, 31110);	-- Regal Talasite [REMOVED: 4.0.3]
+i(0, 31099);	-- Gleaming Dawnstone [REMOVED: 4.0.3]
 i(0, 28957);	-- Lustrous Azure Moonstone [REMOVED: 4.0.3]
-i(0, 31094);	-- Lustrous Star of Elune [REMOVED 4.0.3]
-i(0, 31105);	-- Royal Nightseye [REMOVED 4.0.3]
+i(0, 31094);	-- Lustrous Star of Elune [REMOVED: 4.0.3]
+i(0, 31105);	-- Royal Nightseye [REMOVED: 4.0.3]
 i(0, 28906);	-- Runed Blood Garnet [REMOVED: 4.0.3]
-i(0, 31087);	-- Teardrop Living Ruby [REMOVED 4.0.3]
-i(0, 31100);	-- Thick Dawnstone [REMOVED 4.0.3]
+i(0, 31087);	-- Teardrop Living Ruby [REMOVED: 4.0.3]
+i(0, 31100);	-- Thick Dawnstone [REMOVED: 4.0.3]
+-- #endif
 --- NYI ---
 i(21958, 26918);	-- Arcanite Sword Pendant
 i(21959, 26920);	-- Blood Crown
 i(21951, 26905);	-- Cut Azerothian Diamond
 i(21950, 26904);	-- Cut Emerald
 i(20972, 25614);	-- Silver Rose Pendant
+
 -----------------
 -- PATCH 2.1.0 --
 -----------------
@@ -291,7 +292,7 @@ i(0, 41415);	-- The Black Pearl
 i(32412, 39961);	-- Relentless Earthstorm Diamond
 i(32411, 39963);	-- Thundering Skyfire Diamond
 -- #if BEFORE CATA
-i(31876, 39463);	-- Balanced Nightseye [REMOVED 4.0.3]
+i(31876, 39463);	-- Balanced Nightseye [REMOVED: 4.0.3]
 i(32299, 39729);	-- Balanced Shadowsong Amethyst [REMOVED: 4.0.3]
 i(32274, 39705);	-- Bold Crimson Spinel
 i(32283, 39712);	-- Bright Crimson Spinel [REMOVED: 4.0.3]
@@ -370,22 +371,22 @@ i(32294, 39713);	-- Subtle Lionseye
 i(31878, 39470);	-- Veiled Nightseye
 i(32301, 39731);	-- Timeless Shadowsong Amethyst
 i(32307, 39737);	-- Veiled Shadowsong Amethyst
--- #endif
 --- REMOVED WITH CATA ---
-i(0, 39463);	-- Balanced Nightseye [REMOVED 4.0.3]
-i(0, 39452);	-- Great Dawnstone [REMOVED 4.0.3]
-i(0, 39462);	-- Infused Nightseye  [REMOVED 4.0.3]
+i(0, 39463);	-- Balanced Nightseye [REMOVED: 4.0.3]
+i(0, 39452);	-- Great Dawnstone [REMOVED: 4.0.3]
+i(0, 39462);	-- Infused Nightseye  [REMOVED: 4.0.3]
 i(0, 39729);	-- Balanced Shadowsong Amethyst [REMOVED: 4.0.3]
 i(0, 39712);	-- Bright Crimson Spinel [REMOVED: 4.0.3]
 i(0, 39719);	-- Brilliant Lionseye [REMOVED: 4.0.3]
-i(0, 39722);	-- Gleaming Lionseye [REMOVED 4.0.3]
+i(0, 39722);	-- Gleaming Lionseye [REMOVED: 4.0.3]
 i(0, 39725);	-- Great Lionseye [REMOVED: 4.0.3]
 i(0, 39730);	-- Infused Shadowsong Amethyst [REMOVED: 4.0.3]
 i(0, 39735);	-- Luminous Pyrestone [REMOVED: 4.0.3]
-i(0, 39717);	-- Lustrous Empyrean Sapphire [REMOVED 4.0.3]
+i(0, 39717);	-- Lustrous Empyrean Sapphire [REMOVED: 4.0.3]
 i(0, 39732);	-- Royal Shadowsong Amethyst [REMOVED: 4.0.3]
 i(0, 39710);	-- Teardrop Crimson [REMOVED: 4.0.3]
 i(0, 39723);	-- Thick Lionseye [REMOVED: 4.0.3]
+-- #endif
 
 -----------------
 -- PATCH 2.1.3 --
@@ -421,11 +422,11 @@ i(31871, 28933);	-- Shifting Shadow Draenite
 i(31872, 28933);	-- Shifting Shadow Draenite
 i(33783, 43493);	-- Steady Talasite
 i(31873, 39466);	-- Veiled Shadow Draenite
--- #endif
 --- REMOVED WITH CATA -----
 i(0, 39451);	-- Great Golden Draenite [REMOVED: 4.0.3]
 i(0, 39455);	-- Balanced Shadow Draenite [REMOVED: 4.0.3]
 i(0, 39458);	-- Infused Shadow Draenite [REMOVED: 4.0.3]
+-- #endif
 
 -----------------
 -- PATCH 2.3.0 --
@@ -462,7 +463,7 @@ i(35199, 46123);	-- Ring of Flowing Life
 i(35238, 39729);	-- Balanced Shadowsong Amethyst [REMOVED: 4.0.3]
 i(35244, 39705);	-- Bold Crimson Spinel
 i(35245, 39712);	-- Bright Crimson Spinel [REMOVED: 4.0.3]
-i(35306, 31089);	-- Bright Living Ruby [REMOVED 4.0.3]
+i(35306, 31089);	-- Bright Living Ruby [REMOVED: 4.0.3]
 i(35255, 39719);	-- Brilliant Lionseye [REMOVED: 4.0.3]
 i(35251, 39741);	-- Dazzling Seaspray Emerald
 i(35246, 39706);	-- Delicate Crimson Spinel
@@ -577,11 +578,681 @@ i(35325, 46405);	-- Forceful Talasite
 i(35322, 46403);	-- Quick Dawnstone
 i(37504, 39741);	-- Purified Shadowsong Amethyst
 i(35323, 31108);	-- Reckless Noble Topaz
--- #endif
 --- REMOVED WITH CATA ---
 i(0, 48789);	-- Purified Shadowsong Amethyst [REMOVED: 4.0.3]
 i(0, 46404);	-- Reckless Noble Topaz [REMOVED: 4.0.3]
+-- #endif
 
+-----------------
+-- PATCH 3.0.2 --
+-----------------
+--- NYI --
+i(41408, 0);	-- ZZOLD Design: Austere Earthsiege Diamond
+i(41412, 0);	-- ZZOLD Design: Beaming Earthsiege Diamond
+i(41404, 0);	-- ZZOLD Design: Bracing Earthsiege Diamond
+i(41418, 0);	-- ZZOLD Design: Chaotic Skyflare Diamond
+i(41419, 0);	-- ZZOLD Design: Destructive Skyflare Diamond
+i(41414, 0);	-- ZZOLD Design: Effulgent Skyflare Diamond
+i(41420, 0);	-- ZZOLD Design: Ember Skyflare Diamond
+i(41421, 0);	-- ZZOLD Design: Enigmatic Skyflare Diamond
+i(41405, 0);	-- ZZOLD Design: Eternal Earthsiege Diamond
+i(41416, 0);	-- ZZOLD Design: Forlorn Skyflare Diamond
+i(41417, 0);	-- ZZOLD Design: Impassive Skyflare Diamond
+i(41403, 0);	-- ZZOLD Design: Insightful Earthsiege Diamond
+i(41411, 0);	-- ZZOLD Design: Invigorating Earthsiege Diamond
+i(41409, 0);	-- ZZOLD Design: Persistent Earthsiege Diamond
+i(41406, 0);	-- ZZOLD Design: Powerful Earthsiege Diamond
+i(41407, 0);	-- ZZOLD Design: Relentless Earthsiege Diamond
+i(41413, 0);	-- ZZOLD Design: Revitalizing Skyflare Diamond
+i(41422, 0);	-- ZZOLD Design: Swift Skyflare Diamond
+i(41415, 0);	-- ZZOLD Design: Tireless Skyflare Diamond
+i(41410, 0);	-- ZZOLD Design: Trenchant Earthsiege Diamond
+i(41423, 0);	-- ZZOLDDesign: Thundering Skyflare Diamond
+
+-----------------
+-- PATCH 3.0.3 --
+-----------------
+--- TRAINER ---
+i(0, 51311);	-- Jewelcrafting (Grand Master)
+i(0, 56196);	-- Blood Sun Necklace
+i(0, 56193);	-- Bloodstone Band
+i(0, 58142);	-- Crystal Chalcedony Amulet
+i(0, 58141);	-- Crystal Citrine Necklace
+i(0, 56205);	-- Dark Jade Focusing Lens
+i(0, 56197);	-- Dream Signet
+i(0, 58143);	-- Earthshadow Ring
+i(0, 56203);	-- Figurine - Emerald Boar
+i(0, 59759);	-- Figurine - Monarch Crab
+i(0, 56199);	-- Figurine - Ruby Hare
+i(0, 56202);	-- Figurine - Sapphire Owl
+i(0, 56201);	-- Figurine - Twilight Serpent
+i(0, 56195);	-- Jade Dagger Pendant
+i(0, 58144);	-- Jade Ring of Slaying
+i(0, 56206);	-- Shadow Crystal Focusing Lens
+i(0, 56208);	-- Shadow Jade Focusing Lens
+i(0, 58146);	-- Shadowmight Ring
+i(0, 58145);	-- Stoneguard Band
+i(0, 56194);	-- Sun Rock Ring
+-- #if BEFORE CATA
+i(0, 53892);	-- Accurate Huge Citrine
+i(0, 53866);	-- Balanced Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53969);	-- Balanced Twilight Opal [REMOVED: 4.0.3]
+i(0, 53831);	-- Bold Bloodstone
+i(0, 53835);	-- Bright Bloodstone [REMOVED: 4.0.3]
+i(0, 53947);	-- Bright Scarlet Ruby [REMOVED: 4.0.3]
+i(0, 53956);	-- Brilliant Autumn's Glow [REMOVED: 4.0.3]
+i(0, 53852);	-- Brilliant Sun Crystal
+i(0, 53874);	-- Champion's Huge Citrine
+i(0, 53926);	-- Dazzling Dark Jade [REMOVED: 4.0.3]
+i(0, 54007);	-- Dazzling Forest Emerald [REMOVED: 4.0.3]
+i(0, 53880);	-- Deft Huge Citrine
+i(0, 53832);	-- Delicate Bloodstone
+i(0, 56530);	-- Enchanted Pearl
+i(0, 56531);	-- Enchanted Tear
+i(0, 53918);	-- Enduring Dark Jade
+i(0, 53930);	-- Energized Dark Jade [REMOVED: 4.0.3]
+i(0, 53873);	-- Etched Huge Citrine
+i(0, 53876);	-- Fierce Huge Citrine
+i(0, 53844);	-- Flashing Bloodstone
+i(0, 53920);	-- Forceful Dark Jade
+i(0, 53845);	-- Fractured Bloodstone
+i(0, 53891);	-- Glimmering Huge Citrine
+i(0, 53878);	-- Glinting Huge Citrine [REMOVED: 4.0.3]
+i(0, 53862);	-- Glowing Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53871);	-- Guardian's Shadow Crystal
+i(0, 53867);	-- Infused Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53872);	-- Inscribed Huge Citrine
+i(0, 53925);	-- Intricate Dark Jade
+i(0, 53916);	-- Jagged Dark Jade [REMOVED: 4.0.3]
+i(0, 53928);	-- Lambent Dark Jade [REMOVED: 4.0.3]
+i(0, 53881);	-- Luminous Huge Citrine [REMOVED: 4.0.3]
+i(0, 53922);	-- Misty Dark Jade
+i(0, 55402);	-- Persistent Earthsiege Diamond
+i(0, 53882);	-- Potent Huge Citrine
+i(0, 55399);	-- Powerful Earthsiege Diamond
+i(0, 54017);	-- Precise Bloodstone
+i(0, 53887);	-- Pristine Huge Citrine [REMOVED: 4.0.3]
+i(0, 53989);	-- Pristine Monarch Topaz [REMOVED: 4.0.3]
+i(0, 53870);	-- Puissant Shadow Crystal
+i(0, 53863);	-- Purified Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53856);	-- Quick Sun Crystal
+i(0, 53931);	-- Radiant Dark Jade [REMOVED: 4.0.3]
+i(0, 53868);	-- Regal Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53893);	-- Resolute Huge Citrine
+i(0, 53854);	-- Rigid Sun Crystal
+i(0, 53864);	-- Royal Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53834);	-- Runed Bloodstone [REMOVED: 4.0.3]
+i(0, 53860);	-- Shifting Shadow Crystal
+i(0, 53923);	-- Shining Dark Jade
+i(0, 53853);	-- Smooth Sun Crystal [REMOVED: 4.0.3]
+i(0, 53934);	-- Solid Chalcedony
+i(0, 53859);	-- Sovereign Shadow Crystal
+i(0, 53941);	-- Sparkling Chalcedony
+i(0, 53940);	-- Sparkling Chalcedony [REMOVED: 4.0.3]
+i(0, 53953);	-- Sparkling Sky Sapphire [REMOVED: 4.0.3]
+i(0, 53890);	-- Stalwart Huge Citrine [REMOVED: 4.0.3]
+i(0, 53889);	-- Stark Huge Citrine [REMOVED: 4.0.3]
+i(0, 53843);	-- Subtle Bloodstone
+i(0, 53927);	-- Sundered Dark Jade [REMOVED: 4.0.3]
+i(0, 55394);	-- Swift Skyflare Diamond
+i(0, 53861);	-- Tenuous Shadow Crystal
+i(0, 53855);	-- Thick Sun Crystal [REMOVED: 4.0.3]
+i(0, 53894);	-- Timeless Dark Jade
+i(0, 55386);	-- Tireless Skyflare Diamond
+i(0, 53883);	-- Veiled Huge Citrine
+i(0, 53886);	-- Wicked Huge Citrine [REMOVED: 4.0.3]
+-- #else
+i(0, 53892);	-- Accurate Shadow Crystal
+i(0, 53831);	-- Bold Bloodstone
+i(0, 53852);	-- Brilliant Bloodstone
+i(0, 53834);	-- Brilliant Bloodstone [REMOVED: 4.0.3]
+i(0, 53956);	-- Brilliant Scarlet Ruby [REMOVED: 4.0.3]
+i(0, 53874);	-- Champion's Huge Citrine
+i(0, 53886);	-- Deadly Huge Citrine [REMOVED: 4.0.3]
+i(0, 53880);	-- Deft Huge Citrine
+i(0, 53889);	-- Deft Huge Citrine [REMOVED: 4.0.3]
+i(0, 53832);	-- Delicate Bloodstone
+i(0, 53835);	-- Delicate Bloodstone [REMOVED: 4.0.3]
+i(0, 53947);	-- Delicate Scarlet Ruby [REMOVED: 4.0.3]
+i(0, 56530);	-- Enchanted Pearl
+i(0, 56531);	-- Enchanted Tear
+i(0, 53925);	-- Energized Dark Jade
+i(0, 53930);	-- Energized Dark Jade [REMOVED: 4.0.3]
+i(0, 53873);	-- Etched Shadow Crystal
+i(0, 53876);	-- Fierce Huge Citrine
+i(0, 53844);	-- Flashing Bloodstone
+i(0, 53920);	-- Forceful Dark Jade
+i(0, 53861);	-- Glinting Shadow Crystal
+i(0, 53867);	-- Glinting Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53878);	-- Glinting Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53887);	-- Glinting Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53989);	-- Glinting Twilight Opal [REMOVED: 4.0.3]
+i(0, 53871);	-- Guardian's Shadow Crystal
+i(0, 53872);	-- Inscribed Huge Citrine
+i(0, 53870);	-- Jagged Dark Jade
+i(0, 53916);	-- Jagged Dark Jade [REMOVED: 4.0.3]
+i(0, 53923);	-- Lightning Dark Jade
+i(0, 53928);	-- Lightning Dark Jade [REMOVED: 4.0.3]
+i(0, 53922);	-- Misty Dark Jade
+i(0, 53927);	-- Misty Dark Jade [REMOVED: 4.0.3]
+i(0, 55402);	-- Persistent Earthsiege Diamond
+i(0, 53882);	-- Potent Huge Citrine
+i(0, 55399);	-- Powerful Earthsiege Diamond
+i(0, 54017);	-- Precise Bloodstone
+i(0, 53863);	-- Purified Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53864);	-- Purified Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53926);	-- Purified Shadow Crystal [REMOVED: 4.0.3]
+i(0, 54007);	-- Purified Twilight Opal [REMOVED: 4.0.3]
+i(0, 53856);	-- Quick Sun Crystal
+i(0, 53931);	-- Radiant Dark Jade [REMOVED: 4.0.3]
+i(0, 53881);	-- Reckless Huge Citrine [REMOVED: 4.0.3]
+i(0, 53918);	-- Regal Dark Jade
+i(0, 53868);	-- Regal Dark Jade [REMOVED: 4.0.3]
+i(0, 53893);	-- Resolute Huge Citrine
+i(0, 53854);	-- Rigid Chalcedony
+i(0, 53860);	-- Shifting Shadow Crystal
+i(0, 53866);	-- Shifting Shadow Crystal [REMOVED: 4.0.3]
+i(0, 53969);	-- Shifting Twilight Opal [REMOVED: 4.0.3]
+i(0, 53845);	-- Smooth Sun Crystal
+i(0, 53853);	-- Smooth Sun Crystal [REMOVED: 4.0.3]
+i(0, 53934);	-- Solid Chalcedony
+i(0, 53859);	-- Sovereign Shadow Crystal
+i(0, 53941);	-- Sparkling Chalcedony
+i(0, 53940);	-- Sparkling Chalcedony [REMOVED: 4.0.3]
+i(0, 53953);	-- Sparkling Sky Sapphire [REMOVED: 4.0.3]
+i(0, 53891);	-- Stalwart Huge Citrine
+i(0, 53890);	-- Stalwart Huge Citrine [REMOVED: 4.0.3]
+i(0, 53843);	-- Subtle Sun Crystal
+i(0, 53855);	-- Subtle Sun Crystal [REMOVED: 4.0.3]
+i(0, 55394);	-- Swift Skyflare Diamond
+i(0, 53894);	-- Timeless Shadow Crystal
+i(0, 53862);	-- Timeless Shadow Crystal [REMOVED: 4.0.3]
+i(0, 55386);	-- Tireless Skyflare Diamond
+i(0, 53883);	-- Veiled Shadow Crystal
+-- #endif
+--- ITEM ---
+i(42648, 56496);	-- Titanium Impact Band
+i(42649, 56497);	-- Titanium Earthguard Ring
+i(42650, 56498);	-- Titanium Spellshock Ring
+i(42651, 56499);	-- Titanium Impact Choker
+i(42652, 56500);	-- Titanium Earthguard Chain
+i(42653, 56501);	-- Titanium Spellshock Necklace
+i(43317, 58147);	-- Ring of Earthen Might
+i(43318, 58148);	-- Ring of Scarlet Shadows
+i(43319, 58149);	-- Windfire Band
+i(43320, 58150);	-- Ring of Northern Tears
+i(43485, 58492);	-- Savage Titanium Ring
+i(43497, 58507);	-- Savage Titanium Band
+i(43597, 58954);	-- Titanium Frostguard Ring
+-- #if BEFORE CATA
+i(41818, 53994);	-- Accurate Monarch Topaz
+i(41797, 55401);	-- Austere Earthsiege Diamond
+i(42298, 56049);	-- Bold Dragon's Eye
+i(41576, 53830);	-- Bold Scarlet Ruby
+i(41798, 55397);	-- Bracing Earthsiege Diamond
+i(42299, 56054);	-- Bright Dragon's Eye [REMOVED: 4.0.3]
+i(42300, 56074);	-- Brilliant Dragon's Eye [REMOVED: 4.0.3]
+i(41704, 55389);	-- Chaotic Skyflare Diamond
+i(41562, 53877);	-- Deadly Huge Citrine
+i(41794, 53979);	-- Deadly Monarch Topaz [REMOVED: 4.0.3]
+i(41574, 53869);	-- Defender's Shadow Crystal
+i(41820, 53972);	-- Defender's Twilight Opal
+i(41792, 53982);	-- Deft Monarch Topaz [REMOVED: 4.0.3]
+i(42301, 56052);	-- Delicate Dragon's Eye
+i(41577, 53945);	-- Delicate Scarlet Ruby
+i(41563, 53884);	-- Durable Huge Citrine
+i(41730, 53986);	-- Durable Monarch Topaz
+i(41705, 55384);	-- Effulgent Skyflare Diamond
+i(41706, 55392);	-- Ember Skyflare Diamond
+i(41564, 53888);	-- Empowered Huge Citrine [REMOVED: 4.0.3]
+i(41732, 53990);	-- Empowered Monarch Topaz [REMOVED: 4.0.3]
+i(41697, 53998);	-- Enduring Forest Emerald
+i(41692, 54011);	-- Energized Forest Emerald
+i(41742, 55393);	-- Enigmatic Skyflare Diamond
+i(41799, 55398);	-- Eternal Earthsiege Diamond
+i(41793, 54019);	-- Fierce Monarch Topaz
+i(42302, 56056);	-- Flashing Dragon's Eye
+i(41578, 53949);	-- Flashing Scarlet Ruby
+i(41693, 54001);	-- Forceful Forest Emerald
+i(41743, 55387);	-- Forlorn Skyflare Diamond
+i(42303, 56076);	-- Fractured Dragon's Eye [REMOVED: 4.0.3]
+i(41817, 53950);	-- Fractured Scarlet Ruby [REMOVED: 4.0.3]
+i(41722, 53993);	-- Glimmering Monarch Topaz
+i(41582, 53980);	-- Glinting Monarch Topaz
+i(41725, 53965);	-- Glowing Twilight Opal
+i(41726, 53974);	-- Guardian's Twilight Opal
+i(41744, 55388);	-- Impassive Skyflare Diamond
+i(41796, 53970);	-- Infused Twilight Opal [REMOVED: 4.0.3]
+i(41708, 55396);	-- Insightful Earthsiege Diamond
+i(41694, 54006);	-- Intricate Forest Emerald [REMOVED: 4.0.3]
+i(41709, 55404);	-- Invigorating Earthsiege Diamond
+i(41723, 53996);	-- Jagged Forest Emerald
+i(41696, 54009);	-- Lambent Forest Emerald
+i(41565, 53879);	-- Lucent Huge Citrine
+i(41733, 53981);	-- Lucent Monarch Topaz
+i(42304, 56077);	-- Lustrous Dragon's Eye [REMOVED: 4.0.3]
+i(41581, 53954);	-- Lustrous Sky Sapphire
+i(41575, 53865);	-- Mysterious Shadow Crystal
+i(41740, 53968);	-- Mysterious Twilight Opal
+i(41727, 53960);	-- Mystic Autumn's Glow
+i(42305, 56079);	-- Mystic Dragon's Eye
+i(41559, 53857);	-- Mystic Sun Crystal
+i(41573, 53929);	-- Opaque Dark Jade [REMOVED: 4.0.3]
+i(41739, 54010);	-- Opaque Forest Emerald [REMOVED: 4.0.3]
+i(41686, 53984);	-- Potent Monarch Topaz
+i(42306, 56081);	-- Precise Dragon's Eye
+i(41790, 53951);	-- Precise Scarlet Ruby
+i(41702, 53973);	-- Puissant Twilight Opal [REMOVED: 4.0.3]
+i(41579, 53961);	-- Quick Autumn's Glow
+i(42307, 56083);	-- Quick Dragon's Eye
+i(41819, 54012);	-- Radiant Forest Emerald
+i(41561, 53885);	-- Reckless Huge Citrine
+i(41690, 53987);	-- Reckless Monarch Topaz
+i(41689, 53983);	-- Reckless Monarch Topaz [REMOVED: 4.0.3]
+i(41703, 53971);	-- Regal Twilight Opal [REMOVED: 4.0.3]
+i(41710, 55400);	-- Relentless Earthsiege Diamond
+i(41566, 53875);	-- Resplendent Huge Citrine
+i(41734, 53978);	-- Resplendent Monarch Topaz
+i(41707, 55407);	-- Revitalizing Skyflare Diamond
+i(41580, 53958);	-- Rigid Autumn's Glow
+i(42308, 56084);	-- Rigid Dragon's Eye
+i(41701, 53967);	-- Royal Twilight Opal [REMOVED: 4.0.3]
+i(42309, 56053);	-- Runed Dragon's Eye
+i(41718, 53946);	-- Runed Scarlet Ruby
+i(41568, 53921);	-- Seer's Dark Jade
+i(41699, 54002);	-- Seer's Forest Emerald [REMOVED: 4.0.3]
+i(41569, 53933);	-- Shattered Dark Jade
+i(41735, 54014);	-- Shattered Forest Emerald
+i(41747, 53963);	-- Shifting Twilight Opal
+i(41720, 53957);	-- Smooth Autumn's Glow
+i(42310, 56085);	-- Smooth Dragon's Eye
+i(42311, 56086);	-- Solid Dragon's Eye
+i(42138, 53952);	-- Solid Sky Sapphire
+i(42312, 56087);	-- Sparkling Dragon's Eye
+i(41687, 53991);	-- Stark Monarch Topaz
+i(41572, 53919);	-- Steady Dark Jade
+i(41738, 54000);	-- Steady Forest Emerald
+i(41560, 53943);	-- Stormy Chalcedony
+i(42313, 56088);	-- Stormy Dragon's Eye
+i(41728, 53955);	-- Stormy Sky Sapphire
+i(42314, 56055);	-- Subtle Dragon's Eye
+i(42315, 56089);	-- Subtle Dragon's Eye [REMOVED: 4.0.3]
+i(41719, 53948);	-- Subtle Scarlet Ruby
+i(41724, 54008);	-- Sundered Forest Emerald [REMOVED: 4.0.3]
+i(41570, 53932);	-- Tense Dark Jade
+i(41736, 54013);	-- Tense Forest Emerald [REMOVED: 4.0.3]
+i(41791, 53959);	-- Thick Autumn's Glow [REMOVED: 4.0.3]
+i(41795, 53995);	-- Timeless Forest Emerald [REMOVED: 4.0.3]
+i(41711, 55403);	-- Trenchant Earthsiege Diamond
+i(41571, 53924);	-- Turbid Dark Jade
+i(41737, 54005);	-- Turbid Forest Emerald
+i(41688, 53985);	-- Veiled Monarch Topaz
+i(41567, 53917);	-- Vivid Dark Jade
+i(41698, 53997);	-- Vivid Forest Emerald
+i(41721, 53988);	-- Wicked Monarch Topaz
+-- #else
+i(41818, 53994);	-- Accurate Twilight Opal
+i(41797, 55401);	-- Austere Earthsiege Diamond
+i(42298, 56049);	-- Bold Dragon's Eye
+i(41576, 53830);	-- Bold Scarlet Ruby
+i(41798, 55397);	-- Bracing Earthsiege Diamond
+i(42300, 56053);	-- Brilliant Dragon's Eye
+i(42309, 56053);	-- Brilliant Dragon's Eye
+i(41718, 53946);	-- Brilliant Scarlet Ruby
+i(41704, 55389);	-- Chaotic Skyflare Diamond
+i(41562, 53877);	-- Deadly Huge Citrine
+i(41721, 53988);	-- Deadly Monarch Topaz
+i(41794, 53988);	-- Deadly Monarch Topaz
+i(41574, 53869);	-- Defender's Shadow Crystal
+i(41820, 53972);	-- Defender's Twilight Opal
+i(41687, 53991);	-- Deft Monarch Topaz
+i(41792, 53991);	-- Deft Monarch Topaz
+i(42299, 56052);	-- Delicate Dragon's Eye
+i(42301, 56052);	-- Delicate Dragon's Eye
+i(41577, 53945);	-- Delicate Scarlet Ruby
+i(41706, 55392);	-- Ember Skyflare Diamond
+i(41692, 54011);	-- Energized Forest Emerald
+i(41694, 54011);	-- Energized Forest Emerald
+i(41742, 55393);	-- Enigmatic Skyflare Diamond
+i(41799, 55398);	-- Eternal Earthsiege Diamond
+i(41793, 54019);	-- Fierce Monarch Topaz
+i(42302, 56056);	-- Flashing Dragon's Eye
+i(41578, 53949);	-- Flashing Scarlet Ruby
+i(41693, 54001);	-- Forceful Forest Emerald
+i(41743, 55387);	-- Forlorn Skyflare Diamond
+i(41582, 53980);	-- Glinting Twilight Opal
+i(41796, 53980);	-- Glinting Twilight Opal
+i(41726, 53974);	-- Guardian's Twilight Opal
+i(41744, 55388);	-- Impassive Skyflare Diamond
+i(41708, 55396);	-- Insightful Earthsiege Diamond
+i(41709, 55404);	-- Invigorating Earthsiege Diamond
+i(41702, 53996);	-- Jagged Forest Emerald
+i(41723, 53996);	-- Jagged Forest Emerald
+i(41696, 54009);	-- Lightning Forest Emerald
+i(41564, 53879);	-- Lucent Huge Citrine
+i(41565, 53879);	-- Lucent Huge Citrine
+i(41732, 53981);	-- Lucent Monarch Topaz
+i(41733, 53981);	-- Lucent Monarch Topaz
+i(41724, 54003);	-- Misty Forest Emerald
+i(41575, 53865);	-- Mysterious Shadow Crystal
+i(41740, 53968);	-- Mysterious Twilight Opal
+i(41727, 53960);	-- Mystic Autumn's Glow
+i(42305, 56079);	-- Mystic Dragon's Eye
+i(41559, 53857);	-- Mystic Sun Crystal
+i(41567, 53917);	-- Nimble Dark Jade
+i(41698, 53997);	-- Nimble Forest Emerald
+i(41686, 53984);	-- Potent Monarch Topaz
+i(42306, 56081);	-- Precise Dragon's Eye
+i(41790, 53951);	-- Precise Scarlet Ruby
+i(41568, 53921);	-- Purified Shadow Crystal
+i(41699, 53966);	-- Purified Twilight Opal
+i(41701, 53966);	-- Purified Twilight Opal
+i(41579, 53961);	-- Quick Autumn's Glow
+i(42307, 56083);	-- Quick Dragon's Eye
+i(41570, 53932);	-- Radiant Dark Jade
+i(41736, 54012);	-- Radiant Forest Emerald
+i(41819, 54012);	-- Radiant Forest Emerald
+i(41561, 53885);	-- Reckless Huge Citrine
+i(41689, 53987);	-- Reckless Monarch Topaz
+i(41690, 53987);	-- Reckless Monarch Topaz
+i(41697, 53998);	-- Regal Forest Emerald
+i(41703, 53998);	-- Regal Forest Emerald
+i(41710, 55400);	-- Relentless Earthsiege Diamond
+i(41566, 53875);	-- Resplendent Huge Citrine
+i(41734, 53978);	-- Resplendent Monarch Topaz
+i(41707, 55407);	-- Revitalizing Skyflare Diamond
+i(42308, 56084);	-- Rigid Dragon's Eye
+i(41580, 53958);	-- Rigid Sky Sapphire
+i(41569, 53933);	-- Shattered Dark Jade
+i(41735, 54014);	-- Shattered Forest Emerald
+i(41705, 55384);	-- Shielded Skyflare Diamond
+i(41747, 53963);	-- Shifting Twilight Opal
+i(41720, 53957);	-- Smooth Autumn's Glow
+i(41817, 53957);	-- Smooth Autumn's Glow
+i(42303, 56085);	-- Smooth Dragon's Eye
+i(42310, 56085);	-- Smooth Dragon's Eye
+i(42311, 56086);	-- Solid Dragon's Eye
+i(42138, 53952);	-- Solid Sky Sapphire
+i(42304, 56087);	-- Sparkling Dragon's Eye
+i(42312, 56087);	-- Sparkling Dragon's Eye
+i(41581, 53954);	-- Sparkling Sky Sapphire
+i(41722, 53993);	-- Stalwart Monarch Topaz
+i(41572, 53919);	-- Steady Dark Jade
+i(41738, 54000);	-- Steady Forest Emerald
+i(41560, 53943);	-- Stormy Chalcedony
+i(42313, 56088);	-- Stormy Dragon's Eye
+i(41728, 53955);	-- Stormy Sky Sapphire
+i(41719, 53948);	-- Subtle Autumn's Glow
+i(41791, 53948);	-- Subtle Autumn's Glow
+i(42314, 56055);	-- Subtle Dragon's Eye
+i(42315, 56055);	-- Subtle Dragon's Eye
+i(41725, 53965);	-- Timeless Twilight Opal
+i(41795, 53965);	-- Timeless Twilight Opal
+i(41711, 55403);	-- Trenchant Earthsiege Diamond
+i(41571, 53924);	-- Turbid Dark Jade
+i(41573, 53924);	-- Turbid Dark Jade
+i(41737, 54005);	-- Turbid Forest Emerald
+i(41739, 54005);	-- Turbid Forest Emerald
+i(41688, 53985);	-- Veiled Twilight Opal
+i(41563, 53884);	-- Willful Huge Citrine
+i(41730, 53986);	-- Willful Monarch Topaz
+--- REMOVED WITH CATA ---
+i(0, 56054);	-- Bright Dragon's Eye [REMOVED: 4.0.3]
+i(0, 56074);	-- Brilliant Dragon's Eye [REMOVED: 4.0.3]
+i(0, 53979);	-- Deadly Monarch Topaz [REMOVED: 4.0.3]
+i(0, 53982);	-- Deft Monarch Topaz [REMOVED: 4.0.3]
+i(0, 53888);	-- Empowered Huge Citrine [REMOVED: 4.0.3]
+i(0, 53990);	-- Empowered Monarch Topaz [REMOVED: 4.0.3]
+i(0, 56076);	-- Fractured Dragon's Eye [REMOVED: 4.0.3]
+i(0, 53950);	-- Fractured Scarlet Ruby [REMOVED: 4.0.3]
+i(0, 53970);	-- Infused Twilight Opal [REMOVED: 4.0.3]
+i(0, 54006);	-- Intricate Forest Emerald [REMOVED: 4.0.3]
+i(0, 56077);	-- Lustrous Dragon's Eye [REMOVED: 4.0.3]
+i(0, 53929);	-- Opaque Dark Jade [REMOVED: 4.0.3]
+i(0, 54010);	-- Opaque Forest Emerald [REMOVED: 4.0.3]
+i(0, 53973);	-- Puissant Twilight Opal [REMOVED: 4.0.3]
+i(0, 53983);	-- Reckless Monarch Topaz [REMOVED: 4.0.3]
+i(0, 53971);	-- Regal Twilight Opal [REMOVED: 4.0.3]
+i(0, 53967);	-- Royal Twilight Opal [REMOVED: 4.0.3]
+i(0, 54002);	-- Seer's Forest Emerald [REMOVED: 4.0.3]
+i(0, 56089);	-- Subtle Dragon's Eye [REMOVED: 4.0.3]
+i(0, 54008);	-- Sundered Forest Emerald [REMOVED: 4.0.3]
+i(0, 54013);	-- Tense Forest Emerald [REMOVED: 4.0.3]
+i(0, 53959);	-- Thick Autumn's Glow [REMOVED: 4.0.3]
+i(0, 53995);	-- Timeless Forest Emerald [REMOVED: 4.0.3]
+-- #endif
+--- QUEST ---
+i(0, 55534);	-- Gem Perfection
+
+-----------------
+-- PATCH 3.0.8 --
+-----------------
+--- TRAINER ---
+i(0, 62242);	-- Icy Prism
+--- ITEM ---
+-- #if BEFORE CATA
+i(41788, 55405);	-- Beaming Earthsiege Diamond
+i(41780, 53977);	-- Champion's Monarch Topaz
+i(41786, 55390);	-- Destructive Skyflare Diamond
+i(41777, 53976);	-- Etched Monarch Topaz
+i(41789, 53975);	-- Inscribed Monarch Topaz
+i(41781, 54003);	-- Misty Forest Emerald
+i(41783, 53966);	-- Purified Twilight Opal
+i(41778, 54023);	-- Resolute Monarch Topaz
+i(41782, 54004);	-- Shining Forest Emerald [REMOVED: 4.0.3]
+i(41784, 53962);	-- Sovereign Twilight Opal
+i(41779, 53992);	-- Stalwart Monarch Topaz [REMOVED: 4.0.3]
+i(41785, 53964);	-- Tenuous Twilight Opal [REMOVED: 4.0.3]
+i(41787, 55395);	-- Thundering Skyflare Diamond
+-- #else
+i(41788, 55405);	-- Beaming Earthsiege Diamond
+i(41780, 53977);	-- Champion's Monarch Topaz
+i(41786, 55390);	-- Destructive Skyflare Diamond
+i(41777, 53976);	-- Etched Twilight Opal
+i(41785, 53980);	-- Glinting Twilight Opal
+i(41789, 53975);	-- Inscribed Monarch Topaz
+i(41782, 54009);	-- Lightning Forest Emerald
+i(41781, 54003);	-- Misty Forest Emerald
+i(41783, 53966);	-- Purified Twilight Opal
+i(41778, 54023);	-- Resolute Monarch Topaz
+i(41784, 53962);	-- Sovereign Twilight Opal
+i(41779, 53993);	-- Stalwart Monarch Topaz
+i(41787, 55395);	-- Thundering Skyflare Diamond
+--- REMOVED WITH CATA ---
+i(0, 54004);	-- Shining Forest Emerald [REMOVED: 4.0.3]
+i(0, 53992);	-- Stalwart Monarch Topaz [REMOVED: 4.0.3]
+i(0, 53964);	-- Tenuous Twilight Opal [REMOVED: 4.0.3]
+-- #endif
+
+-----------------
+-- PATCH 3.1.0 --
+-----------------
+--- TRAINER ---
+i(0, 63743);	-- Amulet of Truesight
+i(0, 64725);	-- Emerald Choker
+i(0, 62941);	-- Prismatic Black Diamond
+i(0, 64727);	-- Runed Mana Band
+i(0, 64728);	-- Scarlet Signet
+i(0, 64726);	-- Sky Sapphire Amulet
+
+-----------------
+-- PATCH 3.2.0 --
+-----------------
+--- ITEM ---
+i(49112, 68253);	-- Nightmare Tear
+-- #if BEFORE CATA
+i(47010, 66576);	-- Accurate Ametrine
+i(46934, 66553);	-- Balanced Dreadstone [REMOVED: 4.0.3]
+i(46917, 66447);	-- Bold Cardinal Ruby
+i(46919, 66449);	-- Bright Cardinal Ruby [REMOVED: 4.0.3]
+i(46930, 66503);	-- Brilliant King's Amber [REMOVED: 4.0.3]
+i(47015, 66579);	-- Champion's Ametrine
+i(46900, 66430);	-- Dazzling Eye of Zul [REMOVED: 4.0.3]
+i(46949, 66568);	-- Deadly Ametrine
+i(46941, 66560);	-- Defender's Dreadstone
+i(47020, 66584);	-- Deft Ametrine
+i(46918, 66448);	-- Delicate Cardinal Ruby
+i(46952, 66571);	-- Durable Ametrine
+i(47016, 66580);	-- Empowered Ametrine [REMOVED: 4.0.3]
+i(46897, 66338);	-- Enduring Eye of Zul
+i(46912, 66442);	-- Energized Eye of Zul
+i(46953, 66572);	-- Etched Ametrine
+i(47019, 66583);	-- Fierce Ametrine
+i(46923, 66453);	-- Flashing Cardinal Ruby
+i(46904, 66434);	-- Forceful Eye of Zul
+i(46921, 66451);	-- Fractured Cardinal Ruby [REMOVED: 4.0.3]
+i(47008, 66575);	-- Glinting Ametrine [REMOVED: 4.0.3]
+i(46936, 66555);	-- Glowing Dreadstone [REMOVED: 4.0.3]
+i(46942, 66561);	-- Guardian's Dreadstone
+i(46945, 66564);	-- Infused Dreadstone [REMOVED: 4.0.3]
+i(46948, 66567);	-- Inscribed Ametrine
+i(46910, 66440);	-- Intricate Eye of Zul [REMOVED: 4.0.3]
+i(46901, 66431);	-- Jagged Eye of Zul
+i(46909, 66439);	-- Lambent Eye of Zul
+i(47021, 66585);	-- Lucent Ametrine
+i(46947, 66566);	-- Luminous Ametrine [REMOVED: 4.0.3]
+i(46927, 66500);	-- Lustrous Majestic Zircon [REMOVED: 4.0.3]
+i(46905, 66435);	-- Misty Eye of Zul
+i(46906, 66436);	-- Misty Eye of Zul [REMOVED: 4.0.3]
+i(46943, 66562);	-- Mysterious Dreadstone
+i(46932, 66505);	-- Mystic King's Amber
+i(46914, 66444);	-- Opaque Eye of Zul [REMOVED: 4.0.3]
+i(46950, 66569);	-- Potent Ametrine
+i(46920, 66450);	-- Precise Cardinal Ruby
+i(46956, 66573);	-- Pristine Ametrine
+i(46944, 66563);	-- Puissant Dreadstone [REMOVED: 4.0.3]
+i(46937, 66556);	-- Purified Dreadstone
+i(46933, 66506);	-- Quick King's Amber
+i(46911, 66441);	-- Radiant Eye of Zul
+i(47007, 66574);	-- Reckless Ametrine
+i(46940, 66559);	-- Regal Dreadstone [REMOVED: 4.0.3]
+i(47022, 66586);	-- Resolute Ametrine
+i(47018, 66582);	-- Resplendent Ametrine
+i(46928, 66501);	-- Rigid King's Amber
+i(46939, 66558);	-- Royal Dreadstone [REMOVED: 4.0.3]
+i(46916, 66446);	-- Runed Cardinal Ruby
+i(46903, 66433);	-- Seer's Eye of Zul [REMOVED: 4.0.3]
+i(46913, 66443);	-- Shattered Eye of Zul
+i(46938, 66557);	-- Shifting Dreadstone
+i(46907, 66437);	-- Shining Eye of Zul [REMOVED: 4.0.3]
+i(46929, 66502);	-- Smooth King's Amber
+i(46924, 66497);	-- Solid Majestic Zircon
+i(46935, 66554);	-- Sovereign Dreadstone
+i(46925, 66498);	-- Sparkling Majestic Zircon
+i(47017, 66581);	-- Stalwart Ametrine
+i(47012, 66578);	-- Stalwart Ametrine [REMOVED: 4.0.3]
+i(47023, 66587);	-- Stark Ametrine [REMOVED: 4.0.3]
+i(46898, 66428);	-- Steady Eye of Zul
+i(46926, 66499);	-- Stormy Majestic Zircon
+i(46922, 66452);	-- Subtle Cardinal Ruby
+i(46908, 66438);	-- Tense Eye of Zul [REMOVED: 4.0.3]
+i(46946, 66565);	-- Tenuous Dreadstone [REMOVED: 4.0.3]
+i(46931, 66504);	-- Thick King's Amber [REMOVED: 4.0.3]
+i(46902, 66432);	-- Timeless Eye of Zul
+i(46915, 66445);	-- Turbid Eye of Zul
+i(46951, 66570);	-- Veiled Ametrine
+i(46899, 66429);	-- Vivid Eye of Zul
+i(47011, 66577);	-- Wicked Ametrine [REMOVED: 4.0.3]
+-- #else
+i(47010, 66576);	-- Accurate Dreadstone
+i(46917, 66447);	-- Bold Cardinal Ruby
+i(46916, 66446);	-- Brilliant Cardinal Ruby
+i(46930, 66446);	-- Brilliant Cardinal Ruby
+i(47015, 66579);	-- Champion's Ametrine
+i(46949, 66568);	-- Deadly Ametrine
+i(47011, 66568);	-- Deadly Ametrine
+i(46941, 66560);	-- Defender's Dreadstone
+i(47020, 66584);	-- Deft Ametrine
+i(47023, 66584);	-- Deft Ametrine
+i(46919, 66448);	-- Delicate Cardinal Ruby
+i(46918, 66448);	-- Delicate Cardinal Ruby
+i(46912, 66442);	-- Energized Eye of Zul
+i(46910, 66442);	-- Energized Eye of Zul
+i(46953, 66572);	-- Etched Dreadstone
+i(47019, 66583);	-- Fierce Ametrine
+i(46923, 66453);	-- Flashing Cardinal Ruby
+i(46904, 66434);	-- Forceful Eye of Zul
+i(47008, 66573);	-- Glinting Dreadstone
+i(46956, 66573);	-- Glinting Dreadstone
+i(46945, 66573);	-- Glinting Dreadstone
+i(46946, 66573);	-- Glinting Dreadstone
+i(46942, 66561);	-- Guardian's Dreadstone
+i(46948, 66567);	-- Inscribed Ametrine
+i(46944, 66431);	-- Jagged Eye of Zul
+i(46901, 66431);	-- Jagged Eye of Zul
+i(46909, 66439);	-- Lightning Eye of Zul
+i(46907, 66439);	-- Lightning Eye of Zul
+i(47016, 66585);	-- Lucent Ametrine
+i(47021, 66585);	-- Lucent Ametrine
+i(46905, 66435);	-- Misty Eye of Zul
+i(46906, 66435);	-- Misty Eye of Zul
+i(46943, 66562);	-- Mysterious Dreadstone
+i(46932, 66505);	-- Mystic King's Amber
+i(46899, 66429);	-- Nimble Eye of Zul
+i(46950, 66569);	-- Potent Ametrine
+i(46920, 66450);	-- Precise Cardinal Ruby
+i(46947, 66556);	-- Purified Dreadstone
+i(46937, 66556);	-- Purified Dreadstone
+i(46939, 66556);	-- Purified Dreadstone
+i(46900, 66556);	-- Purified Dreadstone
+i(46903, 66556);	-- Purified Dreadstone
+i(46933, 66506);	-- Quick King's Amber
+i(46911, 66441);	-- Radiant Eye of Zul
+i(46908, 66441);	-- Radiant Eye of Zul
+i(47007, 66574);	-- Reckless Ametrine
+i(46940, 66338);	-- Regal Eye of Zul
+i(46897, 66338);	-- Regal Eye of Zul
+i(47022, 66586);	-- Resolute Ametrine
+i(47018, 66582);	-- Resplendent Ametrine
+i(46928, 66501);	-- Rigid Majestic Zircon
+i(46913, 66443);	-- Shattered Eye of Zul
+i(46934, 66557);	-- Shifting Dreadstone
+i(46938, 66557);	-- Shifting Dreadstone
+i(46921, 66502);	-- Smooth King's Amber
+i(46929, 66502);	-- Smooth King's Amber
+i(46924, 66497);	-- Solid Majestic Zircon
+i(46935, 66554);	-- Sovereign Dreadstone
+i(46927, 66498);	-- Sparkling Majestic Zircon
+i(46925, 66498);	-- Sparkling Majestic Zircon
+i(47012, 66581);	-- Stalwart Ametrine
+i(47017, 66581);	-- Stalwart Ametrine
+i(46898, 66428);	-- Steady Eye of Zul
+i(46926, 66499);	-- Stormy Majestic Zircon
+i(46922, 66452);	-- Subtle King's Amber
+i(46931, 66452);	-- Subtle King's Amber
+i(46936, 66432);	-- Timeless Dreadstone
+i(46902, 66432);	-- Timeless Dreadstone
+i(46914, 66445);	-- Turbid Eye of Zul
+i(46915, 66445);	-- Turbid Eye of Zul
+i(46951, 66570);	-- Veiled Dreadstone
+i(46952, 66571);	-- Willful Ametrine
+--- REMOVED WITH CATA ---
+i(0, 66553);	-- Balanced Dreadstone [REMOVED: 4.0.3]
+i(0, 66449);	-- Bright Cardinal Ruby [REMOVED: 4.0.3]
+i(0, 66503);	-- Brilliant King's Amber [REMOVED: 4.0.3]
+i(0, 66430);	-- Dazzling Eye of Zul [REMOVED: 4.0.3]
+i(0, 66580);	-- Empowered Ametrine [REMOVED: 4.0.3]
+i(0, 66451);	-- Fractured Cardinal Ruby [REMOVED: 4.0.3]
+i(0, 66575);	-- Glinting Ametrine [REMOVED: 4.0.3]
+i(0, 66555);	-- Glowing Dreadstone [REMOVED: 4.0.3]
+i(0, 66564);	-- Infused Dreadstone [REMOVED: 4.0.3]
+i(0, 66440);	-- Intricate Eye of Zul [REMOVED: 4.0.3]
+i(0, 66566);	-- Luminous Ametrine [REMOVED: 4.0.3]
+i(0, 66500);	-- Lustrous Majestic Zircon [REMOVED: 4.0.3]
+i(0, 66436);	-- Misty Eye of Zul [REMOVED: 4.0.3]
+i(0, 66444);	-- Opaque Eye of Zul [REMOVED: 4.0.3]
+i(0, 66563);	-- Puissant Dreadstone [REMOVED: 4.0.3]
+i(0, 66559);	-- Regal Dreadstone [REMOVED: 4.0.3]
+i(0, 66558);	-- Royal Dreadstone [REMOVED: 4.0.3]
+i(0, 66433);	-- Seer's Eye of Zul [REMOVED: 4.0.3]
+i(0, 66437);	-- Shining Eye of Zul [REMOVED: 4.0.3]
+i(0, 66578);	-- Stalwart Ametrine [REMOVED: 4.0.3]
+i(0, 66587);	-- Stark Ametrine [REMOVED: 4.0.3]
+i(0, 66438);	-- Tense Eye of Zul [REMOVED: 4.0.3]
+i(0, 66565);	-- Tenuous Dreadstone [REMOVED: 4.0.3]
+i(0, 66504);	-- Thick King's Amber [REMOVED: 4.0.3]
+i(0, 66577);	-- Wicked Ametrine [REMOVED: 4.0.3]
+-- #endif
 
 
 -- Everything in the file currently is representative of live Retail data, so let's avoid contaminating
@@ -590,224 +1261,6 @@ i(0, 46404);	-- Reckless Noble Topaz [REMOVED: 4.0.3]
 if true then return end
 -- #endif
 
------------------
--- PATCH 3.0.2 --
------------------
---- TRAINER ---
-i(0, 51311);	-- Jewelcrafting (Grand Master)
---- ITEM ---
-i(41559, 53857);	-- Design: Mystic Sun Crystal (Guessed via Filter Recipe with SpellID)
-i(41560, 53943);	-- Design: Stormy Chalcedony (Guessed via Filter Recipe with SpellID)
-i(41561, 53885);	-- Design: Reckless Huge Citrine (Guessed via Filter Recipe with SpellID)
-i(41562, 53877);	-- Design: Deadly Huge Citrine (Guessed via Filter Recipe with SpellID)
-i(41563, 53884);	-- Design: Willful Huge Citrine (Guessed via Filter Recipe with SpellID)
-i(41564, 53879);	-- Design: Lucent Huge Citrine (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41565, 53879);	-- Design: Lucent Huge Citrine (Guessed via Filter Recipe with SpellID)
-i(41566, 53875);	-- Design: Resplendent Huge Citrine (Guessed via Filter Recipe with SpellID)
-i(41567, 53917);	-- Design: Nimble Dark Jade (Guessed via Filter Recipe with SpellID)
-i(41568, 53921);	-- Design: Purified Shadow Crystal (Guessed via Filter Recipe with SpellID)
-i(41569, 53933);	-- Design: Shattered Dark Jade (Guessed via Filter Recipe with SpellID)
-i(41570, 53932);	-- Design: Radiant Dark Jade (Guessed via Filter Recipe with SpellID)
-i(41571, 53924);	-- Design: Turbid Dark Jade (Guessed via Filter Recipe with SpellID)
-i(41572, 53919);	-- Design: Steady Dark Jade (Guessed via Filter Recipe with SpellID)
-i(41573, 53924);	-- Design: Turbid Dark Jade (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41574, 53869);	-- Design: Defender's Shadow Crystal (Guessed via Filter Recipe with SpellID)
-i(41575, 53865);	-- Design: Mysterious Shadow Crystal (Guessed via Filter Recipe with SpellID)
-i(41576, 53830);	-- Design: Bold Scarlet Ruby (Guessed via Filter Recipe with SpellID)
-i(41577, 53945);	-- Design: Delicate Scarlet Ruby (Guessed via Filter Recipe with SpellID)
-i(41578, 53949);	-- Design: Flashing Scarlet Ruby (Guessed via Filter Recipe with SpellID)
-i(41579, 53961);	-- Design: Quick Autumn's Glow (Guessed via Filter Recipe with SpellID)
-i(41580, 53958);	-- Design: Rigid Sky Sapphire (Guessed via Filter Recipe with SpellID)
-i(41581, 53954);	-- Design: Sparkling Sky Sapphire (Guessed via Filter Recipe with SpellID)
-i(41582, 53980);	-- Design: Glinting Twilight Opal (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41686, 53984);	-- Design: Potent Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41687, 53991);	-- Design: Deft Monarch Topaz (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41688, 53985);	-- Design: Veiled Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41689, 53987);	-- Design: Reckless Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41690, 53987);	-- Design: Reckless Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41692, 54011);	-- Design: Energized Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41693, 54001);	-- Design: Forceful Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41694, 54011);	-- Design: Energized Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41696, 54009);	-- Design: Lightning Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41697, 53998);	-- Design: Regal Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41698, 53997);	-- Design: Nimble Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41699, 53966);	-- Design: Purified Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41701, 53966);	-- Design: Purified Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41702, 53996);	-- Design: Jagged Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41703, 53998);	-- Design: Regal Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41704, 55389);	-- Design: Chaotic Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41705, 55384);	-- Design: Shielded Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41706, 55392);	-- Design: Ember Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41707, 55407);	-- Design: Revitalizing Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41708, 55396);	-- Design: Insightful Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41709, 55404);	-- Design: Invigorating Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41710, 55400);	-- Design: Relentless Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41711, 55403);	-- Design: Trenchant Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41718, 53946);	-- Design: Brilliant Scarlet Ruby (Guessed via Filter Recipe with SpellID)
-i(41719, 53948);	-- Design: Subtle Autumn's Glow (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41720, 53957);	-- Design: Smooth Autumn's Glow (Guessed via Filter Recipe with SpellID)
-i(41721, 53988);	-- Design: Deadly Monarch Topaz (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41722, 53993);	-- Design: Stalwart Monarch Topaz (Guessed via Filter Recipe with SpellID)4
-i(41723, 53996);	-- Design: Jagged Forest Emerald (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41724, 54003);	-- Design: Misty Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41725, 53965);	-- Design: Timeless Twilight Opal (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41726, 53974);	-- Design: Guardian's Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41727, 53960);	-- Design: Mystic Autumn's Glow (Guessed via Filter Recipe with SpellID)
-i(41728, 53955);	-- Design: Stormy Sky Sapphire (Guessed via Filter Recipe with SpellID)
-i(41730, 53986);	-- Design: Willful Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41732, 53981);	-- Design: Lucent Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41733, 53981);	-- Design: Lucent Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41734, 53978);	-- Design: Resplendent Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41735, 54014);	-- Design: Shattered Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41736, 54012);	-- Design: Radiant Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41737, 54005);	-- Design: Turbid Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41738, 54000);	-- Design: Steady Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41739, 54005);	-- Design: Turbid Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41740, 53968);	-- Design: Mysterious Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41742, 55393);	-- Design: Enigmatic Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41743, 55387);	-- Design: Forlorn Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41744, 55388);	-- Design: Impassive Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41747, 53963);	-- Design: Shifting Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41790, 53951);	-- Design: Precise Scarlet Ruby (Guessed via Filter Recipe with SpellID)
-i(41791, 53948);	-- Design: Subtle Autumn's Glow (Guessed via Filter Recipe with SpellID)
-i(41792, 53991);	-- Design: Deft Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41793, 54019);	-- Design: Fierce Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41794, 53988);	-- Design: Deadly Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41795, 53965);	-- Design: Timeless Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41796, 53980);	-- Design: Glinting Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41797, 55401);	-- Design: Austere Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41798, 55397);	-- Design: Bracing Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41799, 55398);	-- Design: Eternal Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41817, 53957);	-- Design: Smooth Autumn's Glow (Guessed via Filter Recipe with SpellID)
-i(41818, 53994);	-- Design: Accurate Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41819, 54012);	-- Design: Radiant Forest Emerald (Guessed via Filter Recipe with SpellID)
-i(41820, 53972);	-- Design: Defender's Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(42138, 53952);	-- Design: Solid Sky Sapphire (Guessed via Filter Recipe with SpellID)
-i(42298, 56049);	-- Design: Bold Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42299, 56052);	-- Design: Delicate Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42300, 56053);	-- Design: Brilliant Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42301, 56052);	-- Design: Delicate Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42302, 56056);	-- Design: Flashing Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42303, 56085);	-- Design: Smooth Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42304, 56087);	-- Design: Sparkling Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42305, 56079);	-- Design: Mystic Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42306, 56081);	-- Design: Precise Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42307, 56083);	-- Design: Quick Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42308, 56084);	-- Design: Rigid Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42309, 56053);	-- Design: Brilliant Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42310, 56085);	-- Design: Smooth Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42311, 56086);	-- Design: Solid Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42312, 56087);	-- Design: Sparkling Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42313, 56088);	-- Design: Stormy Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42314, 56055);	-- Design: Subtle Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42315, 56055);	-- Design: Subtle Dragon's Eye (Guessed via Filter Recipe with SpellID)
-i(42648, 56496);	-- Design: Titanium Impact Band (Guessed via Filter Recipe with SpellID)
-i(42649, 56497);	-- Design: Titanium Earthguard Ring (Guessed via Filter Recipe with SpellID)
-i(42650, 56498);	-- Design: Titanium Spellshock Ring (Guessed via Filter Recipe with SpellID)
-i(42651, 56499);	-- Design: Titanium Impact Choker (Guessed via Filter Recipe with SpellID)
-i(42652, 56500);	-- Design: Titanium Earthguard Chain (Guessed via Filter Recipe with SpellID)
-i(42653, 56501);	-- Design: Titanium Spellshock Necklace (Guessed via Filter Recipe with SpellID)
-i(43317, 58147);	-- Design: Ring of Earthen Might (Guessed via Filter Recipe with SpellID)
-i(43318, 58148);	-- Design: Ring of Scarlet Shadows (Guessed via Filter Recipe with SpellID)
-i(43319, 58149);	-- Design: Windfire Band (Guessed via Filter Recipe with SpellID)
-i(43320, 58150);	-- Design: Ring of Northern Tears (Guessed via Filter Recipe with SpellID)
-i(43485, 58492);	-- Design: Savage Titanium Ring (Guessed via Filter Recipe with SpellID)
-i(43497, 58507);	-- Design: Savage Titanium Band (Guessed via Filter Recipe with SpellID)
-i(43597, 58954);	-- Design: Titanium Frostguard Ring (Guessed via Filter Recipe with SpellID)
-
------------------
--- PATCH 3.0.8 --
------------------
-i(41777, 53976);	-- Design: Etched Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41778, 54023);	-- Design: Resolute Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41779, 53993);	-- Design: Stalwart Monarch Topaz (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41780, 53977);	-- Design: Champion's Monarch Topaz (Guessed via Filter Recipe with SpellID)
-i(41781, 54003);	-- Design: Misty Forest Emerald (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41782, 54009);	-- Design: Lightning Forest Emerald (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41783, 53966);	-- Design: Purified Twilight Opal (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41784, 53962);	-- Design: Sovereign Twilight Opal (Guessed via Filter Recipe with SpellID)
-i(41785, 53980);	-- Design: Glinting Twilight Opal (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(41786, 55390);	-- Design: Destructive Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41787, 55395);	-- Design: Thundering Skyflare Diamond (Guessed via Filter Recipe with SpellID)
-i(41788, 55405);	-- Design: Beaming Earthsiege Diamond (Guessed via Filter Recipe with SpellID)
-i(41789, 53975);	-- Design: Inscribed Monarch Topaz (Guessed via Filter Recipe with SpellID)
-
------------------
--- PATCH 3.2.0 --
------------------
-i(46897, 66338);	-- Design: Regal Eye of Zul
-i(46898, 66428);	-- Design: Steady Eye of Zul
-i(46899, 66429);	-- Design: Nimble Eye of Zul
-i(46900, 66556);	-- Design: Purified Dreadstone
-i(46901, 66431);	-- Design: Jagged Eye of Zul
-i(46902, 66432);	-- Design: Timeless Dreadstone
-i(46903, 66556);	-- Design: Purified Dreadstone
-i(46904, 66434);	-- Design: Forceful Eye of Zul
-i(46905, 66435);	-- Design: Misty Eye of Zul
-i(46906, 66435);	-- Design: Misty Eye of Zul
-i(46907, 66439);	-- Design: Lightning Eye of Zul
-i(46908, 66441);	-- Design: Radiant Eye of Zul
-i(46909, 66439);	-- Design: Lightning Eye of Zul
-i(46910, 66442);	-- Design: Energized Eye of Zul
-i(46911, 66441);	-- Design: Radiant Eye of Zul
-i(46912, 66442);	-- Design: Energized Eye of Zul
-i(46913, 66443);	-- Design: Shattered Eye of Zul
-i(46914, 66445);	-- Design: Turbid Eye of Zul
-i(46915, 66445);	-- Design: Turbid Eye of Zul
-i(46916, 66446);	-- Design: Brilliant Cardinal Ruby
-i(46917, 66447);	-- Design: Bold Cardinal Ruby
-i(46918, 66448);	-- Design: Delicate Cardinal Ruby
-i(46919, 66448);	-- Design: Delicate Cardinal Ruby
-i(46920, 66450);	-- Design: Precise Cardinal Ruby
-i(46921, 66502);	-- Design: Smooth King's Amber
-i(46922, 66452);	-- Design: Subtle King's Amber
-i(46923, 66453);	-- Design: Flashing Cardinal Ruby
-i(46924, 66497);	-- Design: Solid Majestic Zircon
-i(46925, 66498);	-- Design: Sparkling Majestic Zircon
-i(46926, 66499);	-- Design: Stormy Majestic Zircon
-i(46927, 66498);	-- Design: Sparkling Majestic Zircon
-i(46928, 66501);	-- Design: Rigid Majestic Zircon
-i(46929, 66502);	-- Design: Smooth King's Amber
-i(46930, 66446);	-- Design: Brilliant Cardinal Ruby
-i(46931, 66452);	-- Design: Subtle King's Amber
-i(46932, 66505);	-- Design: Mystic King's Amber
-i(46933, 66506);	-- Design: Quick King's Amber
-i(46934, 66557);	-- Design: Shifting Dreadstone
-i(46935, 66554);	-- Design: Sovereign Dreadstone
-i(46936, 66432);	-- Design: Timeless Dreadstone
-i(46937, 66556);	-- Design: Purified Dreadstone
-i(46938, 66557);	-- Design: Shifting Dreadstone
-i(46939, 66556);	-- Design: Purified Dreadstone
-i(46940, 66338);	-- Design: Regal Eye of Zul
-i(46941, 66560);	-- Design: Defender's Dreadstone
-i(46942, 66561);	-- Design: Guardian's Dreadstone
-i(46943, 66562);	-- Design: Mysterious Dreadstone
-i(46944, 66431);	-- Design: Jagged Eye of Zul
-i(46945, 66573);	-- Design: Glinting Dreadstone
-i(46946, 66573);	-- Design: Glinting Dreadstone
-i(46947, 66556);	-- Design: Purified Dreadstone
-i(46948, 66567);	-- Design: Inscribed Ametrine
-i(46949, 66568);	-- Design: Deadly Ametrine
-i(46950, 66569);	-- Design: Potent Ametrine
-i(46951, 66570);	-- Design: Veiled Dreadstone
-i(46952, 66571);	-- Design: Willful Ametrine
-i(46953, 66572);	-- Design: Etched Dreadstone
-i(46956, 66573);	-- Design: Glinting Dreadstone
-i(47007, 66574);	-- Design: Reckless Ametrine
-i(47008, 66573);	-- Design: Glinting Dreadstone
-i(47010, 66576);	-- Design: Accurate Dreadstone
-i(47011, 66568);	-- Design: Deadly Ametrine
-i(47012, 66581);	-- Design: Stalwart Ametrine
-i(47015, 66579);	-- Design: Champion's Ametrine
-i(47016, 66585);	-- Design: Lucent Ametrine
-i(47017, 66581);	-- Design: Stalwart Ametrine
-i(47018, 66582);	-- Design: Resplendent Ametrine
-i(47019, 66583);	-- Design: Fierce Ametrine
-i(47020, 66584);	-- Design: Deft Ametrine
-i(47021, 66585);	-- Design: Lucent Ametrine
-i(47022, 66586);	-- Design: Resolute Ametrine
-i(47023, 66584);	-- Design: Deft Ametrine
-i(49112, 68253);	-- Design: Nightmare Tear
 
 -----------------
 -- PATCH 4.0.1 --
@@ -1497,11 +1950,8 @@ i(0, 359701);	-- Vestige of the Eternal
 ------------------
 --- LATER ---
 i(0, 382978);	-- Cataclysm Prospecting
-i(0, 382995);	-- Classic Prospecting
 i(0, 382973);	-- Kul Tiras and Zandalar Prospecting
 i(0, 382975);	-- Legion Prospecting
-i(0, 382979);	-- Northrend Prospecting
-i(0, 382980);	-- Outland Prospecting
 i(0, 382977);	-- Pandaria Prospecting
 --- NYI ---
 i(0, 382584);	-- Opening
@@ -1563,6 +2013,9 @@ i(194615, 0);	-- Zen Neltharite
 -- PATCH 10.0.2 --
 ------------------
 --- TRAINER ---
+i(0, 382995);	-- Classic Prospecting
+i(0, 382980);	-- Outland Prospecting
+i(0, 382979);	-- Northrend Prospecting
 i(0, 366250);	-- Dragon Isles Jewelcrafting
 i(0, 374627);	-- Dragon Isles Prospecting
 i(0, 395696);	-- Dragon Isles Crushing

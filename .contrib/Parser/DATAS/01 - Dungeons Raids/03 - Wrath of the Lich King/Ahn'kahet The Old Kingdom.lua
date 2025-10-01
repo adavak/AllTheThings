@@ -350,7 +350,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 								["timeline"] = { ADDED_4_0_3 },
 							}),
 							ach(1862),	-- Volazj's Quick Demise
-							i(41790),	-- Design: Precise Scarlet Ruby
+							i(41790),	-- Design: Precise Scarlet Ruby (RECIPE!)
 							i(37617),	-- Staff of Sinister Claws
 							i(37615),	-- Titanium Compound Bow
 							i(37619),	-- Wand of Ahn'kahet

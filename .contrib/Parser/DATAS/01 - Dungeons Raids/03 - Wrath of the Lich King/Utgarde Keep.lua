@@ -374,7 +374,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							ach(5095, {	-- Heroic: Utgarde Keep Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),
-							i(41793),	-- Design: Fierce Monarch Topaz
+							i(41793),	-- Design: Fierce Monarch Topaz (RECIPE!)
 							i(37190),	-- Enraged Feral Staff
 							-- #if AFTER 7.3.5
 							i(35576),	-- Ingvar's Monolithic Cleaver (7.3.5 - Used to be only Normal Mode)

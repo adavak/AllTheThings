@@ -5145,33 +5145,35 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(32379, {	-- Captain O'Neal <Jewelcrafting Quartermaster>
 					["coord"] = { 75.0, 66.7, STORMWIND_CITY },
-					["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3 },
+					["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = pvp({
-						-- #if BEFORE 4.0.3
-						-- Moves to Tiffany in Dalaran
-						i(41563),	-- Design: Durable Huge Citrine [WRATH] / Design: Willful Huge Citrine [CATA+] (RECIPE!)
-						-- #endif
-						i(41564, {	-- Design: Empowered Huge Citrine [WRATH] / Design: Lucent Huge Citrine [CATA+] (RECIPE!)
-							["timeline"] = { REMOVED_4_0_3 },
-						}),
-						-- #if BEFORE 4.0.3
-						-- These move to Tiffany in Dalaran
+						-- #if BEFORE CATA
+						i(41563),	-- Design: Durable Huge Citrine (RECIPE!)
+						i(41564),	-- Design: Empowered Huge Citrine (RECIPE!)
 						i(41565),	-- Design: Lucent Huge Citrine (RECIPE!)
 						i(41575),	-- Design: Mysterious Shadow Crystal (RECIPE!)
 						i(41559),	-- Design: Mystic Sun Crystal (RECIPE!)
-						-- #endif
-						i(41573, {	-- Design: Opaque Dark Jade [WRATH] / Design: Turbid Dark Jade [CATA+] (RECIPE!)
-							["timeline"] = { REMOVED_4_0_3 },
-						}),
-						-- #if BEFORE 4.0.3
-						-- These move to Tiffany in Dalaran
+						i(41573),	-- Design: Opaque Dark Jade (RECIPE!)
 						i(41566),	-- Design: Resplendent Huge Citrine (RECIPE!)
 						i(41569),	-- Design: Shattered Dark Jade (RECIPE!)
 						i(41572),	-- Design: Steady Dark Jade (RECIPE!)
 						i(41560),	-- Design: Stormy Chalcedony (RECIPE!)
-						i(41570),	-- Design: Radiant Dark Jade [CATA+] / Design: Tense Dark Jade [WRATH] (RECIPE!)
+						i(41570),	-- Design: Tense Dark Jade (RECIPE!)
 						i(41571),	-- Design: Turbid Dark Jade (RECIPE!)
+						-- #else
+						i(41564),	-- Design: Lucent Huge Citrine (RECIPE!)
+						i(41565),	-- Design: Lucent Huge Citrine (RECIPE!)
+						i(41575),	-- Design: Mysterious Shadow Crystal (RECIPE!)
+						i(41559),	-- Design: Mystic Sun Crystal (RECIPE!)
+						i(41570),	-- Design: Radiant Dark Jade (RECIPE!)
+						i(41566),	-- Design: Resplendent Huge Citrine (RECIPE!)
+						i(41569),	-- Design: Shattered Dark Jade (RECIPE!)
+						i(41572),	-- Design: Steady Dark Jade (RECIPE!)
+						i(41560),	-- Design: Stormy Chalcedony (RECIPE!)
+						i(41571),	-- Design: Turbid Dark Jade (RECIPE!)
+						i(41573),	-- Design: Turbid Dark Jade (RECIPE!)
+						i(41563),	-- Design: Willful Huge Citrine (RECIPE!)
 						-- #endif
 					}),
 				}),

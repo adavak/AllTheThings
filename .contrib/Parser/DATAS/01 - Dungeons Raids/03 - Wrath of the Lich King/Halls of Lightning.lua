@@ -255,7 +255,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				e(600, {	-- Loken
 					["creatureID"] = 28923,	-- Loken
 					["groups"] = {
-						i(41799),	-- Design: Eternal Earthsiege Diamond
+						i(41799),	-- Design: Eternal Earthsiege Diamond (RECIPE!)
 						-- #if AFTER 7.3.5
 						i(37848),	-- Lightning Giant Staff (7.3.5 - Used to be only Heroic Mode)
 						i(37852),	-- Colossal Skull-Clad Cleaver (7.3.5 - Used to be only Heroic Mode)
@@ -372,7 +372,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 								["timeline"] = { ADDED_4_0_3 },
 							}),
 							ach(1867),	-- Timely Death
-							i(41799),	-- Design: Eternal Earthsiege Diamond
+							i(41799),	-- Design: Eternal Earthsiege Diamond (RECIPE!)
 							i(37848),	-- Lightning Giant Staff
 							i(37852),	-- Colossal Skull-Clad Cleaver
 							-- #if AFTER 7.3.5

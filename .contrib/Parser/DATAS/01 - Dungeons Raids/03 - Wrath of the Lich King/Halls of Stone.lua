@@ -277,8 +277,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							ach(5102, {	-- Heroic: Halls of Stone Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),
-							i(41792, {	-- Design: Deft Monarch Topaz
-								["timeline"] = { REMOVED_4_0_3 },
+							i(41792, {	-- Design: Deft Monarch Topaz (RECIPE!)
+								["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 							}),
 							i(37667),	-- The Fleshshaper
 							-- #if AFTER 7.3.5

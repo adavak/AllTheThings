@@ -866,7 +866,6 @@ _.CategoryNames = {
 	[3] = "Tarot Decks",
 	[106] = "Card",
 	[107] = "Scrolls",
-	[168] = "Materials",
 	[227] = AUCTION_CATEGORY_WEAPONS,
 	[251] = HEADSLOT,
 	[252] = SHOULDERSLOT,
@@ -876,13 +875,11 @@ _.CategoryNames = {
 	[256] = WAISTSLOT,
 	[257] = LEGSSLOT,
 	[258] = FEETSLOT,
-	[867] = "Prisms & Statues",
 }
 _.CategoryIcons = {
 	[3] = 134492,
 	[106] = 134492,
 	[107] = 134939,
-	[168] = 133237,
 	[227] = 135580,
 	[251] = 133076,
 	[252] = 135032,
@@ -892,7 +889,6 @@ _.CategoryIcons = {
 	[256] = 132513,
 	[257] = 134592,
 	[258] = 132544,
-	[867] = 134096,
 }
 
 -- Custom Header Database Module
@@ -1197,12 +1193,15 @@ localize(L.HEADER_NAMES, {
 	[-214] = ITEM_QUALITY6_DESC,
 	[-215] = ITEM_QUALITY1_DESC,
 	[-216] = ELITE,
+	[-217] = ITEM_QUALITY4_DESC,
 	[-219] = HEIRLOOMS,
 	[-220] = ITEM_QUALITY5_DESC,
 	[-221] = LOOT_JOURNAL_LEGENDARIES,
 	[-222] = ITEM_QUALITY0_DESC,
+	[-223] = ITEM_QUALITY3_DESC,
 	[-224] = "Thunderforged",
 	[-225] = string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 3),
+	[-227] = ITEM_QUALITY2_DESC,
 	[-228] = "Warforged",
 	[-229] = "Source IDs",
 	[-230] = "Trading Post",
@@ -1576,7 +1575,6 @@ localize(L.HEADER_NAMES, {
 	[-654] = "Harvesting",
 	[-656] = "Brawler's Guild",
 	[-657] = "Krasarang Wilds Campaign",
-	[-658] = select(2,GetAchievementInfo(61406)),
 	[-659] = "Twilight Assist",
 	[-660] = "Twilight Duo",
 	[-661] = "Twilight Zone",
@@ -1873,12 +1871,15 @@ localize(L.HEADER_ICONS, {
 	[-214] = _.asset("weapon_type_artifact"),
 	[-215] = 135030,
 	[-216] = 237273,
+	[-217] = 135028,
 	[-219] = _.asset("weapon_type_heirloom"),
 	[-220] = _.asset("weapon_type_legendary"),
 	[-221] = _.asset("weapon_type_legendary"),
 	[-222] = 135025,
+	[-223] = 135023,
 	[-224] = 839979,
 	[-225] = 236489,
+	[-227] = 135024,
 	[-228] = 450907,
 	[-229] = 134400,
 	[-230] = _.asset("category_tradingpost"),
@@ -2244,7 +2245,6 @@ localize(L.HEADER_ICONS, {
 	[-652] = 838687,
 	[-654] = 134427,
 	[-656] = 132356,
-	[-658] = 133783,
 	[-659] = 236469,
 	[-660] = 236473,
 	[-661] = 236471,
@@ -2300,7 +2300,6 @@ localize(L.HEADER_EVENTS, {
 	[-607] = 1262,
 	[-608] = 1397,
 	[-609] = 1509,
-	[-658] = 1501,
 });
 localize(L.EVENT_REMAPPING, {
 	[141] = 14,
@@ -2403,9 +2402,6 @@ localize(L.EVENT_TIMERUNNING_SEASONS, {
 });
 
 -- Programmatic Event Scheduling
-_.Modules.Events.SetEventInformation(1501, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025})
-});
 _.Modules.Events.SetEventInformation(1509, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025})
 });
@@ -21956,7 +21952,7 @@ L.QUEST_NAMES = {
 	[77639] = "Quantum Shoulders (Mail) completed.",
 	[77640] = "Quantum Shoulders (Leather) completed.",
 	[77641] = "Quantum Shoulders (Cloth) completed.",
-	[77775] = "Daily kill of Coren Direbrew",
+	[77775] = "Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)",
 	[77973] = "Third Lock",
 	[77974] = "First Lock",
 	[78912] = "When donating to the Gala (daily)",
@@ -54168,7 +54164,6 @@ L.TITLES_CHECKBOX = "칭호";
 L.TRADING_POST = "교역소";
 localize(_.CategoryNames, {
 	[3] = "카드 묶음",
-	[168] = "재료",
 });
 localize(L.HEADER_NAMES, {
 	[-6] = "동맹 종족",
@@ -60460,8 +60455,6 @@ localize(_.CategoryNames, {
 	[3] = "Baraja de Tarot",
 	[106] = "Carta",
 	[107] = "Pergaminos",
-	[168] = "Materiales",
-	[867] = "Prismas y estatuas",
 });
 localize(L.HEADER_NAMES, {
 	[-2] = "Este",

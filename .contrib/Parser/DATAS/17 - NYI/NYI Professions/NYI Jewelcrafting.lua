@@ -28,6 +28,19 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				expansion(EXPANSION.TBC, patch(1,3), bubbleDownSelf({ ["timeline"] = { CREATED_2_1_3 } }, {
 					i(25884),	-- Primal Stone Statue
 				})),
+
+				-- 2.2.0
+				expansion(EXPANSION.TBC, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_2_2_0 } }, {
+					i(27774),	-- zzOLDMighty Blood Garnet
+					i(27811),	-- zzOLDMighty Blood Garnet
+
+				})),
+			}),
+			expansion(EXPANSION.WRATH, {
+				-- 3.0.2
+				expansion(EXPANSION.WRATH, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_3_0_2 } }, {
+					i(37430),	-- Solid Sky Sapphire
+				})),
 			}),
 			expansion(EXPANSION.CATA, {
 				-- 4.0.1
@@ -114,6 +127,33 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(35536),	-- Design: Loop of Forged Power
 					i(35537),	-- Design: Pendant of Sunfire
 					i(35538),	-- Design: Ring of Flowing Life
+				})),
+			}),
+			expansion(EXPANSION.WRATH, {
+				-- 3.0.2
+				expansion(EXPANSION.WRATH, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_3_0_2 } }, {
+					-- Without SpellID attched
+					i(41408),	-- ZZOLD Design: Austere Earthsiege Diamond
+					i(41412),	-- ZZOLD Design: Beaming Earthsiege Diamond
+					i(41404),	-- ZZOLD Design: Bracing Earthsiege Diamond
+					i(41418),	-- ZZOLD Design: Chaotic Skyflare Diamond
+					i(41419),	-- ZZOLD Design: Destructive Skyflare Diamond
+					i(41414),	-- ZZOLD Design: Effulgent Skyflare Diamond
+					i(41420),	-- ZZOLD Design: Ember Skyflare Diamond
+					i(41421),	-- ZZOLD Design: Enigmatic Skyflare Diamond
+					i(41405),	-- ZZOLD Design: Eternal Earthsiege Diamond
+					i(41416),	-- ZZOLD Design: Forlorn Skyflare Diamond
+					i(41417),	-- ZZOLD Design: Impassive Skyflare Diamond
+					i(41403),	-- ZZOLD Design: Insightful Earthsiege Diamond
+					i(41411),	-- ZZOLD Design: Invigorating Earthsiege Diamond
+					i(41409),	-- ZZOLD Design: Persistent Earthsiege Diamond
+					i(41406),	-- ZZOLD Design: Powerful Earthsiege Diamond
+					i(41407),	-- ZZOLD Design: Relentless Earthsiege Diamond
+					i(41413),	-- ZZOLD Design: Revitalizing Skyflare Diamond
+					i(41422),	-- ZZOLD Design: Swift Skyflare Diamond
+					i(41415),	-- ZZOLD Design: Tireless Skyflare Diamond
+					i(41410),	-- ZZOLD Design: Trenchant Earthsiege Diamond
+					i(41423),	-- ZZOLDDesign: Thundering Skyflare Diamond
 				})),
 			}),
 			expansion(EXPANSION.CATA, {

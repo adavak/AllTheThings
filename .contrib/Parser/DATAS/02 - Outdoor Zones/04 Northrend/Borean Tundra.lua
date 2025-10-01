@@ -977,7 +977,7 @@ root(ROOTS.Zones, {
 					q(13004, {	-- Gem Perfection (A)
 						["qg"] = 26997,	-- Alestos
 						["coord"] = { 57.4, 72.2, BOREAN_TUNDRA },
-						["timeline"] = { REMOVED_4_0_3 },
+						["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 						["cost"] = {
 							{ "i", 36929, 2 },	-- Huge Citrine
 							{ "i", 36932, 2 },	-- Dark Jade
@@ -985,21 +985,19 @@ root(ROOTS.Zones, {
 						},
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = ALLIANCE_ONLY,
-						-- #if BEFORE 4.0.3
 						["groups"] = {
 							i(41888, {	-- Small Velvet Bag
 								["description"] = "Contains a 'perfect' gem.",
 							}),
-							recipe(55534, {	-- Gem Perfection
+							r(55534, {	-- Gem Perfection
 								["requireSkill"] = JEWELCRAFTING,
 							}),
 						},
-						-- #endif
 					}),
 					q(13002, {	-- Gem Perfection (H)
 						["qg"] = 26982,	-- Geba'li
 						["coord"] = { 41.6, 53.4, BOREAN_TUNDRA },
-						["timeline"] = { REMOVED_4_0_3 },
+						["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 						["cost"] = {
 							{ "i", 36929, 2 },	-- Huge Citrine
 							{ "i", 36932, 2 },	-- Dark Jade
@@ -1007,16 +1005,14 @@ root(ROOTS.Zones, {
 						},
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = HORDE_ONLY,
-						-- #if BEFORE 4.0.3
 						["groups"] = {
 							i(41888, {	-- Small Velvet Bag
 								["description"] = "Contains a 'perfect' gem.",
 							}),
-							recipe(55534, {	-- Gem Perfection
+							r(55534, {	-- Gem Perfection
 								["requireSkill"] = JEWELCRAFTING,
 							}),
 						},
-						-- #endif
 					}),
 					q(11673, {	-- Get Me Outa Here!
 						["qg"] = 25589,	-- Bonker Togglevolt

@@ -318,8 +318,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							ach(5097, {	-- Heroic: Azjol-Nerub Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),
-							i(41796, {	-- Design: Glinting Twilight Opal [CATA+] / Design: Infused Twilight Opal [WRATH]
-								["timeline"] = { REMOVED_4_0_3 },
+							i(41796, {	-- Design: Glinting Twilight Opal [CATA+] / Design: Infused Twilight Opal [WRATH] (RECIPE!)
+								["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 							}),
 							i(37235),	-- Crypt Lord's Deft Blade
 							i(37238),	-- Rod of the Fallen Monarch

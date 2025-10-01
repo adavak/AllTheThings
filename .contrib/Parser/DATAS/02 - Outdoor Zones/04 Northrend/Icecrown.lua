@@ -2288,11 +2288,7 @@ root(ROOTS.Zones, {
 									["timeline"] = { REMOVED_5_0_4 },
 									["filterID"] = CONSUMABLES,
 								}),
-								-- #if AFTER CATA
 								i(41721),	-- Design: Deadly Monarch Topaz [CATA+] / Design: Wicked Monarch Topaz [WRATH] (RECIPE!)
-								-- #else
-								i(41721),	-- Design: Wicked Monarch Topaz [WRATH] / Design: Deadly Monarch Topaz [CATA+] (RECIPE!)
-								-- #endif
 								i(42183),	-- Pattern: Abyssal Bag (RECIPE!)
 								i(44250),	-- Reaper of Dark Souls
 								i(44249),	-- Runeblade of Demonstrable Power
@@ -2303,11 +2299,7 @@ root(ROOTS.Zones, {
 								i(44302),	-- Belt of Dark Mending
 								i(44303),	-- Darkheart Chestguard
 								i(44306),	-- Death-Insured Sabatons
-								-- #if AFTER CATA
 								i(41725),	-- Design: Timeless Twilight Opal [CATA+] / Design: Glowing Twilight Opal [WRATH] (RECIPE!)
-								-- #else
-								i(41725),	-- Design: Glowing Twilight Opal [WRATH] / Design: Timeless Twilight Opal [CATA+] (RECIPE!)
-								-- #endif
 								i(44305),	-- Kilt of Dark Mercy
 							},
 						}),

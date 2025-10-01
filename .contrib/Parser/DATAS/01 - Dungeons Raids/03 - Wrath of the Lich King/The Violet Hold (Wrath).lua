@@ -361,7 +361,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							}),
 							ach(1816),	-- Defenseless
 							i(41791, {	-- Design: Subtle Autumn's Glow [CATA+] / Design: Thick Autumn's Glow [WRATH]
-								["timeline"] = { REMOVED_4_0_3 },
+								["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 							}),
 							-- #if AFTER 7.3.5
 							i(35649),	-- Jailer's Baton (7.3.5 - Used to be only Normal Mode)

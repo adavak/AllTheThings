@@ -226,7 +226,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				e(644, {	-- King Ymiron
 					["creatureID"] = 26861,	-- King Ymiron
 					["groups"] = {
-						i(41797),	-- Design: Austere Earthsiege Diamond
+						i(41797),	-- Design: Austere Earthsiege Diamond (RECIPE!)
 						i(37060),	-- Jeweled Coronation Sword
 						-- #if AFTER 7.3.5
 						i(37401),	-- Red Sword of Courage (7.3.5 - Used to be only Heroic Mode)
@@ -338,7 +338,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 								["timeline"] = { ADDED_4_0_3 },
 							}),
 							ach(2157),	-- King's Bane
-							i(41797),	-- Design: Austere Earthsiege Diamond (7.3.5 - Used to be only Normal Mode)
+							i(41797),	-- Design: Austere Earthsiege Diamond (RECIPE!) (7.3.5 - Used to be only Normal Mode)
 							-- #if AFTER 7.3.5
 							i(37060),	-- Jeweled Coronation Sword (7.3.5 - Used to be only Normal Mode)
 							-- #endif

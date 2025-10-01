@@ -37,8 +37,11 @@ CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline
 		-- #endif
 		["rank"] = 4,
 	}),
-	r(31252),	-- Prospecting
+	r(31252, {	-- Prospecting
+		["collectible"] = false,
+	}),
 	applyclassicphase(BFA_PHASE_ONE, r(264532, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Jewelcrafting
+	applyclassicphase(DF_PHASE_ONE, r(382995, {["timeline"] = {ADDED_10_0_2}})),	-- Classic Prospecting
 	n(ARMOR, {
 		r(25321),	-- Moonsoul Crown
 	}),
@@ -77,10 +80,12 @@ CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline
 		r(32801),	-- Coarse Stone Statue
 		r(32809),	-- Dense Stone Statue
 		r(32807),	-- Heavy Stone Statue
+		applyclassicphase(CATA_PHASE_ONE, r(62941, {["timeline"] = {ADDED_4_0_3}})),	-- Prismatic Black Diamond
 		r(32259),	-- Rough Stone Statue
 		r(32808),	-- Solid Stone Statue
 	}),
 	filter(NECK_F, {
+		applyclassicphase(WRATH_PHASE_ONE, r(63743, {["timeline"] = {ADDED_3_1_0}})),	-- Amulet of Truesight
 		r(26876),	-- Aquamarine Pendant of the Warrior
 		r(25498),	-- Barbaric Iron Collar
 		r(36523),	-- Brilliant Necklace
@@ -117,6 +122,7 @@ TBC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] =
 		["rank"] = 5,
 	}),
 	applyclassicphase(BFA_PHASE_ONE, r(264534, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Outland Jewelcrafting
+	applyclassicphase(DF_PHASE_ONE, r(382980, {["timeline"] = {ADDED_10_0_2}})),	-- Outland Prospecting
 	n(ARMOR, {
 		applyclassicphase(TBC_PHASE_TWO, r(41418, {["timeline"] = {ADDED_2_1_0}})),	-- Crown of the Sea Witch
 	}),
@@ -153,6 +159,40 @@ TBC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] =
 		r(28936, {["timeline"] = {ADDED_3_0_2}}),	-- Sovereign Shadow Draenite
 		r(28953, {["timeline"] = {ADDED_3_0_2}}),	-- Sparkling Azure Moonstone
 		r(28925, {["timeline"] = {ADDED_3_0_2}}),	-- Timeless Shadow Draenite
+		--- REMOVED WITH CATA ---
+		r(39463, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Balanced Nightseye
+		r(39455, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Balanced Shadow Draenite
+		r(39729, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Balanced Shadowsong Amethyst
+		r(39712, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Bright Crimson Spinel
+		r(31089, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Bright Living Ruby
+		r(31096, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Brilliant Dawnstone
+		r(28938, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Brilliant Golden Draenite
+		r(39719, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Brilliant Lionseye
+		r(28924, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Dazzling Deep Peridot
+		r(28907, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Delicate Blood Garnet
+		r(31099, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Gleaming Dawnstone
+		r(39722, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Gleaming Lionseye
+		r(39452, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Great Dawnstone
+		r(39451, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Great Golden Draenite
+		r(39725, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Great Lionseye
+		r(39462, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Infused Nightseye
+		r(39458, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Infused Shadow Draenite
+		r(39730, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Infused Shadowsong Amethyst
+		r(39735, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Luminous Pyrestone
+		r(28957, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Lustrous Azure Moonstone
+		r(39717, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Lustrous Empyrean Sapphire
+		r(31094, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Lustrous Star of Elune
+		r(48789, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Purified Shadowsong Amethyst
+		r(46404, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Reckless Noble Topaz
+		r(31110, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Regal Talasite
+		r(31105, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Royal Nightseye
+		r(39732, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Royal Shadowsong Amethyst
+		r(28906, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Runed Blood Garnet
+		r(34069, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Smooth Golden Draenite
+		r(39710, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Teardrop Crimson
+		r(31087, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Teardrop Living Ruby
+		r(31100, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Thick Dawnstone
+		r(39723, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Thick Lionseye
 		-- #endif
 	}),
 	filter(FINGER_F, {
@@ -166,6 +206,7 @@ TBC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] =
 	}),
 	filter(MISC, {
 		r(47280, {["timeline"] = {ADDED_2_4_0}}),	-- Brilliant Glass
+		applyclassicphase(WRATH_PHASE_ONE, r(62941, {["timeline"] = {ADDED_3_1_0, REMOVED_4_0_3}})),	-- Prismatic Black Diamond
 	}),
 	filter(NECK_F, {
 		applyclassicphase(TBC_PHASE_TWO, r(40514, {["timeline"] = {ADDED_2_1_0}})),	-- Necklace of the Deep
@@ -174,50 +215,10 @@ TBC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] =
 	filter(REAGENTS, {
 		r(38068),	-- Mercurial Adamantite
 	}),
-	--- REMOVED RECIPES ---
-	r(34069, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Smooth Golden Draenite
-	r(28938, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Brilliant Golden Draenite
-	r(31089, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Bright Living Ruby [REMOVED 4.0.3]
-	r(31096, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Brilliant Dawnstone [REMOVED 4.0.3]
-	r(28924, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Dazzling Deep Peridot [REMOVED: 4.0.3]
-	r(28907, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Delicate Blood Garnet [REMOVED: 4.0.3]
-	r(31110, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Regal Talasite [REMOVED 4.0.3]
-	r(31099, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Gleaming Dawnstone [REMOVED 4.0.3]
-	r(28957, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Lustrous Azure Moonstone [REMOVED: 4.0.3]
-	r(31094, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Lustrous Star of Elune [REMOVED 4.0.3]
-	r(31105, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Royal Nightseye [REMOVED 4.0.3]
-	r(28906, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Runed Blood Garnet [REMOVED: 4.0.3]
-	r(31087, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Teardrop Living Ruby [REMOVED 4.0.3]
-	r(31100, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Thick Dawnstone [REMOVED 4.0.3]
-
-
-	r(39463, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Balanced Nightseye [REMOVED 4.0.3]
-	r(39452, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Great Dawnstone [REMOVED 4.0.3]
-	r(39462, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Infused Nightseye  [REMOVED 4.0.3]
-
-	r(39729, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Balanced Shadowsong Amethyst [REMOVED: 4.0.3]
-	r(39712, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Bright Crimson Spinel [REMOVED: 4.0.3]
-	r(39719, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Brilliant Lionseye [REMOVED: 4.0.3]
-
-	r(39722, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Gleaming Lionseye [REMOVED 4.0.3]
-	r(39725, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Great Lionseye [REMOVED: 4.0.3]
-	r(39730, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Infused Shadowsong Amethyst [REMOVED: 4.0.3]
-	r(39735, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Luminous Pyrestone [REMOVED: 4.0.3]
-	r(39717, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Lustrous Empyrean Sapphire [REMOVED 4.0.3]
-	r(39732, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Royal Shadowsong Amethyst [REMOVED: 4.0.3]
-	r(39710, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Teardrop Crimson [REMOVED: 4.0.3]
-	r(39723, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Thick Lionseye [REMOVED: 4.0.3]
-
-	r(39451, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Great Golden Draenite [REMOVED: 4.0.3]
-	r(39455, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Balanced Shadow Draenite [REMOVED: 4.0.3]
-	r(39458, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Infused Shadow Draenite [REMOVED: 4.0.3]
-
-	r(48789, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Purified Shadowsong Amethyst [REMOVED: 4.0.3]
-	r(46404, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}), -- Reckless Noble Topaz [REMOVED: 4.0.3]
 }));
-WRATH_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_3_0_2 } }, {
+WRATH_JEWELCRAFTING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_3_0_3 } }, {
 	r(51311, {	-- Jewelcrafting (Grand Master)
-		["timeline"] = { ADDED_3_0_2, REMOVED_8_0_1_LAUNCH },
+		["timeline"] = { ADDED_3_0_3, REMOVED_8_0_1_LAUNCH },
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
 		-- #else
@@ -225,7 +226,528 @@ WRATH_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_3_0_2 } }, {
 		-- #endif
 		["rank"] = 6,
 	}),
-});
+	applyclassicphase(BFA_PHASE_ONE, r(264537, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Northrend Jewelcrafting
+	applyclassicphase(DF_PHASE_ONE, r(382979, {["timeline"] = {ADDED_10_0_2}})),	-- Northrend Prospecting
+	filter(GEMS, {
+		-- #if BEFORE CATA
+		r(53892),	-- Accurate Huge Citrine
+		r(53866, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Balanced Shadow Crystal
+		r(53969, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Balanced Twilight Opal
+		r(53831),	-- Bold Bloodstone
+		r(53835, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Bright Bloodstone
+		r(53947, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Bright Scarlet Ruby
+		r(53956, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Autumn's Glow
+		r(53852),	-- Brilliant Sun Crystal
+		r(53874),	-- Champion's Huge Citrine
+		r(53926, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Dazzling Dark Jade
+		r(54007, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Dazzling Forest Emerald
+		r(53880),	-- Deft Huge Citrine
+		r(53832),	-- Delicate Bloodstone
+		r(56530),	-- Enchanted Pearl
+		r(56531),	-- Enchanted Tear
+		r(53918),	-- Enduring Dark Jade
+		r(53930, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Energized Dark Jade
+		r(53873),	-- Etched Huge Citrine
+		r(53876),	-- Fierce Huge Citrine
+		r(53844),	-- Flashing Bloodstone
+		r(53920),	-- Forceful Dark Jade
+		r(53845),	-- Fractured Bloodstone
+		r(53891),	-- Glimmering Huge Citrine
+		r(53878, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Glinting Huge Citrine
+		r(53862, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Glowing Shadow Crystal
+		r(53871),	-- Guardian's Shadow Crystal
+		r(53867, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Infused Shadow Crystal
+		r(53872),	-- Inscribed Huge Citrine
+		r(53925),	-- Intricate Dark Jade
+		r(53916, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Jagged Dark Jade
+		r(53928, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Lambent Dark Jade
+		r(53881, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Luminous Huge Citrine
+		r(53922),	-- Misty Dark Jade
+		r(55402),	-- Persistent Earthsiege Diamond
+		r(53882),	-- Potent Huge Citrine
+		r(55399),	-- Powerful Earthsiege Diamond
+		r(54017),	-- Precise Bloodstone
+		r(53887, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Pristine Huge Citrine
+		r(53989, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Pristine Monarch Topaz
+		r(53870),	-- Puissant Shadow Crystal
+		r(53863, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Shadow Crystal
+		r(53856),	-- Quick Sun Crystal
+		r(53931, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Radiant Dark Jade
+		r(53868, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Regal Shadow Crystal
+		r(53893),	-- Resolute Huge Citrine
+		r(53854),	-- Rigid Sun Crystal
+		r(53864, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Royal Shadow Crystal
+		r(53834, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Runed Bloodstone
+		r(53860),	-- Shifting Shadow Crystal
+		r(53923),	-- Shining Dark Jade
+		r(53853, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Smooth Sun Crystal
+		r(53934),	-- Solid Chalcedony
+		r(53859),	-- Sovereign Shadow Crystal
+		r(53941),	-- Sparkling Chalcedony
+		r(53940, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Chalcedony
+		r(53953, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Sky Sapphire
+		r(53890, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Stalwart Huge Citrine
+		r(53889, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Stark Huge Citrine
+		r(53843),	-- Subtle Bloodstone
+		r(53927, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sundered Dark Jade
+		r(55394),	-- Swift Skyflare Diamond
+		r(53861),	-- Tenuous Shadow Crystal
+		r(53855, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Thick Sun Crystal
+		r(53894),	-- Timeless Dark Jade
+		r(55386),	-- Tireless Skyflare Diamond
+		r(53883),	-- Veiled Huge Citrine
+		r(53886, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Wicked Huge Citrine
+		-- #else
+		r(53892),	-- Accurate Shadow Crystal
+		r(53831),	-- Bold Bloodstone
+		r(53852),	-- Brilliant Bloodstone
+		r(53834, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Bloodstone
+		r(53956, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Scarlet Ruby
+		r(53874),	-- Champion's Huge Citrine
+		r(53886, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deadly Huge Citrine
+		r(53880),	-- Deft Huge Citrine
+		r(53889, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deft Huge Citrine
+		r(53832),	-- Delicate Bloodstone
+		r(53835, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Delicate Bloodstone
+		r(53947, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Delicate Scarlet Ruby
+		r(56530),	-- Enchanted Pearl
+		r(56531),	-- Enchanted Tear
+		r(53925),	-- Energized Dark Jade
+		r(53930, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Energized Dark Jade
+		r(53873),	-- Etched Shadow Crystal
+		r(53876),	-- Fierce Huge Citrine
+		r(53844),	-- Flashing Bloodstone
+		r(53920),	-- Forceful Dark Jade
+		r(53861),	-- Glinting Shadow Crystal
+		r(53867, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Glinting Shadow Crystal
+		r(53878, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Glinting Shadow Crystal
+		r(53887, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Glinting Shadow Crystal
+		r(53989, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Glinting Twilight Opal
+		r(53871),	-- Guardian's Shadow Crystal
+		r(53872),	-- Inscribed Huge Citrine
+		r(53870),	-- Jagged Dark Jade
+		r(53916, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Jagged Dark Jade
+		r(53923),	-- Lightning Dark Jade
+		r(53928, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Lightning Dark Jade
+		r(53922),	-- Misty Dark Jade
+		r(53927, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Misty Dark Jade
+		r(55402),	-- Persistent Earthsiege Diamond
+		r(53882),	-- Potent Huge Citrine
+		r(55399),	-- Powerful Earthsiege Diamond
+		r(54017),	-- Precise Bloodstone
+		r(53863, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Shadow Crystal
+		r(53864, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Shadow Crystal
+		r(53926, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Shadow Crystal
+		r(54007, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Twilight Opal
+		r(53856),	-- Quick Sun Crystal
+		r(53931, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Radiant Dark Jade
+		r(53881, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Reckless Huge Citrine
+		r(53918),	-- Regal Dark Jade
+		r(53868, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Regal Dark Jade
+		r(53893),	-- Resolute Huge Citrine
+		r(53854),	-- Rigid Chalcedony
+		r(53860),	-- Shifting Shadow Crystal
+		r(53866, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Shifting Shadow Crystal
+		r(53969, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Shifting Twilight Opal
+		r(53845),	-- Smooth Sun Crystal
+		r(53853, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Smooth Sun Crystal
+		r(53934),	-- Solid Chalcedony
+		r(53859),	-- Sovereign Shadow Crystal
+		r(53941),	-- Sparkling Chalcedony
+		r(53940, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Chalcedony
+		r(53953, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Sky Sapphire
+		r(53891),	-- Stalwart Huge Citrine
+		r(53890, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Stalwart Huge Citrine
+		r(53843),	-- Subtle Sun Crystal
+		r(53855, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Subtle Sun Crystal
+		r(55394),	-- Swift Skyflare Diamond
+		r(53894),	-- Timeless Shadow Crystal
+		r(53862, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Timeless Shadow Crystal
+		r(55386),	-- Tireless Skyflare Diamond
+		r(53883),	-- Veiled Shadow Crystal
+		--- REMOVED WITH CATA ---
+		r(66553, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Balanced Dreadstone
+		r(66449, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Bright Cardinal Ruby
+		r(56054, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Bright Dragon's Eye
+		r(56074, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Brilliant Dragon's Eye
+		r(66503, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Brilliant King's Amber
+		r(66430, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Dazzling Eye of Zul
+		r(53979, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Deadly Monarch Topaz
+		r(53982, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Deft Monarch Topaz
+		r(66580, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Empowered Ametrine
+		r(53888, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Empowered Huge Citrine
+		r(53990, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Empowered Monarch Topaz
+		r(66451, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Fractured Cardinal Ruby
+		r(56076, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Fractured Dragon's Eye
+		r(53950, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Fractured Scarlet Ruby
+		r(66575, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Glinting Ametrine
+		r(66555, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Glowing Dreadstone
+		r(66564, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Infused Dreadstone
+		r(53970, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Infused Twilight Opal
+		r(66440, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Intricate Eye of Zul
+		r(54006, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Intricate Forest Emerald
+		r(66566, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Luminous Ametrine
+		r(56077, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Lustrous Dragon's Eye
+		r(66500, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Lustrous Majestic Zircon
+		r(66436, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Misty Eye of Zul
+		r(53929, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Opaque Dark Jade
+		r(66444, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Opaque Eye of Zul
+		r(54010, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Opaque Forest Emerald
+		r(66563, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Puissant Dreadstone
+		r(53973, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Puissant Twilight Opal
+		r(53983, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Reckless Monarch Topaz
+		r(66559, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Regal Dreadstone
+		r(53971, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Regal Twilight Opal
+		r(66558, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Royal Dreadstone
+		r(53967, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Royal Twilight Opal
+		r(66433, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Seer's Eye of Zul
+		r(54002, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Seer's Forest Emerald
+		r(66437, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Shining Eye of Zul
+		r(54004, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Shining Forest Emerald
+		r(66578, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Stalwart Ametrine
+		r(53992, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Stalwart Monarch Topaz
+		r(66587, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Stark Ametrine
+		r(56089, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Subtle Dragon's Eye
+		r(54008, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Sundered Forest Emerald
+		r(66438, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Tense Eye of Zul
+		r(54013, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Tense Forest Emerald
+		r(66565, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Tenuous Dreadstone
+		r(53964, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Tenuous Twilight Opal
+		r(53959, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Thick Autumn's Glow
+		r(66504, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Thick King's Amber
+		r(53995, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Timeless Forest Emerald
+		r(66577, {["timeline"] = {ADDED_4_0_3, REMOVED_4_0_3}}),	-- Wicked Ametrine
+		-- #endif
+	}),
+	filter(FINGER_F, {
+		r(56193),	-- Bloodstone Band
+		r(56197),	-- Dream Signet
+		r(58143),	-- Earthshadow Ring
+		r(58144),	-- Jade Ring of Slaying
+		r(64727, {["timeline"] = {ADDED_3_1_0}}),	-- Runed Mana Band
+		r(64728, {["timeline"] = {ADDED_3_1_0}}),	-- Scarlet Signet
+		r(58146),	-- Shadowmight Ring
+		r(58145),	-- Stoneguard Band
+		r(56194),	-- Sun Rock Ring
+	}),
+	filter(MISC, {
+		r(56205),	-- Dark Jade Focusing Lens
+		r(62242, {["timeline"] = {ADDED_3_0_8}}),	-- Icy Prism
+		r(56206),	-- Shadow Crystal Focusing Lens
+		r(56208),	-- Shadow Jade Focusing Lens
+	}),
+	filter(NECK_F, {
+		r(56196),	-- Blood Sun Necklace
+		r(58142),	-- Crystal Chalcedony Amulet
+		r(58141),	-- Crystal Citrine Necklace
+		r(64725, {["timeline"] = {ADDED_3_1_0}}),	-- Emerald Choker
+		r(56195),	-- Jade Dagger Pendant
+		r(64726, {["timeline"] = {ADDED_3_1_0}}),	-- Sky Sapphire Amulet
+	}),
+	filter(TRINKET_F, {
+		r(56203),	-- Figurine - Emerald Boar
+		r(59759),	-- Figurine - Monarch Crab
+		r(56199),	-- Figurine - Ruby Hare
+		r(56202),	-- Figurine - Sapphire Owl
+		r(56201),	-- Figurine - Twilight Serpent
+	}),
+}));
+TIFFANY_JEWELCRAFTING_RECIPES = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_3_0_3 } }, {
+	-- #if BEFORE CATA
+	daljewelcraftingtoken(2, i(42298)),	-- Design: Bold Dragon's Eye
+	daljewelcraftingtoken(3, i(41576)),	-- Design: Bold Scarlet Ruby
+	daljewelcraftingtoken(2, i(42299, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Bright Dragon's Eye
+	daljewelcraftingtoken(2, i(42300, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Brilliant Dragon's Eye
+	daljewelcraftingtoken(5, i(41704)),	-- Design: Chaotic Skyflare Diamond
+	daljewelcraftingtoken(2, i(42301)),	-- Design: Delicate Dragon's Eye
+	daljewelcraftingtoken(3, i(41577)),	-- Design: Delicate Scarlet Ruby
+	daljewelcraftingtoken(5, i(41705)),	-- Design: Effulgent Skyflare Diamond
+	daljewelcraftingtoken(5, i(41706)),	-- Design: Ember Skyflare Diamond
+	daljewelcraftingtoken(3, i(41697)),	-- Design: Enduring Forest Emerald
+	daljewelcraftingtoken(3, i(41692)),	-- Design: Energized Forest Emerald
+	daljewelcraftingtoken(2, i(42302)),	-- Design: Flashing Dragon's Eye
+	daljewelcraftingtoken(3, i(41578)),	-- Design: Flashing Scarlet Ruby
+	daljewelcraftingtoken(3, i(41693)),	-- Design: Forceful Forest Emerald
+	daljewelcraftingtoken(2, i(42303, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Fractured Dragon's Eye
+	daljewelcraftingtoken(3, i(41582)),	-- Design: Glinting Monarch Topaz
+	daljewelcraftingtoken(5, i(41708)),	-- Design: Insightful Earthsiege Diamond
+	daljewelcraftingtoken(3, i(41694, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Intricate Forest Emerald
+	daljewelcraftingtoken(5, i(41709)),	-- Design: Invigorating Earthsiege Diamond
+	daljewelcraftingtoken(3, i(41696)),	-- Design: Lambent Forest Emerald
+	daljewelcraftingtoken(3, i(41689, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Luminous Monarch Topaz
+	daljewelcraftingtoken(2, i(42304, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Lustrous Dragon's Eye
+	daljewelcraftingtoken(3, i(41581)),	-- Design: Lustrous Sky Sapphire
+	daljewelcraftingtoken(2, i(42305)),	-- Design: Mystic Dragon's Eye
+	daljewelcraftingtoken(3, i(41686)),	-- Design: Potent Monarch Topaz
+	daljewelcraftingtoken(2, i(42306)),	-- Design: Precise Dragon's Eye
+	daljewelcraftingtoken(3, i(41702)),	-- Design: Puissant Twilight Opal
+	daljewelcraftingtoken(3, i(41579)),	-- Design: Quick Autumn's Glow
+	daljewelcraftingtoken(2, i(42307)),	-- Design: Quick Dragon's Eye
+	daljewelcraftingtoken(3, i(41690)),	-- Design: Reckless Monarch Topaz
+	daljewelcraftingtoken(3, i(41703)),	-- Design: Regal Twilight Opal
+	daljewelcraftingtoken(5, i(41710)),	-- Design: Relentless Earthsiege Diamond
+	daljewelcraftingtoken(5, i(41707)),	-- Design: Revitalizing Skyflare Diamond
+	daljewelcraftingtoken(3, i(41580)),	-- Design: Rigid Autumn's Glow
+	daljewelcraftingtoken(2, i(42308)),	-- Design: Rigid Dragon's Eye
+	daljewelcraftingtoken(4, i(43317)),	-- Design: Ring of Earthen Might
+	daljewelcraftingtoken(4, i(43320)),	-- Design: Ring of Northern Tears
+	daljewelcraftingtoken(4, i(43318)),	-- Design: Ring of Scarlet Shadows
+	daljewelcraftingtoken(3, i(41701, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Royal Twilight Opal
+	daljewelcraftingtoken(2, i(42309)),	-- Design: Runed Dragon's Eye
+	daljewelcraftingtoken(4, i(43497)),	-- Design: Savage Titanium Band
+	daljewelcraftingtoken(4, i(43485)),	-- Design: Savage Titanium Ring
+	daljewelcraftingtoken(3, i(41699, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Seer's Forest Emerald
+	daljewelcraftingtoken(3, i(41747)),	-- Design: Shifting Twilight Opal
+	daljewelcraftingtoken(2, i(42310)),	-- Design: Smooth Dragon's Eye
+	daljewelcraftingtoken(2, i(42311)),	-- Design: Solid Dragon's Eye
+	daljewelcraftingtoken(3, i(42138)),	-- Design: Solid Sky Sapphire
+	daljewelcraftingtoken(2, i(42312)),	-- Design: Sparkling Dragon's Eye
+	daljewelcraftingtoken(3, i(41687)),	-- Design: Stark Monarch Topaz
+	daljewelcraftingtoken(2, i(42313)),	-- Design: Stormy Dragon's Eye
+	daljewelcraftingtoken(2, i(42314)),	-- Design: Subtle Dragon's Eye
+	daljewelcraftingtoken(3, i(41719)),	-- Design: Subtle Scarlet Ruby
+	daljewelcraftingtoken(2, i(42315, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Thick Dragon's Eye
+	daljewelcraftingtoken(6, i(42652)),	-- Design: Titanium Earthguard Chain
+	daljewelcraftingtoken(6, i(42649)),	-- Design: Titanium Earthguard Ring
+	daljewelcraftingtoken(6, i(43597)),	-- Design: Titanium Frostguard Ring
+	daljewelcraftingtoken(6, i(42648)),	-- Design: Titanium Impact Band
+	daljewelcraftingtoken(6, i(42651)),	-- Design: Titanium Impact Choker
+	daljewelcraftingtoken(6, i(42653)),	-- Design: Titanium Spellshock Necklace
+	daljewelcraftingtoken(6, i(42650)),	-- Design: Titanium Spellshock Ring
+	daljewelcraftingtoken(5, i(41711)),	-- Design: Trenchant Earthsiege Diamond
+	daljewelcraftingtoken(3, i(41688)),	-- Design: Veiled Monarch Topaz
+	daljewelcraftingtoken(3, i(41698)),	-- Design: Vivid Forest Emerald
+	daljewelcraftingtoken(4, i(43319)),	-- Design: Windfire Band
+	daljewelcraftingtoken(1, i(42225)),	-- Dragon's Eye
+	-- #else
+	daljewelcraftingtoken(2, i(42298)),	-- Design: Bold Dragon's Eye
+	daljewelcraftingtoken(3, i(41576)),	-- Design: Bold Scarlet Ruby
+	daljewelcraftingtoken(2, i(42300, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Brilliant Dragon's Eye
+	daljewelcraftingtoken(2, i(42309)),	-- Design: Brilliant Dragon's Eye
+	daljewelcraftingtoken(5, i(41704)),	-- Design: Chaotic Skyflare Diamond
+	daljewelcraftingtoken(3, i(41687)),	-- Design: Deft Monarch Topaz
+	daljewelcraftingtoken(2, i(42299, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Delicate Dragon's Eye
+	daljewelcraftingtoken(2, i(42301)),	-- Design: Delicate Dragon's Eye
+	daljewelcraftingtoken(3, i(41577)),	-- Design: Delicate Scarlet Ruby
+	daljewelcraftingtoken(5, i(41706)),	-- Design: Ember Skyflare Diamond
+	daljewelcraftingtoken(3, i(41692)),	-- Design: Energized Forest Emerald
+	daljewelcraftingtoken(3, i(41694, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Energized Forest Emerald
+	daljewelcraftingtoken(2, i(42302)),	-- Design: Flashing Dragon's Eye
+	daljewelcraftingtoken(3, i(41578)),	-- Design: Flashing Scarlet Ruby
+	daljewelcraftingtoken(3, i(41693)),	-- Design: Forceful Forest Emerald
+	daljewelcraftingtoken(3, i(41582)),	-- Design: Glinting Twilight Opal
+	daljewelcraftingtoken(5, i(41708)),	-- Design: Insightful Earthsiege Diamond
+	daljewelcraftingtoken(5, i(41709)),	-- Design: Invigorating Earthsiege Diamond
+	daljewelcraftingtoken(3, i(41702)),	-- Design: Jagged Forest Emerald
+	daljewelcraftingtoken(3, i(41696)),	-- Design: Lightning Forest Emerald
+	daljewelcraftingtoken(1, i(41565)),	-- Design: Lucent Huge Citrine
+	daljewelcraftingtoken(1, i(41575)),	-- Design: Mysterious Shadow Crystal
+	daljewelcraftingtoken(2, i(42305)),	-- Design: Mystic Dragon's Eye
+	daljewelcraftingtoken(1, i(41559)),	-- Design: Mystic Sun Crystal
+	daljewelcraftingtoken(3, i(41698)),	-- Design: Nimble Forest Emerald
+	daljewelcraftingtoken(3, i(41686)),	-- Design: Potent Monarch Topaz
+	daljewelcraftingtoken(2, i(42306)),	-- Design: Precise Dragon's Eye
+	daljewelcraftingtoken(3, i(41699, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Purified Twilight Opal
+	daljewelcraftingtoken(3, i(41701, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Purified Twilight Opal
+	daljewelcraftingtoken(3, i(41579)),	-- Design: Quick Autumn's Glow
+	daljewelcraftingtoken(2, i(42307)),	-- Design: Quick Dragon's Eye
+	daljewelcraftingtoken(1, i(41570)),	-- Design: Radiant Dark Jade
+	daljewelcraftingtoken(3, i(41689, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Reckless Monarch Topaz
+	daljewelcraftingtoken(3, i(41690)),	-- Design: Reckless Monarch Topaz
+	daljewelcraftingtoken(3, i(41697)),	-- Design: Regal Forest Emerald
+	daljewelcraftingtoken(3, i(41703)),	-- Design: Regal Forest Emerald
+	daljewelcraftingtoken(5, i(41710)),	-- Design: Relentless Earthsiege Diamond
+	daljewelcraftingtoken(1, i(41566)),	-- Design: Resplendent Huge Citrine
+	daljewelcraftingtoken(5, i(41707)),	-- Design: Revitalizing Skyflare Diamond
+	daljewelcraftingtoken(2, i(42308)),	-- Design: Rigid Dragon's Eye
+	daljewelcraftingtoken(3, i(41580)),	-- Design: Rigid Sky Sapphire
+	daljewelcraftingtoken(4, i(43317)),	-- Design: Ring of Earthen Might
+	daljewelcraftingtoken(4, i(43320)),	-- Design: Ring of Northern Tears
+	daljewelcraftingtoken(4, i(43318)),	-- Design: Ring of Scarlet Shadows
+	daljewelcraftingtoken(4, i(43497)),	-- Design: Savage Titanium Band
+	daljewelcraftingtoken(4, i(43485)),	-- Design: Savage Titanium Ring
+	daljewelcraftingtoken(1, i(41569)),	-- Design: Shattered Dark Jade
+	daljewelcraftingtoken(5, i(41705)),	-- Design: Shielded Skyflare Diamond
+	daljewelcraftingtoken(3, i(41747)),	-- Design: Shifting Twilight Opal
+	daljewelcraftingtoken(2, i(42303, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Smooth Dragon's Eye
+	daljewelcraftingtoken(2, i(42310)),	-- Design: Smooth Dragon's Eye
+	daljewelcraftingtoken(2, i(42311)),	-- Design: Solid Dragon's Eye
+	daljewelcraftingtoken(3, i(42138)),	-- Design: Solid Sky Sapphire
+	daljewelcraftingtoken(2, i(42304, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Sparkling Dragon's Eye
+	daljewelcraftingtoken(2, i(42312)),	-- Design: Sparkling Dragon's Eye
+	daljewelcraftingtoken(3, i(41581)),	-- Design: Sparkling Sky Sapphire
+	daljewelcraftingtoken(1, i(41572)),	-- Design: Steady Dark Jade
+	daljewelcraftingtoken(1, i(41560)),	-- Design: Stormy Chalcedony
+	daljewelcraftingtoken(2, i(42313)),	-- Design: Stormy Dragon's Eye
+	daljewelcraftingtoken(3, i(41719)),	-- Design: Subtle Autumn's Glow
+	daljewelcraftingtoken(2, i(42314)),	-- Design: Subtle Dragon's Eye
+	daljewelcraftingtoken(2, i(42315, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Subtle Dragon's Eye
+	daljewelcraftingtoken(6, i(42652)),	-- Design: Titanium Earthguard Chain
+	daljewelcraftingtoken(6, i(42649)),	-- Design: Titanium Earthguard Ring
+	daljewelcraftingtoken(6, i(43597)),	-- Design: Titanium Frostguard Ring
+	daljewelcraftingtoken(6, i(42648)),	-- Design: Titanium Impact Band
+	daljewelcraftingtoken(6, i(42651)),	-- Design: Titanium Impact Choker
+	daljewelcraftingtoken(6, i(42653)),	-- Design: Titanium Spellshock Necklace
+	daljewelcraftingtoken(6, i(42650)),	-- Design: Titanium Spellshock Ring
+	daljewelcraftingtoken(5, i(41711)),	-- Design: Trenchant Earthsiege Diamond
+	daljewelcraftingtoken(1, i(41571)),	-- Design: Turbid Dark Jade
+	daljewelcraftingtoken(3, i(41688)),	-- Design: Veiled Twilight Opal
+	daljewelcraftingtoken(1, i(41563)),	-- Design: Willful Huge Citrine
+	daljewelcraftingtoken(4, i(43319)),	-- Design: Windfire Band
+	daljewelcraftingtoken(1, i(42225)),	-- Dragon's Eye
+	-- #endif
+}));
+TIMOTHY_JEWELCRAFTING_RECIPES = applyclassicphase(WRATH_PHASE_THREE, sharedData({["timeline"] = { ADDED_3_2_0 } }, {
+	-- #if BEFORE CATA
+	daljewelcraftingtoken(4, i(47010)),	-- Design: Accurate Ametrine
+	daljewelcraftingtoken(4, i(46934, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Balanced Dreadstone
+	daljewelcraftingtoken(4, i(46917)),	-- Design: Bold Cardinal Ruby
+	daljewelcraftingtoken(4, i(46919, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Bright Cardinal Ruby
+	daljewelcraftingtoken(4, i(46930, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Brilliant King's Amber
+	daljewelcraftingtoken(4, i(47015)),	-- Design: Champion's Ametrine
+	daljewelcraftingtoken(4, i(46900, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Dazzling Eye of Zul
+	daljewelcraftingtoken(4, i(46949)),	-- Design: Deadly Ametrine
+	daljewelcraftingtoken(4, i(46941)),	-- Design: Defender's Dreadstone
+	daljewelcraftingtoken(4, i(47020)),	-- Design: Deft Ametrine
+	daljewelcraftingtoken(4, i(46918)),	-- Design: Delicate Cardinal Ruby
+	daljewelcraftingtoken(4, i(46922)),	-- Design: Design: Subtle Cardinal Ruby
+	daljewelcraftingtoken(4, i(46952)),	-- Design: Durable Ametrine
+	daljewelcraftingtoken(4, i(47016, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Empowered Ametrine
+	daljewelcraftingtoken(4, i(46897)),	-- Design: Enduring Eye of Zul
+	daljewelcraftingtoken(4, i(46912)),	-- Design: Energized Eye of Zul
+	daljewelcraftingtoken(4, i(46953)),	-- Design: Etched Ametrine
+	daljewelcraftingtoken(4, i(47019)),	-- Design: Fierce Ametrine
+	daljewelcraftingtoken(4, i(46923)),	-- Design: Flashing Cardinal Ruby
+	daljewelcraftingtoken(4, i(46904)),	-- Design: Forceful Eye of Zul
+	daljewelcraftingtoken(4, i(46921, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Fractured Cardinal Ruby
+	daljewelcraftingtoken(4, i(47012, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Glimmering Ametrine
+	daljewelcraftingtoken(4, i(47008, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Glinting Ametrine
+	daljewelcraftingtoken(4, i(46936, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Glowing Dreadstone
+	daljewelcraftingtoken(4, i(46942)),	-- Design: Guardian's Dreadstone
+	daljewelcraftingtoken(4, i(46945, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Infused Dreadstone
+	daljewelcraftingtoken(4, i(46948)),	-- Design: Inscribed Ametrine
+	daljewelcraftingtoken(4, i(46910, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Intricate Eye of Zul
+	daljewelcraftingtoken(4, i(46901)),	-- Design: Jagged Eye of Zul
+	daljewelcraftingtoken(4, i(46909)),	-- Design: Lambent Eye of Zul
+	daljewelcraftingtoken(4, i(47021)),	-- Design: Lucent Ametrine
+	daljewelcraftingtoken(4, i(46947, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Luminous Ametrine
+	daljewelcraftingtoken(4, i(46927, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Lustrous Majestic Zircon
+	daljewelcraftingtoken(4, i(46905)),	-- Design: Misty Eye of Zul
+	daljewelcraftingtoken(4, i(46943)),	-- Design: Mysterious Dreadstone
+	daljewelcraftingtoken(4, i(46932)),	-- Design: Mystic King's Amber
+	daljewelcraftingtoken(4, i(49112)),	-- Design: Nightmare Tear
+	daljewelcraftingtoken(4, i(46914, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Opaque Eye of Zul
+	daljewelcraftingtoken(4, i(46950)),	-- Design: Potent Ametrine
+	daljewelcraftingtoken(4, i(46920)),	-- Design: Precise Cardinal Ruby
+	daljewelcraftingtoken(4, i(46956)),	-- Design: Pristine Ametrine
+	daljewelcraftingtoken(4, i(46944, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Puissant Dreadstone
+	daljewelcraftingtoken(4, i(46937)),	-- Design: Purified Dreadstone
+	daljewelcraftingtoken(4, i(46933)),	-- Design: Quick King's Amber
+	daljewelcraftingtoken(4, i(46911)),	-- Design: Radiant Eye of Zul
+	daljewelcraftingtoken(4, i(47007)),	-- Design: Reckless Ametrine
+	daljewelcraftingtoken(4, i(46940, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Regal Dreadstone
+	daljewelcraftingtoken(4, i(47022)),	-- Design: Resolute Ametrine
+	daljewelcraftingtoken(4, i(47018)),	-- Design: Resplendent Ametrine
+	daljewelcraftingtoken(4, i(46928)),	-- Design: Rigid King's Amber
+	daljewelcraftingtoken(4, i(46939, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Royal Dreadstone
+	daljewelcraftingtoken(4, i(46916)),	-- Design: Runed Cardinal Ruby
+	daljewelcraftingtoken(4, i(46903, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Seer's Eye of Zul
+	daljewelcraftingtoken(4, i(46913)),	-- Design: Shattered Eye of Zul
+	daljewelcraftingtoken(4, i(46938)),	-- Design: Shifting Dreadstone
+	daljewelcraftingtoken(4, i(46907, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Shining Eye of Zul
+	daljewelcraftingtoken(4, i(46929)),	-- Design: Smooth King's Amber
+	daljewelcraftingtoken(4, i(46924)),	-- Design: Solid Majestic Zircon
+	daljewelcraftingtoken(4, i(46935)),	-- Design: Sovereign Dreadstone
+	daljewelcraftingtoken(4, i(46925)),	-- Design: Sparkling Majestic Zircon
+	daljewelcraftingtoken(4, i(47017)),	-- Design: Stalwart Ametrine
+	daljewelcraftingtoken(4, i(47023, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Stark Ametrine
+	daljewelcraftingtoken(4, i(46898)),	-- Design: Steady Eye of Zul
+	daljewelcraftingtoken(4, i(46926)),	-- Design: Stormy Majestic Zircon
+	daljewelcraftingtoken(4, i(46906, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Sundered Eye of Zul
+	daljewelcraftingtoken(4, i(46908, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Tense Eye of Zul
+	daljewelcraftingtoken(4, i(46946, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Tenuous Dreadstone
+	daljewelcraftingtoken(4, i(46931, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Thick King's Amber
+	daljewelcraftingtoken(4, i(46902)),	-- Design: Timeless Eye of Zul
+	daljewelcraftingtoken(4, i(46915)),	-- Design: Turbid Eye of Zul
+	daljewelcraftingtoken(4, i(46951)),	-- Design: Veiled Ametrine
+	daljewelcraftingtoken(4, i(46899)),	-- Design: Vivid Eye of Zul
+	daljewelcraftingtoken(4, i(47011, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Wicked Ametrine
+	-- #else
+	daljewelcraftingtoken(4, i(47010)),	-- Design: Accurate Dreadstone
+	daljewelcraftingtoken(4, i(46917)),	-- Design: Bold Cardinal Ruby
+	daljewelcraftingtoken(4, i(46916)),	-- Design: Brilliant Cardinal Ruby
+	daljewelcraftingtoken(4, i(46930, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Brilliant Cardinal Ruby
+	daljewelcraftingtoken(4, i(47015)),	-- Design: Champion's Ametrine
+	daljewelcraftingtoken(4, i(46949)),	-- Design: Deadly Ametrine
+	daljewelcraftingtoken(4, i(47011, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Deadly Ametrine
+	daljewelcraftingtoken(4, i(46941)),	-- Design: Defender's Dreadstone
+	daljewelcraftingtoken(4, i(47020)),	-- Design: Deft Ametrine
+	daljewelcraftingtoken(4, i(47023, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Deft Ametrine
+	daljewelcraftingtoken(4, i(46918)),	-- Design: Delicate Cardinal Ruby
+	daljewelcraftingtoken(4, i(46919, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Delicate Cardinal Ruby
+	daljewelcraftingtoken(4, i(46912)),	-- Design: Energized Eye of Zul
+	daljewelcraftingtoken(4, i(46910, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Energized Eye of Zul
+	daljewelcraftingtoken(4, i(46953)),	-- Design: Etched Dreadstone
+	daljewelcraftingtoken(4, i(47019)),	-- Design: Fierce Ametrine
+	daljewelcraftingtoken(4, i(46923)),	-- Design: Flashing Cardinal Ruby
+	daljewelcraftingtoken(4, i(46904)),	-- Design: Forceful Eye of Zul
+	daljewelcraftingtoken(4, i(46956)),	-- Design: Glinting Dreadstone
+	daljewelcraftingtoken(4, i(46945, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Glinting Dreadstone
+	daljewelcraftingtoken(4, i(46946, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Glinting Dreadstone
+	daljewelcraftingtoken(4, i(47008, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Glinting Dreadstone
+	daljewelcraftingtoken(4, i(46942)),	-- Design: Guardian's Dreadstone
+	daljewelcraftingtoken(4, i(46948)),	-- Design: Inscribed Ametrine
+	daljewelcraftingtoken(4, i(46901)),	-- Design: Jagged Eye of Zul
+	daljewelcraftingtoken(4, i(46944, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Jagged Eye of Zul
+	daljewelcraftingtoken(4, i(46909)),	-- Design: Lightning Eye of Zul
+	daljewelcraftingtoken(4, i(46907, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Lightning Eye of Zul
+	daljewelcraftingtoken(4, i(47021)),	-- Design: Lucent Ametrine
+	daljewelcraftingtoken(4, i(47016, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Lucent Ametrine
+	daljewelcraftingtoken(4, i(46905)),	-- Design: Misty Eye of Zul
+	daljewelcraftingtoken(4, i(46906, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Misty Eye of Zul
+	daljewelcraftingtoken(4, i(46943)),	-- Design: Mysterious Dreadstone
+	daljewelcraftingtoken(4, i(46932)),	-- Design: Mystic King's Amber
+	daljewelcraftingtoken(4, i(49112)),	-- Design: Nightmare Tear
+	daljewelcraftingtoken(4, i(46899)),	-- Design: Nimble Eye of Zul
+	daljewelcraftingtoken(4, i(46950)),	-- Design: Potent Ametrine
+	daljewelcraftingtoken(4, i(46920)),	-- Design: Precise Cardinal Ruby
+	daljewelcraftingtoken(4, i(46937)),	-- Design: Purified Dreadstone
+	daljewelcraftingtoken(4, i(46900, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Purified Dreadstone
+	daljewelcraftingtoken(4, i(46903, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Purified Dreadstone
+	daljewelcraftingtoken(4, i(46939, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Purified Dreadstone
+	daljewelcraftingtoken(4, i(46947, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Purified Dreadstone
+	daljewelcraftingtoken(4, i(46933)),	-- Design: Quick King's Amber
+	daljewelcraftingtoken(4, i(46911)),	-- Design: Radiant Eye of Zul
+	daljewelcraftingtoken(4, i(46908, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Radiant Eye of Zul
+	daljewelcraftingtoken(4, i(47007)),	-- Design: Reckless Ametrine
+	daljewelcraftingtoken(4, i(46897)),	-- Design: Regal Eye of Zul
+	daljewelcraftingtoken(4, i(46940, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Regal Eye of Zul
+	daljewelcraftingtoken(4, i(47022)),	-- Design: Resolute Ametrine
+	daljewelcraftingtoken(4, i(47018)),	-- Design: Resplendent Ametrine
+	daljewelcraftingtoken(4, i(46928)),	-- Design: Rigid Majestic Zircon
+	daljewelcraftingtoken(4, i(46913)),	-- Design: Shattered Eye of Zul
+	daljewelcraftingtoken(4, i(46938)),	-- Design: Shifting Dreadstone
+	daljewelcraftingtoken(4, i(46934, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Shifting Dreadstone
+	daljewelcraftingtoken(4, i(46929)),	-- Design: Smooth King's Amber
+	daljewelcraftingtoken(4, i(46921, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Smooth King's Amber
+	daljewelcraftingtoken(4, i(46924)),	-- Design: Solid Majestic Zircon
+	daljewelcraftingtoken(4, i(46935)),	-- Design: Sovereign Dreadstone
+	daljewelcraftingtoken(4, i(46925)),	-- Design: Sparkling Majestic Zircon
+	daljewelcraftingtoken(4, i(46927, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Sparkling Majestic Zircon
+	daljewelcraftingtoken(4, i(47017)),	-- Design: Stalwart Ametrine
+	daljewelcraftingtoken(4, i(47012, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Stalwart Ametrine
+	daljewelcraftingtoken(4, i(46898)),	-- Design: Steady Eye of Zul
+	daljewelcraftingtoken(4, i(46926)),	-- Design: Stormy Majestic Zircon
+	daljewelcraftingtoken(4, i(46922)),	-- Design: Subtle King's Amber
+	daljewelcraftingtoken(4, i(46931, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Subtle King's Amber
+	daljewelcraftingtoken(4, i(46902)),	-- Design: Timeless Dreadstone
+	daljewelcraftingtoken(4, i(46936, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Timeless Dreadstone
+	daljewelcraftingtoken(4, i(46915)),	-- Design: Turbid Eye of Zul
+	daljewelcraftingtoken(4, i(46914, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}})),	-- Design: Turbid Eye of Zul
+	daljewelcraftingtoken(4, i(46951)),	-- Design: Veiled Dreadstone
+	daljewelcraftingtoken(4, i(46952)),	-- Design: Willful Ametrine
+	-- #endif
+}));
 CATA_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_4_0_3 } }, {
 	r(73318, {	-- Jewelcrafting (Illustrious Grand Master)
 		["timeline"] = { ADDED_4_0_3, REMOVED_8_0_1_LAUNCH },

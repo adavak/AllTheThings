@@ -1133,8 +1133,8 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			}),
 		}),
 		prof(JEWELCRAFTING, {
-			-- TODO: Look more closely into these.
-			i(41818, {	-- Design: Accurate Twilight Opal
+			-- #if BEFORE CATA
+			i(41818, {	-- Design: Accurate Twilight Opal (RECIPE!)
 				["crs"] = {
 					28851,	-- Enraged Mammoth
 					29402,	-- Ironwool Mammoth
@@ -1143,41 +1143,95 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 					30260,	-- Stoic Mammoth
 				},
 			}),
-			i(41788),	-- Design: Beaming Earthsiege Diamond
-			i(41780),	-- Design: Champion's Monarch Topaz
-			i(41786),	-- Design: Destructive Skyflare Diamond
-			i(41777),	-- Design: Etched Twilight Opal
-			-- #if AFTER CATA
-			i(41785, {	-- Design: Glinting Twilight Opal [CATA+] / Design: Tenuous Twilight Opal [WRATH]
-				["timeline"] = { REMOVED_4_0_3 },
+			i(41788, {	-- Design: Beaming Earthsiege Diamond (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41780, {	-- Design: Champion's Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41786, {	-- Design: Destructive Skyflare Diamond (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41777, {	-- Design: Etched Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41789, {	-- Design: Inscribed Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41781, {	-- Design: Misty Forest Emerald (RECIPE!)
+				["timeline"] = { ADDED_3_0_8, REMOVED_4_0_3 },
+			}),
+			i(41783, {	-- Design: Purified Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41778, {	-- Design: Resolute Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41782, {	-- Design: Shining Forest Emerald (RECIPE!)
+				["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
+			}),
+			i(41784, {	-- Design: Sovereign Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41779, {	-- Design: Stalwart Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8, REMOVED_4_0_3 },
+			}),
+			i(41785, {	-- Design: Tenuous Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
+			}),
+			i(41787, {	-- Design: Thundering Skyflare Diamond (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			-- #else
+			i(41818, {	-- Design: Accurate Twilight Opal (RECIPE!)
+				["crs"] = {
+					28851,	-- Enraged Mammoth
+					29402,	-- Ironwool Mammoth
+					30448,	-- Plains Mammoth
+					28379,	-- Shattertusk Mammoth
+					30260,	-- Stoic Mammoth
+				},
+			}),
+			i(41788, {	-- Design: Beaming Earthsiege Diamond (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41780, {	-- Design: Champion's Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41786, {	-- Design: Destructive Skyflare Diamond (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41777, {	-- Design: Etched Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41785, {	-- Design: Glinting Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
+			}),
+			i(41789, {	-- Design: Inscribed Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41782, {	-- Design: Lightning Forest Emerald (RECIPE!)
+				["timeline"] = { ADDED_3_0_8, REMOVED_4_0_3 },
+			}),
+			i(41781, {	-- Design: Misty Forest Emerald (RECIPE!)
+				["timeline"] = { ADDED_3_0_8, REMOVED_4_0_3 },
+			}),
+			i(41783, {	-- Design: Purified Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41778, {	-- Design: Resolute Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41784, {	-- Design: Sovereign Twilight Opal (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
+			}),
+			i(41779, {	-- Design: Stalwart Monarch Topaz (RECIPE!)
+				["timeline"] = { ADDED_3_0_8, REMOVED_4_0_3 },
+			}),
+			i(41787, {	-- Design: Thundering Skyflare Diamond (RECIPE!)
+				["timeline"] = { ADDED_3_0_8 },
 			}),
 			-- #endif
-			i(41789),	-- Design: Inscribed Monarch Topaz
-			-- #if AFTER CATA
-			i(41782, {	-- Design: Lightning Forest Emerald [CATA+] / Design: Shining Forest Emerald [WRATH]
-				["timeline"] = { REMOVED_4_0_3 },
-			}),
-			-- #endif
-			i(41781, {	-- Design: Misty Forest Emerald
-				["timeline"] = { REMOVED_4_0_3 },
-			}),
-			i(41783),	-- Design: Purified Twilight Opal
-			i(41778),	-- Design: Resolute Monarch Topaz
-			-- #if BEFORE CATA
-			i(41782, {	-- Design: Shining Forest Emerald [WRATH] / Design: Lightning Forest Emerald [CATA+]
-				["timeline"] = { REMOVED_4_0_3 },
-			}),
-			-- #endif
-			i(41784),	-- Design: Sovereign Twilight Opal
-			i(41779, {	-- Design: Stalwart Monarch Topaz
-				["timeline"] = { REMOVED_4_0_3 },
-			}),
-			-- #if BEFORE CATA
-			i(41785, {	-- Design: Tenuous Twilight Opal [WRATH] / Design: Glinting Twilight Opal [CATA+]
-				["timeline"] = { REMOVED_4_0_3 },
-			}),
-			-- #endif
-			i(41787),	-- Design: Thundering Skyflare Diamond
 		}),
 		prof(TAILORING, {
 			i(43876, {	-- A Guide to Northern Cloth Scavenging (RECIPE!)

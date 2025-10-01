@@ -215,7 +215,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				e(625, {	-- Ley-Guardian Eregos
 					["creatureID"] = 27656,	-- Ley-Guardian Eregos
 					["groups"] = {
-						i(41798),	-- Design: Bracing Earthsiege Diamond
+						i(41798),	-- Design: Bracing Earthsiege Diamond (RECIPE!)
 						i(36975),	-- Malygos' Favor
 						-- #if AFTER 7.3.5
 						i(37360),	-- Staff of Draconic Combat (7.3.5 - Used to be only Heroic Mode)
@@ -369,7 +369,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 									{ "n", 27658 },	-- Belgaristrasz
 								},
 							}),
-							i(41798),	-- Design: Bracing Earthsiege Diamond
+							i(41798),	-- Design: Bracing Earthsiege Diamond (RECIPE!)
 							-- #if AFTER 7.3.5
 							i(36975),	-- Malygos' Favor (7.3.5 - Used to be only Normal Mode)
 							-- #endif

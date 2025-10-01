@@ -894,7 +894,7 @@ root(ROOTS.Zones, {
 					q(12918, {	-- Gem Perfection (A)
 						["qg"] = 26915,	-- Ounhulo
 						["coord"] = { 59.8, 63.8, HOWLING_FJORD },
-						["timeline"] = { REMOVED_4_0_3 },
+						["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 						["cost"] = {
 							{ "i", 36929, 2 },	-- Huge Citrine
 							{ "i", 36932, 2 },	-- Dark Jade
@@ -902,21 +902,19 @@ root(ROOTS.Zones, {
 						},
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = ALLIANCE_ONLY,
-						-- #if BEFORE 4.0.3
 						["groups"] = {
 							i(41888, {	-- Small Velvet Bag
 								["description"] = "Contains a 'perfect' gem.",
 							}),
-							recipe(55534, {	-- Gem Perfection
+							r(55534, {	-- Gem Perfection
 								["requireSkill"] = JEWELCRAFTING,
 							}),
 						},
-						-- #endif
 					}),
 					q(12952, {	-- Gem Perfection (H)
 						["qg"] = 26960,	-- Carter Tiffens
 						["coord"] = { 79.2, 28.8, HOWLING_FJORD },
-						["timeline"] = { REMOVED_4_0_3 },
+						["timeline"] = { ADDED_3_0_3, REMOVED_4_0_3 },
 						["cost"] = {
 							{ "i", 36929, 2 },	-- Huge Citrine
 							{ "i", 36932, 2 },	-- Dark Jade
@@ -924,16 +922,14 @@ root(ROOTS.Zones, {
 						},
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = HORDE_ONLY,
-						-- #if BEFORE 4.0.3
 						["groups"] = {
 							i(41888, {	-- Small Velvet Bag
 								["description"] = "Contains a 'perfect' gem.",
 							}),
-							recipe(55534, {	-- Gem Perfection
+							r(55534, {	-- Gem Perfection
 								["requireSkill"] = JEWELCRAFTING,
 							}),
 						},
-						-- #endif
 					}),
 					q(12181, {	-- Give it a Name
 						["qg"] = 24251,	-- Chief Plaguebringer Harris
