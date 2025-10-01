@@ -96,7 +96,9 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173616),	-- Mistdancer Cord
 				i(173617),	-- Mistdancer Cuffs
 				i(173611),	-- Mistdancer Footpads
-				i(173612),	-- Mistdancer Handguards
+				i(173612, {	-- Mistdancer Handguards
+					["collectible"] = false,	-- Nothing works to collect it. Sep 30th 2025 -- Veldryn (Discord)
+				}),
 				i(173613),	-- Mistdancer Helm
 				i(173614),	-- Mistdancer Legguards
 				i(173615, {	-- Mistdancer Pauldrons
