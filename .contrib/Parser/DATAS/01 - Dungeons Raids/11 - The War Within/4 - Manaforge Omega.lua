@@ -523,6 +523,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 							["groups"] = { i(186640) },	-- Vandal's Gearglider (MOUNT!)
 						}),
 					}, {	-- RENOWN 9 --
+						q(91527, {	-- Head Hunting: The Soul Hunters
+							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = { i(246492) },	-- Soulgorged Augment Rune
+						}),
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --

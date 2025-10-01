@@ -87,14 +87,3 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		}),
 	}),
 }));
-
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
-	m(KHAZ_ALGAR, {
-		m(KARESH, {
-			n(ACHIEVEMENTS, {
-				-- Exo Note for a Senior Contrib(s): If placement of the HQT is wrong, please move it to correct place. If not wrong, please remove this note.
-				q(91916, name(HEADERS.Item,244140)),	-- Triggers when "Ethereal Sash Cache" is opened
-			}),
-		}),
-	}),
-}));

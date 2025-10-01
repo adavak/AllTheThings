@@ -1570,7 +1570,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(50, i(235035)),	-- Vigilante's Snowy Mask
 			}),
 		})),
-		n(SEPTEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.0.62876", "removed 11.2.0.99999" } }, {	-- TODO: Timeline out correctly
+		n(SEPTEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.0.62876", "removed 11.2.0.63305" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				i(247792),	-- High Shaman's Aerie Gryphon (MOUNT!)
 			}),
@@ -1609,7 +1609,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(200, i(211258)),	-- Wildhammer Scouts Headgear
 			}),
 		})),
-		n(OCTOBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.0.62876", "removed 11.2.5.99999" } }, {	-- TODO: Timeline in/out correctly
+		n(OCTOBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.0.63305", "removed 11.2.5.99999" } }, {	-- TODO: Timeline in/out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				i(246921),	-- Legion Forged Elekk (MOUNT!)
 			}),

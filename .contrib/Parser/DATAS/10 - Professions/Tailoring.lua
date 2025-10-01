@@ -971,7 +971,9 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
 				["groups"] = {
-					i(204817),	-- Underlight Cocoon Fibers (QI!)
+					o(398017, {	-- Underlight Moth Cocoon
+						i(204817),	-- Underlight Cocoon Fibers (QI!)
+					}),
 				},
 			}),
 			q(75600, {	-- Silk's Silk

@@ -1599,7 +1599,26 @@ root(ROOTS.Zones, {
 							i(103982),	-- Burden of Eternity
 						},
 					}),
-					o(221725),	-- Charged Crystal
+					o(221725, {	-- Charged Crystal
+						["coords"] = {
+							{ 49.9, 46.3, TIMELESS_ISLE },
+							{ 51.8, 53.8, TIMELESS_ISLE },
+							{ 53.0, 59.1, TIMELESS_ISLE },
+							{ 53.5, 64.4, TIMELESS_ISLE },
+							{ 54.7, 53.3, TIMELESS_ISLE },
+							{ 55.0, 44.3, TIMELESS_ISLE },
+							{ 56.2, 69.2, TIMELESS_ISLE },
+							{ 57.5, 46.5, TIMELESS_ISLE },
+							{ 59.4, 55.4, TIMELESS_ISLE },
+							{ 59.5, 63.1, TIMELESS_ISLE },
+							{ 60.0, 68.6, TIMELESS_ISLE },
+							{ 61.0, 59.5, TIMELESS_ISLE },
+							{ 63.6, 48.9, TIMELESS_ISLE },
+							{ 63.8, 63.9, TIMELESS_ISLE },
+							{ 64.5, 58.1, TIMELESS_ISLE },
+							{ 66.3, 53.7, TIMELESS_ISLE },
+						},
+					}),
 					o(222796),	-- Cloudstrike Family Helm
 					o(222685, {	-- Crane Nest
 						["modelScale"] = 2.3,

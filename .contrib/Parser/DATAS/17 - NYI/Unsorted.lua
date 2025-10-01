@@ -676,7 +676,6 @@ root(ROOTS.Unsorted, {
 				i(243246),	-- Funny Candle
 				i(243580),	-- Etheric Pylon
 				i(244421),	-- Set Keystone Map: Eco-Dome Al'dani
-				i(246492),	-- Soulgorged Augment Rune
 				i(246837),	-- Mysterious Notebook
 				i(246839),	-- Multiversal Energy Dynamics and the Murmuration Paradox
 				i(246840),	-- Ba'key's Aromatic Broker Cookies Recipes
