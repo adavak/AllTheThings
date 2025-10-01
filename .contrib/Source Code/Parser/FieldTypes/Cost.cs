@@ -145,7 +145,7 @@ namespace ATT.FieldTypes
                         {
                             decimal costID = costRec.Key;
 
-                            if (Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
+                            if (PreProcessorTags.Contains("ANYCLASSIC"))
                             {
                                 // if the cost is an item, we want that item to be listed as having been referenced to keep it out of Unsorted
                                 Items.MarkItemAsReferenced((long)costID);

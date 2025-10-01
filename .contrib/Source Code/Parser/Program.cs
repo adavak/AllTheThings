@@ -6,9 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices.ComTypes;
 using System.Text;
-using static ATT.Export;
 
 namespace ATT
 {
@@ -17,7 +15,7 @@ namespace ATT
         private static bool _Errored;
         private static bool Errored
         {
-            get => !PreProcessorTags.ContainsKey("IGNORE_ERRORS") && (_Errored || Framework.IsErrored);
+            get => !Framework.PreProcessorTags.Contains("IGNORE_ERRORS") && (_Errored || Framework.IsErrored);
             set => _Errored = value;
         }
         private static int ErrorCode => Errored ? -1 : 0;
@@ -26,7 +24,6 @@ namespace ATT
 
         public static string CurrentSubFilename => lua.State?.Status == KeraLua.LuaStatus.OK ? lua?.GetString("CurrentSubFileName") : null;
 
-        public static Dictionary<string, bool> PreProcessorTags { get; set; } = new Dictionary<string, bool>();
         static void UnhandledExceptionHandler(object sender, UnhandledExceptionEventArgs e)
         {
             Exception ex = (Exception)e.ExceptionObject;
@@ -276,14 +273,9 @@ namespace ATT
                 return ErrorCode;
             }
 
-            string[] preprocessorArray = Framework.Config["PreProcessorTags"];
-            if (preprocessorArray != null)
+            foreach (var preprocessor in Framework.PreProcessorTags)
             {
-                foreach (var preprocessor in preprocessorArray)
-                {
-                    PreProcessorTags[preprocessor] = true;
-                    Console.WriteLine($"PREPROCESSOR: {preprocessor}");
-                }
+                Console.WriteLine($"PREPROCESSOR: {preprocessor}");
             }
 
             Framework.ApplyConfigSettings();
@@ -395,13 +387,13 @@ namespace ATT
                     Console.ReadLine();
                 }
                 */
-                if (Program.PreProcessorTags.ContainsKey("EXPORT_ACHIEVEMENTDB"))
+                if (Framework.PreProcessorTags.Contains("EXPORT_ACHIEVEMENTDB"))
                 {
                     // Pre-Wrath we want all of the achievement data.
                     foreach (var achievement in WagoData.GetAll<Achievement>().Values) ImportAchievementData(achievement);
                     foreach (var achievementCategory in WagoData.GetAll<AchievementCategory>().Values) ImportAchievementCategoryData(achievementCategory);
                 }
-                else if (Program.PreProcessorTags.ContainsKey("EXPORT_ACHIEVEMENTDB_SHENDRALAR"))
+                else if (Framework.PreProcessorTags.Contains("EXPORT_ACHIEVEMENTDB_SHENDRALAR"))
                 {
                     // Pre-Cata we only want Agent of Shendralar
                     if (WagoData.TryGetValue(5788, out Achievement achievement)) ImportAchievementData(achievement);
@@ -667,7 +659,7 @@ namespace ATT
         {
             var keys = Framework.Objects.MAPID_COORD_SHIFTS.Keys.ToArray();
 
-            foreach(var key in keys)
+            foreach (var key in keys)
             {
                 if (Framework.Objects.MAPID_COORD_SHIFTS[key].TimelineEntry.LongVersion > Framework.CURRENT_RELEASE_VERSION)
                 {
@@ -804,7 +796,7 @@ namespace ATT
             else if (command.Length > 1)
             {
                 // Config PreProcessorTags
-                if (PreProcessorTags.ContainsKey(command[1]))
+                if (Framework.PreProcessorTags.Contains(command[1]))
                     return true;
 
                 switch (command[1])

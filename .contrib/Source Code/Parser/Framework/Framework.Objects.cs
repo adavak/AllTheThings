@@ -1084,7 +1084,7 @@ namespace ATT
                 });
 
                 // Simplify the structure of each Category builder
-                if (!((string[])Config["PreProcessorTags"]).Contains("NOSIMPLIFY"))
+                if (!PreProcessorTags.Contains("NOSIMPLIFY"))
                 {
                     var categoriesByLength = categoryBuilders.OrderByDescending(b => b.Value.Length).ToList();
                     var simplifyConfig = Config["SimplifyStructures"];
@@ -1863,7 +1863,7 @@ end");
                         {
                             MergeIntegerArrayData(item, field, lvls);
                         }
-                        else if (Program.PreProcessorTags.ContainsKey("CRIEVE")) item[field] = Convert.ToInt64(value);
+                        else if (PreProcessorTags.Contains("CRIEVE")) item[field] = Convert.ToInt64(value);
                         break;
 
                     // Sub-Dictionary Data Type Fields (stored as Dictionary<int, int> for usability reasons)

@@ -845,7 +845,7 @@ namespace ATT
         {
             // Retail has no reason to include Objective groups since the in-game Quest system does not warrant ATT including all this extra information
             // Crieve wants objectives and doesn't agree with this, but will allow it outside of Classic Builds.
-            if (data.ContainsKey("objectiveID") && !Program.PreProcessorTags.ContainsKey("OBJECTIVES"))
+            if (data.ContainsKey("objectiveID") && !PreProcessorTags.Contains("OBJECTIVES"))
             {
                 // capture the parent relationship here since we are removing the objective data
                 data["_parent"] = parentData;
@@ -1034,7 +1034,7 @@ namespace ATT
             Consolidate_providers(data);
             Consolidate_sourceQuests(data);
             Consolidate_altQuests(data);
-            Consolidate_item(data);
+            Consolidate_item(data, parentData);
             Consolidate_awprwp(data);
 
             // since early 2020, the API no longer associates recipe Items with their corresponding Spell... because Blizzard hates us
@@ -1076,6 +1076,10 @@ namespace ATT
             Consolidate_ConflictingFields(data);
 
             //VerifyListContentOrdering(data);
+
+            // during consolidation we may realize that data is not useful, and can mark it to be removed before further steps take place
+            if (data.TryGetValue("_remove", out remove) && remove)
+                return false;
 
             // when consolidating data, check for duplicate objects (instead of when merging)
             foreach (string key in TypeUseCounts.Keys)
@@ -3769,7 +3773,7 @@ namespace ATT
                             // if the provider is an item, we want that item to be listed as having been referenced to keep it out of Unsorted
                             Items.MarkItemAsReferenced(pID);
                             // Classic likes providers to be Items still due to the logic implementation
-                            if (!Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
+                            if (!PreProcessorTags.Contains("ANYCLASSIC"))
                             {
                                 if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue) && objectData.ObjectType == "questID")
                                 {
@@ -3983,7 +3987,7 @@ namespace ATT
             }
         }
 
-        private static void Consolidate_item(IDictionary<string, object> data)
+        private static void Consolidate_item(IDictionary<string, object> data, IDictionary<string, object> parentData)
         {
             if (!data.TryGetValue("itemID", out long itemID)) return;
 
@@ -4028,6 +4032,20 @@ namespace ATT
                         data.Remove("recipeID");
                     }
                 }
+            }
+
+            // Retail: Items listed directly under a Quest which are of the 'Quest Item' class should be converted into 'qis' on the Quest
+            if (Framework.PreProcessorTags.Contains("RETAIL")
+                && data.TryGetValue("f", out long filterVal)
+                && filterVal == (long)Objects.Filters.Quest
+                && parentData.TryGetValue("questID", out long parentQuestID))
+            {
+                Objects.Merge(parentData, "qis", itemID);
+                LogDebug($"INFO: Converted Quest Item {itemID} into 'qis' of parent Quest {parentQuestID}", data);
+                // mark the item as having been referenced so it doesn't get put into Unsorted
+                Items.MarkItemAsReferenced(itemID);
+                // remove the item from the list since it's now part of the parent quest
+                data["_remove"] = true;
             }
 
             // Items with only 'n' providers should just use 'crs' for simplicity

@@ -81,11 +81,11 @@ namespace ATT
                         _gameFlavors.Insert(0, "classic");
                     }
                 }
-                if (Program.PreProcessorTags.ContainsKey("PTR"))
+                if (Framework.PreProcessorTags.Contains("PTR"))
                 {
                     _gameFlavors.Insert(0, "ptr");
                 }
-                if (Program.PreProcessorTags.ContainsKey("PTR2"))
+                if (Framework.PreProcessorTags.Contains("PTR2"))
                 {
                     _gameFlavors.Insert(0, "ptr-2");
                 }

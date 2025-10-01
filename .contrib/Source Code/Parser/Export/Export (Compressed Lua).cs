@@ -468,7 +468,7 @@ namespace ATT
             builder.AppendLine("};");
 
             // Simplify the structure of the string and then export to the builder.
-            if (!((string[])Framework.Config["PreProcessorTags"]).Contains("NOSIMPLIFY"))
+            if (!Framework.PreProcessorTags.Contains("NOSIMPLIFY"))
             {
                 var simplifyConfig = Framework.Config["SimplifyStructures"];
                 if (simplifyConfig.Defined)

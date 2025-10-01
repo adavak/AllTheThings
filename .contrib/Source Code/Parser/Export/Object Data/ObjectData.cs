@@ -214,7 +214,7 @@ namespace ATT
                 bool ignoreSource = fields.Remove("ignoreSource");
                 fields.Remove("timeline");
                 fields.Remove("ilvl");
-                if (fields.Contains("q") && !Program.PreProcessorTags.ContainsKey("INCLUDE_QUALITY"))
+                if (fields.Contains("q") && !PreProcessorTags.Contains("INCLUDE_QUALITY"))
                 {
                     fields.Remove("q");
                 }

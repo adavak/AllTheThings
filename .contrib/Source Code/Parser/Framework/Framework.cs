@@ -318,6 +318,25 @@ namespace ATT
             }
         }
 
+        private static HashSet<string> _preprocessorTags;
+        /// <summary>
+        /// Contains the set of PreProcessor tags which are defined in the config file
+        /// </summary>
+        public static HashSet<string> PreProcessorTags
+        {
+            get
+            {
+                if (_preprocessorTags != null)
+                {
+                    return _preprocessorTags;
+                }
+
+                string[] tags = Config["PreProcessorTags"] ?? Array.Empty<string>();
+                _preprocessorTags = new HashSet<string>(tags);
+                return _preprocessorTags;
+            }
+        }
+
         private static IDictionary<string, object> Exports { get; } = new Dictionary<string, object>();
 
         private static IDictionary<string, object> IncorporationReferences { get; } = new Dictionary<string, object>();
@@ -792,7 +811,7 @@ namespace ATT
             DATA_REQUIREMENTS = Config["DataRequirements"] ?? null;
             CURRENT_RELEASE_PHASE = FIRST_EXPANSION_PHASE[CURRENT_RELEASE_PHASE_NAME];
             CURRENT_SHORT_RELEASE_VERSION = CURRENT_RELEASE_VERSION.ConvertToGameVersion();
-            if (Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
+            if (PreProcessorTags.Contains("ANYCLASSIC"))
             {
                 MAX_PHASE_ID = LAST_EXPANSION_PHASE[CURRENT_RELEASE_PHASE_NAME];
                 Console.Write("Max Phase ID: ");
