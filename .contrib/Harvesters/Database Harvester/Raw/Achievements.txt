@@ -5202,6 +5202,9 @@
 61416@@@Undisputed Gladiator: Season 13
 61417@@@Undisputed Gladiator: Season 14
 61418@@@Undisputed Gladiator: Season 15
+5.5.1.63364
+61459@@@Malevolent Conquest
+61460@@@Malevolent Conquest
 6.0.1.18179
 8394@@@The Frostwind Slayer
 8463@@@Mythic: Immerseus
