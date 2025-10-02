@@ -21,8 +21,6 @@ title(645),	-- Khaz Algar Enthusiast %s
 title(0),	-- Loa-speaker %s
 title(642),	-- %s, Thorn of Twilight
 title(643),	-- %s, Definitely Not a Cultist
-title(655),	-- %s the Umbral
-title(656),	-- %s the Umbral Hero
 title(657),	-- %s the Furnished
 title(660),	-- [PH] %s
 title(661),	-- [PH] %s
