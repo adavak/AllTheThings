@@ -9,7 +9,7 @@ createLocalizationString({
 		fr = "Sélectionnez le contenu des extensions que vous souhaitez voir dans vos fenêtres de collection.",
 		it = "Seleziona quale contenuto delle espansioni vuoi vedere nelle tue finestre di collezione.",
 		pt = "Selecione qual conteúdo de expansões você deseja ver nas suas janelas de coleção.",
-		ru = "Выберите, контент каких дополнений вы хотите видеть в окнах коллекции.",
+		ru = "Выберите дополнения, которые вы хотите видеть в окнах коллекции.",
 		ko = "컬렉션 창에 표시할 확장팩 콘텐츠를 선택하세요.",
 		cn = "选择您想在收藏窗口中看到的资料片内容。",
 		tw = "選擇您想在收藏視窗中看到的資料片內容。",
