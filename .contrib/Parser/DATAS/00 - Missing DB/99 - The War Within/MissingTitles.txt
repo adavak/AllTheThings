@@ -17,3 +17,24 @@ title(649),	-- Om'%s
 title(650),	-- Delver %s
 11.2.5.62554
 title(645),	-- Khaz Algar Enthusiast %s
+12.0.0.63534
+title(0),	-- Loa-speaker %s
+title(642),	-- %s, Thorn of Twilight
+title(643),	-- %s, Definitely Not a Cultist
+title(651),	-- Galactic Marshal %s
+title(652),	-- Galactic Warlord %s
+title(653),	-- Galactic Legend %s
+title(654),	-- Galactic Gladiator %s
+title(655),	-- %s the Umbral
+title(656),	-- %s the Umbral Hero
+title(657),	-- %s the Furnished
+title(660),	-- [PH] %s
+title(661),	-- [PH] %s
+title(662),	-- [PH] %s
+title(663),	-- [PH] %s
+title(664),	-- Voidslayer %s
+title(665),	-- Honorary Hara'ti %s
+title(666),	-- Brawl Star %s
+title(667),	-- %s, Life of the Party
+title(668),	-- %s, Famed Slayer of the Undreamt
+title(669),	-- %s, Azeroth's Vanguard

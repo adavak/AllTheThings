@@ -1,0 +1,405 @@
+12.0.0.63534
+ach(40887),	-- Fox Friends
+ach(41287),	-- Windrunner Spire
+ach(41288),	-- Heroic: Windrunner Spire
+ach(41291),	-- Mythic: Windrunner Spire
+ach(41293),	-- [PH] Restless Heart kills (Normal Windrunner Spire)
+ach(41294),	-- [PH] Restless Heart kills (Heroic Windrunner Spire)
+ach(41295),	-- [PH] Restless Heart kills (Mythic Windrunner Spire)
+ach(41673),	-- Midnight Tailoring 25 (DNT)
+ach(41674),	-- Midnight Tailoring 50 (DNT)
+ach(41675),	-- Midnight Tailoring 60 (DNT)
+ach(41679),	-- Midnight Tailoring 75 (DNT)
+ach(41684),	-- Midnight Herbalism 25 (DNT)
+ach(41688),	-- Midnight Herbalism 50 (DNT)
+ach(41689),	-- Midnight Herbalism 75 (DNT)
+ach(41690),	-- Midnight Blacksmithing 25 (DNT)
+ach(41691),	-- Midnight Blacksmithing 50 (DNT)
+ach(41692),	-- Midnight Blacksmithing 60 (DNT)
+ach(41693),	-- Midnight Blacksmithing 75 (DNT)
+ach(41739),	-- Midnight Mining 25 (DNT)
+ach(41749),	-- Midnight Mining 50 (DNT)
+ach(41750),	-- Midnight Mining 75 (DNT)
+ach(41783),	-- Midnight Skinning 25 (DNT)
+ach(41784),	-- Midnight Skinning 50 (DNT)
+ach(41785),	-- Midnight Skinning 60 (DNT)
+ach(41802),	-- Eversong Woods
+ach(41803),	-- Living Amani Legend
+ach(41804),	-- Harandar
+ach(41805),	-- Arator's Journey
+ach(41806),	-- Voidstorm
+ach(41960),	-- Murder Row
+ach(41961),	-- Heroic: Murder Row
+ach(41962),	-- Mythic: Murder Row
+ach(41974),	-- Midnight Jewelcrafting 25 (DNT)
+ach(41975),	-- Midnight Jewelcrafting 50 (DNT)
+ach(41976),	-- Midnight Jewelcrafting 60 (DNT)
+ach(41977),	-- Midnight Jewelcrafting 75 (DNT)
+ach(42010),	-- Midnight Alchemy 25 (DNT)
+ach(42011),	-- Midnight Alchemy 50 (DNT)
+ach(42012),	-- Midnight Alchemy 60 (DNT)
+ach(42013),	-- Midnight Alchemy 75 (DNT)
+ach(42045),	-- Midnight
+ach(42117),	-- The War of Light and Shadow
+ach(42140),	-- Midnight Enchanting 25 (DNT)
+ach(42145),	-- Midnight Enchanting 50 (DNT)
+ach(42146),	-- Midnight Enchanting 60 (DNT)
+ach(42147),	-- Midnight Enchanting 75 (DNT)
+ach(42178),	-- Midnight Leatherworking 25 (DNT)
+ach(42179),	-- Midnight Leatherworking 50 (DNT)
+ach(42182),	-- Midnight Leatherworking 60 (DNT)
+ach(42183),	-- Midnight Leatherworking 75 (DNT)
+ach(42192),	-- Snowball Fight!
+ach(42270),	-- The Deathlord's Campaign
+ach(42271),	-- The Slayer's Campaign
+ach(42272),	-- The Archdruid's Campaign
+ach(42273),	-- The Huntmaster's Campaign
+ach(42274),	-- The Archmage's Campaign
+ach(42275),	-- The Grandmaster's Campaign
+ach(42276),	-- The Highlord's Campaign
+ach(42277),	-- The High Priest's Campaign
+ach(42278),	-- Day of the Titan
+ach(42279),	-- The Shadowblade's Campaign
+ach(42280),	-- The Farseer's Campaign
+ach(42281),	-- The Netherlord's Campaign
+ach(42282),	-- The Battlelord's Campaign
+ach(42283),	-- Azeroth Runs on Dundun
+ach(42287),	-- Hidden Potential of the Deathlord
+ach(42288),	-- Hidden Potential of the Slayer
+ach(42289),	-- Hidden Potential of the Archdruid
+ach(42290),	-- Hidden Potential of the Huntmaster
+ach(42291),	-- Hidden Potential of the Archmage
+ach(42292),	-- Hidden Potential of the Grandmaster
+ach(42293),	-- Hidden Potential of the Highlord
+ach(42294),	-- Hidden Potential of the High Priest
+ach(42295),	-- Hidden Potential of the Shadowblade
+ach(42296),	-- Hidden Potential of the Farseer
+ach(42297),	-- Hidden Potential of the Netherlord
+ach(42298),	-- Hidden Potential of the Battlelord
+ach(42299),	-- Visions of a Shadowed Sun
+ach(42300),	-- Two Minutes to Midnight
+ach(42322),	-- 1st level 90 on account (DNT)
+ach(42323),	-- 2nd level 90 on account (DNT)
+ach(42324),	-- 3nd level 90 on account (DNT)
+ach(42326),	-- 4th level 90 on account (DNT)
+ach(42327),	-- 5th level 90 on account (DNT)
+ach(42328),	-- One Warband Mentor: Midnight
+ach(42329),	-- Two Warband Mentors: Midnight
+ach(42330),	-- Three Warband Mentors: Midnight
+ach(42331),	-- Four Warband Mentors: Midnight
+ach(42332),	-- Five Warband Mentors: Midnight
+ach(42528),	-- Explore Highmountain
+ach(42535),	-- Explore Eredath
+ach(42560),	-- Explore Antoran Wastes
+ach(42573),	-- Explore Val'Sharah
+ach(42575),	-- Elusive Foes: Antoran Wastes
+ach(42577),	-- Hidden Treasures: Suramar
+ach(42579),	-- Elusive Foes: Highmountain
+ach(42580),	-- Elusive Foes: Val'Sharah
+ach(42588),	-- Hidden Treasures: Krokuun
+ach(42591),	-- Elusive Foes: Krokuun
+ach(42606),	-- Hidden Treasures: Stormheim
+ach(42608),	-- Explore Stormheim
+ach(42620),	-- Explore Krokuun
+ach(42626),	-- Hidden Treasures: Eredath
+ach(42631),	-- Hidden Treasures: Antoran Wastes
+ach(42634),	-- Hidden Treasures: Highmountain
+ach(42640),	-- Elusive Foes: Stormheim
+ach(42646),	-- Elusive Foes: Eredath
+ach(42650),	-- Elusive Foes: Suramar
+ach(42665),	-- Explore Suramar
+ach(42668),	-- Hidden Treasures: Val'Sharah
+ach(42701),	-- Prey: Normal Mode III
+ach(42702),	-- Prey: Hard Mode III
+ach(42703),	-- Prey: Nightmare Mode III
+ach(42767),	-- Weathered of the Dawn
+ach(42768),	-- Carved of the Dawn
+ach(42769),	-- Runed of the Dawn
+ach(42770),	-- Gilded of the Dawn
+ach(42786),	-- Leatherworking at Midnight
+ach(42787),	-- Enchanting at Midnight
+ach(42788),	-- Alchemy at Midnight
+ach(42789),	-- Jewelcrafting at Midnight
+ach(42790),	-- Skinning at Midnight
+ach(42791),	-- Mining at Midnight
+ach(42792),	-- Blacksmithing at Midnight
+ach(42793),	-- Herbalism at Midnight
+ach(42794),	-- Tailoring at Midnight
+ach(42795),	-- Cooking at Midnight
+ach(42796),	-- Inscribing at Midnight
+ach(42797),	-- Fishing at Midnight
+ach(42798),	-- Engineering at Midnight
+ach(42808),	-- Midnight Inscription 25 (DNT)
+ach(42809),	-- Midnight Inscription 50 (DNT)
+ach(42810),	-- Midnight Inscription 60 (DNT)
+ach(42813),	-- Midnight Inscription 75 (DNT)
+ach(42814),	-- Midnight Engineering 25 (DNT)
+ach(42815),	-- Midnight Engineering 50 (DNT)
+ach(42817),	-- Midnight Engineering 60 (DNT)
+ach(42821),	-- Midnight Engineering 75 (DNT)
+ach(51753),	-- Azsuna Matata
+ach(60888),	-- Pushing My Buttons
+ach(60891),	-- The Crimson Rogue
+ach(60942),	-- Aquatic Battler of Northrend
+ach(60943),	-- Critter Battler of Northrend
+ach(60944),	-- Dragonkin Battler of Northrend
+ach(60948),	-- Elemental Battler of Northrend
+ach(60949),	-- Flying Battler of Northrend
+ach(60950),	-- Humanoid Battler of Northrend
+ach(60951),	-- Beast Battler of Northrend
+ach(60952),	-- Magic Battler of Northrend
+ach(60953),	-- Mechanical Battler of Northrend
+ach(60954),	-- Undead Battler of Northrend
+ach(60956),	-- Family Battler of Northrend
+ach(60962),	-- Legendary Research of the Ebon Blade
+ach(60963),	-- Legendary Research of the Illidari
+ach(60964),	-- Legendary Research of the Dreamgrove
+ach(60965),	-- Legendary Research of the Unseen Path
+ach(60966),	-- Legendary Research of the Tirisgarde
+ach(60967),	-- Legendary Research of Five Dawns
+ach(60968),	-- Legendary Research of the Silver Hand
+ach(60969),	-- Legendary Research of the Netherlight Conclave
+ach(60970),	-- Legendary Research of the Uncrowned
+ach(60971),	-- Legendary Research of the Maelstrom
+ach(60972),	-- Legendary Research of the Black Harvest
+ach(60973),	-- Legendary Research of the Valarjar
+ach(60981),	-- So Many Missions for Acherus
+ach(60982),	-- So Many Missions for the Fel Hammer
+ach(60983),	-- So Many Missions for the Dreamgrove
+ach(60984),	-- So Many Missions for the Trueshot Lodge
+ach(60985),	-- So Many Missions for the Hall of the Guardian
+ach(60986),	-- So Many Missions for the Temple of Five Dawns
+ach(60987),	-- So Many Missions for the Sanctum of Light
+ach(60988),	-- So Many Missions for the Netherlight Temple
+ach(60989),	-- So Many Missions for the Hall of Shadows
+ach(60990),	-- So Many Missions for the Maelstrom
+ach(60991),	-- So Many Missions for the Dreadscar Rift
+ach(60992),	-- So Many Missions for Skyhold
+ach(61023),	-- [DNT] Exalted with a Dracthyr Player Faction
+ach(61028),	-- Undead Battler of Eastern Kingdoms
+ach(61029),	-- Aquatic Battler of Eastern Kingdoms
+ach(61030),	-- Beast Battler of Eastern Kingdoms
+ach(61031),	-- Critter Battler of Eastern Kingdoms
+ach(61032),	-- Dragonkin Battler of Eastern Kingdoms
+ach(61033),	-- Elemental Battler of Eastern Kingdoms
+ach(61034),	-- Flying Battler of Eastern Kingdoms
+ach(61035),	-- Humanoid Battler of Eastern Kingdoms
+ach(61036),	-- Magic Battler of Eastern Kingdoms
+ach(61037),	-- Mechanical Battler of Eastern Kingdoms
+ach(61040),	-- Family Battler of Eastern Kingdoms
+ach(61041),	-- Aquatic Battler of Kalimdor
+ach(61042),	-- Beast Battler of Kalimdor
+ach(61043),	-- Critter Battler of Kalimdor
+ach(61044),	-- Dragonkin Battler of Kalimdor
+ach(61045),	-- Elemental Battler of Kalimdor
+ach(61046),	-- Flying Battler of Kalimdor
+ach(61047),	-- Humanoid Battler of Kalimdor
+ach(61048),	-- Magic Battler of Kalimdor
+ach(61049),	-- Mechanical Battler of Kalimdor
+ach(61050),	-- Undead Battler of Kalimdor
+ach(61051),	-- Family Battler of Kalimdor
+ach(61052),	-- Dust 'Em Off
+ach(61081),	-- Share a Drink
+ach(61082),	-- Old Soldiers
+ach(61083),	-- Highly Decorated
+ach(61091),	-- Midnight Safari
+ach(61094),	-- Old World Family Battler
+ach(61177),	-- Galactic Marshal: Midnight Season 1
+ach(61178),	-- Galactic Warlord: Midnight Season 1
+ach(61179),	-- Galactic Legend: Midnight Season 1
+ach(61180),	-- Galactic Gladiator: Midnight Season 1
+ach(61181),	-- Combatant I: Midnight Season 1
+ach(61182),	-- Combatant II: Midnight Season 1
+ach(61183),	-- Challenger I: Midnight Season 1
+ach(61184),	-- Challenger II: Midnight Season 1
+ach(61185),	-- Rival I: Midnight Season 1
+ach(61186),	-- Rival II: Midnight Season 1
+ach(61187),	-- Duelist: Midnight Season 1
+ach(61188),	-- Gladiator: Midnight Season 1
+ach(61190),	-- Legend: Midnight Season 1
+ach(61194),	-- Strategist: Midnight Season 1
+ach(61195),	-- Hero of the Alliance: Galactic
+ach(61196),	-- Hero of the Horde: Galactic
+ach(61197),	-- Elite: Midnight Season 1
+ach(61198),	-- Battle Mender: Midnight Season 1
+ach(61199),	-- Solo Shuffle Medic: Midnight
+ach(61200),	-- Battleground Blitz Medic: Midnight
+ach(61211),	-- Welcome Home
+ach(61212),	-- Magisters' Terrace
+ach(61213),	-- Heroic: Magisters' Terrace
+ach(61214),	-- Mythic: Magisters' Terrace
+ach(61215),	-- Degentrius kills (Normal Magisters' Terrace)
+ach(61216),	-- Degentrius kills (Heroic Magisters' Terrace)
+ach(61217),	-- Degentrius kills (Mythic Magisters' Terrace)
+ach(61219),	-- No Time to Paws
+ach(61221),	-- Tour of Duty: Eversong Woods
+ach(61222),	-- Tour of Duty: Zul'Aman
+ach(61223),	-- Tour of Duty: Harandar
+ach(61224),	-- Tour of Duty: Voidstorm
+ach(61225),	-- Investigating the Rise
+ach(61226),	-- Uprising
+ach(61227),	-- Entering the Void
+ach(61228),	-- Embracing the Void
+ach(61229),	-- Dedication in the Void
+ach(61230),	-- Remains in the Rise
+ach(61231),	-- Midnight Loot
+ach(61232),	-- Midnight Treasures
+ach(61233),	-- Midnight Season 1: Resilient Keystone 12
+ach(61234),	-- Hunt in the Night
+ach(61235),	-- Midnight Season 1: Resilient Keystone 13
+ach(61236),	-- Midnight Season 1: Resilient Keystone 14
+ach(61237),	-- Midnight Season 1: Resilient Keystone 15
+ach(61238),	-- Midnight Hunter
+ach(61239),	-- Midnight Season 1: Resilient Keystone 16
+ach(61240),	-- Midnight Season 1: Resilient Keystone 17
+ach(61241),	-- Midnight Season 1: Resilient Keystone 18
+ach(61242),	-- Midnight Season 1: Resilient Keystone 19
+ach(61243),	-- Midnight Season 1: Resilient Keystone 20
+ach(61244),	-- Midnight Season 1: Resilient Keystone 21
+ach(61245),	-- Midnight Season 1: Resilient Keystone 22
+ach(61246),	-- Midnight Season 1: Resilient Keystone 23
+ach(61247),	-- Midnight Season 1: Resilient Keystone 24
+ach(61248),	-- Midnight Season 1: Resilient Keystone 25
+ach(61249),	-- Midnight Season 1: Resilient Keystone 26
+ach(61250),	-- Midnight Season 1: Resilient Keystone 27
+ach(61251),	-- Midnight Season 1: Resilient Keystone 28
+ach(61252),	-- Midnight Season 1: Resilient Keystone 29
+ach(61253),	-- Midnight Season 1: Resilient Keystone 30
+ach(61254),	-- Midnight Keystone Explorer: Season One
+ach(61255),	-- Midnight Keystone Conqueror: Season One
+ach(61256),	-- Midnight Keystone Master: Season One
+ach(61257),	-- Midnight Keystone Hero: Season One
+ach(61258),	-- Midnight Keystone Legend: Season One
+ach(61259),	-- Umbral Hero: Midnight Season One
+ach(61262),	-- Keystone Hero: Windrunner Spire
+ach(61263),	-- Treasures of Harandar
+ach(61264),	-- Leaf None Behind
+ach(61265),	-- Spectral Capture
+ach(61266),	-- Spectral Stocker
+ach(61267),	-- Keystone Hero: Magisters' Terrace
+ach(61268),	-- Keystone Hero: Nexus-Point Xenas
+ach(61269),	-- Keystone Hero: Maisara Caverns
+ach(61270),	-- Keystone Hero: Seat of the Triumvirate
+ach(61271),	-- Keystone Hero: Pit of Saron
+ach(61272),	-- Keystone Hero: Skyreach
+ach(61273),	-- Lithiel Cinderfury kills (Normal Murder Row)
+ach(61274),	-- Lithiel Cinderfury kills (Heroic Murder Row)
+ach(61275),	-- Lithiel Cinderfury kills (Mythic Murder Row)
+ach(61276),	-- Imperator Averzian (Raid Finder Voidspire)
+ach(61277),	-- Imperator Averzian (Normal Voidspire)
+ach(61278),	-- Imperator Averzian (Heroic Voidspire)
+ach(61279),	-- Imperator Averzian (Mythic Voidspire)
+ach(61280),	-- Vorasius (Raid Finder Voidspire)
+ach(61281),	-- Vorasius (Normal Voidspire)
+ach(61282),	-- Vorasius (Heroic Voidspire)
+ach(61283),	-- Vorasius (Mythic Voidspire)
+ach(61284),	-- Fallen-King Salhadaar (Raid Finder Voidspire)
+ach(61285),	-- Fallen-King Salhadaar (Normal Voidspire)
+ach(61286),	-- Fallen-King Salhadaar (Heroic Voidspire)
+ach(61287),	-- Fallen-King Salhadaar (Mythic Voidspire)
+ach(61288),	-- Vaelgor & Ezzorak (Raid Finder Voidspire)
+ach(61289),	-- Vaelgor & Ezzorak (Normal Voidspire)
+ach(61290),	-- Vaelgor & Ezzorak (Heroic Voidspire)
+ach(61291),	-- Vaelgor & Ezzorak (Mythic Voidspire)
+ach(61292),	-- Lightblinded Vanguard (Raid Finder Voidspire)
+ach(61293),	-- Lightblinded Vanguard (Normal Voidspire)
+ach(61294),	-- Lightblinded Vanguard (Heroic Voidspire)
+ach(61295),	-- Lightblinded Vanguard (Mythic Voidspire)
+ach(61296),	-- Crown of the Cosmos (Raid Finder Voidspire)
+ach(61297),	-- Crown of the Cosmos (Normal Voidspire)
+ach(61298),	-- Crown of the Cosmos (Heroic Voidspire)
+ach(61299),	-- Crown of the Cosmos (Mythic Voidspire)
+ach(61300),	-- Belo'ren (Raid Finder March on Quel'Danas)
+ach(61301),	-- Belo'ren (Normal March on Quel'Danas)
+ach(61302),	-- Belo'ren (Heroic March on Quel'Danas)
+ach(61303),	-- Belo'ren (Mythic March on Quel'Danas)
+ach(61304),	-- Midnight Falls (Raid Finder March on Quel'Danas)
+ach(61305),	-- Midnight Falls (Normal March on Quel'Danas)
+ach(61306),	-- Midnight Falls (Heroic March on Quel'Danas)
+ach(61307),	-- Midnight Falls (Mythic March on Quel'Danas)
+ach(61308),	-- Score A Decor
+ach(61309),	-- Amateur Antiquarian
+ach(61310),	-- Casual Collector
+ach(61311),	-- Ready To Remodel
+ach(61312),	-- Center Stager
+ach(61313),	-- Well-Travelled Collection
+ach(61314),	-- Furniture Historian
+ach(61315),	-- Array of Antiquities
+ach(61316),	-- Custom Cabinets
+ach(61317),	-- Domicile Designer
+ach(61318),	-- Fully Furnished
+ach(61344),	-- Legends of the Haranir
+ach(61346),	-- We Will, In Fact, See It Again
+ach(61366),	-- Voidspire
+ach(61367),	-- March on Quel'Danas
+ach(61368),	-- Heroic: Voidspire
+ach(61369),	-- Heroic: March on Quel'Danas
+ach(61370),	-- Mythic: Voidspire
+ach(61371),	-- Mythic: March on Quel'Danas
+ach(61372),	-- Mythic: Imperator Averzian
+ach(61373),	-- Mythic: Vorasius
+ach(61374),	-- Mythic: Fallen-King Salhadaar
+ach(61375),	-- Mythic: Vaelgor & Ezzorak
+ach(61376),	-- Mythic: Lightblinded Vanguard
+ach(61377),	-- Mythic: Crown of the Cosmos
+ach(61378),	-- Mythic: Belo'ren
+ach(61379),	-- Mythic: Midnight Falls
+ach(61380),	-- Glory of the Midnight Raider
+ach(61381),	-- Belo'ren Achievement
+ach(61386),	-- Prey: Normal Mode II
+ach(61387),	-- Prey: Normal Mode I
+ach(61388),	-- Prey: Hard Mode II
+ach(61389),	-- Prey: Hard Mode I
+ach(61391),	-- Prey: Nightmare Mode II
+ach(61392),	-- Prey: Nightmare Mode I
+ach(61394),	-- Master of the Turbulent Timeways IV
+ach(61403),	-- Galactic Combatant
+ach(61405),	-- Galactic Combatant
+ach(61413),	-- The First Rule of Brawler's Guild
+ach(61414),	-- The First Rule of Brawler's Guild
+ach(61419),	-- Brawler's Chilled
+ach(61420),	-- Let Me Solo It
+ach(61421),	-- A Prime Ordeal
+ach(61422),	-- Audience Participation
+ach(61423),	-- Featherweight Brawler
+ach(61424),	-- Brawlzilla
+ach(61425),	-- Hot Footed
+ach(61426),	-- Bare Knuckle Brawl
+ach(61429),	-- Brawl Star
+ach(61430),	-- Crunching for Cultists
+ach(61438),	-- Thalassian Profession Master
+ach(61439),	-- Thalassian Artisan
+ach(61440),	-- Thalassian Polymath
+ach(61441),	-- Working WAY Past Midnight
+ach(61443),	-- Galactic Weapons of Conquest
+ach(61444),	-- Vicious Saddle (43)
+ach(61445),	-- Vicious Saddle (43)
+ach(61446),	-- Slayer's Mastery
+ach(61447),	-- Partake in the Rise
+ach(61448),	-- Frequent the Rise
+ach(61449),	-- Customary Rise
+ach(61450),	-- Galactic Gladiator's Goredrake
+ach(61451),	-- Worldsoul-Searching
+ach(61452),	-- Sojourner of Zul'Aman
+ach(61453),	-- Making an Amani Out of You
+ach(61454),	-- Falling Between The Quacks
+ach(61455),	-- Shadowpine Scattered
+ach(61456),	-- Die in Lordaeron or Undercity
+ach(61464),	-- Spark in the Night
+ach(61465),	-- Spark in the Night
+ach(61466),	-- The Best There Is
+ach(61467),	-- Lorewalking: Elves
+ach(61474),	-- Chimaerus, the Undreamt God (Raid Finder Dreamrift)
+ach(61475),	-- Chimaerus, the Undreamt God (Normal Dreamrift)
+ach(61476),	-- Chimaerus, the Undreamt God (Heroic Dreamrift)
+ach(61477),	-- Chimaerus, the Undreamt God (Mythic Dreamrift)
+ach(61487),	-- Chimaerus, the Undreamt God
+ach(61488),	-- Heroic: Chimaerus, the Undreamt God
+ach(61489),	-- Mythic: Chimaerus, the Undreamt God
+ach(61490),	-- Midnight Season 1: Champion of the Dawn
+ach(61491),	-- Ahead of the Curve: Chimaerus, the Undreamt God
+ach(61492),	-- Cutting Edge: Chimaerus, the Undreamt God
+ach(61493),	-- Hall of Fame: Chimaerus, the Undreamt God
+ach(61494),	-- Slayer's Rise battles
+ach(61495),	-- Slayer's Rise victories
+ach(61498),	-- Ready for Midnight

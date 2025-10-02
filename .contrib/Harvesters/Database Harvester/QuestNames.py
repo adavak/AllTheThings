@@ -115,7 +115,13 @@ def get_available_expansions(patch: str) -> dict[str, str]:
             "PTR": "ptr",
             #"PTR2": "ptr-2",
         }
-        print("11.2.0 :", patch)
+        print("11.2.5 :", patch)
+    elif version.parse("11.2.5.99999") < version.parse(patch):
+        expansion_dict = {
+            "PTR": "ptr",
+            #"PTR2": "ptr-2",
+        }
+        print("12.0.0 :", patch)
     return expansion_dict
 
 def get_quest_names(flavor: str) -> None:

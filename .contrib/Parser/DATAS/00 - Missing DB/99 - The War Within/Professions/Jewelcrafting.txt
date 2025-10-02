@@ -1,198 +1,10 @@
-3.0.1.8622
-r(51311),	-- Jewelcrafting
-r(53831),	-- Bold Bloodstone
-r(53832),	-- Delicate Bloodstone
-r(53834),	-- Brilliant Bloodstone \\ Runed Bloodstone
-r(53835),	-- Delicate Bloodstone \\ Bright Bloodstone
-r(53843),	-- Subtle Sun Crystal \\ Subtle Bloodstone
-r(53844),	-- Flashing Bloodstone
-r(53845),	-- Smooth Sun Crystal \\ Fractured Bloodstone
-r(53852),	-- Brilliant Bloodstone \\ Brilliant Sun Crystal
-r(53853),	-- Smooth Sun Crystal
-r(53854),	-- Rigid Chalcedony \\ Rigid Sun Crystal
-r(53855),	-- Subtle Sun Crystal \\ Thick Sun Crystal
-r(53856),	-- Quick Sun Crystal
-r(53859),	-- Sovereign Shadow Crystal
-r(53860),	-- Shifting Shadow Crystal
-r(53861),	-- Glinting Shadow Crystal \\ Tenuous Shadow Crystal
-r(53862),	-- Timeless Shadow Crystal \\ Glowing Shadow Crystal
-r(53863),	-- Purified Shadow Crystal
-r(53864),	-- Purified Shadow Crystal \\ Royal Shadow Crystal
-r(53866),	-- Shifting Shadow Crystal \\ Balanced Shadow Crystal
-r(53867),	-- Glinting Shadow Crystal \\ Infused Shadow Crystal
-r(53868),	-- Regal Dark Jade \\ Regal Shadow Crystal
-r(53870),	-- Jagged Dark Jade \\ Puissant Shadow Crystal
-r(53871),	-- Guardian's Shadow Crystal
-r(53872),	-- Inscribed Huge Citrine
-r(53873),	-- Etched Shadow Crystal \\ Etched Huge Citrine
-r(53874),	-- Champion's Huge Citrine
-r(53876),	-- Fierce Huge Citrine
-r(53878),	-- Glinting Shadow Crystal \\ Glinting Huge Citrine
-r(53880),	-- Deft Huge Citrine
-r(53881),	-- Reckless Huge Citrine \\ Luminous Huge Citrine
-r(53882),	-- Potent Huge Citrine
-r(53883),	-- Veiled Shadow Crystal \\ Veiled Huge Citrine
-r(53886),	-- Deadly Huge Citrine \\ Wicked Huge Citrine
-r(53887),	-- Glinting Shadow Crystal \\ Pristine Huge Citrine
-r(53888),	-- Lucent Huge Citrine \\ Empowered Huge Citrine
-r(53889),	-- Deft Huge Citrine \\ Stark Huge Citrine
-r(53890),	-- Stalwart Huge Citrine
-r(53891),	-- Stalwart Huge Citrine \\ Glimmering Huge Citrine
-r(53892),	-- Accurate Shadow Crystal \\ Accurate Huge Citrine
-r(53893),	-- Resolute Huge Citrine
-r(53894),	-- Timeless Shadow Crystal \\ Timeless Dark Jade
-r(53916),	-- Jagged Dark Jade
-r(53918),	-- Regal Dark Jade \\ Enduring Dark Jade
-r(53920),	-- Forceful Dark Jade
-r(53922),	-- Misty Dark Jade
-r(53923),	-- Lightning Dark Jade \\ Shining Dark Jade
-r(53925),	-- Energized Dark Jade \\ Intricate Dark Jade
-r(53926),	-- Purified Shadow Crystal \\ Dazzling Dark Jade
-r(53927),	-- Misty Dark Jade \\ Sundered Dark Jade
-r(53928),	-- Lightning Dark Jade \\ Lambent Dark Jade
-r(53929),	-- Turbid Dark Jade \\ Opaque Dark Jade
-r(53930),	-- Energized Dark Jade
-r(53931),	-- Radiant Dark Jade
-r(53934),	-- Solid Chalcedony
-r(53940),	-- Sparkling Chalcedony
-r(53941),	-- Sparkling Chalcedony \\ Lustrous Chalcedony
-r(53947),	-- Delicate Scarlet Ruby \\ Bright Scarlet Ruby
-r(53950),	-- Smooth Autumn's Glow \\ Fractured Scarlet Ruby
-r(53953),	-- Sparkling Sky Sapphire
-r(53956),	-- Brilliant Scarlet Ruby \\ Brilliant Autumn's Glow
-r(53959),	-- Subtle Autumn's Glow \\ Thick Autumn's Glow
-r(53964),	-- Glinting Twilight Opal \\ Tenuous Twilight Opal
-r(53967),	-- Purified Twilight Opal \\ Royal Twilight Opal
-r(53969),	-- Shifting Twilight Opal \\ Balanced Twilight Opal
-r(53970),	-- Glinting Twilight Opal \\ Infused Twilight Opal
-r(53971),	-- Regal Forest Emerald \\ Regal Twilight Opal
-r(53973),	-- Jagged Forest Emerald \\ Puissant Twilight Opal
-r(53979),	-- Deadly Monarch Topaz
-r(53982),	-- Deft Monarch Topaz
-r(53983),	-- Reckless Monarch Topaz \\ Luminous Monarch Topaz
-r(53989),	-- Glinting Twilight Opal \\ Pristine Monarch Topaz
-r(53990),	-- Lucent Monarch Topaz \\ Empowered Monarch Topaz
-r(53992),	-- Stalwart Monarch Topaz
-r(53995),	-- Timeless Twilight Opal \\ Timeless Forest Emerald
-r(54002),	-- Purified Twilight Opal \\ Seer's Forest Emerald
-r(54004),	-- Lightning Forest Emerald \\ Shining Forest Emerald
-r(54006),	-- Energized Forest Emerald \\ Intricate Forest Emerald
-r(54007),	-- Purified Twilight Opal \\ Dazzling Forest Emerald
-r(54008),	-- Misty Forest Emerald \\ Sundered Forest Emerald
-r(54010),	-- Turbid Forest Emerald \\ Opaque Forest Emerald
-r(54013),	-- Radiant Forest Emerald \\ Tense Forest Emerald
-r(54017),	-- Precise Bloodstone
-3.0.1.8874
-r(55386),	-- Tireless Skyflare Diamond
-r(55394),	-- Swift Skyflare Diamond
-r(55399),	-- Powerful Earthsiege Diamond
-r(55402),	-- Persistent Earthsiege Diamond
-r(55534),	-- Gem Perfection
-r(56054),	-- Delicate Dragon's Eye \\ Bright Dragon's Eye
-r(56074),	-- Brilliant Dragon's Eye
-r(56076),	-- Smooth Dragon's Eye \\ Fractured Dragon's Eye
-r(56077),	-- Sparkling Dragon's Eye \\ Lustrous Dragon's Eye
-r(56089),	-- Subtle Dragon's Eye \\ Thick Dragon's Eye
-r(56193),	-- Bloodstone Band
-r(56194),	-- Sun Rock Ring
-r(56195),	-- Jade Dagger Pendant
-r(56196),	-- Blood Sun Necklace
-r(56197),	-- Dream Signet
-r(56199),	-- Figurine - Ruby Hare \\ Ruby Hare
-r(56201),	-- Figurine - Twilight Serpent \\ Twilight Serpent
-r(56202),	-- Figurine - Sapphire Owl \\ Sapphire Owl
-r(56203),	-- Figurine - Emerald Boar \\ Emerald Boar
-r(56205),	-- Dark Jade Focusing Lens
-r(56206),	-- Shadow Crystal Focusing Lens
-r(56208),	-- Shadow Jade Focusing Lens
-r(56530),	-- Enchanted Pearl
-r(56531),	-- Enchanted Tear
-3.1.0.9767
-r(58141),	-- Crystal Citrine Necklace
-r(58142),	-- Crystal Chalcedony Amulet
-r(58143),	-- Earthshadow Ring
-r(58144),	-- Jade Ring of Slaying
-r(58145),	-- Stoneguard Band
-r(58146),	-- Shadowmight Ring
-r(59759),	-- Figurine - Monarch Crab \\ Monarch Crab
-r(62242),	-- Icy Prism
-r(62941),	-- Prismatic Black Diamond
-r(63743),	-- Amulet of Truesight
-r(64725),	-- Emerald Choker
-r(64726),	-- Sky Sapphire Amulet
-r(64727),	-- Runed Mana Band
-r(64728),	-- Scarlet Signet
-3.3.5.12340
-r(66430),	-- Purified Dreadstone \\ Dazzling Eye of Zul
-r(66433),	-- Purified Dreadstone \\ Seer's Eye of Zul
-r(66436),	-- Misty Eye of Zul \\ Sundered Eye of Zul
-r(66437),	-- Lightning Eye of Zul \\ Shining Eye of Zul
-r(66438),	-- Radiant Eye of Zul \\ Tense Eye of Zul
-r(66440),	-- Energized Eye of Zul \\ Intricate Eye of Zul
-r(66444),	-- Turbid Eye of Zul \\ Opaque Eye of Zul
-r(66449),	-- Delicate Cardinal Ruby \\ Bright Cardinal Ruby
-r(66451),	-- Smooth King's Amber \\ Fractured Cardinal Ruby
-r(66500),	-- Sparkling Majestic Zircon \\ Lustrous Majestic Zircon
-r(66503),	-- Brilliant Cardinal Ruby \\ Brilliant King's Amber
-r(66504),	-- Subtle King's Amber \\ Thick King's Amber
-r(66553),	-- Shifting Dreadstone \\ Balanced Dreadstone
-r(66555),	-- Timeless Dreadstone \\ Glowing Dreadstone
-r(66558),	-- Purified Dreadstone \\ Royal Dreadstone
-r(66559),	-- Regal Eye of Zul \\ Regal Dreadstone
-r(66563),	-- Jagged Eye of Zul \\ Puissant Dreadstone
-r(66564),	-- Glinting Dreadstone \\ Infused Dreadstone
-r(66565),	-- Glinting Dreadstone \\ Tenuous Dreadstone
-r(66566),	-- Purified Dreadstone \\ Luminous Ametrine
-r(66575),	-- Glinting Dreadstone \\ Glinting Ametrine
-r(66577),	-- Deadly Ametrine \\ Wicked Ametrine
-r(66578),	-- Stalwart Ametrine \\ Glimmering Ametrine
-r(66580),	-- Lucent Ametrine \\ Empowered Ametrine
-r(66587),	-- Deft Ametrine \\ Stark Ametrine
 4.0.1.12911
-r(73222),	-- Bold Carnelian
-r(73223),	-- Delicate Carnelian
-r(73225),	-- Brilliant Carnelian
-r(73226),	-- Precise Carnelian
-r(73227),	-- Solid Zephyrite
-r(73228),	-- Sparkling Zephyrite
-r(73230),	-- Rigid Zephyrite
-r(73232),	-- Smooth Alicite
-r(73234),	-- Quick Alicite
-r(73239),	-- Fractured Alicite
-r(73240),	-- Sovereign Nightstone
-r(73241),	-- Shifting Nightstone
-r(73243),	-- Timeless Nightstone
-r(73246),	-- Etched Nightstone
-r(73247),	-- Glinting Nightstone
-r(73249),	-- Veiled Nightstone
-r(73250),	-- Accurate Nightstone
-r(73267),	-- Skillful Hessonite
-r(73268),	-- Adept Hessonite
-r(73270),	-- Artful Hessonite
-r(73274),	-- Jagged Jasper
-r(73279),	-- Puissant Jasper
-r(73281),	-- Sensei's Jasper
-r(73318),	-- Jewelcrafting
-r(73478),	-- Fire Prism
-r(73620),	-- Carnelian Spikes
-r(73621),	-- The Perforator
-r(73622),	-- Stardust
+r(73624),	-- Jeweler's Sapphire Monocle
 r(73639),	-- Figurine - King of Boars
 r(73640),	-- Figurine - Demon Panther
 r(73641),	-- Figurine - Earthen Guardian
 r(73642),	-- Figurine - Jeweled Serpent
 r(73643),	-- Figurine - Dream Owl
-4.3.4.15595
-r(73494),	-- Jasper Ring
-r(73495),	-- Hessonite Band
-r(73496),	-- Alicite Pendant
-r(73497),	-- Nightstone Choker
-r(99539),	-- Vicious Sapphire Ring
-r(99540),	-- Vicious Amberjewel Band
-r(99541),	-- Vicious Ruby Signet
-r(99542),	-- Vicious Sapphire Necklace
-r(99543),	-- Vicious Amberjewel Pendant
-r(99544),	-- Vicious Ruby Choker
 5.0.3.15890
 r(106947),	-- Rigid River's Heart
 r(106948),	-- Stormy River's Heart
@@ -365,173 +177,132 @@ r(248938),	-- Empyrial Hesselian Setting
 r(248939),	-- Empyrial Florid Malachite Setting
 r(248940),	-- Empyrial Crown
 8.0.1.25902
-r(264537),	-- Northrend Jewelcrafting
-r(264539),	-- Cataclysm Jewelcrafting
 r(264542),	-- Pandaria Jewelcrafting
 r(264544),	-- Draenor Jewelcrafting
 10.0.0.44649
 r(382975),	-- Legion Prospecting
 r(382977),	-- Pandaria Prospecting
-r(382978),	-- Cataclysm Prospecting
-r(382979),	-- Northrend Prospecting
-r(382980),	-- Outland Prospecting
-r(382995),	-- Classic Prospecting
+12.0.0.63534
+r(471011),	-- Midnight Jewelcrafting
+r(471045),	-- Recraft Equipment
+r(1230437),	-- Quick Peridot
+r(1230439),	-- Deadly Peridot
+r(1230440),	-- Masterful Peridot
+r(1230441),	-- Versatile Peridot
+r(1230442),	-- Flawless Quick Peridot
+r(1230443),	-- Flawless Deadly Peridot
+r(1230444),	-- Flawless Masterful Peridot
+r(1230445),	-- Flawless Versatile Peridot
+r(1230446),	-- Quick Lapis
+r(1230447),	-- Deadly Lapis
+r(1230448),	-- Masterful Lapis
+r(1230449),	-- Versatile Lapis
+r(1230450),	-- Flawless Quick Lapis
+r(1230451),	-- Flawless Deadly Lapis
+r(1230452),	-- Flawless Masterful Lapis
+r(1230453),	-- Flawless Versatile Lapis
+r(1230454),	-- Quick Amethyst
+r(1230455),	-- Deadly Amethyst
+r(1230456),	-- Masterful Amethyst
+r(1230457),	-- Versatile Amethyst
+r(1230458),	-- Flawless Quick Amethyst
+r(1230459),	-- Flawless Deadly Amethyst
+r(1230460),	-- Flawless Masterful Amethyst
+r(1230461),	-- Flawless Versatile Amethyst
+r(1230462),	-- Quick Garnet
+r(1230463),	-- Deadly Garnet
+r(1230464),	-- Masterful Garnet
+r(1230465),	-- Versatile Garnet
+r(1230466),	-- Flawless Quick Garnet
+r(1230467),	-- Flawless Deadly Garnet
+r(1230468),	-- Flawless Masterful Garnet
+r(1230469),	-- Flawless Versatile Garnet
+r(1230470),	-- Powerful Eversong Diamond
+r(1230471),	-- Telluric Eversong Diamond
+r(1230472),	-- Stoic Eversong Diamond
+r(1230473),	-- Indecipherable Eversong Diamond
+r(1230474),	-- Kalidescopic Prism
+r(1230475),	-- Sin'dorei Lens
+r(1230476),	-- Sunglass Vial
+r(1230477),	-- Prismatic Focusing Iris
+r(1230478),	-- Stabilizing Gemstone Bandolier
+r(1230479),	-- Loa Worshiper's Band
+r(1230481),	-- Harandar Peridot Prism
+r(1230482),	-- Amani Lapis Prism
+r(1230483),	-- Tenebrous Amethyst Prism
+r(1230484),	-- Sanguine Garnet Prism
+r(1230485),	-- Masterwork Sin'dorei Band
+r(1230486),	-- Masterwork Sin'dorei Amulet
+r(1230487),	-- Signet of Azerothian Blessings
+r(1230488),	-- Thalassian Phoenix Torque
+r(1230489),	-- Gleaming Copper Ring
+r(1230490),	-- Nocturnal Charm
+r(1230491),	-- Silvermoon Focusing Shard
+r(1230492),	-- Silvermoon Loupes
+r(1230493),	-- Fantastic Font Focuser
+r(1230494),	-- Bold Biographer's Bifocals
+r(1230495),	-- Sin'dorei Enchanter's Crystal
+r(1230496),	-- Sin'dorei Jeweler's Loupes
+r(1230497),	-- Improved Right-Handed Magnifying Glass
+r(1230498),	-- Sin'dorei Scribe's Spectacles
+r(1230499),	-- Monologuer's Chalice
+r(1230500),	-- Determined Heliotrope
+r(1230501),	-- Cognitive Heliotrope
+r(1230502),	-- Enduring Heliotrope
+r(1230503),	-- Thalassian Competitor's Signet
+r(1230504),	-- Thalassian Competitor's Amulet
+r(1231127),	-- Midnight Prospecting
+r(1231132),	-- Midnight Crushing
+r(1242461),	-- Mage-Eye Precision Loupes
+r(1242462),	-- Thalassian Scribe's Crystalline Lens
+r(1242463),	-- Flawless Text Scrutinizers
+r(1242464),	-- Attuned Thalassian Rune-Prism
+r(1246889),	-- Gilded Thalassian Armillary
+r(1246891),	-- Bejeweled Sin'dorei Lyre
+r(1246892),	-- Resplendent Highborne Statue
+r(1246893),	-- Miniature Replica Haranir Mural
+r(1246894),	-- Shining Sin'dorei Hourglass
+r(1246895),	-- Brilliant Phoenix Harp
+r(1251983),	-- Voidstone Shielding Array
+r(1259369),	-- Valdrakken Gilded Throne
+r(1259384),	-- Valdrakken Fence
+r(1259386),	-- Valdrakken Fencepost
+r(1260096),	-- Octagonal Ochre Window
+r(1260172),	-- Gundargaz Candelabra
+r(1260492),	-- Zandalari Skullfire Lamp
+r(1260501),	-- Small Mask of Bwonsamdi, Loa of Graves
+r(1260757),	-- Shaded Suramar Window
+r(1261071),	-- Draenic Basin
+r(1261075),	-- Draenethyst Sconce
+r(1261242),	-- Jade Temple Dragon Fountain
+r(1261243),	-- Pandaren Stone Wall
+r(1261244),	-- Pandaren Stone Post
+r(1261305),	-- Smoke Sconce
+r(1261659),	-- Ironforge Chandelier
+r(1261667),	-- Blackrock Lamppost
+r(1262357),	-- Smoke Lamp
+r(1263351),	-- Suramar Jeweler's Assortment
+r(1263577),	-- Kirin Tor Glass Table
+r(1263605),	-- Kirin Tor Sun Chandelier
+r(1263815),	-- Shattrath Lamppost
+r(1263817),	-- Shattrath Sconce
+r(1265606),	-- Multicraft
+r(1265619),	-- Knowledge
+r(1265656),	-- Quality
+r(1265664),	-- Sparks
+r(1265671),	-- Artisan Jewelcrafter's Moxie
+r(1265680),	-- Concentration
+r(1265690),	-- Skill
+r(1265698),	-- Resourcefulness
+r(1265706),	-- Ingenuity
 
 
 
 
 Missing in Jewelcrafting
 
-3.0.1.8622
-r(53831),	-- Bold Bloodstone
-r(53832),	-- Delicate Bloodstone
-r(53834),	-- Brilliant Bloodstone \\ Runed Bloodstone
-r(53835),	-- Delicate Bloodstone \\ Bright Bloodstone
-r(53843),	-- Subtle Sun Crystal \\ Subtle Bloodstone
-r(53844),	-- Flashing Bloodstone
-r(53845),	-- Smooth Sun Crystal \\ Fractured Bloodstone
-r(53852),	-- Brilliant Bloodstone \\ Brilliant Sun Crystal
-r(53853),	-- Smooth Sun Crystal
-r(53854),	-- Rigid Chalcedony \\ Rigid Sun Crystal
-r(53855),	-- Subtle Sun Crystal \\ Thick Sun Crystal
-r(53856),	-- Quick Sun Crystal
-r(53859),	-- Sovereign Shadow Crystal
-r(53860),	-- Shifting Shadow Crystal
-r(53861),	-- Glinting Shadow Crystal \\ Tenuous Shadow Crystal
-r(53862),	-- Timeless Shadow Crystal \\ Glowing Shadow Crystal
-r(53863),	-- Purified Shadow Crystal
-r(53864),	-- Purified Shadow Crystal \\ Royal Shadow Crystal
-r(53866),	-- Shifting Shadow Crystal \\ Balanced Shadow Crystal
-r(53867),	-- Glinting Shadow Crystal \\ Infused Shadow Crystal
-r(53868),	-- Regal Dark Jade \\ Regal Shadow Crystal
-r(53870),	-- Jagged Dark Jade \\ Puissant Shadow Crystal
-r(53871),	-- Guardian's Shadow Crystal
-r(53872),	-- Inscribed Huge Citrine
-r(53873),	-- Etched Shadow Crystal \\ Etched Huge Citrine
-r(53874),	-- Champion's Huge Citrine
-r(53876),	-- Fierce Huge Citrine
-r(53878),	-- Glinting Shadow Crystal \\ Glinting Huge Citrine
-r(53880),	-- Deft Huge Citrine
-r(53881),	-- Reckless Huge Citrine \\ Luminous Huge Citrine
-r(53882),	-- Potent Huge Citrine
-r(53883),	-- Veiled Shadow Crystal \\ Veiled Huge Citrine
-r(53886),	-- Deadly Huge Citrine \\ Wicked Huge Citrine
-r(53887),	-- Glinting Shadow Crystal \\ Pristine Huge Citrine
-r(53888),	-- Lucent Huge Citrine \\ Empowered Huge Citrine
-r(53889),	-- Deft Huge Citrine \\ Stark Huge Citrine
-r(53890),	-- Stalwart Huge Citrine
-r(53891),	-- Stalwart Huge Citrine \\ Glimmering Huge Citrine
-r(53892),	-- Accurate Shadow Crystal \\ Accurate Huge Citrine
-r(53893),	-- Resolute Huge Citrine
-r(53894),	-- Timeless Shadow Crystal \\ Timeless Dark Jade
-r(53916),	-- Jagged Dark Jade
-r(53918),	-- Regal Dark Jade \\ Enduring Dark Jade
-r(53920),	-- Forceful Dark Jade
-r(53922),	-- Misty Dark Jade
-r(53923),	-- Lightning Dark Jade \\ Shining Dark Jade
-r(53925),	-- Energized Dark Jade \\ Intricate Dark Jade
-r(53926),	-- Purified Shadow Crystal \\ Dazzling Dark Jade
-r(53927),	-- Misty Dark Jade \\ Sundered Dark Jade
-r(53928),	-- Lightning Dark Jade \\ Lambent Dark Jade
-r(53929),	-- Turbid Dark Jade \\ Opaque Dark Jade
-r(53930),	-- Energized Dark Jade
-r(53931),	-- Radiant Dark Jade
-r(53934),	-- Solid Chalcedony
-r(53940),	-- Sparkling Chalcedony
-r(53941),	-- Sparkling Chalcedony \\ Lustrous Chalcedony
-r(53947),	-- Delicate Scarlet Ruby \\ Bright Scarlet Ruby
-r(53950),	-- Smooth Autumn's Glow \\ Fractured Scarlet Ruby
-r(53953),	-- Sparkling Sky Sapphire
-r(53956),	-- Brilliant Scarlet Ruby \\ Brilliant Autumn's Glow
-r(53959),	-- Subtle Autumn's Glow \\ Thick Autumn's Glow
-r(53964),	-- Glinting Twilight Opal \\ Tenuous Twilight Opal
-r(53967),	-- Purified Twilight Opal \\ Royal Twilight Opal
-r(53969),	-- Shifting Twilight Opal \\ Balanced Twilight Opal
-r(53970),	-- Glinting Twilight Opal \\ Infused Twilight Opal
-r(53971),	-- Regal Forest Emerald \\ Regal Twilight Opal
-r(53973),	-- Jagged Forest Emerald \\ Puissant Twilight Opal
-r(53979),	-- Deadly Monarch Topaz
-r(53982),	-- Deft Monarch Topaz
-r(53983),	-- Reckless Monarch Topaz \\ Luminous Monarch Topaz
-r(53989),	-- Glinting Twilight Opal \\ Pristine Monarch Topaz
-r(53990),	-- Lucent Monarch Topaz \\ Empowered Monarch Topaz
-r(53992),	-- Stalwart Monarch Topaz
-r(53995),	-- Timeless Twilight Opal \\ Timeless Forest Emerald
-r(54002),	-- Purified Twilight Opal \\ Seer's Forest Emerald
-r(54004),	-- Lightning Forest Emerald \\ Shining Forest Emerald
-r(54006),	-- Energized Forest Emerald \\ Intricate Forest Emerald
-r(54007),	-- Purified Twilight Opal \\ Dazzling Forest Emerald
-r(54008),	-- Misty Forest Emerald \\ Sundered Forest Emerald
-r(54010),	-- Turbid Forest Emerald \\ Opaque Forest Emerald
-r(54013),	-- Radiant Forest Emerald \\ Tense Forest Emerald
-r(54017),	-- Precise Bloodstone
-3.0.1.8874
-r(55386),	-- Tireless Skyflare Diamond
-r(55394),	-- Swift Skyflare Diamond
-r(55399),	-- Powerful Earthsiege Diamond
-r(55402),	-- Persistent Earthsiege Diamond
-r(55534),	-- Gem Perfection
-r(56054),	-- Delicate Dragon's Eye \\ Bright Dragon's Eye
-r(56074),	-- Brilliant Dragon's Eye
-r(56076),	-- Smooth Dragon's Eye \\ Fractured Dragon's Eye
-r(56077),	-- Sparkling Dragon's Eye \\ Lustrous Dragon's Eye
-r(56089),	-- Subtle Dragon's Eye \\ Thick Dragon's Eye
-r(56193),	-- Bloodstone Band
-r(56194),	-- Sun Rock Ring
-r(56195),	-- Jade Dagger Pendant
-r(56196),	-- Blood Sun Necklace
-r(56197),	-- Dream Signet
-r(56199),	-- Figurine - Ruby Hare \\ Ruby Hare
-r(56201),	-- Figurine - Twilight Serpent \\ Twilight Serpent
-r(56202),	-- Figurine - Sapphire Owl \\ Sapphire Owl
-r(56203),	-- Figurine - Emerald Boar \\ Emerald Boar
-r(56205),	-- Dark Jade Focusing Lens
-r(56206),	-- Shadow Crystal Focusing Lens
-r(56208),	-- Shadow Jade Focusing Lens
-r(56530),	-- Enchanted Pearl
-r(56531),	-- Enchanted Tear
-3.1.0.9767
-r(58141),	-- Crystal Citrine Necklace
-r(58142),	-- Crystal Chalcedony Amulet
-r(58143),	-- Earthshadow Ring
-r(58144),	-- Jade Ring of Slaying
-r(58145),	-- Stoneguard Band
-r(58146),	-- Shadowmight Ring
-r(59759),	-- Figurine - Monarch Crab \\ Monarch Crab
-r(62242),	-- Icy Prism
-r(62941),	-- Prismatic Black Diamond
-r(63743),	-- Amulet of Truesight
-r(64725),	-- Emerald Choker
-r(64726),	-- Sky Sapphire Amulet
-r(64727),	-- Runed Mana Band
-r(64728),	-- Scarlet Signet
-3.3.5.12340
-r(66430),	-- Purified Dreadstone \\ Dazzling Eye of Zul
-r(66433),	-- Purified Dreadstone \\ Seer's Eye of Zul
-r(66436),	-- Misty Eye of Zul \\ Sundered Eye of Zul
-r(66437),	-- Lightning Eye of Zul \\ Shining Eye of Zul
-r(66438),	-- Radiant Eye of Zul \\ Tense Eye of Zul
-r(66440),	-- Energized Eye of Zul \\ Intricate Eye of Zul
-r(66444),	-- Turbid Eye of Zul \\ Opaque Eye of Zul
-r(66449),	-- Delicate Cardinal Ruby \\ Bright Cardinal Ruby
-r(66451),	-- Smooth King's Amber \\ Fractured Cardinal Ruby
-r(66500),	-- Sparkling Majestic Zircon \\ Lustrous Majestic Zircon
-r(66503),	-- Brilliant Cardinal Ruby \\ Brilliant King's Amber
-r(66504),	-- Subtle King's Amber \\ Thick King's Amber
-r(66553),	-- Shifting Dreadstone \\ Balanced Dreadstone
-r(66555),	-- Timeless Dreadstone \\ Glowing Dreadstone
-r(66558),	-- Purified Dreadstone \\ Royal Dreadstone
-r(66559),	-- Regal Eye of Zul \\ Regal Dreadstone
-r(66563),	-- Jagged Eye of Zul \\ Puissant Dreadstone
-r(66564),	-- Glinting Dreadstone \\ Infused Dreadstone
-r(66565),	-- Glinting Dreadstone \\ Tenuous Dreadstone
-r(66566),	-- Purified Dreadstone \\ Luminous Ametrine
-r(66575),	-- Glinting Dreadstone \\ Glinting Ametrine
-r(66577),	-- Deadly Ametrine \\ Wicked Ametrine
-r(66578),	-- Stalwart Ametrine \\ Glimmering Ametrine
-r(66580),	-- Lucent Ametrine \\ Empowered Ametrine
-r(66587),	-- Deft Ametrine \\ Stark Ametrine
 4.0.1.12911
+r(73624),	-- Jeweler's Sapphire Monocle
 r(73639),	-- Figurine - King of Boars
 r(73640),	-- Figurine - Demon Panther
 r(73641),	-- Figurine - Earthen Guardian
@@ -670,7 +441,6 @@ r(107743),	-- Radiant Wild Jade
 r(107744),	-- Regal Wild Jade
 r(107745),	-- Shattered Wild Jade
 r(107746),	-- Steady Wild Jade
-r(110420),	-- Jewelcrafting
 r(122661),	-- Ornate Band
 r(122662),	-- Shadowfire Necklace
 r(122663),	-- Scrying Roguestone
@@ -729,3 +499,116 @@ r(248937),	-- Empyrial Circlet
 r(248938),	-- Empyrial Hesselian Setting
 r(248939),	-- Empyrial Florid Malachite Setting
 r(248940),	-- Empyrial Crown
+12.0.0.63534
+r(471011),	-- Midnight Jewelcrafting
+r(471045),	-- Recraft Equipment
+r(1230437),	-- Quick Peridot
+r(1230439),	-- Deadly Peridot
+r(1230440),	-- Masterful Peridot
+r(1230441),	-- Versatile Peridot
+r(1230442),	-- Flawless Quick Peridot
+r(1230443),	-- Flawless Deadly Peridot
+r(1230444),	-- Flawless Masterful Peridot
+r(1230445),	-- Flawless Versatile Peridot
+r(1230446),	-- Quick Lapis
+r(1230447),	-- Deadly Lapis
+r(1230448),	-- Masterful Lapis
+r(1230449),	-- Versatile Lapis
+r(1230450),	-- Flawless Quick Lapis
+r(1230451),	-- Flawless Deadly Lapis
+r(1230452),	-- Flawless Masterful Lapis
+r(1230453),	-- Flawless Versatile Lapis
+r(1230454),	-- Quick Amethyst
+r(1230455),	-- Deadly Amethyst
+r(1230456),	-- Masterful Amethyst
+r(1230457),	-- Versatile Amethyst
+r(1230458),	-- Flawless Quick Amethyst
+r(1230459),	-- Flawless Deadly Amethyst
+r(1230460),	-- Flawless Masterful Amethyst
+r(1230461),	-- Flawless Versatile Amethyst
+r(1230462),	-- Quick Garnet
+r(1230463),	-- Deadly Garnet
+r(1230464),	-- Masterful Garnet
+r(1230465),	-- Versatile Garnet
+r(1230466),	-- Flawless Quick Garnet
+r(1230467),	-- Flawless Deadly Garnet
+r(1230468),	-- Flawless Masterful Garnet
+r(1230469),	-- Flawless Versatile Garnet
+r(1230470),	-- Powerful Eversong Diamond
+r(1230471),	-- Telluric Eversong Diamond
+r(1230472),	-- Stoic Eversong Diamond
+r(1230473),	-- Indecipherable Eversong Diamond
+r(1230474),	-- Kalidescopic Prism
+r(1230475),	-- Sin'dorei Lens
+r(1230476),	-- Sunglass Vial
+r(1230477),	-- Prismatic Focusing Iris
+r(1230478),	-- Stabilizing Gemstone Bandolier
+r(1230479),	-- Loa Worshiper's Band
+r(1230481),	-- Harandar Peridot Prism
+r(1230482),	-- Amani Lapis Prism
+r(1230483),	-- Tenebrous Amethyst Prism
+r(1230484),	-- Sanguine Garnet Prism
+r(1230485),	-- Masterwork Sin'dorei Band
+r(1230486),	-- Masterwork Sin'dorei Amulet
+r(1230487),	-- Signet of Azerothian Blessings
+r(1230488),	-- Thalassian Phoenix Torque
+r(1230489),	-- Gleaming Copper Ring
+r(1230490),	-- Nocturnal Charm
+r(1230491),	-- Silvermoon Focusing Shard
+r(1230492),	-- Silvermoon Loupes
+r(1230493),	-- Fantastic Font Focuser
+r(1230494),	-- Bold Biographer's Bifocals
+r(1230495),	-- Sin'dorei Enchanter's Crystal
+r(1230496),	-- Sin'dorei Jeweler's Loupes
+r(1230497),	-- Improved Right-Handed Magnifying Glass
+r(1230498),	-- Sin'dorei Scribe's Spectacles
+r(1230499),	-- Monologuer's Chalice
+r(1230500),	-- Determined Heliotrope
+r(1230501),	-- Cognitive Heliotrope
+r(1230502),	-- Enduring Heliotrope
+r(1230503),	-- Thalassian Competitor's Signet
+r(1230504),	-- Thalassian Competitor's Amulet
+r(1231127),	-- Midnight Prospecting
+r(1231132),	-- Midnight Crushing
+r(1242461),	-- Mage-Eye Precision Loupes
+r(1242462),	-- Thalassian Scribe's Crystalline Lens
+r(1242463),	-- Flawless Text Scrutinizers
+r(1242464),	-- Attuned Thalassian Rune-Prism
+r(1246889),	-- Gilded Thalassian Armillary
+r(1246891),	-- Bejeweled Sin'dorei Lyre
+r(1246892),	-- Resplendent Highborne Statue
+r(1246893),	-- Miniature Replica Haranir Mural
+r(1246894),	-- Shining Sin'dorei Hourglass
+r(1246895),	-- Brilliant Phoenix Harp
+r(1251983),	-- Voidstone Shielding Array
+r(1259369),	-- Valdrakken Gilded Throne
+r(1259384),	-- Valdrakken Fence
+r(1259386),	-- Valdrakken Fencepost
+r(1260096),	-- Octagonal Ochre Window
+r(1260172),	-- Gundargaz Candelabra
+r(1260492),	-- Zandalari Skullfire Lamp
+r(1260501),	-- Small Mask of Bwonsamdi, Loa of Graves
+r(1260757),	-- Shaded Suramar Window
+r(1261071),	-- Draenic Basin
+r(1261075),	-- Draenethyst Sconce
+r(1261242),	-- Jade Temple Dragon Fountain
+r(1261243),	-- Pandaren Stone Wall
+r(1261244),	-- Pandaren Stone Post
+r(1261305),	-- Smoke Sconce
+r(1261659),	-- Ironforge Chandelier
+r(1261667),	-- Blackrock Lamppost
+r(1262357),	-- Smoke Lamp
+r(1263351),	-- Suramar Jeweler's Assortment
+r(1263577),	-- Kirin Tor Glass Table
+r(1263605),	-- Kirin Tor Sun Chandelier
+r(1263815),	-- Shattrath Lamppost
+r(1263817),	-- Shattrath Sconce
+r(1265606),	-- Multicraft
+r(1265619),	-- Knowledge
+r(1265656),	-- Quality
+r(1265664),	-- Sparks
+r(1265671),	-- Artisan Jewelcrafter's Moxie
+r(1265680),	-- Concentration
+r(1265690),	-- Skill
+r(1265698),	-- Resourcefulness
+r(1265706),	-- Ingenuity

@@ -1,5 +1,48 @@
 11.2.5.62687
 i(254666),	-- Lil' Exodar
+12.0.0.63534
+i(242520),	-- Festival Hot Air Balloon
+i(243146),	-- [DNT] Ren'dorei Struggle
+i(243304),	-- Jubilant Snowman Costume
+i(245580),	-- Rolling Snowball
+i(249468),	-- Twilight's Blade Top Secret Strategy Training Guide
+i(250319),	-- Shadowgraft
+i(250320),	-- Lightgraft
+i(250974),	-- Akil'zon's Updraft
+i(251491),	-- Magical Pet Clicker
+i(251633),	-- Bursting Bounty Bundle
+i(251903),	-- Potatoad Egg
+i(252265),	-- Hexed Potatoad Mucus
+i(253629),	--
+i(256552),	-- Verdant Rutaani Seed
+i(256881),	-- Steward's Bauble
+i(256893),	-- Wretched Dredger's Brand
+i(257736),	-- [DNT] [PH] 12.0 Holy Hearthstone
+i(258963),	-- Shroom Jumper's Parachute
+i(259240),	-- Sin'dorei Wine
 
 
-Nothing is Missing in ToyDB.lua! Good Work!
+
+
+Missing in ToyDB.lua
+
+12.0.0.63534
+i(242520),	-- Festival Hot Air Balloon
+i(243146),	-- [DNT] Ren'dorei Struggle
+i(243304),	-- Jubilant Snowman Costume
+i(245580),	-- Rolling Snowball
+i(249468),	-- Twilight's Blade Top Secret Strategy Training Guide
+i(250319),	-- Shadowgraft
+i(250320),	-- Lightgraft
+i(250974),	-- Akil'zon's Updraft
+i(251491),	-- Magical Pet Clicker
+i(251633),	-- Bursting Bounty Bundle
+i(251903),	-- Potatoad Egg
+i(252265),	-- Hexed Potatoad Mucus
+i(253629),	--
+i(256552),	-- Verdant Rutaani Seed
+i(256881),	-- Steward's Bauble
+i(256893),	-- Wretched Dredger's Brand
+i(257736),	-- [DNT] [PH] 12.0 Holy Hearthstone
+i(258963),	-- Shroom Jumper's Parachute
+i(259240),	-- Sin'dorei Wine
