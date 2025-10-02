@@ -1565,7 +1565,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(32673, {	-- Learn To Ride (Goblin)
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Goblins upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Goblins upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { GOBLIN },
 					["lockCriteria"] = { 1,
@@ -1579,7 +1585,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["DisablePartySync"] = true,
 				}),
 				q(32669, {	-- Learn To Ride (Orc)
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Orcs upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Orcs upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { ORC },
 					["lockCriteria"] = { 1,
@@ -1593,7 +1605,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["DisablePartySync"] = true,
 				}),
 				q(32667, {	-- Learn To Ride (Pandaren)
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Pandaren upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Pandaren upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { PANDAREN_HORDE },
 					["lockCriteria"] = { 1,

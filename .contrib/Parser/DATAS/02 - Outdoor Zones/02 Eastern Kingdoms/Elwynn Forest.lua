@@ -2724,7 +2724,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(32618, {	-- Learn To Ride
 					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Humans upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Humans upon reaching level 20.",
+					-- #endif
 					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { HUMAN },

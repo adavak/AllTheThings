@@ -1935,7 +1935,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(32672, {	-- Learn to Ride
-					["description"] = "This quest is available to Undead characters upon reaching level 10.",
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
+					["description"] = "This quest is available to Undead upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Undead upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_4_0_3, REMOVED_10_1_5 },
 					["races"] = { UNDEAD },
 					["lockCriteria"] = { 1,

@@ -2894,7 +2894,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(32671, {	-- Learn To Ride
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Trolls upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Trolls upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { TROLL },
 					["lockCriteria"] = { 1,

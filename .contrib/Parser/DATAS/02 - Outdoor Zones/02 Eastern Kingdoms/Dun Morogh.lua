@@ -460,7 +460,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["groups"] = {
 								-- #if BEFORE MOP
 								-- #else
-								objective(2, {	-- 0/5 Practice Steady Shot 
+								objective(2, {	-- 0/5 Practice Steady Shot
 									["provider"] = { "n", 44389 },	-- Training Dummy
 								}),
 								-- #endif
@@ -1027,7 +1027,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["groups"] = {
 								-- #if BEFORE MOP
 								-- #else
-								objective(2, {	-- 0/2 Practice Primal Strike 
+								objective(2, {	-- 0/2 Practice Primal Strike
 									["provider"] = { "n", 44389 },	-- Training Dummy
 								}),
 								-- #endif
@@ -3316,7 +3316,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(32663, {	-- Learn To Ride
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Gnomes upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Gnomes upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { GNOME },
 					["lockCriteria"] = { 1,
@@ -3331,7 +3337,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 				}),
 				q(32662, {	-- Learn To Ride
+					-- #if BEFORE 10.1.5
+					-- #if AFTER SL
 					["description"] = "This quest is available to Dwarves upon reaching level 10.",
+					-- #else
+					["description"] = "This quest is available to Dwarves upon reaching level 20.",
+					-- #endif
+					-- #endif
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { DWARF },
 					["lockCriteria"] = { 1,
