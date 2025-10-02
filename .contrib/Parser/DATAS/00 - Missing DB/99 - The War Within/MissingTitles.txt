@@ -21,10 +21,6 @@ title(645),	-- Khaz Algar Enthusiast %s
 title(0),	-- Loa-speaker %s
 title(642),	-- %s, Thorn of Twilight
 title(643),	-- %s, Definitely Not a Cultist
-title(651),	-- Galactic Marshal %s
-title(652),	-- Galactic Warlord %s
-title(653),	-- Galactic Legend %s
-title(654),	-- Galactic Gladiator %s
 title(655),	-- %s the Umbral
 title(656),	-- %s the Umbral Hero
 title(657),	-- %s the Furnished

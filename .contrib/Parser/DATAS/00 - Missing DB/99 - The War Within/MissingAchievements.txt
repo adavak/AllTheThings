@@ -204,26 +204,6 @@ ach(61082),	-- Old Soldiers
 ach(61083),	-- Highly Decorated
 ach(61091),	-- Midnight Safari
 ach(61094),	-- Old World Family Battler
-ach(61177),	-- Galactic Marshal: Midnight Season 1
-ach(61178),	-- Galactic Warlord: Midnight Season 1
-ach(61179),	-- Galactic Legend: Midnight Season 1
-ach(61180),	-- Galactic Gladiator: Midnight Season 1
-ach(61181),	-- Combatant I: Midnight Season 1
-ach(61182),	-- Combatant II: Midnight Season 1
-ach(61183),	-- Challenger I: Midnight Season 1
-ach(61184),	-- Challenger II: Midnight Season 1
-ach(61185),	-- Rival I: Midnight Season 1
-ach(61186),	-- Rival II: Midnight Season 1
-ach(61187),	-- Duelist: Midnight Season 1
-ach(61188),	-- Gladiator: Midnight Season 1
-ach(61190),	-- Legend: Midnight Season 1
-ach(61194),	-- Strategist: Midnight Season 1
-ach(61195),	-- Hero of the Alliance: Galactic
-ach(61196),	-- Hero of the Horde: Galactic
-ach(61197),	-- Elite: Midnight Season 1
-ach(61198),	-- Battle Mender: Midnight Season 1
-ach(61199),	-- Solo Shuffle Medic: Midnight
-ach(61200),	-- Battleground Blitz Medic: Midnight
 ach(61211),	-- Welcome Home
 ach(61212),	-- Magisters' Terrace
 ach(61213),	-- Heroic: Magisters' Terrace
@@ -353,8 +333,6 @@ ach(61389),	-- Prey: Hard Mode I
 ach(61391),	-- Prey: Nightmare Mode II
 ach(61392),	-- Prey: Nightmare Mode I
 ach(61394),	-- Master of the Turbulent Timeways IV
-ach(61403),	-- Galactic Combatant
-ach(61405),	-- Galactic Combatant
 ach(61413),	-- The First Rule of Brawler's Guild
 ach(61414),	-- The First Rule of Brawler's Guild
 ach(61419),	-- Brawler's Chilled
@@ -371,14 +349,12 @@ ach(61438),	-- Thalassian Profession Master
 ach(61439),	-- Thalassian Artisan
 ach(61440),	-- Thalassian Polymath
 ach(61441),	-- Working WAY Past Midnight
-ach(61443),	-- Galactic Weapons of Conquest
 ach(61444),	-- Vicious Saddle (43)
 ach(61445),	-- Vicious Saddle (43)
 ach(61446),	-- Slayer's Mastery
 ach(61447),	-- Partake in the Rise
 ach(61448),	-- Frequent the Rise
 ach(61449),	-- Customary Rise
-ach(61450),	-- Galactic Gladiator's Goredrake
 ach(61451),	-- Worldsoul-Searching
 ach(61452),	-- Sojourner of Zul'Aman
 ach(61453),	-- Making an Amani Out of You
