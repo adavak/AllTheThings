@@ -156,6 +156,11 @@
 3.4.1.47245
 143@@@%s, Soul of Iron
 144@@@%s, Survivor of the Firelord
+3.4.5.63309
+145@@@Northbound Rush, %s
+146@@@Dawn's Vanguard, %s
+147@@@The Overlord of Dawn, %s
+148@@@Dream Chaser, %s
 4.0.1.12911
 143@@@Recruit of %s
 144@@@Guardian of %s

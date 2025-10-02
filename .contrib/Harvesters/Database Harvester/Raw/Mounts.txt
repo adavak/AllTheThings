@@ -351,6 +351,8 @@
 121820@@@Obsidian Nightwing
 1249659@@@Moppy the Drake (FINAL NAME TBD)
 1250045@@@Obsidian Worldbreaker Utility (Final Name TBD)
+3.4.5.63309
+1249659@@@Sha-scarred Drake
 4.4.0.53627
 10790@@@Tiger
 13819@@@Summon Warhorse
@@ -525,7 +527,6 @@
 127278@@@Golden Water Strider
 1238816@@@Envoy of Sa'bak
 5.5.1.62856
-1249659@@@Sha-scarred Drake
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild
