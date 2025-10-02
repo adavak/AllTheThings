@@ -22,6 +22,7 @@
 .contrib/Source Code/Blizzard API Harvester/packages/
 .contrib/Source Code/Parser/packages/
 .contrib/Harvesters/API.key
+.contrib/Harvesters/Client.key
 .contrib/Parser/ATT.pdb
 .contrib/Parser/*.txt
 .contrib/Source Code/Blizzard API Harvester/bin/

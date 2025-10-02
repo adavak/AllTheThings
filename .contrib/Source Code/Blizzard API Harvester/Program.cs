@@ -1,3 +1,4 @@
+using MiniJSON;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -28,8 +30,7 @@ namespace ATT
         const string API_CALL_SEARCH = "/data/wow/search/{0}?namespace=static-us&locale=en_US&_page={1}&_pageSize=1000";
 
         static string API_KEY = null;
-        private static HttpClient _client;
-        static HttpClient Client => _client ?? (_client = InitClient());
+        static HttpClient Client = InitClient();
         static ConcurrentQueue<string> DataResults { get; } = new ConcurrentQueue<string>();
         static ConcurrentQueue<Tuple<int, string>> APIRequests { get; } = new ConcurrentQueue<Tuple<int, string>>();
         static ConcurrentQueue<Tuple<int, Task<HttpResponseMessage>>> APIResults { get; } = new ConcurrentQueue<Tuple<int, Task<HttpResponseMessage>>>();
@@ -213,7 +214,6 @@ namespace ATT
 
         private static void StartSearchForObjectType(ObjType objType)
         {
-            InitClient();
             Thread thread = new Thread(SearchForObjectType)
             {
                 IsBackground = true,
@@ -523,7 +523,6 @@ namespace ATT
         static void HarvestItems()
         {
             MaxItemID = ScanExistingData(MaxItemID);
-            InitClient();
             RawAPICallFormat = API_CALL_ITEM;
             int i = MaxItemID;
             while (i >= MinItemID)
@@ -547,7 +546,6 @@ namespace ATT
         static void HarvestQuests()
         {
             MaxQuestID = ScanExistingData(MaxQuestID);
-            InitClient();
             RawAPICallFormat = API_CALL_QUEST;
             int i = MaxQuestID;
             while (i >= MinQuestID)
@@ -594,6 +592,16 @@ namespace ATT
 
         private static HttpClient InitClient()
         {
+            if (File.Exists("Client.key"))
+            {
+                var clientInfo = File.ReadAllText("Client.key").Split(new[] { ',' });
+                var access_token = GetAccessToken(clientInfo[0].Trim(), clientInfo[1].Trim());
+                if (!string.IsNullOrEmpty(access_token))
+                {
+                    File.WriteAllText("API.key", access_token);
+                }
+            }
+
             while (!File.Exists("API.key"))
             {
                 Console.WriteLine("You are missing an 'API.key' API Key file! Please get one and try again.");
@@ -608,6 +616,7 @@ namespace ATT
             };
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            client.DefaultRequestHeaders.AcceptCharset.Add(new StringWithQualityHeaderValue("utf-8"));
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", API_KEY);
 
             return client;
@@ -1597,5 +1606,36 @@ namespace ATT
                 return ex.Message;
             }
         }
+
+        public static string GetAccessToken(string clientId, string clientSecret)
+        {
+            using (var request = new HttpRequestMessage(HttpMethod.Post, "https://oauth.battle.net/token"))
+            {
+                // Set the Basic Auth header
+                var authValue = Convert.ToBase64String(Encoding.UTF8.GetBytes($"{clientId}:{clientSecret}"));
+                request.Headers.Authorization = new AuthenticationHeaderValue("Basic", authValue);
+
+                // Set the form content
+                request.Content = new StringContent("grant_type=client_credentials", Encoding.UTF8, "application/x-www-form-urlencoded");
+
+                // Send the request
+                using (var tempClient = new HttpClient())
+                {
+                    var response = tempClient.SendAsync(request).GetAwaiter().GetResult();
+                    response.EnsureSuccessStatusCode();
+
+                    // Return the response body (JSON string)
+                    var tokenJson = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+                    var tokenData = (Dictionary<string, object>)Json.Deserialize(tokenJson);
+                    if (tokenData.TryGetValue("access_token", out string access_token))
+                    {
+                        return access_token;
+                    }
+                }
+
+                return null;
+            }
+        }
+
     }
 }
