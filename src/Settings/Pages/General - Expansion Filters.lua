@@ -15,69 +15,39 @@ else
 	headerExpansions:SetPoint("TOPLEFT", child, "TOPLEFT", 8, -8);
 end
 
-local textExpansionsExplain = child:CreateTextLabel(L.EXPANSION_EXPLAIN_LABEL)
+local textExpansionsExplain = child:CreateTextLabel(L.EXPANSION_EXPLAIN_LABEL.."\n\n"..L.EXPANSION_FILTER_ENABLE_TOOLTIP)
 textExpansionsExplain:SetPoint("TOPLEFT", headerExpansions, "BOTTOMLEFT", 0, -4)
 
 -- Expansion data structure
 local expansions = {
-	{ id = 1, key = "ExpansionFilter:Classic" },
-	{ id = 2, key = "ExpansionFilter:TBC" },
-	{ id = 3, key = "ExpansionFilter:Wrath" },
-	{ id = 4, key = "ExpansionFilter:Cata" },
-	{ id = 5, key = "ExpansionFilter:MoP" },
-	{ id = 6, key = "ExpansionFilter:WoD" },
-	{ id = 7, key = "ExpansionFilter:Legion" },
-	{ id = 8, key = "ExpansionFilter:BfA" },
-	{ id = 9, key = "ExpansionFilter:SL" },
-	{ id = 10, key = "ExpansionFilter:DF" },
-	{ id = 11, key = "ExpansionFilter:TWW" },
+	{ key = "ExpansionFilter:Classic" },
+	{ key = "ExpansionFilter:TBC" },
+	{ key = "ExpansionFilter:Wrath" },
+	{ key = "ExpansionFilter:Cata" },
+	{ key = "ExpansionFilter:MoP" },
+	{ key = "ExpansionFilter:WoD" },
+	{ key = "ExpansionFilter:Legion" },
+	{ key = "ExpansionFilter:BfA" },
+	{ key = "ExpansionFilter:SL" },
+	{ key = "ExpansionFilter:DF" },
+	{ key = "ExpansionFilter:TWW" },
 }
-
--- Enable/Disable Feature Toggle
-local checkboxEnableFeature = child:CreateCheckBox(
-	L.EXPANSION_FILTER_ENABLE,
-	function(self)
-		-- OnRefresh
-		self:SetChecked(settings:Get("ExpansionFilter:Enabled"))
-		if app.MODE_DEBUG then
-			self:Disable()
-			self:SetAlpha(0.4)
-		else
-			self:Enable()
-			self:SetAlpha(1)
-		end
-	end,
-	function(self)
-		-- OnClick
-		local isChecked = self:GetChecked()
-		settings:Set("ExpansionFilter:Enabled", self:GetChecked())
-
-		if not isChecked then
-			-- If disabling, reset all expansions to checked
-			for _, expansion in ipairs(expansions) do
-				settings:Set(expansion.key, true)
-			end
-		end
-
-		settings:UpdateMode(1)
-	end
-)
-checkboxEnableFeature:SetATTTooltip(L.EXPANSION_FILTER_ENABLE_TOOLTIP)
-checkboxEnableFeature:SetPoint("TOPLEFT", textExpansionsExplain, "BOTTOMLEFT", -2, -10)
-checkboxEnableFeature:MarkAsWIP()
+for i = 1,app.CURRENT_EXPANSION do
+	expansions[i].info = app.CreateExpansion(i)
+end
 
 -- Create checkboxes for each expansion
-local lastCheckbox = checkboxEnableFeature
-for i, expansion in ipairs(expansions) do
-	local expansionIcon = app.CreateExpansion(expansion.id).icon
-	local expansionName = app.CreateExpansion(expansion.id).name
+local lastCheckbox = textExpansionsExplain
+local expansion, expansionName
+for i = 1,app.CURRENT_EXPANSION do
+	expansion = expansions[i]
+	expansionName = expansion.info.name
 	local checkbox = child:CreateCheckBox(
-		"|T" .. expansionIcon .. ":0|t |c" .. app.DefaultColors.Insane .. expansionName,
+		"|T" .. expansion.info.icon .. ":0|t |c" .. app.DefaultColors.Insane .. expansionName .. "|r",
 		function(self)
 			-- OnRefresh
 			self:SetChecked(settings:Get(self.expansionKey))
-			local enabled = settings:Get("ExpansionFilter:Enabled")
-			if app.MODE_DEBUG or not enabled then
+			if app.MODE_DEBUG then
 				self:Disable()
 				self:SetAlpha(0.4)
 			else
@@ -92,10 +62,9 @@ for i, expansion in ipairs(expansions) do
 		end
 	)
 	checkbox.expansionKey = expansion.key
-	checkbox.expansionID = expansion.id
 
 	if i == 1 then
-		checkbox:SetPoint("TOPLEFT", lastCheckbox, "BOTTOMLEFT", 18, -10)  -- Indented 20px to the right
+		checkbox:SetPoint("TOPLEFT", lastCheckbox, "BOTTOMLEFT", 0, -10)
 	else
 		checkbox:SetPoint("TOPLEFT", lastCheckbox, "BOTTOMLEFT", 0, -4)
 	end
@@ -111,8 +80,8 @@ local buttonEnableAll = child:CreateButton(
 	{ text = L.EXPANSION_ENABLE_ALL, tooltip = L.EXPANSION_ENABLE_ALL_TOOLTIP },
 	{
 		OnClick = function(self)
-			for _, expansion in ipairs(expansions) do
-				settings:Set(expansion.key, true)
+			for i=1,#expansions do
+				settings:Set(expansions[i].key, true)
 			end
 			settings:UpdateMode(1)
 		end,
@@ -121,8 +90,7 @@ local buttonEnableAll = child:CreateButton(
 buttonEnableAll:SetPoint("LEFT", headerExpansions, 0, 0)
 buttonEnableAll:SetPoint("BOTTOM", child, "BOTTOM", 0, 10)
 buttonEnableAll.OnRefresh = function(self)
-	local enabled = settings:Get("ExpansionFilter:Enabled")
-	if app.MODE_DEBUG or not enabled then
+	if app.MODE_DEBUG then
 		self:Disable()
 	else
 		self:Enable()
@@ -133,8 +101,8 @@ local buttonDisableAll = child:CreateButton(
 	{ text = L.EXPANSION_DISABLE_ALL, tooltip = L.EXPANSION_DISABLE_ALL_TOOLTIP },
 	{
 		OnClick = function(self)
-			for _, expansion in ipairs(expansions) do
-				settings:Set(expansion.key, false)
+			for i=1,#expansions do
+				settings:Set(expansions[i].key, false)
 			end
 			settings:UpdateMode(1)
 		end,
@@ -142,8 +110,7 @@ local buttonDisableAll = child:CreateButton(
 )
 buttonDisableAll:AlignAfter(buttonEnableAll, 8)
 buttonDisableAll.OnRefresh = function(self)
-	local enabled = settings:Get("ExpansionFilter:Enabled")
-	if app.MODE_DEBUG or not enabled then
+	if app.MODE_DEBUG then
 		self:Disable()
 	else
 		self:Enable()
@@ -155,8 +122,8 @@ local buttonCurrentOnly = child:CreateButton(
 	{
 		OnClick = function(self)
 			local currentExpansion = app.CURRENT_EXPANSION or 11
-			for _, expansion in ipairs(expansions) do
-				settings:Set(expansion.key, expansion.id == currentExpansion)
+			for i=1,#expansions do
+				settings:Set(expansions[i].key, i == currentExpansion)
 			end
 			settings:UpdateMode(1)
 		end,
@@ -164,8 +131,7 @@ local buttonCurrentOnly = child:CreateButton(
 )
 buttonCurrentOnly:AlignAfter(buttonDisableAll, 8)
 buttonCurrentOnly.OnRefresh = function(self)
-	local enabled = settings:Get("ExpansionFilter:Enabled")
-	if app.MODE_DEBUG or not enabled then
+	if app.MODE_DEBUG then
 		self:Disable()
 	else
 		self:Enable()

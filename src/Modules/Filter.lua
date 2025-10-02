@@ -9,8 +9,8 @@ local _, app = ...;
 -- Encapsulates the functionality for all filtering logic which is used to check if a given Object meets the applicable filters via User Settings
 
 -- Global locals
-local select, pairs, type, rawget, wipe
-	= select, pairs, type, rawget, wipe
+local select, pairs, type, rawget, wipe,math_floor
+	= select, pairs, type, rawget, wipe,math.floor
 
 -- WoW API Cache
 local GetFactionCurrentReputation = app.WOWAPI.GetFactionCurrentReputation;
@@ -406,11 +406,9 @@ if app.IsRetail then
 		if awp then
 			-- awp field uses patch format like 10205 for patch 1.2.5
 			-- Extract expansion ID from patch value (e.g., 10205 -> 1)
-			local expansionID = math.floor(awp / 10000)
+			local expansionID = math_floor(awp / 10000)
 			-- Direct lookup: if ExpansionFilters[expansionID] is false, filter it out
-			if ExpansionFilters[expansionID] == false then
-				return false
-			end
+			return ExpansionFilters[expansionID]
 		end
 
 		return true
@@ -418,36 +416,28 @@ if app.IsRetail then
 
 	-- Update expansion filter cache when settings change
 	app.AddEventHandler("OnRecalculate_NewSettings", function()
-		-- Check if the feature is enabled
-		local featureEnabled = app.Settings:Get("ExpansionFilter:Enabled")
+		-- Build cache indexed by expansion ID (1-11) for O(1) lookup
+		ExpansionFilters[1] = app.Settings:Get("ExpansionFilter:Classic")
+		ExpansionFilters[2] = app.Settings:Get("ExpansionFilter:TBC")
+		ExpansionFilters[3] = app.Settings:Get("ExpansionFilter:Wrath")
+		ExpansionFilters[4] = app.Settings:Get("ExpansionFilter:Cata")
+		ExpansionFilters[5] = app.Settings:Get("ExpansionFilter:MoP")
+		ExpansionFilters[6] = app.Settings:Get("ExpansionFilter:WoD")
+		ExpansionFilters[7] = app.Settings:Get("ExpansionFilter:Legion")
+		ExpansionFilters[8] = app.Settings:Get("ExpansionFilter:BfA")
+		ExpansionFilters[9] = app.Settings:Get("ExpansionFilter:SL")
+		ExpansionFilters[10] = app.Settings:Get("ExpansionFilter:DF")
+		ExpansionFilters[11] = app.Settings:Get("ExpansionFilter:TWW")
 
-		if featureEnabled then
-			-- Build cache indexed by expansion ID (1-11) for O(1) lookup
-			ExpansionFilters[1] = app.Settings:Get("ExpansionFilter:Classic")
-			ExpansionFilters[2] = app.Settings:Get("ExpansionFilter:TBC")
-			ExpansionFilters[3] = app.Settings:Get("ExpansionFilter:Wrath")
-			ExpansionFilters[4] = app.Settings:Get("ExpansionFilter:Cata")
-			ExpansionFilters[5] = app.Settings:Get("ExpansionFilter:MoP")
-			ExpansionFilters[6] = app.Settings:Get("ExpansionFilter:WoD")
-			ExpansionFilters[7] = app.Settings:Get("ExpansionFilter:Legion")
-			ExpansionFilters[8] = app.Settings:Get("ExpansionFilter:BfA")
-			ExpansionFilters[9] = app.Settings:Get("ExpansionFilter:SL")
-			ExpansionFilters[10] = app.Settings:Get("ExpansionFilter:DF")
-			ExpansionFilters[11] = app.Settings:Get("ExpansionFilter:TWW")
-
-			-- Enable the filter if any expansion is disabled
-			local anyDisabled = false
-			for i = 1, 11 do
-				if ExpansionFilters[i] == false then
-					anyDisabled = true
-					break
-				end
+		-- Enable the filter if any expansion is disabled
+		local anyDisabled = false
+		for i = 1, 11 do
+			if ExpansionFilters[i] == false then
+				anyDisabled = true
+				break
 			end
-			api.Set.ExpansionContent(anyDisabled)
-		else
-			-- Feature is disabled, disable the filter entirely
-			api.Set.ExpansionContent(false)
 		end
+		api.Set.ExpansionContent(anyDisabled)
 	end)
 end
 

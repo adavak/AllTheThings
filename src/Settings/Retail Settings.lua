@@ -322,6 +322,9 @@ settings.Initialize = function(self)
 		settings.AccountWide[thing] = true
 	end
 
+	-- Remove obsolete Settings keys
+	settings:Set("ExpansionFilter:Enabled", nil)
+
 	app._SettingsRefresh = GetTimePreciseSec()
 	settings._Initialize = true
 	-- app.PrintDebug("settings.Initialize:Done")
