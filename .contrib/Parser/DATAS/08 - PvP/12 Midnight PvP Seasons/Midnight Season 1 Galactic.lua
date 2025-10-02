@@ -71,7 +71,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			-- Fashion
 		--	ach(42800),	-- Galactic Attire
 		})),
-		--[[filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+		--[[filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
 			i(243157, {	-- Vicious Void Creeper [A] (MOUNT!)
 				["races"] = ALLIANCE_ONLY,
 			}),

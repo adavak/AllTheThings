@@ -576,3 +576,6 @@ REMOVED_12_PH_PREPATCH = "removed 12.0.0";				-- Midnight 12.PH/Pre-Patch
 CREATED_12_0_0_SEASONSTART = "created 12.0.0";				-- Midnight 12.PH/Launch
 ADDED_12_0_0_SEASONSTART = "added 12.0.0";					-- Midnight 12.PH/Launch
 REMOVED_12_0_0_SEASONSTART = "removed 12.0.0";					-- Midnight 12.PH/Launch
+CREATED_12_1_0 = "created 12.1.0";						-- Midnight 12.1.0
+ADDED_12_1_0 = "added 12.1.0";							-- Midnight 12.1.0
+REMOVED_12_1_0 = "removed 12.1.0";						-- Midnight 12.1.0
