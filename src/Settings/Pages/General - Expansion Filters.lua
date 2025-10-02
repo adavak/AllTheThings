@@ -24,7 +24,7 @@ local checkboxEnableFeature = child:CreateCheckBox(
 	function(self)
 		-- OnRefresh
 		self:SetChecked(settings:Get("ExpansionFilter:Enabled"))
-		if app.MODE_DEBUG_OR_ACCOUNT then
+		if app.MODE_DEBUG then
 			self:Disable()
 			self:SetAlpha(0.4)
 		else
@@ -44,29 +44,31 @@ checkboxEnableFeature:MarkAsWIP()
 
 -- Expansion data structure
 local expansions = {
-	{ id = 1, name = _G.EXPANSION_NAME0, key = "ExpansionFilter:Classic" },
-	{ id = 2, name = _G.EXPANSION_NAME1, key = "ExpansionFilter:TBC" },
-	{ id = 3, name = _G.EXPANSION_NAME2, key = "ExpansionFilter:Wrath" },
-	{ id = 4, name = _G.EXPANSION_NAME3, key = "ExpansionFilter:Cata" },
-	{ id = 5, name = _G.EXPANSION_NAME4, key = "ExpansionFilter:MoP" },
-	{ id = 6, name = _G.EXPANSION_NAME5, key = "ExpansionFilter:WoD" },
-	{ id = 7, name = _G.EXPANSION_NAME6, key = "ExpansionFilter:Legion" },
-	{ id = 8, name = _G.EXPANSION_NAME7, key = "ExpansionFilter:BfA" },
-	{ id = 9, name = _G.EXPANSION_NAME8, key = "ExpansionFilter:SL" },
-	{ id = 10, name = _G.EXPANSION_NAME9, key = "ExpansionFilter:DF" },
-	{ id = 11, name = _G.EXPANSION_NAME10, key = "ExpansionFilter:TWW" },
+	{ id = 1, key = "ExpansionFilter:Classic" },
+	{ id = 2, key = "ExpansionFilter:TBC" },
+	{ id = 3, key = "ExpansionFilter:Wrath" },
+	{ id = 4, key = "ExpansionFilter:Cata" },
+	{ id = 5, key = "ExpansionFilter:MoP" },
+	{ id = 6, key = "ExpansionFilter:WoD" },
+	{ id = 7, key = "ExpansionFilter:Legion" },
+	{ id = 8, key = "ExpansionFilter:BfA" },
+	{ id = 9, key = "ExpansionFilter:SL" },
+	{ id = 10, key = "ExpansionFilter:DF" },
+	{ id = 11, key = "ExpansionFilter:TWW" },
 }
 
 -- Create checkboxes for each expansion
 local lastCheckbox = checkboxEnableFeature
 for i, expansion in ipairs(expansions) do
+	local expansionIcon = app.CreateExpansion(expansion.id).icon
+	local expansionName = app.CreateExpansion(expansion.id).name
 	local checkbox = child:CreateCheckBox(
-		expansion.name,
+		"|T" .. expansionIcon .. ":0|t |c" .. app.DefaultColors.Insane .. expansionName,
 		function(self)
 			-- OnRefresh
 			self:SetChecked(settings:Get(self.expansionKey))
 			local enabled = settings:Get("ExpansionFilter:Enabled")
-			if app.MODE_DEBUG_OR_ACCOUNT or not enabled then
+			if app.MODE_DEBUG or not enabled then
 				self:Disable()
 				self:SetAlpha(0.4)
 			else
@@ -90,7 +92,7 @@ for i, expansion in ipairs(expansions) do
 	end
 
 	-- Set tooltip
-	checkbox:SetATTTooltip(string.format(L.EXPANSION_FILTER_TOOLTIP, expansion.name))
+	checkbox:SetATTTooltip(string.format(L.EXPANSION_FILTER_TOOLTIP, expansionName))
 
 	lastCheckbox = checkbox
 end
@@ -111,7 +113,7 @@ buttonEnableAll:SetPoint("LEFT", headerExpansions, 0, 0)
 buttonEnableAll:SetPoint("BOTTOM", child, "BOTTOM", 0, 10)
 buttonEnableAll.OnRefresh = function(self)
 	local enabled = settings:Get("ExpansionFilter:Enabled")
-	if app.MODE_DEBUG_OR_ACCOUNT or not enabled then
+	if app.MODE_DEBUG or not enabled then
 		self:Disable()
 	else
 		self:Enable()
@@ -132,7 +134,7 @@ local buttonDisableAll = child:CreateButton(
 buttonDisableAll:AlignAfter(buttonEnableAll, 8)
 buttonDisableAll.OnRefresh = function(self)
 	local enabled = settings:Get("ExpansionFilter:Enabled")
-	if app.MODE_DEBUG_OR_ACCOUNT or not enabled then
+	if app.MODE_DEBUG or not enabled then
 		self:Disable()
 	else
 		self:Enable()
@@ -154,7 +156,7 @@ local buttonCurrentOnly = child:CreateButton(
 buttonCurrentOnly:AlignAfter(buttonDisableAll, 8)
 buttonCurrentOnly.OnRefresh = function(self)
 	local enabled = settings:Get("ExpansionFilter:Enabled")
-	if app.MODE_DEBUG_OR_ACCOUNT or not enabled then
+	if app.MODE_DEBUG or not enabled then
 		self:Disable()
 	else
 		self:Enable()

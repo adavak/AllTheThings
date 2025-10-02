@@ -1,9 +1,9 @@
 createLocalizationString({
-	readable = "Enable or disable the expansion content filtering feature.\n\n|cffff0000Warning:|r The timeline information in the current WoD/Legion/BfA databases is incomplete and potentially highly inaccurate. Use with caution.",
+	readable = "Enable or disable the expansion content filtering feature.\n\n|cffff0000Warning:|r The timeline information in the current Classic/WoD/Legion/BfA databases is incomplete and potentially highly inaccurate. Use with caution.",
 	constant = "EXPANSION_FILTER_ENABLE_TOOLTIP",
 	export = true,
 	text = {
-		en = "Enable or disable the expansion content filtering feature.\n\n|cffff0000Warning:|r The timeline information in the current WoD/Legion/BfA databases is incomplete and potentially highly inaccurate. Use with caution.",
+		en = "Enable or disable the expansion content filtering feature.\n\n|cffff0000Warning:|r The timeline information in the current Classic/WoD/Legion/BfA databases is incomplete and potentially highly inaccurate. Use with caution.",
 		es = "Habilitar o deshabilitar la función de filtrado de contenido por expansión.\n\n|cffff0000Advertencia:|r La información de la línea temporal en las bases de datos actuales de WoD/Legion/BfA está incompleta y potencialmente muy inexacta. Úsalo con precaución.",
 		de = "Aktivieren oder deaktivieren Sie die Filterung von Erweiterungsinhalten.\n\n|cffff0000Warnung:|r Die Timeline-Informationen in den aktuellen WoD/Legion/BfA-Datenbanken sind unvollständig und möglicherweise sehr ungenau. Mit Vorsicht verwenden.",
 		fr = "Activer ou désactiver la fonction de filtrage du contenu par extension.\n\n|cffff0000Avertissement :|r Les informations de chronologie dans les bases de données actuelles WoD/Legion/BfA sont incomplètes et potentiellement très inexactes. À utiliser avec prudence.",

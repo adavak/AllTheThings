@@ -104,16 +104,16 @@ local GeneralSettingsBase = {
 		-- Expansion Filters (disabled by default)
 		["ExpansionFilter:Enabled"] = false,
 		["ExpansionFilter:Classic"] = true,
-		["ExpansionFilter:TBC"] = true,
-		["ExpansionFilter:Wrath"] = true,
-		["ExpansionFilter:Cata"] = true,
-		["ExpansionFilter:MoP"] = true,
-		["ExpansionFilter:WoD"] = true,
-		["ExpansionFilter:Legion"] = true,
-		["ExpansionFilter:BfA"] = true,
-		["ExpansionFilter:SL"] = true,
-		["ExpansionFilter:DF"] = true,
-		["ExpansionFilter:TWW"] = true,
+		["ExpansionFilter:TBC"] = app.GameBuildVersion >= 20000,
+		["ExpansionFilter:Wrath"] = app.GameBuildVersion >= 30000,
+		["ExpansionFilter:Cata"] = app.GameBuildVersion >= 40000,
+		["ExpansionFilter:MoP"] = app.GameBuildVersion >= 50000,
+		["ExpansionFilter:WoD"] = app.GameBuildVersion >= 60000,
+		["ExpansionFilter:Legion"] = app.GameBuildVersion >= 70000,
+		["ExpansionFilter:BfA"] = app.GameBuildVersion >= 80000,
+		["ExpansionFilter:SL"] = app.GameBuildVersion >= 90000,
+		["ExpansionFilter:DF"] = app.GameBuildVersion >= 100000,
+		["ExpansionFilter:TWW"] = app.GameBuildVersion >= 110000,
 	},
 };
 local FilterSettingsBase = {
@@ -606,7 +606,7 @@ settings.GetModeString = function(self)
 		local totalThingCount, thingCount, things = 0, 0, {};
 		for key,_ in pairs(GeneralSettingsBase.__index) do
 			keyPrefix, thingName = (":"):split(key)
-			if keyPrefix == "Thing" then
+			if keyPrefix == "Thing" or keyPrefix == "ExpansionFilter" then
 				totalThingCount = totalThingCount + 1
 				thingActive = settings:Get(key);
 				if thingActive then
@@ -703,7 +703,7 @@ settings.GetShortModeString = function(self)
 		local solo = not app.MODE_DEBUG_OR_ACCOUNT
 		for key,_ in pairs(GeneralSettingsBase.__index) do
 			keyPrefix, thingName = (":"):split(key)
-			if keyPrefix == "Thing" then
+			if keyPrefix == "Thing" or keyPrefix == "ExpansionFilter" then
 				totalThingCount = totalThingCount + 1
 				thingActive = settings:Get(key);
 				if thingActive then
