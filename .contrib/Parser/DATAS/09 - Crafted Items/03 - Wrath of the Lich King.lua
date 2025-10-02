@@ -1416,8 +1416,28 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(43252),	-- Windfire Band
 		}),
 		filter(GEMS, {
+			-- #if BEFORE CATA
+			n(SPECIAL, {
+				i(42142),	-- Bold Dragon's Eye
+				i(36766, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Bright Dragon's Eye
+				i(42148, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Dragon's Eye
+				i(42143),	-- Delicate Dragon's Eye
+				i(42152),	-- Flashing Dragon's Eye
+				i(42153, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Fractured Dragon's Eye
+				i(42146, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Lustrous Dragon's Eye
+				i(42158),	-- Mystic Dragon's Eye
+				i(42154),	-- Precise Dragon's Eye
+				i(42150),	-- Quick Dragon's Eye
+				i(42156),	-- Rigid Dragon's Eye
+				i(42144),	-- Runed Dragon's Eye
+				i(42149),	-- Smooth Dragon's Eye
+				i(36767),	-- Solid Dragon's Eye
+				i(42145),	-- Sparkling Dragon's Eye
+				i(42155),	-- Stormy Dragon's Eye
+				i(42151),	-- Subtle Dragon's Eye
+				i(42157, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Thick Dragon's Eye
+			}),
 			n(QUALITY_UNCOMMON, {
-				-- #if BEFORE CATA
 				i(39966),	-- Accurate Huge Citrine
 				i(39937, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Balanced Shadow Crystal
 				i(39900),	-- Bold Bloodstone
@@ -1563,7 +1583,203 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(39957),	-- Veiled Huge Citrine
 				i(39975),	-- Vivd Dark Jade
 				i(39960, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Wicked Huge Citrine
-				-- #else
+			}),
+			n(QUALITY_RARE, {
+				i(40058),	-- Accurate Monarch Topaz
+				i(41380),	-- Austere Earthsiege Diamond
+				i(40029, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Balanced Twilight Opal
+				i(41389, {["timeline"] = {ADDED_3_0_8}}),	-- Beaming Earthsiege Diamond
+				i(39996),	-- Bold Scarlet Ruby
+				i(41395),	-- Bracing Earthsiege Diamond
+				i(39999, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Bright Scarlet Ruby
+				i(40012, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Autumn's Glow
+				i(40039, {["timeline"] = {ADDED_3_0_8}}),	-- Champion's Monarch Topaz
+				i(41285),	-- Chaotic Skyflare Diamond
+				i(40094, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Dazzling Forest Emerald
+				i(40043, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deadly Monarch Topaz
+				i(40032),	-- Defender's Twilight Opal
+				i(40046, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deft Monarch Topaz
+				i(39997),	-- Delicate Scarlet Ruby
+				i(41307, {["timeline"] = {ADDED_3_0_8}}),	-- Destructive Skyflare Diamond
+				i(40050),	-- Durable Monarch Topaz
+				i(41377),	-- Effulgent Skyflare Diamond
+				i(41333),	-- Ember Skyflare Diamond
+				i(40054, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Empowered Monarch Topaz
+				i(42702),	-- Enchanted Tear
+				i(40089),	-- Enduring Forest Emerald
+				i(40105),	-- Energized Forest Emerald
+				i(41335),	-- Enigmatic Skyflare Diamond
+				i(40038, {["timeline"] = {ADDED_3_0_8}}),	-- Etched Monarch Topaz
+				i(41396),	-- Eternal Earthsiege Diamond
+				i(40041),	-- Fierce Monarch Topaz
+				i(40001),	-- Flashing Scarlet Ruby
+				i(40091),	-- Forceful Forest Emerald
+				i(41378),	-- Forlorn Skyflare Diamond
+				i(40002, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Fractured Scarlet Ruby
+				i(40057),	-- Glimmering Monarch Topaz
+				i(40044),	-- Glinting Monarch Topaz
+				i(40025),	-- Glowing Twilight Opal
+				i(40034),	-- Guardian's Twilight Opal
+				i(41379),	-- Impassive Skyflare Diamond
+				i(40030, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Infused Twilight Opal
+				i(40037, {["timeline"] = {ADDED_3_0_8}}),	-- Inscribed Monarch Topaz
+				i(41401),	-- Insightful Earthsiege Diamond
+				i(40104, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Intricate Forest Emerald
+				i(41385),	-- Invigorating Earthsiege Diamond
+				i(40086),	-- Jagged Forest Emerald
+				i(40100),	-- Lambent Forest Emerald
+				i(40045),	-- Lucent Monarch Topaz
+				i(40047, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Luminous Monarch Topaz
+				i(40010),	-- Lustrous Sky Sapphire
+				i(40095, {["timeline"] = {ADDED_3_0_8}}),	-- Misty Forest Emerald
+				i(40028),	-- Mysterious Twilight Opal
+				i(40016),	-- Mystic Autumn's Glow
+				i(40103, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Opaque Forest Emerald
+				i(41381),	-- Persistent Earthsiege Diamond
+				i(40048),	-- Potent Monarch Topaz
+				i(41397),	-- Powerful Earthsiege Diamond
+				i(40003),	-- Precise Scarlet Ruby
+				i(40053, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Pristine Monarch Topaz
+				i(40033, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Puissant Twilight Opal
+				i(40026, {["timeline"] = {ADDED_3_0_8}}),	-- Purified Twilight Opal
+				i(40017),	-- Quick Autumn's Glow
+				i(40098),	-- Radiant Forest Emerald
+				i(40051),	-- Reckless Monarch Topaz
+				i(40031, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Regal Twilight Opal
+				i(41398),	-- Relentless Earthsiege Diamond
+				i(40059, {["timeline"] = {ADDED_3_0_8}}),	-- Resolute Monarch Topaz
+				i(40040),	-- Resplendent Monarch Topaz
+				i(41376),	-- Revitalizing Skyflare Diamond
+				i(40014),	-- Rigid Autumn's Glow
+				i(40027, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Royal Twilight Opal
+				i(39998),	-- Runed Scarlet Ruby
+				i(40092, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Seer's Forest Emerald
+				i(40106),	-- Shattered Forest Emerald
+				i(40023),	-- Shifting Twilight Opal
+				i(40099, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Shining Forest Emerald
+				i(40013),	-- Smooth Autumn's Glow
+				i(40008),	-- Solid Sky Sapphire
+				i(40022),	-- Sovereign Twilight Opal
+				i(40009, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Sky Sapphire
+				i(40056, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Stalwart Monarch Topaz
+				i(40055),	-- Stark Monarch Topaz
+				i(40090),	-- Steady Forest Emerald
+				i(40011),	-- Stormy Sky Sapphire
+				i(40000),	-- Subtle Scarlet Ruby
+				i(40096, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sundered Forest Emerald
+				i(41339),	-- Swift Skyflare Diamond
+				i(40101, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Tense Forest Emerald
+				i(40024, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Tenuous Twilight Opal
+				i(40015, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Thick Autumn's Glow
+				i(41400),	-- Thundering Skyflare Diamond
+				i(40085, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Timeless Forest Emerald
+				i(41375),	-- Tireless Skyflare Diamond
+				i(41382),	-- Trenchant Earthsiege Diamond
+				i(40102),	-- Turbid Forest Emerald
+				i(40049),	-- Veiled Monarch Topaz
+				i(40088),	-- Vivid Forest Emerald
+				i(40052),	-- Wicked Monarch Topaz
+			}),
+			applyclassicphase(WRATH_PHASE_THREE, n(QUALITY_EPIC, {
+				["timeline"] = { ADDED_3_2_0 },
+				["groups"] = {
+					i(40162),	-- Accurate Ametrine
+					i(40136, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Balanced Dreadstone
+					i(40111),	-- Bold Cardinal Ruby
+					i(40114, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Bright Cardinal Ruby
+					i(40123, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Brilliant King's Amber
+					i(40144),	-- Champion's Ametrine
+					i(40175, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Dazzling Eye of Zul
+					i(40147),	-- Deadly Ametrine
+					i(40139),	-- Defender's Dreadstone
+					i(40150),	-- Deft Ametrine
+					i(40112),	-- Delicate Cardinal Ruby
+					i(40154),	-- Durable Ametrine
+					i(40158, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Empowered Ametrine
+					i(40167),	-- Enduring Eye of Zul
+					i(40179),	-- Energized Eye of Zul
+					i(40143),	-- Etched Ametrine
+					i(40146),	-- Fierce Ametrine
+					i(40116),	-- Flashing Cardinal Ruby
+					i(40169),	-- Forceful Eye of Zul
+					i(40117, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Fractured Cardinal Ruby
+					i(40161, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Glimmering Ametrine
+					i(40148, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Glinting Ametrine
+					i(40132, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Glowing Dreadstone
+					i(40141),	-- Guardian's Dreadstone
+					i(40137, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Infused Dreadstone
+					i(40142),	-- Inscribed Ametrine
+					i(40174, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Intricate Eye of Zul
+					i(40165),	-- Jagged Eye of Zul
+					i(40177),	-- Lambent Eye of Zul
+					i(40149),	-- Lucent Ametrine
+					i(40151, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Luminous Ametrine
+					i(40121, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Lustrous Majestic Zircon
+					i(40171),	-- Misty Eye of Zul
+					i(40135),	-- Mysterious Dreadstone
+					i(40127),	-- Mystic King's Amber
+					i(49110),	-- Nightmare Tear
+					i(40178, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Opaque Eye of Zul
+					i(40152),	-- Potent Ametrine
+					i(40118),	-- Precise Cardinal Ruby
+					i(40157),	-- Pristine Ametrine
+					i(40140, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Puissant Dreadstone
+					i(40133),	-- Purified Dreadstone
+					i(40128),	-- Quick King's Amber
+					i(40180),	-- Radiant Eye of Zul
+					i(40155),	-- Reckless Ametrine
+					i(40138, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Regal Dreadstone
+					i(40163),	-- Resolute Ametrine
+					i(40145),	-- Resplendent Ametrine
+					i(40125),	-- Rigid King's Amber
+					i(40134, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Royal Dreadstone
+					i(40113),	-- Runed Cardinal Ruby
+					i(40170, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Seer's Eye of Zul
+					i(40182),	-- Shattered Eye of Zul
+					i(40130),	-- Shifting Dreadstone
+					i(40172, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Shining Eye of Zul
+					i(40124),	-- Smooth King's Amber
+					i(40119),	-- Solid Majestic Zircon
+					i(40129),	-- Sovereign Dreadstone
+					i(40120),	-- Sparkling Majestic Zircon
+					i(40160),	-- Stalwart Ametrine
+					i(40159, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Stark Ametrine
+					i(40168),	-- Steady Eye of Zul
+					i(40122),	-- Stormy Majestic Zircon
+					i(40115),	-- Subtle Cardinal Ruby
+					i(40176, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Sundered Eye of Zul
+					i(40181, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Tense Eye of Zul
+					i(40131, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Tenuous Dreadstone
+					i(40126, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Thick King's Amber
+					i(40164),	-- Timeless Eye of Zul
+					i(40173),	-- Turbid Eye of Zul
+					i(40153),	-- Veiled Ametrine
+					i(40166),	-- Vivid Eye of Zul
+					i(40156, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Wicked Ametrine
+				},
+			})),
+			-- #else
+			n(SPECIAL, {
+				i(42142),	-- Bold Dragon's Eye
+				i(42148, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Dragon's Eye
+				i(42144),	-- Brilliant Dragon's Eye
+				i(36766, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Delicate Dragon's Eye
+				i(42143),	-- Delicate Dragon's Eye
+				i(42152),	-- Flashing Dragon's Eye
+				i(42158),	-- Mystic Dragon's Eye
+				i(42154),	-- Precise Dragon's Eye
+				i(42150),	-- Quick Dragon's Eye
+				i(42156),	-- Rigid Dragon's Eye
+				i(42153, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Smooth Dragon's Eye
+				i(42149),	-- Smooth Dragon's Eye
+				i(36767),	-- Solid Dragon's Eye
+				i(42146, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Dragon's Eye
+				i(42145),	-- Sparkling Dragon's Eye
+				i(42155),	-- Stormy Dragon's Eye
+				i(42151),	-- Subtle Dragon's Eye
+				i(42157, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Subtle Dragon's Eye
+			}),
+			n(QUALITY_UNCOMMON, {
 				i(39966),	-- Accurate Shadow Crystal
 				i(39900),	-- Bold Bloodstone
 				i(39911, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Bloodstone
@@ -1709,131 +1925,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(39957),	-- Veiled Shadow Crystal
 				i(39960, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Wicked Huge Citrine
 				i(39958),	-- Willful Huge Citrine
-				-- #endif
 			}),
 			n(QUALITY_RARE, {
-				-- #if BEFORE CATA
-				i(40058),	-- Accurate Monarch Topaz
-				i(41380),	-- Austere Earthsiege Diamond
-				i(40029, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Balanced Twilight Opal
-				i(41389, {["timeline"] = {ADDED_3_0_8}}),	-- Beaming Earthsiege Diamond
-				i(42142),	-- Bold Dragon's Eye
-				i(39996),	-- Bold Scarlet Ruby
-				i(41395),	-- Bracing Earthsiege Diamond
-				i(36766, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Bright Dragon's Eye
-				i(39999, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Bright Scarlet Ruby
-				i(40012, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Autumn's Glow
-				i(42148, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Dragon's Eye
-				i(40039, {["timeline"] = {ADDED_3_0_8}}),	-- Champion's Monarch Topaz
-				i(41285),	-- Chaotic Skyflare Diamond
-				i(40094, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Dazzling Forest Emerald
-				i(40043, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deadly Monarch Topaz
-				i(40032),	-- Defender's Twilight Opal
-				i(40046, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deft Monarch Topaz
-				i(42143),	-- Delicate Dragon's Eye
-				i(39997),	-- Delicate Scarlet Ruby
-				i(41307, {["timeline"] = {ADDED_3_0_8}}),	-- Destructive Skyflare Diamond
-				i(40050),	-- Durable Monarch Topaz
-				i(41377),	-- Effulgent Skyflare Diamond
-				i(41333),	-- Ember Skyflare Diamond
-				i(40054, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Empowered Monarch Topaz
-				i(42702),	-- Enchanted Tear
-				i(40089),	-- Enduring Forest Emerald
-				i(40105),	-- Energized Forest Emerald
-				i(41335),	-- Enigmatic Skyflare Diamond
-				i(40038, {["timeline"] = {ADDED_3_0_8}}),	-- Etched Monarch Topaz
-				i(41396),	-- Eternal Earthsiege Diamond
-				i(40041),	-- Fierce Monarch Topaz
-				i(42152),	-- Flashing Dragon's Eye
-				i(40001),	-- Flashing Scarlet Ruby
-				i(40091),	-- Forceful Forest Emerald
-				i(41378),	-- Forlorn Skyflare Diamond
-				i(42153, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Fractured Dragon's Eye
-				i(40002, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Fractured Scarlet Ruby
-				i(40057),	-- Glimmering Monarch Topaz
-				i(40044),	-- Glinting Monarch Topaz
-				i(40025),	-- Glowing Twilight Opal
-				i(40034),	-- Guardian's Twilight Opal
-				i(41379),	-- Impassive Skyflare Diamond
-				i(40030, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Infused Twilight Opal
-				i(40037, {["timeline"] = {ADDED_3_0_8}}),	-- Inscribed Monarch Topaz
-				i(41401),	-- Insightful Earthsiege Diamond
-				i(40104, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Intricate Forest Emerald
-				i(41385),	-- Invigorating Earthsiege Diamond
-				i(40086),	-- Jagged Forest Emerald
-				i(40100),	-- Lambent Forest Emerald
-				i(40045),	-- Lucent Monarch Topaz
-				i(40047, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Luminous Monarch Topaz
-				i(42146, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Lustrous Dragon's Eye
-				i(40010),	-- Lustrous Sky Sapphire
-				i(40095, {["timeline"] = {ADDED_3_0_8}}),	-- Misty Forest Emerald
-				i(40028),	-- Mysterious Twilight Opal
-				i(40016),	-- Mystic Autumn's Glow
-				i(42158),	-- Mystic Dragon's Eye
-				i(40103, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Opaque Forest Emerald
-				i(41381),	-- Persistent Earthsiege Diamond
-				i(40048),	-- Potent Monarch Topaz
-				i(41397),	-- Powerful Earthsiege Diamond
-				i(42154),	-- Precise Dragon's Eye
-				i(40003),	-- Precise Scarlet Ruby
-				i(40053, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Pristine Monarch Topaz
-				i(40033, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Puissant Twilight Opal
-				i(40026, {["timeline"] = {ADDED_3_0_8}}),	-- Purified Twilight Opal
-				i(40017),	-- Quick Autumn's Glow
-				i(42150),	-- Quick Dragon's Eye
-				i(40098),	-- Radiant Forest Emerald
-				i(40051),	-- Reckless Monarch Topaz
-				i(40031, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Regal Twilight Opal
-				i(41398),	-- Relentless Earthsiege Diamond
-				i(40059, {["timeline"] = {ADDED_3_0_8}}),	-- Resolute Monarch Topaz
-				i(40040),	-- Resplendent Monarch Topaz
-				i(41376),	-- Revitalizing Skyflare Diamond
-				i(40014),	-- Rigid Autumn's Glow
-				i(42156),	-- Rigid Dragon's Eye
-				i(40027, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Royal Twilight Opal
-				i(42144),	-- Runed Dragon's Eye
-				i(39998),	-- Runed Scarlet Ruby
-				i(40092, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Seer's Forest Emerald
-				i(40106),	-- Shattered Forest Emerald
-				i(40023),	-- Shifting Twilight Opal
-				i(40099, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Shining Forest Emerald
-				i(40013),	-- Smooth Autumn's Glow
-				i(42149),	-- Smooth Dragon's Eye
-				i(36767),	-- Solid Dragon's Eye
-				i(40008),	-- Solid Sky Sapphire
-				i(40022),	-- Sovereign Twilight Opal
-				i(42145),	-- Sparkling Dragon's Eye
-				i(40009, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Sky Sapphire
-				i(40056, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Stalwart Monarch Topaz
-				i(40055),	-- Stark Monarch Topaz
-				i(40090),	-- Steady Forest Emerald
-				i(42155),	-- Stormy Dragon's Eye
-				i(40011),	-- Stormy Sky Sapphire
-				i(42151),	-- Subtle Dragon's Eye
-				i(40000),	-- Subtle Scarlet Ruby
-				i(40096, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sundered Forest Emerald
-				i(41339),	-- Swift Skyflare Diamond
-				i(40101, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Tense Forest Emerald
-				i(40024, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Tenuous Twilight Opal
-				i(40015, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Thick Autumn's Glow
-				i(42157, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Thick Dragon's Eye
-				i(41400),	-- Thundering Skyflare Diamond
-				i(40085, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Timeless Forest Emerald
-				i(41375),	-- Tireless Skyflare Diamond
-				i(41382),	-- Trenchant Earthsiege Diamond
-				i(40102),	-- Turbid Forest Emerald
-				i(40049),	-- Veiled Monarch Topaz
-				i(40088),	-- Vivid Forest Emerald
-				i(40052),	-- Wicked Monarch Topaz
-				-- #else
 				i(40058),	-- Accurate Twilight Opal
 				i(41380),	-- Austere Earthsiege Diamond
 				i(41389, {["timeline"] = {ADDED_3_0_8}}),	-- Beaming Earthsiege Diamond
-				i(42142),	-- Bold Dragon's Eye
 				i(39996),	-- Bold Scarlet Ruby
 				i(41395),	-- Bracing Earthsiege Diamond
-				i(42148, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Dragon's Eye
-				i(42144),	-- Brilliant Dragon's Eye
 				i(40012, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Brilliant Scarlet Ruby
 				i(39998),	-- Brilliant Scarlet Ruby
 				i(40039, {["timeline"] = {ADDED_3_0_8}}),	-- Champion's Monarch Topaz
@@ -1843,8 +1941,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(40032),	-- Defender's Twilight Opal
 				i(40046, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Deft Monarch Topaz
 				i(40055),	-- Deft Monarch Topaz
-				i(36766, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Delicate Dragon's Eye
-				i(42143),	-- Delicate Dragon's Eye
 				i(39999, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Delicate Scarlet Ruby
 				i(39997),	-- Delicate Scarlet Ruby
 				i(41307, {["timeline"] = {ADDED_3_0_8}}),	-- Destructive Skyflare Diamond
@@ -1856,7 +1952,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(40038, {["timeline"] = {ADDED_3_0_8}}),	-- Etched Twilight Opal
 				i(41396),	-- Eternal Earthsiege Diamond
 				i(40041),	-- Fierce Monarch Topaz
-				i(42152),	-- Flashing Dragon's Eye
 				i(40001),	-- Flashing Scarlet Ruby
 				i(40091),	-- Forceful Forest Emerald
 				i(41378),	-- Forlorn Skyflare Diamond
@@ -1879,18 +1974,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(40096, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Misty Forest Emerald
 				i(40028),	-- Mysterious Twilight Opal
 				i(40016),	-- Mystic Autumn's Glow
-				i(42158),	-- Mystic Dragon's Eye
 				i(41381),	-- Persistent Earthsiege Diamond
 				i(40048),	-- Potent Monarch Topaz
 				i(41397),	-- Powerful Earthsiege Diamond
-				i(42154),	-- Precise Dragon's Eye
 				i(40003),	-- Precise Scarlet Ruby
 				i(40094, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Twilight Opal
 				i(40092, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Twilight Opal
 				i(40026, {["timeline"] = {ADDED_3_0_8}}),	-- Purified Twilight Opal
 				i(40027, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Purified Twilight Opal
 				i(40017),	-- Quick Autumn's Glow
-				i(42150),	-- Quick Dragon's Eye
 				i(40098),	-- Radiant Forest Emerald
 				i(40101, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Radiant Forest Emerald
 				i(40047, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Reckless Monarch Topaz
@@ -1901,7 +1993,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(40059, {["timeline"] = {ADDED_3_0_8}}),	-- Resolute Monarch Topaz
 				i(40040),	-- Resplendent Monarch Topaz
 				i(41376),	-- Revitalizing Skyflare Diamond
-				i(42156),	-- Rigid Dragon's Eye
 				i(40014),	-- Rigid Sky Sapphire
 				i(40106),	-- Shattered Forest Emerald
 				i(41377),	-- Shielded Skyflare Diamond
@@ -1909,24 +2000,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(40023),	-- Shifting Twilight Opal
 				i(40013),	-- Smooth Autumn's Glow
 				i(40002, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Smooth Autumn's Glow
-				i(42153, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Smooth Dragon's Eye
-				i(42149),	-- Smooth Dragon's Eye
-				i(36767),	-- Solid Dragon's Eye
 				i(40008),	-- Solid Sky Sapphire
 				i(40022),	-- Sovereign Twilight Opal
-				i(42146, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Dragon's Eye
-				i(42145),	-- Sparkling Dragon's Eye
 				i(40010),	-- Sparkling Sky Sapphire
 				i(40009, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Sparkling Sky Sapphire
 				i(40057),	-- Stalwart Monarch Topaz
 				i(40056, {["timeline"] = {ADDED_3_0_8, REMOVED_4_0_3}}),	-- Stalwart Monarch Topaz
 				i(40090),	-- Steady Forest Emerald
-				i(42155),	-- Stormy Dragon's Eye
 				i(40011),	-- Stormy Sky Sapphire
 				i(40015, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Subtle Autumn's Glow
 				i(40000),	-- Subtle Autumn's Glow
-				i(42151),	-- Subtle Dragon's Eye
-				i(42157, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Subtle Dragon's Eye
 				i(41339),	-- Swift Skyflare Diamond
 				i(41400),	-- Thundering Skyflare Diamond
 				i(40085, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Timeless Twilight Opal
@@ -1938,86 +2021,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(40049),	-- Veiled Twilight Opal
 				i(40088),	-- Vivid Forest Emerald
 				i(40050),	-- Willful Monarch Topaz
-				-- #endif
 			}),
 			applyclassicphase(WRATH_PHASE_THREE, n(QUALITY_EPIC, {
 				["timeline"] = { ADDED_3_2_0 },
 				["groups"] = {
-					-- #if BEFORE CATA
-					i(40162),	-- Accurate Ametrine
-					i(40136, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Balanced Dreadstone
-					i(40111),	-- Bold Cardinal Ruby
-					i(40114, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Bright Cardinal Ruby
-					i(40123, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Brilliant King's Amber
-					i(40144),	-- Champion's Ametrine
-					i(40175, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Dazzling Eye of Zul
-					i(40147),	-- Deadly Ametrine
-					i(40139),	-- Defender's Dreadstone
-					i(40150),	-- Deft Ametrine
-					i(40112),	-- Delicate Cardinal Ruby
-					i(40154),	-- Durable Ametrine
-					i(40158, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Empowered Ametrine
-					i(40167),	-- Enduring Eye of Zul
-					i(40179),	-- Energized Eye of Zul
-					i(40143),	-- Etched Ametrine
-					i(40146),	-- Fierce Ametrine
-					i(40116),	-- Flashing Cardinal Ruby
-					i(40169),	-- Forceful Eye of Zul
-					i(40117, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Fractured Cardinal Ruby
-					i(40161, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Glimmering Ametrine
-					i(40148, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Glinting Ametrine
-					i(40132, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Glowing Dreadstone
-					i(40141),	-- Guardian's Dreadstone
-					i(40137, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Infused Dreadstone
-					i(40142),	-- Inscribed Ametrine
-					i(40174, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Intricate Eye of Zul
-					i(40165),	-- Jagged Eye of Zul
-					i(40177),	-- Lambent Eye of Zul
-					i(40149),	-- Lucent Ametrine
-					i(40151, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Luminous Ametrine
-					i(40121, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Lustrous Majestic Zircon
-					i(40171),	-- Misty Eye of Zul
-					i(40135),	-- Mysterious Dreadstone
-					i(40127),	-- Mystic King's Amber
-					i(49110),	-- Nightmare Tear
-					i(40178, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Opaque Eye of Zul
-					i(40152),	-- Potent Ametrine
-					i(40118),	-- Precise Cardinal Ruby
-					i(40157),	-- Pristine Ametrine
-					i(40140, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Puissant Dreadstone
-					i(40133),	-- Purified Dreadstone
-					i(40128),	-- Quick King's Amber
-					i(40180),	-- Radiant Eye of Zul
-					i(40155),	-- Reckless Ametrine
-					i(40138, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Regal Dreadstone
-					i(40163),	-- Resolute Ametrine
-					i(40145),	-- Resplendent Ametrine
-					i(40125),	-- Rigid King's Amber
-					i(40134, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Royal Dreadstone
-					i(40113),	-- Runed Cardinal Ruby
-					i(40170, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Seer's Eye of Zul
-					i(40182),	-- Shattered Eye of Zul
-					i(40130),	-- Shifting Dreadstone
-					i(40172, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Shining Eye of Zul
-					i(40124),	-- Smooth King's Amber
-					i(40119),	-- Solid Majestic Zircon
-					i(40129),	-- Sovereign Dreadstone
-					i(40120),	-- Sparkling Majestic Zircon
-					i(40160),	-- Stalwart Ametrine
-					i(40159, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Stark Ametrine
-					i(40168),	-- Steady Eye of Zul
-					i(40122),	-- Stormy Majestic Zircon
-					i(40115),	-- Subtle Cardinal Ruby
-					i(40176, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Sundered Eye of Zul
-					i(40181, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Tense Eye of Zul
-					i(40131, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Tenuous Dreadstone
-					i(40126, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Thick King's Amber
-					i(40164),	-- Timeless Eye of Zul
-					i(40173),	-- Turbid Eye of Zul
-					i(40153),	-- Veiled Ametrine
-					i(40166),	-- Vivid Eye of Zul
-					i(40156, {["timeline"] = {ADDED_3_2_0, REMOVED_4_0_3}}),	-- Wicked Ametrine
-					-- #else
 					i(40162),	-- Accurate Dreadstone
 					i(40111),	-- Bold Cardinal Ruby
 					i(40113),	-- Brilliant Cardinal Ruby
@@ -2091,9 +2098,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					i(40173),	-- Turbid Eye of Zul
 					i(40153),	-- Veiled Dreadstone
 					i(40154),	-- Willful Ametrine
-					-- #endif
 				},
 			})),
+			-- #endif
 		}),
 		filter(MISC, {
 			i(41367),	-- Dark Jade Focusing Lens

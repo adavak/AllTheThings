@@ -649,21 +649,39 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["coord"] = { 72.5, 34.3, ORGRIMMAR },
 						["timeline"] = { ADDED_4_0_3 },
 						["races"] = HORDE_ONLY,
-						["groups"] = appendGroups(
-							CLASSIC_JEWELCRAFTING,
+						["groups"] = appendGroups(CLASSIC_CATA_JEWELCRAFTING,
 							-- #if BEFORE BFA
 							TBC_JEWELCRAFTING,
 							WRATH_JEWELCRAFTING,
-							CATA_JEWELCRAFTING,
-							MOP_JEWELCRAFTING,
+							MOP_JEWELCRAFTING
+							-- #else
+								{}
 							-- #endif
-							{
-								r(404740, {	-- Cataclysm Crushing
-									["timeline"] = { ADDED_10_0_7 },
-								}),
-							}
 						),
 					}),
+					n(50482, {	-- Marith Lazuria <Jewelcrafting Supplies>
+						["coord"] = { 72.4, 34.6, ORGRIMMAR },
+						["timeline"] = { ADDED_4_0_3 },
+						["races"] = HORDE_ONLY,
+						["groups"] = COMMON_CATACLYSM_JEWELCRAFTING_RECIPES,
+					}),
+
+					applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(57922, {	-- Taryssa Lazuria <Jewelcrafting Supplies>
+						["coord"] = { 72.4, 34.6, ORGRIMMAR },
+						["timeline"] = { ADDED_4_3_0 },
+						["races"] = HORDE_ONLY,
+						["groups"] = appendGroups(COMMON_CATACLYSM_EPIC_JEWELCRAFTING_RECIPES, {
+							i(71949, {	-- Tome of Burning Jewels
+								["cost"] = {{"c", 361, 4}},	-- 4x Illustrious Jewelcrafter's Token
+								["filterID"] = CONSUMABLES,
+								["sym"] = {
+									{"select","npcID",57922},{"pop"},	-- this NPC
+									{"not","itemID",71949},				-- not this item
+									{"isnt","currencyID"},	-- no currencies
+								},
+							}),
+						}),
+					})),
 				}),
 				-- #endif
 				prof(LEATHERWORKING, {
@@ -4179,12 +4197,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
-				n(50482, {	-- Marith Lazuria <Jewelcrafting Supplies>
-					["coord"] = { 72.4, 34.6, ORGRIMMAR },
-					["timeline"] = { ADDED_4_0_3 },
-					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(COMMON_CATACLYSM_JEWELCRAFTING_RECIPES, {}),
-				}),
 				-- #if AFTER MOP
 				-- Danny Donkey: The staves are added to Inscription Suppliers in 5.0.1.
 				n(46718, {	-- Moraka <Inscription Supplies>
@@ -5066,224 +5078,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 				}),
-				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(57922, {	-- Taryssa Lazuria <Jewelcrafting Supplies>
-					["coord"] = { 72.4, 34.6, ORGRIMMAR },
-					["timeline"] = { ADDED_4_3_0 },
-					["races"] = HORDE_ONLY,
-					["groups"] = {
-						currency(361, {	-- Illustrious Jewelcrafter's Token
-							["cost"] = { { "i", 204356, 10 }, },	-- 10x Illustrious Gemdust
-							["timeline"] = { ADDED_10_0_7 },
-						}),
-						i(71928, {	-- Design: Accurate Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71917, {	-- Design: Adept Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71919, {	-- Design: Artful Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71893, {	-- Design: Balanced Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71943, {	-- Design: Bold Queen's Garnet
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71941, {	-- Design: Brilliant Queen's Garnet
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71912, {	-- Design: Champion's Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71906, {	-- Design: Crafty Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71905, {	-- Design: Deadly Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71937, {	-- Design: Defender's Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71913, {	-- Design: Deft Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71939, {	-- Design: Delicate Queen's Garnet
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71898, {	-- Design: Energized Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71931, {	-- Design: Etched Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71916, {	-- Design: Fierce Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71920, {	-- Design: Fine Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71942, {	-- Design: Flashing Queen's Garnet
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71901, {	-- Design: Forceful Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71947, {	-- Design: Fractured Lightstone
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71927, {	-- Design: Glinting Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71935, {	-- Design: Guardian's Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71891, {	-- Design: Infused Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71908, {	-- Design: Inscribed Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71899, {	-- Design: Jagged Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71918, {	-- Design: Keen Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71889, {	-- Design: Lightning Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71922, {	-- Design: Lucent Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71887, {	-- Design: Misty Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71932, {	-- Design: Mysterious Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71948, {	-- Design: Mystic Lightstone
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71902, {	-- Design: Nimble Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71888, {	-- Design: Piercing Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71909, {	-- Design: Polished Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71907, {	-- Design: Potent Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71940, {	-- Design: Precise Queen's Garnet
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71903, {	-- Design: Puissant Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71933, {	-- Design: Purified Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71946, {	-- Design: Quick Lightstone
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71896, {	-- Design: Radiant Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71915, {	-- Design: Reckless Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71900, {	-- Design: Regal Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71910, {	-- Design: Resolute Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71926, {	-- Design: Resplendent Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71930, {	-- Design: Retaliating Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71821, {	-- Design: Rigid Deepholm Iolite
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71890, {	-- Design: Sensei's Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71897, {	-- Design: Shattered Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71934, {	-- Design: Shifting Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71921, {	-- Design: Skillful Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71944, {	-- Design: Smooth Lightstone
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71886, {	-- Design: Solid Deepholm Iolite
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71938, {	-- Design: Sovereign Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71885, {	-- Design: Sparkling Deepholm Iolite
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71925, {	-- Design: Splendid Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71911, {	-- Design: Stalwart Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71904, {	-- Design: Steady Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71884, {	-- Design: Stormy Deepholm Iolite
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71945, {	-- Design: Subtle Lightstone
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71923, {	-- Design: Tenuous Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71936, {	-- Design: Timeless Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71895, {	-- Design: Turbid Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71929, {	-- Design: Veiled Shadow Spinel
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71894, {	-- Design: Vivid Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71914, {	-- Design: Wicked Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71924, {	-- Design: Willful Lava Coral
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71892, {	-- Design: Zen Elven Peridot
-							["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-						}),
-						i(71949, {	-- Tome of Burning Jewels
-							["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-							["filterID"] = CONSUMABLES,
-							["sym"] = {
-								{"select","npcID",57922},{"pop"},	-- this NPC
-								{"not","itemID",71949},				-- not this item
-								{"isnt","currencyID"},	-- no currencies
-							},
-						}),
-					},
-				})),
 				n(133127, {	-- Thaluriel <Engineering Supplies>
 					["coord"] = { 36.8, 84.6, ORGRIMMAR },
 					["timeline"] = { ADDED_7_3_5 },

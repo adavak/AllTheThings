@@ -1,6 +1,7 @@
 -------------------
 -- JEWELCRAFTING --
 -------------------
+local CATA_JC_TOKEN = 361;
 CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_2_0_5 } }, {
 	r(25229, {	-- Jewelcrafting (Apprentice)
 		-- #if NOT ANYCLASSIC
@@ -758,7 +759,421 @@ CATA_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_4_0_3 } }, {
 		-- #endif
 		["rank"] = 7,
 	}),
+	applyclassicphase(BFA_PHASE_ONE, r(264539, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Cataclysm Jewelcrafting
+	applyclassicphase(DF_PHASE_ONE, r(382978, {["timeline"] = {ADDED_10_0_2}})),	-- Cataclysm Prospecting
+	filter(FINGER_F, {
+		-- #if ANYCLASSIC
+		applyclassicphase(CATA_PHASE_RISE_OF_THE_ZANDALARI, r(1216328, {["timeline"] = {ADDED_4_4_1}})),	-- Bloodthirsty Amberjewel Band
+		applyclassicphase(CATA_PHASE_RISE_OF_THE_ZANDALARI, r(1216329, {["timeline"] = {ADDED_4_4_1}})),	-- Bloodthirsty Ruby Signet
+		applyclassicphase(CATA_PHASE_RISE_OF_THE_ZANDALARI, r(1216323, {["timeline"] = {ADDED_4_4_1}})),	-- Bloodthirsty Sapphire Ring
+		-- #endif
+		r(73495),	-- Hessonite Band
+		r(73494),	-- Jasper Ring
+		r(99540, {["timeline"] = {ADDED_4_2_0}}),	-- Vicious Amberjewel Band
+		r(99541, {["timeline"] = {ADDED_4_2_0}}),	-- Vicious Ruby Signet
+		r(99539, {["timeline"] = {ADDED_4_2_0}}),	-- Vicious Sapphire Ring
+	}),
+	filter(GEMS, {
+		r(73250),	-- Accurate Nightstone
+		r(73268),	-- Adept Hessonite
+		r(73270),	-- Artful Hessonite
+		r(73222),	-- Bold Carnelian
+		r(73225),	-- Brilliant Carnelian
+		r(73223),	-- Delicate Carnelian
+		r(73246),	-- Etched Nightstone
+		r(73239),	-- Fractured Alicite
+		r(73247),	-- Glinting Nightstone
+		r(73274),	-- Jagged Jasper
+		r(73226),	-- Precise Carnelian
+		r(73279),	-- Puissant Jasper
+		r(73234),	-- Quick Alicite
+		r(73266),	-- Reckless Hessonite
+		r(73230),	-- Rigid Zephyrite
+		r(73281),	-- Sensei's Jasper
+		r(73241),	-- Shifting Nightstone
+		r(73267),	-- Skillful Hessonite
+		r(73232),	-- Smooth Alicite
+		r(73227),	-- Solid Zephyrite
+		r(73240),	-- Sovereign Nightstone
+		r(73228),	-- Sparkling Zephyrite
+		r(73243),	-- Timeless Nightstone
+		r(73249),	-- Veiled Nightstone
+	}),
+	filter(MISC, {
+		r(404740, {["timeline"] = {ADDED_10_0_7}}),	-- Cataclysm Crushing
+		r(73478),	-- Fire Prism
+		r(73622, {["timeline"] = {ADDED_4_3_0}}),	-- Stardust
+	}),
+	filter(NECK_F, {
+		r(73496),	-- Alicite Pendant
+		-- #if ANYCLASSIC
+		applyclassicphase(CATA_PHASE_RISE_OF_THE_ZANDALARI, r(1216321, {["timeline"] = {ADDED_4_4_1}})),	-- Bloodthirsty Amberjewel Pendant
+		applyclassicphase(CATA_PHASE_RISE_OF_THE_ZANDALARI, r(1216331, {["timeline"] = {ADDED_4_4_1}})),	-- Bloodthirsty Ruby Choker
+		applyclassicphase(CATA_PHASE_RISE_OF_THE_ZANDALARI, r(1216330, {["timeline"] = {ADDED_4_4_1}})),	-- Bloodthirsty Sapphire Necklace
+		-- #endif
+		r(73497),	-- Nightstone Choker
+		r(99543, {["timeline"] = {ADDED_4_2_0}}),	-- Vicious Amberjewel Pendant
+		r(99544, {["timeline"] = {ADDED_4_2_0}}),	-- Vicious Ruby Choker
+		r(99542, {["timeline"] = {ADDED_4_2_0}}),	-- Vicious Sapphire Necklace
+	}),
+	n(WEAPONS, {
+		r(73620),	-- Carnelian Spikes
+		r(73621),	-- The Perforator
+	}),
 });
+COMMON_CATACLYSM_JEWELCRAFTING_RECIPES = sharedData({ ["timeline"] = { ADDED_4_0_3 } }, {
+	i(52409, {	-- Design: Accurate Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52419, {	-- Design: Adept Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52421, {	-- Design: Artful Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52437, {	-- Design: Austere Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52461, {	-- Design: Band of Blades (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52381, {	-- Design: Bold Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52362, {	-- Design: Bold Inferno Ruby (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52435, {	-- Design: Bracing Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52464, {	-- Design: Brazen Elementium Medallion (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52449, {	-- Design: Brilliant Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52387, {	-- Design: Brilliant Inferno Ruby (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52434, {	-- Design: Chaotic Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52413, {	-- Design: Deadly Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52401, {	-- Design: Defender's Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52416, {	-- Design: Deft Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52447, {	-- Design: Delicate Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52380, {	-- Design: Delicate Inferno Ruby (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52441, {	-- Design: Destructive Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52438, {	-- Design: Effulgent Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52460, {	-- Design: Elementium Destroyer's Ring (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52467, {	-- Design: Elementium Guardian (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52463, {	-- Design: Elementium Moebius Band (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52439, {	-- Design: Ember Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52443, {	-- Design: Enigmatic Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52465, {	-- Design: Entwined Elementium Choker (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52405, {	-- Design: Etched Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52436, {	-- Design: Eternal Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52466, {	-- Design: Eye of Many Deaths (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52415, {	-- Design: Fierce Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52420, {	-- Design: Fine Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52448, {	-- Design: Flashing Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52384, {	-- Design: Flashing Inferno Ruby (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52433, {	-- Design: Fleet Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52428, {	-- Design: Forceful Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52445, {	-- Design: Forlorn Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52398, {	-- Design: Fractured Amberjewel (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52459, {	-- Design: Fractured Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52406, {	-- Design: Glinting Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52403, {	-- Design: Guardian's Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52444, {	-- Design: Impassive Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52412, {	-- Design: Inscribed Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52425, {	-- Design: Jagged Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52422, {	-- Design: Keen Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52429, {	-- Design: Lightning Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(68360, {	-- Design: Lucent Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52396, {	-- Design: Mystic Amberjewel (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52457, {	-- Design: Mystic Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52424, {	-- Design: Nimble Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52426, {	-- Design: Piercing Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52410, {	-- Design: Polished Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52414, {	-- Design: Potent Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52442, {	-- Design: Powerful Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52450, {	-- Design: Precise Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52389, {	-- Design: Precise Inferno Ruby (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52430, {	-- Design: Puissant Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(69853, {	-- Design: Punisher's Band (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+		["timeline"] = { ADDED_4_1_0 },
+	}),
+	i(52404, {	-- Design: Purified Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52397, {	-- Design: Quick Amberjewel (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52458, {	-- Design: Quick Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52417, {	-- Design: Reckless Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52423, {	-- Design: Regal Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52411, {	-- Design: Resolute Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(68361, {	-- Design: Resplendent Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52407, {	-- Design: Retaliating Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52440, {	-- Design: Revitalizing Shadowspirit Diamond (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 4}},
+	}),
+	i(52454, {	-- Design: Rigid Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52393, {	-- Design: Rigid Ocean Sapphire (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52462, {	-- Design: Ring of Warring Elements (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	}),
+	i(52432, {	-- Design: Sensei's Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52400, {	-- Design: Shifting Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52418, {	-- Design: Skillful Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52395, {	-- Design: Smooth Amberjewel (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52456, {	-- Design: Smooth Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52451, {	-- Design: Solid Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52390, {	-- Design: Solid Ocean Sapphire (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52399, {	-- Design: Sovereign Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52452, {	-- Design: Sparkling Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52391, {	-- Design: Sparkling Ocean Sapphire (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52427, {	-- Design: Steady Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52453, {	-- Design: Stormy Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52392, {	-- Design: Stormy Ocean Sapphire (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52394, {	-- Design: Subtle Amberjewel (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52455, {	-- Design: Subtle Chimera's Eye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 2}},
+	}),
+	i(52402, {	-- Design: Timeless Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52408, {	-- Design: Veiled Demonseye (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(68742, {	-- Design: Vivid Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+		["timeline"] = { ADDED_4_0_6 },
+	}),
+	i(68359, {	-- Design: Willful Ember Topaz (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52431, {	-- Design: Zen Dream Emerald (RECIPE!)
+		["cost"] = {{"c", CATA_JC_TOKEN, 3}},
+	}),
+	i(52196, {	-- Chimera's Eye
+		["cost"] = {{"c", CATA_JC_TOKEN, 1}},
+	}),
+});
+COMMON_CATACLYSM_EPIC_JEWELCRAFTING_RECIPES = applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, sharedData({
+	["cost"] = {{"c", CATA_JC_TOKEN, 5}},
+	["timeline"] = { ADDED_4_3_0 },
+}, {
+	currency(361, {	-- Illustrious Jewelcrafter's Token
+		["cost"] = {{"i", 204356, 10}},	-- 10x Illustrious Gemdust
+		["timeline"] = { ADDED_10_0_7 },
+	}),
+	i(71928),	-- Design: Accurate Shadow Spinel (RECIPE!)
+	i(71917),	-- Design: Adept Lava Coral (RECIPE!)
+	i(71919),	-- Design: Artful Lava Coral (RECIPE!)
+	i(71893),	-- Design: Balanced Elven Peridot (RECIPE!)
+	i(71943),	-- Design: Bold Queen's Garnet (RECIPE!)
+	i(71941),	-- Design: Brilliant Queen's Garnet (RECIPE!)
+	i(71912),	-- Design: Champion's Lava Coral (RECIPE!)
+	i(71906),	-- Design: Crafty Lava Coral (RECIPE!)
+	i(71905),	-- Design: Deadly Lava Coral (RECIPE!)
+	i(71937),	-- Design: Defender's Shadow Spinel (RECIPE!)
+	i(71913),	-- Design: Deft Lava Coral (RECIPE!)
+	i(71939),	-- Design: Delicate Queen's Garnet (RECIPE!)
+	i(71898),	-- Design: Energized Elven Peridot (RECIPE!)
+	i(71931),	-- Design: Etched Shadow Spinel (RECIPE!)
+	i(71916),	-- Design: Fierce Lava Coral (RECIPE!)
+	i(71920),	-- Design: Fine Lava Coral (RECIPE!)
+	i(71942),	-- Design: Flashing Queen's Garnet (RECIPE!)
+	i(71901),	-- Design: Forceful Elven Peridot (RECIPE!)
+	i(71947),	-- Design: Fractured Lightstone (RECIPE!)
+	i(71927),	-- Design: Glinting Shadow Spinel (RECIPE!)
+	i(71935),	-- Design: Guardian's Shadow Spinel (RECIPE!)
+	i(71891),	-- Design: Infused Elven Peridot (RECIPE!)
+	i(71908),	-- Design: Inscribed Lava Coral (RECIPE!)
+	i(71899),	-- Design: Jagged Elven Peridot (RECIPE!)
+	i(71918),	-- Design: Keen Lava Coral (RECIPE!)
+	i(71889),	-- Design: Lightning Elven Peridot (RECIPE!)
+	i(71922),	-- Design: Lucent Lava Coral (RECIPE!)
+	i(71887),	-- Design: Misty Elven Peridot (RECIPE!)
+	i(71932),	-- Design: Mysterious Shadow Spinel (RECIPE!)
+	i(71948),	-- Design: Mystic Lightstone (RECIPE!)
+	i(71902),	-- Design: Nimble Elven Peridot (RECIPE!)
+	i(71888),	-- Design: Piercing Elven Peridot (RECIPE!)
+	i(71909),	-- Design: Polished Lava Coral (RECIPE!)
+	i(71907),	-- Design: Potent Lava Coral (RECIPE!)
+	i(71940),	-- Design: Precise Queen's Garnet (RECIPE!)
+	i(71903),	-- Design: Puissant Elven Peridot (RECIPE!)
+	i(71933),	-- Design: Purified Shadow Spinel (RECIPE!)
+	i(71946),	-- Design: Quick Lightstone (RECIPE!)
+	i(71896),	-- Design: Radiant Elven Peridot (RECIPE!)
+	i(71915),	-- Design: Reckless Lava Coral (RECIPE!)
+	i(71900),	-- Design: Regal Elven Peridot (RECIPE!)
+	i(71910),	-- Design: Resolute Lava Coral (RECIPE!)
+	i(71926),	-- Design: Resplendent Lava Coral (RECIPE!)
+	i(71930),	-- Design: Retaliating Shadow Spinel (RECIPE!)
+	i(71821),	-- Design: Rigid Deepholm Iolite (RECIPE!)
+	i(71890),	-- Design: Sensei's Elven Peridot (RECIPE!)
+	i(71897),	-- Design: Shattered Elven Peridot (RECIPE!)
+	i(71934),	-- Design: Shifting Shadow Spinel (RECIPE!)
+	i(71921),	-- Design: Skillful Lava Coral (RECIPE!)
+	i(71944),	-- Design: Smooth Lightstone (RECIPE!)
+	i(71886),	-- Design: Solid Deepholm Iolite (RECIPE!)
+	i(71938),	-- Design: Sovereign Shadow Spinel (RECIPE!)
+	i(71885),	-- Design: Sparkling Deepholm Iolite (RECIPE!)
+	i(71925),	-- Design: Splendid Lava Coral (RECIPE!)
+	i(71911),	-- Design: Stalwart Lava Coral (RECIPE!)
+	i(71904),	-- Design: Steady Elven Peridot (RECIPE!)
+	i(71884),	-- Design: Stormy Deepholm Iolite (RECIPE!)
+	i(71945),	-- Design: Subtle Lightstone (RECIPE!)
+	i(71923),	-- Design: Tenuous Lava Coral (RECIPE!)
+	i(71936),	-- Design: Timeless Shadow Spinel (RECIPE!)
+	i(71895),	-- Design: Turbid Elven Peridot (RECIPE!)
+	i(71929),	-- Design: Veiled Shadow Spinel (RECIPE!)
+	i(71894),	-- Design: Vivid Elven Peridot (RECIPE!)
+	i(71914),	-- Design: Wicked Lava Coral (RECIPE!)
+	i(71924),	-- Design: Willful Lava Coral (RECIPE!)
+	i(71892),	-- Design: Zen Elven Peridot (RECIPE!)
+}));
+CLASSIC_CATA_JEWELCRAFTING = appendGroups(CLASSIC_JEWELCRAFTING,
+-- #if AFTER CATA
+CATA_JEWELCRAFTING
+-- #else
+{}
+-- #endif
+);
 MOP_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	r(110420, {	-- Jewelcrafting (Zen Master)
 		["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1_LAUNCH },
@@ -770,541 +1185,6 @@ MOP_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 		["rank"] = 8,
 	}),
 });
-COMMON_CATACLYSM_JEWELCRAFTING_RECIPES = {
-	i(52409, {	-- Design: Accurate Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52419, {	-- Design: Adept Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52421, {	-- Design: Artful Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52437, {	-- Design: Austere Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52461, {	-- Design: Band of Blades
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52381, {	-- Design: Bold Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52362, {	-- Design: Bold Inferno Ruby
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52435, {	-- Design: Bracing Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52464, {	-- Design: Brazen Elementium Medallion
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52449, {	-- Design: Brilliant Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52387, {	-- Design: Brilliant Inferno Ruby
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52434, {	-- Design: Chaotic Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52413, {	-- Design: Deadly Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52401, {	-- Design: Defender's Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52416, {	-- Design: Deft Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52447, {	-- Design: Delicate Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52380, {	-- Design: Delicate Inferno Ruby
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52441, {	-- Design: Destructive Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52438, {	-- Design: Effulgent Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52460, {	-- Design: Elementium Destroyer's Ring
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52467, {	-- Design: Elementium Guardian
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52463, {	-- Design: Elementium Moebius Band
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52439, {	-- Design: Ember Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52443, {	-- Design: Enigmatic Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52465, {	-- Design: Entwined Elementium Choker
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52405, {	-- Design: Etched Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52436, {	-- Design: Eternal Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52466, {	-- Design: Eye of Many Deaths
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52415, {	-- Design: Fierce Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52420, {	-- Design: Fine Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52448, {	-- Design: Flashing Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52384, {	-- Design: Flashing Inferno Ruby
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52433, {	-- Design: Fleet Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52428, {	-- Design: Forceful Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52445, {	-- Design: Forlorn Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52398, {	-- Design: Fractured Amberjewel
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52459, {	-- Design: Fractured Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52406, {	-- Design: Glinting Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52403, {	-- Design: Guardian's Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52444, {	-- Design: Impassive Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52412, {	-- Design: Inscribed Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52425, {	-- Design: Jagged Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52422, {	-- Design: Keen Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52429, {	-- Design: Lightning Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(68360, {	-- Design: Lucent Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52396, {	-- Design: Mystic Amberjewel
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52457, {	-- Design: Mystic Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52424, {	-- Design: Nimble Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52426, {	-- Design: Piercing Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52410, {	-- Design: Polished Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52414, {	-- Design: Potent Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52442, {	-- Design: Powerful Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52450, {	-- Design: Precise Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52389, {	-- Design: Precise Inferno Ruby
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52430, {	-- Design: Puissant Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(69853, {	-- Design: Punisher's Band
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52404, {	-- Design: Purified Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52397, {	-- Design: Quick Amberjewel
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52458, {	-- Design: Quick Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52417, {	-- Design: Reckless Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52423, {	-- Design: Regal Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52411, {	-- Design: Resolute Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(68361, {	-- Design: Resplendent Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52407, {	-- Design: Retaliating Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52440, {	-- Design: Revitalizing Shadowspirit Diamond
-		["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52454, {	-- Design: Rigid Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52393, {	-- Design: Rigid Ocean Sapphire
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52462, {	-- Design: Ring of Warring Elements
-		["cost"] = { { "c", 361, 5 }, },	-- 5x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52432, {	-- Design: Sensei's Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52400, {	-- Design: Shifting Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52418, {	-- Design: Skillful Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52395, {	-- Design: Smooth Amberjewel
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52456, {	-- Design: Smooth Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52451, {	-- Design: Solid Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52390, {	-- Design: Solid Ocean Sapphire
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52399, {	-- Design: Sovereign Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52452, {	-- Design: Sparkling Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52391, {	-- Design: Sparkling Ocean Sapphire
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52427, {	-- Design: Steady Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52453, {	-- Design: Stormy Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52392, {	-- Design: Stormy Ocean Sapphire
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52394, {	-- Design: Subtle Amberjewel
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52455, {	-- Design: Subtle Chimera's Eye
-		["cost"] = { { "c", 361, 2 }, },	-- 2x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52402, {	-- Design: Timeless Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52408, {	-- Design: Veiled Demonseye
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(68742, {	-- Design: Vivid Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(68359, {	-- Design: Willful Ember Topaz
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52431, {	-- Design: Zen Dream Emerald
-		["cost"] = { { "c", 361, 3 }, },	-- 3x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-		["f"] = RECIPES,
-	}),
-	i(52196, {	-- Chimera's Eye
-		["cost"] = { { "c", 361, 1 }, },	-- 1x Illustrious Jewelcrafter's Token
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = JEWELCRAFTING,
-	}),
-};
 MOP_EPIC_GEM_RECIPES = sharedData({ ["timeline"] = { ADDED_5_0_4 } }, {
 	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136274, {	-- Assassin's Serpent's Eye
 		["timeline"] = { ADDED_5_2_0 },

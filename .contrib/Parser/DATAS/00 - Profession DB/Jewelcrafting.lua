@@ -2,18 +2,7 @@ local i = GetRecipeHelperForProfession(JEWELCRAFTING);
 
 
 
--- #if ANYCLASSIC
------------------
--- PATCH 4.0.3 --
------------------
---- TRAINER ---
-i(0,1216321);	-- Bloodthirsty Amberjewel Pendant
-i(0,1216323);	-- Bloodthirsty Sapphire Ring
-i(0,1216328);	-- Bloodthirsty Amberjewel Band
-i(0,1216329);	-- Bloodthirsty Ruby Signet
-i(0,1216330);	-- Bloodthirsty Sapphire Necklace
-i(0,1216331);	-- Bloodthirsty Ruby Choker
--- #endif
+
 
 -----------------
 -- PATCH 2.0.5 --
@@ -1254,13 +1243,18 @@ i(0, 66504);	-- Thick King's Amber [REMOVED: 4.0.3]
 i(0, 66577);	-- Wicked Ametrine [REMOVED: 4.0.3]
 -- #endif
 
-
--- Everything in the file currently is representative of live Retail data, so let's avoid contaminating
--- Classic pre-CATA where the Great JC Recipe Replacement took place
--- #if BEFORE CATA
-if true then return end
+-- #if ANYCLASSIC
+-----------------
+-- PATCH 4.1.0 --
+-----------------
+--- TRAINER ---
+i(0, 1216328);	-- Bloodthirsty Amberjewel Band
+i(0, 1216321);	-- Bloodthirsty Amberjewel Pendant
+i(0, 1216331);	-- Bloodthirsty Ruby Choker
+i(0, 1216329);	-- Bloodthirsty Ruby Signet
+i(0, 1216330);	-- Bloodthirsty Sapphire Necklace
+i(0, 1216323);	-- Bloodthirsty Sapphire Ring
 -- #endif
-
 
 -----------------
 -- PATCH 4.0.1 --
@@ -1274,239 +1268,259 @@ i(0,73259);	-- Resolute Hessonite
 -----------------
 --- TRAINER ---
 i(0, 73318);	-- Jewelcrafting (Illustrious Grand Master)
-i(0, 73222);	-- Bold Carnelian
-i(0, 73223);	-- Delicate Carnelian
-i(0, 73225);	-- Brilliant Carnelian
-i(0, 73226);	-- Precise Carnelian
-i(0, 73227);	-- Solid Zephyrite
-i(0, 73228);	-- Sparkling Zephyrite
-i(0, 73230);	-- Rigid Zephyrite
-i(0, 73232);	-- Smooth Alicite
-i(0, 73234);	-- Quick Alicite
-i(0, 73239);	-- Fractured Alicite
-i(0, 73240);	-- Sovereign Nightstone
-i(0, 73241);	-- Shifting Nightstone
-i(0, 73243);	-- Timeless Nightstone
-i(0, 73246);	-- Etched Nightstone
-i(0, 73247);	-- Glinting Nightstone
-i(0, 73249);	-- Veiled Nightstone
 i(0, 73250);	-- Accurate Nightstone
-i(0, 73265);	-- Deft Hessonite
-i(0, 73267);	-- Skillful Hessonite
 i(0, 73268);	-- Adept Hessonite
-i(0, 73270);	-- Artful Hessonite
-i(0, 73274);	-- Jagged Jasper
-i(0, 73279);	-- Puissant Jasper
-i(0, 73281);	-- Sensey's Jasper
-i(0, 73478);	-- Fire Prism
-i(0, 73494);	-- Jasper Ring
-i(0, 73495);	-- Hessonite Band
 i(0, 73496);	-- Alicite Pendant
-i(0, 73497);	-- Nightstone Choker
+i(0, 73270);	-- Artful Hessonite
+i(0, 73222);	-- Bold Carnelian
+i(0, 73225);	-- Brilliant Carnelian
 i(0, 73620);	-- Carnelian Spikes
+i(0, 73223);	-- Delicate Carnelian
+i(0, 73246);	-- Etched Nightstone
+i(0, 73478);	-- Fire Prism
+i(0, 73239);	-- Fractured Alicite
+i(0, 73247);	-- Glinting Nightstone
+i(0, 73495);	-- Hessonite Band
+i(0, 73274);	-- Jagged Jasper
+i(0, 73494);	-- Jasper Ring
+i(0, 73497);	-- Nightstone Choker
+i(0, 73226);	-- Precise Carnelian
+i(0, 73279);	-- Puissant Jasper
+i(0, 73234);	-- Quick Alicite
+i(0, 73266);	-- Reckless Hessonite
+i(0, 73230);	-- Rigid Zephyrite
+i(0, 73281);	-- Sensei's Jasper
+i(0, 73241);	-- Shifting Nightstone
+i(0, 73267);	-- Skillful Hessonite
+i(0, 73232);	-- Smooth Alicite
+i(0, 73227);	-- Solid Zephyrite
+i(0, 73240);	-- Sovereign Nightstone
+i(0, 73228);	-- Sparkling Zephyrite
 i(0, 73621);	-- The Perforator
-i(0, 73622);	-- Stardust
-i(0, 99539);	-- Vicious Sapphire Ring
-i(0, 99540);	-- Vicious Amberjewel Band
-i(0, 99541);	-- Vicious Ruby Signet
-i(0, 99542);	-- Vicious Sapphire Necklace
-i(0, 99543);	-- Vicious Amberjewel Pendant
-i(0, 99544);	-- Vicious Ruby Choker
+i(0, 73243);	-- Timeless Nightstone
+i(0, 73249);	-- Veiled Nightstone
 --- ITEM ---
-i(52362, 73335);	-- Design: Bold Inferno Ruby
-i(52380, 73336);	-- Design: Delicate Inferno Ruby
-i(52381, 73396);	-- Design: Bold Chimera's Eye
-i(52384, 73337);	-- Design: Flashing Inferno Ruby
-i(52387, 73338);	-- Design: Brilliant Inferno Ruby
-i(52389, 73339);	-- Design: Precise Inferno Ruby
-i(52390, 73340);	-- Design: Solid Ocean Sapphire
-i(52391, 73341);	-- Design: Sparkling Ocean Sapphire
-i(52392, 73343);	-- Design: Stormy Ocean Sapphire
-i(52393, 73344);	-- Design: Rigid Ocean Sapphire
-i(52394, 73345);	-- Design: Subtle Amberjewel
-i(52395, 73346);	-- Design: Smooth Amberjewel
-i(52396, 73347);	-- Design: Mystic Amberjewel
-i(52397, 73348);	-- Design: Quick Amberjewel
-i(52398, 73349);	-- Design: Fractured Amberjewel
-i(52399, 73350);	-- Design: Sovereign Demonseye
-i(52400, 73351);	-- Design: Shifting Demonseye
-i(52401, 73352);	-- Design: Defender's Demonseye
-i(52402, 73353);	-- Design: Timeless Demonseye
-i(52403, 73354);	-- Design: Guardian's Demonseye
-i(52404, 73355);	-- Design: Purified Demonseye
-i(52405, 73356);	-- Design: Etched Demonseye
-i(52406, 73357);	-- Design: Glinting Demonseye
-i(52407, 73358);	-- Design: Retaliating Demonseye
-i(52408, 73359);	-- Design: Veiled Demonseye
-i(52409, 73360);	-- Design: Accurate Demonseye
-i(52410, 73361);	-- Design: Polished Ember Topaz
-i(52411, 73362);	-- Design: Resolute Ember Topaz
-i(52412, 73364);	-- Design: Inscribed Ember Topaz
-i(52413, 73365);	-- Design: Deadly Ember Topaz
-i(52414, 73366);	-- Design: Potent Ember Topaz
-i(52415, 73367);	-- Design: Fierce Ember Topaz
-i(52416, 73368);	-- Design: Deft Ember Topaz
-i(52417, 73369);	-- Design: Reckless Ember Topaz
-i(52418, 73370);	-- Design: Skillful Ember Topaz
-i(52419, 73371);	-- Design: Adept Ember Topaz
-i(52420, 73372);	-- Design: Fine Ember Topaz
-i(52421, 73373);	-- Design: Artful Ember Topaz
-i(52422, 73374);	-- Design: Keen Ember Topaz
-i(52423, 73375);	-- Design: Regal Dream Emerald
-i(52424, 73376);	-- Design: Nimble Dream Emerald
-i(52425, 73377);	-- Design: Jagged Dream Emerald
-i(52426, 73378);	-- Design: Piercing Dream Emerald
-i(52427, 73379);	-- Design: Steady Dream Emerald
-i(52428, 73380);	-- Design: Forceful Dream Emerald
-i(52429, 73381);	-- Design: Lightning Dream Emerald
-i(52430, 73382);	-- Design: Puissant Dream Emerald
-i(52431, 73383);	-- Design: Zen Dream Emerald
-i(52432, 73384);	-- Design: Sensei's Dream Emerald
-i(52433, 73464);	-- Design: Fleet Shadowspirit Diamond
-i(52434, 73465);	-- Design: Chaotic Shadowspirit Diamond
-i(52435, 73466);	-- Design: Bracing Shadowspirit Diamond
-i(52436, 73467);	-- Design: Eternal Shadowspirit Diamond
-i(52437, 73468);	-- Design: Austere Shadowspirit Diamond
-i(52438, 73469);	-- Design: Effulgent Shadowspirit Diamond
-i(52439, 73470);	-- Design: Ember Shadowspirit Diamond
-i(52440, 73471);	-- Design: Revitalizing Shadowspirit Diamond
-i(52441, 73472);	-- Design: Destructive Shadowspirit Diamond
-i(52442, 73473);	-- Design: Powerful Shadowspirit Diamond
-i(52443, 73474);	-- Design: Enigmatic Shadowspirit Diamond
-i(52444, 73475);	-- Design: Impassive Shadowspirit Diamond
-i(52445, 73476);	-- Design: Forlorn Shadowspirit Diamond
-i(52447, 73397);	-- Design: Delicate Chimera's Eye
-i(52448, 73398);	-- Design: Flashing Chimera's Eye
-i(52449, 73399);	-- Design: Brilliant Chimera's Eye
-i(52450, 73400);	-- Design: Precise Chimera's Eye
-i(52451, 73401);	-- Design: Solid Chimera's Eye
-i(52452, 73402);	-- Design: Sparkling Chimera's Eye
-i(52453, 73403);	-- Design: Stormy Chimera's Eye
-i(52454, 73404);	-- Design: Rigid Chimera's Eye
-i(52455, 73405);	-- Design: Subtle Chimera's Eye
-i(52456, 73406);	-- Design: Smooth Chimera's Eye
-i(52457, 73407);	-- Design: Mystic Chimera's Eye
-i(52458, 73408);	-- Design: Quick Chimera's Eye
-i(52459, 73409);	-- Design: Fractured Chimera's Eye
-i(52460, 73520);	-- Design: Elementium Destroyer's Ring
-i(52461, 73498);	-- Design: Band of Blades
-i(52462, 73502);	-- Design: Ring of Warring Elements
-i(52463, 73503);	-- Design: Elementium Moebius Band
-i(52464, 73521);	-- Design: Brazen Elementium Medallion
-i(52465, 73504);	-- Design: Entwined Elementium Choker
-i(52466, 73505);	-- Design: Eye of Many Deaths
-i(52467, 73506);	-- Design: Elementium Guardian
-i(68359, 95754);	-- Design: Willful Ember Topaz
-i(68360, 95755);	-- Design: Lucent Ember Topaz
-i(68361, 95756);	-- Design: Resplendent Ember Topaz
-i(68742, 96226);	-- Design: Vivid Dream Emerald
-i(69853, 98921);	-- Design: Punisher's Band
+i(52409, 73360);	-- Accurate Demonseye
+i(52419, 73371);	-- Adept Ember Topaz
+i(52421, 73373);	-- Artful Ember Topaz
+i(52437, 73468);	-- Austere Shadowspirit Diamond
+i(52461, 73498);	-- Band of Blades
+i(52381, 73396);	-- Bold Chimera's Eye
+i(52362, 73335);	-- Bold Inferno Ruby
+i(52435, 73466);	-- Bracing Shadowspirit Diamond
+i(52464, 73521);	-- Brazen Elementium Medallion
+i(52449, 73399);	-- Brilliant Chimera's Eye
+i(52387, 73338);	-- Brilliant Inferno Ruby
+i(52434, 73465);	-- Chaotic Shadowspirit Diamond
+i(52413, 73365);	-- Deadly Ember Topaz
+i(52372, 73262);	-- Deadly Hessonite
+i(52401, 73352);	-- Defender's Demonseye
+i(52366, 73242);	-- Defender's Nightstone
+i(52416, 73368);	-- Deft Ember Topaz
+i(52375, 73265);	-- Deft Hessonite
+i(52447, 73397);	-- Delicate Chimera's Eye
+i(52380, 73336);	-- Delicate Inferno Ruby
+i(52441, 73472);	-- Destructive Shadowspirit Diamond
+i(52438, 73469);	-- Effulgent Shadowspirit Diamond
+i(52460, 73520);	-- Elementium Destroyer's Ring
+i(52467, 73506);	-- Elementium Guardian
+i(52463, 73503);	-- Elementium Moebius Band
+i(52439, 73470);	-- Ember Shadowspirit Diamond
+i(52443, 73474);	-- Enigmatic Shadowspirit Diamond
+i(52465, 73504);	-- Entwined Elementium Choker
+i(52405, 73356);	-- Etched Demonseye
+i(52436, 73467);	-- Eternal Shadowspirit Diamond
+i(52466, 73505);	-- Eye of Many Deaths
+i(52415, 73367);	-- Fierce Ember Topaz
+i(52374, 73264);	-- Fierce Hessonite
+i(52420, 73372);	-- Fine Ember Topaz
+i(52376, 73269);	-- Fine Hessonite
+i(52363, 73224);	-- Flashing Carnelian
+i(52448, 73398);	-- Flashing Chimera's Eye
+i(52384, 73337);	-- Flashing Inferno Ruby
+i(52433, 73464);	-- Fleet Shadowspirit Diamond
+i(52428, 73380);	-- Forceful Dream Emerald
+i(52385, 73277);	-- Forceful Jasper
+i(52445, 73476);	-- Forlorn Shadowspirit Diamond
+i(52398, 73349);	-- Fractured Amberjewel
+i(52459, 73409);	-- Fractured Chimera's Eye
+i(52406, 73357);	-- Glinting Demonseye
+i(52403, 73354);	-- Guardian's Demonseye
+i(52367, 73244);	-- Guardian's Nightstone
+i(52444, 73475);	-- Impassive Shadowspirit Diamond
+i(52412, 73364);	-- Inscribed Ember Topaz
+i(52371, 73260);	-- Inscribed Hessonite
+i(52425, 73377);	-- Jagged Dream Emerald
+i(52496, 73627);	-- Jeweler's Amber Monocle
+i(52494, 73625);	-- Jeweler's Ruby Monocle
+i(52495, 73626);	-- Jeweler's Sapphire Monocle
+i(52422, 73374);	-- Keen Ember Topaz
+i(52377, 73271);	-- Keen Hessonite
+i(52429, 73381);	-- Lightning Dream Emerald
+i(52386, 73278);	-- Lightning Jasper
+i(68360, 95755);	-- Lucent Ember Topaz
+i(52396, 73347);	-- Mystic Amberjewel
+i(52457, 73407);	-- Mystic Chimera's Eye
+i(52424, 73376);	-- Nimble Dream Emerald
+i(52379, 73273);	-- Nimble Jasper
+i(52426, 73378);	-- Piercing Dream Emerald
+i(52382, 73275);	-- Piercing Jasper
+i(52410, 73361);	-- Polished Ember Topaz
+i(52370, 73258);	-- Polished Hessonite
+i(52414, 73366);	-- Potent Ember Topaz
+i(52373, 73263);	-- Potent Hessonite
+i(52442, 73473);	-- Powerful Shadowspirit Diamond
+i(52450, 73400);	-- Precise Chimera's Eye
+i(52389, 73339);	-- Precise Inferno Ruby
+i(52430, 73382);	-- Puissant Dream Emerald
+i(52404, 73355);	-- Purified Demonseye
+i(52368, 73245);	-- Purified Nightstone
+i(52397, 73348);	-- Quick Amberjewel
+i(52458, 73408);	-- Quick Chimera's Eye
+i(52417, 73369);	-- Reckless Ember Topaz
+i(52423, 73375);	-- Regal Dream Emerald
+i(52378, 73272);	-- Regal Jasper
+i(52411, 73362);	-- Resolute Ember Topaz
+i(68361, 95756);	-- Resplendent Ember Topaz
+i(52407, 73358);	-- Retaliating Demonseye
+i(52369, 73248);	-- Retaliating Nightstone
+i(52440, 73471);	-- Revitalizing Shadowspirit Diamond
+i(52454, 73404);	-- Rigid Chimera's Eye
+i(52393, 73344);	-- Rigid Ocean Sapphire
+i(52462, 73502);	-- Ring of Warring Elements
+i(52432, 73384);	-- Sensei's Dream Emerald
+i(52400, 73351);	-- Shifting Demonseye
+i(52418, 73370);	-- Skillful Ember Topaz
+i(52395, 73346);	-- Smooth Amberjewel
+i(52456, 73406);	-- Smooth Chimera's Eye
+i(52451, 73401);	-- Solid Chimera's Eye
+i(52390, 73340);	-- Solid Ocean Sapphire
+i(52399, 73350);	-- Sovereign Demonseye
+i(52452, 73402);	-- Sparkling Chimera's Eye
+i(52391, 73341);	-- Sparkling Ocean Sapphire
+i(52427, 73379);	-- Steady Dream Emerald
+i(52383, 73276);	-- Steady Jasper
+i(52453, 73403);	-- Stormy Chimera's Eye
+i(52392, 73343);	-- Stormy Ocean Sapphire
+i(52364, 73229);	-- Stormy Zephyrite
+i(52365, 73231);	-- Subtle Alicite
+i(52394, 73345);	-- Subtle Amberjewel
+i(52455, 73405);	-- Subtle Chimera's Eye
+i(52402, 73353);	-- Timeless Demonseye
+i(52408, 73359);	-- Veiled Demonseye
+i(68359, 95754);	-- Willful Ember Topaz
+i(52431, 73383);	-- Zen Dream Emerald
+i(52388, 73280);	-- Zen Jasper
+--- NYI ---
+i(52497, 0);	-- Jeweler's Sapphire Monocle
 
-i(52363, 73224);	-- Design: Flashing Carnelian (Guessed via Filter Recipe with SpellID)
-i(52364, 73229);	-- Design: Stormy Zephyrite (Guessed via Filter Recipe with SpellID)
-i(52365, 73231);	-- Design: Subtle Alicite (Guessed via Filter Recipe with SpellID)
-i(52366, 73242);	-- Design: Defender's Nightstone (Guessed via Filter Recipe with SpellID)
-i(52367, 73244);	-- Design: Guardian's Nightstone (Guessed via Filter Recipe with SpellID)
-i(52368, 73245);	-- Design: Purified Nightstone (Guessed via Filter Recipe with SpellID)
-i(52369, 73248);	-- Design: Retaliating Nightstone (Guessed via Filter Recipe with SpellID)
-i(52370, 73258);	-- Design: Polished Hessonite (Guessed via Filter Recipe with SpellID)
-i(52371, 73260);	-- Design: Inscribed Hessonite (Guessed via Filter Recipe with SpellID)
-i(52372, 73262);	-- Design: Deadly Hessonite (Guessed via Filter Recipe with SpellID)
-i(52373, 73263);	-- Design: Potent Hessonite (Guessed via Filter Recipe with SpellID)
-i(52374, 73264);	-- Design: Fierce Hessonite (Guessed via Filter Recipe with SpellID)
-i(52375, 73265);	-- Design: Deft Hessonite (Guessed via Filter Recipe with SpellID)
-i(52376, 73269);	-- Design: Fine Hessonite (Guessed via Filter Recipe with SpellID)
-i(52377, 73271);	-- Design: Keen Hessonite (Guessed via Filter Recipe with SpellID)
-i(52378, 73272);	-- Design: Regal Jasper (Guessed via Filter Recipe with SpellID)
-i(52379, 73273);	-- Design: Nimble Jasper (Guessed via Filter Recipe with SpellID)
-i(52382, 73275);	-- Design: Piercing Jasper (Guessed via Filter Recipe with SpellID)
-i(52383, 73276);	-- Design: Steady Jasper (Guessed via Filter Recipe with SpellID)
-i(52385, 73277);	-- Design: Forceful Jasper (Guessed via Filter Recipe with SpellID)
-i(52386, 73278);	-- Design: Lightning Jasper (Guessed via Filter Recipe with SpellID)
-i(52388, 73280);	-- Design: Zen Jasper (Guessed via Filter Recipe with SpellID)
-i(52494, 73625);	-- Design: Jeweler's Ruby Monocle (Guessed via Filter Recipe with SpellID)
-i(52495, 73626);	-- Design: Jeweler's Sapphire Monocle (Guessed via Filter Recipe with SpellID)
-i(52496, 73627);	-- Design: Jeweler's Amber Monocle (Guessed via Filter Recipe with SpellID)
-i(52497, 73624);	-- Design: Jeweler's Sapphire Monocle (Guessed via Filter Recipe with SpellID)
+-----------------
+-- PATCH 4.0.6 --
+-----------------
+--- ITEM ---
+i(68781, 96255);	-- Agile Shadowspirit Diamond
+i(68783, 96257);	-- Burning Shadowspirit Diamond
+i(68782, 96256);	-- Reverberating Shadowspirit Diamond
+i(68742, 96226);	-- Vivid Dream Emerald
 
 -----------------
 -- PATCH 4.1.0 --
 -----------------
-i(68781, 96255);	-- Design: Agile Shadowspirit Diamond (Guessed via Filter Recipe with SpellID)
-i(68782, 96256);	-- Design: Reverberating Shadowspirit Diamond (Guessed via Filter Recipe with SpellID)
-i(68783, 96257);	-- Design: Burning Shadowspirit Diamond (Guessed via Filter Recipe with SpellID)
-i(69820, 73266);	-- Design: Reckless Hessonite (Guessed via Filter Recipe with SpellID)
+--- ITEM ---
+i(69853, 98921);	-- Punisher's Band
+i(69820, 73266);	-- Reckless Hessonite
+
+-----------------
+-- PATCH 4.2.0 --
+-----------------
+--- TRAINER ---
+i(0, 99540);	-- Vicious Amberjewel Band
+i(0, 99543);	-- Vicious Amberjewel Pendant
+i(0, 99544);	-- Vicious Ruby Choker
+i(0, 99541);	-- Vicious Ruby Signet
+i(0, 99542);	-- Vicious Sapphire Necklace
+i(0, 99539);	-- Vicious Sapphire Ring
 
 -----------------
 -- PATCH 4.3.0 --
 -----------------
-i(71821, 101735);	-- Design: Rigid Deepholm Iolite (Guessed via Filter Recipe with SpellID)
-i(71884, 101740);	-- Design: Stormy Deepholm Iolite (Guessed via Filter Recipe with SpellID)
-i(71885, 101741);	-- Design: Sparkling Deepholm Iolite (Guessed via Filter Recipe with SpellID)
-i(71886, 101742);	-- Design: Solid Deepholm Iolite (Guessed via Filter Recipe with SpellID)
-i(71887, 101743);	-- Design: Misty Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71888, 101744);	-- Design: Piercing Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71889, 101745);	-- Design: Lightning Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71890, 101746);	-- Design: Sensei's Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71891, 101747);	-- Design: Infused Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71892, 101748);	-- Design: Zen Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71893, 101749);	-- Design: Balanced Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71894, 101750);	-- Design: Vivid Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71895, 101751);	-- Design: Turbid Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71896, 101752);	-- Design: Radiant Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71897, 101753);	-- Design: Shattered Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71898, 101754);	-- Design: Energized Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71899, 101755);	-- Design: Jagged Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71900, 101756);	-- Design: Regal Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71901, 101757);	-- Design: Forceful Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71902, 101758);	-- Design: Nimble Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71903, 101759);	-- Design: Puissant Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71904, 101760);	-- Design: Steady Elven Peridot (Guessed via Filter Recipe with SpellID)
-i(71905, 101761);	-- Design: Deadly Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71906, 101762);	-- Design: Crafty Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71907, 101763);	-- Design: Potent Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71908, 101764);	-- Design: Inscribed Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71909, 101765);	-- Design: Polished Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71910, 101766);	-- Design: Resolute Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71911, 101767);	-- Design: Stalwart Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71912, 101768);	-- Design: Champion's Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71913, 101769);	-- Design: Deft Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71914, 101770);	-- Design: Wicked Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71915, 101771);	-- Design: Reckless Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71916, 101772);	-- Design: Fierce Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71917, 101773);	-- Design: Adept Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71918, 101774);	-- Design: Keen Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71919, 101775);	-- Design: Artful Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71920, 101776);	-- Design: Fine Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71921, 101777);	-- Design: Skillful Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71922, 101778);	-- Design: Lucent Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71923, 101779);	-- Design: Tenuous Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71924, 101780);	-- Design: Willful Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71925, 101781);	-- Design: Splendid Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71926, 101782);	-- Design: Resplendent Lava Coral (Guessed via Filter Recipe with SpellID)
-i(71927, 101783);	-- Design: Glinting Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71928, 101784);	-- Design: Accurate Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71929, 101785);	-- Design: Veiled Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71930, 101786);	-- Design: Retaliating Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71931, 101787);	-- Design: Etched Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71932, 101788);	-- Design: Mysterious Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71933, 101789);	-- Design: Purified Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71934, 101790);	-- Design: Shifting Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71935, 101791);	-- Design: Guardian's Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71936, 101792);	-- Design: Timeless Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71937, 101793);	-- Design: Defender's Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71938, 101794);	-- Design: Sovereign Shadow Spinel (Guessed via Filter Recipe with SpellID)
-i(71939, 101795);	-- Design: Delicate Queen's Garnet (Guessed via Filter Recipe with SpellID)
-i(71940, 101796);	-- Design: Precise Queen's Garnet (Guessed via Filter Recipe with SpellID)
-i(71941, 101797);	-- Design: Brilliant Queen's Garnet (Guessed via Filter Recipe with SpellID)
-i(71942, 101798);	-- Design: Flashing Queen's Garnet (Guessed via Filter Recipe with SpellID)
-i(71943, 101799);	-- Design: Bold Queen's Garnet (Guessed via Filter Recipe with SpellID)
-i(71944, 101800);	-- Design: Smooth Lightstone (Guessed via Filter Recipe with SpellID)
-i(71945, 101801);	-- Design: Subtle Lightstone (Guessed via Filter Recipe with SpellID)
-i(71946, 101802);	-- Design: Quick Lightstone (Guessed via Filter Recipe with SpellID)
-i(71947, 101803);	-- Design: Fractured Lightstone (Guessed via Filter Recipe with SpellID)
-i(71948, 101804);	-- Design: Mystic Lightstone (Guessed via Filter Recipe with SpellID)
-i(71965, 73623);	-- Design: Rhinestone Sunglasses (Guessed via Filter Recipe with SpellID)
+--- TRAINER ---
+i(0, 73622);	-- Stardust
+--- ITEM ---
+i(71928, 101784);	-- Accurate Shadow Spinel
+i(71917, 101773);	-- Adept Lava Coral
+i(71919, 101775);	-- Artful Lava Coral
+i(71893, 101749);	-- Balanced Elven Peridot
+i(71943, 101799);	-- Bold Queen's Garnet
+i(71941, 101797);	-- Brilliant Queen's Garnet
+i(71912, 101768);	-- Champion's Lava Coral
+i(71906, 101762);	-- Crafty Lava Coral
+i(71905, 101761);	-- Deadly Lava Coral
+i(71937, 101793);	-- Defender's Shadow Spinel
+i(71913, 101769);	-- Deft Lava Coral
+i(71939, 101795);	-- Delicate Queen's Garnet
+i(71898, 101754);	-- Energized Elven Peridot
+i(71931, 101787);	-- Etched Shadow Spinel
+i(71916, 101772);	-- Fierce Lava Coral
+i(71920, 101776);	-- Fine Lava Coral
+i(71942, 101798);	-- Flashing Queen's Garnet
+i(71901, 101757);	-- Forceful Elven Peridot
+i(71947, 101803);	-- Fractured Lightstone
+i(71927, 101783);	-- Glinting Shadow Spinel
+i(71935, 101791);	-- Guardian's Shadow Spinel
+i(71891, 101747);	-- Infused Elven Peridot
+i(71908, 101764);	-- Inscribed Lava Coral
+i(71899, 101755);	-- Jagged Elven Peridot
+i(71918, 101774);	-- Keen Lava Coral
+i(71889, 101745);	-- Lightning Elven Peridot
+i(71922, 101778);	-- Lucent Lava Coral
+i(71887, 101743);	-- Misty Elven Peridot
+i(71932, 101788);	-- Mysterious Shadow Spinel
+i(71948, 101804);	-- Mystic Lightstone
+i(71902, 101758);	-- Nimble Elven Peridot
+i(71888, 101744);	-- Piercing Elven Peridot
+i(71909, 101765);	-- Polished Lava Coral
+i(71907, 101763);	-- Potent Lava Coral
+i(71940, 101796);	-- Precise Queen's Garnet
+i(71903, 101759);	-- Puissant Elven Peridot
+i(71933, 101789);	-- Purified Shadow Spinel
+i(71946, 101802);	-- Quick Lightstone
+i(71896, 101752);	-- Radiant Elven Peridot
+i(71915, 101771);	-- Reckless Lava Coral
+i(71900, 101756);	-- Regal Elven Peridot
+i(71910, 101766);	-- Resolute Lava Coral
+i(71926, 101782);	-- Resplendent Lava Coral
+i(71930, 101786);	-- Retaliating Shadow Spinel
+i(71965, 73623);	-- Rhinestone Sunglasses
+i(71821, 101735);	-- Rigid Deepholm Iolite
+i(71890, 101746);	-- Sensei's Elven Peridot
+i(71897, 101753);	-- Shattered Elven Peridot
+i(71934, 101790);	-- Shifting Shadow Spinel
+i(71921, 101777);	-- Skillful Lava Coral
+i(71944, 101800);	-- Smooth Lightstone
+i(71886, 101742);	-- Solid Deepholm Iolite
+i(71938, 101794);	-- Sovereign Shadow Spinel
+i(71885, 101741);	-- Sparkling Deepholm Iolite
+i(71925, 101781);	-- Splendid Lava Coral
+i(71911, 101767);	-- Stalwart Lava Coral
+i(71904, 101760);	-- Steady Elven Peridot
+i(71884, 101740);	-- Stormy Deepholm Iolite
+i(71945, 101801);	-- Subtle Lightstone
+i(71923, 101779);	-- Tenuous Lava Coral
+i(71936, 101792);	-- Timeless Shadow Spinel
+i(71895, 101751);	-- Turbid Elven Peridot
+i(71929, 101785);	-- Veiled Shadow Spinel
+i(71894, 101750);	-- Vivid Elven Peridot
+i(71914, 101770);	-- Wicked Lava Coral
+i(71924, 101780);	-- Willful Lava Coral
+i(71892, 101748);	-- Zen Elven Peridot
+
+
+-- Everything in the file currently is representative of live Retail data, so let's avoid contaminating
+-- Classic pre-CATA where the Great JC Recipe Replacement took place
+-- #if BEFORE CATA
+if true then return end
+-- #endif
 
 -----------------
 -- PATCH 5.0.1 --

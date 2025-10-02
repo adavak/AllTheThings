@@ -1226,51 +1226,272 @@ Fire and Water - Damage against Elementals increased by 15%.
 		}),
 	}),
 	prof(JEWELCRAFTING, {
-		filter(FIST_WEAPONS, {
-			i(52492),	-- Carnelian Spikes
-			i(52493),	-- The Perforator
-		}),
-		n(HEAD, {
+		filter(COSMETIC, {
 			i(52487),	-- Jeweler's Amber Monocle
 			i(52485),	-- Jeweler's Ruby Monocle
 			i(52486),	-- Jeweler's Sapphire Monocle
 			i(52489, {	-- Rhinestone Sunglasses
+				["timeline"] = { ADDED_4_3_0 },
 				-- #if BEFORE SL
 				["collectible"] = false,
 				["description"] = "Keep this somewhere until the appearance can be learned in Shadowlands."
 				-- #endif
 			}),
 		}),
-		filter(MISC, {
-			i(204356, {["timeline"]={ADDED_10_0_7}}),	-- Illustrious Gemdust
-		}),
-		filter(NECK_F, {
-			i(52307, {	-- Alicite Pendant
-				i(52312),	-- Alicite Pendant
+		filter(GEMS, {
+			n(SPECIAL, {
+				i(52255),	-- Bold Chimera's Eye
+				i(52257),	-- Brilliant Chimera's Eye
+				i(52258),	-- Delicate Chimera's Eye
+				i(52259),	-- Flashing Chimera's Eye
+				i(52269),	-- Fractured Chimera's Eye
+				i(52267),	-- Mystic Chimera's Eye
+				i(52260),	-- Precise Chimera's Eye
+				i(52268),	-- Quick Chimera's Eye
+				i(52264),	-- Rigid Chimera's Eye
+				i(52266),	-- Smooth Chimera's Eye
+				i(52261),	-- Solid Chimera's Eye
+				i(52262),	-- Sparkling Chimera's Eye
+				i(52263),	-- Stormy Chimera's Eye
+				i(52265),	-- Subtle Chimera's Eye
 			}),
-			bloodthirsty(i(70075)),	-- Bloodthirsty Amberjewel Pendant
-			bloodthirsty(i(70076)),	-- Bloodthirsty Ruby Choker
-			bloodthirsty(i(70074)),	-- Bloodthirsty Sapphire Necklace
-			i(52350),	-- Brazen Elementium Medallion
-			i(52323),	-- Elementium Guardian
-			i(52321),	-- Entwined Elementium Choker
-			i(52322),	-- Eye of Many Deaths
-			i(52309, {	-- Nightstone Choker
-				i(52314),	-- Nightstone Choker
+			n(QUALITY_UNCOMMON, {
+				i(52105),	-- Accurate Nightstone
+				i(52115),	-- Adept Hessonite
+				i(52117),	-- Artful Hessonite
+				i(52081),	-- Bold Carnelian
+				i(52084),	-- Brilliant Carnelian
+				i(52109),	-- Deadly Hessonite
+				i(52097),	-- Defender's Nightstone
+				i(52112),	-- Deft Hessonite
+				i(52082),	-- Delicate Carnelian
+				i(52101),	-- Etched Nightstone
+				i(52111),	-- Fierce Hessonite
+				i(52116),	-- Fine Hessonite
+				i(52083),	-- Flashing Carnelian
+				i(52124),	-- Forceful Jasper
+				i(52094),	-- Fractured Alicite
+				i(52102),	-- Glinting Nightstone
+				i(52099),	-- Guardian's Nightstone
+				i(52108),	-- Inscribed Hessonite
+				i(52121),	-- Jagged Jasper
+				i(52118),	-- Keen Hessonite
+				i(52125),	-- Lightning Jasper
+				i(52092),	-- Mystic Alicite
+				i(52120),	-- Nimble Jasper
+				i(52152),	-- Perfect Accurate Nightstone
+				i(52142),	-- Perfect Adept Hessonite
+				i(52140),	-- Perfect Artful Hessonite
+				i(52176),	-- Perfect Bold Carnelian
+				i(52173),	-- Perfect Brilliant Carnelian
+				i(52148),	-- Perfect Deadly Hessonite
+				i(52160),	-- Perfect Defender's Nightstone
+				i(52145),	-- Perfect Deft Hessonite
+				i(52175),	-- Perfect Delicate Carnelian
+				i(52156),	-- Perfect Etched Nightstone
+				i(52146),	-- Perfect Fierce Hessonite
+				i(52141),	-- Perfect Fine Hessonite
+				i(52174),	-- Perfect Flashing Carnelian
+				i(52133),	-- Perfect Forceful Jasper
+				i(52163),	-- Perfect Fractured Alicite
+				i(52155),	-- Perfect Glinting Nightstone
+				i(52158),	-- Perfect Guardian's Nightstone
+				i(52149),	-- Perfect Inscribed Hessonite
+				i(52136),	-- Perfect Jagged Jasper
+				i(52139),	-- Perfect Keen Hessonite
+				i(52132),	-- Perfect Lightning Jasper
+				i(52165),	-- Perfect Mystic Alicite
+				i(52137),	-- Perfect Nimble Jasper
+				i(52135),	-- Perfect Piercing Jasper
+				i(52151),	-- Perfect Polished Hessonite
+				i(52147),	-- Perfect Potent Hessonite
+				i(52172),	-- Perfect Precise Carnelian
+				i(52131),	-- Perfect Puissant Jasper
+				i(52157),	-- Perfect Purified Nightstone
+				i(52164),	-- Perfect Quick Alicite
+				i(52144),	-- Perfect Reckless Hessonite
+				i(52138),	-- Perfect Regal Jasper
+				i(52154),	-- Perfect Retaliating Nightstone
+				i(52168),	-- Perfect Rigid Zephyrite
+				i(52129),	-- Perfect Sensei's Jasper
+				i(52161),	-- Perfect Shifting Nightstone
+				i(52143),	-- Perfect Skillful Hessonite
+				i(52166),	-- Perfect Smooth Alicite
+				i(52171),	-- Perfect Solid Zephyrite
+				i(52162),	-- Perfect Sovereign Nightstone
+				i(52170),	-- Perfect Sparkling Zephyrite
+				i(52134),	-- Perfect Steady Jasper
+				i(52169),	-- Perfect Stormy Zephyrite
+				i(52167),	-- Perfect Subtle Alicite
+				i(52159),	-- Perfect Timeless Nightstone
+				i(52153),	-- Perfect Veiled Nightstone
+				i(52130),	-- Perfect Zen Jasper
+				i(52122),	-- Piercing Jasper
+				i(52106),	-- Polished Hessonite
+				i(52110),	-- Potent Hessonite
+				i(52085),	-- Precise Carnelian
+				i(52126),	-- Puissant Jasper
+				i(52100),	-- Purified Nightstone
+				i(52093),	-- Quick Alicite
+				i(52113),	-- Reckless Hessonite
+				i(52119),	-- Regal Jasper
+				i(52103),	-- Retaliating Nightstone
+				i(52089),	-- Rigid Zephyrite
+				i(52128),	-- Sensei's Jasper
+				i(52096),	-- Shifting Nightstone
+				i(52114),	-- Skillful Hessonite
+				i(52091),	-- Smooth Alicite
+				i(52086),	-- Solid Zephyrite
+				i(52095),	-- Sovereign Nightstone
+				i(52087),	-- Sparkling Zephyrite
+				i(52123),	-- Steady Jasper
+				i(52088),	-- Stormy Zephyrite
+				i(52090),	-- Subtle Alicite
+				i(52098),	-- Timeless Nightstone
+				i(52104),	-- Veiled Nightstone
+				i(52127),	-- Zen Jasper
 			}),
-			-- #if ANYCLASSIC
-			-- Blizzard did a dumb when they implemented Cata Classic
-			dragonsoul(i(226188)),	-- Vicious Amberjewel Pendant
-			dragonsoul(i(226187)),	-- Vicious Ruby Choker
-			dragonsoul(i(226189)),	-- Vicious Sapphire Necklace
-			bloodied(i(75075)),	-- Vicious Amberjewel Pendant
-			bloodied(i(75078)),	-- Vicious Ruby Choker
-			bloodied(i(75074)),	-- Vicious Sapphire Necklace
-			-- #else
-			dragonsoul(i(75075)),	-- Vicious Amberjewel Pendant
-			dragonsoul(i(75078)),	-- Vicious Ruby Choker
-			dragonsoul(i(75074)),	-- Vicious Sapphire Necklace
-			-- #endif
+			n(QUALITY_RARE, {
+				i(52203),	-- Accurate Demonseye
+				i(52204),	-- Adept Ember Topaz
+				i(68778, {["timeline"] = {ADDED_4_0_6}}),	-- Agile Shadowspirit Diamond
+				i(52205),	-- Artful Ember Topaz
+				i(52294),	-- Austere Shadowspirit Diamond
+				i(52206),	-- Bold Inferno Ruby
+				i(52292),	-- Bracing Shadowspirit Diamond
+				i(52207),	-- Brilliant Inferno Ruby
+				i(68780, {["timeline"] = {ADDED_4_0_6}}),	-- Burning Shadowspirit Diamond
+				i(52291),	-- Chaotic Shadowspirit Diamond
+				i(52209),	-- Deadly Ember Topaz
+				i(52210),	-- Defender's Demonseye
+				i(52211),	-- Deft Ember Topaz
+				i(52212),	-- Delicate Inferno Ruby
+				i(52298),	-- Destructive Shadowspirit Diamond
+				i(52295),	-- Effulgent Shadowspirit Diamond
+				i(52296),	-- Ember Shadowspirit Diamond
+				i(52300),	-- Enigmatic Shadowspirit Diamond
+				i(52213),	-- Etched Demonseye
+				i(52293),	-- Eternal Shadowspirit Diamond
+				i(52214),	-- Fierce Ember Topaz
+				i(52215),	-- Fine Ember Topaz
+				i(52216),	-- Flashing Inferno Ruby
+				i(52289),	-- Fleet Shadowspirit Diamond
+				i(52218),	-- Forceful Dream Emerald
+				i(52302),	-- Forlorn Shadowspirit Diamond
+				i(52219),	-- Fractured Amberjewel
+				i(52220),	-- Glinting Demonseye
+				i(52221),	-- Guardian's Demonseye
+				i(52301),	-- Impassive Shadowspirit Diamond
+				i(52222),	-- Inscribed Ember Topaz
+				i(52223),	-- Jagged Dream Emerald
+				i(52224),	-- Keen Ember Topaz
+				i(52225),	-- Lightning Dream Emerald
+				i(68357),	-- Lucent Ember Topaz
+				i(52226),	-- Mystic Amberjewel
+				i(52227),	-- Nimble Dream Emerald
+				i(52228),	-- Piercing Dream Emerald
+				i(52229),	-- Polished Ember Topaz
+				i(52239),	-- Potent Ember Topaz
+				i(52299),	-- Powerful Shadowspirit Diamond
+				i(52230),	-- Precise Inferno Ruby
+				i(52231),	-- Puissant Dream Emerald
+				i(52236),	-- Purified Demonseye
+				i(52232),	-- Quick Amberjewel
+				i(52208),	-- Reckless Ember Topaz
+				i(52233),	-- Regal Dream Emerald
+				i(52249),	-- Resolute Ember Topaz
+				i(68358),	-- Resplendent Ember Topaz
+				i(52234),	-- Retaliating Demonseye
+				i(68779, {["timeline"] = {ADDED_4_0_6}}),	-- Reverberating Shadowspirit Diamond
+				i(52297),	-- Revitalizing Shadowspirit Diamond
+				i(52235),	-- Rigid Ocean Sapphire
+				i(52237),	-- Sensei's Dream Emerald
+				i(52238),	-- Shifting Demonseye
+				i(52240),	-- Skillful Ember Topaz
+				i(52241),	-- Smooth Amberjewel
+				i(52242),	-- Solid Ocean Sapphire
+				i(52243),	-- Sovereign Demonseye
+				i(52244),	-- Sparkling Ocean Sapphire
+				i(52245),	-- Steady Dream Emerald
+				i(52246),	-- Stormy Ocean Sapphire
+				i(52247),	-- Subtle Amberjewel
+				i(52248),	-- Timeless Demonseye
+				i(52217),	-- Veiled Demonseye
+				i(68741, {["timeline"] = {ADDED_4_0_6}}),	-- Vivid Dream Emerald
+				i(68356),	-- Willful Ember Topaz
+				i(52250),	-- Zen Dream Emerald
+			}),
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(QUALITY_EPIC, {
+				["timeline"] = { ADDED_4_3_0 },
+				["groups"] = {
+					i(71863),	-- Accurate Shadow Spinel
+					i(71852),	-- Adept Lava Coral
+					i(71854),	-- Artful Lava Coral
+					i(71828),	-- Balanced Elven Peridot
+					i(71883),	-- Bold Queen's Garnet
+					i(71881),	-- Brilliant Queen's Garnet
+					i(71847),	-- Champion's Lava Coral
+					i(71841),	-- Crafty Lava Coral
+					i(71840),	-- Deadly Lava Coral
+					i(71872),	-- Defender's Shadow Spinel
+					i(71848),	-- Deft Lava Coral
+					i(71879),	-- Delicate Queen's Garnet
+					i(71833),	-- Energized Elven Peridot
+					i(71866),	-- Etched Shadow Spinel
+					i(71851),	-- Fierce Lava Coral
+					i(71855),	-- Fine Lava Coral
+					i(71882),	-- Flashing Queen's Garnet
+					i(71836),	-- Forceful Elven Peridot
+					i(71877),	-- Fractured Lightstone
+					i(71862),	-- Glinting Shadow Spinel
+					i(71870),	-- Guardian's Shadow Spinel
+					i(71826),	-- Infused Elven Peridot
+					i(71843),	-- Inscribed Lava Coral
+					i(71834),	-- Jagged Elven Peridot
+					i(71853),	-- Keen Lava Coral
+					i(71824),	-- Lightning Elven Peridot
+					i(71857),	-- Lucent Lava Coral
+					i(71822),	-- Misty Elven Peridot
+					i(71867),	-- Mysterious Shadow Spinel
+					i(71878),	-- Mystic Lightstone
+					i(71837),	-- Nimble Elven Peridot
+					i(71823),	-- Piercing Elven Peridot
+					i(71844),	-- Polished Lava Coral
+					i(71842),	-- Potent Lava Coral
+					i(71880),	-- Precise Queen's Garnet
+					i(71838),	-- Puissant Elven Peridot
+					i(71868),	-- Purified Shadow Spinel
+					i(71876),	-- Quick Lightstone
+					i(71831),	-- Radiant Elven Peridot
+					i(71850),	-- Reckless Lava Coral
+					i(71835),	-- Regal Elven Peridot
+					i(71845),	-- Resolute Lava Coral
+					i(71861),	-- Resplendent Lava Coral
+					i(71865),	-- Retaliating Shadow Spinel
+					i(71817),	-- Rigid Deepholm Iolite
+					i(71825),	-- Sensei's Elven Peridot
+					i(71832),	-- Shattered Elven Peridot
+					i(71869),	-- Shifting Shadow Spinel
+					i(71856),	-- Skillful Lava Coral
+					i(71874),	-- Smooth Lightstone
+					i(71820),	-- Solid Deepholm Iolite
+					i(71873),	-- Sovereign Shadow Spinel
+					i(71819),	-- Sparkling Deepholm Iolite
+					i(71860),	-- Splendid Lava Coral
+					i(71846),	-- Stalwart Lava Coral
+					i(71839),	-- Steady Elven Peridot
+					i(71818),	-- Stormy Deepholm Iolite
+					i(71875),	-- Subtle Lightstone
+					i(71858),	-- Tenuous Lava Coral
+					i(71871),	-- Timeless Shadow Spinel
+					i(71830),	-- Turbid Elven Peridot
+					i(71864),	-- Veiled Shadow Spinel
+					i(71829),	-- Vivid Elven Peridot
+					i(71849),	-- Wicked Lava Coral
+					i(71859),	-- Willful Lava Coral
+					i(71827),	-- Zen Elven Peridot
+				}
+			})),
 		}),
 		filter(FINGER_F, {
 			i(52318),	-- Band of Blades
@@ -1279,13 +1500,11 @@ Fire and Water - Damage against Elementals increased by 15%.
 			bloodthirsty(i(70071)),	-- Bloodthirsty Sapphire Ring
 			i(52348),	-- Elementium Destroyer's Ring
 			i(52320),	-- Elementium Moebius Band
-			i(52308, {	-- Hessonite Band
-				i(52316),	-- Hessonite Band
-			}),
-			i(52306, {	-- Jasper Ring
-				i(52310),	-- Jasper Ring
-			}),
-			i(69852),	-- Punisher's Band
+			i(52308),	-- Hessonite Band
+			i(52316),	-- Hessonite Band
+			i(52306),	-- Jasper Ring
+			i(52310),	-- Jasper Ring
+			i(69852, {["timeline"] = {ADDED_4_1_0}}),	-- Punisher's Band
 			i(52319),	-- Ring of Warring Elements
 			-- #if ANYCLASSIC
 			-- Blizzard did a dumb when they implemented Cata Classic
@@ -1300,6 +1519,41 @@ Fire and Water - Damage against Elementals increased by 15%.
 			dragonsoul(i(75071)),	-- Vicious Ruby Signet
 			dragonsoul(i(75067)),	-- Vicious Sapphire Ring
 			-- #endif
+		}),
+		filter(MISC, {
+			i(52304),	-- Fire Prism
+			i(204356, {["timeline"]={ADDED_10_0_7}}),	-- Illustrious Gemdust
+			i(52490, {["timeline"]={ADDED_4_3_0}}),	-- Stardust
+		}),
+		filter(NECK_F, {
+			i(52307),	-- Alicite Pendant
+			i(52312),	-- Alicite Pendant
+			bloodthirsty(i(70075)),	-- Bloodthirsty Amberjewel Pendant
+			bloodthirsty(i(70076)),	-- Bloodthirsty Ruby Choker
+			bloodthirsty(i(70074)),	-- Bloodthirsty Sapphire Necklace
+			i(52350),	-- Brazen Elementium Medallion
+			i(52323),	-- Elementium Guardian
+			i(52321),	-- Entwined Elementium Choker
+			i(52322),	-- Eye of Many Deaths
+			i(52309),	-- Nightstone Choker
+			i(52314),	-- Nightstone Choker
+			-- #if ANYCLASSIC
+			-- Blizzard did a dumb when they implemented Cata Classic
+			dragonsoul(i(226188)),	-- Vicious Amberjewel Pendant
+			dragonsoul(i(226187)),	-- Vicious Ruby Choker
+			dragonsoul(i(226189)),	-- Vicious Sapphire Necklace
+			bloodied(i(75075)),	-- Vicious Amberjewel Pendant
+			bloodied(i(75078)),	-- Vicious Ruby Choker
+			bloodied(i(75074)),	-- Vicious Sapphire Necklace
+			-- #else
+			dragonsoul(i(75075)),	-- Vicious Amberjewel Pendant
+			dragonsoul(i(75078)),	-- Vicious Ruby Choker
+			dragonsoul(i(75074)),	-- Vicious Sapphire Necklace
+			-- #endif
+		}),
+		n(WEAPONS, {
+			i(52492),	-- Carnelian Spikes
+			i(52493),	-- The Perforator
 		}),
 	}),
 	prof(LEATHERWORKING, {

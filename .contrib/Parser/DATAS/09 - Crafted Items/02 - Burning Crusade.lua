@@ -1326,7 +1326,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	-- #endif
 	prof(JEWELCRAFTING, {
 		header(HEADERS.Spell, 31212, {	-- Prospecting
-			-- Note: Epiq quality (purple) gems CANNOT be obtained from prospecting, see Mining.
+			-- Note: Epic quality (purple) gems CANNOT be obtained from prospecting, see Mining.
 			["groups"] = appendAllGroups(
 				sharedData({	-- Uncommon quality (green) gems:
 					["description"] = "This gem is most reliably obtained from prospecting ore with Jewelcrafting.",
@@ -1368,272 +1368,288 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			applyclassicphase(TBC_PHASE_TWO, i(32776, {["timeline"] = {ADDED_2_1_0}})),	-- Crown of the Sea Witch
 		}),
 		filter(GEMS, {
+			n(SPECIAL, {
+				["timeline"] = { ADDED_2_2_0 },
+				["groups"] = {
+					i(33140),	-- Blood of Amber
+					i(33131),	-- Crimson Sun
+					i(33133),	-- Don Julio's Heart
+					i(33135),	-- Falling Star
+					i(33144),	-- Facet of Eternity
+					i(33134),	-- Kailee's Rose
+					i(33143),	-- Stone of Blades
+				},
+			}),
 			-- #if BEFORE CATA
-			i(31863, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Balanced Nightseye
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31862, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Balanced Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32213, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Balanced Shadowsong Amethyst
-			i(33140, {["timeline"] = {ADDED_2_2_0}}),	-- Blood of Amber
-			i(23095),	-- Bold Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32193, {["timeline"] = {ADDED_2_1_0}})),	-- Bold Crimson Spinel
-			i(24027),	-- Bold Living Ruby
-			i(25897),	-- Bracing Earthstorm Diamond
-			i(28595),	-- Bright Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32197, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Bright Crimson Spinel
-			i(24031, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Bright Living Ruby
-			i(24047, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Dawnstone
-			i(23113, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32204, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Brilliant Lionseye
-			i(25899),	-- Brutal Earthstorm Diamond
-			i(34220, {["timeline"] = {ADDED_2_3_0}}),	-- Chaotic Skyfire Diamond
-			i(33131, {["timeline"] = {ADDED_2_2_0}}),	-- Crimson Sun
-			i(23106, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Dazzling Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32225, {["timeline"] = {ADDED_2_1_0}})),	-- Dazzling Seaspray Emerald
-			i(24065),	-- Dazzling Talasite
-			i(23097, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Delicate Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32194, {["timeline"] = {ADDED_2_1_0}})),	-- Delicate Crimson Spinel
-			i(24028),	-- Delicate Living Ruby
-			i(25890),	-- Destructive Skyfire Diamond
-			i(33133, {["timeline"] = {ADDED_2_2_0}}),	-- Don Julio's Heart
-			applyclassicphase(TBC_PHASE_FIVE, i(35503, {["timeline"] = {ADDED_2_4_0}})),	-- Ember Skyfire Diamond
-			i(23105),	-- Enduring Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32223, {["timeline"] = {ADDED_2_1_0}})),	-- Enduring Seaspray Emerald
-			i(24062, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Enduring Talasite
-			i(25895),	-- Enigmatic Skyfire Diamond
-			applyclassicphase(TBC_PHASE_FIVE, i(35501, {["timeline"] = {ADDED_2_4_0}})),	-- Eternal Earthstorm Diamond
-			i(33135, {["timeline"] = {ADDED_2_2_0}}),	-- Falling Star
-			i(33144, {["timeline"] = {ADDED_2_2_0}}),	-- Facet of Eternity
-			applyclassicphase(TBC_PHASE_THREE, i(32199, {["timeline"] = {ADDED_2_1_0}})),	-- Flashing Crimson Spinel
-			i(24036),	-- Flashing Living Ruby
-			applyclassicphase(TBC_PHASE_FIVE, i(35759, {["timeline"] = {ADDED_2_4_0}})),	-- Forceful Seaspray Emerald
-			applyclassicphase(TBC_PHASE_FIVE, i(35318, {["timeline"] = {ADDED_2_4_2}})),	-- Forceful Talasite
-			i(24050, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Gleaming Dawnstone
-			i(23114),	-- Gleaming Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32207, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Gleaming Lionseye
-			i(23100),	-- Glinting Flame Spessarite
-			i(24061),	-- Glinting Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32220, {["timeline"] = {ADDED_2_1_0}})),	-- Glinting Pyrestone
-			i(24056),	-- Glowing Nightseye
-			i(23108),	-- Glowing Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32215, {["timeline"] = {ADDED_2_1_0}})),	-- Glowing Shadowsong Amethyst
-			i(31861, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Great Dawnstone
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31860, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Great Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32210, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Great Lionseye
-			i(31865, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Infused Nightseye
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31864, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Infused Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32214, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Infused Shadowsong Amethyst
-			i(23098),	-- Inscribed Flame Spessarite
-			i(24058),	-- Inscribed Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32217, {["timeline"] = {ADDED_2_1_0}})),	-- Inscribed Pyrestone
-			i(25901),	-- Insightful Earthstorm Diamond
-			i(23104),	-- Jagged Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32226, {["timeline"] = {ADDED_2_1_0}})),	-- Jagged Seaspray Emerald
-			i(24067),	-- Jagged Talasite
-			i(33134, {["timeline"] = {ADDED_2_2_0}}),	-- Kailee's Rose
-			i(23099),	-- Luminous Flame Spessarite
-			i(24060),	-- Luminous Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32219, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Luminous Pyrestone
-			i(23121, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Lustrous Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32202, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Lustrous Empyrean Sapphire
-			i(24037, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Lustrous Star of Elune
-			i(24053, {["timeline"] = {ADDED_2_1_3}}),	-- Mystic Dawnstone
-			applyclassicphase(TBC_PHASE_THREE, i(32209, {["timeline"] = {ADDED_2_1_0}})),	-- Mystic Lionseye
-			i(25893),	-- Mystical Skyfire Diamond
-			i(23101),	-- Potent Flame Spessarite
-			i(24059),	-- Potent Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32218, {["timeline"] = {ADDED_2_1_0}})),	-- Potent Pyrestone
-			i(25896),	-- Powerful Earthstorm Diamond
-			i(32833, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Jaggal Pearl
-			i(32836, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Shadow Pearl
-			applyclassicphase(TBC_PHASE_FIVE, i(37503, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Purified Shadowsong Amethyst
-			applyclassicphase(TBC_PHASE_FIVE, i(35315, {["timeline"] = {ADDED_2_4_2}})),	-- Quick Dawnstone
-			applyclassicphase(TBC_PHASE_FIVE, i(35761, {["timeline"] = {ADDED_2_4_0}})),	-- Quick Lionseye
-			i(23103),	-- Radiant Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32224, {["timeline"] = {ADDED_2_1_0}})),	-- Radiant Seaspray Emerald
-			i(24066),	-- Radiant Talasite
-			applyclassicphase(TBC_PHASE_FIVE, i(35316, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Reckless Noble Topaz
-			applyclassicphase(TBC_PHASE_FIVE, i(35760, {["timeline"] = {ADDED_2_4_0}})),	-- Reckless Pyrestone
-			applyclassicphase(TBC_PHASE_FIVE, i(35707, {["timeline"] = {ADDED_2_4_0}})),	-- Regal Nightseye
-			i(32409, {["timeline"] = {ADDED_2_1_0}}),	-- Relentless Earthstorm Diamond
-			i(24051),	-- Rigid Dawnstone
-			i(23116),	-- Rigid Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32206, {["timeline"] = {ADDED_2_1_0}})),	-- Rigid Lionseye
-			i(24057, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Royal Nightseye
-			i(23109),	-- Royal Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32216, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Royal Shadowsong Amethyst
-			i(23096, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Runed Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32196, {["timeline"] = {ADDED_2_1_0}})),	-- Runed Crimson Spinel
-			i(24030),	-- Runed Living Ruby
-			i(24055),	-- Shifting Nightseye
-			i(23110),	-- Shifting Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32212, {["timeline"] = {ADDED_2_1_0}})),	-- Shifting Shadowsong Amethyst
-			i(24048),	-- Smooth Dawnstone
-			i(28290, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Smooth Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32205, {["timeline"] = {ADDED_2_1_0}})),	-- Smooth Lionseye
-			i(23118),	-- Solid Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32200, {["timeline"] = {ADDED_2_1_0}})),	-- Solid Empyrean Sapphire
-			i(24033),	-- Solid Star of Elune
-			i(24054),	-- Sovereign Nightseye
-			i(23111),	-- Sovereign Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32211, {["timeline"] = {ADDED_2_1_0}})),	-- Sovereign Shadowsong Amethyst
-			i(23119),	-- Sparkling Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32201, {["timeline"] = {ADDED_2_1_0}})),	-- Sparkling Empyrean Sapphire
-			i(24035),	-- Sparkling Star of Elune
-			applyclassicphase(TBC_PHASE_FIVE, i(35758, {["timeline"] = {ADDED_2_4_0}})),	-- Steady Seaspray Emerald
-			i(33782, {["timeline"] = {ADDED_2_2_0}}),	-- Steady Talasite
-			i(33143, {["timeline"] = {ADDED_2_2_0}}),	-- Stone of Blades
-			i(23120),	-- Stormy Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32203, {["timeline"] = {ADDED_2_1_0}})),	-- Stormy Empyrean Sapphire
-			i(24039),	-- Stormy Star of Elune
-			applyclassicphase(TBC_PHASE_THREE, i(32198, {["timeline"] = {ADDED_2_1_0}})),	-- Subtle Crimson Spinel
-			i(24032),	-- Subtle Living Ruby
-			i(25894),	-- Swift Skyfire Diamond
-			i(23094),	-- Teardrop Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32195, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Teardrop Crimson Spinel
-			i(24029, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Teardrop Living Ruby
-			i(25898),	-- Tenacious Earthstorm Diamond
-			i(24052, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Thick Dawnstone
-			i(23115),	-- Thick Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32208, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Thick Lionseye
-			i(32410, {["timeline"] = {ADDED_2_1_0}}),-- Thundering Skyfire Diamond
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31866)),	-- Veiled Flame Spessarite
-			i(31867, {["timeline"] = {ADDED_2_1_0}}),	-- Veiled Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32221, {["timeline"] = {ADDED_2_1_0}})),	-- Veiled Pyrestone
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31869)),	-- Wicked Flame Spessarite
-			i(31868, {["timeline"] = {ADDED_2_1_0}}),	-- Wicked Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32222, {["timeline"] = {ADDED_2_1_0}})),	-- Wicked Pyrestone
+			n(QUALITY_UNCOMMON, {
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31862, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Balanced Shadow Draenite
+				i(23095),	-- Bold Blood Garnet
+				i(28595),	-- Bright Blood Garnet
+				i(23113, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Golden Draenite
+				i(23106, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Dazzling Deep Peridot
+				i(23097, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Delicate Blood Garnet
+				i(23105),	-- Enduring Deep Peridot
+				i(23114),	-- Gleaming Golden Draenite
+				i(23100),	-- Glinting Flame Spessarite
+				i(23108),	-- Glowing Shadow Draenite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31860, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Great Golden Draenite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31864, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Infused Shadow Draenite
+				i(23098),	-- Inscribed Flame Spessarite
+				i(23104),	-- Jagged Deep Peridot
+				i(23099),	-- Luminous Flame Spessarite
+				i(23121, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Lustrous Azure Moonstone
+				i(23101),	-- Potent Flame Spessarite
+				i(32833, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Jaggal Pearl
+				i(23103),	-- Radiant Deep Peridot
+				i(23116),	-- Rigid Golden Draenite
+				i(23109),	-- Royal Shadow Draenite
+				i(23096, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Runed Blood Garnet
+				i(23110),	-- Shifting Shadow Draenite
+				i(28290, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Smooth Golden Draenite
+				i(23118),	-- Solid Azure Moonstone
+				i(23111),	-- Sovereign Shadow Draenite
+				i(23119),	-- Sparkling Azure Moonstone
+				i(23120),	-- Stormy Azure Moonstone
+				i(23094),	-- Teardrop Blood Garnet
+				i(23115),	-- Thick Golden Draenite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31866)),	-- Veiled Flame Spessarite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31869)),	-- Wicked Flame Spessarite
+			}),
+			n(QUALITY_RARE, {
+				i(31863, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Balanced Nightseye
+				i(24027),	-- Bold Living Ruby
+				i(25897),	-- Bracing Earthstorm Diamond
+				i(24031, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Bright Living Ruby
+				i(24047, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Dawnstone
+				i(25899),	-- Brutal Earthstorm Diamond
+				i(34220, {["timeline"] = {ADDED_2_3_0}}),	-- Chaotic Skyfire Diamond
+				i(24065),	-- Dazzling Talasite
+				i(24028),	-- Delicate Living Ruby
+				i(25890),	-- Destructive Skyfire Diamond
+				applyclassicphase(TBC_PHASE_FIVE, i(35503, {["timeline"] = {ADDED_2_4_0}})),	-- Ember Skyfire Diamond
+				i(24062, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Enduring Talasite
+				i(25895),	-- Enigmatic Skyfire Diamond
+				applyclassicphase(TBC_PHASE_FIVE, i(35501, {["timeline"] = {ADDED_2_4_0}})),	-- Eternal Earthstorm Diamond
+				i(24036),	-- Flashing Living Ruby
+				applyclassicphase(TBC_PHASE_FIVE, i(35318, {["timeline"] = {ADDED_2_4_2}})),	-- Forceful Talasite
+				i(24050, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Gleaming Dawnstone
+				i(24061),	-- Glinting Noble Topaz
+				i(24056),	-- Glowing Nightseye
+				i(31861, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Great Dawnstone
+				i(31865, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Infused Nightseye
+				i(24058),	-- Inscribed Noble Topaz
+				i(25901),	-- Insightful Earthstorm Diamond
+				i(24067),	-- Jagged Talasite
+				i(24060),	-- Luminous Noble Topaz
+				i(24037, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Lustrous Star of Elune
+				i(24053, {["timeline"] = {ADDED_2_1_3}}),	-- Mystic Dawnstone
+				i(25893),	-- Mystical Skyfire Diamond
+				i(24059),	-- Potent Noble Topaz
+				i(25896),	-- Powerful Earthstorm Diamond
+				i(32836, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Shadow Pearl
+				applyclassicphase(TBC_PHASE_FIVE, i(35315, {["timeline"] = {ADDED_2_4_2}})),	-- Quick Dawnstone
+				i(24066),	-- Radiant Talasite
+				applyclassicphase(TBC_PHASE_FIVE, i(35316, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Reckless Noble Topaz
+				applyclassicphase(TBC_PHASE_FIVE, i(35707, {["timeline"] = {ADDED_2_4_0}})),	-- Regal Nightseye
+				i(32409, {["timeline"] = {ADDED_2_1_0}}),	-- Relentless Earthstorm Diamond
+				i(24051),	-- Rigid Dawnstone
+				i(24057, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Royal Nightseye
+				i(24030),	-- Runed Living Ruby
+				i(24055),	-- Shifting Nightseye
+				i(24048),	-- Smooth Dawnstone
+				i(24033),	-- Solid Star of Elune
+				i(24054),	-- Sovereign Nightseye
+				i(24035),	-- Sparkling Star of Elune
+				i(33782, {["timeline"] = {ADDED_2_2_0}}),	-- Steady Talasite
+				i(24039),	-- Stormy Star of Elune
+				i(24032),	-- Subtle Living Ruby
+				i(25894),	-- Swift Skyfire Diamond
+				i(24029, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Teardrop Living Ruby
+				i(25898),	-- Tenacious Earthstorm Diamond
+				i(24052, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Thick Dawnstone
+				i(32410, {["timeline"] = {ADDED_2_1_0}}),-- Thundering Skyfire Diamond
+				i(31867, {["timeline"] = {ADDED_2_1_0}}),	-- Veiled Noble Topaz
+				i(31868, {["timeline"] = {ADDED_2_1_0}}),	-- Wicked Noble Topaz
+			}),
+			applyclassicphase(TBC_PHASE_THREE, n(QUALITY_EPIC, {
+				["timeline"] = { ADDED_2_1_0 },
+				["groups"] = {
+					i(32213, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Balanced Shadowsong Amethyst
+					i(32193),	-- Bold Crimson Spinel
+					i(32197, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Bright Crimson Spinel
+					i(32204, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Brilliant Lionseye
+					i(32225),	-- Dazzling Seaspray Emerald
+					i(32194),	-- Delicate Crimson Spinel
+					i(32223),	-- Enduring Seaspray Emerald
+					i(32199),	-- Flashing Crimson Spinel
+					applyclassicphase(TBC_PHASE_FIVE, i(35759, {["timeline"] = {ADDED_2_4_0}})),	-- Forceful Seaspray Emerald
+					i(32207, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Gleaming Lionseye
+					i(32220),	-- Glinting Pyrestone
+					i(32215),	-- Glowing Shadowsong Amethyst
+					i(32210, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Great Lionseye
+					i(32214, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Infused Shadowsong Amethyst
+					i(32217),	-- Inscribed Pyrestone
+					i(32226),	-- Jagged Seaspray Emerald
+					i(32219, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Luminous Pyrestone
+					i(32202, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Lustrous Empyrean Sapphire
+					i(32209),	-- Mystic Lionseye
+					i(32218),	-- Potent Pyrestone
+					applyclassicphase(TBC_PHASE_FIVE, i(37503, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Purified Shadowsong Amethyst
+					applyclassicphase(TBC_PHASE_FIVE, i(35761, {["timeline"] = {ADDED_2_4_0}})),	-- Quick Lionseye
+					i(32224),	-- Radiant Seaspray Emerald
+					applyclassicphase(TBC_PHASE_FIVE, i(35760, {["timeline"] = {ADDED_2_4_0}})),	-- Reckless Pyrestone
+					i(32206),	-- Rigid Lionseye
+					i(32216, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Royal Shadowsong Amethyst
+					i(32196),	-- Runed Crimson Spinel
+					i(32212),	-- Shifting Shadowsong Amethyst
+					i(32205),	-- Smooth Lionseye
+					i(32200),	-- Solid Empyrean Sapphire
+					i(32211),	-- Sovereign Shadowsong Amethyst
+					i(32201),	-- Sparkling Empyrean Sapphire
+					applyclassicphase(TBC_PHASE_FIVE, i(35758, {["timeline"] = {ADDED_2_4_0}})),	-- Steady Seaspray Emerald
+					i(32203),	-- Stormy Empyrean Sapphire
+					i(32198),	-- Subtle Crimson Spinel
+					i(32195, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Teardrop Crimson Spinel
+					i(32208, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Thick Lionseye
+					i(32221),	-- Veiled Pyrestone
+					i(32222),	-- Wicked Pyrestone
+				},
+			})),
 			-- #else
-			i(33140, {["timeline"] = {ADDED_2_2_0}}),	-- Blood of Amber
-			i(23095),	-- Bold Blood
-			applyclassicphase(TBC_PHASE_THREE, i(32193, {["timeline"] = {ADDED_2_1_0}})),	-- Bold Crimson Spinel
-			i(24027),	-- Bold Living Ruby
-			i(25897),	-- Bracing Earthstorm Diamond
-			i(23094),	-- Brilliant Blood Garnet
-			i(23113, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Blood Garnet
-			i(23096, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32195, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Brilliant Crimson Spinel
-			applyclassicphase(TBC_PHASE_THREE, i(32204, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Brilliant Crimson Spinel
-			applyclassicphase(TBC_PHASE_THREE, i(32196, {["timeline"] = {ADDED_2_1_0}})),	-- Brilliant Crimson Spinel
-			i(24047, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Living Ruby
-			i(24029, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Living Ruby
-			i(24030),	-- Brilliant Living Ruby
-			i(25899),	-- Brutal Earthstorm Diamond
-			i(34220, {["timeline"] = {ADDED_2_3_0}}),	-- Chaotic Skyfire Diamond
-			i(33131, {["timeline"] = {ADDED_2_2_0}}),	-- Crimson Sun
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31869)),	-- Deadly Flame Spessarite
-			i(31868, {["timeline"] = {ADDED_2_1_0}}),	-- Deadly Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32222, {["timeline"] = {ADDED_2_1_0}})),	-- Deadly Pyrestone
-			i(28595),	-- Delicate Blood Garnet
-			i(23097, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Delicate Blood Garnet
-			applyclassicphase(TBC_PHASE_THREE, i(32197, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Delicate Crimson Spinel
-			applyclassicphase(TBC_PHASE_THREE, i(32194, {["timeline"] = {ADDED_2_1_0}})),	-- Delicate Crimson Spinel
-			i(24031, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Delicate Living Ruby
-			i(24028),	-- Delicate Living Ruby
-			i(25890),	-- Destructive Skyfire Diamond
-			i(33133, {["timeline"] = {ADDED_2_2_0}}),	-- Don Julio's Heart
-			applyclassicphase(TBC_PHASE_FIVE, i(35503, {["timeline"] = {ADDED_2_4_0}})),	-- Ember Skyfire Diamond
-			i(25895),	-- Enigmatic Skyfire Diamond
-			applyclassicphase(TBC_PHASE_FIVE, i(35501, {["timeline"] = {ADDED_2_4_0}})),	-- Eternal Earthstorm Diamond
-			i(33135, {["timeline"] = {ADDED_2_2_0}}),	-- Falling Star
-			i(33144, {["timeline"] = {ADDED_2_2_0}}),	-- Facet of Eternity
-			applyclassicphase(TBC_PHASE_THREE, i(32199, {["timeline"] = {ADDED_2_1_0}})),	-- Flashing Crimson Spinel
-			i(24036),	-- Flashing Living Ruby
-			applyclassicphase(TBC_PHASE_FIVE, i(35759, {["timeline"] = {ADDED_2_4_0}})),	-- Forceful Seaspray Emerald
-			applyclassicphase(TBC_PHASE_FIVE, i(35318, {["timeline"] = {ADDED_2_4_2}})),	-- Forceful Talasite
-			i(31865, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Glinting Nightseye
-			i(24061),	-- Glinting Nightseye
-			i(23100),	-- Glinting Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32214, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Glinting Shadowsong Amethyst
-			applyclassicphase(TBC_PHASE_THREE, i(32220, {["timeline"] = {ADDED_2_1_0}})),	-- Glinting Shadowsong Amethyst
-			i(23098),	-- Inscribed Flame Spessarite
-			i(24058),	-- Inscribed Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32217, {["timeline"] = {ADDED_2_1_0}})),	-- Inscribed Pyrestone
-			i(25901),	-- Insightful Earthstorm Diamond
-			i(23104),	-- Jagged Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32226, {["timeline"] = {ADDED_2_1_0}})),	-- Jagged Seaspray Emerald
-			i(24067),	-- Jagged Talasite
-			i(33134, {["timeline"] = {ADDED_2_2_0}}),	-- Kailee's Rose
-			i(24053, {["timeline"] = {ADDED_2_1_3}}),	-- Mystic Dawnstone
-			applyclassicphase(TBC_PHASE_THREE, i(32209, {["timeline"] = {ADDED_2_1_0}})),	-- Mystic Lionseye
-			i(25893),	-- Mystical Skyfire Diamond
-			i(23101),	-- Potent Flame Spessarite
-			i(24059),	-- Potent Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32218, {["timeline"] = {ADDED_2_1_0}})),	-- Potent Pyrestone
-			i(25896),	-- Powerful Earthstorm Diamond
-			i(32833, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Jaggal Pearl
-			i(24057, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Purified Nightseye
-			i(24065),	-- Purified Nightseye
-			i(23106, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Purified Shadow Draenite
-			i(23109),	-- Purified Shadow Draenite
-			i(32836, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Shadow Pearl
-			applyclassicphase(TBC_PHASE_THREE, i(32216, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Purified Shadowsong Amethyst
-			applyclassicphase(TBC_PHASE_FIVE, i(37503, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}}))),	-- Purified Shadowsong Amethyst
-			applyclassicphase(TBC_PHASE_THREE, i(32225, {["timeline"] = {ADDED_2_1_0}})),	-- Purified Shadowsong Amethyst
-			applyclassicphase(TBC_PHASE_FIVE, i(35315, {["timeline"] = {ADDED_2_4_2}})),	-- Quick Dawnstone
-			applyclassicphase(TBC_PHASE_FIVE, i(35761, {["timeline"] = {ADDED_2_4_0}})),	-- Quick Lionseye
-			i(23103),	-- Radiant Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32224, {["timeline"] = {ADDED_2_1_0}})),	-- Radiant Seaspray Emerald
-			i(24066),	-- Radiant Talasite
-			i(23099),	-- Reckless Flame Spessarite
-			applyclassicphase(TBC_PHASE_FIVE, i(35316, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Reckless Noble Topaz
-			i(24060),	-- Reckless Noble Topaz
-			applyclassicphase(TBC_PHASE_THREE, i(32219, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Reckless Pyrestone
-			applyclassicphase(TBC_PHASE_FIVE, i(35760, {["timeline"] = {ADDED_2_4_0}})),	-- Reckless Pyrestone
-			i(23105),	-- Regal Deep Peridot
-			applyclassicphase(TBC_PHASE_THREE, i(32223, {["timeline"] = {ADDED_2_1_0}})),	-- Regal Seaspray Emerald
-			i(24062, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Regal Talasite
-			applyclassicphase(TBC_PHASE_FIVE, i(35707, {["timeline"] = {ADDED_2_4_0}})),	-- Regal Talasite
-			i(32409, {["timeline"] = {ADDED_2_1_0}}),	-- Relentless Earthstorm Diamond
-			i(23116),	-- Rigid Azure Moonstone
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31860, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Rigid Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32210, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Rigid Empyrean Sapphire
-			applyclassicphase(TBC_PHASE_THREE, i(32206, {["timeline"] = {ADDED_2_1_0}})),	-- Rigid Empyrean Sapphire
-			i(31861, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Rigid Star of Elune
-			i(24051),	-- Rigid Star of Elune
-			i(31863, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Shifting Nightseye
-			i(24055),	-- Shifting Nightseye
-			i(23110),	-- Shifting Shadow Draenite
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31862, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Shifting Shadow Draenite
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31864, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Shifting Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32213, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Shifting Shadowsong Amethyst
-			applyclassicphase(TBC_PHASE_THREE, i(32212, {["timeline"] = {ADDED_2_1_0}})),	-- Shifting Shadowsong Amethyst
-			i(24050, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Smooth Dawnstone
-			i(24048),	-- Smooth Dawnstone
-			i(28290, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Smooth Golden Draenite
-			i(23114),	-- Smooth Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32207, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Smooth Lionseye
-			applyclassicphase(TBC_PHASE_THREE, i(32205, {["timeline"] = {ADDED_2_1_0}})),	-- Smooth Lionseye
-			i(23118),	-- Solid Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32200, {["timeline"] = {ADDED_2_1_0}})),	-- Solid Empyrean Sapphire
-			i(24033),	-- Solid Star of Elune
-			i(24054),	-- Sovereign Nightseye
-			i(23111),	-- Sovereign Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32211, {["timeline"] = {ADDED_2_1_0}})),	-- Sovereign Shadowsong Amethyst
-			i(23119),	-- Sparkling Azure Moonstone
-			i(23121, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Sparkling Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32202, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Sparkling Empyrean Sapphire
-			applyclassicphase(TBC_PHASE_THREE, i(32201, {["timeline"] = {ADDED_2_1_0}})),	-- Sparkling Empyrean Sapphire
-			i(24037, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Sparkling Star of Elune
-			i(24035),	-- Sparkling Star of Elune
-			applyclassicphase(TBC_PHASE_FIVE, i(35758, {["timeline"] = {ADDED_2_4_0}})),	-- Steady Seaspray Emerald
-			i(33782, {["timeline"] = {ADDED_2_2_0}}),	-- Steady Talasite
-			i(33143, {["timeline"] = {ADDED_2_2_0}}),	-- Stone of Blades
-			i(23120),	-- Stormy Azure Moonstone
-			applyclassicphase(TBC_PHASE_THREE, i(32203, {["timeline"] = {ADDED_2_1_0}})),	-- Stormy Empyrean Sapphire
-			i(24039),	-- Stormy Star of Elune
-			i(24052, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Subtle Dawnstone
-			i(24032),	-- Subtle Dawnstone
-			i(23115),	-- Subtle Golden Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32208, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}})),	-- Subtle Lionseye
-			applyclassicphase(TBC_PHASE_THREE, i(32198, {["timeline"] = {ADDED_2_1_0}})),	-- Subtle Lionseye
-			i(25894),	-- Swift Skyfire Diamond
-			i(25898),	-- Tenacious Earthstorm Diamond
-			i(24056),	-- Timeless Nightseye
-			i(23108),	-- Timeless Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32215, {["timeline"] = {ADDED_2_1_0}})),	-- Timeless Shadowsong Amethyst
-			i(32410, {["timeline"] = {ADDED_2_1_0}}),-- Thundering Skyfire Diamond
-			i(31867, {["timeline"] = {ADDED_2_1_0}}),	-- Veiled Nightseye
-			applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31866)),	-- Veiled Shadow Draenite
-			applyclassicphase(TBC_PHASE_THREE, i(32221, {["timeline"] = {ADDED_2_1_0}})),	-- Veiled Shadowsong Amethyst
+			n(QUALITY_UNCOMMON, {
+				i(23095),	-- Bold Blood Garnet
+				i(23094),	-- Brilliant Blood Garnet
+				i(23113, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Blood Garnet
+				i(23096, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Blood Garnet
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31869)),	-- Deadly Flame Spessarite
+				i(31868, {["timeline"] = {ADDED_2_1_0}}),	-- Deadly Noble Topaz
+				i(28595),	-- Delicate Blood Garnet
+				i(23097, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Delicate Blood Garnet
+				applyclassicphase(TBC_PHASE_FIVE, i(35318, {["timeline"] = {ADDED_2_4_2}})),	-- Forceful Talasite
+				i(23100),	-- Glinting Shadow Draenite
+				i(23098),	-- Inscribed Flame Spessarite
+				i(24058),	-- Inscribed Noble Topaz
+				i(23104),	-- Jagged Deep Peridot
+				i(24067),	-- Jagged Talasite
+				i(23101),	-- Potent Flame Spessarite
+				i(24059),	-- Potent Noble Topaz
+				i(32833, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Jaggal Pearl
+				i(23106, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Purified Shadow Draenite
+				i(23109),	-- Purified Shadow Draenite
+				i(23103),	-- Radiant Deep Peridot
+				i(24066),	-- Radiant Talasite
+				i(23099),	-- Reckless Flame Spessarite
+				applyclassicphase(TBC_PHASE_FIVE, i(35316, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Reckless Noble Topaz
+				i(24060),	-- Reckless Noble Topaz
+				i(23105),	-- Regal Deep Peridot
+				i(24062, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Regal Talasite
+				applyclassicphase(TBC_PHASE_FIVE, i(35707, {["timeline"] = {ADDED_2_4_0}})),	-- Regal Talasite
+				i(23116),	-- Rigid Azure Moonstone
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31860, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Rigid Azure Moonstone
+				i(23110),	-- Shifting Shadow Draenite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31862, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Shifting Shadow Draenite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31864, {["timeline"] = {ADDED_2_2_0, REMOVED_4_0_3}})),	-- Shifting Shadow Draenite
+				i(28290, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Smooth Golden Draenite
+				i(23114),	-- Smooth Golden Draenite
+				i(23118),	-- Solid Azure Moonstone
+				i(23111),	-- Sovereign Shadow Draenite
+				i(23119),	-- Sparkling Azure Moonstone
+				i(23121, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Sparkling Azure Moonstone
+				i(33782, {["timeline"] = {ADDED_2_2_0}}),	-- Steady Talasite
+				i(23120),	-- Stormy Azure Moonstone
+				i(23115),	-- Subtle Golden Draenite
+				i(23108),	-- Timeless Shadow Draenite
+				applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31866)),	-- Veiled Shadow Draenite
+			}),
+			n(QUALITY_RARE, {
+				i(24027),	-- Bold Living Ruby
+				i(25897),	-- Bracing Earthstorm Diamond
+				i(24047, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Living Ruby
+				i(24029, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Brilliant Living Ruby
+				i(24030),	-- Brilliant Living Ruby
+				i(25899),	-- Brutal Earthstorm Diamond
+				i(34220, {["timeline"] = {ADDED_2_3_0}}),	-- Chaotic Skyfire Diamond
+				i(24031, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Delicate Living Ruby
+				i(24028),	-- Delicate Living Ruby
+				i(25890),	-- Destructive Skyfire Diamond
+				applyclassicphase(TBC_PHASE_FIVE, i(35503, {["timeline"] = {ADDED_2_4_0}})),	-- Ember Skyfire Diamond
+				i(25895),	-- Enigmatic Skyfire Diamond
+				applyclassicphase(TBC_PHASE_FIVE, i(35501, {["timeline"] = {ADDED_2_4_0}})),	-- Eternal Earthstorm Diamond
+				i(24036),	-- Flashing Living Ruby
+				i(31865, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Glinting Nightseye
+				i(24061),	-- Glinting Nightseye
+				i(25901),	-- Insightful Earthstorm Diamond
+				i(24053, {["timeline"] = {ADDED_2_1_3}}),	-- Mystic Dawnstone
+				i(25893),	-- Mystical Skyfire Diamond
+				i(25896),	-- Powerful Earthstorm Diamond
+				i(24057, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Purified Nightseye
+				i(24065),	-- Purified Nightseye
+				i(32836, {["timeline"] = {ADDED_2_1_0}}),	-- Purified Shadow Pearl
+				applyclassicphase(TBC_PHASE_FIVE, i(35315, {["timeline"] = {ADDED_2_4_2}})),	-- Quick Dawnstone
+				i(32409, {["timeline"] = {ADDED_2_1_0}}),	-- Relentless Earthstorm Diamond
+				i(31861, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Rigid Star of Elune
+				i(24051),	-- Rigid Star of Elune
+				i(31863, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Shifting Nightseye
+				i(24055),	-- Shifting Nightseye
+				i(24050, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Smooth Dawnstone
+				i(24048),	-- Smooth Dawnstone
+				i(24033),	-- Solid Star of Elune
+				i(24054),	-- Sovereign Nightseye
+				i(24037, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Sparkling Star of Elune
+				i(24035),	-- Sparkling Star of Elune
+				i(24039),	-- Stormy Star of Elune
+				i(24052, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Subtle Dawnstone
+				i(24032),	-- Subtle Dawnstone
+				i(25894),	-- Swift Skyfire Diamond
+				i(25898),	-- Tenacious Earthstorm Diamond
+				i(32410, {["timeline"] = {ADDED_2_1_0}}),-- Thundering Skyfire Diamond
+				i(24056),	-- Timeless Nightseye
+				i(31867, {["timeline"] = {ADDED_2_1_0}}),	-- Veiled Nightseye
+			}),
+			applyclassicphase(TBC_PHASE_THREE, n(QUALITY_EPIC, {
+				["timeline"] = { ADDED_2_1_0 },
+				["groups"] = {
+					i(32193),	-- Bold Crimson Spinel
+					i(32195, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Brilliant Crimson Spinel
+					i(32204, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Brilliant Crimson Spinel
+					i(32196),	-- Brilliant Crimson Spinel
+					i(32197, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Delicate Crimson Spinel
+					i(32194),	-- Delicate Crimson Spinel
+					i(32199),	-- Flashing Crimson Spinel
+					i(32222),	-- Deadly Pyrestone
+					i(32217),	-- Inscribed Pyrestone
+					i(32218),	-- Potent Pyrestone
+					i(32219, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Reckless Pyrestone
+					applyclassicphase(TBC_PHASE_FIVE, i(35760, {["timeline"] = {ADDED_2_4_0}})),	-- Reckless Pyrestone
+					i(32214, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Glinting Shadowsong Amethyst
+					i(32220),	-- Glinting Shadowsong Amethyst
+					i(32216, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Purified Shadowsong Amethyst
+					applyclassicphase(TBC_PHASE_FIVE, i(37503, {["timeline"] = {ADDED_2_4_2, REMOVED_4_0_3}})),	-- Purified Shadowsong Amethyst
+					i(32225),	-- Purified Shadowsong Amethyst
+					i(32213, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Shifting Shadowsong Amethyst
+					i(32212),	-- Shifting Shadowsong Amethyst
+					i(32211),	-- Sovereign Shadowsong Amethyst
+					i(32215),	-- Timeless Shadowsong Amethyst
+					i(32221),	-- Veiled Shadowsong Amethyst
+					applyclassicphase(TBC_PHASE_FIVE, i(35759, {["timeline"] = {ADDED_2_4_0}})),	-- Forceful Seaspray Emerald
+					i(32226),	-- Jagged Seaspray Emerald
+					i(32224),	-- Radiant Seaspray Emerald
+					i(32223),	-- Regal Seaspray Emerald
+					applyclassicphase(TBC_PHASE_FIVE, i(35758, {["timeline"] = {ADDED_2_4_0}})),	-- Steady Seaspray Emerald
+					i(32209),	-- Mystic Lionseye
+					applyclassicphase(TBC_PHASE_FIVE, i(35761, {["timeline"] = {ADDED_2_4_0}})),	-- Quick Lionseye
+					i(32207, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Smooth Lionseye
+					i(32205),	-- Smooth Lionseye
+					i(32208, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Subtle Lionseye
+					i(32198),	-- Subtle Lionseye
+					i(32210, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Rigid Empyrean Sapphire
+					i(32206),	-- Rigid Empyrean Sapphire
+					i(32200),	-- Solid Empyrean Sapphire
+					i(32202, {["timeline"] = {ADDED_2_1_0, REMOVED_4_0_3}}),	-- Sparkling Empyrean Sapphire
+					i(32201),	-- Sparkling Empyrean Sapphire
+					i(32203),	-- Stormy Empyrean Sapphire
+				},
+			})),
 			-- #endif
 		}),
 		filter(FINGER_F, {
