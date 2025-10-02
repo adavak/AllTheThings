@@ -4035,17 +4035,19 @@ namespace ATT
             }
 
             // Retail: Items listed directly under a Quest which are of the 'Quest Item' class should be converted into 'qis' on the Quest
-            if (Framework.PreProcessorTags.Contains("RETAIL")
+            if (PreProcessorTags.Contains("RETAIL")
                 && data.TryGetValue("f", out long filterVal)
                 && filterVal == (long)Objects.Filters.Quest
                 && parentData.TryGetValue("questID", out long parentQuestID))
             {
-                Objects.Merge(parentData, "qis", itemID);
-                LogDebug($"INFO: Converted Quest Item {itemID} into 'qis' of parent Quest {parentQuestID}", data);
-                // mark the item as having been referenced so it doesn't get put into Unsorted
-                Items.MarkItemAsReferenced(itemID);
-                // remove the item from the list since it's now part of the parent quest
-                data["_remove"] = true;
+                // TODO: need to ignore any items which are referenced by other fields, such as 'providers' or 'cost'
+                // Blizzard still has lots of 'Quest' Items which are actually viable currencies or useful items i.e. 37829
+                //Objects.Merge(parentData, "qis", itemID);
+                //LogDebug($"INFO: Converted Quest Item {itemID} into 'qis' of parent Quest {parentQuestID}", data);
+                //// mark the item as having been referenced so it doesn't get put into Unsorted
+                //Items.MarkItemAsReferenced(itemID);
+                //// remove the item from the list since it's now part of the parent quest
+                //data["_remove"] = true;
             }
 
             // Items with only 'n' providers should just use 'crs' for simplicity
