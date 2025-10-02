@@ -103,6 +103,7 @@ root(ROOTS.Zones, {
 							-- #if ANYCLASSIC
 							applyclassicphase(MOP_PHASE_LANDFALL, {
 								i(254313, {	-- Grand Commendation of the Black Prince
+									["timeline"] = { ADDED_5_5_1 },
 									["minReputation"] = { FACTION_THE_BLACK_PRINCE, REVERED },
 								}),
 							}),
