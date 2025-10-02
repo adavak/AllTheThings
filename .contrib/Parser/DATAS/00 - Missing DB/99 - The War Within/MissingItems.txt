@@ -30755,7 +30755,6 @@ i(260191),	-- Hand of the Rootkeeper
 i(260192),	-- Wildthorn Razorfang
 i(260193),	-- [PH] Capstone WQ Loot Box
 i(260227),	-- Frostbitten Tabard
-i(260228),	-- Galactic Gladiator's Goredrake
 i(260231),	-- [DNT] 12.0 White Hawkstrider
 i(260232),	-- Thalassian Skeleton Key
 i(260235),	-- Umbral Plume

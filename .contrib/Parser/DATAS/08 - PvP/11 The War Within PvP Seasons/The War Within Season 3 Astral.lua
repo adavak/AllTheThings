@@ -33,7 +33,9 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				i(232617),	-- Astral Gladiator's Fel Bat (MOUNT!)
 			}),
 			ach(41024),	-- Rival I: The War Within Season 3
-			ach(41025),	-- Rival II: The War Within Season 3
+			ach(41025, {	-- Rival II: The War Within Season 3
+				ill(7641),	-- Arcane
+			}),
 			-- RBG
 			ach(42035, {	-- Astral Marshal: The War Within Season 3
 				["races"] = ALLIANCE_ONLY,
