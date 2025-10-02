@@ -167,7 +167,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["sourceQuests"] = { 32373 },	-- The Measure of a Leader (A)
 					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
 					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					-- #if ANYCLASSIC
+					["cost"] = { { "c", 396, 1600 }, },	-- 1600 Valor
+					-- #else
 					["cost"] = { { "c", 396, 3000 }, },	-- 3000 Valor
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						ach(8030, {	-- A Test of Valor (A)
@@ -179,7 +183,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["sourceQuests"] = { 32427 },	-- The Measure of a Leader (H)
 					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
 					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					-- #if ANYCLASSIC
+					["cost"] = { { "c", 396, 1600 }, },	-- 1600 Valor
+					-- #else
 					["cost"] = { { "c", 396, 3000 }, },	-- 3000 Valor
+					-- #endif
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						ach(8031, {	-- A Test of Valor (H)
