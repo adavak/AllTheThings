@@ -18,6 +18,21 @@ end
 local textExpansionsExplain = child:CreateTextLabel(L.EXPANSION_EXPLAIN_LABEL)
 textExpansionsExplain:SetPoint("TOPLEFT", headerExpansions, "BOTTOMLEFT", 0, -4)
 
+-- Expansion data structure
+local expansions = {
+	{ id = 1, key = "ExpansionFilter:Classic" },
+	{ id = 2, key = "ExpansionFilter:TBC" },
+	{ id = 3, key = "ExpansionFilter:Wrath" },
+	{ id = 4, key = "ExpansionFilter:Cata" },
+	{ id = 5, key = "ExpansionFilter:MoP" },
+	{ id = 6, key = "ExpansionFilter:WoD" },
+	{ id = 7, key = "ExpansionFilter:Legion" },
+	{ id = 8, key = "ExpansionFilter:BfA" },
+	{ id = 9, key = "ExpansionFilter:SL" },
+	{ id = 10, key = "ExpansionFilter:DF" },
+	{ id = 11, key = "ExpansionFilter:TWW" },
+}
+
 -- Enable/Disable Feature Toggle
 local checkboxEnableFeature = child:CreateCheckBox(
 	L.EXPANSION_FILTER_ENABLE,
@@ -34,28 +49,22 @@ local checkboxEnableFeature = child:CreateCheckBox(
 	end,
 	function(self)
 		-- OnClick
+		local isChecked = self:GetChecked()
 		settings:Set("ExpansionFilter:Enabled", self:GetChecked())
+
+		if not isChecked then
+			-- If disabling, reset all expansions to checked
+			for _, expansion in ipairs(expansions) do
+				settings:Set(expansion.key, true)
+			end
+		end
+
 		settings:UpdateMode(1)
 	end
 )
 checkboxEnableFeature:SetATTTooltip(L.EXPANSION_FILTER_ENABLE_TOOLTIP)
 checkboxEnableFeature:SetPoint("TOPLEFT", textExpansionsExplain, "BOTTOMLEFT", -2, -10)
 checkboxEnableFeature:MarkAsWIP()
-
--- Expansion data structure
-local expansions = {
-	{ id = 1, key = "ExpansionFilter:Classic" },
-	{ id = 2, key = "ExpansionFilter:TBC" },
-	{ id = 3, key = "ExpansionFilter:Wrath" },
-	{ id = 4, key = "ExpansionFilter:Cata" },
-	{ id = 5, key = "ExpansionFilter:MoP" },
-	{ id = 6, key = "ExpansionFilter:WoD" },
-	{ id = 7, key = "ExpansionFilter:Legion" },
-	{ id = 8, key = "ExpansionFilter:BfA" },
-	{ id = 9, key = "ExpansionFilter:SL" },
-	{ id = 10, key = "ExpansionFilter:DF" },
-	{ id = 11, key = "ExpansionFilter:TWW" },
-}
 
 -- Create checkboxes for each expansion
 local lastCheckbox = checkboxEnableFeature
