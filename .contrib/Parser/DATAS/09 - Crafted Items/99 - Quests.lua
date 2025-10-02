@@ -25,6 +25,10 @@ root(ROOTS.Craftables, {
 						["groups"] = {
 							applyclassicphase(MOP_PHASE_ESCALATION, i(97985, {	-- Dusty Old Robot (QI!)
 								["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+								-- Wouter NOTE: in MoP Classic, this started dropping in Phase 2 (Landfall) already
+								-- #if BEFORE 5.5.3
+								["description"] = "This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",
+								-- #endif
 							})),
 							i(103670),	-- Lil' Bling (PET!)
 							i(90561, {	-- Eternium Rose

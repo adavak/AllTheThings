@@ -224,7 +224,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(97988, {	-- Paper-Covered Rock (QI!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
-						-- #if BEFORE LEGION
+						-- Wouter NOTE: in MoP Classic, this started dropping in Phase 2 (Landfall) already
+						-- #if BEFORE 5.5.3
+						["description"] = "This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",
+						-- #elseif BEFORE LEGION
 						["description"] = "Can only be harvested along with normal crops or Portal Shard crops.",
 						-- #endif
 					})),

@@ -236,7 +236,12 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		n(QUESTS, {
 			applyclassicphase(MOP_PHASE_ESCALATION, i(97981, {	-- Impeccably Sharp Tooth (QI!)
 				["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
-				["description"] = "Drops from fishing pools in Pandaria",
+				-- Wouter NOTE: in MoP Classic, this started dropping in Phase 2 (Landfall) already
+				-- #if BEFORE 5.5.3
+				["description"] = "This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",
+				-- #elseif BEFORE LEGION
+				["description"] = "Drops from fishing pools in Pandaria.",
+				-- #endif
 			})),
 		}),
 	})),

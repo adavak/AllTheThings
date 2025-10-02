@@ -130,6 +130,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				i(60847, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,150}}}),	-- Crawling Claw (PET!)
 				applyclassicphase(MOP_PHASE_ESCALATION, i(97986, {	-- Digmaster's Earthblade (QI!)
 					["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+					-- Wouter NOTE: in MoP Classic, this started dropping in Phase 2 (Landfall) already
+					-- #if BEFORE 5.5.3
+					["description"] = "This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",
+					-- #endif
 				})),
 				i(64656, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,45}}}),	-- Engraved Scimitar Hilt
 				i(64881, {["cost"]={{"c",ARCH_CURRENCY_TOLVIR,150}}}),	-- Pendant of the Scarab Storm (TOY!)

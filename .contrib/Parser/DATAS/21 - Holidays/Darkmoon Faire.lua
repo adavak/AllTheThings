@@ -3279,9 +3279,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					i(73905, {	-- Darkmoon Zeppelin  (PET!)
 						["timeline"] = { ADDED_4_3_0 },
 					}),
-					-- Wouter TODO: check if this is added early with MoP Classic's Landfall phase
 					applyclassicphase(MOP_PHASE_ESCALATION, i(97987, {	-- Well-Worn Blindfold (QI!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
+						-- Wouter NOTE: in MoP Classic, this started dropping in Phase 2 (Landfall) already
+						-- #if BEFORE 5.5.3
+						["description"] = "This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",
+						-- #endif
 					})),
 				},
 			}),
