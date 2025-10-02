@@ -1126,3 +1126,39 @@
 2722@@@Delves: Season 3
 2736@@@Manaforge Vandals
 2739@@@Delves: Coffer Key Shards Conversion
+12.0.0.63534
+2371@@@Bizmo's Brawlpub (Season 4)
+2372@@@Brawl'gar Arena (Season 4)
+2662@@@[PH] The Power of Friendship
+2663@@@Meerah
+2664@@@Flynn Fairwind
+2665@@@Lillistrasza
+2666@@@Roasts and Boasts
+2696@@@Amani Tribe
+2698@@@Midnight
+2699@@@The Singularity
+2700@@@DEPRECATED Fungarian Fighting Ring
+2704@@@Hara'ti
+2705@@@Amani Tribe (Paragon)
+2706@@@Witherbark Tribe
+2709@@@Vanguard of the Light
+2710@@@Silvermoon Court
+2711@@@Magisters
+2712@@@Blood Knights
+2713@@@Farstriders
+2714@@@Shadow of the Spire
+2715@@@Magisters (Paragon)
+2716@@@Blood Knights (Paragon)
+2717@@@Farstriders (Paragon)
+2718@@@Shadow of the Spire (Paragon)
+2720@@@Silvermoon City
+2725@@@The Singularity
+2726@@@Hara'ti (Paragon)
+2727@@@Silvermoon Court (Paragon)
+2728@@@PLAYER, Haranir Horde
+2729@@@PLAYER, Haranir Alliance
+2742@@@Delves: Season 1
+2744@@@Valeera Sanguinar
+2764@@@Prey: Season 1
+2766@@@Brawl'gar Arena
+2767@@@Bizmo's Brawlpub

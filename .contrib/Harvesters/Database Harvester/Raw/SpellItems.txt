@@ -12735,3 +12735,205 @@
 8576@@@Intricate Everchill Pearl
 8577@@@Flawed Everchill Pearl
 8578@@@Perfected Everchill Pearl
+12.0.0.63534
+7905@@@Sharpened: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7906@@@Sharpened: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7907@@@Weighted: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7908@@@Weighted: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7909@@@Razor Sharp: +$k1 Finesse |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7910@@@Razor Sharp: +$k1 Finesse |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7918@@@12.0.0 FX Testing - Enchant Visualt - Tutorial TEST
+7934@@@+$k1 Intellect & +$k2 Stamina |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7935@@@+$k1 Intellect & +$k2 Stamina |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7936@@@+$k1 Intellect & +$457615s1% Mana |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7937@@@+$k1 Intellect & +$457616s1% Mana |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7938@@@+$k1 Intellect |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7939@@@+$k1 Intellect |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7948@@@[DNT] Enchant Template |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7949@@@[DNT] Enchant Template |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7956@@@Enchant Chest - Mark of Nalorakk |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7957@@@Enchant Chest - Mark of Nalorakk |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7958@@@Enchant Helm - Hex of Leeching |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7959@@@Enchant Helm - Hex of Leeching |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7960@@@Enchant Helm - Empowered Hex of Leeching |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7961@@@Enchant Helm - Empowered Hex of Leeching |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7962@@@Enchant Boots - Lynx's Dexterity |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7963@@@Enchant Boots - Lynx's Dexterity |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7964@@@Enchant Ring - Amani Mastery |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7965@@@Enchant Ring - Amani Mastery |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7966@@@Enchant Ring - Eyes of the Eagle |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7967@@@Enchant Ring - Eyes of the Eagle |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7968@@@Enchant Ring - Zul'jins Mastery |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7969@@@Enchant Ring - Zul'jins Mastery |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7970@@@Enchant Shoulders - Flight of the Eagle |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7971@@@Enchant Shoulders - Flight of the Eagle |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7972@@@Enchant Shoulders - Akil'zon's Celerity |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7973@@@Enchant Shoulders - Akil'zon's Celerity |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7974@@@Enchant Tool - Amani Perception |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7975@@@Enchant Tool - Amani Perception |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7976@@@Enchant Tool - Amani Resourcfulness |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7977@@@Enchant Tool - Amani Resourcfulness |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7978@@@Enchant Weapon - Strength of Halazzi |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7979@@@Enchant Weapon - Strength of Halazzi |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7980@@@Enchant Weapon - Jan'alai's Precision |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7981@@@Enchant Weapon - Jan'alai's Precision |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7982@@@Enchant Weapon - Berserker's Rage |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7983@@@Enchant Weapon - Berserker's Rage |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7984@@@Enchant Chest - Mark of the Rootwarden |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7985@@@Enchant Chest - Mark of the Rootwarden |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7986@@@Enchant Chest - Mark of the Worldsoul |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7987@@@Enchant Chest - Mark of the Worldsoul |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7988@@@Enchant Helm - Blessing of Speed |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7989@@@Enchant Helm - Blessing of Speed |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7990@@@Enchant Helm - Empowered Blessing of Speed |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7991@@@Enchant Helm - Empowered Blessing of Speed |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7992@@@Enchant Boots - Shaladrassil's Roots |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7993@@@Enchant Boots - Shaladrassil's Roots |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7994@@@Enchant Ring - Nature's Wrath |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7995@@@Enchant Ring - Nature's Wrath |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7996@@@Enchant Ring - Nature's Fury |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7997@@@Enchant Ring - Nature's Fury |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7998@@@Enchant Shoulders - Nature's Grace |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7999@@@Enchant Shoulders - Nature's Grace |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8000@@@Enchant Shoulders - Amirdrassil's Worldsoul's Grace |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8001@@@Enchant Shoulders - Amirdrassil's Grace |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8002@@@Enchant Tool - Haranir Finesse |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8003@@@Enchant Tool - Haranir Finesse |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8004@@@Enchant Tool - Haranir Multicrafting |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8005@@@Enchant Tool - Haranir Multicrafting |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8006@@@Enchant Weapon - Worldsoul Cradle |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8007@@@Enchant Weapon - Worldsoul Cradle |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8008@@@Enchant Weapon - Worldsoul Aegis |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8009@@@Enchant Weapon - Worldsoul Aegis |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8010@@@Enchant Weapon - Worldsoul Tenacity |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8011@@@Enchant Weapon - Worldsoul Tenacity |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8012@@@Enchant Chest - Mark of the Magister |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8013@@@Enchant Chest - Mark of the Magister |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8014@@@Enchant Helm - Rune of Avoidance |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8015@@@Enchant Helm - Rune of Avoidance |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8016@@@Enchant Helm - Empowered Rune of Avoidance |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8017@@@Enchant Helm - Empowered Rune of Avoidance |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8018@@@Enchant Boots - Farstrider's Hunt |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8019@@@Enchant Boots - Farstrider's Hunt |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8020@@@Enchant Ring - Thalassian Haste |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8021@@@Enchant Ring - Thalassian Haste |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8022@@@Enchant Ring - Thalassian Versatility |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8023@@@Enchant Ring - Thalassian Versatility |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8024@@@Enchant Ring - Silvermoon's Alacrity |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8025@@@Enchant Ring - Silvermoon's Alacrity |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8026@@@Enchant Ring - Silvermoon's Tenacity |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8027@@@Enchant Ring - Silvermoon's Tenacity |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8028@@@Enchant Shoulders - Thalassian Recovery |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8029@@@Enchant Shoulders - Thalassian Recovery |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8030@@@Enchant Shoulders - Silvermoon's Mending |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8031@@@Enchant Shoulders - Silvermoon's Mending |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8032@@@Enchant Tool - Sin'dorei Deftness |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8033@@@Enchant Tool - Sin'dorei Deftness |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8034@@@Enchant Tool - Ren'dorei Ingenuity |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8035@@@Enchant Tool - Ren'dorei Ingenuity |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8036@@@Enchant Weapon - Flames of the Sin'dorei |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8037@@@Enchant Weapon - Flames of the Sin'dorei |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8038@@@Enchant Weapon - Acuity of the Ren'dorei |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8039@@@Enchant Weapon - Acuity of the Ren'dorei |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8040@@@Enchant Weapon - Arcane Mastery |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8041@@@Enchant Weapon - Arcane Mastery |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8042@@@Enchant Shoulders - Blooming Light |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8043@@@Enchant Shoulders - Blooming Light |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8044@@@Enchant Shoulders - Nature's Embrace |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8045@@@Enchant Shoulders - Nature's Embrace |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8046@@@Enchant Shoulders - Voidtouched |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8047@@@Enchant Shoulders - Voidtouched |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8051@@@Thalassian Phoenix Oil |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8052@@@Thalassian Phoenix Oil |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8053@@@Oil of Dawn |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8054@@@Oil of Dawn |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8055@@@Smuggler's Enchanted Edge |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8056@@@Smuggler's Enchanted Edge |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8063@@@12.0.0 - FX - Nature - Enchants
+8094@@@+$k1 Versatility
+8095@@@+$k1 Versatility
+8096@@@+$k1 Versatility
+8097@@@+$k1 Versatility
+8098@@@+$k1 Versatility & +$k2 Critical Strike
+8099@@@+$k1 Versatility & +$k2 Critical Strike
+8100@@@+$k1 Versatility & +$k2 Critical Strike
+8101@@@+$k1 Versatility & +$k2 Critical Strike
+8102@@@+$k1 Versatility & +$k2 Haste
+8103@@@+$k1 Versatility & +$k2 Haste
+8104@@@+$k1 Versatility & +$k2 Haste
+8105@@@+$k1 Versatility & +$k2 Haste
+8106@@@+$k1 Versatility & +$k2 Mastery
+8107@@@+$k1 Versatility & +$k2 Mastery
+8108@@@+$k1 Versatility & +$k2 Mastery
+8109@@@+$k1 Versatility & +$k2 Mastery
+8110@@@+$k1 Haste
+8111@@@+$k1 Haste
+8112@@@+$k1 Haste
+8113@@@+$k1 Haste
+8114@@@+$k1 Haste & +$k2 Critical Strike
+8115@@@+$k1 Haste & +$k2 Critical Strike
+8116@@@+$k1 Haste & +$k2 Critical Strike
+8117@@@+$k1 Haste & +$k2 Critical Strike
+8118@@@+$k1 Haste & +$k2 Mastery
+8119@@@+$k1 Haste & +$k2 Mastery
+8120@@@+$k1 Haste & +$k2 Mastery
+8121@@@+$k1 Haste & +$k2 Mastery
+8122@@@+$k1 Haste & +$k2 Versatility
+8123@@@+$k1 Haste & +$k2 Versatility
+8124@@@+$k1 Haste & +$k2 Versatility
+8125@@@+$k1 Haste & +$k2 Versatility
+8126@@@+$k1 Mastery
+8127@@@+$k1 Mastery
+8128@@@+$k1 Mastery
+8129@@@+$k1 Mastery
+8130@@@+$k1 Mastery & +$k2 Critical Strike
+8131@@@+$k1 Mastery & +$k2 Critical Strike
+8132@@@+$k1 Mastery & +$k2 Critical Strike
+8133@@@+$k1 Mastery & +$k2 Critical Strike
+8134@@@+$k1 Mastery & +$k2 Haste
+8135@@@+$k1 Mastery & +$k2 Haste
+8136@@@+$k1 Mastery & +$k2 Haste
+8137@@@+$k1 Mastery & +$k2 Haste
+8138@@@+$k1 Mastery & +$k2 Versatility
+8139@@@+$k1 Mastery & +$k2 Versatility
+8140@@@+$k1 Mastery & +$k2 Versatility
+8141@@@+$k1 Mastery & +$k2 Versatility
+8142@@@+$k1 Critical Strike
+8143@@@+$k1 Critical Strike
+8144@@@+$k1 Critical Strike
+8145@@@+$k1 Critical Strike
+8146@@@+$k1 Critical Strike & +$k2 Haste
+8147@@@+$k1 Critical Strike & +$k2 Haste
+8148@@@+$k1 Critical Strike & +$k2 Haste
+8149@@@+$k1 Critical Strike & +$k2 Haste
+8150@@@+$k1 Critical Strike & +$k2 Mastery
+8151@@@+$k1 Critical Strike & +$k2 Mastery
+8152@@@+$k1 Critical Strike & +$k2 Mastery
+8153@@@+$k1 Critical Strike & +$k2 Mastery
+8154@@@+$k1 Critical Strike & +$k2 Versatility
+8155@@@+$k1 Critical Strike & +$k2 Versatility
+8156@@@+$k1 Critical Strike & +$k2 Versatility
+8157@@@+$k1 Critical Strike & +$k2 Versatility
+8158@@@+$k2 Agility/Strength & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8159@@@+$k2 Agility/Strength & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8160@@@+$k1 Agility/Strength |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8161@@@+$k1 Agility/Strength |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8162@@@+$k2 Agility/Strength & +$k1 Armor |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8163@@@+$k2 Agility/Strength & +$k1 Armor |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8551@@@+$k1 Primary Stat
+8552@@@+$k1 Primary Stat
+8553@@@Galaxy
+8554@@@+$k1 Primary Stat and +$k2 Armor
+8555@@@+$k1 Primary Stat and +$k2 Armor
+8556@@@+$k1 Primary Stat and +0.15% Critical Effect per unique Midnight gem color
+8557@@@+$k1 Primary Stat and +0.15% Critical Effect per unique Midnight gem color
+8558@@@+$k1 Primary Stat and +$1258210s1% Maximum Mana per unique Midnight gem color
+8559@@@+$k1 Primary Stat and +$1258210s1% Maximum Mana per unique Midnight gem color
+8608@@@Laced Zoomshots |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8609@@@Laced Zoomshots |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8610@@@Weighted Boomshots|A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8611@@@Weighted Boomshots|A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8612@@@Smuggler's Lynxeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8613@@@Smuggler's Lynxeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8614@@@Farstrider's Hawkeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8615@@@Farstrider's Hawkeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a

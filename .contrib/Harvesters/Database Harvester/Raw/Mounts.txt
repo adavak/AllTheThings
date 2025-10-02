@@ -2318,3 +2318,40 @@
 1251690@@@Prized Turkey
 11.2.5.63092
 448845@@@Blue Old God Fish Mount
+12.0.0.63534
+447173@@@Elder Glowmite
+451487@@@Retrained Skyrazor
+1233516@@@K'arroc Swiftwing
+1238827@@@Swift Spectral Dragonhawk
+1242904@@@Ashes of Belo'ren
+1243003@@@Light-Forged Mechsuit
+1243593@@@Fierce Grimlynx
+1244247@@@Thunder-Ridged Elekk
+1244259@@@Cinder-Seared Elekk
+1244261@@@Legion-Forged Elekk
+1247662@@@Brewfest Bomber
+1251433@@@[DNT] Amani Eagle Orange
+1251630@@@Amani Windcaller
+1251665@@@Amani Blessed Bear
+1252141@@@[DNT] Jellyfish
+1253929@@@Cerulean Sporeglider
+1257058@@@[DNT] Cursed Hex Eagle
+1257081@@@[DNT] Cleansed Hex Eagle
+1260356@@@Echo of Aln'sharan
+1261291@@@Fiery Dragonhawk
+1261322@@@Crimson Silvermoon Hawkstrider
+1261325@@@[DNT] 12.0 Black Hawkstrider
+1261336@@@Preyseeker's Hubris
+1261337@@@Preyseeker's Wrath
+1261668@@@Bronze Wilderling
+1261671@@@Bronze Aquilon
+1261677@@@Bronze Corpsefly
+1261681@@@Bronze Gravewing
+1262840@@@Galactic Gladiator's Goredrake
+1262886@@@Geargrinder Mk. 11
+1263369@@@Skypaw Glimmerfur
+1263387@@@Crimson Lupine
+1264621@@@Brawlin' Bruno
+1264643@@@Ballistic Bronco
+1264988@@@Snowpaw Glimmerfur Prowler
+1265784@@@[DNT] 12.0 White Hawkstrider

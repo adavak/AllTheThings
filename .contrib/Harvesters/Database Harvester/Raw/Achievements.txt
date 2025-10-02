@@ -16721,3 +16721,411 @@
 61406@@@WoW's 21st Anniversary
 11.2.5.62940
 61339@@@Putting the Finite in Infinite
+12.0.0.63534
+158@@@Me and the Cappin' Makin' It Happen
+11558@@@The First Rule of Brawler's Guild (Season 3)
+11559@@@The First Rule of Brawler's Guild (Season 3)
+40887@@@Fox Friends
+41287@@@Windrunner Spire
+41288@@@Heroic: Windrunner Spire
+41291@@@Mythic: Windrunner Spire
+41293@@@[PH] Restless Heart kills (Normal Windrunner Spire)
+41294@@@[PH] Restless Heart kills (Heroic Windrunner Spire)
+41295@@@[PH] Restless Heart kills (Mythic Windrunner Spire)
+41673@@@Midnight Tailoring 25 (DNT)
+41674@@@Midnight Tailoring 50 (DNT)
+41675@@@Midnight Tailoring 60 (DNT)
+41679@@@Midnight Tailoring 75 (DNT)
+41684@@@Midnight Herbalism 25 (DNT)
+41688@@@Midnight Herbalism 50 (DNT)
+41689@@@Midnight Herbalism 75 (DNT)
+41690@@@Midnight Blacksmithing 25 (DNT)
+41691@@@Midnight Blacksmithing 50 (DNT)
+41692@@@Midnight Blacksmithing 60 (DNT)
+41693@@@Midnight Blacksmithing 75 (DNT)
+41739@@@Midnight Mining 25 (DNT)
+41749@@@Midnight Mining 50 (DNT)
+41750@@@Midnight Mining 75 (DNT)
+41783@@@Midnight Skinning 25 (DNT)
+41784@@@Midnight Skinning 50 (DNT)
+41785@@@Midnight Skinning 60 (DNT)
+41802@@@Eversong Woods
+41803@@@Living Amani Legend
+41804@@@Harandar
+41805@@@Arator's Journey
+41806@@@Voidstorm
+41960@@@Murder Row
+41961@@@Heroic: Murder Row
+41962@@@Mythic: Murder Row
+41974@@@Midnight Jewelcrafting 25 (DNT)
+41975@@@Midnight Jewelcrafting 50 (DNT)
+41976@@@Midnight Jewelcrafting 60 (DNT)
+41977@@@Midnight Jewelcrafting 75 (DNT)
+42010@@@Midnight Alchemy 25 (DNT)
+42011@@@Midnight Alchemy 50 (DNT)
+42012@@@Midnight Alchemy 60 (DNT)
+42013@@@Midnight Alchemy 75 (DNT)
+42045@@@Midnight
+42117@@@The War of Light and Shadow
+42140@@@Midnight Enchanting 25 (DNT)
+42145@@@Midnight Enchanting 50 (DNT)
+42146@@@Midnight Enchanting 60 (DNT)
+42147@@@Midnight Enchanting 75 (DNT)
+42178@@@Midnight Leatherworking 25 (DNT)
+42179@@@Midnight Leatherworking 50 (DNT)
+42182@@@Midnight Leatherworking 60 (DNT)
+42183@@@Midnight Leatherworking 75 (DNT)
+42192@@@Snowball Fight!
+42270@@@The Deathlord's Campaign
+42271@@@The Slayer's Campaign
+42272@@@The Archdruid's Campaign
+42273@@@The Huntmaster's Campaign
+42274@@@The Archmage's Campaign
+42275@@@The Grandmaster's Campaign
+42276@@@The Highlord's Campaign
+42277@@@The High Priest's Campaign
+42278@@@Day of the Titan
+42279@@@The Shadowblade's Campaign
+42280@@@The Farseer's Campaign
+42281@@@The Netherlord's Campaign
+42282@@@The Battlelord's Campaign
+42283@@@Azeroth Runs on Dundun
+42287@@@Hidden Potential of the Deathlord
+42288@@@Hidden Potential of the Slayer
+42289@@@Hidden Potential of the Archdruid
+42290@@@Hidden Potential of the Huntmaster
+42291@@@Hidden Potential of the Archmage
+42292@@@Hidden Potential of the Grandmaster
+42293@@@Hidden Potential of the Highlord
+42294@@@Hidden Potential of the High Priest
+42295@@@Hidden Potential of the Shadowblade
+42296@@@Hidden Potential of the Farseer
+42297@@@Hidden Potential of the Netherlord
+42298@@@Hidden Potential of the Battlelord
+42299@@@Visions of a Shadowed Sun
+42300@@@Two Minutes to Midnight
+42322@@@1st level 90 on account (DNT)
+42323@@@2nd level 90 on account (DNT)
+42324@@@3nd level 90 on account (DNT)
+42326@@@4th level 90 on account (DNT)
+42327@@@5th level 90 on account (DNT)
+42328@@@One Warband Mentor: Midnight
+42329@@@Two Warband Mentors: Midnight
+42330@@@Three Warband Mentors: Midnight
+42331@@@Four Warband Mentors: Midnight
+42332@@@Five Warband Mentors: Midnight
+42528@@@Explore Highmountain
+42535@@@Explore Eredath
+42560@@@Explore Antoran Wastes
+42573@@@Explore Val'Sharah
+42575@@@Elusive Foes: Antoran Wastes
+42577@@@Hidden Treasures: Suramar
+42579@@@Elusive Foes: Highmountain
+42580@@@Elusive Foes: Val'Sharah
+42588@@@Hidden Treasures: Krokuun
+42591@@@Elusive Foes: Krokuun
+42606@@@Hidden Treasures: Stormheim
+42608@@@Explore Stormheim
+42620@@@Explore Krokuun
+42626@@@Hidden Treasures: Eredath
+42631@@@Hidden Treasures: Antoran Wastes
+42634@@@Hidden Treasures: Highmountain
+42640@@@Elusive Foes: Stormheim
+42646@@@Elusive Foes: Eredath
+42650@@@Elusive Foes: Suramar
+42665@@@Explore Suramar
+42668@@@Hidden Treasures: Val'Sharah
+42701@@@Prey: Normal Mode III
+42702@@@Prey: Hard Mode III
+42703@@@Prey: Nightmare Mode III
+42767@@@Weathered of the Dawn
+42768@@@Carved of the Dawn
+42769@@@Runed of the Dawn
+42770@@@Gilded of the Dawn
+42786@@@Leatherworking at Midnight
+42787@@@Enchanting at Midnight
+42788@@@Alchemy at Midnight
+42789@@@Jewelcrafting at Midnight
+42790@@@Skinning at Midnight
+42791@@@Mining at Midnight
+42792@@@Blacksmithing at Midnight
+42793@@@Herbalism at Midnight
+42794@@@Tailoring at Midnight
+42795@@@Cooking at Midnight
+42796@@@Inscribing at Midnight
+42797@@@Fishing at Midnight
+42798@@@Engineering at Midnight
+42808@@@Midnight Inscription 25 (DNT)
+42809@@@Midnight Inscription 50 (DNT)
+42810@@@Midnight Inscription 60 (DNT)
+42813@@@Midnight Inscription 75 (DNT)
+42814@@@Midnight Engineering 25 (DNT)
+42815@@@Midnight Engineering 50 (DNT)
+42817@@@Midnight Engineering 60 (DNT)
+42821@@@Midnight Engineering 75 (DNT)
+51753@@@Azsuna Matata
+60888@@@Pushing My Buttons
+60891@@@The Crimson Rogue
+60942@@@Aquatic Battler of Northrend
+60943@@@Critter Battler of Northrend
+60944@@@Dragonkin Battler of Northrend
+60948@@@Elemental Battler of Northrend
+60949@@@Flying Battler of Northrend
+60950@@@Humanoid Battler of Northrend
+60951@@@Beast Battler of Northrend
+60952@@@Magic Battler of Northrend
+60953@@@Mechanical Battler of Northrend
+60954@@@Undead Battler of Northrend
+60956@@@Family Battler of Northrend
+60962@@@Legendary Research of the Ebon Blade
+60963@@@Legendary Research of the Illidari
+60964@@@Legendary Research of the Dreamgrove
+60965@@@Legendary Research of the Unseen Path
+60966@@@Legendary Research of the Tirisgarde
+60967@@@Legendary Research of Five Dawns
+60968@@@Legendary Research of the Silver Hand
+60969@@@Legendary Research of the Netherlight Conclave
+60970@@@Legendary Research of the Uncrowned
+60971@@@Legendary Research of the Maelstrom
+60972@@@Legendary Research of the Black Harvest
+60973@@@Legendary Research of the Valarjar
+60981@@@So Many Missions for Acherus
+60982@@@So Many Missions for the Fel Hammer
+60983@@@So Many Missions for the Dreamgrove
+60984@@@So Many Missions for the Trueshot Lodge
+60985@@@So Many Missions for the Hall of the Guardian
+60986@@@So Many Missions for the Temple of Five Dawns
+60987@@@So Many Missions for the Sanctum of Light
+60988@@@So Many Missions for the Netherlight Temple
+60989@@@So Many Missions for the Hall of Shadows
+60990@@@So Many Missions for the Maelstrom
+60991@@@So Many Missions for the Dreadscar Rift
+60992@@@So Many Missions for Skyhold
+61023@@@[DNT] Exalted with a Dracthyr Player Faction
+61028@@@Undead Battler of Eastern Kingdoms
+61029@@@Aquatic Battler of Eastern Kingdoms
+61030@@@Beast Battler of Eastern Kingdoms
+61031@@@Critter Battler of Eastern Kingdoms
+61032@@@Dragonkin Battler of Eastern Kingdoms
+61033@@@Elemental Battler of Eastern Kingdoms
+61034@@@Flying Battler of Eastern Kingdoms
+61035@@@Humanoid Battler of Eastern Kingdoms
+61036@@@Magic Battler of Eastern Kingdoms
+61037@@@Mechanical Battler of Eastern Kingdoms
+61040@@@Family Battler of Eastern Kingdoms
+61041@@@Aquatic Battler of Kalimdor
+61042@@@Beast Battler of Kalimdor
+61043@@@Critter Battler of Kalimdor
+61044@@@Dragonkin Battler of Kalimdor
+61045@@@Elemental Battler of Kalimdor
+61046@@@Flying Battler of Kalimdor
+61047@@@Humanoid Battler of Kalimdor
+61048@@@Magic Battler of Kalimdor
+61049@@@Mechanical Battler of Kalimdor
+61050@@@Undead Battler of Kalimdor
+61051@@@Family Battler of Kalimdor
+61052@@@Dust 'Em Off
+61081@@@Share a Drink
+61082@@@Old Soldiers
+61083@@@Highly Decorated
+61091@@@Midnight Safari
+61094@@@Old World Family Battler
+61177@@@Galactic Marshal: Midnight Season 1
+61178@@@Galactic Warlord: Midnight Season 1
+61179@@@Galactic Legend: Midnight Season 1
+61180@@@Galactic Gladiator: Midnight Season 1
+61181@@@Combatant I: Midnight Season 1
+61182@@@Combatant II: Midnight Season 1
+61183@@@Challenger I: Midnight Season 1
+61184@@@Challenger II: Midnight Season 1
+61185@@@Rival I: Midnight Season 1
+61186@@@Rival II: Midnight Season 1
+61187@@@Duelist: Midnight Season 1
+61188@@@Gladiator: Midnight Season 1
+61190@@@Legend: Midnight Season 1
+61194@@@Strategist: Midnight Season 1
+61195@@@Hero of the Alliance: Galactic
+61196@@@Hero of the Horde: Galactic
+61197@@@Elite: Midnight Season 1
+61198@@@Battle Mender: Midnight Season 1
+61199@@@Solo Shuffle Medic: Midnight
+61200@@@Battleground Blitz Medic: Midnight
+61211@@@Welcome Home
+61212@@@Magisters' Terrace
+61213@@@Heroic: Magisters' Terrace
+61214@@@Mythic: Magisters' Terrace
+61215@@@Degentrius kills (Normal Magisters' Terrace)
+61216@@@Degentrius kills (Heroic Magisters' Terrace)
+61217@@@Degentrius kills (Mythic Magisters' Terrace)
+61219@@@No Time to Paws
+61221@@@Tour of Duty: Eversong Woods
+61222@@@Tour of Duty: Zul'Aman
+61223@@@Tour of Duty: Harandar
+61224@@@Tour of Duty: Voidstorm
+61225@@@Investigating the Rise
+61226@@@Uprising
+61227@@@Entering the Void
+61228@@@Embracing the Void
+61229@@@Dedication in the Void
+61230@@@Remains in the Rise
+61231@@@Midnight Loot
+61232@@@Midnight Treasures
+61233@@@Midnight Season 1: Resilient Keystone 12
+61234@@@Hunt in the Night
+61235@@@Midnight Season 1: Resilient Keystone 13
+61236@@@Midnight Season 1: Resilient Keystone 14
+61237@@@Midnight Season 1: Resilient Keystone 15
+61238@@@Midnight Hunter
+61239@@@Midnight Season 1: Resilient Keystone 16
+61240@@@Midnight Season 1: Resilient Keystone 17
+61241@@@Midnight Season 1: Resilient Keystone 18
+61242@@@Midnight Season 1: Resilient Keystone 19
+61243@@@Midnight Season 1: Resilient Keystone 20
+61244@@@Midnight Season 1: Resilient Keystone 21
+61245@@@Midnight Season 1: Resilient Keystone 22
+61246@@@Midnight Season 1: Resilient Keystone 23
+61247@@@Midnight Season 1: Resilient Keystone 24
+61248@@@Midnight Season 1: Resilient Keystone 25
+61249@@@Midnight Season 1: Resilient Keystone 26
+61250@@@Midnight Season 1: Resilient Keystone 27
+61251@@@Midnight Season 1: Resilient Keystone 28
+61252@@@Midnight Season 1: Resilient Keystone 29
+61253@@@Midnight Season 1: Resilient Keystone 30
+61254@@@Midnight Keystone Explorer: Season One
+61255@@@Midnight Keystone Conqueror: Season One
+61256@@@Midnight Keystone Master: Season One
+61257@@@Midnight Keystone Hero: Season One
+61258@@@Midnight Keystone Legend: Season One
+61259@@@Umbral Hero: Midnight Season One
+61262@@@Keystone Hero: Windrunner Spire
+61263@@@Treasures of Harandar
+61264@@@Leaf None Behind
+61265@@@Spectral Capture
+61266@@@Spectral Stocker
+61267@@@Keystone Hero: Magisters' Terrace
+61268@@@Keystone Hero: Nexus-Point Xenas
+61269@@@Keystone Hero: Maisara Caverns
+61270@@@Keystone Hero: Seat of the Triumvirate
+61271@@@Keystone Hero: Pit of Saron
+61272@@@Keystone Hero: Skyreach
+61273@@@Lithiel Cinderfury kills (Normal Murder Row)
+61274@@@Lithiel Cinderfury kills (Heroic Murder Row)
+61275@@@Lithiel Cinderfury kills (Mythic Murder Row)
+61276@@@Imperator Averzian (Raid Finder Voidspire)
+61277@@@Imperator Averzian (Normal Voidspire)
+61278@@@Imperator Averzian (Heroic Voidspire)
+61279@@@Imperator Averzian (Mythic Voidspire)
+61280@@@Vorasius (Raid Finder Voidspire)
+61281@@@Vorasius (Normal Voidspire)
+61282@@@Vorasius (Heroic Voidspire)
+61283@@@Vorasius (Mythic Voidspire)
+61284@@@Fallen-King Salhadaar (Raid Finder Voidspire)
+61285@@@Fallen-King Salhadaar (Normal Voidspire)
+61286@@@Fallen-King Salhadaar (Heroic Voidspire)
+61287@@@Fallen-King Salhadaar (Mythic Voidspire)
+61288@@@Vaelgor & Ezzorak (Raid Finder Voidspire)
+61289@@@Vaelgor & Ezzorak (Normal Voidspire)
+61290@@@Vaelgor & Ezzorak (Heroic Voidspire)
+61291@@@Vaelgor & Ezzorak (Mythic Voidspire)
+61292@@@Lightblinded Vanguard (Raid Finder Voidspire)
+61293@@@Lightblinded Vanguard (Normal Voidspire)
+61294@@@Lightblinded Vanguard (Heroic Voidspire)
+61295@@@Lightblinded Vanguard (Mythic Voidspire)
+61296@@@Crown of the Cosmos (Raid Finder Voidspire)
+61297@@@Crown of the Cosmos (Normal Voidspire)
+61298@@@Crown of the Cosmos (Heroic Voidspire)
+61299@@@Crown of the Cosmos (Mythic Voidspire)
+61300@@@Belo'ren (Raid Finder March on Quel'Danas)
+61301@@@Belo'ren (Normal March on Quel'Danas)
+61302@@@Belo'ren (Heroic March on Quel'Danas)
+61303@@@Belo'ren (Mythic March on Quel'Danas)
+61304@@@Midnight Falls (Raid Finder March on Quel'Danas)
+61305@@@Midnight Falls (Normal March on Quel'Danas)
+61306@@@Midnight Falls (Heroic March on Quel'Danas)
+61307@@@Midnight Falls (Mythic March on Quel'Danas)
+61308@@@Score A Decor
+61309@@@Amateur Antiquarian
+61310@@@Casual Collector
+61311@@@Ready To Remodel
+61312@@@Center Stager
+61313@@@Well-Travelled Collection
+61314@@@Furniture Historian
+61315@@@Array of Antiquities
+61316@@@Custom Cabinets
+61317@@@Domicile Designer
+61318@@@Fully Furnished
+61344@@@Legends of the Haranir
+61346@@@We Will, In Fact, See It Again
+61366@@@Voidspire
+61367@@@March on Quel'Danas
+61368@@@Heroic: Voidspire
+61369@@@Heroic: March on Quel'Danas
+61370@@@Mythic: Voidspire
+61371@@@Mythic: March on Quel'Danas
+61372@@@Mythic: Imperator Averzian
+61373@@@Mythic: Vorasius
+61374@@@Mythic: Fallen-King Salhadaar
+61375@@@Mythic: Vaelgor & Ezzorak
+61376@@@Mythic: Lightblinded Vanguard
+61377@@@Mythic: Crown of the Cosmos
+61378@@@Mythic: Belo'ren
+61379@@@Mythic: Midnight Falls
+61380@@@Glory of the Midnight Raider
+61381@@@Belo'ren Achievement
+61386@@@Prey: Normal Mode II
+61387@@@Prey: Normal Mode I
+61388@@@Prey: Hard Mode II
+61389@@@Prey: Hard Mode I
+61391@@@Prey: Nightmare Mode II
+61392@@@Prey: Nightmare Mode I
+61394@@@Master of the Turbulent Timeways IV
+61403@@@Galactic Combatant
+61405@@@Galactic Combatant
+61413@@@The First Rule of Brawler's Guild
+61414@@@The First Rule of Brawler's Guild
+61419@@@Brawler's Chilled
+61420@@@Let Me Solo It
+61421@@@A Prime Ordeal
+61422@@@Audience Participation
+61423@@@Featherweight Brawler
+61424@@@Brawlzilla
+61425@@@Hot Footed
+61426@@@Bare Knuckle Brawl
+61429@@@Brawl Star
+61430@@@Crunching for Cultists
+61438@@@Thalassian Profession Master
+61439@@@Thalassian Artisan
+61440@@@Thalassian Polymath
+61441@@@Working WAY Past Midnight
+61443@@@Galactic Weapons of Conquest
+61444@@@Vicious Saddle (43)
+61445@@@Vicious Saddle (43)
+61446@@@Slayer's Mastery
+61447@@@Partake in the Rise
+61448@@@Frequent the Rise
+61449@@@Customary Rise
+61450@@@Galactic Gladiator's Goredrake
+61451@@@Worldsoul-Searching
+61452@@@Sojourner of Zul'Aman
+61453@@@Making an Amani Out of You
+61454@@@Falling Between The Quacks
+61455@@@Shadowpine Scattered
+61456@@@Die in Lordaeron or Undercity
+61464@@@Spark in the Night
+61465@@@Spark in the Night
+61466@@@The Best There Is
+61467@@@Lorewalking: Elves
+61474@@@Chimaerus, the Undreamt God (Raid Finder Dreamrift)
+61475@@@Chimaerus, the Undreamt God (Normal Dreamrift)
+61476@@@Chimaerus, the Undreamt God (Heroic Dreamrift)
+61477@@@Chimaerus, the Undreamt God (Mythic Dreamrift)
+61487@@@Chimaerus, the Undreamt God
+61488@@@Heroic: Chimaerus, the Undreamt God
+61489@@@Mythic: Chimaerus, the Undreamt God
+61490@@@Midnight Season 1: Champion of the Dawn
+61491@@@Ahead of the Curve: Chimaerus, the Undreamt God
+61492@@@Cutting Edge: Chimaerus, the Undreamt God
+61493@@@Hall of Fame: Chimaerus, the Undreamt God
+61494@@@Slayer's Rise battles
+61495@@@Slayer's Rise victories
+61498@@@Ready for Midnight

@@ -2775,3 +2775,67 @@
 3164@@@Hosaas' Rest
 11.2.5.62554
 1767@@@Nesingwary's Retreat, Highmountain
+12.0.0.63534
+2972@@@Entrance Gate, Razorwind Shores
+2973@@@Saltfang Shoals East, Razorwind Shores
+2974@@@Runetotem's Bounty North, Razorwind Shores
+2975@@@Runetotem's Bounty South, Razorwind Shores
+2976@@@The Bluffs, Razorwind Shores
+2978@@@Cragthorn Highlands, Razorwind Shores
+2979@@@The Common, Razorwind Shores
+2980@@@The Bloom, Razorwind Shores
+3072@@@Entrance Portal, Founders Point
+3073@@@The Hub, Founders Point
+3074@@@Mear's Farm, Founders Point
+3075@@@The Outer Banks, Founders Point
+3076@@@Small Aerie, Founders Point
+3077@@@Gilded Oaks, Founders Point
+3078@@@Brumewood Hollow, Founders Point
+3079@@@Cliffside, Founders Point
+3093@@@Quest Path 10497: 12.0 Z3 - Legends - Shrine 01 - Exit Path - (LWB)
+3101@@@Quest Path 10502: 12.0 Z3 - Legends - Shrine 02 - Exit Path - (LWB)
+3102@@@Thalassian University Teleport Base
+3103@@@Thalassian University Teleport Top
+3104@@@Quest Path 10509: 12.0 Z3 - Legends - Shrine 03 - Exit Path - (LWB)
+3105@@@Quest Path 10517: 12.0 Z3 - Legends - Shrine 04 - Exit Path - (LWB)
+3106@@@Tortollan Hub, Zul'Aman
+3118@@@Quest Path 10646: 12.0 Dungeon - Domanaar Arena - Portal 1. Cast - BDP
+3119@@@The Ingress, Voidstorm
+3120@@@Locus Point, Voidstorm
+3121@@@Howling Ridge, Voidstorm
+3123@@@Master's Terrace. Voidstorm
+3125@@@Terrace of the Sun, Isle of Quel'Danas
+3126@@@Torntusk Overlook, Zul'Aman
+3127@@@Amani'Zar Village, Zul'Aman
+3128@@@Atal'Aman, Zul'Aman
+3129@@@Shadebasin Watch, Zul'Aman
+3130@@@Witherbark Bluffs, Zul'Aman
+3131@@@Sanctum of Light, Silvermoon City
+3132@@@The Royal Exchange, Silvermoon City
+3133@@@Fairbreeze Village, Eversong Woods
+3134@@@Tranquillien, Eversong Woods
+3135@@@12.0 Z1 - Isle of Quel'Danas - Flightmaster - Gloaming - SJC
+3142@@@Quest Path 10834: 12.0 Dungeon - Domanaar Arena - Return Portal 1. Cast - BDP
+3165@@@Quest Path 11099: 12.0 Z1 - Silvermoon - Teleporters - Bazaar > Mage Academy - SJC
+3166@@@Quest Path 11100: 12.0 Z1 - Silvermoon - Teleporters - Mage Academy > Bazaar - SJC
+3169@@@Base Node
+3170@@@Collapsar
+3171@@@Deep Well
+3172@@@Exposed Vein
+3173@@@Focal Point
+3174@@@Forge of Secrets
+3175@@@Quest Path 11142: 11.2.7 Catch Up - TWW - Q2 - Dornegal to Freywold (KRB)
+3176@@@Quest Path 11144: 11.2.7 Catch Up - TWW - Q2 - Meadery to Coreway (KRB)
+3177@@@Quest Path 11146: 11.2.7 Catch Up - TWW - Q2 - Coreway to Ringing Deeps (KRB)
+3178@@@Quest Path 11147: 11.2.7 Catch Up - TWW - Q3 - Weaver to City (KRB)
+3179@@@Quest Path 11151: 11.2.7 Catch Up - TWW - Q3 - Priory to Foundation Hall (KRB)
+3186@@@12.0 Silvermoon Sunwing Rookery Teleport Intro Base
+3187@@@12.0 Silvermoon Sunwing Rookery Teleport Intro Top
+3188@@@12.0 Silvermoon Sunwing Rookery Teleport Main Base
+3189@@@12.0 Silvermoon Sunwing Rookery Teleport Main Top
+3190@@@Silverglade Refuge, Eversong Woods
+3192@@@Har'athir, Harandar
+3193@@@The Den, Harandar
+3194@@@Har'kuai, Harandar
+3195@@@Har'alnor, Harandar
+3196@@@Har'mara, Harandar

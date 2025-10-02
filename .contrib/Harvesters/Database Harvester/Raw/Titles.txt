@@ -873,3 +873,24 @@
 646@@@Chronoscholar %s
 658@@@%s the Infernal
 659@@@%s of the Infinite Chaos
+12.0.0.63534
+0@@@Loa-speaker %s
+642@@@%s, Thorn of Twilight
+643@@@%s, Definitely Not a Cultist
+651@@@Galactic Marshal %s
+652@@@Galactic Warlord %s
+653@@@Galactic Legend %s
+654@@@Galactic Gladiator %s
+655@@@%s the Umbral
+656@@@%s the Umbral Hero
+657@@@%s the Furnished
+660@@@[PH] %s
+661@@@[PH] %s
+662@@@[PH] %s
+663@@@[PH] %s
+664@@@Voidslayer %s
+665@@@Honorary Hara'ti %s
+666@@@Brawl Star %s
+667@@@%s, Life of the Party
+668@@@%s, Famed Slayer of the Undreamt
+669@@@%s, Azeroth's Vanguard
