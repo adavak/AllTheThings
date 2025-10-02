@@ -98,6 +98,7 @@ local function DoReport(reporttype, id)
 	reportData[#reportData + 1] = "Character: L:"..app.Level.." R:"..app.RaceID.." ("..app.Race..") C:"..app.ClassIndex.." ("..app.Class..")"
 	reportData[#reportData + 1] = "ATT: "..app.Version
 	reportData[#reportData + 1] = "GameBuild: "..app.GameBuildVersion
+	reportData[#reportData + 1] = "UTC: "..date("!%Y-%m-%dT%H:%M:%SZ", time())
 	reportData[#reportData + 1] = "```";	-- discord fancy box end
 
 	if app:SetupReportDialog(dialogID, "Contributor Report: " .. dialogID, reportData) then
