@@ -615,7 +615,10 @@ settings.GetModeString = function(self)
 				if thingActive then
 					-- Heirloom Upgrades only count when Heirlooms are enabled
 					-- This prevents the heirloom uprades and quests locked from being displayed as a mode.
-					if key ~= "Thing:HeirloomUpgrades" or settings:Get("Thing:Heirlooms") then
+					-- Only 'Things' in General settings count towards the mode string
+					if (key ~= "Thing:HeirloomUpgrades" or settings:Get("Thing:Heirlooms"))
+						and keyPrefix == "Thing"
+					then
 						thingCount = thingCount + 1
 						table.insert(things, thingName)
 					end
