@@ -17,6 +17,9 @@ DRACTHYR_HORDE = 70;
 EARTHEN_ALLIANCE = 85;
 EARTHEN_HORDE = 84;
 
+HARANIR_ALLIANCE = 86;
+HARANIR_HORDE = 91;
+
 PANDAREN_NEUTRAL = 24;
 PANDAREN_ALLIANCE = 25;
 PANDAREN_HORDE = 26;
@@ -56,6 +59,9 @@ ALLIANCE_ONLY = {
 							DRACTHYR_ALLIANCE,
 								-- #if AFTER TWW
 								EARTHEN_ALLIANCE,
+									-- #if AFTER MID
+									HARANIR_ALLIANCE
+									-- #endiF
 								-- #endif
 							-- #endif
 						-- #endif
@@ -88,6 +94,9 @@ HORDE_ONLY = {
 							DRACTHYR_HORDE,
 								-- #if AFTER TWW
 								EARTHEN_HORDE,
+									-- #if AFTER MID
+									HARANIR_HORDE
+									-- #endif
 								-- #endif
 							-- #endif
 						-- #endif
