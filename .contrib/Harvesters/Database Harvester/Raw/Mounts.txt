@@ -527,6 +527,9 @@
 127278@@@Golden Water Strider
 1238816@@@Envoy of Sa'bak
 5.5.1.62856
+5.5.1.63449
+1229670@@@Prophet's Great Crow
+1229672@@@Archmage's Great Crow
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild

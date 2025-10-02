@@ -9146,6 +9146,8 @@
 5.5.0.61916
 5.5.1.62856
 8550@@@+$k1 PvP Power, Disarm Duration Reduction
+5.5.1.63449
+8635@@@Pearl of Purity
 6.0.1.18179
 2523@@@+$k1 Ranged Critical Strike
 2586@@@+$k1 Ranged Attack Power/+$k2 Stamina/+$k3 Critical Strike
