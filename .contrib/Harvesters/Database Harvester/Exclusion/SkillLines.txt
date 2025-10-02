@@ -567,3 +567,20 @@
 2895@@@Racial - Earthen
 2902@@@All - Warbands
 2904@@@Astral Perfect Victory
+2906@@@Midnight Alchemy
+2907@@@Midnight Blacksmithing
+2908@@@Midnight Cooking
+2909@@@Midnight Enchanting
+2910@@@Midnight Engineering
+2911@@@Midnight Fishing
+2912@@@Midnight Herbalism
+2913@@@Midnight Inscription
+2914@@@Midnight Jewelcrafting
+2915@@@Midnight Leatherworking
+2916@@@Midnight Mining
+2917@@@Midnight Skinning
+2918@@@Midnight Tailoring
+2930@@@Racial - Haranir
+2950@@@Alchemy Research
+2961@@@Pet - Exotic Whiptail
+2984@@@Dye Crafting
