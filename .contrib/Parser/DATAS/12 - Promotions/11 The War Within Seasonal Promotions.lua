@@ -13,7 +13,7 @@ THE_WAR_WITHIN_SEASONAL_PROMOTIONS = createHeader({
 		tw = "《地心之戰》季節性促銷",
 	},
 	description = {
-		en = "These promotions happened during the time The War Within.\n\nThey are listed in the order of their first appearance.",
+		en = "These promotions happened during the time The War Within was the most recent expansion.\n\nThey are listed in the order of their first appearance.",
 	},
 });
 
