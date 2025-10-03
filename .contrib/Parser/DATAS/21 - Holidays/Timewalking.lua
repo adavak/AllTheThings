@@ -7005,8 +7005,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2082, {	-- Priestess Alun'za
 				["crs"] = { 122967 },	-- Priestess Alun'za
 				["groups"] = {
+					i(158321),	-- Wand of Zealous Purification
+					i(158322),	-- Aureus Vessel
+					i(158309),	-- Wristlinks of Alchemical Transfusion
+					i(158306),	-- Belt of Gleaming Determination
 					i(158347),	-- Cincture of Glittering Gold
+					i(158313),	-- Legplates of Beaten Gold
 					i(155861),	-- Embellished Ritual Sabatons
+					i(158319),	-- My'das Talisman
+					i(168146),	-- Sphere of Sangaurum
 				},
 			}),
 			e(2036, {	-- Vol'kaal
@@ -7014,32 +7021,57 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["groups"] = {
 					i(159632),	-- Adulation Enforcer
 					i(158375),	-- Drape of the Loyal Vassal
+					i(158348),	-- Wraps of Everliving Fealty
+					i(158317),	-- Gauntlets of Eternal Service
+					i(159445),	-- Grips of the Everlasting Guardian
+					i(155869),	-- Shambling Berserker's Leggings
+					i(158320),	-- Revitalizing Voodoo Totem
 				},
 			}),
 			e(2083, {	-- Rezan
 				["crs"] = { 122963 },	-- Rezan
 				["groups"] = {
+					i(168139),	-- Long Regal Sinew (LW reagent, has the highest drop chance from this boss)
+					i(160269),	-- Soulrending Claw
+					i(158711),	-- Hallowed Ossein Longbow
+					i(158713),	-- Disc of Indomitable Will
+					i(160214),	-- Venerated Raptorhide Bindings
+					i(155868),	-- Kilt of Fanatical Consumption
+					i(158303),	-- Devilsaur Worshiper's Sandals
+					i(159458),	-- Seal of the Regal Loa
+					i(158712),	-- Rezan's Gleaning Eye
+					i(168128),	-- Essence of the Regal Loa
 				},
 			}),
 			e(2030, {	-- Yazma
 				["crs"] = { 122968 },	-- Yazma
 				["groups"] = {
-					i(239073),	-- Coif of the Court Spider
-					i(239072),	-- Loa Betrayer's Vestments
-					i(239070),	-- Mantle of Fastidious Machinations
-					i(239071),	-- Secret Spinner's Miter
-					i(239069),	-- Soulspun Casque
-					i(239068),	-- Spymaster's Wrap
+					i(158323),	-- Soulrender's Fang
+					i(159358),	-- Coif of the Court Spider
+					i(158315),	-- Secret Spinner's Miter
+					i(155866),	-- Soulspun Casque
+					i(158304),	-- Mantle of Fastidious Machinations
+					i(159233),	-- Loa Betrayer's Vestments
+					i(155860),	-- Spymaster's  Wrap
+					i(160212),	-- Shadowshroud Vambraces
+					i(158308),	-- Souldrifting Sabatons
+					i(159610),	-- Vessel of Skittering Shadows
 				},
 			}),
-		}),
-		inst_tw(1001, {	-- Freehold
+		}),	
+		inst_tw(1001, {	-- Freehold		
 			e(2102, {	-- Skycap'n Kragg
 				["crs"] = {
 					126832,	-- Skycap'n Kragg
 					--  Shark Bait
 				},
 				["groups"] = {
+					i(159633),	-- Sharkbait's Fishhook
+					i(155884),	-- Parrotfeather Cloak
+					i(159227),	-- Silk Cuffs of the Skycap'n
+					i(159353),	-- Chain-Linked Safety Cord
+					i(158360),	-- Sharkbait Harneses Girdle
+					i(155862),	-- Kragg's Rigging Scalers
 				},
 			}),
 			e(2093, {	-- Council o' Captains
@@ -7049,6 +7081,14 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					126847,	-- Captain Raoul
 				},
 				["groups"] = {
+					i(159132),	-- Jolly's Boot Daggeer
+					i(159130),	-- Captain's Diplomacy
+					i(158311),	-- Concealed Fencing Plates
+					i(159356),	-- Raoul's Barrelhook Bracers
+					i(158346),	-- Sailcloth Waistband
+					i(159297),	-- Silver-Trimmed Breeches
+					i(158351),	-- Dashing Bilge Rat Shoes
+					i(158314),	-- Seal of Questionable
 				},
 			}),
 			e(2094, {	-- Ring of Booty
@@ -7059,36 +7099,61 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					126969,	-- Trothak <The Shark Puncher>
 				},
 				["groups"] = {
+					i(159634),	-- Jeweled Sharksplitter
+					i(158305),	-- Sea Dog's Cuffs
+					i(155892),	-- Bite-Resistant Chain Gloves
+					i(155891),	-- Greasy Bacon-Grabbers
+					i(155889),	-- Sharkhide Grips
+					i(155890),	-- Sharktooth-Knuckled Grips
+					i(158302),	-- Chum-Coated Leggings
+					i(158361),	-- Sharkwater Waders
 					i(158356),	-- Shell-Kickers
 				},
 			}),
 			e(2095,	{	-- Harlan Sweete
 				["crs"] = { 126983 },	-- Harlan Sweete
 				["groups"] = {
-					i(239058),	-- Gaping Maw Shoulderguard
-					i(239057),	-- Gold-Tasseled Epaulets
-					i(239055),	-- Irontide Captain's Hat
-					i(239059),	-- Lockjaw Shoulderplate
-					i(239056),	-- Ruffled Poet Blouse
-					i(239052),	-- Sea-Brawler's Greathelm
-					i(239053),	-- Smartly Plumed Cap
-					i(239054),	-- Sweete's Jeweled Headgear
+					i(159635),	-- Bloody Tideturner
+					i(155888),	-- Irontide Captain's Hat
+					i(155885),	-- Sea-Brawler's Greathelm
+					i(155886),	-- Smartly Plumed Cap
+					i(155887),	-- Sweete's Jeweled Headgear
+					i(159352),	-- Gaping Maw Shoulderguard
+					i(159299),	-- Gold-Tasseled Epautlets
+					i(159407),	-- Lockjaw Shoulderplate
+					i(158301),	-- Ruffled Poet Blouse
+					i(155881),	-- Harlan's Loaded Dice
+					i(168132),	-- Sweete's Diamond-Studded Spyglass
 				},
 			}),
-		}),
+		}),	
 		inst_tw(1041, {	-- King's Rest
 			e(2165, {	-- The Golden Serpent
 				["crs"] = { 135322 },	-- The Golden Serpent
 				["groups"] = {
+					i(159137),	-- Gilded Serpent's Tooth
+					i(159413),	-- Gauntlets of the Avian Sentinel
+					i(159369),	-- Belt of the Consecrateed Tomb
 					i(159313),	-- Breechees of the Sacred Hall
+					i(159234),	-- Down-Lined Breeches
+					i(159412),	-- Auric Puddle Stompers
 					i(159304),	-- Goldfeather Boots
 					i(159617),	-- Lustrous Golden Plumage
+					i(168168, {	-- Gilded Plume
+						["sourceQuest"] = 49882,	-- A Test of Quills (might require actually learning Recipe 256301)
+					}),
 				},
 			}),
 			e(2171, {	-- Mchimba the Embalmer
 				["crs"] = { 134993 },	-- Mchimba the Embalmer
 				["groups"] = {
+					i(159642),	-- Royal Purifier's Spaade
 					i(159667),	-- Vessel of Last Rites
+					i(159409),	-- Embalmer's Steadying Bracers
+					i(159312),	-- Desiccator's Blessed Gloves
+					i(160213),	-- Sepulchral Construct's Gloves
+					i(159459),	-- Ritual Binder's Ring
+					i(159618),	-- Mchimba's Ritual Bandages
 				},
 			}),
 			e(2170, {	-- The Council of Tribes
@@ -7099,21 +7164,29 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				},
 				["groups"] = {
 					i(160216),	-- Crackling Jade Kilij
-					i(159418),	-- Girdle of Pestilent Purification
+					i(159136),	-- Jeweled Dagger of Subjugation
+					i(159643),	-- Crossbow of Forgotten Majesty
+					i(159288),	-- Cloak of the Restless Tribes
 					i(159300),	-- Kula's Butchering Wristwraps
+					i(159418),	-- Girdle of Pestilent Purification
+					i(159371),	-- Boots of the Headlong Conqueror
+					i(159243),	-- Sandals of Wise Voodoo
 				},
 			}),
 			e(2172, {	-- Dazar, The First King
 				["crs"] = { 136160 },	-- King Dazar <The First>
 				["groups"] = {
 					i(159644),	-- Geti'ikku, Cut of Death
-					i(239047),	-- Headdress of the First Empire
-					i(239050),	-- Helm of the Raptor King
-					i(239046),	-- Loa-Blessed Chestguard
-					i(239045),	-- Mantle of Ceremonial Ascension
-					i(239051),	-- Pauldrons of the Great Unifier
-					i(239049),	-- Spaulders of Prime Emperor
-					i(239048),	-- Vest of Reverent Adoration
+					i(159645),	-- Headcracker of Supplication
+					i(159236),	-- Headdress of the First Empire
+					i(159422),	-- Helm of the Raptor King
+					i(158344),	-- Mantle of Ceremonial Ascension
+					i(159423),	-- Pauldrons of the Great Unifier
+					i(159368),	-- Spaulders of Prime Emperor
+					i(158355),	-- Loa-Blessed Chestguard
+					i(159303),	-- Vest of Reverent Adoration
+					i(159301),	-- Primal Dinomancer's Belt
+					i(168129),	-- Essence of the Troll Dynasty
 				},
 			}),
 		}),
@@ -7124,7 +7197,12 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134828,	-- Aqualing
 				},
 				["groups"] = {
+					i(159321),	-- Gloves of Corrupted Water
+					i(159366),	-- Water Shapers
+					i(159239),	-- Aqu'sirr's Swirling Sash
 					i(159420),	-- Stormsurger's Sabatons
+					i(158318),	-- Murkey Cerulean Signet
+					i(159619),	-- Briny Barnacle
 				},
 			}),
 			e(2154, {	-- Tidesage Council
@@ -7133,9 +7211,13 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134058,	-- Galecaller Faye
 				},
 				["groups"] = {
-					i(159295),	-- Footpads of the Serene Wake
-					i(159419),	-- Ironhull's Reinforced Legplates
 					i(158371),	-- Seabreeze
+					i(159426),	-- Belt of the Unrelenting Gale
+					i(159419),	-- Ironhull's Reinforced Legplates
+					i(159359),	-- Sea Priest's Greaves
+					i(159311),	-- Blessing Bearer's Waders
+					i(159295),	-- Footpads of the Serene Wake
+					i(159614),	-- Galecaller's Boon
 				},
 			}),
 			e(2155, {	-- Lord Stormsong
@@ -7143,10 +7225,12 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134060,	-- Lord Stormsong
 				},
 				["groups"] = {
+					i(159646),	-- Aq'mar, the Tidecaller
+					i(159289),	-- Void-Drenched Cape
+					i(159364),	-- Bindings of the Calling Depths
 					i(159308),	-- Bracers of the Sacred Fleet
 					i(159421),	-- Gauntlets of Total Subservience
 					i(159242),	-- Leggings of the Drowned Lord
-					i(159289),	-- Void-Drenched Cape
 				},
 			}),
 			e(2156, {	-- Vol'zith the Whisperer
@@ -7154,16 +7238,19 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134069,	-- Vol'zith the Whisperer
 				},
 				["groups"] = {
-					i(239040),	-- Cowl of Fluid Machinations
-					i(239043),	-- Chestguard of the Deep Denizen
-					i(239042),	-- Hauberk of Sunken Despair
-					i(239044),	-- Helm of Abyssal Malevolence
-					i(239038),	-- Mantle of Void-Touched Waters
-					i(239039),	-- Stormlurker's Cowl
-					i(239041),	-- Tentacle-Laced Spaulders
+					i(159135),	-- Deep Fathom's Bite
+					i(159302),	-- Cowl of Fluid Machiantions
+					i(159430),	-- Helm of Abyssal Malevolence
+					i(159244),	-- Stormlurker's Cowl
+					i(159238),	-- Mantle of Void-Touched Waters
+					i(159307),	-- Tentacle-Laced Spaulders
+					i(159408),	-- Chestguard of the Deep Denizn
+					i(159354),	-- Hauberk of Sunken Despair
+					i(159377),	-- Chain of Consummate Power
+					i(159620),	-- Conch of Dark Whispers
 				},
 			}),
-		}),
+		}),		
 		inst_tw(1030, {	-- Temple of Sethraliss
 			e(2142, {	-- Adderis and Aspix
 				["crs"] = {
@@ -7171,7 +7258,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133944,	-- Aspix
 				},
 				["groups"] = {
+					i(159636),	-- Staff of the Lightning Serpent
+					i(158370),	-- Twin-Strike Polearm
+					i(159380),	-- Arc-Glass Bindings
 					i(159263),	-- Bindings of the Slithering Current
+					i(159425),	-- Shard-Tipped Vambraces
+					i(159317),	-- Whirling Dervish Sash
+					i(159329),	-- Leggings of the Galeforce Viper
+					i(159435),	-- Legplates of Charged Duality
+					i(159388),	-- Sabatons of Coruscating Energy
+					i(159259),	-- Sandswept Sandals
 				},
 			}),
 			e(2143, {	-- Merektha
@@ -7179,8 +7275,14 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133384,	-- Merektha
 				},
 				["groups"] = {
+					i(158714),	-- Swarm's Eedge
+					i(159637),	-- Snakeebite Recurvee
+					i(159437),	-- Fangproof Gauntlets
+					i(159255),	-- Ouroborial Sash
 					i(159375),	-- Legguards of the Awakening Brood
 					i(159327),	-- Sand-Shined Snakeskin Sandals
+					i(162544),	-- Jad Phidian Band
+					i(158367),	-- Merektha's Fang
 				},
 			}),
 			e(2144, {	-- Galvazzt
@@ -7188,20 +7290,29 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133389,	-- Galvazzt
 				},
 				["groups"] = {
+					i(158369),	-- Galvanized Stormcrusher
+					i(159664),	-- Bulwark of Brimming Potential
+					i(159247),	-- Handwraps of Oscillating Polarity
+					i(159442),	-- Sand-Scoured Greatbelt
 					i(158366),	-- Charged Sandstone Band
+					i(158374),	-- Tiny Eelectromental in a Jar
+					i(168154),	-- Static Induction Matrix
 				},
 			}),
 			e(2145, {	-- Avatar of Sethraliss
 				["crs"] = { 133392 },	-- Avatar of Sethraliss
 				["groups"] = {
-					i(239031),	-- Brood Cleanser's Amice
-					i(239037),	-- C'thraxxi Binders Pauldrons
-					i(239034),	-- Corrupted Hexxer's Vestments
-					i(239036),	-- Desert Guardian's Breastplate
+					i(158373),	-- Resonating Crystal Scimitar
+					i(159318),	-- Hood of the Slithering Loa
+					i(159374),	-- Sethraliss' Fanged Helm
+					i(159254),	-- Brood Cleanser's Amice
+					i(159439),	-- C'thraxxi Binders Pauldrons
+					i(159370),	-- Corrupted Hexxer's Vestments
+					i(159424),	-- Desert Guardian's Breastplate
+					i(159257),	-- Robes of the Reborn Serpent
 					i(159337),	-- Grips of Electrified Defense
-					i(239033),	-- Hood of the Slithering Loa
-					i(239032),	-- Robes of the Reborn Serpent
-					i(239035),	-- Sethraliss' Fanged Helm
+					i(158368),	-- Fangs of Intertwined Essence
+					i(168131),	-- Essence of the Sands
 				},
 			}),
 		}),
@@ -7214,7 +7325,14 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				},
 				["groups"] = {
 					i(159133),	-- Jagged Iris Sica
+					i(159669),	-- Solena's Watchful Collection
+					i(159340),	-- Bracers of Dreadful Maladies
+					i(159449),	-- Soulwarped Vambraces
 					i(159272),	-- Twisted Sisters Handwraps
+					i(159450),	-- Girdle of Burgeoning Apathy
+					i(159345),	-- Blight Toadskin Leggings
+					i(159400),	-- Nettle-Scarred Greaves
+					i(159404),	-- Bramble Looped Boots
 				},
 			}),
 			e(2126, {	-- Soulbound Goliath
@@ -7222,8 +7340,13 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131667,	-- Soulbound Goliath
 				},
 				["groups"] = {
+					i(159659),	-- Sinister Wicker Talons
 					i(159282),	-- Drust-Thatched Wristwraps
+					i(159399),	-- Thornshaper Mitts
+					i(159341),	-- Hound-Jowl Waistband
+					i(159456),	-- Petrified Wickerplate Greaves
 					i(162548),	-- Thornwoven Band
+					i(159630),	-- Balefire Branch
 				},
 			}),
 			e(2127, {	-- Raal the Gluttonous
@@ -7233,9 +7356,14 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					136541,	-- Bile Oozing
 				},
 				["groups"] = {
+					i(163833),	-- Recipe: Heartsbane Hexwurst (RECIPE!)
+					i(159660),	-- Servant Splitter
+					i(159294),	-- Raal's Bib
+					i(159397),	-- Slaughterhouse-Chain Bracers
+					i(159346),	-- Grubby Servant-Grabbers
 					i(159285),	-- Bloodstained Sous Chef Pants
 					i(159452),	-- Fatty Hooves of Gory Comfort
-					i(159294),	-- Raal's Bib
+					i(159616),	-- Gore-Crusted Butcher's Block
 				},
 			}),
 			e(2128, {	-- Lord and Lady Waycrest
@@ -7244,22 +7372,28 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131545,	-- Lady Waycrest
 				},
 				["groups"] = {
-					i(159262),	-- Belt of Undying Devotion
-					i(159347),	-- Moss-Covered Wingtip Shoes
+					i(159661),	-- Soulcharmer's Bludgeon
 					i(159457),	-- Risen Lord's Oversized Gauntlets
+					i(159262),	-- Belt of Undying Devotion
+					i(159403),	-- Waistguard of Deteriorating Grace
+					i(159347),	-- Moss-Covered Wingtip Shoes
+					i(158362),	-- Lord Waycrest's Signet
+					i(159631),	-- Lady Waycrest's Music Box
 				},
 			}),
 			e(2129, {	-- Gorak Tul
 				["crs"] = { 131864 },	-- Gorak Tul
 				["groups"] = {
-					i(239023),	-- Amice of the Returned
-					i(239029),	-- Breastplate of the Vengeful
-					i(239027),	-- Deathslaver's Hauberk
-					i(239026),	-- Gorak Tul's Mantle
-					i(239030),	-- Pauldrons of the Horned Horror
-					i(239025),	-- Raiment of the Blighted Tribe
-					i(239024),	-- Soulfuel Headdress
-					i(239028),	-- Soulscarred Headgear
+					i(159662),	-- Blightreaper
+					i(159279),	-- Soulfuel Headdress
+					i(159398),	-- Soulscarred Headgear
+					i(159273),	-- Amice of the Returned
+					i(159339),	-- Gorak Tul's Mantle
+					i(159455),	-- Pauldrons of the Horned Horror
+					i(159448),	-- Breastplate of the Vengeful
+					i(159395),	-- Deathslaver's Hauberk
+					i(159335),	-- Raiment of the Blighted Tribe
+					i(168125),	-- Runestone of Thros
 				},
 			}),
 		}),
