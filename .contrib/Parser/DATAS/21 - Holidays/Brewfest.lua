@@ -365,8 +365,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			}),
 			ach(2796, {	-- Brew of the Month
 				["providers"] = {
-					{ "i", 37571 },	-- "Brew of the Month" Club Membership Form (newer)
-					{ "i", 37599 },	-- "Brew of the Month" Club Membership Form (newer)
+					-- #if ANYCLASSIC
+					{ "i", 37736 },	-- "Brew of the Month" Club Membership Form (original)
+					{ "i", 37737 },	-- "Brew of the Month" Club Membership Form (original)
+					-- #else
+					{ "i", 37571 },	-- "Brew of the Month" Club Membership Form (current)
+					{ "i", 37599 },	-- "Brew of the Month" Club Membership Form (current)
+					-- #endif
 				},
 				["timeline"] = { ADDED_3_0_2 },
 			}),
@@ -1646,7 +1651,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["altQuests"] = { 12420 },	-- Brew of the Month Club (A) [???]
 					["providers"] = {
-						-- #if AFTER 3.0.0
+						-- #if NOT ANYCLASSIC
 						{ "i", 37571 },	-- "Brew of the Month" Club Membership Form (current)
 						-- #else
 						{ "i", 37736 },	-- "Brew of the Month" Club Membership Form (original)
@@ -1686,7 +1691,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["altQuests"] = { 12421 },	-- Brew of the Month Club (H) [???]
 					["providers"] = {
-						-- #if AFTER 3.0.0
+						-- #if NOT ANYCLASSIC
 						{ "i", 37599 },	-- "Brew of the Month" Club Membership Form (current)
 						-- #else
 						{ "i", 37737 },	-- "Brew of the Month" Club Membership Form (original)
