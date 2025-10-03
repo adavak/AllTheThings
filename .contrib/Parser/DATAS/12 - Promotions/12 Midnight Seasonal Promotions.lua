@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --        P R O M O T I O N S   M O D U L E        --
 -----------------------------------------------------
-MIDNIGHT_PROMOTIONS = createHeader({
+MIDNIGHT_SEASONAL_PROMOTIONS = createHeader({
 	readable = "Midnight Seasonal Promotions",
 --	icon = [[~_.asset("Expansion_MID")]],
 	text = {
