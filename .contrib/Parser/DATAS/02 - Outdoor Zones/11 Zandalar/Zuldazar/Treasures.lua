@@ -47,20 +47,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 50949,
 				["coord"] = { 71.8, 16.7, ZULDAZAR },
 			}),
-			o(278460, {	-- Treasure Chest
-				["questID"] = 50722,
-				["coords"] = {
-					{ 48.9, 39.0, ZULDAZAR },
-					{ 48.9, 39.8, ZULDAZAR },
-					{ 48.9, 40.7, ZULDAZAR },
-					{ 48.9, 42.4, ZULDAZAR },
-					{ 50.0, 39.7, ZULDAZAR },
-					{ 50.1, 40.9, ZULDAZAR },
-					{ 50.0, 42.2, ZULDAZAR },
-					{ 51.1, 41.7, ZULDAZAR },
-					{ 52.6, 47.1, ZULDAZAR },
-				},
-			}),
 			o(277561, {	-- Warlord's Cache
 				["questID"] = 49257,
 				["coord"] = { 49.5, 65.3, ZULDAZAR },
@@ -76,6 +62,20 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				o(277336, {	-- Treasure Chest
 					["questID"] = 49142,
 					["coord"] = { 58.6, 85.6, ZANCHUL_HALL_OF_THE_HIGH_PRIESTS },
+				}),
+				o(278460, {	-- Treasure Chest
+					["questID"] = 50722,
+					["coords"] = {
+						{ 48.9, 39.0, ZULDAZAR },
+						{ 48.9, 39.8, ZULDAZAR },
+						{ 48.9, 40.7, ZULDAZAR },
+						{ 48.9, 42.4, ZULDAZAR },
+						{ 50.0, 39.7, ZULDAZAR },
+						{ 50.1, 40.9, ZULDAZAR },
+						{ 50.0, 42.2, ZULDAZAR },
+						{ 51.1, 41.7, ZULDAZAR },
+						{ 52.6, 47.1, ZULDAZAR },
+					},
 				}),
 				o(278461, {	-- Treasure Chest
 					["questID"] = 50711,
