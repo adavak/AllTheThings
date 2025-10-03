@@ -272,7 +272,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["provider"] = { "i", 58361 },	-- Blackrock Orc Weapon (QI!)
 									["cr"] = 42937,	-- Blackrock Invader
 								}),
-								-- #if BEFORE 7.3.5
+								-- #if BEFORE 5.0.4
 								-- CRIEVE NOTE: Not sure at which patch, but these were moved to Ending the Invasion
 								-- The shortsword was lost forever.
 								i(133699, {	-- Militia Dagger
@@ -447,7 +447,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								i(57393, {	-- Abbey Defender's Crossbow
 									["timeline"] = { ADDED_4_0_3 },
 								}),
-								-- #if AFTER 7.3.5
+								-- #if AFTER 5.0.4
 								-- CRIEVE NOTE: Not sure at which patch, but these were moved from Blackrock Invasion.
 								-- They ended up replacing the Mitts + Wand.
 								i(133699, {	-- Militia Dagger
