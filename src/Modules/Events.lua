@@ -77,6 +77,16 @@ app.AddEventHandler("OnLoad", function()
 	remapping[1667] = 1669; -- EU
 	remapping[1668] = 1669; -- KO
 	remapping[1666] = 1669; -- TW
+	
+	-- Remap SL Timewalking => US
+	-- Maybe mapping is to 1704
+	remapping[1704] = 1703; -- 
+	remapping[1705] = 1703; -- 
+	remapping[1706] = 1703; -- 
+	remapping[1707] = 1703; -- 
+	remapping[1708] = 1703; -- 
+	remapping[1709] = 1703; -- 
+	remapping[1710] = 1703; -- 
 end);
 
 -- Event Cache

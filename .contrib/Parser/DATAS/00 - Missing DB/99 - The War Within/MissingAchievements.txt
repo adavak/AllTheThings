@@ -272,7 +272,6 @@ ach(61388),	-- Prey: Hard Mode II
 ach(61389),	-- Prey: Hard Mode I
 ach(61391),	-- Prey: Nightmare Mode II
 ach(61392),	-- Prey: Nightmare Mode I
-ach(61394),	-- Master of the Turbulent Timeways IV
 ach(61430),	-- Crunching for Cultists
 ach(61438),	-- Thalassian Profession Master
 ach(61439),	-- Thalassian Artisan
