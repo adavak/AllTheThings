@@ -642,7 +642,7 @@ root(ROOTS.Zones, {
 						["description"] = "This is a rare Tameable Hunter Pet of 4 varying colors.",
 					}),
 					n(50780, {	-- Sahn Tidehunter
-						-- #if AFTER MOP_BEFORE_SOO
+						-- #if MOP_BEFORE_SOO
 						["coord"] = { 61.7, 55.4, VALE_OF_ETERNAL_BLOSSOMS },
 						-- #else
 						["coord"] = { 69.4, 30.5, VALE_OF_ETERNAL_BLOSSOMS },
