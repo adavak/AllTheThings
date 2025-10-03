@@ -7281,7 +7281,8 @@ AddInstancesToRotation(EXPANSION.BFA, {
 -- Shadowlands Timewalking
 root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWLANDS_DUNGEON_EVENT, {
 	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 }},{
-	--[[	n(GROUP_FINDER, {
+		--[[
+		n(GROUP_FINDER, {
 			i(238790, {	-- Remnant of Azeroth (A)
 				["description"] = "Drops from the last boss of any 'Battle for Azeroth Timewalking' dungeon.",
 			}),
@@ -7753,7 +7754,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 				},
 			}),
 		}),
-		inst_tw(1021, {	-- Waycrest Manor--]]
+		inst_tw(1021, {	-- Waycrest Manor
 			e(2125, {	-- Heartsbane Triad
 				["crs"] = {
 					131825,	-- Sister Briar
@@ -7810,7 +7811,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					i(239028),	-- Soulscarred Headgear
 				},
 			}),
-		}),
+		}),--]]
 	})),
 })));
 
