@@ -3,6 +3,25 @@
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
+		ach(61451),	-- Worldsoul-Searching
+		ach(61451, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Worldsoul-Searching
+			-- Meta Achievement
+			["sym"] = {{"meta_achievement",
+				40244,	-- Nerub-ar Palace
+				41222,	-- Liberation of Undermine 
+				41598,	-- Manaforge Omega 
+				41555,	-- All That Khaz
+				41201,	-- You Xal Not Pass
+				40231,	-- The War Within Pathfinder 
+				40438,	-- Glory of the Delver
+				41586,	-- Going Goblin Mode 
+				41997,	-- Owner of a Radiant Heart 
+				60889,	-- Unraveled and Persevering
+			}},
+			["groups"] = {
+				i(258188),	-- Geargrinder Mk. 11 (MOUNT!)
+			},
+		})),
 		ach(41665, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {	-- Dressed to the Mines (automated)
 			i(236852, {	-- Gallagio Highroller's Boomstone (CI!)
 				d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {

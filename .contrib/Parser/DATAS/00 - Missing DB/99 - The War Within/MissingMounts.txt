@@ -23,8 +23,6 @@ mount(1261668),	-- Bronze Wilderling
 mount(1261671),	-- Bronze Aquilon
 mount(1261677),	-- Bronze Corpsefly
 mount(1261681),	-- Bronze Gravewing
-mount(1262840),	-- Galactic Gladiator's Goredrake
-mount(1262886),	-- Geargrinder Mk. 11
 mount(1263369),	-- Skypaw Glimmerfur
 mount(1263387),	-- Crimson Lupine
 mount(1264621),	-- Brawlin' Bruno
@@ -60,8 +58,6 @@ mount(1261668),	-- Bronze Wilderling
 mount(1261671),	-- Bronze Aquilon
 mount(1261677),	-- Bronze Corpsefly
 mount(1261681),	-- Bronze Gravewing
-mount(1262840),	-- Galactic Gladiator's Goredrake
-mount(1262886),	-- Geargrinder Mk. 11
 mount(1263369),	-- Skypaw Glimmerfur
 mount(1263387),	-- Crimson Lupine
 mount(1264621),	-- Brawlin' Bruno

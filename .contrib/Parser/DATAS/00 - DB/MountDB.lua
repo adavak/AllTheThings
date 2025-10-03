@@ -2202,3 +2202,13 @@ i(250727, 1251264);	-- Nightwell Manasaber
 i(239666, 1229278);	-- Risen Fel Bat
 i(250105, 1250285);	-- Sharktested Crest-Horn
 i(250321, 1250740);	-- Thorignir Drake
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+i(258188, 1262886);	-- Geargrinder Mk. 11
+
+------------------
+-- PATCH 12.0.0 --
+------------------
+i(260228, 1262840);	-- Galactic Gladiator's Goredrake

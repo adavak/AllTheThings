@@ -19,7 +19,6 @@ ach(42117),	-- The War of Light and Shadow
 ach(42192),	-- Snowball Fight!
 ach(42283),	-- Azeroth Runs on Dundun
 ach(42299),	-- Visions of a Shadowed Sun
-ach(42300),	-- Two Minutes to Midnight
 ach(42528),	-- Explore Highmountain
 ach(42535),	-- Explore Eredath
 ach(42560),	-- Explore Antoran Wastes
@@ -78,7 +77,6 @@ ach(61048),	-- Magic Battler of Kalimdor
 ach(61049),	-- Mechanical Battler of Kalimdor
 ach(61050),	-- Undead Battler of Kalimdor
 ach(61051),	-- Family Battler of Kalimdor
-ach(61052),	-- Dust 'Em Off
 ach(61081),	-- Share a Drink
 ach(61082),	-- Old Soldiers
 ach(61083),	-- Highly Decorated
@@ -102,11 +100,8 @@ ach(61231),	-- Midnight Loot
 ach(61232),	-- Midnight Treasures
 ach(61234),	-- Hunt in the Night
 ach(61238),	-- Midnight Hunter
-ach(61263),	-- Treasures of Harandar
-ach(61264),	-- Leaf None Behind
 ach(61265),	-- Spectral Capture
 ach(61266),	-- Spectral Stocker
-ach(61344),	-- Legends of the Haranir
 ach(61346),	-- We Will, In Fact, See It Again
 ach(61366),	-- Voidspire
 ach(61367),	-- March on Quel'Danas
@@ -124,7 +119,6 @@ ach(61378),	-- Mythic: Belo'ren
 ach(61379),	-- Mythic: Midnight Falls
 ach(61380),	-- Glory of the Midnight Raider
 ach(61381),	-- Belo'ren Achievement
-ach(61430),	-- Crunching for Cultists
 ach(61438),	-- Thalassian Profession Master
 ach(61439),	-- Thalassian Artisan
 ach(61440),	-- Thalassian Polymath
@@ -135,7 +129,6 @@ ach(61446),	-- Slayer's Mastery
 ach(61447),	-- Partake in the Rise
 ach(61448),	-- Frequent the Rise
 ach(61449),	-- Customary Rise
-ach(61451),	-- Worldsoul-Searching
 ach(61452),	-- Sojourner of Zul'Aman
 ach(61453),	-- Making an Amani Out of You
 ach(61454),	-- Falling Between The Quacks
