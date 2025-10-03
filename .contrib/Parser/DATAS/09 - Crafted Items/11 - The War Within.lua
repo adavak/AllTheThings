@@ -1749,9 +1749,39 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(226031),	-- Darkmoon Sigil: Vivacity+
 			i(226032),	-- Darkmoon Sigil: Vivacity++
 			i(226033),	-- Darkmoon Sigil: Vivacity+++
-			i(249702, {["timeline"] = {ADDED_11_2_0},["questID"]=92072,["isWeekly"]=true}),	-- Deal: Cartel Ba
-			i(249704, {["timeline"] = {ADDED_11_2_0},["questID"]=92073,["isWeekly"]=true}),	-- Deal: Cartel Om
-			i(249700, {["timeline"] = {ADDED_11_2_0},["questID"]=92071,["isWeekly"]=true}),	-- Deal: Cartel Zo
+			i(249702, {	-- Deal: Cartel Ba
+				["timeline"] = {ADDED_11_2_0},
+				["questID"]= 92072,
+				["isWeekly"]= true,
+				["groups"] = {
+					title(647, {	-- Ba'%s
+						["timeline"] = { ADDED_11_2_0 },
+						["collectible"] = false,
+					}),
+				},
+			}),	
+			i(249704, {	-- Deal: Cartel Om
+				["timeline"] = {ADDED_11_2_0},
+				["questID"]= 92073,
+				["isWeekly"]= true,
+				["groups"] = {
+					title(649, {	-- Om'%s
+						["timeline"] = { ADDED_11_2_0 },
+						["collectible"] = false,
+					}),
+				},
+			}),
+			i(249700, {	-- Deal: Cartel Zo
+				["timeline"] = {ADDED_11_2_0},
+				["questID"]= 92071,
+				["isWeekly"]= true,
+				["groups"] = {
+					title(648, {	-- Zo'%s
+						["timeline"] = { ADDED_11_2_0 },
+						["collectible"] = false,
+					}),
+				},
+			}),
 			i(246809, {["timeline"] = {ADDED_11_2_0}}),	-- Inspired Writer's Quill
 			i(232936, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Liberation of Undermine+
 			i(232935, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Liberation of Undermine++

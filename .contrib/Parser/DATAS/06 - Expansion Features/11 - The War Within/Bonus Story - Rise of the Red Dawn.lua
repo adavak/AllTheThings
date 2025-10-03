@@ -307,8 +307,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["coord"] = { 21.6, 65.0, 2372 },
 				["groups"] = {
 					i(239137),	-- Lamplighter's Pauldrons (COSMETIC!)
-					a(ach(41818)),	-- Rise of the Red Dawn (A)
-					h(ach(41820)),	-- Rise of the Red Dawn (H)
+					ach(41818, {	-- Rise of the Red Dawn (A)
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							title(629, {	-- %s of Hammerfall
+								["timeline"] = { ADDED_11_1_7 },
+							}),
+						},
+					}),
+					ach(41820, {	-- Rise of the Red Dawn (H)				
+						["races"] = HORDE_ONLY,
+						["groups"] = {
+							title(630, {	-- %s of Stromgarde
+								["timeline"] = { ADDED_11_1_7 },
+							}),
+						},
+					}),
 				},
 			}),
 		})),

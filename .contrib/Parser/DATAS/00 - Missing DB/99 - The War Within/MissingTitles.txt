@@ -3,16 +3,6 @@ title(250),	-- Grievous Skirmisher %s
 title(980),	-- Skirmisher %s
 title(995),	-- Malevolent Skirmisher %s
 title(996),	-- Tyrannical Skirmisher %s
-11.1.7.60520
-title(629),	-- %s of Hammerfall
-title(630),	-- %s of Stromgarde
-11.2.0.61476
-title(638),	-- %s the Delver Within
-title(641),	-- %s Bronzebeard
-11.2.0.61624
-title(647),	-- Ba'%s
-title(648),	-- Zo'%s
-title(649),	-- Om'%s
 11.2.0.62049
 title(650),	-- Delver %s
 11.2.5.62554
@@ -28,7 +18,6 @@ title(662),	-- [PH] %s
 title(663),	-- [PH] %s
 title(664),	-- Voidslayer %s
 title(665),	-- Honorary Hara'ti %s
-title(666),	-- Brawl Star %s
 title(667),	-- %s, Life of the Party
 title(668),	-- %s, Famed Slayer of the Undreamt
 title(669),	-- %s, Azeroth's Vanguard

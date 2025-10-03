@@ -233,7 +233,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			mapped(ach(42778, {	-- A Flicker in the Dark
 				["cr"] = 245938,	-- Flickergate
 			})),
-			ach(42801),	-- Journey's End (Season 3)
+			ach(42801, {	-- Journey's End (Season 3)
+				["groups"] = {
+					title(638, {	-- %s the Delver Within
+						["timeline"] = { ADDED_11_2_0 },
+					}),
+				},
+			}),
 			mapped(ach(42799)),	-- Let Her Solo Me
 			mapped(ach(42196)),	-- War Within Delves: Tier 4 (Season 3)
 			mapped(ach(42197)),	-- War Within Delves: Tier 5 (Season 3)
@@ -2401,6 +2407,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					i(244792, {	-- Etheric Brannmorpher (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["groups"] = {
+							title(641, {	-- %s Bronzebeard
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
+								["collectible"] = false,
+							}),
+						},
 					}),
 					i(223312, {	-- Trusty Hat (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},

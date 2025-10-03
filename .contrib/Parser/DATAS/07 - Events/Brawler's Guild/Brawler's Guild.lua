@@ -310,6 +310,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 			ach(61429, {	-- Brawl Star
 				["timeline"] = { ADDED_11_2_7 },
+				["groups"] = {
+					title(666, {	-- Brawl Star %s
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			ach(61423, {	-- Featherweight Brawler
 				["timeline"] = { ADDED_11_2_7 },
