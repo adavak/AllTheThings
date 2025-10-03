@@ -1150,4 +1150,111 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(19704),	-- Overflowing Algari Flasks (automated)
+			ach(19716),	-- Plentiful Algari Potions (automated)
+		}),
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228773),	-- Algari Alchemist's Notebook
+			},
+		},{
+			q(84133, {	-- Alchemy Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ALCHEMY_KNOWLEDGE, 1 }} }, {
+				r(432962),	-- Algari Flask Cauldron
+				r(432963),	-- Algari Potion Cauldron
+				r(433087),	-- Formulated Courage
+				r(449938),	-- Gleaming Chaos
+				r(430624),	-- Gleaming Glory
+				r(432204),	-- Harmonious Horticulture
+				r(449573),	-- Mercurial Coalescence
+				r(449574),	-- Ominous Coalescence
+				r(430315),	-- Thaumaturgy
+				r(449575),	-- Volatile Coalescence
+			}),
+		}),
+		n(TREASURES, {
+			o(456021, {	-- Chemist's Purified Water
+				["coord"] = { 42.7, 55.1, HALLOWFALL },
+				["questID"] = 83844,
+				["groups"] = {
+					i(226269),	-- Chemist's Purified Water
+				},
+			}),
+			o(456018, {	-- Dark Apothecary's Vial
+				["coord"] = { 42.9, 57.3, AZJ_KAHET },
+				["questID"] = 83847,
+				["groups"] = {
+					i(226272),	-- Dark Apothecary's Vial
+				},
+			}),
+			o(456025, {	-- Earthen Iron Powder
+				["coord"] = { 32.5, 60.3, DORNOGAL },
+				["questID"] = 83840,
+				["groups"] = {
+					i(226265),	-- Earthen Iron Powder
+				},
+			}),
+			o(456022, {	-- Engraved Stirring Rod
+				["coord"] = { 64.9, 61.8, THE_RINGING_DEEPS },
+				["questID"] = 83843,
+				["groups"] = {
+					i(226268),	-- Engraved Stirring Rod
+				},
+			}),
+			o(456024, {	-- Metal Dornogal Frame
+				["coord"] = { 57.7, 61.8, ISLE_OF_DORN },
+				["questID"] = 83841,
+				["groups"] = {
+					i(226266),	-- Metal Dornogal Frame
+				},
+			}),
+			o(456019, {	-- Nerubian Mixing Salts
+				["coord"] = { 45.4, 13.2, NERUBAR },
+				["questID"] = 83846,
+				["groups"] = {
+					i(226271),	-- Nerubian Mixing Salts
+				},
+			}),
+			o(456023, {	-- Reinforced Beaker
+				["coord"] = { 42.2, 24.1, THE_RINGING_DEEPS },
+				["questID"] = 83842,
+				["groups"] = {
+					i(226267),	-- Reinforced Beaker
+				},
+			}),
+			o(456020, {	-- Sanctified Mortar and Pestle
+				["coord"] = { 41.7, 55.8, HALLOWFALL },
+				["questID"] = 83845,
+				["groups"] = {
+					i(226270),	-- Sanctified Mortar and Pestle
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_ALCHEMY_KNOWLEDGE),
+			},
+		}, {
+			i(228773),	-- Algari Alchemist's Notebook
+			q(83253, {	-- TWW Weekly Alchemy Knowledgepoint #1
+				["name"] = "TWW Weekly Alchemy Treasure #1",
+				["provider"] =  { "i", 225234 },	-- Alchemical Sediment
+			}),
+			q(83255, {	-- TWW Weekly Alchemy Knowledgepoint #2
+				["name"] = "TWW Weekly Alchemy Treasure #2",
+				["provider"] = { "i", 225235} ,		-- Deepstone Crucible
+			}),
+		})),
+	})),--]]
 })));

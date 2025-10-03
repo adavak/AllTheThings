@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(ROGUE, bubbleDownSelf({ ["classes"] = { ROGUE } }, {
 			["maps"] = { THE_HALL_OF_SHADOWS },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42295, {	-- Hidden Potential of the Shadowblade
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- (no decor reward)
+						},
+					}),
+					ach(60970, {	-- Legendary Research of the Uncrowned
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- (no decor reward)
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(ROGUE, ASSASSINATION, {
 							i(139570, {	-- The Cypher of Broken Bone

@@ -1266,6 +1266,123 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228774),	-- Algari Blacksmiths's Journal
+			},
+		},{
+			q(84127, {	-- Blacksmithing Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_BLACKSMITHING_KNOWLEDGE, 1 }} }, {
+				r(450281),	-- Artisan Blacksmith's Hammer
+				r(450282),	-- Artisan Blacksmith's Toolbox
+				r(450238),	-- Charged Claymore
+				r(450239),	-- Charged Halberd
+				r(450235),	-- Charged Hexsword
+				r(450241),	-- Charged Invoker
+				r(453727),	-- Everburning Ignition
+				r(450221),	-- Everforged Breastplate
+				r(450230),	-- Everforged Dagger
+				r(450223),	-- Everforged Defender
+				r(450228),	-- Everforged Gauntlets
+				r(450234),	-- Everforged Greataxe
+				r(450222),	-- Everforged Greatbelt
+				r(450224),	-- Everforged Helm
+				r(450225),	-- Everforged Legplates
+				r(450231),	-- Everforged Longsword
+				r(450233),	-- Everforged Mace
+				r(450227),	-- Everforged Pauldrons
+				r(450220),	-- Everforged Sabatons
+				r(450229),	-- Everforged Stabber
+				r(450226),	-- Everforged Vambraces
+				r(450232),	-- Everforged Warglaive
+				r(450286),	-- Ironclaw Razorstone
+				r(450285),	-- Ironclaw Whetstone
+				r(450289),	-- Tempered Framework
+			}),
+		}),
+		n(TREASURES, {
+			o(456017, {	-- Ancient Earthen Anvil
+				["coord"] = { 59.8, 61.9, ISLE_OF_DORN },
+				["questID"] = 83848,
+				["groups"] = {
+					i(226276),	-- Ancient Earthen Anvil
+				},
+			}),
+			o(456016, {	-- Dornogal Hammer
+				["coord"] = { 47.7, 26.5, DORNOGAL },
+				["questID"] = 83849,
+				["groups"] = {
+					i(226277),	-- Dornogal Hammer
+				},
+			}),
+			o(456014, {	-- Earthen Chisels
+				["coord"] = { 60.6, 53.8, THE_RINGING_DEEPS },
+				["questID"] = 83851,
+				["groups"] = {
+					i(226279),	-- Earthen Chisels
+				},
+			}),
+			o(456013, {	-- Holy Flame Forge
+				["coord"] = { 47.6, 61.0, HALLOWFALL },
+				["questID"] = 83852,
+				["groups"] = {
+					i(226280),	-- Holy Flame Forge
+				},
+			}),
+			o(456011, {	-- Nerubian Smith's Kit
+				["coord"] = { 46.6, 22.7, NERUBAR },
+				["questID"] = 83854,
+				["groups"] = {
+					i(226282),	-- Nerubian Smith's Kit
+				},
+			}),
+			o(456012, {	-- Radiant Tongs
+				["coord"] = { 44.1, 55.6, HALLOWFALL },
+				["questID"] = 83853,
+				["groups"] = {
+					i(226281),	-- Radiant Tongs
+				},
+			}),
+			o(456015, {	-- Ringing Hammer Vise
+				["coord"] = { 47.7, 33.2, THE_RINGING_DEEPS },
+				["questID"] = 83850,
+				["groups"] = {
+					i(226278),	-- Ringing Hammer Vise
+				},
+			}),
+			o(456010, {	-- Spiderling's Wire Brush
+				["coord"] = { 53.0, 51.3, AZJ_KAHET },
+				["questID"] = 83855,
+				["groups"] = {
+					i(226283),	-- Spiderling's Wire Brush
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_BLACKSMITHING_KNOWLEDGE),
+			},
+		}, {
+			q(83257, {	-- TWW Weekly Blacksmithing Knowledgepoint #1
+				["name"] = "TWW Weekly Blacksmithing Treasure #1",
+				["provider"] = { "i", 225232 },	-- Coreway Billet
+			}),
+			q(83256, {	-- TWW Weekly Blacksmithing Knowledgepoint #2
+				["name"] = "TWW Weekly Blacksmithing Treasure #2",
+				["provider"] = { "i", 225233 },	-- Dense Bladestone
+			}),
+		})),
+	})),--]]
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {

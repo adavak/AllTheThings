@@ -117,6 +117,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						479,	-- Elfin Rabbit (PET!)
 					}},
 				})),
+				n(ACHIEVEMENTS, {
+					ach(42289, {	-- Hidden Potential of the Archdruid
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Seed of Ages Cutting
+						},
+					}),
+					ach(60964, {	-- Legendary Research of the Dreamgrove
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Tome of the Ancients
+						},
+					}),
+				}),
 				n(FLIGHT_PATHS, {
 					fp(1815, {	-- The Dreamgrove, Val'sharah
 						["creatureID"] = 107457,	-- Danise Stargazer

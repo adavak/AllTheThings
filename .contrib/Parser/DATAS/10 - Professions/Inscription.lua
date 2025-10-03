@@ -5859,6 +5859,111 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228776),	-- Algari Scribe's Journal
+			},
+		},{
+			q(84129, {	-- Inscription  Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_INSCRIPTION_KNOWLEDGE, 1 }} }, {
+				r(447868),	-- Algari Treatise on Inscription
+				r(444192),	-- Darkmoon Sigil: Evolve
+				r(444193),	-- Darkmoon Sigil: Radiance
+				r(444194),	-- Darkmoon Sigil: Symbiosis
+				r(444195),	-- Darkmoon Sigil: Vivacity
+				r(444205),	-- Silver Tongue's Quill
+				r(444199),	-- Vagabond's Bounding Baton
+				r(444198),	-- Vagabond's Careful Crutch
+				r(444197),	-- Vagabond's Torch
+				r(444224),	-- Transcribe: Evolution
+				r(444227),	-- Transcribe: Radiance
+				r(444226),	-- Transcribe: Symbiosis
+				r(444225),	-- Transcribe: Vivacity
+			}),
+		}),
+		n(TREASURES, {
+			o(455982, {	-- Blue Earthen Pigment
+				["coord"] = { 62.4, 58.0, THE_RINGING_DEEPS },
+				["questID"] = 83885,
+				["groups"] = {
+					i(226311),	-- Blue Earthen Pigment
+				},
+			}),
+			o(455980, {	-- Calligrapher's Chiseled Marker
+				["coord"] = { 42.8, 49.0, HALLOWFALL },
+				["questID"] = 83887,
+				["groups"] = {
+					i(226313),	-- Calligrapher's Chiseled Marker
+				},
+			}),
+			o(455985, {	-- Dornogal Scribe's Quill
+				["coord"] = { 57.1, 46.98, DORNOGAL },
+				["questID"] = 83882,
+				["groups"] = {
+					i(226308),	-- Dornogal Scribe's Quill
+				},
+			}),
+			o(455984, {	-- Historian's Dip Pen
+				["coord"] = { 55.9, 60.0, ISLE_OF_DORN },
+				["questID"] = 83883,
+				["groups"] = {
+					i(226309),	-- Historian's Dip Pen
+				},
+			}),
+			o(455981, {	-- Informant's Fountain Pen
+				["coord"] = { 43.2, 58.9, HALLOWFALL },
+				["questID"] = 83886,
+				["groups"] = {
+					i(226312),	-- Informant's Fountain Pen
+				},
+			}),
+			o(455979, {	-- Nerubian Texts
+				["coord"] = { 55.8, 43.9, AZJ_KAHET },
+				["questID"] = 83888,
+				["groups"] = {
+					i(226314),	-- Nerubian Texts
+				},
+			}),
+			o(455983, {	-- Runic Scroll
+				["coord"] = { 48.5, 34.3, THE_RINGING_DEEPS },
+				["questID"] = 83884,
+				["groups"] = {
+					i(226310),	-- Runic Scroll
+				},
+			}),
+			o(455978, {	-- Venomancer's Ink Well
+				["coord"] = { 50.1, 30.8, NERUBAR },
+				["questID"] = 83889,
+				["groups"] = {
+					i(226315),	-- Venomancer's Ink Well
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_INSCRIPTION_KNOWLEDGE),
+			},
+		},{
+			q(83264, {	-- TWW Weekly Inscription Knowledgepoint #1
+				["name"] = "TWW Weekly Inscription Treasure #1",
+				["provider"] = { "i", 225226 },	-- Striated Inkstone
+			}),
+			q(83262, {	-- TWW Weekly Inscription Knowledgepoint #2
+				["name"] = "TWW Weekly Inscription Treasure #2",
+				["provider"] = { "i", 225227 },	-- Wax-Sealed Records
+			}),
+		})),
+	})),--]]
 })));
 root(ROOTS.Professions, applyclassicphase(WRATH_PHASE_ONE, prof(INSCRIPTION)));
 

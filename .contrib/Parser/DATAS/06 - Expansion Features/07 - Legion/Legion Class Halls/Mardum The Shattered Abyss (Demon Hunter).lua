@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(DEMONHUNTER, bubbleDownSelf({ ["classes"] = { DEMONHUNTER } }, {
 			["maps"] = { MARDUM_THE_SHATTERED_ABYSS_UPPER_COMMAND_CENTER, MARDUM_THE_SHATTERED_ABYSS_LOWER_COMMAND_CENTER },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42288, {	-- Hidden Potential of the Slayer
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Cursed Forge of the Nathrezim
+						},
+					}),
+					ach(60963, {	-- Legendary Research of the Illidari
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Tome of Fel Secrets
+						},
+					}),
+				}),
 				n(FOLLOWERS, bubbleDownSelf({
 					["collectible"] = false,
 					["u"] = UNLEARNABLE,	-- Temporary troops

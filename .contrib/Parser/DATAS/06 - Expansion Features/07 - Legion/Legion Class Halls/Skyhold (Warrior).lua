@@ -151,6 +151,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(WARRIOR, bubbleDownSelf({ ["classes"] = { WARRIOR } }, {
 			["maps"] = { SKYHOLD },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42298, {	-- Hidden Potential of the Battlelord
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Forge of Odyn
+						},
+					}),
+					ach(60973, {	-- Legendary Research of the Valarjar
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- (no decor reward)
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(WARRIOR, ARMS, {
 						q(43643, {	-- Secrets of the Axes

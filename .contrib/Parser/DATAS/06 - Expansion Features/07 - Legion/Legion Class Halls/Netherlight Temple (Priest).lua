@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(PRIEST, bubbleDownSelf({ ["classes"] = { PRIEST } }, {
 			["maps"] = { NETHERLIGHT_TEMPLE },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42294, {	-- Hidden Potential of the High Priest
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Altar of Light and Shadow
+						},
+					}),
+					ach(60969, {	-- Legendary Research of the Netherlight Conclave
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Word of the Conclave
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					header(HEADERS.Item, 141332, {	-- The Annals of Light and Shadow
 						["description"] = "Obtain 12 of these books to complete the set and receive the Discipline Priest Hidden Artifact Appearance.\n\nStart with Volume VI and Archivist Inkforge in your Order Hall.",

@@ -1415,6 +1415,119 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228778),	-- Algari Leatherworker's Journal
+			},
+		},{
+			q(84131, {	-- Leatherworking Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_LEATHERWORKING_KNOWLEDGE, 1 }} }, {
+				r(441460),	-- Blessed Weapon Grip
+				r(441065),	-- Glyph-Etched Binding
+				r(441059),	-- Glyph-Etched Breastplate
+				r(441063),	-- Glyph-Etched Cuisses
+				r(441064),	-- Glyph-Etched Epaulets
+				r(441061),	-- Glyph-Etched Gauntlets
+				r(441062),	-- Glyph-Etched Guise
+				r(441060),	-- Glyph-Etched Stompers
+				r(441066),	-- Glyph-Etched Vambraces
+				r(441058),	-- Rune-Branded Armbands
+				r(441053),	-- Rune-Branded Grasps
+				r(441054),	-- Rune-Branded Hood
+				r(441052),	-- Rune-Branded Kickers
+				r(441055),	-- Rune-Branded Legwraps
+				r(441056),	-- Rune-Branded Mantle
+				r(441051),	-- Rune-Branded Tunic
+				r(441057),	-- Rune-Branded Waistband
+				r(443961),	-- Smoldering Pollen Hauberk
+				r(443951),	-- Weathered Stormfront Vest
+				r(441461),	-- Writhing Armor Banding
+			}),
+		}),
+		n(TREASURES, {
+			o(455965, {	-- Arathi Beveler Set
+				["coord"] = { 47.5, 65.1, HALLOWFALL },
+				["questID"] = 83902,
+				["groups"] = {
+					i(226328),	-- Arathi Beveler Set
+				},
+			}),
+			o(455964, {	-- Arathi Leather Burnisher
+				["coord"] = { 41.5, 57.8, HALLOWFALL },
+				["questID"] = 83903,
+				["groups"] = {
+					i(226329),	-- Arathi Leather Burnisher
+				},
+			}),
+			o(455962, {	-- Curved Nerubian Skinning Knife
+				["coord"] = { 59.9, 54.0, AZJ_KAHET },
+				["questID"] = 83905,
+				["groups"] = {
+					i(226331),	-- Curved Nerubian Skinning Knife
+				},
+			}),
+			o(455968, {	-- Dornogal Craftsman's Flat Knife
+				["coord"] = { 58.6, 30.7, ISLE_OF_DORN },
+				["questID"] = 83899,
+				["groups"] = {
+					i(226325),	-- Dornogal Craftsman's Flat Knife
+				},
+			}),
+			o(455966, {	-- Earthen Awl
+				["coord"] = { 64.3, 65.2, THE_RINGING_DEEPS },
+				["questID"] = 83901,
+				["groups"] = {
+					i(226327),	-- Earthen Awl
+				},
+			}),
+			o(455969, {	-- Earthen Lacing Tools
+				["coord"] = { 68.2, 23.3, DORNOGAL },	-- TODO: re-check mapID
+				["questID"] = 83898,
+				["groups"] = {
+					i(226324),	-- Earthen Lacing Tools
+				},
+			}),
+			o(455963, {	-- Nerubian Tanning Mallet
+				["coord"] = { 55.0, 27.0, NERUBAR },
+				["questID"] = 83904,
+				["groups"] = {
+					i(226330),	-- Nerubian Tanning Mallet
+				},
+			}),
+			o(455967, {	-- Underground Stropping Compound
+				["coord"] = { 47.1, 34.9, THE_RINGING_DEEPS },
+				["questID"] = 83900,
+				["groups"] = {
+					i(226326),	-- Underground Stropping Compound
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_LEATHERWORKING_KNOWLEDGE),
+			},
+		},{
+			--i(),	-- Leatherworking Designs
+			q(83267, {	-- TWW Weekly Leatherworking Knowledgepoint #1
+				["name"] = "TWW Weekly Leatherworking Treasure #1",
+				["provider"] = { "i", 225223 },		-- Sturdy Nerubian Carapace
+			}),
+			q(83268, {	-- TWW Weekly Leatherworking Knowledgepoint #2
+				["name"] = "TWW Weekly Leatherworking Treasure #2",
+				["provider"] = { "i", 225222 },		-- Studded Leather Band
+			}),
+		})),
+	})),--]]
 })));
 
 root(ROOTS.HiddenQuestTriggers, {

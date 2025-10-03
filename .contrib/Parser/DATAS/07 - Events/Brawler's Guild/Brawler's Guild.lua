@@ -8,6 +8,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 		ADDED_6_0_3_LAUNCH, REMOVED_7_0_3_LAUNCH,	-- Season 2
 		ADDED_7_1_5, REMOVED_8_0_1_LAUNCH,	-- Season 3
 		ADDED_8_1_5, REMOVED_9_0_2_LAUNCH,	-- Season 4
+		ADDED_11_2_7, -- Season 5
 	},
 	["maps"] = {
 		DEEPRUN_TRAM,
@@ -290,6 +291,45 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 			ach(11567, {	-- You Are Not The Contents Of Your Wallet
 				["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
+			}),
+			-- Season 5
+			ach(61421, {	-- A Prime Ordeal
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61422, {	-- Audience Participation
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61419, {	-- Brawler's Chilled
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61424, {	-- Brawlzilla
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61426, {	-- Bare Knuckle Brawl
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61429, {	-- Brawl Star
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61423, {	-- Featherweight Brawler
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61425, {	-- Hot Footed
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61420, {	-- Let Me Solo It
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61466, {	-- The Best There Is
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+			ach(61413, {	-- The First Rule of Brawler's Guild
+				["timeline"] = { ADDED_11_2_7 },
+				["races"] = ALLIANCE_ONLY,
+			}),
+			ach(61414, {	-- The First Rule of Brawler's Guild
+				["timeline"] = { ADDED_11_2_7 },
+				["races"] = HORDE_ONLY,
 			}),
 		}),
 		-- #if BEFORE LEGION

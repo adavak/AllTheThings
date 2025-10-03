@@ -482,6 +482,136 @@ root(ROOTS.Professions, prof(SKINNING, {
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			--["description"] = "Requires 50 Skill.",
+			["provider"] = { "n", 219083 },	-- Ginnad <Skinning Trainer>
+			["coord"] = { 54.5, 57.6, DORNOGAL },
+			["isWeekly"] = true,
+			["groups"] = {
+				i(224807),	-- Algari Skinner's Notes
+			},
+		},{
+			q(83097),	-- Cinder and Storm
+			q(83100),	-- Cracking the Shell
+			q(82993),	-- From Shadows
+			q(83098),	-- Snap and Crackle
+			q(82992),	-- Stormcharged Goods
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_SKINNING_KNOWLEDGE, 1 }} }, {
+				r(442647),	-- Arathor Hammerfish Lure
+				r(442654),	-- Beast Lure Scent
+				r(442615),	-- Carve Meat
+				r(442646),	-- Dornish Pike Lure
+				r(442652),	-- Elusive Creature Lure
+				r(442649),	-- Infusion: Crystal
+				r(442650),	-- Infusion: Spores
+				r(442651),	-- Infusion: Writhing
+				r(442645),	-- Quiet River Bass Lure
+				r(440942),	-- Refine Chitin++
+				r(440943),	-- Refine Chitin+++
+				r(440929),	-- Refine Hides++
+				r(440934),	-- Refine Hides+++
+				r(440937),	-- Refine Leather++
+				r(440938),	-- Refine Leather+++
+				r(442648),	-- Roaring Anglerseeker Lure
+				r(440977),	-- Sharpen Your Knife
+				r(442644),	-- Specular Rainbowfish Lure
+				r(442655),	-- Supreme Beast Lure
+			}),
+		}),
+		n(TREASURES, {
+			o(455948, {	-- Arathi Craftsman's Spokeshave
+				["coord"] = { 42.2, 53.9, HALLOWFALL },
+				["questID"] = 83919,
+				["groups"] = {
+					i(226345),	-- Arathi Craftsman's Spokeshave
+				},
+			}),
+			o(455949, {	-- Arathi Tanning Agent
+				["coord"] = { 49.3, 62.1, HALLOWFALL },
+				["questID"] = 83918,
+				["groups"] = {
+					i(226344),	-- Arathi Tanning Agent
+				},
+			}),
+			o(455951, {	-- Artisan's Drawing Knife
+				["coord"] = { 47.3, 28.3, THE_RINGING_DEEPS },
+				["questID"] = 83916,
+				["groups"] = {
+					i(226342),	-- Artisan's Drawing Knife
+				},
+			}),
+			o(455946, {	-- Carapace Shiner
+				["coord"] = { 56.5, 55.2, AZJ_KAHET },
+				["questID"] = 83921,
+				["groups"] = {
+					i(226347),	-- Carapace Shiner
+				},
+			}),
+			o(455953, {	-- Dornogal Carving Knife
+				["coord"] = { 28.7, 51.7, DORNOGAL },
+				["questID"] = 83914,
+				["groups"] = {
+					i(226340),	-- Dornogal Carving Knife
+				},
+			}),
+			o(455952, {	-- Earthen Worker's Beam
+				["coord"] = { 60.0, 28.0, ISLE_OF_DORN },
+				["questID"] = 83915,
+				["groups"] = {
+					i(226341),	-- Earthen Worker's Beams
+				},
+			}),
+			o(455950, {	-- Fungarian's Rich Tannin
+				["coord"] = { 65.7, 61.9, THE_RINGING_DEEPS },
+				["questID"] = 83917,
+				["groups"] = {
+					i(226343),	-- Fungarian's Rich Tannin
+				},
+			}),
+			o(455947, {	-- Nerubian's Slicking Iron
+				["coord"] = { 45.5, 49.4, NERUBAR },
+				["questID"] = 83920,
+				["groups"] = {
+					i(226346),	-- Nerubian's Slicking Iron
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_SKINNING_KNOWLEDGE),
+			},
+		},{
+			q(81459, {	-- TWW Weekly Skinning Knowledgepoint #1
+				["name"] = "TWW Weekly Skinning Knowledgepoint #1",
+				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			}),
+			q(81460, {	-- TWW Weekly Skinning Knowledgepoint #2
+				["name"] = "TWW Weekly Skinning Knowledgepoint #2",
+				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			}),
+			q(81461, {	-- TWW Weekly Skinning Knowledgepoint #3
+				["name"] = "TWW Weekly Skinning Knowledgepoint #3",
+				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			}),
+			q(81462, {	-- TWW Weekly Skinning Knowledgepoint #4
+				["name"] = "TWW Weekly Skinning Knowledgepoint #4",
+				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			}),
+			q(81463, {	-- TWW Weekly Skinning Knowledgepoint #5
+				["name"] = "TWW Weekly Skinning Knowledgepoint #5",
+				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			}),
+			q(81464, {	-- TWW Weekly Skinning Knowledgepoint #6
+				["name"] = "TWW Weekly Skinning Knowledgepoint #6",
+				["provider"] = { "i", 224781 },	-- Abyssal Fur
+			}),
+		})),
+	})),--]]
 }));
 profession(SKINNING, {
 	-- #if AFTER WOD

@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(WARLOCK, bubbleDownSelf({ ["classes"] = { WARLOCK } }, {
 			["maps"] = { DREADSCAR_RIFT },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42297, {	-- Hidden Potential of the Netherlord
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Felblood Altar
+						},
+					}),
+					ach(60972, {	-- Legendary Research of the Black Harvest
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Tome of Blighted Implements
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(WARLOCK, AFFLICTION, {
 						i(140764, {	-- Grimoire of the First Necrolyte (QS!)

@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(SHAMAN, bubbleDownSelf({ ["classes"] = { SHAMAN } }, {
 			["maps"] = { THE_HEART_Of_AZEROTH },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42296, {	-- Hidden Potential of the Farseer
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Elemental Altar of the Maelstrom
+						},
+					}),
+					ach(60971, {	-- Legendary Research of the Maelstrom
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Words of Wind and Earth
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(SHAMAN, ELEMENTAL, {
 						i(139572, {	-- Lost Codex of the Amani

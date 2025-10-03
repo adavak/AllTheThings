@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		cl(HUNTER, bubbleDownSelf({ ["classes"] = { HUNTER } }, {
 			["maps"] = { TRUESHOT_LODGE },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42290, {	-- Hidden Potential of the Huntmaster
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Altar of the Eternal Hunt
+						},
+					}),
+					ach(60965, {	-- Legendary Research of the Unseen Path
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Tales of the Hunt
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(HUNTER, BEAST_MASTERY, {
 						i(139555, {	-- Designs of the Grand Architect

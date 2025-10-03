@@ -843,6 +843,118 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228777),	-- Algari Jewelcrafter's Notebook
+			},
+		},{
+			q(84130, {	-- Jewelcrafting Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{"c", TWW_JEWELCRAFTING_KNOWLEDGE, 1}} }, {
+				r(435338),	-- Algari Emerald Prism
+				r(435369),	-- Algari Onyx Prism
+				r(435339),	-- Algari Ruby Prism
+				r(435370),	-- Algari Sapphire Prism
+				r(435385),	-- Amulet of Earthen Craftsmanship
+				r(434541),	-- Deadly Emerald
+				r(434545),	-- Deadly Onyx
+				r(434553),	-- Deadly Sapphire
+				r(435331),	-- Elemental Focusing Lens
+				r(434543),	-- Masterful Emerald
+				r(434551),	-- Masterful Ruby
+				r(434555),	-- Masterful Sapphire
+				r(435332),	-- Prismatic Null Stone
+				r(434546),	-- Quick Onyx
+				r(434550),	-- Quick Ruby
+				r(434554),	-- Quick Sapphire
+				r(435384),	-- Ring of Earthen Craftsmanship
+				r(434544),	-- Versatile Emerald
+				r(434548),	-- Versatile Onyx
+				r(434552),	-- Versatile Ruby
+			}),
+		}),
+		n(TREASURES, {
+			o(455973, {	-- Arathi Sizing Gauges
+				["coord"] = { 47.3, 60.6, HALLOWFALL },
+				["questID"] = 83894,
+				["groups"] = {
+					i(226320),	-- Arathi Sizing Gauges
+				},
+			}),
+			o(455975, {	-- Carved Stone File
+				["coord"] = { 48.5, 35.2, THE_RINGING_DEEPS },
+				["questID"] = 83892,
+				["groups"] = {
+					i(226318),	-- Carved Stone File
+				},
+			}),
+			o(455976, {	-- Earthen Gem Pliers
+				["coord"] = { 34.9, 52.3, DORNOGAL },
+				["questID"] = 83891,
+				["groups"] = {
+					i(226317),	-- Earthen Gem Pliers
+				},
+			}),
+			o(455977, {	-- Gentle Jewel Hammer
+				["coord"] = { 63.5, 66.8, ISLE_OF_DORN },
+				["questID"] = 83890,
+				["groups"] = {
+					i(226316),	-- Gentle Jewel Hammer
+				},
+			}),
+			o(455974, {	-- Jeweler's Delicate Drill
+				["coord"] = { 57.0, 54.6, THE_RINGING_DEEPS },
+				["questID"] = 83893,
+				["groups"] = {
+					i(226319),	-- Jeweler's Delicate Drill
+				},
+			}),
+			o(455972, {	-- Librarian's Magnifiers
+				["coord"] = { 44.7, 50.9, HALLOWFALL },
+				["questID"] = 83895,
+				["groups"] = {
+					i(226321),	-- Librarian's Magnifiers
+				},
+			}),
+			o(455970, {	-- Nerubian Bench Blocks
+				["coord"] = { 56.1, 58.6, AZJ_KAHET },
+				["questID"] = 83897,
+				["groups"] = {
+					i(226323),	-- Nerubian Bench Blocks
+				},
+			}),
+			o(455971, {	-- Ritual Caster's Crystal
+				["coord"] = { 47.7, 19.4, NERUBAR },
+				["questID"] = 83896,
+				["groups"] = {
+					i(226322),	-- Ritual Caster's Crystal
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_JEWELCRAFTING_KNOWLEDGE),
+			},
+		},{
+			q(83265, {	-- TWW Weekly Jewelcrafting Knowledgepoint #1
+				["name"] = "TWW Weekly Jewelcrafting Treasure #1",
+				["provider"] = { "i", 225224 },	-- Diaphanous Gem Shards
+			}),
+			q(83266, {	-- TWW Weekly Jewelcrafting Knowledgepoint #2
+				["name"] = "TWW Weekly Jewelcrafting Treasure #2",
+				["provider"] = { "i", 225225 },	-- Deepstone Fragment
+			}),
+		})),
+	})),--]]
 })));
 
 root(ROOTS.HiddenQuestTriggers, {

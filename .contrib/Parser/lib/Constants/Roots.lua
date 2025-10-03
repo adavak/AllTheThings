@@ -14,6 +14,7 @@ ROOTS = {
 	["HiddenCurrencyTriggers"] = "HiddenCurrencyTriggers",
 	["HiddenQuestTriggers"] = "HiddenQuestTriggers",
 	["Holidays"] = "Holidays",
+	["Housing"] = "Housing",
 	["InGameShop"] = "InGameShop",
 	["Instances"] = "Instances",
 	["ItemDB"] = "ItemDB",

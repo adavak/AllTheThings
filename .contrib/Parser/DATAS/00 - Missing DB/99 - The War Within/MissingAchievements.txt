@@ -64,18 +64,6 @@ ach(42280),	-- The Farseer's Campaign
 ach(42281),	-- The Netherlord's Campaign
 ach(42282),	-- The Battlelord's Campaign
 ach(42283),	-- Azeroth Runs on Dundun
-ach(42287),	-- Hidden Potential of the Deathlord
-ach(42288),	-- Hidden Potential of the Slayer
-ach(42289),	-- Hidden Potential of the Archdruid
-ach(42290),	-- Hidden Potential of the Huntmaster
-ach(42291),	-- Hidden Potential of the Archmage
-ach(42292),	-- Hidden Potential of the Grandmaster
-ach(42293),	-- Hidden Potential of the Highlord
-ach(42294),	-- Hidden Potential of the High Priest
-ach(42295),	-- Hidden Potential of the Shadowblade
-ach(42296),	-- Hidden Potential of the Farseer
-ach(42297),	-- Hidden Potential of the Netherlord
-ach(42298),	-- Hidden Potential of the Battlelord
 ach(42299),	-- Visions of a Shadowed Sun
 ach(42300),	-- Two Minutes to Midnight
 ach(42322),	-- 1st level 90 on account (DNT)
@@ -112,10 +100,6 @@ ach(42668),	-- Hidden Treasures: Val'Sharah
 ach(42701),	-- Prey: Normal Mode III
 ach(42702),	-- Prey: Hard Mode III
 ach(42703),	-- Prey: Nightmare Mode III
-ach(42767),	-- Weathered of the Dawn
-ach(42768),	-- Carved of the Dawn
-ach(42769),	-- Runed of the Dawn
-ach(42770),	-- Gilded of the Dawn
 ach(42786),	-- Leatherworking at Midnight
 ach(42787),	-- Enchanting at Midnight
 ach(42788),	-- Alchemy at Midnight
@@ -129,6 +113,7 @@ ach(42795),	-- Cooking at Midnight
 ach(42796),	-- Inscribing at Midnight
 ach(42797),	-- Fishing at Midnight
 ach(42798),	-- Engineering at Midnight
+
 ach(42808),	-- Midnight Inscription 25 (DNT)
 ach(42809),	-- Midnight Inscription 50 (DNT)
 ach(42810),	-- Midnight Inscription 60 (DNT)
@@ -151,18 +136,6 @@ ach(60952),	-- Magic Battler of Northrend
 ach(60953),	-- Mechanical Battler of Northrend
 ach(60954),	-- Undead Battler of Northrend
 ach(60956),	-- Family Battler of Northrend
-ach(60962),	-- Legendary Research of the Ebon Blade
-ach(60963),	-- Legendary Research of the Illidari
-ach(60964),	-- Legendary Research of the Dreamgrove
-ach(60965),	-- Legendary Research of the Unseen Path
-ach(60966),	-- Legendary Research of the Tirisgarde
-ach(60967),	-- Legendary Research of Five Dawns
-ach(60968),	-- Legendary Research of the Silver Hand
-ach(60969),	-- Legendary Research of the Netherlight Conclave
-ach(60970),	-- Legendary Research of the Uncrowned
-ach(60971),	-- Legendary Research of the Maelstrom
-ach(60972),	-- Legendary Research of the Black Harvest
-ach(60973),	-- Legendary Research of the Valarjar
 ach(60981),	-- So Many Missions for Acherus
 ach(60982),	-- So Many Missions for the Fel Hammer
 ach(60983),	-- So Many Missions for the Dreamgrove
@@ -204,7 +177,6 @@ ach(61082),	-- Old Soldiers
 ach(61083),	-- Highly Decorated
 ach(61091),	-- Midnight Safari
 ach(61094),	-- Old World Family Battler
-ach(61211),	-- Welcome Home
 ach(61212),	-- Magisters' Terrace
 ach(61213),	-- Heroic: Magisters' Terrace
 ach(61214),	-- Mythic: Magisters' Terrace
@@ -301,17 +273,6 @@ ach(61389),	-- Prey: Hard Mode I
 ach(61391),	-- Prey: Nightmare Mode II
 ach(61392),	-- Prey: Nightmare Mode I
 ach(61394),	-- Master of the Turbulent Timeways IV
-ach(61413),	-- The First Rule of Brawler's Guild
-ach(61414),	-- The First Rule of Brawler's Guild
-ach(61419),	-- Brawler's Chilled
-ach(61420),	-- Let Me Solo It
-ach(61421),	-- A Prime Ordeal
-ach(61422),	-- Audience Participation
-ach(61423),	-- Featherweight Brawler
-ach(61424),	-- Brawlzilla
-ach(61425),	-- Hot Footed
-ach(61426),	-- Bare Knuckle Brawl
-ach(61429),	-- Brawl Star
 ach(61430),	-- Crunching for Cultists
 ach(61438),	-- Thalassian Profession Master
 ach(61439),	-- Thalassian Artisan
@@ -331,7 +292,6 @@ ach(61455),	-- Shadowpine Scattered
 ach(61456),	-- Die in Lordaeron or Undercity
 ach(61464),	-- Spark in the Night
 ach(61465),	-- Spark in the Night
-ach(61466),	-- The Best There Is
 ach(61467),	-- Lorewalking: Elves
 ach(61474),	-- Chimaerus, the Undreamt God (Raid Finder Dreamrift)
 ach(61475),	-- Chimaerus, the Undreamt God (Normal Dreamrift)

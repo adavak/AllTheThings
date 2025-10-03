@@ -1296,6 +1296,123 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228779),	-- Algari Tailor's Notebook
+			},
+		},{
+			q(84132, {	-- Tailoring Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_TAILORING_KNOWLEDGE, 1 }} }, {
+				r(446940),	-- Consecrated Cloak
+				r(446939),	-- Consecrated Cord
+				r(446938),	-- Consecrated Cuffs
+				r(446945),	-- Consecrated Gloves
+				r(446941),	-- Consecrated Hood
+				r(446943),	-- Consecrated Leggings
+				r(446944),	-- Consecrated Mantle
+				r(446942),	-- Consecrated Robe
+				r(446937),	-- Consecrated Slippers
+				r(446935),	-- Cool Sunset Bracers
+				r(446928),	-- Dawnweave Bolt
+				r(446977),	-- Dawnweave Reagent Bag
+				r(447001),	-- Daybreak Spellthread
+				r(446979),	-- Duskweave Bag
+				r(446927),	-- Duskweave Bolt
+				r(446932),	-- Gloves of the Woven Dusk
+				r(446930),	-- Grips of the Woven Dawn
+				r(446995),	-- Preserving Embroidery Thread
+				r(446933),	-- Slippers of the Woven Dusk
+				r(447000),	-- Sunset Spellthread
+				r(454431),	-- The Severed Satchel
+				r(446931),	-- Treads of the Woven Dawn
+				r(446934),	-- Warm Sunrise Bracers
+				r(446997),	-- Weavercloth Embroidery Thread
+				r(446999),	-- Weavercloth Spellthread
+			}),
+		}),
+		n(TREASURES, {
+			o(455941, {	-- Arathi Rotary Cutter
+				["coord"] = { 49.2, 62.3, HALLOWFALL },
+				["questID"] = 83926,
+				["groups"] = {
+					i(226352),	-- Arathi Rotary Cutter
+				},
+			}),
+			o(455945, {	-- Dornogal Seam Ripper
+				["coord"] = { 61.4, 18.6, DORNOGAL },
+				["questID"] = 83922,
+				["groups"] = {
+					i(226348),	-- Dornogal Seam Ripper
+				},
+			}),
+			o(455944, {	-- Earthen Tape Measure
+				["coord"] = { 56.2, 61.0, ISLE_OF_DORN },
+				["questID"] = 83923,
+				["groups"] = {
+					i(226349),	-- Earthen Tape Measure
+				},
+			}),
+			o(455942, {	-- Eathen Sticher's Snips
+				["coord"] = { 64.2, 60.2, THE_RINGING_DEEPS },
+				["questID"] = 83925,
+				["groups"] = {
+					i(226351),	-- Earthen Stitcher's Snips
+				},
+			}),
+			o(455938, {	-- Nerubian's Pincushion
+				["coord"] = { 50.2, 16.7, NERUBAR },
+				["questID"] = 83929,
+				["groups"] = {
+					i(226355),	-- Nerubian's Pincushion
+				},
+			}),
+			o(455939, {	-- Nerubian Quilt
+				["coord"] = { 53.2, 53.1, AZJ_KAHET },
+				["questID"] = 83928,
+				["groups"] = {
+					i(226354),	-- Nerubian Quilt
+				},
+			}),
+			o(455940, {	-- Royal Outfitter's Protractor
+				["coord"] = { 40.1, 68.1, HALLOWFALL },
+				["questID"] = 83927,
+				["groups"] = {
+					i(226353),	-- Royal Outfitter's Protractor
+				},
+			}),
+			o(455943, {	-- Runed Earthen Pins
+				["coord"] = { 48.8, 32.8, THE_RINGING_DEEPS },
+				["questID"] = 83924,
+				["groups"] = {
+					i(226350),	-- Runed Earthen Pins
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_TAILORING_KNOWLEDGE),
+			},
+		},{
+			q(83270, {	-- TWW Weekly Tailoring Knowledgepoint #1
+				["name"] = "TWW Weekly Tailoring Treasure #1",
+				["provider"] =  { "i", 225220 },	-- Chitin Needle
+			}),
+			q(83269, {	-- TWW Weekly Tailoring Knowledgepoint #2
+				["name"] = "TWW Weekly Tailoring Treasure #2",
+				["provider"] =  { "i", 225221 },	-- Spool of Webweave
+			}),
+		})),
+	})),--]]
 })));
 
 root(ROOTS.HiddenQuestTriggers, {

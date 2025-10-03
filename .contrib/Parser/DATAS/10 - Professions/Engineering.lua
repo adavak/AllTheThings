@@ -1398,6 +1398,105 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(228775),	-- Algari Engineer's Notepad
+			},
+		},{
+			q(84128, {	-- Engineering Services Requested
+				["provider"] = { "n", 228177 },	-- Kala Clayhoof
+				["coord"] = { 59.2, 55.2, DORNOGAL },
+			}),
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ENGINEERING_KNOWLEDGE, 1 }} }, {
+				r(447356),	-- Adjustable Cogwheel
+				r(447333),	-- Aqirite Fueled Samophlange
+				r(447374),	-- Box o' Booms
+				r(447355),	-- Impeccable Cogwheel
+				r(447354),	-- Overclocked Cogwheel
+				r(447352),	-- P.0.W. x2
+				r(447353),	-- Serrated Cogwheel
+			}),
+		}),
+		n(TREASURES, {
+			o(455996, {	-- Arathi Safety Gloves
+				["coord"] = { 41.5, 48.9, HALLOWFALL },
+				["questID"] = 83871,
+				["groups"] = {
+					i(226297),	-- Arathi Safety Gloves
+				},
+			}),
+			o(456000, {	-- Dornogal Spectacles
+				["coord"] = { 64.7, 52.7, DORNOGAL },
+				["questID"] = 83867,
+				["groups"] = {
+					i(226293),	-- Dornogal Spectacles
+				},
+			}),
+			o(455998, {	-- Earthen Construct Blueprints
+				["coord"] = { 64.5, 58.8, THE_RINGING_DEEPS },
+				["questID"] = 83869,
+				["groups"] = {
+					i(226295),	-- Earthen Construct Blueprints
+				},
+			}),
+			o(455994, {	-- Emptied Venom Canister
+				["coord"] = { 63.1, 11.1, NERUBAR },
+				["questID"] = 83873,
+				["groups"] = {
+					i(226299),	-- Emptied Venom Canister
+				},
+			}),
+			o(455997, {	-- Holy Firework Dud
+				["coord"] = { 46.3, 61.3, HALLOWFALL },
+				["questID"] = 83870,
+				["groups"] = {
+					i(226296),	-- Holy Firework Dud
+				},
+			}),
+			o(455999, {	-- Inert Mining Bomb
+				["coord"] = { 42.6, 27.3, THE_RINGING_DEEPS },
+				["questID"] = 83868,
+				["groups"] = {
+					i(226294),	-- Inert Mining Bomb
+				},
+			}),
+			o(455995, {	-- Puppeted Mechanical Spider
+				["coord"] = { 56.8, 38.6, AZJ_KAHET },
+				["questID"] = 83872,
+				["groups"] = {
+					i(226298),	-- Puppeted Mechanical Spider
+				},
+			}),
+			o(456001, {	-- Rock Engineer's Wrench
+				["coord"] = { 61.3, 69.6, ISLE_OF_DORN },
+				["questID"] = 83866,
+				["groups"] = {
+					i(226292),	-- Rock Engineer's Wrench
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_ENGINEERING_KNOWLEDGE),
+			},
+		},{
+			q(83260, {	-- TWW Weekly Engineering Knowledgepoint #1
+				["name"] = "TWW Weekly Engineering Treasure #1",
+				["provider"] = { "i", 225228 },	-- Rust-Locked Mechanism
+			}),
+			q(83261, {	-- TWW Weekly Engineering Knowledgepoint #2
+				["name"] = "TWW Weekly Engineering Treasure #2",
+				["provider"] = { "i", 225229 },	-- Earthen Induction Coil
+			}),
+		})),
+	})),--]]
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {

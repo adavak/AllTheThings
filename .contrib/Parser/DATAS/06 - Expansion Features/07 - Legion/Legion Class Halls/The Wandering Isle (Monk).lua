@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(MONK, bubbleDownSelf({ ["classes"] = { MONK } }, {
 			["maps"] = { THE_WANDERING_ISLE },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42292, {	-- Hidden Potential of the Grandmaster
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- (no decor reward)
+						},
+					}),
+					ach(60967, {	-- Legendary Research of Five Dawns
+						["timeline"] = { ADDED_12_0_0 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Chronicle of Ages
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(MONK, BREWMASTER, {
 						gt(254, {	-- Brewhouse

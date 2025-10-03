@@ -7,6 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(PALADIN, bubbleDownSelf({ ["classes"] = { PALADIN } }, {
 			["maps"] = { SANCTUM_OF_LIGHT },
 			["groups"] = {
+				n(ACHIEVEMENTS, {
+					ach(42293, {	-- Hidden Potential of the Highlord
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Altar of Ancient Kings
+						},
+					}),
+					ach(60968, {	-- Legendary Research of the Silver Hand
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+							-- i(xxxxxx),	-- Replica Libram of Ancient Kings
+						},
+					}),
+				}),
 				n(ARTIFACTS, {
 					cl(PALADIN, HOLY, {
 						i(139564, {	-- Lost Edicts of the Watcher

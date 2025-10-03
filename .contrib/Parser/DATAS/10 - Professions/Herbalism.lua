@@ -1545,4 +1545,143 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			}),
 		})),
 	})),
+	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(QUESTS, sharedData({
+			["sharedDescription"] = "Requires 25 Skill.",
+			["provider"] = { "n", 219101 },	-- Akdan <Herbalism Trainer>
+			["coord"] = { 44.8, 69.3, DORNOGAL },
+			["isWeekly"] = true,
+			["groups"] = {
+				i(224817),	-- Algari Herbalism Notes
+			},
+		},{
+			q(82970),	-- A Bloom and A Blossom
+			q(82962),	-- A handful of Luredrops
+			q(82965),	-- Light and Shadow
+			q(82916),	-- When Fungi Bloom
+		})),
+		filter(RECIPES, {
+			["description"] = "These are learned by specialization.",
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_HERBALISM_KNOWLEDGE, 1 }} }, {
+				r(442990),	-- Empowered Mulch
+				r(442989),	-- Imbued Mulch
+				r(442988),	-- Magical Mulch
+				r(438811),	-- Refine Herbs++
+				r(438812),	-- Refine Herbs+++
+			}),
+		}),
+		n(QUESTS, sharedData({
+			["provider"] = { "n", 219101 },	-- Akdan <Herbalism Trainer>
+			["coord"] = { 44.8, 69.4, DORNOGAL },
+			["isWeekly"] = true,
+			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
+			["groups"] = {
+				i(224817),	-- Algari Herbalist's Notes
+			},
+		},{
+			q(82965),	-- Light and Shadow
+			q(82958),	-- Little Blessings
+		})),
+		n(QUESTS, {
+			q(91451, {	-- Stalk Market
+				["description"] = "Obtained the first time you harvest Phantom Bloom.",
+				["providers"] = {
+					{ "o", 527489 },	-- Lush Phantom Bloom
+					{ "o", 527488 },	-- Phantom Bloom
+				},
+				["timeline"] = { ADDED_11_2_0 },
+				["groups"] = { i(246582) },	-- Inscrutable Flora (QS!)
+			}),
+		}),
+		n(TREASURES, {
+			o(455993, {	-- Ancient Flower
+				["coord"] = { 57.5, 61.5, ISLE_OF_DORN },
+				["questID"] = 83874,
+				["groups"] = {
+					i(226300),	-- Ancient Flower
+				},
+			}),
+			o(455989, {	-- Arathi Garden Trowel
+				["coord"] = { 47.7, 63.3, HALLOWFALL },
+				["questID"] = 83878,
+				["groups"] = {
+					i(226304),	-- Arathi Garden Trowel
+				},
+			}),
+			o(455988, {	-- Arathi Herb Pruner
+				["coord"] = { 36.0, 55.0, HALLOWFALL },
+				["questID"] = 83879,
+				["groups"] = {
+					i(226305),	-- Arathi Herb Pruner
+				},
+			}),
+			o(455992, {	-- Dornogal Gardening Scythe
+				["coord"] = { 59.2, 23.5, DORNOGAL },
+				["questID"] = 83875,
+				["groups"] = {
+					i(226301),	-- Dornogal Gardening Scythe
+				},
+			}),
+			o(455991, {	-- Earthen Digging Fork
+				["coord"] = { 48.2, 35.0, THE_RINGING_DEEPS },
+				["questID"] = 83876,
+				["groups"] = {
+					i(226302),	-- Earthen Digging Fork
+				},
+			}),
+			o(455990, {	-- Fungarian Slicer's Knife
+				["coord"] = { 52.8, 65.8, THE_RINGING_DEEPS },
+				["questID"] = 83877,
+				["groups"] = {
+					i(226303),	-- Fungarian Slicer's Knife
+				},
+			}),
+			o(455986, {	-- Tunneler's Shovel
+				["coord"] = { 46.8, 16.1, NERUBAR },
+				["questID"] = 83881,
+				["groups"] = {
+					i(226307),	-- Tunneler's Shovel
+				},
+			}),
+			o(455987, {	-- Web-Entangled Lotus
+				["coord"] = { 54.6, 20.9, NERUBAR },
+				["questID"] = 83880,
+				["groups"] = {
+					i(226306),	-- Web-Entangled Lotus
+				},
+			}),
+		}),
+		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
+			["isWeekly"] = true,
+			["groups"] = {
+				currency(TWW_HERBALISM_KNOWLEDGE),
+			},
+		},{
+			i(224817),	-- Algari Herbalism Notes
+			q(81416, {	-- TWW Weekly Herbalism Knowledgepoint #1
+				["name"] = "TWW Weekly Herbalism Knowledgepoint #1",
+				["provider"] = { "i", 224264 },	-- Deepgrove Petal
+			}),
+			q(81417, {	-- TWW Weekly Herbalism Knowledgepoint #2
+				["name"] = "TWW Weekly Herbalism Knowledgepoint #2",
+				["provider"] = { "i", 224264 },	-- Deepgrove Petal
+			}),
+			q(81418, {	-- TWW Weekly Herbalism Knowledgepoint #3
+				["name"] = "TWW Weekly Herbalism Knowledgepoint #3",
+				["provider"] = { "i", 224264 },	-- Deepgrove Petal
+			}),
+			q(81419, {	-- TWW Weekly Herbalism Knowledgepoint #4
+				["name"] = "TWW Weekly Herbalism Knowledgepoint #4",
+				["provider"] = { "i", 224264 },	-- Deepgrove Petal
+			}),
+			q(81420, {	-- TWW Weekly Herbalism Knowledgepoint #5
+				["name"] = "TWW Weekly Herbalism Knowledgepoint #5",
+				["provider"] = { "i", 224264 },	-- Deepgrove Petal
+			}),
+			q(81421, {	-- TWW Weekly Herbalism Knowledgepoint #6
+				["name"] = "TWW Weekly Herbalism Knowledgepoint #6",
+				["provider"] = { "i", 224265 },	-- Deepgrove Rose
+			}),
+		})),
+	})),--]]
 })));
