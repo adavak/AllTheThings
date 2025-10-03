@@ -163,7 +163,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 		})),
 		header(HEADERS.Achievement, SEASON_3_TWW, bubbleDownSelf({
-			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH }
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }
 		},{
 			ach(42169),	-- The War Within Keystone Explorer: Season Three
 			ach(42170, {	-- The War Within Keystone Conqueror: Season Three
@@ -300,14 +300,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 	--[[	-- Maybe better here than under Tazavesh?
 	d(DIFFICULTY.DUNGEON.MYTHIC, {
 		header(HEADERS.Achievement, SEASON_3_TWW, bubbleDownSelf({
-			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH }
-		},{	
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }
+		},{
 			inst(1194, {	-- Tazavesh, the Veiled Market
 				ach(61093, {	-- Flawless Transaction
-					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH },
+					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 				}),
 				ach(61092, {	-- Hard Mode: Tazavesh, the Veiled Market
-					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_PH_PREPATCH },
+					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 				}),
 			}),
 		})),
