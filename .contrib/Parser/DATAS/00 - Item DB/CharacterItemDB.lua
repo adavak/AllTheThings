@@ -264,6 +264,11 @@ ihqt(165873, 54283);				-- Outpost Upgrade: Castaway Point
 ihqt(165728, 54226);				-- Outpost Upgrade: The Great Seal
 ihqt(165804, 54259);				-- Outpost Upgrade: Vulpera Hideaway
 ihqt(165750, 54238);				-- Outpost Upgrade: Zul'jan Ruins
+-- Random One-Time Items --
+ihqt(162580, 52854)					-- Fading Treasure Map
+ihqt(162584, 52860)					-- Singed Treasure Map
+ihqt(162571, 52853)					-- Soggy Treasure Map
+ihqt(162581, 52859)					-- Yellowed Treasure Map
 
 -----------------
 -- PATCH 8.1.0 --

@@ -9,19 +9,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			i(162584),	-- Singed Treasure Map
 			i(162571),	-- Soggy Treasure Map
 			i(162581),	-- Yellowed Treasure Map
-			-- not entirely sure on organizing HQTs like this yet. maybe will have a specialized one for "Loot (Item)" for clarity...
-			hqt(52854, name(HEADERS.Item, 162580, {	-- Fading Treasure Map (looted)
-				["provider"] = {"i",162580},	-- Fading Treasure Map
-			})),
-			hqt(52860, name(HEADERS.Item, 162584, {	-- Singed Treasure Map (looted)
-				["provider"] = {"i",162584},	-- Singed Treasure Map
-			})),
-			hqt(52853, name(HEADERS.Item, 162571, {	-- Soggy Treasure Map (looted)
-				["provider"] = {"i",162571},	-- Soggy Treasure Map
-			})),
-			hqt(52859, name(HEADERS.Item, 162581, {	-- Yellowed Treasure Map (looted)
-				["provider"] = {"i",162581},	-- Yellowed Treasure Map
-			})),
 		}),
 		n(ZONE_DROPS, {
 			i(159184),	-- Foxhollow Circlet
