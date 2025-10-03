@@ -6,23 +6,6 @@ ach(41291),	-- Mythic: Windrunner Spire
 ach(41293),	-- [PH] Restless Heart kills (Normal Windrunner Spire)
 ach(41294),	-- [PH] Restless Heart kills (Heroic Windrunner Spire)
 ach(41295),	-- [PH] Restless Heart kills (Mythic Windrunner Spire)
-ach(41673),	-- Midnight Tailoring 25 (DNT)
-ach(41674),	-- Midnight Tailoring 50 (DNT)
-ach(41675),	-- Midnight Tailoring 60 (DNT)
-ach(41679),	-- Midnight Tailoring 75 (DNT)
-ach(41684),	-- Midnight Herbalism 25 (DNT)
-ach(41688),	-- Midnight Herbalism 50 (DNT)
-ach(41689),	-- Midnight Herbalism 75 (DNT)
-ach(41690),	-- Midnight Blacksmithing 25 (DNT)
-ach(41691),	-- Midnight Blacksmithing 50 (DNT)
-ach(41692),	-- Midnight Blacksmithing 60 (DNT)
-ach(41693),	-- Midnight Blacksmithing 75 (DNT)
-ach(41739),	-- Midnight Mining 25 (DNT)
-ach(41749),	-- Midnight Mining 50 (DNT)
-ach(41750),	-- Midnight Mining 75 (DNT)
-ach(41783),	-- Midnight Skinning 25 (DNT)
-ach(41784),	-- Midnight Skinning 50 (DNT)
-ach(41785),	-- Midnight Skinning 60 (DNT)
 ach(41802),	-- Eversong Woods
 ach(41803),	-- Living Amani Legend
 ach(41804),	-- Harandar
@@ -31,33 +14,12 @@ ach(41806),	-- Voidstorm
 ach(41960),	-- Murder Row
 ach(41961),	-- Heroic: Murder Row
 ach(41962),	-- Mythic: Murder Row
-ach(41974),	-- Midnight Jewelcrafting 25 (DNT)
-ach(41975),	-- Midnight Jewelcrafting 50 (DNT)
-ach(41976),	-- Midnight Jewelcrafting 60 (DNT)
-ach(41977),	-- Midnight Jewelcrafting 75 (DNT)
-ach(42010),	-- Midnight Alchemy 25 (DNT)
-ach(42011),	-- Midnight Alchemy 50 (DNT)
-ach(42012),	-- Midnight Alchemy 60 (DNT)
-ach(42013),	-- Midnight Alchemy 75 (DNT)
 ach(42045),	-- Midnight
 ach(42117),	-- The War of Light and Shadow
-ach(42140),	-- Midnight Enchanting 25 (DNT)
-ach(42145),	-- Midnight Enchanting 50 (DNT)
-ach(42146),	-- Midnight Enchanting 60 (DNT)
-ach(42147),	-- Midnight Enchanting 75 (DNT)
-ach(42178),	-- Midnight Leatherworking 25 (DNT)
-ach(42179),	-- Midnight Leatherworking 50 (DNT)
-ach(42182),	-- Midnight Leatherworking 60 (DNT)
-ach(42183),	-- Midnight Leatherworking 75 (DNT)
 ach(42192),	-- Snowball Fight!
 ach(42283),	-- Azeroth Runs on Dundun
 ach(42299),	-- Visions of a Shadowed Sun
 ach(42300),	-- Two Minutes to Midnight
-ach(42322),	-- 1st level 90 on account (DNT)
-ach(42323),	-- 2nd level 90 on account (DNT)
-ach(42324),	-- 3nd level 90 on account (DNT)
-ach(42326),	-- 4th level 90 on account (DNT)
-ach(42327),	-- 5th level 90 on account (DNT)
 ach(42528),	-- Explore Highmountain
 ach(42535),	-- Explore Eredath
 ach(42560),	-- Explore Antoran Wastes
@@ -82,15 +44,6 @@ ach(42668),	-- Hidden Treasures: Val'Sharah
 ach(42701),	-- Prey: Normal Mode III
 ach(42702),	-- Prey: Hard Mode III
 ach(42703),	-- Prey: Nightmare Mode III
-
-ach(42808),	-- Midnight Inscription 25 (DNT)
-ach(42809),	-- Midnight Inscription 50 (DNT)
-ach(42810),	-- Midnight Inscription 60 (DNT)
-ach(42813),	-- Midnight Inscription 75 (DNT)
-ach(42814),	-- Midnight Engineering 25 (DNT)
-ach(42815),	-- Midnight Engineering 50 (DNT)
-ach(42817),	-- Midnight Engineering 60 (DNT)
-ach(42821),	-- Midnight Engineering 75 (DNT)
 ach(51753),	-- Azsuna Matata
 ach(60888),	-- Pushing My Buttons
 ach(60891),	-- The Crimson Rogue
@@ -194,17 +147,6 @@ ach(61304),	-- Midnight Falls (Raid Finder March on Quel'Danas)
 ach(61305),	-- Midnight Falls (Normal March on Quel'Danas)
 ach(61306),	-- Midnight Falls (Heroic March on Quel'Danas)
 ach(61307),	-- Midnight Falls (Mythic March on Quel'Danas)
-ach(61308),	-- Score A Decor
-ach(61309),	-- Amateur Antiquarian
-ach(61310),	-- Casual Collector
-ach(61311),	-- Ready To Remodel
-ach(61312),	-- Center Stager
-ach(61313),	-- Well-Travelled Collection
-ach(61314),	-- Furniture Historian
-ach(61315),	-- Array of Antiquities
-ach(61316),	-- Custom Cabinets
-ach(61317),	-- Domicile Designer
-ach(61318),	-- Fully Furnished
 ach(61344),	-- Legends of the Haranir
 ach(61346),	-- We Will, In Fact, See It Again
 ach(61366),	-- Voidspire
@@ -223,12 +165,6 @@ ach(61378),	-- Mythic: Belo'ren
 ach(61379),	-- Mythic: Midnight Falls
 ach(61380),	-- Glory of the Midnight Raider
 ach(61381),	-- Belo'ren Achievement
-ach(61386),	-- Prey: Normal Mode II
-ach(61387),	-- Prey: Normal Mode I
-ach(61388),	-- Prey: Hard Mode II
-ach(61389),	-- Prey: Hard Mode I
-ach(61391),	-- Prey: Nightmare Mode II
-ach(61392),	-- Prey: Nightmare Mode I
 ach(61430),	-- Crunching for Cultists
 ach(61438),	-- Thalassian Profession Master
 ach(61439),	-- Thalassian Artisan

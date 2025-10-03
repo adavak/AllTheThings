@@ -680,7 +680,7 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 			ach(40589),	-- Awakening The Machine: Wave 50
 		})),
 
-		-- CREATED_11_0_0
+		-- CREATED_11_0_7
 		expansion(EXPANSION.TWW, patch(0,07), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
 			-- 11.0.7.57361
 			ach(41219),	-- Explore Siren Isle => Appeared in build 11.0.7.57361, but hasn't been seen since
@@ -697,6 +697,57 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_7 } }, {
 			--11.1.7.60520
 			ach(42028),	-- Ashes to Ashes (Temporary home as this will likely return / is planned for Legion Remix, but missing files keeps picking up the commented version)
+		})),
+	}),
+	expansion(EXPANSION.MID, {
+		-- CREATED_12_0_0
+		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+			ach(42322),	-- 1st level 90 on account (DNT)
+			ach(42323),	-- 2nd level 90 on account (DNT)
+			ach(42324),	-- 3nd level 90 on account (DNT)
+			ach(42326),	-- 4th level 90 on account (DNT)
+			ach(42327),	-- 5th level 90 on account (DNT)
+			ach(41673),	-- Midnight Tailoring 25 (DNT)
+			ach(41674),	-- Midnight Tailoring 50 (DNT)
+			ach(41675),	-- Midnight Tailoring 60 (DNT)
+			ach(41679),	-- Midnight Tailoring 75 (DNT)
+			ach(41684),	-- Midnight Herbalism 25 (DNT)
+			ach(41688),	-- Midnight Herbalism 50 (DNT)
+			ach(41689),	-- Midnight Herbalism 75 (DNT)
+			ach(41690),	-- Midnight Blacksmithing 25 (DNT)
+			ach(41691),	-- Midnight Blacksmithing 50 (DNT)
+			ach(41692),	-- Midnight Blacksmithing 60 (DNT)
+			ach(41693),	-- Midnight Blacksmithing 75 (DNT)
+			ach(41739),	-- Midnight Mining 25 (DNT)
+			ach(41749),	-- Midnight Mining 50 (DNT)
+			ach(41750),	-- Midnight Mining 75 (DNT)
+			ach(41783),	-- Midnight Skinning 25 (DNT)
+			ach(41784),	-- Midnight Skinning 50 (DNT)
+			ach(41785),	-- Midnight Skinning 60 (DNT)
+			ach(41974),	-- Midnight Jewelcrafting 25 (DNT)
+			ach(41975),	-- Midnight Jewelcrafting 50 (DNT)
+			ach(41976),	-- Midnight Jewelcrafting 60 (DNT)
+			ach(41977),	-- Midnight Jewelcrafting 75 (DNT)
+			ach(42010),	-- Midnight Alchemy 25 (DNT)
+			ach(42011),	-- Midnight Alchemy 50 (DNT)
+			ach(42012),	-- Midnight Alchemy 60 (DNT)
+			ach(42013),	-- Midnight Alchemy 75 (DNT)
+			ach(42140),	-- Midnight Enchanting 25 (DNT)
+			ach(42145),	-- Midnight Enchanting 50 (DNT)
+			ach(42146),	-- Midnight Enchanting 60 (DNT)
+			ach(42147),	-- Midnight Enchanting 75 (DNT)
+			ach(42178),	-- Midnight Leatherworking 25 (DNT)
+			ach(42179),	-- Midnight Leatherworking 50 (DNT)
+			ach(42182),	-- Midnight Leatherworking 60 (DNT)
+			ach(42183),	-- Midnight Leatherworking 75 (DNT)
+			ach(42808),	-- Midnight Inscription 25 (DNT)
+			ach(42809),	-- Midnight Inscription 50 (DNT)
+			ach(42810),	-- Midnight Inscription 60 (DNT)
+			ach(42813),	-- Midnight Inscription 75 (DNT)
+			ach(42814),	-- Midnight Engineering 25 (DNT)
+			ach(42815),	-- Midnight Engineering 50 (DNT)
+			ach(42817),	-- Midnight Engineering 60 (DNT)
+			ach(42821),	-- Midnight Engineering 75 (DNT)
 		})),
 	}),
 	-- #endif

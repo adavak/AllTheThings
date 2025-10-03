@@ -567,15 +567,15 @@ REMOVED_11_2_7 = "removed 11.2.7";						-- The War Within 11.2.7 launch in autum
 --------------
 -- MIDNIGHT --
 --------------
-CREATED_12_0_0 = "created 12.0.0";						-- Midnight 12.0.0
-ADDED_12_0_0 = "added 12.0.0";							-- Midnight 12.0.0
-REMOVED_12_0_0 = "removed 12.0.0";						-- Midnight 12.0.0
-CREATED_12_PH_PREPATCH = "created 12.0.0";				-- Midnight 12.PH/Pre-Patch
-ADDED_12_PH_PREPATCH = "added 12.0.0";					-- Midnight 12.PH/Pre-Patch
-REMOVED_12_PH_PREPATCH = "removed 12.0.0";				-- Midnight 12.PH/Pre-Patch
-CREATED_12_0_0_SEASONSTART = "created 12.0.0";				-- Midnight 12.PH/Launch
-ADDED_12_0_0_SEASONSTART = "added 12.0.0";					-- Midnight 12.PH/Launch
-REMOVED_12_0_0_SEASONSTART = "removed 12.0.0";					-- Midnight 12.PH/Launch
+CREATED_12_0_0 = "created 12.0.0";						-- Midnight 12.0.0 Prepatch
+ADDED_12_0_0 = "added 12.0.0";							-- Midnight 12.0.0 Prepatch
+REMOVED_12_0_0 = "removed 12.0.0";						-- Midnight 12.0.0 Prepatch
+CREATED_12_0_0_LAUNCH = "created 12.0.0";				-- Midnight 12 Launch
+ADDED_12_0_0_LAUNCH = "added 12.0.0";					-- Midnight 12.Launch
+REMOVED_12_0_0_LAUNCH = "removed 12.0.0";				-- Midnight 12.Launch
+CREATED_12_0_0_SEASONSTART = "created 12.0.0";			-- Midnight 12 Seasonstart
+ADDED_12_0_0_SEASONSTART = "added 12.0.0";				-- Midnight 12.Seasonstart
+REMOVED_12_0_0_SEASONSTART = "removed 12.0.0";			-- Midnight 12.Seasonstart
 CREATED_12_1_0 = "created 12.1.0";						-- Midnight 12.1.0
 ADDED_12_1_0 = "added 12.1.0";							-- Midnight 12.1.0
 REMOVED_12_1_0 = "removed 12.1.0";						-- Midnight 12.1.0
