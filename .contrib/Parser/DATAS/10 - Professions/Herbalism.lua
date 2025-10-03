@@ -1545,7 +1545,15 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(42793, {	-- Herbalism at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
+		}),
+		--[[
 		n(QUESTS, sharedData({
 			["sharedDescription"] = "Requires 25 Skill.",
 			["provider"] = { "n", 219101 },	-- Akdan <Herbalism Trainer>
@@ -1682,6 +1690,6 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				["name"] = "TWW Weekly Herbalism Knowledgepoint #6",
 				["provider"] = { "i", 224265 },	-- Deepgrove Rose
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 })));

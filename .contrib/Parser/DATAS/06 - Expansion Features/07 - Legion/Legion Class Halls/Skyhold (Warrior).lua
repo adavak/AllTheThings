@@ -164,6 +164,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- (no decor reward)
 						},
 					}),
+					ach(60992, {	-- So Many Missions for Skyhold
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42282, {	-- The Battlelord's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(WARRIOR, ARMS, {

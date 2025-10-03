@@ -482,7 +482,15 @@ root(ROOTS.Professions, prof(SKINNING, {
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(42790, {	-- Skinning at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
+		}),
+		--[[
 		n(QUESTS, sharedData({
 			--["description"] = "Requires 50 Skill.",
 			["provider"] = { "n", 219083 },	-- Ginnad <Skinning Trainer>
@@ -610,8 +618,8 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["name"] = "TWW Weekly Skinning Knowledgepoint #6",
 				["provider"] = { "i", 224781 },	-- Abyssal Fur
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 }));
 profession(SKINNING, {
 	-- #if AFTER WOD

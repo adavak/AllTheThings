@@ -843,8 +843,15 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
-		n(QUESTS, sharedData({
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(42789, {	-- Jewelcrafting at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
+		}),
+		--[[n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["groups"] = {
@@ -953,8 +960,8 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				["name"] = "TWW Weekly Jewelcrafting Treasure #2",
 				["provider"] = { "i", 225225 },	-- Deepstone Fragment
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 })));
 
 root(ROOTS.HiddenQuestTriggers, {

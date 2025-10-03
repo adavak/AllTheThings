@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Replica Tome of Blighted Implements
 						},
 					}),
+					ach(60991, {	-- So Many Missions for the Dreadscar Rift
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42281, {	-- The Netherlord's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(WARLOCK, AFFLICTION, {

@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Replica Chronicle of Ages
 						},
 					}),
+					ach(60986, {	-- So Many Missions for the Temple of Five Dawns
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42275, {	-- The Grandmaster's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(MONK, BREWMASTER, {

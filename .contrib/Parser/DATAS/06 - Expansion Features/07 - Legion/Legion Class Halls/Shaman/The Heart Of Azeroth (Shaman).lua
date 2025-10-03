@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Replica Words of Wind and Earth
 						},
 					}),
+					ach(60990, {	-- So Many Missions for the Maelstrom
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42280, {	-- The Farseer's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(SHAMAN, ELEMENTAL, {

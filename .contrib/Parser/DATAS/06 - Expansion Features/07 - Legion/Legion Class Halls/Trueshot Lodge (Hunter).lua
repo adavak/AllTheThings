@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							-- i(xxxxxx),	-- Replica Tales of the Hunt
 						},
 					}),
+					ach(60984, {	-- So Many Missions for the Trueshot Lodge
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42273, {	-- The Huntmaster's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(HUNTER, BEAST_MASTERY, {

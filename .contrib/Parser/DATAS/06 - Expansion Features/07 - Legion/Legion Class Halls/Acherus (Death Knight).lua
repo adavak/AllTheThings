@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- (no decor reward)
 						},
 					}),
+					ach(60981, {	-- So Many Missions for Acherus
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42270, {	-- The Deathlord's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(DEATHKNIGHT, BLOOD, {

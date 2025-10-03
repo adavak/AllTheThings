@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Replica Word of the Conclave
 						},
 					}),
+					ach(60988, {	-- So Many Missions for the Netherlight Temple
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42277, {	-- The High Priest's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					header(HEADERS.Item, 141332, {	-- The Annals of Light and Shadow

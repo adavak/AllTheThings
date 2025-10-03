@@ -1150,11 +1150,15 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 		n(ACHIEVEMENTS, {
-			ach(19704),	-- Overflowing Algari Flasks (automated)
-			ach(19716),	-- Plentiful Algari Potions (automated)
+			ach(42788, {	-- Alchemy at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
 		}),
+		--[[
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
@@ -1255,6 +1259,6 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["name"] = "TWW Weekly Alchemy Treasure #2",
 				["provider"] = { "i", 225235} ,		-- Deepstone Crucible
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 })));

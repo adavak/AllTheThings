@@ -951,7 +951,15 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(42787, {	-- Enchanting at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
+		}),
+		--[[
 		n(QUESTS, sharedData({
 			["provider"] = { "n", 219085 },	-- Nagad <Enchanting Trainer>
 			["coord"] = { 52.7, 71.1, DORNOGAL },
@@ -1105,8 +1113,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227661 },	-- Gleaming Telluric Crystal
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 })));
 
 -- #if ANYCLASSIC

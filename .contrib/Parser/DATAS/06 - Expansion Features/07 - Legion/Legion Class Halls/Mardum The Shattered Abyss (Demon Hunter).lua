@@ -20,6 +20,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Replica Tome of Fel Secrets
 						},
 					}),
+					ach(60982, {	-- So Many Missions for the Fel Hammer
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42271, {	-- The Slayer's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(FOLLOWERS, bubbleDownSelf({
 					["collectible"] = false,

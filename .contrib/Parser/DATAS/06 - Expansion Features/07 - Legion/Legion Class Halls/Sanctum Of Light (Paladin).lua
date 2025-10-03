@@ -19,6 +19,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["groups"] = {
 							-- i(xxxxxx),	-- Replica Libram of Ancient Kings
 						},
+					}),				
+					ach(60987, {	-- So Many Missions for the Sanctum of Light
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42276, {	-- The Highlord's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
 					}),
 				}),
 				n(ARTIFACTS, {

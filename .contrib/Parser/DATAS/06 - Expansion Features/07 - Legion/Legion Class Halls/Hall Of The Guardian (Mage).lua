@@ -38,6 +38,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Conjured Archive of the Tirisgarde
 						},
 					}),
+					ach(60985, {	-- So Many Missions for the Hall of the Guardian
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42274, {	-- The Archmage's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(ARTIFACTS, {
 					cl(MAGE, ARCANE, {

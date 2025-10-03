@@ -5859,7 +5859,15 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(42796, {	-- Inscribing at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
+		}),
+		--[[
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
@@ -5962,8 +5970,8 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["name"] = "TWW Weekly Inscription Treasure #2",
 				["provider"] = { "i", 225227 },	-- Wax-Sealed Records
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 })));
 root(ROOTS.Professions, applyclassicphase(WRATH_PHASE_ONE, prof(INSCRIPTION)));
 

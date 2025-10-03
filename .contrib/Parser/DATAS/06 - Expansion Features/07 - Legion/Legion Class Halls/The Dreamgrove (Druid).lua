@@ -130,6 +130,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							-- i(xxxxxx),	-- Replica Tome of the Ancients
 						},
 					}),
+					ach(60983, {	-- So Many Missions for the Dreamgrove
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
+					ach(42272, {	-- The Archdruid's Campaign
+						["timeline"] = { ADDED_11_2_7 },
+						["groups"] = {
+						},
+					}),
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1815, {	-- The Dreamgrove, Val'sharah

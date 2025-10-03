@@ -1296,7 +1296,15 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 		})),
 	})),
-	--[[expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		n(ACHIEVEMENTS, {
+			ach(42794, {	-- Tailoring at Midnight
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+				},
+			}),
+		}),
+		--[[
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
@@ -1411,8 +1419,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["name"] = "TWW Weekly Tailoring Treasure #2",
 				["provider"] =  { "i", 225221 },	-- Spool of Webweave
 			}),
-		})),
-	})),--]]
+		})),--]]
+	})),
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
