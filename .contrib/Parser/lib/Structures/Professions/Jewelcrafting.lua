@@ -1184,38 +1184,124 @@ MOP_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 		-- #endif
 		["rank"] = 8,
 	}),
-});
-MOP_EPIC_GEM_RECIPES = sharedData({ ["timeline"] = { ADDED_5_0_4 } }, {
-	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136274, {	-- Assassin's Serpent's Eye
-		["timeline"] = { ADDED_5_2_0 },
-	})),
-	r(122675),	-- Bold Serpent's Eye
-	r(122676),	-- Brilliant Serpent's Eye
-	r(122674),	-- Delicate Serpent's Eye
-	r(122685),	-- Flashing Serpent's Eye
-	r(122684),	-- Fractured Serpent's Eye
-	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136270, {	-- Lucent Serpent's Eye
-		["timeline"] = { ADDED_5_2_0 },
-	})),
-	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136275, {	-- Mysterious Serpent's Eye
-		["timeline"] = { ADDED_5_2_0 },
-	})),
-	r(122683),	-- Precise Serpent's Eye
-	r(122682),	-- Quick Serpent's Eye
-	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136269, {	-- Resplendent Serpent's Eye
-		["timeline"] = { ADDED_5_2_0 },
-	})),
-	r(122681),	-- Rigid Serpent's Eye
-	r(122680),	-- Smooth Serpent's Eye
-	r(122678),	-- Solid Serpent's Eye
-	r(122677),	-- Sparkling Serpent's Eye
-	r(122679),	-- Subtle Serpent's Eye
-	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136273, {	-- Tense Serpent's Eye
-		["timeline"] = { ADDED_5_2_0 },
-	})),
-	applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136272, {	-- Willful Serpent's Eye
-		["timeline"] = { ADDED_5_2_0 },
-	})),
+	applyclassicphase(BFA_PHASE_ONE, r(264542, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Pandaria Jewelcrafting
+	applyclassicphase(DF_PHASE_ONE, r(382977, {["timeline"] = {ADDED_10_0_2}})),	-- Pandaria Prospecting
+	n(DISCOVERY, {
+		r(131691),	-- Imperial Amethyst
+		r(131686),	-- Primordial Ruby
+		r(131593),	-- River's Heart
+		r(131759),	-- Secrets of the Stone
+		r(131695),	-- Sun's Radiance
+		r(131690),	-- Vermilion Onyx
+		r(131688),	-- Wild Jade
+	}),
+	filter(FINGER_F, {
+		r(122668),	-- Band of Blood
+		r(122664),	-- Heart of the Earth
+		r(122667),	-- Lionsfall Ring
+		r(122666),	-- Lord's Signet
+		r(122661),	-- Ornate Band
+		r(122665),	-- Roguestone Shadowband
+	}),
+	filter(GEMS, {
+		r(107627),	-- Accurate Roguestone
+		r(107645),	-- Adept Tiger Opal
+		r(107646),	-- Artful Tiger Opal
+		r(130656),	-- Assassin's Roguestone
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136274, {["timeline"] = {ADDED_5_2_0}})),	-- Assassin's Serpent's Eye
+		r(107598),	-- Balanced Alexandrite
+		r(107622),	-- Bold Pandarian Garnet
+		r(122675),	-- Bold Serpent's Eye
+		r(107623),	-- Brilliant Pandarian Garnet
+		r(122676),	-- Brilliant Serpent's Eye
+		r(107647),	-- Champion's Tiger Opal
+		r(107648),	-- Crafty Tiger Opal
+		r(107649),	-- Deadly Tiger Opal
+		r(107628),	-- Defender's Roguestone
+		r(107650),	-- Deft Tiger Opal
+		r(107624),	-- Delicate Pandarian Garnet
+		r(122674),	-- Delicate Serpent's Eye
+		r(107599),	-- Effulgent Alexandrite
+		r(107600),	-- Energized Alexandrite
+		r(107630),	-- Etched Roguestone
+		r(107651),	-- Fierce Tiger Opal
+		r(107652),	-- Fine Tiger Opal
+		r(107625),	-- Flashing Pandarian Garnet
+		r(122685),	-- Flashing Serpent's Eye
+		r(107601),	-- Forceful Alexandrite
+		r(122684),	-- Fractured Serpent's Eye
+		r(107640),	-- Fractured Sunstone
+		r(107631),	-- Glinting Roguestone
+		r(107632),	-- Guardian's Roguestone
+		r(107653),	-- Inscribed Tiger Opal
+		r(107602),	-- Jagged Alexandrite
+		r(107654),	-- Keen Tiger Opal
+		r(107604),	-- Lightning Alexandrite
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136270, {["timeline"] = {ADDED_5_2_0}})),	-- Lucent Serpent's Eye
+		r(107655),	-- Lucent Tiger Opal
+		r(107605),	-- Misty Alexandrite
+		r(107633),	-- Mysterious Roguestone
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136275, {["timeline"] = {ADDED_5_2_0}})),	-- Mysterious Serpent's Eye
+		r(107641),	-- Mystic Sunstone
+		r(107606),	-- Nimble Alexandrite
+		r(107607),	-- Piercing Alexandrite
+		r(107656),	-- Polished Tiger Opal
+		r(107657),	-- Potent Tiger Opal
+		r(107626),	-- Precise Pandarian Garnet
+		r(122683),	-- Precise Serpent's Eye
+		r(107608),	-- Puissant Alexandrite
+		r(107634),	-- Purified Roguestone
+		r(122682),	-- Quick Serpent's Eye
+		r(107642),	-- Quick Sunstone
+		r(107609),	-- Radiant Alexandrite
+		r(107658),	-- Reckless Tiger Opal
+		r(107610),	-- Regal Alexandrite
+		r(107659),	-- Resolute Tiger Opal
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136269, {["timeline"] = {ADDED_5_2_0}})),	-- Resplendent Serpent's Eye
+		r(107660),	-- Resplendent Tiger Opal
+		r(107635),	-- Retaliating Roguestone
+		r(107617),	-- Rigid Lapis Lazuli
+		r(122681),	-- Rigid Serpent's Eye
+		r(107611),	-- Sensei's Alexandrite
+		r(107612),	-- Shattered Alexandrite
+		r(107636),	-- Shifting Roguestone
+		r(107661),	-- Skillful Tiger Opal
+		r(122680),	-- Smooth Serpent's Eye
+		r(107643),	-- Smooth Sunstone
+		r(107619),	-- Solid Lapis Lazuli
+		r(122678),	-- Solid Serpent's Eye
+		r(107637),	-- Sovereign Roguestone
+		r(107620),	-- Sparkling Lapis Lazuli
+		r(122677),	-- Sparkling Serpent's Eye
+		r(107662),	-- Splendid Tiger Opal
+		r(107663),	-- Stalwart Tiger Opal
+		r(107613),	-- Steady Alexandrite
+		r(107621),	-- Stormy Lapis Lazuli
+		r(122679),	-- Subtle Serpent's Eye
+		r(107644),	-- Subtle Sunstone
+		r(130655),	-- Tense Roguestone
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136273, {["timeline"] = {ADDED_5_2_0}})),	-- Tense Serpent's Eye
+		r(107665),	-- Tenuous Tiger Opal
+		r(107638),	-- Timeless Roguestone
+		r(107614),	-- Turbid Alexandrite
+		r(107639),	-- Veiled Roguestone
+		r(107615),	-- Vivid Alexandrite
+		r(107666),	-- Wicked Tiger Opal
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, r(136272, {["timeline"] = {ADDED_5_2_0}})),	-- Willful Serpent's Eye
+		r(107667),	-- Willful Tiger Opal
+		r(107616),	-- Zen Alexandrite
+	}),
+	filter(MISC, {
+		r(122663),	-- Scrying Roguestone
+	}),
+	filter(NECK_F, {
+		r(122670),	-- Golembreaker Amulet
+		r(122669),	-- Reflection of the Sea
+		r(122662),	-- Shadowfire Necklace
+		r(122672),	-- Skymage Circle
+		r(122673),	-- Tiger Opal Pendant
+		r(122671),	-- Widow Chain
+	}),
 });
 BFA_JEWELCRAFTING = applyclassicphase(BFA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	r(382973, {["timeline"] = {ADDED_10_0_0}}),	-- Kul Tiras and Zandalar Prospecting

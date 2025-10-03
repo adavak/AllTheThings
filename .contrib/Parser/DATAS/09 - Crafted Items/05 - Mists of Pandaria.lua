@@ -909,25 +909,91 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		}),
 	}),
 	prof(JEWELCRAFTING, {
-		filter(MOUNTS, {
-			i(83088),	-- Jade Panther (MOUNT!)
-			i(82453),	-- Jeweled Onyx Panther (MOUNT!)
-			i(83087),	-- Ruby Panther (MOUNT!)
-			i(83090),	-- Sapphire Panther (MOUNT!)
-			i(83089),	-- Sunstone Panther (MOUNT!)
+		n(DISCOVERY, {
+			spell(131691, {	-- Imperial Amethyst
+				r(107693),	-- Accurate Imperial Amethyst
+				r(130657),	-- Assassin's Imperial Amethyst
+				r(107694),	-- Defender's Imperial Amethyst
+				r(107695),	-- Etched Imperial Amethyst
+				r(107696),	-- Glinting Imperial Amethyst
+				r(107697),	-- Guardian's Imperial Amethyst
+				r(107698),	-- Mysterious Imperial Amethyst
+				r(107699),	-- Purified Imperial Amethyst
+				r(107700),	-- Retaliating Imperial Amethyst
+				r(107701),	-- Shifting Imperial Amethyst
+				r(107702),	-- Sovereign Imperial Amethyst
+				r(130658),	-- Tense Imperial Amethyst
+				r(107703),	-- Timeless Imperial Amethyst
+				r(107704),	-- Veiled Imperial Amethyst
+			}),
+			spell(131686, {	-- Primordial Ruby
+				r(107705),	-- Bold Primordial Ruby
+				r(107706),	-- Brilliant Primordial Ruby
+				r(107707),	-- Delicate Primordial Ruby
+				r(107708),	-- Flashing Primordial Ruby
+				r(107709),	-- Precise Primordial Ruby
+			}),
+			spell(131593, {	-- River's Heart
+				r(106947),	-- Rigid River's Heart
+				r(106950),	-- Solid River's Heart
+				r(106949),	-- Sparkling River's Heart
+				r(106948),	-- Stormy River's Heart
+			}),
+			spell(131695, {	-- Sun's Radiance
+				r(107710),	-- Fractured Sun's Radiance
+				r(107711),	-- Mystic Sun's Radiance
+				r(107712),	-- Quick Sun's Radiance
+				r(107713),	-- Smooth Sun's Radiance
+				r(107714),	-- Subtle Sun's Radiance
+			}),
+			spell(131690, {	-- Vermilion Onyx
+				r(107715),	-- Adept Vermilion Onyx
+				r(107716),	-- Artful Vermilion Onyx
+				r(107717),	-- Champion's Vermilion Onyx
+				r(107718),	-- Crafty Vermilion Onyx
+				r(107719),	-- Deadly Vermilion Onyx
+				r(107720),	-- Deft Vermilion Onyx
+				r(107721),	-- Fierce Vermilion Onyx
+				r(107722),	-- Fine Vermilion Onyx
+				r(107723),	-- Inscribed Vermilion Onyx
+				r(107724),	-- Keen Vermilion Onyx
+				r(107725),	-- Lucent Vermilion Onyx
+				r(107726),	-- Polished Vermilion Onyx
+				r(107727),	-- Potent Vermilion Onyx
+				r(107728),	-- Reckless Vermilion Onyx
+				r(107729),	-- Resolute Vermilion Onyx
+				r(107730),	-- Resplendent Vermilion Onyx
+				r(107731),	-- Skillful Vermilion Onyx
+				r(107732),	-- Splendid Vermilion Onyx
+				r(107733),	-- Stalwart Vermilion Onyx
+				r(107734),	-- Tenuous Vermilion Onyx
+				r(107735),	-- Wicked Vermilion Onyx
+				r(107736),	-- Willful Vermilion Onyx
+			}),
+			spell(131688, {	-- Wild Jade
+				r(106960),	-- Balanced Wild Jade
+				r(106957),	-- Effulgent Wild Jade
+				r(107737),	-- Energized Wild Jade
+				r(107738),	-- Forceful Wild Jade
+				r(107739),	-- Jagged Wild Jade
+				r(106955),	-- Lightning Wild Jade
+				r(106953),	-- Misty Wild Jade
+				r(107740),	-- Nimble Wild Jade
+				r(106954),	-- Piercing Wild Jade
+				r(107742),	-- Puissant Wild Jade
+				r(107743),	-- Radiant Wild Jade
+				r(107744),	-- Regal Wild Jade
+				r(106956),	-- Sensei's Wild Jade
+				r(107745),	-- Shattered Wild Jade
+				r(107746),	-- Steady Wild Jade
+				r(106962),	-- Turbid Wild Jade
+				r(106961),	-- Vivid Wild Jade
+				r(106958),	-- Zen Wild Jade
+			}),
 		}),
 		filter(BATTLE_PETS, {
 			i(82774),	-- Jade Owl (PET!)
 			i(82775),	-- Sapphire Cub (PET!)
-		}),
-		filter(NECK_F, {
-			i(83803),	-- Golembreaker Amulet
-			i(83802),	-- Reflection of the Sea
-			i(83794),	-- Shadowfire Necklace
-			i(90905),	-- Shadowfire Necklace
-			i(83805),	-- Skymage Circle
-			i(83806),	-- Tiger Opal Pendant
-			i(83804),	-- Widow Chain
 		}),
 		filter(FINGER_F, {
 			i(83801),	-- Band of Blood
@@ -938,13 +1004,278 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(90904),	-- Ornate Band
 			i(83798),	-- Roguestone Shadowband
 		}),
-		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(95469, {	-- Serpent's Heart
-			["timeline"] = { ADDED_5_2_0 },
-			["groups"] = {
-				i(90470),	-- Design: Jade Owl
-				i(90471),	-- Design: Sapphire Cub
-			},
-		})),
+		filter(GEMS, {
+			n(SPECIAL, {
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93409, {["timeline"] = {ADDED_5_2_0}})),	-- Assassin's Serpent's Eye
+				i(83141),	-- Bold Serpent's Eye
+				i(83150),	-- Brilliant Serpent's Eye
+				i(83151),	-- Delicate Serpent's Eye
+				i(83152),	-- Flashing Serpent's Eye
+				i(83143),	-- Fractured Serpent's Eye
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93405, {["timeline"] = {ADDED_5_2_0}})),	-- Lucent Serpent's Eye
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93410, {["timeline"] = {ADDED_5_2_0}})),	-- Mysterious Serpent's Eye
+				i(83147),	-- Precise Serpent's Eye
+				i(83142),	-- Quick Serpent's Eye
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93404, {["timeline"] = {ADDED_5_2_0}})),	-- Resplendent Serpent's Eye
+				i(83144),	-- Rigid Serpent's Eye
+				i(83146),	-- Smooth Serpent's Eye
+				i(83148),	-- Solid Serpent's Eye
+				i(83149),	-- Sparkling Serpent's Eye
+				i(83145),	-- Subtle Serpent's Eye
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93408, {["timeline"] = {ADDED_5_2_0}})),	-- Tense Serpent's Eye
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(93406, {["timeline"] = {ADDED_5_2_0}})),	-- Willful Serpent's Eye
+			}),
+			n(QUALITY_UNCOMMON, {
+				i(76549),	-- Accurate Roguestone
+				i(76538),	-- Adept Tiger Opal
+				i(76540),	-- Artful Tiger Opal
+				i(89678),	-- Assassin's Roguestone
+				i(76513),	-- Balanced Alexandrite
+				i(76564),	-- Bold Pandarian Garnet
+				i(76562),	-- Brilliant Pandarian Garnet
+				i(76533),	-- Champion's Tiger Opal
+				i(76527),	-- Crafty Tiger Opal
+				i(76526),	-- Deadly Tiger Opal
+				i(76558),	-- Defender's Roguestone
+				i(76534),	-- Deft Tiger Opal
+				i(76560),	-- Delicate Pandarian Garnet
+				i(76511),	-- Effulgent Alexandrite
+				i(76519),	-- Energized Alexandrite
+				i(76552),	-- Etched Roguestone
+				i(76537),	-- Fierce Tiger Opal
+				i(76541),	-- Fine Tiger Opal
+				i(76563),	-- Flashing Pandarian Garnet
+				i(76522),	-- Forceful Alexandrite
+				i(76568),	-- Fractured Sunstone
+				i(76548),	-- Glinting Roguestone
+				i(76556),	-- Guardian's Roguestone
+				i(76529),	-- Inscribed Tiger Opal
+				i(76520),	-- Jagged Alexandrite
+				i(76539),	-- Keen Tiger Opal
+				i(76509),	-- Lightning Alexandrite
+				i(76543),	-- Lucent Tiger Opal
+				i(76507),	-- Misty Alexandrite
+				i(76553),	-- Mysterious Roguestone
+				i(76569),	-- Mystic Sunstone
+				i(93706),	-- Nimble Alexandrite
+				i(76615),	-- Perfect Accurate Roguestone
+				i(76604),	-- Perfect Adept Tiger Opal
+				i(76606),	-- Perfect Artful Tiger Opal
+				i(89679),	-- Perfect Assassin's Roguestone
+				i(76580),	-- Perfect Balanced Alexandrite
+				i(76630),	-- Perfect Bold Pandarian Garnet
+				i(76628),	-- Perfect Brilliant Pandarian Garnet
+				i(76599),	-- Perfect Champion's Tiger Opal
+				i(76593),	-- Perfect Crafty Tiger Opal
+				i(76592),	-- Perfect Deadly Tiger Opal
+				i(76624),	-- Perfect Defender's Roguestone
+				i(76600),	-- Perfect Deft Tiger Opal
+				i(76626),	-- Perfect Delicate Pandarian Garnet
+				i(76578),	-- Perfect Effulgent Alexandrite
+				i(76585),	-- Perfect Energized Alexandrite
+				i(76618),	-- Perfect Etched Roguestone
+				i(76603),	-- Perfect Fierce Tiger Opal
+				i(76607),	-- Perfect Fine Tiger Opal
+				i(76629),	-- Perfect Flashing Pandarian Garnet
+				i(76588),	-- Perfect Forceful Alexandrite
+				i(76634),	-- Perfect Fractured Sunstone
+				i(76614),	-- Perfect Glinting Roguestone
+				i(76622),	-- Perfect Guardian's Roguestone
+				i(76595),	-- Perfect Inscribed Tiger Opal
+				i(76605),	-- Perfect Keen Tiger Opal
+				i(76576),	-- Perfect Lightning Alexandrite
+				i(76609),	-- Perfect Lucent Tiger Opal
+				i(76574),	-- Perfect Misty Alexandrite
+				i(76619),	-- Perfect Mysterious Roguestone
+				i(76635),	-- Perfect Mystic Sunstone
+				i(93707),	-- Perfect Nimble Alexandrite
+				i(76575),	-- Perfect Piercing Alexandrite
+				i(76596),	-- Perfect Polished Tiger Opal
+				i(76594),	-- Perfect Potent Tiger Opal
+				i(76627),	-- Perfect Precise Pandarian Garnet
+				i(76590),	-- Perfect Puissant Alexandrite
+				i(76620),	-- Perfect Purified Roguestone
+				i(76633),	-- Perfect Quick Sunstone
+				i(76583),	-- Perfect Radiant Alexandrite
+				i(76602),	-- Perfect Reckless Tiger Opal
+				i(76587),	-- Perfect Regal Alexandrite
+				i(76597),	-- Perfect Resolute Tiger Opal
+				i(76613),	-- Perfect Resplendent Tiger Opal
+				i(76617),	-- Perfect Retaliating Roguestone
+				i(76570),	-- Perfect Rigid Lapis Lazuli
+				i(76577),	-- Perfect Sensei's Alexandrite
+				i(76584),	-- Perfect Shattered Alexandrite
+				i(76621),	-- Perfect Shifting Roguestone
+				i(76608),	-- Perfect Skillful Tiger Opal
+				i(76631),	-- Perfect Smooth Sunstone
+				i(76573),	-- Perfect Solid Lapis Lazuli
+				i(76625),	-- Perfect Sovereign Roguestone
+				i(76572),	-- Perfect Sparkling Lapis Lazuli
+				i(76612),	-- Perfect Splendid Tiger Opal
+				i(76598),	-- Perfect Stalwart Tiger Opal
+				i(76591),	-- Perfect Steady Alexandrite
+				i(76571),	-- Perfect Stormy Lapis Lazuli
+				i(76632),	-- Perfect Subtle Sunstone
+				i(89676),	-- Perfect Tense Roguestone
+				i(76610),	-- Perfect Tenuous Tiger Opal
+				i(76623),	-- Perfect Timeless Roguestone
+				i(76582),	-- Perfect Turbid Alexandrite
+				i(76616),	-- Perfect Veiled Roguestone
+				i(76581),	-- Perfect Vivid Alexandrite
+				i(76601),	-- Perfect Wicked Tiger Opal
+				i(76611),	-- Perfect Willful Tiger Opal
+				i(76579),	-- Perfect Zen Alexandrite
+				i(76508),	-- Piercing Alexandrite
+				i(76530),	-- Polished Tiger Opal
+				i(76528),	-- Potent Tiger Opal
+				i(76561),	-- Precise Pandarian Garnet
+				i(76524),	-- Puissant Alexandrite
+				i(76554),	-- Purified Roguestone
+				i(76567),	-- Quick Sunstone
+				i(76517),	-- Radiant Alexandrite
+				i(76536),	-- Reckless Tiger Opal
+				i(76521),	-- Regal Alexandrite
+				i(76531),	-- Resolute Tiger Opal
+				i(76547),	-- Resplendent Tiger Opal
+				i(76551),	-- Retaliating Roguestone
+				i(76502),	-- Rigid Lapis Lazuli
+				i(76510),	-- Sensei's Alexandrite
+				i(76518),	-- Shattered Alexandrite
+				i(76555),	-- Shifting Roguestone
+				i(76542),	-- Skillful Tiger Opal
+				i(76565),	-- Smooth Sunstone
+				i(76506),	-- Solid Lapis Lazuli
+				i(76559),	-- Sovereign Roguestone
+				i(76505),	-- Sparkling Lapis Lazuli
+				i(76546),	-- Splendid Tiger Opal
+				i(76532),	-- Stalwart Tiger Opal
+				i(76525),	-- Steady Alexandrite
+				i(76504),	-- Stormy Lapis Lazuli
+				i(76566),	-- Subtle Sunstone
+				i(89675),	-- Tense Roguestone
+				i(76544),	-- Tenuous Tiger Opal
+				i(76557),	-- Timeless Roguestone
+				i(76515),	-- Turbid Alexandrite
+				i(76550),	-- Veiled Roguestone
+				i(76514),	-- Vivid Alexandrite
+				i(76535),	-- Wicked Tiger Opal
+				i(76545),	-- Willful Tiger Opal
+				i(76512),	-- Zen Alexandrite
+			}),
+			n(QUALITY_RARE, {
+				i(76681),	-- Accurate Imperial Amethyst
+				i(76670),	-- Adept Vermilion Onyx
+				i(76884),	-- Agile Primal Diamond
+				i(76672),	-- Artful Vermilion Onyx
+				i(89680),	-- Assassin's Imperial Amethyst
+				i(76895),	-- Austere Primal Diamond
+				i(76646),	-- Balanced Wild Jade
+				i(76696),	-- Bold Primordial Ruby
+				i(76694),	-- Brilliant Primordial Ruby
+				i(76885),	-- Burning Primal Diamond
+				i(76665),	-- Champion's Vermilion Onyx
+				i(76659),	-- Crafty Vermilion Onyx
+				i(76658),	-- Deadly Vermilion Onyx
+				i(76690),	-- Defender's Imperial Amethyst
+				i(76666),	-- Deft Vermilion Onyx
+				i(76692),	-- Delicate Primordial Ruby
+				i(76890),	-- Destructive Primal Diamond
+				i(76897),	-- Effulgent Primal Diamond
+				i(76644),	-- Effulgent Wild Jade
+				i(76879),	-- Ember Primal Diamond
+				i(76651),	-- Energized Wild Jade
+				i(76892),	-- Enigmatic Primal Diamond
+				i(76684),	-- Etched Imperial Amethyst
+				i(76896),	-- Eternal Primal Diamond
+				i(76669),	-- Fierce Vermilion Onyx
+				i(76673),	-- Fine Vermilion Onyx
+				i(76695),	-- Flashing Primordial Ruby
+				i(76887),	-- Fleet Primal Diamond
+				i(76654),	-- Forceful Wild Jade
+				i(76894),	-- Forlorn Primal Diamond
+				i(76700),	-- Fractured Sun's Radiance
+				i(76680),	-- Glinting Imperial Amethyst
+				i(76688),	-- Guardian's Imperial Amethyst
+				i(76893),	-- Impassive Primal Diamond
+				i(76661),	-- Inscribed Vermilion Onyx
+				i(76652),	-- Jagged Wild Jade
+				i(76671),	-- Keen Vermilion Onyx
+				i(76642),	-- Lightning Wild Jade
+				i(76675),	-- Lucent Vermilion Onyx
+				i(76640),	-- Misty Wild Jade
+				i(76685),	-- Mysterious Imperial Amethyst
+				i(76701),	-- Mystic Sun's Radiance
+				i(93705),	-- Nimble Wild Jade
+				i(76641),	-- Piercing Wild Jade
+				i(76662),	-- Polished Vermilion Onyx
+				i(76660),	-- Potent Vermilion Onyx
+				i(76891),	-- Powerful Primal Diamond
+				i(76693),	-- Precise Primordial Ruby
+				i(76656),	-- Puissant Wild Jade
+				i(76686),	-- Purified Imperial Amethyst
+				i(76699),	-- Quick Sun's Radiance
+				i(76649),	-- Radiant Wild Jade
+				i(76668),	-- Reckless Vermilion Onyx
+				i(76653),	-- Regal Wild Jade
+				i(76663),	-- Resolute Vermilion Onyx
+				i(76679),	-- Resplendent Vermilion Onyx
+				i(76683),	-- Retaliating Imperial Amethyst
+				i(76886),	-- Reverberating Primal Diamond
+				i(76888),	-- Revitalizing Primal Diamond
+				i(76636),	-- Rigid River's Heart
+				i(76643),	-- Sensei's Wild Jade
+				i(76650),	-- Shattered Wild Jade
+				i(76687),	-- Shifting Imperial Amethyst
+				i(76674),	-- Skillful Vermilion Onyx
+				i(76697),	-- Smooth Sun's Radiance
+				i(76639),	-- Solid River's Heart
+				i(76691),	-- Sovereign Imperial Amethyst
+				i(76638),	-- Sparkling River's Heart
+				i(76678),	-- Splendid Vermilion Onyx
+				i(76664),	-- Stalwart Vermilion Onyx
+				i(76657),	-- Steady Wild Jade
+				i(76637),	-- Stormy River's Heart
+				i(76698),	-- Subtle Sun's Radiance
+				i(89674),	-- Tense Imperial Amethyst
+				i(76676),	-- Tenuous Vermilion Onyx
+				i(76689),	-- Timeless Imperial Amethyst
+				i(76648),	-- Turbid Wild Jade
+				i(76682),	-- Veiled Imperial Amethyst
+				i(76647),	-- Vivid Wild Jade
+				i(76667),	-- Wicked Vermilion Onyx
+				i(76677),	-- Willful Vermilion Onyx
+				i(76645),	-- Zen Wild Jade
+			}),
+		}),
+		filter(MISC, {
+			i(83795),	-- Scrying Roguestone
+			applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(95469, {	-- Serpent's Heart
+				["timeline"] = { ADDED_5_2_0 },
+				["groups"] = {
+					i(90470),	-- Design: Jade Owl (RECIPE!)
+					i(90471),	-- Design: Sapphire Cub (RECIPE!)
+				},
+			})),
+		}),
+		filter(MOUNTS, {
+			i(83088),	-- Jade Panther (MOUNT!)
+			i(82453),	-- Jeweled Onyx Panther (MOUNT!)
+			i(83087),	-- Ruby Panther (MOUNT!)
+			i(83090),	-- Sapphire Panther (MOUNT!)
+			i(83089),	-- Sunstone Panther (MOUNT!)
+		}),
+		filter(NECK_F, {
+			i(83803),	-- Golembreaker Amulet
+			i(83802),	-- Reflection of the Sea
+			i(83794),	-- Shadowfire Necklace
+			i(90905),	-- Shadowfire Necklace
+			i(83805),	-- Skymage Circle
+			i(83806),	-- Tiger Opal Pendant
+			i(83804),	-- Widow Chain
+		}),
+		filter(REAGENTS, {
+			i(76132, {["timeline"] = {ADDED_5_2_0}}),	-- Primal Diamond
+		}),
 	}),
 	prof(LEATHERWORKING, {
 		n(DISCOVERY, {

@@ -892,21 +892,21 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						{		-- Neutral
 						}, {	-- Friendly
 						}, {	-- Honored
-							i(83845),	-- Design: Jade Panther
-							i(83830),	-- Design: Sunstone Panther
+							i(83845),	-- Design: Jade Panther (RECIPE!)
+							i(83830),	-- Design: Sunstone Panther (RECIPE!)
 						}, {	-- Revered
 							i(89222, {	-- Cloud Ring (TOY!)
 								["cost"] = 10000000,	-- 1,000g
 							}),
-							i(83931),	-- Design: Ruby Panther
-							i(83932),	-- Design: Sapphire Panther
+							i(83931),	-- Design: Ruby Panther (RECIPE!)
+							i(83932),	-- Design: Sapphire Panther (RECIPE!)
 							i(89225),	-- Finish Line
 							i(89227),	-- Floating Finish Line
 							i(89224),	-- Floating Racing Flag
 							i(93229),	-- Grand Commendation of the Order of the Cloud Serpent
 							i(89223),	-- Racing Flag
 						}, {	-- Exalted
-							i(83877),	-- Design: Jeweled Onyx Panther
+							i(83877),	-- Design: Jeweled Onyx Panther (RECIPE!)
 							i(183123, {	-- How to School Your Serpent (CI!)
 								["description"] = "Purchasable/learnable by any character exalted with Order of the Cloud Serpent.",
 								["timeline"] = { ADDED_9_0_1 },

@@ -1515,61 +1515,206 @@ i(71914, 101770);	-- Wicked Lava Coral
 i(71924, 101780);	-- Willful Lava Coral
 i(71892, 101748);	-- Zen Elven Peridot
 
-
--- Everything in the file currently is representative of live Retail data, so let's avoid contaminating
--- Classic pre-CATA where the Great JC Recipe Replacement took place
--- #if BEFORE CATA
-if true then return end
--- #endif
-
------------------
--- PATCH 5.0.1 --
------------------
-i(83811, 107753);	-- Design: Agile Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83815, 107754);	-- Design: Austere Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83825, 107756);	-- Design: Burning Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83830, 121843);	-- Design: Sunstone Panther (Guessed via Filter Recipe with SpellID)
-i(83840, 107757);	-- Design: Destructive Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83842, 107758);	-- Design: Effulgent Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83844, 107759);	-- Design: Ember Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83845, 121844);	-- Design: Jade Panther (Guessed via Filter Recipe with SpellID)
-i(83848, 107760);	-- Design: Enigmatic Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83851, 107762);	-- Design: Eternal Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83859, 107763);	-- Design: Fleet Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83862, 107764);	-- Design: Forlorn Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83872, 107765);	-- Design: Impassive Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83877, 120045);	-- Design: Jeweled Onyx Panther (Guessed via Filter Recipe with SpellID)
-i(83901, 107766);	-- Design: Powerful Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83925, 107767);	-- Design: Reverberating Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83926, 107768);	-- Design: Revitalizing Primal Diamond (Guessed via Filter Recipe with SpellID)
-i(83931, 121841);	-- Design: Ruby Panther (Guessed via Filter Recipe with SpellID)
-i(83932, 121842);	-- Design: Sapphire Panther (Guessed via Filter Recipe with SpellID)
-
 -----------------
 -- PATCH 5.0.4 --
 -----------------
-i(90471, 131898);	-- Design: Sapphire Cub (Guessed via Filter Recipe with SpellID)
-i(90470, 131897);	-- Design: Jade Owl (Guessed via Filter Recipe with SpellID)
 --- TRAINER ---
 i(0, 110420);	-- Jewelcrafting (Zen Master)
+i(0, 107627);	-- Accurate Roguestone
+i(0, 107645);	-- Adept Tiger Opal
+i(0, 107646);	-- Artful Tiger Opal
+i(0, 130656);	-- Assassin's Roguestone
+i(0, 107598);	-- Balanced Alexandrite
+i(0, 122668);	-- Band of Blood
+i(0, 107622);	-- Bold Pandarian Garnet
 i(0, 122675);	-- Bold Serpent's Eye
+i(0, 107623);	-- Brilliant Pandarian Garnet
 i(0, 122676);	-- Brilliant Serpent's Eye
+i(0, 107647);	-- Champion's Tiger Opal
+i(0, 107648);	-- Crafty Tiger Opal
+i(0, 107649);	-- Deadly Tiger Opal
+i(0, 107628);	-- Defender's Roguestone
+i(0, 107650);	-- Deft Tiger Opal
+i(0, 107624);	-- Delicate Pandarian Garnet
 i(0, 122674);	-- Delicate Serpent's Eye
+i(0, 107599);	-- Effulgent Alexandrite
+i(0, 107600);	-- Energized Alexandrite
+i(0, 107630);	-- Etched Roguestone
+i(0, 107651);	-- Fierce Tiger Opal
+i(0, 107652);	-- Fine Tiger Opal
+i(0, 107625);	-- Flashing Pandarian Garnet
 i(0, 122685);	-- Flashing Serpent's Eye
+i(0, 107601);	-- Forceful Alexandrite
 i(0, 122684);	-- Fractured Serpent's Eye
+i(0, 107640);	-- Fractured Sunstone
+i(0, 107631);	-- Glinting Roguestone
+i(0, 122670);	-- Golembreaker Amulet
+i(0, 107632);	-- Guardian's Roguestone
+i(0, 122664);	-- Heart of the Earth
+i(0, 131691);	-- Imperial Amethyst
+i(0, 107653);	-- Inscribed Tiger Opal
+i(0, 107602);	-- Jagged Alexandrite
+i(0, 107654);	-- Keen Tiger Opal
+i(0, 107604);	-- Lightning Alexandrite
+i(0, 122667);	-- Lionsfall Ring
+i(0, 122666);	-- Lord's Signet
+i(0, 107655);	-- Lucent Tiger Opal
+i(0, 107605);	-- Misty Alexandrite
+i(0, 107633);	-- Mysterious Roguestone
+i(0, 107641);	-- Mystic Sunstone
+i(0, 107606);	-- Nimble Alexandrite
+i(0, 122661);	-- Ornate Band
+i(0, 107607);	-- Piercing Alexandrite
+i(0, 107656);	-- Polished Tiger Opal
+i(0, 107657);	-- Potent Tiger Opal
+i(0, 107626);	-- Precise Pandarian Garnet
 i(0, 122683);	-- Precise Serpent's Eye
+i(0, 131686);	-- Primordial Ruby
+i(0, 107608);	-- Puissant Alexandrite
+i(0, 107634);	-- Purified Roguestone
 i(0, 122682);	-- Quick Serpent's Eye
+i(0, 107642);	-- Quick Sunstone
+i(0, 107609);	-- Radiant Alexandrite
+i(0, 107658);	-- Reckless Tiger Opal
+i(0, 122669);	-- Reflection of the Sea
+i(0, 107610);	-- Regal Alexandrite
+i(0, 107659);	-- Resolute Tiger Opal
+i(0, 107660);	-- Resplendent Tiger Opal
+i(0, 107635);	-- Retaliating Roguestone
+i(0, 107617);	-- Rigid Lapis Lazuli
 i(0, 122681);	-- Rigid Serpent's Eye
+i(0, 131593);	-- River's Heart
+i(0, 122665);	-- Roguestone Shadowband
+i(0, 122663);	-- Scrying Roguestone
+i(0, 131759);	-- Secrets of the Stone
+i(0, 107611);	-- Sensei's Alexandrite
+i(0, 122662);	-- Shadowfire Necklace
+i(0, 107612);	-- Shattered Alexandrite
+i(0, 107636);	-- Shifting Roguestone
+i(0, 107661);	-- Skillful Tiger Opal
+i(0, 122672);	-- Skymage Circle
 i(0, 122680);	-- Smooth Serpent's Eye
+i(0, 107643);	-- Smooth Sunstone
+i(0, 107619);	-- Solid Lapis Lazuli
 i(0, 122678);	-- Solid Serpent's Eye
+i(0, 107637);	-- Sovereign Roguestone
+i(0, 107620);	-- Sparkling Lapis Lazuli
 i(0, 122677);	-- Sparkling Serpent's Eye
+i(0, 107662);	-- Splendid Tiger Opal
+i(0, 107663);	-- Stalwart Tiger Opal
+i(0, 107613);	-- Steady Alexandrite
+i(0, 107621);	-- Stormy Lapis Lazuli
 i(0, 122679);	-- Subtle Serpent's Eye
+i(0, 107644);	-- Subtle Sunstone
+i(0, 131695);	-- Sun's Radiance
+i(0, 130655);	-- Tense Roguestone
+i(0, 107665);	-- Tenuous Tiger Opal
+i(0, 122673);	-- Tiger Opal Pendant
+i(0, 107638);	-- Timeless Roguestone
+i(0, 107614);	-- Turbid Alexandrite
+i(0, 107639);	-- Veiled Roguestone
+i(0, 131690);	-- Vermilion Onyx
+i(0, 107615);	-- Vivid Alexandrite
+i(0, 107666);	-- Wicked Tiger Opal
+i(0, 122671);	-- Widow Chain
+i(0, 131688);	-- Wild Jade
+i(0, 107667);	-- Willful Tiger Opal
+i(0, 107616);	-- Zen Alexandrite
+--- ITEM ---
+i(83811, 107753);	-- Agile Primal Diamond
+i(83815, 107754);	-- Austere Primal Diamond
+i(83825, 107756);	-- Burning Primal Diamond
+i(83840, 107757);	-- Destructive Primal Diamond
+i(83842, 107758);	-- Effulgent Primal Diamond
+i(83844, 107759);	-- Ember Primal Diamond
+i(83848, 107760);	-- Enigmatic Primal Diamond
+i(83851, 107762);	-- Eternal Primal Diamond
+i(83859, 107763);	-- Fleet Primal Diamond
+i(83862, 107764);	-- Forlorn Primal Diamond
+i(83872, 107765);	-- Impassive Primal Diamond
+i(90470, 131897);	-- Jade Owl
+i(83845, 121844);	-- Jade Panther
+i(83877, 120045);	-- Jeweled Onyx Panther
+i(83901, 107766);	-- Powerful Primal Diamond
+i(83925, 107767);	-- Reverberating Primal Diamond
+i(83926, 107768);	-- Revitalizing Primal Diamond
+i(83931, 121841);	-- Ruby Panther
+i(90471, 131898);	-- Sapphire Cub
+i(83932, 121842);	-- Sapphire Panther
+i(83830, 121843);	-- Sunstone Panther
+--- DISCOVERY ---
+i(0, 107693);	-- Accurate Imperial Amethyst
+i(0, 107715);	-- Adept Vermilion Onyx
+i(0, 107716);	-- Artful Vermilion Onyx
+i(0, 130657);	-- Assassin's Imperial Amethyst
+i(0, 106960);	-- Balanced Wild Jade
+i(0, 107705);	-- Bold Primordial Ruby
+i(0, 107706);	-- Brilliant Primordial Ruby
+i(0, 107717);	-- Champion's Vermilion Onyx
+i(0, 107718);	-- Crafty Vermilion Onyx
+i(0, 107719);	-- Deadly Vermilion Onyx
+i(0, 107694);	-- Defender's Imperial Amethyst
+i(0, 107720);	-- Deft Vermilion Onyx
+i(0, 107707);	-- Delicate Primordial Ruby
+i(0, 106957);	-- Effulgent Wild Jade
+i(0, 107737);	-- Energized Wild Jade
+i(0, 107695);	-- Etched Imperial Amethyst
+i(0, 107721);	-- Fierce Vermilion Onyx
+i(0, 107722);	-- Fine Vermilion Onyx
+i(0, 107708);	-- Flashing Primordial Ruby
+i(0, 107738);	-- Forceful Wild Jade
+i(0, 107710);	-- Fractured Sun's Radiance
+i(0, 107696);	-- Glinting Imperial Amethyst
+i(0, 107697);	-- Guardian's Imperial Amethyst
+i(0, 107723);	-- Inscribed Vermilion Onyx
+i(0, 107739);	-- Jagged Wild Jade
+i(0, 107724);	-- Keen Vermilion Onyx
+i(0, 106955);	-- Lightning Wild Jade
+i(0, 107725);	-- Lucent Vermilion Onyx
+i(0, 106953);	-- Misty Wild Jade
+i(0, 107698);	-- Mysterious Imperial Amethyst
+i(0, 107711);	-- Mystic Sun's Radiance
+i(0, 107740);	-- Nimble Wild Jade
+i(0, 106954);	-- Piercing Wild Jade
+i(0, 107726);	-- Polished Vermilion Onyx
+i(0, 107727);	-- Potent Vermilion Onyx
+i(0, 107709);	-- Precise Primordial Ruby
+i(0, 107742);	-- Puissant Wild Jade
+i(0, 107699);	-- Purified Imperial Amethyst
+i(0, 107712);	-- Quick Sun's Radiance
+i(0, 107743);	-- Radiant Wild Jade
+i(0, 107728);	-- Reckless Vermilion Onyx
+i(0, 107744);	-- Regal Wild Jade
+i(0, 107729);	-- Resolute Vermilion Onyx
+i(0, 107730);	-- Resplendent Vermilion Onyx
+i(0, 107700);	-- Retaliating Imperial Amethyst
+i(0, 106947);	-- Rigid River's Heart
+i(0, 106956);	-- Sensei's Wild Jade
+i(0, 107745);	-- Shattered Wild Jade
+i(0, 107701);	-- Shifting Imperial Amethyst
+i(0, 107731);	-- Skillful Vermilion Onyx
+i(0, 107713);	-- Smooth Sun's Radiance
+i(0, 106950);	-- Solid River's Heart
+i(0, 107702);	-- Sovereign Imperial Amethyst
+i(0, 106949);	-- Sparkling River's Heart
+i(0, 107732);	-- Splendid Vermilion Onyx
+i(0, 107733);	-- Stalwart Vermilion Onyx
+i(0, 107746);	-- Steady Wild Jade
+i(0, 106948);	-- Stormy River's Heart
+i(0, 107714);	-- Subtle Sun's Radiance
+i(0, 130658);	-- Tense Imperial Amethyst
+i(0, 107734);	-- Tenuous Vermilion Onyx
+i(0, 107703);	-- Timeless Imperial Amethyst
+i(0, 106962);	-- Turbid Wild Jade
+i(0, 107704);	-- Veiled Imperial Amethyst
+i(0, 106961);	-- Vivid Wild Jade
+i(0, 107735);	-- Wicked Vermilion Onyx
+i(0, 107736);	-- Willful Vermilion Onyx
+i(0, 106958);	-- Zen Wild Jade
 
 -----------------
 -- PATCH 5.2.0 --
 -----------------
-i(95470, 140050);	-- Design: Serpent's Heart (Guessed via Filter Recipe with SpellID)
-i(95471, 140060);	-- Design: Primal Diamond (Guessed via Filter Recipe with SpellID)
 --- TRAINER ---
 i(0, 136274);	-- Assassin's Serpent's Eye
 i(0, 136270);	-- Lucent Serpent's Eye
@@ -1577,6 +1722,9 @@ i(0, 136275);	-- Mysterious Serpent's Eye
 i(0, 136269);	-- Resplendent Serpent's Eye
 i(0, 136273);	-- Tense Serpent's Eye
 i(0, 136272);	-- Willful Serpent's Eye
+--- ITEM ---
+i(95470, 140050);	-- Serpent's Heart
+i(95471, 140060);	-- Primal Diamond
 
 -----------------
 -- PATCH 6.0.1 --

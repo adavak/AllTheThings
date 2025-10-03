@@ -714,8 +714,8 @@ root(ROOTS.Zones, {
 							ach(7318, {	-- A Taste of History
 								["_drop"] = { "providers" },	-- Drop the "reputation spell"?
 							}),
-							i(90470),	-- Design: Jade Owl
-							i(90471),	-- Design: Sapphire Cub
+							i(90470),	-- Design: Jade Owl (RECIPE!)
+							i(90471),	-- Design: Sapphire Cub (RECIPE!)
 							i(90815),	-- Relic of Guo-Lai
 							i(90816),	-- Relic of the Thunder King
 							i(79731),	-- Scroll of Wisdom

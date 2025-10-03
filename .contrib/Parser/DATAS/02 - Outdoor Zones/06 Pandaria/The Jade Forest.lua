@@ -416,7 +416,7 @@ root(ROOTS.Zones, {
 					prof(JEWELCRAFTING, {
 						n(65098, {	-- Mai the Jade Shaper <Jewelcrafting Trainer>
 							["coord"] = { 48.1, 35, THE_JADE_FOREST },
-							["groups"] = MOP_EPIC_GEM_RECIPES,
+							["groups"] = MOP_JEWELCRAFTING,
 						}),
 					}),
 					prof(MINING, {
