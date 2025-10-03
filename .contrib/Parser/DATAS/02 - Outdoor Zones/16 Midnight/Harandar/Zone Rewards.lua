@@ -3,7 +3,7 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, MIDNIGHT, {
-	m(XXXX, {
+	M(HARANDAR, {
 		n(ZONE_REWARDS, {
 		}),
 	}),

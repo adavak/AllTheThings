@@ -3,7 +3,7 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, MIDNIGHT, {
-	m(XXXX, {
+	M(ZULAMAN_MID, {
 		skyriding(n(SKYRIDING, {
 			n(ACHIEVEMENTS, {
 			}),

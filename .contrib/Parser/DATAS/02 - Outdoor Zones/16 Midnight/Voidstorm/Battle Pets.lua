@@ -3,7 +3,7 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, MIDNIGHT, {
-	m(XXXX, {
+	M(VOIDSTORM, {
 		petbattle(filter(BATTLE_PETS, {
 		})),
 	}),

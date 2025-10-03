@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
     return { ["questID"] = questID, ["isDaily"] = isDaily };
 end
 root(ROOTS.Zones, MIDNIGHT, {
-	m(XXXX, {
+	M(HARANDAR, {
 		n(RARES, sharedData({ ["isDaily"] = true }, {
 		})),
 		n(RARES, {
