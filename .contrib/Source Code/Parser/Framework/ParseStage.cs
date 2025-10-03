@@ -17,6 +17,7 @@
         Incorporation,
         Consolidation,
         PostProcessing,
+        Cleanup,
         UnsortedGeneration,
         DataIntegrityAnalysis,
         ExportDebugData,

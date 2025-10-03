@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using static ATT.Export;
 using static ATT.FieldTypes.TimelineEntry;
+using static ATT.Framework;
 
 namespace ATT
 {
@@ -32,6 +33,11 @@ namespace ATT
         private static readonly Dictionary<Action<IDictionary<string, object>>, List<IDictionary<string, object>>> PostProcessFunctions = new Dictionary<Action<IDictionary<string, object>>, List<IDictionary<string, object>>>();
 
         /// <summary>
+        /// Contains function mappings against Sourced Groups to be executed in parallel following PostProcessing since these remove data which may be needed
+        /// </summary>
+        private static readonly Dictionary<Action<IDictionary<string, object>>, List<IDictionary<string, object>>> CleanupFunctions = new Dictionary<Action<IDictionary<string, object>>, List<IDictionary<string, object>>>();
+
+        /// <summary>
         /// Adds a post processing function for a given object
         /// </summary>
         private static void AddPostProcessing(Action<IDictionary<string, object>> act, IDictionary<string, object> obj)
@@ -39,6 +45,19 @@ namespace ATT
             if (!PostProcessFunctions.TryGetValue(act, out var objs))
             {
                 PostProcessFunctions[act] = objs = new List<IDictionary<string, object>>();
+            }
+
+            objs.Add(obj);
+        }
+
+        /// <summary>
+        /// Adds a post processing function for a given object
+        /// </summary>
+        private static void AddCleanup(Action<IDictionary<string, object>> act, IDictionary<string, object> obj)
+        {
+            if (!CleanupFunctions.TryGetValue(act, out var objs))
+            {
+                CleanupFunctions[act] = objs = new List<IDictionary<string, object>>();
             }
 
             objs.Add(obj);
@@ -204,6 +223,21 @@ namespace ATT
             // Post-processing of individual groups in parallel (logic which does not require cross-modification or follow up processing)
             CurrentParseStage = ParseStage.PostProcessing;
             foreach (var actionSequence in PostProcessFunctions)
+            {
+                var act = actionSequence.Key;
+                if (Debugger.IsAttached)
+                {
+                    actionSequence.Value.ForEach(act);
+                }
+                else
+                {
+                    actionSequence.Value.AsParallel().ForAll(act);
+                }
+            }
+
+            // Cleanup of individual groups in parallel (logic which cleans and removes unnecessary data for Export)
+            CurrentParseStage = ParseStage.Cleanup;
+            foreach (var actionSequence in CleanupFunctions)
             {
                 var act = actionSequence.Key;
                 if (Debugger.IsAttached)
@@ -1032,7 +1066,6 @@ namespace ATT
             Consolidate_lvl(data);
             Consolidate_c(data);
             Consolidate_providers(data);
-            Consolidate_sourceQuests(data);
             Consolidate_altQuests(data);
             Consolidate_item(data, parentData);
             Consolidate_awprwp(data);
@@ -1183,7 +1216,14 @@ namespace ATT
             CaptureForSOURCED(data);
             CaptureDebugDBData(data);
 
-            AddPostProcessing(PostProcessingGroupCleanup, data);
+            // PostProcessing is anything that
+            // - Has no change to any other data
+            // - May require checks against other Sourced data
+            // - Does not change 'Sourced' data
+            if (data.ContainsKey("sourceQuests"))
+                AddPostProcessing(PostProcess_sourceQuests, data);
+
+            AddCleanup(CleanupGroup, data);
 
             return true;
         }
@@ -1199,7 +1239,7 @@ namespace ATT
             }
         }
 
-        private static void PostProcessingGroupCleanup(IDictionary<string, object> data)
+        private static void CleanupGroup(IDictionary<string, object> data)
         {
             List<string> removeKeys = new List<string>();
 
@@ -3340,18 +3380,39 @@ namespace ATT
                         }
                         else
                         {
-                            // warn if this Quest is already Sourced in Unsorted
-                            // otherwise, duplicate Ensembles still need to receive the duplicated QuestID
-                            if (TryGetSOURCED("questID", questID, out var sourcedQuests)
-                                && sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedQuest))
+                            bool allowMergeQuestID = true;
+
+                            // if QuestID is already Sourced elsewhere in ATT, then we need to check what it is sourced as
+                            if (TryGetSOURCED("questID", questID, out var sourcedQuests))
                             {
-                                LogWarn($"Item 'questID' {questID} is currently listed in Unsorted but should be directly linked on the trigger group. Remove Unsorted group so the QuestID is not duplicated", data);
+                                // warn if this Quest is already Sourced in Unsorted
+                                if (sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedGroup))
+                                {
+                                    LogWarn($"Quest {questID} assignment to data is also currently Sourced in Unsorted. Remove Unsorted group so the QuestID is not duplicated", data);
+                                }
+                                // else if this quest is actually sourced as a Quest...
+                                else if (sourcedQuests.TryGetAnyMatchingGroup(q => q.TryGetValue("questID", out long groupQuestID) && groupQuestID == questID, out matchedGroup))
+                                {
+                                    // if the QuestID is already on an Item then just assign again
+                                    if (matchedGroup.ContainsKey("_modItemID"))
+                                    {
+                                        // no log
+                                    }
+                                    else
+                                    {
+                                        LogDebug($"INFO: Ignoring Quest {questID} assignment to data since it is explicitly Sourced", data);
+                                        allowMergeQuestID = false;
+                                    }
+                                }
                             }
 
-                            Objects.Merge(data, "questID", questID);
-                            LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
-                            Objects.MergeQuestData(data);
-                            TrackIncorporationData(data, "questID", questID);
+                            if (allowMergeQuestID)
+                            {
+                                Objects.Merge(data, "questID", questID);
+                                LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
+                                Objects.MergeQuestData(data);
+                                TrackIncorporationData(data, "questID", questID);
+                            }
                         }
                     }
                 }
@@ -3824,7 +3885,7 @@ namespace ATT
             }
         }
 
-        private static void Consolidate_sourceQuests(IDictionary<string, object> data)
+        private static void PostProcess_sourceQuests(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("sourceQuests", out List<object> sourceQuests))
                 return;
