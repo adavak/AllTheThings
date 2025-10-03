@@ -63,15 +63,15 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
 			}),
-			ach(8339, {		-- Collect Your Deck (Season 2) (Alliance)
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8339, {		-- Collect Your Deck (Season 1 & 2) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
-			}),
-			ach(8342, {		-- Collect Your Deck (Season 2) (Horde)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8342, {		-- Collect Your Deck (Season 1 & 2) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
-			}),
-			ach(8340, {		-- Deck Your Collection (Season 1) (Alliance)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8340, {		-- Deck Your Collection (Season 1) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
 				["groups"] = {
@@ -79,8 +79,8 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
 					}),
 				},
-			}),
-			ach(8343, {		-- Deck Your Collection (Season 1) (Horde)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8343, {		-- Deck Your Collection (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
 				["groups"] = {
@@ -88,8 +88,8 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
 					}),
 				},
-			}),
-			ach(9176, {		-- Deck Your Collection (Season 2) (Alliance)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(9176, {		-- Deck Your Collection (Season 2) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
 				["groups"] = {
@@ -97,8 +97,8 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
 					}),
 				},
-			}),
-			ach(9177, {		-- Deck Your Collection (Season 2) (Horde)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(9177, {		-- Deck Your Collection (Season 2) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 },
 				["groups"] = {
@@ -106,7 +106,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
 					}),
 				},
-			}),
+			})),
 			ach(11570, {	-- Educated Guesser
 				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1 },
 			}),
@@ -117,10 +117,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
 			}),
-			ach(8337, {		-- Having a Brawl (Season 1) (Horde)
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8337, {		-- Having a Brawl (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
-			}),
+			})),
 			ach(11572, {	-- I Am Thrall's Complete Lack Of Surprise (Season 3)
 				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1 },
 			}),
@@ -130,14 +130,14 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			ach(7943, {		-- I'm Your Number One Fan (Season 1 & 2)
 				["timeline"] = { ADDED_5_1_0, REMOVED_7_0_3 },
 			}),
-			ach(8336, {		-- I've Got the Biggest Brawls of Them All (Season 1) (Alliance)
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8336, {		-- I've Got the Biggest Brawls of Them All (Season 1) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
-			}),
-			ach(8338, {		-- I've Got the Biggest Brawls of Them All (Season 1) (Horde)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8338, {		-- I've Got the Biggest Brawls of Them All (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
-			}),
+			})),
 			ach(11565, {	-- King of the Guild (Season 3) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1 },
@@ -1171,31 +1171,43 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0 },
 				-- #if AFTER SL
-				["description"] = "Even though the Brawler's Guild has closed, this vendor remains available to players.Shirts are only available to those who have already earned them.",
+				["description"] = "Even though the Brawler's Guild has closed, this vendor remains available to players.\nShirts are only available to those who have already earned them.",
 				-- #else
-				["description"] = "Shirts are only available to those who have already earned them.",
+				["description"] = "Shirts are available to those who have already earned them through the quests.",
 				-- #endif
 				["groups"] = {
 					-- #if BEFORE WOD
 					i(93858, {	-- Brawler's Bladed Claws (Pre-WoD)
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+						-- #if MOP
+						["description"] = "Available after reaching Rank 8.",
+						-- #endif
 					}),
 					-- #endif
 					i(142403, {	-- Brawler's Burly Basilisk (MOUNT!) unobtainable as of BFA prepatch
 						["timeline"] = { ADDED_7_1_0, REMOVED_8_0_1 },
 					}),
-					i(98405, {	-- Brawler's Burly Mushan Beast (MOUNT!) unobtainable unless you reached Rank 8 in either Season 1 or Season 2
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98405, {	-- Brawler's Burly Mushan Beast (MOUNT!) unobtainable unless you reached Rank 8 in either Season 1 or Season 2
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_1_5 },
-						-- #if AFTER 7.1.5
+						-- #if MOP
+							-- #if BEFORE 5.5.3
+							["description"] = "While this is already in the shop, you cannot get Rank 10 until Phase 4.",
+							-- #else
+							["description"] = "Available after reaching Rank 10.",
+							-- #endif
+						-- #elseif AFTER 7.1.5
 						["description"] = "Only available to those who had reached Rank 8 in Season 1 or Season 2.",
 						-- #endif
-					}),
+					})),
 					i(167812, {	-- Brawlers Guild Tabard
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
 					-- #if BEFORE WOD
 					i(92948, {	-- Brawler's Razor Claws (Pre-WoD)
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+						-- #if MOP
+						["description"] = "Available after reaching Rank 8.",
+						-- #endif
 					}),
 					-- #endif
 					i(122396, {	-- Brawler's Razor Claws
@@ -1206,6 +1218,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					})),
 					i(93025, {	-- Clock'em (PET!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+						-- #if MOP
+						["description"] = "Available after reaching Rank 4.",
+						-- #endif
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98092, {	-- Digmaster's Bodysleeve
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
@@ -1276,29 +1291,41 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				-- #if AFTER SL
 				["description"] = "Even though the Brawler's Guild has closed, this vendor remains available to players.\nShirts are only available to those who have already earned them.",
 				-- #else
-				["description"] = "Shirts are only available to those who have already earned them.",
+				["description"] = "Shirts are available to those who have already earned them through the quests.",
 				-- #endif
 				["groups"] = {
 					-- #if BEFORE WOD
 					i(93858, {	-- Brawler's Bladed Claws (Pre-WoD)
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+						-- #if MOP
+						["description"] = "Available after reaching Rank 8.",
+						-- #endif
 					}),
 					-- #endif
 					i(142403, {	-- Brawler's Burly Basilisk (MOUNT!) unobtainable as of BFA prepatch
 						["timeline"] = { ADDED_7_1_0, REMOVED_8_0_1 },
 					}),
-					i(98405, {	-- Brawler's Burly Mushan Beast (MOUNT!) unobtainable unless you reached Rank 8 in either Season 1 or Season 2
+					applyclassicphase(MOP_PHASE_ESCALATION, i(98405, {	-- Brawler's Burly Mushan Beast (MOUNT!) unobtainable unless you reached Rank 8 in either Season 1 or Season 2
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_1_5 },
-						-- #if AFTER 7.1.5
+						-- #if MOP
+							-- #if BEFORE 5.5.3
+							["description"] = "While this is already in the shop, you cannot get Rank 10 until Phase 4.",
+							-- #else
+							["description"] = "Available after reaching Rank 10.",
+							-- #endif
+						-- #elseif AFTER 7.1.5
 						["description"] = "Only available to those who had reached Rank 8 in Season 1 or Season 2.",
 						-- #endif
-					}),
+					})),
 					i(167811, {	-- Brawlers Guild Tabard
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 					}),
 					-- #if BEFORE WOD
 					i(92948, {	-- Brawler's Razor Claws (Pre-WoD)
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
+						-- #if MOP
+						["description"] = "Available after reaching Rank 8.",
+						-- #endif
 					}),
 					-- #endif
 					i(122396, {	-- Brawler's Razor Claws
@@ -1309,6 +1336,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					})),
 					i(93025, {	-- Clock'em (PET!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+						-- #if MOP
+						["description"] = "Only available after reaching Rank 4.",
+						-- #endif
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98092, {	-- Digmaster's Bodysleeve
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
