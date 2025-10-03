@@ -1727,36 +1727,66 @@ i(95470, 140050);	-- Serpent's Heart
 i(95471, 140060);	-- Primal Diamond
 
 -----------------
--- PATCH 6.0.1 --
+-- PATCH 6.0.3 --
 -----------------
-i(116078, 170701);	-- Design: Taladite Recrystalizer (Guessed via Filter Recipe with SpellID)
-i(116079, 170702);	-- Design: Taladite Amplifier (Guessed via Filter Recipe with SpellID)
-i(116090, 170713);	-- Design: Glowing Taladite Ring (Guessed via Filter Recipe with SpellID)
-i(116091, 170714);	-- Design: Shifting Taladite Ring (Guessed via Filter Recipe with SpellID)
-i(116092, 170715);	-- Design: Whispering Taladite Ring (Guessed via Filter Recipe with SpellID)
-i(116093, 170716);	-- Design: Glowing Taladite Pendant (Guessed via Filter Recipe with SpellID)
-i(116094, 170717);	-- Design: Shifting Taladite Pendant (Guessed via Filter Recipe with SpellID)
-i(116095, 170718);	-- Design: Whispering Taladite Pendant (Guessed via Filter Recipe with SpellID)
-i(116096, 170719);	-- Design: Critical Strike Taladite (Guessed via Filter Recipe with SpellID)
-i(116097, 170720);	-- Design: Haste Taladite (Guessed via Filter Recipe with SpellID)
-i(116098, 170721);	-- Design: Mastery Taladite (Guessed via Filter Recipe with SpellID)
-i(116100, 170723);	-- Design: Versatility Taladite (Guessed via Filter Recipe with SpellID)
-i(116101, 170724);	-- Design: Stamina Taladite (Guessed via Filter Recipe with SpellID)
-i(116102, 170725);	-- Design: Greater Critical Strike Taladite (Guessed via Filter Recipe with SpellI
-i(116103, 170726);	-- Design: Greater Haste Taladite (Guessed via Filter Recipe with SpellID)
-i(116104, 170727);	-- Design: Greater Mastery Taladite (Guessed via Filter Recipe with SpellID)
-i(116106, 170729);	-- Design: Greater Versatility Taladite (Guessed via Filter Recipe with SpellID)
-i(116107, 170730);	-- Design: Greater Stamina Taladite (Guessed via Filter Recipe with SpellID)
-i(116108, 170731);	-- Design: Reflecting Prism (Guessed via Filter Recipe with SpellID)
-i(116109, 170732);	-- Design: Prismatic Focusing Lens (Guessed via Filter Recipe with SpellID)
+--- TRAINER ---
+i(0, 158750);	-- Jewelcrafting
+i(0, 170710);	-- Glowing Blackrock Band
+i(0, 170704);	-- Glowing Iron Band
+i(0, 170707);	-- Glowing Iron Choker
+i(0, 176087);	-- Secrets of Draenor Jewelcrafting
+i(0, 170711);	-- Shifting Blackrock Band
+i(0, 170705);	-- Shifting Iron Band
+i(0, 170708);	-- Shifting Iron Choker
+i(0, 170700);	-- Taladite Crystal
+i(0, 170712);	-- Whispering Blackrock Band
+i(0, 170706);	-- Whispering Iron Band
+i(0, 170709);	-- Whispering Iron Choker
+--- ITEM ---
+i(116096, 170719);	-- Critical Strike Taladite
+i(116093, 170716);	-- Glowing Taladite Pendant
+i(116090, 170713);	-- Glowing Taladite Ring
+i(116102, 170725);	-- Greater Critical Strike Taladite
+i(116103, 170726);	-- Greater Haste Taladite
+i(116104, 170727);	-- Greater Mastery Taladite
+i(116105, 170728);	-- Greater Multistrike Taladite [REMOVED: 7.0.3]
+i(116107, 170730);	-- Greater Stamina Taladite
+i(116080, 170703);	-- Greater Taladite Amplifier [REMOVED: 6.2.0]
+i(116106, 170729);	-- Greater Versatility Taladite
+i(116097, 170720);	-- Haste Taladite
+i(116098, 170721);	-- Mastery Taladite
+i(116099, 170722);	-- Multistrike Taladite [REMOVED: 7.0.3]
+i(116109, 170732);	-- Prismatic Focusing Lens
+i(116108, 170731);	-- Reflecting Prism
+i(116094, 170717);	-- Shifting Taladite Pendant
+i(116091, 170714);	-- Shifting Taladite Ring
+i(116101, 170724);	-- Stamina Taladite
+i(116079, 170702);	-- Taladite Amplifier [REMOVED: 10.0.5]
+i(116078, 170701);	-- Taladite Recrystalizer
+i(116100, 170723);	-- Versatility Taladite
+i(116095, 170718);	-- Whispering Taladite Pendant
+i(116092, 170715);	-- Whispering Taladite Ring
+--- Unlearnable ---
+i(0, 170832);	-- Taladite Crystal [Vendor]
+
+-----------------
+-- PATCH 6.1.0 --
+-----------------
+i(122551, 181419);	-- Powerful Taladite Amplifier [REMOVED: 6.2.0]
+i(122714, 182127);	-- Primal Gemcutting
 
 -----------------
 -- PATCH 6.2.0 --
 -----------------
-i(122714, 182127);	-- Design: Primal Gemcutting (Guessed via Filter Recipe with SpellID)
-i(127723, 187495);	-- Technique: Mighty Ensorcelled Tarot (Guessed via Filter Recipe with SpellID)
-i(127726, 187493);	-- Design: Mighty Taladite Amplifier (Guessed via Filter Recipe with SpellID)
-i(127744, 187517);	-- Design: Savage Taladite Amplifier (Guessed via Filter Recipe with SpellID)
+i(127726, 187493);	-- Mighty Taladite Amplifier [REMOVED: 10.0.5]
+i(127744, 187517);	-- Savage Taladite Amplifier [REMOVED: 10.0.5]
+--- Gemcutter ---
+i(0, 187634);	-- Immaculate Critical Strike Taladite
+i(0, 187635);	-- Immaculate Haste Taladite
+i(0, 187636);	-- Immaculate Mastery Taladite
+i(0, 187637);	-- Immaculate Multistrike Taladite
+i(0, 187640);	-- Immaculate Stamina Taladite
+i(0, 187639);	-- Immaculate Versatility Taladite
 
 -----------------
 -- PATCH 7.0.3 --

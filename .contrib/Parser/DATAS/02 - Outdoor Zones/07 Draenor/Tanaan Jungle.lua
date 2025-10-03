@@ -297,18 +297,27 @@ root(ROOTS.Zones, {
 							-- These Recipes should only cached when learned and not disabled via NPC interact
 							["isEnableTypeRecipe"] = true,
 						},{
-							recipe(187634, {	-- Immaculate Critical Strike Taladite
-								["cost"] = { { "i", 127771, 1 } },	-- Gemcutter Module: Critical Strike
+							r(187634, {	-- Immaculate Critical Strike Taladite
+								["cost"] = {{"i", 127771, 1}},	-- Gemcutter Module: Critical Strike
 							}),
-							recipe(187635, {	-- Immaculate Haste Taladite
-								["cost"] = { { "i", 127772, 1 } },	-- Gemcutter Module: Haste
+							r(187635, {	-- Immaculate Haste Taladite
+								["cost"] = {{"i", 127772, 1}},	-- Gemcutter Module: Haste
 							}),
-							recipe(187636, {	-- Immaculate Mastery Taladite
-								["cost"] = { { "i", 127773, 1 } },	-- Gemcutter Module: Mastery
-								["u"] = REMOVED_FROM_GAME,	-- Brawlers Guild removed thus this item is no longer available to buy
+							r(187636, {	-- Immaculate Mastery Taladite
+								["cost"] = {{ "i", 127773, 1}},	-- Gemcutter Module: Mastery
+								["timeline"] = {
+									ADDED_6_2_0, REMOVED_7_0_3_LAUNCH,
+									ADDED_7_1_5, REMOVED_8_0_1_LAUNCH,
+									ADDED_8_1_5, REMOVED_9_0_2_LAUNCH,
+									ADDED_11_2_7,
+								},
 							}),
-							recipe(187640, {	-- Immaculate Stamina Taladite
-								["cost"] = { { "i", 127775, 1 } },	-- Gemcutter Module: Stamina
+							r(187637, {	-- Immaculate Multistrike Taladite
+								["cost"] = {{ "i", 127774, 1}},	-- Gemcutter Module: Multistrike
+								["timeline"] = { ADDED_6_2_0, REMOVED_7_0_3 },
+							}),
+							r(187640, {	-- Immaculate Stamina Taladite
+								["cost"] = {{"i", 127775, 1}},	-- Gemcutter Module: Stamina
 							}),
 						}),
 					}),
@@ -489,7 +498,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 17.5, 45.1, TANAAN_JUNGLE },
 						["requireSkill"] = JEWELCRAFTING,
 						["groups"] = {
-							recipe(187639, {	-- Immaculate Versatility Taladite
+							r(187639, {	-- Immaculate Versatility Taladite
 								["isEnableTypeRecipe"] = true,
 							}),
 						},
@@ -2070,6 +2079,10 @@ root(ROOTS.Zones, {
 									["groups"] = {
 										follower(582),	-- Solar Priest Vayx
 									},
+								}),
+								i(127774, {	-- Gemcutter Module: Multistrike
+									["cost"] = {{ "c", 823, 3000}},	-- 3000x Apexis Crystal
+									["timeline"] = { ADDED_6_2_0, REMOVED_7_0_3 },
 								}),
 								i(128502, {	-- Hunter's Seeking Crystal
 									["cost"] = 10000000,	-- 1,000g

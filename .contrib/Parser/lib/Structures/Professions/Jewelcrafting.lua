@@ -2,6 +2,7 @@
 -- JEWELCRAFTING --
 -------------------
 local CATA_JC_TOKEN = 361;
+local SECRET_OF_DRAENOR_JEWELCRAFTING = 118723;
 CLASSIC_JEWELCRAFTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_2_0_5 } }, {
 	r(25229, {	-- Jewelcrafting (Apprentice)
 		-- #if NOT ANYCLASSIC
@@ -1303,6 +1304,107 @@ MOP_JEWELCRAFTING = bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 		r(122671),	-- Widow Chain
 	}),
 });
+DRAENOR_JEWELCRAFTING = applyclassicphase(WOD_PHASE_ONE, i(115356, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	["description"] = "This is a reward for completing the introductory Jewelcrafting questline that can drop from any Draenor mob. Also sold at Gem Boutique for 100 gold.",
+	["groups"] = {
+		r(158750, {	-- Jewelcrafting (Draenor Master)
+			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_8_0_1_LAUNCH },
+			-- #if NOT ANYCLASSIC
+			["collectible"] = false,
+			-- #endif
+			["rank"] = 9,
+		}),
+		applyclassicphase(BFA_PHASE_ONE, r(264544, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Draenor Jewelcrafting
+		r(170710),	-- Glowing Blackrock Band
+		r(170704),	-- Glowing Iron Band
+		r(170707),	-- Glowing Iron Choker
+		r(176087),	-- Secrets of Draenor Jewelcrafting
+		r(170711),	-- Shifting Blackrock Band
+		r(170705),	-- Shifting Iron Band
+		r(170708),	-- Shifting Iron Choker
+		r(170700),	-- Taladite Crystal
+		r(170712),	-- Whispering Blackrock Band
+		r(170706),	-- Whispering Iron Band
+		r(170709),	-- Whispering Iron Choker
+	},
+})));
+COMMON_DRAENOR_JEWELCRAFTING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(116080, {	-- Design: Greater Taladite Amplifier (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_6_2_0 },
+	}),
+	i(116096, {	-- Design: Critical Strike Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116093, {	-- Design: Glowing Taladite Pendant (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116090, {	-- Design: Glowing Taladite Ring (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116102, {	-- Design: Greater Critical Strike Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+	}),
+	i(116103, {	-- Design: Greater Haste  (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+	}),
+	i(116104, {	-- Design: Greater Mastery Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+	}),
+	i(116105, {	-- Greater Multistrike Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 }
+	}),
+	i(116107, {	-- Design: Greater Stamina Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+	}),
+	i(116106, {	-- Design: Greater Versatility Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+	}),
+	i(116097, {	-- Design: Haste  (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116098, {	-- Design: Mastery Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116099, {	-- Multistrike Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 }
+	}),
+	i(116109, {	-- Design: Prismatic Focusing Lens (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 3}},
+	}),
+	i(116108, {	-- Design: Reflecting Prism (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 3}},
+	}),
+	i(116094, {	-- Design: Shifting Taladite Pendant (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116091, {	-- Design: Shifting Taladite Ring (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116101, {	-- Design: Stamina Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116079, {	-- Design: Taladite Amplifier (RECIPE!)
+		["collectible"] = false,
+		["description"] = "The item is still in game but you can't learn the recipe from it anymore (recipe removed in 9.0.1)",
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
+		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_10_0_5 },
+	}),
+	i(116078, {	-- Design: Taladite Recrystalizer (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116100, {	-- Design: Versatility Taladite (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116095, {	-- Design: Whispering Taladite Pendant (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+	i(116092, {	-- Design: Whispering Taladite Ring (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+	}),
+}));
 BFA_JEWELCRAFTING = applyclassicphase(BFA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	r(382973, {["timeline"] = {ADDED_10_0_0}}),	-- Kul Tiras and Zandalar Prospecting
 	r(287272, {["timeline"] = {ADDED_8_1_0}}),	-- Aqueous Recalibration

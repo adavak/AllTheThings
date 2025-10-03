@@ -800,6 +800,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 47.0, 38.6, DRAENOR_SHADOWMOON_VALLEY },
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = appendGroups(DRAENOR_JEWELCRAFTING, {
+							i(111814),	-- Gem Boutique, Level 1
+						}),
 					}),
 					q(34996, {	-- Rotting Riverbeasts
 						["provider"] = { "n", 80859 },	-- Rangari Duula

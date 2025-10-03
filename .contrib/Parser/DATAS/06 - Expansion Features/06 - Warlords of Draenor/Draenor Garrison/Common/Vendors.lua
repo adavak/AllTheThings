@@ -184,18 +184,23 @@ local LEATHER_TRADER = {
 };
 local ORE_TRADER = {
 	PRIMAL_SPIRIT,
-	i(127726, {	-- Design: Mighty Taladite Amplifier
+	i(127726, {	-- Design: Mighty Taladite Amplifier (RECIPE!)
 		["description"] = WOD_REMOVED_RECIPE_STR,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
+		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
-	un(REMOVED_FROM_GAME, i(122551)),	-- Design: Powerful Taladite Amplifier
-	i(122714, {	-- Design: Primal Gemcutting
+	i(122551, {	-- Design: Powerful Taladite Amplifier (RECIPE!)
+		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
+		["timeline"] = { ADDED_6_1_0, REMOVED_6_2_0 },
+	}),
+	i(122714, {	-- Design: Primal Gemcutting (RECIPE!)
 		["cost"] = {{ "i", TRUE_IRON_ORE, 60 }},
 	}),
-	i(127744, {	-- Design: Savage Taladite Amplifier
+	i(127744, {	-- Design: Savage Taladite Amplifier (RECIPE!)
 		["description"] = WOD_REMOVED_RECIPE_STR,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
+		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(127725, {	-- Plans: Mighty Steelforged Essence (RECIPE!)

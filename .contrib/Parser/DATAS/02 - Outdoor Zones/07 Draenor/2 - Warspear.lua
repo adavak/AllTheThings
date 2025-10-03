@@ -46,6 +46,12 @@ root(ROOTS.Zones, {
 							["groups"] = appendGroups(COMMON_DRAENOR_ENGINEERING_RECIPES, {DRAENOR_ENGINEERING}),
 						}),
 					}),
+					prof(JEWELCRAFTING, {
+						n(87548, {	-- Kaevan Highwit <Jewelcrafting Designs>
+							["coord"] = { 60.4, 40.7, WARSPEAR },
+							["groups"] = appendGroups(COMMON_DRAENOR_JEWELCRAFTING_RECIPES, {DRAENOR_JEWELCRAFTING}),
+						}),
+					}),
 					prof(LEATHERWORKING, {
 						n(87549, {	-- Garm Gladestride <Leatherworking Patterns>
 							["coord"] = { 50.4, 27.4, WARSPEAR },
@@ -1645,10 +1651,6 @@ root(ROOTS.Zones, {
 									moh(2, i(125469)),	-- Wild Combatant's Warboots of Prowess (H)
 								}),
 							},
-						}),
-						n(87548, {	-- Kaevan Highwit <Jewelcrafting Designs>
-							["coord"] = { 60.4, 40.7, WARSPEAR },
-							["sym"] = {{"select","npcID",77356},{"pop"}},	-- Costan Highwall <Jewelcrafter>
 						}),
 						n(93917, {	-- Malukah Lightsong <Warmongering Gladiator>
 							["coord"] = { 48.9, 57.3, WARSPEAR },

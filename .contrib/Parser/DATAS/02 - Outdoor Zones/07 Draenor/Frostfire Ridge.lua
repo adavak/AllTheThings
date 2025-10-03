@@ -396,11 +396,10 @@ root(ROOTS.Zones, {
 						["coord"] = { 20.0, 56.3, FROSTFIRE_RIDGE },
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = HORDE_ONLY,
-						["groups"] = {
+						["groups"] = appendGroups(DRAENOR_JEWELCRAFTING, {
 							i(115503),	-- Blazing Diamond Pendant (TOY!)
-							i(115359),	-- Draenor Jewelcrafting
 							i(111814),	-- Gem Boutique, Level 1
-						},
+						}),
 					}),
 					q(36419, {	-- Dyed in the Fur
 						["sourceQuests"] = { 36417 },	-- From Their Cold Dead Hands

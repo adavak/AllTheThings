@@ -41,6 +41,13 @@ end
 -- 6.2.0: Item 4 Upgrades Stage 4->5, Item 5 Upgrades Stage 5->6.
 -- 10.0.5: Removes Item 1*, Item 4, Item 5 and add twos new items called Impressive and Remarkable which makes you able to get the appearances. \\End
 
+-- Item 1: X / Unstable X,
+-- Item 2: Greate X / Unstable Greater X
+-- Item 3: Powerful X / Unstable Powerful X
+-- Item 1*: X
+-- Item 4: Mighty X
+-- Item 5: Savage X
+
 -- this is the exact same logic, but ignores applying the SourceID's to the upgraded versions since they are identical
 -- to the base version. This prevents the unobtainable flag showing for the base version since the Item will search by
 -- SourceID in-game and combine the information from all matching sources, which would include unobtainable flags
@@ -706,14 +713,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 		}),
 	}),
 	prof(JEWELCRAFTING, {
-		filter(NECK_F, {
-			i(115990),					-- Glowing Iron Choker
-			WOD_CRAFTED_ITEM(115799),	-- Glowing Taladite Pendant
-			i(115991),					-- Shifting Iron Choker
-			WOD_CRAFTED_ITEM(115800),	-- Shifting Taladite Pendant
-			i(115992),					-- Whispering Iron Choker
-			WOD_CRAFTED_ITEM(115801),	-- Whispering Taladite Pendant
-		}),
 		filter(FINGER_F, {
 			i(115993),					-- Glowing Blackrock Band
 			i(115987),					-- Glowing Iron Band
@@ -725,8 +724,45 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(115989),					-- Whispering Iron Band
 			WOD_CRAFTED_ITEM(115798),	-- Whispering Taladite Ring
 		}),
+		filter(GEMS, {
+			i(115803),	-- Critical Strike Taladite
+			i(115809),	-- Greater Critical Strike Taladite
+			i(115811),	-- Greater Haste Taladite
+			i(115812),	-- Greater Mastery Taladite
+			i(115813, {["timeline"] = {ADDED_6_0_3_LAUNCH, REMOVED_7_0_3}}),	-- Greater Multistrike Taladite
+			i(115815),	-- Greater Stamina Taladite
+			i(115814),	-- Greater Versatility Taladite
+			i(115804),	-- Haste Taladite
+			i(127760, {["timeline"] = {ADDED_6_2_0}}),	-- Immaculate Critical Strike Taladite
+			i(127761, {["timeline"] = {ADDED_6_2_0}}),	-- Immaculate Haste Taladite
+			i(127762, {["timeline"] = {ADDED_6_2_0}}),	-- Immaculate Mastery Taladite
+			i(127763, {["timeline"] = {ADDED_6_2_0, REMOVED_7_0_3}}),	-- Immaculate Multistrike Taladite
+			i(127765, {["timeline"] = {ADDED_6_2_0}}),	-- Immaculate Stamina Taladite
+			i(127764, {["timeline"] = {ADDED_6_2_0}}),	-- Immaculate Versatility Taladite
+			i(115805),	-- Mastery Taladite
+			i(115806, {["timeline"] = {ADDED_6_0_3_LAUNCH, REMOVED_7_0_3}}),	-- Multistrike Taladite
+			i(115808),	-- Stamina Taladite
+			i(115807),	-- Versatility Taladite
+		}),
 		filter(MISC, {
+			i(127716, {["timeline"] = {ADDED_6_2_0, REMOVED_10_0_5}}),	-- Mighty Taladite Amplifier
+			i(112498),	-- Prismatic Focusing Lens
 			i(112384),	-- Reflecting Prism
+			i(127734, {["timeline"] = {ADDED_6_2_0, REMOVED_10_0_5}}),	-- Savage Taladite Amplifier
+			i(118723),	-- Secret of Draenor Jewelcrafting
+			i(128013, {["timeline"] = {ADDED_6_2_0, REMOVED_10_0_5}}),	-- Taladite Amplifier
+			i(115526),	-- Taladite Recrystalizer
+			i(115529, {["timeline"] = {ADDED_6_0_3_LAUNCH, REMOVED_6_2_0}}),	-- Unstable Greater Taladite Amplifier
+			i(122541, {["timeline"] = {ADDED_6_1_0, REMOVED_6_2_0}}),	-- Unstable Powerful Taladite Amplifier
+			i(115527, {["timeline"] = {ADDED_6_0_3_LAUNCH, REMOVED_6_2_0}}),	-- Unstable Taladite Amplifier
+		}),
+		filter(NECK_F, {
+			i(115990),					-- Glowing Iron Choker
+			WOD_CRAFTED_ITEM(115799),	-- Glowing Taladite Pendant
+			i(115991),					-- Shifting Iron Choker
+			WOD_CRAFTED_ITEM(115800),	-- Shifting Taladite Pendant
+			i(115992),					-- Whispering Iron Choker
+			WOD_CRAFTED_ITEM(115801),	-- Whispering Taladite Pendant
 		}),
 	}),
 	prof(LEATHERWORKING, {

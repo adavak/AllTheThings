@@ -46,6 +46,12 @@ root(ROOTS.Zones, {
 							["groups"] = appendGroups(COMMON_DRAENOR_ENGINEERING_RECIPES, {DRAENOR_ENGINEERING}),
 						}),
 					}),
+					prof(JEWELCRAFTING, {
+						n(87052, {	-- Artificer Harlaan <Jewelcrafting Designs>
+							["coord"] = { 44.2, 37.8, STORMSHIELD },
+							["groups"] = appendGroups(COMMON_DRAENOR_JEWELCRAFTING_RECIPES, {DRAENOR_JEWELCRAFTING}),
+						}),
+					}),
 					prof(LEATHERWORKING, {
 						n(87057, {	-- Leara Moonsilk <Leatherworking Patterns>
 							["coord"] = { 51.6, 41.6, STORMSHIELD },
@@ -314,10 +320,6 @@ root(ROOTS.Zones, {
 				n(VENDORS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						n(87052, {	-- Artificer Harlaan <Jewelcrafting Designs>
-							["coord"] = { 44.2, 37.8, STORMSHIELD },
-							["sym"] = {{"select","npcID",77356},{"pop"}},	-- Costan Highwall <Jewelcrafter>
-						}),
 						n(93907, {	-- Amelia Clarke <Wild Gladiator>
 							["coord"] = { 54.8, 17.0, STORMSHIELD },
 							["races"] = ALLIANCE_ONLY,
