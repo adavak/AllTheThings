@@ -2631,13 +2631,26 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 						-- #endif
 						filter(QUEST_ITEMS, {
+							-- Wouter NOTE: in MoP Classic ID 37736 is still the item actually on the vendor, added a Classic timeline because I don't want to mess with the original (yet)
 							i(37571, {	-- "Brew of the Month" Club Membership Form (current)
-								["timeline"] = { CREATED_2_2_2, ADDED_3_0_2 },	-- NOTE: Not used in 2007
+								["timeline"] = {
+									-- #if ANYCLASSIC
+									CREATED_2_2_2,
+									-- #else
+									CREATED_2_2_2, ADDED_3_0_2	-- NOTE: Not used in 2007
+									-- #endif
+								},
 								["cost"] = BREWFEST_TOKEN_COST(200),
 								["races"] = ALLIANCE_ONLY,
 							}),
 							i(37736, {	-- "Brew of the Month" Club Membership Form (original)
-								["timeline"] = { ADDED_2_2_2, REMOVED_3_0_2 },
+								["timeline"] = {
+									-- #if ANYCLASSIC
+									ADDED_2_2_2,
+									-- #else
+									ADDED_2_2_2, REMOVED_3_0_2
+									-- #endif
+								},
 								["cost"] = BREWFEST_TOKEN_COST(200),
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -2884,13 +2897,26 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 						-- #endif
 						filter(QUEST_ITEMS, {
+							-- Wouter NOTE: in MoP Classic ID 37737 is still the item actually on the vendor, added a Classic timeline because I don't want to mess with the original (yet)
 							i(37599, {	-- "Brew of the Month" Club Membership Form (current)
-								["timeline"] = { CREATED_2_2_2, ADDED_3_0_2 },	-- NOTE: Not used in 2007
+								["timeline"] = {
+									-- #if ANYCLASSIC
+									CREATED_2_2_2,
+									-- #else
+									CREATED_2_2_2, ADDED_3_0_2	-- NOTE: Not used in 2007
+									-- #endif
+								},
 								["cost"] = BREWFEST_TOKEN_COST(200),
 								["races"] = HORDE_ONLY,
 							}),
 							i(37737, {	-- "Brew of the Month" Club Membership Form (original)
-								["timeline"] = { ADDED_2_2_2, REMOVED_3_0_2 },
+								["timeline"] = {
+									-- #if ANYCLASSIC
+									ADDED_2_2_2,
+									-- #else
+									ADDED_2_2_2, REMOVED_3_0_2
+									-- #endif
+								},
 								["cost"] = BREWFEST_TOKEN_COST(200),
 								["races"] = HORDE_ONLY,
 							}),
