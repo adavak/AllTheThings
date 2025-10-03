@@ -4,6 +4,11 @@ local L, settings = app.L, app.Settings;
 -- Only load for Retail
 if not app.IsRetail then return end
 
+-- Ideally we would use app.CURRENT_EXPANSION from Expansion.lua but it returns 0 on initial load of the game client
+-- prior to the player entering the world, so we hardcode it here for now.
+-- Would need to delay loading this settings panel content until it returned a valid value
+local CURRENT_EXPANSION = 11
+
 -- Settings: Expansion Filters Page
 local child = settings:CreateOptionsPage(L.EXPANSION_FILTERS_PAGE, L.GENERAL_PAGE)
 
@@ -32,14 +37,14 @@ local expansions = {
 	{ key = "ExpansionFilter:DF" },
 	{ key = "ExpansionFilter:TWW" },
 }
-for i = 1,app.CURRENT_EXPANSION do
+for i = 1,CURRENT_EXPANSION do
 	expansions[i].info = app.CreateExpansion(i)
 end
 
 -- Create checkboxes for each expansion
 local lastCheckbox = textExpansionsExplain
 local expansion, expansionName
-for i = 1,app.CURRENT_EXPANSION do
+for i = 1,CURRENT_EXPANSION do
 	expansion = expansions[i]
 	expansionName = expansion.info.name
 	local checkbox = child:CreateCheckBox(
@@ -121,7 +126,7 @@ local buttonCurrentOnly = child:CreateButton(
 	{ text = L.EXPANSION_CURRENT_ONLY, tooltip = L.EXPANSION_CURRENT_ONLY_TOOLTIP },
 	{
 		OnClick = function(self)
-			local currentExpansion = app.CURRENT_EXPANSION or 11
+			local currentExpansion = CURRENT_EXPANSION
 			for i=1,#expansions do
 				settings:Set(expansions[i].key, i == currentExpansion)
 			end
