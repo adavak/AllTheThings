@@ -5,7 +5,7 @@
 local function bo(questID, isDaily)
     return { ["questID"] = questID, ["isDaily"] = isDaily };
 end
-root(ROOTS.Zones, MIDNIGHT, {
+root(ROOTS.Zones, m(MIDNIGHT, {
 	M(ZULAMAN_MID, {
 		n(RARES, sharedData({ ["isDaily"] = true }, {
 		})),
