@@ -403,6 +403,7 @@ HeaderAssignments = {
 	["Poor"] = -222,
 	["Prestige"] = -302,
 	["Prestige Rewards"] = -137,
+	["Prey"] = -671,
 	["Prideful Gladiator: Season 15"] = -264,
 	["Primal Gladiator: Warlords Season 1"] = -266,
 	["Primal Storms"] = -191,
@@ -663,4 +664,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -670;
+NextHeaderID = -672;

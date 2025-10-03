@@ -41,9 +41,6 @@ ach(42646),	-- Elusive Foes: Eredath
 ach(42650),	-- Elusive Foes: Suramar
 ach(42665),	-- Explore Suramar
 ach(42668),	-- Hidden Treasures: Val'Sharah
-ach(42701),	-- Prey: Normal Mode III
-ach(42702),	-- Prey: Hard Mode III
-ach(42703),	-- Prey: Nightmare Mode III
 ach(51753),	-- Azsuna Matata
 ach(60888),	-- Pushing My Buttons
 ach(60891),	-- The Crimson Rogue
@@ -90,9 +87,6 @@ ach(61094),	-- Old World Family Battler
 ach(61212),	-- Magisters' Terrace
 ach(61213),	-- Heroic: Magisters' Terrace
 ach(61214),	-- Mythic: Magisters' Terrace
-ach(61215),	-- Degentrius kills (Normal Magisters' Terrace)
-ach(61216),	-- Degentrius kills (Heroic Magisters' Terrace)
-ach(61217),	-- Degentrius kills (Mythic Magisters' Terrace)
 ach(61219),	-- No Time to Paws
 ach(61221),	-- Tour of Duty: Eversong Woods
 ach(61222),	-- Tour of Duty: Zul'Aman
@@ -112,41 +106,6 @@ ach(61263),	-- Treasures of Harandar
 ach(61264),	-- Leaf None Behind
 ach(61265),	-- Spectral Capture
 ach(61266),	-- Spectral Stocker
-ach(61273),	-- Lithiel Cinderfury kills (Normal Murder Row)
-ach(61274),	-- Lithiel Cinderfury kills (Heroic Murder Row)
-ach(61275),	-- Lithiel Cinderfury kills (Mythic Murder Row)
-ach(61276),	-- Imperator Averzian (Raid Finder Voidspire)
-ach(61277),	-- Imperator Averzian (Normal Voidspire)
-ach(61278),	-- Imperator Averzian (Heroic Voidspire)
-ach(61279),	-- Imperator Averzian (Mythic Voidspire)
-ach(61280),	-- Vorasius (Raid Finder Voidspire)
-ach(61281),	-- Vorasius (Normal Voidspire)
-ach(61282),	-- Vorasius (Heroic Voidspire)
-ach(61283),	-- Vorasius (Mythic Voidspire)
-ach(61284),	-- Fallen-King Salhadaar (Raid Finder Voidspire)
-ach(61285),	-- Fallen-King Salhadaar (Normal Voidspire)
-ach(61286),	-- Fallen-King Salhadaar (Heroic Voidspire)
-ach(61287),	-- Fallen-King Salhadaar (Mythic Voidspire)
-ach(61288),	-- Vaelgor & Ezzorak (Raid Finder Voidspire)
-ach(61289),	-- Vaelgor & Ezzorak (Normal Voidspire)
-ach(61290),	-- Vaelgor & Ezzorak (Heroic Voidspire)
-ach(61291),	-- Vaelgor & Ezzorak (Mythic Voidspire)
-ach(61292),	-- Lightblinded Vanguard (Raid Finder Voidspire)
-ach(61293),	-- Lightblinded Vanguard (Normal Voidspire)
-ach(61294),	-- Lightblinded Vanguard (Heroic Voidspire)
-ach(61295),	-- Lightblinded Vanguard (Mythic Voidspire)
-ach(61296),	-- Crown of the Cosmos (Raid Finder Voidspire)
-ach(61297),	-- Crown of the Cosmos (Normal Voidspire)
-ach(61298),	-- Crown of the Cosmos (Heroic Voidspire)
-ach(61299),	-- Crown of the Cosmos (Mythic Voidspire)
-ach(61300),	-- Belo'ren (Raid Finder March on Quel'Danas)
-ach(61301),	-- Belo'ren (Normal March on Quel'Danas)
-ach(61302),	-- Belo'ren (Heroic March on Quel'Danas)
-ach(61303),	-- Belo'ren (Mythic March on Quel'Danas)
-ach(61304),	-- Midnight Falls (Raid Finder March on Quel'Danas)
-ach(61305),	-- Midnight Falls (Normal March on Quel'Danas)
-ach(61306),	-- Midnight Falls (Heroic March on Quel'Danas)
-ach(61307),	-- Midnight Falls (Mythic March on Quel'Danas)
 ach(61344),	-- Legends of the Haranir
 ach(61346),	-- We Will, In Fact, See It Again
 ach(61366),	-- Voidspire
@@ -185,10 +144,6 @@ ach(61456),	-- Die in Lordaeron or Undercity
 ach(61464),	-- Spark in the Night
 ach(61465),	-- Spark in the Night
 ach(61467),	-- Lorewalking: Elves
-ach(61474),	-- Chimaerus, the Undreamt God (Raid Finder Dreamrift)
-ach(61475),	-- Chimaerus, the Undreamt God (Normal Dreamrift)
-ach(61476),	-- Chimaerus, the Undreamt God (Heroic Dreamrift)
-ach(61477),	-- Chimaerus, the Undreamt God (Mythic Dreamrift)
 ach(61487),	-- Chimaerus, the Undreamt God
 ach(61488),	-- Heroic: Chimaerus, the Undreamt God
 ach(61489),	-- Mythic: Chimaerus, the Undreamt God
