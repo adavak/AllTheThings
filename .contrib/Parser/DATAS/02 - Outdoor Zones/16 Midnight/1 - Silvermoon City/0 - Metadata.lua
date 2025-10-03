@@ -3,7 +3,7 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, MIDNIGHT, {
-	M(SILVERMOON_CITY, {
+	M(SILVERMOON_CITY_MID, {
 	}),
 })));
 --]]

@@ -3,7 +3,7 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, MIDNIGHT, {
-	M(EVERSONG_WOODS, {
+	M(EVERSONG_WOODS_MID, {
 		explorationHeader({
 		}),
 	}),
