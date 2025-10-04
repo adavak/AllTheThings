@@ -82,6 +82,10 @@ local RaceDB = {
 		["Alliance"] = EARTHEN_ALLIANCE,
 		["Horde"] = EARTHEN_HORDE,
 	},
+	["Haranir"] = {
+		["Alliance"] = HARANIR_ALLIANCE,
+		["Horde"] = HARANIR_HORDE
+	},
 };
 
 ExportDB.RaceDB = RaceDB
@@ -129,6 +133,8 @@ RaceIDs[TAUREN].gender[female].icon = 236453
 RaceIDs[TROLL].gender[female].icon = 236455
 RaceIDs[GOBLIN].gender[female].icon = 632354
 RaceIDs[BLOODELF].gender[female].icon = 236439
+RaceIDs[HARANIR_ALLIANCE].gender[female].icon = 7431080
+RaceIDs[HARANIR_HORDE].gender[female].icon = 7431080
 -- male
 RaceIDs[HUMAN].gender[male].icon = 236448
 RaceIDs[DWARF].gender[male].icon = 236444
@@ -141,6 +147,8 @@ RaceIDs[TAUREN].gender[male].icon = 236454
 RaceIDs[TROLL].gender[male].icon = 236456
 RaceIDs[GOBLIN].gender[male].icon = 463874
 RaceIDs[BLOODELF].gender[male].icon = 236440
+RaceIDs[HARANIR_ALLIANCE].gender[male].icon = 7431081
+RaceIDs[HARANIR_HORDE].gender[male].icon = 7431081
 
 -- Verify no new races have been missed from Constants
 for _,race in ipairs(ALL_RACES) do
