@@ -182,6 +182,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 					["timeline"] = { ADDED_8_1_5 },
 				}),
+				i(238739, {	-- Chrono Corsair (MOUNT!)
+					["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
+					["timeline"] = { ADDED_11_2_5 },
+				}),
 				i(187997, {	-- Eternal Heirloom Armor Casing
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 					["timeline"] = { ADDED_9_1_5 },
@@ -7492,9 +7496,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 						}),
 						i(257516, {	-- Bronze Gravewing Harness (MOUNT!)
 							["cost"] = {{ "i", 254694, 1 }},	-- Ta'readon's Mount Voucher
-						}),
-						i(238739, {	-- Chrono Corsair (MOUNT!)
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
 						i(258515, {	-- Crimson Lupine (MOUNT!)
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},

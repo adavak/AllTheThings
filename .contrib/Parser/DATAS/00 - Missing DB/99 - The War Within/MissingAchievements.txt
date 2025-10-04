@@ -55,17 +55,6 @@ ach(60953),	-- Mechanical Battler of Northrend
 ach(60954),	-- Undead Battler of Northrend
 ach(60956),	-- Family Battler of Northrend
 ach(61023),	-- [DNT] Exalted with a Dracthyr Player Faction
-ach(61028),	-- Undead Battler of Eastern Kingdoms
-ach(61029),	-- Aquatic Battler of Eastern Kingdoms
-ach(61030),	-- Beast Battler of Eastern Kingdoms
-ach(61031),	-- Critter Battler of Eastern Kingdoms
-ach(61032),	-- Dragonkin Battler of Eastern Kingdoms
-ach(61033),	-- Elemental Battler of Eastern Kingdoms
-ach(61034),	-- Flying Battler of Eastern Kingdoms
-ach(61035),	-- Humanoid Battler of Eastern Kingdoms
-ach(61036),	-- Magic Battler of Eastern Kingdoms
-ach(61037),	-- Mechanical Battler of Eastern Kingdoms
-ach(61040),	-- Family Battler of Eastern Kingdoms
 ach(61041),	-- Aquatic Battler of Kalimdor
 ach(61042),	-- Beast Battler of Kalimdor
 ach(61043),	-- Critter Battler of Kalimdor

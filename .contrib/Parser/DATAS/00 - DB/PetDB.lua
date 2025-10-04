@@ -3951,7 +3951,9 @@ i(0, 3569);			-- Tempe
 i(205004, 3513);	-- Azure Swoglet
 i(205054, 3532);	-- Amador
 i(205011, 3517);	-- Bronze Swoglet
+-- #if AFTER 11.2.7
 i(205017, 3519);	-- Byrn
+-- #endif
 i(205008, 3514);	-- Emerald Swoglet
 i(205018, 3520);	-- Jade Skitterbug
 i(205116, 3534);	-- Jerrie
