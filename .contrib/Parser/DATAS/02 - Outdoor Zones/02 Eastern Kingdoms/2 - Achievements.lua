@@ -51,6 +51,7 @@ local STEVEN_LISBANE = {
 };
 root(ROOTS.Zones, m(EASTERN_KINGDOM, {
 	n(ACHIEVEMENTS, {
+		-- TODO: ADD CORRECT CRITERIAS
 		header(HEADERS.Achievement, 61040, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Family Battler of Eastern Kingdoms
 			petbattle(ach(61040, {	-- Family Battler of Eastern Kingdoms
 				-- Meta Achievement
@@ -72,7 +73,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOM, {
 				},
 			})),
 			petbattle(ach(61029, {	-- Aquatic Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
+				crit(108071, {	-- BILL_BUCKLER
 					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
 					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
 				}),
