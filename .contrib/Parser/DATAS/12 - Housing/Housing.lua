@@ -1,7 +1,7 @@
------------------------------------------
---	  H O U S I N G    M O D U L E	   --
------------------------------------------
-root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+---------------------------------------------
+--	  A R C A N T I N A    M O D U L E	   --
+---------------------------------------------
+root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 	n(ACHIEVEMENTS, {
 		-- Collecting
 		ach(61308),	-- Score A Decor				(1)

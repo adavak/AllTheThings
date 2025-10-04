@@ -77,9 +77,6 @@ ach(61048),	-- Magic Battler of Kalimdor
 ach(61049),	-- Mechanical Battler of Kalimdor
 ach(61050),	-- Undead Battler of Kalimdor
 ach(61051),	-- Family Battler of Kalimdor
-ach(61081),	-- Share a Drink
-ach(61082),	-- Old Soldiers
-ach(61083),	-- Highly Decorated
 ach(61091),	-- Midnight Safari
 ach(61094),	-- Old World Family Battler
 ach(61212),	-- Magisters' Terrace
@@ -119,10 +116,6 @@ ach(61378),	-- Mythic: Belo'ren
 ach(61379),	-- Mythic: Midnight Falls
 ach(61380),	-- Glory of the Midnight Raider
 ach(61381),	-- Belo'ren Achievement
-ach(61438),	-- Thalassian Profession Master
-ach(61439),	-- Thalassian Artisan
-ach(61440),	-- Thalassian Polymath
-ach(61441),	-- Working WAY Past Midnight
 ach(61444),	-- Vicious Saddle (43)
 ach(61445),	-- Vicious Saddle (43)
 ach(61446),	-- Slayer's Mastery
