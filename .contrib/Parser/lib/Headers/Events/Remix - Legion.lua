@@ -9,7 +9,7 @@ REMIX_LEGION = createHeader({
 		2025, 10, 7,	-- 7/10/2025
 		2026, 1, 19,	-- 19/01/2026
 	},
-	timerunningSeasonID = 1,
+	timerunningSeasonID = 2,
 	text = {
 		en = "Remix: Legion",
 	--	cn = "熊猫人之谜：幻境新生",
