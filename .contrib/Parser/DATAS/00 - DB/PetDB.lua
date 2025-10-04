@@ -4466,45 +4466,44 @@ i(222967, 4475);	-- Webbers
 ------------------
 -- PATCH 12.0.0 --
 ------------------
-
---- UNSORTED ---
-i(255151, 4906);	-- [DNT] Baby Amani Eagle (Grey)
-i(0, 4905);	-- [DNT] Baby Amazard (Red)
 i(250135, 4874);	-- Akil Fledgling
 i(193068, 3277);	-- Amber Treeflitter
 i(250142, 4882);	-- Azure Sporebat
 i(250148, 4879);	-- Blistercreepling
-i(258739, 4914);	-- Chillcrawler
 i(238793, 4790);	-- Devouring Runt
+i(250143, 4883);	-- Dragonhawk Mosswing
+i(250139, 4878);	-- Ebon Snapling
+i(250146, 4885);	-- Gloom Toad
+i(250137, 4876);	-- Mud Potadpole
+i(250145, 4884);	-- Pangolil
+i(251005, 4892);	-- Riftblade Familiar
+i(250136, 4875);	-- Rootling Nester
+i(250147, 4886);	-- Silkcrawler
+i(258660, 4912);	-- Silvermoon Broom
+i(250140, 4880);	-- Swamp Biter
+i(251001, 4890);	-- Vibrant Manaling
+i(250138, 4877);	-- Violet Chick
+
+--- UNSORTED ---
+i(255151, 4906);	-- [DNT] Baby Amani Eagle (Grey)
+i(0, 4905);	-- [DNT] Baby Amazard (Red)
+i(258739, 4914);	-- Chillcrawler
 i(260306, 4942);	-- Distorted Memory
 i(258189, 4910);	-- Do, child of Fi'lo
-i(250143, 4883);	-- Dragonhawk Mosswing
 i(259224, 4928);	-- Dragonhawk Munchkin
 i(0, 4887);	-- Dundun
-i(250139, 4878);	-- Ebon Snapling
 i(246628, 4508);	-- Emerald Sporbit
-i(250146, 4885);	-- Gloom Toad
 i(244339, 4816);	-- Hawkstrider Hatchling
 i(259991, 4930);	-- Lil' Preyseeker
-i(250137, 4876);	-- Mud Potadpole
 i(250863, 4888);	-- Naloki
 i(251002, 4889);	-- Nether Familia
 i(240840, 4803);	-- Niblet
-i(250145, 4884);	-- Pangolil
 i(258903, 4927);	-- Percival
 i(250141, 4881);	-- Purple Swamp Leech
 i(244911, 4830);	-- Rhay'Dahr
-i(251005, 4892);	-- Riftblade Familiar
-i(250136, 4875);	-- Rootling Nester
 i(232856, 4633);	-- Scruff
-i(250147, 4886);	-- Silkcrawler
-i(258660, 4912);	-- Silvermoon Broom
 i(251004, 3364);	-- Striped Snakebiter
-i(250140, 4880);	-- Swamp Biter
 i(245544, 4851);	-- Tiny Snow Buddy
 i(259337, 4929);	-- Vermillion Grovecrawler
-i(251001, 4890);	-- Vibrant Manaling
-i(250138, 4877);	-- Violet Chick
-i(239101, 4795);	-- Voidcrawler
 i(221495, 4497);	-- Waddles
 i(251003, 4891);	-- Wrathful Wyrm
