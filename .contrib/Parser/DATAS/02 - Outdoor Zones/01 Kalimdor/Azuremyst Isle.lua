@@ -5,12 +5,12 @@ local COOKIE_GROUPS = {};
 root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 	m(AZUREMYST_ISLE, {
 		["lore"] = "Azuremyst Isle is the zone the Draenei spaceship crashed into, leading to the formation of the Exodar as their capital city. Quests focus on the draenei acquainting themselves with the land and trying to strengthen their struggling settlements. Since this island was so far-out, there was very little other civilization before the crash.",
+		["icon"] = 236715,
+		["timeline"] = { ADDED_2_0_1 },
 		["maps"] = {
 			98,		-- Tides' Hollow
 			99,		-- Stillpine Hold
 		},
-		["icon"] = 236715,
-		["timeline"] = { ADDED_2_0_1 },
 		["groups"] = {
 			m(AMMEN_VALE, {
 				["lore"] = "Ammen Vale is a small island and subzone off the coast of Azuremyst Isle. It is a lightly forested valley with escape pods, crystals, and smoking bits of the crashed planar ship scattered about the landscape.",

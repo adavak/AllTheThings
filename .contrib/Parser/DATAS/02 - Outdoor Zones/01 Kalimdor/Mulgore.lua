@@ -4,11 +4,11 @@
 root(ROOTS.Zones, m(KALIMDOR, {
 	m(MULGORE, {
 		["lore"] = "A land of windswept mesas and grassy plains, Mulgore is the tauren's ancestral homeland. Centaur often send raiding parties into Mulgore, and the tauren, now with the help of their Horde allies, beat them back. Tauren are naturally a nomadic people, and their tent cities are scattered across the landscape and change with the seasons and the weather.\n\nNow that they are members of the Horde, the tauren have constructed several permanent settlements, including fortified Dalsh-Beran and their capital of Thunder Bluff.",
+		["icon"] = 236809,
 		["maps"] = {
 			8,	-- Palemane Rock
 			9,	-- The Venture Co. Mine
 		},
-		["icon"] = 236809,
 		["groups"] = {
 			m(CAMP_NARACHE, {
 				["lore"] = "Camp Narache is the starting area and town for the Tauren, which is located in southern Mulgore at the northern edge of the Red Cloud Mesa. Tauren Shamans will find their first totem quest here for the Earth Totem. Camp Narache is the main village of the Hawkwind Tribe, and its Chief is a member of that Tribe.",

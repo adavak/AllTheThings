@@ -188,8 +188,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		-- TWW Season 2 Boss
 		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			["icon"] = [[~_.asset("Delves_Goblin")]],
-			["maps"] = { 2426 },
 			["coord"] = { 52.7, 9.4, UNDERMINE },
+			["maps"] = { 2426 },
 			["groups"] = {
 				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
 					ach(41529, {	-- Breaking the Bank
@@ -255,8 +255,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		-- TWW Season 3 Boss
 		m(DELVE_ETHEREAL_KYVEZA, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			["icon"] = [[~_.asset("Delves_Shadow")]],
-			["maps"] = { DELVE_ETHEREAL_KYVEZA },
 			["coord"] = { 38.5, 51.1, KARESH_TAZAVESH },
+			["maps"] = { DELVE_ETHEREAL_KYVEZA },
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42190, {	-- Let Me Solo Her: Nexus-Princess Ky'veza

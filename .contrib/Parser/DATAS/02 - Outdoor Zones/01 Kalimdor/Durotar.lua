@@ -19,13 +19,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			m(ECHO_ISLES, {
 				["lore"] = "The Echoes Isles are the ancestral home of the Darkspear Trolls. Vol'jin, the leader of the trolls, has relocated here after tensions between Hellscream and the trolls.",
 				["icon"] = 236456,
-				["timeline"] = { ADDED_4_0_3 },
 				-- #if BEFORE 6.0.0
 				-- CRIEVE NOTE: I actually have no idea when they added the proper mapID for this subzone.
 				["zone-text-areas"] = {
 					368,	-- Echo Isles
 				},
 				-- #endif
+				["timeline"] = { ADDED_4_0_3 },
 				["maps"] = { 464 },	-- Spitescale Cavern
 				["groups"] = {
 					n(QUESTS, bubbleDown({ ["races"] = HORDE_ONLY, ["timeline"] = { ADDED_4_0_3 } }, {
@@ -980,6 +980,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			m(VALLEY_OF_TRIALS, {
 				["lore"] = "The Valley of Trials in southern Durotar is where all young orc adventurers begin their journey. Within the valley, they are safe from external threats while taking on challenges that enable them to get used to their new status as recruits of the Horde.",
+				["icon"] = 236452,
 				-- #if BEFORE 6.0.0
 				-- CRIEVE NOTE: I actually have no idea when they added the proper mapID for this subzone.
 				["zone-text-areas"] = {
@@ -988,7 +989,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					365,	-- Burning Blade Coven
 				},
 				-- #endif
-				["icon"] = 236452,
 				["maps"] = { 2 },	-- Burning Blade Coven
 				["groups"] = {
 					n(QUESTS, {

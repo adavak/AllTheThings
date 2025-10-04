@@ -15,9 +15,9 @@ end]];
 root(ROOTS.Zones, m(KALIMDOR, {
 	m(NORTHERN_BARRENS, {
 		["lore"] = "Northern Barrens is a dry grassy zone, dotted with farms and few lush oasis. It is primarily a low-level zone for Horde players, but Alliance players can travel to the Steamwheedle Cartel city of Ratchet.",
-		["maps"] = { 11 },	-- Wailing Caverns (Outside instance)
 		["icon"] = 236717,
 		["timeline"] = { ADDED_4_0_3 },
+		["maps"] = { 11 },	-- Wailing Caverns (Outside instance)
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(750, {	-- Explore Northern Barrens
