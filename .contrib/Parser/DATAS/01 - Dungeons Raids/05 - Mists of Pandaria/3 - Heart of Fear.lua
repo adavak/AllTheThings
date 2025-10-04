@@ -69,13 +69,13 @@ end]];
 -- #endif
 root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	applyclassicphase(MOP_PHASE_ONE_HEART_OF_FEAR, inst(330, {	-- Heart of Fear
-		["isRaid"] = true,
 		["coord"] = { 39.0, 34.9, DREAD_WASTES },	-- Heart of Fear
 		["maps"] = {
 			474,	-- Oratorium of the Voice
 			475,	-- Heart of Fear
 		},
 		["sharedLockout"] = 1,
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(6718, {	-- The Dread Approach

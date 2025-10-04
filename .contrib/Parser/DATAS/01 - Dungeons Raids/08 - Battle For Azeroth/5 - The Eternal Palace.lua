@@ -3,7 +3,6 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 	inst(1179, {	-- The Eternal Palace
-		["isRaid"] = true,
 		["coord"] = { 50.5, 11.9, NAZJATAR },
 		["maps"] = {
 			1512,	-- Dais of Eternity
@@ -15,6 +14,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			1519,	-- Precipice of Dreams
 			1520,	-- The Last Prison
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(13718, {	-- The Grand Reception
@@ -956,12 +956,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		q(56966),	-- Queen's Court Aqueous Reliquary NHC? LootID
 		q(56968),	-- Queen's Court Aqueous Reliquary HC? LootID
 		q(56963),	-- Radiance of Azshara Aqueous Reliquary Mythic? LootID
-
 		q(56948),	-- creating rank 1 Condensed Life-Force from Aqueous Reliquaries
 		q(56949),	-- creating rank 2 Condensed Life-Force from Aqueous Reliquaries
 		q(56525),	-- Killing heroic Azshara
 		q(56967),	-- Mythic: The Queen's Court
-
 		q(55754),	-- Abyssal Commander Sivara HC LootID
 		q(55757),	-- Blackwater Behemoth HC LootID
 		q(55755),	-- Radiance of Azshara HC LootID

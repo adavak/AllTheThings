@@ -7,14 +7,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 3606,	-- Hyjal Summit
 		-- #endif
+		-- #if BEFORE WRATH
+		["sourceQuest"] = 10445,	-- The Vials of Eternity
+		-- #endif
+		["mapID"] = THE_BATTLE_FOR_MOUNT_HYJAL,
 		["coords"] = {
 			{ 36.0, 16.1, CAVERNS_OF_TIME },	-- raid entrance
 			{ 64.7, 49.9, TANARIS },	-- entrance to CoT, Tanaris
 		},
-		["mapID"] = THE_BATTLE_FOR_MOUNT_HYJAL,
-		-- #if BEFORE WRATH
-		["sourceQuest"] = 10445,	-- The Vials of Eternity
-		-- #endif
 		["sharedLockout"] = 1,
 		["isRaid"] = true,
 		["lvl"] = lvlsquish(70, 68, 30),	-- The attunement quests were originally level 70 required, but once removed, level 68s could zone in.

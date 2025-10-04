@@ -48,9 +48,9 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	inst(385, {	-- Bloodmaul Slag Mines
-		["lvl"] = 90,
 		["mapID"] = 573,
 		["coord"] = { 49.93, 24.8, FROSTFIRE_RIDGE },
+		["lvl"] = 90,
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(CRUSHTO),

@@ -31,8 +31,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 3429,	-- Ruins of Ahn'Qiraj
 		-- #endif
-		["coord"] = { 58.93, 14.26, AHNQIRAJ_THE_FALLEN_KINGDOM },
 		["mapID"] = RUINS_OF_AHNQIRAJ,
+		["coord"] = { 58.93, 14.26, AHNQIRAJ_THE_FALLEN_KINGDOM },
 		["sharedLockout"] = 1,
 		["isRaid"] = true,
 		["lvl"] = lvlsquish(50, 50, 25),

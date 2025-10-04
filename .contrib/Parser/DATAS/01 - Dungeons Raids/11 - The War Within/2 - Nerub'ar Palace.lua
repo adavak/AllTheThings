@@ -269,7 +269,6 @@ InstanceHelper.UpgradeMapping = {
 
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	inst(1273, {	-- Nerub'ar Palace
-		["isRaid"] = true,
 		["coord"] = { 35.6, 71.6, AZJ_KAHET },
 		["maps"] = {
 			2291,	-- The Pulsing Pit
@@ -279,6 +278,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			2295,	-- The Crown of Shadows
 			2296,	-- The Crown of Shadows - Upper
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(40247, {	-- The Skittering Battlements

@@ -86,6 +86,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 1417,	-- Sunken Temple
 		-- #endif
+		["mapID"] = TEMPLE_OF_ATALHAKKAR,
 		["coords"] = {
 			-- #if AFTER CATA
 			{ 76.0, 45.2, SWAMP_OF_SORROWS },
@@ -93,7 +94,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			{ 69.2, 54.8, SWAMP_OF_SORROWS },
 			-- #endif
 		},
-		["mapID"] = TEMPLE_OF_ATALHAKKAR,
 		-- #if SEASON_OF_DISCOVERY
 		["sharedLockout"] = 1,
 		["isRaid"] = true,

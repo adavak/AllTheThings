@@ -66,8 +66,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			{ "i", 16309, 1 },	-- Drakefire Amulet
 		},
 		-- #endif
-		["coord"] = { 52.3, 76.2, DUSTWALLOW_MARSH },
 		["mapID"] = ONYXIAS_LAIR,
+		["coord"] = { 52.3, 76.2, DUSTWALLOW_MARSH },
 		-- #if NOT ANYCLASSIC
 		-- TODO: Double check this in Retail.
 		-- You can get into all three difficulties in Wrath Classic.

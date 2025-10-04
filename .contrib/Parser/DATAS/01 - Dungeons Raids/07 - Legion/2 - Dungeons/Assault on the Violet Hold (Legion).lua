@@ -3,9 +3,9 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 	inst(777, {	-- Assault of Violet Hold (Legion)
-		["lvl"] = 105,
 		["mapID"] = 732,
 		["coord"] = { 66.2, 68.3, LEGION_DALARAN },
+		["lvl"] = 105,
 		["groups"] = {
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				n(VH_FINAL_WAVE_BOSS, {

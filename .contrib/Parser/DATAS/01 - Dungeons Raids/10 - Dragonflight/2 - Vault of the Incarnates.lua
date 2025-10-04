@@ -303,7 +303,6 @@ local TIMELINE_LFR = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_2 }
 
 root(ROOTS.Instances, expansion(EXPANSION.DF, {
 	inst(1200, {	-- Vault of the Incarnates
-		["isRaid"] = true,
 		["coord"] = { 73.0, 55.7, THALDRASZUS },
 		["timeline"] = { ADDED_10_0_2_LAUNCH },
 		["maps"] = {
@@ -317,6 +316,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 			2126,	-- The Clutchwarren
 			2135,	-- Valdrakken
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(17110, {	-- The Primal Bulwark

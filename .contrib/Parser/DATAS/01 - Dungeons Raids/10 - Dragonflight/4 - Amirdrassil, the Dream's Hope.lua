@@ -381,7 +381,6 @@ local TIMELINE_LFR = { ADDED_10_2_0, REMOVED_11_0_2 }
 
 root(ROOTS.Instances, expansion(EXPANSION.DF, {
 	inst(1207, {	-- Amirdrassil, the Dream's Hope
-		["isRaid"] = true,
 		["coord"] = { 27.3, 30.9, EMERALD_DREAM },
 		["timeline"] = { ADDED_10_2_0 },
 		["maps"] = {
@@ -395,6 +394,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 			2244,	-- The Scorched Hall
 			2240,	-- Verdant Terrace
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			header(HEADERS.Item, 206448, {	-- Fyr'alath the Dreamrender
 				n(QUESTS, bubbleDown({

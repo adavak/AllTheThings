@@ -199,8 +199,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			{ 55.1, 43.8, NZOTH_ASSAULT_ULDUM },
 			{ 41.6, 45.5, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 		},
-		["isRaid"] = true,
-		["lvl"] = { 50 },
 		["maps"] = {
 			1580,	-- Vision of Destiny
 			1581,	-- Annex of Prophecy
@@ -214,6 +212,8 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			1596,	-- Chamber of Rebirth
 			1597,	-- Locus of Infinite Truths
 		},
+		["isRaid"] = true,
+		["lvl"] = { 50 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(14058),	-- All Eyes On Me (Ny'alotha)
@@ -538,7 +538,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		q(58546),	-- Mythic: Ra-den
 		q(58538),	-- Mythic: Il'gynoth
 		q(58534),	-- Mythic: N'zoth
-
 		q(59557),	-- kill wrathion
 		q(59558),	-- kill Maut
 		q(58547),	-- kill skitra - probably triggers when first wing clears?

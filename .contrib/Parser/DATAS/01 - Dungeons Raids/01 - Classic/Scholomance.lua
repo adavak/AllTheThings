@@ -2520,15 +2520,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 2057,	-- TODO: Determine what expansion this gets its own (correct) mapID.
 		-- #endif
-		["coord"] = { 69.07, 72.96, WESTERN_PLAGUELANDS },
-		["mapID"] = SCHOLOMANCE,
-		["maps"] = {
-			-- #if AFTER MOP
-			SCHOLOMANCE_CHAMBER_OF_SUMMONING, SCHOLOMANCE_THE_UPPER_STUDY, SCHOLOMANCE_HEADMASTERS_STUDY,
-			-- #else
-			306, 307, 308, 309,
-			-- #endif
-		},
 		-- #if BEFORE 4.0.3
 		["sourceQuests"] = {
 			5505,	-- The Key to Scholomance [Alliance]
@@ -2536,6 +2527,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		},
 		["cost"] = { { "i", 13704, 1 } },	-- Skeleton Key
 		-- #endif
+		["mapID"] = SCHOLOMANCE,
+		["coord"] = { 69.07, 72.96, WESTERN_PLAGUELANDS },
+		["maps"] = {
+			-- #if AFTER MOP
+			SCHOLOMANCE_CHAMBER_OF_SUMMONING, SCHOLOMANCE_THE_UPPER_STUDY, SCHOLOMANCE_HEADMASTERS_STUDY,
+			-- #else
+			306, 307, 308, 309,
+			-- #endif
+		},
 		["lvl"] = lvlsquish(55, 33, 33),
 		["groups"] = SCHOLOMANCE_GROUPS,
 	}),

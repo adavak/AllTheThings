@@ -4,8 +4,8 @@
 root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDED_4_0_3 }, {
 	applyclassicphase(CATA_PHASE_ONE, inst(65, {	-- Throne of the Tides
 		["mapID"] = 322,
-		["maps"] = { 323 },
 		["coord"] = { 71.00, 29.00, VASHJIR_ABYSSAL_DEPTHS },	-- Abyssal Depths, Vashj'ir
+		["maps"] = { 323 },
 		["groups"] = {
 			n(QUESTS, sharedData({
 				-- #if AFTER 6.0.3

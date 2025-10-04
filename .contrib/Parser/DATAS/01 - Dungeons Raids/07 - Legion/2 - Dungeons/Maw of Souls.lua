@@ -43,9 +43,9 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 	inst(727, {	-- Maw of Souls
-		["lvl"] = 110,
-		["maps"] = { 706, 707, 708 },
 		["coord"] = { 52.5, 45.3, STORMHEIM },
+		["maps"] = { 706, 707, 708 },
+		["lvl"] = 110,
 		["groups"] = {
 			n(WORLD_QUESTS, {
 				q(42780, {	-- Maw of Souls: From Hell's Mouth

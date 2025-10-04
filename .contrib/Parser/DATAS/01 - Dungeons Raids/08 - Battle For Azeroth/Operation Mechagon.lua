@@ -687,6 +687,7 @@ appendAllGroups(INSTANCE_GROUPS, SeasonDifficultyGroups)
 root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 	inst(1178, {	-- Operation: Mechagon
 		["coord"] = { 73.1, 36.3, MECHAGON },
+		["timeline"] = {ADDED_8_2_0},
 		["maps"] = {
 			1490,	-- Mechagon Island
 			1491,	-- The Robodrome
@@ -694,7 +695,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 			1494,	-- The Under Junk
 			1497,	-- Mechagon City
 		},
-		["timeline"] = {ADDED_8_2_0},
 		["groups"] = INSTANCE_GROUPS
 	}),
 }))

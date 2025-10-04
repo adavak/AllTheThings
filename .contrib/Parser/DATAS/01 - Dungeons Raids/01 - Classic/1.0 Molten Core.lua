@@ -41,14 +41,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 2717,	-- Molten Core
 		-- #endif
-		["mapID"] = MOLTEN_CORE,
-		["cr"] = 14387,	-- Lothos Riftwalker
-		["coord"] = { 54.18, 83.25, BLACKROCK_MOUNTAIN },
 		-- #if BEFORE 5.4.0
 		["sourceQuest"] = 7848,	-- Attunement to the Core
 		-- #endif
+		["mapID"] = MOLTEN_CORE,
+		["coord"] = { 54.18, 83.25, BLACKROCK_MOUNTAIN },
 		["sharedLockout"] = 1,
 		["isRaid"] = true,
+		["cr"] = 14387,	-- Lothos Riftwalker
 		["lvl"] = lvlsquish(50, 50, 25),
 		["groups"] = {
 			header(HEADERS.Item, 17182, {	-- Sulfuras, Hand of Ragnaros

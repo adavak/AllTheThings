@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 3716,	-- The Underbog
 		-- #endif
-		["coord"] = { 54.24, 34.45, ZANGARMARSH },	-- The Underbog, Zangarmarsh
 		["mapID"] = COILFANG_RESERVOIR_UNDERBOG,
+		["coord"] = { 54.24, 34.45, ZANGARMARSH },	-- The Underbog, Zangarmarsh
 		["lvl"] = lvlsquish(60, 60, 10),
 		["groups"] = {
 			n(QUESTS, {

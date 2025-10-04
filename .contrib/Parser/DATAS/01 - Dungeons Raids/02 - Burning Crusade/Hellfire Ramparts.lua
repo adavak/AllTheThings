@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 3562,	-- Hellfire Ramparts
 		-- #endif
-		["coord"] = { 47.65, 53.57, HELLFIRE_PENINSULA },	-- Hellfire Ramparts, Hellfire Peninsula
 		["mapID"] = HELLFIRE_CITADEL_RAMPARTS,
+		["coord"] = { 47.65, 53.57, HELLFIRE_PENINSULA },	-- Hellfire Ramparts, Hellfire Peninsula
 		["lvl"] = lvlsquish(57, 57, 10),
 		["groups"] = {
 			n(QUESTS, {

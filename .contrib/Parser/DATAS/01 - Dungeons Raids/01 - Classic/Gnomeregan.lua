@@ -53,13 +53,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #if BEFORE MOP
 		["lore"] = "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city.\n\nIt is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplug, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplug remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord.",
 		-- #endif
-		["coords"] = {
-			-- #if AFTER MOP
-			{ 30.1, 74.6, NEW_TINKERTOWN_LOWER },	-- Gnomeregan [Dun Morogh]
-			-- #else
-			{ 18.4, 38.6, DUN_MOROGH },	-- Gnomeregan [Dun Morogh]
-			-- #endif
-		},
 		-- #if AFTER 4.0.6
 		["description"] = "Horde players can access Gnomeregan from the teleporter in Grom'gol Base Camp, Northen Stranglethorn.", -- The teleporter was removed from Booty Bay with 4.0.3, and returned to the game with 4.0.6.
 		-- #endif
@@ -72,6 +65,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		},
 		-- #endif
 		["mapID"] = GNOMEREGAN,
+		["coords"] = {
+			-- #if AFTER MOP
+			{ 30.1, 74.6, NEW_TINKERTOWN_LOWER },	-- Gnomeregan [Dun Morogh]
+			-- #else
+			{ 18.4, 38.6, DUN_MOROGH },	-- Gnomeregan [Dun Morogh]
+			-- #endif
+		},
 		["maps"] = { GNOMEREGAN_LEVEL2, GNOMEREGAN_LEVEL3, GNOMEREGAN_LEVEL4 },
 		-- #if SEASON_OF_DISCOVERY
 		["sharedLockout"] = 1,

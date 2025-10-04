@@ -47,9 +47,9 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	inst(547, {	-- Auchindoun
-		["lvl"] = 94,
 		["mapID"] = 593,
 		["coord"] = { 46.27, 73.92, TALADOR },
+		["lvl"] = 94,
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(VIGILANT),

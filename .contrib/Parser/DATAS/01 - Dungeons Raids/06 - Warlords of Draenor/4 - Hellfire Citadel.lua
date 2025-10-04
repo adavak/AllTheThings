@@ -4,8 +4,8 @@
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_2_0 } }, {
 	inst(669, {	-- Hellfire Citadel
 		["mapID"] = 661,
-		["maps"] = { 662, 663, 664, 665, 666, 667, 668, 669, 670 },
 		["coord"] = { 45.56, 53.61, TANAAN_JUNGLE },
+		["maps"] = { 662, 663, 664, 665, 666, 667, 668, 669, 670 },
 		["isRaid"] = true,
 		["lvl"] = 100,
 		["groups"] = {

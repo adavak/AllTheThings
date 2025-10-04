@@ -350,7 +350,6 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, {
 	inst(1195, {	-- Sepulcher of the First Ones
-		["isRaid"] = true,
 		["coord"] = { 80.9, 53.4, ZERETH_MORTIS },
 		["maps"] = {
 			2047,	-- Immortal Hearth
@@ -361,6 +360,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			2052,	-- The Grand Design
 			2061,	-- Ephemeral Plains
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(15493, {	-- Ephemeral Plains

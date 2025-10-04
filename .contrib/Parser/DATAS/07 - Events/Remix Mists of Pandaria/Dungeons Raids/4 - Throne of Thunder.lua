@@ -4,7 +4,6 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ ["timeline"] = { ADDED_10_2_7, REMOVED_MOP_REMIX_END } }, {
 	n(RAIDS, {
 		inst(362, {	-- Throne of Thunder
-			["isRaid"] = true,
 			["coord"] = { 63.4, 32.6, ISLE_OF_THUNDER },	-- Throne of Thunder
 			["maps"] = {
 				508,	-- Overgrown Statuary
@@ -16,6 +15,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 				514,	-- Pinnacle of Storms
 				515,	-- Hidden Cell
 			},
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(19955, {	-- Raid Finder: Throne of Thunder

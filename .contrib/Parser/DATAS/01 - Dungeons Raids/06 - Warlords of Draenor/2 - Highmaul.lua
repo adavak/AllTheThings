@@ -152,8 +152,8 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	inst(477, {	-- Highmaul
 		["mapID"] = 612,
-		["maps"] = { 610, 611, 613, 614, 615 },
 		["coord"] = { 32.9, 38.3, DRAENOR_NAGRAND },
+		["maps"] = { 610, 611, 613, 614, 615 },
 		["isRaid"] = true,
 		["lvl"] = 100,
 		["groups"] = {

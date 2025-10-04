@@ -49,11 +49,11 @@ applyclassicphase(PHASE_SIX,
 		["zone-text-areaID"] = 3456,	-- Naxxramas
 		["sourceQuest"] = 9121,	-- The Dread Citadel - Naxxramas [Honored]
 		-- #endif
+		["mapID"] = NAXXRAMAS,
+		["maps"] = { NAXXRAMAS_LEVEL2, NAXXRAMAS_LEVEL3, NAXXRAMAS_LEVEL4, NAXXRAMAS_LEVEL5, NAXXRAMAS_LEVEL6 },
 		-- #if AFTER CATA
 		["sharedLockout"] = 1,
 		-- #endif
-		["mapID"] = NAXXRAMAS,
-		["maps"] = { NAXXRAMAS_LEVEL2, NAXXRAMAS_LEVEL3, NAXXRAMAS_LEVEL4, NAXXRAMAS_LEVEL5, NAXXRAMAS_LEVEL6 },
 		["isRaid"] = true,
 		-- #if BEFORE WRATH
 		["lvl"] = 60,

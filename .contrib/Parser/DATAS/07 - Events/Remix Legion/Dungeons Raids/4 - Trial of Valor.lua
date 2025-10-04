@@ -4,9 +4,9 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
 		inst(861, {	-- Trial of Valor
-			["isRaid"] = true,
 			["coord"] = { 70.4, 69.4, STORMHEIM },
 			["maps"] = { 806, 807, 808 },
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42558, {	-- Raid Finder: Trial of Valor

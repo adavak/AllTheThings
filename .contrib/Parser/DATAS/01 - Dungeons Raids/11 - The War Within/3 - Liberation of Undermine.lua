@@ -274,8 +274,8 @@ InstanceHelper.UpgradeMapping = {
 
 root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 	inst(1296, {	-- Liberation of Undermine
-		["isRaid"] = true,
 		["coord"] = { 42.0, 50.2, UNDERMINE },
+		["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		["maps"] = {
 			2406,	-- Undermine
 			2407,	-- The Gallagio
@@ -284,7 +284,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 			2411,	-- The Tower of Spades
 			2428,	-- Research and Destruction
 		},
-		["timeline"] = { ADDED_11_1_0_SEASONSTART },
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(41225, {	-- Shock and Awesome

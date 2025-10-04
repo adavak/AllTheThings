@@ -230,7 +230,6 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	inst(1190, {	-- Castle Nathria
-		["isRaid"] = true,
 		["coord"] = { 46.1, 41.5, REVENDRETH },
 		["maps"] = {
 			1734,	-- Revendreth (?)
@@ -242,6 +241,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			1748,	-- The Observatorium
 			1750,	-- Feast of Arrogance
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(14715, {	-- Castle Nathria
@@ -1018,9 +1018,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	inst(1190, {	-- Castle Nathria
 		q(60680),	-- LFR 'The Leeching Vaults' Completed
-
 		q(62949),	-- Sire Denathrius Slain (spellID 345481)
-
 		q(62871),	-- Shriekwing
 		q(62872),	-- Huntsman Altimor
 		q(62873),	-- Sun King's Salvation

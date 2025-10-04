@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 3717,	-- The Slave Pens
 		-- #endif
-		["coord"] = { 48.95, 35.84, ZANGARMARSH },	-- The Slave Pens, Zangarmarsh
 		["mapID"] = COILFANG_RESERVOIR_SLAVE_PENS,
+		["coord"] = { 48.95, 35.84, ZANGARMARSH },	-- The Slave Pens, Zangarmarsh
 		["lvl"] = lvlsquish(59, 59, 10),
 		["groups"] = {
 			n(QUESTS, {

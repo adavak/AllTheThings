@@ -4,8 +4,6 @@
 
 root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	inst(1031, {	-- Uldir
-		["isRaid"] = true,
-		["lvl"] = { 50 },
 		["maps"] = {
 			1148,	-- Ruin's Descent
 			1149,	-- Hall of Sanitation
@@ -16,6 +14,8 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			1154,	-- The Oblivion Door
 			1155,	-- The Festering Core
 		},
+		["isRaid"] = true,
+		["lvl"] = { 50 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(12537),	-- Uldir Guild Run

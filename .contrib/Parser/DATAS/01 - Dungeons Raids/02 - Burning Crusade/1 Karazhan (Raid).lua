@@ -29,13 +29,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			365,	-- The Power Station
 			366,	-- Netherspace
 		},
-		["sharedLockout"] = 1,
-		["isRaid"] = true,
 		-- #if BEFORE 4.2.0
 		["cost"] = {
 			{ "i", 24490, 1 },	-- The Master's Key
 		},
 		-- #endif
+		["sharedLockout"] = 1,
+		["isRaid"] = true,
 		["lvl"] = lvlsquish(70, 68, 30),	-- The attunement quests were originally level 70 required, but once removed, level 68s could zone in. TODO: Check this.
 		["groups"] = {
 			n(ACHIEVEMENTS, {

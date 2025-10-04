@@ -168,7 +168,6 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 	inst(768, {	-- The Emerald Nightmare
-		["isRaid"] = true,
 		["coord"] = { 56.3, 36.9, VALSHARAH },
 		["maps"] = {
 			777,
@@ -185,6 +184,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 			788,
 			789,
 		},
+		["isRaid"] = true,
 		["lvl"] = 110,
 		["groups"] = {
 			n(ACHIEVEMENTS, {

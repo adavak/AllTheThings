@@ -3280,12 +3280,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7, ADDED_11_2_5 },
 		["groups"] = {
 			inst(1301, {	-- Blackrock Depths
-				["isRaid"] = true,
 				--["coord"] = { },
 				["maps"] = {
 					2362,	-- Shadowforge City
 					2363,	-- Detention Block
 				},
+				["isRaid"] = true,
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(40999, {		-- You're in Your Blackrock Depths

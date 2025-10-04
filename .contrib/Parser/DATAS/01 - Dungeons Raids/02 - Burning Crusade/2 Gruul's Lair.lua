@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 3618,	-- Gruul's Lair
 		-- #endif
-		["coord"] = { 69.31, 23.67, BLADES_EDGE_MOUNTAINS },	-- Gruul's Lair, Blade's Edge Mountain
 		["mapID"] = GRUULS_LAIR,
+		["coord"] = { 69.31, 23.67, BLADES_EDGE_MOUNTAINS },	-- Gruul's Lair, Blade's Edge Mountain
 		["sharedLockout"] = 1,
 		["isRaid"] = true,
 		["lvl"] = lvlsquish(68, 68, 30),	-- Level 68s could zone in without any attunements. TODO: Check this.

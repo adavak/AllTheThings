@@ -4,9 +4,9 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
 		inst(768, {	-- The Emerald Nightmare
-			["isRaid"] = true,
 			["coord"] = { 56.3, 36.9, VALSHARAH },
 			["maps"] = { 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789 },
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42603, {	-- Raid Finder: Emerald Nightmare

@@ -81,9 +81,9 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_1_0 } }, {
 	inst(861, {	-- Trial of Valor
-		["isRaid"] = true,
 		["coord"] = { 70.4, 69.4, STORMHEIM },
 		["maps"] = { 806, 807, 808 },
+		["isRaid"] = true,
 		["lvl"] = 110,
 		["groups"] = {
 			n(ACHIEVEMENTS, {

@@ -4,8 +4,8 @@
 root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDED_4_0_3 }, {
 	applyclassicphase(CATA_PHASE_ONE, inst(66, {	-- Blackrock Caverns
 		["mapID"] = 283,
-		["maps"] = { 284 },
 		["coord"] = { 71.77, 52.98, BLACKROCK_MOUNTAIN_LEVEL2 },
+		["maps"] = { 284 },
 		["groups"] = {
 			n(QUESTS, {
 				q(28741, {	-- Ascendant Lord Obsidius

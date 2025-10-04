@@ -4,12 +4,12 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
 		inst(786, {	-- The Nighthold
-			["isRaid"] = true,
 			["coords"] = {
 				{ 43.3, 62.3, SURAMAR },	-- entrance that leads underground
 				{ 44.1, 59.7, SURAMAR },	-- actual raid entrance
 			},
 			["maps"] = { 764, 765, 766, 767, 768, 769, 770, 771, 772 },
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42553, {	-- Raid Finder: The Nighthold

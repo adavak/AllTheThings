@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 3789,	-- Shadow Labyrinth
 		-- #endif
-		["coord"] = { 39.63, 73.55, TEROKKAR_FOREST },	-- Shadow Labyrinth, Terokkar Forest
 		["mapID"] = AUCHINDOUN_SHADOW_LABYRINTH,
+		["coord"] = { 39.63, 73.55, TEROKKAR_FOREST },	-- Shadow Labyrinth, Terokkar Forest
 		-- #if BEFORE CATA
 		["cost"] = {
 			{ "i", 27991, 1 },	-- Shadow Labyrinth Key

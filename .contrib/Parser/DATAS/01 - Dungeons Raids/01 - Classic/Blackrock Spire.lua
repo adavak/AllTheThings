@@ -32,6 +32,9 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 	-- #if BEFORE WOD
 	["zone-text-areaID"] = 1583,	-- Blackrock Spire
 	-- #endif
+	-- #if AFTER 6.0.1
+	["coord"] = { 80.46, 40.65, BLACKROCK_MOUNTAIN },
+	-- #endif
 	["maps"] = {
 		BLACKROCK_SPIRE,
 		LBRS_TAZZALOR,
@@ -41,11 +44,6 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 		LBRS_HALYCONS_LAIR,
 		LBRS_CHAMBER_OF_BATTLE,
 	},
-	-- #if AFTER 6.0.1
-	["coord"] = { 80.46, 40.65, BLACKROCK_MOUNTAIN },
-	-- #else
-
-	-- #endif
 	["lvl"] = 50,
 	["groups"] = {
 		n(QUESTS, {

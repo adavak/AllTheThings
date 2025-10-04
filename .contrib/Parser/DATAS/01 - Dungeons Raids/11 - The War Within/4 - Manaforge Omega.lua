@@ -356,7 +356,6 @@ InstanceHelper.ExtraLoots = {
 
 root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
-		["isRaid"] = true,
 		["coord"] = { 41.9, 21.5, KARESH },
 		["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		["maps"] = {
@@ -373,6 +372,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 			2470,	-- Devourer's Heart
 			2471,	-- The Dark Heart
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(41601, {	-- Might of the Shadowguard

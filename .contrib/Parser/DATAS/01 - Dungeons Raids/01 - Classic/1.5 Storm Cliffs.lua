@@ -4,8 +4,8 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	applyclassicphase(SOD_PHASE_FOUR, inst(2791, bubbleDownSelf({["timeline"] = { ADDED_1_15_3 }}, {	-- Storm Cliffs
-		["zone-text-areaID"] = 15532,	-- Storm Cliffs
 		["lore"] = "The Storm Cliffs is a place in Azshara known for its weather and acts as the home away from home for the blue dragonflight.",
+		["zone-text-areaID"] = 15532,	-- Storm Cliffs
 		["coord"] = { 43.5, 83.6, AZSHARA },
 		["isRaid"] = true,
 		["lvl"] = 60,

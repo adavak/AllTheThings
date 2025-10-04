@@ -281,7 +281,6 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_2_0 } }, {
 	inst(875, {	-- Tomb of Sargeras
-		["isRaid"] = true,
 		["coord"] = { 64.3, 21.0, BROKEN_SHORE },
 		["maps"] = {
 			645,
@@ -293,6 +292,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			855,
 			856,
 		},
+		["isRaid"] = true,
 		["lvl"] = 110,
 		["groups"] = {
 			n(ACHIEVEMENTS, {

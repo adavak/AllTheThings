@@ -61,13 +61,13 @@ THE_FROSTWING_HALLS = createHeader({
 root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_FOUR, bubbleDown({ ["timeline"] = { ADDED_3_3_0 } }, {
 	inst(758, {	-- Icecrown Citadel
 		["mapID"] = ICECROWN_CITADEL,
+		["coord"] = { 53.7, 87.0, ICECROWN },
 		["maps"] = {
 			187, 188, 189, 190, 191, 192, 193,
 			-- #if AFTER LEGION
 			699, 1359,	-- 1359 may be a specific scenario map - it was reported as missing in early 2019, but i couldn't find context for it
 			-- #endif
 		},
-		["coord"] = { 53.7, 87.0, ICECROWN },
 		-- #if AFTER CATA
 		["sharedLockout"] = 1,
 		-- #endif

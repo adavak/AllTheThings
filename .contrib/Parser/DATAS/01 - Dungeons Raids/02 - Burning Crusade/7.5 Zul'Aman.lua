@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 3805,	-- Zul'Aman
 		-- #endif
-		["coord"] = { 81.8, 64.3, GHOSTLANDS },	-- Zul'Aman, Ghostlands
 		["mapID"] = ZULAMAN,
+		["coord"] = { 81.8, 64.3, GHOSTLANDS },	-- Zul'Aman, Ghostlands
 		["isRaid"] = true,
 		["lvl"] = lvlsquish(68, 68, 30),
 		["groups"] = {

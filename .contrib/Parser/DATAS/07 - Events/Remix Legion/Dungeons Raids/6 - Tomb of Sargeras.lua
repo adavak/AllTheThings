@@ -4,9 +4,9 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
 		inst(875, {	-- Tomb of Sargeras
-			["isRaid"] = true,
 			["coord"] = { 64.3, 21.0, BROKEN_SHORE },
 			["maps"] = { 645, 850, 851, 852, 853, 854, 855, 856 },
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42649, {	-- Raid Finder: Tomb of Sargeras

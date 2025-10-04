@@ -9,6 +9,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 			{ 36.3, 12.2, KARESH_TAZAVESH },
 			-- #endif
 		},
+		["timeline"] = { ADDED_9_1_0 },
 		["maps"] = {
 			TAZAVESH_THE_VEILED_MARKET,
 			TAZAVESH_THE_MENAGERIE,
@@ -19,7 +20,6 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 			TAZAVESH_BORALUS_HARBOR,
 			TAZAVESH_AGGRAMARS_VAULT,
 		},
-		["timeline"] = { ADDED_9_1_0 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(61093, {	-- Flawless Transaction

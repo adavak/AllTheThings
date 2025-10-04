@@ -54,9 +54,9 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	inst(476, {	-- Skyreach
-		["lvl"] = 96,
-		["maps"] = { 601, 602 },
 		["coord"] = { 35.5, 33.6, SPIRES_OF_ARAK },
+		["maps"] = { 601, 602 },
+		["lvl"] = 96,
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(RANJIT),

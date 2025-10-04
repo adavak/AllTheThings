@@ -438,16 +438,16 @@ namespace ATT
                         break;
                     }
 
-                // Followed by Description
-                case "[\"description\"]":
+                // Followed by Lore
+                case "[\"lore\"]":
                     {
                         property.Priority = -498;
                         lineIndex = ProcessLuaString(lines, line, lineIndex, property, nestedType);
                         break;
                     }
 
-                // Followed by Lore
-                case "[\"lore\"]":
+                // Followed by Description
+                case "[\"description\"]":
                     {
                         property.Priority = -497;
                         lineIndex = ProcessLuaString(lines, line, lineIndex, property, nestedType);
@@ -466,6 +466,13 @@ namespace ATT
                 case "[\"zone-text-areaID\"]":
                     {
                         property.Priority = -495;
+                        break;
+                    }
+                case "[\"zone-text-areas\"]":
+                case "[\"zone-text-names\"]":
+                    {
+                        property.Priority = -495;
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
                         break;
                     }
 
@@ -543,11 +550,26 @@ namespace ATT
                         break;
                     }
 
+                // Followed by headerID
+                case "[\"headerID\"]":
+                    {
+                        property.Priority = 9;
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        break;
+                    }
+
+                // Followed by Map ID
+                case "[\"mapID\"]":
+                    {
+                        property.Priority = 10;
+                        break;
+                    }
+
                 // Followed by Coordinates
                 case "[\"coord\"]":
                 case "[\"coords\"]":
                     {
-                        property.Priority = 10;
+                        property.Priority = 11;
                         lineIndex = ProcessBrackets(lines, lineIndex, property);
                         break;
                     }
@@ -580,7 +602,6 @@ namespace ATT
                     }
 
                 // Followed by Maps
-                case "[\"mapID\"]":
                 case "[\"maps\"]":
                     {
                         property.Priority = 20;
@@ -749,13 +770,6 @@ namespace ATT
                 case "[\"lvl\"]":
                     {
                         property.Priority = 1000;
-                        break;
-                    }
-
-                // Followed by headerID
-                case "[\"headerID\"]":
-                    {
-                        property.Priority = 1399;
                         break;
                     }
 

@@ -228,7 +228,6 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
 	inst(1193, {	-- Sanctum of Domination
-		["isRaid"] = true,
 		["coord"] = { 69.8, 31.8, THE_MAW },
 		["maps"] = {
 			1998,	-- Tower of the Damned
@@ -239,6 +238,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			2003,	-- Sanctum of Domination
 			2004,	-- The Crucible
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(15122, {	-- The Jailer's Vanguard
@@ -862,7 +862,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(70491),	-- Bonesteel - Fated - Rep/Flux
 		q(70492),	-- Bonesteel - Fated - Rep/Flux
 		q(70725),	-- Bonesteel - Fated - ?
-
 		q(64603),	-- Stygian Ember from Soulember [176940] (Normal / Heroic)
 		q(64613),	-- Stygian Ember from Soulember (Normal / Heroic)
 		q(64673),	-- 1x Styigan Ember from Soulember (LFR)
@@ -874,7 +873,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(70499),	-- Soulember - Fated - Rep/Flux
 		q(70500),	-- Soulember - Fated - Rep/Flux
 		q(70729),	-- Soulember - Fated - ?
-
 		q(64602),	-- Stygian Ember from Hollowsoul [176879] (Normal / Heroic)
 		q(64610),	-- Stygian Ember from Hollowsoul (Normal / Heroic)
 		q(64677),	-- Stygian Ember from Hollowsoul (Normal)
@@ -885,7 +883,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(70495),	-- Hollowsoul - Fated - Rep/Flux
 		q(70496),	-- Hollowsoul - Fated - Rep/Flux
 		q(70727),	-- Hollowsoul - Fated - ?
-
 		q(64676),	-- Borr-Gahn (LFR)
 		q(64606),	-- Stygian Ember from Borr-Gahn [178824] (Heroic)
 		q(64622),	-- Stygian Ember from Borr-Gahn (Heroic)
@@ -897,7 +894,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(70493),	-- Borr-Gahn - Fated - Rep/Flux
 		q(70494),	-- Borr-Gahn - Fated - Rep/Flux
 		q(70726),	-- Borr-Gahn - Fated - ?
-
 		q(64675),	-- Stygian Ember from Screamspike (LFR)
 		q(64605),	-- Stygian Ember from Screamspike (Normal / Heroic)
 		q(64619),	-- Stygian Ember from Screamspike (Normal / Heroic)
@@ -909,7 +905,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(70497),	-- Screamspike - Fated - Rep/Flux
 		q(70498),	-- Screamspike - Fated - Rep/Flux
 		q(70728),	-- Screamspike - Fated - ?
-
 		q(64326),	-- The Tarragrue (Normal / Heroic) (Heroic-Week 2)
 		q(64327),	-- The Tarragrue (Normal / Heroic) (Heroic-Week 2)
 		q(64328),	-- The Tarragrue (Heroic) (Heroic-Week 2)
@@ -918,7 +913,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64329),	-- The Tarragrue (Mythic)
 		q(70471),	-- The Tarragrue - Fated - Rep/Flux
 		q(70472),	-- The Tarragrue - Fated - Rep/Flux
-
 		q(64330),	-- Eye of the Jailer (Normal / Heroic) (Heroic-Week 2)
 		q(64331),	-- Eye of the Jailer (Normal / Heroic) (Heroic-Week 2)
 		q(64332),	-- Eye of the Jailer (Heroic-Week 2)
@@ -927,7 +921,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64657),	-- Eye of the Jailer (Normal / Heroic) (Heroic-Week 2)
 		q(70473),	-- Eye of the Jailer - Fated - Rep/Flux
 		q(70474),	-- Eye of the Jailer - Fated - Rep/Flux
-
 		q(64334),	-- The Nine (Normal / Heroic) (Heroic-Week 2)
 		q(64474),	-- The Nine (Normal / Heroic) (Heroic-Week 2)
 		q(64475),	-- The Nine (Heroic) (Heroic-Week 2)
@@ -936,7 +929,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64476),	-- The Nine (Mythic)
 		q(70475),	-- The Nine - Fated - Rep/Flux
 		q(70476),	-- The Nine - Fated - Rep/Flux
-
 		q(64481),	-- Soulrender Dormazain (Normal / Heroic) (Heroic-Week 2)
 		q(64482),	-- Soulrender Dormazain (Normal / Heroic) (Heroic-Week 2)
 		q(64483),	-- Soulrender Dormazain (Heroic) (Heroic-Week 2)
@@ -945,9 +937,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64484),	-- Soulrender Dormazain (Mythic)
 		q(70479),	-- Soulrender Dormazain - Fated - Rep/Flux
 		q(70480),	-- Soulrender Dormazain - Fated - Rep/Flux
-
 		q(64608),	-- Garrosh cinematic (Normal / Heroic) (spellID 358664)
-
 		q(64477),	-- Remnant of Ner'zhul (Normal / Heroic) (Heroic-Week 2)
 		q(64478),	-- Remnant of Ner'zhul (Normal / Heroic) (Heroic-Week 2)
 		q(64479),	-- Remnant of Ner'zhul (Heroic) (Heroic-Week 2)
@@ -956,7 +946,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64480),	-- Remnant of Ner'zhul (Mythic)
 		q(70477),	-- Remnant of Ner'zhul - Fated - Rep/Flux
 		q(70478),	-- Remnant of Ner'zhul - Fated - Rep/Flux
-
 		q(64672),	-- Painsmith Raznal (LFR)/LFR Wing 2 Completed
 		q(64485),	-- Painsmith Raznal (Normal / Heroic) (Heroic-Week 2)
 		q(64486),	-- Painsmith Raznal (Normal / Heroic) (Heroic-Week 2)
@@ -966,7 +955,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64488),	-- Painsmith Raznal (Mythic)
 		q(70481),	-- Painsmith Raznal - Fated - Rep/Flux
 		q(70482),	-- Painsmith Raznal - Fated - Rep/Flux
-
 		q(64489),	-- Guardian of the First Ones (Normal / Heroic) (Heroic-Week 2)
 		q(64490),	-- Guardian of the First Ones (Normal / Heroic) (Heroic-Week 2)
 		q(64491),	-- Guardian of the First Ones (Heroic) (Heroic-Week 2)
@@ -975,7 +963,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64492),	-- Guardian of the First Ones (Mythic)
 		q(70483),	-- Guardian of the First Ones - Fated - Rep/Flux
 		q(70484),	-- Guardian of the First Ones - Fated - Rep/Flux
-
 		q(64493),	-- Fatescribe Roh-Kalo (Normal)? / (Heroic-Week 2)
 		q(64494),	-- Fatescribe Roh-Kalo (Normal)? / (Heroic-Week 2)
 		q(64495),	-- Fatescribe Roh-Kalo (Heroic)
@@ -984,7 +971,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64663),	-- Fatescribe Roh-Kalo (Normal)? / (Heroic-Week 2)
 		q(70485),	-- Fatescribe Roh-Kalo - Fated - Rep/Flux
 		q(70486),	-- Fatescribe Roh-Kalo - Fated - Rep/Flux
-
 		q(64497),	-- Kel'Thuzad (Normal)?
 		q(64498),	-- Kel'Thuzad (Normal)?
 		q(64499),	-- Kel'Thuzad (Heroic)
@@ -993,7 +979,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64500),	-- Kel'Thuzad (Mythic)
 		q(70487),	-- Kel'Thuzad - Fated - Rep/Flux
 		q(70488),	-- Kel'Thuzad - Fated - Rep/Flux
-
 		q(64501),	-- Sylvanas Windrunner (Normal)?
 		q(64502),	-- Sylvanas Windrunner (Normal)?
 		q(64638),	-- Sylvanas Windrunner (Normal)?
@@ -1002,7 +987,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(64504),	-- Sylvanas Windrunner (Mythic)
 		q(70489),	-- Sylvanas Windrunner - Fated - Rep/Flux
 		q(70490),	-- Sylvanas Windrunner - Fated - Rep/Flux
-
 		q(64707),	-- Sylvanas Windrunner Cinematic?
 	}),
 })));

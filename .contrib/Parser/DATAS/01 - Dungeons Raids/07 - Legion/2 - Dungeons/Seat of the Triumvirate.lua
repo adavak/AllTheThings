@@ -3,9 +3,9 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	inst(945, {	-- Seat of the Triumvirate
-		["lvl"] = 110,
 		["mapID"] = 903,
 		["coord"] = { 22.2, 55.9, EREDATH },
+		["lvl"] = 110,
 		["groups"] = {
 			n(TREASURES, {
 				o(277384, {	-- Abandoned Treasure

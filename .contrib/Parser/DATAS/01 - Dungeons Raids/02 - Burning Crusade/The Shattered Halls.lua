@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 3714,	-- The Shattered Halls
 		-- #endif
-		["coord"] = { 47.66, 51.98, HELLFIRE_PENINSULA },	-- The Shattered Halls, Hellfire Peninsula
 		["mapID"] = HELLFIRE_CITADEL_SHATTERED_HALLS,
+		["coord"] = { 47.66, 51.98, HELLFIRE_PENINSULA },	-- The Shattered Halls, Hellfire Peninsula
 		-- #if BEFORE CATA
 		["cost"] = {
 			{ "i", 28395, 1 },	-- Shattered Halls Key

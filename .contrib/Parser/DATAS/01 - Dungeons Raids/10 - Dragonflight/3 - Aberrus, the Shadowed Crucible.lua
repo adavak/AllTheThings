@@ -287,7 +287,6 @@ local TIMELINE_LFR = { ADDED_10_1_0, REMOVED_11_0_2 }
 
 root(ROOTS.Instances, expansion(EXPANSION.DF, {
 	inst(1208, {	-- Aberrus, the Shadowed Crucible
-		["isRaid"] = true,
 		["coord"] = { 48.6, 10.2, ZARALEK_CAVERN },
 		["timeline"] = { ADDED_10_1_0 },
 		["maps"] = {
@@ -298,6 +297,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 			2170,	-- Edge of Oblivion
 			2211,	-- Aberrus, the Shadowed Crucible (reported in #retail-errors on 3-July-2024)
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			header(HEADERS.Item, 204177, {	-- Nasz'uro, the Unbound Legacy
 				i(204274, {	-- Ancient Memories

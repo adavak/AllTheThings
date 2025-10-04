@@ -8,14 +8,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 3607,	-- Serpentshrine Cavern
 		-- #endif
+		-- #if BEFORE WRATH
+		["sourceQuest"] = 10901,	-- The Cudgel of Kar'desh
+		-- #endif
+		["mapID"] = SERPENTSHRINE_CAVERN,
 		["coords"] = {
 			{ 50.2, 41.0, ZANGARMARSH },	-- underwater entrance
 			{ 51.9, 32.9, ZANGARMARSH },	-- pipe entrance
 		},
-		["mapID"] = SERPENTSHRINE_CAVERN,
-		-- #if BEFORE WRATH
-		["sourceQuest"] = 10901,	-- The Cudgel of Kar'desh
-		-- #endif
 		["sharedLockout"] = 1,
 		["isRaid"] = true,
 		["lvl"] = lvlsquish(68, 68, 30),	-- Level 68s could zone in without any attunements. TODO: Check this.

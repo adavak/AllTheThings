@@ -324,7 +324,6 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	inst(946, {	-- Antorus, the Burning Throne
-		["isRaid"] = true,
 		["coord"] = { 54.9, 62.3, ANTORAN_WASTES },
 		["maps"] = {
 			909,	-- Antorus, the Burning Throne
@@ -340,6 +339,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			919,	-- Upper Deck
 			920,	-- Lower Deck
 		},
+		["isRaid"] = true,
 		["lvl"] = { 45 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {

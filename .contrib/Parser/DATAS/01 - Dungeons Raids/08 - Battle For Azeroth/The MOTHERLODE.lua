@@ -309,8 +309,8 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 			{ 39.2, 71.5, ZULDAZAR },	-- Alliance
 			{ 44.3, 92.6, DAZARALOR },	-- Horde
 		},
-		["maps"] = { 1010 },	-- The Motherlode
 		["timeline"] = { ADDED_8_0_1_LAUNCH },
+		["maps"] = { 1010 },	-- The Motherlode
 		["groups"] = INSTANCE_GROUPS
 	}),
 }))

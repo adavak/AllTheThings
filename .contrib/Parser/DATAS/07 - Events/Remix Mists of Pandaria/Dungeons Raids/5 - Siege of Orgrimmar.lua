@@ -4,7 +4,6 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ ["timeline"] = { ADDED_10_2_7, REMOVED_MOP_REMIX_END } }, {
 	n(RAIDS, {
 		inst(369, {	-- Siege of Orgrimmar
-			["isRaid"] = true,
 			["coords"] = {
 				{ 72.3, 44.3, VALE_OF_ETERNAL_BLOSSOMS },
 			},
@@ -25,6 +24,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 				569,
 				570,
 			},
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(19958, {	-- Raid Finder: Siege of Orgrimmar

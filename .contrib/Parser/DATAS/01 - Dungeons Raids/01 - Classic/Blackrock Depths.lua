@@ -48,8 +48,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["zone-text-areaID"] = 1584,	-- Blackrock Depths
 		-- #endif
 		["description"] = "The best route for a full clear is to enter Shadowforge City first time through the Dark Iron Highway. The Detention Block can be cleared whenever.",
-		["coord"] = { 39.06, 18.12, BLACKROCK_MOUNTAIN_LEVEL3 },
 		["mapID"] = BLACKROCK_DEPTHS,
+		["coord"] = { 39.06, 18.12, BLACKROCK_MOUNTAIN_LEVEL3 },
 		["maps"] = { BLACKROCK_DEPTHS_LEVEL2 },
 		["lvl"] = 42,
 		["groups"] = {
@@ -3667,9 +3667,9 @@ root(ROOTS.HiddenQuestTriggers, {
 	})),
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 		inst(228, {
-			-- Both of these keep getting reported completed on turnin of seemingly any BRD class quest regardless of race or faction
 			q(82739),	-- ???
 			q(82740),	-- Twilight Scheming (New 11.0 ID)
+			-- Both of these keep getting reported completed on turnin of seemingly any BRD class quest regardless of race or faction
 		}),
 	})),
 });

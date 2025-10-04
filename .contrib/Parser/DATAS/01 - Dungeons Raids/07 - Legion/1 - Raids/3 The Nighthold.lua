@@ -199,12 +199,12 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_1_0 } }, {
 	inst(786, {	-- The Nighthold
-		["isRaid"] = true,
 		["coords"] = {
 			{ 43.3, 62.3, SURAMAR },	-- entrance that leads underground
 			{ 44.1, 59.7, SURAMAR },	-- actual raid entrance
 		},
 		["maps"] = { 764, 765, 766, 767, 768, 769, 770, 771, 772 },
+		["isRaid"] = true,
 		["lvl"] = 110,
 		["groups"] = {
 			n(ACHIEVEMENTS, {

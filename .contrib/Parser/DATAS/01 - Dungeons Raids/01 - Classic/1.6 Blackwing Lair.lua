@@ -43,16 +43,16 @@ local TOKENS = {
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE, bubbleDown({ ["timeline"] = { ADDED_1_6_0 } }, {
 	inst(742, {	-- Blackwing Lair
 		["lore"] = "In the dark recesses of the mountain's peak, Nefarian, the eldest son of Deathwing, conducts some of his most awful experimentation, controlling mighty beings like puppets and combining the eggs of different dragonflights with horrific results. Should he prove successful, even darker pursuits rest on the horizon.\n\nAnd, yet, the Lord of Blackrock is not a mere scientist - he is a great dragon cornered in his lair. Can he truly be defeated by mortal hands?",
-		["provider"] = { "o", 179879 },	-- Orb of Command
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 2677,	-- Blackwing Lair
 		-- #endif
-		["coord"] = { 64.2, 71.0, BLACKROCK_MOUNTAIN },
-		["mapID"] = BLACKWING_LAIR,
-		["maps"] = { BLACKWING_LAIR_LEVEL2, BLACKWING_LAIR_LEVEL3, BLACKWING_LAIR_LEVEL4 },
 		-- #if BEFORE WOD
 		["sourceQuest"] = 7761,	-- Blackhand's Command
 		-- #endif
+		["provider"] = { "o", 179879 },	-- Orb of Command
+		["mapID"] = BLACKWING_LAIR,
+		["coord"] = { 64.2, 71.0, BLACKROCK_MOUNTAIN },
+		["maps"] = { BLACKWING_LAIR_LEVEL2, BLACKWING_LAIR_LEVEL3, BLACKWING_LAIR_LEVEL4 },
 		["sharedLockout"] = 1,
 		["isRaid"] = true,
 		["lvl"] = lvlsquish(50, 50, 25),

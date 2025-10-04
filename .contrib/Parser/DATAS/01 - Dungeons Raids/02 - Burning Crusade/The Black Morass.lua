@@ -7,8 +7,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #if BEFORE MOP
 		["zone-text-areaID"] = 2366,	-- The Black Morass
 		-- #endif
-		["coord"] = { 37.2, 83.3, CAVERNS_OF_TIME },
 		["mapID"] = CAVERNS_OF_TIME_BLACK_MORASS,
+		["coord"] = { 37.2, 83.3, CAVERNS_OF_TIME },
 		["lvl"] = lvlsquish(65, 65, 25),
 		["groups"] = {
 			n(QUESTS, {

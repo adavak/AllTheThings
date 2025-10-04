@@ -3,7 +3,6 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_1_0 } }, {
 	inst(1176, {	-- Battle of Dazar'alor
-		["isRaid"] = true,
 		["coords"] = {
 			{ 70.5, 35.3, BORALUS },	-- Alliance
 			{ 38.8, 2.40, DAZARALOR },	-- Horde
@@ -18,6 +17,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			1364,	-- The Great Sea
 			1367,	-- Boralus
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(40961, {	-- Batle of Dazar'alor

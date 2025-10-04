@@ -53,9 +53,9 @@ InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, Instanc
 
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	inst(537, {	-- Shadowmoon Burial Grounds
-		["lvl"] = 100,
-		["maps"] = { 574, 575, 576 },
 		["coord"] = { 31.91, 42.55, DRAENOR_SHADOWMOON_VALLEY },
+		["maps"] = { 574, 575, 576 },
+		["lvl"] = 100,
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(SADANA),

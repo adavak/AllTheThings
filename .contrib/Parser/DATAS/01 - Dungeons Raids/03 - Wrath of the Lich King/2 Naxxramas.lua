@@ -3045,13 +3045,13 @@ local NAXX_LEGACY_CONTENT_UPDATE = bubbleDown({ ["timeline"] = { ADDED_10_1_5 } 
 root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
 	inst(754, {	-- Naxxramas
 		["mapID"] = NAXXRAMAS,
-		["maps"] = { NAXXRAMAS_LEVEL2, NAXXRAMAS_LEVEL3, NAXXRAMAS_LEVEL4, NAXXRAMAS_LEVEL5, NAXXRAMAS_LEVEL6 },
 		["coords"] = {
 			{ 87.4, 51.1, DRAGONBLIGHT },
 			-- #if AFTER 10.1.5
 			{ 35.7, 22.9, EASTERN_PLAGUELANDS },
 			-- #endif
 		},
+		["maps"] = { NAXXRAMAS_LEVEL2, NAXXRAMAS_LEVEL3, NAXXRAMAS_LEVEL4, NAXXRAMAS_LEVEL5, NAXXRAMAS_LEVEL6 },
 		-- #if NOT ANYCLASSIC
 		["sharedLockout"] = 1,
 		-- #endif
@@ -3060,7 +3060,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			-- #if AFTER 10.1.5
 			NAXX_LEGACY_CONTENT_UPDATE,
 			-- #endif
-			{
+		{
 			NAXX_10MAN_METADATA_AND_ACHIEVEMENTS,
 			-- #if NOT NAXX_10MAN_DROPS_25MAN_LOOT
 			NAXX_10MAN_LOOT,

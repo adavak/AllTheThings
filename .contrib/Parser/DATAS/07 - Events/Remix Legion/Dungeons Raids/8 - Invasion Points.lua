@@ -3,13 +3,13 @@
 -----------------------------------------------------
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	inst(959, {	-- Invasion Points
-		["isRaid"] = true,
 		["coords"] = {
 			{ 38.8, 12.4, EREDATH },
 			{ 70.5, 38.8, EREDATH },
 			-- TODO more coords for possible spawns
 			-- then remove the maps for Krokuun and Antoran Wastes once coords added
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(61077, {	-- Argus Invasion Point Bosses

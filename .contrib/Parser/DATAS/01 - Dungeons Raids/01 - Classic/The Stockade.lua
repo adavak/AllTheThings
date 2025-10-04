@@ -9,6 +9,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #if BEFORE WRATH
 		["zone-text-areaID"] = 717,	-- The Stockade
 		-- #endif
+		["mapID"] = THE_STOCKADE,
 		["coords"] = {
 			-- #if AFTER CATA
 			{ 50.5, 66.5, STORMWIND_CITY },
@@ -18,7 +19,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			{ 41.2, 58, STORMWIND_CITY },
 			-- #endif
 		},
-		["mapID"] = THE_STOCKADE,
 		["lvl"] = 15,
 		["groups"] = {
 			n(QUESTS, {

@@ -4,7 +4,6 @@
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	inst(959, {	-- Invasion Points
-		["isRaid"] = true,
 		-- ["sourceQuests"] = { },	-- TODO pretty sure a quest is required to unlock these
 		["coords"] = {
 			{ 38.8, 12.4, EREDATH },
@@ -12,6 +11,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			-- TODO more coords for possible spawns
 			-- then remove the maps for Krokuun and Antoran Wastes once coords added
 		},
+		["isRaid"] = true,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(12028, {	-- Envision Invasion Eradication

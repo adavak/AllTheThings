@@ -4,9 +4,9 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
 		inst(946, {	-- Antorus, the Burning Throne
-			["isRaid"] = true,
 			["coord"] = { 54.9, 62.3, ANTORAN_WASTES },
 			["maps"] = { 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920 },
+			["isRaid"] = true,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(42554, {	-- Raid Finder: Antorus the Burning Throne

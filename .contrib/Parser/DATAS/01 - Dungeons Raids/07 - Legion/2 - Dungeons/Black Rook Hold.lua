@@ -3,8 +3,8 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 	inst(740, {	-- Black Rook Hold
-		["maps"] = { 751, 752, 753, 754, 755, 756 },
 		["coord"] = { 38.4, 50.8, VALSHARAH },
+		["maps"] = { 751, 752, 753, 754, 755, 756 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(10709, {	-- You Used to Scrawl Me In Your Fel Tome (automated)

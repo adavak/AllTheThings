@@ -482,13 +482,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 				}),
 			}))),
 			inst(317, {	-- Mogu'shan Vaults
-				["isRaid"] = true,
 				["coord"] = { 59.6, 39.1, KUN_LAI_SUMMIT },
 				["maps"] = {
 					471,	-- Dais of Conquerors
 					472,	-- The Repository
 					473,	-- Forge of the Endless
 				},
+				["isRaid"] = true,
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(19946, {	-- Raid Finder: Mogu'shan Vaults
@@ -658,12 +658,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 				},
 			}),
 			inst(330, {	-- Heart of Fear
-				["isRaid"] = true,
 				["coord"] = { 39.0, 34.9, DREAD_WASTES },	-- Heart of Fear
 				["maps"] = {
 					474,	-- Oratorium of the Voice
 					475,	-- Heart of Fear
 				},
+				["isRaid"] = true,
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(19949, {	-- Raid Finder: Heart of Fear
@@ -797,9 +797,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 				},
 			}),
 			inst(320, {	-- Terrace of Endless Spring
-				["isRaid"] = true,
 				["coord"] = { 48.4, 61.4, THE_VEILED_STAIR },
 				["maps"] = { 456 },	-- Terrace of Endless Spring
+				["isRaid"] = true,
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(19952, {	-- Raid Finder: Terrace of Endless Spring
