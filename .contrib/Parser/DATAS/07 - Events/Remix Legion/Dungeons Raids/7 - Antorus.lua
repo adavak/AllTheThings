@@ -352,7 +352,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					e(2031, {	-- Argus the Unmaker
 						["cr"] = 124828,	-- Argus the Unmaker
-						["groups"] = { i(253304) },	-- Cosmic Soulsliver
+						["groups"] = {
+							i(253304),	-- Cosmic Soulsliver
+							-- TODO: Upon confirmation, leave the one that drops, remove the one that does not and remove this commented-out section.
+							-- 11.2.5 Blue Post states that Violet Spellwing will drop from Argus the Unmaker on Heroic or Mythic
+							-- Since it is not yet clear whether QS! will drop or the mount itself, both are listed.
+							-- https://worldofwarcraft.blizzard.com/en-us/news/24240007
+							i(152900),	-- Blood of the Unmaker (QS!) / Violet Spellwing (MOUNT!)
+							i(152901),	-- Kirin Tor Summoning Crystal / Violet Spellwing (MOUNT!)
+						},
 					}),
 				}),
 				d(DIFFICULTY.RAID.MYTHIC, {
@@ -413,7 +421,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					e(2031, {	-- Argus the Unmaker
 						["cr"] = 124828,	-- Argus the Unmaker
-						["groups"] = { i(253304) },	-- Cosmic Soulsliver
+						["groups"] = {
+							i(253304),	-- Cosmic Soulsliver
+							-- TODO: Upon confirmation, leave the one that drops, remove the one that does not and remove this commented-out section.
+							-- 11.2.5 Blue Post states that Violet Spellwing will drop from Argus the Unmaker on Heroic or Mythic
+							-- Since it is not yet clear whether QS! will drop or the mount itself, both are listed.
+							-- https://worldofwarcraft.blizzard.com/en-us/news/24240007
+							i(152900),	-- Blood of the Unmaker (QS!) / Violet Spellwing (MOUNT!)
+							i(152901),	-- Kirin Tor Summoning Crystal / Violet Spellwing (MOUNT!)
+						},
 					}),
 				}),
 			},

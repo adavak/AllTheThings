@@ -168,10 +168,82 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			--[[
-			n(251042, {	-- Domelius <Housing Vendor> (Stripped of his title and no vendor 'option' as of build 62687 but is still present.)
+			n(251042, {	-- Domelius <Housing Vendor>
+				["description"] = "You can buy additional copies of Housing Decor after receiving the first copy from the respective Achievement.",
 				["coord"] = { 45.9, 67.8, BROKEN_ISLES },
-				["groups"] = {
-				},
+				["groups"] = sharedData({
+					["timeline"] = { ADDED_11_2_7 },
+				}, {
+					-- EXO NOTE: Add These to respective Achievements as rewards when item numbers are datamined/released to the public.
+					i(XXXXXX, {	-- Altar of the Corrupted Flames (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Broken Isles World Quests|r.",
+						["cost"] = {{ "c", BRONZE, 30000 }},
+					}),
+					i(XXXXXX, {	-- Corruption Pit (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Legion Remix Raids|r.",
+						["cost"] = {{ "c", BRONZE, 30000 }},
+					}),
+					i(XXXXXX, {	-- Demonic Storage Chest (DECOR!)
+						["description"] = "Achievement: |cFFFFD700The Armies of Legionfall|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Eredar Lord’s Fel Torch (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Argussian Reach|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Fel Fountain (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Keystone Master|r.",
+						["cost"] = {{ "c", BRONZE, 30000 }},
+					}),
+					i(XXXXXX, {	-- Hanging Felsteel Cage (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Highmountain Tribe|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Hanging Felsteel Chain (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Defending the Broken Isles|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Large Legion Candle (DECOR!)
+						["description"] = "Achievement: |cFFFFD700The Nightfallen|r.",
+						["cost"] = {{ "c", BRONZE, 2500 }},
+					}),
+					i(XXXXXX, {	-- Legion’s Fel Brazier (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Dreamweavers|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Legion’s Fel Torch (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Power of the Obelisks|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Legion’s Holo-Communicator (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Broken Isles Dungeoneer|r.",
+						["cost"] = {{ "c", BRONZE, 30000 }},
+					}),
+					i(XXXXXX, {	-- Legion Torture Rack (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Heroic Broken Isles World Quests|r.",
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(XXXXXX, {	-- Sentinel’s Moonwing Gaze (DECOR!)
+						["description"] = "Achievement: |cFFFFD700The Wardens|r.",
+						["cost"] = {{ "c", BRONZE, 30000 }},
+					}),
+					i(XXXXXX, {	-- Small Legion Candle (DECOR!)
+						["description"] = "Achievement: |cFFFFD700The Nightfallen|r.",
+						["cost"] = {{ "c", BRONZE, 2500 }},
+					}),
+					i(XXXXXX, {	-- Tome of the Corrupt (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Court of Farondis|r.",
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(XXXXXX, {	-- Vertical Felsteel Chain (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Defending the Broken Isles|r.",
+						["cost"] = {{ "c", BRONZE, 5000 }},
+					}),
+					i(XXXXXX, {	-- Vrykul Lord’s Throne (DECOR!)
+						["description"] = "Achievement: |cFFFFD700Valajar|r.",
+						["cost"] = {{ "c", BRONZE, 20000 }},
+					}),
+				}),
 			}),
 			--]]
 			n(241143, {	-- Durus <Normal Raid Apparel>
