@@ -1943,8 +1943,8 @@ root(ROOTS.Zones, {
 				-- #if AFTER 6.0.2
 				n(ZONE_DROPS, {
 					i(120140, {	-- Tome of Polymorph: Porcupine (CI!)
-						["crs"] = { 65118 },	-- Needleback Porcupine
 						["timeline"] = { ADDED_6_0_2 },
+						["crs"] = { 65118 },	-- Needleback Porcupine
 					}),
 				}),
 				-- #endif

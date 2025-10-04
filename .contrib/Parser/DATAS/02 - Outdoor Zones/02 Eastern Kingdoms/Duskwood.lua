@@ -2278,8 +2278,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 16.7, 28.5, DUSKWOOD },
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210568, {	-- Decrepit Phylactery
-					["provider"] = { "o", 411348 },	-- Dusty Coffer
 					["description"] = "Go into the northeastern crypt (23.6, 35.0), head down, and take a left into the first big room (approximately 26.0, 30.9).",
+					["provider"] = { "o", 411348 },	-- Dusty Coffer
 					["coord"] = { 26.0, 31.0, DUSKWOOD },
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210251, {	-- Engraved Silver Ring
@@ -2289,12 +2289,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["classes"] = { ROGUE },
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210252, {	-- Rune of Shiving
+					["description"] = "With both rings, /kneel in front of the statue in the middle of Raven Hill Cemetary.",
 					["providers"] = {
 						--{ "o",  },	-- TODO: Find ObjectID
 						{ "i", 210250 },	-- Engraved Gold Ring
 						{ "i", 210251 },	-- Engraved Silver Ring
 					},
-					["description"] = "With both rings, /kneel in front of the statue in the middle of Raven Hill Cemetary.",
 					["coord"] = { 19.9, 45.5, DUSKWOOD },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { ROGUE },
@@ -2460,16 +2460,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				i(885, {	-- Black Metal Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 3,	-- Flesh Eater
 					["coords"] = {
 						{ 18.6, 33.0, DUSKWOOD },
 						{ 19.8, 45.2, DUSKWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 3,	-- Flesh Eater
 				}),
 				i(2014, {	-- Black Metal Greatsword
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 1270,	-- Fetid Corpse
 					["coords"] = {
 						{ 74.8, 32.8, DUSKWOOD },
 						{ 75.2, 37.6, DUSKWOOD },
@@ -2480,10 +2478,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 81.6, 32.2, DUSKWOOD },
 						{ 81.6, 33.6, DUSKWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 1270,	-- Fetid Corpse
 				}),
 				i(886, {	-- Black Metal Shortsword
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 210,	-- Bone Chewer
 					["coords"] = {
 						{ 15.8, 35.0, DUSKWOOD },
 						{ 17.0, 31.2, DUSKWOOD },
@@ -2491,8 +2489,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 24.4, 37.4, DUSKWOOD },
 						{ 25.6, 32.4, DUSKWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 210,	-- Bone Chewer
 				}),
 				i(2015, {	-- Black Metal War Axe
+					["coords"] = {
+						{ 25.4, 35.4, DUSKWOOD },
+						{ 17.8, 33.4, DUSKWOOD },
+						{ 19.8, 46.8, DUSKWOOD },
+						{ 23.4, 35.4, DUSKWOOD },
+					},
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
@@ -2501,22 +2507,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						570,	-- Brain Eater
 						-- #endif
 					},
-					["coords"] = {
-						{ 25.4, 35.4, DUSKWOOD },
-						{ 17.8, 33.4, DUSKWOOD },
-						{ 19.8, 46.8, DUSKWOOD },
-						{ 23.4, 35.4, DUSKWOOD },
-					},
 				}),
 				i(2013, {	-- Cryptbone Staff
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						203,	-- Skeletal Mage
-						-- #else
-						787,	-- Skeletal Healer
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 79.2, 66.6, DUSKWOOD },
@@ -2525,6 +2517,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						{ 16.6, 31.6, DUSKWOOD },
 						{ 17.0, 38.8, DUSKWOOD },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						203,	-- Skeletal Mage
+						-- #else
+						787,	-- Skeletal Healer
 						-- #endif
 					},
 				}),
@@ -2552,8 +2552,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(2232, {	-- Dark Runner Boots
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 205,	-- Nightbane Dark Runner
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 66.4, 33.0, DUSKWOOD },
@@ -2565,16 +2563,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 64.2, 74.0, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 205,	-- Nightbane Dark Runner
 				}),
 				i(1077, {	-- Defias Mage Ring
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						218,	-- Grave Robber
-						-- #else
-						910,	-- Defias Enchanter
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 7.6, 34.6, DUSKWOOD },
@@ -2583,16 +2575,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 50.6, 77.6, DUSKWOOD },
 						-- #endif
 					},
-				}),
-				i(2021, {	-- Green Carapace Shield
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						949,	-- Carrion Recluse
+						218,	-- Grave Robber
 						-- #else
-						569,	-- Green Recluse
+						910,	-- Defias Enchanter
 						-- #endif
 					},
+				}),
+				i(2021, {	-- Green Carapace Shield
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 23.6, 36.6, DUSKWOOD },
@@ -2605,16 +2597,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 12.6, 51.8, DUSKWOOD },
 						-- #endif
 					},
-				}),
-				i(2017, {	-- Glowing Leather Bracers
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						531,	-- Skeletal Fiend
+						949,	-- Carrion Recluse
 						-- #else
-						785,	-- Skeletal Warder
+						569,	-- Green Recluse
 						-- #endif
 					},
+				}),
+				i(2017, {	-- Glowing Leather Bracers
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 24.0, 44.6, DUSKWOOD },
@@ -2625,16 +2617,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 17.0, 31.0, DUSKWOOD },
 						-- #endif
 					},
-				}),
-				i(2227, {	-- Heavy Ogre War Axe
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						212,	-- Splinter Fist Warrior
+						531,	-- Skeletal Fiend
 						-- #else
-						892,	-- Splinter Fist Taskmaster
+						785,	-- Skeletal Warder
 						-- #endif
 					},
+				}),
+				i(2227, {	-- Heavy Ogre War Axe
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 40.2, 72.0, DUSKWOOD },
@@ -2645,16 +2637,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.2, 69.8, DUSKWOOD },
 						-- #endif
 					},
-				}),
-				i(2020, {	-- Hollowfang Blade
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						45582,	-- Black Widow
+						212,	-- Splinter Fist Warrior
 						-- #else
-						539,	-- Pygmy Venom Web Spider
+						892,	-- Splinter Fist Taskmaster
 						-- #endif
 					},
+				}),
+				i(2020, {	-- Hollowfang Blade
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 34.6, 55.0, DUSKWOOD },
@@ -2667,25 +2659,25 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 46.8, 16.8, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						45582,	-- Black Widow
+						-- #else
+						539,	-- Pygmy Venom Web Spider
+						-- #endif
+					},
 				}),
 				i(911, {	-- Ironwood Treebranch
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 889,	-- Splinter Fist Ogre
 					["coords"] = {
 						{ 38.4, 72.2, DUSKWOOD },
 						{ 35.2, 71.4, DUSKWOOD },
 						{ 36.6, 79.6, DUSKWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 889,	-- Splinter Fist Ogre
 				}),
 				i(914, {	-- Large Ogre Chain Armor
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						889,	-- Splinter Fist Ogre
-						-- #else
-						1487,	-- Splinter Fist Enslaver
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 39.0, 72.2, DUSKWOOD },
@@ -2694,6 +2686,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						{ 38.0, 80.6, DUSKWOOD },
 						{ 37.4, 84.6, DUSKWOOD },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						889,	-- Splinter Fist Ogre
+						-- #else
+						1487,	-- Splinter Fist Enslaver
 						-- #endif
 					},
 				}),
@@ -2711,8 +2711,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(897, {	-- Madwolf Bracers
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 206,	-- Nightbane Vile Fang
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 72.2, 74.6, DUSKWOOD },
@@ -2722,10 +2720,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 73.6, 72.0, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 206,	-- Nightbane Vile Fang
 				}),
 				i(2234, {	-- Nightwalker Armor
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 920,	-- Nightbane Tainted One
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 73.6, 73.0, DUSKWOOD },
@@ -2735,21 +2733,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 62.8, 80.2, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 920,	-- Nightbane Tainted One
 				}),
 				i(2226, {	-- Ogremage Staff
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						1251,	-- Splinter Fist Firemonger
-						-- #if BEFORE 4.0.3
-						891,	-- Splinter Fist Fire Weaver
-						-- #endif
-					},
 					["coords"] = {
 						{ 35.4, 71.4, DUSKWOOD },
 						{ 35.6, 81.0, DUSKWOOD },
 						{ 37.2, 69.8, DUSKWOOD },
 						{ 40.2, 72.0, DUSKWOOD },
 						{ 40.6, 74.8, DUSKWOOD },
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						1251,	-- Splinter Fist Firemonger
+						-- #if BEFORE 4.0.3
+						891,	-- Splinter Fist Fire Weaver
+						-- #endif
 					},
 				}),
 				i(5773, {	-- Pattern: Robes of Arcana (RECIPE!)
@@ -2766,8 +2766,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(2233, {	-- Shadow Weaver Leggings
-					["cr"] = 533,	-- Nightbane Shadow Weaver
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 65.6, 69.4, DUSKWOOD },
@@ -2778,16 +2776,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 64.8, 46.2, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 533,	-- Nightbane Shadow Weaver
 				}),
 				i(2018, {	-- Skeletal Longsword
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						 48,	-- Skeletal Warrior
-						-- #else
-						1110,	-- Skeletal Raider
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 80.8, 69.2, DUSKWOOD },
@@ -2798,14 +2790,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 16.8, 37.2, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						 48,	-- Skeletal Warrior
+						-- #else
+						1110,	-- Skeletal Raider
+						-- #endif
+					},
 				}),
 				i(880, {	-- Staff of Horrors
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 202,	-- Skeletal Horror / Rotting Horror
 					["coords"] = {
 						{ 80.6, 59.6, DUSKWOOD },
 						{ 20.8, 46.8, DUSKWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 202,	-- Skeletal Horror / Rotting Horror
 				}),
 				-- #if BEFORE 10.1.7
 				-- Now a quest reward.
@@ -2823,8 +2823,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(899, {	-- Venom Web Fang
-					["cr"] = 217,	-- Venom Web Spider
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 43.0, 20.4, DUSKWOOD },
@@ -2837,8 +2835,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 18.8, 27.8, DUSKWOOD },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 217,	-- Venom Web Spider
 				}),
 				i(920, {	-- Wicked Spiked Mace
+					["coords"] = {
+						-- #if AFTER 10.1.7
+						{ 7.8, 33.8, DUSKWOOD },
+						-- #else
+						{ 23.6, 71.6, DUSKWOOD },
+						{ 49.8, 77.8, DUSKWOOD },
+						-- #endif
+					},
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
@@ -2846,14 +2854,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						909,	-- Defias Night Blade
 						215,	-- Defias Night Runner
-						-- #endif
-					},
-					["coords"] = {
-						-- #if AFTER 10.1.7
-						{ 7.8, 33.8, DUSKWOOD },
-						-- #else
-						{ 23.6, 71.6, DUSKWOOD },
-						{ 49.8, 77.8, DUSKWOOD },
 						-- #endif
 					},
 				}),

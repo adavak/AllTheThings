@@ -1623,8 +1623,8 @@ root(ROOTS.Zones, {
 								["isLimited"] = true,
 							}),
 							i(25846, {	-- Plans: Adamantite Rod (RECIPE!)
-								["isLimited"] = true,
 								["timeline"] = { ADDED_2_0_1, REMOVED_5_0_4 },
+								["isLimited"] = true,
 							}),
 						},
 					}),
@@ -2142,20 +2142,20 @@ root(ROOTS.Zones, {
 								["cost"] = 12000000,	-- 1,200g
 							}),
 							i(134007, {	-- Eternal Black Diamond Ring (TOY!)
-								["cost"] = 50000000,	-- 5,000g
 								["timeline"] = { ADDED_7_0_3 },
+								["cost"] = 50000000,	-- 5,000g
 							}),
 							i(134004, {	-- Noble's Eternal Elementium Signet (TOY!)
-								["cost"] = 30000000,	-- 3,000g
 								["timeline"] = { ADDED_7_0_3 },
+								["cost"] = 30000000,	-- 3,000g
 							}),
 							applyclassicphase(WRATH_PHASE_FOUR, i(51809, {	-- Portable Hole
-								["cost"] = 30000000,	-- 3,000g
 								["timeline"] = { ADDED_3_3_0 },
+								["cost"] = 30000000,	-- 3,000g
 							})),
 							i(71037, {	-- Black Diamond Ring
-								["cost"] = 35000000,	-- 3,500g
 								["timeline"] = { ADDED_4_1_0 },
+								["cost"] = 35000000,	-- 3,500g
 							}),
 							i(38091, {	-- Gold Eternium Band
 								["cost"] = 30000000,	-- 3,000g
@@ -2678,8 +2678,8 @@ root(ROOTS.Zones, {
 						["coord"] = { 72.6, 31.6, SHATTRATH_CITY },
 						["groups"] = {
 							applyclassicphase(TBC_PHASE_TWO, i(23815, {	-- Schematic: Adamantite Shell Machine (RECIPE!)
-								["isLimited"] = true,
 								["timeline"] = { REMOVED_4_0_1 },
+								["isLimited"] = true,
 							})),
 							i(23816, {	-- Schematic: Fel Iron Toolbox (RECIPE!)
 								["isLimited"] = true,

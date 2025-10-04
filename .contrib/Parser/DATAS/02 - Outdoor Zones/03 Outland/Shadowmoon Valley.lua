@@ -2586,12 +2586,12 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(34221, {	-- Design: Chaotic Skyfire Diamond (RECIPE!)
-						["crs"] = { 19768 },	-- Coilskar Siren
 						["timeline"] = { ADDED_2_3_0, REMOVED_2_3_2 },
+						["crs"] = { 19768 },	-- Coilskar Siren
 					}),
 					i(34689, {	-- Design: Chaotic Skyfire Diamond (RECIPE!)
-						["crs"] = { 19768 },	-- Coilskar Siren
 						["timeline"] = { ADDED_2_3_2 },
+						["crs"] = { 19768 },	-- Coilskar Siren
 					}),
 					i(24158, {  -- Design: Khorium Band of Shadows (RECIPE!)
 						["crs"] = { 19826 },	-- Dark Conclave Shadowmancer
@@ -2602,13 +2602,13 @@ root(ROOTS.Zones, {
 					}),
 					i(30756, {	-- Illidari Bane-Shard (A)
 						["coord"] = { 23.0, 35.6, SHADOWMOON_VALLEY },
-						["cr"] = 21499,	-- Overseer Ripsaw
 						["races"] = ALLIANCE_ONLY,
+						["cr"] = 21499,	-- Overseer Ripsaw
 					}),
 					i(30579, {	-- Illidari Bane-Shard (H)
 						["coord"] = { 23.0, 35.6, SHADOWMOON_VALLEY },
-						["cr"] = 21499,	-- Overseer Ripsaw
 						["races"] = HORDE_ONLY,
+						["cr"] = 21499,	-- Overseer Ripsaw
 					}),
 					i(23609, {	-- Plans: Khorium Pants (RECIPE!)
 						["crs"] = { 20878 },	-- Deathforge Guardian
@@ -2620,26 +2620,26 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(33174, {	-- Plans: Ragesteel Shoulders (RECIPE!)
+						["timeline"] = { ADDED_2_2_0 },
 						["crs"] = {
 							21060,	-- Enraged Air Spirit
 							21050,	-- Enraged Earth Spirit
 							21061,	-- Enraged Fire Spirit
 							21059,	-- Enraged Water Spirit
 						},
-						["timeline"] = { ADDED_2_2_0 },
 					}),
 					i(31239, {	-- Primed Key Mold
 						["coord"] = { 67.6, 36.2, SHADOWMOON_VALLEY },
 						["timeline"] = { REMOVED_4_0_3 },
-						["cr"] = 22037,	-- Smith Gorlunk
 						["races"] = ALLIANCE_ONLY,
+						["cr"] = 22037,	-- Smith Gorlunk
 						["lvl"] = lvlsquish(68, 68, 10),
 					}),
 					i(31241, {	-- Primed Key Mold
 						["coord"] = { 67.6, 36.2, SHADOWMOON_VALLEY },
 						["timeline"] = { REMOVED_4_0_3 },
-						["cr"] = 22037,	-- Smith Gorlunk
 						["races"] = HORDE_ONLY,
+						["cr"] = 22037,	-- Smith Gorlunk
 						["lvl"] = lvlsquish(68, 68, 10),
 					}),
 					i(31682, {	-- Recipe: Fel Mana Potion (RECIPE!)
@@ -2676,27 +2676,27 @@ root(ROOTS.Zones, {
 						["crs"] = { 19755 },	-- Mo'arg Weaponsmith
 					}),
 					i(31345, {	-- The Journal of Val'zareq
-						["cr"] = 21979,	-- Val'zareq the Conqueror
 						["coords"] = {	-- NPC pats
 							{ 50.2, 58.6, SHADOWMOON_VALLEY },
 							{ 53.2, 60.2, SHADOWMOON_VALLEY },
 							{ 52.8, 68.6, SHADOWMOON_VALLEY },
 							{ 51.6, 64.0, SHADOWMOON_VALLEY },
 						},
+						["cr"] = 21979,	-- Val'zareq the Conqueror
 					}),
 					i(140784, {	-- Fel Piston Stabilizer
-						["timeline"] = { ADDED_7_0_3 },
-						["crs"] = {
-							17711,	-- Doomwalker
-							22859,	-- Shadowhoof Summoner
-							22858,	-- Shadowhoof Assassin
-						},
 						["coords"] = {
 							{ 69.6, 42.4, SHADOWMOON_VALLEY },
 							{ 69.6, 45.4, SHADOWMOON_VALLEY },
 							{ 69.6, 44.0, SHADOWMOON_VALLEY },
 							{ 66.0, 43.4, SHADOWMOON_VALLEY },
 							{ 72.6, 44.0, SHADOWMOON_VALLEY },
+						},
+						["timeline"] = { ADDED_7_0_3 },
+						["crs"] = {
+							17711,	-- Doomwalker
+							22859,	-- Shadowhoof Summoner
+							22858,	-- Shadowhoof Assassin
 						},
 					}),
 				}),

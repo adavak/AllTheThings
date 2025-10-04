@@ -105,8 +105,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 		-- Quest Items
 			i(185740, {	-- Head of Azodius (QI!)
-				["crs"] = { 177243 },	-- Azodius
 				["coord"] = { 56.4, 17.2, KORTHIA },
+				["crs"] = { 177243 },	-- Azodius
 			}),
 			i(185915),	-- Korthian Artifact (QI!)
 			i(187177),	-- Researching Korthian Relics (QI!)

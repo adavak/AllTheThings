@@ -1443,6 +1443,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 			}),
 			n(ZONE_DROPS, {
 				i(27669, {	-- Bat Flesh
+					["description"] = "Only drops from given bats in Ghostlands.",
 					["coords"] = {
 						{ 68.1, 42.5, GHOSTLANDS },	-- Farstrider Enclave, south of.
 						{ 33.8, 64.6, GHOSTLANDS },	-- Deatholme Gate, east of
@@ -1452,7 +1453,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						16355,	-- Lesser Scourgebat
 						16354,	-- Vampiric Mistbat
 					},
-					["description"] = "Only drops from given bats in Ghostlands.",
 				}),
 				i(22641, {	-- Rotting Heart
 					["crs"] = {

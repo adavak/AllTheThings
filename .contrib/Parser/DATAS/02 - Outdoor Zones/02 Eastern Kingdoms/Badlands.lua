@@ -2210,8 +2210,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(2621, {	-- Cowl of Necromancy
-					["cr"] = 2740,	-- Shadowforge Darkweaver
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 47.0, 26.0, BADLANDS },
@@ -2221,6 +2219,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 52.4, 33.6, BADLANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 2740,	-- Shadowforge Darkweaver
 				}),
 				i(10822, {	-- Dark Whelpling (PET!)
 					["crs"] = {
@@ -2232,14 +2232,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(1521, {	-- Lumbering Ogre Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						46928,	-- Dustbelcher Butcher
-						-- #else
-						2719,	-- Dustbelcher Lord
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 12.0, 79.6, BADLANDS },
@@ -2247,6 +2239,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						{ 10.0, 92.6, BADLANDS },
 						{ 7.6, 89.4, BADLANDS },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						46928,	-- Dustbelcher Butcher
+						-- #else
+						2719,	-- Dustbelcher Lord
 						-- #endif
 					},
 				}),
@@ -2265,8 +2265,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(2624, {	-- Thinking Cap
-					["timeline"] = { REMOVED_4_0_3, ADDED_8_0_1 },
-					["cr"] = 2718,	-- Dustbelcher Shaman
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 14.6, 61.8, BADLANDS },
@@ -2276,6 +2274,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 9.4, 85.4, BADLANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_8_0_1 },
+					["cr"] = 2718,	-- Dustbelcher Shaman
 				}),
 			}),
 		},

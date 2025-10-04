@@ -101,24 +101,24 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}, {	-- Appreciative
 						i(185350, {	-- Partial Rune Codex
 							["description"] = "Used for the |cFFb19cd9Bound Shadehound|r secret mount. Only available to characters with maxed Ven'ari reputation.",
-							["cost"] = { { "c", STYGIA, 2000 } },	-- 2,000x Stygia
 							["timeline"] = { ADDED_9_0_5 },
+							["cost"] = { { "c", STYGIA, 2000 } },	-- 2,000x Stygia
 						}),
 						i(180952, {	-- Possibility Matrix
 							["cost"] = { { "c", STYGIA, 1525 } },
 						}),
 						i(184870, {	-- Stygia Dowser
 							["description"] = "Used for the |cFFb19cd9Bound Shadehound|r secret mount. Only available to characters with maxed Ven'ari reputation.",
-							["cost"] = { { "c", STYGIA, 1500 } },
 							["timeline"] = { ADDED_9_0_5 },
+							["cost"] = { { "c", STYGIA, 1500 } },
 						}),
 						i(184361, {	-- Spatial Realignment Apparatus
-							["cost"] = { { "c", STYGIA, 7200 } },
 							["timeline"] = { REMOVED_9_1_0 },
+							["cost"] = { { "c", STYGIA, 7200 } },
 						}),
 						i(184359, {	-- Unbound Reality Fragment
-							["cost"] = { { "c", STYGIA, 1900 } },
 							["timeline"] = { REMOVED_9_1_0 },
+							["cost"] = { { "c", STYGIA, 1900 } },
 						}),
 					},
 				}),

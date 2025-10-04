@@ -1621,8 +1621,8 @@ root(ROOTS.Zones, {
 								["cr"] = 18290,	-- Tusker
 							}),
 							i(24505, {	-- Heart of Tusker
-								["cr"] = 18290,	-- Tusker <Queen of the Elekk>
 								["coord"] = { 44.2, 65.2, NAGRAND },
+								["cr"] = 18290,	-- Tusker <Queen of the Elekk>
 							}),
 							i(25640),	-- Nesingwary Safari Stick
 							i(25639),	-- Hemet's Elekk Gun
@@ -1964,8 +1964,8 @@ root(ROOTS.Zones, {
 						}},
 						["groups"] = pvp({
 							i(24208, {	-- Design: Mystic Dawnstone (RECIPE!)
-								["isLimited"] = true,
 								["timeline"] = { ADDED_2_1_3 },
+								["isLimited"] = true,
 							}),
 							i(30598, {	-- Don Amancio's Heart
 								["isLimited"] = true,
@@ -2028,8 +2028,8 @@ root(ROOTS.Zones, {
 								["isLimited"] = true,
 							}),
 							i(24208, {	-- Design: Mystic Dawnstone (RECIPE!)
-								["isLimited"] = true,
 								["timeline"] = { ADDED_2_1_3 },
+								["isLimited"] = true,
 							}),
 							i(30571, {	-- Don Rodrigo's Heart
 								["isLimited"] = true,
@@ -2187,8 +2187,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							i(33783, {	-- Design: Steady Talasite (RECIPE!)
-								["cost"] = { { "i", 26044, 4 }, },	-- 4x Halaa Research Token
 								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = { { "i", 26044, 4 }, },	-- 4x Halaa Research Token
 							}),
 							i(27648, {	-- Dreamstalker Leggings
 								["cost"] = {
@@ -2230,8 +2230,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							i(32071, {	-- Recipe: Elixir of Ironskin (RECIPE!)
-								["cost"] = { { "i", 26044, 2 }, },	-- 2x Halaa Research Token
 								["timeline"] = { ADDED_2_1_0 },
+								["cost"] = { { "i", 26044, 2 }, },	-- 2x Halaa Research Token
 							}),
 							i(27650, {	-- Shadowstalker's Leggings
 								["cost"] = {
@@ -2289,8 +2289,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							i(33783, {	-- Design: Steady Talasite (RECIPE!)
-								["cost"] = { { "i", 26044, 4 }, },	-- 4x Halaa Research Token
 								["timeline"] = { ADDED_2_2_0 },
+								["cost"] = { { "i", 26044, 4 }, },	-- 4x Halaa Research Token
 							}),
 							i(27648, {	-- Dreamstalker Leggings
 								["cost"] = {
@@ -2332,8 +2332,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							i(32071, {	-- Recipe: Elixir of Ironskin (RECIPE!)
-								["cost"] = { { "i", 26044, 2 }, },	-- 2x Halaa Research Token
 								["timeline"] = { ADDED_2_1_0 },
+								["cost"] = { { "i", 26044, 2 }, },	-- 2x Halaa Research Token
 							}),
 							i(27650, {	-- Shadowstalker's Leggings
 								["cost"] = {

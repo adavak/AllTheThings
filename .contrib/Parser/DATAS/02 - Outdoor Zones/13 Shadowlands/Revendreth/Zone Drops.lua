@@ -14,12 +14,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			i(179311),	-- Oxxein Lockbox
 			i(187822, {	-- A Defector's Request
+				["timeline"] = { ADDED_9_1_5 },
 				["crs"] = {
 					161180,	-- Maldraxxi Defector
 					163245,	-- Maldraxxi Defector
 					163243,	-- Maldraxxi Defector
 				},
-				["timeline"] = { ADDED_9_1_5 },
 			}),
 			i(172957, {	-- Atonement Crypt Key
 				["description"] = "Used to open the crypts around |cFFFFFFFF70.1, 55.2|r.",
@@ -131,9 +131,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			i(178557, {	-- Supply Chain Memo
-				["cr"] = 158796,	-- Stonevigil Collector
-				["coord"] = { 57.2, 68.4, REVENDRETH },
 				["sourceQuests"] = { 57727 },	-- Stonevigil Unrest
+				["coord"] = { 57.2, 68.4, REVENDRETH },
+				["cr"] = 158796,	-- Stonevigil Collector
 			}),
 			i(180595),	-- Nightforged Steel
 			i(177772),	-- Avowed Tormenter's Cord
@@ -146,12 +146,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			i(177773),	-- Avowed Tormenter's Wristwraps
 			i(177806),	-- Banewood Dirk
 			i(174655, {	-- Bell of Remembrance
-				--	no questID appears to be attached to this, you can just judge souls as often as you loot bells. this gives no rep (with court of harvesters or the avowed) and i'm not sure if there's anything interesting from the satchel either. it gave me a buff item + some greys the first time, the second one gave me a Crumbling Sinstone that gave 8 Sinstone Fragments
-				["sourceQuests"] = { 58725 },	-- Sinkeeper
-				["description"] = "Use in front of the Seal of the Forgotten at |cFFFFFFFF73.2, 33.8|r.",
 				["questID"] = 61194,	-- after the first day, when you can do the original quest item > second looted bell (this one), i haven't been able to loot more than one bell per day. they also generally drop very quickly, like in < 10 mob kills, and this quest triggers on loot each time
+				["description"] = "Use in front of the Seal of the Forgotten at |cFFFFFFFF73.2, 33.8|r.",
+				["sourceQuests"] = { 58725 },	-- Sinkeeper
 				["isDaily"] = true,
 				["crs"] = { 160716 },	-- Sinstone Rampager
+				--	no questID appears to be attached to this, you can just judge souls as often as you loot bells. this gives no rep (with court of harvesters or the avowed) and i'm not sure if there's anything interesting from the satchel either. it gave me a buff item + some greys the first time, the second one gave me a Crumbling Sinstone that gave 8 Sinstone Fragments
 				["groups"] = {
 					i(174652, {	-- Satchel of Forgotten Heirlooms
 						["description"] = "Awarded regardless of your judgment.", -- as of December 14th 2021 she gives the satchel regardless of player's decision.

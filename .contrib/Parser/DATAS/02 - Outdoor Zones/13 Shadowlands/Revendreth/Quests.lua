@@ -952,8 +952,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 60.0, 58.0, REVENDRETH },	-- rough coords where NPC will spawn for quest
 					["groups"] = {
 						i(182589, {	-- Loyal Gorger (MOUNT!)
-							-- tagged with cost here so that it shows under the Rare for the start of the quest chain item
 							["cost"] = { { "i", 180583, 1 } },	-- Impressionable Gorger Spawn
+							-- tagged with cost here so that it shows under the Rare for the start of the quest chain item
 						}),
 					},
 				}),

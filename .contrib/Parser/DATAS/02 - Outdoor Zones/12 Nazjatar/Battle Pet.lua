@@ -17,102 +17,102 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		pet(2653),	-- Spireshell Snail (PET!)
 		n(DROPS, {
 			i(169632, {	-- Crackling Mandible
-				["crs"] = { 154919 },	-- Voltgorger
 				["coord"] = { 37.5, 16.7, NAZJATAR },
+				["crs"] = { 154919 },	-- Voltgorger
 			}),
 			i(169637, {	-- Crackling Mandible
-				["crs"] = { 154919 },	-- Voltgorger
 				["coord"] = { 37.5, 16.7, NAZJATAR },
+				["crs"] = { 154919 },	-- Voltgorger
 			}),
 			i(169628, {	-- Eel Jelly
-				["crs"] = { 154915 },	-- Elderspawn of Nalaada
 				["coord"] = { 51.3, 75.0, NAZJATAR },
+				["crs"] = { 154915 },	-- Elderspawn of Nalaada
 			}),
 			i(169641, {	-- Eel Jelly
-				["crs"] = { 154915 },	-- Elderspawn of Nalaada
 				["coord"] = { 51.3, 75.0, NAZJATAR },
+				["crs"] = { 154915 },	-- Elderspawn of Nalaada
 			}),
 			i(169633, {	-- Frenzy Fang
-				["crs"] = { 154920 },	-- Frenzied Knifefang
-				["coord"] = { 61.40, 19.85, NAZJATAR },	-- cave entrance
 				["description"] = "Inside the cave.",
+				["coord"] = { 61.40, 19.85, NAZJATAR },	-- cave entrance
+				["crs"] = { 154920 },	-- Frenzied Knifefang
 			}),
 			i(169636, {	-- Frenzy Fang
-				["crs"] = { 154920 },	-- Frenzied Knifefang
-				["coord"] = { 61.40, 19.85, NAZJATAR },	-- cave entrance
 				["description"] = "Inside the cave.",
+				["coord"] = { 61.40, 19.85, NAZJATAR },	-- cave entrance
+				["crs"] = { 154920 },	-- Frenzied Knifefang
 			}),
 			i(169625, {	-- Half-Digested Deepcoral Pod
-				["crs"] = { 154912 },	-- Silence
 				["coord"] = { 58.3, 48.1, NAZJATAR },
+				["crs"] = { 154912 },	-- Silence
 			}),
 			i(169644, {	-- Half-Digested Deepcoral Pod
-				["crs"] = { 154912 },	-- Silence
 				["coord"] = { 58.3, 48.1, NAZJATAR },
+				["crs"] = { 154912 },	-- Silence
 			}),
 			i(169624, {	-- Leathery Venom Gland
-				["crs"] = { 154911 },	-- Chomp
 				["coord"] = { 71.9, 51.2, NAZJATAR },
+				["crs"] = { 154911 },	-- Chomp
 			}),
 			i(169645, {	-- Leathery Venom Gland
-				["crs"] = { 154911 },	-- Chomp
 				["coord"] = { 71.9, 51.2, NAZJATAR },
+				["crs"] = { 154911 },	-- Chomp
 			}),
 			i(169626, {	-- Molted Spineshell
-				["crs"] = { 154913 },	-- Shadowspine Lurker
 				["coord"] = { 42.2, 14.0, NAZJATAR },
+				["crs"] = { 154913 },	-- Shadowspine Lurker
 			}),
 			i(169643, {	-- Molted Spineshell
-				["crs"] = { 154913 },	-- Shadowspine Lurker
 				["coord"] = { 42.2, 14.0, NAZJATAR },
+				["crs"] = { 154913 },	-- Shadowspine Lurker
 			}),
 			i(169629, {	-- Mottled Hydra Scale
-				["crs"] = { 154916 },	-- Ravenous Scalespawn
 				["coord"] = { 29.6, 49.7, NAZJATAR },
+				["crs"] = { 154916 },	-- Ravenous Scalespawn
 			}),
 			i(169640, {	-- Mottled Hydra Scale
-				["crs"] = { 154916 },	-- Ravenous Scalespawn
 				["coord"] = { 29.6, 49.7, NAZJATAR },
+				["crs"] = { 154916 },	-- Ravenous Scalespawn
 			}),
 			i(169634, {	-- Opaline Conch
-				["crs"] = { 154921 },	-- Giant Opaline Conch
 				["coord"] = { 28.2, 26.8, NAZJATAR },
+				["crs"] = { 154921 },	-- Giant Opaline Conch
 			}),
 			i(169635, {	-- Opaline Conch
-				["crs"] = { 154921 },	-- Giant Opaline Conch
 				["coord"] = { 28.2, 26.8, NAZJATAR },
+				["crs"] = { 154921 },	-- Giant Opaline Conch
 			}),
 			i(169631, {	-- Overgrown Stone
-				["crs"] = { 154918 },	-- Kelpstone
 				["coord"] = { 46.6, 28.0, NAZJATAR },
+				["crs"] = { 154918 },	-- Kelpstone
 			}),
 			i(169638, {	-- Overgrown Stone
-				["crs"] = { 154918 },	-- Kelpstone
 				["coord"] = { 46.6, 28.0, NAZJATAR },
+				["crs"] = { 154918 },	-- Kelpstone
 			}),
 			i(169627, {	-- Pearlescent Shell
-				["crs"] = { 154914 },	-- Pearlhusk Crawler
 				["coord"] = { 50.5, 50.2, NAZJATAR },
+				["crs"] = { 154914 },	-- Pearlhusk Crawler
 			}),
 			i(169642, {	-- Pearlescent Shell
-				["crs"] = { 154914 },	-- Pearlhusk Crawler
 				["coord"] = { 50.5, 50.2, NAZJATAR },
+				["crs"] = { 154914 },	-- Pearlhusk Crawler
 			}),
 			i(169630, {	-- Strange Organ
-				["crs"] = { 154917 },	-- Mindshackle
 				["coord"] = { 56.4, 8.1, NAZJATAR },
+				["crs"] = { 154917 },	-- Mindshackle
 			}),
 			i(169639, {	-- Strange Organ
-				["crs"] = { 154917 },	-- Mindshackle
 				["coord"] = { 56.4, 8.1, NAZJATAR },
+				["crs"] = { 154917 },	-- Mindshackle
 			}),
 			i(169623, {	-- Wiggletail's Poking Fork
-				["crs"] = { 154910 },	-- Prince Wiggletail
 				["coord"] = { 34.7, 27.4, NAZJATAR },
+				["crs"] = { 154910 },	-- Prince Wiggletail
 			}),
 			i(169646, {	-- Wiggletail's Poking Fork
-				["crs"] = { 154910 },	-- Prince Wiggletail
 				["coord"] = { 34.7, 27.4, NAZJATAR },
+				["crs"] = { 154910 },	-- Prince Wiggletail
 			}),
 		}),
 		n(QUESTS, {

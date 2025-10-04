@@ -3622,9 +3622,9 @@ root(ROOTS.Zones, {
 						},
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(97978, {	-- Knockoff Grumplefloot (QI!)
+						["description"] = "Dance with Grandpa Grumplefloot to receive the Knockoff Grumplefloot.",
 						["coord"] = { 65, 60, KUN_LAI_SUMMIT },
 						["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
-						["description"] = "Dance with Grandpa Grumplefloot to receive the Knockoff Grumplefloot.",
 					})),
 					i(74849),	-- Pink Turnip
 					i(74844),	-- Red Blossom Leek

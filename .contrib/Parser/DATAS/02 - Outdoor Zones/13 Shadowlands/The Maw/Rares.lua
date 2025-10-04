@@ -451,11 +451,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 60914,
 				["groups"] = {
 					i(186234, {	-- Girdle of the Death Speaker
-						-- this is the only permanently-available source, but the Item can drop from other temporary creatures
 						["crs"] = {
 							177118,	-- Keeper of Chains
 							184426,	-- Leashkeeper Helzid
 						},
+						-- this is the only permanently-available source, but the Item can drop from other temporary creatures
 					}),
 				},
 			}),

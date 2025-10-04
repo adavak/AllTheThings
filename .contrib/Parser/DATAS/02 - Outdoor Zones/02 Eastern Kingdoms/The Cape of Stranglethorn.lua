@@ -2859,6 +2859,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(16083, {	-- Expert Fishing - The Bass and You
 							["timeline"] = { REMOVED_3_1_0 },
+							["rank"] = 3,
 							-- #if SEASON_OF_DISCOVERY
 							["OnUpdate"] = [[function(t)
 								if C_Seasons and C_Seasons.GetActiveSeason() == 2 then
@@ -2867,7 +2868,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								t.OnUpdate = nil;
 							end]],
 							-- #endif
-							["rank"] = 3,
 						}),
 					},
 				}),
@@ -3073,7 +3073,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				i(8494, {	-- Hyacinth Macaw (PET!)
-					["timeline"] = { ADDED_1_11_1 },
 					-- #if BEFORE CATA
 					["crs"] = {
 						4505,	-- Bloodsail Deckhand
@@ -3086,6 +3085,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #else
 					["description"] = "This item has a chance to drop from any killed creature in the zone.",
 					-- #endif
+					["timeline"] = { ADDED_1_11_1 },
 				}),
 				i(5789, {	-- Pattern: Murloc Scale Bracers (RECIPE!)
 					["cr"] = 1561,	-- Bloodsail Raider

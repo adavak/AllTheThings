@@ -3256,8 +3256,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(1998, {	-- Bloodscalp Channeling Staff
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 697,	-- Bloodscalp Shaman
 					["coords"] = {
 						-- #if AFTER 7.3.5
 						{ 35.8, 33.4, NORTHERN_STRANGLETHORN },
@@ -3268,6 +3266,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 28.8, 19.2, STRANGLETHORN_VALE },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 697,	-- Bloodscalp Shaman
 				}),
 				i(4611, {	-- Blue Pearl
 					["provider"] = { "o", 2744 },	-- Giant Clam
@@ -3284,8 +3284,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 689,	-- Crystal Spine Basilisk
 				}),
 				i(1677, {	-- Drake-scale Vest
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 680,	-- Mosh'Ogg Lord
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Mosh'Ogg Lords, which have three known spawns. Mosh'Ogg Butcher can spawn in its place.",
 					["coords"] = {
@@ -3293,10 +3291,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 67.0, 54.0, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 680,	-- Mosh'Ogg Lord
 				}),
 				i(1659, {	-- Engineering Gloves
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 677,	-- Venture Co. Tinkerer
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Venture Co. Tinkerer. Venture Co. Foremans, Venture Co. Surveyors, and Venture Co. Strip Miners very often spawns in its place.",
 					["coords"] = {
@@ -3304,6 +3302,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 53.6, 70.0, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 677,	-- Venture Co. Tinkerer
 				}),
 				i(2955, {	-- First Mate Hat
 					-- #if BEFORE CATA
@@ -3334,18 +3334,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(1986, {	-- Gutrender
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 709,	-- Mosh'Ogg Warmonger
 					-- #if AFTER 7.3.5
 					["coords"] = {
 						{ 65.4, 52.0, NORTHERN_STRANGLETHORN },
 						{ 64.2, 45.0, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 709,	-- Mosh'Ogg Warmonger
 				}),
 				i(1522, {	-- Headhunting Spear
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 671,	-- Bloodscalp Headhunter
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Bloodscalp Headhunters, which shares its spawn with other Bloodscalp trolls in the Zuuldaia Ruins.",
 					["coords"] = {
@@ -3353,10 +3351,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 19.8, 24.8, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 671,	-- Bloodscalp Headhunter
 				}),
 				i(1523, {	-- Huge Stone Club
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 597,	-- Bloodscalp Berserker
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Bloodscalp Berserkers, which shares its spawn with other Bloodscalp trolls in the Zuuldaia Ruins.",
 					["coords"] = {
@@ -3364,6 +3362,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 19.8, 24.8, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 597,	-- Bloodscalp Berserker
 				}),
 				-- #if BEFORE CATA
 				i(2633, {	-- Jungle Remedy
@@ -3375,27 +3375,26 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(1679, {	-- Korg Bat
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 1142,	-- Mosh'Ogg Brute
 					-- #if AFTER 7.3.5
 					["coords"] = {
 						{ 48.0, 51.6, NORTHERN_STRANGLETHORN },
 						{ 44.6, 55.6, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 1142,	-- Mosh'Ogg Brute
 				}),
 				i(5755, {	-- Onyx Shredder Plate
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 4260,	-- Venture Co. Shredder
 					-- #if AFTER 7.3.5
 					["coords"] = {
 						{ 58.8, 40.4, NORTHERN_STRANGLETHORN },
 						{ 58.8, 32.6, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 4260,	-- Venture Co. Shredder
 				}),
 				i(8494, {	-- Hyacinth Macaw (PET!)
-					["timeline"] = { ADDED_1_11_1 },
 					-- #if BEFORE CATA
 					["crs"] = {
 						4505,	-- Bloodsail Deckhand
@@ -3408,6 +3407,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #else
 					["description"] = "This item has a chance to drop from any killed creature in the zone.",
 					-- #endif
+					["timeline"] = { ADDED_1_11_1 },
 				}),
 				-- #if BEFORE CATA
 				i(5788, {	-- Pattern: Thick Murloc Armor (RECIPE!)
@@ -3415,8 +3415,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(1997, {	-- Pressed Felt Robe
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 701,	-- Bloodscalp Mystic
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Bloodscalp Mystics, which shares its spawn with other Bloodscalp trolls in the Ruins of Zul'Kunda.",
 					["coords"] = {
@@ -3424,16 +3422,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 25.8, 22.8, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 701,	-- Bloodscalp Mystic
 				}),
 				i(48126, {	-- Razzashi Hatchling (PET!)
 					["timeline"] = { ADDED_3_2_0 },
 				}),
 				i(1624, {	-- Skullsplitter Helm
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["crs"] = {
-						783,	-- Skullsplitter Berserker
-						781,	-- Skullsplitter Headhunter
-					},
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Skullsplitter Berserkers and Skullsplitter Headhunters. Skullsplitter Spiritchasers very often spawns in its place.",
 					["coords"] = {
@@ -3441,10 +3436,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 61.2, 75.6, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["crs"] = {
+						783,	-- Skullsplitter Berserker
+						781,	-- Skullsplitter Headhunter
+					},
 				}),
 				i(1664, {	-- Spellforce Rod
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 676,	-- Venture Co. Surveyor
 					-- #if AFTER 7.3.5
 					["description"] = "Drops from Venture Co. Surveyors. Venture Co. Foremans, Venture Co. Tinkerers, and Venture Co. Strip Miners very often spawns in its place.",
 					["coords"] = {
@@ -3452,8 +3450,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 53.4, 70.4, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
+					["cr"] = 676,	-- Venture Co. Surveyor
 				}),
 				i(1652, {	-- Sturdy Lunchbox
+					-- #if AFTER 10.1.7
+					["coords"] = {
+						{ 55.6, 35.6, NORTHERN_STRANGLETHORN },
+						{ 55.4, 34.4, NORTHERN_STRANGLETHORN },
+					},
+					-- #endif
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
@@ -3463,12 +3469,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						14492,	-- Verifonix <The Surveyor>
 						-- #endif
 					},
-					-- #if AFTER 10.1.7
-					["coords"] = {
-						{ 55.6, 35.6, NORTHERN_STRANGLETHORN },
-						{ 55.4, 34.4, NORTHERN_STRANGLETHORN },
-					},
-					-- #endif
 				}),
 				i(1996, {	-- Voodoo Band
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },

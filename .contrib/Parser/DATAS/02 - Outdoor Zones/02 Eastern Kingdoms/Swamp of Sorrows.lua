@@ -1811,8 +1811,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(15726, {	-- Pattern: Green Dragonscale Breastplate (RECIPE!)
-							-- The new version (78346) drops in the Sunken Temple
 							["timeline"] = { REMOVED_4_0_3 },
+							-- The new version (78346) drops in the Sunken Temple
 						}),
 						i(12253, {	-- Brilliant Red Cloak
 							["isLimited"] = true,

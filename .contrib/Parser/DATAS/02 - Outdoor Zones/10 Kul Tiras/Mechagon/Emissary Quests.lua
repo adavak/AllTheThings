@@ -11,20 +11,20 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["groups"] = {
 					i(170061, {	-- Rustbolt Supplies
 						i(168935, {	-- Existence Vibrancy Display (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
-							["modelScale"] = 3,
 							["classes"] = HEALERS,
+							["modelScale"] = 3,
+							["u"] = REMOVED_FROM_GAME,
 							["model"] = 2974000,
 						}),
 						i(168569, {	-- Null Force Visualizer (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
-							["modelScale"] = 3,
 							["classes"] = TANKS,
+							["modelScale"] = 3,
+							["u"] = REMOVED_FROM_GAME,
 							["model"] = 2924336,
 						}),
 						i(168861, {	-- Ultimate Purification Protocols (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
 							["modelScale"] = 4,
+							["u"] = REMOVED_FROM_GAME,
 							["model"] = 2958033,
 						}),
 						i(168906),	-- Blueprint: Holographic Digitalization Relay

@@ -88,8 +88,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						}),
 					}, {	-- Tier 6
 						i(187134, {	-- Alloy-Warping Facetor
-							["cost"] = { { "c", CATALOGED_RESEARCH, 5000 } },
 							["timeline"] = { REMOVED_9_2_0 },
+							["cost"] = { { "c", CATALOGED_RESEARCH, 5000 } },
 						}),
 						i(187535, {	-- Attendant Scholar's Waistcord
 							["cost"] = { { "c", CATALOGED_RESEARCH, 4000 } },
@@ -132,8 +132,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						["cost"] = { { "c", SOUL_ASH, 300 } },
 					}),
 					i(191031, {	-- Packaged Soul Cinders
-						["cost"] = { { "c", SOUL_CINDERS, 300 } },
 						["timeline"] = { ADDED_9_2_0 },
+						["cost"] = { { "c", SOUL_CINDERS, 300 } },
 					}),
 					i(187532, {	-- Soulfire Chisel
 						["cost"] = { { "c", STYGIA, 2500 } },
@@ -150,8 +150,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					{		-- Neutral
 					}, {	-- Friendly
 						i(188156, {	-- Korthian Accessory
-							["cost"] = { { "c", STYGIA, 750 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 750 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_FINGER" },
 								{"sub", "korthian_armaments", "INVTYPE_TRINKET" },
@@ -280,72 +280,72 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							},
 						}),
 						i(188161, {	-- Korthian Belt
-							["cost"] = { { "c", STYGIA, 750 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 750 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_WAIST" },
 							},
 						}),
 						i(188155, {	-- Korthian Boots
-							["cost"] = { { "c", STYGIA, 1000 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1000 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_FEET" },
 							},
 						}),
 						i(188163, {	-- Korthian Bracers
-							["cost"] = { { "c", STYGIA, 750 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 750 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_WRIST" },
 							},
 						}),
 						i(188154, {	-- Korthian Chestpiece
-							["cost"] = { { "c", STYGIA, 1250 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1250 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_CHEST" },
 								{"sub", "korthian_armaments", "INVTYPE_ROBE" },
 							},
 						}),
 						i(188153, {	-- Korthian Cloak
-							["cost"] = { { "c", STYGIA, 750 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 750 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_CLOAK" },
 							},
 						}),
 						i(188157, {	-- Korthian Gloves
-							["cost"] = { { "c", STYGIA, 1000 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1000 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_HAND" },
 							},
 						}),
 						i(188158, {	-- Korthian Helm
-							["cost"] = { { "c", STYGIA, 1250 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1250 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_HEAD" },
 							},
 						}),
 						i(188159, {	-- Korthian Legguards
-							["cost"] = { { "c", STYGIA, 1250 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1250 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_LEGS" },
 							},
 						}),
 						i(188160, {	-- Korthian Shoulders
-							["cost"] = { { "c", STYGIA, 1000 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1000 } },
 							["sym"] = {
 								{"sub", "korthian_armaments", "INVTYPE_SHOULDER" },
 							},
 						}),
 						i(188162, {	-- Korthian Weaponry
-							["cost"] = { { "c", STYGIA, 1500 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", STYGIA, 1500 } },
 							["sym"] = {
 								{"select", "itemID", 187187 },		-- Korthian Armaments
 								{"pop"},							-- Discard Header (includes symlink of the item)

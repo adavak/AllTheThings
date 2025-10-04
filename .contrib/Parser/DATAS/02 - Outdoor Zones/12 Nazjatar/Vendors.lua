@@ -135,8 +135,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 						["cost"] = { { "c", 1721, 50 }, },	-- 50x Prismatic Manapearl
 					}),
 					i(168479, {	-- Troop Requisition
-						["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 						["questID"] = 55968,
+						["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 						["groups"] = {
 							follower(1183, {	-- Alliance:Ankoan Tidehunters \\ Horde:Unshackled Mercenaries (Temporary Troop)
 								["collectible"] = false,
@@ -408,10 +408,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					["description"] = "Contains a piece of Benthic gear.",
 				}),
 				i(168091, {	-- Severly Rusted Lockbox
+					["description"] = "Contains a Barnacled Lockbox.",	-- Description added so you dont need debug mode to see contained items.
 					["sym"] = { { "select", "itemID",
 						169475,	-- Barnacled Lockbox
 					}},
-					["description"] = "Contains a Barnacled Lockbox.",	-- Description added so you dont need debug mode to see contained items.
 				}),
 				i(170152, {	-- Shadow-Cloaked Shell
 					["description"] = "Grants 150 reputation with your Nazjatar faction.",
@@ -516,8 +516,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 						["cost"] = { { "c", 1721, 50 }, },	-- 50x Prismatic Manapearl
 					}),
 					i(168480, {	-- Troop Requisition
-						["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 						["questID"] = 55969,
+						["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 						["groups"] = {
 							follower(1183, {	-- Alliance:Ankoan Tidehunters \\ Horde:Unshackled Mercenaries (Temporary Troop)
 								["collectible"] = false,

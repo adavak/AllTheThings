@@ -649,14 +649,14 @@ root(ROOTS.Zones, {
 									},
 								}),
 								i(153216, {	-- Relinquished Trinket
+									["sym"] = {
+										{"sub", "legion_relinquished", {"INVTYPE_TRINKET"} },	-- Trinkets Only!
+									},
 									["groups"] = {
 										-- This is the only source of this item (probably)
 										i(136736),	-- Badge of the Wardens
 										i(134322),	-- Drained Mana Crystal
 										i(136749),	-- Mark of the Sentinel
-									},
-									["sym"] = {
-										{"sub", "legion_relinquished", {"INVTYPE_TRINKET"} },	-- Trinkets Only!
 									},
 								}),
 								i(153059, {	-- Relinquished Arcane Relic

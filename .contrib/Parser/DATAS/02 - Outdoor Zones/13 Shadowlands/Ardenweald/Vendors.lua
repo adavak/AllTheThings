@@ -40,8 +40,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(175069),	-- Theater Ticket
 					n(NIGHT_FAE, sharedData({["customCollect"] = { "SL_COV_NFA" }},{
 						i(187901, {	-- Eagle Soul (SS!)
-							["cost"] = { { "c", ANIMA, 20000 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", ANIMA, 20000 } },
 						}),
 						i(182662, {	-- Leafadore (PET!)
 							["cost"] = { { "i", POLISHED_PET_CHARM, 250 } },
@@ -50,8 +50,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							["cost"] = { { "c", ANIMA, 1500 } },
 						}),
 						i(187873, {	-- Prairie Dog Soul (SS!)
-							["cost"] = { { "c", ANIMA, 10000 } },
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = { { "c", ANIMA, 10000 } },
 						}),
 						i(181304, {	-- Winterwoven Branches
 							["cost"] = { { "c", ANIMA, 3500 } },

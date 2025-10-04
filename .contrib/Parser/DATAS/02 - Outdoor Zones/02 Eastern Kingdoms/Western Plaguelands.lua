@@ -48,8 +48,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(139624, {	-- Shard of Darkness
 					["description"] = "It first took 350 casts in the river (RNG, could be 10 casts, could be 10,000 casts)\n\nYou may fish anywhere along the river, as long as your location says \"Thondroril River\"\nYour fishing skill does not matter",
 					["timeline"] = { ADDED_7_0_3 },
-					["classes"] = { PALADIN },
 					["requireSkill"] = FISHING,
+					["classes"] = { PALADIN },
 				}),
 			}),
 			-- #endif
@@ -123,8 +123,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 65.8, 75.4, WESTERN_PLAGUELANDS },
 							["groups"] = {
 								i(206358, {	-- Imported Candle
-									["cost"] = {{ "i", 206363, 1 }},	-- The Road Ahead
 									["timeline"] = { ADDED_10_1_5 },
+									["cost"] = {{ "i", 206363, 1 }},	-- The Road Ahead
 								}),
 							},
 						}),
@@ -134,8 +134,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 68.0, 74.8, WESTERN_PLAGUELANDS },
 							["groups"] = {
 								i(206354, {	-- Stinky Candle
-									["cost"] = {{ "i", 206359, 1 }},	-- Caer Darrow Fountain Water
 									["timeline"] = { ADDED_10_1_5 },
+									["cost"] = {{ "i", 206359, 1 }},	-- Caer Darrow Fountain Water
 								}),
 							},
 						}),
@@ -147,8 +147,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 70.5, 74.0, WESTERN_PLAGUELANDS },
 							["groups"] = {
 								i(206357, {	-- Authentic Andorhal Candle
-									["cost"] = {{ "i", 206362, 1 }},	-- The Deed to Andorhal
 									["timeline"] = { ADDED_10_1_5 },
+									["cost"] = {{ "i", 206362, 1 }},	-- The Deed to Andorhal
 								}),
 							},
 						}),
@@ -160,8 +160,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 63.4, 75.6, WESTERN_PLAGUELANDS },
 							["groups"] = {
 								i(206355, {	-- Tobacco-Filled Candle
-									["cost"] = {{ "i", 206360, 1 }},	-- Undelivered Shipment of Smokes
 									["timeline"] = { ADDED_10_1_5 },
+									["cost"] = {{ "i", 206360, 1 }},	-- Undelivered Shipment of Smokes
 								}),
 							},
 						}),
@@ -173,8 +173,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 69.1, 78.7, WESTERN_PLAGUELANDS },
 							["groups"] = {
 								i(206356, {	-- Ghost-Warding Candle
-									["cost"] = {{ "i", 206361, 1 }},	-- Trampled Doll
 									["timeline"] = { ADDED_10_1_5 },
+									["cost"] = {{ "i", 206361, 1 }},	-- Trampled Doll
 								}),
 							},
 						}),
@@ -3117,8 +3117,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226413, {	-- Rune of Arcane Specialization
 					["provider"] = { "o", 457102 },	-- Elements for Dummies Volume III: Arcane
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 47.3, 13.7, WESTERN_PLAGUELANDS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { HUNTER, MAGE, DRUID },
 					["groups"] = {
 						recipe(453695, {	-- Engrave Ring - Arcane Specialization
@@ -3129,11 +3129,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_ONE, i(210322, {	-- Rune of Venom
 					["provider"] = { "o", 410847 },	-- Rusty Safe
 					["coord"] = { 59.4, 84.6, WESTERN_PLAGUELANDS },
+					["timeline"] = { REMOVED_2_0_1 },
 					["cost"] = {
 						{ "i", 210329, 1 },	-- Hillsbrad Treasure Map
 						{ "i", 210323, 1 },	-- Safe Combination
 					},
-					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(400102),	-- Engrave Pants - Envenom
@@ -3212,8 +3212,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ZONE_DROPS, {
 				-- #if BEFORE 4.0.3
 				i(12938, {	-- Blood of Heroes
-					["provider"] = { "o", 176213 },	-- Blood of Heroes
 					["description"] = "This item can be found sporatically on the ground in the Plaguelands.",
+					["provider"] = { "o", 176213 },	-- Blood of Heroes
 					["coords"] = {
 						-- Hearthglen
 						{ 54.9, 27.1, WESTERN_PLAGUELANDS },
@@ -3286,8 +3286,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				i(13354, {	-- Ectoplasmic Resonator
 					["description"] = "These only drop from ghostly mobs in Western Plaguelands while you have Vitreous Focuser in your inventory.",
-					["cost"] = { { "i", 13370, 1 } },	-- Vitreous Focuser
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 13370, 1 } },	-- Vitreous Focuser
 				}),
 				i(16252, {	-- Formula: Enchant Weapon - Crusader
 					["cr"] = 4494,	-- Scarlet Spellbinder
@@ -3310,11 +3310,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(13357, {	-- Osseous Agitator
 					["description"] = "These only drop from skeletal mobs in Western Plaguelands while you have Vitreous Focuser in your inventory.",
-					["cost"] = { { "i", 13370, 1 } },	-- Vitreous Focuser
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 13370, 1 } },	-- Vitreous Focuser
 				}),
 				-- #endif
 				i(15771, {	-- Pattern: Living Breastplate (RECIPE!)
+					["coords"] = {
+						{ 64.6, 36.0, WESTERN_PLAGUELANDS },
+						{ 62.4, 36.2, WESTERN_PLAGUELANDS },
+					},
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 1813,	-- Decaying Horror
@@ -3325,10 +3329,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						44486,	-- Unholy Corpuscle
 					},
 					-- #endif
-					["coords"] = {
-						{ 64.6, 36.0, WESTERN_PLAGUELANDS },
-						{ 62.4, 36.2, WESTERN_PLAGUELANDS },
-					},
 				}),
 				-- #if BEFORE 4.0.3
 				i(12707, {	-- Plans: Runic Plate Boots
@@ -3336,6 +3336,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(9296, {	-- Recipe: Gift of Arthas (RECIPE!)
+					["timeline"] = { REMOVED_4_0_3 },	-- Maybe still drops, this tag will help with reporting if somebody does get a drop
 					-- #if AFTER CATA
 					["cr"] = 1783,	-- Skeletal Flayer
 					-- #else
@@ -3344,14 +3345,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1791,	-- Slavering Ghoul
 					},
 					-- #endif
-					["timeline"] = { REMOVED_4_0_3 },	-- Maybe still drops, this tag will help with reporting if somebody does get a drop
 				}),
 				i(13496, {	-- Recipe: Greater Nature Protection Potion (RECIPE!)
+					["timeline"] = { REMOVED_4_0_3 },
 					["crs"] = {
 						1813,	-- Decaying Horror
 						1812,	-- Rotting Behemoth
 					},
-					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				-- #if BEFORE 4.0.3
 				i(12811, {	-- Righteous Orb
@@ -3360,8 +3360,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(13356, {	-- Somatic Intensifier
 					["description"] = "These only drop from zombies in Western Plaguelands while you have Vitreous Focuser in your inventory.",
-					["cost"] = { { "i", 13370, 1 } },	-- Vitreous Focuser
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 13370, 1 } },	-- Vitreous Focuser
 				}),
 				-- #endif
 			}),

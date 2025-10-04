@@ -16,18 +16,18 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								}),
 								n(NIGHT_FAE, sharedData({["customCollect"] = "SL_COV_NFA" }, {
 									i(187871, {	-- Cricket Soul
+										["timeline"] = { ADDED_9_1_5 },
 										["cost"] = {
 											{ "c", ANIMA, 15000 },
 											{ "c", GRATEFUL, 25 },
 										},
-										["timeline"] = { ADDED_9_1_5 },
 									}),
 									i(187881, {	-- Ram Soul
+										["timeline"] = { ADDED_9_1_5 },
 										["cost"] = {
 											{ "c", ANIMA, 25000 },
 											{ "c", GRATEFUL, 50 },
 										},
-										["timeline"] = { ADDED_9_1_5 },
 									}),
 								})),
 							}, {	-- Friendly
@@ -59,11 +59,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								})),
 							}, {	-- Honored
 								i(187937, {	-- Technique: Mark of the Sable Ardenmoth (RECIPE!)
+									["timeline"] = { ADDED_9_1_5 },
 									["cost"] = {
 										{ "c", ANIMA, 1000 },
 										{ "c", GRATEFUL, 5 },
 									},
-									["timeline"] = { ADDED_9_1_5 },
 								}),
 								n(NIGHT_FAE, sharedData({["customCollect"] = "SL_COV_NFA" }, {
 									i(181308, {	-- Winterwoven Bulb

@@ -590,8 +590,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 							["cost"] = { { "c", CYPHER, 500 }, },
 						}),
 						i(187421, {	-- Ashen Liniment
-							["cost"] = { { "c", CYPHER, 25 }, },
 							["timeline"] = {  ADDED_9_2_7 },
+							["cost"] = { { "c", CYPHER, 25 }, },
 						}),
 						i(188793, {	-- Improvised Cypher Analysis Tool (CI!)
 							["cost"] = { { "c", CYPHER, 150 }, },
@@ -607,15 +607,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						}),
 						i(187781, {	-- Olea Cache
 							["cost"] = { { "c", CYPHER, 700 }, },
-							["groups"] = {
-								i(190946),	-- Emerald-Heart Protomaul
-								i(190945),	-- Greatmaul of the Ancient Sentinels
-								i(190947),	-- Halo-Stave of the Oracles
-								i(190943),	-- Jiro Tuning Hammer
-								i(190944),	-- Mace of Renewed Purpose
-								i(190949),	-- Stave of the Eternal Cycle
-								i(189178),	-- Tools of Incomprehensible Experimentation (PS!)
-							},
 							["sym"] = {
 								{"select", "itemID",
 									188957,	-- Genesis Mote
@@ -664,13 +655,22 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 									189180,	-- Wind's Infinite Call
 								},
 							},
+							["groups"] = {
+								i(190946),	-- Emerald-Heart Protomaul
+								i(190945),	-- Greatmaul of the Ancient Sentinels
+								i(190947),	-- Halo-Stave of the Oracles
+								i(190943),	-- Jiro Tuning Hammer
+								i(190944),	-- Mace of Renewed Purpose
+								i(190949),	-- Stave of the Eternal Cycle
+								i(189178),	-- Tools of Incomprehensible Experimentation (PS!)
+							},
 						}),
 						i(191039, {	-- Pocopoc Traveler (PET!)
 							["cost"] = { { "c", CYPHER, 500 }, },
 						}),
 						i(190739, {	-- Provis Wax
-							["cost"] = { { "c", CYPHER, 25 }, },
 							["timeline"] = { ADDED_9_2_7 },
+							["cost"] = { { "c", CYPHER, 25 }, },
 						}),
 						i(187804, {	-- Recipe: Empty Kettle of Stone Soup (RECIPE!)
 							["cost"] = { { "c", CYPHER, 25 }, },

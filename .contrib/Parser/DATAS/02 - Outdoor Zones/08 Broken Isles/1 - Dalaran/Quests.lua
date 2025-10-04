@@ -470,8 +470,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 90417 },	-- Archmage Khadgar
 					["groups"] = {
 						i(141348, {	-- Wondrous Wisdomball (PET!)
-							-- added cost of original quest chain start item
 							["cost"] = {{"i",141349,1}},	-- Strange Humming Crystal
+							-- added cost of original quest chain start item
 						}),
 					},
 				}),

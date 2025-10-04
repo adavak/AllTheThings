@@ -448,12 +448,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						}),
 						i(186602, {	-- Quartered Ancient Ring
 							["description"] = "Mad Maw Construct will spawn in or around Perdition Hold once you've looted another |cFF1eff00Quartered Ancient Ring|r. Once it spawns, you have a short amount of time to kill it before it despawns.",
-							["crs"] = { 179601 },	-- Mad Maw Construct
 							["coords"] = {
 								{ 27.0, 57.0, THE_MAW },
 								{ 33.0, 57.0, THE_MAW },
 								{ 33.0, 71.0, THE_MAW },
 							},
+							["crs"] = { 179601 },	-- Mad Maw Construct
 						}),
 						o(369143, {	-- Quartered Ancient Ring
 							["description"] = "This ring can be found in Perdition Hold once you've looted another |cFF1eff00Quartered Ancient Ring|r.",
@@ -658,9 +658,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							}),
 							n(TREASURES, {
 								i(186190, {	-- Etherwyrm Cage Key
-									["crs"] = { 179030 },	-- Elusive Keybinder
 									["coord"] = { 19.1, 43.6, THE_MAW },
 									["isDaily"] = true,
+									["crs"] = { 179030 },	-- Elusive Keybinder
 								}),
 								o(368645, {	-- Rift Hidden Cache
 									["coords"] = {

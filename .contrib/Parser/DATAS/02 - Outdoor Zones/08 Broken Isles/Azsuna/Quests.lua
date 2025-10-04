@@ -9,8 +9,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["coord"] = { 50.2, 61.0, AZSUNA },
 				["groups"] = {
 					i(200665, {	-- Seaweed Trimming Blade
-						["classes"] = { EVOKER },
 						["timeline"] = ADDED_10_0_2,
+						["classes"] = { EVOKER },
 					}),
 					i(133039),	-- Breath of Al'Akir
 					i(133037),	-- Zandalari Voodoo Totem
@@ -268,8 +268,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["coord"] = { 48.2, 22.7, AZSUNA },
 				["groups"] = {
 					i(200653, {	-- Azure Staff of Arcana
-						["classes"] = { EVOKER },
 						["timeline"] = ADDED_10_0_2,
+						["classes"] = { EVOKER },
 					}),
 					i(133016),	-- Azurewing Guile
 					i(133014),	-- Senegos' Despair

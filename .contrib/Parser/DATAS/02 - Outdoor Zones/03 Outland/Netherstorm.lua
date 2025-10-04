@@ -2814,8 +2814,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(28277, {	-- Formula: Enchant Cloak - Greater Shadow Resistance (RECIPE!)
-						["cr"] = 18870,	-- Voidshrieker
 						["timeline"] = { ADDED_2_0_1, REMOVED_5_0_4 },
+						["cr"] = 18870,	-- Voidshrieker
 					}),
 					i(22551, {	-- Formula: Enchant Weapon - Major Intellect
 						["cr"] = 20136,	-- Sunfury Researcher
@@ -2836,8 +2836,8 @@ root(ROOTS.Zones, {
 						["cr"] = 18873,	-- Disembodied Protector
 					}),
 					applyclassicphase(TBC_PHASE_TWO, i(33804, {	-- Schematic: Adamantite Arrow Maker (RECIPE!)
-						["cr"] = 19707,	-- Sunfury Archer
 						["timeline"] = { ADDED_2_3_0, REMOVED_4_0_1 },	-- Changes to uncollectible scrap item in Cata
+						["cr"] = 19707,	-- Sunfury Archer
 					})),
 					i(23808, {	-- Schematic: Khorium Scope (RECIPE!)
 						["cr"] = 20207,	-- Sunfury Bowman

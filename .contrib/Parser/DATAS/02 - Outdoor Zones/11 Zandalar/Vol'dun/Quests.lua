@@ -765,7 +765,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(151273, {	-- Knickknacks (QI!)
-						-- All the items in this list are counted as "Knickknacks" when looted
 						i(144299),	-- Chipped Statuette (QI!)
 						i(151276),	-- Cloudy Potion (QI!)
 						i(151277),	-- Coiled Idol (QI!)
@@ -784,6 +783,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						i(144300),	-- Unstrung Bowstaff (QI!)
 						i(151275),	-- Worn Leather Satchel (QI!)
 						i(150762),	-- Woven Basket (QI!)
+						-- All the items in this list are counted as "Knickknacks" when looted
 					}),
 				},
 			}),

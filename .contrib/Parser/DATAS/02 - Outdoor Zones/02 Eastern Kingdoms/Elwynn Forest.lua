@@ -279,8 +279,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["timeline"] = { ADDED_7_0_3 },
 								}),
 								i(2224, {	-- Militia Dagger
-									-- CRIEVE NOTE: Not sure at which patch, but the dagger was lost forever.
 									["timeline"] = { REMOVED_7_0_3 },
+									-- CRIEVE NOTE: Not sure at which patch, but the dagger was lost forever.
 								}),
 								i(5580),	-- Militia Hammer
 								i(1161, {	-- Militia Shortsword
@@ -291,8 +291,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["timeline"] = { ADDED_4_0_3, REMOVED_7_3_5 },
 								}),
 								i(85575, {	-- Peacebringer's Staff
-									-- At some point this staff replaced the other one.
 									["timeline"] = { CREATED_5_0_4, ADDED_7_3_5 },
+									-- At some point this staff replaced the other one.
 								}),
 								-- #endif
 							},
@@ -333,13 +333,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["cr"] = 38,	-- Defias Thug
 								}),
 								i(2224, {	-- Militia Dagger
-									-- CRIEVE NOTE: Not sure at which patch, but the dagger was lost forever.
 									["timeline"] = { REMOVED_7_3_5 },
+									-- CRIEVE NOTE: Not sure at which patch, but the dagger was lost forever.
 								}),
 								i(5580),	-- Militia Hammer
 								i(1161, {	-- Militia Shortsword
-									-- CRIEVE NOTE: Not sure at which patch, but the shortsword was lost forever.
 									["timeline"] = { REMOVED_7_3_5 },
+									-- CRIEVE NOTE: Not sure at which patch, but the shortsword was lost forever.
 								}),
 								i(5579),	-- Militia Warhammer
 								i(1159, {	-- Militia Quarterstaff
@@ -2117,7 +2117,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						-- #endif
 						i(2055, {	-- Small Wooden Hammer
-							["timeline"] = { REMOVED_4_0_3 },	-- Moved to Gug Fatcandle
 							-- #if BEFORE CATA
 							["cr"] = 80,	-- Kobold Laborer
 							["coords"] = {
@@ -2125,6 +2124,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 50.2, 26.6, ELWYNN_FOREST },
 							},
 							-- #endif
+							["timeline"] = { REMOVED_4_0_3 },	-- Moved to Gug Fatcandle
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, i(203751, {	-- Spell Notes: CALE ENCI
@@ -2281,13 +2281,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(203750, {	-- Elwynn Treasure Map
 						["timeline"] = { REMOVED_2_0_1 },
-						["classes"] = { ROGUE },
 						["cost"] = {
 							{ "i", 203787, 1 },	-- Bottom-Left Map Piece
 							{ "i", 203786, 1 },	-- Bottom-Right Map Piece
 							{ "i", 203785, 1 },	-- Top-Left Map Piece
 							{ "i", 203784, 1 },	-- Top-Right Map Piece
 						},
+						["classes"] = { ROGUE },
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(203787, {	-- Bottom-Left Map Piece
 						["coord"] = { 26.2, 88.6, ELWYNN_FOREST },
@@ -3486,8 +3486,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_ONE, i(203991, {	-- Rune of Quick Draw
 					["provider"] = { "o", 386675 },	-- Buried Treasure
 					["coord"] = { 80.3, 79.1, ELWYNN_FOREST },
-					["cost"] = {{ "i", 203750, 1 }},	-- Elwynn Treasure Map
 					["timeline"] = { REMOVED_2_0_1 },
+					["cost"] = {{ "i", 203750, 1 }},	-- Elwynn Treasure Map
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(400095),	-- Engrave Chest - Quick Draw
@@ -3780,22 +3780,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 476,	-- Kobold Geomancer
 				}),
 				i(1389, {	-- Kobold Mining Mallet
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 40,	-- Kobold Miner
 					["coords"] = {
 						{ 61.4, 50.4, ELWYNN_FOREST },
 						{ 64.6, 56.4, ELWYNN_FOREST },
 						{ 41.6, 80.0, ELWYNN_FOREST },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 40,	-- Kobold Miner
 				}),
 				i(1195, {	-- Kobold Mining Shovel
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 475,	-- Kobold Tunneler
 					["coords"] = {
 						{ 41.6, 78.8, ELWYNN_FOREST },
 						{ 40.0, 83.8, ELWYNN_FOREST },
 						{ 38.0, 87.0, ELWYNN_FOREST },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 475,	-- Kobold Tunneler
 				}),
 				i(1399, {	-- Magic Candle
 					["timeline"] = { REMOVED_4_0_3 },
@@ -3898,16 +3898,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(781, {	-- Stone Gnoll Hammer
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						478,	-- Riverpaw Outrunner
-						97,		-- Riverpaw Runt
-					},
 					["coords"] = {
 						{ 28.0, 86.8, ELWYNN_FOREST },
 						{ 26.6, 89.6, ELWYNN_FOREST },
 						{ 27.6, 95.4, ELWYNN_FOREST },
 						{ 23.8, 91.6, ELWYNN_FOREST },
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						478,	-- Riverpaw Outrunner
+						97,		-- Riverpaw Runt
 					},
 				}),
 				-- #if SEASON_OF_DISCOVERY

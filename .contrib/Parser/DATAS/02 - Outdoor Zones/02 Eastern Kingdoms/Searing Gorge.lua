@@ -1929,8 +1929,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226414, {	-- Rune of Fire Specialization
 					["provider"] = { "o", 457097 },	-- Elements for Dummies Volume II: Fire
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 40.5, 35.5, SEARING_GORGE },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { HUNTER, SHAMAN, MAGE, WARLOCK },
 					["groups"] = {
 						recipe(453696, {	-- Engrave Ring - Fire Specialization
@@ -1942,12 +1942,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			n(ZONE_DROPS, {
 				i(62916, {	-- Dark Iron Bullet
+					["description"] = "In addition to being looted, this item can also be passively obtained by being attacked by said creatures. Required for the quest 'They Build a Better Bullet', is otherwise safe to discard.",
 					["timeline"] = { ADDED_4_0_3 },
 					["crs"] = {
 						8338,	-- Dark Iron Marksman
 						8566,	-- Dark Iron Lookout
 					},
-					["description"] = "In addition to being looted, this item can also be passively obtained by being attacked by said creatures. Required for the quest 'They Build a Better Bullet', is otherwise safe to discard.",
 				}),
 				i(18944, {	-- Incendosaur Scale
 					["cr"] = 9318,	-- Incendosaur
@@ -1958,22 +1958,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 47463,	-- Searing Flamewraith
 				}),
 				i(14476, {	-- Pattern: Cindercloth Gloves (RECIPE!)
-					-- Started dropping again in 8.2. The new version (167887) is also available from Time-Lost Trader
-					["timeline"] = { REMOVED_4_0_3, ADDED_8_2_0 },
-					["cr"] = 5861,	-- Twilight Fire Guard
 					["coords"] = {
 						{ 19.4, 36.6, SEARING_GORGE },
 						{ 25.4, 25.4, SEARING_GORGE },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_8_2_0 },
+					["cr"] = 5861,	-- Twilight Fire Guard
+					-- Started dropping again in 8.2. The new version (167887) is also available from Time-Lost Trader
 				}),
 				i(14471, {	-- Pattern: Cindercloth Vest (RECIPE!)
-					-- Started dropping again in 8.2. The new version (167886) is also available from Time-Lost Trader
-					["timeline"] = { REMOVED_4_0_3, ADDED_8_2_0 },
-					["cr"] = 5861,	-- Twilight Fire Guard
 					["coords"] = {
 						{ 19.4, 36.6, SEARING_GORGE },
 						{ 25.4, 25.4, SEARING_GORGE },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_8_2_0 },
+					["cr"] = 5861,	-- Twilight Fire Guard
+					-- Started dropping again in 8.2. The new version (167886) is also available from Time-Lost Trader
 				}),
 				i(10463, {	-- Pattern: Shadoweave Mask (RECIPE!)
 					["description"] = "Required for the |cff3399ffLucid Nightmare|r mount.",
@@ -1981,12 +1981,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 5840,	-- Dark Iron Steamsmith
 				}),
 				applyclassicphase(PHASE_FIVE_RECIPES, i(21547, {	-- Recipe: Elixir of Greater Firepower (RECIPE!)
-					["crs"] = {
-						5844,	-- Dark Iron Slaver
-						5846,	-- Dark Iron Taskmaster
-						8637,	-- Dark Iron Watchman
-					},
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						{ 41.6, 42.2, SEARING_GORGE },
 						{ 37.0, 42.8, SEARING_GORGE },
@@ -1995,14 +1989,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 63.6, 59.0, SEARING_GORGE },
 						{ 65.4, 65.6, SEARING_GORGE },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						5844,	-- Dark Iron Slaver
+						5846,	-- Dark Iron Taskmaster
+						8637,	-- Dark Iron Watchman
+					},
 				})),
 				i(2274, {	-- Sapper's Gloves
-					["timeline"] = { ADDED_10_1_7 },
-					["cr"] = 5840,	-- Dark Iron Steamsmith
 					["coords"] = {
 						{ 42.8, 51.6, SEARING_GORGE },
 						{ 38.0, 49.8, SEARING_GORGE },
 					},
+					["timeline"] = { ADDED_10_1_7 },
+					["cr"] = 5840,	-- Dark Iron Steamsmith
 				}),
 			}),
 		},

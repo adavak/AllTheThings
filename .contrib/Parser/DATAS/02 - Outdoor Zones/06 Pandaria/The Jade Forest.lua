@@ -4012,11 +4012,12 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(89682, {	-- Oddly-Shaped Horn
-						["cr"] = 58895,	-- Sungraze Behemoth
 						["coord"] = { 27.6, 59.6, THE_JADE_FOREST },
+						["cr"] = 58895,	-- Sungraze Behemoth
 					}),
 					i(87522),	-- Star-Carrier Bracers
 					i(120138, {	-- Tome of Polymorph: Monkey (CI!)
+						["timeline"] = { ADDED_6_0_2 },
 						["crs"] = {
 							55470,	-- Hozen Groundpounder
 							57119,	-- Hozen Ravager
@@ -4028,14 +4029,13 @@ root(ROOTS.Zones, {
 							55110,	-- Slingtail Stickypaw
 							61562,	-- Slingtail Treeleaper
 						},
-						["timeline"] = { ADDED_6_0_2 },
 					}),
 					i(120140, {	-- Tome of Polymorph: Porcupine (CI!)
+						["timeline"] = { ADDED_6_0_2 },
 						["crs"] = {
 							54896,	-- Glade Porcupine
 							59772,	-- Smoky Porcupine
 						},
-						["timeline"] = { ADDED_6_0_2 },
 					}),
 				}),
 			},

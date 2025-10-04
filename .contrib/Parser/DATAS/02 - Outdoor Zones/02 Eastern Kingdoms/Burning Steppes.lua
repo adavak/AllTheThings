@@ -2303,8 +2303,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226407, {	-- Rune of Axe Specialization
 					["provider"] = { "o", 457101 },	-- The Rites of Mak'Gora
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 40.0, 34.5, BURNING_STEPPES },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { WARRIOR, PALADIN, HUNTER, SHAMAN },
 					["groups"] = {
 						recipe(453688, {	-- Engrave Ring - Axe Specialization
@@ -2380,18 +2380,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(14482, {	-- Pattern: Cindercloth Cloak (RECIPE!)
-					["cr"] = 7037,	-- Thaurissan Firewalker
 					["coords"] = {
 						{43.8, 39.4, BURNING_STEPPES},
 						{58.8, 37.2, BURNING_STEPPES},
 					},
+					["cr"] = 7037,	-- Thaurissan Firewalker
 				}),
 				i(14490, {	-- Pattern: Cindercloth Pants (RECIPE!)
-					["cr"] = 7037,	-- Thaurissan Firewalker (RECIPE!)
 					["coords"] = {
 						{43.8, 39.4, BURNING_STEPPES},
 						{58.8, 37.2, BURNING_STEPPES},
 					},
+					["cr"] = 7037,	-- Thaurissan Firewalker (RECIPE!)
 				}),
 				i(15738, {	-- Pattern: Heavy Scorpid Gauntlets (RECIPE!)
 					-- #if AFTER 10.0.5
@@ -2410,7 +2410,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(15748, {	-- Pattern: Heavy Scorpid Leggings (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_0_5 },
 					-- #if AFTER 10.0.5
 					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
@@ -2418,6 +2417,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 34.8, 36.3, BURNING_STEPPES },
 						{ 36.0, 36.6, BURNING_STEPPES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_0_5 },
 					["crs"] = {
 						-- #if AFTER 10.0.5
 						7025,	-- Blackrock Soldier
@@ -2427,7 +2427,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(15774, {	-- Pattern: Heavy Scorpid Shoulders (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_5_0_4, REMOVED_6_0_2, ADDED_10_0_5 },
 					-- #if AFTER 10.0.5
 					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
@@ -2435,6 +2434,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 34.8, 36.3, BURNING_STEPPES },
 						{ 36.0, 36.6, BURNING_STEPPES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_5_0_4, REMOVED_6_0_2, ADDED_10_0_5 },
 					["crs"] = {
 						-- #if AFTER 10.0.5
 						7025,	-- Blackrock Soldier
@@ -2444,7 +2444,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(15727, {	-- Pattern: Heavy Scorpid Vest (RECIPE!)
-					["timeline"] = { ADDED_10_0_5 },
 					-- #if AFTER 10.0.5
 					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
@@ -2452,6 +2451,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 34.8, 36.3, BURNING_STEPPES },
 						{ 36.0, 36.6, BURNING_STEPPES },
 					},
+					["timeline"] = { ADDED_10_0_5 },
 					["crs"] = {
 						7025,	-- Blackrock Soldier
 						7027,	-- Blackrock Slayer
@@ -2460,16 +2460,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(227908, {	-- Pattern: Masterwork Volcanic Leggings (RECIPE!)
 					["description"] = "Drops from Firegut Brutes, which are found around Dreadmaul Rock and inside the Firegut Furnace cavern. The entrance to Firegut Furnace is at the southwestern side of Dreadmaulk Rock. Firegut Ogre Mages very often spawn in place of Firegut Brutes.",
-					["timeline"] = { ADDED_1_15_3 },
-					["cr"] = 7035,	-- Firegut Brute
 					["coords"] = {
 						{ 83.6, 40.0, BURNING_STEPPES },
 						{ 80.4, 45.8, BURNING_STEPPES },
 					},
+					["timeline"] = { ADDED_1_15_3 },
+					["cr"] = 7035,	-- Firegut Brute
 				})),
 				-- #endif
 				i(15732, {	-- Pattern: Volcanic Leggings (RECIPE!)
 					["description"] = "Drops from Firegut Brutes, which are found around Dreadmaul Rock and inside the Firegut Furnace cavern. The entrance to Firegut Furnace is at the southwestern side of Dreadmaulk Rock. Firegut Ogre Mages very often spawn in place of Firegut Brutes.",
+					["coords"] = {
+						{ 83.6, 40.0, BURNING_STEPPES },
+						{ 80.4, 45.8, BURNING_STEPPES },
+					},
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
 						REMOVED_1_15_3,
@@ -2478,10 +2482,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["cr"] = 7035,	-- Firegut Brute
-					["coords"] = {
-						{ 83.6, 40.0, BURNING_STEPPES },
-						{ 80.4, 45.8, BURNING_STEPPES },
-					},
 				}),
 				i(13476, {	-- Recipe: Mighty Rage Potion (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3 },	-- Now taught by trainer, recipe removed from the game.

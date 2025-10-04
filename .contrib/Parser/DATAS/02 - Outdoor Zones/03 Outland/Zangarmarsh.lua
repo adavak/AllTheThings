@@ -1847,16 +1847,16 @@ root(ROOTS.Zones, {
 							}),
 							-- #if BEFORE MOP
 							i(27929, {	-- Terminal Edge
-								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 							}),
 							i(27990, {	-- Idol of Savagery
-								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 							}),
 							i(27983, {	-- Libram of Zeal
-								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 							}),
 							-- #endif
 							i(27921, {	-- Mark of Conquest
@@ -1870,8 +1870,8 @@ root(ROOTS.Zones, {
 							}),
 							-- #if BEFORE MOP
 							i(27984, {	-- Totem of Impact
-								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 							}),
 							-- #endif
 						},
@@ -2013,16 +2013,16 @@ root(ROOTS.Zones, {
 							}),
 							-- #if BEFORE MOP
 							i(27928, {	-- Terminal Edge
-								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 							}),
 							i(27989, {	-- Idol of Savagery
-								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 							}),
 							i(27949, {	-- Libram of Zeal
-								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 							}),
 							-- #endif
 							i(27920, {	-- Mark of Conquest
@@ -2036,8 +2036,8 @@ root(ROOTS.Zones, {
 							}),
 							-- #if BEFORE MOP
 							i(27947, {	-- Totem of Impact
-								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 								["timeline"] = { REMOVED_5_0_4 },
+								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 							}),
 							-- #endif
 						},
@@ -2089,8 +2089,8 @@ root(ROOTS.Zones, {
 						["groups"] = bubbleDownClassicRep(FACTION_SPOREGGAR, {
 							{		-- Neutral
 								i(144262, {	-- Fungal Lifestalk
-									["cost"] = { { "i", 24245, 20 }, },	-- 20x Glowcap
 									["timeline"] = { ADDED_7_2_0 },
+									["cost"] = { { "i", 24245, 20 }, },	-- 20x Glowcap
 								}),
 								i(24539, {	-- Marsh Lichen
 									["cost"] = { { "i", 24245, 2 }, },	-- 2x Glowcap
@@ -2099,20 +2099,20 @@ root(ROOTS.Zones, {
 									["cost"] = { { "i", 24245, 1 }, },	-- 1x Glowcap
 								}),
 								i(27689, {	-- Recipe: Sporeling Snack (RECIPE!)
-									["cost"] = { { "i", 24245, 2 }, },	-- 2x Glowcap
 									["timeline"] = { REMOVED_4_2_0 },
+									["cost"] = { { "i", 24245, 2 }, },	-- 2x Glowcap
 								}),
 								i(144265, {	-- Rimecap
-									["cost"] = { { "i", 24245, 20 }, },	-- 20x Glowcap
 									["timeline"] = { ADDED_7_2_0 },
+									["cost"] = { { "i", 24245, 20 }, },	-- 20x Glowcap
 								}),
 								i(144276, {	-- Sack of Healing Spores
-									["cost"] = { { "i", 24245, 1 }, },	-- 1x Glowcap
 									["timeline"] = { ADDED_7_2_0 },
+									["cost"] = { { "i", 24245, 1 }, },	-- 1x Glowcap
 								}),
 								i(144261, {	-- Sporeggium
-									["cost"] = { { "i", 24245, 10 }, },	-- 10x Glowcap
 									["timeline"] = { ADDED_7_2_0 },
+									["cost"] = { { "i", 24245, 10 }, },	-- 10x Glowcap
 								}),
 							}, {	-- Friendly
 								i(25548, {	-- Tallstalk Mushroom
@@ -2201,8 +2201,8 @@ root(ROOTS.Zones, {
 					}),
 					i(29960, {	-- Captured Firefly (item) / Firefly (PET!)
 						["description"] = "Teaches you how to summon the pet Firefly. This is an extremely rare drop.",
-						["crs"] = { 20197 },	-- Bogflare Needler
 						["timeline"] = { ADDED_2_1_0 },
+						["crs"] = { 20197 },	-- Bogflare Needler
 					}),
 					i(24449, {	-- Fertile Spore
 						["crs"] = {

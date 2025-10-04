@@ -2381,11 +2381,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(13288, {	-- Pattern: Raptor Hide Belt (RECIPE!)
-							["races"] = ALLIANCE_ONLY,
-							["isLimited"] = true,
 							-- #if BEFORE 10.0.5
 							["description"] = "Horde Players Beware: even if you buy this item off the Auction House, it is currently unlearnable. Only Alliance players are able to properly learn this pattern. Fire up your bug reports.",
 							-- #endif
+							["races"] = ALLIANCE_ONLY,
+							["isLimited"] = true,
 						}),
 					},
 				}),
@@ -2433,6 +2433,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(16084, {	-- Expert First Aid - Under Wraps (RECIPE!)
 							["timeline"] = { REMOVED_3_1_0 },
+							["rank"] = 3,
 							-- #if SEASON_OF_DISCOVERY
 							["OnUpdate"] = [[function(t)
 								if C_Seasons and C_Seasons.GetActiveSeason() == 2 then
@@ -2441,7 +2442,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								t.OnUpdate = nil;
 							end]],
 							-- #endif
-							["rank"] = 3,
 						}),
 						i(16112, {	-- Manual: Heavy Silk Bandage (RECIPE!)
 							["timeline"] = { REMOVED_3_1_0 },
@@ -2477,8 +2477,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						applyclassicphase(TBC_PHASE_ONE, i(21942, {	-- Design: Ruby Crown of Restoration (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 						i(5973, {	-- Pattern: Barbaric Leggings (RECIPE!)
 							["isLimited"] = true,
@@ -2535,8 +2535,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						applyclassicphase(TBC_PHASE_ONE, i(21942, {	-- Design: Ruby Crown of Restoration (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 						i(11163, {	-- Formula: Enchant Bracer - Lesser Dodge / CLASSIC: Formula: Enchant Bracer - Lesser Deflection (RECIPE!)
 							["timeline"] = { REMOVED_4_1_0 },	-- Now taught by trainer, recipe removed from the game.
@@ -2618,12 +2618,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						"This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 						-- #endif
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 2584,	-- Stromgarde Defender
 					["coords"] = {
 						{ 26.0, 58.0, ARATHI_HIGHLANDS },
 						{ 22.0, 62.2, ARATHI_HIGHLANDS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 2584,	-- Stromgarde Defender
 				}),
 				i(4481, {	-- Cresting Charm
 					["crs"] = {
@@ -2644,24 +2644,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(3341, {	-- Gauntlets of Ogre Strength
+					["coords"] = {
+						{ 27.4, 46.8, ARATHI_HIGHLANDS },
+						{ 26.2, 46.2, ARATHI_HIGHLANDS },
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						2564,	-- Boulderfist Enforcer
 						-- #if BEFORE 4.0.3
 						2562,	-- Boulderfist Ogre
 						-- #endif
 					},
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["coords"] = {
-						{ 27.4, 46.8, ARATHI_HIGHLANDS },
-						{ 26.2, 46.2, ARATHI_HIGHLANDS },
-					},
 				}),
 				i(2623, {	-- Holy Diadem
-					["crs"] = {
-						2782,	-- Caretaker Alaric
-						2780,	-- Caretaker Nevlin
-						2781,	-- Caretaker Weston
-					},
 					["description"] =
 						-- #if AFTER 10.1.7
 						"This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item.",
@@ -2670,6 +2665,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					["coord"] = { 29.8, 59.4, ARATHI_HIGHLANDS },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						2782,	-- Caretaker Alaric
+						2780,	-- Caretaker Nevlin
+						2781,	-- Caretaker Weston
+					},
 				}),
 				i(1993, {	-- Ogremind Ring
 					["crs"] = {
@@ -2687,18 +2687,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(5040, {	-- Shadow Hunter Knife
-					["cr"] = 2557,	-- Witherbark Shadow Hunter
 					["coord"] = { 63.6, 84.2, ARATHI_HIGHLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["collectible"] = false,
+					["cr"] = 2557,	-- Witherbark Shadow Hunter
 				}),
 				i(3345, {	-- Silk Wizard Hat
-					["cr"] = 2591,	-- Syndicate Magus
 					["coords"] = {
 						{ 19.6, 67.0, ARATHI_HIGHLANDS },
 						{ 21.8, 62.4, ARATHI_HIGHLANDS },
 						{ 22.8, 63.8, ARATHI_HIGHLANDS },
 					},
+					["cr"] = 2591,	-- Syndicate Magus
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(213444, {	-- Tarnished Prayer Bead I

@@ -3100,8 +3100,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "i", 24581, 15 }, },	-- 15x Mark of Thrallmar
 							}),
 							i(63697, {	-- Bold Blood Garnet
-								["cost"] = { { "i", 24581, 10 }, },	-- 10x Mark of Thrallmar
 								["timeline"] = { ADDED_4_0_1 },
+								["cost"] = { { "i", 24581, 10 }, },	-- 10x Mark of Thrallmar
 							}),
 							i(27777, {	-- Brilliant Blood Garnet (Cata+) / Stark Blood Garnet (TBC)
 								["cost"] = { { "i", 24581, 10 }, },	-- 10x Mark of Thrallmar
@@ -3515,8 +3515,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "i", 24579, 15 }, },	-- 15x Mark of Honor Hold
 							}),
 							i(63696, {	-- Bold Blood Garnet
-								["cost"] = { { "i", 24579, 10 }, },	-- 10x Mark of Honor Hold
 								["timeline"] = { ADDED_4_0_1 },
+								["cost"] = { { "i", 24579, 10 }, },	-- 10x Mark of Honor Hold
 							}),
 							i(27812, {	-- Brilliant Blood Garnet (Cata+) / Stark Blood Garnet (TBC)
 								["cost"] = { { "i", 24579, 10 }, },	-- 10x Mark of Honor Hold
@@ -3548,17 +3548,17 @@ root(ROOTS.Zones, {
 				n(ZONE_DROPS, {
 					i(28552, {	-- A Mysterious Tome
 						["description"] = "Must have started or completed |cFFFFD700Make Them Listen|r for this item to become available.",
-						["cr"] = 16906,	-- Unyielding Knight
 						["races"] = HORDE_ONLY,
+						["cr"] = 16906,	-- Unyielding Knight
 					}),
 					i(23580, {	-- Avruu's Orb
-						["cr"] = 17084,	-- Avruu
 						["coords"] = {
 							{ 25.57, 76.45, HELLFIRE_PENINSULA },
 							{ 25.57, 76.33, HELLFIRE_PENINSULA },
 							{ 25.53, 75.92, HELLFIRE_PENINSULA },
 							{ 25.64, 75.25, HELLFIRE_PENINSULA },
 						},
+						["cr"] = 17084,	-- Avruu
 					}),
 					i(31347, {	-- Bleeding Hollow Torch
 						["cr"] = 16907,	-- Bleeding Hollow Peon
@@ -3570,13 +3570,13 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(29588, {	-- Burning Legion Missive [Alliance]
-						["cr"] = 19298,	-- Warbringer Arix'Amal
 						["coord"] = { 53.0, 26.7, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
+						["cr"] = 19298,	-- Warbringer Arix'Amal
 					}),
 					i(29590, {	-- Burning Legion Missive [Horde]
-						["cr"] = 20798,	-- Razorsaw
 						["races"] = HORDE_ONLY,
+						["cr"] = 20798,	-- Razorsaw
 					}),
 					i(29476, {	-- Crimson Crystal Shard
 						["cr"] = 19188,	-- Raging Colossus

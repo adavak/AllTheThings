@@ -1813,8 +1813,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226417, {	-- Rune of Shadow Specialization
 					["provider"] = { "o", 457089 },	-- The Shadow Connection
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 33.6, 48.7, BLASTED_LANDS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PRIEST, WARLOCK },
 					["groups"] = {
 						recipe(453700, {	-- Engrave Ring - Shadow Specialization
@@ -1911,15 +1911,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(4213, {	-- Grimoire of Doom
-					-- #if ANYCLASSIC
-					["recipeID"] = 18540,	-- Ritual of Doom
-					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { WARLOCK },
 					["crs"] = {
 						12396,	-- Doomguard Commander
 						8716,	-- Dreadlord
 					},
+					-- #if ANYCLASSIC
+					["recipeID"] = 18540,	-- Ritual of Doom
+					-- #endif
 				}),
 				i(10593, {	-- Imperfect Draenethyst Fragment (drops from pretty much the whole zone)
 					["description"] = "A rare zone drop from any creature in the zone.",
@@ -1929,7 +1929,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 42337,	-- Tainted Nightstalker
 				}),
 				i(15727, {	-- Pattern: Heavy Scorpid Vest (RECIPE!)
-					-- added to burning steps in 10.1.5
 					["timeline"] = { REMOVED_4_0_3 },
 					-- #if AFTER TBC
 					["crs"] = {
@@ -1939,6 +1938,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #else
 					["cr"] = 5981,	-- Portal Seeker
 					-- #endif
+					-- added to burning steps in 10.1.5
 				}),
 				i(8393, {	-- Scorpok Pincer
 					["timeline"] = { REMOVED_4_0_3 },

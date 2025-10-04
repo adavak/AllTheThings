@@ -2081,8 +2081,8 @@ root(ROOTS.Zones, {
 									},
 								}),
 								i(127774, {	-- Gemcutter Module: Multistrike
-									["cost"] = {{ "c", 823, 3000}},	-- 3000x Apexis Crystal
 									["timeline"] = { ADDED_6_2_0, REMOVED_7_0_3 },
+									["cost"] = {{ "c", 823, 3000}},	-- 3000x Apexis Crystal
 								}),
 								i(128502, {	-- Hunter's Seeking Crystal
 									["cost"] = 10000000,	-- 1,000g
@@ -2168,8 +2168,8 @@ root(ROOTS.Zones, {
 							{		-- Neutral
 							}, {	-- Friendly
 								i(127269, {	-- Ship Blueprint: Battleship
-									["cost"] = 5500000,	-- 550g
 									["sourceQuest"] = 39604,	-- I Sunk Your Battleship
+									["cost"] = 5500000,	-- 550g
 								}),
 								i(128451),	-- Vol'jin's Headhunters Battle Standard
 							}, {	-- Honored
@@ -2226,8 +2226,8 @@ root(ROOTS.Zones, {
 							}, {	-- Friendly
 								i(128452),	-- Hand of the Prophet Battle Standard
 								i(128492, {	-- Ship Blueprint: Battleship
-									["cost"] = 5500000,	-- 550g
 									["sourceQuest"] = 39601,	-- I Sunk Your Battleship
+									["cost"] = 5500000,	-- 550g
 								}),
 							}, {	-- Honored
 								i(128445, {	-- Contract: Dowser Bigspark

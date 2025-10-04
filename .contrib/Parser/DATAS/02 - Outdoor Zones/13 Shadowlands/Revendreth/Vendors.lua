@@ -119,9 +119,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = bubbleDownClassicRep(FACTION_COURT_OF_HARVESTERS, {
 					{		-- Neutral
 						i(190644, {	-- Vessel of Profound Possibilities (CI!)
-							["cost"] = {{"c",2009,10000}},	-- 10,000 Cosmic Flux
-							["timeline"] = { ADDED_9_2_0 },
 							["sourceAchievement"] = 14834,	-- Bound with Purpose
+							["timeline"] = { ADDED_9_2_0 },
+							["cost"] = {{"c",2009,10000}},	-- 10,000 Cosmic Flux
 							["sym"] = {
 								{"select","expansionID",EXPANSION.SL},	-- Select Shadowlands
 								{"find","headerID",CONDUITS},{"pop"},	-- grab the main Conduits category (to keep the class grouping)
@@ -157,8 +157,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						i(184727),	-- Courtier's Shoulderguard
 						i(184725),	-- Courtier's Shoulderplate
 						i(183708, {	-- Glittering Gold Sinstone Chain
-							["customCollect"] = "SL_COV_VEN",
 							["cost"] = { { "c", ANIMA, 3500 } },
+							["customCollect"] = "SL_COV_VEN",
 						}),
 						i(183245, {	-- Memory of Norgannon
 							["cost"] = 11000000, -- 1,100g
@@ -194,8 +194,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 50.4, 81.4, REVENDRETH },
 				["groups"] = {
 					i(183977, {	-- House Renathal Ceremonial Dagger
-						["customCollect"] = "SL_COV_VEN",
 						["cost"] = { { "c", ANIMA, 1750 } },	-- 1,750x Reservoir Anima
+						["customCollect"] = "SL_COV_VEN",
 					}),
 					i(183982, {	-- Devourer Mite Sticker
 						["cost"] = { { "c", ANIMA, 3000 } },	-- 3,000x Reservoir Anima

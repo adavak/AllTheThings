@@ -1631,8 +1631,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						-- #if BEFORE 4.0.3
 						i(8491, {	-- Black Tabby Cat (PET!)
-							["timeline"] = { ADDED_1_11_1 },
 							["description"] = "This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
+							["timeline"] = { ADDED_1_11_1 },
 						}),
 						-- #endif
 						i(4437, {	-- Channeler's Staff
@@ -1879,8 +1879,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208772, {	-- Rune of Saber Slash
-					["provider"] = { "o", 409131 },	-- Rusty Chest
 					["description"] = "You will need to use Sprint to make the jump to the platform.",
+					["provider"] = { "o", 409131 },	-- Rusty Chest
 					["coord"] = { 45.2, 67.2, SILVERPINE_FOREST },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { ROGUE },
@@ -2082,10 +2082,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if BEFORE 10.1.7
 				-- This was moved to Hillsbrad Foothills!
 				i(4767, {	-- Coppercloth Gloves
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 09.09.2023
 					-- #if BEFORE 4.0.3
 					["description"] = "This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 09.09.2023
 					["cr"] = 3578,	-- Dalaran Miner
 				}),
 				-- #endif
@@ -2186,8 +2186,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210195, {	-- Unbalanced Idol
-					["coord"] = { 52.8, 27.4, SILVERPINE_FOREST },
 					["description"] = "Moon: Cast Moonfire a lot.\nEmerald Dream: Cast Healing Touch (Rank 1) a lot.\nWild: Shapeshift a lot.",
+					["coord"] = { 52.8, 27.4, SILVERPINE_FOREST },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { DRUID },
 					["crs"] = {

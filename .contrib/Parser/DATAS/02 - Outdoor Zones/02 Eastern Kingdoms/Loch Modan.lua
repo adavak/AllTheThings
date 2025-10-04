@@ -1951,8 +1951,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(205932, {	-- Prophecy of a King's Demise
-					["provider"] = { "n", 209908 },	-- Heretic Idol
 					["description"] = "/kneel at the statue for the rune.",
+					["provider"] = { "n", 209908 },	-- Heretic Idol
 					["coord"] = { 71.8, 27.6, LOCH_MODAN },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { PRIEST },
@@ -1973,11 +1973,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208687, {	-- Rune of Lacerate
+					["description"] = "Use Rainbow Fin Albacore Chum on a young threshadon to receive this rune.",
 					["providers"] = {
 						{ "n",   1224 },	-- Young Threshadon
 						{ "i", 208855 },	-- Rainbow Fin Albacore Chum
 					},
-					["description"] = "Use Rainbow Fin Albacore Chum on a young threshadon to receive this rune.",
 					["coord"] = { 44.8, 39.2, LOCH_MODAN },
 					["classes"] = { DRUID },
 					["groups"] = {
@@ -2098,8 +2098,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, i(208855, {	-- Rainbow Fin Albacore Chum
-							["classes"] = { DRUID },
 							["cost"] = 526,	-- 5s 26c
+							["classes"] = { DRUID },
 						})),
 						-- #endif
 						i(6325),	-- Recipe: Brilliant Smallfish (RECIPE!)
@@ -2130,8 +2130,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["groups"] = {
 						applyclassicphase(SOD_PHASE_ONE, i(208833, {	-- Malevolent Pie
-							["classes"] = { WARLOCK },
 							["cost"] = 526,	-- 5s 26c
+							["classes"] = { WARLOCK },
 							["groups"] = {
 								i(208750, {	-- Rune of Channeling
 									["classes"] = { WARLOCK },
@@ -2233,14 +2233,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(5319, {	-- Bashing Pauldrons
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						1186,	-- Black Bear
-						-- #else
-						2478,	-- Haren Swifthoof <Horde Runner>
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 40.6, 10.4, LOCH_MODAN },
@@ -2257,14 +2249,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 66.0, 37.8, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						1186,	-- Black Bear
+						-- #else
+						2478,	-- Haren Swifthoof <Horde Runner>
+						-- #endif
+					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208843, {	-- Battle Totem
-					["timeline"] = { REMOVED_2_0_1 },
 					["coords"] = {
 						{ 79.6, 16.0, LOCH_MODAN },
 						{ 76.6, 16.0, LOCH_MODAN },
 					},
+					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { WARRIOR },
 					["crs"] = {
 						1180,	-- Mo'grosh Brute
@@ -2302,14 +2302,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(769),	-- Chunk of Boar Meat
 				-- #endif
 				i(2823, {	-- Mo'grosh Can Opener
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						44758,	-- Mo'grosh Darkmauler
-						-- #else
-						1180,	-- Mo'grosh Brute
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 71.4, 21.2, LOCH_MODAN },
@@ -2322,17 +2314,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 76.6, 16.0, LOCH_MODAN },
 						-- #endif
 					},
-				}),
-				i(2821, {	-- Mo'grosh Masher
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						44758, -- Mo'grosh Darkmauler
+						44758,	-- Mo'grosh Darkmauler
 						-- #else
-						14267,	-- Emogg the Crusher
-						1179,	-- Mo'grosh Enforcer
+						1180,	-- Mo'grosh Brute
 						-- #endif
 					},
+				}),
+				i(2821, {	-- Mo'grosh Masher
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 70.0, 24.6, LOCH_MODAN },
@@ -2342,16 +2333,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 64.4, 20.6, LOCH_MODAN },
 						-- #endif
 					},
-				}),
-				i(2822, {	-- Mo'grosh Toothpick
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						44760,	-- Mo'grosh Earthbender
+						44758, -- Mo'grosh Darkmauler
 						-- #else
-						1178,	-- Mo'grosh Ogre
+						14267,	-- Emogg the Crusher
+						1179,	-- Mo'grosh Enforcer
 						-- #endif
 					},
+				}),
+				i(2822, {	-- Mo'grosh Toothpick
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 71.4, 21.2, LOCH_MODAN },
@@ -2364,14 +2356,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 76.6, 16.0, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						44760,	-- Mo'grosh Earthbender
+						-- #else
+						1178,	-- Mo'grosh Ogre
+						-- #endif
+					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208823, {	-- Offering Coin
-					["timeline"] = { REMOVED_2_0_1 },
 					["coords"] = {
 						{ 35.6, 20.0, LOCH_MODAN },
 						{ 35.8, 27.4, LOCH_MODAN },
 					},
+					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { PRIEST },
 					["crs"] = {
 						1175,	-- Tunnel Rat Digger
@@ -2381,14 +2381,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(4949, {	-- Orcish Cleaver
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						1186,	-- Black Bear
-						-- #else
-						7170,	-- Thragomm <Horde Runner>
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 40.6, 10.4, LOCH_MODAN },
@@ -2405,10 +2397,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 66.0, 37.8, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						1186,	-- Black Bear
+						-- #else
+						7170,	-- Thragomm <Horde Runner>
+						-- #endif
+					},
 				}),
 				i(2283, {	-- Rat Cloth Belt
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 1177,	-- Tunnel Rat Surveyor
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 36.8, 16.6, LOCH_MODAN },
@@ -2419,18 +2417,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 35.2, 27.6, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 1177,	-- Tunnel Rat Surveyor
 				}),
 				i(2700, {	-- Recipe: Succulent Pork Ribs (RECIPE!)
 					["description"] = "Has a chance to drop from any creature in the zone.",
 				}),
 				i(2281, {	-- Rodentia Flint Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						1176,	-- Tunnel Rat Forager
-						-- #if BEFORE 4.0.3
-						1202,	-- Tunnel Rat Kobold
-						-- #endif
-					},
 					["coords"] = {
 						{ 38.4, 16.0, LOCH_MODAN },
 						{ 32.6, 26.4, LOCH_MODAN },
@@ -2439,13 +2432,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 27.6, 44.8, LOCH_MODAN },
 						-- #endif
 					},
-				}),
-				i(2282, {	-- Rodentia Shortsword
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
-						1173,	-- Tunnel Rat Scout
-						1172,	-- Tunnel Rat Vermin
+						1176,	-- Tunnel Rat Forager
+						-- #if BEFORE 4.0.3
+						1202,	-- Tunnel Rat Kobold
+						-- #endif
 					},
+				}),
+				i(2282, {	-- Rodentia Shortsword
 					["coords"] = {
 						{ 28.2, 36.0, LOCH_MODAN },
 						{ 25.2, 26.2, LOCH_MODAN },
@@ -2456,11 +2451,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.4, 16.6, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						1173,	-- Tunnel Rat Scout
+						1172,	-- Tunnel Rat Vermin
+					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208741, {	-- Rune of Endless Rage
-					["provider"] = { "i", 208843 },	-- Battle Totem
 					["description"] = "You can challenge him to a duel (as to not fight his adds) with a Battle Totem.",
+					["provider"] = { "i", 208843 },	-- Battle Totem
 					["coords"] = {
 						{ 55.2, 68.2, LOCH_MODAN },
 						{ 66.0, 37.8, LOCH_MODAN },
@@ -2494,8 +2494,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["groups"] = {
 						i(208778, {	-- Rune of Quick Strike
-							["provider"] = { "i", 208848 },	-- Cracked Skull-Shaped Geode
 							["description"] = "Use the Skull-Shaped Geode on a Skullthumper to crack it and find this rune within.",
+							["provider"] = { "i", 208848 },	-- Cracked Skull-Shaped Geode
 							["classes"] = { WARRIOR },
 							["cr"] = 1163,	-- Stonesplinter Skullthumper
 							["groups"] = {
@@ -2506,15 +2506,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(2265, {	-- Stonesplinter Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						1161,	-- Stonesplinter Trogg
-						1162,	-- Stonesplinter Scout
-						-- #else
-						1163,	-- Stonesplinter Skullthumper
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 31.6, 77.0, LOCH_MODAN },
@@ -2527,6 +2518,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 29.8, 84.0, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						1161,	-- Stonesplinter Trogg
+						1162,	-- Stonesplinter Scout
+						-- #else
+						1163,	-- Stonesplinter Skullthumper
+						-- #endif
+					},
 				}),
 				i(2268, {	-- Stonesplinter Blade
 					["crs"] = {
@@ -2535,14 +2535,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(2266, {	-- Stonesplinter Dagger
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						1162,	-- Stonesplinter Scout
-						-- #else
-						1166,	-- Stonesplinter Seer
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 40.2, 72.0, LOCH_MODAN },
@@ -2554,10 +2546,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 51.2, 23.6, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						1162,	-- Stonesplinter Scout
+						-- #else
+						1166,	-- Stonesplinter Seer
+						-- #endif
+					},
 				}),
 				i(2267, {	-- Stonesplinter Mace
-					["cr"] = 1197,	-- Stonesplinter Shaman
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 35.2, 65.6, LOCH_MODAN },
@@ -2567,6 +2565,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.4, 92.2, LOCH_MODAN },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 1197,	-- Stonesplinter Shaman
 				}),
 				i(5109, {	-- Stonesplinter Rags
 					["crs"] = {

@@ -1067,8 +1067,8 @@ root(ROOTS.Zones, {
 					i(95412),	-- Frayed Zandalari Journal
 					i(95408),	-- Waterlogged Zandalari Journal
 					i(97961, {	-- Filthling (PET!)
-						["crs"] = { 69251 },	-- Quivering Filth
 						["timeline"] = { ADDED_5_3_0 },
+						["crs"] = { 69251 },	-- Quivering Filth
 					}),
 				}),
 			},

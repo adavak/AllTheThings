@@ -220,719 +220,719 @@ root(ROOTS.Zones, {
 					-- Cloth
 					-- Amaranthine (Priest Only)
 					i(101891, {	-- Amaranthine Cowl
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102287, 1 },	-- Timeless Cloth Helm
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101897, {	-- Amaranthine Shoulderpads
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102289, 1 },	-- Timeless Cloth Spaulders
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101895, {	-- Amaranthine Robes
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102284, 1 },	-- Timeless Cloth Robes
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101899, {	-- Amaranthine Wristwraps
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102321, 1 },	-- Timeless Cloth Bracers
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101892, {	-- Amaranthine Handwraps
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102286, 1 },	-- Timeless Cloth Gloves
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101890, {	-- Amaranthine Cord
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102290, 1 },	-- Timeless Cloth Belt
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101893, {	-- Amaranthine Leggings
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102288, 1 },	-- Timeless Cloth Leggings
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					i(101896, {	-- Amaranthine Sandals
+						["description"] = "Any Priest spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102285, 1 },	-- Timeless Cloth Boots
 						},
-						["description"] = "Any Priest spec.",
 						["classes_display"] = { PRIEST },
 					}),
 					-- Cloudscorcher (Mage & Warlock Only)
 					i(101901, {	-- Cloudscorcher Cowl
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102287, 1 },	-- Timeless Cloth Helm
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101906, {	-- Cloudscorcher Shoulderpads
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102289, 1 },	-- Timeless Cloth Spaulders
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101904, {	-- Cloudscorcher Robes
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102284, 1 },	-- Timeless Cloth Robes
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101907, {	-- Cloudscorcher Wristwraps
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102321, 1 },	-- Timeless Cloth Bracers
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101902, {	-- Cloudscorcher Handwraps
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102286, 1 },	-- Timeless Cloth Gloves
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101900, {	-- Cloudscorcher Belt
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102290, 1 },	-- Timeless Cloth Belt
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101903, {	-- Cloudscorcher Leggings
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102288, 1 },	-- Timeless Cloth Leggings
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 					i(101905, {	-- Cloudscorcher Sandals
+						["description"] = "Any Mage/Warlock spec.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102285, 1 },	-- Timeless Cloth Boots
 						},
-						["description"] = "Any Mage/Warlock spec.",
 						["classes_display"] = { MAGE, WARLOCK },
 					}),
 
 					-- Leather
 					-- Cranefeather (Rogue, Druid, Monk) [DPS]
 					i(101953, {	-- Cranefeather Hood
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102280, 1 },	-- Timeless Leather Helm
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101955, {	-- Cranefeather Shoulders
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102282, 1 },	-- Timeless Leather Spaulders
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101954, {	-- Cranefeather Jerkin
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102277, 1 },	-- Timeless Leather Chestpiece
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101949, {	-- Cranefeather Bindings
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102322, 1 },	-- Timeless Leather Bracers
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101952, {	-- Cranefeather Gloves
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102279, 1 },	-- Timeless Leather Gloves
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101956, {	-- Cranefeather Waistband
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102283, 1 },	-- Timeless Leather Belt
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101951, {	-- Cranefeather Britches
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102281, 1 },	-- Timeless Leather Leggings
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					i(101950, {	-- Cranefeather Boots
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102278, 1 },	-- Timeless Leather Boots
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = LEATHER_CLASSES,
 					}),
 					-- Fire-Chanter (Druid, Monk)
 					i(101874, {	-- Fire-Chanter Hood
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102280, 1 },	-- Timeless Leather Helm
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101876, {	-- Fire-Chanter Shoulders
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102282, 1 },	-- Timeless Leather Spaulders
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101875, {	-- Fire-Chanter Jerkin
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102277, 1 },	-- Timeless Leather Chestpiece
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101870, {	-- Fire-Chanter Bindings
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102322, 1 },	-- Timeless Leather Bracers
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101873, {	-- Fire-Chanter Gloves
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102279, 1 },	-- Timeless Leather Gloves
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101877, {	-- Fire-Chanter Waistband
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102283, 1 },	-- Timeless Leather Belt
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101872, {	-- Fire-Chanter Britches
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102281, 1 },	-- Timeless Leather Leggings
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 					i(101871, {	-- Fire-Chanter Boots
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102278, 1 },	-- Timeless Leather Boots
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = LEATHER_CLASSES_INTELLECT,
 					}),
 
 					-- Mail
 					-- Crimsonscale (Shaman, Hunter) [DPS]
 					i(101931, {	-- Crimsonscale Helm
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102273, 1 },	-- Timeless Mail Helm
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101933, {	-- Crimsonscale Spaulders
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102275, 1 },	-- Timeless Mail Shoulders
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101934, {	-- Crimsonscale Vest
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102270, 1 },	-- Timeless Mail Chestpiece
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101928, {	-- Crimsonscale Bracers
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102323, 1 },	-- Timeless Mail Bracers
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101929, {	-- Crimsonscale Gauntlets
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102272, 1 },	-- Timeless Mail Gloves
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101927, {	-- Crimsonscale Belt
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102276, 1 },	-- Timeless Mail Belt
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101932, {	-- Crimsonscale Legguards
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102274, 1 },	-- Timeless Mail Leggings
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					i(101930, {	-- Crimsonscale Greaves
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102271, 1 },	-- Timeless Mail Boots
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = MAIL_CLASSES_AGILITY,
 					}),
 					-- Ordon Legend-Keeper (Shaman, Evoker) [HEALER]
 					i(101923, {	-- Ordon Legend-Keeper Helm
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102273, 1 },	-- Timeless Mail Helm
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101925, {	-- Ordon Legend-Keeper Spaulders
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102275, 1 },	-- Timeless Mail Shoulders
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101926, {	-- Ordon Legend-Keeper Vest
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102270, 1 },	-- Timeless Mail Chestpiece
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101920, {	-- Ordon Legend-Keeper Bracers
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102323, 1 },	-- Timeless Mail Bracers
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101921, {	-- Ordon Legend-Keeper Gauntlets
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102272, 1 },	-- Timeless Mail Gloves
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101919, {	-- Ordon Legend-Keeper Belt
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102276, 1 },	-- Timeless Mail Belt
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101924, {	-- Ordon Legend-Keeper Legguards
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102274, 1 },	-- Timeless Mail Leggings
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 					i(101922, {	-- Ordon Legend-Keeper Greaves
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102271, 1 },	-- Timeless Mail Boots
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = MAIL_CLASSES_HEALER,
 					}),
 
 					-- Plate
 					-- Cliffbreaker (Warrior, Paladin, Death Knight) [DPS]
 					i(101882, {	-- Cliffbreaker Helm
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102266, 1 },	-- Timeless Plate Helm
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101885, {	-- Cliffbreaker Pauldrons
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102268, 1 },	-- Timeless Plate Spaulders
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101878, {	-- Cliffbreaker Breastplate
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102263, 1 },	-- Timeless Plate Chestpiece
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101888, {	-- Cliffbreaker Vambraces
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102320, 1 },	-- Timeless Plate Bracers
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101880, {	-- Cliffbreaker Gauntlets
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102265, 1 },	-- Timeless Plate Gloves
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101881, {	-- Cliffbreaker Girdle
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102269, 1 },	-- Timeless Plate Belt
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101883, {	-- Cliffbreaker Legplates
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102267, 1 },	-- Timeless Plate Leggings
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101886, {	-- Cliffbreaker Sabatons
+						["description"] = "Set loot spec to DPS.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102264, 1 },	-- Timeless Plate Boot
 						},
-						["description"] = "Set loot spec to DPS.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					-- Elder Tortoiseshell (Warrior, Paladin, Death Knight) [TANK]
 					i(101942, {	-- Elder Tortoiseshell Helm
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102266, 1 },	-- Timeless Plate Helm
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101945, {	-- Elder Tortoiseshell Pauldrons
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102268, 1 },	-- Timeless Plate Spaulders
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101938, {	-- Elder Tortoiseshell Breastplate
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102263, 1 },	-- Timeless Plate Chestpiece
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101948, {	-- Elder Tortoiseshell Vambraces
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102320, 1 },	-- Timeless Plate Bracers
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101940, {	-- Elder Tortoiseshell Gauntlets
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102265, 1 },	-- Timeless Plate Gloves
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101941, {	-- Elder Tortoiseshell Girdle
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102269, 1 },	-- Timeless Plate Belt
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101943, {	-- Elder Tortoiseshell Legplates
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102267, 1 },	-- Timeless Plate Leggings
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					i(101946, {	-- Elder Tortoiseshell Sabatons
+						["description"] = "Set loot spec to Tank.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102264, 1 },	-- Timeless Plate Boot
 						},
-						["description"] = "Set loot spec to Tank.",
 						["classes_display"] = PLATE_CLASSES,
 					}),
 					-- Everbright (Paladin Only) [HEALER]
 					i(101911, {	-- Everbright Helm
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102266, 1 },	-- Timeless Plate Helm
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101913, {	-- Everbright Pauldrons
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102268, 1 },	-- Timeless Plate Spaulders
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101908, {	-- Everbright Breastplate
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102263, 1 },	-- Timeless Plate Chestpiece
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101915, {	-- Everbright Vambraces
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102320, 1 },	-- Timeless Plate Bracers
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101909, {	-- Everbright Gauntlets
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102265, 1 },	-- Timeless Plate Gloves
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101910, {	-- Everbright Girdle
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102269, 1 },	-- Timeless Plate Belt
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101912, {	-- Everbright Legplates
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102267, 1 },	-- Timeless Plate Leggings
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 					i(101914, {	-- Everbright Sabatons
+						["description"] = "Set loot spec to Healer.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102264, 1 },	-- Timeless Plate Boot
 						},
-						["description"] = "Set loot spec to Healer.",
 						["classes_display"] = PLATE_CLASSES_HEALER,
 					}),
 
 					-- Cloaks
 					i(101889, {	-- Amaranthine Cloak
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102318, 1 },	-- Timeless Cloak
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101879, {	-- Cliffbreaker Drape
+						["description"] = "Set loot spec to Strength.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102318, 1 },	-- Timeless Cloak
 						},
-						["description"] = "Set loot spec to Strength.",
 						["classes_display"] = STRENGTH_CLASSES,
 					}),
 					i(101939, {	-- Elder Tortoiseshell Drape
+						["description"] = "Set loot spec to Strength.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102318, 1 },	-- Timeless Cloak
 						},
-						["description"] = "Set loot spec to Strength.",
 						["classes_display"] = STRENGTH_CLASSES,
 					}),
 					i(101935, {	-- Kiln-Stoker Cloak
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102318, 1 },	-- Timeless Cloak
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101917, {	-- Warmsun Cloak
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102318, 1 },	-- Timeless Cloak
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = AGILITY_CLASSES,
 					}),
 
 					-- Necklaces
 					i(101894, {	-- Amaranthine Necklace
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 104345, 1 },	-- Timeless Lavalliere
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101884, {	-- Cliffbreaker Neck
+						["description"] = "Set loot spec to Strength.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 104345, 1 },	-- Timeless Lavalliere
 						},
-						["description"] = "Set loot spec to Strength.",
 						["classes_display"] = STRENGTH_CLASSES,
 					}),
 					i(101944, {	-- Elder Tortoiseshell Neck
+						["description"] = "Set loot spec to Strength.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 104345, 1 },	-- Timeless Lavalliere
 						},
-						["description"] = "Set loot spec to Strength.",
 						["classes_display"] = STRENGTH_CLASSES,
 					}),
 					i(101936, {	-- Kiln-Stoker Collar
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 104345, 1 },	-- Timeless Lavalliere
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101916, {	-- Warmsun Choker
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 104345, 1 },	-- Timeless Lavalliere
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = AGILITY_CLASSES,
 					}),
 
 					-- Rings
 					i(101898, {	-- Amaranthine Signet
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102291, 1 },	-- Timeless Signet
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101887, {	-- Cliffbreaker Seal
+						["description"] = "Set loot spec to Strength.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102291, 1 },	-- Timeless Signet
 						},
-						["description"] = "Set loot spec to Strength.",
 						["classes_display"] = STRENGTH_CLASSES,
 					}),
 					i(101947, {	-- Elder Tortoiseshell Seal
+						["description"] = "Set loot spec to Strength.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102291, 1 },	-- Timeless Signet
 						},
-						["description"] = "Set loot spec to Strength.",
 						["classes_display"] = STRENGTH_CLASSES,
 					}),
 					i(101937, {	-- Kiln-Stoker Ring
+						["description"] = "Set loot spec to Intellect.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102291, 1 },	-- Timeless Signet
 						},
-						["description"] = "Set loot spec to Intellect.",
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101918, {	-- Warmsun Ring
+						["description"] = "Set loot spec to Agility.",
 						["cost"] = {
 							{ "i", 103982, 1 },	-- Burden of Eternity
 							{ "i", 102291, 1 },	-- Timeless Signet
 						},
-						["description"] = "Set loot spec to Agility.",
 						["classes_display"] = AGILITY_CLASSES,
 					}),
 				}),
@@ -2369,8 +2369,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 777, 500 } },	-- 500x Timeless Coin
 							}),
 							i(104230, {	-- Technique: Glyph of Shifted Appearances
-								["cost"] = { { "c", 777, 4000 } },	-- 4000x Timeless Coin
 								["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
+								["cost"] = { { "c", 777, 4000 } },	-- 4000x Timeless Coin
 							}),
 						},
 					}),

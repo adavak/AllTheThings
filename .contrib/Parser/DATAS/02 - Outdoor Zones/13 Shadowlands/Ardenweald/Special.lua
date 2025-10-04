@@ -68,13 +68,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					i(181242, {	-- Repaired Soulweb
 						["description"] = "Take the |cFFFFFFFFBroken Soulweb|r to Elder Gwenna in Glitterfall Basin. Give her 10 |cff16bf0dLightless Silk|r and she will repair the |cFFFFFFFFBroken Soulweb|r.",
-						["crs"] = { 165704 },	-- Elder Gwenna
 						["sourceQuests"] = {
 							59656,	-- Well, Tell the Lady
 							57871,	-- Outplayed
 						},
 						["coord"] = { 50.4, 33.0, ARDENWEALD },
 						["cost"] = { { "i", 173204, 10 } },	-- 10x Lightless Silk
+						["crs"] = { 165704 },	-- Elder Gwenna
 					}),
 					i(178675, {	-- Dream Catcher
 						["description"] = "Take the |cff16bf0dRepaired Soulweb|r to Ysera.\n\nMembers of the |cFFA330C9Night Fae Covenant|r can speak to Ysera inside the Heart of the Forest. Members of other covenants can speak to one of the Elite Queensguard at |cFFFFFFFF47.8, 53.2|r, and Ysera will come out to upgrade the item.\n\nI encountered a bug where Ysera did not upgrade my green item to blue with her first cast. It took about a minute for the Queensguard NPCs to be interactable again, and the second time I spoke to Ysera she did upgrade my item.",

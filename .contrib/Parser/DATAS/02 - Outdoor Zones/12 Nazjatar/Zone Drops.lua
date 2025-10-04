@@ -87,10 +87,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		i(170472, {	-- Encrusted Coin (possibly part of a secret?)
-			["description"] = "This item can drop from mobs, chests, or Mardivas's Universally Lauded Tote. Turn it in to |cFFFFD700Gloomseeker Yarga|r for a hefty sum of gold.",
 			["questID"] = 57141,
-			["repeatable"] = true,
+			["description"] = "This item can drop from mobs, chests, or Mardivas's Universally Lauded Tote. Turn it in to |cFFFFD700Gloomseeker Yarga|r for a hefty sum of gold.",
 			["coord"] = { 38.0, 59.2, NAZJATAR },
+			["repeatable"] = true,
 			["groups"] = {
 				i(170473),	-- Jingling Sack
 			},
@@ -156,8 +156,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		i(170185, {	-- Intact Naga Skeleton
-			["repeatable"] = true,
 			["questID"] = 57138,
+			["repeatable"] = true,
 			["crs"] = {	-- may drop from additional mobs. check back and add crs as appropriate.
 				145340,	-- Siltridge Hydra
 				152541,	-- Siltridge Marauder
@@ -248,7 +248,6 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		i(170191, {	-- Skeletal Hand
 			["description"] = "Turn it in to |cFFFFD700Gloomseeker Yarga|r for a hefty sum of gold.",
-		--	didn't trigger quest completion!
 			["coord"] = { 38.0, 59.2, NAZJATAR },
 			["crs"] = {	-- may drop from additional mobs. check back and add crs as appropriate.
 				152710,	-- Necrofin Deep Oracle
@@ -256,6 +255,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				152711,	-- Necrofin Reaver
 				151534,	-- Necrofin Scavenger
 			},
+		--	didn't trigger quest completion!
 		}),
 		i(170179, {	-- Snapdragon Scent Gland
 			["crs"] = {	-- may drop from additional mobs, or chests. check back and add crs as appropriate.

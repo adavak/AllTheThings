@@ -1917,7 +1917,6 @@ root(ROOTS.Zones, {
 							["coord"] = { 75.3, 47.6, WARSPEAR },
 							["groups"] = {
 								i(111923, {	-- Secret of Draenor Inscription **Teaches laughing tarot, ocean tarot, savage tarot, war paints, card of omens, research warbinders ink, secrets of draenor inscription, Warbinder's ink
-									i(120136),		-- Recipe: Secrets of Draenor Inscription
 									recipe(169081),	-- War Paints
 									recipe(167950),	-- Research: Warbinder's Ink
 									recipe(175390),	-- Laughing Tarot
@@ -1925,6 +1924,7 @@ root(ROOTS.Zones, {
 									recipe(175392),	-- Savage Tarot
 									recipe(166669),	-- Card of Omens
 									recipe(178497),	-- Warbinder's Ink
+									i(120136),		-- Recipe: Secrets of Draenor Inscription
 								}),
 								i(118605, {	-- Technique: Crystalfire Spellstaff
 									["cost"] = { { "i", 119297, 1 }, },	-- 1x Secret of Draenor Inscription
@@ -1933,20 +1933,20 @@ root(ROOTS.Zones, {
 									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
 								}),
 								i(120265, {	-- Technique: Ensorcelled Tarot
-									["collectible"] = false,
 									["description"] = "The item is still in game but you can't learn the recipe from it anymore (recipe removed in 9.0.1)",
 									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
+									["collectible"] = false,
 								}),
 								i(118607, {	-- Technique: Etched-Blade Warstaff
 									["cost"] = { { "i", 119297, 1 }, },	-- 1x Secret of Draenor Inscription
 								}),
 								i(202236, {	-- Technique: Impressive Weapon Crystal
-									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
 									["timeline"] = { ADDED_10_0_5 },
+									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
 								}),
 								i(202237, {	-- Technique: Remarkable Weapon Crystal
-									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
 									["timeline"] = { ADDED_10_0_5 },
+									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
 								}),
 								i(118613, {	-- Technique: Shadowtome
 									["cost"] = { { "i", 119297, 1 }, },	-- 1x Secret of Draenor Inscription
@@ -1958,10 +1958,10 @@ root(ROOTS.Zones, {
 									["cost"] = { { "i", 119297, 1 }, },	-- 1x Secret of Draenor Inscription
 								}),
 								i(118610, {	-- Technique: Weapon Crystal
-									["collectible"] = false,
 									["description"] = "The item is still in game but you can't learn the recipe from it anymore (recipe removed in 9.0.1)",
-									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
 									["timeline"] = { ADDED_6_0_2, REMOVED_10_0_5 },
+									["cost"] = { { "i", 119297, 5 }, },	-- 5x Secret of Draenor Inscription
+									["collectible"] = false,
 								}),
 								i(118608, { ["timeline"] = { CREATED_6_0_2 }}),	-- Technique: Greater Weapon Crystal
 								i(120266, { ["timeline"] = { CREATED_6_0_2 }}),	-- Technique: Greater Ensorcelled Tarot

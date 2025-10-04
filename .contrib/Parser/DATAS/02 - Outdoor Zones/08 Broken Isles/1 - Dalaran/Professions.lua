@@ -519,8 +519,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "i", 138777, 50 }, },	-- 50x Drowned Mana
 							}),
 							i(143842, {	-- Trashy (PET!)
-								["cost"] = { { "i", 138777, 50 }, },	-- 50x Drowned Mana
 								["timeline"] = { ADDED_7_1_5 },
+								["cost"] = { { "i", 138777, 50 }, },	-- 50x Drowned Mana
 							}),
 						},
 					}),

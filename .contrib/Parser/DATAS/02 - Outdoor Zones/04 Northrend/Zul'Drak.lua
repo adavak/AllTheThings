@@ -1177,8 +1177,8 @@ root(ROOTS.Zones, {
 							{ 81.6, 31.6, ZULDRAK },
 							{ 75.2, 38.6, ZULDRAK },
 						},
-						["cr"] = 29334,	-- Gundrak Raptor
 						["timeline"] = { ADDED_3_2_0 },
+						["cr"] = 29334,	-- Gundrak Raptor
 					}),
 					i(41120, {	-- Plans: Reinforced Cobalt Legplates (RECIPE!)
 						["coords"] = {
@@ -1192,13 +1192,13 @@ root(ROOTS.Zones, {
 					}),
 					i(38660, {	-- Unliving Choker
 						["description"] = "This Item will drop instead of |cffffffffWrithing Choker|r until |cffffd700Cleansing Drak'Tharon|r has been completed.",
-						["cr"] = 28519,	-- Withered Troll
 						["coords"] = {
 							{ 14.0, 69.0, ZULDRAK },
 							{ 16.2, 75.6, ZULDRAK },
 							{ 17.6, 70.8, ZULDRAK },
 							{ 22.4, 71.6, ZULDRAK },
 						},
+						["cr"] = 28519,	-- Withered Troll
 					}),
 					i(38673, {	-- Writhing Choker
 						["description"] = "This Item will drop instead of |cffffffffUnliving Choker|r once |cffffd700Cleansing Drak'Tharon|r has been completed.",
@@ -1209,13 +1209,13 @@ root(ROOTS.Zones, {
 							12238,	-- Cleansing Drak'Tharon
 							-- #endif
 						},
-						["cr"] = 28519,	-- Withered Troll
 						["coords"] = {
 							{ 14.0, 69.0, ZULDRAK },
 							{ 16.2, 75.6, ZULDRAK },
 							{ 17.6, 70.8, ZULDRAK },
 							{ 22.4, 71.6, ZULDRAK },
 						},
+						["cr"] = 28519,	-- Withered Troll
 					}),
 				}),
 			},

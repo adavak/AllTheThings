@@ -100,20 +100,20 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166806, {	-- Recipe: Boralus Blood Sausage [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166263, {	-- Recipe: Sanguinated Feast [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166368, {	-- Recipe: Seasoned Steak and Potatoes [Rank 3] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166367, {	-- Recipe: Wild Berry Bread [Rank 3] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161549, {	-- Shellbuckle Girdle
 							["cost"] = 19000000,	-- 1,900g
@@ -204,9 +204,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 					})),
 					moh(25, i(168923, {	-- Unburdened Azerite Timequartz (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
 						["classes"] = HEALERS,
+						["u"] = REMOVED_FROM_GAME,
 					})),
 					moh(5, i(168442, {	-- Roiling Blood of the Vanquished (Rank 1)
 						["sourceQuests"] = { 56500 },	-- Storming the Battlefields
@@ -218,8 +218,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 					})),
 					moh(25, i(168814, {	-- Animated Blood of the Decimated (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
+						["u"] = REMOVED_FROM_GAME,
 					})),
 					moh(5, i(168578, {	-- Sphere of Suppressed Force (Rank 1)
 						["sourceQuests"] = { 56500 },	-- Storming the Battlefields
@@ -231,9 +231,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 					})),
 					moh(25, i(168581, {	-- Sphere of Incandescent Neutralization (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
 						["classes"] = TANKS,
+						["u"] = REMOVED_FROM_GAME,
 					})),
 				},
 			}),

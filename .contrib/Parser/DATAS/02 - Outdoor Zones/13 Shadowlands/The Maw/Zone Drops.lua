@@ -12,11 +12,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["crs"] = { 170694 },	-- Spectral Assassin
 			}),
 			i(186564, {	-- Golden Eye (PET!)
-				["crs"] = { 177132 },	-- Helsworn Soulseeker
 				["timeline"] = { ADDED_9_1_0 },
+				["crs"] = { 177132 },	-- Helsworn Soulseeker
 			}),
 			i(186559, {	-- Grappling Gauntlet (PET!)
 				["description"] = "Available in The Maw, Korthia, Zereth Mortis.",
+				["timeline"] = { ADDED_9_1_0 },
 				["maps"] = {
 					KORTHIA,
 					ZERETH_MORTIS
@@ -31,9 +32,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					177293,	-- Mawsworn Torturer
 					157824,	-- Protector of Flame
 				},
-				["timeline"] = { ADDED_9_1_0 },
 			}),
 			i(187275, {	-- Helsworn Battle Plans (QI!)
+				["timeline"] = { ADDED_9_1_0 },
 				["crs"] = {
 					177413,	-- Avowed Soulbreaker
 					177418,	-- Chained Bonesculpter
@@ -49,12 +50,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					176259,	-- Mawsworn Sky Hunter
 					177129,	-- Weaponmaster Hyrev
 				},
-				["timeline"] = { ADDED_9_1_0 },
 			}),
 			i(183058),	-- Indecipherable Map (QI!)
 			i(187253, {	-- Maw Guard's Spiked Spaulders
-				["crs"] = { 167322 },	-- Mawsworn Shackler
 				["timeline"] = { ADDED_9_1_0 },
+				["crs"] = { 167322 },	-- Mawsworn Shackler
 			}),
 			i(180799),	-- Mawsworn Patrol Map (QI!)
 			i(183059, {	-- Mawsworn Shackles
@@ -62,12 +62,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			i(180803),	-- Puzzling Cryptogram (QI!)
 			i(187252, {	-- Ritualist's Spiked Mantle
-				["crs"] = { 168977 },	-- Mawsworn Thaumaturge
 				["timeline"] = { ADDED_9_1_0 },
+				["crs"] = { 168977 },	-- Mawsworn Thaumaturge
 			}),
 			i(186727, {	-- Seal Breaker Key
-				["crs"] = { 177134 },	-- Maldraxxi Defector
 				["timeline"] = { ADDED_9_1_0 },
+				["crs"] = { 177134 },	-- Maldraxxi Defector
 			}),
 			i(180806),	-- Shadebound Testimonial (QI!)
 			i(178044),	-- Shifting Cryptogram (QI!)

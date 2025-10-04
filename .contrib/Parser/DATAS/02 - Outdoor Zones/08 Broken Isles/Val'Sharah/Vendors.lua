@@ -37,8 +37,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 							["cost"] = 3000000,	-- 300g
 						}),
 						i(187932, {	-- Technique: Mark of the Duskwing Raven (RECIPE!)
-							["cost"] = 5500000,	-- 550g
 							["timeline"] = { ADDED_9_1_5 },
+							["cost"] = 5500000,	-- 550g
 						}),
 						i(140745, {	-- Treasure Map: Val'sharah
 							["cost"] = 200000,	-- 20g

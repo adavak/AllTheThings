@@ -57,8 +57,8 @@ root(ROOTS.Zones, {
 								["cost"] = 10000000,	-- 1,000g
 							}),
 							i(142408, {	-- Pattern: Drums of the Mountain [Rank 2] (RECIPE!)
-								["cost"] = 5500000,		-- 550g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 5500000,		-- 550g
 							}),
 						}, {	-- Exalted
 							i(137855, {	-- Design: Ancient Maelstrom Amulet [Rank 3] (RECIPE!)
@@ -74,8 +74,8 @@ root(ROOTS.Zones, {
 								["cost"] = 50000000,	-- 5,000g
 							}),
 							i(142409, {	-- Pattern: Drums of the Mountain [Rank 3] (RECIPE!)
-								["cost"] = 30000000,	-- 3,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 30000000,	-- 3,000g
 							}),
 							i(123948, {	-- Plans: Demonsteel Armguards [Rank 3] (RECIPE!)
 								["cost"] = 30000000,	-- 3,000g
@@ -114,10 +114,10 @@ root(ROOTS.Zones, {
 							{		-- Neutral
 								i(142366),	-- Regurgitated Leaf
 								i(142361, {	-- Ivory Talon
-									i(142363),	-- Mark of Prey
 									title(346, {	-- <Name>, Talon's Vengeance
 										["collectible"] = false,
 									}),
+									i(142363),	-- Mark of Prey
 								}),
 							}, {	-- Friendly
 								i(142364),	-- Bag of Twigs

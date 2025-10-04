@@ -2879,12 +2879,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						applyclassicphase(SOD_PHASE_THREE, massacrecoin_s(1, i(213169))),	-- Silver Blood Coin
 						applyclassicphase(SOD_PHASE_THREE, massacrecoin_g(1, i(213170))),	-- Gold Blood Coin
 						bloodcoin_g(1, i(216972, {	-- Satchel of Silver Blood Coins
-							-- TODO: Check if this is still there.
 							["sym"] = {{ "select","itemID", 213169 }},	-- Silver Blood Coin
+							-- TODO: Check if this is still there.
 						})),
 						bloodcoin_s(1, i(216971, {	-- Satchel of Copper Blood Coins
-							-- TODO: Check if this is still there.
 							["sym"] = {{ "select","itemID", 213168 }},	-- Copper Blood Coin
+							-- TODO: Check if this is still there.
 						})),
 						applyclassicphase(SOD_PHASE_THREE, massacrecoin_g(1, i(221368, {	-- Satchel of Silver Massacre Coins
 							["sym"] = {{ "select","itemID", 221365 }},	-- Silver Massacre Coin
@@ -3047,6 +3047,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(16083, {	-- Expert Fishing - The Bass and You
 							["timeline"] = { REMOVED_3_1_0 },
+							["rank"] = 3,
 							-- #if SEASON_OF_DISCOVERY
 							["OnUpdate"] = [[function(t)
 								if C_Seasons and C_Seasons.GetActiveSeason() == 2 then
@@ -3055,7 +3056,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								t.OnUpdate = nil;
 							end]],
 							-- #endif
-							["rank"] = 3,
 						}),
 					},
 				}),
@@ -3299,10 +3299,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cost"] = 100000,	-- 10g
 						})),
 						applyclassicphase(SOD_PHASE_THREE, i(219147, {	-- Rune of Grace
-							--["sourceQuest"] = ,	--
 							["description"] = "You need to complete the Frix Xizzix quest first. (Crieve TODO: Document the quest chain!)",
-							["classes"] = { PALADIN },
+							--["sourceQuest"] = ,	--
 							["cost"] = 10000,	-- 1g
+							["classes"] = { PALADIN },
 							["groups"] = {
 								recipe(429242),	-- Engrave Bracers - Light's Grace
 							},
@@ -3595,7 +3595,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 4260,	-- Venture Co. Shredder
 				}),
 				i(8494, {	-- Hyacinth Macaw (PET!)
-					["timeline"] = { ADDED_1_11_1 },
 					-- #if BEFORE CATA
 					["crs"] = {
 						4505,	-- Bloodsail Deckhand
@@ -3608,6 +3607,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #else
 					["description"] = "This item has a chance to drop from any killed creature in the zone.",
 					-- #endif
+					["timeline"] = { ADDED_1_11_1 },
 				}),
 				i(5789, {	-- Pattern: Murloc Scale Bracers (RECIPE!)
 					["cr"] = 1561,	-- Bloodsail Raider
@@ -3638,6 +3638,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 676,	-- Venture Co. Surveyor
 				}),
 				i(1652, {	-- Sturdy Lunchbox
+					-- #if AFTER 10.1.7
+					["coords"] = {
+						{ 55.6, 35.6, NORTHERN_STRANGLETHORN },
+						{ 55.4, 34.4, NORTHERN_STRANGLETHORN },
+					},
+					-- #endif
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
@@ -3647,12 +3653,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						14492,	-- Verifonix <The Surveyor>
 						-- #endif
 					},
-					-- #if AFTER 10.1.7
-					["coords"] = {
-						{ 55.6, 35.6, NORTHERN_STRANGLETHORN },
-						{ 55.4, 34.4, NORTHERN_STRANGLETHORN },
-					},
-					-- #endif
 				}),
 				i(1996, {	-- Voodoo Band
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },

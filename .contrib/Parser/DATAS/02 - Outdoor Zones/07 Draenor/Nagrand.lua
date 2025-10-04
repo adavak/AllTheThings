@@ -2681,14 +2681,14 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(113109, {	-- Frostwolf Axe
-						["crs"] = { 78278 },	-- Breezestrider Talbuk
-						["sourceQuest"] = 35376,	-- Shooting the Breeze (H)
 						["description"] = "Drops while doing |cFFFFD700Shooting the Breeze|r.",
+						["sourceQuest"] = 35376,	-- Shooting the Breeze (H)
+						["crs"] = { 78278 },	-- Breezestrider Talbuk
 					}),
 					i(113107, {	-- Rangari Arrow
-						["crs"] = { 78278 },	-- Breezestrider Talbuk
-						["sourceQuest"] = 35338,	-- Shooting the Breeze (A)
 						["description"] = "Drops while doing |cFFFFD700Shooting the Breeze|r.",
+						["sourceQuest"] = 35338,	-- Shooting the Breeze (A)
+						["crs"] = { 78278 },	-- Breezestrider Talbuk
 					}),
 				}),
 			},

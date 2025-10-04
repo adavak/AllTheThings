@@ -6,7 +6,6 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 	n(SPECIAL, {
 		i(169201, {	-- Fabious (MOUNT!)
 			["description"] = "|c00CC2222!!DO NOT KILL!!|r\n|cFFFFD700Fabious|r spawns every couple hours, walks around for a couple minutes, then disappears. Use the |cFFFFD700S.E.L.F.I.E. Camera MkII|r to take a picture with him for the mount.",
-			["cr"] = 65090,	-- Fabious
 			["coords"] = {
 				{ 38.2, 9.60, NAZJATAR },
 				{ 26.1, 29.7, NAZJATAR },
@@ -17,6 +16,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["cost"] = {
 				{ "i", 122674, 1 },	-- S.E.L.F.I.E. Camera MkII
 			},
+			["cr"] = 65090,	-- Fabious
 		}),
 		o(373439, {	--  Flipper Fish School
 			["coord"] = { 72.8, 24.3, NAZJATAR },

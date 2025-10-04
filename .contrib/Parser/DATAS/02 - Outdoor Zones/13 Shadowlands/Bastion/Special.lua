@@ -31,6 +31,18 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			i(180285, {	-- Steward's Golden Key
+				["coords"] = {
+					{ 53.5, 85.5, BASTION },	-- Alexandros
+					{ 43.0, 27.3, BASTION },	-- Angeliki
+					{ 44.8, 59.3, BASTION },	-- Burnsios
+					{ 57.0, 77.4, BASTION },	-- Chaddius
+					{ 53.6, 9.6, BASTION },		-- Covinkles
+					{ 70.9, 37.5, BASTION },	-- Giannakis
+					{ 25.9, 33.6, BASTION },	-- Ioanna
+					{ 45.6, 64.6, BASTION },	-- Pagius
+					{ 60.6, 61.8, BASTION },	-- Platnos
+					{ 33.9, 66.9, BASTION },	-- Wylia
+				},
 				["cost"] = { { "i", 178915, 1 } },	-- 1x Ripe Purian
 				["crs"] = {
 					170508,	-- Alexandros
@@ -43,18 +55,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					170491,	-- Pagius
 					170471,	-- Platnos
 					170292,	-- Wylia
-				},
-				["coords"] = {
-					{ 53.5, 85.5, BASTION },	-- Alexandros
-					{ 43.0, 27.3, BASTION },	-- Angeliki
-					{ 44.8, 59.3, BASTION },	-- Burnsios
-					{ 57.0, 77.4, BASTION },	-- Chaddius
-					{ 53.6, 9.6, BASTION },		-- Covinkles
-					{ 70.9, 37.5, BASTION },	-- Giannakis
-					{ 25.9, 33.6, BASTION },	-- Ioanna
-					{ 45.6, 64.6, BASTION },	-- Pagius
-					{ 60.6, 61.8, BASTION },	-- Platnos
-					{ 33.9, 66.9, BASTION },	-- Wylia
 				},
 			}),
 			i(180049, {	-- Steward's Silver Key

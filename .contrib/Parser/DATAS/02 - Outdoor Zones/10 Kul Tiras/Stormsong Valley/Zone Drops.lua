@@ -15,8 +15,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			i(163699, {	-- Annealed Honey Amulet
-				["races"] = ALLIANCE_ONLY,
 				["coord"] = { 69.2, 68.8, STORMSONG_VALLEY },
+				["races"] = ALLIANCE_ONLY,
 				["crs"] = {
 					134147,	-- Beehemoth
 					133429,	-- Bubbling Mead

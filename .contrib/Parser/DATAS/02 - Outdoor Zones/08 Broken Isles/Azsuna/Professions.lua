@@ -20,8 +20,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "i", 146848, 100 } },	-- 100x Fragmented Enchantment
 							}),
 							i(152555, {	-- Ghost Shark (PET!)
-								["cost"] = { { "i", 146848, 50 } },	-- 50x Fragmented Enchantment
 								["timeline"] = { ADDED_7_3_0 },
+								["cost"] = { { "i", 146848, 50 } },	-- 50x Fragmented Enchantment
 							}),
 							i(133703, {	-- Pearlescent Conch
 								["cost"] = { { "i", 146848, 25 } },	-- 25x Fragmented Enchantment

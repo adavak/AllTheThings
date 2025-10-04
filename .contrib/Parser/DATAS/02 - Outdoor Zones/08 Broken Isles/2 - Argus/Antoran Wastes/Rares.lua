@@ -138,8 +138,8 @@ root(ROOTS.Zones, {
 						["coord"]  = { 72.5, 67.5, ANTORAN_WASTES },
 						["groups"] = {
 							i(212778, {	-- Grimoire of the Vile Tyrant (CI!)
-								["timeline"] = { ADDED_10_2_5 },
 								["description"] = "The grimoire only drops when Radix is in stasis and you have to rightclick to activate him.\nIf Radix is already active and has no loot, not even greys, then you cant loot the grimoire for this day.",
+								["timeline"] = { ADDED_10_2_5 },
 							}),
 						},
 					}),

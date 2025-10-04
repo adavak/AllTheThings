@@ -2240,13 +2240,13 @@ root(ROOTS.Zones, {
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = {
 								i(113096, {	-- Bloodmane Charm (TOY!)
-									["isLimited"] = true,
 									["cost"] = 5000000,	-- 500g
+									["isLimited"] = true,
 								}),
 								i(79249),	-- Fel-Charred Tome
 								i(113094, {	-- Gronnskin Bag
-									["isLimited"] = true,
 									["cost"] = 22000000,	-- 2,200g
+									["isLimited"] = true,
 								}),
 								i(116915, {	-- Inactive Apexis Guardian
 									["isLimited"] = true,
@@ -2283,13 +2283,13 @@ root(ROOTS.Zones, {
 							["races"] = HORDE_ONLY,
 							["groups"] = {
 								i(113096, {	-- Bloodmane Charm (TOY!)
-									["isLimited"] = true,
 									["cost"] = 5000000,	-- 500g
+									["isLimited"] = true,
 								}),
 								i(79249),	-- Fel-Charred Tome
 								i(113094, {	-- Gronnskin Bag
-									["isLimited"] = true,
 									["cost"] = 22000000,	-- 2,200g
+									["isLimited"] = true,
 								}),
 								i(116915, {	-- Inactive Apexis Guardian
 									["isLimited"] = true,

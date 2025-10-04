@@ -3060,12 +3060,12 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(50406, {	-- Formula: Enchant Gloves - Angler (RECIPE!)
+						["timeline"] = { ADDED_3_3_0 },
 						["crs"] = {
 							26343,	-- Indu'le Fisherman
 							26336,	-- Indu'le Mystic
 							26344,	-- Indu'le Warrior
 						},
-						["timeline"] = { ADDED_3_3_0 },
 					}),
 					i(41124, {	-- Plans: Reinforced Cobalt Shoulders (RECIPE!)
 						["coords"] = {
@@ -3075,16 +3075,16 @@ root(ROOTS.Zones, {
 						["crs"] = { 27333 },	-- Onslaught Mason
 					}),
 					i(120137, {	-- Tome of Polymorph: Polar Bear Cub (CI!)
+						["description"] = "Expect to kill hundreds of Actic Grizzly bears before seeing this tome drop.",
 						["timeline"] = { ADDED_6_0_2 },
 						["crs"] = { 26482 },	-- Arctic Grizzly
-						["description"] = "Expect to kill hundreds of Actic Grizzly bears before seeing this tome drop.",
 					}),
 					i(38262, {	-- Well-Worn Bat
+						["description"] = "Only drops from Foreman Kaleiki, who spawns during the Horde quest 'A Means to an End'. The questline starts at Venomspite, and Foreman Kaleiki can be spawned as many times as needed.",
 						["coord"] = { 68.2, 74.2, DRAGONBLIGHT },
 						["crs"] = {
 							27238,	-- Foreman Kaleiki
 						},
-						["description"] = "Only drops from Foreman Kaleiki, who spawns during the Horde quest 'A Means to an End'. The questline starts at Venomspite, and Foreman Kaleiki can be spawned as many times as needed.",
 					}),
 				}),
 			},

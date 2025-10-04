@@ -343,8 +343,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 					})),
 					moh(25, i(168923, {	-- Unburdened Azerite Timequartz (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
+						["u"] = REMOVED_FROM_GAME,
 					})),
 					moh(5, i(168442, {	-- Roiling Blood of the Vanquished (Rank 1)
 						["sourceQuests"] = { 56499 },	-- Storming the Battlefields
@@ -356,8 +356,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 					})),
 					moh(25, i(168814, {	-- Animated Blood of the Decimated (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
+						["u"] = REMOVED_FROM_GAME,
 					})),
 					moh(5, i(168578, {	-- Sphere of Suppressed Force (Rank 1)
 						["sourceQuests"] = { 56499 },	-- Storming the Battlefields
@@ -369,9 +369,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 					})),
 					moh(25, i(168581, {	-- Sphere of Incandescent Neutralization (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
 						["classes"] = TANKS,
+						["u"] = REMOVED_FROM_GAME,
 					})),
 				},
 			}),
@@ -509,8 +509,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["races"] = ALLIANCE_ONLY,
 						}),
 						i(166277, {	-- Schematic: Unstable Temporal Time Shifter [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 					},
 				}),
@@ -576,21 +576,21 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 71.7, 13.7, BORALUS },
 				["groups"] = {
 					i(168623, {	-- Biconcavic Lens of the Focusing Iris (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
 						["cost"] = { { "c", 1718, 800 }, },	-- 800x Titan Residuum
+						["u"] = REMOVED_FROM_GAME,
 					}),
 					i(168560, {	-- Fetish of the Gilded Catacombs (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
-						["classes"] = TANKS,
 						["cost"] = { { "c", 1718, 800 }, },	-- 800x Titan Residuum
+						["classes"] = TANKS,
+						["u"] = REMOVED_FROM_GAME,
 					}),
 					i(168927, {	-- Seed of Vibrant Blooms (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
-						["classes"] = HEALERS,
 						["cost"] = { { "c", 1718, 800 }, },	-- 800x Titan Residuum
+						["classes"] = HEALERS,
+						["u"] = REMOVED_FROM_GAME,
 					}),
 					-- This Gear need symlink someday
 					i(174630),	-- Relinquished Azerite Spaulders
@@ -609,8 +609,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(163042, {	-- Mighty Caravan Brutosaur (MOUNT!)
-						["cost"] = 50000000000,	-- 5,000,000g
 						["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 },
+						["cost"] = 50000000000,	-- 5,000,000g
 					}),
 					i(163568, {	-- Lost Platysaur (PET!)
 						["cost"] = 1000000000,	-- 100,000g
@@ -638,8 +638,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 11000000,	-- 1,100g
 						}),
 						i(166278, {	-- Technique: Contract: 7th Legion [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 					}, {	-- Revered
 						i(161586, {	-- Belt of the Grove Auxiliary
@@ -658,8 +658,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(163778, {	-- Lil' Siege Tower (PET!)
-							["races"] = ALLIANCE_ONLY,
 							["cost"] = { { "i", POLISHED_PET_CHARM, 200 }, },
+							["races"] = ALLIANCE_ONLY,
 						}),
 						i(162275, {	-- Plans: Stormsteel Dagger [Rank 3] (RECIPE!)
 							["cost"] = 14000000,	-- 1,400g

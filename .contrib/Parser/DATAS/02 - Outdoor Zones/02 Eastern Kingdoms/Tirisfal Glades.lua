@@ -810,8 +810,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 					n(ZONE_DROPS, {
 						i(3295, {	-- Deadman Blade
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-							["cr"] = 1919,	-- Samuel Fipps
 							["coords"] = {
 								-- #if AFTER CATA
 								{ 70.8, 38.4, DEATHKNELL },
@@ -819,10 +817,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 36.6, 61.6, TIRISFAL_GLADES },
 								-- #endif
 							},
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["cr"] = 1919,	-- Samuel Fipps
 						}),
 						i(3293, {	-- Deadman Cleaver
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-							["cr"] = 1917,	-- Daniel Ulfman
 							["coords"] = {
 								-- #if AFTER CATA
 								{ 70.8, 41.0, DEATHKNELL },
@@ -830,10 +828,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 36.6, 61.8, TIRISFAL_GLADES },
 								-- #endif
 							},
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["cr"] = 1917,	-- Daniel Ulfman
 						}),
 						i(3294, {	-- Deadman Club
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-							["cr"] = 1918,	-- Karrel Grayves
 							["coords"] = {
 								-- #if AFTER CATA
 								{ 71.2, 40.6, DEATHKNELL },
@@ -841,7 +839,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 36.6, 61.6, TIRISFAL_GLADES },
 								-- #endif
 							},
-
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["cr"] = 1918,	-- Karrel Grayves
 						}),
 						i(3296, {	-- Deadman Dagger
 							["coords"] = {
@@ -855,8 +854,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cr"] = 1916,	-- Stephen Bhartec
 						}),
 						i(3262, {	-- Putrid Wooden Hammer
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-							["cr"] = 1890,	-- Rattlecage Skeleton
 							["coords"] = {
 								-- #if AFTER CATA
 								{ 52.8, 42.8, DEATHKNELL },
@@ -864,12 +861,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 33.0, 63.6, TIRISFAL_GLADES },
 								-- #endif
 							},
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["cr"] = 1890,	-- Rattlecage Skeleton
 						}),
 						-- #if BEFORE 10.1.7
 						i(3260, {	-- Scarlet Initiate Robes
-							["cr"] = 1507,	-- Scarlet Initiate
 							["coord"] = { 37.4, 68.0, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["cr"] = 1507,	-- Scarlet Initiate
 						}),
 						-- #endif
 						-- #if SEASON_OF_DISCOVERY
@@ -880,7 +879,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						})),
 						-- #endif
 						i(2754, {	-- Tarnished Bastard Sword
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 							-- #if AFTER CATA
 							["coord"] = { 72.2, 66.4, DEATHKNELL },
 							["cr"] = 49422,	-- Rotbrain Berserker
@@ -888,10 +886,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cr"] = 1506,	-- Scarlet Convert
 							["coord"] = { 36.8, 68.0, TIRISFAL_GLADES },
 							-- #endif
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 						}),
 						i(3263, {	-- Webbed Pants
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-							["cr"] = 1505,	-- Night Web Spider
 							["coords"] = {
 								-- #if BEFORE CATA
 								{ 27.6, 59.2, TIRISFAL_GLADES },
@@ -899,6 +896,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 26.8, 31.8, DEATHKNELL },
 								-- #endif
 							},
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["cr"] = 1505,	-- Night Web Spider
 						}),
 					}),
 				},
@@ -1076,13 +1075,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 10.1.7
 			header(HEADERS.Spell, 921, {	-- Pickpocketing
 				i(3330, {	-- Dargol's Hauberk
-					["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 20.09.2023
 					["description"] = "Can be pickpocketed from Captain Dargol.",
-					--	["cr"] = 1658,	-- Captain Dargol
 					["coords"] = {
 						{ 52.6, 26.2, TIRISFAL_GLADES },
 						{ 52.4, 26.6, TIRISFAL_GLADES },
 					},
+					["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 20.09.2023
+					--	["cr"] = 1658,	-- Captain Dargol
 				}),
 			}),
 			-- #endif
@@ -1131,13 +1130,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(208034, {	-- Tirisfal Treasure Map
 						["timeline"] = { REMOVED_2_0_1 },
-						["classes"] = { ROGUE },
 						["cost"] = {
 							{ "i", 208038, 1 },	-- Bottom-Left Map Piece
 							{ "i", 208037, 1 },	-- Bottom-Right Map Piece
 							{ "i", 208036, 1 },	-- Top-Left Map Piece
 							{ "i", 208035, 1 },	-- Top-Right Map Piece
 						},
+						["classes"] = { ROGUE },
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(208038, {	-- Bottom-Left Map Piece
 						["coord"] = { 56.6, 44.4, TIRISFAL_GLADES },
@@ -2820,9 +2819,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_ONE, i(204174, {	-- Rune of Precision
 					["provider"] = { "o", 405201 },	-- Shipwreck Cache
-					["cost"] = {{ "i", 208007, 1 }},	-- Shipwreck Cache Key
 					["coord"] = { 66.7, 24.6, TIRISFAL_GLADES },
 					["timeline"] = { REMOVED_2_0_1 },
+					["cost"] = {{ "i", 208007, 1 }},	-- Shipwreck Cache Key
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(400081),	-- Engrave Pants - Between the Eyes
@@ -2831,8 +2830,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_ONE, i(203991, {	-- Rune of Quick Draw
 					["provider"] = { "o", 386675 },	-- Buried Treasure
 					["coord"] = { 52.9, 54.0, TIRISFAL_GLADES },
-					["cost"] = {{ "i", 208034, 1 }},	-- Tirisfal Treasure Map
 					["timeline"] = { REMOVED_2_0_1 },
+					["cost"] = {{ "i", 208034, 1 }},	-- Tirisfal Treasure Map
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(400095),	-- Engrave Chest - Quick Draw
@@ -2840,9 +2839,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(203993, {	-- Rune of Slaughter
 					["provider"] = { "o", 404941 },	-- Relic Coffer
-					["cost"] = {{ "i", 208005, 1 }},	-- Agamand Relic Coffer Key
 					["coord"] = { 52.5, 25.8, TIRISFAL_GLADES },
 					["timeline"] = { REMOVED_2_0_1 },
+					["cost"] = {{ "i", 208005, 1 }},	-- Agamand Relic Coffer Key
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(424992),	-- Engrave Chest - Slaughter from the Shadows
@@ -3012,12 +3011,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			n(ZONE_DROPS, {
 				i(2839, {	-- A Letter to Yvette
-					["timeline"] = { REMOVED_4_0_3 },
-					["crs"] = {
-						1523,	-- Cracked Skull Soldier
-						1522,	-- Darkeye Bonecaster
-						1520,	-- Rattlecage Soldier
-					},
 					--[[["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 570,	-- Brain Eater
@@ -3037,6 +3030,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 					--]]
+					["timeline"] = { REMOVED_4_0_3 },
+					["crs"] = {
+						1523,	-- Cracked Skull Soldier
+						1522,	-- Darkeye Bonecaster
+						1520,	-- Rattlecage Soldier
+					},
 				}),
 				i(52079, {	-- A Scarlet Letter
 					["timeline"] = { ADDED_4_0_3 },
@@ -3051,19 +3050,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(3335, {	-- Farmer's Broom
-					["cr"] = 1935,	-- Tirisfal Farmhand
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 40.6, 51.8, TIRISFAL_GLADES },
 						{ 36.8, 51.6, TIRISFAL_GLADES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1935,	-- Tirisfal Farmhand
 				}),
 				i(3334, {	-- Farmer's Shovel
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-					["crs"] = {
-						1936,	-- Farmer Solliden
-						1934,	-- Tirisfal Farmer
-					},
 					["coords"] = {
 						{ 38.2, 50.0, TIRISFAL_GLADES },
 						{ 34.6, 51.6, TIRISFAL_GLADES },
@@ -3071,6 +3065,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 36.2, 50.4, TIRISFAL_GLADES },
 						{ 40.6, 51.8, TIRISFAL_GLADES },
 						{ 34.4, 49.0, TIRISFAL_GLADES },
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["crs"] = {
+						1936,	-- Farmer Solliden
+						1934,	-- Tirisfal Farmer
 					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
@@ -3089,8 +3088,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(3321, {	-- Gray Fur Booties
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-					["cr"] = 1549,	-- Ravenous Darkhound
 					["coords"] = {
 						{ 86.0, 38.2, TIRISFAL_GLADES },
 						{ 80.4, 42.2, TIRISFAL_GLADES },
@@ -3100,6 +3097,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 89.6, 43.6, TIRISFAL_GLADES },
 						{ 86.0, 46.2, TIRISFAL_GLADES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1549,	-- Ravenous Darkhound
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(207973, {	-- Hound Jawbone
@@ -3117,11 +3116,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(3331, {	-- Melrache's Cape
-					-- This item was given an description about how the NPC it drops from is friendly to the Alliance in pre-cata iterations of the game.
-					-- That information is incorrect unless someone can point to a specific patch where it would have merit. //Danny Donkey
 					["coord"] = { 79.4, 26.0, TIRISFAL_GLADES },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["cr"] = 1665,	-- Captain Melrache
+					-- This item was given an description about how the NPC it drops from is friendly to the Alliance in pre-cata iterations of the game.
+					-- That information is incorrect unless someone can point to a specific patch where it would have merit. //Danny Donkey
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(205945, {	-- Memory of an Imprisoned Savior
@@ -3146,9 +3145,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(3332, {	-- Perrine's Boots
+					["coord"] = { 51.6, 67.6, TIRISFAL_GLADES },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["cr"] = 1662,	-- Captain Perrine
-					["coord"] = { 51.6, 67.6, TIRISFAL_GLADES },
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(205947, {	-- Prophecy of a Desecrated Citadel
@@ -3170,9 +3169,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if AFTER 10.1.7
 				i(3260, {	-- Scarlet Initiate Robes
-					["cr"] = 1539,	-- Scarlet Neophyte
 					["coord"] = { 79.0, 32.2, TIRISFAL_GLADES },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1539,	-- Scarlet Neophyte
 				}),
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
@@ -3206,12 +3205,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(3319, {	-- Short Sabre
-					["cr"] = 1529,	-- Bleeding Horror
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 78.6, 60.6, TIRISFAL_GLADES },
 						{ 75.0, 61.6, TIRISFAL_GLADES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1529,	-- Bleeding Horror
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(203752, {	-- Spell Notes: MILEGIN VALF
@@ -3234,12 +3233,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 1555,	-- Vicious Night Web Spider
 				}),
 				i(3329, {	-- Spiked Wooden Plank
-					["cr"] = 1753,	-- Maggot Eye
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 58.6, 31.0, TIRISFAL_GLADES },
 						{ 58.6, 31.2, TIRISFAL_GLADES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1753,	-- Maggot Eye
 				}),
 				i(4263, {	-- Standard Issue Shield
 					["coords"] = {
@@ -3258,8 +3257,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				i(3325, {	-- Vile Fin Battle Axe
-					["cr"] = 1545,	-- Vile Fin Muckdweller
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						-- #if BEFORE 4.0.3
 						{ 36.6, 38.6, TIRISFAL_GLADES },
@@ -3272,10 +3269,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 72.0, 26.6, TIRISFAL_GLADES },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1545,	-- Vile Fin Muckdweller
 				}),
 				i(3327, {	-- Vile Fin Oracle Staff
-					["cr"] = 1544,	-- Vile Fin Minor Oracle
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						-- #if BEFORE 4.0.3
 						{ 36.6, 38.6, TIRISFAL_GLADES },
@@ -3286,13 +3283,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 34.8, 44.8, TIRISFAL_GLADES },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 1544,	-- Vile Fin Minor Oracle
 				}),
 				i(3261, {	-- Webbed Cloak
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 23.8, 58.4, TIRISFAL_GLADES },
 						{ 86.2, 53.4, TIRISFAL_GLADES },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["crs"] = {
 						1688,	-- Night Web Matriarch
 						1555,	-- Vicious Night Web Spiders

@@ -66,8 +66,8 @@ root(ROOTS.Zones, {
 						}, {	-- Friendly
 						}, {	-- Honored
 							i(142333, {	-- Manual: Feathered Luffa (RECIPE!)
-								["cost"] = 6000000,		-- 600g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 6000000,		-- 600g
 							}),
 							i(137713, {	-- Schematic: Bolt-Action Headgun [Rank 3] (RECIPE!)
 								["cost"] = 5500000,		-- 550g
@@ -87,8 +87,8 @@ root(ROOTS.Zones, {
 								["cost"] = 5000000,		-- 500g
 							}),
 							i(142331, {	-- Recipe: Spiced Falcosaur Omelet (RECIPE!)
-								["cost"] = 10000000,	-- 1,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 10000000,	-- 1,000g
 							}),
 							i(130157, {	-- Syxsehnz Rod (TOY!)
 								["cost"] = 5000000,		-- 500g
@@ -97,12 +97,12 @@ root(ROOTS.Zones, {
 								["cost"] = 20000000,	-- 2,000g
 							}),
 							i(137777, {	-- Vantus Rune Technique: Spellblade Aluriel [Rank 3] (RECIPE!)
-								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 20000000,	-- 2,000g
 							}),
 							i(137781, {	-- Vantus Rune Technique: Star Augur Etraeus [Rank 3] (RECIPE!)
-								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 20000000,	-- 2,000g
 							}),
 							i(139603, {	-- Vault Patroller's Warboots
 								["cost"] = 10000000,	-- 1,000g
@@ -169,20 +169,20 @@ root(ROOTS.Zones, {
 								},
 							}),
 							i(137779, {	-- Vantus Rune Technique: High Botanist Tel'arn [Rank 3] (RECIPE!)
-								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 20000000,	-- 2,000g
 							}),
 							i(137780, {	-- Vantus Rune Technique: Krosus [Rank 3] (RECIPE!)
-								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 20000000,	-- 2,000g
 							}),
 							i(137774, {	-- Vantus Rune Technique: Skorpyron [Rank 3] (RECIPE!)
-								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 20000000,	-- 2,000g
 							}),
 							i(137776, {	-- Vantus Rune Technique: Trilliax [Rank 3] (RECIPE!)
-								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
+								["cost"] = 20000000,	-- 2,000g
 							}),
 						}, {	-- Exalted
 							i(140577),	-- Court of Farondis Tabard

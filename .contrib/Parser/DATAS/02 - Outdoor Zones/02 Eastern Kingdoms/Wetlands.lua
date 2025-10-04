@@ -156,11 +156,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 					i(7287, {	-- Red Whelp Scale
 						["coord"] = { 62.1, 47.5, WETLANDS },	-- Greenwarden's Grove, southeast of it's future location.
+						["timeline"] = { REMOVED_3_1_0 },
 						["crs"] = {
 							1069,	-- Crimson Whelp
 							1044,	-- Flamesnorting Whelp
 						},
-						["timeline"] = { REMOVED_3_1_0 },
 					}),
 				}),
 			}),
@@ -1986,8 +1986,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(226408, {	-- Rune of Mace Specialization
 					["provider"] = { "o", 457093 },	-- Blunt Justice: A Dwarf's Tale
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 74.0, 69.2, WETLANDS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { WARRIOR, PALADIN, PRIEST, SHAMAN, ROGUE, DRUID },
 					["groups"] = {
 						recipe(453689, {	-- Engrave Ring - Mace Specialization
@@ -2053,8 +2053,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, i(209874, {	-- Dragonslayer's Lance
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { WARRIOR },
 							["cost"] = 7500,	-- 75s
+							["classes"] = { WARRIOR },
 						})),
 						-- #endif
 						i(4824, {	-- Blurred Axe
@@ -2323,14 +2323,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(3022, {	-- Bluegill Breeches
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						42111,	-- Bluegill Forager
-						-- #else
-						1028,	-- Bluegill Muckdweller
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 21.8, 40.0, WETLANDS },
@@ -2349,8 +2341,34 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 13.0, 33.2, WETLANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						42111,	-- Bluegill Forager
+						-- #else
+						1028,	-- Bluegill Muckdweller
+						-- #endif
+					},
 				}),
 				i(2046, {	-- Bluegill Kukri
+					["coords"] = {
+						-- #if AFTER 10.1.7
+						{ 21.8, 40.0, WETLANDS },
+						{ 17.4, 41.4, WETLANDS },
+						{ 17.2, 33.6, WETLANDS },
+						{ 13.6, 42.6, WETLANDS },
+						{ 16.6, 26.2, WETLANDS },
+						{ 20.4, 37.6, WETLANDS },
+						{ 14.2, 36.8, WETLANDS },
+						{ 18.6, 34.0, WETLANDS },
+						{ 12.2, 40.2, WETLANDS },
+						{ 13.4, 34.0, WETLANDS },
+						{ 15.8, 28.2, WETLANDS },
+						-- #else
+						{ 18.6, 40.0, WETLANDS },
+						{ 15.2, 38.4, WETLANDS },
+						-- #endif
+					},
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
@@ -2359,6 +2377,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1027,	-- Bluegill Warrior
 						-- #endif
 					},
+				}),
+				i(1560, {	-- Bluegill Sandals
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 21.8, 40.0, WETLANDS },
@@ -2377,32 +2397,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 15.2, 38.4, WETLANDS },
 						-- #endif
 					},
-				}),
-				i(1560, {	-- Bluegill Sandals
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
 						42110,	-- Bluegill Puddlejumper
 						-- #else
 						1025,	-- Bluegill Puddlejumper
-						-- #endif
-					},
-					["coords"] = {
-						-- #if AFTER 10.1.7
-						{ 21.8, 40.0, WETLANDS },
-						{ 17.4, 41.4, WETLANDS },
-						{ 17.2, 33.6, WETLANDS },
-						{ 13.6, 42.6, WETLANDS },
-						{ 16.6, 26.2, WETLANDS },
-						{ 20.4, 37.6, WETLANDS },
-						{ 14.2, 36.8, WETLANDS },
-						{ 18.6, 34.0, WETLANDS },
-						{ 12.2, 40.2, WETLANDS },
-						{ 13.4, 34.0, WETLANDS },
-						{ 15.8, 28.2, WETLANDS },
-						-- #else
-						{ 18.6, 40.0, WETLANDS },
-						{ 15.2, 38.4, WETLANDS },
 						-- #endif
 					},
 				}),
@@ -2412,14 +2412,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(2084, {	-- Darksteel Bastard Sword
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						1034,	-- Dragonmaw Raider
-						-- #else
-						1054,	-- Dark Iron Demolitionist
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 47.8, 47.6, WETLANDS },
@@ -2430,18 +2422,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 46.8, 18.0, WETLANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						1034,	-- Dragonmaw Raider
+						-- #else
+						1054,	-- Dark Iron Demolitionist
+						-- #endif
+					},
 				}),
 				i(1955, {	-- Dragonmaw Chain Boots
-					["cr"] = 1035,	-- Dragonmaw Swamprunner
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						{ 50.6, 49.4, WETLANDS },
 						{ 39.0, 46.6, WETLANDS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 1035,	-- Dragonmaw Swamprunner
 				}),
 				i(753, {	-- Dragonmaw Shortsword
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["cr"] = 1036,	-- Dragonmaw Centurion
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 51.4, 52.6, WETLANDS },
@@ -2453,6 +2451,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 45.6, 45.4, WETLANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 1036,	-- Dragonmaw Centurion
 				}),
 				-- #if BEFORE 6.1.0
 				-- Moved to a Vendor, Dark Iron Entrepreneur after 6.1.0
@@ -2468,14 +2468,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(892, {	-- Gnoll Casting Gloves
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						41391,	-- Mosshide Mystic
-						-- #else
-						1009,	-- Mosshide Mistweaver
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 39.0, 33.6, WETLANDS },
@@ -2487,22 +2479,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 62.6, 69.2, WETLANDS },
 						-- #endif
 					},
-				}),
-				-- #if BEFORE 4.0.3
-				i(5788, {	-- Pattern: Thick Murloc Armor (RECIPE!)
-					["cr"] = 1160,	-- Captain Halyndor
-					["coord"] = { 15.6, 23.4, WETLANDS },
-				}),
-				-- #endif
-				i(3076, {	-- Smoldering Boots
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						42042,	-- Ebon Whelp
+						41391,	-- Mosshide Mystic
 						-- #else
-						1042,	-- Red Whelp
+						1009,	-- Mosshide Mistweaver
 						-- #endif
 					},
+				}),
+				-- #if BEFORE 4.0.3
+				i(5788, {	-- Pattern: Thick Murloc Armor (RECIPE!)
+					["coord"] = { 15.6, 23.4, WETLANDS },
+					["cr"] = 1160,	-- Captain Halyndor
+				}),
+				-- #endif
+				i(3076, {	-- Smoldering Boots
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 63.8, 48.6, WETLANDS },
@@ -2519,16 +2511,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 59.6, 43.0, WETLANDS },
 						-- #endif
 					},
-				}),
-				i(3074, {	-- Smoldering Gloves
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
 						42042,	-- Ebon Whelp
 						-- #else
-						1043,	-- Lost Whelp
+						1042,	-- Red Whelp
 						-- #endif
 					},
+				}),
+				i(3074, {	-- Smoldering Gloves
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 63.8, 48.6, WETLANDS },
@@ -2545,16 +2537,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 66.2, 49.0, WETLANDS },
 						-- #endif
 					},
-				}),
-				i(3073, {	-- Smoldering Pants
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						42043,	-- Ebon Slavehunter
+						42042,	-- Ebon Whelp
 						-- #else
-						1069,	-- Crimson Whelp
+						1043,	-- Lost Whelp
 						-- #endif
 					},
+				}),
+				i(3073, {	-- Smoldering Pants
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 66.0, 45.8, WETLANDS },
@@ -2566,16 +2558,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 68.8, 45.6, WETLANDS },
 						-- #endif
 					},
-				}),
-				i(3072, {	-- Smoldering Robe
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
 						42043,	-- Ebon Slavehunter
 						-- #else
-						1044,	-- Flamesnorting Whelp
+						1069,	-- Crimson Whelp
 						-- #endif
 					},
+				}),
+				i(3072, {	-- Smoldering Robe
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 66.0, 45.8, WETLANDS },
@@ -2587,16 +2579,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 63.8, 33.6, WETLANDS },
 						-- #endif
 					},
-				}),
-				i(6315, {	-- Steelarrow Crossbow
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						41409,	-- Dark Iron Trapper
+						42043,	-- Ebon Slavehunter
 						-- #else
-						6523,	-- Dark Iron Rifleman
+						1044,	-- Flamesnorting Whelp
 						-- #endif
 					},
+				}),
+				i(6315, {	-- Steelarrow Crossbow
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 45.8, 34.4, WETLANDS },
@@ -2605,6 +2597,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						{ 48.8, 17.6, WETLANDS },
 						{ 48.9, 17.6, WETLANDS },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						41409,	-- Dark Iron Trapper
+						-- #else
+						6523,	-- Dark Iron Rifleman
 						-- #endif
 					},
 				}),
@@ -2646,14 +2646,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(756, {	-- Tunnel Pick
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						41390,	-- Mosshide Gnoll
-						-- #else
-						1053,	-- Dark Iron Tunneler
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 39.0, 33.6, WETLANDS },
@@ -2662,6 +2654,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						{ 61.2, 25.4, WETLANDS },
 						{ 48.0, 18.6, WETLANDS },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						41390,	-- Mosshide Gnoll
+						-- #else
+						1053,	-- Dark Iron Tunneler
 						-- #endif
 					},
 				}),

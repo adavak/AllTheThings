@@ -2134,9 +2134,9 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					applyclassicphase(WRATH_PHASE_TWO, i(44981, {	-- Ashwood Brand
+						["description"] = "Kiss this frog.",
 						["provider"] = { "i", 44986 },	-- Warts-B-Gone Lip Balm
 						["coord"] = { 60.5, 51.5, GRIZZLY_HILLS },
-						["description"] = "Kiss this frog.",
 						["cr"] = 33224,	-- Maiden of Ashwood Lake
 					})),
 					i(41123, {	-- Plans: Reinforced Cobalt Helm (RECIPE!)

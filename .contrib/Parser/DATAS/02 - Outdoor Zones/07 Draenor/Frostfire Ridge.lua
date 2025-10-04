@@ -820,7 +820,6 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							i(111815),	-- Scribe's Quarters, Level 1
 							i(111923, {	-- Secret of Draenor Inscription
-								i(120136),		-- Recipe: Secrets of Draenor Inscription
 								recipe(169081),	-- War Paints
 								recipe(167950),	-- Research: Warbinder's Ink
 								recipe(175390),	-- Laughing Tarot
@@ -828,6 +827,7 @@ root(ROOTS.Zones, {
 								recipe(175392),	-- Savage Tarot
 								recipe(166669),	-- Card of Omens
 								recipe(178497),	-- Warbinder's Ink
+								i(120136),		-- Recipe: Secrets of Draenor Inscription
 							}),
 							i(116114),	-- Prestige Card: The Turn
 						},
@@ -1702,8 +1702,8 @@ root(ROOTS.Zones, {
 						["coord"] = { 40.4, 12.6, FROSTFIRE_RIDGE },
 						["groups"] = {
 							i(119409, {	-- Icebound Bloodmaul Spire
-								["u"] = REMOVED_FROM_GAME,
 								["description"] = "There are reports that this drops from this rare. This rare is only lootable once, but it appears this may either not drop anymore, or you may only have the one chance per toon to loot it. Please let us know if you get this item to drop.",
+								["u"] = REMOVED_FROM_GAME,
 							}),
 						},
 					}),

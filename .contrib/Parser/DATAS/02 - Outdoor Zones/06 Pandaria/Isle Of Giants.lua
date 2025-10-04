@@ -87,8 +87,8 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(94573, {	-- Direhorn Runt (PET!)
-						["crs"] = { 69983 },	-- Primal Direhorn
 						["timeline"] = { ADDED_5_3_0 },
+						["crs"] = { 69983 },	-- Primal Direhorn
 					}),
 					i(94288, {	-- Giant Dinosaur Bone
 						["description"] = "These bones can be gathered and turned into Ku'ma on the Isle of Giants.",

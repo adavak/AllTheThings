@@ -2241,4 +2241,3 @@ i(242715, 1233516);	-- K'arroc Swiftwing
 i(257191, 1261336);	-- Preyseeker's Hubris
 i(257192, 1261337);	-- Preyseeker's Wrath
 i(0, 1238827);	-- Swift Spectral Dragonhawk
-

@@ -441,8 +441,8 @@ root(ROOTS.Zones, {
 					}),
 
 					i(44751, {	-- Hyldnir Spoils
-						["coord"] = { 50.8, 65.6, THE_STORM_PEAKS },
 						["description"] = "Reward from the following daily quests: Back to the Pit, Defending Your Title, Maintaining Discipline, and The Aberrations Must Die. \n\nOne of the quests is offered at random each day.",
+						["coord"] = { 50.8, 65.6, THE_STORM_PEAKS },
 						["groups"] = {
 							i(43962),	-- White Polar Bear (MOUNT!)
 						},
@@ -1642,12 +1642,12 @@ root(ROOTS.Zones, {
 						["coord"] = { 40.6, 84.6, THE_STORM_PEAKS },
 						["groups"] = {
 							i(44221, {	-- Loaned Gryphon (MOUNT!)
-								["collectible"] = false,
 								["races"] = ALLIANCE_ONLY,
+								["collectible"] = false,
 							}),
 							i(44229, {	-- Loaned Wind Rider (MOUNT!)
-								["collectible"] = false,
 								["races"] = HORDE_ONLY,
+								["collectible"] = false,
 							}),
 						},
 					}),

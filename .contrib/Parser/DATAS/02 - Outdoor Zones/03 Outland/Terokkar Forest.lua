@@ -1845,6 +1845,11 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(25719, {	-- Arakkoa Feather
+						-- #if BEFORE 8.2.5
+						["description"] = "Can be turned in to the NPC named Vekax for Outcast's Cache and reputation with the Lower City up to Honored. Each turn in requires 30 Arakkoa Feathers. Vekax can be found in the northwestern section of the Lower City in Shattrath.",
+						-- #else
+						["description"] = "Can be turned in to the NPC named Vekax for Outcast's Cache and reputation with the Lower City up to Honored, and again when at Exalted. Each turn in requires 30 Arakkoa Feathers. Vekax can be found in the northwestern section of the Lower City in Shattrath.",
+						-- #endif
 						["coords"] = {
 							{ 24.7, 72.6, TEROKKAR_FOREST },	-- Veil Lithic
 							{ 50.0, 16.7, TEROKKAR_FOREST },	-- Veil Reskk
@@ -1863,43 +1868,38 @@ root(ROOTS.Zones, {
 							18452,	-- Skithian Dreadhawk
 							18453,	-- Skithian Windripper
 						},
-						-- #if BEFORE 8.2.5
-						["description"] = "Can be turned in to the NPC named Vekax for Outcast's Cache and reputation with the Lower City up to Honored. Each turn in requires 30 Arakkoa Feathers. Vekax can be found in the northwestern section of the Lower City in Shattrath.",
-						-- #else
-						["description"] = "Can be turned in to the NPC named Vekax for Outcast's Cache and reputation with the Lower City up to Honored, and again when at Exalted. Each turn in requires 30 Arakkoa Feathers. Vekax can be found in the northwestern section of the Lower City in Shattrath.",
-						-- #endif
 					}),
 					i(25744, {	-- Dampscale Basilisk Eye
-						["crs"] = {
-							18461,	-- Dampscale Basilisk
-							18463,	-- Dampscale Devourer
-							21854,	-- Ironspine Petrifier
-						},
 						["coords"] = {
 							{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
 							{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
 							{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
 						},
+						["crs"] = {
+							18461,	-- Dampscale Basilisk
+							18463,	-- Dampscale Devourer
+							21854,	-- Ironspine Petrifier
+						},
 					}),
 					i(25802, {	-- Dreadfang Venom Sac
-						["crs"] = {
-							18466,	-- Dreadfang Lurker
-							18467,	-- Dreadfang Widow
-						},
 						["coords"] = {
 							{ 52.3, 78.5, TEROKKAR_FOREST },	-- Netherweb Ridge
 							{ 54.8, 59.8, TEROKKAR_FOREST },	-- Allerian Stronghold, west of
 							{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
 						},
+						["crs"] = {
+							18466,	-- Dreadfang Lurker
+							18467,	-- Dreadfang Widow
+						},
 					}),
 					i(34491, {	-- Pattern: Bag of Many Hides (RECIPE!)
+						["timeline"] = { ADDED_2_3_0 },
 						["crs"] = {
 							22143,	-- Gordunni Back-Breaker
 							22144,	-- Gordunni Elementalist
 							22148,	-- Gordunni Head-Splitter
 							23022,	-- Gordunni Soulreaper
 						},
-						["timeline"] = { ADDED_2_3_0 },
 					}),
 					applyclassicphase(TBC_PHASE_FIVE_OFFENSIVE_PHASE_FOUR, i(34255, {	-- Razorthorn Flayer Gland
 						["cr"] = 24920,	-- Razorthorn Flayer

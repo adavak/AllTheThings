@@ -2702,7 +2702,6 @@ root(ROOTS.Zones, {
 						},
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32672, {	-- Depleted Badge
-						["ignoreSource"] = true,
 						["crs"] = {
 							19973,	-- Abyssal Flamebringer
 							22175,	-- Apexis Flayer
@@ -2721,9 +2720,9 @@ root(ROOTS.Zones, {
 							20557,	-- Wrath Hound
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32677, {	-- Depleted Cloak
-						["ignoreSource"] = true,
 						["crs"] = {
 							19973,	-- Abyssal Flamebringer
 							22181,	-- Aether Ray
@@ -2742,9 +2741,9 @@ root(ROOTS.Zones, {
 							20557,	-- Wrath Hound
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32676, {	-- Depleted Cloth Bracers
-						["ignoreSource"] = true,
 						["crs"] = {
 							22181,	-- Aether Ray
 							22175,	-- Apexis Flayer
@@ -2763,10 +2762,10 @@ root(ROOTS.Zones, {
 							22244,	-- Unbound Ethereal
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32576)),	-- Depleted Crystal Focus
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32673, {	-- Depleted Dagger
-						["ignoreSource"] = true,
 						["crs"] = {
 							19973,	-- Abyssal Flamebringer
 							22181,	-- Aether Ray
@@ -2784,9 +2783,9 @@ root(ROOTS.Zones, {
 							22180,	-- Shard-Hide Boar
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32671, {	-- Depleted Mace
-						["ignoreSource"] = true,
 						["crs"] = {
 							19973,	-- Abyssal Flamebringer
 							22175,	-- Apexis Flayer
@@ -2808,9 +2807,9 @@ root(ROOTS.Zones, {
 							22195,	-- Wrath Speaker
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32675, {	-- Depleted Mail Gauntlets
-						["ignoreSource"] = true,
 						["crs"] = {
 							19973,	-- Abyssal Flamebringer
 							22181,	-- Aether Ray
@@ -2828,9 +2827,9 @@ root(ROOTS.Zones, {
 							22195,	-- Wrath Speaker
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32678, {	-- Depleted Ring
-						["ignoreSource"] = true,
 						["crs"] = {
 							22175,	-- Apexis Flayer
 							22275,	-- Apexis Guardian
@@ -2848,9 +2847,9 @@ root(ROOTS.Zones, {
 							20557,	-- Wrath Hound
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32679, {	-- Depleted Staff
-						["ignoreSource"] = true,
 						["crs"] = {
 							22181,	-- Aether Ray
 							22175,	-- Apexis Flayer
@@ -2870,9 +2869,9 @@ root(ROOTS.Zones, {
 							20557,	-- Wrath Hound
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32674, {	-- Depleted Sword
-						["ignoreSource"] = true,
 						["crs"] = {
 							22175,	-- Apexis Flayer
 							22275,	-- Apexis Guardian
@@ -2893,9 +2892,9 @@ root(ROOTS.Zones, {
 							20557,	-- Wrath Hound
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(32670, {	-- Depleted Two-Handed Axe
-						["ignoreSource"] = true,
 						["crs"] = {
 							19973,	-- Abyssal Flamebringer
 							22181,	-- Aether Ray
@@ -2915,6 +2914,7 @@ root(ROOTS.Zones, {
 							22195,	-- Wrath Speaker
 							23355,	-- Zarcsin
 						},
+						["ignoreSource"] = true,
 					})),
 					-- #if BEFORE CATA
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31871, {	-- Design: Balanced Shadow Draenite [TBC] / Design: Shifting Shadow Draenite [CATA+] (RECIPE!)
@@ -3158,11 +3158,11 @@ root(ROOTS.Zones, {
 							{ 32.0, 63.2, BLADES_EDGE_MOUNTAINS },
 							{ 33.6, 52.6, BLADES_EDGE_MOUNTAINS },
 						},
+						["timeline"] = { ADDED_2_3_0 },
 						["crs"] = {
 							23385,	-- Gan'arg Analyzer
 							23386,	-- Gan'arg Analyzer (wh says "Simon Unit" drops it but these are the actual mobs)
 						},
-						["timeline"] = { ADDED_2_3_0 },
 					}),
 				}),
 			},

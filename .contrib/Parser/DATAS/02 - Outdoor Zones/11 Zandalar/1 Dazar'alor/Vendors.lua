@@ -274,24 +274,24 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["cost"] = { { "i", POLISHED_PET_CHARM, 250 }, },
 					}),
 					i(165840, {	-- Shattered Pet Portal (CI!)
+						["timeline"] = { REMOVED_9_1_0 },
 						-- #if BEFORE 9.0.2
 						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
 						-- #endif
-						["timeline"] = { REMOVED_9_1_0 },
 					}),
 					i(163502, {	-- Lil' Ben'fon (PET!)
 						["sourceQuests"] = { 50297 },	-- The Head of Her Enemy
-						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde. Alliance can use it so we don't mark the actual species.
 						["cost"] = { { "i", POLISHED_PET_CHARM, 300 }, },
+						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde. Alliance can use it so we don't mark the actual species.
 					}),
 					i(161016, {	-- Lil' Tika (PET!)
 						["sourceQuests"] = { 49681 },	-- Lil' Tika
-						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde. Alliance can use it so we don't mark the actual species.
 						["cost"] = { { "i", POLISHED_PET_CHARM, 200 }, },
+						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde. Alliance can use it so we don't mark the actual species.
 					}),
 					i(139003, {	-- Pocket Pet Portal (CI!)
-						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
 						["timeline"] = { REMOVED_9_1_0 },
+						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
 					}),
 					i(163499, {	-- Zandalari Shinchomper (PET!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 50 }, },
@@ -403,8 +403,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(166736, {	-- Schematic: Unstable Temporal Time Shifter [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(162623, {	-- Tome of Hex: Zandalari Tendonripper (CI!)
 							["cost"] = 18000000,	-- 1,800g
@@ -516,8 +516,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["cost"] = { { "c", 1716, 200 }, },	-- 200x Honorbound Service Medal
 					}),
 					i(174373, {	-- Sandy Nightsaber (H) (MOUNT!)
-						["cost"] = { { "c", 1716, 350 }, },	-- 350x Honorbound Service Medal
 						["sourceQuest"] = 57959,	-- Heroic Warfront: The Battle for Darkshore
+						["cost"] = { { "c", 1716, 350 }, },	-- 350x Honorbound Service Medal
 					}),
 					i(166752, {	-- Stone Guard's Bladed Cloak
 						["cost"] = { { "c", 1716, 75 }, },	-- 75x Honorbound Service Medal
@@ -566,8 +566,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 					i(166444),	-- Honorbound Scouting Map (CI!)
 					i(163779, {	-- Lil' War Machine (PET!)
-						["races"] = HORDE_ONLY,
 						["cost"] = { { "i", POLISHED_PET_CHARM, 200 }, },
+						["races"] = HORDE_ONLY,
 					}),
 					i(161550, {	-- Lustful Warbringer's Legplates
 						["cost"] = 19000000,	-- 1,900g
@@ -579,8 +579,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["cost"] = 14000000,	-- 1,400g
 					}),
 					i(166310, {	-- Technique: Contract: The Honorbound [Rank 2] (RECIPE!)
-						["cost"] = 19000000,	-- 1,900g
 						["timeline"] = { ADDED_8_1_0 },
+						["cost"] = 19000000,	-- 1,900g
 					}),
 					i(162720, {	-- Formula: Enchanter's Sorcerous Scepter [Rank 3] (RECIPE!)
 						["cost"] = 14000000,	-- 1,400g
@@ -684,8 +684,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 48.5, 87.0, DAZARALOR },
 				["groups"] = {
 					i(163042, {	-- Mighty Caravan Brutosaur (MOUNT!)
-						["cost"] = 50000000000,	-- 5,000,000g
 						["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 },
+						["cost"] = 50000000000,	-- 5,000,000g
 					}),
 					i(159139),	-- Lightweight Skyterror Barding
 					i(163568, {	-- Lost Platysaur (PET!)
@@ -700,21 +700,21 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 53.9, 88.9, DAZARALOR },
 				["groups"] = {
 					i(168623, {	-- Biconcavic Lens of the Focusing Iris (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
 						["cost"] = { { "c", 1718, 800 }, },	-- 800x Titan Residuum
+						["u"] = REMOVED_FROM_GAME,
 					}),
 					i(168560, {	-- Fetish of the Gilded Catacombs (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
-						["classes"] = TANKS,
 						["cost"] = { { "c", 1718, 800 }, },	-- 800x Titan Residuum
+						["classes"] = TANKS,
+						["u"] = REMOVED_FROM_GAME,
 					}),
 					i(168927, {	-- Seed of Vibrant Blooms (Rank 4)
-						["u"] = REMOVED_FROM_GAME,
 						["description"] = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
-						["classes"] = HEALERS,
 						["cost"] = { { "c", 1718, 800 }, },	-- 800x Titan Residuum
+						["classes"] = HEALERS,
+						["u"] = REMOVED_FROM_GAME,
 					}),
 					-- This Gear need symlink someday
 					i(174630),	-- Relinquished Azerite Spaulders

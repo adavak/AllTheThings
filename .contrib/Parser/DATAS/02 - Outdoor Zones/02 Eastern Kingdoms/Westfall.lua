@@ -170,8 +170,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(68795, {	-- Stendel's Bane
-						["timeline"] = { ADDED_4_1_0 },
 						["coord"] = { 46.3, 59.0, WESTFALL },
+						["timeline"] = { ADDED_4_1_0 },
 						["groups"] = {
 							i(68797, {	-- Stendel's Wedding Band
 								["timeline"] = { ADDED_4_1_0 },
@@ -2086,8 +2086,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(826, {	-- Brutish Riverpaw Axe
-					["cr"] = 124,	-- Riverpaw Brute
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 65.4, 72.4, WESTFALL },
@@ -2103,6 +2101,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 48.8, 62.6, WESTFALL },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 124,	-- Riverpaw Brute
 				}),
 				i(68724, {	-- Broken Barn Door
 					["timeline"] = { ADDED_4_0_3 },
@@ -2111,12 +2111,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(769),	-- Chunk of Boar Meat
 				-- #endif
 				i(2673, {	-- Coyote Meat
+					["description"] = "Only drops from coyotes in Westfall.",
 					["coord"] = { 49.4, 24.5, WESTFALL },	-- Furlbrow's Pumpkin Farm
 					["crs"] = {
 						834,	-- Coyote
 						833,	-- Coyote Packleader
 					},
-					["description"] = "Only drops from coyotes in Westfall.",
 				}),
 				-- #if AFTER CATA
 				i(1927, {	-- Deadmines Cleaver
@@ -2124,23 +2124,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(1394, {	-- Driftwood Club
-					["cr"] = 171,	-- Murloc Warrior
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						{ 32.2, 26.6, WESTFALL },
 						{ 34.8, 23.6, WESTFALL },
 						{ 26.0, 47.8, WESTFALL },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 171,	-- Murloc Warrior
 				}),
 				i(4290, {	-- Dust Bowl
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						42669,	-- Chasm Slime
-						-- #else
-						832,	-- Dust Devil
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 36.0, 42.2, WESTFALL },
@@ -2159,6 +2151,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 61.6, 36.0, WESTFALL },
 						{ 63.6, 51.4, WESTFALL },
 						{ 68.8, 74.0, WESTFALL },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						42669,	-- Chasm Slime
+						-- #else
+						832,	-- Dust Devil
 						-- #endif
 					},
 				}),
@@ -2220,8 +2220,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(209420, {	-- Gillsbane
 					["description"] = "Supposedly this will not drop if you've completed the Quick Strike rune already.",
-					["timeline"] = { REMOVED_2_0_1 },
-					["classes"] = { WARRIOR },
 					["coords"] = {
 						{ 48.6, 21.8, WESTFALL },
 						{ 47.6, 39.2, WESTFALL },
@@ -2230,6 +2228,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.6, 67.6, WESTFALL },
 						{ 51.6, 75.2, WESTFALL },
 					},
+					["timeline"] = { REMOVED_2_0_1 },
+					["classes"] = { WARRIOR },
 					["crs"] = {
 						449,	-- Defias Knuckleduster
 						590,	-- Defias Looter
@@ -2276,8 +2276,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208851, {	-- Libram of Justice
-					["coord"] = { 69.8, 72.4, WESTFALL },
 					["description"] = "While this supposedly can drop from the Drones, don't bother. Go loot the chest in Loch Modan instead!",
+					["coord"] = { 69.8, 72.4, WESTFALL },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
@@ -2291,7 +2291,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 831,	-- Sea Crawler
 				}),
 				i(2091, {	-- Magic Dust
-					["timeline"] = { REMOVED_4_0_3 },
 					-- #if BEFORE CATA
 					["cr"] = 832,	-- Dust Devil
 					["coords"] = {
@@ -2309,11 +2308,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 68.8, 74.0, WESTFALL },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209041, {	-- Magic Pumpkin Seeds
-					["timeline"] = { REMOVED_2_0_1 },
-					["classes"] = { DRUID },
 					["coords"] = {
 						{ 48.6, 21.8, WESTFALL },
 						{ 47.6, 39.2, WESTFALL },
@@ -2322,6 +2320,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.6, 67.6, WESTFALL },
 						{ 51.6, 75.2, WESTFALL },
 					},
+					["timeline"] = { REMOVED_2_0_1 },
+					["classes"] = { DRUID },
 					["crs"] = {
 						449,	-- Defias Knuckleduster
 						590,	-- Defias Looter
@@ -2342,6 +2342,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(1190, {	-- Overseer's Cloak
+					["coords"] = {
+						{ 63.8, 74.6, WESTFALL },
+						{ 58.0, 72.2, WESTFALL },
+					},
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
@@ -2350,20 +2354,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						125,	-- Riverpaw Overseer
 						-- #endif
 					},
-					["coords"] = {
-						{ 63.8, 74.6, WESTFALL },
-						{ 58.0, 72.2, WESTFALL },
-					},
 				}),
 				i(1189, {	-- Overseer's Ring
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						98,	-- Riverpaw Taskmaster
-						-- #else
-						125,	-- Riverpaw Overseer
-						-- #endif
-					},
 					-- #if BEFORE CATA
 					["coords"] = {
 						{ 63.8, 78.6, WESTFALL },
@@ -2372,6 +2364,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 63.6, 72.8, WESTFALL },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						98,	-- Riverpaw Taskmaster
+						-- #else
+						125,	-- Riverpaw Overseer
+						-- #endif
+					},
 				}),
 				i(5771, {	-- Pattern: Red Linen Bag (RECIPE!)
 					["cr"] = 590,	-- Defias Looter
@@ -2416,14 +2416,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(832, {	-- Silver Defias Belt
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						42677,	-- Moonbrook Thug
-						-- #else
-						121,	-- Defias Pathstalker
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 44.4, 68.6, WESTFALL },
@@ -2433,19 +2425,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.6, 75.0, WESTFALL },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						42677,	-- Moonbrook Thug
+						-- #else
+						121,	-- Defias Pathstalker
+						-- #endif
+					},
 				}),
 				i(820, {	-- Slicer Blade
 					["cr"] = 115,	-- Harvest Reaper
 				}),
 				i(816, {	-- Small Hand Blade
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						114,	-- Harvest Watcher
-						-- #else
-						 36,	-- Harvest Golem
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 57.0, 34.2, WESTFALL },
@@ -2458,13 +2450,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 47.6, 67.6, WESTFALL },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						114,	-- Harvest Watcher
+						-- #else
+						 36,	-- Harvest Golem
+						-- #endif
+					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209045, {	-- Soul of the Sea
-					["provider"] = { "i", 209420 },	-- Gillsbane
 					["description"] = "This will only drop if you have Gillsbane equipped and haven't completed your Quick Strike rune yet.",
-					["timeline"] = { REMOVED_2_0_1 },
-					["classes"] = { WARRIOR },
+					["provider"] = { "i", 209420 },	-- Gillsbane
 					["coords"] = {
 						-- various common map locations where 'crs' may be found
 						{ 28.8, 72.8, WESTFALL },
@@ -2477,6 +2475,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 56.0, 9.8, WESTFALL },
 						{ 56.6, 9.2, WESTFALL },
 					},
+					["timeline"] = { REMOVED_2_0_1 },
+					["classes"] = { WARRIOR },
 					["crs"] = {
 						126,	-- Murloc Coastrunner
 						458,	-- Murloc Hunter
@@ -2517,23 +2517,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if BEFORE 10.1.7
 				i(1933, {	-- Staff of Conjuring
-					["timeline"] = { REMOVED_4_0_3 },	-- Moved to Brainwashed Noble in 10.1.7
-					["cr"] = 619,	-- Defias Conjurer
 					["coords"] = {
 						{ 44.6, 69.4, WESTFALL },
 						{ 42.6, 71.6, WESTFALL },
 					},
+					["timeline"] = { REMOVED_4_0_3 },	-- Moved to Brainwashed Noble in 10.1.7
+					["cr"] = 619,	-- Defias Conjurer
 				}),
 				-- #endif
 				i(2327, {	-- Sturdy Leather Bracers
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						452,	-- Riverpaw Bandit
-						-- #else
-						480,	-- Rusty Harvest Golem
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 56.6, 70.0, WESTFALL },
@@ -2541,6 +2533,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						{ 59.6, 18.6, WESTFALL },
 						{ 54.6, 26.0, WESTFALL },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						452,	-- Riverpaw Bandit
+						-- #else
+						480,	-- Rusty Harvest Golem
 						-- #endif
 					},
 				}),

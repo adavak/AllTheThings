@@ -209,10 +209,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 1226, 2500 }, },	-- 2,500x Nethershard
 							}),
 							i(147775, {	-- Nether Portal Disruptor
-								["cost"] = { { "c", 1226, 250 }, },		-- 250x Nethershard
-								["description"] = "Can be used to summon rare elite mobs from Nether Portals while the Nether Disruptor is up. You can only kill 50 elites per day. It is consumed on use.\n\nCan be bought or sold on the Auction House.",
 								["questID"] = 47700,	-- triggers after killing your 50 elites for the day
-								["isDaily"] = true,
+								["description"] = "Can be used to summon rare elite mobs from Nether Portals while the Nether Disruptor is up. You can only kill 50 elites per day. It is consumed on use.\n\nCan be bought or sold on the Auction House.",
 								["coords"] = {
 									{ 68.5, 26.0, BROKEN_SHORE },
 									{ 36.0, 23.5, BROKEN_SHORE },
@@ -240,6 +238,8 @@ root(ROOTS.Zones, {
 									{ 66.0, 32.5, BROKEN_SHORE },
 									{ 74.0, 30.6, BROKEN_SHORE },
 								},
+								["cost"] = { { "c", 1226, 250 }, },		-- 250x Nethershard
+								["isDaily"] = true,
 								["groups"] = sharedData({
 									["sharedDescription"] = "Requires the Nether Disruptor to be active, and is required to progress with the achievement 'Naxt Victim'.\n\nEach different Sentinax Beacon summons mobs that drop additional Sentinax Beacons for that specific Beacon and ultimately the Portal Stone (boss).\n\nYou get the Uncommon (green quality) Sentinax Beacons from the standard mobs in the area, you then need to farm the mobs that come out of the Sentinax Portal until they drop a Rare (blue quality) Sentinax Beacon and use it to empower the portal, it is only after this that the Portal Stone can drop. Keep using all the Rare Sentinax Beacons you get to extend the duration of the Sentinax Beacon.",
 									["groups"] = sharedData({
@@ -312,12 +312,12 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 1226, 400 }, },		-- 1,000x Nethershard
 							}),
 							i(151541, {	-- Technique: Glyph of Floating Shards (RECIPE!)
-								["cost"] = { { "c", 1226, 2500 }, },	-- 2,500x Nethershard
 								["timeline"] = { ADDED_7_2_5 },
+								["cost"] = { { "c", 1226, 2500 }, },	-- 2,500x Nethershard
 							}),
 							i(141067, {	-- Technique: Grimoire of the Wrathguard (RECIPE!)
-								["cost"] = { { "c", 1226, 2500 }, },	-- 2,500x Nethershard
 								["timeline"] = { ADDED_7_2_0 },
+								["cost"] = { { "c", 1226, 2500 }, },	-- 2,500x Nethershard
 							}),
 						}, {	-- Friendly
 						}, {	-- Honored

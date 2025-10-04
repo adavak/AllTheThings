@@ -79,8 +79,8 @@ root(ROOTS.Zones, {
 				i(146867),	-- Wrathguard Choker
 				-- Misc.
 				i(147729, {	-- Netherchunk
-					-- can drop from pretty much any demon-related creature in Legion, but is mainly available on the Broken Shore
 					currency(1226),	-- Nethershard
+					-- can drop from pretty much any demon-related creature in Legion, but is mainly available on the Broken Shore
 				}),
 			}),
 		}),

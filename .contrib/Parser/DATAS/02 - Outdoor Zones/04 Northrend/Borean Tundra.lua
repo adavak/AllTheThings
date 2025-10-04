@@ -3014,8 +3014,8 @@ root(ROOTS.Zones, {
 								["cost"] = { { "i", 34597, 30 }, },	-- 30x Winterfin Clam
 							}),
 							i(36784, {	-- Siren's Tear
-								["isLimited"] = true,
 								["cost"] = { { "i", 34597, 100 }, },	-- 100x Winterfin Clam
+								["isLimited"] = true,
 							}),
 							i(37461, {	-- Tidebreaker Trident
 								["cost"] = { { "i", 34597, 50 }, },	-- 50x Winterfin Clam
@@ -3170,13 +3170,6 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(140785, {	-- Hardened Circuitboard Plating
-						["timeline"] = { ADDED_7_0_3 },
-						["crs"] = {
-							25758,	-- Defendo-tank 66D
-							25814,	-- Fizzcrank Mechagnome
-							25752,	-- Scavenge-bot 004-A8
-							25753,	-- Sentry-bot 57-K
-						},
 						["coords"] = {
 							-- Defendo-tank 66D
 							{ 59.2, 18.4, BOREAN_TUNDRA },
@@ -3199,8 +3192,16 @@ root(ROOTS.Zones, {
 							{ 64.8, 23.6, BOREAN_TUNDRA },
 							{ 68.0, 26.6, BOREAN_TUNDRA },
 						},
+						["timeline"] = { ADDED_7_0_3 },
+						["crs"] = {
+							25758,	-- Defendo-tank 66D
+							25814,	-- Fizzcrank Mechagnome
+							25752,	-- Scavenge-bot 004-A8
+							25753,	-- Sentry-bot 57-K
+						},
 					}),
 					i(34597, {	-- Winterfin Clam
+						["provider"] = { "o", 187367 },	-- Winterfin Clam
 						["coords"] = {
 							{ 38.1, 15.3, BOREAN_TUNDRA },
 							{ 42.5, 14.2, BOREAN_TUNDRA },
@@ -3214,7 +3215,6 @@ root(ROOTS.Zones, {
 							25217,	-- Winterfin Warrior
 						},
 						["_allowObjectProvider"] = true,
-						["provider"] = { "o", 187367 },	-- Winterfin Clam
 					}),
 				}),
 			},

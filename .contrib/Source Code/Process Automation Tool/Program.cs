@@ -462,8 +462,9 @@ namespace ATT
                         break;
                     }
 
-                // Followed by zone-text-areaID
+                // Followed by zone-text
                 case "[\"zone-text-areaID\"]":
+                case "[\"zone-text-continent\"]":
                     {
                         property.Priority = -495;
                         break;
@@ -619,6 +620,7 @@ namespace ATT
 
                 // Followed by Item Appearance Modifier ID
                 case "[\"ItemAppearanceModifierID\"]":
+                case "[\"bonusID\"]":
                     {
                         property.Priority = 23;
                         break;
@@ -729,6 +731,11 @@ namespace ATT
                         property.Priority = 57;
                         break;
                     }
+                case "[\"isLimited\"]":
+                    {
+                        property.Priority = 58;
+                        break;
+                    }
 
                 // Followed by Creatures
                 case "[\"cr\"]":
@@ -745,6 +752,7 @@ namespace ATT
 
                 // Followed by Access Conditionals
                 case "[\"DisablePartySync\"]":
+                case "[\"ignoreSource\"]":
                     {
                         property.Priority = 99;
                         break;
@@ -779,12 +787,31 @@ namespace ATT
                         property.Priority = 1400;
                         break;
                     }
+                // Followed by spellID
+                case "[\"spellID\"]":
+                    {
+                        property.Priority = 1401;
+                        break;
+                    }
+                // Followed by rank
+                case "[\"rank\"]":
+                    {
+                        property.Priority = 1450;
+                        break;
+                    }
 
                 // Followed by filterID
                 case "[\"filterID\"]":
+                case "[\"filter\"]":
                 case "[\"f\"]":
                     {
                         property.Priority = 1500;
+                        break;
+                    }
+                // Followed by binding
+                case "[\"b\"]":
+                    {
+                        property.Priority = 1501;
                         break;
                     }
 
@@ -826,6 +853,16 @@ namespace ATT
                     {
                         property.Priority = 4000;
                         lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        break;
+                    }
+                case "[\"up\"]":
+                    {
+                        property.Priority = 4001;
+                        break;
+                    }
+                case "[\"nomerge\"]":
+                    {
+                        property.Priority = 4001;
                         break;
                     }
 

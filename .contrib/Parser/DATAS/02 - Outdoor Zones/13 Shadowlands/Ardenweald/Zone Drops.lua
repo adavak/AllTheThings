@@ -18,8 +18,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			i(187935, {	-- Technique: Mark of the Midnight Runestag (RECIPE!)
-				["crs"] = { 165907 },	-- Runestag
 				["timeline"] = { ADDED_9_1_5 },
+				["crs"] = { 165907 },	-- Runestag
 			}),
 			i(175247),	-- Unusually Large Mushroom
 			filter(CLOTH, {

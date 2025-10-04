@@ -89,20 +89,20 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166806, {	-- Recipe: Boralus Blood Sausage [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166263, {	-- Recipe: Sanguinated Feast [Rank 2] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166368, {	-- Recipe: Seasoned Steak and Potatoes [Rank 3] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(166367, {	-- Recipe: Wild Berry Bread [Rank 3] (RECIPE!)
-							["cost"] = 19000000,	-- 1,900g
 							["timeline"] = { ADDED_8_1_0 },
+							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161549, {	-- Shellbuckle Girdle
 							["cost"] = 19000000,	-- 1,900g
@@ -160,14 +160,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["cost"] = { { "i", POLISHED_PET_CHARM, 250 }, },
 					}),
 					i(165840, {	-- Shattered Pet Portal (CI!)
+						["timeline"] = { REMOVED_9_1_0 },
 						-- #if BEFORE 9.0.2
 						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
 						-- #endif
-						["timeline"] = { REMOVED_9_1_0 },
 					}),
 					i(139003, {	-- Pocket Pet Portal (CI!)
-						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
 						["timeline"] = { REMOVED_9_1_0 },
+						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
 					}),
 					i(163512, {	-- Sandstinger Wasp (PET!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 50 }, },

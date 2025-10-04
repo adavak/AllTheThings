@@ -1310,14 +1310,14 @@ root(ROOTS.Zones, {
 								["classes"] = { MAGE, WARLOCK },
 							}),
 							i(77279, {	-- Trainee's Handwrap
-								-- Monks got the staff initially, replaced with fist weapons in legion, then back to staff in shadowlands.
 								["timeline"] = { CREATED_5_0_4, ADDED_7_0_3, REMOVED_9_0_1 },
 								["classes"] = { MONK },
+								-- Monks got the staff initially, replaced with fist weapons in legion, then back to staff in shadowlands.
 							}),
 							i(77278, {	-- Trainee's Handwrap (off-hand)
-								-- Monks got the staff initially, replaced with fist weapons in legion, then back to staff in shadowlands.
 								["timeline"] = { CREATED_5_0_4, ADDED_7_0_3, REMOVED_9_0_1 },
 								["classes"] = { MONK },
+								-- Monks got the staff initially, replaced with fist weapons in legion, then back to staff in shadowlands.
 							}),
 							i(73207, {	-- Trainee's Mace
 								["classes"] = { PRIEST },
@@ -1334,14 +1334,14 @@ root(ROOTS.Zones, {
 								["classes"] = { MAGE, WARLOCK },
 							}),
 							i(73209, {	-- Trainee's Staff
-								-- Monks got the staff initially, replaced with fist weapons in legion, then back to staff in shadowlands.
 								["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3, ADDED_9_0_1 },
 								["classes"] = { MONK },
+								-- Monks got the staff initially, replaced with fist weapons in legion, then back to staff in shadowlands.
 							}),
 							i(73210, {	-- Trainee's Sword
-								-- Warriors no longer get access to the sword with shadowlands as they are forced into Protection spec.
 								["timeline"] = { ADDED_5_0_4, REMOVED_9_0_1 },
 								["classes"] = { WARRIOR },
+								-- Warriors no longer get access to the sword with shadowlands as they are forced into Protection spec.
 							}),
 						}),
 					}),

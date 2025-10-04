@@ -2117,9 +2117,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 			}),
 			n(ZONE_DROPS, {
 				i(23249, {	-- Amani Invasion Plans
-					["cr"] = 15407,	-- Chieftain Zul'Marosh
 					["coord"] = { 62.5, 79.7, EVERSONG_WOODS },
 					["races"] = HORDE_ONLY,
+					["cr"] = 15407,	-- Chieftain Zul'Marosh
 				}),
 				i(21776, {	-- Captain Kelisendra's Lost Rutters
 					["races"] = HORDE_ONLY,
@@ -2142,31 +2142,31 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 				i(20765, {	-- Incriminating Documents
-					["cr"] = 15968,	-- Darnassian Scout
 					["coord"] = { 33.2, 59.6, EVERSONG_WOODS },
 					["races"] = HORDE_ONLY,
+					["cr"] = 15968,	-- Darnassian Scout
 				}),
 				i(23553, {	-- Living Branch
-					-- #if NOT COMMON_QUALITY_TRANSMOGS
-					-- CRIEVE NOTE: This is a quest item that disappears once you finish the quest.
-					-- To collect it, it needs to be in your inventory after common quality transmog is added officially.
-					["ignoreSource"] = true,
-					-- #endif
-					["cr"] = 15636,	-- Eversong Green Keeper
 					["coords"] = {
 						{ 54.8, 79.6, EVERSONG_WOODS },
 						{ 57.2, 74.0, EVERSONG_WOODS },
 						{ 60.8, 68.8, EVERSONG_WOODS },
 						{ 63.0, 64.6, EVERSONG_WOODS },
 					},
+					["cr"] = 15636,	-- Eversong Green Keeper
+					-- #if NOT COMMON_QUALITY_TRANSMOGS
+					-- CRIEVE NOTE: This is a quest item that disappears once you finish the quest.
+					-- To collect it, it needs to be in your inventory after common quality transmog is added officially.
+					["ignoreSource"] = true,
+					-- #endif
 				}),
 				i(23228, {	-- Old Whitebark's Pendant
-					["cr"] = 15409,	-- Old Whitebark
 					["coords"] = {
 						{ 34.8, 84.0, EVERSONG_WOODS },
 						{ 35.0, 84.6, EVERSONG_WOODS },
 					},
 					["races"] = HORDE_ONLY,
+					["cr"] = 15409,	-- Old Whitebark
 				}),
 			}),
 			n(ZONE_DROPS, sharedData({

@@ -503,8 +503,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 				["groups"] = {
 					i(168264, {	-- Recycling Requisition
-						["repeatable"] = true,
 						["questID"] = 55148,
+						["repeatable"] = true,
 						["groups"] = {
 							i(169167),	-- Blueprint: Orange Spraybot
 							i(168220),	-- Blueprint: Re-Procedurally Generated Punchcard

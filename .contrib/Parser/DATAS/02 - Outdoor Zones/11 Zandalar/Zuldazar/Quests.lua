@@ -610,8 +610,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(159146, {	-- Kua'fon (MOUNT!)
-						-- using cost here to show the quest chain starting item
 						["cost"] = {{"i",157782,1}},	-- Pterrordax Egg
+						-- using cost here to show the quest chain starting item
 					}),
 				},
 			}),

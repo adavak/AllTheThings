@@ -16,12 +16,12 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 							["u"] = REMOVED_FROM_GAME,
 						}),
 						i(168840, {	-- Resplendent Bastion of the Depths (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
 							["classes"] = TANKS,
+							["u"] = REMOVED_FROM_GAME,
 						}),
 						i(168931, {	-- Vellum of Illuminating Tides (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
 							["classes"] = HEALERS,
+							["u"] = REMOVED_FROM_GAME,
 						}),
 						i(170203, {	-- Flopping Fish (TOY!)
 							crit(46072, {	-- Flopping Fish
@@ -52,12 +52,12 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 							["u"] = REMOVED_FROM_GAME,
 						}),
 						i(168840, {	-- Resplendent Bastion of the Depths (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
 							["classes"] = TANKS,
+							["u"] = REMOVED_FROM_GAME,
 						}),
 						i(168931, {	-- Vellum of Illuminating Tides (Rank 4)
-							["u"] = REMOVED_FROM_GAME,
 							["classes"] = HEALERS,
+							["u"] = REMOVED_FROM_GAME,
 						}),
 						i(170203, {	-- Flopping Fish (TOY!)
 							crit(46072, {	-- Flopping Fish

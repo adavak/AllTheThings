@@ -4899,8 +4899,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(226418, {	-- Rune of Holy Specialization
 					["provider"] = { "o", 457094 },	-- The True Nature of the Light
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 83.6, 78.1, EASTERN_PLAGUELANDS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN, PRIEST },
 					["groups"] = {
 						recipe(453702, {	-- Engrave Ring - Holy Specialization
@@ -4910,8 +4910,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_FOUR, i(226410, {	-- Rune of Ranged Weapon Specialization
 					["provider"] = { "o", 457090 },	-- Famous (and Infamous) Rangers of Azeroth
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 26.2, 74.8, EASTERN_PLAGUELANDS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { WARRIOR, HUNTER, ROGUE },
 					["groups"] = {
 						recipe(453692, {	-- Engrave Ring - Ranged Weapon Specialization
@@ -5157,73 +5157,73 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- EPIC CRAFTED ITEMS UPGRADES
 							applyclassicphase(SOD_PHASE_FOUR, i(227816, {	-- Argent Elite Boots
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = TAILORING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19056, 1 },	-- Argent Boots
 									{ "i", 12843, 2 },	-- Corruptor's Scourgestone
 									{ "i", 12753, 2 },	-- Skin of Shadow
 								},
+								["requireSkill"] = TAILORING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227888, {	-- Argent Elite Shoulders
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = TAILORING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19059, 1 },	-- Argent Shoulders
 									{ "i", 12843, 4 },	-- Corruptor's Scourgestone
 									{ "i", 12753, 3 },	-- Skin of Shadow
 								},
+								["requireSkill"] = TAILORING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227815, {	-- Fine Dawn Treaders
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = LEATHERWORKING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19052, 1 },	-- Dawn Treaders
 									{ "i", 12843, 3 },	-- Corruptor's Scourgestone
 									{ "i", 12753, 2 },	-- Skin of Shadow
 								},
+								["requireSkill"] = LEATHERWORKING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227818, {	-- Glowing Mantle of the Dawn
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = LEATHERWORKING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19058, 1 },	-- Golden Mantle of the Dawn
 									{ "i", 12843, 4 },	-- Corruptor's Scourgestone
 									{ "i", 12753, 3 },	-- Skin of Shadow
 								},
+								["requireSkill"] = LEATHERWORKING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227814, {	-- Radiant Girdle of the Dawn
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = BLACKSMITHING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19051, 1 },	-- Girdle of the Dawn
 									{ "i", 12843, 2 },	-- Corruptor's Scourgestone
 									{ "i", 12735, 2 },	-- Frayed Abomination Stitching
 								},
+								["requireSkill"] = BLACKSMITHING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227817, {	-- Radiant Gloves of the Dawn
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = BLACKSMITHING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19057, 1 },	-- Gloves of the Dawn
 									{ "i", 12843, 3 },	-- Corruptor's Scourgestone
 									{ "i", 12735, 2 },	-- Frayed Abomination Stitching
 								},
+								["requireSkill"] = BLACKSMITHING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227859, {	-- Shimmering Dawnbringer Shoulders
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = BLACKSMITHING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 12625, 1 },	-- Dawnbringer Shoulders
 									{ "i", 12843, 4 },	-- Corruptor's Scourgestone
 									{ "i", 12735, 3 },	-- Frayed Abomination Stitching
 								},
+								["requireSkill"] = BLACKSMITHING,
+								["learnedAt"] = 290,
 							})),
 							-- #endif
 						},
@@ -5330,8 +5330,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ZONE_DROPS, {
 				-- #if BEFORE 4.0.3
 				i(12938, {	-- Blood of Heroes
-					["provider"] = { "o", 176213 },	-- Blood of Heroes
 					["description"] = "This item can be found sporatically on the ground in the Plaguelands.",
+					["provider"] = { "o", 176213 },	-- Blood of Heroes
 					["coords"] = {
 						-- Plaguewood
 						{ 34.5, 25.8, EASTERN_PLAGUELANDS },
@@ -5534,7 +5534,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(13499, {	-- Recipe: Greater Shadow Protection Potion (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 36.6, 45.2, EASTERN_PLAGUELANDS },
@@ -5545,6 +5544,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 83.6, 44.0, EASTERN_PLAGUELANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						8546,	-- Dark Adept <Cult of the Damned>
 						8550,	-- Shadowmage <Cult of the Damned>
@@ -5557,9 +5557,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(16056, {	-- Schematic: Flawless Arcanite Rifle (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["description"] = "Can kill Mossflayer Scout and Mossflayer Cannibal to get Shadowhunters.",
-					["cr"] = 8561,	-- Mossflayer Shadowhunter
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 60.4, 17.8, EASTERN_PLAGUELANDS },
@@ -5570,6 +5568,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 65.4, 22.6, EASTERN_PLAGUELANDS },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["cr"] = 8561,	-- Mossflayer Shadowhunter
 				}),
 			}),
 		},

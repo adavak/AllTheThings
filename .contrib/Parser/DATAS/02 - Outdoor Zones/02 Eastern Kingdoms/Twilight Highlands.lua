@@ -343,9 +343,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(22739),	-- Tome of Polymorph: Turtle (CI!)
 					}),
 					i(68050, {	-- Shatterscale Mightfish
+						["description"] = "Can be caught by fishing in lava using a special lure.",
 						["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
 						["coord"] = { 41.0, 79.1, TWILIGHT_HIGHLANDS },	-- Cannon's Inferno
-						["description"] = "Can be caught by fishing in lava using a special lure.",
 					}),
 				}),
 				prof(MINING, {
@@ -3410,8 +3410,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(169346, {	-- Young Twilight Scale
-					["crs"] = { 154803 },	-- Twilight Whelpling
 					["timeline"] = { ADDED_8_2_0 },
+					["crs"] = { 154803 },	-- Twilight Whelpling
 				}),
 			}),
 		},

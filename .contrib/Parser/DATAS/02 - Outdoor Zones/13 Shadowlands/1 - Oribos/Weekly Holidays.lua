@@ -135,8 +135,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				i(192437, {	-- Cache of Fated Treasures (Normal)
 					["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
-					["modID"] = 11,
 					["bonusID"] = 8157,
+					["modID"] = 11,
 					--[[
 					["sym"] = {
 						{"select", "instanceID"
@@ -163,8 +163,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				i(192438, {	-- Cache of Fated Treasures (Heroic)
 					["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
-					["modID"] = 11,
 					["bonusID"] = 8157,
+					["modID"] = 11,
 					--[[
 					["sym"] = {
 						{"select", "instanceID"

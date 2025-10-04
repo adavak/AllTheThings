@@ -198,8 +198,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 51.9, 64.1, VALSHARAH },
 					["groups"] = {
 						i(200669, {	-- Emerald Mace of Dreams
-							["classes"] = { EVOKER },
 							["timeline"] = ADDED_10_0_2,
+							["classes"] = { EVOKER },
 						}),
 						i(141387),	-- Emerald Bloom
 						i(132279),	-- Cleansed Shrine Relic
@@ -548,8 +548,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 24.5, 42.3, 642 },
 					["groups"] = {
 						i(200668, {	-- Ravencourt Field Sickle
-							["classes"] = { EVOKER },
 							["timeline"] = ADDED_10_0_2,
+							["classes"] = { EVOKER },
 						}),
 						i(141389),	-- Stareye Gem
 						i(132337),	-- Araxxas's Badge

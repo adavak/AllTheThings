@@ -281,8 +281,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							["sourceQuests"] = { 57928 },	-- Atonement Crypt Key
 							["groups"] = {
 								i(177231, {	-- Crown of Honor (EC!)
-									["customCollect"] = "SL_COV_VEN",
 									["cost"] = 1000000,	-- 100g
+									["customCollect"] = "SL_COV_VEN",
 								}),
 								i(180780, {	-- Recipe: Red Noggin Candle (RECIPE!)
 									["cost"] = { { "c", 1820, 10 } },	-- 10x Infused Ruby

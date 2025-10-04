@@ -3362,8 +3362,8 @@ Click Leave vehicle and repeat steps 3-8"]],
 					["groups"] = {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, i(210330, {	-- Hot Tip
-							["classes"] = { ROGUE },
 							["cost"] = 7500,	-- 75s
+							["classes"] = { ROGUE },
 							["groups"] = {
 								i(210329),	-- Hillsbrad Treasure Map
 								i(210323),	-- Safe Combination
@@ -3597,12 +3597,12 @@ Click Leave vehicle and repeat steps 3-8"]],
 					["groups"] = {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, i(211487, {	-- Demolition Explosives
-							["classes"] = { WARLOCK },
 							["cost"] = 10000,	-- 1g
+							["classes"] = { WARLOCK },
 						})),
 						applyclassicphase(SOD_PHASE_ONE, i(210410, {	-- Freshwater Snapper Bait
-							["classes"] = { HUNTER },
 							["cost"] = 2000,	-- 20s
+							["classes"] = { HUNTER },
 						})),
 						-- #endif
 						i(4829, {	-- Dreamer's Belt
@@ -3659,11 +3659,11 @@ Click Leave vehicle and repeat steps 3-8"]],
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210026, {	-- Symbol of the Third Owl
+					["description"] = "Use Aquatic Form (or a swim speed potion) to click the statues one after another. Start at the eastern statue and swim to the western statue as the western statue's island can be climbed from the east, making it a direct line from eastern to western.",
 					["providers"] = {
 						{ "o", 409942 },	-- Twin Owl Statue (West)
 						{ "o", 409949 },	-- Twin Owl Statue (East)
 					},
-					["description"] = "Use Aquatic Form (or a swim speed potion) to click the statues one after another. Start at the eastern statue and swim to the western statue as the western statue's island can be climbed from the east, making it a direct line from eastern to western.",
 					["coords"] = {
 						{ 36.91, 76.14, HILLSBRAD_FOOTHILLS },
 						{ 54.43, 82.01, HILLSBRAD_FOOTHILLS },
@@ -3696,7 +3696,6 @@ Click Leave vehicle and repeat steps 3-8"]],
 					["timeline"] = { ADDED_1_11_1 },
 				}),
 				i(1280, {	-- Cloaked Hood
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 2246,	-- Syndicate Assassin
 					["coords"] = {
@@ -3716,13 +3715,12 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 52.6, 12.0, HILLSBRAD_FOOTHILLS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 				}),
 				-- #endif
 				-- #if AFTER 10.1.7
 				i(4767, {	-- Coppercloth Gloves
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 09.09.2023
 					["description"] = "This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item.",
-					["cr"] = 2628,	-- Dalaran Worker
 					["coords"] = {
 						{ 27.8, 42.6, HILLSBRAD_FOOTHILLS },
 						{ 31.0, 43.6, HILLSBRAD_FOOTHILLS },
@@ -3730,25 +3728,27 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 35.0, 35.6, HILLSBRAD_FOOTHILLS },
 						{ 32.6, 32.0, HILLSBRAD_FOOTHILLS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 09.09.2023
+					["cr"] = 2628,	-- Dalaran Worker
 				}),
 				-- #endif
 				i(3204, {	-- Deepwood Bracers
-					["cr"] = 2372,	-- Mudsnout Gnoll
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 58.8, 74.6, HILLSBRAD_FOOTHILLS },
 						{ 57.8, 75.8, HILLSBRAD_FOOTHILLS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 2372,	-- Mudsnout Gnoll
 				}),
 				i(3336, {	-- Flesh Piercer
-					["crs"] = {
-						2370,	-- Daggerspine Screamer
-						2368,	-- Daggerspine Shorestalker
-					},
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 59.6, 89.4, HILLSBRAD_FOOTHILLS },
 						{ 57.2, 84.2, HILLSBRAD_FOOTHILLS },
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["crs"] = {
+						2370,	-- Daggerspine Screamer
+						2368,	-- Daggerspine Shorestalker
 					},
 				}),
 				i(11152, {	-- Formula: Enchant Gloves - Fishing (RECIPE!)
@@ -3764,11 +3764,11 @@ Click Leave vehicle and repeat steps 3-8"]],
 				}),
 				i(3429, {	-- Guardsman Belt
 					["timeline"] = { REMOVED_4_0_3 },
-					-- added to vendor in 10.1.7
 					["crs"] = {
 						2427,	-- Jailor Eston
 						2428,	-- Jailor Marlgen
 					},
+					-- added to vendor in 10.1.7
 				}),
 				-- #if BEFORE CATA
 				i(3053, {	-- Humbert's Chestpiece
@@ -3780,7 +3780,6 @@ Click Leave vehicle and repeat steps 3-8"]],
 				}),
 				-- #endif
 				i(4724, {	-- Humbert's Helm
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 2345,	-- Dun Garok Rifleman
 					["coords"] = {
@@ -3799,9 +3798,9 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 62.8, 85.0, HILLSBRAD_FOOTHILLS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 				}),
 				i(4723, {	-- Humbert's Pants
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 2346,	-- Dun Garok Priest
 					["coords"] = {
@@ -3820,6 +3819,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 62.8, 85.0, HILLSBRAD_FOOTHILLS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(206387, {	-- Kajaric Icon
@@ -3833,7 +3833,6 @@ Click Leave vehicle and repeat steps 3-8"]],
 				-- #endif
 				-- #if AFTER CATA
 				i(5775, {	-- Pattern: Black Silk Pack (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if AFTER 10.1.7
 					["description"] = "This pattern is very rare. Expect 1000+ of kills before looting it.",
 					["cr"] = 2242,	-- Syndicate Spy (Alterac Mountains)
@@ -3848,6 +3847,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 52.6, 12.0, HILLSBRAD_FOOTHILLS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 				}),
 				-- #endif
 				-- #if BEFORE CATA
@@ -3856,7 +3856,6 @@ Click Leave vehicle and repeat steps 3-8"]],
 				}),
 				-- #endif
 				i(1485, {	-- Pitchfork
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 09.09.2023
 					-- #if BEFORE 4.0.3
 					["crs"] = {
 						2403,	-- Farmer Getz
@@ -3877,6 +3876,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 39.6, 64.0, HILLSBRAD_FOOTHILLS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 09.09.2023
 				}),
 				-- #if BEFORE CATA
 				i(6211, {	-- Recipe: Elixir of Ogre's Strength
@@ -3889,7 +3889,6 @@ Click Leave vehicle and repeat steps 3-8"]],
 					["cr"] = 2358,	-- Dalaran Summoner
 				}),
 				i(1602, {	-- Sickle Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					-- #if AFTER 10.1.7
 					["cr"] = 2254,	-- Crushridge Mauler
 					["coords"] = {
@@ -3899,16 +3898,17 @@ Click Leave vehicle and repeat steps 3-8"]],
 						{ 50.2, 26.0, HILLSBRAD_FOOTHILLS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 				}),
 				i(5245, {	-- Summoner's Wand
-					["races"] = HORDE_ONLY,
-					["cr"] = 2358,	-- Dalaran Summoner
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					["coords"] = {
 						{ 27.4, 39.6, HILLSBRAD_FOOTHILLS },
 						{ 33.6, 40.6, HILLSBRAD_FOOTHILLS },
 						{ 32.8, 32.4, HILLSBRAD_FOOTHILLS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+					["races"] = HORDE_ONLY,
+					["cr"] = 2358,	-- Dalaran Summoner
 				}),
 				-- #endif
 			}),
