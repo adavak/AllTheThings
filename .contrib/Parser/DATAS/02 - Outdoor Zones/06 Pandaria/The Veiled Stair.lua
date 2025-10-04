@@ -108,7 +108,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							-- #endif
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, bubbleDown({
+							applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 								["sourceAchievements"] = {
 									7534,	-- Chapter II: Wrathion's War
 									8008,	-- Chapter II: Wrathion's War
