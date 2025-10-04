@@ -456,6 +456,7 @@ namespace ATT
 
                 // Followed by Icon
                 case "[\"icon\"]":
+                case "[\"model\"]":
                     {
                         property.Priority = -496;
                         lineIndex = CheckForMultilinedData(lines, line, lineIndex, property, nestedType);
@@ -621,6 +622,7 @@ namespace ATT
                 // Followed by Item Appearance Modifier ID
                 case "[\"ItemAppearanceModifierID\"]":
                 case "[\"bonusID\"]":
+                case "[\"criteriaID\"]":
                     {
                         property.Priority = 23;
                         break;
@@ -641,6 +643,7 @@ namespace ATT
 
                 // Followed by Classes/Races
                 case "[\"classes\"]":
+                case "[\"classes_display\"]":
                     {
                         property.Priority = 30;
                         lineIndex = ProcessBrackets(lines, lineIndex, property);
@@ -829,7 +832,14 @@ namespace ATT
                         break;
                     }
 
-                // Followed by _drop
+                // Followed by _
+                case "[\"_allowObjectProvider\"]":
+                    {
+                        property.Priority = 2000;
+                        break;
+                    }
+                // Followed by _
+                case "[\"_cost\"]":
                 case "[\"_drop\"]":
                     {
                         property.Priority = 2000;
