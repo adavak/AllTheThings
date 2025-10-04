@@ -55,19 +55,7 @@ ach(60953),	-- Mechanical Battler of Northrend
 ach(60954),	-- Undead Battler of Northrend
 ach(60956),	-- Family Battler of Northrend
 ach(61023),	-- [DNT] Exalted with a Dracthyr Player Faction
-ach(61041),	-- Aquatic Battler of Kalimdor
-ach(61042),	-- Beast Battler of Kalimdor
-ach(61043),	-- Critter Battler of Kalimdor
-ach(61044),	-- Dragonkin Battler of Kalimdor
-ach(61045),	-- Elemental Battler of Kalimdor
-ach(61046),	-- Flying Battler of Kalimdor
-ach(61047),	-- Humanoid Battler of Kalimdor
-ach(61048),	-- Magic Battler of Kalimdor
-ach(61049),	-- Mechanical Battler of Kalimdor
-ach(61050),	-- Undead Battler of Kalimdor
-ach(61051),	-- Family Battler of Kalimdor
 ach(61091),	-- Midnight Safari
-ach(61094),	-- Old World Family Battler
 ach(61212),	-- Magisters' Terrace
 ach(61213),	-- Heroic: Magisters' Terrace
 ach(61214),	-- Mythic: Magisters' Terrace

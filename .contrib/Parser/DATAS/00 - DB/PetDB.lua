@@ -4460,6 +4460,7 @@ i(252193, 4896);	-- Slippery Saul
 ------------------
 -- PATCH 11.2.7 --
 ------------------
+i(258737, 4913);	-- Moon Darter
 i(254876, 4911);	-- P.O.S.T. Assistant
 
 ------------------
@@ -4486,7 +4487,6 @@ i(246628, 4508);	-- Emerald Sporbit
 i(250146, 4885);	-- Gloom Toad
 i(244339, 4816);	-- Hawkstrider Hatchling
 i(259991, 4930);	-- Lil' Preyseeker
-i(258737, 4913);	-- Moon Darter
 i(250137, 4876);	-- Mud Potadpole
 i(250863, 4888);	-- Naloki
 i(251002, 4889);	-- Nether Familia
