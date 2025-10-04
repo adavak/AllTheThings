@@ -940,6 +940,7 @@ MobileDB.GameObject = {
 	[247074] = true,	-- Wax Ingot (q:41127)
 	[247875] = true,	-- Boom Bait (q:41278)
 	[248005] = true,	-- Felwort
+	[248513] = true,	-- Felbound Chest (The Nighthold)
 	[249771] = true,	-- Heavy Stone (wq:42172)
 	[250379] = true,	-- High Potency Coil
 	[250380] = true,	-- Low Potency Coil

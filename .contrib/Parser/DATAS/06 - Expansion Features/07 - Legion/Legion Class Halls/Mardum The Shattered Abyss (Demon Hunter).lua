@@ -931,16 +931,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(SPECIAL, {
 					cl(DEMONHUNTER, HAVOC, {
 						i(141409, {	-- Candrael's Charm (CI!)
-							["description"] = "Find this item on mobs in Suramar.",
+							["description"] = "Has a chance to drop from any creature in Suramar.",
 							["maps"] = { SURAMAR },
 						}),
 						n(113935, {	-- Candrael Twinshadow
-							["description"] = "They will fling you up in the air to flying demon Downfall.",
+							["description"] = "You must have |cFF4A54E8Candrael's Charm|r in your bags before talking to Candrael. After asking her about the initials on the Charm, she will kick you off the cliff towards Downfall.\n|cFFE50D12NOTE:|rIf, by any chance, Charm is not consumed in the process, or you are not getting any loot, you will need to destroy it before re-trying to kill Downfall. DO NOT try to keep the Charm as a memento in your bank.",
 							["coord"] = { 28.2, 70.2, SURAMAR },
 							["cost"] = {{ "i", 141409, 1}},	-- 1xCandrael's Charm
 							["groups"] = {
 								n(111110, {	-- Downfall
-									["description"] = "If you are near him his winds will keep you aloft while you fight him.\nHe will occassionaly knock you back, make use of your glide ability and make sure you float back to (through) him, you will begin to float once you come near.\n\nWhen he dies his corpse will fall to the ground.",
+									["description"] = "While near Downfall his winds will keep you aloft while you fight him.\nHe will occassionaly knock you back. Make use of your glide ability and make sure you float back to (through) him, you will begin to float once you come near.\n\nWhen he dies his corpse will fall to the ground.",
 									["groups"] = {
 										i(139549, {	-- Guise of the Deathwalker
 											artifact(982),	-- Twinblades of the Deceiver [Main Hand]

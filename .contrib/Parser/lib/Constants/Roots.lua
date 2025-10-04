@@ -3,7 +3,7 @@
 ROOTS = {
 	["AchievementDB"] = "AchievementDB",
 	["Achievements"] = "Achievements",
-	["Arcantina "] = "Arcantina ",
+	["Arcantina"] = "Arcantina",
 	["BlackMarket"] = "BlackMarket",
 	["Character"] = "Character",
 	["Craftables"] = "Craftables",
