@@ -3690,7 +3690,6 @@ i(193614, 3314);	-- Groundshaker
 i(193380, 3298);	-- Pink Salamanther
 i(193587, 3312);	-- Time-Lost Duck
 i(193620, 3267);	-- Time-Lost Slyvern
-
 i(191126, 0);		-- Obsidian Whelpling
 i(192050, 0);		-- zzOld - [PH] Black Baby Fox Wyvern [REUSE]
 i(193863, 0);		-- zzOld - [PH] Dark Baby Vorquin (REUSE)
@@ -4460,13 +4459,13 @@ i(252193, 4896);	-- Slippery Saul
 ------------------
 -- PATCH 11.2.7 --
 ------------------
+i(205017, 3519);	-- Byrn
 i(258737, 4913);	-- Moon Darter
 i(254876, 4911);	-- P.O.S.T. Assistant
 
 ------------------
 -- PATCH 12.0.0 --
 ------------------
-i(205017, 3519);	-- Byrn
 
 --- UNSORTED ---
 i(255151, 4906);	-- [DNT] Baby Amani Eagle (Grey)

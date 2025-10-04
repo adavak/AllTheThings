@@ -1508,6 +1508,7 @@ i(254666);	-- Lil' Exodar
 ------------------
 -- PATCH 11.2.7 --
 ------------------
+i(251491);	-- Magical Pet Clicker
 --- UNSORTED ---
 
 ------------------
@@ -1524,7 +1525,6 @@ i(242520);	-- Festival Hot Air Balloon
 i(252265);	-- Hexed Potatoad Mucus
 i(243304);	-- Jubilant Snowman Costume
 i(250320);	-- Lightgraft
-i(251491);	-- Magical Pet Clicker
 i(251903);	-- Potatoad Egg
 i(245580);	-- Rolling Snowball
 i(250319);	-- Shadowgraft
