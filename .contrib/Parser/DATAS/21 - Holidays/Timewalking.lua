@@ -7047,12 +7047,12 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["crs"] = { 122968 },	-- Yazma
 				["groups"] = {
 					i(158323),	-- Soulrender's Fang
-					i(159358),	-- Coif of the Court Spider
-					i(158315),	-- Secret Spinner's Miter
-					i(155866),	-- Soulspun Casque
-					i(158304),	-- Mantle of Fastidious Machinations
-					i(159233),	-- Loa Betrayer's Vestments
-					i(155860),	-- Spymaster's  Wrap
+					i(239073),	-- Coif of the Court Spider
+					i(239071),	-- Secret Spinner's Miter
+					i(239069),	-- Soulspun Casque
+					i(239070),	-- Mantle of Fastidious Machinations
+					i(239072),	-- Loa Betrayer's Vestments
+					i(239068),	-- Spymaster's  Wrap
 					i(160212),	-- Shadowshroud Vambraces
 					i(158308),	-- Souldrifting Sabatons
 					i(159610),	-- Vessel of Skittering Shadows
@@ -7115,15 +7115,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["groups"] = {
 					i(159635),	-- Bloody Tideturner
 					i(155888),	-- Irontide Captain's Hat
-					i(155885),	-- Sea-Brawler's Greathelm
-					i(155886),	-- Smartly Plumed Cap
-					i(155887),	-- Sweete's Jeweled Headgear
-					i(159352),	-- Gaping Maw Shoulderguard
-					i(159299),	-- Gold-Tasseled Epautlets
-					i(159407),	-- Lockjaw Shoulderplate
-					i(158301),	-- Ruffled Poet Blouse
 					i(155881),	-- Harlan's Loaded Dice
 					i(168132),	-- Sweete's Diamond-Studded Spyglass
+					i(239058),	-- Gaping Maw Shoulderguard
+					i(239057),	-- Gold-Tasseled Epaulets
+					i(239055),	-- Irontide Captain's Hat
+					i(239059),	-- Lockjaw Shoulderplate
+					i(239056),	-- Ruffled Poet Blouse
+					i(239052),	-- Sea-Brawler's Greathelm
+					i(239053),	-- Smartly Plumed Cap
+					i(239054),	-- Sweete's Jeweled Headgear
 				},
 			}),
 		}),	
@@ -7178,15 +7179,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["groups"] = {
 					i(159644),	-- Geti'ikku, Cut of Death
 					i(159645),	-- Headcracker of Supplication
-					i(159236),	-- Headdress of the First Empire
-					i(159422),	-- Helm of the Raptor King
-					i(158344),	-- Mantle of Ceremonial Ascension
-					i(159423),	-- Pauldrons of the Great Unifier
-					i(159368),	-- Spaulders of Prime Emperor
-					i(158355),	-- Loa-Blessed Chestguard
-					i(159303),	-- Vest of Reverent Adoration
 					i(159301),	-- Primal Dinomancer's Belt
 					i(168129),	-- Essence of the Troll Dynasty
+					i(239047),	-- Headdress of the First Empire					
+					i(239050),	-- Helm of the Raptor King
+					i(239046),	-- Loa-Blessed Chestguard
+					i(239045),	-- Mantle of Ceremonial Ascension
+					i(239051),	-- Pauldrons of the Great Unifier
+					i(239049),	-- Spaulders of Prime Emperor
+					i(239048),	-- Vest of Reverent Adoration
 				},
 			}),
 		}),
@@ -7239,15 +7240,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				},
 				["groups"] = {
 					i(159135),	-- Deep Fathom's Bite
-					i(159302),	-- Cowl of Fluid Machiantions
-					i(159430),	-- Helm of Abyssal Malevolence
-					i(159244),	-- Stormlurker's Cowl
-					i(159238),	-- Mantle of Void-Touched Waters
-					i(159307),	-- Tentacle-Laced Spaulders
-					i(159408),	-- Chestguard of the Deep Denizn
-					i(159354),	-- Hauberk of Sunken Despair
 					i(159377),	-- Chain of Consummate Power
 					i(159620),	-- Conch of Dark Whispers
+					i(239040),	-- Cowl of Fluid Machinations
+					i(239043),	-- Chestguard of the Deep Denizen
+					i(239042),	-- Hauberk of Sunken Despair
+					i(239044),	-- Helm of Abyssal Malevolence
+					i(239038),	-- Mantle of Void-Touched Waters
+					i(239039),	-- Stormlurker's Cowl
+					i(239041),	-- Tentacle-Laced Spaulders
 				},
 			}),
 		}),		
@@ -7303,16 +7304,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["crs"] = { 133392 },	-- Avatar of Sethraliss
 				["groups"] = {
 					i(158373),	-- Resonating Crystal Scimitar
-					i(159318),	-- Hood of the Slithering Loa
-					i(159374),	-- Sethraliss' Fanged Helm
-					i(159254),	-- Brood Cleanser's Amice
-					i(159439),	-- C'thraxxi Binders Pauldrons
-					i(159370),	-- Corrupted Hexxer's Vestments
-					i(159424),	-- Desert Guardian's Breastplate
-					i(159257),	-- Robes of the Reborn Serpent
 					i(159337),	-- Grips of Electrified Defense
 					i(158368),	-- Fangs of Intertwined Essence
-					i(168131),	-- Essence of the Sands
+					i(168131),	-- Essence of the Sands					
+					i(239031),	-- Brood Cleanser's Amice
+					i(239033),	-- Hood of the Slithering Loa
+					i(239032),	-- Robes of the Reborn Serpent
+					i(239035),	-- Sethraliss' Fanged Helm
+					i(239037),	-- C'thraxxi Binders Pauldrons
+					i(239034),	-- Corrupted Hexxer's Vestments
+					i(239036),	-- Desert Guardian's Breastplate
 				},
 			}),
 		}),
@@ -7385,15 +7386,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["crs"] = { 131864 },	-- Gorak Tul
 				["groups"] = {
 					i(159662),	-- Blightreaper
-					i(159279),	-- Soulfuel Headdress
-					i(159398),	-- Soulscarred Headgear
-					i(159273),	-- Amice of the Returned
-					i(159339),	-- Gorak Tul's Mantle
-					i(159455),	-- Pauldrons of the Horned Horror
-					i(159448),	-- Breastplate of the Vengeful
-					i(159395),	-- Deathslaver's Hauberk
-					i(159335),	-- Raiment of the Blighted Tribe
-					i(168125),	-- Runestone of Thros
+					i(168125),	-- Runestone of Thros					
+					i(239023),	-- Amice of the Returned
+					i(239029),	-- Breastplate of the Vengeful
+					i(239027),	-- Deathslaver's Hauberk
+					i(239026),	-- Gorak Tul's Mantle
+					i(239030),	-- Pauldrons of the Horned Horror
+					i(239025),	-- Raiment of the Blighted Tribe
+					i(239024),	-- Soulfuel Headdress
+					i(239028),	-- Soulscarred Headgear
 				},
 			}),
 		}),

@@ -2221,4 +2221,4 @@ i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
 -- PATCH 12.0.0 --
 ------------------
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
-i(246594, 1243003),	-- Light-Forged Mechsuit
+i(246594, 1243003);	-- Light-Forged Mechsuit
