@@ -4114,7 +4114,6 @@ i(221762, 4484);	-- Frenzied Bloodtick
 i(221195, 4458);	-- Illskitter
 i(221492, 4459);	-- Moss Skipper
 i(221759, 4512);	-- Sceaduthax
-i(222967, 4475);	-- Webbers
 i(221493, 0);		-- Admiral
 i(223803, 0);		-- Blue Stagshell
 i(221022, 0);		-- Cowboy Bee[DNT]
@@ -4462,6 +4461,7 @@ i(252193, 4896);	-- Slippery Saul
 i(205017, 3519);	-- Byrn
 i(258737, 4913);	-- Moon Darter
 i(254876, 4911);	-- P.O.S.T. Assistant
+i(222967, 4475);	-- Webbers
 
 ------------------
 -- PATCH 12.0.0 --

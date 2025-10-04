@@ -43,17 +43,6 @@ ach(42668),	-- Hidden Treasures: Val'Sharah
 ach(51753),	-- Azsuna Matata
 ach(60888),	-- Pushing My Buttons
 ach(60891),	-- The Crimson Rogue
-ach(60942),	-- Aquatic Battler of Northrend
-ach(60943),	-- Critter Battler of Northrend
-ach(60944),	-- Dragonkin Battler of Northrend
-ach(60948),	-- Elemental Battler of Northrend
-ach(60949),	-- Flying Battler of Northrend
-ach(60950),	-- Humanoid Battler of Northrend
-ach(60951),	-- Beast Battler of Northrend
-ach(60952),	-- Magic Battler of Northrend
-ach(60953),	-- Mechanical Battler of Northrend
-ach(60954),	-- Undead Battler of Northrend
-ach(60956),	-- Family Battler of Northrend
 ach(61023),	-- [DNT] Exalted with a Dracthyr Player Faction
 ach(61091),	-- Midnight Safari
 ach(61212),	-- Magisters' Terrace
