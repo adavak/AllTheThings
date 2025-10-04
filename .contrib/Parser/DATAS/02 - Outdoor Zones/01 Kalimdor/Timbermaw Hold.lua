@@ -483,93 +483,93 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- EPIC CRAFTED ITEMS UPGRADES
 							applyclassicphase(SOD_PHASE_FOUR, i(227807, {	-- Dense Timbermaw Belt
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = BLACKSMITHING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19043, 1 },	-- Heavy Timbermaw Belt
 									{ "i", 12360, 1 },	-- Arcanite Bar
 									{ "i", 21383, 20 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = BLACKSMITHING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227810, {	-- Dense Timbermaw Boots
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = BLACKSMITHING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19048, 1 },	-- Heavy Timbermaw Boots
 									{ "i", 12360, 1 },	-- Arcanite Bar
 									{ "i", 21383, 25 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = BLACKSMITHING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227803, {	-- Dire Warbear Harness
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = LEATHERWORKING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 15064, 1 },	-- Warbear Harness
 									{ "i", 15407, 2 },	-- Cured Rugged Hide
 									{ "i", 21383, 30 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = LEATHERWORKING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227804, {	-- Dire Warbear Woolies
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = LEATHERWORKING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 15065, 1 },	-- Warbear Woolies
 									{ "i", 15407, 2 },	-- Cured Rugged Hide
 									{ "i", 21383, 30 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = LEATHERWORKING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227805, {	-- Ferocity of the Timbermaw
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = LEATHERWORKING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19044, 1 },	-- Might of the Timbermaw
 									{ "i", 15407, 1 },	-- Cured Rugged Hide
 									{ "i", 21383, 20 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = LEATHERWORKING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227862, {	-- Incandescent Mooncloth Boots
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = TAILORING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 15802, 1 },	-- Mooncloth Boots
 									{ "i", 14342, 1 },	-- Mooncloth
 									{ "i", 21383, 25 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = TAILORING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(228190, {	-- Knowledge of the Timbermaw
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = TAILORING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19047, 1 },	-- Wisdom of the Timbermaw
 									{ "i", 14342, 1 },	-- Mooncloth
 									{ "i", 21383, 20 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = TAILORING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227808, {	-- Rugged Mantle of the Timbermaw
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = TAILORING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19050, 1 },	-- Mantle of the Timbermaw
 									{ "i", 14342, 1 },	-- Mooncloth
 									{ "i", 21383, 25 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = TAILORING,
+								["learnedAt"] = 290,
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227809, {	-- Studded Timbermaw Brawlers
 								["timeline"] = { ADDED_1_15_3 },
-								["requireSkill"] = LEATHERWORKING,
-								["learnedAt"] = 290,
 								["cost"] = {
 									{ "i", 19049, 1 },	-- Timbermaw Brawlers
 									{ "i", 15407, 1 },	-- Cured Rugged Hide
 									{ "i", 21383, 20 },	-- Winterfall Spirit Beads
 								},
+								["requireSkill"] = LEATHERWORKING,
+								["learnedAt"] = 290,
 							})),
 							-- #endif
 						},

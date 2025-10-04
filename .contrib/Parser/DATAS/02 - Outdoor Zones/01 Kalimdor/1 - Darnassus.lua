@@ -108,7 +108,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(67414, {	-- Bag of Shiny Things
-						["provider"] = { "n", 4156 },	-- Astaia
+						["description"] = "Fishing Daily Quest Reward",
 						["sourceQuests"] = {
 							29325,	-- A Slippery Snack
 							29359,	-- An Old Favorite
@@ -116,7 +116,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							29323,	-- Stocking Up
 							29324,	-- The Sister's Pendant
 						},
-						["description"] = "Fishing Daily Quest Reward",
+						["provider"] = { "n", 4156 },	-- Astaia
 						["timeline"] = { ADDED_4_0_1 },
 						["groups"] = {
 							i(44983),	-- Strand Crawler (PET!)
@@ -1781,8 +1781,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						applyclassicphase(TBC_PHASE_ONE, i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 						i(11223, {	-- Formula: Enchant Bracer - Dodge (RECIPE!) / Formula: Enchant Bracer - Deflection
 							["isLimited"] = true,

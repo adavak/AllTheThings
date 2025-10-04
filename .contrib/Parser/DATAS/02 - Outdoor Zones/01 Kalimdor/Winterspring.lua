@@ -2430,8 +2430,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226419, {	-- Rune of Feral Combat Specialization
 					["provider"] = { "o", 457098 },	-- Finding Your Inner Feline: A Guide to Modern Druidism
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 49.6, 8.8, WINTERSPRING },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { DRUID },
 					["groups"] = {
 						recipe(453703, {	-- Engrave Ring - Feral Combat Specialization
@@ -2441,8 +2441,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_FOUR, i(226415, {	-- Rune of Frost Specialization
 					["provider"] = { "o", 457095 },	-- Elements for Dummies Volume I: Frost
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 58.9, 59.9, WINTERSPRING },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { HUNTER, SHAMAN, MAGE },
 					["groups"] = {
 						recipe(453697, {	-- Engrave Ring - Frost Specialization
@@ -2607,10 +2607,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #endif
 						}),
 						i(201794, {	-- Schematic: Tranquil Mechanical Yeti
-							["timeline"] = { ADDED_10_0_2 },
 							["description"] = "Available for purchase after you complete |cFFFFD700Yetiphobia|r quest.",
-							["isLimited"] = true,
 							["sourceQuest"] = 28722,	-- Yetiphobia
+							["timeline"] = { ADDED_10_0_2 },
+							["isLimited"] = true,
 						}),
 					},
 				}),
@@ -2690,12 +2690,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				i(4191, {	-- Owlbeast Leggings
-					["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 10.09.2023
-					["crs"] = {
-						50788,	-- Quetzl (Rare)
-						7452,	-- Crazed Owlbeast
-						7453,	-- Moontouched Owlbeast
-					},
 					["coords"] = {
 						{ 65.0, 74.0, WINTERSPRING },
 						{ 65.8, 75.6, WINTERSPRING },
@@ -2704,10 +2698,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 65.2, 76.6, WINTERSPRING },
 						{ 57.6, 75.2, WINTERSPRING },
 					},
+					["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 10.09.2023
+					["crs"] = {
+						50788,	-- Quetzl (Rare)
+						7452,	-- Crazed Owlbeast
+						7453,	-- Moontouched Owlbeast
+					},
 				}),
 				i(15761, {	-- Pattern: Frostsaber Gloves (RECIPE!)
-					["cr"] = 7441,	-- Winterfall Totemic
-					["timeline"] = { REMOVED_7_3_5, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["coords"] = {
 						{ 41.6, 42.8, WINTERSPRING },
@@ -2719,10 +2717,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 24.4, 47.6, WINTERSPRING },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_7_3_5, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 7441,	-- Winterfall Totemic
 				}),
 				i(15747, {	-- Pattern: Frostsaber Leggings (RECIPE!)
-					["cr"] = 7440,	-- Winterfall Den Watcher
-					["timeline"] = { REMOVED_7_3_5, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["coords"] = {
 						{ 68.0, 35.6, WINTERSPRING },
@@ -2736,10 +2734,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 23.6, 50.8, WINTERSPRING },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_7_3_5, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 7440,	-- Winterfall Den Watcher
 				}),
 				i(15779, {	-- Pattern: Frostsaber Tunic (RECIPE!)
-					["cr"] = 7438,	-- Winterfall Ursa
-					["timeline"] = { REMOVED_7_3_5, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["coords"] = {
 						{ 69.6, 38.2, WINTERSPRING },
@@ -2751,6 +2749,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 66.2, 49.4, WINTERSPRING },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_7_3_5, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 7438,	-- Winterfall Ursa
 				}),
 				i(14493, {	-- Pattern: Robe of Winter Night (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3 },
@@ -2763,7 +2763,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- Wont return, its on timewalking vendor
 				}),
 				i(13495, {	-- Recipe: Greater Frost Protection Potion (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 7428,	-- Frostmaul Giant
 					["coords"] = {
@@ -2782,10 +2781,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 56.2, 83.4, WINTERSPRING },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 				}),
 				i(16054, {	-- Schematic: Arcanite Dragonling
-					["timeline"] = { REMOVED_4_0_3 },
-					["cr"] = 7437,	-- Cobalt Mageweaver
 					--[[["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 570,	-- Brain Eater
@@ -2805,6 +2803,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					-- #endif
 					--]]
+					["timeline"] = { REMOVED_4_0_3 },
+					["cr"] = 7437,	-- Cobalt Mageweaver
 				}),
 				i(12432, {	-- Shardtooth E'ko
 					["provider"] = { "i", 12384 },	-- Cache of Mau'ari

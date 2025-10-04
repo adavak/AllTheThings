@@ -3697,6 +3697,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						i(16084, {	-- Expert First Aid - Under Wraps (RECIPE!)
 							["timeline"] = { REMOVED_3_1_0 },
+							["rank"] = 3,
 							-- #if SEASON_OF_DISCOVERY
 							["OnUpdate"] = [[function(t)
 								if C_Seasons and C_Seasons.GetActiveSeason() == 2 then
@@ -3705,7 +3706,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								t.OnUpdate = nil;
 							end]],
 							-- #endif
-							["rank"] = 3,
 						}),
 						i(16112, {	-- Manual: Heavy Silk Bandage (RECIPE!)
 							["timeline"] = { REMOVED_3_1_0 },
@@ -3919,18 +3919,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["cr"] = 4834,	-- Theramore Infiltrator
 				}),
 				i(12718, {	-- Plans: Runic Breastplate (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					-- #if AFTER 10.1.7
 					["description"] = "This recipe has a very low droprate & is recommend to farm from Spiny Rock Crabs, but can also drop from any other creature in the zone. |cFFE50D12WARNING:|r This recipe binds to your character when looted.",
 					-- #endif
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						44390,	-- Spiny Rock Crab
-						-- #else
-						4368,	-- Strashaz Myrmidon
-						16072,	-- Tidelord Rrurgaz
-						-- #endif
-					},
 					-- #if AFTER 10.1.7
 					["coords"] = {
 						{ 70.2, 50.0, DUSTWALLOW_MARSH },
@@ -3940,6 +3931,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 65.4, 44.4, DUSTWALLOW_MARSH },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						44390,	-- Spiny Rock Crab
+						-- #else
+						4368,	-- Strashaz Myrmidon
+						16072,	-- Tidelord Rrurgaz
+						-- #endif
+					},
 				}),
 				-- #if BEFORE 4.3.0
 				i(12714, {	-- Plans: Runic Plate Helm (RECIPE!)

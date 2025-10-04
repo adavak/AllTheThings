@@ -174,9 +174,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(22739),	-- Tome of Polymorph: Turtle (CI!)
 					}),
 					i(68050, {	-- Shatterscale Mightfish
+						["description"] = "Can be caught by fishing in lava using a special lure.",
 						["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
 						["coord"] = { 52.4, 77.0, MOUNT_HYJAL },	-- The Throne of Flame
-						["description"] = "Can be caught by fishing in lava using a special lure.",
 					}),
 				}),
 			}),

@@ -2591,8 +2591,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226412, {	-- Rune of Pole Weapon Specialization
 					["provider"] = { "o", 457091 },	-- Chen's Training Manual
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 76.9, 44.2, AZSHARA },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { WARRIOR, PALADIN, HUNTER, PRIEST, SHAMAN, MAGE, WARLOCK, DRUID },
 					["groups"] = {
 						recipe(453694, {	-- Engrave Ring - Pole Weapon Specialization
@@ -2736,12 +2736,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if AFTER 11.1.5
 				i(15751, {	-- Pattern: Blue Dragonscale Breastplate (RECIPE!)
-					-- Zonedrop, can drop from any mob now
 					["timeline"] = { ADDED_11_1_5 },	-- Data Discord 28.04.2025
+					-- Zonedrop, can drop from any mob now
 				}),
 				-- #endif
 				i(15763, {	-- Pattern: Blue Dragonscale Shoulders (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 6146,	-- Cliff Breaker
 					["coords"] = {
@@ -2751,12 +2750,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 70.4, 17.6, AZSHARA },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					-- Zonedrop, can drop from any mob now
 				}),
 				-- #if AFTER 11.1.5
 				i(15729, {	-- Pattern: Chimeric Gloves (RECIPE!)
-					-- Zonedrop, can drop from any mob now
 					["timeline"] = { ADDED_11_1_5 },	-- Data Discord 28.04.2025
+					-- Zonedrop, can drop from any mob now
 				}),
 				-- #endif
 				i(14473, {	-- Pattern: Ghostweave Belt (RECIPE!)
@@ -2780,12 +2780,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["cr"] = 6201,	-- Legashi Rogue
 				}),
 				i(13491, {	-- Recipe: Elixir of the Mongoose (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-					["cr"] = 6201,	-- Legashi Rogue
 					["coords"] = {
 						{ 56.6, 23.6, AZSHARA },
 						{ 53.6, 23.8, AZSHARA },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 6201,	-- Legashi Rogue
 				}),
 				i(16045, {	-- Schematic: Spellpower Goggles Xtreme Plus (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3 },	-- Learned from trainer

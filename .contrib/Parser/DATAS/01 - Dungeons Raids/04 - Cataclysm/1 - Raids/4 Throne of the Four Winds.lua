@@ -36,8 +36,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					["groups"] = {
 						ach(5305),	-- Four Play
 						i(138836, {	-- Illusion: Windfury (ILLUSION!)
-							["classes"] = { SHAMAN },
 							["timeline"] = { ADDED_7_0_3 },
+							["classes"] = { SHAMAN },
 						}),
 						i(63041),	-- Drake of the South Wind (MOUNT!)
 						i(152973, {	-- Zephyrian Prince (PET!)

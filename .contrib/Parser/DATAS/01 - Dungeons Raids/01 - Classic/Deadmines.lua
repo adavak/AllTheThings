@@ -417,10 +417,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				["cr"] = 594,	-- Defias Henchman
 			}),
 			i(1928, {	-- Defias Mage Staff
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Blood Wizards or Defias Pirates which are located on the boat near the end of the dungeon.",
 				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				["crs"] = {
 					-- #if AFTER 10.1.7
 					48417,	-- Blood Wizard
@@ -431,10 +431,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			i(1925, {	-- Defias Rapier
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Defias Pirates which are located on the boat near the end of the dungeon.",
 				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				["crs"] = {
 					-- #if AFTER 10.1.7
 					48522,	-- Defias Pirate
@@ -444,10 +444,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			i(1943, {	-- Goblin Mail Leggings
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				-- #if AFTER 10.1.7
 				["description"] = "Drops from Goblin Engineer's around 2nd Boss or Goblin Overseer's around last Boss.",
 				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				["crs"] = {
 					-- #if AFTER 10.1.7
 					48439,	-- Goblin Engineer
@@ -458,10 +458,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			i(1936, {	-- Goblin Screwdriver
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Goblins between 1st and 2nd boss.",
 				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				["crs"] = {
 					-- #if AFTER 10.1.7
 					48279,	-- Goblin Overseer
@@ -471,10 +471,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			i(1944, {	-- Metalworking Gloves
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Goblins between 1st and 2nd boss.",
 				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				["crs"] = {
 					-- #if AFTER 10.1.7
 					48280,	-- Goblin Craftsman
@@ -557,10 +557,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			i(1945, {	-- Woodworking Gloves
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Goblins or Oaf's Lackey between 1st and 2nd boss.",
 				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 				["crs"] = {
 					-- #if AFTER 10.1.7
 					48445,	-- Oaf Lackey

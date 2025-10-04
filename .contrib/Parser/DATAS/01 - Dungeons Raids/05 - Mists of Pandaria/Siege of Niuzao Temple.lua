@@ -200,12 +200,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 
 						-- Removed
 						i(100966, {	-- Tolakesh, Horn of the Black Ox
-							["timeline"] = { CREATED_5_4_0 },
 							-- #if BEFORE WOD
 							-- CRIEVE NOTE: This may be available in MOP Classic, keep an eye on it.
 							["description"] = "If you get this item to drop in MOP Classic, please @Crieve on Discord! Thanks!",
 							["isBounty"] = true,
 							-- #endif
+							["timeline"] = { CREATED_5_4_0 },
 						}),
 						i(100973, {	-- Gustwalker Staff
 							["timeline"] = { ADDED_5_4_0, REMOVED_7_1_5 },

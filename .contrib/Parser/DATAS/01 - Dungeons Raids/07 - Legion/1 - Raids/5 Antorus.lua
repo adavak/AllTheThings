@@ -447,11 +447,11 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					o(405307, {	-- Singed Grimoire
 						i(208050, {	-- Grimoire of the Xorothian Felhunter (CI!)
 							["description"] = "1. Defeat Portal Keeper Hasabel in Antorus, the Burning Throne, while wearing a staff transmogged into Zhar'doom, Greatstaff of the Devourer.\n2. Enter the Orange portal of the boss encounter to be teleported to a different platform.\n3. Interact with the deactivated portal near the center of the platform while wearing the transmogged staff and select <Channel the power of your weapon into the gateway.>",
-							["timeline"] = { ADDED_10_1_5 },
 							["providers"] = {
 								{ "i", 32374, },	-- Zhar'doom, Greatstaff of the Devourer
 								{ "i", 150517, },	-- Zhar'doom, Greatstaff of the Devourer (TW)
 							},
+							["timeline"] = { ADDED_10_1_5 },
 						}),
 					}),
 					i(213014, {	-- Grimoire of the Xorothian Darkglare (CI!)

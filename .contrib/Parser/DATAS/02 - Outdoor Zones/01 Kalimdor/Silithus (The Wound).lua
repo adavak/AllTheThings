@@ -1078,116 +1078,116 @@ root(ROOTS.Zones, m(KALIMDOR, {
 									["cost"] = { { "c", 1803, 2000 } },	-- 2000 Echoes of Ny'alotha
 								}),
 								i(168839, {	-- Regenerating Barrier of the Depths
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168559, {	-- Fetish of the Hidden Labyrinths
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168922, {	-- Azerite-Fueled Timequartz
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168537, {	-- Tempered Azerite Formation
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168444, {	-- Churning Blood of the Conquered
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(173282, {	-- Token of Death's Glee
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168856, {	-- Resonating Elemental Heart
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(169900, {	-- Rib-Bone Choker of Dominance
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168622, {	-- Stabilizing Lens of the Focusing Iris
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168926, {	-- Lingering Seed of Renewal
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168848, {	-- Pearl of Perspicuous Intentions
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168568, {	-- Null Force Nullifier
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 }, },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168860, {	-- Enhanced Purification Protocols
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168852, {	-- Stalwart Battlefield Memento
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(173290, {	-- Quickening Azerite Geode
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168580, {	-- Sphere of Leeched Mobility
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168440, {	-- Gleaming Star Shard
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(173310, {	-- Manual of Unbalanced Tactics
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168613, {	-- Tempered Scale of the Scarlet Broodmother
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168930, {	-- Tome of the Quickening Tides
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(173885, {	-- Volatile Void Droplet
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168865, {	-- Polarized Azerite Slivershards
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168934, {	-- Calibrated Existence Gauge
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168575, {	-- Branch of Rejuvenating Rings
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168938, {	-- Ward of Mutual Aid
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168844, {	-- Perfection-Enhancing Gearbox
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168943, {	-- Grid of Bursting Vitality
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 								i(168617, {	-- Fluctuating Worldvein
-									["modID"] = 14,
 									["cost"] = { { "c", 1803, 2500 } },	-- 2500 Echoes of Ny'alotha
+									["modID"] = 14,
 								}),
 							}),
 						}),
@@ -1200,20 +1200,20 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								}),
 								i(173291, {	-- Luminous Azerite Geode (Rank 4)
 									["description"] = "Requires completing the achievement |cffffff00Through the Depths of Visions|r.\n",
-									["cost"] = { { "c", 1719, 10 } },	-- 10x Corrupted Mementos
 									["timeline"] = { REMOVED_9_0_1 },
+									["cost"] = { { "c", 1719, 10 } },	-- 10x Corrupted Mementos
 								}),
 								i(173311, {	-- Resplendent Warden's Badge (Rank 4)
 									["description"] = "Requires completing the achievement |cffffff00Through the Depths of Visions|r.\n",
-									["classes"] = TANKS,
-									["cost"] = { { "c", 1719, 10 } },	-- 10x Corrupted Mementos
 									["timeline"] = { REMOVED_9_0_1 },
+									["cost"] = { { "c", 1719, 10 } },	-- 10x Corrupted Mementos
+									["classes"] = TANKS,
 								}),
 								i(168940, {	-- Ward of Unimaginable Brilliance (Rank 4)
 									["description"] = "Requires completing the achievement |cffffff00Through the Depths of Visions|r.\n",
-									["classes"] = HEALERS,
-									["cost"] = { { "c", 1719, 10 } },	-- 10x Corrupted Mementos
 									["timeline"] = {REMOVED_9_0_1 },
+									["cost"] = { { "c", 1719, 10 } },	-- 10x Corrupted Mementos
+									["classes"] = HEALERS,
 								}),
 								i(174876, {	-- Gouged Eye of N'Zoth
 									["cost"] = { { "c", 1719, 25000 }, },	-- 25,000 Corrupted Mementos
@@ -1222,8 +1222,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 									["cost"] = { { "c", 1719, 5000 }, },	-- 5,000 Corrupted Mementos
 								}),
 								i(174770, {	-- Wicked Swarmer (MOUNT!)
-									["modelScale"] = 1.5,
 									["cost"] = { { "c", 1719, 100000 }, },	-- 100,000 Corrupted Mementos
+									["modelScale"] = 1.5,
 								}),
 							},
 						}),

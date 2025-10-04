@@ -199,8 +199,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				BossOnly(BRACKENSPORE),
 				BossOnly(TECTUS, {
 					i(138835, {	-- Illusion: Rockbiter (ILLUSION!)
-						["classes"] = { SHAMAN },
 						["timeline"] = { ADDED_7_0_3 },
+						["classes"] = { SHAMAN },
 					}),
 				}),
 				BossOnly(OGRON),

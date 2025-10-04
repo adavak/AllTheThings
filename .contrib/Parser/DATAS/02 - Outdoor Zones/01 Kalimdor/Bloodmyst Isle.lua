@@ -1353,18 +1353,18 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 			n(ZONE_DROPS, {
 				i(23984),	-- Irradiated Crystal Shard
 				i(23870, {	-- Red Crystal Pendant
-					["cr"] = 17496,	-- Cruelfin
 					["coord"] = { 49.0, 94.2, BLOODMYST_ISLE },
 					["races"] = ALLIANCE_ONLY,
+					["cr"] = 17496,	-- Cruelfin
 				}),
 				i(23900, {	-- Tzerak's Armor Plate
 					["description"] = "Tzerak spawns at 38.5, 82.3, on the demon seal, then walks through Nazzivian to get to the monument at 36.6, 72.5.",
-					["cr"] = 17528,	-- Tzerak
 					["coords"] = {
 						{ 38.5, 82.3, BLOODMYST_ISLE },
 						{ 36.6, 72.5, BLOODMYST_ISLE },
 					},
 					["races"] = ALLIANCE_ONLY,
+					["cr"] = 17528,	-- Tzerak
 				}),
 			}),
 		},

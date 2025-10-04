@@ -2348,8 +2348,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 					i(235696, {	-- Delver's Dirigible Schematic: Explorer Decal (MM!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 					i(224980, {	-- Delver's Dirigible Schematic: Front-Mounted Lantern (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
@@ -2397,16 +2397,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				})),
 				filter(TOYS, {
 					i(243056, {	-- Delver's Mana-Bound Ethergate (TOY!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 					i(230850, {	-- Delve-O-Bot 7001 (TOY!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 					i(244792, {	-- Etheric Brannmorpher (TOY!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["groups"] = {
 							title(641, {	-- %s Bronzebeard
 								["timeline"] = { ADDED_11_2_0_SEASONSTART },
@@ -2421,8 +2421,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 				filter(MISC, {
 					i(235608, {	-- Nightfall Sanctum Campsite (CI!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["groups"] = { campsite(5) },	-- Cultists' Quay (CS!)
 					}),
 				}),
@@ -2591,62 +2591,62 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["groups"] = {
 				n(DELVERS_DIRIGIBLE_SCHEMATIC, {
 					i(235685, {	-- Delver's Dirigible Schematic: Drill (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(224771, {	-- Delver's Dirigible Schematic: Empennage (MM!)
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(235688, {	-- Delver's Dirigible Schematic: Fan (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(224770, {	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235684, {	-- Delver's Dirigible Schematic: Glider (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235690, {	-- Delver's Dirigible Schematic: Harpoon (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235689, {	-- Delver's Dirigible Schematic: Kite (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
 					}),
 					i(235687, {	-- Delver's Dirigible Schematic: Spoiler (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235692, {	-- Delver's Dirigible Schematic: Thrusters (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(224768, {	-- Delver's Dirigible Schematic: Wing-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235686, {	-- Delver's Dirigible Schematic: White Paint (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235691, {	-- Delver's Dirigible Schematic: Yellow Paint (MM!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 				}),
 				filter(MOUNTS, {
 					i(246237, {	-- OC91 Chariot (MOUNT!)
-						["cost"] = {{"c", UNDERCOIN, 15000}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 15000}},
 					}),
 				}),
 				filter(BATTLE_PETS, {
@@ -2656,8 +2656,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 				filter(COSMETIC, {
 					i(212166, {	-- Coral Nautic Helm
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_0_5 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					iensemble(234388, {	-- Arsenal: Hallowfall Weaponry
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2704,26 +2704,26 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(235617, {	-- Lucky Goblin's Strapped Rockets (COSMETIC!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
 					}),
 					i(212169, {	-- Mint-Scented Candle Hat
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_0_5 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(245525, {	-- Opulent Phasebound Visor
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(212163, {	-- Soporific Shroom Cap
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_0_5 },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 				}),
 				filter(MISC, {
 					i(233792, {	-- Delver's Disguise
-						["cost"] = {{"c", UNDERCOIN, 500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 500}},
 					}),
 					i(226258, {	-- Delver's Pouch of Reagents
 						["cost"] = {{"c", UNDERCOIN, 500}},
@@ -2758,33 +2758,33 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					-- Season 2
 					i(235531, {	-- Restored Coffer Key
-						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					i(233555, {	-- Restored Coffer Key
-						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					i(233186, {	-- Wave Scrambler 2000
-						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					-- Season 3
 					i(244193, {	-- L00T RAID-R Mini
-						["cost"] = {{"c", UNDERCOIN, 1000}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(238526, {	-- Restored Coffer Key
-						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					i(238527, {	-- Restored Coffer Key
-						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					i(248017, {	-- Shrieking Quartz
-						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_2_0 },
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 				}),
 				filter(TOYS, {
@@ -2798,16 +2798,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["cost"] = {{"c", UNDERCOIN, 500}},
 					}),
 					i(235016, {	-- Redeployment Module (TOY!)
-						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 5000}},
 					}),
 					i(230924, {	-- Spotlight Materializer 1000 (TOY!)
-						["cost"] = {{"c", UNDERCOIN, 500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 500}},
 					}),
 					i(231064, {	-- Throwaway Gangster Disguise (TOY!)
-						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 				}),
 				n(ARMOR, {
@@ -2822,8 +2822,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							["cost"] = {{"c", UNDERCOIN, 500}},
 						}),
 						i(225065, {	-- Torchbearer's Haversack
-							["cost"] = {{"c", UNDERCOIN, 2500}},
 							["timeline"] = { ADDED_11_0_5 },
+							["cost"] = {{"c", UNDERCOIN, 2500}},
 						}),
 						i(211062, {	-- Treasure-Seeker's Shawl
 							["cost"] = {{"c", UNDERCOIN, 500}},
@@ -2950,40 +2950,40 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						}),
 					})),
 					i(221502, {	-- Adventurer's Warbound Battlegear Drop
-						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 5000}},
 					}),
 					i(224814, {	-- Adventurer's Warbound Boots
-						["cost"] = {{"c", UNDERCOIN, 750}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 750}},
 					}),
 					i(224845, {	-- Adventurer's Warbound Chestpiece
-						["cost"] = {{"c", UNDERCOIN, 875}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 875}},
 					}),
 					i(224844, {	-- Adventurer's Warbound Gloves
-						["cost"] = {{"c", UNDERCOIN, 750}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 750}},
 					}),
 					i(224843, {	-- Adventurer's Warbound Headpiece
-						["cost"] = {{"c", UNDERCOIN, 875}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 875}},
 					}),
 					i(224842, {	-- Adventurer's Warbound Legs
-						["cost"] = {{"c", UNDERCOIN, 875}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 875}},
 					}),
 					i(224841, {	-- Adventurer's Warbound Shoulders
-						["cost"] = {{"c", UNDERCOIN, 750}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 750}},
 					}),
 					i(224840, {	-- Adventurer's Warbound Waist
-						["cost"] = {{"c", UNDERCOIN, 625}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 625}},
 					}),
 					i(224839, {	-- Adventurer's Warbound Wrists
-						["cost"] = {{"c", UNDERCOIN, 625}},
 						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+						["cost"] = {{"c", UNDERCOIN, 625}},
 					}),
 				}),
 				n(WEAPONS, {

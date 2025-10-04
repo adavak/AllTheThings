@@ -134,8 +134,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["timeline"] = { ADDED_2_4_0 },
 					}),
 					i(67414, {	-- Bag of Shiny Things
-						["provider"] = { "n", 5161 },	-- Grimnur Stonebrand
 						["description"] = "Fishing Daily Quest Reward",
+						["provider"] = { "n", 5161 },	-- Grimnur Stonebrand
 						["timeline"] = { ADDED_4_0_1 },
 						["groups"] = {
 							i(44983, {	-- Strand Crawler (PET!)
@@ -173,10 +173,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #else
 							nil,
 							-- #endif
+						["timeline"] = { ADDED_2_3_0 },
 						-- #if AFTER TWW
 						["collectible"] = false,  -- remove when Blizzard fix fish collection
 						-- #endif
-						["timeline"] = { ADDED_2_3_0 },
 					}),
 				}),
 			}),
@@ -1478,8 +1478,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 75.7, 10.5, IRONFORGE },
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(204174, {	-- Rune of Precision
-					["provider"] = { "o", 405946 },	-- Dusty Chest
 					["description"] = "Looting the chest will spawn 2 muggers. Beware!",
+					["provider"] = { "o", 405946 },	-- Dusty Chest
 					["coord"] = { 51.9, 12.8, IRONFORGE },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { ROGUE },
@@ -1580,12 +1580,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						applyclassicphase(TBC_PHASE_ONE, i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 						applyclassicphase(TBC_PHASE_ONE, i(20975, {	-- Design: The Jade Eye (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 					},
 				}),

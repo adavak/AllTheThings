@@ -904,8 +904,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					i(21476),	-- Obsidian Scaled Leggings
 					i(21477),	-- Ring of Fury
 					i(21473),	-- Eye of Moam
-					i(22220, {	-- Plans: Black Grasp of the Destroyer (RECIPE!)
-					}),
+					i(22220),	-- Plans: Black Grasp of the Destroyer (RECIPE!)
 				},
 			}),
 			e(1542, {	-- Ossirian the Unscarred
@@ -1044,13 +1043,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					["groups"] = {
 						applyclassicphase(SOD_PHASE_SIX, i(234458, {	-- Plans: Jagged Obsidian Shield (RECIPE!)
 							["minReputation"] = { FACTION_CENARION_CIRCLE, REVERED },
-							["isLimited"] = true,
 							["timeline"] = { ADDED_1_15_5 },
+							["isLimited"] = true,
 						})),
 						applyclassicphase(SOD_PHASE_SIX, i(234461, {	-- Plans: Obsidian Mail Tunic (RECIPE!)
 							["minReputation"] = { FACTION_CENARION_CIRCLE, EXALTED },
-							["isLimited"] = true,
 							["timeline"] = { ADDED_1_15_5 },
+							["isLimited"] = true,
 						})),
 					},
 				}),

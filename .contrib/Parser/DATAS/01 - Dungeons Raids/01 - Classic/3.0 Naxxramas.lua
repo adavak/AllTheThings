@@ -1955,8 +1955,8 @@ applyclassicphase(PHASE_SIX,
 								["timeline"] = { ADDED_1_11_1 },
 								["groups"] = {
 									i(22719, {	-- Omarion's Handbook
-										["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn, Revered.
 										["description"] = "Non-crafters can take his handbook to Craftsman Wilhelm at Light's Hope Chapel who can make all the items as well, as long as the players provide the materials and pay a hefty fee.",
+										["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn, Revered.
 									}),
 									r(28208, {	-- Glacial Cloak (RECIPE!)
 										["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Revered.

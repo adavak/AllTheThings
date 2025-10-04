@@ -165,8 +165,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			n(COMMON_BOSS_DROPS, {
 				i(28558, {	-- Spirit Shard
-					["timeline"] = { REMOVED_8_0_1 },
 					["description"] = "Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses in the Mana-Tombs and Auchenai Crypts drop one shard each; bosses in the Sethekk Halls and Shadow Labyrinth drop two each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
+					["timeline"] = { REMOVED_8_0_1 },
 				}),
 				currency(1704, {	-- Spirit Shard
 					["timeline"] = { ADDED_8_0_1 },

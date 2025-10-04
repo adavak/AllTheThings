@@ -2997,8 +2997,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226409, {	-- Rune of Dagger Specialization
 					["provider"] = { "o", 457100 },	-- Renzik's Thoughts on "Fair" Fighting
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 20.0, 85.1, SILITHUS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { WARRIOR, HUNTER, ROGUE, PRIEST, SHAMAN, MAGE, WARLOCK, DRUID },
 					["groups"] = {
 						recipe(453690, {	-- Engrave Ring - Dagger Specialization
@@ -3008,8 +3008,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_FOUR, i(226411, {	-- Rune of Fist Weapon Specialization
 					["provider"] = { "o", 457096 },	-- Be First: A Brawler's Guide to Boxing
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 38.2, 45.5, SILITHUS },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { WARRIOR, HUNTER, SHAMAN, ROGUE, DRUID },
 					["groups"] = {
 						recipe(453691, {	-- Engrave Ring - Fist Weapon Specialization
@@ -3057,8 +3057,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["groups"] = {
 						i(13496, {	-- Recipe: Greater Nature Protection Potion (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_4_0_3 },
+							["isLimited"] = true,
 						}),
 					},
 				}),

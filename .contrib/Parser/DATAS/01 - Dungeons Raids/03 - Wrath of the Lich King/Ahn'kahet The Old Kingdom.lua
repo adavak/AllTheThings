@@ -175,8 +175,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			}),
 			n(ZONE_DROPS, {
 				i(43512, {	-- Ooze-Covered Fungus
-					["cr"] = 30329,	-- Savage Cave Beast
 					["timeline"] = { REMOVED_4_3_0 },
+					["cr"] = 30329,	-- Savage Cave Beast
 				}),
 				-- #if AFTER 7.3.5
 				i(35616, {	-- Spored Tendrils Spaulders

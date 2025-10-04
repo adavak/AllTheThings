@@ -3159,14 +3159,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(ZONE_DROPS, {
 				i(1493, {	-- Heavy Marauder Scimitar
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						40062,	-- Galak Mauler
-						-- #else
-						4099,	-- Galak Marauder
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 88.6, 46.8, THOUSAND_NEEDLES },
@@ -3176,6 +3168,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #else
 						{ 44.6, 33.6, THOUSAND_NEEDLES },
 						{ 20.6, 22.2, THOUSAND_NEEDLES },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						40062,	-- Galak Mauler
+						-- #else
+						4099,	-- Galak Marauder
 						-- #endif
 					},
 				}),

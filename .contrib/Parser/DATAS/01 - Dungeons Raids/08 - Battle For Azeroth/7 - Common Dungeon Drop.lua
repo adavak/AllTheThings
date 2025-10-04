@@ -5,6 +5,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 	n(COMMON_DUNGEON_DROPS, {
 		i(162460, {	-- Hydrocore
 			["description"] = "Drops from any final bosses at Mythic or Heroic",
+			["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_8_1_0 },
 			["crs"] = {
 				122968,	-- Yazma
 				126983,	-- Harlan Sweete
@@ -18,7 +19,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				127503,	-- Overseer Korgus
 				131864,	-- Gorak Tul
 			},
-			["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_8_1_0 },
 		}),
 		i(162520, {	-- Recipe: Mystical Cauldron [Rank 2] (RECIPE!)
 			["description"] = "Drops from any final bosses at Mythic",
@@ -43,6 +43,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 		}),
 		i(165948, {	-- Tidalcore
 			["description"] = "Drops from any final bosses at Mythic or Heroic",
+			["timeline"] = { ADDED_8_1_0 },
 			["crs"] = {
 				122968,	-- Yazma
 				126983,	-- Harlan Sweete
@@ -61,7 +62,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				144249,	-- Omega Buster
 				-- #endif
 			},
-			["timeline"] = { ADDED_8_1_0 },
 		}),
 	}),
 })));

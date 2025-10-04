@@ -319,12 +319,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(228332, {	-- Lok'delar, Stave of the Ancient Keepers
 							["description"] = "Go back to Felwood after having completed all the quests and a chat icon will become available, allowing you to interact with one of the ancients. Speak to him and he will give you the staff.",
-							["classes"] = { HUNTER },
 							["sourceQuests"] = {
 								7634,	-- Ancient Sinew Wrapped Lamina
 								7635,	-- A Proper String
 								84546,	-- Stave of the Ancients
 							},
+							["classes"] = { HUNTER },
 						}),
 					},
 				})),
@@ -393,12 +393,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(18715, {	-- Lok'delar, Stave of the Ancient Keepers
 							["description"] = "Go back to Felwood after having completed all the quests and a chat icon will become available, allowing you to interact with one of the ancients. Speak to him and he will give you the staff.",
-							["classes"] = { HUNTER },
 							["sourceQuests"] = {
 								7634,	-- Ancient Sinew Wrapped Lamina
 								7635,	-- A Proper String
 								7636,	-- Stave of the Ancients
 							},
+							["classes"] = { HUNTER },
 						}),
 					},
 				})),

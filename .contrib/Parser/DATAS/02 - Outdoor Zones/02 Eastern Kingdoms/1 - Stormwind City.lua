@@ -558,7 +558,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["timeline"] = { ADDED_2_4_0 },
 					}),
 					i(67414, {	-- Bag of Shiny Things
-						["provider"] = { "n", 5494 },	-- Catherine Leland
 						["description"] = "Fishing Daily Quest Reward",
 						["sourceQuests"] = {
 							26488,	-- Big Gulp
@@ -567,6 +566,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							26442,	-- Rock Lobster
 							26536,	-- Thunder Falls
 						},
+						["provider"] = { "n", 5494 },	-- Catherine Leland
 						["timeline"] = { ADDED_4_0_1 },
 						["groups"] = {
 							i(44983, {	-- Strand Crawler (PET!)
@@ -3768,8 +3768,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 48,
 					["groups"] = {
 						i(228238, {	-- Testament of Divine Steed
-							["spellID"] = 461607,	-- Divine Steed
 							["timeline"] = { ADDED_1_15_3 },
+							["spellID"] = 461607,	-- Divine Steed
 							["f"] = RECIPES,
 						}),
 					},
@@ -3812,10 +3812,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 40,
 					["groups"] = {
 						i(9367, {	-- Plans: Golden Scale Gauntlets (RECIPE!)
-							["timeline"] = { REMOVED_4_0_3 },
 							-- #if BEFORE 4.0.3
 							["description"] = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
 							-- #endif
+							["timeline"] = { REMOVED_4_0_3 },
 						}),
 					},
 				}),
@@ -3831,8 +3831,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 40,
 					["groups"] = {
 						i(217274, {	-- Plans: Golden Scale Gauntlets (RECIPE!)
-							["timeline"] = { ADDED_1_15_1 },
 							["description"] = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
+							["timeline"] = { ADDED_1_15_1 },
 						}),
 					},
 				})),
@@ -4481,6 +4481,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cost"] = {{ "i", 190308, 1 }},	-- Burning Torch
 						}),
 						i(190308, {	-- 0/1 Burning Torch
+							["description"] = "You can light the torch using a campfire. If you don't have the cooking skill (or mats), you can go to the campfire near Talen at 15,31. Once lit, toss the torch on to the Archaeologist's Cart.",
 							["providers"] = {
 								{ "i", 190307 },	-- Unlit Torch
 								{ "o", createCustomObject({	-- Unlit Torch [Couldn't find the proper objectID, so I faked it.]
@@ -4504,7 +4505,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 26.79, 22.42, ASHENVALE },
 								{ 15, 31, ASHENVALE },
 							},
-							["description"] = "You can light the torch using a campfire. If you don't have the cooking skill (or mats), you can go to the campfire near Talen at 15,31. Once lit, toss the torch on to the Archaeologist's Cart.",
 						}),
 					},
 				}),
@@ -4667,19 +4667,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_ONE, i(205864, {	-- Charred Note
-					["provider"] = { "o", 402215 },	-- Charred Note
 					["questID"] = 75940,	-- Charred Note HQT
 					["sourceQuest"] = 75939,	-- Brother Romulus HQT
+					["provider"] = { "o", 402215 },	-- Charred Note
 					["coord"] = { 33.0, 24.75, STORMWIND_CITY },
-					["maps"] = { DUSKWOOD },
 					["timeline"] = { REMOVED_2_0_1 },
+					["maps"] = { DUSKWOOD },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(205897, {	-- Rune of Martyrdom
-					["provider"] = { "n", 205153 },	-- Ada Gelhardt
 					["questID"] = 75969,	-- Ada Gelhardt HQT
 					["sourceQuest"] = 75940,	-- Charred Note HQT
+					["provider"] = { "n", 205153 },	-- Ada Gelhardt
 					["coord"] = { 4.3, 28.25, DUSKWOOD },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { PALADIN },
@@ -4689,8 +4689,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(204174, {	-- Rune of Precision
-					["provider"] = { "o", 386777 },	-- Dusty Chest
 					["description"] = "Looting the chest will spawn 2 muggers. Beware!",
+					["provider"] = { "o", 386777 },	-- Dusty Chest
 					["coord"] = { 61.9, 29.3, STORMWIND_CITY },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { ROGUE },
@@ -5534,8 +5534,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						applyclassicphase(TBC_PHASE_ONE, i(20856, {	-- Design: Heavy Golden Necklace of Battle (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 					},
 				}),

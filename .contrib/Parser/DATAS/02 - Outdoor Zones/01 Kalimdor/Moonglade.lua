@@ -777,13 +777,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						i(14472, {	-- Pattern: Runecloth Cloak (RECIPE!)
 							["timeline"] = { REMOVED_6_0_2 },	-- Learned from trainer, recipe removed.
-							-- NOTE: Not sure what patch, it's apparently still sold well into MOP. Will check back in future Classic versions.
 							["isLimited"] = true
+							-- NOTE: Not sure what patch, it's apparently still sold well into MOP. Will check back in future Classic versions.
 						}),
 						i(14469, {	-- Pattern: Runecloth Robe (RECIPE!)
 							["timeline"] = { REMOVED_6_0_2 },	-- Learned from trainer, recipe removed.
-							-- NOTE: Not sure what patch, it's apparently still sold well into MOP. Will check back in future Classic versions.
 							["isLimited"] = true
+							-- NOTE: Not sure what patch, it's apparently still sold well into MOP. Will check back in future Classic versions.
 						}),
 					},
 				}),

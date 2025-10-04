@@ -1707,16 +1707,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(65646, {	-- Headguard of the Order
 							["timeline"] = { ADDED_4_0_3 },
 						}),
-						-- You get these when completing the quest (Only when completing Horde version specifically and relogging, gg Blizz)
-						-- i(141976, {	-- Headguard of the Order
-						-- 	["timeline"] = { ADDED_7_0_3 },
-						-- }),
-						-- i(141977, {	-- Faceguard of the Order
-						-- 	["timeline"] = { ADDED_7_0_3 },
-						-- }),
-						-- i(141978, {	-- Helm of the Order
-						-- 	["timeline"] = { ADDED_7_0_3 },
-						-- }),
 					},
 				}),
 				q(28466, {	-- Weapons of Darkness (Tauren)
@@ -1738,16 +1728,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						-- You get these when completing the quest
 						i(141976, {	-- Headguard of the Order
-							["timeline"] = { ADDED_7_0_3 },
 							["description"] = "May need to re-login to the game to properly trigger this collected from Blizzard.",
+							["timeline"] = { ADDED_7_0_3 },
 						}),
 						i(141977, {	-- Faceguard of the Order
-							["timeline"] = { ADDED_7_0_3 },
 							["description"] = "May need to re-login to the game to properly trigger this collected from Blizzard.",
+							["timeline"] = { ADDED_7_0_3 },
 						}),
 						i(141978, {	-- Helm of the Order
-							["timeline"] = { ADDED_7_0_3 },
 							["description"] = "May need to re-login to the game to properly trigger this collected from Blizzard.",
+							["timeline"] = { ADDED_7_0_3 },
 						}),
 					},
 				}),
@@ -2687,8 +2677,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["cr"] = 8897,	-- Doomforge Craftsman
 				}),
 				i(18235, {	-- Schematic: Field Repair Bot 74A (RECIPE!)
-					["provider"] = { "o", 179552 },	-- Schematic: Field Repair Bot 74A
 					["description"] = "On the floor next to Golem Lord Argelmach.",
+					["provider"] = { "o", 179552 },	-- Schematic: Field Repair Bot 74A
 				}),
 				i(18654, {	-- Schematic: Gnomish Alarm-o-Bot (RECIPE!)
 					["cr"] = 8920,	-- Weapon Technician

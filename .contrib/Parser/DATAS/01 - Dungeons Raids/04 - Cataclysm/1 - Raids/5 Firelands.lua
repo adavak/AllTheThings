@@ -467,18 +467,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["timeline"] = { ADDED_7_3_0 },
 						}),
 						i(71017, {	-- Charged Chitinous Focus
-							["cost"] = {{"i",70998,1}},	-- Dull Chitinous Focus
 							["providers"] = {
 								{ "n", 53971 },	-- Charged Chitinous Focus
 							},
+							["cost"] = {{"i",70998,1}},	-- Dull Chitinous Focus
 						}),
 						i(70998, {	-- Dull Chitinous Focus
-							["cost"] = {{ "i", 70999, 3 }},	-- Obsidian-Flecked Chitin Fragment
 							["description"] = "Use on top of the web just before she uses Smoldering Devastation at 0 Energy. Loot the Charged Chitinous Focus afterwards.",
+							["cost"] = {{ "i", 70999, 3 }},	-- Obsidian-Flecked Chitin Fragment
 						}),
 						i(70999, {	-- Obsidian-Flecked Chitin Fragment
-							["provider"] = { "o", 209037 },	-- Obsidian-Flecked Chitin
 							["description"] = "While fighting Beth'tilac you loot the Obsidian-Flecked Chitin Fragments, three of which spawn when a Cinderweb Drone is killed. Gather them and create a Dull Chitinous Focus.",
+							["provider"] = { "o", 209037 },	-- Obsidian-Flecked Chitin
 							["cr"] = 52581,	-- Cinderweb Drone
 						}),
 					},
@@ -501,14 +501,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					["groups"] = {
 						ach(5810),	-- Not an Ambi-Turner
 						i(71008, {	-- Charged Rhyolite Focus
-							["cost"] = {{"i",70996,1}},	-- Dull Rhyolite Focus
 							["providers"] = {
 								{ "n", 53955 },	-- Charged Rhyolite Focus
 							},
+							["cost"] = {{"i",70996,1}},	-- Dull Rhyolite Focus
 						}),
 						i(70996, {	-- Dull Rhyolite Focus
-							["cost"] = {{ "i", 70997, 3 }},	-- Rhyolite Fragment
 							["description"] = "Use just before he uses Concussive Stomp. (STOMP NOW!) He has to stand on it almost directly so make sure you're pretty close before using it. Loot the Charged Rhyolite Focus afterwards.",
+							["cost"] = {{ "i", 70997, 3 }},	-- Rhyolite Fragment
 						}),
 						i(70997, {	-- Rhyolite Fragment
 							["description"] = "Rhyolite Fragments which randomly spawn around the edge of the area after killing mobs spawned during the encounter. Gather three of them and create a Dull Rhyolite Focus.",
@@ -527,18 +527,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						}),
 						i(71665),	-- Flametalon of Alysrazor (MOUNT!)
 						i(71016, {	-- Charged Pyreshell Focus
-							["cost"] = {{"i",70995,1}},	-- Dull Pyreshell Focus
 							["providers"] = {
 								{ "n", 53967 },	-- Charged Pyreshell Focus
 							},
+							["cost"] = {{"i",70995,1}},	-- Dull Pyreshell Focus
 						}),
 						i(70995, {	-- Dull Pyreshell Focus
-							["cost"] = {{ "i", 70994, 3 }},	-- Pyreshell Fragment
 							["description"] = "Use when she is on the ground and close to full resources during Burnout. Loot the Charged Pyreshell Focus afterwards.\n\nIf she stays grounded and you need more fragments or need to charge your focus, you can fly out of the instance to reset, no more Eggs will spawn at this time.",
+							["cost"] = {{ "i", 70994, 3 }},	-- Pyreshell Fragment
 						}),
 						i(70994, {	-- Pyreshell Fragment
-							["provider"] = { "o", 209036 },	-- Pyreshell Fragment
 							["description"] = "A Pyreshell Fragment spawns whenever a Molten Egg hatches during the encounter. Gather three and create a Dull Pyreshell Focus.",
+							["provider"] = { "o", 209036 },	-- Pyreshell Fragment
 						}),
 					},
 				}),
@@ -557,18 +557,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["timeline"] = { ADDED_7_3_0 },
 						}),
 						i(71015, {	-- Charged Emberstone Focus
-							["cost"] = {{"i",71001,1}},	-- Dull Emberstone Focus
 							["providers"] = {
 								{ "n", 53969 },	-- Charged Emberstone Focus
 							},
+							["cost"] = {{"i",71001,1}},	-- Dull Emberstone Focus
 						}),
 						i(71001, {	-- Dull Emberstone Focus
-							["cost"] = {{ "i", 71000, 3 }},	-- Emberstone Fragment
 							["description"] = "Use just before he uses Hurl Spear. The spear has to hit the focus so make sure you're close. Once the fire has died down loot the Charged Emberstone Focus.\n\nNOTE: This requires at least two targets:\nA mage can use the Frost Elemental.\nA shaman can summon the Earth Elemental.\nA Warlock can use its pet.\nA Priest or Druid needs a friend. :(",
+							["cost"] = {{ "i", 71000, 3 }},	-- Emberstone Fragment
 						}),
 						i(71000, {	-- Emberstone Fragment
-							["provider"] = { "o", 209035 },	-- Emberstone Fragment
 							["description"] = "An Emberstone Fragment spawns whenever a Crystal Prison Trap is destroyed. Gather three of them and create a Dull Emberstone Focus.",
+							["provider"] = { "o", 209035 },	-- Emberstone Fragment
 						}),
 					},
 				}),
@@ -800,25 +800,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 								}),
 								-- #if BEFORE MOP
 								i(71567, {	-- Covenant of the Flame
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71146, 1 },	-- Covenant of the Flame
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								i(71590, {	-- Deathclutch Figurine
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 70939, 1 },	-- Deathclutch Figurine
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								i(71592, {	-- Deflecting Star
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71218, 1 },	-- Deflecting Star
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								-- #endif
 								i(71563, {	-- Firebound Gorget
@@ -829,11 +829,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 								}),
 								-- #if BEFORE MOP
 								i(71593, {	-- Giantslicer
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71154, 1 },	-- Giantslicer
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								-- #endif
 								i(71561, {	-- Hide-Bound Chains
@@ -850,11 +850,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 								}),
 								-- #if BEFORE MOP
 								i(71568, {	-- Morningstar Shard
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71152, 1 },	-- Morningstar Shard
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								-- #endif
 								i(71562, {	-- Obsidium Cleaver
@@ -871,11 +871,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 								}),
 								-- #if BEFORE MOP
 								i(71587, {	-- Relic of the Elemental Lords
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71147, 1 },	-- Relic of the Elemental Lords
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								-- #endif
 								i(71641, {	-- Riplimb's Lost Collar
@@ -898,18 +898,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 								}),
 								-- #if BEFORE MOP
 								i(71577, {	-- Singed Plume of Aviana
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71149, 1 },	-- Singed Plume of Aviana
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								i(71580, {	-- Soulflame Vial
+									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 									["cost"] = {
 										{ "i", 71617, 1 },	-- Crystallized Firestone
 										{ "i", 71148, 1 },	-- Soulflame Vial
 									},
-									["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
 								}),
 								-- #endif
 								i(71559, {	-- Spire of Scarlet Pain

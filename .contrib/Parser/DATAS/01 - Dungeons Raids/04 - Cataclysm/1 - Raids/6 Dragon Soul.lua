@@ -223,8 +223,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 			n(VENDORS, {
 				n(58153, {	-- Dasnurimi <Geologist & Conservator>
 					i(78890, {	-- Crystalline Geode
-						["cost"] = {{ "c", 614, 1 }},	-- Mote of Darkness
 						["description"] = "Contains random uncut Cataclysm gems.",
+						["cost"] = {{ "c", 614, 1 }},	-- Mote of Darkness
 					}),
 					i(78891, {	-- Elementium-coated Geode
 						["cost"] = {{ "c", 615, 1 }},	-- Essence of Corrupted Deathwing
@@ -536,8 +536,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							-- #endif
 						}),
 						i(74246, {	-- Cryptomancer's Decoder Ring
-							["b"] = 1,	-- BoP
 							["description"] = "You need to pickpocket this from the boss.",
+							["b"] = 1,	-- BoP
 						}),
 					})),
 					cr(55294, e(331, {	-- Ultraxion

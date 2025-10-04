@@ -515,9 +515,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				header(HEADERS.Achievement, 40248, {	-- Secrets of Nerub-ar Palace
 					Boss(RASHANAN, {
 						i(225574, {	-- Wings of Shattered Sorrow
+							["ItemAppearanceModifierID"]=4,
 							["modID"] = 67,	-- unique modID for warband drop only
 							["nomerge"] = true,
-							["ItemAppearanceModifierID"]=4,
 						}),
 						i(225574, {ItemAppearanceModifierID=0}),	-- Wings of Shattered Sorrow
 					}),

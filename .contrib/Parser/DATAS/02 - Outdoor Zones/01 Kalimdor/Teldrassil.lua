@@ -1095,13 +1095,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(208605, {	-- Teldrassil Treasure Map
 						["timeline"] = { REMOVED_2_0_1 },
-						["classes"] = { ROGUE },
 						["cost"] = {
 							{ "i", 208604, 1 },	-- Bottom-Left Map Piece
 							{ "i", 208603, 1 },	-- Bottom-Right Map Piece
 							{ "i", 208602, 1 },	-- Top-Left Map Piece
 							{ "i", 208601, 1 },	-- Top-Right Map Piece
 						},
+						["classes"] = { ROGUE },
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(208604, {	-- Bottom-Left Map Piece
 						["coord"] = { 52.6, 49.6, TELDRASSIL },
@@ -2704,9 +2704,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(204174, {	-- Rune of Precision
 					["provider"] = { "o", 407352 },	-- Gnarlpine Stash
-					["cost"] = {{ "i", 208749, 1 }},	-- Gnarlpine Stash Key
 					["coord"] = { 37.9, 82.5, TELDRASSIL },
 					["timeline"] = { REMOVED_2_0_1 },
+					["cost"] = {{ "i", 208749, 1 }},	-- Gnarlpine Stash Key
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(400081),	-- Engrave Pants - Between the Eyes
@@ -2715,19 +2715,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_ONE, i(203991, {	-- Rune of Quick Draw
 					["provider"] = { "o", 386675 },	-- Buried Treasure
 					["coord"] = { 55.3, 90.8, TELDRASSIL },
-					["cost"] = {{ "i", 208605, 1 }},	-- Teldrassil Treasure Map
 					["timeline"] = { REMOVED_2_0_1 },
+					["cost"] = {{ "i", 208605, 1 }},	-- Teldrassil Treasure Map
 					["classes"] = { ROGUE },
 					["groups"] = {
 						recipe(400095),	-- Engrave Chest - Quick Draw
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206989, {	-- Rune of the Sun
+					["description"] = "Cast Moonfire on each of the Lunar Stones to spawn the Lunar Chest nearby.",
 					["providers"] = {
 						{ "n", 207577 },	-- Lunar Stone
 						{ "o", 404433 },	-- Lunar Chest
 					},
-					["description"] = "Cast Moonfire on each of the Lunar Stones to spawn the Lunar Chest nearby.",
 					["coord"] = { 52.8, 78.8, TELDRASSIL },
 					["classes"] = { DRUID },
 					["groups"] = {
@@ -2783,15 +2783,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(ZONE_DROPS, {
 				i(7095, {	-- Bog Boots
-					["timeline"] = { REMOVED_4_0_3 },
-					["crs"] = {
-						2029,	-- Timberling Mire Beast
-						2005,	-- Vicious Grell
-					},
 					["coords"] = {
 						{ 43.6, 29.8, TELDRASSIL },
 						{ 43.4, 35.4, TELDRASSIL },
 						{ 52.6, 52.4, TELDRASSIL },
+					},
+					["timeline"] = { REMOVED_4_0_3 },
+					["crs"] = {
+						2029,	-- Timberling Mire Beast
+						2005,	-- Vicious Grell
 					},
 				}),
 				i(5206, {	-- Bogling Root
@@ -2819,14 +2819,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				i(7094, {	-- Driftwood Branch
+					["coord"] = { 45.4, 24.6, TELDRASSIL },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["cr"] = 2030,	-- Elder Timberling
-					["coord"] = { 45.4, 24.6, TELDRASSIL },
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208609, {	-- Glade Flower
-					["provider"] = { "o", 407247 },	-- Glade Flower
 					["description"] = "These are scattered throughout the zone.",
+					["provider"] = { "o", 407247 },	-- Glade Flower
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206954, {	-- Idol of Ursine Rage
 					["coord"] = { 45.6, 59.6, TELDRASSIL },

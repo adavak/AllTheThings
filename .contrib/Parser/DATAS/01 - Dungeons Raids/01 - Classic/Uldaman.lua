@@ -704,11 +704,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["groups"] = {
 					i(7733, {	-- Staff of Prehistoria
 						["description"] = "Use this on the keyhole looking gizmo in the digsite that has the miniature city to open the door to Ironaya.\n\nThis is a reference to the Raiders of the Lost Ark.",
+						["timeline"] = { REMOVED_4_1_0 },
 						["cost"] = {
 							{ "i", 7740, 1 },	-- Gni'kiv Medallion
 							{ "i", 7741, 1 },	-- The Shaft of Tsol
 						},
-						["timeline"] = { REMOVED_4_1_0 },
 					}),
 					i(7741, {	-- The Shaft of Tsol
 						["description"] = "Use this item along with the Gni'kiv Medallion to create the Staff of Prehistoria required to open the door to Ironaya.\n\nYou should trade this to the person that looted the Gni'kiv Medallion.",

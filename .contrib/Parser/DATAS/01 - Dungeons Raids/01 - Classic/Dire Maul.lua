@@ -2235,9 +2235,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							i(18379),	-- Odious Greaves
 							i(18370),	-- Vigilance Charm
 							applyclassicphase(TBC_PHASE_ONE, i(24345, {	-- Book of Cower IV
-								["spellID"] = 31709,	-- Cower IV
 								["timeline"] = { REMOVED_4_0_1 },
 								["classes"] = { DRUID },
+								["spellID"] = 31709,	-- Cower IV
 								["rank"] = 4,
 							})),
 						},
@@ -2282,8 +2282,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						["creatureID"] = 11486,
 						["groups"] = {
 							i(18336, {	-- Gauntlet of Gordok Might
-								["provider"] = { "o", 179545 },	-- The Prince's Chest
 								["description"] = "In the corner of the room that the Prince is in, next to the bookshelves, there is a small chest on the ground that contains the gauntlet. You must kill the Prince in order for the chest to be interactable.",
+								["provider"] = { "o", 179545 },	-- The Prince's Chest
 							}),
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(228472, {	-- Distracting Dagger

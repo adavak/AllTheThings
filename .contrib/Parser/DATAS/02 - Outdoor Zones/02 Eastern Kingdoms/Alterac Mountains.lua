@@ -860,9 +860,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_TWO, i(213452, {	-- Dormant Holy Rune
+					["description"] = "Once you have this rune in your inventory, use Divine Intervention on a healer friend. Have them resurrect you to receive the rune upon resurrection.",
 					["provider"] = { "o", 423841 },	-- Frozen Remains
 					["coord"] = { 39.7, 60.8, ALTERAC_MOUNTAINS },
-					["description"] = "Once you have this rune in your inventory, use Divine Intervention on a healer friend. Have them resurrect you to receive the rune upon resurrection.",
 					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
@@ -929,7 +929,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(1280, {	-- Cloaked Hood
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					-- #if BEFORE 4.0.3
 					["cr"] = 2246,	-- Syndicate Assassin
 					["coords"] = {
@@ -944,6 +943,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 49.6, 10.0, ALTERAC_MOUNTAINS },
 					},
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 				}),
 				i(11206, {	-- Formula: Enchant Cloak - Lesser Agility (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3 },
@@ -965,27 +965,27 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 2358,	-- Dalaran Summoner
 				}),
 				i(1602, {	-- Sickle Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
-					["cr"] = 2287,	-- Crushridge Warmonger
 					["coords"] = {
 						{ 42.2, 28.8, ALTERAC_MOUNTAINS },
 						{ 42.8, 31.0, ALTERAC_MOUNTAINS },
 						{ 44.2, 33.8, ALTERAC_MOUNTAINS },
 						{ 44.4, 30.4, ALTERAC_MOUNTAINS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+					["cr"] = 2287,	-- Crushridge Warmonger
 				}),
 				i(3703, {	-- Southshore Stout
 					["cr"] = 2440,	-- Drunken Footpad
 				}),
 				i(5245, {	-- Summoner's Wand
-					["races"] = HORDE_ONLY,
-					["cr"] = 2358,	-- Dalaran Summoner
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
 					["coords"] = {
 						{ 30.8, 31.6, ALTERAC_MOUNTAINS },
 						{ 33.6, 40.6, ALTERAC_MOUNTAINS },
 						{ 27.8, 40.6, ALTERAC_MOUNTAINS },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+					["races"] = HORDE_ONLY,
+					["cr"] = 2358,	-- Dalaran Summoner
 				}),
 			}),
 		},

@@ -121,15 +121,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if BEFORE 4.0.3
 			prof(HERBALISM, {
 				i(11514, {	-- Fel Creep
-					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["description"] = "In order for this to drop while Herbing, you must have the Cenarion Beacon in your bags.",
+					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 			}),
 			prof(MINING, {
 				i(11513, {	-- Tainted Vitriol
-					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["description"] = "In order for this to drop while Mining, you must have the Cenarion Beacon in your bags.",
+					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 			}),
@@ -2907,8 +2907,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if BEFORE 4.0.3
 			prof(SKINNING, {
 				i(11512, {	-- Patch of Tainted Skin
-					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["description"] = "In order for this to drop while Skinning, you must have the Cenarion Beacon in your bags.",
+					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["timeline"] = { REMOVED_4_0_3 },
 					["crs"] = {
 						8956,	-- Angerclaw Bear
@@ -2927,8 +2927,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226416, {	-- Rune of Nature Specialization
 					["provider"] = { "o", 457092 },	-- The Fury of Stormrage
-					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 62.8, 7.5, FELWOOD },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { HUNTER, ROGUE, SHAMAN, DRUID },
 					["groups"] = {
 						recipe(453698, {	-- Engrave Ring - Nature Specialization
@@ -3076,8 +3076,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if BEFORE 4.0.3
 				i(11515, {	-- Corrupted Soul Shard
-					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["description"] = "In order for this to drop by killing mobs, you must have the Cenarion Beacon in your bags.",
+					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				-- #endif
@@ -3104,12 +3104,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sym"] = {{"select","itemID", 20769}},	-- Disgusting Oozeling (PET!)
 				}),
 				i(15752, {	-- Pattern: Living Leggings (RECIPE!)
-					["cr"] = 7158,	-- Deadwood Shaman
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["coords"] = {
 						{ 62.6, 12.6, FELWOOD },
 						{ 61.6, 7.4, FELWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 7158,	-- Deadwood Shaman
 				}),
 				i(15739, {	-- Pattern: Runic Leather Bracers
 					["timeline"] = { REMOVED_4_0_3 },	-- Moved to Trainers
@@ -3127,12 +3127,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["cr"] = 7107,	-- Jadefire Trickster
 				}),
 				i(13491, {	-- Recipe: Elixir of the Mongoose (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-					["cr"] = 7106,	-- Jadefire Rogue
 					["coords"] = {
 						{ 38.6, 69.6, FELWOOD },
 						{ 33.8, 66.6, FELWOOD },
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["cr"] = 7106,	-- Jadefire Rogue
 				}),
 			}),
 		},

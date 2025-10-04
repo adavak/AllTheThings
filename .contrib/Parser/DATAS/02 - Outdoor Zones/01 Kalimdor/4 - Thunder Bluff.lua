@@ -84,7 +84,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(67414, {	-- Bag of Shiny Things
-						["provider"] = { "n", 3028 },	-- Kah Mistrunner
 						["description"] = "Fishing Daily Quest Reward",
 						["sourceQuests"] = {
 							29349,	-- Craving Crayfish
@@ -93,6 +92,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							29348,	-- The Race to Restock
 							29346,	-- The Ring's the Thing
 						},
+						["provider"] = { "n", 3028 },	-- Kah Mistrunner
 						["timeline"] = { ADDED_4_0_1 },
 						["groups"] = {
 							i(44983),	-- Strand Crawler (PET!)
@@ -1407,8 +1407,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						applyclassicphase(TBC_PHASE_ONE, i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
-							["isLimited"] = true,
 							["timeline"] = { ADDED_2_0_5 },
+							["isLimited"] = true,
 						})),
 					},
 				}),

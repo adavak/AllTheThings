@@ -4138,6 +4138,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						i(16072, {	-- Expert Cookbook
 							["timeline"] = { REMOVED_3_1_0 },
+							["rank"] = 3,
 							-- #if SEASON_OF_DISCOVERY
 							["OnUpdate"] = [[function(t)
 								if C_Seasons and C_Seasons.GetActiveSeason() == 2 then
@@ -4146,7 +4147,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								t.OnUpdate = nil;
 							end]],
 							-- #endif
-							["rank"] = 3,
 						}),
 					},
 				}),
@@ -4186,6 +4186,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_ONE, i(211691, {	-- Spell Notes: Arcane Blast
+					["description"] = "Cast Arcane Explosion in the correct order next to the Arcane Shard. South to North.",
 					--[[
 					-- TODO: Find the objectIDs and if there are any questIDs.
 					["providers"] = {
@@ -4194,7 +4195,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "o",  },	-- Arcane Shard
 					},
 					]]--
-					["description"] = "Cast Arcane Explosion in the correct order next to the Arcane Shard. South to North.",
 					["coords"] = {
 						{ 13.0, 24.8, ASHENVALE },	-- Southern Crystal
 						{ 14.0, 19.8, ASHENVALE },	-- Middle Crystal
@@ -4207,11 +4207,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210044, {	-- Symbol of the First Owl
+					["description"] = "Channel on the statue to summon a wisp. Wisp will move for a few seconds, then 3 waves of 2 adds (level 23/25) will spawn one after another. Protect the wisp using bear form and you'll receive the symbol in your inventory.",
 					["providers"] = {
 						{ "o", 410020 },	-- Owl Statue
 						{ "n", 211269 },	-- Summoned Wisp
 					},
-					["description"] = "Channel on the statue to summon a wisp. Wisp will move for a few seconds, then 3 waves of 2 adds (level 23/25) will spawn one after another. Protect the wisp using bear form and you'll receive the symbol in your inventory.",
 					["coord"] = { 87.0, 43.2, ASHENVALE },
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { DRUID },
@@ -4238,17 +4238,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				i(1351, {	-- Fingerbone Bracers
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					-- #if BEFORE 4.0.3
 					["description"] = "This item is only naturally accessible to Alliance players due to the allegiance of the creatures that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 					-- #endif
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						3928,	-- Rotting Slime
-						-- #else
-						3808,	-- Forsaken Dark Stalker
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 75.6, 69.2, ASHENVALE },
@@ -4260,6 +4252,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #else
 						{ 75.8, 73.6, ASHENVALE },
 						{ 77.4, 75.4, ASHENVALE },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						3928,	-- Rotting Slime
+						-- #else
+						3808,	-- Forsaken Dark Stalker
 						-- #endif
 					},
 				}),
@@ -4276,11 +4276,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209840, {	-- Gnarled Wand of Wild Magic
 					["timeline"] = { REMOVED_2_0_1 },
-					["classes"] = { HUNTER },
 					["cost"] = {
 						{ "i", 209841, 1 },	-- Wild Magic Essence
 						{ "i", 11288, 1 },	-- Greater Magic Wand
 					},
+					["classes"] = { HUNTER },
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(211534, {	-- Primal Insight
 					["coords"] = {

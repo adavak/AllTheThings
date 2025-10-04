@@ -70,8 +70,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 				["creatureID"] = 21216,
 				["groups"] = {
 					i(138834, {	-- Illusion: Frostbrand (ILLUSION!)
-						["classes"] = { SHAMAN },
 						["timeline"] = { ADDED_7_0_3 },
+						["classes"] = { SHAMAN },
 					}),
 					i(97553, {	-- Tainted Waveling (PET!)
 						["timeline"] = { ADDED_5_3_0 },
@@ -92,8 +92,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 					}),
 					i(30629),	-- Scarab of Displacement
 					i(30051, {	-- Idol of the Crescent Goddess
-						["classes"] = { DRUID },
 						["timeline"] = { REMOVED_5_0_4 },
+						["classes"] = { DRUID },
 					}),
 				},
 			}),
@@ -105,8 +105,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 						["requireSkill"] = FISHING,
 					}),
 					i(138834, {	-- Illusion: Frostbrand (ILLUSION!)
-						["classes"] = { SHAMAN },
 						["timeline"] = { ADDED_7_0_3 },
+						["classes"] = { SHAMAN },
 					}),
 					i(30058),	-- Mallet of the Tides
 					i(30059),	-- Choker of Animalistic Fury

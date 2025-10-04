@@ -184,6 +184,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				prof(FISHING, {
 					i(16967, {	-- Feralas Ahi
+						["description"] = "Best fished at the given coords.",
 						["coords"] = {
 							-- #if BEFORE 4.0.3
 							{ 62.0, 52.0, FERALAS },	-- Verdantis River
@@ -191,7 +192,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							{ 62.9, 51.5, FERALAS },	-- Verdantis River
 							-- #endif
 						},
-						["description"] = "Best fished at the given coords.",
 					}),
 				}),
 				prof(LEATHERWORKING, {
@@ -3399,8 +3399,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(216645, {	-- Mote of Darkness
-					["provider"] = { "n", 218241 },	-- Shadowy Figure
 					["description"] = "After acquiring the Spent Voidcore, killing any mob in the zone can cause the Shadowy Figure to appear.",
+					["provider"] = { "n", 218241 },	-- Shadowy Figure
 				})),
 				applyclassicphase(SOD_PHASE_TWO, i(216635, {	-- Spent Voidcore
 					["crs"] = {
@@ -3412,11 +3412,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				-- #if AFTER 3.1.0
 				i(11474, {	-- Sprite Darter Egg (PET!)
-					["timeline"] = { ADDED_1_11_1 },
 					-- #if BEFORE 4.0.3
 					["description"] = "This pet only drops from the Darters for Horde players. Alliance players will need to complete 'Becoming a Parent' that is completed in the Hinterlands.",
 					["sourceQuest"] = 4298,	-- Becoming a Parent
 					-- #endif
+					["timeline"] = { ADDED_1_11_1 },
 					["crs"] = {
 						-- #if AFTER 4.0.3
 						5300,	-- Frayfeather Hippogryph

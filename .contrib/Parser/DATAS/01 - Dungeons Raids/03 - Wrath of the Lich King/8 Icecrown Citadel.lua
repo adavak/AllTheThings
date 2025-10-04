@@ -188,15 +188,15 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						},
 					}),
 					i(51315, {	-- Sealed Chest
-						["qg"] = 36597,	-- The Lich King
 						["questID"] = 24914,	-- Personal Property
-						["sourceQuest"] = 24549,	-- Shadowmourne...
-						["provider"] = { "i", 51316 },	-- Unsealed Chest
 						["description"] = "Dropped by the Lich King on 25-Man difficulty while on the quest |cFFefc400The Lich King's Last Stand|r. Only your first kill will trigger the item to drop. You do NOT need to have Shadowmourne equipped.\n\nThis item contains a lot of BoE cosmetic items that sell very well. During its time, this was used to reward other members of the raid for assisting the guild master (more than likely) with Shadowmourne for the many months it took to complete the quest chain.\n\nIn addition to being very rewarding, these quests were some of the most treasured throughout World of Warcraft's long history.",
+						["sourceQuest"] = 24549,	-- Shadowmourne...
+						["qg"] = 36597,	-- The Lich King
+						["provider"] = { "i", 51316 },	-- Unsealed Chest
 						["groups"] = {
 							i(51317, {	-- Alexandros' Soul Shard
-								["description"] = "Alexandros: Darion, my son. At last I am able to lay my eyes upon you again. The Lich King tormented me without end, Darion. Endlessly he sought to break my will, to force me to serve him, to bind me to his blade. Finally, when events demanded his full attention, he left me. The one memory I clung to Darion, the one thought that kept me from giving in, it was your sacrifice, my son. That again saved me from eternal peril.\n\nDarion: Father, father, I… I feared for your sanity, father, for you, I would give my life a thousand times.",
 								["questID"] = 24915,	-- Mograine's Reunion
+								["description"] = "Alexandros: Darion, my son. At last I am able to lay my eyes upon you again. The Lich King tormented me without end, Darion. Endlessly he sought to break my will, to force me to serve him, to bind me to his blade. Finally, when events demanded his full attention, he left me. The one memory I clung to Darion, the one thought that kept me from giving in, it was your sacrifice, my son. That again saved me from eternal peril.\n\nDarion: Father, father, I… I feared for your sanity, father, for you, I would give my life a thousand times.",
 								["groups"] = {
 									i(52200, {	-- Crimson Deathcharger (MOUNT!)
 										["b"] = 2,	-- Mounts don't inherently assign themselves as BoE, so the Ignore Filters for BoEs trigger wasn't picking this up.
@@ -204,29 +204,29 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 								},
 							}),
 							i(51319, {	-- Arthas' Training Sword
-								["description"] = "Muradin: Oh lad, how I missed those endless days in Lordaeron, sharpening your skill with this dull blade. Forging you into a weapon meant to withstand the demands of a great destiny. Heh… You sure put them skills to use, didn't you lad?\n\nIf only I'd been able to stop you that day, how different things migha' been. If only I'da never discovered that accursed blade. Farewell, Arthas, my brother.",
 								["questID"] = 24917,	-- Muradin's Lament
+								["description"] = "Muradin: Oh lad, how I missed those endless days in Lordaeron, sharpening your skill with this dull blade. Forging you into a weapon meant to withstand the demands of a great destiny. Heh… You sure put them skills to use, didn't you lad?\n\nIf only I'd been able to stop you that day, how different things migha' been. If only I'da never discovered that accursed blade. Farewell, Arthas, my brother.",
 								["groups"] = {
 									i(52201)	-- Muradin's Favor (TOY!)
 								},
 							}),
 							i(51320, {	-- Badge of the Silver Hand
-								["description"] = "Uther: Arthas... Alas, hero of Azeroth. You give me a greater gift than you know. Long have I struggled to forgive the prince for his terrible transgressions. My soul has been wracked with unbearable anxiety, dark thoughts, distancing me from the light.\n\nI recall clearly... the gleam of pride in his eye as he stood before me, eager to defeat the enemies of the light... eager to defend his people, no matter the cost. It is this memory of Arthas that I choose to keep in my heart.\n\nI shall always be in your debt, friend. Thank you.",
 								["questID"] = 24919,	-- The Lightbringer's Redemption
+								["description"] = "Uther: Arthas... Alas, hero of Azeroth. You give me a greater gift than you know. Long have I struggled to forgive the prince for his terrible transgressions. My soul has been wracked with unbearable anxiety, dark thoughts, distancing me from the light.\n\nI recall clearly... the gleam of pride in his eye as he stood before me, eager to defeat the enemies of the light... eager to defend his people, no matter the cost. It is this memory of Arthas that I choose to keep in my heart.\n\nI shall always be in your debt, friend. Thank you.",
 								["groups"] = {
 									i(52252)	-- Tabard of the Lightbringer
 								},
 							}),
 							i(51321, {	-- Blood of Sylvanas
-								["description"] = "Sylvanas: So, it is done. I had not dared to trust my senses. Too many times has the Lich King made me to be a fool. Finally, he has been made to pay for the atrocities he imposed upon my people.\n\nMay Azeroth never fail to remember the horrible price we paid for our weakness, for our pride. But what now, Hero? What of those freed from his grasp but still shackled to their mortal coils?\n\nLeave me. I have much to ponder.",
 								["questID"] = 24918,	-- Sylvanas' Vengeance
+								["description"] = "Sylvanas: So, it is done. I had not dared to trust my senses. Too many times has the Lich King made me to be a fool. Finally, he has been made to pay for the atrocities he imposed upon my people.\n\nMay Azeroth never fail to remember the horrible price we paid for our weakness, for our pride. But what now, Hero? What of those freed from his grasp but still shackled to their mortal coils?\n\nLeave me. I have much to ponder.",
 								["groups"] = {
 									i(52253)	-- Sylvanas' Music Box (TOY!)
 								},
 							}),
 							i(51318, {	-- Jaina's Locket
-								["description"] = "Jaina: What's this?\nHe... he kept it.. all this time he kept it!\n<Cries> I knew!\n<Cries> I sensed a part of him still alive... trapped... struggling. Oh Arthas!\nPerhaps he might someday remember from what he once was...\nBy the Light may he at last find rest, free from the icy grip of that terrible blade!",
 								["questID"] = 24916,	-- Jaina's Locket
+								["description"] = "Jaina: What's this?\nHe... he kept it.. all this time he kept it!\n<Cries> I knew!\n<Cries> I sensed a part of him still alive... trapped... struggling. Oh Arthas!\nPerhaps he might someday remember from what he once was...\nBy the Light may he at last find rest, free from the icy grip of that terrible blade!",
 								["groups"] = {
 									i(52251, {	-- Jaina's Locket
 										-- #if NOT ANYCLASSIC
@@ -952,8 +952,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
 					}),
 					i(52023, {	-- Plans: Iceblade Arrow (RECIPE!)
-						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
 						["timeline"] = { REMOVED_4_0_1 },
+						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
 					}),
 					i(49971, {	-- Plans: Legplates of Painful Death (RECIPE!)
 						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
@@ -968,8 +968,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
 					}),
 					i(52022, {	-- Plans: Shatter Rounds (RECIPE!)
-						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
 						["timeline"] = { REMOVED_4_0_1 },
+						["cost"] = { { "i", 49908, 1 }, },	-- 1x Primordial Saronite
 					}),
 				}),
 				n(38858, {	-- Goodman the "Closer" <Legacy Justice Quartermaster>
@@ -1423,8 +1423,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 								["timeline"] = { ADDED_7_1_0 },
 							}),
 							i(138955, {	-- Illusion: Rune of Razorice (ILLUSION!)
-								["classes"] = { DEATHKNIGHT },
 								["timeline"] = { ADDED_7_0_3 },
+								["classes"] = { DEATHKNIGHT },
 							}),
 							i(51799),	-- Halion, Staff of Forgotten Love
 							i(51797),	-- Tainted Twig of Nordrassil
@@ -1768,8 +1768,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 								["timeline"] = { ADDED_7_1_0 },
 							}),
 							i(138955, {	-- Illusion: Rune of Razorice (ILLUSION!)
-								["classes"] = { DEATHKNIGHT },
 								["timeline"] = { ADDED_7_0_3 },
+								["classes"] = { DEATHKNIGHT },
 							}),
 							i(51943),	-- Halion, Staff of Forgotten Love
 							i(51945),	-- Tainted Twig of Nordrassil
@@ -2083,8 +2083,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["groups"] = {
 							ach(4619),	-- Portal Jockey (25 player)
 							i(138832, {	-- Illusion: Earthliving (ILLUSION!)
-								["classes"] = { SHAMAN },
 								["timeline"] = { ADDED_7_0_3 },
+								["classes"] = { SHAMAN },
 							}),
 							i(50183),	-- Lungbreaker
 							i(50472),	-- Nightmare Ender
@@ -2135,8 +2135,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 								["timeline"] = { ADDED_7_1_0 },
 							}),
 							i(138955, {	-- Illusion: Rune of Razorice (ILLUSION!)
-								["classes"] = { DEATHKNIGHT },
 								["timeline"] = { ADDED_7_0_3 },
+								["classes"] = { DEATHKNIGHT },
 							}),
 							i(50429),	-- Archus, Greatstaff of Antonidas
 							i(50070),	-- Glorenzelg, High-Blade of the Silver Hand
@@ -2459,8 +2459,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["groups"] = {
 							ach(4619),	-- Portal Jockey (25 player)
 							i(138832, {	-- Illusion: Earthliving (ILLUSION!)
-								["classes"] = { SHAMAN },
 								["timeline"] = { ADDED_7_0_3 },
+								["classes"] = { SHAMAN },
 							}),
 							i(50621),	-- Lungbreaker
 							i(50631),	-- Nightmare Ender
@@ -2525,8 +2525,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 								["timeline"] = { ADDED_7_1_0 },
 							}),
 							i(138955, {	-- Illusion: Rune of Razorice (ILLUSION!)
-								["classes"] = { DEATHKNIGHT },
 								["timeline"] = { ADDED_7_0_3 },
+								["classes"] = { DEATHKNIGHT },
 							}),
 							i(50731),	-- Archus, Greatstaff of Antonidas
 							i(50730),	-- Glorenzelg, High-Blade of the Silver Hand

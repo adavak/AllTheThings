@@ -90,7 +90,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if AFTER CATA
 				prof(FISHING, {
 					i(67414, {	-- Bag of Shiny Things
-						["provider"] = { "n", 4573 },	-- Armand Cromwell
 						["description"] = "Fishing Daily Quest Reward",
 						["sourceQuests"] = {
 							29317,	-- Fish Head
@@ -99,6 +98,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							29319,	-- Tadpole Terror
 							29322,	-- Time for Slime
 						},
+						["provider"] = { "n", 4573 },	-- Armand Cromwell
 						["timeline"] = { ADDED_4_0_1 },
 						["groups"] = {
 							i(44983, {	-- Strand Crawler (PET!)

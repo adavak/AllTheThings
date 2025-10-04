@@ -259,9 +259,9 @@ local EncounterToLoot = {
 		-- Has special ItemAppearanceModifierID assignments
 		-- i(204465),	-- Voice of the Silent Star
 		i(217408, {	-- Awakened Tempostone
+			["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
 			["sym"] = GET_SYM_DF_S4_TIER_TOKENS(),
 			["up"] = IGNORED_VALUE,
-			["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
 		}),
 	},
 };
@@ -733,11 +733,11 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 				}),
 				BossOnly(ASSAULT, {
 					i(205256, {	-- Satchel of Pilfered Recipes
-						i(194642),	-- Design: Choker of Shielding (RECIPE!)
 						TempForceMisc(ig(201740, {	-- Elemental Codex of Ultimate Power
 							r(370543),	-- Elemental Potion of Ultimate Power (RECIPE!)
 							r(370672),	-- Potion Cauldron of Ultimate Power (RECIPE!)
 						})),
+						i(194642),	-- Design: Choker of Shielding (RECIPE!)
 						i(194259),	-- Pattern: Allied Cinch of Time Dilation (RECIPE!)
 						i(194266),	-- Pattern: Bronzed Grip Wrappings (RECIPE!)
 						i(194260),	-- Pattern: Blue Dragon Soles (RECIPE!)

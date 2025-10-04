@@ -100,9 +100,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					91331,	-- Archi
 				},
 				["groups"] = {
-					un(REMOVED_FROM_GAME, i(127115, {	-- Tome of Chaos
-
-					})),
+					un(REMOVED_FROM_GAME, i(127115)),	-- Tome of Chaos
 				},
 			}),
 			d(DIFFICULTY.RAID.MULTI.ALL, {

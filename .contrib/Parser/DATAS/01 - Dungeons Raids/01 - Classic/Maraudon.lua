@@ -192,27 +192,27 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(17761, {	-- Gem of the First Khan
 							["description"] = "Kolk is standing by the little room where you create the portal for Inner Maraudon, in the middle part.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
+							["coord"] = { 29.7, 60.5, DESOLACE },
 							["crs"] = {
 								12240,	-- Spirit of Kolk <The First Kahn>
 								13742,	-- Kolk <The First Kahn>
 							},
-							["coord"] = { 29.7, 60.5, DESOLACE },
 						}),
 						i(17762, {	-- Gem of the Second Kahn
 							["description"] = "Gelk is located outside the portal of the purple path, hanging with snakes and rock elementals. He is almost just below the portal (use the stairs to get to him).\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
+							["coord"] = { 29.4, 56.9, DESOLACE },
 							["crs"] = {
 								12239,	-- Spirit of Gelk <The Second Kahn>
 								13741,	-- Gelk <The Second Kahn>
 							},
-							["coord"] = { 29.4, 56.9, DESOLACE },
 						}),
 						i(17763, {	-- Gem of the Third Kahn
 							["description"] = "Magra is located outside the portal of the orange path. He is in the stairs area.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
+							["coord"] = { 35.8, 60.4, DESOLACE },
 							["crs"] = {
 								12241,	-- Spirit of Magra <The Third Kahn>
 								13740,	-- Magra <The Third Kahn>
 							},
-							["coord"] = { 35.8, 60.4, DESOLACE },
 						}),
 						i(17764, {	-- Gem of the Fourth Kahn
 							["description"] = "Maraudos is located inside the purple path of Maraudon, wandering not too far away from the entrance.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",

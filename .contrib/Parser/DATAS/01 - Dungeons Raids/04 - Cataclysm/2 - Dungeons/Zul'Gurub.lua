@@ -221,12 +221,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							})),
 							prof(SKINNING, {
 								i(19767, {	-- Primal Bat Leather
-									["cr"] = 202341,	-- Ancient Bat
 									["description"] = "Ancient Bats can be found on the following locations in Zul'Gurub:\n* Pack of 2 by crossroads between the first two bridges.\n* Pack of 2 behind a three just north down the path from the mentioned crossroad.\n* Pack of 3 between a wall and a hut on the eastern side of the second bridge.\n* Pack of 3 in the southwestern corner of Mandokir's Domain.\n* Pack of 2 in the northeastern corner of Mandokir's Domain.",
+									["cr"] = 202341,	-- Ancient Bat
 								}),
 								i(19768, {	-- Primal Tiger Leather
-									["cr"] = 202339,	-- Ancient Tiger
 									["description"] = "Ancient Tigers can be found on the following locations in Zul'Gurub:\n* Pack of 2 west of the stairs by Mortaxx.\n* Pack of 2 east of the stairs by Mortaxx.\n* Pack of 3 east of the inn.\n* Pack of 3 northwest of the inn.\n* Pack of 3 outside of the eastern outer wall of Temple of Bethekk.",
+									["cr"] = 202339,	-- Ancient Tiger
 								}),
 							}),
 						}),

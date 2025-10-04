@@ -65,7 +65,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 					}),
 					i(17182, {	-- Sulfuras, Hand of Ragnaros
-						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 						-- #if SEASON_OF_DISCOVERY
 						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
@@ -73,15 +72,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							{ "i", 17204, 1 },	-- Eye of Sulfuras
 							{ "i", 17193, 1 },	-- Sulfuron Hammer
 						},
+						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 					}),
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FIVE, i(227683, {	-- Sulfuras, Hand of Ragnaros
-						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 						["timeline"] = { ADDED_1_15_4 },
 						["cost"] = {
 							{ "i", 227728, 1 },	-- Eye of Sulfuras
 							{ "i", 227684, 1 },	-- Sulfuron Hammer
 						},
+						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 					})),
 					-- #endif
 				},
@@ -414,14 +414,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(REWARDS, {
 				i(17333, {	-- Aqual Quintessence
 					["description"] = "Return to the Duke at Honored reputation after completing the Hands of the Enemy quest to receive this item from a dialog option.",
-					["minReputation"] = { FACTION_HYDRAXIAN_WATERLORDS, HONORED },	-- Hydraxian Waterlords, Honored.
 					["sourceQuest"] = 6824,	-- Hands of the Enemy
+					["minReputation"] = { FACTION_HYDRAXIAN_WATERLORDS, HONORED },	-- Hydraxian Waterlords, Honored.
 					["timeline"] = { ADDED_1_0_1, REMOVED_3_0_8 },
 				}),
 				applyclassicphase(PHASE_THREE, i(22754, {	-- Eternal Quintessence
 					["description"] = "Return to the Duke at Revered reputation to be given a version of your Quintessence that can be used more than once.",
-					["minReputation"] = { FACTION_HYDRAXIAN_WATERLORDS, REVERED },	-- Hydraxian Waterlords, Revered.
 					["sourceQuest"] = 6824,	-- Hands of the Enemy
+					["minReputation"] = { FACTION_HYDRAXIAN_WATERLORDS, REVERED },	-- Hydraxian Waterlords, Revered.
 					["timeline"] = { ADDED_1_0_1, REMOVED_3_0_8 },
 				})),
 			}),
@@ -525,8 +525,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(19147),	-- Ring of Spell Power
 					-- #if NOT SEASON_OF_DISCOVERY
 					i(16665, {	-- Tome of Tranquilizing Shot
-						["classes"] = { HUNTER },
 						["timeline"] = { ADDED_1_0_1, REMOVED_3_0_8 },
+						["classes"] = { HUNTER },
 						-- #if BEFORE WRATH
 						["recipeID"] = 19801,	-- Tranquilizing Shot
 						-- #endif
@@ -697,8 +697,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					i(17074),	-- Shadowstrike
 					i(17223, {	-- Thunderstrike
-						["provider"] = { "i", 17074 },	-- Shadowstrike
 						["description"] = "Use Shadowstrike to create this item.",
+						["provider"] = { "i", 17074 },	-- Shadowstrike
 					}),
 					i(18878),	-- Sorcerous Dagger
 					i(17077),	-- Crimson Shocker
@@ -756,8 +756,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["groups"] = {
 					-- #if NOT SEASON_OF_DISCOVERY
 					i(18703, {	-- Ancient Petrified Leaf
-						["classes"] = { HUNTER },
 						["timeline"] = { ADDED_1_0_1, REMOVED_4_0_3 },
+						["classes"] = { HUNTER },
 						["lvl"] = 60,
 					}),
 					i(18646, {	-- The Eye of Divinity
@@ -796,16 +796,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 					}),
 					i(19017, {	-- Essence of the Firelord
-						["b"] = 1,
 						["description"] = "For this to drop, you must be on the Thunderaan the Windseeker quest.",
 						["classes"] = SWORD_CLASSES,
+						["b"] = 1,
 					}),
 					i(138018, {	-- Clothes Chest Pattern: Molten Core (RECIPE!)
 						["timeline"] = { ADDED_7_0_3 },
 					}),
 					i(138833, {	-- Illusion: Flametongue (ILLUSION!)
-						["classes"] = { SHAMAN },
 						["timeline"] = { ADDED_7_0_3 },
+						["classes"] = { SHAMAN },
 					}),
 					i(17076),	-- Bonereaver's Edge
 					i(17104),	-- Spinal Reaper
@@ -1343,8 +1343,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228242),	-- Heavy Dark Iron Ring
 					i(228243),	-- Ring of Spell Power
 					i(16665, {	-- Tome of Tranquilizing Shot
-						["classes"] = { HUNTER },
 						["timeline"] = { ADDED_1_0_1, REMOVED_3_0_8 },
+						["classes"] = { HUNTER },
 						-- #if BEFORE WRATH
 						["recipeID"] = 19801,	-- Tranquilizing Shot
 						-- #endif
@@ -1487,8 +1487,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228128),	-- Hammer of The Black Anvil
 					i(228272),	-- Shadowstrike
 					i(228273, {	-- Thunderstrike
-						["provider"] = { "i", 228272 },	-- Shadowstrike
 						["description"] = "Use Shadowstrike to create this item.",
+						["provider"] = { "i", 228272 },	-- Shadowstrike
 					}),
 					i(228263),	-- Sorcerous Dagger
 					i(228262),	-- Crimson Shocker
@@ -1549,8 +1549,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "o", 179703 },	-- Cache of the Firelord
 					["groups"] = {
 						i(18703, {	-- Ancient Petrified Leaf
-							["classes"] = { HUNTER },
 							["timeline"] = { ADDED_1_0_1, REMOVED_4_0_3 },
+							["classes"] = { HUNTER },
 							["lvl"] = 60,
 						}),
 						i(18646, {	-- The Eye of Divinity
@@ -1730,8 +1730,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["cr"] = 228430,	-- Magmadar
 						}),
 						i(229381, {	-- Thunderstrike [Molten]
-							["provider"] = { "i", 229380 },	-- Shadowstrike [Molten]
 							["description"] = "Use Shadowstrike to create this item.",
+							["provider"] = { "i", 229380 },	-- Shadowstrike [Molten]
 						}),
 					},
 				}),

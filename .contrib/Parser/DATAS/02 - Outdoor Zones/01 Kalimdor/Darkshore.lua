@@ -3157,9 +3157,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209836, {	-- Althalaxx Orb
+					["description"] = "Climb the tower in Darkshore, you'll likely need a group or a friend capable of surviving long enough to give you about 3 seconds of uninterupted looting time.",
 					["provider"] = { "o", 409289 },	-- Strange Orb
 					["coord"] = { 56.2, 26.5, DARKSHORE },
-					["description"] = "Climb the tower in Darkshore, you'll likely need a group or a friend capable of surviving long enough to give you about 3 seconds of uninterupted looting time.",
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { PALADIN },
 				})),
@@ -3216,11 +3216,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208701, {	-- Rune of Beast Mastery
+					["description"] = "Use Crab Treats on a young reef crawler to receive this rune.",
 					["providers"] = {
 						{ "n",   2234 },	-- Young Reef Crawler
 						{ "i", 209027 },	-- Crab Treats
 					},
-					["description"] = "Use Crab Treats on a young reef crawler to receive this rune.",
 					["coord"] = { 36.4, 54.2, DARKSHORE },
 					["classes"] = { HUNTER },
 					["groups"] = {
@@ -3399,9 +3399,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				i(45040, {	-- Shatterspear Torturer's Cage Key
 					["description"] = "Use the Key on a nearby cage to release Sentinel Aynasha and receive an Escort Quest.",
-					["cr"] = 32970,	-- Rit'ko
 					["coord"] = { 64.1, 5.3, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
+					["cr"] = 32970,	-- Rit'ko
 				}),
 				-- #if BEFORE 4.0.3
 				i(5568, {	-- Smooth Pebble

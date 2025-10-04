@@ -2108,8 +2108,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(60873, {	-- Book of Lost Souls
-					["provider"] = { "o", 205476 },	-- Book of Lost Souls
 					["description"] = "This item in located on a chair in Lord Walden's room.",
+					["provider"] = { "o", 205476 },	-- Book of Lost Souls
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				n(4274, {	-- Fenrus the Devourer

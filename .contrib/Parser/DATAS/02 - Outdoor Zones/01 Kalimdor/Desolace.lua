@@ -2848,6 +2848,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						i(16072, {	-- Expert Cookbook
 							["timeline"] = { REMOVED_3_1_0 },
+							["rank"] = 3,
 							-- #if SEASON_OF_DISCOVERY
 							["OnUpdate"] = [[function(t)
 								if C_Seasons and C_Seasons.GetActiveSeason() == 2 then
@@ -2856,7 +2857,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								t.OnUpdate = nil;
 							end]],
 							-- #endif
-							["rank"] = 3,
 						}),
 						i(17062),	-- Recipe: Mithril Head Trout (RECIPE!)
 						i(6369),	-- Recipe: Rockscale Cod (RECIPE!)
@@ -2867,14 +2867,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(ZONE_DROPS, {
 				i(2620, {	-- Augural Shroud
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						-- #if AFTER 10.1.7
-						4679,	-- Nether Maiden
-						-- #else
-						4684,	-- Nether Sorceress
-						-- #endif
-					},
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 52.6, 83.8, DESOLACE },
@@ -2884,6 +2876,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 52.2, 83.6, DESOLACE },
 						{ 48.2, 75.8, DESOLACE },
 						{ 53.2, 71.0, DESOLACE },
+						-- #endif
+					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						4679,	-- Nether Maiden
+						-- #else
+						4684,	-- Nether Sorceress
 						-- #endif
 					},
 				}),

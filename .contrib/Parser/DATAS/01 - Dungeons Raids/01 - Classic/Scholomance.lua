@@ -737,8 +737,8 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 			},
 		})),
 		i(12736, {	-- Frostwhisper's Embalming Fluid
-			["provider"] = { "o", 175965 },	-- Frostwhisper's Embalming Fluid
 			["description"] = "Can be found inside the chemistry lab in Scholomance, in Ras Frostwhisper's room.",
+			["provider"] = { "o", 175965 },	-- Frostwhisper's Embalming Fluid
 			["timeline"] = { ADDED_1_11_1, REMOVED_5_0_4, ADDED_10_2_5 }	-- Maybe added with Scholo in 10.1.7, but its an useless item anyway.
 		}),
 	}),
@@ -1283,8 +1283,8 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 	}),
 	n(10508, {	-- Ras Frostwhisper
 		i(13626, {	-- Human Head of Ras Frostwhisper
-			["cost"] = { { "i", 13752, 1 } },	-- Soulbound Keepsake
 			["description"] = "Use the Keepsake on him before he dies to turn him back into a human.",
+			["cost"] = { { "i", 13752, 1 } },	-- Soulbound Keepsake
 		}),
 		i(13521),	-- Recipe: Flask of Supreme Power (RECIPE!)
 		i(14487),	-- Bonechill Hammer
@@ -1733,8 +1733,8 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 		["description"] = "You must full clear out the Crypt before this boss will spawn on the bottom floor. It is recommended that you clear the top floor last so that you have an opportunity to properly position your group.",
 		["groups"] = {
 			i(206373, {	-- Darkmaster's Scourgestone (QI!)
-				["provider"] = { "i", 12846 },	-- Argent Dawn Commission
 				["description"] = "Drops only with equipped Argent Dawn Commission",
+				["provider"] = { "i", 12846 },	-- Argent Dawn Commission
 				["timeline"] = { ADDED_10_1_5 },
 			}),
 			i(14514, {	-- Pattern: Robe of the Void (RECIPE!)

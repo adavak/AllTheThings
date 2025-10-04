@@ -95,7 +95,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["provider"] = { "i", 8707 },	-- Gahz'rilla's Electrified Scale
 						}),
 						i(11122, {	-- Carrot on a Stick
-							["timeline"] = { REMOVED_4_0_3 },
 							-- #if BEFORE WRATH
 							-- #if AFTER TBC
 							["description"] = "Once you have a Riding Crop, you may safely vendor this item as the two effects do not stack. Until then, use it to make mounted travel more efficient.",
@@ -103,6 +102,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["description"] = "Do NOT vendor this item. Keep it with you always. It is best-in-slot when you are traveling long distances on your mount. (which you do a lot in Classic!)",
 							-- #endif
 							-- #endif
+							["timeline"] = { REMOVED_4_0_3 },
 						}),
 						i(9653, {	-- Speedy Racer Googles
 							["timeline"] = { REMOVED_1_9_3 },

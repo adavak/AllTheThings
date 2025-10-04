@@ -1429,11 +1429,11 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					["cr"] = 9216,	-- Spirestone Warlord
 				}),
 				i(14513, {	-- Pattern: Robe of the Archmage (RECIPE!)
-					["cr"] = 9264,	-- Firebrand Pyromancer
 					-- #if TBC
 					-- During TBC this was made exclusively usable by Mages, then that change was reverted with Wrath.
 					["classes"] = { MAGE },
 					-- #endif
+					["cr"] = 9264,	-- Firebrand Pyromancer
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(227906, {	-- Pattern: Masterwork Volcanic Breastplate (RECIPE!)
@@ -1527,8 +1527,8 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				},
 			}),
 			i(12533, {	-- Roughshod Pike
-				["provider"] = { "o", 175886 },	-- Roughshod Pike
 				["description"] = "This item can be found along the back wall as you cross the 2nd bridge to the sleeping orc encampment just after Warosh.",
+				["provider"] = { "o", 175886 },	-- Roughshod Pike
 			}),
 			n(9218, {	-- Spirestone Battle Lord (Rare)
 				["coord"] = { 39.0, 64.0, LBRS_HORDEMAR_CITY },	-- Mok'Doom
@@ -1661,11 +1661,11 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["creatureID"] = 9236,	-- Shadow Hunter Vosh'gajin
 				["groups"] = {
 					i(12740, {	-- Fifth Mosh'aru Tablet
-						["provider"] = { "o", 175949 },	-- Fifth Mosh'aru Tablet
-						["timeline"] = { REMOVED_4_0_3 },
 						-- #if BEFORE 4.0.3
 						["description"] = "Located directly behind the boss.",
 						-- #endif
+						["provider"] = { "o", 175949 },	-- Fifth Mosh'aru Tablet
+						["timeline"] = { REMOVED_4_0_3 },
 					}),
 					i(13352, {	-- Vosh'gajin's Snakestone
 						["timeline"] = { REMOVED_4_0_3 },
@@ -1739,11 +1739,11 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["creatureID"] = 9237,	-- War Master Voone
 				["groups"] = {
 					i(12741, {	-- Sixth Mosh'aru Tablet
-						["provider"] = { "o", 175950 },	-- Sixth Mosh'aru Tablet
-						["timeline"] = { REMOVED_4_0_3 },
 						-- #if BEFORE 4.0.3
 						["description"] = "Located directly behind the boss.",
 						-- #endif
+						["provider"] = { "o", 175950 },	-- Sixth Mosh'aru Tablet
+						["timeline"] = { REMOVED_4_0_3 },
 					}),
 					i(12335),	-- Gemstone of Smolderthorn
 					i(12582),	-- Keris of Zul'Serak
@@ -2276,12 +2276,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				-- #endif
 				n(ZONE_DROPS, {
 					i(12607, {	-- Brilliant Chromatic Scale
-						-- Danny Donkey: This is an ordinary drop from these mobs, not from Skinning.
 						["crs"] = {
 							10447,	-- Chromatic Dragonspawn
 							10814,	-- Chromatic Elite Guard
 							10442,	-- Chromatic Whelp
 						},
+						-- Danny Donkey: This is an ordinary drop from these mobs, not from Skinning.
 					}),
 					i(16247, {	-- Formula: Enchant 2H Weapon - Superior Impact (RECIPE!)
 						["timeline"] = { REMOVED_6_0_2 },
@@ -2289,12 +2289,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					}),
 					applyclassicphase(PHASE_SIX_CLASS_BOOKS, i(24102, {	-- Manual of Eviscerate IX
 						["timeline"] = { REMOVED_4_0_1 },
-						["cr"] = 10318,	-- Blackhand Assassin <Blackhand Legion>
 						-- #if BEFORE 4.0.1
 						["spellID"] = 31016,	-- Eviscerate IX
 						["classes"] = { ROGUE },
 						["rank"] = 9,
 						-- #endif
+						["cr"] = 10318,	-- Blackhand Assassin <Blackhand Legion>
 					})),
 					-- #if AFTER 5.0.4
 					i(15774, {	-- Pattern: Heavy Scorpid Shoulders (RECIPE!)
@@ -2383,22 +2383,22 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					},
 				}),
 				i(12358, {	-- Darkstone Tablet
-					["provider"] = { "o", 175385 },	-- Darkstone Tablet
 					-- #if BEFORE 4.0.3
 					["description"] = "This is the white tablet leaning up against the wall in the Whelp Room.",
 					-- #endif
+					["provider"] = { "o", 175385 },	-- Darkstone Tablet
 				}),
 				i(12352, {	-- Doomrigger's Clasp
-					["provider"] = { "o", 175382 },	-- Doomrigger's Coffer
 					-- #if BEFORE 4.0.3
 					["description"] = "Can be found in a coffer in the Whelp Room behind a fallen column to the left of the ramp leading to the next room.\nNOTE: Most groups skip this room, so ask your group to clear to the column.",
 					-- #endif
+					["provider"] = { "o", 175382 },	-- Doomrigger's Coffer
 				}),
 				i(13371, {	-- Father Flame
-					["provider"] = { "o", 175245 },	-- Father Flame
 					-- #if BEFORE 6.0.2
 					["description"] = "Opening this will spawn 8 waves of drake adds in the Leeroy Jenkins room along with Solakar Flamewreath.",
 					-- #endif
+					["provider"] = { "o", 175245 },	-- Father Flame
 					["timeline"] = { REMOVED_6_0_2 },
 				}),
 				n(10264, {	-- Solakar Flamewreath
@@ -2511,12 +2511,9 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
-						--[[i(12728, {	-- Plans: Invulnerable Mail (RECIPE!) [Also available as a world drop.]
-							-- #if SEASON_OF_DISCOVERY
-							-- CRIEVE NOTE: This item still drops apparently, I got this on my paladin.
-							-- ["timeline"] = { REMOVED_1_15_3 },
-							-- #endif
-						}),--]]	-- Seems to been always a world drop, letting the data stay.
+						i(12728, {	-- Plans: Invulnerable Mail (RECIPE!)
+							["timeline"] = { REMOVED_6_0_2 },
+						}),
 						i(12837, {	-- Plans: Masterwork Stormhammer (RECIPE!)
 							["timeline"] = { REMOVED_6_0_2 },
 						}),
@@ -2947,8 +2944,8 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						})),
 						-- #endif
 						i(22335, {	-- Lord Valthalak's Staff of Command
-							-- CRIEVE NOTE: They reitemized the staff, but didn't put it into the game.
 							["timeline"] = { REMOVED_6_0_2 },
+							-- CRIEVE NOTE: They reitemized the staff, but didn't put it into the game.
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228681, {	-- Ironweave Cowl

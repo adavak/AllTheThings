@@ -2205,8 +2205,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206386, {	-- Galvanic Icon
-					--["provider"] = { "o",  },	-- TODO: I don't have the objectID for this. It's called "Galvanic Icon" just like the item.
 					["description"] = "These are random spawn totems on the ground; listen for the lightning cast sound to help you pinpoint the location.",
+					--["provider"] = { "o",  },	-- TODO: I don't have the objectID for this. It's called "Galvanic Icon" just like the item.
 					["coords"] = {
 						{ 54.07, 55.82, MULGORE },
 						{ 36.3, 9.8, MULGORE },
@@ -2220,11 +2220,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206989, {	-- Rune of the Sun
+					["description"] = "Cast Moonfire on each of the Lunar Stones to spawn the Lunar Chest nearby.",
 					["providers"] = {
 						{ "n", 207577 },	-- Lunar Stone
 						{ "o", 404433 },	-- Lunar Chest
 					},
-					["description"] = "Cast Moonfire on each of the Lunar Stones to spawn the Lunar Chest nearby.",
 					["coord"] = { 35.7, 69.6, MULGORE },
 					["classes"] = { DRUID },
 					["groups"] = {
@@ -2366,8 +2366,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206469, {	-- Prairie Flower
-					["provider"] = { "o", 403718 },	-- Prairie Flower
 					["description"] = "These are scattered throughout the zone.",
+					["provider"] = { "o", 403718 },	-- Prairie Flower
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206169, {	-- Rune of Explosive Shot
 					["description"] = "This can drop from any of the Rare Creatures in the zone.",

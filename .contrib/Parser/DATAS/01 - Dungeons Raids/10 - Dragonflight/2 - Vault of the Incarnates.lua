@@ -289,9 +289,9 @@ InstanceHelper.ExtraLoots = {
 					i(200426),	-- Casque of the Walking Mountain
 				}),
 				i(217408, {	-- Awakened Tempostone
+					["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
 					["sym"] = GET_SYM_DF_S4_TIER_TOKENS(),
 					["up"] = IGNORED_VALUE,
-					["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
 				}),
 			},
 		}

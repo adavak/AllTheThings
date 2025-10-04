@@ -46,12 +46,12 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					i(147517),	-- Inquisitor's Battle Cowl
 					i(147516),	-- Legion Stalker's Hood
 					i(147117, {	-- Orb of the Fel Temptress (CI!)
+						["description"] = "This is a rare drop from the Hellblaze Temptress mobs in the Cathedral of Eternal Night, on Heroic or Mythic difficulty.\n\nThere are 7 Temptress' available before the first boss. Kill all 7 and then reset the dungeon.",
 						["crs"] = {
 							120366,	-- Hellblaze Temptress
 							118714,	-- Hellblaze Temptress
 						},
 						["ignoreBonus"] = true,
-						["description"] = "This is a rare drop from the Hellblaze Temptress mobs in the Cathedral of Eternal Night, on Heroic or Mythic difficulty.\n\nThere are 7 Temptress' available before the first boss. Kill all 7 and then reset the dungeon.",
 					}),
 				}),
 			}),

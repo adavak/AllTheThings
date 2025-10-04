@@ -134,8 +134,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					["cr"] = 20869,	-- Arcatraz Sentinel
 				}),
 				i(29672, {	-- Pattern: Flame Armor Kit (RECIPE!)
-					["cr"] = 20898,	-- Gargantuan Abyssal
 					["timeline"] = { REMOVED_5_0_4 },
+					["cr"] = 20898,	-- Gargantuan Abyssal
 				}),
 				i(23606, {	-- Plans: Felsteel Leggings
 					["cr"] = 20900,	-- Unchained Doombringer

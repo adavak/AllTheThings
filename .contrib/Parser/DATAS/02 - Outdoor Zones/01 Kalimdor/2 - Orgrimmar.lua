@@ -560,7 +560,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["timeline"] = { ADDED_2_4_0 },
 					}),
 					i(67414, {	-- Bag of Shiny Things
-						["provider"] = { "n", 43239 },	-- Razgar
 						["description"] = "Fishing Daily Quest Reward",
 						["sourceQuests"] = {
 							26588,	-- A Furious Catch
@@ -569,6 +568,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							26543,	-- Clammy Hands
 							26556,	-- No Dumping Allowed
 						},
+						["provider"] = { "n", 43239 },	-- Razgar
 						["timeline"] = { ADDED_4_0_1 },
 						["groups"] = {
 							i(44983, {	-- Strand Crawler (PET!)
@@ -602,10 +602,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #else
 							nil,
 							-- #endif
+						["timeline"] = { ADDED_2_3_0 },
 						-- #if AFTER TWW
 						["collectible"] = false,  -- remove when Blizzard fix fish collection
 						-- #endif
-						["timeline"] = { ADDED_2_3_0 },
 					}),
 				}),
 				prof(HERBALISM, {
@@ -2293,8 +2293,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						-- #if BEFORE 9.1.0
 						i(63917, {	-- Truthbreaker Shield [Not listed, but awards on completing quest] [9.1: was NOT received when completed. 2021-09-25]
-							-- Crieve NOTE: This appears to have been an Alliance quest reward in SW.
 							["timeline"] = { ADDED_4_0_3, REMOVED_9_1_0 },
+							-- Crieve NOTE: This appears to have been an Alliance quest reward in SW.
 						}),
 						-- #endif
 					},
@@ -3490,9 +3490,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["groups"] = appendGroups(COMMON_CATACLYSM_ENCHANTING_RECIPES, {
 						i(67308, {	-- Formula: Enchanted Lantern (RECIPE!)
-							["races"] = HORDE_ONLY,
-							["cost"] = { { "i", 52555, 20 }, },	-- 20x Hypnotic Dust
 							["timeline"] = { ADDED_4_0_3 },
+							["cost"] = { { "i", 52555, 20 }, },	-- 20x Hypnotic Dust
+							["races"] = HORDE_ONLY,
 						}),
 						i(6349, {	-- Formula: Enchant 2H Weapon - Lesser Intellect (RECIPE!)
 							["isLimited"] = true,

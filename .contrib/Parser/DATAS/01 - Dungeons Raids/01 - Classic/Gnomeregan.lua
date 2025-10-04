@@ -162,10 +162,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(9491),	-- Hotshot Pilot's Gloves
 				i(9508, {	-- Mechbuilder's Overalls
-					-- TODO: new itemdb file required to remove this requirement
-					-- #if AFTER 10.1.7
-					["_drop"] = { "requireSkill" },
-					-- #endif
 					["crs"] = {
 						6232,	-- Arcane Nullifier X-21
 						6212,	-- Dark Iron Agent
@@ -174,6 +170,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						6233,	-- Mechanized Sentry
 						6230,	-- Peacekeeper Security Suit
 					},
+					-- TODO: new itemdb file required to remove this requirement
+					-- #if AFTER 10.1.7
+					["_drop"] = { "requireSkill" },
+					-- #endif
 				}),
 				i(9488, {	-- Oscillating Power Hammer
 					["crs"] = {

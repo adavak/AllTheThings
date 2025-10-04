@@ -98,11 +98,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							}),
 							i(231796, {	-- Depleted Scythe of Chaos (Devouring)
 								["description"] = "Use Drail Soul on the Ravenous Felhound once you've summoned it using the Shadow Carving.",
+								["coord"] = { 53.8, 51.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 231799, 1 },	-- Soul of Devouring
 									{ "i", 231795, 1 },	-- Depleted Scythe of Chaos (Enthralling)
 								},
-								["coord"] = { 53.8, 51.6, EASTERN_PLAGUELANDS },
 								["cr"] = 232896,	-- Ravenous Felhound
 							}),
 						},
@@ -119,11 +119,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							}),
 							i(231795, {	-- Depleted Scythe of Chaos (Enthralling)
 								["description"] = "Use Drail Soul on the Fel Interloper once you've summoned it using the scroll of spatial mending.",
+								["coord"] = { 32.6, 30.9, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 231798, 1 },	-- Soul of Enthralling
 									{ "i", 231794, 1 },	-- Depleted Scythe of Chaos (Void)
 								},
-								["coord"] = { 32.6, 30.9, EASTERN_PLAGUELANDS },
 								["cr"] = 230146,	-- Fel Interloper
 							}),
 						},
@@ -139,11 +139,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							}),
 							i(231793, {	-- Depleted Scythe of Chaos (Mischief)
 								["description"] = "Use Drail Soul on Xirath once you've completed his task to receive this.",
+								["coord"] = { 69.6, 32.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 231792, 1 },	-- Soul of Mischief
 									{ "i", 231722, 1 },	-- Depleted Scythe of Chaos
 								},
-								["coord"] = { 69.6, 32.0, EASTERN_PLAGUELANDS },
 								["cr"] = 232731,	-- Xirath <Manathirst Imp>
 							}),
 						},
@@ -155,11 +155,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 						["groups"] = {
 							i(231794, {	-- Depleted Scythe of Chaos (Void)
 								["description"] = "Use Drail Soul on the Voidwalker once you've used a Major Spellstone, Shadow Ward, and then Sacrifice to summon it.",
+								["coord"] = { 59.0, 67.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 231797, 1 },	-- Soul of the Void
 									{ "i", 231793, 1 },	-- Depleted Scythe of Chaos (Mischief)
 								},
-								["coord"] = { 59.0, 67.0, EASTERN_PLAGUELANDS },
 								["cr"] = 232875,	-- Abandoned Voidwalker
 							}),
 						},
