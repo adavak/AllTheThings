@@ -3,9 +3,9 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, m(MIDNIGHT, {
-	M(EVERSONG_WOODS_MID, {
-		petbattle(filter(BATTLE_PETS, {
-		})),
+	M(HARANDAR, {
+		filter(BATTLE_PETS, {
+		}),
 	}),
 }));
 --]]

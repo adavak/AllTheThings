@@ -3,9 +3,9 @@
 ---------------------------------------------------
 --[[
 root(ROOTS.Zones, m(MIDNIGHT, {
-	M(ZULAMAN_MID, {
-		petbattle(filter(BATTLE_PETS, {
-		})),
+	M(VOIDSTORM, {
+		filter(BATTLE_PETS, {
+		}),
 	}),
 }));
 --]]
