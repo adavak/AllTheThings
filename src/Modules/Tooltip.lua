@@ -344,7 +344,7 @@ for i,guid in ipairs({
 	-- Eremeir
 	"Player-3675-06DC8D18",	-- Eremeir-MoonGuard US
 	-- Wouter
-	"Player-4467-0298B249",	-- Woutertje-Firemaw EU (Classic)
+	"Player-4454-06092222",	-- Wouter-Shek'zeer EU (Classic)
 }) do
 	PLAYER_TOOLTIPS[guid] = tooltipFunction;
 end
