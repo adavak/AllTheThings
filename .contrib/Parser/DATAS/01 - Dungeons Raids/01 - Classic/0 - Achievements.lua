@@ -5,7 +5,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	n(ACHIEVEMENTS, {
 		ach(1283, {		-- Classic Dungeonmaster
-			-- Meta Achievement
+			["timeline"] = { ADDED_3_0_2 },
 			["sym"] = {{"meta_achievement",
 				628,	-- Deadmines
 				629,	-- Ragefire Chasm
@@ -27,17 +27,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				645,	-- Scholomance
 				646,	-- Stratholme
 			}},
-			["timeline"] = { ADDED_3_0_2 },
 		}),
 		ach(1285, {		-- Classic Raider
-			-- Meta Achievement
+			["timeline"] = { ADDED_3_0_2 },
 			["sym"] = {{"meta_achievement",
 				685,	-- Blackwing Lair
 				686,	-- Molten Core
 				687,	-- Temple of Ahn'Qiraj
 				689,	-- Ruins of Ahn'Qiraj
 			}},
-			["timeline"] = { ADDED_3_0_2 },
 		}),
 		ach(7934, {	-- Raiding with Leashes
 			["timeline"] = { ADDED_5_1_0 },

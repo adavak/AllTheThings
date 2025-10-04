@@ -446,11 +446,26 @@ namespace ATT
                         break;
                     }
 
+                // Followed by Lore
+                case "[\"lore\"]":
+                    {
+                        property.Priority = -497;
+                        lineIndex = ProcessLuaString(lines, line, lineIndex, property, nestedType);
+                        break;
+                    }
+
                 // Followed by Icon
                 case "[\"icon\"]":
                     {
-                        property.Priority = -497;
+                        property.Priority = -496;
                         lineIndex = CheckForMultilinedData(lines, line, lineIndex, property, nestedType);
+                        break;
+                    }
+
+                // Followed by zone-text-areaID
+                case "[\"zone-text-areaID\"]":
+                    {
+                        property.Priority = -495;
                         break;
                     }
 
@@ -565,6 +580,7 @@ namespace ATT
                     }
 
                 // Followed by Maps
+                case "[\"mapID\"]":
                 case "[\"maps\"]":
                     {
                         property.Priority = 20;
@@ -644,6 +660,11 @@ namespace ATT
                 case "[\"isBreadcrumb\"]":
                     {
                         property.Priority = 46;
+                        break;
+                    }
+                case "[\"sharedLockout\"]":
+                    {
+                        property.Priority = 50;
                         break;
                     }
                 case "[\"isRaid\"]":
@@ -728,6 +749,20 @@ namespace ATT
                 case "[\"lvl\"]":
                     {
                         property.Priority = 1000;
+                        break;
+                    }
+
+                // Followed by headerID
+                case "[\"headerID\"]":
+                    {
+                        property.Priority = 1399;
+                        break;
+                    }
+
+                // Followed by recipeID
+                case "[\"recipeID\"]":
+                    {
+                        property.Priority = 1400;
                         break;
                     }
 
