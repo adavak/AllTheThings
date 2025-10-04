@@ -49,9 +49,8 @@ local STEVEN_LISBANE = {
 	["crs"] = { 63194 },
 	["coord"] = { 46.0, 40.4, NORTHERN_STRANGLETHORN },
 };
-root(ROOTS.Zones, m(EASTERN_KINGDOM, {
+root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	n(ACHIEVEMENTS, {
-		-- TODO: ADD CORRECT CRITERIAS
 		header(HEADERS.Achievement, 61040, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Family Battler of Eastern Kingdoms
 			petbattle(ach(61040, {	-- Family Battler of Eastern Kingdoms
 				-- Meta Achievement
@@ -73,505 +72,505 @@ root(ROOTS.Zones, m(EASTERN_KINGDOM, {
 				},
 			})),
 			petbattle(ach(61029, {	-- Aquatic Battler of Eastern Kingdoms
-				crit(108071, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(108071, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(108072, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108073, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108075, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(108069, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108076, {	-- Everessa
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(108066, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108074, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(108068, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108077, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(108067, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(108070, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61030, {	-- Beast Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(107957, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(107958, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(107959, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(107961, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(107955, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(107962, {	-- Everessa
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(107952, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(107960, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(107954, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(107963, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(107953, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(107956, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61031, {	-- Critter Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(107974, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(107975, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(107976, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(107978, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(107972, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(107979, {	-- Everessa
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(107969, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(107977, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(107971, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(107980, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(107970, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(107973, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61032, {	-- Dragonkin Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(107986, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(107987, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(107988, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(107990, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(107984, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(107991, {	-- Everessa
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(107981, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(107989, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(107983, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(107992, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(107982, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(107985, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61033, {	-- Elemental Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(107998, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(107999, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108000, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108002, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(107996, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108003, {	-- Everessa
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(107993, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108001, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(107995, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108004, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(107994, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(107997, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61034, {	-- Flying Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(108010, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(108011, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108012, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108014, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(108008, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108015, {	-- Everessa 
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(108005, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108013, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(108007, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108016, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(108006, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(108009, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61035, {	-- Humanoid Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(108022, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(108023, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108024, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108026, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(108020, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108027, {	-- Everessa 
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(108017, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108025, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(108019, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108028, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(108018, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(108021, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61036, {	-- Magic Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(108034, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(108035, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108036, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108038, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(108032, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108039, {	-- Everessa 
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(108029, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108037, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(108031, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108040, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(108030, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(108033, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61037, {	-- Mechanical Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(108046, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(108047, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108048, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108050, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(108044, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108051, {	-- Everessa 
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(108041, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108049, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(108043, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108052, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(108042, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(108045, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
 			petbattle(ach(61028, {	-- Undead Battler of Eastern Kingdoms
-				crit(67139, {	-- BILL_BUCKLER
-					["crs"] = COLLECTOR_BILL_BUCKLER.crs,
-					["coord"] = COLLECTOR_BILL_BUCKLER.coord,
+				crit(108058, {	-- Bill Buckler
+					["crs"] = BILL_BUCKLER.crs,
+					["coord"] = BILL_BUCKLER.coord,
 				}),
-				crit(67140, {	-- DAVID_KOSSE
+				crit(108059, {	-- David Kosse
 					["crs"] = DAVID_KOSSE.crs,
 					["coord"] = DAVID_KOSSE.coord,
 				}),
-				crit(67141, {	-- DEIZA_PLAGUEHORN
+				crit(108060, {	-- Deiza Plaguehorn
 					["crs"] = DEIZA_PLAGUEHORN.crs,
 					["coord"] = DEIZA_PLAGUEHORN.coord,
 				}),
-				crit(67142, {	-- DURIN_DARKHAMMER
+				crit(108062, {	-- Durin Darkhammer
 					["crs"] = DURIN_DARKHAMMER.crs,
 					["coord"] = DURIN_DARKHAMMER.coord,
 				}),
-				crit(67139, {	-- ERIC_DAVIDSON
+				crit(108056, {	-- Eric Davidson
 					["crs"] = ERIC_DAVIDSON.crs,
 					["coord"] = ERIC_DAVIDSON.coord,
 				}),
-				crit(67140, {	-- EVERESSA 
+				crit(108063, {	-- Everessa
 					["crs"] = EVERESSA.crs,
 					["coord"] = EVERESSA.coord,
 				}),
-				crit(67141, {	-- JULIA_STEVENS
+				crit(108053, {	-- Julia Stevens
 					["crs"] = JULIA_STEVENS.crs,
 					["coord"] = JULIA_STEVENS.coord,
 				}),
-				crit(67142, {	-- KORTAS_DARKHAMMER
+				crit(108061, {	-- Kortas Darkhammer
 					["crs"] = KORTAS_DARKHAMMER.crs,
 					["coord"] = KORTAS_DARKHAMMER.coord,
 				}),
-				crit(67142, {	-- LINDSAY
+				crit(108055, {	-- Lindsay
 					["crs"] = LINDSAY.crs,
 					["coord"] = LINDSAY.coord,
 				}),
-				crit(67139, {	-- LYDIA_ACCOSTE
+				crit(108064, {	-- Lydia Accoste
 					["crs"] = LYDIA_ACCOSTE.crs,
 					["coord"] = LYDIA_ACCOSTE.coord,
 				}),
-				crit(67140, {	-- OLD_MACDONALD
+				crit(108054, {	-- Old MacDonald
 					["crs"] = OLD_MACDONALD.crs,
 					["coord"] = OLD_MACDONALD.coord,
 				}),
-				crit(67141, {	-- STEVEN_LISBANE
+				crit(108057, {	-- Steven Lisbane
 					["crs"] = STEVEN_LISBANE.crs,
 					["coord"] = STEVEN_LISBANE.coord,
 				}),
 			})),
-		}),
+		})),
 	}),
 }));
