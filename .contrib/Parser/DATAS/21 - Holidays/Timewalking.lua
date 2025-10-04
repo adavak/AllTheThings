@@ -7062,8 +7062,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					i(159610),	-- Vessel of Skittering Shadows
 				},
 			}),
-		}),	
-		inst_tw(1001, {	-- Freehold		
+		}),
+		inst_tw(1001, {	-- Freehold
 			e(2102, {	-- Skycap'n Kragg
 				["crs"] = {
 					126832,	-- Skycap'n Kragg
@@ -7131,7 +7131,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					i(239054),	-- Sweete's Jeweled Headgear
 				},
 			}),
-		}),	
+		}),
 		inst_tw(1041, {	-- King's Rest
 			e(2165, {	-- The Golden Serpent
 				["crs"] = { 135322 },	-- The Golden Serpent
@@ -7185,7 +7185,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					i(159645),	-- Headcracker of Supplication
 					i(159301),	-- Primal Dinomancer's Belt
 					i(168129),	-- Essence of the Troll Dynasty
-					i(239047),	-- Headdress of the First Empire					
+					i(239047),	-- Headdress of the First Empire
 					i(239050),	-- Helm of the Raptor King
 					i(239046),	-- Loa-Blessed Chestguard
 					i(239045),	-- Mantle of Ceremonial Ascension
@@ -7255,7 +7255,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					i(239041),	-- Tentacle-Laced Spaulders
 				},
 			}),
-		}),		
+		}),
 		inst_tw(1030, {	-- Temple of Sethraliss
 			e(2142, {	-- Adderis and Aspix
 				["crs"] = {
@@ -7310,7 +7310,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					i(158373),	-- Resonating Crystal Scimitar
 					i(159337),	-- Grips of Electrified Defense
 					i(158368),	-- Fangs of Intertwined Essence
-					i(168131),	-- Essence of the Sands					
+					i(168131),	-- Essence of the Sands
 					i(239031),	-- Brood Cleanser's Amice
 					i(239033),	-- Hood of the Slithering Loa
 					i(239032),	-- Robes of the Reborn Serpent
@@ -7390,7 +7390,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["crs"] = { 131864 },	-- Gorak Tul
 				["groups"] = {
 					i(159662),	-- Blightreaper
-					i(168125),	-- Runestone of Thros					
+					i(168125),	-- Runestone of Thros
 					i(239023),	-- Amice of the Returned
 					i(239029),	-- Breastplate of the Vengeful
 					i(239027),	-- Deathslaver's Hauberk
@@ -7457,10 +7457,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 		}),
 		n(VENDORS, {
-		--	n(239840, {	-- Churbro <Timewalking Vendor>
+		--	n(239840, {	-- Collector Ta'steld <Timewalking Vendor>
 		--		["coords"] = {
-		--			{ 70.8, 17.3, BORALUS },	-- Alliance
-		--			{ 46.1, 94.9, ZULDAZAR },	-- Horde
+		--			{ , , Oribos },
 		--		},
 				["groups"] = {
 					n(ARMOR, {
@@ -7485,6 +7484,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					filter(MISC, {
 					}),
 					filter(MOUNTS, {
+						i(182083, {	-- Bonecleaver's Skullboar (MOUNT!)
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
+						}),
 						i(257511, {	-- Bronze Wilderling Harness (MOUNT!)
 							["cost"] = {{ "i", 254694, 1 }},	-- Ta'readon's Mount Voucher
 						}),
@@ -7576,7 +7578,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					i(179356),	-- Shadowgrasp Totem
 				},
 			}),
-		}),			
+		}),
 		inst_tw(1185, {	-- Halls of Atonement
 			e(2406, {	-- Halkias
 				["crs"] = { 165408 },	-- Halkias
@@ -7669,7 +7671,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					i(178754),	-- Poxstorm, Longsword of Pestilence
 				},
 			}),
-		}),			
+		}),
 		inst_tw(1189, {	-- Sanguine Depths
 			e(2388, {	-- Kryxis the Voracious
 				["crs"] = { 162100 },	-- Kryxis the Voracious
@@ -7722,8 +7724,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					i(178839),	-- Wind Dancer's Legguards
 				},
 			}),
-		}),			
-		inst_tw(1186, {	-- Spires of Ascension		
+		}),
+		inst_tw(1186, {	-- Spires of Ascension
 			e(2399, {	-- Kin-Tara
 				["crs"] = {
 					163077,	-- Azules
@@ -7774,7 +7776,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					i(180098),	-- Sinister Requiem Vestments
 				},
 			}),
-		}),			
+		}),
 		inst_tw(1182, {	-- The Necrotic Wake
 			e(2395, {	-- Blightbone
 				["crs"] = { 162691 },	-- Blightbone
@@ -7788,7 +7790,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					i(178734),	-- Fused Bone Greatbelt
 					i(178736),	-- Stitchflesh's Misplaced Signet
 					i(178731),	-- Viscera-Stitched Footpads
-
 				},
 			}),
 			e(2391, {	-- Amarth, The Harvester

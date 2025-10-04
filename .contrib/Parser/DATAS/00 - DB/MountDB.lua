@@ -1309,7 +1309,6 @@ i(0, 332257);		-- Gorm (Yellow)
 i(0, 332908);		-- PH Devourer Mite (Green)
 i(0, 312758);		-- PH Epic Phalynx
 i(0, 312756);		-- PH Phalynx
-i(182083, 332482);	-- Bonecleaver's Skullboar
 i(181817, 318052);	-- Deathbringer's Flayedwing
 i(184035, 0);		-- Silessa's Harness
 
@@ -1855,7 +1854,6 @@ i(223275, 447958);	-- [PH] CaveBorerWormMount (Nocturne Skin, Red Saddle)
 i(223159, 448265);	-- [PH] Firebee Mount (Blue Variant)
 i(223152, 447149);	-- [PH] Firebee Mount (Grey Skin, Silver Saddle)
 i(223154, 447156);	-- [PH] Firebee Mount (White Skin, White Saddle)
-i(222988, 447173);	-- [PH] Firefly2Mount (Green)
 i(222991, 447181);	-- [PH] Firefly2Mount (Purple)
 i(221778, 447161);	-- [PH] Firefly2Mount (Yellow)
 i(224413, 452768);	-- [PH] Goliathus (Blue)
@@ -1872,7 +1870,6 @@ i(222901, 447910);	-- [PH] Mount - Shalehorn (Brown) (Copper Saddle) (Player Mou
 i(222902, 447911);	-- [PH] Mount - Shalehorn (Crimson) (Dark Saddle) (Player Mount)  / Item: [PH] Mount - Unicorn Moose (Crimson) (Dark Saddle) (Player Mount)
 i(222903, 447912);	-- [PH] Mount - Shalehorn (Ivory) (Silver Saddle) (Player Mount)  / Item: [PH] Mount - Unicorn Moose (Ivory) (Silver Saddle) (Player Mount)
 i(222904, 447913);	-- [PH] Mount - Shalehorn (Yellow) (White Saddle) (Player Mount)  / Item: [PH] Mount - Unicorn Moose (Yellow) (White Saddle) (Player Mount)
-i(224148, 451487);	-- [PH] NerubianWarbeastMount (Cyan)
 i(224149, 451488);	-- [PH] NerubianWarbeastMount (Orange)
 i(223573, 449421);	-- [PH] Proto Ram Earthen (Sand Skin, Grand Horns, Dark Saddle)
 i(223574, 449419);	-- [PH] Proto Ram Earthen (White Skin, Grand Horns, White Saddle)
@@ -2216,9 +2213,32 @@ i(258515, 1263387);	-- Crimson Lupine
 i(258188, 1262886);	-- Geargrinder Mk. 11
 i(258488, 1263369);	-- Skypaw Glimmerfur
 i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
+--- UNSORTED ---
 
 ------------------
 -- PATCH 12.0.0 --
 ------------------
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
 i(246594, 1243003);	-- Light-Forged Mechsuit
+--- UNSORTED ---
+i(257157, 1261325);	-- [DNT] 12.0 Black Hawkstrider
+i(260231, 1265784);	-- [DNT] 12.0 White Hawkstrider
+i(250782, 1251433);	-- [DNT] Amani Eagle Orange
+i(0, 1257081);	-- [DNT] Cleansed Hex Eagle
+i(0, 1257058);	-- [DNT] Cursed Hex Eagle
+i(0, 1252141);	-- [DNT] Jellyfish
+i(222988, 447173);	-- [PH] Firefly2Mount (Green)
+i(224148, 451487);	-- [PH] NerubianWarbeastMount (Cyan)
+i(250921, 1251665);	-- Amani Blessed Bear
+i(250889, 1251630);	-- Amani Windcaller
+i(246590, 1242904);	-- Ashes of Belo'ren
+i(252014, 1253929);	-- Cerulean Sporeglider
+i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider
+i(256424, 1260356);	-- Echo of Aln'sharan
+i(246734, 1243593);	-- Fierce Grimlynx
+i(257142, 1261291);	-- Fiery Dragonhawk
+i(242715, 1233516);	-- K'arroc Swiftwing
+i(257191, 1261336);	-- Preyseeker's Hubris
+i(257192, 1261337);	-- Preyseeker's Wrath
+i(0, 1238827);	-- Swift Spectral Dragonhawk
+

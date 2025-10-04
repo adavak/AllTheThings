@@ -1346,9 +1346,6 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			i(205011, {	-- Bronze Swoglet (PET!)
 				["displayID"] = 112148,
 			}),
-			i(205017, {	-- Byrn (PET!)
-				["displayID"] = 112151,
-			}),
 			i(205008, {	-- Emerald Swoglet (PET!)
 				["displayID"] = 112145,
 			}),

@@ -1504,3 +1504,32 @@ i(138111);	-- Stormforged Grapple Launcher
 
 --- UNSORTED ---
 i(254666);	-- Lil' Exodar
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+--- UNSORTED ---
+
+------------------
+-- PATCH 12.0.0 --
+------------------
+i(256881);	-- Steward's Bauble
+i(256893);	-- Wretched Dredger's Brand
+--- UNSORTED ---
+i(257736);	-- [DNT] [PH] 12.0 Holy Hearthstone
+i(243146);	-- [DNT] Ren'dorei Struggle
+i(250974);	-- Akil'zon's Updraft
+i(251633);	-- Bursting Bounty Bundle
+i(242520);	-- Festival Hot Air Balloon
+i(252265);	-- Hexed Potatoad Mucus
+i(243304);	-- Jubilant Snowman Costume
+i(250320);	-- Lightgraft
+i(251491);	-- Magical Pet Clicker
+i(251903);	-- Potatoad Egg
+i(245580);	-- Rolling Snowball
+i(250319);	-- Shadowgraft
+i(258963);	-- Shroom Jumper's Parachute
+i(259240);	-- Sin'dorei Wine
+i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
+i(256552);	-- Verdant Rutaani Seed
+i(253629);	-- ??

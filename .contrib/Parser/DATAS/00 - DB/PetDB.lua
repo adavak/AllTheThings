@@ -3683,7 +3683,6 @@ i(0, 3339);			-- Black Dragon Whelp
 i(0, 3340);			-- Blue Dragon Whelp
 i(0, 3343);			-- Bronze Dragon Whelp
 i(0, 3341);			-- Red Dragon Whelp
-i(0, 3364);			-- Striped Snakebiter
 i(0, 3257);			-- Test Beetle
 i(0, 3308);			-- Time-Lost Duckling
 i(0, 3363);			-- Truesilver Crab
@@ -3691,7 +3690,7 @@ i(193614, 3314);	-- Groundshaker
 i(193380, 3298);	-- Pink Salamanther
 i(193587, 3312);	-- Time-Lost Duck
 i(193620, 3267);	-- Time-Lost Slyvern
-i(193068, 3277);	-- Time-Lost Treeflitter
+
 i(191126, 0);		-- Obsidian Whelpling
 i(192050, 0);		-- zzOld - [PH] Black Baby Fox Wyvern [REUSE]
 i(193863, 0);		-- zzOld - [PH] Dark Baby Vorquin (REUSE)
@@ -3951,9 +3950,6 @@ i(0, 3569);			-- Tempe
 i(205004, 3513);	-- Azure Swoglet
 i(205054, 3532);	-- Amador
 i(205011, 3517);	-- Bronze Swoglet
--- #if AFTER 11.2.7
-i(205017, 3519);	-- Byrn
--- #endif
 i(205008, 3514);	-- Emerald Swoglet
 i(205018, 3520);	-- Jade Skitterbug
 i(205116, 3534);	-- Jerrie
@@ -4111,7 +4107,6 @@ i(0, 4509);			-- Sporbit [Blue]
 i(0, 4505);			-- Sporbit [Orange]
 i(0, 4504);			-- Sporbit [Red]
 i(0, 4503);			-- Sporbit [Teal]
-i(0, 4508);			-- Sporbit [Yellow]
 i(0, 4584);			-- Tan Stagshell
 i(222969, 4474);	-- Anub'Rekyute
 i(221764, 4519);	-- Burntram
@@ -4120,7 +4115,6 @@ i(221762, 4484);	-- Frenzied Bloodtick
 i(221195, 4458);	-- Illskitter
 i(221492, 4459);	-- Moss Skipper
 i(221759, 4512);	-- Sceaduthax
-i(221495, 4497);	-- Waddles
 i(222967, 4475);	-- Webbers
 i(221493, 0);		-- Admiral
 i(223803, 0);		-- Blue Stagshell
@@ -4374,7 +4368,6 @@ i(231763, 4675);	-- FO-MO Mark II
 i(235909, 4755);	-- Gleam
 i(232854, 4634);	-- Grinner
 i(0, 4670);	-- Hermes
-i(232856, 4633);	-- Scruff
 i(231613, 4665);	-- Yellow Tropical Frog
 
 ------------------
@@ -4445,7 +4438,6 @@ i(246694, 4859);	-- Zo'ya
 i(0, 4824);	-- Baby Karesh Fox - Orange
 i(257518, 4908);	-- Lil' Ashlee
 i(246342, 4855);	-- Mustyfur Fel Snooter
-i(0, 4830);	-- Observer, Baby (Green) - no icon
 i(246723, 4860);	-- Unfazed Diver
 i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 
@@ -4473,3 +4465,47 @@ i(254876, 4911);	-- P.O.S.T. Assistant
 ------------------
 -- PATCH 12.0.0 --
 ------------------
+i(205017, 3519);	-- Byrn
+
+--- UNSORTED ---
+i(255151, 4906);	-- [DNT] Baby Amani Eagle (Grey)
+i(0, 4905);	-- [DNT] Baby Amazard (Red)
+i(250135, 4874);	-- Akil Fledgling
+i(193068, 3277);	-- Amber Treeflitter
+i(250142, 4882);	-- Azure Sporebat
+i(250148, 4879);	-- Blistercreepling
+i(258739, 4914);	-- Chillcrawler
+i(238793, 4790);	-- Devouring Runt
+i(260306, 4942);	-- Distorted Memory
+i(258189, 4910);	-- Do, child of Fi'lo
+i(250143, 4883);	-- Dragonhawk Mosswing
+i(259224, 4928);	-- Dragonhawk Munchkin
+i(0, 4887);	-- Dundun
+i(250139, 4878);	-- Ebon Snapling
+i(246628, 4508);	-- Emerald Sporbit
+i(250146, 4885);	-- Gloom Toad
+i(244339, 4816);	-- Hawkstrider Hatchling
+i(259991, 4930);	-- Lil' Preyseeker
+i(258737, 4913);	-- Moon Darter
+i(250137, 4876);	-- Mud Potadpole
+i(250863, 4888);	-- Naloki
+i(251002, 4889);	-- Nether Familia
+i(240840, 4803);	-- Niblet
+i(250145, 4884);	-- Pangolil
+i(258903, 4927);	-- Percival
+i(250141, 4881);	-- Purple Swamp Leech
+i(244911, 4830);	-- Rhay'Dahr
+i(251005, 4892);	-- Riftblade Familiar
+i(250136, 4875);	-- Rootling Nester
+i(232856, 4633);	-- Scruff
+i(250147, 4886);	-- Silkcrawler
+i(258660, 4912);	-- Silvermoon Broom
+i(251004, 3364);	-- Striped Snakebiter
+i(250140, 4880);	-- Swamp Biter
+i(245544, 4851);	-- Tiny Snow Buddy
+i(259337, 4929);	-- Vermillion Grovecrawler
+i(251001, 4890);	-- Vibrant Manaling
+i(250138, 4877);	-- Violet Chick
+i(239101, 4795);	-- Voidcrawler
+i(221495, 4497);	-- Waddles
+i(251003, 4891);	-- Wrathful Wyrm

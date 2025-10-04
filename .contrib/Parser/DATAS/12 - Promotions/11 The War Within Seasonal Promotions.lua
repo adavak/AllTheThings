@@ -314,7 +314,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(246343, {	-- Scruffyhorn Fel Snooter (PET!)
 				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-30, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.99999" },	-- Removed September 30, 2025
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.0.63305" },	-- Removed September 30, 2025
 				["u"] = REAL_MONEY,
 			}),
 			i(257515, { -- Lil' Coalee (PET!)
