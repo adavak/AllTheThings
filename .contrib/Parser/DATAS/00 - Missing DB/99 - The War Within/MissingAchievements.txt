@@ -76,18 +76,6 @@ ach(61221),	-- Tour of Duty: Eversong Woods
 ach(61222),	-- Tour of Duty: Zul'Aman
 ach(61223),	-- Tour of Duty: Harandar
 ach(61224),	-- Tour of Duty: Voidstorm
-ach(61225),	-- Investigating the Rise
-ach(61226),	-- Uprising
-ach(61227),	-- Entering the Void
-ach(61228),	-- Embracing the Void
-ach(61229),	-- Dedication in the Void
-ach(61230),	-- Remains in the Rise
-ach(61231),	-- Midnight Loot
-ach(61232),	-- Midnight Treasures
-ach(61234),	-- Hunt in the Night
-ach(61238),	-- Midnight Hunter
-ach(61265),	-- Spectral Capture
-ach(61266),	-- Spectral Stocker
 ach(61346),	-- We Will, In Fact, See It Again
 ach(61366),	-- Voidspire
 ach(61367),	-- March on Quel'Danas
@@ -107,17 +95,11 @@ ach(61380),	-- Glory of the Midnight Raider
 ach(61381),	-- Belo'ren Achievement
 ach(61444),	-- Vicious Saddle (43)
 ach(61445),	-- Vicious Saddle (43)
-ach(61446),	-- Slayer's Mastery
-ach(61447),	-- Partake in the Rise
-ach(61448),	-- Frequent the Rise
-ach(61449),	-- Customary Rise
 ach(61452),	-- Sojourner of Zul'Aman
 ach(61453),	-- Making an Amani Out of You
 ach(61454),	-- Falling Between The Quacks
 ach(61455),	-- Shadowpine Scattered
 ach(61456),	-- Die in Lordaeron or Undercity
-ach(61464),	-- Spark in the Night
-ach(61465),	-- Spark in the Night
 ach(61467),	-- Lorewalking: Elves
 ach(61487),	-- Chimaerus, the Undreamt God
 ach(61488),	-- Heroic: Chimaerus, the Undreamt God
@@ -126,6 +108,4 @@ ach(61490),	-- Midnight Season 1: Champion of the Dawn
 ach(61491),	-- Ahead of the Curve: Chimaerus, the Undreamt God
 ach(61492),	-- Cutting Edge: Chimaerus, the Undreamt God
 ach(61493),	-- Hall of Fame: Chimaerus, the Undreamt God
-ach(61494),	-- Slayer's Rise battles
-ach(61495),	-- Slayer's Rise victories
 ach(61498),	-- Ready for Midnight

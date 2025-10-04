@@ -4073,6 +4073,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(61475),	-- Chimaerus, the Undreamt God (Normal Dreamrift)
 			ach(61476),	-- Chimaerus, the Undreamt God (Heroic Dreamrift)
 			ach(61477),	-- Chimaerus, the Undreamt God (Mythic Dreamrift)
+			ach(61494),	-- Slayer's Rise battles
+			ach(61495),	-- Slayer's Rise victories
 		})),
 	}),
 });

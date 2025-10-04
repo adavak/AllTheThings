@@ -3,6 +3,6 @@
 -----------------------------------------------------
 --[[
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
-	["timeline"] = { ADDED_12_PH_LAUNCH },
+	["timeline"] = { ADDED_12_0_0_LAUNCH },
 }));
 --]]

@@ -14,7 +14,6 @@ title(660),	-- [PH] %s
 title(661),	-- [PH] %s
 title(662),	-- [PH] %s
 title(663),	-- [PH] %s
-title(664),	-- Voidslayer %s
 title(665),	-- Honorary Hara'ti %s
 title(667),	-- %s, Life of the Party
 title(668),	-- %s, Famed Slayer of the Undreamt

@@ -473,6 +473,7 @@ HeaderAssignments = {
 	["Sinister Gladiator: Battle for Azeroth Season 2"] = -277,
 	["Skyreach"] = -112,
 	["Skyriding"] = -53,
+	["Slayer's Rise"] = -673,
 	["Smuggler's Den"] = -119,
 	["Smuggling Run"] = -128,
 	["Sniffenseeking"] = -404,
@@ -664,4 +665,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -672;
+NextHeaderID = -674;

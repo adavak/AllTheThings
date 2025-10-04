@@ -17,6 +17,13 @@ BOUNTY = createHeader({
 		cn = "赏金任务",
 	},
 });
+SLAYERS_RISE = createHeader({
+	readable = "Slayer's Rise",
+	icon = 2125377,
+	text = {
+		en = "Slayer's Rise",
+	},
+});
 WORLD_PVP = createHeader({
 	readable = "World PvP",
 	icon = [[~_.asset("Category_Zones")]],
@@ -309,6 +316,62 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 		}),
 		n(REWARDS, {
 			currency(2123),	-- Bloody Tokens
+		}),
+	})),
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_LAUNCH } }, {
+		n(ACHIEVEMENTS, {
+			ach(61234),	-- Hunt in the Night
+				--		["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS, UNDERMINE },
+			ach(61225),	-- Investigating the Rise		-- 1x
+				--		["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS, UNDERMINE },
+			ach(61238),	-- Midnight Hunter
+				--		["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS, UNDERMINE },
+			ach(61231),	-- Midnight Loot
+				--		["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS, UNDERMINE },
+			ach(61232),	-- Midnight Treasures
+				--		["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS, UNDERMINE },
+			ach(61230),	-- Remains in the Rise
+			ach(61446, {	-- Slayer's Mastery
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					61226,	-- Uprising
+					61230,	-- Remains in the Rise
+					61266,	-- Spectral Stocker
+					61229,	-- Dedication in the Void
+					61449,	-- Customary Rise	
+					61232,	-- Midnight Treasures
+				}},
+				["groups"] = {
+					title(664),	-- Voidslayer %s
+				},
+			}),
+			ach(61464),	-- Spark in the Night			-- 5x
+			ach(61465),	-- Spark in the Night			-- 20x
+			ach(61226),	-- Uprising						-- 10x
+				--		["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS, UNDERMINE },
+		}),
+		n(SLAYERS_RISE, {
+			n(ACHIEVEMENTS, {
+				ach(61227),	-- Entering the Void		-- 50 Kills
+				ach(61228),	-- Embracing the Void		-- 100 Kills
+				ach(61229),	-- Dedication in the Void	-- 250 Kills
+				ach(61447),	-- Partake in the Rise		-- 1 Win
+				ach(61448),	-- Frequent the Rise		-- 10 Wins
+				ach(61449),	-- Customary Rise			-- 25 Wins
+			}),
+			n(TREASURES, {
+			--	o(433370, {	-- Spectral Battle Chest
+					ach(61265),	-- Spectral Capture		-- 1 Chest
+					ach(61266),	-- Spectral Stocker		-- 10 Chest
+			--	}),
+			}),
+		}),
+		n(TREASURES, {
+		--	o(433370,{	-- War Supply Chest
+		--		["sym"] = {{"select","itemID",224556},{"pop"}},	-- Glorious Contender's Strongbox
+		--	}),
+		}),
+		n(REWARDS, {
 		}),
 	})),
 })));
