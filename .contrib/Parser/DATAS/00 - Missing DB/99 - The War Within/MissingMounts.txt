@@ -4,7 +4,6 @@ mount(1254363),	-- (PH) Legion Remix Mount
 mount(1233516),	-- K'arroc Swiftwing
 mount(1238827),	-- Swift Spectral Dragonhawk
 mount(1242904),	-- Ashes of Belo'ren
-mount(1243003),	-- Light-Forged Mechsuit
 mount(1243593),	-- Fierce Grimlynx
 mount(1251433),	-- [DNT] Amani Eagle Orange
 mount(1251630),	-- Amani Windcaller
@@ -19,15 +18,6 @@ mount(1261322),	-- Crimson Silvermoon Hawkstrider
 mount(1261325),	-- [DNT] 12.0 Black Hawkstrider
 mount(1261336),	-- Preyseeker's Hubris
 mount(1261337),	-- Preyseeker's Wrath
-mount(1261668),	-- Bronze Wilderling
-mount(1261671),	-- Bronze Aquilon
-mount(1261677),	-- Bronze Corpsefly
-mount(1261681),	-- Bronze Gravewing
-mount(1263369),	-- Skypaw Glimmerfur
-mount(1263387),	-- Crimson Lupine
-mount(1264621),	-- Brawlin' Bruno
-mount(1264643),	-- Ballistic Bronco
-mount(1264988),	-- Snowpaw Glimmerfur Prowler
 mount(1265784),	-- [DNT] 12.0 White Hawkstrider
 
 
@@ -39,7 +29,6 @@ Missing in MountDB.lua
 mount(1233516),	-- K'arroc Swiftwing
 mount(1238827),	-- Swift Spectral Dragonhawk
 mount(1242904),	-- Ashes of Belo'ren
-mount(1243003),	-- Light-Forged Mechsuit
 mount(1243593),	-- Fierce Grimlynx
 mount(1251433),	-- [DNT] Amani Eagle Orange
 mount(1251630),	-- Amani Windcaller
@@ -54,13 +43,4 @@ mount(1261322),	-- Crimson Silvermoon Hawkstrider
 mount(1261325),	-- [DNT] 12.0 Black Hawkstrider
 mount(1261336),	-- Preyseeker's Hubris
 mount(1261337),	-- Preyseeker's Wrath
-mount(1261668),	-- Bronze Wilderling
-mount(1261671),	-- Bronze Aquilon
-mount(1261677),	-- Bronze Corpsefly
-mount(1261681),	-- Bronze Gravewing
-mount(1263369),	-- Skypaw Glimmerfur
-mount(1263387),	-- Crimson Lupine
-mount(1264621),	-- Brawlin' Bruno
-mount(1264643),	-- Ballistic Bronco
-mount(1264988),	-- Snowpaw Glimmerfur Prowler
 mount(1265784),	-- [DNT] 12.0 White Hawkstrider

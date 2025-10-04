@@ -5,7 +5,12 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 	expansion(EXPANSION.MID, {
 		n(ACHIEVEMENTS, {
 			ach(61430),	-- Crunching for Cultists
-			ach(42300),	-- Two Minutes to Midnight
+			ach(42300, {	-- Two Minutes to Midnight
+				["groups"] = {
+					title(642),	-- %s, Thorn of Twilight
+					i(246594),	-- Light-Forged Mechsuit (MOUNT!)
+				},
+			}),
 		}),
 		n(BOSSES, {
 		}),

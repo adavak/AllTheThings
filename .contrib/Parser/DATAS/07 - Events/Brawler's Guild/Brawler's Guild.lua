@@ -1617,6 +1617,18 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					}),
 				},
 			})),
+			n(115797, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Tiana Nevermorn <Gold Exchange>
+				["maps"] = { BRAWLGAR_ARENA },
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(259227, {	-- Brawlin' Bruno
+						["cost"] = { { "c", 1299, 100 }, },	-- 250x Brawler's Gold
+					}),
+					i(259238, {	-- Ballistic Bronco
+						["cost"] = { { "c", 1299, 500 }, },	-- 500x Brawler's Gold
+					}),
+				},
+			})),
 			n(118898, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH } }, {	-- Ulaani <Gold Exchange>
 				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
@@ -1824,6 +1836,18 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["description"] = "Use this while on the 'Undercover Agent: Silent Jussho' quest if you do not have Rank 6 by this point.",
 						-- #endif
 						["cost"] = { { "c", 1299, 1000 }, },	-- 1,000x Brawler's Gold
+					}),
+				},
+			})),
+			n(118898, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Ulaani <Gold Exchange>
+				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(259227, {	-- Brawlin' Bruno
+						["cost"] = { { "c", 1299, 100 }, },	-- 250x Brawler's Gold
+					}),
+					i(259238, {	-- Ballistic Bronco
+						["cost"] = { { "c", 1299, 500 }, },	-- 500x Brawler's Gold
 					}),
 				},
 			})),

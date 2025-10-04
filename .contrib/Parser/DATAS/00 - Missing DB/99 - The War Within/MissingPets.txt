@@ -38,7 +38,6 @@ pet(4892),	-- Riftblade Familiar
 pet(4905),	-- [DNT] Baby Amazard (Red)
 pet(4906),	-- [DNT] Baby Amani Eagle (Grey)
 pet(4910),	-- Do, child of Fi'lo
-pet(4911),	-- P.O.S.T. Assistant
 pet(4912),	-- Silvermoon Broom
 pet(4913),	-- Moon Darter
 pet(4914),	-- Chillcrawler
@@ -81,7 +80,6 @@ pet(4892),	-- Riftblade Familiar
 pet(4905),	-- [DNT] Baby Amazard (Red)
 pet(4906),	-- [DNT] Baby Amani Eagle (Grey)
 pet(4910),	-- Do, child of Fi'lo
-pet(4911),	-- P.O.S.T. Assistant
 pet(4912),	-- Silvermoon Broom
 pet(4913),	-- Moon Darter
 pet(4914),	-- Chillcrawler

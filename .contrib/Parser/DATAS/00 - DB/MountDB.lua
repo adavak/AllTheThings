@@ -2206,9 +2206,19 @@ i(250321, 1250740);	-- Thorignir Drake
 ------------------
 -- PATCH 11.2.7 --
 ------------------
+i(259227, 1264621);	-- Brawlin' Bruno
+i(259238, 1264643);	-- Ballistic Bronco
+i(257511, 1261668);	-- Bronze Wilderling
+i(257513, 1261671);	-- Bronze Aquilon
+i(257514, 1261677);	-- Bronze Corpsefly
+i(257516, 1261681);	-- Bronze Gravewing
+i(258515, 1263387);	-- Crimson Lupine
 i(258188, 1262886);	-- Geargrinder Mk. 11
+i(258488, 1263369);	-- Skypaw Glimmerfur
+i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
 
 ------------------
 -- PATCH 12.0.0 --
 ------------------
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
+i(246594, 1243003),	-- Light-Forged Mechsuit

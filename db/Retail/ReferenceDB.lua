@@ -90,6 +90,10 @@ _.RaceDB=
 	},
 	["Gnome"] = 7,
 	["Goblin"] = 9,
+	["Haranir"] = {
+		["Alliance"] = 86,
+		["Horde"] = 91
+	},
 	["Highmountain Tauren"] = 28,
 	["HighmountainTauren"] = 28,
 	["Human"] = 1,
@@ -285,6 +289,26 @@ _.RaceDB=
 		[85] = {
 			["faction"] = 1,
 			["icon"] = 5930319
+		},
+		[86] = {
+			["gender"] = {
+				[2] = {
+					["icon"] = 7431081
+				},
+				[3] = {
+					["icon"] = 7431080
+				}
+			}
+		},
+		[91] = {
+			["gender"] = {
+				[2] = {
+					["icon"] = 7431081
+				},
+				[3] = {
+					["icon"] = 7431080
+				}
+			}
 		}
 	},
 	["Kul Tiran"] = 32,

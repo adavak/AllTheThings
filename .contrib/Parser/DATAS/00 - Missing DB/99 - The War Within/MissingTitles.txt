@@ -9,9 +9,7 @@ title(650),	-- Delver %s
 title(645),	-- Khaz Algar Enthusiast %s
 12.0.0.63534
 title(0),	-- Loa-speaker %s
-title(642),	-- %s, Thorn of Twilight
 title(643),	-- %s, Definitely Not a Cultist
-title(657),	-- %s the Furnished
 title(660),	-- [PH] %s
 title(661),	-- [PH] %s
 title(662),	-- [PH] %s
