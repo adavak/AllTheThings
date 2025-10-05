@@ -26,7 +26,7 @@ local ALL_REGULAR_DELVES_TWW = {
 	ARCHIVAL_ASSAULT,
 	-- #endif
 };
-local ALL_THE_DELVES_TWW = {
+local ALL_THE_DELVES = {
 	EARTHCRAWL_MINES,
 	FUNGAL_FOLLY,
 	KRIEGVALS_REST,
@@ -49,8 +49,7 @@ local ALL_THE_DELVES_TWW = {
 	ARCHIVAL_ASSAULT,
 	DELVE_ETHEREAL_KYVEZA,
 	-- #endif
-};
-local ALL_THE_DELVES_MID = {
+	-- #if AFTER 12.0.0
 	ATAL_AMAN,
 	COLLEGIATE_CALAMITY,
 	PARHELION_PLAZA,
@@ -62,6 +61,7 @@ local ALL_THE_DELVES_MID = {
 	THE_SHADOW_ENCLAVE,
 	TORMENTS_RISE,
 	TWILIGHT_CRYPTS,
+	-- #endif
 };
 local mapped = function(t)
 	if not t.maps then
@@ -73,17 +73,17 @@ end
 root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
 		ach(40460, {	-- Delve Deep
-			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
+			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40462, {	-- Delve Deeper
-			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
+			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40463, {	-- Delve Deepest (100)
-			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
+			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(41095, {	-- Delve Beyond (500)
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
+			["maps"] = ALL_THE_DELVES,
 			["groups"] = {
 				-- #if AFTER 11.2.0
 				--title(650),	-- Delver %s // doesn't load ingame
@@ -94,7 +94,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(41096, {	-- Delve Infinite (1000)
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
+			["maps"] = ALL_THE_DELVES,
 			["groups"] = { title(599) },	-- Infinite Delver %s
 		}),
 	}),

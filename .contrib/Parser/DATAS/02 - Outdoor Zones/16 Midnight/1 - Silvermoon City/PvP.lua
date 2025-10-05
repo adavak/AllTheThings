@@ -15,7 +15,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--	q(81796, {	-- Sparks of War: Azj-Kahet
 			--		i(219934),	-- Spark of War (QI!)
 			--	}),
-			})),
 			n(VENDORS, {
 				n(219215, {	-- Hotharn <Competitor's Recipes>
 				--	["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
@@ -114,7 +113,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 								["cost"] = {{"c", HONOR, 2500}},
 							}),
 						}),--]]
-					}),
+				--	}),
 				}),
 				--[[n(219212, {	-- Maara <War Mode Supplies>
 					["coord"] = { 60.3, 70.0, DORNOGAL },
