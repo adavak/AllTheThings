@@ -1073,7 +1073,7 @@ namespace ATT
                 WriteIfDifferent(Path.Combine(directory, "Categories.xml"), builder.ToString());
 
                 // Build all categories
-                Dictionary<string, Exporter> categoryBuilders = new Dictionary<string, Exporter>(AllContainerClones.Count);
+                ConcurrentDictionary<string, Exporter> categoryBuilders = new ConcurrentDictionary<string, Exporter>();
                 AllContainerClones.AsParallel().ForAll((containerPair) =>
                 {
                     if (containerPair.Value.Count > 0)
