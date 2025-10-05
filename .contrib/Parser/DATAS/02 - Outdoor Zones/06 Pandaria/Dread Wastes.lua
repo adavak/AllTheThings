@@ -1787,7 +1787,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 67.4, 60.8, DREAD_WASTES },
 					}),
 					o(213412, {	-- The Empress
-						["coord"] = { 29.1, 62.1, DREAD_WASTES },
+						["coord"] = { 35.6, 32.6, DREAD_WASTES },
 					}),
 					o(213962, {	-- Wind-Reaver's Dagger of Quick Strikes
 						["coord"] = { 71.8, 36.1, DREAD_WASTES },
