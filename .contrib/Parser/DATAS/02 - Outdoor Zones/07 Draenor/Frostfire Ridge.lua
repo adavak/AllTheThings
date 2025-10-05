@@ -1773,13 +1773,6 @@ root(ROOTS.Zones, {
 							i(120341),	-- Burning Pearl
 						},
 					}),
-					n(75120, {	-- Clumsy Cragmaul Brute
-						["questID"] = 33531,
-						["coord"] = { 50.2, 18.7, FROSTFIRE_RIDGE },
-						["groups"] = {
-							i(112096),	-- Dented Ogre Skullcap
-						},
-					}),
 					o(226983, {	-- Crag-Leaper's Cache
 						["questID"] = 33940,
 						["coord"] = { 42.65, 31.74, FROSTFIRE_RIDGE },

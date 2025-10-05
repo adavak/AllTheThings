@@ -399,8 +399,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			-- 5.0.4
 			expansion(EXPANSION.MOP, patch(0,4), bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 				q(30549),	-- [DNT] Rearm, Reuse, Recycle TRACKER
-				q(30982),	-- Animal Control
-				q(30997),	-- Animal Control
 			})),
 
 			-- 5.3.0
