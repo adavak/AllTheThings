@@ -19,6 +19,15 @@ local VALE_SOO_ONUPDATE = [[function(t)
 		t.description = "This will be removed when the Siege of Orgrimmar phase begins."
 	end
 end]];
+-- Wouter NOTE: hacky way to force collect other Challenge Mode mounts after getting one; they're character specific and you can only get 1 achievement per character
+local PHOENIX_MOUNT_ONUPDATE = [[function(t)
+	if 	IsPlayerSpell(132117) and not (t.itemID == 90710) or
+		IsPlayerSpell(128552) and not (t.itemID == 89154) or
+		IsPlayerSpell(132118) and not (t.itemID == 90711) or
+		IsPlayerSpell(132119) and not (t.itemID == 90712) then
+		t.collectible = false;
+	end
+end]];
 -- #endif
 
 local function RemovedWithSOO(t)
@@ -982,10 +991,26 @@ root(ROOTS.Zones, {
 							["cost"] = {{"i", 90045, 1 }},	-- 1x Ancestral Phoenix Egg
 							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 						}, {
-							i(89154),	-- Crimson Pandaren Phoenix (MOUNT!)
-							i(90710),	-- Ashen Pandaren Phoenix (MOUNT!)
-							i(90711),	-- Emerald Pandaren Phoenix (MOUNT!)
-							i(90712),	-- Violet Pandaren Phoenix (MOUNT!)
+							i(90710, {	-- Ashen Pandaren Phoenix (MOUNT!)
+								-- #if MOP
+								["OnUpdate"] = PHOENIX_MOUNT_ONUPDATE,
+								-- #endif
+							}),
+							i(89154, {	-- Crimson Pandaren Phoenix (MOUNT!)
+								-- #if MOP
+								["OnUpdate"] = PHOENIX_MOUNT_ONUPDATE,
+								-- #endif
+							}),
+							i(90711, {	-- Emerald Pandaren Phoenix (MOUNT!)
+								-- #if MOP
+								["OnUpdate"] = PHOENIX_MOUNT_ONUPDATE,
+								-- #endif
+							}),
+							i(90712, {	-- Violet Pandaren Phoenix (MOUNT!)
+								-- #if MOP
+								["OnUpdate"] = PHOENIX_MOUNT_ONUPDATE,
+								-- #endif
+							}),
 						}),
 					}),
 					n(65172, {	-- Len at Arms <Adventuring Supplies>
