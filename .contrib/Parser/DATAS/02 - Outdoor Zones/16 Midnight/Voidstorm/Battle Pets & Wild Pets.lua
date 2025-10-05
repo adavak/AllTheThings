@@ -1,9 +1,9 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
---[[
+
 root(ROOTS.Zones, m(MIDNIGHT, {
-	M(VOIDSTORM, {
+	m(VOIDSTORM, {
 		filter(BATTLE_PETS, {
 			["groups"] = {
 				pet(4879, {	-- Blistercreepling
@@ -26,4 +26,4 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 		}),
 	}),
 }));
---]]
+

@@ -1,9 +1,9 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
---[[
+
 root(ROOTS.Zones, m(MIDNIGHT, {
-	M(HARANDAR, {
+	m(HARANDAR, {
 		filter(BATTLE_PETS, {
 			["groups"] = {
 				pet(4882, {	-- Azure Sporebat
@@ -26,4 +26,4 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 		}),
 	}),
 }));
---]]
+

@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
---[[root(ROOTS.Zones, m(MIDNIGHT, {
+root(ROOTS.Zones, m(MIDNIGHT, {
 	m(SILVERMOON_CITY_MID, {
 		pvp(n(PVP, {
 			n(QUESTS, {
@@ -9,7 +9,7 @@
 			n(QUESTS, sharedData({
 			--	["provider"] = { "n", 219260 },	-- Ruffious
 			--	["coord"] = { 58.9, 75.3, DORNOGAL },
-				["isWeekly"] = true,
+			--	["isWeekly"] = true,
 			}, {
 			--	q(80188),	-- Preserving in Arenas
 			--	q(81796, {	-- Sparks of War: Azj-Kahet
@@ -17,8 +17,8 @@
 			--	}),
 			})),
 			n(VENDORS, {
-			--	n(219215, {	-- Hotharn <Competitor's Recipes>
-			--		["coord"] = { 55.5, 77.1, DORNOGAL },
+				n(219215, {	-- Hotharn <Competitor's Recipes>
+					["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
 					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
 						filter(RECIPES, {
 							i(256719),	-- Design: Midnight Competitor's Amulet
@@ -87,7 +87,7 @@
 							i(257261),	-- Technique: Thalassian Competitor's Insignia of Alacrity
 							i(257262),	-- Technique: Thalassian Competitor's Medallion
 						}),
-						--
+						--[[
 						filter(MISC, {
 							i(213778, {	-- Forged Jeweler's Setting
 								["cost"] = {
@@ -95,20 +95,6 @@
 									{"c", HONOR, 5000},
 								},
 								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
-							}),
-							i(230425, {	-- Prized Jeweler's Setting
-								["cost"] = {
-									{"i", 215236, 3},	-- Vicious Bloodstone x3
-									{"c", HONOR, 5000},
-								},
-								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-							}),
-							i(230724, {	-- Astral Jeweler's Setting
-								["cost"] = {
-									{"i", 215236, 3},	-- Vicious Bloodstone x3
-									{"c", HONOR, 5000},
-								},
-								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 						}),
 						filter(REAGENTS, {
@@ -124,37 +110,13 @@
 								["cost"] = {{"c", CONQUEST, 175}},
 								["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 							}),
-							i(210232, {	-- Forged Aspirant's Heraldry
-								["cost"] = {{"c", HONOR, 175}},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
-							}),
-							i(210221, {	-- Forged Combatant's Heraldry
-								["cost"] = {{"c", HONOR, 350}},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
-							}),
-							i(210233, {	-- Forged Gladiator's Heraldry
-								["cost"] = {{"c", CONQUEST, 175}},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
-							}),
-							i(229389, {	-- Prized Aspirant's Heraldry
-								["cost"] = {{"c", HONOR, 175}},
-								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-							}),
-							i(229388, {	-- Prized Combatant's Heraldry
-								["cost"] = {{"c", HONOR, 350}},
-								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-							}),
-							i(229390, {	-- Prized Gladiator's Heraldry
-								["cost"] = {{"c", CONQUEST, 175}},
-								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-							}),
 							i(215236, {	-- Vicious Bloodstone
 								["cost"] = {{"c", HONOR, 2500}},
 							}),
-						}),
+						}),--]]
 					}),
 				}),
-				n(219212, {	-- Maara <War Mode Supplies>
+				--[[n(219212, {	-- Maara <War Mode Supplies>
 					["coord"] = { 60.3, 70.0, DORNOGAL },
 					["groups"] = {
 						filter(MISC, sharedData({
@@ -189,7 +151,7 @@
 							},
 						}),
 					},
-				}),
+				}),--]]
 			}),
 		})),
 	}),
