@@ -79,12 +79,12 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					["groups"] = {
 						ach(12835),	-- Shrine of the Storm
 						i(159135),	-- Deep Fathom's Bite
-						i(159302),	-- Cowl of Fluid Machiantions
+						i(159302),	-- Cowl of Fluid Machinations
 						i(159430),	-- Helm of Abyssal Malevolence
 						i(159244),	-- Stormlurker's Cowl
 						i(159238),	-- Mantle of Void-Touched Waters
 						i(159307),	-- Tentacle-Laced Spaulders
-						i(159408),	-- Chestguard of the Deep Denizn
+						i(159408),	-- Chestguard of the Deep Denizen
 						i(159354),	-- Hauberk of Sunken Despair
 						i(159377),	-- Chain of Consummate Power
 						i(159620),	-- Conch of Dark Whispers
@@ -142,12 +142,12 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						["groups"] = {
 							ach(12837),	-- Heroic: Shrine of the Storm
 							i(159135),	-- Deep Fathom's Bite
-							i(159302),	-- Cowl of Fluid Machiantions
+							i(159302),	-- Cowl of Fluid Machinations
 							i(159430),	-- Helm of Abyssal Malevolence
 							i(159244),	-- Stormlurker's Cowl
 							i(159238),	-- Mantle of Void-Touched Waters
 							i(159307),	-- Tentacle-Laced Spaulders
-							i(159408),	-- Chestguard of the Deep Denizn
+							i(159408),	-- Chestguard of the Deep Denizen
 							i(159354),	-- Hauberk of Sunken Despair
 							i(159377),	-- Chain of Consummate Power
 							i(159620),	-- Conch of Dark Whispers
@@ -213,12 +213,12 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							ach(13001),	-- Mythic: Shrine of the Storm Guild Run
 							ach(12602),	-- Trust No One
 							i(159135),	-- Deep Fathom's Bite
-							i(159302),	-- Cowl of Fluid Machiantions
+							i(159302),	-- Cowl of Fluid Machinations
 							i(159430),	-- Helm of Abyssal Malevolence
 							i(159244),	-- Stormlurker's Cowl
 							i(159238),	-- Mantle of Void-Touched Waters
 							i(159307),	-- Tentacle-Laced Spaulders
-							i(159408),	-- Chestguard of the Deep Denizn
+							i(159408),	-- Chestguard of the Deep Denizen
 							i(159354),	-- Hauberk of Sunken Despair
 							i(159377),	-- Chain of Consummate Power
 							i(159620),	-- Conch of Dark Whispers

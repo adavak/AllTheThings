@@ -23,7 +23,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					["lvl"] = 120,
 				}),
 			}),
-			d(DIFFICULTY.DUNGEON.HEROIC, {
+			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, {
 				e(2165, {	-- The Golden Serpent
 					["crs"] = { 135322 },	-- The Golden Serpent
 					["groups"] = {
@@ -104,50 +104,10 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							["description"] = "It is on the right pillar after coming down the stairs to the final boss.",
 						}),
 					}),
-					e(2165, {	-- The Golden Serpent
-						["crs"] = { 135322 },	-- The Golden Serpent
-						["groups"] = {
-							i(159137),	-- Gilded Serpent's Tooth
-							i(159413),	-- Gauntlets of the Avian Sentinel
-							i(159369),	-- Belt of the Consecrateed Tomb
-							i(159313),	-- Breechees of the Sacred Hall
-							i(159234),	-- Down-Lined Breeches
-							i(159412),	-- Auric Puddle Stompers
-							i(159304),	-- Goldfeather Boots
-							i(159617),	-- Lustrous Golden Plumage
-							i(168168, {	-- Gilded Plume
-								["sourceQuest"] = 49882,	-- A Test of Quills (might require actually learning Recipe 256301)
-							}),
-						},
-					}),
 					e(2171, {	-- Mchimba the Embalmer
 						["crs"] = { 134993 },	-- Mchimba the Embalmer
 						["groups"] = {
 							ach(12721),	-- Wrap God
-							i(159642),	-- Royal Purifier's Spaade
-							i(159667),	-- Vessel of Last Rites
-							i(159409),	-- Embalmer's Steadying Bracers
-							i(159312),	-- Desiccator's Blessed Gloves
-							i(160213),	-- Sepulchral Construct's Gloves
-							i(159459),	-- Ritual Binder's Ring
-							i(159618),	-- Mchimba's Ritual Bandages
-						},
-					}),
-					e(2170, {	-- The Council of Tribes
-						["crs"] = {
-							135470,	-- Aka'ali  the Conqueror
-							135475,	-- Kula the Butcher
-							135472,	-- Zanazal the Wise
-						},
-						["groups"] = {
-							i(160216),	-- Crackling Jade Kilij
-							i(159136),	-- Jeweled Dagger of Subjugation
-							i(159643),	-- Crossbow of Forgotten Majesty
-							i(159288),	-- Cloak of the Restless Tribes
-							i(159300),	-- Kula's Butchering Wristwraps
-							i(159418),	-- Girdle of Pestilent Purification
-							i(159371),	-- Boots of the Headlong Conqueror
-							i(159243),	-- Sandals of Wise Voodoo
 						},
 					}),
 					e(2172, {	-- Dazar, The First King
@@ -162,17 +122,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 								},
 							}),
 							i(159921),	-- Tomb Stalker (MOUNT!)
-							i(159644),	-- Geti'ikku, Cut of Death
-							i(159645),	-- Headcracker of Supplication
-							i(159236),	-- Headdress of the First Empire
-							i(159422),	-- Helm of the Raptor King
-							i(158344),	-- Mantle of Ceremonial Ascension
-							i(159423),	-- Pauldrons of the Great Unifier
-							i(159368),	-- Spaulders of Prime Emperor
-							i(158355),	-- Loa-Blessed Chestguard
-							i(159303),	-- Vest of Reverent Adoration
-							i(159301),	-- Primal Dinomancer's Belt
-							i(168129),	-- Essence of the Troll Dynasty
 						},
 					}),
 				},
