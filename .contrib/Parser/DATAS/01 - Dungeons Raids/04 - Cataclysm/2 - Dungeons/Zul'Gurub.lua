@@ -848,7 +848,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	inst(76, {
-		q(35411),	-- Zul'Gurub Reward Quest - Heroic completion
-		q(35412),	-- Zul'Gurub Bonus Objective Reward Quest - kill Cache of Madness
+		["isRaid"] = false,	-- prevent merging isRaid from Classic version
+		["groups"] = {
+			q(35411),	-- Zul'Gurub Reward Quest - Heroic completion
+			q(35412),	-- Zul'Gurub Bonus Objective Reward Quest - kill Cache of Madness
+		},
 	}),
 })));
