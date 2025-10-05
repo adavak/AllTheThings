@@ -26369,22 +26369,6 @@ i(238205),	-- Sterling Alloy
 i(238206),	-- [PH] Weightstone - Quality 1
 i(238209),	-- Refulgent Repair Hammer
 i(238215),	-- Essence of Prey
-i(238218),	-- Plans: Thalassian Competitor's Plate Breastplate
-i(238219),	-- Plans: Thalassian Competitor's Plate Sabatons
-i(238220),	-- Plans: Thalassian Competitor's Plate Gauntlets
-i(238221),	-- Plans: Thalassian Competitor's Plate Helm
-i(238222),	-- Plans: Thalassian Competitor's Plate Greaves
-i(238223),	-- Plans: Thalassian Competitor's Plate Pauldrons
-i(238224),	-- Plans: Thalassian Competitor's Plate Waistguard
-i(238225),	-- Plans: Thalassian Competitor's Plate Armguards
-i(238226),	-- Plans: Thalassian Competitor's Pickaxe
-i(238227),	-- Plans: Thalassian Competitor's Knife
-i(238228),	-- Plans: Thalassian Competitor's Maxim
-i(238229),	-- Plans: Thalassian Competitor's Bulwark
-i(238230),	-- Plans: Thalassian Competitor's Splitter
-i(238231),	-- Plans: Thalassian Competitor's Skewer
-i(238232),	-- Plans: Thalassian Competitor's Greatsword
-i(238233),	-- Plans: Thalassian Competitor's Sword
 i(238256),	-- Cattail
 i(238359),	-- Nalorakk's Totem
 i(238365),	-- Sin'dorei Swarmer
@@ -29387,64 +29371,6 @@ i(255845),	-- Silvermoon Parade
 i(255846),	-- Rootland Celebration
 i(255847),	-- Impossibly Royal Roast
 i(255848),	-- Flora Frenzy
-i(255882),	-- Galactic Warmonger's Garb
-i(255883),	-- Galactic Warmonger's Slippers
-i(255884),	-- Galactic Warmonger's Gloves
-i(255885),	-- Galactic Warmonger's Mask
-i(255886),	-- Galactic Warmonger's Pants
-i(255887),	-- Galactic Warmonger's Cord
-i(255888),	-- Galactic Warmonger's Bindings
-i(255889),	-- Galactic Warmonger's Mantle
-i(255890),	-- Galactic Warmonger's Boots
-i(255891),	-- Galactic Warmonger's Handwraps
-i(255892),	-- Galactic Warmonger's Hood
-i(255893),	-- Galactic Warmonger's Breeches
-i(255894),	-- Galactic Warmonger's Belt
-i(255895),	-- Galactic Warmonger's Wraps
-i(255896),	-- Galactic Warmonger's Jerkin
-i(255897),	-- Galactic Warmonger's Shoulderguard
-i(255898),	-- Galactic Warmonger's Faceplate
-i(255899),	-- Galactic Warmonger's Cuirass
-i(255900),	-- Galactic Warmonger's Sabatons
-i(255901),	-- Galactic Warmonger's Gauntlets
-i(255902),	-- Galactic Warmonger's Legguards
-i(255903),	-- Galactic Warmonger's Spaulders
-i(255904),	-- Galactic Warmonger's Clasp
-i(255905),	-- Galactic Warmonger's Bracers
-i(255906),	-- Galactic Warmonger's Chestguard
-i(255907),	-- Galactic Warmonger's Greaves
-i(255908),	-- Galactic Warmonger's Grips
-i(255909),	-- Galactic Warmonger's Helm
-i(255910),	-- Galactic Warmonger's Leggings
-i(255911),	-- Galactic Warmonger's Epaulets
-i(255912),	-- Galactic Warmonger's Cinch
-i(255913),	-- Galactic Warmonger's Armguards
-i(255914),	-- Galactic Warmonger's Cape
-i(255915),	-- Galactic Warmonger's Shawl
-i(255916),	-- Galactic Warmonger's Cloak
-i(255917),	-- Galactic Warmonger's Drape
-i(255918),	-- Galactic Warmonger's Battleaxe
-i(255919),	-- Galactic Warmonger's Hatchet
-i(255920),	-- Galactic Warmonger's Carver
-i(255921),	-- Galactic Warmonger's Flameshot
-i(255922),	-- Galactic Warmonger's Twinblade
-i(255923),	-- Galactic Warmonger's Lantern
-i(255924),	-- Galactic Warmonger's Spire
-i(255925),	-- Galactic Warmonger's Battlestaff
-i(255926),	-- Galactic Warmonger's Greatsword
-i(255927),	-- Galactic Warmonger's Broadsword
-i(255928),	-- Galactic Warmonger's Club
-i(255929),	-- Galactic Warmonger's Hammer
-i(255930),	-- Galactic Warmonger's Cudgel
-i(255931),	-- Galactic Warmonger's Aegis
-i(255932),	-- Galactic Warmonger's Impaler
-i(255933),	-- Galactic Warmonger's Spear
-i(255934),	-- Galactic Warmonger's Wand
-i(255935),	-- Galactic Warmonger's Mace
-i(255936),	-- Galactic Warmonger's Crusher
-i(255937),	-- Galactic Warmonger's Scepter
-i(255938),	-- Galactic Warmonger's Dagger
-i(255939),	-- Galactic Warmonger's Dirk
 i(256055),	-- Overflowing Hara'ti Trove
 i(256135),	-- Light-Infused Tinder Box
 i(256136),	-- Professor Instructaur's Brain Pertaining to Midnight
@@ -29543,35 +29469,19 @@ i(256613),	-- [DNT] Hara'ti Renown Cosmetic Cloak
 i(256614),	-- [DNT] Hara'ti Renown Cosmetic Shoulders
 i(256615),	-- [DNT] Hara'ti Renown Cosmetic Tabard
 i(256625),	-- Pattern: Hexwoven Strand
-i(256626),	-- Pattern: Thalassian Competitor's Leather Boots
-i(256627),	-- Pattern: Thalassian Competitor's Leather Chestpiece
-i(256628),	-- Pattern: Thalassian Competitor's Leather Gloves
-i(256629),	-- Pattern: Thalassian Competitor's Leather Trousers
-i(256630),	-- Pattern: Thalassian Competitor's Leather Shoulderpads
-i(256631),	-- Pattern: Thalassian Competitor's Leather Belt
-i(256632),	-- Pattern: Thalassian Competitor's Leather Mask
-i(256633),	-- Pattern: Thalassian Competitor's Chain Stompers
-i(256634),	-- Pattern: Thalassian Competitor's Chain Chainvest
-i(256635),	-- Pattern: Thalassian Competitor's Leather Wristwraps
 i(256636),	-- Pattern: Row Walker's Deflectors
 i(256637),	-- Pattern: Axe-Flingin' Bands
 i(256638),	-- Pattern: Row Walker's Swiftgrips
 i(256639),	-- Pattern: World Tree Rootwraps
 i(256640),	-- Pattern: Row Walker's Insurance
-i(256641),	-- Pattern: Thalassian Competitor's Chain Leggings
 i(256642),	-- Pattern: Primal Spore Binding
-i(256643),	-- Pattern: Thalassian Competitor's Chain Grips
-i(256644),	-- Pattern: Thalassian Competitor's Chain Epaulets
 i(256645),	-- Pattern: Blessed Pango Charm
-i(256646),	-- Pattern: Thalassian Competitor's Chain Cowl
 i(256647),	-- Pattern: Forest Hunter's Armor Kit
 i(256648),	-- Pattern: Devouring Banding
-i(256649),	-- Pattern: Thalassian Competitor's Chain Girdle
 i(256650),	-- Pattern: World Tender's Rootslippers
 i(256651),	-- Pattern: Blood Knight's Armor Kit
 i(256652),	-- Pattern: World Tender's Trunkplate
 i(256653),	-- Pattern: Ranger-General's Grips
-i(256654),	-- Pattern: Thalassian Competitor's Chain Cuffs
 i(256655),	-- Pattern: Sin'dorei Alchemist's Hat
 i(256656),	-- Pattern: World Tender's Barkclasp
 i(256657),	-- Pattern: Thalassian Ironbender's Regalia
@@ -29596,7 +29506,6 @@ i(256694),	-- Bone Splinter
 i(256699),	-- Design: Sin'dorei Enchanter's Crystal
 i(256700),	-- Design: Signet of Azerothian Blessings
 i(256701),	-- Design: Attuned Thalassian Rune-Prism
-i(256702),	-- Design: Midnight Competitor's Signet
 i(256703),	-- Design: Sin'dorei Scribe's Spectacles
 i(256704),	-- Design: Powerful Eversong Diamond
 i(256705),	-- Design: Flawless Text Scrutinizers
@@ -29613,7 +29522,6 @@ i(256715),	-- Design: Thalassian Phoenix Torque
 i(256716),	-- Design: Prismatic Focusing Iris
 i(256717),	-- Design: Loa Worshiper's Band
 i(256718),	-- Design: Stabilizing Gemstone Bandolier
-i(256719),	-- Design: Midnight Competitor's Amulet
 i(256720),	-- Design: Stoic Eversong Diamond
 i(256721),	-- Design: Voidstone Shielding Array
 i(256722),	-- Demoncaller's Azure Crest
@@ -29645,16 +29553,7 @@ i(256758),	-- Formula: Enchant Tool - Ren'dorei Ingenuity
 i(256759),	-- Formula: Enchant Weapon - Flames of the Sin'dorei
 i(256760),	-- Formula: Enchant Ring - Silvermoon's Tenacity
 i(256761),	-- Formula: Enchant Shoulders - Voidtouched
-i(256880),	-- Pattern: Thalassian Competitor's Cloth Bands
 i(256881),	-- Steward's Bauble
-i(256884),	-- Pattern: Thalassian Competitor's Cloth Sash
-i(256885),	-- Pattern: Thalassian Competitor's Cloth Tunic
-i(256886),	-- Pattern: Thalassian Competitor's Cloth Treads
-i(256887),	-- Pattern: Thalassian Competitor's Cloth Gloves
-i(256888),	-- Pattern: Thalassian Competitor's Cloth Hood
-i(256889),	-- Pattern: Thalassian Competitor's Cloth Leggings
-i(256890),	-- Pattern: Thalassian Competitor's Cloth Shoulderpads
-i(256891),	-- Pattern: Thalassian Competitor's Cloth Cloak
 i(256893),	-- Wretched Dredger's Brand
 i(256963),	-- Thalassian Lumber
 i(256965),	-- [PH] WQ - Armor - Plate WRIST - A
@@ -29780,7 +29679,6 @@ i(257237),	-- [DNT] [PH] Max Level Campaign - Weapon - Bows - AGI
 i(257238),	-- [DNT] [PH] Max Level Campaign - Weapon - Dagger - AGI
 i(257241),	-- Strait Fish Meat
 i(257242),	-- [DNT] [PH] Max Level Campaign - Generic - Offhand - INT
-i(257243),	-- Technique: Thalassian Competitor's Lamp
 i(257244),	-- Dreamfriend's Waistguard
 i(257245),	-- Dreamfriend's Girdle
 i(257246),	-- Dreamfriend's Belt
@@ -29791,11 +29689,6 @@ i(257250),	-- [DNT] [PH] Max Level Campaign - Weapon - Mace1H - INT
 i(257251),	-- [DNT] [PH] Max Level Campaign - Weapon - Polearms - AGI
 i(257254),	-- [DNT] [PH] Max Level Campaign - Weapon - Staff - AGI
 i(257256),	-- [DNT] [PH] Max Level Campaign - Weapon - Staff - INT
-i(257258),	-- Technique: Thalassian Competitor's Bow
-i(257259),	-- Technique: Thalassian Competitor's Pillar
-i(257260),	-- Technique: Thalassian Competitor's Emblem
-i(257261),	-- Technique: Thalassian Competitor's Insignia of Alacrity
-i(257262),	-- Technique: Thalassian Competitor's Medallion
 i(257265),	-- Dreamfriend's Hood
 i(257266),	-- Dreamfriend's Helm
 i(257267),	-- Dreamfriend's Cap
@@ -29816,7 +29709,6 @@ i(257294),	-- Dreamfriend's Legguards
 i(257295),	-- Dreamfriend's Leggings
 i(257296),	-- Dreamfriend's Scales
 i(257297),	-- Dreamfriend's Breeches
-i(257298),	-- Schematic: Thalassian Competitor's Plate Dunkers
 i(257299),	-- Relic of the Somnambulant
 i(257300),	-- Seed from the Dream
 i(257301),	-- Dreamfriend's Wraps
@@ -29846,9 +29738,6 @@ i(257324),	-- Dreamforged Bludgeon
 i(257325),	-- Greatsword of the Somnambulant
 i(257327),	-- Drusahl's Polearm
 i(257347),	-- [DNT] [PH] 12.0 Armor Box
-i(257369),	-- Schematic: Thalassian Competitor's Mail Footlinks
-i(257370),	-- Schematic: Thalassian Competitor's Leather Sliders
-i(257371),	-- Schematic: Thalassian Competitor's Cloth Tip-Toes
 i(257379),	-- Player Experience
 i(257380),	-- Player Experience
 i(257381),	-- Player Experience
@@ -29857,15 +29746,6 @@ i(257383),	-- Companion Experience
 i(257384),	-- Companion Experience
 i(257386),	-- Heavy Trunk
 i(257387),	-- Bountiful Heavy Trunk
-i(257407),	-- Schematic: Thalassian Competitor's Plate Bindings
-i(257408),	-- Schematic: Thalassian Competitor's Plate Guard
-i(257410),	-- Schematic: Thalassian Competitor's Cloth Cuffs
-i(257411),	-- Schematic: Thalassian Competitor's Cloth Goggles
-i(257413),	-- Schematic: Thalassian Competitor's Leather Bands
-i(257414),	-- Schematic: Thalassian Competitor's Leather Optics
-i(257415),	-- Schematic: Thalassian Competitor's Mail Links
-i(257416),	-- Schematic: Thalassian Competitor's Mail Visor
-i(257417),	-- Recipe: Vicious Midnight Flask of Honor
 i(257425),	-- Anubisath's Green Greatblade
 i(257426),	-- Anubisath's Red Greatblade
 i(257427),	-- Anubisath's Gold Greatblade

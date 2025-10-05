@@ -79,79 +79,79 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				["races"] = HORDE_ONLY,
 			}),
 		})),
-		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
-			n(219213, {	-- Gilderann <War Mode Quartermaster>
-				["coord"] = { 55.2, 76.8, DORNOGAL },
+		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
+			n(, {	--  <War Mode Quartermaster>
+				["coord"] = { 0.0, 0.0, DORNOGAL },
 				["groups"] = {
 					filter(BACK_F, {
-						bloody(525, i(230695)),	-- Galactic Warmonger's Cape
-						bloody(525, i(230697)),	-- Galactic Warmonger's Cloak
-						bloody(525, i(230698)),	-- Galactic Warmonger's Drape
-						bloody(525, i(230696)),	-- Galactic Warmonger's Shawl
+						bloody(525, i(255914)),	-- Galactic Warmonger's Cape
+						bloody(525, i(255916)),	-- Galactic Warmonger's Cloak
+						bloody(525, i(255917)),	-- Galactic Warmonger's Drape
+						bloody(525, i(255915)),	-- Galactic Warmonger's Shawl
 					}),
 					filter(CLOTH, {
-						bloody(525, i(230669)),	-- Galactic Warmonger's Bindings
-						bloody(700, i(230668)),	-- Galactic Warmonger's Cord
-						bloody(875, i(230663)),	-- Galactic Warmonger's Garb
-						bloody(700, i(230665)),	-- Galactic Warmonger's Gloves
-						bloody(700, i(230670)),	-- Galactic Warmonger's Mantle
-						bloody(875, i(230666)),	-- Galactic Warmonger's Mask
-						bloody(875, i(230667)),	-- Galactic Warmonger's Pants
-						bloody(700, i(230664)),	-- Galactic Warmonger's Slippers
+						bloody(525, i(255888)),	-- Galactic Warmonger's Bindings
+						bloody(700, i(255887)),	-- Galactic Warmonger's Cord
+						bloody(875, i(255882)),	-- Galactic Warmonger's Garb
+						bloody(700, i(255884)),	-- Galactic Warmonger's Gloves
+						bloody(700, i(255889)),	-- Galactic Warmonger's Mantle
+						bloody(875, i(255885)),	-- Galactic Warmonger's Mask
+						bloody(875, i(255886)),	-- Galactic Warmonger's Pants
+						bloody(700, i(255883)),	-- Galactic Warmonger's Slippers
 					}),
 					filter(LEATHER, {
-						bloody(700, i(230675)),	-- Galactic Warmonger's Belt
-						bloody(700, i(230671)),	-- Galactic Warmonger's Boots
-						bloody(875, i(230674)),	-- Galactic Warmonger's Breeches
-						bloody(700, i(230672)),	-- Galactic Warmonger's Handwraps
-						bloody(875, i(230673)),	-- Galactic Warmonger's Hood
-						bloody(875, i(230677)),	-- Galactic Warmonger's Jerkin
-						bloody(700, i(230678)),	-- Galactic Warmonger's Shoulderguard
-						bloody(525, i(230676)),	-- Galactic Warmonger's Wraps
+						bloody(700, i(255894)),	-- Galactic Warmonger's Belt
+						bloody(700, i(255890)),	-- Galactic Warmonger's Boots
+						bloody(875, i(255893)),	-- Galactic Warmonger's Breeches
+						bloody(700, i(255891)),	-- Galactic Warmonger's Handwraps
+						bloody(875, i(255892)),	-- Galactic Warmonger's Hood
+						bloody(875, i(255896)),	-- Galactic Warmonger's Jerkin
+						bloody(700, i(255897)),	-- Galactic Warmonger's Shoulderguard
+						bloody(525, i(255895)),	-- Galactic Warmonger's Wraps
 					}),
 					filter(MAIL, {
-						bloody(525, i(230694)),	-- Galactic Warmonger's Armguards
-						bloody(875, i(230687)),	-- Galactic Warmonger's Chestguard
-						bloody(700, i(230693)),	-- Galactic Warmonger's Cinch
-						bloody(700, i(230692)),	-- Galactic Warmonger's Epaulets
-						bloody(700, i(230688)),	-- Galactic Warmonger's Greaves
-						bloody(700, i(230689)),	-- Galactic Warmonger's Grips
-						bloody(875, i(230690)),	-- Galactic Warmonger's Helm
-						bloody(875, i(230691)),	-- Galactic Warmonger's Leggings
+						bloody(525, i(255913)),	-- Galactic Warmonger's Armguards
+						bloody(875, i(255906)),	-- Galactic Warmonger's Chestguard
+						bloody(700, i(255912)),	-- Galactic Warmonger's Cinch
+						bloody(700, i(255911)),	-- Galactic Warmonger's Epaulets
+						bloody(700, i(255907)),	-- Galactic Warmonger's Greaves
+						bloody(700, i(255908)),	-- Galactic Warmonger's Grips
+						bloody(875, i(255909)),	-- Galactic Warmonger's Helm
+						bloody(875, i(255910)),	-- Galactic Warmonger's Leggings
 					}),
 					filter(PLATE, {
-						bloody(525, i(230686)),	-- Galactic Warmonger's Bracers
-						bloody(700, i(230685)),	-- Galactic Warmonger's Clasp
-						bloody(875, i(230680)),	-- Galactic Warmonger's Cuirass
-						bloody(875, i(230679)),	-- Galactic Warmonger's Faceplate
-						bloody(700, i(230682)),	-- Galactic Warmonger's Gauntlets
-						bloody(875, i(230683)),	-- Galactic Warmonger's Legguards
-						bloody(700, i(230681)),	-- Galactic Warmonger's Sabatons
-						bloody(700, i(230684)),	-- Galactic Warmonger's Spaulders
+						bloody(525, i(255905)),	-- Galactic Warmonger's Bracers
+						bloody(700, i(255904)),	-- Galactic Warmonger's Clasp
+						bloody(875, i(255899)),	-- Galactic Warmonger's Cuirass
+						bloody(875, i(255898)),	-- Galactic Warmonger's Faceplate
+						bloody(700, i(255901)),	-- Galactic Warmonger's Gauntlets
+						bloody(875, i(255902)),	-- Galactic Warmonger's Legguards
+						bloody(700, i(255900)),	-- Galactic Warmonger's Sabatons
+						bloody(700, i(255903)),	-- Galactic Warmonger's Spaulders
 					}),
 					n(WEAPONS, {
-						bloody(525, i(230712)),	-- Galactic Warmonger's Aegis
-						bloody(875, i(230699)),	-- Galactic Warmonger's Battleaxe
-						bloody(1750, i(230706)),	-- Galactic Warmonger's Battlestaff
-						bloody(1750, i(230708)),	-- Galactic Warmonger's Broadsword
-						bloody(875, i(230701)),	-- Galactic Warmonger's Carver
-						bloody(1225, i(230709)),	-- Galactic Warmonger's Club
-						bloody(875, i(230717)),	-- Galactic Warmonger's Crusher
-						bloody(875, i(230711)),	-- Galactic Warmonger's Cudgel
-						bloody(1225, i(230719)),	-- Galactic Warmonger's Dagger
-						bloody(875, i(230720)),	-- Galactic Warmonger's Dirk
-						bloody(1750, i(230702)),	-- Galactic Warmonger's Flameshot
-						bloody(1750, i(230707)),	-- Galactic Warmonger's Greatsword
-						bloody(875, i(230710)),	-- Galactic Warmonger's Hammer
-						bloody(1225, i(230700)),	-- Galactic Warmonger's Hatchet
-						bloody(1750, i(230713)),	-- Galactic Warmonger's Impaler
-						bloody(525, i(230704)),	-- Galactic Warmonger's Lantern
-						bloody(875, i(230716)),	-- Galactic Warmonger's Mace
-						bloody(1750, i(230714)),	-- Galactic Warmonger's Spear
-						bloody(1750, i(230705)),	-- Galactic Warmonger's Spire
-						bloody(1225, i(230718)),	-- Galactic Warmonger's Scepter
-						bloody(875, i(230703)),	-- Galactic Warmonger's Twinblade
-						bloody(1225, i(230715)),	-- Galactic Warmonger's Wand
+						bloody(525, i(255931)),	-- Galactic Warmonger's Aegis
+						bloody(875, i(255918)),	-- Galactic Warmonger's Battleaxe
+						bloody(1750, i(255925)),	-- Galactic Warmonger's Battlestaff
+						bloody(1750, i(255927)),	-- Galactic Warmonger's Broadsword
+						bloody(875, i(255920)),	-- Galactic Warmonger's Carver
+						bloody(1225, i(255928)),	-- Galactic Warmonger's Club
+						bloody(875, i(255936)),	-- Galactic Warmonger's Crusher
+						bloody(875, i(255930)),	-- Galactic Warmonger's Cudgel
+						bloody(1225, i(255938)),	-- Galactic Warmonger's Dagger
+						bloody(875, i(255939)),	-- Galactic Warmonger's Dirk
+						bloody(1750, i(255921)),	-- Galactic Warmonger's Flameshot
+						bloody(1750, i(255926)),	-- Galactic Warmonger's Greatsword
+						bloody(875, i(255929)),	-- Galactic Warmonger's Hammer
+						bloody(1225, i(255919)),	-- Galactic Warmonger's Hatchet
+						bloody(1750, i(255932)),	-- Galactic Warmonger's Impaler
+						bloody(525, i(255923)),	-- Galactic Warmonger's Lantern
+						bloody(875, i(255935)),	-- Galactic Warmonger's Mace
+						bloody(1750, i(255933)),	-- Galactic Warmonger's Spear
+						bloody(1750, i(255924)),	-- Galactic Warmonger's Spire
+						bloody(1225, i(255937)),	-- Galactic Warmonger's Scepter
+						bloody(875, i(255922)),	-- Galactic Warmonger's Twinblade
+						bloody(1225, i(255934)),	-- Galactic Warmonger's Wand
 					}),
 				},
 			}),
