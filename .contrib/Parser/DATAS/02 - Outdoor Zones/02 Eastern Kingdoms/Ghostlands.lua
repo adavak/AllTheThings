@@ -1314,10 +1314,34 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				o(181665, {	-- Burial Chest
 					["description"] = "You'll need to pick the locks. Use a Rogue or a Blacksmith with Skeleton Keys. Chests always spawn at fixed locations.",
 					["coords"] = {
+						-- #if AFTER MOP
+						{ 66.4, 28.6, GHOSTLANDS },	-- Amani Catacombs Entrance, East
+						{ 13.7, 36.2, 96 },	-- Amani Catacombs
+						{ 14.9, 29.0, 96 },
+						{ 19.1, 26.5, 96 },
+						{ 26.5, 25.0, 96 },
+						{ 46.6, 24.0, 96 },
+						{ 47.2, 59.5, 96 },
+						{ 53.4, 68.8, 96 },
+						{ 54.1, 46.0, 96 },
+						{ 54.8, 64.1, 96 },
+						{ 55.1, 78.4, 96 },
+						{ 57.6, 27.8, 96 },
+						{ 61.4, 27.7, 96 },
+						{ 65.1, 77.8, 96 },
+						{ 65.2, 47.1, 96 },
+						{ 66.5, 68.0, 96 },
+						{ 66.8, 73.5, 96 },
+						{ 69.9, 39.7, 96 },
+						{ 72.6, 33.2, 96 },
+						{ 91.4, 33.0, 96 },
+						{ 58.1, 27.2, GHOSTLANDS },	-- Amani Catacombs Entrance, West
+						-- #else
 						{ 58.8, 28.6, GHOSTLANDS },
 						{ 62.7, 32.5, GHOSTLANDS },
 						{ 62.9, 28.0, GHOSTLANDS },
 						{ 65.8, 28.5, GHOSTLANDS },
+						-- #endif
 					},
 					["groups"] = {
 						i(23923),	-- Amani Sacrificial Dagger
@@ -1366,6 +1390,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						{ 75.0, 44.5, GHOSTLANDS },
 						{ 75.6, 43.7, GHOSTLANDS },
 						{ 75.6, 45.5, GHOSTLANDS },
+						{ 76.2, 47.3, GHOSTLANDS },
 						{ 77.2, 42.2, GHOSTLANDS },
 						{ 77.2, 45.0, GHOSTLANDS },
 						{ 77.4, 41.5, GHOSTLANDS },
