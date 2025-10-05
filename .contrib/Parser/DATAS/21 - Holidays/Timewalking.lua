@@ -7512,11 +7512,12 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					currency(TIMEWARPED_BADGE),
 				},
 			}),
-		}),
+		}),--]]
 		n(VENDORS, {
+			-- ToDO: Update NPCID/Coords
 			n(239840, {	-- Collector Ta'steld <Timewalking Vendor>
 				["coords"] = {
-					{ , , Oribos },
+				--	{ , , Oribos },
 				},
 				["groups"] = {
 					n(ARMOR, {
@@ -7539,6 +7540,42 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					filter(COSMETIC, {
 					}),
 					filter(MISC, {
+						i(254768, {	-- Commendation of Marasmius
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254761, {	-- Commendation of Ve'nari
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254774, {	-- Commendation of the Archivist's Codex
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254760, {	-- Commendation of the Ascended
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254762, {	-- Commendation of the Avowed
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254763, {	-- Commendation of the Court of Night
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254771, {	-- Commendation of the Death's Advance
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254764, {	-- Commendation of the Ember Court
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254775, {	-- Commendation of the Enlightened
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254765, {	-- Commendation of the Stitchmasters
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254758, {	-- Commendation of the Wild Hunt
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
+						i(254759, {	-- Commendation of the Undying Army
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+						}),
 					}),
 					filter(MOUNTS, {
 						i(182083, {	-- Bonecleaver's Skullboar (MOUNT!)
@@ -7578,7 +7615,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					}),
 				},
 			}),
-		}),--]]
+		}),
 		inst_tw(1188, {	-- De Other Side
 			e(2408, {	-- Hakkar the Soulflayer
 				["crs"] = { 164558 },	-- Hakkar the Soulflayer

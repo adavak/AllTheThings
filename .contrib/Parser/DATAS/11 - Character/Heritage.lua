@@ -1132,6 +1132,50 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 		}),
 	})),
+	-- ToDo: Add Pandaren Questline
+	--[[race(PANDAREN, bubbleDown({ ["timeline"] = { ADDED_10_0_7 }, ["races"] = { PANDAREN } }, {
+		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Pandaren|r.",
+		["groups"] = bubbleDown({
+			-- #if BEFORE 10.1.0
+			["minReputation"] = { FACTION_ORGRIMMAR, EXALTED },
+			-- #endif
+		}, {
+			q(73703, {	-- A Summon to Orgrimmar
+				["description"] = "Auto-accepted in Orgrimmar once criteria is met.",
+				["maps"] = { ORGRIMMAR },
+				["isBreadcrumb"] = true,
+			}),
+		}),
+	i(258639),	-- Huojin Legwraps
+	i(258640),	-- Huojin Wooden Capsa
+	i(258641),	-- Huojin Bamboo Cover
+	i(258642),	-- Huojin Charm Band
+	i(258643),	-- Huojin Sandals
+	i(258644),	-- Huojin Tunic
+	i(258645),	-- Huojin Wraps
+	i(258646),	-- Huojin Travel Belt
+	i(258647),	-- Huojin Shoulderguards
+	i(258648),	-- Wandering Isle Legwraps
+	i(258649),	-- Wandering Isle Capsa
+	i(258650),	-- Wandering Isle Cover
+	i(258651),	-- Wandering Isle Charm
+	i(258652),	-- Wandering Isle Sandals
+	i(258653),	-- Wandering Isle Tunic
+	i(258654),	-- Wandering Isle Wraps
+	i(258655),	-- Wandering Isle Travel Belt
+	i(258656),	-- Wandering Isle Shoulderguards
+	i(258657),	-- Ensemble: Heritage of the Wandering Isle
+	i(258625),	-- Tushui Legwraps
+	i(258626),	-- Tushui Wooden Capsa
+	i(258628),	-- Tushui Bamboo Cover
+	i(258629),	-- Tushui Charm Band
+	i(258630),	-- Tushui Sandals
+	i(258631),	-- Tushui Tunic
+	i(258632),	-- Tushui Wraps
+	i(258633),	-- Tushui Travel Belt
+	i(258634),	-- Tushui Shoulderguards
+	i(258635),	-- Ensemble: Heritage of the Wandering Isle
+	})),--]]
 	race(TAUREN, bubbleDown({ ["timeline"] = { ADDED_8_2_0 }, ["races"] = { TAUREN } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Tauren|r that has completed |cFFFFD700Stay of Execution|r, the 8.2 War Campaign.",
 		["groups"] = bubbleDown({

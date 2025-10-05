@@ -1941,4 +1941,30 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(246806),	-- Package of Remix Trinkets
 		})),
 	}),
+	expansion(EXPANSION.MID, {
+		-- 12.0.0
+		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+			i(255828),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Alchemy
+			i(255829),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Blacksmithing
+			i(255830),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Enchanting
+			i(255831),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Engineering
+			i(255832),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Herbalism
+			i(255833),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Inscription
+			i(255834),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Jewelcrafting
+			i(255835),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Leatherworking
+			i(255836),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Mining
+			i(255837),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Skinning
+			i(255838),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Tailoring
+			i(255689),	-- Huge Bag of Midnight Engineering Goods
+			i(255690),	-- Huge Bag of Midnight Enchanting Goods
+			i(255691),	-- Huge Bag of Midnight Tailoring Goods
+			i(255703),	-- Huge Bag of Midnight Blacksmithing Goods
+			i(255704),	-- Huge Bag of Midnight Inscription Goods
+			i(255686),	-- Huge Bag of Midnight Alchemy Goods
+			i(255687),	-- Huge Bag of Midnight Optional Goods
+			i(255682),	-- Huge Bag of Midnight Skins
+			i(255683),	-- Huge Bag of Midnight Jewelcrafting Goods
+			i(255684),	-- Huge Bag of Midnight Leatherworking Goods
+		})),
+	}),
 }));

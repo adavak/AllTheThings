@@ -1221,6 +1221,18 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98085, {	-- Brucehide Jersey
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
+					i(253011, {	-- Brawler's Healing Brute Punch
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					i(253014, {	-- Brawler's Fight Tonic of Strength
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					i(253015, {	-- Brawler's Fight Tonic of Agility
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					i(253016, {	-- Brawler's Fight Tonic of Intellect
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(93025, {	-- Clock'em (PET!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 						-- #if MOP
@@ -1339,6 +1351,18 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98085, {	-- Brucehide Jersey
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
+					i(253011, {	-- Brawler's Healing Brute Punch
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					i(253014, {	-- Brawler's Fight Tonic of Strength
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					i(253015, {	-- Brawler's Fight Tonic of Agility
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					i(253016, {	-- Brawler's Fight Tonic of Intellect
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(93025, {	-- Clock'em (PET!)
 						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 						-- #if MOP
