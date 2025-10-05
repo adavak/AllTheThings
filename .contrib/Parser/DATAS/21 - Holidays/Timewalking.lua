@@ -5041,7 +5041,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(303, {	-- Gate of the Setting Sun
 			e(655, {	-- Saboteur Kip'tilak
 				["crs"] = { 56906 },	-- Saboteur Kip'tilak
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144018,1),	-- Fallout-Filtering Hood
 					modItemId(144102,1),	-- Pendant of Precise Timing
 					modItemId(144100,1),	-- Saboteur's Stablizing Bracers
@@ -5051,7 +5051,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(675, {	-- Striker Ga'dok
 				["crs"] = { 56589 },	-- Striker Ga'dok
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(143980,1),	-- Acid-Scarred Spaulders
 					modItemId(144137,1),	-- Bomber's Precision Gloves
 					modItemId(144095,1),	-- Impaler's Girdle
@@ -5061,7 +5061,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(676, {	-- Commander Ri'mok
 				["crs"] = { 56636 },	-- Commander Ri'mok
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144098,1),	-- Mantid Trochanter
 					modItemId(144019,1),	-- Swarmcall Helm
 					modItemId(144138,1),	-- Ri'mok's Shattered Scale
@@ -5071,7 +5071,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(649, {	-- Raigonn
 				["crs"] = { 56877 },	-- Raigonn
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144101,1),	-- Carapace Breaker
 					modItemId(144218,1),	-- Klatith, Fangs of the Swarm
 					modItemId(144140,1),	-- Impervious Carapace
@@ -5093,7 +5093,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 					modItemId(61442,1),	-- Kuai the Brute
 					modItemId(61444,1),	-- Ming the Cunning
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144020,1),	-- Crest of the Clan Lords
 					modItemId(144021,1),	-- Meteoric Greathelm
 					modItemId(144144,1),	-- Whirling Dervish Choker
@@ -5103,7 +5103,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(690, {	-- Gekkan
 				["crs"] = { 61243 },	-- Gekkan
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144148,1),	-- Claws of Gekkan
 					modItemId(144147,1),	-- Cloak of Cleansing Flames
 					modItemId(144149,1),	-- Hexxer's Lethargic Gloves
@@ -5113,7 +5113,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(698, {	-- Xin the Weaponmaster
 				["crs"] = { 61398 },	-- Xin the Weaponmaster
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144150,1),	-- Ghostheart
 					modItemId(144214,1),	-- Mogu'Dar, Blade of the Thousand Slaves
 					modItemId(144154,1),	-- Firescribe Dagger
@@ -5134,7 +5134,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 					modItemId(58633,1),	-- Instructor Chillheart
 					modItemId(58664,1),	-- Instructor Chillheart's Phylactery
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144201,1),	-- Gravetouch Greatsword
 					modItemId(144180,1),	-- Anarchist's Pendant
 					modItemId(143967,1),	-- Breastplate of Wracking Souls
@@ -5144,7 +5144,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(663,   {	-- Jandice Barov
 				["crs"] = { 59184 },	-- Jandice Barov
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144207,1),	-- Metanoia Shield
 					modItemId(144029,1),	-- Barovian Ritual Hood
 					modItemId(144208,1),	-- Phantasmal Drape
@@ -5154,7 +5154,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(665,   {	-- Rattlegore
 				["crs"] = { 59153 },	-- Rattlegore
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144011,1),	-- Bone Golem Boots
 					modItemId(144204,1),	-- Deadwalker Bracers
 					modItemId(144203,1),	-- Goresoaked Headreaper
@@ -5165,13 +5165,13 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			n(59369, {	-- Doctor Theolen Krastinov
 				["description"] = "This is a Rare Creature and is not always present.",
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(88566,1),	-- Krastinov's Bag of Horrors (TOY!)
 				}},
 			}),
 			e(666,   {	-- Lilian Voss
 				["crs"] = { 58722 },	-- Lilian Voss
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144030,1),	-- Soulburner Crown
 					modItemId(144181,1),	-- Necklace of the Dark Blaze
 					modItemId(143968,1),	-- Shivbreaker Vest
@@ -5181,7 +5181,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(684, {	-- Darkmaster Gandling
 				["crs"] = { 59080 },	-- Darkmaster Gandling
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144212,1),	-- Gloves of Explosive Pain
 					modItemId(144211,1),	-- Headmaster's Will
 					modItemId(144213,1),	-- Incineration Belt
@@ -5197,7 +5197,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(312, {	-- Shado-Pan Monastery
 			e(673, {	-- Gu Cloudstrike
 				["crs"] = { 56747 },	-- Gu Cloudstrike
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144127,1),	-- Cloudstrike Pendant
 					modItemId(143961,1),	-- Azure Serpent Chestguard
 					modItemId(144126,1),	-- Star Summoner Bracers
@@ -5207,7 +5207,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(657, {	-- Master Snowdrift
 				["crs"] = { 56541 },	-- Master Snowdrift
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144110,1),	-- Snowdrift's Bladed Staff
 					modItemId(144106,1),	-- Gauntlets of Resolute Fury
 					modItemId(144097,1),	-- Quivering Heart Girdle
@@ -5217,7 +5217,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(685, {	-- Sha of Violence
 				["crs"] = { 56719 },	-- Sha of Violence
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144099,1),	-- Crescent of Ichor
 					modItemId(144130,1),	-- Necklace of Disorientation
 					modItemId(144131,1),	-- Bladed Smoke Bracers
@@ -5227,7 +5227,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(686, {	-- Taran Zhu
 				["crs"] = { 56884 },	-- Taran Zhu
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144109,1),	-- Warmace of Taran Zhu
 					modItemId(144215,1),	-- Ka'eng, Breath of the Shadow
 					modItemId(144103,1),	-- Shield of Blind Hate
@@ -5245,7 +5245,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(324, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_5, REMOVED_9_1_5 }},{	-- Siege of Niuzao Temple
 			e(693, {	-- Vizier Jin'bak
 				["crs"] = { 61567 },	-- Vizier Jin'bak
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144022,1),	-- Hood of Viridian Residue
 					modItemId(144162,1),	-- Engraved Amber Pendant
 					modItemId(144163,1),	-- Girdle of Soothing Detonation
@@ -5255,7 +5255,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(738, {	-- Commander Vo'jak
 				["crs"] = { 61634 },	-- Commander Vo'jak
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144164,1),	-- Siege-Captain's Scimitar
 					modItemId(144023,1),	-- Sightfinder Helm
 					modItemId(143963,1),	-- Chestwrap of Arcing Flame
@@ -5265,7 +5265,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(692, {	-- General Pa'valak
 				["crs"] = { 61485 },	-- General Pa'valak
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144167,1),	-- Tempestuous Longbow
 					modItemId(144170,1),	-- Aerial Bombardment Cloak
 					modItemId(144168,1),	-- Siegeworn Bracers
@@ -5275,7 +5275,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(727, {	-- Wing Leader Ner'onok
 				["crs"] = { 62205 },	-- Wing Leader Ner'onok
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144172,1),	-- Gustwalker Staff
 					modItemId(144171,1),	-- Ner'onok's Razor Katar
 					modItemId(144219,1),	-- Tolakesh, Horn of the Black Ox
@@ -5293,7 +5293,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(302, {	-- Stormstout Brewery
 			e(668, {	-- Ook-Ook
 				["crs"] = { 56637 },	-- Ook-Ook
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144084,1),	-- Ook's Hozen Slicer
 					modItemId(143957,1),	-- Nimbletoe Chestguard
 					modItemId(144087,1),	-- Bracers of Displaced Air
@@ -5303,7 +5303,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(669, {	-- Hoptallus
 				["crs"] = { 56717 },	-- Hoptallus
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144092,1),	-- Bottle of Potent Potables
 					modItemId(144121,1),	-- Cloak of Hidden Flasks
 					modItemId(144088,1),	-- Bubble-Breaker Bracers
@@ -5313,7 +5313,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(670, {	-- Yan-Zhu the Uncasked
 				["crs"] = { 59479 },	-- Yan-Zhu the Uncasked
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144124,1),	-- Wort Stirring Rod
 					modItemId(144085,1),	-- Gao's Keg Tapper
 					modItemId(144089,1),	-- Yan-Zhu's Pressure Valve
@@ -5330,7 +5330,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(313, {	-- Temple of the Jade Serpent
 			e(672, {	-- Wise Mari
 				["crs"] = { 56448 },	-- Wise Mari
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144017,1),	-- Waterburst Helm
 					modItemId(144111,1),	-- Wind-Soaked
 					modItemId(143960,1),	-- Riverbed Chestguard
@@ -5340,7 +5340,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(664, {	-- Lorewalker Stonestep
 				["crs"] = { 56843 },	-- Lorewalker Stonestep
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144081,1),	-- Girdle of Endemic Anger
 					modItemId(144083,1),	-- Sunheart Waistband
 					modItemId(143987,1),	-- Leggings of Whispered Dreams
@@ -5350,7 +5350,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(658, {	-- Liu Flameheart
 				["crs"] = { 56732 },	-- Liu Flameheart
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144090,1),	-- Firebelcher Hand Cannon
 					modItemId(143971,1),	-- Serpentstrike Shoulderpads
 					modItemId(144094,1),	-- Cape of Entaglement
@@ -5360,7 +5360,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 			e(335, {	-- Sha of Doubt
 				["crs"] = { 56439 },	-- Sha of Doubt
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(144093,1),	-- Staff of Trembling Will
 					modItemId(144086,1),	-- Dubious Handaxe
 					modItemId(144216,1),	-- Je'lyu, Spirit of the Serpent
@@ -6378,7 +6378,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 		inst_tw(740, {	-- Black Rook Hold
 			e(1518, {	-- Amalgam of Souls
 				["crs"] = { 98542 },	-- Amalgam of Souls
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(136714,1),	-- Amalgam's Seventh Spine
 					modItemId(136976,1),	-- Etheldrin's Breastplate
 					modItemId(134437,1),	-- Harrowing Soulspun Bracers
@@ -6393,7 +6393,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1653, {	-- Illysanna Ravencrest
 				["crs"] = { 98696 },	-- Illysanna Ravencrest
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134412,1),	-- Cloak of Unwavering Loyalty
 					modItemId(136978,1),	-- Ember of Nullification
 					modItemId(134519,1),	-- Ravencrest Bonecrush Gauntlets
@@ -6405,7 +6405,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1664, {	-- Smashspite the Hateful
 				["crs"] = { 98949 },	-- Smashspite the Hateful
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134528,1),	-- Band of Callous Dominance
 					modItemId(134426,1),	-- Collar of Raking Claws
 					modItemId(134483,1),	-- Fel-Hammered Greaves
@@ -6423,7 +6423,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 					modItemId(98970,1),	-- Dantalionax
 					modItemId(98965,1),	-- Kur'talos Ravencrest
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(136716,1),	-- Caged Horror
 					modItemId(136770,1),	-- Drape of the Raven Lord
 					modItemId(134370,1),	-- Felbat Leather Leggings
@@ -6445,7 +6445,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 		inst_tw(800, {	-- Court of Stars
 			e(1718, {	-- Patrol Captain Gerdo
 				["crs"] = { 104215 },	-- Patrol Captain Gerdo
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134268,1),	-- Arcane Defender's Gauntlets
 					modItemId(134415,1),	-- Arcanist's Resonant Robes
 					modItemId(137483,1),	-- Cape of the Duskwatch
@@ -6460,7 +6460,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1719, {	-- Talixae Flamewreath
 				["crs"] = { 104217 },	-- Talixae Flamewreath
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134529,1),	-- Chain of Scorched Bones
 					modItemId(134473,1),	-- Collar of Fiery Allegiance
 					modItemId(137488,1),	-- Cord of Wicked Pyromania
@@ -6475,7 +6475,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1720, {	-- Advisor Melandrus
 				["crs"] = { 104218 },	-- Advisor Melandrus
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134432,1),	-- Amice of the Unfurling Tempest
 					modItemId(134271,1),	-- Arcane Defender's Pants
 					modItemId(137489,1),	-- Arcane-Bound Gale Chain
@@ -6497,7 +6497,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 		inst_tw(762, {	-- Darkheart Thicket
 			e(1654, {	-- Archdruid Glaidalis
 				["crs"] = { 96512 },	-- Archdruid Glaidalis
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134487,1),	-- Arch-Druid's Tainted Seal
 					modItemId(139077,1),	-- Bramblemail Belt
 					modItemId(137301,1),	-- Corrupted Starlight
@@ -6512,7 +6512,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1655, {	-- Oakheart
 				["crs"] = { 103344 },	-- Oakheart
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134531,1),	-- Band of Twisted Bark
 					modItemId(137305,1),	-- Blighted Grasp Bracers
 					modItemId(134500,1),	-- Breastplate of Preservation
@@ -6527,7 +6527,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1656, {	-- Dresaron
 				["crs"] = { 99200 },	-- Dresaron
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(139082,1),	-- Bramblemail Greaves
 					modItemId(137311,1),	-- Chain of the Green Flight
 					modItemId(137310,1),	-- Greatbelt of Disruption
@@ -6542,7 +6542,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1657, {	-- Shade of Xavius
 				["crs"] = { 99192 },	-- Shade of Xavius
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134448,1),	-- Ashen Satyr Leggings
 					modItemId(137321,1),	-- Burning Sky Pauldrons
 					modItemId(134405,1),	-- Cloak of Fading Echoes
@@ -6564,7 +6564,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 		inst_tw(716, {	-- Eye of Azshara
 			e(1480, {	-- Warlord Parjesh
 				["crs"] = { 91784 },	-- Warlord Parjesh
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134240,1),	-- Brinewashed Leather Cowl
 					modItemId(134223,1),	-- Coralplate Chestguard
 					modItemId(134484,1),	-- Crestrider Conduit Bracers
@@ -6579,7 +6579,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1490, {	-- Lady Hatecoil
 				["crs"] = { 91789 },	-- Lady Hatecoil
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134238,1),	-- Brinewashed Leather Pants
 					modItemId(134230,1),	-- Coralplate Wristguard
 					modItemId(134433,1),	-- Cord of the Sea-Caller
@@ -6594,7 +6594,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1479, {	-- Serpentrix
 				["crs"] = { 91808 },	-- Serpentrix
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134239,1),	-- Brinewashed Leather Grips
 					modItemId(134228,1),	-- Coraplate Pauldrons
 					modItemId(134465,1),	-- Hydra Scale Sabatons
@@ -6608,7 +6608,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1491, {	-- King Deepbeard
 				["crs"] = { 91797 },	-- King Deepbeard
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134539,1),	-- Braided Silver Ring
 					modItemId(137368,1),	-- Breastplate of Ten Lashes
 					modItemId(137369,1),	-- Giant Ornamental Pearl
@@ -6620,7 +6620,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1492, {	-- Wrath of Azshara
 				["crs"] = { 96028 },	-- Wrath of Azshara
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134532,1),	-- Band of Fused Coral
 					modItemId(134237,1),	-- Brinewashed Leather Boots
 					modItemId(137378,1),	-- Bottled Hurricane
@@ -6638,7 +6638,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 		inst_tw(767, {	-- Neltharion's Lair
 			e(1662, {	-- Rokmora
 				["crs"] = { 91003 },	-- Rokmora
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134481,1),	-- Boulderbuckle Strap
 					modItemId(137337,1),	-- Deepfurrow Bracers
 					modItemId(139095,1),	-- Greystone Belt
@@ -6653,7 +6653,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1665, {	-- Ularogg Cragshaper
 				["crs"] = { 91004 },	-- Ularogg Cragshaper
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134164,1),	-- Bitestone Wristwraps
 					modItemId(137341,1),	-- Cragshaper's Fitted Hood
 					modItemId(134443,1),	-- Gravelworn Handguards
@@ -6668,7 +6668,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1673, {	-- Naraxas
 				["crs"] = { 91005 },	-- Naraxas
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134524,1),	-- Band of the Wyrm Matron
 					modItemId(137348,1),	-- Gauntlets of Innumerable Barbs
 					modItemId(137349,1),	-- Naraxas' Spiked Tongue
@@ -6680,7 +6680,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1687, {	-- Dargrul
 				["crs"] = { 91007 },	-- Dargrul
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134166,1),	-- Bitestone Boots
 					modItemId(134495,1),	-- Chain of the Underking
 					modItemId(137353,1),	-- Charskin Legguards
@@ -6701,7 +6701,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 		inst_tw(707, {	-- Vault of the Wardens
 			e(1467, {	-- Tirathon Saltheril
 				["crs"] = { 95885 },	-- Tirathon Saltheril
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(134369,1),	-- Felbat Leather Boots
 					modItemId(137509,1),	-- Glaivemaster's Studded Grips
 					modItemId(137502,1),	-- Hood of Indignation
@@ -6716,7 +6716,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1695, {	-- Inquisitor Tormentorum
 				["crs"] = { 96015 },	-- Inquisitor Tormentorum
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(137503,1),	-- Amice of Cruel Laughter
 					modItemId(137525,1),	-- Blood-Spattered Gauntlets
 					modItemId(137530,1),	-- Drape of Vile Misfortune
@@ -6727,7 +6727,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1468, {	-- Ash'golm
 				["crs"] = { 95886 },	-- Ash'golm
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(139468,1),	-- Bindings of the Windlord (rogue appearance)
 					modItemId(137510,1),	-- Charskin Mantle
 					modItemId(137526,1),	-- Crown of Ash
@@ -6743,7 +6743,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1469, {	-- Glazer
 				["crs"] = { 95887 },	-- Glazer
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(137516,1),	-- Collar of Blindsight
 					modItemId(137540,1),	-- Concave Reflecting Lens
 					modItemId(137513,1),	-- Girdle of Lidless Sight
@@ -6755,7 +6755,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1470, {	-- Cordana Felsong
 				["crs"] = { 95888 },	-- Cordana Felsong
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(137522,1),	-- Bracers of Twisted Revelation
 					modItemId(137514,1),	-- Chestguard of Insidious Desire
 					modItemId(137531,1),	-- Cloak of Enthralling Darkness
@@ -7065,7 +7065,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 		inst_tw(968, {	-- Atal'Dazar
 			e(2082, {	-- Priestess Alun'za
 				["crs"] = { 122967 },	-- Priestess Alun'za
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(158321,1),	-- Wand of Zealous Purification
 					modItemId(158322,1),	-- Aureus Vessel
 					modItemId(158309,1),	-- Wristlinks of Alchemical Transfusion
@@ -7079,7 +7079,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2036, {	-- Vol'kaal
 				["crs"] = { 122965 },	-- Vol'kaal
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159632,1),	-- Adulation Enforcer
 					modItemId(158375,1),	-- Drape of the Loyal Vassal
 					modItemId(158348,1),	-- Wraps of Everliving Fealty
@@ -7091,7 +7091,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2083, {	-- Rezan
 				["crs"] = { 122963 },	-- Rezan
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(168139,1),	-- Long Regal Sinew (LW reagent, has the highest drop chance from this boss)
 					modItemId(160269,1),	-- Soulrending Claw
 					modItemId(158711,1),	-- Hallowed Ossein Longbow
@@ -7106,7 +7106,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2030, {	-- Yazma
 				["crs"] = { 122968 },	-- Yazma
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(158323,1),	-- Soulrender's Fang
 					modItemId(160212,1),	-- Shadowshroud Vambraces
 					modItemId(158308,1),	-- Souldrifting Sabatons
@@ -7128,7 +7128,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					126832,	-- Skycap'n Kragg
 					--  Shark Bait
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159633,1),	-- Sharkbait's Fishhook
 					modItemId(155884,1),	-- Parrotfeather Cloak
 					modItemId(159227,1),	-- Silk Cuffs of the Skycap'n
@@ -7143,7 +7143,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					126845,	-- Captain Jolly
 					126847,	-- Captain Raoul
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159132,1),	-- Jolly's Boot Daggeer
 					modItemId(159130,1),	-- Captain's Diplomacy
 					modItemId(158311,1),	-- Concealed Fencing Plates
@@ -7161,7 +7161,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					129699,	-- Ludwig Von Tortollan
 					126969,	-- Trothak <The Shark Puncher>
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159634,1),	-- Jeweled Sharksplitter
 					modItemId(158305,1),	-- Sea Dog's Cuffs
 					modItemId(155892,1),	-- Bite-Resistant Chain Gloves
@@ -7175,7 +7175,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2095,	{	-- Harlan Sweete
 				["crs"] = { 126983 },	-- Harlan Sweete
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159635,1),	-- Bloody Tideturner
 					modItemId(155888,1),	-- Irontide Captain's Hat
 					modItemId(155881,1),	-- Harlan's Loaded Dice
@@ -7196,7 +7196,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 		inst_tw(1041, {	-- King's Rest
 			e(2165, {	-- The Golden Serpent
 				["crs"] = { 135322 },	-- The Golden Serpent
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159137,1),	-- Gilded Serpent's Tooth
 					modItemId(159413,1),	-- Gauntlets of the Avian Sentinel
 					modItemId(159369,1),	-- Belt of the Consecrateed Tomb
@@ -7210,7 +7210,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2171, {	-- Mchimba the Embalmer
 				["crs"] = { 134993 },	-- Mchimba the Embalmer
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159642,1),	-- Royal Purifier's Spaade
 					modItemId(159667,1),	-- Vessel of Last Rites
 					modItemId(159409,1),	-- Embalmer's Steadying Bracers
@@ -7226,7 +7226,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					135475,	-- Kula the Butcher
 					135472,	-- Zanazal the Wise
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(160216,1),	-- Crackling Jade Kilij
 					modItemId(159136,1),	-- Jeweled Dagger of Subjugation
 					modItemId(159643,1),	-- Crossbow of Forgotten Majesty
@@ -7239,7 +7239,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2172, {	-- Dazar, The First King
 				["crs"] = { 136160 },	-- King Dazar <The First>
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159644,1),	-- Geti'ikku, Cut of Death
 					modItemId(159645,1),	-- Headcracker of Supplication
 					modItemId(159301,1),	-- Primal Dinomancer's Belt
@@ -7262,7 +7262,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134056,	-- Aqu'sirr
 					134828,	-- Aqualing
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159321,1),	-- Gloves of Corrupted Water
 					modItemId(159366,1),	-- Water Shapers
 					modItemId(159239,1),	-- Aqu'sirr's Swirling Sash
@@ -7276,7 +7276,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134063,	-- Brother Ironhull
 					134058,	-- Galecaller Faye
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(158371,1),	-- Seabreeze
 					modItemId(159426,1),	-- Belt of the Unrelenting Gale
 					modItemId(159419,1),	-- Ironhull's Reinforced Legplates
@@ -7288,7 +7288,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2155, {	-- Lord Stormsong
 				["crs"] = {	134060 },	-- Lord Stormsong
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159646,1),	-- Aq'mar, the Tidecaller
 					modItemId(159289,1),	-- Void-Drenched Cape
 					modItemId(159364,1),	-- Bindings of the Calling Depths
@@ -7299,7 +7299,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2156, {	-- Vol'zith the Whisperer
 				["crs"] = { 134069 },	-- Vol'zith the Whisperer
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159135,1),	-- Deep Fathom's Bite
 					modItemId(159377,1),	-- Chain of Consummate Power
 					modItemId(159620,1),	-- Conch of Dark Whispers
@@ -7321,7 +7321,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133379,	-- Adderis
 					133944,	-- Aspix
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159636,1),	-- Staff of the Lightning Serpent
 					modItemId(158370,1),	-- Twin-Strike Polearm
 					modItemId(159380,1),	-- Arc-Glass Bindings
@@ -7336,7 +7336,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2143, {	-- Merektha
 				["crs"] = { 133384 },	-- Merektha
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(158714,1),	-- Swarm's Eedge
 					modItemId(159637,1),	-- Snakeebite Recurvee
 					modItemId(159437,1),	-- Fangproof Gauntlets
@@ -7349,7 +7349,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2144, {	-- Galvazzt
 				["crs"] = { 133389 },	-- Galvazzt
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(158369,1),	-- Galvanized Stormcrusher
 					modItemId(159664,1),	-- Bulwark of Brimming Potential
 					modItemId(159247,1),	-- Handwraps of Oscillating Polarity
@@ -7361,7 +7361,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2145, {	-- Avatar of Sethraliss
 				["crs"] = { 133392 },	-- Avatar of Sethraliss
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(158373,1),	-- Resonating Crystal Scimitar
 					modItemId(159337,1),	-- Grips of Electrified Defense
 					modItemId(158368,1),	-- Fangs of Intertwined Essence
@@ -7385,7 +7385,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131823,	-- Sister Malady
 					131824,	-- Sister Malady
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159133,1),	-- Jagged Iris Sica
 					modItemId(159669,1),	-- Solena's Watchful Collection
 					modItemId(159340,1),	-- Bracers of Dreadful Maladies
@@ -7399,7 +7399,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2126, {	-- Soulbound Goliath
 				["crs"] = { 131667 },	-- Soulbound Goliath
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159659,1),	-- Sinister Wicker Talons
 					modItemId(159282,1),	-- Drust-Thatched Wristwraps
 					modItemId(159399,1),	-- Thornshaper Mitts
@@ -7415,7 +7415,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133361,	-- Wasting Servant
 					136541,	-- Bile Oozing
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(163833,1),	-- Recipe: Heartsbane Hexwurst (RECIPE!)
 					modItemId(159660,1),	-- Servant Splitter
 					modItemId(159294,1),	-- Raal's Bib
@@ -7431,7 +7431,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131527,	-- Lord Waycrest
 					131545,	-- Lady Waycrest
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159661,1),	-- Soulcharmer's Bludgeon
 					modItemId(159457,1),	-- Risen Lord's Oversized Gauntlets
 					modItemId(159262,1),	-- Belt of Undying Devotion
@@ -7443,7 +7443,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			}),
 			e(2129, {	-- Gorak Tul
 				["crs"] = { 131864 },	-- Gorak Tul
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(159662,1),	-- Blightreaper
 					modItemId(168125,1),	-- Runestone of Thros
 				}},
@@ -7582,7 +7582,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 		inst_tw(1188, {	-- De Other Side
 			e(2408, {	-- Hakkar the Soulflayer
 				["crs"] = { 164558 },	-- Hakkar the Soulflayer
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(179328,1),	-- Bloodspiller
 					modItemId(179331,1),	-- Blood-Spattered Scale
 					modItemId(179326,1),	-- Girdle of the Soulflayer
@@ -7597,7 +7597,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					modItemId(164556,1),	-- Millhouse Manastorm
 					modItemId(164555,1),	-- Millificent Manastorm
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(179338,1),	-- Dynamo Doomstompers
 					modItemId(179335,1),	-- Manastorm's Magnificent Threads
 					modItemId(179342,1),	-- Overwhelming Power Crystal
@@ -7609,7 +7609,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2398, {	-- Dealer Xy'exa
 				["crs"] = { 164450 },	-- Millificent Manastorm
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(179346,1),	-- Breastplate of Fatal Contrivances
 					modItemId(179347,1),	-- Collector's Pulse Staff
 					modItemId(179349,1),	-- Dealer Xy'exa's Cape
@@ -7622,7 +7622,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2410, {	-- Mueh'zala
 				["crs"] = { 166608 },	--	Mueh'zala
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(182178,1),	-- Raptor Soul (SS!)
 					modItemId(186998,1),	-- Pattern: Pallid Oracle Bones (RECIPE!)
 					modItemId(179355,1),	-- Death God's Signet
@@ -7637,7 +7637,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 		inst_tw(1185, {	-- Halls of Atonement
 			e(2406, {	-- Halkias
 				["crs"] = { 165408 },	-- Halkias
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178818,1),	-- Halkias' Towering Pillars
 					modItemId(178830,1),	-- Shardskin Sabatons
 					modItemId(178827,1),	-- Sin Stained
@@ -7647,7 +7647,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2387, {	-- Echelon
 				["crs"] = { 164185 },	-- Echelon
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178819,1),	-- Skyterror's Stonehide Leggings
 					modItemId(178815,1),	-- Soaring Decimator's Hauberk
 					modItemId(178833,1),	-- Stonefiend Shaper's Mitts
@@ -7658,7 +7658,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2411, {	-- High Adjudicator Aleez
 				["crs"] = { 165410 },	-- High Adjudicator Aleez
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178814,1),	-- Breastplate of Otherworldly Influence
 					modItemId(178822,1),	-- Cord of the Dark Word
 					modItemId(178832,1),	-- Gloves of Haunting Fixation
@@ -7669,7 +7669,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2413, {	-- Lord Chamberlain
 				["crs"] = { 164218 },	--	Lord Chamberlain
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178816,1),	-- Nathrian Usurper's Mask
 					modItemId(178829,1),	-- Nathrian Ferula
 					modItemId(178824,1),	-- Signet of the False Accuser
@@ -7682,7 +7682,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 		inst_tw(1183, {	-- Plaguefall
 			e(2419, {	-- Globgrog
 				["crs"] = { 164255 },	-- Globgrog
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178762,1),	-- Blightborne Chain Legguards
 					modItemId(178760,1),	-- Disgested Interrogator's Gaze
 					modItemId(178773,1),	-- Plague Handler's Greathelm
@@ -7693,7 +7693,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2403, {	-- Doctor Ickus
 				["crs"] = { 164967 },	-- Doctor Ickus
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178759,1),	-- Depraved Physician's Mask
 					modItemId(178775,1),	-- Fleshfused Crushers
 					modItemId(178763,1),	-- Malodorous Gristle-Sown Spaulders
@@ -7704,7 +7704,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2423, {	-- Domina Venomblade
 				["crs"] = { 164266 },	-- Domina Venomblade
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178933,1),	-- Arachnid Cipher Ring
 					modItemId(178932,1),	-- Belt of Wretched Manipulations
 					modItemId(178928,1),	-- Domina's Oozing Shiv
@@ -7716,7 +7716,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2404, {	-- Margrave Stradama
 				["crs"] = { 164267 },	-- Margrave Stradama
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178755,1),	-- Blighted Margrave's Cloak
 					modItemId(178757,1),	-- Gloves of Obscure Rituals
 					modItemId(178769,1),	-- Infinitely Divisible Ooze
@@ -7730,7 +7730,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 		inst_tw(1189, {	-- Sanguine Depths
 			e(2388, {	-- Kryxis the Voracious
 				["crs"] = { 162100 },	-- Kryxis the Voracious
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178835,1),	-- Anima-Splattered Hide
 					modItemId(178848,1),	-- Entwined Gorger Tendril
 					modItemId(178844,1),	-- Essence Surgers Cuffs
@@ -7742,7 +7742,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2415, {	-- Executor Tarvold
 				["crs"] = { 162103 },	-- Executor Tarvold
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178859,1),	-- Castigator's Mantle
 					modItemId(178851,1),	-- Cloak of Enveloping Manifestations
 					modItemId(178843,1),	-- Executor's Prideful Girdle
@@ -7754,7 +7754,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2421, {	-- Grand Proctor Beryllia
 				["crs"] = { 162102 },	-- Grand Proctor Beryllia
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178838,1),	-- Beryllia's Leggings of Endless Torment
 					modItemId(178841,1),	-- Iron Spiked Handgrips
 					modItemId(178850,1),	-- Lingering Sunmote
@@ -7768,7 +7768,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					modItemId(162133,1),	-- General Kaal (during gauntlet)
 					modItemId(162099,1),	-- General Kaal
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178862,1),	-- Bladedancer's Armor Kit
 					modItemId(178860,1),	-- Cowl of the Devoted General
 					modItemId(178861,1),	-- Decanter of Anima-Charged Winds
@@ -7786,7 +7786,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					modItemId(163077,1),	-- Azules
 					modItemId(162059,1),	-- Kin-Tara
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(180115,1),	-- Azure-Venom Choker
 					modItemId(180100,1),	-- Forsworn Stalker's Hauberk
 					modItemId(180109,1),	-- Kin-Tara's Baleful Cord
@@ -7797,7 +7797,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2416, {	-- Ventunax
 				["crs"] = { 162058 },	-- Ventunax
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(180102,1),	-- Dark Stride Footwraps
 					modItemId(180110,1),	-- Dark Praetorian's Clasp
 					modItemId(180104,1),	-- Distorted Construct's Gauntlets
@@ -7808,7 +7808,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2414, {	-- Oryphrion
 				["crs"] = { 162060 },	-- Oryphrion
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(180105,1),	-- Absonant Construct's Handguards
 					modItemId(180118,1),	-- Anima Field Emitter
 					modItemId(180117,1),	-- Empyreal Ordnance
@@ -7820,7 +7820,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2412, {	-- Devos, Paragon of Doubt
 				["crs"] = { 162061 },	--	Devos, Paragon of Doubt
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(180108,1),	-- Abyssal Disharmony Breeches
 					modItemId(180119,1),	-- Boon of the Archon
 					modItemId(180099,1),	-- Breastplate of Brutal Dissonance
@@ -7835,7 +7835,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 		inst_tw(1182, {	-- The Necrotic Wake
 			e(2395, {	-- Blightbone
 				["crs"] = { 162691 },	-- Blightbone
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178732,1), -- Abominable Visage
 					modItemId(178735,1),	-- Blight Belcher
 					modItemId(178733,1),	-- Blightbone Spaulders
@@ -7847,7 +7847,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2391, {	-- Amarth, The Harvester
 				["crs"] = { 163157 },	-- Amarth, The Harvester
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178737,1),	-- Amarth's Spellblade
 					modItemId(178742,1),	-- Bottled Chimera Toxin
 					modItemId(178739,1),	-- Legplates of Unholy Frenzy
@@ -7861,7 +7861,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					modItemId(162689,1),	-- Surgeon Stitchflesh
 					modItemId(164578,1),	-- Stitchflesh's Creation
 				},
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178750,1),	-- Encrusted Canopic Lid
 					modItemId(178744,1),	-- Freshly Embalmed Jerkin
 					modItemId(178748,1),	-- Gory Surgeon's Gloves
@@ -7874,7 +7874,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 			e(2396, {	-- Nalthor the Rimebinder
 				["crs"] = { 162693 },	-- Nalthor the Rimebinder
-				["sym"] = {{"select", "itemID",
+				["sym"] = {{"select", "modItemID",
 					modItemId(178777,1),	-- Dark Frost Helmet
 					modItemId(178778,1),	-- Lichbone Legguards
 					modItemId(178782,1),	-- Necropolis Lord's Shackles

@@ -155,6 +155,9 @@ HeaderAssignments = {
 	["Delver's Gob-Trotter Schematic"] = -202,
 	["Delver's Mana-Skimmer Schematic"] = -203,
 	["Delves"] = -204,
+	["Delves MID S1"] = -674,
+	["Delves MID S2"] = -675,
+	["Delves MID S3"] = -676,
 	["Delves TWW S1"] = -383,
 	["Delves TWW S2"] = -384,
 	["Delves TWW S3"] = -385,
@@ -665,4 +668,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -674;
+NextHeaderID = -677;
