@@ -29367,9 +29367,6 @@ i(256424),	-- Echo of Aln'sharan
 i(256549),	-- Shadow Chisel
 i(256552),	-- Verdant Rutaani Seed
 i(256553),	-- Galactic Equipment Chest
-i(256559),	-- Galactic Combatant's Heraldry
-i(256607),	-- Galactic Aspirant's Heraldry
-i(256608),	-- Galactic Gladiator's Heraldry
 i(256613),	-- [DNT] Hara'ti Renown Cosmetic Cloak
 i(256614),	-- [DNT] Hara'ti Renown Cosmetic Shoulders
 i(256615),	-- [DNT] Hara'ti Renown Cosmetic Tabard
@@ -29558,7 +29555,6 @@ i(257189),	-- [DNT] [PH] Max Level Campaign - Mail - WRIST
 i(257190),	-- [DNT] [PH] Max Level Campaign - Plate - WRIST
 i(257191),	-- Preyseeker's Hubris
 i(257192),	-- Preyseeker's Wrath
-i(257194),	-- Artisan's Consortium Flyer
 i(257201),	-- [DNT] [PH] Max Level Campaign - Cloth - HAND
 i(257202),	-- [DNT] [PH] Max Level Campaign - Leather - HAND
 i(257203),	-- [DNT] [PH] Max Level Campaign - Mail - HAND
@@ -29667,7 +29663,6 @@ i(257530),	-- Hardened Haranir Cowl
 i(257531),	-- Woven Haranir Thorns
 i(257532),	-- Entwined Haranir Thorns
 i(257533),	-- Coarse Haranir Thorns
-i(257535),	-- Galactic Jeweler's Setting
 i(257537),	-- [DNT] [PH] Max Level Campaign - Weapon - Shield - STRINT
 i(257538),	-- Scorching Conqueror's Crown
 i(257539),	-- Scorching Conqueror's Belt

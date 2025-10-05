@@ -8,14 +8,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(83489, {	-- Gathering All Gladiators!
 					["provider"] = { "i", 225772 },	-- Artisan's Consortium Advertisement
 					["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
+					["groups"] = {
+						i(210233, {	-- Forged Gladiator's Heraldry
+							["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
+						}),
+					},
 				}),
 				q(84925, {	-- Rallying All Rapscallions!
 					["provider"] = { "i", 229401 },	-- Artisan's Consortium Pamphlet
 					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+					["groups"] = {
+						i(229390, {	-- Prized Gladiator's Heraldry
+							["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						}),
+					},
 				}),
 				q(85229, {	-- Rallying All Rapscallions!
 					["provider"] = { "i", 230284 },	-- Artisan's Consortium Pamphlet
 					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
+					["groups"] = {
+						i(230287, {	-- Astral Gladiator's Heraldry x9
+							["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
+						}),
+					},
 				}),
 				q(83711, {	-- Weapons of Conquest
 					["provider"] = { "n", 219222 },	-- Lalandi <Conquest Quartermaster>

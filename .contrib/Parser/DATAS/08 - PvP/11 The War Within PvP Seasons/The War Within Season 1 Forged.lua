@@ -933,5 +933,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				},
 			}),
 		})),
+		n(REWARDS, {
+			i(225772, {	-- Artisan's Consortium Advertisement (QS!/QI!)
+				["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
+				["description"] = "Rewarded within the first few wins in queued PvP Content.",
+			}),
+		}),
 	}),
 }))));

@@ -5,6 +5,16 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	m(SILVERMOON_CITY_MID, {
 		pvp(n(PVP, {
 			n(QUESTS, {
+			-- ToDO: Add correct questID
+			--	q(85229, {	-- Rallying All Rapscallions!
+			--		["provider"] = { "i", 257194 },	-- Artisan's Consortium Flyer
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } },
+			--			}),
+			--		},
+			--	}),
 			}),
 			--n(QUESTS, sharedData({
 			--	["provider"] = { "n", 219260 },	-- Ruffious
@@ -16,6 +26,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--		i(219934),	-- Spark of War (QI!)
 			--	}),
 			n(VENDORS, {
+				-- ToDo: Add correct NPC+Coords
 				n(219215, {	-- Hotharn <Competitor's Recipes>
 				--	["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
 					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
@@ -86,33 +97,32 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(257261),	-- Technique: Thalassian Competitor's Insignia of Alacrity
 							i(257262),	-- Technique: Thalassian Competitor's Medallion
 						}),
-						--[[
 						filter(MISC, {
-							i(213778, {	-- Forged Jeweler's Setting
+							i(257535, {	-- Galactic Jeweler's Setting
 								["cost"] = {
-									{"i", 215236, 3},	-- Vicious Bloodstone x3
+									{"i", 253307, 3},	-- Infused Heliotrope x3
 									{"c", HONOR, 5000},
 								},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+								["timeline"] = { ADDED_12_0_0_LAUNCH, REMOVED_12_1_0 },
 							}),
 						}),
 						filter(REAGENTS, {
-							i(230286, {	-- Astral Aspirant's Heraldry
+							i(256607, {	-- Galactic Aspirant's Heraldry
 								["cost"] = {{"c", HONOR, 175}},
-								["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
+								["timeline"] = { ADDED_12_0_0_LAUNCH, REMOVED_12_1_0 },
 							}),
-							i(230285, {	-- Astral Combatant's Heraldry
+							i(256559, {	-- Galactic Combatant's Heraldry
 								["cost"] = {{"c", HONOR, 350}},
-								["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
+								["timeline"] = { ADDED_12_0_0_LAUNCH, REMOVED_12_1_0 },
 							}),
-							i(230287, {	-- Astral Gladiator's Heraldry
+							i(256608, {	-- Galactic Gladiator's Heraldry
 								["cost"] = {{"c", CONQUEST, 175}},
-								["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
+								["timeline"] = { ADDED_12_0_0_LAUNCH, REMOVED_12_1_0 },
 							}),
-							i(215236, {	-- Vicious Bloodstone
+							i(253307, {	-- Infused Heliotrope
 								["cost"] = {{"c", HONOR, 2500}},
 							}),
-						}),--]]
+						}),
 					}),
 				}),
 				--[[n(219212, {	-- Maara <War Mode Supplies>
