@@ -537,7 +537,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			-- Highmountain Tauren Starter Quests
 			q(49773, {	-- For the Horde
 				["provider"] = { "n", 93826 },	--  Mayla Highmountain
-				["coord"] = { 46.6, 61.0, HIGHMOUNTAIN },
+				["coord"] = { 54.9, 63.2, 652 },	-- Thunder Totem
 				["races"] = { HIGHMOUNTAIN_TAUREN },
 				["lvl"] = 20,
 				["groups"] = {
