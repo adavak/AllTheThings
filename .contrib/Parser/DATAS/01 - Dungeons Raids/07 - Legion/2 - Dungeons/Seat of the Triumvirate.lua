@@ -75,8 +75,10 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						iensemble(152242),	-- Ensemble: Burnished Triumvirate Armor
 						iensemble(152243),	-- Ensemble: Sterling Triumvirate Chainmail
 						iensemble(152244),	-- Ensemble: Venerated Triumvirate Battleplate
-						i(152202),	-- Armor of the Triumvirate (QI!)
 						i(152203),	-- Reforged Armory Key (QI!)
+						o(272918, {	-- Gilded Triumvirate Chest
+							i(152202),	-- Armor of the Triumvirate (QI!)
+						}),
 					},
 				}),
 			}),

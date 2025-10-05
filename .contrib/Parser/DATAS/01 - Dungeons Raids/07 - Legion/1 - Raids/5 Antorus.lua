@@ -81,6 +81,7 @@ local EncounterToLoot = {
 		i(151949),	-- Soul-Siphon Mantle
 		i(151947),	-- Vestments of Enflamed Blight
 		i(151983),	-- Vicious Flamepaws
+		i(152059),	-- Whistling Ulna
 	};
 	[HIGH_COMMAND] = {
 		i(152125),	-- Bearmantle Cloak

@@ -653,7 +653,7 @@ root(ROOTS.Zones, {
 										{"sub", "legion_relinquished", {"INVTYPE_TRINKET"} },	-- Trinkets Only!
 									},
 									["groups"] = {
-										-- This is the only source of this item (probably)
+										-- This is the only source of these items
 										i(136736),	-- Badge of the Wardens
 										i(134322),	-- Drained Mana Crystal
 										i(136749),	-- Mark of the Sentinel
@@ -672,6 +672,10 @@ root(ROOTS.Zones, {
 								i(153061, {	-- Relinquished Fel Relic
 									["sym"] = {
 										{"sub", "legion_relinquished_relic", "FEL" },	-- Fel Relics Only!
+									},
+									["groups"] = {
+										-- This is the only source of this item
+										i(153454),	-- Alliance of Convenience
 									},
 								}),
 								i(153062, {	-- Relinquished Fire Relic
