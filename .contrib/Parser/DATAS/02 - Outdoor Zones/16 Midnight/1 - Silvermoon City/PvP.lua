@@ -18,8 +18,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			})),
 			n(VENDORS, {
 				n(219215, {	-- Hotharn <Competitor's Recipes>
-					["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
-					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
+				--	["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
+				--	["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
 						filter(RECIPES, {
 							i(256719),	-- Design: Midnight Competitor's Amulet
 							i(256702),	-- Design: Midnight Competitor's Signet

@@ -50,6 +50,19 @@ local ALL_THE_DELVES_TWW = {
 	DELVE_ETHEREAL_KYVEZA,
 	-- #endif
 };
+local ALL_THE_DELVES_MID = {
+	ATAL_AMAN,
+	COLLEGIATE_CALAMITY,
+	PARHELION_PLAZA,
+--	SHADOWGUARD_POINT,	-- MAPID MISSING
+	SUNKILLER_SANCTUM,
+	THE_DARKWAY,
+	THE_GULF_OF_MEMORY,
+	THE_GRUDGE_PIT,
+	THE_SHADOW_ENCLAVE,
+	TORMENTS_RISE,
+	TWILIGHT_CRYPTS,
+};
 local mapped = function(t)
 	if not t.maps then
 		t.maps = ALL_REGULAR_DELVES_TWW
@@ -60,17 +73,17 @@ end
 root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
 		ach(40460, {	-- Delve Deep
-			["maps"] = ALL_THE_DELVES_TWW,
+			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
 		}),
 		ach(40462, {	-- Delve Deeper
-			["maps"] = ALL_THE_DELVES_TWW,
+			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
 		}),
 		ach(40463, {	-- Delve Deepest (100)
-			["maps"] = ALL_THE_DELVES_TWW,
+			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
 		}),
 		ach(41095, {	-- Delve Beyond (500)
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_THE_DELVES_TWW,
+			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
 			["groups"] = {
 				-- #if AFTER 11.2.0
 				--title(650),	-- Delver %s // doesn't load ingame
@@ -81,7 +94,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(41096, {	-- Delve Infinite (1000)
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_THE_DELVES_TWW,
+			["maps"] = ALL_THE_DELVES_TWW, ALL_THE_DELVES_MID, 
 			["groups"] = { title(599) },	-- Infinite Delver %s
 		}),
 	}),
