@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			n(VENDORS, {
 				n(219215, {	-- Hotharn <Competitor's Recipes>
 				--	["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
-				--	["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
+					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
 						filter(RECIPES, {
 							i(256719),	-- Design: Midnight Competitor's Amulet
 							i(256702),	-- Design: Midnight Competitor's Signet
@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 								["cost"] = {{"c", HONOR, 2500}},
 							}),
 						}),--]]
-				--	}),
+					}),
 				}),
 				--[[n(219212, {	-- Maara <War Mode Supplies>
 					["coord"] = { 60.3, 70.0, DORNOGAL },
