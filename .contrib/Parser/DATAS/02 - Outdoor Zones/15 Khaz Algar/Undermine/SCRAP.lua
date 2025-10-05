@@ -263,7 +263,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	m(UNDERMINE, {
 		n(SCRAP, {
 			n(EVENT_COMPLETION, {
-				q(86262),	-- Scrap related but exact trigger unknown
 				hqt(90471, name(HEADERS.Object, 516167, {	-- Half-Empty Bag (Weekly Flag)
 					["isWeekly"] = true
 				})),

@@ -557,7 +557,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(56067),	--
 				q(56068),	--
 				q(56069),	--
-				q(61923),	--
 				q(62165),	-- Tal-Inara's Call
 				q(62166),	-- Tal-Inara's Call
 				q(62377),	--
