@@ -2453,7 +2453,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=28,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=9,["monthDay"]=28,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=5,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=5,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=19,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=19,["weekday"]=1,["year"]=2025}),
@@ -2505,7 +2504,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=13,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=13,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=4,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=4,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -8113,6 +8113,7 @@ local ObjectNames = {
 	[272778] = "Rich Empyrium Deposit",
 	[272780] = "Empyrium Seam",
 	[272782] = "Astral Glory",
+	[272918] = "Gilded Triumvirate Chest",
 	[273052] = "Fel-Encrusted Herb",
 	[273053] = "Fel-Encrusted Herb Cluster",
 	[273193] = "Prickly Plum",
@@ -11310,7 +11311,6 @@ local ObjectNames = {
 	[13000028] = "|cFFFFFFFFStep 4:|r Luxurous Luxscale Scale",
 	[13000029] = "|cFFFFFFFFStep 5:|r Captured Cavitation Bubble",
 	[13000030] = "Purchase Red Crystal Monocle",
-	[13000031] = "Red Crystal Monocle",
 	[13000032] = "|cFFFFFFFFStep 3:|r Pick a Monocle (Or Don't!)",
 	[13000033] = "|cFFFFFFFFStep 4:|r Suramar Beams",
 	[13000034] = "|cFFFFFFFFStep 5:|r Cat Code",
@@ -12423,7 +12423,6 @@ local ObjectIcons = {
 	[13000028] = 1526615,
 	[13000029] = 462651,
 	[13000030] = 133146,
-	[13000031] = 133146,
 	[13000032] = 133146,
 	[13000033] = 3528282,
 	[13000034] = 656576,
@@ -15755,6 +15754,7 @@ local ObjectModels = {
 	[272778] = 1692857,
 	[272780] = 1693357,
 	[272782] = 1685295,
+	[272918] = 1062118,
 	[273052] = 1616103,
 	[273053] = 1616102,
 	[273193] = 305760,
@@ -21403,9 +21403,6 @@ L.QUEST_NAMES = {
 	[50145] = "Step 6: Kun-Lai Summit",
 	[50146] = "Step 7: Blackrock Mountain",
 	[50147] = "Step 8: Temple of Karabor",
-	[50181] = "Blue Crystal Monocle",
-	[50183] = "Yellow Crystal Monocle",
-	[50185] = "Green Crystal Monocle",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
 	[52819] = _.L.HEADER_NAMES[-675],
@@ -26233,6 +26230,7 @@ localize(ObjectNames, {
 	[272778] = "Reiches Empyriumvorkommen",
 	[272780] = "Empyriumflöz",
 	[272782] = "Astralwinde",
+	[272918] = "Vergoldete Truhe des Triumvirats",
 	[273052] = "Teufelsverkrustetes Kraut",
 	[273053] = "Teufelsverkrustetes Kräuterbüschel",
 	[273193] = "Stachelpflaume",
@@ -28973,7 +28971,6 @@ localize(ObjectNames, {
 	[13000028] = "|cFFFFFFFFSchritt 4:|r Üppige Luxschuppenschuppe",
 	[13000029] = "|cFFFFFFFFSchritt 5:|r Eingefangene Kavitationsblase",
 	[13000030] = "Purchase Rotes Kristallmonokel",
-	[13000031] = "Rotes Kristallmonokel",
 	[13000032] = "|cFFFFFFFFSchritt 3:|r Pick a Monocle (Or Don't!)",
 	[13000033] = "|cFFFFFFFFSchritt 4:|r Suramar Beams",
 	[13000034] = "|cFFFFFFFFSchritt 5:|r Cat Code",
@@ -32795,6 +32792,7 @@ localize(ObjectNames, {
 	[272778] = "Riche gisement d'empyrium",
 	[272780] = "Veine d'empyrium",
 	[272782] = "Astralée",
+	[272918] = "Coffre du triumvirat doré",
 	[273052] = "Herbe incrustée de corruption",
 	[273053] = "Touffe d’herbe incrustée de corruption",
 	[273193] = "Prune épineuse",
@@ -35488,7 +35486,6 @@ localize(ObjectNames, {
 	[13000028] = "|cFFFFFFFFÉtape 4:|r Écaille de luxécaille luxueuse",
 	[13000029] = "|cFFFFFFFFÉtape 5:|r Bulle de cavitation emprisonnée",
 	[13000030] = "Acheter un Monocle de cristal rouge",
-	[13000031] = "Monocle de cristal rouge",
 	[13000032] = "|cFFFFFFFFÉtape 3:|r Choisir un monocle (Ou pas !)",
 	[13000033] = "|cFFFFFFFFÉtape 4:|r Raypons de Suramar",
 	[13000034] = "|cFFFFFFFFÉtape 5:|r Code du Chat",
@@ -38714,6 +38711,7 @@ localize(ObjectNames, {
 	[272778] = "Deposito Ricco d'Empirio",
 	[272780] = "Vena d'Empirio",
 	[272782] = "Gloria Astrale",
+	[272918] = "Forziere del Triumvirato Dorato",
 	[273052] = "Erba Vilincrostata",
 	[273053] = "Fascio d'Erba Vilincrostata",
 	[273193] = "Prugna Spinosa",
@@ -41154,7 +41152,6 @@ localize(ObjectNames, {
 	[9999920] = "|cFFFFFFFFStep 13:|r Placca Annerita",
 	[13000000] = "|cFFFFFFFFStep 1:|r Purchase Talismano del Rintracciamento del Vero Tesoro",
 	[13000030] = "Purchase Monocolo di Cristallo Rosso",
-	[13000031] = "Monocolo di Cristallo Rosso",
 	[13000037] = "|cFFFFFFFFStep 8:|r Mente Alveare",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Alleanza"; end
@@ -44608,6 +44605,7 @@ localize(ObjectNames, {
 	[272778] = "Depósito de Empirita Abundante",
 	[272780] = "Camada de Empirita",
 	[272782] = "Glória-astral",
+	[272918] = "Baú Dourado do Triunvirato",
 	[273052] = "Erva Incrustada de Vileza",
 	[273053] = "Feixe de Ervas Incrustadas de Vileza",
 	[273193] = "Ameixa-de-espinho",
@@ -47207,7 +47205,6 @@ localize(ObjectNames, {
 	[13000028] = "|cFFFFFFFFStep 4:|r Escama de Luxescala Luxuosa",
 	[13000029] = "|cFFFFFFFFStep 5:|r Bolha de Cavitação Capturada",
 	[13000030] = "Purchase Monóculo de Cristal Vermelho",
-	[13000031] = "Monóculo de Cristal Vermelho",
 	[13000037] = "|cFFFFFFFFStep 8:|r A Mente Coletiva",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Fogueira da Aliança"; end
@@ -51454,6 +51451,7 @@ localize(ObjectNames, {
 	[272778] = "Богатые залежи эмпиреита",
 	[272780] = "Пласт эмпиреита",
 	[272782] = "Астральный вьюнок",
+	[272918] = "Золоченый сундук Триумвирата",
 	[273052] = "Покрытая Скверной трава",
 	[273053] = "Пучок покрытой Скверной травы",
 	[273193] = "Колючая слива",
@@ -54172,7 +54170,6 @@ localize(ObjectNames, {
 	[13000028] = "|cFFFFFFFFШаг 4:|r Сверкающий фрагмент светящейся чешуи",
 	[13000029] = "|cFFFFFFFFШаг 5:|r Пойманный кавитационный пузырек",
 	[13000030] = "Купите Монокль из красного кристалла",
-	[13000031] = "Монокль из красного кристалла",
 	[13000032] = "|cFFFFFFFFШаг 3:|r Возьмите Монокль (или не берите!)",
 	[13000033] = "|cFFFFFFFFШаг 4:|r Лучи Сурамара",
 	[13000034] = "|cFFFFFFFFШаг 5:|r Кошачий Код",
@@ -59770,7 +59767,6 @@ localize(ObjectNames, {
 	[9999919] = "|cFFFFFFFFStep 12:|r 지혜의 큐브",
 	[13000000] = "|cFFFFFFFFStep 1:|r Purchase 진정한 보물 추적의 부적",
 	[13000030] = "Purchase 빨간색 수정 외눈안경",
-	[13000031] = "빨간색 수정 외눈안경",
 	[13000037] = "|cFFFFFFFFStep 8:|r 군체의식",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "얼라이언스 화톳불"; end
@@ -64105,6 +64101,7 @@ localize(ObjectNames, {
 	[272778] = "Depósito rico en empirium",
 	[272780] = "Veta de empirium",
 	[272782] = "Gloria astral",
+	[272918] = "Cofre dorado del Triunvirato",
 	[273052] = "Hierba con costra vil",
 	[273053] = "Manojo de hierba con costra vil",
 	[273193] = "Ciruela espinosa",
@@ -66673,7 +66670,6 @@ localize(ObjectNames, {
 	[13000028] = "|cFFFFFFFFStep 4:|r Escama de lujo de Escama Luminosa",
 	[13000029] = "|cFFFFFFFFStep 5:|r Burbuja de cavitación capturada",
 	[13000030] = "Purchase Monóculo de cristal rojo",
-	[13000031] = "Monóculo de cristal rojo",
 	[13000037] = "|cFFFFFFFFStep 8:|r La mente colmena",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Fogata de la Alianza"; end
@@ -71275,6 +71271,7 @@ localize(ObjectNames, {
 	[272778] = "富天界金矿脉",
 	[272780] = "天界金矿层",
 	[272782] = "星辰之耀",
+	[272918] = "执政团的镀金宝箱",
 	[273052] = "被邪能包裹的草药",
 	[273053] = "被邪能包裹的草药丛",
 	[273193] = "多刺球果",
@@ -73641,7 +73638,6 @@ localize(ObjectNames, {
 	[13000028] = "|cFFFFFFFF第4步:|r 奢侈的奢鳞之鳞",
 	[13000029] = "|cFFFFFFFF第5步:|r 捕获的空穴气泡",
 	[13000030] = "购买红色单片眼镜",
-	[13000031] = "红色单片眼镜",
 	[13000032] = "|cFFFFFFFF第3步:|r 选择一个单片眼镜（或不！）",
 	[13000033] = "|cFFFFFFFF第4步:|r 苏拉玛射线",
 	[13000034] = "|cFFFFFFFF第5步:|r 猫密码",

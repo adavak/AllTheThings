@@ -34,7 +34,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			ach(61450),	-- Galactic Gladiator's Goredrake
 			ach(61185),	-- Rival I: Midnight Season 1
 			ach(61186,	{	-- Rival II: Midnight Season 1
-				ill(8553),	-- Galaxy
+				ill(8553),	-- Galaxy (ILLUSION!)
 			}),
 			-- RBG
 			ach(61177, {	-- Galactic Marshal: Midnight Season 1

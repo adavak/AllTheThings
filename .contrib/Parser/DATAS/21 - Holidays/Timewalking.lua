@@ -7457,10 +7457,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			}),
 		}),
 		n(VENDORS, {
-		--	n(239840, {	-- Collector Ta'steld <Timewalking Vendor>
-		--		["coords"] = {
-		--			{ , , Oribos },
-		--		},
+			n(239840, {	-- Collector Ta'steld <Timewalking Vendor>
+				["coords"] = {
+					{ , , Oribos },
+				},
 				["groups"] = {
 					n(ARMOR, {
 						filter(BACK_F, {
@@ -7525,204 +7525,202 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 		inst_tw(1188, {	-- De Other Side
 			e(2408, {	-- Hakkar the Soulflayer
 				["crs"] = { 164558 },	-- Hakkar the Soulflayer
-				["groups"] = {
-					i(179328),	-- Bloodspiller
-					i(179331),	-- Blood-Spattered Scale
-					i(179326),	-- Girdle of the Soulflayer
-					i(179325),	-- Hakkari Revenant's Grips
-					i(179324),	-- Soulfeather Breeches
-					i(179322),	-- Windscale Moccasins
-					i(179330),	-- Zin'khas, Blade of the Fallen God
-				},
+				["sym"] = {{"select", "itemID",
+					179328,	-- Bloodspiller
+					179331,	-- Blood-Spattered Scale
+					179326,	-- Girdle of the Soulflayer
+					179325,	-- Hakkari Revenant's Grips
+					179324,	-- Soulfeather Breeches
+					179322,	-- Windscale Moccasins
+					179330,	-- Zin'khas, Blade of the Fallen God
+				}},
 			}),
 			e(2409, {	-- The Manastorms
 				["crs"] = {
 					164556,	-- Millhouse Manastorm
 					164555,	-- Millificent Manastorm
 				},
-				["groups"] = {
-					i(179338),	-- Dynamo Doomstompers
-					i(179335),	-- Manastorm's Magnificent Threads
-					i(179342),	-- Overwhelming Power Crystal
-					i(179336),	-- Rocket Chicken Handlers
-					i(179340),	-- Supercollider
-					i(179337),	-- Techno-Coil Legguards
-					i(179339),	-- Whizblast Walking Stick
-				},
+				["sym"] = {{"select", "itemID",
+					179338,	-- Dynamo Doomstompers
+					179335,	-- Manastorm's Magnificent Threads
+					179342,	-- Overwhelming Power Crystal
+					179336,	-- Rocket Chicken Handlers
+					179340,	-- Supercollider
+					179337,	-- Techno-Coil Legguards
+					179339,	-- Whizblast Walking Stick
+				}},
 			}),
 			e(2398, {	-- Dealer Xy'exa
 				["crs"] = { 164450 },	-- Millificent Manastorm
-				["groups"] = {
-					i(179346),	-- Breastplate of Fatal Contrivances
-					i(179347),	-- Collector's Pulse Staff
-					i(179349),	-- Dealer Xy'exa's Cape
-					i(179344),	-- Far Traveler's Shoulderpads
-					i(179350),	-- Inscrutable Quantum Device
-					i(179343),	-- Sash of Exquisite Acquisitions
-					i(179345),	-- Spatial Rift Striders
-					i(179348),	-- Xy Cartel Crossbow
-				},
+				["sym"] = {{"select", "itemID",
+					179346,	-- Breastplate of Fatal Contrivances
+					179347,	-- Collector's Pulse Staff
+					179349,	-- Dealer Xy'exa's Cape
+					179344,	-- Far Traveler's Shoulderpads
+					179350,	-- Inscrutable Quantum Device
+					179343,	-- Sash of Exquisite Acquisitions
+					179345,	-- Spatial Rift Striders
+					179348,	-- Xy Cartel Crossbow
+				}},
 			}),
 			e(2410, {	-- Mueh'zala
 				["crs"] = { 166608 },	--	Mueh'zala
-				["groups"] = {
-					i(182178),	-- Raptor Soul (SS!)
-					i(186998, {	-- Pattern: Pallid Oracle Bones (RECIPE!)
-						["timeline"] = { ADDED_9_1_0 },
-					}),
-					i(179355),	-- Death God's Signet
-					i(179353),	-- Harness of Twisted Whims
-					i(179351),	-- Mueh'zala's Hexthread Sarong
-					i(179352),	-- Primeval Soul's Ankleguards
-					i(179354),	-- Reality-Shatter Vambraces
-					i(179356),	-- Shadowgrasp Totem
-				},
+				["sym"] = {{"select", "itemID",
+					182178,	-- Raptor Soul (SS!)
+					186998,	-- Pattern: Pallid Oracle Bones (RECIPE!)
+					179355,	-- Death God's Signet
+					179353,	-- Harness of Twisted Whims
+					179351,	-- Mueh'zala's Hexthread Sarong
+					179352,	-- Primeval Soul's Ankleguards
+					179354,	-- Reality-Shatter Vambraces
+					179356,	-- Shadowgrasp Totem
+				}},
 			}),
 		}),
 		inst_tw(1185, {	-- Halls of Atonement
 			e(2406, {	-- Halkias
 				["crs"] = { 165408 },	-- Halkias
-				["groups"] = {
-					i(178818),	-- Halkias' Towering Pillars
-					i(178830),	-- Shardskin Sabatons
-					i(178827),	-- Sin Stained
-					i(178817),	-- Hood of Refracted Shadows
-					i(178813),	-- Sinlight Shroud
-				},
+				["sym"] = {{"select", "itemID",
+					178818,	-- Halkias' Towering Pillars
+					178830,	-- Shardskin Sabatons
+					178827,	-- Sin Stained
+					178817,	-- Hood of Refracted Shadows
+					178813,	-- Sinlight Shroud
+				}},
 			}),
 			e(2387, {	-- Echelon
 				["crs"] = { 164185 },	-- Echelon
-				["groups"] = {
-					i(178819),	-- Skyterror's Stonehide Leggings
-					i(178815),	-- Soaring Decimator's Hauberk
-					i(178833),	-- Stonefiend Shaper's Mitts
-					i(178834),	-- Stoneguardian's Morningstar
-					i(178812),	-- Wing Commander's Helmet
-					i(178825),	-- Pulsating Stoneheart
-				},
+				["sym"] = {{"select", "itemID",
+					178819,	-- Skyterror's Stonehide Leggings
+					178815,	-- Soaring Decimator's Hauberk
+					178833,	-- Stonefiend Shaper's Mitts
+					178834,	-- Stoneguardian's Morningstar
+					178812,	-- Wing Commander's Helmet
+					178825,	-- Pulsating Stoneheart
+				}},
 			}),
 			e(2411, {	-- High Adjudicator Aleez
 				["crs"] = { 165410 },	-- High Adjudicator Aleez
-				["groups"] = {
-					i(178814),	-- Breastplate of Otherworldly Influence
-					i(178822),	-- Cord of the Dark Word
-					i(178832),	-- Gloves of Haunting Fixation
-					i(178821),	-- Mantle of Ephemeral Visages
-					i(178826),	-- Sunblood Amethyst
-					i(178828),	-- Nathrian Tabernacle
-				},
+				["sym"] = {{"select", "itemID",
+					178814,	-- Breastplate of Otherworldly Influence
+					178822,	-- Cord of the Dark Word
+					178832,	-- Gloves of Haunting Fixation
+					178821,	-- Mantle of Ephemeral Visages
+					178826,	-- Sunblood Amethyst
+					178828,	-- Nathrian Tabernacle
+				}},
 			}),
 			e(2413, {	-- Lord Chamberlain
 				["crs"] = { 164218 },	--	Lord Chamberlain
-				["groups"] = {
-					i(178816),	-- Nathrian Usurper's Mask
-					i(178829),	-- Nathrian Ferula
-					i(178824),	-- Signet of the False Accuser
-					i(178831),	-- Slippers of Leavened Station
-					i(178823),	-- Waistcord of Dark Devotion
-					i(178820),	-- Pauldrons of Unleashed Pride
-				},
+				["sym"] = {{"select", "itemID",
+					178816,	-- Nathrian Usurper's Mask
+					178829,	-- Nathrian Ferula
+					178824,	-- Signet of the False Accuser
+					178831,	-- Slippers of Leavened Station
+					178823,	-- Waistcord of Dark Devotion
+					178820,	-- Pauldrons of Unleashed Pride
+				}},
 			}),
 		}),
 		inst_tw(1183, {	-- Plaguefall
 			e(2419, {	-- Globgrog
 				["crs"] = { 164255 },	-- Globgrog
-				["groups"] = {
-					i(178762),	-- Blightborne Chain Legguards
-					i(178760),	-- Disgested Interrogator's Gaze
-					i(178773),	-- Plague Handler's Greathelm
-					i(178770),	-- Slimy Consumptive Organ
-					i(178756),	-- Stradama's Misplaced Slippers
-					i(178753),	-- Surgical Pustule Extractor
-				},
+				["sym"] = {{"select", "itemID",
+					178762,	-- Blightborne Chain Legguards
+					178760,	-- Disgested Interrogator's Gaze
+					178773,	-- Plague Handler's Greathelm
+					178770,	-- Slimy Consumptive Organ
+					178756,	-- Stradama's Misplaced Slippers
+					178753,	-- Surgical Pustule Extractor
+				}},
 			}),
 			e(2403, {	-- Doctor Ickus
 				["crs"] = { 164967 },	-- Doctor Ickus
-				["groups"] = {
-					i(178759),	-- Depraved Physician's Mask
-					i(178775),	-- Fleshfused Crushers
-					i(178763),	-- Malodorous Gristle-Sown Spaulders
-					i(178771),	-- Phial of Putrefaction
-					i(178752),	-- Sophisticated Bonecracker
-					i(178767),	-- Tortured Assistant's Bindings
-				},
+				["sym"] = {{"select", "itemID",
+					178759,	-- Depraved Physician's Mask
+					178775,	-- Fleshfused Crushers
+					178763,	-- Malodorous Gristle-Sown Spaulders
+					178771,	-- Phial of Putrefaction
+					178752,	-- Sophisticated Bonecracker
+					178767,	-- Tortured Assistant's Bindings
+				}},
 			}),
 			e(2423, {	-- Domina Venomblade
 				["crs"] = { 164266 },	-- Domina Venomblade
-				["groups"] = {
-					i(178933),	-- Arachnid Cipher Ring
-					i(178932),	-- Belt of Wretched Manipulations
-					i(178928),	-- Domina's Oozing Shiv
-					i(178934),	-- Fastened Venombarb Binds
-					i(178929),	-- Halberd of the Aranakk
-					i(178930),	-- Mitts of Flawless Duplication
-					i(178931),	-- Scarred Bloodbound Girdle
-				},
+				["sym"] = {{"select", "itemID",
+					178933,	-- Arachnid Cipher Ring
+					178932,	-- Belt of Wretched Manipulations
+					178928,	-- Domina's Oozing Shiv
+					178934,	-- Fastened Venombarb Binds
+					178929,	-- Halberd of the Aranakk
+					178930,	-- Mitts of Flawless Duplication
+					178931,	-- Scarred Bloodbound Girdle
+				}},
 			}),
 			e(2404, {	-- Margrave Stradama
 				["crs"] = { 164267 },	-- Margrave Stradama
-				["groups"] = {
-					i(178755),	-- Blighted Margrave's Cloak
-					i(178757),	-- Gloves of Obscure Rituals
-					i(178769),	-- Infinitely Divisible Ooze
-					i(178761),	-- Leggings of the Erudite Scholar
-					i(178774),	-- Muckwallow Stompers
-					i(178764),	-- Plagueborne Shoulderguards
-					i(178754),	-- Poxstorm, Longsword of Pestilence
-				},
+				["sym"] = {{"select", "itemID",
+					178755,	-- Blighted Margrave's Cloak
+					178757,	-- Gloves of Obscure Rituals
+					178769,	-- Infinitely Divisible Ooze
+					178761,	-- Leggings of the Erudite Scholar
+					178774,	-- Muckwallow Stompers
+					178764,	-- Plagueborne Shoulderguards
+					178754,	-- Poxstorm, Longsword of Pestilence
+				}},
 			}),
 		}),
 		inst_tw(1189, {	-- Sanguine Depths
 			e(2388, {	-- Kryxis the Voracious
 				["crs"] = { 162100 },	-- Kryxis the Voracious
-				["groups"] = {
-					i(178835),	-- Anima-Splattered Hide
-					i(178848),	-- Entwined Gorger Tendril
-					i(178844),	-- Essence Surgers Cuffs
-					i(178854),	-- Hungering Devourer's Twinblade
-					i(178836),	-- Sabatons of the Rushing Juggernaut
-					i(178846),	-- Shackles of Alluring Vitality
-					i(178853),	-- Voracious Gorger Spine
-				},
+				["sym"] = {{"select", "itemID",
+					178835,	-- Anima-Splattered Hide
+					178848,	-- Entwined Gorger Tendril
+					178844,	-- Essence Surgers Cuffs
+					178854,	-- Hungering Devourer's Twinblade
+					178836,	-- Sabatons of the Rushing Juggernaut
+					178846,	-- Shackles of Alluring Vitality
+					178853,	-- Voracious Gorger Spine
+				}},
 			}),
 			e(2415, {	-- Executor Tarvold
 				["crs"] = { 162103 },	-- Executor Tarvold
-				["groups"] = {
-					i(178859),	-- Castigator's Mantle
-					i(178851),	-- Cloak of Enveloping Manifestations
-					i(178843),	-- Executor's Prideful Girdle
-					i(178849),	-- Overflowing Anima Prison
-					i(178855),	-- Sinsmasher
-					i(178837),	-- Sinsoaked Waders
-					i(178845),	-- Vambraces of the Depraved Warden
-				},
+				["sym"] = {{"select", "itemID",
+					178859,	-- Castigator's Mantle
+					178851,	-- Cloak of Enveloping Manifestations
+					178843,	-- Executor's Prideful Girdle
+					178849,	-- Overflowing Anima Prison
+					178855,	-- Sinsmasher
+					178837,	-- Sinsoaked Waders
+					178845,	-- Vambraces of the Depraved Warden
+				}},
 			}),
 			e(2421, {	-- Grand Proctor Beryllia
 				["crs"] = { 162102 },	-- Grand Proctor Beryllia
-				["groups"] = {
-					i(178838),	-- Beryllia's Leggings of Endless Torment
-					i(178841),	-- Iron Spiked Handgrips
-					i(178850),	-- Lingering Sunmote
-					i(178847),	-- Radiant Light Binders
-					i(178852),	-- Vessel of Shining Radiance
-					i(178842),	-- Waistguard of Expurged Anguish
-				},
+				["sym"] = {{"select", "itemID",
+					178838,	-- Beryllia's Leggings of Endless Torment
+					178841,	-- Iron Spiked Handgrips
+					178850,	-- Lingering Sunmote
+					178847,	-- Radiant Light Binders
+					178852,	-- Vessel of Shining Radiance
+					178842,	-- Waistguard of Expurged Anguish
+				}},
 			}),
 			e(2407, {	-- General Kaal
 				["crs"] = {
 					162133,	-- General Kaal (during gauntlet)
 					162099,	-- General Kaal
 				},
-				["groups"] = {
-					i(178862),	-- Bladedancer's Armor Kit
-					i(178860),	-- Cowl of the Devoted General
-					i(178861),	-- Decanter of Anima-Charged Winds
-					i(178840),	-- Guilewind Stone Talons
-					i(178856),	-- Kaal's Gloomblade
-					i(178857),	-- Stone General's Edge
-					i(178858),	-- Wicked Bladewing Pauldrons
-					i(178839),	-- Wind Dancer's Legguards
-				},
+				["sym"] = {{"select", "itemID",
+					178862,	-- Bladedancer's Armor Kit
+					178860,	-- Cowl of the Devoted General
+					178861,	-- Decanter of Anima-Charged Winds
+					178840,	-- Guilewind Stone Talons
+					178856,	-- Kaal's Gloomblade
+					178857,	-- Stone General's Edge
+					178858,	-- Wicked Bladewing Pauldrons
+					178839,	-- Wind Dancer's Legguards
+				}},
 			}),
 		}),
 		inst_tw(1186, {	-- Spires of Ascension
@@ -7731,105 +7729,103 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 					163077,	-- Azules
 					162059,	-- Kin-Tara
 				},
-				["groups"] = {
-					i(180115),	-- Azure-Venom Choker
-					i(180100),	-- Forsworn Stalker's Hauberk
-					i(180109),	-- Kin-Tara's Baleful Cord
-					i(180097),	-- Quarterstaff of Discordant Ethic
-					i(180101),	-- Warboots of Ruthless Conviction
-					i(180103),	-- Winged Hunters' Gloves
-				},
+				["sym"] = {{"select", "itemID",
+					180115,	-- Azure-Venom Choker
+					180100,	-- Forsworn Stalker's Hauberk
+					180109,	-- Kin-Tara's Baleful Cord
+					180097,	-- Quarterstaff of Discordant Ethic
+					180101,	-- Warboots of Ruthless Conviction
+					180103,	-- Winged Hunters' Gloves
+				}},
 			}),
 			e(2416, {	-- Ventunax
 				["crs"] = { 162058 },	-- Ventunax
-				["groups"] = {
-					i(180102),	-- Dark Stride Footwraps
-					i(180110),	-- Dark Praetorian's Clasp
-					i(180104),	-- Distorted Construct's Gauntlets
-					i(180116),	-- Overcharged Anima Battery
-					i(180095),	-- Penitent Edge
-					i(180111),	-- Shadowhirl Waistwrap
-				},
+				["sym"] = {{"select", "itemID",
+					180102,	-- Dark Stride Footwraps
+					180110,	-- Dark Praetorian's Clasp
+					180104,	-- Distorted Construct's Gauntlets
+					180116,	-- Overcharged Anima Battery
+					180095,	-- Penitent Edge
+					180111,	-- Shadowhirl Waistwrap
+				}},
 			}),
 			e(2414, {	-- Oryphrion
 				["crs"] = { 162060 },	-- Oryphrion
-				["groups"] = {
-					i(180105),	-- Absonant Construct's Handguards
-					i(180118),	-- Anima Field Emitter
-					i(180117),	-- Empyreal Ordnance
-					i(180107),	-- Purge Protocol Legwraps
-					i(180112),	-- The Philosopher
-					i(180113),	-- Thunderous Echo Vambraces
-					i(180106),	-- Vicious Surge Faceguard
-				},
+				["sym"] = {{"select", "itemID",
+					180105,	-- Absonant Construct's Handguards
+					180118,	-- Anima Field Emitter
+					180117,	-- Empyreal Ordnance
+					180107,	-- Purge Protocol Legwraps
+					180112,	-- The Philosopher
+					180113,	-- Thunderous Echo Vambraces
+					180106,	-- Vicious Surge Faceguard
+				}},
 			}),
 			e(2412, {	-- Devos, Paragon of Doubt
 				["crs"] = { 162061 },	--	Devos, Paragon of Doubt
-				["groups"] = {
-					i(180108),	-- Abyssal Disharmony Breeches
-					i(180119),	-- Boon of the Archon
-					i(180099),	-- Breastplate of Brutal Dissonance
-					i(180096),	-- Devos' Cacophonous Poleaxe
-					i(180123),	-- Drape of Twisted Loyalties
-					i(180114),	-- Fallen Paragon's Armguards
-					i(183054),	-- Mysterious Soul Mirror
-					i(180098),	-- Sinister Requiem Vestments
-				},
+				["sym"] = {{"select", "itemID",
+					180108,	-- Abyssal Disharmony Breeches
+					180119,	-- Boon of the Archon
+					180099,	-- Breastplate of Brutal Dissonance
+					180096,	-- Devos' Cacophonous Poleaxe
+					180123,	-- Drape of Twisted Loyalties
+					180114,	-- Fallen Paragon's Armguards
+					183054,	-- Mysterious Soul Mirror
+					180098,	-- Sinister Requiem Vestments
+				}},
 			}),
 		}),
 		inst_tw(1182, {	-- The Necrotic Wake
 			e(2395, {	-- Blightbone
 				["crs"] = { 162691 },	-- Blightbone
-				["groups"] = {
-					i(178732, {	-- Abominable Visage
-						["filterID"] = CLOTH,
-					}),
-					i(178735),	-- Blight Belcher
-					i(178733),	-- Blightbone Spaulders
-					i(178730),	-- Engorged Worm Smasher
-					i(178734),	-- Fused Bone Greatbelt
-					i(178736),	-- Stitchflesh's Misplaced Signet
-					i(178731),	-- Viscera-Stitched Footpads
-				},
+				["sym"] = {{"select", "itemID",
+					178732, -- Abominable Visage
+					178735,	-- Blight Belcher
+					178733,	-- Blightbone Spaulders
+					178730,	-- Engorged Worm Smasher
+					178734,	-- Fused Bone Greatbelt
+					178736,	-- Stitchflesh's Misplaced Signet
+					178731,	-- Viscera-Stitched Footpads
+				}},
 			}),
 			e(2391, {	-- Amarth, The Harvester
 				["crs"] = { 163157 },	-- Amarth, The Harvester
-				["groups"] = {
-					i(178737),	-- Amarth's Spellblade
-					i(178742),	-- Bottled Chimera Toxin
-					i(178739),	-- Legplates of Unholy Frenzy
-					i(178738),	-- Rattling Deadeye Hood
-					i(178740),	-- Reanimator's Mantle
-					i(178741),	-- Risen Monstrosity Cuffs
-				},
+				["sym"] = {{"select", "itemID",
+					178737,	-- Amarth's Spellblade
+					178742,	-- Bottled Chimera Toxin
+					178739,	-- Legplates of Unholy Frenzy
+					178738,	-- Rattling Deadeye Hood
+					178740,	-- Reanimator's Mantle
+					178741,	-- Risen Monstrosity Cuffs
+				}},
 			}),
 			e(2392, {	-- Surgeon Stitchflesh
 				["crs"] = {
 					162689,	-- Surgeon Stitchflesh
 					164578,	-- Stitchflesh's Creation
 				},
-				["groups"] = {
-					i(178750),	-- Encrusted Canopic Lid
-					i(178744),	-- Freshly Embalmed Jerkin
-					i(178748),	-- Gory Surgeon's Gloves
-					i(178772),	-- Satchel of Misbegotten Minions
-					i(178751),	-- Spare Meat Hook
-					i(178743),	-- Stitchflesh's Scalpel
-					i(178745),	-- Striders of Restless Malice
-					i(178749),	-- Vile Butcher's Pauldrons
-				},
+				["sym"] = {{"select", "itemID",
+					178750,	-- Encrusted Canopic Lid
+					178744,	-- Freshly Embalmed Jerkin
+					178748,	-- Gory Surgeon's Gloves
+					178772,	-- Satchel of Misbegotten Minions
+					178751,	-- Spare Meat Hook
+					178743,	-- Stitchflesh's Scalpel
+					178745,	-- Striders of Restless Malice
+					178749,	-- Vile Butcher's Pauldrons
+				}},
 			}),
 			e(2396, {	-- Nalthor the Rimebinder
 				["crs"] = { 162693 },	-- Nalthor the Rimebinder
-				["groups"] = {
-					i(178777),	-- Dark Frost Helmet
-					i(178778),	-- Lichbone Legguards
-					i(178782),	-- Necropolis Lord's Shackles
-					i(178780),	-- Rimebinder's Runeblade
-					i(178781),	-- Ritual Commander's Ring
-					i(178783),	-- Siphoning Phylactery Shard
-					i(178779),	-- Undying Chill Shoulderpads
-				},
+				["sym"] = {{"select", "itemID",
+					178777,	-- Dark Frost Helmet
+					178778,	-- Lichbone Legguards
+					178782,	-- Necropolis Lord's Shackles
+					178780,	-- Rimebinder's Runeblade
+					178781,	-- Ritual Commander's Ring
+					178783,	-- Siphoning Phylactery Shard
+					178779,	-- Undying Chill Shoulderpads
+				}},
 			}),
 		}),
 	})),
