@@ -1480,12 +1480,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 				i(22641, {	-- Rotting Heart
+					["races"] = HORDE_ONLY,
 					["crs"] = {
 						16301,	-- Risen Hungerer
 						16302,	-- Risen Stalker
 					},
 				}),
 				i(22642, {	-- Spinal Dust
+					["races"] = HORDE_ONLY,
 					["crs"] = {
 						16307,	-- Deathcage Scryer
 						16308,	-- Deathcage Sorcerer
