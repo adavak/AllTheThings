@@ -727,8 +727,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						77775,	-- Has rolled for Coren Special Loot (Daily Accountwide)(DF Version)
 						-- #endif
 						{
-							["name"] = "Has rolled for Coren Special Loot (Daily Accountwide)",
-							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+							["name"] = "Coren Special Loot (Daily Accountwide)",
+							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting these special daily items.\n\nGroup your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed' Keg-Shaped Treasure Chest.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which grows 5 times faster too.",
 							-- #if AFTER 11.2.0
 							["timeline"] = { ADDED_11_2_0 },
 							-- #else
@@ -738,19 +738,19 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["groups"] = {
 								i(248761, {	-- Brewfest Bomber (MOUNT!)
 									["timeline"] = { ADDED_11_2_0 },
-									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
+									["description"] = "Mouse over 'Coren Special Loot' for a mini-guide on how to greatly increase your chances of receiving this item.",
 								}),
 								i(208742, {	-- Renewed Proto-Drake: Brewfest Armor (MM!)
 									["timeline"] = { ADDED_10_1_7 },
-									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
+									["description"] = "Mouse over 'Coren Special Loot' for a mini-guide on how to greatly increase your chances of receiving this item.",
 								}),
 								i(37828, {	-- Great Brewfest Kodo (MOUNT!)
 									["timeline"] = { ADDED_2_0_1 },
-									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
+									["description"] = "Mouse over 'Coren Special Loot' for a mini-guide on how to greatly increase your chances of receiving this item.",
 								}),
 								i(33977, {	-- Swift Brewfest Ram (MOUNT!)
 									["timeline"] = { ADDED_2_0_1 },
-									["description"] = "Using multiple accounts, even free trial accounts, gives you a Keg-Shaped Treasure Chest from the first kill of the day on each account, which greatly increases your chance of getting this item.",
+									["description"] = "Mouse over 'Coren Special Loot' for a mini-guide on how to greatly increase your chances of receiving this item.",
 								}),
 							},
 						}),
