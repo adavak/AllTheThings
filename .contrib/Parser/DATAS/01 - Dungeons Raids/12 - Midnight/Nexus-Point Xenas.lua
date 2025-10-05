@@ -1,6 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
+local NEXUSPOINT_XENAS = 16573;
 --[[
 ------ Encounter Constants ------
 local bossConstant = XXXX;
