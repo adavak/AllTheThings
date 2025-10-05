@@ -6,11 +6,11 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 		pvp(n(PVP, {
 			n(QUESTS, {
 			}),
-			n(QUESTS, sharedData({
+			--n(QUESTS, sharedData({
 			--	["provider"] = { "n", 219260 },	-- Ruffious
 			--	["coord"] = { 58.9, 75.3, DORNOGAL },
 			--	["isWeekly"] = true,
-			}, {
+			--}, {
 			--	q(80188),	-- Preserving in Arenas
 			--	q(81796, {	-- Sparks of War: Azj-Kahet
 			--		i(219934),	-- Spark of War (QI!)
@@ -155,4 +155,4 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 		})),
 	}),
-}));--]]
+}));
