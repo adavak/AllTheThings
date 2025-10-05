@@ -3,7 +3,9 @@
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
-		ach(61451),	-- Worldsoul-Searching
+		ach(61451, {	-- Worldsoul-Searching
+			["timeline"] = { ADDED_11_2_7 },
+		}),
 		ach(61451, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Worldsoul-Searching
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",

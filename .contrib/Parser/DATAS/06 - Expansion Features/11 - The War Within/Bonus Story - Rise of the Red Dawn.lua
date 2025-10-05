@@ -311,6 +311,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							title(629, {	-- %s of Hammerfall
+								["races"] = ALLIANCE_ONLY,
 								["timeline"] = { ADDED_11_1_7 },
 							}),
 						},
@@ -319,6 +320,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							title(630, {	-- %s of Stromgarde
+								["races"] = HORDE_ONLY,
 								["timeline"] = { ADDED_11_1_7 },
 							}),
 						},

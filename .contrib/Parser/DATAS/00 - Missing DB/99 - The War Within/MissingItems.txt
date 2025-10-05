@@ -29881,7 +29881,6 @@ i(258181),	-- Corrupted Gloves of the Crusader
 i(258182),	-- Corrupted Cloak of the Crusader
 i(258183),	-- Corrupted Chestplate of the Crusader
 i(258186),	-- Ensemble: Corrupted Regalia of the Crusader
-i(258188),	-- Geargrinder Mk. 11
 i(258189),	-- Do, child of Fi'lo
 i(258217),	-- Honey Drops
 i(258218),	-- Skybreaker's Blade
