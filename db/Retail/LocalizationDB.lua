@@ -22322,7 +22322,7 @@ L.QUEST_NAMES = {
 	[91524] = "Stay awhile and listen: Captaion Roderick Brewston",
 	[91532] = "Stay awhile and listen: Faerin Lothar",
 	[91534] = "Stay awhile and listen: Eitrigg",
-	[91894] = "Has rolled for Coren Special Loot (Daily Accountwide)",
+	[91894] = "Coren Special Loot (Daily Accountwide)",
 	[92627] = "An Arrested Development",
 	[92651] = "Deathless Attempt Finished",
 }
