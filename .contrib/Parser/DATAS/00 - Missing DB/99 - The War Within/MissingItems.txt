@@ -28958,101 +28958,6 @@ i(255158),	-- Callum's Tinder Box
 i(255159),	-- Callum's Shield
 i(255160),	-- Callum's Necklace
 i(255161),	-- Callum's Belongings
-i(255262),	-- Galactic Aspirant's Plate Helm
-i(255263),	-- Galactic Aspirant's Silk Robe
-i(255264),	-- Galactic Aspirant's Chestplate
-i(255265),	-- Galactic Aspirant's Armored Vest
-i(255266),	-- Galactic Aspirant's Leather Vest
-i(255267),	-- Galactic Aspirant's Plate Warboots
-i(255268),	-- Galactic Aspirant's Silk Treads
-i(255269),	-- Galactic Aspirant's Chain Sabatons
-i(255270),	-- Galactic Aspirant's Leather Boots
-i(255271),	-- Galactic Aspirant's Leather Gloves
-i(255272),	-- Galactic Aspirant's Plate Gauntlets
-i(255273),	-- Galactic Aspirant's Silk Gloves
-i(255274),	-- Galactic Aspirant's Chain Gauntlets
-i(255275),	-- Galactic Aspirant's Silk Hood
-i(255276),	-- Galactic Aspirant's Chain Helm
-i(255277),	-- Galactic Aspirant's Leather Helm
-i(255278),	-- Galactic Aspirant's Plate Legguards
-i(255279),	-- Galactic Aspirant's Silk Leggings
-i(255280),	-- Galactic Aspirant's Chain Leggings
-i(255281),	-- Galactic Aspirant's Leather Breeches
-i(255282),	-- Galactic Aspirant's Leather Spaulders
-i(255283),	-- Galactic Aspirant's Plate Shoulders
-i(255284),	-- Galactic Aspirant's Silk Mantle
-i(255285),	-- Galactic Aspirant's Chain Spaulders
-i(255286),	-- Galactic Aspirant's Plate Girdle
-i(255287),	-- Galactic Aspirant's Silk Cord
-i(255288),	-- Galactic Aspirant's Chain Belt
-i(255289),	-- Galactic Aspirant's Leather Belt
-i(255290),	-- Galactic Aspirant's Silk Wristwraps
-i(255291),	-- Galactic Aspirant's Plate Cuffs
-i(255292),	-- Galactic Aspirant's Chain Wristwraps
-i(255293),	-- Galactic Aspirant's Leather Wristwraps
-i(255294),	-- Galactic Aspirant's Plate Headguard
-i(255295),	-- Galactic Aspirant's Silk Shirt
-i(255296),	-- Galactic Aspirant's Plate Armor
-i(255297),	-- Galactic Aspirant's Armored Tunic
-i(255298),	-- Galactic Aspirant's Leather Tunic
-i(255299),	-- Galactic Aspirant's Plate Stompers
-i(255300),	-- Galactic Aspirant's Silk Footwraps
-i(255301),	-- Galactic Aspirant's Chain Stompers
-i(255302),	-- Galactic Aspirant's Leather Footpads
-i(255303),	-- Galactic Aspirant's Leather Grips
-i(255304),	-- Galactic Aspirant's Plate Handguards
-i(255305),	-- Galactic Aspirant's Silk Handwraps
-i(255306),	-- Galactic Aspirant's Chain Handguards
-i(255307),	-- Galactic Aspirant's Silk Cover
-i(255308),	-- Galactic Aspirant's Chain Headguard
-i(255309),	-- Galactic Aspirant's Leather Mask
-i(255310),	-- Galactic Aspirant's Plate Wargreaves
-i(255311),	-- Galactic Aspirant's Silk Legwraps
-i(255312),	-- Galactic Aspirant's Chain Wargreaves
-i(255313),	-- Galactic Aspirant's Leather Leggings
-i(255314),	-- Galactic Aspirant's Leather Mantle
-i(255315),	-- Galactic Aspirant's Plate Pauldrons
-i(255316),	-- Galactic Aspirant's Silk Shawl
-i(255317),	-- Galactic Aspirant's Chain Shoulderguards
-i(255318),	-- Galactic Aspirant's Plate Greatbelt
-i(255319),	-- Galactic Aspirant's Silk Belt
-i(255320),	-- Galactic Aspirant's Chain Clasp
-i(255321),	-- Galactic Aspirant's Leather Cord
-i(255322),	-- Galactic Aspirant's Silk Bindings
-i(255323),	-- Galactic Aspirant's Plate Armguards
-i(255324),	-- Galactic Aspirant's Chain Bracer
-i(255325),	-- Galactic Aspirant's Leather Armguards
-i(255326),	-- Galactic Aspirant's Badge of Ferocity
-i(255327),	-- Galactic Aspirant's Medallion
-i(255328),	-- Galactic Aspirant's Insignia of Alacrity
-i(255329),	-- Galactic Aspirant's Emblem
-i(255330),	-- Galactic Aspirant's Sigil of Adaptation
-i(255331),	-- Galactic Aspirant's Ring
-i(255332),	-- Galactic Aspirant's Band
-i(255333),	-- Galactic Aspirant's Signet
-i(255334),	-- Galactic Aspirant's Necklace
-i(255335),	-- Galactic Aspirant's Choker
-i(255336),	-- Galactic Aspirant's Pendant
-i(255337),	-- Galactic Aspirant's Drape
-i(255338),	-- Galactic Aspirant's Cloak
-i(255339),	-- Galactic Aspirant's Cape
-i(255340),	-- Galactic Aspirant's Greatcloak
-i(255341),	-- Galactic Aspirant's Battleaxe
-i(255342),	-- Galactic Aspirant's Dagger
-i(255343),	-- Galactic Aspirant's Mace
-i(255344),	-- Galactic Aspirant's Polearm
-i(255345),	-- Galactic Aspirant's Staff
-i(255346),	-- Galactic Aspirant's Greatsword
-i(255347),	-- Galactic Aspirant's Censer
-i(255348),	-- Galactic Aspirant's Warglaive
-i(255349),	-- Galactic Aspirant's Scepter
-i(255350),	-- Galactic Aspirant's Shield
-i(255351),	-- Galactic Aspirant's Rifle
-i(255352),	-- Galactic Aspirant's Halberd
-i(255353),	-- Galactic Aspirant's Morningstar
-i(255354),	-- Galactic Aspirant's Knife
-i(255355),	-- Galactic Aspirant's Chopper
-i(255356),	-- Galactic Aspirant's Wand
 i(255357),	-- Galactic Gladiator's Silk Robe
 i(255358),	-- Galactic Gladiator's Silk Gown
 i(255359),	-- Galactic Gladiator's Silk Slippers
@@ -29509,13 +29414,10 @@ i(256701),	-- Design: Attuned Thalassian Rune-Prism
 i(256703),	-- Design: Sin'dorei Scribe's Spectacles
 i(256704),	-- Design: Powerful Eversong Diamond
 i(256705),	-- Design: Flawless Text Scrutinizers
-i(256706),	-- Design: Determined Heliotrope
 i(256707),	-- Design: Mage-Eye Precision Loupes
 i(256708),	-- Design: Telluric Eversong Diamond
 i(256709),	-- Design: Sin'dorei Jeweler's Loupes
-i(256710),	-- Design: Enduring Heliotrope
 i(256711),	-- Design: Thalassian Scribe's Crystalline Lens
-i(256712),	-- Design: Cognitive Heliotrope
 i(256713),	-- Design: Improved Right-Handed Magnifying Glass
 i(256714),	-- Design: Indecipherable Eversong Diamond
 i(256715),	-- Design: Thalassian Phoenix Torque

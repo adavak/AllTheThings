@@ -161,118 +161,118 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				["coord"] = { 55.0, 76.5, DORNOGAL },
 				["groups"] = {
 					filter(BACK_F, {
-						honor(525, i(230365)),	-- Galactic Aspirant's Cape
-						honor(525, i(230364)),	-- Galactic Aspirant's Cloak
-						honor(525, i(230363)),	-- Galactic Aspirant's Drape
-						honor(525, i(230366)),	-- Galactic Aspirant's Greatcloak
+						honor(525, i(255339)),	-- Galactic Aspirant's Cape
+						honor(525, i(255338)),	-- Galactic Aspirant's Cloak
+						honor(525, i(255337)),	-- Galactic Aspirant's Drape
+						honor(525, i(255340)),	-- Galactic Aspirant's Greatcloak
 					}),
 					filter(CLOTH, {
-						honor(700, i(230345)),	-- Galactic Aspirant's Silk Belt
-						honor(525, i(230348)),	-- Galactic Aspirant's Silk Bindings
-						honor(700, i(230313)),	-- Galactic Aspirant's Silk Cord
-						honor(875, i(230333)),	-- Galactic Aspirant's Silk Cover
-						honor(700, i(230326)),	-- Galactic Aspirant's Silk Footwraps
-						honor(700, i(230299)),	-- Galactic Aspirant's Silk Gloves
-						honor(700, i(230331)),	-- Galactic Aspirant's Silk Handwraps
-						honor(875, i(230301)),	-- Galactic Aspirant's Silk Hood
-						honor(875, i(230305)),	-- Galactic Aspirant's Silk Leggings
-						honor(875, i(230337)),	-- Galactic Aspirant's Silk Legwraps
-						honor(700, i(230310)),	-- Galactic Aspirant's Silk Mantle
-						honor(875, i(230289)),	-- Galactic Aspirant's Silk Robe
-						honor(700, i(230342)),	-- Galactic Aspirant's Silk Shawl
-						honor(875, i(230321)),	-- Galactic Aspirant's Silk Shirt
-						honor(700, i(230294)),	-- Galactic Aspirant's Silk Treads
-						honor(525, i(230316)),	-- Galactic Aspirant's Silk Wristwraps
+						honor(700, i(255319)),	-- Galactic Aspirant's Silk Belt
+						honor(525, i(255322)),	-- Galactic Aspirant's Silk Bindings
+						honor(700, i(255287)),	-- Galactic Aspirant's Silk Cord
+						honor(875, i(255307)),	-- Galactic Aspirant's Silk Cover
+						honor(700, i(255300)),	-- Galactic Aspirant's Silk Footwraps
+						honor(700, i(255273)),	-- Galactic Aspirant's Silk Gloves
+						honor(700, i(255305)),	-- Galactic Aspirant's Silk Handwraps
+						honor(875, i(255275)),	-- Galactic Aspirant's Silk Hood
+						honor(875, i(255279)),	-- Galactic Aspirant's Silk Leggings
+						honor(875, i(255311)),	-- Galactic Aspirant's Silk Legwraps
+						honor(700, i(255284)),	-- Galactic Aspirant's Silk Mantle
+						honor(875, i(255263)),	-- Galactic Aspirant's Silk Robe
+						honor(700, i(255316)),	-- Galactic Aspirant's Silk Shawl
+						honor(875, i(255295)),	-- Galactic Aspirant's Silk Shirt
+						honor(700, i(255268)),	-- Galactic Aspirant's Silk Treads
+						honor(525, i(255290)),	-- Galactic Aspirant's Silk Wristwraps
 					}),
 					filter(FINGER_F, {
-						honor(525, i(230358)),	-- Galactic Aspirant's Band
-						honor(525, i(230357)),	-- Galactic Aspirant's Ring
-						honor(525, i(230359)),	-- Galactic Aspirant's Signet
+						honor(525, i(255332)),	-- Galactic Aspirant's Band
+						honor(525, i(255331)),	-- Galactic Aspirant's Ring
+						honor(525, i(255333)),	-- Galactic Aspirant's Signet
 					}),
 					filter(LEATHER, {
-						honor(525, i(230351)),	-- Galactic Aspirant's Leather Armguards
-						honor(700, i(230315)),	-- Galactic Aspirant's Leather Belt
-						honor(700, i(230296)),	-- Galactic Aspirant's Leather Boots
-						honor(875, i(230307)),	-- Galactic Aspirant's Leather Breeches
-						honor(700, i(230347)),	-- Galactic Aspirant's Leather Cord
-						honor(700, i(230328)),	-- Galactic Aspirant's Leather Footpads
-						honor(700, i(230297)),	-- Galactic Aspirant's Leather Gloves
-						honor(700, i(230329)),	-- Galactic Aspirant's Leather Grips
-						honor(875, i(230303)),	-- Galactic Aspirant's Leather Helm
-						honor(875, i(230339)),	-- Galactic Aspirant's Leather Leggings
-						honor(700, i(230340)),	-- Galactic Aspirant's Leather Mantle
-						honor(875, i(230335)),	-- Galactic Aspirant's Leather Mask
-						honor(700, i(230308)),	-- Galactic Aspirant's Leather Spaulders
-						honor(875, i(230324)),	-- Galactic Aspirant's Leather Tunic
-						honor(875, i(230292)),	-- Galactic Aspirant's Leather Vest
-						honor(525, i(230319)),	-- Galactic Aspirant's Leather Wristwraps
+						honor(525, i(255325)),	-- Galactic Aspirant's Leather Armguards
+						honor(700, i(255289)),	-- Galactic Aspirant's Leather Belt
+						honor(700, i(255270)),	-- Galactic Aspirant's Leather Boots
+						honor(875, i(255281)),	-- Galactic Aspirant's Leather Breeches
+						honor(700, i(255321)),	-- Galactic Aspirant's Leather Cord
+						honor(700, i(255302)),	-- Galactic Aspirant's Leather Footpads
+						honor(700, i(255271)),	-- Galactic Aspirant's Leather Gloves
+						honor(700, i(255303)),	-- Galactic Aspirant's Leather Grips
+						honor(875, i(255277)),	-- Galactic Aspirant's Leather Helm
+						honor(875, i(255313)),	-- Galactic Aspirant's Leather Leggings
+						honor(700, i(255314)),	-- Galactic Aspirant's Leather Mantle
+						honor(875, i(255309)),	-- Galactic Aspirant's Leather Mask
+						honor(700, i(255282)),	-- Galactic Aspirant's Leather Spaulders
+						honor(875, i(255298)),	-- Galactic Aspirant's Leather Tunic
+						honor(875, i(255266)),	-- Galactic Aspirant's Leather Vest
+						honor(525, i(255293)),	-- Galactic Aspirant's Leather Wristwraps
 					}),
 					filter(MAIL, {
-						honor(875, i(230323)),	-- Galactic Aspirant's Armored Tunic
-						honor(875, i(230291)),	-- Galactic Aspirant's Armored Vest
-						honor(700, i(230314)),	-- Galactic Aspirant's Chain Belt
-						honor(525, i(230350)),	-- Galactic Aspirant's Chain Bracer
-						honor(700, i(230346)),	-- Galactic Aspirant's Chain Clasp
-						honor(700, i(230300)),	-- Galactic Aspirant's Chain Gauntlets
-						honor(700, i(230332)),	-- Galactic Aspirant's Chain Handguards
-						honor(875, i(230334)),	-- Galactic Aspirant's Chain Headguard
-						honor(875, i(230302)),	-- Galactic Aspirant's Chain Helm
-						honor(875, i(230306)),	-- Galactic Aspirant's Chain Leggings
-						honor(700, i(230295)),	-- Galactic Aspirant's Chain Sabatons
-						honor(700, i(230343)),	-- Galactic Aspirant's Chain Shoulderguards
-						honor(700, i(230311)),	-- Galactic Aspirant's Chain Spaulders
-						honor(700, i(230327)),	-- Galactic Aspirant's Chain Stompers
-						honor(875, i(230338)),	-- Galactic Aspirant's Chain Wargreaves
-						honor(525, i(230318)),	-- Galactic Aspirant's Chain Wristwraps
+						honor(875, i(255297)),	-- Galactic Aspirant's Armored Tunic
+						honor(875, i(255265)),	-- Galactic Aspirant's Armored Vest
+						honor(700, i(255320)),	-- Galactic Aspirant's Chain Belt
+						honor(525, i(255324)),	-- Galactic Aspirant's Chain Bracer
+						honor(700, i(255320)),	-- Galactic Aspirant's Chain Clasp
+						honor(700, i(255274)),	-- Galactic Aspirant's Chain Gauntlets
+						honor(700, i(255306)),	-- Galactic Aspirant's Chain Handguards
+						honor(875, i(255308)),	-- Galactic Aspirant's Chain Headguard
+						honor(875, i(255276)),	-- Galactic Aspirant's Chain Helm
+						honor(875, i(255280)),	-- Galactic Aspirant's Chain Leggings
+						honor(700, i(255301)),	-- Galactic Aspirant's Chain Sabatons
+						honor(700, i(255317)),	-- Galactic Aspirant's Chain Shoulderguards
+						honor(700, i(255285)),	-- Galactic Aspirant's Chain Spaulders
+						honor(700, i(255301)),	-- Galactic Aspirant's Chain Stompers
+						honor(875, i(255312)),	-- Galactic Aspirant's Chain Wargreaves
+						honor(525, i(255292)),	-- Galactic Aspirant's Chain Wristwraps
 					}),
 					filter(NECK_F, {
-						honor(525, i(230361)),	-- Galactic Aspirant's Choker
-						honor(525, i(230360)),	-- Galactic Aspirant's Necklace
-						honor(525, i(230362)),	-- Galactic Aspirant's Pendant
+						honor(525, i(255335)),	-- Galactic Aspirant's Choker
+						honor(525, i(255334)),	-- Galactic Aspirant's Necklace
+						honor(525, i(255336)),	-- Galactic Aspirant's Pendant
 					}),
 					filter(PLATE, {
-						honor(875, i(230290)),	-- Galactic Aspirant's Chestplate
-						honor(525, i(230349)),	-- Galactic Aspirant's Plate Armguards
-						honor(875, i(230322)),	-- Galactic Aspirant's Plate Armor
-						honor(525, i(230317)),	-- Galactic Aspirant's Plate Cuffs
-						honor(700, i(230298)),	-- Galactic Aspirant's Plate Gauntlets
-						honor(700, i(230312)),	-- Galactic Aspirant's Plate Girdle
-						honor(700, i(230344)),	-- Galactic Aspirant's Plate Greatbelt
-						honor(700, i(230330)),	-- Galactic Aspirant's Plate Handguards
-						honor(875, i(230320)),	-- Galactic Aspirant's Plate Headguard
-						honor(875, i(230288)),	-- Galactic Aspirant's Plate Helm
-						honor(875, i(230304)),	-- Galactic Aspirant's Plate Legguards
-						honor(700, i(230341)),	-- Galactic Aspirant's Plate Pauldrons
-						honor(700, i(230309)),	-- Galactic Aspirant's Plate Shoulders
-						honor(700, i(230325)),	-- Galactic Aspirant's Plate Stompers
-						honor(700, i(230293)),	-- Galactic Aspirant's Plate Warboots
-						honor(875, i(230336)),	-- Galactic Aspirant's Plate Wargreaves
+						honor(875, i(255264)),	-- Galactic Aspirant's Chestplate
+						honor(525, i(255323)),	-- Galactic Aspirant's Plate Armguards
+						honor(875, i(255296)),	-- Galactic Aspirant's Plate Armor
+						honor(525, i(255291)),	-- Galactic Aspirant's Plate Cuffs
+						honor(700, i(255272)),	-- Galactic Aspirant's Plate Gauntlets
+						honor(700, i(255286)),	-- Galactic Aspirant's Plate Girdle
+						honor(700, i(255318)),	-- Galactic Aspirant's Plate Greatbelt
+						honor(700, i(255304)),	-- Galactic Aspirant's Plate Handguards
+						honor(875, i(255294)),	-- Galactic Aspirant's Plate Headguard
+						honor(875, i(255262)),	-- Galactic Aspirant's Plate Helm
+						honor(875, i(255278)),	-- Galactic Aspirant's Plate Legguards
+						honor(700, i(255315)),	-- Galactic Aspirant's Plate Pauldrons
+						honor(700, i(255283)),	-- Galactic Aspirant's Plate Shoulders
+						honor(700, i(255299)),	-- Galactic Aspirant's Plate Stompers
+						honor(700, i(255267)),	-- Galactic Aspirant's Plate Warboots
+						honor(875, i(255310)),	-- Galactic Aspirant's Plate Wargreaves
 					}),
 					filter(TRINKET_F, {
-						honor(700, i(230352)),	-- Galactic Aspirant's Badge of Ferocity
-						honor(700, i(230355)),	-- Galactic Aspirant's Emblem
-						honor(700, i(230354)),	-- Galactic Aspirant's Insignia of Alacrity
-						honor(525, i(230353)),	-- Galactic Aspirant's Medallion
-						honor(525, i(230356)),	-- Galactic Aspirant's Sigil of Adaptation
+						honor(700, i(255326)),	-- Galactic Aspirant's Badge of Ferocity
+						honor(700, i(255329)),	-- Galactic Aspirant's Emblem
+						honor(700, i(255328)),	-- Galactic Aspirant's Insignia of Alacrity
+						honor(525, i(255327)),	-- Galactic Aspirant's Medallion
+						honor(525, i(255330)),	-- Galactic Aspirant's Sigil of Adaptation
 					}),
 					n(WEAPONS, {
-						honor(875, i(230367)),	-- Galactic Aspirant's Battleaxe
-						honor(525, i(230373)),	-- Galactic Aspirant's Censer
-						honor(875, i(230381)),	-- Galactic Aspirant's Chopper
-						honor(875, i(230368)),	-- Galactic Aspirant's Dagger
-						honor(1750, i(230372)),	-- Galactic Aspirant's Greatsword
-						honor(1750, i(230378)),	-- Galactic Aspirant's Halberd
+						honor(875, i(255341)),	-- Galactic Aspirant's Battleaxe
+						honor(525, i(255347)),	-- Galactic Aspirant's Censer
+						honor(875, i(255355)),	-- Galactic Aspirant's Chopper
+						honor(875, i(255342)),	-- Galactic Aspirant's Dagger
+						honor(1750, i(255346)),	-- Galactic Aspirant's Greatsword
+						honor(1750, i(255352)),	-- Galactic Aspirant's Halberd
 						--honor(875, i(229508)),	-- Galactic Aspirant's Hammer // Bad itemid
-						honor(1225, i(230380)),	-- Galactic Aspirant's Knife
-						honor(875, i(230369)),	-- Galactic Aspirant's Mace
-						honor(875, i(230379)),	-- Galactic Aspirant's Morningstar
-						honor(1750, i(230370)),	-- Galactic Aspirant's Polearm
-						honor(1750, i(230377)),	-- Galactic Aspirant's Rifle
-						honor(1225, i(230375)),	-- Galactic Aspirant's Scepter
-						honor(525, i(230376)),	-- Galactic Aspirant's Shield
-						honor(1750, i(230371)),	-- Galactic Aspirant's Staff
-						honor(1225, i(230382)),	-- Galactic Aspirant's Wand
-						honor(875, i(230374)),	-- Galactic Aspirant's Warglaive
+						honor(1225, i(255354)),	-- Galactic Aspirant's Knife
+						honor(875, i(255343)),	-- Galactic Aspirant's Mace
+						honor(875, i(255353)),	-- Galactic Aspirant's Morningstar
+						honor(1750, i(255344)),	-- Galactic Aspirant's Polearm
+						honor(1750, i(255351)),	-- Galactic Aspirant's Rifle
+						honor(1225, i(255349)),	-- Galactic Aspirant's Scepter
+						honor(525, i(255350)),	-- Galactic Aspirant's Shield
+						honor(1750, i(255345)),	-- Galactic Aspirant's Staff
+						honor(1225, i(255356)),	-- Galactic Aspirant's Wand
+						honor(875, i(255348)),	-- Galactic Aspirant's Warglaive
 					}),
 				},
 			})

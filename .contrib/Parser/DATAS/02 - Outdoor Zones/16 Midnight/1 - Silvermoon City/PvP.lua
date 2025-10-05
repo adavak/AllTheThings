@@ -23,9 +23,9 @@
 						filter(RECIPES, {
 							i(256719),	-- Design: Midnight Competitor's Amulet
 							i(256702),	-- Design: Midnight Competitor's Signet
-					--		i(225680),	-- Design: Cognitive Bloodstone (RECIPE!)
-					--		i(225681),	-- Design: Determined Bloodstone (RECIPE!)
-					--		i(225679),	-- Design: Enduring Bloodstone (RECIPE!)
+							i(256712),	-- Design: Cognitive Heliotrope
+							i(256706),	-- Design: Determined Heliotrope
+							i(256710),	-- Design: Enduring Heliotrope
 							i(256633),	-- Pattern: Thalassian Competitor's Chain Stompers
 							i(256634),	-- Pattern: Thalassian Competitor's Chain Chainvest
 							i(256641),	-- Pattern: Thalassian Competitor's Chain Leggings
