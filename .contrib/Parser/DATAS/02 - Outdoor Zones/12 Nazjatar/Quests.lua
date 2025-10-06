@@ -920,14 +920,17 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		q(57247,{	-- Fathom Ray Wing [A]
 			["providers"] = {
-				{ "i", 170176 },	-- Fathom Ray Wing
 				{ "n", 150202 },	-- Hunter Akana
+				{ "i", 170176 },	-- Fathom Ray Wing
 			},
 			["races"] = ALLIANCE_ONLY,
 			["repeatable"] = true,
 		}),
 		q(56972,{	-- Fathom Ray Wing [H]
-			["provider"] = { "i", 170176 },	-- Fathom Ray Wing
+			["providers"] = {
+				{ "n", 149904 },	-- Neri Sharpfin
+				{ "i", 170176 },	-- Fathom Ray Wing
+			},
 			["races"] = HORDE_ONLY,
 			["repeatable"] = true,
 		}),

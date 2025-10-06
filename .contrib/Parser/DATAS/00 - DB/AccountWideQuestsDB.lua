@@ -1973,6 +1973,7 @@ ExportDB.AccountWideQuestsDB = {
 	[90685] = true,	-- Weekly reputation: Ixthar the Unblinking
 	[90693] = true,	-- Weekly reputation: Purple Peat
 	[90695] = true,	-- Weekly reputation: Xy'vox the Twisted
+	[90697] = true,	-- Weekly reputation: "Arcana-Monger So'zer"
 	[90699] = true,	-- Weekly reputation: Grubber
 	[90701] = true,	-- Cowardly Cheery Bombs
 	[90719] = true,	-- Borrowing Corruption

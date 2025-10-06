@@ -2524,7 +2524,6 @@ root(ROOTS.Unsorted, {
 			i(164745),	-- Pile of Weapons
 			i(164912),	-- Azerite Ordnance
 			i(164930),	-- Ranger's Arrow
-			i(164946),	-- Fragments of Shattered Armor
 			i(164991),	-- Evenshade's Note
 			i(165229),	-- Dwarven Stout
 			i(165351),	-- 8.1 Warfronts - Darkshore - Kaldorei Archer Arrow
