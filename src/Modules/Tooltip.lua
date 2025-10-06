@@ -438,7 +438,7 @@ tooltipFunction = function(self, locClass, engClass, locRace, engRace, gender, n
 end
 for i,guid in ipairs({
 	-- Boomps characters
-	"Player-4372-000A8B35",	-- boomps
+	"Player-4385-05EEB94D",	-- boomps
 	"Player-4372-03A8F6D5",	-- boompsies
 	"Player-4372-01101CF9",	-- clothboy
 	"Player-4372-0101476E",	-- handydandy
@@ -451,9 +451,10 @@ for i,guid in ipairs({
 	"Player-4372-02E4EC05",	-- pharika
 	"Player-4372-02FD0FF7",	-- siguiente
 	"Player-4372-0378220F",	-- boompsie
-	"Player-4372-032CAB69",	-- kuchiki
+	"Player-4385-05EEB984",	-- kuchiki
 	"Player-4372-03BD6D65",	-- notebooks
 	"Player-4372-03C31D09",	-- boompie
+	"Player-4385-05ED7D13",	-- Sidetable
 }) do
 	PLAYER_TOOLTIPS[guid] = tooltipFunction;
 end
