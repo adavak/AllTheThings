@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						i(188524),	-- Cosmic Gladiator's Fastidious Resolve
 						i(188766),	-- Cosmic Gladiator's Resonator
 						-- #if BEFORE DF
-						currency(1792),	-- Honor
+						currency(HONOR),	-- Honor
 						-- #endif
 					},
 				}),

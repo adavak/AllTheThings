@@ -172,7 +172,7 @@ root(ROOTS.PetBattles, petbattle({
 			["timeline"] = { ADDED_5_1_0 },
 		}),
 		ach(12927, {	-- Polished Pet Charmer
-			["cost"] = {{"c", POLISHED_PET_CHARM, 500}},
+			["cost"] = {{"i", POLISHED_PET_CHARM, 500}},
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
 		}),
 		ach(6578),	-- Pro Pet Group (15)
@@ -187,7 +187,7 @@ root(ROOTS.PetBattles, petbattle({
 		ach(6580),	-- Rookie Pet Crew (30)
 		ach(6583),	-- Rookie Pet Mob (75)
 		ach(9712, {	-- Shiny Pet Charmer
-			["cost"] = {{"c", 116415, 500 }},	-- 500x Shiny Pet Charms
+			["cost"] = {{"i", 116415, 500 }},	-- 500x Shiny Pet Charms
 			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_10_2_5 },
 		}),
 		ach(6851, {	-- Take 'Em All On!
@@ -267,7 +267,7 @@ root(ROOTS.PetBattles, petbattle({
 		ach(5876, bubbleDownSelf({ ["timeline"] = { ADDED_4_2_0 } }, {	-- Petting Zoo (100)
 			i(71140),	-- Nuts (PET!)
 		})),
-		
+
 	})),
 	n(ACHIEVEMENTS, {
 		applyclassicphase(WRATH_PHASE_ONE, ach(2516, bubbleDownSelf({	-- Lil' Game Hunter (75)
