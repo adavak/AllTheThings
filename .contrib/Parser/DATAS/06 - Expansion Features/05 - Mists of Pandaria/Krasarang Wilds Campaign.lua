@@ -984,6 +984,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						["coord"] = { 9.62, 51.2, KRASARANG_WILDS },
 						["minReputation"] = { FACTION_DOMINANCE_OFFENSIVE, FRIENDLY+4900 },
 					}),
+					q(32139, {	-- Stacked!
+						["sourceQuests"] = { 32138 },	-- Work Order: Lumber
+						["qg"] = 67534,	-- Zino "The Shredder" Quickchop
+						["isDaily"] = true,
+					}),
 					q(32118, {	-- Taking Advantage
 						["sourceQuests"] = { 32449 },	-- The Ruins of Ogudei
 						["qg"] = 67847,	-- Belloc Brightblade
@@ -1177,6 +1182,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						["coord"] = { 12.9, 53.4, KRASARANG_WILDS },
 						["isDaily"] = true,
 					}),
+					q(32138, {	-- Work Order: Lumber
+						["sourceQuests"] = { 32108 },	-- Domination Point
+						["qg"] = 67535,	-- Boss-Lady Trixel
+						["coord"] = { 12.9, 53.4, KRASARANG_WILDS },
+						["isDaily"] = true,
+					}),
 					q(32140, {	-- Work Order: Iron
 						["sourceQuests"] = { 32108 },	-- Domination Point
 						["qg"] = 67535,	-- Boss-Lady Trixel
@@ -1333,6 +1344,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, applyclassicphase(MOP_P
 	m(KRASARANG_WILDS, {
 		faction(FACTION_DOMINANCE_OFFENSIVE, {
 			n(QUESTS, {
+				-- Wouter NOTE: making this Classic only since it was added to NYI list in Retail
+				-- #if ANYCLASSIC
+				q(32306),	-- Lumber Collection Tracking - triggered during Work Order: Lumber
+				-- #endif
 				q(32361),	-- triggered after turning in #32352, "A Gathering Storm," part of the Dominance Offensive campaign
 				q(32364),	-- triggered after turning in #32448, "Ties with the Past," part of the Dominance Offensive campaign
 				q(32437),	-- Tracking Event: Saw Sarannha 1 - triggered at the end of "The Divine Bell," part of the Dominance Offensive campaign

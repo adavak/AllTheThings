@@ -1070,10 +1070,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-					q(32139, {	-- Stacked!
-						["races"] = HORDE_ONLY,
-						["isDaily"] = true,
-					}),
 					q(32221, {	-- Storming the Beach
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -1099,10 +1095,6 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(32223, {	-- Wanted: Lieutenant Ethan Jacobson
-						["races"] = HORDE_ONLY,
-						["isDaily"] = true,
-					}),
-					q(32138, {	-- Work Order: Lumber
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
