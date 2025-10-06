@@ -155,10 +155,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = HORDE_ONLY,
 					}),
 					q(51803, {	-- The Kul Tiras Campaign
-					--	["sourceQuests"] = { 51770 },	-- Mission from the Warchief -- NOTE: this SQ is not needed as of 31.December.2019
 						["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 						["coord"] = { 58.4, 62.6, ZULDAZAR },
 						["races"] = HORDE_ONLY,
+					--	["sourceQuests"] = { 51770 },	-- Mission from the Warchief -- NOTE: this SQ is not needed as of 31.December.2019
 					}),
 					q(53050, {	-- Deeper Into Kul Tiras
 						["description"] = "Automatically starts when you finish your first Foothold in Kul Tiras.",
@@ -565,11 +565,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						q(53065, {	-- Operation: Grave Digger
 							["description"] = "Relog (outside of Dazar'alor) if this doesn't appear upon hitting the reputation requirement",
 							["sourceQuests"] = { 51601 },	-- The Bridgeport Ride
-							-- ["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 							["minReputation"] = { FACTION_THE_HONORBOUND, FRIENDLY+4500 },
 							["races"] = HORDE_ONLY,
 							["isBreadcrumb"] = true,
 							["DisablePartySync"] = true,
+							-- ["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 						}),
 						q(51784, {	-- A Stroll Through a Cemetery
 							["sourceQuests"] = {
@@ -1754,13 +1754,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							55782,	-- Stay of Execution (Sylvanas Version)
 						},
 						["altQuests"] = { 57095 },	-- Old Soldier
-					--	["provider"] = { "n", 155789 },	-- Lor'themar Theron
-					--	["coord"] = { 34.9, 60.1, 1535 },
 						["maps"] = {
 							1534,	-- Orgrimmar (Scenario)
 							1535,	-- Durotar (Scenario)
 						},
 						["races"] = HORDE_ONLY,
+					--	["provider"] = { "n", 155789 },	-- Lor'themar Theron
+					--	["coord"] = { 34.9, 60.1, 1535 },
 					}),
 					]]--
 				})),

@@ -166,10 +166,10 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		}),
 		n(QUESTS, {
 			q(79200, {	-- Who am I?
-				--["sourceQuests"] = { xx },	-- probably some hqt or something like from adventure mode (if they didn't change requirement?)
 				["provider"] = { "n", 221839 },	-- Dawn
 				["coord"] = { 89.4, 48.0, 2322 },
 				["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
+				--["sourceQuests"] = { xx },	-- probably some hqt or something like from adventure mode (if they didn't change requirement?)
 			}),
 			q(79201, {	-- The Analysis Interface (non-Hunter)
 				["sourceQuests"] = { 79200 },	-- Who am I?

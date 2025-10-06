@@ -2568,9 +2568,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						q(56256, {	-- The Battle for Alterac (A)
 							["qg"] = 154478,	-- Prospector Stonehewer
-						--	["coord"] = { , ALTERAC_VALLEY },
 							["races"] = ALLIANCE_ONLY,
 							["isWeekly"] = true,
+						--	["coord"] = { , ALTERAC_VALLEY },
 						}),
 						q(56257, {	-- The Battle for Alterac (H)
 							["qg"] = 154473,	-- Voggah Deathgrip

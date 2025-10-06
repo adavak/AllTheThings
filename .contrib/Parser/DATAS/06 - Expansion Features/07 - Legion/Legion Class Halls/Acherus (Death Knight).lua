@@ -437,9 +437,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42818, {	-- The Scarlet Assault
 						["sourceQuest"] = 43899, -- Steeds of the Damned
-						-- ["sourceQuest"] = 43572, -- Darkheart Thicket: The Nightmare Lash
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
+						-- ["sourceQuest"] = 43572, -- Darkheart Thicket: The Nightmare Lash
 					}),
 					q(42821, {	-- Raising an Army
 						["sourceQuest"] = 42818, -- The Scarlet Assault
@@ -581,10 +581,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- 7.2.0
 					q(45240, {	-- Making Preparations
-						--["sourceQuest"] = 47137, -- Champions of Legionfall (must be in log)
 						["provider"] = { "n", 113695 },	-- Highlord Darion Mograine
 						["coord"] = { 27.0, 28.9, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 823 },	-- Pit of Saron (Scenario Map)
+						--["sourceQuest"] = 47137, -- Champions of Legionfall (must be in log)
 					}),
 					q(45398, {	-- Harnessing Power
 						["sourceQuest"] = 45240, -- Making Preparations
@@ -649,9 +649,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(46719, {	-- Amal'thazad's Message
-						-- ["sourceQuests"] = { 46251 },	-- Shard Times
 						["provider"] = { "n", 117573 },	-- Dread Commander Thalanor
 						["coord"] = { 43.4, 62.7, BROKEN_SHORE },
+						-- ["sourceQuests"] = { 46251 },	-- Shard Times
 					}),
 					q(46720, {	-- Frozen Memories
 						["sourceQuest"] = 46719, -- Amal'thazad's Message

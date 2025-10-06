@@ -850,6 +850,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					})),
 					-- Side Quest
 					q(47591, {	-- Wanna Buy a Lamp?
+						["provider"] = { "n", 103792 },	-- Griftah
+						["coord"] = { 45.4, 27.6, THE_HALL_OF_SHADOWS },
+						["timeline"] = { ADDED_7_2_5 },
 						-- TODO: Determine actual sourceQuests 3 Retail-Errors reports with these not being completed
 						-- ["sourceQuests"] = {
 						-- 	42504,	-- The Unseen Blade (A)
@@ -857,9 +860,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						-- 	40849,	-- The Dreadblades
 						-- 	41924,	-- Fangs of the Devourer
 						-- },
-						["provider"] = { "n", 103792 },	-- Griftah
-						["coord"] = { 45.4, 27.6, THE_HALL_OF_SHADOWS },
-						["timeline"] = { ADDED_7_2_5 },
 					}),
 					q(47592, {	-- Shine Bright Like a Diamond
 						["sourceQuest"] = 47591,	-- Wanna Buy a Lamp?

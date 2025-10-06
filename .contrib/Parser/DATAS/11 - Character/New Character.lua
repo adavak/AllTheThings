@@ -1417,10 +1417,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				}),
 				q(76430, {	-- Beingning Impositions (H)
 					["provider"] = { "n", 207051 },	-- Assistant Phineas
-					-- ["coord"] = { X, Y, ORGRIMMAR },
 					["timeline"] = { ADDED_10_1_5 },
 					["races"] = HORDE_ONLY,
 					["classes"] = { WARLOCK },
+					-- ["coord"] = { X, Y, ORGRIMMAR },
 				}),
 				q(76410, {	-- A Dark Summons (A)
 					["provider"] = { "i", 208226 },	-- Mysterious Letter (QI!)

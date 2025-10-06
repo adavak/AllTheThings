@@ -511,9 +511,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					--
 
 					q(45343, {	-- A Curious Contagion
-						--["sourceQuests"] = { 47137 },
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
 						["coord"] = { 51.0, 48.4, NETHERLIGHT_TEMPLE },
+						--["sourceQuests"] = { 47137 },
 					}),
 					q(45344, {	-- Sampling the Source
 						["sourceQuests"] = { 45343 },	-- A Curious Contagion
@@ -697,8 +697,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(46788, {	-- Further Advancement
-						--["sourceQuests"] = { 46034, },	-- Champion: Aelthalyste
 						["provider"] = { "n", 109776 },	-- Moira Thaurissan <Queen of the Dark Iron>
+						--["sourceQuests"] = { 46034, },	-- Champion: Aelthalyste
 					}),
 					q(46153, {	-- Furthering Knowledge
 						["u"] = REMOVED_FROM_GAME,

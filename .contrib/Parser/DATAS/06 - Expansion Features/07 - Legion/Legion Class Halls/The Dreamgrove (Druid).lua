@@ -764,10 +764,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
 					}),
 					q(44232, {	-- The Grove Provides
-					--	this is now available to level 45 characters (was previously 110). unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
-					--	["sourceQuests"] = { },	--
 						["provider"] = { "n", 112323 },	-- Amurra Thistledew
 						["coord"] = { 40.0, 24.8, THE_DREAMGROVE },
+					--	this is now available to level 45 characters (was previously 110). unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
+					--	["sourceQuests"] = { },	--
 						["groups"] = {
 							i(139726),	-- Hood of the Dreamgrove
 						},

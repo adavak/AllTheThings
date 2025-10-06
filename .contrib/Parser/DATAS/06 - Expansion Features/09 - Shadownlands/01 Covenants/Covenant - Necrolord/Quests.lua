@@ -985,19 +985,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(62864, {	-- Return Lost Souls (10 soul version)
 				["description"] = "Requires Renown 15.",
-				-- ["sourceQuests"] = {  },	-- TODO
 				["provider"] = { "n", 167748 },	-- Osbourne Black <Soul Warden>
 				["coord"] = { 46.5, 42.2, SEAT_OF_THE_PRIMUS },
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_5 },
 				["isWeekly"] = true,
+				-- ["sourceQuests"] = {  },	-- TODO
 			}),
 			q(62865, {	-- Return Lost Souls (15 soul version)
 				["description"] = "Requires Renown 24.",
-				-- ["sourceQuests"] = {  },	-- TODO
 				["provider"] = { "n", 167748 },	-- Osbourne Black <Soul Warden>
 				["coord"] = { 46.5, 42.2, SEAT_OF_THE_PRIMUS },
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_5 },
 				["isWeekly"] = true,
+				-- ["sourceQuests"] = {  },	-- TODO
 			}),
 			q(62866, {	-- Return Lost Souls (20 soul version)
 				["description"] = "Requires Renown 32.",

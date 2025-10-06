@@ -431,16 +431,16 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		q(91613, {	-- Infinite Research Promotion: Timely Assistant
 			["description"] = "Quest pops-up after you complete 5 'Infinite Research' quests.",
-			--["sourceQuest"] = ??,
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			--["sourceQuest"] = ??,
 		}),
 		q(92855, {	-- Make Haste, Not Waste
 			["description"] = "Grants a random ring, necklace, or trinket.",
-			--["sourceQuest"] = ??,
 			["qg"] = 241189,	-- Lidamorrutu
 			["coord"] = { 45.9, 68.0, BROKEN_ISLES },
 			["isDaily"] = true,
+			--["sourceQuest"] = ??,
 		}),
 		q(93112, {	-- Infinite Research: Special Assignment, Fel Skies
 			["qg"] = 241748,	-- Eternus

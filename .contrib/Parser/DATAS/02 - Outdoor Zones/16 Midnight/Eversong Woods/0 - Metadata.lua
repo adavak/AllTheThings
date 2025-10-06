@@ -6,4 +6,3 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	m(EVERSONG_WOODS_MID, {
 	}),
 }));
-
