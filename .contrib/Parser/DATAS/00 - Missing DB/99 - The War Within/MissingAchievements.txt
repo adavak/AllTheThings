@@ -1,5 +1,4 @@
 12.0.0.63534
-ach(40887),	-- Fox Friends
 ach(41287),	-- Windrunner Spire
 ach(41288),	-- Heroic: Windrunner Spire
 ach(41291),	-- Mythic: Windrunner Spire
@@ -77,7 +76,6 @@ ach(61453),	-- Making an Amani Out of You
 ach(61454),	-- Falling Between The Quacks
 ach(61455),	-- Shadowpine Scattered
 ach(61456),	-- Die in Lordaeron or Undercity
-ach(61467),	-- Lorewalking: Elves
 ach(61487),	-- Chimaerus, the Undreamt God
 ach(61488),	-- Heroic: Chimaerus, the Undreamt God
 ach(61489),	-- Mythic: Chimaerus, the Undreamt God

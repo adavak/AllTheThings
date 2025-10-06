@@ -795,7 +795,9 @@ root(ROOTS.Zones, {
 						["qg"] = 28376,	-- Dorian Drakestalker
 						["coord"] = { 42.3, 28.7, SHOLAZAR_BASIN },
 						["groups"] = {
-							ach(938),	-- The Snows of Northrend
+							ach(938, {	-- The Snows of Northrend
+								--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Nesingwary Shoveltusk Trophy (DECOR!)
+							}),
 							i(39487),	-- Dragon Slayer's Shortbow
 							i(39486),	-- Hemet's Trophy Gun
 							i(39488),	-- Nesingwary Brush Burner

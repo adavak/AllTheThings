@@ -29,6 +29,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						5231,	-- Double Jeopardy (A)
 						5552,	-- Double Jeopardy (H)
 					}},
+					--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Iron Dragonmaw Gate (DECOR!)
 				}),
 				ach(5208, {	-- Twin Peaking
 					["rank"] = 1,

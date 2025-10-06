@@ -16,7 +16,10 @@ root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 		ach(61317),	-- Domicile Designer				(450)
 		ach(61318, {	-- Fully Furnished				(500)
 			title(657),	-- %s the Furnished
-		}),	
+		}),
+		ach(40887, {	-- Fox Friends
+			--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Coffee Press (DECOR!)
+		}),
 		ach(61211, {	-- Welcome Home
 			["description"] = "Build your own home through Housing",
 		}),

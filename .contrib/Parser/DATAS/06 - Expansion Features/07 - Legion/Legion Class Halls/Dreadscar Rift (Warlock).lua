@@ -11,23 +11,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					ach(42297, {	-- Hidden Potential of the Netherlord
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
-							-- i(xxxxxx),	-- Replica Felblood Altar
+							i(248940, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Felblood Altar (DECOR!)
 						},
 					}),
 					ach(60972, {	-- Legendary Research of the Black Harvest
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
-							-- i(xxxxxx),	-- Replica Tome of Blighted Implements
+							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Tome of Blighted Implements (DECOR!)
 						},
 					}),
 					ach(60991, {	-- So Many Missions for the Dreadscar Rift
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
+							i(248941, {["timeline"] = { ADDED_12_0_0 }}),	-- Dreadscar Battle Planning Map (DECOR!)
 						},
 					}),
 					ach(42281, {	-- The Netherlord's Campaign
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
+							i(248960, {["timeline"] = { ADDED_12_0_0 }}),	-- Dreadscar Dais (DECOR!)
 						},
 					}),
 				}),

@@ -749,7 +749,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					ach(41711),	-- Conveyor Slayer
 				}),
 				BossOnly(BANDIT, {
-					ach(41119),	-- One Rank Higher
+					ach(41119, {	-- One Rank Higher
+						--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Gallagio L.U.C.K. Spinner (DECOR!)
+					}),
 					ach(41120),	-- Two Ranks Higher
 					ach(41121),	-- Three Ranks Higher
 					ach(41122, {	-- Best In Class

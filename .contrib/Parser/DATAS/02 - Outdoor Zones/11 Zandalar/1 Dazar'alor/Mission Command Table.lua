@@ -16,12 +16,15 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			["groups"] = {
 				ach(12869, {	-- Azeroth at War: After Lordaron
 					["_doautomation"] = true,
+					--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Lordaeron Banded Crate (DECOR!)
 				}),
 				ach(12870, {	-- Azeroth at War: Kalimdor on Fire
 					["_doautomation"] = true,
+					--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Lordaeron Spiked Weapon Rack (DECOR!)
 				}),
 				ach(12867, {	-- Azeroth at War: The Barrens
 					["_doautomation"] = true,
+					--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Lordaeron Banded Barrel (DECOR!)
 				}),
 				i(163036, {["races"]=IGNORED_VALUE}),	-- Polished Pet Charm
 				mission(2078),	-- Azeroth Bleeds

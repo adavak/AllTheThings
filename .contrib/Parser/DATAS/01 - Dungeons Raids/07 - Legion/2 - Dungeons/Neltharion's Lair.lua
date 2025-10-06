@@ -41,6 +41,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 							["provider"] = { "n", 113204 },	-- Scaly
 							["description"] = "After first boss Rokmora, before entering a barrel, use the macro: /tar Scaly and then apply a target icon to him. It sits on a Mushroom on the left river bank and while riding in the barrel, you need to throw the fish at it while riding the barrel to make it fall into the water and come along with you.",
 						}),
+						--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Tauren Jeweler's Roller (DECOR!)
 					},
 				}),
 			}),

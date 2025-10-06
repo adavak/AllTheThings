@@ -155,23 +155,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					ach(42298, {	-- Hidden Potential of the Battlelord
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
-							-- i(xxxxxx),	-- Replica Forge of Odyn
+							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Forge of Odyn (DECOR!)
 						},
 					}),
 					ach(60973, {	-- Legendary Research of the Valarjar
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
-							-- i(xxxxxx),	-- (no decor reward)
+							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- (no decor reward) (DECOR!)
 						},
 					}),
 					ach(60992, {	-- So Many Missions for Skyhold
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
+							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Skyhold War Table (DECOR!)
 						},
 					}),
 					ach(42282, {	-- The Battlelord's Campaign
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
+							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Valarjar Shield Wall (DECOR!)
 						},
 					}),
 				}),

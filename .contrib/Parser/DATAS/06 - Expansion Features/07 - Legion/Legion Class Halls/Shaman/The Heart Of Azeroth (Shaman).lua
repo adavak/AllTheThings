@@ -28,6 +28,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					ach(42280, {	-- The Farseer's Campaign
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = {
+							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Maelstrom Lava Lamp (DECOR!)
 						},
 					}),
 				}),

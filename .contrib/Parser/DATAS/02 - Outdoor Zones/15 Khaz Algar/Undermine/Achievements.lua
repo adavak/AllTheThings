@@ -235,7 +235,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["groups"] = { campsite(25) },	-- Gallagio Grand Gallery (CS!)
 			}),
 			ach(40948),	-- Nine-Tenths of the Law
-			ach(40894),	-- Sojourner of Undermine (automated)
+			ach(40894, {	-- Sojourner of Undermine (automated)
+				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Rocket-Powered Fountain (DECOR!)
+			}),
 			ach(41588, {	-- Read Between the Lines (automated)
 				i(235050),	-- Desk-In-A-Box (TOY!)
 			}),
