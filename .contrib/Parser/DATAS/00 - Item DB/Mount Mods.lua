@@ -515,7 +515,7 @@ i(238837, 86198);	-- Delver's Dirigible Schematic: Pale Paint
 ------------------
 i(235697, 82192);	-- Delver's Dirigible Schematic: Alliance Decal
 i(235694, 82117);	-- Delver's Dirigible Schematic: Blue Paint
---i(235696, xx);	-- Delver's Dirigible Schematic: Explorer Decal TODO: spellID 1248425, listed 4 questIDs
+i(235696, 82193);	-- Delver's Dirigible Schematic: Explorer Decal
 i(235688, 82174);	-- Delver's Dirigible Schematic: Fan
 i(235690, 82169);	-- Delver's Dirigible Schematic: Harpoon
 i(235698, 82194);	-- Delver's Dirigible Schematic: Horde Decal
