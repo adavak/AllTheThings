@@ -860,6 +860,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						["qg"] = 68586,	-- Grand Magister Rommath
 						["coord"] = { 54.3, 28.3, 502 },
 					}),
+					q(32134, {	-- Hard Counter
+						["sourceQuests"] = { 32108 },	-- Domination Point
+						["qg"] = 67402,	-- Zazzix "Toasty" Sparkrocket
+						["coord"] = { 79.8, 30.1, KRASARANG_WILDS },
+						["isDaily"] = true,
+					}),
 					q(32135, {	-- Hero Killer
 						["sourceQuests"] = { 32450 },	-- The Time is Now!
 						["qg"] = 67628,	-- Shademaster Kiryn
@@ -987,6 +993,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					q(32139, {	-- Stacked!
 						["sourceQuests"] = { 32138 },	-- Work Order: Lumber
 						["qg"] = 67534,	-- Zino "The Shredder" Quickchop
+						["isDaily"] = true,
+					}),
+					q(32221, {	-- Storming the Beach
+						["sourceQuests"] = { 32108 },	-- Domination Point
+						["qg"] = 67608,	-- Rivett Clutchpop
+						["coord"] = { 12.0, 53.7, KRASARANG_WILDS },
 						["isDaily"] = true,
 					}),
 					q(32118, {	-- Taking Advantage
@@ -1135,6 +1147,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						["qg"] = 68370,	-- Lor'themar Theron
 						["coord"] = { 53.8, 49.1, KUN_LAI_SUMMIT },
 					}),
+					q(32238, {	-- Universal Remote-Explode
+						["sourceQuests"] = { 32108 },	-- Domination Point
+						["qg"] = 67554,	-- Bixy Buzzsaw
+						["coord"] = { 22.2, 60.3, KRASARANG_WILDS },
+						["isDaily"] = true,
+					}),
 					q(32328, {	-- Victorious Return
 						["sourceQuests"] = { 32327 },	-- The Darnassus Mission
 						["qg"] = 68077,	-- Fanlyr Silverthorn
@@ -1154,6 +1172,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						},
 					}),
 					q(32222, {	-- Wanted: Chief Engineer Cogwrench
+						["sourceQuests"] = { 32108 },	-- Domination Point
+						["provider"] = { "o", 216322 },	-- Bounty Board
+						["coord"] = { 11.8, 54.3, KRASARANG_WILDS },
+						["isDaily"] = true,
+					}),
+					q(32223, {	-- Wanted: Lieutenant Ethan Jacobson
 						["sourceQuests"] = { 32108 },	-- Domination Point
 						["provider"] = { "o", 216322 },	-- Bounty Board
 						["coord"] = { 11.8, 54.3, KRASARANG_WILDS },
@@ -1344,10 +1368,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, applyclassicphase(MOP_P
 	m(KRASARANG_WILDS, {
 		faction(FACTION_DOMINANCE_OFFENSIVE, {
 			n(QUESTS, {
-				-- Wouter NOTE: making this Classic only since it was added to NYI list in Retail
-				-- #if ANYCLASSIC
 				q(32306),	-- Lumber Collection Tracking - triggered during Work Order: Lumber
-				-- #endif
 				q(32361),	-- triggered after turning in #32352, "A Gathering Storm," part of the Dominance Offensive campaign
 				q(32364),	-- triggered after turning in #32448, "Ties with the Past," part of the Dominance Offensive campaign
 				q(32437),	-- Tracking Event: Saw Sarannha 1 - triggered at the end of "The Divine Bell," part of the Dominance Offensive campaign
