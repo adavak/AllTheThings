@@ -281,14 +281,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	-- #endif
 	-- #if AFTER 5.4.0.17227
 	filter(COSMETIC, {	-- AVAILABLE --
-		-- Black Tropical
-		iensemble(221540, {	-- Ensemble: Black Tropical Beachwear
-			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" }, -- Removed September 15, 2025
-		}),
-		iensemble(221847, {	-- Ensemble: Black Tropical Swimwear
-			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" }, -- Removed September 15, 2025
-		}),
-
 		------ Cosmic Weapons Set ------
 		iensemble(208943, {	-- Arsenal: Cosmic Weapons Cache
 			["timeline"] = { ADDED_11_0_0 },
@@ -478,7 +470,14 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		-- #endif
 	}),
-	filter(COSMETIC, {	-- REMOVED --
+	filter(COSMETIC, bubbleDown({ ["u"] = REMOVED_FROM_GAME, }, {	-- REMOVED --
+		-- Black Tropical
+		iensemble(221540, {	-- Ensemble: Black Tropical Beachwear
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.5" }, -- Removed September 15, 2025
+		}),
+		iensemble(221847, {	-- Ensemble: Black Tropical Swimwear
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.5" }, -- Removed September 15, 2025
+		}),
 		------ Gladiator's Ragged Armor Set ------
 		iensemble(217029, {	-- Ensemble: Gladiator's Ragged Armor
 			["timeline"] = { ADDED_10_2_6, REMOVED_10_2_6 },
@@ -556,7 +555,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(231290, {	-- Reven's Comfy Carrier
 			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Removed January 7, 2025
 		}),
-	}),
+	})),
 	-- #endif
 	filter(MOUNTS, {	-- AVAILABLE --
 		-- #if ANYCLASSIC
@@ -633,9 +632,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_2_5_4_A },
 		}),
 		-- #endif
-		i(221270, {	-- Kickin' Kezan Waveshredder (MOUNT!)
-			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" }, -- Removed September 15, 2025
-		}),
 		mount(308087, {	-- Lucky Yun (MOUNT!)
 			["timeline"] = { ADDED_9_0_2 },
 		}),
@@ -770,6 +766,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(128425, {	-- Illidari Felstalker (MOUNT!)
 			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
+		}),
+		i(221270, {	-- Kickin' Kezan Waveshredder (MOUNT!)
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.5" }, -- Removed September 15, 2025
 		}),
 		i(233286, {	-- Meeksi Brewthief (MOUNT!)
 			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.60568" },	-- Removed April 28, 2025
