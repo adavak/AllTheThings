@@ -33,35 +33,43 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_1_5 },
 				["groups"] = {
-					title(209, {	-- Brawler <Name>
-						["timeline"] = { ADDED_8_1_5, REMOVED_9_1_5 },
-					}),
-				}
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			ach(13192, {	-- Brawler for Azeroth (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_1_5 },
 				["groups"] = {
-					title(209, {	-- Brawler <Name>
-						["timeline"] = { ADDED_8_1_5, REMOVED_9_1_5 },
-					}),
-				}
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			ach(7941, {		-- Brawlin' and Shot Callin' (Season 1) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				["groups"] = {
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			ach(7942, {		-- Brawlin' and Shot Callin' (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				["groups"] = {
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			ach(9170, {		-- Brawlin' and Shot Callin' (Season 2) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
+				["groups"] = {
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			ach(9174, {		-- Brawlin' and Shot Callin' (Season 2) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
+				["groups"] = {
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			applyclassicphase(MOP_PHASE_ESCALATION, ach(8339, {		-- Collect Your Deck (Season 1 & 2) (Alliance)
 				["races"] = ALLIANCE_ONLY,
@@ -141,6 +149,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			ach(11565, {	-- King of the Guild (Season 3) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1 },
+				["groups"] = {
+					title(209),	-- Brawler <Name>
+				},
 			}),
 			ach(11566, {	-- King of the Guild (Season 3) (Horde)
 				["races"] = HORDE_ONLY,
