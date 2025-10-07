@@ -983,6 +983,7 @@ _.HeaderConstants = {
 	QUESTS = -45,
 	RAIDS = -77,
 	RARES = -46,
+	REMIX_LEGION = -104,
 	REMIX_MOP = -105,
 	REWARDS = -47,
 	SCENARIO_COMPLETION = -49,
@@ -1018,7 +1019,7 @@ _.HeaderConstants = {
 	ZULAMAN_CHEST_4 = -87,
 };
 _.HeaderData = {
-	IGNOREINMINILIST = {[-478]=1,[-420]=1,[-130]=1,[-105]=1,[-77]=1,[-76]=1,[-49]=1},
+	IGNOREINMINILIST = {[-478]=1,[-420]=1,[-130]=1,[-105]=1,[-104]=1,[-77]=1,[-76]=1,[-49]=1},
 	FILLNPCS = {[-98]=1,[-95]=1,[-94]=1,[-93]=1,[-90]=1,[-63]=1,[-47]=1,[-27]=1,[-22]=1,[-19]=1},
 };
 localize(L.HEADER_NAMES, {
@@ -1114,6 +1115,7 @@ localize(L.HEADER_NAMES, {
 	[-101] = AUCTION_CATEGORY_WEAPONS,
 	[-102] = INVTYPE_WRIST,
 	[-103] = "Expansion Pre-Launch",
+	[-104] = "Remix: Legion",
 	[-105] = "WoW Remix: Mists of Pandaria",
 	[-106] = "Winds of Mysterious Fortune",
 	[-115] = "Buildings",
@@ -1587,6 +1589,7 @@ localize(L.HEADER_NAMES, {
 	[-654] = "Harvesting",
 	[-656] = "Brawler's Guild",
 	[-657] = "Krasarang Wilds Campaign",
+	[-658] = select(2,GetAchievementInfo(61406)),
 	[-659] = "Twilight Assist",
 	[-660] = "Twilight Duo",
 	[-661] = "Twilight Zone",
@@ -1651,7 +1654,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-476] = "Get swept away in the Plunderstorm— a fun, new, limited-time, pirate-themed event of prodigious proportions lasting the next several weeks. Scour the map and try to be the last pirate standing while dashing across the Arathi Highlands to find abilities, upgrades, and loot to plunder just to survive!\n\nTo Play: Login to Retail WoW and select 'Plunderstorm' from the Game Mode on the top left of your Character Select screen.",
 	[-477] = "This ingame shop menu allows you to purchase new and returning rewards in exchange for Plunder earned during the event.",
 	[-479] = "These items were obtained by characters created during the Remix Event and were automatically transferred to Retail when the event ended.",
-	[-480] = "The Infinite Bazaar has multiple locations.",
 	[-481] = "The Ruins of Ahn'Qiraj and Temple of Ahn'Qiraj were not be immediately available with the release of Phase 5. Instead, server communities had to undertake a massive war effort to open the raids by gathering supplies to prepare for the war and completing an epic questline that ultimately culminates in the banging of a gong to open the gates and release the horrors within upon the world.\n\nOnce both factions have finished their contribution, there is a 5-day grace period where. Afterwards, there is a server-wide 10 hour event which spans several zones in Kalimdor the moment someone bangs the gong.\n\nHow quickly Ahn'Qiraj opens depends on the server and its faction balance.\n\nWe recommend delaying the War Effort as long as possible to allow for the most number of people to obtain the Scarab Lord mount as everyone that finishes The Scepter of the Shifting Sands quest line will be granted the same rewards!",
 	[-482] = "The Opening of the Dark Portal was a one-time event that happened between Prepatch and the launch of TBC and subsequentially removed after. The tabard is the only tabard in the game with the Flex emote built into it and is highly covetted by collectors. Highlord Kruul would spawn randomly outside of the major cities and max level zones of the time.",
 	[-483] = "In addition to all players on a realm working towards completing the War Effort, one player had to create the Scepter of the Shifting Sands - a very difficult task that could only be solved by a server's top guild back when the questline was added. After the war effort was finished and the army of the Alliance and the Horde arrived in Silithus, the Scepter of the Shifting Sands could be used on the Scarab Gong. Doing so resulted in the opening of Ahn'Qiraj. The first player to bang the Scarab Gong on each server would be rewarded with the Scarab Lord title (in Burning Crusade, the title will not be available in Classic!) and the Black Qiraji Resonating Crystal mount. Anyone else who followed them within 10 hours was rewarded with the title as well.\n\nAlthough it is still possible to complete the questline for the Scepter of the Shifting Sands after the gates have been opened on your server, doing so will not reward neither the Black Qiraji Resonating Crystal nor the Scarab Lord title.",
@@ -1802,6 +1804,7 @@ localize(L.HEADER_ICONS, {
 	[-101] = _.asset("weapon_type_epic"),
 	[-102] = 132606,
 	[-103] = 134289,
+	[-104] = _.asset("category_remix"),
 	[-105] = _.asset("category_remix"),
 	[-106] = 6439633,
 	[-115] = 1005027,
@@ -2257,6 +2260,7 @@ localize(L.HEADER_ICONS, {
 	[-652] = 838687,
 	[-654] = 134427,
 	[-656] = 132356,
+	[-658] = 133783,
 	[-659] = 236469,
 	[-660] = 236473,
 	[-661] = 236471,
@@ -2267,6 +2271,7 @@ localize(L.HEADER_EVENTS, {
 	[-37] = 1,
 	[-38] = 258,
 	[-70] = 239,
+	[-104] = 447,
 	[-105] = 437,
 	[-106] = 450,
 	[-476] = 444,
@@ -2312,6 +2317,7 @@ localize(L.HEADER_EVENTS, {
 	[-607] = 1262,
 	[-608] = 1397,
 	[-609] = 1509,
+	[-658] = 1501,
 });
 localize(L.EVENT_REMAPPING, {
 	[141] = 14,
@@ -2393,6 +2399,11 @@ localize(L.EVENT_REMAPPING, {
 	[1634] = 444,
 	[1635] = 444,
 	[1636] = 450,
+	[1640] = 447,
+	[1641] = 447,
+	[1642] = 447,
+	[1643] = 447,
+	[1644] = 447,
 	[1666] = 239,
 	[1667] = 239,
 	[1668] = 239,
@@ -2407,13 +2418,18 @@ localize(L.EVENT_REMAPPING, {
 	[1691] = 422,
 	[1692] = 422,
 	[1693] = 422,
+	[1697] = 447,
 });
 
 localize(L.EVENT_TIMERUNNING_SEASONS, {
 	[1] = 437,
+	[2] = 447,
 });
 
 -- Programmatic Event Scheduling
+_.Modules.Events.SetEventInformation(1501, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025})
+});
 _.Modules.Events.SetEventInformation(1509, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025})
 });
@@ -2522,6 +2538,9 @@ _.Modules.Events.SetEventInformation(444, {
 });
 _.Modules.Events.SetEventInformation(437, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=16,["weekday"]=5,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=20,["weekday"]=3,["year"]=2024})
+});
+_.Modules.Events.SetEventInformation(447, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=7,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=19,["weekday"]=2,["year"]=2026})
 });
 
 -- Filter Database Module
@@ -3454,7 +3473,7 @@ _.FlightPathNames = {
 	[1761] = "Prepfoot, Highmountain",
 	[1764] = "Starsong Refuge, Val'sharah",
 	[1766] = "Garden of the Moon, Val'sharah",
-	[1767] = "Nesingwary, Highmountain",
+	[1767] = "Nesingwary's Retreat, Highmountain",
 	[1774] = "Dalaran",
 	[1777] = "Sylvan Falls, Highmountain",
 	[1778] = "Stonehoof Watch, Highmountain",
@@ -11211,9 +11230,12 @@ local ObjectNames = {
 	[527416] = "Suspicious Document",
 	[527488] = "Phantom Bloom",
 	[527489] = "Lush Phantom Bloom",
+	[527833] = "Archeology Chest",
 	[527842] = "Strange Metal Bar",
 	[528358] = "Uncharged Crystal",
 	[529289] = "Spore Sample",
+	[529396] = "Weapon Crate",
+	[529397] = "Curio Lockbox",
 	[529525] = "Light-Soaked Cleaver",
 	[529533] = "Spear of Fallen Memories",
 	[529537] = "Efrat's Forgotten Bulwark",
@@ -18616,9 +18638,12 @@ local ObjectModels = {
 	[527414] = 1664990,
 	[527415] = 5502807,
 	[527416] = 5007027,
+	[527833] = 942843,
 	[527842] = 929372,
 	[528358] = 1345286,
 	[529289] = 5201692,
+	[529396] = 1271629,
+	[529397] = 1341657,
 	[529673] = 198168,
 	[529677] = 197685,
 	[531961] = 243411,
@@ -19489,7 +19514,6 @@ L.QUEST_NAMES = {
 	[32286] = "Kill Mogu Blood-seekers (Roaming pairs, actively fighting scouts, and performing rituals on corpses)",
 	[32290] = "Unused",
 	[32291] = "[PH] The Fall of Shan Bu",
-	[32306] = "Lumber Collection Tracking",
 	[32311] = "Enlistment Orders",
 	[32312] = "Enlistment Orders",
 	[32313] = "Hunt Helheim",
