@@ -50,8 +50,5 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				["groups"] = { iensemble(257106) },	-- Ensemble: Sargerei Commander's Lightbound Regalia
 			}),
 		}),
-		--n(REWARDS, {
-		--	i(220763),	-- Bonus Experience
-		--}),
 	}),
 })));
