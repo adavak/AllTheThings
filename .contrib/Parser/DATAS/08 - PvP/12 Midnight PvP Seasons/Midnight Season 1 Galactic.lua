@@ -71,7 +71,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			-- Fashion
 		--	ach(42800),	-- Galactic Attire
 		})),
-		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
+		--[[filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
 			i(243157, {	-- Vicious Void Creeper [A] (MOUNT!)
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -79,7 +79,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				["races"] = HORDE_ONLY,
 			}),
 		})),
-		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
+		--]]n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
 			-- ToDo: Update NPC+Coords
 			n(55555, {	--  <War Mode Quartermaster>
 			--	["coord"] = { 0.0, 0.0, DORNOGAL },
@@ -686,9 +686,9 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			n(219216, {	-- Rogurn <Elite Conquest Quartermaster>
 				["coord"] = { 59.8, 69.3, DORNOGAL },
 				["groups"] = {
-					honor(100, i(232908, {	-- Galactic Gladiator's Tabard
-						["sourceAchievements"] = { 41027 },	-- Elite: Midnight Season 1
-					})),
+				--	honor(100, i(232908, {	-- Galactic Gladiator's Tabard
+				--		["sourceAchievements"] = { 41027 },	-- Elite: Midnight Season 1
+				--	})),
 					moh(5, i(248364)),	-- Galactic Gladiator's Axe
 					moh(10, i(248349)),	-- Galactic Gladiator's Battlestaff
 					moh(10, i(248356)),	-- Galactic Gladiator's Bow
