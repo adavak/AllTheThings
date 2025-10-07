@@ -1,7 +1,4 @@
 12.0.0.63534
-ach(41287),	-- Windrunner Spire
-ach(41288),	-- Heroic: Windrunner Spire
-ach(41291),	-- Mythic: Windrunner Spire
 ach(41293),	-- [PH] Restless Heart kills (Normal Windrunner Spire)
 ach(41294),	-- [PH] Restless Heart kills (Heroic Windrunner Spire)
 ach(41295),	-- [PH] Restless Heart kills (Mythic Windrunner Spire)
@@ -48,10 +45,6 @@ ach(61212),	-- Magisters' Terrace
 ach(61213),	-- Heroic: Magisters' Terrace
 ach(61214),	-- Mythic: Magisters' Terrace
 ach(61219),	-- No Time to Paws
-ach(61221),	-- Tour of Duty: Eversong Woods
-ach(61222),	-- Tour of Duty: Zul'Aman
-ach(61223),	-- Tour of Duty: Harandar
-ach(61224),	-- Tour of Duty: Voidstorm
 ach(61346),	-- We Will, In Fact, See It Again
 ach(61366),	-- Voidspire
 ach(61367),	-- March on Quel'Danas

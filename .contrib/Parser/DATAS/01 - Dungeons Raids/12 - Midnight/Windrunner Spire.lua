@@ -17,18 +17,34 @@ local BossOnly, Difficulty =
 InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
-	inst(XXXX, {	-- NAME
+	inst(XXXX, {	-- Windrunner Spire
 		["coord"] = { X, Y, MAP },
 		["timeline"] = { },
 		["maps"] = {},
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
-				BossOnly(bossConstant, {
+				e(, {	-- Restless Heart
+					["crs"] = {  },	-- 
+					["groups"] = {
+						ach(41287),	-- Windrunner Spire
+					},
 				}),
 			}),
-			Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
+			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
+				e(, {	-- Restless Heart
+					["crs"] = {  },	-- 
+					["groups"] = {
+						ach(41288),	-- Heroic: Windrunner Spire
+					},
+				}),
 			}),
-			Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
+			d(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
+				e(, {	-- Restless Heart
+					["crs"] = {  },	-- 
+					["groups"] = {
+						ach(41291),	-- Mythic: Windrunner Spire
+					},
+				}),
 			}),
 		},
 	})

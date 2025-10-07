@@ -8,6 +8,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			ach(61264),	-- Leaf None Behind
 			ach(61344),	-- Legends of the Haranir
 			ach(61263),	-- Treasures of Harandar
+			pvp(ach(61223)),	-- Tour of Duty: Harandar
 		}),
 	}),
 }));
