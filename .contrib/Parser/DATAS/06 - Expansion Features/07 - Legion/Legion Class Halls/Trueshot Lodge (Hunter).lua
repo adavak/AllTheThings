@@ -10,27 +10,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				n(ACHIEVEMENTS, {
 					ach(42290, {	-- Hidden Potential of the Huntmaster
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Altar of the Eternal Hunt (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Altar of the Eternal Hunt (DECOR!)
 					}),
 					ach(60965, {	-- Legendary Research of the Unseen Path
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Tales of the Hunt (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Tales of the Hunt (DECOR!)
 					}),
 					ach(60984, {	-- So Many Missions for the Trueshot Lodge
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Unseen Path Archer's Gallery (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Unseen Path Archer's Gallery (DECOR!)
 					}),
 					ach(42273, {	-- The Huntmaster's Campaign
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Trueshot Skeletal Dragon Trophy (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Trueshot Skeletal Dragon Trophy (DECOR!)
 					}),
 				}),
 				n(ARTIFACTS, {

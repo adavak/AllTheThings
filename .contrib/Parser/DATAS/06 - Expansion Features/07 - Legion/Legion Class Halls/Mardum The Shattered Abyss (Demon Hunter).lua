@@ -10,27 +10,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(ACHIEVEMENTS, {
 					ach(42288, {	-- Hidden Potential of the Slayer
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Cursed Forge of the Nathrezim (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Cursed Forge of the Nathrezim (DECOR!)
 					}),
 					ach(60963, {	-- Legendary Research of the Illidari
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Replica Tome of Fel Secrets (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Tome of Fel Secrets (DECOR!)
 					}),
 					ach(60982, {	-- So Many Missions for the Fel Hammer
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Fel Hammer Scouting Map (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Fel Hammer Scouting Map (DECOR!)
 					}),
 					ach(42271, {	-- The Slayer's Campaign
 						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = {
-							--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Illidari Glaiverest (DECOR!)
-						},
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Illidari Glaiverest (DECOR!)
 					}),
 				}),
 				n(FOLLOWERS, bubbleDownSelf({
