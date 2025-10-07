@@ -466,10 +466,10 @@ tooltipFunction = function(self, locClass, engClass, locRace, engRace, gender, n
 end
 for i,guid in ipairs({
 	-- Frax Characters
-	"Player-4372-016C6143",	-- Arvensus
+	"Player-4385-05EB74A3",	-- Arvensus
 	"Player-4372-02039686",	-- Branchmanagr
-	"Player-4372-012262B3",	-- Fraxinus
-	"Player-4372-013722F",	-- Fraxitaxi
+	"Player-4385-05EB7458",	-- Fraxinus
+	"Player-4385-05E6308A",	-- Fraxitaxi
 	"Player-4372-012CFF90",	-- Karagos
 	"Player-4372-013FC6C0",	-- Ränger
 }) do
