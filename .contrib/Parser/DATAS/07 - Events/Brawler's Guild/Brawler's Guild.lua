@@ -113,10 +113,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			ach(7945, {		-- Haters Gonna Hate (Season 2)
 				["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3 },
 			}),
-			ach(8335, {		-- Having a Brawl (Season 1) (Alliance)
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8335, {		-- Having a Brawl (Season 1) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
-			}),
+			})),
 			applyclassicphase(MOP_PHASE_ESCALATION, ach(8337, {		-- Having a Brawl (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
@@ -1857,7 +1857,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				},
 			})),
 			-- Season 5 through 8
-			n(115797, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Tiana Nevermorn <Gold Exchange>							
+			n(115797, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Tiana Nevermorn <Gold Exchange>
 				["maps"] = { BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
