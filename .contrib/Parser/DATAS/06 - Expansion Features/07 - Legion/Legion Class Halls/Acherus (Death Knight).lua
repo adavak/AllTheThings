@@ -157,7 +157,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 										artifact(111),	-- Blades of the Fallen Prince [Off Hand]
 									},
 								}),
-								i(127009),	-- Fragment of Frostmourne
+								o_repeated({	-- Fragment of Frostmourne
+									["coords"] = {
+										{ 51.5, 41.5, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 51.6, 49.6, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 52.5, 66.5, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 60.1, 54.7, 701 },	-- Icecrown Citadel (Scenario Map)
+									},
+									["groups"] = {
+										i(127009),	-- Fragment of Frostmourne (QI!)
+										o(251882),	-- Fragment of Frostmourne
+										o(251884),	-- Fragment of Frostmourne
+										o(251885),	-- Fragment of Frostmourne
+										o(251886),	-- Fragment of Frostmourne
+									},
+								}),
 							},
 						}),
 					}),
@@ -237,7 +251,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["description"] = "Obtainable if you attack Revil Kost",
 							["sourceQuest"] = 40986, -- The Dark Riders (Bad)
 							["provider"] = { "n", 101282 },	-- Revil Kost
-							["coord"] = { 68.4, 27.0, DEADWIND_PASS },
+							["coord"] = { 68.4, 27.0, 46 },	-- Karazhan Catacombs
 							["isBreadcrumb"] = true,
 						}),
 					}),
@@ -359,6 +373,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42533, -- The Ruined Kingdom
 						["provider"] = { "n", 107806 },	-- Prince Galen Trollbane
 						["coord"] = { 19.4, 67.3, ARATHI_HIGHLANDS },
+						["groups"] = { i(138142) },	-- Head of Ojin'ba (QI!)
 					}),
 					q(42536, {	-- Regicide
 						["sourceQuests"] = {
@@ -367,6 +382,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 108042 },	-- Thassarian
 						["coord"] = { 19.6, 67.0, ARATHI_HIGHLANDS },
+						["groups"] = { i(138148) },	-- Trol'Kalar (QI!)
 					}),
 					q(42537, {	-- The King Rises
 						["sourceQuest"] = 42536, -- Regicide

@@ -140,6 +140,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				},
 				["provider"] = { "n", 89398 },	-- Allari the Souleater
 				["coord"] = { 43.2, 43.1, AZSUNA },
+				["groups"] = { i(122100) },	-- Soul Gem (QI!)
 			}),
 			q(37736, {	-- Dressing With Class
 				["sourceQuests"] = { 37468 },	-- Into the Academy
@@ -516,6 +517,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 90474 },	-- Kor'vas Bloodthorn
 				["coord"] = { 41.2, 50.5, AZSUNA },
 				["groups"] = {
+					i(120359),	-- Lykill's Key (QI!)
 					i(132961),	-- Cape of Azure Fury
 					i(132964),	-- Stellagosa's Breath
 					i(132962),	-- The Jailer's Key

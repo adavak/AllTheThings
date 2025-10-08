@@ -2096,7 +2096,12 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
-				i(167538),	-- Unmarked Seashell (QI!)
+				o_repeated({	-- Shiny Seashell
+					i(167538),	-- Unmarked Seashell (QI!)
+					o(326066),	-- Shiny Seashell
+					o(326070),	-- Shiny Seashell
+					o(326071),	-- Shiny Seashell
+				}),
 			},
 		}),
 		q(55565, {	-- Shoring Up Mana Reserves

@@ -233,6 +233,14 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["sourceQuests"] = { 38641 },	-- The Temple of Elune
 					["provider"] = { "n", 92697 },	-- Isoraen Nightstar
 					["coord"] = { 51.4, 56.9, VALSHARAH },
+					["groups"] = {
+						o_repeated({	-- Twisted Root
+							i(128680),	-- Corrupted Root Sample (QI!)
+							o(243953),	-- Twisted Root
+							o(243953),	-- Twisted Root
+							o(243954),	-- Twisted Root
+						}),
+					},
 				}),
 				q(38662, {	-- Tears for Fears
 					["sourceQuests"] = { 38641 },	-- The Temple of Elune
@@ -497,6 +505,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
 					["coord"] = { 40.7, 53.0, VALSHARAH },
 					["groups"] = {
+						o(241639, {	-- Warden's Glaive
+							["coord"] = { 42.1, 51.5, VALSHARAH },
+							["groups"] = { i(124412) },	-- Warden's Glaive (QI!)
+						}),
 						i(129983),	-- Farseeker Drape
 						i(121602),	-- Nightvale Wristwraps
 						i(121603),	-- Rooksguard Vambraces
@@ -672,13 +684,27 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["sourceQuests"] = { 41054 },	-- Love Lost
 					["provider"] = { "n", 94863 },	-- Mender Onelle
 					["coord"] = { 69.5, 49.4, VALSHARAH },
+					["groups"] = {
+						o(248416, {	-- Shadowfen Heirlooms
+							["coords"] = {
+								{ 65.1, 51.2, VALSHARAH },
+								{ 65.5, 50.3, VALSHARAH },
+								{ 65.8, 53.8, VALSHARAH },
+								{ 65.9, 51.0, VALSHARAH },
+								{ 66.6, 50.0, VALSHARAH },
+								{ 66.8, 53.5, VALSHARAH },
+								{ 67.3, 51.5, VALSHARAH },
+								{ 67.5, 53.4, VALSHARAH },
+							},
+							["groups"] = { i(136272) },	-- Shadowfen Heirlooms (QI!)
+						}),
+					},
 				}),
 				q(41707, {	-- Wormtalon Wreckage
 					["sourceQuests"] = { 41054 },	-- Love Lost
 					["provider"] = { "n", 95117 },	-- Aldos Duskwing
 					["coord"] = { 69.5, 49.4, VALSHARAH },
 				}),
-
 				q(38889, {	-- Adopting the Adorable
 					["description"] = "You have to kill Jinikki the Puncturer to get this quest.",
 					["qg"] = 93677,	-- Shivering Ashmaw Cub
@@ -688,7 +714,6 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(128690),	-- Ashmaw Cub (PET!)
 					},
 				}),
-
 				-- APPEARANCE --
 				q(46079, {	-- Aid on the Front Lines
 					["sourceQuests"] = {

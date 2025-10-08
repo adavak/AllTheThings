@@ -132,10 +132,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 103156 },	-- Altruis the Sufferer
 							["maps"] = { 723 },	-- Violet Hold
 							["groups"] = {
-								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(251878, {	-- Twinblades of the Deceiver
+									["coord"] = { 33.0, 67.0, SURAMAR },
 									["groups"] = {
-										artifact(26),	-- Standard
+										i(127829, {	-- Twinblades of the Deceiver [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(26),	-- Standard
+											},
+										}),
 									},
 								}),
 								i(127830, {	-- Twinblades of the Deceiver [Off Hand]
@@ -205,6 +210,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["provider"] = { "n", 90417 },	-- Archmage Khadgar
 							["coord"] = { 28.5, 48.3, LEGION_DALARAN },
+							["groups"] = {
+								o(248521, {	-- Crystallized Soul
+									["coord"] = { 26.5, 45.8, LEGION_DALARAN },
+									["groups"] = { i(136385) },	-- Crystallized Soul (QI!)
+								}),
+							},
 						}),
 						q(41806, {	-- Return to Jace
 							["sourceQuests"] = { 41804 },	-- Ask and You Shall Receive
@@ -221,10 +232,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 99254 },	-- Altruis the Sufferer
 							["coord"] = { 74.9, 49.0, LEGION_DALARAN },
 							["groups"] = {
-								i(128832, {	-- Aldrachi Warblades [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(248785, {	-- Aldrachi Warblades
+									["coord"] = { 26.8, 61.5, 676 },	-- Broken Score Scenario Map
 									["groups"] = {
-										artifact(554),	-- Aldrachi Warblades [Main Hand]
+										i(128832, {	-- Aldrachi Warblades [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(554),	-- Aldrachi Warblades [Main Hand]
+											},
+										}),
 									},
 								}),
 								i(128831, {	-- Aldrachi Warblades [Off Hand]
