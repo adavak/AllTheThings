@@ -219,7 +219,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(86633, {	-- Comprehend the Void
-						["sourceQuests"] = { ?? },	-- ??
+						["sourceQuests"] = { 86634 },	-- The Past Keeps Watch
 						["provider"] = { "n", 236363 },	-- Magister Umbric
 						["coord"] = { 37.0, 74.0, EVERSONG_WOODS_MID },
 						["groups"] = {
@@ -390,6 +390,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 				}),
 			}),
+			--TODO: Sojourner of Eversong Woods missing (or not visible to client side) in 63534 build
+			--header(HEADERS.Achievement, xx, {	-- Sojourner of Eversong Woods
+				--header(HEADERS.AchiCriteria, xx.xx, {	-- ?
+					--q(xx, {	-- xx
+					--	["sourceQuests"] = { xx },	-- xx
+					--	["provider"] = { "n", XX },	-- XX
+					--	["coord"] = { 45.4, 70.3, EVERSONG_WOODS_MID },
+					--	["groups"] = {
+					--	},
+					--}),
+				--}),
+			--}),
 		}),
 	}),
 }));
