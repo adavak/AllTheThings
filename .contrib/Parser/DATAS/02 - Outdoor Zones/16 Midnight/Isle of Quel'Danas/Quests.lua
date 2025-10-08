@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			q(88719, {	-- A Voice from the Light
 				["sourceQuests"] = { 91281 },	-- Midnight
 				["provider"] = { "n", 241677 },	-- Image of Lady Liadrin
-				["coord"] = { 53.3, 54.3, STORMIND_CITY },	-- TODO: horde version?
+				["coord"] = { 53.3, 54.3, STORMWIND_CITY },	-- TODO: horde version?
 				["groups"] = {
 					i(239151),	-- Light's Summon (QI!)
 				},
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["provider"] = { "n", 236964 },	-- Arator
 				["coord"] = { 41.4, 39.1, ISLE_OF_QUELDANAS_MID_i },
 				["groups"] = {
-					i(),	-- ??
+					-- i(),	-- ??
 				},
 			}),
 			q(86834, {	-- Voidborn Banishing

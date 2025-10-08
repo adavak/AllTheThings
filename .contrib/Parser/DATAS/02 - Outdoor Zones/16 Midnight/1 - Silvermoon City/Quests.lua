@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(EVERSONG_WOODS_MID, {
 		n(QUESTS, {
-			header(HEADERS.Achievement, ??, {	-- 
+			header(HEADERS.AchCriteria, 41802.01, {	-- Whispers in the Twillight
 				q(86735, {	-- Paved in Ash
 					["sourceQuests"] = { 86734 },	-- Diplomacy
 					["provider"] = { "n", 235787 },	-- Lor'themar Theron

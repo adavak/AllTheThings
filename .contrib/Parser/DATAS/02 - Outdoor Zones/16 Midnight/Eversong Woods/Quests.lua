@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					------ Stay awhile and listen ------
 					hqt(91078, {	-- Stay awhile and listen: Orweyna 
-						["name"] = "Stay awhile and listen: Orweyna 
+						["name"] = "Stay awhile and listen: Orweyna",
 						["description"] = "Dialogue becomes available during 'The Wayward Magister' (86621).",
 						["sourceQuests"] = { 86745 },	-- Silvermoon Must Know
 						["provider"] = { "n", 236903 },	-- Orweyna 

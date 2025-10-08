@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(SILVERMOON_CITY_MID, {
 		n(TREASURES, {
-			o(xx, {	-- Unfinished Sheet Music
+			o(613887, {	-- Unfinished Sheet Music
 				["coord"] = { 38.1, 77.0, SILVERMOON_CITY_MID },
 				["questID"] = 93570,
 			}),
