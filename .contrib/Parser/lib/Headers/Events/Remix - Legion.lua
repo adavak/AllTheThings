@@ -12,6 +12,7 @@ REMIX_LEGION = createHeader({
 	timerunningSeasonID = 2,
 	text = {
 		en = "Remix: Legion",
+		ko = "군단 리믹스",
 		cn = "军团再临：幻境新生",
 		tw = "軍​​臨​​天下：​​混​搭​再​​造​",
 	},

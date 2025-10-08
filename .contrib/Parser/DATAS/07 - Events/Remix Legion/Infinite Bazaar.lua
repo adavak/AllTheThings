@@ -7,7 +7,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(INFINITE_BAZAAR, {
 		["coord"] = { 45.7, 68.1, BROKEN_ISLES },
 		["groups"] = {
-			n(241145, {	-- Aeonicus <Raid Finder Apparel>
+			--[[n(241145, {	-- Aeonicus <Raid Finder Apparel>
 				["coord"] = { 45.4, 68.0, BROKEN_ISLES },
 				["groups"] = bubbleDownFiltered({
 					["cost"] = {{ "c", BRONZE, 20000 }},
@@ -111,7 +111,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						iensemble(241597),	-- Ensemble: Funerary Plate of the Chosen Dead
 					}),
 				}),
-			}),
+			}),--]]
 			n(241184, {	-- Agos the Silent <Lost and Found Apparel>
 				["coord"] = { 45.5, 67.7, BROKEN_ISLES },
 				["groups"] = bubbleDownFiltered({
@@ -250,7 +250,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			--]]
-			n(241143, {	-- Durus <Normal Raid Apparel>
+			--[[n(241143, {	-- Durus <Normal Raid Apparel>
 				["coord"] = { 45.4, 67.9, BROKEN_ISLES },
 				["groups"] = bubbleDownFiltered({
 					["cost"] = {{ "c", BRONZE, 20000 }},
@@ -340,7 +340,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						iensemble(241448),	-- Ensemble: Juggernaut Battlegear
 					}),
 				}),
-			}),
+			}),--]]
 			n(246030, {	-- Freddie Threads <Discount Cloak Dealer>
 				["coord"] = { 45.4, 67.8, BROKEN_ISLES },
 				["groups"] = {
@@ -1061,7 +1061,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 			}),
-			n(246028, {	-- Sacerdormu <Heroic Raid Apparel>
+			--[[n(246028, {	-- Sacerdormu <Heroic Raid Apparel>
 				["coord"] = { 45.5, 67.9, BROKEN_ISLES },
 				["groups"] = bubbleDownFiltered({
 					["cost"] = {{ "c", BRONZE, 20000 }},
@@ -1152,7 +1152,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						iensemble(241446),	-- Ensemble: Juggernaut Battlegear
 					}),
 				}),
-			}),
+			}),--]]
 			n(246026, {	-- Unicus <Exclusive Ensembles>
 				["coord"] = { 45.5, 68.4, BROKEN_ISLES },
 				["groups"] = {
