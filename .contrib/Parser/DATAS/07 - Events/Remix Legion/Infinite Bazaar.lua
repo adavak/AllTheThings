@@ -96,20 +96,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						------ Locked behind: Argus Eternal ------
 						iensemble(241447),	-- Ensemble: Juggernaut Battlegear
 					}),
-					------ Trial of Valor: Ensambles of the Chosen Dead ------
-					------ Locked behind: Rise of the Nightfallen ------
-					filter(CLOTH, {
-						iensemble(241607),	-- Ensemble: Regalia of the Chosen Dead
-					}),
-					filter(LEATHER, {
-						iensemble(241604),	-- Ensemble: Garb of the Chosen Dead
-					}),
-					filter(MAIL, {
-						iensemble(241601),	-- Ensemble: Chains of the Chosen Dead
-					}),
-					filter(PLATE, {
-						iensemble(241597),	-- Ensemble: Funerary Plate of the Chosen Dead
-					}),
 				}),
 			}),--]]
 			n(241184, {	-- Agos the Silent <Lost and Found Apparel>
@@ -1058,6 +1044,19 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 								{ "c", BRONZE, 30000 },
 							},
 						}),
+					}),
+					------ Trial of Valor: Ensambles of the Chosen Dead ------
+					filter(CLOTH, {
+						iensemble(241607),	-- Ensemble: Regalia of the Chosen Dead
+					}),
+					filter(LEATHER, {
+						iensemble(241604),	-- Ensemble: Garb of the Chosen Dead
+					}),
+					filter(MAIL, {
+						iensemble(241601),	-- Ensemble: Chains of the Chosen Dead
+					}),
+					filter(PLATE, {
+						iensemble(241597),	-- Ensemble: Funerary Plate of the Chosen Dead
 					}),
 				}),
 			}),
