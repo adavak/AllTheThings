@@ -2623,3 +2623,7 @@ i(238841);	-- Void-Seeping Eyeball
 i(238865);	-- Void-Warped Hoof
 i(245668);	-- Warglaive of the Subdued Tracker
 i(243145);	-- Well-Preserved Wrappings
+
+------------------
+-- PATCH 12.0.0 --
+------------------
