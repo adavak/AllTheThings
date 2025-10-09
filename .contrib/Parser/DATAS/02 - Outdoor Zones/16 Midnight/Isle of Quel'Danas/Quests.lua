@@ -8,13 +8,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			-- intro stuff, unsure how much more content there will be in future
 			q(91281, {	-- Midnight
 				["description"] = "Requires re-logging to be accepted.",
-				--["sourceQuests"] = { ?? },	-- something from pre-patch/11.2.7?
 				["maps"] = {
 					STORMWIND_CITY,
 					ORGRIMMAR,
 				},
-				--["isBreadcrumb"] = true,
 				["DisablePartySync"] = true,
+				--["sourceQuests"] = { ?? },	-- something from pre-patch/11.2.7?
+				--["isBreadcrumb"] = true,
 			}),
 			q(88719, {	-- A Voice from the Light
 				["sourceQuests"] = { 91281 },	-- Midnight
@@ -68,12 +68,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			q(89012, {	-- A Safe Path
+				["description"]	= "Require quest The Hour of Need to be accepted to see this quest",
 				["sourceQuests"] = {
 					86770,	-- Champions of Quel'Danas
 					89271,	-- My Son
 					86780,	-- Where Heroes Hold
 				},
-				["description"]	= "Require quest The Hour of Need to be accepted to see this quest",
 				["provider"] = { "n", 237222 },	-- Arator (mobileNPC)
 			}),
 			q(86806, {	-- Luminous Wings
@@ -132,7 +132,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					i(251257),	-- Recovered Sanctum Stave
 					i(251258),	-- Recovered Sanctum Pole
 					i(251259),	-- 
-					i(251260),	-- 
+					i(251260),	--
 				},
 			}),
 			q(86811, {	-- Ethereal Eradication
@@ -157,10 +157,10 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["coord"] = { 45.8, 11.5, ISLE_OF_QUELDANAS_MID_i },
 			}),
 			q(86852, {	-- Light's Last Stand
-				-- TODO: seems like lockCriteria for anything that are left behind for intro?
 				["sourceQuests"] = { 86850 },	-- Broken Sun
 				["provider"] = { "n", 237278 },	-- Lady Liadrin
 				["coord"] = { 52.7, 50.0, ISLE_OF_QUELDANAS_MID_i },
+				-- TODO: seems like lockCriteria for anything that are left behind for intro?
 			}),
 			q(86733, {	-- Silvermoon Negotiations
 				["sourceQuests"] = { 86852 },	-- Light's Last Stand

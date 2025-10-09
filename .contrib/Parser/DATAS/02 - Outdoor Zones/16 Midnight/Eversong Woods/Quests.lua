@@ -56,9 +56,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					q(86743, {	-- Trimming the Lightbloom
 						["sourceQuests"] = { 86741 },	-- Lightbloom Looming
-						["providers"] = {
-							{ "n", 236903 },	-- Orweyna
-							{ "n", 240663 },	-- Orweyna (mobileNPC)
+						["qgs"] = {
+							236903,	-- Orweyna
+							240663,	-- Orweyna (mobileNPC)
 						},
 						["coord"] = { 39.7, 51.6, EVERSONG_WOODS_MID },
 						["groups"] = {
@@ -181,7 +181,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(248077),	-- 
 							i(248084),	-- 
 							i(250355),	-- Twilight Agitator's Stave
-							i(250356),	-- 
+							i(250356),	--
 						},
 					}),
 					q(90494, {	-- The Missing Magister
@@ -395,6 +395,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				--header(HEADERS.AchiCriteria, xx.xx, {	-- ?
 					--q(xx, {	-- xx
 					--	["sourceQuests"] = { xx },	-- xx
+					--	["provider"] = { "n", XX },	-- XX
+					--	["coord"] = { 45.4, 70.3, EVERSONG_WOODS_MID },
+					--	["groups"] = {
+					--	},
+					--}),
+				--}),
+			--}),
 					--	["provider"] = { "n", XX },	-- XX
 					--	["coord"] = { 45.4, 70.3, EVERSONG_WOODS_MID },
 					--	["groups"] = {
