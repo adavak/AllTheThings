@@ -147,7 +147,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							["sourceQuests"] = { 42185 },	-- Never Hunt Alone
 							["altQuests"] = { 40952 },	-- Hunter to Hunter
 							["provider"] = { "n", 106879 },	-- Grif Wildheart
-							["maps"] = { LEGION_DALARAN },
+							["coord"] = { 69.9, 43.2, LEGION_DALARAN },
 						}),
 					}),
 					cl(HUNTER, MARKSMANSHIP, {
@@ -283,18 +283,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							40385,	-- The Spear in the Shadow
 						},
 						["sourceQuestNumRequired"] = 1,
-						["provider"] = { "n", 102574 },	-- Emmarel Shadewarden
+						["qgs"] = {
+							102574,	-- Emmarel Shadewarden
+							102478,	-- Emmarel Shadewarden
+						},
 						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
 					}),
 					q(40954, {	-- The Unseen Path
 						["sourceQuests"] = { 40953 },	-- On Eagle's Wings
-						["provider"] = { "n", 102574 },	-- Emmarel Shadewarden
+						["qgs"] = {
+							102574,	-- Emmarel Shadewarden
+							102478,	-- Emmarel Shadewarden
+						},
 						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
 					}),
 					q(40955, {	-- Oath of Service
 						["sourceQuests"] = { 40954 },	-- The Unseen Path
 						["provider"] = { "n", 102574 },	-- Emmarel Shadewarden
-						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
+						["coord"] = { 44.4, 26.4, TRUESHOT_LODGE },
 					}),
 					q(41053, {	-- Altar of the Eternal Hunt
 						["sourceQuests"] = { 40955 },	-- Oath of Service
@@ -317,8 +323,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							40955,	-- Oath of Service
 							-- #ENDIF
 						},
-						["provider"] = { "n", 103023 },	-- Tactician Tinderfell
-						["coord"] = { 42.9, 46.9, TRUESHOT_LODGE },
+						["provider"] = { "n", 102574 },	-- Emmarel Shadewarden
+						["coord"] = { 43.6, 26.2, TRUESHOT_LODGE },
 					}),
 					q(40959, {	-- The Campaign Begins
 						["sourceQuests"] = { 40958 },	-- Tactical Matters

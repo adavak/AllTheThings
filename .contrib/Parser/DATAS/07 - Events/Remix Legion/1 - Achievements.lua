@@ -99,18 +99,18 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(61071),	-- Legionslayer IV
 		ach(61323),	-- Legionslayer V
 		ach(61061, {	-- Power of the Obelisks I
-			["cr"] = { 246685 },	-- Timewarped Obelisk
+			["cr"] = 246685,	-- Timewarped Obelisk
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
 			--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Legion’s Fel Torch (DECOR!)
 		}),
 		ach(61060, {	-- Power of the Obelisks II
-			["cr"] = { 246685 },	-- Timewarped Obelisk
+			["cr"] = 246685,	-- Timewarped Obelisk
 		}),
 		ach(61055, {	-- Power of the Obelisks III
-			["cr"] = { 246685 },	-- Timewarped Obelisk
+			["cr"] = 246685,	-- Timewarped Obelisk
 		}),
 		ach(61072, {	-- Power of the Obelisks IV
-			["cr"] = { 246685 },	-- Timewarped Obelisk
+			["cr"] = 246685,	-- Timewarped Obelisk
 		}),
 		ach(42699),	-- You Were Not Prepared!
 	}),

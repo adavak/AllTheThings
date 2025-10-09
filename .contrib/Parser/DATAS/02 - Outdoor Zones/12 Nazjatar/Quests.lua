@@ -1304,7 +1304,17 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
-				i(168300),	-- Dani's Treasure (QI!)
+				o(326096, {	-- Mysterious Mollusc
+					["coords"] = {
+						{ 25.9, 31.4, NAZJATAR },
+						{ 26.3, 33.5, NAZJATAR },
+						{ 27.8, 33.5, NAZJATAR },
+						{ 28.7, 29.3, NAZJATAR },
+						{ 28.7, 33.2, NAZJATAR },
+						{ 29.5, 31.8, NAZJATAR },
+					},
+					["groups"] = { i(168300) },	-- Dani's Treasure (QI!)
+				}),
 			},
 		}),
 		q(54949, {	-- More Mouths To Feed

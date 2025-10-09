@@ -322,10 +322,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 96469 },	-- Odyn
 							["coord"] = { 58.3, 84.6, SKYHOLD },
 							["groups"] = {
-								i(128908, {	-- Warswords of the Valarjar [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(248832, {	-- Warswords of Valor
+									["coord"] = { 43.1, 53.6, 694 },	-- Helmouth Shallows
 									["groups"] = {
-										artifact(296),	-- Warswords of the Valarjar
+										i(128908, {	-- Warswords of the Valarjar [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(296),	-- Warswords of the Valarjar
+											},
+										}),
 									},
 								}),
 								i(134553, {	-- Warswords of the Valarjar [Off Hand]
