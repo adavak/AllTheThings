@@ -158,7 +158,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					ach(60973, {	-- Legendary Research of the Valarjar
 						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- (no decor reward) (DECOR!)
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Saga of the Valarjar (DECOR!)
 					}),
 					ach(60992, {	-- So Many Missions for Skyhold
 						["timeline"] = { ADDED_11_2_7 },

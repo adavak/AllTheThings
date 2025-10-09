@@ -154,7 +154,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						q(39247, {	-- The Hunt (Kayn)
 							["sourceQuest"] = 39051,	-- By Any Means (Kayn)
 							["provider"] = { "n", 94902 },	-- Kayn Sunfury
-							["maps"] = { 723 },	-- Violet Hold
+							["coord"] = { 50.3, 71.1, 723 },	-- The Violet Hold
 							["groups"] = {
 								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
@@ -197,10 +197,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["qgs"] = {
 								99247,	-- Kayn Sunfury
 								95240,	-- Kayn Sunfury
+								108572,	-- Kayn Sunfury
 							},
 							["coords"] = {
 								{ 74.9, 48.9, LEGION_DALARAN },
-								{ 58.6, 57.8, MARDUM_THE_SHATTERED_ABYSS_UPPER_COMMAND_CENTER },
+								{ 58.4, 58.4, MARDUM_THE_SHATTERED_ABYSS_UPPER_COMMAND_CENTER },
 							},
 						}),
 						q(41804, {	-- Ask and You Shall Receive
@@ -212,7 +213,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 28.5, 48.3, LEGION_DALARAN },
 							["groups"] = {
 								o(248521, {	-- Crystallized Soul
-									["coord"] = { 26.5, 45.8, LEGION_DALARAN },
+									["coord"] = { 26.5, 45.1, LEGION_DALARAN },
 									["groups"] = { i(136385) },	-- Crystallized Soul (QI!)
 								}),
 							},

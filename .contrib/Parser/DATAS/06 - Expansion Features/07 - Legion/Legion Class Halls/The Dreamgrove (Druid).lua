@@ -132,7 +132,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					ach(42272, {	-- The Archdruid's Campaign
 						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- (no decor reward) (DECOR!)
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Brazier of Elune (DECOR!)
 					}),
 				}),
 				n(FLIGHT_PATHS, {
