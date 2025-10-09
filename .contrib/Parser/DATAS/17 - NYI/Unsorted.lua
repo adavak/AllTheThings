@@ -61,8 +61,6 @@ root(ROOTS.Unsorted, {
 			i(239786),	-- [DNT]
 			i(239787),	-- [DNT]
 			i(239788),	-- [DNT]
-			i(239791),	-- Sunborne Runemail Shoulderguards (missing from iensemble 241401)
-			i(239793),	-- Sunborne Runemail Mask (missing from iensemble 241401)
 			i(239806),	-- Mountainborne Bindings
 			i(239807),	-- Mountainborne Trousers
 			i(239808),	-- Mountainborne Shoulders
@@ -89,7 +87,6 @@ root(ROOTS.Unsorted, {
 			i(239969),	-- Fel-marked Greaves
 			i(239970),	-- Fel-marked Cinch
 			i(240265),	-- [DNT]
-			i(240372),	-- Shawl of Borrowed Souls
 			i(240396),	-- Suramar Silver Mantle
 			i(240563),	-- Vileweave Gloves
 			i(240564),	-- Vileweave Bindings
@@ -98,7 +95,6 @@ root(ROOTS.Unsorted, {
 			i(240570),	-- Vileweave Shawl
 			i(240571),	-- Vileweave Guise
 			i(241146),	-- Epoch Memento
-			i(241258),	-- Vineyard Red Shal'dorei Crown (missing from iensemble 241385)
 			i(241357),	-- Ensemble: Barkbinds of the Archdruid's Nightmare
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead

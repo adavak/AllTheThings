@@ -3169,39 +3169,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(CLOTH, {
 			expansion(EXPANSION.BFA, patch(0,1), {
 				i(156753),	-- Turnabout Gloves
-				i(153389),	-- Galetorn Crown
-				i(153390),	-- Galetorn Gloves
-				i(153391),	-- Galetorn Sash
-				i(153392),	-- Galetorn Cuffs
-				i(153393),	-- Galetorn Slippers
-				i(153394),	-- Galetorn Robes
-				i(153395),	-- Galetorn Leggings
-				i(153396),	-- Galetorn Mantle
-				i(154960),	-- Loa-Shaper's Crown
-				i(154961),	-- Loa-Shaper's Gloves
-				i(154962),	-- Loa-Shaper's Cinch
-				i(154963),	-- Loa-Shaper's Cuffs
-				i(154964),	-- Loa-Shaper's Sandals
-				i(154965),	-- Loa-Shaper's Robe
-				i(154966),	-- Loa-Shaper's Kilt
-				i(154967),	-- Loa-Shaper's Mantle
-				i(158467),	-- Loa-Shaper's Cinch
-				i(158492),	-- Galetorn Crown
-				i(158493),	-- Galetorn Gloves
-				i(158494),	-- Galetorn Sash
-				i(158495),	-- Galetorn Cuffs
-				i(158496),	-- Galetorn Slippers
-				i(158497),	-- Galetorn Robes
-				i(158498),	-- Galetorn Leggings
-				i(158499),	-- Galetorn Mantle
-				i(158544),	-- Loa-Shaper's Crown
-				i(158545),	-- Loa-Shaper's Gloves
-				i(158546),	-- Loa-Shaper's Cinch
-				i(158547),	-- Loa-Shaper's Cuffs
-				i(158548),	-- Loa-Shaper's Sandals
-				i(158549),	-- Loa-Shaper's Robe
-				i(158550),	-- Loa-Shaper's Kilt
-				i(158551),	-- Loa-Shaper's Mantle
 				--
 				i(159170),	-- Freehold Handwraps
 				i(159183),	-- Foxhollow Cord
@@ -3240,38 +3207,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(LEATHER, {
 			expansion(EXPANSION.BFA, patch(0,1), {
 				i(156751),	-- Nightbinder Grips
-				i(153373),	-- Sea-Treated Armbands
-				i(153374),	-- Sea-Treated Grips
-				i(153375),	-- Sea-Treated Belt
-				i(153376),	-- Sea-Treated Boots
-				i(153377),	-- Sea-Treated Vest
-				i(153378),	-- Sea-Treated Mask
-				i(153379),	-- Sea-Treated Shoulderguards
-				i(153380),	-- Sea-Treated Trousers
-				i(154944),	-- Dinohide Armbands
-				i(154945),	-- Dinohide Grips
-				i(154946),	-- Dinohide Belt
-				i(154947),	-- Dinohide Boots
-				i(154948),	-- Dinohide Vest
-				i(154949),	-- Dinohide Mask
-				i(154950),	-- Dinohide Shoulderguards
-				i(154951),	-- Dinohide Trousers
-				i(158476),	-- Sea-Treated Armbands
-				i(158477),	-- Sea-Treated Grips
-				i(158478),	-- Sea-Treated Belt
-				i(158479),	-- Sea-Treated Boots
-				i(158480),	-- Sea-Treated Vest
-				i(158481),	-- Sea-Treated Mask
-				i(158482),	-- Sea-Treated Shoulderguards
-				i(158483),	-- Sea-Treated Trousers
-				i(158528),	-- Dinohide Armbands
-				i(158529),	-- Dinohide Grips
-				i(158530),	-- Dinohide Belt
-				i(158531),	-- Dinohide Boots
-				i(158532),	-- Dinohide Vest
-				i(158533),	-- Dinohide Mask
-				i(158534),	-- Dinohide Shoulderguards
-				i(158535),	-- Dinohide Trousers
 				--
 				i(154849),	-- Crimsonwood Bracers
 				i(154852),	-- Crimsonwood Gloves
@@ -3288,7 +3223,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 			expansion(EXPANSION.BFA, patch(1,0), {
 				i(166786),	-- Disenchant Test Item
-				i(166239),	-- Testus Maximus Breastplate
 			}),
 			n(P8xx, {
 				-- They are leather even tho name is cloth
@@ -3313,38 +3247,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(MAIL, {
 			expansion(EXPANSION.BFA, patch(0,1), {
 				i(156754),	-- Throatcrusher Grips
-				i(153381),	-- Aiguille-Scaler's Wristguards
-				i(153382),	-- Aiguille-Scaler's Gloves
-				i(153383),	-- Aiguille-Scaler's Leggings
-				i(153384),	-- Aiguille-Scaler's Coif
-				i(153385),	-- Aiguille-Scaler's Boots
-				i(153386),	-- Aiguille-Scaler's Girdle
-				i(153387),	-- Aiguille-Scaler's Chestguard
-				i(153388),	-- Aiguille-Scaler's Spaulders
-				i(154952),	-- Saurscale Wristguards
-				i(154953),	-- Saurscale Gloves
-				i(154954),	-- Saurscale Leggings
-				i(154955),	-- Saurscale Coif
-				i(154956),	-- Saurscale Boots
-				i(154957),	-- Saurscale Girdle
-				i(154958),	-- Saurscale Chestguard
-				i(154959),	-- Saurscale Spaulders
-				i(158484),	-- Aiguille-Scaler's Wristguards
-				i(158485),	-- Aiguille-Scaler's Gloves
-				i(158486),	-- Aiguille-Scaler's Leggings
-				i(158487),	-- Aiguille-Scaler's Coif
-				i(158488),	-- Aiguille-Scaler's Boots
-				i(158489),	-- Aiguille-Scaler's Girdle
-				i(158490),	-- Aiguille-Scaler's Chestguard
-				i(158491),	-- Aiguille-Scaler's Spaulders
-				i(158536),	-- Saurscale Wristguards
-				i(158537),	-- Saurscale Gloves
-				i(158538),	-- Saurscale Leggings
-				i(158539),	-- Saurscale Coif
-				i(158540),	-- Saurscale Boots
-				i(158541),	-- Saurscale Girdle
-				i(158542),	-- Saurscale Chestguard
-				i(158543),	-- Saurscale Spaulders
 				i(154861),	-- Barrowknoll Boots
 				i(159208),	-- Eventide Cinch
 				i(159210),	-- Eventide Gloves
@@ -3363,45 +3265,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(PLATE, {
 			expansion(EXPANSION.BFA, patch(0,1), {
-				i(160673),	-- Primus Breastplate
-				i(160674),	-- Secondus Breastplate
-				i(160675),	-- Tertius Breastplate
-				i(160676),	-- Quartius Breastplate
-				i(160677),	-- Pentius Breastplate
 				i(164525),	-- Rattling Bone Greatbelt
 				i(156752),	-- Skullbreaker Gauntlets
-				i(153365),	-- Dead-Watcher Greaves
-				i(153366),	-- Dead-Watcher Helmet
-				i(153367),	-- Dead-Watcher Breastplate
-				i(153368),	-- Dead-Watcher Waistplate
-				i(153369),	-- Dead-Watcher Pauldrons
-				i(153370),	-- Dead-Watcher Gauntlets
-				i(153371),	-- Dead-Watcher Vambraces
-				i(153372),	-- Dead-Watcher Sabatons
-				i(154936),	-- Dead-Watcher Greaves
-				i(154937),	-- Dead-Watcher Helmet
-				i(154938),	-- Dead-Watcher Breastplate
-				i(154939),	-- Dead-Watcher Waistplate
-				i(154940),	-- Dead-Watcher Pauldrons
-				i(154941),	-- Dead-Watcher Gauntlets
-				i(154942),	-- Dead-Watcher Vambraces
-				i(154943),	-- Dead-Watcher Sabatons
-				i(158468),	-- Dead-Watcher Greaves
-				i(158469),	-- Dead-Watcher Helmet
-				i(158470),	-- Dead-Watcher Breastplate
-				i(158471),	-- Dead-Watcher Waistplate
-				i(158472),	-- Dead-Watcher Pauldrons
-				i(158473),	-- Dead-Watcher Gauntlets
-				i(158474),	-- Dead-Watcher Vambraces
-				i(158475),	-- Dead-Watcher Sabatons
-				i(158520),	-- Dead-Watcher Greaves
-				i(158521),	-- Dead-Watcher Helmet
-				i(158522),	-- Dead-Watcher Breastplate
-				i(158523),	-- Dead-Watcher Waistplate
-				i(158524),	-- Dead-Watcher Pauldrons
-				i(158525),	-- Dead-Watcher Gauntlets
-				i(158526),	-- Dead-Watcher Vambraces
-				i(158527),	-- Dead-Watcher Sabatons
 				--
 				i(159159),	-- Ashvane Company Gauntlets
 				i(159160),	-- Ashvane Company Girdle

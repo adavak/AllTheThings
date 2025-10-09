@@ -2218,14 +2218,14 @@ i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
 ------------------
 -- PATCH 12.0.0 --
 ------------------
+i(262620, 1257058);	-- Calamitous Carrion
+i(262621, 1257081);	-- Calamitous Carrion
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
 i(246594, 1243003);	-- Light-Forged Mechsuit
 --- UNSORTED ---
 i(257157, 1261325);	-- [DNT] 12.0 Black Hawkstrider
 i(260231, 1265784);	-- [DNT] 12.0 White Hawkstrider
 i(250782, 1251433);	-- [DNT] Amani Eagle Orange
-i(0, 1257081);	-- [DNT] Cleansed Hex Eagle
-i(0, 1257058);	-- [DNT] Cursed Hex Eagle
 i(0, 1252141);	-- [DNT] Jellyfish
 i(222988, 447173);	-- [PH] Firefly2Mount (Green)
 i(224148, 451487);	-- [PH] NerubianWarbeastMount (Cyan)
