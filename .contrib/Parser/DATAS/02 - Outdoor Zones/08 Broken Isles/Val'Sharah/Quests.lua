@@ -236,7 +236,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["groups"] = {
 						o_repeated({	-- Twisted Root
 							i(128680),	-- Corrupted Root Sample (QI!)
-							o(243953),	-- Twisted Root
+							o(243952),	-- Twisted Root
 							o(243953),	-- Twisted Root
 							o(243954),	-- Twisted Root
 						}),
@@ -780,7 +780,6 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(127860),	-- Warden's Signet (QI!)
 					},
 				}),
-
 				q(39015, {	-- Grumpy
 					["coord"] = { 38.6, 65.6, VALSHARAH },
 					-- not sure if there are prereqs for this.
@@ -788,7 +787,6 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(128354),	-- Grumpy (PET!)
 					},
 				}),
-
 				n(BONUS_OBJECTIVES, sharedData({
 					["sharedDescription"] = "This can be completed in party-sync with a character who is in Chromie Time for Legion.",
 					-- #if BEFORE DF

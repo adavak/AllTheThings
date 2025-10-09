@@ -147,6 +147,32 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 89660 },	-- Thyrillion
 				["coord"] = { 53.4, 48.9, 631 },	-- Nar'thalas Academy
 				["groups"] = {
+					o(238940, {	-- Academy Bookshelf
+						["coords"] = {
+							{ 54.4, 50.6, AZSUNA },
+							{ 54.8, 51.3, AZSUNA },
+							{ 54.8, 52.5, AZSUNA },
+							{ 55.9, 52.9, AZSUNA },
+						},
+						["groups"] = { i(120946) },	-- Nar'thalas Academy Spellbook (QI!)
+					}),
+					o(239744, {	-- Nar'thalas Academy Hat
+						["coords"] = {
+							{ 55.8, 55.4, AZSUNA },
+							{ 56.0, 55.7, AZSUNA },
+							{ 56.4, 57.5, AZSUNA },
+							{ 56.5, 56.2, AZSUNA },
+						},
+						["groups"] = { i(120947) },	-- Nar'thalas Academy Hat (QI!)
+					}),
+					o(239745, {	-- Nar'thalas Academy Wand
+						["coords"] = {
+							{ 65.4, 72.0, AZSUNA },
+							{ 66.2, 73.9, AZSUNA },
+							{ 66.7, 74.1, AZSUNA },
+						},
+						["groups"] = { i(120949) },	-- Nar'thalas Academy Wand (QI!)
+					}),
 					i(138873),	-- Mystical Frosh Hat (TOY!)
 				},
 			}),
@@ -556,6 +582,31 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 42370 },	-- Wanding 101
 				["provider"] = { "n", 107334 },	-- Sythorne
 				["coord"] = { 30.9, 44.6, 631 },	-- Nar'thalas Academy
+				["groups"] = {
+					o(250372, {	-- Courtship Rituals of the Skrog
+						["coords"] = {
+							{ 26.9, 48.6, AZSUNA },
+							{ 27.3, 47.4, AZSUNA },
+							{ 27.5, 48.0, AZSUNA },
+						},
+						["groups"] = { i(137422) },	-- Courtship Rituals of the Skrog (QI!)
+					}),
+					o(250374, {	-- Draconic Compendium, Volume III
+						["coords"] = {
+							{ 27.3, 47.1, AZSUNA },
+							{ 27.5, 46.4, AZSUNA },
+						},
+						["groups"] = { i(137426) },	-- Draconic Compendium, Volume III (QI!)
+					}),
+					o(250373, {	-- Encyclopedia Azsunica (K-M)
+						["coords"] = {
+							{ 26.4, 46.9, AZSUNA },
+							{ 26.8, 47.5, AZSUNA },
+							{ 27.0, 46.9, AZSUNA },
+						},
+						["groups"] = { i(137423) },	-- Encyclopedia Azsunica (K-M) (QI!)
+					}),
+				},
 			}),
 			q(37659, {	-- The Captain's Foot Locker
 				["sourceQuests"] = { 37654 },	-- Maritime Law
@@ -566,11 +617,35 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 37855 },	-- The Last of the Last
 				["provider"] = { "n", 90423 },	-- Mana-Drained Whelpling
 				["coord"] = { 49.3, 15.6, AZSUNA },
+				["groups"] = {
+					o(240033, {	-- Dim Ley Crystal
+						["coords"] = {
+							{ 46.8, 14.9, AZSUNA },
+							{ 47.2, 14.4, AZSUNA },
+							{ 49.6, 15.4, AZSUNA },
+						},
+						["groups"] = { i(122188) },	-- Dim Ley Crystal (QI!)
+					}),
+				},
 			}),
 			q(37853, {	-- The Death of the Eldest
 				["sourceQuests"] = { 38443 },	-- Journey to the Repose
 				["provider"] = { "n", 93354 },	-- Archmage Khadgar
 				["coord"] = { 47.9, 27.2, AZSUNA },
+				["groups"] = {
+					o_repeated({	-- Exposed Ley Crystal
+						["coords"] = {
+							{ 49.5, 21.8, AZSUNA },
+							{ 49.8, 20.8, AZSUNA },
+						},
+						["groups"] = {
+							i(122095),	-- Crackling Leyworm Core (QI!)
+							o(239907),	-- Exposed Ley Crystal
+							o(241912),	-- Exposed Ley Crystal
+							o(241913),	-- Exposed Ley Crystal
+						},
+					}),
+				},
 			}),
 			q(37518, {	-- The Haunted Halls
 				["sourceQuests"] = {
@@ -628,6 +703,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 90543 },	-- Agapanthus
 				["coord"] = { 48.8, 26.4, AZSUNA },
 				["groups"] = {
+					o(240267, {	-- Cracked Ley Crystal
+						["coord"] = { 49.3, 25.3, AZSUNA },
+						["groups"] = { i(122306) },	-- Cracked Ley Crystal (QI!)
+					}),
+					--
 					i(121481),	-- Tranquil Azurewing Band
 					i(121425),	-- Leywalker Gloves
 					i(121423),	-- Ruin-Stalker Gloves
@@ -645,7 +725,9 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 89341 },	-- Magister Garuhod
 				["coord"] = { 47.0, 41.3, AZSUNA },
 				["groups"] = {
-					i(120939),	-- Arcane-Infused Egg (QI!)
+					o(239692, {	-- Arcane-Infused Egg
+						i(120939),	-- Arcane-Infused Egg (QI!)
+					}),
 					i(133814),	-- Recipe: Faronaar Fizz [Rank 1] (RECIPE!)
 				},
 			}),
@@ -703,6 +785,26 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 37730 },	-- The Headmistress' Keys
 				["provider"] = { "n", 89660 },	-- Thyrillion
 				["coord"] = { 53.4, 48.6, 631 },	-- Nar'thalas Academy
+				["groups"] = {
+					o_repeated({
+						["coords"] = {
+							{ 53.7, 35.1, AZSUNA },
+							{ 61.7, 24.9, AZSUNA },
+							{ 62.1, 25.5, AZSUNA },
+							{ 62.8, 24.5, AZSUNA },
+							{ 63.0, 23.0, AZSUNA },
+							{ 63.0, 24.2, AZSUNA },
+						},
+						["groups"] = {
+							i(120401),	-- Tidestone Shard (QI!)
+							o(239341),	-- Tidestone Shard
+							o(245483),	-- Tidestone Shard
+							o(245484),	-- Tidestone Shard
+							o(245485),	-- Tidestone Shard
+							o(245486),	-- Tidestone Shard
+						},
+					}),
+				},
 			}),
 			q(37467, {	-- The Walk of Shame
 				["sourceQuests"] = { 37486 },	-- Nar'thalas Still Suffers

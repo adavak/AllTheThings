@@ -179,6 +179,21 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39992 },	-- Huln's War - The Nathrezim
 					["provider"] = { "n", 108017 },	-- Torv Dubstomp
 					["coord"] = { 53.4, 78.0, 652 },	-- Thunder Totem
+					["groups"] = {
+						o(250905, {	-- Small Ceremonial Drum
+							i(138197),	-- Small Ceremonial Drum (QI!)
+						}),
+						o_repeated({	-- Medium Ceremonial Drum
+							i(138198),	-- Medium Ceremonial Drum (QI!)
+							o(250904),	-- Medium Ceremonial Drum
+							o(266689),	-- Medium Ceremonial Drum
+						}),
+						o_repeated({	-- Large Ceremonial Drum
+							i(138199),	-- Large Ceremonial Drum (QI!)
+							o(250903),	-- Large Ceremonial Drum
+							o(266655),	-- Large Ceremonial Drum
+						}),
+					},
 				}),
 				q(39670, {	-- Critter Scatter Shot
 					["sourceQuests"] = { 39386 },	-- Procuring a Prototype
@@ -922,6 +937,12 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40167 },	-- The Story of Huln
 					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
+					["groups"] = {
+						o(245620, {	-- Mu'sha's Tears
+							["coord"] = { 57.6, 10.6, 652 },	-- Thunder Totem
+							["groups"] = { i(132248) },	-- Mu'sha's Tears (QI!)
+						}),
+					},
 				}),
 				q(39316, {	-- Trapped Tauren
 					["sourceQuests"] = { 39496 },	-- The Flow of the River

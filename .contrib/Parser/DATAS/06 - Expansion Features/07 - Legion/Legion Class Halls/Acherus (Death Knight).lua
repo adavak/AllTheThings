@@ -289,8 +289,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(39799, {	-- Our Next Move
 						["sourceQuest"] = 39832, -- Plans and Preparations
-						["provider"] = { "n", 93437 },	-- Siouxsie the Banshee
-						["coord"] = { 50.6, 51.6, 647 },
+						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
+						["coord"] = { 50.6, 51.6, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(42449, {	-- Return of the Four Horsemen
 						["sourceQuest"] = 39799, -- Our Next Move
