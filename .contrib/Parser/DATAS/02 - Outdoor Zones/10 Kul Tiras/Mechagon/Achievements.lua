@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				crit(44305),	-- Charging Station
 				crit(44307),	-- Rustbolt Armory
 				crit(44308),	-- Reclamation Rig
-				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Redundant Reclamation Rig (DECOR!)
+				i(246483, {["timeline"] = { ADDED_12_0_0 }}),	-- Redundant Reclamation Rig (DECOR!)
 			}),
 			ach(13776),	-- Explore Mechagon
 			ach(13482),	-- Head Financier of Mechagon
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			ach(13477, {	-- Junkyard Apprentice
-				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Screw-Sealed Stembarrel (DECOR!)
+				i(246598, {["timeline"] = { ADDED_12_0_0 }}),	-- Screw-Sealed Stembarrel (DECOR!)
 			}),
 			ach(13479, {	-- Junkyard Architect
 				["sym"] = {{ "achievement_criteria" }},
