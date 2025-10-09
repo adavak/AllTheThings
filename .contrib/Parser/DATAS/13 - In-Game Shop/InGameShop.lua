@@ -146,6 +146,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		pet(3175, {	-- Murkastrasza (PET!)
 			["timeline"] = { ADDED_10_2_0 },
 		}),
+		i(246342, {	-- Mustyfur Fel Snooter (PET!)
+			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
+		}),
 		-- #if ANYCLASSIC
 		i(198665, {	-- Pebble's Pebble
 			["timeline"] = { ADDED_5_5_0 },
@@ -687,6 +690,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
+		}),
+		i(246920, {	-- Void-Razed Elekk (MOUNT!)
+			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
 		}),
 		i(166775, {	-- Vulpine Familiar (MOUNT!)
 			["timeline"] = { ADDED_8_1_0 },

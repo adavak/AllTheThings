@@ -561,7 +561,6 @@ root(ROOTS.Unsorted, {
 				i(241240),	-- Type II Bomber Jacket
 			}),
 			filter(BATTLE_PETS, {
-				i(246342),	-- Mustyfur Fel Snooter
 				i(246723),	-- Unfazed Diver
 			}),
 			filter(COSMETIC, {
@@ -714,7 +713,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
 				i(246698),	-- Sunwarmed Furline
-				i(246920),	-- Void-Razed Elekk
 			}),
 			n(PROFESSIONS, {
 				i(231770),	-- Formula: Enchanted Gilded Ethereal Crest

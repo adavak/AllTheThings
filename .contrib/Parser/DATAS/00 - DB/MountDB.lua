@@ -2128,7 +2128,6 @@ i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
 i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
 --- UNSORTED ---
-i(246920, 1244260);	-- Void-Razed Elekk
 i(186639, 353264);	-- Xy Trustee's Gearglider
 
 ------------------
@@ -2178,6 +2177,7 @@ i(250721, 1235513);	-- Snowy Highmountain Eagle
 i(250723, 1251255);	-- Treetop Highmountain Eagle
 i(250756, 1251298);	-- Turquoise Courser
 i(250751, 1251295);	-- Twilight Courser
+i(246920, 1244260);	-- Void-Razed Elekk
 i(239687, 1229288);	-- Wretched Fel Bat
 --- UNSORTED ---
 i(0, 1254363);	--(PH LEGION REMIX MOUNT)`
