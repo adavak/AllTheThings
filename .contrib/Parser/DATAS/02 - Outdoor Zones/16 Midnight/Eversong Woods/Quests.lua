@@ -110,11 +110,11 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					------ Stay awhile and listen ------
-					hqt(91078, {	-- Stay awhile and listen: Orweyna 
+					hqt(91078, {	-- Stay awhile and listen: Orweyna
 						["name"] = "Stay awhile and listen: Orweyna",
 						["description"] = "Dialogue becomes available during 'The Wayward Magister' (86621).",
 						["sourceQuests"] = { 86745 },	-- Silvermoon Must Know
-						["provider"] = { "n", 236903 },	-- Orweyna 
+						["provider"] = { "n", 236903 },	-- Orweyna
 						["coord"] = { 47.4, 55.3, EVERSONG_WOODS_MID },
 					}),
 					q(86623, {	-- Appeal to the Void
@@ -174,12 +174,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["groups"] = {
 							i(248064),	-- Fallen Matron's Mace
 							i(248065),	-- Gavel of the Unjust
-							i(248066),	-- 
+							i(248066),	--
 							i(248069),	-- Traitorous Acolyte's Blade
-							i(248072),	-- 
-							i(248074),	-- 
-							i(248077),	-- 
-							i(248084),	-- 
+							i(248072),	--
+							i(248074),	--
+							i(248077),	--
+							i(248084),	--
 							i(250355),	-- Twilight Agitator's Stave
 							i(250356),	--
 						},
@@ -197,7 +197,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(243468),	-- Jeweled Key (QI!)
 							i(248052),	-- Shroud of Treachery
 							i(243478),	-- Spare Pamphlets TODO: into uncollectible?
-							o(542854, {	-- Ominous Lockbox -> 
+							o(542854, {	-- Ominous Lockbox ->
 								i(239134),	-- Plans of Infiltration (QI!)
 							}),
 						},
@@ -232,7 +232,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--	["name"] = "Stay awhile and listen: Arator
 					--	["description"] = "Dialogue becomes available during 'Comprehend the Void' (86633).",
 					--	["sourceQuests"] = { 86634 },	-- The Past Keeps Watch
-					--	["provider"] = { "n", 236391 },	-- Arator 
+					--	["provider"] = { "n", 236391 },	-- Arator
 					--	["coord"] = { 37.0, 74.1, EVERSONG_WOODS_MID },
 					--}),
 					q(86635, {	-- To Deatholme
@@ -343,15 +343,15 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["sourceQuests"] = { 86644 },	-- Gods Before Us
 						["provider"] = { "n", 240062 },	-- Arator (mobileNPC)
 						["groups"] = {
-							i(248080),	-- 
-							i(250470),	-- 
+							i(248080),	--
+							i(250470),	--
 							i(250471),	-- Enchanted Crypt Battlestaff
 							i(250472),	-- Enchanted Crypt Stave
-							i(250473),	-- 
-							i(250474),	-- 
+							i(250473),	--
+							i(250474),	--
 							i(250475),	-- Enchanted Crypt Sword
-							i(250476),	-- 
-							i(250477),	-- 
+							i(250476),	--
+							i(250477),	--
 							i(250478),	-- Enchanted Crypt Hatchet
 							i(250479),	-- Enchanted Crypt Cleaver
 							i(250480),	-- Enchanted Crypt Fetish
@@ -439,7 +439,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 241393 },	-- Magister Aradis
 						["coord"] = { 54.0, 34.1, SILVERMOON_CITY_MID },
 						["groups"] = {
-							o(527218, {	-- 
+							o(527218, {	--
 								i(239511),	-- Depleted Wardbreaker (QI!)
 							}),
 						},
@@ -454,7 +454,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", XX },	-- XX
 						["coord"] = { 37.4, 74.3, SILVERMOON_CITY_MID },
 						["groups"] = {
-							o(527240, {	-- 
+							o(527240, {	--
 								i(239608),	-- Incriminating Documents (QI!)
 							}),
 						},
@@ -477,13 +477,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 241399 },	-- Jaeth
 						["coord"] = { 51.9, 63.8, SILVERMOON_CITY_MID },
 						["groups"] = {
-							o(527364, {	-- 
+							o(527364, {	--
 								i(241205),	-- Thrumming Amulet (QI!)
 							}),
-							o(527363, {	-- 
+							o(527363, {	--
 								i(241208),	-- Basket of Spell Reagents (QI!)
 							}),
-							o(527365, {	-- 
+							o(527365, {	--
 								i(241207),	-- Arcane Sword (QI!)
 							}),
 						},
@@ -493,7 +493,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 241401 },	-- Jaeth
 						["coord"] = { 50.8, 61.1, SILVERMOON_CITY_MID },
 						["groups"] = {
-							o(531508, {	-- 
+							o(531508, {	--
 								i(242253),	-- Recharged Wardbreaker (QI!)
 							}),
 						},
@@ -531,19 +531,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 245418 },	-- Belath Dawnblade
 						["coord"] = { 51.7, 64.2, SILVERMOON_CITY_MID },
 						["groups"] = {
-							o(539775, {	-- 
+							o(539775, {	--
 								i(243240),	-- Drained Wyrm Core (QI!)
 							}),
-							o(539772, {	-- 
+							o(539772, {	--
 								i(243237),	-- Bottled Fel Dust (QI!)
 							}),
-							o(539770, {	-- 
+							o(539770, {	--
 								i(243236),	-- Stained Worker's Shirt (QI!)
 							}),
-							o(539773, {	-- 
+							o(539773, {	--
 								i(243238),	-- Blackened Metal Fragment (QI!)
 							}),
-							o(539774, {	-- 
+							o(539774, {	--
 								i(243239),	-- Handwritten List (QI!)
 							}),
 						},
@@ -558,7 +558,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["groups"] = {
 							i(244407),	-- Cracked Wyrm Core (QI!)
 							i(253212),	-- Rogue's Signet (QI!)
-							o(539728, {	-- 
+							o(539728, {	--
 								i(245566),	-- Fel Splinter (TODO: into uncollectible?)
 								i(244528),	-- Shipping Manifest (QI!)
 							}),
@@ -621,7 +621,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 39.4, 17.5, EVERSONG_WOODS_MID },
 						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
-							o(516363, {	-- 
+							o(516363, {	--
 								i(235808),	--  Torn Spellbook Page (QI!)
 							}),
 						},
@@ -718,7 +718,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 46.9, 45.2, EVERSONG_WOODS_MID },
 						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
-							o(517146, {	-- 
+							o(517146, {	--
 								i(237722),	-- Abandoned Note (QI!)
 							}),
 						},
@@ -742,7 +742,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 39.5, 44.9, EVERSONG_WOODS_MID },
 						["groups"] = {
 							i(239022),	-- Elixir of the Sea's Bounty (QI!)
-							o(520354, {	-- 
+							o(520354, {	--
 								i(242552),	-- Unstable Arcana (QI!)
 							}),
 						},
@@ -750,12 +750,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(87397, {	-- Cargo Collateral
 						["sourceQuests"] = { 87395 },	-- Below the Brine
 						["provider"] = { "n", 239368 },	-- Lyssara Duskmourne
-						["coord"] = { 35.8, 43.8,, EVERSONG_WOODS_MID },
+						["coord"] = { 35.8, 43.8, EVERSONG_WOODS_MID },
 					}),
 					q(87396, {	-- Dead to Rights
 						["sourceQuests"] = { 87395 },	-- Below the Brine
 						["provider"] = { "n", 239368 },	-- Lyssara Duskmourne
-						["coord"] = { 35.8, 43.8,, EVERSONG_WOODS_MID },
+						["coord"] = { 35.8, 43.8, EVERSONG_WOODS_MID },
 					}),
 					q(87398, {	-- Smuggler Showdown
 						["sourceQuests"] = {
@@ -771,19 +771,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 39.0, 61.6, EVERSONG_WOODS_MID },
 						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
-							o(556761, {	-- 
+							o(556761, {	--
 								i(246914),	-- Perfectly Fine Grain (QI!)
 							}),
-							o(556758, {	-- 
+							o(556758, {	--
 								i(246910),	-- Vintage Vintage (QI!)
 							}),
-							o(556760, {	-- 
+							o(556760, {	--
 								i(246912),	-- Unstable Arcana (QI!)
 							}),
-							o(556762, {	-- 
+							o(556762, {	--
 								i(246911),	-- Discarded Wand (QI!)
 							}),
-							o(556759, {	-- 
+							o(556759, {	--
 								i(246913),	-- Magical Mango (QI!)
 							}),
 						},
@@ -974,7 +974,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 247394 },	-- Ranger Valsarin
 						["coord"] = { 49.7, 48.3, EVERSONG_WOODS_MID },
 						["groups"] = {
-							o(568505 , {	-- 
+							o(568505 , {	--
 								i(249491),	-- Mysterious Bloom (QI!)
 							}),
 						},
@@ -1021,7 +1021,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 247593 },	-- Captain Dawnrunner
 						["coord"] = { 59.4, 68.8, EVERSONG_WOODS_MID },
 						["groups"] = {
-							o(568254, {	-- 
+							o(568254, {	--
 								i(249272),	-- Scattered Supplies (QI!)
 							}),
 						},
@@ -1058,7 +1058,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
 						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
-							o(547829, {	-- 
+							o(547829, {	--
 								i(245531),	-- Golden Sunleaf (QI!)
 							}),
 						},
