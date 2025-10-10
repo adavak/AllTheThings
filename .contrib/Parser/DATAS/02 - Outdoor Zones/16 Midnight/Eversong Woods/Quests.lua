@@ -393,20 +393,690 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--TODO: Sojourner of Eversong Woods missing (or not visible to client side) in 63534 build
 			--header(HEADERS.Achievement, xx, {	-- Sojourner of Eversong Woods
 				--header(HEADERS.AchiCriteria, xx.xx, {	-- ?
-					--q(xx, {	-- xx
-					--	["sourceQuests"] = { xx },	-- xx
-					--	["provider"] = { "n", XX },	-- XX
-					--	["coord"] = { 45.4, 70.3, EVERSONG_WOODS_MID },
-					--	["groups"] = {
-					--	},
-					--}),
-				--}),
-			--}),
-					--	["provider"] = { "n", XX },	-- XX
-					--	["coord"] = { 45.4, 70.3, EVERSONG_WOODS_MID },
-					--	["groups"] = {
-					--	},
-					--}),
+					-- Are silvermoon stuff consider as Eversongwood?
+					q(91386, {	-- Mad to Measure
+						--["sourceQuests"] = { xx },	-- TODO: intro quest, when swapping Isle map?
+						["provider"] = { "n", 247645 },	-- Solwin Brightstitch
+						["coord"] = { 48.4, 54.5, SILVERMOON_CITY_MID },
+					}),
+					q(92408, {	-- Material Gains
+						["sourceQuests"] = { 91386 },	-- Mad to Measure
+						["provider"] = { "n", 247645 },	-- Solwin Brightstitch
+						["coord"] = { 48.9, 55.0, SILVERMOON_CITY_MID },
+					}),
+					q(91388, {	-- Uncommon Threads
+						["sourceQuests"] = { 92408 },	-- Material Gains
+						["provider"] = { "n", 250888 },	-- Solwin Brightstitch
+						["coord"] = { 46.9, 35.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(250919),	-- Empty Manasilk Bobbin (QI!)
+							i(251521),	-- Full Bobbin of Manasilk (QI!)
+						},
+					}),
+					q(91389, {	-- Clothes Make the Man
+						["sourceQuests"] = { 91388 },	-- Uncommon Threads
+						["provider"] = { "n", 250888 },	-- Solwin Brightstitch
+						["coord"] = { 46.9, 35.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(258127),	-- Pattern: Blood Elf Drapery (RECIPE!)
+						},
+					}),
+					---
+					---TODO: move to delve in future?
+					q(93384, {	-- Delver's Call: Collegiate Calamity
+						--["sourceQuests"] = { xx },	-- xx
+						--["provider"] = { "o", XX },	-- Agitated Tome
+						["coord"] = { 41.7, 61.4, SILVERMOON_CITY_MID },
+					}),
+					---
+					q(90669, {	-- Gold is Gold
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 243290 },	-- Sarvi
+						["coord"] = { 54.5, 61.5, SILVERMOON_CITY_MID },
+					}),
+					q(89199, {	-- A Small Task
+						["sourceQuests"] = { 90669 },	-- Gold is Gold
+						["provider"] = { "n", 241393 },	-- Magister Aradis
+						["coord"] = { 54.0, 34.1, SILVERMOON_CITY_MID },
+						["groups"] = {
+							o(527218, {	-- 
+								i(239511),	-- Depleted Wardbreaker (QI!)
+							}),
+						},
+					}),
+					q(89200, {	-- Unraveling Wards
+						["sourceQuests"] = { 89199 },	-- A Small Task
+						["provider"] = { "n", 241405 },	-- Magister Aradis
+						["coord"] = { 54.1, 33.9, SILVERMOON_CITY_MID },
+					}),
+					q(89201, {	-- Outschemed
+						["sourceQuests"] = { 89200 },	-- Unraveling Wards
+						["provider"] = { "n", XX },	-- XX
+						["coord"] = { 37.4, 74.3, SILVERMOON_CITY_MID },
+						["groups"] = {
+							o(527240, {	-- 
+								i(239608),	-- Incriminating Documents (QI!)
+							}),
+						},
+					}),
+					q(89202, {	-- Stir the Nest
+						["sourceQuests"] = { 89201 },	-- Outschemed
+						["provider"] = { "n", 241398 },	-- Magister Dawnblaze
+						["coord"] = { 38.8, 75.6, SILVERMOON_CITY_MID },
+						["groups"] = {
+							i(259992),	-- Duplicate Documents (QI!)
+						},
+					}),
+					q(89203, {	-- Mutual Benefit
+						["sourceQuests"] = { 89202 },	-- Stir the Nest
+						["provider"] = { "n", 241399 },	-- Jaeth
+						["coord"] = { 51.9, 63.8, SILVERMOON_CITY_MID },
+					}),
+					q(89204, {	-- Five Finger Discount
+						["sourceQuests"] = { 89203 },	-- Mutual Benefit
+						["provider"] = { "n", 241399 },	-- Jaeth
+						["coord"] = { 51.9, 63.8, SILVERMOON_CITY_MID },
+						["groups"] = {
+							o(527364, {	-- 
+								i(241205),	-- Thrumming Amulet (QI!)
+							}),
+							o(527363, {	-- 
+								i(241208),	-- Basket of Spell Reagents (QI!)
+							}),
+							o(527365, {	-- 
+								i(241207),	-- Arcane Sword (QI!)
+							}),
+						},
+					}),
+					q(89205, {	-- Cutting a Key
+						["sourceQuests"] = { 89204 },	-- Five Finger Discount
+						["provider"] = { "n", 241401 },	-- Jaeth
+						["coord"] = { 50.8, 61.1, SILVERMOON_CITY_MID },
+						["groups"] = {
+							o(531508, {	-- 
+								i(242253),	-- Recharged Wardbreaker (QI!)
+							}),
+						},
+					}),
+					q(89206, {	-- Break and Enter
+						["sourceQuests"] = { 89205 },	-- Cutting a Key
+						["provider"] = { "n", 241402 },	-- Jaeth
+						["coord"] = { 54.2, 33.8, SILVERMOON_CITY_MID },
+					}),
+					q(89207, {	-- Rats Can Bite
+						["sourceQuests"] = { 89206 },	-- Break and Enter
+						["provider"] = { "n", 241403 },	-- Jaeth
+						["coord"] = { 54.3, 33.8, SILVERMOON_CITY_MID },
+					}),
+					q(89208, {	-- What We're Owed
+						["sourceQuests"] = { 89207 },	-- Rats Can Bite
+						["provider"] = { "n", 241404 },	-- Jaeth
+						["coord"] = { 53.0, 33.2, SILVERMOON_CITY_MID },
+					}),
+					---
+					q(90835, {	-- Rumors Abound
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 244493 },	-- Avara
+						["coord"] = { 56, 63.6, SILVERMOON_CITY_MID },
+						["groups"] = {
+						},
+					}),
+					q(90818, {	-- Loose Lips
+						["sourceQuests"] = { 90835 },	-- Rumors Abound
+						["provider"] = { "n", 245418 },	-- Belath Dawnblade
+						["coord"] = { 51.7, 64.2, SILVERMOON_CITY_MID },
+					}),
+					q(90837, {	-- Traces of Fel
+						["sourceQuests"] = { 90835 },	-- Rumors Abound
+						["provider"] = { "n", 245418 },	-- Belath Dawnblade
+						["coord"] = { 51.7, 64.2, SILVERMOON_CITY_MID },
+						["groups"] = {
+							o(539775, {	-- 
+								i(243240),	-- Drained Wyrm Core (QI!)
+							}),
+							o(539772, {	-- 
+								i(243237),	-- Bottled Fel Dust (QI!)
+							}),
+							o(539770, {	-- 
+								i(243236),	-- Stained Worker's Shirt (QI!)
+							}),
+							o(539773, {	-- 
+								i(243238),	-- Blackened Metal Fragment (QI!)
+							}),
+							o(539774, {	-- 
+								i(243239),	-- Handwritten List (QI!)
+							}),
+						},
+					}),
+					q(90819, {	-- Acting the Part
+						["sourceQuests"] = {
+							90818,	-- Loose Lips
+							90837,	-- Traces of Fel
+						},
+						["provider"] = { "n", 244443 },	-- Belath Dawnblade
+						["coord"] = { 56.1, 56.7, SILVERMOON_CITY_MID },
+						["groups"] = {
+							i(244407),	-- Cracked Wyrm Core (QI!)
+							i(253212),	-- Rogue's Signet (QI!)
+							o(539728, {	-- 
+								i(245566),	-- Fel Splinter (TODO: into uncollectible?)
+								i(244528),	-- Shipping Manifest (QI!)
+							}),
+						},
+					}),
+					q(90821, {	-- Harbored Secrets
+						["sourceQuests"] = { 90819 },	-- Acting the Part
+						["provider"] = { "n", 244454 },	-- Belath Dawnblade
+						["coord"] = { 54.5, 54.8, SILVERMOON_CITY_MID },
+						["groups"] = {
+							i(244547),	-- Folded Receipt (QI!)
+						},
+					}),
+					q(90822, {	-- Murder Row: One Fel Swoop (TODO: dungeon quest)
+						["sourceQuests"] = { 90821 },	-- Harbored Secrets
+						["provider"] = { "n", 245297 },	-- Belath Dawnblade
+						["coord"] = { 32.2, 26.0, SILVERMOON_CITY_MID },
+					}),
+					---
+					q(87455, {	-- Trials and Tabulations
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 238730 },	-- Tarenar Sunstrike
+						["coord"] = { 57.6, 68.8, SILVERMOON_CITY_MID },
+					}),
+					q(87456, {	-- Souvenirs Scattered
+						["sourceQuests"] = { 87455 },	-- Trials and Tabulations
+						["provider"] = { "n", 238732 },	-- Gidwin Goldbraids
+						["coord"] = { 33.4, 89.4, SILVERMOON_CITY_MID },
+						["groups"] = {
+							o(519235, {
+								i(237164),	-- Art and Architecture of Silvermoon: Vol. 3 (QI!)
+							}),
+							o(519240, {
+								i(237166),	-- Nondescript Bottle of Water (QI!)
+							}),
+							o(519237, {
+								i(237165),	-- Satchel of Herbs (QI!)
+							}),
+						},
+					}),
+					q(87457, {	-- What We Do Best
+						["sourceQuests"] = { 87455 },	-- Trials and Tabulations
+						["provider"] = { "n", 238732 },	-- Gidwin Goldbraids
+						["coord"] = { 33.4, 89.4, SILVERMOON_CITY_MID },
+						["groups"] = {
+							i(237167),	-- Antique Necklace (QI!)
+						},
+					}),
+					q(87458, {	-- Debts Paid
+						["sourceQuests"] = {
+							87456,	-- Souvenirs Scattered
+							87457,	-- What We Do Best
+						},
+						["provider"] = { "n", 238748 },	-- Gidwin Goldbraids
+						["coord"] = { 33.3, 90.4, SILVERMOON_CITY_MID },
+					}),
+					---
+					q(86997, {	-- Spellbook Scuffle
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 237873 },	-- Tytalor Goldenblade
+						["coord"] = { 39.4, 17.5, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(516363, {	-- 
+								i(235808),	--  Torn Spellbook Page (QI!)
+							}),
+						},
+					}),
+					q(86998, {	-- Training Arc
+						["sourceQuests"] = { 86997 },	-- Spellbook Scuffle
+						["provider"] = { "n", 237904 },	-- Tytalor Goldenblade
+						["coord"] = { 37.4, 18.7, EVERSONG_WOODS_MID },
+
+					}),
+					q(87002, {	-- Academic Aspirations
+						["sourceQuests"] = { 86998 },	-- Training Arc
+						["provider"] = { "n", 237905 },	-- Tytalor Goldenblade
+						["coord"] = { 38.5, 18.7, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(91284, {	-- A Path Not Yet Chosen
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 245192 },	-- Kyltus Bloodburn
+						["coord"] = { 42.6, 14.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(246166),	-- Farstrider Recommendation (QI!)
+							i(246167),	-- Blood Knight Recommendation (QI!)
+							i(246168),	-- Magister Recommendation (QI!)
+						},
+					}),
+					-- next 3 quest probably worth nesting into "groups" from quest above, since they are up only during it?
+					q(91288, {	-- A Test of the Hunt
+						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
+						["provider"] = { "n", 245202 },	-- Ranger Hannovia
+						["coord"] = { 42.2, 13.3, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(246153),	-- Invasive Lynx Pelt (QI!)
+						},
+					}),
+					q(91291, {	-- A Test of Blood
+						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
+						["provider"] = { "n", 245200 },	-- Jesthenis Sunstriker
+						["coord"] = { 43.0, 13.8, EVERSONG_WOODS_MID },
+					}),
+					q(91292, {	-- A Test of the Arcane
+						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
+						["provider"] = { "n", 245201 },	-- Magister Jaronis
+						["coord"] = { 43.2, 14.7, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(244539),	-- Arcane Transfer Staff (QI!)
+						},
+					}),
+					q(91301, {	-- How to Train Your Protege
+						["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen
+						["provider"] = { "n", 246557 },	-- Kyltus Bloodburn
+						["coord"] = { 42.6, 14.6, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(88977, {	-- Reenact the Crime
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 240403 },	-- Magister Meledor
+						["coord"] = { 41.1, 38.5, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(238730),	-- Arcane Timepiece (QI!)
+							i(240962),	-- Chewed-Up Letter of Devotion (QI!)
+							i(240946),	-- Digested Object (QI!)
+							i(240965),	-- Half Eaten Diplomatic Letter (QI!)
+							i(240964),	-- Mangled Scroll of Elven Etiquette (QI!)
+							i(240961),	-- Partially Digested Lor'themar Portrait Necklace (QI!)
+							i(240963),	-- Soggy Copy of 'Magic and You: An Arcane Awakening" (QI!)
+						},
+					}),
+					q(88978, {	-- Tracking the Trail
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 240408 },	-- Ranger Vardis
+						["coord"] = { 41.1, 38.5, EVERSONG_WOODS_MID },
+					}),
+					q(88979, {	-- Caught Red Handed
+						["sourceQuests"] = {
+							88977,	-- Reenact the Crime
+							88978,	-- Tracking the Trail
+						},
+						["provider"] = { "n", 240422 },	-- Magister Meledor
+						["coord"] = { 38.5, 39.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(526810, {
+								i(241192),	-- Chewed-Up Journal (QI!)
+							}),
+						},
+					}),
+					q(90544, {	-- Thief at Bark
+						["sourceQuests"] = { 88979 },	-- Caught Red Handed
+						["provider"] = { "n", 242688 },	-- Luma
+						["coord"] = { 39.9, 39.3, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(87392, {	-- Cargo Conspiracy
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 238490 },	-- Lyssara Duskmourne
+						["coord"] = { 46.9, 45.2, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(517146, {	-- 
+								i(237722),	-- Abandoned Note (QI!)
+							}),
+						},
+					}),
+					q(87394, {	-- Supplier Surveillance
+						["sourceQuests"] = { 87392 },	-- Cargo Conspiracy
+						["provider"] = { "n", 238490 },	-- Lyssara Duskmourne
+						["coord"] = { 46.9, 45.2, EVERSONG_WOODS_MID },
+					}),
+					q(87393, {	-- Warranted Search
+						["sourceQuests"] = { 87392 },	-- Cargo Conspiracy
+						["provider"] = { "n", 238490 },	-- Lyssara Duskmourne
+						["coord"] = { 46.9, 45.2, EVERSONG_WOODS_MID },
+					}),
+					q(87395, {	-- Below the Brine
+						["sourceQuests"] = {
+							87394,	-- Supplier Surveillance
+							87393,	-- Warranted Search
+						},
+						["provider"] = { "n", 238505 },	-- Lyssara Duskmourne
+						["coord"] = { 39.5, 44.9, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(239022),	-- Elixir of the Sea's Bounty (QI!)
+							o(520354, {	-- 
+								i(242552),	-- Unstable Arcana (QI!)
+							}),
+						},
+					}),
+					q(87397, {	-- Cargo Collateral
+						["sourceQuests"] = { 87395 },	-- Below the Brine
+						["provider"] = { "n", 239368 },	-- Lyssara Duskmourne
+						["coord"] = { 35.8, 43.8,, EVERSONG_WOODS_MID },
+					}),
+					q(87396, {	-- Dead to Rights
+						["sourceQuests"] = { 87395 },	-- Below the Brine
+						["provider"] = { "n", 239368 },	-- Lyssara Duskmourne
+						["coord"] = { 35.8, 43.8,, EVERSONG_WOODS_MID },
+					}),
+					q(87398, {	-- Smuggler Showdown
+						["sourceQuests"] = {
+							87397,	-- Cargo Collateral
+							87396,	-- Dead to Rights
+						},
+						["provider"] = { "n", 239368 },	-- Lyssara Duskmourne
+						["coord"] = { 35.8, 43.8, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(91493, {	-- Not What I Ordered
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
+						["coord"] = { 39.0, 61.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(556761, {	-- 
+								i(246914),	-- Perfectly Fine Grain (QI!)
+							}),
+							o(556758, {	-- 
+								i(246910),	-- Vintage Vintage (QI!)
+							}),
+							o(556760, {	-- 
+								i(246912),	-- Unstable Arcana (QI!)
+							}),
+							o(556762, {	-- 
+								i(246911),	-- Discarded Wand (QI!)
+							}),
+							o(556759, {	-- 
+								i(246913),	-- Magical Mango (QI!)
+							}),
+						},
+					}),
+					q(91505, {	-- Daggers in My Spine
+						["sourceQuests"] = { 91493 },	-- Not What I Ordered
+						["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
+						["coord"] = { 39.0, 61.6, EVERSONG_WOODS_MID },
+					}),
+					q(91494, {	-- One Elf's Trash, Another Elf's Treasure
+						["sourceQuests"] = { 91493 },	-- Not What I Ordered
+						["provider"] = { "n", 250298 },	-- Numia Golden
+						["coord"] = { 45.4, 70.3, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(247593),	-- Borrowed Wand (QI!)
+						},
+					}),
+					q(91495, {	-- Familiar Faces In Peril
+						["sourceQuests"] = { 91493 },	-- Not What I Ordered
+						["provider"] = { "n", 250291 },	-- Ranger Krenn'an
+						["coord"] = { 39.0, 61.6, EVERSONG_WOODS_MID },
+					}),
+					q(91504, {	-- Arcane Amassing
+						["sourceQuests"] = {
+							91505,	-- Daggers in My Spine
+							91495,	-- Familiar Faces In Peril
+							91494,	-- One Elf's Trash, Another Elf's Treasure
+						},
+						["provider"] = { "n", 250388 },	-- Hathvelion Sungaze
+						["coord"] = { 39.0, 61.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(247753),	-- Empowered Wand (QI!)
+							i(250317),	-- Pile of Ash (TODO: into uncollectible?)
+						},
+					}),
+					---
+					q(92022, {	-- A Venomous Vocation
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
+						["coord"] = { 37.5, 72.5, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(253869),	-- Potent Mournbat Venom (QI!)
+						},
+					}),
+					q(92021, {	-- Graveblossom Gardening
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
+						["coord"] = { 37.5, 72.5, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(568332, {
+								i(249471),	-- Pristine Graveblossom (QI!)
+							}),
+						},
+					}),
+					q(92023, {	-- Suspicious Sundries
+						["sourceQuests"] = {
+							92022,	-- A Venomous Vocation
+							92021,	-- Graveblossom Gardening
+						},
+						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
+						["coord"] = { 37.5, 72.5, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(254280),	-- Vial of Quicksilver (QI!)
+							i(254281),	-- Flask of Dragon's Blood (QI!)
+							i(254282),	-- Bottle of Magister's Reserve (QI!)
+						},
+					}),
+					q(92024, {	-- House Call
+						["sourceQuests"] = { 92023 },	-- Suspicious Sundries
+						["provider"] = { "n", 249426 },	-- Limien Bountcask
+						["coord"] = { 40.7, 60.1, EVERSONG_WOODS_MID },
+					}),
+					q(92025, {	-- Flowers for Amalthea
+						["sourceQuests"] = { 92024 },	-- House Call
+						["provider"] = { "n", 253058 },	-- Well-Loved Tome
+						["coord"] = { 37.4, 72.1, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(91271, {	-- A Fish!
+						--Required fishing to complete it, but not to accept it.
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 245745 },	-- Valdekar Solaar
+						["coord"] = { 48.8, 76.7, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(246379),	-- Absolutely Adequate Fish (QI!)
+							i(246382),	-- Fabulous Fish (QI!)
+							i(246380),	-- Fairly Fine Fish (QI!)
+							i(246381),	-- Pretty Plump Fish (QI!)
+						},
+					}),
+					q(91328, {	-- Secret Ingredients
+						["sourceQuests"] = { 91271 },	-- A Fish!
+						["provider"] = { "n", 245745 },	-- Valdekar Solaar
+						["coord"] = { 48.8, 76.7, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(555383, {
+								i(246364),	-- Belanise Blossom (QI!)
+							}),
+							o(555381, {
+								i(246363),	-- Sinara Berry (QI!)
+							}),
+						},
+					}),
+					q(91090, {	-- Pesky Pests
+						["sourceQuests"] = { 91271 },	-- A Fish!
+						["provider"] = { "n", 245748 },	-- Kaliel Solaar
+						["coord"] = { 48.8, 76.7, EVERSONG_WOODS_MID },
+					}),
+					q(91137, {	-- Lost In Light
+						["sourceQuests"] = {
+							91328,	-- Secret Ingredients
+							91090,	-- Pesky Pests
+						},
+						["provider"] = { "n", 245748 },	-- Kaliel Solaar
+						["coord"] = { 48.8, 76.7, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(87399, {	-- Facing the Sun
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 238083 },	-- Farstrider Sedina
+						["coord"] = { 50.5, 78.2, EVERSONG_WOODS_MID },
+					}),
+					q(87400, {	-- Scattered in Sunbeams
+						["sourceQuests"] = { 87399 },	-- Facing the Sun
+						["provider"] = { "n", 238083 },	-- Farstrider Sedina
+						["coord"] = { 50.5, 78.2, EVERSONG_WOODS_MID },
+					}),
+					q(87401, {	-- Gardener Mishap
+						["sourceQuests"] = { 87399 },	-- Facing the Sun
+						["provider"] = { "n", 238084 },	-- Harris Lightsbreath
+						["coord"] = { 50.5, 78.1, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(238677),	-- Humming Core (QI!)
+						},
+					}),
+					q(87402, {	-- The Light Provides
+						["sourceQuests"] = {
+							87401,	-- Gardener Mishap
+							87400,	-- Scattered in Sunbeams
+						},
+						["provider"] = { "n", 238084 },	-- Harris Lightsbreath
+						["coord"] = { 50.5, 78.1, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(246441),	-- Humming Core (QI!)
+						},
+					}),
+					---
+					q(91452, {	-- Range of Knowledge
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 246806 },	-- Arcanist Taemin
+						["coord"] = { 57.4, 40.0, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(555830, {
+ 								i(254557),	-- Index of Ranger Corps Recipes vol. VII (QI!)
+							}),
+							o(555823, {
+ 								i(254558),	-- Herbalist's Handbook: Eversong Medicinals (QI!)
+							}),
+							o(555832, {
+ 								i(254559),	-- Songs for the Silver Streams (QI!)
+							}),
+						},
+					}),
+					q(91342, {	-- If You Want It Done Right
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 246806 },	-- Arcanist Taemin
+						["coord"] = { 57.4, 40.0, EVERSONG_WOODS_MID },
+					}),
+					q(91462, {	-- To the Central Tower
+						["sourceQuests"] = {
+							91342,	-- If You Want It Done Right
+							91452,	-- Range of Knowledge
+						},
+						["provider"] = { "n", 246866 },	-- Captain Dawnrunner
+						["coord"] = { 56.7, 40.8, EVERSONG_WOODS_MID },
+
+					}),
+					q(91345, {	-- To the North Tower
+						["sourceQuests"] = {
+							91342,	-- If You Want It Done Right
+							91452,	-- Range of Knowledge
+						},
+						["provider"] = { "n", 246866 },	-- Captain Dawnrunner
+						["coord"] = { 56.7, 40.8, EVERSONG_WOODS_MID },
+					}),
+					--North Tower
+					q(91347, {	-- Strider Stampede
+						["sourceQuests"] = { 91345 },	-- To the North Tower
+						["provider"] = { "n", 247394 },	-- Ranger Valsarin
+						["coord"] = { 49.7, 48.3, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(568505 , {	-- 
+								i(249491),	-- Mysterious Bloom (QI!)
+							}),
+						},
+					}),
+					--TODO: there possible should be quest if north tower was last in chain?
+					--Central Tower
+					q(91348, {	-- See a Mana 'bout a Wyrm
+						["sourceQuests"] = { 91462 },	-- To the Central Tower
+						["provider"] = { "n", 247395 },	-- Ranger Asterae
+						["coord"] = { 48.6, 57.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(568439, {
+								i(249490),	-- Mysterious Bloom (QI!)
+							}),
+						},
+					}),
+					q(91463, {	-- To the South Tower
+						--TODO: this quest either up on both spot or specific when central was last?
+						["sourceQuests"] = {
+							91347,	-- Strider Stampede
+							91348,	-- See a Mana 'bout a Wyrm
+						},
+						["provider"] = { "n", 247395 },	-- Ranger Asterae
+						["coord"] = { 48.6, 57.6, EVERSONG_WOODS_MID },
+					}),
+					q(91349, {	-- The Dark Part of the Woods
+						["sourceQuests"] = { 91463 },	-- To the South Tower
+						["provider"] = { "n", 247500 },	-- Arcanist Taemin
+						["coord"] = { 43.9, 75.5, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(248244),	-- Corruption Resonator (QI!)
+							o(568515, {
+								i(249492),	-- Mysterious Bloom (QI!)
+							}),
+						},
+					}),
+					q(91350, {	-- A Real Assignment
+						["sourceQuests"] = { 91349 },	-- The Dark Part of the Woods
+						["provider"] = { "n", 247500 },	-- Arcanist Taemin
+						["coord"] = { 43.9, 75.5, EVERSONG_WOODS_MID },
+					}),
+					q(91384, {	-- Recovery Mission
+						["sourceQuests"] = { 91350 },	-- A Real Assignment
+						["provider"] = { "n", 247593 },	-- Captain Dawnrunner
+						["coord"] = { 59.4, 68.8, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(568254, {	-- 
+								i(249272),	-- Scattered Supplies (QI!)
+							}),
+						},
+					}),
+					q(91383, {	-- Tidy Up
+						["sourceQuests"] = { 91350 },	-- A Real Assignment
+						["provider"] = { "n", 247596 },	-- Arcanist Taemin
+						["coord"] = { 59.4, 68.9, EVERSONG_WOODS_MID },
+					}),
+					q(91385, {	-- A Ranger's Spirit
+						["sourceQuests"] = {
+							91384,	-- Recovery Mission
+							91383,	-- Tidy Up
+						},
+						["provider"] = { "n", 247593 },	-- Captain Dawnrunner
+						["coord"] = { 59.4, 68.8, EVERSONG_WOODS_MID },
+					}),
+					---
+					q(89383, {	-- One Adventurous Hatchling
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+					}),
+					q(89384, {	-- A Hungry Flock
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(244214),	-- Juicy Frog Leg (QI!)
+						},
+					}),
+					q(89386, {	-- A Roost-ed Development
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							o(547829, {	-- 
+								i(245531),	-- Golden Sunleaf (QI!)
+							}),
+						},
+					}),
+					q(89385, {	-- First Step Into Parenthood
+						["sourceQuests"] = {
+							89384,	-- A Hungry Flock
+							89386,	-- A Roost-ed Development
+							89383,	-- One Adventurous Hatchling
+						},
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+						["groups"] = {
+							i(244339),	-- Hawkstrider Egg (PET!)
+						},
+					}),
 				--}),
 			--}),
 		}),

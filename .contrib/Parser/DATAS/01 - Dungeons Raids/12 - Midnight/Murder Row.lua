@@ -38,6 +38,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				BossOnly(LITHIEL, {
 					ach(41960),	-- Murder Row
 				}),
+				n(MISC, {
+					i(236381),	-- Sargle's Fortune #12
+					-- Vednor consumable buff, one per player. Not sure if worth sourcing per npc
+					i(237765),	-- Hearthstop Blade
+					i(237763),	-- Felstone
+					i(235644),	-- Concealed Pistol
+					i(236332),	-- Suntouched Special Reserve
+					i(237764),	-- Exquisite Painting
+					i(253622),	-- Strangely Pleasant Painting (TODO: incase it will be decor in future builds, but trash atm)
+					i(253623),	-- Abstract Painting (TODO: incase it will be decor in future builds, but trash atm)
+				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
 				BossOnly(LITHIEL, {

@@ -10,7 +10,7 @@ local HEART = 2658;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
-	[bossConstant] = { XXXXX },	--
+	[EMBERDAWN] = { 231606 },	-- Emberdawn
 };
 
 ------ Boss Functions ------
@@ -23,8 +23,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		["coord"] = { 35.5, 78.8, EVERSONG_WOODS_MID },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = {
-			xx,	-- The Promenade
-			xx,	-- Veressa's Repose - Upper
+			2492,	-- The Promenade
+			2493,	-- Veressa's Repose - Upper
 			2494,	-- Veressa's Repose - Lower
 			xx,	-- Sylvanas's Quarters - Upper
 			2497,	-- Sylvanas's Quarters - Lower
