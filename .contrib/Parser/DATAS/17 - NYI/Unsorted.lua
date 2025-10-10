@@ -191,8 +191,6 @@ root(ROOTS.Unsorted, {
 			i(247495),	-- Vintage Duskwatch Cinch
 			i(247496),	-- Gleaming Celestial Waistguard
 			i(247561),	-- Gloves of Murmured Promises
-			i(247564),	-- Gauntlets of Fractured Dreams
-			i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 			i(247566),	-- Robes of Celestial Adornment
 			i(247567),	-- Cinch of Light
 			i(247568),	-- Windwhipped Sailcloth
@@ -288,8 +286,6 @@ root(ROOTS.Unsorted, {
 			i(248925),	-- Months Old Sourdough Bread
 			i(248926),	-- Ancient Thirteen Grain Loaf
 			i(248994),	-- Kalu'ak Crest-horn (MOUNT!)
-			i(249229),	-- Black Temple Scroll
-			i(249230),	-- Temple of Zin-Malor Scroll
 			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
 			i(249400),	-- Stack of Chronoqueries
 			i(249678),	-- Helheim Hound's Visor
@@ -2821,7 +2817,6 @@ root(ROOTS.Unsorted, {
 			i(169122),	-- Gibraltian Monkey Wrench
 			i(169125),	-- Sonic Drive Screw
 			i(169126),	-- Supercharged Graphics Cog
-			i(169146),	-- Brittle Thrust Booster
 			i(169190),	-- Blueprint: Mega-Sized Spare Parts \\ Blueprint: TK45
 			i(169193),	-- Nazjatar Ring A
 			i(169291),	-- Petrified Ebony Scale
@@ -2839,7 +2834,6 @@ root(ROOTS.Unsorted, {
 			i(169386),	-- Elune's Favor
 			i(169446),	-- Water Filled Bladder
 			i(169447),	-- Air Filled Bladder \\ Air Filled Bladder - NYI
-
 			i(169590),	-- Burgeoning Battlefield Furor \\ Azeroth's Undying Gift
 			i(169615),	-- Small Skull
 			i(169616),	-- Rusty Tube

@@ -147,6 +147,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(247636),	-- Portal Keeper's Cincture
 				i(247529),	-- Repulsive Leathery Pants
 				i(247534),	-- Scarred Ragefang Chestpiece
+				i(249683),	-- Shoulderguards of Divine Arts
 				i(247604),	-- Sinew-Stitched Wristguards
 				i(247527),	-- Splotched Bloodfur Leggings
 				i(247526),	-- Stained Maggot Squishers
@@ -170,11 +171,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(247639),	-- Deft Soulhunter's Sabatons
 				i(247641),	-- Depraved Tactician's Waistguard
 				i(247541),	-- Disjointed Linkage Leggings
+				i(247035),	-- Eagletalon Cowl
 				i(247448),	-- Emblazoned Duskwatch Belt
+				i(247564),	-- Gauntlets of Fractured Dreams
 				i(247538),	-- Gauntlets of Malevolent Intent
 				i(247506),	-- Gauntlets of the Demented Mind
 				i(247656),	-- Greatboots of the Searing Tempest
 				i(247539),	-- Greyed Dragonscale Coif
+				i(247036),	-- Helm of Shackled Elements
 				i(247476),	-- Hood of Fading Opportunity
 				i(247606),	-- Insulated Finpads
 				i(247536),	-- Laughing Sister's Pouch-Chain
@@ -239,6 +243,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(247614),	-- Soul-Render's Greatbelt
 				i(247612),	-- Steadfast Purifier's Warboots
 				i(247554),	-- Storm-Battered Legplates
+				i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 				i(247558),	-- Trampling Warboots
 				i(247650),	-- Vambraces of Life's Assurance
 				i(247652),	-- Varimathras' Shattered Manacles
