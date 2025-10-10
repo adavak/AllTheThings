@@ -76,8 +76,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				n(ZONE_REWARDS, {
 					filter(CLOAKS, {
-						i(242177),	-- Draping Cloak of the Hunting Dream
 						i(251876),	-- Cloak of the Hunting Dream
+						i(242177),	-- Draping Cloak of the Hunting Dream
+						i(247078),	-- Stormheart Drape
 					}),
 					filter(CLOTH, {
 						i(240740),	-- Hrydshal Runespeaker Bindings

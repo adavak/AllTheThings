@@ -395,7 +395,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["sourceQuest"] = 90755,	-- Time Flies
 		}),
 		q(91639, {	-- Embrace Your Own Legend
-			["sourceQuest"] = 90755,	-- Time Flies
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
@@ -504,6 +503,30 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		q(91722, {	-- Shape a New Legend
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 80,
+		}),
+		-- Infinite Epilogues
+		q(91522, {	-- Order from Chaos
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 80,
+		}),
+		q(91728, {	-- Suramar Liberated
+			["sourceQuest"] = 91522,	-- Order from Chaos
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 80,
+		}),
+		q(91729, {	-- Armies Gathered
+			["sourceQuest"] = 91728,	-- Suramar Liberated
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
+			["lvl"] = 80,
+		}),
+		q(91730, {	-- Azeroth Saved
+			["sourceQuest"] = 91729,	-- Armies Gathered
+			["qg"] = 243853,	-- Moratari
+			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
 			["lvl"] = 80,
 		}),
 	}),

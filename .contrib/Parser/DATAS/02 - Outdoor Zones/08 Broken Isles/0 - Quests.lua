@@ -480,7 +480,7 @@ root(ROOTS.Zones, {
 						q(44480, {	-- In My Father's House
 							["sourceQuest"] = 44479,	-- Ravencrest's Legacy
 							["provider"] = { "n", 113857 },	-- Light's Heart
-							["groups"] = { i(249230) },	-- Temple of Zin-Malor Scroll (QI!)
+							["groups"] = { i(249230, { ["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END }}) },	-- Temple of Zin-Malor Scroll (QI!)
 						}),
 						q(44496, {	-- Destiny Unfulfilled
 							["description"] = "There are three versions of this quest: One for Demon Hunters, one for players that have defeated Illidan in the Black Temple, and one for players that haven't.\n\nThis one is for players that haven't killed him.",
