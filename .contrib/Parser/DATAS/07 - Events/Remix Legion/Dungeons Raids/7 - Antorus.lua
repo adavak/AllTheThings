@@ -92,15 +92,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["_encounter"] = { 2031, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
-					ach(60875, {	-- Antorus the Burning Throne
-						-- Meta Achievement
-						["sym"] = {{"meta_achievement",
-							60871,	-- Light's Breach
-							60872,	-- Forbidden Descent
-							60873,	-- Hope's End
-							60874,	-- Seat of the Pantheon
-						}},
-					}),
+					ach(60875),		-- Antorus the Burning Throne (automated)
 					ach(60871, {	-- Light's Breach
 						crit(107182, {	-- Garothi Worldbreaker
 							["_encounter"] = { 1992, DIFFICULTY.RAID.MULTI.ALL },
