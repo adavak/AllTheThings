@@ -59,37 +59,37 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				n(ACHIEVEMENTS, {
 					ach(42554, {	-- Raid Finder: Antorus the Burning Throne
 						crit(108543, {	-- Garothi Worldbreaker
-							["_encounter"] = { 1992, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1992, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108542, {	-- Hounds of Sargeras
-							["_encounter"] = { 1987, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1987, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108541, {	-- Antoran High Command
-							["_encounter"] = { 1997, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1997, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108539, {	-- Eonar
-							["_encounter"] = { 2025, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2025, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108540, {	-- Portal Keeper Hasabel
-							["_encounter"] = { 1985, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1985, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108538, {	-- Imonar the Soulhunter
-							["_encounter"] = { 2009, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2009, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108537, {	-- Kin'garoth
-							["_encounter"] = { 2004, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2004, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108536, {	-- Varimathras
-							["_encounter"] = { 1983, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1983, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108535, {	-- The Coven of Shivarra
-							["_encounter"] = { 1986, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1986, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108534, {	-- Aggramar
-							["_encounter"] = { 1984, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1984, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108567, {	-- Argus the Unmaker
-							["_encounter"] = { 2031, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2031, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60875, {	-- Antorus the Burning Throne
@@ -103,43 +103,43 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					ach(60871, {	-- Light's Breach
 						crit(107182, {	-- Garothi Worldbreaker
-							["_encounter"] = { 1992, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1992, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107183, {	-- Hounds of Sargeras
-							["_encounter"] = { 1987, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1987, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107184, {	-- Antoran High Command
-							["_encounter"] = { 1997, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1997, DIFFICULTY.RAID.MULTI.ALL},
 						}),
 					}),
 					ach(60872, {	-- Forbidden Descent
 						crit(107186, {	-- Eonar
-							["_encounter"] = { 2025, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2025, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107185, {	-- Portal Keeper Hasabel
-							["_encounter"] = { 1985, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1985, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107187, {	-- Imonar the Soulhunter
-							["_encounter"] = { 2009, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2009, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60873, {	-- Hope's End
 						crit(107188, {	-- Kin'garoth
-							["_encounter"] = { 2004, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2004, DIFFICULTY.RAID.MULTI.ALL},
 						}),
 						crit(107189, {	-- Varimathras
-							["_encounter"] = { 1983, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1983, DIFFICULTY.RAID.MULTI.ALL},
 						}),
 						crit(107190, {	-- The Coven of Shivarra
-							["_encounter"] = { 1986, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1986, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60874, {	-- Seat of the Pantheon
 						crit(107191, {	-- Aggramar
-							["_encounter"] = { 1984, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 1984, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(106082, {	-- Argus the Unmaker
-							["_encounter"] = { 2031, DIFFICULTY.RAID.LFR },
+							["_encounter"] = { 2031, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(42664, {	-- Heroic: Antorus the Burning Throne
@@ -214,7 +214,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}),
 					}),
 				}),
-				Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
+				Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
 					header(HEADERS.Achievement, 60871, {	-- Light's Breach
 						BossOnly(WORLDBREAKER),
 						BossOnly(FELHOUNDS),
