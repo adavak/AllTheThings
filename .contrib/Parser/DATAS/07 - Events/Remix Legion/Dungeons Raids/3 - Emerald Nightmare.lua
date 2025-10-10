@@ -42,25 +42,25 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				n(ACHIEVEMENTS, {
 					ach(42603, {	-- Raid Finder: Emerald Nightmare
 						crit(108566, {	-- Nythendra
-							["_encounter"] = { 1703, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { NYTHENDRA, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108565, {	-- Elerethe Renferal
-							["_encounter"] = { 1744, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { ELERETHE, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108564, {	-- Il'gynoth, Heart of Corruption
-							["_encounter"] = { 1738, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { ILGYNOTH, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108563, {	-- Ursoc
-							["_encounter"] = { 1667, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { URSOC, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108562, {	-- Dragons of Nightmare
-							["_encounter"] = { 1704, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { DRAGONS_NIGHTMARE, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108569, {	-- Cenarius
-							["_encounter"] = { 1750, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { CENARIUS, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108569, {	-- Xavius
-							["_encounter"] = { 1726, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { XAVIUS, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60859, {	-- The Emerald Nightmare
@@ -73,75 +73,75 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					ach(60856, {	-- Darkbough
 						crit(107143, {	-- Nythendra
-							["_encounter"] = { 1703, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { NYTHENDRA, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107144, {	-- Elerethe Renferal
-							["_encounter"] = { 1744, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { ELERETHE, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107145, {	-- Il'gynoth, Heart of Corruption
-							["_encounter"] = { 1738, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { ILGYNOTH, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60857, {	-- Tormented Guardians
 						crit(107146, {	-- Ursoc
-							["_encounter"] = { 1667, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { URSOC, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107147, {	-- Dragons of Nightmare
-							["_encounter"] = { 1704, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { DRAGONS_NIGHTMARE, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107148, {	-- Cenarius
-							["_encounter"] = { 1750, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { CENARIUS, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60858, {	-- Rift of Aln
 						crit(106078, {	-- Xavius
-							["_encounter"] = { 1726, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { XAVIUS, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(42531, {	-- Heroic: Emerald Nightmare
 						crit(108492, {	-- Nythendra
-							["_encounter"] = { 1703, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { NYTHENDRA, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108491, {	-- Elerethe Renferal
-							["_encounter"] = { 1744, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { ELERETHE, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108490, {	-- Il'gynoth, Heart of Corruption
-							["_encounter"] = { 1738, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { ILGYNOTH, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108489, {	-- Ursoc
-							["_encounter"] = { 1667, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { URSOC, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108488, {	-- Dragons of Nightmare
-							["_encounter"] = { 1704, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { DRAGONS_NIGHTMARE, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108487, {	-- Cenarius
-							["_encounter"] = { 1750, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { CENARIUS, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108495, {	-- Xavius
-							["_encounter"] = { 1726, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { XAVIUS, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 					}),
 					ach(42651, {	-- Mythic: Emerald Nightmare
 						crit(108529, {	-- Nythendra
-							["_encounter"] = { 1703, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { NYTHENDRA, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108528, {	-- Elerethe Renferal
-							["_encounter"] = { 1744, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { ELERETHE, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108527, {	-- Il'gynoth, Heart of Corruption
-							["_encounter"] = { 1738, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { ILGYNOTH, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108526, {	-- Ursoc
-							["_encounter"] = { 1667, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { URSOC, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108525, {	-- Dragons of Nightmare
-							["_encounter"] = { 1704, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { DRAGONS_NIGHTMARE, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108524, {	-- Cenarius
-							["_encounter"] = { 1750, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { CENARIUS, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108532, {	-- Xavius
-							["_encounter"] = { 1726, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { XAVIUS, DIFFICULTY.RAID.MYTHIC },
 						}),
 					}),
 				}),

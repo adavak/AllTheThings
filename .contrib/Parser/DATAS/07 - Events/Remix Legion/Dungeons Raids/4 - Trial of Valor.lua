@@ -32,46 +32,46 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				n(ACHIEVEMENTS, {
 					ach(42558, {	-- Raid Finder: Trial of Valor
 						crit(108625, {	-- Odyn
-							["_encounter"] = { 1819, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { ODYN, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108624, {	-- Guarm
-							["_encounter"] = { 1830, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { GUARM, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(108626, {	-- Helya
-							["_encounter"] = { 1829, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { HELYA, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(60860, {	-- Trial of Valor
 						crit(107152, {	-- Odyn
-							["_encounter"] = { 1819, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { ODYN, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(107153, {	-- Guarm
-							["_encounter"] = { 1830, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { GUARM, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 						crit(106071, {	-- Helya
-							["_encounter"] = { 1829, DIFFICULTY.RAID.MULTI.ALL },
+							["_encounter"] = { HELYA, DIFFICULTY.RAID.MULTI.ALL },
 						}),
 					}),
 					ach(42639, {	-- Heroic: Trial of Valor
 						crit(108619, {	-- Odyn
-							["_encounter"] = { 1819, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { ODYN, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108618, {	-- Guarm
-							["_encounter"] = { 1830, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { GUARM, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 						crit(108620, {	-- Helya
-							["_encounter"] = { 1829, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
+							["_encounter"] = { HELYA, DIFFICULTY.RAID.MULTI.HEROIC_PLUS },
 						}),
 					}),
 					ach(42636, {	-- Mythic: Trial of Valor
 						crit(108622, {	-- Odyn
-							["_encounter"] = { 1819, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { ODYN, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108621, {	-- Guarm
-							["_encounter"] = { 1830, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { GUARM, DIFFICULTY.RAID.MYTHIC },
 						}),
 						crit(108623, {	-- Helya
-							["_encounter"] = { 1829, DIFFICULTY.RAID.MYTHIC },
+							["_encounter"] = { HELYA, DIFFICULTY.RAID.MYTHIC },
 						}),
 					}),
 					ach(61024, {	-- The Deathless Champion

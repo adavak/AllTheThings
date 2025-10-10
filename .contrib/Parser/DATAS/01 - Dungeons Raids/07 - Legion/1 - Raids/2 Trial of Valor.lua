@@ -90,24 +90,24 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ach(11762, {["timeline"] = {ADDED_7_2_0}}),	-- Can I Get A Helya (Trial of Valor)
 				ach(11394, {	-- Trial of Valor
 					crit(34578, {	-- Odyn
-						["_encounter"] = { 1819, DIFFICULTY.RAID.MULTI.ALL },
+						["_encounter"] = { ODYN, DIFFICULTY.RAID.MULTI.ALL },
 					}),
 					crit(34800, {	-- Guarm
-						["_encounter"] = { 1830, DIFFICULTY.RAID.MULTI.ALL },
+						["_encounter"] = { GUARM, DIFFICULTY.RAID.MULTI.ALL },
 					}),
 					crit(34799, {	-- Helya
-						["_encounter"] = { 1829, DIFFICULTY.RAID.MULTI.ALL },
+						["_encounter"] = { HELYA, DIFFICULTY.RAID.MULTI.ALL },
 					}),
 				}),
 				ach(11426, {	-- Heroic: Trial of Valor
 					crit(34839, {	-- Odyn
-						["_encounter"] = { 1819, DIFFICULTY.RAID.HEROIC },
+						["_encounter"] = { ODYN, DIFFICULTY.RAID.HEROIC },
 					}),
 					crit(34841, {	-- Guarm
-						["_encounter"] = { 1830, DIFFICULTY.RAID.HEROIC },
+						["_encounter"] = { GUARM, DIFFICULTY.RAID.HEROIC },
 					}),
 					crit(34840, {	-- Helya
-						["_encounter"] = { 1829, DIFFICULTY.RAID.HEROIC },
+						["_encounter"] = { HELYA, DIFFICULTY.RAID.HEROIC },
 					}),
 				}),
 				ach(11403),	-- Trial of Valor Guild Run
