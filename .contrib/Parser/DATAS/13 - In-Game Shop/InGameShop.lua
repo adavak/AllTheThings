@@ -405,6 +405,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_7 },
 		}),
 
+		iensemble(246291, {	-- Ensemble: Lana'thel's Crimson Couture
+			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
+		}),
+
 		------ Murloc Shells Set ------
 		i(188135, {	-- Frrgl's Shaking Shell
 			["timeline"] = { ADDED_9_1_5 },
@@ -657,7 +661,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_2_5_4_A },
 		}),
 		-- #endif
-		mount(1233925, {	-- Lana'Thel's Crimson Cascade (MOUNT!)
+		i(242795, {	-- Lana'Thel's Crimson Cascade (MOUNT!)
 			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
 		}),
 		mount(308087, {	-- Lucky Yun (MOUNT!)
