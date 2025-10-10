@@ -157,14 +157,16 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1 },
 			}),
-			ach(7946, {		-- Now You're Just Showing Off (Season 1) (Alliance)
+			-- Wouter NOTE: idk wth Blizzard is doing but they locked people out of queuing 1 after obtaining Rank 8 (like 1 day after patch) so this isn't available yet,
+			-- 				probably because Disruptron was bugged or whatever
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(7946, {		-- Now You're Just Showing Off (Season 1) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			ach(8022, {		-- Now You're Just Showing Off (Season 1) (Horde)
+			})),
+			applyclassicphase(MOP_PHASE_ESCALATION, ach(8022, {		-- Now You're Just Showing Off (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
+			})),
 			ach(9171, {		-- Now You're Just Showing Off (Season 2) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
@@ -361,6 +363,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			faction(FACTION_BRAWLPUB_SEASON_1, {	-- Bizmo's Brawlpub (Season 1) (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				-- #if BEFORE 5.5.3
+				["description"] = "Before Phase 4, you can only reach Rank 8.",
+				["minReputation"] = { FACTION_BRAWLPUB_SEASON_1, 8 },	-- Rank 8
+				-- #endif
 			}),
 			faction(FACTION_BRAWLPUB_SEASON_2, {	-- Bizmo's Brawlpub (Season 2) (Alliance)
 				["races"] = ALLIANCE_ONLY,
@@ -377,6 +383,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			faction(FACTION_BRAWLGAR_SEASON_1, {	-- Brawl'gar Arena (Season 1) (Horde)
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				-- #if BEFORE 5.5.3
+				["description"] = "Before Phase 4, you can only reach Rank 8.",
+				["maxReputation"] = { FACTION_BRAWLGAR_SEASON_1, 8 },	-- Rank 8
+				-- #endif
 			}),
 			faction(FACTION_BRAWLGAR_SEASON_2, {	-- Brawl'gar Arena (Season 2) (Horde)
 				["races"] = HORDE_ONLY,
