@@ -99,17 +99,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
-					n(ARMOR, bubbleDown({ ["modID"] = 0 }, {
-						filter(CLOTH, {
-						}),
-						filter(LEATHER, {
-							i(249683),	-- Shoulderguards of Divine Arts
-						}),
-						filter(MAIL, {
-						}),
-						filter(PLATE, {
-						}),
-					})),
 					BossOnly(ODYN),
 					BossOnly(GUARM),
 					BossOnly(HELYA),

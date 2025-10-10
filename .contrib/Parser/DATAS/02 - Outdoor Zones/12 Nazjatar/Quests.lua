@@ -2525,7 +2525,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
-				i(168421),	-- Fathom Ray Egg (QI!)
+				o(326239, {	-- Fathom Egg
+					i(168421),	-- Fathom Ray Egg (QI!)
+				}),
 				i(168425),	-- Swim Jet (QI!)
 			},
 		}),

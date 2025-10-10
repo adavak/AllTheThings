@@ -79,6 +79,11 @@ root(ROOTS.Zones, {
 						96038,	-- Jale Rivermane
 					},
 					["coord"] = { 38.4, 61.3, HIGHMOUNTAIN },
+					["groups"] = {
+						o(243639, {	-- Siphoning Crystal
+							i(128393),	-- Empowered Crystal (QI!)
+						}),
+					},
 				}),
 				q(38915, {	-- Battle of Snowblind Mesa
 					["sourceQuests"] = {
@@ -973,7 +978,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
 					["groups"] = {
 						o(245620, {	-- Mu'sha's Tears
-							["coord"] = { 57.6, 10.6, 652 },	-- Thunder Totem
+							["coord"] = { 57.6, 10.6, 750 },	-- Thunder Totem
 							["groups"] = { i(132248) },	-- Mu'sha's Tears (QI!)
 						}),
 					},
