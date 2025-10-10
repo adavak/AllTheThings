@@ -2164,7 +2164,7 @@ i(253029, 1255475);	-- High Priest's Felscorned Seeker
 i(250429, 1250886);	-- Highland Elderhorn
 i(250427, 1250884);	-- Illidari Blightstalker
 i(250428, 1250882);	-- Illidari Dreadstalker
-i(0, 1233925);	-- Lana'Thel's Crimson Cascade
+i(242795, 1233925);	-- Lana'Thel's Crimson Cascade
 i(250424, 1250879);	-- Leystone Basilisk
 i(250805, 1251399);	-- Longhorned Argussian Talbuk
 i(250806, 1251400);	-- Longhorned Beryl Talbuk
