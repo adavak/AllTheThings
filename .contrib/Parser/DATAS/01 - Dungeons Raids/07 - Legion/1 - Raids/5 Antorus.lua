@@ -42,7 +42,6 @@ local EncounterToCRS = {
 	},
 	[AGGRAMAR] = { 121975 },	-- Aggramar
 	[ARGUS] = { 124828 },	-- Argus the Unmaker
-
 };
 
 ------ EncounterToLoot ------

@@ -359,7 +359,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 			}),
 			q(37960, {	-- Leyline Abuse
 				["sourceQuests"] = { 37857 },	-- Runas Knows the Way
-				["provider"] = { "n", 89978 },	-- Projection of Senegos
+				["qgs"] = {
+					89978,	-- Projection of Senegos
+					90569,	-- Projection of Senegos
+				},
 				["coord"] = { 53.4, 16.3, AZSUNA },
 			}),
 			q(37657, {	-- Making the World Safe for Profit
