@@ -451,7 +451,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					q(89201, {	-- Outschemed
 						["sourceQuests"] = { 89200 },	-- Unraveling Wards
-						["provider"] = { "n", XX },	-- XX
+						--["provider"] = { "n", XX },	-- XX
 						["coord"] = { 37.4, 74.3, SILVERMOON_CITY_MID },
 						["groups"] = {
 							o(527240, {	--
