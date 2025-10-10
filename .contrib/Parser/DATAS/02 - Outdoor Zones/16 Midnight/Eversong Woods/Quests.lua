@@ -395,9 +395,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				--header(HEADERS.AchiCriteria, xx.xx, {	-- ?
 					-- Are silvermoon stuff consider as Eversongwood?
 					q(91386, {	-- Mad to Measure
-						--["sourceQuests"] = { xx },	-- TODO: intro quest, when swapping Isle map?
 						["provider"] = { "n", 247645 },	-- Solwin Brightstitch
 						["coord"] = { 48.4, 54.5, SILVERMOON_CITY_MID },
+						--["sourceQuests"] = { xx },	-- TODO: intro quest, when swapping Isle map?
 					}),
 					q(92408, {	-- Material Gains
 						["sourceQuests"] = { 91386 },	-- Mad to Measure
@@ -424,15 +424,15 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					---
 					---TODO: move to delve in future?
 					q(93384, {	-- Delver's Call: Collegiate Calamity
+						["coord"] = { 41.7, 61.4, SILVERMOON_CITY_MID },
 						--["sourceQuests"] = { xx },	-- xx
 						--["provider"] = { "o", XX },	-- Agitated Tome
-						["coord"] = { 41.7, 61.4, SILVERMOON_CITY_MID },
 					}),
 					---
 					q(90669, {	-- Gold is Gold
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 243290 },	-- Sarvi
 						["coord"] = { 54.5, 61.5, SILVERMOON_CITY_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(89199, {	-- A Small Task
 						["sourceQuests"] = { 90669 },	-- Gold is Gold
@@ -515,9 +515,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(90835, {	-- Rumors Abound
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 244493 },	-- Avara
 						["coord"] = { 56, 63.6, SILVERMOON_CITY_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 						},
 					}),
@@ -579,9 +579,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(87455, {	-- Trials and Tabulations
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 238730 },	-- Tarenar Sunstrike
 						["coord"] = { 57.6, 68.8, SILVERMOON_CITY_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(87456, {	-- Souvenirs Scattered
 						["sourceQuests"] = { 87455 },	-- Trials and Tabulations
@@ -617,9 +617,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(86997, {	-- Spellbook Scuffle
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 237873 },	-- Tytalor Goldenblade
 						["coord"] = { 39.4, 17.5, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							o(516363, {	-- 
 								i(235808),	--  Torn Spellbook Page (QI!)
@@ -630,7 +630,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["sourceQuests"] = { 86997 },	-- Spellbook Scuffle
 						["provider"] = { "n", 237904 },	-- Tytalor Goldenblade
 						["coord"] = { 37.4, 18.7, EVERSONG_WOODS_MID },
-
 					}),
 					q(87002, {	-- Academic Aspirations
 						["sourceQuests"] = { 86998 },	-- Training Arc
@@ -639,9 +638,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(91284, {	-- A Path Not Yet Chosen
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 245192 },	-- Kyltus Bloodburn
 						["coord"] = { 42.6, 14.6, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							i(246166),	-- Farstrider Recommendation (QI!)
 							i(246167),	-- Blood Knight Recommendation (QI!)
@@ -650,22 +649,22 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					-- next 3 quest probably worth nesting into "groups" from quest above, since they are up only during it?
 					q(91288, {	-- A Test of the Hunt
-						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
 						["provider"] = { "n", 245202 },	-- Ranger Hannovia
 						["coord"] = { 42.2, 13.3, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
 						["groups"] = {
 							i(246153),	-- Invasive Lynx Pelt (QI!)
 						},
 					}),
 					q(91291, {	-- A Test of Blood
-						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
 						["provider"] = { "n", 245200 },	-- Jesthenis Sunstriker
 						["coord"] = { 43.0, 13.8, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
 					}),
 					q(91292, {	-- A Test of the Arcane
-						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
 						["provider"] = { "n", 245201 },	-- Magister Jaronis
 						["coord"] = { 43.2, 14.7, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
 						["groups"] = {
 							i(244539),	-- Arcane Transfer Staff (QI!)
 						},
@@ -677,9 +676,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(88977, {	-- Reenact the Crime
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 240403 },	-- Magister Meledor
 						["coord"] = { 41.1, 38.5, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							i(238730),	-- Arcane Timepiece (QI!)
 							i(240962),	-- Chewed-Up Letter of Devotion (QI!)
@@ -691,9 +690,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(88978, {	-- Tracking the Trail
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 240408 },	-- Ranger Vardis
 						["coord"] = { 41.1, 38.5, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(88979, {	-- Caught Red Handed
 						["sourceQuests"] = {
@@ -715,9 +714,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(87392, {	-- Cargo Conspiracy
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 238490 },	-- Lyssara Duskmourne
 						["coord"] = { 46.9, 45.2, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							o(517146, {	-- 
 								i(237722),	-- Abandoned Note (QI!)
@@ -768,9 +767,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(91493, {	-- Not What I Ordered
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
 						["coord"] = { 39.0, 61.6, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							o(556761, {	-- 
 								i(246914),	-- Perfectly Fine Grain (QI!)
@@ -822,17 +821,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(92022, {	-- A Venomous Vocation
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
 						["coord"] = { 37.5, 72.5, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							i(253869),	-- Potent Mournbat Venom (QI!)
 						},
 					}),
 					q(92021, {	-- Graveblossom Gardening
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
 						["coord"] = { 37.5, 72.5, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							o(568332, {
 								i(249471),	-- Pristine Graveblossom (QI!)
@@ -864,10 +863,10 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(91271, {	-- A Fish!
-						--Required fishing to complete it, but not to accept it.
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 245745 },	-- Valdekar Solaar
 						["coord"] = { 48.8, 76.7, EVERSONG_WOODS_MID },
+						--Required fishing to complete it, but not to accept it.
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							i(246379),	-- Absolutely Adequate Fish (QI!)
 							i(246382),	-- Fabulous Fish (QI!)
@@ -903,9 +902,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(87399, {	-- Facing the Sun
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 238083 },	-- Farstrider Sedina
 						["coord"] = { 50.5, 78.2, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(87400, {	-- Scattered in Sunbeams
 						["sourceQuests"] = { 87399 },	-- Facing the Sun
@@ -933,9 +932,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(91452, {	-- Range of Knowledge
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 246806 },	-- Arcanist Taemin
 						["coord"] = { 57.4, 40.0, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							o(555830, {
  								i(254557),	-- Index of Ranger Corps Recipes vol. VII (QI!)
@@ -949,9 +948,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(91342, {	-- If You Want It Done Right
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 246806 },	-- Arcanist Taemin
 						["coord"] = { 57.4, 40.0, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(91462, {	-- To the Central Tower
 						["sourceQuests"] = {
@@ -960,7 +959,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 						["provider"] = { "n", 246866 },	-- Captain Dawnrunner
 						["coord"] = { 56.7, 40.8, EVERSONG_WOODS_MID },
-
 					}),
 					q(91345, {	-- To the North Tower
 						["sourceQuests"] = {
@@ -994,13 +992,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(91463, {	-- To the South Tower
-						--TODO: this quest either up on both spot or specific when central was last?
 						["sourceQuests"] = {
 							91347,	-- Strider Stampede
 							91348,	-- See a Mana 'bout a Wyrm
 						},
 						["provider"] = { "n", 247395 },	-- Ranger Asterae
 						["coord"] = { 48.6, 57.6, EVERSONG_WOODS_MID },
+						--TODO: this quest either up on both spot or specific when central was last?
 					}),
 					q(91349, {	-- The Dark Part of the Woods
 						["sourceQuests"] = { 91463 },	-- To the South Tower
@@ -1043,22 +1041,22 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---
 					q(89383, {	-- One Adventurous Hatchling
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
 						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(89384, {	-- A Hungry Flock
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
 						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							i(244214),	-- Juicy Frog Leg (QI!)
 						},
 					}),
 					q(89386, {	-- A Roost-ed Development
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
 						["coord"] = { 56.8, 35.6, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 						["groups"] = {
 							o(547829, {	-- 
 								i(245531),	-- Golden Sunleaf (QI!)

@@ -332,13 +332,13 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40069 },	-- Fledgling Worm Guts
 					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 49.4, 39.2, HIGHMOUNTAIN },
+				--	didn't require "Eagle Egg Recovery" or "Tamer Takedown."
 					["groups"] = {
 						o(250413, {	-- Oren's Prized Possessions
 							["coord"] = { 49.4, 39.3, HIGHMOUNTAIN },
 							["groups"] = { i(137566) },	-- Oren's Prized Possessions (QI!)
 						}),
 					},
-				--	didn't require "Eagle Egg Recovery" or "Tamer Takedown."
 				}),
 				q(39025, {	-- Grasp of the Underking
 					["sourceQuests"] = { 42104 },	-- The Underking Comes
