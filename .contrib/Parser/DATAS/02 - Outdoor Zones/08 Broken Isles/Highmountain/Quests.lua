@@ -137,7 +137,7 @@ root(ROOTS.Zones, {
 				q(42630, {	-- Bolas Bastion
 					["sourceQuests"] = { 39387 },	-- The Skies of Highmountain
 					["provider"] = { "n", 107660 },	-- Bolas Skyfeather
-					["coord"] = { 43.0, 39.3, HIGHMOUNTAIN },
+					["coord"] = { 43.0, 39.3, 750 },	-- Thunder Totem
 				}),
 				q(40345, {	-- Burn the Candle at Both Ends
 					["sourceQuests"] = { 40339 },	-- Candle of Command
@@ -278,6 +278,20 @@ root(ROOTS.Zones, {
 				q(40070, {	-- Eagle Egg Recovery
 					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 50.9, 36.6, HIGHMOUNTAIN },
+					["groups"] = {
+						o(244841, {	-- Eagle Egg
+							["coords"] = {
+								{ 48.3, 41.0, HIGHMOUNTAIN },
+								{ 49.3, 37.1, HIGHMOUNTAIN },
+								{ 49.3, 38.0, HIGHMOUNTAIN },
+								{ 49.8, 36.2, HIGHMOUNTAIN },
+								{ 50.3, 34.9, HIGHMOUNTAIN },
+								{ 50.8, 35.3, HIGHMOUNTAIN },
+								{ 50.8, 37.1, HIGHMOUNTAIN },
+							},
+							["groups"] = { i(128760) },	-- Eagle Egg (QI!)
+						}),
+					},
 				}),
 				q(39305, {	-- Empty Nest
 					["sourceQuests"] = {
@@ -318,6 +332,12 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40069 },	-- Fledgling Worm Guts
 					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 49.4, 39.2, HIGHMOUNTAIN },
+					["groups"] = {
+						o(250413, {	-- Oren's Prized Possessions
+							["coord"] = { 49.4, 39.3, HIGHMOUNTAIN },
+							["groups"] = { i(137566) },	-- Oren's Prized Possessions (QI!)
+						}),
+					},
 				--	didn't require "Eagle Egg Recovery" or "Tamer Takedown."
 				}),
 				q(39025, {	-- Grasp of the Underking
@@ -689,6 +709,20 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39440 },	-- You Lift, Brul?
 					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["coord"] = { 52.3, 61.6, 659 },	-- Stonedark Grotto
+					["groups"] = {
+						o(243971, {	-- Chains of Resistance
+							["coord"] = { 76.4, 53, 659 },	-- Stonedark Grotto
+							["groups"] = { i(128697) },	-- Chains of Resistance (QI!)
+						}),
+						o(243973, {	-- Rod of Bearing
+							["coord"] = { 54.7, 73.6, 659 },	-- Stonedark Grotto
+							["groups"] = { i(128704) },	-- Rod of Bearing (QI!)
+						}),
+						o(243972, {	-- Wheel of Fortitude
+							["coord"] = { 73.3, 75.2, 659 },	-- Stonedark Grotto
+							["groups"] = { i(128703) },	-- Wheel of Fortitude (QI!)
+						}),
+					},
 				}),
 				q(40071, {	-- Tamer Takedown
 					["provider"] = { "n", 94068 },	-- Oren Windstrider

@@ -290,6 +290,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 
 		------ Celestial Observer Set ------
+		-- #if AFTER 11.2.5
+		iensemble(255824, {	-- Ensemble: Celestial Observer
+			["timeline"] = { ADDED_11_2_5 },
+		}),
+		-- #else
 		i(184832, {	-- Celestial Observer's Astral Walkers
 			["timeline"] = { ADDED_9_1_5 },
 		}),
@@ -317,6 +322,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(184834, {	-- Celestial Observer's Wristwrap
 			["timeline"] = { ADDED_9_1_5 },
 		}),
+		-- #endif
 
 		------ Dreadlord's Shadowsbane Set ------
 		iensemble(212218, {	-- Ensemble: Dreadlord's Shadowsbane Regalia
@@ -343,7 +349,16 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_11_1_5 },
 		}),
 
+		iensemble(246989, {	-- Ensemble: Felreaver's Arcane Attire
+			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
+		}),
+
 		------ Fireplume Set ------
+		-- #if AFTER 11.2.5
+		iensemble(255815, {	-- Ensemble: Fireplume Regalia
+			["timeline"] = { ADDED_11_2_5 },
+		}),
+		-- #else
 		i(191616, {	-- Fireplume Crest
 			["timeline"] = { ADDED_10_0_2_LAUNCH },
 		}),
@@ -383,6 +398,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(191779, {	-- Fireplume Halter
 			["timeline"] = { ADDED_10_0_2_LAUNCH },
 		}),
+		-- #endif
 
 		------ Green Snugglefin Murloc Romper Set ------
 		iensemble(223485, {	-- Ensemble: Green Snugglefin Murloc Romper
@@ -409,6 +425,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		iensemble(239443, { ["timeline"] = { ADDED_11_2_0 } }),	-- Ensemble: Spiritrune Attire
 
 		------ Sprite Darter Set ------
+		-- #if AFTER 11.2.5
+		iensemble(255817, {	-- Ensemble: Sprite Darter's Wings
+			["timeline"] = { ADDED_11_2_5 },
+		}),
+		-- #else
 		i(172378, {	-- Sprite Darter's Bangle
 			["timeline"] = { ADDED_8_3_0 },
 		}),
@@ -433,6 +454,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(172380, {	-- Sprite Darter's Trousers
 			["timeline"] = { ADDED_8_3_0 },
 		}),
+		-- #endif
 
 		------ Vestments of the Heavens Sets ------
 		iensemble(233052, {	-- Ensemble: Radiant Vestments of the Heavens
@@ -635,6 +657,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_2_5_4_A },
 		}),
 		-- #endif
+		mount(1233925, {	-- Lana'Thel's Crimson Cascade (MOUNT!)
+			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
+		}),
 		mount(308087, {	-- Lucky Yun (MOUNT!)
 			["timeline"] = { ADDED_9_0_2 },
 		}),

@@ -231,6 +231,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}),
 		}),
 		mapped(REWARDS, {
+			i(239247),	-- Bonus Experience
 		}),
 		inst(777, {	-- Assault of Violet Hold (Legion)
 			["coord"] = { 66.2, 68.3, LEGION_DALARAN },

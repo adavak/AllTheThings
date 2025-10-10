@@ -33,7 +33,6 @@ root(ROOTS.Unsorted, {
 			i(238460),	-- [DNT] World Boss Token
 			i(238461),	-- [DNT] Minus Mob Token
 			i(239205),	-- [DNT] Raid Boss Token, Consolation
-			i(239247),	-- Bonus Experience
 			i(239303),	-- Cache of Infinite Treasure
 			i(239647),	-- Reins of the Bloodguard Fel Bat (MOUNT!)
 			i(239666),	-- Reins of the Risen Fel Bat (MOUNT!)
@@ -496,8 +495,6 @@ root(ROOTS.Unsorted, {
 			i(251990),	-- Trapper's Light Brown Quiver
 			i(251991),	-- Trapper's Red Quiver
 			i(251992),	-- Trapper's Purple Quiver
-			i(251993),	-- Gilded Starlight Matrix
-			i(251994),	-- Runed Starlight Matrix
 			i(251995),	-- Trapper's Blue Slippers
 			i(251996),	-- Gold-Plated Sabatons
 			i(251999),	-- Flawed Felfire Crystal
@@ -598,14 +595,6 @@ root(ROOTS.Unsorted, {
 				i(246979),	-- Felreaver's Hellfire Helm
 				i(246980),	-- Felreaver's Hellfire Treads
 				i(246981),	-- Ensemble: Felreaver's Hellfire Attire
-				i(246982),	-- Felreaver's Arcane Gauntlets
-				i(246983),	-- Felreaver's Arcane Legguards
-				i(246984),	-- Felreaver's Arcane Belt
-				i(246985),	-- Felreaver's Arcane Jacket
-				i(246986),	-- Felreaver's Arcane Shoulderguards
-				i(246987),	-- Felreaver's Arcane Helm
-				i(246988),	-- Felreaver's Arcane Treads
-				i(246989),	-- Ensemble: Felreaver's Arcane Attire
 				i(246990),	-- Felreaver's Azure Staff
 				i(246994),	-- Felreaver's Hellfire Staff
 				i(246996),	-- Felreaver's Azure Wand
