@@ -160,6 +160,75 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						BossOnly(XAVIUS),
 					}),
 				}),
+				Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
+					filter(CLOAKS, {
+						i(247560),	-- Evergreen Vinewrap Drape
+						i(247512),	-- Gossamer-Spun Greatcloak
+					}),
+					filter(CLOTH, {
+						i(247517),	-- Ancient Dreamwoven Mantle
+						i(247514),	-- Celestially Aligned Hood
+						i(247513),	-- Clasp of Cosmic Insignificance
+						i(247520),	-- Cozy Dryad Hoof-Socks
+						i(247521),	-- Crimson Wool-Lined Slippers
+						i(247507),	-- Dreamscale Inlaid Vestments
+						i(247505),	-- Handwraps of Delusional Power
+						i(247515),	-- Hood of Darkened Visions
+						i(247519),	-- Maddening Robe of Secrets
+						i(247518),	-- Mantle of Perpetual Bloom
+						i(247509),	-- Pliable Spider Silk Cinch
+						i(247516),	-- Ragged Horrorweave Leggings
+						i(247522),	-- Ragged Fur Wristwraps
+					}),
+					filter(LEATHER, {
+						i(247525),	-- Boots of Endless Betrayal
+						i(247531),	-- Cowl of Fright
+						i(247511),	-- Dragonspur Wristguards
+						i(247528),	-- Dreamsculptor's Gloves
+						i(247524),	-- Forest-Lord's Waistwrap
+						i(247533),	-- Grove Keeper's Robe
+						i(247523),	-- Lifeless Buckled Girdle
+						i(247530),	-- Mask of Multitudinous Eyes
+						i(247532),	-- Otherworldly Leather Mantle
+						i(247529),	-- Repulsive Leathery Pants
+						i(247534),	-- Scarred Ragefang Chestpiece
+						i(247527),	-- Splotched Bloodfur Leggings
+						i(247526),	-- Stained Maggot Squishers
+						i(247535),	-- Wristwraps of Broken Trust
+					}),
+					filter(MAIL, {
+						i(247544),	-- Black Venom Sabatons
+						i(247537),	-- Creeping String of Larva
+						i(247541),	-- Disjointed Linkage Leggings
+						i(247506),	-- Gauntlets of the Demented Mind
+						i(247538),	-- Gauntlets of Malevolent Intent
+						i(247539),	-- Greyed Dragonscale Coif
+						i(247536),	-- Laughing Sister's Pouch-Chain
+						i(247504),	-- Malignant Sabatons
+						i(247547),	-- Manacles of the Nightmare Colossus
+						i(247542),	-- Matted Fur Pauldrons
+						i(247546),	-- Patient Ambusher's Hauberk
+						i(247545),	-- Scored Ironclaw Sabatons
+						i(247540),	-- Singular Chain Leggings
+						i(247543),	-- Thorny Bramblemail Pauldrons
+					}),
+					filter(PLATE, {
+						i(247555),	-- Crown of Steely Brambles
+						i(247510),	-- Dragonbone Wristclamps
+						i(247552),	-- Eon-Tempered Waistplate
+						i(247549),	-- Fitted Ironbark Gauntlets
+						i(247508),	-- Horror Inscribed Chestguard
+						i(247548),	-- Insect-Etched Chestplate
+						i(247556),	-- Midnight Herald's Pauldrons
+						i(247557),	-- Pauldrons of Shifting Runes
+						i(247550),	-- Primal Gauntlets of Rage
+						i(247554),	-- Storm-Battered Legplates
+						i(247558),	-- Trampling Warboots
+						i(247553),	-- Venom-Fanged Barbute
+						i(247551),	-- Waistplate of Nameless Horror
+						i(247559),	-- Wristclamps of Mad Dreams
+					}),
+				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
 					BossOnly(NYTHENDRA),
 					BossOnly(ELERETHE),
@@ -171,6 +240,75 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(242370),	-- Horns of the First Satyr
 					}),
 				}),
+				Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
+					filter(CLOAKS, {
+						i(247560),	-- Evergreen Vinewrap Drape
+						i(247512),	-- Gossamer-Spun Greatcloak
+					}),
+					filter(CLOTH, {
+						i(247517),	-- Ancient Dreamwoven Mantle
+						i(247514),	-- Celestially Aligned Hood
+						i(247513),	-- Clasp of Cosmic Insignificance
+						i(247520),	-- Cozy Dryad Hoof-Socks
+						i(247521),	-- Crimson Wool-Lined Slippers
+						i(247507),	-- Dreamscale Inlaid Vestments
+						i(247505),	-- Handwraps of Delusional Power
+						i(247515),	-- Hood of Darkened Visions
+						i(247519),	-- Maddening Robe of Secrets
+						i(247518),	-- Mantle of Perpetual Bloom
+						i(247509),	-- Pliable Spider Silk Cinch
+						i(247516),	-- Ragged Horrorweave Leggings
+						i(247522),	-- Ragged Fur Wristwraps
+					}),
+					filter(LEATHER, {
+						i(247525),	-- Boots of Endless Betrayal
+						i(247531),	-- Cowl of Fright
+						i(247511),	-- Dragonspur Wristguards
+						i(247528),	-- Dreamsculptor's Gloves
+						i(247524),	-- Forest-Lord's Waistwrap
+						i(247533),	-- Grove Keeper's Robe
+						i(247523),	-- Lifeless Buckled Girdle
+						i(247530),	-- Mask of Multitudinous Eyes
+						i(247532),	-- Otherworldly Leather Mantle
+						i(247529),	-- Repulsive Leathery Pants
+						i(247534),	-- Scarred Ragefang Chestpiece
+						i(247527),	-- Splotched Bloodfur Leggings
+						i(247526),	-- Stained Maggot Squishers
+						i(247535),	-- Wristwraps of Broken Trust
+					}),
+					filter(MAIL, {
+						i(247544),	-- Black Venom Sabatons
+						i(247537),	-- Creeping String of Larva
+						i(247541),	-- Disjointed Linkage Leggings
+						i(247506),	-- Gauntlets of the Demented Mind
+						i(247538),	-- Gauntlets of Malevolent Intent
+						i(247539),	-- Greyed Dragonscale Coif
+						i(247536),	-- Laughing Sister's Pouch-Chain
+						i(247504),	-- Malignant Sabatons
+						i(247547),	-- Manacles of the Nightmare Colossus
+						i(247542),	-- Matted Fur Pauldrons
+						i(247546),	-- Patient Ambusher's Hauberk
+						i(247545),	-- Scored Ironclaw Sabatons
+						i(247540),	-- Singular Chain Leggings
+						i(247543),	-- Thorny Bramblemail Pauldrons
+					}),
+					filter(PLATE, {
+						i(247555),	-- Crown of Steely Brambles
+						i(247510),	-- Dragonbone Wristclamps
+						i(247552),	-- Eon-Tempered Waistplate
+						i(247549),	-- Fitted Ironbark Gauntlets
+						i(247508),	-- Horror Inscribed Chestguard
+						i(247548),	-- Insect-Etched Chestplate
+						i(247556),	-- Midnight Herald's Pauldrons
+						i(247557),	-- Pauldrons of Shifting Runes
+						i(247550),	-- Primal Gauntlets of Rage
+						i(247554),	-- Storm-Battered Legplates
+						i(247558),	-- Trampling Warboots
+						i(247553),	-- Venom-Fanged Barbute
+						i(247551),	-- Waistplate of Nameless Horror
+						i(247559),	-- Wristclamps of Mad Dreams
+					}),
+				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.HEROIC_PLUS).AddGroups({
 					BossOnly(NYTHENDRA),
 					BossOnly(ELERETHE),
@@ -180,6 +318,75 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					BossOnly(CENARIUS),
 					BossOnly(XAVIUS),
 				}),
+				Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
+					filter(CLOAKS, {
+						i(247560),	-- Evergreen Vinewrap Drape
+						i(247512),	-- Gossamer-Spun Greatcloak
+					}),
+					filter(CLOTH, {
+						i(247517),	-- Ancient Dreamwoven Mantle
+						i(247514),	-- Celestially Aligned Hood
+						i(247513),	-- Clasp of Cosmic Insignificance
+						i(247520),	-- Cozy Dryad Hoof-Socks
+						i(247521),	-- Crimson Wool-Lined Slippers
+						i(247507),	-- Dreamscale Inlaid Vestments
+						i(247505),	-- Handwraps of Delusional Power
+						i(247515),	-- Hood of Darkened Visions
+						i(247519),	-- Maddening Robe of Secrets
+						i(247518),	-- Mantle of Perpetual Bloom
+						i(247509),	-- Pliable Spider Silk Cinch
+						i(247516),	-- Ragged Horrorweave Leggings
+						i(247522),	-- Ragged Fur Wristwraps
+					}),
+					filter(LEATHER, {
+						i(247525),	-- Boots of Endless Betrayal
+						i(247531),	-- Cowl of Fright
+						i(247511),	-- Dragonspur Wristguards
+						i(247528),	-- Dreamsculptor's Gloves
+						i(247524),	-- Forest-Lord's Waistwrap
+						i(247533),	-- Grove Keeper's Robe
+						i(247523),	-- Lifeless Buckled Girdle
+						i(247530),	-- Mask of Multitudinous Eyes
+						i(247532),	-- Otherworldly Leather Mantle
+						i(247529),	-- Repulsive Leathery Pants
+						i(247534),	-- Scarred Ragefang Chestpiece
+						i(247527),	-- Splotched Bloodfur Leggings
+						i(247526),	-- Stained Maggot Squishers
+						i(247535),	-- Wristwraps of Broken Trust
+					}),
+					filter(MAIL, {
+						i(247544),	-- Black Venom Sabatons
+						i(247537),	-- Creeping String of Larva
+						i(247541),	-- Disjointed Linkage Leggings
+						i(247506),	-- Gauntlets of the Demented Mind
+						i(247538),	-- Gauntlets of Malevolent Intent
+						i(247539),	-- Greyed Dragonscale Coif
+						i(247536),	-- Laughing Sister's Pouch-Chain
+						i(247504),	-- Malignant Sabatons
+						i(247547),	-- Manacles of the Nightmare Colossus
+						i(247542),	-- Matted Fur Pauldrons
+						i(247546),	-- Patient Ambusher's Hauberk
+						i(247545),	-- Scored Ironclaw Sabatons
+						i(247540),	-- Singular Chain Leggings
+						i(247543),	-- Thorny Bramblemail Pauldrons
+					}),
+					filter(PLATE, {
+						i(247555),	-- Crown of Steely Brambles
+						i(247510),	-- Dragonbone Wristclamps
+						i(247552),	-- Eon-Tempered Waistplate
+						i(247549),	-- Fitted Ironbark Gauntlets
+						i(247508),	-- Horror Inscribed Chestguard
+						i(247548),	-- Insect-Etched Chestplate
+						i(247556),	-- Midnight Herald's Pauldrons
+						i(247557),	-- Pauldrons of Shifting Runes
+						i(247550),	-- Primal Gauntlets of Rage
+						i(247554),	-- Storm-Battered Legplates
+						i(247558),	-- Trampling Warboots
+						i(247553),	-- Venom-Fanged Barbute
+						i(247551),	-- Waistplate of Nameless Horror
+						i(247559),	-- Wristclamps of Mad Dreams
+					}),
+				}),
 				Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 					BossOnly(NYTHENDRA),
 					BossOnly(ELERETHE),
@@ -188,6 +395,73 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					BossOnly(DRAGONS_NIGHTMARE),
 					BossOnly(CENARIUS),
 					BossOnly(XAVIUS),
+					filter(CLOAKS, {
+						i(247560),	-- Evergreen Vinewrap Drape
+						i(247512),	-- Gossamer-Spun Greatcloak
+					}),
+					filter(CLOTH, {
+						i(247517),	-- Ancient Dreamwoven Mantle
+						i(247514),	-- Celestially Aligned Hood
+						i(247513),	-- Clasp of Cosmic Insignificance
+						i(247520),	-- Cozy Dryad Hoof-Socks
+						i(247521),	-- Crimson Wool-Lined Slippers
+						i(247507),	-- Dreamscale Inlaid Vestments
+						i(247505),	-- Handwraps of Delusional Power
+						i(247515),	-- Hood of Darkened Visions
+						i(247519),	-- Maddening Robe of Secrets
+						i(247518),	-- Mantle of Perpetual Bloom
+						i(247509),	-- Pliable Spider Silk Cinch
+						i(247516),	-- Ragged Horrorweave Leggings
+						i(247522),	-- Ragged Fur Wristwraps
+					}),
+					filter(LEATHER, {
+						i(247525),	-- Boots of Endless Betrayal
+						i(247531),	-- Cowl of Fright
+						i(247511),	-- Dragonspur Wristguards
+						i(247528),	-- Dreamsculptor's Gloves
+						i(247524),	-- Forest-Lord's Waistwrap
+						i(247533),	-- Grove Keeper's Robe
+						i(247523),	-- Lifeless Buckled Girdle
+						i(247530),	-- Mask of Multitudinous Eyes
+						i(247532),	-- Otherworldly Leather Mantle
+						i(247529),	-- Repulsive Leathery Pants
+						i(247534),	-- Scarred Ragefang Chestpiece
+						i(247527),	-- Splotched Bloodfur Leggings
+						i(247526),	-- Stained Maggot Squishers
+						i(247535),	-- Wristwraps of Broken Trust
+					}),
+					filter(MAIL, {
+						i(247544),	-- Black Venom Sabatons
+						i(247537),	-- Creeping String of Larva
+						i(247541),	-- Disjointed Linkage Leggings
+						i(247506),	-- Gauntlets of the Demented Mind
+						i(247538),	-- Gauntlets of Malevolent Intent
+						i(247539),	-- Greyed Dragonscale Coif
+						i(247536),	-- Laughing Sister's Pouch-Chain
+						i(247504),	-- Malignant Sabatons
+						i(247547),	-- Manacles of the Nightmare Colossus
+						i(247542),	-- Matted Fur Pauldrons
+						i(247546),	-- Patient Ambusher's Hauberk
+						i(247545),	-- Scored Ironclaw Sabatons
+						i(247540),	-- Singular Chain Leggings
+						i(247543),	-- Thorny Bramblemail Pauldrons
+					}),
+					filter(PLATE, {
+						i(247555),	-- Crown of Steely Brambles
+						i(247510),	-- Dragonbone Wristclamps
+						i(247552),	-- Eon-Tempered Waistplate
+						i(247549),	-- Fitted Ironbark Gauntlets
+						i(247508),	-- Horror Inscribed Chestguard
+						i(247548),	-- Insect-Etched Chestplate
+						i(247556),	-- Midnight Herald's Pauldrons
+						i(247557),	-- Pauldrons of Shifting Runes
+						i(247550),	-- Primal Gauntlets of Rage
+						i(247554),	-- Storm-Battered Legplates
+						i(247558),	-- Trampling Warboots
+						i(247553),	-- Venom-Fanged Barbute
+						i(247551),	-- Waistplate of Nameless Horror
+						i(247559),	-- Wristclamps of Mad Dreams
+					}),
 				}),
 			},
 		}),
