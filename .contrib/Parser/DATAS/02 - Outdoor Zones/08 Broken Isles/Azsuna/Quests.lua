@@ -193,6 +193,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["coord"] = { 65.6, 56.8, AZSUNA },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
+					i(122570),	-- Captain's Log of the Queen's Reprisal (QI!)
+					--
 					i(121482),	-- Cloak of the Greywatch
 					i(138857),	-- SI:7 Standard Issue Vest
 					i(138856),	-- Alliance Auxillary Hauberk
@@ -206,6 +208,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["coord"] = { 65.6, 56.8, AZSUNA },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
+					i(122570),	-- Captain's Log of the Queen's Reprisal (QI!)
+					--
 					i(138859),	-- Royal Apothecary Robe
 					i(121488),	-- Royal Apothecary Drape
 					i(138862),	-- Decorated Deathstalker Jerkin

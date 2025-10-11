@@ -288,14 +288,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							102478,	-- Emmarel Shadewarden
 						},
 						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
+						["maps"] = { LEGION_DALARAN },
 					}),
 					q(40954, {	-- The Unseen Path
 						["sourceQuests"] = { 40953 },	-- On Eagle's Wings
 						["qgs"] = {
 							102574,	-- Emmarel Shadewarden
-							102478,	-- Emmarel Shadewarden
+							102578,	-- Emmarel Shadewarden
 						},
-						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
+						["coord"] = { 36.9, 29.1, TRUESHOT_LODGE },
 					}),
 					q(40955, {	-- Oath of Service
 						["sourceQuests"] = { 40954 },	-- The Unseen Path
