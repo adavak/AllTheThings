@@ -149,31 +149,32 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["groups"] = {
 					o(238940, {	-- Academy Bookshelf
 						["coords"] = {
-							{ 54.4, 50.6, AZSUNA },
-							{ 54.8, 51.3, AZSUNA },
-							{ 54.8, 52.5, AZSUNA },
-							{ 55.9, 52.9, AZSUNA },
+							{ 54.4, 50.6, 631 },	-- Nar'thalas Academy
+							{ 54.8, 51.3, 631 },	-- Nar'thalas Academy
+							{ 54.8, 52.5, 631 },	-- Nar'thalas Academy
+							{ 55.9, 52.9, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = { i(120946) },	-- Nar'thalas Academy Spellbook (QI!)
 					}),
 					o(239744, {	-- Nar'thalas Academy Hat
 						["coords"] = {
-							{ 55.8, 55.4, AZSUNA },
-							{ 56.0, 55.7, AZSUNA },
-							{ 56.4, 57.5, AZSUNA },
-							{ 56.5, 56.2, AZSUNA },
+							{ 55.8, 55.4, 631 },	-- Nar'thalas Academy
+							{ 56.0, 55.7, 631 },	-- Nar'thalas Academy
+							{ 56.4, 57.5, 631 },	-- Nar'thalas Academy
+							{ 56.5, 56.2, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = { i(120947) },	-- Nar'thalas Academy Hat (QI!)
 					}),
 					o(239745, {	-- Nar'thalas Academy Wand
 						["coords"] = {
-							{ 65.4, 72.0, AZSUNA },
-							{ 66.2, 73.9, AZSUNA },
-							{ 66.7, 74.1, AZSUNA },
+							{ 65.4, 72.0, 631 },	-- Nar'thalas Academy
+							{ 66.2, 73.9, 631 },	-- Nar'thalas Academy
+							{ 66.7, 74.1, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = { i(120949) },	-- Nar'thalas Academy Wand (QI!)
 					}),
 					i(138873),	-- Mystical Frosh Hat (TOY!)
+					i(120948),	-- Nar'thalas Academy Robes (QI!)
 				},
 			}),
 			q(38286, {	-- Eye of Azshara: Wrath of Azshara
@@ -351,6 +352,12 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 37507 },	-- Boss Whalebelly's in Charge
 				["provider"] = { "n", 88873 },	-- Okuna Longtusk
 				["coord"] = { 50.0, 48.4, AZSUNA },
+				["groups"] = {
+					o(236931, {	-- Giants' Stash of Weapons
+						["coord"] = { 49.3, 50.7, AZSUNA },
+						["groups"] = { i(120181) },	-- Giants' Stash of Weapons (QI!)
+					}),
+				},
 			}),
 			q(38460, {	-- Let's Make A Deal
 				["sourceQuests"] = { 42238 },	-- Missing Demon
@@ -390,6 +397,13 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 38460 },	-- Let's Make A Deal
 				["provider"] = { "n", 91166 },	-- Daglop
 				["coord"] = { 62.8, 51.4, AZSUNA },
+				["groups"] = {
+					o(240346, {	-- Olive Sprig
+						i(122447),	-- Wild Olive (QI!)
+					}),
+					i(122445),	-- Fistful of Feathers (QI!)
+					i(122446),	-- Shadowhorn (QI!)
+				},
 			}),
 			q(42238, {	-- Missing Demon
 				["provider"] = { "n", 106914 },	-- Tehd Shoemaker
@@ -437,6 +451,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 88115 },	-- Prince Farondis
 				["coord"] = { 46.9, 41.2, AZSUNA },
 				["groups"] = {
+					i(120080),	-- Pilfered Night Elf Bone (QI!)
+					--
 					i(121432),	-- Leywalker Leggings
 					i(121434),	-- Ruin-Stalker Breeches
 					i(121433),	-- Seaspray Leggings
@@ -456,6 +472,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 37256 },	-- They Came From the Sea
 				["provider"] = { "n", 89341 },	-- Magister Garuhod
 				["coord"] = { 47.0, 41.3, AZSUNA },
+				["groups"] = { i(120940) },	-- The Six Eyes of Gangamesh (QI!)
 			}),
 			q(37733, {	-- Prince Farondis
 				["sourceQuests"] = { 37256 },	-- They Came From the Sea
@@ -588,24 +605,24 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["groups"] = {
 					o(250372, {	-- Courtship Rituals of the Skrog
 						["coords"] = {
-							{ 26.9, 48.6, AZSUNA },
-							{ 27.3, 47.4, AZSUNA },
-							{ 27.5, 48.0, AZSUNA },
+							{ 26.9, 48.6, 631 },	-- Nar'thalas Academy
+							{ 27.3, 47.4, 631 },	-- Nar'thalas Academy
+							{ 27.5, 48.0, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = { i(137422) },	-- Courtship Rituals of the Skrog (QI!)
 					}),
 					o(250374, {	-- Draconic Compendium, Volume III
 						["coords"] = {
-							{ 27.3, 47.1, AZSUNA },
-							{ 27.5, 46.4, AZSUNA },
+							{ 27.3, 47.1, 631 },	-- Nar'thalas Academy
+							{ 27.5, 46.4, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = { i(137426) },	-- Draconic Compendium, Volume III (QI!)
 					}),
 					o(250373, {	-- Encyclopedia Azsunica (K-M)
 						["coords"] = {
-							{ 26.4, 46.9, AZSUNA },
-							{ 26.8, 47.5, AZSUNA },
-							{ 27.0, 46.9, AZSUNA },
+							{ 26.4, 46.9, 631 },	-- Nar'thalas Academy
+							{ 26.8, 47.5, 631 },	-- Nar'thalas Academy
+							{ 27.0, 46.9, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = { i(137423) },	-- Encyclopedia Azsunica (K-M) (QI!)
 					}),
@@ -656,13 +673,15 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 					37678,	-- Hit the Books
 				},
 				["provider"] = { "n", 89660 },	-- Thyrillion
-				["coord"] = { 53.4, 48.9, 631 },	-- Nar'thalas Academy
+				["coord"] = { 53.5, 47.8, 631 },	-- Nar'thalas Academy
 			}),
 			q(37730, {	-- The Headmistress' Keys
 				["sourceQuests"] = { 37729 },	-- Pop Quiz: Advanced Rune Drawing
 				["provider"] = { "n", 89661 },	-- Instructor Nidriel
 				["coord"] = { 29.5, 42.6, 631 },	-- Nar'thalas Academy
 				["groups"] = {
+					i(120169),	-- Tidestone Vault Key (QI!)
+					--
 					i(121484),	-- Psychotic Scholar's Chain
 					i(132910),	-- Leywalker Bracers
 					i(132909),	-- Ruin-Stalker Bindings
@@ -768,6 +787,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 37538 },	-- Round 1, Fight!
 				["provider"] = { "o", 239120 },	-- Okuna Longtusk's Pack
 				["coord"] = { 43.8, 24.6, 632 },	-- Oceanus Cove
+				["groups"] = { i(118330) },	-- Pile of Weapons (QI!)
 			}),
 			q(37660, {	-- The Scythe of Souls
 				["sourceQuests"] = {
@@ -791,12 +811,12 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["groups"] = {
 					o_repeated({
 						["coords"] = {
-							{ 53.7, 35.1, AZSUNA },
-							{ 61.7, 24.9, AZSUNA },
-							{ 62.1, 25.5, AZSUNA },
-							{ 62.8, 24.5, AZSUNA },
-							{ 63.0, 23.0, AZSUNA },
-							{ 63.0, 24.2, AZSUNA },
+							{ 53.7, 35.1, 631 },	-- Nar'thalas Academy
+							{ 61.7, 24.9, 631 },	-- Nar'thalas Academy
+							{ 62.1, 25.5, 631 },	-- Nar'thalas Academy
+							{ 62.8, 24.5, 631 },	-- Nar'thalas Academy
+							{ 63.0, 23.0, 631 },	-- Nar'thalas Academy
+							{ 63.0, 24.2, 631 },	-- Nar'thalas Academy
 						},
 						["groups"] = {
 							i(120401),	-- Tidestone Shard (QI!)
@@ -824,6 +844,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 89023 },	-- Nightwatcher Idri
 				["coord"] = { 48.4, 34.4, AZSUNA },
 				["groups"] = {
+					i(120079),	-- Head of Fathom-Commander Zarrin (QI!)
+					--
 					i(121428),	-- Leywalker Aurora
 					i(121430),	-- Ruin-Stalker Helm
 					i(121429),	-- Seaspray Helm
@@ -842,10 +864,12 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 			q(38237, {	-- This IS In My Contract.
 				["sourceQuests"] = { 38232 },	-- Minion!  Kill Them!
 				["provider"] = { "n", 91165 },	-- Daglop
-				["coord"] = { 62.8, 51.4, AZSUNA },
-				["groups"] = {
-					i(138878),	-- Copy of Daglop's Contract (TOY!)
+				["coords"] = {
+					{ 61.2, 50.8, AZSUNA },
+					{ 62.4, 51.4, AZSUNA },
+					{ 63.0, 51.4, AZSUNA },
 				},
+				["groups"] = { i(138878) },	-- Copy of Daglop's Contract (TOY!)
 			}),
 			q(37690, {	-- Those Who Remember
 				["sourceQuests"] = { 42271 },	-- Their Dying Breaths
@@ -883,6 +907,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 			q(42693, {	-- You Never Know Until You Scry
 				["provider"] = { "n", 108328 },	-- Olothil Starlance
 				["coord"] = { 53.3, 45.4, AZSUNA },
+				["groups"] = { i(138296) },	-- Hatecoil Glyptic (QI!)
 			}),
 			q(37860, {	-- You Scratch My Back...
 				["sourceQuests"] = {

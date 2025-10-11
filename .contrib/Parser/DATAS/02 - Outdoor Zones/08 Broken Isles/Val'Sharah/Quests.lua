@@ -438,7 +438,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 54.7, 52.8, VALSHARAH },
 					-- unsure why there are two versions of this quest. i picked this version up on my horde priest.
 				}),
-				q(39149),	-- A Village in Peril
+				q(39149, {	-- A Village in Peril
+					["provider"] = { "n", 94594 },	-- Theo the Huntsman
+					["coord"] = { 51.3, 51.2, VALSHARAH },
+				}),
 				q(38646, {	-- A Sight For Sore Eyes
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
 					["provider"] = { "n", 92618 },	-- Granny Marl
@@ -454,7 +457,17 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "n", 92618 },	-- Granny Marl
 					["coord"] = { 38.9, 61.4, VALSHARAH },
 					["groups"] = {
-						i(127005),	-- Barrel of Corn (QI!)
+						o(242449, {	-- Barrel of Corn
+							["coords"] = {
+								{ 37.4, 61.8, VALSHARAH },
+								{ 38.2, 60.1, VALSHARAH },
+								{ 38.3, 61.1, VALSHARAH },
+								{ 38.6, 62.5, VALSHARAH },
+								{ 38.7, 61.7, VALSHARAH },
+								{ 39.5, 62.4, VALSHARAH },
+							},
+							["groups"] = { i(127005) },	-- Barrel of Corn (QI!)
+						}),
 					},
 				}),
 				q(39117, {	-- Shriek No More
@@ -502,7 +515,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				q(38714, {	-- Maiev's Trail
 					["sourceQuests"] = { 38718 },	-- Kur'talos Ravencrest
-					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
+					["qgs"] = {
+						92850,	-- Commander Jarod Shadowsong
+						94977,	-- Commander Jarod Shadowsong
+					},
 					["coord"] = { 40.7, 53.0, VALSHARAH },
 					["groups"] = {
 						o(241639, {	-- Warden's Glaive
@@ -518,7 +534,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				q(38715, {	-- The Rook's Guard
 					["sourceQuests"] = { 38718 },	-- Kur'talos Ravencrest
-					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
+					["qgs"] = {
+						92850,	-- Commander Jarod Shadowsong
+						94977,	-- Commander Jarod Shadowsong
+					},
 					["coord"] = { 40.7, 53.0, VALSHARAH },
 				}),
 				q(38717, {	-- Black Rook Prison

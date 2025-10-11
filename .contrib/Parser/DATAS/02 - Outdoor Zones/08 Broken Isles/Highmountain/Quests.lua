@@ -148,6 +148,13 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40339 },	-- Candle of Command
 					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["coord"] = { 55.2, 41.8, HIGHMOUNTAIN },
+					["groups"] = {
+						o(245357, {	-- Candleking's Special Candle
+							["coord"] = { 53.6, 42.1, HIGHMOUNTAIN },
+							["groups"] = { i(130901) },	-- Candleking's Special Candle (QI!)
+						}),
+						i(129981),	-- Dusty Boot (QI!)
+					},
 				}),
 				q(39777, {	-- Buy Us Time
 					["sourceQuests"] = { 38915 },	-- Battle of Snowblind Mesa
