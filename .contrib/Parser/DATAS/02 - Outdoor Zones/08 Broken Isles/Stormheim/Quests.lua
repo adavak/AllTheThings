@@ -800,6 +800,11 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 93231 },	-- Vydhar
 					["coord"] = { 68.4, 54.2, STORMHEIM },
+					["groups"] = {
+						o(241866, {	-- Soulthorn
+							i(124504),	 -- Soulcap (QI!)
+						}),
+					},
 				}),
 				q(38818, {	-- The Final Judgment
 					["sourceQuests"] = { 38815 },	-- Waking the Shieldmaiden

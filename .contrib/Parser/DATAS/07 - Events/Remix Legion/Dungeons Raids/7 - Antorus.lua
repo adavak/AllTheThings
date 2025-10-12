@@ -44,10 +44,13 @@ local EncounterToCRS = {
 	[ARGUS] = { 124828 },	-- Argus the Unmaker
 };
 
+local COMMONLOOT = {
+};
+
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS)
-local BossOnly, Difficulty =
-InstanceHelper.BossOnly, InstanceHelper.Difficulty
+local BossOnly, Difficulty, CommonBossDrops =
+InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.CommonBossDrops
 
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
@@ -244,6 +247,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(253304),	-- Cosmic Soulsliver
 					}),
 				}),
+				Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
+				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.HEROIC_PLUS).AddGroups({
 					BossOnly(WORLDBREAKER),
 					BossOnly(FELHOUNDS),
@@ -264,7 +270,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(152901),	-- Kirin Tor Summoning Crystal / Violet Spellwing (MOUNT!)
 					}),
 				}),
+				Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
+				}),
 				Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
 					BossOnly(WORLDBREAKER),
 					BossOnly(FELHOUNDS),
 					BossOnly(HIGH_COMMAND),

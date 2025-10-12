@@ -8,7 +8,6 @@ root(ROOTS.Unsorted, {
 			i(133804),	-- Faded Bag of Loot
 			i(190547),	-- Val'sharah Protector's Bracers
 			i(190676),	-- Val'sharah Protector's Gauntlets
-			i(190868),	-- Verdant Dreamscribed Scrollmantle
 			i(235903),	-- Gold Lightforged Chestguard
 			i(237750),	-- Warbreaker's Revenge
 			i(237751),	-- Val'kyrian Rebirth
@@ -19,7 +18,6 @@ root(ROOTS.Unsorted, {
 			i(237769),	-- Xenedar Gem Fragment
 			i(237770),	-- Rusting Chain of Ancient Hunger
 			i(237771),	-- Skrog Tooth
-			i(237993),	-- Void-Scarred Captain's Greaves
 			i(238199),	-- TEST ITEM
 			i(238200),	-- TEST ITEM
 			i(238452),	-- [DNT] Normal Token
@@ -205,11 +203,8 @@ root(ROOTS.Unsorted, {
 			i(247577),	-- Leggings of the Undaunted
 			i(247578),	-- Radiant Soul Sabatons
 			i(247579),	-- Bite-Resistant Wristclamps
-			i(247580),	-- Krakenbone Waistplate
-			i(247581),	-- Goldrune Legplates
 			i(247582),	-- Lead-Soled Seabed Striders
 			i(247583),	-- Calcareous Wristclamps
-			i(247584),	-- Oiled Rigger's Handwraps
 			i(247585),	-- Gloves of Issued Challenge
 			i(247586),	-- Gleaming Val'kyr Cuirass
 			i(247587),	-- Helbeast Skin Tunic
@@ -217,7 +212,6 @@ root(ROOTS.Unsorted, {
 			i(247589),	-- Kvaldir Exult's Grips
 			i(247590),	-- Reinforced Hound-Handler's Gauntlets
 			i(247591),	-- Drape of the Unworthy
-			i(247592),	-- Mantle of the Victorious Dead
 			i(247617),	-- Acolyte's Abandoned Footwraps
 			i(247618),	-- Sash of the Unredeemed
 			i(247619),	-- Treads of Violent Intrusion
@@ -291,10 +285,8 @@ root(ROOTS.Unsorted, {
 			i(249678),	-- Helheim Hound's Visor
 			i(249679),	-- Sovereign Valarjar Mantle
 			i(249680),	-- Ordained Hunter's Crown
-			i(249681),	-- Shoulders of the Dragonslayer
 			i(249682),	-- Supreme Runecaster's Crown
 			i(249684),	-- Horns of Unwavering Faith
-			i(249685),	-- Mantle of Unforgotten Souls
 			i(249716),	-- Steel Food Fanatic Backpack
 			i(249717),	-- Golden Food Fanatic Backpack
 			i(249718),	-- Bronze Food Fanatic Backpack

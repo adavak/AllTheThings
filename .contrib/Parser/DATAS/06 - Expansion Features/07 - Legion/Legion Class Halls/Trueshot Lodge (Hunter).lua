@@ -535,7 +535,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["provider"] = { "n", 107981 },	-- Huntsman Blake
 						["coord"] = { 80.1, 66.2, STORMHEIM },
 						["groups"] = {
-							i(138299),	-- Ancient Bones (QI!)
+							o(251191, {	-- Ancient Bones
+								["coords"] = {
+									{ 78.8, 65.9, STORMHEIM },
+									{ 79.6, 66.4, STORMHEIM },
+									{ 79.6, 68.5, STORMHEIM },
+									{ 79.9, 67.0, STORMHEIM },
+									{ 80.6, 66.9, STORMHEIM },
+									{ 80.9, 65.6, STORMHEIM },
+									{ 81.2, 65.3, STORMHEIM },
+								},
+								["groups"] = { i(138299) },	-- Ancient Bones (QI!)
+							}),
 						},
 					}),
 					q(42412, {	-- Champion: Huntsman Blake

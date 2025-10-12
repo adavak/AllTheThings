@@ -6008,6 +6008,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247506),	-- Gauntlets of the Demented Mind
 						i(247538),	-- Gauntlets of Malevolent Intent
 						i(247539),	-- Greyed Dragonscale Coif
+						i(247036),	-- Helm of Shackled Elements
 						i(247536),	-- Laughing Sister's Pouch-Chain
 						i(247504),	-- Malignant Sabatons
 						i(247547),	-- Manacles of the Nightmare Colossus
@@ -6046,6 +6047,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247567),	-- Cinch of Light
 						i(247571),	-- Helhound Hair Bracers
 						i(247569),	-- Leggings of the Lower Planes
+						i(249685),	-- Mantle of Unforgotten Souls
 						i(247584),	-- Oiled Rigger's Handwraps
 						i(247566),	-- Robes of Celestial Adornment
 						i(247570),	-- Treads of the Drowned
@@ -6065,6 +6067,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247589),	-- Kvaldir Exult's Grips
 						i(247577),	-- Leggings of the Undaunted
 						i(247578),	-- Radiant Soul Sabatons
+						i(249681),	-- Shoulders of the Dragonslayer
 					}),
 					filter(PLATE, {
 						i(247583),	-- Calcareous Wristclamps
@@ -6072,6 +6075,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247581),	-- Goldrune Legplates
 						i(247580),	-- Krakenbone Waistplate
 						i(247582),	-- Lead-Soled Seabed Striders
+						i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 						i(247590),	-- Reinforced Hound-Handler's Gauntlets
 					}),
 				}),

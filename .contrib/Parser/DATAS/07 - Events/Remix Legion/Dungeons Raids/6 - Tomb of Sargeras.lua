@@ -40,10 +40,13 @@ local EncounterToCRS = {
 	[KILJAEDEN] = { 117269 },	-- Kil'jaeden
 };
 
+local COMMONLOOT = {
+};
+
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS)
-local BossOnly, Difficulty =
-InstanceHelper.BossOnly, InstanceHelper.Difficulty
+local BossOnly, Difficulty, CommonBossDrops =
+InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.CommonBossDrops
 
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
@@ -217,6 +220,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					BossOnly(AVATAR),
 					BossOnly(KILJAEDEN),
 				}),
+				Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
+				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.HEROIC_PLUS).AddGroups({
 					BossOnly(GOROTH),
 					BossOnly(HARJATAN),
@@ -228,7 +234,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					BossOnly(AVATAR),
 					BossOnly(KILJAEDEN),
 				}),
+				Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
+				}),
 				Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
 					BossOnly(GOROTH),
 					BossOnly(HARJATAN),
 					BossOnly(SASSZINE),

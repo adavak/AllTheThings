@@ -36,10 +36,13 @@ local EncounterToCRS = {
 	},
 };
 
+local COMMONLOOT = {
+};
+
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS)
-local BossOnly, Difficulty =
-InstanceHelper.BossOnly, InstanceHelper.Difficulty
+local BossOnly, Difficulty, CommonBossDrops =
+InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.CommonBossDrops
 
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
@@ -218,6 +221,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					BossOnly(ELISANDE),
 					BossOnly(GULDAN),
 				}),
+				Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
+				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.HEROIC_PLUS).AddGroups({
 					BossOnly(SKORPYRON),
 					BossOnly(CHRONOMATIC),
@@ -230,7 +236,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					BossOnly(ELISANDE),
 					BossOnly(GULDAN),
 				}),
+				Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
+				}),
 				Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
+					CommonBossDrops(clone(COMMONLOOT)),
 					BossOnly(SKORPYRON),
 					BossOnly(CHRONOMATIC),
 					BossOnly(TRILLIAX),
