@@ -447,6 +447,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 90738 },	-- Stellagosa
 				["coord"] = { 50.0, 26.5, AZSUNA },
 				["groups"] = {
+					i(138146),	-- Radiant Ley Crystal (QI!)
+					--
 					i(129178),	-- Emmigosa (PET!)
 				},
 			}),
@@ -721,6 +723,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 90383 },	-- Runas the Shamed
 				["coord"] = { 53.7, 16.7, AZSUNA },
 				["groups"] = {
+					i(122153),	-- Charged Mana Jewel (QI!)
+					--
 					i(138876),	-- Runas' Crystal Grinder (TOY!)
 				},
 			}),

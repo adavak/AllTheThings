@@ -218,11 +218,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.6, DEADWIND_PASS },
 							["groups"] = {
-								i(128403, {	-- Apocalypse
-									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(110),	-- Standard
-									},
+								o(246699, {	-- Apocalypse
+									i(128403, {	-- Apocalypse
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = {
+											artifact(110),	-- Standard
+										},
+									}),
 								}),
 							},
 						}),
@@ -232,11 +234,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.6, DEADWIND_PASS },
 							["groups"] = {
-								i(128403, {	-- Apocalypse
-									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(110),	-- Standard
-									},
+								o(246699, {	-- Apocalypse
+									i(128403, {	-- Apocalypse
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = {
+											artifact(110),	-- Standard
+										},
+									}),
 								}),
 							},
 						}),
@@ -433,15 +437,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 731 },	-- Neltharion's Lair
-						["groups"] = {
-							i(139537),	-- Braid of the Underking (QI!)
-						},
+						["groups"] = { i(139537) },	-- Braid of the Underking (QI!)
 					}),
 					q(43572, {	-- Darkheart Thicket: The Nightmare Lash
 						["sourceQuest"] = 43571, -- Neltharion's Lair: Braid of the Underking
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 733 },	-- Darkheart Thicket
+						["groups"] = { i(139538) },	-- Nightmare Lash (QI!)
 					}),
 					q(42818, {	-- The Scarlet Assault
 						["sourceQuest"] = 43899, -- Steeds of the Damned
@@ -515,7 +518,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43573, -- Advancing the War Effort
 						["provider"] = { "n", 93491 },	-- Lord Thorval
 						["coord"] = { 63.1, 69.4, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["cost"] = {{ "i", 124124, 3 }},	-- 3xBlood of Sargeras
+						["cost"] = {{ "i", 124124, 3 }},	-- 3x Blood of Sargeras
+					}),
+					q(91615, {	-- A Thirst For Blood (Remix)
+						["sourceQuest"] = 43573, -- Advancing the War Effort
+						["provider"] = { "n", 93491 },	-- Lord Thorval
+						["coord"] = { 63.1, 69.4, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
 					}),
 					q(43574, {	-- Maw of Souls: Maul of the Dead
 						["sourceQuests"] = {
@@ -545,7 +554,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							43573,	-- Advancing the War Effort
 							43928,	-- Aggregates of Anguish
 							44690,	-- A Thirst For Blood
+							91615,	-- A Thirst For Blood (Remix)
 						},
+						["sourceQuestNumRequired"] = 3,
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.6, 50.0, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["groups"] = {

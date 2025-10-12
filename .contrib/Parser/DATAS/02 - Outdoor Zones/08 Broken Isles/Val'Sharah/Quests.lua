@@ -576,7 +576,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				q(38721, {	-- Lieutenant of the Tower
 					["sourceQuests"] = { 38724 },	-- Brotherly Love
 					["provider"] = { "n", 93027 },	-- Maiev Shadowsong
-					["coord"] = { 24.5, 42.3, 642 },
+					["coord"] = { 23.3, 42.1, 642 },	-- Darkpens
 					["groups"] = {
 						i(200668, {	-- Ravencourt Field Sickle
 							["timeline"] = ADDED_10_0_2,
@@ -654,6 +654,23 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				q(42857, {	-- Moist Around the Hedges
 					["provider"] = { "o", 251425 },	-- Moist Grizzlecomb
 					["coord"] = { 66.8, 75.7, VALSHARAH },
+					["groups"] = {
+						o(251419, {	-- Moist Grizzlecomb
+							["coords"] = {
+								{ 66.0, 71.2, VALSHARAH },
+								{ 66.4, 73.4, VALSHARAH },
+								{ 67.1, 72.9, VALSHARAH },
+								{ 67.2, 75.1, VALSHARAH },
+								{ 67.3, 74.1, VALSHARAH },
+								{ 67.8, 71.4, VALSHARAH },
+								{ 68.4, 71.6, VALSHARAH },
+								{ 68.4, 73.3, VALSHARAH },
+								{ 68.5, 72.3, VALSHARAH },
+								{ 68.5, 74.3, VALSHARAH },
+							},
+							["groups"] = { i(138788) },	-- Moist Grizzlecomb (QI!)
+						}),
+					},
 				}),
 				-- KEK 4
 				q(40221, {	-- Spread Your Lunarwings and Fly

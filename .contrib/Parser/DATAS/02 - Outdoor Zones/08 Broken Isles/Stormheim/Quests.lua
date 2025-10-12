@@ -568,7 +568,27 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 93446 },	-- Shieldmaiden Iounn
 					["coord"] = { 68.0, 48.6, STORMHEIM },
 					["groups"] = {
-						i(124512),	-- Ashildir's Bones (QI!)
+						o_repeated({	-- Ashildir's Bones
+							["coords"] = {
+								{ 69.4, 44.3, STORMHEIM },
+								{ 69.2, 42.3, STORMHEIM },
+								{ 69.6, 41.7, STORMHEIM },
+								{ 69.8, 45.7, STORMHEIM },
+								{ 70.7, 42.0, STORMHEIM },
+								{ 71.2, 45.6, STORMHEIM },
+								{ 71.4, 44.5, STORMHEIM },
+								{ 72.9, 43.9, STORMHEIM },
+							},
+							["groups"] = {
+								i(124512),	-- Ashildir's Bones (QI!)
+								o(241870),	-- Ashildir's Bones
+								o(241871),	-- Ashildir's Bones
+								o(241872),	-- Ashildir's Bones
+								o(241873),	-- Ashildir's Bones
+								o(241874),	-- Ashildir's Bones
+							},
+						}),
+						--
 						i(129229),	-- Runespeaker's Sandals
 						i(129231),	-- Stormborn Treads
 						i(129230),	-- Runesworn Boots
@@ -856,27 +876,19 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						o(243819, {	-- Yotnar's Left Arm
 							["coord"] = { 48.1, 47.5, STORMHEIM },
-							["groups"] = {
-								i(128493),	-- Yotnar's Left Arm (QI!)
-							},
+							["groups"] = { i(128493) },	-- Yotnar's Left Arm (QI!)
 						}),
 						o(243823, {	-- Yotnar's Left Foot
 							["coord"] = { 48.8, 46.1, STORMHEIM },
-							["groups"] = {
-								i(128497),	-- Yotnar's Left Foot (QI!)
-							},
+							["groups"] = { i(128497) },	-- Yotnar's Left Foot (QI!)
 						}),
 						o(243820, {	-- Yotnar's Right Arm
 							["coord"] = { 49.2, 45.6, STORMHEIM },
-							["groups"] = {
-								i(128495),	-- Yotnar's Right Arm (QI!)
-							},
+							["groups"] = { i(128495) },	-- Yotnar's Right Arm (QI!)
 						}),
 						o(243822, {	-- Yotnar's Right Foot
-							["coord"] = { 49.2, 45.6, STORMHEIM },
-							["groups"] = {
-								i(128496),	-- Yotnar's Right Foot (QI!)
-							},
+							["coord"] = { 48.7, 41.7, STORMHEIM },
+							["groups"] = { i(128496) },	-- Yotnar's Right Foot (QI!)
 						}),
 						--
 						i(129316),	-- Watcher's Pendant of Courage
@@ -969,6 +981,15 @@ root(ROOTS.Zones, {
 					["coord"] = { 42.0, 64.4, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						o_repeated({	-- Oiled Cloak
+							["coord"] = { 45.6, 66.6, STORMHEIM },
+							["groups"] = {
+								i(122686),	-- Oiled Cloak (QI!)
+								o(240681),	-- Oiled Cloak
+								o(241462),	-- Oiled Cloak
+							},
+						}),
+						--
 						i(121567),	-- Galeborn's Oiled Cloak
 						i(129318),	-- Lodestone of the Galeborn
 						i(129317),	-- Lodestone of the Mystic

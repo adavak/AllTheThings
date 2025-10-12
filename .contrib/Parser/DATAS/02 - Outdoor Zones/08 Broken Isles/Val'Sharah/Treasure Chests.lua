@@ -27,11 +27,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			}),
 			o(240655, {	-- Glimmering Treasure Chest
 				["questID"] = 38390,
-				["coord"] = { 54.0, 34.9, VALSHARAH },
+				["coord"] = { 52.4, 51.5, 642 },	-- Darkpens
 			}),
 			o(240519, {	-- Small Treasure Chest
 				["questID"] = 38893,
-				["coord"] = { 60.5, 82.1, VALSHARAH },
+				["coord"] = { 46.6, 86.3, VALSHARAH },
 				["description"] = "In |cFFFFD700The Undergorge|r cave.",
 			}),
 			o(254127, {	-- Small Treasure Chest
@@ -65,6 +65,9 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			o(242328, {	-- Small Treasure Chest
 				["questID"] = 38886,
 				["coord"] = { 49.0, 86.1, VALSHARAH },
+			}),
+			o(242346, {	-- Small Treasure Chest
+				["coord"] = { 60.5, 82.2, VALSHARAH },
 			}),
 			o(240653, {	-- Small Treasure Chest
 				["questID"] = 38388,

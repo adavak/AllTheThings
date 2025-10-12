@@ -120,6 +120,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				q(45088, {	-- Trial of Valor: The Lost Army
 					["provider"] = { "n", 114263 },	-- Odyn
 					["groups"] = {
+						i(142487),	-- Valarjar Soul Fragment (QI!)
+						--
 						iensemble(143506, {	-- Ensemble: Vestment of the Chosen Dead
 							["classes"] = CLOTH_CLASSES,
 						}),
