@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			}),
 			o(242668, {	-- Glimmering Treasure Chest
 				["questID"] = 39086,
-				["coord"] = { 41.1, 42.7, VALSHARAH },
+				["coord"] = { 51.9, 51.6, 642 },	-- Darkpens
 			}),
 			o(240655, {	-- Glimmering Treasure Chest
 				["questID"] = 38390,

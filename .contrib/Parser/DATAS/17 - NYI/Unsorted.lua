@@ -188,30 +188,17 @@ root(ROOTS.Unsorted, {
 			i(247494),	-- Waistclasp of Unethical Power
 			i(247495),	-- Vintage Duskwatch Cinch
 			i(247496),	-- Gleaming Celestial Waistguard
-			i(247561),	-- Gloves of Murmured Promises
 			i(247566),	-- Robes of Celestial Adornment
 			i(247567),	-- Cinch of Light
 			i(247568),	-- Windwhipped Sailcloth
 			i(247569),	-- Leggings of the Lower Planes
 			i(247570),	-- Treads of the Drowned
 			i(247571),	-- Helhound Hair Bracers
-			i(247572),	-- Strand of Whelk Shells
-			i(247573),	-- Moccasins of Silent Passage
-			i(247574),	-- Sucker-Scarred Leggings
-			i(247575),	-- Sky-Valiant's Wristguards
 			i(247576),	-- Anchor Chain Waistguard
-			i(247577),	-- Leggings of the Undaunted
 			i(247578),	-- Radiant Soul Sabatons
 			i(247579),	-- Bite-Resistant Wristclamps
-			i(247582),	-- Lead-Soled Seabed Striders
 			i(247583),	-- Calcareous Wristclamps
-			i(247585),	-- Gloves of Issued Challenge
-			i(247586),	-- Gleaming Val'kyr Cuirass
 			i(247587),	-- Helbeast Skin Tunic
-			i(247588),	-- Corroded Val'kyr Chainmail
-			i(247589),	-- Kvaldir Exult's Grips
-			i(247590),	-- Reinforced Hound-Handler's Gauntlets
-			i(247591),	-- Drape of the Unworthy
 			i(247617),	-- Acolyte's Abandoned Footwraps
 			i(247618),	-- Sash of the Unredeemed
 			i(247619),	-- Treads of Violent Intrusion
@@ -282,10 +269,7 @@ root(ROOTS.Unsorted, {
 			i(248994),	-- Kalu'ak Crest-horn (MOUNT!)
 			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
 			i(249400),	-- Stack of Chronoqueries
-			i(249678),	-- Helheim Hound's Visor
-			i(249679),	-- Sovereign Valarjar Mantle
 			i(249680),	-- Ordained Hunter's Crown
-			i(249682),	-- Supreme Runecaster's Crown
 			i(249684),	-- Horns of Unwavering Faith
 			i(249716),	-- Steel Food Fanatic Backpack
 			i(249717),	-- Golden Food Fanatic Backpack

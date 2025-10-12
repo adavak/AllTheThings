@@ -36,7 +36,9 @@ local COMMONLOOT = {
 		i(247585),	-- Gloves of Issued Challenge
 		i(247587),	-- Helbeast Skin Tunic
 		i(247573),	-- Moccasins of Silent Passage
+		i(249683, { ["ItemAppearanceModifierID"] = 0 } ),	-- Shoulderguards of Divine Arts
 		i(247575),	-- Sky-Valiant's Wristguards
+		i(249682, { ["ItemAppearanceModifierID"] = 0 } ),	-- Supreme Runecaster's Crown
 		i(247572),	-- Strand of Whelk Shells
 		i(247574),	-- Sucker-Scarred Leggings
 	}),
@@ -53,9 +55,11 @@ local COMMONLOOT = {
 		i(247583),	-- Calcareous Wristclamps
 		i(247586),	-- Gleaming Val'kyr Cuirass
 		i(247581),	-- Goldrune Legplates
+		i(249678, { ["ItemAppearanceModifierID"] = 0 } ),	-- Helheim Hound's Visor
 		i(247580),	-- Krakenbone Waistplate
 		i(247582),	-- Lead-Soled Seabed Striders
 		i(247590),	-- Reinforced Hound-Handler's Gauntlets
+		i(249679, { ["ItemAppearanceModifierID"] = 0 } ),	-- Sovereign Valarjar Mantle
 	}),
 };
 

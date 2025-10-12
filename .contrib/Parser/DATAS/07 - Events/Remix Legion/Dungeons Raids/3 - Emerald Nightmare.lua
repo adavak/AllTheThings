@@ -39,6 +39,7 @@ local COMMONLOOT = {
 		i(247520),	-- Cozy Dryad Hoof-Socks
 		i(247521),	-- Crimson Wool-Lined Slippers
 		i(247507),	-- Dreamscale Inlaid Vestments
+		i(247561),	-- Gloves of Murmured Promises
 		i(247505),	-- Handwraps of Delusional Power
 		i(247515),	-- Hood of Darkened Visions
 		i(247519),	-- Maddening Robe of Secrets
@@ -67,8 +68,9 @@ local COMMONLOOT = {
 		i(247544),	-- Black Venom Sabatons
 		i(247537),	-- Creeping String of Larva
 		i(247541),	-- Disjointed Linkage Leggings
-		i(247506),	-- Gauntlets of the Demented Mind
+		i(247564),	-- Gauntlets of Fractured Dreams
 		i(247538),	-- Gauntlets of Malevolent Intent
+		i(247506),	-- Gauntlets of the Demented Mind
 		i(247539),	-- Greyed Dragonscale Coif
 		i(247036),	-- Helm of Shackled Elements
 		i(247536),	-- Laughing Sister's Pouch-Chain

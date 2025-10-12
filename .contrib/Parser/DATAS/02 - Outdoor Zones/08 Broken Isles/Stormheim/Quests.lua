@@ -696,7 +696,10 @@ root(ROOTS.Zones, {
 				q(39405, {	-- Stories of Battle
 					["sourceQuests"] = { 39154 },	-- To Skold-Ashil
 					["provider"] = { "o", 251571 },	-- Ashilvara, Verse 1
-					["coord"] = { 58.5, 64.2, STORMHEIM },
+					["coords"] = {
+						{ 58.5, 64.2, STORMHEIM },
+						{ 63.5, 64.6, STORMHEIM },
+					},
 				}),
 				q(44700, {	-- Stormheim (A)
 					["altQuests"] = { 39735 },	-- Stormheim (A) from Scouting Map
@@ -850,7 +853,21 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 108072 },	-- Sir Finley Mrrggglton
 					["coord"] = { 74.8, 55.5, STORMHEIM },
 					["groups"] = {
-						i(138149),	-- Ancient Dreyrgrot Tablet (QI!)
+						o_repeated({	-- Ancient Dreyrgrot Tablet
+							["coords"] = {
+								{ 75.3, 52.1, STORMHEIM },
+								{ 75.5, 49.0, STORMHEIM },
+								{ 75.9, 51.9, STORMHEIM },
+								{ 76.2, 49.8, STORMHEIM },
+							},
+							["groups"] = {
+								i(138149),	-- Ancient Dreyrgrot Tablet (QI!)
+								o(251008),	-- Ancient Dreyrgrot Tablet
+								o(258849),	-- Ancient Dreyrgrot Tablet
+								o(258850),	-- Ancient Dreyrgrot Tablet
+								o(258851),	-- Ancient Dreyrgrot Tablet
+							},
+						}),
 					},
 				}),
 				q(38332, {	-- The Ranger Lord
@@ -908,7 +925,22 @@ root(ROOTS.Zones, {
 				q(42640, {	-- The Value of Knowledge
 					["provider"] = { "o", 250990 },	-- Crate of Ancient Relics
 					["coord"] = { 75.5, 50.8, STORMHEIM },
-					["groups"] = { i(138151) },	-- Crate of Ancient Relics (QI!)
+					["groups"] = {
+						o(251007, {	-- Crate of Ancient Relics
+							["coords"] = {
+								{ 74.4, 50.3, STORMHEIM },
+								{ 75.0, 50.4, STORMHEIM },
+								{ 75.2, 51.8, STORMHEIM },
+								{ 75.4, 48.7, STORMHEIM },
+								{ 75.6, 49.4, STORMHEIM },
+								{ 75.8, 48.4, STORMHEIM },
+								{ 76.1, 51.3, STORMHEIM },
+								{ 76.5, 49.4, STORMHEIM },
+								{ 76.5, 50.4, STORMHEIM },
+							},
+							["groups"] = { i(138151) },	-- Crate of Ancient Relics (QI!)
+						}),
+					},
 				}),
 				q(38360, {	-- The Windrunner's Fate
 					["sourceQuests"] = { 38332 },	-- The Ranger Lord

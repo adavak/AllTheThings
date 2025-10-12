@@ -5977,6 +5977,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247520),	-- Cozy Dryad Hoof-Socks
 						i(247521),	-- Crimson Wool-Lined Slippers
 						i(247507),	-- Dreamscale Inlaid Vestments
+						i(247561),	-- Gloves of Murmured Promises
 						i(247505),	-- Handwraps of Delusional Power
 						i(247515),	-- Hood of Darkened Visions
 						i(247519),	-- Maddening Robe of Secrets
@@ -6056,7 +6057,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247585),	-- Gloves of Issued Challenge
 						i(247587),	-- Helbeast Skin Tunic
 						i(247573),	-- Moccasins of Silent Passage
+						i(249683),	-- Shoulderguards of Divine Arts
 						i(247575),	-- Sky-Valiant's Wristguards
+						i(249682),	-- Supreme Runecaster's Crown
 						i(247572),	-- Strand of Whelk Shells
 						i(247574),	-- Sucker-Scarred Leggings
 					}),
@@ -6073,10 +6076,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247583),	-- Calcareous Wristclamps
 						i(247586),	-- Gleaming Val'kyr Cuirass
 						i(247581),	-- Goldrune Legplates
+						i(249678),	-- Helheim Hound's Visor
 						i(247580),	-- Krakenbone Waistplate
 						i(247582),	-- Lead-Soled Seabed Striders
 						i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 						i(247590),	-- Reinforced Hound-Handler's Gauntlets
+						i(249679),	-- Sovereign Valarjar Mantle
 					}),
 				}),
 			}),

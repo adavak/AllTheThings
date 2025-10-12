@@ -136,6 +136,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				modItemId(247460,3),	-- Gilded Nightborne Waistplate
 				modItemId(247439,3),	-- Girdle of Nefarious Strategy
 				modItemId(247600,3),	-- Glacier Walkers
+				modItemId(247561,3),	-- Gloves of Murmured Promises
 				modItemId(247478,3),	-- Gloves of Synchronous Elements
 				modItemId(247442,3),	-- Gnawed Nightfallen Britches
 				modItemId(247472,3),	-- Goresmeared Abyssal Waistplate
@@ -258,8 +259,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				modItemId(247570,3),	-- Treads of the Drowned
 				modItemId(247585,3),	-- Gloves of Issued Challenge
 				modItemId(247587,3),	-- Helbeast Skin Tunic
+				modItemId(249678,3),	-- Helheim Hound's Visor
 				modItemId(247573,3),	-- Moccasins of Silent Passage
 				modItemId(247575,3),	-- Sky-Valiant's Wristguards
+				modItemId(249679,3),	-- Sovereign Valarjar Mantle
+				modItemId(249682,3),	-- Supreme Runecaster's Crown
 				modItemId(247572,3),	-- Strand of Whelk Shells
 				modItemId(247574,3),	-- Sucker-Scarred Leggings
 				modItemId(247576,3),	-- Anchor Chain Waistguard
