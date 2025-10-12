@@ -986,6 +986,7 @@ MobileDB.GameObject = {
 	[246328] = true,	-- Arcane Coil
 	[246430] = true,	-- Millificent's Discarded Lockbox [Assault on Violet Hold]
 	[246698] = true,	-- Apocalypse
+	[246699] = true,	-- Apocalypse (q:40986)
 	[246757] = true,	-- High Potency Coil
 	[246758] = true,	-- Low Potency Coil
 	[246759] = true,	-- High Switch
