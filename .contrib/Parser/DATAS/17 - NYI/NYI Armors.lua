@@ -5961,5 +5961,121 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				})),
 			}),
 		})),
+
+		-- 11.2.5
+		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
+			header(HEADERS.LFGDungeon, 2831, {	-- The Emerald Nightmare
+				d(DIFFICULTY.RAID.LFR, {
+					filter(CLOAKS, {
+						i(247560),	-- Evergreen Vinewrap Drape
+						i(247512),	-- Gossamer-Spun Greatcloak
+					}),
+					filter(CLOTH, {
+						i(247517),	-- Ancient Dreamwoven Mantle
+						i(247514),	-- Celestially Aligned Hood
+						i(247513),	-- Clasp of Cosmic Insignificance
+						i(247520),	-- Cozy Dryad Hoof-Socks
+						i(247521),	-- Crimson Wool-Lined Slippers
+						i(247507),	-- Dreamscale Inlaid Vestments
+						i(247505),	-- Handwraps of Delusional Power
+						i(247515),	-- Hood of Darkened Visions
+						i(247519),	-- Maddening Robe of Secrets
+						i(247518),	-- Mantle of Perpetual Bloom
+						i(247509),	-- Pliable Spider Silk Cinch
+						i(247516),	-- Ragged Horrorweave Leggings
+						i(247522),	-- Ragged Fur Wristwraps
+					}),
+					filter(LEATHER, {
+						i(247525),	-- Boots of Endless Betrayal
+						i(247531),	-- Cowl of Fright
+						i(247511),	-- Dragonspur Wristguards
+						i(247528),	-- Dreamsculptor's Gloves
+						i(247524),	-- Forest-Lord's Waistwrap
+						i(247533),	-- Grove Keeper's Robe
+						i(247523),	-- Lifeless Buckled Girdle
+						i(247530),	-- Mask of Multitudinous Eyes
+						i(247532),	-- Otherworldly Leather Mantle
+						i(247529),	-- Repulsive Leathery Pants
+						i(247534),	-- Scarred Ragefang Chestpiece
+						i(247527),	-- Splotched Bloodfur Leggings
+						i(247526),	-- Stained Maggot Squishers
+						i(247535),	-- Wristwraps of Broken Trust
+					}),
+					filter(MAIL, {
+						i(247544),	-- Black Venom Sabatons
+						i(247537),	-- Creeping String of Larva
+						i(247541),	-- Disjointed Linkage Leggings
+						i(247506),	-- Gauntlets of the Demented Mind
+						i(247538),	-- Gauntlets of Malevolent Intent
+						i(247539),	-- Greyed Dragonscale Coif
+						i(247536),	-- Laughing Sister's Pouch-Chain
+						i(247504),	-- Malignant Sabatons
+						i(247547),	-- Manacles of the Nightmare Colossus
+						i(247542),	-- Matted Fur Pauldrons
+						i(247546),	-- Patient Ambusher's Hauberk
+						i(247545),	-- Scored Ironclaw Sabatons
+						i(247540),	-- Singular Chain Leggings
+						i(247543),	-- Thorny Bramblemail Pauldrons
+					}),
+					filter(PLATE, {
+						i(247555),	-- Crown of Steely Brambles
+						i(247510),	-- Dragonbone Wristclamps
+						i(247552),	-- Eon-Tempered Waistplate
+						i(247549),	-- Fitted Ironbark Gauntlets
+						i(247508),	-- Horror Inscribed Chestguard
+						i(247548),	-- Insect-Etched Chestplate
+						i(247556),	-- Midnight Herald's Pauldrons
+						i(247557),	-- Pauldrons of Shifting Runes
+						i(247550),	-- Primal Gauntlets of Rage
+						i(247554),	-- Storm-Battered Legplates
+						i(247558),	-- Trampling Warboots
+						i(247553),	-- Venom-Fanged Barbute
+						i(247551),	-- Waistplate of Nameless Horror
+						i(247559),	-- Wristclamps of Mad Dreams
+					}),
+				}),
+			}),
+			header(HEADERS.LFGDungeon, 2834, {	-- Trial of Valor
+				d(DIFFICULTY.RAID.LFR, {
+					filter(CLOAKS, {
+						i(247591),	-- Drape of the Unworthy
+						i(247592),	-- Mantle of the Victorious Dead
+						i(247568),	-- Windwhipped Sailcloth
+					}),
+					filter(CLOTH, {
+						i(247567),	-- Cinch of Light
+						i(247571),	-- Helhound Hair Bracers
+						i(247569),	-- Leggings of the Lower Planes
+						i(247584),	-- Oiled Rigger's Handwraps
+						i(247566),	-- Robes of Celestial Adornment
+						i(247570),	-- Treads of the Drowned
+					}),
+					filter(LEATHER, {
+						i(247585),	-- Gloves of Issued Challenge
+						i(247587),	-- Helbeast Skin Tunic
+						i(247573),	-- Moccasins of Silent Passage
+						i(247575),	-- Sky-Valiant's Wristguards
+						i(247572),	-- Strand of Whelk Shells
+						i(247574),	-- Sucker-Scarred Leggings
+					}),
+					filter(MAIL, {
+						i(247576),	-- Anchor Chain Waistguard
+						i(247579),	-- Bite-Resistant Wristclamps
+						i(247588),	-- Corroded Val'kyr Chainmail
+						i(247589),	-- Kvaldir Exult's Grips
+						i(247577),	-- Leggings of the Undaunted
+						i(247578),	-- Radiant Soul Sabatons
+					}),
+					filter(PLATE, {
+						i(247583),	-- Calcareous Wristclamps
+						i(247586),	-- Gleaming Val'kyr Cuirass
+						i(247581),	-- Goldrune Legplates
+						i(247580),	-- Krakenbone Waistplate
+						i(247582),	-- Lead-Soled Seabed Striders
+						i(247590),	-- Reinforced Hound-Handler's Gauntlets
+					}),
+				}),
+			}),
+		})),
 	}),
 }));

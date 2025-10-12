@@ -98,45 +98,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						BossOnly(HELYA),
 					}),
 				}),
-				Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
-					filter(CLOAKS, {
-						i(247591),	-- Drape of the Unworthy
-						i(247592),	-- Mantle of the Victorious Dead
-						i(247568),	-- Windwhipped Sailcloth
-					}),
-					filter(CLOTH, {
-						i(247567),	-- Cinch of Light
-						i(247571),	-- Helhound Hair Bracers
-						i(247569),	-- Leggings of the Lower Planes
-						i(247584),	-- Oiled Rigger's Handwraps
-						i(247566),	-- Robes of Celestial Adornment
-						i(247570),	-- Treads of the Drowned
-					}),
-					filter(LEATHER, {
-						i(247585),	-- Gloves of Issued Challenge
-						i(247587),	-- Helbeast Skin Tunic
-						i(247573),	-- Moccasins of Silent Passage
-						i(247575),	-- Sky-Valiant's Wristguards
-						i(247572),	-- Strand of Whelk Shells
-						i(247574),	-- Sucker-Scarred Leggings
-					}),
-					filter(MAIL, {
-						i(247576),	-- Anchor Chain Waistguard
-						i(247579),	-- Bite-Resistant Wristclamps
-						i(247588),	-- Corroded Val'kyr Chainmail
-						i(247589),	-- Kvaldir Exult's Grips
-						i(247577),	-- Leggings of the Undaunted
-						i(247578),	-- Radiant Soul Sabatons
-					}),
-					filter(PLATE, {
-						i(247583),	-- Calcareous Wristclamps
-						i(247586),	-- Gleaming Val'kyr Cuirass
-						i(247581),	-- Goldrune Legplates
-						i(247580),	-- Krakenbone Waistplate
-						i(247582),	-- Lead-Soled Seabed Striders
-						i(247590),	-- Reinforced Hound-Handler's Gauntlets
-					}),
-				}),
 				Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
 					BossOnly(ODYN),
 					BossOnly(GUARM),
