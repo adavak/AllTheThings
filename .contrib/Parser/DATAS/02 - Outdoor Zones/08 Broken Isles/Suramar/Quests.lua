@@ -642,7 +642,9 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 108063 },	-- Korine
 					["coord"] = { 44.2, 73.0, SURAMAR },
 					["groups"] = {
-						i(130209),	-- Never Ending Toy Chest (TOY!)
+						i(130209, {	-- Never Ending Toy Chest (TOY!)
+							i(140753),	-- Half Eaten Candy Bar
+						}),
 					},
 				}),
 				q(42487, {	-- Friends On the Outside
