@@ -37,6 +37,10 @@ local CLASSIC_ONLY_DB_FUNC = function(func)
 	return func
 	-- #ENDIF
 end
+local ignoreTimeline = function(item)	-- Items applied with this were never actually removed.
+	item.timeline = IGNORED_VALUE;
+	return item;
+end
 
 -- 10 Man Exclusive Content
 local NAXX_10MAN_METADATA_AND_ACHIEVEMENTS = d(DIFFICULTY.LEGACY_RAID.PLAYER10_NORMAL, {
@@ -1701,20 +1705,6 @@ local NAXX_SHARED_CONTENT = d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL, {
 			-- #if NAXX_10MAN_DROPS_25MAN_LOOT
 			e(1601),	-- Anub'Rekhan
 			-- #endif
-			e(1602, {	-- Grand Widow Faerlina
-				["creatureID"] = 15953,	-- Grand Widow Faerlina
-				["groups"] = {
-					i(206472, {	-- Faerlina's Sewing Kit
-						["sourceQuests"] = {
-							76263,	-- The Dread Citadel - Naxxramas [Honored]
-							76264,	-- The Dread Citadel - Naxxramas [Revered]
-							76265,	-- The Dread Citadel - Naxxramas [Exalted]
-						},
-						["sourceQuestNumRequired"] = 1,
-						["timeline"] = { ADDED_10_1_5 },
-					}),
-				},
-			}),
 			e(1603, {	-- Maexxna
 				["creatureID"] = 15952,	-- Maexxna
 				["groups"] = {
@@ -1780,1296 +1770,1258 @@ local NAXX_SHARED_CONTENT = d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL, {
 -- #if AFTER 10.1.5
 -- With Patch 10.1.5, Blizzard added back pre-Wrath Naxxramas loot other than Corrupted Ashbringer. Yay!
 local DEATHS_BARGAINING_CHIP = 206576;
-local NAXX_LEGACY_CONTENT_UPDATE = bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {
-	header(HEADERS.Achievement, 18372, {
-		i(12846, {	-- Argent Dawn Commission
-			["cost"] = {
-				{ "i", 206372, 1 },	-- 1x Cracked Argent Dawn Commission
-				{ "i", 12811, 1 },	-- 1x Righteous Orb
-				{ "i", 6037, 4 },	-- 4x Truesilver Bar
-			},
-		}),
-		n(206148, {	-- Hand of Naxxramas
-			["description"] = "When you have both the ward and holy water, head to the entrance of the Crusader's Cathedral, but don't enter there - Instead, use your Ward of Naxxramas and turn to the left. If done correctly, you will see a Dread Ward of Naxxramas right next to the gates there, Once you find the Dread Ward, toss your  Stratholme Holy Water in it.\n\nIf done correctly, you will receive a zone-wide yell, and a debuff called  Sleight of Hand. Once you get this debuff, you have 5 minutes to run all the way to the Undead side of Stratholme, to the gate to the left of the Necropolis where Lord Aurius Rivendare is located. You MUST kill Lord Aurius Rivendare to open the gate. If you arrive in time, a Hand of Naxxramas NPC will be there, and you will be able to use your Argent Dawn Commission to burn it to a crisp.",
-			["sourceQuests"] = { 76257 },	-- Darkmaster's Scourgestone
-			["questID"] = 76261,
-			["maps"] = { 318 },	-- Stratholme - Undead
-			["cost"] = {
-				{ "i", 12846, 1 },	-- 1x Argent Dawn Commission
-				{ "i", 13180, 1 },	-- 1x Stratholme Holy Water
-				{ "i", 206377, 1 },	-- 1x Ward of Naxxramas
-			},
-		}),
-		n(16116, {	-- Archmage Angela Dosantos
-			["description"] = "Talk to Archmage after defeating Hand of Naxxramas",
-			["sourceQuests"] = { 76261 },	-- Hand of Naxxramas
-			["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
-			["questID"] = 76262,
-		}),
-		q(76263, {	-- The Dread Citadel - Naxxramas [Honored]
-			["sourceQuests"] = { 76262 },	-- Archmage Angela Dosantos
-			["altQuests"] = {
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["provider"] = { "n", 16116 },	-- Archmage Angela Dosantos
-			["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
-			["minReputation"] = { FACTION_ARGENT_DAWN, HONORED },
-			["maxReputation"] = { FACTION_ARGENT_DAWN, REVERED },
-			["cost"] = {
-				{ "i", 12363, 5 },	-- 5x Arcane Crystal
-				{ "i", 14344, 6 },	-- 6x Large Brilliant Shard
-				{ "i", 12811, 1 },	-- 1x Righteous Orb
-			},
-			["groups"] = {
-				ach(18372),	-- Wards of the Dread Citadel
-			},
-		}),
-		q(76264, {	-- The Dread Citadel - Naxxramas [Revered]
-			["sourceQuests"] = { 76262 },	-- Archmage Angela Dosantos
-			["altQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["provider"] = { "n", 16116 },	-- Archmage Angela Dosantos
-			["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
-			["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },
-			["maxReputation"] = { FACTION_ARGENT_DAWN, EXALTED },
-			["cost"] = {
-				{ "i", 12363, 2 },	-- 2x Arcane Crystal
-				{ "i", 14344, 3 },	-- 3x Large Brilliant Shard
-			},
-			["groups"] = {
-				ach(18372),	-- Wards of the Dread Citadel
-			},
-		}),
-		q(76265, {	-- The Dread Citadel - Naxxramas [Exalted]
-			["sourceQuests"] = { 76262 },	-- Archmage Angela Dosantos
-			["altQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-			},
-			["provider"] = { "n", 16116 },	-- Archmage Angela Dosantos
-			["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
-			["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },
-			["groups"] = {
-				ach(18372),	-- Wards of the Dread Citadel
-			},
-		}),
-	}),
-	n(ACHIEVEMENTS, {
-		ach(18557),	-- Never Bothered, Anyway
-		ach(18616, {	-- Putting Wilhelm Out of Business
-			crit(60649, {	-- Omarion's Notes - Pages 1 & 2
-				["_quests"] = { 76291 },
-			}),
-			crit(60650, {	-- Omarion's Notes - Pages 3 & 4
-				["_quests"] = { 76292 },
-			}),
-			crit(60651, {	-- Omarion's Notes - Pages 5 & 6
-				["_quests"] = { 76293 },
-			}),
-			crit(60652, {	-- Omarion's Notes - Pages 7 & 8
-				["_quests"] = { 76294 },
-			}),
-			crit(60653, {	-- Omarion's Notes - Pages 9 & 10
-				["_quests"] = { 76295 },
-			}),
-			crit(60654, {	-- Omarion's Notes - Pages 11 & 12
-				["_quests"] = { 76296 },
-			}),
-			crit(60655, {	-- Omarion's Notes - Pages 13 & 14
-				["_quests"] = { 76297 },
-			}),
-			crit(60656, {	-- Omarion's Notes - Pages 15 & 16
-				["_quests"] = { 76298 },
-			}),
-			crit(60657, {	-- Omarion's Notes - Pages 17 & 18
-				["_quests"] = { 76299 },
-			}),
-			crit(60658, {	-- Omarion's Notes - Pages 19 & 20
-				["_quests"] = { 76300 },
-			}),
-			crit(60659, {	-- Omarion's Notes - Pages 21 & 22
-				["_quests"] = { 76301 },
-			}),
-			crit(60660, {	-- Omarion's Notes - Pages 23 & 24
-				["_quests"] = { 76302 },
-			}),
-			crit(60661, {	-- Omarion's Notes - Pages 25 & 26
-				["_quests"] = { 76303 },
-			}),
-			crit(60662, {	-- Omarion's Notes - Pages 27 & 28
-				["_quests"] = { 76304 },
-			}),
-			crit(60663, {	-- Omarion's Notes - Pages 29 & 30
-				["_quests"] = { 76305 },
-			}),
-			crit(60664, {	-- Omarion's Notes - Pages 31 & 32
-				["_quests"] = { 76306 },
-			}),
-		}),
-		ach(11750, {["timeline"] = {ADDED_7_2_0}}),	-- Undying Aesthetic (Naxxramas)
-	}),
-	n(COMMON_BOSS_DROPS, {
-		i(206375, {	-- Corruptor's Scourgestone
-			["timeline"] = { ADDED_10_1_5 },
-		}),
-	}),
-	prof(FISHING, {
-		i(206471, {	-- Abomination's Chain
-			["description"] = "Chance to be fished from any slime in Naxxramas.",
-			["sourceQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["sourceQuestNumRequired"] = 1,
-			["requireSkill"] = FISHING,
-		}),
-	}),
-	n(QUESTS, {
-		q(76395, {	-- Corruptor's Scourgestones
-			["sourceQuests"] = { 76390 },	-- Inconvenience Fee
-			["provider"] = { "n", 206572 },	-- Zackett Skullsmash
-			["cost"] = {{ "i", 206375, 1 }},	-- 1x Corruptor's Scourgestone
-			["repeatable"] = true,
-			["groups"] = {
-				i(DEATHS_BARGAINING_CHIP),
-			},
-		}),
-		q(76390, {	-- Inconvenience Fee
-			["sourceQuests"] = { 76307 },	-- Makeshift Grappling Hook
-			["provider"] = { "n", 206572 },	-- Zackett Skullsmash
-			["cost"] = {
-				{ "i", 206374, 20 },	-- 20x Invader's Scourgestone
-				{ "i", 206375, 5 },		-- 5x Corruptor's Scourgestone
-				{ "i", 20520, 3 },		-- 3x Dark Rune
-				{ "i", 33042, 1 },		-- 1x Black Coffee
-				{ "i", 13180, 2 },		-- 2x Stratholme Holy Water
-			},
-			["groups"] = {
-				i(206615),	-- Desecrated Cloth Bracers
-				i(206623),	-- Desecrated Leather Bracers
-				i(206631),	-- Desecrated Mail Bracers
-				i(206640),	-- Desecrated Plate Bracers
-			},
-		}),
-		q(76396, {	-- Invader's Scourgestones
-			["sourceQuests"] = { 76390 },	-- Inconvenience Fee
-			["provider"] = { "n", 206572 },	-- Zackett Skullsmash
-			["cost"] = {{ "i", 206374, 10 }},	-- 10x Invader's Scourgestone
-			["repeatable"] = true,
-			["groups"] = {
-				i(DEATHS_BARGAINING_CHIP),
-			},
-		}),
-		q(77244, {	-- Many Corruptor's Scourgestones
-			["sourceQuests"] = { 76390 },	-- Inconvenience Fee
-			["provider"] = { "n", 206572 },	-- Zackett Skullsmash
-			["cost"] = {{ "i", 206375, 5 }},	-- 5x Corruptor's Scourgestone
-			["repeatable"] = true,
-			["groups"] = {
-				i(DEATHS_BARGAINING_CHIP),
-			},
-		}),
-		q(77245, {	-- Many Invader's Scourgestones
-			["sourceQuests"] = { 76390 },	-- Inconvenience Fee
-			["provider"] = { "n", 206572 },	-- Zackett Skullsmash
-			["cost"] = {{ "i", 206374, 50 }},	-- 50x Invader's Scourgestone
-			["repeatable"] = true,
-			["groups"] = {
-				i(DEATHS_BARGAINING_CHIP),
-			},
-		}),
-		q(76290, {	-- Omarion's Second Handbook
-			["sourceQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["sourceQuestNumRequired"] = 1,
-			["provider"] = { "i", 206449 },	-- Omarion's Second Handbook
-		}),
-	}),
-	n(SPECIAL, {
-		i(206473, {	-- Makeshift Grappling Hook (CI!)
-			["sourceQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["sourceQuestNumRequired"] = 1,
-			["cost"] = {
-				{ "i", 206471, 1 },	-- 1x Abomination's Chain
-				{ "i", 206470, 1 },	-- 1x Construct's Hook
-				{ "i", 206472, 1 },	-- 1x Faerlina's Sewing Kit
-			},
-		}),
-	}),
-	n(TIER_THREE_SETS, {
-		ach(11744),	-- Drop Dead, Gorgeous
-		n(CRAFTABLES, {
-			filter(CLOTH, {
-				i(206617, {	-- Desecrated Cloth Belt
-					["cost"] = {
-						{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206619, {	-- Desecrated Cloth Boots
-					["cost"] = {
-						{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206615, {	-- Desecrated Cloth Bracers
-					["cost"] = {
-						{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206614, {	-- Desecrated Cloth Chestpiece
-					["cost"] = {
-						{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206616, {	-- Desecrated Cloth Gauntlets
-					["cost"] = {
-						{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206612, {	-- Desecrated Cloth Helmet
-					["cost"] = {
-						{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206618, {	-- Desecrated Cloth Leggings
-					["cost"] = {
-						{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-				i(206613, {	-- Desecrated Cloth Spaulders
-					["cost"] = {
-						{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
-						{ "i", 206645, 1 },	-- 1x Cursed Cloth
-					},
-				}),
-			}),
-			filter(LEATHER, {
-				i(206625, {	-- Desecrated Leather Belt
-					["cost"] = {
-						{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206627, {	-- Desecrated Leather Boots
-					["cost"] = {
-						{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206623, {	-- Desecrated Leather Bracers
-					["cost"] = {
-						{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206622, {	-- Desecrated Leather Chestpiece
-					["cost"] = {
-						{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206624, {	-- Desecrated Leather Gauntlets
-					["cost"] = {
-						{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206620, {	-- Desecrated Leather Helmet
-					["cost"] = {
-						{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206626, {	-- Desecrated Leather Leggings
-					["cost"] = {
-						{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-				i(206621, {	-- Desecrated Leather Spaulders
-					["cost"] = {
-						{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
-						{ "i", 206646, 1 },	-- 1x Languished Leather
-					},
-				}),
-			}),
-			filter(MAIL, {
-				i(206633, {	-- Desecrated Mail Belt
-					["cost"] = {
-						{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206635, {	-- Desecrated Mail Boots
-					["cost"] = {
-						{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206631, {	-- Desecrated Mail Bracers
-					["cost"] = {
-						{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206630, {	-- Desecrated Mail Chestpiece
-					["cost"] = {
-						{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206632, {	-- Desecrated Mail Gauntlets
-					["cost"] = {
-						{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206628, {	-- Desecrated Mail Helmet
-					["cost"] = {
-						{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206634, {	-- Desecrated Mail Leggings
-					["cost"] = {
-						{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-				i(206629, {	-- Desecrated Mail Spaulders
-					["cost"] = {
-						{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
-						{ "i", 206647, 1 },	-- 1x Scourged Scales
-					},
-				}),
-			}),
-			filter(PLATE, {
-				i(206642, {	-- Desecrated Plate Belt
-					["cost"] = {
-						{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206644, {	-- Desecrated Plate Boots
-					["cost"] = {
-						{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206640, {	-- Desecrated Plate Bracers
-					["cost"] = {
-						{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206639, {	-- Desecrated Plate Chestpiece
-					["cost"] = {
-						{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206641, {	-- Desecrated Plate Gauntlets
-					["cost"] = {
-						{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206636, {	-- Desecrated Plate Helmet
-					["cost"] = {
-						{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206643, {	-- Desecrated Plate Leggings
-					["cost"] = {
-						{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-				i(206637, {	-- Desecrated Plate Spaulders
-					["cost"] = {
-						{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
-						{ "i", 206648, 1 },	-- 1x Undeath Metal
-					},
-				}),
-			}),
-		}),
-		cl(DRUID, {
-			i(22490, {	-- Dreamwalker Headpiece
-				["cost"] = {
-					{ "i", 206620, 1 },		-- 1x Desecrated Leather Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22491, {	-- Dreamwalker Spaulders
-				["cost"] = {
-					{ "i", 206621, 1 },		-- 1x Desecrated Leather Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22488, {	-- Dreamwalker Tunic
-				["cost"] = {
-					{ "i", 206622, 1 },		-- 1x Desecrated Leather Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22495, {	-- Dreamwalker Wristguards
-				["cost"] = {
-					{ "i", 206623, 1 },		-- 1x Desecrated Leather Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22493, {	-- Dreamwalker Handguards
-				["cost"] = {
-					{ "i", 206624, 1 },		-- 1x Desecrated Leather Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22494, {	-- Dreamwalker Girdle
-				["cost"] = {
-					{ "i", 206625, 1 },		-- 1x Desecrated Leather Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22489, {	-- Dreamwalker Legguards
-				["cost"] = {
-					{ "i", 206626, 1 },		-- 1x Desecrated Leather Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22492, {	-- Dreamwalker Boots
-				["cost"] = {
-					{ "i", 206627, 1 },		-- 1x Desecrated Leather Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(MAGE, {
-			i(22498, {	-- Frostfire Circlet
-				["cost"] = {
-					{ "i", 206612, 1 },		-- 1x Desecrated Cloth Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22499, {	-- Frostfire Shoulderpads
-				["cost"] = {
-					{ "i", 206613, 1 },		-- 1x Desecrated Cloth Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22496, {	-- Frostfire Robe
-				["cost"] = {
-					{ "i", 206614, 1 },		-- 1x Desecrated Cloth Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22503, {	-- Frostfire Bindings
-				["cost"] = {
-					{ "i", 206615, 1 },		-- 1x Desecrated Cloth Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22501, {	-- Frostfire Gloves
-				["cost"] = {
-					{ "i", 206616, 1 },		-- 1x Desecrated Cloth Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22502, {	-- Frostfire Belt
-				["cost"] = {
-					{ "i", 206617, 1 },		-- 1x Desecrated Cloth Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22497, {	-- Frostfire Leggings
-				["cost"] = {
-					{ "i", 206618, 1 },		-- 1x Desecrated Cloth Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22500, {	-- Frostfire Sandals
-				["cost"] = {
-					{ "i", 206619, 1 },		-- 1x Desecrated Cloth Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(HUNTER, {
-			i(22438, {	-- Cryptstalker Headpiece
-				["cost"] = {
-					{ "i", 206628, 1 },		-- 1x Desecrated Mail Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22439, {	-- Cryptstalker Spaulders
-				["cost"] = {
-					{ "i", 206629, 1 },		-- 1x Desecrated Mail Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22436, {	-- Cryptstalker Tunic
-				["cost"] = {
-					{ "i", 206630, 1 },		-- 1x Desecrated Mail Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22443, {	-- Cryptstalker Wristguards
-				["cost"] = {
-					{ "i", 206631, 1 },		-- 1x Desecrated Mail Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22441, {	-- Cryptstalker Handguards
-				["cost"] = {
-					{ "i", 206632, 1 },		-- 1x Desecrated Mail Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22442, {	-- Cryptstalker Girdle
-				["cost"] = {
-					{ "i", 206633, 1 },		-- 1x Desecrated Mail Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22437, {	-- Cryptstalker Legguards
-				["cost"] = {
-					{ "i", 206634, 1 },		-- 1x Desecrated Mail Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22440, {	-- Cryptstalker Boots
-				["cost"] = {
-					{ "i", 206635, 1 },		-- 1x Desecrated Mail Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(PALADIN, {
-			i(22428, {	-- Redemption Headpiece
-				["cost"] = {
-					{ "i", 206636, 1 },		-- 1x Desecrated Plate Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22429, {	-- Redemption Spaulders
-				["cost"] = {
-					{ "i", 206637, 1 },		-- 1x Desecrated Plate Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22425, {	-- Redemption Tunic
-				["cost"] = {
-					{ "i", 206639, 1 },		-- 1x Desecrated Plate Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22424, {	-- Redemption Wristguards
-				["cost"] = {
-					{ "i", 206640, 1 },		-- 1x Desecrated Plate Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22426, {	-- Redemption Handguards
-				["cost"] = {
-					{ "i", 206641, 1 },		-- 1x Desecrated Plate Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22431, {	-- Redemption Girdle
-				["cost"] = {
-					{ "i", 206642, 1 },		-- 1x Desecrated Plate Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22427, {	-- Redemption Legguards
-				["cost"] = {
-					{ "i", 206643, 1 },		-- 1x Desecrated Plate Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22430, {	-- Redemption Boots
-				["cost"] = {
-					{ "i", 206644, 1 },		-- 1x Desecrated Plate Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(PRIEST, {
-			i(22514, {	-- Circlet of Faith
-				["cost"] = {
-					{ "i", 206612, 1 },		-- 1x Desecrated Cloth Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22515, {	-- Shoulderpads of Faith
-				["cost"] = {
-					{ "i", 206613, 1 },		-- 1x Desecrated Cloth Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22512, {	-- Robe of Faith
-				["cost"] = {
-					{ "i", 206614, 1 },		-- 1x Desecrated Cloth Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22519, {	-- Bindings of Faith
-				["cost"] = {
-					{ "i", 206615, 1 },		-- 1x Desecrated Cloth Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22517, {	-- Gloves of Faith
-				["cost"] = {
-					{ "i", 206616, 1 },		-- 1x Desecrated Cloth Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22518, {	-- Belt of Faith
-				["cost"] = {
-					{ "i", 206617, 1 },		-- 1x Desecrated Cloth Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22513, {	-- Leggings of Faith
-				["cost"] = {
-					{ "i", 206618, 1 },		-- 1x Desecrated Cloth Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22516, {	-- Sandals of Faith
-				["cost"] = {
-					{ "i", 206619, 1 },		-- 1x Desecrated Cloth Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(ROGUE, {
-			i(22478, {	-- Bonescythe Helmet
-				["cost"] = {
-					{ "i", 206620, 1 },		-- 1x Desecrated Leather Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22479, {	-- Bonescythe Pauldrons
-				["cost"] = {
-					{ "i", 206621, 1 },		-- 1x Desecrated Leather Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22476, {	-- Bonescythe Breastplate
-				["cost"] = {
-					{ "i", 206622, 1 },		-- 1x Desecrated Leather Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22483, {	-- Bonescythe Bracers
-				["cost"] = {
-					{ "i", 206623, 1 },		-- 1x Desecrated Leather Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22481, {	-- Bonescythe Gauntlets
-				["cost"] = {
-					{ "i", 206624, 1 },		-- 1x Desecrated Leather Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22482, {	-- Bonescythe Waistguard
-				["cost"] = {
-					{ "i", 206625, 1 },		-- 1x Desecrated Leather Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22477, {	-- Bonescythe Legplates
-				["cost"] = {
-					{ "i", 206626, 1 },		-- 1x Desecrated Leather Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22480, {	-- Bonescythe Sabatons
-				["cost"] = {
-					{ "i", 206627, 1 },		-- 1x Desecrated Leather Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(SHAMAN, {
-			i(22466, {	-- Earthshatter Headpiece
-				["cost"] = {
-					{ "i", 206628, 1 },		-- 1x Desecrated Mail Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22467, {	-- Earthshatter Spaulders
-				["cost"] = {
-					{ "i", 206629, 1 },		-- 1x Desecrated Mail Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22464, {	-- Earthshatter Tunic
-				["cost"] = {
-					{ "i", 206630, 1 },		-- 1x Desecrated Mail Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22471, {	-- Earthshatter Wristguards
-				["cost"] = {
-					{ "i", 206631, 1 },		-- 1x Desecrated Mail Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22469, {	-- Earthshatter Handguards
-				["cost"] = {
-					{ "i", 206632, 1 },		-- 1x Desecrated Mail Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22470, {	-- Earthshatter Girdle
-				["cost"] = {
-					{ "i", 206633, 1 },		-- 1x Desecrated Mail Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22465, {	-- Earthshatter Legguards
-				["cost"] = {
-					{ "i", 206634, 1 },		-- 1x Desecrated Mail Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22468, {	-- Earthshatter Boots
-				["cost"] = {
-					{ "i", 206635, 1 },		-- 1x Desecrated Mail Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(WARLOCK, {
-			i(22506, {	-- Plagueheart Circlet
-				["cost"] = {
-					{ "i", 206612, 1 },		-- 1x Desecrated Cloth Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22507, {	-- Plagueheart Shoulderpads
-				["cost"] = {
-					{ "i", 206613, 1 },		-- 1x Desecrated Cloth Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22504, {	-- Plagueheart Robe
-				["cost"] = {
-					{ "i", 206614, 1 },		-- 1x Desecrated Cloth Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22511, {	-- Plagueheart Bindings
-				["cost"] = {
-					{ "i", 206615, 1 },		-- 1x Desecrated Cloth Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22509, {	-- Plagueheart Gloves
-				["cost"] = {
-					{ "i", 206616, 1 },		-- 1x Desecrated Cloth Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22510, {	-- Plagueheart Belt
-				["cost"] = {
-					{ "i", 206617, 1 },		-- 1x Desecrated Cloth Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22505, {	-- Plagueheart Leggings
-				["cost"] = {
-					{ "i", 206618, 1 },		-- 1x Desecrated Cloth Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22508, {	-- Plagueheart Sandals
-				["cost"] = {
-					{ "i", 206619, 1 },		-- 1x Desecrated Cloth Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-		cl(WARRIOR, {
-			i(22418, {	-- Dreadnaught Helmet
-				["cost"] = {
-					{ "i", 206636, 1 },		-- 1x Desecrated Plate Helmet
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22419, {	-- Dreadnaught Pauldrons
-				["cost"] = {
-					{ "i", 206637, 1 },		-- 1x Desecrated Plate Spaulders
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 280 },	-- 280x Phylacterweave
-				},
-			}),
-			i(22416, {	-- Dreadnaught Breastplate
-				["cost"] = {
-					{ "i", 206639, 1 },		-- 1x Desecrated Plate Chestpiece
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22423, {	-- Dreadnaught Bracers
-				["cost"] = {
-					{ "i", 206640, 1 },		-- 1x Desecrated Plate Bracers
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22421, {	-- Dreadnaught Gauntlets
-				["cost"] = {
-					{ "i", 206641, 1 },		-- 1x Desecrated Plate Gauntlets
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-			i(22422, {	-- Dreadnaught Waistguard
-				["cost"] = {
-					{ "i", 206642, 1 },		-- 1x Desecrated Plate Belt
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 70 },	-- 70x Phylacterweave
-				},
-			}),
-			i(22417, {	-- Dreadnaught Legplates
-				["cost"] = {
-					{ "i", 206643, 1 },		-- 1x Desecrated Plate Leggings
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 210 },	-- 210x Phylacterweave
-				},
-			}),
-			i(22420, {	-- Dreadnaught Sabatons
-				["cost"] = {
-					{ "i", 206644, 1 },		-- 1x Desecrated Plate Boots
-					{ "i", 12811, 10 },		-- 10x Righteous Orb
-					{ "i", 206579, 140 },	-- 140x Phylacterweave
-				},
-			}),
-		}),
-	}),
-	n(TREASURES, {
-		o(403722, {	-- Conveniently Misplaced Hook
-			["description"] = "Located in the second room of the Construct Quarter, by a vat of slime to the right.",
-			["sourceQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["sourceQuestNumRequired"] = 1,
-			["groups"] = {
-				i(206470),	-- Construct's Hook
-			},
-		}),
-		o(403731, {	-- Frozen Rune
-			["description"] = "Located everywhere inside of Naxxramas.",
-			["sourceQuests"] = {
-				76263,	-- The Dread Citadel - Naxxramas [Honored]
-				76264,	-- The Dread Citadel - Naxxramas [Revered]
-				76265,	-- The Dread Citadel - Naxxramas [Exalted]
-			},
-			["sourceQuestNumRequired"] = 1,
-			["groups"] = {
-				i(22682),	-- Frozen Rune
-			},
-		}),
-		o(403702, {	-- Lost Page
-			["description"] = "Pages 1 and 2 of Omarion's Notes can be found in the Outer Ring of Naxxramas, inside the slime pool that separates the Construct and Arachnid Quarters, to the north of the instance. It will be at the bottom of the pool.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206450),	-- Omarion's Notes - Pages 1 & 2 (CI!)
-			},
-		}),
-		o(403703, {	-- Lost Page
-			["description"] = "Pages 3 and 4 of Omarion's notes can be found in the first room of the Arachnid Quarter, hidden within the ruined structure by the slime pool.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206451),	-- Omarion's Notes - Pages 3 & 4 (CI!)
-			},
-		}),
-		o(403704, {	-- Lost Page
-			["description"] = "Pages 5 and 6 of Omarion's Notes can be found just before entering Faerlina's room - Instead of taking a left to enter the boss room, take a right. Page is hidden beneath some spider eggs.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206452),	-- Omarion's Notes - Pages 5 & 6 (CI!)
-			},
-		}),
-		o(403705, {	-- Lost Page
-			["description"] = "Pages 7 and 8 of Omarion's Notes can be found in Maexxna's Room. Once you enter the room, turn back to face the entrance and look up, there will be a grapple point just above the entrance. Grapple and walk around the outer ring to the eastern end of the room, where the notes will be waiting for you.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206453),	-- Omarion's Notes - Pages 7 & 8 (CI!)
-			},
-		}),
-		o(403706, {	-- Lost Page
-			["description"] = "Pages 9 and 10 of Omarion's Notes can be found just before the tunnel that leads to Gluth. Before you enter the tunnel, by the pipe after Grobbulus, there will be a grapple point. Simply grapple to it to reach the note.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206454),	-- Omarion's Notes - Pages 9 & 10 (CI!)
-			},
-		}),
-		o(403707, {	-- Lost Page
-			["description"] = "Pages 11 and 12 of Omarion's Notes can be found in Grobbulus's room. Climb the ramp behind the boss and turn back, you will see a grappling point to a small alcove near the ceiling of the room. Grapple there and walk to the end of the alcove to reach the note.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206455),	-- Omarion's Notes - Pages 11 & 12 (CI!)
-			},
-		}),
-		o(403708, {	-- Lost Page
-			["description"] = "Pages 13 and 14 of Omarion's Notes can be found high on the ceiling on the corridor after Patchwerk. To reach the page, start by grabbing a grapple point by the tunnel leading to Gluth, at the broken portion to the left just before dropping to the boss, then follow a small grappling puzzle to get to the page.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206456),	-- Omarion's Notes - Pages 13 & 14 (CI!)
-			},
-		}),
-		o(403709, {	-- Lost Page
-			["description"] = "Pages 15 and 16 of Omarion's Notes can be found in Thaddius's room, by grappling on your way to Zackett Skullsmash.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206457),	-- Omarion's Notes - Pages 15 & 16 (CI!)
-			},
-		}),
-		o(403710, {	-- Lost Page
-			["description"] = "Pages 17 and 18 of Omarion's Notes can be found in the first room of the Plague Quarter, sitting by a meat wagon just to the left of the entrance. The page does blend in well with the wagon so it can be easy to miss.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206458),	-- Omarion's Notes - Pages 17 & 18 (CI!)
-			},
-		}),
-		o(403711, {	-- Lost Page
-			["description"] = "Pages 19 and 20 of Omarion's Notes can be found by the corridor between Noth and Heigan in the Plague Quarter. On the mob gauntlet on the left side, there will be a slime pool covered by a sewer lid, and some mushrooms in the area. The note will be on top of one of the mushrooms.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206459),	-- Omarion's Notes - Pages 19 & 20 (CI!)
-			},
-		}),
-		o(403712, {	-- Lost Page
-			["description"] = "Pages 21 and 22 of Omarion's Notes can be found in Loatheb's room, by a gate to the left of where the boss is standing (when looking from the boss's room entrance).",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206460),	-- Omarion's Notes - Pages 21 & 22 (CI!)
-			},
-		}),
-		o(403713, {	-- Lost Page
-			["description"] = "Pages 23 and 24 of Omarion's Notes can be found by the platform overlooking Noth's room. The platform is accessible by reaching it via the Outer Ring.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206461),	-- Omarion's Notes - Pages 23 & 24 (CI!)
-			},
-		}),
-		o(403714, {	-- Lost Page
-			["description"] = "Pages 25 and 26 of Omarion's Notes can be found above the entrance to Gothik's room. Grapple to an upper alcove right at the entrance of the weapon mobs room after Razuvious, then carefully run along the small alcove all the way to Gothik's room to reach the page.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206462),	-- Omarion's Notes - Pages 25 & 26 (CI!)
-			},
-		}),
-		o(403715, {	-- Lost Page
-			["description"] = "Pages 27 and 28 of Omarion's Notes can be found in the Four Horsemen room, by a sewer pipe to the left as you enter the room.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206463),	-- Omarion's Notes - Pages 27 & 28 (CI!)
-			},
-		}),
-		o(403716, {	-- Lost Page
-			["description"] = "Pages 29 and 30 of Omarion's Notes can be found by the stables in In Instructor Razuvious's room. Use the grapple point to an upper alcove by the nest just in front of the entrance of Razuvious's battle arena, then run along the alcove to reach the note.",
-			["sourceQuests"] = {
-				76307,	-- Makeshift Grappling Hook
-				76290,	-- Omarion's Second Handbook
-			},
-			["groups"] = {
-				i(206464),	-- Omarion's Notes - Pages 29 & 30 (CI!)
-			},
-		}),
-		o(403717, {	-- Lost Page
-			["description"] = "Pages 31 and 32 of Omarion's Notes can be found in the room after Razuvious with all the enchanted weapons. By the right, next to the corner, by one of the window frames.",
-			["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
-			["groups"] = {
-				i(206465),	-- Omarion's Notes - Pages 31 & 32 (CI!)
-			},
-		}),
-		o(403962, {	-- Omarion's Second Handbook
-			["description"] = "Located by a cage in the first room of the Military Quarter.",
-			["groups"] = {
-				i(206449),	-- Omarion's Second Handbook
-			},
-		}),
-	}),
-	n(VENDORS, {
-		n(206572, {	-- Zackett Skullsmash
-			["sourceQuests"] = { 76390 },	-- Inconvenience Fee
-			["groups"] = {
-				i(206573, {	-- Dented Raider's Belt
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Belts from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(206609),	-- Lamented Crusader's Belt
-					},
-				}),
-				i(206575, {	-- Dented Raider's Boots
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Boots from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(10402),	-- Blackened Defias Boots
-						i(206611),	-- Lamented Crusader's Boots
-						i(7187),	-- VanCleef's Boots
-					--	i(4660),	-- Walking Boots					Added to original Source in 10.1.7
-					},
-				}),
-				i(206571, {	-- Dented Raider's Bracers
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Bracers from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(206607),	-- Lamented Crusader's Bracers
-					},
-				}),
-				i(206570, {	-- Dented Raider's Chestpiece
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Chestpieces from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(206606),	-- Lamented Crusader's Chestpiece
-						i(3019),	-- Noble's Robe
-					},
-				}),
-				i(206572, {	-- Dented Raider's Gauntlets
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Gauntlets from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(206608),	-- Lamented Crusader's Gauntlets
-					--	i(1944),	-- Metalworking Gloves				Added to original Source in 10.1.7
-					--	i(1945),	-- Woodworking Gloves				Added to original Source in 10.1.7
-					},
-				}),
-				i(206568, {	-- Dented Raider's Helmet
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Helmets from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(206604),	-- Lamented Crusader's Helmet
-					},
-				}),
-				i(206574, {	-- Dented Raider's Leggings
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Leggings from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-					--	i(1943),	-- Goblin Mail Leggings				Added to original Source in 10.1.7
-					--	i(2978),	-- Veteran Leggings					-- Likely added back. Add when confirmed
-						i(206610),	-- Lamented Crusader's Leggings
-					},
-				}),
-				i(206569, {	-- Dented Raider's Spaulders
-					["description"] = "Includes a wide range of Bind on Equip (BoE) Spaulders from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
-					["groups"] = {
-						i(206605),	-- Lamented Crusader's Spaulders
-					},
-				}),
-				i(206771, {	-- Pattern: Cursed Cloth (RECIPE!)
-					["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
-				}),
-				i(206772, {	-- Pattern: Languished Leather (RECIPE!)
-					["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
-				}),
-				i(206773, {	-- Pattern: Scourged Scales (RECIPE!)
-					["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
-				}),
-				i(206774, {	-- Plans: Undeath Metal (RECIPE!)
-					["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
-				}),
-				i(206579, {	-- Phylacterweave
-					["description"] = "Can also drop from any Dented Raider's Token.\nChanged to Bind on Account in 10.1.7",
-					-- Dont symlink it Dented tokens, makes it too spammy
-				}),
-				i(206565, {	-- Plagued Grain (TOY!)
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 15 }},
-				}),
-				i(208068, {	-- Rotten Delicious
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 30 }},
-				}),
-				i(206577, {	-- Slime-Covered Scroll
-					["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 12 }},
-					["groups"] = {
-						i(206552),	-- Ancient Design: Frostwyrm's Frigid Stare (RECIPE!)
-						i(206551),	-- Ancient Design: Frostwyrm's Icy Gaze (RECIPE!)
-						i(206543),	-- Ancient Design: Gem of the Nerubians (RECIPE!)
-						i(206547),	-- Ancient Pattern: Bindings of the Harvested Soul (RECIPE!)
-						i(206556),	-- Ancient Pattern: Displacement Boots (RECIPE!)
-						i(206554),	-- Ancient Pattern: Necrotic Gown (RECIPE!)
-						i(206538),	-- Ancient Pattern: Nerubian Persuader (RECIPE!)
-						i(206583),	-- Ancient Pattern: Peculiar Glacial Mantle (RECIPE!)
-						i(206563),	-- Ancient Pattern: Shroud of Forbidden Magic (RECIPE!)
-						i(206540),	-- Ancient Plans: Axe of Sundered Bone (RECIPE!)
-						i(206558),	-- Ancient Plans: Belt of the Mentor (RECIPE!)
-						i(206539),	-- Ancient Plans: Blade of Unholy Might (RECIPE!)
-						i(206546),	-- Ancient Plans: Blade of the Fallen Seraph (RECIPE!)
-						i(206542),	-- Ancient Plans: Bracers of Vengeance (RECIPE!)
-						i(206805),	-- Ancient Plans: Bucket Kickers (RECIPE!)
-						i(206553),	-- Ancient Plans: Dawn of Demise (RECIPE!)
-						i(206557),	-- Ancient Plans: Death's Gamble (RECIPE!)
-						i(206537),	-- Ancient Plans: Edict of the Redeemed Crusader (RECIPE!)
-						i(206555),	-- Ancient Plans: Gauntlets of the Unrelenting (RECIPE!)
-						i(206550),	-- Ancient Plans: Harbinger of Death (RECIPE!)
-						i(206533),	-- Ancient Plans: Midnight's Graze (RECIPE!)
-						i(206545),	-- Ancient Plans: Plated Construct's Ribcage (RECIPE!)
-						i(206536),	-- Ancient Plans: Shade's Blade (RECIPE!)
-						i(206531),	-- Ancient Plans: Strength of Menethil (RECIPE!)
-						i(206560),	-- Ancient Plans: Stygian Shield (RECIPE!)
-						i(206549),	-- Ancient Plans: The Face of Doom (RECIPE!)
-						i(206544),	-- Ancient Plans: The Final Dream (RECIPE!)
-						i(206541),	-- Ancient Plans: The Plague Belcher (RECIPE!)
-						i(206534),	-- Ancient Plans: Weaver's Fang (RECIPE!)
-						i(206535),	-- Ancient Plans: Widow's Weep (RECIPE!)
-						i(206559),	-- Ancient Schematic: Replaced Servo Arm (RECIPE!)
-						i(206548),	-- Ancient Technique: Encased Frigid Heart (RECIPE!)
-						i(206532),	-- Ancient Technique: Soulscryer (RECIPE!)
-					},
-				}),
-			},
-		}),
-	}),
-	n(ZONE_DROPS, {
-		i(207702, {	-- Wartorn Scrap
-			["timeline"] = { ADDED_10_1_5 },
-		}),
-	}),
-});
+-- Danny Donkey: The whole structure of readded content is integrated into a 'Wards of the Dread Citadel'-header in this raid's root structure.
 -- #endif
 
 root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
-	inst(754, {	-- Naxxramas
-		["mapID"] = NAXXRAMAS,
-		["coords"] = {
-			{ 87.4, 51.1, DRAGONBLIGHT },
-			-- #if AFTER 10.1.5
-			{ 35.7, 22.9, EASTERN_PLAGUELANDS },
-			-- #endif
-		},
-		["maps"] = { NAXXRAMAS_LEVEL2, NAXXRAMAS_LEVEL3, NAXXRAMAS_LEVEL4, NAXXRAMAS_LEVEL5, NAXXRAMAS_LEVEL6 },
-		-- #if NOT ANYCLASSIC
-		["sharedLockout"] = 1,
+inst(754, {	-- Naxxramas
+	["mapID"] = NAXXRAMAS,
+	["coords"] = {
+		{ 87.4, 51.1, DRAGONBLIGHT },
+		-- #if AFTER 10.1.5
+		{ 35.7, 22.9, EASTERN_PLAGUELANDS },
 		-- #endif
-		["isRaid"] = true,
-		["groups"] = appendGroups(
-			-- #if AFTER 10.1.5
-			NAXX_LEGACY_CONTENT_UPDATE,
-			-- #endif
+	},
+	["maps"] = { NAXXRAMAS_LEVEL2, NAXXRAMAS_LEVEL3, NAXXRAMAS_LEVEL4, NAXXRAMAS_LEVEL5, NAXXRAMAS_LEVEL6 },
+	-- #if NOT ANYCLASSIC
+	["sharedLockout"] = 1,
+	-- #endif
+	["isRaid"] = true,
+	["groups"] = appendGroups(
+		-- #if AFTER 7.2.0
 		{
-			NAXX_10MAN_METADATA_AND_ACHIEVEMENTS,
-			-- #if NOT NAXX_10MAN_DROPS_25MAN_LOOT
-			NAXX_10MAN_LOOT,
+			-- #if AFTER 10.1.5
+			header(HEADERS.Achievement, 18372, bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {		-- Wards of the Dread Citadel
+				["description"] = "With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStages 1-3 takes place in Scholomance and Plaguelands, see instructions in the 'Wards of the Dread Citadel'-header in the respective zones.\n\nThe following stages takes place in Naxxramas, and you can get here from Eastern Plaguelands by using a portal at coordinates 35.7, 23.1. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.\n\nStage 4: Makeshift Grappling Hook, see the instructions in the subheader below.\n\nStage 5: Mutually Beneficial Transactions, see the instructions in the subheader below.\n\nStage 6: Forgotten Knowledge, see the instructions in the subheader below.\n\nCongratulations, all is unlocked and welcome to the grind!",
+				["groups"] = {
+					header(HEADERS.Item, 206473, {	-- Makeshift Grappling Hook
+						["description"] = "1. First you need to create a Makeshift Grappling Hook from the following items:\n\n1.1 Abomination's Chain can be fished from any slime (green liquid), like the small pool just inside Arachnid Quarter.\n\n1.2 Faerlina's Sweing Kit drops from Grand Widow Faerlina in the Arachnid Quarter.\n\n1.3 Construct's Hook can be found on a handle under a vat of slime on the right side of the second room of the Construct Quarter.\n\n2. Use your Makeshift Grappling Hook to get access to grapple points inside Naxxramas on an account-wide basis.\n\n",
+						["groups"] = {
+							prof(FISHING, {
+								i(206471, {	-- Abomination's Chain
+									["description"] = "Chance to be fished from any slime in Naxxramas.",
+									["sourceQuests"] = {
+										76263,	-- The Dread Citadel - Naxxramas [Honored]
+										76264,	-- The Dread Citadel - Naxxramas [Revered]
+										76265,	-- The Dread Citadel - Naxxramas [Exalted]
+									},
+									["sourceQuestNumRequired"] = 1,
+									["requireSkill"] = FISHING,
+								}),
+							}),
+							ignoreTimeline(e(1602, {	-- Grand Widow Faerlina
+								["creatureID"] = 15953,	-- Grand Widow Faerlina
+								["groups"] = {
+									i(206472, {	-- Faerlina's Sewing Kit
+										["sourceQuests"] = {
+											76263,	-- The Dread Citadel - Naxxramas [Honored]
+											76264,	-- The Dread Citadel - Naxxramas [Revered]
+											76265,	-- The Dread Citadel - Naxxramas [Exalted]
+										},
+										["sourceQuestNumRequired"] = 1,
+										["timeline"] = { ADDED_10_1_5 },
+									}),
+								},
+							})),
+							n(TREASURES, {
+								o(403722, {	-- Conveniently Misplaced Hook
+									["description"] = "Located in the second room of the Construct Quarter, by a vat of slime to the right.",
+									["sourceQuests"] = {
+										76263,	-- The Dread Citadel - Naxxramas [Honored]
+										76264,	-- The Dread Citadel - Naxxramas [Revered]
+										76265,	-- The Dread Citadel - Naxxramas [Exalted]
+									},
+									["sourceQuestNumRequired"] = 1,
+									["groups"] = {
+										i(206470),	-- Construct's Hook
+									},
+								}),
+							}),
+							n(SPECIAL, {
+								i(206473, {	-- Makeshift Grappling Hook (CI!)
+									["sourceQuests"] = {
+										76263,	-- The Dread Citadel - Naxxramas [Honored]
+										76264,	-- The Dread Citadel - Naxxramas [Revered]
+										76265,	-- The Dread Citadel - Naxxramas [Exalted]
+									},
+									["sourceQuestNumRequired"] = 1,
+									["cost"] = {
+										{ "i", 206471, 1 },	-- 1x Abomination's Chain
+										{ "i", 206470, 1 },	-- 1x Construct's Hook
+										{ "i", 206472, 1 },	-- 1x Faerlina's Sewing Kit
+									},
+								}),
+							}),
+						},
+					}),
+					header(HEADERS.Spell, 413989, {	-- Mutually Beneficial Transactions
+						["description"] = "1. Kill all bosses in Construct Quarter, and walk back to the entrance of The Halls of Reanimation.\n\n2. Walk up the slope to the platform on left side, and you should see two Grapple Point on two ledges to the left side. Grapple to the southern ledge.\n\n3. Speed-jump (Burning Rush/Speed potion) to the platform northeast of the ledge, and position yourself such that you are facing the corresponding platform to the northen ledge. Said platform is connected to a wall structure with two windows on the top. The left window ledge is the location of the next grappling point. Grapple up to it.\n\n4. Jump down to the brown ledge following the wall in a northeastern direction and around the corner, then over the skull on the wall, and back in a southwestern direction. The next grapple point is across the gap to a window ledge on left side, grapple to it.\n\n5. Follow the ledge in a southwestern direction and around the corner. You should see two pipe ends on the wall in front of you, the next grappling point on the left pipe. Grapple to it.\n\n6. Facing the position you grappled from, you should see Zackett Skullsmash on a window ledge. Jump down to the NPC.\n\n7. Use Stratholme Holy Water on Zackett Skullsmash and accept the quest Inconvenience Fee. You should have all required items on you and be able to turn it in immediatelly. This unlocks Zackett Skullsmah on an account-wide basis, and the Goblin will move to the central ring.\n\n8. You can safely get down by jumping down to the ledge above the entrance to the room, and leave through the Naxxramas Portal located where you killed Thaddius.\n\n",
+						["groups"] = {
+							n(206572, {	-- Zackett Skullsmash
+								["sourceQuests"] = { 76390 },	-- Inconvenience Fee
+								["groups"] = {
+									i(206573, {	-- Dented Raider's Belt
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Belts from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(206609),	-- Lamented Crusader's Belt
+										},
+									}),
+									i(206575, {	-- Dented Raider's Boots
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Boots from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(10402),	-- Blackened Defias Boots
+											i(206611),	-- Lamented Crusader's Boots
+											i(7187),	-- VanCleef's Boots
+										--	i(4660),	-- Walking Boots					Added to original Source in 10.1.7
+										},
+									}),
+									i(206571, {	-- Dented Raider's Bracers
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Bracers from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(206607),	-- Lamented Crusader's Bracers
+										},
+									}),
+									i(206570, {	-- Dented Raider's Chestpiece
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Chestpieces from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(206606),	-- Lamented Crusader's Chestpiece
+											i(3019),	-- Noble's Robe
+										},
+									}),
+									i(206572, {	-- Dented Raider's Gauntlets
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Gauntlets from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(206608),	-- Lamented Crusader's Gauntlets
+										--	i(1944),	-- Metalworking Gloves				Added to original Source in 10.1.7
+										--	i(1945),	-- Woodworking Gloves				Added to original Source in 10.1.7
+										},
+									}),
+									i(206568, {	-- Dented Raider's Helmet
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Helmets from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(206604),	-- Lamented Crusader's Helmet
+										},
+									}),
+									i(206574, {	-- Dented Raider's Leggings
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Leggings from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+										--	i(1943),	-- Goblin Mail Leggings				Added to original Source in 10.1.7
+										--	i(2978),	-- Veteran Leggings					-- Likely added back. Add when confirmed
+											i(206610),	-- Lamented Crusader's Leggings
+										},
+									}),
+									i(206569, {	-- Dented Raider's Spaulders
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 3 }},
+										["description"] = "Includes a wide range of Bind on Equip (BoE) Spaulders from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",
+										["groups"] = {
+											i(206605),	-- Lamented Crusader's Spaulders
+										},
+									}),
+									i(206771, {	-- Pattern: Cursed Cloth (RECIPE!)
+										["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
+									}),
+									i(206772, {	-- Pattern: Languished Leather (RECIPE!)
+										["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
+									}),
+									i(206773, {	-- Pattern: Scourged Scales (RECIPE!)
+										["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
+									}),
+									i(206774, {	-- Plans: Undeath Metal (RECIPE!)
+										["sourceAchievements"] = { 11744 },	-- Drop Dead, Gorgeous
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 20 }},
+									}),
+									i(206579, {	-- Phylacterweave
+										-- Dont symlink it Dented tokens, makes it too spammy
+										["description"] = "Can also drop from any Dented Raider's Token.\nChanged to Bind on Account in 10.1.7",
+									}),
+									i(206565, {	-- Plagued Grain (TOY!)
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 15 }},
+									}),
+									i(208068, {	-- Rotten Delicious
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 30 }},
+									}),
+									i(206577, {	-- Slime-Covered Scroll
+										["cost"] = {{ "i", DEATHS_BARGAINING_CHIP, 12 }},
+										["groups"] = {
+											i(206552),	-- Ancient Design: Frostwyrm's Frigid Stare (RECIPE!)
+											i(206551),	-- Ancient Design: Frostwyrm's Icy Gaze (RECIPE!)
+											i(206543),	-- Ancient Design: Gem of the Nerubians (RECIPE!)
+											i(206547),	-- Ancient Pattern: Bindings of the Harvested Soul (RECIPE!)
+											i(206556),	-- Ancient Pattern: Displacement Boots (RECIPE!)
+											i(206554),	-- Ancient Pattern: Necrotic Gown (RECIPE!)
+											i(206538),	-- Ancient Pattern: Nerubian Persuader (RECIPE!)
+											i(206583),	-- Ancient Pattern: Peculiar Glacial Mantle (RECIPE!)
+											i(206563),	-- Ancient Pattern: Shroud of Forbidden Magic (RECIPE!)
+											i(206540),	-- Ancient Plans: Axe of Sundered Bone (RECIPE!)
+											i(206558),	-- Ancient Plans: Belt of the Mentor (RECIPE!)
+											i(206539),	-- Ancient Plans: Blade of Unholy Might (RECIPE!)
+											i(206546),	-- Ancient Plans: Blade of the Fallen Seraph (RECIPE!)
+											i(206542),	-- Ancient Plans: Bracers of Vengeance (RECIPE!)
+											i(206805),	-- Ancient Plans: Bucket Kickers (RECIPE!)
+											i(206553),	-- Ancient Plans: Dawn of Demise (RECIPE!)
+											i(206557),	-- Ancient Plans: Death's Gamble (RECIPE!)
+											i(206537),	-- Ancient Plans: Edict of the Redeemed Crusader (RECIPE!)
+											i(206555),	-- Ancient Plans: Gauntlets of the Unrelenting (RECIPE!)
+											i(206550),	-- Ancient Plans: Harbinger of Death (RECIPE!)
+											i(206533),	-- Ancient Plans: Midnight's Graze (RECIPE!)
+											i(206545),	-- Ancient Plans: Plated Construct's Ribcage (RECIPE!)
+											i(206536),	-- Ancient Plans: Shade's Blade (RECIPE!)
+											i(206531),	-- Ancient Plans: Strength of Menethil (RECIPE!)
+											i(206560),	-- Ancient Plans: Stygian Shield (RECIPE!)
+											i(206549),	-- Ancient Plans: The Face of Doom (RECIPE!)
+											i(206544),	-- Ancient Plans: The Final Dream (RECIPE!)
+											i(206541),	-- Ancient Plans: The Plague Belcher (RECIPE!)
+											i(206534),	-- Ancient Plans: Weaver's Fang (RECIPE!)
+											i(206535),	-- Ancient Plans: Widow's Weep (RECIPE!)
+											i(206559),	-- Ancient Schematic: Replaced Servo Arm (RECIPE!)
+											i(206548),	-- Ancient Technique: Encased Frigid Heart (RECIPE!)
+											i(206532),	-- Ancient Technique: Soulscryer (RECIPE!)
+										},
+									}),
+								},
+							}),
+							n(QUESTS, {
+								q(76395, {	-- Corruptor's Scourgestones
+									["sourceQuests"] = { 76390 },	-- Inconvenience Fee
+									["provider"] = { "n", 206572 },	-- Zackett Skullsmash
+									["cost"] = {{ "i", 206375, 1 }},	-- 1x Corruptor's Scourgestone
+									["repeatable"] = true,
+									["groups"] = {
+										i(DEATHS_BARGAINING_CHIP),
+									},
+								}),
+								q(76390, {	-- Inconvenience Fee
+									["sourceQuests"] = { 76307 },	-- Makeshift Grappling Hook
+									["provider"] = { "n", 206572 },	-- Zackett Skullsmash
+									["cost"] = {
+										{ "i", 206374, 20 },	-- 20x Invader's Scourgestone
+										{ "i", 206375, 5 },		-- 5x Corruptor's Scourgestone
+										{ "i", 20520, 3 },		-- 3x Dark Rune
+										{ "i", 33042, 1 },		-- 1x Black Coffee
+										{ "i", 13180, 2 },		-- 2x Stratholme Holy Water
+									},
+									["groups"] = {
+										i(206615),	-- Desecrated Cloth Bracers
+										i(206623),	-- Desecrated Leather Bracers
+										i(206631),	-- Desecrated Mail Bracers
+										i(206640),	-- Desecrated Plate Bracers
+									},
+								}),
+								q(76396, {	-- Invader's Scourgestones
+									["sourceQuests"] = { 76390 },	-- Inconvenience Fee
+									["provider"] = { "n", 206572 },	-- Zackett Skullsmash
+									["cost"] = {{ "i", 206374, 10 }},	-- 10x Invader's Scourgestone
+									["repeatable"] = true,
+									["groups"] = {
+										i(DEATHS_BARGAINING_CHIP),
+									},
+								}),
+								q(77244, {	-- Many Corruptor's Scourgestones
+									["sourceQuests"] = { 76390 },	-- Inconvenience Fee
+									["provider"] = { "n", 206572 },	-- Zackett Skullsmash
+									["cost"] = {{ "i", 206375, 5 }},	-- 5x Corruptor's Scourgestone
+									["repeatable"] = true,
+									["groups"] = {
+										i(DEATHS_BARGAINING_CHIP),
+									},
+								}),
+								q(77245, {	-- Many Invader's Scourgestones
+									["sourceQuests"] = { 76390 },	-- Inconvenience Fee
+									["provider"] = { "n", 206572 },	-- Zackett Skullsmash
+									["cost"] = {{ "i", 206374, 50 }},	-- 50x Invader's Scourgestone
+									["repeatable"] = true,
+									["groups"] = {
+										i(DEATHS_BARGAINING_CHIP),
+									},
+								}),
+							}),
+						},
+					}),
+					header(HEADERS.Spell, 413594, {	-- Forgotten Knowledge
+						["description"] = "1. Enter the Military Quarter and walk straigh into the end wall of the second room. On your right side is a cage containing Omarion's Second Handbook. Loot it and accept the quest.\n\n2. Get back to the central ring and use the portal to Eastern Plaguelands, and turn in the quest in Light's Hope Chapel. This will reward you with the ability to collect the missing recipes and buy then from Master Craftsman Omarion on an account-wide basis.\n\n3. Now, you still need to collect the lost pages and return them to Omarion. There are 16 double-pages to collect, and the respective pages have descriptions giving information about where to find them. The pages are somewhat in order:\n\nArachnid Quarter:\nPages 3 and 4 -> Pages 5 and 6 ->\nPages 1 and 2 -> Pages 7 and 8.\n\nConstruct Quarter:\nPages 9 and 10 = Pages 11 and 12 =\nPages 13 and 14 -> Pages 15 and 16.\n\nPlague Quarter:\nPages 17 and 18 -> Pages 19 and 20 ->\nPages 21 and 22 -> Pages 23 and 24\n\nMilitary Quarter:\nPages 29 and 30 -> Pages 31 and 32 ->\nPages 25 and 26 -> Pages 27 and 28\n\n4. Return to Master Craftsman Omarion with the lost pages and all his recipes will become available on an account-wide basis.",
+						["groups"] = {
+							o(403702, {	-- Lost Page
+								["description"] = "Pages 1 and 2 of Omarion's Notes can be found in the Outer Ring of Naxxramas, inside the slime pool that separates the Construct and Arachnid Quarters, to the north of the instance. It will be at the bottom of the pool.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206450),	-- Omarion's Notes - Pages 1 & 2 (CI!)
+								},
+							}),
+							o(403703, {	-- Lost Page
+								["description"] = "Pages 3 and 4 of Omarion's notes can be found in the first room of the Arachnid Quarter, hidden within the ruined structure by the slime pool.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206451),	-- Omarion's Notes - Pages 3 & 4 (CI!)
+								},
+							}),
+							o(403704, {	-- Lost Page
+								["description"] = "Pages 5 and 6 of Omarion's Notes can be found just before entering Faerlina's room - Instead of taking a left to enter the boss room, take a right. Page is hidden beneath some spider eggs.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206452),	-- Omarion's Notes - Pages 5 & 6 (CI!)
+								},
+							}),
+							o(403705, {	-- Lost Page
+								["description"] = "Pages 7 and 8 of Omarion's Notes can be found in Maexxna's Room. Once you enter the room, turn back to face the entrance and look up, there will be a grapple point just above the entrance. Grapple and walk around the outer ring to the eastern end of the room, where the notes will be waiting for you.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206453),	-- Omarion's Notes - Pages 7 & 8 (CI!)
+								},
+							}),
+							o(403706, {	-- Lost Page
+								["description"] = "Pages 9 and 10 of Omarion's Notes can be found just before the tunnel that leads to Gluth. Before you enter the tunnel, by the pipe after Grobbulus, there will be a grapple point. Simply grapple to it to reach the note.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206454),	-- Omarion's Notes - Pages 9 & 10 (CI!)
+								},
+							}),
+							o(403707, {	-- Lost Page
+								["description"] = "Pages 11 and 12 of Omarion's Notes can be found in Grobbulus's room. Climb the ramp behind the boss and turn back, you will see a grappling point to a small alcove near the ceiling of the room. Grapple there and walk to the end of the alcove to reach the note.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206455),	-- Omarion's Notes - Pages 11 & 12 (CI!)
+								},
+							}),
+							o(403708, {	-- Lost Page
+								["description"] = "Pages 13 and 14 of Omarion's Notes can be found high on the ceiling on the corridor after Patchwerk. To reach the page, start by grabbing a grapple point by the tunnel leading to Gluth, at the broken portion to the left just before dropping to the boss, then follow a small grappling puzzle to get to the page.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206456),	-- Omarion's Notes - Pages 13 & 14 (CI!)
+								},
+							}),
+							o(403709, {	-- Lost Page
+								["description"] = "Pages 15 and 16 of Omarion's Notes can be found in Thaddius's room, by grappling on your way towards Zackett Skullsmash as described in the header 'Mutually Beneficial Transactions'. The note is by the second grapple point.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206457),	-- Omarion's Notes - Pages 15 & 16 (CI!)
+								},
+							}),
+							o(403710, {	-- Lost Page
+								["description"] = "Pages 17 and 18 of Omarion's Notes can be found in the first room of the Plague Quarter, sitting by a meat wagon just to the left of the entrance. The page does blend in well with the wagon so it can be easy to miss.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206458),	-- Omarion's Notes - Pages 17 & 18 (CI!)
+								},
+							}),
+							o(403711, {	-- Lost Page
+								["description"] = "Pages 19 and 20 of Omarion's Notes can be found by the corridor between Noth and Heigan in the Plague Quarter. On the mob gauntlet on the left side, there will be a slime pool covered by a sewer lid, and some mushrooms in the area. The note will be on top of one of the mushrooms.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206459),	-- Omarion's Notes - Pages 19 & 20 (CI!)
+								},
+							}),
+							o(403712, {	-- Lost Page
+								["description"] = "Pages 21 and 22 of Omarion's Notes can be found in Loatheb's room, by a gate to the left of where the boss is standing (when looking from the boss's room entrance).",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206460),	-- Omarion's Notes - Pages 21 & 22 (CI!)
+								},
+							}),
+							o(403713, {	-- Lost Page
+								["description"] = "Pages 23 and 24 of Omarion's Notes can be found by the platform overlooking Noth's room. The platform is accessible by reaching it via the Outer Ring.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206461),	-- Omarion's Notes - Pages 23 & 24 (CI!)
+								},
+							}),
+							o(403714, {	-- Lost Page
+								["description"] = "Pages 25 and 26 of Omarion's Notes can be found above the entrance to Gothik's room. Grapple to an upper alcove right at the entrance of the weapon mobs room after Razuvious, then carefully run along the small alcove all the way to Gothik's room to reach the page.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206462),	-- Omarion's Notes - Pages 25 & 26 (CI!)
+								},
+							}),
+							o(403715, {	-- Lost Page
+								["description"] = "Pages 27 and 28 of Omarion's Notes can be found in the Four Horsemen room, by a sewer pipe to the left as you enter the room.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206463),	-- Omarion's Notes - Pages 27 & 28 (CI!)
+								},
+							}),
+							o(403716, {	-- Lost Page
+								["description"] = "Pages 29 and 30 of Omarion's Notes can be found by the stables in Instructor Razuvious's room. Use the grapple point to an upper alcove by the nest just in front of the entrance of Razuvious's battle arena, then run along the alcove eastwards to reach the note.",
+								["sourceQuests"] = {
+									76307,	-- Makeshift Grappling Hook
+									76290,	-- Omarion's Second Handbook
+								},
+								["groups"] = {
+									i(206464),	-- Omarion's Notes - Pages 29 & 30 (CI!)
+								},
+							}),
+							o(403717, {	-- Lost Page
+								["description"] = "Pages 31 and 32 of Omarion's Notes can be found in the room after Razuvious with all the enchanted weapons. By the right, next to the corner, by one of the window frames.",
+								["sourceQuests"] = { 76290 },	-- Omarion's Second Handbook
+								["groups"] = {
+									i(206465),	-- Omarion's Notes - Pages 31 & 32 (CI!)
+								},
+							}),
+							o(403962, {	-- Omarion's Second Handbook
+								["description"] = "Located inside a cage in the first major room of the Military Quarter.",
+								["groups"] = {
+									i(206449),	-- Omarion's Second Handbook
+								},
+							}),
+							q(76290, {	-- Omarion's Second Handbook
+								["sourceQuests"] = {
+									76263,	-- The Dread Citadel - Naxxramas [Honored]
+									76264,	-- The Dread Citadel - Naxxramas [Revered]
+									76265,	-- The Dread Citadel - Naxxramas [Exalted]
+								},
+								["sourceQuestNumRequired"] = 1,
+								["provider"] = { "i", 206449 },	-- Omarion's Second Handbook
+							}),
+							ach(18616, {	-- Putting Wilhelm Out of Business
+								crit(60649, {	-- Omarion's Notes - Pages 1 & 2
+									["_quests"] = { 76291 },
+								}),
+								crit(60650, {	-- Omarion's Notes - Pages 3 & 4
+									["_quests"] = { 76292 },
+								}),
+								crit(60651, {	-- Omarion's Notes - Pages 5 & 6
+									["_quests"] = { 76293 },
+								}),
+								crit(60652, {	-- Omarion's Notes - Pages 7 & 8
+									["_quests"] = { 76294 },
+								}),
+								crit(60653, {	-- Omarion's Notes - Pages 9 & 10
+									["_quests"] = { 76295 },
+								}),
+								crit(60654, {	-- Omarion's Notes - Pages 11 & 12
+									["_quests"] = { 76296 },
+								}),
+								crit(60655, {	-- Omarion's Notes - Pages 13 & 14
+									["_quests"] = { 76297 },
+								}),
+								crit(60656, {	-- Omarion's Notes - Pages 15 & 16
+									["_quests"] = { 76298 },
+								}),
+								crit(60657, {	-- Omarion's Notes - Pages 17 & 18
+									["_quests"] = { 76299 },
+								}),
+								crit(60658, {	-- Omarion's Notes - Pages 19 & 20
+									["_quests"] = { 76300 },
+								}),
+								crit(60659, {	-- Omarion's Notes - Pages 21 & 22
+									["_quests"] = { 76301 },
+								}),
+								crit(60660, {	-- Omarion's Notes - Pages 23 & 24
+									["_quests"] = { 76302 },
+								}),
+								crit(60661, {	-- Omarion's Notes - Pages 25 & 26
+									["_quests"] = { 76303 },
+								}),
+								crit(60662, {	-- Omarion's Notes - Pages 27 & 28
+									["_quests"] = { 76304 },
+								}),
+								crit(60663, {	-- Omarion's Notes - Pages 29 & 30
+									["_quests"] = { 76305 },
+								}),
+								crit(60664, {	-- Omarion's Notes - Pages 31 & 32
+									["_quests"] = { 76306 },
+								}),
+							}),
+						},
+					}),
+					n(ACHIEVEMENTS, {
+						ach(18557),	-- Never Bothered, Anyway
+					}),
+					n(COMMON_BOSS_DROPS, {
+						i(206375, {	-- Corruptor's Scourgestone
+							["timeline"] = { ADDED_10_1_5 },
+						}),
+					}),
+					n(TIER_THREE_SETS, {
+						ach(11744),	-- Drop Dead, Gorgeous
+						n(CRAFTABLES, {
+							filter(CLOTH, {
+								i(206617, {	-- Desecrated Cloth Belt
+									["cost"] = {
+										{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206619, {	-- Desecrated Cloth Boots
+									["cost"] = {
+										{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206615, {	-- Desecrated Cloth Bracers
+									["cost"] = {
+										{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206614, {	-- Desecrated Cloth Chestpiece
+									["cost"] = {
+										{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206616, {	-- Desecrated Cloth Gauntlets
+									["cost"] = {
+										{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206612, {	-- Desecrated Cloth Helmet
+									["cost"] = {
+										{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206618, {	-- Desecrated Cloth Leggings
+									["cost"] = {
+										{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+								i(206613, {	-- Desecrated Cloth Spaulders
+									["cost"] = {
+										{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
+										{ "i", 206645, 1 },	-- 1x Cursed Cloth
+									},
+								}),
+							}),
+							filter(LEATHER, {
+								i(206625, {	-- Desecrated Leather Belt
+									["cost"] = {
+										{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206627, {	-- Desecrated Leather Boots
+									["cost"] = {
+										{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206623, {	-- Desecrated Leather Bracers
+									["cost"] = {
+										{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206622, {	-- Desecrated Leather Chestpiece
+									["cost"] = {
+										{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206624, {	-- Desecrated Leather Gauntlets
+									["cost"] = {
+										{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206620, {	-- Desecrated Leather Helmet
+									["cost"] = {
+										{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206626, {	-- Desecrated Leather Leggings
+									["cost"] = {
+										{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+								i(206621, {	-- Desecrated Leather Spaulders
+									["cost"] = {
+										{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
+										{ "i", 206646, 1 },	-- 1x Languished Leather
+									},
+								}),
+							}),
+							filter(MAIL, {
+								i(206633, {	-- Desecrated Mail Belt
+									["cost"] = {
+										{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206635, {	-- Desecrated Mail Boots
+									["cost"] = {
+										{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206631, {	-- Desecrated Mail Bracers
+									["cost"] = {
+										{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206630, {	-- Desecrated Mail Chestpiece
+									["cost"] = {
+										{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206632, {	-- Desecrated Mail Gauntlets
+									["cost"] = {
+										{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206628, {	-- Desecrated Mail Helmet
+									["cost"] = {
+										{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206634, {	-- Desecrated Mail Leggings
+									["cost"] = {
+										{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+								i(206629, {	-- Desecrated Mail Spaulders
+									["cost"] = {
+										{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
+										{ "i", 206647, 1 },	-- 1x Scourged Scales
+									},
+								}),
+							}),
+							filter(PLATE, {
+								i(206642, {	-- Desecrated Plate Belt
+									["cost"] = {
+										{ "i", 206609, 1 },	-- 1x Lamented Crusader's Belt
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206644, {	-- Desecrated Plate Boots
+									["cost"] = {
+										{ "i", 206611, 1 },	-- 1x Lamented Crusader's Boots
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206640, {	-- Desecrated Plate Bracers
+									["cost"] = {
+										{ "i", 206607, 1 },	-- 1x Lamented Crusader's Bracers
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206639, {	-- Desecrated Plate Chestpiece
+									["cost"] = {
+										{ "i", 206606, 1 },	-- 1x Lamented Crusader's Chestpiece
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206641, {	-- Desecrated Plate Gauntlets
+									["cost"] = {
+										{ "i", 206608, 1 },	-- 1x Lamented Crusader's Gauntlets
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206636, {	-- Desecrated Plate Helmet
+									["cost"] = {
+										{ "i", 206604, 1 },	-- 1x Lamented Crusader's Helmet
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206643, {	-- Desecrated Plate Leggings
+									["cost"] = {
+										{ "i", 206610, 1 },	-- 1x Lamented Crusader's Leggings
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+								i(206637, {	-- Desecrated Plate Spaulders
+									["cost"] = {
+										{ "i", 206605, 1 },	-- 1x Lamented Crusader's Spaulders
+										{ "i", 206648, 1 },	-- 1x Undeath Metal
+									},
+								}),
+							}),
+						}),
+						cl(DRUID, {
+							i(22490, {	-- Dreamwalker Headpiece
+								["cost"] = {
+									{ "i", 206620, 1 },		-- 1x Desecrated Leather Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22491, {	-- Dreamwalker Spaulders
+								["cost"] = {
+									{ "i", 206621, 1 },		-- 1x Desecrated Leather Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22488, {	-- Dreamwalker Tunic
+								["cost"] = {
+									{ "i", 206622, 1 },		-- 1x Desecrated Leather Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22495, {	-- Dreamwalker Wristguards
+								["cost"] = {
+									{ "i", 206623, 1 },		-- 1x Desecrated Leather Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22493, {	-- Dreamwalker Handguards
+								["cost"] = {
+									{ "i", 206624, 1 },		-- 1x Desecrated Leather Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22494, {	-- Dreamwalker Girdle
+								["cost"] = {
+									{ "i", 206625, 1 },		-- 1x Desecrated Leather Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22489, {	-- Dreamwalker Legguards
+								["cost"] = {
+									{ "i", 206626, 1 },		-- 1x Desecrated Leather Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22492, {	-- Dreamwalker Boots
+								["cost"] = {
+									{ "i", 206627, 1 },		-- 1x Desecrated Leather Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(MAGE, {
+							i(22498, {	-- Frostfire Circlet
+								["cost"] = {
+									{ "i", 206612, 1 },		-- 1x Desecrated Cloth Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22499, {	-- Frostfire Shoulderpads
+								["cost"] = {
+									{ "i", 206613, 1 },		-- 1x Desecrated Cloth Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22496, {	-- Frostfire Robe
+								["cost"] = {
+									{ "i", 206614, 1 },		-- 1x Desecrated Cloth Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22503, {	-- Frostfire Bindings
+								["cost"] = {
+									{ "i", 206615, 1 },		-- 1x Desecrated Cloth Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22501, {	-- Frostfire Gloves
+								["cost"] = {
+									{ "i", 206616, 1 },		-- 1x Desecrated Cloth Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22502, {	-- Frostfire Belt
+								["cost"] = {
+									{ "i", 206617, 1 },		-- 1x Desecrated Cloth Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22497, {	-- Frostfire Leggings
+								["cost"] = {
+									{ "i", 206618, 1 },		-- 1x Desecrated Cloth Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22500, {	-- Frostfire Sandals
+								["cost"] = {
+									{ "i", 206619, 1 },		-- 1x Desecrated Cloth Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(HUNTER, {
+							i(22438, {	-- Cryptstalker Headpiece
+								["cost"] = {
+									{ "i", 206628, 1 },		-- 1x Desecrated Mail Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22439, {	-- Cryptstalker Spaulders
+								["cost"] = {
+									{ "i", 206629, 1 },		-- 1x Desecrated Mail Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22436, {	-- Cryptstalker Tunic
+								["cost"] = {
+									{ "i", 206630, 1 },		-- 1x Desecrated Mail Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22443, {	-- Cryptstalker Wristguards
+								["cost"] = {
+									{ "i", 206631, 1 },		-- 1x Desecrated Mail Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22441, {	-- Cryptstalker Handguards
+								["cost"] = {
+									{ "i", 206632, 1 },		-- 1x Desecrated Mail Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22442, {	-- Cryptstalker Girdle
+								["cost"] = {
+									{ "i", 206633, 1 },		-- 1x Desecrated Mail Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22437, {	-- Cryptstalker Legguards
+								["cost"] = {
+									{ "i", 206634, 1 },		-- 1x Desecrated Mail Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22440, {	-- Cryptstalker Boots
+								["cost"] = {
+									{ "i", 206635, 1 },		-- 1x Desecrated Mail Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(PALADIN, {
+							i(22428, {	-- Redemption Headpiece
+								["cost"] = {
+									{ "i", 206636, 1 },		-- 1x Desecrated Plate Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22429, {	-- Redemption Spaulders
+								["cost"] = {
+									{ "i", 206637, 1 },		-- 1x Desecrated Plate Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22425, {	-- Redemption Tunic
+								["cost"] = {
+									{ "i", 206639, 1 },		-- 1x Desecrated Plate Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22424, {	-- Redemption Wristguards
+								["cost"] = {
+									{ "i", 206640, 1 },		-- 1x Desecrated Plate Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22426, {	-- Redemption Handguards
+								["cost"] = {
+									{ "i", 206641, 1 },		-- 1x Desecrated Plate Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22431, {	-- Redemption Girdle
+								["cost"] = {
+									{ "i", 206642, 1 },		-- 1x Desecrated Plate Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22427, {	-- Redemption Legguards
+								["cost"] = {
+									{ "i", 206643, 1 },		-- 1x Desecrated Plate Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22430, {	-- Redemption Boots
+								["cost"] = {
+									{ "i", 206644, 1 },		-- 1x Desecrated Plate Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(PRIEST, {
+							i(22514, {	-- Circlet of Faith
+								["cost"] = {
+									{ "i", 206612, 1 },		-- 1x Desecrated Cloth Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22515, {	-- Shoulderpads of Faith
+								["cost"] = {
+									{ "i", 206613, 1 },		-- 1x Desecrated Cloth Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22512, {	-- Robe of Faith
+								["cost"] = {
+									{ "i", 206614, 1 },		-- 1x Desecrated Cloth Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22519, {	-- Bindings of Faith
+								["cost"] = {
+									{ "i", 206615, 1 },		-- 1x Desecrated Cloth Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22517, {	-- Gloves of Faith
+								["cost"] = {
+									{ "i", 206616, 1 },		-- 1x Desecrated Cloth Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22518, {	-- Belt of Faith
+								["cost"] = {
+									{ "i", 206617, 1 },		-- 1x Desecrated Cloth Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22513, {	-- Leggings of Faith
+								["cost"] = {
+									{ "i", 206618, 1 },		-- 1x Desecrated Cloth Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22516, {	-- Sandals of Faith
+								["cost"] = {
+									{ "i", 206619, 1 },		-- 1x Desecrated Cloth Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(ROGUE, {
+							i(22478, {	-- Bonescythe Helmet
+								["cost"] = {
+									{ "i", 206620, 1 },		-- 1x Desecrated Leather Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22479, {	-- Bonescythe Pauldrons
+								["cost"] = {
+									{ "i", 206621, 1 },		-- 1x Desecrated Leather Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22476, {	-- Bonescythe Breastplate
+								["cost"] = {
+									{ "i", 206622, 1 },		-- 1x Desecrated Leather Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22483, {	-- Bonescythe Bracers
+								["cost"] = {
+									{ "i", 206623, 1 },		-- 1x Desecrated Leather Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22481, {	-- Bonescythe Gauntlets
+								["cost"] = {
+									{ "i", 206624, 1 },		-- 1x Desecrated Leather Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22482, {	-- Bonescythe Waistguard
+								["cost"] = {
+									{ "i", 206625, 1 },		-- 1x Desecrated Leather Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22477, {	-- Bonescythe Legplates
+								["cost"] = {
+									{ "i", 206626, 1 },		-- 1x Desecrated Leather Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22480, {	-- Bonescythe Sabatons
+								["cost"] = {
+									{ "i", 206627, 1 },		-- 1x Desecrated Leather Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(SHAMAN, {
+							i(22466, {	-- Earthshatter Headpiece
+								["cost"] = {
+									{ "i", 206628, 1 },		-- 1x Desecrated Mail Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22467, {	-- Earthshatter Spaulders
+								["cost"] = {
+									{ "i", 206629, 1 },		-- 1x Desecrated Mail Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22464, {	-- Earthshatter Tunic
+								["cost"] = {
+									{ "i", 206630, 1 },		-- 1x Desecrated Mail Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22471, {	-- Earthshatter Wristguards
+								["cost"] = {
+									{ "i", 206631, 1 },		-- 1x Desecrated Mail Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22469, {	-- Earthshatter Handguards
+								["cost"] = {
+									{ "i", 206632, 1 },		-- 1x Desecrated Mail Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22470, {	-- Earthshatter Girdle
+								["cost"] = {
+									{ "i", 206633, 1 },		-- 1x Desecrated Mail Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22465, {	-- Earthshatter Legguards
+								["cost"] = {
+									{ "i", 206634, 1 },		-- 1x Desecrated Mail Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22468, {	-- Earthshatter Boots
+								["cost"] = {
+									{ "i", 206635, 1 },		-- 1x Desecrated Mail Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(WARLOCK, {
+							i(22506, {	-- Plagueheart Circlet
+								["cost"] = {
+									{ "i", 206612, 1 },		-- 1x Desecrated Cloth Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22507, {	-- Plagueheart Shoulderpads
+								["cost"] = {
+									{ "i", 206613, 1 },		-- 1x Desecrated Cloth Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22504, {	-- Plagueheart Robe
+								["cost"] = {
+									{ "i", 206614, 1 },		-- 1x Desecrated Cloth Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22511, {	-- Plagueheart Bindings
+								["cost"] = {
+									{ "i", 206615, 1 },		-- 1x Desecrated Cloth Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22509, {	-- Plagueheart Gloves
+								["cost"] = {
+									{ "i", 206616, 1 },		-- 1x Desecrated Cloth Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22510, {	-- Plagueheart Belt
+								["cost"] = {
+									{ "i", 206617, 1 },		-- 1x Desecrated Cloth Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22505, {	-- Plagueheart Leggings
+								["cost"] = {
+									{ "i", 206618, 1 },		-- 1x Desecrated Cloth Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22508, {	-- Plagueheart Sandals
+								["cost"] = {
+									{ "i", 206619, 1 },		-- 1x Desecrated Cloth Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+						cl(WARRIOR, {
+							i(22418, {	-- Dreadnaught Helmet
+								["cost"] = {
+									{ "i", 206636, 1 },		-- 1x Desecrated Plate Helmet
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22419, {	-- Dreadnaught Pauldrons
+								["cost"] = {
+									{ "i", 206637, 1 },		-- 1x Desecrated Plate Spaulders
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 280 },	-- 280x Phylacterweave
+								},
+							}),
+							i(22416, {	-- Dreadnaught Breastplate
+								["cost"] = {
+									{ "i", 206639, 1 },		-- 1x Desecrated Plate Chestpiece
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22423, {	-- Dreadnaught Bracers
+								["cost"] = {
+									{ "i", 206640, 1 },		-- 1x Desecrated Plate Bracers
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22421, {	-- Dreadnaught Gauntlets
+								["cost"] = {
+									{ "i", 206641, 1 },		-- 1x Desecrated Plate Gauntlets
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+							i(22422, {	-- Dreadnaught Waistguard
+								["cost"] = {
+									{ "i", 206642, 1 },		-- 1x Desecrated Plate Belt
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 70 },	-- 70x Phylacterweave
+								},
+							}),
+							i(22417, {	-- Dreadnaught Legplates
+								["cost"] = {
+									{ "i", 206643, 1 },		-- 1x Desecrated Plate Leggings
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 210 },	-- 210x Phylacterweave
+								},
+							}),
+							i(22420, {	-- Dreadnaught Sabatons
+								["cost"] = {
+									{ "i", 206644, 1 },		-- 1x Desecrated Plate Boots
+									{ "i", 12811, 10 },		-- 10x Righteous Orb
+									{ "i", 206579, 140 },	-- 140x Phylacterweave
+								},
+							}),
+						}),
+					}),
+					n(TREASURES, {
+						o(403731, {	-- Frozen Rune
+							["description"] = "Located everywhere inside of Naxxramas.",
+							["sourceQuests"] = {
+								76263,	-- The Dread Citadel - Naxxramas [Honored]
+								76264,	-- The Dread Citadel - Naxxramas [Revered]
+								76265,	-- The Dread Citadel - Naxxramas [Exalted]
+							},
+							["sourceQuestNumRequired"] = 1,
+							["groups"] = {
+								i(22682),	-- Frozen Rune
+							},
+						}),
+					}),
+					n(ZONE_DROPS, {
+						i(207702, {	-- Wartorn Scrap
+							["timeline"] = { ADDED_10_1_5 },
+						}),
+					}),
+				},
+			})),
 			-- #endif
-			NAXX_25MAN_METADATA_AND_ACHIEVEMENTS,
-			-- #if AFTER 5.1.0
-			NAXX_SHARED_CONTENT,
-			-- #endif
-			NAXX_25MAN_LOOT,
-		}),
+			n(ACHIEVEMENTS, {
+				ach(11750, {["timeline"] = { ADDED_7_2_0 }}),	-- Undying Aesthetic (Naxxramas)
+			}),
+		},
+		-- #endif
+	{
+		NAXX_10MAN_METADATA_AND_ACHIEVEMENTS,
+		-- #if NOT NAXX_10MAN_DROPS_25MAN_LOOT
+		NAXX_10MAN_LOOT,
+		-- #endif
+		NAXX_25MAN_METADATA_AND_ACHIEVEMENTS,
+		-- #if AFTER 5.1.0
+		NAXX_SHARED_CONTENT,
+		-- #endif
+		NAXX_25MAN_LOOT,
 	}),
+}),
 }))));

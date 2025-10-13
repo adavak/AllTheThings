@@ -908,6 +908,291 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 			}),
 			-- #endif
+			header(HEADERS.Achievement, 18372, {	-- Wards of the Dread Citadel
+				["description"] = "With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStage 1: Memory of Scholomance, this unlocks Old Scholomance on an accound-wide basis, see the instructions in it's header in Western Plaguelands.\n\nStage 2: Obtain your first Argent Dawn Commission, see the instructions in the subheader below.\n\nHereafter any of your characters need to have an Argent Dawn Commission equipped for any progression.\n\nStage 3: Experience Sleight of Hand, see the instructions in the subheader below.\n\nThe stages 4-6 takes place in Naxxramas. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.",
+				["groups"] = {
+					header(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
+						["groups"] = {
+							n(TREASURES, {
+								o(403536, {	-- The Road Ahead
+									["description"] = "Located by Corrin's Crossing in the Eastern Plaguelands, by the building that used to be the inn. The painting is on the first floor, by the wall beside the stairs leading to the second floor.",
+									["sourceQuests"] = 76250,	-- Spectral Essence
+									["coord"] = { 55.0, 64.1, EASTERN_PLAGUELANDS },
+									["timeline"] = { ADDED_10_2_5 },
+									["groups"] = {
+										i(206363),	-- The Road Ahead
+									},
+								}),
+								o(403534, {	-- Trampled Doll
+									["description"] = "Located by a meat wagon in Darrowshire.",
+									["sourceQuests"] = 76250,	-- Spectral Essence
+									["coord"] = { 35.7, 83.6, EASTERN_PLAGUELANDS },
+									["timeline"] = { ADDED_10_2_5 },
+									["groups"] = {
+										i(206361),	-- Trampled Doll
+									},
+								}),
+								o(403533, {	-- Undelivered Shipment of Smokes
+									["description"] = "Located in live Stratholme, near Ezra Grimm's tobacco place (enter the instance, take a left and another left). By a cart next to where Ezra Grimm spawns.",
+									["maps"] = { STRATHOLME },
+									["sourceQuests"] = { 76250 },	-- Spectral Essence
+									["timeline"] = { ADDED_10_1_5 },
+									["groups"] = {
+										i(206360),	-- Undelivered Shipment of Smokes
+									},
+								}),
+							}),
+						},
+					}),
+					header(HEADERS.Item, 12846, {	-- Argent Dawn Commission
+						["description"] = "1. Enter Old Scholomance and go to the room with Rattlegore (beneath The Great Ossuary). On the southwestern pile of bones can you find and loot the tiny object 'Cracked Argent Dawn Commission'.\n\n2. Obtain 1x Righteous Orb and 4x Truesilver Bars, and use the 'Cracked Argent Dawn Commission' to repair it. Equip your new 'Argent Dawn Commission'.\n\n3. Kill Darkmaster Gandling in Old Scholomance and loot the quest item 'Darkmaster's Scourgestone'.\n\n4. Accept the quest, and turn it in to the Argent Crusade representative in Light's Hope Chapel or Chillwind Camp/The Bulwark.\n\n5. You now have unlocked the ability to obtain Invader's Scourgestones on an account-wide basis, but it might require an Argent Dawm Commission to be equipped unless Scholomance/Stratholme/Nazzramas automatically gives you the eligibility as a buff. Your alts can get theirs by interacting with Duke Nicholas Zverenhoff in Light's Hope Chapel if eligibility is not automatically provided as buffs in the given instances.",
+						["groups"] = {
+							o(403567, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {		-- Cracked Argent Dawn Commission
+								["description"] = "Can be found at the top of the southwest bone pile in Rattlegore's room. From the Great Ossuary, you can drop down from the southwest hole leading to Rattlegore's room and look down, it's a small object on the pile.\n\nThis is not visible if your character already has an Argent Dawn Commission or a Rune/Seal of the Dawn!",
+								["mapID"] = 306,
+								["groups"] = {
+									i(206372),	-- Cracked Argent Dawn Commission
+								},
+							})),
+							i(12846, {	-- Argent Dawn Commission
+								["cost"] = {
+									{ "i", 206372, 1 },	-- 1x Cracked Argent Dawn Commission
+									{ "i", 12811, 1 },	-- 1x Righteous Orb
+									{ "i", 6037, 4 },	-- 4x Truesilver Bar
+								},
+								["provider"] = { "n", 11039 },	-- Duke Nicholas Zverenhoff
+							}),
+							n(1853, {	-- Darkmaster Gandling
+								["groups"] = {
+									i(206373, {	-- Darkmaster's Scourgestone (QI!)
+										["provider"] = { "i", 12846 },	-- Argent Dawn Commission
+										["description"] = "Drops only with equipped Argent Dawn Commission",
+										["timeline"] = { ADDED_10_1_5 },
+									}),
+								},
+							}),
+						},
+					}),
+					header(HEADERS.Spell, 413407, {	-- Sleight of Hand
+						["description"] = "1. Make sure you have equipped your Argent Dawn Commission, and enter Stratholme through the Main Gate.\n\n2. Kill mobs until Eye of Nazzramas spawns. Kill it and loot 'Ward of Naxxramas'.\n\n3. Interact with a Supply Crate to obtain 'Stratholme Holy Water'.\n\n4. Clear a path from Festival Lane through Market Row to Crusader's Square.\n\n5. Use your 'Ward of Naxxramas' in Crusader's square to obtain truesight and you should find a Dread Ward by the southern gate. (Prematurely killing any bosses in Undead Stratholme will prevent this spawn!)\n\n6. Use your 'Stratholme Holy Water' on the Dread Ward. This will trigger 'Sleight of Hand', and a five minute timer.\n\n7. You now have 5 minutes to do the following:\n7.1: Get back to Festival Lane and enter Elder's Square of the Undead seaction of Stratholme.\n7.2: Kill all bosses in Undead Stratholme. Remember to also take out the cultists inside the ziggurats.\n7.3: After killing Lord Aurius Rivendare in Slaughter Square, head into the southern gate where the Naxxramas portal is blocked off.\n7.4: An undead creature named 'Hand of Naxxramas' should be waiting for you, and an Extra Action Button should appear. Use it to burn the creature to dust before the timer tuns out.\n\n8. Travel to Light's Hope Chapel and find Archmage Angela Dosantos at 75.5, 52.8. Interact with her first, and she will offer a version of the quest named 'The Dread Citadel - Naxxramas' appropriate to your reputation with Argent Dawn. (Lower standing means she requires more gold and reagents from you, Exalted makes it free.)\n\n9. You have now unlocked the ability to obtain Corruptor's Scourgestones on an accound-wide basis, as well as a portal to Naxxramas at coordinates 35.7, 23.1.",
+						["groups"] = {
+							i(206377, {	-- Ward of Naxxramas
+								["cr"] = 10411,	-- Eye of Naxxramas
+								["maps"] = { STRATHOLME },
+								["timeline"] = { ADDED_10_1_5 },
+							}),
+							n(206148, {	-- Hand of Naxxramas
+								["description"] = "When you have both the ward and holy water, head to the entrance of the Crusader's Cathedral, but don't enter there - Instead, use your Ward of Naxxramas and turn to the left. If done correctly, you will see a Dread Ward of Naxxramas right next to the gates there, Once you find the Dread Ward, toss your  Stratholme Holy Water in it.\n\nIf done correctly, you will receive a zone-wide yell, and a debuff called  Sleight of Hand. Once you get this debuff, you have 5 minutes to run all the way to the Undead side of Stratholme, to the gate to the left of the Necropolis where Lord Aurius Rivendare is located. You MUST kill Lord Aurius Rivendare to open the gate. If you arrive in time, a Hand of Naxxramas NPC will be there, and you will be able to use your Argent Dawn Commission to burn it to a crisp.",
+								["sourceQuests"] = { 76257 },	-- Darkmaster's Scourgestone
+								["questID"] = 76261,
+								["maps"] = { 318 },	-- Stratholme - Undead
+								["cost"] = {
+									{ "i", 12846, 1 },	-- 1x Argent Dawn Commission
+									{ "i", 13180, 1 },	-- 1x Stratholme Holy Water
+									{ "i", 206377, 1 },	-- 1x Ward of Naxxramas
+								},
+							}),
+							n(16116, {	-- Archmage Angela Dosantos
+								["description"] = "Talk to Archmage after defeating Hand of Naxxramas",
+								["sourceQuests"] = { 76261 },	-- Hand of Naxxramas
+								["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
+								["questID"] = 76262,
+							}),
+							n(QUESTS, {
+								q(76263, {	-- The Dread Citadel - Naxxramas [Honored]
+									["sourceQuests"] = { 76262 },	-- Archmage Angela Dosantos
+									["altQuests"] = {
+										76264,	-- The Dread Citadel - Naxxramas [Revered]
+										76265,	-- The Dread Citadel - Naxxramas [Exalted]
+									},
+									["provider"] = { "n", 16116 },	-- Archmage Angela Dosantos
+									["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
+									["minReputation"] = { FACTION_ARGENT_DAWN, HONORED },
+									["maxReputation"] = { FACTION_ARGENT_DAWN, REVERED },
+									["cost"] = {
+										{ "i", 12363, 5 },	-- 5x Arcane Crystal
+										{ "i", 14344, 6 },	-- 6x Large Brilliant Shard
+										{ "i", 12811, 1 },	-- 1x Righteous Orb
+									},
+									["groups"] = {
+										ach(18372),	-- Wards of the Dread Citadel
+									},
+								}),
+								q(76264, {	-- The Dread Citadel - Naxxramas [Revered]
+									["sourceQuests"] = { 76262 },	-- Archmage Angela Dosantos
+									["altQuests"] = {
+										76263,	-- The Dread Citadel - Naxxramas [Honored]
+										76265,	-- The Dread Citadel - Naxxramas [Exalted]
+									},
+									["provider"] = { "n", 16116 },	-- Archmage Angela Dosantos
+									["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
+									["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },
+									["maxReputation"] = { FACTION_ARGENT_DAWN, EXALTED },
+									["cost"] = {
+										{ "i", 12363, 2 },	-- 2x Arcane Crystal
+										{ "i", 14344, 3 },	-- 3x Large Brilliant Shard
+									},
+									["groups"] = {
+										ach(18372),	-- Wards of the Dread Citadel
+									},
+								}),
+								q(76265, {	-- The Dread Citadel - Naxxramas [Exalted]
+									["sourceQuests"] = { 76262 },	-- Archmage Angela Dosantos
+									["altQuests"] = {
+										76263,	-- The Dread Citadel - Naxxramas [Honored]
+										76264,	-- The Dread Citadel - Naxxramas [Revered]
+									},
+									["provider"] = { "n", 16116 },	-- Archmage Angela Dosantos
+									["coord"] = { 75.5, 52.8, EASTERN_PLAGUELANDS },
+									["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },
+									["groups"] = {
+										ach(18372),	-- Wards of the Dread Citadel
+									},
+								}),
+							}),
+						},
+					}),
+					header(HEADERS.Spell, 413594, {	-- Forgotten Knowledge
+						["description"] = "See Stage 6 'Forgotten Knowledge' in Naxxramas.",
+						["groups"] = {
+							n(16365, {	-- Master Craftsman Omarion <Brotherhood of the Light>
+								["description"] = "To unlock this vendor you are required to complete the 'Wards of the Dred Citadel' stage 6 named 'Forgotten Knowledge in Naxxramas.",
+								["sourceQuest"] = 76290,	-- Omarion's Second Handbook
+								["coord"] = { 75.6, 52.0, EASTERN_PLAGUELANDS },
+								["groups"] = sharedData({
+									["cost"] = {{ "i", 12844, 3 }},	-- 3x Argent Dawn Valor Token
+									["timeline"] = { ADDED_10_1_5 },
+								}, {
+									i(206395),	-- Pattern: Glacial Chapeau (RECIPE!)
+									i(206393),	-- Pattern: Glacial Cloak (RECIPE!)
+									i(206396),	-- Pattern: Glacial Epaulets (RECIPE!)
+									i(206402),	-- Pattern: Glacial Footwear (RECIPE!)
+									i(206399),	-- Pattern: Glacial Gloves (RECIPE!)
+									i(206401),	-- Pattern: Glacial Leggings (RECIPE!)
+									i(206400),	-- Pattern: Glacial Tether (RECIPE!)
+									i(206397),	-- Pattern: Glacial Vest (RECIPE!)
+									i(206398),	-- Pattern: Glacial Wrists (RECIPE!)
+									i(206414),	-- Pattern: Icy Scale Bracers (RECIPE!)
+									i(206413),	-- Pattern: Icy Scale Breastplate (RECIPE!)
+									i(206411),	-- Pattern: Icy Scale Crown (RECIPE!)
+									i(206415),	-- Pattern: Icy Scale Gauntlets (RECIPE!)
+									i(206417),	-- Pattern: Icy Scale Leggings (RECIPE!)
+									i(206412),	-- Pattern: Icy Scale Shoulderpads (RECIPE!)
+									i(206418),	-- Pattern: Icy Scale Stompers (RECIPE!)
+									i(206416),	-- Pattern: Icy Scale Waistwrap (RECIPE!)
+									i(206408),	-- Pattern: Polar Belt (RECIPE!)
+									i(206406),	-- Pattern: Polar Bracers (RECIPE!)
+									i(206410),	-- Pattern: Polar Footwarmers (RECIPE!)
+									i(206407),	-- Pattern: Polar Gloves (RECIPE!)
+									i(206403),	-- Pattern: Polar Helm (RECIPE!)
+									i(206409),	-- Pattern: Polar Leggings (RECIPE!)
+									i(206404),	-- Pattern: Polar Spaulders (RECIPE!)
+									i(206405),	-- Pattern: Polar Tunic (RECIPE!)
+									i(206421),	-- Plans: Icebane Breastplate (RECIPE!)
+									i(206422),	-- Plans: Icebane Bracers (RECIPE!)
+									i(206419),	-- Plans: Icebane Coif (RECIPE!)
+									i(206423),	-- Plans: Icebane Gauntlets (RECIPE!)
+									i(206425),	-- Plans: Icebane Leggings (RECIPE!)
+									i(206420),	-- Plans: Icebane Mantle (RECIPE!)
+									i(206426),	-- Plans: Icebane Trudgers (RECIPE!)
+									i(206424),	-- Plans: Icebane Waistguard (RECIPE!)
+								}),
+							}),
+						},
+					}),
+					n(QUESTS, {
+						q(76268, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Corruptor's Scourgestones
+							["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
+							["coord"] = { 75.8, 53.8, EASTERN_PLAGUELANDS },
+							["cost"] = {{ "i", 206375, 1 }},	-- 1x Corruptor's Scourgestone
+							["repeatable"] = true,
+							["groups"] = {
+								i(12844),	-- Argent Dawn Valor Token
+							},
+						})),
+						q(76270, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Invader's Scourgestones
+							["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
+							["coords"] = {
+								-- #if AFTER WRATH
+								{ 75.8, 53.8, EASTERN_PLAGUELANDS },
+								-- #else
+								{ 81.4, 59.8, EASTERN_PLAGUELANDS },
+								-- #endif
+							},
+							["cost"] = {{ "i", 206374, 10 }},	-- 10x Corruptor's Scourgestone
+							["repeatable"] = true,
+							["groups"] = {
+								i(12844),	-- Argent Dawn Valor Token
+							},
+						})),
+						q(77243, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Many Corruptor's Scourgestones
+							["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
+							["coords"] = {
+								-- #if AFTER WRATH
+								{ 75.8, 53.8, EASTERN_PLAGUELANDS },
+								-- #else
+								{ 81.4, 59.8, EASTERN_PLAGUELANDS },
+								-- #endif
+							},
+							["cost"] = {{ "i", 206375, 5 }},	-- 5x Corruptor's Scourgestone
+							["repeatable"] = true,
+							["groups"] = {
+								i(12844),	-- Argent Dawn Valor Token
+							},
+						})),
+						q(77242, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Many Invader's Scourgestones
+							["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
+							["coords"] = {
+								-- #if AFTER WRATH
+								{ 75.8, 53.8, EASTERN_PLAGUELANDS },
+								-- #else
+								{ 81.4, 59.8, EASTERN_PLAGUELANDS },
+								-- #endif
+							},
+							["cost"] = {{ "i", 206374, 50 }},	-- 50x Invader's Scourgestone
+							["repeatable"] = true,
+							["groups"] = {
+								i(12844),	-- Argent Dawn Valor Token
+							},
+						})),
+					}),
+					n(VENDORS, {
+						n(11536, {	-- Quartermaster Miranda Breechlock <The Argent Crusade>
+							i(206584, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Archived Crafting Techniques
+								["cost"] = { { "i", 12844, 6 } },	-- Argent Dawn Valor Token
+								["groups"] = {
+									i(207569),	-- Ancient Formula: Magebane Nexus (RECIPE!)
+									i(207570),	-- Ancient Formula: Smoked Fireshooter (RECIPE!)
+									i(207571),	-- Ancient Formula: Stormwatcher (RECIPE!)
+									i(206529),	-- Ancient Pattern: Helm of Lingering Power (RECIPE!)
+									i(206561),	-- Ancient Pattern: Lucien's Lost Soles (RECIPE!)
+									i(207577),	-- Ancient Pattern: Sanctified Leather Hat (RECIPE!)
+									i(206530),	-- Ancient Pattern: Skyfury Headdress (RECIPE!)
+									i(206525),	-- Ancient Plans: Darrowdirk (RECIPE!)
+									i(206526),	-- Ancient Plans: Darrowshire Protector (RECIPE!)
+									i(207573),	-- Ancient Plans: Ichor Slicer (RECIPE!)
+									i(207567),	-- Ancient Plans: Intrepid Shortblade (RECIPE!)
+									i(206527),	-- Ancient Plans: Mirah's Lullaby (RECIPE!)
+									i(207572),	-- Ancient Plans: Sacred Guardian (RECIPE!)
+									i(207568),	-- Ancient Plans: Valiant Shortblade (RECIPE!)
+									i(206522),	-- Ancient Plans: Warsword of Caer Darrow (RECIPE!)
+									i(207576),	-- Ancient Schematic: Refurbished Purifier (RECIPE!)
+									i(207574),	-- Ancient Schematic: Skullstone Bludgeon (RECIPE!)
+									i(206528),	-- Ancient Technique: Shifting Sliver (RECIPE!)
+									i(207575),	-- Ancient Technique: Wanderer's Guide (RECIPE!)
+								},
+							})),
+						}),
+					}),
+					n(ZONE_DROPS, {
+						i(206374, {	-- Invader's Scourgestone
+							["maps"] = { STRATHOLME },
+							["timeline"] = { ADDED_10_1_5 },
+						}),
+					}),
+					-- Nax portal: 35.7, 23.1
+				},
+			}),
 			n(ACHIEVEMENTS, {
 				ach(4892, {	-- Eastern Plaguelands Quests
 					["timeline"] = { ADDED_4_0_3 },
@@ -1777,15 +2062,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				q(76268, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Corruptor's Scourgestones
-					["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
-					["coord"] = { 75.8, 53.8, EASTERN_PLAGUELANDS },
-					["cost"] = {{ "i", 206375, 1 }},	-- 1x Corruptor's Scourgestone
-					["repeatable"] = true,
-					["groups"] = {
-						i(12844),	-- Argent Dawn Valor Token
-					},
-				})),
 				q(27531, {	-- Counter-Plague Research
 					["sourceQuest"] = 27532,	-- The Plaguewood Tower
 					["qg"] = 45828,	-- Argent Apotehcary Judkins
@@ -2722,21 +2998,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				q(76270, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Invader's Scourgestones
-					["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
-					["coords"] = {
-						-- #if AFTER WRATH
-						{ 75.8, 53.8, EASTERN_PLAGUELANDS },
-						-- #else
-						{ 81.4, 59.8, EASTERN_PLAGUELANDS },
-						-- #endif
-					},
-					["cost"] = {{ "i", 206374, 10 }},	-- 10x Corruptor's Scourgestone
-					["repeatable"] = true,
-					["groups"] = {
-						i(12844),	-- Argent Dawn Valor Token
-					},
-				})),
 				q(27487, {	-- Ix'lar the Underlord
 					["sourceQuest"] = 27466,	-- Argent Call: Northdale
 					["qg"] = 45729,	-- Tarenar Sunstrike
@@ -2890,36 +3151,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cost"] = { { "i", 12844, 10 } },	-- Argent Dawn Valor Token
 					["lvl"] = 55,
 				}),
-				q(77243, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Many Corruptor's Scourgestones
-					["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
-					["coords"] = {
-						-- #if AFTER WRATH
-						{ 75.8, 53.8, EASTERN_PLAGUELANDS },
-						-- #else
-						{ 81.4, 59.8, EASTERN_PLAGUELANDS },
-						-- #endif
-					},
-					["cost"] = {{ "i", 206375, 5 }},	-- 5x Corruptor's Scourgestone
-					["repeatable"] = true,
-					["groups"] = {
-						i(12844),	-- Argent Dawn Valor Token
-					},
-				})),
-				q(77242, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Many Invader's Scourgestones
-					["qg"] = 11039,	-- Duke Nicholas Zverenhoff <The Argent Dawn>
-					["coords"] = {
-						-- #if AFTER WRATH
-						{ 75.8, 53.8, EASTERN_PLAGUELANDS },
-						-- #else
-						{ 81.4, 59.8, EASTERN_PLAGUELANDS },
-						-- #endif
-					},
-					["cost"] = {{ "i", 206374, 50 }},	-- 50x Invader's Scourgestone
-					["repeatable"] = true,
-					["groups"] = {
-						i(12844),	-- Argent Dawn Valor Token
-					},
-				})),
 				q(5206, {	-- Marauders of Darrowshire
 					["sourceQuests"] = {
 						5181,	-- Villains of Darrowshire
@@ -5026,49 +5257,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if AFTER 4.0.1
 				n(16365, {	-- Master Craftsman Omarion <Brotherhood of the Light>
-					-- #if AFTER 10.1.5
-					["description"] = "You must unlock the Memory of Scholomance and Naxxaramas before this vendor will sell to you.\n\nYou must return 32 individual book pages from around Naxxaramas to him to unlock all his recipes, with more unlocking with each hand-in.",
-					["sourceQuest"] = 76290,	-- Omarion's Second Handbook
-					-- #endif
 					["coord"] = { 75.6, 52.0, EASTERN_PLAGUELANDS },
-					["groups"] = sharedData({
-						["cost"] = {{ "i", 12844, 3 }},	-- 3x Argent Dawn Valor Token
-						["timeline"] = { ADDED_10_1_5 },
-					}, {
-						i(206395),	-- Pattern: Glacial Chapeau (RECIPE!)
-						i(206393),	-- Pattern: Glacial Cloak (RECIPE!)
-						i(206396),	-- Pattern: Glacial Epaulets (RECIPE!)
-						i(206402),	-- Pattern: Glacial Footwear (RECIPE!)
-						i(206399),	-- Pattern: Glacial Gloves (RECIPE!)
-						i(206401),	-- Pattern: Glacial Leggings (RECIPE!)
-						i(206400),	-- Pattern: Glacial Tether (RECIPE!)
-						i(206397),	-- Pattern: Glacial Vest (RECIPE!)
-						i(206398),	-- Pattern: Glacial Wrists (RECIPE!)
-						i(206414),	-- Pattern: Icy Scale Bracers (RECIPE!)
-						i(206413),	-- Pattern: Icy Scale Breastplate (RECIPE!)
-						i(206411),	-- Pattern: Icy Scale Crown (RECIPE!)
-						i(206415),	-- Pattern: Icy Scale Gauntlets (RECIPE!)
-						i(206417),	-- Pattern: Icy Scale Leggings (RECIPE!)
-						i(206412),	-- Pattern: Icy Scale Shoulderpads (RECIPE!)
-						i(206418),	-- Pattern: Icy Scale Stompers (RECIPE!)
-						i(206416),	-- Pattern: Icy Scale Waistwrap (RECIPE!)
-						i(206408),	-- Pattern: Polar Belt (RECIPE!)
-						i(206406),	-- Pattern: Polar Bracers (RECIPE!)
-						i(206410),	-- Pattern: Polar Footwarmers (RECIPE!)
-						i(206407),	-- Pattern: Polar Gloves (RECIPE!)
-						i(206403),	-- Pattern: Polar Helm (RECIPE!)
-						i(206409),	-- Pattern: Polar Leggings (RECIPE!)
-						i(206404),	-- Pattern: Polar Spaulders (RECIPE!)
-						i(206405),	-- Pattern: Polar Tunic (RECIPE!)
-						i(206421),	-- Plans: Icebane Breastplate (RECIPE!)
-						i(206422),	-- Plans: Icebane Bracers (RECIPE!)
-						i(206419),	-- Plans: Icebane Coif (RECIPE!)
-						i(206423),	-- Plans: Icebane Gauntlets (RECIPE!)
-						i(206425),	-- Plans: Icebane Leggings (RECIPE!)
-						i(206420),	-- Plans: Icebane Mantle (RECIPE!)
-						i(206426),	-- Plans: Icebane Trudgers (RECIPE!)
-						i(206424),	-- Plans: Icebane Waistguard (RECIPE!)
-					}),
 				}),
 				-- #endif
 				n(47144, {	-- Patricia Marshall <Weaponsmith>
@@ -5108,32 +5297,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["timeline"] = { ADDED_7_0_3 },
 								["classes"] = { PRIEST },
 							}),
-							-- 10.1.5 Scholomance Items
-							i(206584, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Archived Crafting Techniques
-								--	["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn
-								["cost"] = { { "i", 12844, 6 } },	-- Argent Dawn Valor Token
-								["groups"] = {
-									i(207569),	-- Ancient Formula: Magebane Nexus (RECIPE!)
-									i(207570),	-- Ancient Formula: Smoked Fireshooter (RECIPE!)
-									i(207571),	-- Ancient Formula: Stormwatcher (RECIPE!)
-									i(206529),	-- Ancient Pattern: Helm of Lingering Power (RECIPE!)
-									i(206561),	-- Ancient Pattern: Lucien's Lost Soles (RECIPE!)
-									i(207577),	-- Ancient Pattern: Sanctified Leather Hat (RECIPE!)
-									i(206530),	-- Ancient Pattern: Skyfury Headdress (RECIPE!)
-									i(206525),	-- Ancient Plans: Darrowdirk (RECIPE!)
-									i(206526),	-- Ancient Plans: Darrowshire Protector (RECIPE!)
-									i(207573),	-- Ancient Plans: Ichor Slicer (RECIPE!)
-									i(207567),	-- Ancient Plans: Intrepid Shortblade (RECIPE!)
-									i(206527),	-- Ancient Plans: Mirah's Lullaby (RECIPE!)
-									i(207572),	-- Ancient Plans: Sacred Guardian (RECIPE!)
-									i(207568),	-- Ancient Plans: Valiant Shortblade (RECIPE!)
-									i(206522),	-- Ancient Plans: Warsword of Caer Darrow (RECIPE!)
-									i(207576),	-- Ancient Schematic: Refurbished Purifier (RECIPE!)
-									i(207574),	-- Ancient Schematic: Skullstone Bludgeon (RECIPE!)
-									i(206528),	-- Ancient Technique: Shifting Sliver (RECIPE!)
-									i(207575),	-- Ancient Technique: Wanderer's Guide (RECIPE!)
-								},
-							})),
 						},
 						{	-- Friendly
 							i(13724),	-- Enriched Manna Biscuit
