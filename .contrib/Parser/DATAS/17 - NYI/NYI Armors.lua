@@ -5992,6 +5992,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247511),	-- Dragonspur Wristguards
 						i(247528),	-- Dreamsculptor's Gloves
 						i(247524),	-- Forest-Lord's Waistwrap
+						i(247562),	-- Grips of Silent Screams
 						i(247533),	-- Grove Keeper's Robe
 						i(247523),	-- Lifeless Buckled Girdle
 						i(247530),	-- Mask of Multitudinous Eyes
