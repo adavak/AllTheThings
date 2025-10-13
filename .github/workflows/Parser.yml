@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - '.contrib/Parser/**'
+      - '.github/workflows/Parser.yml'
   # Triggers the workflow on each pull request event
   pull_request:
     paths:
@@ -21,56 +22,105 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Database Parser for Retail
+        id: Parse-Retail
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto baseconfig=.config/retail/retail.config
         shell: cmd
 
       - name: Database Parser for Classic Era
+        id: Parse-ClassicEra
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto config=".config/classic/01 - Classic Era.config"
         shell: cmd
 
       - name: Database Parser for Season of Discovery
+        id: Parse-ClassicSoD
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto config=".config/classic/01 - Classic SOD.config"
         shell: cmd
 
       - name: Database Parser for The Burning Crusade
+        id: Parse-TBC
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto config=".config/classic/02 - TBC.config"
         shell: cmd
 
       - name: Database Parser for Wrath of the Lich King
+        id: Parse-WOTLK
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto config=".config/classic/03 - Wrath.config"
         shell: cmd
 
       - name: Database Parser for Cataclysm
+        id: Parse-CATA
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto config=".config/classic/04 - Cataclysm.config"
         shell: cmd
 
       - name: Database Parser for Mists of Pandaria
+        id: Parse-MOP
         timeout-minutes: 5
+        continue-on-error: true
         run: |
           cd .contrib/Parser
           "Parser.exe" auto config=".config/classic/05 - Mists of Pandaria.config"
         shell: cmd
 
+      - name: Full Success Check
+        shell: pwsh
+        run: |
+          $retail = '${{ steps.Parse-Retail.outcome }}'
+          $classicEra = '${{ steps.Parse-ClassicEra.outcome }}'
+          $classicSoD = '${{ steps.Parse-ClassicSoD.outcome }}'
+          $tbc = '${{ steps.Parse-TBC.outcome }}'
+          $wotlk = '${{ steps.Parse-WOTLK.outcome }}'
+          $cata = '${{ steps.Parse-CATA.outcome }}'
+          $mop = '${{ steps.Parse-MOP.outcome }}'
+
+          Write-Host "Verify all Versions Parsed Successfully..."
+          Write-Host "Retail: $retail"
+          Write-Host "ClassicEra: $classicEra"
+          Write-Host "ClassicSoD: $classicSoD"
+          Write-Host "TBC: $tbc"
+          Write-Host "WOTLK: $wotlk"
+          Write-Host "CATA: $cata"
+          Write-Host "MOP: $mop"
+
+          if (
+            $retail -eq 'success' -and
+            $classicEra -eq 'success' -and
+            $classicSoD -eq 'success' -and
+            $tbc -eq 'success' -and
+            $wotlk -eq 'success' -and
+            $cata -eq 'success' -and
+            $mop -eq 'success'
+          ) {
+            Write-Host "✅ All Versions Parsed Successfully"
+          } else {
+            Write-Host "❌ One or more Parsed Versions Errored"
+            exit 1
+          }
+
       - uses: actions/upload-artifact@v4
         with:
-            name: db  # Artifact name
-            path: db/  # File path to upload
-            retention-days: 7
+          name: db  # Artifact name
+          path: db/  # File path to upload
+          retention-days: 7
