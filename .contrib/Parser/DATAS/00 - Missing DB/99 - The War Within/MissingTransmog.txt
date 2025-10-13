@@ -40395,10 +40395,6 @@ s(294620)/i(247561),	-- Gloves of Murmured Promises
 s(294621)/i(247561),	-- Gloves of Murmured Promises
 s(294622)/i(247561),	-- Gloves of Murmured Promises
 s(294623)/i(247561),	-- Gloves of Murmured Promises
-s(294624)/i(247562),	-- Grips of Silent Screams
-s(294625)/i(247562),	-- Grips of Silent Screams
-s(294626)/i(247562),	-- Grips of Silent Screams
-s(294627)/i(247562),	-- Grips of Silent Screams
 s(294628)/i(247563),	--
 s(294629)/i(247563),	--
 s(294630)/i(247564),	-- Gauntlets of Fractured Dreams

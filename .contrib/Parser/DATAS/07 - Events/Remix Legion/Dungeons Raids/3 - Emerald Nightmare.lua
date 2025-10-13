@@ -54,6 +54,7 @@ local COMMONLOOT = {
 		i(247511),	-- Dragonspur Wristguards
 		i(247528),	-- Dreamsculptor's Gloves
 		i(247524),	-- Forest-Lord's Waistwrap
+		i(247562),	-- Grips of Silent Screams
 		i(247533),	-- Grove Keeper's Robe
 		i(247523),	-- Lifeless Buckled Girdle
 		i(247530),	-- Mask of Multitudinous Eyes
@@ -72,7 +73,6 @@ local COMMONLOOT = {
 		i(247538),	-- Gauntlets of Malevolent Intent
 		i(247506),	-- Gauntlets of the Demented Mind
 		i(247539),	-- Greyed Dragonscale Coif
-		i(247036),	-- Helm of Shackled Elements
 		i(247536),	-- Laughing Sister's Pouch-Chain
 		i(247504),	-- Malignant Sabatons
 		i(247547),	-- Manacles of the Nightmare Colossus
