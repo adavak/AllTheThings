@@ -2,7 +2,6 @@
 using KeraLua;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -17,6 +16,12 @@ namespace ATT
         /// Default: Config.UseExportNewlines
         /// </summary>
         public static bool AddTableNewLines { get; set; } = false;
+
+        /// <summary>
+        /// Determines whether the parse should use newlines when exporting Lua tables.<para/>
+        /// NOTE: Automated parses will never use newlines
+        /// </summary>
+        public static bool ConfigUseExportNewlines => !Framework.Automated && Framework.Config["UseExportNewlines"];
 
         private static readonly List<string[]> RegexLuaReplacements = new List<string[]>
         {
@@ -384,7 +389,7 @@ namespace ATT
         public static Exporter ExportCompressedLua(object data)
         {
             var builder = new Exporter();
-            AddTableNewLines = Framework.Config["UseExportNewlines"];
+            AddTableNewLines = ConfigUseExportNewlines;
             ExportCompressedLua(builder, data);
             return builder;
         }
@@ -401,7 +406,7 @@ namespace ATT
         {
             var builder = new Exporter();
             ExportCompressedLua(builder, data);
-            AddTableNewLines = Framework.Config["UseExportNewlines"];
+            AddTableNewLines = ConfigUseExportNewlines;
             return builder;
         }
 
@@ -415,7 +420,7 @@ namespace ATT
         {
             var builder = new Exporter();
             ExportCompressedLua(builder, list);
-            AddTableNewLines = Framework.Config["UseExportNewlines"];
+            AddTableNewLines = ConfigUseExportNewlines;
             return builder;
         }
 
@@ -441,7 +446,7 @@ namespace ATT
             builder.Insert(0, new StringBuilder()
                 .AppendLine("---@diagnostic disable: deprecated")
                 .AppendLine("local appName, _ = ...;"));
-            AddTableNewLines = Framework.Config["UseExportNewlines"];
+            AddTableNewLines = ConfigUseExportNewlines;
             return builder;
         }
 
@@ -486,7 +491,7 @@ namespace ATT
             }
             ExportLocalVariablesForLua(builder);
             ExportCategoriesHeaderForLua(builder);
-            AddTableNewLines = Framework.Config["UseExportNewlines"];
+            AddTableNewLines = ConfigUseExportNewlines;
             return builder;
         }
 
