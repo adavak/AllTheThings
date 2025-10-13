@@ -436,6 +436,7 @@ namespace ATT
                 builder.Append(",");
             }
             builder.Remove(builder.Length - 1, 1).AppendLine("};");
+            builder.Insert(0, "--STRUCTURE_REPLACEMENTS" + Environment.NewLine);
             ExportLocalVariablesForLua(builder);
             builder.Insert(0, new StringBuilder()
                 .AppendLine("---@diagnostic disable: deprecated")

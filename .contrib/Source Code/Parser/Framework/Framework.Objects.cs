@@ -1041,7 +1041,7 @@ namespace ATT
             public static void ExportDebug(string directory)
             {
                 // Export all of the Containers
-                File.WriteAllText(Path.Combine(directory, "Categories.lua"), ATT.Export.ExportRawLua(AllContainers).ToString(), Encoding.UTF8);
+                File.WriteAllText(Path.Combine(directory, "Categories.lua"), ExportRawLua(AllContainers).ToString(), Encoding.UTF8);
 
                 // Export as JSON!
                 File.WriteAllText(Path.Combine(directory, "Categories.json"), ToJSON(AllContainers), Encoding.UTF8);
@@ -1124,7 +1124,7 @@ namespace ATT
                     File.WriteAllText(Path.Combine(directory, "SortedItemsByFilteredBinding.lua"), builder2.ToString(), Encoding.UTF8);
 
                     // Export all Unsorted.
-                    File.WriteAllText(Path.Combine(directory, "Unsorted.lua"), ATT.Export.ExportRawLua(unsorted).ToString(), Encoding.UTF8);
+                    File.WriteAllText(Path.Combine(directory, "Unsorted.lua"), ExportRawLua(unsorted).ToString(), Encoding.UTF8);
                 }
             }
 
@@ -1162,7 +1162,7 @@ namespace ATT
                         if (containerPair.Value.Count > 0)
                         {
                             // Build the category file.
-                            categoryBuilders[containerPair.Key] = ATT.Export.ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
+                            categoryBuilders[containerPair.Key] = ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
                         }
                     }
                 }
@@ -1173,38 +1173,40 @@ namespace ATT
                         if (containerPair.Value.Count > 0)
                         {
                             // Build the category file.
-                            categoryBuilders[containerPair.Key] = ATT.Export.ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
+                            categoryBuilders[containerPair.Key] = ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
                         }
                     });
                 }
 
                 // Simplify the structure of each Category builder
-                if (!PreProcessorTags.Contains("NOSIMPLIFY"))
+                bool doSimplification = !PreProcessorTags.Contains("NOSIMPLIFY");
+                var categoriesByLength = categoryBuilders.OrderByDescending(b => b.Value.Length).ToList();
+                var simplifyConfig = doSimplification ? Config["SimplifyStructures"] : null;
+                Action<Exporter> simplifyFunc;
+                if (simplifyConfig == null)
                 {
-                    var categoriesByLength = categoryBuilders.OrderByDescending(b => b.Value.Length).ToList();
-                    var simplifyConfig = Config["SimplifyStructures"];
-                    Action<Exporter> simplifyFunc;
-                    if (simplifyConfig.Defined)
-                    {
-                        int[] simplify = simplifyConfig;
-                        simplifyFunc = (s) => { ATT.Export.SimplifyStructureForLua(s, simplify[0], simplify[1]); };
-                    }
-                    else
-                    {
-                        simplifyFunc = (s) => { ATT.Export.SimplifyStructureForLua(s); };
-                    }
-
-                    // Perform replacements on all small StringBuilders in parallel tasks
-                    // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
-                    Task[] replacementTasks = new Task[categoriesByLength.Count];
-                    for (int i = 0; i < categoriesByLength.Count; i++)
-                    {
-                        var s = categoriesByLength[i];
-                        //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
-                        replacementTasks[i] = Task.Run(() => simplifyFunc(s.Value));
-                    }
-                    Task.WaitAll(replacementTasks);
+                    simplifyFunc = (s) => { SimplifyStructureForLua(s, 0, 0); };
                 }
+                else if (simplifyConfig.Defined)
+                {
+                    int[] simplify = simplifyConfig;
+                    simplifyFunc = (s) => { SimplifyStructureForLua(s, simplify[0], simplify[1]); };
+                }
+                else
+                {
+                    simplifyFunc = (s) => { SimplifyStructureForLua(s); };
+                }
+
+                // Perform replacements on all small StringBuilders in parallel tasks
+                // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
+                Task[] replacementTasks = new Task[categoriesByLength.Count];
+                for (int i = 0; i < categoriesByLength.Count; i++)
+                {
+                    var s = categoriesByLength[i];
+                    //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
+                    replacementTasks[i] = Task.Run(() => simplifyFunc(s.Value));
+                }
+                Task.WaitAll(replacementTasks);
 
                 // Write the Category file for each builder
                 categoryBuilders.AsParallel().ForAll((containerPair) =>
@@ -1235,8 +1237,8 @@ namespace ATT
                     locale.AppendLine("--   WARNING: This file is dynamically generated   --");
                     locale.AppendLine("local appName, _ = ...;");
                     locale.Append("local keys = ");
-                    ATT.Export.AddTableNewLines = true;
-                    locale.AppendLine(ATT.Export.ExportCompressedLua(AllLocaleTypes).ToString());
+                    AddTableNewLines = true;
+                    locale.AppendLine(ExportCompressedLua(AllLocaleTypes).ToString());
                     locale.AppendLine(@"
 local L = _.L;
 for k,t in pairs(keys) do
@@ -1266,8 +1268,8 @@ end");
                     StringBuilder data = new StringBuilder(10000);
                     data.AppendLine("--   WARNING: This file is dynamically generated   --");
                     data.Append("root(\"Items.SOURCES\",");
-                    ATT.Export.AddTableNewLines = true;
-                    data.AppendLine(ATT.Export.ExportCompressedLua(Items.AllItemSourceIDs).ToString());
+                    AddTableNewLines = true;
+                    data.AppendLine(ExportCompressedLua(Items.AllItemSourceIDs).ToString());
                     data.Append(");");
 
                     string content = data.ToString();
@@ -1318,7 +1320,7 @@ end");
                         builder.AppendLine();
                         builder
                             .Append('[').Append(key).Append("]=")
-                            .Append(ATT.Export.ExportCompressedLua(entry).ToString())
+                            .Append(ExportCompressedLua(entry).ToString())
                             .Append(',');
                         if (entryName != null) builder.Append("\t-- ").Append(entryName);
                     }
@@ -1620,7 +1622,7 @@ end");
                     catch (Exception e)
                     {
                         LogError($"WHAT IS THIS: {field}{Environment.NewLine}{ToJSON(newList)}");
-                        Framework.WaitForUser();
+                        WaitForUser();
                         throw e;
                     }
                 }
@@ -1732,7 +1734,7 @@ end");
                             else
                             {
                                 LogError($"Weird 'g' value??", value);
-                                Framework.WaitForUser();
+                                WaitForUser();
                             }
                             break;
                         }
@@ -2176,7 +2178,7 @@ end");
                             }
 
                             // Integer Data Type Fields
-                            if (ATT.Export.ObjectData.ContainsObjectType(field))
+                            if (ObjectData.ContainsObjectType(field))
                             {
                                 item[field] = value;
                                 return;
@@ -2530,7 +2532,7 @@ end");
                 }
 
                 // Determine the Most-Significant ID Type
-                if (!ATT.Export.ObjectData.TryGetMostSignificantObjectType(data2, out Export.ObjectData objectData, out object keyObject))
+                if (!ObjectData.TryGetMostSignificantObjectType(data2, out Export.ObjectData objectData, out object keyObject))
                 {
                     // If there is no most significant ID field, then complain.
                     if (!data2.ContainsKey("aqd")) LogError($"No Most Significant ID!", data2);
