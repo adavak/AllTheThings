@@ -168,7 +168,7 @@ inst(875, 1676);	-- Tomb of Sargeras
 inst(900, 1677);	-- Cathedral of Eternal Night
 inst(945, 1753);	-- Seat of the Triumvirate
 inst(946, 1712);	-- Antorus, the Burning Throne
-inst(959, 1520);	-- Invasion Points
+-- inst(959, 1520);	-- Invasion Points
 inst(968, 1763);	-- Atal'Dazar
 inst(1001, 1754);	-- Freehold
 inst(1002, 1771);	-- Tol Dagor
