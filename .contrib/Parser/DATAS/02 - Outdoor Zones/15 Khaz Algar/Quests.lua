@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 			},
 			["sourceQuestNumRequired"] = 1,
 			["provider"] = { "n", 213620 },	-- Thrall
-			["coord"] = { 41.9, 45.0, SILITHUS_THE_WOUND },
+			["coord"] = { 41.9, 45.0, SILITHUS },
 			["maps"] = { 2321 },	-- Chamber of Heart
 		}),
 		q(78715, {	-- Azeroth's Voice
