@@ -1754,7 +1754,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 18.6, 51.9, IRONFORGE },	-- The Stonefire Tavern
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						i(1179),	-- Ice Cold Milk
+						i(1205),	-- Melon Juice
+						--i(1645),	-- Moonberry Juice
 						i(8766),	-- Morning Glory Dew
+						i(159),		-- Refreshing Spring Water
+						i(1708),	-- Sweet Nectar
+						i(2723),	-- Bottle of Dalaran Noir
+						i(2594),	-- Flagon of Dwarven Honeymead/Mead
+						i(2593),	-- Flask of Stormwind Tawny
+						i(2595),	-- Jug of Badlands Bourbon
+						i(2596),	-- Skin of Dwarven Stout
 					},
 				}),
 				n(5138, {	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>

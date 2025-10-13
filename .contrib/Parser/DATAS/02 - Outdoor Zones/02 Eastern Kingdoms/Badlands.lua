@@ -2190,6 +2190,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
+				n(48064, {	-- Milly Brewtap <Barmaid>
+					["coord"] = { 64.4, 38.7, BADLANDS },
+					["timeline"] = { ADDED_4_0_3 },
+					-- #if AFTER 4.0.3
+					["groups"] = {
+						i(2723),	-- Bottle of Dalaran Noir
+						i(44571),	-- Bottle of Silvermoon Port
+						i(44573),	-- Cup of Frog Venom Brew
+						i(2594),	-- Flagon of Dwarven Honeymead/Mead
+						i(44575),	-- Flask of Bitter Cactus Cider
+						i(2593),	-- Flask of Stormwind Tawny
+						i(44570),	-- Glass of Eversong Wine
+						i(2595),	-- Jug of Badlands Bourbon
+						i(2596),	-- Skin of Dwarven Stout
+						i(44574),	-- Skin of Mulgore Firewater
+					},
+					-- #endif
+				}),
 				n(48096, {	-- "Snake" Sanders <Weaponsmith>
 					["coord"] = { 21.3, 58.0, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },

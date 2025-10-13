@@ -1235,57 +1235,21 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			["groups"] = appendAllGroups(
 				sharedData({	-- Vanilla cooking reagents
 					["description"] = "Can be bought from Cooking Suppliers, as well as some Trade vendors around the world.",
-					-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when coords/providers are given.
-					--[[["coords"] = {
-						{ 60.6, 38.2, IRONFORGE },
-						{ 51.0, 52.5, THUNDER_BLUFF },
-						{ 62.3, 43.1, UNDERCITY },
-						-- #if AFTER TBC
-						{ 69.6, 71.2, SILVERMOON_CITY },
-						{ 54.4, 26.3, THE_EXODAR },
-						-- #endif
-						-- #if AFTER WRATH
-						{ 77.6, 53.2, STORMWIND_CITY },
-						-- #else
-						{ 76.0, 36.8, STORMWIND_CITY },
-						-- #endif
-						-- #if AFTER CATA
-						{ 49.6, 36.6, DARNASSUS },
-						{ 32.6, 68.6, ORGRIMMAR },
-						-- #else
-						{ 48.5, 21.6, DARNASSUS },
-						{ 57.6, 53.2, ORGRIMMAR },
-						-- #endif
-					},
-					["providers"] = {
-						{ "n", 5160},	-- Emrul Riknussun <Cooking Supplier>
-						{ "n", 5483},	-- Erika Tate <Cooking Supplies> [TBC+] / <Cooking Supplier>
-						{ "n", 4223},	-- Fyldan <Cooking Supplies> [TBC+] / <Cooking Supplier>
-						{ "n", 3027},	-- Naal Mistrunner <Cooking Supplies>
-						{ "n", 4553},	-- Ronald Burch <Cooking Supplies> [TBC+] / <Cooking Supplier>
-						{ "n", 3400},	-- Xen'to <Cooking Supplies>
-						-- #if AFTER TBC
-						{ "n", 16718},	-- Phea <Cooking Supplies>
-						{ "n", 16677},	-- Quelis <Cooking Supplies>
-						-- #endif
-					},]]
 				}, {
-					i(159),	-- Refreshing Spring Water
+					i(159),		-- Refreshing Spring Water
 					i(30817, {["timeline"] = { ADDED_2_0_1 }}),	-- Simple Flour
 					i(2678),	-- Mild Spices
 					i(2692, {["timeline"] = { REMOVED_3_0_2 }}),	-- Hot Spices
 					i(3713, {["timeline"] = { REMOVED_3_0_2 }}),	-- Soothing Spices
 				}),
 				sharedData({
-					["description"] = "Coordinates are for select vendors.",
+					-- #if AFTER CATA
+					["description"] = "This item is only common among Alliance bartenders. Horde players only have a few sources.",
+					-- #endif
 					["providers"] = {
 						{ "n", 1328 },	-- Elly Langston <Barmaid>
-						{ "n", 5112 },	-- Gwenna Firebrew <Barmaid>
 						-- #if AFTER TBC
 						{ "n", 16442 },	-- Vinemaster Suntouched <Wine & Spirits Merchant>
-						-- #endif
-						-- #if BEFORE CATA
-						{ "n", 5611 },	-- Barkeep Morag
 						-- #endif
 					},
 				}, {
@@ -1296,19 +1260,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				{
 					i(1179, {	-- Ice Cold Milk
-						["description"] = "Coordinates are for select vendors.",
-						["providers"] = {
-							{ "n", 5611},	-- Barkeep Morag
-							{ "n", 4555},	-- Eleanor Rusk <General Goods>
-							{ "n", 1328},	-- Elly Langston <Barmaid>
-							{ "n", 5112},	-- Gwenna Firebrew <Barmaid>
-							{ "n", 6735},	-- Innkeeper Saelienne <Innkeeper>
-							{ "n", 8362},	-- Kuruk <General Goods>
-							-- #if AFTER TBC
-							{ "n", 16739},	-- Caregiver Breel <Innkeeper>
-							{ "n", 17630},	-- Innkeeper Jovia <Innkeeper>
-							-- #endif
-						},
+						["description"] = "Can be bought from bartenders, innkeepers and general goods vendors.",
 					})
 				}
 			),
@@ -1317,16 +1269,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(4457),	-- Barbecued Buzzard Wing
 		applyclassicphase(TBC_PHASE_ONE, i(27636, {["timeline"] = { ADDED_2_0_5 }})),	-- Bat Bites
 		i(2888),	-- Beer Basted Boar Ribs
-		i(3726, {["timeline"] = {REMOVED_4_0_3, ADDED_9_1_0}}),	-- Big Bear Steak
+		i(3726, {["timeline"] = { REMOVED_4_0_3, ADDED_9_1_0 }}),	-- Big Bear Steak
 		i(3220),	-- Blood Sausage
 		i(5525),	-- Boiled Clams
-		applyclassicphase(WRATH_PHASE_ONE, i(46691, {["timeline"] = {ADDED_3_2_2}})),	-- Bread of the Dead [Day of the Dead]
+		applyclassicphase(WRATH_PHASE_ONE, i(46691, {["timeline"] = { ADDED_3_2_2 }})),	-- Bread of the Dead [Day of the Dead]
 		i(6290),	-- Brilliant Smallfish
 		i(4593),	-- Bristle Whisker Catfish
-		applyclassicphase(WRATH_PHASE_ONE, i(44839, {["timeline"] = {ADDED_3_2_2}})),	-- Candied Sweet Potato [Pilgrim's Bounty]
-		applyclassicphase(TBC_PHASE_ONE, i(34832, {["timeline"] = {ADDED_2_4_0}})),	-- Captain Rumsey's Lager
+		applyclassicphase(WRATH_PHASE_ONE, i(44839, {["timeline"] = { ADDED_3_2_2 }})),	-- Candied Sweet Potato [Pilgrim's Bounty]
+		applyclassicphase(TBC_PHASE_ONE, i(34832, {["timeline"] = { ADDED_2_4_0 }})),	-- Captain Rumsey's Lager
 		i(12213),	-- Carrion Surprise
-		applyclassicphase(TBC_PHASE_ONE, i(35563, {["timeline"] = {ADDED_2_4_0}})),	-- Charred Bear Kabobs
+		applyclassicphase(TBC_PHASE_ONE, i(35563, {["timeline"] = { ADDED_2_4_0 }})),	-- Charred Bear Kabobs
 		i(2679),	-- Charred Wolf Meat
 		i(5526),	-- Clam Chowder
 		applyclassicphase(WRATH_PHASE_ONE, i(33004, {["timeline"] = { ADDED_3_1_0 }})),	-- Clamlette Magnifique
@@ -1334,14 +1286,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(13927),	-- Cooked Glossy Mightfish
 		i(2684),	-- Coyote Steak
 		i(2683),	-- Crab Cake
-		applyclassicphase(WRATH_PHASE_ONE, i(44840, {["timeline"] = {ADDED_3_2_2}})),	-- Cranberry Chutney [Pilgrim's Bounty]
+		applyclassicphase(WRATH_PHASE_ONE, i(44840, {["timeline"] = { ADDED_3_2_2 }})),	-- Cranberry Chutney [Pilgrim's Bounty]
 		i(12224),	-- Crispy Bat Wing
 		i(5479),	-- Crispy Lizard Tail
 		i(3664),	-- Crocolisk Gumbo
 		i(3662),	-- Crocolisk Steak
 		applyclassicphase(TBC_PHASE_ONE, i(22645, {["timeline"] = { ADDED_2_0_5 }})),	-- Crunchy Spider Surprise
 		i(3665),	-- Curiously Tasty Omelet
-		applyclassicphase(TBC_PHASE_ONE, i(33924, {["timeline"] = {ADDED_2_3_0}})),	-- Delicious Chocolate Cake
+		applyclassicphase(TBC_PHASE_ONE, i(33924, {["timeline"] = { ADDED_2_3_0 }})),	-- Delicious Chocolate Cake
 		i(5478),	-- Dig Rat Stew
 		applyclassicphase(PHASE_FIVE, i(21023, {["timeline"] = { REMOVED_4_0_3 }})),	-- Dirge's Kickin' Chimaerok Chops
 		i(12217),	-- Dragonbreath Chili
@@ -4735,6 +4687,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(39489, {	-- Scribe's Satchel
 				["isLimited"] = true,
 			}),
+			i(64670, {	-- Vanishing Powder
+				["timeline"] = { ADDED_4_0_1 },
+			}),
 			i(39505, {	-- Virtuoso Inking Set
 				["collectible"] = false,
 			}),
@@ -4947,6 +4902,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(104131,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Elemental Familiars
 			i(85689, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Enduring Healing Sphere
 			i(40924, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Entangling Roots
+			-- #endif
+			--i(104105,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of Evaporation (Not ready to push glyphs yet.)
+			-- #if BEFORE LEGION
 			i(42960, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Evasion
 			i(42961, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Eviscerate / Glyph of Debilitation [MOP] / Glyph of Recovery [5.4.0+]
 			i(42738, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Evocation
@@ -4966,6 +4924,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(41532, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Flametongue Weapon / Glyph of Wind Shear [MOP+]
 			i(104129,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Flaming Serpent
 			i(42400, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Flash Heal / Glyph of Inner Sanctum [MOP+]
+			-- #endif
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: This glyph was a TBC craft on retail until an unknown point after MoP.
+			--i(43551, {["timeline"]={ ADDED_3_0_2 }}),	-- Glyph of Foul Menagerie [MOP+] (Not ready to push glyphs yet.)
+			-- #endif
+			-- #if BEFORE LEGION
 			i(87896, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Fortuitous Spheres
 			i(43357, {["timeline"]={ ADDED_3_0_2, REMOVED_4_0_3 }}),	-- Glyph of Fire Ward
 			i(80581, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Focused Wrath
@@ -5100,6 +5064,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42973, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Slice and Dice / Glyph of Shiv [MOP+]
 			i(43364, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Slow Fall / Glyph of Arcane Language [MOP+]
 			i(42416, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Smite
+			-- #endif
+			--i(45789, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Soul Link / Glyph of Crimson Banish [MOP+] (Not ready to push glyphs yet.)
+			-- #if BEFORE LEGION
 			i(42470, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Soulstone
 			i(87898, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Sparring
 			i(85698, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Spinning Fire Blossom
@@ -5204,6 +5171,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(10306),	-- Scroll of Versatility IV
 			i(27501),	-- Scroll of Versatility V
 			i(33460),	-- Scroll of Versatility VI
+			i(64670, {	-- Vanishing Powder
+				["timeline"] = { ADDED_4_0_1 },
+			}),
 		}),
 		-- #if AFTER 10.0.7
 		filter(STAVES, {

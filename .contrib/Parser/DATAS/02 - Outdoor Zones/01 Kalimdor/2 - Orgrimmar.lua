@@ -2630,6 +2630,27 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(1179),	-- Ice Cold Milk
+						i(1205),	-- Melon Juice
+						--i(1645),	-- Moonberry Juice
+						i(8766),	-- Morning Glory Dew
+						i(159),		-- Refreshing Spring Water
+						i(1708),	-- Sweet Nectar
+						-- #if AFTER CATA
+						i(44571),	-- Bottle of Silvermoon Port
+						i(44573),	-- Cup of Frog Venom Brew
+						i(44575),	-- Flask of Bitter Cactus Cider
+						i(44570),	-- Glass of Eversong Wine
+						i(44574),	-- Skin of Mulgore Firewater
+						-- #else
+						i(2723),	-- Bottle of Dalaran Noir
+						i(2594),	-- Flagon of Dwarven Honeymead/Mead
+						i(2593),	-- Flask of Stormwind Tawny
+						i(2595),	-- Jug of Badlands Bourbon
+						i(2596),	-- Skin of Dwarven Stout
+						-- #endif
+					},
 				}),
 				n(52809, {	-- Blax Bottlerocket <Toys and Novelties>
 					["coords"] = {

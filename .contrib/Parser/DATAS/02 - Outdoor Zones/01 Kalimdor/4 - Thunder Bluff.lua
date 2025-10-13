@@ -1245,9 +1245,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						4499, 	-- Huge Brown Sack
 						4496, 	-- Small Brown Pouch
 					}},
-					["groups"] = {
-						i(1179),	-- Ice Cold Milk
-					},
 				}),
 				n(3005, {	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
 					["coord"] = { 43.8, 45.1, THUNDER_BLUFF },

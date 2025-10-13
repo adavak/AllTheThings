@@ -1595,10 +1595,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(4555, {	-- Eleanor Rusk <General Goods>
 					["coord"] = { 69.2, 48.9, UNDERCITY },	-- Trade Quarter
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(1179),	-- Ice Cold Milk
-						i(8766),	-- Morning Glory Dew
-					},
 				}),
 				-- #if AFTER 6.1.0
 				n(6566, {	-- Estelle Gendry <Heirloom "Curator">
@@ -2218,6 +2214,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						2527,	-- Battle Staff
 						2535,	-- War Staff
 					}},
+				}),
+				n(4554, {	-- Tawny Grisette <Mushroom Vendor>
+					["coord"] = { 69.7, 44.8, UNDERCITY },
+					["description"] = "Walks around the Trade Quarter, upper level.",
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(4607),	-- Delicious Cave Mold
+						i(8948),	-- Dried King Bolete
+						i(4604),	-- Forest Mushroom Cap
+						i(4608),	-- Raw Black Truffle
+						i(4605),	-- Red-speckled Mushroom
+						i(4606),	-- Spongy Morel
+					},
 				}),
 				n(4617, {	-- Thaddeus Webb <Enchanting Supplies>
 					["sym"] = { {"sub", "common_recipes_vendor", 3346 } },	-- Kithas <Enchanting Supplies>
