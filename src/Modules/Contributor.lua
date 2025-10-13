@@ -1115,6 +1115,7 @@ MobileDB.GameObject = {
 	[253999] = true,	-- Stolen Skyhorn Goods (Neltharion's Lair)
 	[254001] = true,	-- Misplaced Chest (The Arcway)
 	[254003] = true,	-- Legion Cache (Vault of the Wardens)
+	[254024] = true,	-- Small Treasure Chest
 	[254168] = true,	-- Spoils of the Nightmare (Cenarius)
 	[255344] = true,	-- Felslate Seam
 	[255963] = true,	-- Vrykul Ancestral Chest
