@@ -279,8 +279,9 @@ root(ROOTS.Zones, {
 							{ 52.3, 74.1, HIGHMOUNTAIN },
 							{ 52.4, 75.3, HIGHMOUNTAIN },
 						},
-						["groups"] = { i(134837) },	-- Impure Elementium Ore (QI!)
+						},
 					}),
+						["groups"] = { i(134837) },	-- Impure Elementium Ore (QI!)
 				}),
 				q(41252, {	-- Wild Northern Barracuda
 					["requireSkill"] = FISHING,
