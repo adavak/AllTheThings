@@ -2502,6 +2502,7 @@ table.insert(SCHOLOMANCE_GROUPS, applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGE
 				["groups"] = {
 					ach(60899),	-- Celestial: Scholomance
 					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86863)),	-- Scimitar of Seven Stars (HoF)
+					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86893)),	-- Jin'ya, Orb of the Waterspeaker (Terrace)
 					i(86782),	-- Arrow Breaking Windcloak
 					i(89968),	-- Feng's Ring of Dreams
 					i(86802),	-- Lei Shen's Final Orders
