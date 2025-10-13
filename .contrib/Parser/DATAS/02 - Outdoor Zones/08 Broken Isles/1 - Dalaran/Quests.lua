@@ -123,6 +123,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 96644 },	-- Sky Admiral Rogers
 					["coord"] = { 29.2, 47.2, LEGION_DALARAN },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = { i(128687) },	-- Royal Summons (QI!)
 				}),
 				q(50318, {	-- A Timely Summons from Northrend
 					["provider"] = { "n", 111246 },	-- Archmage Timear
@@ -1206,6 +1207,8 @@ root(ROOTS.Zones, {
 					["coord"] = { 50.2, 23.0, LEGION_DALARAN },
 					["lvl"] = 110,
 					["groups"] = {
+						i(139276),	-- Sixtriggers' Key (QI!)
+						--
 						i(140601, {	-- Sixtrigger Resource Crate
 							i(133815),	-- Recipe: Spiced Rib Roast [Rank 1] (RECIPE!)
 							i(140600),	-- Sixtrigger Lucky Ring

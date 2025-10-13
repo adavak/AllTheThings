@@ -12,6 +12,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["groups"] = {
 					o(256789),	-- Elven Treasure Chest
 					o(256790),	-- Elven Treasure Chest
+					o(257289),	-- Elven Treasure Chest
 				},
 			}),
 			o(243321, {	-- Feral Stone

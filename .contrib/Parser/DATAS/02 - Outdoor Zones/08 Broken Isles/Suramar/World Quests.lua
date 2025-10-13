@@ -155,9 +155,19 @@ root(ROOTS.Zones, {
 				}),
 				q(44812),	-- Running on Empty
 				q(44799),	-- Safe Keeping
-				q(42962),	-- Secret Correspondence
+				q(42962, {	-- Secret Correspondence
+					i(137601),	-- Stack of Letters (QI!)
+				}),
 				q(42725, {	-- Sharing the Wealth
-					i(137295),	-- Bottle of Arcwine (QI!)
+					o_repeated({	-- Bottle of Arcwine
+						["groups"] = {
+							i(137295),	-- Bottle of Arcwine (QI!)
+							o(250239),	-- Bottle of Arcwine
+							o(250240),	-- Bottle of Arcwine
+							o(254446),	-- Bottle of Arcwine
+							o(254643),	-- Bottle of Arcwine
+						},
+					}),
 				}),
 				q(41354, {	-- Shattered Felslate Seams
 					["requireSkill"] = MINING,

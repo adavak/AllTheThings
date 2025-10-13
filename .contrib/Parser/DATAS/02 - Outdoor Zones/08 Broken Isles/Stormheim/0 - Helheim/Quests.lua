@@ -56,8 +56,10 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 97480 },	-- Ashildir
 						["coord"] = { 46.6, 49.4, HELHEIM },
 						["groups"] = {
-							i(129339),	-- Drape of the Undying Raider
+							i(128854),	-- Helheim Waylight (QI!)
+							--
 							i(129239),	-- Bloodbeard's Seal
+							i(129339),	-- Drape of the Undying Raider
 						},
 					}),
 					q(39850, {	-- Sundered

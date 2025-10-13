@@ -13,6 +13,7 @@ root(ROOTS.Zones, {
 						97979,	-- Vethir
 					},
 					["coord"] = { 65.8, 59.4, STORMHEIM },
+					["groups"] = { i(129106) },	-- Jailer's Shard (QI!)
 				}),
 				q(39385, {	-- A Gift for Greymane
 					["sourceQuests"] = { 38872 },	-- The Dark Lady's Bidding
@@ -95,6 +96,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 107675 },		-- Rax Sixtrigger
 					["coord"] = { 51.3, 57.2, STORMHEIM },
+					["groups"] = { i(138020) },	-- Meaty Rack of Musken Ribs (QI!)
 				}),
 				q(39786, {	-- A Stone Cold Gamble
 					["sourceQuests"] = {
@@ -103,6 +105,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 107674 },		-- Snaggle Sixtrigger
 					["coord"] = { 51.3, 56.9, STORMHEIM },
+					["groups"] = { i(138023) },	-- Stonefang's Jaw (QI!)
 				}),
 				q(42639, {	-- A Stone of Blood
 					["provider"] = { "n", 108072 },	-- Sir Finley Mrrggglton
@@ -210,6 +213,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 93231 },	-- Vydhar
 					["coord"] = { 68.4, 54.2, STORMHEIM },
 					["groups"] = {
+						i(124503),	-- Engorged Bear Heart (QI!)
+						--
 						i(129335),	-- Runespeaker's Cuffs
 						i(129336),	-- Runesworn Bindings
 						i(129337),	-- Stormborn Bracers
@@ -458,6 +463,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 93231 },	-- Vydhar
 					["coord"] = { 68.4, 54.2, STORMHEIM },
+					["groups"] = { i(128772) },	-- Branch of the Runewood (QI!)
 				}),
 				q(38058, {	-- Lightning Rod
 					["sourceQuests"] = {
@@ -506,6 +512,10 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 42444 },	-- Plight of the Blackfeather
 					["provider"] = { "o", 250536 },	-- Intact Greatstag Antler
 					["coord"] = { 49.8, 32.5, STORMHEIM },
+					["groups"] = {
+						i(137610),	-- Intact Greatstag Antler (QI!)
+						i(137611),	-- Pristine Eagle Tailfeather (QI!)
+					}
 				}),
 				q(38318, {	-- No Wings Required (Alliance)
 					["sourceQuests"] = { 38312 },	-- A Grapple a Day
@@ -523,6 +533,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39789 },	-- Eating Into Our Business
 					["provider"] = { "n", 107675 },		-- Rax Sixtrigger
 					["coord"] = { 51.4, 57.0, STORMHEIM },
+					["groups"] = { i(138021) },	-- Patch of Fine Goat Hair (QI!)
 				}),
 				q(38059, {	-- Pins and Needles
 					["sourceQuests"] = { 38057 },	-- The Lost Legion
@@ -558,6 +569,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 107674 },	-- Snaggle Sixtrigger
 					["coord"] = { 51.4, 57.3, STORMHEIM },
 					["groups"] = {
+						i(138024),	-- Steelscale's Fin (QI!)
+						--
 						title(343),	-- <Name> the Gullible
 					},
 				}),
@@ -608,11 +621,17 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39793 },	-- Only the Finest
 					["provider"] = { "n", 107674 },		-- Snaggle Sixtrigger
 					["coord"] = { 51.2, 57.1, STORMHEIM },
+					["groups"] = { i(138022) },	-- Spitefeather's Beak (QI!)
 				}),
 				q(40046, {	-- Scavenging the Shallows
 					["sourceQuests"] = { 39984 },	-- Remnants of the Past
 					["provider"] = { "n", 97973 },	-- Havi
 					["coord"] = { 59.0, 42.9, STORMHEIM },
+					["groups"] = {
+						o(252239, {	-- Shipwreck Debris
+							i(129174),	-- Corroded Maritime Plaque (QI!)
+						}),
+					},
 				}),
 				q(38558, {	-- See Ya Later, Oscillator
 					["sourceQuests"] = { 39800 },	-- Greymane's Gambit
@@ -622,9 +641,7 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						o(240286, {	-- Crystal Oscillator
 							["coord"] = { 33.6, 57.3, STORMHEIM },
-							["groups"] = {
-								i(123887),	-- Crystal Oscillator (QI!)
-							},
+							["groups"] = { i(123887) },	-- Crystal Oscillator (QI!)
 						}),
 					},
 				}),
@@ -693,6 +710,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40002 },	-- A Familiar Fate
 					["provider"] = { "n", 97979 },	-- Vethir
 					["coord"] = { 65.8, 59.4, STORMHEIM },
+					["groups"] = { i(129161) },	-- Stormforged Horn (QI!)
 				}),
 				q(39405, {	-- Stories of Battle
 					["sourceQuests"] = { 39154 },	-- To Skold-Ashil
@@ -736,6 +754,17 @@ root(ROOTS.Zones, {
 						i(132854),	-- Fel-Tainted Haze
 					},
 				}),
+				q(39775, {	-- Stormforged Grapple Launcher
+					["qg"] = 107840,	-- Stormforged Grapple Launcher
+					["coord"] = { 33.8, 45.7, STORMHEIM },
+					["groups"] = {
+						i(138111, {	-- Stormforged Grapple Launcher	// (TOY!) as of 11.2.5
+							-- #if BEFORE 11.2.5
+							["description"] = "This item can be safely deleted and you'll still be able to interact with the hooks.",
+							-- #endif
+						}),
+					},
+				}),
 				q(38036, {	-- Supplies From the Skies
 					["sourceQuests"] = { 39800 },	-- Greymane's Gambit
 					["provider"] = { "n", 90783 },	-- Mishka
@@ -743,7 +772,14 @@ root(ROOTS.Zones, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						o(241275, {	-- Skyfire Medical Supplies
-							i(123876),	-- Skyfire First Aid Kit (QI!)
+							["coords"] = {
+								{ 33.8, 57.0, STORMHEIM },
+								{ 34.3, 53.6, STORMHEIM },
+								{ 34.3, 57.7, STORMHEIM },
+								{ 35.0, 53.6, STORMHEIM },
+								{ 35.3, 53.3, STORMHEIM },
+							},
+							["groups"] = { i(123876) },	-- Skyfire First Aid Kit (QI!)
 						}),
 					},
 				}),
@@ -1019,6 +1055,14 @@ root(ROOTS.Zones, {
 					["coord"] = { 42.0, 64.4, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						o_repeated({	-- Climbing Treads
+							["coord"] = { 41.9, 68.5, STORMHEIM },
+							["groups"] = {
+								i(122685),	-- Climbing Treads (QI!)
+								o(241460),	-- Climbing Treads
+								o(240677),	-- Climbing Treads
+							},
+						}),
 						o_repeated({	-- Oiled Cloak
 							["coord"] = { 45.6, 66.6, STORMHEIM },
 							["groups"] = {
@@ -1027,6 +1071,7 @@ root(ROOTS.Zones, {
 								o(241462),	-- Oiled Cloak
 							},
 						}),
+						i(124038),	-- Enchanted Lodestone (QI!)
 						--
 						i(121567),	-- Galeborn's Oiled Cloak
 						i(129318),	-- Lodestone of the Galeborn
@@ -1040,6 +1085,24 @@ root(ROOTS.Zones, {
 					["coord"] = { 46.5, 67.7, STORMHEIM },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
+						o_repeated({	-- Climbing Treads
+							["coord"] = { 41.9, 68.5, STORMHEIM },
+							["groups"] = {
+								i(122685),	-- Climbing Treads (QI!)
+								o(241460),	-- Climbing Treads
+								o(240677),	-- Climbing Treads
+							},
+						}),
+						o_repeated({	-- Oiled Cloak
+							["coord"] = { 45.6, 66.6, STORMHEIM },
+							["groups"] = {
+								i(122686),	-- Oiled Cloak (QI!)
+								o(240681),	-- Oiled Cloak
+								o(241462),	-- Oiled Cloak
+							},
+						}),
+						i(124038),	-- Enchanted Lodestone (QI!)
+						--
 						i(121567),	-- Galeborn's Oiled Cloak
 						i(129318),	-- Lodestone of the Galeborn
 						i(129317),	-- Lodestone of the Mystic

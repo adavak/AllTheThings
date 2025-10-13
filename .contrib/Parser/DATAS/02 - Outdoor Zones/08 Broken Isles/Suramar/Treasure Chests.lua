@@ -42,7 +42,7 @@ root(ROOTS.Zones, {
 				}),
 				o(248407, {	-- Kel'danath's Manaflask
 					--["sourceQuest"] = TODO,
-					["coord"] = { 58.6, 33.8, SURAMAR },
+					["coord"] = { 21.4, 54.4, SURAMAR },
 					["groups"] = { i(136269) } -- Kel'danath's Manaflask (CI!)
 				}),
 				o(254008, {	-- Kyrtos's Research Notes

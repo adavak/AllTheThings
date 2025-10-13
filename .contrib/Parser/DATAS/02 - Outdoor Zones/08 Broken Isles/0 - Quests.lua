@@ -346,12 +346,14 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 90417 },	-- Archmage Khadgar
 							["coord"] = { 28.9, 48.4, LEGION_DALARAN },
 							["classes"] = exclude(PALADIN, ALL_CLASSES),
+							["groups"] = { i(140574) },	-- Mysterious Lightbound Object (QI!)
 						}),
 						q(44257, {	-- A Falling Star (Paladin)
 							["sourceQuests"] = { 42866 },	-- A Sign From The Sky
 							["provider"] = { "n", 90417 },	-- Archmage Khadgar
 							["coord"] = { 28.9, 48.4, LEGION_DALARAN },
 							["classes"] = { PALADIN },
+							["groups"] = { i(140574) },	-- Mysterious Lightbound Object (QI!)
 						}),
 						q(44004, {	-- Bringer of the Light
 							["description"] = "This quest sends you to a scenario involving The Exodar and Prophet Velen. Before you kill the final boss, make sure to do everything contained within!",

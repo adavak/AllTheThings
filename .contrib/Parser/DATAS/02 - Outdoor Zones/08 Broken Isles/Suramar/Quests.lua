@@ -152,6 +152,18 @@ root(ROOTS.Zones, {
 					["coord"] = { 36.5, 46.9, SURAMAR },
 					["groups"] = {
 						i(141652),	-- Mana Divining Stone
+						o(260247, {	-- Ancient Mana Chunk
+							["coord"] = { 35.8, 55.7, SURAMAR },
+							["questID"] = 44677,	-- Ancient Mana Tutorial Chest A
+						}),
+						o(260248, {	-- Ancient Mana Chunk
+							["coord"] = { 35.1, 51.5, SURAMAR },
+							["questID"] = 44678,	-- Ancient Mana Tutorial Chest B
+						}),
+						o(260249, {	-- Ancient Mana Chunk
+							["coord"] = { 33.3, 49.0, SURAMAR },
+							["questID"] = 44679,	-- Ancient Mana Tutorial Chest C
+						}),
 					},
 				}),
 				q(44052, {	-- And They Will Tremble
@@ -1257,7 +1269,15 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 107225 },	-- Deline
 					["coord"] = { 51.1, 76.1, SURAMAR },
 					["groups"] = {
-						i(137295),	-- Bottle of Arcwine (QI!)
+						o_repeated({	-- Bottle of Arcwine
+							["groups"] = {
+								i(137295),	-- Bottle of Arcwine (QI!)
+								o(250239),	-- Bottle of Arcwine
+								o(250240),	-- Bottle of Arcwine
+								o(254446),	-- Bottle of Arcwine
+								o(254643),	-- Bottle of Arcwine
+							},
+						}),
 					},
 				}),
 				q(38694, {	-- Regroup
@@ -1432,6 +1452,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41148,	-- Dispensing Compassion
 					["provider"] = { "n", 108411 },	-- Silgryn
 					["coord"] = { 48.2, 83.2, SURAMAR },
+					["groups"] = { i(137601) },	-- Stack of Letters (QI!)
 				}),
 				q(41499, {	-- Squid Out of Water
 					["sourceQuests"] = {
@@ -1982,9 +2003,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				})),
 			}),
 			n(QUESTS, {
-				q(44677),	-- Ancient Mana Tutorial Chest A - triggers during "Ancient Mana" (questID 44672)
-				q(44678),	-- Ancient Mana Tutorial Chest B - triggers during "Ancient Mana" (questID 44672)
-				q(44679),	-- Ancient Mana Tutorial Chest C - triggers during "Ancient Mana" (questID 44672)
 				q(40975),	-- Arluin Bribe Tracking - give Arluin 800 ancient mana during "If Words Don't Work..." (questID 42840)
 				q(42649),	-- Arluin Bribe Tracker 2 - give Arluin 1200 ancient mana during "Or Against Us" (questID 43311)
 				q(42443),	-- Arluin Wants In (Tracking Quest) - Arluin shows up at Shal'Aran after you turn in "Giving It All We've Got" (questID 43562) and completing the follow-up quests

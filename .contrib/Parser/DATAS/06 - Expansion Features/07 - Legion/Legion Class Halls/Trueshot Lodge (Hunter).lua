@@ -179,7 +179,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						q(40400, {	-- Clandestine Operation (A)
 							["sourceQuests"] = { 40392 },	-- Call of the Marksman
 							["provider"] = { "n", 100190 },	-- Vereesa Windrunner
-							["coord"] = { 32.3, 32.5, BROKEN_SHORE },
+							["coords"] = {
+								{ 32.3, 32.5, BROKEN_SHORE },
+								{ 50.1, 64.5, BROKEN_ISLES },
+							},
 							["maps"] = { 714 },	-- Niskara (Scenario Map)
 							["races"] = ALLIANCE_ONLY,
 						}),
@@ -206,10 +209,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							["provider"] = { "n", 100190 },	-- Vareesa Windrunner
 							["coord"] = { 32.3, 32.5, BROKEN_SHORE },
 							["groups"] = {
-								i(128826, {	-- Thas'dorah, Legacy of the Windrunners
-									["ItemAppearanceModifierID"] = 9,
+								o(248419, {	-- Thas'dorah, Legacy of the Windrunners
+									["coord"] = { 71.6, 74.0, 714 },	-- Niskara (Scenario Map)
 									["groups"] = {
-										artifact(114),	-- Thas'dorah, Legacy of the Windrunners
+										i(128826, {	-- Thas'dorah, Legacy of the Windrunners
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(114),	-- Thas'dorah, Legacy of the Windrunners
+											},
+										}),
 									},
 								}),
 							},
@@ -254,10 +262,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							["coord"] = { 60.8, 80.9, HIGHMOUNTAIN },
 							["maps"] = { 694 },	-- Helmouth Shallows (Scenario Map)
 							["groups"] = {
-								i(128808, {	-- Talonclaw
-									["ItemAppearanceModifierID"] = 9,
+								o(248834, {	-- Talonclaw
+									["coord"] = { 58.5, 33.6, 694 },	-- Helmouth Shallows (Scenario Map)
 									["groups"] = {
-										artifact(125),	-- Talonclaw
+										i(128808, {	-- Talonclaw
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(125),	-- Talonclaw
+											},
+										}),
 									},
 								}),
 							},
@@ -634,6 +647,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["provider"] = { "n", 108455 },	-- Shandris Feathermoon
 						["coord"] = { 46.4, 34.8, TRUESHOT_LODGE },
 					}),
+					q(91616, {	-- Required Reagents (Remix)
+						["sourceQuests"] = { 42405 },	-- Informing Our Allies
+						["provider"] = { "n", 108455 },	-- Shandris Feathermoon
+						["coord"] = { 46.4, 34.8, TRUESHOT_LODGE },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+					}),
 					q(44680, {	-- Leading by Example
 						["sourceQuests"] = { 42405 },	-- Informing Our Allies
 						["provider"] = { "n", 107973 },	-- Emmarel Shadewarden
@@ -651,7 +670,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["sourceQuests"] = {
 							42656,	-- Azure Weaponry
 							42408,	-- Required Reagents
+							91616,	-- Required Reagents (Remix)
 						},
+						["sourceQuestNumRequired"] = 2,
 						["provider"] = { "n", 108455 },	-- Shandris Feathermoon
 						["coord"] = { 46.4, 34.8, TRUESHOT_LODGE },
 					}),
@@ -681,8 +702,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					q(42415, {	-- Champion: Halduron Brightwing
 						["sourceQuests"] = { 42659 },	-- In Defense of Dalaran
-						["provider"] = { "n", 108620 },	-- Halduron Brightwing <Ranger-General of the Farstriders>
-						["coord"] = { 49.9, 65.7, 723 },
+						["qgs"] = {
+							108456,	-- Halduron Brightwing <Ranger-General of the Farstriders>
+							108620,	-- Halduron Brightwing <Ranger-General of the Farstriders>
+						},
+						["coords"] = {
+							{ 42.9, 6.1, TRUESHOT_LODGE },
+							{ 49.9, 65.7, 723 },	-- Violet Hold (Scenario Map)
+						},
 						["groups"] = {
 							follower(748),	-- Halduron Brightwing
 						},

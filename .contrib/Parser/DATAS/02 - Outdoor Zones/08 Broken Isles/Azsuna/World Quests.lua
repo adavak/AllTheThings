@@ -129,7 +129,20 @@ root(ROOTS.Zones, {
 				}),
 				q(46165),	-- Kazruul (Invasion WQ)
 				q(46167),	-- Kozrum (Invasion WQ)
-				q(42101),	-- Language of the Lost
+				q(42101, {	-- Language of the Lost
+					o(249513, {	-- Illegible Writings
+						["coords"] = {
+							{ 58.3, 53.4, AZSUNA },
+							{ 58.8, 54.5, AZSUNA },
+							{ 59.0, 54.0, AZSUNA },
+							{ 59.4, 52.3, AZSUNA },
+							{ 59.9, 54.7, AZSUNA },
+							{ 60.2, 53.7, AZSUNA },
+							{ 60.5, 54.9, AZSUNA },
+						},
+						["groups"] = { i(136832) },	-- Illegible Writings (QI!)
+					}),
+				}),
 				q(42211),	-- Leodrath's Kin
 				q(43325),	-- Ley Race
 				q(42172),	-- Leyhollow Infestation

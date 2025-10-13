@@ -190,17 +190,6 @@ root(ROOTS.Zones, {
 					["coord"] = { 29.1, 47.1, STORMHEIM },
 					["timeline"] = { ADDED_7_2_0 },
 				}),
-				n(107840, {	-- Stormforged Grapple Launcher
-					["questID"] = 39775,
-					["coord"] = { 33.8, 45.7, STORMHEIM },
-					["groups"] = {
-						i(138111, {	-- Stormforged Grapple Launcher	// (TOY!) as of 11.2.5
-							-- #if BEFORE 11.2.5
-							["description"] = "This item can be safely deleted and you'll still be able to interact with the hooks.",
-							-- #endif
-						}),
-					},
-				}),
 				o(241146, {	-- Treasure Chest
 					["questID"] = 38474,
 					["coord"] = { 42.6, 65.8, STORMHEIM },

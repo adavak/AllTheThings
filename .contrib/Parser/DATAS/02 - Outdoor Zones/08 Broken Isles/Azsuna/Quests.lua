@@ -86,6 +86,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 					{ 48.6, 12.2, AZSUNA },
 				},
 				["groups"] = {
+					i(122393),	-- Nightrose Recipe: Part 1, Ingredients (QI!)
+					i(122394),	-- Nightrose Recipe: Part 2, Preparation (QI!)
+					i(122395),	-- Nightrose Recipe: Part 3, Instructions (QI!)
+					--
 					i(121493),	-- Liastrin's Wine Taster
 					i(121489),	-- Valiana's Secret Recipe
 					i(121491),	-- Shalrala's Engraved Goblet
@@ -947,7 +951,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				}),
 				q(37963, {	-- Those Beyond Redemption
 					["coord"] = { 57.6, 15.6, AZSUNA },
-					["timeline"] = { REMOVED_8_0_1 },	-- Wowhead / Github -- Replaced with WorldQuest?
+					["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1, ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },	-- Wowhead / Github -- Replaced with WorldQuest?
 				}),
 				q(37779, {	-- Tip the Scales
 					["coord"] = { 62.6, 42.6, AZSUNA },

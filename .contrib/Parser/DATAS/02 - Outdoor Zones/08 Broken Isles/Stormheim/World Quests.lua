@@ -198,7 +198,9 @@ root(ROOTS.Zones, {
 					["requireSkill"] = SKINNING,
 				}),
 				q(45390),	-- Souls of the Vrykul (Invasion WQ)
-				q(43827),	-- Stormwing the Portals
+				q(43827, {	-- Stormwing the Portals
+					i(129161),	-- Stormforged Horn (QI!)
+				}),
 				q(41445, {	-- Stormy Leystone Deposits
 					["requireSkill"] = MINING,
 				}),
