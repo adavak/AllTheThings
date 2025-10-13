@@ -1058,6 +1058,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					filter(PLATE, {
 						iensemble(241597),	-- Ensemble: Funerary Plate of the Chosen Dead
 					}),
+					filter(CONSUMABLES, {
+						i(254850, {	-- Minor Bronze Cache
+							["description"] = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
+							["cost"] = {{ "i", 242370, 5 }},	-- Horns of the First Satyr
+						}),
+					}),
 				}),
 			}),
 			--[[n(246028, {	-- Sacerdormu <Heroic Raid Apparel>
