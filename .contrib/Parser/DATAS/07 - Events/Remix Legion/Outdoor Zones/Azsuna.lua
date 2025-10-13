@@ -68,6 +68,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				n(ZONE_REWARDS, {
 					filter(CLOAKS, {
+						i(247481),	-- Astromancer's Greatcloak
 						i(241690),	-- Cloak of the Rosy Combatant
 						i(241707),	-- Conservatory Ward's Shroud
 						i(242180),	-- Invasion Stalker's Draping Shroud
