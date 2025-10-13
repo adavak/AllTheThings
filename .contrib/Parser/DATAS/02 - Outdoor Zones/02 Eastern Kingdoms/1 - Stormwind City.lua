@@ -2432,12 +2432,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				q(30987, {	-- Joining the Alliance
-					["qg"] = 60566,	-- Aysa Cloudsinger
-					["coord"] = { 74.2, 92.4, STORMWIND_CITY },
-					["timeline"] = { ADDED_5_0_4 },
-					["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE },
-				}),
 				-- #if BEFORE SL
 				q(27271, {	-- Journey to the Wizard's Sanctum / Frazzle's Request [SL+]
 					["qgs"] = {

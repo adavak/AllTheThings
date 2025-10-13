@@ -266,6 +266,18 @@ root(ROOTS.Zones, {
 						["qg"] = 54608,	-- Master Shang Xi
 						["coord"] = { 57.5, 34.7, THE_WANDERING_ISLE_STARTING_ZONE },
 					}),
+					q(30987, {	-- Joining the Alliance
+						["qg"] = 60566,	-- Aysa Cloudsinger
+						["coord"] = { 74.2, 92.4, STORMWIND_CITY },
+						["timeline"] = { ADDED_5_0_4 },
+						["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE },
+					}),
+					q(31012, {	-- Joining the Horde
+						["qg"] = 60570,	-- Ji Firepaw
+						["coord"] = { 45.6, 12.6, DUROTAR },
+						["timeline"] = { ADDED_5_0_4 },
+						["races"] = { PANDAREN_NEUTRAL },
+					}),
 					q(29418, {	-- Kindling the Fire
 						["sourceQuest"] = 29417,	-- The Way of the Huojin
 						["qg"] = 54568,	-- Ji Firepaw

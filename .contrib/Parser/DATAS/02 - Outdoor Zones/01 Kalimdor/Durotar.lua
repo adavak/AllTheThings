@@ -2857,12 +2857,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["_drop"] = { "g" },
 					["sym"] = { { "select", "itemID", 18788, 18789, 18790 } },
 				}),
-				q(31012, {	-- Joining the Horde
-					["qg"] = 60570,	-- Ji Firepaw
-					["coord"] = { 45.6, 12.6, DUROTAR },
-					["timeline"] = { ADDED_5_0_4 },
-					["races"] = { PANDAREN_NEUTRAL },
-				}),
 				q(1884, {	-- Ju-Ju Heaps
 					["sourceQuests"] = {
 						1881,	-- Speak with Anastasia
