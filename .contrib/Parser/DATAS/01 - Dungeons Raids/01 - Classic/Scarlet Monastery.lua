@@ -1298,6 +1298,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["creatureID"] = 3977,	-- High Inquisitor Whitemane
 						["groups"] = {
 							ach(60898),	-- Celestial: Scarlet Monastery
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES,i(86879)),	-- Gao-Rei, Staff of the Legendary Protector (Terrace)
 							i(86796),	-- Torch of the Celestial Spark
 							i(86754),	-- Amulet of Seven Curses
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86872)),	-- Kaolan's Withering Necklace (Terrace)
