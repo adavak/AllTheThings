@@ -248,38 +248,39 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				modItemId(247535,3),	-- Wristwraps of Broken Trust
 
 				-- Trial of Valor
-				modItemId(247576,3),	-- Anchor Chain Waistguard
-				modItemId(247579,3),	-- Bite-Resistant Wristclamps
-				modItemId(247583,3),	-- Calcareous Wristclamps
-				modItemId(247567,3),	-- Cinch of Light
-				modItemId(247588,3),	-- Corroded Val'kyr Chainmail
-				modItemId(247591,3),	-- Drape of the Unworthy
-				modItemId(247586,3),	-- Gleaming Val'kyr Cuirass
-				modItemId(247585,3),	-- Gloves of Issued Challenge
-				modItemId(247581,3),	-- Goldrune Legplates
-				modItemId(247587,3),	-- Helbeast Skin Tunic
-				modItemId(249678,3),	-- Helheim Hound's Visor
-				modItemId(247571,3),	-- Helhound Hair Bracers
-				modItemId(247580,3),	-- Krakenbone Waistplate
-				modItemId(247589,3),	-- Kvaldir Exult's Grips
-				modItemId(247582,3),	-- Lead-Soled Seabed Striders
-				modItemId(247569,3),	-- Leggings of the Lower Planes
-				modItemId(247577,3),	-- Leggings of the Undaunted
-				modItemId(247592,3),	-- Mantle of the Victorious Dead
-				modItemId(249685,3),	-- Mantle of Unforgotten Souls
-				modItemId(247573,3),	-- Moccasins of Silent Passage
-				modItemId(247584,3),	-- Oiled Rigger's Handwraps
-				modItemId(247578,3),	-- Radiant Soul Sabatons
-				modItemId(247590,3),	-- Reinforced Hound-Handler's Gauntlets
-				modItemId(247566,3),	-- Robes of Celestial Adornment
-				modItemId(249681,3),	-- Shoulders of the Dragonslayer
-				modItemId(247575,3),	-- Sky-Valiant's Wristguards
-				modItemId(249679,3),	-- Sovereign Valarjar Mantle
-				modItemId(247572,3),	-- Strand of Whelk Shells
-				modItemId(247574,3),	-- Sucker-Scarred Leggings
-				modItemId(249682,3),	-- Supreme Runecaster's Crown
-				modItemId(247570,3),	-- Treads of the Drowned
-				modItemId(247568,3),	-- Windwhipped Sailcloth
+				-- Currently you can't get any Trial of Valor items from the mote
+				--modItemId(247576,3),	-- Anchor Chain Waistguard
+				--modItemId(247579,3),	-- Bite-Resistant Wristclamps
+				--modItemId(247583,3),	-- Calcareous Wristclamps
+				--modItemId(247567,3),	-- Cinch of Light
+				--modItemId(247588,3),	-- Corroded Val'kyr Chainmail
+				--modItemId(247591,3),	-- Drape of the Unworthy
+				--modItemId(247586,3),	-- Gleaming Val'kyr Cuirass
+				--modItemId(247585,3),	-- Gloves of Issued Challenge
+				--modItemId(247581,3),	-- Goldrune Legplates
+				--modItemId(247587,3),	-- Helbeast Skin Tunic
+				--modItemId(249678,3),	-- Helheim Hound's Visor
+				--modItemId(247571,3),	-- Helhound Hair Bracers
+				--modItemId(247580,3),	-- Krakenbone Waistplate
+				--modItemId(247589,3),	-- Kvaldir Exult's Grips
+				--modItemId(247582,3),	-- Lead-Soled Seabed Striders
+				--modItemId(247569,3),	-- Leggings of the Lower Planes
+				--modItemId(247577,3),	-- Leggings of the Undaunted
+				--modItemId(247592,3),	-- Mantle of the Victorious Dead
+				--modItemId(249685,3),	-- Mantle of Unforgotten Souls
+				--modItemId(247573,3),	-- Moccasins of Silent Passage
+				--modItemId(247584,3),	-- Oiled Rigger's Handwraps
+				--modItemId(247578,3),	-- Radiant Soul Sabatons
+				--modItemId(247590,3),	-- Reinforced Hound-Handler's Gauntlets
+				--modItemId(247566,3),	-- Robes of Celestial Adornment
+				--modItemId(249681,3),	-- Shoulders of the Dragonslayer
+				--modItemId(247575,3),	-- Sky-Valiant's Wristguards
+				--modItemId(249679,3),	-- Sovereign Valarjar Mantle
+				--modItemId(247572,3),	-- Strand of Whelk Shells
+				--modItemId(247574,3),	-- Sucker-Scarred Leggings
+				--modItemId(249682,3),	-- Supreme Runecaster's Crown
+				--modItemId(247570,3),	-- Treads of the Drowned
+				--modItemId(247568,3),	-- Windwhipped Sailcloth
 			}},
 		}),
 		i(253227, {	-- Flawless Thread of Time (Phase 5)
