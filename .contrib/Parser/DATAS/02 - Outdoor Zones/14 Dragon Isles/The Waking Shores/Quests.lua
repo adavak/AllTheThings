@@ -1222,7 +1222,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["sourceQuests"] = 72708,	-- Dragon Isles Supplies
 				["provider"] = { "n", 198846 },	-- Cataloger Jakes
 				["coord"] = { 76.5, 34.2, THE_WAKING_SHORES },
-				["isBreadcrumb"] = true,
+				["lockCriteria"] = { 1, "questID", 70409 },	-- Archeologist Artifact Notes
 				["groups"] = {
 					i(198854),	-- Archeologist Artifact Notes
 				},

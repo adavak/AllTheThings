@@ -1135,6 +1135,7 @@ root(ROOTS.ExpansionFeatures,
 									["sourceQuest"] = 53175,	-- The Warfront Looms
 									["provider"] = { "n", 142721 },		-- Ralston Karn
 									["coord"] = { 65.89, 26.03, BORALUS },
+									["races"] = ALLIANCE_ONLY,
 									["lockCriteria"] = {1,"questID", 53206},	-- Battle for Stromgarde unlock flag (A)
 								}),
 								q(53414, {	-- Warfront: The Battle For Stromgarde [Tier 3]

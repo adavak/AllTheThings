@@ -388,7 +388,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 68.5, 56.3, KUN_LAI_SUMMIT },
 					["groups"] = {
 						objective(1, {	-- The Strong Brazier Lit
-							["provider"] = { "i", 214628 },	-- The Strong Brazier
+							["provider"] = { "o", 214628 },	-- The Strong Brazier
 							["coord"] = { 68.6, 46.7, KUN_LAI_SUMMIT },
 						}),
 					},

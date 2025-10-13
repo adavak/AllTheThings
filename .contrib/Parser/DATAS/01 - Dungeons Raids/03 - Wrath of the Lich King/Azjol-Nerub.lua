@@ -1,12 +1,13 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
+root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, {
 	inst(272, {	-- Azjol-Nerub
 		["mapID"] = AZJOL_NERUB,
 		["coord"] = { 26.0, 50.6, DRAGONBLIGHT },
 		["maps"] = { AZJOL_NERUB_FLOOR2, AZJOL_NERUB_FLOOR3 },
 		["lvl"] = lvlsquish(67, 67, 15),
+		["timeline"] = { ADDED_3_0_2 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(480, {	-- Azjol-Nerub
@@ -431,11 +432,14 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			-- #endif
 		},
 	}),
-}))));
+})));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({  }, {
 	inst(272, {
-		q(35497),	-- Azjol-Nerub Reward Quest - Normal completion
-		q(35498),	-- Azjol-Nerub Reward Quest - Heroic completion
+		["timeline"] = { ADDED_6_0_2 },
+		["groups"] = {
+			q(35497),	-- Azjol-Nerub Reward Quest - Normal completion
+			q(35498),	-- Azjol-Nerub Reward Quest - Heroic completion
+		},
 	}),
 })));

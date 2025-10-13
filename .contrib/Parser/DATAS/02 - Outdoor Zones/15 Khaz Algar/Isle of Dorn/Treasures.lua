@@ -163,26 +163,34 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 				},
 			}),
-			o(443638, {	-- Mosswool Flower
+			header(HEADERS.Object, 443638, {	-- Mosswool Flower
 				["description"] = "Interact with Lost Mosswool 3 times to spawn this treasure.",
-				["questID"] = 83246,
-				["coord"] = { 59.7, 28.7, ISLE_OF_DORN },
 				["groups"] = {
-					i(224450),	-- Lil' Moss Rosy (PET!)
-					n(222956, {	-- Lost Mosswool
-						["description"] = "1st Mosswool spot",
-						["questID"] = 82145,	-- The Lost Mosswool
+					hqt(82145, {	-- Lost Mosswool
+						["description"] = "Hidden tracking quest which is active while finding the 3 sheep. They will show as Vignettes on the minimap.\n\nCheck Debug Mode to see the 3 sheep coordinates since they are unable to be 'tracked' by ATT.",
 						["coord"] = { 59.6, 24.6, ISLE_OF_DORN },
+						["groups"] = {
+							n(222956, {	-- Lost Mosswool
+								["description"] = "1st Mosswool spot",
+								["coord"] = { 59.6, 24.6, ISLE_OF_DORN },
+							}),
+							n(222963, {	-- Lost Mosswool
+								["description"] = "2nd Mosswool spot",
+								["coord"] = { 59.1, 27.1, ISLE_OF_DORN },
+							}),
+							n(222965, {	-- Lost Mosswool
+								["description"] = "3rd Mosswool spot",
+								["coord"] = { 59.7, 28.7, ISLE_OF_DORN },
+							}),
+						},
 					}),
-					n(222963, {	-- Lost Mosswool
-						["description"] = "2nd Mosswool spot",
-						["questID"] = 82145,	-- The Lost Mosswool
-						["coord"] = { 59.1, 27.1, ISLE_OF_DORN },
-					}),
-					n(222965, {	-- Lost Mosswool
-						["description"] = "3rd Mosswool spot",
-						["questID"] = 82145,	-- The Lost Mosswool
+					o(443638, {	-- Mosswool Flower
+						["sourceQuest"] = 82145,	-- Lost Mosswool
+						["questID"] = 83246,
 						["coord"] = { 59.7, 28.7, ISLE_OF_DORN },
+						["groups"] = {
+							i(224450),	-- Lil' Moss Rosy (PET!)
+						},
 					}),
 				},
 			}),

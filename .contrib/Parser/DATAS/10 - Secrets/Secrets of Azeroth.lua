@@ -227,23 +227,24 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 				["questID"] = 78207,
 				["coord"] = { 68.8, 73.2, WESTERN_PLAGUELANDS },
 			}),
-			o(405539, {	-- Loose Dirt Mound
+			header(HEADERS.Object, 405539, {	-- Loose Dirt Mound [A/H]
 				["questID"] = 77300,
-				["races"] = ALLIANCE_ONLY,
-				["coords"] = {
-					{ 36.8, 35.6, GRIZZLY_HILLS },	-- Start of Log Ride
-					{ 20.2, 81.3, GRIZZLY_HILLS },	-- Loose Dirt Mound
+				["allianceQuestData"] = {
+					["objectID"] = 405539,
+					["coords"] = {
+						{ 36.8, 35.6, GRIZZLY_HILLS },	-- Start of Log Ride
+						{ 20.2, 81.3, GRIZZLY_HILLS },	-- Loose Dirt Mound
+					},
+					["description"] = "Talk to the NPC at the northern waypoint to take a ride on the log. At the end, you will receive the WHEE! buff which is required to see the Loose Dirt Mound.",
 				},
-				["description"] = "Talk to the NPC at the northern waypoint to take a ride on the log. At the end, you will receive the WHEE! buff which is required to see the Loose Dirt Mound.",
-			}),
-			o(409835, {	-- Loose Dirt Mound
-				["questID"] = 77300,
-				["races"] = HORDE_ONLY,
-				["coords"] = {
-					{ 35.1, 34.7, GRIZZLY_HILLS },	-- Start of Log Ride
-					{ 10.9, 74.9, GRIZZLY_HILLS },	-- Loose Dirt Mound
+				["hordeQuestData"] = {
+					["objectID"] = 409835,
+					["coords"] = {
+						{ 35.1, 34.7, GRIZZLY_HILLS },	-- Start of Log Ride
+						{ 10.9, 74.9, GRIZZLY_HILLS },	-- Loose Dirt Mound
+					},
+					["description"] = "Take the log ride, must have WHEE! buff for Loose Dirt Mound to be visible.",
 				},
-				["description"] = "Take the log ride, must have WHEE! buff for Loose Dirt Mound to be visible.",
 			}),
 			o(405541, {	-- Loose Dirt Mound
 				["questID"] = 77302,
