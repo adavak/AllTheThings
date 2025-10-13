@@ -16,6 +16,7 @@ root(ROOTS.Zones, {
 				}),
 				q(39385, {	-- A Gift for Greymane
 					["sourceQuests"] = { 38872 },	-- The Dark Lady's Bidding
+					["provider"] = { "o", 243454 },	-- Gilnean Heavy Explosive
 					["coord"] = { 57.6, 71.9, STORMHEIM },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -252,7 +253,13 @@ root(ROOTS.Zones, {
 				}),
 				q(38337, {	-- Built to Scale (A)
 					["provider"] = { "i", 122610 },	-- Storm Drake Scale
+					["coord"] = { 44.5, 67.7, STORMHEIM },	-- Hrydshal, General area where Drakes can be found
 					["races"] = ALLIANCE_ONLY,
+					["crs"] = {
+						91202,	-- Stormwing Drake
+						91920,	-- Stormwing Drake
+						91486,	-- Stormwing Drake
+					},
 					["groups"] = {
 						i(129320),	-- Charged Stormwing Robes
 						i(129321),	-- Electrified Stormwing Vest
@@ -266,6 +273,7 @@ root(ROOTS.Zones, {
 				}),
 				q(38616, {	-- Built to Scale (H)
 					["provider"] = { "i", 124037 },	-- Storm Drake Scale
+					["coord"] = { 44.5, 67.7, STORMHEIM },	-- Hrydshal, General area where Drakes can be found
 					["races"] = HORDE_ONLY,
 					["crs"] = {
 						91202,	-- Stormwing Drake
@@ -297,13 +305,6 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						i(127295),	-- Blazing Torch (QI!)
 					},
-				}),
-				q(54147, {	-- Confront the Val'kyr
-					["sourceQuests"] = { 53781 },	-- Eyir
-					["provider"] = { "n", 146877 },	-- Princess Talanji
-					["coord"] = { 61.2, 68.1, STORMHEIM },
-					["races"] = HORDE_ONLY,
-					["lvl"] = 120,
 				}),
 				q(38624, {	-- Cry Thunder!
 					["sourceQuests"] = { 39652 },	-- Where Dragons Rule

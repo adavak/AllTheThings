@@ -282,6 +282,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 31.0, 52.0, NAZMIR },
 				["races"] = HORDE_ONLY,
 			}),
+			q(54147, {	-- Confront the Val'kyr
+				["sourceQuests"] = { 53781 },	-- Eyir
+				["provider"] = { "n", 146877 },	-- Princess Talanji
+				["coord"] = { 61.2, 68.1, STORMHEIM },
+				["races"] = HORDE_ONLY,
+				["lvl"] = 120,
+			}),
 			q(49980, {	-- Containment Procedure
 				["sourceQuests"] = {
 					49955,	-- Not Fit for This Plane
