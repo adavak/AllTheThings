@@ -908,6 +908,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 			}),
 			-- #endif
+			-- #if AFTER 10.1.5
 			header(HEADERS.Achievement, 18372, {	-- Wards of the Dread Citadel
 				["description"] = "With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStage 1: Memory of Scholomance, this unlocks Old Scholomance on an accound-wide basis, see the instructions in it's header in Western Plaguelands.\n\nStage 2: Obtain your first Argent Dawn Commission, see the instructions in the subheader below.\n\nHereafter any of your characters need to have an Argent Dawn Commission equipped for any progression.\n\nStage 3: Experience Sleight of Hand, see the instructions in the subheader below.\n\nThe stages 4-6 takes place in Naxxramas. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.",
 				["groups"] = {
@@ -1193,6 +1194,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- Nax portal: 35.7, 23.1
 				},
 			}),
+			-- #endif
 			n(ACHIEVEMENTS, {
 				ach(4892, {	-- Eastern Plaguelands Quests
 					["timeline"] = { ADDED_4_0_3 },
