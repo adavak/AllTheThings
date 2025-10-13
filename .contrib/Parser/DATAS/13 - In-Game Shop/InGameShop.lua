@@ -502,10 +502,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	filter(COSMETIC, bubbleDown({ ["u"] = REMOVED_FROM_GAME, }, {	-- REMOVED --
 		-- Black Tropical
 		iensemble(221540, {	-- Ensemble: Black Tropical Beachwear
-			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.63305" }, -- Removed September 15, 2025
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.63305" },	-- Removed September 15, 2025
 		}),
 		iensemble(221847, {	-- Ensemble: Black Tropical Swimwear
-			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.63305" }, -- Removed September 15, 2025
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.63305" },	-- Removed September 15, 2025
 		}),
 		------ Gladiator's Ragged Armor Set ------
 		iensemble(217029, {	-- Ensemble: Gladiator's Ragged Armor
@@ -787,7 +787,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_0_5 },	-- 1st October 2024 until 5th November 2024
 		}),
 		i(238966, {	-- Felborn Cormaera (MOUNT!)
-			["timeline"] = { ADDED_11_1_5, "removed 11.1.7.61967" }, -- Removed July 14, 2025
+			["timeline"] = { ADDED_11_1_5, "removed 11.1.7.61967" },	-- Removed July 14, 2025
 		}),
 		i(112327, {	-- Grinning Reaver (MOUNT!)
 			["timeline"] = { ADDED_6_0_2, REMOVED_8_3_0 },
@@ -803,7 +803,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		i(221270, {	-- Kickin' Kezan Waveshredder (MOUNT!)
-			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.63305" }, -- Removed September 15, 2025
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.63305" },	-- Removed September 15, 2025
 		}),
 		i(233286, {	-- Meeksi Brewthief (MOUNT!)
 			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.60568" },	-- Removed April 28, 2025

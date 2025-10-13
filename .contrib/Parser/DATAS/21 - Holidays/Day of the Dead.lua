@@ -8,7 +8,7 @@ DAY_OF_THE_DEAD_HEADER = createHeader({
 	eventID = EVENTS.DAY_OF_THE_DEAD,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		11, 1, 11, 0,	-- 11/01 at 11 AM
 		11, 3, 11, 0	-- 11/03 at 11 AM
 	},

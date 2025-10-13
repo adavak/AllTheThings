@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["description"] = "These rares are only available when the Drill Rig is an active construction project. Speak to |Cff00991aWaren Gearheart|r |Cffffffff(73.0, 33.5)|r to see which construction projects are available.\r\rEach rare spawn is accompanied by a specific zonewide announcement. Hover over each rare in the list to see its announcement.",
 				["groups"] = {
 					n(153200, {	-- Boilburn
-						["questID"] = 55857, -- no second questID
+						["questID"] = 55857,	-- no second questID
 						["coord"] = { 51.1, 50.4, MECHAGON },
 						["isDaily"] = true,
 						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD41...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",

@@ -1232,26 +1232,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		header(HEADERS.Spell, 51005, {	-- Milling
 			i(39343, {	-- Azure Pigment
 				["providers"] = {
-					{ "i", 36903 }, -- Adder's Tongue
-					{ "i", 37921 }, -- Deadnettle
-					{ "i", 39970 }, -- Fire Leaf
-					{ "i", 36901 }, -- Goldclover
-					{ "i", 36906 }, -- Icethorn
-					{ "i", 36905 }, -- Lichbloom
-					{ "i", 36907 }, -- Talandra's Rose
-					{ "i", 36904 }, -- Tiger Lily
+					{ "i", 36903 },	-- Adder's Tongue
+					{ "i", 37921 },	-- Deadnettle
+					{ "i", 39970 },	-- Fire Leaf
+					{ "i", 36901 },	-- Goldclover
+					{ "i", 36906 },	-- Icethorn
+					{ "i", 36905 },	-- Lichbloom
+					{ "i", 36907 },	-- Talandra's Rose
+					{ "i", 36904 },	-- Tiger Lily
 				},
 			}),
 			i(43109, {	-- Icy Pigment
 				["providers"] = {
-					{ "i", 36903 }, -- Adder's Tongue
-					{ "i", 37921 }, -- Deadnettle
-					{ "i", 39970 }, -- Fire Leaf
-					{ "i", 36901 }, -- Goldclover
-					{ "i", 36906 }, -- Icethorn
-					{ "i", 36905 }, -- Lichbloom
-					{ "i", 36907 }, -- Talandra's Rose
-					{ "i", 36904 }, -- Tiger Lily
+					{ "i", 36903 },	-- Adder's Tongue
+					{ "i", 37921 },	-- Deadnettle
+					{ "i", 39970 },	-- Fire Leaf
+					{ "i", 36901 },	-- Goldclover
+					{ "i", 36906 },	-- Icethorn
+					{ "i", 36905 },	-- Lichbloom
+					{ "i", 36907 },	-- Talandra's Rose
+					{ "i", 36904 },	-- Tiger Lily
 				},
 			}),
 		}),

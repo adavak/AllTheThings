@@ -2936,7 +2936,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(4963, {	-- Shard of an Infernal
 					["altQuests"] = { 4962 },	-- Shard of a Felhound
-					["qg"] = 6252, -- Acolyte Magaz
+					["qg"] = 6252,	-- Acolyte Magaz
 					["coord"] = { 62.6, 35.2, THE_BARRENS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { DESOLACE },

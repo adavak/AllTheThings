@@ -7,7 +7,7 @@ root(ROOTS.Holidays, {
 		icon = EVENTS.SEASONAL_FISH_SUMMER_BASS,
 		eventID = EVENTS.SEASONAL_FISH_SUMMER_BASS,
 		eventSchedule = {
-			1, -- Recurring
+			1,	-- Recurring
 			3, 20, 0, 0,	-- 3/20 at 00:00 AM
 			9, 22, 23, 59	-- 9/22 at 23:59 AM
 		},
@@ -52,7 +52,7 @@ root(ROOTS.Holidays, {
 		icon = EVENTS.SEASONAL_FISH_WINTER_SQUID,
 		eventID = EVENTS.SEASONAL_FISH_WINTER_SQUID,
 		eventSchedule = {
-			1, -- Recurring
+			1,	-- Recurring
 			9, 23, 0, 0,	-- 9/23 at 00:00 AM
 			3, 19, 23, 59	-- 3/19 at 23:59 AM
 		},

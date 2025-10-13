@@ -777,7 +777,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					197123,	-- Highland Drake: Thorn Horns (MM!)
 					197139,	-- Highland Drake: Large Spotted Pattern (MM!)
 					197153,	-- Highland Drake: Bladed Tail (MM!)
-					203350, -- Winding Slitherdrake: Blue Scales (MM!)
+					203350,	-- Winding Slitherdrake: Blue Scales (MM!)
 				}},
 			}),
 			n(186554, {	-- Nunvuq
@@ -805,7 +805,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["coord"] = { 13.8, 50.0, THE_AZURE_SPAN },
 				["sym"] = {{"select","itemID",
 					------ RENOWN 10 ------
-					194611, -- Design: Energized Ysemerald (RECIPE!)
+					194611,	-- Design: Energized Ysemerald (RECIPE!)
 					194726,	-- Design: Kalu'ak Figurine (RECIPE!)
 					194610,	-- Design: Keen Ysemerald (RECIPE!)
 					194603,	-- Design: Radiant Alexstraszite (RECIPE!)

@@ -1071,7 +1071,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									}),
 									n(172325, {	-- Mad Mortimer	-- TODO: Verify NPCID
 										["crs"] = {
-											172099, -- Mort
+											172099,	-- Mort
 											172101,	-- Ortim
 											172102,	-- Imer
 										},
@@ -1287,7 +1287,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									}),
 									n(172325, {	-- Mad Mortimer	-- TODO: Verify NPCID
 										["crs"] = {
-											172099, -- Mort
+											172099,	-- Mort
 											172101,	-- Ortim
 											172102,	-- Imer
 										},
@@ -1427,7 +1427,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									}),
 									n(172325, {	-- Mad Mortimer	-- TODO: Verify NPCID
 										["crs"] = {
-											172099, -- Mort
+											172099,	-- Mort
 											172101,	-- Ortim
 											172102,	-- Imer
 										},

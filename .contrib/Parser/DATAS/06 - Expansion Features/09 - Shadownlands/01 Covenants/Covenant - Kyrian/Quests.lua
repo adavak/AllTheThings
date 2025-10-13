@@ -958,7 +958,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["provider"] = { "i", 175982 },	-- Sicklethorn To-Do List
 				["coord"] = { 40.4, 54.7, ARDENWEALD },
 				["crs"] = {
-					161878, -- Sicklethorn Slicer
+					161878,	-- Sicklethorn Slicer
 					163363,	-- Sicklethorn Zapper
 				},
 				["groups"] = {

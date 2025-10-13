@@ -99,7 +99,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 58.2, 60.6, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 					}),
 					q(44401, {	-- A Weapon For Every Occasion
-						["sourceQuest"] = 43962, -- Blades of Destiny
+						["sourceQuest"] = 43962,	-- Blades of Destiny
 						["provider"] = { "n", 109788 },	-- Duke Lankral
 						["coord"] = { 58.2, 60.6, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 					}),
@@ -214,7 +214,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(40934, {	-- The Dark Riders (Good)
 							["description"] = "Obtainable if you are good to Revil Kost",
-							["sourceQuest"] = 40933, -- A Grisly Task
+							["sourceQuest"] = 40933,	-- A Grisly Task
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.6, DEADWIND_PASS },
 							["groups"] = {
@@ -230,7 +230,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(40986, {	-- The Dark Riders (Bad)
 							["description"] = "Obtainable if you attack Revil Kost",
-							["sourceQuest"] = 40933, -- A Grisly Task
+							["sourceQuest"] = 40933,	-- A Grisly Task
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.6, DEADWIND_PASS },
 							["groups"] = {
@@ -246,14 +246,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(40935, {	-- The Call of Vengeance (Good)
 							["description"] = "Obtainable if you are good to Revil Kost",
-							["sourceQuest"] = 40934, -- The Dark Riders (Good)
+							["sourceQuest"] = 40934,	-- The Dark Riders (Good)
 							["provider"] = { "n", 101282 },	-- Revil Kost
 							["coord"] = { 68.4, 27.0, DEADWIND_PASS },
 							["isBreadcrumb"] = true,
 						}),
 						q(40987, {	-- The Call of Vengeance (Bad)
 							["description"] = "Obtainable if you attack Revil Kost",
-							["sourceQuest"] = 40986, -- The Dark Riders (Bad)
+							["sourceQuest"] = 40986,	-- The Dark Riders (Bad)
 							["provider"] = { "n", 101282 },	-- Revil Kost
 							["coord"] = { 68.4, 27.0, 46 },	-- Karazhan Catacombs
 							["isBreadcrumb"] = true,
@@ -272,13 +272,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },
 					}),
 					q(39761, {	-- Advanced Runecarving
-						["sourceQuest"] = 39757, -- Keeping Your Edge
+						["sourceQuest"] = 39757,	-- Keeping Your Edge
 						["provider"] = { "n", 97072 },	-- Grand Master Siegesmith Corvus
 						["coord"] = { 60.2, 60.0, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },
 					}),
 					q(44217, {	-- Armor Fit For A Deathlord
-						["sourceQuest"] = 39761, -- Advanced Runecarving
+						["sourceQuest"] = 39761,	-- Advanced Runecarving
 						["provider"] = { "n", 93550 },	-- Quartermaster Ozorg
 						["coord"] = { 44.2, 37.5, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["groups"] = {
@@ -287,22 +287,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Choose Zone
 					q(39832, {	-- Plans and Preparations
-						["sourceQuest"] = 39757, -- Keeping Your Edge
+						["sourceQuest"] = 39757,	-- Keeping Your Edge
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(39799, {	-- Our Next Move
-						["sourceQuest"] = 39832, -- Plans and Preparations
+						["sourceQuest"] = 39832,	-- Plans and Preparations
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 50.6, 51.6, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(42449, {	-- Return of the Four Horsemen
-						["sourceQuest"] = 39799, -- Our Next Move
+						["sourceQuest"] = 39799,	-- Our Next Move
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(42484, {	-- The Firstborn Rises
-						["sourceQuest"] = 42449, -- Return of the Four Horsemen
+						["sourceQuest"] = 42449,	-- Return of the Four Horsemen
 						["provider"] = { "n", 107554 },	-- Thassarian
 						["coord"] = { 47.3, 17.7, DUROTAR },
 					}),
@@ -340,7 +340,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(43266, {	-- Recruiting the Troops
-						["sourceQuest"] = 43265, -- Spread the Word
+						["sourceQuest"] = 43265,	-- Spread the Word
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
@@ -350,51 +350,51 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(43268, {	-- Tech It Up A Notch
-						["sourceQuest"] = 43267, -- Troops in the Field
+						["sourceQuest"] = 43267,	-- Troops in the Field
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(43539, {	-- Salanar the Horseman
-						["sourceQuest"] = 43267, -- Troops in the Field
+						["sourceQuest"] = 43267,	-- Troops in the Field
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					-- Chap 1
 					q(42533, {	-- The Ruined Kingdom
 						["sourceQuests"] = {
-							43539, -- Salanar the Horseman
-							43268, -- Tech It Up A Notch
+							43539,	-- Salanar the Horseman
+							43268,	-- Tech It Up A Notch
 						},
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(42535, {	-- Death... and Decay
-						["sourceQuest"] = 42533, -- The Ruined Kingdom
+						["sourceQuest"] = 42533,	-- The Ruined Kingdom
 						["provider"] = { "n", 107806 },	-- Prince Galen Trollbane
 						["coord"] = { 19.4, 67.3, ARATHI_HIGHLANDS },
 					}),
 					q(42534, {	-- Our Oldest Enemies
-						["sourceQuest"] = 42533, -- The Ruined Kingdom
+						["sourceQuest"] = 42533,	-- The Ruined Kingdom
 						["provider"] = { "n", 107806 },	-- Prince Galen Trollbane
 						["coord"] = { 19.4, 67.3, ARATHI_HIGHLANDS },
 						["groups"] = { i(138142) },	-- Head of Ojin'ba (QI!)
 					}),
 					q(42536, {	-- Regicide
 						["sourceQuests"] = {
-							42535, -- Death... and Decay
-							42534, -- Our Oldest Enemies
+							42535,	-- Death... and Decay
+							42534,	-- Our Oldest Enemies
 						},
 						["provider"] = { "n", 108042 },	-- Thassarian
 						["coord"] = { 19.6, 67.0, ARATHI_HIGHLANDS },
 						["groups"] = { i(138148) },	-- Trol'Kalar (QI!)
 					}),
 					q(42537, {	-- The King Rises
-						["sourceQuest"] = 42536, -- Regicide
+						["sourceQuest"] = 42536,	-- Regicide
 						["provider"] = { "n", 108042 },	-- Thassarian
 						["coord"] = { 23.4, 61.4, ARATHI_HIGHLANDS },
 					}),
 					q(44243, {	-- Champion: Thoras Trollbane
-						["sourceQuest"] = 42537, -- The King Rises
+						["sourceQuest"] = 42537,	-- The King Rises
 						["provider"] = { "n", 113419 },	-- King Thoras Trollbane
 						["coord"] = { 59.5, 34.0, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["groups"] = {
@@ -402,7 +402,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(42708, {	-- A Personal Request
-						["sourceQuest"] = 42537, -- The King Rises
+						["sourceQuest"] = 42537,	-- The King Rises
 						["provider"] = { "n", 93456 },	-- Thassarian
 						["coord"] = { 56.0, 30.7, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["maps"] = { UNDERCITY },
@@ -423,37 +423,37 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Chap 2
 					q(43899, {	-- Steeds of the Damned
-						["sourceQuest"] = 42708, -- A Personal Request
+						["sourceQuest"] = 42708,	-- A Personal Request
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(44082, {	-- Knights of the Ebon Blade
-						["sourceQuest"] = 42708, -- A Personal Request
+						["sourceQuest"] = 42708,	-- A Personal Request
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(43571, {	-- Neltharion's Lair: Braid of the Underking
-						["sourceQuest"] = 42708, -- A Personal Request
+						["sourceQuest"] = 42708,	-- A Personal Request
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 731 },	-- Neltharion's Lair
 						["groups"] = { i(139537) },	-- Braid of the Underking (QI!)
 					}),
 					q(43572, {	-- Darkheart Thicket: The Nightmare Lash
-						["sourceQuest"] = 43571, -- Neltharion's Lair: Braid of the Underking
+						["sourceQuest"] = 43571,	-- Neltharion's Lair: Braid of the Underking
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 733 },	-- Darkheart Thicket
 						["groups"] = { i(139538) },	-- Nightmare Lash (QI!)
 					}),
 					q(42818, {	-- The Scarlet Assault
-						["sourceQuest"] = 43899, -- Steeds of the Damned
+						["sourceQuest"] = 43899,	-- Steeds of the Damned
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						-- ["sourceQuest"] = 43572, -- Darkheart Thicket: The Nightmare Lash
+						-- ["sourceQuest"] = 43572,	-- Darkheart Thicket: The Nightmare Lash
 					}),
 					q(42821, {	-- Raising an Army
-						["sourceQuest"] = 42818, -- The Scarlet Assault
+						["sourceQuest"] = 42818,	-- The Scarlet Assault
 						["provider"] = { "n", 109221 },	-- Thassarian
 						["maps"] = { SCARLET_MONASTERY_DEATH_KNIGHT_CAMPAIGN, SCARLET_MONASTERY_DEATH_KNIGHT_CAMPAIGN_LEVEL2 },	-- Scarlet Monastery (Scenario Map)
 					}),
@@ -464,8 +464,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42823, {	-- The Scarlet Commander
 						["sourceQuests"] = {
-							42821, -- Raising an Army
-							42882, -- The Scarlet Massacre
+							42821,	-- Raising an Army
+							42882,	-- The Scarlet Massacre
 						},
 						["provider"] = { "n", 109221 },	-- Thassarian
 						["maps"] = { SCARLET_MONASTERY_DEATH_KNIGHT_CAMPAIGN, SCARLET_MONASTERY_DEATH_KNIGHT_CAMPAIGN_LEVEL2 },	-- Scarlet Monastery (Scenario Map)
@@ -505,38 +505,38 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(43573, {	-- Advancing the War Effort
-						["sourceQuest"] = 42824, -- The Zealot Rises
+						["sourceQuest"] = 42824,	-- The Zealot Rises
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(43928, {	-- Aggregates of Anguish
-						["sourceQuest"] = 42824, -- The Zealot Rises
+						["sourceQuest"] = 42824,	-- The Zealot Rises
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(44690, {	-- A Thirst For Blood
-						["sourceQuest"] = 43573, -- Advancing the War Effort
+						["sourceQuest"] = 43573,	-- Advancing the War Effort
 						["provider"] = { "n", 93491 },	-- Lord Thorval
 						["coord"] = { 63.1, 69.4, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["cost"] = {{ "i", 124124, 3 }},	-- 3x Blood of Sargeras
 					}),
 					q(91615, {	-- A Thirst For Blood (Remix)
-						["sourceQuest"] = 43573, -- Advancing the War Effort
+						["sourceQuest"] = 43573,	-- Advancing the War Effort
 						["provider"] = { "n", 93491 },	-- Lord Thorval
 						["coord"] = { 63.1, 69.4, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
 					}),
 					q(43574, {	-- Maw of Souls: Maul of the Dead
 						["sourceQuests"] = {
-							43573, -- Advancing the War Effort
-							43572, -- Darkheart Thicket: The Nightmare Lash
+							43573,	-- Advancing the War Effort
+							43572,	-- Darkheart Thicket: The Nightmare Lash
 						},
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 706, 707, 708 },	-- Maw of Souls
 					}),
 					q(44282, {	-- Eye of Azshara: The Frozen Soul
-						["sourceQuest"] = 43928, -- Aggregates of Anguish
+						["sourceQuest"] = 43928,	-- Aggregates of Anguish
 						["provider"] = { "n", 93555 },	-- Amal'thazad
 						["coord"] = { 58.1, 31.1, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["maps"] = { 713 },	--  Eye of Azshara
@@ -574,7 +574,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					--
 					q(43407, {	-- A Hero's Weapon
-						["sourceQuest"] = 44248, -- Champion: Darion Mograine
+						["sourceQuest"] = 44248,	-- Champion: Darion Mograine
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 56.9, 58.5, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["groups"] = {
@@ -603,10 +603,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 113695 },	-- Highlord Darion Mograine
 						["coord"] = { 27.0, 28.9, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 823 },	-- Pit of Saron (Scenario Map)
-						--["sourceQuest"] = 47137, -- Champions of Legionfall (must be in log)
+						--["sourceQuest"] = 47137,	-- Champions of Legionfall (must be in log)
 					}),
 					q(45398, {	-- Harnessing Power
-						["sourceQuest"] = 45240, -- Making Preparations
+						["sourceQuest"] = 45240,	-- Making Preparations
 						["provider"] = { "n", 119539 },	-- Minerva Ravensorrow
 						["coord"] = { 47.8, 19.2, 823 },	-- Pit of Saron (Scenario Map)
 						["groups"] = {
@@ -614,20 +614,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(45399, {	-- Severing the Sveldrek
-						["sourceQuest"] = 45240, -- Making Preparations
+						["sourceQuest"] = 45240,	-- Making Preparations
 						["provider"] = { "n", 119539 },	-- Minerva Ravensorrow
 						["coord"] = { 47.8, 19.2, 823 },	-- Pit of Saron (Scenario Map)
 					}),
 					q(45331, {	-- Return to Acherus
 						["sourceQuests"] = {
-							45398, -- Harnessing Power
-							45399, -- Severing the Sveldrek
+							45398,	-- Harnessing Power
+							45399,	-- Severing the Sveldrek
 						},
 						["provider"] = { "n", 119539 },	-- Minerva Ravensorrow
 						["coord"] = { 47.8, 19.2, 823 },	-- Pit of Saron (Scenario Map)
 					}),
 					q(44775, {	-- The Peak of Bones
-						["sourceQuest"] = 45331, -- Return to Acherus
+						["sourceQuest"] = 45331,	-- Return to Acherus
 						["provider"] = { "n", 113695 },	-- Highlord Darion Mograine
 						["coord"] = { 27.0, 28.9, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 					}),
@@ -637,20 +637,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 51.3, 84.3, STORMHEIM },
 					}),
 					q(44783, {	-- From Bones They Rise
-						["sourceQuest"] = 44775, -- The Peak of Bones
+						["sourceQuest"] = 44775,	-- The Peak of Bones
 						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow
 						["coord"] = { 51.3, 84.3, STORMHEIM },
 					}),
 					q(44787, {	-- The Bonemother
 						["sourceQuests"] = {
-							44783, -- From Bones They Rise
-							46305, -- Thorim's Flame
+							44783,	-- From Bones They Rise
+							46305,	-- Thorim's Flame
 						},
 						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow
 						["maps"] = { STORMHEIM },
 					}),
 					q(45243, {	-- On Daumyr's Wings
-						["sourceQuest"] = 44787, -- The Bonemother
+						["sourceQuest"] = 44787,	-- The Bonemother
 						["provider"] = { "n", 113695 },	-- Highlord Darion Mograine
 						["coord"] = { 27.0, 28.9, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 					}),
@@ -673,17 +673,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						-- ["sourceQuests"] = { 46251 },	-- Shard Times
 					}),
 					q(46720, {	-- Frozen Memories
-						["sourceQuest"] = 46719, -- Amal'thazad's Message
+						["sourceQuest"] = 46719,	-- Amal'thazad's Message
 						["provider"] = { "n", 93555 },	-- Amal'thazadd
 						["coord"] = { 58.1, 31.1, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
 					q(46812, {	-- Draconic Secrets
-						["sourceQuest"] = 46720, -- Frozen Memories
+						["sourceQuest"] = 46720,	-- Frozen Memories
 						["coord"] = { 44.7, 4.4, ICECROWN },
 						["maps"] = { 860 },	-- The Ruby Sanctum (Scenario Map)
 					}),
 					q(46813, {	-- The Lost Glacier
-						["sourceQuest"] = 46812, -- Draconic Secrets
+						["sourceQuest"] = 46812,	-- Draconic Secrets
 						["maps"] = {
 							860,	-- The Ruby Sanctum (Scenario Map)
 							871,	-- The Lost Glacier (Scenario Map)
@@ -711,7 +711,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["timeline"] = { ADDED_7_1_5, REMOVED_7_3_0 },
 					}),
 					q(46789, {	-- Further Advancement
-						["sourceQuest"] = 45103, -- We Ride!
+						["sourceQuest"] = 45103,	-- We Ride!
 						["provider"] = { "n", 93568 },	-- Siouxsie the Banshee
 						["coord"] = { 49.7, 51.3, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["timeline"] = { ADDED_7_2_0 },

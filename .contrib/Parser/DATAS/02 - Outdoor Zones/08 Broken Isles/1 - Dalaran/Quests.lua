@@ -1151,10 +1151,10 @@ root(ROOTS.Zones, {
 					["lvl"] = 110,
 				}),
 				q(47221, {	-- The Hand of Fate (A)
-					["u"] = REMOVED_FROM_GAME, -- old version that used to be automatically provided
+					["u"] = REMOVED_FROM_GAME,	-- old version that used to be automatically provided
 				}),
 				q(47835, {	-- The Hand of Fate (H)
-					["u"] = REMOVED_FROM_GAME, -- old version that used to be automatically provided
+					["u"] = REMOVED_FROM_GAME,	-- old version that used to be automatically provided
 				}),
 				q(45902, {	-- The Imp Mother's Gift
 					["sourceQuests"] = { 46065 },	-- An Impossible Foe
@@ -1313,7 +1313,7 @@ root(ROOTS.Zones, {
 				--	unsure if there are prerequisites for this quest.
 				}),
 				q(46206, {	-- Whispers of a Frightened World
-					["u"] = REMOVED_FROM_GAME, -- version that used to be automatically given?
+					["u"] = REMOVED_FROM_GAME,	-- version that used to be automatically given?
 				}),
 				q(47019, {	-- Windwalker: Rumblings Near Feltotem
 					["sourceQuests"] = {

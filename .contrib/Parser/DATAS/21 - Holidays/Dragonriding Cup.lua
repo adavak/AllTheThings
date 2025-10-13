@@ -1091,7 +1091,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 					["qgs"] = {
 						214031,	-- Racing Enthusiast
 						-- #if AFTER 11.1.0
-						220307, -- Holiday Enthusiast
+						220307,	-- Holiday Enthusiast
 						-- #endif
 					},
 					["coords"] = {
@@ -1124,7 +1124,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 					["qgs"] = {
 						206737,	-- Lord Andestrasz
 						-- #if AFTER 11.1.0
-						214111, -- Lord Andestrasz
+						214111,	-- Lord Andestrasz
 						-- #endif
 					},
 					["coords"] = {
@@ -2543,7 +2543,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 						19647,	-- Geothermal Jaunt: Bronze
 						19656,	-- Gundrak Fast Track: Bronze
 						19600,	-- Makers Marathon: Bronze
-						19199, -- Scalawag Slither: Bronze
+						19199,	-- Scalawag Slither: Bronze
 						19636,	-- Sholazar Spree: Bronze
 						19591,	-- Zul'Drak Zephyr: Bronze
 					}},

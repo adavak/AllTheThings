@@ -231,7 +231,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			o(419729, {	-- Strange Eggs
 				["coord"] = { 67.1, 21.8, HALLOWFALL },
-				--["questID"] = 83032, -- I looted it with some characters and never got any questID - Darkal
+				--["questID"] = 83032,	-- I looted it with some characters and never got any questID - Darkal
 				["groups"] = {
 					i(212331),	-- The Unusual Bug
 				},
@@ -262,42 +262,42 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					hqt(83300, {	-- Question 1
 						["name"] = "Answer 1: That the Cosmos consisted of monopole elemental phase spaces.",
 						["sourceQuests"] = {
-							83309, -- Palawltar's Codex of Dimensional Structure
+							83309,	-- Palawltar's Codex of Dimensional Structure
 						},
 					}),
 					hqt(83301, {	-- Question 2
 						["name"] = "Answer 2: Patience and respect.",
 						["sourceQuests"] = {
-							83300, -- previous step
-							83310, -- Care and Feeding of the Imperial Lynx
+							83300,	-- previous step
+							83310,	-- Care and Feeding of the Imperial Lynx
 						},
 					}),
 					hqt(83302, {	-- Question 3
 						["name"] = "Answer 3: Seek shelter and light. Have plans, have backup plans. Find joy while sheltering.",
 						["sourceQuests"] = {
-							83301, -- previous step
-							83311, -- Shadow Curfew Guidelines
+							83301,	-- previous step
+							83311,	-- Shadow Curfew Guidelines
 						},
 					}),
 					hqt(83303, {	-- Question 4
 						["name"] = "Answer 4: The third fleet.",
 						["sourceQuests"] = {
-							83302, -- previous step
-							83312, -- Beledar- The Emperor's Vision
+							83302,	-- previous step
+							83312,	-- Beledar- The Emperor's Vision
 						},
 					}),
 					hqt(83304, {	-- Question 5
 						["name"] = "Answer 5: The Remains of gods.",
 						["sourceQuests"] = {
-							83303, -- previous step
-							83313, -- The Song of Renilash
+							83303,	-- previous step
+							83313,	-- The Song of Renilash
 						},
 					}),
 					hqt(83305, {	-- Question 6
 						["name"] = "Answer 6: From the letters of Mereldar.",
 						["sourceQuests"] = {
-							83304, -- previous step
-							83314, -- The Big Book of Arathi Idioms
+							83304,	-- previous step
+							83314,	-- The Big Book of Arathi Idioms
 						},
 					}),
 				},

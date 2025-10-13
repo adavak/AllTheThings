@@ -318,7 +318,7 @@ root(ROOTS.Zones, {
 			--	n(109195, {	-- Soulbinder Halldora	}),
 			--	n(109994, {	-- Stormtalon	}),
 			--	n(100223, {	-- Vrykul Earthshaper Spirit	}),
-			--	n(100224, {	-- Vrykul Earthmaiden Spirit	}), --]]
+			--	n(100224, {	-- Vrykul Earthmaiden Spirit	}),	--]]
 			}),
 		}),
 	}),

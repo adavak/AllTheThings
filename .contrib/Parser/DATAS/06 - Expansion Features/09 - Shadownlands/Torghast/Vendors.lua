@@ -8,7 +8,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, {
 			n(BROKER_VEKEN_BROKER_VENOTT, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {
 				["description"] = "These items are not guaranteed, but have a chance to appear among the vendors' goods.",
 				["crs"] = {
-					152594, -- Broker Ve'ken
+					152594,	-- Broker Ve'ken
 					170257,	-- Broker Ve'nott
 				},
 				["groups"] = {

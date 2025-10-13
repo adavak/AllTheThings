@@ -8,7 +8,7 @@ HARVEST_FESTIVAL_HEADER = createHeader({
 	eventID = EVENTS.HARVEST_FESTIVAL,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		9, 6, 10, 0,	-- 09/06 at 10:00 AM
 		9, 13, 10, 0	-- 09/13 at 10:00 AM
 	},

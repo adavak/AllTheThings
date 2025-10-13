@@ -314,7 +314,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										filter(CLOTH, {
 											i(181129, {	-- Soulbreaker's Burnished Drape
 												["classes"] = CLOTH_CLASSES,
-												["description"] = "This cloak is only awarded to cloth characters.", -- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
+												["description"] = "This cloak is only awarded to cloth characters.",	-- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
 											}),
 											i(181123),	-- Soulbreaker's Burnished Handwraps
 											i(181124),	-- Soulbreaker's Burnished Hood
@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											i(181062),	-- Burnished Death Shroud Breeches
 											i(181066, {	-- Burnished Death Shroud Cloak
 												["classes"] = LEATHER_CLASSES,
-												["description"] = "This cloak is only awarded to leather characters.", -- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
+												["description"] = "This cloak is only awarded to leather characters.",	-- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
 											}),
 											i(181060),	-- Burnished Death Shroud Gloves
 											i(181061),	-- Burnished Death Shroud Hood
@@ -344,7 +344,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											i(181092),	-- Fearstalker's Burnished Bracers
 											i(181093, {	-- Fearstalker's Burnished Cloak
 												["classes"] = MAIL_CLASSES,
-												["description"] = "This cloak is only awarded to mail characters.", -- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
+												["description"] = "This cloak is only awarded to mail characters.",	-- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
 											}),
 											i(181087),	-- Fearstalker's Burnished Gauntlets
 											i(181085),	-- Fearstalker's Burnished Hauberk
@@ -357,7 +357,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											i(181023),	-- Dread Sentinel's Burnished Chestplate
 											i(181030, {	-- Dread Sentinel's Burnished Cloak
 												["classes"] = PLATE_CLASSES,
-												["description"] = "This cloak is only awarded to Plate characters.", -- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
+												["description"] = "This cloak is only awarded to Plate characters.",	-- Every class sees this cloak in the Appearance tab & can mog it, so we add a note.
 											}),
 											i(181028),	-- Dread Sentinel's Burnished Girdle
 											i(181024),	-- Dread Sentinel's Burnished Greatboots

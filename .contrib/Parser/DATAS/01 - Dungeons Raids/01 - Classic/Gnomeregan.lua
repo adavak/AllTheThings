@@ -54,7 +54,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["lore"] = "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city.\n\nIt is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplug, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplug remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord.",
 		-- #endif
 		-- #if AFTER 4.0.6
-		["description"] = "Horde players can access Gnomeregan from the teleporter in Grom'gol Base Camp, Northen Stranglethorn.", -- The teleporter was removed from Booty Bay with 4.0.3, and returned to the game with 4.0.6.
+		["description"] = "Horde players can access Gnomeregan from the teleporter in Grom'gol Base Camp, Northen Stranglethorn.",	-- The teleporter was removed from Booty Bay with 4.0.3, and returned to the game with 4.0.6.
 		-- #endif
 		-- #if BEFORE CATA
 		["zone-text-areaID"] = 133,	-- Gnomeregan
@@ -896,7 +896,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(6893, {	-- Workshop Key
 						["description"] =
 							-- #if AFTER 5.2.0
-							"This key no longer has any practical use, and disappears from the inventory like a conjured item. Entering through the Workshop entrance will zone you into the main entrance.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
+							"This key no longer has any practical use, and disappears from the inventory like a conjured item. Entering through the Workshop entrance will zone you into the main entrance.",	-- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
 							-- #elseif AFTER 4.0.3
 							"This key no longer has any practical use.",
 							-- #else

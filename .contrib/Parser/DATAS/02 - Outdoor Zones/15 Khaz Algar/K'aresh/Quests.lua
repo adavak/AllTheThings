@@ -2100,7 +2100,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							}),
 							i(229895, {	-- Scepter of Priesthood (QI!)
 								["coord"] = { 79.6, 48.0, KARESH },
-								["cr"] = 234847, -- Oathspeaker Al'joul
+								["cr"] = 234847,	-- Oathspeaker Al'joul
 							}),
 							o(469911, {	-- Ways of the Priesthood
 								["coord"] = { 81.0, 49.9, KARESH },

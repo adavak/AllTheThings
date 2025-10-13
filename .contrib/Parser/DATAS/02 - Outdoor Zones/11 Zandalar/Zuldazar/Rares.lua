@@ -126,7 +126,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			n(134637, {	-- Headhunter Lee'za
 				["questID"] = 50661,
 				["coord"] = { 63.0, 14.0, ZULDAZAR },
-				["isDaily"] = true, -- DO NOT REMOVE THIS. SHE IS DAILY AND I HAD TO FIX IT LIKE 5 TIMES NOW
+				["isDaily"] = true,	-- DO NOT REMOVE THIS. SHE IS DAILY AND I HAD TO FIX IT LIKE 5 TIMES NOW
 				-- MAKE A BUG REPORT TO BLIZZARD IF IT BOTHERS YOU. -- Gold
 				["groups"] = {
 					i(161117),	-- Berserker's Juju
@@ -185,7 +185,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			})),
 			n(136413, {	-- Syrawon the Dominus
 				["questID"] = 51080,
-				["isYearly"] = true, -- Resets randomly, might be yearly. -- Gold October 2022
+				["isYearly"] = true,	-- Resets randomly, might be yearly. -- Gold October 2022
 				["coord"] = { 53.80, 44.84, ZULDAZAR },
 				["groups"] = {
 					i(161047),	-- Shadow Wind Leggings

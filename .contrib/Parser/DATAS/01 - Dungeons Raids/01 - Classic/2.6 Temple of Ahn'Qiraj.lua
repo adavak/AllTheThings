@@ -1645,10 +1645,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						},
 						["repeatable"] = true,
 						["groups"] = {
-							i(234804), -- Blessed Qiraji War Axe
-							i(234805), -- Blessed Qiraji Musket
-							i(234806), -- Blessed Qiraji Pugio
-							i(234807), -- Blessed Qiraji Bulwark
+							i(234804),	-- Blessed Qiraji War Axe
+							i(234805),	-- Blessed Qiraji Musket
+							i(234806),	-- Blessed Qiraji Pugio
+							i(234807),	-- Blessed Qiraji Bulwark
 						},
 					}),
 					q(86671, {	-- Imperial Qiraji Regalia
@@ -1659,9 +1659,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						},
 						["repeatable"] = true,
 						["groups"] = {
-							i(234808), -- Blessed Qiraji Acolyte Staff
-							i(234809), -- Blessed Qiraji Augur Staff
-							i(234810), -- Blessed Qiraji War Hammer
+							i(234808),	-- Blessed Qiraji Acolyte Staff
+							i(234809),	-- Blessed Qiraji Augur Staff
+							i(234810),	-- Blessed Qiraji War Hammer
 						},
 					}),
 				}),
@@ -1677,59 +1677,59 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 							i(20877),	-- Idol of the Sage
 							i(20874),	-- Idol of the Sun
 							i(20882),	-- Idol of War
-							i(233997), -- Formula: Enchant Chest - Living Stats
-							i(233998), -- Formula: Enchant Gloves - Holy Power
-							i(233999), -- Formula: Enchant Gloves - Arcane Power
-							i(234266), -- Formula: Speedstone
-							i(234267), -- Formula: Tear of the Dreamer
-							i(234268), -- Formula: Lodestone of Retaliation
-							i(234269), -- Formula: Enchanted Stopwatch
-							i(234270), -- Formula: Ruby-Encrusted Broach
-							i(234275), -- Formula: Enchanted Prayer Tome
-							i(234276), -- Formula: Enchanted Totem
-							i(234277), -- Formula: Enchanted Mushroom
-							i(234271), -- Formula: Scroll: Wrath of the Swarm
-							i(235526), -- Formula: Enchant Bracer - Spell Power
-							i(235528), -- Formula: Enchant Bracer - Agility
-							i(235133), -- Formula: Libram of Righteousness
-							i(235134), -- Formula: Libram of the Exorcist
-							i(235135), -- Formula: Libram of Sanctity
-							i(235136), -- Formula: Totem of Pyroclastic Thunder
-							i(235137), -- Formula: Totem of Thunderous Strikes
-							i(235138), -- Formula: Totem of Flowing Magma
-							i(235139), -- Formula: Idol of Sidereal Wrath
-							i(235140), -- Formula: Idol of Feline Ferocity
-							i(235141), -- Formula: Idol of Ursin Power
-							i(234235), -- Pattern: Glowing Chitin Armor Kit
-							i(234236), -- Pattern: Sharpened Chitin Armor Kit
-							i(234237), -- Pattern: Razorbramble Cowl
-							i(234239), -- Pattern: Razorbramble Leathers
-							i(234238), -- Pattern: Razorbramble Shoulderpads
-							i(234249), -- Pattern: Qiraji Silk Cape (RECIPE!)
-							i(234250), -- Pattern: Qiraji Silk Cloak (RECIPE!)
-							i(234251), -- Pattern: Qiraji Silk Drape (RECIPE!)
-							i(234244), -- Pattern: Qiraji Silk Scarf (RECIPE!)
-							i(234240), -- Pattern: Vampiric Cowl
-							i(234241), -- Pattern: Vampiric Shawl
-							i(234242), -- Pattern: Vampiric Robe
-							i(234223), -- Plans: Obsidian Reaver
-							i(234224), -- Plans: Obsidian Champion
-							i(234225), -- Plans: Obsidian Destroyer
-							i(234226), -- Plans: Obsidian Stormhammer
-							i(234228), -- Plans: Obsidian Defender
-							i(234227), -- Plans: Obsidian Sageblade
-							i(234429), -- Plans: Obsidian Heartseeker
-							i(234220), -- Plans: Razorspike Headcage
-							i(234221), -- Plans: Razorspike Shoulderplates
-							i(234222), -- Plans: Razorspike Battleplate
-							i(234253), -- Recipe: Flask of Ancient Knowledge (RECIPE!)
-							i(234256), -- Recipe: Flask of Madness (RECIPE!)
-							i(234255), -- Recipe: Flask of the Old Gods (RECIPE!)
-							i(234252), -- Recipe: Flask of Unyielding Sorrow (RECIPE!)
-							i(234264), -- Schematic: G00 DV-1B3 Generator
-							i(234265), -- Schematic: Tuned Force Reactive Disk
-							i(234435), -- Schematic: Obsidian Shotgun
-							i(235530), -- Schematic: Obsidian Scope
+							i(233997),	-- Formula: Enchant Chest - Living Stats
+							i(233998),	-- Formula: Enchant Gloves - Holy Power
+							i(233999),	-- Formula: Enchant Gloves - Arcane Power
+							i(234266),	-- Formula: Speedstone
+							i(234267),	-- Formula: Tear of the Dreamer
+							i(234268),	-- Formula: Lodestone of Retaliation
+							i(234269),	-- Formula: Enchanted Stopwatch
+							i(234270),	-- Formula: Ruby-Encrusted Broach
+							i(234275),	-- Formula: Enchanted Prayer Tome
+							i(234276),	-- Formula: Enchanted Totem
+							i(234277),	-- Formula: Enchanted Mushroom
+							i(234271),	-- Formula: Scroll: Wrath of the Swarm
+							i(235526),	-- Formula: Enchant Bracer - Spell Power
+							i(235528),	-- Formula: Enchant Bracer - Agility
+							i(235133),	-- Formula: Libram of Righteousness
+							i(235134),	-- Formula: Libram of the Exorcist
+							i(235135),	-- Formula: Libram of Sanctity
+							i(235136),	-- Formula: Totem of Pyroclastic Thunder
+							i(235137),	-- Formula: Totem of Thunderous Strikes
+							i(235138),	-- Formula: Totem of Flowing Magma
+							i(235139),	-- Formula: Idol of Sidereal Wrath
+							i(235140),	-- Formula: Idol of Feline Ferocity
+							i(235141),	-- Formula: Idol of Ursin Power
+							i(234235),	-- Pattern: Glowing Chitin Armor Kit
+							i(234236),	-- Pattern: Sharpened Chitin Armor Kit
+							i(234237),	-- Pattern: Razorbramble Cowl
+							i(234239),	-- Pattern: Razorbramble Leathers
+							i(234238),	-- Pattern: Razorbramble Shoulderpads
+							i(234249),	-- Pattern: Qiraji Silk Cape (RECIPE!)
+							i(234250),	-- Pattern: Qiraji Silk Cloak (RECIPE!)
+							i(234251),	-- Pattern: Qiraji Silk Drape (RECIPE!)
+							i(234244),	-- Pattern: Qiraji Silk Scarf (RECIPE!)
+							i(234240),	-- Pattern: Vampiric Cowl
+							i(234241),	-- Pattern: Vampiric Shawl
+							i(234242),	-- Pattern: Vampiric Robe
+							i(234223),	-- Plans: Obsidian Reaver
+							i(234224),	-- Plans: Obsidian Champion
+							i(234225),	-- Plans: Obsidian Destroyer
+							i(234226),	-- Plans: Obsidian Stormhammer
+							i(234228),	-- Plans: Obsidian Defender
+							i(234227),	-- Plans: Obsidian Sageblade
+							i(234429),	-- Plans: Obsidian Heartseeker
+							i(234220),	-- Plans: Razorspike Headcage
+							i(234221),	-- Plans: Razorspike Shoulderplates
+							i(234222),	-- Plans: Razorspike Battleplate
+							i(234253),	-- Recipe: Flask of Ancient Knowledge (RECIPE!)
+							i(234256),	-- Recipe: Flask of Madness (RECIPE!)
+							i(234255),	-- Recipe: Flask of the Old Gods (RECIPE!)
+							i(234252),	-- Recipe: Flask of Unyielding Sorrow (RECIPE!)
+							i(234264),	-- Schematic: G00 DV-1B3 Generator
+							i(234265),	-- Schematic: Tuned Force Reactive Disk
+							i(234435),	-- Schematic: Obsidian Shotgun
+							i(235530),	-- Schematic: Obsidian Scope
 						},
 					}),
 				}),
@@ -2152,25 +2152,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 							["timeline"] = { REMOVED_1_15_5 },
 						-- #endif
 						}),
-						i(235039), -- Plans: Thick Obisidan Breastplate (RECIPE!)
-						i(233496), -- Barrage Shoulders
-						i(233502), -- Amulet of Foul Warding
-						i(233503), -- Pendant of the Qiraji Guardian
-						i(233504), -- Cloak of Concentrated Hatred
-						i(233505), -- Leggings of Immersion
-						i(233506), -- Beetle-Scaled Wristguards
-						i(233507), -- Ring of Swarming Thought
-						i(233509), -- Staff of the Qiraji Prophets
-						i(233514), -- Boots of the Unwavering Will
-						i(233515), -- Hammer of Jizhi
-						i(233516), -- Breastplate of Annihilation
-						i(233517), -- Boots of the Redeemed Prophecy
-						i(233518), -- Boots of the Fallen Prophet
-						i(233643), -- Anubisath Warhammer
-						i(233644), -- Garb of Royal Ascension
-						i(233645), -- Gloves of the Immortal
-						i(233647), -- Neretzek, the Blood Drinker
-						i(233648), -- Ritssyn's Ring of Chaos
+						i(235039),	-- Plans: Thick Obisidan Breastplate (RECIPE!)
+						i(233496),	-- Barrage Shoulders
+						i(233502),	-- Amulet of Foul Warding
+						i(233503),	-- Pendant of the Qiraji Guardian
+						i(233504),	-- Cloak of Concentrated Hatred
+						i(233505),	-- Leggings of Immersion
+						i(233506),	-- Beetle-Scaled Wristguards
+						i(233507),	-- Ring of Swarming Thought
+						i(233509),	-- Staff of the Qiraji Prophets
+						i(233514),	-- Boots of the Unwavering Will
+						i(233515),	-- Hammer of Jizhi
+						i(233516),	-- Breastplate of Annihilation
+						i(233517),	-- Boots of the Redeemed Prophecy
+						i(233518),	-- Boots of the Fallen Prophet
+						i(233643),	-- Anubisath Warhammer
+						i(233644),	-- Garb of Royal Ascension
+						i(233645),	-- Gloves of the Immortal
+						i(233647),	-- Neretzek, the Blood Drinker
+						i(233648),	-- Ritssyn's Ring of Chaos
 					},
 				}),
 				n(SILITHID_ROYALTY_SHARED_DROPS, {
@@ -2181,160 +2181,160 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						{ "n", 15544 },	-- Vem
 					},
 					["groups"] = {
-						i(233519), -- Cape of the Trinity
-						i(233520), -- Robes of the Triumvirate
-						i(233521), -- Ternary Mantle
-						i(233522), -- Guise of the Devourer
-						i(233523), -- Triad Girdle
-						i(233524), -- Angelista's Touch
+						i(233519),	-- Cape of the Trinity
+						i(233520),	-- Robes of the Triumvirate
+						i(233521),	-- Ternary Mantle
+						i(233522),	-- Guise of the Devourer
+						i(233523),	-- Triad Girdle
+						i(233524),	-- Angelista's Touch
 					},
 				}),
 				n(15511, {	-- Lord Kri
 					["description"] = "Killing this boss last can drop the following items.",
 					["groups"] = {
-						i(233568), -- Vest of Swift Execution
-						i(233569), -- Ring of the Devoured
-						i(233570), -- Petrified Scarab
-						i(233571), -- Wand of Qiraji Nobility
+						i(233568),	-- Vest of Swift Execution
+						i(233569),	-- Ring of the Devoured
+						i(233570),	-- Petrified Scarab
+						i(233571),	-- Wand of Qiraji Nobility
 					},
 				}),
 				n(15543, {	-- Princess Yauj
 					["description"] = "Killing this boss last can drop the following items.",
 					["groups"] = {
-						i(233563), -- Mantle of Phrenic Power
-						i(233564), -- Bile-Covered Gauntlets
-						i(233565), -- Ukko's Ring of Darkness
-						i(233566), -- Mantle of the Desert's Fury
-						i(233567), -- Mantle of the Desert Crusade
+						i(233563),	-- Mantle of Phrenic Power
+						i(233564),	-- Bile-Covered Gauntlets
+						i(233565),	-- Ukko's Ring of Darkness
+						i(233566),	-- Mantle of the Desert's Fury
+						i(233567),	-- Mantle of the Desert Crusade
 					},
 				}),
 				n(15544, {	-- Vem
 					["description"] = "Killing this boss last can drop the following items.",
 					["groups"] = {
-						i(233559), -- Gloves of Ebru
-						i(233560), -- Ooze-Ridden Gauntlets
-						i(233561), -- Boots of the Fallen Hero
-						i(233562), -- Angelista's Charm
+						i(233559),	-- Gloves of Ebru
+						i(233560),	-- Ooze-Ridden Gauntlets
+						i(233561),	-- Boots of the Fallen Hero
+						i(233562),	-- Angelista's Charm
 					},
 				}),
 			e(1544, {	-- Battleguard Sartura
 				["creatureID"] = 15516,
 				["groups"] = {
-					i(233572), -- Necklace of Purity
-					i(233573), -- Recomposed Boots
-					i(233574), -- Leggings of the Festering Swarm
-					i(233575), -- Robes of the Battleguard
-					i(233576), -- Silithid Claw
-					i(233577), -- Thick Qirajihide Belt
-					i(233578), -- Creeping Vine Helm
-					i(233579), -- Gloves of Enforcement
-					i(233580), -- Badge of the Swarmguard
-					i(233581), -- Sartura's Might
-					i(233582), -- Gauntlets of Steadfast Determination
-					i(233583), -- Legplates of Blazing Light
-					i(233584), -- Scaled Leggings of Qiraji Fury
-					i(233643), -- Anubisath Warhammer
-					i(233644), -- Garb of Royal Ascension
-					i(233645), -- Gloves of the Immortal
-					i(233646), -- Gloves of the Redeemed Prophecy
-					i(233647), -- Neretzek, the Blood Drinker
-					i(233648), -- Ritssyn's Ring of Chaos
-					i(233649), -- Shard of the Fallen Star
-					i(235047), -- Gloves of the Fallen Prophet
+					i(233572),	-- Necklace of Purity
+					i(233573),	-- Recomposed Boots
+					i(233574),	-- Leggings of the Festering Swarm
+					i(233575),	-- Robes of the Battleguard
+					i(233576),	-- Silithid Claw
+					i(233577),	-- Thick Qirajihide Belt
+					i(233578),	-- Creeping Vine Helm
+					i(233579),	-- Gloves of Enforcement
+					i(233580),	-- Badge of the Swarmguard
+					i(233581),	-- Sartura's Might
+					i(233582),	-- Gauntlets of Steadfast Determination
+					i(233583),	-- Legplates of Blazing Light
+					i(233584),	-- Scaled Leggings of Qiraji Fury
+					i(233643),	-- Anubisath Warhammer
+					i(233644),	-- Garb of Royal Ascension
+					i(233645),	-- Gloves of the Immortal
+					i(233646),	-- Gloves of the Redeemed Prophecy
+					i(233647),	-- Neretzek, the Blood Drinker
+					i(233648),	-- Ritssyn's Ring of Chaos
+					i(233649),	-- Shard of the Fallen Star
+					i(235047),	-- Gloves of the Fallen Prophet
 				},
 			}),
 			e(1545, {	-- Fankriss the Unyielding
 				["creatureID"] = 15510,
 				["groups"] = {
-					i(233369), -- Qiraji Bindings of Dominance
-					i(233370), -- Qiraji Bindings of Command
-					i(233371), -- Qiraji Bindings of Sovereignty
-					i(233585), -- Ancient Qiraji Ripper
-					i(233586), -- Jaw of the Sand Reaver
-					i(233587), -- Barbed Choker
-					i(233588), -- Cloak of Untold Secrets
-					i(233589), -- Fetish of the Sand Reaver
-					i(233590), -- Hive Tunneler's Boots
-					i(233591), -- Silithid Carapace Chestguard
-					i(233592), -- Mantle of Wicked Revenge
-					i(233593), -- Pauldrons of the Unrelenting
-					i(233594), -- Robes of the Guardian Saint
-					i(233595), -- Scaled Sand Reaver Leggings
+					i(233369),	-- Qiraji Bindings of Dominance
+					i(233370),	-- Qiraji Bindings of Command
+					i(233371),	-- Qiraji Bindings of Sovereignty
+					i(233585),	-- Ancient Qiraji Ripper
+					i(233586),	-- Jaw of the Sand Reaver
+					i(233587),	-- Barbed Choker
+					i(233588),	-- Cloak of Untold Secrets
+					i(233589),	-- Fetish of the Sand Reaver
+					i(233590),	-- Hive Tunneler's Boots
+					i(233591),	-- Silithid Carapace Chestguard
+					i(233592),	-- Mantle of Wicked Revenge
+					i(233593),	-- Pauldrons of the Unrelenting
+					i(233594),	-- Robes of the Guardian Saint
+					i(233595),	-- Scaled Sand Reaver Leggings
 				},
 			}),
 			e(1548, {	-- Viscidus
 					["description"] = "This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
 					["creatureID"] = 15299,
 					["groups"] = {
-						i(233369), -- Qiraji Bindings of Dominance
-						i(233370), -- Qiraji Bindings of Command
-						i(233371), -- Qiraji Bindings of Sovereignty
-						i(233598), -- Slime-Coated Leggings
-						i(233599), -- Sharpened Silithid Femur
-						i(233600), -- Ring of the Qiraji Fury
-						i(233601), -- Scarab Brooch
-						i(233603), -- Gauntlets of the Righteous Champion
-						i(233604), -- Gauntlets of Kalimdor
+						i(233369),	-- Qiraji Bindings of Dominance
+						i(233370),	-- Qiraji Bindings of Command
+						i(233371),	-- Qiraji Bindings of Sovereignty
+						i(233598),	-- Slime-Coated Leggings
+						i(233599),	-- Sharpened Silithid Femur
+						i(233600),	-- Ring of the Qiraji Fury
+						i(233601),	-- Scarab Brooch
+						i(233603),	-- Gauntlets of the Righteous Champion
+						i(233604),	-- Gauntlets of Kalimdor
 					},
 				}),
 				e(1546, {	-- Princess Huhuran
 					["creatureID"] = 15509,
 					["groups"] = {
-						i(233369), -- Qiraji Bindings of Dominance
-						i(233370), -- Qiraji Bindings of Command
-						i(233371), -- Qiraji Bindings of Sovereignty
-						i(233596), -- Libram of Purification
-						i(233597), -- Totem of Life
-						i(233602), -- Idol of Health
-						i(233605), -- Huhuran's Stinger
-						i(233606), -- Cloak of the Golden Hive
-						i(233607), -- Gloves of the Messiah
-						i(233608), -- Wasphide Gauntlets
-						i(233609), -- Ring of the Martyr
-						i(233610), -- Hive Defiler Wristguards
+						i(233369),	-- Qiraji Bindings of Dominance
+						i(233370),	-- Qiraji Bindings of Command
+						i(233371),	-- Qiraji Bindings of Sovereignty
+						i(233596),	-- Libram of Purification
+						i(233597),	-- Totem of Life
+						i(233602),	-- Idol of Health
+						i(233605),	-- Huhuran's Stinger
+						i(233606),	-- Cloak of the Golden Hive
+						i(233607),	-- Gloves of the Messiah
+						i(233608),	-- Wasphide Gauntlets
+						i(233609),	-- Ring of the Martyr
+						i(233610),	-- Hive Defiler Wristguards
 					},
 				}),
 				n(15276, {	-- Emperor Vek'lor
 					i(20735),	-- Formula: Enchant Cloak - Subtlety (RECIPE!)
-					i(233365), -- Intact Viscera
-					i(233367), -- Intact Peritoneum
-					i(233368), -- Intact Entrails
-					i(233611), -- Boots of Epiphany
-					i(233612), -- Qiraji Execution Bracers
-					i(233613), -- Veklor's Gloves of Devastation
-					i(233614), -- Royal Qiraji Belt
-					i(233615), -- Ring of Emperor Veklor
-					i(233616), -- Royal Scepter of Vek'lor
-					i(235045), -- Imperial Qiraji Regalia
-					i(235046), -- Imperial Qiraji Armaments
+					i(233365),	-- Intact Viscera
+					i(233367),	-- Intact Peritoneum
+					i(233368),	-- Intact Entrails
+					i(233611),	-- Boots of Epiphany
+					i(233612),	-- Qiraji Execution Bracers
+					i(233613),	-- Veklor's Gloves of Devastation
+					i(233614),	-- Royal Qiraji Belt
+					i(233615),	-- Ring of Emperor Veklor
+					i(233616),	-- Royal Scepter of Vek'lor
+					i(235045),	-- Imperial Qiraji Regalia
+					i(235046),	-- Imperial Qiraji Armaments
 				}),
 				n(15275, {	-- Emperor Vek'nilash
 					i(20726),	-- Formula: Enchant Gloves - Threat (RECIPE!)
-					i(233365), -- Intact Viscera
-					i(233367), -- Intact Peritoneum
-					i(233368), -- Intact Entrails
-					i(233617), -- Bracelets of Royal Redemption
-					i(233618), -- Gloves of the Hidden Temple
-					i(233619), -- Regenerating Belt of Vek'nilash
-					i(233620), -- Amulet of Vek'nilash
-					i(233621), -- Kalimdor's Revenge
-					i(233622), -- Grasp of the Fallen Emperor
-					i(233623), -- Belt of the Fallen Emperor
-					i(235045), -- Imperial Qiraji Regalia
-					i(235046), -- Imperial Qiraji Armaments
+					i(233365),	-- Intact Viscera
+					i(233367),	-- Intact Peritoneum
+					i(233368),	-- Intact Entrails
+					i(233617),	-- Bracelets of Royal Redemption
+					i(233618),	-- Gloves of the Hidden Temple
+					i(233619),	-- Regenerating Belt of Vek'nilash
+					i(233620),	-- Amulet of Vek'nilash
+					i(233621),	-- Kalimdor's Revenge
+					i(233622),	-- Grasp of the Fallen Emperor
+					i(233623),	-- Belt of the Fallen Emperor
+					i(235045),	-- Imperial Qiraji Regalia
+					i(235046),	-- Imperial Qiraji Armaments
 				}),
 				e(1550, {	-- Ouro
 					["creatureID"] = 15517,
 					["groups"] = {
-						i(233365), -- Intact Viscera
-						i(233367), -- Intact Peritoneum
-						i(233368), -- Intact Entrails
-						i(233624), -- Don Rigoberto's Lost Hat
-						i(233625), -- Burrower Bracers
-						i(233626), -- Larvae of the Great Worm
-						i(233627), -- Jom Gabbar
-						i(233628), -- The Burrower's Shell
-						i(233629), -- Wormscale Blocker
+						i(233365),	-- Intact Viscera
+						i(233367),	-- Intact Peritoneum
+						i(233368),	-- Intact Entrails
+						i(233624),	-- Don Rigoberto's Lost Hat
+						i(233625),	-- Burrower Bracers
+						i(233626),	-- Larvae of the Great Worm
+						i(233627),	-- Jom Gabbar
+						i(233628),	-- The Burrower's Shell
+						i(233629),	-- Wormscale Blocker
 					},
 				}),
 				e(1551, {	-- C'Thun
@@ -2345,80 +2345,80 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 							["itemID"] = 22734,	-- Base of Atiesh
 							["classes"] = { PRIEST, MAGE, WARLOCK, DRUID },
 						}),
-						i(233362), -- Husk of the Old God
-						i(233363), -- Carapace of the Old God
-						i(233364), -- Skin of the Old God
-						i(233640), -- Dark Edge of Insanity
-						i(233634), -- Death's Sting
-						i(233636), -- Scepter of the False Prophet
-						i(233632), -- Grasp of the Old God
-						i(233633), -- Eyestalk Waist Cord
-						i(233630), -- Cloak of the Devoured
-						i(233631), -- Dark Storm Gauntlets
-						i(233635), -- Belt of Never-Ending Agony
-						i(233637), -- Gauntlets of Annihilation
-						i(233638), -- Ring of the Godslayer
-						i(233639), -- Vanquished Tentacle of C'Thun
-						i(233641), -- Cloak of Clarity
-						i(233642), -- Mark of C'Thun
+						i(233362),	-- Husk of the Old God
+						i(233363),	-- Carapace of the Old God
+						i(233364),	-- Skin of the Old God
+						i(233640),	-- Dark Edge of Insanity
+						i(233634),	-- Death's Sting
+						i(233636),	-- Scepter of the False Prophet
+						i(233632),	-- Grasp of the Old God
+						i(233633),	-- Eyestalk Waist Cord
+						i(233630),	-- Cloak of the Devoured
+						i(233631),	-- Dark Storm Gauntlets
+						i(233635),	-- Belt of Never-Ending Agony
+						i(233637),	-- Gauntlets of Annihilation
+						i(233638),	-- Ring of the Godslayer
+						i(233639),	-- Vanquished Tentacle of C'Thun
+						i(233641),	-- Cloak of Clarity
+						i(233642),	-- Mark of C'Thun
 						-- Bonus Weapons?
-						i(233585), -- Ancient Qiraji Ripper
-						i(233586), -- Jaw of the Sand Reaver
-						i(233599), -- Sharpened Silithid Femur
-						i(233605), -- Huhuran's Stinger
-						i(233621), -- Kalimdor's Revenge
+						i(233585),	-- Ancient Qiraji Ripper
+						i(233586),	-- Jaw of the Sand Reaver
+						i(233599),	-- Sharpened Silithid Femur
+						i(233605),	-- Huhuran's Stinger
+						i(233621),	-- Kalimdor's Revenge
 					},
 				}),
 				n(AQ_TEMPLE_HARDMODE, {
 					["description"] = "Descent into Madness!\n\nWhen players enter Ahn'Qiraj (both Ruins and Temple), and arrive at the first boss, they will see an obelisk. By interacting with the obelisk (deactivating it), they add additional mechanics to the raid, and the raid will have a finite number of attempts to defeat the next 3 bosses. Each boss has an individual obelisk that must be deactivated to continue. Doing so will give you bonus loot chests & and you also receive a Void-Touched Emblem which turns Temple of Ahn'Qiraj Weapons into a 'Voidtouched' varient of the weapon. They have a neat void appearance despite providing no difference in quality. (Cosmetic only!)",
 					["groups"] = {
-						i(233351), -- Light Green Qiraji Resonating Crystal
-						i(233352), -- Dark Blue Qiraji Resonating Crystal
-						i(233353), -- Light Blue Qiraji Resonating Crystal
-						i(233356), -- Orange Qiraji Resonating Crystal
-						i(233357), -- Twilight Qiraji Resonating Crystal
+						i(233351),	-- Light Green Qiraji Resonating Crystal
+						i(233352),	-- Dark Blue Qiraji Resonating Crystal
+						i(233353),	-- Light Blue Qiraji Resonating Crystal
+						i(233356),	-- Orange Qiraji Resonating Crystal
+						i(233357),	-- Twilight Qiraji Resonating Crystal
 						i(234614, {	--	Void-Touched Emblem
-							i(234650), -- Ancient Qiraji Ripper
-							i(234974), -- Staff of the Qiraji Prophets
-							i(234975), -- Hammer of Jizhi
-							i(234976), -- Wand of Qiraji Nobility
-							i(234977), -- Silithid Claw
-							i(234978), -- Jaw of the Sand Reaver
-							i(234979), -- Sharpened Silithid Femur
-							i(234980), -- Huhuran's Stinger
-							i(234981), -- Kalimdor's Revenge
-							i(234983), -- Larvae of the Great Worm
-							i(234984), -- Death's Sting
-							i(234985), -- Dark Edge of Insanity
-							i(234986), -- Anubisath Warhammer
-							i(234987), -- Neretzek, the Blood Drinker
-							i(234989), -- Qiraji Sacrificial Dagger
-							i(234990), -- Manslayer of the Qiraji
-							i(234991), -- Bow of Taut Sinew
-							i(234992), -- Stinger of Ayamiss
-							i(234993), -- Crossbow of Imminent Doom
-							i(234994), -- Sand-Polished Hammer
-							i(234995), -- Staff of the Ruins
-							i(234996), -- Gavel of Qiraji Authority
-							i(234997), -- Silithid Husked Launcher
-							i(234998), -- The Lost Kris of Zedd
-							i(234999), -- Blessed Qiraji War Hammer
-							i(235000), -- Blessed Qiraji Augur Staff
-							i(235001), -- Blessed Qiraji Acolyte Staff
-							i(235002), -- Blessed Qiraji Pugio
-							i(235003), -- Blessed Qiraji War Axe
-							i(235004), -- Blessed Qiraji Musket
-							i(235005), -- Sickle of Unyielding Strength
-							i(235006), -- Dagger of Veiled Shadows
-							i(235007), -- Scythe of the Unseen Path
-							i(235008), -- Kris of Unspoken Names
-							i(235009), -- Hammer of the Gathering Storm
-							i(235010), -- Gavel of Infinite Wisdom
-							i(235011), -- Blade of Eternal Justice
-							i(235012), -- Mace of Unending Life
-							i(235013), -- Blade of Vaulted Secrets
-							i(235014), -- Scepter of the False Prophet
-							i(235282), -- Antenna of Invigoration
+							i(234650),	-- Ancient Qiraji Ripper
+							i(234974),	-- Staff of the Qiraji Prophets
+							i(234975),	-- Hammer of Jizhi
+							i(234976),	-- Wand of Qiraji Nobility
+							i(234977),	-- Silithid Claw
+							i(234978),	-- Jaw of the Sand Reaver
+							i(234979),	-- Sharpened Silithid Femur
+							i(234980),	-- Huhuran's Stinger
+							i(234981),	-- Kalimdor's Revenge
+							i(234983),	-- Larvae of the Great Worm
+							i(234984),	-- Death's Sting
+							i(234985),	-- Dark Edge of Insanity
+							i(234986),	-- Anubisath Warhammer
+							i(234987),	-- Neretzek, the Blood Drinker
+							i(234989),	-- Qiraji Sacrificial Dagger
+							i(234990),	-- Manslayer of the Qiraji
+							i(234991),	-- Bow of Taut Sinew
+							i(234992),	-- Stinger of Ayamiss
+							i(234993),	-- Crossbow of Imminent Doom
+							i(234994),	-- Sand-Polished Hammer
+							i(234995),	-- Staff of the Ruins
+							i(234996),	-- Gavel of Qiraji Authority
+							i(234997),	-- Silithid Husked Launcher
+							i(234998),	-- The Lost Kris of Zedd
+							i(234999),	-- Blessed Qiraji War Hammer
+							i(235000),	-- Blessed Qiraji Augur Staff
+							i(235001),	-- Blessed Qiraji Acolyte Staff
+							i(235002),	-- Blessed Qiraji Pugio
+							i(235003),	-- Blessed Qiraji War Axe
+							i(235004),	-- Blessed Qiraji Musket
+							i(235005),	-- Sickle of Unyielding Strength
+							i(235006),	-- Dagger of Veiled Shadows
+							i(235007),	-- Scythe of the Unseen Path
+							i(235008),	-- Kris of Unspoken Names
+							i(235009),	-- Hammer of the Gathering Storm
+							i(235010),	-- Gavel of Infinite Wisdom
+							i(235011),	-- Blade of Eternal Justice
+							i(235012),	-- Mace of Unending Life
+							i(235013),	-- Blade of Vaulted Secrets
+							i(235014),	-- Scepter of the False Prophet
+							i(235282),	-- Antenna of Invigoration
 						}),
 					},
 				}),

@@ -2002,19 +2002,19 @@ root(ROOTS.Zones, {
 						["questID"] = 31412,
 						["groups"] = {
 							i(86223, {	-- Agile Sprite Cloak
-								["description"] = "Recommended to be an Agility DPS Spec (Hunter/Rogue) to guarantee this item.", -- verified 2021-10-21 Hunter(Surv)
+								["description"] = "Recommended to be an Agility DPS Spec (Hunter/Rogue) to guarantee this item.",	-- verified 2021-10-21 Hunter(Surv)
 							}),
 							i(86222, {	-- Precise Sprite Cloak
-								["description"] = "Recommended to be in an Intellect DPS Spec (Mage/Warlock) to guarantee this item.", -- verified 2021-10-18 Mage(Frost)
+								["description"] = "Recommended to be in an Intellect DPS Spec (Mage/Warlock) to guarantee this item.",	-- verified 2021-10-18 Mage(Frost)
 							}),
 							i(86225, {	-- Strong Sprite Cloak
-								["description"] = "Recommended to be in a Strength DPS Spec to guarantee this item.", -- verified 2021-10-22 DK(Unholy)
+								["description"] = "Recommended to be in a Strength DPS Spec to guarantee this item.",	-- verified 2021-10-22 DK(Unholy)
 							}),
 							i(86221, {	-- Wise Sprite Cloak
-								["description"] = "Recommended to be in a Healer Spec to guarantee this item.", -- verified ?? Shaman(Resto)
+								["description"] = "Recommended to be in a Healer Spec to guarantee this item.",	-- verified ?? Shaman(Resto)
 							}),
 							i(86224, {	-- Steadfast Sprite Cape
-								["description"] = "Recommended to be in a Strength Tank Spec to guarantee this item.", -- verified 2021-10-18 Paladin(Prot)
+								["description"] = "Recommended to be in a Strength Tank Spec to guarantee this item.",	-- verified 2021-10-18 Paladin(Prot)
 							}),
 						},
 					}),

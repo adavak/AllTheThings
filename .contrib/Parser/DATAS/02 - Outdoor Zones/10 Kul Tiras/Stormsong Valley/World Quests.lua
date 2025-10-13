@@ -475,7 +475,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(52432, {	-- Squall
 			}),
 			q(53040, {	-- Squall Squelching
-				-- ["races"] = ALLIANCE_ONLY, -- popped on Horde 2025-09-16
+				-- ["races"] = ALLIANCE_ONLY,	-- popped on Horde 2025-09-16
 				["groups"] = {
 					i(163033),	-- Surging Mote (QI!)
 				},

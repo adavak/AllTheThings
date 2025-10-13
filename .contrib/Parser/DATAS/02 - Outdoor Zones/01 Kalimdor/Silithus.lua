@@ -1564,7 +1564,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, q(8281, {	-- Stepping Up Security
-					["sourceQuest"] = 8280, -- Securing the Supply Lines
+					["sourceQuest"] = 8280,	-- Securing the Supply Lines
 					["qg"] = 15191,	-- Windcaller Proudhorn
 					["coords"] = {
 						-- #if AFTER CATA

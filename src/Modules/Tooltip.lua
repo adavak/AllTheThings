@@ -294,24 +294,24 @@ for i,guid in ipairs({
 	"Player-3391-0757575C",	-- Sianor-Silvermoon EU
 	"Player-3391-08D25BFA",	-- Smesue-Silvermoon EU
 	-- Danny Donkey
-	"Player-1402-0715EEC6", -- Skadefryden-Turalyon EU
-	"Player-1402-098AE1CC", -- Pessitank-Turalyon EU
-	"Player-1402-07F49282", -- Lommetjuven-Turalyon EU
-	"Player-1402-0A173E4E", -- Vådeskyttarn-Turalyon EU
-	"Player-1402-0A6F6AEF", -- Allianceelf-Turalyon EU
-	"Player-1402-0A716C0D", -- Allianceorc-Turalyon EU
-	"Player-1402-09D26257", -- Alliancetaur-Turalyon EU
-	"Player-1402-0A72B31C", -- Alliancetusk-Turalyon EU
-	"Player-1402-0A73A911", -- Alliancemate-Turalyon EU
+	"Player-1402-0715EEC6",	-- Skadefryden-Turalyon EU
+	"Player-1402-098AE1CC",	-- Pessitank-Turalyon EU
+	"Player-1402-07F49282",	-- Lommetjuven-Turalyon EU
+	"Player-1402-0A173E4E",	-- Vådeskyttarn-Turalyon EU
+	"Player-1402-0A6F6AEF",	-- Allianceelf-Turalyon EU
+	"Player-1402-0A716C0D",	-- Allianceorc-Turalyon EU
+	"Player-1402-09D26257",	-- Alliancetaur-Turalyon EU
+	"Player-1402-0A72B31C",	-- Alliancetusk-Turalyon EU
+	"Player-1402-0A73A911",	-- Alliancemate-Turalyon EU
 	-- Dead Serious
-	"Player-1305-08781C8A", -- Vultheus-Kazzak EU
-	"Player-1305-07A1A502", -- Krulgore-Kazzak EU
+	"Player-1305-08781C8A",	-- Vultheus-Kazzak EU
+	"Player-1305-07A1A502",	-- Krulgore-Kazzak EU
 	-- Molkree
-	"Player-1396-08C42356", -- Molkree-AzjolNerub EU
+	"Player-1396-08C42356",	-- Molkree-AzjolNerub EU
 	-- AlexSoft
-	"Player-3391-0C397003", -- Solitudo-Silvermoon EU
+	"Player-3391-0C397003",	-- Solitudo-Silvermoon EU
 	"Player-1614-09A3116A",	-- Бонпаль-Galakrond EU
-	"Player-1602-0A45D435", -- Энисофт-Gordunni EU
+	"Player-1602-0A45D435",	-- Энисофт-Gordunni EU
 	-- Gold
 	"Player-3679-0B1F96DB",	-- Gold-Aegwynn EU
 	"Player-1099-060EE8FF",	-- Saremy-Alleria EU
@@ -330,11 +330,11 @@ for i,guid in ipairs({
 	"Player-3676-0E1027D9",	-- Àldori-Area52 US
 	"Player-3676-0DC9ECFD",	-- Húlkstab-Area52 US
 	-- Sanctuari
-	"Player-63-08E17A71", -- Sanctuari-Ysera US
+	"Player-63-08E17A71",	-- Sanctuari-Ysera US
 	-- Jez
 	"Player-3676-0A6CC504",	-- Jezartroz-Area52 US
 	-- rootkit1337
-	"Player-3674-0B3F8DA8", -- Cerealm-TwistingNether EU
+	"Player-3674-0B3F8DA8",	-- Cerealm-TwistingNether EU
 	-- Exodius
 	"Player-1096-076FE799",	-- Felhaim-DefiasBrotherhood EU
 	"Player-1096-076FE593",	-- Exodiüs-DefiasBrotherhood EU

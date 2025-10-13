@@ -9,7 +9,7 @@ BREWFEST_HEADER = createHeader({
 	eventID = EVENTS.BREWFEST,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		9, 20, 10, 0,	-- 9/20 at 10 AM
 		10, 4, 10, 0	-- 10/4 at 10 AM
 	},
@@ -1440,7 +1440,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						-- #endif
 						-- #if AFTER TWW
 						220307,	-- Holiday Enthusiast
-						220870, -- Holiday Enthusiast
+						220870,	-- Holiday Enthusiast
 						-- #endif
 					},
 					["timeline"] = { ADDED_2_2_2 },
@@ -1490,7 +1490,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						-- #endif
 						-- #if AFTER TWW
 						220307,	-- Holiday Enthusiast
-						220870, -- Holiday Enthusiast
+						220870,	-- Holiday Enthusiast
 						-- #endif
 					},
 					["timeline"] = { ADDED_2_2_2 },
@@ -1789,7 +1789,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["qgs"] = {
 						24657,	-- Glodrak Huntsniper
 						-- #if AFTER 8.2.0
-						155269, -- Snipehunter Goro
+						155269,	-- Snipehunter Goro
 						-- #endif
 					},
 					["coords"] = {
@@ -2112,7 +2112,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["qgs"] = {
 						24657,	-- Glodrak Huntsniper
 						-- #if AFTER 8.2.0
-						155269, -- Snipehunter Goro
+						155269,	-- Snipehunter Goro
 						-- #endif
 					},
 					["coords"] = {

@@ -1660,7 +1660,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- Fish Paste Tested
 							["provider"] = { "i", 33166 },	-- Pagle's Fish Paste, Extra Strength
-							["cr"] = 23928, -- Lurking Shark
+							["cr"] = 23928,	-- Lurking Shark
 						}),
 					},
 				}),

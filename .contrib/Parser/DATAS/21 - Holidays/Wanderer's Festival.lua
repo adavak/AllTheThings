@@ -7,7 +7,7 @@ root(ROOTS.Holidays, {
 		icon = 606553,
 		eventID = EVENTS.WANDERERS_FESTIVAL,
 		eventSchedule = {
-			4, -- Weekly Recurring
+			4,	-- Weekly Recurring
 			1, 21, 0, 120,	-- Sunday at 09:00 PM (21:00) until 11:00 PM (23:00)
 		},
 		text = {

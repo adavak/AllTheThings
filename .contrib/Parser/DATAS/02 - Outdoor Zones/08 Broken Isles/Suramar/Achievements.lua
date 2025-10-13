@@ -35,11 +35,11 @@ root(ROOTS.Zones, {
 						42792,	-- Make Your Mark
 					},
 					--["providers"] = {
-					--	{ "i", 136269 }, -- Kel'danath's Manaflask (CI!)
-					--	{ "i", 140327 }, -- Krytos's Research Notes (CI!)
-					--	{ "i", 140326 }, -- Enchanted Burial Urn (CI!)
-					--	{ "i", 140329 }, -- Infinite Stone (CI!)
-					--	{ "i", 140328 }, -- Volatile Leyline Crystal (CI!)
+					--	{ "i", 136269 },	-- Kel'danath's Manaflask (CI!)
+					--	{ "i", 140327 },	-- Krytos's Research Notes (CI!)
+					--	{ "i", 140326 },	-- Enchanted Burial Urn (CI!)
+					--	{ "i", 140329 },	-- Infinite Stone (CI!)
+					--	{ "i", 140328 },	-- Volatile Leyline Crystal (CI!)
 					--},
 				}),
 			}),

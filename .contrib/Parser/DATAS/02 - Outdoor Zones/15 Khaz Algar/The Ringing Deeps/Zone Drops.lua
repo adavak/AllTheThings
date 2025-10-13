@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		n(ZONE_DROPS, {
 			i(212595, {	-- Glittering Shard (QS!)/(QI!)
 				["coord"] = { 56.9, 16.3, THE_RINGING_DEEPS },
-				["cr"] = 215233, -- Urthgrafr Riftcaller
+				["cr"] = 215233,	-- Urthgrafr Riftcaller
 			}),
 			i(224772, {	-- Bounty from Gallywix (QS!/QI!)
 				["coord"] = { 72.0, 77.2, THE_RINGING_DEEPS },

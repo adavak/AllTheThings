@@ -84,7 +84,7 @@ root(ROOTS.Zones, {
 				-- #endif
 				n(TREASURES, {
 					o(214325, {	-- Forgotten Lockbox
-						["questID"] = 31867, -- Forgotten Lockbox
+						["questID"] = 31867,	-- Forgotten Lockbox
 						["coord"] = { 54.66, 71.67, THE_VEILED_STAIR },
 						["description"] = "Located on a barrel on the second floor of the inn",
 					}),

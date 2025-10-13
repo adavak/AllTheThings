@@ -308,7 +308,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						}),
 						n(VENDORS, {
 							n(143138, {	-- Rin'wosho the Trader <Zandalar Supplies & Repair>
-								["sourceQuest"] = 74576, -- Restored Hakkari Bijou
+								["sourceQuest"] = 74576,	-- Restored Hakkari Bijou
 								["coord"] = { 55.0, 86.8, DAZARALOR },
 								["groups"] = {
 									cl(DRUID, {

@@ -8,27 +8,27 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		},{
 			n(COMMON_BOSS_DROPS, {
 				["crs"] = {
-					230137, -- Asbjorn the Bloodsoaked
-					228154, -- Bloodbrine
-					231356, -- Brinebough
-					228583, -- Chef Chum Platter
-					229852, -- Coralweaver Calliso
-					228601, -- Ghostmaker
-					228201, -- Gravesludge
-					228155, -- Grimgull
-					228159, -- Gunnlod the Sea-Drinker
-					227545, -- Ikir the Flotsurge
-					231368, -- Ksvir the Forgotten
-					229982, -- Nerathor
-					228580, -- Plank-Master Bluebelly
-					229853, -- Siris the Sea Scorpion
-					227550, -- Shardsong
-					228547, -- Slaughtershell
-					231090, -- Snacker
-					229992, -- Stalagnarok
-					228151, -- Wreckwater
-					231353, -- Tempest Talon
-					231357, -- Zek'ul the Shipbreaker
+					230137,	-- Asbjorn the Bloodsoaked
+					228154,	-- Bloodbrine
+					231356,	-- Brinebough
+					228583,	-- Chef Chum Platter
+					229852,	-- Coralweaver Calliso
+					228601,	-- Ghostmaker
+					228201,	-- Gravesludge
+					228155,	-- Grimgull
+					228159,	-- Gunnlod the Sea-Drinker
+					227545,	-- Ikir the Flotsurge
+					231368,	-- Ksvir the Forgotten
+					229982,	-- Nerathor
+					228580,	-- Plank-Master Bluebelly
+					229853,	-- Siris the Sea Scorpion
+					227550,	-- Shardsong
+					228547,	-- Slaughtershell
+					231090,	-- Snacker
+					229992,	-- Stalagnarok
+					228151,	-- Wreckwater
+					231353,	-- Tempest Talon
+					231357,	-- Zek'ul the Shipbreaker
 				},
 				["groups"] = {
 					filter(CLOAKS, {

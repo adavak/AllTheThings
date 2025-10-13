@@ -76,7 +76,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				["coord"] = { 51.0, 49.65, TOL_BARAD },
 			}, {
 				TolBaradDailyQuest(28122, {	-- A Huge Problem [A]
-					["qg"] = 48066, -- Sergeant Parker
+					["qg"] = 48066,	-- Sergeant Parker
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -87,7 +87,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28657, {	-- A Huge Problem [H]
-					["qg"] = 48069, -- Commander Zanoth
+					["qg"] = 48069,	-- Commander Zanoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -98,7 +98,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28658, {	-- Swamp Bait [H]
-					["qg"] = 48069, -- Commander Zanoth
+					["qg"] = 48069,	-- Commander Zanoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -110,7 +110,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28162, {	-- Swamp Bait [A]
-					["qg"] = 48066, -- Sergeant Parker
+					["qg"] = 48066,	-- Sergeant Parker
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -122,7 +122,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28163, {	-- The Leftovers [A]
-					["qg"] = 48066, -- Sergeant Parker
+					["qg"] = 48066,	-- Sergeant Parker
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -138,7 +138,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28659, {	-- The Leftovers [H]
-					["qg"] = 48069, -- Commander Zanoth
+					["qg"] = 48069,	-- Commander Zanoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -162,7 +162,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				-- #endif
 			}, {
 				TolBaradDailyQuest(28117, {	-- Clearing the Depths [A]
-					["qg"] = 48039, -- Commander Stevens
+					["qg"] = 48039,	-- Commander Stevens
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -177,7 +177,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28660, {	-- Clearing the Depths [H]
-					["qg"] = 48071, -- Private Garnoth
+					["qg"] = 48071,	-- Private Garnoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -192,7 +192,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28665, {	-- Cursed Shackles [H]
-					["qg"] = 48070, -- Drillmaster Razgoth
+					["qg"] = 48070,	-- Drillmaster Razgoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -206,7 +206,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28186, {	-- Cursed Shackles [A]
-					["qg"] = 48061, -- 2nd Lieutenant Wansworth
+					["qg"] = 48061,	-- 2nd Lieutenant Wansworth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -220,7 +220,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28165, {	-- D-Block [A]
-					["qg"] = 48061, -- 2nd Lieutenant Wansworth
+					["qg"] = 48061,	-- 2nd Lieutenant Wansworth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -238,7 +238,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28663, {	-- D-Block [H]
-					["qg"] = 48070, -- Drillmaster Razgoth
+					["qg"] = 48070,	-- Drillmaster Razgoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -256,7 +256,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28670, {	-- Food From Below [H]
-					["qg"] = 48062, -- Staff Sergeant Lazgar
+					["qg"] = 48062,	-- Staff Sergeant Lazgar
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -270,7 +270,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28232, {	-- Food From Below [A]
-					["qg"] = 48074, -- Marshal Fallows
+					["qg"] = 48074,	-- Marshal Fallows
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -284,7 +284,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28662, {	-- Learning From The Past [H]
-					["qg"] = 48071, -- Private Garnoth
+					["qg"] = 48071,	-- Private Garnoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -298,7 +298,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28120, {	-- Learning From The Past [A]
-					["qg"] = 48039, -- Commander Stevens
+					["qg"] = 48039,	-- Commander Stevens
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -312,7 +312,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28188, {	-- Prison Revolt [A]
-					["qg"] = 48074, -- Marshal Fallows
+					["qg"] = 48074,	-- Marshal Fallows
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -329,7 +329,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28668, {	-- Prison Revolt [H]
-					["qg"] = 48062, -- Staff Sergeant Lazgar
+					["qg"] = 48062,	-- Staff Sergeant Lazgar
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -346,7 +346,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28185, {	-- Svarnos [A]
-					["qg"] = 48061, -- 2nd Lieutenant Wansworth
+					["qg"] = 48061,	-- 2nd Lieutenant Wansworth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -358,7 +358,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28664, {	-- Svarnos [H]
-					["qg"] = 48070, -- Drillmaster Razgoth
+					["qg"] = 48070,	-- Drillmaster Razgoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -370,7 +370,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28118, {	-- The Imprisoned Archmage [A]
-					["qg"] = 48039, -- Commander Stevens
+					["qg"] = 48039,	-- Commander Stevens
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -382,7 +382,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28661, {	-- The Imprisoned Archmage [H]
-					["qg"] = 48071, -- Private Garnoth
+					["qg"] = 48071,	-- Private Garnoth
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -394,7 +394,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28223, {	-- The Warden [A]
-					["qg"] = 48074, -- Marshal Fallows
+					["qg"] = 48074,	-- Marshal Fallows
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
@@ -406,7 +406,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				TolBaradDailyQuest(28669, {	-- The Warden [H]
-					["qg"] = 48062, -- Staff Sergeant Lazgar
+					["qg"] = 48062,	-- Staff Sergeant Lazgar
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,

@@ -82,78 +82,78 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			n(RARES, {
 				n(COMMON_BOSS_DROPS, {
 					["crs"] = {
-						241227, -- Dissenter Glaivefur
-						241228, -- Dissenter Oathland
-						241229, -- Dissenter Fervormyt
-						241230, -- Dissenter Tailtrek
-						241231, -- Dissenter Fortfervor
-						241232, -- Dissenter Troosilver
-						241234, -- Whisperer Batalsworn
-						241235, -- Whisperer Hillhelm
-						241236, -- Whisperer Bravefort
-						241237, -- Whisperer Warsididel
-						241238, -- Whisperer Siegesage
-						241239, -- Whisperer Warhavuk
+						241227,	-- Dissenter Glaivefur
+						241228,	-- Dissenter Oathland
+						241229,	-- Dissenter Fervormyt
+						241230,	-- Dissenter Tailtrek
+						241231,	-- Dissenter Fortfervor
+						241232,	-- Dissenter Troosilver
+						241234,	-- Whisperer Batalsworn
+						241235,	-- Whisperer Hillhelm
+						241236,	-- Whisperer Bravefort
+						241237,	-- Whisperer Warsididel
+						241238,	-- Whisperer Siegesage
+						241239,	-- Whisperer Warhavuk
 					},
 					["sym"] = {{"select","itemID",
-						237471, -- Band of the Voidmancer
-						237474, -- Cult Former's Charm
-						237473, -- Dark Bargainer's Chain
-						237495, -- Excerpt on Dark Summons
-						237435, -- Nightfall Darkcaster's Cloak
-						237436, -- Nightfall Darkcaster's Vestment
-						237437, -- Nightfall Darkcaster's Sandals
-						237438, -- Nightfall Darkcaster's Handwraps
-						237439, -- Nightfall Darkcaster's Cowl
-						237440, -- Nightfall Darkcaster's Leggings
-						237441, -- Nightfall Darkcaster's Mantle
-						237442, -- Nightfall Darkcaster's Cord
-						237443, -- Nightfall Darkcaster's Cuffs
-						237444, -- Nightfall Curseblade's Cape
-						237445, -- Nightfall Curseblade's Vest
-						237446, -- Nightfall Curseblade's Waders
-						237447, -- Nightfall Curseblade's Grips
-						237448, -- Nightfall Curseblade's Breeches
-						237449, -- Nightfall Curseblade's Shoulderpads
-						237450, -- Nightfall Curseblade's Sash
-						237451, -- Nightfall Curseblade's Bindings
-						237452, -- Nightfall Shadowstalker's Shawl
-						237453, -- Nightfall Shadowstalker's Chainmail
-						237454, -- Nightfall Shadowstalker's Striders
-						237455, -- Nightfall Shadowstalker's Grips
-						237456, -- Nightfall Shadowstalker's Coif
-						237457, -- Nightfall Shadowstalker's Greaves
-						237458, -- Nightfall Shadowstalker's Shoulderguards
-						237459, -- Nightfall Shadowstalker's Cinch
-						237460, -- Nightfall Shadowstalker's Bracers
-						237461, -- Nightfall Executioner's Drape
-						237462, -- Nightfall Executioner's Breastplate
-						237463, -- Nightfall Executioner's Sabatons
-						237464, -- Nightfall Executioner's Gauntlets
-						237465, -- Nightfall Executioner's Helm
-						237466, -- Nightfall Executioner's Legguards
-						237467, -- Nightfall Executioner's Mantle
-						237468, -- Nightfall Executioner's Girdle
-						237469, -- Nightfall Executioner's Armplates
-						237470, -- Nightfall Curseblade's Cape
-						237775, -- Nightfall Curseblade's Cleaver
-						237776, -- Nightfall Executioner's Halberd
-						237777, -- Nightfall Shadowalker's Bulwark
-						237778, -- Nightfall Executioner's Greatsword
-						237779, -- Nightfall Darkcaster's Gavel
-						237780, -- Nightfall Curseblade's Cudgel
-						237781, -- Nightfall Shadowalker's Dagger
-						237782, -- Nightfall Curseblade's Knife
-						237783, -- Nightfall Darkcaster's Greatstaff
-						237784, -- Nightfall Shadowalker's Rod
-						237785, -- Nightfall Darkcaster's Implement
-						237786, -- Nightfall Curseblade's Blunderbuss
-						237787, -- Nightfall Darkcaster's Kris
-						237788, -- Nightfall Shadowalker's Shotgun
-						237789, -- Nightfall Curseblade's Warglaive
-						237790, -- Nightfall Darkcaster's Wand
-						237472, -- Seal of Cosmic Embrace
-						225693, -- Shadowed Essence (Hallowfall zone treasure)
+						237471,	-- Band of the Voidmancer
+						237474,	-- Cult Former's Charm
+						237473,	-- Dark Bargainer's Chain
+						237495,	-- Excerpt on Dark Summons
+						237435,	-- Nightfall Darkcaster's Cloak
+						237436,	-- Nightfall Darkcaster's Vestment
+						237437,	-- Nightfall Darkcaster's Sandals
+						237438,	-- Nightfall Darkcaster's Handwraps
+						237439,	-- Nightfall Darkcaster's Cowl
+						237440,	-- Nightfall Darkcaster's Leggings
+						237441,	-- Nightfall Darkcaster's Mantle
+						237442,	-- Nightfall Darkcaster's Cord
+						237443,	-- Nightfall Darkcaster's Cuffs
+						237444,	-- Nightfall Curseblade's Cape
+						237445,	-- Nightfall Curseblade's Vest
+						237446,	-- Nightfall Curseblade's Waders
+						237447,	-- Nightfall Curseblade's Grips
+						237448,	-- Nightfall Curseblade's Breeches
+						237449,	-- Nightfall Curseblade's Shoulderpads
+						237450,	-- Nightfall Curseblade's Sash
+						237451,	-- Nightfall Curseblade's Bindings
+						237452,	-- Nightfall Shadowstalker's Shawl
+						237453,	-- Nightfall Shadowstalker's Chainmail
+						237454,	-- Nightfall Shadowstalker's Striders
+						237455,	-- Nightfall Shadowstalker's Grips
+						237456,	-- Nightfall Shadowstalker's Coif
+						237457,	-- Nightfall Shadowstalker's Greaves
+						237458,	-- Nightfall Shadowstalker's Shoulderguards
+						237459,	-- Nightfall Shadowstalker's Cinch
+						237460,	-- Nightfall Shadowstalker's Bracers
+						237461,	-- Nightfall Executioner's Drape
+						237462,	-- Nightfall Executioner's Breastplate
+						237463,	-- Nightfall Executioner's Sabatons
+						237464,	-- Nightfall Executioner's Gauntlets
+						237465,	-- Nightfall Executioner's Helm
+						237466,	-- Nightfall Executioner's Legguards
+						237467,	-- Nightfall Executioner's Mantle
+						237468,	-- Nightfall Executioner's Girdle
+						237469,	-- Nightfall Executioner's Armplates
+						237470,	-- Nightfall Curseblade's Cape
+						237775,	-- Nightfall Curseblade's Cleaver
+						237776,	-- Nightfall Executioner's Halberd
+						237777,	-- Nightfall Shadowalker's Bulwark
+						237778,	-- Nightfall Executioner's Greatsword
+						237779,	-- Nightfall Darkcaster's Gavel
+						237780,	-- Nightfall Curseblade's Cudgel
+						237781,	-- Nightfall Shadowalker's Dagger
+						237782,	-- Nightfall Curseblade's Knife
+						237783,	-- Nightfall Darkcaster's Greatstaff
+						237784,	-- Nightfall Shadowalker's Rod
+						237785,	-- Nightfall Darkcaster's Implement
+						237786,	-- Nightfall Curseblade's Blunderbuss
+						237787,	-- Nightfall Darkcaster's Kris
+						237788,	-- Nightfall Shadowalker's Shotgun
+						237789,	-- Nightfall Curseblade's Warglaive
+						237790,	-- Nightfall Darkcaster's Wand
+						237472,	-- Seal of Cosmic Embrace
+						225693,	-- Shadowed Essence (Hallowfall zone treasure)
 					}},
 				}),
 				-- AZJ'KAHET
@@ -394,25 +394,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["description"] = "Granted for achieving 66% during the Nightfall event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe event always starts on the hour.\n\nThe Boss itself gives 41%.",
 					["groups"] = {
 						n(WEAPONS, {
-							i(237795), -- Arathi Abbot's Gavel
-							i(237799), -- Arathi Abbot's Greatstaff
-							i(237801), -- Arathi Abbot's Implement
-							i(237803), -- Arathi Abbot's Kris
-							i(237806), -- Arathi Abbot's Wand
-							i(241036), -- Arathi Anointer's Wand
-							i(237800), -- Arathi Cleric's Rod
-							i(237802), -- Arathi Cleric's Blunderbuss
-							i(237792), -- Arathi Crusader's Halberd
-							i(237793), -- Arathi Crusader's Bulwark
-							i(237794), -- Arathi Crusader's Greatsword
-							i(241035), -- Arathi Soldier's Morningstar
-							i(241033), -- Arathi Templar's Claymore
-							i(237791), -- Arathi Zealot's Cleaver
-							i(237796), -- Arathi Zealot's Cudgel
-							i(237797), -- Arathi Zealot's Dagger
-							i(237798), -- Arathi Zealot's Knife
-							i(237804), -- Arathi Zealot's Shotgun
-							i(237805), -- Arathi Zealot's Warglaive
+							i(237795),	-- Arathi Abbot's Gavel
+							i(237799),	-- Arathi Abbot's Greatstaff
+							i(237801),	-- Arathi Abbot's Implement
+							i(237803),	-- Arathi Abbot's Kris
+							i(237806),	-- Arathi Abbot's Wand
+							i(241036),	-- Arathi Anointer's Wand
+							i(237800),	-- Arathi Cleric's Rod
+							i(237802),	-- Arathi Cleric's Blunderbuss
+							i(237792),	-- Arathi Crusader's Halberd
+							i(237793),	-- Arathi Crusader's Bulwark
+							i(237794),	-- Arathi Crusader's Greatsword
+							i(241035),	-- Arathi Soldier's Morningstar
+							i(241033),	-- Arathi Templar's Claymore
+							i(237791),	-- Arathi Zealot's Cleaver
+							i(237796),	-- Arathi Zealot's Cudgel
+							i(237797),	-- Arathi Zealot's Dagger
+							i(237798),	-- Arathi Zealot's Knife
+							i(237804),	-- Arathi Zealot's Shotgun
+							i(237805),	-- Arathi Zealot's Warglaive
 						}),
 					},
 				}),
@@ -495,64 +495,64 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						234440, 	--	Azj-Tak the Behemoth
 					},
 					["sym"] = {{"select","itemID",
-						237471, -- Band of the Voidmancer
-						237474, -- Cult Former's Charm
-						237473, -- Dark Bargainer's Chain
-						237495, -- Excerpt on Dark Summons
-						237435, -- Nightfall Darkcaster's Cloak
-						237436, -- Nightfall Darkcaster's Vestment
-						237437, -- Nightfall Darkcaster's Sandals
-						237438, -- Nightfall Darkcaster's Handwraps
-						237439, -- Nightfall Darkcaster's Cowl
-						237440, -- Nightfall Darkcaster's Leggings
-						237441, -- Nightfall Darkcaster's Mantle
-						237442, -- Nightfall Darkcaster's Cord
-						237443, -- Nightfall Darkcaster's Cuffs
-						237444, -- Nightfall Curseblade's Cape
-						237445, -- Nightfall Curseblade's Vest
-						237446, -- Nightfall Curseblade's Waders
-						237447, -- Nightfall Curseblade's Grips
-						237448, -- Nightfall Curseblade's Breeches
-						237449, -- Nightfall Curseblade's Shoulderpads
-						237450, -- Nightfall Curseblade's Sash
-						237451, -- Nightfall Curseblade's Bindings
-						237452, -- Nightfall Shadowstalker's Shawl
-						237453, -- Nightfall Shadowstalker's Chainmail
-						237454, -- Nightfall Shadowstalker's Striders
-						237455, -- Nightfall Shadowstalker's Grips
-						237456, -- Nightfall Shadowstalker's Coif
-						237457, -- Nightfall Shadowstalker's Greaves
-						237458, -- Nightfall Shadowstalker's Shoulderguards
-						237459, -- Nightfall Shadowstalker's Cinch
-						237460, -- Nightfall Shadowstalker's Bracers
-						237461, -- Nightfall Executioner's Drape
-						237462, -- Nightfall Executioner's Breastplate
-						237463, -- Nightfall Executioner's Sabatons
-						237464, -- Nightfall Executioner's Gauntlets
-						237465, -- Nightfall Executioner's Helm
-						237466, -- Nightfall Executioner's Legguards
-						237467, -- Nightfall Executioner's Mantle
-						237468, -- Nightfall Executioner's Girdle
-						237469, -- Nightfall Executioner's Armplates
-						237470, -- Nightfall Curseblade's Cape
-						237775, -- Nightfall Curseblade's Cleaver
-						237776, -- Nightfall Executioner's Halberd
-						237777, -- Nightfall Shadowalker's Bulwark
-						237778, -- Nightfall Executioner's Greatsword
-						237779, -- Nightfall Darkcaster's Gavel
-						237780, -- Nightfall Curseblade's Cudgel
-						237781, -- Nightfall Shadowalker's Dagger
-						237782, -- Nightfall Curseblade's Knife
-						237783, -- Nightfall Darkcaster's Greatstaff
-						237784, -- Nightfall Shadowalker's Rod
-						237785, -- Nightfall Darkcaster's Implement
-						237786, -- Nightfall Curseblade's Blunderbuss
-						237787, -- Nightfall Darkcaster's Kris
-						237788, -- Nightfall Shadowalker's Shotgun
-						237789, -- Nightfall Curseblade's Warglaive
-						237790, -- Nightfall Darkcaster's Wand
-						237472, -- Seal of Cosmic Embrace
-						225693, -- Shadowed Essence (Hallowfall zone treasure)
+						237471,	-- Band of the Voidmancer
+						237474,	-- Cult Former's Charm
+						237473,	-- Dark Bargainer's Chain
+						237495,	-- Excerpt on Dark Summons
+						237435,	-- Nightfall Darkcaster's Cloak
+						237436,	-- Nightfall Darkcaster's Vestment
+						237437,	-- Nightfall Darkcaster's Sandals
+						237438,	-- Nightfall Darkcaster's Handwraps
+						237439,	-- Nightfall Darkcaster's Cowl
+						237440,	-- Nightfall Darkcaster's Leggings
+						237441,	-- Nightfall Darkcaster's Mantle
+						237442,	-- Nightfall Darkcaster's Cord
+						237443,	-- Nightfall Darkcaster's Cuffs
+						237444,	-- Nightfall Curseblade's Cape
+						237445,	-- Nightfall Curseblade's Vest
+						237446,	-- Nightfall Curseblade's Waders
+						237447,	-- Nightfall Curseblade's Grips
+						237448,	-- Nightfall Curseblade's Breeches
+						237449,	-- Nightfall Curseblade's Shoulderpads
+						237450,	-- Nightfall Curseblade's Sash
+						237451,	-- Nightfall Curseblade's Bindings
+						237452,	-- Nightfall Shadowstalker's Shawl
+						237453,	-- Nightfall Shadowstalker's Chainmail
+						237454,	-- Nightfall Shadowstalker's Striders
+						237455,	-- Nightfall Shadowstalker's Grips
+						237456,	-- Nightfall Shadowstalker's Coif
+						237457,	-- Nightfall Shadowstalker's Greaves
+						237458,	-- Nightfall Shadowstalker's Shoulderguards
+						237459,	-- Nightfall Shadowstalker's Cinch
+						237460,	-- Nightfall Shadowstalker's Bracers
+						237461,	-- Nightfall Executioner's Drape
+						237462,	-- Nightfall Executioner's Breastplate
+						237463,	-- Nightfall Executioner's Sabatons
+						237464,	-- Nightfall Executioner's Gauntlets
+						237465,	-- Nightfall Executioner's Helm
+						237466,	-- Nightfall Executioner's Legguards
+						237467,	-- Nightfall Executioner's Mantle
+						237468,	-- Nightfall Executioner's Girdle
+						237469,	-- Nightfall Executioner's Armplates
+						237470,	-- Nightfall Curseblade's Cape
+						237775,	-- Nightfall Curseblade's Cleaver
+						237776,	-- Nightfall Executioner's Halberd
+						237777,	-- Nightfall Shadowalker's Bulwark
+						237778,	-- Nightfall Executioner's Greatsword
+						237779,	-- Nightfall Darkcaster's Gavel
+						237780,	-- Nightfall Curseblade's Cudgel
+						237781,	-- Nightfall Shadowalker's Dagger
+						237782,	-- Nightfall Curseblade's Knife
+						237783,	-- Nightfall Darkcaster's Greatstaff
+						237784,	-- Nightfall Shadowalker's Rod
+						237785,	-- Nightfall Darkcaster's Implement
+						237786,	-- Nightfall Curseblade's Blunderbuss
+						237787,	-- Nightfall Darkcaster's Kris
+						237788,	-- Nightfall Shadowalker's Shotgun
+						237789,	-- Nightfall Curseblade's Warglaive
+						237790,	-- Nightfall Darkcaster's Wand
+						237472,	-- Seal of Cosmic Embrace
+						225693,	-- Shadowed Essence (Hallowfall zone treasure)
 					}},
 				}),
 			}),

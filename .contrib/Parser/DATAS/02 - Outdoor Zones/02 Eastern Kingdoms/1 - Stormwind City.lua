@@ -1838,7 +1838,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 60,
 				}),
 				q(7640, {	-- Exorcising Terrordale
-					["sourceQuest"] = 7639, -- To Show Due Judgment
+					["sourceQuest"] = 7639,	-- To Show Due Judgment
 					["providers"] = {
 						{ "n", 928 },	-- Lord Grayson Shadowbreaker <Paladin Trainer>
 						{ "i", 18752 },	-- Exorcism Censer
@@ -4351,7 +4351,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(7639, {	-- To Show Due Judgment
-					["sourceQuest"] = 7637, -- Emphasis on Sacrifice
+					["sourceQuest"] = 7637,	-- Emphasis on Sacrifice
 					["providers"] = {
 						{ "n", 11406 },	-- High Priest Rohan <Priest Trainer>
 						{ "i", 18819 },	-- Rohan's Exorcism Censer

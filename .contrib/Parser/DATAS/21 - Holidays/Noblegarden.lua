@@ -8,7 +8,7 @@ NOBLEGARDEN_HEADER = createHeader({
 	eventID = EVENTS.NOBLEGARDEN,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		4, 17, 0, 0,	-- 04/17 at 12:00 AM
 		4, 18, 0, 0		-- 04/18 at 12:00 AM
 	},
@@ -704,7 +704,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["qgs"] = {
 				32798,	-- Spring Gatherer
 				-- #IF AFTER TWW
-				215033, -- Spring Sorter
+				215033,	-- Spring Sorter
 				-- #ENDIF
 			},
 			["coords"] = {

@@ -6,7 +6,7 @@ local ObjectDB = ObjectDB; for objectID,objectData in pairs({
 			en = "Employee Schedule",
 			de = "Schichtplan",
 			es = "Horario de trabajador",
-			mx = "Cronograma de empleados",	
+			mx = "Cronograma de empleados",
 			fr = "Horaires du personnel",
 			it = "Programma dei Dipendenti",
 			pt = "Escala de Funcionários",
@@ -33,7 +33,7 @@ local ObjectDB = ObjectDB; for objectID,objectData in pairs({
 		},
 	},
 	[456073] = {
-		readable = "Sputtering Taserblade", -- this object does not exist outside of the ptr, please check to remove from here
+		readable = "Sputtering Taserblade",	-- this object does not exist outside of the ptr, please check to remove from here
 		text = {
 			en = "Sputtering Taserblade",
 			es = "Sputtering Taserblade",

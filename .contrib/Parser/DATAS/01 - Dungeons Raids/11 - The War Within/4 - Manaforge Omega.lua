@@ -546,7 +546,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				n(245349, {	-- Zo'ropo <Eccentric Engineer>
 					["coord"] = { 42.0, 22.0, KARESH },
 					["groups"] = sharedData({
-						["cost"] = { { "i", 246727, 1 }, }, -- Ethereal Essence Sliver
+						["cost"] = { { "i", 246727, 1 }, },	-- Ethereal Essence Sliver
 					}, {
 						i(249206),	-- Manaforge Raider's Cosmic Baton (COSMETIC!)
 						i(249170),	-- Manaforge Raider's Cosmic Beamglaive (COSMETIC!)
@@ -626,7 +626,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				n(245348, {	-- Ba'choso <Curious Curator>
 					["coord"] = { 42.0, 22.4, KARESH },
 					["groups"] = sharedData({
-						["cost"] = { { "i", 245510, 1 }, }, -- Loombeast Silk
+						["cost"] = { { "i", 245510, 1 }, },	-- Loombeast Silk
 					}, {
 						iensemble(248977),	-- Ensemble: Augur's Ephemeral Brilliance
 						iensemble(248978),	-- Ensemble: Breeze of Fallen Storms

@@ -584,21 +584,21 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 25.7, 70.2, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(160202), -- Banisher Bands
-					i(158624), -- Banisher Strap
-					i(160203), -- Crone-Seeker's Bands
-					i(158625), -- Crone-Seeker's Girdle
-					i(160204), -- Waycrest Militia Bindings
-					i(158626), -- Waycrest Militia Cinch
-					i(158623), -- Wickerwoven Cinch
-					i(160201), -- Wickerwoven Wristwraps
+					i(160202),	-- Banisher Bands
+					i(158624),	-- Banisher Strap
+					i(160203),	-- Crone-Seeker's Bands
+					i(158625),	-- Crone-Seeker's Girdle
+					i(160204),	-- Waycrest Militia Bindings
+					i(158626),	-- Waycrest Militia Cinch
+					i(158623),	-- Wickerwoven Cinch
+					i(160201),	-- Wickerwoven Wristwraps
 					--
-					h(i(159072)), -- Death-Pledged Armguards
-					h(i(159068)), -- Death-Pledged Waistguard
-					h(i(159070)), -- Loa Speaker's Cuffs
-					h(i(159067)), -- Loa Speaker's Waistwrap
-					h(i(159073)), -- Ritual Flayer's Bracers
-					h(i(159069)), -- Ritual Flayer's Cord
+					h(i(159072)),	-- Death-Pledged Armguards
+					h(i(159068)),	-- Death-Pledged Waistguard
+					h(i(159070)),	-- Loa Speaker's Cuffs
+					h(i(159067)),	-- Loa Speaker's Waistwrap
+					h(i(159073)),	-- Ritual Flayer's Bracers
+					h(i(159069)),	-- Ritual Flayer's Cord
 				},
 			}),
 			q(48517, {	-- Honorable Discharge
@@ -616,11 +616,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 70.0, 60.2, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(155158), -- Alderwood Loop
-					i(155120), -- Banisher Belt
-					i(155119), -- Crone-Seeker's Belt
-					i(155117), -- Waycrest Militia Girdle
-					i(155118), -- Wickerwoven Sash
+					i(155158),	-- Alderwood Loop
+					i(155120),	-- Banisher Belt
+					i(155119),	-- Crone-Seeker's Belt
+					i(155117),	-- Waycrest Militia Girdle
+					i(155118),	-- Wickerwoven Sash
 				},
 			}),
 			q(53109, {	-- House Waycrest

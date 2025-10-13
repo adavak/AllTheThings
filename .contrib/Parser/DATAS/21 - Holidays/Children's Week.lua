@@ -8,7 +8,7 @@ CHILDRENS_WEEK_HEADER = createHeader({
 	eventID = EVENTS.CHILDRENS_WEEK,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		5, 1, 0, 0,		-- 5/1 at 12 AM
 		5, 7, 23, 59	-- 5/7 at 11:59 PM
 	},
@@ -1985,7 +1985,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 		},
 		q(89317, {	-- Children's Week in Dornogal
 			["qgs"] = {
-				240696, -- Ullna <Matron in Training>
+				240696,	-- Ullna <Matron in Training>
 				241732,	-- Ullna <Matron in Training>
 			},
 			["coord"] = { 55.2, 27.0, DORNOGAL },
@@ -2097,7 +2097,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 	n(VENDORS, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
 		n(242651, {	-- Brundia Braidhammer <Toy and Pet Seller>
 			["coord"] = { 58.0, 56.8, STORMWIND_CITY },
-			["groups"] = sharedData({ ["cost"] = { {"i", 241215, 1} } }, WELL_LOVED_FIGURINE_VENDOR_GROUP), -- 1x Well-loved Figurine
+			["groups"] = sharedData({ ["cost"] = { {"i", 241215, 1} } }, WELL_LOVED_FIGURINE_VENDOR_GROUP),	-- 1x Well-loved Figurine
 		}),
 		n(243031, {	-- Clockwork Assistant
 			["coord"] = { 55.8, 26.6, DORNOGAL },
@@ -2109,11 +2109,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 		}),
 		n(243032, {	-- Jepetto Joybuzz
 			["coord"] = { 55.8, 26.4, DORNOGAL },
-			["groups"] = sharedData({ ["cost"] = { {"i", 241215, 1} } }, WELL_LOVED_FIGURINE_VENDOR_GROUP), -- 1x Well-loved Figurine
+			["groups"] = sharedData({ ["cost"] = { {"i", 241215, 1} } }, WELL_LOVED_FIGURINE_VENDOR_GROUP),	-- 1x Well-loved Figurine
 		}),
 		n(242676, {	-- Leial Knitterton <Toy and Pet Seller>
 			["coord"] = { 58.0, 56.8, ORGRIMMAR },
-			["groups"] = sharedData({ ["cost"] = { {"i", 241215, 1} } }, WELL_LOVED_FIGURINE_VENDOR_GROUP), -- 1x Well-loved Figurine
+			["groups"] = sharedData({ ["cost"] = { {"i", 241215, 1} } }, WELL_LOVED_FIGURINE_VENDOR_GROUP),	-- 1x Well-loved Figurine
 		}),
 	})),
 })));

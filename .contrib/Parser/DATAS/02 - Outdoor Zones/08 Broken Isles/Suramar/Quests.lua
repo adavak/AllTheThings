@@ -777,7 +777,7 @@ root(ROOTS.Zones, {
 				}),
 				q(45271, {	-- Insurrection
 					["isBreadcrumb"] = true,
-					["u"] = REMOVED_FROM_GAME, -- provided by the adventure journal in 7.1
+					["u"] = REMOVED_FROM_GAME,	-- provided by the adventure journal in 7.1
 				}),
 				q(45278, {	-- Insurrection: An Elven Problem
 					["isBreadcrumb"] = true,

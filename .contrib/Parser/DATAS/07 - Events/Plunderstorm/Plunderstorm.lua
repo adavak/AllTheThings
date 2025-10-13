@@ -10,7 +10,7 @@ PLUNDERSTORM = createHeader({
 	-- #endif
 	eventID = EVENTS.PLUNDERSTORM,
 	eventSchedule = {
-		0, --
+		0,	--
 		2025, 01, 14,	-- 14/01/2025
 		2025, 02, 26,	-- 26/02/2025
 	},

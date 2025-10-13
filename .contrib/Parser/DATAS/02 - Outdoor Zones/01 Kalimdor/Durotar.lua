@@ -640,7 +640,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							}, ALL_CLASSES),
 						}),
 						q(24766, {	-- The Arts of a Druid
-							["sourceQuest"] = 24768, -- Proving Pit (Druid)
+							["sourceQuest"] = 24768,	-- Proving Pit (Druid)
 							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -653,7 +653,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { DRUID },
 						}),
 						q(24778, {	-- The Arts of a Hunter
-							["sourceQuest"] = 24780, -- Proving Pit (Hunter)
+							["sourceQuest"] = 24780,	-- Proving Pit (Hunter)
 							["qg"] = 38247,	-- Ortezza <Hunter Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -682,7 +682,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { MONK },
 						}),
 						q(24784, {	-- The Arts of a Priest [Cata] / Learnin' tha Word [MoP+]
-							["sourceQuest"] = 24786, -- Proving Pit (Priest)
+							["sourceQuest"] = 24786,	-- Proving Pit (Priest)
 							["qg"] = 38245,	-- Tunari <Priest Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -695,7 +695,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { PRIEST },
 						}),
 						q(24772, {	-- The Arts of a Rogue
-							["sourceQuest"] = 24774, -- Proving Pit (Rogue)
+							["sourceQuest"] = 24774,	-- Proving Pit (Rogue)
 							["qg"] = 38244,	-- Legati <Rogue Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -708,7 +708,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { ROGUE },
 						}),
 						q(24760, {	-- The Arts of a Shaman
-							["sourceQuest"] = 24762, -- Proving Pit (Shaman)
+							["sourceQuest"] = 24762,	-- Proving Pit (Shaman)
 							["qg"] = 38242,	-- Nekali <Shaman Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -721,7 +721,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { SHAMAN },
 						}),
 						q(26274, {	-- The Arts of a Warlock
-							["sourceQuest"] = 26276, -- Proving Pit (Warlock)
+							["sourceQuest"] = 26276,	-- Proving Pit (Warlock)
 							["qg"] = 42618,	-- Voldreka <Warlock Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -734,7 +734,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { WARLOCK },
 						}),
 						q(24640, {	-- The Arts of a Warrior
-							["sourceQuest"] = 24642, -- Proving Pit (Warrior)
+							["sourceQuest"] = 24642,	-- Proving Pit (Warrior)
 							["qg"] = 38037,	-- Nortet <Warrior Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
@@ -1072,7 +1072,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 						q(25149, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Orc)
 							["sourceQuest"] = 25138,	-- Glyphic Parchment
-							["qg"] = 39206, -- Acrypha <Mage Trainer>
+							["qg"] = 39206,	-- Acrypha <Mage Trainer>
 							-- #if BEFORE MOP
 							["coord"] = { 42.6, 69, DUROTAR },
 							-- #endif
@@ -1245,7 +1245,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(25147, {	-- Charge (Orc)
 							["sourceQuest"] = 2383,	-- Simple Parchment
-							["qg"] = 3153, -- Frang <Warrior Trainer>
+							["qg"] = 3153,	-- Frang <Warrior Trainer>
 							-- #if BEFORE MOP
 							["coord"] = { 42.8, 69.4, DUROTAR },
 							-- #endif
@@ -1367,7 +1367,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(25141, {	-- Eviscerate (Orc)
 							["sourceQuest"] = 3088,	-- Encrypted Parchment
-							["qg"] = 3155, -- Rwag <Rogue Trainer>
+							["qg"] = 3155,	-- Rwag <Rogue Trainer>
 							-- #if BEFORE MOP
 							["coord"] = { 42.4, 68.8, DUROTAR },
 							-- #endif
@@ -1510,7 +1510,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 						q(25145, {	-- Immolate [Cata] / Corruption [MoP+] (Orc)
 							["sourceQuest"] = 3090,	-- Tainted Parchment
-							["qg"] = 3156, -- Nartok <Warlock Trainer>
+							["qg"] = 3156,	-- Nartok <Warlock Trainer>
 							-- #if BEFORE MOP
 							["coord"] = { 42.4, 68, DUROTAR },
 							-- #endif
@@ -1764,7 +1764,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 						q(25139, {	-- Steady Shot (Orc)
 							["sourceQuest"] = 3087,	-- Etched Parchment
-							["qg"] = 39214, -- Karranisha <Hunter Trainer>
+							["qg"] = 39214,	-- Karranisha <Hunter Trainer>
 							-- #if BEFORE MOP
 							["coord"] = { 42.8, 69.2, DUROTAR },
 							-- #endif
@@ -1787,7 +1787,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["groups"] = {
 								objective(1, {	-- 0/8 Scorpid Worker Tail
 									["provider"] = { "i", 4862 },	-- Scorpid Worker Tail (QI!)
-									["cr"] = 3124, -- Scorpid Worker
+									["cr"] = 3124,	-- Scorpid Worker
 								}),
 								i(53394, {	-- Venom-Imbued Robes
 									["timeline"] = { ADDED_4_0_3 },

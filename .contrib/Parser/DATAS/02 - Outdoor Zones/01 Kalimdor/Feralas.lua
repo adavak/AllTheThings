@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(2976, {	-- A Grim Discovery (2/2)
-					["sourceQuest"] = 2974, -- A Grim Discovery (1/2)
+					["sourceQuest"] = 2974,	-- A Grim Discovery (1/2)
 					["providers"] = {
 						{ "n", 4544 },	-- Krueg Skullsplitter
 						{ "i", 9462 },	-- Crate of Grimtotem Horns

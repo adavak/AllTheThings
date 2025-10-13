@@ -431,11 +431,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/1 First Rod of Subjugation Disabled
 							["provider"] = { "o", 202954 },	-- Rod of Subjugation
-							["cr"] = 40551, -- Twilight Dominator
+							["cr"] = 40551,	-- Twilight Dominator
 						}),
 						objective(2, {	-- 0/1 Second Rod of Subjugation Disabled
 							["provider"] = { "o", 202955 },	-- Rod of Subjugation
-							["cr"] = 40551, -- Twilight Dominator
+							["cr"] = 40551,	-- Twilight Dominator
 						}),
 					},
 				}),

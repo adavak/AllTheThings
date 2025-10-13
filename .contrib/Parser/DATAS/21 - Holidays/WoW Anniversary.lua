@@ -7,7 +7,7 @@ WOW_ANNIVERSARY_ROOT = createHeader({
 	icon = 133783,
 	eventID = EVENTS.WOW_ANNIVERSARY,
 	eventSchedule = {
-		1, -- Recurring, note that this changes every year.
+		1,	-- Recurring, note that this changes every year.
 		10, 22, 10, 0,	-- 10/22 at 10:00 AM
 		01, 07, 10, 0	-- 01/07 at 10:00 AM
 	},
@@ -79,7 +79,7 @@ WOW_ANNIVERSARY_TEN = createHeader({
 	icon = 133783,
 	eventID = 514,
 	eventSchedule = {
-		0, -- November 21st to January 5th 2015
+		0,	-- November 21st to January 5th 2015
 		2014, 11, 21,	-- 11/21/2014
 		2015, 01, 05,	-- 01/05/2015
 	},
@@ -92,7 +92,7 @@ WOW_ANNIVERSARY_ELEVEN = createHeader({
 	icon = 133783,
 	eventID = 566,
 	eventSchedule = {
-		0, -- 2015/11/16 to 2015/11/30
+		0,	-- 2015/11/16 to 2015/11/30
 		2015, 11, 16,	-- 11/16/2015
 		2015, 11, 30,	-- 11/30/2015
 	},
@@ -105,7 +105,7 @@ WOW_ANNIVERSARY_TWELVE = createHeader({
 	icon = 133783,
 	eventID = 589,
 	eventSchedule = {
-		0, -- 2016/11/16 to 2016/11/30
+		0,	-- 2016/11/16 to 2016/11/30
 		2016, 11, 16,	-- 11/16/2016
 		2016, 11, 30,	-- 11/30/2016
 	},
@@ -118,7 +118,7 @@ WOW_ANNIVERSARY_THIRTEEN = createHeader({
 	icon = 133783,
 	eventID = 693,
 	eventSchedule = {
-		0, -- November 16, 2017 to November 30, 2017
+		0,	-- November 16, 2017 to November 30, 2017
 		2017, 11, 16,	-- 11/16/2017
 		2017, 11, 30,	-- 11/30/2017
 	},
@@ -131,7 +131,7 @@ WOW_ANNIVERSARY_FOURTEEN = createHeader({
 	icon = 133783,
 	eventID = 807,
 	eventSchedule = {
-		0, -- 2018/11/16 to 2018/11/30
+		0,	-- 2018/11/16 to 2018/11/30
 		2018, 11, 16,	-- 11/16/2018
 		2018, 11, 30,	-- 11/30/2018
 	},
@@ -144,7 +144,7 @@ WOW_ANNIVERSARY_FIFTEEN = createHeader({
 	icon = 133783,
 	eventID = 808,
 	eventSchedule = {
-		0, -- November 5th, 2019 to January 7th, 2020
+		0,	-- November 5th, 2019 to January 7th, 2020
 		2019, 11, 5,	-- 11/05/2019
 		2020, 01, 7,	-- 01/07/2020
 	},
@@ -157,7 +157,7 @@ WOW_ANNIVERSARY_SIXTEEN = createHeader({
 	icon = 133783,
 	eventID = 1181,
 	eventSchedule = {
-		0, -- November 1st, 2020 to November 22nd, 2020
+		0,	-- November 1st, 2020 to November 22nd, 2020
 		2020, 11, 1,	-- 11/01/2020
 		2020, 11, 22,	-- 11/22/2020
 	},
@@ -170,7 +170,7 @@ WOW_ANNIVERSARY_SEVENTEEN = createHeader({
 	icon = 133783,
 	eventID = 1225,
 	eventSchedule = {
-		0, -- 2021/11/15 to 2021/12/06
+		0,	-- 2021/11/15 to 2021/12/06
 		2021, 11, 15,	-- 11/15/2021
 		2021, 12, 06,	-- 12/06/2021
 	},
@@ -183,7 +183,7 @@ WOW_ANNIVERSARY_EIGHTEEN = createHeader({
 	icon = 133783,
 	eventID = 1262,
 	eventSchedule = {
-		0, -- November 6th through November 27th
+		0,	-- November 6th through November 27th
 		2022, 11, 6,	-- 11/06/2022
 		2022, 11, 27,	-- 11/27/2022
 	},
@@ -196,7 +196,7 @@ WOW_ANNIVERSARY_NINETEEN = createHeader({
 	icon = 133783,
 	eventID = 1397,
 	eventSchedule = {
-		0, -- November 16th through December 7th
+		0,	-- November 16th through December 7th
 		2023, 11, 16,	-- 11/16/2023
 		2023, 12, 7,	-- 12/07/2023
 	},
@@ -209,7 +209,7 @@ WOW_ANNIVERSARY_TWENTY = createHeader({
 	icon = 133783,
 	eventID = 1509,
 	eventSchedule = {
-		0, -- October 22nd through Jan 7th
+		0,	-- October 22nd through Jan 7th
 		2024, 10, 22,	-- 10/22/2024
 		2025, 01, 07,	-- 01/07/2025
 	},
@@ -222,7 +222,7 @@ WOW_ANNIVERSARY_TWENTYONE = createHeader({
 	icon = 133783,
 	eventID = 1501,
 	eventSchedule = {
-		0, -- November 16th through December 7th
+		0,	-- November 16th through December 7th
 		2025, 11, 16,	-- 11/16/2025
 		2025, 12, 07,	-- 12/07/2025
 	},

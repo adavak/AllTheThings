@@ -12,7 +12,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 			["description"] = "These are gained by using a Level 70 Boost of that particular class.  Each class has one default spec.  Shamans and Druids have two specs available and both are needed to 100% each category.",
 			["lvl"] = 70,
 			["groups"] = {
-				i(185940), -- Pristine Survival Kit
+				i(185940),	-- Pristine Survival Kit
 				cl(DEATHKNIGHT, {
 					i(187659, {	-- Adventurer's Footlocker
 						i(170591),	-- Heart-Lesion Blade
@@ -57,8 +57,8 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				}),
 				cl(DRUID, {
 					i(187659, {	-- Adventurer's Footlocker
-						i(170617), -- Springrain Spear
-						i(170611), -- Springrain Stave
+						i(170617),	-- Springrain Spear
+						i(170611),	-- Springrain Stave
 					}),
 					cl(DRUID, BALANCE, {
 						i(153760),	-- Springrain Stave

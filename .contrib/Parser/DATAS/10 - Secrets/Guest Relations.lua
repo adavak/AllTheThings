@@ -1561,7 +1561,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							{ 56.4, 17.5, AZJ_KAHET },	-- Wall Tunnel
 							{ 56.1, 17.9, AZJ_KAHET },	-- Encrypted Chest
 						},
-						["questID"] = 84854, -- Fully lights the 9 O'clock basin
+						["questID"] = 84854,	-- Fully lights the 9 O'clock basin
 						["groups"] = {
 							i(229348),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
 							ach(40967),		-- Ratts' Revenge

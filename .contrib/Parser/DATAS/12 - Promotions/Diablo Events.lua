@@ -192,54 +192,54 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 						i(245589, {	--	Hellcaller Chest
 							currency(3309),	-- Hellstone Shard
 							-- Buff Gobo Items
-							i(245639), -- Arcane Elixir
-							i(245642), -- Blistering Elixir
-							i(245652), -- Chromic Elixir
-							i(245654), -- Connected Elixir
-							i(245634), -- Cursing Elixir
-							i(245636), -- Deafening Elixir
-							i(245638), -- Explosive Elixir
-							i(245630), -- Ghostly Elixir
-							i(246127), -- Healthy Elixir
-							i(245590), -- Magma Elixir
-							i(245641), -- Molten Elixir
-							i(245632), -- Rallying Elixir
-							i(245635), -- Rich Elixir
-							i(245633), -- Sneaky Elixir
-							i(245643), -- Storming Elixir
-							i(245640), -- Tempestuous Elixir
-							i(245614), -- Trapper Elixir
-							i(245637), -- Windforce Elixir
+							i(245639),	-- Arcane Elixir
+							i(245642),	-- Blistering Elixir
+							i(245652),	-- Chromic Elixir
+							i(245654),	-- Connected Elixir
+							i(245634),	-- Cursing Elixir
+							i(245636),	-- Deafening Elixir
+							i(245638),	-- Explosive Elixir
+							i(245630),	-- Ghostly Elixir
+							i(246127),	-- Healthy Elixir
+							i(245590),	-- Magma Elixir
+							i(245641),	-- Molten Elixir
+							i(245632),	-- Rallying Elixir
+							i(245635),	-- Rich Elixir
+							i(245633),	-- Sneaky Elixir
+							i(245643),	-- Storming Elixir
+							i(245640),	-- Tempestuous Elixir
+							i(245614),	-- Trapper Elixir
+							i(245637),	-- Windforce Elixir
 							-- Cosmetic
 							i(206007),	-- Treasure Nabbin' Bag (COSMETIC!)
 							-- Temp Buff Items
-							i(245899), -- Bat's Grand Charm
-							i(245749), -- Large Charm of Intelligence
-							i(245889), -- Large Charm of Dexterity
-							i(245890), -- Large Charm of Strength
-							i(245924), -- Mongoose's Grand Charm
-							i(245888), -- Serpent's Grand Charm
-							i(245891), -- Small Charm of Inertia
-							i(245892), -- Small Charm of Life
-							i(245893), -- Small Charm of Alacrity
-							i(245894), -- Small Charm of Proficiency
-							i(245895), -- Small Charm of Savagery
-							i(245896), -- Small Charm of Adaptability
-							i(245887), -- Stalwart's Grand Charm
+							i(245899),	-- Bat's Grand Charm
+							i(245749),	-- Large Charm of Intelligence
+							i(245889),	-- Large Charm of Dexterity
+							i(245890),	-- Large Charm of Strength
+							i(245924),	-- Mongoose's Grand Charm
+							i(245888),	-- Serpent's Grand Charm
+							i(245891),	-- Small Charm of Inertia
+							i(245892),	-- Small Charm of Life
+							i(245893),	-- Small Charm of Alacrity
+							i(245894),	-- Small Charm of Proficiency
+							i(245895),	-- Small Charm of Savagery
+							i(245896),	-- Small Charm of Adaptability
+							i(245887),	-- Stalwart's Grand Charm
 							-- Trash Grey Items
-							i(245606), -- Blank Scroll
-							i(245592), -- Chipped Skull
-							i(245608), -- Chipped Sapphire
-							i(245596), -- Damaged Eburine Jewel
-							i(245607), -- Dull Javelin
-							i(245597), -- Empty Antidote Bottle
-							i(245591), -- Flawed Amethyst
-							i(245609), -- Flawed Skull
-							i(245593), -- Runed Cube
-							i(245599), -- Rusted Adventurer's Leg
-							i(245595), -- Splintered Charm
-							i(245598), -- Unknown Spellbook
-							i(245594), -- Worn Rune
+							i(245606),	-- Blank Scroll
+							i(245592),	-- Chipped Skull
+							i(245608),	-- Chipped Sapphire
+							i(245596),	-- Damaged Eburine Jewel
+							i(245607),	-- Dull Javelin
+							i(245597),	-- Empty Antidote Bottle
+							i(245591),	-- Flawed Amethyst
+							i(245609),	-- Flawed Skull
+							i(245593),	-- Runed Cube
+							i(245599),	-- Rusted Adventurer's Leg
+							i(245595),	-- Splintered Charm
+							i(245598),	-- Unknown Spellbook
+							i(245594),	-- Worn Rune
 						}),
 					},
 				}),
@@ -263,19 +263,19 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 						{"c", 3309, 40},	-- 40x Hellstone Shard
 					},
 				}, {
-					iensemble(244794), -- Ensemble: Armor of Torment
-					iensemble(244800), -- Ensemble: Blood Vindicator's Armor
-					iensemble(244799), -- Ensemble: Death-Touched Battlegear
-					iensemble(244798), -- Ensemble: Emberwind Regalia
-					iensemble(244805), -- Ensemble: Executioner's Bladed Battlegear
-					iensemble(244803), -- Ensemble: Flamelash Armor
-					iensemble(244793), -- Ensemble: Grimforged Armor
-					iensemble(244804), -- Ensemble: Hellfire Raiment
-					iensemble(244796), -- Ensemble: Life-Binder's Armor
-					iensemble(244802), -- Ensemble: Shadowslayer Armor
-					iensemble(244795), -- Ensemble: Staghelm Armor
-					iensemble(244797), -- Ensemble: Timestalker's Armor
-					iensemble(244801), -- Ensemble: Vestments of Searing Radiance
+					iensemble(244794),	-- Ensemble: Armor of Torment
+					iensemble(244800),	-- Ensemble: Blood Vindicator's Armor
+					iensemble(244799),	-- Ensemble: Death-Touched Battlegear
+					iensemble(244798),	-- Ensemble: Emberwind Regalia
+					iensemble(244805),	-- Ensemble: Executioner's Bladed Battlegear
+					iensemble(244803),	-- Ensemble: Flamelash Armor
+					iensemble(244793),	-- Ensemble: Grimforged Armor
+					iensemble(244804),	-- Ensemble: Hellfire Raiment
+					iensemble(244796),	-- Ensemble: Life-Binder's Armor
+					iensemble(244802),	-- Ensemble: Shadowslayer Armor
+					iensemble(244795),	-- Ensemble: Staghelm Armor
+					iensemble(244797),	-- Ensemble: Timestalker's Armor
+					iensemble(244801),	-- Ensemble: Vestments of Searing Radiance
 				}),
 			})),
 		}),

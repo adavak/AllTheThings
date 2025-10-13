@@ -132,7 +132,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}, {	-- Honored
 						i(184723),	-- Bedazzled Belt
 						i(183099, {	-- Design: Revitalizing Jewel Doublet (RECIPE!)
-							["cost"] = 13500000, -- 1,350g
+							["cost"] = 13500000,	-- 1,350g
 						}),
 						i(184721),	-- Flourished Cummerbund
 						i(217598, {	-- Glyph of Flagellation
@@ -146,7 +146,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						i(184722),	-- Ostentatious Buckle
 						i(184720),	-- Reflective Waistguard
 						i(183900, {	-- Sinvyr Tea Set (TOY!)
-							["cost"] = 13500000, -- 1,350g
+							["cost"] = 13500000,	-- 1,350g
 						}),
 					}, {	-- Revered
 						i(180593, {	-- Court Messenger Scroll (PET!)
@@ -161,23 +161,23 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							["customCollect"] = "SL_COV_VEN",
 						}),
 						i(183245, {	-- Memory of Norgannon
-							["cost"] = 11000000, -- 1,100g
+							["cost"] = 11000000,	-- 1,100g
 						}),
 						i(183839, {	-- Pattern: Heavy Desolate Hide
-							["cost"] = 17650000, -- 1,765g
+							["cost"] = 17650000,	-- 1,765g
 						}),
 						i(182668, {	-- Recipe: Feast of Gluttonous Hedonism (RECIPE!)
-							["cost"] = 17650000, -- 1,765g
+							["cost"] = 17650000,	-- 1,765g
 						}),
 						i(183102, {	-- Technique: Contract: Court of Harvesters (RECIPE!)
-							["cost"] = 17650000, -- 1,765g
+							["cost"] = 17650000,	-- 1,765g
 						}),
 					}, {	-- Exalted
 						i(179282, {	-- Court of Harvesters Tabard
-							["cost"] = 2500000, -- 250g
+							["cost"] = 2500000,	-- 250g
 						}),
 						i(183518, {	-- Court Sinrunner (MOUNT!)
-							["cost"] = 300000000, -- 30,000g
+							["cost"] = 300000000,	-- 30,000g
 						}),
 						i(182207),	-- Illusion: Sinsedge (ILLUSION!)
 						i(184755),	-- Reinforced High Collar

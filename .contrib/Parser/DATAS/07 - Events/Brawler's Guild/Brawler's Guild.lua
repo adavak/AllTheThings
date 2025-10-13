@@ -8,7 +8,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 		ADDED_6_0_3_LAUNCH, REMOVED_7_0_3_LAUNCH,	-- Season 2
 		ADDED_7_1_5, REMOVED_8_0_1_LAUNCH,	-- Season 3
 		ADDED_8_1_5, REMOVED_9_0_2_LAUNCH,	-- Season 4
-		ADDED_11_2_7, -- Season 5
+		ADDED_11_2_7,	-- Season 5
 	},
 	["maps"] = {
 		DEEPRUN_TRAM,

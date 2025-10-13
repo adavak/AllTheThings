@@ -49,12 +49,12 @@ DARKMOON_FAIRE_HEADER = createHeader({
 	-- We have a calendar to pull from in Wrath Classic. :)
 	-- #if SEASON_OF_DISCOVERY
 	eventSchedule = {
-		3, -- Every two weeks, lasting one week. (6 days?)
+		3,	-- Every two weeks, lasting one week. (6 days?)
 		2023, 12, 18	-- Dec 2023 in Elwynn Forest (active 12/18 at 00:00, end 12/24 at 00:00)
 	},
 	-- #else
-	eventSchedule = {		
-		2, -- Active First Sunday of Every Month until following Saturday at Midnight(DMF)
+	eventSchedule = {
+		2,	-- Active First Sunday of Every Month until following Saturday at Midnight(DMF)
 		2023, 5	-- May 2022 in Terrokar Forest (TBC) / Elwynn Forest (ERA) (active 05/07 at 00:00, end 05/14 at 00:00)
 	},
 	-- #endif

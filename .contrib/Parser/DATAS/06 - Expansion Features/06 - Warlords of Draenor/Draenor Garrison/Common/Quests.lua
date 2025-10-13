@@ -2641,19 +2641,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				-- ["icon"] = 632821,
 			}),
 			q(37917, {	-- Gronnsbane: The Blessing of Fire
-				["sourceQuest"] = 37916, -- Gronnsbane: The Broken Spear
+				["sourceQuest"] = 37916,	-- Gronnsbane: The Broken Spear
 				["provider"] = { "o", 239791 },	-- Relic Hunting Notes
 				["coords"] = { { 40.2, 56.0, FROSTWALL }, { 34.6, 32.7, LUNARFALL } },
 				["isDaily"] = true,
 			}),
 			q(37918, {	-- Gronnsbane: The Blessing of Fire
-				["sourceQuest"] = 37917, -- Gronnsbane: The Broken Spear
+				["sourceQuest"] = 37917,	-- Gronnsbane: The Broken Spear
 				["provider"] = { "o", 239791 },	-- Relic Hunting Notes
 				["coords"] = { { 40.2, 56.0, FROSTWALL }, { 34.6, 32.7, LUNARFALL } },
 				["isDaily"] = true,
 			}),
 			q(37919, {	-- Gronnsbane: The Blessing of Beasts (A)
-				["sourceQuest"] = 37918, -- Gronnsbane: The Blessing of Fire
+				["sourceQuest"] = 37918,	-- Gronnsbane: The Blessing of Fire
 				["provider"] = { "o", 239791 },	-- Relic Hunting Notes
 				["coord"] = { 34.6, 32.7, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
@@ -2666,7 +2666,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 			}),
 			q(37995, {	-- Gronnsbane: The Blessing of Beasts (H)
-				["sourceQuest"] = 37918, -- Gronnsbane: The Blessing of Fire
+				["sourceQuest"] = 37918,	-- Gronnsbane: The Blessing of Fire
 				["provider"] = { "o", 239791 },	-- Relic Hunting Notes
 				["coord"] = { 40.2, 56.0, FROSTWALL },
 				["races"] = HORDE_ONLY,
@@ -2678,7 +2678,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 			}),
 			q(37916, {	-- Gronnsbane: The Broken Spear
-				["sourceQuest"] = 37914, -- Treasure Contract: The Thunderlord Sage
+				["sourceQuest"] = 37914,	-- Treasure Contract: The Thunderlord Sage
 				["provider"] = { "o", 239791 },	-- Relic Hunting Notes
 				["coords"] = { { 40.2, 56.0, FROSTWALL }, { 34.6, 32.7, LUNARFALL } },
 				["isDaily"] = true,
@@ -3186,7 +3186,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["coord"] = { 42.8, 45.2, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
 				["isBreadcrumb"] = true,
-				["u"] = REMOVED_FROM_GAME, -- There is no Bulletin Board anymore, only heroes calls
+				["u"] = REMOVED_FROM_GAME,	-- There is no Bulletin Board anymore, only heroes calls
 			}),
 			q(39033, {	-- The Time to Strike
 				["provider"] = { "n", 94870 },	-- Seer Kazal

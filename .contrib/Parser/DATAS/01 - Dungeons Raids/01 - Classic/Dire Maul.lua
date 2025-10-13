@@ -1325,7 +1325,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							i(18249, {	-- Crescent Key
 								["description"] =
 									-- #if AFTER 5.2.0
-									"This key no longer has any practical use, and disappears from the inventory like a conjured item.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
+									"This key no longer has any practical use, and disappears from the inventory like a conjured item.",	-- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
 									-- #elseif AFTER 4.0.3
 									"This key no longer has any practical use.",
 									-- #else
@@ -1429,7 +1429,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					n(11491, {	-- Old Ironbark
 						["description"] = "Talk to him for him to break down the door.",
 					}),
-					applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n(16097, -- Isalien
+					applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n(16097,	-- Isalien
 					-- #if BEFORE 4.0.3
 					bubbleDown({
 						["timeline"] = { REMOVED_4_0_3 },
@@ -1765,7 +1765,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						},
 						-- #endif
 					}),
-					o(179501, -- Knot Thimblejack's Cache
+					o(179501,	-- Knot Thimblejack's Cache
 						bubbleDownSelf({ ["timeline"] = { REMOVED_4_0_3 } }, {
 						["sourceQuest"] = 5525,	-- Free Knot!
 						-- #if BEFORE 4.0.3
@@ -2242,7 +2242,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							})),
 						},
 					}),
-					n(14506, -- Lord Hel'nurath
+					n(14506,	-- Lord Hel'nurath
 						bubbleDown({
 							-- #if BEFORE 4.0.3
 							["timeline"] = { REMOVED_4_0_3 },

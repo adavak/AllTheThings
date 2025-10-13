@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 LOREWALKING = createHeader({
 	readable = "Lorewalking",
-	icon = 441147,--[[~_.asset("Feature_Lorewalking")]]--, -- TODO Not a real asset file
+	icon = 441147,--[[~_.asset("Feature_Lorewalking")]]--,	-- TODO Not a real asset file
 	text = {
 		en = "Lorewalking",
 		de = "Lehrensuche",
@@ -62,7 +62,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						-- Alex: when I picked up this quest - it flag 40706 & 42074 as completed
 						["groups"] = {
 							o(247690, {	-- Xal'atath
-								["coord"] = { 58.8, 76.6, 20 }, -- Keeper's Rest
+								["coord"] = { 58.8, 76.6, 20 },	-- Keeper's Rest
 								-- Alex: this is also looted during q:40710
 								["groups"] = { i(229361) },	-- Xal'atath, Blade of the Black Empire (QI!)
 							}),

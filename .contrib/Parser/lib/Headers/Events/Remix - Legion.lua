@@ -5,7 +5,7 @@ REMIX_LEGION = createHeader({
 	icon = [[~_.asset("Category_Remix")]],
 	eventID = EVENTS.REMIX_LEGION,
 	eventSchedule = {
-		0, -- October 7th, 2025 to January 19th, 2026
+		0,	-- October 7th, 2025 to January 19th, 2026
 		2025, 10, 7,	-- 7/10/2025
 		2026, 1, 19,	-- 19/01/2026
 	},

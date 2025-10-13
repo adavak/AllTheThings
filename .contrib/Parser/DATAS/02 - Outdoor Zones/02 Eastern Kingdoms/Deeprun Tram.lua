@@ -24,7 +24,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(6662, {	-- Me Brother, Nipsy
-					["sourceQuest"] = 6661, -- Deeprun Rat Roundup
+					["sourceQuest"] = 6661,	-- Deeprun Rat Roundup
 					["providers"] = {
 						{ "n", 12997 },	-- Monty
 						{ "i", 17118 },	-- Carton of Mystery Meat

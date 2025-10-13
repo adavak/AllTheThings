@@ -1800,9 +1800,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(52065, {	-- Worse Than it Looks
 				["sourceQuests"] = {
-					50909, -- Never Outgunned
-					50910, -- Dangerous Game
-					50908, -- Smells Like Trouble
+					50909,	-- Never Outgunned
+					50910,	-- Dangerous Game
+					50908,	-- Smells Like Trouble
 				},
 				["provider"] = { "n", 135682 },	-- Patrick Eckhart
 				["coord"] = { 57.8, 55.3, STORMSONG_VALLEY },

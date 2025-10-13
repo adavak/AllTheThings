@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{"select","itemID",
 							161976,	-- Admiralty Marine's Duffel
-							161574, -- Boarding Action Vambraces
+							161574,	-- Boarding Action Vambraces
 							161571,	-- Cordage Sliding Grips
 							163200,	-- Cursed Spyglass (TOY!)
 							162380,	-- Design: Tidal Amethyst Loop [Rank 3] (RECIPE!)

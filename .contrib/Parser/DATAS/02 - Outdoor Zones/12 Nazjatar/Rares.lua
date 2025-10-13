@@ -278,7 +278,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152397, {	-- Oronu
-			["questID"] = 56288, -- TODO: verify id
+			["questID"] = 56288,	-- TODO: verify id
 			["coord"] = { 78.2, 25.0, NAZJATAR },
 			["isDaily"] = true,
 			["description"] = "Summon a |cFFFFD700Drowned Hatchling|r battle pet to activate. You can purchase the pet from |cFFFFD700Feylana the Handler|r for 40 Prismatic Manapearls.",

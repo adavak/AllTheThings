@@ -8,7 +8,7 @@ HALLOWS_END_HEADER = createHeader({
 	eventID = EVENTS.HALLOWS_END,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		10, 18, 10, 0,	-- 10/18 at 10:00 AM
 		11, 1, 11, 0	-- 11/01 at 11:00 AM
 	},

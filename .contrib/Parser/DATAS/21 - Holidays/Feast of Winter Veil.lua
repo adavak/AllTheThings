@@ -8,14 +8,14 @@ FEAST_OF_WINTER_VEIL_HEADER = createHeader({
 	eventID = EVENTS.FEAST_OF_WINTER_VEIL,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		12, 16, 10, 0,	-- 12/16 at 10:00 AM
 		1, 2, 6, 0		-- 01/02 at 6 AM
 	},
 	-- #endif
 	text = {
 		en = WOWAPI_GetSpellName(21953),
-		cn = "冬幕节", -- WOWAPI_GetSpellName(21953) == 冬幕大餐
+		cn = "冬幕节",	-- WOWAPI_GetSpellName(21953) == 冬幕大餐
 		tw = "冬幕節",
 	},
 });

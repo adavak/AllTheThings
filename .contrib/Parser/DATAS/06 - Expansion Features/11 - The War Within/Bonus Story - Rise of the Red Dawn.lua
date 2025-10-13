@@ -206,12 +206,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["coord"] = { 17.7, 60.3, 2372 },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(231878), -- Articles of Proof (QI!)
-					i(231879), -- Defias Bandana (QI!)
-					i(231880), -- Orange Bandana (QI!)
-					i(231883), -- Scarlet Crusade Tabard (QI!)
-					i(231884), -- Stromgarde Tabard (QI!)
-					i(231881), -- Syndicate Emblem (QI!)
+					i(231878),	-- Articles of Proof (QI!)
+					i(231879),	-- Defias Bandana (QI!)
+					i(231880),	-- Orange Bandana (QI!)
+					i(231883),	-- Scarlet Crusade Tabard (QI!)
+					i(231884),	-- Stromgarde Tabard (QI!)
+					i(231881),	-- Syndicate Emblem (QI!)
 				},
 			}),
 			q(84659, {	-- The Search for Faerin // ALLIANCE_ONLY
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							}),
 						},
 					}),
-					ach(41820, {	-- Rise of the Red Dawn (H)				
+					ach(41820, {	-- Rise of the Red Dawn (H)
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							title(630, {	-- %s of Stromgarde

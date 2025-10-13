@@ -432,7 +432,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 				["isRaid"] = true,
 				["questID"] = 60542,
 				["isWorldQuest"] = true,
-				-- ["questID"] = 60541, -- didn't get this when he died
+				-- ["questID"] = 60541,	-- didn't get this when he died
 				-- ["altQuests"] = {
 					-- 60542,	-- This is the world quest ID. Not sure if it's repeatable, so using the loot tracker on Nathanos directly and we can add the quest itself later if it's relevant
 				-- },

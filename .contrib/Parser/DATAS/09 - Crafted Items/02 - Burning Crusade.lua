@@ -1094,7 +1094,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22797, {	-- Nightmare Seed
 				["provider"] = { "o", 181280 },	-- Nightmare Vine
-				["timeline"] = { REMOVED_3_3_0 }, -- Danny Donkey: Must confirm how this applies to Classic!
+				["timeline"] = { REMOVED_3_3_0 },	-- Danny Donkey: Must confirm how this applies to Classic!
 			}),
 			i(22792, {	-- Nightmare Vine
 				["coords"] = {
@@ -2206,23 +2206,23 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 40.2, 18.4, BLADES_EDGE_MOUNTAINS },	-- Grishnath
 					{ 32.1, 55.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit North
 					{ 29.5, 67.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit South
-					{ 38.5, 88.3, HELLFIRE_PENINSULA }, -- Razorthorn Trail
-					{ 22.9, 67.2, HELLFIRE_PENINSULA }, -- Dustquill Ravine
-					{ 8.7, 50.8, HELLFIRE_PENINSULA }, -- Thornfang Hill
-					{ 68.5, 44.4, NETHERSTORM }, -- Voidwind Plateu
+					{ 38.5, 88.3, HELLFIRE_PENINSULA },	-- Razorthorn Trail
+					{ 22.9, 67.2, HELLFIRE_PENINSULA },	-- Dustquill Ravine
+					{ 8.7, 50.8, HELLFIRE_PENINSULA },	-- Thornfang Hill
+					{ 68.5, 44.4, NETHERSTORM },	-- Voidwind Plateu
 					{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
 					{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
 					{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
 					{ 68.7, 30.5, TEROKKAR_FOREST },	-- Firewing Point, northwest of
-					{ 88.1, 33.6, ZANGARMARSH }, -- Dead Mire East
-					{ 78.1, 30.0, ZANGARMARSH }, -- Dead Mire North
-					{ 34.7, 18.0, ZANGARMARSH }, -- Hewn Bog, north of
-					{ 24.7, 19.1, ZANGARMARSH }, -- Daggerfen Village, north of
-					{ 14.9, 28.9, ZANGARMARSH }, -- Ango'rosh, west of
-					{ 8.3, 52.7, ZANGARMARSH }, -- Sporewind Lake, west of
+					{ 88.1, 33.6, ZANGARMARSH },	-- Dead Mire East
+					{ 78.1, 30.0, ZANGARMARSH },	-- Dead Mire North
+					{ 34.7, 18.0, ZANGARMARSH },	-- Hewn Bog, north of
+					{ 24.7, 19.1, ZANGARMARSH },	-- Daggerfen Village, north of
+					{ 14.9, 28.9, ZANGARMARSH },	-- Ango'rosh, west of
+					{ 8.3, 52.7, ZANGARMARSH },	-- Sporewind Lake, west of
 					-- #if AFTER 2.1.0
-					{ 63.0, 07.8, SHADOWMOON_VALLEY }, -- Netherwing Mines (entrance)
-					{ 73.0, 85.4, SHADOWMOON_VALLEY }, -- Netherwing Ledge flayer hill
+					{ 63.0, 07.8, SHADOWMOON_VALLEY },	-- Netherwing Mines (entrance)
+					{ 73.0, 85.4, SHADOWMOON_VALLEY },	-- Netherwing Ledge flayer hill
 					-- #endif
 				},
 				["description"] = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning most mobs can also give Fel Scales",
@@ -2247,10 +2247,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 67.5, 11.7, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine East
 					{ 61.0, 11.0, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine West
 					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
-					{ 20.3, 55.8, HELLFIRE_PENINSULA }, -- Shanaari Wastes, east of
-					{ 49.5, 71.5, HELLFIRE_PENINSULA }, -- Honour Hold, southwest of
-					{ 49.5, 31.3, HELLFIRE_PENINSULA }, -- Stonewall Canyon
-					{ 63.1, 70.7, HELLFIRE_PENINSULA }, -- Zeth'gor, west of
+					{ 20.3, 55.8, HELLFIRE_PENINSULA },	-- Shanaari Wastes, east of
+					{ 49.5, 71.5, HELLFIRE_PENINSULA },	-- Honour Hold, southwest of
+					{ 49.5, 31.3, HELLFIRE_PENINSULA },	-- Stonewall Canyon
+					{ 63.1, 70.7, HELLFIRE_PENINSULA },	-- Zeth'gor, west of
 					{ 72.1, 57.0, HELLFIRE_PENINSULA },	-- The Legion Front South
 					{ 72.8, 42.4, HELLFIRE_PENINSULA },	-- The Legion Front North
 					{ 40.8, 72.5, NETHERSTORM },	-- Arklon Ruins
@@ -2292,20 +2292,20 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 40.2, 18.4, BLADES_EDGE_MOUNTAINS },	-- Grishnath
 					{ 32.1, 55.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit North
 					{ 29.5, 67.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit South
-					{ 38.5, 88.3, HELLFIRE_PENINSULA }, -- Razorthorn Trail
-					{ 22.9, 67.2, HELLFIRE_PENINSULA }, -- Dustquill Ravine
-					{ 8.7, 50.8, HELLFIRE_PENINSULA }, -- Thornfang Hill
-					{ 68.5, 44.4, NETHERSTORM }, -- Voidwind Plateu
+					{ 38.5, 88.3, HELLFIRE_PENINSULA },	-- Razorthorn Trail
+					{ 22.9, 67.2, HELLFIRE_PENINSULA },	-- Dustquill Ravine
+					{ 8.7, 50.8, HELLFIRE_PENINSULA },	-- Thornfang Hill
+					{ 68.5, 44.4, NETHERSTORM },	-- Voidwind Plateu
 					{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
 					{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
 					{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
 					{ 68.7, 30.5, TEROKKAR_FOREST },	-- Firewing Point, northwest of
-					{ 88.1, 33.6, ZANGARMARSH }, -- Dead Mire East
-					{ 78.1, 30.0, ZANGARMARSH }, -- Dead Mire North
-					{ 34.7, 18.0, ZANGARMARSH }, -- Hewn Bog, north of
-					{ 24.7, 19.1, ZANGARMARSH }, -- Daggerfen Village, north of
-					{ 14.9, 28.9, ZANGARMARSH }, -- Ango'rosh, west of
-					{ 8.3, 52.7, ZANGARMARSH }, -- Sporewind Lake, west of
+					{ 88.1, 33.6, ZANGARMARSH },	-- Dead Mire East
+					{ 78.1, 30.0, ZANGARMARSH },	-- Dead Mire North
+					{ 34.7, 18.0, ZANGARMARSH },	-- Hewn Bog, north of
+					{ 24.7, 19.1, ZANGARMARSH },	-- Daggerfen Village, north of
+					{ 14.9, 28.9, ZANGARMARSH },	-- Ango'rosh, west of
+					{ 8.3, 52.7, ZANGARMARSH },	-- Sporewind Lake, west of
 				},
 				["description"] = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning all mobs can also give Crystal-Infused Leather.",
 			}),
@@ -2326,9 +2326,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					18877,	-- Nether Drake
 				},
 				["coords"] = {
-					{ 62.3, 77.0, BLADES_EDGE_MOUNTAINS }, -- Singing Ridge
-					{ 72.5, 38.4, NETHERSTORM }, -- Celestial Ridge
-					{ 68.35, 61.0, SHADOWMOON_VALLEY }, -- Dragonmaw Fortress
+					{ 62.3, 77.0, BLADES_EDGE_MOUNTAINS },	-- Singing Ridge
+					{ 72.5, 38.4, NETHERSTORM },	-- Celestial Ridge
+					{ 68.35, 61.0, SHADOWMOON_VALLEY },	-- Dragonmaw Fortress
 				},
 			}),
 			i(35229),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
@@ -2489,19 +2489,19 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(21845, {	-- Primal Mooncloth
 				["description"] = "Coordinates are for select Moonwells around the world.",
 				["coords"] = {
-					{ 43.10, 80.27, DARNASSUS }, -- Temple of the Moon
+					{ 43.10, 80.27, DARNASSUS },	-- Temple of the Moon
 					-- #if BEFORE 4.0.3
-					{ 21.0, 53.0, STORMWIND_CITY }, -- The Park
-					{ 60.0, 72.0, ASHENVALE }, -- Moonwell of Cleansing (exists after 4.0.3, but reduntant on practicality.)
+					{ 21.0, 53.0, STORMWIND_CITY },	-- The Park
+					{ 60.0, 72.0, ASHENVALE },	-- Moonwell of Cleansing (exists after 4.0.3, but reduntant on practicality.)
 					-- #else
-					{ 57.11, 37.52, WETLANDS }, -- Greenwarden's Grove
-					{ 48.05, 18.54, DARNASSUS }, -- The Howling Oak
-					{ 10.77, 74.71, AZSHARA }, -- Talrendis Point
-					{ 49.06, 33.58, DUSKWOOD }, -- Twlight Grove (exists pre 4.0.3, but this area is then infested with world bosses.)
+					{ 57.11, 37.52, WETLANDS },	-- Greenwarden's Grove
+					{ 48.05, 18.54, DARNASSUS },	-- The Howling Oak
+					{ 10.77, 74.71, AZSHARA },	-- Talrendis Point
+					{ 49.06, 33.58, DUSKWOOD },	-- Twlight Grove (exists pre 4.0.3, but this area is then infested with world bosses.)
 					-- #endif
 					-- #if AFTER 2.0.1
-					{ 13.13, 26.23, GHOSTLANDS }, -- Shalandis Isle
-					{ 45.02, 23.54, TEROKKAR_FOREST }, -- Cenarion Thicket
+					{ 13.13, 26.23, GHOSTLANDS },	-- Shalandis Isle
+					{ 45.02, 23.54, TEROKKAR_FOREST },	-- Cenarion Thicket
 					-- #endif
 				},
 			}),

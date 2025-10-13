@@ -402,29 +402,29 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["coord"] = { 54.6, 18.4, STORMWIND_CITY },
 			}),
 			q(54576, {	-- Gnomeregan's Finest
-				["sourceQuest"] = 54402, -- Shifting Gears
+				["sourceQuest"] = 54402,	-- Shifting Gears
 				["provider"] = { "n", 147943 },	-- Captain Tread Sparknozzle
 				["coord"] = { 41.8, 31.7, NEW_TINKERTOWN },
 				["maps"] = { 1380 },	-- GnomereganC
 			}),
 			q(54577, {	-- Shadowed Halls and Dusty Cogs
-				["sourceQuest"] = 54576, -- Gnomeregan's Finest
+				["sourceQuest"] = 54576,	-- Gnomeregan's Finest
 				["provider"] = { "n", 147943 },	-- Captain Tread Sparknozzle
 				["coord"] = { 41.8, 31.7, NEW_TINKERTOWN },
 				["maps"] = { 1380 },	-- GnomereganC
 			}),
 			q(54580, {	-- A Tundra Conundrum
-				["sourceQuest"] = 54577, -- Shadowed Halls and Dusty Cogs
+				["sourceQuest"] = 54577,	-- Shadowed Halls and Dusty Cogs
 				["provider"] = { "n", 147943 },	-- Captain Tread Sparknozzle
 				["coord"] = { 41.8, 31.7, NEW_TINKERTOWN },
 			}),
 			q(54581, {	-- Now With More Mechanical Fowl
-				["sourceQuest"] = 54580, -- A Tundra Conundrum
+				["sourceQuest"] = 54580,	-- A Tundra Conundrum
 				["provider"] = { "n", 147952 },	-- Fizzi Tinkerbow
 				["coord"] = { 55.3, 18.9, BOREAN_TUNDRA },
 			}),
 			q(54582, {	-- Smarter Than Your Average Trogg
-				["sourceQuest"] = 54581, -- Now With More Mechanical Fowl
+				["sourceQuest"] = 54581,	-- Now With More Mechanical Fowl
 				["provider"] = { "n", 147952 },	-- Fizzi Tinkerbow
 				["coord"] = { 55.3, 18.9, BOREAN_TUNDRA },
 				["groups"] = {
@@ -432,32 +432,32 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				},
 			}),
 			q(54579, {	-- The Gnome Behind the Trogg
-				["sourceQuest"] = 54582, -- Smarter Than Your Average Trogg
+				["sourceQuest"] = 54582,	-- Smarter Than Your Average Trogg
 				["provider"] = { "n", 147952 },	-- Fizzi Tinkerbow
 				["coord"] = { 55.3, 18.9, BOREAN_TUNDRA },
 			}),
 			q(54639, {	-- A Signal in Storm Peaks
-				["sourceQuest"] = 54579, -- The Gnome Behind the Trogg
+				["sourceQuest"] = 54579,	-- The Gnome Behind the Trogg
 				["provider"] = { "n", 147952 },	-- Fizzi Tinkerbow
 				["coord"] = { 55.3, 18.9, BOREAN_TUNDRA },
 			}),
 			q(54640, {	-- Gnomercy!
-				["sourceQuest"] = 54639, -- A Signal in Storm Peaks
+				["sourceQuest"] = 54639,	-- A Signal in Storm Peaks
 				["provider"] = { "n", 147950 },	-- Cog Captain Winklespring
 				["coord"] = { 37.6, 60.3, THE_STORM_PEAKS },
 			}),
 			q(54850, {	-- Operation: Troggageddon
-				["sourceQuest"] = 54640, -- Gnomercy!
+				["sourceQuest"] = 54640,	-- Gnomercy!
 				["provider"] = { "n", 147950 },	-- Cog Captain Winklespring
 				["coord"] = { 56.1, 51.4, THE_STORM_PEAKS },
 			}),
 			q(54641, {	-- For Gnomeregan!
-				["sourceQuest"] = 54850, -- Operation: Troggageddon
+				["sourceQuest"] = 54850,	-- Operation: Troggageddon
 				["provider"] = { "n", 149503 },	-- Cog Captain Winklespring
 				["coord"] = { 39.4, 26.8, THE_STORM_PEAKS },
 			}),
 			q(54642, {	-- G.E.A.R. Up
-				["sourceQuest"] = 54641, -- For Gnomeregan!
+				["sourceQuest"] = 54641,	-- For Gnomeregan!
 				["provider"] = { "n", 149503 },	-- Cog Captain Winklespring
 				["coord"] = { 50.0, 12.9, 1375 },
 				["groups"] = {
@@ -899,8 +899,8 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 			q(76203, {	-- Stepping into the Shadows
 				["sourceQuests"] = {
-					76195, -- Countering Corruption
-					76196, -- Mercy or Misery
+					76195,	-- Countering Corruption
+					76196,	-- Mercy or Misery
 				},
 				["provider"] = { "n", 202702 },	-- Maiev Stormsong
 				["coord"] = { 36.1, 57.9, FELWOOD },
@@ -922,8 +922,8 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 			q(76207, {	-- Wardens' Wrath
 				["sourceQuests"] = {
-					76205, -- Balancing the Scales
-					76206, -- Heart of the Issue
+					76205,	-- Balancing the Scales
+					76206,	-- Heart of the Issue
 				},
 				["provider"] = { "n", 202701 },	-- Arko'narin Starshade
 				["coord"] = { 37.9, 46.2, FELWOOD },
@@ -1576,12 +1576,12 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["coord"] = { 82.3, 27.8, STORMWIND_CITY },
 			}),
 			q(54980, {	-- Bane of the Nightbane
-				["sourceQuest"] = 54977, -- Into Duskwood
+				["sourceQuest"] = 54977,	-- Into Duskwood
 				["provider"] = { "n", 151761 },	-- Vassandra Stormclaw
 				["coord"] = { 18.1, 57.2, DUSKWOOD },
 			}),
 			q(54981, {	-- Cry to the Moon
-				["sourceQuest"] = 54980, -- Bane of the Nightbane
+				["sourceQuest"] = 54980,	-- Bane of the Nightbane
 				["provider"] = { "n", 151761 },	-- Vassandra Stormclaw
 				["coord"] = { 18.1, 57.2, DUSKWOOD },
 				["groups"] = {
@@ -1589,7 +1589,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				},
 			}),
 			q(54982, {	-- The Spirit of the Hunter
-				["sourceQuest"] = 54980, -- Bane of the Nightbane
+				["sourceQuest"] = 54980,	-- Bane of the Nightbane
 				["provider"] = { "n", 151761 },	-- Vassandra Stormclaw
 				["coord"] = { 18.1, 57.2, DUSKWOOD },
 				["groups"] = {
@@ -1606,13 +1606,13 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 			q(54984, {	-- Let Sleeping Wolves Lie
 				["description"] = "If you can't see Goldrinn, try relog",
-				["sourceQuest"] = 54983, -- Waking a Dreamer
+				["sourceQuest"] = 54983,	-- Waking a Dreamer
 				["provider"] = { "n", 150106 },	-- Goldrinn
 				["coord"] = { 46.6, 36.6, DUSKWOOD },
 				["maps"] = { 1577 },	-- Gilneas City (Scenario)
 			}),
 			q(54990, {	-- The New Guard
-				["sourceQuest"] = 54984, -- Let Sleeping Wolves Lie
+				["sourceQuest"] = 54984,	-- Let Sleeping Wolves Lie
 				["provider"] = { "n", 150115 },	-- Princess Tess Greymane
 				["coord"] = { 46.3, 37.0, DUSKWOOD },
 				["groups"] = {

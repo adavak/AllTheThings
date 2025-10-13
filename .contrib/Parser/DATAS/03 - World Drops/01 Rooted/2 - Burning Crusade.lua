@@ -1298,7 +1298,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					22181,	-- Aether Ray
 					17408,	-- Arcane Vortex (Gas cloud)
 					-- #if AFTER 2.4.0
-					24972, -- Erratic Sentry
+					24972,	-- Erratic Sentry
 					-- #endif
 					18866,	-- Mageslayer
 					18867,	-- Mana Seeker
@@ -1418,12 +1418,12 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 						{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
 						{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
 						{ 68.7, 30.5, TEROKKAR_FOREST },	-- Firewing Point, northwest of
-						{ 88.1, 33.6, ZANGARMARSH }, -- Dead Mire East
-						{ 78.1, 30.0, ZANGARMARSH }, -- Dead Mire North
-						{ 34.7, 18.0, ZANGARMARSH }, -- Hewn Bog, north of
-						{ 24.7, 19.1, ZANGARMARSH }, -- Daggerfen Village, north of
-						{ 14.9, 28.9, ZANGARMARSH }, -- Ango'rosh, west of
-						{ 8.3, 52.7, ZANGARMARSH }, -- Sporewind Lake, west of
+						{ 88.1, 33.6, ZANGARMARSH },	-- Dead Mire East
+						{ 78.1, 30.0, ZANGARMARSH },	-- Dead Mire North
+						{ 34.7, 18.0, ZANGARMARSH },	-- Hewn Bog, north of
+						{ 24.7, 19.1, ZANGARMARSH },	-- Daggerfen Village, north of
+						{ 14.9, 28.9, ZANGARMARSH },	-- Ango'rosh, west of
+						{ 8.3, 52.7, ZANGARMARSH },	-- Sporewind Lake, west of
 					},
 					["crs"] = {
 						18461,	-- Dampscale Basilisk
@@ -1471,10 +1471,10 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 				}),
 				i(27674, {	-- Ravager Flesh
 					["coords"] = {
-						{ 58.9, 69.3, BLADES_EDGE_MOUNTAINS }, -- Razor Ridge
-						{ 38.5, 88.3, HELLFIRE_PENINSULA }, -- Razorthorn Trail
-						{ 22.9, 67.2, HELLFIRE_PENINSULA }, -- Dustquill Ravine
-						{ 8.7, 50.8, HELLFIRE_PENINSULA }, -- Thornfang Hill
+						{ 58.9, 69.3, BLADES_EDGE_MOUNTAINS },	-- Razor Ridge
+						{ 38.5, 88.3, HELLFIRE_PENINSULA },	-- Razorthorn Trail
+						{ 22.9, 67.2, HELLFIRE_PENINSULA },	-- Dustquill Ravine
+						{ 8.7, 50.8, HELLFIRE_PENINSULA },	-- Thornfang Hill
 					},
 					["crs"] = {
 						16934,	-- Quillfang Ravager

@@ -506,7 +506,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 53778 },	-- Where He Fell
 				["qgs"] = {
 					145965,	-- Spirit of Vol'jin
-					145981, -- Restless Spirit
+					145981,	-- Restless Spirit
 				},
 				["coord"] = { 62.3, 30.4, BROKEN_SHORE },
 				["races"] = HORDE_ONLY,

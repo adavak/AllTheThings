@@ -14,7 +14,7 @@
 -- 	["CATA"] = 40,     -- CATA_PHASE_ONE
 -- 	["MOP"] = 50,      -- MOP_PHASE_ONE
 -- 	["WOD"] = 60,      -- WOD_PHASE_ONE
--- 	["TRANSMOG"] = 69, -- Transmog came out sometime after WOD.
+-- 	["TRANSMOG"] = 69,	-- Transmog came out sometime after WOD.
 -- 	["LEGION"] = 70,   -- LEGION_PHASE_ONE
 -- 	["BFA"] = 80,      -- BFA_PHASE_ONE
 -- 	["SL"] = 90,      -- SL_PHASE_ONE

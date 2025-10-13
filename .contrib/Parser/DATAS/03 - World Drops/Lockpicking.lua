@@ -460,112 +460,112 @@ root(ROOTS.WorldDrops, {
 				["sym"] = { {
 					"select", "itemID",
 				--	n(WEAPONS, {
-					116721, -- Ancestral Branch
-					116619, -- Ancestral Scepter
-					116615, -- Ancestral Spellblade
-					116626, -- Ancestral Wand
-					116610, -- Gorian Axe
-					116611, -- Gorian Broadaxe
-					116612, -- Gorian Bow
-					116613, -- Gorian Crossbow
-					116614, -- Gorian Dagger
-					116616, -- Gorian Knuckles
-					116625, -- Gorian Greatsword
-					116617, -- Gorian Gun
-					116620, -- Gorian Hammer
-					116618, -- Gorian Mace
-					116621, -- Gorian Spear
-					116622, -- Gorian Staff
-					116623, -- Gorian Staff
-					116624, -- Gorian Sword
-					116627, -- Howling Axe
-					116628, -- Howling Broadaxe
-					116629, -- Howling Bow
-					116630, -- Howling Crossbow
-					116631, -- Howling Dagger
-					116642, -- Howling Greatsword
-					116634, -- Howling Gun
-					116637, -- Howling Hammer
-					116633, -- Howling Knuckles
-					116635, -- Howling Mace
-					116638, -- Howling Spear
-					116639, -- Howling Staff
-					116640, -- Howling Staff
-					116641, -- Howling Sword
-					116724, -- Oshu'gun Basin
-					116636, -- Oshu'gun Scepter
-					116632, -- Oshu'gun Spellblade
+					116721,	-- Ancestral Branch
+					116619,	-- Ancestral Scepter
+					116615,	-- Ancestral Spellblade
+					116626,	-- Ancestral Wand
+					116610,	-- Gorian Axe
+					116611,	-- Gorian Broadaxe
+					116612,	-- Gorian Bow
+					116613,	-- Gorian Crossbow
+					116614,	-- Gorian Dagger
+					116616,	-- Gorian Knuckles
+					116625,	-- Gorian Greatsword
+					116617,	-- Gorian Gun
+					116620,	-- Gorian Hammer
+					116618,	-- Gorian Mace
+					116621,	-- Gorian Spear
+					116622,	-- Gorian Staff
+					116623,	-- Gorian Staff
+					116624,	-- Gorian Sword
+					116627,	-- Howling Axe
+					116628,	-- Howling Broadaxe
+					116629,	-- Howling Bow
+					116630,	-- Howling Crossbow
+					116631,	-- Howling Dagger
+					116642,	-- Howling Greatsword
+					116634,	-- Howling Gun
+					116637,	-- Howling Hammer
+					116633,	-- Howling Knuckles
+					116635,	-- Howling Mace
+					116638,	-- Howling Spear
+					116639,	-- Howling Staff
+					116640,	-- Howling Staff
+					116641,	-- Howling Sword
+					116724,	-- Oshu'gun Basin
+					116636,	-- Oshu'gun Scepter
+					116632,	-- Oshu'gun Spellblade
 					116643,	-- Oshu'gun Wand
 				--	filter(CLOAKS, {
-					116720, -- Ancestral Cloak
+					116720,	-- Ancestral Cloak
 					116723,	-- Oshu'gun Cloak
 				--	filter(CLOTH, {
-					106737, -- Dark Star Cord
-					106738, -- Dark Star Cowl
-					106739, -- Dark Star Handwraps
-					106740, -- Dark Star Leggings
-					106741, -- Dark Star Robe
-					106742, -- Dark Star Sandals
-					106743, -- Dark Star Shoulderpads
-					106744, -- Dark Star Wristwraps
-					106704, -- Voidwrap Cord
-					106705, -- Voidwrap Cowl
-					106706, -- Voidwrap Handwraps
-					106707, -- Voidwrap Leggings
-					106708, -- Voidwrap Robe
-					106709, -- Voidwrap Sandals
-					106710, -- Voidwrap Shoulderpads
+					106737,	-- Dark Star Cord
+					106738,	-- Dark Star Cowl
+					106739,	-- Dark Star Handwraps
+					106740,	-- Dark Star Leggings
+					106741,	-- Dark Star Robe
+					106742,	-- Dark Star Sandals
+					106743,	-- Dark Star Shoulderpads
+					106744,	-- Dark Star Wristwraps
+					106704,	-- Voidwrap Cord
+					106705,	-- Voidwrap Cowl
+					106706,	-- Voidwrap Handwraps
+					106707,	-- Voidwrap Leggings
+					106708,	-- Voidwrap Robe
+					106709,	-- Voidwrap Sandals
+					106710,	-- Voidwrap Shoulderpads
 					106711,	-- Voidwrap Wristwraps
 				--	filter(LEATHER, {
-					106729, -- Meadowstomper Bindings
-					106730, -- Meadowstomper Boots
-					106731, -- Meadowstomper Britches
-					106732, -- Meadowstomper Gloves
-					106733, -- Meadowstomper Hood
-					106734, -- Meadowstomper Jerkin
-					106735, -- Meadowstomper Shoulders
-					106736, -- Meadowstomper Waistband
-					106696, -- Sabermaw Bindings
-					106697, -- Sabermaw Boots
-					106698, -- Sabermaw Britches
-					106699, -- Sabermaw Gloves
-					106700, -- Sabermaw Hood
-					106701, -- Sabermaw Jerkin
-					106702, -- Sabermaw Shoulders
+					106729,	-- Meadowstomper Bindings
+					106730,	-- Meadowstomper Boots
+					106731,	-- Meadowstomper Britches
+					106732,	-- Meadowstomper Gloves
+					106733,	-- Meadowstomper Hood
+					106734,	-- Meadowstomper Jerkin
+					106735,	-- Meadowstomper Shoulders
+					106736,	-- Meadowstomper Waistband
+					106696,	-- Sabermaw Bindings
+					106697,	-- Sabermaw Boots
+					106698,	-- Sabermaw Britches
+					106699,	-- Sabermaw Gloves
+					106700,	-- Sabermaw Hood
+					106701,	-- Sabermaw Jerkin
+					106702,	-- Sabermaw Shoulders
 					106703,	-- Sabermaw Waistband
 				--	filter(MAIL, {
-					106745, -- Packrunner Belt
-					106746, -- Packrunner Bracers
-					106747, -- Packrunner Gauntlets
-					106748, -- Packrunner Greaves
-					106749, -- Packrunner Helm
-					106750, -- Packrunner Legguards
-					106751, -- Packrunner Spaulders
-					106752, -- Packrunner Vest
-					106712, -- Sunspring Belt
-					106713, -- Sunspring Bracers
-					106714, -- Sunspring Gauntlets
-					106715, -- Sunspring Greaves
-					106716, -- Sunspring Helm
-					106717, -- Sunspring Legguards
-					106718, -- Sunspring Spaulders
+					106745,	-- Packrunner Belt
+					106746,	-- Packrunner Bracers
+					106747,	-- Packrunner Gauntlets
+					106748,	-- Packrunner Greaves
+					106749,	-- Packrunner Helm
+					106750,	-- Packrunner Legguards
+					106751,	-- Packrunner Spaulders
+					106752,	-- Packrunner Vest
+					106712,	-- Sunspring Belt
+					106713,	-- Sunspring Bracers
+					106714,	-- Sunspring Gauntlets
+					106715,	-- Sunspring Greaves
+					106716,	-- Sunspring Helm
+					106717,	-- Sunspring Legguards
+					106718,	-- Sunspring Spaulders
 					106719,	-- Sunspring Vest
 				--	filter(PLATE, {
-					106687, -- Ironfist Breastplate
-					106688, -- Ironfist Gauntlets
-					106689, -- Ironfist Girdle
-					106690, -- Ironfist Helm
-					106691, -- Ironfist Legplates
-					106692, -- Ironfist Pauldrons
-					106693, -- Ironfist Sabatons
-					106695, -- Ironfist Vambraces
-					106720, -- Stonecrag Breastplate
-					106721, -- Stonecrag Gauntlets
-					106722, -- Stonecrag Girdle
-					106723, -- Stonecrag Helm
-					106724, -- Stonecrag Legplates
-					106725, -- Stonecrag Pauldrons
-					106726, -- Stonecrag Sabatons
+					106687,	-- Ironfist Breastplate
+					106688,	-- Ironfist Gauntlets
+					106689,	-- Ironfist Girdle
+					106690,	-- Ironfist Helm
+					106691,	-- Ironfist Legplates
+					106692,	-- Ironfist Pauldrons
+					106693,	-- Ironfist Sabatons
+					106695,	-- Ironfist Vambraces
+					106720,	-- Stonecrag Breastplate
+					106721,	-- Stonecrag Gauntlets
+					106722,	-- Stonecrag Girdle
+					106723,	-- Stonecrag Helm
+					106724,	-- Stonecrag Legplates
+					106725,	-- Stonecrag Pauldrons
+					106726,	-- Stonecrag Sabatons
 					106728,	-- Stonecrag Vambraces
 				}},
 			}),

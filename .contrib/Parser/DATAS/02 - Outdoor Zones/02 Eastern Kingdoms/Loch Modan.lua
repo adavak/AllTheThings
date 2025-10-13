@@ -2336,7 +2336,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						-- #if AFTER 10.1.7
-						44758, -- Mo'grosh Darkmauler
+						44758,	-- Mo'grosh Darkmauler
 						-- #else
 						14267,	-- Emogg the Crusher
 						1179,	-- Mo'grosh Enforcer

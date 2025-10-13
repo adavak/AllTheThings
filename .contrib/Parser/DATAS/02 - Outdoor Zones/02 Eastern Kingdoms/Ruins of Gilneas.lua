@@ -237,7 +237,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(78178, {	-- To Gilneas (H)
 					["sourceQuest"] = 78597,	-- Clandestine Movements
-					["qg"] = 210965, -- Calia Menethil <The Pallid Lady>
+					["qg"] = 210965,	-- Calia Menethil <The Pallid Lady>
 					["coord"] = { 43.5, 73.2, SILVERPINE_FOREST },
 					["races"] = HORDE_ONLY,
 				}),

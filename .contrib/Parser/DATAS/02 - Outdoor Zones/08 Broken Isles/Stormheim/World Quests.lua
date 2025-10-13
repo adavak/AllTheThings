@@ -190,7 +190,7 @@ root(ROOTS.Zones, {
 					["requireSkill"] = FISHING,
 					["groups"] = {
 						o(247875, {	-- Boom Bait
-							i(135496), -- Boom Bait (QI)
+							i(135496),	-- Boom Bait (QI)
 						}),
 					},
 				}),

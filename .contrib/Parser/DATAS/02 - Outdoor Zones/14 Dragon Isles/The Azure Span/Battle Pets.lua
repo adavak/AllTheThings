@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["description"] = "Talk to |cFFefc400Lani|r and use the extra action button to spawn this pet.",
 					["crs"] = {
 						192260,	-- Chalkshell Turtle
-						199255, -- Lani
+						199255,	-- Lani
 					},
 					["coord"] = { 10.8, 48.0, THE_AZURE_SPAN },
 				}),
@@ -24,7 +24,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coords"] = {
 						{ 48.4, 56.0, THALDRASZUS },
 						{ 68.6, 52.0, THALDRASZUS },
-						{ 37.0, 33.0, THE_AZURE_SPAN }, 
+						{ 37.0, 33.0, THE_AZURE_SPAN },
 					},
 				}),
 				pet(3335, {	-- Pale Baby Vorquin (PET!)

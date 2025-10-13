@@ -154,7 +154,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				--	no questID appears to be attached to this, you can just judge souls as often as you loot bells. this gives no rep (with court of harvesters or the avowed) and i'm not sure if there's anything interesting from the satchel either. it gave me a buff item + some greys the first time, the second one gave me a Crumbling Sinstone that gave 8 Sinstone Fragments
 				["groups"] = {
 					i(174652, {	-- Satchel of Forgotten Heirlooms
-						["description"] = "Awarded regardless of your judgment.", -- as of December 14th 2021 she gives the satchel regardless of player's decision.
+						["description"] = "Awarded regardless of your judgment.",	-- as of December 14th 2021 she gives the satchel regardless of player's decision.
 						["groups"] = {
 							i(180387),	-- Crumbling Sinstone
 							i(180403),	-- Vessel of Distilled Regret

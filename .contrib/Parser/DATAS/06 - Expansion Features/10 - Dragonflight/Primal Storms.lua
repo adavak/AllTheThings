@@ -415,7 +415,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					-- Iceblade Trio
 					n(193677, {	-- Maeleera <First Iceblade>
 						["crs"] = {
-							193678, -- Fieraan <Second Iceblade>
+							193678,	-- Fieraan <Second Iceblade>
 							193679,	-- Leerain <Third Iceblade>
 						},
 						["questID"] = 74009,

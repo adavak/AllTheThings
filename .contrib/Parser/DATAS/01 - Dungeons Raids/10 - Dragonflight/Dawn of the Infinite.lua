@@ -41,7 +41,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(114264),	-- Bloodthorn Hood					(NYI)
 			ig(114388),	-- Hood of Falling Leaves			(NYI)
 			i(147516, {	-- Legion Stalker's Hood			(NYI)
-				["modID"] = 2, -- Heroic dungeon
+				["modID"] = 2,	-- Heroic dungeon
 			}),
 			ig(121509),	-- Runesworn Crown					(NYI)
 
@@ -329,7 +329,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(189943),	-- Greaves of Cosmic Designs		(NYI)
 			ig(114269),	-- Leafscale Legguards				(NYI)
 			i(147515, {	-- Hellblaze Invader's Greaves	(NYI)
-				["modID"] = 2, -- Heroic dungeon
+				["modID"] = 2,	-- Heroic dungeon
 			}),
 			ig(4013),	-- Sterling Chain Pants				(NYI)
 			ig(121512),	-- Stormborn Leggings				(NYI)
@@ -465,22 +465,22 @@ local QUANTUM_GROUP = sharedData({
 		}),
 		ig(134746),	-- Covert Greatsword				(Removed)
 		i(186410, {	-- Jaithys, the Prison Blade		(Removed)
-			["modID"] = 2, -- Heroic raid
+			["modID"] = 2,	-- Heroic raid
 		}),
 		i(186410, {	-- Jaithys, the Prison Blade		(Removed)
-			["modID"] = 6, -- Mythic raid
+			["modID"] = 6,	-- Mythic raid
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
-			["modID"] = 4, -- LFR raid
+			["modID"] = 4,	-- LFR raid
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
-			["modID"] = 3, -- Normal raid
+			["modID"] = 3,	-- Normal raid
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
-			["modID"] = 5, -- Heroic raid
+			["modID"] = 5,	-- Heroic raid
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
-			["modID"] = 6, -- Mythic raid
+			["modID"] = 6,	-- Mythic raid
 		}),
 		-- This item is available outside of Quantum, but nobody knows where. Maybe in WoD Classic!
 		ig(108905),	-- Jagged Turtleshell Blade				(Removed)
@@ -662,7 +662,7 @@ local QUANTUM_GROUP = sharedData({
 			160829,	-- Underrot Crawg Harness
 		},
 		{"prune","u","e"}	-- prune any unobtainable/event statuses from the selected monuts
-		},-- Raid (Maybe in future)--	78919, -- Experiment 12-B--	71665, -- Flametalon of Alysrazor--	77069, -- Life-Binder's Handmaiden--	45693, -- Mimiron's Head--	77067, -- Reins of the Blazing Drake
+		},-- Raid (Maybe in future)--	78919,	-- Experiment 12-B--	71665,	-- Flametalon of Alysrazor--	77069,	-- Life-Binder's Handmaiden--	45693,	-- Mimiron's Head--	77067,	-- Reins of the Blazing Drake
 		["groups"] = {
 			i(133543),	-- Reins of the Infinite Timereaver
 		},

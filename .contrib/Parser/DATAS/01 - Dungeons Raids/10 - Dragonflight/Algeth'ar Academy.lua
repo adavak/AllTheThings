@@ -36,7 +36,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					["crs"] = {
 						189668,	-- Professor Madormu
 						195416,	-- Magic Book
-						194181, -- Vexamus
+						194181,	-- Vexamus
 					},
 					["groups"] = {
 						i(193708),	-- Platinum Star Band
@@ -96,7 +96,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					["crs"] = {
 						189668,	-- Professor Madormu
 						195416,	-- Magic Book
-						194181, -- Vexamus
+						194181,	-- Vexamus
 					},
 					["groups"] = {
 						ach(16434),	-- See Me After Class

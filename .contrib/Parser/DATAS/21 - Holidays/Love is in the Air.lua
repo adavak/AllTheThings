@@ -8,7 +8,7 @@ LOVE_IS_IN_THE_AIR_HEADER = createHeader({
 	eventID = EVENTS.LOVE_IS_IN_THE_AIR,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		2, 6, 10, 0,	-- 02/06 at 10:00 AM
 		2, 20, 10, 0	-- 02/20 at 10:00 AM
 	},

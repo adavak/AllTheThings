@@ -4750,7 +4750,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			r(177045),	-- Secrets of Draenor Inscription
 			r(182125),	-- The Spirit of War
 			r(178240, {	-- War Paints
-				["u"] = TRAINING, -- Beleive this is tied to the Draenic Mortar
+				["u"] = TRAINING,	-- Beleive this is tied to the Draenic Mortar
 			}),
 			r(169081),	-- War Paints
 			r(167950, {	-- Research: Warbinder's Ink
@@ -4762,7 +4762,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			r(227562, {["timeline"]={ADDED_7_0_3}}),	-- Codex of the Clear Mind*
 			r(227561, {["timeline"]={ADDED_7_0_3}}),	-- Tome of the Clear Mind*
 			r(178550, {	-- Draenic Mortar
-				["u"] = TRAINING, -- Not actually a temp training recipe but is only available to non-scribes who build the Scribe's Quarters so don't want this showing for scribes
+				["u"] = TRAINING,	-- Not actually a temp training recipe but is only available to non-scribes who build the Scribe's Quarters so don't want this showing for scribes
 			}),
 		}),
 		cat(440, {	-- Mass Milling
@@ -5401,8 +5401,8 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			})),
 			q(49881, {	-- The Final Verse
 				["sourceQuests"] = {
-					49878, -- Penning In Protection
-					49879, -- Brush With Death
+					49878,	-- Penning In Protection
+					49879,	-- Brush With Death
 				},
 				["provider"] = { "n", 150318 },	-- Veriss
 				["coord"] = { 27.6, 52.3, VOLDUN },

@@ -552,8 +552,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 			["repeatable"] = true,
 			["groups"] = {
-				i(146685), -- Ancient Imbued Silkweave (QI!)
-				i(146684), -- Ancient Imbued Silkweave Armor (QI!)
+				i(146685),	-- Ancient Imbued Silkweave (QI!)
+				i(146684),	-- Ancient Imbued Silkweave Armor (QI!)
 			},
 		}),
 		q(46680, {	-- The Thread of Starlight

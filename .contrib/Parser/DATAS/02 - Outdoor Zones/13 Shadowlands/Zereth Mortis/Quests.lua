@@ -188,8 +188,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 				q(64817, {	-- In Plain Sight
 					["sourceQuests"] = {
-						64814, -- Battle for the Forge
-						64815, -- Together, We Ride
+						64814,	-- Battle for the Forge
+						64815,	-- Together, We Ride
 					},
 					["provider"] = { "n", 181193 },	-- Highlord Darion Mograine
 					["coord"] = { 41.9, 48.1, ZERETH_MORTIS },

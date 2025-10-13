@@ -648,34 +648,34 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["coord"] = { 19.0, 50.2, VALDRAKKEN },
 				["groups"] = bubbleDown({ ["timeline"] = { ADDED_10_2_0, REMOVED_11_0_2 } }, {	-- Think it was technically 1 week after 11.0.2 released but who cares
 					iensemble(211300, {	-- Arsenal: Whispering Temple Blades
-						["cost"] = 2000000000, -- 200,000g
+						["cost"] = 2000000000,	-- 200,000g
 					}),
 					i(211097, {	-- Gilded Crown Splitter
-						["cost"] = 900000000, -- 90,000g
+						["cost"] = 900000000,	-- 90,000g
 					}),
 					i(211099, {	-- Gilded Scarab Bulwark
-						["cost"] = 1000000000, -- 100,000g
+						["cost"] = 1000000000,	-- 100,000g
 					}),
 					i(211084, {	-- Golden Regal Scarab (MOUNT!)
 						["cost"] = 12000000000,	-- 1,200,000g
 					}),
 					i(211096, {	-- Gold-Plated Witchhunter's Carbine
-						["cost"] = 1000000000, -- 100,000g
+						["cost"] = 1000000000,	-- 100,000g
 					}),
 					i(211294, {	-- Marauder King's Body Carver
-						["cost"] = 1000000000, -- 100,000g
+						["cost"] = 1000000000,	-- 100,000g
 					}),
 					i(211145, {	-- Royal Witch Doctor's Trophies
-						["cost"] = 800000000, -- 80,000g
+						["cost"] = 800000000,	-- 80,000g
 					}),
 					i(211159, {	-- Royal Witch Doctor's Guard
-						["cost"] = 800000000, -- 80,000g
+						["cost"] = 800000000,	-- 80,000g
 					}),
 					i(211259, {	-- Regal Gryphon Rider's Headgear
-						["cost"] = 750000000, -- 75,000g
+						["cost"] = 750000000,	-- 75,000g
 					}),
 					i(211295, {	-- Wrathful Crusader's Helm
-						["cost"] = 750000000, -- 75,000g
+						["cost"] = 750000000,	-- 75,000g
 					}),
 				}),
 			}),

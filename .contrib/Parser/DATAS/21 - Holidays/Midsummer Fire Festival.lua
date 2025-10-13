@@ -8,7 +8,7 @@ MIDSUMMER_FIRE_FESTIVAL_HEADER = createHeader({
 	eventID = EVENTS.MIDSUMMER_FIRE_FESTIVAL,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		6, 21, 10, 0,	-- 06/21 at 10:00 AM
 		7, 5, 10, 0		-- 07/05 at 10:00 AM
 	},

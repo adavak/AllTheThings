@@ -9,7 +9,7 @@ LUNAR_FESTIVAL_HEADER = createHeader({
 	eventID = EVENTS.LUNAR_FESTIVAL,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		1, 28, 10, 0,	-- 01/28 at 10:00 AM
 		2, 18, 10, 0	-- 02/18 at 10:00 AM
 	},

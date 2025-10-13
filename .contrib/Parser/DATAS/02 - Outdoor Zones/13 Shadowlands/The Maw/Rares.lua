@@ -102,7 +102,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					180181,	-- Wicklick [Vignette]
 				},
 				["coord"] = { 45.5, 54.8, THE_MAW },
-				["questID"] = 64258, -- and 64439, both of which also triggered on my first Traitor Balthier kill.
+				["questID"] = 64258,	-- and 64439, both of which also triggered on my first Traitor Balthier kill.
 				["maps"] = { KORTHIA },	-- show in Korthia as well since it spawns there
 				["groups"] = {
 					i(187370),	-- Carriage Crusher's Padded Slippers
@@ -464,7 +464,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					{ 67.5, 48.3, THE_MAW },
 					{ 68.8, 45.5, THE_MAW },
 				},
-				["questID"] = 64439, -- and 64258, both of which also triggered on my first completion of the Assault Supply Carriage event.
+				["questID"] = 64439,	-- and 64258, both of which also triggered on my first completion of the Assault Supply Carriage event.
 				["groups"] = {
 					i(187374),	-- Balthier's Waistcord
 					i(187364),	-- Maldraxxi Traitor's Blade

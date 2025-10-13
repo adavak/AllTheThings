@@ -482,7 +482,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						})),
 						q(24967, {	-- Stab!
 							["sourceQuest"] = 3096,	-- Encrypted Scroll
-							["qg"] = 2122, -- David Trias <Rogue Trainer>
+							["qg"] = 2122,	-- David Trias <Rogue Trainer>
 							-- #if BEFORE MOP
 							["coord"] = { 32.6, 65.6, TIRISFAL_GLADES },
 							-- #endif

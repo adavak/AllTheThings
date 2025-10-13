@@ -700,7 +700,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			n(QUESTS, sharedData({
 				["qgs"] = {
-					142063, -- Tezran
+					142063,	-- Tezran
 					141584,	-- Zurvan
 				},
 				["coords"] = {

@@ -156,7 +156,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 						q(26940, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Night Elf)
 							["sourceQuest"] = 26841,	-- Forbidden Sigil
-							["qg"] = 43006, -- Rhyanda <Mage Trainer>
+							["qg"] = 43006,	-- Rhyanda <Mage Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 47.4, 59.7, SHADOWGLEN },

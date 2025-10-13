@@ -8,7 +8,7 @@ PIRATES_DAY_HEADER = createHeader({
 	eventID = EVENTS.PIRATES_DAY,
 	-- #if BEFORE WRATH
 	eventSchedule = {
-		1, -- Recurring
+		1,	-- Recurring
 		9, 19, 0, 0,	-- 09/19 at 12:00 AM
 		9, 20, 0, 0		-- 09/20 at 12:00 AM
 	},

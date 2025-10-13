@@ -4317,14 +4317,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				n(33853, {	-- Broxel Goldgrasp <Souvenirs>
 					["coord"] = { 73.0, 23.0, ICECROWN },
 					["groups"] = {
-						FORCE_ITEM_FACTION(45670, ALLIANCE_ONLY), -- Darnassus Doublet
-						FORCE_ITEM_FACTION(45668, ALLIANCE_ONLY), -- Exodar Doublet
-						FORCE_ITEM_FACTION(45671, ALLIANCE_ONLY), -- Gnomeregan Doublet
-						FORCE_ITEM_FACTION(45666, ALLIANCE_ONLY), -- Ironforge Doublet
+						FORCE_ITEM_FACTION(45670, ALLIANCE_ONLY),	-- Darnassus Doublet
+						FORCE_ITEM_FACTION(45668, ALLIANCE_ONLY),	-- Exodar Doublet
+						FORCE_ITEM_FACTION(45671, ALLIANCE_ONLY),	-- Gnomeregan Doublet
+						FORCE_ITEM_FACTION(45666, ALLIANCE_ONLY),	-- Ironforge Doublet
 						FORCE_ITEM_FACTION(45672, HORDE_ONLY),	  -- Orgrimmar Doublet
 						FORCE_ITEM_FACTION(45669, HORDE_ONLY),	  -- Sen'jin Doublet
 						FORCE_ITEM_FACTION(45664, HORDE_ONLY),	  -- Silvermoon Doublet
-						FORCE_ITEM_FACTION(45667, ALLIANCE_ONLY), -- Stormwind Doublet
+						FORCE_ITEM_FACTION(45667, ALLIANCE_ONLY),	-- Stormwind Doublet
 						FORCE_ITEM_FACTION(45673, HORDE_ONLY),	  -- Thunder Bluff Doublet
 						FORCE_ITEM_FACTION(45674, HORDE_ONLY),	  -- Undercity Doublet
 					},

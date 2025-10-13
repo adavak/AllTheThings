@@ -191,14 +191,12 @@ root(ROOTS.Unsorted, {
 			i(247566),	-- Robes of Celestial Adornment
 			i(247567),	-- Cinch of Light
 			i(247568),	-- Windwhipped Sailcloth
-			i(247569),	-- Leggings of the Lower Planes
 			i(247570),	-- Treads of the Drowned
 			i(247571),	-- Helhound Hair Bracers
 			i(247576),	-- Anchor Chain Waistguard
 			i(247578),	-- Radiant Soul Sabatons
 			i(247579),	-- Bite-Resistant Wristclamps
 			i(247583),	-- Calcareous Wristclamps
-			i(247587),	-- Helbeast Skin Tunic
 			i(247617),	-- Acolyte's Abandoned Footwraps
 			i(247618),	-- Sash of the Unredeemed
 			i(247619),	-- Treads of Violent Intrusion

@@ -2184,7 +2184,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 				["groups"] = {
 					i(157030),	-- Titan Prison Fragment (QI!)
 					i(208094, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (WOTLK)
-						["description"] = "This bag contains an item from Ulduar or an item from the WoW's 15th Birthday Event Bosses Anub, Lich King or Heigan.\nThe droprate for the mounts seems rather high (5-10%).", -- Might have been removed in 10.2.7 as a pouch dropped instead for me
+						["description"] = "This bag contains an item from Ulduar or an item from the WoW's 15th Birthday Event Bosses Anub, Lich King or Heigan.\nThe droprate for the mounts seems rather high (5-10%).",	-- Might have been removed in 10.2.7 as a pouch dropped instead for me
 						["sym"] = {{"select","itemID",
 							-- Seems to be always 1 of those 3 pets -- Gold 15.09.2023
 							142098,	-- Drudge Ghoul (PET!)
@@ -6173,11 +6173,11 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 						}),
 						i(234952, {	-- Crux of Blind Faith
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
-							["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 }, -- EU users have reported it absent from the vendor (?)
+							["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 },	-- EU users have reported it absent from the vendor (?)
 						}),
 						i(234953, {	-- Edge of the First Blade
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-							["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 }, -- EU users have reported it absent from the vendor (?)
+							["timeline"] = { ADDED_11_0_7, REMOVED_11_1_5 },	-- EU users have reported it absent from the vendor (?)
 						}),
 						iensemble(234946, {	-- Ensemble: Broken Shore Battlemender's Gear
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
@@ -7873,7 +7873,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 			e(2395, {	-- Blightbone
 				["crs"] = { 162691 },	-- Blightbone
 				["sym"] = {{"select", "modItemID",
-					modItemId(178732,1), -- Abominable Visage
+					modItemId(178732,1),	-- Abominable Visage
 					modItemId(178735,1),	-- Blight Belcher
 					modItemId(178733,1),	-- Blightbone Spaulders
 					modItemId(178730,1),	-- Engorged Worm Smasher

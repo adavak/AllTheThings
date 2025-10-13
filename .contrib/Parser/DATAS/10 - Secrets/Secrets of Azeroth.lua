@@ -266,7 +266,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					{ 55.0, 37.0, VALDRAKKEN },
 				},
 				["isBreadcrumb"] = true,
-				["repeatable"] = true, -- everyone lost this quest
+				["repeatable"] = true,	-- everyone lost this quest
 				["DisablePartySync"] = true,
 				-- Attempting to Party Sync and pickup/have shared this quest, the game says 'Must complete all pre-requisites'
 				-- I'm not sure what shenanigans Blizzard is doing where you can be missing quest pre-requisites while also in a Party Sync

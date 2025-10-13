@@ -1481,12 +1481,12 @@ root(ROOTS.Zones, {
 					}),
 					q(27203, {	-- The Maelstrom
 						["sourceQuests"] = {
-							27398, -- The Battle Is Won, The War Goes On (A)
-							27399, -- The Battle Is Won, The War Goes On (H)
-							27442, -- The War Has Many Fronts (H)
-							27443, -- The War Has Many Fronts (A)
-							27722, -- Warchief's Command: Deepholm!
-							27727, -- Hero's Call: Deepholm!
+							27398,	-- The Battle Is Won, The War Goes On (A)
+							27399,	-- The Battle Is Won, The War Goes On (H)
+							27442,	-- The War Has Many Fronts (H)
+							27443,	-- The War Has Many Fronts (A)
+							27722,	-- Warchief's Command: Deepholm!
+							27727,	-- Hero's Call: Deepholm!
 						},
 						["qgs"] = {
 							45244,	-- Farseer Krogar

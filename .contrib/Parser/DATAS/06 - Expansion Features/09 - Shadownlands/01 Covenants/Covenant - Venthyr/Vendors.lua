@@ -374,8 +374,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sym"] = { { "select", "itemID",
 					-- These items are only purchasable after you complete the covenant campaign.
 					-- Doing the Campaign also rewards all those items, so no need to list 2 sources per item.
-					180902, -- Dread Sentinel's Ebony Chestplate
-					180921, -- Dread Sentinel's Ebony Spaulders
+					180902,	-- Dread Sentinel's Ebony Chestplate
+					180921,	-- Dread Sentinel's Ebony Spaulders
 					180938,	-- Dread Sentinel's Ebony Cloak
 					180924,	-- Dread Sentinel's Ebony Girdle
 					180905,	-- Dread Sentinel's Ebony Greatboots

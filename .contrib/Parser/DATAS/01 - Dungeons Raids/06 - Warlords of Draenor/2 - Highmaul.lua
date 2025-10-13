@@ -57,18 +57,18 @@ local EncounterToLoot = {
 		i(113609),	-- Slaughterhouse Spaulders
 	};
 	[BRACKENSPORE] = {
-		i(113658), -- Bottle of Infesting Spores
-		i(113657), -- Cloak of Creeping Necrosis
-		i(113662), -- Collar of Wailing Mouths
-		i(113652), -- Crystalline Branch of the Brackenspore
-		i(113661), -- Deep Walker Pauldrons
-		i(113659), -- Fleshchewer Greatbelt
-		i(113656), -- Girdle of the Infected Mind
-		i(113653), -- Maw of Souls
-		i(113660), -- Mosscrusher Sabatons
-		i(113654), -- Moss-Woven Mailshirt
-		i(113655), -- Robes of Necrotic Whispers
-		i(113664), -- Sandals of Mycoid Musing
+		i(113658),	-- Bottle of Infesting Spores
+		i(113657),	-- Cloak of Creeping Necrosis
+		i(113662),	-- Collar of Wailing Mouths
+		i(113652),	-- Crystalline Branch of the Brackenspore
+		i(113661),	-- Deep Walker Pauldrons
+		i(113659),	-- Fleshchewer Greatbelt
+		i(113656),	-- Girdle of the Infected Mind
+		i(113653),	-- Maw of Souls
+		i(113660),	-- Mosscrusher Sabatons
+		i(113654),	-- Moss-Woven Mailshirt
+		i(113655),	-- Robes of Necrotic Whispers
+		i(113664),	-- Sandals of Mycoid Musing
 	};
 	[TECTUS] = {
 		i(113642),	-- Crystal-Woven Bracers

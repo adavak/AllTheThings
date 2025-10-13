@@ -271,7 +271,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(180746, {	-- Protector of the First Ones
-				["description"] = "Pylons show what rune you need to bring here. Needs at least two persons.\nPosition of runes:\nRune (V-like symbol) @ 43.0 21.5\nRune (Diamonds-like symbol) @ 44.9 22.4\nRune (M-like symbol) @ 46.8 23.3\nRune (H-llke symbol) @ 48.4 24.1", -- See if symbols rotate
+				["description"] = "Pylons show what rune you need to bring here. Needs at least two persons.\nPosition of runes:\nRune (V-like symbol) @ 43.0 21.5\nRune (Diamonds-like symbol) @ 44.9 22.4\nRune (M-like symbol) @ 46.8 23.3\nRune (H-llke symbol) @ 48.4 24.1",	-- See if symbols rotate
 				["coord"] = { 39.5, 26.8, ZERETH_MORTIS },
 				["questID"] = 64668,
 				["groups"] = {

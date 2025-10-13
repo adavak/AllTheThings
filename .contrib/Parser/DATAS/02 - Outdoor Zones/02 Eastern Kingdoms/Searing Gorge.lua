@@ -428,7 +428,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27976, {	-- Curse These Fat Fingers
-					["sourceQuest"] = 27965, -- Thorium Point: The Seat of the Brotherhood
+					["sourceQuest"] = 27965,	-- Thorium Point: The Seat of the Brotherhood
 					["qg"] = 14627,	-- Hansel Heavyhands
 					["coord"] = { 38.4, 27.8, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },
@@ -644,7 +644,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = lvlsquish(40, 40, 15),
 				}),
 				q(27981, {	-- Heat That Just Don't Quit
-					["sourceQuest"] = 27965, -- Thorium Point: The Seat of the Brotherhood
+					["sourceQuest"] = 27965,	-- Thorium Point: The Seat of the Brotherhood
 					["qg"] = 14627,	-- Hansel Heavyhands
 					["coord"] = { 38.4, 27.8, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },
@@ -842,7 +842,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(27983, {	-- Lunk's Adventure: Cranky Little Dwarfs
 					["description"] = "Must be on |cFFFFD700Recon Essentials|r to get this quest. Lunk will appear when you kill a Dark Iron Dwarf.\n\nHigh-level players must unequip their weapons, hit the Dwarf once with auto-attack and stop after 1 hit.",
-					["sourceQuest"] = 27965, -- Thorium Point: The Seat of the Brotherhood
+					["sourceQuest"] = 27965,	-- Thorium Point: The Seat of the Brotherhood
 					["qg"] = 47332,	-- Lunk
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
@@ -1029,7 +1029,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 40,
 				}),
 				q(28099, {	-- Rasha'krak
-					["sourceQuest"] = 27965, -- Thorium Point: The Seat of the Brotherhood
+					["sourceQuest"] = 27965,	-- Thorium Point: The Seat of the Brotherhood
 					["qg"] = 14625,	-- Overseer Oilfist
 					["coord"] = { 38.1, 26.9, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1041,7 +1041,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27977, {	-- Recon Essentials
-					["sourceQuest"] = 27965, -- Thorium Point: The Seat of the Brotherhood
+					["sourceQuest"] = 27965,	-- Thorium Point: The Seat of the Brotherhood
 					["qg"] = 14626,	-- Taskmaster Scrange
 					["coord"] = { 36.1, 28.2, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },

@@ -142,17 +142,17 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				}),
 				crit(68162, { -- Mourning Rise
 					["_quests"] = {
-						82895, -- Mourning Rise
+						82895,	-- Mourning Rise
 					},
 				}),
 				crit(67728, { -- Broken Tools
 					["_quests"] = {
-						78564, -- Broken Tools
+						78564,	-- Broken Tools
 					},
 				}),
 				crit(67055, { -- Merrix and Steelvein
 					["_quests"] = {
-						79530, -- Merrix and Steelvein
+						79530,	-- Merrix and Steelvein
 					},
 				}),
 				i(223572),	-- Slatestone Ramolith (MOUNT!)

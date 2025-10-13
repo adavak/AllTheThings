@@ -278,26 +278,26 @@ local EncounterToLoot = {
 		i(152683),	-- World-Ravager Waistguard
 	};
 	[ARGUS] = {
-		i(152283), -- Chain of the Unmaker
-		i(155853), -- Conch of the Thunderer
-		i(155848), -- Condensed Blight Orb
-		i(152016), -- Cosmos-Culling Legplates
-		i(155847), -- Cruor of the Avenger
-		i(151986), -- Death-Enveloping Cincture
-		i(155849), -- Flickering Ember of Rage
-		i(152679), -- Gambeson of Sargeras' Corruption
-		i(152680), -- Handwraps of Inevitable Doom
-		i(152423), -- Helm of the Awakened Soul
-		i(155846), -- Miniaturized Cosmic Beacon
-		i(155855), -- Mote of the Forgemaster
-		i(152686), -- Nascent Deathbringer's Clutches
-		i(152005), -- Pauldrons of Colossal Burden
-		i(155851), -- Reorigination Spark
-		i(155850), -- Rime of the Spirit Realm
-		i(155854), -- Root of the Lifebinder
-		i(151972), -- Sullied Seal of the Pantheon
-		i(151982), -- Vest of Waning Life
-		i(155852), -- Volatile Soul Fragment
+		i(152283),	-- Chain of the Unmaker
+		i(155853),	-- Conch of the Thunderer
+		i(155848),	-- Condensed Blight Orb
+		i(152016),	-- Cosmos-Culling Legplates
+		i(155847),	-- Cruor of the Avenger
+		i(151986),	-- Death-Enveloping Cincture
+		i(155849),	-- Flickering Ember of Rage
+		i(152679),	-- Gambeson of Sargeras' Corruption
+		i(152680),	-- Handwraps of Inevitable Doom
+		i(152423),	-- Helm of the Awakened Soul
+		i(155846),	-- Miniaturized Cosmic Beacon
+		i(155855),	-- Mote of the Forgemaster
+		i(152686),	-- Nascent Deathbringer's Clutches
+		i(152005),	-- Pauldrons of Colossal Burden
+		i(155851),	-- Reorigination Spark
+		i(155850),	-- Rime of the Spirit Realm
+		i(155854),	-- Root of the Lifebinder
+		i(151972),	-- Sullied Seal of the Pantheon
+		i(151982),	-- Vest of Waning Life
+		i(155852),	-- Volatile Soul Fragment
 	};
 };
 

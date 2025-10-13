@@ -67,15 +67,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["cost"] = {{"i",191304,1}},	-- Sturdy Expedition Shovel
 				["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 				["sym"] = {{"select","itemID",
-					199061, -- A Guide to Rare Fish
-					199062, -- Ruby Gem Cluster Map
-					194540, -- Nokhud Armorer's Notes
-					198843, -- Emerald Gardens Explorer's Notes
-					199065, -- Sorrowful Letter
-					199066, -- Letter of Caution
-					199067, -- Precious Plans
-					199068, -- Time-Lost Memo
-					198852, -- Bear Termination Orders
+					199061,	-- A Guide to Rare Fish
+					199062,	-- Ruby Gem Cluster Map
+					194540,	-- Nokhud Armorer's Notes
+					198843,	-- Emerald Gardens Explorer's Notes
+					199065,	-- Sorrowful Letter
+					199066,	-- Letter of Caution
+					199067,	-- Precious Plans
+					199068,	-- Time-Lost Memo
+					198852,	-- Bear Termination Orders
 					-- Glimmering Clusters
 					200864,	-- Glimmering Alexstraszite Cluster
 					200866,	-- Glimmering Malygite Cluster
@@ -125,15 +125,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				-- No coords. Wowhead has literally over 1,000 coords for it
 				["sym"] = {{"select","itemID",
 					-- Common Drops
-					199061, -- A Guide to Rare Fish
-					199062, -- Ruby Gem Cluster Map
-					194540, -- Nokhud Armorer's Notes
-					198843, -- Emerald Gardens Explorer's Notes
-					199065, -- Sorrowful Letter
-					199066, -- Letter of Caution
-					199067, -- Precious Plans
-					199068, -- Time-Lost Memo
-					198852, -- Bear Termination Orders
+					199061,	-- A Guide to Rare Fish
+					199062,	-- Ruby Gem Cluster Map
+					194540,	-- Nokhud Armorer's Notes
+					198843,	-- Emerald Gardens Explorer's Notes
+					199065,	-- Sorrowful Letter
+					199066,	-- Letter of Caution
+					199067,	-- Precious Plans
+					199068,	-- Time-Lost Memo
+					198852,	-- Bear Termination Orders
 					-- Profession Knowledge Items
 					193891,	-- Experimental Substance
 					193897,	-- Reawakened Catalyst
@@ -181,15 +181,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 				["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 				["sym"] = {{"select","itemID",
-					199061, -- A Guide to Rare Fish
-					199062, -- Ruby Gem Cluster Map
-					194540, -- Nokhud Armorer's Notes
-					198843, -- Emerald Gardens Explorer's Notes
-					199065, -- Sorrowful Letter
-					199066, -- Letter of Caution
-					199067, -- Precious Plans
-					199068, -- Time-Lost Memo
-					198852, -- Bear Termination Orders
+					199061,	-- A Guide to Rare Fish
+					199062,	-- Ruby Gem Cluster Map
+					194540,	-- Nokhud Armorer's Notes
+					198843,	-- Emerald Gardens Explorer's Notes
+					199065,	-- Sorrowful Letter
+					199066,	-- Letter of Caution
+					199067,	-- Precious Plans
+					199068,	-- Time-Lost Memo
+					198852,	-- Bear Termination Orders
 				}},
 			}),
 		}),

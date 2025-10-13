@@ -5,7 +5,7 @@ REMIX_MOP = createHeader({
 	icon = [[~_.asset("Category_Remix")]],
 	eventID = EVENTS.REMIX_MOP,
 	eventSchedule = {
-		0, -- May 16th, 2024 to August 20th, 2024
+		0,	-- May 16th, 2024 to August 20th, 2024
 		2024, 5, 16,	-- 5/16/2024
 		2024, 8, 20,	-- 8/20/2024
 	},

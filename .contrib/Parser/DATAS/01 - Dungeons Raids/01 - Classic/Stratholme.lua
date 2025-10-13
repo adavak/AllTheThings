@@ -791,7 +791,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			n(MAIN_GATE, {
 				-- #if AFTER 4.0.3
-				["mapID"] = STRATHOLME, -- Main Gate
+				["mapID"] = STRATHOLME,	-- Main Gate
 				["sym"] = {
 					{"select","instanceID",236},{"pop"},	-- Select the overall Stratholme instance
 					{"contains","headerID",ACHIEVEMENTS,QUESTS,ZONE_DROPS},	-- Select the common Achievements/Quests/Zone Drops
@@ -1436,7 +1436,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(SERVICE_ENTRANCE, {
 				["provider"] = { "o", 175369 },	-- Elders' Square Service Entrance
 				-- #if AFTER 4.0.3
-				["mapID"] = 318, -- Service Entrance
+				["mapID"] = 318,	-- Service Entrance
 				["sym"] = {
 					{ "select", "instanceID", 236 }, { "pop" },						-- Select the overall Stratholme instance
 					{ "contains", "headerID", ACHIEVEMENTS, QUESTS, ZONE_DROPS },	-- Select the common Achievements/Quests/Zone Drops

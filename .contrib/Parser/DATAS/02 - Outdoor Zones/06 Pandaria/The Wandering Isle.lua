@@ -168,7 +168,7 @@ root(ROOTS.Zones, {
 								["providers"] = {
 									{ "i", 72112 },	-- Fluttering Breeze (QI!)
 									{ "i", 72109 },	-- Wind Stone (QI!)
-									{ "o", 209325 }, -- Wind Stone
+									{ "o", 209325 },	-- Wind Stone
 								},
 								["coord"] = { 47.8, 31.6, THE_WANDERING_ISLE_STARTING_ZONE },
 								["cr"] = 54631,	-- Living Air

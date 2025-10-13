@@ -92,8 +92,8 @@ local PHASE_TWO_TRINKETS = applyclassicphase(WRATH_PHASE_TWO, pvp({
 	moh(1, wmoh(25, i(46086))),	-- Platinum Disks of Battle
 	moh(1, wmoh(25, i(46087))),	-- Platinum Disks of Sorcery
 	moh(1, wmoh(25, i(46088))),	-- Platinum Disks of Swiftness
-	moh(1, wmoh(25, i(46083))), -- Titan-Forged Rune of Accuracy
-	moh(1, wmoh(25, i(46085))), -- Titan-Forged Rune of Alacrity
+	moh(1, wmoh(25, i(46083))),	-- Titan-Forged Rune of Accuracy
+	moh(1, wmoh(25, i(46085))),	-- Titan-Forged Rune of Alacrity
 	moh(1, wmoh(25, i(46081))),	-- Titan-Forged Rune of Audacity
 	moh(1, wmoh(25, i(46084))),	-- Titan-Forged Rune of Cruelty
 	moh(1, wmoh(25, i(46082))),	-- Titan-Forged Rune of Determination

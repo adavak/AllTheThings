@@ -856,7 +856,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 					["provider"] = { "n", 195303 },	-- Mender Eskros
 					["coord"] = { 71.2, 40.5, THE_WAKING_SHORES },
-					["isBreadcrumb"] = true, -- Prob?
+					["isBreadcrumb"] = true,	-- Prob?
 				}),
 				q(66105, {	-- A Scalpel of a Solution
 					["sourceQuests"] = { 72122 },	-- Erstwhile Ecologists
@@ -1152,7 +1152,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			------ Miscellaneous ------
 			q(70179, {	-- A Two for One Deal
-				["sourceQuests"] = { 66001 },	-- A Last Hope, -- TODO: Wasnt available when picking up 65997, but available before 66001....
+				["sourceQuests"] = { 66001 },	-- A Last Hope,	-- TODO: Wasnt available when picking up 65997, but available before 66001....
 				["provider"] = { "n", 194525 },	-- Apprentice Caretaker Zefren
 				["coord"] = { 54.4, 30.8, THE_WAKING_SHORES },
 				["groups"] = {

@@ -33,8 +33,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				q(59751, {	-- Through the Shattered Sky
 					["sourceQuests"] = {
-						60545, -- A Chilling Summons [A]
-						61874, -- A Chilling Summons [H]
+						60545,	-- A Chilling Summons [A]
+						61874,	-- A Chilling Summons [H]
 					},
 					["provider"] = { "n", 169076 },	-- Highlord Bolvar Fordragon
 					["maps"] = {

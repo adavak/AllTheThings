@@ -25,7 +25,7 @@ local EncounterToCRS = {
 		157620,	-- The Prophet Skitra
 	},
 	[INQUISITOR] = {
-		160229, -- Dark Inquisitor Xanesh
+		160229,	-- Dark Inquisitor Xanesh
 		156575,	-- Dark Inquisitor Xanesh
 	},
 	[HIVEMIND] = {	-- The Hivemind

@@ -2243,7 +2243,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["cr"] = 236942,	-- The Underpin
 			["groups"] = {
 				i(235813),	-- Machine Gob's Iron Grin
-				--i(233071), -- Delver's Bounty
+				--i(233071),	-- Delver's Bounty
 			},
 		}),
 		o(547532, {	-- Ky'veza's Etheric Cache

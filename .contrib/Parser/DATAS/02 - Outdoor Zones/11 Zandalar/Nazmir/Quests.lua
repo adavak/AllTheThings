@@ -1637,10 +1637,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 					["isWorldQuest"] = true,	-- for some reason, this shows up in /attwq for characters who haven't done it. haunted!
 				}),
 				q(49369, {	-- Nazmir dialogue around the Necropolis: "Do you hear it?  It's Bwonsamdi's call!  Eternity is near!"
-					["isWorldQuest"] = true, -- unsure if this erroneously shows up in /attwq like the others; if so, it needs to be marked as a WQ
+					["isWorldQuest"] = true,	-- unsure if this erroneously shows up in /attwq like the others; if so, it needs to be marked as a WQ
 				}),
 				q(49695, {	-- immediately after channeling on the drum finishes during "A Tribute For Death"
-					["isWorldQuest"] = true, -- haunted HQT that shows in /attwq
+					["isWorldQuest"] = true,	-- haunted HQT that shows in /attwq
 				}),
 				-- q(54773),	-- Warmode version of March on the Marsh
 			}),

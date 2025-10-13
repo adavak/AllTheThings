@@ -30,7 +30,7 @@ local EncounterToCRS = {
 	[KUROG] = { 181378 },	-- Kurog Grimtotem
 	[DIURNA] = { 190245 },	-- Broodkeeper Diurna
 	[RASZAGETH] = {
-		193909, -- Raszageth the Storm-Eater
+		193909,	-- Raszageth the Storm-Eater
 		189492,	-- Raszageth the Storm-Eater
 	},
 };

@@ -591,8 +591,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(41793, {	-- Lulubelle on Loan
 						["sourceQuests"] = {
-							41787, -- Someone Else's Mess
-							41788, -- Coercing a Confession
+							41787,	-- Someone Else's Mess
+							41788,	-- Coercing a Confession
 						},
 						["provider"] = { "n", 104855 },	-- Lulubelle Fizzlebang
 						["coord"] = { 39.3, 42.2, STORMHEIM },
