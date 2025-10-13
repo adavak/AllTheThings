@@ -441,6 +441,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["groups"] = {
 							ach(60895),	-- Celestial: Shado-Pan Monastery
 							i(86777),	-- Screaming Tiger, Qiang's Unbreakable Polearm
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86905)),	-- Shin'ka, Execution of Dominion (Terrace)
 							i(86739),	-- Beads of the Mogu'shi
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86813)),	-- Vizier's Ruby Signet (HoF)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86873)),	-- Watersoul Signet (Terrace)
