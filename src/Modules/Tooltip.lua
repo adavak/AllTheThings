@@ -971,7 +971,7 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 			end
 		end
 
-		app.PrintDebug(SafeGetName(self),link,target,spellID,id,ttType,ttId)
+		-- app.PrintDebug(SafeGetName(self),link,target,spellID,id,ttType,ttId)
 		-- app.PrintTable(ttdata)
 
 		--[[--]
