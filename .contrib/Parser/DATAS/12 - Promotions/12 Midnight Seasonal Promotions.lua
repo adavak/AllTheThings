@@ -9,8 +9,8 @@ MIDNIGHT_SEASONAL_PROMOTIONS = createHeader({
 		es = "Promociones temporada Midnight",
 		mx = "Promociones temporada Midnight",
 		ru = "Промо Midnight",
-	--	cn = "地心之战季节性促销",
-	--	tw = "《地心之戰》季節性促銷",
+		cn = "至暗之夜季节性促销",
+		tw = "《至暗之夜》季節性促銷",
 	},
 	description = {
 		en = "These promotions happened during the time Midnight was the most recent expansion.\n\nThey are listed in the order of their first appearance.",
