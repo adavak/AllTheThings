@@ -462,28 +462,32 @@ root(ROOTS.ExpansionFeatures,
 					["modelScale"] = 2.3,
 					["crs"] = { 94399 },	-- Lunarfall Fleet Command Table
 					["groups"] = {
-						a(ach(10174, {	-- Admiral [A]
-							a(ach(10173)),	-- Fleet Commander [A]
-							a(ach(10172, {	-- Petty Officer [A]
-								a(i(128362)),	-- Captain's Hat [A]
-							})),
+						a(ach(10174)),	-- Admiral [A]
+						a(ach(10173)),	-- Fleet Commander [A]
+						a(ach(10172, {	-- Petty Officer [A]
+							a(i(128362)),	-- Captain's Hat [A]
 						})),
-						h(ach(10276, {	-- Admiral [H]
-							h(ach(10275)),	-- Fleet Commander [H]
-							h(ach(10255, {	-- Petty Officer [H]
-								h(i(128363)),	-- Captain's Hat [H]
-							})),
+						h(ach(10276)),	-- Admiral [H]
+						h(ach(10275)),	-- Fleet Commander [H]
+						h(ach(10255, {	-- Petty Officer [H]
+							h(i(128363)),	-- Captain's Hat [H]
 						})),
-						a(ach(10167, {	-- Exploring the High Seas [A]
-							a(ach(10256, {	-- Charting a Course [A]
+						a(ach(10256, {	-- Charting a Course [A]
+							["_noautomation"] = true,
+							["sym"] = {{"partial_achievement",10167}},	-- Exploring the High Seas [A]
+							["groups"] = {
 								a(i(128365)),	-- Fleet Commander's Hat [A]
-							})),
+							},
 						})),
-						h(ach(10307, {	-- Exploring the High Seas [H]
-							h(ach(10258, {	-- Charting a Course [H]
+						h(ach(10258, {	-- Charting a Course [H]
+							["_noautomation"] = true,
+							["sym"] = {{"partial_achievement",10307}},	-- Exploring the High Seas [H]
+							["groups"] = {
 								h(i(128364)),	-- Fleet Commander's Hat [H]
-							})),
+							},
 						})),
+						a(ach(10167)),	-- Exploring the High Seas [A]
+						h(ach(10307)),	-- Exploring the High Seas [H]
 						ach(10164, {	-- Master of the Seas
 							title(317),	-- Captain
 							crit(28515),	-- Naval Combat Expert
@@ -492,21 +496,16 @@ root(ROOTS.ExpansionFeatures,
 							crit(28518),	-- Naval Bonus Expert
 							crit(28519),	-- Naval Siege Expert
 						}),
-						ach(10036, {	-- Naval Bonus Expert
-							ach(10017),	-- Naval Bonus Specialist
-						}),
-						ach(10154, {	-- Naval Combat Expert
-							ach(10156),	-- Naval Combat Specialist
-						}),
-						ach(10155, {	-- Naval Siege Expert
-							ach(10161),	-- Naval Siege Specialist
-						}),
-						ach(10163, {	-- Naval Training Expert
-							ach(10162),	-- Naval Training Specialist
-						}),
-						ach(10160, {	-- Naval Treasure Expert
-							ach(10159),	-- Naval Treasure Specialist
-						}),
+						ach(10036),	-- Naval Bonus Expert
+						ach(10017),	-- Naval Bonus Specialist
+						ach(10154),	-- Naval Combat Expert
+						ach(10156),	-- Naval Combat Specialist
+						ach(10155),	-- Naval Siege Expert
+						ach(10161),	-- Naval Siege Specialist
+						ach(10163),	-- Naval Training Expert
+						ach(10162),	-- Naval Training Specialist
+						ach(10160),	-- Naval Treasure Expert
+						ach(10159),	-- Naval Treasure Specialist
 						ach(10170, {	-- Seaman
 							i(128353),	-- Admiral's Compass
 						}),
