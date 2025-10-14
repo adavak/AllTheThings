@@ -53,6 +53,23 @@ namespace ATT
         }
 
         /// <summary>
+        /// Returns a decimal value of an object divided by 1 billion (10^9)
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        /// <exception cref="InvalidOperationException"></exception>
+        public static decimal AsSubDecimalShift(this object i)
+        {
+            if (!i.TryConvert(out double d))
+                throw new InvalidOperationException($"Object is not a numeric type: {Framework.ToJSON(i)}");
+
+            if (d == 0)
+                return 0;
+
+            return (decimal)(d / Math.Pow(10, 9));
+        }
+
+        /// <summary>
         /// Convert the version number into a valid game version number.
         /// </summary>
         /// <param name="version">The version number.</param>
