@@ -176,6 +176,8 @@ namespace ATT
 
             AddHandlerAction(ParseStage.ConditionalData, Handler.AlwaysHandle, Objects.AssignFilterID);
 
+            AddHandlerAction(ParseStage.Incorporation, Handler.AlwaysHandle, Incorporate_DataCloning);
+
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
@@ -963,12 +965,6 @@ namespace ATT
             // Handles Spell->SpellEffect incorporation
             Incorporate_Spell(data);
             Incorporate_Ensemble(data);
-
-            bool cloned = Incorporate_DataCloning(data);
-
-            // specifically Achievement Criteria that is cloned to another location in the addon should not be maintained where it was cloned from
-            if (cloned && data.ContainsKey("criteriaID"))
-                return false;
 
             // capture the data for sourced groups (i.e. contains the field)
             CaptureForSOURCED(data);
@@ -3449,7 +3445,7 @@ namespace ATT
                                 symCmdObj.First() is string symCmdStr && commands.Contains(symCmdStr);
         }
 
-        private static bool Incorporate_DataCloning(IDictionary<string, object> data)
+        private static void Incorporate_DataCloning(IDictionary<string, object> data)
         {
             bool cloned = false;
             long criteriaID;
@@ -3559,7 +3555,7 @@ namespace ATT
                 cloned = true;
             }
 
-            // data.DataBreakPoint("criteriaID", 19626);
+            // data.DataBreakPoint("criteriaID", 60752);
 
             bool confirmedClone = false;
             // TODO: revise with adjustments on post-process merging
@@ -3758,13 +3754,19 @@ namespace ATT
                 //}
             }
 
-            // Un-cloned data which is marked as ignored should allow itself to be removed from the list
-            if (!cloned && data.ContainsKey("_ignored"))
+            // Un-cloned Criteria which is marked as ignored should allow itself to be removed from the list
+            if (data.ContainsKey("criteriaID") && !data.ContainsKey("_noautomation"))
             {
-                return true;
+                if (!cloned && data.ContainsKey("_ignored"))
+                {
+                    //return true;
+                    data["_remove"] = true;
+                }
+                else if (cloned)
+                {
+                    data["_remove"] = true;
+                }
             }
-
-            return cloned;
         }
 
         private static void Consolidate_General(IDictionary<string, object> data)
