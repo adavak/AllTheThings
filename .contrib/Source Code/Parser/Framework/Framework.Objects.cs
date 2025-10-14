@@ -1,4 +1,5 @@
-﻿using ATT.FieldTypes;
+﻿using ATT.DB.Types;
+using ATT.FieldTypes;
 using System;
 using System.Collections;
 using System.Collections.Concurrent;
@@ -10,6 +11,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using static ATT.Export;
+using static ATT.Framework;
 
 namespace ATT
 {
@@ -1365,7 +1367,7 @@ end");
                         //case "lvl":
                         case "races":
                         case "classes":
-                        case "coords":
+                        case Coords.Field:
                         case "sym":
                         case "f":
                         case "learnedAt":
@@ -1446,7 +1448,7 @@ end");
                         case "title":
                         case "icon":
                         case "lvl":
-                        case "coords":
+                        case Coords.Field:
                         case "crs":
                         case "sym":
                         case "u":
@@ -2040,87 +2042,9 @@ end");
                         break;
                     // Special parser for coordinate data. (list of floats)
                     case "coord":
-                        {
-                            // Convert the data to a list of generic objects.
-                            if (!(value is List<object> newList))
-                            {
-                                LogError($"Invalid Format for field [{field}] = {ToJSON(value)}", item);
-                                return;
-                            }
-
-                            // Convert the input into something more usable.
-                            var newcoord = new List<object>();
-                            try
-                            {
-                                foreach (var entry in newList)
-                                {
-                                    if (entry.TryConvert(out float eFloat))
-                                    {
-                                        newcoord.Add(eFloat);
-                                    }
-                                    else
-                                    {
-                                        LogError($"Invalid Numeric Format for Merge - {field}:{entry}");
-                                    }
-                                }
-                            }
-                            catch
-                            {
-                                LogError($"Invalid Format for field [{field}] = {ToJSON(value)}", item);
-                                return;
-                            }
-
-                            // Attempt to get the old list data.
-                            if (item.TryGetValue("coords", out object coordsRef) && coordsRef is List<object> coords)
-                            {
-                                // Merge into the existing list.
-                                var newcount = newcoord.Count;
-                                foreach (var oldcoordinateRef in coords)
-                                {
-                                    if (oldcoordinateRef is List<object> oldcoord)
-                                    {
-                                        var oldcount = oldcoord.Count;
-                                        if (oldcount == newcount)
-                                        {
-                                            bool match = true;
-                                            for (int i = 0; i < oldcount; ++i)
-                                            {
-                                                if (Equals(oldcoord[i], newcoord[i])) continue;
-                                                match = false;
-                                                break;
-                                            }
-                                            if (match) return;
-                                        }
-                                    }
-                                }
-
-                                // Add the new coordinate.
-                                coords.Add(newcoord);
-                            }
-                            else
-                            {
-                                // Create a new list.
-                                item["coords"] = coords = new List<object>
-                                {
-                                    newcoord
-                                };
-                            }
-                            break;
-                        }
-                    case "coords":
-                        {
-                            // TODO: when using _quests on a criteria which has coords, the coord is being duplicated a various amount of times
-                            // Convert the data to a list of generic objects.
-                            if (value is List<object> newList)
-                            {
-                                foreach (var coord in newList) Merge(item, "coord", coord);
-                            }
-                            else
-                            {
-                                LogError($"Invalid Format for field [{field}] = {ToJSON(value)}", item);
-                            }
-                            break;
-                        }
+                    case Coords.Field:
+                        Coords.Merge(item, value);
+                        break;
 
                     // Functions
                     case "OnInit":

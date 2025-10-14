@@ -10,7 +10,7 @@ namespace ATT.FieldTypes
     /// </summary>
     public class Cost : IExportableField, IProcessedField
     {
-        private const string Field = "cost";
+        public const string Field = "cost";
 
         private readonly IDictionary<string, object> _data;
 
@@ -58,14 +58,10 @@ namespace ATT.FieldTypes
         public static void Merge(IDictionary<string, object> data, object value)
         {
             Cost cost;
-            if (!data.TryGetValue("cost", out object costobj))
+            if (!data.TryGetValue(Field, out object costobj))
             {
                 cost = new Cost(data);
                 data[Field] = cost;
-                if (value is Cost newCost)
-                {
-                    cost.Merge(newCost);
-                }
             }
             else
             {

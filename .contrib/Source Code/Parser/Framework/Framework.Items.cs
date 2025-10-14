@@ -418,7 +418,7 @@ namespace ATT
                     case "model":
                     case "maps":
                     case "coord":
-                    case "coords":
+                    case Coords.Field:
                     case "criteriaID":
                     case "heirloomID":
                     //case "recipeID":  // if an Item teaches a Recipe, it's not a different Recipe based on Source, so we can merge it

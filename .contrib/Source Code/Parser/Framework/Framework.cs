@@ -907,7 +907,7 @@ namespace ATT
                     case "maps":
                     case "qgs":
                     case "crs":
-                    case "coords":
+                    case Coords.Field:
                         // is it a list of objects?
                         if (entry.Value is List<object> valList)
                         {
@@ -1126,10 +1126,10 @@ namespace ATT
                         return "coord";
                     }
 
-                case "coords":
+                case Coords.Field:
                 case "coordIDs":
                     {
-                        return "coords";
+                        return Coords.Field;
                     }
 
                 case "explorationId":

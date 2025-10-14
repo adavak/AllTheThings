@@ -1221,14 +1221,14 @@ namespace ATT
 
         private static void DoShiftCoords(IDictionary<string, object> data)
         {
-            if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue("coords", out List<object> coordsObjs))
+            if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue(Coords.Field, out object coordsObj) && coordsObj is Coords coords)
             {
                 TimelineEntry dataTimelineEntry = null;
 
-                foreach (var coordObj in coordsObjs.AsTypedEnumerable<List<object>>())
+                for (int i = 0; i < coords.Count; i++)
                 {
-                    if (coordObj.SafeIndex(2).TryConvert(out long mapID)
-                        && Objects.MAPID_COORD_SHIFTS.TryGetValue(mapID, out CoordShift shiftInfo))
+                    Coord coord = coords[i];
+                    if (Objects.MAPID_COORD_SHIFTS.TryGetValue(coord.MapID, out CoordShift shiftInfo))
                     {
                         // an applicable shift exists for the mapID of this coord, make sure the timeline of the data
                         // is prior to the shift occurring (old unchanged data => shift, new current data = accurate)
@@ -1251,14 +1251,8 @@ namespace ATT
                             LogWarn($"Non-Timelined data being coord-shifted due to {ToJSON(shiftInfo)}", data);
                         }
 
-                        if (coordObj[0].TryConvert(out float coordx))
-                        {
-                            coordObj[0] = coordx + shiftInfo.X;
-                        }
-                        if (coordObj[1].TryConvert(out float coordy))
-                        {
-                            coordObj[1] = coordy + shiftInfo.Y;
-                        }
+                        coord.X += shiftInfo.X;
+                        coord.Y += shiftInfo.Y;
                     }
                 }
             }
@@ -1660,37 +1654,23 @@ namespace ATT
         /// </summary>
         private static void Validate_LocationData(IDictionary<string, object> data)
         {
-            // 'coord' is converted to 'coords' already
-            if (data.TryGetValue("coords", out List<object> coordsList))
-            {
-                // check if any coord is not 3 parameters: [ X, Y, MapID ]
-                foreach (object coord in coordsList)
-                {
-                    if (coord is List<object> coordList && coordList.Count != 3)
-                    {
-                        LogError($"'coord/s' value is not fully qualified: {ToJSON(coord)}", data);
-                    }
-                }
-            }
+            // check if any coord is not 3 parameters: [ X, Y, MapID ]
+            // inherently performed by Coords.Validate() checking MapID > 0)
 
             // maps & coords
             if (data.TryGetValue("maps", out List<object> maps))
             {
-                if (coordsList != null && !data.ContainsKey("instanceID"))
+                if (data.TryGetValue(Coords.Field, out object coordsobj) && coordsobj is Coords coords && !data.ContainsKey("instanceID"))
                 {
                     List<object> redundant = new List<object>();
                     // check if any coord has a mapID which matches a maps mapID
-                    foreach (object coord in coordsList)
+                    foreach (Coord coord in coords)
                     {
-                        if (coord is List<object> coordList && coordList.Count > 2)
+                        if (maps.TrySmartContains(coord.MapID, out object mapsValue))
                         {
-                            var coordMapID = coordList[2];
-                            if (maps.TrySmartContains(coordMapID, out object mapsValue))
+                            if (maps.Remove(mapsValue))
                             {
-                                if (maps.Remove(mapsValue))
-                                {
-                                    redundant.Add(mapsValue);
-                                }
+                                redundant.Add(mapsValue);
                             }
                         }
                     }
@@ -1803,10 +1783,10 @@ namespace ATT
                         // Items with coords and single Object provider should list the Object as a Source
                         if (providersList.Count == 1
                             && data.TryGetValue("itemID", out long itemID)
-                            && data.TryGetValue("coords", out object coords)
+                            && data.TryGetValue(Coords.Field, out object coords)
                             && !data.ContainsKey("_allowObjectProvider"))
                         {
-                            LogWarn($"Item {itemID} with 'coords' and single Object Provider {pID} should not use Object providers; Source the Object with the Item nested or add '_allowObjectProvider' if an Object provider makes sense and the Object does not need to be Sourced itself", data);
+                            LogWarn($"Item {itemID} with '{Coords.Field}' and single Object Provider {pID} should not use Object providers; Source the Object with the Item nested or add '_allowObjectProvider' if an Object provider makes sense and the Object does not need to be Sourced itself", data);
                         }
                         break;
                 }
@@ -4395,7 +4375,7 @@ namespace ATT
                 return;
 
             // Grab any coords for this objective if existing
-            data.TryGetValue("coords", out List<object> coords);
+            data.TryGetValue(Coords.Field, out object coords);
 
             // Convert various 'providers' data into data on the parent data
             if (data.TryGetValue("providers", out List<object> providers))
@@ -4436,7 +4416,7 @@ namespace ATT
                                 providerData = new Dictionary<string, object> { { "objectID", pID } };
                                 if (coords != null)
                                 {
-                                    providerData["coords"] = coords;
+                                    providerData[Coords.Field] = coords;
                                 }
                                 Validate_ReferencedIDs(providerData);
                                 Objects.Merge(parentg, providerData);
@@ -4451,7 +4431,7 @@ namespace ATT
                             if (!TryGetSOURCED("npcID", pID, out _) && coords != null)
                             {
                                 // When adding an NPC under the Quest, we will ignore it as being Sourced there for further Parser logic
-                                providerData = new Dictionary<string, object> { { "npcID", pID }, { "coords", coords }, { "_ignoreSourced", true } };
+                                providerData = new Dictionary<string, object> { { "npcID", pID }, { Coords.Field, coords }, { "_ignoreSourced", true } };
                                 Validate_ReferencedIDs(providerData);
                                 Objects.Merge(parentg, providerData);
                             }
