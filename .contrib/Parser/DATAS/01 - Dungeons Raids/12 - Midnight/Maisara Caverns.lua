@@ -10,7 +10,12 @@ local RAKTUL = 2812;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
-	[bossConstant] = { XXXXX },	--
+	[MUROJIN] = {
+		247570,	-- Muro'jin
+		247572,	-- Nekraxx
+	},
+	[VORDAZA] = { 248595 },	-- Vordaza
+	[RAKTUL] = { 248605 },	-- Rak'tul
 };
 
 ------ Boss Functions ------
@@ -20,7 +25,7 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1315, {	-- Maisara Caverns
-		["coord"] = { X, Y, MAP },
+		["coord"] = { 44.0, 39.6, ZULAMAN_MID },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = { MAISARA_CAVERNS },
 		["groups"] = {

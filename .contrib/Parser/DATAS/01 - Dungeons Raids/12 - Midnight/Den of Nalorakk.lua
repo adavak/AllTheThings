@@ -9,7 +9,9 @@ local NALORAKK = 2778;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
-	[bossConstant] = { XXXXX },	--
+	[HOARDMONGER] = { 241812 },	-- The Hoardmonger
+	[SENTINEL] = { 244100 },	-- Sentinel of Winter
+	[NALORAKK] = { 246404 },	-- Nalorakk
 };
 
 ------ Boss Functions ------
@@ -19,11 +21,11 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1311, {	-- Den of Nalorakk
-		["coord"] = { X, Y, MAP },
+		["coord"] = { 30.0, 84.5, ZULAMAN_MID },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = {
-			2514,	-- 
-			2513,	-- 
+			2514,	-- Dreamer's Passage
+			2513,	-- The Heart of Rage
 		},
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
@@ -33,6 +35,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				}),
 				BossOnly(NALORAKK, {
 					ach(),	-- 
+				}),
+				n(MISC, {
+					i(245573),	-- Salmon
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({

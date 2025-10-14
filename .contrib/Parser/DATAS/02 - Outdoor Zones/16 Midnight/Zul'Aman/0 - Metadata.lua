@@ -4,5 +4,8 @@
 
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(ZULAMAN_MID, {
+		["maps"] = {
+			2536,	-- Atal'Aman
+		},
 	}),
 }));
