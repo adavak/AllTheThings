@@ -2012,7 +2012,7 @@ end");
                             break;
                         }
                     // List O' List O' Objects Data Type Fields that could also be numberical values.
-                    case "cost":
+                    case Cost.Field:
                         Cost.Merge(item, value);
                         break;
                     case "minReputation":

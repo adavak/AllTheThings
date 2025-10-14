@@ -1133,7 +1133,7 @@ i(167168),
 i(167172,{b=4})}}),
 q(54733,{coords={a[156]},lvl=40,qgs=a[108],r=2,sourceQuests={55136},g={
 i(167199)}}),
-q(54734,{coords={{45.4,45.6,896},{33,30.4,896}},description="The questgiver will appear close to where you turn in |cFFFFD700Balance in All Things|r OR |cFFFFD700Make it Wright|r, depending on which set of quests you do second.",lvl=40,qgs={149252},r=2,sourceQuests={54731,54733},g={
+q(54734,{coords={{33,30.4,896},{45.4,45.6,896}},description="The questgiver will appear close to where you turn in |cFFFFD700Balance in All Things|r OR |cFFFFD700Make it Wright|r, depending on which set of quests you do second.",lvl=40,qgs={149252},r=2,sourceQuests={54731,54733},g={
 i(167199),
 i(166674,{f=55}),
 i(167200)}}),
@@ -6622,8 +6622,8 @@ h(-31,{
 faction(1169,{collectible=false,description="This is a hidden reputation. It might not count towards reputation achievements."}),
 faction(1168,{providers={{"i",69210},{"i",69209}}})}),
 h(-511,_.ResolveQuestData({aqd=
-{coords={a[208],{53.6,69.6,103},{70.2,14.7,1161},a[235],{64.1,77,84},{36.3,85.7,87},{64.7,37.6,89}},crs={51512,51501,142086,52268,46602,51495,51504}},hqd=
-{coords={{48.4,75.5,85},{69.8,43.7,90},{56.8,88.6,85},{78.3,85.2,110},a[208],{37.1,63.3,88},a[235],{58,43.6,1163}},crs={46572,51496,142856,51502,51512,51503,52268,142185}},g={
+{coords={{64.1,77,84},{36.3,85.7,87},{64.7,37.6,89},{53.6,69.6,103},a[235],a[208],{70.2,14.7,1161}},crs={51512,51501,142086,52268,46602,51495,51504}},hqd=
+{coords={{48.4,75.5,85},{56.8,88.6,85},{37.1,63.3,88},{69.8,43.7,90},{78.3,85.2,110},a[235],a[208],{58,43.6,1163}},crs={46572,51496,142856,51502,51512,51503,52268,142185}},g={
 heir(62040,{f=3,minReputation=a[60],rwp=60100,sourceAchievements=a[192],sourceID=31138,u=2}),
 heir(122262,{awp=60100,f=3,minReputation=a[60],sourceAchievements=a[192],sourceID=69100}),
 heir(62039,{f=3,minReputation=a[60],rwp=60100,sourceAchievements=a[192],sourceID=31137,u=2}),
@@ -8085,7 +8085,7 @@ q(84423,{c=a[51],coords={a[174]},lvl=10,qgs=a[144],races=a[204]}),
 q(84424,{c=a[51],coords={a[174]},lvl=10,qgs=a[144],races=a[204],sourceQuests={84423},g={
 o(467064,{c=a[51],coords={{44.2,82.5,2373}},races=a[204],g={
 i(229165,{b=1,c=a[51],races=a[204]})}})}}),
-q(85026,{c=a[51],coords={{40.8,80.1,85},{56.2,17.2,84}},lvl=10,qgs={167032},races=a[204],sourceQuests={84424}})}}),
+q(85026,{c=a[51],coords={{56.2,17.2,84},{40.8,80.1,85}},lvl=10,qgs={167032},races=a[204],sourceQuests={84424}})}}),
 i(6948,{b=1,spellID=8690})}),
 h(-512,{awp=110002,g={
 h(-12,{

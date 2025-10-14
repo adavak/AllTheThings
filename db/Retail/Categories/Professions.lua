@@ -1394,11 +1394,11 @@ x(1,{requireSkill=171,g={
 h(-12,{awp=100107,requireSkill=171,g={
 ach(18723,{requireSkill=171,sourceQuests={29067,29481,29482},sqreq=1})}}),
 h(-45,{awp=40300,requireSkill=171,sharedDescription="Requires 300 Classic Alchemy.",g={
-q(29481,{coords={a[465],a[473],a[414],a[510],a[474],a[428]},qgs=a[386],repeatable=1,requireSkill=171,g={
+q(29481,{coords={a[474],a[473],a[510],a[414],a[465],a[428]},qgs=a[386],repeatable=1,requireSkill=171,g={
 r(28677,{collectible=false,learnedAt=1,requireSkill=171})}}),
-q(29067,{coords={a[465],a[473],a[414],a[510],a[474],a[428]},qgs=a[386],repeatable=1,requireSkill=171,g={
+q(29067,{coords={a[474],a[473],a[510],a[414],a[465],a[428]},qgs=a[386],repeatable=1,requireSkill=171,g={
 r(28675,{collectible=false,learnedAt=1,requireSkill=171})}}),
-q(29482,{coords={a[465],a[473],a[414],a[510],a[474],a[428]},qgs=a[386],repeatable=1,requireSkill=171,g={
+q(29482,{coords={a[474],a[473],a[510],a[414],a[465],a[428]},qgs=a[386],repeatable=1,requireSkill=171,g={
 r(28672,{collectible=false,learnedAt=1,requireSkill=171})}})}})}}),
 x(2,{awp=20000,requireSkill=171,g={
 q(10906,{altQuests={10905,10907},awp=20005,coords={a[450],a[459]},isBreadcrumb=1,nextQuests={10902},qgs=a[235],requireSkill=171,rwp=40300,u=2}),
@@ -1439,7 +1439,7 @@ i(136675,{requireSkill=171,spellID=209418}),
 i(128515,{requireSkill=171}),
 i(136674,{requireSkill=171,spellID=103583}),
 i(136673,{requireSkill=171})}}),
-q(39334,{awp=70003,coords={a[471],{70.4,46.6,641}},lvl=10,qgs={92242,93974},requireSkill=171,sourceQuests=a[337]}),
+q(39334,{awp=70003,coords={{70.4,46.6,641},a[471]},lvl=10,qgs={92242,93974},requireSkill=171,sourceQuests=a[337]}),
 q(39335,{awp=70003,coords={a[384]},lvl=10,maps=a[529],qgs=a[558],requireSkill=171,sourceQuests=a[337]}),
 q(39336,{awp=70003,coords={a[384]},lvl=10,qgs=a[558],requireSkill=171,sourceQuests={39335}}),
 q(39337,{awp=70003,coords={a[384]},lvl=10,qgs=a[558],requireSkill=171,sourceQuests={39336}}),
@@ -2005,7 +2005,7 @@ q(66382,{isWeekly=1,providers={{"i",192132}},requireSkill=164,g={
 cu(2023,{requireSkill=164})}}),
 q(70513,{coords={{39,48.8,2025}},crs={196168,196171},description="Drops from any Fire Elemental.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198966}},requireSkill=164,g={
 cu(2023,{requireSkill=164})}}),
-q(70512,{coords={a[439],a[431],a[429],a[438],a[457]},crs=a[259],description="Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198965}},requireSkill=164,g={
+q(70512,{coords={a[429],a[438],a[457],a[431],a[439]},crs=a[259],description="Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198965}},requireSkill=164,g={
 cu(2023,{requireSkill=164})}})}})}}),
 x(11,{awp=110000,requireSkill=164,g={
 h(-45,{awp=110002,requireSkill=164,g={
@@ -2434,7 +2434,7 @@ x(7,{awp=70000,requireSkill=185,g={
 h(-12,{awp=70003,requireSkill=185,g={
 ach(10589,{requireSkill=185}),
 ach(10593,{cost={{"i",133681,6}},providers={{"s",210760}},requireSkill=185}),
-ach(10592,{coords={{69.8,38.6,627},{40.2,65.8,627}},providers={{"n",101846}},requireSkill=185}),
+ach(10592,{coords={{40.2,65.8,627},{69.8,38.6,627}},providers={{"n",101846}},requireSkill=185}),
 ach(10762,{requireSkill=185,g={
 crit(31253,{achID=10762,id=1,providers={{"s",201413}}}),
 crit(31254,{achID=10762,id=2,providers={{"s",201496}}}),
@@ -2945,12 +2945,12 @@ q(3630,{altQuests={3526,3629,3632,3633,3634,3635,3637,4181,29475,29477},coords={
 q(3632,{altQuests={3526,3629,3630,3633,3634,3635,3637,4181,29475,29477},coords={a[513]},learnedAt=200,qgs=a[449],qis=a[191],r=2,requireSkill=202,rwp=40003,u=2}),
 q(3637,{altQuests={3526,3629,3630,3632,3633,3634,3635,4181,29475,29477},coords={a[496]},learnedAt=200,qgs=a[289],qis=a[191],r=1,requireSkill=202,rwp=40003,u=2}),
 q(3635,{altQuests={3526,3629,3630,3632,3633,3634,3637,4181,29475,29477},coords={a[537]},learnedAt=200,qgs=a[410],qis=a[191],r=1,requireSkill=202,rwp=40003,u=2}),
-q(29477,{altQuests={3526,3629,3630,3632,3633,3634,3635,3637,4181,29475},awp=40300,coords={a[497],a[513],a[484],a[299]},cost={{"i",4407,1},{"i",4392,2},{"i",10559,6}},learnedAt=200,lvl=20,qgs=a[476],repeatable=1,requireSkill=202}),
+q(29477,{altQuests={3526,3629,3630,3632,3633,3634,3635,3637,4181,29475},awp=40300,coords={a[497],a[484],a[513],a[299]},cost={{"i",4407,1},{"i",4392,2},{"i",10559,6}},learnedAt=200,lvl=20,qgs=a[476],repeatable=1,requireSkill=202}),
 q(3629,{altQuests={3526,3630,3632,3633,3634,3635,3637,4181,29475,29477},coords={a[469]},learnedAt=200,qgs=a[477],qis=a[191],r=2,requireSkill=202,rwp=40003,u=2}),
 q(4181,{altQuests={3526,3629,3630,3632,3633,3634,3635,3637,29475,29477},coords={a[513]},learnedAt=200,qgs=a[449],qis=a[191],r=2,requireSkill=202,rwp=40003,u=2}),
 q(3633,{altQuests={3526,3629,3630,3632,3634,3635,3637,4181,29475,29477},coords={a[496]},learnedAt=200,qgs=a[289],qis=a[191],r=1,requireSkill=202,rwp=40003,u=2}),
 q(3526,{altQuests={3629,3630,3632,3633,3634,3635,3637,4181,29475,29477},coords={a[537]},learnedAt=200,qgs=a[410],qis=a[191],r=1,requireSkill=202,rwp=40003,u=2}),
-q(29475,{altQuests={3526,3629,3630,3632,3633,3634,3635,3637,4181,29477},awp=40300,coords={a[497],a[513],a[484],a[299]},cost={{"i",4384,5},{"i",10507,20},{"i",4394,20}},learnedAt=200,lvl=20,qgs=a[476],repeatable=1,requireSkill=202}),
+q(29475,{altQuests={3526,3629,3630,3632,3633,3634,3635,3637,4181,29477},awp=40300,coords={a[497],a[484],a[513],a[299]},cost={{"i",4384,5},{"i",10507,20},{"i",4394,20}},learnedAt=200,lvl=20,qgs=a[476],repeatable=1,requireSkill=202}),
 q(3647,{coords={{69.8,50.2,87}},cost=20000,qgs={7944},r=2,repeatable=1,requireSkill=202,rwp=40003,sourceQuests={3641},u=2,g={
 i(10790,{b=1,requireSkill=202,u=2})}}),
 q(3645,{coords={{28.2,76.2,224}},cost=20000,qgs={7406},r=1,repeatable=1,requireSkill=202,rwp=40003,sourceQuests={3643},u=2,g={
@@ -4105,7 +4105,7 @@ q(40063,{awp=70003,c=a[193],coords={{65,25.8,630}},lvl=10,qgs=a[580],requireSkil
 i(129032)}}),
 q(39941,{awp=70003,c=a[176],coords={a[396]},lvl=10,qgs=a[580],requireSkill=773,sourceQuests={39939},g={
 i(129032)}}),
-q(39943,{awp=70003,coords={a[464],a[396]},lvl=10,qgs={97734,98026},requireSkill=773,sourceQuests={39938,39940,39941,40060,40063},g={
+q(39943,{awp=70003,coords={a[396],a[464]},lvl=10,qgs={97734,98026},requireSkill=773,sourceQuests={39938,39940,39941,40060,40063},g={
 r(192852,{learnedAt=20,requireSkill=773})}}),
 q(39944,{awp=70003,coords={a[385]},lvl=10,qgs=a[554],requireSkill=773,sourceQuests=a[346]}),
 q(39945,{awp=70003,coords={a[515]},lvl=10,qgs=a[582],requireSkill=773,sourceQuests=a[348],g={
@@ -4280,7 +4280,7 @@ q(66375,{isWeekly=1,providers={{"i",193904}},requireSkill=773,g={
 cu(2028,{requireSkill=773})}}),
 q(66376,{isWeekly=1,providers={{"i",193905}},requireSkill=773,g={
 cu(2028,{requireSkill=773})}}),
-q(70518,{coords={{39.6,51.4,2022},{34.8,68.6,2022}},crs={186109,186110},description="Drops from any Qalashi Djaradin.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198971}},requireSkill=773,g={
+q(70518,{coords={{34.8,68.6,2022},{39.6,51.4,2022}},crs={186109,186110},description="Drops from any Qalashi Djaradin.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198971}},requireSkill=773,g={
 cu(2028,{requireSkill=773})}}),
 q(70519,{coords={{44,81.8,2025}},crs={193973,193969},description="Drops from any Dragon-kin/Proto Drake.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198972}},requireSkill=773,g={
 cu(2028,{requireSkill=773})}})}})}}),
@@ -4541,9 +4541,9 @@ q(66388,{isWeekly=1,providers={{"i",193909}},requireSkill=755,g={
 cu(2029,{requireSkill=755})}}),
 q(66389,{isWeekly=1,providers={{"i",193907}},requireSkill=755,g={
 cu(2029,{requireSkill=755})}}),
-q(70521,{coords={{46.8,59.6,2025},{45.8,58.2,2025}},crs={195215,195062,195063,195060},description="Drops from any Well Dressed Humanoids & Dragonkins.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198974}},requireSkill=755,g={
+q(70521,{coords={{45.8,58.2,2025},{46.8,59.6,2025}},crs={195215,195062,195063,195060},description="Drops from any Well Dressed Humanoids & Dragonkins.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198974}},requireSkill=755,g={
 cu(2029,{requireSkill=755})}}),
-q(70520,{coords={a[439],a[431],a[429],a[438],a[457]},crs=a[259],description="Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198973}},requireSkill=755,g={
+q(70520,{coords={a[429],a[438],a[457],a[431],a[439]},crs=a[259],description="Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198973}},requireSkill=755,g={
 cu(2029,{requireSkill=755})}})}})}}),
 x(11,{awp=110000,requireSkill=755,g={
 h(-45,{awp=110002,requireSkill=755,g={
@@ -4898,7 +4898,7 @@ r(293076,{learnedAt=150,requireSkill=165})}})}})}}),
 x(10,{awp=100000,requireSkill=165,g={
 h(-45,{awp=100002,requireSkill=165,g={
 q(70362,{coords={{76.6,34.7,2022}},description="This quest can only be picked up PRIOR to learning Dragon Isles Leatherworking.",lc={1,"spellID",366249},lvl=10,qgs={192048},requireSkill=165}),
-q(70033,{coords={{57.9,68.1,2022},{80.8,59.4,2023},{29,61,2112},{39.4,55.4,2023}},cost={{"i",193386,1}},lvl=10,qgs={192027,192048,195785,196628},requireSkill=165}),
+q(70033,{coords={{57.9,68.1,2022},{39.4,55.4,2023},{80.8,59.4,2023},{29,61,2112}},cost={{"i",193386,1}},lvl=10,qgs={192027,192048,195785,196628},requireSkill=165}),
 q(70256,{coords={{82.4,50.6,2023}},qgs={194842},requireSkill=165}),
 q(70191,{coords={a[446]},cost={{"i",191784,1}},lvl=10,qgs=a[254],repeatable=1,requireSkill=165,sourceQuests=a[517],g={
 i(190456,{b=1})}}),
@@ -4995,9 +4995,9 @@ q(66384,{isWeekly=1,providers={{"i",193910}},requireSkill=165,g={
 cu(2025,{requireSkill=165})}}),
 q(66385,{isWeekly=1,providers={{"i",193913}},requireSkill=165,g={
 cu(2025,{requireSkill=165})}}),
-q(70522,{coords={{80.6,33.8,2022},{79.4,32.5,2022}},crs={196420,190056},description="Drops from any Proto Drake.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198975}},requireSkill=165,g={
+q(70522,{coords={{79.4,32.5,2022},{80.6,33.8,2022}},crs={196420,190056},description="Drops from any Proto Drake.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198975}},requireSkill=165,g={
 cu(2025,{requireSkill=165})}}),
-q(70523,{coords={{36.6,72.8,2025},{35.4,72.8,2025},{32.4,73.5,2025},{31.3,76.5,2025}},crs={188277,191317,191203},description="Drops from any Sylvern or Vorquin.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198976}},requireSkill=165,g={
+q(70523,{coords={{31.3,76.5,2025},{32.4,73.5,2025},{35.4,72.8,2025},{36.6,72.8,2025}},crs={188277,191317,191203},description="Drops from any Sylvern or Vorquin.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198976}},requireSkill=165,g={
 cu(2025,{requireSkill=165})}})}})}}),
 x(11,{awp=110000,requireSkill=165,g={
 h(-45,{awp=110002,requireSkill=165,g={
@@ -5213,12 +5213,12 @@ q(52055,{coords={{27.6,69.8,864}},lvl=10,qgs={139792},r=1,requireSkill=186,sourc
 r(253341,{requireSkill=186}),
 i(161082,{requireSkill=186})}})}}),
 ah(253338,{awp=80001,maps=a[548],providers={{"o",276617},{"o",276622}},requireSkill=186,type="s",g={
-q(51568,{coords={{75,7.6,1161},{73.4,8.4,1161},{41.8,30,1161}},description="Requires 50 Kul'Tiran Mining\n73.4, 8.4 in Boralus is location of the Forge\n41.8, 30.0 in Tiragarde Sound is the location to get the Blessing",lvl=10,qgs=a[223],r=2,requireSkill=186,g={
+q(51568,{coords={{41.8,30,1161},{73.4,8.4,1161},{75,7.6,1161}},description="Requires 50 Kul'Tiran Mining\n73.4, 8.4 in Boralus is location of the Forge\n41.8, 30.0 in Tiragarde Sound is the location to get the Blessing",lvl=10,qgs=a[223],r=2,requireSkill=186,g={
 r(253337,{requireSkill=186}),
 i(160974,{requireSkill=186}),
 i(161133,{requireSkill=186,spellID=141567}),
 i(160440,{requireSkill=186,spellID=271802})}}),
-q(52014,{coords={a[401],{44,38.3,1165},{52.8,95.6,1165}},description="Requires 50 Zandalari Mining\n44.0, 38.3 in Daza'alor is location of the Forge\n52.8, 95.6 in Daza'alor harbor is the location to get the Blessing",lvl=10,qgs=a[195],r=1,requireSkill=186,g={
+q(52014,{coords={{44,38.3,1165},a[401],{52.8,95.6,1165}},description="Requires 50 Zandalari Mining\n44.0, 38.3 in Daza'alor is location of the Forge\n52.8, 95.6 in Daza'alor harbor is the location to get the Blessing",lvl=10,qgs=a[195],r=1,requireSkill=186,g={
 r(253337,{requireSkill=186}),
 i(160974,{requireSkill=186}),
 i(161133,{requireSkill=186,spellID=141567}),
@@ -5236,7 +5236,7 @@ q(52016,{coords={a[401]},description="Requires 125 Zandalari Mining",lvl=10,qgs=
 r(253346,{requireSkill=186})}}),
 q(51380,{coords={a[534]},description="Requires 150 Kul'Tiran Mining.",lvl=10,qgs=a[223],r=2,requireSkill=186,sourceQuests={48770}}),
 q(52017,{coords={a[401]},description="Requires 150 Zandalari Mining",lvl=10,qgs=a[195],r=1,requireSkill=186,sourceQuests={52016}}),
-q(51889,{coords={{75.6,23.5,1161},{69.3,13,1161},{74,12.7,1161},{70.4,9.67,1161},{72.5,11.6,1161}},description="Requires 150 Kul'Tiran Mining.",lvl=10,qgs={139375},r=2,requireSkill=186,sourceQuests={51380},g={
+q(51889,{coords={{69.3,13,1161},{70.4,9.67,1161},{72.5,11.6,1161},{74,12.7,1161},{75.6,23.5,1161}},description="Requires 150 Kul'Tiran Mining.",lvl=10,qgs={139375},r=2,requireSkill=186,sourceQuests={51380},g={
 r(253347,{requireSkill=186}),
 i(160998,{requireSkill=186}),
 i(160995,{requireSkill=186}),
@@ -5869,7 +5869,7 @@ q(53881,{awp=80105,coords={a[524]},lvl=50,qgs=a[232],r=2,requireSkill=197,source
 r(292946,{learnedAt=150,requireSkill=197})}}),
 q(53962,{awp=80105,coords={a[524]},lvl=50,qgs=a[232],r=1,requireSkill=197,sourceQuests=a[463],g={
 r(292946,{learnedAt=150,requireSkill=197})}})}}),
-ah(164733,{awp=80105,coords={{45,39,862},{54,61,862},{59,75,862},{73,67,862},{71,35,862},{38,58,863},{55,21,863},{53,56,863},{43,29,863},{38,89,863},{29,56,863},{26,78,863},{23,43,896},{36,72,896},{33,23,896},{63,35,896},{46,38,896},{54,41,864},{50,64,864},{49,84,864},{41,64,864},{37,87,864},{85,77,895},{40,24,895},{26.8,36.6,1355},{29.4,45.2,1355},{36.6,27.8,1355},{37.4,68,1355},{37.8,19.6,1355},{42,47,1355},{43.8,86.4,1355},{43.8,86.6,1355},{44.4,16.4,1355},{47.4,75.8,1355},{50.4,31.2,1355},{59.2,15,1355},{62.4,57.2,1355},{64.6,46.8,1355},{69.8,24.4,1355},{77.4,25.4,1355},{77.6,25.4,1355},{79,51.8,1355}},description="This Trader has a ~20% chance to spawn from closing a Time Rift via the Synchronous Thread (Battle for Azeroth Tailor Only item).\nBest Zone to farm Time Rifts is Nazjatar.",providers={{"i",164733},{"n",151903}},requireSkill=197,type="i",g={
+ah(164733,{awp=80105,coords={{45,39,862},{54,61,862},{59,75,862},{71,35,862},{73,67,862},{26,78,863},{29,56,863},{38,58,863},{38,89,863},{43,29,863},{53,56,863},{55,21,863},{37,87,864},{41,64,864},{49,84,864},{50,64,864},{54,41,864},{40,24,895},{85,77,895},{23,43,896},{33,23,896},{36,72,896},{46,38,896},{63,35,896},{26.8,36.6,1355},{29.4,45.2,1355},{36.6,27.8,1355},{37.4,68,1355},{37.8,19.6,1355},{42,47,1355},{43.8,86.4,1355},{43.8,86.6,1355},{44.4,16.4,1355},{47.4,75.8,1355},{50.4,31.2,1355},{59.2,15,1355},{62.4,57.2,1355},{64.6,46.8,1355},{69.8,24.4,1355},{77.4,25.4,1355},{77.6,25.4,1355},{79,51.8,1355}},description="This Trader has a ~20% chance to spawn from closing a Time Rift via the Synchronous Thread (Battle for Azeroth Tailor Only item).\nBest Zone to farm Time Rifts is Nazjatar.",providers={{"i",164733},{"n",151903}},requireSkill=197,type="i",g={
 r(8786,{awp=80001,b=1,cost={{"i",158378,50}},itemID=167889,learnedAt=195,requireSkill=197}),
 r(22866,{awp=80001,b=1,cost={{"i",158378,150}},itemID=167881,learnedAt=300,requireSkill=197}),
 r(18412,{awp=80001,b=1,cost={{"i",158378,75}},itemID=167887,learnedAt=285,requireSkill=197}),
@@ -5986,7 +5986,7 @@ q(66387,{isWeekly=1,providers={{"i",193899}},requireSkill=197,g={
 cu(2026,{requireSkill=197})}}),
 q(70525,{coords={{56.6,29.2,2025},{57,30.6,2025}},crs={192500,192506},description="Drops from any beastlike Humanoid.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198978}},requireSkill=197,g={
 cu(2026,{requireSkill=197})}}),
-q(70524,{coords={{87,51.4,2023},{85,55.8,2023}},crs={193840},description="Drops from any Ohn'ahran Humanoid.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198977}},requireSkill=197,g={
+q(70524,{coords={{85,55.8,2023},{87,51.4,2023}},crs={193840},description="Drops from any Ohn'ahran Humanoid.\nCoordinates link to the spot(s) we found best.",isWeekly=1,providers={{"i",198977}},requireSkill=197,g={
 cu(2026,{requireSkill=197})}})}})}}),
 x(11,{awp=110000,requireSkill=197,g={
 h(-45,{awp=110002,requireSkill=197,g={

@@ -245,7 +245,7 @@ q(45539,{coords={a[9]},isDaily=1,isWeekly=1,lvl=45,maps={825},pb=1,qgs=a[1],sour
 ach(11765,{pb=1,g={
 p(2049,{b=1,itemID=147543,npcID=121317,pb=1,spellID=242047}),
 crit(46837,{achID=14021,awp=80300,id=1,pb=1})}}),
-q(45540,{coords={a[15],{58.4,38,627}},lvl=45,pb=1,qgs={98725,115287}}),
+q(45540,{coords={{58.4,38,627},a[15]},lvl=45,pb=1,qgs={98725,115287}}),
 q(45423,{coords={a[9]},lvl=45,pb=1,qgs=a[1],sourceQuests={45540},g={
 sp(244506,{pb=1})}}),
 i(143753,{b=1,f=55,pb=1,spellID=233325,g={

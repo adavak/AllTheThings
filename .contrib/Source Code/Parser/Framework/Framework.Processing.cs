@@ -1221,7 +1221,7 @@ namespace ATT
 
         private static void DoShiftCoords(IDictionary<string, object> data)
         {
-            if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue(Coords.Field, out object coordsObj) && coordsObj is Coords coords)
+            if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue(out Coords coords))
             {
                 TimelineEntry dataTimelineEntry = null;
 
@@ -1660,7 +1660,7 @@ namespace ATT
             // maps & coords
             if (data.TryGetValue("maps", out List<object> maps))
             {
-                if (data.TryGetValue(Coords.Field, out object coordsobj) && coordsobj is Coords coords && !data.ContainsKey("instanceID"))
+                if (data.TryGetValue(out Coords coords) && !data.ContainsKey("instanceID"))
                 {
                     List<object> redundant = new List<object>();
                     // check if any coord has a mapID which matches a maps mapID
@@ -1783,7 +1783,7 @@ namespace ATT
                         // Items with coords and single Object provider should list the Object as a Source
                         if (providersList.Count == 1
                             && data.TryGetValue("itemID", out long itemID)
-                            && data.TryGetValue(Coords.Field, out object coords)
+                            && data.TryGetValue(out Coords coords) && coords.HasData
                             && !data.ContainsKey("_allowObjectProvider"))
                         {
                             LogWarn($"Item {itemID} with '{Coords.Field}' and single Object Provider {pID} should not use Object providers; Source the Object with the Item nested or add '_allowObjectProvider' if an Object provider makes sense and the Object does not need to be Sourced itself", data);
@@ -3999,7 +3999,7 @@ namespace ATT
             }
 
             // costs/providers
-            if (data.TryGetValue("cost", out object costObj) && data.TryGetValue("providers", out List<object> providers) && costObj is Cost cost)
+            if (data.TryGetValue(out Cost cost) && data.TryGetValue("providers", out List<object> providers))
             {
                 for (int i = providers.Count - 1; i >= 0; i--)
                 {
@@ -4375,7 +4375,7 @@ namespace ATT
                 return;
 
             // Grab any coords for this objective if existing
-            data.TryGetValue(Coords.Field, out object coords);
+            data.TryGetValue(out Coords coords);
 
             // Convert various 'providers' data into data on the parent data
             if (data.TryGetValue("providers", out List<object> providers))
@@ -4475,7 +4475,7 @@ namespace ATT
             }
 
             // Cost for objectives merges into 'cost' on the parent data
-            if (data.TryGetValue("cost", out object costObj) && costObj.TryConvert(out Cost cost))
+            if (data.TryGetValue(out Cost cost))
             {
                 Objects.Merge(parentData, "cost", cost);
                 LogDebug($"Merged 'cost' to parent from Objective {cost}", parentData);

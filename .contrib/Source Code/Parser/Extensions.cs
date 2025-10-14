@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ATT.FieldTypes;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -174,6 +175,28 @@ namespace ATT
             if (dict != null && dict.TryGetValue(key, out object o))
             {
                 value = Convert.ToString(o);
+                return true;
+            }
+            value = null;
+            return false;
+        }
+
+        public static bool TryGetValue(this IDictionary<string, object> dict, out Coords value)
+        {
+            if (dict != null && dict.TryGetValue(Coords.Field, out object o) && o is Coords val)
+            {
+                value = val;
+                return true;
+            }
+            value = null;
+            return false;
+        }
+
+        public static bool TryGetValue(this IDictionary<string, object> dict, out Cost value)
+        {
+            if (dict != null && dict.TryGetValue(Cost.Field, out object o) && o is Cost val)
+            {
+                value = val;
                 return true;
             }
             value = null;

@@ -309,7 +309,7 @@ s(7405,18541,{b=1,f=3,lvl=25,u=2}),
 s(7410,18547,{b=1,f=7,lvl=25,u=2}),
 s(7408,18545,{b=1,f=4,lvl=25,u=2}),
 s(7610,19131,{b=1,f=4,lvl=25,u=2})}}),
-h(-74,{awp=10800,coords={{51.2,10.9,69},{63.3,27.8,26},{45.4,39.6,47},{94.2,35.7,63}},isRaid=1,rwp=40003,u=2,g={
+h(-74,{awp=10800,coords={{63.3,27.8,26},{45.4,39.6,47},{94.2,35.7,63},{51.2,10.9,69}},isRaid=1,rwp=40003,u=2,g={
 h(-45,{u=2,g={
 q(8446,{lvl=30,providers={{"i",20644}},u=2}),
 q(8447,{coords={{36.18,41.79,80}},lvl=30,qgs={11832},sourceQuests={8446},u=2,g={
@@ -2425,7 +2425,7 @@ i(23067,{b=1,c=a[501],f=52,lvl=25,u=2}),
 i(23059,{b=1,c=a[78],f=52,lvl=25,u=2}),
 i(23064,{b=1,c=a[106],f=52,lvl=25,u=2}),
 i(23065,{b=1,c=a[835],f=52,lvl=25,u=2})}})}})}})}}),
-inst(227,{coords={{16.5,11,63},{14.2,14,63}},maps={221,222,223},savedInstanceID=48,g={
+inst(227,{coords={{14.2,14,63},{16.5,11,63}},maps={221,222,223},savedInstanceID=48,g={
 h(-63,{
 s(292,1454,{f=21,lvl=10}),
 s(1243,3414,{f=23,lvl=10}),
@@ -2621,19 +2621,19 @@ s(4334,12000,{b=1,f=22,u=2}),
 s(4333,11964,{b=1,f=23,u=2})}}),
 q(4241,{coords={a[942]},qgs=a[985],r=2,rwp=30002,sourceQuests={4224},u=2}),
 q(28302,{awp=40003,c=a[354],coords={a[805],a[736]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28466},qgs=a[608],races=a[765]}),
-q(28303,{awp=40003,c=a[354],coords={a[805],a[977],a[736]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28473},qgs={43795,16681,20406},races=a[80]}),
-q(28260,{awp=40003,c=a[501],coords={a[635],{47.2,88.4,87},a[596]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28394},qgs={17122,5115,4138},r=2}),
+q(28303,{awp=40003,c=a[354],coords={a[805],a[736],a[977]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28473},qgs={43795,16681,20406},races=a[80]}),
+q(28260,{awp=40003,c=a[501],coords={{47.2,88.4,87},a[596],a[635]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28394},qgs={17122,5115,4138},r=2}),
 q(28259,{awp=40003,c=a[965],coords={a[668]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28399},qgs={5173},r=2}),
-q(28268,{awp=40003,c=a[354],coords={{39,84.2,103},a[601],a[407]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28405},qgs=a[279],r=2}),
-q(28300,{awp=40003,c=a[903],coords={{22.6,15,88},{53,19.6,110},{85.2,14.2,90}},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28458},qgs={3047,4566,16653},r=1}),
-q(28263,{awp=40003,c=a[903],coords={{26.2,6.2,103},{37.6,80,89},{26.2,6.2,87}},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28398},qgs={16749,50690,5146},r=2}),
+q(28268,{awp=40003,c=a[354],coords={a[407],a[601],{39,84.2,103}},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28405},qgs=a[279],r=2}),
+q(28300,{awp=40003,c=a[903],coords={{22.6,15,88},{85.2,14.2,90},{53,19.6,110}},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28458},qgs={3047,4566,16653},r=1}),
+q(28263,{awp=40003,c=a[903],coords={{26.2,6.2,87},{37.6,80,89},{26.2,6.2,103}},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28398},qgs={16749,50690,5146},r=2}),
 q(28301,{awp=40003,c=a[835],coords={a[391],a[849]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28465},qgs={51639,16661},r=1}),
-q(28299,{awp=40003,c=a[965],coords={a[440],a[857],a[953]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28459},qgs=a[609],r=1}),
-q(28287,{awp=40003,c=a[835],coords={a[602],{55.2,29,87}},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28401},qgs=a[687],r=2}),
-q(28285,{awp=40003,c=a[663],coords={a[597],a[439],a[556]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28328},qgs={11401,11406,16756},r=2}),
-q(28258,{awp=40003,c=a[78],coords={a[725],a[726]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28393},qgs={17120,4087},r=2}),
-q(28297,{awp=40003,c=a[501],coords={a[734],a[939],a[649]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28461},qgs={39116,3039,16674},r=1}),
-q(28262,{awp=40003,c=a[579],coords={a[580],a[675]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28406},qgs=a[593],r=2}),
+q(28299,{awp=40003,c=a[965],coords={a[440],a[953],a[857]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28459},qgs=a[609],r=1}),
+q(28287,{awp=40003,c=a[835],coords={{55.2,29,87},a[602]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28401},qgs=a[687],r=2}),
+q(28285,{awp=40003,c=a[663],coords={a[439],a[597],a[556]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28328},qgs={11401,11406,16756},r=2}),
+q(28258,{awp=40003,c=a[78],coords={a[726],a[725]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28393},qgs={17120,4087},r=2}),
+q(28297,{awp=40003,c=a[501],coords={a[734],a[649],a[939]},isBreadcrumb=1,lvl=20,maps=a[950],nextQuests={28461},qgs={39116,3039,16674},r=1}),
+q(28262,{awp=40003,c=a[579],coords={a[675],a[580]},isBreadcrumb=1,lvl=20,maps=a[944],nextQuests={28406},qgs=a[593],r=2}),
 q(4132,{coords={{5.8,47.5,15}},crs=a[969],qgs=a[970],r=1,rwp=40003,sourceQuests={4121},u=2,g={
 i(12059,{b=1,f=51,u=2})}}),
 q(4262,{coords={a[948]},crs={9026},maps=a[523],qgs={9561},r=2,rwp=40003,u=2}),
@@ -2733,13 +2733,13 @@ s(33095,65639,{b=1,f=7,r=2})}}),
 q(28457,{awp=40003,c=a[78],coords={a[858]},lvl=20,qgs={168596},r=1,sourceQuests={28290},g={
 s(33081,65625,{b=1,f=7,r=1}),
 s(33098,65642,{b=1,f=7,r=1})}}),
-q(28304,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=20,nextQuests={28474},qgs=a[275],races=a[663]}),
-q(28307,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=20,nextQuests={28475},qgs=a[275],races=a[80]}),
-q(28308,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=20,nextQuests={28476},qgs=a[275],races=a[765]}),
-q(28309,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=20,nextQuests={28477},qgs=a[275],races=a[902]}),
-q(28323,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=20,nextQuests={28478},qgs=a[275],races=a[965]}),
-q(28290,{awp=40003,c=a[78],coords={a[912],a[733],a[633]},isBreadcrumb=1,lvl=20,nextQuests={28457},qgs=a[603],r=1}),
-q(28298,{awp=40003,c=a[579],coords={a[897],a[941]},isBreadcrumb=1,lvl=20,nextQuests={28463},qgs={16684,4584},r=1}),
+q(28304,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=20,nextQuests={28474},qgs=a[275],races=a[663]}),
+q(28307,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=20,nextQuests={28475},qgs=a[275],races=a[80]}),
+q(28308,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=20,nextQuests={28476},qgs=a[275],races=a[765]}),
+q(28309,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=20,nextQuests={28477},qgs=a[275],races=a[902]}),
+q(28323,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=20,nextQuests={28478},qgs=a[275],races=a[965]}),
+q(28290,{awp=40003,c=a[78],coords={a[733],a[633],a[912]},isBreadcrumb=1,lvl=20,nextQuests={28457},qgs=a[603],r=1}),
+q(28298,{awp=40003,c=a[579],coords={a[941],a[897]},isBreadcrumb=1,lvl=20,nextQuests={28463},qgs={16684,4584},r=1}),
 q(28475,{awp=40003,c=a[663],coords={{49,71,85}},lvl=20,qgs={45337},races={10,27},sourceQuests={28307},g={
 s(33090,65634,{b=1,f=4,r=1})}}),
 q(28478,{awp=40003,c=a[663],coords={{37.8,87.4,85}},lvl=20,qgs={45347},races=a[965],sourceQuests={28323},g={
@@ -3054,7 +3054,7 @@ s(4460,12553,{awp=70302,b=1,f=5,lvl=22}),
 i(11934,{b=1,f=52,lvl=22}),
 i(11815,{b=1,f=53,lvl=22,spellID=15600}),
 i(12033)}})})}}),
-inst(63,{coords={{25.6,51,55},{42.6,71.8,52}},mapID=291,maps={292},savedInstanceID=36,["zone-text-areaID"]=1581,g={
+inst(63,{coords={{42.6,71.8,52},{25.6,51,55}},mapID=291,maps={292},savedInstanceID=36,["zone-text-areaID"]=1581,g={
 h(-45,{
 q(168,{coords={a[838]},qgs={656},qis={1894},r=2,rwp=40003,u=2,g={
 s(554,2036,{b=1,f=5,u=2}),
@@ -3092,7 +3092,7 @@ q(2040,{coords={a[802]},qgs={6579},qis={7365},r=2,rwp=40003,sourceQuests={2041},
 s(2903,7607,{b=1,f=27,u=2}),
 s(2902,7606,{b=1,f=7,u=2})}})}),
 h(-46,{
-n(596,{awp=100107,coords={{57.4,42.9,55},{46.8,47.8,55},{61.7,65.8,55}},description="This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",g={
+n(596,{awp=100107,coords={{46.8,47.8,55},{57.4,42.9,55},{61.7,65.8,55}},description="This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",g={
 s(498,1933,{f=28,lvl=7,spellID=8736}),
 s(1472,3902,{f=28,lvl=7}),
 s(2222,5967,{b=1,f=4,lvl=10})}}),
@@ -3101,7 +3101,7 @@ i(1875),
 s(640,2167,{f=5,lvl=7}),
 s(639,2166,{f=6,lvl=7}),
 s(641,2168,{b=1,f=4,lvl=10})}}),
-n(599,{awp=100107,coords={{52.8,54.6,55},{56.2,67.8,55},{41.4,56.6,55},{29.6,61.4,55}},description="This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",g={
+n(599,{awp=100107,coords={{29.6,61.4,55},{41.4,56.6,55},{52.8,54.6,55},{56.2,67.8,55}},description="This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",g={
 s(1058,3019,{f=4,lvl=7}),
 s(1775,4660,{f=4,lvl=7})}})}),
 h(-63,{
@@ -3276,7 +3276,7 @@ q(7650,{cost={{"i",18782,1},{"i",18781,1}},maps={236,317,476},qgs=a[199],require
 r(16744,{itemID=12726,learnedAt=300,requireSkill=164,u=2})}}),
 q(7651,{cost={{"i",18784,1},{"i",18783,1}},maps={236,237,238,250,251,252,253,254,255,317},qgs=a[199],requireSkill=164,rwp=40003,u=2,g={
 r(16742,{itemID=12725,learnedAt=300,requireSkill=164,u=2})}}),
-q(7494,{coords={{39,63.6,89},{30.5,67,87},{54.8,62.6,84}},isBreadcrumb=1,maps={69},nextQuests={7488},qgs={2198,10877,10878},r=2,rwp=40003,u=2}),
+q(7494,{coords={{54.8,62.6,84},{30.5,67,87},{39,63.6,89}},isBreadcrumb=1,maps={69},nextQuests={7488},qgs={2198,10877,10878},r=2,rwp=40003,u=2}),
 q(5525,{maps=a[414],qgs=a[196],rwp=40003,u=2}),
 q(7429,{maps=a[414],maxReputation=a[284],qgs=a[196],repeatable=1,rwp=40003,sourceQuests={5525},u=2}),
 q(7505,{c=a[835],maps=a[419],providers={{"i",18363},a[9]},rwp=40003,u=2,g={
@@ -4000,7 +4000,7 @@ s(8787,22319,{b=1,f=1,lvl=23}),
 s(8789,22325,{b=1,f=5,lvl=23}),
 s(8780,22306,{b=1,c=a[659],f=4,lvl=23}),
 i(22398,{b=1,rwp=50004,u=2})}})),
-n(9596,{coords={{53,67,250},{49,55,250}},description="This is a Rare Creature and, as such, is not always present.",g={
+n(9596,{coords={{49,55,250},{53,67,250}},description="This is a Rare Creature and, as such, is not always present.",g={
 r(16994,{itemID=12838,learnedAt=300,requireSkill=164}),
 s(4493,12621,{b=1,f=21,lvl=23}),
 s(4504,12637,{b=1,f=7,lvl=23}),
@@ -4044,7 +4044,7 @@ s(6849,16718,{b=1,f=5,lvl=23,rwp=40003,u=2}),
 s(89422,151417,{awp=70300,b=1,f=6,lvl=23}),
 s(4796,13208,{b=1,f=5,lvl=23}),
 s(4795,13206,{b=1,f=4,lvl=23})}}),
-n(9718,{coords={{36,72,254},{36,60,254}},description="This is a Rare Creature and, as such, is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",g={
+n(9718,{coords={{36,60,254},{36,72,254}},description="This is a Rare Creature and, as such, is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",g={
 s(4793,13204,{b=1,f=23,lvl=23}),
 s(4790,13198,{b=1,f=34,lvl=23}),
 s(4792,13203,{b=1,f=3,lvl=23})}}),
@@ -4292,7 +4292,7 @@ q(30997,{awp=50004,crs=a[794],qgs={61822},r=2,rwp=60200,u=2}),
 q(30982,{awp=50004,crs=a[794],qgs={61724},r=1,rwp=60200,u=2}),
 q(26862,{awp=40003,crs={11321},lvl=7,qgs={44216},qis={60499},r=1,rwp=50004,u=2}),
 q(26865,{awp=40001,coords={{48.1,70.5,85}},lvl=7,qgs={39605},r=1,rwp=50004,u=2}),
-q(31034,{awp=50004,coords={{48.6,71,85},{14.1,73.8,85}},lvl=7,qgs={14720,3144},r=1}),
+q(31034,{awp=50004,coords={{14.1,73.8,85},{48.6,71,85}},lvl=7,qgs={14720,3144},r=1}),
 q(26866,{awp=40001,coords={a[766]},lvl=7,qgs={36648},r=1,rwp=50004,u=2}),
 q(31036,{awp=50004,coords={a[766]},lvl=7,qgs={36648},r=1}),
 q(26867,{awp=40003,coords={a[737]},lvl=7,qgs=a[87],r=1,rwp=50004,u=2}),
@@ -5443,7 +5443,7 @@ s(32972,65493,{b=1,f=26,r=2})}}),
 q(27365,{awp=40003,c=a[78],coords={a[858]},lvl=8,qgs={168596},qis=a[783],r=1,sourceQuests={27281},g={
 s(32973,65494,{b=1,f=21,r=1}),
 s(32974,65495,{b=1,f=22,r=1})}}),
-q(27283,{awp=40003,c=a[106],coords={{44.8,51.6,85},{35,67.6,85},{77,27.4,88},{55,50.4,90}},isBreadcrumb=1,lvl=8,nextQuests={27404},qgs={44726,44978,3034,52319},r=1}),
+q(27283,{awp=40003,c=a[106],coords={{35,67.6,85},{44.8,51.6,85},{77,27.4,88},{55,50.4,90}},isBreadcrumb=1,lvl=8,nextQuests={27404},qgs={44726,44978,3034,52319},r=1}),
 q(27395,{awp=40003,c=a[501],coords={a[859]},lvl=8,qgs={168551},qis=a[777],r=1,sourceQuests={27278},g={
 s(32945,65466,{b=1,f=32,r=1})}}),
 q(27272,{awp=40003,c=a[965],coords={a[668]},isBreadcrumb=1,lvl=8,nextQuests={27355},qgs={5173},r=2}),
@@ -5462,8 +5462,8 @@ s(32952,65473,{b=1,f=23}),
 s(32953,65474,{b=1,f=26})}}),
 q(27344,{awp=40003,c=a[501],coords={a[895]},lvl=8,qgs={164960},qis=a[777],r=2,sourceQuests={27266},g={
 s(32944,65465,{b=1,f=33,r=2})}}),
-q(27270,{awp=40003,c=a[835],coords={a[602],{55,30.2,87}},isBreadcrumb=1,lvl=8,nextQuests={27353},qgs=a[687],r=2}),
-q(27273,{awp=40003,c=a[106],coords={{24.4,54.4,97},{40.4,27.6,89},{27.6,50,84},{57.6,24.8,84}},isBreadcrumb=1,lvl=8,nextQuests={27356},qgs={16721,4217,5504,44395},r=2}),
+q(27270,{awp=40003,c=a[835],coords={{55,30.2,87},a[602]},isBreadcrumb=1,lvl=8,nextQuests={27353},qgs=a[687],r=2}),
+q(27273,{awp=40003,c=a[106],coords={{27.6,50,84},{57.6,24.8,84},{40.4,27.6,89},{24.4,54.4,97}},isBreadcrumb=1,lvl=8,nextQuests={27356},qgs={16721,4217,5504,44395},r=2}),
 q(27920,{awp=40003,crs=a[594],lvl=8,qgs=a[638],r=2,sourceQuests={27917}}),
 q(1014,{coords={{44.2,39.8,21}},qgs={1938},qis={5442},r=1,rwp=40003,u=2,g={
 i(6414,{b=1,f=52,u=2})}}),
@@ -5472,10 +5472,10 @@ s(32966,65487,{b=1,f=20,r=1})}}),
 q(27353,{awp=40003,c=a[835],coords={a[889]},lvl=8,qgs={164945},qis=a[784],r=2,sourceQuests={27270},g={
 s(32967,65488,{b=1,f=21,r=2}),
 s(32968,65489,{b=1,f=21,r=2})}}),
-q(27266,{awp=40003,c=a[501],coords={a[596],{70.9,89.8,87},a[635]},isBreadcrumb=1,lvl=8,nextQuests={27344},qgs={4138,5115,17122},r=2}),
+q(27266,{awp=40003,c=a[501],coords={{70.9,89.8,87},a[596],a[635]},isBreadcrumb=1,lvl=8,nextQuests={27344},qgs={4138,5115,17122},r=2}),
 q(1098,{coords={{43.4,40.8,21}},qgs={1952},r=1,rwp=40003,u=2,g={
 s(1202,3324,{b=1,f=4,u=2})}}),
-q(27265,{awp=40003,c=a[354],coords={{43.6,78.4,103},a[601],a[407]},isBreadcrumb=1,lvl=8,nextQuests={27343},qgs=a[279],r=2}),
+q(27265,{awp=40003,c=a[354],coords={a[407],a[601],{43.6,78.4,103}},isBreadcrumb=1,lvl=8,nextQuests={27343},qgs=a[279],r=2}),
 q(27362,{awp=40003,c=a[663],coords={{43,77.8,89}},lvl=8,qgs={7999},qis=a[780],races=a[579],sourceQuests={27269},g={
 s(32962,65483,{b=1,f=28})}}),
 q(27361,{awp=40003,c=a[663],coords={{79,69.8,84}},lvl=8,qgs={164949},qis=a[780],r=2,sourceQuests={27268},g={
@@ -5491,27 +5491,27 @@ s(33306,65936,{b=1,f=5}),
 s(33282,65910,{b=1,f=4}),
 s(75965,131684,{awp=70003,b=1,f=6}),
 s(75966,131685,{awp=70003,b=1,f=6})}}),
-q(27281,{awp=40003,c=a[78],coords={a[912],a[733],a[633]},isBreadcrumb=1,lvl=8,nextQuests={27365},qgs=a[603],r=1}),
+q(27281,{awp=40003,c=a[78],coords={a[733],a[633],a[912]},isBreadcrumb=1,lvl=8,nextQuests={27365},qgs=a[603],r=1}),
 q(27397,{awp=40003,c=a[835],coords={{73.6,43.4,85}},lvl=8,qgs={168628},qis=a[784],r=1,sourceQuests={27280},g={
 s(32969,65490,{b=1,f=21,r=1}),
 s(32970,65491,{b=1,f=21,r=1})}}),
-q(27335,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=8,nextQuests={27439},qgs=a[275],races=a[80]}),
-q(28164,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=8,nextQuests={27441},qgs=a[275],races=a[965]}),
-q(27331,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=8,nextQuests={27435},qgs=a[275],races=a[765]}),
-q(27332,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=8,nextQuests={27436},qgs=a[275],races=a[902]}),
-q(27334,{awp=40003,c=a[663],coords={a[691],a[430],a[871],a[648]},isBreadcrumb=1,lvl=8,nextQuests={27437},qgs=a[275],races=a[663]}),
+q(27335,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=8,nextQuests={27439},qgs=a[275],races=a[80]}),
+q(28164,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=8,nextQuests={27441},qgs=a[275],races=a[965]}),
+q(27331,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=8,nextQuests={27435},qgs=a[275],races=a[765]}),
+q(27332,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=8,nextQuests={27436},qgs=a[275],races=a[902]}),
+q(27334,{awp=40003,c=a[663],coords={a[430],a[871],a[648],a[691]},isBreadcrumb=1,lvl=8,nextQuests={27437},qgs=a[275],races=a[663]}),
 q(27282,{awp=40003,c=a[965],coords={a[440],a[953],a[857]},isBreadcrumb=1,lvl=8,nextQuests={27402},qgs=a[609],r=1}),
-q(27267,{awp=40003,c=a[579],coords={a[580],a[675]},isBreadcrumb=1,lvl=8,nextQuests={27351},qgs=a[593],r=2}),
+q(27267,{awp=40003,c=a[579],coords={a[675],a[580]},isBreadcrumb=1,lvl=8,nextQuests={27351},qgs=a[593],r=2}),
 q(27354,{awp=40003,c=a[903],coords={a[904]},lvl=8,qgs={164955},qis=a[779],r=2,sourceQuests={27271},g={
 s(32946,65467,{b=1,f=28,r=2})}}),
 q(27400,{awp=40003,c=a[903],coords={a[861]},lvl=8,qgs={168626},qis=a[779],r=1,sourceQuests={27277},g={
 s(32947,65468,{b=1,f=28,r=1})}}),
 q(27304,{awp=40003,c=a[354],coords={a[805],a[736]},isBreadcrumb=1,lvl=8,nextQuests={27403},qgs=a[608],races=a[765]}),
 q(27996,{awp=40003,crs={46963},lvl=8,qgs=a[639],r=1,sourceQuests={27988}}),
-q(27268,{awp=40003,c=a[663],coords={a[556],a[597],a[439]},isBreadcrumb=1,lvl=8,nextQuests={27361},qgs=a[278],r=2}),
-q(27274,{awp=40003,c=a[663],coords={a[556],a[597],a[439]},isBreadcrumb=1,lvl=8,nextQuests={27363},qgs=a[278],races=a[832]}),
+q(27268,{awp=40003,c=a[663],coords={a[439],a[597],a[556]},isBreadcrumb=1,lvl=8,nextQuests={27361},qgs=a[278],r=2}),
+q(27274,{awp=40003,c=a[663],coords={a[439],a[597],a[556]},isBreadcrumb=1,lvl=8,nextQuests={27363},qgs=a[278],races=a[832]}),
 q(27988,{awp=40003,crs=a[594],lvl=8,qgs=a[639],r=1,sourceQuests={27974}}),
-q(27298,{awp=40003,c=a[354],coords={a[977],a[805],a[736]},isBreadcrumb=1,lvl=8,nextQuests={27434},qgs={16681,43795,20406},races=a[80]}),
+q(27298,{awp=40003,c=a[354],coords={a[805],a[736],a[977]},isBreadcrumb=1,lvl=8,nextQuests={27434},qgs={16681,43795,20406},races=a[80]}),
 q(27917,{awp=40003,crs={46962},lvl=8,qgs=a[638],r=2}),
 q(27439,{awp=40003,c=a[663],coords={a[855]},lvl=8,qgs=a[282],qis=a[780],races=a[80],sourceQuests={27335},g={
 s(32957,65478,{b=1,f=28})}}),
@@ -5523,7 +5523,7 @@ s(33379,66020,{b=1,f=5}),
 s(33370,66011,{b=1,f=4}),
 s(75967,131686,{awp=70003,b=1,f=6}),
 s(75968,131687,{awp=70003,b=1,f=6})}}),
-q(27278,{awp=40003,c=a[501],coords={a[939],a[734],a[649]},isBreadcrumb=1,lvl=8,nextQuests={27395},qgs={16674,3039,39116},r=1}),
+q(27278,{awp=40003,c=a[501],coords={a[734],a[649],a[939]},isBreadcrumb=1,lvl=8,nextQuests={27395},qgs={16674,3039,39116},r=1}),
 q(27434,{awp=40003,c=a[354],coords={{73,47.2,85}},lvl=8,qgs={168597},qis=a[781],races=a[80],sourceQuests={27298},g={
 s(32948,65469,{b=1,f=23}),
 s(32949,65470,{b=1,f=23}),
@@ -5545,9 +5545,9 @@ s(32956,65477,{b=1,f=24})}}),
 q(1740,{c=a[965],coords={{49.2,57.2,10}},crs={3855},maps={221},qgs={6247},qis={6914,6915},rwp=40003,u=2,g={
 s(2639,6898,{b=1,c=a[965],f=1,spellID=18956,u=2}),
 s(5896,15109,{b=1,c=a[965],f=28,u=2})}}),
-q(27280,{awp=40003,c=a[835],coords={a[849],a[391],{22,18.8,88}},isBreadcrumb=1,lvl=8,nextQuests={27397},qgs={16661,51639,3032},r=1}),
-q(27279,{awp=40003,c=a[579],coords={a[897],a[941]},isBreadcrumb=1,lvl=8,nextQuests={27396},qgs={16684,4584},r=1}),
-q(27269,{awp=40003,c={2,5},coords={a[597],a[439]},isBreadcrumb=1,lvl=8,nextQuests={27362},qgs={11401,11406},races=a[579]}),
+q(27280,{awp=40003,c=a[835],coords={{22,18.8,88},a[391],a[849]},isBreadcrumb=1,lvl=8,nextQuests={27397},qgs={16661,51639,3032},r=1}),
+q(27279,{awp=40003,c=a[579],coords={a[941],a[897]},isBreadcrumb=1,lvl=8,nextQuests={27396},qgs={16684,4584},r=1}),
+q(27269,{awp=40003,c={2,5},coords={a[439],a[597]},isBreadcrumb=1,lvl=8,nextQuests={27362},qgs={11401,11406},races=a[579]}),
 q(27974,{awp=40003,crs={46962},lvl=8,qgs=a[639],r=1}),
 q(27402,{awp=40003,c=a[965],coords={{74.6,47.2,85}},lvl=8,qgs={168623},qis=a[785],r=1,sourceQuests={27282},g={
 s(32976,65497,{b=1,f=28,r=1})}})}),
@@ -6197,7 +6197,7 @@ s(4115,10836,{b=1,f=27,lvl=21}),
 s(4114,10835,{b=1,f=8,lvl=21}),
 s(4113,10833,{b=1,f=6,lvl=21}),
 i(10829,{b=1,f=51,lvl=21})}})}}),
-inst(239,{coords={{36.6,29.4,16},{60.7,37.4,15}},mapID=230,maps={16,231},savedInstanceID=70,g={
+inst(239,{coords={{60.7,37.4,15},{36.6,29.4,16}},mapID=230,maps={16,231},savedInstanceID=70,g={
 h(-44,{
 prof(333,{
 n(11073,{description="To get the Annora to spawn, you'll have to kill all scorpions first."})})}),
@@ -6283,7 +6283,7 @@ s(3272,9423,{f=24,lvl=15}),
 s(3242,9391,{crs=a[646],f=24,lvl=15}),
 s(3277,9428,{crs=a[646],f=5,lvl=15})}),
 h(-46,{awp=100107,g={
-n(7057,{coords={{62,51.5,16},{51.8,68.5,16},{34,84.5,16},{32.4,62.4,16}},description="This guy spawns outside of the instance, inside the halls or cave ends surrounding Dig One. All locations can be reached with '/tar Digmaster Shovelphlange' from the cave leading in to the North Common Hall.",g={
+n(7057,{coords={{32.4,62.4,16},{34,84.5,16},{51.8,68.5,16},{62,51.5,16}},description="This guy spawns outside of the instance, inside the halls or cave ends surrounding Dig One. All locations can be reached with '/tar Digmaster Shovelphlange' from the cave leading in to the North Common Hall.",g={
 s(3230,9378,{f=21,lvl=15}),
 s(3229,9375,{f=5,lvl=15}),
 s(3233,9382,{f=5,lvl=15})}})}}),
@@ -6486,7 +6486,7 @@ q(25556,{awp=40003,coords={{42.5,24,71}},isBreadcrumb=1,lvl=15,nextQuests={27068
 q(2991,{coords={{67,19.4,17}},qgs={8022},qis={9471},r=2,rwp=40003,sourceQuests={2990},u=2}),
 q(2865,{coords={{51.6,26.8,71}},crs={7269},qgs={7876},qis={9238},rwp=40003,sourceQuests={2864},u=2}),
 q(2861,_.ResolveQuestData({aqd=
-{coords={{27,8.2,87},{38.6,79.4,84}},qgs={5144,5497},u=2},hqd=
+{coords={{38.6,79.4,84},{27,8.2,87}},qgs={5144,5497},u=2},hqd=
 {coords={{38.4,86,85},{85,10.2,90}},qgs={5885,4568},u=2},isBreadcrumb=1,nextQuests={2846},rwp=40003,u=2})),
 q(4787,{coords={a[817]},maps={26},qgs=a[952],qis={12402},rwp=40003,sourceQuests={3527},u=2,g={
 o(175889,{coords={{57.5,86.7,26}}})}}),
@@ -7230,7 +7230,7 @@ s(13694,30311,{collectible=false,crs={21272},f=25,lvl=27,u=5}),
 i(32896,{b=1,lvl=27,rwp=40003,spellID=42801,u=2,g={
 i(32897)}}),
 i(29905,{f=55})}})}}),
-inst(750,{awp=20001,coords={{36,16.1,75},a[809]},isLockoutShared=1,isRaid=1,lore="The Battle of Mount Hyjal was the final bloody conflict that concluded the Third War. The battle was the culmination of years of fighting between the various mortal forces of Azeroth and the demonic and undead armies of the Burning Legion, and saw the demons' invasion end in decisive failure.\n\nSpecifically, the event took place as part of the invasion of Kalimdor phase of the war, where Archimonde struck directly at the World Tree Nordrassil on Mount Hyjal as part of his endgame. The battle began when a mortal coalition of night elves, Alliance, and New Horde elements arrayed themselves before the World Tree to halt Archimonde's advance. Though they were unable to stand against the Legion indefinitely, they aimed to buy time for Malfurion Stormrage to prepare a proper defense.",mapID=329,savedInstanceID=534,g={
+inst(750,{awp=20001,coords={a[809],{36,16.1,75}},isLockoutShared=1,isRaid=1,lore="The Battle of Mount Hyjal was the final bloody conflict that concluded the Third War. The battle was the culmination of years of fighting between the various mortal forces of Azeroth and the demonic and undead armies of the Burning Legion, and saw the demons' invasion end in decisive failure.\n\nSpecifically, the event took place as part of the invasion of Kalimdor phase of the war, where Archimonde struck directly at the World Tree Nordrassil on Mount Hyjal as part of his endgame. The battle began when a mortal coalition of night elves, Alliance, and New Horde elements arrayed themselves before the World Tree to halt Archimonde's advance. Though they were unable to stand against the Legion indefinitely, they aimed to buy time for Malfurion Stormrage to prepare a proper defense.",mapID=329,savedInstanceID=534,g={
 h(-12,{
 ach(959,{maps=a[874],minReputation=a[999]})}),
 h(-31,{
@@ -11117,7 +11117,7 @@ s(19549,40583,{b=1,c=a[354],f=7,lvl=30,modID=1}),
 s(19544,40577,{b=1,c=a[354],f=7,lvl=30,modID=1}),
 s(19534,40567,{b=1,c=a[765],f=7,lvl=30,modID=1}),
 s(19523,40556,{b=1,c=a[765],f=7,lvl=30,modID=1})}})})}}),
-inst(754,{awp=30002,coords={{87.4,51.1,115},{35.7,22.9,23}},isLockoutShared=1,isRaid=1,mapID=162,maps=a[269],savedInstanceID=533,g={
+inst(754,{awp=30002,coords={{35.7,22.9,23},{87.4,51.1,115}},isLockoutShared=1,isRaid=1,mapID=162,maps=a[269],savedInstanceID=533,g={
 d(3,{
 h(-12,{
 ach(578,{
@@ -18477,7 +18477,7 @@ s(34277,67246,{f=20,lvl=32,rwp=40100,u=2})}}),
 n(50009,{coords={{63.4,32.6,204},{65.8,20.4,204},{71.8,18.4,204},{75.6,36.6,204},{77,25.4,204}},isRaid=1,g={
 s(35579,69843,{awp=40100,f=29,lvl=32}),
 s(34196,67153,{f=29,lvl=32,rwp=40100,u=2})}}),
-n(50005,{coords={{39.4,71.9,204},{40.4,73.8,204},{41,76.6,204},{42.2,76,204},{41.8,73.4,204},{66.4,44.2,205},{46.2,48.6,205},{57.2,80.8,205},{38.5,67,205}},isRaid=1,maps={203},g={
+n(50005,{coords={{39.4,71.9,204},{40.4,73.8,204},{41,76.6,204},{41.8,73.4,204},{42.2,76,204},{38.5,67,205},{46.2,48.6,205},{57.2,80.8,205},{66.4,44.2,205}},isRaid=1,maps={203},g={
 mnt(98718,{itemID=67151,lvl=29})}}),
 n(50061,{coords={{40.6,52.4,207},{45.4,39,207},{45.4,63.8,207},{56.6,42.6,207},{57.2,59,207}},isRaid=1,g={
 s(35587,69876,{awp=40100,f=6,lvl=32}),
@@ -19915,7 +19915,7 @@ d(24,{sym={{"sub","tw_instance",78}}})}}),
 inst(187,{awp=40300,coords={a[809],{61.9,27.2,75}},isLockoutShared=1,isRaid=1,mapID=409,maps={410,411,412,413,414,415},savedInstanceID=967,g={
 ah(6181,{c=a[579],isRaid=1,type="a",g={
 q(29802,{c=a[579],coords={a[667]},cost={{"i",74752,1}},description="Yes, you actually have to pay the 10 000 gold to progress on this questline.",lvl=35,qgs={55476},sourceQuests={29801},g={
-i(74749,{c=a[579],coords={{57.6,65.6,85},{50.6,61,84}},cost={{"i",74246,1},{"g",100000000}},description="Just log out for 12 hours. Read a book or something!",qgs={57801,57800},g={
+i(74749,{c=a[579],coords={{50.6,61,84},{57.6,65.6,85}},cost={{"i",74246,1},{"g",100000000}},description="Just log out for 12 hours. Read a book or something!",qgs={57801,57800},g={
 i(74748,{c=a[579],spellID=104581})}}),
 i(74750,{c=a[579],coords={a[480]},cost={{"i",74748,1}},qgs={55488},g={
 i(74752,{c=a[579]})}})}}),
@@ -20561,7 +20561,7 @@ crit(13550,{achID=4844,awp=40000,id=2}),
 crit(13550,{achID=5506,awp=40000,id=2})}),
 gach(5134)}})}),
 d(24,{sym={{"sub","tw_instance",66}}})}}),
-inst(184,{awp=40300,coords={{57.7,30.4,75},a[809]},description="Consists of three bosses. The first boss can either be Echo of Baine in the Obsidian Dragonshrine, or Echo of Sylvanas in the Ruby Dragonshrine. The second boss is either Echo of Jaina in the Azure Dragonshrine, or Echo of Tyrande in the Emerald Dragonshrine. Myrozond is always the last boss.",mapID=401,maps={402,403,404,405,406},savedInstanceID=938,g={
+inst(184,{awp=40300,coords={a[809],{57.7,30.4,75}},description="Consists of three bosses. The first boss can either be Echo of Baine in the Obsidian Dragonshrine, or Echo of Sylvanas in the Ruby Dragonshrine. The second boss is either Echo of Jaina in the Azure Dragonshrine, or Echo of Tyrande in the Emerald Dragonshrine. Myrozond is always the last boss.",mapID=401,maps={402,403,404,405,406},savedInstanceID=938,g={
 h(-45,{
 q(30097,{lvl=35,qgs={57864},g={
 s(37348,72871,{b=1,f=27,lvl=32}),
@@ -20847,7 +20847,7 @@ crit(13553,{achID=5506,awp=40000,id=7})}),
 gach(5139),
 ach(5295,{
 crit(15260,{achID=4845,awp=40000,id=14})})}})})}}),
-inst(186,{awp=40300,coords={{66.2,29.2,75},a[809]},mapID=399,maps={400},savedInstanceID=940,g={
+inst(186,{awp=40300,coords={a[809],{66.2,29.2,75}},mapID=399,maps={400},savedInstanceID=940,g={
 h(-45,{
 q(30103,{lvl=35,qgs={54548,54634,54972,55779},sourceQuests={30102},g={
 s(37335,72858,{b=1,f=4,lvl=32}),
@@ -21264,7 +21264,7 @@ crit(13551,{achID=5506,awp=40000,id=3})}),
 gach(5135),
 ach(5286,{rwp=100200,u=2})}})}),
 d(24,{sym={{"sub","tw_instance",65}}})}}),
-inst(185,{awp=40300,coords={{22.9,64.4,75},a[809]},mapID=398,savedInstanceID=939,g={
+inst(185,{awp=40300,coords={a[809],{22.9,64.4,75}},mapID=398,savedInstanceID=939,g={
 h(-45,{
 q(30104,{lvl=35,qgs={57864},sourceQuests={30096,30097},g={
 i(72880,{b=1,f=52,lvl=32}),
@@ -41787,7 +41787,7 @@ o(277384,{repeatable=1,g={
 s(90989,152854,{b=1,f=1,lvl=40})}})}),
 h(-45,{
 q(48230,{crs={122316,126152,122423,127791,121670,127797,122403,121672,122413,127796,124171,122404,122421,122056},description="You must complete |cffffff00Seat of the Triumvirate: The Crest of Knowledge|r before this item will drop.",lvl=45,maps={882},providers={{"i",152204}},sourceQuests={47654}}),
-q(48864,{coords={{51.5,69,883},{51.7,74.4,831},{62.6,39.4,882}},lvl=45,qgs={123668},sourceQuests={48230},g={
+q(48864,{coords={{51.7,74.4,831},{62.6,39.4,882},{51.5,69,883}},lvl=45,qgs={123668},sourceQuests={48230},g={
 i(152205)}}),
 q(48271,{coords={a[730]},lvl=45,qgs=a[163],sourceQuests={48864},g={
 i(152201),
@@ -42363,7 +42363,7 @@ s(97324,161408,{b=1,f=7,lvl=50,modID=3}),
 i(161419,{b=1,f=53,lvl=50,modID=3,spellID=278287}),
 i(168140,{b=1,modID=3,sourceQuests=a[653]}),
 crit(40533,{achID=12587,id=5})}}),
-e(2197,{coords={{62.4,69.1,896},{31.8,66.9,896},{49.2,74.6,896}},isRaid=1,isWeekly=1,npcID=140252,questID=52157,g={
+e(2197,{coords={{31.8,66.9,896},{49.2,74.6,896},{62.4,69.1,896}},isRaid=1,isWeekly=1,npcID=140252,questID=52157,g={
 s(97270,161372,{b=1,f=7,lvl=50,modID=3}),
 s(97259,161367,{b=1,f=6,lvl=50,modID=3}),
 s(97252,161364,{b=1,f=5,lvl=50,modID=3}),
@@ -45857,7 +45857,7 @@ s(95843,159354,{b=1,f=6,lvl=50,modID=23}),
 s(95861,159377,{b=1,f=6,modID=23}),
 i(159620,{b=1,f=53,modID=23,spellID=271072})}})}}),
 d(24,{sym={{"sub","tw_instance",1036}}})}}),
-inst(1023,{awp=80001,coords={{72.2,15.5,1161},{88.2,50.9,895}},maps={1162},savedInstanceID=1822,g={
+inst(1023,{awp=80001,coords={{88.2,50.9,895},{72.2,15.5,1161}},maps={1162},savedInstanceID=1822,g={
 h(-45,{
 q(53128,{lvl=50,providers={{"o",296479}},r=2,g={
 i(163336)}}),
@@ -60680,7 +60680,7 @@ e(2585,{npcID=215407,g={
 ach(40375)}})})}}),
 inst(1272,{awp=110002,coords={{76.6,43.8,2248}},maps={2335},savedInstanceID=2661,g={
 h(-45,{
-q(83099,{coords={{50,50,2335},{75.6,43.5,2248}},lvl=80,qgs={216088,226409}})}),
+q(83099,{coords={{75.6,43.5,2248},{50,50,2335}},lvl=80,qgs={216088,226409}})}),
 d(101,{difficulties=a[45],g={
 e(2586,{npcID=210271,g={
 s(218994,221053,{b=1,f=5,lvl=68}),
