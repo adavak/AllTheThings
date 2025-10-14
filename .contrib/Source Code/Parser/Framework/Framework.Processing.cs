@@ -3447,8 +3447,13 @@ namespace ATT
 
         private static void Incorporate_DataCloning(IDictionary<string, object> data)
         {
+            // data.DataBreakPoint("criteriaID", 19435);
+            Incorporate_DataCloning_PrepCriteria(data);
+
+            if (data.TryGetValue("_needsClone", out bool needsClone) && !needsClone)
+                return;
+
             bool cloned = false;
-            long criteriaID;
             if (data.TryGetValue("_quests", out object quests))
             {
                 // don't duplicate achievements in this way
@@ -3465,7 +3470,7 @@ namespace ATT
             if (data.TryGetValue("_items", out object items))
             {
                 // don't duplicate achievements in this way
-                if (data.TryGetValue("criteriaID", out criteriaID))
+                if (data.TryGetValue("criteriaID", out long criteriaID))
                 {
                     data.TryGetValue("achID", out long achID);
                     LogError($"Do not use '_items' on Criteria ({achID}:{criteriaID}). Use 'provider' instead when an Item grants credit for an Achievement Criteria.");
@@ -3502,9 +3507,9 @@ namespace ATT
             if (data.TryGetValue("_spells", out object spells))
             {
                 // Spells are split into multiple "useful" types
-                //DuplicateDataIntoGroups(data, spells, "spellID");
-                //DuplicateDataIntoGroups(data, spells, "recipeID");
-                //DuplicateDataIntoGroups(data, spells, "mountID");
+                DuplicateDataIntoGroups(data, spells, "spellID");
+                DuplicateDataIntoGroups(data, spells, "recipeID");
+                DuplicateDataIntoGroups(data, spells, "mountID");
                 cloned = true;
             }
             if (data.TryGetValue("_achievements", out object achievements))
@@ -3555,205 +3560,6 @@ namespace ATT
                 cloned = true;
             }
 
-            // data.DataBreakPoint("criteriaID", 60752);
-
-            bool confirmedClone = false;
-            // TODO: revise with adjustments on post-process merging
-            // Check if we 'know' the cloned data is assigned to a matching visible Sourced data
-            //if (data.TryGetValue("_postMergeSourced", out object postMergeSourcedObj)
-            //    && postMergeSourcedObj is HashSet<IDictionary<string, object>> postMergeSourced
-            //    && !postMergeSourced.Any(d => d.ContainsKey("_unsorted")))
-            //{
-            //    confirmedClone = true;
-            //}
-
-            // specifically Achievement Criteria that is cloned to another location in the addon should not be maintained where it was cloned from
-            // if it isn't known to be a confirmed clone
-            if (!confirmedClone && cloned && data.TryGetValue("criteriaID", out criteriaID))
-            {
-                // if the Criteria attempts to clone into an NPC which isn't Sourced, then don't remove it and add to 'providers'
-                if (data.TryGetValue("_npcs", out List<object> npcObjs))
-                {
-                    List<long> crs = new List<long>();
-                    foreach (long npcID in npcObjs.AsTypedEnumerable<long>())
-                    {
-                        if (!TryGetSOURCED("npcID", npcID, out var npcSources))
-                        {
-                            // remove the creatures which are not sourced from being reported as failed to merge
-                            data.TryGetValue("achID", out long achID);
-                            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsourced NPC {npcID}. Consider Sourcing NPC");
-                            Objects.TrackPostProcessMergeKey("npcID", npcID);
-                            crs.Add(npcID);
-                        }
-                    }
-
-                    if (crs.Count == npcObjs.Count)
-                    {
-                        Objects.Merge(data, "providers", crs.Select(n => new List<object> { "n", n }).ToList());
-                        cloned = false;
-                    }
-                }
-                // if the Criteria attempts to clone into an Object which isn't Sourced, then don't remove it and add to 'providers'
-                if (data.TryGetValue("_objects", out List<object> objectObjs))
-                {
-                    List<long> objs = new List<long>();
-                    foreach (long objectID in objectObjs.AsTypedEnumerable<long>())
-                    {
-                        if (!TryGetSOURCED("objectID", objectID, out var objectSources))
-                        {
-                            // remove the maps which are not sourced from being reported as failed to merge
-                            data.TryGetValue("achID", out long achID);
-                            LogWarn($"Criteria {achID}:{criteriaID} not nested to Unsourced Object {objectID}. Consider Sourcing Object");
-                            Objects.TrackPostProcessMergeKey("objectID", objectID);
-                            objs.Add(objectID);
-                        }
-                    }
-
-                    if (objs.Count == objectObjs.Count)
-                    {
-                        Objects.Merge(data, "providers", objs.Select(n => new List<object> { "o", n }).ToList());
-                        cloned = false;
-                    }
-                }
-                // if the Criteria attempts to clone into a Quest which isn't Sourced or is Unsorted, then don't remove it and convert into a 'sourceQuests' list instead
-                if (data.TryGetValue("_quests", out List<object> questObjs))
-                {
-                    List<long> unsourcedQuests = new List<long>();
-                    bool dupeUnsorted = false;
-                    data.TryGetValue("achID", out long achID);
-                    foreach (long questID in questObjs.AsTypedEnumerable<long>())
-                    {
-                        if (!TryGetSOURCED("questID", questID, out HashSet<IDictionary<string, object>> questRefs))
-                        {
-                            // remove the quests which are not sourced from being reported as failed to merge
-                            Objects.TrackPostProcessMergeKey("questID", questID);
-                            unsourcedQuests.Add(questID);
-                            // if we're trying to assign a questID which isn't sourced, make sure we don't ignore the criteria to let it disappear later
-                            if (data.Remove("_ignored"))
-                            {
-                                // ignored criteria which are being assigned a questID can be assigned as NYI so
-                                // that when triggered they can be associated with the proper activity
-                                // assign NYI only if there are not additional _quests
-                                if (questObjs.Count == 1)
-                                {
-                                    data["u"] = 1;
-                                    LogDebugWarn($"Criteria {achID}:{criteriaID} is ignored in UI and marked NYI to trigger reporting of proper Source", data);
-                                }
-                            }
-                        }
-                        else if (questRefs.All(d => d.ContainsKey("_unsorted")))
-                        {
-                            // are we trying to clone the criteria into an NYI quest(s)?
-                            if (questRefs.All(d => d.ContainsKey("_nyi")))
-                            {
-                                // allow cloning into NYI so that it's obvious the criteria are not available
-                            }
-                            else
-                            {
-                                // remove the quests which are not sourced from being reported as failed to merge
-                                Objects.TrackPostProcessMergeKey("questID", questID);
-                                unsourcedQuests.Add(questID);
-                                dupeUnsorted = true;
-                            }
-                        }
-                    }
-
-                    // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
-                    if (unsourcedQuests.Count == 1)
-                    {
-                        // warn when assigning Quest matching Unsorted
-                        if (dupeUnsorted)
-                        {
-                            LogWarn($"INFO: Criteria {achID}:{criteriaID} assigned duplicated Unsorted Quest {unsourcedQuests[0]}");
-                        }
-                        else
-                        {
-                            LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
-                        }
-                        Objects.Merge(data, "questID", unsourcedQuests[0]);
-                        cloned = questObjs.Count != 1;
-                    }
-                    // if multiple unsourced quests linked to a criteria, then convert into a sourcequests list instead
-                    else if (unsourcedQuests.Count == questObjs.Count)
-                    {
-                        Objects.Merge(data, "sourceQuests", unsourcedQuests);
-                        cloned = false;
-                        LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsorted Quest(s) {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
-                    }
-                    else if (unsourcedQuests.Count > 0)
-                    {
-                        // report weird situation, partially unsourced quests...?
-                        LogDebugWarn($"Criteria {achID}:{criteriaID} has partially sourced Quest(s): {ToJSON(questObjs)} Unsourced: {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
-                    }
-                }
-                // if the Criteria attempts to clone into a Spell which is on an Item, then put the Item as a 'provider' instead, if otherwise add the spell to 'providers'
-                if (data.TryGetValue("_spells", out List<object> spellObjs))
-                {
-                    foreach (long id in spellObjs.AsTypedEnumerable<long>())
-                    {
-                        // Items with Spells can set 'provider' on the Criteria instead of nesting
-                        if (TryGetSOURCED("recipeID", id, out var spellSources)
-                            || TryGetSOURCED("mountID", id, out spellSources)
-                            || TryGetSOURCED("spellID", id, out spellSources))
-                        {
-                            foreach (var spell in spellSources)
-                            {
-                                if (spell.TryGetValue("itemID", out long spellItemID))
-                                {
-                                    data.TryGetValue("achID", out long achID);
-                                    LogDebug($"Criteria {achID}:{criteriaID} using Provider for a SpellItem {spellItemID} due to Spell {id} requirement");
-                                    Objects.Merge(data, "provider", new List<object> { "i", spellItemID });
-                                    cloned = false;
-                                }
-                            }
-                        }
-
-                        // Remaining Spells not Sourced in ATT, use provider if the Criteria has any other 'useful' data as well
-                        if (cloned)
-                        {
-                            IEnumerable<string> usefulKeys = data.Keys.Except(IndeterminateCriteriaDataFields).Except(s => s.EndsWith("ID"));
-                            data.TryGetValue("achID", out long achID);
-                            if (!usefulKeys.Any())
-                            {
-                                // mark this criteria to be removed since it is not nested in-game and doesn't correspond to or contain any useful ATT data at this time
-                                LogDebugWarn($"Criteria {achID}:{criteriaID} removed since it doesn't correspond to useful ATT data");
-                                data["_remove"] = true;
-                            }
-                            else
-                            {
-                                LogDebug($"Criteria {achID}:{criteriaID} using fallback Provider for an Unsourced Spell {id}");
-                                Objects.Merge(data, "provider", new List<object> { "s", id });
-                                cloned = false;
-                            }
-                            cloned = false;
-                        }
-
-                        if (!cloned)
-                        {
-                            Objects.TrackPostProcessMergeKey("spellID", id);
-                            Objects.TrackPostProcessMergeKey("mountID", id);
-                            Objects.TrackPostProcessMergeKey("recipeID", id);
-                        }
-                    }
-                }
-                // if the Criteria attempts to clone into a Species which is not Sourced, then ignore trying to move the criteria
-                //if (data.TryGetValue("_species", out List<object> speciesObjs))
-                //{
-                //    data.DataBreakPoint("criteriaID", 55537);
-                //    data.TryGetValue("achID", out long achID);
-                //    foreach (long speciesID in speciesObjs.AsTypedEnumerable<long>())
-                //    {
-                //        if (!TryGetSOURCED("speciesID", speciesID, out HashSet<IDictionary<string, object>> sourcedSpecies)
-                //            || sourcedSpecies.Any(s => !IsObtainableData(s)))
-                //        {
-                //            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested unsorted SpeciesID {speciesID}. Consider sourcing the SpeciesID");
-                //            Objects.TrackPostProcessMergeKey("speciesID", speciesID);
-                //            cloned = false;
-                //        }
-                //    }
-                //}
-            }
-
             // Un-cloned Criteria which is marked as ignored should allow itself to be removed from the list
             if (data.ContainsKey("criteriaID") && !data.ContainsKey("_noautomation"))
             {
@@ -3767,6 +3573,211 @@ namespace ATT
                     data["_remove"] = true;
                 }
             }
+        }
+
+        private static void Incorporate_DataCloning_PrepCriteria(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("criteriaID", out long criteriaID))
+                return;
+
+            // specifically Achievement Criteria that may be cloned to another location in the addon should not be maintained where it was cloned from
+            // if it isn't known to be a confirmed clone
+            int cloneTypes = 0;
+            int cloneHandles = 0;
+            // if the Criteria attempts to clone into an NPC which isn't Sourced, then don't remove it and add to 'providers'
+            if (data.TryGetValue("_npcs", out List<object> npcObjs))
+            {
+                cloneTypes++;
+                List<long> crs = new List<long>();
+                foreach (long npcID in npcObjs.AsTypedEnumerable<long>())
+                {
+                    if (!TryGetSOURCED("npcID", npcID, out var npcSources))
+                    {
+                        // remove the creatures which are not sourced from being reported as failed to merge
+                        data.TryGetValue("achID", out long achID);
+                        LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsourced NPC {npcID}. Consider Sourcing NPC");
+                        Objects.TrackPostProcessMergeKey("npcID", npcID);
+                        crs.Add(npcID);
+                    }
+                }
+
+                if (crs.Count == npcObjs.Count)
+                {
+                    Objects.Merge(data, "providers", crs.Select(n => new List<object> { "n", n }).ToList());
+                    cloneHandles++;
+                }
+            }
+            // if the Criteria attempts to clone into an Object which isn't Sourced, then don't remove it and add to 'providers'
+            if (data.TryGetValue("_objects", out List<object> objectObjs))
+            {
+                cloneTypes++;
+                List<long> objs = new List<long>();
+                foreach (long objectID in objectObjs.AsTypedEnumerable<long>())
+                {
+                    if (!TryGetSOURCED("objectID", objectID, out var objectSources))
+                    {
+                        // remove the maps which are not sourced from being reported as failed to merge
+                        data.TryGetValue("achID", out long achID);
+                        LogWarn($"Criteria {achID}:{criteriaID} not nested to Unsourced Object {objectID}. Consider Sourcing Object");
+                        Objects.TrackPostProcessMergeKey("objectID", objectID);
+                        objs.Add(objectID);
+                    }
+                }
+
+                if (objs.Count == objectObjs.Count)
+                {
+                    Objects.Merge(data, "providers", objs.Select(n => new List<object> { "o", n }).ToList());
+                    cloneHandles++;
+                }
+            }
+            // if the Criteria attempts to clone into a Quest which isn't Sourced or is Unsorted, then don't remove it and convert into a 'sourceQuests' list instead
+            if (data.TryGetValue("_quests", out List<object> questObjs))
+            {
+                cloneTypes++;
+                List<long> unsourcedQuests = new List<long>();
+                bool dupeUnsorted = false;
+                data.TryGetValue("achID", out long achID);
+                foreach (long questID in questObjs.AsTypedEnumerable<long>())
+                {
+                    if (!TryGetSOURCED("questID", questID, out HashSet<IDictionary<string, object>> questRefs))
+                    {
+                        // remove the quests which are not sourced from being reported as failed to merge
+                        Objects.TrackPostProcessMergeKey("questID", questID);
+                        unsourcedQuests.Add(questID);
+                        // if we're trying to assign a questID which isn't sourced, make sure we don't ignore the criteria to let it disappear later
+                        if (data.Remove("_ignored"))
+                        {
+                            // ignored criteria which are being assigned a questID can be assigned as NYI so
+                            // that when triggered they can be associated with the proper activity
+                            // assign NYI only if there are not additional _quests
+                            if (questObjs.Count == 1)
+                            {
+                                data["u"] = 1;
+                                LogDebugWarn($"Criteria {achID}:{criteriaID} is ignored in UI and marked NYI to trigger reporting of proper Source", data);
+                            }
+                        }
+                    }
+                    else if (questRefs.All(d => d.ContainsKey("_unsorted")))
+                    {
+                        // are we trying to clone the criteria into an NYI quest(s)?
+                        if (questRefs.All(d => d.ContainsKey("_nyi")))
+                        {
+                            // allow cloning into NYI so that it's obvious the criteria are not available
+                        }
+                        else
+                        {
+                            // remove the quests which are not sourced from being reported as failed to merge
+                            Objects.TrackPostProcessMergeKey("questID", questID);
+                            unsourcedQuests.Add(questID);
+                            dupeUnsorted = true;
+                        }
+                    }
+                }
+
+                // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
+                if (unsourcedQuests.Count == 1)
+                {
+                    // warn when assigning Quest matching Unsorted
+                    if (dupeUnsorted)
+                    {
+                        LogWarn($"INFO: Criteria {achID}:{criteriaID} assigned duplicated Unsorted Quest {unsourcedQuests[0]}");
+                    }
+                    else
+                    {
+                        LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
+                    }
+                    Objects.Merge(data, "questID", unsourcedQuests[0]);
+                    if (questObjs.Count == 1)
+                        cloneHandles++;
+                }
+                // if multiple unsourced quests linked to a criteria, then convert into a sourcequests list instead
+                else if (unsourcedQuests.Count == questObjs.Count)
+                {
+                    Objects.Merge(data, "sourceQuests", unsourcedQuests);
+                    LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsorted Quest(s) {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
+                    cloneHandles++;
+                }
+                else if (unsourcedQuests.Count > 0)
+                {
+                    // report weird situation, partially unsourced quests...?
+                    LogDebugWarn($"Criteria {achID}:{criteriaID} has partially sourced Quest(s): {ToJSON(questObjs)} Unsourced: {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
+                }
+            }
+            // if the Criteria attempts to clone into a Spell which is on an Item, then put the Item as a 'provider' instead, if otherwise add the spell to 'providers'
+            if (data.TryGetValue("_spells", out List<object> spellObjs))
+            {
+                cloneTypes++;
+                var handledSpells = new HashSet<long>();
+                foreach (long id in spellObjs.AsTypedEnumerable<long>())
+                {
+                    // Items with Spells can set 'provider' on the Criteria instead of nesting
+                    if (TryGetSOURCED("recipeID", id, out var spellSources)
+                        || TryGetSOURCED("mountID", id, out spellSources)
+                        || TryGetSOURCED("spellID", id, out spellSources))
+                    {
+                        foreach (var spell in spellSources)
+                        {
+                            if (spell.TryGetValue("itemID", out long spellItemID))
+                            {
+                                data.TryGetValue("achID", out long achID);
+                                LogDebug($"Criteria {achID}:{criteriaID} using Provider for a SpellItem {spellItemID} due to Spell {id} requirement");
+                                Objects.Merge(data, "provider", new List<object> { "i", spellItemID });
+                                handledSpells.Add(id);
+                            }
+                        }
+                    }
+
+                    // Remaining Spells not Sourced in ATT, use provider if the Criteria has any other 'useful' data as well
+                    if (!handledSpells.Contains(id))
+                    {
+                        IEnumerable<string> usefulKeys = data.Keys.Except(IndeterminateCriteriaDataFields).Except(s => s.EndsWith("ID"));
+                        data.TryGetValue("achID", out long achID);
+                        if (!usefulKeys.Any())
+                        {
+                            // mark this criteria to be removed since it is not nested in-game and doesn't correspond to or contain any useful ATT data at this time
+                            LogDebugWarn($"Criteria {achID}:{criteriaID} removed since it doesn't correspond to useful ATT data");
+                            data["_remove"] = true;
+                        }
+                        else
+                        {
+                            LogDebug($"Criteria {achID}:{criteriaID} using fallback Provider for an Unsourced Spell {id}");
+                            Objects.Merge(data, "provider", new List<object> { "s", id });
+                            handledSpells.Add(id);
+                        }
+                    }
+
+                    if (handledSpells.Contains(id))
+                    {
+                        Objects.TrackPostProcessMergeKey("spellID", id);
+                        Objects.TrackPostProcessMergeKey("mountID", id);
+                        Objects.TrackPostProcessMergeKey("recipeID", id);
+                    }
+                }
+
+                if (handledSpells.Count == spellObjs.Count)
+                {
+                    data.Remove("_spells");
+                    cloneHandles++;
+                }
+            }
+
+            data["_needsClone"] = cloneTypes == 0 || cloneTypes > cloneHandles;
+            // if the Criteria attempts to clone into a Species which is not Sourced, then ignore trying to move the criteria
+            //if (data.TryGetValue("_species", out List<object> speciesObjs))
+            //{
+            //    data.DataBreakPoint("criteriaID", 55537);
+            //    data.TryGetValue("achID", out long achID);
+            //    foreach (long speciesID in speciesObjs.AsTypedEnumerable<long>())
+            //    {
+            //        if (!TryGetSOURCED("speciesID", speciesID, out HashSet<IDictionary<string, object>> sourcedSpecies)
+            //            || sourcedSpecies.Any(s => !IsObtainableData(s)))
+            //        {
+            //            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested unsorted SpeciesID {speciesID}. Consider sourcing the SpeciesID");
+            //            Objects.TrackPostProcessMergeKey("speciesID", speciesID);
+            //            cloned = false;
+            //        }
+            //    }
+            //}
         }
 
         private static void Consolidate_General(IDictionary<string, object> data)
@@ -3908,6 +3919,26 @@ namespace ATT
                         break;
                 }
                 i++;
+            }
+
+            // remove 's' providers if 'n' or 'i' provider exists
+            // TODO: move to Providers.Consolidate whenever added
+            var types = new HashSet<string>(providersList.Select(p => p is List<object> pl ? pl[0].ToString() : null).Where(t => t != null));
+
+            if (types.Contains("s") &&
+                (types.Contains("n") || types.Contains("n")))
+            {
+                // if there is an NPC provider, remove any Spell providers as redundant
+                int index = providersList.Count - 1;
+                while (index >= 0)
+                {
+                    if (providersList[index] is List<object> pl && pl.Count == 2 && pl[0] is string pType && pType == "s")
+                    {
+                        LogDebug($"INFO: Removed 's' provider due to 'n'/'i' provider also present", data);
+                        providersList.RemoveAt(index);
+                    }
+                    index--;
+                }
             }
         }
 
