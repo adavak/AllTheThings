@@ -1006,18 +1006,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		-- Non-reagent crafts:
 		i(62237, {	-- Adventurer's Journal
 			-- #if CATA
-			["description"] = [[Using this item will provide you with a temporary 1-hour buff. This buff is random, and only applies if you are below level 85.
-
-Learning by Example - Quest experience increased by 10%.
-The Great Hunt - Damage against beasts increased by 15%
-Terrain Expert - Movement speed increased by %15. This does not stack with other movement speed increasing effects.
-Living Forever - Chance to heal yourself when dealing damage to an enemy.
-Deadly Drive - Damage against humanoids increased by 15%.
-Dragonsbane - Damage against Dragonkin increased by 15%.
-Mechanical Aptitude - Damage against Mechanicals increased by 15%.
-Kneecapper - Damage against Giants increased by 15%.
-Fire and Water - Damage against Elementals increased by 15%.
-28 Chapters Later - Damage against Undead increased by 15%]];
+			["description"] = "Using this item will provide you with a temporary 1-hour buff. This buff is random, and only applies if you are below level 85.\n\nLearning by Example - Quest experience increased by 10%.\nThe Great Hunt - Damage against beasts increased by 15%\nTerrain Expert - Movement speed increased by %15. This does not stack with other movement speed increasing effects.\nLiving Forever - Chance to heal yourself when dealing damage to an enemy.\nDeadly Drive - Damage against humanoids increased by 15%.\nDragonsbane - Damage against Dragonkin increased by 15%.\nMechanical Aptitude - Damage against Mechanicals increased by 15%.\nKneecapper - Damage against Giants increased by 15%.\nFire and Water - Damage against Elementals increased by 15%.\n28 Chapters Later - Damage against Undead increased by 15%.",
 			-- #endif
 			["timeline"] = { ADDED_4_0_3, DELETED_5_0_4 },
 		}),
@@ -1028,13 +1017,25 @@ Fire and Water - Damage against Elementals increased by 15%.
 		}),
 		-- #endif
 		filter(GLYPHS, {
-			-- #if AFTER WOD
-			i(43335, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of the Wild / Glyph of Charm Woodland Creature[MOP+]
-			i(43390, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Drain Soul / Glyph of Soul Consumption[MOP+]
-			i(43334, {["timeline"]={ADDED_3_0_2}}),		-- Glyph of Challenging Roar / Glyph of the Ursol Chameleon[MOP+]
-			i(41540, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Strength of Earth Totem / Glyph of Lava Lash[3.0.3+]
-			i(45768, {["timeline"]={ADDED_3_1_0}}),	-- Glyph of Mutilate / Glyph of Disguise[MOP+]
-			i(45776, {["timeline"]={ADDED_3_1_0,REMOVED_7_0_3}}),	-- Glyph of Totem of Wrath / Glyph of Shamanistic Rage[CATA+]
+			i(43390, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Drain Soul / Glyph of Soul Consumption [MOP+]
+			i(41540, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Strength of Earth Totem / Glyph of Lava Lash [3.0.3+]
+			i(43335, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of the Wild / Glyph of Charm Woodland Creature [MOP+]
+			i(45776, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Totem of Wrath / Glyph of Shamanistic Rage [CATA+]
+			--
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: These glyphs were vanilla crafts on retail until an unknown point after MoP.
+			i(45768, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Disguise [MOP+] / Glyph of Mutilate
+			i(43334, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of the Ursol Chameleon [MOP+] / Glyph of Challenging Roar
+			--
+			-- Danny Donkey: These glyphs were WotLK crafts on retail until an unknown point after MoP.
+			i(87881, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Crackling Tiger Lightning
+			i(42751, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Crittermorph [MOP+] / Glyph of Molten Armour
+			i(49084, {["timeline"]={ ADDED_3_2_0 }}),					-- Glyph of Thunder Strike [MOP+] / Glyph of Command
+			--
+			-- Danny Donkey: These glyphs were MoP crafts on retail until an unknown point after MoP.
+			i(80588, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Burning Anger
+			i(87392, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Shadowy Friends
+			i(79538, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Heavens
 			-- #endif
 		}),
 		filter(HELD_IN_OFF_HAND, {

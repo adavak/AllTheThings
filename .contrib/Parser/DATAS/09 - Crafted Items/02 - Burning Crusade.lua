@@ -408,7 +408,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Dust:
 			i(22445, {	-- Arcane Dust
 				-- #if AFTER 9.0.1
-				["description"] = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills within the ilvl bracket 31-32.",
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills at ilvl 130 (unscaled).",
 				-- #elseif BEFORE WOD
 				["description"] = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills within the ilvl bracket 87-120.",
 				-- #endif
@@ -416,14 +416,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Essences:
 			i(22446, {	-- Greater Planar Essence
 				-- #if AFTER 9.0.1
-				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 31-32, except shields and off-hand frills.",
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons at ilvl 130 (unscaled), except shields and off-hand frills.",
 				-- #elseif BEFORE WOD
 				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 102-120, except shields and off-hand frills.",
 				-- #endif
 			}),
 			i(22447, {	-- Lesser Planar Essence
 				-- #if AFTER 9.0.1
-				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 29-31, except shields and off-hand frills.",
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons at ilvl 130 (unscaled), except shields and off-hand frills. This gives you Greater Planar Essence which you then have to split into Lesser Planar Essence.",
 				-- #elseif BEFORE WOD
 				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 80-98, except shields and off-hand frills.",
 				-- #endif
@@ -431,21 +431,21 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Shards and crystals:
 			i(22449, {	-- Large Prismatic Shard
 				-- #if AFTER 9.0.1
-				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 31-32.",
+				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear at ilvl 140 (unscaled).",
 				-- #elseif BEFORE WOD
 				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 100-115.",
 				-- #endif
 			}),
 			i(22448, {	-- Small Prismatic Shard
 				-- #if AFTER 9.0.1
-				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 29-31.",
+				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear at ilvl 140 (unscaled). This gives you Large Prismatic Shard which you then have to split into Small Prismatic Shard by crafting. Requires skill level 35 to learn from trainer.",
 				-- #elseif BEFORE WOD
 				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 68-97.",
 				-- #endif
 			}),
 			i(22450, {	-- Void Crystal
 				-- #if AFTER 9.0.1
-				["description"] = "Obtained from disenchanting all epic (purple) quality TBC gear within the ilvl bracket 31-34.",
+				["description"] = "Obtained from disenchanting all epic (purple) quality TBC gear at ilvl 142 (unscaled).",
 				-- #elseif BEFORE WOD
 				["description"] = "Obtained from disenchanting all epic (purple) quality TBC gear within the ilvl bracket 100-141.",
 				-- #endif
@@ -507,7 +507,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(22460),	-- Prismatic Sphere
 			i(22521),	-- Superior Mana Oil
 			i(22522),	-- Superior Wizard Oil
-			i(22459),	-- Void Sphere
+			i(22459, {	-- Void Sphere
+				["description"] = "This craft have a 48 hours cooldown.",
+			}),
 		}),
 		filter(PROFESSION_EQUIPMENT, sharedDataSelf({ ["timeline"] = { REMOVED_5_0_4 }}, {
 			i(22462),	-- Runed Adamantite Rod
@@ -1260,16 +1262,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(43124),	-- Ethereal Ink
 		}),
 		-- Non-reagent crafts:
-		-- #if AFTER WOD
 		filter(GLYPHS, {
-			i(42743, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Ice Armor / Glyph of Pyroblast[CATA] / Glyph of Momentum[MOP+]
-			i(43316, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Aquatic Form
-			i(43368, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Sense Undead / Glyph of Truth[CATA] / Glyph of Seal of Blood[MOP+]
-			i(42461, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Health Funnel
-			i(42908, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Immolation Trap / Glyph of Explosive Trap[MOP+]
-			i(43378, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Safe Fall
+			i(42743, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Ice Armor / Glyph of Pyroblast[CATA] / Glyph of Momentum[MOP+]
+			i(43316, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Aquatic Form
+			i(43368, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Sense Undead / Glyph of Truth[CATA] / Glyph of Seal of Blood[MOP+]
+			i(42461, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Health Funnel
+			i(42908, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Immolation Trap / Glyph of Explosive Trap[MOP+]
+			i(43378, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Safe Fall
+			-- #if ANYCLASSIC
+			-- Danny Donkey: These glyphs became vanilla crafts on retail at an unknown point after MoP
+			i(43535, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Blood Tap / Glyph of the Geist [MOP+]
+			i(43400, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Enduring Victory / Glyph of Mighty Victory [MOP+]
+			i(43551, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Scourge Strike / Glyph of Foul Menagerie [MOP+]
+			-- #endif
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: These glyphs were WotLK crafts on retail until an unknown point after MoP.
+			i(42459, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Felguard
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104120,{["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of the Sha
+			-- #endif
 		}),
-		-- #endif
 		filter(HELD_IN_OFF_HAND, {
 			i(43667),	-- Book of Clever Tricks
 			i(43666),	-- Hellfire Tome

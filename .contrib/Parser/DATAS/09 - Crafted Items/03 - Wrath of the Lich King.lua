@@ -1260,19 +1260,38 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(43127),	-- Snowfall Ink
 		}),
 		-- Non-reagent crafts:
-		-- #if AFTER WOD
 		filter(GLYPHS, {
-			i(42736, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Arcane Explosion
-			i(42898, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Arcane Shot / Glyph of Camouflage[MOP+]
-			i(40919, {	-- Glyph of Insect Swarm / Glyph of the Orca[MOP+] / Mark of the Orca[SL+] (CI!)
-				["timeline"]={ ADDED_3_0_2 },
-			}),
-			i(167539, {["timeline"] = {ADDED_8_1_5}}),	-- Glyph of Dalaran Brilliance
-			i(44922, {	-- Glyph of Typhoon / Glyph of Stars[WOD?+]
-				["timeline"]={ ADDED_3_0_2 },
-			}),
+			i(149755, {["timeline"]={ ADDED_7_2_5 }}),					-- Glyph of Angels
+			-- Danny Donkey: Glyph of Angels had a different ID and was a MoP craft until it got removed with 7.0.3.
+			i(42736, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Arcane Explosion
+			i(42898, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Arcane Shot / Glyph of Camouflage [MOP+]
+			i(167539, {["timeline"] ={ ADDED_8_1_5 }}),					-- Glyph of Dalaran Brilliance
+			i(87888, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Fighting Pose
+			i(44922, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Typhoon / Glyph of Stars[WOD?+]
+			--
+			-- #if ANYCLASSIC
+			-- Danny Donkey: This glyph became a vanilla craft on retail at an unknown point after MoP
+			i(43394, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Souls [WotLK] / Glyph of Ritual of Souls [CATA] / Glyph of Soulwell [MOP+]
+			-- 
+			-- Danny Donkey: This glyph became a TBC craft on retail at an unknown point after MoP
+			i(42459, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Felguard
+			--
+			-- Danny Donkey: These glyphs became Cata crafts on retail at an unknown point after MoP:
+			i(49084, {["timeline"]={ ADDED_3_2_0 }}),					-- Glyph of Command / Glyph of Thunder Strike [MOP+]
+			i(87881, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Crackling Tiger Lightning
+			i(42751, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Molten Armour / Glyph of Crittermorph [MOP+]
+			-- #endif
+			--
+			-- #if AFTER MOP
+			-- Danny Donkey: This glyph was a vanilla craft prior to MoP.
+			i(40919, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of the Orca [MOP+] / Glyph of Insect Swarm
+			-- #endif
+			--
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: This glyph was a MoP craft on retail until an unknown point after MoP.
+			i(87883, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Honor
+			-- #endif
 		}),
-		-- #endif
 		filter(HELD_IN_OFF_HAND, {
 			i(44210),	-- Faces of Doom
 			i(38322),	-- Iron-Bound Tome

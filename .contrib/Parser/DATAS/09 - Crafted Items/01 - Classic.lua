@@ -4825,10 +4825,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(87891, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Afterlife
 			i(42897, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Aimed Shot / Glyph of Aspects [MOP+]
 			i(43316, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Aquatic Form
-			i(104109,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Angels
-			-- #endif
-			i(149755,{["timeline"]={ ADDED_7_2_5 }}),					-- Glyph of Angels (again)
-			-- #if BEFORE LEGION
 			i(44955, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Arcane Blast / Glyph of Arcane Power [MOP+]
 			i(43339, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Arcane Intellect / Glyph of the Porcupine [MOP+]
 			i(42735, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Arcane Missiles / Glyph of Loose Mana [MOP]
@@ -4837,7 +4833,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(85683, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Aspect of the Beast
 			i(42900, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Aspect of the Monkey / Glyph of Mending [3.1.0+]
 			i(42901, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Aspect of the Viper / Glyph of Concussive Shot [CATA] / Glyph of Distracting Shot [MOP+]
-			i(104133,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Astral Fixation
+			i(104133, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Astral Fixation
 			i(43381, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Astral Recall
 			i(41107, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Avenging Wrath / Glyph of the Ascetic Crusader [CATA] / Glyph of Harsh Words [MOP+]
 			i(42956, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Backstab / Glyph of Decoy [MOP+]
@@ -4861,7 +4857,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(80588, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Burning Anger
 			i(41517, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Chain Heal / Glyph of Unstable Earth [MOP+]
 			-- #endif
+			-- #if ANYCLASSIC
+			-- Danny Donkey: This glyph became a Cata craft on retail at an unknown point after MoP
 			i(43334, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Challenging Roar / Glyph of the Ursol Chameleon [MOP+]
+			-- #endif
 			-- #if BEFORE LEGION
 			i(45781, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Chaos Bolt / Glyph of Ember Tap [5.2.0+]
 			i(43397, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Charge / Glyph of Long Charge [CATA+]
@@ -4870,7 +4869,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(48720, {["timeline"]={ ADDED_3_2_0, REMOVED_6_0_2 }}),	-- Glyph of Claw / Glyph of Ferocious Bite
 			i(41104, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Cleansing / Glyph of Final Wrath [MOP+]
 			i(43414, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Cleaving / Glyph of Hindering Strikes [MOP+]
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104106,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Condensation
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104106, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Condensation
 			i(86541, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Confession
 			i(41099, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Consecration
 			i(42455, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Corruption / Glyph of Siphon Life [MOP+]
@@ -4889,9 +4888,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42904, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Disengage
 			i(42397, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Dispel Magic / Glyph of Purify [MOP+]
 			i(43376, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Distract
-			i(104050,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Divine Shield
-			i(104276,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Enduring Deceit
-			i(104053,{["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of Eternal Earth
+			i(104050, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Divine Shield
+			i(104276, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Enduring Deceit
+			i(104053, {["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of Eternal Earth
 			i(41108, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Divinity
 			i(43390, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Drain Soul / Glyph of Soul Consumption [MOP+]
 			-- #endif
@@ -4899,11 +4898,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(45775, {["timeline"]={ ADDED_3_1_0, REMOVED_8_1_0 }}),	-- Glyph of Earth Shield / Glyph of Deluge [MOP+]
 			-- #endif
 			-- #if BEFORE LEGION
-			i(104131,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Elemental Familiars
+			i(104131, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Elemental Familiars
 			i(85689, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Enduring Healing Sphere
 			i(40924, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Entangling Roots
 			-- #endif
-			--i(104105,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of Evaporation (Not ready to push glyphs yet.)
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: This glyph was a MoP craft on retail until an unknown point after MoP.
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104105, {["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of Evaporation
+			-- #endif
 			-- #if BEFORE LEGION
 			i(42960, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Evasion
 			i(42961, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Eviscerate / Glyph of Debilitation [MOP] / Glyph of Recovery [5.4.0+]
@@ -4916,18 +4918,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42458, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Fear
 			i(42399, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Fear Ward
 			i(43351, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Feign Death / Glyph of Fireworks [MOP+]
-			i(104049,{["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of Festering Blood
+			i(104049, {["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of Festering Blood
 			i(87393, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Fetch
 			i(41530, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Fire Nova Totem / Glyph of Fire Nova [3.3.0+]
 			i(87892, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Fists of Fury
 			i(41531, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Flame Shock
 			i(41532, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Flametongue Weapon / Glyph of Wind Shear [MOP+]
-			i(104129,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Flaming Serpent
+			i(104129, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Flaming Serpent
 			i(42400, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Flash Heal / Glyph of Inner Sanctum [MOP+]
 			-- #endif
 			-- #if NOT ANYCLASSIC
 			-- Danny Donkey: This glyph was a TBC craft on retail until an unknown point after MoP.
-			--i(43551, {["timeline"]={ ADDED_3_0_2 }}),	-- Glyph of Foul Menagerie [MOP+] (Not ready to push glyphs yet.)
+			i(43551, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Foul Menagerie [MOP+] / Glyph of Scourge Strike
 			-- #endif
 			-- #if BEFORE LEGION
 			i(87896, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Fortuitous Spheres
@@ -4950,7 +4952,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(41097, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Hammer of Wrath / Glyph of Templar's Verdict [MOP]
 			i(43417, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Hamstring / Glyph of Piercing Howl [CATA] / Glyph of Rude Interruption [MOP+]
 			i(104051,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Hand of Sacrifice
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104123,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Headhunting
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104123, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Headhunting
 			i(41533, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Healing Stream Totem
 			i(40914, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Healing Touch
 			i(42461, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Health Funnel
@@ -4958,9 +4960,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(43418, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Heroic Strike / Glyph of Heroic Throw [CATA] / Glyph of Gag Order [MOP+]
 			i(41106, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Holy Light / Glyph of Divine Favor [CATA] / Glyph of Illumination [MOP]
 			i(87276, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Holy Resurrection
-			-- #endif
-			i(87883, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Honor
-			-- #if BEFORE LEGION
 			i(42907, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Hunter's Mark / Glyph of Misdirection [CATA+]
 			i(42743, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Ice Armor / Glyph of Pyroblast [CATA] / Glyph of Momentum [MOP+]
 			i(42744, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Ice Block
@@ -4968,13 +4967,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42746, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Icy Veins
 			i(42908, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Immolation Trap / Glyph of Explosive Trap [MOP+]
 			i(42465, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Imp / Glyph of Imp Swarm [MOP+]
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104055,{["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }})),	-- Glyph of Impaling Throws
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104055, {["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }})),	-- Glyph of Impaling Throws
 			i(42909, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Improved Aspect of the Hawk / Glyph of the Hawk [3.1.0] / Glyph of the Dazzled Prey [CATA] / Glyph of Animal Bond [MOP+]
 			i(104124,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Improved Distraction
 			i(83096, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Incite
 			i(42402, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Inner Fire
 			-- #endif
-			i(40919, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Insect Swarm / Glyph of the Orca [MOP+] / Mark of the Orca [SL+]
+			-- #if BEFORE MoP
+			-- Danny Donkey: This glyph became a WotLK craft with MoP
+			i(40919, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Insect Swarm / Glyph of the Orca [MOP+]
+			-- #endif
 			i(104122,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of Inspired Hymns
 			-- #if BEFORE LEGION
 			i(87884, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Jab
@@ -4991,7 +4993,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(104127,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of Lingering Ancestors
 			-- #if BEFORE LEGION
 			i(45732, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Kill Shot / Glyph of Aspect of the Cheetah [MOP+]
-			i(104047,{["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of Loud Horn
+			i(104047, {["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of Loud Horn
 			i(42749, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Mage Armor / Glyph of Mana Gem [MOP+]
 			i(42750, {["timeline"]={ ADDED_3_0_2, REMOVED_4_0_3 }}),	-- Glyph of Mana Gem (Deleted with Cata - re-added in MoP using Glyph of Mage Armor spell ID)
 			i(85692, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Mana Tea
@@ -5000,6 +5002,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(40897, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Maul
 			-- #endif
 			i(43350, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Mend Pet / Glyph of Lesser Proportion [4.1.0+]
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: This glyph was a TBC craft on retail until an unknown point after MoP.
+			i(43400, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Mighty Victory [MOP+] / Glyph of Enduring Victory
+			-- #endif
 			-- #if BEFORE LEGION
 			i(42415, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Mind Flay / Glyph of Dispel Magic [MOP+]
 			i(79513, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Mind Flay
@@ -5010,26 +5016,29 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(40923, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Moonfire / Glyph of Savagery [MOP+]
 			i(42910, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Multi-Shot / Glyph of Silencing Shot [CATA] / Glyph of No Escape [MOP+]
 			-- #endif
+			-- #if ANYCLASSIC
+			-- Danny Donkey: This glyph became a Cata craft on retail at an unknown point after MoP
 			i(45768, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Mutilate / Glyph of Disguise [MOP+]
+			-- #endif
 			-- #if BEFORE LEGION
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104103,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of One with Nature
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104103, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of One with Nature
 			i(43422, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Overpower / Glyph of Die by the Sword [5.2.0+]
 			i(45760, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Pain Suppression / Glyph of Desperation [CATA+] / Glyph of Binding Heal [5.2.0+]
 			i(87897, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Path of Blossoms / Glyph of Glyph of Paralysis [5.2.0+]
 			i(43377, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Pick Lock
 			i(43343, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Pick Pocket
 			-- #endif
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104108,{["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of Pillar of Light
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104108, {["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of Pillar of Light
 			-- #if BEFORE LEGION
 			i(43354, {["timeline"]={ ADDED_3_0_2, REMOVED_4_0_1 }}),	-- Glyph of Possessed Strength
 			i(42408, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Power Word: Shield
 			i(42410, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Psychic Scream
-			i(104052,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Purging
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104134,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Rain of Frogs
+			i(104052, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Purging
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104134, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Rain of Frogs
 			i(43413, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Rapid Charge / Glyph of Enraged Speed [MOP+]
 			i(82345, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Rapid Rolling
 			i(40909, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Rebirth
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104048,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Regenerative Magic
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104048, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of Regenerative Magic
 			i(40913, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Rejuvenation
 			i(43423, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Rending / Glyph of Slam [CATA] / Glyph of Hamstring [MOP+]
 			i(42411, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Renew
@@ -5054,20 +5063,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42912, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Serpent Sting / Glyph of Tame Beast [MOP+]
 			-- #endif
 			i(43373, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Shackle Undead
+			i(77101, {["timeline"]={ ADDED_4_3_0 }}),					-- Glyph of Shadow
 			-- #if BEFORE MOP
 			i(42468, {["timeline"]={ ADDED_3_0_2, REMOVED_5_0_4 }}),	-- Glyph of Shadowburn
 			-- #endif
-			i(87392, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of Shadowy Friends
 			-- #if BEFORE LEGION
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104121,{["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }})),	-- Glyph of Shifted Appearances
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104121, {["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }})),	-- Glyph of Shifted Appearances
 			i(42972, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Sinister Strike / Glyph of Adrenaline Rush [MOP] / Glyph of Redirect [5.4.0+]
 			i(42973, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Slice and Dice / Glyph of Shiv [MOP+]
 			i(43364, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Slow Fall / Glyph of Arcane Language [MOP+]
 			i(42416, {["timeline"]={ ADDED_3_1_0, REMOVED_6_0_2 }}),	-- Glyph of Smite
 			-- #endif
-			--i(45789, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Soul Link / Glyph of Crimson Banish [MOP+] (Not ready to push glyphs yet.)
+			i(45789, {["timeline"]={ ADDED_3_1_0 }}),					-- Glyph of Soul Link / Glyph of Crimson Banish [MOP+]
 			-- #if BEFORE LEGION
 			i(42470, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Soulstone
+			-- #endif
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: This glyph was a WotLK craft on retail until an unknown point after MoP.
+			i(43394, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Soulwell [MOP+] / Glyph of Ritual of Souls [CATA] / Glyph of Souls [WotLK]
+			-- #endif
+			-- #if BEFORE LEGION
 			i(87898, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Sparring
 			i(85698, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Spinning Fire Blossom
 			i(85697, {["timeline"]={ ADDED_5_0_4, REMOVED_6_0_2 }}),	-- Glyph of Spinning Crane Kick
@@ -5075,7 +5090,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(104126,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of Spirit Raptors
 			-- #if BEFORE LEGION
 			i(87887, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Spirit Roll
-			i(104128,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Spirit Wolf
+			i(104128, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Spirit Wolf
 			i(41096, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Spiritual Attunement / Glyph of Divine Protection [CATA+]
 			i(42974, {["timeline"]={ ADDED_3_1_0, REMOVED_7_0_3 }}),	-- Glyph of Sprint
 			i(40916, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Starfire / Glyph of the Moonbeast [MOP] / Glyph of Guided Stars [5.4.0+] / Glyph of Untamed Stars [6.1.0+]
@@ -5083,7 +5098,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(41540, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of Strength of Earth Totem / Glyph of Lava Lash [WRATH+]
 			i(43427, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of Sunder Armor / Glyph of Hoarse Voice [MOP+]
 			i(85699, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of Surging Mist
-			i(104046,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Swift Death
+			i(104046, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of Swift Death
 			i(81956, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of the Battle Healer
 			i(43362, {["timeline"]={ CREATED_3_0_2, ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of the Bear Cub
 			-- #endif
@@ -5095,24 +5110,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(104107,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Exorcist
 			i(80584, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),	-- Glyph of the Falling Avenger
 			-- #endif
-			i(79538, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Heavens
+			-- #if NOT ANYCLASSIC
+			-- Danny Donkey: This glyph was a TBC craft on retail until an unknown point after MoP.
+			i(43535, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of the Geist [MOP+] / Glyph of Blood Tap
+			-- #endif
 			-- #if BEFORE LEGION
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104270,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of the Lean Pack
-			i(104101,{["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of the Long Winter
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104270, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of the Lean Pack
+			i(104101, {["timeline"]={ ADDED_5_4_0, REMOVED_6_0_2 }}),	-- Glyph of the Long Winter
 			i(43355, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of the Pack / Glyph of Aspect of the Pack [CATA+]
 			i(43361, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),	-- Glyph of the Penguin
-			i(104135,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Raging Whirlwind
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104137,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of the Watchful Eye
+			i(104135, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Raging Whirlwind
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104137, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }})),	-- Glyph of the Watchful Eye
 			-- #endif
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104120,{["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of the Sha
-			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104099,{["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of the Skeleton
+			-- #if ANYCLASSIC
+			-- Danny Donkey: This glyph became a TBC craft on retail at an unknown point after MoP
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104120, {["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of the Sha
+			-- #endif
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(104099, {["timeline"]={ ADDED_5_4_0 }})),	-- Glyph of the Skeleton
 			-- #if BEFORE LEGION
-			i(104102,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Sprouting Mushroom
-			i(104136,{["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Subtle Defender
+			i(104102, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Sprouting Mushroom
+			i(104136, {["timeline"]={ ADDED_5_4_0, REMOVED_7_0_3 }}),	-- Glyph of the Subtle Defender
 			-- #endif
-			i(104104,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of the Unbound Elemental
+			i(104104, {["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of the Unbound Elemental
 			i(87277, {["timeline"]={ ADDED_5_0_4 }}),					-- Glyph of the Val'kyr
-			i(104138,{["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of the Weaponmaster
+			i(104138, {["timeline"]={ ADDED_5_4_0 }}),					-- Glyph of the Weaponmaster
 			-- #if BEFORE LEGION
 			i(43335, {["timeline"]={ ADDED_3_0_2, REMOVED_7_0_3 }}),	-- Glyph of the Wild / Glyph of Charm Woodland Creature [MOP+]
 			-- #endif
