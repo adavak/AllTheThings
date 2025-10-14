@@ -162,9 +162,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 						}),
 						n(ACHIEVEMENTS, {
 							ach(14860),	-- Bare Necessities
-							ach(14851),	-- Bastion of Protection
+							ach(14851, {_noautomation=true}),	-- Bastion of Protection (specifically listed criteria under custom headers)
 							ach(14856),	-- Charmed, I'm Sure
-							ach(14865),	-- Disciple of Humility
+							ach(14865, {_noautomation=true}),	-- Disciple of Humility (specifically listed criteria under custom headers)
 							ach(14862, {	-- It's How You Wear It
 								crit(51087),	-- Herald's Footpads
 								crit(51088),	-- Deep Echo Trident
@@ -181,15 +181,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								crit(51085),	-- Ring of Warding
 								crit(51086),	-- Spiritforged Aegis
 							}),
-							ach(14861, {	-- Learning from the Masters
-								-- Added criteria here because else it somehow doesn't show everything linked under it
-								crit(51098),	-- Defeat Kalisthene as Pelagos
-								crit(51097),	-- Defeat Kalisthene as Kleia
-								crit(51099),	-- Defeat Kalisthene as Mikanikos
-								crit(51100),	-- Defeat Athanos as Pelagos
-								crit(51101),	-- Defeat Athanos as Kleia
-								crit(51102),	-- Defeat Athanos as Mikanikos
-							}),
+							ach(14861, {_noautomation=true}),	-- Learning from the Masters (specifically listed criteria under custom headers)
 							ach(14866, {	-- Master of the Path
 								crit(51134),	-- Kalisthene
 								crit(51135),	-- Echthra
@@ -202,8 +194,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								crit(51142),	-- Athanos
 								crit(51143),	-- Azaruux
 							}),
-							ach(14502),	-- Pursuing Loyalty
-							ach(14852),	-- The Hoot of the Issue
+							ach(14502, {_noautomation=true}),	-- Pursuing Loyalty (specifically listed criteria under custom headers)
+							ach(14852, {_noautomation=true}),	-- The Hoot of the Issue (specifically listed criteria under custom headers)
 							ach(14887, {	-- To the Moon
 								["description"] = "You need to |cffffffff/wave|r at Athanos after he 'waves goodbye to you' while you are falling off the edge.\n\nAllowing 'Massive Charge' to hit, pick up, and drop you over the edge is very consistent for getting him to wave since he doesn't use another ability immediately afterwards.",
 							}),
