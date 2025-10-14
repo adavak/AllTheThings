@@ -25,6 +25,11 @@ namespace ATT
             /// </summary>
             private static readonly IDictionary<string, ObjectData> OBJECT_CONSTRUCTORS = new Dictionary<string, ObjectData>();
 
+            private static readonly IDictionary<Type, Func<decimal, IDictionary<string, object>, decimal>> TYPE_KEY_VALUE_ADJUSTS = new Dictionary<Type, Func<decimal, IDictionary<string, object>, decimal>>()
+            {
+                { typeof(CriteriaData), (criteriaID, data) => criteriaID + (data.TryGetValue("achID", out long achID) ? achID : 0).AsSubDecimalShift() },
+            };
+
             /// <summary>
             /// Create an object data container.
             /// </summary>
@@ -118,6 +123,13 @@ namespace ATT
                     {
                         objectData = objectType;
                         objKeyValue = numericKey;
+
+                        // special cases where the object type is not the most significant by itself
+                        // TODO: cannot do this sort of thing yet since we have a lot of merge logic which 'manually' determines matching values of extra keys in the data
+                        //if (TYPE_KEY_VALUE_ADJUSTS.TryGetValue(objectType.GetType(), out var adjustFunc))
+                        //{
+                        //    objKeyValue = adjustFunc(numericKey, data);
+                        //}
                         return true;
                     }
                     // otherwise allow any object type to suffice
@@ -130,6 +142,25 @@ namespace ATT
                 objectData = default;
                 objKeyValue = default;
                 return false;
+            }
+
+            /// <summary>
+            /// Possibly temporary function that resolves a 'more-specific' key value of a given Data based on the known ObjectData Type
+            /// </summary>
+            /// <param name="objectData"></param>
+            /// <param name="data"></param>
+            /// <returns></returns>
+            public static decimal GetAdjustedTypeKeyValue(ObjectData objectData, IDictionary<string, object> data)
+            {
+                if (data.TryGetValue(objectData.ObjectType, out decimal numericKey))
+                {
+                    if (TYPE_KEY_VALUE_ADJUSTS.TryGetValue(objectData.GetType(), out var adjustFunc))
+                    {
+                        return adjustFunc(numericKey, data);
+                    }
+                    return numericKey;
+                }
+                return 0;
             }
 
             /// <summary>
