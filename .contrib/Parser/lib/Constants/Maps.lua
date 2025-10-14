@@ -568,7 +568,7 @@ VOIDSTORM = 15458; -- Maybe 16648
 ZULAMAN_MID = 2437;
 ISLE_OF_FANGS = 2537;	-- Alex: probably won't be up until 0.5/0.7/1.0, on right side of Zul'Aman map.
 
-ARCANTINA = 2541,
+ARCANTINA = 2541
 
 ATAL_AMAN = 16556;
 COLLEGIATE_CALAMITY = 16545;
