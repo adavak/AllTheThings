@@ -98,12 +98,14 @@ namespace ATT
             /// <summary>
             /// Allows capturing various objects which should be merged-into the sub-content of another object
             /// </summary>
-            public static IDictionary<string, Dictionary<decimal, List<IDictionary<string, object>>>> PostProcessMergeIntos { get; } = new Dictionary<string, Dictionary<decimal, List<IDictionary<string, object>>>>();
+            public static ConcurrentDictionary<string, ConcurrentDictionary<decimal, ConcurrentDataList>> PostProcessMergeIntos { get; }
+                = new ConcurrentDictionary<string, ConcurrentDictionary<decimal, ConcurrentDataList>>();
 
             /// <summary>
             /// Used to track what actual key/keyValues were used to merge data
             /// </summary>
-            private static IDictionary<string, HashSet<decimal>> PostProcessMergedKeyValues { get; } = new Dictionary<string, HashSet<decimal>>();
+            private static ConcurrentDictionary<string, ConcurrentHashSet<decimal>> PostProcessMergedKeyValues { get; }
+                = new ConcurrentDictionary<string, ConcurrentHashSet<decimal>>();
 
             /// <summary>
             /// Set of fields which when present in a group will prevent the merging in/out of that group to the associated DB containers,
@@ -623,16 +625,13 @@ namespace ATT
 
                 // data.DataBreakPoint("criteriaID", 32891);
 
-                if (!PostProcessMergeIntos.TryGetValue(key, out Dictionary<decimal, List<IDictionary<string, object>>> typeObjects))
-                    PostProcessMergeIntos[key] = typeObjects = new Dictionary<decimal, List<IDictionary<string, object>>>();
-
-                if (!typeObjects.TryGetValue(keyValue, out List<IDictionary<string, object>> mergeObjects))
-                    typeObjects[keyValue] = mergeObjects = new List<IDictionary<string, object>>();
+                var typeObjects = PostProcessMergeIntos.GetOrAdd(key, _ => new ConcurrentDictionary<decimal, ConcurrentDataList>());
+                var mergeObjects = typeObjects.GetOrAdd(keyValue, _ => new ConcurrentDataList());
 
                 //LogDebug($"Post Process Merge Added: {key}:{keyValue}", data);
-                // Processing on groups happens IN REVERSE so if we are adding content to be post-merged during that pass
-                // we will order them backwards as well so that when they are merged into the respective groups they are ordered as originally Sourced
-                mergeObjects.Insert(0, data);
+                // Processing on groups happens IN PARALLEL so if we are adding content to be post-merged during that pass
+                // we will order them based on their keyvalue to ensure consistency between parses
+                mergeObjects.Add(new Dictionary<string, object>(data));
             }
 
             /// <summary>
@@ -647,7 +646,7 @@ namespace ATT
                 if (data.ContainsAnyKey(MergeRestrictedFields))
                     return;
 
-                // data.DataBreakPoint("_DEBUG", true);
+                // data.DataBreakPoint("achID", 40103);
                 // questID : { 123, [ obj1, obj2, obj3 ] }
                 // questID:123
                 // get the appropriate merge objects for this data based on the matching keys
@@ -663,7 +662,7 @@ namespace ATT
                         continue;
 
                     // Determine the set of mergeObjects to merge into this data
-                    List<IDictionary<string, object>> mergeObjects = null;
+                    ConcurrentDataList mergeObjects = null;
 
                     // does this data contain the matching field
                     if (!(data.TryGetValue(key, out decimal keyValue)
@@ -772,10 +771,7 @@ namespace ATT
 
             internal static void TrackPostProcessMergeKey(string key, decimal value)
             {
-                if (!PostProcessMergedKeyValues.TryGetValue(key, out HashSet<decimal> keyValues))
-                {
-                    PostProcessMergedKeyValues[key] = keyValues = new HashSet<decimal>();
-                }
+                var keyValues = PostProcessMergedKeyValues.GetOrAdd(key, _ => new ConcurrentHashSet<decimal>());
 
                 //LogDebug($"Post Process MergeInto Performed: {key}:{value}");
                 keyValues.Add(value);
@@ -785,11 +781,11 @@ namespace ATT
             {
                 foreach (var keyGroup in PostProcessMergedKeyValues)
                 {
-                    if (PostProcessMergeIntos.TryGetValue(keyGroup.Key, out Dictionary<decimal, List<IDictionary<string, object>>> keyValueDatas))
+                    if (PostProcessMergeIntos.TryGetValue(keyGroup.Key, out ConcurrentDictionary<decimal, ConcurrentDataList> keyValueDatas))
                     {
                         foreach (var keyGroupValue in keyGroup.Value)
                         {
-                            keyValueDatas.Remove(keyGroupValue);
+                            keyValueDatas.TryRemove(keyGroupValue, out _);
                         }
                     }
                 }
