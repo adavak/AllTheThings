@@ -67,15 +67,12 @@ namespace ATT
                 foreach (var replaceCount in replacementOrder)
                 {
                     replacements.Add($"a[{++count}]", replaceCount.Key);
-                    Framework.LogDebugFormatted("Added replacement: $1 : $2", replaceCount.Key, replaceCount.Value);
                 }
 
                 // capture containers in a sorted list for processing, without affecting export order
                 List<StringBuilder> processingOrder = new List<StringBuilder>(splitBuilders);
                 // longest containers first for most processing time
                 processingOrder.Sort((a, b) => { return b.Length - a.Length; });
-
-                Framework.LogDebug(string.Concat(Enumerable.Range(1, processingOrder.Count * 2).Select(n => "-")));
 
                 // Perform replacements on all small StringBuilders in parallel tasks
                 Task[] replacementTasks = new Task[splitBuilders.Count];
@@ -99,14 +96,10 @@ namespace ATT
 
         private static void ReplaceStringBuilderContent(StringBuilder builder, IEnumerable<KeyValuePair<string, string>> replacements)
         {
-            if (Framework.DebugLogging)
-                Trace.Write("<");
             foreach (var pair in replacements)
             {
                 builder.Replace(pair.Value, pair.Key);
             }
-            if (Framework.DebugLogging)
-                Trace.Write(">");
         }
 
         /// <summary>
