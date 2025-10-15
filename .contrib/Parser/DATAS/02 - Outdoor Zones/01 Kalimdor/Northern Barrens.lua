@@ -4741,12 +4741,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(ZONE_DROPS, {
 				i(5107, {	-- Deckhand's Shirt
 					-- #if AFTER 4.0.3
-					["description"] = "Incredibly rare drop from Fray Island.",
+					["description"] = "Previously dropping in Fray Island, it is currently considered unobtainable.",
 					-- #else
-					["description"] = "While technically this shirt does still drop in retail, the drop rate is reduced from fairly common to 1 in 12k with the Cataclysm. For the purposes of collecting, get it now and stock up on extras!",
+					["description"] = "This shirt is expected to become unobtainable with Cataclysm. For the purposes of collecting, get it now and stock up on extras!",
 					-- #endif
-					["timeline"] = { REMOVED_4_0_3 },	-- Likely Removed -- 13th May 2025 -- Goldenshacal
-														-- If somebody gets it, we can remove the timeline & set a note here since people are asking every couple months
+					["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },	-- Likely Removed -- 13th May 2025 -- Goldenshacal
+																	-- If somebody gets it, we can remove the timeline & set a note here since people are asking every couple months
 					["crs"] = {
 						-- #if BEFORE 4.0.3
 						3381,	-- Southsea Brigand
