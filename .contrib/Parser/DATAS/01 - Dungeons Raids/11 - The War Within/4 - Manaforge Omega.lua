@@ -531,6 +531,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						q(91482, { ["timeline"] = { ADDED_11_2_0 } }),	-- Speed Siphoner II
 						q(91478, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines III
 					}, {	-- RENOWN 11 --
+						q(91528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Horrors of the Forge
 					}, {	-- RENOWN 12 --
 					}, {	-- RENOWN 13 --
 						i(244913),	-- Looker Gaz'kreth Jr. (PET!)
