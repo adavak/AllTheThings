@@ -5591,6 +5591,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						i(234907, {	-- Tattered Iron Horde Tabard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
+						i(250777, {	-- Time-Lost Bite of the Frostwolves
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_2_5 },
+						}),
 						i(244726, {	-- Time-Lost Sight of the Shadowmoon
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 3000 }},
 							["timeline"] = { ADDED_11_1_7 },
@@ -5808,6 +5812,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						}),
 						i(234907, {	-- Tattered Iron Horde Tabard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+						}),
+						i(250777, {	-- Time-Lost Bite of the Frostwolves
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_2_5 },
 						}),
 						i(244726, {	-- Time-Lost Sight of the Shadowmoon
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 3000 }},

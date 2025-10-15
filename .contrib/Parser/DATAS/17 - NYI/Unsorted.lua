@@ -365,7 +365,6 @@ root(ROOTS.Unsorted, {
 			i(250727),	-- Reins of the Nightwell Manasaber (MOUNT!)
 			i(250741),	-- Puzzling Cartel Chip
 			i(250762),	-- Felfueled Memento of the Abyss
-			i(250777),	-- Time-Lost Bite of the Frostwolves
 			i(250778),	-- Steel Food Fanatic Shield
 			i(250779),	-- Golden Food Fanatic Shield
 			i(250780),	-- Bronze Food Fanatic Shield

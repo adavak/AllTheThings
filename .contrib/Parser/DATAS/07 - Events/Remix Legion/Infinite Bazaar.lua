@@ -1106,9 +1106,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}),
 					}),
 					filter(CONSUMABLES, {
+						i(254849, {	-- Minor Bronze Cache
+							["description"] = "Becomes available after purchasing 'Hammer of Vigilance'.\n\nContains 2500 Bronze.",
+							["cost"] = {{ "i", 253305, 5 }},	-- 5x Felwarped Slab
+						}),
 						i(254850, {	-- Minor Bronze Cache
 							["description"] = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
-							["cost"] = {{ "i", 242370, 5 }},	-- Horns of the First Satyr
+							["cost"] = {{ "i", 242370, 5 }},	-- 5x Horns of the First Satyr
 						}),
 					}),
 				}),

@@ -1026,6 +1026,7 @@ MobileDB.GameObject = {
 	[245327] = true,	-- Kel'danath's Notes (q:40326)
 	[245340] = true,	-- Throne of Ordering Around
 	[245350] = true,	-- Shipwrecked Supplies (q:40050)
+	[245361] = true,	-- Valarjar Spoils (Halls of Valor)
 	[245483] = true,	-- Tidestone Shard (q:37469)
 	[245484] = true,	-- Tidestone Shard (q:37469)
 	[245485] = true,	-- Tidestone Shard (q:37469)
