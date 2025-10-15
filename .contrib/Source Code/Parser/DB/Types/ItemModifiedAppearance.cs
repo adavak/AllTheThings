@@ -24,7 +24,7 @@ namespace ATT.DB.Types
         {
             get
             {
-                switch (ID)
+                switch (ItemAppearanceModifierID)
                 {
                     // L
                     case 4:

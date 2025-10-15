@@ -3224,61 +3224,60 @@ namespace ATT
 
         private static void Incorporate_Item_TransmogSetItems(IDictionary<string, object> data, long tmogSetID)
         {
-            if (WagoData.TryGetTransmogSetAssociations(tmogSetID, out List<TransmogSetItem> transmogSetItems) && transmogSetItems.Count > 0)
+            if (!WagoData.TryGetTransmogSetAssociations(tmogSetID, out List<TransmogSetItem> transmogSetItems) || transmogSetItems.Count == 0)
             {
-                if (!data.TryGetValue("type", out string type) || !(type == "ensembleID" || type == "ensembleSpellID"))
-                {
-                    LogDebugWarn($"Valid Ensemble information not set as 'iensemble'/'sensemble'", data);
-                    return;
-                }
+                LogWarn($"Ensemble missing Wago TransmogSetItem record(s) for TransmogSetID {tmogSetID}", data);
+                return;
+            }
 
-                List<long> allSourceIDs = transmogSetItems.Select(i => i.ItemModifiedAppearanceID).ToList();
+            if (!data.TryGetValue("type", out string type) || !(type == "ensembleID" || type == "ensembleSpellID"))
+            {
+                LogDebugWarn($"Valid Ensemble information not set as 'iensemble'/'sensemble'", data);
+                return;
+            }
 
-                // check if other Ensembles have the same TrackingQuestID -- these seem to additionally be granted without relying on a nested SpellEffect trigger
-                if (data.TryGetValue("questID", out long questID) && !data.ContainsKey("_IgnoreSharedEnsembleByQuestID"))
+            List<long> allSourceIDs = transmogSetItems.Select(i => i.ItemModifiedAppearanceID).ToList();
+
+            // check if other Ensembles have the same TrackingQuestID -- these seem to additionally be granted without relying on a nested SpellEffect trigger
+            if (data.TryGetValue("questID", out long questID) && !data.ContainsKey("_IgnoreSharedEnsembleByQuestID"))
+            {
+                foreach (var sameQuestTransmogSet in WagoData.GetAll<TransmogSet>().Values.Where(s => s.TrackingQuestID == questID && s.ID != tmogSetID))
                 {
-                    foreach (var sameQuestTransmogSet in WagoData.GetAll<TransmogSet>().Values.Where(s => s.TrackingQuestID == questID && s.ID != tmogSetID))
+                    if (!WagoData.TryGetTransmogSetAssociations(sameQuestTransmogSet.ID, out List<TransmogSetItem> additionalTmogSetItems) || additionalTmogSetItems.Count < 1)
                     {
-                        if (!WagoData.TryGetTransmogSetAssociations(sameQuestTransmogSet.ID, out List<TransmogSetItem> additionalTmogSetItems) || additionalTmogSetItems.Count < 1)
-                        {
-                            LogDebug($"INFO: Ensemble {tmogSetID} missing addtional Wago TransmogSetItem record(s) for TransmogSetID {sameQuestTransmogSet.ID}", data);
-                        }
-                        else
-                        {
-                            allSourceIDs.AddRange(additionalTmogSetItems.Select(i => i.ItemModifiedAppearanceID));
-                            LogDebug($"INFO: Ensemble {tmogSetID} has {additionalTmogSetItems.Count} addtional TransmogSetItem record(s) from TransmogSetID {sameQuestTransmogSet.ID}", data);
-                        }
+                        LogDebug($"INFO: Ensemble {tmogSetID} missing addtional Wago TransmogSetItem record(s) for TransmogSetID {sameQuestTransmogSet.ID}", data);
+                    }
+                    else
+                    {
+                        allSourceIDs.AddRange(additionalTmogSetItems.Select(i => i.ItemModifiedAppearanceID));
+                        LogDebug($"INFO: Ensemble {tmogSetID} has {additionalTmogSetItems.Count} addtional TransmogSetItem record(s) from TransmogSetID {sameQuestTransmogSet.ID}", data);
                     }
                 }
-
-                // Remove any added SourceIDs which don't actually exist in the ItemModifiedAppearance DB
-                allSourceIDs.RemoveAll(id =>
-                {
-                    if (!WagoData.ContainsKey<ItemModifiedAppearance>(id))
-                    {
-                        LogDebugWarn($"Removing SourceID {id} from TransmogSet {tmogSetID} since it does not exist in ItemModifiedAppearanceDB");
-                        return true;
-                    }
-                    return false;
-                });
-
-                Objects.Merge(data, "_sourceIDs", allSourceIDs);
-                TrackIncorporationData(data, "_sourceIDs", allSourceIDs);
-                LogDebug($"INFO: Ensemble {type} with TransmogSet {tmogSetID} merged {allSourceIDs.Count} SourceIDs", data);
-
-                //foreach (long sourceID in )
-                //{
-                //    Items.DetermineItemID(itemData);
-                //    // since we may determine an itemID for this data after the ConditionalMerge phase
-                //    // we need to apply that logic to this data specifically as well
-                //    DataConditionalMerge(itemData);
-                //    Objects.Merge(data, "g", itemData);
-                //}
             }
-            else
+
+            // Remove any added SourceIDs which don't actually exist in the ItemModifiedAppearance DB
+            allSourceIDs.RemoveAll(id =>
             {
-                LogDebugWarn($"Ensemble missing Wago TransmogSetItem record(s) for TransmogSetID {tmogSetID}", data);
-            }
+                if (!WagoData.ContainsKey<ItemModifiedAppearance>(id))
+                {
+                    LogDebugWarn($"Removing SourceID {id} from TransmogSet {tmogSetID} since it does not exist in ItemModifiedAppearanceDB");
+                    return true;
+                }
+                return false;
+            });
+
+            Objects.Merge(data, "_sourceIDs", allSourceIDs);
+            TrackIncorporationData(data, "_sourceIDs", allSourceIDs);
+            LogDebug($"INFO: Ensemble {type} with TransmogSet {tmogSetID} merged {allSourceIDs.Count} SourceIDs", data);
+
+            //foreach (long sourceID in )
+            //{
+            //    Items.DetermineItemID(itemData);
+            //    // since we may determine an itemID for this data after the ConditionalMerge phase
+            //    // we need to apply that logic to this data specifically as well
+            //    DataConditionalMerge(itemData);
+            //    Objects.Merge(data, "g", itemData);
+            //}
         }
 
         private static void Incorporate_Item(IDictionary<string, object> data)
