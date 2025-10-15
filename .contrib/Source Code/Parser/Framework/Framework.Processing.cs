@@ -718,7 +718,7 @@ namespace ATT
                 // Store the parent relationship
                 data["__parent"] = parentData;
 
-                // Add this data to the necessary Handlers for the current Parse Stage even if it is not actually included in export (Retail Objectives, etc.)
+                // Add this data to the necessary Handlers for the current Parse Stage
                 AddDataForHandlers(data);
 
                 // If this container has an aqd or hqd, then process those objects as well.
@@ -3169,53 +3169,39 @@ namespace ATT
             // convert extraTransmogSetItems into extraTransmogSetSpells if they exist
             if (data.TryGetValue("extraTransmogSetItems", out List<object> tmogsetItems))
             {
-                var convertedSpellIDs = new HashSet<object>();
+                List<object> add = new List<object>();
                 foreach (long subtmogsetItem in tmogsetItems.AsTypedEnumerable<long>())
                 {
-                    var ensembleItemData = Items.GetNull(subtmogsetItem);
-                    if (ensembleItemData.TryGetValue("spellID", out long spellID))
+                    // we will just use the SpellID as the EnsembleID since it's only used for logging if it's not an ItemID
+                    var nestedEnsemble = new Dictionary<string, object>
                     {
-                        if (!convertedSpellIDs.Add(spellID))
-                        {
-                            LogDebugWarn($"'extraTransmogSetItems' item {subtmogsetItem} has same spellID {spellID} as another item and was ignored", data);
-                        }
-                    }
-                    else
-                    {
-                        LogWarn($"'extraTransmogSetItems' item {subtmogsetItem} could not determine a spellID was ignored", data);
-                    }
-                }
+                        { "itemID", subtmogsetItem },
+                        { "type", "ensembleID" },
+                    };
 
-                if (convertedSpellIDs.Count > 0)
-                {
-                    if (data.TryGetValue("extraTransmogSetSpells", out List<object> existingSpells))
-                    {
-                        foreach (object existingSpell in existingSpells)
-                        {
-                            convertedSpellIDs.Add(existingSpell);
-                        }
-                    }
+                    // since adding a new Item group, run the prior expected logic against it
+                    DataConditionalMerge(nestedEnsemble, data);
 
-                    data["extraTransmogSetSpells"] = convertedSpellIDs.ToList();
+                    add.Add(nestedEnsemble);
                 }
+                Objects.Merge(data, "g", add);
             }
 
             // add additional ensemble spells as sub-groups of the Item Ensemble
             if (data.TryGetValue("extraTransmogSetSpells", out List<object> tmogsetSpells))
             {
+                List<object> add = new List<object>();
                 foreach (long subtmogsetSpell in tmogsetSpells.AsTypedEnumerable<long>())
                 {
                     // we will just use the SpellID as the EnsembleID since it's only used for logging if it's not an ItemID
-                    Dictionary<string, object> subEnsemble = new Dictionary<string, object>
+                    add.Add(new Dictionary<string, object>
                     {
                         { "ensembleSpellID", subtmogsetSpell },
                         { "type", "ensembleSpellID" },
                         { "spellID", subtmogsetSpell },
-                    };
-                    //Incorporate_Ensemble(subEnsemble);
-                    Objects.Merge(data, "g", subEnsemble);
-                    //AddPostProcessing(EnsembleCleanup, data);
+                    });
                 }
+                Objects.Merge(data, "g", add);
             }
 
             // don't incorporate ensemble again
