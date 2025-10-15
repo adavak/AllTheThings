@@ -509,6 +509,13 @@ i(0, 114765);		-- Virmen's Bite
 i(0, 136197);		-- Zen Alchemist Stone
 
 -----------------
+-- PATCH 5.5.0 --
+-----------------
+-- #if ANYCLASSIC
+i(247800, 1245411);	-- Venerable Potion of Invisibility
+-- #endif
+
+-----------------
 -- PATCH 6.0.2 --
 -----------------
 --- NYI ---
