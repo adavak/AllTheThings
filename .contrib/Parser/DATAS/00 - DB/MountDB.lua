@@ -172,7 +172,9 @@ i(1134, 459);		-- Gray Wolf
 i(8589, 10795);		-- Ivory Raptor
 i(8633, 10788);		-- Leopard
 i(23193, 29059);	-- Naxxramas Deathcharger[WRATH+] / Skeletal Steed
+-- #if BEFORE MID
 i(21736, 3363);		-- Nether Drake[TBC+] / Summon Riding Gryphon
+-- #endif
 i(8590, 10798);		-- Obsidian Raptor
 i(2413, 471);		-- Palamino Stallion [Item: Palomino]
 i(12325, 16058);	-- Primal Leopard
@@ -1740,7 +1742,6 @@ i(210145, 424611);	-- [PH] YellowBlack-Furred Bakar
 -- #if BEFORE 11.0.5
 i(211075, 428013);	-- Deathbringer's Shadowcycle
 -- #endif
-i(211086, 428065);	-- Jeweled Jade Scarab
 i(210140, 0);		-- [PH] Black-Furred Bakar
 
 ------------------
@@ -2189,7 +2190,7 @@ i(250928, 1251689);	-- Murky Turkey
 i(250929, 1251690);	-- Prized Turkey
 i(250191, 1250481);	-- Bilebound Ur'zul
 i(239647, 1229264);	-- Bloodguard Fel Bat
-i(253573, 1256677);	-- Cerulean Phase-Hunter
+i(253573, 1256677);	-- Cobalt Phase-Hunter
 i(250108, 1250288);	-- Cragstepper Crest-horn
 i(250106, 1250287);	-- Floestrider Crest-horn
 i(239686, 1229286);	-- Forgotten Fel Bat
@@ -2224,22 +2225,40 @@ i(262620, 1257058);	-- Calamitous Carrion
 i(262621, 1257081);	-- Convalescent Carrion
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
 i(246594, 1243003);	-- Light-Forged Mechsuit
+i(257504, 1261648);	-- Vicious Snaplizard [A]
+i(257502, 1261629);	-- Vicious Snaplizard [H]
 --- UNSORTED ---
 i(257157, 1261325);	-- [DNT] 12.0 Black Hawkstrider
 i(260231, 1265784);	-- [DNT] 12.0 White Hawkstrider
-i(250782, 1251433);	-- [DNT] Amani Eagle Orange
 i(0, 1252141);	-- [DNT] Jellyfish
 i(222988, 447173);	-- [PH] Firefly2Mount (Green)
 i(224148, 451487);	-- [PH] NerubianWarbeastMount (Cyan)
-i(250921, 1251665);	-- Amani Blessed Bear
+i(260896, 1267004);	-- Accented Pseudoshell
+i(257219, 1261357);	-- Amani Blessed Bear
+i(250782, 1251433);	-- Amani Sunfeather
 i(250889, 1251630);	-- Amani Windcaller
+i(260893, 1266993);	-- Arboreal Pseudoshell
+i(0, 1268949);	-- Arcanovoid Construct
 i(246590, 1242904);	-- Ashes of Belo'ren
+i(260894, 1266997);	-- Cabbage Pseudoshell
 i(252014, 1253929);	-- Cerulean Sporeglider
+i(260580, 1266579);	-- Cloudborn Razorwing
 i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider
+i(262496, 1268919);	-- Delver's Arcane Golem
 i(256424, 1260356);	-- Echo of Aln'sharan
+i(262502, 1268926);	-- Elven Arcane Guardian
 i(246734, 1243593);	-- Fierce Grimlynx
 i(257142, 1261291);	-- Fiery Dragonhawk
+i(211086, 428065);	-- Jeweled Jade Scarab
 i(242715, 1233516);	-- K'arroc Swiftwing
+i(260895, 1267002);	-- Lavender Pseudoshell
+i(260916, 3363);	-- Lost Nether Drake
 i(257191, 1261336);	-- Preyseeker's Hubris
 i(257192, 1261337);	-- Preyseeker's Wrath
+i(0, 1261579);	-- Ravenous Shredclaw
+i(252017, 1253938);	-- Ruddy Sporeglider
+i(260409, 1266248);	-- Savage Crimson Battle Turtle
+i(262500, 1268924);	-- Silvermoon's Arcane Defender
 i(0, 1238827);	-- Swift Spectral Dragonhawk
+i(260887, 1266980);	-- Tenebrous Harrower
+i(0, 1266702);	-- Voidbound Stormray

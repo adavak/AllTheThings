@@ -4488,6 +4488,10 @@ i(250138, 4877);	-- Violet Chick
 --- UNSORTED ---
 i(255151, 4906);	-- [DNT] Baby Amani Eagle (Grey)
 i(0, 4905);	-- [DNT] Baby Amazard (Red)
+i(260705, 4947);	-- Assistant Botanist Leafy
+i(0, 4945);	-- Aud'rei III
+i(0, 4952);	-- Blitzcreek
+i(260942, 4951);	-- Bubbly Snapling
 i(258739, 4914);	-- Chillcrawler
 i(260306, 4942);	-- Distorted Memory
 i(258189, 4910);	-- Do, child of Fi'lo
@@ -4495,16 +4499,28 @@ i(259224, 4928);	-- Dragonhawk Munchkin
 i(0, 4887);	-- Dundun
 i(246628, 4508);	-- Emerald Sporbit
 i(244339, 4816);	-- Hawkstrider Hatchling
+i(262395, 4959);	-- Hexed Bunny
+i(262393, 4955);	-- Kreepah'zoyd
 i(259991, 4930);	-- Lil' Preyseeker
+i(260585, 4946);	-- Linda the Lucky
+i(262396, 4957);	-- Lost Star
 i(250863, 4888);	-- Naloki
 i(251002, 4889);	-- Nether Familia
+i(262392, 4961);	-- Nibblesworth
 i(240840, 4803);	-- Niblet
+i(262391, 4958);	-- Ominous Dominus
 i(258903, 4927);	-- Percival
+i(260730, 4948);	-- Perturbed Sporebat
+i(260922, 4950);	-- Preyseeker's Immature Behemoth
 i(250141, 4881);	-- Purple Swamp Leech
 i(244911, 4830);	-- Rhay'Dahr
+i(262343, 4960);	-- Saka'saka
 i(232856, 4633);	-- Scruff
+i(262390, 4953);	-- Sporbie
+i(262342, 4956);	-- Spormilian
 i(251004, 3364);	-- Striped Snakebiter
 i(245544, 4851);	-- Tiny Snow Buddy
 i(259337, 4929);	-- Vermillion Grovecrawler
 i(221495, 4497);	-- Waddles
 i(251003, 4891);	-- Wrathful Wyrm
+i(262394, 4954);	-- Ziorg'pharon

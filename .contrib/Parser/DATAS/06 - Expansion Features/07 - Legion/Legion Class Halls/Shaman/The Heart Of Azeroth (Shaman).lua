@@ -521,8 +521,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 42470 },	-- Ma'haat the Indomitable
 						["coord"] = { 56.9, 14.2, DEEPHOLM },
 					}),
+					q(91621, {	-- A Taste For Blood (Remix)
+						["sourceQuests"] = { 42989 },	-- Ma'haat the Indomitable
+						["provider"] = { "n", 42470 },	-- Ma'haat the Indomitable
+						["coord"] = { 56.9, 14.2, DEEPHOLM },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+					}),
 					q(43003, {	-- Return to Janai
-						["sourceQuests"] = { 42995 },	-- A Taste For Blood
+						["sourceQuests"] = {
+							42995,	-- A Taste For Blood
+							91621,	-- A Taste For Blood (Remix)
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 42470 },	-- Ma'haat the Indomitable
 						["coord"] = { 56.9, 14.2, DEEPHOLM },
 					}),

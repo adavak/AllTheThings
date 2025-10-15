@@ -1522,9 +1522,11 @@ i(243146);	-- [DNT] Ren'dorei Struggle
 i(250974);	-- Akil'zon's Updraft
 i(251633);	-- Bursting Bounty Bundle
 i(242520);	-- Festival Hot Air Balloon
+i(259084);	-- Gift of the Cycle
 i(252265);	-- Hexed Potatoad Mucus
 i(243304);	-- Jubilant Snowman Costume
 i(250320);	-- Lightgraft
+i(262431);	-- Pocket Mushroom Jump Pad
 i(251903);	-- Potatoad Egg
 i(245580);	-- Rolling Snowball
 i(250319);	-- Shadowgraft
@@ -1533,3 +1535,6 @@ i(259240);	-- Sin'dorei Wine
 i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
 i(256552);	-- Verdant Rutaani Seed
 i(253629);	-- ??
+i(263198);	-- ??
+i(263244);	-- ??
+i(263489);	-- ??
