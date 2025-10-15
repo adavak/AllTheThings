@@ -163,8 +163,8 @@ local ZoneDropLoot = {
 
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, ZoneDropLoot)
-local Boss, BossOnly, Difficulty, CommonBossDrops, ZoneDrops =
-InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.CommonBossDrops, InstanceHelper.ZoneDrops
+local Boss, BossOnly, Difficulty, ZoneDrops =
+InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.ZoneDrops
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 	inst(768, {	-- The Emerald Nightmare
