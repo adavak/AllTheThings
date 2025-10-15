@@ -152,7 +152,7 @@ namespace ATT.FieldTypes
                             }
 
                             var item = Items.GetNull(costID);
-                            if (item == null || !Items.IsItemReferenced(costID))
+                            if (item == null || !TryGetSOURCED("itemID", costID, out _))
                             {
                                 // The item isn't Sourced in Retail version
                                 // Holy... there are actually a ton of these. Will Debug Log for now until they are cleaned up...

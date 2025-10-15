@@ -159,6 +159,12 @@ namespace ATT
                 }
             }
 
+            // take out the Uncollectible container as we will handle it specially
+            if (Objects.AllContainers.TryGetValue("Uncollectible", out List<object> uncollectible))
+            {
+                Objects.AllContainers.Remove("Uncollectible");
+            }
+
             // Define some common Handler Actions which can be performed in parallel for each Parse Stage
             if (!PreProcessorTags.Contains("OBJECTIVES"))
             {
@@ -249,6 +255,29 @@ namespace ATT
 
             // Build the Unsorted Container.
             CurrentParseStage = ParseStage.UnsortedGeneration;
+
+            // Mark Uncollectibles as referenced so they don't get added to Unsorted, or log if they're already
+            if (uncollectible != null)
+            {
+                foreach (object itemObj in uncollectible)
+                {
+                    if (itemObj is IDictionary<string, object> item)
+                    {
+                        // Capture references to specified Debug DB keys for Debug output
+                        CaptureDebugDBData(item);
+                        decimal itemID = Items.GetSpecificItemID(item);
+                        if (Items.IsItemReferenced(itemID))
+                        {
+                            LogDebug($"INFO: Item {itemID} is referenced and also included in Uncollectible.lua");
+                        }
+                        else
+                        {
+                            Items.MarkItemAsReferenced(itemID);
+                        }
+                    }
+                }
+            }
+
             List<object> listing;
             long requireSkill;
             if (!Objects.AllContainers.TryGetValue("Unsorted", out List<object> unsorted))
@@ -559,30 +588,6 @@ namespace ATT
         /// </summary>
         private static void AdditionalProcessing()
         {
-            // Mark uncollectibles & warn if Sourced
-            if (Objects.AllContainers.TryGetValue("Uncollectible", out List<object> objects))
-            {
-                foreach (object itemObj in objects)
-                {
-                    if (itemObj is IDictionary<string, object> item)
-                    {
-                        // Capture references to specified Debug DB keys for Debug output
-                        CaptureDebugDBData(item);
-                        decimal itemID = Items.GetSpecificItemID(item);
-                        if (Items.IsItemReferenced(itemID))
-                        {
-                            LogDebug($"INFO: Item {itemID} is referenced and also included in Uncollectible.lua");
-                        }
-                        else
-                        {
-                            Items.MarkItemAsReferenced(itemID);
-                        }
-                    }
-                }
-
-                Objects.AllContainers.Remove("Uncollectible");
-            }
-
             // Clean out any temporary containers
             string[] temporaryKeys = Objects.AllContainers.Keys.Where(k => k.StartsWith("_")).ToArray();
             temporaryKeys.All(k => Objects.AllContainers.Remove(k));
@@ -712,7 +717,7 @@ namespace ATT
             // handle the current processing against the data
             bool success = true;
 
-            //data.DataBreakPoint("_DEBUG", true);
+            // data.DataBreakPoint("_DEBUG", true);
             if (ProcessingFunction(data, parentData))
             {
                 // Store the parent relationship
@@ -898,7 +903,6 @@ namespace ATT
             Validate_General(data);
             Validate_Encounter(data);
             Validate_Criteria(data);
-            Validate_ReferencedIDs(data);
 
             // If this item has an "unobtainable" flag on it, meaning for a different phase of content.
             if (data.TryGetValue("u", out long phase))
@@ -1154,9 +1158,8 @@ namespace ATT
             Consolidate_altQuests(data);
             Consolidate_awprwp(data);
             CheckRequireSkill(data);
-
             Consolidate_ConflictingFields(data);
-
+            Consolidate_ReferencedIDs(data);
             Objects.AssignFactionID(data);
 
             List<string> removeKeys = new List<string>();
@@ -1211,7 +1214,6 @@ namespace ATT
             {
                 data.Remove(key);
             }
-
             Consolidate_TrackUsage(data);
         }
 
@@ -1551,7 +1553,7 @@ namespace ATT
             }
         }
 
-        private static void Validate_ReferencedIDs(IDictionary<string, object> data)
+        private static void Consolidate_ReferencedIDs(IDictionary<string, object> data)
         {
             if (data.TryGetValue("categoryID", out long categoryID))
                 ProcessCategoryObject(data, categoryID);
@@ -1579,6 +1581,60 @@ namespace ATT
                 FLIGHTPATHS_WITH_REFERENCES[flightpathID] = true;
             if (data.TryGetValue("objectID", out tempId))
                 OBJECTS_WITH_REFERENCES[tempId] = true;
+
+            // raw 'type' field on a 'header' are referenced
+            if (data.TryGetValue("headerID", out long headerID) && data.TryGetValue("type", out string type))
+            {
+                switch (type)
+                {
+                    case "i":
+                        Items.MarkItemAsReferenced(headerID);
+                        break;
+                    case "n":
+                        NPCS_WITH_REFERENCES[headerID] = true;
+                        break;
+                    case "o":
+                        OBJECTS_WITH_REFERENCES[headerID] = true;
+                        break;
+                }
+            }
+
+            // esnure Quest Items are referenced
+            if (data.TryGetValue("qis", out List<object> qis))
+            {
+                foreach (var qi in qis.AsTypedEnumerable<decimal>())
+                {
+                    Items.MarkItemAsReferenced(qi);
+                }
+            }
+
+            // ensure providers are referenced
+            if (data.TryGetValue("providers", out List<object> providersList) && providersList.Count > 0)
+            {
+                foreach (var provider in providersList.AsTypedEnumerable<List<object>>())
+                {
+                    if (!provider.TryConvert(out List<object> providerList) || providerList.Count != 2
+                        || (!providerList[0].TryConvert(out string pType))
+                        || (!providerList[1].TryConvert(out decimal pID)))
+                    {
+                        continue;
+                    }
+
+                    // validate that the referenced ID exists in this version of the addon
+                    switch (pType)
+                    {
+                        case "i":
+                            Items.MarkItemAsReferenced(pID);
+                            break;
+                        case "n":
+                            NPCS_WITH_REFERENCES[(long)pID] = true;
+                            break;
+                        case "o":
+                            OBJECTS_WITH_REFERENCES[(long)pID] = true;
+                            break;
+                    }
+                }
+            }
         }
 
         private static void Validate_IProcessedFields(IDictionary<string, object> data)
@@ -1599,23 +1655,6 @@ namespace ATT
             Validate_LocalizableData(data, "title");
             Validate_LocalizableData(data, "description");
             Validate_LocalizableData(data, "lore");
-
-            // raw 'type' field on a 'header' can denote required locale names
-            if (data.TryGetValue("headerID", out long headerID) && data.TryGetValue("type", out string type))
-            {
-                switch (type)
-                {
-                    case "i":
-                        Items.MarkItemAsReferenced(headerID);
-                        break;
-                    case "n":
-                        NPCS_WITH_REFERENCES[headerID] = true;
-                        break;
-                    case "o":
-                        OBJECTS_WITH_REFERENCES[headerID] = true;
-                        break;
-                }
-            }
         }
 
         private static void Validate_LocalizableData(IDictionary<string, object> data, string key)
@@ -3953,8 +3992,6 @@ namespace ATT
                         // These Item providers are ONLY referenced as a way to hook tooltips on that Item to show the root data
                         if (hasQuestGivers || i > 0)
                         {
-                            // if the provider is an item, we want that item to be listed as having been referenced to keep it out of Unsorted
-                            Items.MarkItemAsReferenced(pID);
                             // Classic likes providers to be Items still due to the logic implementation
                             if (!PreProcessorTags.Contains("ANYCLASSIC"))
                             {
@@ -3973,7 +4010,7 @@ namespace ATT
                             var item = Items.GetNull(pID);
                             // Items which are the 'first' provider indicate that their acquisition is what 'provides' the data
                             // and thus they must be Sourced to be properly visible for being acquired
-                            if (i == 0 && (item == null || !Items.IsItemReferenced(pID)))
+                            if (i == 0 && (item == null || !TryGetSOURCED("itemID", pID, out _)))
                             {
                                 // The item isn't Sourced in Retail version
                                 // Holy... there are actually a ton of these. Will Debug Log for now until they are cleaned up...
@@ -3990,10 +4027,8 @@ namespace ATT
                         }
                         break;
                     case "n":
-                        NPCS_WITH_REFERENCES[(long)pID] = true;
                         break;
                     case "o":
-                        OBJECTS_WITH_REFERENCES[(long)pID] = true;
                         break;
                     case "a":
                         break;
@@ -4536,7 +4571,6 @@ namespace ATT
                                 {
                                     providerData[Coords.Field] = coords;
                                 }
-                                Validate_ReferencedIDs(providerData);
                                 Objects.Merge(parentg, providerData);
                             }
                             else
@@ -4550,7 +4584,6 @@ namespace ATT
                             {
                                 // When adding an NPC under the Quest, we will ignore it as being Sourced there for further Parser logic
                                 providerData = new Dictionary<string, object> { { "npcID", pID }, { Coords.Field, coords }, { "_ignoreSourced", true } };
-                                Validate_ReferencedIDs(providerData);
                                 Objects.Merge(parentg, providerData);
                             }
                             else

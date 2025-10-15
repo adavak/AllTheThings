@@ -47,10 +47,10 @@ namespace ATT
             /// </summary>
             public static bool IsItemReferenced(decimal itemID)
             {
-                if (CurrentParseStage > ParseStage.Validation)
+                if (CurrentParseStage > ParseStage.Consolidation)
                     return ITEMS_WITH_REFERENCES.ContainsKey(itemID);
 
-                throw new InvalidOperationException($"Cannot check Item References prior to completion of the {ParseStage.Validation} Parse Stage");
+                throw new InvalidOperationException($"Cannot check Item References prior to completion of the {ParseStage.Consolidation} Parse Stage");
             }
 
             /// <summary>
