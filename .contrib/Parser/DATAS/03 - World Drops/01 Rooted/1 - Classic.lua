@@ -4307,7 +4307,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				-- #endif
 			},
 			-- #if AFTER TBC
-			["description"] = "If there is competition about spawns in Silithus, Nagrand in the second best option where air elementals can be found almost everywhere.",
+			["description"] = "If there is competition about spawns in Silithus, Nagrand is the second best option where air elementals can be found almost everywhere.",
 			["maps"] = { NAGRAND },
 			-- #endif
 		}),

@@ -6,7 +6,23 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(AZSUNA, {
 			n(WORLD_QUESTS, sharedData({ ["isWorldQuest"] = true, },{
-				q(42119),	-- A Cleansing Cocktail
+				q(42119, {	-- A Cleansing Cocktail
+					o(249704, {	-- Cliffwing Hippogryph Egg
+						["coords"] = {
+							{ 40.4, 32.9, AZSUNA },
+							{ 41.0, 34.6, AZSUNA },
+							{ 41.8, 31.4, AZSUNA },
+							{ 41.9, 37.7, AZSUNA },
+							{ 43.1, 30.0, AZSUNA },
+							{ 43.2, 38.1, AZSUNA },
+							{ 43.3, 31.8, AZSUNA },
+							{ 44.1, 38.0, AZSUNA },
+							{ 44.2, 34.4, AZSUNA },
+							{ 44.4, 35.7, AZSUNA },
+						},
+						["groups"] = { i(136860) },	-- Cliffwing Hippogryph Egg (QI!)
+					}),
+				}),
 				q(42024),	-- A Friend of My Enemy
 				q(43803),	-- A Giant Murloc Problem
 				q(42014),	-- A Tainted Vintage
@@ -66,7 +82,24 @@ root(ROOTS.Zones, {
 				q(43040),	-- DANGER: Valakar the Thirsty
 				petbattle(q(42146)),	-- Dazed and Confused and Adorable
 				q(44054),	-- Demonicide
-				q(42276),	-- Disgusting, but Useful
+				q(42276, {	-- Disgusting, but Useful
+					o(250267, {	-- Felsurge Egg
+						["coords"] = {
+							{ 31.8, 44.4, AZSUNA },
+							{ 32.1, 41.9, AZSUNA },
+							{ 32.4, 42.9, AZSUNA },
+							{ 33.0, 44.8, AZSUNA },
+							{ 33.2, 43.8, AZSUNA },
+							{ 33.3, 41.6, AZSUNA },
+							{ 33.9, 42.7, AZSUNA },
+							{ 34.0, 45.9, AZSUNA },
+							{ 34.0, 46.7, AZSUNA },
+							{ 34.4, 42.0, AZSUNA },
+							{ 36.1, 42.9, AZSUNA },
+						},
+						["groups"] = { i(137335) },	-- Felsurge Spider Egg (QI!)
+					}),
+				}),
 				q(46169),	-- Dro'zek (Invasion WQ)
 				q(43328),	-- Enigmatic
 				q(44049),	-- Evil Has Many Legs

@@ -1187,6 +1187,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 94318 },	-- Genn Greymane
 					["coord"] = { 71.5, 59.9, STORMHEIM },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = { i(127285) },	-- Forsaken Scouting Orders (QI!)
 				}),
 				q(38473, {	-- Will of the Thorignir (Alliance)
 					["sourceQuests"] = { 39597 },	-- The Blessing of the Watchers

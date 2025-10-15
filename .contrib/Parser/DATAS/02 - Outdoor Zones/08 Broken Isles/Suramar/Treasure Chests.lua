@@ -51,7 +51,8 @@ root(ROOTS.Zones, {
 					["groups"] = { i(140327) } -- Krytos's Research Notes (CI!)
 				}),
 				o(257291, {	-- Nightborne Treasure Chest
-					["description"] = "These repeatable chests spawn all over the map in Suramar."
+					["description"] = "These repeatable chests spawn all over the map in Suramar.",
+					["maps"] = { SURAMAR },
 				}),
 				o(252447, {	-- Shimmering Ancient Mana Cluster
 					["questID"] = 43744,

@@ -505,6 +505,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 			["lvl"] = 80,
 		}),
+		q(91846, {	-- Infinite Research Promotion: Principal Chronoquery Investigator
+			["sourceAchievement"] = 60935,	-- Tenured in the Timeways IV
+			["qg"] = 241748,	-- Eternus
+			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+			["lvl"] = 80,
+			["groups"] = { i(249400) },	-- Stack of Chronoqueries
+		}),
 		-- Infinite Epilogues
 		q(91522, {	-- Order from Chaos
 			["qg"] = 243853,	-- Moratari

@@ -2041,6 +2041,7 @@ ExportDB.AccountWideQuestsDB = {
 	[91525] = true,	-- Head Hunting: Loom'ithar
 	[91526] = true,	-- Head Hunting: Forgeweaver Araz
 	[91527] = true,	-- Head Hunting: The Soul Hunters
+	[91528] = true,	-- Head Hunting: Horrors of the Forge
 	[91539] = true,	-- A Radiant Echo
 	[91640] = true,	-- A Dog-eared Book
 	[91642] = true,	-- Mysterious Notebook

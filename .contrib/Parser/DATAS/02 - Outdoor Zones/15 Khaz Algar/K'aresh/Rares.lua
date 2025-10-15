@@ -67,6 +67,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 90689,
 				["groups"] = {
 					i(239477),	-- Reshii Brute's Epaulettes
+					i(239473),	-- Reshii Brute's Sollerets
 					i(239462),	-- Reshii Scout's Belt
 					i(239471),	-- Reshii Skirmisher's Armguards
 				},

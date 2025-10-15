@@ -534,12 +534,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 111480 },	-- Salanar the Horseman
 						["coord"] = { 36.2, 56.1, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 706, 707, 708 },	-- Maw of Souls
+						["groups"] = { i(140162) },	-- Maul of the Dead (QI!)
 					}),
 					q(44282, {	-- Eye of Azshara: The Frozen Soul
 						["sourceQuest"] = 43928,	-- Aggregates of Anguish
 						["provider"] = { "n", 93555 },	-- Amal'thazad
 						["coord"] = { 58.1, 31.1, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["maps"] = { 713 },	--  Eye of Azshara
+						["groups"] = { i(141302) },	-- Frozen Soul Pendant (QI!)
 					}),
 					q(44247, {	-- Champion: Amal'thazad
 						["sourceQuest"] = 44282,	-- Eye of Azshara: The Frozen Soul

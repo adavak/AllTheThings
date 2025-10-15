@@ -180,7 +180,19 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["requireSkill"] = SKINNING,
 			}),
 			q(43709),	-- Seal Clubbing
-			q(42076),	-- Shadowfen Village
+			q(42076, {	-- Shadowfen Village
+				o(249393, {	-- Mistfall Cache
+					["coords"] = {
+						{ 64.8, 51.3, VALSHARAH },
+						{ 65.8, 53.8, VALSHARAH },
+						{ 65.9, 51.0, VALSHARAH },
+						{ 66.9, 53.0, VALSHARAH },
+						{ 67.1, 50.4, VALSHARAH },
+						{ 67.2, 53.5, VALSHARAH },
+					},
+					["groups"] = { i(136785) },	-- Shadowfen Valuables (QI!)
+				}),
+			}),
 			q(44895),	-- Sharptalon Swarm!
 			q(41553, {	-- Slab of Bacon
 				["requireSkill"] = COOKING,
