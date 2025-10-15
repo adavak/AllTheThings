@@ -1947,6 +1947,7 @@ end");
                     case "_sourceIDs":
                     case "_species":
                     case "_extraSpells":
+                    case "_spells":
                     case "_objectiveItems":
                     case "qis":
                         {

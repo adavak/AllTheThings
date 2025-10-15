@@ -307,9 +307,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 		}),
 		ach(2436, {	-- Desert Rose
 			["providers"] = {
-				-- #if AFTER 9.1.5.40871
-				{ "i", 188694 },	-- Spring Florist's Pouch
-				-- #else
+				-- #if BEFORE 9.1.5.40871
 				{ "i", 44800 },	-- Spring Robes
 				-- #endif
 			},

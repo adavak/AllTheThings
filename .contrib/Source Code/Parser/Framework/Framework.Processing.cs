@@ -2484,8 +2484,8 @@ namespace ATT
             if (spellID > 0)
             {
                 // casted spells specifically should be providers from the spell
-                LogDebug($"INFO: Added Spell provider to Criteria {achID}:{criteriaID} => {spellID}");
-                Objects.Merge(data, "providers", new List<object> { new List<object> { "s", spellID } });
+                LogDebug($"INFO: Added _spells to Criteria {achID}:{criteriaID} => {spellID}");
+                Objects.Merge(data, "_spells", spellID);
                 incorporated = true;
             }
 
@@ -3447,7 +3447,7 @@ namespace ATT
 
         private static void Incorporate_DataCloning(IDictionary<string, object> data)
         {
-            // data.DataBreakPoint("criteriaID", 19435);
+            // data.DataBreakPoint("criteriaID", 103524);
             Incorporate_DataCloning_PrepCriteria(data);
 
             if (data.TryGetValue("_needsClone", out bool needsClone) && !needsClone)
