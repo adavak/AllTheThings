@@ -4200,6 +4200,22 @@ namespace ATT
             {
                 data.Remove("nextQuests");
             }
+
+            // HQT Quests with a single Quest Item assigned might be better off as simply letting the Item be an ItemWithQuest
+            if (data.TryGetValue("questID", out long questID) && data.TryGetValue("type", out string type)
+                && type == "hqt" && data.TryGetValue("qis", out List<object> qis) && qis.Count == 1)
+            {
+                if (qis[0].TryConvert(out itemID))
+                {
+                    // this single Quest Item on HQT is Sourced 1 time in ATT without a questID itself, maybe remove the HQT?
+                    if (TryGetSOURCED("itemID", itemID, out var itemSources)
+                        && itemSources.Count == 1
+                        && !itemSources.First().ContainsKey("questID"))
+                    {
+                        LogDebugWarn($"Possibly remove HQT {questID} since it is linked from one non-Quest Item {itemID} which is has one Source and could simply be an ItemWithQuest", data);
+                    }
+                }
+            }
         }
 
         private static void Consolidate_awprwp(IDictionary<string, object> data)
