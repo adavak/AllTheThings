@@ -61,6 +61,39 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			i(154808),	-- Torgashell Greatbelt
 			i(154810),	-- Torgashell Legguards
 			i(154812),	-- Torgashell Warboots
+			i(157802, {	-- Nazwathan Relic
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					131157,	-- Nazwathan Blood Bender
+					131155,	-- Nazwathan Guardian
+					131156,	-- Nazwathan Hulk
+				},
+			}),
+			i(157801, {	-- Snapjaw Tail
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					126723,	-- Primal Snapjaw
+					120588,	-- Rivermarsh Snapjaw
+				},
+			}),
+			i(157797, {	-- Vilescale Pearl
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					125328,	-- Priestess Zaldraxia
+					125393,	-- Vilescale Guardian
+					125392,	-- Vilescale Mana Taster
+					125366,	-- Vilescale Poacher
+				},
+			}),
 		}),
 	}),
 })));

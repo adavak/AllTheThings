@@ -72,6 +72,39 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			i(160157),	-- Stormforger Legguards
 			i(160159),	-- Stormforger Sabatons
 			i(160170),	-- Arid Caravan Band
+			i(158910, {	-- Charged Ranishu Antennae
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					129464,	-- Ranishu Nibbler
+					129473,	-- Ranishu Nibbler
+					135727,	-- Ranishu Ravager
+					129474,	-- Ranishu Ravager
+				},
+			}),
+			i(158915, {	-- Polished Ringhorn Hoof
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					130317,	-- Ringhorn Fawn
+					130321,	-- Ringhorn Stag
+					130316,	-- Ringhorn Strider
+				},
+			}),
+			i(158916, {	-- Sturdy Redrock Jaw
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					134744,	-- Redrock Howler
+					134718,	-- Redrock Scavenger
+				},
+			}),
 		}),
 	}),
 })));

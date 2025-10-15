@@ -58,6 +58,27 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			i(160121),	-- Direbone Frill Greatbelt
 			i(160123),	-- Direbone Frill Legplates
 			i(160125),	-- Direbone Frill Stompers
+			i(157794, {	-- Feathered Viper Scale
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					132410,	-- Feathered Viper
+					132409,	-- Feathered Viper
+				},
+			}),
+			i(156963, {	-- Golden Ravasaur Egg
+				["sourceQuests"] = {
+					51145,	-- Curse of Jani (A)
+					47442,	-- Curse of Jani (H)
+				},
+				["crs"] = {
+					131560,	-- Feral Ravasaur
+					122504,	-- Savagemane Ravasaur
+					148871,	-- Voidcrafted Ravasaur
+				},
+			}),
 		}),
 	}),
 })));

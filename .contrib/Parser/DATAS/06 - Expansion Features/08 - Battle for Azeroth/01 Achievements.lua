@@ -239,99 +239,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 			["description"] = "Make sure to loot the cache Jani leaves behind as you fulfill each requirement; that's what awards the actual achievement criteria.",
 			["groups"] = {
 				crit(40037, {	-- Golden Ravasaur Egg
-					["itemID"] = 156963,	-- Golden Ravasaur Egg
 					["coord"] = { 71.6, 41.2, ZULDAZAR },	-- Trashpile turn-in
-					["sourceQuests"] = {
-						51145,	-- Curse of Jani (A)
-						47442,	-- Curse of Jani (H)
-					},
-					["crs"] = {
-						131560,	-- Feral Ravasaur
-						122504,	-- Savagemane Ravasaur
-						148871,	-- Voidcrafted Ravasaur
-					},
+					["provider"] = { "i", 156963 },	-- Golden Ravasaur Egg
 				}),
 				crit(40041, {	-- Vilescale Pearl
-					["itemID"] = 157797,	-- Vilescale Pearl
 					["coord"] = { 80.8, 46.7, NAZMIR },
-					["crs"] = {
-						125328,	-- Priestess Zaldraxia
-						125393,	-- Vilescale Guardian
-						125392,	-- Vilescale Mana Taster
-						125366,	-- Vilescale Poacher
-					},
+					["provider"] = { "i", 157797 },	-- Vilescale Pearl
 				}),
 				crit(40045, {	-- Charged Ranishu Antennae
-					["itemID"] = 158910,	-- Charged Ranishu Antennae
 					["coord"] = { 47.0, 46.6, VOLDUN },	-- Court of Zak'rajan
-					["crs"] = {
-						129464,	-- Ranishu Nibbler
-						129473,	-- Ranishu Nibbler
-						135727,	-- Ranishu Ravager
-						129474,	-- Ranishu Ravager
-					},
-				}),
-				crit(40038, {	-- Big Hunter Mon
-					["sourceQuests"] = { 50332 },	-- Big Hunter Mon
-					["coord"] = { 66.2, 16.6, ZULDAZAR },	-- Trashpile pick-up
+					["provider"] = { "i", 158910 },	-- Charged Ranishu Antennae
 				}),
 				crit(40042, {	-- Snapjaw Tail
-					["itemID"] = 157801,	-- Snapjaw Tail
 					["coord"] = { 34.0, 75.0, NAZMIR },
-					["crs"] = {
-						126723,	-- Primal Snapjaw
-						120588,	-- Rivermarsh Snapjaw
-					},
+					["provider"] = { "i", 157801 },	-- Snapjaw Tail
 				}),
 				crit(40046, {	-- Polished Ringhorn Hoof
-					["itemID"] = 158915,	-- Polished Ringhorn Hoof
 					["coord"] = { 56.2, 15.3, VOLDUN },
-					["crs"] = {
-						130317,	-- Ringhorn Fawn
-						130321,	-- Ringhorn Stag
-						130316,	-- Ringhorn Strider
-					},
-				}),
-				crit(40039, {	-- The Great Hat Robbery
-					["sourceQuests"] = { 50381 },	-- The Great Hat Robbery
-					["coord"] = { 61.9, 46.9, ZULDAZAR },
+					["provider"] = { "i", 158915 },	-- Polished Ringhorn Hoof
 				}),
 				crit(40043, {	-- Nazwathan Relic
-					["itemID"] = 157802,	-- Nazwathan Relic
 					["coord"] = { 68.5, 32.7, NAZMIR },
-					["crs"] = {
-						131157,	-- Nazwathan Blood Bender
-						131155,	-- Nazwathan Guardian
-						131156,	-- Nazwathan Hulk
-					},
+					["provider"] = { "i", 157802 },	-- Nazwathan Relic
 				}),
 				crit(40047, {	-- Sturdy Redrock Jaw
-					["itemID"] = 158916,	-- Sturdy Redrock Jaw
 					["coord"] = { 49.3, 84.3, VOLDUN },	-- The Eternal Spring
-					["crs"] = {
-						134744,	-- Redrock Howler
-						134718,	-- Redrock Scavenger
-					},
+					["provider"] = { "i", 158916 },	-- Sturdy Redrock Jaw
 				}),
 				crit(40040, {	-- Feathered Viper Scale
-					["itemID"] = 157794,	-- Feathered Viper Scale
 					["coord"] = { 62.7, 20.5, ZULDAZAR },	-- Trashpile turn-in
-					["sourceQuests"] = {
-						51145,	-- Curse of Jani (A)
-						47442,	-- Curse of Jani (H)
-					},
-					["crs"] = {
-						132410,	-- Feathered Viper
-						132409,	-- Feathered Viper
-					},
-				}),
-				crit(40044, {	-- Taking the Loa Road
-					["sourceQuests"] = { 50444 },	-- Taking the Loa Road
-					["coord"] = { 53.9, 74.1, NAZMIR },
-				}),
-				crit(40048, {	-- Saurid Surprise
-					["sourceQuests"] = { 50901 },	-- Saurid Surprise
-					["coord"] = { 42.1, 72.1, VOLDUN },
+					["provider"] = { "i", 157794 },	-- Feathered Viper Scale
 				}),
 			},
 		}),
