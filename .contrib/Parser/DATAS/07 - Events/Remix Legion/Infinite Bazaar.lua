@@ -935,88 +935,199 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					["cost"] = {{ "c", BRONZE, 30000 }},
 				},FILTERFUNC_itemID,{
 					clWithoutLock(DEATHKNIGHT, {
-						iensemble(241549),	-- Ensemble: Dreadwyrm Battleplate
+						iensemble(241549, {	-- Ensemble: Dreadwyrm Battleplate
+							["extraTransmogSetItems"] = {
+								241550,
+								241551,
+								241552,
+							},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241501),	-- Ensemble: Gravewarden Armaments
+						iensemble(241501, {	-- Ensemble: Gravewarden Armaments
+							-- ["extraTransmogSetItems"] = {
+							-- },
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241453),	-- Ensemble: Dreadwake Armor
+						iensemble(241453, {	-- Ensemble: Dreadwake Armor
+							-- ["extraTransmogSetItems"] = {
+							-- },
+						}),
 					}),
 					clWithoutLock(DEMONHUNTER, {
-						iensemble(241574),	-- Ensemble: Vestment of Second Sight
+						iensemble(241574, {	-- Ensemble: Vestment of Second Sight
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241525),	-- Ensemble: Demonbane Armor
+						iensemble(241525, {	-- Ensemble: Demonbane Armor
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241477),	-- Ensemble: Felreaper Vestments
+						iensemble(241477, {	-- Ensemble: Felreaper Vestments
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(DRUID, {
-						iensemble(241570),	-- Ensemble: Garb of the Astral Warden
+						iensemble(241570, {	-- Ensemble: Garb of the Astral Warden
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241521),	-- Ensemble: Stormheart Raiment
+						iensemble(241521, {	-- Ensemble: Stormheart Raiment
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241473),	-- Ensemble: Bearmantle Battlegear
+						iensemble(241473, {	-- Ensemble: Bearmantle Battlegear
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(HUNTER, {
-						iensemble(241558),	-- Ensemble: Eagletalon Battlegear
+						iensemble(241558, {	-- Ensemble: Eagletalon Battlegear
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241509),	-- Ensemble: Wildstalker Armor
+						iensemble(241509, {	-- Ensemble: Wildstalker Armor
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241461),	-- Ensemble: Serpentstalker Guise
+						iensemble(241461, {	-- Ensemble: Serpentstalker Guise
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(MAGE, {
-						iensemble(241586),	-- Ensemble: Regalia of Everburning Knowledge
+						iensemble(241586, {	-- Ensemble: Regalia of Everburning Knowledge
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241537),	-- Ensemble: Regalia of the Arcane Tempest
+						iensemble(241537, {	-- Ensemble: Regalia of the Arcane Tempest
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241489),	-- Ensemble: Runebound Regalia
+						iensemble(241489, {	-- Ensemble: Runebound Regalia
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(MONK, {
-						iensemble(241566),	-- Ensemble: Vestments of Enveloped Dissonance
+						iensemble(241566, {	-- Ensemble: Vestments of Enveloped Dissonance
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241517),	-- Ensemble: Xuen's Battlegear
+						iensemble(241517, {	-- Ensemble: Xuen's Battlegear
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241469),	-- Ensemble: Chi-Ji's Battlegear
+						iensemble(241469, {	-- Ensemble: Chi-Ji's Battlegear
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(PALADIN, {
-						iensemble(241545),	-- Ensemble: Battleplate of the Highlord
+						iensemble(241545, {	-- Ensemble: Battleplate of the Highlord
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241497),	-- Ensemble: Radiant Lightbringer Armor
+						iensemble(241497, {	-- Ensemble: Radiant Lightbringer Armor
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241449),	-- Ensemble: Light's Vanguard Battleplate
+						iensemble(241449, {	-- Ensemble: Light's Vanguard Battleplate
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(PRIEST, {
-						iensemble(241582),	-- Ensemble: Vestments of the Purifier
+						iensemble(241582, {	-- Ensemble: Vestments of the Purifier
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241533),	-- Ensemble: Vestments of Blind Absolution
+						iensemble(241533, {	-- Ensemble: Vestments of Blind Absolution
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241485),	-- Ensemble: Gilded Seraph's Raiment
+						iensemble(241485, {	-- Ensemble: Gilded Seraph's Raiment
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(ROGUE, {
-						iensemble(241562),	-- Ensemble: Doomblade Battlegear
+						iensemble(241562, {	-- Ensemble: Doomblade Battlegear
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241513),	-- Ensemble: Fanged Slayer's Armor
+						iensemble(241513, {	-- Ensemble: Fanged Slayer's Armor
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241465),	-- Ensemble: Regalia of the Dashing Scoundrel
+						iensemble(241465, {	-- Ensemble: Regalia of the Dashing Scoundrel
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(SHAMAN, {
-						iensemble(241553),	-- Ensemble: Regalia of Shackled Elements
+						iensemble(241553, {	-- Ensemble: Regalia of Shackled Elements
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241505),	-- Ensemble: Regalia of the Skybreaker
+						iensemble(241505, {	-- Ensemble: Regalia of the Skybreaker
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241459),	-- Ensemble: Garb of Venerated Spirits
+						iensemble(241459, {	-- Ensemble: Garb of Venerated Spirits
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(WARLOCK, {
-						iensemble(241578),	-- Ensemble: Legacy of Azj'aqir
+						iensemble(241578, {	-- Ensemble: Legacy of Azj'aqir
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241529),	-- Ensemble: Diabolic Raiment
+						iensemble(241529, {	-- Ensemble: Diabolic Raiment
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241481),	-- Ensemble: Grim Inquisitor's Regalia
+						iensemble(241481, {	-- Ensemble: Grim Inquisitor's Regalia
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					clWithoutLock(WARRIOR, {
-						iensemble(241541),	-- Ensemble: Warplate of the Obsidian Aspect
+						iensemble(241541, {	-- Ensemble: Warplate of the Obsidian Aspect
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Legionfall ------
-						iensemble(241493),	-- Ensemble: Titanic Onslaught Armor
+						iensemble(241493, {	-- Ensemble: Titanic Onslaught Armor
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 						------ Locked behind: Argus Eternal ------
-						iensemble(241445),	-- Ensemble: Juggernaut Battlegear
+						iensemble(241445, {	-- Ensemble: Juggernaut Battlegear
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					filter(COSMETIC, {
 						iensemble(253273, {	-- Scythe of the Unmaker (ENSEMBLE!)
@@ -1047,16 +1158,28 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					------ Trial of Valor: Ensambles of the Chosen Dead ------
 					filter(CLOTH, {
-						iensemble(241607),	-- Ensemble: Regalia of the Chosen Dead
+						iensemble(241607, {	-- Ensemble: Regalia of the Chosen Dead
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					filter(LEATHER, {
-						iensemble(241604),	-- Ensemble: Garb of the Chosen Dead
+						iensemble(241604, {	-- Ensemble: Garb of the Chosen Dead
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					filter(MAIL, {
-						iensemble(241601),	-- Ensemble: Chains of the Chosen Dead
+						iensemble(241601, {	-- Ensemble: Chains of the Chosen Dead
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					filter(PLATE, {
-						iensemble(241597),	-- Ensemble: Funerary Plate of the Chosen Dead
+						iensemble(241597, {	-- Ensemble: Funerary Plate of the Chosen Dead
+							--["extraTransmogSetItems"] = {
+							--},
+						}),
 					}),
 					filter(CONSUMABLES, {
 						i(254850, {	-- Minor Bronze Cache
