@@ -1256,11 +1256,6 @@ namespace ATT
 
         private static void Consolidate_EnsembleCleanup(IDictionary<string, object> data)
         {
-            if (!data.TryGetValue("spellID", out long spellID) && !data.TryGetValue("ensembleSpellID", out spellID))
-            {
-                LogWarn($"Ensemble Cleanup failed to contain spellID and will be empty when exported!", data);
-                return;
-            }
             if (!data.TryGetValue("_sourceIDs", out List<object> sourceIDs))
             {
                 LogWarn($"Ensemble Cleanup failed to contain _sourceIDs and will be empty when exported!", data);
@@ -1289,7 +1284,7 @@ namespace ATT
                         IDictionary<string, object> source = tmogSetItems.FirstOrDefault()?.GetExportableData();
                         if (source == null)
                         {
-                            LogWarn($"Ensemble via SpellID {spellID} sourcing SourceID {sourceID} which is not associated with a TransmogSetItem", data);
+                            LogWarn($"Ensemble with SourceID {sourceID} which is not associated with a TransmogSetItem", data);
                             source = new TransmogSetItem { ItemModifiedAppearanceID = sourceID }.GetExportableData();
                         }
                         source["_generated"] = true;
@@ -3337,13 +3332,15 @@ namespace ATT
                 long questID = spellEffect.EffectMiscValue_0;
                 if (!data.TryGetValue("questID", out long existingQuestID))
                 {
+                    bool allowMergeQuestID = true;
                     // we only want to attach a questID to an Item if that Quest is only linked via 1 ItemEffect...
                     long spellID = spellEffect.SpellID;
                     if (WagoData.TryGetSpellAssociations(spellID, out List<ItemEffect> itemEffects) && itemEffects.Count > 1)
                     {
                         //LogDebug($"INFO: Ignored assignment of data 'questID' {spellEffect.EffectMiscValue_0} due to {matchingItemEffects.Count} shared ItemEffect use", data);
                         // assign this data as a provider of the questID instead since this data may link to multiple questIDs
-                        Assign_QuestProviderFromData(questID, data);
+                        // If this QuestID isn't Sourced, just allow assigning it directly anyway... can review duplication for manual resolution if it happens
+                        allowMergeQuestID = !Assign_QuestProviderFromData(questID, data);
                     }
                     else
                     {
@@ -3358,11 +3355,10 @@ namespace ATT
                         {
                             //LogDebug($"INFO: Ignored assignment of data 'questID' {questID} due to multiple SpellEffect use", data);
                             // assign this data as a provider of the questID instead since this data links to multiple questIDs
-                            Assign_QuestProviderFromData(questID, data);
+                            allowMergeQuestID = !Assign_QuestProviderFromData(questID, data);
                         }
                         else
                         {
-                            bool allowMergeQuestID = true;
 
                             // if QuestID is already Sourced elsewhere in ATT, then we need to check what it is sourced as
                             if (TryGetSOURCED("questID", questID, out var sourcedQuests))
@@ -3387,15 +3383,15 @@ namespace ATT
                                     }
                                 }
                             }
-
-                            if (allowMergeQuestID)
-                            {
-                                Objects.Merge(data, "questID", questID);
-                                LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
-                                Objects.ReferenceQuestIDs(data);
-                                TrackIncorporationData(data, "questID", questID);
-                            }
                         }
+                    }
+
+                    if (allowMergeQuestID)
+                    {
+                        Objects.Merge(data, "questID", questID);
+                        LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
+                        Objects.ReferenceQuestIDs(data);
+                        TrackIncorporationData(data, "questID", questID);
                     }
                 }
                 else if (questID != existingQuestID)
@@ -3414,47 +3410,93 @@ namespace ATT
                     TrackIncorporationData(data, "tmogSetID", tmogSetID);
                     LogDebug($"INFO: Assigned 'tmogSetID' {tmogSetID}", data);
                 }
+
+                // If this data has no SpellID assigned yet, then assign this SpellEffect's SpellID as the primary SpellID
+                if (!data.ContainsKey("spellID"))
+                {
+                    data["spellID"] = spellEffect.SpellID;
+                }
             }
         }
 
-        private static void Assign_QuestProviderFromData(long questID, IDictionary<string, object> data)
+        private static bool Assign_QuestProviderFromData(long questID, IDictionary<string, object> data)
         {
             // additional spell effects that trigger additional questIDs, we will link the data as a provider of that additional questID's Source if possible
-            if (TryGetSOURCED("questID", questID, out var sourcedQuests))
-            {
-                foreach (var sourcedQuestData in sourcedQuests)
-                {
-                    if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
-                    {
-                        string providerType = null;
-                        switch (objectData.ConvertedKey ?? objectData.ObjectType)
-                        {
-                            case "itemID":
-                                providerType = "i";
-                                break;
-                            case "npcID":
-                                providerType = "n";
-                                break;
-                            case "objectID":
-                                providerType = "o";
-                                break;
-                            case "spellID":
-                                providerType = "s";
-                                break;
-                        }
+            if (!TryGetSOURCED("questID", questID, out var sourcedQuests))
+                return false;
 
-                        if (providerType != null)
+            // determine the best provider type from this data
+            string providerType = null;
+            if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
+            {
+                switch (objectData.ConvertedKey ?? objectData.ObjectType)
+                {
+                    case "itemID":
+                        providerType = "i";
+                        break;
+                    case "npcID":
+                        providerType = "n";
+                        break;
+                    case "objectID":
+                        providerType = "o";
+                        break;
+                    case "spellID":
+                        providerType = "s";
+                        break;
+                    case "mountID":
+                    case "runeforgepowerID":
+                        if (data.TryGetValue("itemID", out long itemID) && itemID > 0)
                         {
-                            Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
-                            LogDebug($"INFO: Assigning {providerType}:{objKeyValue} as Provider of 'questID' {questID}", sourcedQuestData);
+                            providerType = "i";
+                            objKeyValue = itemID;
                         }
                         else
                         {
-                            LogDebugWarn($"Unable to determine provider type for data", data);
+                            providerType = "s";
                         }
-                    }
+                        break;
+                    case "speciesID":
+                        if (data.TryGetValue("itemID", out itemID) && itemID > 0)
+                        {
+                            providerType = "i";
+                            objKeyValue = itemID;
+                        }
+                        else if (data.TryGetValue("npcID", out long npcID) && npcID > 0)
+                        {
+                            providerType = "n";
+                            objKeyValue = npcID;
+                        }
+                        break;
                 }
             }
+
+            if (providerType != null)
+            {
+                foreach (var sourcedQuestData in sourcedQuests)
+                {
+                    if (sourcedQuestData.ContainsKey("_nyi"))
+                    {
+                        LogDebugWarn($"Data linked as a Provider for NYI QuestID {questID} will be ignored", data);
+                    }
+                    else if (sourcedQuestData.ContainsKey("_unsorted"))
+                    {
+                        LogDebugWarn($"Data linked as a Provider for Unsorted QuestID {questID} will be ignored", data);
+                    }
+                    else
+                    {
+                        Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
+                        LogDebug($"INFO: Assigning {providerType}:{objKeyValue} as Provider of 'questID' {questID}", sourcedQuestData);
+                    }
+                }
+
+                return true;
+            }
+            else
+            {
+                LogDebugWarn($"Unable to determine provider type for data", data);
+            }
+
+            return false;
         }
 
         private static bool CheckSymlink(IDictionary<string, object> data, params string[] commands)
@@ -3860,7 +3902,9 @@ namespace ATT
 
         private static void Consolidate_providers(IDictionary<string, object> data)
         {
-            if (!data.TryGetValue("providers", out object providers))
+            if (!data.TryGetValue("providers", out object providers)
+                // don't modify providers on any special 'type' of Quest
+                || data.ContainsKey("type"))
                 return;
 
             if (!providers.TryConvert(out List<object> providersList))
