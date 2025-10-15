@@ -404,6 +404,8 @@ root(ROOTS.PVP, {
 						i(84967),	-- Malevolent Gladiator's Shanker
 						i(84910),	-- Malevolent Gladiator's Shield Wall
 						i(84894),	-- Malevolent Gladiator's Slasher
+							["timeline"] = { CREATED_5_0_4 },
+						}),
 						i(84968),	-- Malevolent Gladiator's Slicer
 						i(84961),	-- Malevolent Gladiator's Spellblade
 						i(84789),	-- Malevolent Gladiator's Staff
@@ -696,7 +698,9 @@ root(ROOTS.PVP, {
 					i(85128),	-- Malevolent Gladiator's Ripper
 					i(85133),	-- Malevolent Gladiator's Shanker
 					i(85124),	-- Malevolent Gladiator's Shield Wall
-					i(85117),	-- Malevolent Gladiator's Slasher
+					i(85117, {	-- Malevolent Gladiator's Slasher
+						["timeline"] = { CREATED_5_0_4 },
+					}),
 					i(85134),	-- Malevolent Gladiator's Slicer
 					i(85127),	-- Malevolent Gladiator's Spellblade
 					i(85111),	-- Malevolent Gladiator's Staff

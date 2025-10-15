@@ -406,7 +406,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(5, i(42264)),	-- Hateful Gladiator's Slasher
 						moh(5, i(42284)),	-- Hateful Gladiator's Slicer
 						moh(5, i(42345)),	-- Hateful Gladiator's Spellblade
-						moh(5, i(42389)),	-- Hateful Gladiator's Staff
+						moh(5, i(42389, {	-- Hateful Gladiator's Staff
+							-- #if ANYCLASSIC
+							["timeline"] = { CREATED_3_0_2 },
+							-- #endif
+						})),
 						-- #endif
 						moh(5, i(42501)),	-- Hateful Gladiator's Touch of Defeat
 						-- #if AFTER 5.0.0
