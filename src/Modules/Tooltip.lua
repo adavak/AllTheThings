@@ -495,17 +495,17 @@ tooltipFunction = function(self, locClass, engClass, locRace, engRace, gender, n
 	if leftSide then leftSide:SetText(L.PLAYER_TITLE_BRINGER_OF_FLAMES:format(name)); end
 end
 for i,guid in ipairs({
-	"Player-4372-03E59723",	-- Sarkan-Atiesh
-	"Player-4372-03E59B16",	-- Vapid-Atiesh
-	"Player-4372-03FB9D25",	-- Psark-Atiesh
+	"Player-4385-05E58854",	-- Sarkan-LeiShen
+	"Player-4385-05E93D50",	-- Vapid-LeiShen
+	"Player-4385-05F0D432",	-- Puckfagle-LeiShen (Psark)
+	"Player-4385-05EFBDAE",	-- Faletupe-LeiShen
+	"Player-4385-05E504CE",	-- Toiletcat-LeiShen
+	"Player-4385-05EB9627",	-- Muttstuff-LeiShen
+	"Player-4385-05EBB76F",	-- Grandmasark-LeiShen
 	"Player-4372-03E59A2D",	-- Trite-Atiesh
-	"Player-4372-03F43929",	-- Faletupe-Atiesh
-	"Player-4372-03F6DD89",	-- Toiletcat-Atiesh
 	"Player-4372-03F6AF1A",	-- Hoofsies-Atiesh
 	"Player-4372-03E59A78",	-- Xisis-Atiesh
 	"Player-4372-03E6CD1C",	-- Quickibanki-Atiesh
-	"Player-4372-03FDCBF9",	-- Muttstuff-Atiesh
-	"Player-4372-0404C87F",	-- Grandmasark-Atiesh
 }) do
 	PLAYER_TOOLTIPS[guid] = tooltipFunction;
 end
