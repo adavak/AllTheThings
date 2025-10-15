@@ -125,13 +125,13 @@ namespace ATT.FieldTypes
 
         private void Merge(Coord value)
         {
-            // due to how merging works currently, we commonly have the same object merging into itself within the DB store
-            // so this logging is not currently useful
-            //if (!_coords.Add(value))
-            //{
-            //    // this prints for when the same object is added multiple times in the same group with identical coords, which is common for some reason...
-            //    LogDebugWarn($"Duplicate 'coord' entry: {ToJSON(value)}", _data);
-            //}
+            if (!_coords.Add(value))
+            {
+                // due to how merging works currently, we commonly have the same object merging into itself within the DB store
+                // so this logging is not currently useful
+                //    // this prints for when the same object is added multiple times in the same group with identical coords, which is common for some reason...
+                //    LogDebugWarn($"Duplicate 'coord' entry: {ToJSON(value)}", _data);
+            }
         }
 
         public object AsExportType()

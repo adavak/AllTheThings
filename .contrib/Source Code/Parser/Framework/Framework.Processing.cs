@@ -3472,22 +3472,44 @@ namespace ATT
 
             if (providerType != null)
             {
+                //if (sourcedQuests.All(d => d.ContainsKey("_nyi")))
+                //{
+                //    LogDebugWarn($"Data linked as a Provider for NYI QuestID x{sourcedQuests.Count} {questID} will be ignored", data);
+                //}
+                //else if (sourcedQuests.All(d => d.ContainsKey("_unsorted")))
+                //{
+                //    LogDebugWarn($"Data linked as a Provider for Unsorted QuestID x{sourcedQuests.Count} {questID} will be ignored", data);
+                //}
+                //else
+                //{
                 foreach (var sourcedQuestData in sourcedQuests)
                 {
-                    if (sourcedQuestData.ContainsKey("_nyi"))
-                    {
-                        LogDebugWarn($"Data linked as a Provider for NYI QuestID {questID} will be ignored", data);
-                    }
-                    else if (sourcedQuestData.ContainsKey("_unsorted"))
-                    {
-                        LogDebugWarn($"Data linked as a Provider for Unsorted QuestID {questID} will be ignored", data);
-                    }
-                    else
+                    if (!sourcedQuestData.ContainsAnyKey("_unsorted", "_nyi"))
                     {
                         Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
                         LogDebug($"INFO: Assigning {providerType}:{objKeyValue} as Provider of 'questID' {questID}", sourcedQuestData);
                     }
+                    else
+                    {
+                        // don't link certain types as a 'provider' on unsorted/nyi data since it would lead to inaccurate cost
+                        switch (providerType)
+                        {
+                            // hook items as 'Quest items' for visibility without any logic changes
+                            case "i":
+                                Objects.Merge(sourcedQuestData, "qis", objKeyValue);
+                                break;
+                            // spell has no alternate way to be linked to the quest
+                            case "s":
+                                LogDebugWarn($"Data linked as a Provider for duplicate NYI/Unsorted QuestID {questID} will be ignored. Review if this QuestID is actually expected to be NYI/Unsorted!", data);
+                                break;
+                            // NPC/Object can remain providers since they do not utilize cost logic
+                            default:
+                                Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
+                                break;
+                        }
+                    }
                 }
+                //}
 
                 return true;
             }

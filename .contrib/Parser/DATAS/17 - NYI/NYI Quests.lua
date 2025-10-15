@@ -1051,10 +1051,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 		expansion(EXPANSION.WOD, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_6_0_2 } }, {
 			q(33772, { ["name"] = "6.0 Invasion Opt-Out", }),	-- 6.0 Invasion Opt-Out
 			q(34311, { ["name"] = "6.0 Invasion: Opted Out", }),	-- 6.0 Invasion: Opted Out
-			q(36211, { ["name"] = "6.0 Tanaan - Boots Bootstrap", }),	-- 6.0 Tanaan - Boots Bootstrap
-			q(36214, { ["name"] = "6.0 Tanaan - Hands Bootstrap", }),	-- 6.0 Tanaan - Hands Bootstrap
-			q(36213, { ["name"] = "6.0 Tanaan - Ring Bootstrap", }),	-- 6.0 Tanaan - Ring Bootstrap
-			q(36212, { ["name"] = "6.0 Tanaan - Wrist Bootstrap", }),	-- 6.0 Tanaan - Wrist Bootstrap
 			q(36358, { ["name"] = "A Father and His Son", }),	-- A Father and His Son
 			q(35866, { ["name"] = "A Few Artifact Fragments", }),	-- A Few Artifact Fragments
 			q(37188, { ["name"] = "A Flash of Bronze...", }),	-- A Flash of Bronze...
@@ -7411,7 +7407,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(69849),	-- Enraged Steamburst Elemental
 			q(65569),	-- Ensemble: Twisted Arcanum Regalia
 			q(65676),	-- Ensemble: Chains of the Honored Valarjar
-			q(65716),	-- Ensemble: Vestments of the Nightmare Forest
 			q(65734),	-- Ensemble: Battleplate of the Honored Valarjar
 			q(70596),	-- Essence of Arcana
 			q(66496),	-- Expedition Task Accepted (spellID 372078)

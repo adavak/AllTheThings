@@ -365,6 +365,10 @@ root(ROOTS.Zones, {
 							81367,	-- Blackrock Forgeworker
 						},
 					}),
+					-- added based on Quest trigger linkage
+					i(112472),	-- Shadowmoon Cultist Ring
+					i(112473),	-- Shadowmoon Summoning Ring
+					i(112474),	-- Shadowmoon Subjugator Ring
 				})),
 			},
 		}),
@@ -372,13 +376,32 @@ root(ROOTS.Zones, {
 });
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	m(DRAENOR, {
-		m(ASSAULT_ON_THE_DARK_PORTAL, {
-			n(QUESTS, {
-				q(35297),	-- FLAG: Army Pushed - triggers during "Blaze of Glory" when you approach Khadgar around 67.6,60.5
-				q(35983),	-- FLAG: Hansel Event Complete - triggers during "Onslaught's End" when door to Cho'gal is opened
-				q(34440),	-- FLAG: Khadgar out of Portal - triggers just before turning in "Ga'nar of the Frostwolf" (questID 34442) or "Polishing the Iron Throne" (questID 34925)
-				q(35253),	-- FLAG: Thaelin Event Complete - triggers during "Onslaught's End" when door to Teron'gor is opened
-			}),
+		n(ASSAULT_ON_THE_DARK_PORTAL, {
+			["timeline"] = { ADDED_6_0_2 },
+			["groups"] = {
+				n(QUESTS, {
+					q(35297),	-- FLAG: Army Pushed - triggers during "Blaze of Glory" when you approach Khadgar around 67.6,60.5
+					q(35983),	-- FLAG: Hansel Event Complete - triggers during "Onslaught's End" when door to Cho'gal is opened
+					q(34440),	-- FLAG: Khadgar out of Portal - triggers just before turning in "Ga'nar of the Frostwolf" (questID 34442) or "Polishing the Iron Throne" (questID 34925)
+					q(35253),	-- FLAG: Thaelin Event Complete - triggers during "Onslaught's End" when door to Teron'gor is opened
+					q(36211, {	-- 6.0 Tanaan - Boots Bootstrap
+						["name"] = "6.0 Tanaan - Boots Bootstrap",
+						["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
+					}),
+					q(36214, {	-- 6.0 Tanaan - Hands Bootstrap
+						["name"] = "6.0 Tanaan - Hands Bootstrap",
+						["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
+					}),
+					q(36212, {	-- 6.0 Tanaan - Wrist Bootstrap
+						["name"] = "6.0 Tanaan - Wrist Bootstrap",
+						["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
+					}),
+					q(36213, {	-- 6.0 Tanaan - Ring Bootstrap
+						["name"] = "6.0 Tanaan - Ring Bootstrap",
+						["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
+					}),
+				}),
+			},
 		}),
 	}),
 })));
