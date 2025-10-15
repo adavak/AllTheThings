@@ -2135,6 +2135,7 @@ i(186639, 353264);	-- Xy Trustee's Gearglider
 ------------------
 i(250747, 1251283);	-- Albino Mana Ray
 i(253026, 1255463);	-- Archmage's Felscorned Disc
+i(247848, 1245604);	-- Astral Aurochs
 i(250426, 1250881);	-- Aquamarine Basilisk
 i(250728, 1251265);	-- Arcberry Manasaber
 i(239667, 1229283);	-- Ashplague Fel Bat
