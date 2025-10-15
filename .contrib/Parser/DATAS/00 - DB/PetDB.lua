@@ -4199,7 +4199,6 @@ n(222774, 4525);	-- Fragrant Stonelamb
 n(222877, 4535);	-- Ghostcap Menace
 n(223093, 4539);	-- Granite Ramolith
 n(222194, 4461);	-- Greenlands Chicken
-n(222535, 4488);	-- Haywire Servobot
 n(222713, 4518);	-- Magmashell Crawler
 n(222875, 4533);	-- Meek Bloodlasher
 n(204354, 3547);	-- Mikah
