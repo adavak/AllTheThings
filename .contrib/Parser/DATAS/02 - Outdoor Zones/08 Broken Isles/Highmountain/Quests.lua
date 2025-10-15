@@ -244,7 +244,7 @@ root(ROOTS.Zones, {
 				q(39027, {	-- Dargrul and the Hammer
 					["sourceQuests"] = { 39043 },	-- Bitestone Enclave
 					["provider"] = { "n", 97553 },	-- Warbrave Oro
-					["coord"] = { 46.6, 44.0, 651 },	-- Bitestone Enclave
+					["coord"] = { 47.1, 44.5, 651 },	-- Bitestone Enclave
 					["groups"] = {
 						i(121722),	-- Staunch Warbrave Loop
 						i(130287),	-- Snowblind Bracers
@@ -595,6 +595,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 93833 },	-- Jale Rivermane
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
 					["groups"] = {
+						i(128397),	-- Bug Sprayer (QI!)
+						--
 						i(121657),	-- Snowblind Treads
 						i(121659),	-- Drogstitch Footwraps
 						i(121658),	-- Whitewater Sabatons
@@ -697,6 +699,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 95956 },	-- Jale Rivermane
 					["coord"] = { 41.2, 61.5, HIGHMOUNTAIN },
 					["groups"] = {
+						i(127988),	-- Bug Sprayer (PQI!)
+						--
 						i(130291),	-- Snowblind Gloves
 						i(130292),	-- Drogstitch Grips
 						i(130293),	-- Whitewater Gloves
@@ -984,6 +988,17 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
 					["groups"] = {
+						i(132247, {	-- Bottle of Airspark (QI!)
+							["coord"] = { 35.4, 23.4, 750 },	-- Thunder Totem
+							["cr"] = 100437,	-- Lanna Skyspark
+						}),
+						i(132246, {	-- Darkshard Crystal (QI!)
+							["coord"] = { 45.1, 53.5, HIGHMOUNTAIN },
+							["crs"] = {
+								100418,	-- Darkshard Crystal
+								100445,	-- Darkshard Crystal
+							},
+						}),
 						o(245620, {	-- Mu'sha's Tears
 							["coord"] = { 57.6, 10.6, 750 },	-- Thunder Totem
 							["groups"] = { i(132248) },	-- Mu'sha's Tears (QI!)

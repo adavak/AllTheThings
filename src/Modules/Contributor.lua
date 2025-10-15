@@ -164,6 +164,7 @@ local MapPrecisionOverrides = {
 	 [643] = 2,	-- Sleeper's Barrow, Val'sharah
 	 [647] = 3,	-- Acherus The Ebon Hold, The Heart of Acherus
 	 [648] = 3,	-- Acherus The Ebon Hold, Hall of Command
+	 [652] = 3,	-- Hall of Chieftains, Thunder Totem
 	 [695] = 3,	-- Skyhold
 	 [720] = 3,	-- Mardum The Shattered Abyss, Upper Command Center
 	 [721] = 3,	-- Mardum The Shattered Abyss, Lower Command Center

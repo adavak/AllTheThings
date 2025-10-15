@@ -282,12 +282,6 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
-				CommonBossDrops({
-					i(139706),	-- Corrupted Essence
-					i(139771, {	-- Seething Essence
-						i(139706),	-- Corrupted Essence
-					}),
-				}),
 				BossOnly(NYTHENDRA, {
 					ach(10555, {	-- Buggy Fight
 						["cr"] = 105097,	-- Glow Bug

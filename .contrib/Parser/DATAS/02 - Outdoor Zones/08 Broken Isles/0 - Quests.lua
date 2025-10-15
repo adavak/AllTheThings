@@ -44,17 +44,31 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 100482 },	-- Senegos
 							["coord"] = { 48.0, 25.7, AZSUNA },
 							["maps"] = { 713 },	-- Eye of Azshara
+							["groups"] = {
+								o(245934, {	-- Heart of Zin-Azshari
+									i(132738),	-- Heart of Zin-Azshari (QI!)
+								}),
+							},
 						}),
 						q(43514, {	-- A Vainglorious Past
 							["sourceQuests"] = { 40668 },	-- Eye of Azshara: The Heart of Zin-Azshari
 							["provider"] = { "n", 100482 },	-- Senegos
 							["coord"] = { 48.0, 25.7, AZSUNA },
+							["groups"] = {
+								i(139631, {	-- Vainglorious Draught (QI!)
+									["coord"] = { 46.9, 41.4, AZSUNA },
+									["cr"] = 107376,	-- Veridis Fallon <Court of Farondis Emissary>
+								}),
+							},
 						}),
 						q(43517, {	-- Darkheart Thicket: Fallen Power
 							["sourceQuests"] = { 40668 },	-- Eye of Azshara: The Heart of Zin-Azshari
 							["provider"] = { "n", 100482 },	-- Senegos
 							["coord"] = { 48.0, 25.7, AZSUNA },
-							["maps"] = { 733, },	-- Darkheart Thicket
+							["maps"] = { 733 },	-- Darkheart Thicket
+							["groups"] = {
+								i(139633),	-- Corrupted Essence (QI!)
+							},
 						}),
 						q(43518, {	-- Tempering Darkness
 							["sourceQuests"] = { 40668 },	-- Eye of Azshara: The Heart of Zin-Azshari
@@ -85,6 +99,10 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 110773 },	-- Archmage Kalec <Kirin Tor>
 							["coord"] = { 48.0, 25.7, AZSUNA },
 							["maps"] = { 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, },	-- The Emerald Nightmare
+							["groups"] = {
+								i(139671),	-- Deathglare Iris (QI!)
+								i(139672),	-- Horn of the Nightmare Lord (QI!)
+							},
 						}),
 						q(43521, {	-- The Emerald Nightmare: Essence of Power
 							["sourceQuests"] = {
@@ -94,6 +112,11 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 100482 },	-- Senegos
 							["coord"] = { 48.0, 25.7, AZSUNA },
 							["maps"] = { 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, },	-- The Emerald Nightmare
+							["groups"] = {
+								i(139771, {	-- Seething Essence
+									i(139706),	-- Corrupted Essence (QI!)
+								}),
+							},
 						}),
 						q(43522, {	-- Essential Consumption
 							["sourceQuests"] = { 43520 },	-- The Emerald Nightmare: Essence of Power
@@ -113,7 +136,13 @@ root(ROOTS.Zones, {
 							["coord"] = { 48.1, 25.6, AZSUNA },
 						}),
 						q(43937),	-- Seeking Refuge (Saving the Guard gives credit for this; not sure if it is obtainable on its own anymore)
-						q(43938),	-- Focusing Our Efforts (Saving the Guard gives credit for this; not sure if it is obtainable on its own anymore)
+						q(43938, {	-- Focusing Our Efforts
+							["sourceQuests"] = { 43522 },	-- Essential Consumption
+							["provider"] = { "n", 110773 },	-- Archmage Kalec
+							["coord"] = { 48.1, 25.6, AZSUNA },
+							-- mogwai316 Note: Saving the Guard gives credit for this; not sure if it is obtainable on its own anymore
+							-- Exo Note: I don't know about timelines but I got this quest from Kalec on Remix BEFORE completing anything in Suramar. TODO: Test on a fresh character on Live realm.
+						}),
 						q(40673, {	-- Lost Knowledge
 							["sourceQuests"] = { 43527 },	-- Saving the Guard
 							["provider"] = { "n", 101083 },	-- Thalrenus Rivertree

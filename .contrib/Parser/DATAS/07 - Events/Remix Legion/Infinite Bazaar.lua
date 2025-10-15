@@ -6,6 +6,7 @@ local BRONZE = 3252;
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(INFINITE_BAZAAR, {
 		["coord"] = { 45.7, 68.1, BROKEN_ISLES },
+		["maps"] = { LEGION_DALARAN },
 		["groups"] = {
 			n(241184, {	-- Agos the Silent <Lost and Found Apparel>
 				["coord"] = { 45.5, 67.7, BROKEN_ISLES },
