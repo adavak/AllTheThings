@@ -403,7 +403,7 @@ root(ROOTS.PVP, {
 						i(84962),	-- Malevolent Gladiator's Ripper
 						i(84967),	-- Malevolent Gladiator's Shanker
 						i(84910),	-- Malevolent Gladiator's Shield Wall
-						i(84894),	-- Malevolent Gladiator's Slasher
+						i(84894, {	-- Malevolent Gladiator's Slasher
 							["timeline"] = { CREATED_5_0_4 },
 						}),
 						i(84968),	-- Malevolent Gladiator's Slicer
