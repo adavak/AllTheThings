@@ -6019,6 +6019,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247545),	-- Scored Ironclaw Sabatons
 						i(247540),	-- Singular Chain Leggings
 						i(247543),	-- Thorny Bramblemail Pauldrons
+
+						-- Nighthold item, but drops in Emerald Nightmare (other difficulties)
+						i(247036),	-- Helm of Shackled Elements
 					}),
 					filter(PLATE, {
 						i(247555),	-- Crown of Steely Brambles

@@ -39391,10 +39391,6 @@ s(293385)/i(247035),	-- Eagletalon Cowl
 s(293386)/i(247035),	-- Eagletalon Cowl
 s(293387)/i(247035),	-- Eagletalon Cowl
 s(293388)/i(247035),	-- Eagletalon Cowl
-s(293389)/i(247036),	-- Helm of Shackled Elements
-s(293390)/i(247036),	-- Helm of Shackled Elements
-s(293391)/i(247036),	-- Helm of Shackled Elements
-s(293392)/i(247036),	-- Helm of Shackled Elements
 s(293393)/i(247037),	-- Eagletalon Legchains
 s(293394)/i(247037),	-- Eagletalon Legchains
 s(293395)/i(247037),	-- Eagletalon Legchains
