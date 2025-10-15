@@ -8,9 +8,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			header(HEADERS.Achievement, 41803, {	-- Living Amani Legend
 				header(HEADERS.AchCriteria, 41803.01, {	-- Dis Was Our Land
 					q(86708, {	-- The Gates of Zul'Aman
-						--["sourceQuests"] = { 86735 },	-- Paved in Ash (Alex TODO: it (for whatever reason) fire 86736 (Paved in Ash) on alpha, fix whatever will be proper one on beta stage
 						["provider"] = { "n", 240523 },	-- Scouting Map
 						["coord"] = { 45.4, 70.3, SILVERMOON_CITY_MID },
+						--["sourceQuests"] = { 86735 },	-- Paved in Ash (Alex TODO: it (for whatever reason) fire 86736 (Paved in Ash) on alpha, fix whatever will be proper one on beta stage
 					}),
 					q(86710, {	-- The Line Must be Drawn Here
 						["sourceQuests"] = { 86708 },	-- The Gates of Zul'Aman
@@ -111,11 +111,23 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--		i(260471),	-- Bloodspattered Wraps
 					--	},
 					--}),
+					--		86716,	-- Armed by Light
+					--		86721,	-- Everything We Worked For
+					--	},
+					--	["provider"] = { "n", 236541 },	-- Zul'jarra
+					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
+					--	["groups"] = {
+					--		i(260470),	-- Bloodspattered Bindings
+					--		i(260469),	-- Bloodspattered Cuffs
+					--		i(260468),	-- Bloodspattered Shackles
+					--		i(260471),	-- Bloodspattered Wraps
+					--	},
+					--}),
 					q(86720, {	-- Break the Blade
 						["sourceQuests"] = {
 							86712,	-- The Amani Stand Strong
 							86715,	-- Rituals Cut Short
-							--??,	-- 
+							--??,	--
 						},
 						["provider"] = { "n", 236587 },	-- Zul'jarra
 						["coord"] = { 47.6, 46.8, 2536 },	-- Atal'Aman
@@ -397,7 +409,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["sourceQuests"] = { 91001 },	-- Clear de Way
 						["provider"] = { "n", 240034 },	-- Zul'jarra
 						["coord"] = { 22.5, 77.4, ZULAMAN_MID },
-						["g"] = {
+						["groups"] = {
 							i(248583),	-- Drum of Renewed Bonds
 						},
 					}),

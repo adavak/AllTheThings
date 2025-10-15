@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 						i(251731),	-- 
 						i(251732),	-- 
 						i(251733),	-- 
-						i(251734),	-- 
+						i(251734),	--
 					},
 				}),
 				q(92136, {	-- Relic Delivery
@@ -234,7 +234,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 					["sourceQuests"] = { 91391 },	-- Still Scouting
 					["provider"] = { "n", 237268 },	-- Kurdran Wildhammer
 					["coord"] = { 21.1, 39.8, BURNING_STEPPES },
-					["g"] = {
+					["groups"] = {
 						i(246699),	-- Nagosh' Relic Fragment (QI!)
 						--
 						i(251826),	-- Medallion of the Dark Horde
