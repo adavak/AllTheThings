@@ -2238,8 +2238,9 @@ i(257219, 1261357);	-- Amani Blessed Bear
 i(250782, 1251433);	-- Amani Sunfeather
 i(250889, 1251630);	-- Amani Windcaller
 i(260893, 1266993);	-- Arboreal Pseudoshell
-i(0, 1268949);	-- Arcanovoid Construct
+i(263222, 1268949);	-- Arcanovoid Construct
 i(246590, 1242904);	-- Ashes of Belo'ren
+i(262707, 1269279);	-- Blooded Snapvine
 i(260894, 1266997);	-- Cabbage Pseudoshell
 i(252014, 1253929);	-- Cerulean Sporeglider
 i(260580, 1266579);	-- Cloudborn Razorwing
@@ -2247,8 +2248,12 @@ i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider
 i(262496, 1268919);	-- Delver's Arcane Golem
 i(256424, 1260356);	-- Echo of Aln'sharan
 i(262502, 1268926);	-- Elven Arcane Guardian
+i(262706, 1269277);	-- Ferocious Snapvine
 i(246734, 1243593);	-- Fierce Grimlynx
 i(257142, 1261291);	-- Fiery Dragonhawk
+i(263449, 1270520);	-- Fluffy Comfy Flying Carpet
+i(263450, 1270521);	-- Gruffy Comfy Flying Carpet
+i(263451, 1270522);	-- Huffy Comfy Flying Carpet
 i(211086, 428065);	-- Jeweled Jade Scarab
 i(242715, 1233516);	-- K'arroc Swiftwing
 i(260895, 1267002);	-- Lavender Pseudoshell
@@ -2258,7 +2263,11 @@ i(257192, 1261337);	-- Preyseeker's Wrath
 i(0, 1261579);	-- Ravenous Shredclaw
 i(252017, 1253938);	-- Ruddy Sporeglider
 i(260409, 1266248);	-- Savage Crimson Battle Turtle
+i(262708, 1269280);	-- Savage Snapvine
 i(262500, 1268924);	-- Silvermoon's Arcane Defender
+i(0, 1263635);	-- Spectral Hawkstrider
+i(263452, 1270523);	-- Stuffy Comfy Flying Carpet
 i(0, 1238827);	-- Swift Spectral Dragonhawk
 i(260887, 1266980);	-- Tenebrous Harrower
+i(262705, 1269273);	-- Vicious Snapvine
 i(0, 1266702);	-- Voidbound Stormray

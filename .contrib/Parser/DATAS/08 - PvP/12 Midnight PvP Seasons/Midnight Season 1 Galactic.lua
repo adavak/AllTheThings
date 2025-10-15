@@ -10,12 +10,12 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			ach(61403, {	-- Galactic Combatant
 				["races"] = ALLIANCE_ONLY,
 				["collectible"] = false,
-				["groups"] = { i(257504) },	-- Vicious Snaplizard
+				["groups"] = { i(257504) },	-- Vicious Snaplizard [A] (MOUNT!)
 			}),
 			ach(61405, {	-- Galactic Combatant
 				["races"] = HORDE_ONLY,
 				["collectible"] = false,
-				["groups"] = { i(257502) },	-- Vicious Snaplizard
+				["groups"] = { i(257502) },	-- Vicious Snaplizard [H] (MOUNT!)
 			}),
 			ach(61181),	-- Combatant I: Midnight Season 1
 			ach(61182),	-- Combatant II: Midnight Season 1
