@@ -3235,7 +3235,6 @@ q(90661,{description="Area: |cFFf09f26Isle of Dorn|r"}),
 q(91479,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r"}),
 q(91480,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r"}),
 q(91485,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r"}),
-q(91528,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r"}),
 q(91529,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r",g={
 i(246727)}}),
 q(91530,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r",g={
