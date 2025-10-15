@@ -1943,6 +1943,7 @@ end");
                     case "_factions":
                     case "_maps":
                     case "extraTransmogSetSpells":
+                    case "extraTransmogSetItems":
                     case "_tmogSetIDs":
                     case "_sourceIDs":
                     case "_species":

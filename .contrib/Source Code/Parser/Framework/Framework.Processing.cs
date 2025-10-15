@@ -3166,6 +3166,40 @@ namespace ATT
                 //}
             }
 
+            // convert extraTransmogSetItems into extraTransmogSetSpells if they exist
+            if (data.TryGetValue("extraTransmogSetItems", out List<object> tmogsetItems))
+            {
+                var convertedSpellIDs = new HashSet<object>();
+                foreach (long subtmogsetItem in tmogsetItems.AsTypedEnumerable<long>())
+                {
+                    var ensembleItemData = Items.GetNull(subtmogsetItem);
+                    if (ensembleItemData.TryGetValue("spellID", out long spellID))
+                    {
+                        if (!convertedSpellIDs.Add(spellID))
+                        {
+                            LogDebugWarn($"'extraTransmogSetItems' item {subtmogsetItem} has same spellID {spellID} as another item and was ignored", data);
+                        }
+                    }
+                    else
+                    {
+                        LogWarn($"'extraTransmogSetItems' item {subtmogsetItem} could not determine a spellID was ignored", data);
+                    }
+                }
+
+                if (convertedSpellIDs.Count > 0)
+                {
+                    if (data.TryGetValue("extraTransmogSetSpells", out List<object> existingSpells))
+                    {
+                        foreach (object existingSpell in existingSpells)
+                        {
+                            convertedSpellIDs.Add(existingSpell);
+                        }
+                    }
+
+                    data["extraTransmogSetSpells"] = convertedSpellIDs.ToList();
+                }
+            }
+
             // add additional ensemble spells as sub-groups of the Item Ensemble
             if (data.TryGetValue("extraTransmogSetSpells", out List<object> tmogsetSpells))
             {
