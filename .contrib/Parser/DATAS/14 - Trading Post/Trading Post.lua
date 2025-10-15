@@ -1653,8 +1653,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF,
 sharedData({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = NEVER_IMPLEMENTED, }, {
 	-- These don't trigger when using ensembles, but they are listed on Wowhead
 	q(65718),	-- Ensemble: Slumbering Caldera Regalia
-	q(72081),	-- Ensemble: Val'sharah Protector's Battleplate
-	q(72086),	-- Ensemble: Tidecaller's Chainmail
 	q(72087),	-- Ensemble: Void-Bound Raiment
 	q(72088),	-- Ensemble: Void-Bound Battlegear
 	q(72123),	-- Ensemble: Void-Bound Chains
