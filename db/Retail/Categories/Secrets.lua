@@ -674,7 +674,7 @@ ach(18643,{sym={{"select","questID",77289,77288,77291,77292,77290,77293,77296,77
 s(189592,208150,{f=2})}}),
 ach(18642,{coords={{33.6,58.4,114}},questID=76987,g={
 title(512),
-crit(60752,{achID=18646,id=2,questID=76987})}}),
+crit(60752,{achID=18646,id=2})}}),
 ach(18645,{
 s(189591,208149,{f=2}),
 crit(60754,{achID=18645,providers={{"i",206696}}}),
@@ -734,7 +734,7 @@ i(207580,{coords={{12.4,49.3,2024}},cost={{"i",207105,1}},providers={{"n",186448
 i(208190,{coords={a[52]},cost={{"i",207580,1}},providers={{"n",26194}}}),
 n(208182,{coords={a[40]},description="Spawns after using spear at statue",g={
 i(207594,{b=1,f=55})}}),
-crit(60752,{achID=18646,id=2,questID=76987})}}),
+crit(60752,{achID=18646,id=2})}}),
 q(77165,{coords={a[51]},lvl=10,qgs=a[27],repeatable=1,g={
 i(207802,{b=1}),
 i(208416,{coords={a[47]},providers={a[5]}}),

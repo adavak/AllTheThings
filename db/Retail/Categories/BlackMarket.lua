@@ -97,11 +97,11 @@ p(156,{b=1,itemID=32588,npcID=23234,spellID=40549,u=9}),
 p(1322,{awp=60002,b=1,itemID=104158,npcID=73352,spellID=148049,u=9}),
 p(146,{itemID=29960,npcID=21076,spellID=36034,u=9}),
 p(42,{itemID=8491,npcID=7383,pb=1,spellID=10675,u=9,g={
-crit(23577,{achID=8397,awp=50400,id=1,pb=1,providers={{"n",7383}}})}}),
+crit(23577,{achID=8397,awp=50400,id=1,pb=1})}}),
 p(40,{itemID=8485,npcID=7385,pb=1,spellID=10673,u=9,g={
-crit(23578,{achID=8397,awp=50400,id=2,pb=1,providers={{"n",7385}}})}}),
+crit(23578,{achID=8397,awp=50400,id=2,pb=1})}}),
 p(44,{itemID=8490,npcID=7380,pb=1,spellID=10677,u=9,g={
-crit(23591,{achID=8397,awp=50400,id=19,pb=1,providers={{"n",7380}}})}}),
+crit(23591,{achID=8397,awp=50400,id=19,pb=1})}}),
 p(1244,{awp=60002,b=1,itemID=97960,npcID=71200,spellID=142029,u=9}),
 p(56,{itemID=10822,npcID=7543,spellID=10695,u=9}),
 p(232,{itemID=48112,npcID=35396,spellID=67413,u=9}),
@@ -141,7 +141,7 @@ p(229,{b=1,description="Can also be bought from the Wrath of the Lich King Argen
 p(1183,{awp=60002,b=1,itemID=94152,npcID=69820,spellID=138161,u=9}),
 p(183,{b=1,itemID=38050,npcID=27914,spellID=49964,u=9}),
 p(242,{b=1,itemID=49343,npcID=36511,pb=1,spellID=68810,u=9,g={
-crit(23598,{achID=8397,awp=50400,id=23,pb=1,providers={{"n",36511}}})}}),
+crit(23598,{achID=8397,awp=50400,id=23,pb=1})}}),
 p(204,{itemID=44965,npcID=33188,spellID=62491,u=9}),
 p(802,{awp=60002,b=1,itemID=85513,minReputation={1168,21000},npcID=65313,sourceAchievements={6634},spellID=127813,u=9}),
 p(58,{itemID=8499,npcID=7544,spellID=10697,u=9}),

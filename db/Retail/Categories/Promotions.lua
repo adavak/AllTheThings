@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 local ach,cl,cq,crit,cu,en,flt,h,i,ill,mnt,n,o,p,q,s,settings,title,toy,x=_.CreateAchievement,_.CreateCharacterClass,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateIllusion,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.Settings,_.CreateTitle,_.CreateToy,_.CreateExpansion;
-local a={{"n",66984},{"o",384744},{1},{10},{11},{12},{13},{19.1,82,2023},{2},{201230},{222277},{225347},{3},{35.3,38.2,2339},{38.3,94.9,2112},{4},{49.2,58.3,2025},{5},{56.4,19.3,2022},{6},{68795,72366},{7.4,47.5,2024},{7},{79184},{8},{9}};
+local a={{"i",116788},{"o",384744},{1},{10},{11},{12},{13},{19.1,82,2023},{2},{201230},{222277},{225347},{3},{35.3,38.2,2339},{38.3,94.9,2112},{4},{49.2,58.3,2025},{5},{56.4,19.3,2022},{6},{68795,72366},{7.4,47.5,2024},{7},{79184},{8},{9}};
 _.Categories.Promotions={
 h(-514,{awp=90005,g={
 mnt(348162,{description="Granted to players by logging in on character of at least level 20.",u=2}),
@@ -177,7 +177,7 @@ p(2778,{awp=80205,npcID=157716,r=2,u=2,g={
 crit(46933,{achID=14027,id=3,u=2})}}),
 mnt(341821,{awp=90002,rwp=90200,u=2}),
 p(3053,{awp=90002,npcID=175203,rwp=90200,u=2,g={
-crit(51529,{achID=14904,id=2,providers={{"n",175203}},u=2})}}),
+crit(51529,{achID=14904,id=2,u=2})}}),
 ach(14904,{awp=90002,rwp=90200,u=2}),
 mnt(358072,{awp=100107,description="Received after buying the Blizzcon 2023 Collection: Legendary Pack.",rwp=100205,u=2}),
 toy(210042,{awp=100107,b=1,description="Received after buying the Blizzcon 2023 Collection: Epic Pack.",rwp=100205,u=2}),
@@ -232,7 +232,7 @@ ach(6849,{awp=50004,providers={{"i",85870}},rwp=50407,u=2}),
 ach(6848,{awp=50004,providers={{"i",85871}},rwp=50407,u=2}),
 mnt(124659,{awp=50004,b=1,itemID=85870,lvl=10,rwp=50407,u=2}),
 p(671,{awp=50004,itemID=85871,npcID=63832,rwp=50407,spellID=124660,u=2,g={
-crit(34637,{achID=6848,awp=80300,id=3,u=2})}})}}),
+crit(34637,{achID=6848,awp=80300,id=3,u=3})}})}}),
 h(-527,{awp=110007,u=3,g={
 h(-522,{description="These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",u=3,g={
 mnt(1216422,{b=1,itemID=235286,lvl=10,u=3}),
@@ -487,9 +487,8 @@ p(258,{itemID=56806,npcID=42078,spellID=78381,u=3,g={
 crit(34635,{achID=4824,id=3,u=3})}})}}),
 h(-535,{awp=50004,description="These rewards are available to anyone who purchases Starcraft 2: Heart of the Swarm Collection.",u=3,g={
 p(903,{itemID=90177,npcID=66984,spellID=131650,u=3,g={
-crit(34639,{achID=7842,id=2,providers={a[1]},u=3})}}),
-ach(7842,{providers={{"i",90177}},u=3,g={
-crit(34639,{achID=7842,id=2,providers={a[1]},u=3})}})}}),
+crit(34639,{achID=7842,id=2,u=3})}}),
+ach(7842,{providers={{"i",90177}},u=3})}}),
 h(-536,{awp=60202,description="These rewards are available to anyone who purchases Starcraft 2: Legacy of the Void Collection.",u=3,g={
 ach(10309,{providers={{"i",128423}},u=3}),
 p(1255,{b=1,itemID=128423,npcID=71655,spellID=143637,u=3,g={
@@ -788,68 +787,68 @@ s(194707,212336,{f=9,u=2}),
 i(211965,{b=1,spellID=431019,u=2}),
 i(212924,{awp=100205,f=55,u=2,g={
 cq(79392,{itemID=212925,spellID=433302,u=2,g={
-crit(65343,{achID=20033,id=1}),
-crit(65343,{achID=19724,id=1})}}),
+crit(65343,{achID=19724,id=1}),
+crit(65343,{achID=20033,id=1})}}),
 cq(79390,{itemID=212922,spellID=433299,u=2,g={
-crit(66032,{achID=20033,id=2}),
-crit(66032,{achID=19724,id=2})}}),
+crit(66032,{achID=19724,id=2}),
+crit(66032,{achID=20033,id=2})}}),
 cq(79394,{itemID=212927,spellID=433304,u=2,g={
-crit(65340,{achID=20033,id=3}),
-crit(65340,{achID=19724,id=3})}}),
+crit(65340,{achID=19724,id=3}),
+crit(65340,{achID=20033,id=3})}}),
 cq(79399,{itemID=212932,spellID=433310,u=2,g={
-crit(65335,{achID=20033,id=4}),
-crit(65335,{achID=19724,id=4})}}),
+crit(65335,{achID=19724,id=4}),
+crit(65335,{achID=20033,id=4})}}),
 cq(79393,{itemID=212926,spellID=433303,u=2,g={
-crit(65341,{achID=20033,id=5}),
-crit(65341,{achID=19724,id=5})}}),
+crit(65341,{achID=19724,id=5}),
+crit(65341,{achID=20033,id=5})}}),
 cq(79401,{itemID=212933,spellID=433311,u=2,g={
-crit(65334,{achID=20033,id=6}),
-crit(65334,{achID=19724,id=6})}}),
+crit(65334,{achID=19724,id=6}),
+crit(65334,{achID=20033,id=6})}}),
 cq(79396,{itemID=212929,spellID=433306,u=2,g={
-crit(65338,{achID=20033,id=7}),
-crit(65338,{achID=19724,id=7})}}),
+crit(65338,{achID=19724,id=7}),
+crit(65338,{achID=20033,id=7})}}),
 cq(79397,{itemID=212930,spellID=433307,u=2,g={
-crit(65337,{achID=20033,id=8}),
-crit(65337,{achID=19724,id=8})}}),
+crit(65337,{achID=19724,id=8}),
+crit(65337,{achID=20033,id=8})}}),
 cq(79460,{itemID=213019,spellID=433543,u=2,g={
-crit(65329,{achID=20033,id=9}),
-crit(65329,{achID=19724,id=9})}}),
+crit(65329,{achID=19724,id=9}),
+crit(65329,{achID=20033,id=9})}}),
 cq(79406,{itemID=212938,spellID=433316,u=2,g={
-crit(65330,{achID=20033,id=10}),
-crit(65330,{achID=19724,id=10})}}),
+crit(65330,{achID=19724,id=10}),
+crit(65330,{achID=20033,id=10})}}),
 cq(79389,{itemID=212921,spellID=433298,u=2,g={
-crit(65345,{achID=20033,id=11}),
-crit(65345,{achID=19724,id=11})}}),
+crit(65345,{achID=19724,id=11}),
+crit(65345,{achID=20033,id=11})}}),
 cq(79398,{itemID=212931,spellID=433309,u=2,g={
-crit(65336,{achID=20033,id=13}),
-crit(65336,{achID=19724,id=12})}}),
+crit(65336,{achID=19724,id=12}),
+crit(65336,{achID=20033,id=13})}}),
 cq(79391,{itemID=212923,spellID=433300,u=2,g={
-crit(65344,{achID=20033,id=14}),
-crit(65344,{achID=19724,id=13})}}),
+crit(65344,{achID=19724,id=13}),
+crit(65344,{achID=20033,id=14})}}),
 cq(79582,{itemID=213224,spellID=434088,u=2,g={
-crit(65370,{achID=20033,id=15}),
-crit(65370,{achID=19724,id=14})}}),
+crit(65370,{achID=19724,id=14}),
+crit(65370,{achID=20033,id=15})}}),
 cq(79395,{itemID=212928,spellID=433305,u=2,g={
-crit(65339,{achID=20033,id=16}),
-crit(65339,{achID=19724,id=15})}}),
+crit(65339,{achID=19724,id=15}),
+crit(65339,{achID=20033,id=16})}}),
 cq(79403,{itemID=212939,spellID=433317,u=2,g={
-crit(65332,{achID=20033,id=17}),
-crit(65332,{achID=19724,id=16})}}),
+crit(65332,{achID=19724,id=16}),
+crit(65332,{achID=20033,id=17})}}),
 cq(79402,{itemID=212937,spellID=433315,u=2,g={
-crit(65333,{achID=20033,id=18}),
-crit(65333,{achID=19724,id=17})}}),
+crit(65333,{achID=19724,id=17}),
+crit(65333,{achID=20033,id=18})}}),
 cq(79400,{itemID=212934,spellID=433312,u=2,g={
-crit(65328,{achID=20033,id=19}),
-crit(65328,{achID=19724,id=18})}}),
+crit(65328,{achID=19724,id=18}),
+crit(65328,{achID=20033,id=19})}}),
 cq(79405,{itemID=212936,spellID=433314,u=2,g={
-crit(65342,{achID=20033,id=20}),
-crit(65342,{achID=19724,id=19})}}),
+crit(65342,{achID=19724,id=19}),
+crit(65342,{achID=20033,id=20})}}),
 cq(79384,{itemID=212871,spellID=433197,u=2,g={
-crit(65347,{achID=20033,id=21}),
-crit(65347,{achID=19724,id=20})}}),
+crit(65347,{achID=19724,id=20}),
+crit(65347,{achID=20033,id=21})}}),
 cq(79385,{itemID=212872,spellID=433202,u=2,g={
-crit(65346,{achID=20033,id=12}),
-crit(65346,{achID=19724,id=21})}})}})}}),
+crit(65346,{achID=19724,id=21}),
+crit(65346,{achID=20033,id=12})}})}})}}),
 mnt(278966,{b=1,description="Granted to Players who logged in to Hearthstone between March 11th 2024 and May 14th 2024.",itemID=163186,lvl=10,u=2}),
 h(-58,{
 n(215385,{coords={{60.6,59.3,2112}},rwp=100206,u=2,g={
@@ -884,13 +883,14 @@ p(1168,{awp=20100,description="Reward from a Korean Promotional Event (Korea Onl
 p(121,{awp=20003,description="Offered as a fan website gift around Christmas 2006, in Europe. (EU Only)",itemID=22114,npcID=16069,spellID=27241,u=2}),
 ach(12454,{awp=70305,providers={{"n",11327}},u=2}),
 p(1127,{awp=50004,b=1,description="Reward from the Battle.net World Championship in Shanghai 2012 (China Only)",itemID=90953,npcID=68502,pb=1,spellID=132759,u=2,g={
-crit(23599,{achID=8397,awp=50400,id=22,pb=1,providers={{"n",68502}},u=2})}}),
+crit(23599,{achID=8397,awp=50400,id=22,pb=1,u=2})}}),
 mnt(107203,{awp=40300,b=1,itemID=76755,lvl=10,rwp=40302,u=2}),
 ach(414,{awp=30002,providers={{"i",39656}},u=2}),
 p(189,{awp=20402,description="Reward from the 2008 Worldwide Invitational in Paris.",itemID=39656,npcID=29089,spellID=53082,u=2}),
 p(192,{awp=30202,b=1,description="This was awarded to players when they linked their original WoW account to a Battle.Net Tag. No longer available as all accounts now require Battle.Net Tag initially, unless you have access to an unattached account.",itemID=41133,npcID=29726,spellID=55068,u=2}),
 ach(9496,{awp=60002,u=2,g={
-crit(25887,{achID=9496,providers={{"i",116788}},u=2})}}),
+crit(25887,{achID=9496,providers={a[1]},u=2}),
+crit(27433,{achID=9496,id=2,providers={a[1]},u=2})}}),
 mnt(171845,{awp=60002,b=1,description="Azeroth Choppers promotional mount. You had to have logged in on a Horde character between the 24th of July and the 30th of September 2014 in order for your account to receive this mount.",itemID=116788,lvl=17,u=2})}),
 h(-548,{
 ach(1436,{awp=30002,providers={{"i",37719}},u=2}),
@@ -1308,7 +1308,7 @@ p(130,{b=1,itemID=23713,npcID=17255,spellID=30156,u=10}),
 p(302,{awp=40100,b=1,itemID=68840,npcID=52343,spellID=96817,u=10}),
 p(285,{awp=40003,b=1,itemID=67128,npcID=50468,spellID=93624,u=10}),
 p(303,{awp=40100,b=1,itemID=68841,npcID=52344,pb=1,spellID=96819,u=10,g={
-crit(23597,{achID=8397,awp=50400,id=14,pb=1,providers={{"n",52344}}})}}),
+crit(23597,{achID=8397,awp=50400,id=14,pb=1})}}),
 p(328,{awp=40300,b=1,itemID=71624,npcID=54383,spellID=101493,u=10}),
 p(168,{awp=20300,b=1,itemID=34492,npcID=25109,spellID=45125,u=10}),
 p(665,{awp=40300,b=1,itemID=72153,npcID=54745,spellID=102353,u=10}),
@@ -1323,7 +1323,7 @@ s(18283,38163,{cost={{"i",38186,100}},f=2,u=10}),
 s(18361,38286,{cost={{"i",38186,500}},f=2,u=10}),
 s(18360,38285,{cost={{"i",38186,100}},f=2,u=10})}}),
 p(242,{awp=30202,b=1,itemID=49343,npcID=36511,pb=1,spellID=68810,u=10,g={
-crit(23598,{achID=8397,awp=50400,id=23,pb=1,providers={{"n",36511}}})}}),
+crit(23598,{achID=8397,awp=50400,id=23,pb=1})}}),
 p(241,{awp=30202,b=1,itemID=49287,npcID=36482,spellID=68767,u=10})}}),
 flt(50,{u=10,g={
 i(49288,{awp=30200,b=1,f=55,r=1,spellID=68769,u=10}),
