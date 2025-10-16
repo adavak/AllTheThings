@@ -1311,8 +1311,8 @@ namespace ATT
                 Objects.AssignFilterID(source);
                 // skip consolidation step since all the data is generated for this object and doesn't need further cleanup
                 CaptureDebugDBData(source);
-                Objects.Merge(data, "g", source);
             }
+            Objects.Merge(data, "g", rawSources);
 
             // when Blizzard references a questID and tmogSetID which conflict from the same SpellID on an Item, we end up with one Item potentially granting 2 TransmogSets
             // and we should nest that separate TransmogSet under the Item instead of at the same level BUT only if the questID is not already Sourced elsewhere by another
@@ -3203,7 +3203,7 @@ namespace ATT
             // convert extraTransmogSetItems into extraTransmogSetSpells if they exist
             if (data.TryGetValue("extraTransmogSetItems", out List<object> tmogsetItems))
             {
-                List<object> add = new List<object>();
+                ConcurrentDataList g = new ConcurrentDataList();
                 foreach (long subtmogsetItem in tmogsetItems.AsTypedEnumerable<long>())
                 {
                     // we will just use the SpellID as the EnsembleID since it's only used for logging if it's not an ItemID
@@ -3216,26 +3216,26 @@ namespace ATT
                     // since adding a new Item group, run the prior expected logic against it
                     DataConditionalMerge(nestedEnsemble, data);
 
-                    add.Add(nestedEnsemble);
+                    g.Add(nestedEnsemble);
                 }
-                Objects.Merge(data, "g", add);
+                Objects.Merge(data, "g", g);
             }
 
             // add additional ensemble spells as sub-groups of the Item Ensemble
             if (data.TryGetValue("extraTransmogSetSpells", out List<object> tmogsetSpells))
             {
-                List<object> add = new List<object>();
+                ConcurrentDataList g = new ConcurrentDataList();
                 foreach (long subtmogsetSpell in tmogsetSpells.AsTypedEnumerable<long>())
                 {
                     // we will just use the SpellID as the EnsembleID since it's only used for logging if it's not an ItemID
-                    add.Add(new Dictionary<string, object>
+                    g.Add(new Dictionary<string, object>
                     {
                         { "ensembleSpellID", subtmogsetSpell },
                         { "type", "ensembleSpellID" },
                         { "spellID", subtmogsetSpell },
                     });
                 }
-                Objects.Merge(data, "g", add);
+                Objects.Merge(data, "g", g);
             }
 
             // don't incorporate ensemble again
@@ -4549,7 +4549,7 @@ namespace ATT
             // Convert various 'providers' data into data on the parent data
             if (data.TryGetValue("providers", out List<object> providers))
             {
-                List<object> parentg = new List<object>();
+                ConcurrentDataList parentg = new ConcurrentDataList();
                 List<object> parentProviders = new List<object>();
                 List<long> parentCrs = new List<long>();
                 List<long> parentQis = new List<long>();
@@ -4587,7 +4587,7 @@ namespace ATT
                                 {
                                     providerData[Coords.Field] = coords;
                                 }
-                                Objects.Merge(parentg, providerData);
+                                parentg.Add(providerData);
                             }
                             else
                             {
@@ -4600,7 +4600,7 @@ namespace ATT
                             {
                                 // When adding an NPC under the Quest, we will ignore it as being Sourced there for further Parser logic
                                 providerData = new Dictionary<string, object> { { "npcID", pID }, { Coords.Field, coords }, { "_ignoreSourced", true } };
-                                Objects.Merge(parentg, providerData);
+                                parentg.Add(providerData);
                             }
                             else
                             {

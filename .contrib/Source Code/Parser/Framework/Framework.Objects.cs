@@ -1721,7 +1721,7 @@ end");
                             }
 
                             // Attempt to merge the sub groups together.
-                            if (value is List<object> list)
+                            if (value is IEnumerable<object> list)
                             {
                                 Merge(groups, list);
                             }
@@ -2532,7 +2532,7 @@ end");
             /// </summary>
             /// <param name="container">The container to merge into.</param>
             /// <param name="list">The list of data to merge into the container.</param>
-            public static void Merge(List<object> container, List<object> list)
+            public static void Merge(List<object> container, IEnumerable<object> list)
             {
                 foreach (var data in list)
                 {

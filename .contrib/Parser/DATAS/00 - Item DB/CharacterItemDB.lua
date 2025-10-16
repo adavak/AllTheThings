@@ -24,6 +24,7 @@ local iq = function(itemID, questID, classID, raceID)
 	end
 	local item = {
 		type = "characterUnlockQuestID",
+		-- TODO: Technically, we should have all questID values automated from Wago data, and this assignment won't be necessary
 		questID = questID and questID > 0 and questID or nil,
 	}
 	if classID then
