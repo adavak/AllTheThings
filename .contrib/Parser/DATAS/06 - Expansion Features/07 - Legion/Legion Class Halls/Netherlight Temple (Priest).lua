@@ -227,7 +227,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(41993, {	-- Salvation From On High
 						["sourceQuests"] = { 41967 },	-- Out of the Darkness
 						["provider"] = { "n", 105684 },	-- Alora
-						["coord"] = { 34.0, 33.9, BROKEN_SHORE },
+						["coords"] = {
+							{ 34.0, 33.9, BROKEN_SHORE },
+							{ 50.4, 64.8, BROKEN_ISLES },
+						},
 					}),
 					q(42074, {	-- Return of the Light
 						["sourceQuests"] = { 41993 },	-- Salvation From On High

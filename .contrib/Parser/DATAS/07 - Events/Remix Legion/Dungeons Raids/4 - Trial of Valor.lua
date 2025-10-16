@@ -48,6 +48,7 @@ local COMMONLOOT = {
 		i(247588),	-- Corroded Val'kyr Chainmail
 		i(247589),	-- Kvaldir Exult's Grips
 		i(247577),	-- Leggings of the Undaunted
+		i(249680, { ["ItemAppearanceModifierID"] = 0 } ),	-- Ordained Hunter's Crown
 		i(247578),	-- Radiant Soul Sabatons
 		i(249681, { ["ItemAppearanceModifierID"] = 0 } ),	-- Shoulders of the Dragonslayer
 	}),

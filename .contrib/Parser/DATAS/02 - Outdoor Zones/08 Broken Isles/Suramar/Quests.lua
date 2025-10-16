@@ -635,6 +635,11 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44152,	-- A Growing Crisis
 					["provider"] = { "n", 112967 },	-- Valewalker Farodin
 					["coord"] = { 42.3, 14.8, 684 },
+					["groups"] = {
+						o(252010, {	-- Crystallized Bough
+							i(139340),	-- Crystallized Bark (QI!)
+						}),
+					},
 				}),
 				q(40308, {	-- Fragments of Memory
 					["sourceQuest"] = 40227,	-- Bad Intentions
@@ -1702,6 +1707,24 @@ root(ROOTS.Zones, {
 				q(41139, {	-- The Key Is Around Here Somewhere...
 					["provider"] = { "n", 103204 },	-- Angus Stormbrew
 					["coord"] = { 28.4, 82.7, SURAMAR },
+					["groups"] = {
+						o(247063, {	-- Demonwaste Pile
+							["coords"] = {
+								{ 28.0, 81.2, SURAMAR },
+								{ 28.3, 82.4, SURAMAR },
+								{ 28.7, 80.2, SURAMAR },
+								{ 28.9, 83.1, SURAMAR },
+								{ 29.0, 82.1, SURAMAR },
+								{ 29.4, 84.0, SURAMAR },
+								{ 29.5, 83.2, SURAMAR },
+								{ 29.6, 82.0, SURAMAR },
+								{ 30.1, 79.7, SURAMAR },
+								{ 30.6, 78.0, SURAMAR },
+								{ 30.9, 80.6, SURAMAR },
+							},
+							["groups"] = { i(134055) },	-- Reinforced Cage Key (QI!)
+						}),
+					},
 				}),
 				q(40306, {	-- The Last Chapter
 					["sourceQuest"] = 40300,	-- Tools of the Trade

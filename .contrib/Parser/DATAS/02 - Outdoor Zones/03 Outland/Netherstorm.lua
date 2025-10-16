@@ -2322,19 +2322,16 @@ root(ROOTS.Zones, {
 								i(28274),	-- Formula: Enchant Cloak - Spell Penetration [TBC] / Formula: Enchant Cloak - PvP Power [Cata+] (RECIPE!)
 								applyclassicphase(TBC_PHASE_THREE, i(22552, {["timeline"]={ADDED_2_1_0}})),	-- Formula: Enchant Weapon - Major Striking (RECIPE!)
 								i(29456),	-- Gift of the Ethereal
+								i(29457),	-- Nethershard
 								i(24314),	-- Pattern: Bag of Jewels (RECIPE!)
 								i(25733),	-- Pattern: Fel Leather Boots (RECIPE!)
-								i(29118, {	-- Smuggler's Ammo Pouch
-									["timeline"] = { REMOVED_4_0_1 },
-								}),
+								i(29118, {["timeline"] = { REMOVED_4_0_1 }}),	-- Smuggler's Ammo Pouch
 							}, {	-- Revered
 								i(29115),	-- Consortium Blaster
 								i(33156, {["timeline"] = {ADDED_2_2_0}}),	-- Design: Crimson Sun (RECIPE!)
 								i(33305, {["timeline"] = {ADDED_2_2_0}}),	-- Design: Don Julio's Heart (RECIPE!)
 								i(24178),	-- Design: Pendant of the Null Rune (RECIPE!)
-								i(138796, {	-- Illusion: Executioner (ILLUSION!)
-									["timeline"] = { ADDED_7_0_3 },
-								}),
+								i(138796, {["timeline"] = { ADDED_7_0_3 }}),	-- Illusion: Executioner (ILLUSION!)
 								i(29116),	-- Nomad's Leggings
 								i(25734),	-- Pattern: Fel Leather Leggings (RECIPE!)
 								i(23874),	-- Schematic: Elemental Seaforium Charge (RECIPE!)
@@ -2346,7 +2343,6 @@ root(ROOTS.Zones, {
 								i(29121),	-- Guile of Khoraazi
 								i(29119),	-- Haramad's Bargain
 								i(29122),	-- Nether Runner's Cowl
-								i(29457),	-- Nethershard
 							},
 						}),
 					}),

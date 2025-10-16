@@ -24,6 +24,9 @@ root(ROOTS.Zones, {
 					["coord"] = { 44.8, 31.0, SURAMAR },
 					["groups"] = { i(140326) } -- Enchanted Burial Urn (CI!)
 				}),
+				o(251953, {	-- Glimmering Treasure Chest
+					["coord"] = { 22.8, 36.2, SURAMAR },
+				}),
 				o(252822, {	-- Glimmering Treasure Chest
 					["questID"] = 43849,
 					["coord"] = { 42.5, 20.5, SURAMAR },

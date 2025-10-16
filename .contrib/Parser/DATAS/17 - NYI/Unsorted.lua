@@ -194,7 +194,6 @@ root(ROOTS.Unsorted, {
 			i(247570),	-- Treads of the Drowned
 			i(247571),	-- Helhound Hair Bracers
 			i(247576),	-- Anchor Chain Waistguard
-			i(247578),	-- Radiant Soul Sabatons
 			i(247583),	-- Calcareous Wristclamps
 			i(247617),	-- Acolyte's Abandoned Footwraps
 			i(247618),	-- Sash of the Unredeemed
@@ -265,7 +264,6 @@ root(ROOTS.Unsorted, {
 			i(248926),	-- Ancient Thirteen Grain Loaf
 			i(248994),	-- Kalu'ak Crest-horn (MOUNT!)
 			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
-			i(249680),	-- Ordained Hunter's Crown
 			i(249684),	-- Horns of Unwavering Faith
 			i(249716),	-- Steel Food Fanatic Backpack
 			i(249717),	-- Golden Food Fanatic Backpack

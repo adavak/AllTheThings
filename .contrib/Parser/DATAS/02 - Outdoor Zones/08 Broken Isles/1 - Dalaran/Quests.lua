@@ -670,6 +670,11 @@ root(ROOTS.Zones, {
 						797,	-- Karazhan
 					},
 					["groups"] = {
+						o(253980, {	-- Notable Antiquities of Ancient Azeroth
+							["coord"] = { 75.6, 22.7, 797 },	-- Karazhan
+							["groups"] = { i(140635) },	-- Notable Antiquities of Ancient Azeroth (QI!)
+						}),
+						--
 						i(139905),	-- Gloves of thee Arcane Purge
 						i(139934),	-- Handguards of Demonsbane
 						i(139965),	-- Grips of the Fel Destroyer
@@ -1132,7 +1137,10 @@ root(ROOTS.Zones, {
 				q(42970, {	-- The Diamond King
 					["sourceQuests"] = { 40717, 40718 },	-- Calling of the Council [A/H]
 					["provider"] = { "n", 113655 },	-- Brann Bronzebeard
-					["coord"] = { 41.2, 74.8, DEADWIND_PASS },
+					["coords"] = {
+						{ 30.7, 49.0, LEGION_DALARAN },
+						{ 41.2, 74.8, DEADWIND_PASS },
+					},
 				}),
 				q(45904, {	-- The God-Queen's Gift
 					["provider"] = { "n", 90417 },	-- Archmage Khadgar

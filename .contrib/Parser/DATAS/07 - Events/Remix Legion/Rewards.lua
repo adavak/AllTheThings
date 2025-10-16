@@ -270,6 +270,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				--modItemId(249685,3),	-- Mantle of Unforgotten Souls
 				--modItemId(247573,3),	-- Moccasins of Silent Passage
 				--modItemId(247584,3),	-- Oiled Rigger's Handwraps
+				--modItemId(249680,3),	-- Ordained Hunter's Crown
 				--modItemId(247578,3),	-- Radiant Soul Sabatons
 				--modItemId(247590,3),	-- Reinforced Hound-Handler's Gauntlets
 				--modItemId(247566,3),	-- Robes of Celestial Adornment

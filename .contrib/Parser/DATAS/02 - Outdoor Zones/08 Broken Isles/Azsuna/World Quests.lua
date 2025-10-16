@@ -262,9 +262,31 @@ root(ROOTS.Zones, {
 				q(43327),	-- The Magic of Flight
 				q(45134),	-- The Soul Harvesters (Invasion WQ)
 				petbattle(q(42148)),	-- The Wine's Gone Bad
-				q(42112),	-- The Withered Return
+				q(42112, {	-- The Withered Return
+					o(249702, {	-- Stolen Ley Crystals
+						["coords"] = {
+							{ 43.3, 17.8, AZSUNA },
+							{ 43.8, 18.1, AZSUNA },
+							{ 45.9, 16.5, AZSUNA },
+							{ 46.6, 14.4, AZSUNA },
+							{ 46.7, 15.8, AZSUNA },
+							{ 47.2, 14.6, AZSUNA },
+							{ 47.5, 16.5, AZSUNA },
+							{ 47.7, 15.0, AZSUNA },
+							{ 49.1, 15.4, AZSUNA },
+						},
+						["groups"] = { i(136850) },	-- Stolen Ley Crystal (QI!)
+					}),
+				}),
 				q(42018),	-- Those Beyond Redemption
-				q(42019),	-- Tip the Scales
+				q(42019, {	-- Tip the Scales
+					o_repeated({	-- Stolen Nar'thalas Relic
+						i(136822),	-- Stolen Nar'thalas Relic
+						o(249464),	-- Stolen Nar'thalas Relic
+						o(249466),	-- Stolen Nar'thalas Relic
+						o(249467),	-- Stolen Nar'thalas Relic
+					}),
+				}),
 				q(42506),	-- Tomes of Yore
 				petbattle(q(42159)),	-- Training with the Nightwatchers
 				q(42511),	-- Twisted Souls

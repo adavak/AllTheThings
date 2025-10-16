@@ -170,7 +170,24 @@ root(ROOTS.Zones, {
 				q(40850),	-- Prisoners of Greystone
 				q(41416),	-- Retake the Skyhorn
 				q(41789),	-- Return to the Crag
-				q(41144),	-- Return to the River
+				q(41144, {	-- Return to the River
+					o(243712, {	-- Fishing Supplies
+						["coords"] = {
+							{ 37.8, 64.8, HIGHMOUNTAIN },
+							{ 38.1, 62.8, HIGHMOUNTAIN },
+							{ 38.2, 64.3, HIGHMOUNTAIN },
+							{ 39.1, 63.5, HIGHMOUNTAIN },
+							{ 39.4, 62.4, HIGHMOUNTAIN },
+							{ 39.6, 64.1, HIGHMOUNTAIN },
+							{ 40.0, 61.7, HIGHMOUNTAIN },
+							{ 40.1, 62.8, HIGHMOUNTAIN },
+							{ 40.9, 63.2, HIGHMOUNTAIN },
+							{ 41.3, 63.8, HIGHMOUNTAIN },
+							{ 41.9, 62.4, HIGHMOUNTAIN },
+						},
+						["groups"] = { i(128398) },	-- Fishing Gear (QI!)
+					}),
+				}),
 				q(40985),	-- Rimescale Naga Incursion: Highmountain
 				q(41025),	-- Rise of the Fallen
 				q(40966),	-- Ritualists in Our Midsts
