@@ -18,7 +18,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),				
 					ach(60987, {	-- So Many Missions for the Sanctum of Light
 						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Silver Hand Weapon Rack (DECOR!)
+						["groups"] = { i(250236, {["timeline"] = { ADDED_12_0_0 }}),},	-- Silver Hand Weapon Rack (DECOR!)
 					}),
 					ach(42276, {	-- The Highlord's Campaign
 						["timeline"] = { ADDED_11_2_7 },

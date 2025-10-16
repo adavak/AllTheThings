@@ -464,6 +464,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				BossOnly(HARJATAN, {
 					ach(11699, {	-- Grand Fin-ale
 						["crs"] = { 121071 },	-- Elder Murk-Eye
+						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Murloc's Wind Chimes (DECOR!)
 					}),
 				}),
 				BossOnly(SISTERS, {

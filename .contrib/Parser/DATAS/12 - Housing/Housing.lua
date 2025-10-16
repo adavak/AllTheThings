@@ -1,5 +1,5 @@
 ---------------------------------------------
---	  A R C A N T I N A    M O D U L E	   --
+--      H O U S I N G    M O D U L E       --
 ---------------------------------------------
 root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 	n(ACHIEVEMENTS, {

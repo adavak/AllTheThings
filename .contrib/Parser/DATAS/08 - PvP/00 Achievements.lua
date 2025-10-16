@@ -316,7 +316,7 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 	}),
 	ach(1157, {		-- Duel-icious
 		["timeline"] = { ADDED_3_0_2 },
-		--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Challenger's Duelling Flag (DECOR!)
+		--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Challenger's Dueling Flag (DECOR!)
 	}),
 	ach(11693, {	-- Eighteen and Over
 		["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },

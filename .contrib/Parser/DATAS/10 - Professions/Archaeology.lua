@@ -849,6 +849,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				crit(25711, {	-- Apexis Scroll
 					["provider"] = { "i", 114206 },	-- Apexis Scroll
 				}),
+				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Glorious Pendant of Rukhmar (DECOR!)
 			}),
 			ach(9413, {	-- Strength and Honor
 				crit(25673, {	-- Ancestral Talisman
