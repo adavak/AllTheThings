@@ -29,6 +29,9 @@ local function IsSpellKnownByQuestComplete(spellID)
 	if (spellID == 148972 or spellID == 148970) and IsQuestFlaggedCompleted(32325) then	-- Green Dread/Fel-Steed returning false for the above functions
 		return true;
 	end
+	if spellID == 1255451 and IsQuestFlaggedCompleted(92638) then	-- Feldruid's Scornwing Idol returning false for the above functions
+		return true;
+	end
 end
 -- Consolidates some spell checking
 ---@param spellID number
