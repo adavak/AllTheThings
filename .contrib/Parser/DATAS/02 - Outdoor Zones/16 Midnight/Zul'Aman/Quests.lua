@@ -123,30 +123,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--		i(260471),	-- Bloodspattered Wraps
 					--	},
 					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
 					q(86720, {	-- Break the Blade
 						["sourceQuests"] = {
 							86712,	-- The Amani Stand Strong
