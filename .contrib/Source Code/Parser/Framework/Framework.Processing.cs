@@ -187,7 +187,7 @@ namespace ATT
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
-            AddHandlerAction(ParseStage.Consolidation, Handler.AlwaysHandle, Consolidate_CleanupGroup);
+            AddHandlerAction(ParseStage.Consolidation, Handler.AlwaysHandle, Consolidate_Parallel);
 
             // Merge the Item Data into the Containers.
             CurrentParseStage = ParseStage.Validation;
@@ -1022,8 +1022,6 @@ namespace ATT
                 //}
             }
 
-            //VerifyListContentOrdering(data);
-
             // during consolidation we may realize that data is not useful, and can mark it to be removed before further steps take place
             if (data.TryGetValue("_remove", out remove) && remove)
                 return false;
@@ -1146,7 +1144,7 @@ namespace ATT
             }
         }
 
-        private static void Consolidate_CleanupGroup(IDictionary<string, object> data)
+        private static void Consolidate_Parallel(IDictionary<string, object> data)
         {
             // if this group was flagged to remove, just ignore cleaning it since it won't show up in export
             if (data.TryGetValue("_remove", out bool remove) && remove)
@@ -1160,6 +1158,7 @@ namespace ATT
             CheckRequireSkill(data);
             Consolidate_ConflictingFields(data);
             Consolidate_ReferencedIDs(data);
+            Consolidate_ListOrdering(data);
             Objects.AssignFactionID(data);
 
             List<string> removeKeys = new List<string>();

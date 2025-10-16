@@ -888,7 +888,7 @@ namespace ATT
         /// Checks the data for any list-based content and attempts to order that content in a consistent way so that output remains identical for identical data
         /// </summary>
         /// <param name="data"></param>
-        private static void VerifyListContentOrdering(IDictionary<string, object> data)
+        private static void Consolidate_ListOrdering(IDictionary<string, object> data)
         {
             foreach (KeyValuePair<string, object> entry in data)
             {
@@ -901,13 +901,12 @@ namespace ATT
                     case "sourceAchievements":
                     case "sourceQuests":
                     case "altQuests":
-                    case "customCollect":
-                    case "cost":
+                    //case "customCollect":
                     case "difficulties":
                     case "maps":
                     case "qgs":
+                    case "qis":
                     case "crs":
-                    case Coords.Field:
                         // is it a list of objects?
                         if (entry.Value is List<object> valList)
                         {
@@ -924,13 +923,21 @@ namespace ATT
             if ((list?.Count ?? 0) < 2)
                 return;
 
-            list.Sort(delegate (object a, object b)
+            // only sort lists which have a long value
+            var firstVal = list[0];
+            if (firstVal.TryConvert(out long _))
             {
-                unchecked
+                list.Sort(delegate (object a, object b)
                 {
-                    return a.GetHashCode() - b.GetHashCode();
-                }
-            });
+                    if (a.TryConvert(out long al) && b.TryConvert(out long bl))
+                    {
+                        return al.CompareTo(bl);
+                    }
+
+                    // don't change order if either can't be converted
+                    return 0;
+                });
+            }
         }
 
         /// <summary>
