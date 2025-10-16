@@ -3962,7 +3962,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["coord"] = { 39.0, 91.2, EASTERN_PLAGUELANDS },
 						}),
-						i(15723),	-- Tea with Sugar
+						i(15723, {["timeline"] = { REMOVED_4_0_3 }}),	-- Tea with Sugar
 					},
 				}),
 				q(27390, {	-- The Battle of Darrowshire
@@ -3991,7 +3991,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(62955, {	-- Pauldrons of Darrowshire
 							["timeline"] = { ADDED_4_0_3 },
 						}),
-						i(15723),	-- Tea with Sugar
+						i(63023),	-- Sweet Tea
 					},
 				}),
 				q(27459, {	-- The Brotherhood of Light
