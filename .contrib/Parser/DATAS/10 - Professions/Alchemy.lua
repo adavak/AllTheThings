@@ -1146,7 +1146,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 			q(83255, {	-- TWW Weekly Alchemy Knowledgepoint #2
 				["name"] = "TWW Weekly Alchemy Treasure #2",
-				["provider"] = { "i", 225235} ,		-- Deepstone Crucible
+				["provider"] = { "i", 225235 },		-- Deepstone Crucible
 			}),
 		})),
 	})),

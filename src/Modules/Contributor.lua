@@ -1006,6 +1006,7 @@ MobileDB.GameObject = {
 	[244335] = true,	-- Ritual Circle (q:38413)
 	[244336] = true,	-- Ritual Circle (q:38413)
 	[244337] = true,	-- Ritual Circle (q:38413)
+	[244419] = true,	-- Eagle Egg (q:39305)
 	[244449] = true,	-- Reflective Mirror
 	[244450] = true,	-- Rune of Reformation
 	[244457] = true,	-- Spitefeather's Rock (q:39787)

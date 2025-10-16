@@ -45,6 +45,7 @@ root(ROOTS.Zones, {
 					["qg"] = 99905,	-- Shale Greyfeather
 					["coord"] = { 42.4, 46.9, 750 },	-- Thunder Totem
 					["isBreadcrumb"] = true,
+					["groups"] = { i(127769) },	-- Quiver of Arrows (PQI!)
 				}),
 				q(39429, {	-- Assaulting the Haglands
 					["sourceQuests"] = { 38910 },	-- Rocs vs Eagles
@@ -314,6 +315,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 49.4, 39.2, HIGHMOUNTAIN },
 					["groups"] = {
+						i(128757),	-- Eagle Eggs (PQI!)
+						--
 						i(129277),	-- Skyhorn Nestling (PET!)
 					},
 				}),
@@ -334,6 +337,7 @@ root(ROOTS.Zones, {
 				q(40069, {	-- Fledgling Worm Guts
 					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 50.9, 36.6, HIGHMOUNTAIN },
+					["groups"] = { i(137569) },	-- Worm Guts (QI!)
 				}),
 				q(38909, {	-- Get to High Ground
 					["sourceQuests"] = { 39027 },	-- Dargrul and the Hammer
@@ -376,6 +380,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 38912 },	-- The Bloodtotem Tribe
 					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["coord"] = { 39.3, 37.0, HIGHMOUNTAIN },
+					["groups"] = { i(128380) },	-- Hag Feather (QI!)
 				}),
 				q(41094, {	-- Hatchlings of the Talon
 					["provider"] = { "n", 97925 },	-- Aviana
@@ -443,9 +448,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39123 },	-- Lion Stalkin'
 					["provider"] = { "n", 95438 },	-- Ellias
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
-					["groups"] = {
-						i(133810),	-- Recipe: Salt and Pepper Shank [Rank 1] (RECIPE!)
-					},
+					["groups"] = { i(133810) },	-- Recipe: Salt and Pepper Shank [Rank 1] (RECIPE!)
 				}),
 				q(40219, {	-- In Defiance of Deathwing
 					["sourceQuests"] = { 39575 },	-- The Path of Huln
@@ -490,9 +493,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39124 },	-- Moose Shootin'
 					["provider"] = { "n", 94101 },	-- Laeni Silvershot
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
-					["groups"] = {
-						i(141647),	-- Medallion of Morashu
-					},
+					["groups"] = { i(141647) },	-- Medallion of Morashu
 				}),
 				q(39124, {	-- Moose Shootin'
 					["sourceQuests"] = {
@@ -505,9 +506,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39323 },	-- Moozy's Sojourn
 					["provider"] = { "n", 95130 },	-- Mooze Waterwise
 					["coord"] = { 37.5, 64.2, HIGHMOUNTAIN },
-					["groups"] = {
-						i(121724),	-- Whitewater Safety Blanket
-					},
+					["groups"] = { i(121724) },	-- Whitewater Safety Blanket
 				}),
 				q(42590, {	-- Moozy's Reunion
 					["sourceQuests"] = { 39572 },	-- Moozy's Adventure
@@ -536,9 +535,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
-					["groups"] = {
-						i(133818),	-- Recipe: Barracuda Mrglgagh [Rank 1] (RECIPE!)
-					},
+					["groups"] = { i(133818) },	-- Recipe: Barracuda Mrglgagh [Rank 1] (RECIPE!)
 				}),
 				q(40045, {	-- Nature vs. Nurture
 					["sourceQuests"] = { 40244 },	-- That Guy in the Costume
@@ -558,6 +555,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 94434 },	-- Addie Fizzlebog
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
 					["groups"] = {
+						i(128864),	-- The Rocky Hills of Highmountain (QI!)
+						--
 						i(130320),	-- Addie's Ink-Stained Satchel
 					},
 				}),
@@ -688,6 +687,7 @@ root(ROOTS.Zones, {
 				q(39764, {	-- Shiny, But Deadly
 					["provider"] = { "n", 97094 },	-- Apprentice Rosalyn
 					["coord"] = { 51.8, 82.0, 654 },	-- Mucksnout Den
+					["groups"] = { i(128752) },	-- Soul Chamber (QI!)
 				}),
 				q(40049, {	-- Slime Time
 					["sourceQuests"] = { 40244 },	-- That Guy in the Costume
@@ -720,6 +720,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39381 },	-- Rock Troll in a Hard Place
 					["provider"] = { "n", 95421 },	-- Navarrogg
 					["coord"] = { 45.1, 32.4, HIGHMOUNTAIN },
+					["groups"] = { i(128343) },	-- Stonedark Focus (QI!)
 				}),
 				q(39439, {	-- Stonedark Relics
 					["sourceQuests"] = { 39440 },	-- You Lift, Brul?
@@ -883,9 +884,7 @@ root(ROOTS.Zones, {
 						WARLOCK,	-- Destruction
 					},
 					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
-					["groups"] = {
-						i(143863),	-- Fel Exfoliator (QI!)
-					},
+					["groups"] = { i(143863) },	-- Fel Exfoliator (QI!)
 				}),
 				q(39321, {	-- The Three
 					["sourceQuests"] = { 38910 },	-- Rocs vs Eagles
@@ -1041,6 +1040,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 96513 },	-- Razik Gazbolt
 					["coord"] = { 57.6, 56.5, HIGHMOUNTAIN },
 					["groups"] = {
+						i(128651),	-- Critter Hand Cannon (PQI!)
 						i(131933),	-- Critter Hand Cannon (TOY!)
 					},
 				}),
