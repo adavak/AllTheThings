@@ -1837,7 +1837,6 @@ root(ROOTS.Zones, {
 					}),
 					n(82826, {	-- Berserk T-300 Series Mark II
 						["questID"] = 35735,
-						["isDaily"] = true,
 						["coord"] = { 76.9, 64.3, DRAENOR_NAGRAND },
 						["description"] = "Use the plunger next to the cave.",
 						["groups"] = {
@@ -1935,7 +1934,6 @@ root(ROOTS.Zones, {
 					}),
 					n(83509, {	-- Gorepetal
 						["questID"] = 35898,
-						["isDaily"] = true,
 						["coord"] = { 93.2, 28.2, DRAENOR_NAGRAND },
 						["groups"] = {
 							i(116916),	-- Gorepetal's Gentle Grasp

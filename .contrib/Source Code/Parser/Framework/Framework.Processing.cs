@@ -187,6 +187,7 @@ namespace ATT
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
+            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("questID"), Consolidate_questID);
             AddHandlerAction(ParseStage.Consolidation, Handler.AlwaysHandle, Consolidate_Parallel);
 
             // Merge the Item Data into the Containers.
@@ -3957,6 +3958,32 @@ namespace ATT
             {
                 Objects.Merge(data, "qis", parentQis);
                 LogDebug($"Merged 'qis' to parent from Objective: {ToJSON(parentQis)}", data);
+            }
+        }
+
+        private static void Consolidate_questID(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("questID", out long questID))
+                return;
+
+            // If there's any SpellEffect with a '139' (CLEAR_QUEST) effect for this questID,
+            // this quest should be marked as repeatable
+            if (!data.ContainsKey("_nonrepeatable")
+                && WagoData.Enumerate<SpellEffect>(se => se.IsClearQuest() && se.EffectMiscValue_0 == questID).Any())
+            {
+                if (data.ContainsAnyKey("isDaily", "isMonthly", "isWeekly", "isYearly"))
+                {
+                    LogDebugWarn($"Quest {questID} is possibly repeatable due to existing CLEAR_QUEST SpellEffect but is marked with a different repeatable type", data);
+                }
+                else if (!data.TryGetValue("type", out string type) || type != "hqt")
+                {
+                    LogDebug($"INFO: Ignoring 'repeatable' non-HQT {questID} due to existing CLEAR_QUEST SpellEffect", data);
+                }
+                else if (!data.TryGetValue("repeatable", out bool repeatable) || !repeatable)
+                {
+                    data["repeatable"] = true;
+                    LogDebug($"INFO: Marked 'repeatable' HQT {questID} due to existing CLEAR_QUEST SpellEffect", data);
+                }
             }
         }
 

@@ -405,6 +405,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["sourceQuests"] = { 85730 },	-- Salvaging What's Left
 						["qg"] = 230602,	-- Xal'atath
 						["coord"] = { 68.4, 51.9, KARESH },
+						["_norepeatable"] = true,	-- cleared by spell 1252221, but likely never actually used
 					}),
 					--
 					q(84834, {	-- Tempest Clefts
@@ -464,6 +465,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["sourceQuests"] = { 84848 },	-- Before the Void
 						["qg"] = 230658,	-- Xal'atath
 						["coord"] = { 63.1, 39.0, KARESH },
+						["_norepeatable"] = true,	-- cleared by spell 1247659, but likely never actually used
 					}),
 					--
 					q(86332, {	-- Distribution of Power

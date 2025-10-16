@@ -281,7 +281,8 @@ namespace ATT
         /// <summary>
         /// Returns if the dictionary contains any of the provided keys
         /// </summary>
-        public static bool ContainsAnyKey<TKey, TValue>(this IDictionary<TKey, TValue> dict, params TKey[] keys) => dict.ContainsAnyKey((IEnumerable<TKey>)keys);
+        public static bool ContainsAnyKey<TKey, TValue>(this IDictionary<TKey, TValue> dict, params TKey[] keys)
+            => dict.ContainsAnyKey((IEnumerable<TKey>)keys);
 
         /// <summary>
         /// Returns if the dictionary contains any of the provided keys

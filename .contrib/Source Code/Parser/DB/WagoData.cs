@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 
 namespace ATT.DB
@@ -53,7 +54,7 @@ namespace ATT.DB
         /// </summary>
         /// <typeparam name="T">The class to get.</typeparam>
         /// <returns>The cached data container.</returns>
-        public static Dictionary<long, T> GetAll<T>() where T: IDBType
+        public static Dictionary<long, T> GetAll<T>() where T : IDBType
         {
             return Cache<T>.CachedData;
         }
@@ -179,12 +180,7 @@ namespace ATT.DB
         /// <typeparam name="T">The class to get.</typeparam>
         /// <returns>The cached data container.</returns>
         public static IEnumerable<T> Enumerate<T>(Func<T, bool> requirements) where T : IDBType
-        {
-            foreach (var o in Cache<T>.CachedData.Values)
-            {
-                if (requirements(o)) yield return o;
-            }
-        }
+            => Cache<T>.CachedData.Values.Where(requirements);
 
         #region Children
         /// <summary>
@@ -1067,7 +1063,7 @@ namespace ATT.DB
             {
                 if (ExportableDataProperties == null) return null;
                 var data = new Dictionary<string, object>();
-                foreach(var dataPropertyPair in ExportableDataProperties)
+                foreach (var dataPropertyPair in ExportableDataProperties)
                 {
                     var value = dataPropertyPair.Value.GetValue(o);
                     if (value == null) continue;

@@ -16,5 +16,6 @@ namespace ATT.DB.Types
 
         public bool IsQuest() => Effect == 16;
         public bool IsLearnedTransmogSet() => Effect == 255;
+        public bool IsClearQuest() => Effect == 139;
     }
 }

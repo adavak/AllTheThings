@@ -14289,7 +14289,7 @@ i(212298,{f=55,lvl=71,spellID=432452})}),
 h(-244,{
 q(81132,{an="s:433087",providers={{"s",433087}},requireSkill=171,type="hqt"}),
 q(81090,{an="s:430315",providers={a[221]},requireSkill=171,type="hqt"}),
-q(78604,{an="s:427174",providers={a[220]},requireSkill=171,type="hqt"}),
+q(78604,{an="s:427174",providers={a[220]},repeatable=1,requireSkill=171,type="hqt"}),
 q(84492,{an="s:462121",providers={{"s",462121}},requireSkill=171,type="hqt"}),
 q(81129,{an="s:432204",providers={{"s",432204}},requireSkill=171,type="hqt"}),
 q(84493,{an="s:462122",providers={{"s",462122}},requireSkill=171,type="hqt"}),

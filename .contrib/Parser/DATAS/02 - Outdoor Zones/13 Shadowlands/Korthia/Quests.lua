@@ -197,6 +197,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["sourceQuests"] = { 64556 },	-- In Need of Assistance (must be on quest)
 					["provider"] = { "n", 178793 },	-- Kael'thas Sunstrider
 					["coord"] = { 61.8, 25.6, KORTHIA },
+					["_drop"] = { "isDaily" },	-- bad API data
 					["groups"] = {
 						i(185754),	-- Devoured Anima (QI!)
 					},
@@ -205,6 +206,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["sourceQuests"] = { 64556 },	-- In Need of Assistance (must be on quest)
 					["provider"] = { "n", 178844 },	-- Ta'nasi
 					["coord"] = { 64.6, 25.4, KORTHIA },
+					["_drop"] = { "isDaily" },	-- bad API data
 					["groups"] = {
 						i(186170),	-- Observational Record (QI!)
 					},
@@ -213,6 +215,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["sourceQuests"] = { 64556 },	-- In Need of Assistance (must be on quest)
 					["provider"] = { "n", 179216 },	-- Mikanikos
 					["coord"] = { 61.4, 23.2, KORTHIA },
+					["_drop"] = { "isDaily" },	-- bad API data
 					["groups"] = {
 						i(187504),	-- Mikanikos' Restorative Contraption (QI!)
 					},

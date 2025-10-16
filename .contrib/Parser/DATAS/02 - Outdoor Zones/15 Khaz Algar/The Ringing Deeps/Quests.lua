@@ -805,7 +805,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["sourceQuestNumRequired"] = 1,
 					["provider"] = { "i", 228228 },	-- Strange Lump of Wax
 					["coord"] = { 47.7, 35.3, THE_RINGING_DEEPS },
-					["isDaily"] = true,
 				}),
 				q(79683, {	-- Home is Where the Candle Is
 					["sourceQuests"] = {

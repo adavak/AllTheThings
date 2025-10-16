@@ -8,6 +8,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["description"] = "This part of the 'Adventurer of Val'sharah' achievement doesn't involve killing a rare, but stealing an NPC's treasure. The treasure chest is on the second floor of the building and can be found directly across the room from Antydas, hidden next to the sink. Enjoy your foray into larceny!",
 				["coord"] = { 64.5, 85.3, VALSHARAH },
 				["questID"] = 38903,
+				["isDaily"] = IGNORED_VALUE,
 			}),
 			n(110562, {	-- Bahagar
 				["coord"] = { 45.2, 88.1, VALSHARAH },
@@ -19,6 +20,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			n(92965, {	-- Darkshade
 				["coord"] = { 44.0, 52.5, VALSHARAH },
 				["questID"] = 38767,
+				["isDaily"] = IGNORED_VALUE,
 				["groups"] = {
 					i(130166),	-- Risen Saber Kitten (PET!)
 				},
@@ -51,6 +53,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["crs"] = { 92111 },	-- Lorel Sagefeather
 				["coord"] = { 59.7, 77.2, VALSHARAH },
 				["questID"] = 38468,
+				["isDaily"] = IGNORED_VALUE,
 				["groups"] = {
 					i(130154),	-- Pygmy Owl (PET!)
 				},
@@ -104,6 +107,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			n(92180, {	-- Seersei
 				["coord"] = { 41.8, 77.7, VALSHARAH },
 				["questID"] = 38479,
+				["isDaily"] = IGNORED_VALUE,
 				["groups"] = {
 					i(130171),	-- Cursed Orb (TOY!)
 				},
@@ -112,6 +116,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["description"] = "Click on Theryssia's nameplate on the gravestone.",
 				["coord"] = { 38.0, 52.8, VALSHARAH },
 				["questID"] = 38772,
+				["isDaily"] = IGNORED_VALUE,
 				["groups"] = {
 					i(130136),	-- Theryssia's White Gown
 				},
@@ -119,6 +124,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			n(93205, {	-- Thondrax
 				["coord"] = { 62.6, 47.8, VALSHARAH },
 				["questID"] = 38780,
+				["isDaily"] = IGNORED_VALUE,
 				["groups"] = {
 					i(130121),	-- Thondrax's Night-Runed Bands
 				},

@@ -121,6 +121,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 					["provider"] = { "n", 214378 },	-- Faerin
 					["coord"] = { 53.9, 30.7, HALLOWFALL },
+					["_norepeatable"] = true,	-- spell 444839 clears this quest, but likely never used
 				}),
 				--
 				q(78934, {	-- Blades of the Arathi
