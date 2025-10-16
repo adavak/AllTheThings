@@ -4198,10 +4198,10 @@ setmetatable(_.HeaderConstants, {
         /// Allows making easily-customized break points based on specific field data, since for whatever reason using 'real' conditional
         /// break points in VS is garbage awful slow horrible...
         /// </summary>
-        public static void DataBreakPoint<T>(this IDictionary<string, object> data, string field, T fieldVal = default)
+        public static void DataBreakPoint<T, K, V>(this IDictionary<K, V> data, K field, T fieldVal = default)
         {
             if (data == null) return;
-            if (data.TryGetValue(field, out object dataObj) && dataObj.TryConvert(out T dataVal) && (Equals(default(T), fieldVal) || Equals(dataVal, fieldVal)))
+            if (data.TryGetValue(field, out V dataObj) && dataObj.TryConvert(out T dataVal) && (Equals(default(T), fieldVal) || Equals(dataVal, fieldVal)))
             {
 
             }

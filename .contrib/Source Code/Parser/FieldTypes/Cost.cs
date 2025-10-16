@@ -172,17 +172,17 @@ namespace ATT.FieldTypes
                             }
 
                             // Single Cost Item on a Achieve/Criteria group should be represented as a Provider instead
-                            if (_data.TryGetValue("achID", out long _) ||
-                                _data.TryGetValue("criteriaID", out long _))
-                            {
-                                if (!_data.TryGetValue("providers", out object _) &&
-                                    costType.Value.Count == 1 &&
-                                    costRec.Value == 1)
-                                {
-                                    clean.Add(costID);
-                                    Objects.Merge(_data, "provider", new List<object> { "i", costRec.Key });
-                                }
-                            }
+                            //if (_data.TryGetValue("achID", out long _) ||
+                            //    _data.TryGetValue("criteriaID", out long _))
+                            //{
+                            //    if (!_data.TryGetValue("providers", out object _) &&
+                            //        costType.Value.Count == 1 &&
+                            //        costRec.Value == 1)
+                            //    {
+                            //        clean.Add(costID);
+                            //        Objects.Merge(_data, "provider", new List<object> { "i", costRec.Key });
+                            //    }
+                            //}
                             break;
                         }
                         break;

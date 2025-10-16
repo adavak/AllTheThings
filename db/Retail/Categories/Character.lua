@@ -6622,8 +6622,8 @@ h(-31,{
 faction(1169,{collectible=false,description="This is a hidden reputation. It might not count towards reputation achievements."}),
 faction(1168,{providers={{"i",69210},{"i",69209}}})}),
 h(-511,_.ResolveQuestData({aqd=
-{coords={{64.1,77,84},{36.3,85.7,87},{64.7,37.6,89},{53.6,69.6,103},a[235],a[208],{70.2,14.7,1161}},crs={51512,51501,142086,52268,46602,51495,51504}},hqd=
-{coords={{48.4,75.5,85},{56.8,88.6,85},{37.1,63.3,88},{69.8,43.7,90},{78.3,85.2,110},a[235],a[208],{58,43.6,1163}},crs={46572,51496,142856,51502,51512,51503,52268,142185}},g={
+{coords={{64.1,77,84},{36.3,85.7,87},{64.7,37.6,89},{53.6,69.6,103},a[235],a[208],{70.2,14.7,1161}},crs={46602,51495,51501,51504,51512,52268,142086}},hqd=
+{coords={{48.4,75.5,85},{56.8,88.6,85},{37.1,63.3,88},{69.8,43.7,90},{78.3,85.2,110},a[235],a[208],{58,43.6,1163}},crs={46572,51496,51502,51503,51512,52268,142185,142856}},g={
 heir(62040,{f=3,minReputation=a[60],rwp=60100,sourceAchievements=a[192],sourceID=31138,u=2}),
 heir(122262,{awp=60100,f=3,minReputation=a[60],sourceAchievements=a[192],sourceID=69100}),
 heir(62039,{f=3,minReputation=a[60],rwp=60100,sourceAchievements=a[192],sourceID=31137,u=2}),
@@ -7118,7 +7118,7 @@ q(72465,{coords={a[206]},lvl=50,qgs=a[128],races=a[133],sourceQuests=a[264]}),
 q(72467,{coords={a[206]},lvl=50,qgs=a[128],races=a[133],sourceQuests=a[264]}),
 q(72476,{coords={a[206]},lvl=50,qgs=a[128],races=a[133],sourceQuests=a[264]}),
 q(72466,{coords={{40.6,26.8,1}},lvl=50,qgs={199165},races=a[133],sourceQuests={72465}}),
-q(74581,{coords={{52.3,42.9,1}},lvl=50,qgs={199173,199152,200616,199154,199156,199151},races=a[133],sourceQuests={72467}}),
+q(74581,{coords={{52.3,42.9,1}},lvl=50,qgs={199151,199152,199154,199156,199173,200616},races=a[133],sourceQuests={72467}}),
 q(72474,{coords={a[179]},lvl=50,qgs=a[55],races=a[133],sourceQuests=a[271]}),
 q(72463,{coords={{50,60,461}},isBreadcrumb=1,lvl=50,nextQuests={72475},qgs={200760},races=a[133],sourceQuests=a[271],g={
 i(202402,{races=a[133]}),
