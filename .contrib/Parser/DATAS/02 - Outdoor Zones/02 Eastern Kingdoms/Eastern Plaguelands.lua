@@ -2625,6 +2625,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(62972, {	-- Infectis Incher Leggings
 							["timeline"] = { ADDED_4_0_3 },
 						}),
+						i(64640),	-- Infectis Puffer Sashimi
 					},
 				}),
 				q(27456, {	-- Gathering Some Grub(s)
@@ -2651,6 +2652,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(62978, {	-- Devourer's Stomach
 							["timeline"] = { ADDED_4_0_3 },
 						}),
+						i(64641),	-- "Delicious" Worm Steak
 					},
 				}),
 				q(27367, {	-- Gidwin Goldbraids
