@@ -6041,6 +6041,21 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247559),	-- Wristclamps of Mad Dreams
 					}),
 				}),
+				d(DIFFICULTY.RAID.NORMAL, {
+					filter(MAIL, {
+						i(247539),	-- Greyed Dragonscale Coif
+					}),
+				}),
+				d(DIFFICULTY.RAID.HEROIC, {
+					filter(MAIL, {
+						i(247539),	-- Greyed Dragonscale Coif
+					}),
+				}),
+				d(DIFFICULTY.RAID.MYTHIC, {
+					filter(MAIL, {
+						i(247539),	-- Greyed Dragonscale Coif
+					}),
+				}),
 			}),
 			header(HEADERS.LFGDungeon, 2834, {	-- Trial of Valor
 				d(DIFFICULTY.RAID.LFR, {

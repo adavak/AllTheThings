@@ -72,7 +72,6 @@ local COMMONLOOT = {
 		i(247564),	-- Gauntlets of Fractured Dreams
 		i(247538),	-- Gauntlets of Malevolent Intent
 		i(247506),	-- Gauntlets of the Demented Mind
-		i(247539),	-- Greyed Dragonscale Coif
 		i(247536),	-- Laughing Sister's Pouch-Chain
 		i(247504),	-- Malignant Sabatons
 		i(247547),	-- Manacles of the Nightmare Colossus
