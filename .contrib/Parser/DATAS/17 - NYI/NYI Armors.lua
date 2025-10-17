@@ -6034,6 +6034,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247557),	-- Pauldrons of Shifting Runes
 						i(247550),	-- Primal Gauntlets of Rage
 						i(247554),	-- Storm-Battered Legplates
+						i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 						i(247558),	-- Trampling Warboots
 						i(247553),	-- Venom-Fanged Barbute
 						i(247551),	-- Waistplate of Nameless Horror
@@ -6051,6 +6052,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 					filter(CLOTH, {
 						i(247567),	-- Cinch of Light
 						i(247571),	-- Helhound Hair Bracers
+						i(249684),	-- Horns of Unwavering Faith
 						i(247569),	-- Leggings of the Lower Planes
 						i(249685),	-- Mantle of Unforgotten Souls
 						i(247584),	-- Oiled Rigger's Handwraps
@@ -6073,6 +6075,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247588),	-- Corroded Val'kyr Chainmail
 						i(247589),	-- Kvaldir Exult's Grips
 						i(247577),	-- Leggings of the Undaunted
+						i(249680),	-- Ordained Hunter's Crown
 						i(247578),	-- Radiant Soul Sabatons
 						i(249681),	-- Shoulders of the Dragonslayer
 					}),
@@ -6083,7 +6086,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(249678),	-- Helheim Hound's Visor
 						i(247580),	-- Krakenbone Waistplate
 						i(247582),	-- Lead-Soled Seabed Striders
-						i(247565),	-- Tarnished Dreamkeeper's Gauntlets
 						i(247590),	-- Reinforced Hound-Handler's Gauntlets
 						i(249679),	-- Sovereign Valarjar Mantle
 					}),

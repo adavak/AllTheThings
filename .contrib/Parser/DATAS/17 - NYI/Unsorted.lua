@@ -263,7 +263,6 @@ root(ROOTS.Unsorted, {
 			i(248926),	-- Ancient Thirteen Grain Loaf
 			i(248994),	-- Kalu'ak Crest-horn (MOUNT!)
 			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
-			i(249684),	-- Horns of Unwavering Faith
 			i(249716),	-- Steel Food Fanatic Backpack
 			i(249717),	-- Golden Food Fanatic Backpack
 			i(249718),	-- Bronze Food Fanatic Backpack

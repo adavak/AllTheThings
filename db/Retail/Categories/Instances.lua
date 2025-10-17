@@ -57831,7 +57831,7 @@ q(89022,{lvl=70,minReputation=a[461],qgs=a[428]}),
 q(89026,{lvl=70,minReputation={2685,18},qgs=a[428]}),
 q(89023,{lvl=70,minReputation={2685,19},qgs=a[428]}),
 q(85471,{minReputation=a[463],qgs=a[428],repeatable=1,g={
-i(232463,{minReputation=a[463]})}})}),
+i(232463,{minReputation={2653,20}})}})}),
 h(-56,{
 o(505248,{description="Interact with for a 10% chance for a free Crystalized Augment Rune.\n\nAt renown 14, you are guaranteed at least one.",isWeekly=1,minReputation=a[462],questID=89350,g={
 i(224572,{f=55,lvl=80,spellID=453250})}})}),

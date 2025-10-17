@@ -1392,9 +1392,7 @@ i(232305);	-- Forged Champion's Prestigious Banner
 i(224192);	-- Practice Ravager
 i(232301);	-- Tempered Banner of the Algari
 --- NYI ---
-i(232303);	-- Unknown
 i(232304);	-- Unknown
-i(232307);	-- Unknown
 i(232308);	-- Unknown
 
 ------------------
@@ -1470,6 +1468,7 @@ i(245942);	-- Sea-Blessed Shrine
 ------------------
 -- PATCH 11.2.0 --
 ------------------
+i(232307);	-- Astral Champion's Prestigious Banner
 i(245946);	-- Brewer's Balloon
 i(246907);	-- Broker Supply Crate
 i(242323);	-- Chowdar's Favorite Ribbon
@@ -1482,15 +1481,10 @@ i(246903);	-- Guise of the Phase Diver
 i(246908);	-- K'areshi Supply Crate
 i(246905);	-- Overtuned K'areshi Goggles
 i(245970);	-- P.O.S.T. Master's Express Hearthstone
+i(232303);	-- Unbound Banner of the Algari
 --- UNSORTED ---
 i(242534);	-- Azure Sea Skiff
 i(249713);	-- Cartel Transmorpher
--- SPECIAL CASE --
--- #if BEFORE 11.2.5
-i(131717);	-- Starlight Beacon
--- This will be a toy in 11.2.5, but the Quest will be up before 11.2.5 and then you have to wait 5 months
--- Tagging it as toy earlier, so users can easily prefarm it
--- #endif
 
 ------------------
 -- PATCH 11.2.5 --

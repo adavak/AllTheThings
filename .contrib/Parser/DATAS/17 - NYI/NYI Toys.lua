@@ -157,9 +157,7 @@ root(ROOTS.NeverImplemented, filter(TOYS, {
 
 		-- 11.0.5
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_5 } }, {
-			i(232303),	-- Unknown (TOY!)
 			i(232304),	-- Unknown (TOY!)
-			i(232307),	-- Unknown (TOY!)
 			i(232308),	-- Unknown (TOY!)
 		})),
 	}),
