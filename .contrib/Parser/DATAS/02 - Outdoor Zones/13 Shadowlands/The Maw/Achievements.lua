@@ -406,9 +406,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					175804,	-- Wounded Soul
 				},
 			}),
-			ach(14894, {	-- To 'Ghast, Two Curios (2 of these criteria)
-				["sym"] = {{"partial_achievement",14895}},	-- 'Ghast Five
-			}),
+			achpart(14894, 14895),	-- To 'Ghast, Two Curios (2 of these criteria)
 			achWithRep(14656, FACTION_VENARI),	-- Trading Partners
 			ach(15648, sharedDataSelf({ ["timeline"] = { ADDED_9_2_5 } }, {	-- Walking in Maw-mphis
 				-- Meta Achievement

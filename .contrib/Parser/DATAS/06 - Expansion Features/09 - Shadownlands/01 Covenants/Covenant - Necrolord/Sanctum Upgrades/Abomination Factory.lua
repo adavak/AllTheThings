@@ -439,9 +439,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								i(181820),	-- Armored Chosen Tauralus (MOUNT!)
 								title(437),	-- Abominable
 							}),
-							ach(14748, {	-- Wardrobe Makeover
-								["sym"] = {{"partial_achievement",14833}},	-- Fashion Abomination
-							}),
+							achpart(14748, 14833),	-- Wardrobe Makeover
 						}),
 						n(FACTIONS, {
 							faction(FACTION_THE_STITCHMASTERS),	-- Stitchmasters

@@ -8,9 +8,7 @@ root(ROOTS.Zones, {
 				ach(12103, {	-- ...And Chew Mana Buns
 					i(153041),	-- Bleakhoof Ruinstrider (MOUNT!)
 				}),
-				ach(12077, {	-- Adventurer of Argus
-					["sym"] = {{"partial_achievement",12078}},	-- Commander of Argus
-				}),
+				achpart(12077, 12078),	-- Adventurer of Argus
 				ach(12104, {	-- And We're All Out of Mana Buns
 					title(367),	-- Demonslayer <Name>
 				}),

@@ -1400,12 +1400,8 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 					["_quests"] = { 41193 },
 				}),
 			}),
-			ach(10601, {	-- Surveying the Land
-				["sym"] = {{"partial_achievement",10603}},	-- A Keen Eye
-			}),
-			ach(10602, {	-- This Side Up (gets filled with class-wrapped artifacts from Artifacts file)
-				["sym"] = {{"partial_achievement",10603}},	-- A Keen Eye
-			}),
+			achpart(10601, 10603),	-- Surveying the Land
+			achpart(10602, 10603),	-- This Side Up (gets filled with class-wrapped artifacts from Artifacts file)
 			ach(10605, {	-- Handle With Care
 				crit(29994, {	-- Imp's Cup
 					["provider"] = { "i", 130916 },	-- Imp's Cup

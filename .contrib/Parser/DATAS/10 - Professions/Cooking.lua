@@ -179,12 +179,8 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 			crit(6738, { ["provider"] = { "i", 43488 } } ),	-- Last Week's Mammoth
 			crit(7093, { ["provider"] = { "i", 43490 } } ),	-- Tasty Cupcake
 		}),
-		ach(1777, {	-- The Northrend Gourmet (15)
-			["sym"] = {{ "partial_achievement", 1779 }},	-- The Northrend Gourmet (45)
-		}),
-		ach(1778, {	-- The Northrend Gourmet (30)
-			["sym"] = {{ "partial_achievement", 1779 }},	-- The Northrend Gourmet (45)
-		}),
+		achpart(1777, 1779),	-- The Northrend Gourmet (15)
+		achpart(1778, 1779),	-- The Northrend Gourmet (30)
 		ach(1779),	-- The Northrend Gourmet (45)
 	}))),
 	applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
@@ -224,9 +220,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 			["cost"] = {{"i", 62680, 91}},	-- 91x Chocolate Cookie
 			["timeline"] = { ADDED_4_1_0 },
 		}),
-		ach(5472, {	-- The Cataclysmic Gourmet (15)
-			["sym"] = {{ "partial_achievement", 5473 }},	-- The Cataclysmic Gourmet (30)
-		}),
+		achpart(5472, 5473),	-- The Cataclysmic Gourmet (15)
 		ach(5473),	-- The Cataclysmic Gourmet (30)
 	}))),
 	applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
@@ -242,9 +236,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 		ach(7301),	-- Master of the Wok
 		ach(7329),	-- Pandaren Cuisine
 		ach(7330),	-- Pandaren Delicacies
-		ach(7326, {	-- The Pandaren Gourmet (15)
-			["sym"] = {{ "partial_achievement", 7327 }},	-- The Pandaren Gourmet (30)
-		}),
+		achpart(7326, 7327),	-- The Pandaren Gourmet (15)
 		ach(7327),	-- The Pandaren Gourmet (30)
 		header(HEADERS.Faction, 1357, {	-- Nomi
 			["description"] = "Summon Nomi once per day using your Cooking School Bell, complete the daily he gives and you'll soon (42+ days later), earn your Apron.\n\nThen this little bastard will learn nothing and burn all of your food in Dalaran.",

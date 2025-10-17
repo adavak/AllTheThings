@@ -211,12 +211,8 @@ root(ROOTS.PetBattles, petbattle({
 		}),
 		ach(6618),	-- On A Roll (10)
 		ach(6619),	-- Win Streak (25)
-		ach(6558, {	-- Local Pet Mauler (10)
-			["sym"] = {{"partial_achievement",6560}},	-- World Pet Mauler (60)
-		}),
-		ach(6559, {	-- Traveling Pet Mauler (30)
-			["sym"] = {{"partial_achievement",6560}},	-- World Pet Mauler (60)
-		}),
+		achpart(6558, 6560),	-- Local Pet Mauler (10)
+		achpart(6559, 6560),	-- Traveling Pet Mauler (30)
 		ach(6560),	-- World Pet Mauler (60) (automated)
 		ach(16731,	bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {	-- Court is Now in Session
 			crit(56693),	-- Lord Basilton

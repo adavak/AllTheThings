@@ -160,9 +160,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 				}),
 			},
 		}),
-		ach(11138, {	-- Is There a Medic in the Zone?
-			["sym"] = {{"partial_achievement",11139}},	-- Field Medic!
-		}),
+		achpart(11138, 11139),	-- Is There a Medic in the Zone?
 	})),
 })));
 

@@ -129,14 +129,13 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, {
 		ach(7379, {	-- Pandaren Master of All				-- ALL Primary Professions at Max
 			["timeline"] = { ADDED_5_0_4 },
 		}),
-		ach(7378, {	-- Jack of All Trades					-- Some Primary Professions at Max
-			["timeline"] = { ADDED_5_0_4 },
-			["sym"] = {{"partial_achievement",7379}},	-- Pandaren Master of All
-		}),
-		ach(6830, {	-- Professional Zen Master				-- 1 Primary Profession at Max
+		achpart(7378, 7379, {	-- Jack of All Trades					-- Some Primary Professions at Max
 			["timeline"] = { ADDED_5_0_4 },
 		}),
-		ach(6835, {	-- Working For a Living					-- Some Primary Professions at Max
+		achpart(6830, 7379, {	-- Professional Zen Master				-- 1 Primary Profession at Max
+			["timeline"] = { ADDED_5_0_4 },
+		}),
+		achpart(6835, 7379, {	-- Working For a Living					-- Some Primary Professions at Max
 			["timeline"] = { ADDED_5_0_4 },
 		}),
 		ach(6836, {	-- Serious Skills to Pay the Bills		-- Meta Achievement (Secondary Professions)
@@ -228,9 +227,8 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, {
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
 			["races"] = HORDE_ONLY,
 		}),
-		ach(13516, {	-- Massive Tool
+		achpart(13516, 18778, {	-- Massive Tool
 			["timeline"] = { ADDED_8_1_5 },
-			["sym"] = {{"partial_achievement",18778}},	-- Massive Toolshed
 		}),
 		ach(18778, {	-- Massive Toolshed
 			-- Meta Achievement
@@ -274,13 +272,11 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, {
 			["timeline"] = { ADDED_11_0_2 },
 			["groups"] = { i(253163, {["timeline"] = { ADDED_12_0_0 }}),},	-- Fallside Storage Tent (DECOR!)
 		}),
-		ach(19409, {	-- Working Underground				-- 2 Primary Professions at Max
+		achpart(19409, 19410, {	-- Working Underground				-- 2 Primary Professions at Max
 			["timeline"] = { ADDED_11_0_2 },
-			["sym"] = {{"partial_achievement",19410}},	-- Algari Master of All
 		}),
-		ach(19515, sharedDataSelf({	-- Algari Master of Many
+		achpart(19515, 19410, sharedDataSelf({	-- Algari Master of Many
 			["timeline"] = { ADDED_11_0_2 } }, {			-- 5 Primary Professions at Max
-			["sym"] = {{"partial_achievement",19410}},	-- Algari Master of All
 			["groups"] = {
 				iensemble(219125),	-- Formed Artisan's Talent
 			},

@@ -179,9 +179,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					ach(8714),	-- Timeless Champion (automated)
-					ach(8723, {	-- Legend of the Past
-						["sym"] = {{"partial_achievement",8784}},	-- Timeless Legends
-					}),
+					achpart(8723, 8784),	-- Legend of the Past
 					ach(8784, {	-- Timeless Legends
 						["coords"] = {
 							{ 22.4, 38.7, TIMELESS_ISLE },

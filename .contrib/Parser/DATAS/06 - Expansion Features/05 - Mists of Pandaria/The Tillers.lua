@@ -29,9 +29,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 		["lvl"] = lvlsquish(85, 85, 10),
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				ach(6551, {	-- Friend on the Farm
-					["sym"] = {{"partial_achievement",6552}},	-- Friends on the Farm
-				}),
+				achpart(6551, 6552),	-- Friend on the Farm
 				ach(6552, {	-- Friends on the Farm
 					crit(19398, {	-- Farmer Fung
 						["_factions"] = { FACTION_FARMER_FUNG },

@@ -12,12 +12,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 	n(DRAGONSCALE_EXPEDITION, {
 		n(CATALOGING, bubbleDownSelf({ ["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 8 } }, {
 			n(ACHIEVEMENTS, {
-				ach(16572, {	-- Legendary Photograph
-					["sym"] = {{"partial_achievement",16570}},	-- A Legendary Album
-				}),
-				ach(16573, {	-- Legendary Photographs
-					["sym"] = {{"partial_achievement",16570}},	-- A Legendary Album
-				}),
+				achpart(16572, 16570),	-- Legendary Photograph
+				achpart(16573, 16570),	-- Legendary Photographs
 				ach(16570, {	-- A Legendary Album
 					crit(55758, {	-- Abu'Gar
 						["cr"] = 195792,

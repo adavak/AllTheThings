@@ -49,39 +49,29 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 				["_encounter"] = { 709, DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC },
 			}),
 		}),
-		
+
 		-- Rare Hunting
-		ach(7437, {	-- A Worthy Opponent
-			["_noautomation"] = true,	-- Glorious! shows them all anyways
-			["sym"] = {{"partial_achievement",7439}},	-- Glorious!
+		achpart(7437, 7439, {	-- A Worthy Opponent
 			["rank"] = 1,
 		}),
-		ach(7438, {	-- Could We Find More Like That?
-			["_noautomation"] = true,	-- Glorious! shows them all anyways
-			["sym"] = {{"partial_achievement",7439}},	-- Glorious!
+		achpart(7438, 7439, {	-- Could We Find More Like That?
 			["rank"] = 8,
 		}),
 		ach(7439, {	-- Glorious!
 			["rank"] = 56,
 		}),
-		
+
 		-- Daily Doing
 		ach(7285),	-- Every Day I'm Pand-a-ren
-		
+
 		-- Treasure Hunting
-		ach(7281, {	-- Lost and Found
-			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
-			["sym"] = {{"partial_achievement",7284}},	-- Is Another Man's Treasure
+		achpart(7281, 7284, {	-- Lost and Found
 			["rank"] = 1,
 		}),
-		ach(7282, {	-- Finders Keepers
-			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
-			["sym"] = {{"partial_achievement",7284}},	-- Is Another Man's Treasure
+		achpart(7282, 7284, {	-- Finders Keepers
 			["rank"] = 5,
 		}),
-		ach(7283, {	-- One Man's Trash...
-			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
-			["sym"] = {{"partial_achievement",7284}},	-- Is Another Man's Treasure
+		achpart(7283, 7284, {	-- One Man's Trash...
 			["rank"] = 10,
 		}),
 		ach(7284, {	-- Is Another Man's Treasure
@@ -90,19 +80,13 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 				title(200),	-- the Relic Hunter
 			},
 		}),
-		ach(7994, {	-- Treasure of Pandaria
-			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
-			["sym"] = {{"partial_achievement",7997}},	-- Riches of Pandaria
+		achpart(7994, 7997, {	-- Treasure of Pandaria
 			["rank"] = 1,
 		}),
-		ach(7995, {	-- Fortune of Pandaria
-			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
-			["sym"] = {{"partial_achievement",7997}},	-- Riches of Pandaria
+		achpart(7995, 7997, {	-- Fortune of Pandaria
 			["rank"] = 5,
 		}),
-		ach(7996, {	-- Bounty of Pandaria
-			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
-			["sym"] = {{"partial_achievement",7997}},	-- Riches of Pandaria
+		achpart(7996, 7997, {	-- Bounty of Pandaria
 			["rank"] = 10,
 		}),
 		ach(7997),	-- Riches of Pandaria

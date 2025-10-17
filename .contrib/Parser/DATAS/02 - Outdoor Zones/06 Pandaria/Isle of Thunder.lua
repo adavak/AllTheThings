@@ -74,10 +74,7 @@ root(ROOTS.Zones, {
 					ach(8114),	-- Platform Hero
 					ach(8107),	-- Ready for RAAAAIIIIDDD?!?ing
 					ach(8115),	-- Speed Metal
-					ach(8109, {	-- The Mogu Below-gu
-						["_noautomation"] = true,	-- Glorious! shows them all anyways
-						["sym"] = {{"partial_achievement",8110}},	-- These Mogu Have Gotta Go-gu
-					}),
+					achpart(8109, 8110),	-- The Mogu Below-gu
 					ach(8110),	-- These Mogu Have Gotta Go-gu (automated)
 					ach(8111, {	-- This Isn't Even My Final Form
 						["description"] = "Kill Drakkari God-Hulk patrolling on foot path near coord, then drink a Zandalari Potion nearby.",

@@ -23,8 +23,7 @@ root(ROOTS.Zones, {
 					["races"] = HORDE_ONLY,
 				}),
 				-- #endif
-				ach(1311, {	-- Medium Rare
-					["sym"] = {{"partial_achievement",1312}},	-- Bloody Rare
+				achpart(1311, 1312, {	-- Medium Rare
 					["timeline"] = { ADDED_3_0_2 },
 				}),
 				ach(44),	-- Outland Explorer [7.0.3] / Explore Outland (automated)

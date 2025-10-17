@@ -472,19 +472,11 @@ root(ROOTS.ExpansionFeatures,
 						h(ach(10255, {	-- Petty Officer [H]
 							h(i(128363)),	-- Captain's Hat [H]
 						})),
-						a(ach(10256, {	-- Charting a Course [A]
-							["_noautomation"] = true,
-							["sym"] = {{"partial_achievement",10167}},	-- Exploring the High Seas [A]
-							["groups"] = {
-								a(i(128365)),	-- Fleet Commander's Hat [A]
-							},
+						a(achpart(10256, 10167, {	-- Charting a Course [A]
+							a(i(128365)),	-- Fleet Commander's Hat [A]
 						})),
-						h(ach(10258, {	-- Charting a Course [H]
-							["_noautomation"] = true,
-							["sym"] = {{"partial_achievement",10307}},	-- Exploring the High Seas [H]
-							["groups"] = {
-								h(i(128364)),	-- Fleet Commander's Hat [H]
-							},
+						h(achpart(10258, 10307, {	-- Charting a Course [H]
+							h(i(128364)),	-- Fleet Commander's Hat [H]
 						})),
 						a(ach(10167)),	-- Exploring the High Seas [A]
 						h(ach(10307)),	-- Exploring the High Seas [H]

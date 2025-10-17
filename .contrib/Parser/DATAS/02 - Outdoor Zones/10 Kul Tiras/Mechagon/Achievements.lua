@@ -39,9 +39,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			ach(13479, {	-- Junkyard Architect
 				["sym"] = {{ "achievement_criteria" }},
 			}),
-			ach(13478, {	-- Junkyard Collector
-				["sym"] = {{"partial_achievement",13479}},	-- Junkyard Architect
-			}),
+			achpart(13478, 13479),	-- Junkyard Collector
 			ach(13474),	-- Junkyard Machinist
 			ach(13686, {	-- Junkyard Melomaniac
 				["sym"] = {{ "achievement_criteria" }},

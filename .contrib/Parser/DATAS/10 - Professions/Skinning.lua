@@ -145,9 +145,7 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["crs"] = { 204841 },	-- Elusive Colossal Sulfurstrider
 			}),
 		})),
-		ach(18832, {	-- Elusive Legend of the Dragon Isles (1)
-			["sym"] = {{"partial_achievement",18833}},	-- Elusive Legends of the Dragon Isles
-		}),
+		achpart(18832, 18833),	-- Elusive Legend of the Dragon Isles (1)
 		ach(18833, sharedData({	-- Elusive Legends of the Dragon Isles
 			["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
 		},{

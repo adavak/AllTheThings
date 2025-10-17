@@ -8,13 +8,11 @@ root(ROOTS.ExpansionFeatures,
 			n(BUILDINGS, {	-- Buildings
 				garrisonBuilding(28, {	-- Barracks (rank 1: 26, rank 2: 27, rank 3: 28)
 					n(ACHIEVEMENTS, {
-						ach(9498, {		-- Wingman
-							["sym"] = {{"partial_achievement",9499}},	-- Wingmen
-						}),
-						ach(9499, {		-- Wingmen
-							crit(25890),		-- Leorajh
-							crit(25894),		-- Talonpriest Ishaal
-							crit(25895),		-- Tormmok
+						achpart(9498, 9499),	-- Wingman
+						ach(9499, {	-- Wingmen
+							crit(25890),	-- Leorajh
+							crit(25894),	-- Talonpriest Ishaal
+							crit(25895),	-- Tormmok
 							crit(25891, {["races"] = HORDE_ONLY}),		-- Aeda Brightdawn
 							crit(25893, {["races"] = ALLIANCE_ONLY}),		-- Defender Illona
 							crit(25889, {["races"] = ALLIANCE_ONLY}),		-- Delvar Ironfirst

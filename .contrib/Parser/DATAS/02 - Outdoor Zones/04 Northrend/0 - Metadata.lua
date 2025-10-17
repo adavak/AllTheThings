@@ -21,9 +21,7 @@ root(ROOTS.Zones, {
 					["races"] = HORDE_ONLY,
 				}),
 				-- #endif
-				ach(2256, {	-- Northern Exposure (automated)
-					["sym"] = {{"partial_achievement",2257}},	-- Frostbitten
-				}),
+				achpart(2256, 2257),	-- Northern Exposure (automated)
 				applyclassicphase(WRATH_PHASE_ONE, ach(45, {	-- Northrend Explorer [7.0.3] / Explore Northrend (automated)
 					["groups"] = {
 						i(43348),	-- Tabard of the Explorer

@@ -23,15 +23,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 	m(ZERETH_MORTIS, {
 		prof(PROTOFORM_SYNTHESIS, {
 			n(ACHIEVEMENTS, {
-				ach(15406, {	-- Synthesized!
-					["sym"] = {{"partial_achievement",15411}},	-- Synthe-supersized!
-				}),
-				ach(15407, {	-- Synthe-fived!
-					["sym"] = {{"partial_achievement",15411}},	-- Synthe-supersized!
-				}),
-				ach(15410, {	-- Synthe-superfived!
-					["sym"] = {{"partial_achievement",15411}},	-- Synthe-supersized!
-				}),
+				achpart(15406, 15411),	-- Synthesized!
+				achpart(15407, 15411),	-- Synthe-fived!
+				achpart(15410, 15411),	-- Synthe-superfived!
 				ach(15411),	-- Synthe-supersized!
 			}),
 			n(QUESTS, {
