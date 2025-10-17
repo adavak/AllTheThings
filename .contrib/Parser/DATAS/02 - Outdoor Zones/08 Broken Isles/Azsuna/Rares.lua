@@ -231,6 +231,10 @@ root(ROOTS.Zones, {
 				n(91113, {	-- Tide Behemoth
 					["questID"] = 38217,
 					["coord"] = { 61.3, 62.0, AZSUNA },
+					["crs"] = {
+						91114,	-- Vignette 2 NPC
+						91115,	-- Vignette 3 NPC
+					},
 					["groups"] = {
 						i(129062),	-- Scale Helm of the Frigid Depths
 					},
