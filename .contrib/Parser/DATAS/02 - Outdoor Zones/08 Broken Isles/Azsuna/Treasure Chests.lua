@@ -107,9 +107,9 @@ root(ROOTS.Zones, {
 					["questID"] = 37831,
 					["coord"] = { 49.7, 34.5, AZSUNA },
 				}),
-				o(250088, {	-- Small Treasure Chest (need to verify objectID)
+				o(250088, {	-- Small Treasure Chest
 					["questID"] = 44102,
-					["coord"] = { 34.6, 35.6, AZSUNA },
+					["coord"] = { 71.0, 22.3, 631 },	-- Nar'thalas Academy
 				}),
 				o(250083, {	-- Small Treasure Chest
 					["questID"] = 42281,

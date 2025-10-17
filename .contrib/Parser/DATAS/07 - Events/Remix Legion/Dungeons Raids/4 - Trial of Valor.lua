@@ -82,7 +82,6 @@ local InstanceHelper = CreateInstanceHelper(EncounterToCRS)
 local BossOnly, Difficulty, CommonBossDrops =
 InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.CommonBossDrops
 
-
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(RAIDS, {
 		inst(861, {	-- Trial of Valor

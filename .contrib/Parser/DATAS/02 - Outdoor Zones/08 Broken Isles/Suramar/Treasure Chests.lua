@@ -39,6 +39,10 @@ root(ROOTS.Zones, {
 						{ 44.0, 31.9, SURAMAR },
 					},
 				}),
+				o(252832, {	-- Small Treasure Chest
+					["questID"] = 43857,
+					["coord"] = { 63.1, 49.1, SURAMAR },
+				}),
 				o(252884, {	-- Glimmering Treasure Chest
 					["questID"] = 43876,
 					["coord"] = { 60.4, 68.5, SURAMAR },
@@ -100,7 +104,10 @@ root(ROOTS.Zones, {
 				}),
 				o(252803, {	-- Small Treasure Chest
 					["questID"] = 43831,
-					["coord"] = { 32.0, 62.5, SURAMAR },
+					["coords"] = {
+						{ 26.0, 85.5, SURAMAR },
+						{ 32.0, 62.5, SURAMAR },
+					},
 				}),
 				o(252802, {	-- Small Treasure Chest
 					["questID"] = 43830,

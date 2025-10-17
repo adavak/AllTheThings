@@ -166,6 +166,9 @@ root(ROOTS.Zones, {
 							o(250240),	-- Bottle of Arcwine
 							o(254446),	-- Bottle of Arcwine
 							o(254643),	-- Bottle of Arcwine
+							o(254645),	-- Bottle of Arcwine
+							o(254648),	-- Bottle of Arcwine
+							o(254654),	-- Bottle of Arcwine
 						},
 					}),
 				}),

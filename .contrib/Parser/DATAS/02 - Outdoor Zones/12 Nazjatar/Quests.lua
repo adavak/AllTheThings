@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		q(55662, {	-- Arcane Cache (A)
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["provider"] = {"o",325894},	-- Arcane Cache
+			["provider"] = { "o", 325894 },	-- Arcane Cache
 			["coord"] = { 53.1, 28.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
@@ -136,6 +136,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		q(56233, {	-- Arcane Cache (H)
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
 			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "o", 325894 },	-- Arcane Cache
 			["coord"] = { 53.1, 28.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,

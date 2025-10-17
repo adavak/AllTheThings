@@ -153,6 +153,11 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 101083 },	-- Thalrenus Rivertree
 							["coord"] = { 37.8, 47.3, SURAMAR },
 							["maps"] = { 710, 711, 712, },	-- Vault of the Wardens
+							["groups"] = {
+								o(252443, {	-- Containment Crystal
+									i(139788),	-- Containment Crystal (QI!)
+								}),
+							},
 						}),
 						q(40675, {	-- The Arcway: Rite of the Captain
 							["sourceQuests"] = { 40673 },	-- Lost Knowledge
@@ -165,6 +170,11 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 101082 },	-- Lothrius Mooncaller
 							["coord"] = { 37.9, 47.4, SURAMAR },
 							["maps"] = { 761, 762, 763 },	-- Court of Stars
+							["groups"] = {
+								o(252410, {	-- Scrolls, Sigils, and the Nightborne Way
+									i(139782),	-- Wards, Sigils, and the Nightborne Way (QI!)
+								}),
+							},
 						}),
 						q(40678, {	-- Twisted Power
 							["sourceQuests"] = {

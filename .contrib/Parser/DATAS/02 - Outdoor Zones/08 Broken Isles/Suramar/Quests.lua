@@ -193,6 +193,12 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 43567,	-- All In
 					["provider"] = { "n", 107126 },	-- Valewalker Farodin
 					["coord"] = { 36.8, 46.5, SURAMAR },
+					["groups"] = {
+						o(253081, {	-- Fruit of the Arcan'dor
+							["coord"] = { 36.8, 46.6, SURAMAR },
+							["groups"] = { i(140315) },	-- Fruit of the Arcan'dor (QI!)
+						}),
+					},
 				}),
 				q(40324, {	-- Arcane Communion
 					["sourceQuests"] = {
@@ -280,6 +286,23 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40908,	-- Jarl Come Back Now
 					["provider"] = { "n", 99559 },	-- Jarl Throndyr
 					["coord"] = { 68.9, 54.0, SURAMAR },
+					["groups"] = {
+						o_repeated({	-- Driftwood
+							["coords"] = {
+								{ 70.4, 55.4, SURAMAR },
+								{ 70.7, 57.1, SURAMAR },
+								{ 71.2, 55.4, SURAMAR },
+								{ 71.4, 57.3, SURAMAR },
+								{ 71.6, 54.5, SURAMAR },
+								{ 71.8, 56.4, SURAMAR },
+							},
+							["groups"] = {
+								i(132371), 	-- Driftwood (QI!)
+								o(245887),	-- Driftwood
+								o(245792),	-- Driftwood
+							},
+						}),
+					},
 				}),
 				q(45267, {	-- Before the Siege
 					["sourceQuests"] = {
@@ -449,6 +472,21 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40927,	-- Jandvik's Last Hope
 					["provider"] = { "n", 104586 },	-- Fjolrik
 					["coord"] = { 77.5, 59.7, SURAMAR },
+					["groups"] = {
+						o(247851, {	-- Sealed Powder Keg
+							["coords"] = {
+								{ 75.8, 61.8, SURAMAR },
+								{ 75.9, 60.6, SURAMAR },
+								{ 76.1, 59.6, SURAMAR },
+								{ 76.4, 63.6, SURAMAR },
+								{ 76.5, 61.7, SURAMAR },
+								{ 76.7, 65.0, SURAMAR },
+								{ 77.0, 61.3, SURAMAR },
+								{ 77.4, 64.0, SURAMAR },
+							},
+							["groups"] = { i(135478) },	-- Sealed Powder Keg (QI!)
+						}),
+					},
 				}),
 				q(45263, {	-- Eating Before the Meeting
 					["sourceQuests"] = {
@@ -540,7 +578,10 @@ root(ROOTS.Zones, {
 				q(43106, {	-- Feed Oculeth
 					["sourceQuest"] = 44691,	-- Hungry Work
 					["provider"] = { "n", 98548 },	-- Chief Telemancer Oculeth
-					["coord"] = { 36.6, 47.0, SURAMAR },
+					["coords"] = {
+						{ 36.6, 45.1, SURAMAR },
+						{ 36.6, 47.0, SURAMAR },
+					},
 					["isDaily"] = true,
 				}),
 				q(43994, {	-- Feed Thalyssra
@@ -897,7 +938,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "o", 252258 },	-- Leyline Feed
 					["coords"] = {
 						{ 65.9, 42.0, SURAMAR },	-- cave entrance
-						{ 46.5, 47.3, 686 },
+						{ 48.0, 48.5, 686 },	-- Elor'shan
 					},
 				}),
 				q(43592, {	-- Leyline Feed: Falanaar Arcway
@@ -934,7 +975,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "o", 252261 },	-- Leyline Feed
 					["coords"] = {
 						{ 24.2, 19.3, SURAMAR },	-- cave entrance
-						{ 49.0, 49.4, 690 },
+						{ 50.1, 47.6, 690 },	-- Ley Station Aethenar
 					},
 				}),
 				q(43590, {	-- Leyline Feed: Ley Station Moonfall
@@ -1208,9 +1249,18 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 101768 },	-- Lothrius Mooncaller
 					["coord"] = { 36.4, 22.3, SURAMAR },
 					["groups"] = {
-						i(133900),	-- Aftermath of the Well (QI!)
-						i(133898),	-- Anthology of the Guard (QI!)
-						i(133899),	-- Magical Manifest of the Moon (QI!)
+						o(246704, {	-- Aftermath of the Well
+							["coord"] = { 34.1, 17.9, SURAMAR },
+							["groups"] = { i(133900) },	-- Aftermath of the Well (QI!)
+						}),
+						o(246702, {	-- Anthology of the Guard
+							["coord"] = { 36.3, 16.8, SURAMAR },
+							["groups"] = { i(133898) },	-- Anthology of the Guard (QI!)
+						}),
+						o(246703, {	-- Magical Manifest of the Moon
+							["coord"] = { 34.8, 22.5, SURAMAR },
+							["groups"] = { i(133899) },	-- Magical Manifest of the Moon (QI!)
+						}),
 					},
 				}),
 				q(41475, {	-- Prongs and Fangs
@@ -1281,6 +1331,9 @@ root(ROOTS.Zones, {
 								o(250240),	-- Bottle of Arcwine
 								o(254446),	-- Bottle of Arcwine
 								o(254643),	-- Bottle of Arcwine
+								o(254645),	-- Bottle of Arcwine
+								o(254648),	-- Bottle of Arcwine
+								o(254654),	-- Bottle of Arcwine
 							},
 						}),
 					},
@@ -1730,11 +1783,33 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40300,	-- Tools of the Trade
 					["provider"] = { "n", 99483 },	-- Thaedris Feathersong
 					["coord"] = { 47.2, 33.4, SURAMAR },
+					["groups"] = {
+						o(245236, {	-- Encyclopedia Botanica
+							["coord"] = { 44.0, 32.3, SURAMAR },
+							["groups"] = { i(130208) },	-- Encyclopedia Botanica (QI!)
+						}),
+					},
 				}),
 				q(40266, {	-- The Lost Advisor
 					-- ["sourceQuest"] = 42230,	-- The Valewalker's Burden [Not Required, Discord 2023-7-31]
 					["provider"] = { "n", 99065 },	-- Thaedris Feathersong
 					["coord"] = { 45.6, 40.8, SURAMAR },
+					["groups"] = {
+						o(245186, {	-- Clump of Cliffthorn Twigs
+							["coords"] = {
+								{ 44.1, 39.5, SURAMAR },
+								{ 44.4, 40.5, SURAMAR },
+								{ 45.1, 40.1, SURAMAR },
+								{ 45.5, 39.8, SURAMAR },
+								{ 46.3, 41.2, SURAMAR },
+								{ 46.8, 39.0, SURAMAR },
+								{ 47.1, 41.4, SURAMAR },
+								{ 47.4, 38.4, SURAMAR },
+								{ 47.4, 40.0, SURAMAR },
+							},
+							["groups"] = { i(130108) },	-- Cliffthorn (QI!)
+						}),
+					},
 				}),
 				q(41834, {	-- The Masks We Wear
 					["sourceQuest"] = 41762,	-- Sympathizers Among the Shal'dorei
@@ -1869,9 +1944,18 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 99093 },	-- Thaedris Feathersong
 					["coord"] = { 49.1, 43.8, SURAMAR },
 					["groups"] = {
-						i(134092),	-- Chest of Shrouds (QI!)
-						i(132253),	-- Flask of Sacred Oil (QI!)
-						i(132255),	-- Bundle of Preserving Incense (QI!)
+						o(247339, {	-- Chest of Shrouds
+							["coord"] = { 52.5, 31.5, SURAMAR },
+							["groups"] = { i(134092) },	-- Chest of Shrouds (QI!)
+						}),
+						o(245682, {	-- Incense Bundle
+							["coord"] = { 47.8, 34.5, SURAMAR },
+							["groups"] = { i(132255) },	-- Bundle of Preserving Incense (QI!)
+						}),
+						o(245681, {	-- Sealed Jar
+							["coord"] = { 50.0, 39.0, SURAMAR },
+							["groups"] = { i(132253) },	-- Flask of Sacred Oil (QI!)
+						}),
 					},
 				}),
 				q(41230, {	-- Trapping Evolved
@@ -1879,7 +1963,20 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 100775 },	-- Lilryia Dawnwind
 					["coord"] = { 61.8, 49.0, SURAMAR },
 					["groups"] = {
-						i(134128),	-- Arcane Trap (QI!)
+						o(247412, {	-- Arcane Trap
+							["coords"] = {
+								{ 60.0, 42.4, SURAMAR },
+								{ 60.0, 46.3, SURAMAR },
+								{ 60.3, 44.7, SURAMAR },
+								{ 60.6, 45.0, SURAMAR },
+								{ 60.7, 46.1, SURAMAR },
+								{ 60.8, 43.0, SURAMAR },
+								{ 61.4, 43.8, SURAMAR },
+								{ 61.5, 42.9, SURAMAR },
+								{ 62.0, 42.1, SURAMAR },
+							},
+							["groups"] = { i(134128) },	-- Arcane Trap (QI!)
+						}),
 						i(141670),	-- Arcane Trap Power Core
 					},
 				}),
@@ -2037,7 +2134,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(43708),	-- Hub Mana Tree Tracking - Stage 05 - triggered after turning in "Make Your Mark" (questID 42792)
 				q(43589),	-- Leyline 03
 				--q(43840),	-- Treasure 008 - Collapse Depths - secondary trigger for Small Treasure Chest (questID 43839)
-				--q(43857),	-- Treasure 022 - Crimson Thicket Cave - secondary trigger for Small Treasure Chest (questID 43855)
 				q(40317),	-- Tree Destroyed
 				q(41212),	-- Triggered when turning in "Scattered Memories". Maybe a quest from beta?
 				q(44071),	-- Vignette: Maia the White Wolf - secondary trigger for Maia the White rare

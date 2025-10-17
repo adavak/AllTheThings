@@ -121,8 +121,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["maps"] = { 714 },	-- Niskara (Scenario Map)
 							["groups"] = {
-								i(128402, {	-- Maw of the Damned
-									artifact(107),	-- Maw of the Damned
+								o(247566, {	-- Maw of the Damned
+									["coords"] = { 64.6, 60.0, 714 },	-- Niskara (Scenario Map)
+									["groups"] = {
+										i(128402, {	-- Maw of the Damned
+											artifact(107),	-- Maw of the Damned
+										}),
+									},
 								}),
 							},
 						}),
@@ -145,24 +150,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["maps"] = { 698, 700, 701 },	-- Icecrown Citadel (Scenario Map)
 							["groups"] = {
-								i(128292, {	-- Blades of the Fallen Prince [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(111),	-- Blades of the Fallen Prince [Main Hand]
-									},
-								}),
-								i(128293, {	-- Blades of the Fallen Prince [Off Hand]
-									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(111),	-- Blades of the Fallen Prince [Off Hand]
-									},
-								}),
 								o_repeated({	-- Fragment of Frostmourne
 									["coords"] = {
-										{ 51.5, 41.5, 701 },	-- Icecrown Citadel (Scenario Map)
-										{ 51.6, 49.6, 701 },	-- Icecrown Citadel (Scenario Map)
-										{ 52.5, 66.5, 701 },	-- Icecrown Citadel (Scenario Map)
-										{ 60.1, 54.7, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 51.5, 41.5, 700 },	-- Icecrown Citadel (Scenario Map)
+										{ 51.6, 49.6, 700 },	-- Icecrown Citadel (Scenario Map)
+										{ 52.5, 66.5, 700 },	-- Icecrown Citadel (Scenario Map)
+										{ 60.1, 54.7, 700 },	-- Icecrown Citadel (Scenario Map)
 									},
 									["groups"] = {
 										i(127009),	-- Fragment of Frostmourne (QI!)
@@ -170,6 +163,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 										o(251884),	-- Fragment of Frostmourne
 										o(251885),	-- Fragment of Frostmourne
 										o(251886),	-- Fragment of Frostmourne
+									},
+								}),
+								o(247386, {	-- Blades of the Fallen Prince
+									["coord"] = { 50.0, 54.4, 701 },	-- Icecrown Citadel (Scenario Map)
+									["groups"] = {
+										i(128292, {	-- Blades of the Fallen Prince [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(111),	-- Blades of the Fallen Prince [Main Hand]
+											},
+										}),
+									},
+								}),
+								i(128293, {	-- Blades of the Fallen Prince [Off Hand]
+									["ItemAppearanceModifierID"] = 9,
+									["groups"] = {
+										artifact(111),	-- Blades of the Fallen Prince [Off Hand]
 									},
 								}),
 							},

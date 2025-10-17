@@ -157,7 +157,10 @@ root(ROOTS.Zones, {
 				q(39590, {	-- Ahead of the Game
 					["sourceQuests"] = { 38331 },	-- Havi's Test
 					["provider"] = { "n", 96254 },	-- Havi
-					["coord"] = { 43.2, 49.2, STORMHEIM },
+					["coords"] = {
+						{ 41.8, 43.0, STORMHEIM },
+						{ 43.0, 49.2, STORMHEIM },
+					},
 					["groups"] = {
 						i(128508),	-- Gutspill's Head (QI!)
 						i(128509),	-- Rumblehoof's Head (QI!)
@@ -405,7 +408,10 @@ root(ROOTS.Zones, {
 						38459,	-- The Ancient Trials (Horde)
 					},
 					["provider"] = { "n", 96254 },	-- Havi
-					["coord"] = { 43.2, 49.2, STORMHEIM },
+					["coords"] = {
+						{ 41.8, 43.0, STORMHEIM },
+						{ 43.0, 49.2, STORMHEIM },
+					},
 				}),
 				q(38414, {	-- Heart of a Dragon
 					["sourceQuests"] = {
