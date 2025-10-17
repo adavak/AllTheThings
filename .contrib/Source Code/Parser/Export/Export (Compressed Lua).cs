@@ -320,11 +320,7 @@ namespace ATT
 
             // Determine if this list type is something that gets marked
             var listType = list.First().GetType();
-            if (listType == typeof(long)
-                || listType == typeof(int)
-                || listType == typeof(double)
-                || listType == typeof(float)
-                || listType == typeof(string))
+            if (listType.IsNumeric() || listType == typeof(string))
             {
                 // These are simple types that can be compressed.
                 // Open Bracket for beginning of the List.

@@ -26,13 +26,22 @@ namespace ATT
                 string CategorySplitter = Environment.NewLine;
 
                 // Prepare the shortcuts for commonly repeated structures.
-                var order = builder.STRUCTURE_COUNTS.ToList();
+                var order = builder.STRUCTURE_COUNTS
+                    // Reduce the allowed set of replacements by minimumReplacements
+                    .Where(a => a.Value >= minimumReplacements)
+                    .ToList();
                 builder.STRUCTURE_COUNTS.Clear();
 
                 // Sort the KeyValues so that the largest memory-cost replacements are exported first for performance reasons
                 order.Sort(delegate (KeyValuePair<string, int> a, KeyValuePair<string, int> b)
                 {
-                    return ReplacmentSavings(b.Key.Count(c => c == ','), b.Value) - ReplacmentSavings(a.Key.Count(c => c == ','), a.Value);
+                    int compare = ReplacmentSavings(b.Key.Count(c => c == ','), b.Value)
+                            .CompareTo(ReplacmentSavings(a.Key.Count(c => c == ','), a.Value));
+                    if (compare != 0)
+                        return compare;
+
+                    // if equivalent in savings, sort by key to maintain consistent export order
+                    return a.Key.CompareTo(b.Key);
                 });
 
                 int ReplacmentSavings(int keys, int uses) =>
@@ -43,10 +52,7 @@ namespace ATT
 
                 int count = 0;
                 // Reduce the allowed set of replacements
-                var replacementOrder = order
-                    .Where(a => a.Value >= minimumReplacements && ++count <= maximum)
-                    .Take(maximum)
-                    .ToList();
+                var replacementOrder = order.Take(maximum).ToList();
 
                 Framework.Log($" - {builder.Name}: Up to {maximum} structure replacements (min. {minimumReplacements} uses each) from {order.Count} total ==> {replacementOrder.Count} replacements ({replacementOrder.Sum(x => ReplacmentSavings(x.Key.Count(c => c == ','), x.Value)) / 1024}kB reduction)");
 
@@ -68,6 +74,9 @@ namespace ATT
                 {
                     replacements.Add($"a[{++count}]", replaceCount.Key);
                 }
+
+                // TODO: build a more efficient replacements algorithm instead of splitting into thousands of tiny tasks
+                //builder.ReplaceStringBuilderContent(replacements);
 
                 // capture containers in a sorted list for processing, without affecting export order
                 List<StringBuilder> processingOrder = new List<StringBuilder>(splitBuilders);
