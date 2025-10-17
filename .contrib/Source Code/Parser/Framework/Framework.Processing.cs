@@ -2426,6 +2426,13 @@ namespace ATT
                 // }
                 // can remove 'sourceQuests' from the criteria since it's going to be sourced under the required quest
                 data.Remove("sourceQuests");
+
+                // TODO: research
+                // if this quest is triggered by a spell, link that spell as well in case it is sourced
+                // foreach (var spellEffect in WagoData.EnumerateForQuestID<SpellEffect>(sq))
+                // {
+                //     Objects.Merge(data, "_spells", spellEffect.SpellID);
+                // }
             }
 
             // Provider Item for the Criteria (if not ignored)
@@ -3366,7 +3373,7 @@ namespace ATT
         {
             // TODO: sometimes 1 Item can trigger 1 ItemEffect leading to multiple IsQuest SpellEffects...
             // ref. /att i:181538 -> SpellID 336988
-            if (spellEffect.IsQuest())
+            if (spellEffect.IsQuestComplete())
             {
                 long questID = spellEffect.EffectMiscValue_0;
                 if (!data.TryGetValue("questID", out long existingQuestID))
@@ -3384,13 +3391,14 @@ namespace ATT
                     else
                     {
                         // if there's a 2nd (or more) then ignore assigning the questID from a specific Spell
-                        // CRIEVE NOTE: We can't use the spellID Associations collection helper for this since there's an additional logic requirement.
-                        // I'd advise at some point maybe creating a cache class for Quest object types?
-                        if (WagoData.Enumerate<SpellEffect>((se) =>
+                        HashSet<IDBType> matchingSpellEffects = new HashSet<IDBType>(
+                            WagoData.EnumerateForQuestID<SpellEffect>(questID).Where(se => se.IsQuestComplete()));
+                        foreach (IDBType spellMatches in
+                            WagoData.EnumerateForSpellID<SpellEffect>(spellID).Where(se => se.IsQuestComplete()))
                         {
-                            // quest spelleffect with either same spellID or same quest (should only be 1 if we are going to apply it to an Item)
-                            return se.IsQuest() && (se.SpellID == spellID || se.EffectMiscValue_0 == questID);
-                        }).Count() > 1)
+                            matchingSpellEffects.Add(spellMatches);
+                        }
+                        if (matchingSpellEffects.Count > 1)
                         {
                             //LogDebug($"INFO: Ignored assignment of data 'questID' {questID} due to multiple SpellEffect use", data);
                             // assign this data as a provider of the questID instead since this data links to multiple questIDs
@@ -3398,7 +3406,6 @@ namespace ATT
                         }
                         else
                         {
-
                             // if QuestID is already Sourced elsewhere in ATT, then we need to check what it is sourced as
                             if (TryGetSOURCED("questID", questID, out var sourcedQuests))
                             {
@@ -3990,7 +3997,8 @@ namespace ATT
             // If there's any SpellEffect with a '139' (CLEAR_QUEST) effect for this questID,
             // this quest should be marked as repeatable
             if (!data.ContainsKey("_nonrepeatable")
-                && WagoData.Enumerate<SpellEffect>(se => se.IsClearQuest() && se.EffectMiscValue_0 == questID).Any())
+                // any spell effect of this questID
+                && WagoData.EnumerateForQuestID<SpellEffect>(questID).Where(se => se.IsClearQuest()).Any())
             {
                 if (data.ContainsAnyKey("isDaily", "isMonthly", "isWeekly", "isYearly"))
                 {

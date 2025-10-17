@@ -7,7 +7,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/Criteria
     /// </summary>
     [DataModule]
-    public class Criteria : IDBType
+    public class Criteria : IDBType, IWagoQuestID
     {
         [ExportableData("criteriaID")]
         public long ID { get; set; }
@@ -22,6 +22,7 @@ namespace ATT.DB.Types
         public long Flags { get; set; }
         public long Eligibility_world_state_ID { get; set; }
         public long Eligibility_world_state_value { get; set; }
+        public long QuestID => GetSourceQuest();
 
         private TypeFlags _flags => (TypeFlags)Flags;
 

@@ -650,6 +650,87 @@ namespace ATT.DB
             return ItemModifiedAppearanceKeyedCache<T>.TryGetAssociations(itemModifiedAppearanceID, out associations);
         }
         #endregion
+        #region Quest-Keyed Collections
+        private static class QuestKeyedCache<T> where T : IWagoQuestID, IDBType
+        {
+            /// <summary>
+            /// The cached collection of elements matching the primary key "QuestID".
+            /// </summary>
+            private static Dictionary<long, List<T>> Collection;
+
+            public static void Clear()
+            {
+                Collection = null;
+            }
+
+            public static Dictionary<long, List<T>> GetCollection()
+            {
+                return Collection ?? (Collection = Rebuild());
+            }
+
+            private static Dictionary<long, List<T>> Rebuild()
+            {
+                var collection = new Dictionary<long, List<T>>();
+                foreach (var o in GetAll<T>().Values)
+                {
+                    if (o.QuestID > 0)
+                    {
+                        if (!collection.TryGetValue(o.QuestID, out List<T> associations))
+                        {
+                            collection[o.QuestID] = associations = new List<T>();
+                        }
+                        associations.Add(o);
+                    }
+                }
+                return collection;
+            }
+
+            public static IEnumerable<T> Enumerate(long key)
+            {
+                if (GetCollection().TryGetValue(key, out var associations))
+                {
+                    foreach (var association in associations)
+                    {
+                        yield return association;
+                    }
+                }
+            }
+
+            /// <summary>
+            /// Retrieve a collection of elements matching the key.
+            /// </summary>
+            /// <typeparam name="T">The element type to search for.</typeparam>
+            /// <param name="key">The key.</param>
+            /// <param name="associations">The list of associated elements or null.</param>
+            /// <returns>Whether or not the associations could be found.</returns>
+            public static bool TryGetAssociations(long key, out List<T> associations)
+            {
+                return GetCollection().TryGetValue(key, out associations);
+            }
+        }
+
+        /// <summary>
+        /// Enumerate over a collection of elements matching the QuestID
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="o">The object.</param>
+        /// <returns>An enumerable list.</returns>
+        public static IEnumerable<T> EnumerateForQuestID<T>(this IWagoQuestID o) where T : IWagoQuestID, IDBType
+        {
+            return EnumerateForQuestID<T>(o.QuestID);
+        }
+
+        /// <summary>
+        /// Enumerate over a collection of elements matching the QuestID
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="spellID">The spell ID.</param>
+        /// <returns>An enumerable list.</returns>
+        public static IEnumerable<T> EnumerateForQuestID<T>(long questID) where T : IWagoQuestID, IDBType
+        {
+            return QuestKeyedCache<T>.Enumerate(questID);
+        }
+        #endregion
         #region Spell-Keyed Collections
         private static class SpellKeyedCache<T> where T : IWagoSpellID, IDBType
         {

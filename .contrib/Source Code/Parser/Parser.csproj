@@ -81,6 +81,7 @@
     <Compile Include="DB\Attributes\ExportableDataAttribute.cs" />
     <Compile Include="DB\Attributes\DataModuleAttribute.cs" />
     <Compile Include="DB\Interfaces\IWagoHolidayNameID.cs" />
+    <Compile Include="DB\Interfaces\IWagoQuestID.cs" />
     <Compile Include="DB\Interfaces\IWagoUiMapID.cs" />
     <Compile Include="DB\Interfaces\IWagoAreaID.cs" />
     <Compile Include="DB\Interfaces\IWagoItemModifiedAppearanceID.cs" />
