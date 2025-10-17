@@ -281,10 +281,10 @@ root(ROOTS.Zones, {
 				q(42018),	-- Those Beyond Redemption
 				q(42019, {	-- Tip the Scales
 					o_repeated({	-- Stolen Nar'thalas Relic
-						i(136822),	-- Stolen Nar'thalas Relic
 						o(249464),	-- Stolen Nar'thalas Relic
 						o(249466),	-- Stolen Nar'thalas Relic
 						o(249467),	-- Stolen Nar'thalas Relic
+						i(136822),	-- Stolen Nar'thalas Relic
 					}),
 				}),
 				q(42506),	-- Tomes of Yore
