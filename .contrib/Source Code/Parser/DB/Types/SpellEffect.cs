@@ -11,9 +11,11 @@ namespace ATT.DB.Types
     {
         public long ID { get; set; }
         public long Effect { get; set; }
+        public long EffectTriggerSpell { get; set; }
         public long EffectMiscValue_0 { get; set; }
         public long SpellID { get; set; }
 
+        public bool IsApplyAura() => Effect == 6;
         public bool IsQuest() => Effect == 16;
         public bool IsLearnedTransmogSet() => Effect == 255;
         public bool IsClearQuest() => Effect == 139;

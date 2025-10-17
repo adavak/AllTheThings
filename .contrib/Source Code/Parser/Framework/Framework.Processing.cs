@@ -3456,6 +3456,27 @@ namespace ATT
                     data["spellID"] = spellEffect.SpellID;
                 }
             }
+            if (spellEffect.IsApplyAura())
+            {
+                // if a spell effect applies an aura which is itself another spell, we can incorporate that spell as well
+                // ex: item: 132530 -> spell: 200146 -> aura_spell: 200155 -> effect: quest-40736
+                long triggerSpellID = spellEffect.EffectTriggerSpell;
+
+                // use a loop protection since apparently some spells trigger other spells which trigger themselves! cool
+                if (!data.TryGetValue("_triggeredSpells", out object triggeredSpellsObj) || !(triggeredSpellsObj is HashSet<long> triggeredSpells))
+                {
+                    data["_triggeredSpells"] = triggeredSpells = new HashSet<long>();
+                }
+
+                if (triggerSpellID > 0 && triggeredSpells.Add(triggerSpellID))
+                {
+                    foreach (SpellEffect triggeredEffect in WagoData.EnumerateForSpellID<SpellEffect>(spellEffect.EffectTriggerSpell))
+                    {
+                        LogDebug($"INFO: Incorporate SpellEffect Spell {triggerSpellID} from Spell {spellEffect.SpellID}", data);
+                        Incorporate_SpellEffect(data, triggeredEffect);
+                    }
+                }
+            }
         }
 
         private static bool Assign_QuestProviderFromData(long questID, IDictionary<string, object> data)
