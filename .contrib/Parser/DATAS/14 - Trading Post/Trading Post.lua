@@ -1909,7 +1909,6 @@ root(ROOTS.NeverImplemented, {
 			i(247794),	-- Emberwing Sky Guide
 			i(246917),	-- Thunder-ridged Elekk
 			i(247720),	-- The Headless Horseman's Chilling Charger
-			i(247721),	-- The Headless Horseman's Ghoulish Charger
 			i(247722),	-- The Headless Horseman's Burning Charger
 		}),
 	})),

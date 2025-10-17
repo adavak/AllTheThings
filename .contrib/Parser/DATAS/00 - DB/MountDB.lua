@@ -2126,7 +2126,6 @@ i(246919, 1244259);	-- Cinder-seared Elekk
 i(247794, 1245361);	-- Emberwing Sky Guide
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger
 i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
-i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
 --- UNSORTED ---
 i(186639, 353264);	-- Xy Trustee's Gearglider
@@ -2178,6 +2177,7 @@ i(253030, 1255477);	-- Shadowblade's Felscorned Omen
 i(250423, 1238729);	-- Slag Basilisk
 i(253013, 1255431);	-- Slayer's Felscorned Shrieker
 i(250721, 1235513);	-- Snowy Highmountain Eagle
+i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(250723, 1251255);	-- Treetop Highmountain Eagle
 i(250756, 1251298);	-- Turquoise Courser
 i(250751, 1251295);	-- Twilight Courser

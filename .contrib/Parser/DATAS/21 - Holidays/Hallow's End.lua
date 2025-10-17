@@ -167,6 +167,18 @@ local CANDY_AND_TOY_VENDOR_GROUPS = {
 	i(37584, {	-- Soothing Spearmint Candy
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
 	}),
+	i(247706, {	-- The Horseman's Ghoulish Blade
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(247715, {	-- The Horseman's Ghoulish Bulwark
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(247710, {	-- The Horseman's Ghoulish Great Blade
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
 	i(37604, {	-- Tooth Pick
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
 	}),
@@ -1006,6 +1018,36 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(33154, {	-- Sinister Squashling (PET!)
 						["timeline"] = { ADDED_2_2_2 },
+					}),
+					i(247721, {	-- The Headless Horseman's Ghoulish Charger (MOUNT!)
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247966, {	-- The Horseman's Ghoulish Breastplate
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247967, {	-- The Horseman's Ghoulish Cinch
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247972, {	-- The Horseman's Ghoulish Cloak
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(250708, {	-- The Horseman's Ghoulish Cowl
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247968, {	-- The Horseman's Ghoulish Greaves
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247971, {	-- The Horseman's Ghoulish Grips
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247964, {	-- The Horseman's Ghoulish Helm
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247965, {	-- The Horseman's Ghoulish Mantle
+						["timeline"] = { ADDED_11_2_5 },
+					}),
+					i(247969, {	-- The Horseman's Ghoulish Treads
+						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(117356, {	-- The Horseman's Sinister Slicer
 						["timeline"] = { ADDED_6_0_2 },

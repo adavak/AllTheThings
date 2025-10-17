@@ -561,13 +561,10 @@ root(ROOTS.Unsorted, {
 				i(246996),	-- Felreaver's Azure Wand
 				i(246998),	-- Felreaver's Hellfire Wand
 				i(247705),	-- The Horseman's Chilling Blade
-				i(247706),	-- The Horseman's Ghoulish Blade
 				i(247707),	-- The Horseman's Burning Blade
 				i(247709),	-- The Horseman's Chilling Great Blade
-				i(247710),	-- The Horseman's Ghoulish Great Blade
 				i(247711),	-- The Horseman's Burning Great Blade
 				i(247714),	-- The Horseman's Chilling Bulwark
-				i(247715),	-- The Horseman's Ghoulish Bulwark
 				i(247716),	-- The Horseman's Burning Bulwark
 				i(247897),	-- The Horseman's Chilling Helm
 				i(247898),	-- The Horseman's Chilling Mantle
@@ -578,14 +575,6 @@ root(ROOTS.Unsorted, {
 				i(247904),	-- The Horseman's Chilling Grips
 				i(247905),	-- The Horseman's Chilling Cloak
 				i(247906),	-- Ensemble: The Horseman's Chilling Collection
-				i(247964),	-- The Horseman's Ghoulish Helm
-				i(247965),	-- The Horseman's Ghoulish Mantle
-				i(247966),	-- The Horseman's Ghoulish Breastplate
-				i(247967),	-- The Horseman's Ghoulish Cinch
-				i(247968),	-- The Horseman's Ghoulish Greaves
-				i(247969),	-- The Horseman's Ghoulish Treads
-				i(247971),	-- The Horseman's Ghoulish Grips
-				i(247972),	-- The Horseman's Ghoulish Cloak
 				i(247973),	-- Ensemble: The Horseman's Ghoulish Collection
 				i(247974),	-- The Horseman's Burning Helm
 				i(247975),	-- The Horseman's Burning Mantle
@@ -778,15 +767,12 @@ root(ROOTS.Unsorted, {
 			}),
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249235),	-- Bottomless Bag of Entropy
-
-
 			i(249710),	-- Cartel Zo Cypher
 			i(249711),	-- Cartel Ba Cypher
 			i(249712),	-- Cartel Om Cypher
 			i(249713),	-- Cartel Transmorpher
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
-			i(250708),	-- The Horseman's Ghoulish Cowl
 			i(250709),	-- The Horseman's Chilling Cowl
 			i(250975),	-- Hellcaller Chest
 			i(242534),	-- Azure Sea Skiff
@@ -795,7 +781,6 @@ root(ROOTS.Unsorted, {
 			i(244230),	-- Strawhat of Frosted Currents
 			i(244231),	-- Ensemble: Stillwater Fisher Attire
 			i(244352),	-- Cloak of the Veiled Paws
-
 			i(231821),	-- Makeshift Explosives
 			i(232517),	-- Biome Eco-Stabilizer
 			i(246732),	-- Void-Forged Overseer
