@@ -817,6 +817,12 @@ achraw = function(id, altID, t)							-- Create an ACHIEVEMENT Object whose Crit
 	end
 	return t;
 end
+achpart = function(id, fullAch, t)						-- Create an ACHIEVEMENT Object whose Criteria is simply to complete a partial set of a broader Achievement's Criteria
+	t = ach(id, t)
+	t._noautomation = true
+	t.sym = {{"partial_achievement",fullAch}}
+	return t
+end
 
 -- SHORTCUTS for Object Class Types
 achcat = function(id, t)								-- Create an ACHIEVEMENT CATEGORY Object

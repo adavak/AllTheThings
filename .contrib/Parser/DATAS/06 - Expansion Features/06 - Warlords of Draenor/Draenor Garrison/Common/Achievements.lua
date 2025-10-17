@@ -53,34 +53,28 @@ root(ROOTS.ExpansionFeatures,
 						ach(9110),	-- Following Up
 					},
 				}),
-				ach(9828, {	-- Ten Hit Tunes (Alliance) (10)
-					["sym"] = {{ "achievement_criteria" }},
+				achpart(9828, 10015, {	-- Ten Hit Tunes (A) (10)
 					["races"] = ALLIANCE_ONLY,
 				}),
-				ach(9912, {	-- Azeroth's Top Twenty Tunes (Alliance) (20)
-					["sym"] = {{ "achievement_criteria" }},
+				achpart(9912, 10015, {	-- Azeroth's Top Twenty Tunes (A) (20)
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(122700),	-- Portable Audiophone (TOY!)
 					},
 				}),
 				ach(10015, {	-- Full Discography (A)
-					["sym"] = {{ "achievement_criteria" }},
 					["races"] = ALLIANCE_ONLY,
 				}),
-				ach(9897, {	-- Ten Hit Tunes (Horde) (10)
-					["sym"] = {{ "achievement_criteria" }},
+				achpart(9897, 10016, {	-- Ten Hit Tunes (Horde) (10)
 					["races"] = HORDE_ONLY,
 				}),
-				ach(9914, {	-- Azeroth's Top Twenty Tunes (Horde) (20)
-					["sym"] = {{ "achievement_criteria" }},
+				achpart(9914, 10016, {	-- Azeroth's Top Twenty Tunes (H) (20)
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(122700),	-- Portable Audiophone (TOY!)
 					},
 				}),
 				ach(10016, {	-- Full Discography (H)
-					["sym"] = {{ "achievement_criteria" }},
 					["races"] = HORDE_ONLY,
 				}),
 				ach(9094, {	-- Garrison Architect

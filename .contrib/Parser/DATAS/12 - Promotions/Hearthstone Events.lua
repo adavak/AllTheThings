@@ -82,7 +82,7 @@ root(ROOTS.Promotions, {
 					["provider"] = { "i", 163186 },	-- Fiery Hearthsteed (MOUNT!)
 					["u"] = REMOVED_FROM_GAME,	-- May 14, 2024
 				}),
-				ach(20033, {	-- Hearthstone Beginner
+				achpart(20033, 19724, {	-- Hearthstone Beginner
 					i(211946, {	-- Hearthstone Game Table (TOY!)
 						i(212924),	-- Stolen Hearthstone Card
 					}),
