@@ -1195,16 +1195,27 @@ namespace ATT
                     simplifyFunc = (s) => { SimplifyStructureForLua(s); };
                 }
 
-                // Perform replacements on all small StringBuilders in parallel tasks
-                // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
-                Task[] replacementTasks = new Task[categoriesByLength.Count];
-                for (int i = 0; i < categoriesByLength.Count; i++)
+                if (Debugger.IsAttached)
                 {
-                    var s = categoriesByLength[i];
-                    //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
-                    replacementTasks[i] = Task.Run(() => simplifyFunc(s.Value));
+                    // use sequentual replacements when debugging so it's possible to debug at all
+                    for (int i = 0; i < categoriesByLength.Count; i++)
+                    {
+                        simplifyFunc(categoriesByLength[i].Value);
+                    }
                 }
-                Task.WaitAll(replacementTasks);
+                else
+                {
+                    // Perform replacements on all small StringBuilders in parallel tasks
+                    // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
+                    Task[] replacementTasks = new Task[categoriesByLength.Count];
+                    for (int i = 0; i < categoriesByLength.Count; i++)
+                    {
+                        var s = categoriesByLength[i];
+                        //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
+                        replacementTasks[i] = Task.Run(() => simplifyFunc(s.Value));
+                    }
+                    Task.WaitAll(replacementTasks);
+                }
 
                 // Write the Category file for each builder
                 categoryBuilders.AsParallel().ForAll((containerPair) =>
