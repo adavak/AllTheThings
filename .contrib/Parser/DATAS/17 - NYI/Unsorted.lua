@@ -137,7 +137,6 @@ root(ROOTS.Unsorted, {
 			i(243035),	-- Flawed Ettin Bone Fragment
 			i(243036),	-- Flawed Gleaming Iron Spike
 			i(243037),	-- Flawed Xakal's Determination
-			i(243194),	-- Grandiose Grrloc (MOUNT!)	/ New 12-month sub mount https://www.mmo-champion.com/content/13616-New-Promotions-12-Month-Subscription-Burning-Crusade-Classic-and-China-Exclusives
 			i(244449),	-- Set Keystone Map: Black Rook Hold
 			i(244458),	-- Add Keystone Affix: Sands of Time
 			i(244862),	-- [DNT] Small Bronze Token

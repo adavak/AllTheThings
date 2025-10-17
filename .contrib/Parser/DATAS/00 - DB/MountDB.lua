@@ -2162,6 +2162,7 @@ i(250803, 1251397);	-- Garnet Ruinstrider
 i(250192, 1250482);	-- Ghastly Ur'zu
 i(250757, 1251300);	-- Gloomdark Nightmare
 i(250752, 1251297);	-- Golden Sunrunner
+i(243194, 1234971);	-- Grandiose Grrloc
 i(253029, 1255475);	-- High Priest's Felscorned Seeker
 i(250429, 1250886);	-- Highland Elderhorn
 i(250427, 1250884);	-- Illidari Blightstalker
