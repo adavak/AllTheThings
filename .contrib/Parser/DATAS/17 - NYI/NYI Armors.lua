@@ -6007,10 +6007,10 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247544),	-- Black Venom Sabatons
 						i(247537),	-- Creeping String of Larva
 						i(247541),	-- Disjointed Linkage Leggings
-						i(247506),	-- Gauntlets of the Demented Mind
+						i(247564),	-- Gauntlets of Fractured Dreams
 						i(247538),	-- Gauntlets of Malevolent Intent
+						i(247506),	-- Gauntlets of the Demented Mind
 						i(247539),	-- Greyed Dragonscale Coif
-						i(247036),	-- Helm of Shackled Elements
 						i(247536),	-- Laughing Sister's Pouch-Chain
 						i(247504),	-- Malignant Sabatons
 						i(247547),	-- Manacles of the Nightmare Colossus
@@ -6103,6 +6103,87 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247582),	-- Lead-Soled Seabed Striders
 						i(247590),	-- Reinforced Hound-Handler's Gauntlets
 						i(249679),	-- Sovereign Valarjar Mantle
+					}),
+				}),
+			}),
+			header(HEADERS.LFGDungeon, 2832, {	-- The Nighthold
+				d(DIFFICULTY.RAID.LFR, {
+					filter(CLOAKS, {
+						i(247489),	-- Aristocrat's Winter Drape
+						i(247481),	-- Astromancer's Greatcloak
+						i(247482),	-- Cloak of Temporal Recalibration
+						i(247491),	-- Cloak of Multitudinous Sheaths
+						i(247436),	-- Dreadlord's Tattered Wingcover
+						i(247492),	-- Fashionable Autumn Cloak
+						i(247490),	-- Feathermane Feather Cloak
+					}),
+					filter(CLOTH, {
+						i(247430),	-- Antiquated Highborne Cinch
+						i(247431),	-- Bracers of Harnessed Flame
+						i(247434),	-- Chaos-Scarred Mantle
+						i(247493),	-- Mana-Cord of Deception
+						i(247483),	-- Mantle of Prestidigitation
+						i(247467),	-- Man'ari Skullbuckled Cinch
+						i(247433),	-- Master Warmage's Leggings
+						i(247432),	-- Nighthold Custodian's Hood
+						i(247486),	-- Outcast Wanderer's Footrags
+						i(247435),	-- Perpetually Muddy Sandals
+						i(247429),	-- Robes of Fluctuating Energy
+						i(247468),	-- Scorpid Handler's Gloves
+						i(247465),	-- Treads of Galactic Odyssey
+						i(247466),	-- Woven Lasher Tendril Bracers
+					}),
+					filter(LEATHER, {
+						i(247469),	-- Bracers of Impossible Choices
+						i(247438),	-- Cake Carrier's Girdle
+						i(247439),	-- Girdle of Nefarious Strategy
+						i(247478),	-- Gloves of Synchronous Elements
+						i(247442),	-- Gnawed Nightfallen Britches¨
+						i(247441),	-- Grove-Tender's Moccasins
+						i(247488),	-- High Shadow Councilor's Wrap
+						i(247444),	-- Mantle of the Torn Sky
+						i(247446),	-- Nightborne Battle-Magus Hood
+						i(247440),	-- Stutterstep Treads
+						i(247443),	-- Temporally Displaced Gloves
+						i(247480),	-- Trousers of Cultivation
+						i(247445),	-- Tunic of Unwavering Devotion
+						i(247474),	-- Vintage Suramar Nobility Hat
+						i(247494),	-- Waistclasp of Unethical Power
+						i(247437),	-- Well-Flattened Wristguards
+					}),
+					filter(MAIL, {
+						i(247455),	-- Arcanochitin Hauberk
+						i(247450),	-- Architect's Coif of Despair
+						i(247470),	-- Belt of Celestial Alignment
+						i(247448),	-- Emblazoned Duskwatch Belt
+						i(247476),	-- Hood of Fading Opportunity
+						i(247487),	-- Netherbranded Shoulderpads
+						i(247452),	-- Pauldrons of Warped Memory
+						i(247451),	-- Pertinacious Legplates
+						i(247447),	-- Sabatons of Burning Steps
+						i(247453),	-- Shal'dorei Weedstompers
+						i(247449),	-- Sterilizer's Insulated Gauntlets
+						i(247456),	-- Stinger Resistant Bracers
+						i(247454),	-- Thistle-Proof Thorngrabbers
+						i(247495),	-- Vintage Duskwatch Cinch
+					}),
+					filter(PLATE, {
+						i(247485),	-- Breastplate of the Remembered King
+						i(247479),	-- Bridgebreaker Gauntlets
+						i(247462),	-- Chrono-Tempered Legplates
+						i(247458),	-- Duskwatch Plate Bracers
+						i(247473),	-- Eternally Recurring Bracers
+						i(247461),	-- Eventide Casque
+						i(247459),	-- Gauntlets of Fractured Eons
+						i(247460),	-- Gilded Nightborne Waistplate
+						i(247496),	-- Gleaming Celestial Waistguard
+						i(247472),	-- Goresmeared Abyssal Waistplate
+						i(247477),	-- Immaculately Polished Boots
+						i(247475),	-- Jagged Carapace Wristclamps
+						i(247464),	-- Leystone-Toe Kickers
+						i(247471),	-- Sabatons of Unchanging Fate
+						i(247463),	-- Shoulderguard of the Eclipse
+						i(247484),	-- Waistplate of Fractured Realities
 					}),
 				}),
 			}),

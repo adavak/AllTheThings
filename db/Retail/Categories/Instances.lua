@@ -3709,8 +3709,6 @@ q(2923,{coords={{51.6,48.6,84}},isBreadcrumb=1,maps=a[958],nextQuests={2922},qgs
 h(-47,{
 ah(9363,{description="Kill hostile creatures for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",providers={{"i",9363}},type="i",g={
 cq(38081,{awp=60100,b=1,itemID=122207,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,r=2,spellID=181583,g={
-crit(27749,{achID=9828,awp=60003,id=13}),
-crit(27749,{achID=9912,awp=60003,id=13}),
 crit(27749,{achID=10015,awp=60003,id=13})}}),
 i(9280,{b=1}),
 i(10299,{b=1,f=51,lvl=12}),
@@ -6774,10 +6772,6 @@ e(1556,{description="|CFFFF0000Moroes MUST be killed before you are allowed to p
 h(-19,{crs={17521,17533,17534,17535,17543,17546,17547,17548,17603,18168},description="These items can drop from any of the Opera Hall bosses.",g={
 r(213036,{awp=70003,b=1,itemID=138017,learnedAt=20,lvl=10,requireSkill=197}),
 cq(38093,{awp=60100,b=1,itemID=122231,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181609,g={
-crit(27758,{achID=9828,awp=60003,id=22}),
-crit(27758,{achID=9897,awp=60003,id=22}),
-crit(27758,{achID=9912,awp=60003,id=22}),
-crit(27758,{achID=9914,awp=60003,id=22}),
 crit(27758,{achID=10015,awp=60003,id=22}),
 crit(27758,{achID=10016,awp=60003,id=22})}}),
 s(12571,28593,{b=1,f=7,lvl=27}),
@@ -7711,10 +7705,6 @@ crit(4021,{achID=1286,id=8})}}),
 gach(5091,{awp=40003}),
 ach(426,{c=a[72],description="Once you have both, simply equip them for this achievement.",providers={{"i",32837},{"i",32838}}}),
 cq(38064,{awp=60100,b=1,itemID=122196,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=180706,g={
-crit(27711,{achID=9828,awp=60003,id=1}),
-crit(27711,{achID=9897,awp=60003,id=1}),
-crit(27711,{achID=9912,awp=60003,id=1}),
-crit(27711,{achID=9914,awp=60003,id=1}),
 crit(27711,{achID=10015,awp=60003,id=1}),
 crit(27711,{achID=10016,awp=60003,id=1})}}),
 s(15136,32837,{b=1,c=a[72],collectible=false,description="Following patch 11.1.7, Blizzard seems to have changed something such that this can no longer be collected, though it continues to function properly for the related Achievement",f=25,lvl=27}),
@@ -11752,10 +11742,6 @@ crit(22473,{achID=7934,id=5})}})}})}),
 h(-82,{
 e(1615,{npcID=15990,g={
 cq(38065,{awp=60100,b=1,itemID=122197,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181277,g={
-crit(27712,{achID=9828,awp=60003,id=2}),
-crit(27712,{achID=9897,awp=60003,id=2}),
-crit(27712,{achID=9912,awp=60003,id=2}),
-crit(27712,{achID=9914,awp=60003,id=2}),
 crit(27712,{achID=10015,awp=60003,id=2}),
 crit(27712,{achID=10016,awp=60003,id=2})}})}})})}}),
 ah(18372,{awp=100105,description="With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStages 1-3 takes place in Scholomance and Plaguelands, see instructions in the 'Wards of the Dread Citadel'-header in the respective zones.\n\nThe following stages takes place in Naxxramas, and you can get here from Eastern Plaguelands by using a portal at coordinates 35.7, 23.1. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.\n\nStage 4: Makeshift Grappling Hook, see the instructions in the subheader below.\n\nStage 5: Mutually Beneficial Transactions, see the instructions in the subheader below.\n\nStage 6: Forgotten Knowledge, see the instructions in the subheader below.\n\nCongratulations, all is unlocked and welcome to the grind!",type="a",g={
@@ -15287,10 +15273,6 @@ s(25531,51795,{b=1,f=21,lvl=30,modID=1}),
 s(25534,51798,{b=1,f=23,lvl=30,modID=1}),
 s(25538,51802,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=9828,awp=60003,id=21}),
-crit(27757,{achID=9897,awp=60003,id=21}),
-crit(27757,{achID=9912,awp=60003,id=21}),
-crit(27757,{achID=9914,awp=60003,id=21}),
 crit(27757,{achID=10015,awp=60003,id=21}),
 crit(27757,{achID=10016,awp=60003,id=21})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})}),
@@ -15536,10 +15518,6 @@ s(25661,51947,{b=1,f=21,lvl=30,modID=1}),
 s(25658,51944,{b=1,f=23,lvl=30,modID=1}),
 s(25654,51940,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=9828,awp=60003,id=21}),
-crit(27757,{achID=9897,awp=60003,id=21}),
-crit(27757,{achID=9912,awp=60003,id=21}),
-crit(27757,{achID=9914,awp=60003,id=21}),
 crit(27757,{achID=10015,awp=60003,id=21}),
 crit(27757,{achID=10016,awp=60003,id=21})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})}),
@@ -15781,10 +15759,6 @@ s(24480,49997,{b=1,f=23,lvl=30,modID=1}),
 s(24718,50428,{b=1,f=23,lvl=30,modID=1}),
 s(24467,49981,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=9828,awp=60003,id=21}),
-crit(27757,{achID=9897,awp=60003,id=21}),
-crit(27757,{achID=9912,awp=60003,id=21}),
-crit(27757,{achID=9914,awp=60003,id=21}),
 crit(27757,{achID=10015,awp=60003,id=21}),
 crit(27757,{achID=10016,awp=60003,id=21})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})}),
@@ -16048,10 +16022,6 @@ s(24840,50738,{b=1,f=23,lvl=30,modID=1}),
 s(24836,50734,{b=1,f=23,lvl=30,modID=1}),
 s(24835,50733,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=9828,awp=60003,id=21}),
-crit(27757,{achID=9897,awp=60003,id=21}),
-crit(27757,{achID=9912,awp=60003,id=21}),
-crit(27757,{achID=9914,awp=60003,id=21}),
 crit(27757,{achID=10015,awp=60003,id=21}),
 crit(27757,{achID=10016,awp=60003,id=21})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})})}}),
@@ -16757,10 +16727,6 @@ s(17521,36992,{b=1,f=6,lvl=29,modID=1}),
 s(18065,37854,{b=1,f=4,lvl=30,modID=1}),
 i(36993,{b=1,f=53,lvl=29,modID=1,spellID=60214}),
 cq(38098,{awp=60100,b=1,itemID=122237,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181657,g={
-crit(27763,{achID=9828,awp=60003,id=27}),
-crit(27763,{achID=9897,awp=60003,id=27}),
-crit(27763,{achID=9912,awp=60003,id=27}),
-crit(27763,{achID=9914,awp=60003,id=27}),
 crit(27763,{achID=10015,awp=60003,id=27}),
 crit(27763,{achID=10016,awp=60003,id=27})}}),
 crit(5458,{achID=486,id=5})}})}),
@@ -16826,10 +16792,6 @@ s(17521,36992,{b=1,f=6,lvl=29,modID=2}),
 s(18065,37854,{b=1,f=4,lvl=30,modID=2}),
 i(36993,{b=1,f=53,lvl=29,modID=2,spellID=60214}),
 cq(38098,{awp=60100,b=1,itemID=122237,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181657,g={
-crit(27763,{achID=9828,awp=60003,id=27}),
-crit(27763,{achID=9897,awp=60003,id=27}),
-crit(27763,{achID=9912,awp=60003,id=27}),
-crit(27763,{achID=9914,awp=60003,id=27}),
 crit(27763,{achID=10015,awp=60003,id=27}),
 crit(27763,{achID=10016,awp=60003,id=27})}}),
 crit(5616,{achID=497,id=5}),
@@ -18988,10 +18950,6 @@ ill(4097,{awp=70003,b=1,itemID=138802,lvl=30,questID=42898}),
 p(2080,{awp=70300,b=1,itemID=152968,npcID=127853,spellID=253799,g={
 crit(37672,{achID=12079,id=3})}}),
 cq(38063,{awp=60100,b=1,itemID=122195,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=180698,g={
-crit(27710,{achID=9828,awp=60003,id=3}),
-crit(27710,{achID=9897,awp=60003,id=3}),
-crit(27710,{achID=9912,awp=60003,id=3}),
-crit(27710,{achID=9914,awp=60003,id=3}),
 crit(27710,{achID=10015,awp=60003,id=3}),
 crit(27710,{achID=10016,awp=60003,id=3})}}),
 crit(13542,{achID=4842,id=7})}})}}),
@@ -20076,10 +20034,6 @@ i(77974,{b=1,c=a[498],f=53,lvl=32,spellID=109718}),
 p(2091,{awp=70300,b=1,itemID=152980,npcID=127953,spellID=253927,g={
 crit(37683,{achID=12079,id=14})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=9828,awp=60003,id=4}),
-crit(27740,{achID=9897,awp=60003,id=4}),
-crit(27740,{achID=9912,awp=60003,id=4}),
-crit(27740,{achID=9914,awp=60003,id=4}),
 crit(27740,{achID=10015,awp=60003,id=4}),
 crit(27740,{achID=10016,awp=60003,id=4})}})}}),
 e(333,{npcID=56173,g={
@@ -20096,10 +20050,6 @@ i(89810,{awp=50004,b=1}),
 p(2092,{awp=70300,b=1,itemID=152981,npcID=127954,spellID=253928,g={
 crit(37684,{achID=12079,id=15})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=9828,awp=60003,id=4}),
-crit(27740,{achID=9897,awp=60003,id=4}),
-crit(27740,{achID=9912,awp=60003,id=4}),
-crit(27740,{achID=9914,awp=60003,id=4}),
 crit(27740,{achID=10015,awp=60003,id=4}),
 crit(27740,{achID=10016,awp=60003,id=4})}})}})}})}}),
 d(115,{difficulties=a[49],g={
@@ -20157,10 +20107,6 @@ crit(18588,{achID=6169,id=12})}),
 p(2091,{awp=70300,b=1,itemID=152980,npcID=127953,spellID=253927,g={
 crit(37683,{achID=12079,id=14})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=9828,awp=60003,id=4}),
-crit(27740,{achID=9897,awp=60003,id=4}),
-crit(27740,{achID=9912,awp=60003,id=4}),
-crit(27740,{achID=9914,awp=60003,id=4}),
 crit(27740,{achID=10015,awp=60003,id=4}),
 crit(27740,{achID=10016,awp=60003,id=4})}})}}),
 e(333,{npcID=56173,g={
@@ -20177,10 +20123,6 @@ i(78352),
 p(2092,{awp=70300,b=1,itemID=152981,npcID=127954,spellID=253928,g={
 crit(37684,{achID=12079,id=15})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=9828,awp=60003,id=4}),
-crit(27740,{achID=9897,awp=60003,id=4}),
-crit(27740,{achID=9912,awp=60003,id=4}),
-crit(27740,{achID=9914,awp=60003,id=4}),
 crit(27740,{achID=10015,awp=60003,id=4}),
 crit(27740,{achID=10016,awp=60003,id=4})}})}})}}),
 d(1,{difficulties=a[500],g={
@@ -21771,8 +21713,6 @@ s(35530,69621,{b=1,f=20,lvl=32,modID=2}),
 s(35532,69623,{b=1,f=5,lvl=32,modID=2}),
 s(35536,69627,{b=1,f=8,lvl=32,modID=2}),
 cq(38080,{awp=60100,b=1,itemID=122215,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,r=1,spellID=181591,g={
-crit(27773,{achID=9897,awp=60003,id=12}),
-crit(27773,{achID=9914,awp=60003,id=12}),
 crit(27773,{achID=10016,awp=60003,id=12})}}),
 n(52167,{description="|CFFFF0000At least one MUST be killed prior to Jin'do the Godbreaker encounter Phase 2 start, otherwise fight will be impossible.|r\n\nIn Phase 2 their spirits will spawn and they must be pulled up to Hakkar's chains in order to break them with their ability 'Body Slam'."})}})})}})}}),
 x(5,{awp=50000,g={
@@ -24061,10 +24001,6 @@ e(709,{npcID=60999,g={
 i(87210,{b=1}),
 ill(4442,{awp=70003,b=1,itemID=138805,lvl=32,questID=42906}),
 cq(38067,{awp=60100,b=1,itemID=122199,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181570,g={
-crit(27741,{achID=9828,awp=60003,id=5}),
-crit(27741,{achID=9897,awp=60003,id=5}),
-crit(27741,{achID=9912,awp=60003,id=5}),
-crit(27741,{achID=9914,awp=60003,id=5}),
 crit(27741,{achID=10015,awp=60003,id=5}),
 crit(27741,{achID=10016,awp=60003,id=5})}}),
 crit(19521,{achID=6689,id=4})}})}}),
@@ -31480,10 +31416,6 @@ s(66940,116042,{b=1,f=6,lvl=40,modID=4}),
 i(116317,{b=1,f=53,lvl=40,modID=4}),
 ill(5336,{awp=70003,b=1,itemID=138809,lvl=35,questID=42910}),
 cq(38068,{awp=60100,b=1,itemID=122200,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181575,g={
-crit(27742,{achID=9828,awp=60003,id=6}),
-crit(27742,{achID=9897,awp=60003,id=6}),
-crit(27742,{achID=9912,awp=60003,id=6}),
-crit(27742,{achID=9914,awp=60003,id=6}),
 crit(27742,{achID=10015,awp=60003,id=6}),
 crit(27742,{achID=10016,awp=60003,id=6})}}),
 crit(24982,{achID=8992})}})}})}}),
@@ -31524,10 +31456,6 @@ ach(8952,{
 crit(24667,{achID=8985,id=17})}),
 ill(5336,{awp=70003,b=1,itemID=138809,lvl=35,questID=42910}),
 cq(38068,{awp=60100,b=1,itemID=122200,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181575,g={
-crit(27742,{achID=9828,awp=60003,id=6}),
-crit(27742,{achID=9897,awp=60003,id=6}),
-crit(27742,{achID=9912,awp=60003,id=6}),
-crit(27742,{achID=9914,awp=60003,id=6}),
 crit(27742,{achID=10015,awp=60003,id=6}),
 crit(27742,{achID=10016,awp=60003,id=6})}})}})}}),
 d(14,{
@@ -57831,7 +57759,7 @@ q(89022,{lvl=70,minReputation=a[461],qgs=a[428]}),
 q(89026,{lvl=70,minReputation={2685,18},qgs=a[428]}),
 q(89023,{lvl=70,minReputation={2685,19},qgs=a[428]}),
 q(85471,{minReputation=a[463],qgs=a[428],repeatable=1,g={
-i(232463,{minReputation={2653,20}})}})}),
+i(232463,{minReputation=a[463]})}})}),
 h(-56,{
 o(505248,{description="Interact with for a 10% chance for a free Crystalized Augment Rune.\n\nAt renown 14, you are guaranteed at least one.",isWeekly=1,minReputation=a[462],questID=89350,g={
 i(224572,{f=55,lvl=80,spellID=453250})}})}),
