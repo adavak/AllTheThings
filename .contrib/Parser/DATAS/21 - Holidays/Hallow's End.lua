@@ -1076,39 +1076,57 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(247966, {	-- The Horseman's Ghoulish Breastplate
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247967, {	-- The Horseman's Ghoulish Cinch
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247972, {	-- The Horseman's Ghoulish Cloak
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(250708, {	-- The Horseman's Ghoulish Cowl
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247968, {	-- The Horseman's Ghoulish Greaves
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247971, {	-- The Horseman's Ghoulish Grips
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247964, {	-- The Horseman's Ghoulish Helm
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247965, {	-- The Horseman's Ghoulish Mantle
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(247969, {	-- The Horseman's Ghoulish Treads
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
+						-- #if BEFORE 12.0.0
+						["description"] = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
+						-- #endif
 					}),
 					i(117356, {	-- The Horseman's Sinister Slicer
 						["timeline"] = { ADDED_6_0_2 },
