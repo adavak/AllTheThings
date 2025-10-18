@@ -5301,7 +5301,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(20815, {["collectible"] = false}),	-- Jeweler's Toolset/-Kit
 			i(20824, {["timeline"] = { REMOVED_5_0_4 }}),	-- Simple Grinder
 		})),
-		header(HEADERS.Spell, 31212, {	-- Prospecting
+		header(HEADERS.Spell, 31252, {	-- Prospecting
 			-- Note: Neither Gold, Silver nor Truesilver can be prospected.
 			i(7909, {	-- Aquamarine
 				["provider"] = { "i", 3858 },	-- Mithril Ore
