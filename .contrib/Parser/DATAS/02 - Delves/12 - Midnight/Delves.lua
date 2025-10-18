@@ -31,6 +31,7 @@ DELVES_MID_S3 = createHeader({
 	--	cn = "地心之战地下堡第3季",
 	},
 });
+-- #if AFTER 12.0.0
 local ALL_REGULAR_DELVES_MID = {
 	ATAL_AMAN,
 	COLLEGIATE_CALAMITY,
@@ -57,6 +58,7 @@ local ALL_THE_DELVES_MID = {
 	TORMENTS_RISE,
 	TWILIGHT_CRYPTS,
 };
+-- #endif
 local mapped = function(t)
 	if not t.maps then
 		t.maps = ALL_REGULAR_DELVES_MID
