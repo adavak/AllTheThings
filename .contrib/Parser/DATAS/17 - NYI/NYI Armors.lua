@@ -6187,6 +6187,49 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 					}),
 				}),
 			}),
+			header(HEADERS.LFGDungeon, 2833, {	-- Tomb of Sargeras
+				d(DIFFICULTY.RAID.LFR, {
+					filter(CLOTH, {
+						i(247617),	-- Acolyte's Abandoned Footwraps
+						i(247596),	-- Braided Torture Lash
+						i(247594),	-- Emberscatter Treads
+						i(247599),	-- Oathbreaker's Cuffs
+						i(247598),	-- Ravenous Devotee's Bracelets
+						i(247618),	-- Sash of the Unredeemed
+						i(247595),	-- Slippers of Enduring Vigilance
+						i(247597),	-- Strife-Riddled Cinch
+					}),
+					filter(LEATHER, {
+						i(247605),	-- Bracers of Rippling Darkness
+						i(247602),	-- Cinch of Sizzling Flesh
+						i(247620),	-- Cord of Pilfered Rosaries
+						i(247603),	-- Etched Bone Waistband
+						i(247601),	-- Felscape Pathfinders
+						i(247600),	-- Glacier Walkers
+						i(247604),	-- Sinew-Stitched Wristguards
+						i(247619),	-- Treads of Violent Intrusion
+						i(247616),	-- Waistguard of Profane Duplicity
+					}),
+					filter(MAIL, {
+						i(247608),	-- Belt of Screaming Slag
+						i(247606),	-- Insulated Finpads
+						i(247610),	-- Pain-Singed Armguards
+						i(247622),	-- Pristine Moon-Wrought Clasp
+						i(247607),	-- Star-Stalker Treads
+						i(247621),	-- Treads of Panicked Escape
+						i(247609),	-- Waistguard of Interminable Unity
+					}),
+					filter(PLATE, {
+						i(247615),	-- Bonemeal-Crusted Armplates
+						i(247624),	-- Girdle of the Crumbling Sanctum
+						i(247611),	-- Iron Ballast Sabatons
+						i(247613),	-- Shiversleet Waistguard
+						i(247614),	-- Soul-Render's Greatbelt
+						i(247623),	-- Spiked Terrorwake Greatboots
+						i(247612),	-- Steadfast Purifier's Warboots
+					}),
+				}),
+			}),
 		})),
 	}),
 }));

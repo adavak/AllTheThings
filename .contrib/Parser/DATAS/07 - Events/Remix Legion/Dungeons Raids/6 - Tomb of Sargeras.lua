@@ -41,6 +41,145 @@ local EncounterToCRS = {
 };
 
 local COMMONLOOT = {
+	filter(CLOAKS, {
+		-- Regular items
+		-- No cloaks were made for Remix here
+
+		-- Set items
+		-- These might not drop and be Ensemble only
+		-- Remove when confirmed
+		i(247116),	-- Shawl of Blind Absolution
+		i(247098),	-- Drape of the Arcane Tempest
+		i(247134),	-- Diabolic Shroud
+		i(247123),	-- Fanged Slayer's Shroud
+		i(247105),	-- Xuen's Cloak
+		i(247087),	-- Stormheart Drape
+		i(247081),	-- Demonbane Shroud
+		i(247093),	-- Wildstalker Cape
+		i(247129),	-- Drape of the Skybreaker
+		i(247141),	-- Titanic Onslaught Cloak
+		i(247111),	-- Radiant Lightbringer Cape
+		i(247075),	-- Gravewarden Cloak
+	}),
+	filter(CLOTH, {
+		-- Regular items
+		i(247617),	-- Acolyte's Abandoned Footwraps
+		i(247596),	-- Braided Torture Lash
+		i(247594),	-- Emberscatter Treads
+		i(247599),	-- Oathbreaker's Cuffs
+		i(247598),	-- Ravenous Devotee's Bracelets
+		i(247618),	-- Sash of the Unredeemed
+		i(247595),	-- Slippers of Enduring Vigilance
+		i(247597),	-- Strife-Riddled Cinch
+
+		-- Set items
+		-- These might not drop and be Ensemble only
+		-- Remove when confirmed
+		i(247117),	-- Gloves of Blind Absolution
+		i(247118),	-- Hood of Blind Absolution
+		i(247119),	-- Leggings of Blind Absolution
+		i(247120),	-- Robes of Blind Absolution
+		i(247121),	-- Mantle of Blind Absolution
+		i(247099),	-- Gloves of the Arcane Tempest
+		i(247100),	-- Crown of the Arcane Tempest
+		i(247101),	-- Leggings of the Arcane Tempest
+		i(247102),	-- Robes of the Arcane Tempest
+		i(247103),	-- Mantle of the Arcane Tempest
+		i(247135),	-- Diabolic Gloves
+		i(247136),	-- Diabolic Helm
+		i(247137),	-- Diabolic Leggings
+		i(247138),	-- Diabolic Robe
+		i(247139),	-- Diabolic Mantle
+	}),
+	filter(LEATHER, {
+		-- Regular items
+		i(247605),	-- Bracers of Rippling Darkness
+		i(247602),	-- Cinch of Sizzling Flesh
+		i(247620),	-- Cord of Pilfered Rosaries
+		i(247603),	-- Etched Bone Waistband
+		i(247601),	-- Felscape Pathfinders
+		i(247600),	-- Glacier Walkers
+		i(247604),	-- Sinew-Stitched Wristguards
+		i(247619),	-- Treads of Violent Intrusion
+		i(247616),	-- Waistguard of Profane Duplicity
+
+		-- Set items
+		-- These might not drop and be Ensemble only
+		-- Remove when confirmed
+		i(247122),	-- Fanged Slayer's Chestguard
+		i(247124),	-- Fanged Slayer's Handguards
+		i(247125),	-- Fanged Slayer's Helm
+		i(247126),	-- Fanged Slayer's Legguards
+		i(247127),	-- Fanged Slayer's Shoulderpads
+		i(247104),	-- Xuen's Tunic
+		i(247106),	-- Xuen's Gauntlets
+		i(247107),	-- Xuen's Helm
+		i(247108),	-- Xuen's Legguards
+		i(247109),	-- Xuen's Shoulderguards
+		i(247086),	-- Stormheart Tunic
+		i(247088),	-- Stormheart Gloves
+		i(247089),	-- Stormheart Headdress
+		i(247090),	-- Stormheart Legguards
+		i(247091),	-- Stormheart Mantle
+		i(247080),	-- Demonbane Harness
+		i(247082),	-- Demonbane Gauntlets
+		i(247083),	-- Demonbane Faceguard
+		i(247084),	-- Demonbane Leggings
+		i(247085),	-- Demonbane Shoulderpads
+	}),
+	filter(MAIL, {
+		-- Regular items
+		i(247608),	-- Belt of Screaming Slag
+		i(247606),	-- Insulated Finpads
+		i(247610),	-- Pain-Singed Armguards
+		i(247622),	-- Pristine Moon-Wrought Clasp
+		i(247607),	-- Star-Stalker Treads
+		i(247621),	-- Treads of Panicked Escape
+		i(247609),	-- Waistguard of Interminable Unity
+
+		-- Set items
+		-- These might not drop and be Ensemble only
+		-- Remove when confirmed
+		i(247092),	-- Wildstalker Chestguard
+		i(247094),	-- Wildstalker Gauntlets
+		i(247095),	-- Wildstalker Helmet
+		i(247096),	-- Wildstalker Leggings
+		i(247097),	-- Wildstalker Spaulders
+		i(247128),	-- Harness of the Skybreaker
+		i(247130),	-- Grips of the Skybreaker
+		i(247131),	-- Helmet of the Skybreaker
+		i(247132),	-- Legguards of the Skybreaker
+		i(247133),	-- Pauldrons of the Skybreaker
+	}),
+	filter(PLATE, {
+		-- Regular items
+		i(247615),	-- Bonemeal-Crusted Armplates
+		i(247624),	-- Girdle of the Crumbling Sanctum
+		i(247611),	-- Iron Ballast Sabatons
+		i(247613),	-- Shiversleet Waistguard
+		i(247614),	-- Soul-Render's Greatbelt
+		i(247623),	-- Spiked Terrorwake Greatboots
+		i(247612),	-- Steadfast Purifier's Warboots
+
+		-- Set items
+		-- These might not drop and be Ensemble only
+		-- Remove when confirmed
+		i(247140),	-- Titanic Onslaught Breastplate
+		i(247142),	-- Titanic Onslaught Handguards
+		i(247143),	-- Titanic Onslaught Greathelm
+		i(247144),	-- Titanic Onslaught Greaves
+		i(247145),	-- Titanic Onslaught Pauldrons
+		i(247110),	-- Radiant Lightbringer Breastplate
+		i(247112),	-- Radiant Lightbringer Gauntlets
+		i(247113),	-- Radiant Lightbringer Crown
+		i(247114),	-- Radiant Lightbringer Greaves
+		i(247115),	-- Radiant Lightbringer Shoulderguards
+		i(247074),	-- Gravewarden Chestplate
+		i(247076),	-- Gravewarden Handguards
+		i(247077),	-- Gravewarden Visage
+		i(247078),	-- Gravewarden Legplates
+		i(247079),	-- Gravewarden Pauldrons
+	}),
 };
 
 ------ Boss Functions ------

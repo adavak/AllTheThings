@@ -1467,7 +1467,7 @@ h(-22,{
 i(52188,{awp=40003,description="Can be bought from Jewelcrafting Suppliers, as well as some Trade vendors around the world."}),
 i(20815,{collectible=false,description="Can be bought from Jewelcrafting Suppliers, as well as some Trade vendors around the world.",f=57}),
 i(20824,{description="Can be bought from Jewelcrafting Suppliers, as well as some Trade vendors around the world.",rwp=50004,u=2})}),
-ah(31212,{type="s",g={
+ah(31252,{type="s",g={
 i(7909,{providers={a[41]}}),
 i(12800,{providers={a[1]}}),
 i(12361,{providers={a[1]}}),
