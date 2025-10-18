@@ -153,6 +153,34 @@ local CANDY_AND_TOY_VENDOR_GROUPS = {
 		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
 		["timeline"] = { ADDED_11_0_5 },
 	}),
+	i(226461, {	-- Patched Harvest Golem's Belt
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(226458, {	-- Patched Harvest Golem's Boots
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(226457, {	-- Patched Harvest Golem's Chest
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(226456, {	-- Patched Harvest Golem's Gloves
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(226690, {	-- Patched Harvest Golem's Head
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(226455, {	-- Patched Harvest Golem's Pants
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
+	i(226454, {	-- Patched Harvest Golem's Pauldrons
+		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
+		["timeline"] = { ADDED_11_2_5 },
+	}),
 	i(226453, {	-- Patched Harvest Golem's Post
 		["cost"] = { { "i", 33226, 100 }, },	-- 100x Tricky Treat
 		["timeline"] = { ADDED_11_0_5 },
@@ -996,25 +1024,25 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 						["collectible"] = false,
 					}),
 					i(226461, {	-- Patched Harvest Golem's Belt
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(226458, {	-- Patched Harvest Golem's Boots
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(226457, {	-- Patched Harvest Golem's Chest
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(226456, {	-- Patched Harvest Golem's Gloves
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(226690, {	-- Patched Harvest Golem's Head
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(226455, {	-- Patched Harvest Golem's Pants
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(226454, {	-- Patched Harvest Golem's Pauldrons
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_2_5 },
 					}),
 					i(33154, {	-- Sinister Squashling (PET!)
 						["timeline"] = { ADDED_2_2_2 },
