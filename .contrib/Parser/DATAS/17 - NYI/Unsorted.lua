@@ -180,16 +180,6 @@ root(ROOTS.Unsorted, {
 			i(246796),	-- Epic Cache of Infinite Power
 			i(246990),	-- Infernal's Azure Staff
 			i(246994),	-- Infernal's Hellfire Staff
-			i(247489),	-- Aristocrat's Winter Drape
-			i(247490),	-- Feathermane Feather Cloak
-			i(247491),	-- Cloak of Multitudinous Sheaths
-			i(247493),	-- Mana-Cord of Deception
-			i(247494),	-- Waistclasp of Unethical Power
-			i(247495),	-- Vintage Duskwatch Cinch
-			i(247496),	-- Gleaming Celestial Waistguard
-			i(247566),	-- Robes of Celestial Adornment
-			i(247570),	-- Treads of the Drowned
-			i(247583),	-- Calcareous Wristclamps
 			i(247617),	-- Acolyte's Abandoned Footwraps
 			i(247618),	-- Sash of the Unredeemed
 			i(247619),	-- Treads of Violent Intrusion

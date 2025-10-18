@@ -101,7 +101,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(240784),	-- Dreadthorn Spaulders
 						i(240786),	-- Dreadthorn Waistband
 						i(240789),	-- Dreadthorn Wristguards
-						
 					}),
 					filter(PLATE, {
 						i(240696),	-- Thunderpeak Bone Battleplate
@@ -112,7 +111,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(240699),	-- Thunderpeak Bone Stompers
 						i(240700),	-- Thunderpeak Bone Vambraces
 						i(240698),	-- Thunderpeak Bone Wargreaves
-						
 					}),
 				}),
 			},

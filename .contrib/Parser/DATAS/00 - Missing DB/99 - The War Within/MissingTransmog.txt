@@ -36930,14 +36930,6 @@ s(288937)/i(240378),	-- Leyline Defender's Greatbelt
 s(288938)/i(240379),	-- Leyline Defender's Chestpiece
 s(288939)/i(240380),	-- Leyline Defender's Epaulets
 s(288940)/i(240381),	-- Leyline Defender's Faceguard
-s(288941)/i(240382),	-- Jandvik Diver's Gauntlets
-s(288942)/i(240383),	-- Jandvik Diver's Wristguards
-s(288943)/i(240384),	-- Jandvik Diver's Warboots
-s(288944)/i(240385),	-- Jandvik Diver's Legguards
-s(288945)/i(240386),	-- Jandvik Diver's Girdle
-s(288946)/i(240387),	-- Jandvik Diver's Breastplate
-s(288947)/i(240388),	-- Jandvik Diver's Epaulets
-s(288948)/i(240389),	-- Jandvik Diver's Helmet
 s(288949)/i(240390),	-- Suramar Silver Handguards
 s(288950)/i(240391),	-- Suramar Silver Wristguards
 s(288951)/i(240392),	-- Suramar Silver Jackboots
@@ -36954,14 +36946,6 @@ s(288961)/i(240402),	-- Darkwatcher Cinch
 s(288962)/i(240403),	-- Darkwatcher Chestguard
 s(288963)/i(240404),	-- Darkwatcher Pauldrons
 s(288964)/i(240405),	-- Darkwatcher Faceguard
-s(288965)/i(240406),	-- Helheim Handguards
-s(288966)/i(240407),	-- Helheim Vambraces
-s(288967)/i(240408),	-- Helheim Boots
-s(288968)/i(240409),	-- Helheim Leggings
-s(288969)/i(240410),	-- Helheim Waistband
-s(288970)/i(240411),	-- Helheim Haubergeon
-s(288971)/i(240412),	-- Helheim Spaulders
-s(288972)/i(240413),	-- Helheim Mask
 s(288973)/i(240414),	-- Gauntlets of the Nightmare's Embrace
 s(288974)/i(240415),	-- Bracers of the Nightmare's Embrace
 s(288975)/i(240416),	-- Boots of the Nightmare's Embrace
@@ -36979,15 +36963,7 @@ s(288986)/i(240427),	-- Ambervale Bone Gambeson
 s(288987)/i(240428),	-- Ambervale Bone Harness
 s(288988)/i(240429),	-- Ambervale Bone Shoulderguard
 s(288989)/i(240430),	-- Ambervale Bone Cowl
-s(288990)/i(240431),	-- Nighthide Grips
-s(288991)/i(240432),	-- Nighthide Cuffs
-s(288992)/i(240433),	-- Nighthide Waders
-s(288993)/i(240434),	-- Nighthide Trousers
-s(288994)/i(240435),	-- Nighthide Girdle
-s(288995)/i(240436),	-- Nighthide Gambeson
 s(288996)/i(240437),	--
-s(288997)/i(240438),	-- Nighthide Spaulders
-s(288998)/i(240439),	-- Nighthide Hat
 s(288999)/i(240440),	-- Dreadhide Stalker's Gloves
 s(289000)/i(240441),	-- Dreadhide Stalker's Bindings
 s(289001)/i(240442),	-- Dreadhide Stalker's Waders
@@ -37015,15 +36991,6 @@ s(289022)/i(240463),	-- Terrorcloth Robe
 s(289023)/i(240464),	-- Terrorcloth Raiment
 s(289024)/i(240465),	-- Terrorcloth Amice
 s(289025)/i(240466),	-- Terrorcloth Cowl
-s(289026)/i(240467),	-- Manasinged Handwraps
-s(289027)/i(240468),	-- Manasinged Wraps
-s(289028)/i(240469),	-- Manasinged Slippers
-s(289029)/i(240470),	-- Manasinged Leggings
-s(289091)/i(240534),	-- Manasinged Cinch
-s(289092)/i(240535),	-- Manasinged Robe
-s(289093)/i(240536),	-- Manasinged Doublet
-s(289094)/i(240537),	-- Manasinged Amice
-s(289095)/i(240538),	-- Manasinged Hood
 s(289096)/i(240539),	-- Xorothian Gauntlets
 s(289097)/i(240540),	-- Xorothian Wristguards
 s(289098)/i(240541),	-- Xorothian Jackboots
@@ -37123,14 +37090,6 @@ s(289191)/i(240634),	--
 s(289192)/i(240635),	--
 s(289193)/i(240636),	-- Dreadthorn Cape
 s(289194)/i(240637),	--
-s(289195)/i(240638),	-- Highmountain Hide Cap
-s(289196)/i(240639),	-- Highmountain Hide Shoulders
-s(289197)/i(240640),	-- Highmountain Hide Vest
-s(289198)/i(240641),	-- Highmountain Hide Strap
-s(289199)/i(240642),	-- Highmountain Hide Legwraps
-s(289200)/i(240643),	-- Highmountain Hide Boots
-s(289201)/i(240644),	-- Highmountain Hide Wristguards
-s(289202)/i(240645),	-- Highmountain Hide Gloves
 s(289203)/i(240646),	-- Riven Priesthood Cowl
 s(289204)/i(240647),	-- Riven Priesthood Amice
 s(289205)/i(240648),	-- Riven Priesthood Vestments
@@ -37155,14 +37114,6 @@ s(289223)/i(240666),	-- Praetorium Guard's Legguards
 s(289224)/i(240667),	-- Praetorium Guard's Sabatons
 s(289225)/i(240668),	-- Praetorium Guard's Wristguards
 s(289226)/i(240669),	-- Praetorium Guard's Gauntlets
-s(289227)/i(240670),	-- Vrykul Funereal Warhelm
-s(289228)/i(240671),	-- Vrykul Funereal Pauldrons
-s(289229)/i(240672),	-- Vrykul Funereal Battleplate
-s(289230)/i(240673),	-- Vrykul Funereal Greatbelt
-s(289231)/i(240674),	-- Vrykul Funereal Legguards
-s(289232)/i(240675),	-- Vrykul Funereal Jackboots
-s(289233)/i(240676),	-- Vrykul Funereal Armplates
-s(289234)/i(240677),	-- Vrykul Funereal Handguards
 s(289235)/i(240678),	-- Kal'delar Faceguard
 s(289236)/i(240679),	-- Kal'delar Shoulderguards
 s(289237)/i(240680),	-- Kal'delar Chestplate
@@ -37171,22 +37122,6 @@ s(289239)/i(240682),	-- Kal'delar Wargreaves
 s(289240)/i(240683),	-- Kal'delar Warboots
 s(289241)/i(240684),	-- Kal'delar Armplates
 s(289242)/i(240685),	-- Kal'delar Handguards
-s(289243)/i(240686),	-- Nar'thalas Graduate's Faceguard
-s(289244)/i(240687),	-- Nar'thalas Graduate's Shoulderguards
-s(289245)/i(240688),	-- Nar'thalas Graduate's Breastplate
-s(289246)/i(240689),	-- Nar'thalas Graduate's Greatbelt
-s(289247)/i(240690),	-- Nar'thalas Graduate's Legguards
-s(289248)/i(240691),	-- Nar'thalas Graduate's Sabatons
-s(289249)/i(240692),	-- Nar'thalas Graduate's Vambraces
-s(289250)/i(240693),	-- Nar'thalas Graduate's Handguards
-s(289251)/i(240694),	-- Thunderpeak Bone Faceguard
-s(289252)/i(240695),	-- Thunderpeak Bone Spaulders
-s(289253)/i(240696),	-- Thunderpeak Bone Battleplate
-s(289254)/i(240697),	-- Thunderpeak Bone Girdle
-s(289255)/i(240698),	-- Thunderpeak Bone Wargreaves
-s(289256)/i(240699),	-- Thunderpeak Bone Stompers
-s(289257)/i(240700),	-- Thunderpeak Bone Vambraces
-s(289258)/i(240701),	-- Thunderpeak Bone Gauntlets
 s(289259)/i(240702),	-- Doomsinger's Guise
 s(289260)/i(240703),	-- Doomsinger's Amice
 s(289261)/i(240704),	-- Doomsinger's Doublet
@@ -37195,62 +37130,6 @@ s(289263)/i(240706),	-- Doomsinger's Pants
 s(289264)/i(240707),	-- Doomsinger's Boots
 s(289265)/i(240708),	-- Doomsinger's Bindings
 s(289266)/i(240709),	-- Doomsinger's Handwraps
-s(289267)/i(240710),	-- Leyline Scholar's Cowl
-s(289268)/i(240711),	-- Leyline Scholar's Shawl
-s(289269)/i(240712),	-- Leyline Scholar's Vestments
-s(289270)/i(240713),	-- Leyline Scholar's Sash
-s(289271)/i(240714),	-- Leyline Scholar's Leggings
-s(289272)/i(240715),	-- Leyline Scholar's Slippers
-s(289273)/i(240716),	-- Leyline Scholar's Bindings
-s(289274)/i(240717),	-- Leyline Scholar's Gloves
-s(289275)/i(240718),	-- Wine-Dark Royal Cowl \\ Wine-dark Royal Cowl
-s(289276)/i(240719),	-- Wine-Dark Royal Epaulets \\ Wine-dark Royal Epaulets
-s(289277)/i(240720),	-- Wine-Dark Royal Doublet \\ Wine-dark Royal Doublet
-s(289278)/i(240721),	-- Wine-Dark Royal Belt \\ Wine-dark Royal Belt
-s(289279)/i(240722),	-- Wine-Dark Royal Trousers \\ Wine-dark Royal Trousers
-s(289280)/i(240723),	-- Wine-Dark Royal Boots \\ Wine-dark Royal Boots
-s(289281)/i(240724),	-- Wine-Dark Royal Armbands \\ Wine-dark Royal Armbands
-s(289282)/i(240725),	-- Wine-Dark Royal Handwraps \\ Wine-dark Royal Handwraps
-s(289283)/i(240726),	-- Crescent Vale Cowl
-s(289284)/i(240727),	-- Crescent Vale Shawl
-s(289285)/i(240728),	-- Crescent Vale Vestments
-s(289286)/i(240729),	-- Crescent Vale Belt
-s(289287)/i(240730),	-- Crescent Vale Legwraps
-s(289288)/i(240731),	-- Crescent Vale Boots
-s(289289)/i(240732),	-- Crescent Vale Wristwraps
-s(289290)/i(240733),	-- Crescent Vale Gloves
-s(289291)/i(240734),	-- Hrydshal Runespeaker Cowl
-s(289292)/i(240735),	-- Hrydshal Runespeaker Mantle
-s(289293)/i(240736),	-- Hrydshal Runespeaker Chestwrap
-s(289294)/i(240737),	-- Hrydshal Runespeaker Cord
-s(289295)/i(240738),	-- Hrydshal Runespeaker Pants
-s(289296)/i(240739),	-- Hrydshal Runespeaker Slippers
-s(289297)/i(240740),	-- Hrydshal Runespeaker Bindings
-s(289298)/i(240741),	-- Hrydshal Runespeaker Gloves
-s(289300)/i(240743),	-- Haustvelt Leather Headgear
-s(289301)/i(240744),	-- Haustvelt Leather Mantle
-s(289302)/i(240745),	-- Haustvelt Leather Chestguard
-s(289303)/i(240746),	-- Haustvelt Leather Belt
-s(289304)/i(240747),	-- Haustvelt Leather Breeches
-s(289305)/i(240748),	-- Haustvelt Leather Boots
-s(289306)/i(240749),	-- Haustvelt Leather Wraps
-s(289307)/i(240750),	-- Haustvelt Leather Gloves
-s(289308)/i(240751),	-- Sablehide Headgear
-s(289309)/i(240752),	-- Sablehide Mantle
-s(289310)/i(240753),	-- Sablehide Tunic
-s(289311)/i(240754),	-- Sablehide Strap
-s(289312)/i(240755),	-- Sablehide Breeches
-s(289313)/i(240756),	-- Sablehide Boots
-s(289314)/i(240757),	-- Sablehide Bindings
-s(289315)/i(240758),	-- Sablehide Grips
-s(289316)/i(240759),	-- Llothien Prowler's Hat
-s(289317)/i(240760),	-- Llothien Prowler's Shoulderguard
-s(289318)/i(240761),	-- Llothien Prowler's Harness
-s(289319)/i(240762),	-- Llothien Prowler's Belt
-s(289320)/i(240763),	-- Llothien Prowler's Legguards
-s(289321)/i(240764),	-- Llothien Prowler's Waders
-s(289322)/i(240765),	-- Llothien Prowler's Cuffs
-s(289323)/i(240766),	-- Llothien Prowler's Gloves
 s(289324)/i(240767),	-- Arinor Keeper's Cap
 s(289325)/i(240768),	-- Arinor Keeper's Mantle
 s(289326)/i(240769),	-- Arinor Keeper's Vest
@@ -37267,38 +37146,6 @@ s(289336)/i(240779),	-- Lunarblight Leather Legwraps
 s(289337)/i(240780),	-- Lunarblight Leather Striders
 s(289338)/i(240781),	-- Lunarblight Leather Cuffs
 s(289339)/i(240782),	-- Lunarblight Leather Grips
-s(289340)/i(240783),	-- Dreadthorn Helmet
-s(289341)/i(240784),	-- Dreadthorn Spaulders
-s(289342)/i(240785),	-- Dreadthorn Chestguard
-s(289343)/i(240786),	-- Dreadthorn Waistband
-s(289344)/i(240787),	-- Dreadthorn Legguards
-s(289345)/i(240788),	-- Dreadthorn Greaves
-s(289346)/i(240789),	-- Dreadthorn Wristguards
-s(289347)/i(240790),	-- Dreadthorn Handguards
-s(289348)/i(240791),	-- Coif of Remembered Eternity
-s(289349)/i(240792),	-- Pinions of Remembered Eternity
-s(289350)/i(240793),	-- Chainmail of Remembered Eternity
-s(289351)/i(240794),	-- Cinch of Remembered Eternity
-s(289352)/i(240795),	-- Breeches of Remembered Eternity
-s(289353)/i(240796),	-- Sollerets of Remembered Eternity
-s(289354)/i(240797),	-- Vambraces of Remembered Eternity
-s(289355)/i(240798),	-- Grips of Remembered Eternity
-s(289356)/i(240799),	-- Stormborn Laminar Helmet
-s(289357)/i(240800),	-- Stormborn Laminar Shoulderguards
-s(289358)/i(240801),	-- Stormborn Laminar Chainmail
-s(289359)/i(240802),	-- Stormborn Laminar Waistband
-s(289360)/i(240803),	-- Stormborn Laminar Leggings
-s(289361)/i(240804),	-- Stormborn Laminar Greaves
-s(289362)/i(240805),	-- Stormborn Laminar Vambraces
-s(289363)/i(240806),	-- Stormborn Laminar Handguards
-s(289364)/i(240807),	-- Highmountain Riverscale Helm
-s(289365)/i(240808),	-- Highmountain Riverscale Pauldrons
-s(289366)/i(240809),	-- Highmountain Riverscale Chainmail
-s(289367)/i(240810),	-- Highmountain Riverscale Clasp
-s(289368)/i(240811),	-- Highmountain Riverscale Wargreaves
-s(289369)/i(240812),	-- Highmountain Riverscale Boots
-s(289370)/i(240813),	-- Highmountain Riverscale Wristguards
-s(289371)/i(240814),	-- Highmountain Riverscale Grips
 s(289372)/i(240815),	-- Oronaar Disciple's Coif
 s(289373)/i(240816),	-- Oronaar Disciple's Pauldrons
 s(289374)/i(240817),	-- Oronaar Disciple's Haubergeon
