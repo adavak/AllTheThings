@@ -228,14 +228,16 @@ root(ROOTS.Zones, {
 				o(240643, {	-- Treasure Chest
 					["questID"] = 37828,
 					["coord"] = { 49.5, 45.3, AZSUNA },
-					["groups"] = {
-						i(122681),	-- Sternfathom's Pet Journal (TOY!)
-					},
+					["groups"] = { i(122681) },	-- Sternfathom's Pet Journal (TOY!)
 				}),
 				o(250109, {	-- Treasure Chest
 					["questID"] = 42339,
-					["coord"] = { 53.9, 22.5, AZSUNA },
+					["coord"] = { 52.9, 20.6, AZSUNA },
 					["description"] = "At the end of the cave full of sleeping bears. Tread lightly!",
+				}),
+				o(250432, {	-- Unstable Riftstone
+					["coord"] = { 28.0, 51.1, AZSUNA },
+					["groups"] = { i(137604) },	-- Unstable Riftstone
 				}),
 			}),
 		}),

@@ -2149,17 +2149,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 					},
 				}),
-				n(231351, {	-- Kieule <Souvenirs>
-					["coord"] = { 62.38, 49.92, TANARIS },
-					["groups"] = {
-						i(140670),	-- Souvenir Elekk
-						i(140671),	-- Souvenir Raptor
-						i(118052),	-- Murloc Chew Toy
-						i(130151, {	-- The "Devilsaur" Lunchbox (TOY!)
-							["cost"] = { { "c", 1155, 1000 }, },	-- 1,000x Ancient Mana
-						}),
-					},
-				}),
 			}),
 		},
 	}),

@@ -2034,6 +2034,7 @@ ExportDB.AccountWideQuestsDB = {
 	[91482] = true,	-- Speed Siphoner II
 	[91483] = true,	-- Hacking the Mainframe
 	[91484] = true,	-- Hacking the Forgeweaver
+	[91485] = true,	-- Hacking the Planet
 	[91486] = true,	-- Attuned to the Aether
 	[91487] = true,	-- Welcome to the Team
 	[91489] = true,	-- A Curious Companion

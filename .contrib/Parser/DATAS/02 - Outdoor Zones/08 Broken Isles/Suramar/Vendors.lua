@@ -15,11 +15,9 @@ root(ROOTS.Zones, {
 				n(112064, {	-- Dolse Shimmersong <Souvenirs>
 					["coord"] = { 51.2, 49.8, SURAMAR },
 					["groups"] = {
-						--[[ No use yet, potential pets/toys?
 						i(140670),	-- Souvenir Elekk
 						i(141205),	-- Souvenir Murloc
 						i(140671),	-- Souvenir Raptor
-						--]]
 						i(130151, {	-- The "Devilsaur" Lunchbox (TOY!)
 							["cost"] = { { "c", 1155, 1000 }, },	-- 1,000x Ancient Mana
 						}),

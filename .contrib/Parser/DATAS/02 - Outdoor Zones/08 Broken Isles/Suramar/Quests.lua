@@ -123,7 +123,20 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
 					["groups"] = {
-						i(136537),	-- Arcane Glowlamp (QI!)
+						o(247609, {	-- Arcane Glowlamp
+							["coords"] = {
+								{ 38.4, 86.0, SURAMAR },
+								{ 39.0, 85.4, SURAMAR },
+								{ 39.1, 83.4, SURAMAR },
+								{ 39.8, 81.7, SURAMAR },
+								{ 39.8, 86.4, SURAMAR },
+								{ 40.3, 84.0, SURAMAR },
+								{ 40.4, 79.9, SURAMAR },
+								{ 40.5, 80.0, SURAMAR },
+								{ 40.7, 81.6, SURAMAR },
+							},
+							["groups"] = { i(136537) },	-- Arcane Glowlamp (QI!)
+						}),
 						i(141949),	-- Everburning Arcane Glowlamp (QI!)
 					},
 				}),
@@ -253,13 +266,34 @@ root(ROOTS.Zones, {
 						41098,	-- Shard of Kozak
 						41097,	-- Shard of Vorgos
 					},
-					["provider"] = { "n", 100823 },	-- Lyana Darksorrow
+					["qgs"] = {
+						100823,	-- Lyana Darksorrow
+						100053,	-- Lyana Darksorrow
+					},
 					["coord"] = { 31.0, 85.0, SURAMAR },
 				}),
 				q(41107, {	-- Bad Apples
 					["description"] = "Must be disguised as a Nightborne.",
 					["provider"] = { "n", 103131 },	-- Keelay Moongrow
 					["coord"] = { 47.2, 56.5, SURAMAR },
+					["groups"] = {
+						o(247023, {	-- Shadowbloom
+							["coords"] = {
+								{ 36.8, 56.7, SURAMAR },
+								{ 37.1, 55.6, SURAMAR },
+								{ 37.2, 53.4, SURAMAR },
+								{ 37.4, 52.2, SURAMAR },
+								{ 37.5, 56.7, SURAMAR },
+								{ 37.9, 57.5, SURAMAR },
+								{ 38.1, 54.3, SURAMAR },
+								{ 38.1, 55.9, SURAMAR },
+								{ 38.6, 58.9, SURAMAR },
+								{ 38.7, 56.4, SURAMAR },
+								{ 38.8, 57.5, SURAMAR },
+							},
+							["groups"] = { i(134014) },	-- Shadowbloom (QI!)
+						}),
+					},
 				}),
 				q(40227, {	-- Bad Intentions
 					["sourceQuests"] = {
@@ -548,7 +582,10 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
 					["groups"] = {
-						i(135509),	-- "The Claw Clacks for Thee" (QI!)
+						o(247050, {	-- Mornath's Curio Chest
+							["coord"] = { 42.5, 76.8, SURAMAR },
+							["groups"] = { i(135509) },	-- "The Claw Clacks for Thee" (QI!)
+						}),
 						i(136577),	-- Mornath's Key (QI!)
 					},
 				}),
@@ -641,6 +678,29 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40401,	-- A Way Back In
 					["provider"] = { "n", 100192 },	-- Astoril
 					["coord"] = { 41.3, 60.7, SURAMAR },
+					["groups"] = {
+						o(245507, {	-- Supply Cache
+							["coords"] = {
+								{ 40.4, 68.8, SURAMAR },
+								{ 40.7, 62.0, SURAMAR },
+								{ 41.2, 65.2, SURAMAR },
+								{ 41.3, 63.8, SURAMAR },
+								{ 41.6, 69.3, SURAMAR },
+								{ 41.7, 58.9, SURAMAR },
+								{ 41.7, 60.8, SURAMAR },
+								{ 42.0, 65.8, SURAMAR },
+								{ 42.1, 58.0, SURAMAR },
+								{ 42.6, 62.4, SURAMAR },
+								{ 42.7, 60.0, SURAMAR },
+								{ 42.7, 64.7, SURAMAR },
+								{ 42.9, 63.6, SURAMAR },
+								{ 43.2, 60.8, SURAMAR },
+								{ 43.4, 58.5, SURAMAR },
+								{ 44.2, 60.2, SURAMAR },
+							},
+							["groups"] = { i(132177) },	-- Stashed Supplies (QI!)
+						}),
+					},
 				}),
 				q(41606, {	-- Finding Brytag
 					["sourceQuest"] = 40927,	-- Jandvik's Last Hope
@@ -757,6 +817,12 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 99514 },	-- Lyana Darksorrow
 					["coord"] = { 30.8, 59.1, SURAMAR },
+					["groups"] = {
+						o(245245, {	-- Vengeful Warglaive
+							["coord"] = { 27.2, 59.9, SURAMAR },
+							["groups"] = { i(130211) },	-- Lyana's Vengeful Warglaive (QI!)
+						}),
+					},
 				}),
 				q(44490, {	-- Grimwing the Devourer (Demon hunter)
 					["sourceQuests"] = {
@@ -1409,6 +1475,12 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41139,	-- The Key Is Around Here Somewhere...
 					["provider"] = { "n", 103204 },	-- Angus Stormbrew
 					["coord"] = { 28.4, 82.7, SURAMAR },
+					["groups"] = {
+						o(247398, {	-- Felsoul Keyring
+							["coord"] = { 27.5, 88.9, SURAMAR },
+							["groups"] = { i(134080) },	-- Felsoul Cage Key (QI!)
+						}),
+					},
 				}),
 				q(44561, {	-- Seed of Hope
 					["sourceQuest"] = 42230,	-- The Valewalker's Burden
@@ -1890,6 +1962,33 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40625,	-- A Different Source
 					["provider"] = { "n", 101076 },	-- Kyrtos
 					["coord"] = { 26.7, 70.7, SURAMAR },
+					["groups"] = {
+						o_repeated({	-- Fel-Infused Plate
+							["coords"] = {
+								{ 25.6, 61.4, SURAMAR },
+								{ 26.1, 59.0, SURAMAR },
+								{ 27.1, 64.1, SURAMAR },
+								{ 27.6, 66.8, SURAMAR },
+								{ 27.8, 65.4, SURAMAR },
+								{ 28.0, 61.7, SURAMAR },
+								{ 28.0, 64.5, SURAMAR },
+								{ 28.4, 60.3, SURAMAR },
+								{ 29.0, 64.7, SURAMAR },
+								{ 29.0, 65.0, SURAMAR },
+								{ 29.2, 62.0, SURAMAR },
+								{ 29.7, 60.4, SURAMAR },
+								{ 30.0, 60.3, SURAMAR },
+								{ 31.0, 59.4, SURAMAR },
+								{ 31.8, 63.3, SURAMAR },
+							},
+							["groups"] = {
+								i(132761),	-- Fel-Infused Plate (QI!)
+								o(245940),	-- Fel-Infused Plate
+								o(246525),	-- Fel-Infused Plate
+								o(246527),	-- Fel-Infused Plate
+							},
+						}),
+					},
 				}),
 				q(44833, {	-- The Seal's Power
 					["sourceQuest"] = 44832,	-- Scouting the Breach
@@ -2133,7 +2232,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(43707),	-- Hub Mana Tree Tracking - Stage 04 - triggered after turning in "Make Your Mark" (questID 42792)
 				q(43708),	-- Hub Mana Tree Tracking - Stage 05 - triggered after turning in "Make Your Mark" (questID 42792)
 				q(43589),	-- Leyline 03
-				--q(43840),	-- Treasure 008 - Collapse Depths - secondary trigger for Small Treasure Chest (questID 43839)
 				q(40317),	-- Tree Destroyed
 				q(41212),	-- Triggered when turning in "Scattered Memories". Maybe a quest from beta?
 				q(44071),	-- Vignette: Maia the White Wolf - secondary trigger for Maia the White rare

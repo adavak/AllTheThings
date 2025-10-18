@@ -188,8 +188,6 @@ root(ROOTS.Unsorted, {
 			i(247495),	-- Vintage Duskwatch Cinch
 			i(247496),	-- Gleaming Celestial Waistguard
 			i(247566),	-- Robes of Celestial Adornment
-			i(247567),	-- Cinch of Light
-			i(247568),	-- Windwhipped Sailcloth
 			i(247570),	-- Treads of the Drowned
 			i(247583),	-- Calcareous Wristclamps
 			i(247617),	-- Acolyte's Abandoned Footwraps

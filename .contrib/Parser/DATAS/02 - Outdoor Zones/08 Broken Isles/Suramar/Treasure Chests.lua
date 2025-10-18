@@ -255,6 +255,10 @@ root(ROOTS.Zones, {
 					["questID"] = 43868,
 					["coord"] = { 51.9, 82.2, SURAMAR },
 				}),
+				o(252809, {	-- Treasure Chest
+					["questID"] = 43840,
+					["coord"] = { 58.4, 70.6, 685 },	-- Shattered Locus
+				}),
 				o(254009, {	-- Volatile Leyline Crystal
 					--["sourceQuest"] = TODO,
 					["coord"] = { 35.5, 52.7, 684 },

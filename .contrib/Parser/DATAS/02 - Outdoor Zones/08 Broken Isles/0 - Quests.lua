@@ -206,6 +206,11 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 100738 },	-- Ashildir
 							["coord"] = { 62.7, 68.1, STORMHEIM },
 							["maps"] = { 706, 707, 708 },	-- Maw of Souls
+							["groups"] = {
+								o(245849, {	-- The Svalnguard
+									i(132440),	-- The Svalnguard (QI!)
+								}),
+							},
 						}),
 						q(40614, {	-- A Feast Fit for Odyn
 							["sourceQuest"] = 40613,	-- Maw of Souls: Retrieving the Svalnguard
@@ -219,7 +224,13 @@ root(ROOTS.Zones, {
 							["coord"] = { 62.7, 68.1, STORMHEIM },
 							["maps"] = { 731 },	-- Neltharion's Lair
 							["groups"] = {
-								i(132744),	-- Adamantium Casing Scrap (QI!)
+								o_repeated({	-- Adamantium Casing Scrap
+									i(132744),	-- Adamantium Casing Scrap (QI!)
+									o(245935),	-- Adamantium Casing Scrap
+									o(245936),	-- Adamantium Casing Scrap
+									o(245937),	-- Adamantium Casing Scrap
+									o(245938),	-- Adamantium Casing Scrap
+								}),
 							},
 						}),
 						q(40615, {	-- Halls of Valor: Odyn's Blessing
