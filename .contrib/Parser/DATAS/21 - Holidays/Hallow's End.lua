@@ -999,8 +999,30 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					{ "contains", "itemID", 33226, unpack(MASK_IDS) },	-- Tricky Treat & All the Masks
 					{ "exclude", "itemID", 69187, 69188, 69189, 69190, 69192, 69193, 69194, 69195 },	-- Exclude Murloc, Naga, Ogre, Vrykul Masks
 				},
+				-- #if AFTER 11.2.0
+				["description"] = "Most items under this group only have a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting these special daily items.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed' Keg-Shaped Treasure Chest.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
+				-- #else
 				["description"] = "Your first attempt of the day has an increased chance at the mount, pet, and manuscript. Enabling the curses increases the chances for the mount, at least. Subsequent attempts scan still drop these items, but at a significantly lower rate (as far as we know).",	-- Manual override for src\Settings\Pages\Interface - Information.lua
+				-- #endif
 				["groups"] = {
+				-- ToDO: Add HQT if found for special Horseman Items
+	--				hqt(
+	--					-- #if AFTER 11.2.0
+	--					91894,	-- Has rolled for Headless Horseman Special Loot (Daily Accountwide)(TWW Version)
+	--					-- #else
+	--					77775,	-- Has rolled for Headless Horseman Special Loot (Daily Accountwide)(DF Version)
+	--					-- #endif
+	--				{
+	--						["name"] = "Coren Headless Horseman (Daily Accountwide)",
+	--						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting these special daily items.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed' Keg-Shaped Treasure Chest.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
+	--						-- #if AFTER 11.2.0
+	--						["timeline"] = { ADDED_11_2_0 },
+	--						-- #else
+	--						["timeline"] = { ADDED_10_1_7 },
+	--						-- #endif
+	--						["isDaily"] = true,
+	--						["groups"] = {
+	--				}),
 					ach(980, {	-- The Horseman's Reins
 						["provider"] = { "i", 37012 },	-- The Horseman's Reins
 						["timeline"] = { ADDED_2_0_1 },
@@ -1012,6 +1034,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(211271, {	-- Arfus (PET)
 						["timeline"] = { ADDED_10_1_7 },
+						["description"] = "Mouse over the 'Loot-Filled Pumpkin' for a mini-guide on how to greatly increase your chances of receiving this item.",
 					}),
 					i(33292, {	-- Hallowed Helm
 						["timeline"] = { ADDED_2_2_2 },
@@ -1049,33 +1072,43 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(247721, {	-- The Headless Horseman's Ghoulish Charger (MOUNT!)
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "Mouse over the 'Loot-Filled Pumpkin' for a mini-guide on how to greatly increase your chances of receiving this item.",
 					}),
 					i(247966, {	-- The Horseman's Ghoulish Breastplate
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247967, {	-- The Horseman's Ghoulish Cinch
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247972, {	-- The Horseman's Ghoulish Cloak
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(250708, {	-- The Horseman's Ghoulish Cowl
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247968, {	-- The Horseman's Ghoulish Greaves
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247971, {	-- The Horseman's Ghoulish Grips
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247964, {	-- The Horseman's Ghoulish Helm
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247965, {	-- The Horseman's Ghoulish Mantle
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(247969, {	-- The Horseman's Ghoulish Treads
 						["timeline"] = { ADDED_11_2_5 },
+						["description"] = "You can get only 1 'Ghoulish' Set Item per day.",
 					}),
 					i(117356, {	-- The Horseman's Sinister Slicer
 						["timeline"] = { ADDED_6_0_2 },
@@ -1088,6 +1121,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(208680, {	-- Windborne Velocidrake: Hallow's End Armor (MM!)
 						["timeline"] = { ADDED_10_1_7 },
+						["description"] = "Mouse over the 'Loot-Filled Pumpkin' for a mini-guide on how to greatly increase your chances of receiving this item.",
 					}),
 				},
 			}),
