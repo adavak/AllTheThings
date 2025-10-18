@@ -1190,7 +1190,7 @@ local function BuildSourceParent(group)
 			skipFull = true,
 			SortPriority = -3.0,
 			g = {},
-			OnClick = app.UI.OnClick.IgnoreRightClick,
+			IgnorePopout=true,
 		})
 		for _,parent in ipairs(parents) do
 			-- if there's nothing nested under the parent, then force it to be visible
