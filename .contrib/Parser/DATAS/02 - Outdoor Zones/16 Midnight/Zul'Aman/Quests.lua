@@ -78,6 +78,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(248562),	-- Stonebough Spear
 						},
 					}),
+					q(86721, {	-- Everything We Worked For
+						["sourceQuests"] = {
+							86719,	-- Important Amani
+							86717,	-- Show Us Your Worth
+						},
+						["provider"] = { "n", 236522 },	-- Zul'jan
+						["coord"] = { 16.6, 20.5, 2536 },	-- Atal'Aman
+					}),
 					q(86712, {	-- The Amani Stand Strong
 						["sourceQuests"] = {
 							86719,	-- Important Amani
@@ -99,90 +107,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					--q(??, {	-- Alex TODO: missed to copy-paste questID from chat .-.
 					--	["sourceQuests"] = {
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
-					--		86716,	-- Armed by Light
-					--		86721,	-- Everything We Worked For
-					--	},
-					--	["provider"] = { "n", 236541 },	-- Zul'jarra
-					--	--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
-					--	["groups"] = {
-					--		i(260470),	-- Bloodspattered Bindings
-					--		i(260469),	-- Bloodspattered Cuffs
-					--		i(260468),	-- Bloodspattered Shackles
-					--		i(260471),	-- Bloodspattered Wraps
-					--	},
-					--}),
 					--		86716,	-- Armed by Light
 					--		86721,	-- Everything We Worked For
 					--	},
