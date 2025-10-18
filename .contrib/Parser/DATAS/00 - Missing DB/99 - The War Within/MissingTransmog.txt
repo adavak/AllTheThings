@@ -36843,19 +36843,15 @@ s(288813)/i(240254),	-- Earthweald Dragonscale Vambraces
 s(288814)/i(240255),	-- Shroud of Devouring Night
 s(288815)/i(240256),	-- Thirsting Wrap
 s(288816)/i(240257),	-- Nightstalker's Wrap
-s(288817)/i(240258),	-- Drape of Hungering Flesh
 s(288818)/i(240259),	-- Shawl of Devouring Night
 s(288819)/i(240260),	-- Cape of Devouring Night
-s(288820)/i(240261),	-- Wrap of Hungering Flesh
 s(288821)/i(240262),	-- Thirsting Cloak
 s(288822)/i(240263),	-- Ered'ruin Shawl
 s(288823)/i(240264),	-- Nightstalker's Cloak
 s(288824)/i(240265),	-- [DNT]
-s(288825)/i(240266),	-- Shroud of Hungering Flesh
 s(288826)/i(240267),	-- Nightstalker's Shroud
 s(288827)/i(240268),	--
 s(288828)/i(240269),	-- Ered'ruin Cloak
-s(288829)/i(240270),	-- Cape of Hungering Flesh
 s(288830)/i(240271),	-- Thirsting Shroud
 s(288831)/i(240272),	-- Stygian Silk Cape
 s(288832)/i(240273),	-- Ered'ruin Shroud
@@ -36876,14 +36872,6 @@ s(288846)/i(240287),	-- Bloodforged Girdle
 s(288847)/i(240288),	-- Bloodforged Chestplate
 s(288848)/i(240289),	-- Bloodforged Shoulderguards
 s(288849)/i(240290),	-- Bloodforged Warhelm
-s(288850)/i(240291),	-- Honorforged Gauntlets
-s(288851)/i(240292),	-- Honorforged Vambraces
-s(288852)/i(240293),	-- Honorforged Stompers
-s(288853)/i(240294),	-- Honorforged Wargreaves
-s(288854)/i(240295),	-- Honorforged Greatbelt
-s(288855)/i(240296),	-- Honorforged Chestpiece
-s(288856)/i(240297),	-- Honorforged Mantle
-s(288857)/i(240298),	-- Honorforged Greathelm
 s(288858)/i(240299),	-- Handguards of Devouring Night
 s(288859)/i(240300),	-- Wristguards of Devouring Night
 s(288860)/i(240301),	-- Stompers of Devouring Night
@@ -36900,14 +36888,6 @@ s(288870)/i(240311),	-- Ravensteel Belt
 s(288871)/i(240312),	-- Ravensteel Chestguard
 s(288872)/i(240313),	-- Ravensteel Pinions
 s(288873)/i(240314),	-- Ravensteel Helmet
-s(288874)/i(240315),	-- Grips of Skyfather's Chosen
-s(288875)/i(240316),	-- Bracers of Skyfather's Chosen
-s(288876)/i(240317),	-- Boots of Skyfather's Chosen
-s(288877)/i(240318),	-- Leggings of Skyfather's Chosen
-s(288878)/i(240319),	-- Cinch of Skyfather's Chosen
-s(288879)/i(240320),	-- Chestguard of Skyfather's Chosen
-s(288880)/i(240321),	-- Pinions of Skyfather's Chosen
-s(288881)/i(240322),	-- Faceguard of Skyfather's Chosen
 s(288882)/i(240323),	-- Nightstalker's Grips
 s(288883)/i(240324),	-- Nightstalker's Wraps
 s(288884)/i(240325),	-- Nightstalker's Boots
@@ -36924,14 +36904,6 @@ s(288894)/i(240335),	-- Thirsting Cinch
 s(288895)/i(240336),	-- Thirsting Harness
 s(288896)/i(240337),	-- Thirsting Mantle
 s(288897)/i(240338),	-- Thirsting Helm
-s(288898)/i(240339),	-- Gloves of Hungering Flesh
-s(288899)/i(240340),	-- Cuffs of Hungering Flesh
-s(288900)/i(240341),	-- Striders of Hungering Flesh
-s(288901)/i(240342),	-- Legwraps of Hungering Flesh
-s(288902)/i(240343),	-- Cinch of Hungering Flesh
-s(288903)/i(240344),	-- Jerkin of Hungering Flesh
-s(288904)/i(240345),	-- Shoulderguard of Hungering Flesh
-s(288905)/i(240346),	-- Cap of Hungering Flesh
 s(288906)/i(240347),	-- Gloves of Night Eternal
 s(288907)/i(240348),	-- Cuffs of Night Eternal
 s(288908)/i(240349),	-- Boots of Night Eternal
@@ -36950,15 +36922,6 @@ s(288920)/i(240361),	-- Sanguine Oath Robe
 s(288921)/i(240362),	-- Sanguine Oath Vestments
 s(288922)/i(240363),	-- Sanguine Oath Shoulders
 s(288923)/i(240364),	-- Sanguine Oath Cowl
-s(288924)/i(240365),	-- Gloves of Borrowed Souls
-s(288925)/i(240366),	-- Armbands of Borrowed Souls
-s(288926)/i(240367),	-- Slippers of Borrowed Souls
-s(288927)/i(240368),	-- Pants of Borrowed Souls
-s(288928)/i(240369),	-- Cinch of Borrowed Souls
-s(288929)/i(240370),	-- Robe of Borrowed Souls
-s(288930)/i(240371),	-- Raiment of Borrowed Souls
-s(288931)/i(240372),	-- Shawl of Borrowed Souls
-s(288932)/i(240373),	-- Cover of Borrowed Souls
 s(288933)/i(240374),	-- Leyline Defender's Handguards
 s(288934)/i(240375),	-- Leyline Defender's Wristguards
 s(288935)/i(240376),	-- Leyline Defender's Jackboots

@@ -167,66 +167,61 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			ach(42689, {	-- Timeworn Keystone Master (L15)
 				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Fel Fountain (DECOR!)
 			}),
-			ach(42690, {	-- Timeworn Keystone Hero (L25)
+			ach(42690, {	-- Timeworn Keystone Hero (L30)
 				iensemble(257105),	-- Ensemble: Sargerei Commander's Hellforged Regalia
 			}),
-			ach(42691, {	-- Timeworn Keystone Hero (L30)
+			ach(42691, {	-- Timeworn Keystone Hero (L40)
 				title(658),	-- %s the Infernal (TITLE!)
 			}),
 		}),
-		d(DIFFICULTY.DUNGEON.NORMAL, {
+		d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 			mapped(ARMOR, {
 				filter(CLOAKS, {
 					i(240270),	-- Cape of Hungering Flesh
+					i(240258),	-- Drape of Hungering Flesh
+					i(240266),	-- Shroud of Hungering Flesh
 					i(240261),	-- Wrap of Hungering Flesh
 				}),
 				filter(CLOTH, {
+					i(240366),	-- Armbands of Borrowed Souls
+					i(240369),	-- Cinch of Borrowed Souls
+					i(240373),	-- Cover of Borrowed Souls
+					i(240365),	-- Gloves of Borrowed Souls
+					i(240368),	-- Pants of Borrowed Souls
+					i(240371),	-- Raiment of Borrowed Souls
+					i(240370),	-- Robe of Borrowed Souls
+					i(240372),	-- Shawl of Borrowed Souls
+					i(240367),	-- Slippers of Borrowed Souls
 				}),
 				filter(LEATHER, {
-					i(240339),	-- Gloves of Hungering Flesh
-					i(240340),	-- Cuffs of Hungering Flesh
-					i(240341),	-- Striders of Hungering Flesh
-					i(240342),	-- Legwraps of Hungering Flesh
-					i(240343),	-- Cinch of Hungering Flesh
-					i(240344),	-- Jerkin of Hungering Flesh
-					i(240345),	-- Shoulderguard of Hungering Flesh
 					i(240346),	-- Cap of Hungering Flesh
+					i(240343),	-- Cinch of Hungering Flesh
+					i(240340),	-- Cuffs of Hungering Flesh
+					i(240339),	-- Gloves of Hungering Flesh
+					i(240344),	-- Jerkin of Hungering Flesh
+					i(240342),	-- Legwraps of Hungering Flesh
+					i(240345),	-- Shoulderguard of Hungering Flesh
+					i(240341),	-- Striders of Hungering Flesh
 				}),
 				filter(MAIL, {
+					i(240317),	-- Boots of Skyfather's Chosen
+					i(240316),	-- Bracers of Skyfather's Chosen
+					i(240320),	-- Chestguard of Skyfather's Chosen
+					i(240319),	-- Cinch of Skyfather's Chosen
+					i(240322),	-- Faceguard of Skyfather's Chosen
+					i(240315),	-- Grips of Skyfather's Chosen
+					i(240318),	-- Leggings of Skyfather's Chosen
+					i(240321),	-- Pinions of Skyfather's Chosen
 				}),
 				filter(PLATE, {
-					i(240296),	-- Honorforged Chestpiece
 					i(240291),	-- Honorforged Gauntlets
-					i(240295),	-- Honorforged Greatbelt
-					i(240298),	-- Honorforged Greathelm
-					i(240297),	-- Honorforged Mantle
-					i(240293),	-- Honorforged Stompers
 					i(240292),	-- Honorforged Vambraces
+					i(240293),	-- Honorforged Stompers
 					i(240294),	-- Honorforged Wargreaves
-				}),
-			}),
-		}),
-		d(DIFFICULTY.DUNGEON.HEROIC, {
-			mapped(ARMOR, {
-				filter(CLOTH, {
-				}),
-				filter(LEATHER, {
-				}),
-				filter(MAIL, {
-				}),
-				filter(PLATE, {
-				}),
-			}),
-		}),
-		d(DIFFICULTY.DUNGEON.MYTHIC, {
-			mapped(ARMOR, {
-				filter(CLOTH, {
-				}),
-				filter(LEATHER, {
-				}),
-				filter(MAIL, {
-				}),
-				filter(PLATE, {
+					i(240295),	-- Honorforged Greatbelt
+					i(240296),	-- Honorforged Chestpiece
+					i(240297),	-- Honorforged Mantle
+					i(240298),	-- Honorforged Greathelm
 				}),
 			}),
 		}),

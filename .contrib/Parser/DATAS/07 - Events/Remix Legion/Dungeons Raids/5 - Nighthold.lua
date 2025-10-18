@@ -191,6 +191,7 @@ local COMMONLOOT = {
 		i(247471),	-- Sabatons of Unchanging Fate
 		i(247463),	-- Shoulderguard of the Eclipse
 		i(247484),	-- Waistplate of Fractured Realities
+
 		-- Set items
 		-- These might not drop and be Ensemble only
 		-- Remove when confirmed
