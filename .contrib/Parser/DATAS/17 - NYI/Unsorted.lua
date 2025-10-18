@@ -180,14 +180,6 @@ root(ROOTS.Unsorted, {
 			i(246796),	-- Epic Cache of Infinite Power
 			i(246990),	-- Infernal's Azure Staff
 			i(246994),	-- Infernal's Hellfire Staff
-			i(247617),	-- Acolyte's Abandoned Footwraps
-			i(247618),	-- Sash of the Unredeemed
-			i(247619),	-- Treads of Violent Intrusion
-			i(247620),	-- Cord of Pilfered Rosaries
-			i(247621),	-- Treads of Panicked Escape
-			i(247622),	-- Pristine Moon-Wrought Clasp
-			i(247623),	-- Spiked Terrorwake Greatboots
-			i(247624),	-- Girdle of the Crumbling Sanctum
 			i(247894),	-- Dalaran Hearthstone
 			i(248088),	-- Jade, Bright Foreseer (MOUNT!)
 			i(248089),	-- Tangled Dreamweaver (MOUNT!)
