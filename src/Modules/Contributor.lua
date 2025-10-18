@@ -1788,6 +1788,7 @@ MobileDB.GameObject = {
 	[419696] = true,	-- Waxy Lump
 	[420090] = true,	-- Massive Remnant
 	[421070] = true,	-- Remnent Satchel
+	[434001] = true,	-- Pilfered Supplies (q:80513)
 	[422154] = true,	-- Brann's Cozy Campfire
 	[423714] = true,	-- Duskstem Stalk
 	[425875] = true,	-- Nerubian Explosive Cache (q:78555)

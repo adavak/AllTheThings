@@ -1115,7 +1115,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["provider"] = { "n", 220600 },	-- Haimaz
 					["coord"] = { 62.0, 45.5, THE_RINGING_DEEPS },
 					["groups"] = {
-						i(224008),	-- Mislaid Tool (QI!)
+						o_repeated({
+							-- Items
+							i(224008),	-- Mislaid Tool (QI!)
+							-- Objects
+							o(449135),
+							o(449140),
+						}),
 					},
 				}),
 				q(82224, {	-- Check on the Compiler
@@ -1144,8 +1150,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["provider"] = { "n", 220600 },	-- Haimaz
 					["coord"] = { 62.0, 45.5, THE_RINGING_DEEPS },
 					["groups"] = {
+						o(437628, {	-- Nearly-empty Cask
+							i(221000),	-- Nearly-empty Cask (QI!)
+						}),
 						i(221001),	-- Cinderbrew Flask (QI!)
-						i(221000),	-- Nearly-empty Cask (QI!)
 					},
 				}),
 				q(80682, {	-- One Last Story

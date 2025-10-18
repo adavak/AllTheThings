@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			ach(40837),		-- Adventurer of The Ringing Deeps (automated)
 			ach(40825),		-- Explore The Ringing Deeps (automated)
 			ach(40614, {	-- Gobblin' with Glublurp
-				["coord"] = { 44.3, 50.2, THE_RINGING_DEEPS },
+				["coord"] = { 44.4, 50.2, THE_RINGING_DEEPS },
 				["groups"] = {
 					i(225930, {	-- Glimmering Crystal
 						["coord"] = { 60.0, 41.41, THE_RINGING_DEEPS },
@@ -19,7 +19,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			ach(40628),		-- Notable Machines (automated)
 			ach(40473),		-- Not So Quick Fix (automated)
-			ach(40731),		-- Panhandled
+			ach(40731, {	-- Panhandled
+				["description"] = "Kill Overworked Cooks, click Frying Pans, quickly hit other nearby creatures.",
+				["_nocoordshift"] = true,
+				["coords"] = {
+					{ 54.2, 76.8, THE_RINGING_DEEPS },
+					{ 54.4, 78.1, THE_RINGING_DEEPS },
+					{ 55.1, 77.8, THE_RINGING_DEEPS },
+					{ 55.4, 78.7, THE_RINGING_DEEPS },
+					{ 55.4, 79.7, THE_RINGING_DEEPS },
+					{ 55.5, 78.7, THE_RINGING_DEEPS },
+					{ 58.4, 76.8, THE_RINGING_DEEPS },
+					{ 58.4, 77.9, THE_RINGING_DEEPS },
+					{ 58.5, 77.0, THE_RINGING_DEEPS },
+					{ 59.3, 77.7, THE_RINGING_DEEPS },
+					{ 59.4, 79.9, THE_RINGING_DEEPS },
+					{ 59.5, 79.8, THE_RINGING_DEEPS },
+					{ 59.6, 78.7, THE_RINGING_DEEPS },
+				},
+				["providers"] = {
+					{ "n", 220744 },	-- Overworked Cook
+					{ "o", 455915 },	-- Frying Pan
+				},
+			}),
 			ach(41187, {	-- Rage Aside the Machine
 				["timeline"] = { ADDED_11_0_7 },
 				-- Meta Achievement
@@ -102,7 +124,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["crs"] = { 221146 },
 				}),
 				crit(68677, {	-- Dustcrawler Beetle
-					["coord"] = { 42.01, 16.38, THE_RINGING_DEEPS },
+					["coord"] = { 42.5, 13.5, THE_RINGING_DEEPS },
 					["crs"] = { 220369 },
 				}),
 				crit(68731, {	-- Grottoscale Hatchling

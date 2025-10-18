@@ -125,7 +125,7 @@ namespace ATT.FieldTypes
 
         private void Merge(Coord value)
         {
-            if (!_coords.Add(value))
+            if (!_coords.Add(value.Clone()))
             {
                 // due to how merging works currently, we commonly have the same object merging into itself within the DB store
                 // so this logging is not currently useful
@@ -209,6 +209,13 @@ namespace ATT.FieldTypes
                 return hash;
             }
         }
+
+        public Coord Clone() => new Coord
+        {
+            X = X,
+            Y = Y,
+            MapID = MapID
+        };
 
         public override string ToString() => $"[{X},{Y},{MapID}]";
 
