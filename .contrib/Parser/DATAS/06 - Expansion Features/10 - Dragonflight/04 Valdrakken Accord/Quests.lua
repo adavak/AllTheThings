@@ -1059,25 +1059,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(70914, {	-- The Breadth of Dragon Weaponry
 						["provider"] = { "n", 195769 },	-- Weaponsmith Koref
 						["coord"] = { 36.4, 51.7, VALDRAKKEN },
-						["groups"] = {
-							i(200456),	-- Valdrakken Armor Opener
-							i(199825),	-- Valdrakken Belt Knife
-							i(199700),	-- Valdrakken Bladewing Decapitator
-							i(199730),	-- Valdrakken Bladewing Staff
-							i(199806),	-- Valdrakken Drakeclaw Barrier
-							i(201796),	-- Valdrakken Drakonid's Claw
-							i(199823),	-- Valdrakken Gatekeeper's Polearm
-							i(199702),	-- Valdrakken Guard's Barrier
-							i(201795),	-- Valdrakken Guard's Claw
-							i(199734),	-- Valdrakken Guard's Cutlass
-							i(199820),	-- Valdrakken Guard's Skullsplitter
-							i(199705),	-- Valdrakken Guard's Spear
-							i(199821),	-- Valdrakken Serrated Shortsword
-							i(199726),	-- Valdrakken Spellweaver's Scepter
-							i(199728),	-- Valdrakken Spellweaver's Stave
-							i(199732),	-- Valdrakken Wing Glaive
-							i(199707),	-- Valdrakken Wingguard Polearm
-						},
+						-- This became a once-per-account quest, and all items are available from Vendor permanently
+						["sym"] = {{"select","itemID",
+							200456,	-- Valdrakken Armor Opener
+							199825,	-- Valdrakken Belt Knife
+							199700,	-- Valdrakken Bladewing Decapitator
+							199730,	-- Valdrakken Bladewing Staff
+							199806,	-- Valdrakken Drakeclaw Barrier
+							201796,	-- Valdrakken Drakonid's Claw
+							199823,	-- Valdrakken Gatekeeper's Polearm
+							199702,	-- Valdrakken Guard's Barrier
+							201795,	-- Valdrakken Guard's Claw
+							199734,	-- Valdrakken Guard's Cutlass
+							199820,	-- Valdrakken Guard's Skullsplitter
+							199705,	-- Valdrakken Guard's Spear
+							199821,	-- Valdrakken Serrated Shortsword
+							199726,	-- Valdrakken Spellweaver's Scepter
+							199728,	-- Valdrakken Spellweaver's Stave
+							199732,	-- Valdrakken Wing Glaive
+							199707,	-- Valdrakken Wingguard Polearm
+						}},
 					}),
 					q(72703, {	-- Renown Supplies
 						["provider"] = { "n", 193015 },	-- Unatos
