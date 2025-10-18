@@ -1882,7 +1882,9 @@ i(0, 863);			-- Widow Spiderling
 i(0, 715);			-- Wild Silkworm
 i(0, 71);			-- Unknown
 i(0, 73);			-- Unknown
+-- #if NOT ANYCLASSIC
 i(88148, 0);		-- Jade Crane Chick
+-- #endif
 i(82800, 0);		-- Pet Cage
 
 -----------------
