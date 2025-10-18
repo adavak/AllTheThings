@@ -6,7 +6,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42312),	-- Artifact, Remixed
 		ach(42502),	-- Artifact, Remixed II
 		ach(42503),	-- Artifact, Remixed III
-		ach(42565),	-- Bringing Order to the Isles
+		ach(42565, {	-- Bringing Order to the Isles
+			["timeline"] = { CREATED_11_2_5 },	-- Not ingame yet. Decent chance with 11.2.7 maybe? Gold 20th October 2025
+		}),
 		ach(42624, {	-- Broken Isles World Quests I
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
 			--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Altar of the Corrupted Flames (DECOR!)
@@ -18,7 +20,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42807),	-- Cloudy With a Chance of Infernals
 		ach(42593),	-- Pillars of Creation
 		ach(61339, {	-- Putting the Finite in Infinite
-			["description"] = "Awarded to players who spend Infinite Power on 999 purchases of the Artifact Weapon [Limits Unbound] perk.",
+			["description"] = "Awarded to players who spend Infinite Power on 999 purchases of the Artifact Weapon [Limits Unbound] perk & complete a Keystone intime with a key level of 49 or greater.",
 		}),
 		ach(42313),	-- Remixing Time
 		ach(60959),	-- Tenured in the Timeways I
