@@ -999,30 +999,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					{ "contains", "itemID", 33226, unpack(MASK_IDS) },	-- Tricky Treat & All the Masks
 					{ "exclude", "itemID", 69187, 69188, 69189, 69190, 69192, 69193, 69194, 69195 },	-- Exclude Murloc, Naga, Ogre, Vrykul Masks
 				},
-				-- #if AFTER 11.2.0
-				["description"] = "Most items under this group only have a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting these special daily items.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed' Keg-Shaped Treasure Chest.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
-				-- #else
+				-- #if BEFORE 11.2.5
 				["description"] = "Your first attempt of the day has an increased chance at the mount, pet, and manuscript. Enabling the curses increases the chances for the mount, at least. Subsequent attempts scan still drop these items, but at a significantly lower rate (as far as we know).",	-- Manual override for src\Settings\Pages\Interface - Information.lua
 				-- #endif
 				["groups"] = {
-				-- ToDO: Add HQT if found for special Horseman Items
-	--				hqt(
-	--					-- #if AFTER 11.2.0
-	--					91894,	-- Has rolled for Headless Horseman Special Loot (Daily Accountwide)(TWW Version)
-	--					-- #else
-	--					77775,	-- Has rolled for Headless Horseman Special Loot (Daily Accountwide)(DF Version)
-	--					-- #endif
-	--				{
-	--						["name"] = "Coren Headless Horseman (Daily Accountwide)",
-	--						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting these special daily items.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed' Keg-Shaped Treasure Chest.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
-	--						-- #if AFTER 11.2.0
-	--						["timeline"] = { ADDED_11_2_0 },
-	--						-- #else
-	--						["timeline"] = { ADDED_10_1_7 },
-	--						-- #endif
-	--						["isDaily"] = true,
-	--						["groups"] = {
-	--				}),
 					ach(980, {	-- The Horseman's Reins
 						["provider"] = { "i", 37012 },	-- The Horseman's Reins
 						["timeline"] = { ADDED_2_0_1 },
@@ -1034,13 +1014,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(211271, {	-- Arfus (PET)
 						["timeline"] = { ADDED_10_1_7 },
-						["description"] = "Mouse over the 'Loot-Filled Pumpkin' for a mini-guide on how to greatly increase your chances of receiving this item.",
+						["description"] = "This item only has a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting this special daily item.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Loot-Filled Pumpkin.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
 					}),
 					i(33292, {	-- Hallowed Helm
 						["timeline"] = { ADDED_2_2_2 },
 					}),
 					i(37012, {	-- Headless Horseman's Mount (MOUNT!)
 						["timeline"] = { ADDED_2_0_1 },
+						-- #if AFTER 10.1.7
+						["description"] = "Enabling the curses increases the chances for the mount. Subsequent attempts scan still drop the mount, according to Blizzard, but at a significantly lower rate (as far as we know).",
+						-- #endif
 					}),
 					i(37011, {	-- Magic Broom (MOUNT!)
 						["timeline"] = { ADDED_2_4_3 },
@@ -1072,7 +1055,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(247721, {	-- The Headless Horseman's Ghoulish Charger (MOUNT!)
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "Mouse over the 'Loot-Filled Pumpkin' for a mini-guide on how to greatly increase your chances of receiving this item.",
+						["description"] = "This item only has a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting this special daily item.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Loot-Filled Pumpkin.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
 					}),
 					i(247966, {	-- The Horseman's Ghoulish Breastplate
 						["timeline"] = { ADDED_11_2_5 },
@@ -1139,7 +1122,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(208680, {	-- Windborne Velocidrake: Hallow's End Armor (MM!)
 						["timeline"] = { ADDED_10_1_7 },
-						["description"] = "Mouse over the 'Loot-Filled Pumpkin' for a mini-guide on how to greatly increase your chances of receiving this item.",
+						["description"] = "This item only has a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting this special daily item.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Loot-Filled Pumpkin.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
 					}),
 				},
 			}),
