@@ -530,6 +530,9 @@
 5.5.1.63449
 1229670@@@Prophet's Great Crow
 1229672@@@Archmage's Great Crow
+5.5.2.63832
+1266345@@@Cerulean Phase-Hunter
+1266866@@@Reins of the Starshard Netherdrake
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild
