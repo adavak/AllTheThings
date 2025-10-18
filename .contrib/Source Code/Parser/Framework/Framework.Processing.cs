@@ -184,6 +184,11 @@ namespace ATT
 
             AddHandlerAction(ParseStage.Incorporation, Handler.AlwaysHandle, Incorporate_DataCloning);
 
+            if (Objects.MAPID_COORD_SHIFTS.Count > 0)
+            {
+                // check for needed coord shifts on any coords within this group (based on timeline)
+                AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("coords"), DoShiftCoords);
+            }
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
@@ -1183,9 +1188,6 @@ namespace ATT
                 }
             }
 
-            // check for needed coord shifts on any coords within this group (based on timeline)
-            DoShiftCoords(data);
-
             foreach (KeyValuePair<string, object> dataKvp in data)
             {
                 // 'timeline' is removed
@@ -1219,40 +1221,39 @@ namespace ATT
 
         private static void DoShiftCoords(IDictionary<string, object> data)
         {
-            // TODO: conditional action via handler
-            if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue(out Coords coords))
+            if (!data.TryGetValue(out Coords coords) || data.ContainsKey("_nocoordshift"))
+                return;
+
+            TimelineEntry dataTimelineEntry = null;
+
+            for (int i = 0; i < coords.Count; i++)
             {
-                TimelineEntry dataTimelineEntry = null;
-
-                for (int i = 0; i < coords.Count; i++)
+                Coord coord = coords[i];
+                if (Objects.MAPID_COORD_SHIFTS.TryGetValue(coord.MapID, out CoordShift shiftInfo))
                 {
-                    Coord coord = coords[i];
-                    if (Objects.MAPID_COORD_SHIFTS.TryGetValue(coord.MapID, out CoordShift shiftInfo))
+                    // an applicable shift exists for the mapID of this coord, make sure the timeline of the data
+                    // is prior to the shift occurring (old unchanged data => shift, new current data = accurate)
+                    if (dataTimelineEntry == null)
                     {
-                        // an applicable shift exists for the mapID of this coord, make sure the timeline of the data
-                        // is prior to the shift occurring (old unchanged data => shift, new current data = accurate)
-                        if (dataTimelineEntry == null)
+                        data.TryGetValue("timeline", out object timelineObj);
+                        if (timelineObj is Timeline dataTimeline)
                         {
-                            data.TryGetValue("timeline", out object timelineObj);
-                            if (timelineObj is Timeline dataTimeline)
-                            {
-                                dataTimelineEntry = dataTimeline.CurrentEntry;
-                            }
+                            dataTimelineEntry = dataTimeline.CurrentEntry;
                         }
-
-                        if (dataTimelineEntry != null)
-                        {
-                            if (dataTimelineEntry.LongVersion >= shiftInfo.TimelineEntry.LongVersion)
-                                continue;
-                        }
-                        else
-                        {
-                            LogWarn($"Non-Timelined data being coord-shifted due to {ToJSON(shiftInfo)}", data);
-                        }
-
-                        coord.X += shiftInfo.X;
-                        coord.Y += shiftInfo.Y;
                     }
+
+                    if (dataTimelineEntry != null)
+                    {
+                        if (dataTimelineEntry.LongVersion >= shiftInfo.TimelineEntry.LongVersion)
+                            continue;
+                    }
+                    else
+                    {
+                        LogWarn($"Non-Timelined data being coord-shifted due to {ToJSON(shiftInfo)}", data);
+                    }
+
+                    coord.X += shiftInfo.X;
+                    coord.Y += shiftInfo.Y;
                 }
             }
         }
