@@ -6019,9 +6019,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247545),	-- Scored Ironclaw Sabatons
 						i(247540),	-- Singular Chain Leggings
 						i(247543),	-- Thorny Bramblemail Pauldrons
-
-						-- Nighthold item, but drops in Emerald Nightmare (other difficulties)
-						i(247036),	-- Helm of Shackled Elements
 					}),
 					filter(PLATE, {
 						i(247555),	-- Crown of Steely Brambles
@@ -6227,6 +6224,50 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247614),	-- Soul-Render's Greatbelt
 						i(247623),	-- Spiked Terrorwake Greatboots
 						i(247612),	-- Steadfast Purifier's Warboots
+					}),
+				}),
+			}),
+			header(HEADERS.LFGDungeon, 2830, {	-- Antorus, the Burning Throne
+				d(DIFFICULTY.RAID.LFR, {
+					filter(CLOTH, {
+						i(247632),	-- Blood-Drenched Bindings
+						i(247627),	-- Cord of Surging Hysteria
+						i(247630),	-- Cord of Blossoming Petals
+						i(247629),	-- Enhanced Worldscorcher Cinch
+						i(247628),	-- Lady Dacidion's Silk Slippers
+						i(247631),	-- Man'ari Pyromancer Cuffs
+						i(247626),	-- Sandals of the Reborn Colossus
+						i(247625),	-- Whisperstep Runners
+					}),
+					filter(LEATHER, {
+						i(247637),	-- Belt of Fractured Sanity
+						i(247654),	-- Bracers of Wanton Morality
+						i(247635),	-- Death-Enveloping Cincture
+						i(247653),	-- Depraved Machinist's Footpads
+						i(247638),	-- Fiendish Logistician's Wristwraps
+						i(247633),	-- Life-Bearing Footpads
+						i(247636),	-- Portal Keeper's Cincture
+						i(247634),	-- Vicious Flamepaws
+					}),
+					filter(MAIL, {
+						i(247639),	-- Deft Soulhunter's Sabatons
+						i(247641),	-- Depraved Tactician's Waistguard
+						i(247656),	-- Greatboots of the Searing Tempest
+						i(247640),	-- Nathrezim Shade-Walkers
+						i(247643),	-- Reality-Splitting Wristguards
+						i(247642),	-- Sash of the Gilded Rose
+						i(247651),	-- Scalding Shatterguards
+						i(247655),	-- World-Ravager Waistguard
+					}),
+					filter(PLATE, {
+						i(247645),	-- Burning Coven Sabatons
+						i(247644),	-- Doomwalker Warboots
+						i(247646),	-- Eredar Warcouncil Sabatons
+						i(247648),	-- Flamelicked Girdle
+						i(247649),	-- Grond-Father Girdle
+						i(247647),	-- Nathrezim Battle Girdle
+						i(247650),	-- Vambraces of Life's Assurance
+						i(247652),	-- Varimathras' Shattered Manacles
 					}),
 				}),
 			}),

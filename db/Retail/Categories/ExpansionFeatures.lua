@@ -19835,7 +19835,7 @@ s(108548,174294,{b=1,customCollect=a[24],f=7,lvl=50}),
 s(112712,179945,{b=1,customCollect=a[24],f=6,lvl=50}),
 s(111109,178158,{b=1,customCollect=a[24],f=4,lvl=50})}}),
 q(58177,{coords={a[638]},customCollect=a[24],lvl=60,qgs=a[184],sourceQuests={58175},g={
-i(173880,{customCollect={"SL_COV_VEN","SL_COV_KYR"}}),
+i(173880,{customCollect={"SL_COV_KYR","SL_COV_VEN"}}),
 i(173879,{customCollect=a[24],spellID=312692})}}),
 q(61982,{coords={a[554]},customCollect=a[24],isWeekly=1,lvl=60,qgs=a[210],sourceQuests=a[770]}),
 q(61332,{coords={a[810]},customCollect=a[24],isWeekly=1,lvl=60,qgs=a[182],rwp=90105,u=2}),
@@ -23406,7 +23406,7 @@ s(113269,180906,{b=1,customCollect=a[28],f=4,lvl=60})}}),
 q(61492,{coords={{46.3,15.7,1699}},customCollect=a[28],description="Requires Renown 5.",lvl=60,qgs={161977},sourceQuests=a[816],g={
 i(181516,{customCollect=a[28]})}}),
 q(58586,{coords={a[639]},customCollect=a[28],lvl=60,qgs=a[184],sourceQuests={58555},g={
-i(173880,{customCollect={"SL_COV_VEN","SL_COV_KYR"}}),
+i(173880,{customCollect={"SL_COV_KYR","SL_COV_VEN"}}),
 i(174465,{customCollect=a[28],spellID=332413})}}),
 q(62904,{coords={{54.9,26.3,1699}},customCollect=a[28],lvl=60,qgs=a[217],sourceQuests={62903}}),
 q(57646,{coords={{71.9,68.8,1525}},customCollect=a[28],lvl=60,qgs={167689},sourceQuests={57729},g={
