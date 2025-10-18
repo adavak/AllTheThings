@@ -1179,12 +1179,27 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					-- #endif
 					-- Mists of Pandaria
+					-- #if ANYCLASSIC
+					i(263014, {	-- The Horseman's Horrific Hood
+						["timeline"] = { ADDED_5_5_1, REMOVED_6_0_2 },
+					}),
+					i(263018, {	-- The Horseman's Sinister Slicer
+						["timeline"] = { ADDED_5_5_1, REMOVED_6_0_2 },
+					}),
+					i(87569, {	-- The Horseman's Horrific Hood
+						["timeline"] = { CREATED_5_0_4 },
+					}),
+					i(87570, {	-- The Horseman's Sinister Slicer
+						["timeline"] = { CREATED_5_0_4 },
+					}),
+					-- #else
 					i(87569, {	-- The Horseman's Horrific Hood
 						["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					}),
 					i(87570, {	-- The Horseman's Sinister Slicer
 						["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					}),
+					-- #endif
 					-- Cataclysm
 					i(71326, {	-- The Horseman's Horrific Helm
 						["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
@@ -1263,6 +1278,32 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 				["timeline"] = { ADDED_6_0_2, REMOVED_7_0_3 },
 			}),
 			-- Mists of Pandaria
+			-- #if ANYCLASSIC
+			i(263013, {	-- Band of the Petrified Pumpkin
+				["timeline"] = { ADDED_5_5_1, REMOVED_6_0_2 },
+			}),
+			i(263010, {	-- Seal of Ghoulish Glee
+				["timeline"] = { ADDED_5_5_1, REMOVED_6_0_2 },
+			}),
+			i(263011, {	-- The Horseman's Ring
+				["timeline"] = { ADDED_5_5_1, REMOVED_6_0_2 },
+			}),
+			i(263012, {	-- Wicked Witch's Signet
+				["timeline"] = { ADDED_5_5_1, REMOVED_6_0_2 },
+			}),
+			i(88167, {	-- Band of the Petrified Pumpkin
+				["timeline"] = { CREATED_5_0_4 },
+			}),
+			i(88168, {	-- Seal of Ghoulish Glee
+				["timeline"] = { CREATED_5_0_4 },
+			}),
+			i(88169, {	-- The Horseman's Ring
+				["timeline"] = { CREATED_5_0_4 },
+			}),
+			i(88166, {	-- Wicked Witch's Signet
+				["timeline"] = { CREATED_5_0_4 },
+			}),
+			-- #else
 			i(88167, {	-- Band of the Petrified Pumpkin
 				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 			}),
@@ -1275,6 +1316,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			i(88166, {	-- Wicked Witch's Signet
 				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 			}),
+			-- #endif
 			-- Cataclysm
 			i(71327, {	-- Band of Ghoulish Glee
 				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },

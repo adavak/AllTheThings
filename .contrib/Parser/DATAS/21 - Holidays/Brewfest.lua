@@ -810,10 +810,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["timeline"] = { ADDED_5_5_0, REMOVED_6_0_2 },
 						}),
 						i(107217, {	-- Direbrew's Bloodied Shanker [Level 90, ilvl 470]
-							["timeline"] = { CREATED_5_5_0 },
+							["timeline"] = { CREATED_5_0_4 },
 						}),
 						i(107218, {	-- Tremendous Tankard O'Terror [Level 90, ilvl 470]
-							["timeline"] = { CREATED_5_5_0 },
+							["timeline"] = { CREATED_5_0_4 },
 						}),
 						applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71331, {	-- Direbrew's Bloodied Shanker [Level 85, ilvl 365]
 							["timeline"] = { CREATED_4_0_1 },
