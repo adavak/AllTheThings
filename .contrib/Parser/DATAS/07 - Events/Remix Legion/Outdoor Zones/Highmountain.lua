@@ -67,7 +67,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				n(ZONE_REWARDS, {
 					filter(CLOAKS, {
-						i(241665),	-- Druidic Fur Trim Cape
 						i(247492),	-- Fashionable Autumn Cloak
 					}),
 					filter(CLOTH, {

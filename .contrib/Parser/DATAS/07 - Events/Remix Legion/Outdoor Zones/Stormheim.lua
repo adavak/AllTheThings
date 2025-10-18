@@ -76,8 +76,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				n(ZONE_REWARDS, {
 					filter(CLOAKS, {
-						i(251876),	-- Cloak of the Hunting Dream
-						i(242177),	-- Draping Cloak of the Hunting Dream
 						i(247087),	-- Stormheart Drape
 					}),
 					filter(CLOTH, {
