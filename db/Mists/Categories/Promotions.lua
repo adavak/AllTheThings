@@ -18,11 +18,11 @@ p(329,{awp=40200,b=1,itemID=71726,npcID=54438,q=3,spellID=101606,u=2}),
 ach(8793,{awp=50402,providers={{"i",106244}},u=2}),
 p(1364,{awp=50402,b=1,itemID=106244,npcID=74405,q=3,spellID=149792,u=2})}),
 x(2,{awp=20000,u=3,g={
-q(63768,{altQuests={63767},awp=20000,coords={{42.6,71.6,210}},crs={16739,5111,6740,6741,6746,6929,16618,19232,17630,6735,19046},maps={84,85,87,88,103,110,111,998},qgs={17249},u=2,g={
+q(63768,{altQuests={63767},awp=20000,coords={{42.6,71.6,210}},crs={5111,6735,6740,6741,6746,6929,16618,16739,17630,19046,19232},maps={84,85,87,88,103,110,111,998},qgs={17249},u=2,g={
 toy(32542,{awp=20000,b=1,description="Obtained if you set up a 6 Month WoW Subscription between 5th May 2021 until 5th Nov 2022.",q=3,u=3})}}),
-q(65285,{altQuests={65284},awp=20000,coords={{42.6,71.6,210}},crs={16739,5111,6740,6741,6746,6929,16618,19232,19046},maps={84,85,87,88,103,110,111,998},qgs={17249},u=2,g={
+q(65285,{altQuests={65284},awp=20000,coords={{42.6,71.6,210}},crs={5111,6740,6741,6746,6929,16618,16739,19046,19232},maps={84,85,87,88,103,110,111,998},qgs={17249},u=2,g={
 toy(33219,{awp=20000,b=1,description="Obtained if you set up a 6 Month WoW Subscription between 13th February 2022 until 13th August 2022.",q=3,u=3})}}),
-q(65562,{altQuests={65561},awp=20000,coords={{42.6,71.6,210}},crs={16739,5111,6740,6741,6746,6929,16618,19232,19046},maps={84,85,87,88,103,110,111,998},qgs={17249},u=2,g={
+q(65562,{altQuests={65561},awp=20000,coords={{42.6,71.6,210}},crs={5111,6740,6741,6746,6929,16618,16739,19046,19232},maps={84,85,87,88,103,110,111,998},qgs={17249},u=2,g={
 s(134092,23705,{awp=20000,b=1,description="Obtained if you set up a 6 Month WoW Subscription between 13th February 2022 until 13th August 2022 or a 12 Month WoW Subscription between 11th November 2022 until 15th January 2023.",f=9,q=4,u=3})}}),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 mnt(42777,{awp=20000,b=1,description="Obtained if you paid 267$ to set up a 6 Month WoW Subscription between 25th January 2022 until 25th July 2022.",itemID=33225,lvl=40,q=4,u=2}))}}),
 x(3,{awp=30000,u=3,g={
@@ -80,7 +80,7 @@ p(131,{awp=20001,b=1,itemID=25535,npcID=18381,q=3,rwp=30002,spellID=32298,u=2}),
 p(111,{awp=20001,b=1,description="This was only available in the EU.",itemID=30360,npcID=15358,q=3,rwp=30002,spellID=24988,u=2})}}),
 h(-524,{awp=20501,description="These rewards were made available to anyone who purchased a Deluxe Edition of The Burning Crusade Classic.",rwp=30400,u=2,g={
 h(-45,{awp=20501,rwp=30400,u=2,g={
-q(63450,{altQuests={63448},awp=20501,coords={{28,75.8,224}},crs={16739,5111,6740,6741,6746,6929,16618,17630},maps={84,85,87,88,103,110,998},qgs={17249},rwp=30400,u=2,g={
+q(63450,{altQuests={63448},awp=20501,coords={{28,75.8,224}},crs={5111,6740,6741,6746,6929,16618,16739,17630},maps={84,85,87,88,103,110,998},qgs={17249},rwp=30400,u=2,g={
 mnt(348459,{awp=20501,b=1,itemID=184865,lvl=20,q=4,rwp=30400,u=2}),
 toy(184871,{awp=20501,b=1,q=3,rwp=30400,u=2}),
 toy(38233,{awp=20501,b=1,q=3,rwp=30400,u=2})}})}})}}),
@@ -92,7 +92,7 @@ h(-525,{awp=20504,rwp=40001,u=2,g={
 h(-522,{awp=20504,description="These rewards were made available to anyone who purchased a Heroic Upgrade Edition of Wrath of the Lich King Classic.",questID=70449,rwp=40001,u=2,g={
 p(4234,{awp=20504,b=1,itemID=198665,npcID=194870,q=4,rwp=40001,spellID=384796,u=2}),
 toy(198647,{awp=20504,b=1,q=4,rwp=40001,u=2}),
-ach(16332,{awp=20504,cost={{"i",41803,1},{"i",40199,1},{"i",41813,1},{"i",41806,1},{"i",41801,1},{"i",41802,1},{"i",41814,1},{"i",41809,1},{"i",43646,1},{"i",41810,1},{"i",41807,1},{"i",41800,1},{"i",41805,1},{"i",41808,1},{"i",41812,1}},providers={{"n",194870},{"i",199914},{"s",388350}},rwp=40001,u=2})}}),
+ach(16332,{awp=20504,cost={{"i",41803,1},{"i",40199,1},{"i",41813,1},{"i",41806,1},{"i",41801,1},{"i",41802,1},{"i",41814,1},{"i",41809,1},{"i",43646,1},{"i",41810,1},{"i",41807,1},{"i",41800,1},{"i",41805,1},{"i",41808,1},{"i",41812,1}},providers={{"n",194870},{"i",199914}},rwp=40001,u=2})}}),
 h(-523,{awp=20504,description="These rewards were made available to anyone who purchased a Epic Upgrade Edition of Wrath of the Lich King Classic.",questID=70448,rwp=40001,u=2,g={
 mnt(372677,{awp=20504,b=1,itemID=192455,lvl=20,q=4,rwp=40001,u=2})}})}}),
 x(4,{awp=40000,description="These rewards were made available to anyone who purchased a Collector's Edition of Cataclysm.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",u=3,g={
@@ -160,7 +160,7 @@ p(217,{awp=50200,b=1,description="This was a reward for the 2013 arena tournamen
 p(1168,{awp=20100,b=1,description="Reward from a Korean Promotional Event (Korea Only)",itemID=20651,npcID=15361,q=3,spellID=25018,u=2}),
 p(121,{awp=20003,b=1,description="Offered as a fan website gift around Christmas 2006, in Europe. (EU Only)",itemID=22114,npcID=16069,q=3,spellID=27241,u=2}),
 p(1127,{awp=50004,b=1,description="Reward from the Battle.net World Championship in Shanghai 2012 (China Only)",itemID=90953,npcID=68502,q=3,spellID=132759,u=2,g={
-crit(23599,{achID=8397,awp=50400,id=21,pb=1,providers={{"n",68502}},u=2})}}),
+crit(23599,{achID=8397,awp=50400,id=21,pb=1,u=2})}}),
 mnt(107203,{awp=40300,b=1,description="Reward from the Diablo III Annual Pass promotion. Additionally, it was available on the Taiwan store.",itemID=76755,lvl=20,q=4,rwp=40302,u=2}),
 ach(414,{awp=30002,providers={{"i",39656}},u=2}),
 p(189,{awp=20402,b=1,description="Reward from the 2008 Worldwide Invitational in Paris.",itemID=39656,npcID=29089,q=3,spellID=53082,u=2}),
@@ -203,7 +203,7 @@ p(130,{awp=20001,b=1,itemID=23713,npcID=17255,q=4,spellID=30156,u=2}),
 p(302,{awp=40100,b=1,itemID=68840,npcID=52343,q=3,spellID=96817,u=2}),
 p(285,{awp=40003,b=1,itemID=67128,npcID=50468,q=3,spellID=93624,u=2}),
 p(303,{awp=40100,b=1,itemID=68841,npcID=52344,q=3,spellID=96819,u=2,g={
-crit(23597,{achID=8397,awp=50400,id=13,pb=1,providers={{"n",52344}}})}}),
+crit(23597,{achID=8397,awp=50400,id=13,pb=1})}}),
 p(328,{awp=40300,b=1,itemID=71624,npcID=54383,q=3,spellID=101493,u=2}),
 p(168,{awp=20300,b=1,itemID=34492,npcID=25109,q=3,spellID=45125,u=2}),
 p(665,{awp=40300,b=1,itemID=72153,npcID=54745,q=3,spellID=102353,u=2}),
@@ -218,7 +218,7 @@ s(145442,38163,{awp=20402,b=1,cost={{"i",38186,100}},f=2,q=1,u=2}),
 s(145458,38286,{awp=20402,b=1,cost={{"i",38186,500}},f=2,q=1,u=2}),
 s(201597,38285,{awp=20402,b=1,cost={{"i",38186,100}},f=2,q=1,u=2})}}),
 p(242,{awp=30202,b=1,itemID=49343,npcID=36511,q=3,spellID=68810,u=2,g={
-crit(23598,{achID=8397,awp=50400,id=22,pb=1,providers={{"n",36511}}})}}),
+crit(23598,{achID=8397,awp=50400,id=22,pb=1})}}),
 p(241,{awp=30202,b=1,itemID=49287,npcID=36482,q=4,spellID=68767,u=2})}}),
 flt(50,{awp=20001,u=2,g={
 i(49288,{awp=30200,b=1,f=55,q=2,u=2}),

@@ -2782,8 +2782,8 @@ crit(14110,{achID=847,awp=30002,id=8})}),
 exp(1231,{
 crit(1439,{achID=852,awp=30002,id=14})}),
 exp(4690,{
-crit(14096,{achID=4827,awp=40003,id=7}),
-crit(14096,{achID=845,awp=30002,id=5})}),
+crit(14096,{achID=845,awp=30002,id=5}),
+crit(14096,{achID=4827,awp=40003,id=7})}),
 exp(4644,{
 crit(14094,{achID=845,awp=30002,id=3})})})}),
 h(-32,{

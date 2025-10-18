@@ -9,7 +9,7 @@ flt(101,{u=3,g={
 p(1363,{b=1,itemID=106240,npcID=74402,q=3,spellID=149787,u=1}),
 p(1248,{b=1,itemID=98550,npcID=71488,q=3,spellID=142880,u=1}),
 p(1117,{b=1,itemID=92707,npcID=68267,q=3,spellID=134538,u=1,g={
-crit(23596,{achID=8397,awp=50400,id=6,pb=1,providers={{"n",68267}}})}}),
+crit(23596,{achID=8397,awp=50400,id=6,pb=1})}}),
 p(4273,{awp=50500,b=1,itemID=209877,npcID=211012,q=3,spellID=423843,u=3}),
 p(4236,{awp=50500,b=1,itemID=204982,npcID=200900,q=3,spellID=407786,u=3}),
 p(4235,{awp=50500,b=1,itemID=200060,npcID=196534,q=3,spellID=388541,u=3}),
@@ -21,7 +21,7 @@ p(4685,{awp=50500,b=1,itemID=231312,npcID=232536,q=3,u=3}),
 p(316,{awp=40100,b=1,itemID=70099,npcID=53623,q=3,rwp=80300,spellID=99578,u=2}),
 i(69847,{awp=40100,b=1,f=101,q=3,rwp=40200,u=2}),
 p(311,{awp=40200,itemID=72068,npcID=53283,q=3,rwp=50407,spellID=98736,u=2,g={
-crit(23740,{achID=8397,awp=50400,id=11,pb=1,providers={{"n",53283}}})}}),
+crit(23740,{achID=8397,awp=50400,id=11,pb=1})}}),
 p(245,{awp=30302,b=1,description="This item is available only if you purchase the Plush Toy and redeem the code.",itemID=49662,npcID=36908,q=3,rwp=80300,spellID=69535,u=2}),
 p(249,{awp=30202,b=1,itemID=49693,npcID=36979,q=3,rwp=100002,spellID=69677,u=2}),
 p(256,{awp=30303,b=1,itemID=54847,npcID=40703,q=3,rwp=80300,spellID=75906,u=2}),

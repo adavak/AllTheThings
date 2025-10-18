@@ -9346,7 +9346,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Mogu'shan Vaults.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1753984800,
+		release = 1753956000,
 		state = 2,
 	},
 	[5002] = {
@@ -9355,7 +9355,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Celestial Dungeons with MSV loot.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1755021600,
+		release = 1754992800,
 		state = 2,
 	},
 	[5003] = {
@@ -9364,7 +9364,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1755799200,
+		release = 1755770400,
 		state = 2,
 	},
 	[5004] = {
@@ -9373,7 +9373,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Tier 14 Gear from Sha of Anger.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756231200,
+		release = 1756202400,
 		state = 2,
 	},
 	[5005] = {
@@ -9382,7 +9382,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756836000,
+		release = 1756807200,
 		state = 2,
 	},
 	[5006] = {
@@ -9391,7 +9391,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1757008800,
+		release = 1756980000,
 		state = 2,
 	},
 	[5007] = {
@@ -9400,7 +9400,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1758045600,
+		release = 1758016800,
 		state = 2,
 	},
 	[51] = {
@@ -9416,7 +9416,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Rise of the Thunder King of Mists of Pandaria Classic.|r",
 		lore = "|cFFFFAAAAIncluded Throne of Thunder, the Isle of Giants, and the Isle of Thunder.|r",
 		minimumBuildVersion = 50500,
-		buildVersion = 50502,
+		buildVersion = 50503,
 		state = 2,
 	},
 	[53] = {
@@ -9424,7 +9424,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Escalation of Mists of Pandaria Classic.|r",
 		lore = "|cFFFFAAAAIncluded Heroic Scenarios, Battlefield: Barrens Scenario, Deepwind Gorge, and the Tiger's Peak arena.|r",
 		minimumBuildVersion = 50500,
-		buildVersion = 50503,
+		buildVersion = 50504,
 		state = 2,
 	},
 	[54] = {
@@ -9432,7 +9432,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Siege of Orgrimmar of Mists of Pandaria Classic.|r",
 		lore = "|cFFFFAAAAIncluded Siege of Orgrimmar and the Timeless Isle.|r",
 		minimumBuildVersion = 50500,
-		buildVersion = 50504,
+		buildVersion = 50505,
 		state = 2,
 	},
 };

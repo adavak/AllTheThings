@@ -20,11 +20,11 @@ p(57,{awp=50004,itemID=34535,npcID=7547,q=1,spellID=10696,u=3}),
 p(156,{awp=50004,b=1,itemID=32588,npcID=23234,q=3,spellID=40549,u=3}),
 p(146,{awp=50004,itemID=29960,npcID=21076,q=1,spellID=36034,u=3}),
 p(42,{awp=50004,itemID=8491,npcID=7383,q=1,spellID=10675,u=3,g={
-crit(23577,{achID=8397,awp=50400,id=1,pb=1,providers={{"n",7383}}})}}),
+crit(23577,{achID=8397,awp=50400,id=1,pb=1})}}),
 p(40,{awp=50004,itemID=8485,npcID=7385,q=1,spellID=10673,u=3,g={
-crit(23578,{achID=8397,awp=50400,id=2,pb=1,providers={{"n",7385}}})}}),
+crit(23578,{achID=8397,awp=50400,id=2,pb=1})}}),
 p(44,{awp=50004,itemID=8490,npcID=7380,q=1,spellID=10677,u=3,g={
-crit(23591,{achID=8397,awp=50400,id=18,pb=1,providers={{"n",7380}}})}}),
+crit(23591,{achID=8397,awp=50400,id=18,pb=1})}}),
 p(56,{awp=50004,itemID=10822,npcID=7543,q=1,spellID=10695,u=3}),
 p(232,{awp=50004,itemID=48112,npcID=35396,q=1,spellID=67413,u=3}),
 p(233,{awp=50004,itemID=48114,npcID=35395,q=1,spellID=67414,u=3}),
@@ -53,7 +53,7 @@ p(218,{awp=50004,itemID=45606,npcID=33810,q=3,spellID=63712,u=3}),
 p(229,{awp=50004,b=1,description="Can also be bought from the Wrath of the Lich King Argent Tournament Vendor.\n\nBlizzard made 3 different Items which all learn the same pet.",itemID=69992,npcID=34724,q=3,spellID=66096,u=3}),
 p(183,{awp=50004,b=1,itemID=38050,npcID=27914,q=3,spellID=49964,u=3}),
 p(242,{awp=50004,b=1,itemID=49343,npcID=36511,q=3,spellID=68810,u=3,g={
-crit(23598,{achID=8397,awp=50400,id=22,pb=1,providers={{"n",36511}}})}}),
+crit(23598,{achID=8397,awp=50400,id=22,pb=1})}}),
 p(204,{awp=50004,itemID=44965,npcID=33188,q=3,spellID=62491,u=3}),
 p(58,{awp=50004,itemID=8499,npcID=7544,q=1,spellID=10697,u=3}),
 p(167,{awp=50004,b=1,itemID=69991,npcID=25062,q=3,spellID=45082,u=3}),
