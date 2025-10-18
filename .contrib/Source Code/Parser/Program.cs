@@ -541,6 +541,10 @@ namespace ATT
                     Framework.MAPID_MERGE_REPLACEMENTS =
                         Framework.ParseAsDictionary<long>(lua.GetTable("MAPID_MERGE_REPLACEMENTS") ?? throw new InvalidDataException("Missing 'MAPID_MERGE_REPLACEMENTS' Global!"))
                         .ToDictionary(kvp => kvp.Key, kvp => (long)kvp.Value);
+
+                    Framework.SORTABLE_FIELDS =
+                        Framework.ParseAsDictionary<string>(lua.GetTable("SORTABLE_FIELDS") ?? throw new InvalidDataException("Missing 'SORTABLE_FIELDS' Global!"))
+                        ["Fields"].AsTypedEnumerable<string>().ToHashSet();
                 }
                 catch (Exception e)
                 {

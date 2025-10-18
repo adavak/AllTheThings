@@ -109,6 +109,8 @@ namespace ATT
 
         public static Dictionary<long, long> MAPID_MERGE_REPLACEMENTS { get; set; }
 
+        public static HashSet<string> SORTABLE_FIELDS { get; set; }
+
         /// <summary>
         /// Represents the function to use when performing a processing pass against the data
         /// </summary>
@@ -890,30 +892,13 @@ namespace ATT
         /// <param name="data"></param>
         private static void Consolidate_ListOrdering(IDictionary<string, object> data)
         {
-            foreach (KeyValuePair<string, object> entry in data)
+            // only certain fields are agnostic to the parsed order
+            foreach (var sortedField in SORTABLE_FIELDS)
             {
-                // only certain fields are agnostic to the parsed order
-                switch (entry.Key)
+                // is it a list of objects?
+                if (data.TryGetValue(sortedField, out object value) && value is List<object> valList)
                 {
-                    case "c":
-                    case "specs":
-                    case "races":
-                    case "sourceAchievements":
-                    case "sourceQuests":
-                    case "altQuests":
-                    //case "customCollect":
-                    case "difficulties":
-                    case "maps":
-                    case "qgs":
-                    case "qis":
-                    case "crs":
-                        // is it a list of objects?
-                        if (entry.Value is List<object> valList)
-                        {
-                            AttemptSortingGenericList(valList);
-                        }
-                        break;
-
+                    AttemptSortingGenericList(valList);
                 }
             }
         }

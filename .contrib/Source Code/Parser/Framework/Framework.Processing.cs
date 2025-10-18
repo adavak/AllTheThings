@@ -1219,6 +1219,7 @@ namespace ATT
 
         private static void DoShiftCoords(IDictionary<string, object> data)
         {
+            // TODO: conditional action via handler
             if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue(out Coords coords))
             {
                 TimelineEntry dataTimelineEntry = null;
