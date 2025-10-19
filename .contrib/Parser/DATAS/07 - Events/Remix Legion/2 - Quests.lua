@@ -446,6 +446,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		q(91437, {	-- Call for Participants
 			["description"] = "Quest pops-up into your log when you visit Bazaar after completing 'Time Flies'.",
 			["sourceQuest"] = 90755,	-- Time Flies
+			["repeatable"] = true,
 		}),
 		q(91639, {	-- Embrace Your Own Legend
 			["qg"] = 241748,	-- Eternus
@@ -459,7 +460,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		q(92430, {	-- Embracing the Infinite Chaos
 			["description"] = "Quest pops-up when you hit Level 25.",
 			["lvl"] = 25,
-			-- Exo Note: Will this be a Breadcrumb for 'Infinite Chaos'? I got it on my main AFTER having 'Infinite Chaos' in my log.
+			["lockCriteria"] = { 1, "questID", 91061 },	-- Infinite Chaos
 		}),
 		q(91061, {	-- Infinite Chaos
 			["description"] = "Quest becomes available after you enable 'Heroic World Tier'.",
