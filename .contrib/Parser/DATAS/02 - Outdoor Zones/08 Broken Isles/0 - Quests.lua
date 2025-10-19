@@ -415,14 +415,16 @@ root(ROOTS.Zones, {
 							["coord"] = { 27.5, 35.8, AEGWYNNS_GALLERY },
 							["maps"] = { 775, 776 },	-- Scenario: In Defense of the Exodar
 							["groups"] = {
+								i(140319),	-- Khadgar's Beacon (QI!)
+								--
 								i(140614),	-- Amice of Steadfast Allies
-								i(140610),	-- Wristwraps of the Grieving Prophet
-								i(140615),	-- Felstalking Shoulders
-								i(140613),	-- Bracers of Lost Lineage
 								i(140616),	-- Annihilator's Mantle
+								i(140613),	-- Bracers of Lost Lineage
 								i(140612),	-- Bracers of the Fallen
-								i(140617),	-- Rakeesh's Pauldron
 								i(140611),	-- Fel Commander's Vambraces
+								i(140615),	-- Felstalking Shoulders
+								i(140617),	-- Rakeesh's Pauldron
+								i(140610),	-- Wristwraps of the Grieving Prophet
 								n(110486, {	-- Huk'roth the Huntmaster
 									["altQuests"] = { 44004 },	-- Bringer of the Light
 									["questID"] = 43480,
@@ -453,6 +455,7 @@ root(ROOTS.Zones, {
 							["sourceQuest"] = 44004,	-- Bringer of the Light
 							["provider"] = { "n", 90417 },	-- Archmage Khadgar
 							["coord"] = { 28.7, 48.5, LEGION_DALARAN },
+							["groups"] = { i(140763) },	-- Light's Heart (QI!)
 						}),
 						q(44337, {	-- Goddess Watch Over You
 							["description"] = "There are two versions of this quest: One for players that have already finished the quest chain to recover the Tears of Elune and one for those that haven't yet.\n\nThis one is for players that have.",
@@ -496,6 +499,7 @@ root(ROOTS.Zones, {
 										113361,	-- Captain Jarod Shadowsong
 										113829,	-- Captain Jarod Shadowsong
 									},
+									["coord"] = { 38.7, 53.1, 793 },	-- Scenario: Black Rook Hold
 								}),
 								q(44415, {	-- The Red Axe
 									["description"] = "This quest can only be completed while in the Ravencrest's Legacy scenario.",
@@ -505,12 +509,14 @@ root(ROOTS.Zones, {
 										113361,	-- Captain Jarod Shadowsong
 										113829,	-- Captain Jarod Shadowsong
 									},
+									["coord"] = { 40.4, 53.0, 793 },	-- Scenario: Black Rook Hold
 								}),
 								q(44416, {	-- Hunter of Night
 									["description"] = "This quest can only be completed while in the Ravencrest's Legacy scenario.",
 									["sourceQuest"] = 44415,	-- The Red Axe
 									["altQuests"] = { 44479 },	-- Ravencrest's Legacy
 									["provider"] = { "n", 113355 },	-- Broxigar the Red
+									["coord"] = { 43.8, 50.3, 793 },	-- Scenario: Black Rook Hold
 									["groups"] = {
 										i(139932),	-- Belt of Shadowsong
 										i(140002),	-- Broxigar's Girdle

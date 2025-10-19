@@ -1246,8 +1246,14 @@ root(ROOTS.Zones, {
 				}),
 				q(39987, {	-- Trail of Echoes
 					["sourceQuests"] = { 39986 },	-- Magic Message
-					["provider"] = { "n", 90417 },	-- Archmage Khadgar
-					["coord"] = { 28.4, 48.3, LEGION_DALARAN },
+					["qgs"] = {
+						90417,	-- Archmage Khadgar
+						91172,	-- Archmage Khadgar
+					},
+					["coords"] = {
+						{ 28.4, 48.3, LEGION_DALARAN },
+						{ 70.6, 43.8, LEGION_DALARAN },
+					},
 					["groups"] = { i(131931) },	-- Khadgar's Wand (QI!)
 				}),
 				q(47057, {	-- Unholy: The Folly of Levia Laurence

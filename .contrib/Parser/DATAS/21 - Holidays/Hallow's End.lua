@@ -2925,7 +2925,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					["coord"] = { 61.9, 16.1, VALE_OF_ETERNAL_BLOSSOMS },
 					["coords"] = {
 						{ 61.9, 16.1, VALE_OF_ETERNAL_BLOSSOMS },
-						--{ x, y, SHRINE_OF_TWO_MOONS },
+						{ 57.7, 77.3, SHRINE_OF_TWO_MOONS },
 					},
 					["timeline"] = { ADDED_5_0_4 },
 				}),

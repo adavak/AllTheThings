@@ -402,6 +402,12 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41606,	-- Finding Brytag
 					["provider"] = { "n", 104406 },	-- Brytag
 					["coord"] = { 74.9, 63.3, SURAMAR },
+					["groups"] = {
+						o(248080, {	-- Needle Coral
+							["coord"] = { 75.2, 61.9, SURAMAR },
+							["groups"] = { i(130944) },	-- Needle Coral (QI!)
+						}),
+					},
 				}),
 				q(44636, {	-- Building an Army
 					["sourceQuest"] = 42230,	-- The Valewalker's Burden
@@ -479,15 +485,16 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40746,	-- One of the People
 					["provider"] = { "n", 107598 },	-- Vanthir
 					["coord"] = { 48.4, 83.2, SURAMAR },
-					["groups"] = {
-						i(138308),	-- Mana Wine Flask (QI!)
-					},
+					["groups"] = { i(138308) },	-- Mana Wine Flask (QI!)
 				}),
-				q(42396, {	-- Do The Thing! -- aa
+				q(42396, {	-- Do The Thing!
 					["provider"] = { "n", 107302 },	-- Pearlhunter Phin
 					["coord"] = { 15.8, 54.8, SURAMAR },
 					["groups"] = {
-						i(137383),	-- Speckled Pearl (QI!)
+						o(250288, {	-- Speckled Pearl
+							["coord"] = { 15.9, 54.8, SURAMAR },
+							["groups"] = { i(137383) },	-- Speckled Pearl (QI!)
+						}),
 					},
 				}),
 				q(43810, {	-- Down to Business (A)
@@ -1241,6 +1248,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42229,	-- Shal'Aran
 					["provider"] = { "n", 97140 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.9, SURAMAR },
+					["groups"] = { i(132883) },	-- First Arcanist's Token (QI!)
 				}),
 				q(44753, {	-- On Public Display
 					["sourceQuest"] = 44752,	-- Essence Triangulation
@@ -1343,6 +1351,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40368,	-- Turtle Powered
 					["provider"] = { "n", 99788 },	-- Morhun Rivertamer
 					["coord"] = { 43.4, 41.7, SURAMAR },
+					["groups"] = { i(131760) },	-- Cleansing Ritual Focus (QI!)
 				}),
 				q(40470, {	-- Quality of Life
 					["sourceQuest"] = 40424,	-- A Desperate Journey
@@ -1631,14 +1640,13 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44691,	-- Hungry Work
 					["provider"] = { "n", 98548 },	-- Chief Telemancer Oculeth
 					["coord"] = { 36.5, 46.9, SURAMAR },
+					["groups"] = { i(133897) },	-- Telemancy Beacon (QI!)
 				}),
 				q(45065, {	-- Survey the City
 					["sourceQuest"] = 45067,	-- Telemantic Expanse
 					["provider"] = { "n", 115710 },	-- Chief Telemancer Oculeth
 					["coord"] = { 36.6, 45.0, SURAMAR },
-					["groups"] = {
-						i(142405),	-- Advanced Telemancy Beacon (QI!)
-					},
+					["groups"] = { i(142405) },	-- Advanced Telemancy Beacon (QI!)
 				}),
 				q(41216, {	-- Survival of the Fittest
 					["sourceQuest"] = 41215,	-- They Become The Hunted
@@ -1898,6 +1906,12 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41146,	-- Elegant Design
 					["provider"] = { "n", 104394 },	-- Lady Anastae
 					["coord"] = { 41.6, 59.9, SURAMAR },
+					["groups"] = {
+						o(249345, {	-- Overlooked Crate
+							["coord"] = { 35.3, 61.6, SURAMAR },
+							["groups"] = { i(135507) },	-- Gemcutter's Tome (QI!)
+						}),
+					},
 				}),
 				q(40123, {	-- The Nightborne Pact
 					["sourceQuest"] = 40008,	-- The Only Way Out is Through
@@ -2123,6 +2137,7 @@ root(ROOTS.Zones, {
 				q(40368, {	-- Turtle Powered
 					["provider"] = { "n", 99788 },	-- Morhun Rivertamer
 					["coord"] = { 43.4, 41.7, SURAMAR },
+					["groups"] = { i(130942) },	-- Shimmering Snapper Scale (QI!)
 				}),
 				q(44743, {	-- Tyrande's Command
 					["sourceQuest"] = 45265,	-- Feeding the Rebellion
@@ -2190,14 +2205,13 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40326,	-- Scattered Memories
 					["provider"] = { "o", 247694 },	-- Kel'danath's Knapsack
 					["coord"] = { 20.9, 52.2, SURAMAR },
+					["groups"] = { i(136271) },	-- Spellstone of Kel'danath (QI!)
 				}),
 				q(41197, {  -- You've Got to Be Kitten Me Right Meow
 					["sourceQuest"] = 41453,	-- Homeward Bounding
 					["provider"] = { "n", 103570 },	-- Mardranel Forestheart
 					["coord"] = { 21.4, 30.6, SURAMAR },
-					["groups"] = {
-						i(139791),	-- Lurking Owl Kitten (PET!)
-					},
+					["groups"] = { i(139791) },	-- Lurking Owl Kitten (PET!)
 				}),
 				q(40762, {	-- Zealot's Dues
 					["provider"] = { "i", 136851 },	-- Commander Domitille's Helm

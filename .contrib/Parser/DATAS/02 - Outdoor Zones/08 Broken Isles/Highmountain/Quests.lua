@@ -25,7 +25,7 @@ root(ROOTS.Zones, {
 				q(39577, {	-- An Ancient Secret
 					["sourceQuests"] = { 39578 },	-- Titanic Showdown
 					["provider"] = { "n", 99190 },	-- Spiritwalker Ebonhorn
-					["coord"] = { 48.9, 71.4, 657 },	-- Path of Huln
+					["coord"] = { 49.0, 72.5, 657 },	-- Path of Huln
 				}),
 				q(39374, {	-- An Audience with Torok
 					["sourceQuests"] = {
@@ -106,6 +106,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
+					["groups"] = { i(128286) },	-- Bristlefur Pelt (QI!)
 				}),
 				q(39043, {	-- Bitestone Enclave
 					["sourceQuests"] = {
@@ -176,11 +177,13 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["coord"] = { 55.2, 41.8, HIGHMOUNTAIN },
 					["groups"] = {
+						i(128756),	-- Oenia's Skull (QI!)
+						--
 						i(130275),	-- Chain of Bossing Around
-						i(130286),	-- Thunderpeak Breastplate
-						i(130285),	-- Whitewater Chestwrap
 						i(130284),	-- Drogstitch Chestguard
 						i(130283),	-- Snowblind Vestments
+						i(130286),	-- Thunderpeak Breastplate
+						i(130285),	-- Whitewater Chestwrap
 					},
 				}),
 				q(39455, {	-- Cave of the Blood Trial
@@ -212,6 +215,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39386 },	-- Procuring a Prototype
 					["provider"] = { "n", 96513 },	-- Razik Gazbolt
 					["coord"] = { 57.5, 56.6, HIGHMOUNTAIN },
+					["groups"] = { i(128655) },	-- Rabbit (QI!)
 				}),
 				q(39487, {	-- Crystal Fury
 					["sourceQuests"] = {
@@ -443,12 +447,17 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40244 },	-- That Guy in the Costume
 					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
+					["groups"] = { i(129183) },	-- Pufferfish Egg (QI!)
 				}),
 				q(39867, {	-- I'm Not Lion!
 					["sourceQuests"] = { 39123 },	-- Lion Stalkin'
 					["provider"] = { "n", 95438 },	-- Ellias
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
-					["groups"] = { i(133810) },	-- Recipe: Salt and Pepper Shank [Rank 1] (RECIPE!)
+					["groups"] = {
+						i(128933),	-- Rashar's Right Eye (QI!)
+						--
+						i(133810),	-- Recipe: Salt and Pepper Shank [Rank 1] (RECIPE!)
+					},
 				}),
 				q(40219, {	-- In Defiance of Deathwing
 					["sourceQuests"] = { 39575 },	-- The Path of Huln
@@ -493,7 +502,11 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39124 },	-- Moose Shootin'
 					["provider"] = { "n", 94101 },	-- Laeni Silvershot
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
-					["groups"] = { i(141647) },	-- Medallion of Morashu
+					["groups"] = {
+						i(127767),	-- Morashu's Antlers (QI!)
+						--
+						i(141647),	-- Medallion of Morashu
+					},
 				}),
 				q(39124, {	-- Moose Shootin'
 					["sourceQuests"] = {
@@ -669,6 +682,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 					["groups"] = {
+						i(130074),	-- Flare Gun (QI!)
+						--
 						i(121672),	-- Lead-Studded Robes
 						i(121655),	-- Lead-Studded Vest
 						i(121654),	-- Lead-Studded Chestguard
@@ -728,7 +743,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 52.3, 61.6, 659 },	-- Stonedark Grotto
 					["groups"] = {
 						o(243971, {	-- Chains of Resistance
-							["coord"] = { 76.4, 53, 659 },	-- Stonedark Grotto
+							["coord"] = { 76.3, 54.6, 659 },	-- Stonedark Grotto
 							["groups"] = { i(128697) },	-- Chains of Resistance (QI!)
 						}),
 						o(243973, {	-- Rod of Bearing
@@ -761,7 +776,7 @@ root(ROOTS.Zones, {
 				q(39579, {	-- The Backdoor
 					["sourceQuests"] = { 39577 },	-- An Ancient Secret
 					["provider"] = { "n", 96270 },	-- Ebyssian
-					["coord"] = { 61.1, 73.7, 657 },	-- Path of Huln
+					["coord"] = { 61.2, 72.0, 657 },	-- Path of Huln
 					["groups"] = {
 						i(133137),	-- Wisps of Illusion
 						i(133138),	-- Time-Lost Dragon Heart
@@ -999,7 +1014,10 @@ root(ROOTS.Zones, {
 							},
 						}),
 						o(245620, {	-- Mu'sha's Tears
-							["coord"] = { 57.6, 10.6, 750 },	-- Thunder Totem
+							["coords"] = {
+								{ 48.4, 55.8, HIGHMOUNTAIN },
+								{ 57.6, 10.6, 750 },	-- Thunder Totem
+							},
 							["groups"] = { i(132248) },	-- Mu'sha's Tears (QI!)
 						}),
 					},
@@ -1029,6 +1047,7 @@ root(ROOTS.Zones, {
 				q(39765, {	-- Wax On, Wax Off
 					["provider"] = { "n", 96984 },	-- Oenia Skyhorn
 					["coord"] = { 54.7, 45.0, HIGHMOUNTAIN },
+					["groups"] = { i(128753) },	-- Skull of Bossing Around (QI!)
 				}),
 				q(39372, {	-- Witch of the Wood
 					["sourceQuests"] = { 38912 },	-- The Bloodtotem Tribe

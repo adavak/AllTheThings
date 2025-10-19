@@ -839,7 +839,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(41782, {	-- To The Hills
 						["sourceQuests"] = { 41468 },	-- Mistress of the Claw
 						["provider"] = { "n", 101259 },	-- Lea Stonepaw
-						["coord"] = { 39.2, 18.7, THE_DREAMGROVE },
+						["coord"] = { 39.2, 18.7, VALSHARAH },
 					}),
 					q(46675, {	-- To Track a Demon
 						["sourceQuests"] = { 46674 },	-- The Preservation of Nature

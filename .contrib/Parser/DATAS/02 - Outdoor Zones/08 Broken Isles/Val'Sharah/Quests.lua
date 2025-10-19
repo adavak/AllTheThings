@@ -817,11 +817,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(39015, {	-- Grumpy
+					["qg"] = 92738,-- Grumpy
 					["coord"] = { 38.6, 65.6, VALSHARAH },
 					-- not sure if there are prereqs for this.
-					["groups"] = {
-						i(128354),	-- Grumpy (PET!)
-					},
+					["groups"] = { i(128354) },	-- Grumpy (PET!)
 				}),
 				n(BONUS_OBJECTIVES, sharedData({
 					["sharedDescription"] = "This can be completed in party-sync with a character who is in Chromie Time for Legion.",

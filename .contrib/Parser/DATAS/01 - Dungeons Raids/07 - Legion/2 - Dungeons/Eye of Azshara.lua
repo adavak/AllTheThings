@@ -37,6 +37,11 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				q(42755, {	-- Eye of Azshara: Azsunian Pearls
 					["isWorldQuest"] = true,
 					["lvl"] = 110,
+					["groups"] = {
+						o(251287, {	-- Massive Azsunian Pearl
+							i(138398),	-- Massive Azsunian Pearl (QI!)
+						}),
+					},
 				}),
 				q(42746, {	-- Eye of Azshara: Dread End
 					["isWorldQuest"] = true,

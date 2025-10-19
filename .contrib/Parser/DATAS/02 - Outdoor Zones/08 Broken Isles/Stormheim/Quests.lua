@@ -725,6 +725,7 @@ root(ROOTS.Zones, {
 						{ 58.5, 64.2, STORMHEIM },
 						{ 63.5, 64.6, STORMHEIM },
 					},
+					["groups"] = { i(126946) },	-- Verse of Ashilvara (QI!)
 				}),
 				q(44700, {	-- Stormheim (A)
 					["altQuests"] = { 39735 },	-- Stormheim (A) from Scouting Map
@@ -1154,6 +1155,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 108072 },	-- Sir Finley Mrrggglton
 					["coord"] = { 74.8, 55.5, STORMHEIM },
 					["groups"] = {
+						i(138190),	-- Sharp Wooden Stake (QI!)
+						--
 						i(129329),	-- The Blood-Thane's Amulet
 						i(129360),	-- Dreadsworn Breastplate
 						i(129358),	-- Stormborn Hauberk

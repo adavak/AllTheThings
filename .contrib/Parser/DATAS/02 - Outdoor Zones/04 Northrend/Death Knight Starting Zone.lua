@@ -39,12 +39,14 @@ root(ROOTS.Zones, {
 				}),
 				q(58989, {	-- Runeforging 101
 					["description"] = "Use your Death Gate after finishing previous quest, Darion will be in Acherus.",
-					["sourceQuests"] = {
-						58902,	-- Defender of Azeroth (A)
-						58903,	-- Defender of Azeroth (H)
+					["qgs"] = {
+						29246,	-- Highlord Darion Morgraine
+						93437,	-- Highlord Darion Morgraine
 					},
-					["qg"] = 29246,	-- Highlord Darion Morgraine
-					["coord"] = { 82.0, 46.3, EASTERN_PLAGUELANDS },	-- Acherus: The Ebon Hold (Lower Level)
+					["coords"] = {
+						{ 82.0, 46.3, EASTERN_PLAGUELANDS },
+						{ 50.7, 50.4, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
+					},
 					["timeline"] = { ADDED_8_3_0 },
 					["classes"] = { DEATHKNIGHT },
 				}),

@@ -15,7 +15,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					ach(60968, {	-- Legendary Research of the Silver Hand
 						["timeline"] = { ADDED_11_2_7 },
 						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Libram of Ancient Kings (DECOR!)
-					}),				
+					}),
 					ach(60987, {	-- So Many Missions for the Sanctum of Light
 						["timeline"] = { ADDED_11_2_7 },
 						["groups"] = { i(250236, {["timeline"] = { ADDED_12_0_0 }}),},	-- Silver Hand Weapon Rack (DECOR!)
@@ -176,25 +176,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								90259,	-- Lord Maxwell Tyrosus
 								90369,	-- Lord Maxwell Tyrosus
 							},
-							["coord"] = { 74.8, 48.2, LEGION_DALARAN },
+							["coords"] = {
+								{ 74.8, 48.2, LEGION_DALARAN },
+								{ 49.8, 72.0, LIGHTS_HOPE_CHAPEL },
+							},
 						}),
 						q(42002, {	-- To Northrend
 							["sourceQuests"] = { 42000 },	-- Seeker of Truth
 							["provider"] = { "n", 105689 },	-- Orik Trueheart
-							["coord"] = { 73.9, 49.0, LEGION_DALARAN },
+							["coord"] = { 72.6, 49.8, LEGION_DALARAN },
 						}),
 						q(42005, {	-- The End of the Saga
 							["sourceQuests"] = { 42002 },	-- To Northrend
 							["provider"] = { "n", 105724 },	-- Orik Trueheart
 							["coord"] = { 56.8, 78.7, HOWLING_FJORD },
-							["groups"] = {
-								i(136710),	-- Aura Stone (QI!)
-							},
+							["groups"] = { i(136710) },	-- Aura Stone (QI!)
 						}),
 						q(42017, {	-- Shrine of the Truthguard
 							["sourceQuests"] = { 42005 },	-- The End of the Saga
 							["provider"] = { "n", 105813 },	-- Orik Trueheart
-							["coord"] = { 73.9, 49.0, LEGION_DALARAN },
+							["coord"] = { 72.6, 49.8, LEGION_DALARAN },
 						}),
 					}),
 					cl(PALADIN, RETRIBUTION, {

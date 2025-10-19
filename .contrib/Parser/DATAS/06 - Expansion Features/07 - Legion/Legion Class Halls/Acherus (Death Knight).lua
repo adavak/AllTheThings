@@ -166,7 +166,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									},
 								}),
 								o(247386, {	-- Blades of the Fallen Prince
-									["coord"] = { 50.0, 54.4, 701 },	-- Icecrown Citadel (Scenario Map)
+									["coords"] = {
+										{ 49.2, 52.3, 701 }, 	-- Icecrown Citadel (Scenario Map)
+										{ 49.3, 50.8, 701 }, 	-- Icecrown Citadel (Scenario Map)
+										{ 49.9, 51.4, 701 }, 	-- Icecrown Citadel (Scenario Map)
+										{ 50.0, 52.7, 701 }, 	-- Icecrown Citadel (Scenario Map)
+										{ 50.3, 51.6, 701 }, 	-- Icecrown Citadel (Scenario Map)
+									},
 									["groups"] = {
 										i(128292, {	-- Blades of the Fallen Prince [Main Hand]
 											["ItemAppearanceModifierID"] = 9,
@@ -258,7 +264,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["description"] = "Obtainable if you are good to Revil Kost",
 							["sourceQuest"] = 40934,	-- The Dark Riders (Good)
 							["provider"] = { "n", 101282 },	-- Revil Kost
-							["coord"] = { 68.4, 27.0, DEADWIND_PASS },
+							["coord"] = { 68.4, 27.0, 46 },	-- Karazhan Catacombs
 							["isBreadcrumb"] = true,
 						}),
 						q(40987, {	-- The Call of Vengeance (Bad)

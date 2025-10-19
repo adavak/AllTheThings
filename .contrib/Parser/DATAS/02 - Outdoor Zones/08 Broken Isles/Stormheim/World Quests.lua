@@ -233,7 +233,11 @@ root(ROOTS.Zones, {
 						i(137768),	-- Vantus Rune Technique: Nythendra [Rank 3] (RECIPE!)
 					},
 				}),
-				q(43963),	-- Vampirates!
+				q(43963, {	-- Vampirates!
+					i(140294),	-- Cursed Clothing (QI!)
+					i(140277),	-- Empowered Runestone (QI!)
+					i(140285),	-- Family Blade (QI!)
+				}),
 				q(43454),	-- WANTED: Egyl the Enduring
 				q(43620),	-- WANTED: Egyl the Enduring (rare wq)
 				q(43434),	-- WANTED: Fathnyr
