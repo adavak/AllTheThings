@@ -144,6 +144,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82037,
 				["groups"] = {
 					i(223930),	-- Monstrous Chain Pincers
+					i(221252),	-- Nerubian Slayer's Claymore
 					i(221240),	-- Nerubian Stagshell Gouger
 				},
 			}),
