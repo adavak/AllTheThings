@@ -1012,7 +1012,7 @@ namespace ATT
                 if (b.ContainsKey("itemID") && Items.Get(b).TryGetValue("name", out string bRef))
                 {
                     // Both have a name, compare them!
-                    var first = aRef.ToString().CompareTo(bRef);
+                    var first = Compare(aRef, bRef);
                     if (first == 0)
                     {
                         // If they have the same name, then sort by BonusID/ModID.
@@ -1025,6 +1025,9 @@ namespace ATT
                                 // Both have a bonusID, compare them!
                                 return Convert.ToInt64(aRef).CompareTo(bRef);
                             }
+
+                            // BonusID goes first
+                            return -1;
                         }
 
                         // If a contains a modID, then try to get it.
@@ -1036,17 +1039,23 @@ namespace ATT
                                 // Both have a modID, compare them!
                                 return Convert.ToInt64(aRef).CompareTo(bRef);
                             }
+
+                            // ModID goes first
+                            return -1;
                         }
 
                         // If a contains a cost, then try to get it.
-                        if (a.TryGetValue("cost", out aRef))
+                        if (a.TryGetValue(out Cost aCost))
                         {
                             // If b contains a cost, then try to get it.
-                            if (b.TryGetValue("cost", out bRef))
+                            if (b.TryGetValue(out Cost bCost))
                             {
                                 // Both have a cost, compare them!
-                                return Convert.ToInt64(aRef).CompareTo(bRef);
+                                return aCost.HasData.CompareTo(bCost.HasData);
                             }
+
+                            // Cost goes first
+                            return -1;
                         }
                     }
                     return first;
