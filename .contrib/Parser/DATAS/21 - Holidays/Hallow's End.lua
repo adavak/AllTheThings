@@ -385,6 +385,9 @@ local WANDS_WITH_COST = {
 	}),
 	i(20410, {	-- Hallowed Wand - Bat
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 	i(128645, {	-- Hallowed Wand - Gargoyle
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
@@ -396,6 +399,9 @@ local WANDS_WITH_COST = {
 	}),
 	i(20409, {	-- Hallowed Wand - Ghost
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 	i(116850, {	-- Hallowed Wand - Ghoul
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
@@ -403,6 +409,9 @@ local WANDS_WITH_COST = {
 	}),
 	i(20399, {	-- Hallowed Wand - Leper Gnome
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 	i(128646, {	-- Hallowed Wand - Nerubian
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
@@ -410,15 +419,24 @@ local WANDS_WITH_COST = {
 	}),
 	i(20398, {	-- Hallowed Wand - Ninja
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 	i(20397, {	-- Hallowed Wand - Pirate
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 	i(20413, {	-- Hallowed Wand - Random
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
 	}),
 	i(20411, {	-- Hallowed Wand - Skeleton
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 	i(116848, {	-- Hallowed Wand - Slime
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
@@ -434,6 +452,9 @@ local WANDS_WITH_COST = {
 	}),
 	i(20414, {	-- Hallowed Wand - Wisp
 		["cost"] = { { "i", 33226, 2 }, },	-- 2x Tricky Treat
+		-- #if AFTER TWW
+		["description"] = "Can only be used on party members of your faction.",
+		-- #endif
 	}),
 };
 local WANDS_WITHOUT_COST, WANDS_IDS = {}, {};
@@ -763,27 +784,32 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["timeline"] = { ADDED_3_0_2 },
 		}),
 		ach(283, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- The Masquerade
-			crit(3209, {	-- Transformed by Hallowed Wand - Bat
-				["provider"] = { "i", 20410 },	-- Hallowed Wand - Bat
-			}),
-			crit(3210, {	-- Transformed by Hallowed Wand - Ghost
-				["provider"] = { "i", 20409 },	-- Hallowed Wand - Ghost
-			}),
-			crit(3211, {	-- Transformed by Hallowed Wand - Leper Gnome
-				["provider"] = { "i", 20399 },	-- Hallowed Wand - Leper Gnome
-			}),
-			crit(3212, {	-- Transformed by Hallowed Wand - Ninja
-				["provider"] = { "i", 20398 },	-- Hallowed Wand - Ninja
-			}),
-			crit(3213, {	-- Transformed by Hallowed Wand - Pirate
-				["provider"] = { "i", 20397 },	-- Hallowed Wand - Pirate
-			}),
-			crit(3214, {	-- Transformed by Hallowed Wand - Skeleton
-				["provider"] = { "i", 20411 },	-- Hallowed Wand - Skeleton
-			}),
-			crit(3215, {	-- Transformed by Hallowed Wand - Wisp
-				["provider"] = { "i", 20414 },	-- Hallowed Wand - Wisp
-			}),
+			-- #if AFTER TWW
+			["description"] = "You can only get transformed by party members of your faction.",
+			-- #endif
+			["groups"] = {
+				crit(3209, {	-- Transformed by Hallowed Wand - Bat
+					["provider"] = { "i", 20410 },	-- Hallowed Wand - Bat
+				}),
+				crit(3210, {	-- Transformed by Hallowed Wand - Ghost
+					["provider"] = { "i", 20409 },	-- Hallowed Wand - Ghost
+				}),
+				crit(3211, {	-- Transformed by Hallowed Wand - Leper Gnome
+					["provider"] = { "i", 20399 },	-- Hallowed Wand - Leper Gnome
+				}),
+				crit(3212, {	-- Transformed by Hallowed Wand - Ninja
+					["provider"] = { "i", 20398 },	-- Hallowed Wand - Ninja
+				}),
+				crit(3213, {	-- Transformed by Hallowed Wand - Pirate
+					["provider"] = { "i", 20397 },	-- Hallowed Wand - Pirate
+				}),
+				crit(3214, {	-- Transformed by Hallowed Wand - Skeleton
+					["provider"] = { "i", 20411 },	-- Hallowed Wand - Skeleton
+				}),
+				crit(3215, {	-- Transformed by Hallowed Wand - Wisp
+					["provider"] = { "i", 20414 },	-- Hallowed Wand - Wisp
+				}),
+			},
 		})),
 		ach(289, {	-- The Savior of Hallow's End
 			["timeline"] = { ADDED_3_0_2 },
