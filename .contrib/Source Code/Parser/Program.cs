@@ -525,6 +525,10 @@ namespace ATT
                         Framework.ParseAsStringDictionary(lua.GetTable("MERGE_OBJECT_FIELDS") ?? throw new InvalidDataException("Missing 'MERGE_OBJECT_FIELDS' Global!"))
                         .ToDictionary(kvp => kvp.Key, kvp => (kvp.Value as List<object>)?.Select(o => o.ToString()).ToArray());
 
+                    Framework.Objects.MERGE_FROM_OBJECT_FIELDS =
+                        Framework.ParseAsStringDictionary(lua.GetTable("MERGE_FROM_OBJECT_FIELDS") ?? throw new InvalidDataException("Missing 'MERGE_FROM_OBJECT_FIELDS' Global!"))
+                        .ToDictionary(kvp => kvp.Key, kvp => (kvp.Value as List<object>)?.Select(o => o.ToString()).ToArray());
+
                     Framework.Objects.MAPID_COORD_SHIFTS =
                         Framework.ParseAsDictionary<long>(lua.GetTable("MAPID_COORD_SHIFTS") ?? throw new InvalidDataException("Missing 'MAPID_COORD_SHIFTS' Global!"))
                         .ToDictionary(kvp => kvp.Key, kvp => CoordShift.Create(kvp.Value));

@@ -91,6 +91,11 @@ namespace ATT
             public static IDictionary<string, string[]> MERGE_OBJECT_FIELDS { get; set; }
 
             /// <summary>
+            /// The keys which can be merged into the DB for later merging into Objects
+            /// </summary>
+            public static IDictionary<string, string[]> MERGE_FROM_OBJECT_FIELDS { get; set; }
+
+            /// <summary>
             /// The set of MapID values and linked coord-shift requirements
             /// </summary>
             public static IDictionary<long, CoordShift> MAPID_COORD_SHIFTS { get; set; }
@@ -507,7 +512,7 @@ namespace ATT
                 if (objectData.ContainsAnyKey(MergeRestrictedFields))
                     return;
 
-                foreach (var mergeObjectFieldPair in MERGE_OBJECT_FIELDS)
+                foreach (var mergeObjectFieldPair in MERGE_FROM_OBJECT_FIELDS)
                 {
                     // does this data contain the key?
                     if (!objectData.TryGetValue(mergeObjectFieldPair.Key, out object keyValue))

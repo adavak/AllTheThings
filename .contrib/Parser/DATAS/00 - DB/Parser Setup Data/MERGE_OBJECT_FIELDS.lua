@@ -11,3 +11,16 @@ MERGE_OBJECT_FIELDS = {
 	questID = { "type","sourceQuests","altQuests","isBreadcrumb","c","r","races","lvl","OnTooltip","_type","_area","_category","_text","name","description","nextQuests","isDaily","isMonthly","isYearly","repeatable","g" },
 	itemID = { "_class","_subclass","_inventoryType","ignoreBonus","minReputation","spellID" },
 }
+
+-- Will eventually be removed as all 'merge' data is migrated to DB-scoped data
+-- but dictates the allowed fields from any given Object which may be merged into matching
+-- Objects elsewhere
+MERGE_FROM_OBJECT_FIELDS = {
+	spellID = { "type","learnedAt" },
+	recipeID = { "requireSkill","learnedAt" },
+	speciesID = { "pb","crs" },
+	instanceID = { "isRaid" },
+	mapID = { "maps" },
+	questID = { "type","sourceQuests","altQuests","isBreadcrumb","c","r","races","lvl","OnTooltip","_type","_area","_category","_text","name","description","nextQuests","isDaily","isMonthly","isYearly","repeatable" },
+	itemID = { "spellID" },
+}

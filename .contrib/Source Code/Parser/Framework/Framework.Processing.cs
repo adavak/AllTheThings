@@ -2152,7 +2152,7 @@ namespace ATT
             {
                 foreach (long sourceQuestID in sourceQuests.AsTypedEnumerable<long>())
                 {
-                    Objects.MergeFromObject(new Dictionary<string, object> { { "questID", sourceQuestID }, { "nextQuests", questID } });
+                    Objects.MergeFromDB("questID", new Dictionary<string, object> { { "questID", sourceQuestID }, { "nextQuests", questID } });
                 }
             }
         }
