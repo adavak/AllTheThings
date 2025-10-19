@@ -13,7 +13,7 @@ WINDS_OF_MYSTERIOUS_FORTUNE_HEADER = createHeader({
 		ru = "Ветра таинственной удачи",
 		ko = "수수께끼의 운세의 바람",
 		cn = "神秘运势之风",
-		tw = "神​秘命​運​之​風",
+		tw = "神秘命運之風",
 	},
 	description = {
 		en = "Earn bonus experience and reputation on your adventures in Azeroth, and find mysterious fortunes in the Dragon Isles and Khaz Algar!",
