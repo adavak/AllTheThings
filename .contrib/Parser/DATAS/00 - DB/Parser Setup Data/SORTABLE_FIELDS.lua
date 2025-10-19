@@ -3,6 +3,7 @@
 SORTABLE_FIELDS = {
 	Fields = {
 		"c",
+		"customCollect",
 		"specs",
 		"races",
 		"sourceAchievements",

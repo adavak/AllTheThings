@@ -923,6 +923,19 @@ namespace ATT
                     return 0;
                 });
             }
+            else if (firstVal.TryConvert(out string _))
+            {
+                list.Sort(delegate (object a, object b)
+                {
+                    if (a.TryConvert(out string asv) && b.TryConvert(out string bsv))
+                    {
+                        return stringComparer.Compare(asv, bsv);
+                    }
+
+                    // don't change order if either can't be converted
+                    return 0;
+                });
+            }
         }
 
         /// <summary>
