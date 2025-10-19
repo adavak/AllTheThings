@@ -238,16 +238,28 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				BossOnly(ILGYNOTH, {
 					i(139637),	-- Vantus Rune Technique: Il'gynoth, The Heart of Corruption [Rank 1] (RECIPE!)
 					i(137749),	-- Vantus Rune Technique: Il'gynoth, The Heart of Corruption [Rank 2] (RECIPE!)
+					i(139569, {	-- Claw of N'Zoth
+						-- ["sourceQuest"] = , TODO
+					}),
 				}),
 				BossOnly(URSOC, {
 					i(141917),	-- Formula: Enchant Neck - Mark of the Heavy Hide [Rank 3] (RECIPE!)
 					i(139635),	-- Vantus Rune Technique: Ursoc [Rank 1] (RECIPE!)
 					i(137747),	-- Vantus Rune Technique: Ursoc [Rank 2] (RECIPE!)
+					i(139557, {	-- Last Breath of the Forest
+						-- ["sourceQuest"] = , TODO
+					}),
+					i(139553, {	-- Mark of the Glade Guardian
+						-- ["sourceQuest"] = , TODO
+					}),
 				}),
 				BossOnly(DRAGONS_NIGHTMARE, {
 					i(136903),	-- Nightmare Whelpling (PET!)
 					i(139638),	-- Vantus Rune Technique: Dragons of Nightmare [Rank 1] (RECIPE!)
 					i(137750),	-- Vantus Rune Technique: Dragons of Nightmare [Rank 2] (RECIPE!)
+					i(139562, {	-- Breath of the Undying Serpent
+						-- ["sourceQuest"] = , TODO
+					}),
 				}),
 				BossOnly(CENARIUS, {
 					i(127934),	-- Recipe: Spirit Cauldron [Rank 2] (RECIPE!)
@@ -301,26 +313,14 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 							105383,	-- Corruptor Tentacle
 						},
 					}),
-					i(139569, {	-- Claw of N'Zoth
-						-- ["sourceQuest"] = , TODO
-					}),
 				}),
 				BossOnly(URSOC, {
 					ach(10753, {	-- Scare Bear
 						["cr"] = 111263,	-- Tur Ragepaw
 					}),
-					i(139557, {	-- Last Breath of the Forest
-						-- ["sourceQuest"] = , TODO
-					}),
-					i(139553, {	-- Mark of the Glade Guardian
-						-- ["sourceQuest"] = , TODO
-					}),
 				}),
 				BossOnly(DRAGONS_NIGHTMARE, {
 					ach(10663),	-- Imagined Dragons World Tour
-					i(139562, {	-- Breath of the Undying Serpent
-						-- ["sourceQuest"] = , TODO
-					}),
 				}),
 				BossOnly(CENARIUS, {
 					ach(10772, {	-- Use the Force(s)
