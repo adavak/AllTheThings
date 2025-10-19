@@ -5524,7 +5524,7 @@ cu(2794,{requireSkill=393})}}),
 q(81464,{isWeekly=1,providers={{"i",224781}},requireSkill=393,g={
 cu(2794,{requireSkill=393})}})}})}}),
 h(-27,{requireSkill=393,g={
-i(111351,{b=1,description="This can drop from any Warlords of Draenor mob after skinning it.",f=200,lvl=10,requireSkill=393}),
+i(111351,{b=1,description="This can drop from any Warlords of Draenor mob after skinning it.",f=200,lvl=10,requireSkill=393,spellID=160321}),
 n(103675,{description="These mobs are only available during a World Quest. They can only be skinned one time, similarly to the Slice of Bacon cooking quests.",requireSkill=393,g={
 i(124116),
 ah(124116,{requireSkill=393,type="i",g={

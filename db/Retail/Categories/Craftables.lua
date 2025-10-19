@@ -7944,7 +7944,7 @@ i(118008,{f=55,lvl=35,spellID=173287}),
 i(109122,{f=55,lvl=35,spellID=156061}),
 i(109120,{f=55,lvl=35,spellID=156050})})}}),
 prof(356,{awp=60003,g={
-i(111356,{b=1,description="Rewarded for fishing",f=200,lvl=10,requireSkill=356,g={
+i(111356,{b=1,description="Rewarded for fishing",f=200,lvl=10,requireSkill=356,spellID=160326,g={
 r(158743,{collectible=false,learnedAt=575,rank=9,requireSkill=356,rwp=80001,u=2}),
 r(271664,{awp=80001,learnedAt=1,requireSkill=356}),
 r(271990,{awp=80001,requireSkill=356}),
@@ -8011,7 +8011,7 @@ prof(182,{awp=60003,g={
 flt(101,{
 p(1432,{crs={95132},itemID=118595,npcID=83594,requireSkill=182,spellID=167394})}),
 sp(2366,{
-i(111350,{b=1,description="This can drop from any herb gathering node on Draenor.",f=200,lvl=10,requireSkill=182,g={
+i(111350,{b=1,description="This can drop from any herb gathering node on Draenor.",f=200,lvl=10,requireSkill=182,spellID=160319,g={
 r(158745,{collectible=false,learnedAt=1,rank=9,requireSkill=182,rwp=80001,u=2}),
 r(193290,{awp=70003,requireSkill=182}),
 r(265829,{awp=80001,requireSkill=182})}}),
@@ -8084,7 +8084,7 @@ s(62136,113131,{bonusID=9145,cost={{"i",202220,1}},f=27,lvl=35}),
 s(62137,113131,{bonusID=9146,cost={{"i",202221,1}},f=27,lvl=35})}),
 flt(50,{
 sp(167950,{
-i(113992,{f=200,requireSkill=773})}),
+i(113992,{f=200,requireSkill=773,spellID=167948})}),
 i(202220,{awp=100005,b=1}),
 i(202221,{awp=100005,b=1})})}}),
 prof(755,{awp=60003,g={
@@ -8255,7 +8255,7 @@ prof(186,{awp=60003,g={
 flt(101,{
 p(1495,{itemID=118919,npcID=85667,requireSkill=186,spellID=170280})}),
 sp(2575,{
-i(111349,{b=1,description="This can drop from any ore gathering node on Draenor.",f=200,lvl=10,requireSkill=186,g={
+i(111349,{b=1,description="This can drop from any ore gathering node on Draenor.",f=200,lvl=10,requireSkill=186,spellID=160315,g={
 r(158754,{collectible=false,learnedAt=1,rank=9,requireSkill=186,rwp=80001,u=2}),
 r(2656,{learnedAt=1,requireSkill=186}),
 r(265847,{awp=80001,requireSkill=186})}}),
@@ -15014,8 +15014,8 @@ s(220368,224405,{b=1,f=27,lvl=70})})}}),
 prof(202,{awp=110002,g={
 h(-26,{
 ah(224640,{providers={{"i",224640},a[222]},type="i",g={
-i(219191,{b=1,f=200,requireSkill=202}),
-i(221968,{f=200,requireSkill=202})}}),
+i(219191,{b=1,f=200,requireSkill=202,spellID=448280}),
+i(221968,{f=200,requireSkill=202,spellID=448282})}}),
 ah(224822,{providers={{"i",224822},{"s",447310}},type="i",g={
 r(447340,{learnedAt=35,requireSkill=202}),
 r(447313,{learnedAt=1,requireSkill=202}),
@@ -15054,7 +15054,7 @@ i(221903,{b=1,f=55,lvl=68,requireSkill=202,spellID=452929,g={
 r(447350,{learnedAt=40,requireSkill=202})}}),
 i(221907,{b=1,f=55,lvl=68,requireSkill=202,spellID=452767,g={
 r(447351,{learnedAt=40,requireSkill=202})}})}})}}),
-i(219192,{b=1,description="NOTE: Some of these require a specific specialization to discover.",f=200,requireSkill=202,g={
+i(219192,{b=1,description="NOTE: Some of these require a specific specialization to discover.",f=200,requireSkill=202,spellID=452422,g={
 r(447325,{description="Requires specialization - Profession Gear to discover",learnedAt=90,requireSkill=202}),
 r(447327,{description="Requires specialization - Profession Gear to discover",learnedAt=90,requireSkill=202}),
 r(447331,{description="Requires specialization - Profession Gear to discover",learnedAt=90,requireSkill=202}),

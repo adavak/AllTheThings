@@ -457,7 +457,7 @@ s(6922,16837,{b=1,c=a[846],f=6,lvl=25}),
 s(6944,16859,{b=1,c=a[367],f=7,lvl=25}),
 i(18879,{b=1,f=52,lvl=25}),
 i(19147,{b=1,f=52,lvl=25}),
-i(16665,{awp=10001,b=1,c=a[510],f=200,lvl=25,rwp=30008,u=2})}}),
+i(16665,{awp=10001,b=1,c=a[510],f=200,lvl=25,rwp=30008,spellID=19801,u=2})}}),
 e(1520,{npcID=11982,g={
 p(1149,{awp=50100,b=1,itemID=93034,npcID=68664,spellID=135259,g={
 crit(22475,{achID=7934,id=7})}}),
@@ -3585,7 +3585,7 @@ s(7315,18394,{b=1,f=6,lvl=17}),
 s(7312,18391,{b=1,f=5,lvl=17}),
 s(7301,18379,{b=1,f=6,lvl=17}),
 i(18370,{b=1,f=53,lvl=17,spellID=454679}),
-i(24345,{c=a[109],f=200,lvl=25,rank=4,rwp=40001,u=2}),
+i(24345,{c=a[109],f=200,lvl=25,rank=4,rwp=40001,spellID=31709,u=2}),
 crit(546,{achID=644,id=3})}}),
 n(14506,{cost={{"i",18663,1},{"i",18629,1},{"i",18670,1}},description="|cff3399ffSTEP 1:|r Warlock with (Dreadsteed of Xoroth) FOS\n|cff3399ffSTEP 2:|r Warlock buys Xorothian Glyphs,  Black Lodestone & J'eevee's Jar from Gorzeeki Wildeyes. (Burning Steppes - 8.2,35.8)\n|cff3399ffSTEP 3:|r Kill Immol'thar.\n|cff3399ffSTEP 4:|r Warlock uses J'eevee's Jar while standing on platform summoning Wheel of the Black March, Doomsday Candle, & Bell of Dethmoora.\n|cff3399ffSTEP 5:|r Kill stuff & use Black Lodestone to keep 3 artifacts active, this requires soul shards to do.\n|cff3399ffSTEP 6:|r Once creatures stop spawning, use Xorothian Glyphs to summon the dreadsteed.\n|cff3399ffSTEP 7:|r Kill Lord Hel'nurath & collect loot.",sourceQuests={7631},u=6,g={
 s(7477,18757,{b=1,f=4,lvl=24,u=6}),
@@ -5850,7 +5850,7 @@ i(13382,{b=1,f=53,lvl=18,spellID=250091})}}),
 e(448,{npcID=10811,g={
 i(65615,{awp=40003}),
 i(14679),
-i(22897,{c=a[908],f=200,lvl=25,rank=7,rwp=40001,u=2}),
+i(22897,{c=a[908],f=200,lvl=25,rank=7,rwp=40001,spellID=28612,u=2}),
 s(4864,13385,{b=1,f=1,lvl=18}),
 s(4865,13386,{b=1,f=3,lvl=18}),
 s(6823,16692,{f=4,lvl=23,rwp=40003,u=2}),
@@ -34810,7 +34810,7 @@ e(966,{npcID=76141}),
 e(967,{npcID=76143}),
 e(968,{npcID=76266,g={
 ach(10081),
-i(127772,{b=1,description="Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",f=200,questID=39184,requireSkill=755})}})}),
+i(127772,{b=1,description="Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",f=200,questID=39184,requireSkill=755,spellID=187754})}})}),
 d(24,{sym={{"sub","tw_instance",476}}})}}),
 inst(556,{awp=60003,coords={{59.55,45.45,543}},maps={620,621},savedInstanceID=1279,g={
 d(101,{difficulties=a[47],g={

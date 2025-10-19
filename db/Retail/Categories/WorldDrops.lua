@@ -3420,17 +3420,17 @@ r(7893,{itemID=6391,learnedAt=145,requireSkill=197}),
 r(8782,{itemID=7091,learnedAt=170,requireSkill=197}),
 r(12059,{itemID=10301,learnedAt=220,requireSkill=197})}),
 cl(11,{
-i(17682,{c=a[31],collectible=false,f=200,lvl=21,rank=1}),
-i(17683,{c=a[31],collectible=false,f=200,lvl=25,rank=2})}),
+i(17682,{c=a[31],collectible=false,f=200,lvl=21,rank=1,spellID=21849}),
+i(17683,{c=a[31],collectible=false,f=200,lvl=25,rank=2,spellID=21850})}),
 cl(8,{
-i(18600,{c=a[208],collectible=false,f=200,lvl=23,rank=1}),
-i(22890,{c=a[208],collectible=false,f=200,lvl=25,rank=5})}),
+i(18600,{c=a[208],collectible=false,f=200,lvl=23,rank=1,spellID=23028}),
+i(22890,{c=a[208],collectible=false,f=200,lvl=25,rank=5,spellID=28609})}),
 cl(5,{
-i(17413,{c=a[126],collectible=false,f=200,lvl=21,rank=1}),
-i(17414,{c=a[126],collectible=false,f=200,lvl=25,rank=2}),
-i(22393,{c=a[126],collectible=false,f=200,lvl=25,rank=1})}),
+i(17413,{c=a[126],collectible=false,f=200,lvl=21,rank=1,spellID=21562}),
+i(17414,{c=a[126],collectible=false,f=200,lvl=25,rank=2,spellID=21564}),
+i(22393,{c=a[126],collectible=false,f=200,lvl=25,rank=1,spellID=27683})}),
 cl(9,{
-i(22891,{c={9},collectible=false,f=200,lvl=25,rank=4})})}),
+i(22891,{c={9},collectible=false,f=200,lvl=25,rank=4,spellID=28610})})}),
 flt(56,{
 i(35562,{awp=20400,coords={{39,45.2,77},{43.5,63,77},{46.1,83,77},a[141]},crs={8956,8958},description="Drops from bears in previously highlevel vanilla zones like Angerclaw bears in Felwood."}),
 i(3173,{coords={{35.4,38.5,48},{73.7,44.8,48}},crs={1186,1225,44638},description="Drops from bears in previously lower level vanilla zones like bears in Loch Modan."}),
@@ -5081,7 +5081,7 @@ r(58525,{b=1,itemID=43510,learnedAt=1,requireSkill=185}),
 r(58521,{b=1,itemID=43508,learnedAt=1,requireSkill=185}),
 r(58512,{b=1,itemID=43507,learnedAt=1,requireSkill=185})}),
 prof(773,{
-i(45912,{f=200,requireSkill=773})}),
+i(45912,{f=200,requireSkill=773,spellID=64323})}),
 prof(755,{
 r(53994,{b=1,crs={28379,28851,29402,30260,30448},itemID=41818,learnedAt=35,requireSkill=755}),
 r(55405,{awp=30008,itemID=41788,learnedAt=440,requireSkill=755}),
@@ -7897,7 +7897,7 @@ i(115287,{b=1,lvl=10,requireSkill=755}),
 i(113103,{b=1,lvl=10,requireSkill=171}),
 i(114984,{b=1,lvl=10,requireSkill=773}),
 i(116173,{b=1,lvl=10,requireSkill=165}),
-i(111387,{b=1,description="This can drop from any Warlords of Draenor mob if you don't already have it learned.",f=200,lvl=10,requireSkill=185,g={
+i(111387,{b=1,description="This can drop from any Warlords of Draenor mob if you don't already have it learned.",f=200,lvl=10,requireSkill=185,spellID=160360,g={
 r(158765,{collectible=false,learnedAt=1,rank=9,requireSkill=185,rwp=80001,u=2}),
 r(264642,{awp=80001,requireSkill=185}),
 r(161002,{learnedAt=1,requireSkill=185}),
