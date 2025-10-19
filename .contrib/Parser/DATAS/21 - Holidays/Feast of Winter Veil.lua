@@ -697,13 +697,19 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["requireSkill"] = COOKING,
 			["groups"] = {
 				crit(6247, {	-- Gingerbread Cookie
+					-- #if ANYCLASSIC
 					["provider"] = { "i", 17197 },	-- Gingerbread Cookie
+					-- #endif
 				}),
 				crit(6249, {	-- Hot Apple Cider
+					-- #if ANYCLASSIC
 					["provider"] = { "i", 34411 },	-- Hot Apple Cider
+					-- #endif
 				}),
 				crit(6248, {	-- Winter Veil Egg Nog
+					-- #if ANYCLASSIC
 					["provider"] = { "i", 17198 },	-- Winter Veil Egg Nog
+					-- #endif
 				}),
 			},
 		})),
@@ -744,6 +750,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["description"] = "If you have obtained both items but you didn't earn the achievement, try throwing both balls to a friend.",
 			-- #endif
 			-- #endif
+			["_doautomation"] = true,
 			["providers"] = {
 				{ "i", 90888 },	-- Special Edition Foot Ball (TOY!)
 				{ "i", 90883 },	-- The Pigskin (TOY!)

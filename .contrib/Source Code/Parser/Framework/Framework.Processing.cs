@@ -2868,7 +2868,7 @@ namespace ATT
                 // Don't incorporate multiple Criteria from an ignored CriteriaTree
                 if (inGameIgnored)
                 {
-                    LogDebug($"Ignored Criteria under Achievement:{achID}");
+                    LogDebug($"Ignored CriteriaTree {criteriaTree.ID} under Achievement:{achID}");
                     return false;
                 }
 
