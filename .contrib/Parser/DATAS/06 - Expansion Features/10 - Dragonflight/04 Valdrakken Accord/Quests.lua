@@ -1059,7 +1059,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(70914, {	-- The Breadth of Dragon Weaponry
 						["provider"] = { "n", 195769 },	-- Weaponsmith Koref
 						["coord"] = { 36.4, 51.7, VALDRAKKEN },
-						-- This became a once-per-account quest, and all items are available from Vendor permanently
 						["sym"] = {{"select","itemID",
 							200456,	-- Valdrakken Armor Opener
 							199825,	-- Valdrakken Belt Knife
@@ -1079,6 +1078,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							199732,	-- Valdrakken Wing Glaive
 							199707,	-- Valdrakken Wingguard Polearm
 						}},
+						-- This became a once-per-account quest, and all items are available from Vendor permanently
 					}),
 					q(72703, {	-- Renown Supplies
 						["provider"] = { "n", 193015 },	-- Unatos
