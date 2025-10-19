@@ -2353,10 +2353,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									i(182296, {	-- Letter of Note, Premier Party Planner
 										["cost"] = { { "c", 1820, 85 } },	-- 85 Infused Ruby
 										["description"] = "This is intended to be purchased on a 'Main' Venthyr character to send to 'Alt' Venthyr characters to get a head-start on Ember Court progress.",
-										["sym"] = {{"select","questID",
-											61493,	-- Dredger Pool Unlocked on Character
-											61494,	-- Guardhouse Unlocked on Character
-										}},
 									}),
 									i(182973, {	-- Leather Dredger Coif
 										["cost"] = { { "c", 1820, 10 } },	-- 10 Infused Ruby

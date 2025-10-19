@@ -1961,6 +1961,7 @@ end");
                     case "_extraSpells":
                     case "_spells":
                     case "_objectiveItems":
+                    case "_spellQuests":
                     case "qis":
                         {
                             MergeIntegerArrayData(item, field, value);

@@ -182,7 +182,7 @@ namespace ATT
 
             AddHandlerAction(ParseStage.ConditionalData, Handler.AlwaysHandle, Objects.AssignFilterID);
 
-            AddHandlerAction(ParseStage.Incorporation, Handler.AlwaysHandle, Incorporate_DataCloning);
+            AddHandlerAction(ParseStage.Incorporation, Handler.AlwaysHandle, Incorporate_Parallel);
 
             if (Objects.MAPID_COORD_SHIFTS.Count > 0)
             {
@@ -1076,44 +1076,18 @@ namespace ATT
                 }
             }
 
-            Items.DetermineSourceID(data);
-
             // Get the filter for this Item
-            Objects.Filters filter = Objects.Filters.Ignored;
             if (data.TryGetValue("f", out long f))
             {
-                if (f >= 0)
-                {
-                    // Parse it!
-                    filter = (Objects.Filters)f;
-                    FILTERS_WITH_REFERENCES[f] = true;
-                }
                 // remove modID/bonusID from things which shouldn't have it
                 if (f >= 56)
                 {
                     data.Remove("modID");
                     data.Remove("bonusID");
                 }
-
-                // special handling for explicitly-defined filterIDs (i.e. not determined by Item data, but rather directly in Source)
-                switch (filter)
-                {
-                    case Objects.Filters.Recipe:
-                        // switch any existing spellID to recipeID
-                        var item = Items.GetNull(data);
-                        if (item != null && item.TryGetValue("spellID", out long spellID) && item.TryGetValue("itemID", out long _))
-                        {
-                            // remove the spellID/modID/bonusID if existing
-                            item.Remove("spellID");
-                            data.Remove("spellID");
-                            item.Remove("modID");
-                            data.Remove("modID");
-                            item.Remove("bonusID");
-                            data.Remove("bonusID");
-                        }
-                        break;
-                }
             }
+
+            Items.DetermineSourceID(data);
 
             CaptureForSOURCED(data);
             CaptureDebugDBData(data);
@@ -1350,6 +1324,47 @@ namespace ATT
 
             // Capture the Ensemble for Debug output
             CaptureDebugDBData(data);
+        }
+
+        private static void Incorporate_Parallel(IDictionary<string, object> data)
+        {
+            Incorporate__spellQuests(data);
+            Incorporate_DataCloning(data);
+        }
+
+        private static void Incorporate__spellQuests(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("_spellQuests", out List<object> spellQuests))
+                return;
+
+            // determine the best-fit questID for this data
+            List<long> possibleQuestIDs = spellQuests.AsTypedEnumerable<long>().ToList();
+            possibleQuestIDs.Sort((a, b) =>
+            {
+                // - ideally not repeatable via a spell clear quest
+                int ascore = WagoData.EnumerateForQuestID<SpellEffect>(a).Where(se => se.IsClearQuest()).Any() ? 5 : 0;
+                int bscore = WagoData.EnumerateForQuestID<SpellEffect>(b).Where(se => se.IsClearQuest()).Any() ? 5 : 0;
+
+                // - not already sourced
+                ascore += TryGetSOURCED("questID", a, out _) ? 10 : 0;
+                bscore += TryGetSOURCED("questID", b, out _) ? 10 : 0;
+
+                var compare = ascore.CompareTo(bscore);
+
+                // if scores are equal, sort by questID ascending
+                return compare != 0 ? compare : a.CompareTo(b);
+            });
+
+            // try assigning the best-match quest if it's not already Sourced
+            long questID = possibleQuestIDs[0];
+            if (!Assign_QuestProviderFromData(questID, data))
+                CheckAndAssignQuestID(questID, data);
+
+            // the rest try assign the data as provider only
+            foreach (long possibleQuestID in possibleQuestIDs.Skip(1))
+            {
+                Assign_QuestProviderFromData(possibleQuestID, data);
+            }
         }
 
         private static void RemoveWrongFilterSources(IDictionary<string, object> data, long ensembleID, List<IDictionary<string, object>> symlinkSources, List<IDictionary<string, object>> rawSources)
@@ -1636,6 +1651,11 @@ namespace ATT
                             break;
                     }
                 }
+            }
+
+            if (data.TryGetValue("f", out long f) && f >= 0)
+            {
+                FILTERS_WITH_REFERENCES[f] = true;
             }
         }
 
@@ -2855,6 +2875,14 @@ namespace ATT
                 var childTrees = criteriaTree.EnumerateChildren().ToList();
                 if (childTrees.Count > 0)
                 {
+                    // If an Achievement has a parent CriteriaTree which requires some arbitrary partial set of its Criterias to be completed,
+                    // add a debug message that this Achievement may simply need to be a partial_achievement instead for simplicity
+                    // TODO: this works technically but there's way more results than useful. Perhaps only report at the end based
+                    // whether matching Criteria has been used under another Achievement
+                    //if (criteriaTree.Operator == 8 && criteriaTree.Amount > 0 && criteriaTree.Amount < childTrees.Count)
+                    //{
+                    //    LogDebug($"INFO: Achievement {achID} has a CriteriaTree requiring {criteriaTree.Amount} out of {childTrees.Count} Criterias. Perhaps it should be an `achpart` instead?", data);
+                    //}
 
                     if (criteriaTree.IsAllianceOnlyFlags())
                     {
@@ -3369,6 +3397,18 @@ namespace ATT
                     }
                 }
             }
+
+            // Finish incorporation of multiple QuestIDs
+            if (data.TryGetValue("_spellQuests", out List<object> spellQuests))
+            {
+                // Only 1 QuestID, just check & assign it directly
+                if (spellQuests.Count == 1 && spellQuests.First().TryConvert(out long assignQuestID))
+                {
+                    CheckAndAssignQuestID(assignQuestID, data);
+                    data.Remove("_spellQuests");
+                }
+                // multiple will be handled in Incorporate action to ensure there is as much Sourced as possible
+            }
         }
 
         private static void Incorporate_SpellEffect(IDictionary<string, object> data, SpellEffect spellEffect)
@@ -3400,46 +3440,20 @@ namespace ATT
                         {
                             matchingSpellEffects.Add(spellMatches);
                         }
+
                         if (matchingSpellEffects.Count > 1)
                         {
                             //LogDebug($"INFO: Ignored assignment of data 'questID' {questID} due to multiple SpellEffect use", data);
                             // assign this data as a provider of the questID instead since this data links to multiple questIDs
                             allowMergeQuestID = !Assign_QuestProviderFromData(questID, data);
                         }
-                        else
-                        {
-                            // if QuestID is already Sourced elsewhere in ATT, then we need to check what it is sourced as
-                            if (TryGetSOURCED("questID", questID, out var sourcedQuests))
-                            {
-                                // warn if this Quest is already Sourced in Unsorted
-                                if (sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedGroup))
-                                {
-                                    LogWarn($"Quest {questID} assignment to data is also currently Sourced in Unsorted. Remove Unsorted group so the QuestID is not duplicated", data);
-                                }
-                                // else if this quest is actually sourced as a Quest...
-                                else if (sourcedQuests.TryGetAnyMatchingGroup(q => q.TryGetValue("questID", out long groupQuestID) && groupQuestID == questID, out matchedGroup))
-                                {
-                                    // if the QuestID is already on an Item then just assign again
-                                    if (matchedGroup.ContainsKey("_modItemID"))
-                                    {
-                                        // no log
-                                    }
-                                    else
-                                    {
-                                        LogDebug($"INFO: Ignoring Quest {questID} assignment to data since it is explicitly Sourced", data);
-                                        allowMergeQuestID = false;
-                                    }
-                                }
-                            }
-                        }
                     }
 
                     if (allowMergeQuestID)
                     {
-                        Objects.Merge(data, "questID", questID);
-                        LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
-                        Objects.ReferenceQuestIDs(data);
-                        TrackIncorporationData(data, "questID", questID);
+                        // we may end up with multiple quests related to this data, so collect all the eligible ones and consolidate later
+                        Objects.Merge(data, "_spellQuests", questID);
+                        LogDebug($"INFO: Assigned data '_spellQuests' {questID} due to Complete Quest SpellEffect for SpellID {spellID}", data);
                     }
                 }
                 else if (questID != existingQuestID)
@@ -3465,9 +3479,10 @@ namespace ATT
                     data["spellID"] = spellEffect.SpellID;
                 }
             }
-            if (spellEffect.IsApplyAura())
+            if (spellEffect.IsApplyAura() || spellEffect.IsTriggerSpell())
             {
-                // if a spell effect applies an aura which is itself another spell, we can incorporate that spell as well
+                // if a spell effect applies an aura which is itself another spell / triggers another spell directly
+                // we can incorporate that spell as well
                 // ex: item: 132530 -> spell: 200146 -> aura_spell: 200155 -> effect: quest-40736
                 long triggerSpellID = spellEffect.EffectTriggerSpell;
 
@@ -3485,6 +3500,42 @@ namespace ATT
                         Incorporate_SpellEffect(data, triggeredEffect);
                     }
                 }
+            }
+        }
+
+        private static void CheckAndAssignQuestID(long questID, IDictionary<string, object> data)
+        {
+            bool allowMergeQuestID = true;
+            // if QuestID is already Sourced elsewhere in ATT, then we need to check what it is sourced as
+            if (TryGetSOURCED("questID", questID, out var sourcedQuests))
+            {
+                // warn if this Quest is already Sourced in Unsorted
+                if (sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedGroup))
+                {
+                    LogWarn($"Quest {questID} assignment to data is also currently Sourced in Unsorted. Remove Unsorted group so the QuestID is not duplicated", data);
+                }
+                // else if this quest is actually sourced as a Quest...
+                else if (sourcedQuests.TryGetAnyMatchingGroup(q => q.TryGetValue("questID", out long groupQuestID) && groupQuestID == questID, out matchedGroup))
+                {
+                    // if the QuestID is already on an Item then just assign again
+                    if (matchedGroup.ContainsKey("_modItemID"))
+                    {
+                        // no log
+                    }
+                    else
+                    {
+                        LogDebug($"INFO: Ignoring Quest {questID} assignment to data since it is explicitly Sourced", data);
+                        allowMergeQuestID = false;
+                    }
+                }
+            }
+
+            if (allowMergeQuestID)
+            {
+                Objects.Merge(data, "questID", questID);
+                LogDebug($"INFO: Assigned data 'questID' {questID}", data);
+                Objects.ReferenceQuestIDs(data);
+                TrackIncorporationData(data, "questID", questID);
             }
         }
 
@@ -3551,12 +3602,27 @@ namespace ATT
                 //}
                 //else
                 //{
+                bool providerAssigned = false;
+                ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objData, out object dataKeyValue);
+
                 foreach (var sourcedQuestData in sourcedQuests)
                 {
+                    // don't apply provider to itself
+                    if (ReferenceEquals(sourcedQuestData, data))
+                        continue;
+
+                    // or other versions of itself
+                    if (ObjectData.TryGetMostSignificantObjectType(sourcedQuestData, out ObjectData sourceobjData, out object sourceKeyValue))
+                    {
+                        if (sourceobjData.ObjectType == objData.ObjectType && sourceKeyValue.Equals(dataKeyValue))
+                            continue;
+                    }
+
                     if (!sourcedQuestData.ContainsAnyKey("_unsorted", "_nyi"))
                     {
                         Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
                         LogDebug($"INFO: Assigning {providerType}:{objKeyValue} as Provider of 'questID' {questID}", sourcedQuestData);
+                        providerAssigned = true;
                     }
                     else
                     {
@@ -3576,11 +3642,12 @@ namespace ATT
                                 Objects.MergeField_provider(sourcedQuestData, new List<object> { providerType, objKeyValue });
                                 break;
                         }
+                        providerAssigned = true;
                     }
                 }
                 //}
 
-                return true;
+                return providerAssigned;
             }
             else
             {
