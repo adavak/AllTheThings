@@ -950,7 +950,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["groups"] = {
 							o(403567, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {		-- Cracked Argent Dawn Commission
 								["description"] = "Can be found at the top of the southwest bone pile in Rattlegore's room. From the Great Ossuary, you can drop down from the southwest hole leading to Rattlegore's room and look down, it's a small object on the pile.\n\nThis is not visible if your character already has an Argent Dawn Commission or a Rune/Seal of the Dawn!",
-								["mapID"] = 306,
+								["maps"] = { 306 },
 								["groups"] = {
 									i(206372),	-- Cracked Argent Dawn Commission
 								},

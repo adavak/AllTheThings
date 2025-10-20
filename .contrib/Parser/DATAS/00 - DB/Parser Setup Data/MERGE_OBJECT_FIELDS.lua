@@ -16,11 +16,9 @@ MERGE_OBJECT_FIELDS = {
 -- but dictates the allowed fields from any given Object which may be merged into matching
 -- Objects elsewhere
 MERGE_FROM_OBJECT_FIELDS = {
-	spellID = { "type","learnedAt" },
-	recipeID = { "requireSkill","learnedAt" },
-	speciesID = { "pb","crs" },
+	recipeID = { "requireSkill" },
+	speciesID = { "pb" },
 	instanceID = { "isRaid" },
 	mapID = { "maps" },
-	questID = { "type","sourceQuests","altQuests","isBreadcrumb","c","r","races","lvl","OnTooltip","_type","_area","_category","_text","name","description","nextQuests","isDaily","isMonthly","isYearly","repeatable" },
-	itemID = { "spellID" },
+	questID = { "sourceQuests" }
 }
