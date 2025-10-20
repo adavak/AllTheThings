@@ -32601,7 +32601,7 @@ e(1438,{npcID=91331,g={
 ach(10073,{
 crit(28496,{achID=10149,id=13})}),
 ach(9680,{rwp=70003,u=2}),
-i(127785,{b=1,lvl=40,minReputation={1849,0},spellID=187958,u=2})}})}}),
+i(127785,{b=1,lvl=40,spellID=187958,u=2})}})}}),
 d(14,{
 h(-45,{
 q(39502,{description="Finishing this quest will grant you immediate access to the Destructor's Rise on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",DisablePartySync=1,lc={1,"questID",39504,"questID",39505},lvl=40,qgs=a[990],sourceQuests={39499},g={
@@ -40576,6 +40576,8 @@ h(-62,{
 q(42723,{isWorldQuest=1,g={
 crit(34019,{achID=11189,awp=70003,id=398})}}),
 q(42755,{isWorldQuest=1,g={
+o(251287,{
+i(138398)}),
 crit(34021,{achID=11189,awp=70003,id=400})}}),
 q(42746,{isWorldQuest=1,g={
 crit(34020,{achID=11189,awp=70003,id=399})}}),
@@ -57754,12 +57756,12 @@ q(89025,{lvl=70,minReputation=a[459],qgs=a[427]}),
 q(89251,{lvl=70,minReputation={2685,12},qgs={235616}}),
 q(89021,{lvl=70,minReputation={2685,13},qgs=a[427]}),
 q(89029,{lvl=70,minReputation=a[460],qgs=a[427],g={
-i(237578,{b=1,minReputation=a[459]})}}),
+i(237578,{b=1,minReputation=a[460]})}}),
 q(89022,{lvl=70,minReputation=a[460],qgs=a[427]}),
 q(89026,{lvl=70,minReputation={2685,18},qgs=a[427]}),
 q(89023,{lvl=70,minReputation={2685,19},qgs=a[427]}),
 q(85471,{minReputation=a[462],qgs=a[427],repeatable=1,g={
-i(232463,{minReputation={2653,20}})}})}),
+i(232463,{minReputation=a[462]})}})}),
 h(-56,{
 o(505248,{description="Interact with for a 10% chance for a free Crystalized Augment Rune.\n\nAt renown 14, you are guaranteed at least one.",isWeekly=1,minReputation=a[461],questID=89350,g={
 i(224572,{f=55,lvl=80,spellID=453250})}})}),
@@ -58137,7 +58139,7 @@ crit(71700,{achID=41226})}}),
 e(2644,{npcID=228458,g={
 s(230297,232526,{b=1,f=24,lvl=80,providers={{"i",232805}},spellID=471063}),
 s(230430,232805,{b=1,f=24,lvl=80,providers={{"i",232526}},spellID=471063}),
-i(237578,{b=1,description="Has a small chance dropping as Personal Loot from One-Armed Bandit once you have reached Renown 15 with the Gallagio Loyalty Rewards Club.",minReputation=a[459]}),
+i(237578,{b=1,description="Has a small chance dropping as Personal Loot from One-Armed Bandit once you have reached Renown 15 with the Gallagio Loyalty Rewards Club.",minReputation=a[460]}),
 crit(71701,{achID=41222}),
 crit(71701,{achID=41227})}}),
 e(2645,{npcID=229953,g={

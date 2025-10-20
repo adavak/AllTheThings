@@ -55,7 +55,7 @@ namespace ATT.DB
         /// </summary>
         /// <typeparam name="T">The class to get.</typeparam>
         /// <returns>The cached data container.</returns>
-        public static Dictionary<long, T> GetAll<T>() where T : IDBType
+        public static IDictionary<long, T> GetAll<T>() where T : IDBType
         {
             return Cache<T>.CachedData;
         }
@@ -1028,7 +1028,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="id">The id of the object to retrieve localized data for.</param>
         /// <returns>The localized property data.</returns>
-        public static Dictionary<string, Dictionary<string, object>> GetLocalizedData<T>(long id) where T : IDBType
+        public static ConcurrentDictionary<string, ConcurrentDictionary<string, object>> GetLocalizedData<T>(long id) where T : IDBType
         {
             return Cache<T>.GetLocalizedData(id);
         }
@@ -1038,7 +1038,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="o">The object to retrieve localized data for.</param>
         /// <returns>The localized property data.</returns>
-        public static Dictionary<string, Dictionary<string, object>> GetLocalizedData<T>(this T o) where T : IDBType
+        public static ConcurrentDictionary<string, ConcurrentDictionary<string, object>> GetLocalizedData<T>(this T o) where T : IDBType
         {
             return Cache<T>.GetLocalizedData(o);
         }
@@ -1116,7 +1116,7 @@ namespace ATT.DB
             /// <summary>
             /// All of the cached data for this type.
             /// </summary>
-            public static readonly Dictionary<long, T> CachedData = new Dictionary<long, T>();
+            public static readonly ConcurrentDictionary<long, T> CachedData = new ConcurrentDictionary<long, T>();
 
             /// <summary>
             /// Get exportable data from the object id.
@@ -1191,7 +1191,7 @@ namespace ATT.DB
                         }
                         */
                     }
-                    if (!CachedData.ContainsKey(obj.ID)) CachedData[obj.ID] = obj;
+                    CachedData.TryAdd(obj.ID, obj);
                     StoreLocalizedData(obj, locale);
                 }
             }
@@ -1200,7 +1200,8 @@ namespace ATT.DB
             /// <summary>
             /// The static container of localized data for this type.
             /// </summary>
-            private static readonly Dictionary<long, Dictionary<string, Dictionary<string, object>>> CachedLocalizedPropertyData = new Dictionary<long, Dictionary<string, Dictionary<string, object>>>();
+            private static readonly ConcurrentDictionary<long, ConcurrentDictionary<string, ConcurrentDictionary<string, object>>> CachedLocalizedPropertyData
+                = new ConcurrentDictionary<long, ConcurrentDictionary<string, ConcurrentDictionary<string, object>>>();
 
             /// <summary>
             /// Check localized property data from the object.
@@ -1223,9 +1224,9 @@ namespace ATT.DB
             /// </summary>
             /// <param name="id">The id.</param>
             /// <returns>The localized property data for the object id.</returns>
-            public static Dictionary<string, Dictionary<string, object>> GetLocalizedData(long id)
+            public static ConcurrentDictionary<string, ConcurrentDictionary<string, object>> GetLocalizedData(long id)
             {
-                return CachedLocalizedPropertyData.TryGetValue(id, out Dictionary<string, Dictionary<string, object>> result) ? result : null;
+                return CachedLocalizedPropertyData.TryGetValue(id, out ConcurrentDictionary<string, ConcurrentDictionary<string, object>> result) ? result : null;
             }
 
             /// <summary>
@@ -1233,9 +1234,9 @@ namespace ATT.DB
             /// </summary>
             /// <param name="o">The object.</param>
             /// <returns>The localized property data for the object.</returns>
-            public static Dictionary<string, Dictionary<string, object>> GetLocalizedData(T o)
+            public static ConcurrentDictionary<string, ConcurrentDictionary<string, object>> GetLocalizedData(T o)
             {
-                return CachedLocalizedPropertyData.TryGetValue(o.ID, out Dictionary<string, Dictionary<string, object>> result) ? result : null;
+                return CachedLocalizedPropertyData.TryGetValue(o.ID, out ConcurrentDictionary<string, ConcurrentDictionary<string, object>> result) ? result : null;
             }
 
             /// <summary>
@@ -1246,26 +1247,14 @@ namespace ATT.DB
             public static void StoreLocalizedData(T o, string locale)
             {
                 if (LocalizedProperties == null) return;
-                if (!CachedLocalizedPropertyData.TryGetValue(o.ID, out Dictionary<string, Dictionary<string, object>> result))
-                {
-                    CachedLocalizedPropertyData[o.ID] = result = new Dictionary<string, Dictionary<string, object>>();
-                }
+                var result = CachedLocalizedPropertyData.GetOrAdd(o.ID, _ => new ConcurrentDictionary<string, ConcurrentDictionary<string, object>>());
                 foreach (var property in LocalizedProperties)
                 {
                     var value = (string)property.GetValue(o);
                     if (!string.IsNullOrWhiteSpace(value))
                     {
-                        if (result.TryGetValue(property.Name, out Dictionary<string, object> localizedData))
-                        {
-                            if (!localizedData.ContainsKey(locale)) localizedData[locale] = value.Trim();
-                        }
-                        else
-                        {
-                            result[property.Name] = new Dictionary<string, object>
-                                {
-                                    { locale, value.Trim() }
-                                };
-                        }
+                        var localizedData = result.GetOrAdd(property.Name, _ => new ConcurrentDictionary<string, object>());
+                        localizedData.TryAdd(locale, value.Trim());
                     }
                 }
             }
@@ -1280,26 +1269,14 @@ namespace ATT.DB
                 if (LocalizedProperties == null) return;
                 foreach (var updatedWagoDataPair in db)
                 {
-                    if (!CachedLocalizedPropertyData.TryGetValue(updatedWagoDataPair.Key, out Dictionary<string, Dictionary<string, object>> result))
-                    {
-                        CachedLocalizedPropertyData[updatedWagoDataPair.Key] = result = new Dictionary<string, Dictionary<string, object>>();
-                    }
+                    var result = CachedLocalizedPropertyData.GetOrAdd(updatedWagoDataPair.Key, _ => new ConcurrentDictionary<string, ConcurrentDictionary<string, object>>());
                     foreach (var property in LocalizedProperties)
                     {
                         var value = (string)property.GetValue(updatedWagoDataPair.Value);
                         if (!string.IsNullOrWhiteSpace(value))
                         {
-                            if (result.TryGetValue(property.Name, out Dictionary<string, object> localizedData))
-                            {
-                                localizedData[locale] = value.Trim();
-                            }
-                            else
-                            {
-                                result[property.Name] = new Dictionary<string, object>
-                                    {
-                                        { locale, value.Trim() }
-                                    };
-                            }
+                            var localizedData = result.GetOrAdd(property.Name, _ => new ConcurrentDictionary<string, object>());
+                            localizedData.TryAdd(locale, value.Trim());
                         }
                     }
                 }

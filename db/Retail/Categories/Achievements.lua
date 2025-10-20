@@ -4259,7 +4259,7 @@ ach(2796,{awp=30002,e=7,providers={{"i",37571},{"i",37599}}}),
 ach(18579,{awp=100107,e=7}),
 ach(41212,{awp=110200,e=7})}),
 achcat(158,{
-ach(283,{awp=30002,e=16}),
+ach(283,{awp=30002,description="You can only get transformed by party members of your faction.",e=16}),
 ach(284,{awp=30002,e=16}),
 ach(288,{awp=30002,cost={{"i",33226,3}},description="Eat 2-10 Tricky Treats quickly to trigger the debuff. Results may vary.",e=16}),
 ach(289,{awp=30002,e=16,maps={1,18,27,37,94,97}}),

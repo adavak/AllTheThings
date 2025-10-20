@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -11,6 +12,7 @@ namespace ATT.DB
     [AttributeUsage(AttributeTargets.Class, Inherited = true)]
     public class DataModuleAttribute : Attribute
     {
+        private static object _lock = new object();
         public string Name;
         public DataModuleAttribute([CallerMemberName] string name = null)
         {
@@ -18,15 +20,15 @@ namespace ATT.DB
         }
 
         #region Data Caching
-        private static Dictionary<string, Type> CachedDataModules = null;
+        private static ConcurrentDictionary<string, Type> CachedDataModules = null;
 
         /// <summary>
         /// Get all of the data modules that implement this attribute.
         /// </summary>
         /// <returns>An array of the data modules.</returns>
-        private static Dictionary<string, Type> BuildDataModules()
+        private static ConcurrentDictionary<string, Type> BuildDataModules()
         {
-            var dictionary = new Dictionary<string, Type>();
+            var dictionary = new ConcurrentDictionary<string, Type>();
             var parsedType = typeof(DataModuleAttribute);
             foreach (Type type in Assembly.GetAssembly(parsedType).GetTypes())
             {
@@ -42,9 +44,12 @@ namespace ATT.DB
         /// Get all of the data modules that implement this attribute.
         /// </summary>
         /// <returns>An array of the data modules.</returns>
-        public static Dictionary<string, Type> GetAllDataModules()
+        public static ConcurrentDictionary<string, Type> GetAllDataModules()
         {
-            return CachedDataModules ?? (CachedDataModules = BuildDataModules());
+            lock (_lock)
+            {
+                return CachedDataModules ?? (CachedDataModules = BuildDataModules());
+            }
         }
         #endregion
     }
