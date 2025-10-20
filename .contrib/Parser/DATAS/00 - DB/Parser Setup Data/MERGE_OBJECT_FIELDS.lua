@@ -20,5 +20,5 @@ MERGE_FROM_OBJECT_FIELDS = {
 	speciesID = { "pb" },
 	instanceID = { "isRaid" },
 	mapID = { "maps" },
-	questID = { "sourceQuests" }
+	questID = { "sourceQuests", "isBreadcrumb", "nextQuests" }
 }
