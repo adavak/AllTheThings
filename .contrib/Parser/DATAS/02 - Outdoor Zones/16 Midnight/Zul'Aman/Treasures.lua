@@ -32,13 +32,11 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					i(259112),	-- Housing Dye: Dark Gold
 				},
 			}),
-			--[[ 
-			o(XXXX, {	-- Stonewash Supplies
+			--[[o(XXXX, {	-- Stonewash Supplies
 				["g"] = {
 					--there is no loot
 				},
-			}),
-			]]--
+			}),]]--
 		}),
 	}),
 }));

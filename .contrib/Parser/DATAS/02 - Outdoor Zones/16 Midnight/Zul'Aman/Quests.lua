@@ -449,8 +449,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 			}),
 			--Sojourner
-			header(HEADER.Achievement, 61452, {	-- Sojourner of Zul'Aman
-				header(HEADER.AchCriteria, 61452.01 {	-- Healing the Spirit
+			header(HEADERS.Achievement, 61452, {	-- Sojourner of Zul'Aman
+				header(HEADERS.AchCriteria, 61452.01 {	-- Healing the Spirit
 					q(91206, {	-- Loa Disturbance
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254665 },	-- Elder Doru
@@ -503,7 +503,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 38.8, 44.8, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.02 {	-- [PH] Logging Camp
+				header(HEADERS.AchCriteria, 61452.02 {	-- [PH] Logging Camp
 					q(88986, {	-- Blind The Bandits
 						--["sourceQuests"] = { XXX },	-- ??
 						["provider"] = { "n", 240521 },	-- Woodcrafter Azai
@@ -546,7 +546,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.03 {	-- Love Triangle
+				header(HEADERS.AchCriteria, 61452.03 {	-- Love Triangle
 					q(89231, {	-- A Fighter Not a Lover
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 240977 },	-- Zak'kash
@@ -575,7 +575,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 44.4, 65.7, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.04 {	-- Sorrowing Kin
+				header(HEADERS.AchCriteria, 61452.04 {	-- Sorrowing Kin
 					q(89565, {	-- The Path of Mourning
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 242014 },	-- Chana
@@ -624,7 +624,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 247425 },	-- Chana (mobileNPC)
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.05 {	-- [TODO: missing name, some quest in criteria wrapper could be not from it]
+				header(HEADERS.AchCriteria, 61452.05 {	-- [TODO: missing name, some quest in criteria wrapper could be not from it]
 					q(90481, {	-- I Have a Permit
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 242383 },	-- Seeker Crikkash
@@ -684,7 +684,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 47.3, 24.4, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.06 {	-- The Voice of Nalorakk
+				header(HEADERS.AchCriteria, 61452.06 {	-- The Voice of Nalorakk
 					q(91813, {	-- The Spiritpaw
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 248657 },	-- Pel'na Torntusk
@@ -727,7 +727,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 41.3, 80.1, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.07 {	-- Reclaiming de Honor
+				header(HEADERS.AchCriteria, 61452.07 {	-- Reclaiming de Honor
 					q(92492, {	-- Honorin' de Sacrifice
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245664 },	-- Lilaju
@@ -787,7 +787,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 22.6, 63.9, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.08 {	-- Vengeance for Tolbani
+				header(HEADERS.AchCriteria, 61452.08 {	-- Vengeance for Tolbani
 					q(91069, {	-- Vengeance for Tolbani
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
@@ -818,9 +818,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.09 {	-- Loa of Murlocs
+				header(HEADERS.AchCriteria, 61452.09 {	-- Loa of Murlocs
 				}),
-				header(HEADER.AchCriteria, 61452.10 {	-- No Fear
+				header(HEADERS.AchCriteria, 61452.10 {	-- No Fear
 					q(92450, {	-- Growing Up is Hard
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 251258 },	-- Ani
@@ -853,7 +853,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 44.6, 60.5, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.11 {	-- Bitter Honor
+				header(HEADERS.AchCriteria, 61452.11 {	-- Bitter Honor
 					q(93093, {	-- Gnarldin Trophies
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 253997 },	-- Kel'venko
@@ -893,9 +893,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.12 {	-- The Capybara Loa
+				header(HEADERS.AchCriteria, 61452.12 {	-- The Capybara Loa
 				}),
-				header(HEADER.AchCriteria, 61452.13 {	-- A Venomous History
+				header(HEADERS.AchCriteria, 61452.13 {	-- A Venomous History
 					q(91406, {	-- Far from the Hinterlands
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
@@ -971,17 +971,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 38.7, 22.7, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.14 {	-- [PH] Hub Culture
+				header(HEADERS.AchCriteria, 61452.14 {	-- [PH] Hub Culture
 					q(93051, {	-- The Final Exam
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254136 },	-- Ri'kari
 						["coord"] = { 44.0, 65.7, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADER.AchCriteria, 61452.15 {	-- Something Vile This Way Comes
+				header(HEADERS.AchCriteria, 61452.15 {	-- Something Vile This Way Comes
 
 				}),
-				header(HEADER.AchCriteria, 61452.16 {	-- River-Walkers of the Prowl
+				header(HEADERS.AchCriteria, 61452.16 {	-- River-Walkers of the Prowl
 					q(93257, {	-- Revantusk at Risk
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254488 },	-- Jak'zari
