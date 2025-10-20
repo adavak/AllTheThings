@@ -2,6 +2,7 @@
 using Csv;
 using System;
 using System.Collections;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -130,7 +131,7 @@ namespace ATT.DB
         /// <summary>
         /// The cached generic methods used by the default LoadFromCSV function.
         /// </summary>
-        private static readonly Dictionary<string, MethodInfo> CachedGenericMethods = new Dictionary<string, MethodInfo>();
+        private static readonly ConcurrentDictionary<string, MethodInfo> CachedGenericMethods = new ConcurrentDictionary<string, MethodInfo>();
 
         /// <summary>
         /// Attempt to load the data from the CSV.
@@ -150,11 +151,11 @@ namespace ATT.DB
             if (DataModuleAttribute.GetAllDataModules().TryGetValue(type, out var module))
             {
                 // Attempt to acquire the generic cache for the given type and then load the data module into it.
-                if (!CachedGenericMethods.TryGetValue(type, out MethodInfo method))
+                MethodInfo method = CachedGenericMethods.GetOrAdd(type, t =>
                 {
                     // Build a method with the specific type argument you're interested in
-                    CachedGenericMethods[type] = method = typeof(Cache<>).MakeGenericType(module).GetMethod("LoadFromCSV", BindingFlags.Public | BindingFlags.Static);
-                }
+                    return typeof(Cache<>).MakeGenericType(module).GetMethod("LoadFromCSV", BindingFlags.Public | BindingFlags.Static);
+                });
                 method.Invoke(null, new object[] { File.ReadAllText(path), SupportedLocales[locale] });
             }
         }

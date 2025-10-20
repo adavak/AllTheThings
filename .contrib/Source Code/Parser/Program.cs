@@ -323,7 +323,14 @@ namespace ATT
                             }
                         }
                         filenames.Sort(StringComparer.InvariantCulture);
-                        foreach (var filename in filenames) WagoData.LoadFromCSV(filename);
+                        if (Debugger.IsAttached)
+                        {
+                            foreach (var filename in filenames) WagoData.LoadFromCSV(filename);
+                        }
+                        else
+                        {
+                            filenames.AsParallel().ForAll(filename => WagoData.LoadFromCSV(filename));
+                        }
 
                         if (Errored)
                         {
