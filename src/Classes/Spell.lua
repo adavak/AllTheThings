@@ -20,6 +20,7 @@ local IsSpellKnown, GetNumSpellTabs, GetSpellTabInfo, IsSpellKnownOrOverridesKno
 	= app.WOWAPI.IsSpellKnown, GetNumSpellTabs, GetSpellTabInfo, app.WOWAPI.IsSpellKnownOrOverridesKnown
 
 local SpellQuestLinks = {
+	-- double check added Mount spells in Mount.lua [PerCharacterMountSpells/AccountWideMountSpells]
 	[390631] = 66444,	-- Ottuk Taming
 	[241857] = 46319,	-- Lunarwing
 	[231437] = 46319,	-- Lunarwing
