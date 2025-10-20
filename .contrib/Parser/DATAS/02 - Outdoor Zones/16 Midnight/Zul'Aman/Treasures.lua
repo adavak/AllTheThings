@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	m(ZULAMAN_MID, {
 		n(TREASURES, {
 			o(582179, {	-- Twilight Ordinance
-				["coord"] = { 25.4, 64.2,, ZULAMAN_MID },
+				["coord"] = { 25.4, 64.2, ZULAMAN_MID },
 				--["questID"] = XXXX,
 			}),
 			o(539051, {	-- Mrruk's Mangy Trove
