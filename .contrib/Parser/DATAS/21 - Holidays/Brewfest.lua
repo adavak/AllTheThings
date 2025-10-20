@@ -728,7 +728,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						-- #endif
 						{
 							["name"] = "Coren Special Loot (Daily Accountwide)",
-							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting these special daily items.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Keg-Shaped Treasure Chest.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
+							["description"] = "This item is only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.\n\nYou can increase your chances by using additional (starter edition) licenses on your Battle.net account. These allow you to queue with up to 5 characters at the same time, by logging into multiple instances of the game simultaneously.",
 							-- #if AFTER 11.2.0
 							["timeline"] = { ADDED_11_2_0 },
 							-- #else

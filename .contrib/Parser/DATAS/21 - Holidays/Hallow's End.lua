@@ -1040,7 +1040,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(211271, {	-- Arfus (PET)
 						["timeline"] = { ADDED_10_1_7 },
-						["description"] = "This item only has a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting this special daily item.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Loot-Filled Pumpkin.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
+						["description"] = "This item is only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.\n\nYou can increase your chances by using additional (starter edition) licenses on your Battle.net account. These allow you to queue with up to 5 characters at the same time, by logging into multiple instances of the game simultaneously.",
 					}),
 					i(33292, {	-- Hallowed Helm
 						["timeline"] = { ADDED_2_2_2 },
@@ -1081,7 +1081,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(247721, {	-- The Headless Horseman's Ghoulish Charger (MOUNT!)
 						["timeline"] = { ADDED_11_2_5 },
-						["description"] = "This item only has a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting this special daily item.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Loot-Filled Pumpkin.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
+						["description"] = "This item is only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.\n\nYou can increase your chances by using additional (starter edition) licenses on your Battle.net account. These allow you to queue with up to 5 characters at the same time, by logging into multiple instances of the game simultaneously.",
 					}),
 					i(247966, {	-- The Horseman's Ghoulish Breastplate
 						["timeline"] = { ADDED_11_2_5 },
@@ -1148,7 +1148,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(208680, {	-- Windborne Velocidrake: Hallow's End Armor (MM!)
 						["timeline"] = { ADDED_10_1_7 },
-						["description"] = "This item only has a chance to drop on your first kill per day for your warband/entire B.Net.\n\nUsing multiple accounts, even free trial accounts with a Level 10 Allied Race Character, greatly increases your chance of getting this special daily item.\n\nPut your, up to 5, accounts into a group and for the first kill of the day every account receives the buffed Loot-Filled Pumpkin.\n\nNot only is your chance 5 times higher, but there is also a bad-luck protection which now grows 5 times faster too.",
+						["description"] = "This item is only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.\n\nYou can increase your chances by using additional (starter edition) licenses on your Battle.net account. These allow you to queue with up to 5 characters at the same time, by logging into multiple instances of the game simultaneously.",
 					}),
 				},
 			}),
