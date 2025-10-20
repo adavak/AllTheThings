@@ -150,18 +150,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(FLIGHT_PATHS, {
 				fp(370, {	-- Ethel Rethor, Desolace
-					["cr"] = 35562,	-- Korrah's Hippogryph <Flight Master>
+					["cr"] = 35562,	-- Korrah's Hippogryph <Flight Master>
 					["coord"] = { 39.1, 26.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				fp(366, {	-- Furien's Post, Desolace
-					["cr"] = 35315,	-- Narimar <Flight Master>
+					["cr"] = 35315,	-- Narimar <Flight Master>
 					["coord"] = { 44.2, 29.6, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
 				fp(368, {	-- Karnum's Glade, Desolace
-					["cr"] = 35478,	-- Lastrea Greengale <Flight Master>
+					["cr"] = 35478,	-- Lastrea Greengale <Flight Master>
 					["coord"] = { 57.7, 49.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
@@ -176,13 +176,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				fp(367, {	-- Thargad's Camp, Desolace
-					["cr"] = 35481,	-- Moira Steelwing <Gryphon Master>
+					["cr"] = 35481,	-- Moira Steelwing <Gryphon Master>
 					["coord"] = { 36.8, 71.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(369, {	-- Thunk's Abode, Desolace
-					["cr"] = 35556,	-- Thunk's Wyvern <Flight Master>
+					["cr"] = 35556,	-- Thunk's Wyvern <Flight Master>
 					["coord"] = { 70.7, 32.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),

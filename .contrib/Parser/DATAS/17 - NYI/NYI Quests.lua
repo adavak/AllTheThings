@@ -384,7 +384,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(12405, { ["name"] = "Candy Bucket", ["_drop"] = { "g" }, }),
 			q(12410, { ["name"] = "Candy Bucket", ["_drop"] = { "g" }, }),
 			q(10181, { ["name"] = "Collector's Edition: -pn - E - FLAG", }),
-			q(9577, { ["name"] = "DAILY TEST QUEST (PVP)     TBC:DAILY TEST QUEST (PVP)  WOTLK:DAILY TEST QUEST (PVP)", }),
+			q(9577, { ["name"] = "DAILY TEST QUEST (PVP)     TBC:DAILY TEST QUEST (PVP)  WOTLK:DAILY TEST QUEST (PVP)", }),
 			q(11121, { ["name"] = "DAILY TEST QUEST (RAID)", }),
 			q(10059, { ["name"] = "Dealing With Zeth'Gor", }),
 			q(10053, { ["name"] = "Dealing with Zeth'Gor", }),

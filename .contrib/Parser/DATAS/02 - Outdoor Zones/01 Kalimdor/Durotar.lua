@@ -2147,13 +2147,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if AFTER CATA
 			n(FLIGHT_PATHS, {
 				fp(537, {	-- Razor Hill
-					["cr"] = 41140,	-- Burok <Flight Master>
+					["cr"] = 41140,	-- Burok <Flight Master>
 					["coord"] = { 53.0, 43.6, DUROTAR },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
 				fp(536, {	-- Sen'jin Village
-					["cr"] = 41142,	-- Handler Marnlek <Bat Handler>
+					["cr"] = 41142,	-- Handler Marnlek <Bat Handler>
 					["coord"] = { 55.4, 73.4, DUROTAR },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,

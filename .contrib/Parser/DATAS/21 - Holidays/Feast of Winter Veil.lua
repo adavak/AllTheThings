@@ -373,12 +373,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				-- Patch 9.0.1 (2020-10-13): Baine Bloodhoof removed from the criteria.
 				-- #if AFTER 4.0.3
 				-- Patch 4.0.3a (2010-11-23): Cairne Bloodhoof changed to Baine Bloodhoof;
-				crit(BAINE_BLOODHOOF_CRITERIA_UID, {	-- Baine Bloodhoof <High Chieftain>
-					["provider"] = { "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
+				crit(BAINE_BLOODHOOF_CRITERIA_UID, {	-- Baine Bloodhoof <High Chieftain>
+					["provider"] = { "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
 				}),
 				-- #else
-				crit(BAINE_BLOODHOOF_CRITERIA_UID, {	-- Cairne Bloodhoof <High Chieftain>
-					["provider"] = { "n", 3057 },	-- Cairne Bloodhoof <High Chieftain>
+				crit(BAINE_BLOODHOOF_CRITERIA_UID, {	-- Cairne Bloodhoof <High Chieftain>
+					["provider"] = { "n", 3057 },	-- Cairne Bloodhoof <High Chieftain>
 				}),
 				-- #endif
 				-- #endif
@@ -455,8 +455,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				-- Patch 9.0.1 (2020-10-13): Anduin Wrynn removed.
 				-- #if AFTER 7.0.1
 				-- Legion Hotfix (2016-12-16): Anduin Wrynn replaced King Varian Wrynn from the criteria.
-				crit(12663, {	-- Anduin Wrynn <King of Stormwind>
-					["provider"] = { "n", 107574 },	-- Anduin Wrynn <King of Stormwind>
+				crit(12663, {	-- Anduin Wrynn <King of Stormwind>
+					["provider"] = { "n", 107574 },	-- Anduin Wrynn <King of Stormwind>
 				}),
 				-- #else
 				crit(12663, {	-- King Varian Wrynn
@@ -663,9 +663,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["providers"] = {
 				{ "i", 17202 },	-- Snowball
 				-- #if AFTER 4.0.3
-				{ "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
+				{ "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
 				-- #else
-				{ "n", 3057 },	-- Cairne Bloodhoof <High Chieftain>
+				{ "n", 3057 },	-- Cairne Bloodhoof <High Chieftain>
 				-- #endif
 			},
 			["timeline"] = { ADDED_3_0_2 },

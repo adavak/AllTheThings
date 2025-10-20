@@ -139,7 +139,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(338, {	-- Blackfathom Camp, Ashenvale
-					["cr"] = 34374,	-- Solais <Flight Master>
+					["cr"] = 34374,	-- Solais <Flight Master>
 					["coord"] = { 18.1, 20.6, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -157,13 +157,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(350, {	-- Hellscream's Watch, Ashenvale
-					["cr"] = 34429,	-- Thraka <Wind Rider Master>
+					["cr"] = 34429,	-- Thraka <Wind Rider Master>
 					["coord"] = { 38.07, 42.21, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
 				fp(356, {	-- Silverwind Refuge, Ashenvale
-					["cr"] = 34943,	-- Wind Tamer Shoshok <Flight Master>
+					["cr"] = 34943,	-- Wind Tamer Shoshok <Flight Master>
 					["coord"] = { 49.2, 65.2, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -174,7 +174,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				fp(351, {	-- Stardust Spire, Ashenvale
-					["cr"] = 34378,	-- Myre Moonglide <Flight Master>
+					["cr"] = 34378,	-- Myre Moonglide <Flight Master>
 					["coord"] = { 35.0, 72.1, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

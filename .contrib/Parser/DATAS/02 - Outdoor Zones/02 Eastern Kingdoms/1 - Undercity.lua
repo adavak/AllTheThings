@@ -1885,7 +1885,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(4589, {	-- Joseph Moore <Leatherworking Supplies>
 					["coord"] = { 70.1, 58.4, UNDERCITY },
 					["races"] = HORDE_ONLY,
-					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 					["groups"] = {
 						i(18949, {	-- Pattern: Barbaric Bracers (RECIPE!)
 							["isLimited"] = true,
@@ -1903,9 +1903,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["description"] = "Only select Herbalism Suppliers sells this pouch.",
 							["providers"] = {
 								{ "n", 4216},	-- Chardryn <Herbalism Supplies>
-								{ "n", 5503},	-- Eldraeith <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
-								{ "n", 5138},	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
-								{ "n", 4615},	-- Katrina Alliestar <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
+								{ "n", 5503},	-- Eldraeith <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
+								{ "n", 5138},	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
+								{ "n", 4615},	-- Katrina Alliestar <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
 								{ "n", 3548},	-- Selina Weston <Alchemy & Herbalism Supplies>
 								-- #if AFTER TBC
 								{ "n", 16367},	-- Botanist Tyniarrel <Herbalism Trainer & Supplies>
@@ -2159,7 +2159,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 				}),
-				n(5821, {	-- Sheldon Von Croy <Cloth Armor Merchant>
+				n(5821, {	-- Sheldon Von Croy <Cloth Armor Merchant>
 					["coord"] = { 70.6, 28.8, UNDERCITY },
 					["races"] = HORDE_ONLY,
 					["sym"] = {{"select","itemID",

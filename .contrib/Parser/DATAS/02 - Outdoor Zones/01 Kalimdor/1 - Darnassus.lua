@@ -1291,9 +1291,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["description"] = "Only select Herbalism Suppliers sells this pouch.",
 							["providers"] = {
 								{ "n", 4216},	-- Chardryn <Herbalism Supplies>
-								{ "n", 5503},	-- Eldraeith <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
-								{ "n", 5138},	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
-								{ "n", 4615},	-- Katrina Alliestar <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
+								{ "n", 5503},	-- Eldraeith <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
+								{ "n", 5138},	-- Gwina Stonebranch <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
+								{ "n", 4615},	-- Katrina Alliestar <Herbalism Supplies> [TBC+] / <Herbalism Supplier>
 								{ "n", 3548},	-- Selina Weston <Alchemy & Herbalism Supplies>
 								-- #if AFTER TBC
 								{ "n", 16367},	-- Botanist Tyniarrel <Herbalism Trainer & Supplies>
@@ -1577,7 +1577,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 4.3.0
-					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					-- #endif
 					["groups"] = {
 						i(12162, {	-- Plans: Hardened Iron Shortsword (RECIPE!)
@@ -1825,7 +1825,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 					["groups"] = {
 						i(18949, {	-- Pattern: Barbaric Bracers (RECIPE!)
 							["isLimited"] = true,
@@ -1864,7 +1864,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 54.6, 29.8, DARNASSUS },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(4235, {	-- Turian <Thrown Weapons Merchant>
 					["coords"] = {

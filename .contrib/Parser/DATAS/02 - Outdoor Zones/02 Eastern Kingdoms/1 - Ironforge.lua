@@ -1519,7 +1519,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 40.2, 33.4, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
-						{"sub", "common_vendor", 5565},	-- Jillian Tanner <Leatherworking Supplies>
+						{"sub", "common_vendor", 5565},	-- Jillian Tanner <Leatherworking Supplies>
 					},
 					["groups"] = {
 						i(18731, {	-- Pattern: Heavy Leather Ball (RECIPE!)
@@ -2022,7 +2022,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 50.6, 27.0, IRONFORGE },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(5129, {	-- Lissyphus Finespindle
 					["coord"] = { 54.6, 88.2, IRONFORGE },
@@ -2291,7 +2291,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(4259, {	-- Thurgrum Deepforge <Blacksmithing Supplies>
 					["coord"] = { 51.8, 41.2, IRONFORGE },
 					-- #if AFTER 4.3.0
-					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 				}),

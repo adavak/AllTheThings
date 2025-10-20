@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					i(194680),	-- Jerky Surprise
 				},
 			}),
-			n(186454, {	-- Kora Fullsails <Food and Provisions>
+			n(186454, {	-- Kora Fullsails <Food and Provisions>
 				["coord"] = { 43.0, 67.2, THE_WAKING_SHORES },
 				["groups"] = {
 					i(198047),	-- Kul Tiran Red

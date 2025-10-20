@@ -787,7 +787,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
-				n(4184, {	-- Geenia Sunshadow <Speciality Dress Maker>
+				n(4184, {	-- Geenia Sunshadow <Speciality Dress Maker>
 					["coord"] = { 51.8, 33.0, MOONGLADE },
 					["groups"] = {
 						i(13896),	-- Dark Green Wedding Hanbok

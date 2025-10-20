@@ -720,7 +720,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						},
 					}),
 				}),
-				n(188349, {	-- Outfitter Tipech <Food and Drink>
+				n(188349, {	-- Outfitter Tipech <Food and Drink>
 					["coord"] = { 25.6, 55.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(198043),	-- Stealthy Elven Port

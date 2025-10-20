@@ -868,7 +868,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if AFTER CATA
 			n(FLIGHT_PATHS, {
 				fp(402, {	-- Bloodhoof Village, Mulgore
-					["cr"] = 40809,	-- Tak <Wind Rider Master>
+					["cr"] = 40809,	-- Tak <Wind Rider Master>
 					["coord"] = { 47.4, 58.6, MULGORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,

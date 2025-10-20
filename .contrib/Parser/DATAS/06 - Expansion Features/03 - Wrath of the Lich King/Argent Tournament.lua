@@ -1854,7 +1854,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["groups"] = {
 						objective(1, {	-- 0/1 Deathspeaker Kharos slain
-							["provider"] = { "n", 34808 },	-- Deathspeaker Kharos <Cult of the Damned>
+							["provider"] = { "n", 34808 },	-- Deathspeaker Kharos <Cult of the Damned>
 							["coord"] = { 64.2, 21.6, ICECROWN },
 						}),
 						CHAMPIONS_SEAL,
@@ -1871,7 +1871,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					["groups"] = {
 						objective(1, {	-- 0/1 Drottinn Hrothgar slain
 							["providers"] = {
-								{ "n", 34980 },	-- Drottinn Hrothgar <The Sea Reaver>
+								{ "n", 34980 },	-- Drottinn Hrothgar <The Sea Reaver>
 								{ "i", 47006 },	-- Kvaldir War Horn
 							},
 							["coord"] = { 50.4, 15.6, 170 },
@@ -2045,7 +2045,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					}),
 					["groups"] = {
 						objective(1, {	-- Jeran Lockwood's advice
-							["provider"] = { "n", 33973 },	-- Jeran Lockwood <Master of the Melee>
+							["provider"] = { "n", 33973 },	-- Jeran Lockwood <Master of the Melee>
 							["coord"] = { 72.6, 19.2, ICECROWN },
 						}),
 						objective(2, {	-- 0/5 Use Thrust on Melee Target
@@ -2074,7 +2074,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					}),
 					["groups"] = {
 						objective(1, {	-- Rugan Steelbelly's advice
-							["provider"] = { "n", 33972 },	-- Rugan Steelbelly <Master of the Charge>
+							["provider"] = { "n", 33972 },	-- Rugan Steelbelly <Master of the Charge>
 							["coord"] = { 72.6, 18.8, ICECROWN },
 						}),
 						objective(2, {	-- 0/2 Use Charge on vulnerable Charge Target
@@ -2103,7 +2103,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					}),
 					["groups"] = {
 						objective(1, {	-- Valis Windchaser's advice
-							["provider"] = { "n", 33974 },	-- Valis Windchaser <Master of the Shield-Breaker>
+							["provider"] = { "n", 33974 },	-- Valis Windchaser <Master of the Shield-Breaker>
 							["coord"] = { 73.2, 19.2, ICECROWN },
 						}),
 						objective(2, {	-- 0/2 Use Shield-Breaker on vulnerable Ranged Target
@@ -2437,7 +2437,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					},
 				}),
 				q(13820, {	-- The Blastbolt Brothers
-					["qg"] = 33817,	-- Justicar Mariel Trueheart <Seneschal of the Argent Tournament>
+					["qg"] = 33817,	-- Justicar Mariel Trueheart <Seneschal of the Argent Tournament>
 					["coord"] = { 69.6, 22.8, ICECROWN },
 					["timeline"] = { ADDED_3_1_0, REMOVED_4_0_1 },
 					["isBreadcrumb"] = true,

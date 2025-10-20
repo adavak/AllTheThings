@@ -87,7 +87,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(FLIGHT_PATHS, {
 				fp(568, {	-- Camp Ataya, Feralas
-					["cr"] = 40473,	-- Tono <Wind Rider Master>
+					["cr"] = 40473,	-- Tono <Wind Rider Master>
 					["coord"] = { 41.4, 15.4, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -104,7 +104,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				fp(565, {	-- Dreamer's Rest, Feralas
-					["cr"] = 40966,	-- Selor <Flight Master>
+					["cr"] = 40966,	-- Selor <Flight Master>
 					["coord"] = { 50.2, 16.6, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				fp(41, {	-- Feathermoon, Feralas
 					["crs"] = {
 						-- #if AFTER CATA
-						41383,	-- Irela Moonfeather <Hippogryph Master>
+						41383,	-- Irela Moonfeather <Hippogryph Master>
 						-- #else
 						8019,	-- Fyldren Moonfeather <Hippogryph Master>
 						-- #endif
@@ -129,7 +129,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				fp(31, {	-- Shadebough, Feralas [CATA+] / Thalanaar, Feralas
 					["crs"] = {
 						-- #if AFTER CATA
-						40367,	-- Seyala Nightwisp <Hippogryph Master>
+						40367,	-- Seyala Nightwisp <Hippogryph Master>
 						-- #else
 						4319,	-- Thyssiana <Hippogryph Master>
 						-- #endif
@@ -144,13 +144,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(569, {	-- Stonemaul Hold, Feralas
-					["cr"] = 41605,	-- Mergek <Wind Rider Master>
+					["cr"] = 41605,	-- Mergek <Wind Rider Master>
 					["coord"] = { 51, 48.4, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
 				fp(567, {	-- Tower of Estulan, Feralas
-					["cr"] = 41580,	-- Aryenda <Flight Master>
+					["cr"] = 41580,	-- Aryenda <Flight Master>
 					["coord"] = { 57.1, 53.9, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

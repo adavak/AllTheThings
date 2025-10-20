@@ -1249,7 +1249,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(3005, {	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
 					["coord"] = { 43.8, 45.1, THUNDER_BLUFF },
 					-- #if BEFORE CATA
-					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 					-- #endif
 					["races"] = HORDE_ONLY,
 					["groups"] = appendGroups(
@@ -1275,7 +1275,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(3008, {	-- Mak <Leatherworking Supplies> [CATA+] / <Journeyman Leatherworker>
 					["coord"] = { 42.08, 43.46, THUNDER_BLUFF },
 					["races"] = HORDE_ONLY,
-					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 				}),
 				-- #endif
 				n(3027, {	-- Naal Mistrunner <Cooking Supplies>

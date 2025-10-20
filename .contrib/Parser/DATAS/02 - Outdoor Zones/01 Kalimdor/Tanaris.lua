@@ -996,12 +996,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(FLIGHT_PATHS, {
 				fp(539, {	-- Bootlegger Outpost, Tanaris
-					["cr"] = 41214,	-- Slick Dropdip <Flight Master>
+					["cr"] = 41214,	-- Slick Dropdip <Flight Master>
 					["coord"] = { 55.9, 60.6, TANARIS },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				fp(531, {	-- Dawnrise Expedition, Tanaris
-					["cr"] = 41215,	-- Raina Sunglide <Flight Master>
+					["cr"] = 41215,	-- Raina Sunglide <Flight Master>
 					["coord"] = { 33.2, 77.2, TANARIS },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
@@ -1029,7 +1029,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				fp(532, {	-- Gunstan's Dig, Tanaris
-					["cr"] = 40827,	-- Thurda <Flight Master>
+					["cr"] = 40827,	-- Thurda <Flight Master>
 					["coord"] = { 40.1, 77.5, TANARIS },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,

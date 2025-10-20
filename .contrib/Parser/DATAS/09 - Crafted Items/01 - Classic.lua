@@ -2328,7 +2328,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #endif
 				},
 				["providers"] = {
-					{ "n", 5494 }, 	-- Catherine Leland <Fishing Supplier>
+					{ "n", 5494 }, 	-- Catherine Leland <Fishing Supplier>
 					{ "n", 4574 },	-- Lizbeth Cromwell <Fishing Supplies> [TBC+] / Lizbeth Cromwell <Fishing Supplier>
 					{ "n", 3029 },	-- Sewa Mistrunner <Fishing Supplies>
 					{ "n", 3333 }, 	-- Shankys <Fishing Supplies>
@@ -5291,7 +5291,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				{ "n", 52658},	-- Paku Cloudchaser <Jewelcrafting Supplies>
 				{ "n", 52588},	-- Sara Lanner <Jewelcrafting Supplies>
 				{ "n", 52644},	-- Tarien Silverdew <Jewelcrafting Supplies>
-				{ "n", 44583},	-- Terrance Denman <Jewelcrafting Supplies>
+				{ "n", 44583},	-- Terrance Denman <Jewelcrafting Supplies>
 				-- #endif
 			},]]
 		}, {
@@ -5454,7 +5454,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- Danny Donkey: Disabling this for now, Common Vendor Items is being filled into Minilists when providers are given.
 						--[[["providers"] = {
 							{ "n", 5128},	-- Bombus Finespindle <Leatherworking Supplies>
-							{ "n", 5565},	-- Jillian Tanner <Leatherworking Supplies>
+							{ "n", 5565},	-- Jillian Tanner <Leatherworking Supplies>
 							{ "n", 4589},	-- Joseph Moore <Leatherworking Supplies>
 							{ "n", 4225},	-- Saenorion <Leatherworking Supplies>
 							{ "n", 3366},	-- Tamar <Leatherworking Supplies>
@@ -5478,7 +5478,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ "n", 5128},	-- Bombus Finespindle <Leatherworking Supplies>
 						{ "n", 3364},	-- Borya <Tailoring Supplies>
 						{ "n", 4168},	-- Elynna <Tailoring Supplies>
-						{ "n", 5565},	-- Jillian Tanner <Leatherworking Supplies>
+						{ "n", 5565},	-- Jillian Tanner <Leatherworking Supplies>
 						{ "n", 4589},	-- Joseph Moore <Leatherworking Supplies>
 						{ "n", 3005},	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
 						{ "n", 4577},	-- Millie Gregorian <Tailoring Supplies>

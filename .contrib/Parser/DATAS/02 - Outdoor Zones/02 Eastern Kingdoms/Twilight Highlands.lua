@@ -3244,7 +3244,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 79.0, 76.6, TWILIGHT_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 4.3.0
-					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					-- #endif
 				}),
 				-- #if BEFORE 6.0.2

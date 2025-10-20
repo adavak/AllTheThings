@@ -834,7 +834,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(16689, {	-- Zaralda <Leatherworking Supplies>
 					["coord"] = { 84.6, 78.8, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
-					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 					["groups"] = {
 						i(25726, {	-- Pattern: Comfortable Insoles (RECIPE!)
 							["isLimited"] = true,

@@ -91,13 +91,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(FLIGHT_PATHS, {
 				fp(339, {	-- Grove of the Ancients, Darkshore
-					["cr"] = 33253,	-- Delanea <Flight Master>
+					["cr"] = 33253,	-- Delanea <Flight Master>
 					["coord"] = { 44.4, 75.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(26, {	-- Lor'danel, Darkshore [CATA+] / Auberdine, Darkshore
-					["cr"] = 3841,	-- Teldira Moonfeather <Hippogryph Master> [CATA+] / Caylais Moonfeather <Hippogryph Master>
+					["cr"] = 3841,	-- Teldira Moonfeather <Hippogryph Master> [CATA+] / Caylais Moonfeather <Hippogryph Master>
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 51.7, 17.6, DARKSHORE },
@@ -1187,7 +1187,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 14,
 					["groups"] = {
 						objective(1, {	-- 0/1 Gelkak's First Mate slain
-							["provider"] = { "n", 6669 },	-- The Threshwackonator 4100 <The First Mate>
+							["provider"] = { "n", 6669 },	-- The Threshwackonator 4100 <The First Mate>
 							["coord"] = { 55.8, 18.2, DARKSHORE },
 							["cost"] = {{ "i", 7442, 1 }},	-- Gyromast's Key
 						}),

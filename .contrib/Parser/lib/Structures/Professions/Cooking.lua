@@ -122,10 +122,10 @@ CATA_COOKING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 CATA_COOKING_SUPPLIES = applyclassicphase(CATA_PHASE_ONE, sharedData({
 	["providers"] = {
 		{ "n", 5160},	-- Emrul Riknussun <Cooking Supplier>
-		{ "n", 4223},	-- Fyldan <Cooking Supplies> [TBC+] / <Cooking Supplier>
+		{ "n", 4223},	-- Fyldan <Cooking Supplies> [TBC+] / <Cooking Supplier>
 		{ "n", 49701},	-- Jon Casper <Sous Chef>
 		{ "n", 3027},	-- Naal Mistrunner <Cooking Supplies>
-		{ "n", 4553},	-- Ronald Burch <Cooking Supplies> [TBC+] / <Cooking Supplier>
+		{ "n", 4553},	-- Ronald Burch <Cooking Supplies> [TBC+] / <Cooking Supplier>
 		{ "n", 49737},	-- Shazdar <Sous Chef>
 	},
 	["timeline"] = { ADDED_4_0_3 },

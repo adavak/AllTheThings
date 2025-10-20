@@ -638,7 +638,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if AFTER CATA
 				prof(JEWELCRAFTING, {
-					applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(56925, {	-- Farrah Facet <Epic Gem Recipes>
+					applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(56925, {	-- Farrah Facet <Epic Gem Recipes>
 						["coord"] = { 63.8, 61.6, STORMWIND_CITY },
 						["timeline"] = { ADDED_4_3_0 },
 						["races"] = ALLIANCE_ONLY,
@@ -4695,7 +4695,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(VENDORS, {
-				n(69334, {	-- Adherent Hanjun <Tushui Quartermaster>
+				n(69334, {	-- Adherent Hanjun <Tushui Quartermaster>
 					["coord"] = { 68.0, 17.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_2_0 },
 					["races"] = ALLIANCE_ONLY,
@@ -5028,7 +5028,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_5_0_4 },
 					["races"] = ALLIANCE_ONLY,
 				})),
-				applyclassicphase(WRATH_PHASE_FOUR, n(34075, {	-- Captain Dirgehammer <Apprentice Armor Quartermaster> // Original S8 Vendor // Relentless Gladiator: Season 8 Gladiator Gear
+				applyclassicphase(WRATH_PHASE_FOUR, n(34075, {	-- Captain Dirgehammer <Apprentice Armor Quartermaster> // Original S8 Vendor // Relentless Gladiator: Season 8 Gladiator Gear
 					["coord"] = { 75.0, 67.4, STORMWIND_CITY },
 					-- #if BEFORE 4.0.3.13277
 					["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR },{ "pop" }},	-- Relentless Gladiator's Set
@@ -5036,7 +5036,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				})),
-				applyclassicphase(WRATH_PHASE_THREE, n(34074, {	-- Captain Dirgehammer <Apprentice Armor Quartermaster> // Original S7 Vendor // Furious Gladiator: Season 7 Gladiator Gear
+				applyclassicphase(WRATH_PHASE_THREE, n(34074, {	-- Captain Dirgehammer <Apprentice Armor Quartermaster> // Original S7 Vendor // Furious Gladiator: Season 7 Gladiator Gear
 					["coord"] = { 75.0, 67.4, STORMWIND_CITY },
 					-- #if BEFORE 4.0.3.13277
 					["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR },{ "pop" }},	-- Furious Gladiator's Set
@@ -5044,7 +5044,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				})),
-				applyclassicphase(WRATH_PHASE_TWO, n(34073, {	-- Captain Dirgehammer <Apprentice Armor Quartermaster> // Original S6 Vendor // Deadly Gladiator: Season 6 Gladiator Gear
+				applyclassicphase(WRATH_PHASE_TWO, n(34073, {	-- Captain Dirgehammer <Apprentice Armor Quartermaster> // Original S6 Vendor // Deadly Gladiator: Season 6 Gladiator Gear
 					["coord"] = { 75.0, 67.4, STORMWIND_CITY },
 					-- #if BEFORE 4.0.3.13277
 					["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR },{ "pop" }},	-- Deadly Gladiator's Set
@@ -5294,7 +5294,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 				}),
-				n(5494, {	-- Catherine Leland <Fishing Supplier>
+				n(5494, {	-- Catherine Leland <Fishing Supplier>
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 55.0, 69.6, STORMWIND_CITY },
@@ -5339,7 +5339,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				n(52358, {	-- Craggle Wobbletop <Toys and Novelties>
+				n(52358, {	-- Craggle Wobbletop <Toys and Novelties>
 					["coords"] = {
 						{ 66.6, 64.4, STORMWIND_CITY },
 						{ 63.6, 61.2, STORMWIND_CITY },
@@ -5390,7 +5390,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						})),
 					},
 				}),
-				n(133411, {	-- Dalia Skyblossom <Cooking Trainer>
+				n(133411, {	-- Dalia Skyblossom <Cooking Trainer>
 					["coord"] = { 51.4, 18.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
@@ -5421,7 +5421,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				n(50669, {	-- Dawn Radue <Bag Merchant>
+				n(50669, {	-- Dawn Radue <Bag Merchant>
 					["coord"] = { 64.8, 71.6, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
@@ -5517,7 +5517,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- Used to just sell trade goods for Cataclysm (Embersilk, Shards, Ore, etc)
 					-- #endif
 				}),
-				n(1286, {	-- Edna Mullby <Trade Supplies> [TBC+] / Edna Mullby <Trade Supplier>
+				n(1286, {	-- Edna Mullby <Trade Supplies> [TBC+] / Edna Mullby <Trade Supplier>
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 64.6, 71.6, STORMWIND_CITY },
@@ -5569,7 +5569,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(1707),	-- Stormwind Brie
 					},
 				}),
-				n(5503, {	-- Eldraeith <Herbalism Supplies> [TBC+] / Eldraeith <Herbalism Supplier>
+				n(5503, {	-- Eldraeith <Herbalism Supplies> [TBC+] / Eldraeith <Herbalism Supplier>
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 55.6, 85.6, STORMWIND_CITY },
@@ -5591,7 +5591,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["description"] = "Elly is walking around in the Tavern.",
 					["races"] = ALLIANCE_ONLY,
 				}),
-				n(5483, {	-- Erika Tate <Cooking Supplies> [TBC+] / Erika Tate <Cooking Supplier>
+				n(5483, {	-- Erika Tate <Cooking Supplies> [TBC+] / Erika Tate <Cooking Supplier>
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 77.6, 53.2, STORMWIND_CITY },
@@ -5896,7 +5896,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					}),
 				}),
-				n(5565, {	-- Jillian Tanner <Leatherworking Supplies>
+				n(5565, {	-- Jillian Tanner <Leatherworking Supplies>
 					["coord"] = { 71.7, 62.8, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = COMMON_CATACLYSM_LEATHERWORKING_RECIPES,
@@ -5913,7 +5913,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = CATA_COOKING_SUPPLIES,
 				}),
-				n(55684, {	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+				n(55684, {	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					["coord"] = { 64.8, 48.2, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_3_0 },
 					["races"] = ALLIANCE_ONLY,
@@ -5929,7 +5929,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 4.3.0
-					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					-- #endif
 					["groups"] = {
 						i(12162, {	-- Plans: Hardened Iron Shortsword (RECIPE!)
@@ -5937,7 +5937,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				n(43694, {	-- Katie Stokx <Horse Breeder>
+				n(43694, {	-- Katie Stokx <Horse Breeder>
 					["coord"] = { 77.0, 67.8, STORMWIND_CITY },
 					-- Available to Humans without faction requirements.
 					["minReputation"] = { FACTION_STORMWIND, EXALTED },	-- Stormwind, Exalted.
@@ -6012,7 +6012,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(728),		-- Recipe: Westfall Stew (RECIPE!)
 					},
 				}),
-				applyclassicphase(WRATH_PHASE_FOUR, n(34084, {	-- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster> // Original S8 Vendor // Furious Gladiator: Season 8 Honor Gear
+				applyclassicphase(WRATH_PHASE_FOUR, n(34084, {	-- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster> // Original S8 Vendor // Furious Gladiator: Season 8 Honor Gear
 					["coord"] = { 74.8, 67.3, STORMWIND_CITY },
 					-- #if BEFORE 4.0.3.13277
 					["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_ELITE },{ "pop" }},	-- Furious Gladiator's Set
@@ -6020,7 +6020,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				})),
-				applyclassicphase(WRATH_PHASE_THREE, n(34083, {	-- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster> // Original S7 Vendor // Deadly Gladiator: Season 7 Honor Gear
+				applyclassicphase(WRATH_PHASE_THREE, n(34083, {	-- Knight-Lieutenant Moonstrike <Northrend Armor Quartermaster> // Original S7 Vendor // Deadly Gladiator: Season 7 Honor Gear
 					["coord"] = { 74.8, 67.3, STORMWIND_CITY },
 					-- #if BEFORE 4.0.3.13277
 					["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR },{ "pop" }},	-- Deadly Gladiator's Set
@@ -6028,7 +6028,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				})),
-				applyclassicphase(WRATH_PHASE_TWO, n(34082, {	-- Knight-Lieutenant Moonstrike <Armor Quartermaster> // Original S6 Vendor // Hateful Gladiator: Season 6 Honor Gear
+				applyclassicphase(WRATH_PHASE_TWO, n(34082, {	-- Knight-Lieutenant Moonstrike <Armor Quartermaster> // Original S6 Vendor // Hateful Gladiator: Season 6 Honor Gear
 					["coord"] = { 74.8, 67.3, STORMWIND_CITY },
 					-- #if BEFORE 4.0.3.13277
 					["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL },{ "pop" }},	-- Hateful Gladiator's Set
@@ -6159,7 +6159,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				n(12784, {	-- Lieutenant Jackspring <Legacy Weapon Quartermaster> [WRATH+] / Lieutenant Jackspring <Weapons Quartermaster>
+				n(12784, {	-- Lieutenant Jackspring <Legacy Weapon Quartermaster> [WRATH+] / Lieutenant Jackspring <Weapons Quartermaster>
 					-- #if NOT ANYCLASSIC
 					["description"] = "Blizzard strikes again. In order to transmog these, you need to have the original title associated with the gear. However, you can still collect them even if you've never had the title.\n\nThese items will require a refresh/reload to register as collected, and it's highly recommended that you keep them in your bank/void storage for later. You'll likely randomly lose credit for them and have to re-equip them to remind the game they exist.",
 					-- #endif
@@ -6188,7 +6188,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["races"] = ALLIANCE_ONLY,
 				}),
-				n(12783, {	-- Lieutenant Karter <War Mount Quartermaster> [WRATH+] / Lieutenant Karter <Mount Vendor>
+				n(12783, {	-- Lieutenant Karter <War Mount Quartermaster> [WRATH+] / Lieutenant Karter <Mount Vendor>
 					-- #if AFTER WRATH
 					["coord"] = { 76.2, 65.6, STORMWIND_CITY },
 					-- #else
@@ -6360,7 +6360,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(8624),	-- Red Sparkler
 					},
 				}),
-				n(52030, pvp({	-- Liliana Emberfrost <Honor Heirlooms>
+				n(52030, pvp({	-- Liliana Emberfrost <Honor Heirlooms>
 					["coord"] = { 74.4, 67.6, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_6 },
 					["races"] = ALLIANCE_ONLY,
@@ -6581,7 +6581,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				n(44246, {	-- Magatha Silverton <Justice Quartermaster>
+				n(44246, {	-- Magatha Silverton <Justice Quartermaster>
 					["coords"] = {
 						-- #if AFTER 9.0.1
 						{ 75.5, 66.1, STORMWIND_CITY },
@@ -6832,7 +6832,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				n(65068, {	-- Old Whitenose <Dragon Turtle Breeder>
+				n(65068, {	-- Old Whitenose <Dragon Turtle Breeder>
 					["coord"] = { 67.8, 18.4, STORMWIND_CITY },
 					-- Available to Tushui Pandaren without faction requirements.
 					["minReputation"] = { FACTION_TUSHUI_PANDAREN, EXALTED },	-- Tushui Pandaren, Exalted.
@@ -7070,7 +7070,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				n(277, {	-- Roberto Pupellyverbos <Merlot Connoisseur>
+				n(277, {	-- Roberto Pupellyverbos <Merlot Connoisseur>
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 59.4, 77.2, STORMWIND_CITY },
@@ -7109,7 +7109,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						2465,	-- Studded Pants
 					}},
 				}),
-				n(12785, {	-- Sergeant Major Clate <Legacy Armor Quartermaster> [WRATH+] / Sergeant Major Clate <Armor Quartermaster>
+				n(12785, {	-- Sergeant Major Clate <Legacy Armor Quartermaster> [WRATH+] / Sergeant Major Clate <Armor Quartermaster>
 					["coord"] = { 75.4, 67.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_2_0_1 },	-- Prior to TBC, was just a Food Vendor.
 					["sym"] = {	-- Grand Marshal Armor
@@ -7277,7 +7277,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				n(43768, {	-- Tannec Stonebeak <Gryphon Keeper>
+				n(43768, {	-- Tannec Stonebeak <Gryphon Keeper>
 					["coord"] = { 71.4, 72.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
@@ -7291,11 +7291,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(25527),	-- Swift Red Gryphon (MOUNT!)
 					},
 				}),
-				n(44583, {	-- Terrance Denman <Jewelcrafting Supplies>
+				n(44583, {	-- Terrance Denman <Jewelcrafting Supplies>
 					["coord"] = { 63.1, 61.5, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 50480 }},	-- Isabel Jones <Jewelcrafting Supplies>
 				}),
 				n(1350, {	-- Theresa Moulaine <Robe Vendor>
 					["coords"] = {
@@ -7335,7 +7335,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(2510),	-- Solid Blunderbuss
 					},
 				}),
-				n(58154, {	-- Toren Landow <Legacy Justice Quartermaster>
+				n(58154, {	-- Toren Landow <Legacy Justice Quartermaster>
 					["coords"] = {
 						-- #if AFTER 9.0.1
 						{ 75.7, 65.9, STORMWIND_CITY },

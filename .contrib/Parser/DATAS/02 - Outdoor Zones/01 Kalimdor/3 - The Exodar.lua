@@ -316,7 +316,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 61.3, 89.3, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 4.3.0
-					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					-- #endif
 					["groups"] = {
 						i(23591, {	-- Plans: Adamantite Cleaver (RECIPE!)
@@ -337,7 +337,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 45.5, 25.3, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
-						{ "sub", "common_recipes_vendor", 50480 },	-- Isabel Jones <Jewelcrafting Supplies>
+						{ "sub", "common_recipes_vendor", 50480 },	-- Isabel Jones <Jewelcrafting Supplies>
 						{"select","itemID",
 							7341,	-- Cubic Zirconia Ring
 							7340,	-- Flawless Diamond Solitaire
@@ -522,7 +522,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16748, {	-- Haferet <Leatherworking Supplies>
 					["coord"] = { 66.6, 73.7, THE_EXODAR },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_vendor", 5565} },	-- Jillian Tanner <Leatherworking Supplies>
 					["groups"] = {
 						i(25726, {	-- Pattern: Comfortable Insoles (RECIPE!)
 							["isLimited"] = true,

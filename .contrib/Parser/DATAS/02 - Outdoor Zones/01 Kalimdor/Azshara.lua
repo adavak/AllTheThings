@@ -129,13 +129,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #endif
 				fp(614, {	-- Northern Rocketway, Azshara
-					["cr"] = 43328,	-- Blitz Blastospazz <Flight Master>
+					["cr"] = 43328,	-- Blitz Blastospazz <Flight Master>
 					["coord"] = { 66.4, 20.8, AZSHARA },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
 				}),
 				fp(613, {	-- Southern Rocketway, Azshara
-					["cr"] = 37005,	-- Friz Groundspin <Flight Master>
+					["cr"] = 37005,	-- Friz Groundspin <Flight Master>
 					["coord"] = { 51.4, 74.2, AZSHARA },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(683, {	-- Valormok, Azshara
-					["cr"] = 36728,	-- Kroum <Wind Rider Captain>
+					["cr"] = 36728,	-- Kroum <Wind Rider Captain>
 					["coord"] = { 14.2, 65.0, AZSHARA },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
@@ -2021,7 +2021,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["hordeQuestData"] = {
 						["qgs"] = {
 							3352,	-- Ormak Grimshot <Hunter Trainer>
-							3039,	-- Holt Thunderhorn <Hunter Trainer>
+							3039,	-- Holt Thunderhorn <Hunter Trainer>
 						},
 						["coords"] = {
 							{ 66.2, 18.6, ORGRIMMAR },
