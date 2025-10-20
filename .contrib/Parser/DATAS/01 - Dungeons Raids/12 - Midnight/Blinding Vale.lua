@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
---local BLINDING_VALE = 2500;
+local BLINDING_VALE = 2500;
 --[[
 ------ Encounter Constants ------
 local TRINITY = 2769;
@@ -11,7 +11,14 @@ local ZIEKKET = 2772;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
-	[bossConstant] = { XXXXX },	--
+	[TRINITY] = {
+		243029,	-- Kezkitt
+		243028,	-- Meittik
+		243030,	-- Lekshi
+	},
+	[IKUZZ] = { 244887 },	-- Ikuzz the Light Hunter
+	[RUIA] = { 245912 },	-- Lightwarden Ruia
+	[ZIEKKET] = { 247676 },	-- Ziekket
 };
 
 ------ Boss Functions ------
@@ -21,7 +28,7 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1309, {	-- The Blinding Vale
-		["coord"] = { X, Y, MAP },
+		["coord"] = { 27.2, 78.0, HARANDAR },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = { BLINDING_VALE },
 		["groups"] = {
