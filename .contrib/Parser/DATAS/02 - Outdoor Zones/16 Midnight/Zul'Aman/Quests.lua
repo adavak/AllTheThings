@@ -833,7 +833,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					q(92452, {	-- Not According to Plan
 						["sourceQuests"] = { 92451 },	-- I Think I Can
-						["provider"] = { "o", XXXX },	-- Ani's Trinket Bag
+						--["provider"] = { "o", XXXX },	-- Ani's Trinket Bag
 						["coord"] = { 48.7, 66.1, ZULAMAN_MID },
 						["groups"] = {
 							o(587574 , {	-- 
@@ -1045,7 +1045,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			--Delves
 			q(93410, {	-- Delver's Call: Twilight Crypts
-				["provider"] = { "o", XXXX },	-- Twilight Crypts
+				--["provider"] = { "o", XXXX },	-- Twilight Crypts
 				["coord"] = { 43.1, 69.2, ZULAMAN_MID },
 			}),
 			--Odd chain, could be one of criteria questID but missing it?
