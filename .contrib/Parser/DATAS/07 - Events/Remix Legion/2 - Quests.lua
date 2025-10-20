@@ -459,8 +459,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		q(92430, {	-- Embracing the Infinite Chaos
 			["description"] = "Quest pops-up when you hit Level 25.",
-			["lvl"] = 25,
 			["lockCriteria"] = { 1, "questID", 91061 },	-- Infinite Chaos
+			["lvl"] = 25,
 		}),
 		q(91061, {	-- Infinite Chaos
 			["description"] = "Quest becomes available after you enable 'Heroic World Tier'.",
