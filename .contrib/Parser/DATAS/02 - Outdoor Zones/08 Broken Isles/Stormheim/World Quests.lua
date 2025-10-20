@@ -69,7 +69,9 @@ root(ROOTS.Zones, {
 				}),
 				q(43710),	-- Dark Runes
 				q(44893),	-- Direbeak Swarm!
-				q(41794),	-- Drakestalker
+				q(41794, {	-- Drakestalker
+					i(136369),	-- Stormwing Scale (QI!)
+				}),
 				q(42173),	-- Electrosnack
 				q(43772),	-- Enigmatic
 				q(45786),	-- Feast of the Hounds (Invasion WQ)

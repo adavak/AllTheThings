@@ -142,7 +142,9 @@ root(ROOTS.Zones, {
 				q(41305, {	-- Nightborne Herb Trader
 					["requireSkill"] = HERBALISM,
 				}),
-				q(44857),	-- Not There, Not Then, Not Forever
+				q(44857, {	-- Not There, Not Then, Not Forever
+					i(137189),	-- Satyr Horn (QI!)
+				}),
 				q(41353, {	-- Odious Felslate Outcropping
 					["requireSkill"] = MINING,
 				}),
@@ -429,7 +431,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(43070),	-- 7.0 Suramar Collapse Scenario - Treasure 01 - Army Size Increase 01
 				q(43141),	-- 7.0 Suramar Collapse Scenario - Treasure 03 - Army Size Increase 03
 				q(43142),	-- 7.0 Suramar Collapse Scenario - Treasure 04 - Army Size Increase 04: used to be from an increase to max withered army size, but no longer in game (5 withered, objectID 43142)
-				q(43143),	-- 7.0 Suramar Collapse Scenario - Treasure 05 - Army Size Increase 05: used to be from an increase to max withered army size, but no longer in game (5 withered, objectID 251746)
 				q(43120),	-- 7.0 Suramar Collapse Scenario - Treasure 07 - Focus Attacks 01
 				q(43150),	-- 7.0 Suramar Collapse Scenario - Treasure 09 - Focus Attacks 03
 				q(43147),	-- 7.0 Suramar Collapse Scenario - Treasure 11 - Reduce Runaways 02

@@ -554,6 +554,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41469,	-- Return to Irongrove Retreat
 					["provider"] = { "n", 103569 },	-- Mythandros Irongrove
 					["coord"] = { 26.1, 31.3, SURAMAR },
+					["groups"] = { i(136680) },	-- Ritual Bundle (QI!)
 				}),
 				q(40315, {	-- End of the Line
 					["sourceQuests"] = {
@@ -1145,6 +1146,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41989,	-- Blood of My Blood
 					["provider"] = { "n", 105342 },	-- Ly'leth Lunastre
 					["coord"] = { 43.3, 78.7, SURAMAR },
+					["groups"] = { i(136970) },	-- Mask of Mirror Image (QI!)
 				}),
 				q(41463, {	-- Missing Along the Way
 					["sourceQuest"] = 41452,	-- Feline Frantic
@@ -1225,6 +1227,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41463,	-- Missing Along the Way
 					["provider"] = { "n", 106696 },	-- Kalendros Irongrove
 					["coord"] = { 19.5, 22.3, SURAMAR },
+					["groups"] = { i(137189) },	-- Satyr Horn (QI!)
 				}),
 				q(40949, {	-- Not Their Last Stand
 					["sourceQuest"] = 40883,	-- Fate of the Guard
@@ -1553,6 +1556,7 @@ root(ROOTS.Zones, {
 					["description"] = "Automated granted when approaching the first fallen Moon Guard member.",
 					["sourceQuest"] = 40883,	-- Fate of the Guard
 					["coord"] = { 27.4, 17.3, SURAMAR },
+					["groups"] = { i(133675) },	-- Moon Guard Sigil (QI!)
 				}),
 				q(44756, {	-- Sign of the Dusk Lily
 					["sourceQuest"] = 44754,	-- Waxing Crescent
@@ -1687,6 +1691,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 101767 },	-- Lyrea Windfeather
 					["coord"] = { 33.7, 18.0, SURAMAR },
+					["groups"] = { i(139882) },	-- Vial of Hippogryph Pheromones (QI!)
 				}),
 				q(44831, {	-- Taking a Promenade (A)
 					["sourceQuest"] = 40391,	-- Take Me To Your Leader

@@ -550,7 +550,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(40653, {	-- Making Trails
 						["sourceQuests"] = { 40652 },	-- Word on the Winds
 						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 41.4, THE_DREAMGROVE },
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
 					}),
 					q(40649, {	-- Meet with Mylune
 						["provider"] = { "n", 103832 },	-- Keeper Remulos
@@ -685,10 +685,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 100812 },	-- Revil Kost
 						["coord"] = { 46.9, 69.5, DEADWIND_PASS },
 						["groups"] = {
-							i(128858, {	-- Scythe of Elune
-								["ItemAppearanceModifierID"] = 9,
+							o(246437, {
+								["coord"] = { 68.3, 23.6, 46 },	-- Karazhan Catacombs
 								["groups"] = {
-									artifact(244),	-- Standard Appearance
+									i(128858, {	-- Scythe of Elune
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = {
+											artifact(244),	-- Standard Appearance
+										},
+									}),
 								},
 							}),
 						},
