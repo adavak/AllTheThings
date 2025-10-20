@@ -1148,48 +1148,178 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	-- ToDo: Add Pandaren Questline
-	--[[race(PANDAREN, bubbleDown({ ["timeline"] = { ADDED_10_0_7 }, ["races"] = { PANDAREN } }, {
+	--[[race(PANDAREN, bubbleDown({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = { PANDAREN } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Pandaren|r.",
 		["groups"] = bubbleDown({
 			-- #if BEFORE 10.1.0
-			["minReputation"] = { FACTION_ORGRIMMAR, EXALTED },
+			["minReputation"] = { FACTION_PANDAREN, EXALTED },
 			-- #endif
 		}, {
-			q(73703, {	-- A Summon to Orgrimmar
-				["description"] = "Auto-accepted in Orgrimmar once criteria is met.",
-				["maps"] = { ORGRIMMAR },
-				["isBreadcrumb"] = true,
+			q(84442, {	-- Invitation to the Spirit Festival (A)
+				["description"] = "Auto-accepted once criteria is met.",
+			}),
+			q(84444, {	-- Invitation to the Spirit Festival (H)
+				["description"] = "Auto-accepted once criteria is met.",
+			}),
+			q(84451, {	-- The Wanderers (A)
+				["sourceQuests"] = { 84442 },	-- Invitation to the Spirit Festival
+				["provider"] = { "n", },	-- Li Li Stormstout
+				["coord"] = {},
+			}),
+			q(84452, {	-- The Wanderers (H)
+				["sourceQuests"] = { 84444 },	-- Invitation to the Spirit Festival
+				["provider"] = { "n", },	-- Li Li Stormstout
+				["coord"] = {},
+			}),
+			q(84456, {	-- To Morning Breeze (A)
+				["sourceQuests"] = { 84451 },	-- The Wanderers
+				["provider"] = { "n", },	-- Aysa Cloudsinger
+				["coord"] = {},
+			}),
+			q(84457, {	-- To Morning Breeze (H)
+				["sourceQuests"] = { 84452 },	-- The Wanderers
+				["provider"] = { "n", },	-- Ji Firepaw
+				["coord"] = {},
+			}),
+			q(84453, {	-- To Dai-Lo Farmstead
+				["sourceQuests"] = {
+					84452,	-- The Wanderers (H)
+				},
+				["provider"] = {"n", },	-- Chen Stormstout
+				["coord"] = {},
+			}),
+			q(84454, {	-- Tide of Virmen
+				["sourceQuests"] = { 84453 },	-- To Dai-Lo Farmstead
+				["provider"] = { "n", },	-- Chen Stormstout
+				["coord"] = {},
+				["groups"] = {
+					i(229004),	-- Vegetable Medley
+				},
+			}),
+			q(84455, {	-- Big Bertha
+				["description"] = "She is underground in the Virmen tunnels.",
+				["sourceQuests"] = { 84453 },	-- To Dai-Lo Farmstead
+				["provider"] = { "n", },	-- Chon Po Stormstout
+				["coord"] = {},
+			}),
+			q(84468, {	-- Brew You One Better
+				["sourceQuests"] = {
+					84454,	-- Tide of Virmen
+					84455,	-- Big Bertha
+				},
+				["provder"] = { "n", },	-- Chen Stormstout
+				["coord"] = {},
+			}),
+			q(84459, {	-- Scamps Ain't It!
+				["sourceQuests"] = {
+					84457,	-- To Morning Breeze (H)
+				},
+				["provider"] = { "n", },	-- Ji Firepaw
+				["coord"] = {},
+				["groups"] = {
+					i(234621),	-- Used Fireworks (QI!)
+					i(234622),	-- Short Grain Rice  (QI!)
+					i(234623),	-- Barley Grains (QI!)
+					i(234625),	-- Freshwater Crabs (QI!)
+				},
+			}),
+			q(84458, {	-- Devil's in the Details
+				["sourceQuests"] = {
+					84457,	-- To Morning Breeze (H)
+				},
+				["provider"] = { "n", },	-- Aysa Cloudsinger
+				["coord"] = {},
+			}),
+			q(84460, {	-- Red Hand or Herring?
+				["sourceQuests"] = {
+					84458,	-- Devil's in the Details
+					84459,	-- Scamps Ain't It!
+				},
+				["provider"] = { "n", },	-- Aysa Cloudsinger
+				["coord"] = {},
+			}),
+			q(84461, {	-- It's Not a Spirit Festival Without Spirits
+				["sourceQuests"] = {
+					84460,	-- Red Hand or Herring?
+					84468,	-- Brew You One Better
+				},
+				["provder"] = { "n", },	-- Mr. Crane
+			}),
+			q(84462, {	-- Patterns in Static
+				["sourceQuests"] = { 84461 },	-- It's Not a Spirit Festival Without Spirits
+				["provder"] = { "n", },	-- Li Li Stormstout
+				["coord"] = {},
+			}),
+			q(84463, {	-- Codependency
+				["sourceQuests"] = { 84462 },	-- Patterns in Static
+				["provder"] = { "n", },	-- Jojo Ironbrow
+				["coord"] = {},
+			}),
+			q(84464, {	-- Lost My Spark
+				["sourceQuests"] = { 84463 },	-- Codependency
+				["provder"] = { "n", },	-- Li Li Stormstout
+				["coord"] = {},
+			}),
+			q(84465, {	-- Of Water and Blood
+				["sourceQuests"] = { 84464 },	-- Lost My Spark
+				["provder"] = { "n", },	-- Li Li Stormstout
+				["coord"] = {},
+				["groups"] = {
+					i(235715),	-- Blue Floristar (QI!)
+				},
+			}),
+			q(84466, {	-- Thousands of Years Ago...
+				["sourceQuests"] = { 84465 },	-- Of Water and Blood
+				["provder"] = { "n", },	-- Li Li Stormstout
+				["coord"] = {},
+			}),
+			q(84467, {	-- This Was Home
+				["sourceQuests"] = { 84466 },	-- Thousands of Years Ago...
+				["provder"] = { "n", },	-- Lorewalker Cho
+				["coord"] = {},
+				["groups"] = {
+					i(235818),	-- Celestial Firework
+				},
+			}),
+			q(92030, {	-- A New Tradition
+				["sourceQuests"] = { 84467 },	-- This Was Home
+				["provder"] = { "n", },	-- Lorewalker Cho
+				["coord"] = {},
+				["groups"] = {
+					i(242520),	-- Festival Hot Air Balloon (TOY!)
+					i(258635),	-- Ensemble: Heritage of the Wandering Isle
+					i(258657),	-- Ensemble: Heritage of the Wandering Isle
+					i(258625),	-- Tushui Legwraps
+					i(258626),	-- Tushui Wooden Capsa
+					i(258628),	-- Tushui Bamboo Cover
+					i(258629),	-- Tushui Charm Band
+					i(258630),	-- Tushui Sandals
+					i(258631),	-- Tushui Tunic
+					i(258632),	-- Tushui Wraps
+					i(258633),	-- Tushui Travel Belt
+					i(258634),	-- Tushui Shoulderguards
+					i(258639),	-- Huojin Legwraps
+					i(258640),	-- Huojin Wooden Capsa
+					i(258641),	-- Huojin Bamboo Cover
+					i(258642),	-- Huojin Charm Band
+					i(258643),	-- Huojin Sandals
+					i(258644),	-- Huojin Tunic
+					i(258645),	-- Huojin Wraps
+					i(258646),	-- Huojin Travel Belt
+					i(258647),	-- Huojin Shoulderguards
+					i(258648),	-- Wandering Isle Legwraps
+					i(258649),	-- Wandering Isle Capsa
+					i(258650),	-- Wandering Isle Cover
+					i(258651),	-- Wandering Isle Charm
+					i(258652),	-- Wandering Isle Sandals
+					i(258653),	-- Wandering Isle Tunic
+					i(258654),	-- Wandering Isle Wraps
+					i(258655),	-- Wandering Isle Travel Belt
+					i(258656),	-- Wandering Isle Shoulderguards
+				},
 			}),
 		}),
-	i(258639),	-- Huojin Legwraps
-	i(258640),	-- Huojin Wooden Capsa
-	i(258641),	-- Huojin Bamboo Cover
-	i(258642),	-- Huojin Charm Band
-	i(258643),	-- Huojin Sandals
-	i(258644),	-- Huojin Tunic
-	i(258645),	-- Huojin Wraps
-	i(258646),	-- Huojin Travel Belt
-	i(258647),	-- Huojin Shoulderguards
-	i(258648),	-- Wandering Isle Legwraps
-	i(258649),	-- Wandering Isle Capsa
-	i(258650),	-- Wandering Isle Cover
-	i(258651),	-- Wandering Isle Charm
-	i(258652),	-- Wandering Isle Sandals
-	i(258653),	-- Wandering Isle Tunic
-	i(258654),	-- Wandering Isle Wraps
-	i(258655),	-- Wandering Isle Travel Belt
-	i(258656),	-- Wandering Isle Shoulderguards
-	i(258657),	-- Ensemble: Heritage of the Wandering Isle
-	i(258625),	-- Tushui Legwraps
-	i(258626),	-- Tushui Wooden Capsa
-	i(258628),	-- Tushui Bamboo Cover
-	i(258629),	-- Tushui Charm Band
-	i(258630),	-- Tushui Sandals
-	i(258631),	-- Tushui Tunic
-	i(258632),	-- Tushui Wraps
-	i(258633),	-- Tushui Travel Belt
-	i(258634),	-- Tushui Shoulderguards
-	i(258635),	-- Ensemble: Heritage of the Wandering Isle
+
 	})),--]]
 	race(TAUREN, bubbleDown({ ["timeline"] = { ADDED_8_2_0 }, ["races"] = { TAUREN } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Tauren|r that has completed |cFFFFD700Stay of Execution|r, the 8.2 War Campaign.",
