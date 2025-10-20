@@ -2628,3 +2628,9 @@ i(243145);	-- Well-Preserved Wrappings
 ------------------
 -- PATCH 12.0.0 --
 ------------------
+i(244041);	-- Budding Seed
+i(243845);	-- Petalwrap Sack
+i(243844);	-- Petalwrap Bag
+i(244039);	-- Pitcher Plant Vase
+i(244040);	-- Sack of Seeds
+i(244038);	-- Vinetwinted Crate

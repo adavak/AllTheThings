@@ -6,11 +6,12 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MID, {
 		filter(CLOTH, {
 		}),
 		filter(LEATHER, {
-			i(258876),	-- Frayed Guise	// Zul'Aman?
-			i(258879),	-- Frayed Strap	// Zul'Aman?
+			i(258876),	-- Frayed Guise
+			i(258879),	-- Frayed Strap
 		}),
 		filter(MAIL, {
-			i(258852),	-- Stained Greaves // Zul'Aman?
+			i(258852),	-- Stained Greaves
+			i(258854),	-- Stained Pauldrons
 		}),
 		filter(PLATE, {
 		}),
