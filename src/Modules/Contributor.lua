@@ -2166,7 +2166,7 @@ local function OnQUEST_DETAIL(...)
 	end
 	api.LastQUEST_DETAIL = questID
 
-	local objRef = app.SearchForObject("questID", questID, "field")
+	local objRef = app.SearchForObject("questID", questID, "field") or app.CreateQuest(questID)
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",objRef and objRef.hash)
 	app.CheckInaccurateQuestInfo(objRef, "viewed")
 
