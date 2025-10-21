@@ -111,6 +111,8 @@ namespace ATT
 
         public static HashSet<string> SORTABLE_FIELDS { get; set; }
 
+        public static HashSet<string> AUTO_LOCALIZE_TYPES { get; set; }
+
         /// <summary>
         /// Represents the function to use when performing a processing pass against the data
         /// </summary>
@@ -536,20 +538,7 @@ namespace ATT
             }
         }
 
-        private static HashSet<string> _autoLocalizeTypes;
-        private static bool AutoLocalizeType(string type)
-        {
-            if (_autoLocalizeTypes == null)
-            {
-                var types = Config["AutoLocalizeTypes"];
-                if (types != null)
-                {
-                    _autoLocalizeTypes = new HashSet<string>((string[])Config["AutoLocalizeTypes"]);
-                }
-                else _autoLocalizeTypes = new HashSet<string>();
-            }
-            return _autoLocalizeTypes.Contains(type);
-        }
+        private static bool AutoLocalizeType(string type) => AUTO_LOCALIZE_TYPES.Contains(type);
 
         /// <summary>
         /// Represents that data will be merged into the base dictionaries.
@@ -844,6 +833,9 @@ namespace ATT
                 }
             }
             ImportConfiguredObjectTypes(Config["ObjectTypes"]);
+
+            string[] types = Config["AutoLocalizeTypes"];
+            AUTO_LOCALIZE_TYPES = new HashSet<string>(types ?? Array.Empty<string>());
         }
 
         private static void ImportConfiguredObjectTypes(CustomConfigurationNode objectTypesConfig)
