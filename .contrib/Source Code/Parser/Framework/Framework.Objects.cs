@@ -983,33 +983,33 @@ namespace ATT
             public static void AssignFactionID(IDictionary<string, object> data)
             {
                 // Calculate the faction ID. (0 is no faction)
-                if (data.TryGetValue("races", out object racesRef) && racesRef is List<object> races)
+                if (!data.TryGetValue("races", out List<object> races))
+                    return;
+
+                // Neutral Pandas technically get access to both horde and alliance things, the undecisive bastards.
+                bool hadNeutralPandaren = races.Remove(24);
+
+                // Alliance Only?
+                if (ALLIANCE_ONLY.Matches(races))
                 {
-                    // Neutral Pandas technically get access to both horde and alliance things, the undecisive bastards.
-                    bool hadNeutralPandaren = races.Remove(24);
+                    data["r"] = 2;  // Alliance Only!
+                    data.Remove("races");   // We do not need to include races for this as it is ALLIANCE_ONLY.
+                }
+                // Horde Only?
+                else if (HORDE_ONLY.Matches(races))
+                {
+                    data["r"] = 1;  // Horde Only!
+                    data.Remove("races");   // We do not need to include races for this as it is HORDE_ONLY.
+                }
+                else
+                {
+                    // Add back neutral pandaren if we removed them.
+                    if (hadNeutralPandaren) races.Add(24);
 
-                    // Alliance Only?
-                    if (ALLIANCE_ONLY.Matches(races))
+                    // All Races?
+                    if (ALL_RACES.Matches(races))
                     {
-                        data["r"] = 2;  // Alliance Only!
-                        data.Remove("races");   // We do not need to include races for this as it is ALLIANCE_ONLY.
-                    }
-                    // Horde Only?
-                    else if (HORDE_ONLY.Matches(races))
-                    {
-                        data["r"] = 1;  // Horde Only!
-                        data.Remove("races");   // We do not need to include races for this as it is HORDE_ONLY.
-                    }
-                    else
-                    {
-                        // Add back neutral pandaren if we removed them.
-                        if (hadNeutralPandaren) races.Add(24);
-
-                        // All Races?
-                        if (ALL_RACES.Matches(races))
-                        {
-                            data.Remove("races");   // We do not need to include races for this as it is ALL_RACES.
-                        }
+                        data.Remove("races");   // We do not need to include races for this as it is ALL_RACES.
                     }
                 }
             }

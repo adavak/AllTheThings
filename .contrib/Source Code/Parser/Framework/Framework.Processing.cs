@@ -938,12 +938,6 @@ namespace ATT
         {
             Items.MergeInto(data);
             Objects.MergeSharedDataIntoObject(data);
-
-            Objects.AssignFactionID(data);
-
-            // Currently, this merges in data from actual Recipes to other non-Recipe Items which are linked to the same SpellID
-            // i.e. /att i:200037 causing them to magically become Recipes!
-            // Luckily, we don't overwrite existing fields, so we can strip out fields based on Filter types afterwards...
         }
 
         /// <summary>
@@ -1005,8 +999,6 @@ namespace ATT
 
             Consolidate_lvl(data);
             Consolidate_item(data, parentData);
-            CheckHeirloom(data);
-            CheckTrackableFields(data);
             CheckRequiredDataRelationships(data);
             CheckObjectConversion(data);
 
@@ -1032,27 +1024,6 @@ namespace ATT
             // during consolidation we may realize that data is not useful, and can mark it to be removed before further steps take place
             if (data.TryGetValue("_remove", out remove) && remove)
                 return false;
-
-            // only clean the name after other processing is complete
-            if (data.TryGetValue("name", out string name))
-            {
-                // Determine the Most-Significant ID Type
-                if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue) && objKeyValue.TryConvert(out long id))
-                {
-                    // Store the name of this object (or whatever it is) in our table.
-                    if (!NAMES_BY_TYPE.TryGetValue(objectData.ObjectType, out Dictionary<long, string> names))
-                    {
-                        NAMES_BY_TYPE[objectData.ObjectType] = names = new Dictionary<long, string>();
-                    }
-                    names[id] = name;
-
-                    // only certain types we will auto-localize, so remove the raw 'name' field
-                    if (AutoLocalizeType(objectData.ObjectType))
-                    {
-                        data.Remove("name");
-                    }
-                }
-            }
 
             // Remove mod/bonus from ignoreBonus items
             if (data.ContainsKey("ignoreBonus"))
@@ -1136,11 +1107,42 @@ namespace ATT
             Consolidate_providers(data);
             Consolidate_altQuests(data);
             Consolidate_awprwp(data);
+            Consolidate_Heirloom(data);
+            CheckTrackableFields(data);
             CheckRequireSkill(data);
             Consolidate_ConflictingFields(data);
             Consolidate_ReferencedIDs(data);
             Consolidate_ListOrdering(data);
             Objects.AssignFactionID(data);
+
+            // OnTooltip references should be stored in ExportDB.OnTooltipDB, so mark those which are referenced
+            CheckExportDataRefs(data, "OnTooltip");
+
+            // OnUpdate references should be stored in ExportDB.OnUpdateDB, so mark those which are referenced
+            CheckExportDataRefs(data, "OnUpdate");
+
+            // OnInit references should be stored in ExportDB.OnInitDB, so mark those which are referenced
+            CheckExportDataRefs(data, "OnInit");
+
+            // OnInit references should be stored in ExportDB.OnClickDB, so mark those which are referenced
+            CheckExportDataRefs(data, "OnClick");
+
+            // convert the 'name' into an auto-localized type
+            if (data.TryGetValue("name", out string name))
+            {
+                // Determine the Most-Significant ID Type
+                if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue) && objKeyValue.TryConvert(out long id))
+                {
+                    // Store the name of this object (or whatever it is) in our table.
+                    NAMES_BY_TYPE.GetOrAdd(objectData.ObjectType, _ => new ConcurrentDictionary<long, string>()).TryAdd(id, name);
+
+                    // only certain types we will auto-localize, so remove the raw 'name' field
+                    if (AutoLocalizeType(objectData.ObjectType))
+                    {
+                        data.Remove("name");
+                    }
+                }
+            }
 
             List<string> removeKeys = new List<string>();
 
@@ -4531,18 +4533,6 @@ namespace ATT
                     LogError($"'criteriaID' {criteriaID} missing 'achID' [{CurrentParentGroup.Value.Key}:{CurrentParentGroup.Value.Value}]", data);
                 }
             }
-
-            // OnTooltip references should be stored in ExportDB.OnTooltipDB, so mark those which are referenced
-            CheckExportDataRefs(data, "OnTooltip");
-
-            // OnUpdate references should be stored in ExportDB.OnUpdateDB, so mark those which are referenced
-            CheckExportDataRefs(data, "OnUpdate");
-
-            // OnInit references should be stored in ExportDB.OnInitDB, so mark those which are referenced
-            CheckExportDataRefs(data, "OnInit");
-
-            // OnInit references should be stored in ExportDB.OnClickDB, so mark those which are referenced
-            CheckExportDataRefs(data, "OnClick");
         }
 
         private static void CheckExportDataRefs(IDictionary<string, object> data, string field)
@@ -5003,46 +4993,42 @@ namespace ATT
         /// Checks to assign an heirloomID to the data if it meets the criteria of being an heirloom
         /// </summary>
         /// <param name="data"></param>
-        private static void CheckHeirloom(IDictionary<string, object> data)
+        private static void Consolidate_Heirloom(IDictionary<string, object> data)
         {
-            if (data.TryGetValue("q", out long quality))
+            if (!data.TryGetValue("q", out long quality) || quality != 7 || !data.TryGetValue("itemID", out object itemID))
+                return;
+
+            // Get the filter for this Item
+            Objects.Filters filter = Objects.Filters.Ignored;
+            if (data.TryGetValue("f", out long f))
             {
-                if (quality == 7 && data.TryGetValue("itemID", out object itemID))
+                if (f >= 0)
                 {
-                    // Get the filter for this Item
-                    Objects.Filters filter = Objects.Filters.Ignored;
-                    if (data.TryGetValue("f", out long f))
-                    {
-                        if (f >= 0)
-                        {
-                            // Parse it!
-                            filter = (Objects.Filters)f;
-                        }
-                    }
-
-                    // Heirlooms quality for non-equippable Items are not really Heirlooms
-                    switch (filter)
-                    {
-                        case Objects.Filters.Ignored:
-                        case Objects.Filters.Faction:
-                        case Objects.Filters.Toy:
-                        case Objects.Filters.Quest:
-                        case Objects.Filters.Recipe:
-                        case Objects.Filters.Mount:
-                            return;
-                        case Objects.Filters.Consumable:
-                            if (!data.ContainsKey("factionID")) return;
-                            break;
-                    }
-
-                    //LogDebugFormatted("ItemID:{0} Marked as Heirloom. Filter: {1}", itemID, filter.ToString());
-                    data["heirloomID"] = itemID;
-                    if (data.ContainsKey("ignoreSource"))
-                    {
-                        Log($"WTF WHY IS THIS HEIRLOOM {itemID} IGNORING SOURCE IDS?!");
-                        Framework.WaitForUser();
-                    }
+                    // Parse it!
+                    filter = (Objects.Filters)f;
                 }
+            }
+
+            // Heirloom quality for non-equippable Items are not really Heirlooms
+            switch (filter)
+            {
+                case Objects.Filters.Ignored:
+                case Objects.Filters.Faction:
+                case Objects.Filters.Toy:
+                case Objects.Filters.Quest:
+                case Objects.Filters.Recipe:
+                case Objects.Filters.Mount:
+                    return;
+                case Objects.Filters.Consumable:
+                    if (!data.ContainsKey("factionID"))
+                        return;
+                    break;
+            }
+
+            data["heirloomID"] = itemID;
+            if (data.ContainsKey("ignoreSource"))
+            {
+                LogError($"Should not have Heirloom {itemID} with 'ignoreSource'", data);
             }
         }
 

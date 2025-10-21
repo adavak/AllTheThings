@@ -240,7 +240,7 @@ namespace ATT
         /// <summary>
         /// All of the names stored for each data type.
         /// </summary>
-        private static IDictionary<string, Dictionary<long, string>> NAMES_BY_TYPE = new Dictionary<string, Dictionary<long, string>>();
+        private static ConcurrentDictionary<string, ConcurrentDictionary<long, string>> NAMES_BY_TYPE = new ConcurrentDictionary<string, ConcurrentDictionary<long, string>>();
 
         /// <summary>
         /// Represents the current parent group when processing the 'g' subgroup
