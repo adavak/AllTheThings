@@ -1194,6 +1194,27 @@ namespace ATT
             Consolidate_TrackUsage(data);
         }
 
+        private static void Incorporate_sort_g(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("_sort_g", out List<object> sort_g))
+                return;
+
+            if (sort_g.Count < 2)
+            {
+                Objects.Merge(data, "g", sort_g);
+            }
+            else
+            {
+                ConcurrentDataList sortedg = new ConcurrentDataList();
+                foreach (IDictionary<string, object> subdata in sort_g.AsTypedEnumerable<IDictionary<string, object>>())
+                {
+                    sortedg.Add(subdata);
+                }
+
+                Objects.Merge(data, "g", sortedg);
+            }
+        }
+
         private static void Consolidate_coords(IDictionary<string, object> data)
         {
             if (!data.TryGetValue(out Coords coords))
@@ -1361,6 +1382,7 @@ namespace ATT
         {
             Incorporate__spellQuests(data);
             Incorporate_DataCloning(data);
+            Incorporate_sort_g(data);
         }
 
         private static void Incorporate__spellQuests(IDictionary<string, object> data)
@@ -4704,7 +4726,7 @@ namespace ATT
             // Convert various 'providers' data into data on the parent data
             if (data.TryGetValue("providers", out List<object> providers))
             {
-                ConcurrentDataList parentg = new ConcurrentDataList();
+                List<object> parentg = new List<object>();
                 List<object> parentProviders = new List<object>();
                 List<long> parentCrs = new List<long>();
                 List<long> parentQis = new List<long>();
@@ -4791,7 +4813,7 @@ namespace ATT
 
                 if (parentg.Count > 0)
                 {
-                    Objects.Merge(parentData, "g", parentg);
+                    Objects.Merge(parentData, "_sort_g", parentg);
                     LogDebug($"Merged 'g' to parent from Objective: {ToJSON(parentg)}", parentData);
                 }
             }

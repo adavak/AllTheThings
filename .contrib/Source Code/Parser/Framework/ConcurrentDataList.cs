@@ -92,6 +92,12 @@ namespace ATT
                 ObjectData.TryGetMostSignificantObjectType(x, out ObjectData xo, out object akey);
                 ObjectData.TryGetMostSignificantObjectType(y, out ObjectData yo, out object bkey);
 
+                // keep similar types together
+                int compare = Framework.Compare(xo.ObjectType, yo.ObjectType);
+                if (compare != 0)
+                    return compare;
+
+                // then sort by key value within each type
                 akey = ObjectData.GetAdjustedTypeKeyValue(xo, x);
                 bkey = ObjectData.GetAdjustedTypeKeyValue(yo, y);
 

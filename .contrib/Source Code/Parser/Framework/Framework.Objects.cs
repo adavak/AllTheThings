@@ -1719,20 +1719,9 @@ end");
                 {
                     case "g":
                         {
-                            // Attempt to cache the existing groups list.
-                            List<object> groups;
-                            if (item.TryGetValue("g", out object objRef))
+                            if (!item.TryGetValue("g", out List<object> groups))
                             {
-                                groups = objRef as List<object>;
-                                if (groups == null)
-                                {
-                                    LogError($"'g' is weird and cannot parse! {ToJSON(objRef)}", item);
-                                    return;
-                                }
-                            }
-                            else
-                            {
-                                // Create a new groups list.
+                                // Create a new g list.
                                 item["g"] = groups = new List<object>();
                             }
 
@@ -1748,7 +1737,29 @@ end");
                             else
                             {
                                 LogError($"Weird 'g' value??", value);
-                                WaitForUser();
+                            }
+                            break;
+                        }
+                    case "_sort_g":
+                        {
+                            if (!item.TryGetValue("_sort_g", out List<object> groups))
+                            {
+                                // Create a new _sort_g list.
+                                item["_sort_g"] = groups = new List<object>();
+                            }
+
+                            // Attempt to merge the sub groups together.
+                            if (value is IEnumerable<object> list)
+                            {
+                                Merge(groups, list);
+                            }
+                            else if (value is IDictionary<string, object> data)
+                            {
+                                Merge(groups, data);
+                            }
+                            else
+                            {
+                                LogError($"Weird '_sort_g' value", value);
                             }
                             break;
                         }
