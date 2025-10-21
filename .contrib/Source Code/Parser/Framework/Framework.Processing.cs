@@ -4550,15 +4550,7 @@ namespace ATT
             if (data.TryGetValue(field, out string fieldRef))
             {
                 var ontooltipName = fieldRef.Replace($"_.{field}DB.", string.Empty);
-                if (!EXPORTDATA_WITH_REFERENCES.TryGetValue(field, out List<string> names))
-                {
-                    EXPORTDATA_WITH_REFERENCES[field] = names = new List<string>();
-                }
-
-                if (!names.Contains(ontooltipName))
-                {
-                    names.Add(ontooltipName);
-                }
+                EXPORTDATA_WITH_REFERENCES.GetOrAdd(field, _ => new ConcurrentHashSet<string>()).Add(ontooltipName);
             }
         }
 

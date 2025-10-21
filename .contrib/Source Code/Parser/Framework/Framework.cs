@@ -228,7 +228,7 @@ namespace ATT
         /// <summary>
         /// All of the Export Data Keys that have been referenced somewhere in the database.
         /// </summary>
-        private static IDictionary<string, List<string>> EXPORTDATA_WITH_REFERENCES = new ConcurrentDictionary<string, List<string>>();
+        private static ConcurrentDictionary<string, ConcurrentHashSet<string>> EXPORTDATA_WITH_REFERENCES = new ConcurrentDictionary<string, ConcurrentHashSet<string>>();
 
         /// <summary>
         /// All of the achievements that have been parsed sorted by Achievement ID.
@@ -4069,7 +4069,7 @@ setmetatable(_.HeaderConstants, {
                     {
                         case "OnTooltipDB":
                             {
-                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnTooltip", out List<string> names))
+                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnTooltip", out ConcurrentHashSet<string> names))
                                 {
                                     Dictionary<string, object> exports = exportDB.Value as Dictionary<string, object>;
                                     CleanupExportDictionaryValue(exports, names);
@@ -4079,7 +4079,7 @@ setmetatable(_.HeaderConstants, {
                             break;
                         case "OnUpdateDB":
                             {
-                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnUpdate", out List<string> names))
+                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnUpdate", out ConcurrentHashSet<string> names))
                                 {
                                     Dictionary<string, object> exports = exportDB.Value as Dictionary<string, object>;
                                     CleanupExportDictionaryValue(exports, names);
@@ -4089,7 +4089,7 @@ setmetatable(_.HeaderConstants, {
                             break;
                         case "OnInitDB":
                             {
-                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnInit", out List<string> names))
+                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnInit", out ConcurrentHashSet<string> names))
                                 {
                                     Dictionary<string, object> exports = exportDB.Value as Dictionary<string, object>;
                                     CleanupExportDictionaryValue(exports, names);
@@ -4099,7 +4099,7 @@ setmetatable(_.HeaderConstants, {
                             break;
                         case "OnClickDB":
                             {
-                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnClick", out List<string> names))
+                                if (EXPORTDATA_WITH_REFERENCES.TryGetValue("OnClick", out ConcurrentHashSet<string> names))
                                 {
                                     Dictionary<string, object> exports = exportDB.Value as Dictionary<string, object>;
                                     CleanupExportDictionaryValue(exports, names);
