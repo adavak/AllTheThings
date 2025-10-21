@@ -1008,8 +1008,13 @@ namespace ATT
             /// </summary>
             public static void DetermineSourceID(IDictionary<string, object> data)
             {
-                const bool DoSpammyDebugLogging = false;
                 decimal sourceIDKey = GetSourceIDKey(data);
+                if (data.TryGetValue("sourceID", out long existingSourceID) && existingSourceID > 0)
+                {
+                    LogDebug($"INFO: Item:{sourceIDKey} already has SourceID:{existingSourceID} assigned.", data);
+                    return;
+                }
+                const bool DoSpammyDebugLogging = false;
                 if (sourceIDKey == 0) return;
 
                 if (data.ContainsKey("ignoreSource"))
