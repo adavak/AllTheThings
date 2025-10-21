@@ -665,6 +665,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["sourceQuest"] = 86457,	-- A Lullaby of Hope
 						["qg"] = 231820,	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
+						["maps"] = { 2449 },	-- Eco-Dome Al'dani
 						["groups"] = { campsite(119) },	-- The Fate of the Devoured (CS!)
 					}),
 					------ Stay awhile and listen ------

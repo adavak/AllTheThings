@@ -217,6 +217,13 @@ namespace ATT.FieldTypes
             MapID = MapID
         };
 
+        public float DistanceTo(Coord other)
+        {
+            float dx = other.X - X;
+            float dy = other.Y - Y;
+            return (float)Math.Sqrt(dx * dx + dy * dy);
+        }
+
         public override string ToString() => $"[{X},{Y},{MapID}]";
 
         public bool Validate() =>

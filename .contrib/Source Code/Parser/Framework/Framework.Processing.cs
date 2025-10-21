@@ -189,6 +189,7 @@ namespace ATT
                 // check for needed coord shifts on any coords within this group (based on timeline)
                 AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("coords"), DoShiftCoords);
             }
+            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("coords"), Consolidate_coords);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
             AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
@@ -1191,6 +1192,36 @@ namespace ATT
                 data.Remove(key);
             }
             Consolidate_TrackUsage(data);
+        }
+
+        private static void Consolidate_coords(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue(out Coords coords))
+                return;
+
+            // Check for identical coords on the same data
+            if (coords.Count > 1)
+            {
+                var result = new List<(Coord, Coord)>();
+                for (int i = 0; i < coords.Count; i++)
+                {
+                    Coord icoord = coords[i];
+                    for (int j = i + 1; j < coords.Count; j++)
+                    {
+                        Coord jcoord = coords[j];
+                        // do we need to concern with map-based minimum coord distances?
+                        if (icoord.MapID == jcoord.MapID && icoord.DistanceTo(jcoord) <= 0)
+                        {
+                            result.Add((icoord, jcoord));
+                        }
+                    }
+                }
+
+                if (result.Count > 0)
+                {
+                    LogWarn($"Multiple Coords are identical: {ToJSON(result)}", data);
+                }
+            }
         }
 
         private static void DoShiftCoords(IDictionary<string, object> data)
