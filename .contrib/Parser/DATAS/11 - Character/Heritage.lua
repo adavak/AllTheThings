@@ -1207,8 +1207,8 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					84454,	-- Tide of Virmen
 					84455,	-- Big Bertha
 				},
-				["provder"] = { "n", },	-- Chen Stormstout
 				["coord"] = {},
+				["provder"] = { "n", },	-- Chen Stormstout
 			}),
 			q(84459, {	-- Scamps Ain't It!
 				["sourceQuests"] = {
@@ -1247,44 +1247,44 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 			q(84462, {	-- Patterns in Static
 				["sourceQuests"] = { 84461 },	-- It's Not a Spirit Festival Without Spirits
-				["provder"] = { "n", },	-- Li Li Stormstout
 				["coord"] = {},
+				["provder"] = { "n", },	-- Li Li Stormstout
 			}),
 			q(84463, {	-- Codependency
 				["sourceQuests"] = { 84462 },	-- Patterns in Static
-				["provder"] = { "n", },	-- Jojo Ironbrow
 				["coord"] = {},
+				["provder"] = { "n", },	-- Jojo Ironbrow
 			}),
 			q(84464, {	-- Lost My Spark
 				["sourceQuests"] = { 84463 },	-- Codependency
-				["provder"] = { "n", },	-- Li Li Stormstout
 				["coord"] = {},
+				["provder"] = { "n", },	-- Li Li Stormstout
 			}),
 			q(84465, {	-- Of Water and Blood
 				["sourceQuests"] = { 84464 },	-- Lost My Spark
-				["provder"] = { "n", },	-- Li Li Stormstout
 				["coord"] = {},
+				["provder"] = { "n", },	-- Li Li Stormstout
 				["groups"] = {
 					i(235715),	-- Blue Floristar (QI!)
 				},
 			}),
 			q(84466, {	-- Thousands of Years Ago...
 				["sourceQuests"] = { 84465 },	-- Of Water and Blood
-				["provder"] = { "n", },	-- Li Li Stormstout
 				["coord"] = {},
+				["provder"] = { "n", },	-- Li Li Stormstout
 			}),
 			q(84467, {	-- This Was Home
 				["sourceQuests"] = { 84466 },	-- Thousands of Years Ago...
-				["provder"] = { "n", },	-- Lorewalker Cho
 				["coord"] = {},
+				["provder"] = { "n", },	-- Lorewalker Cho
 				["groups"] = {
 					i(235818),	-- Celestial Firework
 				},
 			}),
 			q(92030, {	-- A New Tradition
 				["sourceQuests"] = { 84467 },	-- This Was Home
-				["provder"] = { "n", },	-- Lorewalker Cho
 				["coord"] = {},
+				["provder"] = { "n", },	-- Lorewalker Cho
 				["groups"] = {
 					i(242520),	-- Festival Hot Air Balloon (TOY!)
 					i(258635),	-- Ensemble: Heritage of the Wandering Isle

@@ -12,7 +12,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			o(539051, {	-- Mrruk's Mangy Trove
 				["coord"] = { 52.3, 66.0, ZULAMAN_MID },
 				["questID"] = 90797,
-				["g"] = {
+				["groups"] = {
 					i(256164),	-- [DNT] Broken Oar (TODO: PH?)
 					i(255428),	-- Tolbani's Medicine Satchel
 				},
@@ -28,12 +28,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),]]--
 			--Repeatable?
 			o(555462, {	-- Forgotten Amani Cache
-				["g"] = {
+				["groups"] = {
 					i(259112),	-- Housing Dye: Dark Gold
 				},
 			}),
 			--[[o(XXXX, {	-- Stonewash Supplies
-				["g"] = {
+				["groups"] = {
 					--there is no loot
 				},
 			}),]]--

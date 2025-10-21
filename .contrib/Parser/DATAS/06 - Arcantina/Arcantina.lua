@@ -73,14 +73,14 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 	n(VENDORS, {
 		n(250495, {	-- Bartender Bob
 			["coord"] = { 62.4, 66.9, ARCANTINA },
-			["g"] = {
+			["groups"] = {
 				i(2460),	-- Elixir of Tongues
 				i(251039),	-- Toasting Brew
 			},
 		}),
 		n(252873, {	-- Morta Gage <Decor Specialist>
 			["coord"] = { 42.0, 50.1, ARCANTINA },
-			["g"] = {
+			["groups"] = {
 				i(253176, {	-- Ancient Zandalari Ritual Scroll
 					["cost"] = {{"c", 3316, 750}},
 				}),

@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 		n(VENDORS, {
 			n(251259, {	-- Mothkeeper Wew'tam
 				["coord"] = { 49.3, 54.3, HARANDAR },
-				["g"] = {
+				["groups"] = {
 					i(257155, {	-- Groovewarden's Kris (COSMETIC!)
 						["cost"] = {{"c", 3385, 10}},	-- Luminous Dust
 					}),
@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			n(240407, {	-- Naynar <Renown Quartermaster>
 				["coord"] = { 51.0, 50.7, HARANDAR },
-				["g"] = {
+				["groups"] = {
 					--TODO: add
 				},
 			}),

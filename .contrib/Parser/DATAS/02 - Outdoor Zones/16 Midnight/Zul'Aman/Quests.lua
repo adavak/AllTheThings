@@ -110,6 +110,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86716,	-- Armed by Light
 							86721,	-- Everything We Worked For
 						},
+						},
 						["provider"] = { "n", 236541 },	-- Zul'jarra
 						--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
 						["groups"] = {
@@ -452,9 +453,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			header(HEADERS.Achievement, 61452, {	-- Sojourner of Zul'Aman
 				header(HEADERS.AchCriteria, 61452.01, {	-- Healing the Spirit
 					q(91206, {	-- Loa Disturbance
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254665 },	-- Elder Doru
 						["coord"] = { 43.1, 67.9, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(87254, {	-- Curse Cleanse
 						["sourceQuests"] = { 91206 },	-- Loa Disturbance
@@ -505,17 +506,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.02, {	-- [PH] Logging Camp
 					q(88986, {	-- Blind The Bandits
-						--["sourceQuests"] = { XXX },	-- ??
 						["provider"] = { "n", 240521 },	-- Woodcrafter Azai
 						["coord"] = { 28.4, 27.3, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ??
 						["groups"] = {
 							i(238962),	-- Lightwood Splinters (QI!)
 						},
 					}),
 					q(88987, {	-- Salvaged Sabotage
-						--["sourceQuests"] = { XXX },	-- ??
 						["provider"] = { "n", 240521 },	-- Woodcrafter Azai
 						["coord"] = { 28.4, 27.3, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ??
 						["groups"] = {
 							o(525374, {	--
 								i(238964),	-- Stolen Equipment (QI!)
@@ -548,9 +549,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.03, {	-- Love Triangle
 					q(89231, {	-- A Fighter Not a Lover
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 240977 },	-- Zak'kash
 						["coord"] = { 43.9, 66.0, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 						["groups"] = {
 							i(249236),	-- Amani Headdress (QI!)
 							o(567976, {	-- 
@@ -559,11 +560,11 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(89230, {	-- A Lover Not a Fighter
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 240976 },	-- Kagara
 						["coord"] = { 44.0, 66.2, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 						["groups"] = {
-							i(249271),	-- Gnarldin Necklace (QI!) 
+							i(249271),	-- Gnarldin Necklace (QI!)
 						},
 					}),
 					q(89233, {	-- Love Triangle
@@ -577,9 +578,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.04, {	-- Sorrowing Kin
 					q(89565, {	-- The Path of Mourning
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 242014 },	-- Chana
 						["coord"] = { 45.4, 69.7, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(89503, {	-- Somber Siblings
 						["sourceQuests"] = { 89565 },	-- The Path of Mourning
@@ -626,9 +627,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.05, {	-- [TODO: missing name, some quest in criteria wrapper could be not from it]
 					q(90481, {	-- I Have a Permit
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 242383 },	-- Seeker Crikkash
 						["coord"] = { 46.3, 26.1, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(90484, {	-- Sightseeing Stegadon
 						["sourceQuests"] = { 90481 },	-- I Have a Permit
@@ -686,9 +687,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.06, {	-- The Voice of Nalorakk
 					q(91813, {	-- The Spiritpaw
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 248657 },	-- Pel'na Torntusk
 						["coord"] = { 33.6, 78.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(91747, {	-- Not Quite Nalorakk
 						["sourceQuests"] = { 91813 },	-- The Spiritpaw
@@ -729,9 +730,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.07, {	-- Reclaiming de Honor
 					q(92492, {	-- Honorin' de Sacrifice
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245664 },	-- Lilaju
 						["coord"] = { 33.6, 78.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(92495, {	-- Disruptin' de Blade
 						["sourceQuests"] = { 92492 },	-- Honorin' de Sacrifice
@@ -789,14 +790,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.08, {	-- Vengeance for Tolbani
 					q(91069, {	-- Vengeance for Tolbani
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
 						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(91070, {	-- Reclaim The Goods
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
 						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 						["groups"] = {
 							o(548731, {	-- 
 								i(245588),	-- Food Provisions (QI!)
@@ -804,9 +805,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(91071, {	-- The Menace of Atal'Abasi
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
 						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(91556, {	-- Loa's Flame
 						["sourceQuests"] = {
@@ -822,9 +823,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.10, {	-- No Fear
 					q(92450, {	-- Growing Up is Hard
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 251258 },	-- Ani
 						["coord"] = { 45.2, 69.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(92451, {	-- I Think I Can
 						["sourceQuests"] = { 92450 },	-- Growing Up is Hard
@@ -833,8 +834,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					q(92452, {	-- Not According to Plan
 						["sourceQuests"] = { 92451 },	-- I Think I Can
-						--["provider"] = { "o", XXXX },	-- Ani's Trinket Bag
 						["coord"] = { 48.7, 66.1, ZULAMAN_MID },
+						--["provider"] = { "o", XXXX },	-- Ani's Trinket Bag
 						["groups"] = {
 							o(587574 , {	-- 
 								i(259345),	-- Ani's Feathered Totem (QI!)
@@ -855,9 +856,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.11, {	-- Bitter Honor
 					q(93093, {	-- Gnarldin Trophies
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 253997 },	-- Kel'venko
 						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 						["groups"] = {
 							i(257084),	-- Bashed In Bark (QI!)
 							i(257090),	-- Bone Belt (QI!)
@@ -870,9 +871,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						},
 					}),
 					q(93094, {	-- Scavenged Victory
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 253997 },	-- Kel'venko
 						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 						["groups"] = {
 							o(588832, {	--
 								i(256685),	-- Hunter's Tablet (QI!)
@@ -897,9 +898,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.13, {	-- A Venomous History
 					q(91406, {	-- Far from the Hinterlands
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
 						["coord"] = { 36.1, 24.8, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(91407, {	-- The Eye of the Loa
 						["sourceQuests"] = { 91406 },	-- Far from the Hinterlands
@@ -973,9 +974,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.14, {	-- [PH] Hub Culture
 					q(93051, {	-- The Final Exam
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254136 },	-- Ri'kari
 						["coord"] = { 44.0, 65.7, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.15, {	-- Something Vile This Way Comes
@@ -983,9 +984,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				header(HEADERS.AchCriteria, 61452.16, {	-- River-Walkers of the Prowl
 					q(93257, {	-- Revantusk at Risk
-						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254488 },	-- Jak'zari
 						["coord"] = { 45.9, 70.7, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ???
 					}),
 					q(93258, {	-- Crab Clues
 						["sourceQuests"] = { 93257 },	-- Revantusk at Risk
@@ -1021,9 +1022,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--Not in but still in zone
 			--Just one quest
 			q(93049, {	-- Homework Support
-				--["sourceQuests"] = { XXX },	-- ??
 				["provider"] = { "n", 254144 },	-- An'jali
 				["coord"] = { 46.7, 68.0, ZULAMAN_MID },
+				--["sourceQuests"] = { XXX },	-- ??
 				["groups"] = {
 					o(613439, {	-- 
 						i(258892),	-- Dragonhawk Fern Frond (QI!)
@@ -1034,9 +1035,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			q(93178, {	-- A Quiet Walk Interrupted (TODO: NYI? missing steps poi and description)
-				--["sourceQuests"] = { XXX },	-- ??
 				["provider"] = { "n", 254716 },	-- Nerunda
 				["coord"] = { 36.7, 25.1, ZULAMAN_MID },
+				--["sourceQuests"] = { XXX },	-- ??
 			}),
 			--Possible Renown 2/3 quest?
 			q(93792, {	-- Blessings of the Loa
@@ -1045,14 +1046,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			--Delves
 			q(93410, {	-- Delver's Call: Twilight Crypts
-				--["provider"] = { "o", XXXX },	-- Twilight Crypts
 				["coord"] = { 43.1, 69.2, ZULAMAN_MID },
+				--["provider"] = { "o", XXXX },	-- Twilight Crypts
 			}),
 			--Odd chain, could be one of criteria questID but missing it?
 			q(93440, {	-- Personal History
-				--["sourceQuests"] = { XXX },	-- ??
 				["provider"] = { "n", 249653 },	-- Zul'jarra
 				["coord"] = { 45.8, 65.5, ZULAMAN_MID },
+				--["sourceQuests"] = { XXX },	-- ??
 			}),
 			q(93433, {	-- Shrine, Sealed, Delivered
 				["sourceQuests"] = { 93440 },	-- Personal History
