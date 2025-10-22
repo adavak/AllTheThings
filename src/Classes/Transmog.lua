@@ -166,8 +166,8 @@ app.DetermineItemLink = function(sourceID)
 	local itemFormat = "item:"..itemID;
 	-- Check Raw Item
 	link = itemFormat;
-	-- if quality is Artifact / Unmodified Item / Category 'Paired' just return the basic Item string
-	if sourceInfo.quality == 6 or sourceInfo.itemModID == 0 or sourceInfo.categoryID == 29 then
+	-- if quality is Unmodified Item / Category 'Paired' just return the basic Item string
+	if sourceInfo.itemModID == 0 or sourceInfo.categoryID == 29 then
 		-- app.PrintDebug("DetermineItemLink:Good",link,sourceID,"(Basic Item Data)");
 		-- app.PrintTable(sourceInfo)
 		return link;
@@ -190,11 +190,34 @@ app.DetermineItemLink = function(sourceID)
 	-- Only try to manually scan for a sourceID if we are Debugging (save regular users from unnecessary lookups)
 	if not app.Debugging then return end
 
+	-- Artifact quality Items, try making an Artifact-style link....
+	if sourceInfo.quality == 6 then
+		-- Main hand first
+		-- itemFormat = "item:"..itemID.."::::::::"..app.Level..":::9::1:8:%d:";
+		itemFormat = "item:"..itemID.."::::::::"..app.Level..":::::1:8:%d:";
+		for m=1,999,1 do
+			---@diagnostic disable-next-line: undefined-field
+			link = itemFormat:format(m);
+			checkID, found = GetSourceID(link);
+			-- app.PrintDebug(link,checkID,found)
+			if found and checkID == sourceID then return link; end
+		end
+		-- Off hand after
+		-- itemFormat = "item:"..itemID.."::::::::"..app.Level..":::::1:8:%d:";
+		-- for m=1,999,1 do
+		-- 	---@diagnostic disable-next-line: undefined-field
+		-- 	link = itemFormat:format(m);
+		-- 	checkID, found = GetSourceID(link);
+		-- 	app.PrintDebug(link,checkID,found)
+		-- 	if found and checkID == sourceID then return link; end
+		-- end
+	end
+
 	-- Check ModIDs
 	-- bonusID 3524 seems to imply "use ModID to determine SourceID" since without it, everything with ModID resolves as the base SourceID from links
 	itemFormat = "item:"..itemID..":::::::::::%d:1:3524";
 	-- /dump AllTheThings.GetSourceID("item:188859:::::::::::5:1:3524")
-	for m=1,199,1 do
+	for m=1,299,1 do
 		---@diagnostic disable-next-line: undefined-field
 		link = itemFormat:format(m);
 		checkID, found = GetSourceID(link);
@@ -204,7 +227,7 @@ app.DetermineItemLink = function(sourceID)
 
 	-- Check BonusIDs
 	itemFormat = "item:"..itemID.."::::::::::::1:%d";
-	for b=1,13999,1 do
+	for b=1,15999,1 do
 		---@diagnostic disable-next-line: undefined-field
 		link = itemFormat:format(b);
 		checkID, found = GetSourceID(link);
