@@ -111,6 +111,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86721,	-- Everything We Worked For
 						},
 						},
+						},
 						["provider"] = { "n", 236541 },	-- Zul'jarra
 						--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
 						["groups"] = {
