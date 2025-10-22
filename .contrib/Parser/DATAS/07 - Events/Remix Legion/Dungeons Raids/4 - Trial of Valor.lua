@@ -57,7 +57,7 @@ local COMMONLOOT = {
 	}),
 };
 
--- These items don't exist in Mythic difficulty
+-- These items don't exist in Mythic difficulty (they do only as Normal and Heroic)
 local COMMONLOOT_NORMAL_HEROIC = {
 	filter(CLOTH, {
 		i(249684),	-- Horns of Unwavering Faith
@@ -74,6 +74,26 @@ local COMMONLOOT_NORMAL_HEROIC = {
 	filter(PLATE, {
 		i(249678),	-- Helheim Hound's Visor
 		i(249679),	-- Sovereign Valarjar Mantle
+	}),
+};
+
+-- These items are copy of the Normal difficulty for Mythic, since it drops the same items
+local COMMONLOOT_MYTHIC = {
+	filter(CLOTH, {
+		i(249684.003),	-- Horns of Unwavering Faith
+		i(249685.003),	-- Mantle of Unforgotten Souls
+	}),
+	filter(LEATHER, {
+		i(249683.003),	-- Shoulderguards of Divine Arts
+		i(249682.003),	-- Supreme Runecaster's Crown
+	}),
+	filter(MAIL, {
+		i(249680.003),	-- Ordained Hunter's Crown
+		i(249681.003),	-- Shoulders of the Dragonslayer
+	}),
+	filter(PLATE, {
+		i(249678.003),	-- Helheim Hound's Visor
+		i(249679.003),	-- Sovereign Valarjar Mantle
 	}),
 };
 
@@ -178,6 +198,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 					CommonBossDrops(clone(COMMONLOOT)),
+					CommonBossDrops(clone(COMMONLOOT_MYTHIC)),
 					BossOnly(ODYN),
 					BossOnly(GUARM),
 					BossOnly(HELYA),

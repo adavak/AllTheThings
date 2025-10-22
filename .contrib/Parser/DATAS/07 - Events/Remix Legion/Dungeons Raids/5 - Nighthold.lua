@@ -48,8 +48,6 @@ local COMMONLOOT = {
 		i(247490),	-- Feathermane Feather Cloak
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247063),	-- Purifier's Drape
 		i(247058),	-- Cloak of Everburning Knowledge
 		i(247066),	-- Cloak of Azj'Aqir
@@ -75,8 +73,6 @@ local COMMONLOOT = {
 		i(247466),	-- Woven Lasher Tendril Bracers
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247003),	-- Purifier's Gloves
 		i(247006),	-- Purifier's Gorget
 		i(247009),	-- Purifier's Leggings
@@ -105,8 +101,6 @@ local COMMONLOOT = {
 		i(247437),	-- Well-Flattened Wristguards
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247019),	-- Doomblade Tunic
 		i(247022),	-- Doomblade Gauntlets
 		i(247025),	-- Doomblade Cowl
@@ -141,8 +135,6 @@ local COMMONLOOT = {
 		i(247495),	-- Vintage Duskwatch Cinch
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247032),	-- Eagletalon Tunic
 		i(247033),	-- Eagletalon Gauntlets
 		i(247035),	-- Eagletalon Cowl
@@ -168,8 +160,6 @@ local COMMONLOOT = {
 		i(247484),	-- Waistplate of Fractured Realities
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247044),	-- Chestplate of the Obsidian Aspect
 		i(247047),	-- Gauntlets of the Obsidian Aspect
 		i(247050),	-- Warhelm of the Obsidian Aspect
