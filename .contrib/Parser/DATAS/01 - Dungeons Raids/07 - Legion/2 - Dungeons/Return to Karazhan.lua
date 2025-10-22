@@ -57,6 +57,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["qg"] = 114310,	-- Archmage Khadgar
 					["coord"] = { 47.0, 75.2, DEADWIND_PASS },
 					["lvl"] = 110,
+					["groups"] = { i(142213) },	-- Empowered Arcane Ward (QI!)
 				}),
 				q(44556, {	-- Return to Karazhan
 					["qg"] = 90417,	-- Archmage Khadgar
@@ -107,15 +108,14 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["qg"] = 18255,	-- Mage Darius
 					["coord"] = { 47.3, 75.0, DEADWIND_PASS },
 					["lvl"] = 110,
-					["groups"] = {
-						i(142461),	-- Violet Seal of the Archmage
-					},
+					["groups"] = { i(142461) },	-- Violet Seal of the Archmage
 				}),
 				q(44733, {	-- The Power of Corruption
 					["sourceQuest"] = 44764,	-- Demon in Disguise
 					["qg"] = 114310,	-- Archmage Khadgar
 					["coord"] = { 46.9, 75.2, DEADWIND_PASS },
 					["lvl"] = 110,
+					["groups"] = { i(142208) },	-- Essence of Wyrmtongue (QI!)
 				}),
 				q(44686, {	-- Thought Collection
 					["sourceQuests"] = {

@@ -620,6 +620,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98646 },	-- Jace Darkweaver
 						["coord"] = { 59.0, 74.0, 721 },
 						["lvl"] = 110,
+						["groups"] = {
+							o(252070, {	-- Fel Engine Ignition
+								["coord"] = { 28.5, 52.2, AZSUNA },
+								["groups"] = { i(139404) },	-- Fel Engine Ignition (QI!)
+							}),
+							o(251771, {	-- Fel Engine Injector
+								["coord"] = { 33.8, 73.6, SURAMAR },
+								["groups"] = { i(138483) },	-- Fel Engine Injector (QI!)
+							}),
+							o(251774, {	-- Soul Configuration Matrix
+								["coord"] = { 34.7, 67.8, SURAMAR },
+								["groups"] = { i(138484) },	-- Soul Configuration Matrix (QI!)
+							}),
+							o(251784, {	-- Vile Spirit Converter
+								["coord"] = { 32.5, 53.8, AZSUNA },
+								["groups"] = { i(138485) },	-- Vile Spirit Converter (QI!)
+							}),
+						},
 					}),
 					q(46133, {	-- Knowledge is Power
 						["u"] = REMOVED_FROM_GAME,

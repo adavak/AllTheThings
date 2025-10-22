@@ -630,8 +630,7 @@ root(ROOTS.Zones, {
 				}),
 				q(39386, {	-- Procuring a Prototype
 					["description"] = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Rating Razik|r on the same character.",
-					["sourceQuests"] = {	-- not sure if all 3 are required, or just Scout it Out
-						39867,	-- I'm Not Lion!
+					["sourceQuests"] = {
 						39178,	-- Moose on the Loose
 						40228,	-- Scout it Out
 					},

@@ -272,6 +272,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["groups"] = { i(237502) },	-- Puzzling Cartel Chip
 			}),
 			------ Season 3 ------
+			q(92331, {	-- Turbo-Boost: Trade Must Flow
+				["provider"] = { "o", 571402 },	-- Bounty: Most Dangerous Foes
+				["coord"] = { 52.4, 46.0, DORNOGAL },
+				["timeline"] = { ADDED_11_2_5 },
+				["groups"] = { i(250741) },	-- Puzzling Cartel Chip
+			}),
 		})),
 	}),
 }));

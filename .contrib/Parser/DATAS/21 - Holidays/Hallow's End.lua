@@ -3085,6 +3085,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 				19177,	-- Troll Commoner
 				19178,	-- Forsaken Commoner
 				20102,	-- Goblin Commoner
+				-- #if AFTER TWW
+				220870,	-- Holiday Enthusiast
+				-- #endif
 			},
 			["timeline"] = { ADDED_4_0_1 },
 			["maps"] = {
@@ -3100,6 +3103,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 				THE_STORM_PEAKS,
 				THE_CAPE_OF_STRANGLETHORN,
 				NORTHREND_DALARAN,
+				-- #if AFTER TWW
+				DORNOGAL
+				-- #endif
 			},
 			["races"] = HORDE_ONLY,
 			["isBreadcrumb"] = true,
@@ -3685,6 +3691,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 				19177,	-- Troll Commoner
 				19178,	-- Forsaken Commoner
 				20102,	-- Goblin Commoner
+				-- #if AFTER TWW
+				220870,	-- Holiday Enthusiast
+				-- #endif
 			},
 			["timeline"] = { ADDED_2_0_1 },
 			["maps"] = {
@@ -3706,6 +3715,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 				-- #if AFTER WRATH
 				NORTHREND_DALARAN,
 				THE_STORM_PEAKS,
+				-- #endif
+				-- #if AFTER TWW
+				DORNOGAL
 				-- #endif
 			},
 			["races"] = HORDE_ONLY,

@@ -178,7 +178,9 @@ root(ROOTS.Zones, {
 					["requireSkill"] = MINING,
 				}),
 				q(44815),	-- Sick of the Sycophants
-				q(42090),	-- Skittering Subjects
+				q(42090, {	-- Skittering Subjects
+					i(140916),	-- Satchel of Locklimb Powder (QI!)
+				}),
 				q(41558, {	-- Slab of Bacon
 					["requireSkill"] = COOKING,
 					["groups"] = { i(135511) },	-- Thick Slab of Bacon (QI!)

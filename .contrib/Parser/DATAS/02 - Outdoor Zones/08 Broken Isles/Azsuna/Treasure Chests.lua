@@ -46,13 +46,15 @@ root(ROOTS.Zones, {
 					["questID"] = 37649,
 					["coord"] = { 69.5, 49.3, 632 },	-- Oceanus Cove
 					["description"] = "In the Oceanus Cove cave next to Lady Sssurine.",
-					["groups"] = {
-						i(129078),	-- Sssurine's Luxurious Sssandals
-					},
+					["groups"] = { i(129078) },	-- Sssurine's Luxurious Sssandals
 				}),
 				o(250107, {	-- Glimmering Treasure Chest
 					["questID"] = 42297,
 					["coord"] = { 43.4, 22.4, AZSUNA },
+				}),
+				o(250448, {	-- Imp in a Jar
+					["coord"] = { 32.9, 49.9, AZSUNA },	-- Oceanus Cove
+					["groups"] = { i(137622) },	-- Imp in a Jar
 				}),
 				o(240353, {	-- Seemingly Unguarded Treasure
 					["coord"] = { 65.1, 69.8, AZSUNA },
@@ -60,9 +62,7 @@ root(ROOTS.Zones, {
 						o(240354, {	-- Genuinely Unguarded Treasure
 							["questID"] = 38239,
 							["coord"] = { 65.1, 69.8, AZSUNA },
-							["groups"] = {
-								i(129070),	-- Ring of the Dread Pirate Bob
-							},
+							["groups"] = { i(129070) },	-- Ring of the Dread Pirate Bob
 						}),
 					},
 				}),
@@ -183,9 +183,7 @@ root(ROOTS.Zones, {
 				o(240641, {	-- Treasure Chest
 					["questID"] = 38370,
 					["coord"] = { 49.4, 58.0, AZSUNA },
-					["groups"] = {
-						i(141882),	-- Eternal Groom's Wedding Band
-					},
+					["groups"] = { i(141882) },	-- Eternal Groom's Wedding Band
 				}),
 				o(240631, {	-- Treasure Chest
 					["questID"] = 38316,

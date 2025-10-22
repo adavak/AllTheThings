@@ -337,7 +337,6 @@ root(ROOTS.Unsorted, {
 			i(250724),	-- Add Keystone Affix: Tyrannically Fortified
 			i(250726),	-- Reins of the Leyfrost Manasaber (MOUNT!)
 			i(250727),	-- Reins of the Nightwell Manasaber (MOUNT!)
-			i(250741),	-- Puzzling Cartel Chip
 			i(250762),	-- Felfueled Memento of the Abyss
 			i(250778),	-- Steel Food Fanatic Shield
 			i(250779),	-- Golden Food Fanatic Shield
