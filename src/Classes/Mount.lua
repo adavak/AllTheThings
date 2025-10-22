@@ -177,7 +177,8 @@ do
 		app.SetBatchCached("Spells", acct)
 		app.SetBatchCached("Spells", char)
 		app.SetBatchCached("Spells", none)
-		-- Account Cache (removals handled by Sync)
+		-- Account Cache
+		app.SetBatchAccountCached(CACHE, none)
 		app.SetBatchAccountCached(CACHE, acct, 1)
 	end);
 	app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, accountWideData)
