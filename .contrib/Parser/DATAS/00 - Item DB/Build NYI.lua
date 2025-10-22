@@ -2,6 +2,7 @@
 root(ROOTS.NeverImplemented, {
 	n(ACHIEVEMENTS, {["timeline"] = {CREATED_3_0_2}}),					-- Completed up to 10.2.5
 	n(ARMOR),															-- Not Completed and Not Sorted
+	n(ARTIFACTS),														-- Not Completed and Not Sorted
 	filter(BAGS),														-- Not Completed and Not Sorted
 	filter(BATTLE_PETS),												-- Completed up to 10.2.5
 	n(CLASSES),															-- Completed up to 10.2.5

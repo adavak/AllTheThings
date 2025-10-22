@@ -3709,7 +3709,7 @@ q(2923,{coords={{51.6,48.6,84}},isBreadcrumb=1,maps=a[958],nextQuests={2922},qgs
 h(-47,{
 ah(9363,{description="Kill hostile creatures for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",providers={{"i",9363}},type="i",g={
 cq(38081,{awp=60100,b=1,itemID=122207,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,r=2,spellID=181583,g={
-crit(27749,{achID=10015,awp=60003,id=13})}}),
+crit(27749,{achID=10015,awp=60003,id=13,r=2})}}),
 i(9280,{b=1}),
 i(10299,{b=1,f=51,lvl=12}),
 i(10298,{b=1,f=52,lvl=11})}})}),
@@ -3889,12 +3889,12 @@ i(9224,{f=55,lvl=17,spellID=11406,u=2}),
 i(12849,{b=1,u=2})}}),
 q(27444,{awp=40003,crs={10429},qgs=a[93],rwp=60002,sourceQuests=a[485],u=2}),
 q(4788,{coords={a[828]},qgs=a[98],qis={12740,12741},rwp=40003,sourceQuests={5065},u=2,g={
-o(175950),
-o(175949)}}),
+o(175949),
+o(175950)}}),
 q(8182,{coords={a[828]},qgs=a[98],rwp=40003,sourceQuests={8181},u=2}),
 q(5065,{coords={a[828]},maps={23},qgs=a[98],qis={12411,12412},rwp=40003,sourceQuests={3528},u=2,g={
-o(175488,{coords={{67.2,11.4,23}}}),
-o(175487,{coords={{66.9,9,23}}})}}),
+o(175487,{coords={{66.9,9,23}}}),
+o(175488,{coords={{67.2,11.4,23}}})}}),
 q(5160,{maps=a[941],qgs={10740},qis={12923},rwp=40003,u=2}),
 q(4724,{coords={a[676]},crs={10220},qgs={9081},r=1,rwp=40003,u=2,g={
 s(6477,15824,{b=1,f=4,u=2}),
@@ -4480,10 +4480,10 @@ q(14352,{awp=30300,maps={90},providers={{"i",49205}},r=1,rwp=40003,u=2}),
 q(1221,{coords={a[815]},crs={4781},qgs={3446},qis={5876,5880,5897,6684},rwp=40003,u=2,g={
 i(6755,{b=1,u=2,g={
 i(6756,{b=1,f=113,u=2})}}),
-o(68865,{coords={a[813]}}),
-o(21530,{coords={a[813]}}),
+o(20920),
 o(21277,{coords={a[813]}}),
-o(20920)}}),
+o(21530,{coords={a[813]}}),
+o(68865,{coords={a[813]}})}}),
 q(26908,{awp=40003,coords={{45.1,85.4,199}},lvl=10,qgs={37812}}),
 q(1109,{coords={{49,69.8,90}},qgs={2055},qis=a[763],r=1,rwp=40003,u=2}),
 q(26901,{awp=40003,lvl=10,qgs=a[623],qis=a[763]}),
@@ -5010,21 +5010,21 @@ o(177241,{coords={a[629]}})}}),
 q(5804,{coords={a[940]},crs={1852},maps=a[399],qgs=a[116],qis={14610},r=1,rwp=40003,sourceQuests={5802},u=2,g={
 o(177241,{coords={a[629]}})}}),
 q(5343,{coords={a[614]},qgs=a[111],qis=a[190],r=2,rwp=40003,u=2,g={
-o(176487),
-o(176486),
+o(176484),
 o(176485),
-o(176484)}}),
+o(176486),
+o(176487)}}),
 q(5341,{coords={a[939]},maps=a[399],qgs=a[110],qis=a[190],r=1,rwp=40003,u=2,g={
-o(176487),
-o(176486),
+o(176484),
 o(176485),
-o(176484)}}),
+o(176486),
+o(176487)}}),
 q(27143,{awp=40003,qgs={45109},qis=a[190],rwp=50004,u=2,g={
 i(65923,{b=1,f=53,modID=1,spellID=93742,u=2}),
-o(176487),
-o(176486),
+o(176484),
 o(176485),
-o(176484)}}),
+o(176486),
+o(176487)}}),
 q(5531,{coords={{81.73,57.83,23}},qgs=a[113],qis={13761},rwp=40003,sourceQuests={5522},u=2}),
 q(76257,{providers={{"i",206373}},g={
 i(12844,{b=2,factionID=529,repeatable=1,spellID=17047})}}),
@@ -5032,11 +5032,11 @@ q(4771,{coords={{81.5,59.7,23}},crs={10432},qgs=a[112],qis={12368},rwp=40003,sou
 s(6481,15854,{b=1,f=28,modID=1,u=2}),
 s(6480,15853,{b=1,f=21,modID=1,spellID=265236,u=2})}}),
 q(5382,{coords={a[850]},crs={11261},description="Talk to Eva until she offers the quest.",qgs=a[119],rwp=40003,u=2,g={
-o(176545),
-o(176544)}}),
+o(176544),
+o(176545)}}),
 q(27146,{awp=40003,crs={11261},qgs={45107},rwp=50004,u=2,g={
-o(176545),
-o(176544)}}),
+o(176544),
+o(176545)}}),
 q(5801,{coords={a[688]},cost={{"i",12359,2},{"i",14644,1}},maps=a[896],qgs={5411},qis={14645},r=2,rwp=40003,sourceQuests={5538},u=2}),
 q(5802,{coords={a[688]},cost={{"i",12359,2},{"i",14644,1}},maps=a[896],qgs={5411},qis={14645},r=1,rwp=40003,sourceQuests={5514},u=2}),
 q(5582,{maxReputation=a[705],providers={{"i",13920}},repeatable=1,rwp=40003,sourceQuests={5529},u=2}),
@@ -6772,8 +6772,8 @@ e(1556,{description="|CFFFF0000Moroes MUST be killed before you are allowed to p
 h(-19,{crs={17521,17533,17534,17535,17543,17546,17547,17548,17603,18168},description="These items can drop from any of the Opera Hall bosses.",g={
 r(213036,{awp=70003,b=1,itemID=138017,learnedAt=20,lvl=10,requireSkill=197}),
 cq(38093,{awp=60100,b=1,itemID=122231,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181609,g={
-crit(27758,{achID=10015,awp=60003,id=22}),
-crit(27758,{achID=10016,awp=60003,id=22})}}),
+crit(27758,{achID=10015,awp=60003,id=22,r=2}),
+crit(27758,{achID=10016,awp=60003,id=22,r=1})}}),
 s(12571,28593,{b=1,f=7,lvl=27}),
 s(12569,28589,{b=1,f=6,lvl=27}),
 s(12570,28591,{b=1,f=5,lvl=27}),
@@ -7705,8 +7705,8 @@ crit(4021,{achID=1286,id=8})}}),
 gach(5091,{awp=40003}),
 ach(426,{c=a[71],description="Once you have both, simply equip them for this achievement.",providers={{"i",32837},{"i",32838}}}),
 cq(38064,{awp=60100,b=1,itemID=122196,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=180706,g={
-crit(27711,{achID=10015,awp=60003,id=1}),
-crit(27711,{achID=10016,awp=60003,id=1})}}),
+crit(27711,{achID=10015,awp=60003,id=1,r=2}),
+crit(27711,{achID=10016,awp=60003,id=1,r=1})}}),
 s(15136,32837,{b=1,c=a[71],collectible=false,description="Following patch 11.1.7, Blizzard seems to have changed something such that this can no longer be collected, though it continues to function properly for the related Achievement",f=25,lvl=27}),
 s(15137,32838,{b=1,c=a[71],collectible=false,description="Following patch 11.1.7, Blizzard seems to have changed something such that this can no longer be collected, though it continues to function properly for the related Achievement",f=25,lvl=27}),
 i(31089,{b=2,c=a[363],lvl=27,spellID=238161}),
@@ -11742,8 +11742,8 @@ crit(22473,{achID=7934,id=5})}})}})}),
 h(-82,{
 e(1615,{npcID=15990,g={
 cq(38065,{awp=60100,b=1,itemID=122197,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181277,g={
-crit(27712,{achID=10015,awp=60003,id=2}),
-crit(27712,{achID=10016,awp=60003,id=2})}})}})})}}),
+crit(27712,{achID=10015,awp=60003,id=2,r=2}),
+crit(27712,{achID=10016,awp=60003,id=2,r=1})}})}})})}}),
 ah(18372,{awp=100105,description="With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStages 1-3 takes place in Scholomance and Plaguelands, see instructions in the 'Wards of the Dread Citadel'-header in the respective zones.\n\nThe following stages takes place in Naxxramas, and you can get here from Eastern Plaguelands by using a portal at coordinates 35.7, 23.1. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.\n\nStage 4: Makeshift Grappling Hook, see the instructions in the subheader below.\n\nStage 5: Mutually Beneficial Transactions, see the instructions in the subheader below.\n\nStage 6: Forgotten Knowledge, see the instructions in the subheader below.\n\nCongratulations, all is unlocked and welcome to the grind!",type="a",g={
 ah(206473,{description="1. First you need to create a Makeshift Grappling Hook from the following items:\n\n1.1 Abomination's Chain can be fished from any slime (green liquid), like the small pool just inside Arachnid Quarter.\n\n1.2 Faerlina's Sweing Kit drops from Grand Widow Faerlina in the Arachnid Quarter.\n\n1.3 Construct's Hook can be found on a handle under a vat of slime on the right side of the second room of the Construct Quarter.\n\n2. Use your Makeshift Grappling Hook to get access to grapple points inside Naxxramas on an account-wide basis.\n\n",type="i",g={
 prof(356,{
@@ -15273,8 +15273,8 @@ s(25531,51795,{b=1,f=21,lvl=30,modID=1}),
 s(25534,51798,{b=1,f=23,lvl=30,modID=1}),
 s(25538,51802,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=10015,awp=60003,id=21}),
-crit(27757,{achID=10016,awp=60003,id=21})}}),
+crit(27757,{achID=10015,awp=60003,id=21,r=2}),
+crit(27757,{achID=10016,awp=60003,id=21,r=1})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})}),
 d(5,{
 h(-368,{
@@ -15518,8 +15518,8 @@ s(25661,51947,{b=1,f=21,lvl=30,modID=1}),
 s(25658,51944,{b=1,f=23,lvl=30,modID=1}),
 s(25654,51940,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=10015,awp=60003,id=21}),
-crit(27757,{achID=10016,awp=60003,id=21})}}),
+crit(27757,{achID=10015,awp=60003,id=21,r=2}),
+crit(27757,{achID=10016,awp=60003,id=21,r=1})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})}),
 d(4,{
 h(-19,{crs=a[555],g={
@@ -15759,8 +15759,8 @@ s(24480,49997,{b=1,f=23,lvl=30,modID=1}),
 s(24718,50428,{b=1,f=23,lvl=30,modID=1}),
 s(24467,49981,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=10015,awp=60003,id=21}),
-crit(27757,{achID=10016,awp=60003,id=21})}}),
+crit(27757,{achID=10015,awp=60003,id=21,r=2}),
+crit(27757,{achID=10016,awp=60003,id=21,r=1})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})}),
 d(6,{
 h(-19,{crs=a[555],g={
@@ -16022,8 +16022,8 @@ s(24840,50738,{b=1,f=23,lvl=30,modID=1}),
 s(24836,50734,{b=1,f=23,lvl=30,modID=1}),
 s(24835,50733,{b=1,f=33,lvl=30,modID=1}),
 cq(38092,{awp=60100,b=1,itemID=122229,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181607,g={
-crit(27757,{achID=10015,awp=60003,id=21}),
-crit(27757,{achID=10016,awp=60003,id=21})}}),
+crit(27757,{achID=10015,awp=60003,id=21,r=2}),
+crit(27757,{achID=10016,awp=60003,id=21,r=1})}}),
 i(139547,{awp=70003,b=1,c=a[781],f=55,modID=1,sourceQuests=a[572],spellID=220651})}})})})}}),
 inst(761,{awp=30305,coords={{61.2,52.7,115}},isLockoutShared=1,isRaid=1,mapID=200,savedInstanceID=724,g={
 h(-45,{
@@ -16727,8 +16727,8 @@ s(17521,36992,{b=1,f=6,lvl=29,modID=1}),
 s(18065,37854,{b=1,f=4,lvl=30,modID=1}),
 i(36993,{b=1,f=53,lvl=29,modID=1,spellID=60214}),
 cq(38098,{awp=60100,b=1,itemID=122237,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181657,g={
-crit(27763,{achID=10015,awp=60003,id=27}),
-crit(27763,{achID=10016,awp=60003,id=27})}}),
+crit(27763,{achID=10015,awp=60003,id=27,r=2}),
+crit(27763,{achID=10016,awp=60003,id=27,r=1})}}),
 crit(5458,{achID=486,id=5})}})}),
 d(2,{
 h(-63,{
@@ -16792,8 +16792,8 @@ s(17521,36992,{b=1,f=6,lvl=29,modID=2}),
 s(18065,37854,{b=1,f=4,lvl=30,modID=2}),
 i(36993,{b=1,f=53,lvl=29,modID=2,spellID=60214}),
 cq(38098,{awp=60100,b=1,itemID=122237,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181657,g={
-crit(27763,{achID=10015,awp=60003,id=27}),
-crit(27763,{achID=10016,awp=60003,id=27})}}),
+crit(27763,{achID=10015,awp=60003,id=27,r=2}),
+crit(27763,{achID=10016,awp=60003,id=27,r=1})}}),
 crit(5616,{achID=497,id=5}),
 crit(5616,{achID=1658,id=9})}})}),
 d(24,{sym={{"sub","tw_instance",275}}})}}),
@@ -18262,11 +18262,11 @@ s(21485,44404,{b=1,f=4}),
 s(21486,44405,{b=1,f=5}),
 s(21487,44406,{b=1,f=6}),
 s(21488,44407,{b=1,f=7}),
-o(192945),
-o(192944),
+o(192941),
 o(192942),
 o(192943),
-o(192941)}}),
+o(192944),
+o(192945)}}),
 q(13132,{crs={26861},lvl=20,qgs={30871},g={
 s(21489,44408,{b=1,f=4}),
 s(21493,44412,{b=1,f=7}),
@@ -18448,8 +18448,8 @@ h(-12,{
 gach(5425)}),
 e(139,{npcID=47120,g={
 ach(5416,{pvp=1,g={
-crit(15976,{achID=5489,id=6,pvp=1}),
-crit(15976,{achID=5490,id=6,pvp=1})}}),
+crit(15976,{achID=5489,id=6,pvp=1,r=2}),
+crit(15976,{achID=5490,id=6,pvp=1,r=1})}}),
 i(60673,{b=1,c=a[57],f=51,lvl=32}),
 i(60670,{b=1,c=a[57],f=51,lvl=32}),
 i(60669,{b=1,c=a[498],f=51,lvl=32}),
@@ -18950,8 +18950,8 @@ ill(4097,{awp=70003,b=1,itemID=138802,lvl=30,questID=42898}),
 p(2080,{awp=70300,b=1,itemID=152968,npcID=127853,spellID=253799,g={
 crit(37672,{achID=12079,id=3})}}),
 cq(38063,{awp=60100,b=1,itemID=122195,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=180698,g={
-crit(27710,{achID=10015,awp=60003,id=3}),
-crit(27710,{achID=10016,awp=60003,id=3})}}),
+crit(27710,{achID=10015,awp=60003,id=3,r=2}),
+crit(27710,{achID=10016,awp=60003,id=3,r=1})}}),
 crit(13542,{achID=4842,id=7})}})}}),
 d(1,{difficulties=a[500],g={
 e(170,{npcID=41570,g={
@@ -20034,8 +20034,8 @@ i(77974,{b=1,c=a[498],f=53,lvl=32,spellID=109718}),
 p(2091,{awp=70300,b=1,itemID=152980,npcID=127953,spellID=253927,g={
 crit(37683,{achID=12079,id=14})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=10015,awp=60003,id=4}),
-crit(27740,{achID=10016,awp=60003,id=4})}})}}),
+crit(27740,{achID=10015,awp=60003,id=4,r=2}),
+crit(27740,{achID=10016,awp=60003,id=4,r=1})}})}}),
 e(333,{npcID=56173,g={
 s(39859,78482,{b=1,f=29,lvl=32,spellID=109862}),
 s(39864,78487,{b=1,f=26,lvl=32,spellID=109839}),
@@ -20050,8 +20050,8 @@ i(89810,{awp=50004,b=1}),
 p(2092,{awp=70300,b=1,itemID=152981,npcID=127954,spellID=253928,g={
 crit(37684,{achID=12079,id=15})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=10015,awp=60003,id=4}),
-crit(27740,{achID=10016,awp=60003,id=4})}})}})}})}}),
+crit(27740,{achID=10015,awp=60003,id=4,r=2}),
+crit(27740,{achID=10016,awp=60003,id=4,r=1})}})}})}})}}),
 d(115,{difficulties=a[48],g={
 h(-19,{crs=a[732],g={
 i(71998,{description="Drops commonly from Dragon Soul bosses."}),
@@ -20107,8 +20107,8 @@ crit(18588,{achID=6169,id=12})}),
 p(2091,{awp=70300,b=1,itemID=152980,npcID=127953,spellID=253927,g={
 crit(37683,{achID=12079,id=14})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=10015,awp=60003,id=4}),
-crit(27740,{achID=10016,awp=60003,id=4})}})}}),
+crit(27740,{achID=10015,awp=60003,id=4,r=2}),
+crit(27740,{achID=10016,awp=60003,id=4,r=1})}})}}),
 e(333,{npcID=56173,g={
 ach(6180,{description="Facing inwards towards the Maelstrom, The aspects will be positioned on the following platforms when the event starts:\nYsera on the start platform.\nKalecgos on the right.\nNozdormu on the left.\nAlextraxa on the far left.\nYou can get a movement buff prior to event start by moving between the platforms, which helps to reach Alextraza in time. Make sure the aspect is properly assaulted to get credit.",g={
 crit(18658,{achID=6180,providers={{"n",56099}}}),
@@ -20123,8 +20123,8 @@ i(78352),
 p(2092,{awp=70300,b=1,itemID=152981,npcID=127954,spellID=253928,g={
 crit(37684,{achID=12079,id=15})}}),
 cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181280,g={
-crit(27740,{achID=10015,awp=60003,id=4}),
-crit(27740,{achID=10016,awp=60003,id=4})}})}})}}),
+crit(27740,{achID=10015,awp=60003,id=4,r=2}),
+crit(27740,{achID=10016,awp=60003,id=4,r=1})}})}})}}),
 d(1,{difficulties=a[500],g={
 h(-19,{crs=a[732],g={
 i(77230,{b=1,f=52,lvl=32}),
@@ -21713,7 +21713,7 @@ s(35530,69621,{b=1,f=20,lvl=32,modID=2}),
 s(35532,69623,{b=1,f=5,lvl=32,modID=2}),
 s(35536,69627,{b=1,f=8,lvl=32,modID=2}),
 cq(38080,{awp=60100,b=1,itemID=122215,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,r=1,spellID=181591,g={
-crit(27773,{achID=10016,awp=60003,id=12})}}),
+crit(27773,{achID=10016,awp=60003,id=12,r=1})}}),
 n(52167,{description="|CFFFF0000At least one MUST be killed prior to Jin'do the Godbreaker encounter Phase 2 start, otherwise fight will be impossible.|r\n\nIn Phase 2 their spirits will spawn and they must be pulled up to Hakkar's chains in order to break them with their ability 'Body Slam'."})}})})}})}}),
 x(5,{awp=50000,g={
 h(-12,{awp=50004,g={
@@ -24001,8 +24001,8 @@ e(709,{npcID=60999,g={
 i(87210,{b=1}),
 ill(4442,{awp=70003,b=1,itemID=138805,lvl=32,questID=42906}),
 cq(38067,{awp=60100,b=1,itemID=122199,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181570,g={
-crit(27741,{achID=10015,awp=60003,id=5}),
-crit(27741,{achID=10016,awp=60003,id=5})}}),
+crit(27741,{achID=10015,awp=60003,id=5,r=2}),
+crit(27741,{achID=10016,awp=60003,id=5,r=1})}}),
 crit(19521,{achID=6689,id=4})}})}}),
 d(7,{coords={a[937]},crs=a[913],g={
 i(89808,{b=1,description="Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",rwp=50200,u=2}),
@@ -29965,10 +29965,10 @@ s(45106,87344,{b=1,f=4}),
 s(45109,87347,{b=1,f=6}),
 s(45112,87350,{b=1,f=7}),
 s(45104,87342,{b=1,f=5}),
-o(214827,{coords={{58.5,57,454}}}),
-o(214826,{coords={{55.1,58,454}}}),
+o(214824,{coords={{54.9,53.9,454}}}),
 o(214825,{coords={{55.8,53.2,454}}}),
-o(214824,{coords={{54.9,53.9,454}}})}})}),
+o(214826,{coords={{55.1,58,454}}}),
+o(214827,{coords={{58.5,57,454}}})}})}),
 h(-63,{
 i(87806,{crs={61216,61239,61240,61242},spellID=128908}),
 i(89428,{b=1,cost={{"i",87806,1}},description="Contains some gold and a several green-quality gems."})}),
@@ -30738,8 +30738,8 @@ crit(27650,{achID=9838,id=28})}}),
 e(1452,{coords={{47.5,22.1,534}},isRaid=1,isWeekly=1,npcID=94015,questID=39380,g={
 gach(10175),
 ach(10071,{
-crit(28288,{achID=10072,id=8}),
-crit(28288,{achID=10265,id=8})}),
+crit(28288,{achID=10072,id=8,r=2}),
+crit(28288,{achID=10265,id=8,r=1})}),
 i(127976,{b=1,f=51,lvl=40}),
 i(127977,{b=1,f=51,lvl=40}),
 i(127978,{b=1,f=51,lvl=40}),
@@ -31122,8 +31122,8 @@ s(67017,119345,{f=3,lvl=40,modID=6}),
 s(67795,119337,{f=7,lvl=40,modID=6})}),
 e(1128,{npcID=78714,g={
 ach(8949,{
-crit(25403,{achID=9255,id=11}),
-crit(25403,{achID=9631,id=11})}),
+crit(25403,{achID=9255,id=11,r=1}),
+crit(25403,{achID=9631,id=11,r=2})}),
 s(62360,113592,{b=1,f=1,lvl=40,modID=6}),
 s(67176,113600,{b=1,f=7,lvl=40,modID=6}),
 i(113598,{b=1,f=51,lvl=40,modID=6}),
@@ -31138,8 +31138,8 @@ s(62366,113595,{b=1,f=6,lvl=40,modID=6}),
 s(62369,113596,{b=1,f=4,lvl=40,modID=6})}}),
 e(971,{npcID=77404,g={
 ach(8960,{
-crit(25404,{achID=9255,id=12}),
-crit(25404,{achID=9631,id=12})}),
+crit(25404,{achID=9255,id=12,r=1}),
+crit(25404,{achID=9631,id=12,r=2})}),
 s(67112,113636,{b=1,f=5,lvl=40,modID=6}),
 s(67308,113634,{b=1,f=5,lvl=40,modID=6}),
 s(62382,113606,{b=1,f=21,lvl=40,modID=6}),
@@ -31155,8 +31155,8 @@ i(113612,{b=1,f=53,lvl=40,modID=6,spellID=177039}),
 s(67093,113609,{b=1,f=4,lvl=40,modID=6})}}),
 e(1196,{npcID=78491,g={
 ach(8962,{
-crit(25406,{achID=9255,id=14}),
-crit(25406,{achID=9631,id=14})}),
+crit(25406,{achID=9255,id=14,r=1}),
+crit(25406,{achID=9631,id=14,r=2})}),
 i(113658,{b=1,f=53,lvl=40,modID=6}),
 s(66815,113657,{b=1,f=3,lvl=40,modID=6}),
 i(113662,{b=1,f=51,lvl=40,modID=6}),
@@ -31171,8 +31171,8 @@ s(67216,113655,{b=1,f=4,lvl=40,modID=6}),
 s(67114,113664,{b=1,f=5,lvl=40,modID=6})}}),
 e(1195,{npcID=78948,g={
 ach(8961,{
-crit(25405,{achID=9255,id=13}),
-crit(25405,{achID=9631,id=13})}),
+crit(25405,{achID=9255,id=13,r=1}),
+crit(25405,{achID=9631,id=13,r=2})}),
 s(67094,113642,{b=1,f=4,lvl=40,modID=6}),
 i(113644,{b=1,f=52,lvl=40,modID=6}),
 s(62420,113640,{b=1,f=28,lvl=40,modID=6}),
@@ -31188,8 +31188,8 @@ s(62417,113639,{b=1,f=28,lvl=40,modID=6}),
 i(113645,{b=1,f=53,lvl=40,modID=6,spellID=177041})}}),
 e(1148,{crs=a[898],g={
 ach(8963,{
-crit(25407,{achID=9255,id=15}),
-crit(25407,{achID=9631,id=15})}),
+crit(25407,{achID=9255,id=15,r=1}),
+crit(25407,{achID=9631,id=15,r=2})}),
 s(62465,113666,{b=1,f=8,lvl=40,modID=6}),
 s(67196,113827,{b=1,f=6,lvl=40,modID=6}),
 s(67268,113826,{b=1,f=6,lvl=40,modID=6}),
@@ -31204,8 +31204,8 @@ i(113835,{b=1,f=53,lvl=40,modID=6,spellID=176875}),
 s(67115,113832,{b=1,f=5,lvl=40,modID=6})}}),
 e(1153,{npcID=79015,g={
 ach(8964,{
-crit(25408,{achID=9255,id=16}),
-crit(25408,{achID=9631,id=16})}),
+crit(25408,{achID=9255,id=16,r=1}),
+crit(25408,{achID=9631,id=16,r=2})}),
 s(67159,113844,{b=1,f=7,lvl=40,modID=6}),
 s(66795,113847,{b=1,f=3,lvl=40,modID=6}),
 s(67217,113840,{b=1,f=4,lvl=40,modID=6}),
@@ -31222,8 +31222,8 @@ e(1197,{npcID=77428,g={
 ach(9442,{rwp=60200,u=2}),
 ach(8965,{
 title(304),
-crit(25409,{achID=9255,id=17}),
-crit(25409,{achID=9631,id=17})}),
+crit(25409,{achID=9255,id=17,r=1}),
+crit(25409,{achID=9631,id=17,r=2})}),
 gach(9420),
 gach(9397,{u=2}),
 i(113853,{b=1,f=53,lvl=40,modID=6}),
@@ -31416,8 +31416,8 @@ s(66940,116042,{b=1,f=6,lvl=40,modID=4}),
 i(116317,{b=1,f=53,lvl=40,modID=4}),
 ill(5336,{awp=70003,b=1,itemID=138809,lvl=35,questID=42910}),
 cq(38068,{awp=60100,b=1,itemID=122200,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181575,g={
-crit(27742,{achID=10015,awp=60003,id=6}),
-crit(27742,{achID=10016,awp=60003,id=6})}}),
+crit(27742,{achID=10015,awp=60003,id=6,r=2}),
+crit(27742,{achID=10016,awp=60003,id=6,r=1})}}),
 crit(24982,{achID=8992})}})}})}}),
 d(110,{difficulties=a[196],g={
 e(1202,{npcID=77182,g={
@@ -31456,8 +31456,8 @@ ach(8952,{
 crit(24667,{achID=8985,id=17})}),
 ill(5336,{awp=70003,b=1,itemID=138809,lvl=35,questID=42910}),
 cq(38068,{awp=60100,b=1,itemID=122200,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollItem,spellID=181575,g={
-crit(27742,{achID=10015,awp=60003,id=6}),
-crit(27742,{achID=10016,awp=60003,id=6})}})}})}}),
+crit(27742,{achID=10015,awp=60003,id=6,r=2}),
+crit(27742,{achID=10016,awp=60003,id=6,r=1})}})}})}}),
 d(14,{
 h(-45,{
 q(37029,{altQuests={37030,37031},description="The questgiver is hidden behind a load of boxes and crates to the right of the Iron Maidens.\n\nFinishing this quest will grant you immediate access to Blackhand on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r",lvl=40,qgs=a[959],g={
@@ -32072,8 +32072,8 @@ s(67790,119340,{f=5,lvl=40,modID=6}),
 s(67793,119339,{f=6,lvl=40,modID=6})}),
 e(1202,{npcID=77182,g={
 ach(8967,{
-crit(25395,{achID=9255,id=2}),
-crit(25395,{achID=9631,id=2})}),
+crit(25395,{achID=9255,id=2,r=1}),
+crit(25395,{achID=9631,id=2,r=2})}),
 s(67132,119448,{b=1,f=28,lvl=40,modID=6}),
 s(62680,113874,{b=1,f=20,lvl=40,modID=6}),
 s(62690,113879,{b=1,f=1,lvl=40,modID=6}),
@@ -32089,8 +32089,8 @@ i(113877,{b=1,f=52,lvl=40,modID=6}),
 i(119194,{b=1,f=53,lvl=40,modID=6,spellID=177047})}}),
 e(1161,{npcID=76877,g={
 ach(8966,{
-crit(25399,{achID=9255,id=1}),
-crit(25399,{achID=9631,id=1})}),
+crit(25399,{achID=9255,id=1,r=1}),
+crit(25399,{achID=9631,id=1,r=2})}),
 s(62670,113869,{b=1,f=28,lvl=40,modID=6}),
 s(62655,113862,{b=1,f=25,lvl=40,modID=6}),
 s(62667,113868,{b=1,f=4,lvl=40,modID=6}),
@@ -32107,8 +32107,8 @@ i(113866,{b=1,f=52,lvl=40,modID=6}),
 i(118114,{b=1,f=53,lvl=40,modID=6,spellID=177036})}}),
 e(1154,{npcID=76806,g={
 ach(8970,{
-crit(25402,{achID=9255,id=7}),
-crit(25402,{achID=9631,id=7})}),
+crit(25402,{achID=9255,id=7,r=1}),
+crit(25402,{achID=9631,id=7,r=2})}),
 s(67306,115569,{b=1,c=a[367],f=7,lvl=40,modID=6}),
 s(67228,115587,{b=1,c=a[968],f=4,lvl=40,modID=6}),
 s(67266,115564,{b=1,c=a[677],f=4,lvl=40,modID=6}),
@@ -32138,8 +32138,8 @@ i(119320,{b=2,c=a[66],lvl=40,spellID=178210,sym={{"select","itemID",115580,11555
 i(119313,{b=2,c=a[592],lvl=40,spellID=178210,sym={{"select","itemID",115554,115543,115535,115573},{"whereMyModID"}}})})}}),
 e(1155,{crs=a[886],g={
 ach(8968,{
-crit(25398,{achID=9255,id=3}),
-crit(25398,{achID=9631,id=3})}),
+crit(25398,{achID=9255,id=3,r=1}),
+crit(25398,{achID=9631,id=3,r=2})}),
 s(62742,113904,{b=1,f=23,lvl=40,modID=6}),
 s(62727,113897,{b=1,f=23,lvl=40,modID=6}),
 s(67294,113910,{b=1,f=7,lvl=40,modID=6}),
@@ -32155,8 +32155,8 @@ i(113901,{b=1,f=52,lvl=40,modID=6}),
 i(113905,{b=1,f=53,lvl=40,modID=6,spellID=176873})}}),
 e(1123,{npcID=76814,g={
 ach(8932,{
-crit(25400,{achID=9255,id=5}),
-crit(25400,{achID=9631,id=5})}),
+crit(25400,{achID=9255,id=5,r=1}),
+crit(25400,{achID=9631,id=5,r=2})}),
 s(67300,115566,{b=1,c=a[367],f=7,lvl=40,modID=6}),
 s(67230,115588,{b=1,c=a[968],f=4,lvl=40,modID=6}),
 s(67258,115560,{b=1,c=a[677],f=4,lvl=40,modID=6}),
@@ -32189,8 +32189,8 @@ i(119318,{b=2,c=a[66],lvl=40,spellID=178209,sym={{"select","itemID",115582,11554
 i(119315,{b=2,c=a[592],lvl=40,spellID=178209,sym={{"select","itemID",115550,115540,115537,115570},{"whereMyModID"}}})})}}),
 e(1162,{npcID=77692,g={
 ach(8971,{
-crit(25397,{achID=9255,id=8}),
-crit(25397,{achID=9631,id=8})}),
+crit(25397,{achID=9255,id=8,r=1}),
+crit(25397,{achID=9631,id=8,r=2})}),
 s(67304,115568,{b=1,c=a[367],f=7,lvl=40,modID=6}),
 s(67226,115586,{b=1,c=a[968],f=4,lvl=40,modID=6}),
 s(67264,115563,{b=1,c=a[677],f=4,lvl=40,modID=6}),
@@ -32221,8 +32221,8 @@ i(119321,{b=2,c=a[66],lvl=40,spellID=178212,sym={{"select","itemID",115584,11555
 i(119312,{b=2,c=a[592],lvl=40,spellID=178212,sym={{"select","itemID",115553,115542,115539,115572},{"whereMyModID"}}})})}}),
 e(1122,{npcID=76865,g={
 ach(8956,{
-crit(25401,{achID=9255,id=4}),
-crit(25401,{achID=9631,id=4})}),
+crit(25401,{achID=9255,id=4,r=1}),
+crit(25401,{achID=9631,id=4,r=2})}),
 s(66789,113945,{b=1,f=3,lvl=40,modID=6}),
 s(62808,113939,{b=1,f=29,lvl=40,modID=6}),
 s(62824,113946,{b=1,f=8,lvl=40,modID=6}),
@@ -32240,8 +32240,8 @@ i(113948,{b=1,f=53,lvl=40,modID=6,spellID=177052}),
 i(119192,{b=1,f=53,lvl=40,modID=6,spellID=177062})}}),
 e(1147,{npcID=76906,g={
 ach(8969,{
-crit(25396,{achID=9255,id=6}),
-crit(25396,{achID=9631,id=6})}),
+crit(25396,{achID=9255,id=6,r=1}),
+crit(25396,{achID=9631,id=6,r=2})}),
 s(67298,115565,{b=1,c=a[367],f=7,lvl=40,modID=6}),
 s(67232,115589,{b=1,c=a[968],f=4,lvl=40,modID=6}),
 s(67260,115561,{b=1,c=a[677],f=4,lvl=40,modID=6}),
@@ -32271,8 +32271,8 @@ i(119322,{b=2,c=a[66],lvl=40,spellID=178213,sym={{"select","itemID",115581,11555
 i(119314,{b=2,c=a[592],lvl=40,spellID=178213,sym={{"select","itemID",115551,115544,115536,115574},{"whereMyModID"}}})})}}),
 e(1203,{crs=a[891],g={
 ach(8972,{
-crit(25393,{achID=9255,id=9}),
-crit(25393,{achID=9631,id=9})}),
+crit(25393,{achID=9255,id=9,r=1}),
+crit(25393,{achID=9631,id=9,r=2})}),
 s(67302,115567,{b=1,c=a[367],f=7,lvl=40,modID=6}),
 s(67224,115585,{b=1,c=a[968],f=4,lvl=40,modID=6}),
 s(67262,115562,{b=1,c=a[677],f=4,lvl=40,modID=6}),
@@ -32308,8 +32308,8 @@ ach(9443,{u=2}),
 gach(9399,{u=2}),
 ach(8973,{
 title(301),
-crit(25394,{achID=9255,id=10}),
-crit(25394,{achID=9631,id=10})}),
+crit(25394,{achID=9255,id=10,r=1}),
+crit(25394,{achID=9631,id=10,r=2})}),
 gach(9421),
 mnt(171621,{b=1,itemID=116660,lvl=17}),
 s(62907,113988,{b=1,f=28,lvl=40,modID=6}),
@@ -41423,6 +41423,7 @@ i(142450,{b=1,f=55})}}),
 q(45296,{description="You must complete the full quest chain before the quest item will drop from the boss.",lvl=45,providers={{"i",143556}},sourceQuests={45295},g={
 i(142469,{b=1,f=52,lvl=45,spellID=231054})}}),
 q(44685,{coords={a[646]},lvl=45,qgs=a[129],sourceQuests=a[624],g={
+i(142213,{spellID=229170}),
 i(142451,{b=1,f=55})}}),
 q(44556,{coords={{28.8,48.6,627}},qgs={90417},rwp=70300,u=2}),
 q(45291,{coords={a[650]},lvl=45,qgs=a[314],sourceQuests={44734,44735}}),
@@ -41435,7 +41436,8 @@ q(44803,{c={1,2,3,4,5,6,7,8,9,10,11,12},lvl=45,providers={{"i",142246}}}),
 q(45293,{lvl=45,qgs=a[314],sourceQuests={45292}}),
 q(45292,{coords={a[650]},lvl=45,qgs=a[314],sourceQuests={45291},g={
 i(142461,{b=1,f=52,lvl=45})}}),
-q(44733,{coords={{46.9,75.2,42}},lvl=45,qgs=a[129],sourceQuests={44764}}),
+q(44733,{coords={{46.9,75.2,42}},lvl=45,qgs=a[129],sourceQuests={44764},g={
+i(142208,{spellID=229332})}}),
 q(44686,{coords={a[640]},lvl=45,qgs=a[134],sourceQuests=a[624]})}),
 h(-19,{crs={113971,114247,114252,114261,114262,114284,114312,114328,114329,114330,114350,114522,114790},g={
 r(232274,{b=1,itemID=143615,learnedAt=20,lvl=10,requireSkill=773}),

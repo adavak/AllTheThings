@@ -6183,6 +6183,111 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(247484),	-- Waistplate of Fractured Realities
 					}),
 				}),
+				d(DIFFICULTY.RAID.NORMAL, {
+					filter(CLOTH, {
+						i(247434),	-- Chaos-Scarred Mantle
+						i(247483),	-- Mantle of Prestidigitation
+						i(247433),	-- Master Warmage's Leggings
+						i(247432),	-- Nighthold Custodian's Hood
+						i(247429),	-- Robes of Fluctuating Energy
+						i(247468),	-- Scorpid Handler's Gloves
+					}),
+					filter(LEATHER, {
+						i(247478),	-- Gloves of Synchronous Elements
+						i(247442),	-- Gnawed Nightfallen Britches
+						i(247444),	-- Mantle of the Torn Sky
+						i(247446),	-- Nightborne Battle-Magus Hood
+						i(247443),	-- Temporally Displaced Gloves
+						i(247480),	-- Trousers of Cultivation
+						i(247445),	-- Tunic of Unwavering Devotion
+						i(247474),	-- Vintage Suramar Nobility Hat
+					}),
+					filter(MAIL, {
+						i(247476),	-- Hood of Fading Opportunity
+						i(247487),	-- Netherbranded Shoulderpads
+						i(247452),	-- Pauldrons of Warped Memory
+						i(247451),	-- Pertinacious Legplates
+						i(247449),	-- Sterilizer's Insulated Gauntlets
+					}),
+					filter(PLATE, {
+						i(247485),	-- Breastplate of the Remembered King
+						i(247479),	-- Bridgebreaker Gauntlets
+						i(247462),	-- Chrono-Tempered Legplates
+						i(247461),	-- Eventide Casque
+						i(247459),	-- Gauntlets of Fractured Eons
+						i(247463),	-- Shoulderguard of the Eclipse
+					}),
+				}),
+				d(DIFFICULTY.RAID.HEROIC, {
+					filter(CLOTH, {
+						i(247434),	-- Chaos-Scarred Mantle
+						i(247483),	-- Mantle of Prestidigitation
+						i(247433),	-- Master Warmage's Leggings
+						i(247432),	-- Nighthold Custodian's Hood
+						i(247429),	-- Robes of Fluctuating Energy
+						i(247468),	-- Scorpid Handler's Gloves
+					}),
+					filter(LEATHER, {
+						i(247478),	-- Gloves of Synchronous Elements
+						i(247442),	-- Gnawed Nightfallen Britches
+						i(247444),	-- Mantle of the Torn Sky
+						i(247446),	-- Nightborne Battle-Magus Hood
+						i(247443),	-- Temporally Displaced Gloves
+						i(247480),	-- Trousers of Cultivation
+						i(247445),	-- Tunic of Unwavering Devotion
+						i(247474),	-- Vintage Suramar Nobility Hat
+					}),
+					filter(MAIL, {
+						i(247476),	-- Hood of Fading Opportunity
+						i(247487),	-- Netherbranded Shoulderpads
+						i(247452),	-- Pauldrons of Warped Memory
+						i(247451),	-- Pertinacious Legplates
+						i(247449),	-- Sterilizer's Insulated Gauntlets
+					}),
+					filter(PLATE, {
+						i(247485),	-- Breastplate of the Remembered King
+						i(247479),	-- Bridgebreaker Gauntlets
+						i(247462),	-- Chrono-Tempered Legplates
+						i(247461),	-- Eventide Casque
+						i(247459),	-- Gauntlets of Fractured Eons
+						i(247463),	-- Shoulderguard of the Eclipse
+					}),
+				}),
+				d(DIFFICULTY.RAID.MYTHIC, {
+					filter(CLOTH, {
+						i(247434),	-- Chaos-Scarred Mantle
+						i(247483),	-- Mantle of Prestidigitation
+						i(247433),	-- Master Warmage's Leggings
+						i(247432),	-- Nighthold Custodian's Hood
+						i(247429),	-- Robes of Fluctuating Energy
+						i(247468),	-- Scorpid Handler's Gloves
+					}),
+					filter(LEATHER, {
+						i(247478),	-- Gloves of Synchronous Elements
+						i(247442),	-- Gnawed Nightfallen Britches
+						i(247444),	-- Mantle of the Torn Sky
+						i(247446),	-- Nightborne Battle-Magus Hood
+						i(247443),	-- Temporally Displaced Gloves
+						i(247480),	-- Trousers of Cultivation
+						i(247445),	-- Tunic of Unwavering Devotion
+						i(247474),	-- Vintage Suramar Nobility Hat
+					}),
+					filter(MAIL, {
+						i(247476),	-- Hood of Fading Opportunity
+						i(247487),	-- Netherbranded Shoulderpads
+						i(247452),	-- Pauldrons of Warped Memory
+						i(247451),	-- Pertinacious Legplates
+						i(247449),	-- Sterilizer's Insulated Gauntlets
+					}),
+					filter(PLATE, {
+						i(247485),	-- Breastplate of the Remembered King
+						i(247479),	-- Bridgebreaker Gauntlets
+						i(247462),	-- Chrono-Tempered Legplates
+						i(247461),	-- Eventide Casque
+						i(247459),	-- Gauntlets of Fractured Eons
+						i(247463),	-- Shoulderguard of the Eclipse
+					}),
+				}),
 			}),
 			header(HEADERS.LFGDungeon, 2833, {	-- Tomb of Sargeras
 				d(DIFFICULTY.RAID.LFR, {
