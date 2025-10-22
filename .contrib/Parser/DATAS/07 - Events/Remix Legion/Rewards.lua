@@ -69,9 +69,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				{"select","instanceID",768},{"pop"},
 				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
 				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
+				{"finalize"},
 
 				-- Trial of Valor
-				-- Currently you can't get any Trial of Valor items from the mote
+				-- No Trial of Valor items are in the mote
+
+				-- The Nighthold
+				{"select","instanceID",786},{"pop"},
+				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
+				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
 			},
 		}),
 		i(253227, {	-- Flawless Thread of Time (Phase 5)

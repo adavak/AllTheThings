@@ -7586,7 +7586,7 @@ i(249784,{e=447,f=55,spellID=1249740}),
 i(249783,{e=447,f=55,spellID=1249739}),
 i(249782,{e=447,f=55,spellID=1249738}),
 i(249781,{e=447,f=55,spellID=1249736}),
-i(253224,{e=447,spellID=1255827,sym={{"select","instanceID",768},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"}}}),
+i(253224,{e=447,spellID=1255827,sym={{"select","instanceID",768},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",786},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"}}}),
 i(253227,{e=447,spellID=1255828}),
 i(251562,{e=447,f=55,spellID=1252671}),
 flt(55,{e=447,g={
