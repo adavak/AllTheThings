@@ -41,9 +41,9 @@ local function GetGroupItemIDWithModID(t, rawItemID, rawModID, rawBonusID)
 		m = rawModID and tonumber(rawModID)
 		b = rawBonusID and tonumber(rawBonusID)
 	end
-	-- e can only exist in absence of m and b
+	-- e can only exist in absence of m and b, but needs to not overlap modID space
 	if e then
-		i = i + (e/1000)
+		i = i + (e/1000000)
 		return i
 	end
 	if m then
@@ -144,7 +144,6 @@ app.GroupBestMatchingItems = function(items, modItemID)
 	end
 	return refinedBuckets;
 end
-local ResetItemCacheInfo
 -- Imports the raw information from the rawlink into the specified group
 app.ImportRawLink = function(group, rawlink, ignoreSource)
 	rawlink = rawlink and rawlink:match("item[%-?%d:]+");
@@ -180,13 +179,11 @@ app.ImportRawLink = function(group, rawlink, ignoreSource)
 	end
 	-- really weird situations where both modID and bonusID are empty but item has a 'special' extra ID to distinguish (like artifactID)
 	if not group.modID and not group.modID then
-		local extraID = tonumber(rawlink:match(":::::1:8:(%d+)"))
+		local extraID = tonumber(rawlink:match(":::1:8:(%d+)"))
 		if extraID then
 			group.extraID = extraID
 		end
 	end
-	-- when setting the rawlink of an item, reset it's referenced cached data
-	ResetItemCacheInfo(group)
 end
 -- Removes the color and hyperlink text/formatting from the link string
 local function CleanLink(link)
@@ -313,14 +310,6 @@ end
 cache.DefaultFunctions.link = CacheInfo
 cache.DefaultFunctions.name = CacheInfo
 cache.DefaultFunctions.icon = CacheInfo
-ResetItemCacheInfo = function(t)
-	local _t, _ = cache.GetCached(t)
-	_t.name = nil
-	_t.link = nil
-	_t.title = nil
-	_t.icon = nil
-	_t.q = nil
-end
 local function default_specs(t)
 	return app.GetFixedItemSpecInfo(t.itemID);
 end

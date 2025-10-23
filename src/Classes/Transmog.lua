@@ -187,9 +187,6 @@ app.DetermineItemLink = function(sourceID)
 	local checkID, found = GetSourceID(link);
 	if found and checkID == sourceID then return link; end
 
-	-- Only try to manually scan for a sourceID if we are Debugging (save regular users from unnecessary lookups)
-	if not app.Debugging then return end
-
 	-- Artifact quality Items, try making an Artifact-style link....
 	if sourceInfo.quality == 6 then
 		-- Main hand first
@@ -224,6 +221,10 @@ app.DetermineItemLink = function(sourceID)
 		-- app.PrintDebug(link,checkID,found)
 		if found and checkID == sourceID then return link; end
 	end
+
+	-- Only try to manually scan for a bonusID-based sourceID if we are Debugging (save regular users from unnecessary lookups)
+	-- since this takes quite a bit more checking than the other steps
+	if not app.Debugging then return end
 
 	-- Check BonusIDs
 	itemFormat = "item:"..itemID.."::::::::::::1:%d";
