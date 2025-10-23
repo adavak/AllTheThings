@@ -11753,6 +11753,7 @@ local ObjectNames = {
 	[567732] = "Kaja'6-Pack",
 	[567735] = "Northwest Barrier Projector",
 	[567736] = "South Barrier Projector",
+	[571402] = "Bounty: Most Dangerous Foes",
 	[9000000] = "Wind Sculpted Stone",
 	[9000001] = "Ancient Incense Brazier",
 	[9000002] = "Ancient Incense Brazier",
@@ -49786,6 +49787,7 @@ localize(ObjectNames, {
 	[549999] = "Urna de Energia",
 	[550001] = "Pirâmide de Energia",
 	[562348] = "Espólios do Rei do Nexus",
+	[571402] = "Recompensa: inimigos muito perigosos",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigia Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Observador de Pedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Pedra Estranha",
@@ -71099,6 +71101,7 @@ localize(ObjectNames, {
 	[531961] = "Xy'bucha desatada",
 	[531965] = "Partes sueltas",
 	[562348] = "Botín del Rey del Nexo",
+	[571402] = "Recompensa: Los enemigos más peligrosos",
 });
 for key,value in pairs({
 	[2] = "Removido del juego",
@@ -77842,6 +77845,7 @@ localize(ObjectNames, {
 	[549999] = "能量瓮",
 	[550001] = "能量金字塔",
 	[562348] = "节点之王的战利品",
+	[571402] = "悬赏：最危险的敌人",
 	[9000000] = "微风雕塑之石",
 	[9999908] = "|cFFFFFFFF第1步:|r 收集消耗品",
 	[9999909] = "|cFFFFFFFF第2步:|r 吞噬洞穴",
