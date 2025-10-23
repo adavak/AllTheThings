@@ -1849,6 +1849,7 @@ local AccountWideQuestsDB = {
 	86328,	-- Delver's Starter Kit [TWW:S2]
 	86329,	-- Delver's Cosmetic Surprise Bag [TWW:S2]
 	86374,	-- Muddy Snapdragon Treat
+	86375,	-- Inky Snapdragon Treat
 	86376,	-- Kaja'Cola-braised Snapdragon Treat
 	86377,	-- Storminfused Snapdragon Treat
 	86378,	-- Royal Snapdragon Treat

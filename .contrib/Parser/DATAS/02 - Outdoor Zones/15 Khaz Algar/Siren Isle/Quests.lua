@@ -375,7 +375,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				-- dialogs do nothing and didn't trigger additional hqts on ptr
 				["groups"] = {
 					i(233489),	-- Prismatic Snapdragon (MOUNT!)
-					i(233493),	-- Teal Snapdragon Treat TODO: need a better way to solve this, since it will (un)flag this item after changing colors.
+					i(233493),	-- Teal Snapdragon Treat
 				},
 			}),
 			q(86486, {	-- Hungry, Hungry Snapdragon
@@ -456,19 +456,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 				q(85070),	-- when Special Assigment npc unlocked for storm phase (pop talking head)
 				-- Snapdragon timer after quest
 				q(86566),	-- [DNT] Snapdragon Progress Update (spellID 1214684)
-				-- Another unlock for vendor (snapdragon treats)
-				-- ^ moved into CharacterItemDB instead
-				-- color changes questID (otherwise it will block 100% for zone)
-				-- these HQTs get linked to the Items as providers now due to automation, so make sure they're repeatable
-				q(86386, {["repeatable"]=true}),	-- Crimson Snapdragon Treat
-				q(86382, {["repeatable"]=true}),	-- Inky Snapdragon Treat
-				q(86383, {["repeatable"]=true}),	-- Kaja'Cola-braised Snapdragon Treat
-				q(86381, {["repeatable"]=true}),	-- Muddy Snapdragon Treat
-				q(86385, {["repeatable"]=true}),	-- Royal Snapdragon Treat
-				q(86387, {["repeatable"]=true}),	-- Sandy Snapdragon Treat
-				q(86384, {["repeatable"]=true}),	-- Storminfused Snapdragon Treat
-				-- q(86373),	-- Teal Snapdragon Treat (automated)
-				-- q(86375),	-- Talk to Gazix Fusegrease and unlock the Inky Snapdragon Treat (automated)
 				--
 				--It went live:
 				--it seems like questID fire per item drop for slot now
