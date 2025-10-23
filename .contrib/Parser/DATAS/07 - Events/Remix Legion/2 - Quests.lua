@@ -247,7 +247,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(242563),	-- Apocalypse
 					i(242559),	-- Blades of the Fallen Prince
 					i(242560),	-- Blades of the Fallen Prince
-					i(242562),	-- Maw of the Damned
+					i(242562, {["ItemAppearanceModifierID"] = 0}),	-- Maw of the Damned
 				}),
 				cl(DEMONHUNTER, {
 					i(242576),	-- Aldrachi Warblades
@@ -306,18 +306,18 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(242591),	-- Sharas'dal, Scepter of Tides
 					i(242592),	-- Shield of the Sea Queen
 					i(242593),	-- The Fist of Ra-den
-					i(242594),	-- The Highkeeper's Ward
+					i(242594, {["ItemAppearanceModifierID"] = 0}),	-- The Highkeeper's Ward
 				}),
 				cl(WARLOCK, {
 					i(242599),	-- Ulthalesh, the Deadwind Harvester
 					i(242598),	-- Scepter of Sargeras
-					i(242600),	-- Skull of the Man'ari
+					i(242600, {["ItemAppearanceModifierID"] = 0}),	-- Skull of the Man'ari
 					i(242605),	-- Spine of Thal'kiel
 				}),
 				cl(WARRIOR, {
 					i(237749),	-- Scale of the Earth-Warder
 					i(237748),	-- Scaleshard
-					i(236772),	-- Strom'kar, the Warbreaker
+					i(236772, {["ItemAppearanceModifierID"] = 0}),	-- Strom'kar, the Warbreaker
 					i(237746),	-- Warswords of the Valarjar
 					i(237747),	-- Warswords of the Valarjar
 				}),
