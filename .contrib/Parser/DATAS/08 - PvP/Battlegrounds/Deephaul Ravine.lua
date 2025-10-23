@@ -31,7 +31,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				achraw(40613),	-- Resilient Runner
 				ach(40608),	-- Running in the Ravine
 				ach(40612, {	-- Sprinting in the Ravine
-					--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Deephaul Crystal (DECOR!)
+					i(247750, {["timeline"] = { ADDED_12_0_0 }}),	-- Deephaul Crystal (DECOR!)
 				}),
 				ach(40615),	-- Unexpected Arrival
 				ach(40616),	-- Unexpected Arrivals

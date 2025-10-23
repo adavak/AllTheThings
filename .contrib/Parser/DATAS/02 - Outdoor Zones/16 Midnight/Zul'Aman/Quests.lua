@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(ZULAMAN_MID, {
 		n(QUESTS, {
-			header(HEADERS.Achievement, 41803, {	-- Living Amani Legend
+			header(HEADERS.Achievement, 41803, {	-- For Zul'Aman!
 				header(HEADERS.AchCriteria, 41803.01, {	-- Dis Was Our Land
 					q(86708, {	-- The Gates of Zul'Aman
 						["provider"] = { "n", 240523 },	-- Scouting Map

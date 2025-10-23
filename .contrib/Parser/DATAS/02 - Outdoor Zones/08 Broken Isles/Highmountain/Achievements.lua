@@ -23,13 +23,13 @@ root(ROOTS.Zones, {
 				}),
 				ach(12292),	-- Highmountain Tribe
 				ach(11257, {	-- Treasures of Highmountain (mostly-automated)
-					--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Skyhorn Storage Chest (DECOR!)
 					crit(33517, {	-- Amateur Hunters (Treasure)
 						["_quests"] = { 40413 },	-- Amateur Hunters (Treasure)
 					}),
 					-- crit(33537, {	-- TODO
 					-- 	["_quests"] = { TODO },	-- TODO
 					-- })
+					i(245460, {["timeline"] = { ADDED_12_0_0 }}),	-- Skyhorn Storage Chest (DECOR!)
 				}),
 			}),
 		}),

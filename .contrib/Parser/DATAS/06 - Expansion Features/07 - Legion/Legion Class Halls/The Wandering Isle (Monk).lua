@@ -7,24 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(MONK, bubbleDownSelf({ ["classes"] = { MONK } }, {
 			["maps"] = { THE_WANDERING_ISLE },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42292, {	-- Hidden Potential of the Grandmaster
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Forge of the Roaring Mountain (DECOR!)
+						i(262619),	-- Replica Forge of the Roaring Mountain (DECOR!)
 					}),
 					ach(60967, {	-- Legendary Research of Five Dawns
-						["timeline"] = { ADDED_12_0_0 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Chronicle of Ages (DECOR!)
+						i(256679),	-- Replica Chronicle of Ages (DECOR!)
 					}),
-					ach(60986, {	-- So Many Missions for the Temple of Five Dawns
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Five Dawns Planning Table (DECOR!)
+					ach(60986, {	-- Raise an Army for the Temple of Five Dawns
+						i(248942),	-- Five Dawns Planning Table (DECOR!)
 					}),
 					ach(42275, {	-- The Grandmaster's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Monastery Gong (DECOR!)
+						i(248958),	-- Monastery Gong (DECOR!)
 					}),
-				}),
+				})),
 				n(ARTIFACTS, {
 					cl(MONK, BREWMASTER, {
 						gt(254, {	-- Brewhouse

@@ -7,24 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		cl(HUNTER, bubbleDownSelf({ ["classes"] = { HUNTER } }, {
 			["maps"] = { TRUESHOT_LODGE },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42290, {	-- Hidden Potential of the Huntmaster
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Altar of the Eternal Hunt (DECOR!)
+						i(250125),	-- Replica Altar of the Eternal Hunt (DECOR!)
 					}),
 					ach(60965, {	-- Legendary Research of the Unseen Path
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Tales of the Hunt (DECOR!)
+						i(250127),	-- Replica Tales of the Hunt (DECOR!)
 					}),
-					ach(60984, {	-- So Many Missions for the Trueshot Lodge
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Unseen Path Archer's Gallery (DECOR!)
+					ach(60984, {	-- Raise an Army for the Trueshot Lodge
+						i(250126),	-- Unseen Path Archer's Gallery (DECOR!)
 					}),
 					ach(42273, {	-- The Huntmaster's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Trueshot Skeletal Dragon Trophy (DECOR!)
+						i(248011),	-- Trueshot Skeletal Dragon Trophy (DECOR!)
 					}),
-				}),
+				})),
 				n(ARTIFACTS, {
 					cl(HUNTER, BEAST_MASTERY, {
 						i(139555, {	-- Designs of the Grand Architect

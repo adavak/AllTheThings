@@ -750,7 +750,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				}),
 				BossOnly(BANDIT, {
 					ach(41119, {	-- One Rank Higher
-						--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Gallagio L.U.C.K. Spinner (DECOR!)
+						i(245302, {["timeline"] = { ADDED_12_0_0 }}),	-- Gallagio L.U.C.K. Spinner (DECOR!)
 					}),
 					ach(41120),	-- Two Ranks Higher
 					ach(41121),	-- Three Ranks Higher

@@ -880,20 +880,20 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(EPIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
 			["groups"] = {
-				i(243063),	-- Doomfeathers (PET!)
 				ach(61402),	-- Epic Edition: Voidlight Surger
+				i(243063),	-- Doomfeathers (PET!)
 				i(243062),	-- Hopeflutter (PET!)
-				i(244668, {["timeline"] = { ADDED_12_0_0 }}),	-- Light-Infused Fountain (DECOR!)
-				i(246414, {["timeline"] = { ADDED_12_0_0 }}),	-- Light-Infused Rotunda (DECOR!)
 				i(252667, {["timeline"] = { ADDED_12_0_0 }}),	-- "The Ranger of the Void" Painting (DECOR!)
 				i(252669, {["timeline"] = { ADDED_12_0_0 }}),	-- "The Redeemer" Painting (DECOR!)
 				i(252666, {["timeline"] = { ADDED_12_0_0 }}),	-- "The High Exarch" Painting (DECOR!)
 				i(252668, {["timeline"] = { ADDED_12_0_0 }}),	-- "The Harbinger" Painting (DECOR!)
+				i(244668, {["timeline"] = { ADDED_12_0_0 }}),	-- Light-Infused Fountain (DECOR!)
+				i(246414, {["timeline"] = { ADDED_12_0_0 }}),	-- Light-Infused Rotunda (DECOR!)
 				i(245939, {["timeline"] = { ADDED_12_0_0 }}),	-- Void-Corrupted Fountain (DECOR!)
 				i(248809, {["timeline"] = { ADDED_12_0_0 }}),	-- Void-Corrupted Rotunda (DECOR!)
-				i(245610),	-- Voidlight Surger
-				iensemble(248974),	-- Voidstrider Raiment
+				i(245610),	-- Voidlight Surger (MOUNT!)
 				i(243019),	-- Voidwing Dragonhawk (MOUNT!)
+				iensemble(248974),	-- Voidstrider Raiment
 			},
 		}),
 	})),

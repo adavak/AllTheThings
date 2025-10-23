@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 65.4, 51.7, AZJ_KAHET },
 			})),
 			ach(40542, {	-- Smelling History (automated)
-				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Kaheti Scribe's Records (DECOR!)
+				i(246866, {["timeline"] = { ADDED_12_0_0 }}),	-- Kaheti Scribe's Records (DECOR!)
 			}),
 			ach(40636),		-- Sojourner of Azj-Kahet (automated)
 			ach(40633, {	-- The Unseeming

@@ -3,7 +3,7 @@ ach(41293),	-- [PH] Restless Heart kills (Normal Windrunner Spire)
 ach(41294),	-- [PH] Restless Heart kills (Heroic Windrunner Spire)
 ach(41295),	-- [PH] Restless Heart kills (Mythic Windrunner Spire)
 ach(41802),	-- Eversong Woods
-ach(41803),	-- Living Amani Legend
+ach(41803),	-- For Zul'Aman!
 ach(41804),	-- One Does Not Simply Walk Into Harandar
 ach(41805),	-- Arator's Journey
 ach(41806),	-- Voidstorm

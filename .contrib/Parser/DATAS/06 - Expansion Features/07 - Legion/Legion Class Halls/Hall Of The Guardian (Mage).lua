@@ -25,24 +25,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(MAGE, bubbleDownSelf({ ["classes"] = { MAGE } }, {
 			["maps"] = { HALL_OF_THE_GUARDIAN, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42291, {	-- Hidden Potential of the Archmage
-						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = { i(250306, {["timeline"] = { ADDED_12_0_0 }}),},	-- Conjured Altar of the Guardian (DECOR!)
+						i(250306),	-- Conjured Altar of the Guardian (DECOR!)
 					}),
 					ach(60966, {	-- Legendary Research of the Tirisgarde
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Conjured Archive of the Tirisgarde (DECOR!)
+						i(256674),	-- Conjured Archive of the Tirisgarde (DECOR!)
 					}),
-					ach(60985, {	-- So Many Missions for the Hall of the Guardian
-						["timeline"] = { ADDED_11_2_7 },
-						["groups"] = { i(250131, {["timeline"] = { ADDED_12_0_0 }}),},	-- Tirisgarde War Map (DECOR!)
+					ach(60985, {	-- Raise an Army for the Hall of the Guardian
+						i(250131),	-- Tirisgarde War Map (DECOR!)
 					}),
 					ach(42274, {	-- The Archmage's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Tirisgarde Book Tempest (DECOR!)
+						i(245429),	-- Tirisgarde Book Tempest (DECOR!)
 					}),
-				}),
+				})),
 				n(ARTIFACTS, {
 					cl(MAGE, ARCANE, {
 						q(43787, {	-- Zone Targets Polymorphed: Azsuna

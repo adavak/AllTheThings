@@ -2252,9 +2252,9 @@ i(262502, 1268926);	-- Elven Arcane Guardian
 i(262706, 1269277);	-- Ferocious Snapvine
 i(246734, 1243593);	-- Fierce Grimlynx
 i(257142, 1261291);	-- Fiery Dragonhawk
-i(263449, 1270520);	-- Fluffy Comfy Flying Carpet
-i(263450, 1270521);	-- Gruffy Comfy Flying Carpet
-i(263451, 1270522);	-- Huffy Comfy Flying Carpet
+i(263449, 1270520);	-- Fluffy Comfy Flying Quilt
+i(263450, 1270521);	-- Gruffy Comfy Flying Quilt
+i(263451, 1270522);	-- Huffy Comfy Flying Quilt
 i(211086, 428065);	-- Jeweled Jade Scarab
 i(242715, 1233516);	-- K'arroc Swiftwing
 i(260895, 1267002);	-- Lavender Pseudoshell
@@ -2267,7 +2267,7 @@ i(260409, 1266248);	-- Savage Crimson Battle Turtle
 i(262708, 1269280);	-- Savage Snapvine
 i(262500, 1268924);	-- Silvermoon's Arcane Defender
 i(0, 1263635);	-- Spectral Hawkstrider
-i(263452, 1270523);	-- Stuffy Comfy Flying Carpet
+i(263452, 1270523);	-- Stuffy Comfy Flying Quilt
 i(0, 1238827);	-- Swift Spectral Dragonhawk
 i(260887, 1266980);	-- Tenebrous Harrower
 i(262705, 1269273);	-- Vicious Snapvine

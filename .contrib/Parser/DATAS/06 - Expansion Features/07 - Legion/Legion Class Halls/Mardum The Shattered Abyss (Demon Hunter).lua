@@ -7,24 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(DEMONHUNTER, bubbleDownSelf({ ["classes"] = { DEMONHUNTER } }, {
 			["maps"] = { MARDUM_THE_SHATTERED_ABYSS_UPPER_COMMAND_CENTER, MARDUM_THE_SHATTERED_ABYSS_LOWER_COMMAND_CENTER },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42288, {	-- Hidden Potential of the Slayer
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Cursed Forge of the Nathrezim (DECOR!)
+						i(249457),	-- Replica Cursed Forge of the Nathrezim (DECOR!)
 					}),
 					ach(60963, {	-- Legendary Research of the Illidari
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Tome of Fel Secrets (DECOR!)
+						i(249690),	-- Replica Tome of Fel Secrets (DECOR!)
 					}),
-					ach(60982, {	-- So Many Missions for the Fel Hammer
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Fel Hammer Scouting Map (DECOR!)
+					ach(60982, {	-- Raise an Army for the Fel Hammer
+						i(249518),	-- Fel Hammer Scouting Map (DECOR!)
 					}),
 					ach(42271, {	-- The Slayer's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Illidari Glaiverest (DECOR!)
+						i(249459),	-- Illidari Glaiverest (DECOR!)
 					}),
-				}),
+				})),
 				n(FOLLOWERS, bubbleDownSelf({
 					["collectible"] = false,
 					["u"] = UNLEARNABLE,	-- Temporary troops

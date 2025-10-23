@@ -195,6 +195,10 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 			}),
 		},
 	}),
+	ach(61687, {		-- Champion in Battle
+		["timeline"] = { ADDED_12_0_0 },
+		["groups"] = { i(247765) },	-- Healer's Empowerment (DECOR!)
+	}),
 	-- #endif
 	ach(388, {		-- City Defender (Alliance)
 		["timeline"] = { ADDED_3_0_2 },
@@ -316,15 +320,23 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 	}),
 	ach(1157, {		-- Duel-icious
 		["timeline"] = { ADDED_3_0_2 },
-		--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Challenger's Dueling Flag (DECOR!)
+		["groups"] = { i(247756, {["timeline"] = { ADDED_12_0_0 }}),},	-- Challenger's Dueling Flag (DECOR!)
 	}),
 	ach(11693, {	-- Eighteen and Over
 		["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },
+	}),
+	ach(61683, {		-- Entering Battle
+		["timeline"] = { ADDED_12_0_0 },
+		["groups"] = { i(247763) },	-- Berserker's Empowerment (DECOR!)
 	}),
 	ach(14815, {	-- Executing the Exarch
 		["provider"] = { "n", 175137 },	-- High Exarch Turalyon <Lord Commander of Alliance Forces>
 		["timeline"] = { ADDED_9_0_1 },
 		["races"] = HORDE_ONLY,
+	}),
+	ach(61686, {		-- Expert in Battle
+		["timeline"] = { ADDED_12_0_0 },
+		["groups"] = { i(247770) },	-- Mysterious Empowerment (DECOR!)
 	}),
 	-- #if AFTER 3.0.1
 	ach(434, {		-- Field Marshal
@@ -649,6 +661,10 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 			}),
 		},
 	}),
+	ach(61688, {		-- Master in Battle
+		["timeline"] = { ADDED_12_0_0 },
+		["groups"] = { i(247766) },	-- Runner's Empowerment (DECOR!)
+	}),
 	ach(441, {		-- Master Sergeant
 		["races"] = ALLIANCE_ONLY,
 		["timeline"] = { ADDED_1_4_0, REMOVED_2_0_1 },
@@ -711,6 +727,14 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 	ach(9233, {		-- Primal Conquest (Horde)
 		["races"] = HORDE_ONLY,
 		["timeline"] = { ADDED_6_0_2, REMOVED_6_2_0 },
+	}),
+	ach(61685, {		-- Proficient in Battle
+		["timeline"] = { ADDED_12_0_0 },
+		["groups"] = { i(247769) },	-- Chaotic Empowerment (DECOR!)
+	}),
+	ach(61684, {		-- Progressing in Battle
+		["timeline"] = { ADDED_12_0_0 },
+		["groups"] = { i(247768) },	-- Guardian's Empowerment (DECOR!)
 	}),
 	ach(12181, {	-- Protocol 2.3
 		["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },
@@ -844,7 +868,7 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 	})),
 	ach(229, {		-- The Grim Reaper
 		["timeline"] = { ADDED_3_0_2 },
-		--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Horde Dueling Flag (DECOR!)
+		["groups"] = { i(247745, {["timeline"] = { ADDED_12_0_0 }}),},	-- Horde Dueling Flag (DECOR!)
 	}),
 	applyclassicphase(PHASE_TWO, ach(907, {	-- The Justicar
 		-- #if AFTER 3.0.1
@@ -969,7 +993,7 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 	}),
 	ach(231, {		-- Wrecking Ball
 		["timeline"] = { ADDED_3_0_2 },
-		--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Alliance Dueling Flag (DECOR!)
+		["groups"] = { i(247744, {["timeline"] = { ADDED_12_0_0 }}),},	-- Alliance Dueling Flag (DECOR!)
 	}),
 	ach(11691, {	-- You Are Sixteen
 		["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },

@@ -151,24 +151,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(WARRIOR, bubbleDownSelf({ ["classes"] = { WARRIOR } }, {
 			["maps"] = { SKYHOLD },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42298, {	-- Hidden Potential of the Battlelord
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Forge of Odyn (DECOR!)
+						i(249458),	-- Replica Forge of Odyn (DECOR!)
 					}),
 					ach(60973, {	-- Legendary Research of the Valarjar
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Saga of the Valarjar (DECOR!)
+						i(257396),	-- Replica Saga of the Valarjar (DECOR!)
 					}),
-					ach(60992, {	-- So Many Missions for Skyhold
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Skyhold War Table (DECOR!)
+					ach(60992, {	-- Raise an Army for Skyhold
+						i(249461),	-- Skyhold War Table (DECOR!)
 					}),
 					ach(42282, {	-- The Battlelord's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Valarjar Shield Wall (DECOR!)
+						i(249466),	-- Valarjar Shield Wall (DECOR!)
 					}),
-				}),
+				})),
 				n(ARTIFACTS, {
 					cl(WARRIOR, ARMS, {
 						q(43643, {	-- Secrets of the Axes

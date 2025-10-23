@@ -18,7 +18,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				60889,	-- Unraveled and Persevering
 			}},
 			["groups"] = {
-				--i(XXXXXX),	-- Drained Dark Heart of Galakrond (DECOR!)
+				i(257353),	-- Drained Dark Heart of Galakrond (DECOR!)
 				i(258188),	-- Geargrinder Mk. 11 (MOUNT!)
 			},
 		})),

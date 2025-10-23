@@ -7,24 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(ROGUE, bubbleDownSelf({ ["classes"] = { ROGUE } }, {
 			["maps"] = { THE_HALL_OF_SHADOWS },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42295, {	-- Hidden Potential of the Shadowblade
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Crucible of the Uncrowned (DECOR!)
+						i(250787),	-- Replica Crucible of the Uncrowned (DECOR!)
 					}),
 					ach(60970, {	-- Legendary Research of the Uncrowned
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Stolen Copy of the Blood Ledger (DECOR!)
+						i(250788),	-- Stolen Copy of the Blood Ledger (DECOR!)
 					}),
-					ach(60989, {	-- So Many Missions for the Hall of Shadows
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Uncrowned Planning Table (DECOR!)
+					ach(60989, {	-- Raise an Army for the Hall of Shadows
+						i(250786),	-- Uncrowned Planning Table (DECOR!)
 					}),
 					ach(42279, {	-- The Shadowblade's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Uncrowned Market Stall (DECOR!)
+						i(260776),	-- Uncrowned Market Stall (DECOR!)
 					}),
-				}),
+				})),
 				n(ARTIFACTS, {
 					cl(ROGUE, ASSASSINATION, {
 							i(139570, {	-- The Cypher of Broken Bone

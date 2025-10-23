@@ -7,24 +7,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(PRIEST, bubbleDownSelf({ ["classes"] = { PRIEST } }, {
 			["maps"] = { NETHERLIGHT_TEMPLE },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 					ach(42294, {	-- Hidden Potential of the High Priest
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Altar of Light and Shadow (DECOR!)
+						i(250790),	-- Replica Altar of Light and Shadow (DECOR!)
 					}),
 					ach(60969, {	-- Legendary Research of the Netherlight Conclave
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Replica Word of the Conclave (DECOR!)
+						i(250791),	-- Replica Word of the Conclave (DECOR!)
 					}),
-					ach(60988, {	-- So Many Missions for the Netherlight Temple
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Netherlight Command Map (DECOR!)
+					ach(60988, {	-- Raise an Army for the Netherlight Temple
+						i(251636),	-- Netherlight Command Map (DECOR!)
 					}),
 					ach(42277, {	-- The High Priest's Campaign
-						["timeline"] = { ADDED_11_2_7 },
-						--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Scroll of the Conclave (DECOR!)
+						i(250792),	-- Scroll of the Conclave (DECOR!)
 					}),
-				}),
+				})),
 				n(ARTIFACTS, {
 					header(HEADERS.Item, 141332, {	-- The Annals of Light and Shadow
 						["description"] = "Obtain 12 of these books to complete the set and receive the Discipline Priest Hidden Artifact Appearance.\n\nStart with Volume VI and Archivist Inkforge in your Order Hall.",
