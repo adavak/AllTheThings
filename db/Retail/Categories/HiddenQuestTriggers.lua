@@ -6607,13 +6607,6 @@ m(2369,{maps=a[16],petBattleLvl=25,g={
 h(-45,{
 q(85070,{type="hqt"}),
 q(86566,{type="hqt"}),
-q(86386,{qis={233500},repeatable=1,type="hqt"}),
-q(86382,{qis={233495},repeatable=1,type="hqt"}),
-q(86383,{qis={233497},repeatable=1,type="hqt"}),
-q(86381,{qis={233494},repeatable=1,type="hqt"}),
-q(86385,{qis={233499},repeatable=1,type="hqt"}),
-q(86387,{qis={233501},repeatable=1,type="hqt"}),
-q(86384,{qis={233498},repeatable=1,type="hqt"}),
 q(84839,{an="_G:INVTYPE_HEAD",type="hqt"}),
 q(84840,{an="_G:INVTYPE_SHOULDER",type="hqt"}),
 q(84841,{an="_G:INVTYPE_LEGS",type="hqt"}),
