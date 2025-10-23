@@ -78,24 +78,24 @@ local COMMONLOOT_NORMAL_HEROIC = {
 };
 
 -- These items are copy of the Normal difficulty for Mythic, since it drops the same items
-local COMMONLOOT_MYTHIC = bubbleDown({ ["ItemAppearanceModifierID"] = 0 }, {
+local COMMONLOOT_MYTHIC = {
 	filter(CLOTH, {
-		i(249684),	-- Horns of Unwavering Faith
-		i(249685),	-- Mantle of Unforgotten Souls
+		i(249684, {["ItemAppearanceModifierID"] = 0}),	-- Horns of Unwavering Faith
+		i(249685, {["ItemAppearanceModifierID"] = 0}),	-- Mantle of Unforgotten Souls
 	}),
 	filter(LEATHER, {
-		i(249683),	-- Shoulderguards of Divine Arts
-		i(249682),	-- Supreme Runecaster's Crown
+		i(249683, {["ItemAppearanceModifierID"] = 0}),	-- Shoulderguards of Divine Arts
+		i(249682, {["ItemAppearanceModifierID"] = 0}),	-- Supreme Runecaster's Crown
 	}),
 	filter(MAIL, {
-		i(249680),	-- Ordained Hunter's Crown
-		i(249681),	-- Shoulders of the Dragonslayer
+		i(249680, {["ItemAppearanceModifierID"] = 0}),	-- Ordained Hunter's Crown
+		i(249681, {["ItemAppearanceModifierID"] = 0}),	-- Shoulders of the Dragonslayer
 	}),
 	filter(PLATE, {
-		i(249678),	-- Helheim Hound's Visor
-		i(249679),	-- Sovereign Valarjar Mantle
+		i(249678, {["ItemAppearanceModifierID"] = 0}),	-- Helheim Hound's Visor
+		i(249679, {["ItemAppearanceModifierID"] = 0}),	-- Sovereign Valarjar Mantle
 	}),
-});
+};
 
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS)

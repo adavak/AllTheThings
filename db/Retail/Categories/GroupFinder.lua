@@ -53,7 +53,7 @@ s(84228,143581,{awp=70100,b=1,f=6,u=2}),
 s(25685,51980,{b=1,f=6,rwp=70100,u=2}),
 s(25678,51973,{b=1,f=4,u=2}),
 s(25670,51965,{b=1,f=5,u=2})}}),
-i(67248,{awp=40001,b=1,description="Rewarded for completing a random dungeon in the level 35-39 range.",rwp=70305,u=2,g={
+i(67248,{awp=40001,b=1,description="This is only rewarded for completing Maraudon - Earth Song Falls (level 36-39 range).",rwp=70305,u=2,g={
 s(25681,51976,{b=1,f=6,u=2}),
 s(25679,51974,{b=1,f=4,u=2}),
 s(25689,51984,{b=1,f=7,u=2}),
