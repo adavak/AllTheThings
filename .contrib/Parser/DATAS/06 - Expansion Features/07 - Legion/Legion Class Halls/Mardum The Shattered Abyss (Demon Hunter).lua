@@ -154,7 +154,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						q(39247, {	-- The Hunt (Kayn)
 							["sourceQuest"] = 39051,	-- By Any Means (Kayn)
 							["provider"] = { "n", 94902 },	-- Kayn Sunfury
-							["coord"] = { 50.3, 71.1, 723 },	-- The Violet Hold
+							["coord"] = { 50.5, 70, 723 },	-- The Violet Hold
 							["groups"] = {
 								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
@@ -286,7 +286,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42872, {	-- Securing the Way
 						["sourceQuests"] = { 42869 },	-- Eternal Vigil
 						["provider"] = { "n", 109196 },	-- Jace Darkweaver
-						["coord"] = { 95.3, 65.1, LEGION_DALARAN },
+						["coord"] = { 95.3, 66.6, LEGION_DALARAN },
 					}),
 					q(41033, {	-- Return to Mardum (Altruis)
 						["sourceQuest"] = 42872,	-- Securing the Way
@@ -368,7 +368,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42679, {	-- Broken Warriors
 						["sourceQuests"] = {
 							42677,	-- Things Gaardoun Needs (Kayn)
-							44161,	-- Things Gaardoun Needs (Altruis)
+							-- 44161,	-- Things Gaardoun Needs (Altruis) (wasn't required on remix)
 						},
 						["provider"] = { "n", 103761 },	-- Kor'vas Bloodthorn
 						["coord"] = { 59.1, 58.7, 720 },
@@ -411,7 +411,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42697, {	-- Champion: Asha Ravensong
 						["sourceQuests"] = {
 							42671,	-- Rise, Champions (Kayn) — must be on this quest
-							42670,	-- Rise, Champions (Altruis) — must be on this quest
+							-- 42670,	-- Rise, Champions (Altruis) — must be on this quest (wasn't required on remix)
 						},
 						["provider"] = { "n", 108326 },	-- Asha Ravensong
 						["coord"] = { 56.2, 38.9, 720 },
