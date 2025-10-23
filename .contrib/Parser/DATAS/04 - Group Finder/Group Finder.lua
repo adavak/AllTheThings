@@ -100,7 +100,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(67248, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_1, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 35-39 [CATA+]
-			["description"] = "Rewarded for completing a random dungeon in the level 35-39 range.",
+			["description"] = "This is only rewarded for completing Maraudon - Earth Song Falls (level 36-39 range).",
 			["groups"] = {
 				i(51976),	-- Earthbound Shoulderguards
 				i(51974),	-- Enumerated Shoulderpads
