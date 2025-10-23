@@ -4500,6 +4500,7 @@ i(260306, 4942);	-- Distorted Memory
 i(258189, 4910);	-- Do, child of Fi'lo
 i(259224, 4928);	-- Dragonhawk Munchkin
 i(0, 4887);	-- Dundun
+i(264654, 4977);	-- Emberwing Hatchling
 i(246628, 4508);	-- Emerald Sporbit
 i(262774, 4967);	-- Gortham
 i(262762, 4963);	-- Grumpy Mandrake
@@ -4515,11 +4516,13 @@ i(251002, 4889);	-- Nether Familia
 i(262392, 4961);	-- Nibblesworth
 i(240840, 4803);	-- Niblet
 i(262391, 4958);	-- Ominous Dominus
+i(246314, 4974);	-- Painter Frog
 i(258903, 4927);	-- Percival
 i(260730, 4948);	-- Perturbed Sporebat
 i(262763, 4964);	-- Plump Mandrake
 i(260922, 4950);	-- Preyseeker's Immature Behemoth
 i(250141, 4881);	-- Purple Swamp Leech
+i(264366, 4975);	-- Razeshi C.
 i(244911, 4830);	-- Rhay'Dahr
 i(262343, 4960);	-- Saka'saka
 i(262769, 4966);	-- Screechy Mandrake
@@ -4529,7 +4532,8 @@ i(262342, 4956);	-- Spormilian
 i(251004, 3364);	-- Striped Snakebiter
 i(245544, 4851);	-- Tiny Snow Buddy
 i(259337, 4929);	-- Vermillion Grovecrawler
+i(264434, 4976);	-- Voldy
 i(221495, 4497);	-- Waddles
-i(0, 4972);	-- Willie
+i(264303, 4972);	-- Willie
 i(251003, 4891);	-- Wrathful Wyrm
 i(262394, 4954);	-- Ziorg'pharon

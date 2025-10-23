@@ -2242,6 +2242,7 @@ i(260893, 1266993);	-- Arboreal Pseudoshell
 i(263222, 1268949);	-- Arcanovoid Construct
 i(246590, 1242904);	-- Ashes of Belo'ren
 i(262707, 1269279);	-- Blooded Snapvine
+i(0, 1253924);	-- Brilliant Petalwing
 i(260894, 1266997);	-- Cabbage Pseudoshell
 i(252014, 1253929);	-- Cerulean Sporeglider
 i(260580, 1266579);	-- Cloudborn Razorwing
@@ -2255,6 +2256,7 @@ i(257142, 1261291);	-- Fiery Dragonhawk
 i(263449, 1270520);	-- Fluffy Comfy Flying Quilt
 i(263450, 1270521);	-- Gruffy Comfy Flying Quilt
 i(263451, 1270522);	-- Huffy Comfy Flying Quilt
+i(0, 1261583);	-- Insatiable Shredclaw
 i(211086, 428065);	-- Jeweled Jade Scarab
 i(242715, 1233516);	-- K'arroc Swiftwing
 i(260895, 1267002);	-- Lavender Pseudoshell
@@ -2270,5 +2272,7 @@ i(0, 1263635);	-- Spectral Hawkstrider
 i(263452, 1270523);	-- Stuffy Comfy Flying Quilt
 i(0, 1238827);	-- Swift Spectral Dragonhawk
 i(260887, 1266980);	-- Tenebrous Harrower
+i(256423, 1260354);	-- Untainted Grove Crawler
 i(262705, 1269273);	-- Vicious Snapvine
+i(263580, 1270675);	-- Vivid Chloroceros
 i(0, 1266702);	-- Voidbound Stormray

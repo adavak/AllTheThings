@@ -1514,14 +1514,21 @@ i(256893);	-- Wretched Dredger's Brand
 i(257736);	-- [DNT] [PH] 12.0 Holy Hearthstone
 i(243146);	-- [DNT] Ren'dorei Struggle
 i(250974);	-- Akil'zon's Updraft
+i(263933);	-- Astalor's Summons
 i(251633);	-- Bursting Bounty Bundle
+i(264413);	-- Dominating Victory
 i(263244);	-- Enigmatic Fountain
+i(263975);	-- Feeling Fielder Mk. 7
 i(242520);	-- Festival Hot Air Balloon
+i(264517);	-- Galactic Flag of Victory
 i(259084);	-- Gift of the Cycle
 i(252265);	-- Hexed Potatoad Mucus
+i(263871);	-- Holy Pet Leash
 i(243304);	-- Jubilant Snowman Costume
 i(250320);	-- Lightgraft
+i(264414);	-- Midnight Delver's Flare Gun
 i(263489);	-- Naaru's Enfold
+i(253629);	-- Personal Key to the Arcantina
 i(262431);	-- Pocket Mushroom Jump Pad
 i(251903);	-- Potatoad Egg
 i(245580);	-- Rolling Snowball
@@ -1531,4 +1538,3 @@ i(259240);	-- Sin'dorei Wine
 i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
 i(263198);	-- Valdekar's Special
 i(256552);	-- Verdant Rutaani Seed
-i(253629);	-- ??
