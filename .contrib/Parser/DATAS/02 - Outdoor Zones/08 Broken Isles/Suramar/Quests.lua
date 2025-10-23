@@ -61,6 +61,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(44918, {	-- A Message From Our Enemies
 					["sourceQuest"] = 45268,	-- The Advisor and the Arcanist
@@ -84,6 +85,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(45266, {	-- A United Front
 					["sourceQuests"] = {
@@ -92,6 +94,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 					-- TODO:: may also require A Dance With Dragons (44876)
 				}),
 				q(40401, {	-- A Way Back In
@@ -346,6 +349,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(40331, {	-- Bite of the Sashj'tar
 					["sourceQuest"] = 40908,	-- Jarl Come Back Now
@@ -371,6 +375,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44964,	-- I'll Just Leave This Here
 					["provider"] = { "n", 115710 },	-- Chief Telemancer Oculeth
 					["coord"] = { 36.6, 45.0, SURAMAR },
+					["groups"] = { i(142118) },	-- Telemancy Orbs (QI!)
 				}),
 				q(44845, {	-- Break An Arm
 					["sourceQuests"] = {
@@ -447,6 +452,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(43314, {	-- Court of Stars: Beware the Fury of a Patient Elf
 					["sourceQuest"] = 44053,	-- Friends With Benefits
@@ -536,6 +542,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(43310, {	-- Either With Us
 					["sourceQuest"] = 43309,	-- The Perfect Opportunity
@@ -653,6 +660,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(40919, {	-- Fel Bent for Leather
 					["sourceQuest"] = 40694,	-- One Small Step for Magic
@@ -663,6 +671,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 45062,	-- Resisting Arrest
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
+					["groups"] = { i(142491) },	-- Experimental Telemancy Orb (QI!)
 					-- TODO: may also require Experimental Instability (45066)
 				}),
 				q(41452, {	-- Feline Frantic -- aa
@@ -796,16 +805,17 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 114909 },	-- Archmage Khadgar
 					["coord"] = { 41.0, 51.7, SURAMAR },
 					["groups"] = {
+						i(140040),	-- Comet Dust
+						i(143749),	-- Corrupted Nightborne Matrix
 						i(140078),	-- Crystalized Leypetal
-						i(140077),	-- Goldleaf Arcwine Phial
 						i(140076),	-- Felborne Energist's Gem
+						i(140071),	-- first Page of the Book of Shadows
+						i(140077),	-- Goldleaf Arcwine Phial
+						i(140072),	-- Headpiece of the Elunian Cycle
+						i(140073),	-- Khadgar's Pocket Warmer
 						i(140075),	-- Petrified Ancient Bark
 						i(140074),	-- Sin'dorei Blood Gems
-						i(140073),	-- Khadgar's Pocket Warmer
-						i(140072),	-- Headpiece of the Elunian Cycle
-						i(140071),	-- first Page of the Book of Shadows
 						i(140069),	-- Trueflight Arrow
-						i(140040),	-- Comet Dust
 					},
 				}),
 				q(44736, {	-- Gates of the Nighthold
@@ -1266,6 +1276,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 46.7, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(40746, {	-- One of the People
 					["sourceQuest"] = 41877,	-- Lady Lunastre
@@ -1436,6 +1447,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 45063,	-- The Felsoul Experiments
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
+					["groups"] = { i(142400) },	-- Advanced Targeting Orb (QI!)
 				}),
 				q(41469, {	-- Return to Irongrove Retreat
 					["sourceQuests"] = {
@@ -1590,6 +1602,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 114909 },	-- Archmage Khadgar
 					["coord"] = { 40.5, 53.1, SURAMAR },	-- horde
+					["groups"] = { i(142375) },	-- Dispelling Crystal (QI!)
 				}),
 				q(40947, {	-- Special Delivery
 					["sourceQuest"] = 41148,	-- Dispensing Compassion
@@ -1755,6 +1768,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(42491, {	-- The Arcway: Long Buried Knowledge
 					["sourceQuest"] = 44053,	-- Friends With Benefits
@@ -1813,6 +1827,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44919,	-- A Challenge From Our Enemies
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
+					["groups"] = { i(142399) },	-- Experimental Targeting Orb (QI!)
 				}),
 				q(41478, {	-- The Final Blessing
 					["sourceQuests"] = {
