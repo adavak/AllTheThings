@@ -94,8 +94,8 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.7, SURAMAR },
-					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 					-- TODO:: may also require A Dance With Dragons (44876)
+					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(40401, {	-- A Way Back In
 					["provider"] = { "n", 100185 },	-- Iadreth
@@ -671,8 +671,8 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 45062,	-- Resisting Arrest
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
-					["groups"] = { i(142491) },	-- Experimental Telemancy Orb (QI!)
 					-- TODO: may also require Experimental Instability (45066)
+					["groups"] = { i(142491) },	-- Experimental Telemancy Orb (QI!)
 				}),
 				q(41452, {	-- Feline Frantic -- aa
 					["provider"] = { "n", 103568 },	-- Mayruna Moonwing
