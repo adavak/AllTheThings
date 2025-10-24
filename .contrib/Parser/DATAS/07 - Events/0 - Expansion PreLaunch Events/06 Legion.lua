@@ -2,9 +2,10 @@
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
 
-root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_7_0_3 } }, {
+root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 	expansion(EXPANSION.LEGION, {
 		["lvl"] = 98,
+		["forcetimeline"] = { ADDED_7_0_3, REMOVED_7_0_3 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(11201, {		-- Defender of Azeroth: Legion Invasions
@@ -259,4 +260,4 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = {
 			}),
 		},
 	}),
-})));
+}));

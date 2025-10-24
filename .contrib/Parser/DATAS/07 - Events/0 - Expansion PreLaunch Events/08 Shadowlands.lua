@@ -1,7 +1,10 @@
 -----------------------------------------------------
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
-root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADDED_9_0_1, REMOVED_9_0_2_LAUNCH } }, {
+root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
+	expansion(EXPANSION.SL, {
+		["forcetimeline"] = { ADDED_9_0_1, REMOVED_9_0_2_LAUNCH },
+	}),
 	expansion(EXPANSION.SL, {
 		n(ACHIEVEMENTS, {
 			ach(14750, {	-- Death Rising
@@ -1003,18 +1006,21 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 			i(180719),	-- Partially Digested Leather
 		}),
 	}),
-})));
+}))
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
 	n(EXPANSION_PRELAUNCH, {
-		n(QUESTS, {
-			q(60490),	-- Triggers after completing "Advancing the Effort" and unlocking Icecrown dailies. Also triggered when starting the new phase at Ironwall Rampart. Maybe it's the zone story daily progression tracker?
-			q(60541),	--
-			q(60511),	-- Icecrown story - Advancing the effort (phase 2?). triggered after completing "Only Shadows Remain"
-			q(62808),	-- triggered when logging into a previously-120 character
-		}),
-		n(WORLD_QUESTS, {
-			q(62480),	-- triggered along with the Nathanos Blightcaller world quest (for killing Nathanos)
-		}),
+		["timeline"] = { ADDED_9_0_1 },
+		["groups"] = {
+			n(QUESTS, {
+				q(60490),	-- Triggers after completing "Advancing the Effort" and unlocking Icecrown dailies. Also triggered when starting the new phase at Ironwall Rampart. Maybe it's the zone story daily progression tracker?
+				q(60541),	--
+				q(60511),	-- Icecrown story - Advancing the effort (phase 2?). triggered after completing "Only Shadows Remain"
+				q(62808),	-- triggered when logging into a previously-120 character
+			}),
+			n(WORLD_QUESTS, {
+				q(62480),	-- triggered along with the Nathanos Blightcaller world quest (for killing Nathanos)
+			}),
+		},
 	}),
-})));
+}))

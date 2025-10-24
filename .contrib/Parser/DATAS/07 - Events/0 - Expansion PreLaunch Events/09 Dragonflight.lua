@@ -2,7 +2,10 @@
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
 local PRIMEVAL_ESSENCE = 199211;
-root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADDED_10_0_2, REMOVED_10_0_2_LAUNCH } }, {
+root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
+	expansion(EXPANSION.DF, {
+		["forcetimeline"] = { ADDED_10_0_2, REMOVED_10_0_2_LAUNCH },
+	}),
 	expansion(EXPANSION.DF, {
 		n(ACHIEVEMENTS, {
 			ach(16431, {	-- Against the Elements
@@ -343,68 +346,71 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 			},
 		}),
 	}),
-})));
+}))
 
-root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADDED_10_0_2 } }, {
+root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 	expansion(EXPANSION.DF, {
-		n(HIDDEN_QUESTS, {
-			hqt(72285, {	-- Stay awhile and listen: Scalecommander Azurathel
-				["qg"] = 189078,	-- Scalecommander Azurathel
-				["sourceQuests"] = {
-					65101,	-- An Iconic, Draconic, Look [A]
-					66577,	-- Aspectral Invitation [A]
-				},
-				["name"] = "Stay awhile and listen: Scalecommander Azurathel",
-				["coord"] = { 25.4, 55.2, STORMWIND_CITY },
-				["races"] = ALLIANCE_ONLY,
+		["timeline"] = { ADDED_10_0_2 },
+		["groups"] = {
+			n(HIDDEN_QUESTS, {
+				hqt(72285, {	-- Stay awhile and listen: Scalecommander Azurathel
+					["qg"] = 189078,	-- Scalecommander Azurathel
+					["sourceQuests"] = {
+						65101,	-- An Iconic, Draconic, Look [A]
+						66577,	-- Aspectral Invitation [A]
+					},
+					["name"] = "Stay awhile and listen: Scalecommander Azurathel",
+					["coord"] = { 25.4, 55.2, STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				hqt(72286, {	-- Stay awhile and listen: Genn Greymane
+					["qg"] = 194756,	-- Genn Greymane
+					["sourceQuests"] = {
+						65101,	-- An Iconic, Draconic, Look [A]
+						66577,	-- Aspectral Invitation [A]
+					},
+					["name"] = "Stay awhile and listen: Genn Greymane",
+					["coord"] = { 27.1, 53.8, STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				hqt(72287, {	-- Stay awhile and listen: High Exarch Turalyon
+					["qg"] = 189600,	-- High Exarch Turalyon
+					["sourceQuests"] = {
+						65101,	-- An Iconic, Draconic, Look [A]
+						66577,	-- Aspectral Invitation [A]
+					},
+					["name"] = "Stay awhile and listen: High Exarch Turalyon",
+					["coord"] = { 27.1, 53.8, STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				hqt(72288, {	-- Stay awhile and listen: Baine and Mayla
+					["name"] = "Stay awhile and listen: Baine and Mayla",
+					["sourceQuests"] = {
+						72256,	-- The Dark Talons [H]
+						65443,	-- Expeditionary Coordination [H]
+					},
+					["provider"] = { "n", 198411 },	-- Baine
+					["coord"] = { 55.9, 12.1, DUROTAR },
+					["races"] = HORDE_ONLY,
+				}),
+				hqt(72289, {	-- Stay awhile and listen: Lor'themar and Thalyssra
+					["name"] = "Stay awhile and listen: Lor'themar and Thalyssra",
+					["sourceQuests"] = {
+						72256,	-- The Dark Talons [H]
+						65443,	-- Expeditionary Coordination [H]
+					},
+					["provider"] = { "n", 184665 },	-- Lor'themar Theron
+					["coord"] = { 55.7, 12.2, DUROTAR },
+					["races"] = HORDE_ONLY,
+				}),
+				hqt(72290, {	-- Stay awhile and listen: Cindrethresh and Emberthal
+					["name"] = "Stay awhile and listen: Cindrethresh and Emberthal",
+					["sourceQuests"] = {72256},	-- The Dark Talons [H]
+					["provider"] = { "n", 184858 },	-- Cindrethresh
+					["coord"] = { 55.6, 12.3, DUROTAR },
+					["races"] = HORDE_ONLY,
+				}),
 			}),
-			hqt(72286, {	-- Stay awhile and listen: Genn Greymane
-				["qg"] = 194756,	-- Genn Greymane
-				["sourceQuests"] = {
-					65101,	-- An Iconic, Draconic, Look [A]
-					66577,	-- Aspectral Invitation [A]
-				},
-				["name"] = "Stay awhile and listen: Genn Greymane",
-				["coord"] = { 27.1, 53.8, STORMWIND_CITY },
-				["races"] = ALLIANCE_ONLY,
-			}),
-			hqt(72287, {	-- Stay awhile and listen: High Exarch Turalyon
-				["qg"] = 189600,	-- High Exarch Turalyon
-				["sourceQuests"] = {
-					65101,	-- An Iconic, Draconic, Look [A]
-					66577,	-- Aspectral Invitation [A]
-				},
-				["name"] = "Stay awhile and listen: High Exarch Turalyon",
-				["coord"] = { 27.1, 53.8, STORMWIND_CITY },
-				["races"] = ALLIANCE_ONLY,
-			}),
-			hqt(72288, {	-- Stay awhile and listen: Baine and Mayla
-				["name"] = "Stay awhile and listen: Baine and Mayla",
-				["sourceQuests"] = {
-					72256,	-- The Dark Talons [H]
-					65443,	-- Expeditionary Coordination [H]
-				},
-				["provider"] = { "n", 198411 },	-- Baine
-				["coord"] = { 55.9, 12.1, DUROTAR },
-				["races"] = HORDE_ONLY,
-			}),
-			hqt(72289, {	-- Stay awhile and listen: Lor'themar and Thalyssra
-				["name"] = "Stay awhile and listen: Lor'themar and Thalyssra",
-				["sourceQuests"] = {
-					72256,	-- The Dark Talons [H]
-					65443,	-- Expeditionary Coordination [H]
-				},
-				["provider"] = { "n", 184665 },	-- Lor'themar Theron
-				["coord"] = { 55.7, 12.2, DUROTAR },
-				["races"] = HORDE_ONLY,
-			}),
-			hqt(72290, {	-- Stay awhile and listen: Cindrethresh and Emberthal
-				["name"] = "Stay awhile and listen: Cindrethresh and Emberthal",
-				["sourceQuests"] = {72256},	-- The Dark Talons [H]
-				["provider"] = { "n", 184858 },	-- Cindrethresh
-				["coord"] = { 55.6, 12.3, DUROTAR },
-				["races"] = HORDE_ONLY,
-			}),
-		}),
+		},
 	}),
-})));
+}))
