@@ -1,3 +1,16 @@
+11.2.7.63642
+r(1245945),	-- [DNT] TWW Cooking Decor Template
+r(1245993),	-- Dornic Mine and Cheese Platter
+r(1245994),	-- Earthen Hospitality Cheese-Like Brick
+r(1245995),	-- Dornic Sliced Mineloaf
+r(1260331),	-- Valdrakken Blossomfruit Platter
+r(1260333),	-- Bruffalon Rib Platter
+r(1260334),	-- Caramel Mint Noodle Dish
+r(1260337),	-- Boralus-Style Lobster Platter
+r(1266541),	-- Kaheti Predator's Assortment
+r(1266555),	-- Drake Kebab Platter
+r(1266560),	-- Hungry Human's Platter
+r(1266563),	-- Mushan Dumpling Stack
 12.0.0.63534
 r(471005),	-- Midnight Cooking
 r(1226166),	-- Farstrider Rations
@@ -27,11 +40,11 @@ r(1226189),	-- Sunwell Delight
 r(1226190),	-- Felberry Figs
 r(1226191),	-- Hearthflame Supper
 r(1226192),	-- Bloodthistle-Wrapped Cutlets
-r(1226193),	-- Bloompetal Tea
-r(1226194),	-- Peacebloom Tea
-r(1226195),	-- Bloodthisle Tea
-r(1226196),	-- Mageroyal Tea
-r(1226197),	-- Earthroot Tea
+r(1226193),	-- Mana Lily Tea \\ Bloompetal Tea
+r(1226194),	-- Argentleaf Tea \\ Peacebloom Tea
+r(1226195),	-- Sanguithorn Tea \\ Bloodthisle Tea
+r(1226196),	-- Tranquility Bloom Tea \\ Mageroyal Tea
+r(1226197),	-- Azeroot Tea \\ Earthroot Tea
 r(1226198),	-- Bloom Skewers
 r(1226199),	-- Mana-Infused Stew
 r(1226200),	-- Spiced Biscuits
@@ -40,18 +53,10 @@ r(1226202),	-- Forager's Medley
 r(1226203),	-- Quick Sandwich
 r(1226204),	-- Portable Snack
 r(1232247),	-- Hearty Feast
-r(1245945),	-- [DNT] TWW Cooking Decor Template
-r(1245993),	-- Dornic Mine and Cheese Platter
-r(1245994),	-- Earthen Hospitality Cheese-Like Brick
-r(1245995),	-- Dornic Sliced Mineloaf
 r(1257796),	-- Silvermoon Parade
 r(1259654),	-- Impossibly Royal Roast
 r(1259655),	-- Thalassian Filet
 r(1259660),	-- Flora Frenzy
-r(1260331),	-- Valdrakken Blossomfruit Platter
-r(1260333),	-- Bruffalon Rib Platter
-r(1260334),	-- Caramel Mint Noodle Dish
-r(1260337),	-- Boralus-Style Lobster Platter
 r(1265601),	-- Multicraft
 r(1265687),	-- Skill
 r(1265693),	-- Resourcefulness
@@ -61,6 +66,19 @@ r(1265693),	-- Resourcefulness
 
 Missing in Cooking
 
+11.2.7.63642
+r(1245945),	-- [DNT] TWW Cooking Decor Template
+r(1245993),	-- Dornic Mine and Cheese Platter
+r(1245994),	-- Earthen Hospitality Cheese-Like Brick
+r(1245995),	-- Dornic Sliced Mineloaf
+r(1260331),	-- Valdrakken Blossomfruit Platter
+r(1260333),	-- Bruffalon Rib Platter
+r(1260334),	-- Caramel Mint Noodle Dish
+r(1260337),	-- Boralus-Style Lobster Platter
+r(1266541),	-- Kaheti Predator's Assortment
+r(1266555),	-- Drake Kebab Platter
+r(1266560),	-- Hungry Human's Platter
+r(1266563),	-- Mushan Dumpling Stack
 12.0.0.63534
 r(471005),	-- Midnight Cooking
 r(1226166),	-- Farstrider Rations
@@ -90,11 +108,11 @@ r(1226189),	-- Sunwell Delight
 r(1226190),	-- Felberry Figs
 r(1226191),	-- Hearthflame Supper
 r(1226192),	-- Bloodthistle-Wrapped Cutlets
-r(1226193),	-- Bloompetal Tea
-r(1226194),	-- Peacebloom Tea
-r(1226195),	-- Bloodthisle Tea
-r(1226196),	-- Mageroyal Tea
-r(1226197),	-- Earthroot Tea
+r(1226193),	-- Mana Lily Tea \\ Bloompetal Tea
+r(1226194),	-- Argentleaf Tea \\ Peacebloom Tea
+r(1226195),	-- Sanguithorn Tea \\ Bloodthisle Tea
+r(1226196),	-- Tranquility Bloom Tea \\ Mageroyal Tea
+r(1226197),	-- Azeroot Tea \\ Earthroot Tea
 r(1226198),	-- Bloom Skewers
 r(1226199),	-- Mana-Infused Stew
 r(1226200),	-- Spiced Biscuits
@@ -103,18 +121,10 @@ r(1226202),	-- Forager's Medley
 r(1226203),	-- Quick Sandwich
 r(1226204),	-- Portable Snack
 r(1232247),	-- Hearty Feast
-r(1245945),	-- [DNT] TWW Cooking Decor Template
-r(1245993),	-- Dornic Mine and Cheese Platter
-r(1245994),	-- Earthen Hospitality Cheese-Like Brick
-r(1245995),	-- Dornic Sliced Mineloaf
 r(1257796),	-- Silvermoon Parade
 r(1259654),	-- Impossibly Royal Roast
 r(1259655),	-- Thalassian Filet
 r(1259660),	-- Flora Frenzy
-r(1260331),	-- Valdrakken Blossomfruit Platter
-r(1260333),	-- Bruffalon Rib Platter
-r(1260334),	-- Caramel Mint Noodle Dish
-r(1260337),	-- Boralus-Style Lobster Platter
 r(1265601),	-- Multicraft
 r(1265687),	-- Skill
 r(1265693),	-- Resourcefulness

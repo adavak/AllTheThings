@@ -5,169 +5,7 @@ r(73640),	-- Figurine - Demon Panther
 r(73641),	-- Figurine - Earthen Guardian
 r(73642),	-- Figurine - Jeweled Serpent
 r(73643),	-- Figurine - Dream Owl
-5.0.3.15890
-r(106947),	-- Rigid River's Heart
-r(106948),	-- Stormy River's Heart
-r(106949),	-- Sparkling River's Heart
-r(106950),	-- Solid River's Heart
-r(106953),	-- Misty Wild Jade
-r(106954),	-- Piercing Wild Jade
-r(106955),	-- Lightning Wild Jade
-r(106956),	-- Sensei's Wild Jade
-r(106957),	-- Effulgent Wild Jade
-r(106958),	-- Zen Wild Jade
-r(106960),	-- Balanced Wild Jade
-r(106961),	-- Vivid Wild Jade
-r(106962),	-- Turbid Wild Jade
-r(107598),	-- Balanced Alexandrite
-r(107599),	-- Effulgent Alexandrite
-r(107600),	-- Energized Alexandrite
-r(107601),	-- Forceful Alexandrite
-r(107602),	-- Jagged Alexandrite
-r(107604),	-- Lightning Alexandrite
-r(107605),	-- Misty Alexandrite
-r(107606),	-- Nimble Alexandrite
-r(107607),	-- Piercing Alexandrite
-r(107608),	-- Puissant Alexandrite
-r(107609),	-- Radiant Alexandrite
-r(107610),	-- Regal Alexandrite
-r(107611),	-- Sensei's Alexandrite
-r(107612),	-- Shattered Alexandrite
-r(107613),	-- Steady Alexandrite
-r(107614),	-- Turbid Alexandrite
-r(107615),	-- Vivid Alexandrite
-r(107616),	-- Zen Alexandrite
-r(107617),	-- Rigid Lapis Lazuli
-r(107619),	-- Solid Lapis Lazuli
-r(107620),	-- Sparkling Lapis Lazuli
-r(107621),	-- Stormy Lapis Lazuli
-r(107622),	-- Bold Pandarian Garnet
-r(107623),	-- Brilliant Pandarian Garnet
-r(107624),	-- Delicate Pandarian Garnet
-r(107625),	-- Flashing Pandarian Garnet
-r(107626),	-- Precise Pandarian Garnet
-r(107627),	-- Accurate Roguestone
-r(107628),	-- Defender's Roguestone
-r(107630),	-- Etched Roguestone
-r(107631),	-- Glinting Roguestone
-r(107632),	-- Guardian's Roguestone
-r(107633),	-- Mysterious Roguestone
-r(107634),	-- Purified Roguestone
-r(107635),	-- Retaliating Roguestone
-r(107636),	-- Shifting Roguestone
-r(107637),	-- Sovereign Roguestone
-r(107638),	-- Timeless Roguestone
-r(107639),	-- Veiled Roguestone
-r(107640),	-- Fractured Sunstone
-r(107641),	-- Mystic Sunstone
-r(107642),	-- Quick Sunstone
-r(107643),	-- Smooth Sunstone
-r(107644),	-- Subtle Sunstone
-r(107645),	-- Adept Tiger Opal
-r(107646),	-- Artful Tiger Opal
-r(107647),	-- Champion's Tiger Opal
-r(107648),	-- Crafty Tiger Opal
-r(107649),	-- Deadly Tiger Opal
-r(107650),	-- Deft Tiger Opal
-r(107651),	-- Fierce Tiger Opal
-r(107652),	-- Fine Tiger Opal
-r(107653),	-- Inscribed Tiger Opal
-r(107654),	-- Keen Tiger Opal
-r(107655),	-- Lucent Tiger Opal
-r(107656),	-- Polished Tiger Opal
-r(107657),	-- Potent Tiger Opal
-r(107658),	-- Reckless Tiger Opal
-r(107659),	-- Resolute Tiger Opal
-r(107660),	-- Resplendent Tiger Opal
-r(107661),	-- Skillful Tiger Opal
-r(107662),	-- Splendid Tiger Opal
-r(107663),	-- Stalwart Tiger Opal
-r(107665),	-- Tenuous Tiger Opal
-r(107666),	-- Wicked Tiger Opal
-r(107667),	-- Willful Tiger Opal
-r(107693),	-- Accurate Imperial Amethyst
-r(107694),	-- Defender's Imperial Amethyst
-r(107695),	-- Etched Imperial Amethyst
-r(107696),	-- Glinting Imperial Amethyst
-r(107697),	-- Guardian's Imperial Amethyst
-r(107698),	-- Mysterious Imperial Amethyst
-r(107699),	-- Purified Imperial Amethyst
-r(107700),	-- Retaliating Imperial Amethyst
-r(107701),	-- Shifting Imperial Amethyst
-r(107702),	-- Sovereign Imperial Amethyst
-r(107703),	-- Timeless Imperial Amethyst
-r(107704),	-- Veiled Imperial Amethyst
-r(107705),	-- Bold Primordial Ruby
-r(107706),	-- Brilliant Primordial Ruby
-r(107707),	-- Delicate Primordial Ruby
-r(107708),	-- Flashing Primordial Ruby
-r(107709),	-- Precise Primordial Ruby
-r(107710),	-- Fractured Sun's Radiance
-r(107711),	-- Mystic Sun's Radiance
-r(107712),	-- Quick Sun's Radiance
-r(107713),	-- Smooth Sun's Radiance
-r(107714),	-- Subtle Sun's Radiance
-r(107715),	-- Adept Vermilion Onyx
-r(107716),	-- Artful Vermilion Onyx
-r(107717),	-- Champion's Vermilion Onyx
-r(107718),	-- Crafty Vermilion Onyx
-r(107719),	-- Deadly Vermilion Onyx
-r(107720),	-- Deft Vermilion Onyx
-r(107721),	-- Fierce Vermilion Onyx
-r(107722),	-- Fine Vermilion Onyx
-r(107723),	-- Inscribed Vermilion Onyx
-r(107724),	-- Keen Vermilion Onyx
-r(107725),	-- Lucent Vermilion Onyx
-r(107726),	-- Polished Vermilion Onyx
-r(107727),	-- Potent Vermilion Onyx
-r(107728),	-- Reckless Vermilion Onyx
-r(107729),	-- Resolute Vermilion Onyx
-r(107730),	-- Resplendent Vermilion Onyx
-r(107731),	-- Skillful Vermilion Onyx
-r(107732),	-- Splendid Vermilion Onyx
-r(107733),	-- Stalwart Vermilion Onyx
-r(107734),	-- Tenuous Vermilion Onyx
-r(107735),	-- Wicked Vermilion Onyx
-r(107736),	-- Willful Vermilion Onyx
-r(107737),	-- Energized Wild Jade
-r(107738),	-- Forceful Wild Jade
-r(107739),	-- Jagged Wild Jade
-r(107740),	-- Nimble Wild Jade
-r(107742),	-- Puissant Wild Jade
-r(107743),	-- Radiant Wild Jade
-r(107744),	-- Regal Wild Jade
-r(107745),	-- Shattered Wild Jade
-r(107746),	-- Steady Wild Jade
-r(110420),	-- Jewelcrafting
-r(122661),	-- Ornate Band
-r(122662),	-- Shadowfire Necklace
-r(122663),	-- Scrying Roguestone
-r(122664),	-- Heart of the Earth
-r(122665),	-- Roguestone Shadowband
-r(122666),	-- Lord's Signet
-r(122667),	-- Lionsfall Ring
-r(122668),	-- Band of Blood
-r(122669),	-- Reflection of the Sea
-r(122670),	-- Golembreaker Amulet
-r(122671),	-- Widow Chain
-r(122672),	-- Skymage Circle
-r(122673),	-- Tiger Opal Pendant
-r(130655),	-- Tense Roguestone
-r(130656),	-- Assassin's Roguestone
-r(130657),	-- Assassin's Imperial Amethyst
-r(130658),	-- Tense Imperial Amethyst
-5.5.0.60481
-r(131593),	-- River's Heart
-r(131686),	-- Primordial Ruby
-r(131688),	-- Wild Jade
-r(131690),	-- Vermilion Onyx
-r(131691),	-- Imperial Amethyst
-r(131695),	-- Sun's Radiance
-r(131759),	-- Secrets of the Stone
-6.0.1.18179
-r(158750),	-- Jewelcrafting
 7.3.0.24473
-r(170832),	-- Taladite Crystal
 r(195116),	-- Jewelcrafting
 r(225902),	-- Mass Prospect Leystone
 r(225904),	-- Mass Prospect Felslate
@@ -176,12 +14,35 @@ r(248937),	-- Empyrial Circlet
 r(248938),	-- Empyrial Hesselian Setting
 r(248939),	-- Empyrial Florid Malachite Setting
 r(248940),	-- Empyrial Crown
-8.0.1.25902
-r(264542),	-- Pandaria Jewelcrafting
-r(264544),	-- Draenor Jewelcrafting
 10.0.0.44649
 r(382975),	-- Legion Prospecting
-r(382977),	-- Pandaria Prospecting
+11.2.7.63642
+r(1259369),	-- Valdrakken Gilded Throne
+r(1259384),	-- Valdrakken Fence
+r(1259386),	-- Valdrakken Fencepost
+r(1260096),	-- Octagonal Ochre Window
+r(1260172),	-- Gundargaz Candelabra
+r(1260492),	-- Zandalari Skullfire Lamp
+r(1260501),	-- Small Mask of Bwonsamdi, Loa of Graves
+r(1260757),	-- Shaded Suramar Window
+r(1261071),	-- Draenic Basin
+r(1261075),	-- Draenethyst Sconce
+r(1261242),	-- Jade Temple Dragon Fountain
+r(1261243),	-- Pandaren Stone Wall
+r(1261244),	-- Pandaren Stone Post
+r(1261305),	-- Smoke Sconce
+r(1261659),	-- Ironforge Chandelier
+r(1261667),	-- Blackrock Lamppost
+r(1262357),	-- Smoke Lamp
+r(1263351),	-- Suramar Jeweler's Assortment
+r(1263577),	-- Kirin Tor Glass Table
+r(1263605),	-- Kirin Tor Sun Chandelier
+r(1263815),	-- Shattrath Lamppost
+r(1263817),	-- Shattrath Sconce
+11.2.7.64011
+r(1269496),	-- Draenei Crystal Chandelier
+r(1269502),	-- Kyrian Floating Lamp
+r(1269504),	-- Maldraxxian Runic Tablet
 12.0.0.63534
 r(471011),	-- Midnight Jewelcrafting
 r(471045),	-- Recraft Equipment
@@ -264,28 +125,6 @@ r(1246893),	-- Miniature Replica Haranir Mural
 r(1246894),	-- Shining Sin'dorei Hourglass
 r(1246895),	-- Brilliant Phoenix Harp
 r(1251983),	-- Voidstone Shielding Array
-r(1259369),	-- Valdrakken Gilded Throne
-r(1259384),	-- Valdrakken Fence
-r(1259386),	-- Valdrakken Fencepost
-r(1260096),	-- Octagonal Ochre Window
-r(1260172),	-- Gundargaz Candelabra
-r(1260492),	-- Zandalari Skullfire Lamp
-r(1260501),	-- Small Mask of Bwonsamdi, Loa of Graves
-r(1260757),	-- Shaded Suramar Window
-r(1261071),	-- Draenic Basin
-r(1261075),	-- Draenethyst Sconce
-r(1261242),	-- Jade Temple Dragon Fountain
-r(1261243),	-- Pandaren Stone Wall
-r(1261244),	-- Pandaren Stone Post
-r(1261305),	-- Smoke Sconce
-r(1261659),	-- Ironforge Chandelier
-r(1261667),	-- Blackrock Lamppost
-r(1262357),	-- Smoke Lamp
-r(1263351),	-- Suramar Jeweler's Assortment
-r(1263577),	-- Kirin Tor Glass Table
-r(1263605),	-- Kirin Tor Sun Chandelier
-r(1263815),	-- Shattrath Lamppost
-r(1263817),	-- Shattrath Sconce
 r(1265606),	-- Multicraft
 r(1265619),	-- Knowledge
 r(1265656),	-- Quality
@@ -308,184 +147,7 @@ r(73640),	-- Figurine - Demon Panther
 r(73641),	-- Figurine - Earthen Guardian
 r(73642),	-- Figurine - Jeweled Serpent
 r(73643),	-- Figurine - Dream Owl
-5.0.3.15890
-r(106947),	-- Rigid River's Heart
-r(106948),	-- Stormy River's Heart
-r(106949),	-- Sparkling River's Heart
-r(106950),	-- Solid River's Heart
-r(106953),	-- Misty Wild Jade
-r(106954),	-- Piercing Wild Jade
-r(106955),	-- Lightning Wild Jade
-r(106956),	-- Sensei's Wild Jade
-r(106957),	-- Effulgent Wild Jade
-r(106958),	-- Zen Wild Jade
-r(106960),	-- Balanced Wild Jade
-r(106961),	-- Vivid Wild Jade
-r(106962),	-- Turbid Wild Jade
-r(107598),	-- Balanced Alexandrite
-r(107599),	-- Effulgent Alexandrite
-r(107600),	-- Energized Alexandrite
-r(107601),	-- Forceful Alexandrite
-r(107602),	-- Jagged Alexandrite
-r(107604),	-- Lightning Alexandrite
-r(107605),	-- Misty Alexandrite
-r(107606),	-- Nimble Alexandrite
-r(107607),	-- Piercing Alexandrite
-r(107608),	-- Puissant Alexandrite
-r(107609),	-- Radiant Alexandrite
-r(107610),	-- Regal Alexandrite
-r(107611),	-- Sensei's Alexandrite
-r(107612),	-- Shattered Alexandrite
-r(107613),	-- Steady Alexandrite
-r(107614),	-- Turbid Alexandrite
-r(107615),	-- Vivid Alexandrite
-r(107616),	-- Zen Alexandrite
-r(107617),	-- Rigid Lapis Lazuli
-r(107619),	-- Solid Lapis Lazuli
-r(107620),	-- Sparkling Lapis Lazuli
-r(107621),	-- Stormy Lapis Lazuli
-r(107622),	-- Bold Pandarian Garnet
-r(107623),	-- Brilliant Pandarian Garnet
-r(107624),	-- Delicate Pandarian Garnet
-r(107625),	-- Flashing Pandarian Garnet
-r(107626),	-- Precise Pandarian Garnet
-r(107627),	-- Accurate Roguestone
-r(107628),	-- Defender's Roguestone
-r(107630),	-- Etched Roguestone
-r(107631),	-- Glinting Roguestone
-r(107632),	-- Guardian's Roguestone
-r(107633),	-- Mysterious Roguestone
-r(107634),	-- Purified Roguestone
-r(107635),	-- Retaliating Roguestone
-r(107636),	-- Shifting Roguestone
-r(107637),	-- Sovereign Roguestone
-r(107638),	-- Timeless Roguestone
-r(107639),	-- Veiled Roguestone
-r(107640),	-- Fractured Sunstone
-r(107641),	-- Mystic Sunstone
-r(107642),	-- Quick Sunstone
-r(107643),	-- Smooth Sunstone
-r(107644),	-- Subtle Sunstone
-r(107645),	-- Adept Tiger Opal
-r(107646),	-- Artful Tiger Opal
-r(107647),	-- Champion's Tiger Opal
-r(107648),	-- Crafty Tiger Opal
-r(107649),	-- Deadly Tiger Opal
-r(107650),	-- Deft Tiger Opal
-r(107651),	-- Fierce Tiger Opal
-r(107652),	-- Fine Tiger Opal
-r(107653),	-- Inscribed Tiger Opal
-r(107654),	-- Keen Tiger Opal
-r(107655),	-- Lucent Tiger Opal
-r(107656),	-- Polished Tiger Opal
-r(107657),	-- Potent Tiger Opal
-r(107658),	-- Reckless Tiger Opal
-r(107659),	-- Resolute Tiger Opal
-r(107660),	-- Resplendent Tiger Opal
-r(107661),	-- Skillful Tiger Opal
-r(107662),	-- Splendid Tiger Opal
-r(107663),	-- Stalwart Tiger Opal
-r(107665),	-- Tenuous Tiger Opal
-r(107666),	-- Wicked Tiger Opal
-r(107667),	-- Willful Tiger Opal
-r(107693),	-- Accurate Imperial Amethyst
-r(107694),	-- Defender's Imperial Amethyst
-r(107695),	-- Etched Imperial Amethyst
-r(107696),	-- Glinting Imperial Amethyst
-r(107697),	-- Guardian's Imperial Amethyst
-r(107698),	-- Mysterious Imperial Amethyst
-r(107699),	-- Purified Imperial Amethyst
-r(107700),	-- Retaliating Imperial Amethyst
-r(107701),	-- Shifting Imperial Amethyst
-r(107702),	-- Sovereign Imperial Amethyst
-r(107703),	-- Timeless Imperial Amethyst
-r(107704),	-- Veiled Imperial Amethyst
-r(107705),	-- Bold Primordial Ruby
-r(107706),	-- Brilliant Primordial Ruby
-r(107707),	-- Delicate Primordial Ruby
-r(107708),	-- Flashing Primordial Ruby
-r(107709),	-- Precise Primordial Ruby
-r(107710),	-- Fractured Sun's Radiance
-r(107711),	-- Mystic Sun's Radiance
-r(107712),	-- Quick Sun's Radiance
-r(107713),	-- Smooth Sun's Radiance
-r(107714),	-- Subtle Sun's Radiance
-r(107715),	-- Adept Vermilion Onyx
-r(107716),	-- Artful Vermilion Onyx
-r(107717),	-- Champion's Vermilion Onyx
-r(107718),	-- Crafty Vermilion Onyx
-r(107719),	-- Deadly Vermilion Onyx
-r(107720),	-- Deft Vermilion Onyx
-r(107721),	-- Fierce Vermilion Onyx
-r(107722),	-- Fine Vermilion Onyx
-r(107723),	-- Inscribed Vermilion Onyx
-r(107724),	-- Keen Vermilion Onyx
-r(107725),	-- Lucent Vermilion Onyx
-r(107726),	-- Polished Vermilion Onyx
-r(107727),	-- Potent Vermilion Onyx
-r(107728),	-- Reckless Vermilion Onyx
-r(107729),	-- Resolute Vermilion Onyx
-r(107730),	-- Resplendent Vermilion Onyx
-r(107731),	-- Skillful Vermilion Onyx
-r(107732),	-- Splendid Vermilion Onyx
-r(107733),	-- Stalwart Vermilion Onyx
-r(107734),	-- Tenuous Vermilion Onyx
-r(107735),	-- Wicked Vermilion Onyx
-r(107736),	-- Willful Vermilion Onyx
-r(107737),	-- Energized Wild Jade
-r(107738),	-- Forceful Wild Jade
-r(107739),	-- Jagged Wild Jade
-r(107740),	-- Nimble Wild Jade
-r(107742),	-- Puissant Wild Jade
-r(107743),	-- Radiant Wild Jade
-r(107744),	-- Regal Wild Jade
-r(107745),	-- Shattered Wild Jade
-r(107746),	-- Steady Wild Jade
-r(122661),	-- Ornate Band
-r(122662),	-- Shadowfire Necklace
-r(122663),	-- Scrying Roguestone
-r(122664),	-- Heart of the Earth
-r(122665),	-- Roguestone Shadowband
-r(122666),	-- Lord's Signet
-r(122667),	-- Lionsfall Ring
-r(122668),	-- Band of Blood
-r(122669),	-- Reflection of the Sea
-r(122670),	-- Golembreaker Amulet
-r(122671),	-- Widow Chain
-r(122672),	-- Skymage Circle
-r(122673),	-- Tiger Opal Pendant
-r(130655),	-- Tense Roguestone
-r(130656),	-- Assassin's Roguestone
-r(130657),	-- Assassin's Imperial Amethyst
-r(130658),	-- Tense Imperial Amethyst
-5.5.0.60481
-r(131593),	-- River's Heart
-r(131686),	-- Primordial Ruby
-r(131688),	-- Wild Jade
-r(131690),	-- Vermilion Onyx
-r(131691),	-- Imperial Amethyst
-r(131695),	-- Sun's Radiance
-r(131759),	-- Secrets of the Stone
-6.0.1.18179
-r(158750),	-- Jewelcrafting
 7.3.0.24473
-r(170700),	-- Taladite Crystal
-r(170704),	-- Glowing Iron Band
-r(170705),	-- Shifting Iron Band
-r(170706),	-- Whispering Iron Band
-r(170707),	-- Glowing Iron Choker
-r(170708),	-- Shifting Iron Choker
-r(170709),	-- Whispering Iron Choker
-r(170710),	-- Glowing Blackrock Band
-r(170711),	-- Shifting Blackrock Band
-r(170712),	-- Whispering Blackrock Band
-r(170832),	-- Taladite Crystal
-r(176087),	-- Secrets of Draenor Jewelcrafting
-r(187634),	-- Immaculate Critical Strike Taladite
-r(187635),	-- Immaculate Haste Taladite
-r(187636),	-- Immaculate Mastery Taladite
-r(187639),	-- Immaculate Versatility Taladite
-r(187640),	-- Immaculate Stamina Taladite
 r(195116),	-- Jewelcrafting
 r(195850),	-- Versatile Skystone
 r(195854),	-- Versatile Maelstrom Sapphire
@@ -499,6 +161,33 @@ r(248937),	-- Empyrial Circlet
 r(248938),	-- Empyrial Hesselian Setting
 r(248939),	-- Empyrial Florid Malachite Setting
 r(248940),	-- Empyrial Crown
+11.2.7.63642
+r(1259369),	-- Valdrakken Gilded Throne
+r(1259384),	-- Valdrakken Fence
+r(1259386),	-- Valdrakken Fencepost
+r(1260096),	-- Octagonal Ochre Window
+r(1260172),	-- Gundargaz Candelabra
+r(1260492),	-- Zandalari Skullfire Lamp
+r(1260501),	-- Small Mask of Bwonsamdi, Loa of Graves
+r(1260757),	-- Shaded Suramar Window
+r(1261071),	-- Draenic Basin
+r(1261075),	-- Draenethyst Sconce
+r(1261242),	-- Jade Temple Dragon Fountain
+r(1261243),	-- Pandaren Stone Wall
+r(1261244),	-- Pandaren Stone Post
+r(1261305),	-- Smoke Sconce
+r(1261659),	-- Ironforge Chandelier
+r(1261667),	-- Blackrock Lamppost
+r(1262357),	-- Smoke Lamp
+r(1263351),	-- Suramar Jeweler's Assortment
+r(1263577),	-- Kirin Tor Glass Table
+r(1263605),	-- Kirin Tor Sun Chandelier
+r(1263815),	-- Shattrath Lamppost
+r(1263817),	-- Shattrath Sconce
+11.2.7.64011
+r(1269496),	-- Draenei Crystal Chandelier
+r(1269502),	-- Kyrian Floating Lamp
+r(1269504),	-- Maldraxxian Runic Tablet
 12.0.0.63534
 r(471011),	-- Midnight Jewelcrafting
 r(471045),	-- Recraft Equipment
@@ -581,28 +270,6 @@ r(1246893),	-- Miniature Replica Haranir Mural
 r(1246894),	-- Shining Sin'dorei Hourglass
 r(1246895),	-- Brilliant Phoenix Harp
 r(1251983),	-- Voidstone Shielding Array
-r(1259369),	-- Valdrakken Gilded Throne
-r(1259384),	-- Valdrakken Fence
-r(1259386),	-- Valdrakken Fencepost
-r(1260096),	-- Octagonal Ochre Window
-r(1260172),	-- Gundargaz Candelabra
-r(1260492),	-- Zandalari Skullfire Lamp
-r(1260501),	-- Small Mask of Bwonsamdi, Loa of Graves
-r(1260757),	-- Shaded Suramar Window
-r(1261071),	-- Draenic Basin
-r(1261075),	-- Draenethyst Sconce
-r(1261242),	-- Jade Temple Dragon Fountain
-r(1261243),	-- Pandaren Stone Wall
-r(1261244),	-- Pandaren Stone Post
-r(1261305),	-- Smoke Sconce
-r(1261659),	-- Ironforge Chandelier
-r(1261667),	-- Blackrock Lamppost
-r(1262357),	-- Smoke Lamp
-r(1263351),	-- Suramar Jeweler's Assortment
-r(1263577),	-- Kirin Tor Glass Table
-r(1263605),	-- Kirin Tor Sun Chandelier
-r(1263815),	-- Shattrath Lamppost
-r(1263817),	-- Shattrath Sconce
 r(1265606),	-- Multicraft
 r(1265619),	-- Knowledge
 r(1265656),	-- Quality

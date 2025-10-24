@@ -1,7 +1,31 @@
+11.2.7.63642
+r(473408),	-- Housing Crafting Test Recipe
+r(1246464),	-- [DNT] TWW Engineering Decor Template
+r(1259404),	-- Thaldraszus Telescope
+r(1259724),	-- Schmancy Goblin String Lights
+r(1259778),	-- Replica Rumbling Wastes Drill Pod
+r(1260349),	-- Deactivated Atomic Recalibrator
+r(1260352),	-- Gnomish Tesla Mega-Coil
+r(1260425),	-- Mechagon Miniature Artificial Sun
+r(1261025),	-- Draenei Stargazer's Telescope
+r(1261027),	-- Frostwall Architect's Table
+r(1261236),	-- Halfhill Cookpot
+r(1261258),	-- Gilnean Problem Solver
+r(1261504),	-- Gnomish Steam-Powered Bed
+r(1261509),	-- Dark Iron Table Saw
+r(1262340),	-- Small Gilnean Windmill
+r(1263237),	-- Titanic Tyrhold Fountain \\ Titanic Tyrhold Foundain
+r(1263239),	-- Kyrian Anima Barrel
+r(1263240),	-- Cartel Xy Capture Crate
+r(1263319),	-- Dalaran Auto-Hammer
+r(1263338),	-- Failed Failure Detection Pylon
+r(1263551),	-- Reconstructed Mogu Lightning Drill
+r(1263643),	-- Tempest Keep Cryo-Pod
+r(1263654),	-- Draenei Holo-Projector Pedestal
+r(1263663),	-- Draenei Transmitter
 12.0.0.63534
 r(471007),	-- Midnight Engineering
 r(471043),	-- Recraft Equipment
-r(473408),	-- Housing Crafting Test Recipe
 r(1229755),	-- Song Gear
 r(1229853),	-- Soul Sprocket
 r(1229856),	-- Perfected Cogwheel
@@ -81,7 +105,6 @@ r(1229935),	-- Evercore  Swiftfeet
 r(1229936),	-- Evercore Stichwraps
 r(1229937),	-- Evercore Turbochains
 r(1229938),	-- Evercore Greaseplates
-r(1246464),	-- [DNT] TWW Engineering Decor Template
 r(1248610),	-- Ren'dorei Void Projector
 r(1248611),	-- Ren'dorei Lightpost
 r(1248612),	-- Ambient Aethercharged Crystal
@@ -89,38 +112,16 @@ r(1248613),	-- Ren'dorei Stargazer
 r(1248614),	-- Ren'dorei Evercore Lamp
 r(1248615),	-- Ren'dorei Crafting Framework
 r(1248616),	-- Ren'dorei Warp Orb
-r(1259404),	-- Thaldraszus Telescope
-r(1259724),	-- Schmancy Goblin String Lights
-r(1259778),	-- Replica Rumbling Wastes Drill Pod
-r(1260349),	-- Deactivated Atomic Recalibrator
-r(1260352),	-- Gnomish Tesla Mega-Coil
-r(1260425),	-- Mechagon Miniature Artificial Sun
-r(1261025),	-- Draenei Stargazer's Telescope
-r(1261027),	-- Frostwall Architect's Table
-r(1261236),	-- Halfhill Cookpot
-r(1261258),	-- Gilnean Problem Solver
 r(1261490),	-- Thalassian Competitor's Cloth Tip-Toes
 r(1261491),	-- Thalassian Competitor's Leather Sliders
 r(1261492),	-- Thalassian Competitor's Mail Footlinks
 r(1261493),	-- Thalassian Competitor's Plate Dunkers
-r(1261504),	-- Gnomish Steam-Powered Bed
-r(1261509),	-- Dark Iron Table Saw
 r(1261866),	-- Farstrider's Hawkeye
 r(1261893),	-- Smuggler's Lynxeye
 r(1261895),	-- Laced Zoomshots
 r(1261913),	-- Weighted Boomshots
 r(1261938),	-- M0LL1, Atomic Anomaly
 r(1261945),	-- B0P, Curator of Booms
-r(1262340),	-- Small Gilnean Windmill
-r(1263237),	-- Titanic Tyrhold Foundain
-r(1263239),	-- Kyrian Anima Barrel
-r(1263240),	-- Cartel Xy Capture Crate
-r(1263319),	-- Dalaran Auto-Hammer
-r(1263338),	-- Failed Failure Detection Pylon
-r(1263551),	-- Reconstructed Mogu Lightning Drill
-r(1263643),	-- Tempest Keep Cryo-Pod
-r(1263654),	-- Draenei Holo-Projector Pedestal
-r(1263663),	-- Draenei Transmitter
 r(1264523),	-- Super Sin'dorei Headlamp
 r(1264524),	-- Super Sin'dorei Gilded Hardhat
 r(1264525),	-- Super Junker's Big Ol' Bag
@@ -143,10 +144,34 @@ r(1265704),	-- Ingenuity
 
 Missing in Engineering
 
+11.2.7.63642
+r(473408),	-- Housing Crafting Test Recipe
+r(1246464),	-- [DNT] TWW Engineering Decor Template
+r(1259404),	-- Thaldraszus Telescope
+r(1259724),	-- Schmancy Goblin String Lights
+r(1259778),	-- Replica Rumbling Wastes Drill Pod
+r(1260349),	-- Deactivated Atomic Recalibrator
+r(1260352),	-- Gnomish Tesla Mega-Coil
+r(1260425),	-- Mechagon Miniature Artificial Sun
+r(1261025),	-- Draenei Stargazer's Telescope
+r(1261027),	-- Frostwall Architect's Table
+r(1261236),	-- Halfhill Cookpot
+r(1261258),	-- Gilnean Problem Solver
+r(1261504),	-- Gnomish Steam-Powered Bed
+r(1261509),	-- Dark Iron Table Saw
+r(1262340),	-- Small Gilnean Windmill
+r(1263237),	-- Titanic Tyrhold Fountain \\ Titanic Tyrhold Foundain
+r(1263239),	-- Kyrian Anima Barrel
+r(1263240),	-- Cartel Xy Capture Crate
+r(1263319),	-- Dalaran Auto-Hammer
+r(1263338),	-- Failed Failure Detection Pylon
+r(1263551),	-- Reconstructed Mogu Lightning Drill
+r(1263643),	-- Tempest Keep Cryo-Pod
+r(1263654),	-- Draenei Holo-Projector Pedestal
+r(1263663),	-- Draenei Transmitter
 12.0.0.63534
 r(471007),	-- Midnight Engineering
 r(471043),	-- Recraft Equipment
-r(473408),	-- Housing Crafting Test Recipe
 r(1229755),	-- Song Gear
 r(1229853),	-- Soul Sprocket
 r(1229856),	-- Perfected Cogwheel
@@ -226,7 +251,6 @@ r(1229935),	-- Evercore  Swiftfeet
 r(1229936),	-- Evercore Stichwraps
 r(1229937),	-- Evercore Turbochains
 r(1229938),	-- Evercore Greaseplates
-r(1246464),	-- [DNT] TWW Engineering Decor Template
 r(1248610),	-- Ren'dorei Void Projector
 r(1248611),	-- Ren'dorei Lightpost
 r(1248612),	-- Ambient Aethercharged Crystal
@@ -234,38 +258,16 @@ r(1248613),	-- Ren'dorei Stargazer
 r(1248614),	-- Ren'dorei Evercore Lamp
 r(1248615),	-- Ren'dorei Crafting Framework
 r(1248616),	-- Ren'dorei Warp Orb
-r(1259404),	-- Thaldraszus Telescope
-r(1259724),	-- Schmancy Goblin String Lights
-r(1259778),	-- Replica Rumbling Wastes Drill Pod
-r(1260349),	-- Deactivated Atomic Recalibrator
-r(1260352),	-- Gnomish Tesla Mega-Coil
-r(1260425),	-- Mechagon Miniature Artificial Sun
-r(1261025),	-- Draenei Stargazer's Telescope
-r(1261027),	-- Frostwall Architect's Table
-r(1261236),	-- Halfhill Cookpot
-r(1261258),	-- Gilnean Problem Solver
 r(1261490),	-- Thalassian Competitor's Cloth Tip-Toes
 r(1261491),	-- Thalassian Competitor's Leather Sliders
 r(1261492),	-- Thalassian Competitor's Mail Footlinks
 r(1261493),	-- Thalassian Competitor's Plate Dunkers
-r(1261504),	-- Gnomish Steam-Powered Bed
-r(1261509),	-- Dark Iron Table Saw
 r(1261866),	-- Farstrider's Hawkeye
 r(1261893),	-- Smuggler's Lynxeye
 r(1261895),	-- Laced Zoomshots
 r(1261913),	-- Weighted Boomshots
 r(1261938),	-- M0LL1, Atomic Anomaly
 r(1261945),	-- B0P, Curator of Booms
-r(1262340),	-- Small Gilnean Windmill
-r(1263237),	-- Titanic Tyrhold Foundain
-r(1263239),	-- Kyrian Anima Barrel
-r(1263240),	-- Cartel Xy Capture Crate
-r(1263319),	-- Dalaran Auto-Hammer
-r(1263338),	-- Failed Failure Detection Pylon
-r(1263551),	-- Reconstructed Mogu Lightning Drill
-r(1263643),	-- Tempest Keep Cryo-Pod
-r(1263654),	-- Draenei Holo-Projector Pedestal
-r(1263663),	-- Draenei Transmitter
 r(1264523),	-- Super Sin'dorei Headlamp
 r(1264524),	-- Super Sin'dorei Gilded Hardhat
 r(1264525),	-- Super Junker's Big Ol' Bag

@@ -1,4 +1,4 @@
-12.0.0.63534
+11.2.7.63642
 r(1243780),	-- Gnomish Fence
 r(1243783),	-- Gnomish Fencepost
 r(1243788),	-- Mechanical Gnomish Lamppost
@@ -11,7 +11,7 @@ r(1243803),	-- Mechagnome Sustenance Distribution Station
 
 Missing in Junkyard Tinkering
 
-12.0.0.63534
+11.2.7.63642
 r(1243780),	-- Gnomish Fence
 r(1243783),	-- Gnomish Fencepost
 r(1243788),	-- Mechanical Gnomish Lamppost

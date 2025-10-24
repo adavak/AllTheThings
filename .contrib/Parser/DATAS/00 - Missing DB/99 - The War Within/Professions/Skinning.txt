@@ -43,11 +43,11 @@ r(308569),	-- Skinning
 12.0.0.63534
 r(471014),	-- Midnight Skinning
 r(1223388),	-- Sharpen Your Knife
-r(1225897),	-- Thalassian Scales
-r(1225901),	-- Thalassian Leather
-r(1225902),	-- Thalassian Hide
-r(1225903),	-- Thalassian Plating
-r(1225908),	-- Fine Thalassian Hide
+r(1225897),	-- Void-Tempered Scales \\ Thalassian Scales
+r(1225901),	-- Void-Tempered Leather \\ Thalassian Leather
+r(1225902),	-- Void-Tempered Hide \\ Thalassian Hide
+r(1225903),	-- Void-Tempered Plating \\ Thalassian Plating
+r(1225908),	-- Fine Void-Tempered Hide \\ Fine Thalassian Hide
 r(1225939),	-- Lightbloom Diffuser
 r(1225940),	-- Primal Diffuser
 r(1225941),	-- Wild Diffuser
@@ -56,7 +56,7 @@ r(1225943),	-- Majestic Eversong Lure
 r(1225944),	-- Majestic Zul'Aman Lure
 r(1225945),	-- Majestic Harandar Lure
 r(1225946),	-- Majestic Voidstorm Lure
-r(1225948),	-- Majestic Grand Lure
+r(1225948),	-- Grand Beast Lure \\ Majestic Grand Lure
 r(1250491),	-- Find High-Value Beasts
 r(1265712),	-- Quality
 r(1265715),	-- Knowledge
@@ -142,11 +142,11 @@ r(308569),	-- Skinning
 12.0.0.63534
 r(471014),	-- Midnight Skinning
 r(1223388),	-- Sharpen Your Knife
-r(1225897),	-- Thalassian Scales
-r(1225901),	-- Thalassian Leather
-r(1225902),	-- Thalassian Hide
-r(1225903),	-- Thalassian Plating
-r(1225908),	-- Fine Thalassian Hide
+r(1225897),	-- Void-Tempered Scales \\ Thalassian Scales
+r(1225901),	-- Void-Tempered Leather \\ Thalassian Leather
+r(1225902),	-- Void-Tempered Hide \\ Thalassian Hide
+r(1225903),	-- Void-Tempered Plating \\ Thalassian Plating
+r(1225908),	-- Fine Void-Tempered Hide \\ Fine Thalassian Hide
 r(1225939),	-- Lightbloom Diffuser
 r(1225940),	-- Primal Diffuser
 r(1225941),	-- Wild Diffuser
@@ -155,7 +155,7 @@ r(1225943),	-- Majestic Eversong Lure
 r(1225944),	-- Majestic Zul'Aman Lure
 r(1225945),	-- Majestic Harandar Lure
 r(1225946),	-- Majestic Voidstorm Lure
-r(1225948),	-- Majestic Grand Lure
+r(1225948),	-- Grand Beast Lure \\ Majestic Grand Lure
 r(1250491),	-- Find High-Value Beasts
 r(1265712),	-- Quality
 r(1265715),	-- Knowledge

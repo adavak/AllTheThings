@@ -1,3 +1,28 @@
+11.2.7.63642
+r(1259195),	-- Draconic Nesting Bed
+r(1259233),	-- Valdrakken Market Tent
+r(1260328),	-- Zhevra-Stripe Rug
+r(1260485),	-- Zandalari Ritual Drum
+r(1260762),	-- Tauren Leather Fence
+r(1260765),	-- Tauren Fencepost
+r(1261081),	-- Blackrock Bunkbed
+r(1261122),	-- Orcish Sleeping Cot
+r(1261245),	-- Serenity Peak Tent
+r(1261248),	-- Wise Pandaren's Bed
+r(1261672),	-- Loch Modan Bearskin Rug
+r(1262273),	-- Highmountain Tanner's Frame
+r(1263308),	-- Margrave's Stitched Leather Rug
+r(1263313),	-- Maldraxxian Crate
+r(1263613),	-- Wolvar Postbag
+r(1263633),	-- Camp Narache Rug
+r(1263818),	-- Arakkoa Decoy Scarecrow
+r(1263819),	-- Outland Mag'har Banner
+r(1263859),	-- Sandfury Diplomat's Banner
+11.2.7.64011
+r(1269498),	-- Snowfall Tribe Scare-Totem
+r(1269499),	-- Snowfall Tribe Scare-Totem
+r(1269550),	-- Scaled Twilight Mosaic
+r(1270836),	-- Well-Lit Incontinental Couch
 12.0.0.63534
 r(471012),	-- Midnight Leatherworking
 r(471046),	-- Recraft Equipment
@@ -102,25 +127,6 @@ r(1246940),	-- Leather Haranir Bed
 r(1246941),	-- Stitched Haranir Rug
 r(1246942),	-- Sturdy Haranir Chair
 r(1246943),	-- Plush Haranir Leather Pillow
-r(1259195),	-- Draconic Nesting Bed
-r(1259233),	-- Valdrakken Market Tent
-r(1260328),	-- Zhevra-Stripe Rug
-r(1260485),	-- Zandalari Ritual Drum
-r(1260762),	-- Tauren Leather Fence
-r(1260765),	-- Tauren Fencepost
-r(1261081),	-- Blackrock Bunkbed
-r(1261122),	-- Orcish Sleeping Cot
-r(1261245),	-- Serenity Peak Tent
-r(1261248),	-- Wise Pandaren's Bed
-r(1261672),	-- Loch Modan Bearskin Rug
-r(1262273),	-- Highmountain Tanner's Frame
-r(1263308),	-- Margrave's Stitched Leather Rug
-r(1263313),	-- Maldraxxian Crate
-r(1263613),	-- Wolvar Postbag
-r(1263633),	-- Camp Narache Rug
-r(1263818),	-- Arakkoa Decoy Scarecrow
-r(1263819),	-- Outland Mag'har Banner
-r(1263859),	-- Sandfury Diplomat's Banner
 r(1265607),	-- Multicraft
 r(1265620),	-- Knowledge
 r(1265657),	-- Quality
@@ -136,6 +142,31 @@ r(1265707),	-- Ingenuity
 
 Missing in Leatherworking
 
+11.2.7.63642
+r(1259195),	-- Draconic Nesting Bed
+r(1259233),	-- Valdrakken Market Tent
+r(1260328),	-- Zhevra-Stripe Rug
+r(1260485),	-- Zandalari Ritual Drum
+r(1260762),	-- Tauren Leather Fence
+r(1260765),	-- Tauren Fencepost
+r(1261081),	-- Blackrock Bunkbed
+r(1261122),	-- Orcish Sleeping Cot
+r(1261245),	-- Serenity Peak Tent
+r(1261248),	-- Wise Pandaren's Bed
+r(1261672),	-- Loch Modan Bearskin Rug
+r(1262273),	-- Highmountain Tanner's Frame
+r(1263308),	-- Margrave's Stitched Leather Rug
+r(1263313),	-- Maldraxxian Crate
+r(1263613),	-- Wolvar Postbag
+r(1263633),	-- Camp Narache Rug
+r(1263818),	-- Arakkoa Decoy Scarecrow
+r(1263819),	-- Outland Mag'har Banner
+r(1263859),	-- Sandfury Diplomat's Banner
+11.2.7.64011
+r(1269498),	-- Snowfall Tribe Scare-Totem
+r(1269499),	-- Snowfall Tribe Scare-Totem
+r(1269550),	-- Scaled Twilight Mosaic
+r(1270836),	-- Well-Lit Incontinental Couch
 12.0.0.63534
 r(471012),	-- Midnight Leatherworking
 r(471046),	-- Recraft Equipment
@@ -240,25 +271,6 @@ r(1246940),	-- Leather Haranir Bed
 r(1246941),	-- Stitched Haranir Rug
 r(1246942),	-- Sturdy Haranir Chair
 r(1246943),	-- Plush Haranir Leather Pillow
-r(1259195),	-- Draconic Nesting Bed
-r(1259233),	-- Valdrakken Market Tent
-r(1260328),	-- Zhevra-Stripe Rug
-r(1260485),	-- Zandalari Ritual Drum
-r(1260762),	-- Tauren Leather Fence
-r(1260765),	-- Tauren Fencepost
-r(1261081),	-- Blackrock Bunkbed
-r(1261122),	-- Orcish Sleeping Cot
-r(1261245),	-- Serenity Peak Tent
-r(1261248),	-- Wise Pandaren's Bed
-r(1261672),	-- Loch Modan Bearskin Rug
-r(1262273),	-- Highmountain Tanner's Frame
-r(1263308),	-- Margrave's Stitched Leather Rug
-r(1263313),	-- Maldraxxian Crate
-r(1263613),	-- Wolvar Postbag
-r(1263633),	-- Camp Narache Rug
-r(1263818),	-- Arakkoa Decoy Scarecrow
-r(1263819),	-- Outland Mag'har Banner
-r(1263859),	-- Sandfury Diplomat's Banner
 r(1265607),	-- Multicraft
 r(1265620),	-- Knowledge
 r(1265657),	-- Quality

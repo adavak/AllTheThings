@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(VOIDSTORM, {
-		n(FLIGHT_PATHS, {
-		}),
+		--n(FLIGHT_PATHS, {
+		--}),
 	}),
 }));

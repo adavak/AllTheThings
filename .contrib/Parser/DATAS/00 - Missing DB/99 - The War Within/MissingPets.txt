@@ -10,42 +10,52 @@ pet(4830),	-- Rhay'Dahr \\ Observer, Baby (Green)
 pet(4837),	-- Worm, Cosmic - Critter (Red)
 11.2.5.63092
 pet(4908),	-- Lil' Ashlee
-12.0.0.63534
-pet(4790),	-- Devouring Runt
-pet(4795),	-- Voidcrawler
-pet(4803),	-- Niblet
-pet(4816),	-- Hawkstrider Hatchling
+11.2.7.63642
 pet(4851),	-- Tiny Snow Buddy
+12.0.0.63534
+pet(4803),	-- Niblet
 pet(4874),	-- Akil Fledgling
-pet(4875),	-- Rootling Nester
-pet(4876),	-- Mud Potadpole
-pet(4877),	-- Violet Chick
-pet(4878),	-- Ebon Snapling
-pet(4879),	-- Blistercreepling
-pet(4880),	-- Swamp Biter
 pet(4881),	-- Purple Swamp Leech
-pet(4882),	-- Azure Sporebat
-pet(4883),	-- Dragonhawk Mosswing
-pet(4884),	-- Pangolil
-pet(4885),	-- Gloom Toad
-pet(4886),	-- Silkcrawler
 pet(4887),	-- Dundun
 pet(4888),	-- Naloki
 pet(4889),	-- Nether Familiar
-pet(4890),	-- Vibrant Manaling
 pet(4891),	-- Wrathful Wyrm
-pet(4892),	-- Riftblade Familiar
 pet(4905),	-- [DNT] Baby Amazard (Red)
 pet(4906),	-- [DNT] Baby Amani Eagle (Grey)
-pet(4910),	-- Do, child of Fi'lo
-pet(4912),	-- Silvermoon Broom
-pet(4913),	-- Moon Darter
+pet(4910),	-- Do, child of Filo \\ Do, child of Fi'lo
 pet(4914),	-- Chillcrawler
-pet(4927),	-- Percival
 pet(4928),	-- Dragonhawk Munchkin
-pet(4929),	-- Vermillion Grovecrawler
+pet(4929),	-- Munchy \\ Vermillion Grovecrawler
 pet(4930),	-- Lil' Preyseeker
 pet(4942),	-- Distorted Memory
+12.0.0.63724
+pet(4945),	-- Aud'rei III
+pet(4946),	-- Linda the Lucky
+pet(4947),	-- Assistant Botanist Leafy
+pet(4950),	-- Preyseeker's Immature Behemoth
+pet(4951),	-- Bubbly Snapling
+pet(4952),	-- Blitzcreek
+pet(4953),	-- Sporbie
+pet(4954),	-- Ziorg'pharon
+pet(4955),	-- Kreepah'zoyd
+pet(4956),	-- Spormilian
+pet(4957),	-- Lost Star
+pet(4958),	-- Ominous Domanus \\ Ominous Dominus
+pet(4959),	-- Hexed Bunny
+pet(4960),	-- Treja'saka \\ Saka'saka
+pet(4961),	-- Nibblesworth
+12.0.0.63854
+pet(4963),	-- Grumpy Mandrake
+pet(4964),	-- Plump Mandrake
+pet(4965),	-- Chirpy Mandrake
+pet(4966),	-- Screechy Mandrake
+pet(4967),	-- Gortham
+pet(4971),	-- Luma
+pet(4972),	-- Willie
+12.0.0.63967
+pet(4975),	-- Razeshi C.
+pet(4976),	-- Voldy
+pet(4977),	-- Emberwing Hatchling
 
 
 
@@ -53,38 +63,4 @@ pet(4942),	-- Distorted Memory
 Missing in PetDB.lua
 
 12.0.0.63534
-pet(4790),	-- Devouring Runt
 pet(4795),	-- Voidcrawler
-pet(4803),	-- Niblet
-pet(4816),	-- Hawkstrider Hatchling
-pet(4851),	-- Tiny Snow Buddy
-pet(4874),	-- Akil Fledgling
-pet(4875),	-- Rootling Nester
-pet(4876),	-- Mud Potadpole
-pet(4877),	-- Violet Chick
-pet(4878),	-- Ebon Snapling
-pet(4879),	-- Blistercreepling
-pet(4880),	-- Swamp Biter
-pet(4881),	-- Purple Swamp Leech
-pet(4882),	-- Azure Sporebat
-pet(4883),	-- Dragonhawk Mosswing
-pet(4884),	-- Pangolil
-pet(4885),	-- Gloom Toad
-pet(4886),	-- Silkcrawler
-pet(4887),	-- Dundun
-pet(4888),	-- Naloki
-pet(4889),	-- Nether Familiar
-pet(4890),	-- Vibrant Manaling
-pet(4891),	-- Wrathful Wyrm
-pet(4892),	-- Riftblade Familiar
-pet(4905),	-- [DNT] Baby Amazard (Red)
-pet(4906),	-- [DNT] Baby Amani Eagle (Grey)
-pet(4910),	-- Do, child of Fi'lo
-pet(4912),	-- Silvermoon Broom
-pet(4913),	-- Moon Darter
-pet(4914),	-- Chillcrawler
-pet(4927),	-- Percival
-pet(4928),	-- Dragonhawk Munchkin
-pet(4929),	-- Vermillion Grovecrawler
-pet(4930),	-- Lil' Preyseeker
-pet(4942),	-- Distorted Memory

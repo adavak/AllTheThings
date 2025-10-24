@@ -1,3 +1,28 @@
+11.2.7.63642
+r(1246473),	-- [DNT] TWW Blacksmithing Decor Template
+r(1259675),	-- Rusting Bolted Bench
+r(1259681),	-- Shredderwheel Storage Chest
+r(1260691),	-- Brennadam Grinder
+r(1260692),	-- Stormsong Stove
+r(1260693),	-- Suramar Fence
+r(1260695),	-- Suramar Fencepost
+r(1260698),	-- Tauren Soup Pot
+r(1260987),	-- Frostwall Forge
+r(1260988),	-- Blackrock Weapon Rack
+r(1261234),	-- Pandaren Fireplace
+r(1261235),	-- Pandaren Signal Brazier
+r(1261256),	-- Gilnean Pitchfork
+r(1261327),	-- Dalaran Runic Anvil
+r(1261347),	-- Bronze Banner of the Exiled
+r(1261359),	-- Draenei Crystal Forge
+r(1261383),	-- Draenei Smith's Anvil
+r(1261497),	-- Shadowforge Sconce
+r(1261499),	-- Steel Ironforge Emblem
+r(1261892),	-- Valdrakken Hanging Cauldron
+r(1261896),	-- Wingrest Signal Brazier
+r(1261980),	-- Bejeweled Venthyr Chalice
+r(1261982),	-- Aspirant's Meditation Pool
+r(1262308),	-- Standing Smoke Lamp
 12.0.0.63534
 r(471004),	-- Midnight Blacksmithing
 r(471041),	-- Recraft Equipment
@@ -79,35 +104,11 @@ r(1230762),	-- Gloaming Alloy
 r(1230763),	-- Dazzling Alloy
 r(1230764),	-- Refulgent Repair Hammer
 r(1230765),	-- [DNT] TBD Master Repair Hammer
-r(1230766),	-- Murder Row Fleet Feet
+r(1230766),	-- Murder Row Fleet Feet Recipe \\ Murder Row Fleet Feet
 r(1230767),	-- Knight-Commander's Palisade
 r(1230768),	-- Murder Row Fishhook
 r(1230769),	-- Sunforged Blacksmith's Hammer
 r(1230770),	-- [DNT] 12.0 Engineering Recipe Spell Template
-r(1246473),	-- [DNT] TWW Blacksmithing Decor Template
-r(1259675),	-- Rusting Bolted Bench
-r(1259681),	-- Shredderwheel Storage Chest
-r(1260691),	-- Brennadam Grinder
-r(1260692),	-- Stormsong Stove
-r(1260693),	-- Suramar Fence
-r(1260695),	-- Suramar Fencepost
-r(1260698),	-- Tauren Soup Pot
-r(1260987),	-- Frostwall Forge
-r(1260988),	-- Blackrock Weapon Rack
-r(1261234),	-- Pandaren Fireplace
-r(1261235),	-- Pandaren Signal Brazier
-r(1261256),	-- Gilnean Pitchfork
-r(1261327),	-- Dalaran Runic Anvil
-r(1261347),	-- Bronze Banner of the Exiled
-r(1261359),	-- Draenei Crystal Forge
-r(1261383),	-- Draenei Smith's Anvil
-r(1261497),	-- Shadowforge Sconce
-r(1261499),	-- Steel Ironforge Emblem
-r(1261892),	-- Valdrakken Hanging Cauldron
-r(1261896),	-- Wingrest Signal Brazier
-r(1261980),	-- Bejeweled Venthyr Chalice
-r(1261982),	-- Aspirant's Meditation Pool
-r(1262308),	-- Standing Smoke Lamp
 r(1262899),	-- Sunforged Leatherworker's Knife
 r(1262905),	-- Sunforged Skinning Knife
 r(1262919),	-- Sunforged Pickaxe
@@ -131,6 +132,31 @@ r(1265906),	-- Thalassian Skeleton Key
 
 Missing in Blacksmithing
 
+11.2.7.63642
+r(1246473),	-- [DNT] TWW Blacksmithing Decor Template
+r(1259675),	-- Rusting Bolted Bench
+r(1259681),	-- Shredderwheel Storage Chest
+r(1260691),	-- Brennadam Grinder
+r(1260692),	-- Stormsong Stove
+r(1260693),	-- Suramar Fence
+r(1260695),	-- Suramar Fencepost
+r(1260698),	-- Tauren Soup Pot
+r(1260987),	-- Frostwall Forge
+r(1260988),	-- Blackrock Weapon Rack
+r(1261234),	-- Pandaren Fireplace
+r(1261235),	-- Pandaren Signal Brazier
+r(1261256),	-- Gilnean Pitchfork
+r(1261327),	-- Dalaran Runic Anvil
+r(1261347),	-- Bronze Banner of the Exiled
+r(1261359),	-- Draenei Crystal Forge
+r(1261383),	-- Draenei Smith's Anvil
+r(1261497),	-- Shadowforge Sconce
+r(1261499),	-- Steel Ironforge Emblem
+r(1261892),	-- Valdrakken Hanging Cauldron
+r(1261896),	-- Wingrest Signal Brazier
+r(1261980),	-- Bejeweled Venthyr Chalice
+r(1261982),	-- Aspirant's Meditation Pool
+r(1262308),	-- Standing Smoke Lamp
 12.0.0.63534
 r(471004),	-- Midnight Blacksmithing
 r(471041),	-- Recraft Equipment
@@ -212,35 +238,11 @@ r(1230762),	-- Gloaming Alloy
 r(1230763),	-- Dazzling Alloy
 r(1230764),	-- Refulgent Repair Hammer
 r(1230765),	-- [DNT] TBD Master Repair Hammer
-r(1230766),	-- Murder Row Fleet Feet
+r(1230766),	-- Murder Row Fleet Feet Recipe \\ Murder Row Fleet Feet
 r(1230767),	-- Knight-Commander's Palisade
 r(1230768),	-- Murder Row Fishhook
 r(1230769),	-- Sunforged Blacksmith's Hammer
 r(1230770),	-- [DNT] 12.0 Engineering Recipe Spell Template
-r(1246473),	-- [DNT] TWW Blacksmithing Decor Template
-r(1259675),	-- Rusting Bolted Bench
-r(1259681),	-- Shredderwheel Storage Chest
-r(1260691),	-- Brennadam Grinder
-r(1260692),	-- Stormsong Stove
-r(1260693),	-- Suramar Fence
-r(1260695),	-- Suramar Fencepost
-r(1260698),	-- Tauren Soup Pot
-r(1260987),	-- Frostwall Forge
-r(1260988),	-- Blackrock Weapon Rack
-r(1261234),	-- Pandaren Fireplace
-r(1261235),	-- Pandaren Signal Brazier
-r(1261256),	-- Gilnean Pitchfork
-r(1261327),	-- Dalaran Runic Anvil
-r(1261347),	-- Bronze Banner of the Exiled
-r(1261359),	-- Draenei Crystal Forge
-r(1261383),	-- Draenei Smith's Anvil
-r(1261497),	-- Shadowforge Sconce
-r(1261499),	-- Steel Ironforge Emblem
-r(1261892),	-- Valdrakken Hanging Cauldron
-r(1261896),	-- Wingrest Signal Brazier
-r(1261980),	-- Bejeweled Venthyr Chalice
-r(1261982),	-- Aspirant's Meditation Pool
-r(1262308),	-- Standing Smoke Lamp
 r(1262899),	-- Sunforged Leatherworker's Knife
 r(1262905),	-- Sunforged Skinning Knife
 r(1262919),	-- Sunforged Pickaxe
