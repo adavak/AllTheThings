@@ -23944,3 +23944,39 @@
 256933@@@Twilight Material
 256960@@@Eversong Farstrider
 256985@@@Willie
+12.0.0.63967
+240283@@@Vereesa Windrunner
+240284@@@Arator
+240285@@@Archmage Aethas Sunreaver
+240290@@@Sunreaver Guardian Mage
+240291@@@Silvermoon Blood Guard
+244540@@@Captain Elleane Wavecrest
+244541@@@Scout Captain Daelin
+244542@@@Archmage Velor Cloudlight
+246696@@@Dali
+249156@@@Sylverian Dreamer
+249624@@@Nightborne Arcanist
+249625@@@Night Elf Archer
+249627@@@Void Elf Riftmancer
+250786@@@Void Manifestation
+253220@@@Advanced Construct
+254647@@@Emerald Hatchling
+257028@@@SuperLux Focusing Mirror
+257073@@@Shadow Nexus
+257232@@@Gnarla
+257233@@@Hannan
+257234@@@Nye'rangi
+257236@@@Ran'hune
+257237@@@Ter'kova
+257238@@@Den Dweller
+257239@@@Orweyna
+257268@@@Void Thirster
+257416@@@Lady Darkglen
+257469@@@Ancient Protector
+257470@@@Nightborne Protector
+257472@@@Advanced Construct
+257493@@@Razeshi C.
+257537@@@Area Trigger Bunny
+257541@@@Brann Bronzebeard
+257546@@@Voldy
+257616@@@Emberwing Hatchling

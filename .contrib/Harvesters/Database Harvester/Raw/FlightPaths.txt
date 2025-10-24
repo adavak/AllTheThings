@@ -2850,3 +2850,6 @@
 3194@@@Har'kuai, Harandar
 3195@@@Har'alnor, Harandar
 3196@@@Har'mara, Harandar
+12.0.0.63967
+3106@@@Camp Stonewash, Zul'Aman
+3123@@@Master's Perch. Voidstorm

@@ -1171,3 +1171,8 @@
 2725@@@The Singularity (Paragon)
 2764@@@Preyseeker's Journey
 2774@@@Domanaar Dominance (Paragon)
+12.0.0.63967
+2714@@@Shades of the Row
+2718@@@Shades of the Row (Paragon)
+2780@@@Shadowpine Tribe
+2781@@@Revantusk Tribe

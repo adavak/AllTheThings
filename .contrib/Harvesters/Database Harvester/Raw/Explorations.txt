@@ -10698,3 +10698,8 @@
 16816@@@Silver Landing
 16817@@@Western Sungrove
 16818@@@Highlands
+12.0.0.63967
+3430@@@Eversong Woods (Burning Crusade)
+3433@@@Ghostlands (Burning Crusade)
+3487@@@Silvermoon City (Burning Crusade)
+16365@@@Atal'Utek

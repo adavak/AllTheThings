@@ -911,3 +911,15 @@
 678@@@[PH] DarkwellRaid %s
 679@@@Dream-Eater %s
 680@@@%s, Chronicler of the Haranir
+12.0.0.63967
+681@@@Scourgebane %s
+682@@@%s, Top Student
+683@@@Despair Defier %s
+684@@@Windrunner Mediator %s
+685@@@%s, Nexus Navigator
+686@@@Maisaran Soultender %s
+687@@@Terrace Terror %s
+688@@@%s the Ominous
+689@@@%s, Fabled Vanquisher of Nullaeus
+690@@@[PH] VoidspireRaid %s
+691@@@Treasure Seeker %s

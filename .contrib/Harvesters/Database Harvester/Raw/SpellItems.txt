@@ -12946,3 +12946,6 @@
 8047@@@Illusory Adornment - Voidtouched |A:Professions-ChatIcon-Quality-Tier2:20:20|a
 12.0.0.63854
 8638@@@Grand Line
+12.0.0.63967
+8556@@@+$k1 Primary Stat and +0.15% critical strike effectiveness per unique Midnight gem color
+8557@@@+$k1 Primary Stat and +0.15% critical strike effectiveness per unique Midnight gem color

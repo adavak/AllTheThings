@@ -2403,3 +2403,12 @@
 1270521@@@Gruffy Comfy Flying Carpet
 1270522@@@Huffy Comfy Flying Carpet
 1270523@@@Stuffy Comfy Flying Carpet
+12.0.0.63967
+1253924@@@Brilliant Petalwing
+1260354@@@Untained Grove Crawler
+1261583@@@Insatiable Shredclaw
+1270520@@@Fluffy Comfy Flying Quilt
+1270521@@@Gruffy Comfy Flying Quilt
+1270522@@@Huffy Comfy Flying Quilt
+1270523@@@Stuffy Comfy Flying Quilt
+1270675@@@Vivid Chloroceros
