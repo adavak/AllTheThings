@@ -19,7 +19,7 @@ THE_OPENING_OF_THE_DARK_PORTAL = createHeader({
 		en = "The Opening of the Dark Portal was a one-time event that happened between Prepatch and the launch of TBC and subsequentially removed after. The tabard is the only tabard in the game with the Flex emote built into it and is highly covetted by collectors. Highlord Kruul would spawn randomly outside of the major cities and max level zones of the time.",
 	},
 });
-root(ROOTS.WorldEvents, n(THE_OPENING_OF_THE_DARK_PORTAL,
+root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, { expansion(EXPANSION.TBC, { n(THE_OPENING_OF_THE_DARK_PORTAL,
 	applyclassicphase(TBC_PHASE_ONE_DARKPORTAL, bubbleDown({
 		-- #if AFTER 2.5.1
 		["timeline"] = { REMOVED_2_0_1 },
@@ -44,4 +44,4 @@ root(ROOTS.WorldEvents, n(THE_OPENING_OF_THE_DARK_PORTAL,
 			}),
 		},
 	}))
-));
+)})}));

@@ -2,7 +2,10 @@
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
 local RESIDUAL_MEMORIES = 3089;
-root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADDED_11_0_0, REMOVED_TWW_LAUNCH } }, {
+root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
+	expansion(EXPANSION.TWW, {
+		["forcetimeline"] = { ADDED_11_0_0, REMOVED_TWW_LAUNCH },
+	}),
 	expansion(EXPANSION.TWW, {
 		n(ACHIEVEMENTS, {
 			ach(40796),	-- This Takes Me Back
@@ -523,14 +526,17 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 			}),
 		}),
 	}),
-})));
+}))
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	n(EXPANSION_PRELAUNCH, {
-		n(QUESTS, {
-			q(82687),	-- Triggered after 'Only Darkness' (questID 82689)
-			q(82688),	-- Triggered after 'Only Darkness' (questID 82689)
-			q(84083),	-- First Radiant 'boss' (of the week?) rewarding a Champion piece per character
-		}),
+		["timeline"] = { ADDED_11_0_0 },
+		["groups"] = {
+			n(QUESTS, {
+				q(82687),	-- Triggered after 'Only Darkness' (questID 82689)
+				q(82688),	-- Triggered after 'Only Darkness' (questID 82689)
+				q(84083),	-- First Radiant 'boss' (of the week?) rewarding a Champion piece per character
+			}),
+		},
 	}),
-})));
+}))
