@@ -83,26 +83,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = {
 				},
 			}),
 			i(139048, {	-- Small Legion Chest
-				i(141597),	-- Corrupted Argus Gavel
-				i(141609),	-- Corrupted Argus Gavel -- Non Upgrade Version -- Was posted here already - Gold 14.04.2019
-				i(141595),	-- Eredar Battle Blade
-				i(141607),	-- Eredar Battle Blade -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141602),	-- Eredar Splitter
-				i(141614),	-- Eredar Splitter -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141599),	-- Fel Barbed Spear
-				i(141611),	-- Fel Barbed Spear -- Non Upgrade Version -- Dropped below a certain level, somebody on discord posted having it around end of 2018, early 2019)
-				i(141594),	-- Fel Hacker
-				i(141606),	-- Fel Hacker -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141603),	-- Fel Lord's Warmace
-				i(141615),	-- Fel Lord's Warmace -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141604),	-- Glaive of the Fallen
-				i(141601),	-- Hellfury Longbow
-				i(141613),	-- Hellfury Longbow -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141616),	-- Inquisitor's Wand
-				i(141617),	-- Inquisitor's Wand -- Non Upgrade Version -- Dropped below a certain level - My Priest has it - Gold 14.04.2019)
-				i(141600),	-- Wyrmtongue Spiteblade
-				i(141612),	-- Wyrmtongue Spiteblade -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				gsh(160, {	-- Fel-Infused Armor
+				f(CLOTH, {
 					i(138184),	-- Fel-Infused Helm
 					i(138186),	-- Fel-Infused Spaulders
 					i(138187),	-- Fel-Infused Hauberk
@@ -112,7 +93,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = {
 					i(138185),	-- Fel-Infused Leggings
 					i(138183),	-- Fel-Infused Boots
 				}),
-				gsh(159, {	-- Felshroud Armor
+				f(LEATHER, {
 					i(138167),	-- Felshroud Hood
 					i(138168),	-- Felshroud Shoulders
 					i(138192),	-- Felshroud Vest
@@ -122,7 +103,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = {
 					i(138165),	-- Felshroud Pants
 					i(138164),	-- Felshroud Boots
 				}),
-				gsh(158, {	-- Fel-Chain Armor
+				f(MAIL, {
 					i(138176),	-- Fel-Chain Helm
 					i(138178),	-- Fel-Chain Spaulders
 					i(138179),	-- Fel-Chain Hauberk
@@ -132,7 +113,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = {
 					i(138177),	-- Fel-Chain Leggings
 					i(138175),	-- Fel-Chain Boots
 				}),
-				gsh(157, {	-- Felforged Armor
+				f(PLATE, {
 					i(138155),	-- Felforged Helmet
 					i(138157),	-- Felforged Pauldrons
 					i(138152),	-- Felforged Chestplate
@@ -141,68 +122,31 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDownSelf({ ["timeline"] = {
 					i(138154),	-- Felforged Waistplate
 					i(138156),	-- Felforged Legplates
 					i(138158),	-- Felforged Warboots
+				}),
+				n(WEAPONS, {
+					i(141597),	-- Corrupted Argus Gavel
+					i(141609),	-- Corrupted Argus Gavel -- Non Upgrade Version -- Was posted here already - Gold 14.04.2019
+					i(141595),	-- Eredar Battle Blade
+					i(141607),	-- Eredar Battle Blade -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
+					i(141602),	-- Eredar Splitter
+					i(141614),	-- Eredar Splitter -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
+					i(141599),	-- Fel Barbed Spear
+					i(141611),	-- Fel Barbed Spear -- Non Upgrade Version -- Dropped below a certain level, somebody on discord posted having it around end of 2018, early 2019)
+					i(141594),	-- Fel Hacker
+					i(141606),	-- Fel Hacker -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
+					i(141603),	-- Fel Lord's Warmace
+					i(141615),	-- Fel Lord's Warmace -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
+					i(141604),	-- Glaive of the Fallen
+					i(141601),	-- Hellfury Longbow
+					i(141613),	-- Hellfury Longbow -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
+					i(141616),	-- Inquisitor's Wand
+					i(141617),	-- Inquisitor's Wand -- Non Upgrade Version -- Dropped below a certain level - My Priest has it - Gold 14.04.2019)
+					i(141600),	-- Wyrmtongue Spiteblade
+					i(141612),	-- Wyrmtongue Spiteblade -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
 				}),
 			}),
 			i(139049, {	-- Large Legion Chest
-				i(141597),	-- Corrupted Argus Gavel
-				i(141609),	-- Corrupted Argus Gavel -- Non Upgrade Version -- Was posted here already - Gold 14.04.2019
-				i(141595),	-- Eredar Battle Blade
-				i(141607),	-- Eredar Battle Blade -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141602),	-- Eredar Splitter
-				i(141614),	-- Eredar Splitter -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141599),	-- Fel Barbed Spear
-				i(141611),	-- Fel Barbed Spear -- Non Upgrade Version -- Dropped below a certain level, somebody on discord posted having it around end of 2018, early 2019)
-				i(141594),	-- Fel Hacker
-				i(141606),	-- Fel Hacker -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141603),	-- Fel Lord's Warmace
-				i(141615),	-- Fel Lord's Warmace -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141604),	-- Glaive of the Fallen
-				i(141601),	-- Hellfury Longbow
-				i(141613),	-- Hellfury Longbow -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				i(141616),	-- Inquisitor's Wand
-				i(141617),	-- Inquisitor's Wand -- Non Upgrade Version -- Dropped below a certain level - My Priest has it - Gold 14.04.2019)
-				i(141600),	-- Wyrmtongue Spiteblade
-				i(141612),	-- Wyrmtongue Spiteblade -- Non Upgrade Version -- Probably similar to other Non Upgrade Items
-				gsh(160, {	-- Fel-Infused Armor
-					i(138184),	-- Fel-Infused Helm
-					i(138186),	-- Fel-Infused Spaulders
-					i(138187),	-- Fel-Infused Hauberk
-					i(138181),	-- Fel-Infused Bracers
-					i(138182),	-- Fel-Infused Grips
-					i(138180),	-- Fel-Infused Cinch
-					i(138185),	-- Fel-Infused Leggings
-					i(138183),	-- Fel-Infused Boots
-				}),
-				gsh(159, {	-- Felshroud Armor
-					i(138167),	-- Felshroud Hood
-					i(138168),	-- Felshroud Shoulders
-					i(138192),	-- Felshroud Vest
-					i(138163),	-- Felshroud Bindings
-					i(138166),	-- Felshroud Gloves
-					i(138169),	-- Felshroud Belt
-					i(138165),	-- Felshroud Pants
-					i(138164),	-- Felshroud Boots
-				}),
-				gsh(158, {	-- Fel-Chain Armor
-					i(138176),	-- Fel-Chain Helm
-					i(138178),	-- Fel-Chain Spaulders
-					i(138179),	-- Fel-Chain Hauberk
-					i(138173),	-- Fel-Chain Bracers
-					i(138174),	-- Fel-Chain Grips
-					i(138172),	-- Fel-Chain Cinch
-					i(138177),	-- Fel-Chain Leggings
-					i(138175),	-- Fel-Chain Boots
-				}),
-				gsh(157, {	-- Felforged Armor
-					i(138155),	-- Felforged Helmet
-					i(138157),	-- Felforged Pauldrons
-					i(138152),	-- Felforged Chestplate
-					i(138159),	-- Felforged Vambracers
-					i(138153),	-- Felforged Gauntlets
-					i(138154),	-- Felforged Waistplate
-					i(138156),	-- Felforged Legplates
-					i(138158),	-- Felforged Warboots
-				}),
+				["sym"] = {{"select", "itemID",139048},{"pop"}},	-- Small Legion Chest
 			}),
 			n(QUESTS, {
 				-- Weren't all repeatable quests just HQTs? - Darkal
