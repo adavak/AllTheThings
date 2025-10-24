@@ -117,10 +117,14 @@ MOP_FIRST_AID = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] 
 		-- #endif
 		["rank"] = 8,
 	}),
-	r(102698),	-- Heavy Windwool Bandage
+	r(102698, {	-- Heavy Windwool Bandage
+		["rank"] = 1,
+	}),
 	r(102697),	-- Windwool Bandage
 	n(DISCOVERY, {
-		r(102699),	-- Heavy Windwool Bandage [Efficent]
+		r(102699, {	-- Heavy Windwool Bandage [Efficient]
+			["rank"] = 2,
+		}),
 	}),
 }));
 DRAENOR_FIRST_AID = applyclassicphase(WOD_PHASE_ONE, i(111364, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_8_0_1 } }, {
