@@ -1,0 +1,12 @@
+11.1.0.58221
+1@@@Adventurer's Rest
+4@@@Ohn'ahran Overlook
+5@@@Cultists' Quay
+7@@@Freywold Spring
+25@@@Gallagio Grand Gallery
+29@@@Randomize From Favorites
+11.2.0.61476
+99@@@Adventurer's Rest
+110@@@Test Example from Scratch
+111@@@Adventurer's Rest
+119@@@The Fate of the Devoured
