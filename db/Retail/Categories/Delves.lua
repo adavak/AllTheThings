@@ -1,6 +1,6 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
-local ach,campsite,cq,crit,cu,en,flt,h,i,m,mm,mnt,n,o,p,q,r,s,title,toy,x=_.CreateAchievement,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local ach,ah,campsite,cq,crit,cu,en,flt,h,i,m,mm,mnt,n,o,p,q,r,s,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 local a={{"i",230219},{"n",221427},{"n",234168},{"n",236626},{"n",244753},{"o",455716},{"s",453139},{"s",464820},{206017},{2249,2250,2251,2259,2269,2277,2299,2301,2302,2310,2312,2347,2348,2396,2420,2425,2452,2484},{2249,2250,2251,2259,2269,2277,2299,2301,2302,2310,2312,2347,2396,2420,2452},{2249,2250,2277,2310,2347,2420},{2249},{2250},{2251},{225401},{2259},{2269},{2277},{2299},{2301},{2302},{2310},{2312},{2347},{235490},{2396},{2420},{245191},{245938},{249592},{2570,12},{47.4,44.4,2339},{48,43.4,2339},{55.3,55.9,2248},{68},{70},{85242},{90969}};
 _.Categories.Delves={
 x(11,{awp=110000,g={
@@ -1013,20 +1013,20 @@ i(235607,{b=1,f=55,spellID=1217548}),
 s(284406,235813,{b=1,f=24,lvl=80,spellID=1218442})}})}}),
 h(-58,{
 n(226250,{coords={{47.6,45,2339}},g={
-h(-201,{
+ah(219391,{type="i",g={
 mm(224981,{b=1,cost={{"c",2815,10}},questID=82187}),
 mm(224982,{b=1,cost={{"c",2815,10}},questID=82179}),
 mm(235696,{awp=110200,b=1,cost={{"c",2815,10}},questID=82193}),
 mm(224980,{b=1,cost={{"c",2815,10}},questID=82170}),
 mm(224960,{b=1,cost={{"c",2815,10}},questID=82176}),
-mm(224979,{b=1,cost={{"c",2815,10}},questID=82185})}),
-h(-202,{awp=110100,g={
+mm(224979,{b=1,cost={{"c",2815,10}},questID=82185})}}),
+ah(229974,{awp=110100,type="i",g={
 mm(230219,{b=1,cost={{"c",2815,10}},questID=85181}),
 mm(230217,{b=1,cost={{"c",2815,10}},questID=85177}),
 mm(230220,{b=1,cost={{"c",2815,10}},questID=85183}),
 mm(230216,{b=1,cost={{"c",2815,10}},questID=85175}),
 mm(230218,{b=1,cost={{"c",2815,10}},questID=85179})}}),
-h(-203,{awp=110200,g={
+ah(238051,{awp=110200,type="i",g={
 mm(238178,{b=1,cost={{"c",2815,10}},questID=88814}),
 mm(238177,{b=1,cost={{"c",2815,10}},questID=88816}),
 mm(238181,{b=1,cost={{"c",2815,10}},questID=88820}),
@@ -1098,7 +1098,7 @@ s(221065,225503,{cost={{"c",2815,3500}},f=33}),
 s(221060,225498,{cost={{"c",2815,3500}},f=20}),
 s(221070,225508,{cost={{"c",2815,3500}},f=8})})}}),
 n(208070,{coords={{47.6,43.6,2339}},g={
-h(-201,{
+ah(219391,{type="i",g={
 mm(235685,{awp=110100,b=1,cost={{"c",2803,2500}},questID=82168}),
 mm(224771,{b=1,cost={{"c",2803,1000}},questID=82181}),
 mm(235688,{awp=110200,b=1,cost={{"c",2803,2500}},questID=82174}),
@@ -1112,7 +1112,7 @@ mm(235692,{awp=110200,b=1,cost={{"c",2803,2500}},questID=82177}),
 mm(235683,{awp=110100,b=1,cost={{"c",2803,2500}},questID=82173}),
 mm(224768,{b=1,cost={{"c",2803,2500}},questID=82171}),
 mm(235686,{awp=110100,b=1,cost={{"c",2803,2500}},questID=82190}),
-mm(235691,{awp=110200,b=1,cost={{"c",2803,2500}},questID=82191})}),
+mm(235691,{awp=110200,b=1,cost={{"c",2803,2500}},questID=82191})}}),
 flt(100,{
 mnt(1241263,{awp=110200,cost={{"c",2803,15000}},itemID=246237,lvl=70})}),
 flt(101,{
@@ -1847,8 +1847,9 @@ s(194666,212172,{f=3,lvl=60}),
 s(194667,212173,{f=3,lvl=60})})})}),
 flt(50,{
 i(217715,{spellID=440810}),
+o(433705,{coords={{45.6,45.1,2299}},g={
 i(217895,{spellID=441031}),
-i(217897,{spellID=441033})}),
+i(217897,{spellID=441033})}})}),
 h(-45,{
 q(83761,{coords={{57.3,42.3,2255}},lvl=70,qgs={227544}}),
 q(85667,{coords={{35.9,26.2,2299}},lvl=70,providers={{"o",487855}}})}),

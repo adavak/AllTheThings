@@ -12454,9 +12454,7 @@ i(66093,{b=1,f=200,requireSkill=164})})}}),
 x(5,{awp=50000,g={
 x(5.0004,{
 r(126867,{requireSkill=164}),
-r(113263,{requireSkill=164}),
 r(126864,{requireSkill=164}),
-r(114112,{requireSkill=164}),
 r(126866,{requireSkill=164}),
 r(122591,{itemID=84187,learnedAt=525,requireSkill=164}),
 r(122590,{itemID=84188,learnedAt=525,requireSkill=164}),

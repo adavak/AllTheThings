@@ -146,6 +146,7 @@ HeaderAssignments = {
 	["Day of the Dead"] = -566,
 	["Deadly Gladiator"] = -251,
 	["December"] = -335,
+	["Decor"] = -679,
 	["Defeat a Lieutenant"] = -618,
 	["Defense Protocol Alpha"] = -71,
 	["Defense Protocol Beta"] = -72,
@@ -670,4 +671,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -679;
+NextHeaderID = -680;
