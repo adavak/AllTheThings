@@ -583,3 +583,10 @@ REMOVED_12_0_5 = "removed 12.0.5";						-- Midnight 12.0.5
 CREATED_12_1_0 = "created 12.1.0";						-- Midnight 12.1.0
 ADDED_12_1_0 = "added 12.1.0";							-- Midnight 12.1.0
 REMOVED_12_1_0 = "removed 12.1.0";						-- Midnight 12.1.0
+
+--------------------
+-- THE LAST TITAN --
+--------------------
+CREATED_13_0_0 = "created 13.0.0";						-- The Last Titan 13.0.0
+ADDED_13_0_0 = "added 13.0.0";							-- The Last Titan 13.0.0
+REMOVED_13_0_0 = "removed 13.0.0";						-- The Last Titan 13.0.0
