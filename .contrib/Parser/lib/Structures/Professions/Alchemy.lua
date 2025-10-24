@@ -103,6 +103,10 @@ EXPERT_ARTISAN_ALCHEMY = {
 		r(11457),	-- Superior Healing Potion
 		r(17553, {["timeline"] = {ADDED_2_0_1}}),	-- Superior Mana Potion
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1262829),	-- Apothecary's Worktable
+		r(1261495),	-- Stoppered Black Potion
+	})),
 	filter(REAGENTS, {
 		r(17551),	-- Stonescale Oil
 	}),
@@ -179,6 +183,10 @@ WRATH_ALCHEMY = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] = {
 		r(53842),	-- Spellpower Elixir
 		r(53841),	-- Wrath Elixir
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1263559),	-- Icecrown Plague Canister
+		r(1263558),	-- San'layn Blood Orb
+	})),
 	filter(REAGENTS, {
 		r(62409, {["timeline"] = {ADDED_3_0_8}}),	-- Ethereal Oil
 		r(53812),	-- Pygmy Oil
@@ -237,6 +245,10 @@ CATA_ALCHEMY = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		r(80492),	-- Prismatic Elixir
 		r(80481),	-- Volcanic Potion
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1261255),	-- Gilnean Cauldron
+		r(1269506),	-- Gilnean Green Potion
+	})),
 	filter(REAGENTS, {
 		r(80486),	-- Deepstone Oil
 		r(80247),	-- Transmute: Amberjewel
@@ -266,9 +278,17 @@ MOP_ALCHEMY = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = 
 		["rank"] = 8,
 	}),
 	applyclassicphase(BFA_PHASE_ONE, r(264245, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Pandaria Alchemy
-	r(114751),	-- Alchemist's Rejuvenation
-	r(114752),	-- Master Healing Potion
-	r(136197, {["timeline"] = {ADDED_5_2_0}}),	-- Zen Alchemist Stone
+	filter(CONSUMABLES, {
+		r(114751),	-- Alchemist's Rejuvenation
+		r(114752),	-- Master Healing Potion
+	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1263548),	-- Pandaren Alchemist's Kit
+		r(1261233),	-- Pandaren Alchemist's Retort
+	})),
+	filter(TRINKET_F, {
+		r(136197, {["timeline"] = {ADDED_5_2_0}}),	-- Zen Alchemist Stone
+	}),
 }));
 DRAENOR_ALCHEMY = applyclassicphase(WOD_PHASE_ONE, i(109558, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	["description"] = "This is a reward for completing the introductory Alchemy questline that can drop from any Draenor mob.",
@@ -281,16 +301,22 @@ DRAENOR_ALCHEMY = applyclassicphase(WOD_PHASE_ONE, i(109558, bubbleDownSelf({ ["
 			["rank"] = 9,
 		}),
 		applyclassicphase(BFA_PHASE_ONE, r(264247, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Draenor Alchemy
-		r(156587),	-- Alchemical Catalyst
-		r(156585),	-- Crescent Oil
-		r(175865),	-- Draenic Invisibility Potion
-		r(175867),	-- Draenic Living Action Potion
-		r(156582),	-- Draenic Mana Potion
-		r(175853),	-- Draenic Swiftness Potion
-		r(175866),	-- Draenic Water Breathing Elixir
-		r(175869),	-- Draenic Water Walking Elixir
-		r(175868),	-- Pure Rage Potion
-		r(175880),	-- Secrets of Draenor Alchemy
+		filter(CONSUMABLES, {
+			r(175865),	-- Draenic Invisibility Potion
+			r(175867),	-- Draenic Living Action Potion
+			r(156582),	-- Draenic Mana Potion
+			r(175853),	-- Draenic Swiftness Potion
+			r(175866),	-- Draenic Water Breathing Elixir
+			r(175869),	-- Draenic Water Walking Elixir
+			r(175868),	-- Pure Rage Potion
+		}),
+		filter(MISC, {
+			r(175880),	-- Secrets of Draenor Alchemy
+		}),
+		filter(REAGENTS, {
+			r(156587),	-- Alchemical Catalyst
+			r(156585),	-- Crescent Oil
+		}),
 	},
 })));
 COMMON_DRAENOR_ALCHEMY_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
@@ -332,9 +358,23 @@ COMMON_DRAENOR_ALCHEMY_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ [
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 5 }},
 	}),
 	i(160663, {["timeline"] = {ADDED_8_0_1}}),	-- Recipe: Healing Tonic (RECIPE!)
+	i(257753, {	-- Recipe: Orcish Felblood Cauldron (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(112047, {	-- Recipe: Transmorphic Tincture (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
 	}),
+	i(256938, {	-- Recipe: Wine Barrel (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
+}));
+LEGION_ALCHEMY = applyclassicphase(LEGION_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1262154),	-- Arcan'dor Cutting Fountain
+		r(1262152),	-- Starry Scrying Pool
+	})),
 }));
 BFA_ALCHEMY = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	filter(CONSUMABLES, {
@@ -379,6 +419,10 @@ BFA_ALCHEMY = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] = { ADD
 		r(252334),	-- Steelskin Potion [Rank 1]
 		r(252335),	-- Steelskin Potion [Rank 2]
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1262005),	-- Boralus Bottle Lamp
+		r(1262151),	-- Zandalari Bottle Shipment
+	})),
 	filter(MISC, {
 		r(287234, {["timeline"] = {ADDED_8_1_0}}),	-- Aqueous Dilution
 		r(278420),	-- Potion of Herb Tracking
@@ -475,6 +519,10 @@ SL_ALCHEMY = applyclassicphase(SL_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 		r(301683),	-- Spiritual Mana Potion
 		r(261423),	-- Spiritual Rejuvenation Potion
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1261972),	-- Sintallow Candles
+		r(1261958),	-- Veil-Secured Animacone
+	})),
 	filter(MISC, {
 		r(343679),	-- Crafter's Mark I
 		r(343675),	-- Novice Crafter's Mark
@@ -503,6 +551,10 @@ DF_ALCHEMY = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 		r(370539),	-- Refreshing Healing Potion
 		r(370731),	-- Writhefire Oil
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1261882),	-- Dragon's Elixir Bottle
+		r(1261885),	-- Verdant Valdrakken Vase
+	})),
 	filter(MISC, {
 		r(389190),	-- Recraft Equipment
 		r(370711),	-- Transmute: Awakened Air
@@ -519,6 +571,10 @@ TWW_ALCHEMY = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	filter(CONSUMABLES, {
 		r(430590),	-- Algari Healing Potion
 	}),
+	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		r(1259673),	-- Boulder Springs Hot Tub
+		r(1261878),	-- Nerubian Alchemist's Retort
+	})),
 	filter(MISC, {
 		r(425137),	-- Recraft Equipment
 	}),

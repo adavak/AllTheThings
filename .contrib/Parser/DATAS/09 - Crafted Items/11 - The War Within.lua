@@ -193,6 +193,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(212292),	-- Vicious Flask of Honor
 			i(212298),	-- Vicious Flask of the Wrecking Ball
 		}),
+		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+			i(252758),	-- Boulder Springs Hot Tub
+			i(257102),	-- Nerubian Alchemist's Retort
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ALCHEMY,
 		},{
@@ -254,6 +258,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			-- Cuauldrons
 			FirstCraft(81130, 432962);	-- Algari Flask Cauldron
 			FirstCraft(81131, 432963);	-- Algari Potion Cauldron
+			-- Decor
+			--FirstCraft(XXXXX, 1259673, ADDED_11_2_7);	-- Boulder Springs Hot Tub
+			--FirstCraft(XXXXX, 1261878, ADDED_11_2_7);	-- Nerubian Alchemist's Retort
 		})),
 		filter(MISC, {
 			i(212781),	-- Formulated Courage
@@ -1759,7 +1766,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 						["collectible"] = false,
 					}),
 				},
-			}),	
+			}),
 			i(249704, {	-- Deal: Cartel Om
 				["timeline"] = {ADDED_11_2_0},
 				["questID"]= 92073,

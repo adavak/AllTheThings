@@ -118,6 +118,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(40070),	-- Spellpower Elixir
 			i(40068),	-- Wrath Elixir
 		}),
+		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+			i(258213),	-- Icecrown Plague Canister
+			i(258212),	-- San'layn Blood Orb
+		})),
 		filter(REAGENTS, {
 			applyclassicphase(WRATH_PHASE_THREE, i(36931, {["timeline"] = { ADDED_3_2_0 }})),	-- Ametrine
 			applyclassicphase(WRATH_PHASE_THREE, i(36919, {["timeline"] = { ADDED_3_2_0 }})),	-- Cardinal Ruby
@@ -1272,7 +1276,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			-- #if ANYCLASSIC
 			-- Danny Donkey: This glyph became a vanilla craft on retail at an unknown point after MoP
 			i(43394, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Souls [WotLK] / Glyph of Ritual of Souls [CATA] / Glyph of Soulwell [MOP+]
-			-- 
+			--
 			-- Danny Donkey: This glyph became a TBC craft on retail at an unknown point after MoP
 			i(42459, {["timeline"]={ ADDED_3_0_2 }}),					-- Glyph of Felguard
 			--

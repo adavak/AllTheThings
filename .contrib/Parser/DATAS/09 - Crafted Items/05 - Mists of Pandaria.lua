@@ -82,6 +82,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(247802, {["timeline"] = { ADDED_5_5_0 }}),	-- Venerable Potion of Invisibility
 			-- #endif
 		}),
+		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+			i(257043),	-- Pandaren Alchemist's Retort
+			i(258214),	-- Pandaren Alchemist's Kit
+		})),
 		filter(REAGENTS, {
 			i(87872),	-- Desecrated Oil
 			i(76141),	-- Imperial Amethyst

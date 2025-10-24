@@ -257,6 +257,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(191918),	-- Suspiciously Fuzzy Drink++
 			i(191919),	-- Suspiciously Fuzzy Drink+++
 		}),
+		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+			i(257052),	-- Dragon's Elixir Bottle
+			i(248111),	-- Verdant Valdrakken Vase
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ALCHEMY,
 		},{
@@ -336,6 +340,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			FirstCraft(71245, 370676);	-- Sustaining Alchemist Stone
 			-- Artisan Curios
 			FirstCraft(74308, 400270, ADDED_10_0_7);	-- Draconic Suppression Powder
+			-- Decor
+			--FirstCraft(XXXXX, 1261882, ADDED_11_2_7);	-- Dragon's Elixir Bottle
+			--FirstCraft(XXXXX, 1261885, ADDED_11_2_7);	-- Verdant Valdrakken Vase
 		})),
 		filter(MISC, {
 			i(191520),	-- Agitating Potion Augmentation+

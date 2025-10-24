@@ -1272,3 +1272,29 @@ i(0, 449575);		-- Volatile Coalescence
 --- ITEM ---
 i(244841, 1238010);	-- Invigorating Healing Potion
 i(248550, 1246966);	-- Umbral Essentia
+
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+--- TRAINER ---
+i(0, 1262829);		-- Apothecary's Worktable
+i(0, 1262154);		-- Arcan'dor Cutting Fountain
+i(0, 1262005);		-- Boralus Bottle Lamp
+i(0, 1259673);		-- Boulder Springs Hot Tub
+i(0, 1261882);		-- Dragon's Elixir Bottle
+i(0, 1261255);		-- Gilnean Cauldron
+i(0, 1269506);		-- Gilnean Green Potion
+i(0, 1263559);		-- Icecrown Plague Canister
+i(0, 1261878);		-- Nerubian Alchemist's Retort
+i(0, 1261233);		-- Pandaren Alchemist's Retort
+i(0, 1263558);		-- San'layn Blood Orb
+i(0, 1261972);		-- Sintallow Candles
+i(0, 1262152);		-- Starry Scrying Pool
+i(0, 1261495);		-- Stoppered Black Potion
+i(0, 1261958);		-- Veil-Secured Animacone
+i(0, 1261885);		-- Verdant Valdrakken Vase
+i(0, 1262151);		-- Zandalari Bottle Shipment
+--- ITEM ---
+i(257753, 1262011);	-- Orcish Felblood Cauldron
+i(256938, 1260985);	-- Wine Barrel
