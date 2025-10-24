@@ -534,6 +534,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						q(91485, { ["timeline"] = { ADDED_11_2_0 } }),	-- Hacking the Planet
 						q(91528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Horrors of the Forge
 					}, {	-- RENOWN 12 --
+						q(91529, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Nexus-King Salhadaar
 					}, {	-- RENOWN 13 --
 						i(244913),	-- Looker Gaz'kreth Jr. (PET!)
 					}, {	-- RENOWN 14 --

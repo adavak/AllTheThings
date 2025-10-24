@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 				q(41916, {	-- A Better Future
 					["sourceQuest"] = 40632,	-- Take Me To Your Leader
 					["provider"] = { "n", 114908 },	-- First Arcanist Thalyssra
-					["coord"] = { 40.5, 53.0, SURAMAR },	-- horde coordinate. Possibly different for alliance?
+					["coord"] = { 41.6, 51.6, SURAMAR },	-- horde coordinate. Possibly different for alliance?
 				}),
 				q(42841, {	-- A Big Score
 					["sourceQuest"] = 42840,	-- If Words Don't Work...
@@ -386,7 +386,7 @@ root(ROOTS.Zones, {
 						41607,	-- Taking a Promenade (H)
 					},
 					["provider"] = { "n", 114908 },	-- First Arcanist Thalyssra
-					["coord"] = { 40.5, 53.0, SURAMAR },
+					["coord"] = { 41.6, 51.6, SURAMAR },
 				}),
 				q(41709, {	-- Breaking Down the Big Guns
 					["sourceQuest"] = 40927,	-- Jandvik's Last Hope
@@ -1011,6 +1011,38 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115499 },	-- Silgryn
 					["coord"] = { 39.9, 50.9, SURAMAR },
+					["groups"] = {
+						o_repeated({
+							["coords"] = {
+								{ 39.9, 52.1, VALSHARAH },
+								{ 40.4, 55.7, VALSHARAH },
+								{ 41.0, 50.6, VALSHARAH },
+								{ 41.0, 56.4, VALSHARAH },
+								{ 41.2, 50.8, VALSHARAH },
+								{ 41.4, 53.2, VALSHARAH },
+								{ 41.6, 49.8, VALSHARAH },
+								{ 42.1, 52.2, VALSHARAH },
+								{ 42.3, 51.9, VALSHARAH },
+								{ 42.4, 50.1, VALSHARAH },
+								{ 43.1, 53.7, VALSHARAH },
+								{ 43.3, 50.1, VALSHARAH },
+								{ 43.4, 46.6, VALSHARAH },
+								{ 43.6, 52.1, VALSHARAH },
+								{ 43.8, 54.2, VALSHARAH },
+								{ 44.3, 52.1, VALSHARAH },
+								{ 44.5, 49.6, VALSHARAH },
+							},
+							["groups"] = {
+								i(142258),	-- Book of Tactics (QI!)
+								o(266117),	-- The Rook's Gambit
+								o(266118),	-- The Raven's Prey
+								o(266119),	-- Jungle Warfare: The Troll Problem
+								o(266120),	-- Zandalari - The True Enemy
+								o(266122),	-- Voodoo, Geomancy, and the Magic of Peasants
+								o(266123),	-- Spellbreaking, the Art of Shieldbashing
+							},
+						}),
+					},
 				}),
 				q(44492, {	-- Leyline Apprentice
 					["description"] = "Must restore 3 Leyline feeds to get this quest.",
@@ -1422,6 +1454,7 @@ root(ROOTS.Zones, {
 								o(254643),	-- Bottle of Arcwine
 								o(254645),	-- Bottle of Arcwine
 								o(254648),	-- Bottle of Arcwine
+								o(254650),	-- Bottle of Arcwine
 								o(254654),	-- Bottle of Arcwine
 							},
 						}),
@@ -1601,7 +1634,10 @@ root(ROOTS.Zones, {
 						44743,	-- Tyrande's Command
 					},
 					["provider"] = { "n", 114909 },	-- Archmage Khadgar
-					["coord"] = { 40.5, 53.1, SURAMAR },	-- horde
+					["coords"] = {
+						{ 40.5, 53.1, SURAMAR },
+						{ 41.7, 51.5, SURAMAR },
+					},
 					["groups"] = { i(142375) },	-- Dispelling Crystal (QI!)
 				}),
 				q(40947, {	-- Special Delivery
@@ -1709,7 +1745,7 @@ root(ROOTS.Zones, {
 				q(44831, {	-- Taking a Promenade (A)
 					["sourceQuest"] = 40391,	-- Take Me To Your Leader
 					["provider"] = { "n", 114963 },	-- Vereesa Windrunner
-					["coord"] = { 43.0, 51.4, SURAMAR },
+					["coord"] = { 41.6, 51.6, SURAMAR },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(41607, {	-- Taking a Promenade (H)

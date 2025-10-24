@@ -11,7 +11,13 @@ root(ROOTS.Zones, {
 				q(42111),	-- Aggressive Reconnaisance
 				q(43445),	-- Air Superiority
 				q(44802),	-- Ancient Guidance
-				q(44769),	-- Arming the Populace
+				q(44769, {	-- Arming the Populace
+					o_repeated({	-- Nightborne Arms Cache
+						i(142216),	-- Nightborne Armaments (QI!)
+						o(254491),	-- Nightborne Arms Cache
+						o(266032),	-- Nightborne Arms Cache
+					}),
+				}),
 				q(44780),	-- Backlash
 				q(45068),	-- Barrels o' Fun
 				q(41493, {	-- Brimstone Destroyer
@@ -170,6 +176,7 @@ root(ROOTS.Zones, {
 							o(254643),	-- Bottle of Arcwine
 							o(254645),	-- Bottle of Arcwine
 							o(254648),	-- Bottle of Arcwine
+							o(254650),	-- Bottle of Arcwine
 							o(254654),	-- Bottle of Arcwine
 						},
 					}),

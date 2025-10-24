@@ -3917,8 +3917,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			filter(MISC, {
 				i(217715),	-- Key Scroll (QI!)
-				i(217895),	-- Volatile Pheromone (QI!)
-				i(217897),	-- Volatile Pheromone (QI!)
+				o(433705, {	-- Pheromone Bottle
+					["coord"] = { 45.6, 45.1, THE_UNDERKEEP },
+					["groups"] = {
+						i(217895),	-- Volatile Pheromone (QI!)
+						i(217897),	-- Volatile Pheromone (QI!)
+					},
+				}),
 			}),
 			n(QUESTS, {
 				q(83761, {	-- Delves: The Underkeep
