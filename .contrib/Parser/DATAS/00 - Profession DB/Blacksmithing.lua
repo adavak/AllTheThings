@@ -1032,6 +1032,8 @@ i(0, 122633);		-- Ghostly Skeleton Key
 i(0, 122589);		-- Lightsteel Bracers
 i(0, 122635);		-- Lightsteel Shield
 i(0, 122639);		-- Phantasmal Hammer
+i(0, 113263);		-- Socket Bracer (Rank 2)
+i(0, 114112);		-- Socket Gloves (Rank 2)
 i(0, 122640);		-- Spiritblade Decimator
 i(0, 122573);		-- Spiritguard Bracers
 i(0, 122636);		-- Spiritguard Shield
@@ -1084,9 +1086,7 @@ i(84227, 122593);	-- Masterwork Spiritguard Shoulders
 i(87408, 126850);	-- Unyielding Bloodplate
 --- NYI ---
 i(0, 126867);		--
-i(0, 113263);		--
 i(0, 126864);		--
-i(0, 114112);		--
 i(0, 126866);		--
 i(84187, 122591);	-- Lightsteel Belt
 i(84188, 122590);	-- Lightsteel Boots
