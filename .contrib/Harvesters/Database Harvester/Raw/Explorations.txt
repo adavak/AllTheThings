@@ -10335,6 +10335,19 @@
 16704@@@Breakwater Bight
 16709@@@Crescent Cove
 16753@@@The Bloom
+11.2.7.64011
+16381@@@[DNT]
+16387@@@[DNT]
+16391@@@[DNT]
+16392@@@[DNT]
+16402@@@[DNT]
+16403@@@[DNT]
+16406@@@[DNT]
+16407@@@[DNT]
+16409@@@[DNT]
+16621@@@[DNT]
+16690@@@Scorchsong Isle
+16818@@@Stoneveil Ridge
 12.0.0.63534
 10473@@@Arcantina
 13343@@@Doug Land

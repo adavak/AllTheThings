@@ -23230,6 +23230,27 @@
 254456@@@Lorewalker Cho
 254735@@@Costume Kid
 256286@@@Azerothian Athenaeum
+11.2.7.64011
+206931@@@[DNT] Invisible Bunny (Time Portal)
+214916@@@Merrix
+215277@@@Adelgonn
+215669@@@High Speaker Eirich
+218040@@@Stormrider Gurnot
+218041@@@Stormrider Adalar
+218745@@@Stormrider Kothilde
+251889@@@Fledgling Warden's Companion
+253016@@@Exodar Replica
+256656@@@Aelric Leid
+256719@@@Aelric Leid
+256721@@@Glooming Disciple
+256722@@@Glooming Disciple
+256724@@@Glooming Belligerent
+256725@@@Xal'atath
+256938@@@Khadgar's Upgraded Servant
+257173@@@Hammerfall Grunt
+257174@@@Dragonscale Researcher
+257178@@@Vulpera Mixologist
+257279@@@Anduin Wrynn
 12.0.0.63534
 143622@@@Ancient Imp
 222593@@@Emerald Sporbit

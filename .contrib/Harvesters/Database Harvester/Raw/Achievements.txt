@@ -16816,6 +16816,27 @@
 61516@@@Radiant Singer
 61553@@@Dynamic Flight Power - Second Wind (Granted in Script 101809)
 61554@@@Dynamic Flight Power - Aerial Halt (Granted in Script 101809)
+11.2.7.64011
+60981@@@Raise an Army for Acherus
+60982@@@Raise an Army for the Fel Hammer
+60983@@@Raise an Army for the Dreamgrove
+60984@@@Raise an Army for the Trueshot Lodge
+60985@@@Raise an Army for the Hall of the Guardian
+60986@@@Raise an Army for the Temple of Five Dawns
+60987@@@Raise an Army for the Sanctum of Light
+60988@@@Raise an Army for the Netherlight Temple
+60989@@@Raise an Army for the Hall of Shadows
+60990@@@Raise an Army for the Maelstrom
+60991@@@Raise an Army for the Dreadscar Rift
+60992@@@Raise an Army for Skyhold
+61683@@@Entering Battle
+61684@@@Progressing in Battle
+61685@@@Proficient in Battle
+61686@@@Expert in Battle
+61687@@@Champion in Battle
+61688@@@Master in Battle
+61862@@@<DNT> Brewgarden Tutorial Completed
+61890@@@<Hidden> Housing Early Access [DNT]
 12.0.0.63534
 41287@@@Windrunner Spire
 41288@@@Heroic: Windrunner Spire

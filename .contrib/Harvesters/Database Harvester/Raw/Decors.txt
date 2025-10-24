@@ -1413,3 +1413,106 @@
 14676@@@[DNT] [AUTOGEN] 9VL_Aspirants_Light01.m2
 14730@@@[DNT] [AUTOGEN] 10VE_VoidElf_Lighting_Lamp01.m2
 14731@@@[DNT] [AUTOGEN] 11XP_Anniversary_Bench_02.m2
+11.2.7.64011
+678@@@[DNT] Cenarion Round Rug - do not use - new asset
+828@@@Well-Lit Incontinental Loveseat
+829@@@Well-Lit Incontinental Couch
+2099@@@Stormwind Beam Platform
+2100@@@Stormwind Round Platform
+2101@@@Stormwind Large Platform
+2102@@@Stormwind Small Platform
+2103@@@Stormwind Angled Platform
+2104@@@Silvermoon Beam Platform
+2105@@@Silvermoon Large Platform
+2106@@@Silvermoon Small Platform
+2107@@@Silvermoon Angled Platform
+2108@@@Silvermoon Round Platform
+2109@@@Bel'ameth Beam Platform
+2110@@@Bel'ameth Large Platform
+2111@@@Bel'ameth Small Platform
+2112@@@Bel'ameth Angled Platform
+2113@@@Bel'ameth Round Platform
+2114@@@Orgrimmar Beam Platform
+2115@@@Orgrimmar Round Platform
+2116@@@Orgrimmar Large Platform
+2117@@@Orgrimmar Small Platform
+2118@@@Orgrimmar Angled Platform
+3871@@@Hanging Paper Lanterns
+3879@@@[DNT] Kun-Lai Lacquered Rickshaw - do not use - new asset
+3893@@@Challenger's Dueling Flag
+4473@@@Founder's Point Blooming Grass Patch
+4822@@@Elwynn Grass Patch
+4823@@@Elwynn Grass Spread
+4845@@@Elwynn Small Grass Patch
+5118@@@[DNT] Dreadscar Battle Planning Map - do not use - new asset
+11722@@@Snowfall Tribe Scare-Totem
+11723@@@Gilnean Green Potion
+11724@@@Gilnean Postbox
+11725@@@Gilnean Map
+11754@@@Bloodtotem Banner
+11779@@@Scaled Twilight Mosaic
+11869@@@Nazjatar Framing Post
+11870@@@Spirit Anemones
+11914@@@Naga's Scale Bag
+11915@@@Azshara's Eternal Prize
+11916@@@Azsharan Brazier
+11943@@@Sparse Razorwind Fisher's Rack
+11948@@@K'areshi Warp Platform
+11949@@@Razorwind Fisher's Rack
+11950@@@Naakroan Brazier
+11951@@@Shadowguard Collection Pylon
+11952@@@K'areshi Protectorate Portal
+11953@@@Shadowguard Energy Siphon
+12192@@@Razorwind River Paddle
+12193@@@Tusk-Adorned Stitched Rug
+12194@@@Small Stitched Rug
+12195@@@Ethereal Pipe Segment
+12196@@@Angled Ethereal Pipe Segment
+12197@@@Long Ethereal Pipe Segment
+12198@@@Corner Ethereal Pipe Segment
+12200@@@Glorious Pendant of Rukhmar
+12201@@@Writings of Reshad the Outcast
+12202@@@Scroll of the Adherent
+12203@@@Arakkoan Alchemy Tools
+12204@@@Skyreach Circular Table
+12205@@@High Arakkoan Library Shelf
+12206@@@High Arakkoan Alchemist's Shelf
+12207@@@High Arakkoan Shelf
+12208@@@"Rising Glory of Rukhmar" Statue
+12209@@@Uncorrupted Eye of Terokk
+12211@@@Exposed Corner Ethereal Pipe Segment
+12212@@@Exposed Long Ethereal Pipe Segment
+12217@@@Exposed Intersecting Ethereal Pipe Segment
+12218@@@Exposed Corner Ethereal Pipe Segment
+12220@@@Exposed Angled Ethereal Pipe Segment
+12453@@@Rolled Razorwind Leathers
+12454@@@Low-Hanging Razorwind Ropes
+12455@@@Knotted Hanging Razorwind Ropes
+12456@@@Tusked Hanging Razorwind Ropes
+12457@@@Plain Hanging Razorwind Ropes
+12458@@@Adorned Hanging Razorwind Ropes
+12459@@@Lightly Adorned Hanging Razorwind Ropes
+14346@@@Large Razorwind Farmer's Hay Pile
+14347@@@Razorwind Farmer's Hay Pile
+14348@@@Small Razorwind Farmer's Hay Pile
+14615@@@Leather Haranir Bed
+14644@@@Replica Forge of the Roaring Mountain
+14676@@@Kyrian Floating Lamp
+14730@@@Small Telogrus Lamp
+14731@@@Restful Bronze Bench
+14810@@@Brumewood Hollow Grassy Patch
+14811@@@Brumewood Hollow Grassy Spread
+14812@@@Founder's Point Grassy Patch
+14813@@@Founder's Point Grassy Spread
+14814@@@Sturdy Wine Press
+14815@@@Brawler's Barricade
+14816@@@Darkmaster's Mystical Brazier
+15261@@@Razorwind Roofer's Shingle
+15262@@@Razorwind Roofer's Shingle Pile
+15263@@@Tiny Clump of Hay
+15264@@@Razorwind Construction Crane
+15453@@@Cenarion Round Rug
+15454@@@Homestone Doormat
+15477@@@Dreadscar Battle Planning Map
+15595@@@Kun-Lai Lacquered Rickshaw
+15605@@@Golden Pandaren Privacy Screen

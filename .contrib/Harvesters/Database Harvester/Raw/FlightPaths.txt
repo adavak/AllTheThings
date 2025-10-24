@@ -2798,6 +2798,15 @@
 3178@@@Quest Path 11147: 11.2.7 Catch Up - TWW - Q3 - Weaver to City (KRB)
 3179@@@Quest Path 11151: 11.2.7 Catch Up - TWW - Q3 - Priory to Foundation Hall (KRB)
 3204@@@Quest Path 11298: 11.2.7 Catch Up -  TWW -  Q2 -  Cavern to Awakening Machine (KRB)
+11.2.7.64011
+3072@@@Entrance Portal, Founder's Point
+3073@@@Town Center, Founder's Point
+3074@@@Mear's Farm, Founder's Point
+3075@@@The Outer Banks, Founder's Point
+3076@@@Small Aerie, Founder's Point
+3077@@@Gilded Oaks, Founder's Point
+3078@@@Brumewood Hollow, Founder's Point
+3079@@@Stoneveil Ridge, Founder's Point
 12.0.0.63534
 3093@@@Quest Path 10497: 12.0 Z3 - Legends - Shrine 01 - Exit Path - (LWB)
 3101@@@Quest Path 10502: 12.0 Z3 - Legends - Shrine 02 - Exit Path - (LWB)
