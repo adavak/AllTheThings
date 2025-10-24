@@ -1958,6 +1958,7 @@ end");
                     case "races":
                     case "races_disp":
                     case "maps":
+                    case "maps_disp":
                     case "qgs":
                     case "crs":
                     case "zone-artIDs":
