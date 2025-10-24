@@ -114,7 +114,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(168500, {["timeline"] = {ADDED_8_2_0}}),	-- Superior Battle Potion of Strength
 			i(168501, {["timeline"] = {ADDED_8_2_0}}),	-- Superior Steelskin Potion
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257046),	-- Boralus Bottle Lamp
 			i(257047),	-- Zandalari Bottle Shipment
 		})),

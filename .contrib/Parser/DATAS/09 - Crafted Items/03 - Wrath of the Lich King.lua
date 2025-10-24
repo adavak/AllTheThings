@@ -118,7 +118,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(40070),	-- Spellpower Elixir
 			i(40068),	-- Wrath Elixir
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(258213),	-- Icecrown Plague Canister
 			i(258212),	-- San'layn Blood Orb
 		})),

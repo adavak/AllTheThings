@@ -193,7 +193,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(212292),	-- Vicious Flask of Honor
 			i(212298),	-- Vicious Flask of the Wrecking Ball
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(252758),	-- Boulder Springs Hot Tub
 			i(257102),	-- Nerubian Alchemist's Retort
 		})),

@@ -242,7 +242,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(3382),	-- Weak Troll's Blood Elixir[Wrath+] / Weak Troll's Blood Potion
 			i(9144, {["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 }}),	-- Wildvine Potion
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257100),	-- Apothecary's Worktable
 			i(257041),	-- Stoppered Black Potion
 		})),

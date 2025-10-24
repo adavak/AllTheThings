@@ -257,7 +257,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(191918),	-- Suspiciously Fuzzy Drink++
 			i(191919),	-- Suspiciously Fuzzy Drink+++
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257052),	-- Dragon's Elixir Bottle
 			i(248111),	-- Verdant Valdrakken Vase
 		})),

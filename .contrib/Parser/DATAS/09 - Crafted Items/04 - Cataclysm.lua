@@ -85,7 +85,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(58143),	-- Prismatic Elixir
 			i(58091),	-- Volcanic Potion
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(245517),	-- Gilnean Cauldron
 			i(257694),	-- Gilnean Green Potion
 		})),

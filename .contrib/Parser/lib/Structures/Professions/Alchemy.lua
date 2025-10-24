@@ -103,7 +103,7 @@ EXPERT_ARTISAN_ALCHEMY = {
 		r(11457),	-- Superior Healing Potion
 		r(17553, {["timeline"] = {ADDED_2_0_1}}),	-- Superior Mana Potion
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1262829),	-- Apothecary's Worktable
 		r(1261495),	-- Stoppered Black Potion
 	})),
@@ -183,7 +183,7 @@ WRATH_ALCHEMY = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] = {
 		r(53842),	-- Spellpower Elixir
 		r(53841),	-- Wrath Elixir
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1263559),	-- Icecrown Plague Canister
 		r(1263558),	-- San'layn Blood Orb
 	})),
@@ -245,7 +245,7 @@ CATA_ALCHEMY = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		r(80492),	-- Prismatic Elixir
 		r(80481),	-- Volcanic Potion
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1261255),	-- Gilnean Cauldron
 		r(1269506),	-- Gilnean Green Potion
 	})),
@@ -282,7 +282,7 @@ MOP_ALCHEMY = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = 
 		r(114751),	-- Alchemist's Rejuvenation
 		r(114752),	-- Master Healing Potion
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1263548),	-- Pandaren Alchemist's Kit
 		r(1261233),	-- Pandaren Alchemist's Retort
 	})),
@@ -371,7 +371,7 @@ COMMON_DRAENOR_ALCHEMY_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ [
 	}),
 }));
 LEGION_ALCHEMY = applyclassicphase(LEGION_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1262154),	-- Arcan'dor Cutting Fountain
 		r(1262152),	-- Starry Scrying Pool
 	})),
@@ -419,7 +419,7 @@ BFA_ALCHEMY = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] = { ADD
 		r(252334),	-- Steelskin Potion [Rank 1]
 		r(252335),	-- Steelskin Potion [Rank 2]
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1262005),	-- Boralus Bottle Lamp
 		r(1262151),	-- Zandalari Bottle Shipment
 	})),
@@ -519,7 +519,7 @@ SL_ALCHEMY = applyclassicphase(SL_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 		r(301683),	-- Spiritual Mana Potion
 		r(261423),	-- Spiritual Rejuvenation Potion
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1261972),	-- Sintallow Candles
 		r(1261958),	-- Veil-Secured Animacone
 	})),
@@ -551,7 +551,7 @@ DF_ALCHEMY = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 		r(370539),	-- Refreshing Healing Potion
 		r(370731),	-- Writhefire Oil
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1261882),	-- Dragon's Elixir Bottle
 		r(1261885),	-- Verdant Valdrakken Vase
 	})),
@@ -571,7 +571,7 @@ TWW_ALCHEMY = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	filter(CONSUMABLES, {
 		r(430590),	-- Algari Healing Potion
 	}),
-	n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1259673),	-- Boulder Springs Hot Tub
 		r(1261878),	-- Nerubian Alchemist's Retort
 	})),

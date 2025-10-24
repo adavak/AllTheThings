@@ -146,7 +146,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(151609, {["timeline"] = {ADDED_7_3_0}}),	-- Tears of the Naaru
 			i(127845),	-- Unbending Potion
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(256680),	-- Arcan'dor Cutting Fountain
 			i(257045),	-- Starry Scrying Pool
 		})),

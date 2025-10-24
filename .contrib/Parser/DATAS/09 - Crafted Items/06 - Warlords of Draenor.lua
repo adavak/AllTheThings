@@ -136,7 +136,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(118704),	-- Pure Rage Potion
 			i(112090),	-- Transmorphic Tincture
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257044),	-- Orcish Felblood Cauldron
 			i(244318),	-- Wine Barrel
 		})),

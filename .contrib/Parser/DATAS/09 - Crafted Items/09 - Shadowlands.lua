@@ -46,7 +46,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 		filter(COSMETIC, {
 			i(180751),	-- Red Noggin Candle
 		}),
-		n(DECOR, sharedDataSelf({ ADDED_11_2_7 }, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257051),	-- Sintallow Candles
 			i(257050),	-- Veil-Secured Animacone
 		})),
