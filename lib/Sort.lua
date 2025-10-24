@@ -424,7 +424,14 @@ app.SortDefaults = setmetatable({
 		if acomp ~= 0 or bcomp ~= 0 then
 			return acomp < bcomp
 		end
-		return GetGroupSortValue(a) > GetGroupSortValue(b);
+		-- progress value
+		local acomp = GetGroupSortValue(a)
+		local bcomp = GetGroupSortValue(b)
+		if acomp ~= bcomp then
+			return acomp > bcomp
+		end
+		-- identical progress, sort by name
+		return app.SortDefaults.name(a,b);
 	end,
 	IndexOneStrings = function(a,b)
 		return stringComparison(a[1], b[1]);
