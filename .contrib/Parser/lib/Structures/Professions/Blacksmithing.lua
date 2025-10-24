@@ -373,8 +373,14 @@ WRATH_BLACKSMITHING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline
 	filter(MISC, {
 		r(59405),	-- Cobalt Skeleton Key
 		r(55656),	-- Eternal Belt Buckle
-		r(55628, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Socket Bracer
-		r(55641, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Socket Gloves
+		r(55628, {	-- Socket Bracer
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(55641, {	-- Socket Gloves
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
 		r(55732, {["timeline"] = {ADDED_3_0_3,REMOVED_5_0_4}}),	-- Titanium Rod
 		r(56357),	-- Titanium Shield Spike
 		r(59406),	-- Titanium Skeleton Key
@@ -792,6 +798,14 @@ MOP_BLACKSMITHING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timelin
 	filter(MISC, {
 		r(126869, {["timeline"] = {CREATED_5_0_4, ADDED_7_3_5, REMOVED_10_0_2}}),	-- Folded Ghost Iron
 		r(122633),	-- Ghostly Skeleton Key
+		r(113263, {	-- Socket Bracer
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(114112, {	-- Socket Gloves
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
 	}),
 	filter(MISC, sharedData({
 		["timeline"] = { ADDED_5_2_0, REMOVED_6_0_3_LAUNCH },

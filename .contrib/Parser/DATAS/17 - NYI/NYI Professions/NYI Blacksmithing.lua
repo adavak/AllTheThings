@@ -859,9 +859,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				-- 5.0.4
 				expansion(EXPANSION.MOP, patch(0,4), bubbleDownSelf({ ["timeline"] = { CREATED_5_0_4 } }, {
 					r(126867),	-- Unknown
-					r(113263),	-- Unknown
 					r(126864),	-- Unknown
-					r(114112),	-- Unknown
 					r(126866),	-- Unknown
 					-- With SpellID attached
 					i(84187),	-- Plans: Lightsteel Belt
