@@ -8,6 +8,13 @@ pet(4792),	-- Ada the Sweetest
 pet(4824),	-- Baby Karesh Fox - Orange
 pet(4830),	-- Rhay'Dahr \\ Observer, Baby (Green)
 pet(4837),	-- Worm, Cosmic - Critter (Red)
+11.2.5.62554
+pet(4895),	-- Lil' Chompers
+pet(4896),	-- Slippery Saul
+pet(4897),	-- Fishmonger May
+pet(4898),	-- Fishstick Keith
+pet(4899),	-- Festive Eve
+pet(4900),	-- Bundled-Up Bob \\ Bundled-up Bob
 11.2.5.63092
 pet(4908),	-- Lil' Ashlee
 11.2.7.63642

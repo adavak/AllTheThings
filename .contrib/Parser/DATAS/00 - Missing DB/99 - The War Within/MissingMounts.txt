@@ -1,7 +1,23 @@
 9.0.1.34490
 mount(332482),	-- Bonecleaver's Skullboar \\ PH Skullboar \\ PH Skullboar (Grey)
 11.2.5.62554
+mount(1229264),	-- Bloodguard Fel Bat
+mount(1229278),	-- Risen Fel Bat
+mount(1229286),	-- Forgotten Fel Bat
+mount(1248309),	-- Kalu'ak Crest-Horn \\ Kalu'ak Crest-horn
+mount(1250285),	-- Sharktested Crest-Horn
+mount(1250287),	-- Floestrider Crest-Horn \\ Floestrider Crest-horn
+mount(1250288),	-- Cragstepper Crest-Horn \\ Cragstepper Crest-horn
+mount(1250481),	-- Bilebound Ur'zul
+mount(1250740),	-- Thorignir Drake
+mount(1251257),	-- Leyfrost Manasaber
+mount(1251264),	-- Nightwell Manasaber
+mount(1251680),	-- Highlands Gobbler \\ [PH] Turkey Mount - Black
+mount(1251685),	-- Quirky Turkey \\ [PH] Turkey Mount - Brown
+mount(1251689),	-- Murky Turkey \\ [PH] Turkey Mount - Purple
+mount(1251690),	-- Prized Turkey \\ [PH] Turkey Mount - White
 mount(1254363),	-- (PH) Legion Remix Mount
+mount(1256677),	-- Cobalt Phase-Hunter \\ Cerulean Phase-Hunter
 11.2.7.63642
 mount(1233516),	-- K'arroc Swiftwing
 mount(1266248),	-- Savage Crimson Battle Turtle

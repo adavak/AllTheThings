@@ -36140,6 +36140,7 @@ s(285317)/i(237477),	-- Soulweave Staff
 s(287102)/i(237853),	-- Soulweave Bulwark
 s(287518)/i(238510),	-- Soulweave Longbow
 11.2.5.62554
+s(284428)/i(235903),	-- Gold Lightforged Chestguard
 s(284436)/i(235915),	-- Highmountain Hide Cap
 s(284861)/i(236772),	-- Strom'kar, the Warbreaker
 s(284862)/i(236772),	-- Strom'kar, the Warbreaker
@@ -36257,6 +36258,7 @@ s(287025)/i(237749),	-- Scale of the Earth-Warder
 s(287026)/i(237749),	-- Scale of the Earth-Warder
 s(287027)/i(237749),	-- Scale of the Earth-Warder
 s(287028)/i(237749),	-- Scale of the Earth-Warder
+s(287360)/i(238199),	-- TEST ITEM
 s(287361)/i(238199),	-- TEST ITEM
 s(287362)/i(238199),	-- TEST ITEM
 s(287363)/i(238199),	-- TEST ITEM
@@ -36280,6 +36282,7 @@ s(287380)/i(238199),	-- TEST ITEM
 s(287381)/i(238199),	-- TEST ITEM
 s(287382)/i(238199),	-- TEST ITEM
 s(287383)/i(238199),	-- TEST ITEM
+s(287384)/i(238200),	-- TEST ITEM
 s(287385)/i(238200),	-- TEST ITEM
 s(287386)/i(238200),	-- TEST ITEM
 s(287387)/i(238200),	-- TEST ITEM
@@ -36303,7 +36306,78 @@ s(287404)/i(238200),	-- TEST ITEM
 s(287405)/i(238200),	-- TEST ITEM
 s(287406)/i(238200),	-- TEST ITEM
 s(287407)/i(238200),	-- TEST ITEM
+s(288367)/i(239741),	-- Blood Knight's Plate Shawl
+s(288368)/i(239742),	-- Blood Knight's Plate Drape
+s(288369)/i(239743),	-- Blood Knight's Plate Cloak
+s(288370)/i(239744),	-- Blood Knight's Plate Armguards
+s(288371)/i(239745),	-- Blood Knight's Plate Mantle
+s(288372)/i(239746),	-- Blood Knight's Plate Legguards
+s(288373)/i(239747),	-- Blood Knight's Plate Greathelm
+s(288374)/i(239748),	-- Blood Knight's Plate Gauntlets
+s(288375)/i(239749),	-- Blood Knight's Plate Breastplate
+s(288376)/i(239750),	-- Blood Knight's Plate Sabatons
+s(288377)/i(239751),	-- Blood Knight's Plate Girdle
+s(288395)/i(239777),	-- Valorborne Dragonscale Vambraces
+s(288396)/i(239778),	-- Valorborne Dragonscale Epaulets
+s(288397)/i(239779),	-- Valorborne Dragonscale Breeches
+s(288398)/i(239780),	-- Valorborne Dragonscale Faceguard
+s(288399)/i(239781),	-- Valorborne Dragonscale Handguards
+s(288400)/i(239782),	-- Valorborne Dragonscale Haubergeon
+s(288401)/i(239783),	-- Valorborne Dragonscale Greaves
+s(288402)/i(239784),	-- Valorborne Dragonscale Waistband
+s(288404)/i(239786),	-- [DNT]
+s(288405)/i(239787),	-- [DNT]
+s(288406)/i(239788),	-- [DNT]
+s(288424)/i(239806),	-- Mountainborne Bindings
+s(288425)/i(239807),	-- Mountainborne Trousers
+s(288426)/i(239808),	-- Mountainborne Shoulders
+s(288427)/i(239809),	-- Mountainborne Headgear
+s(288428)/i(239810),	-- Mountainborne Grips
+s(288429)/i(239811),	-- Mountainborne Vest
+s(288430)/i(239812),	-- Mountainborne Striders
+s(288431)/i(239813),	-- Mountainborne Cinch
+s(288432)/i(239814),	-- Cuffs of the Hunting Dream
+s(288433)/i(239815),	-- Spaulders of the Hunting Dream
+s(288434)/i(239816),	-- Legguards of the Hunting Dream
+s(288435)/i(239817),	-- Hat of the Hunting Dream
+s(288436)/i(239818),	-- Grips of the Hunting Dream
+s(288437)/i(239819),	-- Vest of the Hunting Dream
+s(288438)/i(239820),	-- Boots of the Hunting Dream
+s(288439)/i(239821),	-- Waistband of the Hunting Dream
+s(288577)/i(239959),	-- Fel-marked Hauberk
+s(288578)/i(239960),	-- Fel-marked Vambraces
+s(288579)/i(239961),	-- Fel-marked Pinions
+s(288580)/i(239962),	-- Fel-marked Wargreaves
+s(288584)/i(239966),	-- Fel-marked Faceguard
+s(288585)/i(239967),	-- Fel-marked Handguards
+s(288586)/i(239968),	-- Fel-marked Chestguard
+s(288587)/i(239969),	-- Fel-marked Greaves
+s(288588)/i(239970),	-- Fel-marked Cinch
+s(288824)/i(240265),	-- [DNT]
+s(288955)/i(240396),	-- Suramar Silver Mantle
+s(289120)/i(240563),	-- Vileweave Gloves
+s(289121)/i(240564),	-- Vileweave Bindings
+s(289124)/i(240567),	-- Vileweave Cord
+s(289126)/i(240569),	-- Vileweave Vestments
+s(289127)/i(240570),	-- Vileweave Shawl
+s(289128)/i(240571),	-- Vileweave Guise
+s(289601)/i(241644),	-- Corrupted Runelord's Band
+s(289602)/i(241645),	-- Corrupted Silkweave Doublet \\ Imbued Silkweave Doublet
 s(289603)/i(241646),	-- Deathwhisperer's Robe
+s(289604)/i(241647),	-- Dreadleather Vestments \\ Battlebound Mailcoat
+s(289605)/i(241648),	-- Template
+s(289627)/i(241678),	-- [PH] Template
+s(289628)/i(241679),	-- [PH] Template
+s(289629)/i(241680),	-- [PH] Template
+s(289630)/i(241681),	-- [PH] Template
+s(289661)/i(241712),	-- [PH] Template
+s(289662)/i(241713),	-- [PH] Template
+s(289663)/i(241714),	-- [PH] Template
+s(289664)/i(241715),	-- [PH] Template
+s(289754)/i(241805),	-- [PH] Template
+s(289755)/i(241806),	-- [PH] Template
+s(289756)/i(241807),	-- [PH] Template
+s(289757)/i(241808),	-- [PH] Template
 s(290211)/i(242368),	-- The First Satyr's Spaulders
 s(290294)/i(242555),	-- Ashbringer
 s(290295)/i(242555),	-- Ashbringer
@@ -36697,6 +36771,7 @@ s(290698)/i(242571),	-- The Silver Hand
 s(290699)/i(242571),	-- The Silver Hand
 s(290700)/i(242571),	-- The Silver Hand
 s(290701)/i(242571),	-- The Silver Hand
+s(290702)/i(242572),	-- Tome of the Silver Hand
 s(290703)/i(242572),	-- Tome of the Silver Hand
 s(290704)/i(242572),	-- Tome of the Silver Hand
 s(290705)/i(242572),	-- Tome of the Silver Hand
@@ -37135,6 +37210,7 @@ s(291154)/i(242590),	-- Strom'kar, the Warbreaker
 s(291155)/i(242590),	-- Strom'kar, the Warbreaker
 s(291156)/i(242590),	-- Strom'kar, the Warbreaker
 s(291157)/i(242590),	-- Strom'kar, the Warbreaker
+s(291158)/i(242590),	-- Strom'kar, the Warbreaker
 s(291160)/i(242591),	-- Sharas'dal, Scepter of Tides
 s(291161)/i(242591),	-- Sharas'dal, Scepter of Tides
 s(291162)/i(242591),	-- Sharas'dal, Scepter of Tides
@@ -37482,6 +37558,9 @@ s(291517)/i(242605),	-- Spine of Thal'kiel
 s(291518)/i(242605),	-- Spine of Thal'kiel
 s(291519)/i(242605),	-- Spine of Thal'kiel
 s(291520)/i(242605),	-- Spine of Thal'kiel
+s(292836)/i(245663),	-- Holy Golden Greatsword
+s(292837)/i(245664),	-- Holy Hologem Greatsword
+s(292943)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
 s(292944)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
 s(292945)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
 s(292946)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
@@ -37505,12 +37584,241 @@ s(292963)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
 s(292964)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
 s(292965)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
 s(292966)/i(246013),	-- Thas'dorah, Legacy of the Windrunners
+s(292991)/i(246154),	-- Marigold Remembrance Veil
+s(292992)/i(246155),	-- Starflower Remembrance Veil
+s(292993)/i(246156),	-- Lotus Remembrance Veil
+s(292994)/i(246157),	-- Orchid Remembrance Veil
+s(292995)/i(246158),	-- Heartblossom Remembrance Veil
+s(292998)/i(246179),	-- Lotus Deathmask
+s(292999)/i(246180),	-- Marigold Deathmask
+s(293000)/i(246181),	-- Starflower Deathmask
+s(293001)/i(246182),	-- Orchid Deathmask
+s(293002)/i(246183),	-- Heartblossom Deathmask
+s(293003)/i(246184),	-- Heartblossom Crown of the Dead
+s(293004)/i(246185),	-- Orchid Crown of the Dead
+s(293005)/i(246186),	-- Lotus Crown of the Dead
+s(293006)/i(246187),	-- Starflower Crown of the Dead
+s(293007)/i(246188),	-- Marigold Crown of the Dead
 s(294232)/i(247457),	-- Captain's Parade Breastplate
 s(294233)/i(247457),	-- Captain's Parade Breastplate
 s(294234)/i(247457),	-- Captain's Parade Breastplate
 s(294235)/i(247457),	-- Captain's Parade Breastplate
+s(295648)/i(248716),	-- Green Bountiful Backpack
+s(295649)/i(248717),	-- Orange Bountiful Backpack
+s(295650)/i(248718),	-- Purple Bountiful Backpack
+s(295651)/i(248719),	-- White Bountiful Backpack
+s(295652)/i(248721),	-- Chef's Apron
+s(295653)/i(248725),	-- Smoked Rib Surprise
+s(295654)/i(248726),	-- Smoked Rib Rack
+s(295655)/i(248727),	-- Smoked Rib Leftovers
+s(295656)/i(248728),	-- Bacon-Wrapped Smoked Ribs
+s(295657)/i(248729),	-- Steaming Pot of Stew
+s(295658)/i(248730),	-- Weathered Pot of Stew
+s(295659)/i(248731),	-- Copper Pot of Stew
+s(295660)/i(248732),	-- Stolen Pot of Stew
+s(295661)/i(248733),	-- Frozen Dirk of the Ice Queen
+s(295662)/i(248734),	-- Fiery Dirk of the Ice Queen
+s(295663)/i(248735),	-- Arcane Dirk of the Ice Queen
+s(295664)/i(248736),	-- Glowing Dirk of the Ice Queen
+s(295665)/i(248737),	-- Well-Used Great Steak Knife
+s(295666)/i(248738),	-- Used Great Steak Knife
+s(295667)/i(248739),	-- Dull Great Steak Knife
+s(295668)/i(248740),	-- Pristine Great Steak Knife
+s(295683)/i(248812),	-- Frozen Wand of the Ice Queen
+s(295696)/i(248816),	-- Fiery Wand of the Ice Queen
+s(295697)/i(248817),	-- Arcane Wand of the Ice Queen
+s(295698)/i(248818),	-- Glowing Wand of the Ice Queen
+s(295699)/i(248827),	-- Frozen Great Axe of the Frostwolf
+s(295700)/i(248828),	-- Fiery Great Axe of the Frostwolf
+s(295701)/i(248829),	-- Arcane Great Axe of the Frostwolf
+s(295702)/i(248830),	-- Glowing Great Axe of the Frostwolf
+s(295703)/i(248832),	-- Big Bronze Fork
+s(295706)/i(248837),	-- Big Gold Fork
+s(295707)/i(248839),	-- Big Iron Fork
+s(295708)/i(248841),	-- Big Silver Fork
+s(295709)/i(248912),	-- Frozen Warglaives of the North
+s(295710)/i(248913),	-- Fiery Warglaives of the North
+s(295711)/i(248914),	-- Arcane Warglaives of the North
+s(295712)/i(248915),	-- Glowing Warglaives of the North
+s(295717)/i(248923),	-- Unfathomably Stale Bread
+s(295718)/i(248924),	-- Stale Mulgore Spice Bread
+s(295719)/i(248925),	-- Months Old Rye Bread \\ Months Old Sourdough Bread
+s(295720)/i(248926),	-- Stale Thirteen Grain Loaf \\ Ancient Thirteen Grain Loaf
+s(296283)/i(249716),	-- Cutlery Fanatic Backpack \\ Steel Food Fanatic Backpack
+s(296284)/i(249717),	-- Golden Food Fanatic Backpack
+s(296285)/i(249718),	-- Bronze Food Fanatic Backpack
+s(296286)/i(249719),	-- Fine Food Fanatic Backpack \\ Silver Food Fanatic Backpack
+s(296287)/i(249720),	-- Big Gold Spoon
+s(296288)/i(249721),	-- Big Steel Spoon
+s(296289)/i(249722),	-- Big Blue Spoon
+s(296290)/i(249723),	-- Big Fancy Spoon
+s(296291)/i(249727),	-- Noble's Winter Hood \\ [PH] Blue Winter Helm
+s(296292)/i(249728),	-- Noble's Winter Pauldrons \\ [PH] Blue Winter Armored Shoulder
+s(296293)/i(249729),	-- Noble's Winter Tunic \\ [PH] Blue Winter Chest
+s(296294)/i(249730),	-- Noble's Winter Belt \\ [PH] Blue Winter Waist
+s(296295)/i(249731),	-- Noble's Winter Leggings \\ [PH] Blue Winter Legs
+s(296296)/i(249733),	-- Noble's Winter Boots \\ [PH] Blue Winter Feet
+s(296297)/i(249734),	-- Noble's Winter Gloves \\ [PH] Blue Winter Hands
+s(296298)/i(249735),	-- Noble's Winter Cloak \\ [PH] Blue Winter Cloak
+s(296299)/i(249737),	-- Seafarer's Winter Hood \\ [PH] Teal Winter Helm
+s(296300)/i(249738),	-- Seafarer's Winter Pauldrons \\ [PH] Teal Winter Armored Shoulder
+s(296301)/i(249739),	-- Seafarer's Winter Tunic \\ [PH] Teal Winter Chest
+s(296302)/i(249740),	-- Seafarer's Winter Belt \\ [PH] Teal Winter Waist
+s(296303)/i(249741),	-- Seafarer's Winter Leggings \\ [PH] Teal Winter Legs
+s(296304)/i(249742),	-- Seafarer's Winter Boots \\ [PH] Teal Winter Feet
+s(296305)/i(249743),	-- Seafarer's Winter Gloves \\ [PH] TealWinter Hands
+s(296306)/i(249744),	-- Seafarer's Winter Cloak \\ [PH] Teal Winter Cloak
+s(296307)/i(249746),	-- Drustvar Winter Hood \\ [PH] Orange Winter Helm
+s(296308)/i(249747),	-- Drustvar Winter Pauldrons \\ [PH] Orange Winter Armored Shoulder
+s(296309)/i(249748),	-- Drustvar Winter Tunic \\ [PH] Orange Winter Chest
+s(296310)/i(249749),	-- Drustvar Winter Belt \\ [PH] Orange Winter Waist
+s(296311)/i(249750),	-- Drustvar Winter Leggings \\ [PH] Orange Winter Legs
+s(296312)/i(249751),	-- Drustvar Winter Boots \\ [PH] Orange Winter Feet
+s(296313)/i(249752),	-- Drustvar Winter Gloves \\ [PH] Orange Winter Hands
+s(296314)/i(249753),	-- Drustvar Winter Cloak \\ [PH] Orange Winter Cloak
+s(296315)/i(249755),	-- Kirin Tor Winter Hood \\ [PH] Purple Winter Helm
+s(296316)/i(249756),	-- Kirin Tor Winter Pauldrons \\ [PH] Purple Winter Armored Shoulder
+s(296317)/i(249757),	-- Kirin Tor Winter Tunic \\ [PH] Purple Winter Chest
+s(296318)/i(249758),	-- Kirin Tor Winter Belt \\ [PH] Purple Winter Waist
+s(296319)/i(249759),	-- Kirin Tor Winter Leggings \\ [PH] Purple Winter Legs
+s(296320)/i(249760),	-- Kirin Tor Winter Boots \\ [PH] Purple Winter Feet
+s(296321)/i(249761),	-- Kirin Tor Winter Gloves \\ [PH] Purple Winter Hands
+s(296322)/i(249762),	-- Kirin Tor Winter Cloak \\ [PH] Purple Winter Cloak
+s(296329)/i(249861),	-- Noble's Winter Spaulders \\ [PH] Blue Winter Padded Shoulder
+s(296330)/i(249862),	-- Seafarer's Winter Spaulders \\ [PH] Teal Winter Padded Shoulder
+s(296331)/i(249863),	-- Drustvar Winter Spaulders \\ [PH] Orange Winter Padded Shoulder
+s(296332)/i(249864),	-- Kirin Tor Winter Spaulders \\ [PH] Purple Winter Padded Shoulder
+s(296335)/i(249906),	-- Villager's Forest Cap
+s(296336)/i(249908),	-- Villager's Forest Handwraps
+s(296337)/i(249909),	-- Villager's Forest Tunic
+s(296338)/i(249910),	-- Villager's Forest Buckle
+s(296339)/i(249911),	-- Villager's Forest Pants
+s(296356)/i(249916),	-- Villager's Forest Boots
+s(296360)/i(249926),	-- Villager's Seaside Cap
+s(296361)/i(249927),	-- Villager's Seaside Handwraps
+s(296362)/i(249928),	-- Villager's Seaside Tunic
+s(296363)/i(249929),	-- Villager's Seaside Buckle
+s(296364)/i(249930),	-- Villager's Seaside Pants
+s(296365)/i(249931),	-- Villager's Seaside Boots
+s(296366)/i(249933),	-- Villager's Country Cap
+s(296367)/i(249934),	-- Villager's Country Handwraps
+s(296368)/i(249935),	-- Villager's Country Tunic
+s(296369)/i(249936),	-- Villager's Country Buckle
+s(296370)/i(249937),	-- Villager's Country Pants
+s(296371)/i(249938),	-- Villager's Country Boots
+s(296372)/i(249940),	-- Villager's City Cap
+s(296373)/i(249941),	-- Villager's City Handwraps
+s(296374)/i(249942),	-- Villager's City Tunic
+s(296375)/i(249943),	-- Villager's City Buckle
+s(296376)/i(249944),	-- Villager's City Pants
+s(296377)/i(249945),	-- Villager's City Boots
+s(297783)/i(250084),	-- Sturdy Pot Lid
+s(297784)/i(250085),	-- Battered Pot Lid
+s(297785)/i(250086),	-- Copper Pot Lid
+s(297786)/i(250087),	-- Used Pot Lid
+s(297812)/i(250290),	-- Ready-Warm Portable Bakery \\ Ready-warm Portable Bakery \\ Blistering Hot Portable Bakery
+s(297813)/i(250291),	-- Hot and Fresh Portable Bakery
+s(297814)/i(250292),	-- Piping Hot Portable Bakery
+s(297815)/i(250293),	-- Red Hot Portable Bakery
+s(298039)/i(250778),	-- Cutlery Fanatic Shield \\ Steel Food Fanatic Shield
+s(298040)/i(250779),	-- Golden Food Fanatic Shield
+s(298041)/i(250780),	-- Bronze Food Fanatic Shield
+s(298042)/i(250781),	-- Fine Food Fanatic Shield \\ Silver Food Fanatic Shield
+s(298051)/i(250883),	-- Villager's Forest Bonnet
+s(298052)/i(250884),	-- Villager's Forest Blouse
+s(298053)/i(250885),	-- Villager's Forest Belt
+s(298054)/i(250886),	-- Villager's Forest Skirt
+s(298055)/i(250887),	-- Villager's Forest Sabatons
+s(298056)/i(250890),	-- Villager's Forest Gloves
+s(298057)/i(250891),	-- Villager's Seaside Bonnet
+s(298058)/i(250892),	-- Villager's Seaside Gloves
+s(298059)/i(250893),	-- Villager's Seaside Blouse
+s(298060)/i(250894),	-- Villager's Seaside Belt
+s(298061)/i(250895),	-- Villager's Seaside Skirt
+s(298062)/i(250896),	-- Villager's Seaside Sabatons
+s(298063)/i(250898),	-- Villager's Country Bonnet
+s(298064)/i(250899),	-- Villager's Country Gloves
+s(298065)/i(250900),	-- Villager's Country Blouse
+s(298066)/i(250901),	-- Villager's Country Belt
+s(298067)/i(250902),	-- Villager's Country Skirt
+s(298068)/i(250903),	-- Villager's Country Sabatons
+s(298069)/i(250905),	-- Villager's City Bonnet
+s(298070)/i(250906),	-- Villager's City Gloves
+s(298071)/i(250907),	-- Villager's City Blouse
+s(298072)/i(250908),	-- Villager's City Belt
+s(298073)/i(250909),	-- Villager's City Skirt
+s(298074)/i(250910),	-- Villager's City Sabatons
+s(298322)/i(251656),	-- Bunch of Orange Carrots
+s(298323)/i(251657),	-- Bunch of Pink Carrots
+s(298324)/i(251658),	-- Bunch of Purple Carrots
+s(298325)/i(251659),	-- Bunch of Yellow Carrots
+s(298326)/i(251660),	-- Offhand Bunch of Yellow Carrots
+s(298327)/i(251661),	-- Offhand Bunch of Purple Carrots
+s(298328)/i(251662),	-- Offhand Bunch of Pink Carrots
+s(298329)/i(251663),	-- Offhand Bunch of Orange Carrots
+s(298330)/i(251669),	-- Sturdy Wearable Pot Lid
+s(298331)/i(251670),	-- Battered Wearable Pot Lid
+s(298332)/i(251671),	-- Wearable Copper Pot Lid
+s(298333)/i(251672),	-- Used Wearable Pot Lid
+s(298334)/i(251674),	-- Sssurine's Luxurious Sssandals
+s(298380)/i(251797),	-- Ears of Orange Corn
+s(298381)/i(251798),	-- Ears of Purple Corn
+s(298382)/i(251799),	-- Ears of White Corn
+s(298383)/i(251800),	-- Ears of Yellow Corn
+s(298384)/i(251801),	-- Offhand Ears of Orange Corn
+s(298385)/i(251802),	-- Offhand Ears of Purple Corn
+s(298386)/i(251803),	-- Offhand Ears of White Corn
+s(298387)/i(251804),	-- Offhand Ears of Yellow Corn
+s(298409)/i(251854),	-- Bunch of Green Chiles \\ Bunch of Green Chile
+s(298410)/i(251855),	-- Bunch of Orange Chile
+s(298411)/i(251856),	-- Bunch of Red Chile
+s(298412)/i(251857),	-- Bunch of Yellow Chile
+s(298416)/i(251869),	-- Offhand Bunch of Green Chiles \\ Offhand Bunch of Green Chile
+s(298417)/i(251870),	-- Offhand Bunch of Orange Chile
+s(298418)/i(251872),	-- Offhand Bunch of Red Chile
+s(298419)/i(251873),	-- Offhand Bunch of Yellow Chile
+s(298451)/i(251964),	-- Frost Marshal's Carbine
+s(298453)/i(251966),	-- Libram of Azure Light
+s(298454)/i(251971),	-- Tome of Cerulean Ciphers
+s(298455)/i(251972),	-- Sapphire Scarab Bulwark
+s(298456)/i(251985),	-- Trapper's Black Quiver
+s(298457)/i(251986),	-- Trapper's Blue Quiver
+s(298458)/i(251987),	-- Trapper's Brown Quiver
+s(298459)/i(251988),	-- Trapper's Dark Brown Quiver
+s(298460)/i(251989),	-- Frostwolf Hunting Quiver \\ Trapper's Frost Quiver
+s(298461)/i(251990),	-- Trapper's Light Brown Quiver
+s(298462)/i(251991),	-- Trapper's Red Quiver
+s(298463)/i(251992),	-- Trapper's Purple Quiver
+s(298464)/i(251995),	-- Trapper's Blue Slippers
+s(298465)/i(251996),	-- Gold-Plated Sabatons
+s(298512)/i(252710),	-- Midnight Winter Toque \\ Midnight Winter Hat
+s(298513)/i(252711),	-- Azure Winter Toque \\ Azure Winter Hat
+s(298514)/i(252712),	-- Sepia Winter Toque \\ Sepia Winter Hat
+s(298515)/i(252713),	-- Grassy Winter Toque \\ Grassy Winter Hat
+s(298516)/i(252714),	-- Cloudy Winter Toque \\ Cloudy Winter Hat
+s(298517)/i(252715),	-- Deep Winter Toque \\ Deep Winter Hat
+s(298543)/i(252741),	-- Camo Winter Toque \\ Camo Winter Hat
+s(298544)/i(252742),	-- Brick Winter Toque \\ Brick Winter Hat
+s(298545)/i(252743),	-- Lively Winter Toque \\ Lively Winter Hat
+s(298546)/i(252744),	-- Faded Winter Toque \\ Faded Winter Hat
+s(298547)/i(252745),	-- Carrot Winter Toque \\ Carrot Winter Hat
+s(298548)/i(252746),	-- Rosy Winter Toque \\ Rosy Winter Hat
+s(298549)/i(252747),	-- Plum Winter Toque \\ Plum Winter Hat
+s(298550)/i(252748),	-- Crimson Winter Toque \\ Crimson Winter Hat
+s(298551)/i(252749),	-- Violet Winter Toque \\ Violet Winter Hat
+s(298552)/i(252750),	-- Aquatic Winter Toque \\ Aquatic Winter Hat
+s(298553)/i(252751),	-- Snowy Winter Toque \\ Snowy Winter Hat
+s(298554)/i(252752),	-- Sunny Winter Toque \\ Sunny Winter Hat
+s(298620)/i(253154),	-- Loyal Watchman's Gauntlets
+s(298621)/i(253155),	-- Loyal Watchman's Belt
+s(298622)/i(253156),	-- Loyal Watchman's Boots
+s(298623)/i(253157),	-- Loyal Watchman's Trousers
+s(298624)/i(253158),	-- Loyal Watchman's Cuirass
+s(298625)/i(253159),	-- Loyal Watchman's Spaulders
+s(298626)/i(253160),	-- Loyal Watchman's Helm
 s(298681)/i(253219),	-- Bulwark of Mannoroth
 s(298689)/i(253220),	-- Bulwark of Mannoroth
+s(298859)/i(253520),	-- Enclave Aspirant's Hatchet
 11.2.7.63642
 s(230711)/i(233067),	--
 s(289394)/i(240847),	--
