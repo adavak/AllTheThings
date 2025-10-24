@@ -889,6 +889,12 @@ namespace ATT
         /// <param name="data"></param>
         private static bool DataValidation(IDictionary<string, object> data, IDictionary<string, object> parentData)
         {
+            // Since stuff is still so weird with timeline, we want to drop the _defaulttimeline if we do actually have a valid timeline applied prior to inheritance taking place
+            if (data.ContainsKey("timeline"))
+            {
+                data.Remove("_defaulttimeline");
+            }
+
             Validate_InheritedFields(data, parentData);
 
             if (!data.ContainsKey("timeline"))
@@ -2232,6 +2238,22 @@ namespace ATT
                 {
                     data["_inherited"] = inheritedFields = new List<string>();
                 }
+
+                if (inheritedField == "timeline")
+                {
+                    // if this data has a default timeline and we inherit one, then wipe the default
+                    if (data.ContainsKey("_defaulttimeline"))
+                    {
+                        data.Remove("_defaulttimeline");
+                    }
+                    else if (parentData.TryGetValue("_defaulttimeline", out var defTimeline))
+                    {
+                        // otherwise if the parent got its timeline from a default timeline, also inherit that field
+                        data["_defaulttimeline"] = defTimeline;
+                        inheritedFields.Add("_defaulttimeline");
+                    }
+                }
+
                 // track that this data had an inherited field
                 inheritedFields.Add(inheritedField);
             }
@@ -4676,8 +4698,9 @@ namespace ATT
                     break;
             }
 
+            bool wasDefaulted = data.ContainsKey("_defaulttimeline");
             // Mark when this Thing was put into (or back into) the game
-            if (addedPatch > 10000)
+            if (!wasDefaulted && addedPatch > 10000)
             {
                 if (data.TryGetValue("awp", out long awp) && awp != addedPatch)
                     LogDebugWarn($"Field replaced 'awp': {addedPatch} => {awp}", data);
@@ -4686,7 +4709,7 @@ namespace ATT
             }
 
             // Mark when this Thing was (or will be) removed from the game
-            if (removedPatch > 10000)
+            if (!wasDefaulted && removedPatch > 10000)
             {
                 if (data.TryGetValue("rwp", out long rwp) && rwp != removedPatch)
                     LogDebugWarn($"Field replaced 'rwp': {removedPatch} => {rwp}", data);

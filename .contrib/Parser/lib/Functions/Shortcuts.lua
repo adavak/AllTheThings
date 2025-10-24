@@ -1013,9 +1013,11 @@ local PatchShift = 10 ^ PatchDecimals
 local RevShift = 10 ^ RevDecimals
 expansion = function(id, patch, t)							-- Create an EXPANSION Object
 	-- patch is optional
+	local hasPatch
 	if not t then
 		t = patch;
 	else
+		hasPatch = true
 		id = id + (patch / PatchShift);
 		t = togroups(t);
 	end
@@ -1030,7 +1032,14 @@ expansion = function(id, patch, t)							-- Create an EXPANSION Object
 		t.forcetimeline = nil;
 	end
 	if t and not t.timeline then
-		t._defaulttimeline = { "added " .. math.floor(id) .. ".0" };
+		-- when an expansion header uses a specific patch, we can assume it's intended to have that specific timeline applied
+		-- note that this will cause 'awp' values within NYI context, which isn't technically correct
+		if hasPatch then
+			local patchstring = string.format("%.2f", patch)
+			t.timeline = { "added " .. math.floor(id) ..".".. patchstring }
+		else
+			t._defaulttimeline = { "added " .. math.floor(id) .. ".0" }
+		end
 	end
 	return t;
 end
