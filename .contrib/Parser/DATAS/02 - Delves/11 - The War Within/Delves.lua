@@ -2340,7 +2340,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		n(226250, {	-- Reno Jackson <Delve Treasures>
 			["coord"] = { 47.6, 45.0, DORNOGAL },
 			["groups"] = {
-				n(DELVERS_DIRIGIBLE_SCHEMATIC, {
+				header(HEADERS.Item, 219391, {	-- Delver's Dirigible
 					i(224981, {	-- Delver's Dirigible Schematic: Brown Paint (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
@@ -2361,7 +2361,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 				}),
-				n(DELVERS_GOBTROTTER_SCHEMATIC, sharedDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
+				header(HEADERS.Item, 229974, sharedDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {	-- Delver's Gob-Trotter
 					i(230219, {	-- Delver's Gob-Trotter Schematic: Balloon (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
@@ -2378,7 +2378,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 				})),
-				n(DELVERS_MANASKIMMER_SCHEMATIC, sharedDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+				header(HEADERS.Item, 238051, sharedDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Delver's Mana-Skimmer
 					i(238178, {	-- Delver's Mana-Skimmer Schematic: Canister (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
@@ -2589,7 +2589,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		n(208070, {	-- Sir Finley Mrgglton <Delve Treasures>
 			["coord"] = { 47.6, 43.6, DORNOGAL },
 			["groups"] = {
-				n(DELVERS_DIRIGIBLE_SCHEMATIC, {
+				header(HEADERS.Item, 219391, {	-- Delver's Dirigible
 					i(235685, {	-- Delver's Dirigible Schematic: Drill (MM!)
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 2500}},
