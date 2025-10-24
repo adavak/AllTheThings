@@ -2367,3 +2367,22 @@
 1261337@@@Preyseeker's Wrath
 1262840@@@Galactic Gladiator's Goredrake
 1265784@@@[DNT] 12.0 White Hawkstrider
+12.0.0.63724
+1251433@@@Amani Sunfeather
+1253938@@@Ruddy Sporeglider
+1257058@@@Calamitous Carrion
+1257081@@@Convalescent Carrion
+1261357@@@Amani Blessed Bear
+1261579@@@Red Kaiju Stalker
+1261629@@@Vicious Snaplizard
+1261648@@@Vicious Snaplizard
+1266702@@@Purple Cosmic Flyer
+1266980@@@[DNT] 12.0 Void Harrower
+1266993@@@[PH] Green Garden Snail
+1266997@@@[PH] Pink Garden Snail
+1267002@@@[PH] Purple Garden Snail
+1267004@@@[PH] Red Garden Snail
+1268919@@@Delver's Arcane Golem
+1268924@@@Silvermoon's Arcane Defender
+1268926@@@Elven Arcane Guardian
+1268949@@@Arcanovoid Construct

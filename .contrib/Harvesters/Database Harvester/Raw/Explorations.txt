@@ -10672,3 +10672,14 @@
 16754@@@Court of the Phoenix
 16767@@@The Great Sea
 16768@@@Court of the Phoenix
+12.0.0.63724
+15923@@@Nordrassil Roots
+15960@@@The Voidspire
+16204@@@Shrine of Fi'lo
+16340@@@The Voidspire
+16359@@@The Blinding Vale
+16799@@@The Luminous Garden
+16800@@@The Gilded Tangle
+16801@@@Warden's Retreat
+16802@@@Conviction's Crucible
+16804@@@The Gorging Pit

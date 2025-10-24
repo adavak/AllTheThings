@@ -17162,3 +17162,71 @@
 61493@@@Hall of Fame: Chimaerus, the Undreamt God
 61494@@@Slayer's Rise battles
 61495@@@Slayer's Rise victories
+12.0.0.63724
+41293@@@The Restless Heart kills (Normal Windrunner Spire)
+41294@@@The Restless Heart kills (Heroic Windrunner Spire)
+41295@@@The Restless Heart kills (Mythic Windrunner Spire)
+41804@@@One Does Not Simply Walk Into Harandar
+61344@@@Legends of Lore
+61366@@@The Voidspire
+61368@@@Heroic: The Voidspire
+61370@@@Mythic: The Voidspire
+61381@@@Eggsistential Crisis
+61506@@@Allied Race: Haranir
+61507@@@A Bloody Song
+61508@@@Voidscar Arena
+61509@@@Heroic: Voidscar Arena
+61510@@@Mythic: Voidscar Arena
+61511@@@Charonus kills (Normal Voidscar Arena)
+61512@@@Charonus kills (Heroic Voidscar Arena)
+61513@@@Charonus kills (Mythic Voidscar Arena)
+61514@@@It's Treason Then
+61519@@@Midnight Season 1: Catalyst Unbound
+61520@@@Explore Harandar - Placeholder
+61521@@@Skyriding Glyphs: The Shining Span
+61522@@@Skyriding Glyphs: Sunstrider Isle
+61523@@@Skyriding Glyphs: Silvermoon City
+61524@@@Skyriding Glyphs: Runestone Shan'dor
+61525@@@Skyriding Glyphs: Daggerspine Point
+61526@@@Skyriding Glyphs: Suncrown Tree
+61527@@@Skyriding Glyphs: Fairbreeze Village
+61528@@@Skyriding Glyphs: Tranquillien
+61529@@@Skyriding Glyphs: Dawnstar Spire
+61530@@@Skyriding Glyphs: Sunsail Anchorage
+61531@@@Skyriding Glyphs: Path of Dawn
+61532@@@Skyriding Glyphs: Shadebasin Watch
+61533@@@Skyriding Glyphs: Temple of Akil'zon
+61534@@@Skyriding Glyphs: Temple of Jan'alai
+61535@@@Skyriding Glyphs: Strait of Hexx'alor
+61536@@@Skyriding Glyphs: Witherbark Bluffs
+61537@@@Skyriding Glyphs: Nalorakk's Prowl
+61538@@@Skyriding Glyphs: Zeb'Alar Lumberyard
+61539@@@Skyriding Glyphs: Solemn Valley
+61540@@@Skyriding Glyphs: Amani Pass
+61541@@@Skyriding Glyphs: Spiritpaw Burrow
+61542@@@Skyriding Glyphs: Revantusk Sedge
+61543@@@Skyriding Glyphs: Blossoming Terrace
+61544@@@Skyriding Glyphs: The Cradle
+61545@@@Skyriding Glyphs: Roots of Teldrassil
+61546@@@Skyriding Glyphs: Roots of Amirdrassil
+61547@@@Skyriding Glyphs: Blooming Lattice
+61548@@@Skyriding Glyphs: Roots of Nordrassil
+61549@@@Skyriding Glyphs: Fungara Village
+61550@@@Skyriding Glyphs: Rift of Aln
+61551@@@Skyriding Glyphs: Roots of Shaladrassil
+61552@@@Skyriding Glyphs: The Voidspire
+61555@@@Skyriding Glyphs: The Molt
+61556@@@Skyriding Glyphs: The Ingress
+61557@@@Skyriding Glyphs: The Bladeburrows
+61558@@@Skyriding Glyphs: Gnawing Reach
+61559@@@Skyriding Glyphs: The Gorging Pit
+61560@@@Skyriding Glyphs: Shadowguard Point
+61561@@@Skyriding Glyphs: Obscurion Citadel
+61562@@@Skyriding Glyphs: Master's Perch
+61563@@@Skyriding Glyphs: Ethereum Refinery
+61564@@@Skyriding Glyphs: Hanaar Outpost
+61565@@@War Within Dungeon Hero
+61566@@@Glory of the War Within Hero
+61567@@@Midnight Dungeon Hero
+61568@@@Glory of the Midnight Hero
+61569@@@Fool Me Once...

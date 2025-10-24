@@ -23855,3 +23855,57 @@
 255522@@@Lil' Preyseeker
 255689@@@Distorted Memory
 255717@@@Zul'jan
+12.0.0.63724
+240287@@@Silver Covenant Ranger
+245702@@@Shadow Warder
+255813@@@Zul'jarra
+255815@@@Lady Liadrin
+255832@@@Aud'rei III
+255885@@@Root-darting Firefly
+255921@@@Linda the Lucky
+256002@@@Alonsus Faol
+256003@@@Arator
+256004@@@Faerin Lothar
+256005@@@Lady Liadrin
+256006@@@Grand Vindicator Sorvos
+256007@@@High Exarch Turalyon
+256008@@@Prophet Velen
+256010@@@Voidwake Behemoth
+256014@@@Assistant Botanist Leafy
+256017@@@Leona Darkstrider
+256024@@@Nalorakk
+256034@@@Meridelle Lightspark
+256036@@@Nisa Cindersteel
+256037@@@Regald Hornfyre
+256038@@@Tarenar Sunstrike
+256041@@@Gidwin Goldbraids
+256042@@@Skyriding Glyph
+256045@@@Skyriding Glyph Tracker
+256049@@@High Priestess Ishanah
+256059@@@Perturbed Sporebat
+256103@@@Obscurion Obliterator
+256107@@@Preyseeker's Immature Behemoth
+256112@@@Sothon Doomrender
+256117@@@Puzzles Solved
+256144@@@Deya Gloombringer
+256201@@@Bubbly Snapling
+256205@@@Shadow Warder
+256237@@@Spormilian
+256238@@@Saka'saka
+256254@@@Shadow Ward
+256262@@@Shadow Warder
+256264@@@Sporbie
+256265@@@Ominous Dominus
+256269@@@Nibblesworth
+256271@@@Blitzcreek
+256272@@@Kreepah'zoyd
+256276@@@Ziorg'pharon
+256278@@@Hexed Bunny
+256282@@@Lost Star
+256341@@@Ethereal Transmorpher
+256428@@@Hateful Breacher
+256429@@@Shadow Spreader
+256430@@@Voidborn Breacher
+256432@@@Voidborn Berserker
+256440@@@Light's Vanguard
+256447@@@Void Image

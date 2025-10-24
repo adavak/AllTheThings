@@ -900,3 +900,5 @@
 665@@@Honorary Hara'ti %s
 667@@@%s, Life of the Party
 668@@@%s, Famed Slayer of the Undreamt
+12.0.0.63724
+670@@@%s, Mycelial Mentor

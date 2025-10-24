@@ -12937,3 +12937,10 @@
 8613@@@Smuggler's Lynxeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 8614@@@Farstrider's Hawkeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 8615@@@Farstrider's Hawkeye |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+12.0.0.63724
+8042@@@Illusory Adornment - Blooming Light |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8043@@@Illusory Adornment - Blooming Light |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8044@@@Illusory Adornment - Nature's Embrace |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8045@@@Illusory Adornment - Nature's Embrace |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+8046@@@Illusory Adornment - Voidtouched |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+8047@@@Illusory Adornment - Voidtouched |A:Professions-ChatIcon-Quality-Tier2:20:20|a
