@@ -1056,6 +1056,7 @@ _.CategoryIcons = {
 -- Custom Header Database Module
 _.HeaderConstants = {
 	ACHIEVEMENTS = -12,
+	ARTIFACTS = -214,
 	BLACK_MARKET_AUCTION_HOUSE = -554,
 	BREWFEST_HEADER = -557,
 	CHEST = -90,
@@ -1186,6 +1187,7 @@ localize(L.HEADER_NAMES, {
 	[-211] = FACTION_HORDE,
 	[-212] = COMBATLOG_FILTER_STRING_NEUTRAL_UNITS,
 	[-213] = BATTLE_PET_SOURCE_10,
+	[-214] = ITEM_QUALITY6_DESC,
 	[-215] = ITEM_QUALITY1_DESC,
 	[-216] = ELITE,
 	[-217] = ITEM_QUALITY4_DESC,
@@ -1470,6 +1472,7 @@ localize(L.HEADER_ICONS, {
 	[-211] = 374221,
 	[-212] = 374222,
 	[-213] = _.asset("category_ingameshop"),
+	[-214] = _.asset("weapon_type_artifact"),
 	[-215] = 135030,
 	[-216] = 237273,
 	[-217] = 135028,
@@ -1680,7 +1683,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=19,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=19,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=26,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=10,["monthDay"]=26,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=2,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=11,["monthDay"]=2,["weekday"]=1,["year"]=2025}),
@@ -1732,7 +1734,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=20,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=9,["monthDay"]=27,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=4,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=4,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=11,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=11,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=11,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=11,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=18,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=18,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),

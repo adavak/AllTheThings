@@ -54,7 +54,6 @@ crit(18614,{achID=1833,awp=30002,id=1,providers={{"i",46401}}}),
 crit(18616,{achID=1833,awp=30002,id=1,providers={{"i",46403}}}),
 crit(18612,{achID=1833,awp=30002,id=1,providers={{"i",46399}}}),
 crit(18615,{achID=1833,awp=30002,id=1,providers={{"i",46402}}}),
-crit(4659,{achID=1833,awp=30002,id=1,providers={{"i",17404}}}),
 crit(8999,{achID=1833,awp=30002,id=1,providers={{"i",23164}}}),
 crit(9000,{achID=1833,awp=30002,id=1,providers={{"i",23176}}}),
 crit(9001,{achID=1833,awp=30002,id=1,providers={{"i",23246}}}),
@@ -70,6 +69,7 @@ crit(9012,{achID=1833,awp=30002,id=1,providers={{"i",31451}}}),
 crit(4686,{achID=1833,awp=30002,id=1,providers={{"i",28399}}}),
 crit(4687,{achID=1833,awp=30002,id=1,providers={{"i",19299}}}),
 crit(4693,{achID=1833,awp=30002,id=1,providers={{"i",17196}}}),
+crit(4659,{achID=1833,awp=30002,id=1,providers={{"i",17404}}}),
 crit(4663,{achID=1833,awp=30002,id=1,providers={{"i",34832}}}),
 crit(4672,{achID=1833,awp=30002,id=1,providers={{"i",30703}}}),
 crit(4674,{achID=1833,awp=30002,id=1,providers={{"i",8078}}}),
@@ -438,16 +438,16 @@ ach(5848,{awp=40200,r=2,requireSkill=356,u=40,g={
 crit(63609,{achID=5851,awp=40200,id=1})}}),
 ach(5842,{awp=40200,r=2,requireSkill=185,u=40,g={
 crit(63554,{achID=5845,awp=40200,id=1,u=40})}}),
-crit(11078,{achID=3556,awp=30202,e=101,id=2}),
-crit(11139,{achID=3581,awp=30202,e=101,id=2}),
-crit(18290,{achID=6030,awp=40300,e=1,id=3,providers={{"i",74142}}})}),
+crit(11078,{achID=3556,awp=30202,e=101,id=2,r=2}),
+crit(11139,{achID=3581,awp=30202,e=101,id=2,r=1}),
+crit(18290,{achID=6030,awp=40300,e=1,id=3,providers={{"i",74142}},r=2})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",479,478,452,419}}}),
 h(-31,{
 faction(69,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45579}},r=2,g={
-crit(5328,{achID=948,awp=30002,id=2,u=11}),
-crit(5328,{achID=2760,awp=30200,id=2,u=31})}}),
+crit(5328,{achID=948,awp=30002,id=2,r=2,u=11}),
+crit(5328,{achID=2760,awp=30200,id=2,r=2,u=31})}}),
 faction(1134,{awp=40003,maps={84},providers={{"i",64882}},r=2,u=40,g={
-crit(16826,{achID=948,awp=30002,id=4,u=11})}})}),
+crit(16826,{achID=948,awp=30002,id=4,r=2,u=11})}})}),
 h(-32,{
 fp(457,{awp=40001,coords={{36.61,47.82,89}},crs={40552},r=2})}),
 h(-44,{
@@ -468,12 +468,12 @@ q(5647,{altQuests={5641,5645},c={5},coords={{39.2,81,89}},lvl=20,maps={87},qgs={
 q(29325,{awp=40100,coords={{49,61,89}},isDaily=1,lvl=10,maps={57},qgs={4156},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40100,coords={{57,94.6,57}},providers={{"i",69915},{"n",53522}},u=40}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17757,{achID=5848,awp=40200,id=5,u=40})}}),
+crit(17757,{achID=5848,awp=40200,id=5,r=2,u=40})}}),
 q(7801,{coords={{64,23,89}},cost={{"i",14047,20}},lvl=50,maxReputation={69,42000},qgs={14725},r=2,repeatable=1,rwp=40003,sourceQuests={7800},u=2}),
 q(29359,{awp=40100,coords={{49,61,89}},isDaily=1,lvl=10,maps={57},qgs={4156},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40100,coords={{56.7,92.7,57}},providers={{"i",69987}},u=40}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17758,{achID=5848,awp=40200,id=6,u=40})}}),
+crit(17758,{achID=5848,awp=40200,id=6,r=2,u=40})}}),
 q(6342,{coords={{36,53.4,89}},providers={{"i",16262}},qgs={7316},races={4},sourceQuests={6341}}),
 q(3763,{coords={{67.4,15.7,89}},isBreadcrumb=1,lvl=47,nextQuests={3764},qgs={6735},r=2,rwp=40003,u=2}),
 q(3790,{coords={{18.1,51.5,87}},isBreadcrumb=1,lvl=47,nextQuests={3764},qgs={5111},r=2,rwp=40003,u=2}),
@@ -482,7 +482,7 @@ q(10520,{awp=20001,coords={{59.6,19.4,103}},isBreadcrumb=1,lvl=47,nextQuests={37
 q(29316,{awp=40100,coords={{50,36.6,89}},isDaily=1,lvl=10,qgs={4210},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40100,providers={{"o",208829}},u=40}),
 cu(81,{awp=40100,u=40}),
-crit(17730,{achID=5842,awp=40200,id=4,u=40})}}),
+crit(17730,{achID=5842,awp=40200,id=4,r=2,u=40})}}),
 q(26383,{awp=40003,coords={{43.8,76.2,89}},isBreadcrumb=1,maps={57,62},nextQuests={13518},qgs={42936},races={1,3,4,7,11,25},u=40}),
 q(26385,{awp=40003,coords={{48.2,14.6,89}},isBreadcrumb=1,maps={57,62},nextQuests={13518},qgs={48736},races={22},u=40}),
 q(4510,{coords={{42,85.8,89}},lvl=50,providers={{"i",11843}},qgs={7740},r=2,rwp=40003,sourceQuests={4508},u=2,g={
@@ -499,7 +499,7 @@ q(952,{coords={{34.8,8.8,89}},lvl=6,providers={{"i",5390}},qgs={3516},r=2,rwp=40
 q(29321,{awp=40100,coords={{49,61,89}},isDaily=1,lvl=10,qgs={4156},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40100,coords={{53,90.6,57}},providers={{"i",69910},{"o",208831}},u=40}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17754,{achID=5848,awp=40200,id=2,u=40})}}),
+crit(17754,{achID=5848,awp=40200,id=2,r=2,u=40})}}),
 q(32664,{awp=50200,description="This quest is available to Night Elves upon reaching level 20.",DisablePartySync=1,isBreadcrumb=1,lc={1,"spellID",33388,"spellID",33391,"spellID",34090,"spellID",34091,"spellID",90265},lvl=10,races={4},rwp=100105}),
 q(14085,{awp=30300,description="The pamphlet that starts this quest is sent to Night Elves in their Mailbox upon reaching the specified level.",lc={1,"spellID",33388,"spellID",33391,"spellID",34090,"spellID",34091,"spellID",90265},lvl=20,providers={{"i",46876}},races={4},rwp=50200,u=2}),
 q(4493,{coords={{42,85.8,89}},lvl=50,maps={71},qgs={7740},r=2,rwp=40003,sourceQuests={162},u=2}),
@@ -517,12 +517,12 @@ q(7672,{coords={{42.6,32.8,89}},cost={{"i",12303,1}},description="If you are one
 q(29314,{awp=40100,coords={{50,36.6,89},{69.5,40.5,89}},isDaily=1,lvl=10,providers={{"o",208825}},qgs={4210},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40100,coords={{43.5,78.7,89}},providers={{"i",69900},{"o",208818}},u=40}),
 cu(81,{awp=40100,u=40}),
-crit(17729,{achID=5842,awp=40200,id=3,u=40})}}),
+crit(17729,{achID=5842,awp=40200,id=3,r=2,u=40})}}),
 q(6343,{coords={{36.5,47.8,89}},maps={57},qgs={40552},races={4},sourceQuests={6342}}),
 q(29318,{awp=40100,coords={{50,36.6,89}},isDaily=1,lvl=10,qgs={4210},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40100,coords={{52.6,35.8,89}},crs={4262},providers={{"i",69906},{"i",69904}},u=40}),
 cu(81,{awp=40100,u=40}),
-crit(17731,{achID=5842,awp=40200,id=5,u=40})}}),
+crit(17731,{achID=5842,awp=40200,id=5,r=2,u=40})}}),
 q(2520,{coords={{36.4,86,89}},lvl=5,qgs={7313},r=2,rwp=40003,sourceQuests={2518},u=2,g={
 qo(1,{providers={{"i",8155}},rwp=40003,u=2}),
 s(123020,9600,{b=1,f=4,q=1,rwp=40003,u=2}),
@@ -531,12 +531,12 @@ q(1692,{c={1},coords={{57.4,34.8,89}},lvl=10,providers={{"i",6812}},qgs={4088},r
 q(29357,{awp=40100,coords={{50,36.6,89}},isDaily=1,lvl=10,qgs={4210},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40100,coords={{49.6,36.6,89}},crs={4223},providers={{"i",30816}},u=40}),
 cu(81,{awp=40100,u=40}),
-crit(17732,{achID=5842,awp=40200,id=6,u=40})}}),
+crit(17732,{achID=5842,awp=40200,id=6,r=2,u=40})}}),
 q(5627,{altQuests={5628,5629,5630,5631,5632,5633},c={5},coords={{47.2,52.2,27},{43.4,65.6,37},{55.6,56.8,57},{20.8,50.2,84},{38.6,26.8,84},{24.6,9.2,87},{39.2,81,89}},lvl=10,qgs={377,1226,3600,5142,5489,11397,11401},races={4},rwp=30002,u=2}),
 q(29323,{awp=40100,coords={{49,61,89}},isDaily=1,lvl=10,qgs={4156},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40100,providers={{"i",69912}},u=40}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17755,{achID=5848,awp=40200,id=3,u=40})}}),
+crit(17755,{achID=5848,awp=40200,id=3,r=2,u=40})}}),
 q(1710,{c={1},coords={{59.2,45.4,89}},lvl=20,maps={64},qgs={6142},r=2,rwp=40003,sourceQuests={1703},u=2,g={
 qo(1,{coords={{11.7,37.1,64}},providers={{"i",6849},{"o",89635}},rwp=40003,u=2})}}),
 q(942,{coords={{31.2,84.2,89}},lvl=15,maps={56},providers={{"i",4654}},qgs={2912},r=2,rwp=40003,sourceQuests={741},u=2}),
@@ -544,7 +544,7 @@ q(1039,{coords={{61.8,39.4,89}},lvl=25,maps={10},qgs={8026},r=2,rwp=40003,source
 q(29313,{awp=40100,coords={{50,36.6,89}},isDaily=1,lvl=10,qgs={4210},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40100,coords={{48.5,34,89}},providers={{"i",69898},{"o",208814}},u=40}),
 cu(81,{awp=40100,u=40}),
-crit(17728,{achID=5842,awp=40200,id=2,u=40})}}),
+crit(17728,{achID=5842,awp=40200,id=2,r=2,u=40})}}),
 q(1686,{c={1},coords={{57.8,34.4,89}},lvl=10,maps={62},qgs={4088},r=2,rwp=40003,sourceQuests={1683},u=2,g={
 qo(1,{coords={{33.1,46.3,62}},providers={{"i",6808},{"o",86492}},rwp=40003,u=2}),
 qo(2,{coords={{31.6,44.8,62}},crs={6133},providers={{"i",6809}},rwp=40003,u=2})}}),
@@ -552,7 +552,7 @@ q(29324,{awp=40100,coords={{49,61,89}},isDaily=1,lvl=10,qgs={4156},r=2,requireSk
 i(69914,{awp=40100,q=1,u=40,g={
 qo(1,{awp=40100,providers={{"i",69913}},questID=29324,u=40})}}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17756,{achID=5848,awp=40200,id=4,u=40})}}),
+crit(17756,{achID=5848,awp=40200,id=4,r=2,u=40})}}),
 q(2519,{coords={{29,45.4,89}},isBreadcrumb=1,lvl=5,qgs={7316},r=2,rwp=40003,u=2}),
 q(730,{coords={{31.2,84.2,89}},isBreadcrumb=1,lvl=14,nextQuests={729},qgs={2912},r=2,rwp=40003,u=2}),
 q(3764,{coords={{35.2,9,89}},cost={{"i",11018,20}},lvl=47,maps={78},qgs={3516},r=2,rwp=40003,sourceQuests={3763,3789,3790,10520},u=2}),
@@ -674,24 +674,24 @@ h(-12,{
 ach(5477,{awp=40200,r=1,requireSkill=356,u=40,g={
 crit(63510,{achID=5851,awp=40200,id=3})}}),
 ach(5475,{awp=40200,r=1,requireSkill=185,u=40,g={
-crit(16244,{achID=5475,awp=40200,id=6,providers={{"s",99249}},u=40}),
+crit(16244,{achID=5475,awp=40200,id=6,providers={{"s",99249}},r=1,u=40}),
 crit(63621,{achID=5845,awp=40200,id=2,u=40})}}),
 ach(1836,{awp=30002,providers={{"i",34486}},requireSkill=356,u=17}),
-crit(18295,{achID=6031,awp=40300,e=1,id=3,providers={{"i",74142}}})}),
+crit(18295,{achID=6031,awp=40300,e=1,id=3,providers={{"i",74142}},r=1})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",467,471,466,420,418}}}),
 h(-30,{
 exp(5170,{collectible=false})}),
 h(-31,{
 faction(1133,{awp=40003,providers={{"i",64884}},r=1,g={
-crit(16825,{achID=762,awp=30002,id=2,u=11})}}),
+crit(16825,{achID=762,awp=30002,id=2,r=1,u=11})}}),
 faction(530,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45582}},r=1,g={
-crit(5313,{achID=762,awp=30002,id=3,u=11}),
-crit(5313,{achID=2766,awp=30200,id=2,u=31})}}),
+crit(5313,{achID=762,awp=30002,id=3,r=1,u=11}),
+crit(5313,{achID=2766,awp=30200,id=2,r=1,u=31})}}),
 faction(1352,{awp=50004,providers={{"i",83080}},r=1,g={
-crit(19480,{achID=6827,awp=50004,id=9,u=50})}}),
+crit(19480,{achID=6827,awp=50004,id=9,r=1,u=50})}}),
 faction(76,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45581}},r=1,g={
-crit(5314,{achID=762,awp=30002,id=4,u=11}),
-crit(5314,{achID=2765,awp=30200,id=2,u=31})}})}),
+crit(5314,{achID=762,awp=30002,id=4,r=1,u=11}),
+crit(5314,{achID=2765,awp=30200,id=2,r=1,u=31})}})}),
 h(-32,{
 fp(23,{coords={{49.4,59.2,85}},crs={3310},r=1})}),
 h(-43,{awp=50004,pb=1,g={
@@ -2447,17 +2447,17 @@ q(7833,{coords={{37.8,87.6,85}},cost={{"i",2592,60}},lvl=12,qgs={14727},r=1,rwp=
 q(7341,{coords={{74.4,26.4,85}},lvl=52,qgs={14182},r=1,repeatable=1,rwp=40003,u=2}),
 q(26588,{awp=40001,coords={{65.7,41.1,85}},isDaily=1,lvl=10,qgs={43239},r=1,requireSkill=356,g={
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15820,{achID=5477,awp=40200,id=5,u=40})}}),
+crit(15820,{achID=5477,awp=40200,id=5,r=1,u=40})}}),
 q(26572,{awp=40001,coords={{65.7,41.1,85}},isDaily=1,lvl=10,qgs={43239},r=1,requireSkill=356,g={
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15821,{achID=5477,awp=40200,id=6,u=40})}}),
+crit(15821,{achID=5477,awp=40200,id=6,r=1,u=40})}}),
 q(28790,{awp=40001,coords={{56.6,47,25},{59.9,63.5,25},{23.4,94.2,85},{45.6,5.9,85},{49.8,76.4,85},{50.4,38.2,85},{58.3,45.7,85},{59,44.4,85},{66.7,49.5,85},{42.6,57.4,88},{62.5,60.5,110},{48.7,39.6,125},{59.2,27.4,125},{44,35.4,998},{61.8,75.6,998},{66.5,49.8,998}},isBreadcrumb=1,lvl=80,nextQuests={28805},providers={{"o",207323},{"o",207279},{"o",206109},{"o",206116},{"o",208317},{"o",207324},{"o",207325}},qgs={45244},r=1,rwp=80300}),
 q(25160,{awp=40003,coords={{72.4,34.6,85}},isDaily=1,qgs={50482},r=1,requireSkill=755,g={
 cu(361,{awp=40003})}}),
 q(26557,{awp=40001,coords={{65.7,41.1,85}},isDaily=1,lvl=10,qgs={43239},r=1,requireSkill=356,g={
 i(58949,{awp=40001,q=1}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15819,{achID=5477,awp=40200,id=4,u=40})}}),
+crit(15819,{achID=5477,awp=40200,id=4,r=1,u=40})}}),
 q(7832,{coords={{63.4,51,85}},cost={{"i",14047,20}},lvl=50,maxReputation={530,42000},qgs={14726},r=1,repeatable=1,rwp=40003,sourceQuests={7824},u=2}),
 q(7837,{coords={{37.8,87.6,85}},cost={{"i",14047,20}},lvl=50,maxReputation={76,42000},qgs={14727},r=1,repeatable=1,rwp=40003,sourceQuests={7836},u=2}),
 q(25264,{awp=40003,coords={{58.5,53.6,85}},qgs={3216},r=1,sourceQuests={25263}}),
@@ -2480,13 +2480,13 @@ s(124517,11871,{b=1,f=5,q=2,rwp=40003,u=2}),
 s(124518,11872,{b=1,f=7,q=2,rwp=40003,u=2})}}),
 q(26227,{awp=40003,coords={{56.5,62.5,85}},isDaily=1,qgs={42506},r=1,requireSkill=185,g={
 cu(81,{awp=40003,u=40}),
-crit(15807,{achID=5475,awp=40200,id=2,u=40})}}),
+crit(15807,{achID=5475,awp=40200,id=2,r=1,u=40})}}),
 q(26543,{awp=40001,coords={{65.7,41.1,85}},isDaily=1,lvl=10,qgs={43239},r=1,requireSkill=356,g={
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15817,{achID=5477,awp=40200,id=2,u=40})}}),
+crit(15817,{achID=5477,awp=40200,id=2,r=1,u=40})}}),
 q(26226,{awp=40003,coords={{56.5,62.5,85}},isDaily=1,qgs={42506},r=1,requireSkill=185,g={
 cu(81,{awp=40003,u=40}),
-crit(15808,{achID=5475,awp=40200,id=3,u=40})}}),
+crit(15808,{achID=5475,awp=40200,id=3,r=1,u=40})}}),
 q(1501,{altQuests={1473},c={9},coords={{48.2,45.6,85}},lvl=10,maps={1},qgs={5875},races={2,5,8},rwp=40003,sourceQuests={1506},u=2,g={
 qo(1,{coords={{51.6,9.7,1}},providers={{"i",6535},{"o",58595}},rwp=40003,u=2})}}),
 q(2458,{c={4},coords={{43,53.4,85}},lvl=20,providers={{"i",8051}},qgs={3401},r=1,rwp=40003,sourceQuests={2460},u=2}),
@@ -2500,10 +2500,10 @@ q(25162,{awp=40003,coords={{72.4,34.4,85}},isDaily=1,qgs={50482},r=1,requireSkil
 cu(361,{awp=40003})}}),
 q(26235,{awp=40003,coords={{56.5,62.5,85}},isDaily=1,qgs={42506},r=1,requireSkill=185,g={
 cu(81,{awp=40003,u=40}),
-crit(15809,{achID=5475,awp=40200,id=4,u=40})}}),
+crit(15809,{achID=5475,awp=40200,id=4,r=1,u=40})}}),
 q(26220,{awp=40003,coords={{56.5,62.5,85}},isDaily=1,qgs={42506},r=1,requireSkill=185,g={
 cu(81,{awp=40003,u=40}),
-crit(15810,{achID=5475,awp=40200,id=5,u=40})}}),
+crit(15810,{achID=5475,awp=40200,id=5,r=1,u=40})}}),
 q(31014,{awp=50004,coords={{70.6,30.8,85}},maps={503},qgs={62092},races={26},rwp=70003,sourceQuests={31013}}),
 q(5652,{altQuests={5654,5655,5656,5657},c={5},coords={{54.2,42.8,1},{47,58.8,7},{35.6,87.6,85},{26,15.8,88},{49.01,18.32,998}},lvl=10,qgs={3044,3706,4606,6018,11407},races={8},rwp=20401,u=2}),
 q(5726,{coords={{32,37.8,85}},lvl=9,maps={1},qgs={4949},r=1,rwp=40003,u=2,g={
@@ -2531,7 +2531,7 @@ q(25158,{awp=40003,coords={{72.4,34.4,85}},isDaily=1,qgs={50482},r=1,requireSkil
 cu(361,{awp=40003})}}),
 q(26556,{awp=40001,coords={{65.7,41.1,85}},isDaily=1,lvl=10,qgs={43239},r=1,requireSkill=356,g={
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15818,{achID=5477,awp=40200,id=3,u=40})}}),
+crit(15818,{achID=5477,awp=40200,id=3,r=1,u=40})}}),
 q(25161,{awp=40003,coords={{72.4,34.4,85}},isDaily=1,qgs={50482},r=1,requireSkill=755,g={
 cu(361,{awp=40003})}}),
 q(2752,{coords={{76.2,37.4,85}},cost={{"i",7956,4},{"i",7958,4}},description="This questline begins with the quest 'Barbaric Battlements', which requires Blacksmithing skill level 140.",learnedAt=140,lvl=32,qgs={7790},r=1,requireSkill=164,sourceQuests={2751},g={
@@ -4401,8 +4401,8 @@ m(103,{awp=20001,icon=255137,isRaid=1,lore="The Exodar is the capital city of th
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",464,385}},u=17}),
 h(-31,{awp=20001,u=17,g={
 faction(930,{awp=20001,OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45580}},r=2,u=17,g={
-crit(5332,{achID=948,awp=30002,id=3,u=11}),
-crit(5332,{achID=2761,awp=30200,id=2,u=31})}})}}),
+crit(5332,{achID=948,awp=30002,id=3,r=2,u=11}),
+crit(5332,{achID=2761,awp=30200,id=2,r=2,u=31})}})}}),
 h(-32,{awp=20001,u=17,g={
 fp(94,{awp=20001,coords={{54.5,36.3,103}},crs={17555},r=2,u=17})}}),
 h(-45,{awp=20001,u=17,g={
@@ -4491,9 +4491,9 @@ n(16762,{awp=20001,coords={{68.2,96.2,103}},r=2,sym={{"select","itemID",17187,12
 n(16714,{awp=20001,coords={{69.8,89.4,103}},r=2,sym={{"select","itemID",926,2025,2520,1198,2029,851,922,927,2024,2528,852,2207,2209,923,2526,2208,2534,2027,1196}},u=17}),
 n(16750,{awp=20001,coords={{67.6,94.6,103}},r=2,sym={{"select","itemID",847,1845,849,1846,850,848,2392,2393,2395,2396,2397,2394,1853,287,1852,718,286,285}},u=17})}}),
 h(-12,{
-crit(11080,{achID=3556,awp=30202,e=101,id=3}),
-crit(11138,{achID=3581,awp=30202,e=101,id=3}),
-crit(18291,{achID=6030,awp=40300,e=1,id=4,providers={{"i",74142}}})}),
+crit(11080,{achID=3556,awp=30202,e=101,id=3,r=2}),
+crit(11138,{achID=3581,awp=30202,e=101,id=3,r=1}),
+crit(18291,{achID=6030,awp=40300,e=1,id=4,providers={{"i",74142}},r=2})}),
 h(-43,{pb=1,g={
 crit(19848,{achID=6584,awp=50004,id=4,pb=1})}})}}),
 m(88,{icon=255144,isRaid=1,lore="Thunder Bluff is the Tauren capital city located in the northern part of the region of Mulgore. The whole of the city is built on bluffs several hundred feet above the surrounding landscape, and is accessible by elevators on the southwestern and northeastern sides.",g={
@@ -4502,14 +4502,14 @@ ach(5849,{awp=40200,r=1,requireSkill=356,u=40,g={
 crit(63511,{achID=5851,awp=40200,id=2})}}),
 ach(5843,{awp=40200,r=1,requireSkill=185,u=40,g={
 crit(63622,{achID=5845,awp=40200,id=3,u=40})}}),
-crit(11084,{achID=3557,awp=30202,e=101,id=4}),
-crit(11136,{achID=3580,awp=30202,e=101,id=4}),
-crit(18297,{achID=6031,awp=40300,e=1,id=6,providers={{"i",74142}}})}),
+crit(11084,{achID=3557,awp=30202,e=101,id=4,r=1}),
+crit(11136,{achID=3580,awp=30202,e=101,id=4,r=2}),
+crit(18297,{achID=6031,awp=40300,e=1,id=6,providers={{"i",74142}},r=1})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",477,385,386,378}}}),
 h(-31,{
 faction(81,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45584}},r=1,g={
-crit(5315,{achID=762,awp=30002,id=6,u=11}),
-crit(5315,{achID=2768,awp=30200,id=2,u=31})}})}),
+crit(5315,{achID=762,awp=30002,id=6,r=1,u=11}),
+crit(5315,{achID=2768,awp=30200,id=2,r=1,u=31})}})}),
 h(-32,{
 fp(22,{coords={{46.8,50,88}},crs={2995},r=1})}),
 h(-44,{
@@ -4524,7 +4524,7 @@ i(67388,{awp=40001,f=51})}})})}),
 h(-45,{
 q(29362,{awp=40100,coords={{51.2,52.2,88}},isDaily=1,lvl=10,qgs={3026},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17734,{achID=5843,awp=40200,id=3,u=40})}}),
+crit(17734,{achID=5843,awp=40200,id=3,r=1,u=40})}}),
 q(6361,{coords={{46,58.2,7}},lvl=10,providers={{"i",16282}},qgs={3079},races={6}}),
 q(7822,{coords={{43.2,42.8,88}},cost={{"i",4338,60}},lvl=40,qgs={14728},r=1,rwp=40003,u=2}),
 q(7823,{coords={{43.2,42.8,88}},cost={{"i",14047,60}},lvl=50,qgs={14728},r=1,rwp=40003,u=2}),
@@ -4540,10 +4540,10 @@ q(1844,{c={1},coords={{39,55.8,88}},lvl=20,maps={65},qgs={6410},r=1,rwp=40003,so
 qo(1,{crs={6167},providers={{"i",6840}},rwp=40003,u=2})}}),
 q(29364,{awp=40100,coords={{51.2,52.2,88}},isDaily=1,lvl=10,qgs={3026},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17736,{achID=5843,awp=40200,id=5,u=40})}}),
+crit(17736,{achID=5843,awp=40200,id=5,r=1,u=40})}}),
 q(29349,{awp=40100,coords={{56.12,46.34,88}},isDaily=1,lvl=10,qgs={3028},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17762,{achID=5849,awp=40200,id=5,u=40})}}),
+crit(17762,{achID=5849,awp=40200,id=5,r=1,u=40})}}),
 q(1205,{coords={{61.52,80.88,88}},lvl=35,maps={70},qgs={3441},r=1,g={
 qo(1,{coords={{47.6,56.6,70}},crs={4841},providers={{"i",5945}}})}}),
 q(1064,{coords={{69.85,30.91,88}},lvl=13,qgs={4046},r=1,rwp=40003,sourceQuests={1063},u=2}),
@@ -4563,23 +4563,23 @@ q(3804,{coords={{70.8,33.8,88}},cost={{"i",11040,10}},lvl=47,qgs={9087},r=1,repe
 i(11887,{b=1,q=1,rwp=40003,u=2})}}),
 q(29363,{awp=40100,coords={{51.2,52.2,88}},isDaily=1,lvl=10,qgs={3026},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17735,{achID=5843,awp=40200,id=4,u=40})}}),
+crit(17735,{achID=5843,awp=40200,id=4,r=1,u=40})}}),
 q(29365,{awp=40100,coords={{51.2,52.2,88}},isDaily=1,lvl=10,qgs={3026},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17737,{achID=5843,awp=40200,id=6,u=40})}}),
+crit(17737,{achID=5843,awp=40200,id=6,r=1,u=40})}}),
 q(29358,{awp=40100,coords={{51.2,52.2,88}},isDaily=1,lvl=10,qgs={3026},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17733,{achID=5843,awp=40200,id=2,u=40})}}),
+crit(17733,{achID=5843,awp=40200,id=2,r=1,u=40})}}),
 q(29345,{awp=40100,coords={{56.12,46.34,88}},isDaily=1,lvl=10,qgs={3028},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17759,{achID=5849,awp=40200,id=2,u=40})}}),
+crit(17759,{achID=5849,awp=40200,id=2,r=1,u=40})}}),
 q(14100,{awp=30300,c={7},coords={{32.6,38.8,85},{38.7,35.9,85},{23,20.8,88}},cost={{"i",5177,1},{"i",5176,1},{"i",5175,1},{"i",5178,1}},lvl=30,qgs={3030,13417,35068},r=1,rwp=40003,u=2,g={
 i(46978,{awp=30300,b=1,rwp=40003,u=2})}}),
 q(6364,{coords={{46.8,50,88}},lvl=10,maps={7},providers={{"i",16283}},qgs={2995},races={6},sourceQuests={6363}}),
 q(6362,{coords={{47.4,58.6,7}},lvl=10,providers={{"i",16282}},qgs={40809},races={6},sourceQuests={6361}}),
 q(29354,{awp=40100,coords={{56.12,46.34,88}},isDaily=1,lvl=10,qgs={3028},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17763,{achID=5849,awp=40200,id=6,u=40})}}),
+crit(17763,{achID=5849,awp=40200,id=6,r=1,u=40})}}),
 q(1131,{coords={{61.51,80.88,88}},lvl=20,maps={64},qgs={3441},r=1,rwp=40003,sourceQuests={1130},u=2,g={
 qo(1,{coords={{13.6,28,64}},crs={4548},providers={{"i",5837}},rwp=40003,u=2})}}),
 q(6363,{coords={{45.74,55.86,88}},lvl=10,maps={7},providers={{"i",16283}},qgs={8359},races={6},sourceQuests={6362}}),
@@ -4587,11 +4587,11 @@ q(1086,{coords={{22.85,20.9,88}},lvl=13,maps={65},qgs={3419},r=1,rwp=40003,sourc
 qo(1,{coords={{66,45,65}},providers={{"i",5638}},rwp=40003,u=2})}}),
 q(29348,{awp=40100,coords={{56.12,46.34,88}},isDaily=1,lvl=10,qgs={3028},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17761,{achID=5849,awp=40200,id=4,u=40})}}),
+crit(17761,{achID=5849,awp=40200,id=4,r=1,u=40})}}),
 q(29346,{awp=40100,coords={{56.12,46.34,88}},isDaily=1,lvl=10,qgs={3028},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
 i(69956,{awp=40100,q=1}),
-crit(17760,{achID=5849,awp=40200,id=3,u=40})}}),
+crit(17760,{achID=5849,awp=40200,id=3,r=1,u=40})}}),
 q(1195,{coords={{54.97,51.32,88}},lvl=20,maps={63},qgs={4721},r=1,rwp=40003,u=2,g={
 qo(1,{coords={{60,72,63}},cost={{"i",5867,1}},providers={{"i",5868}},rwp=40003,u=2})}}),
 q(1196,{coords={{54.97,51.32,88}},lvl=20,maps={64},providers={{"i",5868}},qgs={4721},r=1,rwp=40003,sourceQuests={1195},u=2}),
@@ -4810,7 +4810,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66136,{awp=50004,coords={{20.2,29.6,63}},description="This pet tamer is Horde only.\n\nAnalynn's pets are level 5 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.",pb=1,petBattleLvl=5,r=1,g={
 q(31854,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6603},g={
 crit(23456,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21404,{achID=6602,awp=50004,id=3,pb=1}),
+crit(21404,{achID=6602,awp=50004,id=3,pb=1,r=1}),
 crit(21404,{achID=7499,awp=50004,id=9,pb=1})}}),
 q(31815,{awp=50004,coords={{20.2,29.5,63}},maps={65},pb=1,qgs={66136},r=1,sourceQuests={31814},g={
 qo(1,{awp=50004,coords={{59.6,71.6,65}},pb=1,providers={{"n",66137}}}),
@@ -6443,8 +6443,8 @@ flt(101,{awp=50100,pb=1,g={
 p(1161,{awp=50100,description="This pet can be found around the Caverns of Time entrance and the pathway leading to the main chamber.",npcID=68820,pb=1})}}),
 h(-31,{
 faction(989,{awp=20001,icon=134156,maps={273,274},u=17,g={
-crit(4765,{achID=763,awp=20001,id=5,u=17}),
-crit(4765,{achID=764,awp=20001,id=6,u=17})}})}),
+crit(4765,{achID=763,awp=20001,id=5,r=1,u=17}),
+crit(4765,{achID=764,awp=20001,id=6,r=2,u=17})}})}),
 h(-45,{
 q(10277,{awp=20003,coords={{41.5,38.5,75}},lvl=66,qgs={20130},sourceQuests={10279},u=17}),
 q(10445,{awp=20003,coords={{39.4,44.4,75}},description="The questgiver can be found walking around the Caverns of Time.",lvl=70,maps={332,334},qgs={19935,19936},rwp=30002,u=2,g={
@@ -7066,7 +7066,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66372,{awp=50004,coords={{57.2,45.8,66}},description="This pet tamer is Horde only.\n\nMerda's pets are level 9 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.",pb=1,petBattleLvl=9,r=1,g={
 q(31872,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23459,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21406,{achID=6602,awp=50004,id=5,pb=1}),
+crit(21406,{achID=6602,awp=50004,id=5,pb=1,r=1}),
 crit(21406,{achID=7499,awp=50004,id=11,pb=1})}}),
 q(31870,{awp=50004,coords={{57.2,45.8,66}},maps={199},pb=1,qgs={66372},r=1,sourceQuests={31817},g={
 qo(1,{awp=50004,coords={{39.5,79.1,199}},pb=1,providers={{"n",66422}}}),
@@ -7702,8 +7702,8 @@ q(4641,{altQuests={787},coords={{43.2,68.4,1}},isBreadcrumb=1,nextQuests={788},q
 h(-12,{
 ach(728,{awp=30002,g={
 crit(1486,{achID=43,awp=30002,id=2})}}),
-crit(11082,{achID=3557,awp=30202,e=101,id=2}),
-crit(11134,{achID=3580,awp=30202,e=101,id=2})}),
+crit(11082,{achID=3557,awp=30202,e=101,id=2,r=1}),
+crit(11134,{achID=3580,awp=30202,e=101,id=2,r=2})}),
 flt(101,{awp=50004,pb=1,g={
 p(635,{awp=50004,npcID=61325,pb=1,g={
 crit(21509,{achID=6585,awp=50004,id=1,pb=1}),
@@ -7780,7 +7780,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66126,{awp=50004,coords={{43.9,28.9,1}},description="This pet tamer is Horde only.\n\nZunta's pets are level 2 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.",pb=1,petBattleLvl=2,r=1,g={
 q(31818,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23454,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21402,{achID=6602,awp=50004,id=1,pb=1}),
+crit(21402,{achID=6602,awp=50004,id=1,pb=1,r=1}),
 crit(21402,{achID=7499,awp=50004,id=7,pb=1})}}),
 q(31813,{awp=50004,coords={{43.9,28.9,1}},maps={10},pb=1,qgs={66126},r=1,sourceQuests={31812},g={
 qo(1,{awp=50004,coords={{58.6,53,10}},pb=1,providers={{"n",66135}}}),
@@ -8080,7 +8080,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66436,{awp=50004,coords={{53.8,74.8,70}},description="This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nGrazzle's pets are level 14 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Dragonkin - see above.\n3. Dragonkin - see above.",pb=1,petBattleLvl=14,g={
 q(31905,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23461,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21410,{achID=6602,awp=50004,id=9,pb=1}),
+crit(21410,{achID=6602,awp=50004,id=9,pb=1,r=1}),
 crit(21410,{achID=7499,awp=50004,id=15,pb=1})}}),
 crit(21455,{achID=6612,awp=50004,id=8,pb=1}),
 crit(21544,{achID=6560,awp=50004,id=17,pb=1})}}),
@@ -8720,7 +8720,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66442,{awp=50004,coords={{40,56.6,77}},description="This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nZoltan's pets are level 16 of the following consecutive pet classes:\n1. Mechanical - use Elemental (powerful and tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Magic - see above.",pb=1,petBattleLvl=16,g={
 q(31907,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23463,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21411,{achID=6602,awp=50004,id=10,pb=1}),
+crit(21411,{achID=6602,awp=50004,id=10,pb=1,r=1}),
 crit(21411,{achID=7499,awp=50004,id=16,pb=1})}}),
 crit(21456,{achID=6612,awp=50004,id=9,pb=1}),
 crit(21539,{achID=6560,awp=50004,id=15,pb=1})}}),
@@ -9219,7 +9219,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66352,{awp=50004,coords={{59.6,49.6,69}},description="This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nGluk's pets are level 13 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.",pb=1,petBattleLvl=13,g={
 q(31871,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23458,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21407,{achID=6602,awp=50004,id=6,pb=1}),
+crit(21407,{achID=6602,awp=50004,id=6,pb=1,r=1}),
 crit(21407,{achID=7499,awp=50004,id=12,pb=1})}}),
 crit(21392,{achID=6560,awp=50004,id=11,pb=1}),
 crit(21457,{achID=6612,awp=50004,id=10,pb=1})}}),
@@ -9747,7 +9747,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66412,{awp=50004,coords={{46,60.6,80}},description="This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nElena's pets are level 17 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.",pb=1,petBattleLvl=17,g={
 q(31908,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23466,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21408,{achID=6602,awp=50004,id=7,pb=1}),
+crit(21408,{achID=6602,awp=50004,id=7,pb=1,r=1}),
 crit(21408,{achID=7499,awp=50004,id=13,pb=1})}})}}),
 h(-45,{
 q(26,{c={11},coords={{35.2,8,89}},lvl=16,qgs={4217},r=2,rwp=40003,u=2}),
@@ -11076,7 +11076,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66135,{awp=50004,coords={{58.6,53,10}},description="This pet tamer is Horde only.\n\nDagra's pets are level 3 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - see above.",pb=1,petBattleLvl=3,r=1,g={
 q(31819,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23455,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21403,{achID=6602,awp=50004,id=2,pb=1}),
+crit(21403,{achID=6602,awp=50004,id=2,pb=1,r=1}),
 crit(21403,{achID=7499,awp=50004,id=8,pb=1})}}),
 q(31814,{awp=50004,coords={{58.6,53,10}},maps={63},pb=1,qgs={66135},r=1,sourceQuests={31813},g={
 qo(1,{awp=50004,coords={{20.2,29.5,63}},pb=1,providers={{"n",66136}}}),
@@ -12355,7 +12355,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66422,{awp=50004,coords={{39.6,79.2,199}},description="This pet tamer is Horde only.\n\nCassandra's pets are level 11 of the following consecutive pet classes:\nMechanical - use Elemental (powerful and tanky) pet.\n2. Mechanical - see above.\n3. Mechanical - see above.",pb=1,petBattleLvl=11,r=1,g={
 q(31904,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23460,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21409,{achID=6602,awp=50004,id=8,pb=1}),
+crit(21409,{achID=6602,awp=50004,id=8,pb=1,r=1}),
 crit(21409,{achID=7499,awp=50004,id=14,pb=1})}}),
 q(31918,{altQuests={31917},awp=50004,coords={{39.5,79.1,199}},maps={85},pb=1,qgs={66422},r=1,sourceQuests={31870}}),
 crit(21462,{achID=6612,awp=50004,id=15,pb=1}),
@@ -12820,7 +12820,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66137,{awp=50004,coords={{59.6,71.6,65}},description="This pet tamer is Horde only.\n\nZonya's pets are level 7 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - see above.",pb=1,petBattleLvl=7,r=1,g={
 q(31862,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23457,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21405,{achID=6602,awp=50004,id=4,pb=1}),
+crit(21405,{achID=6602,awp=50004,id=4,pb=1,r=1}),
 crit(21405,{achID=7499,awp=50004,id=10,pb=1})}}),
 q(31817,{awp=50004,coords={{59.6,71.6,65}},maps={66},pb=1,qgs={66137},r=1,sourceQuests={31815},g={
 qo(1,{awp=50004,coords={{57.2,45.8,66}},pb=1,providers={{"n",66372}}}),
@@ -14685,7 +14685,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66452,{awp=50004,coords={{31.8,32.8,64}},description="This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nKela's pets are level 15 of the following consecutive pet classes:\n1. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n2. Critter - see above.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.",pb=1,petBattleLvl=15,g={
 q(31906,{awp=50004,isDaily=1,pb=1,r=1,sourceAchievements={6602},g={
 crit(23462,{achID=8348,awp=50300,id=9,pb=1,r=1})}}),
-crit(21416,{achID=6602,awp=50004,id=11,pb=1}),
+crit(21416,{achID=6602,awp=50004,id=11,pb=1,r=1}),
 crit(21416,{achID=7499,awp=50004,id=17,pb=1})}}),
 crit(21465,{achID=6612,awp=50004,id=18,pb=1}),
 crit(21532,{achID=6560,awp=50004,id=12,pb=1})}}),
@@ -15194,8 +15194,8 @@ h(-12,{
 ach(944,{awp=30002,minReputation={576,42000}})}),
 h(-31,{
 faction(576,{icon=236696,OnTooltip=_.OnTooltipDB.ForTimbermawHold,g={
-crit(2014,{achID=942,awp=30002,id=2,u=17}),
-crit(2014,{achID=943,awp=30002,id=2,u=17})}})}),
+crit(2014,{achID=942,awp=30002,id=2,r=2,u=17}),
+crit(2014,{achID=943,awp=30002,id=2,r=1,u=17})}})}),
 h(-45,{
 q(8469,{coords={{27.8,34.6,83}},cost={{"i",21383,5}},lvl=50,maxReputation={576,42000},qgs={11556},repeatable=1,rwp=40003,sourceQuests={8464},u=2}),
 q(28338,{awp=40003,coords={{64,10.3,77}},qgs={15395},sourceQuests={28373,28392},g={
@@ -16146,7 +16146,7 @@ n(66466,{awp=50004,coords={{65.6,64.6,83}},description="Trixxy's pets are level 
 q(31909,{awp=50004,isDaily=1,pb=1,sourceAchievements={6602},g={
 i(89125,{awp=50004,b=1,f=55,pb=1,q=1}),
 crit(23453,{achID=8348,awp=50300,id=3,pb=1})}}),
-crit(21415,{achID=6602,awp=50004,id=12,pb=1}),
+crit(21415,{achID=6602,awp=50004,id=12,pb=1,r=1}),
 crit(21415,{achID=7499,awp=50004,id=18,pb=1})}}),
 q(31897,{awp=50004,coords={{65.6,64.5,83}},pb=1,qgs={66466},sourceQuests={31917,31918},g={
 qo(1,{awp=50004,coords={{65.6,64.5,83}},pb=1,providers={{"n",66466}}}),
@@ -16560,18 +16560,18 @@ crit(63610,{achID=5851,awp=40200,id=2})}}),
 ach(5841,{awp=40200,r=2,requireSkill=185,u=40,g={
 crit(63555,{achID=5845,awp=40200,id=3,u=40})}}),
 ach(1837,{awp=20001,providers={{"i",34484}},requireSkill=356,u=17}),
-crit(18289,{achID=6030,awp=40300,e=1,id=5,providers={{"i",74142}}})}),
+crit(18289,{achID=6030,awp=40300,e=1,id=5,providers={{"i",74142}},r=2})}),
 flt(101,{awp=50004,pb=1,g={
 p(404,{awp=50004,npcID=61317,pb=1,g={
 crit(21513,{achID=6585,awp=50004,id=40,pb=1}),
 crit(21513,{achID=6586,awp=50004,id=42,pb=1})}})}}),
 h(-31,{
 faction(54,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45578}},r=2,g={
-crit(5329,{achID=948,awp=30002,id=5,u=11}),
-crit(5329,{achID=2762,awp=30200,id=2,u=31})}}),
+crit(5329,{achID=948,awp=30002,id=5,r=2,u=11}),
+crit(5329,{achID=2762,awp=30200,id=2,r=2,u=31})}}),
 faction(47,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45577}},r=2,g={
-crit(5330,{achID=948,awp=30002,id=6,u=11}),
-crit(5330,{achID=2763,awp=30200,id=2,u=31})}})}),
+crit(5330,{achID=948,awp=30002,id=6,r=2,u=11}),
+crit(5330,{achID=2763,awp=30200,id=2,r=2,u=31})}})}),
 h(-32,{
 fp(6,{coords={{55.6,48,87}},crs={1573},r=2})}),
 h(-44,{
@@ -16612,7 +16612,7 @@ q(7807,{coords={{74.1,48.1,87}},cost={{"i",2592,60}},lvl=12,qgs={14724},r=2,rwp=
 q(29352,{awp=40001,coords={{60.1,36.4,87}},isDaily=1,lvl=10,maps={27},qgs={5159},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40001,coords={{59.8,38.2,27}},providers={{"i",69982},{"n",53568}},u=40}),
 cu(81,{awp=40001,u=40}),
-crit(17724,{achID=5841,awp=40200,id=3,u=40})}}),
+crit(17724,{achID=5841,awp=40200,id=3,r=2,u=40})}}),
 q(686,{coords={{39.4,55.8,87}},lvl=25,qgs={2784},r=2,rwp=40003,sourceQuests={683},u=2}),
 q(689,{coords={{38.6,87,87}},lvl=25,maps={25},qgs={2790},r=2,rwp=40003,sourceQuests={686},u=2,g={
 qo(1,{coords={{43.2,27.9,25}},providers={{"i",4521},{"o",2714}},rwp=40003,u=2})}}),
@@ -16634,7 +16634,7 @@ s(124674,12051,{b=1,f=6,q=2})}}),
 q(29351,{awp=40001,coords={{60.1,36.4,87}},isDaily=1,lvl=10,qgs={5159},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40001,providers={{"i",69981},{"n",5595}},u=40}),
 cu(81,{awp=40001,u=40}),
-crit(17723,{achID=5841,awp=40200,id=2,u=40})}}),
+crit(17723,{achID=5841,awp=40200,id=2,r=2,u=40})}}),
 q(7806,{coords={{43.2,31.9,87}},cost={{"i",14047,20}},lvl=50,maxReputation={47,42000},qgs={14723},r=2,repeatable=1,rwp=40003,sourceQuests={7805},u=2}),
 q(7812,{coords={{74.1,48.1,87}},cost={{"i",14047,20}},lvl=50,maxReputation={54,42000},qgs={14724},r=2,repeatable=1,rwp=40003,sourceQuests={7811},u=2}),
 q(3450,{coords={{31.2,4.6,87}},lvl=45,qgs={8507},r=2,rwp=40003,sourceQuests={3448},u=2}),
@@ -16650,16 +16650,16 @@ q(7342,{coords={{19.6,52.2,87}},lvl=52,qgs={14183},r=2,repeatable=1,rwp=40003,u=
 q(29355,{awp=40001,coords={{60.1,36.4,87}},isDaily=1,lvl=10,qgs={5159},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40001,providers={{"i",30816}},u=40}),
 cu(81,{awp=40001,u=40}),
-crit(17726,{achID=5841,awp=40200,id=5,u=40})}}),
+crit(17726,{achID=5841,awp=40200,id=5,r=2,u=40})}}),
 q(29342,{awp=40001,coords={{48.4,8.2,87}},isDaily=1,lvl=10,maps={27},qgs={5161},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40001,coords={{84.6,50.9,27}},providers={{"i",69931}},u=40}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17749,{achID=5847,awp=40200,id=2,u=40})}}),
+crit(17749,{achID=5847,awp=40200,id=2,r=2,u=40})}}),
 q(2039,{coords={{69.4,50.6,87}},isBreadcrumb=1,lvl=12,nextQuests={2038,27031},qgs={6569},r=2}),
 q(29344,{awp=40001,coords={{48.4,8.2,87}},isDaily=1,lvl=10,qgs={5161},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40001,coords={{47.1,14.5,87}},providers={{"n",53544},{"i",69933}},u=40}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17751,{achID=5847,awp=40200,id=4,u=40})}}),
+crit(17751,{achID=5847,awp=40200,id=4,r=2,u=40})}}),
 q(1618,{coords={{48.6,43,87}},cost={{"i",6214,4},{"i",2857,4}},learnedAt=60,maps={49},qgs={6031},r=2,requireSkill=164,g={
 r(8367,{description="This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",itemID=6735,learnedAt=100,q=2,requireSkill=164})}}),
 q(1682,{c={1},coords={{49,42.6,87}},lvl=10,qgs={6031},r=2,rwp=40003,sourceQuests={1681},u=2,g={
@@ -16673,7 +16673,7 @@ q(6612,{coords={{60.1,36.5,87}},isBreadcrumb=1,lvl=35,nextQuests={6610,13825},qg
 q(29356,{awp=40001,coords={{60.1,36.4,87}},isDaily=1,lvl=10,maps={27},qgs={5159},r=2,requireSkill=185,u=40,g={
 qo(1,{awp=40001,coords={{53.9,50.6,27}},providers={{"o",208872}},u=40}),
 cu(81,{awp=40001,u=40}),
-crit(17727,{achID=5841,awp=40200,id=6,u=40})}}),
+crit(17727,{achID=5841,awp=40200,id=6,r=2,u=40})}}),
 q(1073,{coords={{71.9,51.9,87}},cost={{"i",2458,2},{"i",2455,4}},lvl=17,maps={65},qgs={4081},r=2,rwp=40003,sourceQuests={1072},u=2}),
 q(1074,{coords={{71.9,51.9,87}},lvl=17,maps={65},providers={{"i",5732}},qgs={4081},r=2,rwp=40003,sourceQuests={1073},u=2}),
 q(1708,{c={1},coords={{68.2,46.2,87}},lvl=20,maps={56},qgs={6169},r=2,rwp=40003,sourceQuests={1704},u=2,g={
@@ -16686,7 +16686,7 @@ qo(1,{awp=40001,coords={{61.6,72.8,87}},crs={5124},providers={{"i",69984}},u=40}
 qo(2,{awp=40001,coords={{48.9,29.8,87}},providers={{"i",69985},{"o",208870}},u=40}),
 qo(3,{awp=40001,providers={{"i",2678}},u=40}),
 cu(81,{awp=40001,u=40}),
-crit(17725,{achID=5841,awp=40200,id=4,u=40})}}),
+crit(17725,{achID=5841,awp=40200,id=4,r=2,u=40})}}),
 q(2298,{c={4},coords={{51.6,14.8,87}},isBreadcrumb=1,lvl=16,nextQuests={2281},qgs={5165},r=2,rwp=40003,sourceQuests={2299},u=2}),
 q(1709,{c={1},coords={{68.2,46.2,87}},lvl=20,qgs={6169},r=2,rwp=40003,sourceQuests={1708},u=2,g={
 s(121666,6974,{b=1,c={1},f=6,filterForRWP=7,q=2,rwp=40003,u=2})}}),
@@ -16694,7 +16694,7 @@ q(29347,{awp=40001,coords={{48.4,8.2,87}},isDaily=1,lvl=10,maps={27},qgs={5161},
 qo(1,{awp=40001,coords={{84,51,27}},providers={{"i",69940}},u=40}),
 qo(2,{awp=40001,coords={{75.6,52.8,27}},providers={{"n",1355}},u=40}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17752,{achID=5847,awp=40200,id=5,u=40})}}),
+crit(17752,{achID=5847,awp=40200,id=5,r=2,u=40})}}),
 q(1880,{altQuests={1861},c={8},coords={{27.3,8.3,87}},lvl=10,maps={27},qgs={5144},r=2,rwp=40003,sourceQuests={1879},u=2,g={
 qo(1,{coords={{27.7,36.4,27}},providers={{"i",7226},{"o",102984}},rwp=40003,u=2}),
 s(121999,7507,{b=1,c={8},f=1,q=2,rwp=40003,u=2}),
@@ -16702,7 +16702,7 @@ s(122942,9514,{b=1,c={8},f=28,q=2,rwp=40003,u=2})}}),
 q(29343,{awp=40001,coords={{48.4,8.2,87}},isDaily=1,lvl=10,qgs={5161},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40001,coords={{47.5,14.5,87},{71,10,87}},providers={{"i",69932},{"o",208860}},u=40}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17750,{achID=5847,awp=40200,id=3,u=40})}}),
+crit(17750,{achID=5847,awp=40200,id=3,r=2,u=40})}}),
 q(3448,{coords={{77.2,11.8,87}},lvl=45,qgs={2916},r=2,rwp=40003,u=2}),
 q(14111,{awp=30300,c={7},coords={{67.6,89.6,84},{55.2,29.5,87},{55.6,29.2,87},{32.3,23.9,103}},cost={{"i",5177,1},{"i",5176,1},{"i",5175,1},{"i",5178,1}},lvl=30,qgs={17219,20407,23127,35073},r=2,rwp=40003,u=2,g={
 i(46978,{awp=30300,b=1,rwp=40003,u=2})}}),
@@ -16725,7 +16725,7 @@ r(43549,{awp=20300,itemID=33792,learnedAt=35,q=2,requireSkill=164})}}),
 q(29350,{awp=40001,coords={{48.4,8.2,87}},isDaily=1,lvl=10,maps={499},qgs={5161},r=2,requireSkill=356,u=40,g={
 qo(1,{awp=40001,cost={{"i",39684,1},{"i",69980,3},{"i",6529,5}},providers={{"i",69978},{"i",69979},{"o",208864}},u=40}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361},u=40}),
-crit(17753,{achID=5847,awp=40200,id=6,u=40})}}),
+crit(17753,{achID=5847,awp=40200,id=6,r=2,u=40})}}),
 q(3640,{altQuests={3638,3642},coords={{69.8,50.2,87}},learnedAt=200,lvl=30,qgs={7944},r=2,requireSkill=202,rwp=30002,sourceQuests={3630},u=2,g={
 qo(1,{cost={{"i",10793,1}},providers={{"i",11283}},rwp=30002,u=2})}}),
 q(1715,{altQuests={1685},c={9},coords={{47.6,9.6,87}},isBreadcrumb=1,lvl=10,nextQuests={1688},qgs={6120},races={1,7},rwp=40003,u=2}),
@@ -16894,8 +16894,8 @@ r(17554,{isLimited=1,itemID=13478,learnedAt=265,q=1,requireSkill=171}),
 r(6624,{isLimited=1,itemID=5642,learnedAt=150,q=1,requireSkill=171})}}),
 n(9099,{coords={{46.6,47.2,87}},description="Walks around The Great Forge.",r=2,g={
 i(8950,{f=55,lvl=45,q=1}),
-crit(3931,{achID=1279,awp=30002,e=9,id=2,rwp=100205}),
-crit(12859,{achID=1279,awp=30002,e=9,id=3,rwp=100205})}}),
+crit(3931,{achID=1279,awp=30002,e=9,id=2,r=2,rwp=100205}),
+crit(12859,{achID=1279,awp=30002,e=9,id=3,r=2,rwp=100205})}}),
 n(5162,{coords={{47.8,6.6,87}},r=2,g={
 r(7753,{itemID=6328,learnedAt=50,q=1,requireSkill=185}),
 r(20916,{itemID=17062,learnedAt=175,q=1,requireSkill=185}),
@@ -16922,8 +16922,8 @@ m(110,{awp=20001,icon=255136,isRaid=1,lore="Silvermoon City is the capital city 
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",459,385,378}},u=17}),
 h(-31,{awp=20001,u=17,g={
 faction(911,{awp=20001,OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45585}},r=1,u=17,g={
-crit(5317,{achID=762,awp=30002,id=5,u=11}),
-crit(5317,{achID=2767,awp=30200,id=2,u=31})}})}}),
+crit(5317,{achID=762,awp=30002,id=5,r=1,u=11}),
+crit(5317,{achID=2767,awp=30200,id=2,r=1,u=31})}})}}),
 h(-45,{awp=20001,u=17,g={
 q(9725,{c={2},coords={{92,38.8,110}},lvl=60,maps={23},qgs={25223},races={10},rwp=40003,sourceQuests={9723},u=2,g={
 qo(1,{awp=20001,coords={{55.8,16.8,23}},providers={{"n",17878}},u=17}),
@@ -17046,7 +17046,7 @@ n(16636,{awp=20001,coords={{69.8,65.8,110}},r=1,sym={{"select","itemID",5239,521
 n(16664,{awp=20001,coords={{78.45,42.55,110}},r=1,sym={{"sub","common_vendor",4599}},u=17}),
 n(16623,{awp=20001,coords={{64.8,48.6,110}},r=1,sym={{"select","itemID",16059,3428,16060,837,3589,3590,839,838,840,3597,3598,203,201,202,200,3606,2367,3607,2369,2366,2364}},u=17})}}),
 h(-12,{
-crit(18296,{achID=6031,awp=40300,e=1,id=5,providers={{"i",74142}}})}),
+crit(18296,{achID=6031,awp=40300,e=1,id=5,providers={{"i",74142}},r=1})}),
 h(-43,{pb=1,g={
 crit(19852,{achID=6621,awp=50004,id=4,pb=1})}})}}),
 m(84,{icon=255130,isRaid=1,lore="Stormwind City is the capital city of the Alliance. It is located in the northwestern part of Elwynn Forest.\n\nDuring the First War, the Kingdom of Azeroth, including its capital, Stormwind Keep, was utterly destroyed by the Horde and its survivors fled to Lordaeron. After the orcs were defeated at the Dark Portal at the end of the Second War, it was decided that the city would be rebuilt. The nobles of Stormwind assembled a team of the most skilled and ingenious stonemasons and architects they could find--which later turned sour and led to the rise of the Defias.\n\nWith the fall of the northern kingdoms, Stormwind is by far the most populated city in the world. It serves in many ways as the cultural and trade center of the Alliance, even with remote access to the sea. It is home to the Academy of Arcane Sciences, the only wizarding school in Eastern Kingdoms, as well as SI:7, a rogue intelligence organization.",g={
@@ -17055,7 +17055,7 @@ ach(5476,{awp=40200,r=2,requireSkill=356,u=40,g={
 crit(63611,{achID=5851,awp=40200,id=3})}}),
 ach(5474,{awp=40200,r=2,requireSkill=185,u=40,g={
 crit(63556,{achID=5845,awp=40200,id=2,u=40})}}),
-crit(18288,{achID=6030,awp=40300,e=1,id=7,providers={{"i",74142}}})}),
+crit(18288,{achID=6030,awp=40300,e=1,id=7,providers={{"i",74142}},r=2})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",378,379,675}}}),
 h(-30,{
 exp(5150,{collectible=false}),
@@ -17065,10 +17065,10 @@ exp(5148,{collectible=false}),
 exp(10523,{collectible=false})}),
 h(-31,{
 faction(72,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45574}},r=2,g={
-crit(5331,{achID=948,awp=30002,id=7,u=11}),
-crit(5331,{achID=2764,awp=30200,id=2,u=31})}}),
+crit(5331,{achID=948,awp=30002,id=7,r=2,u=11}),
+crit(5331,{achID=2764,awp=30200,id=2,r=2,u=31})}}),
 faction(1353,{awp=50004,providers={{"i",83079}},r=2,g={
-crit(19481,{achID=6828,awp=50004,id=9,u=50})}})}),
+crit(19481,{achID=6828,awp=50004,id=9,r=2,u=50})}})}),
 h(-32,{
 fp(2,{coords={{71,72.5,84}},crs={352},r=2})}),
 h(-43,{awp=50004,pb=1,g={
@@ -18812,7 +18812,7 @@ q(7791,{coords={{53.9,81.7,84}},cost={{"i",2592,60}},lvl=12,qgs={14722},r=2,rwp=
 q(26190,{awp=40003,coords={{50.6,71.9,84}},isDaily=1,qgs={42288},r=2,requireSkill=185,g={
 qo(1,{awp=40003,coords={{56.8,41.2,84}},providers={{"i",57245},{"o",203800}}}),
 cu(81,{awp=40003,u=40}),
-crit(15802,{achID=5474,awp=40200,id=2,u=40})}}),
+crit(15802,{achID=5474,awp=40200,id=2,r=2,u=40})}}),
 q(5645,{altQuests={5641,5647},c={5},coords={{38.8,26.4,84}},lvl=20,maps={87},qgs={376},races={3},rwp=20300,u=2}),
 q(212,{coords={{51.8,93.7,84}},lvl=35,maps={224},qgs={1141},r=2,rwp=40003,u=2,g={
 qo(1,{crs={690},providers={{"i",2476}},rwp=40003,u=2})}}),
@@ -18847,7 +18847,7 @@ q(1665,{altQuests={1678,1683,9582},c={1},coords={{76.8,52.5,84}},lvl=10,provider
 q(1640,{c={1},coords={{76.8,52.5,84}},lvl=10,qgs={6090},r=2,rwp=40003,sourceQuests={1639},u=2}),
 q(26488,{awp=40001,coords={{55,69.6,84}},isDaily=1,qgs={5494},r=2,requireSkill=356,g={
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15815,{achID=5476,awp=40200,id=5,u=40})}}),
+crit(15815,{achID=5476,awp=40200,id=5,r=2,u=40})}}),
 q(7644,{c={2},coords={{48.6,50,84}},lvl=60,maps={234},providers={{"i",18792}},qgs={928,14566},r=2,rwp=40003,sourceQuests={7643},u=2}),
 q(29412,{awp=40200,coords={{58.9,52.7,84}},qgs={54117},r=2,g={
 qo(1,{awp=40200,providers={{"i",71034},{"o",209242}}}),
@@ -18862,7 +18862,7 @@ q(5634,{altQuests={5635,5636,5637,5638,5639,5640},c={5},coords={{47.2,52.2,27},{
 q(26420,{awp=40001,coords={{55,69.6,84}},isDaily=1,qgs={5494},r=2,requireSkill=356,g={
 qo(1,{awp=40001,coords={{57.7,14.1,84}},providers={{"i",58787},{"i",58788},{"o",204281}}}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15813,{achID=5476,awp=40200,id=3,u=40})}}),
+crit(15813,{achID=5476,awp=40200,id=3,r=2,u=40})}}),
 q(6261,{coords={{77,61.2,84}},description="This quest gets marked as completed when you complete the quest 'Dungar Longdrink' (26395).",lvl=10,providers={{"i",16115}},qgs={1323},races={1},rwp=40003,sourceQuests={6281},u=2}),
 q(26395,{awp=40003,coords={{77.2,61,84}},providers={{"i",16115}},qgs={1323},races={1},sourceQuests={26394}}),
 q(25156,{awp=40003,coords={{63.8,61.2,84}},isDaily=1,qgs={50480},r=2,requireSkill=755,g={
@@ -18874,7 +18874,7 @@ q(28807,{awp=40003,coords={{85.7,31.6,84}},qgs={44293},r=2,rwp=70003,sourceQuest
 q(26177,{awp=40003,coords={{50.6,71.9,84}},isDaily=1,qgs={42288},r=2,requireSkill=185,g={
 qo(1,{awp=40003,coords={{47.8,68.4,84}},providers={{"i",57175},{"n",42339}}}),
 cu(81,{awp=40003,u=40}),
-crit(15803,{achID=5474,awp=40200,id=3,u=40})}}),
+crit(15803,{achID=5474,awp=40200,id=3,r=2,u=40})}}),
 q(1701,{c={1},coords={{64.6,37.2,84}},lvl=20,maps={56,65,301},providers={{"i",6842}},qgs={5413},r=2,rwp=40003,sourceQuests={1702},u=2,g={
 qo(1,{crs={1111,4040},providers={{"i",6838}},rwp=40003,u=2}),
 qo(2,{crs={4031,4032},providers={{"i",6839}},rwp=40003,u=2}),
@@ -18897,7 +18897,7 @@ q(27064,{awp=40003,coords={{85.7,31.6,84}},qgs={44293},r=2,rwp=70003,sourceQuest
 q(1939,{c={8},coords={{49.5,85.8,84},{27,8.2,87}},isBreadcrumb=1,lvl=26,nextQuests={1938},qgs={5144,5497},races={1,7},rwp=40003,u=2}),
 q(26414,{awp=40001,coords={{55,69.6,84}},isDaily=1,qgs={5494},r=2,requireSkill=356,g={
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15812,{achID=5476,awp=40200,id=2,u=40})}}),
+crit(15812,{achID=5476,awp=40200,id=2,r=2,u=40})}}),
 q(6183,{coords={{78.3,70.7,84}},lvl=56,qgs={332},r=2,rwp=40003,sourceQuests={6182},u=2}),
 q(399,{coords={{57.7,47.9,84}},lvl=10,maps={52},qgs={1646},r=2,rwp=40003,u=2,g={
 qo(1,{coords={{36.3,54.6,52}},providers={{"i",2998},{"o",1166}},rwp=40003,u=2})}}),
@@ -18948,13 +18948,13 @@ s(128673,16998,{b=1,f=8,q=3,rwp=40003,u=2})}}),
 q(26192,{awp=40003,coords={{50.6,71.9,84}},isDaily=1,qgs={42288},r=2,requireSkill=185,g={
 qo(1,{awp=40003,coords={{77.6,53.2,84}},providers={{"i",57246},{"o",203801}}}),
 cu(81,{awp=40003,u=40}),
-crit(15804,{achID=5474,awp=40200,id=4,u=40})}}),
+crit(15804,{achID=5474,awp=40200,id=4,r=2,u=40})}}),
 q(334,{coords={{58.1,67.5,84}},providers={{"i",2760}},qgs={1428},r=2}),
 q(27044,{awp=40003,coords={{85.7,31.6,84}},qgs={44293},r=2,rwp=70003,sourceQuests={26975,26997}}),
 q(26153,{awp=40003,coords={{50.6,71.9,84}},isDaily=1,qgs={42288},r=2,requireSkill=185,g={
 qo(1,{awp=40003,coords={{55.2,11.4,84}},providers={{"i",57137},{"o",203751}}}),
 cu(81,{awp=40003,u=40}),
-crit(15805,{achID=5474,awp=40200,id=5,u=40})}}),
+crit(15805,{achID=5474,awp=40200,id=5,r=2,u=40})}}),
 q(1940,{c={8},coords={{48.7,87.6,84}},lvl=26,maps={47},qgs={5694},races={1,7},rwp=40003,sourceQuests={1938},u=2,g={
 qo(1,{crs={930,949},providers={{"i",7267}},rwp=40003,u=2})}}),
 q(26975,{awp=40003,coords={{85.8,31.7,84}},qgs={29611},r=2,rwp=70003,sourceQuests={26960}}),
@@ -18965,7 +18965,7 @@ q(6285,{coords={{71,72.5,84}},description="This quest gets marked as completed w
 q(26442,{awp=40001,coords={{55,69.6,84}},isDaily=1,qgs={5494},r=2,requireSkill=356,g={
 qo(1,{awp=40001,coords={{21.5,36.6,84}},providers={{"i",58809},{"o",204284}}}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15814,{achID=5476,awp=40200,id=4,u=40})}}),
+crit(15814,{achID=5476,awp=40200,id=4,r=2,u=40})}}),
 q(393,{coords={{57.7,47.9,84}},lvl=16,providers={{"i",8687}},qgs={1646},r=2,rwp=40003,sourceQuests={392},u=2}),
 q(2206,{c={4},coords={{78.3,70.7,84}},lvl=10,maps={37},qgs={332},r=2,rwp=40003,sourceQuests={2205},u=2,g={
 qo(1,{coords={{48.2,87.6,37}},crs={6846},providers={{"i",7675}},rwp=40003,u=2}),
@@ -18998,7 +18998,7 @@ q(394,{coords={{66,74.1,84}},lvl=16,qgs={482},r=2,rwp=40003,sourceQuests={434},u
 q(26183,{awp=40003,coords={{50.6,71.9,84}},isDaily=1,qgs={42288},r=2,requireSkill=185,g={
 qo(1,{awp=40003,coords={{55.5,74.2,84}},providers={{"i",57197},{"o",203762}}}),
 cu(81,{awp=40003,u=40}),
-crit(15806,{achID=5474,awp=40200,id=6,u=40})}}),
+crit(15806,{achID=5474,awp=40200,id=6,r=2,u=40})}}),
 q(25157,{awp=40003,coords={{63.8,61.2,84}},isDaily=1,qgs={50480},r=2,requireSkill=755,g={
 cu(361,{awp=40003})}}),
 q(1274,{coords={{49.6,44.5,84}},lvl=28,qgs={4982},r=2,rwp=40003,u=2}),
@@ -19053,7 +19053,7 @@ q(7641,{c={2},coords={{48.6,50,84}},lvl=60,qgs={928},r=2,rwp=40003,sourceQuests=
 q(26536,{awp=40001,coords={{55,69.6,84}},isDaily=1,maps={37},qgs={5494},r=2,requireSkill=356,g={
 qo(1,{awp=40001,coords={{23.9,59.8,37}},providers={{"i",58899}}}),
 i(67414,{awp=40001,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(15816,{achID=5476,awp=40200,id=6,u=40})}}),
+crit(15816,{achID=5476,awp=40200,id=6,r=2,u=40})}}),
 q(7639,{c={2},coords={{25,8.2,87}},lvl=60,providers={{"i",18819}},qgs={11406},r=2,rwp=40003,sourceQuests={7637},u=2}),
 q(1449,{coords={{69.5,40.4,84}},lvl=38,maps={26},qgs={5384},r=2,rwp=40003,sourceQuests={1448},u=2}),
 q(26977,{awp=40003,coords={{85.8,31.7,84}},qgs={29611},r=2,rwp=70003,sourceQuests={26960}}),
@@ -20262,9 +20262,9 @@ i(31855,{awp=20001,b=1,f=55,lvl=61,pvp=1,q=1}),
 i(32455,{awp=20001,f=55,lvl=55,pvp=1,q=1}),
 i(32453,{awp=20001,f=55,lvl=65,pvp=1,q=1}),
 i(44957,{awp=30008,b=1,lvl=70,pvp=1,q=4,rwp=70003}),
-i(68772,{awp=40006,b=1,lvl=85,minReputation={1178,0},pvp=1,q=4}),
-i(68773,{awp=40006,b=1,lvl=85,minReputation={1178,0},pvp=1,q=4}),
-i(68774,{awp=40006,b=1,lvl=85,minReputation={1178,0},pvp=1,q=4}),
+i(68772,{awp=40006,b=1,lvl=85,pvp=1,q=4}),
+i(68773,{awp=40006,b=1,lvl=85,pvp=1,q=4}),
+i(68774,{awp=40006,b=1,lvl=85,pvp=1,q=4}),
 s(127130,15198,{b=1,f=9,pvp=1,q=1,r=2}),
 s(127128,15196,{b=1,f=9,pvp=1,q=1,r=2})}}),
 n(28347,{awp=30002,coords={{74.2,58,84}},r=2,sym={{"select","itemID",4565}},g={
@@ -20685,14 +20685,14 @@ ach(5850,{awp=40200,r=1,requireSkill=356,u=40,g={
 crit(63512,{achID=5851,awp=40200,id=1})}}),
 ach(5844,{awp=40200,r=1,requireSkill=185,u=40,g={
 crit(63623,{achID=5845,awp=40200,id=1,u=40})}}),
-crit(18299,{achID=6031,awp=40300,e=1,id=7,providers={{"i",74142}}})}),
+crit(18299,{achID=6031,awp=40300,e=1,id=7,providers={{"i",74142}},r=1})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",450,424}},g={
 p(454,{awp=50004,npcID=61889,pb=1,g={
 crit(21677,{achID=6586,awp=50004,id=85,pb=1})}})}}),
 h(-31,{
 faction(68,{OnTooltip=_.OnTooltipDB.RuneclothTurnIns,providers={{"i",45583}},r=1,g={
-crit(5316,{achID=762,awp=30002,id=7,u=11}),
-crit(5316,{achID=2769,awp=30200,id=2,u=31})}})}),
+crit(5316,{achID=762,awp=30002,id=7,r=1,u=11}),
+crit(5316,{achID=2769,awp=30200,id=2,r=1,u=31})}})}),
 h(-32,{
 fp(11,{coords={{63.6,48.6,998}},crs={4551},r=1})}),
 h(-44,{
@@ -20741,15 +20741,15 @@ q(232,{coords={{50,68.4,998}},lvl=38,providers={{"i",8525}},qgs={5204},r=1,rwp=4
 q(238,{coords={{58.2,55.2,998}},lvl=38,providers={{"i",8523}},qgs={7683},r=1,rwp=40003,sourceQuests={232},u=2}),
 q(29333,{awp=40100,coords={{62.2,44.6,998}},isDaily=1,qgs={4552},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17740,{achID=5844,awp=40200,id=4,u=40})}}),
+crit(17740,{achID=5844,awp=40200,id=4,r=1,u=40})}}),
 q(1998,{c={4},coords={{83.6,67.6,998}},lvl=16,maps={21},qgs={6467},races={5},rwp=40003,u=2,g={
 qo(1,{coords={{59.6,34.2,21}},crs={6570},providers={{"i",7306}},rwp=40003,u=2})}}),
 q(29317,{awp=40100,coords={{80.7,31.2,998}},isDaily=1,qgs={4573},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17764,{achID=5850,awp=40200,id=2,u=40})}}),
+crit(17764,{achID=5850,awp=40200,id=2,r=1,u=40})}}),
 q(29315,{awp=40100,coords={{62.2,44.6,998}},isDaily=1,qgs={4552},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17738,{achID=5844,awp=40200,id=2,u=40})}}),
+crit(17738,{achID=5844,awp=40200,id=2,r=1,u=40})}}),
 q(1961,{c={8},coords={{85,10.2,998}},cost={{"i",2589,10}},lvl=15,maps={21},qgs={4568},r=1,rwp=40003,sourceQuests={1960},u=2,g={
 qo(2,{crs={1867,1888,1889,1912,1913,1914,1915,3577,3578},providers={{"i",7293}},rwp=40003,u=2})}}),
 q(1478,{altQuests={1506},c={9},coords={{61.6,52.6,18}},lvl=10,qgs={5724},races={2,5},rwp=40003,u=2}),
@@ -20767,10 +20767,10 @@ qo(3,{coords={{85.4,10.2,998}},providers={{"i",7308},{"o",105175}},rwp=40003,u=2
 q(29320,{awp=40100,coords={{80.7,31.2,998}},isDaily=1,qgs={4573},r=1,requireSkill=356,g={
 i(69907,{awp=40100,q=1}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17766,{achID=5850,awp=40200,id=4,u=40})}}),
+crit(17766,{achID=5850,awp=40200,id=4,r=1,u=40})}}),
 q(29332,{awp=40100,coords={{62.2,44.6,998}},isDaily=1,qgs={4552},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17739,{achID=5844,awp=40200,id=3,u=40})}}),
+crit(17739,{achID=5844,awp=40200,id=3,r=1,u=40})}}),
 q(2995,{coords={{73.3,32.4,998}},lvl=42,maps={26},qgs={7825},r=1,rwp=40003,u=2,g={
 qo(1,{coords={{32,46.9,26}},rwp=40003,u=2}),
 qo(2,{coords={{29.7,48.5,26}},rwp=40003,u=2}),
@@ -20786,7 +20786,7 @@ i(69999,{awp=40100,q=1,g={
 i(69995,{awp=40100,q=1}),
 i(69998,{awp=40100,q=1})}}),
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17768,{achID=5850,awp=40200,id=6,u=40})}}),
+crit(17768,{achID=5850,awp=40200,id=6,r=1,u=40})}}),
 q(8273,{coords={{73.4,32.4,998}},lvl=42,qgs={7825},r=1,rwp=40003,sourceQuests={2782},u=2,g={
 s(131138,20643,{b=1,f=5,q=2,rwp=40003,u=2}),
 s(131137,20642,{b=1,f=4,q=2,rwp=40003,u=2})}}),
@@ -20794,7 +20794,7 @@ q(1959,{c={8},coords={{39,86,85},{25,20.6,88}},isBreadcrumb=1,lvl=15,nextQuests=
 q(6324,{coords={{63.4,48.6,998}},lvl=10,maps={18},providers={{"i",16210}},qgs={4551},races={5},sourceQuests={6322}}),
 q(29334,{awp=40100,coords={{62.2,44.6,998}},isDaily=1,qgs={4552},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17741,{achID=5844,awp=40200,id=5,u=40})}}),
+crit(17741,{achID=5844,awp=40200,id=5,r=1,u=40})}}),
 q(1358,{coords={{50,68.4,998}},lvl=10,maps={10},providers={{"i",6016}},qgs={5204},r=1,rwp=40003,sourceQuests={1359},u=2,g={
 s(123860,10637,{b=1,f=4,q=2,rwp=40003,u=2}),
 s(123861,10638,{b=1,f=3,q=2,rwp=40003,u=2})}}),
@@ -20815,7 +20815,7 @@ q(1962,{c={8},coords={{70.2,30.2,998}},lvl=15,qgs={11049},r=1,rwp=40003,sourceQu
 s(122002,7510,{b=1,c={8},f=4,q=2,rwp=40003,u=2})}}),
 q(29319,{awp=40100,coords={{80.7,31.2,998}},isDaily=1,qgs={4573},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17765,{achID=5850,awp=40200,id=3,u=40})}}),
+crit(17765,{achID=5850,awp=40200,id=3,r=1,u=40})}}),
 q(1882,{c={8},coords={{85,10.2,998}},lvl=10,maps={18},qgs={4568},races={5,8},rwp=40003,sourceQuests={1881,1883},u=2,g={
 qo(1,{coords={{77.4,62.1,18}},providers={{"i",7227},{"o",102985}},rwp=40003,u=2}),
 s(121999,7507,{b=1,c={8},f=1,q=2,rwp=40003,u=2}),
@@ -20844,7 +20844,7 @@ q(14418,{awp=30300,c={4},coords={{83.2,69,998}},lvl=10,providers={{"i",7294}},qg
 s(121842,7298,{b=1,c={4},f=20,q=2,rwp=40003,u=2})}}),
 q(29322,{awp=40100,coords={{80.7,31.2,998}},isDaily=1,qgs={4573},r=1,requireSkill=356,g={
 i(67414,{awp=40100,b=1,q=1,sourceQuests={26414,26420,26442,26488,26536,26543,26556,26557,26572,26588,29317,29319,29320,29321,29322,29323,29324,29325,29345,29346,29348,29349,29354,29359,29361}}),
-crit(17767,{achID=5850,awp=40200,id=5,u=40})}}),
+crit(17767,{achID=5850,awp=40200,id=5,r=1,u=40})}}),
 q(1164,{coords={{64.8,49.6,998}},lvl=27,maps={14},qgs={4486},r=1,rwp=40003,u=2,g={
 qo(1,{coords={{56.2,36,14}},crs={4480},providers={{"i",5830}},rwp=40003,u=2}),
 qo(2,{coords={{54.5,38.6,14}},crs={4481},providers={{"i",5832}},rwp=40003,u=2}),
@@ -20857,7 +20857,7 @@ q(5658,{altQuests={5660,5661,5662,5663},c={5},coords={{54.2,42.8,1},{47,58.8,7},
 q(1841,{c={1},coords={{57.2,30.2,10}},lvl=20,qgs={5878},r=1,rwp=40003,sourceQuests={1838},u=2}),
 q(29360,{awp=40100,coords={{62.2,44.6,998}},isDaily=1,qgs={4552},r=1,requireSkill=185,g={
 cu(81,{awp=40100,u=40}),
-crit(17742,{achID=5844,awp=40200,id=6,u=40})}})}),
+crit(17742,{achID=5844,awp=40200,id=6,r=1,u=40})}})}),
 h(-58,{
 n(4604,{coords={{54.8,38,998}},r=1,sym={{"select","itemID",3027,3026}},g={
 s(124210,11303,{f=32,isLimited=1,lvl=11,q=2}),
@@ -20898,8 +20898,8 @@ s(117011,799,{f=5,lvl=5,q=1})}}),
 n(4556,{coords={{61.4,41.2,998}},r=1,sym={{"select","itemID",1194,2479,2130,2492,2139,2488,2134,2491,2480,2132,2131,2494,2490,2489,2495,2493}}}),
 n(8403,{coords={{67.6,44.1,998}},r=1,g={
 p(55,{awp=11101,itemID=10393,npcID=7395,q=1,spellID=10688}),
-crit(3929,{achID=1280,awp=30002,e=9,id=3,rwp=100205}),
-crit(4227,{achID=1280,awp=30002,e=9,id=2,rwp=100205})}}),
+crit(3929,{achID=1280,awp=30002,e=9,id=3,r=1,rwp=100205}),
+crit(4227,{achID=1280,awp=30002,e=9,id=2,r=1,rwp=100205})}}),
 n(4589,{coords={{70.1,58.4,998}},r=1,sym={{"sub","common_vendor",5565}},g={
 r(23399,{isLimited=1,itemID=18949,learnedAt=155,q=1,requireSkill=165}),
 r(9202,{isLimited=1,itemID=7451,learnedAt=190,q=2,requireSkill=165})}}),
@@ -22253,7 +22253,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66520,{awp=50004,coords={{25.6,47.6,36}},description="This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nDurin's pets are level 17 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Elemental - use Aquatic (powerful) or Critter (tanky) pet.",pb=1,petBattleLvl=17,g={
 q(31914,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23451,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21603,{achID=6603,awp=50004,id=10,pb=1}),
+crit(21603,{achID=6603,awp=50004,id=10,pb=1,r=2}),
 crit(21603,{achID=7499,awp=50004,id=23,pb=1})}}),
 crit(21423,{achID=6613,awp=50004,id=4,pb=1}),
 crit(21555,{achID=6560,awp=50004,id=29,pb=1})}}),
@@ -22629,7 +22629,7 @@ n(66522,{awp=50004,coords={{40.2,76.6,42}},description="Lydia's pets are level 1
 q(31916,{awp=50004,isDaily=1,pb=1,sourceAchievements={6603},g={
 i(89125,{awp=50004,b=1,f=55,pb=1,q=1}),
 crit(23452,{achID=8348,awp=50300,id=2,pb=1})}}),
-crit(21602,{achID=6603,awp=50004,id=12,pb=1}),
+crit(21602,{achID=6603,awp=50004,id=12,pb=1,r=2}),
 crit(21602,{achID=7499,awp=50004,id=24,pb=1})}}),
 q(31915,{awp=50004,coords={{40,76.4,42}},pb=1,qgs={66522},sourceQuests={31917,31918},g={
 qo(1,{awp=50004,coords={{40,76.4,42}},pb=1,providers={{"n",66522}}}),
@@ -23248,7 +23248,7 @@ h(-43,{awp=50004,pb=1,g={
 n(65655,{awp=50004,coords={{19.8,44.8,47}},description="This pet tamer is Alliance only.\n\nEric's pets are level 7 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Beast - see above.",pb=1,petBattleLvl=7,r=2,g={
 q(31850,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23444,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21399,{achID=6603,awp=50004,id=4,pb=1}),
+crit(21399,{achID=6603,awp=50004,id=4,pb=1,r=2}),
 crit(21399,{achID=7499,awp=50004,id=4,pb=1})}}),
 q(31729,{awp=50004,coords={{19.8,44.8,47}},maps={50},pb=1,qgs={65655},r=2,sourceQuests={31726},g={
 qo(1,{awp=50004,coords={{46,40.4,50}},pb=1,providers={{"n",63194}}}),
@@ -23898,7 +23898,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66512,{awp=50004,coords={{67,52.4,23}},description="This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nDeiza's pets are level 14 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Undead - use Critter (powerful) or Aquatic (tanky) pet.",pb=1,petBattleLvl=14,g={
 q(31911,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23448,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21599,{achID=6603,awp=50004,id=8,pb=1}),
+crit(21599,{achID=6603,awp=50004,id=8,pb=1,r=2}),
 crit(21599,{achID=7499,awp=50004,id=20,pb=1})}}),
 crit(21430,{achID=6613,awp=50004,id=8,pb=1}),
 crit(21567,{achID=6560,awp=50004,id=41,pb=1})}}),
@@ -23979,7 +23979,7 @@ q(27453,{awp=40003,coords={{53.2,54.6,23}},description="If you abandon this ques
 qo(1,{awp=40003,crs={8519,8520},providers={{"i",61285},{"i",61284}}})}}),
 q(27544,{awp=40003,coords={{35,68.2,23}},isBreadcrumb=1,nextQuests={27420},qgs={45500},sourceQuests={27386}}),
 q(5517,{altQuests={5521,5524},coords={{75.8,54,23}},cost={{"i",12844,25}},lvl=55,minReputation={529,42000},qgs={11536},rwp=40003,sourceQuests={5513},u=2,g={
-i(18182,{b=1,lvl=50,minReputation={529,42000},q=2,rwp=40003,sourceQuests={5517,5521,5524},u=2})}}),
+i(18182,{b=1,lvl=50,q=2,rwp=40003,sourceQuests={5517,5521,5524},u=2})}}),
 q(9129,{coords={{75.6,52.4,23}},lvl=55,qgs={16116},repeatable=1,rwp=40003,sourceQuests={9128},u=2}),
 q(5508,{coords={{75.8,53.8,23}},cost={{"i",12843,1}},lvl=50,qgs={11039},repeatable=1,rwp=40003,u=2,g={
 i(12844,{b=1,factionID=529,q=2,rwp=40003,u=2})}}),
@@ -24707,8 +24707,8 @@ s(117686,2055,{f=23,q=1,rwp=40003,u=2})})}}),
 h(-12,{
 ach(776,{awp=30002,g={
 crit(1285,{achID=42,awp=30002,id=2})}}),
-crit(11081,{achID=3556,awp=30202,e=101,id=5}),
-crit(11141,{achID=3581,awp=30202,e=101,id=5})}),
+crit(11081,{achID=3556,awp=30202,e=101,id=5,r=2}),
+crit(11141,{achID=3581,awp=30202,e=101,id=5,r=1})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646}},g={
 p(374,{awp=50004,npcID=60649,pb=1,g={
 crit(22886,{achID=6586,awp=50004,id=9,pb=1})}}),
@@ -24783,7 +24783,7 @@ h(-43,{awp=50004,pb=1,g={
 n(64330,{awp=50004,coords={{41.6,83.6,37}},description="This pet tamer is Alliance only.\n\nJulia's pets are level 2 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.",pb=1,petBattleLvl=2,r=2,g={
 q(31693,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23418,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21396,{achID=6603,awp=50004,id=1,pb=1}),
+crit(21396,{achID=6603,awp=50004,id=1,pb=1,r=2}),
 crit(21396,{achID=7499,awp=50004,id=1,pb=1})}}),
 q(31550,{awp=50004,coords={{40.3,66,37}},pb=1,qgs={63014},r=2,sourceQuests={31785}}),
 q(31308,{awp=50004,coords={{40.3,66,37}},pb=1,qgs={63014},r=2}),
@@ -25065,8 +25065,8 @@ i(20483,{awp=20001,b=1,crs={15298},q=1,u=17})}})}}),
 h(-12,{awp=20001,u=17,g={
 ach(859,{awp=20001,u=17,g={
 crit(1550,{achID=42,awp=30002,id=13})}}),
-crit(11083,{achID=3557,awp=30202,e=101,id=3}),
-crit(11135,{achID=3580,awp=30202,e=101,id=3})}}),
+crit(11083,{achID=3557,awp=30202,e=101,id=3,r=1}),
+crit(11135,{achID=3580,awp=30202,e=101,id=3,r=2})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",459,419,387,420}},u=17,g={
 p(460,{awp=50004,npcID=62020,pb=1,u=17,g={
 crit(21644,{achID=6586,awp=50004,id=61,pb=1})}})}}),
@@ -26964,7 +26964,7 @@ r(39742,{awp=20400,b=1,itemID=35253,learnedAt=375,minReputation={1077,9000},q=1,
 r(39734,{awp=20400,b=1,itemID=35269,learnedAt=375,minReputation={1077,9000},q=1,requireSkill=755,u=2105}),
 r(39741,{awp=20400,b=1,itemID=35251,learnedAt=375,minReputation={1077,9000},q=1,requireSkill=755,u=2105}),
 r(39740,{awp=20400,b=1,itemID=35254,learnedAt=375,minReputation={1077,9000},q=1,requireSkill=755,u=2105}),
-r(47055,{awp=20400,b=1,itemID=35268,learnedAt=375,minReputation={1077,21000},q=1,requireSkill=755,rwp=40003,u=2}),
+r(47055,{awp=20400,b=1,itemID=35268,learnedAt=375,minReputation={1077,9000},q=1,requireSkill=755,rwp=40003,u=2}),
 r(39728,{awp=20400,b=1,itemID=35238,learnedAt=375,minReputation={1077,9000},q=1,requireSkill=755,rwp=40003,u=2}),
 r(39731,{awp=20400,b=1,itemID=35239,learnedAt=375,minReputation={1077,9000},q=1,requireSkill=755,u=2105}),
 r(39738,{awp=20400,b=1,itemID=35271,learnedAt=375,minReputation={1077,21000},q=1,requireSkill=755,u=2105}),
@@ -27669,7 +27669,7 @@ h(-43,{awp=50004,pb=1,g={
 n(63194,{awp=50004,coords={{46,40.4,50}},description="This pet tamer is Alliance only.\n\nSteven's pets are level 9 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.",pb=1,petBattleLvl=9,r=2,g={
 q(31852,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23446,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21400,{achID=6603,awp=50004,id=5,pb=1}),
+crit(21400,{achID=6603,awp=50004,id=5,pb=1,r=2}),
 crit(21400,{achID=7499,awp=50004,id=5,pb=1})}}),
 q(31728,{awp=50004,coords={{46,40.4,50}},maps={210},pb=1,qgs={63194},r=2,sourceQuests={31729},g={
 qo(1,{awp=50004,coords={{51.4,73.2,210}},pb=1,providers={{"n",65656}}}),
@@ -28196,7 +28196,7 @@ h(-43,{awp=50004,pb=1,g={
 n(65651,{awp=50004,coords={{33.3,52.6,49}},description="This pet tamer is Alliance only.\n\nLindsay's pets are level 5 of the following consecutive pet classes:\n1. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n2. Critter - see above.\n3. Critter - see above.",pb=1,petBattleLvl=5,r=2,g={
 q(31781,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23420,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21398,{achID=6603,awp=50004,id=3,pb=1}),
+crit(21398,{achID=6603,awp=50004,id=3,pb=1,r=2}),
 crit(21398,{achID=7499,awp=50004,id=3,pb=1})}}),
 q(31726,{awp=50004,coords={{33.2,52.5,49}},maps={47},pb=1,qgs={65651},r=2,sourceQuests={31725},g={
 qo(1,{awp=50004,coords={{19.8,44.8,47}},pb=1,providers={{"n",65655}}}),
@@ -28597,7 +28597,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66515,{awp=50004,coords={{35.4,27.8,32}},description="This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nKortas' pets are level 15 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Dragonkin - see above.\n3. Dragonkin - see above.",pb=1,petBattleLvl=15,g={
 q(31912,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23449,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21600,{achID=6603,awp=50004,id=9,pb=1}),
+crit(21600,{achID=6603,awp=50004,id=9,pb=1,r=2}),
 crit(21600,{achID=7499,awp=50004,id=21,pb=1})}}),
 crit(21442,{achID=6613,awp=50004,id=17,pb=1}),
 crit(21556,{achID=6560,awp=50004,id=30,pb=1})}}),
@@ -29273,7 +29273,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66518,{awp=50004,coords={{76.6,41.6,51}},description="This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nEveressa's pets are level 16 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.",pb=1,petBattleLvl=16,g={
 q(31913,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23450,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21601,{achID=6603,awp=50004,id=11,pb=1}),
+crit(21601,{achID=6603,awp=50004,id=11,pb=1,r=2}),
 crit(21601,{achID=7499,awp=50004,id=22,pb=1})}}),
 crit(21444,{achID=6613,awp=50004,id=19,pb=1}),
 crit(21553,{achID=6560,awp=50004,id=27,pb=1})}}),
@@ -29611,7 +29611,7 @@ h(-43,{awp=50004,pb=1,g={
 n(65656,{awp=50004,coords={{51.4,73.2,210}},description="This pet tamer is Alliance only.\n\nBill's pets are level 11 of the following consecutive pet classes:\n1. Humanonoid - use Undead (powerful) or Beast (tanky) pet.\n2. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n3. Flying - see above.",pb=1,petBattleLvl=11,r=2,g={
 q(31851,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23445,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21401,{achID=6603,awp=50004,id=6,pb=1}),
+crit(21401,{achID=6603,awp=50004,id=6,pb=1,r=2}),
 crit(21401,{achID=7499,awp=50004,id=6,pb=1})}}),
 q(31917,{altQuests={31918},awp=50004,coords={{51.4,73.2,210}},maps={84},pb=1,qgs={65656},r=2,sourceQuests={31728}}),
 crit(21427,{achID=6613,awp=50004,id=5,pb=1}),
@@ -30137,7 +30137,7 @@ h(-43,{awp=50004,pb=1,g={
 n(66478,{awp=50004,coords={{62.8,54.6,26}},description="This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nDavid's pets are level 13 of the following consecutive pet classes:\n1. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.",pb=1,petBattleLvl=13,g={
 q(31910,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23447,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21598,{achID=6603,awp=50004,id=7,pb=1}),
+crit(21598,{achID=6603,awp=50004,id=7,pb=1,r=2}),
 crit(21598,{achID=7499,awp=50004,id=19,pb=1})}}),
 crit(21437,{achID=6613,awp=50004,id=13,pb=1}),
 crit(21564,{achID=6560,awp=50004,id=38,pb=1})}}),
@@ -30607,8 +30607,8 @@ s(122117,7728,{f=4,lvl=29,q=3})}})}),
 h(-12,{
 ach(768,{awp=30002,g={
 crit(1290,{achID=42,awp=30002,id=12})}}),
-crit(11085,{achID=3557,awp=30202,e=101,id=5}),
-crit(11137,{achID=3580,awp=30202,e=101,id=5})}),
+crit(11085,{achID=3557,awp=30202,e=101,id=5,r=1}),
+crit(11137,{achID=3580,awp=30202,e=101,id=5,r=2})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",417,646,417,458}}}),
 h(-30,{
 exp(157,{
@@ -30934,12 +30934,12 @@ h(-12,{awp=40003,g={
 ach(5451,{awp=40003,sourceQuests={27380}}),
 ach(4886,{awp=40003,minReputation={1172,42000},r=1}),
 ach(5482,{awp=40003,r=1,g={
-crit(15952,{achID=5482,awp=40003,coords={{45.8,33.6,241}},id=2,providers={{"n",46885}}}),
-crit(15953,{achID=5482,awp=40003,coords={{45,37.6,241},{46.8,36.8,241}},id=3,providers={{"n",46378}}}),
-crit(15954,{achID=5482,awp=40003,coords={{45.2,42.8,241}},id=4,providers={{"n",46376}}}),
-crit(15955,{achID=5482,awp=40003,coords={{52.8,28.2,241}},id=5,providers={{"n",46377}}}),
-crit(15950,{achID=5482,awp=40003,coords={{45.8,31.6,241}},id=6,providers={{"n",47115}}}),
-crit(15951,{achID=5482,awp=40003,coords={{52,27.6,241}},id=7,providers={{"n",47171}}})}}),
+crit(15952,{achID=5482,awp=40003,coords={{45.8,33.6,241}},id=2,providers={{"n",46885}},r=1}),
+crit(15953,{achID=5482,awp=40003,coords={{45,37.6,241},{46.8,36.8,241}},id=3,providers={{"n",46378}},r=1}),
+crit(15954,{achID=5482,awp=40003,coords={{45.2,42.8,241}},id=4,providers={{"n",46376}},r=1}),
+crit(15955,{achID=5482,awp=40003,coords={{52.8,28.2,241}},id=5,providers={{"n",46377}},r=1}),
+crit(15950,{achID=5482,awp=40003,coords={{45.8,31.6,241}},id=6,providers={{"n",47115}},r=1}),
+crit(15951,{achID=5482,awp=40003,coords={{52,27.6,241}},id=7,providers={{"n",47171}},r=1})}}),
 ach(4866,{awp=40003,g={
 crit(13598,{achID=4868,awp=40003,id=6,u=40})}}),
 ach(4873,{awp=40003,r=2,sourceQuests={27468,27545,27641,27642,27649,27651,27787,27817,28244,28247,28413,28655},g={
@@ -30949,10 +30949,10 @@ crit(13989,{achID=4875,awp=40003,id=5,u=40})}}),
 ach(4960,{awp=40003,sourceQuests={27868}}),
 ach(4885,{awp=40003,minReputation={1174,42000},r=2}),
 ach(5481,{awp=40003,r=2,g={
-crit(15948,{achID=5481,awp=40003,coords={{49,37.2,241}},id=2,providers={{"n",46493}}}),
-crit(15949,{achID=5481,awp=40003,coords={{50.8,33.8,241},{51.6,33,241}},id=3,providers={{"n",46756}}}),
-crit(15950,{achID=5481,awp=40003,coords={{45.8,31.6,241}},id=4,providers={{"n",47115}}}),
-crit(15951,{achID=5481,awp=40003,coords={{52,27.6,241}},id=5,providers={{"n",47171}}})}})}}),
+crit(15948,{achID=5481,awp=40003,coords={{49,37.2,241}},id=2,providers={{"n",46493}},r=2}),
+crit(15949,{achID=5481,awp=40003,coords={{50.8,33.8,241},{51.6,33,241}},id=3,providers={{"n",46756}},r=2}),
+crit(15950,{achID=5481,awp=40003,coords={{45.8,31.6,241}},id=4,providers={{"n",47115}},r=2}),
+crit(15951,{achID=5481,awp=40003,coords={{52,27.6,241}},id=5,providers={{"n",47171}},r=2})}})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398,393,647,648,414,388,418}},g={
 p(550,{awp=50004,coords={{19.65,17.45,241},{38.5,30.1,241},{45.6,41.3,241},{50.6,32.2,241},{44.6,26,634}},description="Most common as secondary pet in Twilight Highlands. The given coordinates only indicates the wider areas where they can be found as primary pets.",npcID=62905,pb=1,g={
 crit(21680,{achID=6586,awp=50004,id=27,pb=1})}}),
@@ -31693,14 +31693,14 @@ s(208186,62404,{awp=40003,b=1,f=5,lvl=83,minReputation={1172,9000},q=3,r=1}),
 s(208188,62406,{awp=40003,b=1,f=4,lvl=83,minReputation={1172,9000},q=3,r=1}),
 s(208187,62405,{awp=40003,b=1,f=5,lvl=83,minReputation={1172,9000},q=3,r=1}),
 i(62416,{awp=40003,b=1,f=51,lvl=85,minReputation={1172,21000},q=4}),
-s(208193,62417,{awp=40003,b=1,f=5,lvl=85,minReputation={1172,21000},q=4,r=1}),
-s(208195,62420,{awp=40003,b=1,f=5,lvl=85,minReputation={1172,21000},q=4,r=1}),
-s(208194,62418,{awp=40003,b=1,f=7,lvl=85,minReputation={1172,21000},q=4,r=1}),
+s(208193,62417,{awp=40003,b=1,f=5,lvl=85,minReputation={1172,42000},q=4,r=1}),
+s(208195,62420,{awp=40003,b=1,f=5,lvl=85,minReputation={1172,42000},q=4,r=1}),
+s(208194,62418,{awp=40003,b=1,f=7,lvl=85,minReputation={1172,42000},q=4,r=1}),
 i(62368,{b=1,description="This version is only visible on the vendor when you aren't at the required reputation to purchase it yet on your current character.",f=55,lvl=85,minReputation={1172,21000},rwp=50004,u=2}),
 i(68763,{b=1,f=55,lvl=85,minReputation={1172,21000},rwp=50004,u=2}),
-s(208192,62410,{awp=40003,b=1,f=7,lvl=85,minReputation={1172,42000},q=3,r=1}),
-s(208191,62409,{awp=40003,b=1,f=6,lvl=85,minReputation={1172,42000},q=3,r=1}),
-s(208190,62408,{awp=40003,b=1,f=7,lvl=85,minReputation={1172,42000},q=3,r=1}),
+s(208192,62410,{awp=40003,b=1,f=7,lvl=85,minReputation={1172,21000},q=3,r=1}),
+s(208191,62409,{awp=40003,b=1,f=6,lvl=85,minReputation={1172,21000},q=3,r=1}),
+s(208190,62408,{awp=40003,b=1,f=7,lvl=85,minReputation={1172,21000},q=3,r=1}),
 i(62415,{awp=40003,b=1,f=52,lvl=85,minReputation={1172,42000},q=3})}}),
 n(49549,{awp=40003,coords={{77.2,52.8,241}},r=1,sym={{"select","itemID",2451,62260,62261,62262,62266,62263,62264,62265,62253,62254,62255,62256,62257,62259,62258,17190}}}),
 n(50375,{awp=40003,coords={{77.2,53,241}},r=1,sym={{"sub","common_recipes_vendor",3356}}}),
@@ -32590,9 +32590,9 @@ q(27117,{awp=40003,coords={{47.7,65.1,22}},qgs={44452},r=1,sourceQuests={26921,2
 qo(1,{awp=40003,coords={{46.6,71.6,22}},providers={{"n",44317}}})}}),
 q(8415,{c={2},coords={{37.6,32.6,84},{23.6,6.6,87}},isBreadcrumb=1,lvl=50,nextQuests={8414},qgs={928,5149},r=2,rwp=40003,u=2}),
 q(5521,{altQuests={5517,5524},coords={{42.8,83.8,22}},cost={{"i",12844,25}},lvl=55,minReputation={529,42000},qgs={10857},r=2,rwp=40003,sourceQuests={5507},u=2,g={
-i(18182,{b=1,lvl=50,minReputation={529,42000},q=2,rwp=40003,sourceQuests={5517,5521,5524},u=2})}}),
+i(18182,{b=1,lvl=50,q=2,rwp=40003,sourceQuests={5517,5521,5524},u=2})}}),
 q(5524,{altQuests={5517,5521},coords={{83.2,68.2,18}},cost={{"i",12844,25}},lvl=55,minReputation={529,42000},qgs={10856},r=1,rwp=40003,sourceQuests={5504},u=2,g={
-i(18182,{b=1,lvl=50,minReputation={529,42000},q=2,rwp=40003,sourceQuests={5517,5521,5524},u=2})}}),
+i(18182,{b=1,lvl=50,q=2,rwp=40003,sourceQuests={5517,5521,5524},u=2})}}),
 q(5092,{coords={{42.7,84.1,22}},lvl=50,qgs={10838},r=2,rwp=40003,sourceQuests={5066,5090,5091,10373},u=2,g={
 qo(1,{providers={{"n",1783}},rwp=40003,u=2}),
 qo(2,{providers={{"n",1791}},rwp=40003,u=2})}}),
@@ -32997,7 +32997,7 @@ h(-43,{awp=50004,pb=1,g={
 n(65648,{awp=50004,coords={{60.8,18.6,52}},description="This pet tamer is Alliance only.\n\nMacDonald's pets are level 3 of the following consecutive pet classes:\n1. Mechanical - use Elemental (powerful and tanky) pet.\n2. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.",pb=1,petBattleLvl=3,r=2,g={
 q(31780,{awp=50004,isDaily=1,pb=1,r=2,sourceAchievements={6603},g={
 crit(23419,{achID=8348,awp=50300,id=9,pb=1,r=2})}}),
-crit(21397,{achID=6603,awp=50004,id=2,pb=1}),
+crit(21397,{achID=6603,awp=50004,id=2,pb=1,r=2}),
 crit(21397,{achID=7499,awp=50004,id=2,pb=1})}}),
 q(31725,{awp=50004,coords={{80.6,18.4,52}},maps={49},pb=1,qgs={65648},r=2,sourceQuests={31724},g={
 qo(1,{awp=50004,coords={{33.2,52.5,49}},pb=1,providers={{"n",65651}}}),
@@ -33719,20 +33719,20 @@ ach(1205,{awp=20001,u=17}),
 ach(903,{awp=20001,u=17}),
 ach(764,{awp=20001,r=2,u=17}),
 ach(763,{awp=20001,r=1,u=17}),
-crit(18298,{achID=6030,awp=40300,e=1,id=6,providers={{"i",74142}}}),
-crit(18298,{achID=6031,awp=40300,e=1,id=4,providers={{"i",74142}}})}}),
+crit(18298,{achID=6030,awp=40300,e=1,id=6,providers={{"i",74142}},r=2}),
+crit(18298,{achID=6031,awp=40300,e=1,id=4,providers={{"i",74142}},r=1})}}),
 h(-31,{awp=20001,u=17,g={
 faction(936,{awp=20001,collectible=false,description="This is a hidden reputation. It might not count towards reputation achievements.",u=17}),
 faction(1011,{awp=20001,maps={256,257,258,259,260},u=17,g={
-crit(4759,{achID=763,awp=20001,id=4,u=17}),
-crit(4759,{achID=764,awp=20001,id=5,u=17})}}),
+crit(4759,{achID=763,awp=20001,id=4,r=1,u=17}),
+crit(4759,{achID=764,awp=20001,id=5,r=2,u=17})}}),
 faction(932,{awp=20001,maxReputation={934,0},u=17,g={
 crit(4762,{achID=903,awp=20001,id=3,u=17})}}),
 faction(934,{awp=20001,maxReputation={932,0},u=17,g={
 crit(4763,{achID=903,awp=20001,id=2,u=17})}}),
 faction(935,{awp=20001,maps={266,267,269},u=17,g={
-crit(4764,{achID=763,awp=20001,id=6,u=17}),
-crit(4764,{achID=764,awp=20001,id=3,u=17})}})}}),
+crit(4764,{achID=763,awp=20001,id=6,r=1,u=17}),
+crit(4764,{achID=764,awp=20001,id=3,r=2,u=17})}})}}),
 h(-32,{awp=20001,u=17,g={
 fp(128,{awp=20001,coords={{64.08,41.12,111}},crs={18940},u=17})}}),
 h(-43,{awp=50004,pb=1,u=17,g={
@@ -33984,9 +33984,9 @@ s(145113,35375,{awp=20001,b=1,c={11},f=5,lvl=70,minReputation={935,9000},q=3,u=1
 s(139526,29180,{awp=20001,b=1,f=6,lvl=70,minReputation={935,21000},q=3,u=17}),
 r(42592,{awp=20200,b=1,itemID=33159,learnedAt=360,minReputation={935,21000},q=1,requireSkill=755,u=17}),
 r(31082,{awp=20001,b=1,itemID=24182,learnedAt=370,minReputation={935,21000},q=3,requireSkill=755,u=17}),
-s(145097,35359,{awp=20001,b=1,c={11},f=5,lvl=70,minReputation={935,21000},q=3,u=18}),
-s(145072,35330,{awp=20001,b=1,c={9},f=4,lvl=70,minReputation={935,21000},q=3,u=18}),
-s(145087,35345,{awp=20001,b=1,c={8},f=4,lvl=70,minReputation={935,21000},q=3,u=18}),
+s(145097,35359,{awp=20001,b=1,c={11},f=5,lvl=70,minReputation={935,9000},q=3,u=18}),
+s(145072,35330,{awp=20001,b=1,c={9},f=4,lvl=70,minReputation={935,9000},q=3,u=18}),
+s(145087,35345,{awp=20001,b=1,c={8},f=4,lvl=70,minReputation={935,9000},q=3,u=18}),
 r(33999,{awp=20001,b=1,itemID=28273,learnedAt=350,minReputation={935,21000},q=2,requireSkill=333,u=17}),
 r(27926,{awp=20001,itemID=22537,learnedAt=370,minReputation={935,21000},requireSkill=333,rwp=60002,u=17}),
 r(34010,{awp=20001,b=1,itemID=28281,learnedAt=350,minReputation={935,21000},q=2,requireSkill=333,u=17}),
@@ -35905,9 +35905,9 @@ exp(3582,{awp=20001,u=17,g={
 crit(1634,{achID=862,awp=20001,id=14,u=17})}})}}),
 h(-31,{awp=20001,u=17,g={
 faction(946,{awp=20001,maps={246,261,347},r=2,u=17,g={
-crit(5336,{achID=764,awp=20001,id=2,u=17})}}),
+crit(5336,{achID=764,awp=20001,id=2,r=2,u=17})}}),
 faction(947,{awp=20001,maps={246,261,347},r=1,u=17,g={
-crit(4753,{achID=763,awp=20001,id=2,u=17})}})}}),
+crit(4753,{achID=763,awp=20001,id=2,r=1,u=17})}})}}),
 h(-32,{awp=20001,u=17,g={
 fp(102,{awp=20001,coords={{27.8,60,100}},crs={18942},r=1,u=17}),
 fp(129,{awp=20001,coords={{87.4,52.4,100}},crs={18931},r=2,u=17}),
@@ -37016,10 +37016,10 @@ exp(3763,{awp=20001,collectible=false,u=17,g={
 crit(1727,{achID=866,awp=20001,id=20,u=17})}})}}),
 h(-31,{awp=20001,u=17,g={
 faction(978,{awp=20001,OnTooltip=_.OnTooltipDB.ForKurenai,r=2,u=17,g={
-crit(5337,{achID=942,awp=30002,id=3,u=17})}}),
+crit(5337,{achID=942,awp=30002,id=3,r=2,u=17})}}),
 faction(933,{awp=20001,maps={109,272},OnTooltip=_.OnTooltipDB.ForConsortium,u=17}),
 faction(941,{awp=20001,OnTooltip=_.OnTooltipDB.ForMaghar,r=1,u=17,g={
-crit(5321,{achID=943,awp=30002,id=3,u=17})}})}}),
+crit(5321,{achID=943,awp=30002,id=3,r=1,u=17})}})}}),
 h(-32,{awp=20001,u=17,g={
 fp(120,{awp=20001,coords={{57.2,35.2,107}},crs={18808},r=1,u=17}),
 fp(119,{awp=20001,coords={{54.2,75,107}},crs={18789},r=2,u=17})}}),
@@ -39430,12 +39430,12 @@ exp(3645,{awp=20001,collectible=false,u=17,g={
 crit(1659,{achID=863,awp=20001,id=18,u=17})}})}}),
 h(-31,{awp=20001,u=17,g={
 faction(942,{awp=20001,maps={262,263,265},u=17,g={
-crit(4751,{achID=763,awp=20001,id=3,u=17}),
-crit(4751,{achID=764,awp=20001,id=4,u=17}),
+crit(4751,{achID=763,awp=20001,id=3,r=1,u=17}),
+crit(4751,{achID=764,awp=20001,id=4,r=2,u=17}),
 crit(4751,{achID=953,awp=20001,id=3,u=17})}}),
 faction(970,{awp=20001,maps={262},OnTooltip=_.OnTooltipDB.ForSporeggar,u=17,g={
-crit(4757,{achID=942,awp=30002,id=4,u=17}),
-crit(4757,{achID=943,awp=30002,id=4,u=17})}})}}),
+crit(4757,{achID=942,awp=30002,id=4,r=2,u=17}),
+crit(4757,{achID=943,awp=30002,id=4,r=1,u=17})}})}}),
 h(-32,{awp=20001,u=17,g={
 fp(164,{awp=20001,coords={{41.2,28.8,102}},crs={22485},r=2,u=17}),
 fp(151,{awp=20001,coords={{84.8,55,102}},crs={20762},r=1,u=17}),
@@ -40060,16 +40060,16 @@ crit(7253,{achID=1957,awp=30002,id=11,providers={{"i",43633}},u=30}),
 crit(7254,{achID=1957,awp=30002,id=12,providers={{"i",43632}},u=30}),
 crit(7488,{achID=2096,awp=30002,id=4,u=30})}}),
 ach(2018,{awp=30002,OnUpdate=function(t)if settings:GetUnobtainableFilter(33)then	t.u=2;t.rwp=nil;else	t.u=30;t.rwp=30300;end	end,rwp=40001,u=2}),
-crit(18294,{achID=6030,awp=40300,e=1,id=2,providers={{"i",74142}}}),
-crit(18294,{achID=6031,awp=40300,e=1,id=2,providers={{"i",74142}}})}}),
+crit(18294,{achID=6030,awp=40300,e=1,id=2,providers={{"i",74142}},r=2}),
+crit(18294,{achID=6031,awp=40300,e=1,id=2,providers={{"i",74142}},r=1})}}),
 flt(101,{awp=30002,u=30}),
 h(-31,{awp=30002,u=30,g={
 faction(1090,{awp=30002,icon=135933,providers={{"i",43157}},u=30,g={
 crit(4742,{achID=1010,awp=30002,id=3,u=30})}}),
 faction(1094,{awp=30002,icon=132483,maps={118},r=2,u=30,g={
-crit(5340,{achID=3676,awp=30200,id=2,u=31})}}),
+crit(5340,{achID=3676,awp=30200,id=2,r=2,u=31})}}),
 faction(1124,{awp=30002,icon=132850,maps={118},r=1,u=30,g={
-crit(5342,{achID=3677,awp=30200,id=2,u=31})}})}}),
+crit(5342,{achID=3677,awp=30200,id=2,r=1,u=31})}})}}),
 h(-32,{awp=30002,u=30,g={
 fp(310,{awp=30002,coords={{72.1,45.7,125}},crs={28674},u=30})}}),
 n(32838,{awp=30100,u=30,g={
@@ -40190,8 +40190,8 @@ r(55298,{awp=30003,learnedAt=420,requireSkill=164,u=30})}}),
 flt(50,{awp=30003,u=30,g={
 r(59405,{awp=30003,learnedAt=350,requireSkill=164,u=30}),
 r(55656,{awp=30003,learnedAt=415,requireSkill=164,u=30}),
-r(55628,{awp=30003,learnedAt=400,requireSkill=164,rwp=60002,u=30}),
-r(55641,{awp=30003,learnedAt=400,requireSkill=164,rwp=60002,u=30}),
+r(55628,{awp=30003,learnedAt=400,rank=1,requireSkill=164,rwp=60002,u=30}),
+r(55641,{awp=30003,learnedAt=400,rank=1,requireSkill=164,rwp=60002,u=30}),
 r(55732,{awp=30003,learnedAt=420,requireSkill=164,rwp=50004,u=2}),
 r(56357,{awp=30003,learnedAt=420,requireSkill=164,u=30}),
 r(59406,{awp=30003,learnedAt=430,requireSkill=164,u=30}),
@@ -40887,14 +40887,14 @@ i(43137,{awp=30002,providers={{"o",192825}},q=1,u=30}),
 i(43138,{awp=30002,providers={{"o",192824}},q=1,u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12082,{achID=1782,awp=30002,id=5,u=30})}}),
+crit(12082,{achID=1782,awp=30002,id=5,r=2,u=30})}}),
 q(13115,{awp=30002,coords={{70,39,125}},isDaily=1,maxReputation={1090,42000},qgs={29631},r=1,requireSkill=185,u=30,g={
 qo(1,{awp=30002,cost={{"i",43138,6},{"i",43137,1},{"i",43139,1}},providers={{"i",43136}},u=30}),
 i(43137,{awp=30002,providers={{"o",192825}},q=1,u=30}),
 i(43138,{awp=30002,providers={{"o",192824}},q=1,u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12083,{achID=1783,awp=30002,id=5,u=30})}}),
+crit(12083,{achID=1783,awp=30002,id=5,r=1,u=30})}}),
 q(13272,{awp=30002,coords={{36.1,33.5,125}},lc={1,"questID",13268,"questID",13269,"questID",13265,"questID",13270,"spellID",59390,"spellID",343634,"spellID",392396},qgs={28699},requireSkill=197,u=30,g={
 sp(59390,{awp=30002,u=30})}}),
 q(13101,{awp=30002,coords={{40.6,64.9,125}},isDaily=1,maxReputation={1090,42000},qgs={28705},r=2,requireSkill=185,u=30,g={
@@ -40902,13 +40902,13 @@ qo(1,{awp=30002,providers={{"i",34747}},u=30}),
 qo(2,{awp=30002,providers={{"i",43128},{"o",192823}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12078,{achID=1782,awp=30002,id=3,u=30})}}),
+crit(12078,{achID=1782,awp=30002,id=3,r=2,u=30})}}),
 q(13113,{awp=30002,coords={{70,39,125}},isDaily=1,maxReputation={1090,42000},qgs={29631},r=1,requireSkill=185,u=30,g={
 qo(1,{awp=30002,providers={{"i",34747}},u=30}),
 qo(2,{awp=30002,providers={{"i",43128},{"o",192823}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12079,{achID=1783,awp=30002,id=3,u=30})}}),
+crit(12079,{achID=1783,awp=30002,id=3,r=1,u=30})}}),
 q(13834,{awp=30002,coords={{53,64.9,125}},isDaily=1,maps={123},maxReputation={1090,42000},qgs={28742},requireSkill=356,u=30,g={
 qo(1,{awp=30002,providers={{"i",45904}},u=30}),
 i(46007,{awp=30002,b=1,q=1,u=30}),
@@ -40929,12 +40929,12 @@ q(13100,{awp=30002,coords={{40.6,64.9,125}},isDaily=1,maps={126},maxReputation={
 qo(1,{awp=30002,cost={{"i",43013,2},{"i",43100,4},{"i",43101,1}},providers={{"i",43099}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(11960,{achID=1782,awp=30002,id=2,u=30})}}),
+crit(11960,{achID=1782,awp=30002,id=2,r=2,u=30})}}),
 q(13112,{awp=30002,coords={{70,39,125}},isDaily=1,maps={126},maxReputation={1090,42000},qgs={29631},r=1,requireSkill=185,u=30,g={
 qo(1,{awp=30002,cost={{"i",43013,2},{"i",43100,4},{"i",43101,1}},providers={{"i",43099}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(11961,{achID=1783,awp=30002,id=2,u=30})}}),
+crit(11961,{achID=1783,awp=30002,id=2,r=1,u=30})}}),
 q(24582,{awp=30002,coords={{57.3,66.7,125}},isWeekly=1,maps={162},qgs={20735},u=33,g={
 qo(1,{awp=30002,providers={{"n",16061}},u=33})}}),
 q(13832,{awp=30002,coords={{53,64.9,125}},isDaily=1,maps={126},maxReputation={1090,42000},qgs={28742},requireSkill=356,u=30,g={
@@ -40954,12 +40954,12 @@ q(13107,{awp=30002,coords={{40.6,64.9,125}},isDaily=1,maxReputation={1090,42000}
 qo(1,{awp=30002,cost={{"i",43143,4},{"i",34752,4},{"i",43142,1}},providers={{"i",43144}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12084,{achID=1782,awp=30002,id=6,u=30})}}),
+crit(12084,{achID=1782,awp=30002,id=6,r=2,u=30})}}),
 q(13116,{awp=30002,coords={{70,39,125}},isDaily=1,maxReputation={1090,42000},qgs={29631},r=1,requireSkill=185,u=30,g={
 qo(1,{awp=30002,cost={{"i",43143,4},{"i",34752,4},{"i",43142,1}},providers={{"i",43144}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12085,{achID=1783,awp=30002,id=6,u=30})}}),
+crit(12085,{achID=1783,awp=30002,id=6,r=1,u=30})}}),
 q(13148,{awp=30002,coords={{40.7,35.4,125}},lvl=77,providers={{"i",43297},{"n",28701}},repeatable=1,requireSkill=755,u=30,g={
 qo(1,{awp=30002,cost={{"i",36923,1},{"i",43299,1}},providers={{"i",43298}},u=30}),
 cu(61,{awp=30002,u=30})}}),
@@ -41017,12 +41017,12 @@ q(13102,{awp=30002,coords={{40.6,64.9,125}},isDaily=1,maps={126,127},maxReputati
 qo(1,{awp=30002,cost={{"i",43013,4},{"i",43148,4},{"i",43147,1}},providers={{"i",43149}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12080,{achID=1782,awp=30002,id=4,u=30})}}),
+crit(12080,{achID=1782,awp=30002,id=4,r=2,u=30})}}),
 q(13114,{awp=30002,coords={{70,39,125}},isDaily=1,maps={126,127},maxReputation={1090,42000},qgs={29631},r=1,requireSkill=185,u=30,g={
 qo(1,{awp=30002,cost={{"i",43013,4},{"i",43148,4},{"i",43147,1}},providers={{"i",43149}},u=30}),
 i(44113,{awp=30002,b=1,f=55,q=1,u=30}),
 cu(81,{awp=30002,u=30}),
-crit(12081,{achID=1783,awp=30002,id=4,u=30})}}),
+crit(12081,{achID=1783,awp=30002,id=4,r=1,u=30})}}),
 q(12958,{awp=30002,coords={{40.7,35.4,125}},isDaily=1,lvl=65,maps={117,118,120},maxReputation={1090,42000},qgs={28701},requireSkill=755,u=30,g={
 qo(1,{awp=30002,cost={{"i",36917,1},{"i",36932,1},{"i",41989,1}},providers={{"i",43269}},u=30}),
 cu(61,{awp=30002,u=30})}}),
@@ -42145,10 +42145,10 @@ s(175728,45427,{awp=30002,b=1,c={1},cost={{"i",45651,1}},f=7,lvl=80,q=4,u=31})}}
 n(35508,{awp=30002,coords={{37.2,55.6,125}},r=1,sym={{"select","npcID",32509},{"pop"}},u=30}),
 n(35507,{awp=30002,coords={{37.2,55.6,125}},r=2,sym={{"select","npcID",32509},{"pop"}},u=30}),
 n(28715,{awp=30002,coords={{38.62,55.57,125}},u=30,g={
-i(82470,{awp=50004,c={8},f=200,isLimited=1,lvl=90,q=3,type="characterUnlockSpellID",u=30}),
-i(44714,{awp=30003,c={8},f=200,isLimited=1,lvl=80,q=2,rwp=70003,type="characterUnlockSpellID",u=30}),
-i(44602,{awp=30003,c={8},f=200,isLimited=1,lvl=80,q=2,rwp=70003,type="characterUnlockSpellID",u=30}),
-i(44709,{awp=30002,c={8},f=200,isLimited=1,lvl=60,q=3,type="characterUnlockSpellID",u=30})}}),
+i(82470,{awp=50004,c={8},f=200,isLimited=1,lvl=90,q=3,spellID=120146,type="characterUnlockSpellID",u=30}),
+i(44714,{awp=30003,c={8},f=200,isLimited=1,lvl=80,q=2,rwp=70003,spellID=61316,type="characterUnlockSpellID",u=30}),
+i(44602,{awp=30003,c={8},f=200,isLimited=1,lvl=80,q=2,rwp=70003,spellID=61024,type="characterUnlockSpellID",u=30}),
+i(44709,{awp=30002,c={8},f=200,isLimited=1,lvl=60,q=3,spellID=61305,type="characterUnlockSpellID",u=30})}}),
 n(28776,{awp=30002,coords={{51.8,55.8,125}},sym={{"select","itemID",31779,31804,36941,31776,19031,31404,5976,23999,31777,31774,31778,31773,15198,43300,32828,15196,31405,31780,15197,31781,19506,32445,31775,15199,19032,43349,49052,49054,35280,35279,40643,43348,24344,35221,24004,19505}},u=30}),
 n(40160,{awp=30002,coords={{40,28.9,125}},u=33,g={
 i(47556,{awp=30002,cost={{"i",43102,6}},q=3,u=32}),
@@ -45619,9 +45619,9 @@ s(172223,39059,{awp=30002,b=1,f=6,q=2,u=30})}}),
 q(12154,{awp=30002,coords={{77,48.6,116}},qgs={26883},r=2,sourceQuests={12138},u=30,g={
 i(36935,{awp=30002,q=1,u=30})}}),
 q(12170,{awp=30002,coords={{26.4,65.8,116}},isDaily=1,maxReputation={1052,42000},pvp=1,qgs={27120},r=1,u=30,g={
-crit(7287,{achID=2017,awp=30002,id=2,pvp=1,u=30})}}),
+crit(7287,{achID=2017,awp=30002,id=2,pvp=1,r=1,u=30})}}),
 q(12444,{awp=30002,coords={{29.9,59.7,116}},isDaily=1,maxReputation={1050,42000},pvp=1,qgs={27783},r=2,u=30,g={
-crit(7278,{achID=2016,awp=30002,id=2,pvp=1,u=30})}}),
+crit(7278,{achID=2016,awp=30002,id=2,pvp=1,r=2,u=30})}}),
 q(12199,{awp=30002,coords={{65.1,47.2,116}},qgs={27227},r=1,sourceQuests={12198},u=30,g={
 qo(1,{awp=30002,providers={{"n",26405}},u=30}),
 s(172180,39015,{awp=30002,b=1,f=5,q=2,u=30}),
@@ -45637,7 +45637,7 @@ qo(1,{awp=30002,providers={{"i",36859},{"o",188518}},u=30}),
 qo(2,{awp=30002,providers={{"i",36868},{"o",188525}},u=30})}}),
 q(12293,{awp=30002,coords={{31.8,60.1,116}},qgs={26875},r=2,sourceQuests={12292},u=30}),
 q(12315,{awp=30002,coords={{10,77.2,116}},isDaily=1,pvp=1,qgs={27532},r=1,u=30,g={
-crit(7293,{achID=2017,awp=30002,id=8,pvp=1,u=30})}}),
+crit(7293,{achID=2017,awp=30002,id=8,pvp=1,r=1,u=30})}}),
 q(12184,{awp=30002,coords={{76.9,48.4,116}},qgs={26885},r=2,sourceQuests={12183},u=30}),
 q(12202,{awp=30002,coords={{65.1,47.6,116}},qgs={26666},r=1,sourceQuests={12201},u=30}),
 q(12054,{awp=30002,coords={{65.2,47.7,116}},qgs={26584},r=1,sourceQuests={12026},u=30,g={
@@ -45654,7 +45654,7 @@ i(38745,{awp=30002,b=1,f=52,q=2,u=30}),
 i(38747,{awp=30002,b=1,f=52,q=2,u=30}),
 i(38746,{awp=30002,b=1,f=52,q=2,u=30})}}),
 q(12314,{awp=30002,coords={{22.1,81.2,116}},isDaily=1,pvp=1,qgs={27520},r=2,u=30,g={
-crit(7284,{achID=2016,awp=30002,id=8,pvp=1,u=30})}}),
+crit(7284,{achID=2016,awp=30002,id=8,pvp=1,r=2,u=30})}}),
 q(12120,{awp=30002,coords={{73.9,34.1,116}},qgs={26886},sourceQuests={12116},u=30,g={
 qo(1,{awp=30002,crs={26919},providers={{"i",36826}},u=30}),
 s(172156,38730,{awp=30002,b=1,f=4,q=2,u=30}),
@@ -45739,16 +45739,16 @@ q(12177,{awp=30002,coords={{22,65.1,116}},qgs={27037},r=1,sourceQuests={12176},u
 q(12226,{awp=30002,coords={{32,59.9,116}},qgs={27277},r=2,sourceQuests={12225},u=30,g={
 qo(1,{awp=30002,providers={{"i",37246},{"o",188670}},u=30})}}),
 q(12284,{awp=30002,coords={{34.4,33,116}},isDaily=1,maxReputation={1085,42000},pvp=1,qgs={27451},r=1,u=30,g={
-crit(7290,{achID=2017,awp=30002,id=5,pvp=1,u=30})}}),
+crit(7290,{achID=2017,awp=30002,id=5,pvp=1,r=1,u=30})}}),
 q(12316,{awp=30002,coords={{22,81.3,116}},isDaily=1,pvp=1,qgs={27562},r=2,u=30,g={
-crit(7283,{achID=2016,awp=30002,id=7,pvp=1,u=30})}}),
+crit(7283,{achID=2016,awp=30002,id=7,pvp=1,r=2,u=30})}}),
 q(12317,{awp=30002,coords={{10.1,77.3,116}},isDaily=1,pvp=1,qgs={27563},r=1,u=30,g={
-crit(7294,{achID=2017,awp=30002,id=9,pvp=1,u=30})}}),
+crit(7294,{achID=2017,awp=30002,id=9,pvp=1,r=1,u=30})}}),
 q(12289,{awp=30002,coords={{39.3,43.8,116}},isDaily=1,maxReputation={1050,42000},pvp=1,qgs={27468},r=2,u=30,g={
-crit(7282,{achID=2016,awp=30002,id=6,pvp=1,u=30})}}),
+crit(7282,{achID=2016,awp=30002,id=6,pvp=1,r=2,u=30})}}),
 q(12094,{awp=30002,coords={{79.7,33.6,116}},qgs={26420},sourceQuests={12093},u=30}),
 q(12296,{awp=30002,coords={{40.4,42.6,116}},isDaily=1,maxReputation={1050,42000},pvp=1,qgs={27484},r=2,u=30,g={
-crit(7280,{achID=2016,awp=30002,id=4,pvp=1,u=30})}}),
+crit(7280,{achID=2016,awp=30002,id=4,pvp=1,r=2,u=30})}}),
 q(12292,{awp=30002,coords={{31.8,60.1,116}},qgs={26875},r=2,sourceQuests={12511},u=30,g={
 qo(1,{awp=30002,providers={{"i",37572},{"o",189298}},u=30}),
 s(172157,38732,{awp=30002,b=1,f=4,q=2,u=30}),
@@ -45760,7 +45760,7 @@ q(12203,{awp=30002,coords={{65.1,47.6,116}},qgs={26666},r=1,sourceQuests={12202}
 q(12183,{awp=30002,coords={{76.9,48.4,116}},qgs={26885},r=2,sourceQuests={12180},u=30,g={
 qo(1,{awp=30002,crs={27177},providers={{"i",37035}},u=30})}}),
 q(12280,{awp=30002,coords={{34.4,32.6,116}},isDaily=1,maxReputation={1085,42000},pvp=1,qgs={27422},r=1,u=30,g={
-crit(7289,{achID=2017,awp=30002,id=4,pvp=1,u=30})}}),
+crit(7289,{achID=2017,awp=30002,id=4,pvp=1,r=1,u=30})}}),
 q(12423,{awp=30002,crs={27546},providers={{"i",37830}},r=1,u=30}),
 q(12225,{awp=30002,coords={{31.8,59.5,116}},providers={{"o",188667}},r=2,u=30}),
 q(12414,{awp=30002,coords={{59,26.6,116}},qgs={26377},r=2,u=30,g={
@@ -45790,9 +45790,9 @@ i(38761,{awp=30002,b=1,f=53,q=2,u=30})}}),
 q(12451,{awp=30002,coords={{21,64,116}},qgs={27388},r=1,sourceQuests={12259},u=30}),
 q(12327,{awp=30002,coords={{44,47.9,116}},qgs={27581},sourceQuests={12328},u=30}),
 q(12288,{awp=30002,coords={{33.8,32.8,116}},isDaily=1,maxReputation={1085,42000},pvp=1,qgs={27464},r=1,u=30,g={
-crit(7291,{achID=2017,awp=30002,id=6,pvp=1,u=30})}}),
+crit(7291,{achID=2017,awp=30002,id=6,pvp=1,r=1,u=30})}}),
 q(12268,{awp=30002,coords={{39.6,43.3,116}},isDaily=1,pvp=1,qgs={27416},r=2,u=30,g={
-crit(7279,{achID=2016,awp=30002,id=3,pvp=1,u=30})}}),
+crit(7279,{achID=2016,awp=30002,id=3,pvp=1,r=2,u=30})}}),
 q(12073,{awp=30002,coords={{65.1,47.6,116}},qgs={26666},r=1,sourceQuests={12054},u=30,g={
 qo(1,{awp=30002,providers={{"n",26270},{"n",26268}},u=30})}}),
 q(12185,{awp=30002,coords={{76.9,48.4,116}},qgs={26885},r=2,sourceQuests={12184},u=30,g={
@@ -45807,9 +45807,9 @@ q(12212,{awp=30002,coords={{32,59.9,116}},qgs={27277},r=2,u=30,g={
 qo(1,{awp=30002,crs={26363},providers={{"i",37185}},u=30})}}),
 q(12109,{awp=30002,coords={{31.8,60.1,116}},isBreadcrumb=1,nextQuests={12158},qgs={26875},r=2,sourceQuests={12105},u=30}),
 q(12437,{awp=30002,coords={{14.8,86.4,116}},isDaily=1,pvp=1,qgs={27759},r=2,u=30,g={
-crit(7286,{achID=2016,awp=30002,id=10,pvp=1,u=30})}}),
+crit(7286,{achID=2016,awp=30002,id=10,pvp=1,r=2,u=30})}}),
 q(12432,{awp=30002,coords={{14.8,86.4,116}},isDaily=1,pvp=1,qgs={27708},r=1,u=30,g={
-crit(7292,{achID=2017,awp=30002,id=7,pvp=1,u=30})}}),
+crit(7292,{achID=2017,awp=30002,id=7,pvp=1,r=1,u=30})}}),
 q(12093,{awp=30002,coords={{79.7,33.6,116}},qgs={26420},sourceQuests={12081},u=30,g={
 qo(1,{awp=30002,providers={{"n",26920}},u=30}),
 qo(2,{awp=30002,providers={{"n",26921}},u=30}),
@@ -45848,13 +45848,13 @@ qo(1,{awp=30002,crs={26446,29693},providers={{"i",35798}},u=30}),
 qo(2,{awp=30002,providers={{"i",35782},{"o",188345}},u=30}),
 qo(3,{awp=30002,providers={{"i",37087},{"o",188601}},u=30})}}),
 q(12270,{awp=30002,coords={{34.4,32.6,116}},isDaily=1,maxReputation={1085,42000},pvp=1,qgs={27423},r=1,u=30,g={
-crit(7288,{achID=2017,awp=30002,id=3,pvp=1,u=30})}}),
+crit(7288,{achID=2017,awp=30002,id=3,pvp=1,r=1,u=30})}}),
 q(12244,{awp=30002,coords={{39.5,43.5,116}},isDaily=1,pvp=1,qgs={27371},r=2,u=30,g={
-crit(7281,{achID=2016,awp=30002,id=5,pvp=1,u=30})}}),
+crit(7281,{achID=2016,awp=30002,id=5,pvp=1,r=2,u=30})}}),
 q(12323,{awp=30002,coords={{21.9,80.7,116}},isDaily=1,pvp=1,qgs={27602},r=2,u=30,g={
-crit(7285,{achID=2016,awp=30002,id=9,pvp=1,u=30})}}),
+crit(7285,{achID=2016,awp=30002,id=9,pvp=1,r=2,u=30})}}),
 q(12324,{awp=30002,coords={{11.3,76.7,116}},isDaily=1,pvp=1,qgs={27606},r=1,u=30,g={
-crit(7295,{achID=2017,awp=30002,id=10,pvp=1,u=30})}}),
+crit(7295,{achID=2017,awp=30002,id=10,pvp=1,r=1,u=30})}}),
 q(11998,{awp=30002,coords={{59.4,26,116}},qgs={26212},r=2,u=30}),
 q(12159,{awp=30002,coords={{55.1,23.4,116}},qgs={26932},r=2,sourceQuests={12158},u=30,g={
 s(172199,39034,{awp=30002,b=1,f=5,q=2,u=30}),
@@ -46895,8 +46895,8 @@ ach(945,{awp=30002,maps={22,23},u=30,g={
 title(99,{awp=30002,u=30})}}),
 ach(947,{awp=30002,minReputation={1106,42000},u=30,g={
 crit(2418,{achID=1463,awp=30002,id=2,rwp=30008,u=2}),
-crit(2418,{achID=2816,awp=30200,id=2,u=31}),
-crit(2418,{achID=2817,awp=30200,id=2,u=31})}}),
+crit(2418,{achID=2816,awp=30200,id=2,r=1,u=31}),
+crit(2418,{achID=2817,awp=30200,id=2,r=2,u=31})}}),
 ach(1009,{awp=30002,minReputation={1098,42000},u=30,g={
 crit(2421,{achID=1463,awp=30002,id=5,rwp=30008,u=2})}})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",635,641,633}},u=30,g={
@@ -49282,7 +49282,7 @@ crit(21586,{achID=6560,awp=50004,id=60,pb=1})}}),
 h(-44,{awp=40001,g={
 prof(356,{awp=40001,g={
 o(202778,{awp=40001,g={
-i(22739,{awp=40001,c={8},f=200,lvl=60,q=3,type="characterUnlockSpellID"})}})}}),
+i(22739,{awp=40001,c={8},f=200,lvl=60,q=3,spellID=28271,type="characterUnlockSpellID"})}})}}),
 prof(186,{awp=40001,description="Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require Cataclysm Mining.",g={
 p(293,{awp=40001,itemID=67282,npcID=50722,q=3,spellID=93838})}})}}),
 h(-45,{awp=40001,g={
@@ -50344,8 +50344,8 @@ exp(6444,{awp=50004,g={
 crit(20974,{achID=6978,awp=50004,id=12})}})}}),
 h(-31,{awp=50004,g={
 faction(1337,{awp=50004,icon=646377,g={
-crit(19390,{achID=6827,awp=50004,id=4,u=50}),
-crit(19390,{achID=6828,awp=50004,id=4,u=50})}})}}),
+crit(19390,{achID=6827,awp=50004,id=4,r=1,u=50}),
+crit(19390,{achID=6828,awp=50004,id=4,r=2,u=50})}})}}),
 h(-32,{awp=50004,g={
 fp(1070,{awp=50004,coords={{55.8,34.8,422}},crs={63501}}),
 fp(1071,{awp=50004,coords={{56,70.2,422}},crs={63498}}),
@@ -50941,7 +50941,7 @@ p(1211,{awp=50200,b=1,itemID=95422,npcID=70451,q=3,spellID=139932,u=52}),
 p(1213,{awp=50200,b=1,itemID=95424,npcID=70453,q=3,spellID=139934,u=52}),
 p(1212,{awp=50200,b=1,itemID=95423,npcID=70452,q=3,spellID=139933,u=52}),
 p(1180,{awp=50200,b=1,itemID=94126,npcID=69796,q=3,spellID=138087,u=52}),
-i(94232,{awp=50200,b=1,c={3},f=200,lvl=90,q=3,type="characterUnlockSpellID",u=52})}})}})}}),
+i(94232,{awp=50200,b=1,c={3},f=200,lvl=90,q=3,spellID=138430,type="characterUnlockSpellID",u=52})}})}})}}),
 m(504,{awp=50200,icon=136014,lore="The Isle of Thunder is an island found northwest of Kun-Lai Summit and Townlong Steppes. Members of the newly-formed Kirin Tor Offensive and the Sunreaver Onslaught are facing off to lay claim to the isle before the other faction does. Members of the Shado-Pan Assault are united in their singular drive to take down Lei Shen at his seat of power, the Throne of Thunder, once and for all.",maps={505,506,516,517},u=52,petBattleLvl=25,g={
 h(-12,{awp=50200,u=52,g={
 ach(8121,{awp=50200,u=52,g={
@@ -51015,17 +51015,17 @@ n(68000,{awp=50200,coords={{64.6,74.6,504}},r=2,u=52,g={
 i(97191,{awp=50200,b=1,f=52,lvl=90,minReputation={1387,0},q=4,u=52}),
 i(97189,{awp=50200,b=1,f=52,lvl=90,minReputation={1387,0},q=4,u=52}),
 i(80433,{awp=50200,minReputation={1387,0},q=3,u=52}),
-s(278678,97207,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,0},q=4,r=2,u=52}),
+s(278678,97207,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,21000},q=4,r=2,u=52}),
 i(95490,{awp=50200,b=1,cost={{"i",95491,10}},f=55,factionID=1387,minReputation={1387,0},q=3,r=2,u=52}),
 toy(95567,{awp=50200,b=1,minReputation={1387,0},q=1,u=52}),
 i(95489,{awp=50200,b=1,cost={{"i",95491,1}},f=55,factionID=1387,minReputation={1387,0},q=3,r=2,u=52}),
 i(97187,{awp=50200,b=1,f=52,lvl=90,minReputation={1387,0},q=4,u=52}),
 i(97190,{awp=50200,b=1,f=52,lvl=90,minReputation={1387,0},q=4,u=52}),
 i(97188,{awp=50200,b=1,f=52,lvl=90,minReputation={1387,0},q=4,u=52}),
-s(278676,97205,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,0},q=4,r=2,u=52}),
-s(278677,97206,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,0},q=4,r=2,u=52}),
-s(278675,97204,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,0},q=4,r=2,u=52}),
-s(278674,97203,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,0},q=4,r=2,u=52}),
+s(278676,97205,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,21000},q=4,r=2,u=52}),
+s(278677,97206,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,21000},q=4,r=2,u=52}),
+s(278675,97204,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,21000},q=4,r=2,u=52}),
+s(278674,97203,{awp=50200,b=1,f=3,lvl=90,minReputation={1387,21000},q=4,r=2,u=52}),
 i(95054,{awp=50200,b=1,f=55,lvl=90,minReputation={1387,3000},q=1,u=52}),
 i(95053,{awp=50200,b=1,f=55,lvl=90,minReputation={1387,9000},q=1,u=52}),
 s(277390,95532,{awp=50200,b=1,f=4,lvl=90,minReputation={1387,9000},q=4,r=2,u=52}),
@@ -51151,18 +51151,18 @@ ach(8209,{awp=50200,r=1,u=52})}}),
 n(67672,{awp=50200,coords={{33.4,32.4,504}},r=1,u=52,g={
 i(97196,{awp=50200,b=1,f=52,lvl=90,minReputation={1388,0},q=4,u=52}),
 i(97194,{awp=50200,b=1,f=52,lvl=90,minReputation={1388,0},q=4,u=52}),
-i(80433,{awp=50200,minReputation={1387,0},q=3,u=52}),
-s(278683,97212,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,0},q=4,r=1,u=52}),
+i(80433,{awp=50200,minReputation={1388,0},q=3,u=52}),
+s(278683,97212,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,21000},q=4,r=1,u=52}),
 i(95488,{awp=50200,b=1,cost={{"i",95491,10}},f=55,factionID=1388,minReputation={1388,0},q=3,r=1,u=52}),
 i(97192,{awp=50200,b=1,f=52,lvl=90,minReputation={1388,0},q=4,u=52}),
 i(97195,{awp=50200,b=1,f=52,lvl=90,minReputation={1388,0},q=4,u=52}),
 i(97193,{awp=50200,b=1,f=52,lvl=90,minReputation={1388,0},q=4,u=52}),
-s(278681,97210,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,0},q=4,r=1,u=52}),
-s(278682,97211,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,0},q=4,r=1,u=52}),
-s(278680,97209,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,0},q=4,r=1,u=52}),
+s(278681,97210,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,21000},q=4,r=1,u=52}),
+s(278682,97211,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,21000},q=4,r=1,u=52}),
+s(278680,97209,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,21000},q=4,r=1,u=52}),
 toy(95568,{awp=50200,b=1,minReputation={1388,0},q=1,u=52}),
 i(95487,{awp=50200,b=1,cost={{"i",95491,1}},f=55,factionID=1388,minReputation={1388,0},q=3,r=1,u=52}),
-s(278679,97208,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,0},q=4,r=1,u=52}),
+s(278679,97208,{awp=50200,b=1,f=3,lvl=90,minReputation={1388,21000},q=4,r=1,u=52}),
 i(97157,{awp=50200,b=1,f=55,lvl=90,minReputation={1388,3000},q=1,u=52}),
 i(97158,{awp=50200,b=1,f=55,lvl=90,minReputation={1388,9000},q=1,u=52}),
 s(277381,95523,{awp=50200,b=1,f=4,lvl=90,minReputation={1388,9000},q=4,r=1,u=52}),
@@ -51645,11 +51645,11 @@ s(268414,81548,{awp=50004,b=1,f=23,q=2}),
 s(268415,81549,{awp=50004,b=1,f=21,q=2}),
 s(268416,81550,{awp=50004,b=1,f=20,q=2}),
 s(268417,81551,{awp=50004,b=1,f=23,q=2}),
-crit(19330,{achID=6535,awp=50004,id=3}),
-crit(19330,{achID=6536,awp=50004,id=3})}}),
+crit(19330,{achID=6535,awp=50004,id=3,r=2}),
+crit(19330,{achID=6536,awp=50004,id=3,r=1})}}),
 q(30674,{awp=50004,coords={{46.9,84.8,418}},description="Automatically given you while moving through Nayeli Lagoon.",sourceQuests={30671,30691},g={
-crit(19334,{achID=6535,awp=50004,id=3}),
-crit(19334,{achID=6536,awp=50004,id=3})}}),
+crit(19334,{achID=6535,awp=50004,id=3,r=2}),
+crit(19334,{achID=6536,awp=50004,id=3,r=1})}}),
 q(30384,{awp=50004,coords={{70.6,28.5,418}},qgs={58735},r=2,sourceQuests={30274}}),
 q(30124,{awp=50004,coords={{62.6,20.1,418}},qgs={58114},r=1,sourceQuests={30179}}),
 q(30270,{awp=50004,coords={{41.8,29.6,418}},qgs={59138},sourceQuests={30269}}),
@@ -51664,8 +51664,8 @@ q(30675,{awp=50004,coords={{48.1,90.8,418}},crs={60299,60357,60358},providers={{
 o(211420,{awp=50004,g={
 i(80817,{awp=50004,q=1})}}),
 toy(80822,{awp=50004,b=1,q=2}),
-crit(19335,{achID=6535,awp=50004,id=3}),
-crit(19335,{achID=6536,awp=50004,id=3})}}),
+crit(19335,{achID=6535,awp=50004,id=3,r=2}),
+crit(19335,{achID=6536,awp=50004,id=3,r=1})}}),
 q(30082,{awp=50004,coords={{85.5,0.74,418}},qgs={58376},sourceQuests={30080},g={
 s(268331,81440,{awp=50004,b=1,f=4,q=2}),
 s(268332,81441,{awp=50004,b=1,f=5,q=2}),
@@ -51700,7 +51700,7 @@ s(268345,81454,{awp=50004,b=1,f=5,q=3}),
 s(268346,81455,{awp=50004,b=1,f=6,q=3}),
 s(268347,81456,{awp=50004,b=1,f=7,q=3}),
 s(268348,81457,{awp=50004,b=1,f=7,q=3}),
-crit(18830,{achID=6536,awp=50004,id=5})}}),
+crit(18830,{achID=6536,awp=50004,id=5,r=1})}}),
 q(30163,{awp=50004,coords={{29,48.1,418}},qgs={58114},r=1,sourceQuests={30132,30464}}),
 q(30363,{awp=50004,coords={{70.6,28.5,418}},qgs={58735},r=2,sourceQuests={30348},g={
 i(79332,{awp=50004,q=1})}}),
@@ -51714,7 +51714,7 @@ i(78918,{awp=50004,q=1})}}),
 i(88532,{awp=50004,f=55,lvl=85,q=1})}}),
 q(30376,{awp=50004,coords={{41.6,46.3,418}},isBreadcrumb=1,nextQuests={30622},qgs={59719},sourceQuests={29990,30117,30174,30273}}),
 q(30348,{awp=50004,coords={{70.7,28.4,418}},qgs={58745},r=2,sourceQuests={30347,30349,30351},g={
-crit(19357,{achID=6535,awp=50004,id=2})}}),
+crit(19357,{achID=6535,awp=50004,id=2,r=2})}}),
 q(30273,{awp=50004,qgs={59608},sourceQuests={30271,30272,30695},g={
 s(268384,81493,{awp=50004,b=1,f=7,q=3}),
 s(268383,81492,{awp=50004,b=1,f=7,q=3}),
@@ -51725,8 +51725,8 @@ s(268379,81488,{awp=50004,b=1,f=7,q=3}),
 s(268378,81487,{awp=50004,b=1,f=6,q=3}),
 s(268377,81486,{awp=50004,b=1,f=5,q=3}),
 s(268376,81485,{awp=50004,b=1,f=4,q=3}),
-crit(18829,{achID=6535,awp=50004,id=4}),
-crit(18829,{achID=6536,awp=50004,id=4}),
+crit(18829,{achID=6535,awp=50004,id=4,r=2}),
+crit(18829,{achID=6536,awp=50004,id=4,r=1}),
 crit(18829,{achID=6926,awp=50004,id=2,u=50})}}),
 q(30178,{awp=50004,coords={{79.8,1.57,418}},isBreadcrumb=1,nextQuests={30269},qgs={57744},r=2,sourceQuests={30090}}),
 q(30462,{awp=50004,coords={{79.8,1.57,418}},isBreadcrumb=1,nextQuests={30269},qgs={57744},r=2}),
@@ -51734,7 +51734,7 @@ q(30133,{awp=50004,coords={{79.8,1.57,418}},isBreadcrumb=1,nextQuests={30269},qg
 i(79825,{awp=50004,q=1})}}),
 q(30461,{awp=50004,coords={{79.8,1.57,418}},isBreadcrumb=1,nextQuests={30269},qgs={57744},r=1}),
 q(30131,{awp=50004,coords={{62.6,19.9,418}},qgs={58113},r=1,sourceQuests={30128,30130},g={
-crit(18825,{achID=6536,awp=50004,id=2})}}),
+crit(18825,{achID=6536,awp=50004,id=2,r=1})}}),
 q(30351,{awp=50004,coords={{70.6,28.5,418}},qgs={56114},r=2,sourceQuests={30344,30350,30384},g={
 i(78918,{awp=50004,q=1}),
 i(88532,{awp=50004,f=55,lvl=85,q=1})}}),
@@ -51892,7 +51892,7 @@ s(268345,81454,{awp=50004,b=1,f=5,q=3}),
 s(268346,81455,{awp=50004,b=1,f=6,q=3}),
 s(268347,81456,{awp=50004,b=1,f=7,q=3}),
 s(268348,81457,{awp=50004,b=1,f=7,q=3}),
-crit(19358,{achID=6535,awp=50004,id=5})}}),
+crit(19358,{achID=6535,awp=50004,id=5,r=2})}}),
 q(30168,{awp=50004,coords={{29.7,39,418}},qgs={58278},g={
 i(78958,{awp=50004,q=1}),
 i(81532,{awp=50004,b=1,f=53,q=2}),
@@ -51949,8 +51949,8 @@ s(272701,88035,{awp=50004,b=1,f=7,q=2})}}),
 q(30090,{awp=50004,coords={{80.2,1,418}},qgs={56115},sourceQuests={30089},g={
 i(79057,{awp=50004,q=1}),
 toy(88580,{awp=50004,b=1,q=1}),
-crit(18824,{achID=6535,awp=50004,id=1}),
-crit(18824,{achID=6536,awp=50004,id=1})}})}}),
+crit(18824,{achID=6535,awp=50004,id=1,r=2}),
+crit(18824,{achID=6536,awp=50004,id=1,r=1})}})}}),
 h(-46,{awp=50004,g={
 h(-19,{awp=50004,crs={50331,50340,50352,50388,50768,50787,50816,50830},g={
 s(272520,87612,{awp=50004,b=1,f=7,lvl=85,q=3}),
@@ -52225,9 +52225,9 @@ o(211023,{awp=50004,g={
 i(80230,{awp=50004,q=1})}}),
 i(88398,{awp=50004,b=1,f=55,q=1})}}),
 q(31394,{awp=50004,coords={{68.7,43.1,379}},qgs={64540},r=2,sourceQuests={31392},g={
-crit(21869,{achID=6537,awp=50004,id=8})}}),
+crit(21869,{achID=6537,awp=50004,id=8,r=2})}}),
 q(31395,{awp=50004,coords={{68.7,43,379}},qgs={64542},r=1,sourceQuests={31393},g={
-crit(21868,{achID=6538,awp=50004,id=8})}}),
+crit(21868,{achID=6538,awp=50004,id=8,r=1})}}),
 q(30746,{awp=50004,coords={{42.4,69.6,379}},qgs={60503},sourceQuests={30825},g={
 i(80944,{awp=50004,q=1})}}),
 q(30820,{awp=50004,coords={{63.1,29.3,379}},qgs={60436},sourceQuests={30819},g={
@@ -52273,8 +52273,8 @@ i(82575,{awp=50004,b=1,f=53,q=2}),
 i(82576,{awp=50004,b=1,f=53,q=2}),
 i(82577,{awp=50004,b=1,f=53,q=2}),
 i(82578,{awp=50004,b=1,f=53,q=2}),
-crit(19366,{achID=6537,awp=50004,id=4}),
-crit(19366,{achID=6538,awp=50004,id=4})}}),
+crit(19366,{achID=6537,awp=50004,id=4,r=2}),
+crit(19366,{achID=6538,awp=50004,id=4,r=1})}}),
 q(31253,{awp=50004,coords={{60.2,85.7,379}},qgs={59573},r=1,sourceQuests={30571,30581}}),
 q(31252,{awp=50004,coords={{60.2,85.7,379}},qgs={59573},r=2,sourceQuests={30571,30581}}),
 q(30651,{awp=50004,coords={{54.1,83.2,379}},qgs={59450},r=2,sourceQuests={30575,30583,30593,30619,31252},g={
@@ -52305,9 +52305,9 @@ s(274271,90467,{awp=50004,b=1,f=1,q=2}),
 s(270349,84540,{awp=50004,b=1,f=8,q=2}),
 s(274272,90468,{awp=50004,b=1,f=1,q=2})}}),
 q(30514,{awp=50004,coords={{56.3,84.3,379}},qgs={63542},r=2,sourceQuests={30512},g={
-crit(19359,{achID=6537,awp=50004,id=1})}}),
+crit(19359,{achID=6537,awp=50004,id=1,r=2})}}),
 q(30515,{awp=50004,coords={{61.1,82.2,379}},qgs={63535},r=1,sourceQuests={30513},g={
-crit(19370,{achID=6538,awp=50004,id=1})}}),
+crit(19370,{achID=6538,awp=50004,id=1,r=1})}}),
 q(30802,{awp=50004,coords={{33.8,63.1,385}},qgs={61297},sourceQuests={30801},g={
 i(81890,{awp=50004,q=1}),
 i(82579,{awp=50004,b=1,f=53,q=2}),
@@ -52439,8 +52439,8 @@ s(279140,98142,{awp=50300,b=1,f=4,lvl=90,q=4,u=53}),
 s(279141,98143,{awp=50300,b=1,f=7,lvl=90,q=4,u=53}),
 s(279142,98144,{awp=50300,b=1,f=4,lvl=90,q=4,u=53}),
 s(279143,98145,{awp=50300,b=1,f=5,lvl=90,q=4,u=53}),
-crit(23361,{achID=8306,awp=50300,id=3,rwp=50400,u=2}),
-crit(23361,{achID=8307,awp=50300,id=3,rwp=50400,u=2})}}),
+crit(23361,{achID=8306,awp=50300,id=3,r=2,rwp=50400,u=2}),
+crit(23361,{achID=8307,awp=50300,id=3,r=1,rwp=50400,u=2})}}),
 q(30819,{awp=50004,coords={{60.6,21.3,379}},qgs={60785},sourceQuests={30805,30806,30807}}),
 q(30595,{awp=50004,coords={{59.6,78.2,379}},qgs={59821},g={
 o(211143,{awp=50004,type="AsGenericObjectContainer",g={
@@ -52488,8 +52488,8 @@ s(272730,88064,{awp=50004,b=1,f=6,q=2}),
 s(272729,88063,{awp=50004,b=1,f=7,q=2}),
 s(272728,88062,{awp=50004,b=1,f=7,q=2})}}),
 q(30946,{awp=50004,coords={{62.3,29,379}},qgs={63750},sourceQuests={31011},g={
-crit(19369,{achID=6537,awp=50004,id=9}),
-crit(19369,{achID=6538,awp=50004,id=9})}}),
+crit(19369,{achID=6537,awp=50004,id=9,r=2}),
+crit(19369,{achID=6538,awp=50004,id=9,r=1})}}),
 q(30617,{awp=50004,coords={{64.8,60.4,379}},qgs={59597},sourceQuests={30616},g={
 toy(88381,{awp=50004,b=1,q=1})}}),
 q(30575,{awp=50004,coords={{53.7,82.6,379}},qgs={59441},r=2,sourceQuests={30514},g={
@@ -52521,8 +52521,8 @@ i(81712,{awp=50004,q=1})}}),
 q(30800,{awp=50004,coords={{57.3,47.9,379}},qgs={61297},sourceQuests={30798},g={
 o(211967,{awp=50004,g={
 i(82764,{awp=50004,q=1})}}),
-crit(19367,{achID=6537,awp=50004,id=7}),
-crit(19367,{achID=6538,awp=50004,id=7})}}),
+crit(19367,{achID=6537,awp=50004,id=7,r=2}),
+crit(19367,{achID=6538,awp=50004,id=7,r=1})}}),
 q(31392,{awp=50004,coords={{45.7,43.7,371},{55.8,51.8,376},{72,94.2,379},{74.8,81.3,388},{54.5,77.1,418}},isBreadcrumb=1,nextQuests={31394},qgs={55809,60289,63751,64448,64521,66247},r=2}),
 q(31393,{awp=50004,coords={{45.7,43.7,371},{55.8,51.8,376},{72,94.2,379},{74.8,81.3,388},{54.5,77.1,418}},isBreadcrumb=1,nextQuests={31395},qgs={55809,60289,63751,64448,64521,66247},r=1}),
 q(30603,{awp=50004,coords={{49.1,70.4,379}},qgs={59806},sourceQuests={30592},g={
@@ -52538,8 +52538,8 @@ s(269151,82530,{awp=50004,b=1,f=7,q=2}),
 s(269152,82531,{awp=50004,b=1,f=7,q=2}),
 s(269144,82523,{awp=50004,b=1,f=4,q=2}),
 s(269150,82529,{awp=50004,b=1,f=6,q=2}),
-crit(19365,{achID=6537,awp=50004,id=6}),
-crit(19365,{achID=6538,awp=50004,id=6})}}),
+crit(19365,{achID=6537,awp=50004,id=6,r=2}),
+crit(19365,{achID=6538,awp=50004,id=6,r=1})}}),
 q(30821,{awp=50004,coords={{42.5,69.3,379}},isDaily=1,qgs={60679},sourceQuests={30747}}),
 q(30592,{awp=50004,coords={{58,61.4,379}},qgs={59701},g={
 i(88384,{awp=50004,b=1,f=55,q=1})}}),
@@ -52560,8 +52560,8 @@ s(269178,82557,{awp=50004,b=1,f=7,q=3}),
 s(269179,82558,{awp=50004,b=1,f=7,q=3}),
 s(269171,82550,{awp=50004,b=1,f=4,q=3}),
 s(269177,82556,{awp=50004,b=1,f=6,q=3}),
-crit(19361,{achID=6538,awp=50004,id=3}),
-crit(22136,{achID=6537,awp=50004,id=3})}}),
+crit(19361,{achID=6538,awp=50004,id=3,r=1}),
+crit(22136,{achID=6537,awp=50004,id=3,r=2})}}),
 q(30804,{awp=50004,coords={{71,69.1,379}},qgs={59353},sourceQuests={30582},g={
 s(270329,84520,{awp=50004,b=1,f=6,q=2}),
 s(270335,84526,{awp=50004,b=1,f=7,q=2}),
@@ -52584,8 +52584,8 @@ s(269167,82546,{awp=50004,b=1,f=5,q=3}),
 s(269168,82547,{awp=50004,b=1,f=6,q=3}),
 s(269169,82548,{awp=50004,b=1,f=7,q=3}),
 s(269170,82549,{awp=50004,b=1,f=7,q=3}),
-crit(19364,{achID=6537,awp=50004,id=5}),
-crit(19364,{achID=6538,awp=50004,id=5})}}),
+crit(19364,{achID=6537,awp=50004,id=5,r=2}),
+crit(19364,{achID=6538,awp=50004,id=5,r=1})}}),
 q(31452,{awp=50004,coords={{54.1,83.4,379}},isBreadcrumb=1,nextQuests={30467},qgs={63542},r=2,sourceQuests={30650,30651,30660,30662}}),
 q(31451,{awp=50004,coords={{62.3,79.6,379}},isBreadcrumb=1,nextQuests={30467},qgs={63535},r=1,sourceQuests={30655,30656,30661,30663}}),
 q(30488,{awp=50004,coords={{71.6,70.2,379}},qgs={59353},sourceQuests={31456,31457}}),
@@ -52600,7 +52600,7 @@ s(269193,82597,{awp=50004,b=1,f=20,q=2}),
 s(269189,82593,{awp=50004,b=1,f=25,q=2}),
 s(269191,82595,{awp=50004,b=1,f=25,q=2}),
 s(269187,82591,{awp=50004,b=1,f=29,q=2}),
-crit(19360,{achID=6537,awp=50004,id=2})}}),
+crit(19360,{achID=6537,awp=50004,id=2,r=2})}}),
 q(30662,{awp=50004,coords={{53.9,83.4,379}},description="Only available if you abandon the original version of the quest.",qgs={59441},r=2,sourceQuests={30652},g={
 s(269186,82590,{awp=50004,b=1,f=27,q=2}),
 s(269194,82598,{awp=50004,b=1,f=23,q=2}),
@@ -52623,7 +52623,7 @@ s(269193,82597,{awp=50004,b=1,f=20,q=2}),
 s(269189,82593,{awp=50004,b=1,f=25,q=2}),
 s(269191,82595,{awp=50004,b=1,f=25,q=2}),
 s(269187,82591,{awp=50004,b=1,f=29,q=2}),
-crit(19371,{achID=6538,awp=50004,id=2})}}),
+crit(19371,{achID=6538,awp=50004,id=2,r=1})}}),
 q(30663,{awp=50004,coords={{62.4,80.4,379}},description="Only available if you abandon the original version of the quest.",qgs={59442},r=1,sourceQuests={30657},g={
 s(269186,82590,{awp=50004,b=1,f=27,q=2}),
 s(269194,82598,{awp=50004,b=1,f=23,q=2}),
@@ -52704,8 +52704,8 @@ i(82560,{awp=50004,b=1,f=51,q=2}),
 i(82561,{awp=50004,b=1,f=51,q=2}),
 i(82562,{awp=50004,b=1,f=51,q=2}),
 i(82563,{awp=50004,b=1,f=51,q=2}),
-crit(19363,{achID=6537,awp=50004,id=10}),
-crit(19363,{achID=6538,awp=50004,id=10})}}),
+crit(19363,{achID=6537,awp=50004,id=10,r=2}),
+crit(19363,{achID=6538,awp=50004,id=10,r=1})}}),
 q(30611,{awp=50004,coords={{51.9,67.2,379}},qgs={59452},sourceQuests={30606,30607,30608}}),
 q(30690,{awp=50004,coords={{44.4,89.9,379}},qgs={60161},sourceQuests={30665,30670},g={
 i(81741,{awp=50004,q=1}),
@@ -53136,6 +53136,8 @@ r(122573,{awp=70305,learnedAt=500,requireSkill=164,u=1})}}),
 flt(50,{awp=50004,u=51,g={
 r(126869,{awp=70305,learnedAt=525,requireSkill=164,u=1}),
 r(122633,{awp=50004,learnedAt=500,requireSkill=164,u=51}),
+r(113263,{awp=50004,learnedAt=0,rank=2,requireSkill=164,rwp=60002,u=51}),
+r(114112,{awp=50004,learnedAt=0,rank=2,requireSkill=164,rwp=60002,u=51}),
 r(139753,{awp=50200,learnedAt=186,requireSkill=164,rwp=60003,u=5}),
 r(139756,{awp=50200,learnedAt=231,requireSkill=164,rwp=60003,u=5}),
 r(139763,{awp=50200,learnedAt=347,requireSkill=164,rwp=60003,u=5}),
@@ -53208,10 +53210,10 @@ prof(129,_.ResolveQuestData({aqd=
 {awp=50004,coords={{45.6,85.8,371}},crs={65983}},awp=50004,hqd=
 {awp=50004,coords={{28.2,15.2,371}},crs={66222}},u=50,g={
 r(110406,{awp=50004,learnedAt=500,rank=8,requireSkill=129,rwp=80001,u=51}),
-r(102698,{awp=50004,learnedAt=550,requireSkill=129,rwp=80001,u=51}),
+r(102698,{awp=50004,learnedAt=550,rank=1,requireSkill=129,rwp=80001,u=51}),
 r(102697,{awp=50004,learnedAt=500,requireSkill=129,rwp=80001,u=51}),
 h(-26,{awp=50004,rwp=80001,u=51,g={
-r(102699,{awp=50004,learnedAt=600,requireSkill=129,rwp=80001,u=51})}})}})),
+r(102699,{awp=50004,learnedAt=600,rank=2,requireSkill=129,rwp=80001,u=51})}})}})),
 prof(182,{awp=50004,u=50,g={
 n(66980,{awp=50004,coords={{27.8,15.6,371}},r=1,u=50,g={
 r(110413,{awp=50004,learnedAt=0,rank=8,requireSkill=182,rwp=80001,u=51})}})}}),
@@ -53764,7 +53766,7 @@ s(267891,80746,{awp=50004,b=1,f=6,q=2,u=50}),
 s(267892,80747,{awp=50004,b=1,f=7,q=2,u=50}),
 s(267893,80748,{awp=50004,b=1,f=7,q=2,u=50})}}),
 q(29901,{awp=50004,coords={{65.8,79.2,371}},description="Automatically given when prerequisites have been fulfilled.",qgs={56485},r=2,sourceQuests={29898,29899,29900},u=50,g={
-crit(19354,{achID=6300,awp=50004,id=3,u=50})}}),
+crit(19354,{achID=6300,awp=50004,id=3,r=2,u=50})}}),
 q(31775,{awp=50004,coords={{31.6,21.9,371}},qgs={65999},r=1,sourceQuests={29804},u=50,g={
 qo(1,{awp=50004,coords={{27.8,23.6,371}},providers={{"n",65840},{"n",65841},{"n",65842},{"n",65905},{"n",66000}},u=50})}}),
 q(29624,{awp=50004,coords={{41.6,28.3,371}},qgs={54917},sourceQuests={29623},u=50,g={
@@ -53806,7 +53808,7 @@ s(267914,80794,{awp=50004,b=1,f=21,q=3,u=50}),
 s(267915,80795,{awp=50004,b=1,f=23,q=3,u=50}),
 s(267916,80796,{awp=50004,b=1,f=20,q=3,u=50}),
 s(267917,80797,{awp=50004,b=1,f=23,q=3,u=50}),
-crit(19339,{achID=6534,awp=50004,id=4,u=50})}}),
+crit(19339,{achID=6534,awp=50004,id=4,r=1,u=50})}}),
 q(29889,{awp=50004,coords={{53.7,91.5,371}},providers={{"o",209845}},r=2,sourceQuests={29888},u=50}),
 q(29747,{awp=50004,coords={{48.5,20.6,371}},providers={{"o",214871}},sourceQuests={29745},u=50,g={
 qo(1,{awp=50004,coords={{48.6,18,371}},providers={{"n",55279}},u=50})}}),
@@ -53830,7 +53832,7 @@ s(267914,80794,{awp=50004,b=1,f=21,q=3,u=50}),
 s(267915,80795,{awp=50004,b=1,f=23,q=3,u=50}),
 s(267916,80796,{awp=50004,b=1,f=20,q=3,u=50}),
 s(267917,80797,{awp=50004,b=1,f=23,q=3,u=50}),
-crit(19356,{achID=6300,awp=50004,id=4,u=50})}}),
+crit(19356,{achID=6300,awp=50004,id=4,r=2,u=50})}}),
 q(31777,{awp=50004,coords={{31.1,21.5,371}},qgs={55521},r=1,sourceQuests={29804},u=50,g={
 qo(1,{awp=50004,coords={{27.8,24.4,371}},providers={{"n",65843},{"i",89163},{"o",214962}},u=50})}}),
 q(29552,{awp=50004,coords={{46,84.6,371}},qgs={54614},r=2,sourceQuests={31736,31737},u=50,g={
@@ -53861,13 +53863,13 @@ q(31319,{awp=50004,coords={{49.2,61.4,371}},qgs={59418},r=2,sourceQuests={31303}
 qo(1,{awp=50004,coords={{47.6,62,371}},providers={{"n",64491},{"i",86511}},u=50}),
 qo(2,{awp=50004,coords={{46.4,61.6,371}},providers={{"n",64493},{"i",86511}},u=50}),
 qo(3,{awp=50004,coords={{47.6,59.2,371}},providers={{"n",64494},{"i",86511}},u=50}),
-crit(22194,{achID=6300,awp=50004,id=12,u=50})}}),
+crit(22194,{achID=6300,awp=50004,id=12,r=2,u=50})}}),
 q(30504,{awp=50004,coords={{49.2,61.4,371}},qgs={59418},r=1,sourceQuests={31303},u=50,g={
 qo(1,{awp=50004,coords={{48,61.8,371}},providers={{"n",64360},{"i",86467}},u=50}),
 qo(2,{awp=50004,coords={{47.2,62.6,371}},providers={{"n",64362},{"i",86467}},u=50}),
 qo(3,{awp=50004,coords={{46.8,60.6,371}},providers={{"n",64363},{"i",86467}},u=50}),
 qo(4,{awp=50004,coords={{48,59,371}},providers={{"n",64364},{"i",86467}},u=50}),
-crit(19351,{achID=6534,awp=50004,id=12,u=50})}}),
+crit(19351,{achID=6534,awp=50004,id=12,r=1,u=50})}}),
 q(31736,{awp=50004,coords={{46.4,96.3,371}},qgs={54617},r=2,sourceQuests={31735},u=50,g={
 qo(1,{awp=50004,coords={{46.2,84.8,371}},providers={{"n",65910}},u=50})}}),
 q(30004,{awp=50004,coords={{56.2,60.4,371}},qgs={56786},sourceQuests={30001,30002},u=50}),
@@ -53904,8 +53906,8 @@ s(267920,80800,{awp=50004,b=1,f=8,q=3,u=50}),
 s(267921,80801,{awp=50004,b=1,f=8,q=3,u=50}),
 s(267922,80802,{awp=50004,b=1,f=20,q=3,u=50}),
 s(267923,80803,{awp=50004,b=1,f=23,q=3,u=50}),
-crit(23248,{achID=6300,awp=50004,id=7,u=50}),
-crit(23248,{achID=6534,awp=50004,id=8,u=50})}}),
+crit(23248,{achID=6300,awp=50004,id=7,r=2,u=50}),
+crit(23248,{achID=6534,awp=50004,id=8,r=1,u=50})}}),
 q(29646,{awp=50004,coords={{41.6,23.6,371}},qgs={54915},sourceQuests={29624,29628,29629,29630,29637},u=50,g={
 s(267918,80798,{awp=50004,b=1,f=22,q=3,u=50}),
 s(267919,80799,{awp=50004,b=1,f=25,q=3,u=50}),
@@ -53913,8 +53915,8 @@ s(267920,80800,{awp=50004,b=1,f=8,q=3,u=50}),
 s(267921,80801,{awp=50004,b=1,f=8,q=3,u=50}),
 s(267922,80802,{awp=50004,b=1,f=20,q=3,u=50}),
 s(267923,80803,{awp=50004,b=1,f=23,q=3,u=50}),
-crit(18819,{achID=6300,awp=50004,id=7,u=50}),
-crit(18819,{achID=6534,awp=50004,id=8,u=50})}}),
+crit(18819,{achID=6300,awp=50004,id=7,r=2,u=50}),
+crit(18819,{achID=6534,awp=50004,id=8,r=1,u=50})}}),
 q(29815,{awp=50004,coords={{28.1,24.8,371}},qgs={55180},r=1,sourceQuests={31999},u=50,g={
 qo(1,{awp=50004,coords={{25.3,26.2,371}},crs={55610},providers={{"i",74621}},u=50})}}),
 q(31742,{awp=50004,coords={{46.1,84.7,371}},qgs={54617},r=2,sourceQuests={29552,31738,31740},u=50,g={
@@ -53950,8 +53952,8 @@ i(80759,{awp=50004,b=1,f=51,q=2,u=50}),
 i(80760,{awp=50004,b=1,f=51,q=2,u=50}),
 i(80761,{awp=50004,b=1,f=51,q=2,u=50}),
 i(80762,{awp=50004,b=1,f=51,q=2,u=50}),
-crit(19344,{achID=6300,awp=50004,id=5,u=50}),
-crit(19344,{achID=6534,awp=50004,id=5,u=50})}}),
+crit(19344,{achID=6300,awp=50004,id=5,r=2,u=50}),
+crit(19344,{achID=6534,awp=50004,id=5,r=1,u=50})}}),
 q(29943,{awp=50004,coords={{28.6,47.5,371}},qgs={56339},r=1,sourceQuests={29824},u=50,g={
 qo(1,{awp=50004,coords={{30.6,52.2,371}},providers={{"n",56303}},u=50}),
 s(267894,80749,{awp=50004,b=1,f=4,q=2,u=50}),
@@ -54014,10 +54016,10 @@ s(274200,90367,{awp=50004,b=1,f=4,q=2,u=50}),
 s(274205,90372,{awp=50004,b=1,f=7,q=2,u=50})}}),
 q(31362,{awp=50004,coords={{58.8,81.1,371}},qgs={59620},r=2,sourceQuests={30565,30568},u=50,g={
 qo(1,{awp=50004,coords={{44.5,66.9,371}},providers={{"i",80071},{"o",213652}},u=50}),
-crit(22195,{achID=6300,awp=50004,id=11,u=50})}}),
+crit(22195,{achID=6300,awp=50004,id=11,r=2,u=50})}}),
 q(30485,{awp=50004,coords={{28.2,46.7,371}},qgs={59377},r=1,sourceQuests={30466,30484},u=50,g={
 qo(1,{awp=50004,coords={{44.5,66.9,371}},crs={64475},providers={{"i",80071},{"o",213652}},u=50}),
-crit(19350,{achID=6534,awp=50004,id=11,u=50})}}),
+crit(19350,{achID=6534,awp=50004,id=11,r=1,u=50})}}),
 q(29822,{awp=50004,coords={{28.4,24.9,371}},qgs={55172},r=1,sourceQuests={29821,29827},u=50,g={
 qo(1,{awp=50004,coords={{26.22,32.36,371}},u=50}),
 qo(2,{awp=50004,coords={{31.95,27.77,371}},u=50}),
@@ -54025,7 +54027,7 @@ qo(3,{awp=50004,coords={{27.8,30.2,371}},providers={{"n",55622}},u=50})}}),
 q(29905,{awp=50004,coords={{58.8,81.7,371}},qgs={60970},r=2,sourceQuests={29904},u=50,g={
 qo(1,{awp=50004,coords={{55.4,82,371}},providers={{"n",55461},{"n",61760}},u=50}),
 p(847,{awp=50004,b=1,itemID=84105,npcID=62829,q=1,spellID=122748,u=50}),
-crit(19355,{achID=6300,awp=50004,id=4,u=50})}}),
+crit(19355,{achID=6300,awp=50004,id=4,r=2,u=50})}}),
 q(30005,{awp=50004,coords={{58,59,371}},qgs={56784},sourceQuests={29932},u=50,g={
 qo(1,{awp=50004,coords={{58,59,371}},providers={{"o",209672}},u=50})}}),
 q(30495,{awp=50004,coords={{48.3,61.3,371}},qgs={59391},sourceQuests={29931},u=50,g={
@@ -54047,8 +54049,8 @@ i(80779,{awp=50004,b=1,f=53,q=2,u=50}),
 i(80780,{awp=50004,b=1,f=53,q=2,u=50}),
 i(80781,{awp=50004,b=1,f=53,q=2,u=50}),
 i(80782,{awp=50004,b=1,f=53,q=2,u=50}),
-crit(19331,{achID=6300,awp=50004,id=10,u=50}),
-crit(19331,{achID=6534,awp=50004,id=10,u=50})}}),
+crit(19331,{achID=6300,awp=50004,id=10,r=2,u=50}),
+crit(19331,{achID=6534,awp=50004,id=10,r=1,u=50})}}),
 q(29821,{awp=50004,coords={{28.1,24.7,371}},providers={{"i",84157}},qgs={55521},r=1,sourceQuests={31999},u=50}),
 q(29743,{awp=50004,coords={{30.8,17.4,371}},providers={{"o",212181}},r=1,sourceQuests={31774},u=50,g={
 qo(1,{awp=50004,coords={{29.2,18.8,371}},providers={{"o",212182}},u=50}),
@@ -54072,7 +54074,7 @@ q(30069,{awp=50004,coords={{43.6,90.7,371}},qgs={54616},r=2,sourceQuests={31733}
 qo(1,{awp=50004,coords={{45,93,371}},providers={{"n",66282}},u=50}),
 qo(2,{awp=50004,coords={{44.8,90.8,371}},providers={{"n",66290}},u=50})}}),
 q(31745,{awp=50004,coords={{41.4,79,371}},qgs={54617,66581},r=2,sourceQuests={30070},u=50,g={
-crit(19352,{achID=6300,awp=50004,id=1,u=50})}}),
+crit(19352,{achID=6300,awp=50004,id=1,r=2,u=50})}}),
 q(29580,{awp=50004,coords={{43.2,76,371}},qgs={54854},u=50,g={
 qo(1,{awp=50004,coords={{44.5,75.2,371}},providers={{"i",72133},{"o",209344},{"o",209345}},u=50})}}),
 q(29935,{awp=50004,coords={{26.2,37.3,371}},providers={{"i",85507}},qgs={56313},r=1,sourceQuests={29879},u=50}),
@@ -54111,8 +54113,8 @@ s(267845,80700,{awp=50004,b=1,f=5,q=3,u=50}),
 s(267846,80701,{awp=50004,b=1,f=6,q=3,u=50}),
 s(267847,80702,{awp=50004,b=1,f=7,q=3,u=50}),
 s(267848,80703,{awp=50004,b=1,f=7,q=3,u=50}),
-crit(19206,{achID=6300,awp=50004,id=8,u=50}),
-crit(19206,{achID=6534,awp=50004,id=9,u=50})}}),
+crit(19206,{achID=6300,awp=50004,id=8,r=2,u=50}),
+crit(19206,{achID=6534,awp=50004,id=9,r=1,u=50})}}),
 q(29623,{awp=50004,coords={{41.6,28.3,371}},qgs={54917},sourceQuests={29622},u=50,g={
 qo(1,{awp=50004,coords={{41.4,27.8,371}},description="Do NOT react immediately to the visual cue. Wait for the pupils to react and then do the move. If you go too quickly, you won't get credit.",providers={{"n",55199}},u=50})}}),
 q(31738,{awp=50004,coords={{46.2,84.7,371}},qgs={65910},r=2,sourceQuests={31736,31737},u=50,g={
@@ -54139,8 +54141,8 @@ s(267863,80718,{awp=50004,b=1,f=5,q=2,u=50}),
 s(267864,80719,{awp=50004,b=1,f=6,q=2,u=50}),
 s(267865,80720,{awp=50004,b=1,f=7,q=2,u=50}),
 s(267866,80721,{awp=50004,b=1,f=7,q=2,u=50}),
-crit(19347,{achID=6300,awp=50004,id=5,u=50}),
-crit(19347,{achID=6534,awp=50004,id=5,u=50})}}),
+crit(19347,{achID=6300,awp=50004,id=5,r=2,u=50}),
+crit(19347,{achID=6534,awp=50004,id=5,r=1,u=50})}}),
 q(29579,{awp=50004,coords={{43.4,75.9,371}},qgs={54697},u=50,g={
 qo(1,{awp=50004,coords={{44.6,75.6,371}},providers={{"n",54763}},u=50})}}),
 q(29694,{awp=50004,coords={{33.6,10.6,371}},qgs={66656},r=1,sourceQuests={31769},u=50,g={
@@ -54154,7 +54156,7 @@ s(274170,90337,{awp=50004,b=1,f=8,q=2,r=1,u=50}),
 s(274166,90333,{awp=50004,b=1,f=20,q=2,r=1,u=50}),
 s(274163,90330,{awp=50004,b=1,f=24,q=2,r=1,u=50}),
 s(274165,90332,{awp=50004,b=1,f=21,q=2,r=1,u=50}),
-crit(19332,{achID=6534,awp=50004,id=1,u=50})}}),
+crit(19332,{achID=6534,awp=50004,id=1,r=1,u=50})}}),
 q(30500,{awp=50004,coords={{49.2,61.4,371}},qgs={59418},sourceQuests={31303},u=50,g={
 qo(1,{awp=50004,coords={{48.8,61.2,371}},providers={{"n",59417}},u=50})}}),
 q(29899,{awp=50004,coords={{65.9,79.3,371}},qgs={56432},r=2,sourceQuests={29890},u=50,g={
@@ -54234,7 +54236,7 @@ qo(4,{awp=50004,coords={{43.2,81.3,371}},providers={{"n",66278},{"i",89602}},u=5
 q(29894,{awp=50004,coords={{58.7,81.3,371}},qgs={59058},r=2,sourceQuests={29762,29887},u=50,g={
 qo(1,{awp=50004,providers={{"n",56398}},u=50}),
 qo(2,{awp=50004,providers={{"n",54894}},u=50}),
-crit(19353,{achID=6300,awp=50004,id=2,u=50})}}),
+crit(19353,{achID=6300,awp=50004,id=2,r=2,u=50})}}),
 q(29585,{awp=50004,coords={{43.2,76,371}},qgs={54854},u=50,g={
 qo(1,{awp=50004,providers={{"i",72578}},u=50}),
 s(270134,84243,{awp=50004,b=1,f=4,q=2,u=50}),
@@ -54257,7 +54259,7 @@ qo(1,{awp=50004,coords={{28,50,371}},providers={{"n",59296},{"n",59740},{"i",798
 q(29879,{awp=50004,coords={{28.8,32.6,371}},qgs={63307},r=1,sourceQuests={31167},u=50,g={
 qo(1,{awp=50004,coords={{24.6,36.6,371}},providers={{"n",56183}},u=50}),
 qo(2,{awp=50004,coords={{24.2,34.8,371}},crs={56180},providers={{"i",75202}},u=50}),
-crit(19338,{achID=6534,awp=50004,id=3,u=50})}}),
+crit(19338,{achID=6534,awp=50004,id=3,r=1,u=50})}}),
 q(29611,{awp=50004,coords={{56.6,47,25},{59.9,63.5,25},{23.4,94.2,85},{45.6,5.9,85},{49.8,76.4,85},{58.3,45.7,85},{59,44.4,85},{66.7,49.5,85},{42.6,57.4,88},{62.5,60.5,110},{48.7,39.6,125},{59.2,27.4,125},{44,35.4,998},{61.8,75.6,998},{66.5,49.8,998}},description="Players who have not completed Vashj'ir will receive this version of The Art of War.",isBreadcrumb=1,nextQuests={31853},providers={{"o",207323},{"o",207279},{"o",206109},{"o",206116},{"o",208317},{"o",207324},{"o",207325}},r=1,u=50}),
 q(29612,{awp=50004,coords={{56.6,47,25},{59.9,63.5,25},{23.4,94.2,85},{45.6,5.9,85},{49.8,76.4,85},{58.3,45.7,85},{59,44.4,85},{66.7,49.5,85},{42.6,57.4,88},{62.5,60.5,110},{48.7,39.6,125},{59.2,27.4,125},{44,35.4,998},{61.8,75.6,998},{66.5,49.8,998}},description="Players who have completed Vashj'ir will receive this version of The Art of War.",isBreadcrumb=1,nextQuests={31853},providers={{"o",207323},{"o",207279},{"o",206109},{"o",206116},{"o",208317},{"o",207324},{"o",207325}},r=1,u=50}),
 q(29933,{awp=50004,coords={{25.8,37.9,371}},minReputation={1228,3000},qgs={56351},r=1,sourceQuests={29879},u=50,g={
@@ -54267,7 +54269,7 @@ qo(1,{awp=50004,coords={{45,93,371}},providers={{"n",66423}},u=50}),
 qo(2,{awp=50004,coords={{45.2,95.2,371}},providers={{"n",66424}},u=50})}}),
 q(31779,{awp=50004,coords={{31.6,21.9,371}},qgs={65999},r=1,sourceQuests={31775,31776,31777,31778},u=50,g={
 qo(1,{awp=50004,coords={{25.8,23.8,371}},providers={{"n",66052}},u=50}),
-crit(19333,{achID=6534,awp=50004,id=2,u=50})}}),
+crit(19333,{achID=6534,awp=50004,id=2,r=1,u=50})}}),
 q(29716,{awp=50004,coords={{46.6,46.1,371}},qgs={55234},sourceQuests={31230},u=50,g={
 qo(1,{awp=50004,coords={{39,47.8,371}},providers={{"n",55267}},u=50})}}),
 q(29887,{awp=50004,coords={{58.7,81.3,371}},qgs={59058},r=2,sourceQuests={29883,29885},u=50,g={
@@ -54304,13 +54306,13 @@ s(267836,80691,{awp=50004,b=1,f=5,q=2,u=50}),
 s(267837,80692,{awp=50004,b=1,f=6,q=2,u=50}),
 s(267838,80693,{awp=50004,b=1,f=7,q=2,u=50}),
 s(267839,80694,{awp=50004,b=1,f=7,q=2,u=50}),
-crit(19349,{achID=6300,awp=50004,id=9,u=50}),
-crit(19349,{achID=6534,awp=50004,id=7,u=50})}}),
+crit(19349,{achID=6300,awp=50004,id=9,r=2,u=50}),
+crit(19349,{achID=6534,awp=50004,id=7,r=1,u=50})}}),
 q(29723,{awp=50004,coords={{38.4,46.2,371}},qgs={55234,55274},sourceQuests={29716},u=50,g={
 qo(1,{awp=50004,coords={{39.6,46.2,371}},providers={{"n",55368}},u=50}),
 i(82984,{awp=50004,b=1,f=53,q=2,u=50}),
-crit(19343,{achID=6300,awp=50004,id=5,u=50}),
-crit(19343,{achID=6534,awp=50004,id=5,u=50})}}),
+crit(19343,{achID=6300,awp=50004,id=5,r=2,u=50}),
+crit(19343,{achID=6534,awp=50004,id=5,r=1,u=50})}}),
 q(29547,{awp=50004,coords={{85.6,32.8,84}},isBreadcrumb=1,nextQuests={29548},qgs={1750},r=2,u=50}),
 q(29998,{awp=50004,coords={{58.1,58.6,371}},qgs={56782},sourceQuests={29932},u=50}),
 q(29553,{awp=50004,coords={{50.4,88.2,371}},qgs={54615},r=2,sourceQuests={29555,29556},u=50}),
@@ -54325,8 +54327,8 @@ qo(3,{awp=50004,coords={{58.8,84.6,371}},providers={{"n",56690}},u=50}),
 qo(4,{awp=50004,coords={{58.8,81.6,371}},providers={{"n",54960}},u=50})}}),
 q(29881,{awp=50004,coords={{54.8,45.3,371}},qgs={56064},sourceQuests={31230},u=50,g={
 qo(1,{awp=50004,coords={{54,46.2,371}},providers={{"i",75219},{"o",209836}},u=50}),
-crit(19346,{achID=6300,awp=50004,id=5,u=50}),
-crit(19346,{achID=6534,awp=50004,id=5,u=50})}}),
+crit(19346,{achID=6300,awp=50004,id=5,r=2,u=50}),
+crit(19346,{achID=6534,awp=50004,id=5,r=1,u=50})}}),
 q(29999,{awp=50004,coords={{58,59,371}},qgs={56784},sourceQuests={29932},u=50,g={
 qo(1,{awp=50004,coords={{59.2,56.8,371}},providers={{"n",56853}},u=50}),
 qo(2,{awp=50004,coords={{58.2,61.2,371}},providers={{"n",56852}},u=50}),
@@ -54374,8 +54376,8 @@ s(267854,80709,{awp=50004,b=1,f=5,q=2,u=50}),
 s(267855,80710,{awp=50004,b=1,f=6,q=2,u=50}),
 s(267856,80711,{awp=50004,b=1,f=7,q=2,u=50}),
 s(267857,80712,{awp=50004,b=1,f=7,q=2,u=50}),
-crit(19345,{achID=6300,awp=50004,id=5,u=50}),
-crit(19345,{achID=6534,awp=50004,id=5,u=50})}}),
+crit(19345,{achID=6300,awp=50004,id=5,r=2,u=50}),
+crit(19345,{achID=6534,awp=50004,id=5,r=1,u=50})}}),
 q(29586,{awp=50004,coords={{43.2,75.9,371}},qgs={55209},sourceQuests={29578,29579,29580,29585},u=50}),
 q(29745,{awp=50004,coords={{48.6,24.9,371}},qgs={55438},sourceQuests={29925},u=50,g={
 qo(1,{awp=50004,coords={{49.2,23,371}},providers={{"n",55288}},u=50}),
@@ -54437,8 +54439,8 @@ s(267904,80784,{awp=50004,b=1,f=3,q=2,u=50}),
 s(267905,80785,{awp=50004,b=1,f=3,q=2,u=50}),
 s(267906,80786,{awp=50004,b=1,f=3,q=2,u=50}),
 s(267907,80787,{awp=50004,b=1,f=3,q=2,u=50}),
-crit(19348,{achID=6300,awp=50004,id=6,u=50}),
-crit(19348,{achID=6534,awp=50004,id=6,u=50})}}),
+crit(19348,{achID=6300,awp=50004,id=6,r=2,u=50}),
+crit(19348,{achID=6534,awp=50004,id=6,r=1,u=50})}}),
 q(31241,{awp=50004,coords={{28.1,38.9,371}},minReputation={1228,3000},qgs={63748},r=1,u=50,g={
 qo(1,{awp=50004,coords={{32,40.8,371}},crs={63764,63782},providers={{"i",85784}},u=50}),
 s(273189,88701,{awp=50004,b=1,f=3,q=2,u=50}),
@@ -56006,8 +56008,8 @@ exp(6189,{awp=50004,collectible=false}),
 exp(6165,{awp=50004})}}),
 h(-31,{awp=50004,g={
 faction(1270,{awp=50004,g={
-crit(18993,{achID=6827,awp=50004,id=3,u=50}),
-crit(18993,{achID=6828,awp=50004,id=3,u=50})}})}}),
+crit(18993,{achID=6827,awp=50004,id=3,r=1,u=50}),
+crit(18993,{achID=6828,awp=50004,id=3,r=2,u=50})}})}}),
 h(-32,{awp=50004,g={
 fp(1054,{awp=50004,coords={{74.4,81.4,388}},crs={62903}}),
 fp(1053,{awp=50004,coords={{71,57.2,388}},crs={62901}}),
@@ -56357,10 +56359,10 @@ q(31386,{awp=50004,coords={{84.4,61.6,390}},isBreadcrumb=1,nextQuests={30814},qg
 q(31388,{awp=50004,coords={{63,21.2,390}},isBreadcrumb=1,nextQuests={30814},qgs={64002},r=1}),
 q(30956,{awp=50004,coords={{39.3,62.2,388}},isDaily=1,qgs={61580}}),
 q(32681,{awp=50200,coords={{49.8,69,388}},qgs={70360},r=2,sourceQuests={32679},u=52,g={
-toy(95567,{awp=50200,b=1,minReputation={1387,0},q=1,u=52}),
+toy(95567,{awp=50200,b=1,q=1,u=52}),
 crit(22874,{achID=8099,awp=50200,id=1,u=52})}}),
 q(32680,{awp=50200,coords={{50.7,73.3,388}},qgs={70358},r=1,sourceQuests={32678},u=52,g={
-toy(95568,{awp=50200,b=1,minReputation={1388,0},q=1,u=52}),
+toy(95568,{awp=50200,b=1,q=1,u=52}),
 crit(22875,{achID=8099,awp=50200,id=1,u=52})}}),
 q(30975,{awp=50004,coords={{61.5,79.3,388}},qgs={61016},sourceQuests={30973},g={
 i(83721,{awp=50004,b=1,f=52,q=2}),
@@ -56569,40 +56571,40 @@ n(64607,{awp=50004,coords={{37.8,64.6,388}},sym={{"select","itemID",89527,89532,
 n(64606,{awp=50004,coords={{37.8,64.6,388}},sym={{"select","itemID",88741,88742,88743,88744,88745,88746,88747,88748,88749,88862,88864,88865,88866,88867,88868,88876,88877,88878,88879,88880,88881,88882,88883,88884,88885,88892,88893,89055,89056,89057,89058,89059,89060,89061,89062,89063,89064,89065,89066,89067,89068,89069,89070,89071,89072,89073,89074,89075,89076,89077,89078,89079,89080,89081,89082,89083,89087,89088,89089,89090,89091,89092,89093,89094,89095,89096,89216,89280,89291,89296,89300,89308,89337,89338,89339,89340,89341,89342,89343,89344,89345,89346,89347,89420,89421,89423,89429,89430,89431,89432,89433,89434}},g={
 i(256883,{awp=50004,u=51})}}),
 n(64595,{awp=50004,coords={{48.8,70.5,388}},g={
-s(273393,89076,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,0},q=4}),
+s(273393,89076,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,9000},q=4}),
 i(89081,{awp=50004,b=1,f=53,lvl=90,minReputation={1270,0},q=4}),
 s(273721,89660,{awp=50004,b=1,f=5,lvl=90,minReputation={1270,0},q=3}),
 s(273716,89655,{awp=50004,b=1,f=6,lvl=90,minReputation={1270,0},q=3}),
-s(273394,89077,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,0},q=4}),
-s(273391,89074,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,0},q=4}),
+s(273394,89077,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,9000},q=4}),
+s(273391,89074,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,9000},q=4}),
 i(89523,{awp=50004,b=1,f=52,lvl=90,minReputation={1270,0},q=3}),
-s(273495,89337,{awp=50004,b=1,f=4,lvl=90,minReputation={1270,0},q=4}),
+s(273495,89337,{awp=50004,b=1,f=4,lvl=90,minReputation={1270,21000},q=4}),
 s(273717,89656,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,0},q=3}),
 s(273715,89654,{awp=50004,b=1,f=6,lvl=90,minReputation={1270,0},q=3}),
-s(273463,89291,{awp=50004,b=1,f=6,lvl=90,minReputation={1270,0},q=4}),
+s(273463,89291,{awp=50004,b=1,f=6,lvl=90,minReputation={1270,21000},q=4}),
 i(89082,{awp=50004,b=1,f=53,lvl=90,minReputation={1270,0},q=4}),
 i(89083,{awp=50004,b=1,f=53,lvl=90,minReputation={1270,0},q=4}),
 i(89079,{awp=50004,b=1,f=53,lvl=90,minReputation={1270,0},q=4}),
 i(89522,{awp=50004,b=1,f=52,lvl=90,minReputation={1270,0},q=3}),
-s(273466,89296,{awp=50004,b=1,f=6,lvl=90,minReputation={1270,0},q=4}),
-s(273469,89300,{awp=50004,b=1,f=5,lvl=90,minReputation={1270,0},q=4}),
+s(273466,89296,{awp=50004,b=1,f=6,lvl=90,minReputation={1270,21000},q=4}),
+s(273469,89300,{awp=50004,b=1,f=5,lvl=90,minReputation={1270,21000},q=4}),
 r(1245411,{awp=50500,itemID=247800,learnedAt=550,minReputation={1270,0},q=2,requireSkill=171}),
 s(273734,89673,{awp=50004,b=1,f=4,lvl=90,minReputation={1270,0},q=3}),
 s(273733,89672,{awp=50004,b=1,f=4,lvl=90,minReputation={1270,0},q=3}),
-s(273395,89078,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,0},q=4}),
+s(273395,89078,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,9000},q=4}),
 i(89080,{awp=50004,b=1,f=53,lvl=90,minReputation={1270,0},q=4}),
 i(88995,{awp=50004,b=1,f=53,lvl=90,minReputation={1270,0},q=3}),
 i(89526,{awp=50004,b=1,f=52,lvl=90,minReputation={1270,0},q=3}),
-s(273405,89096,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,0},q=4}),
-s(273470,89308,{awp=50004,b=1,f=5,lvl=90,minReputation={1270,0},q=4}),
+s(273405,89096,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,21000},q=4}),
+s(273470,89308,{awp=50004,b=1,f=5,lvl=90,minReputation={1270,21000},q=4}),
 i(89524,{awp=50004,b=1,f=52,lvl=90,minReputation={1270,0},q=3}),
 i(89525,{awp=50004,b=1,f=52,lvl=90,minReputation={1270,0},q=3}),
 s(273722,89661,{awp=50004,b=1,f=5,lvl=90,minReputation={1270,0},q=3}),
-s(273459,89280,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,0},q=4}),
+s(273459,89280,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,21000},q=4}),
 s(273718,89657,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,0},q=3}),
-s(273496,89338,{awp=50004,b=1,f=4,lvl=90,minReputation={1270,0},q=4}),
-s(273392,89075,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,0},q=4}),
-s(273453,89216,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,0},q=4}),
+s(273496,89338,{awp=50004,b=1,f=4,lvl=90,minReputation={1270,21000},q=4}),
+s(273392,89075,{awp=50004,b=1,f=3,lvl=90,minReputation={1270,9000},q=4}),
+s(273453,89216,{awp=50004,b=1,f=7,lvl=90,minReputation={1270,21000},q=4}),
 i(89302,{awp=50004,b=1,f=55,minReputation={1270,9000},q=1}),
 i(89303,{awp=50004,b=1,f=55,minReputation={1270,9000},q=1}),
 i(89301,{awp=50004,b=1,f=55,minReputation={1270,9000},q=1}),
