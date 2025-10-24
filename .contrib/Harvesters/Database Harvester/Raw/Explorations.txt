@@ -10207,18 +10207,10 @@
 16579@@@K'aresh
 11.2.5.62554
 16363@@@The Skyfire
-12.0.0.63534
-10473@@@Arcantina
-13343@@@Doug Land
-15173@@@Eversong Woods
-15355@@@Harandar
-15458@@@Voidstorm
-15459@@@12.0 WB Playground
-15469@@@Harandar Dev Land
+11.2.7.63642
 15511@@@Durotar_DemoArea
 15512@@@Dreg_DemoArea
 15515@@@Housing_Plots
-15516@@@2711- Silvermoon
 15524@@@Razorwind Shores
 15529@@@Azshara_DemoArea
 15534@@@Dreg_DemoArea_Flood
@@ -10258,6 +10250,100 @@
 15707@@@Chamber of Whispers
 15708@@@The Dawning Span
 15709@@@Teeming Burrow
+16105@@@Founder's Point
+16107@@@Elwynn 2 test
+16226@@@Cragthorn Highlands
+16227@@@DurotarMain_Housing
+16228@@@Runetotem's Bounty
+16229@@@Saltfang Shoals
+16300@@@Home Interior
+16309@@@Castle Nathria
+16376@@@Brumewood Hollow
+16377@@@Gilded Oaks
+16378@@@The Outer Banks
+16381@@@[DNT] Later Patch
+16387@@@[DNT] Later Patch
+16391@@@[DNT] Later Patch
+16392@@@[DNT] Later Patch
+16402@@@[DNT] Later Patch
+16403@@@[DNT] Later Patch
+16406@@@[DNT] Later Patch
+16407@@@[DNT] Later Patch
+16409@@@[DNT] Later Patch
+16428@@@Arathi Highlands RPE
+16430@@@The Hinterlands
+16431@@@Twilight Highlands
+16432@@@Arathi Highlands
+16433@@@Wetlands
+16434@@@Hillsbrad Foothills
+16435@@@Ravenholdt Manor
+16436@@@Nethander Stead
+16437@@@Durnholde Keep
+16438@@@Dun Garok
+16439@@@Eastern Strand
+16440@@@Thoradin's Wall
+16441@@@The Great Sea
+16442@@@Drywhisker Gorge
+16443@@@Dabyrie's Farmstead
+16444@@@Circle of Outer Binding
+16445@@@Refuge Pointe
+16446@@@Circle of Inner Binding
+16447@@@Ar'gorok
+16448@@@Hatchet Ridge
+16449@@@High Perch
+16450@@@Northfold Crossing
+16451@@@Drywhisker Mine
+16452@@@Highlands Mill
+16453@@@Stromgarde Keep
+16454@@@Valorcall Pass
+16455@@@Galson's Lode
+16456@@@Go'Shek Farm
+16457@@@Witherbark Village
+16458@@@Boulderfist Hall
+16459@@@Thandol Span
+16460@@@Thoradin's Wall
+16461@@@Faldir's Cove
+16462@@@The Drowned Reef
+16463@@@Circle of East Binding
+16464@@@Boulder'gor
+16465@@@The Forbidding Sea
+16466@@@Hammerfall
+16467@@@Circle of Elements
+16468@@@Newstead
+16469@@@Vermillion Redoubt
+16470@@@Jintha'Alor
+16471@@@Zun'watha
+16472@@@The Altar of Zul
+16473@@@The Forbidding Sea
+16474@@@Bogen's Ledge
+16475@@@Shadra'Alor
+16476@@@Saltspray Glen
+16477@@@Dun Modr
+16478@@@Thandol Span
+16533@@@[DNT][PH]
+16540@@@[DNT][PH]
+16541@@@12DUR_Oasis_TEST_MCarwen
+16551@@@Vault of the Incarnates (V2)
+16588@@@Town Center
+16589@@@The Common
+16621@@@Red Hollow
+16687@@@Four Sisters
+16688@@@Ragewater Springs
+16690@@@Sorchsong Isle
+16700@@@Faldir's Torch
+16701@@@Morgan's Rest
+16704@@@Breakwater Bight
+16709@@@Crescent Cove
+16753@@@The Bloom
+12.0.0.63534
+10473@@@Arcantina
+13343@@@Doug Land
+15173@@@Eversong Woods
+15355@@@Harandar
+15458@@@Voidstorm
+15459@@@12.0 WB Playground
+15469@@@Harandar Dev Land
+15516@@@2711- Silvermoon
 15808@@@Windrunner Spire
 15829@@@Magisters' Terrace
 15915@@@Warband Camp
@@ -10371,8 +10457,6 @@
 16099@@@Silvermoon Harbor
 16100@@@The Shining Span
 16103@@@Delve Prototype
-16105@@@Founder's Point
-16107@@@Elwynn 2 test
 16170@@@Scarlet Halls
 16171@@@Huntsman's Cloister
 16172@@@Training Grounds
@@ -10421,14 +10505,8 @@
 16221@@@Hanaar Outpost
 16222@@@Shadowridge Outpost
 16223@@@Bastion of Valor
-16226@@@Cragthorn Highlands
-16227@@@DurotarMain_Housing
-16228@@@Runetotem's Bounty
-16229@@@Saltfang Shoals
 16235@@@Duskglow Gloriette
 16291@@@Sunstrider Rise
-16300@@@Home Interior
-16309@@@Castle Nathria
 16328@@@Magister Academy
 16333@@@Sanctum of Light
 16334@@@Zeb'tela Ruins
@@ -10457,23 +10535,16 @@
 16367@@@Solemn Valley
 16368@@@Den of Nalorakk
 16375@@@Loaknit Den
-16376@@@Brumewood Hollow
-16377@@@Gilded Oaks
-16378@@@The Outer Banks
 16379@@@Strait of Hexx'alor
 16380@@@The Skybridge
-16381@@@[DNT] Later Patch
 16382@@@Talonstrike Terrace
 16383@@@Swiftclaw Terrace
 16384@@@Ragemaw Terrace
 16385@@@Firewing Terrace
 16386@@@Warlord's Stair
-16387@@@[DNT] Later Patch
 16388@@@The Foraging
 16389@@@The Storm Approaches
 16390@@@Enduring Winter
-16391@@@[DNT] Later Patch
-16392@@@[DNT] Later Patch
 16393@@@Golden Boughs
 16395@@@Maisara Caverns
 16396@@@12test
@@ -10481,11 +10552,6 @@
 16398@@@The Shining Span
 16400@@@Glimmering Cataract
 16401@@@Ahl'ua Wetland
-16402@@@[DNT] Later Patch
-16403@@@[DNT] Later Patch
-16406@@@[DNT] Later Patch
-16407@@@[DNT] Later Patch
-16409@@@[DNT] Later Patch
 16415@@@Salabria
 16416@@@The Starchaser
 16417@@@The Crimson Treader
@@ -10493,57 +10559,7 @@
 16423@@@Slayer's Rise
 16425@@@Voidscar Arena
 16426@@@Silverglade Refuge
-16428@@@Arathi Highlands RPE
 16429@@@Exiles' Hovel
-16430@@@The Hinterlands
-16431@@@Twilight Highlands
-16432@@@Arathi Highlands
-16433@@@Wetlands
-16434@@@Hillsbrad Foothills
-16435@@@Ravenholdt Manor
-16436@@@Nethander Stead
-16437@@@Durnholde Keep
-16438@@@Dun Garok
-16439@@@Eastern Strand
-16440@@@Thoradin's Wall
-16441@@@The Great Sea
-16442@@@Drywhisker Gorge
-16443@@@Dabyrie's Farmstead
-16444@@@Circle of Outer Binding
-16445@@@Refuge Pointe
-16446@@@Circle of Inner Binding
-16447@@@Ar'gorok
-16448@@@Hatchet Ridge
-16449@@@High Perch
-16450@@@Northfold Crossing
-16451@@@Drywhisker Mine
-16452@@@Highlands Mill
-16453@@@Stromgarde Keep
-16454@@@Valorcall Pass
-16455@@@Galson's Lode
-16456@@@Go'Shek Farm
-16457@@@Witherbark Village
-16458@@@Boulderfist Hall
-16459@@@Thandol Span
-16460@@@Thoradin's Wall
-16461@@@Faldir's Cove
-16462@@@The Drowned Reef
-16463@@@Circle of East Binding
-16464@@@Boulder'gor
-16465@@@The Forbidding Sea
-16466@@@Hammerfall
-16467@@@Circle of Elements
-16468@@@Newstead
-16469@@@Vermillion Redoubt
-16470@@@Jintha'Alor
-16471@@@Zun'watha
-16472@@@The Altar of Zul
-16473@@@The Forbidding Sea
-16474@@@Bogen's Ledge
-16475@@@Shadra'Alor
-16476@@@Saltspray Glen
-16477@@@Dun Modr
-16478@@@Thandol Span
 16479@@@Voidstorm
 16480@@@Slayer's Rise
 16481@@@Pit of Spite
@@ -10581,14 +10597,12 @@
 16536@@@Solaarian Sunbath
 16538@@@Isle of Quel'Danas
 16540@@@Quillgrave
-16541@@@12DUR_Oasis_TEST_MCarwen
 16542@@@Parhelion Plaza
 16543@@@Abundant Grotto
 16545@@@Collegiate Calamity
 16547@@@Magisters' Park
 16548@@@The Grudge Pit
 16549@@@Shadowguard Point
-16551@@@Vault of the Incarnates (V2)
 16553@@@Western Sungrove
 16555@@@The Sunwell
 16556@@@Atal'Aman
@@ -10606,8 +10620,6 @@
 16583@@@Nai'theren Grotto
 16584@@@Nihil
 16586@@@Torntusk Overlook
-16588@@@Town Center
-16589@@@The Common
 16592@@@Sunkiller Sanctum
 16594@@@The Shadow Enclave
 16595@@@The Gulf of Memory
@@ -10618,7 +10630,6 @@
 16601@@@The Darkwell
 16613@@@Sunwell Ramparts
 16618@@@Hall of Blood
-16621@@@Red Hollow
 16627@@@Sunwing Sundries
 16633@@@The Illicit Rain
 16634@@@Astalor's Sanctum
@@ -10639,20 +10650,12 @@
 16670@@@Altar of Malacrass
 16680@@@Den of Indulgence
 16681@@@Silvermoon Pet Shop
-16687@@@Four Sisters
-16688@@@Ragewater Springs
-16690@@@Sorchsong Isle
-16700@@@Faldir's Torch
-16701@@@Morgan's Rest
-16704@@@Breakwater Bight
-16709@@@Crescent Cove
 16719@@@The Shining Span
 16721@@@Hermit's Mooring
 16730@@@Thresh Cove
 16749@@@Sunstrider Corsair
 16750@@@Har'alnor Den
 16752@@@Derelict Legion Vessel
-16753@@@The Bloom
 16754@@@Court of the Phoenix
 16767@@@The Great Sea
 16768@@@Court of the Phoenix

@@ -23013,9 +23013,8 @@
 254359@@@Lil' Ashlee
 11.2.5.63906
 253016@@@Exodar Miniature
-12.0.0.63534
+11.2.7.63642
 114955@@@Dole Dastardly
-143622@@@Ancient Imp
 149917@@@Captain Garrick
 156280@@@Lady Jaina Proudmoore
 156626@@@Lady Jaina Proudmoore
@@ -23029,7 +23028,6 @@
 167675@@@Thrall
 167676@@@Wrathion
 167926@@@Thrall
-222593@@@Emerald Sporbit
 226715@@@Llyssabel Dawnpetal
 226765@@@Koal Brewington
 226768@@@Meerah
@@ -23135,6 +23133,106 @@
 233906@@@Child
 233907@@@Child
 233913@@@Ball
+235847@@@Wisp of Wind
+236986@@@Wisp of Wind
+238913@@@Kalecgos
+240821@@@Li Li Stormstout
+240822@@@Chon Po Stormstout
+240823@@@Ji Firepaw
+240824@@@Aysa Cloudsinger
+243236@@@Lorewalker Cho
+244341@@@Kalecgos
+244381@@@Enraged Ogre
+244389@@@Kalecgos
+244496@@@Kalecgos
+244497@@@Captain Garrick
+244655@@@Lady Jaina Proudmoore
+244658@@@Lady Jaina Proudmoore
+244667@@@Lady Jaina Proudmoore
+244674@@@Ogre Destroyer
+244685@@@Ogre Basher
+244714@@@Lady Jaina Proudmoore
+245027@@@Gnoll Assailant
+245028@@@Horde Grunt
+245031@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Owl Periodic
+245032@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Cicada Loop
+245036@@@Sound Stalker - 11.2.7 Amb - Housing - Area Trigger Sound Stalker
+245072@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Tavern Crowd Loop
+245073@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Crickets Loop
+245074@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Tavern Chant Periodic
+245075@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Elwynn Night
+245085@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Void Ambience
+245184@@@Sound Stalker - Generic Invisible Stalker
+245371@@@Captain Garrick
+245394@@@Captain Garrick
+245397@@@Lady Jaina Proudmoore
+245399@@@Lady Jaina Proudmoore
+245594@@@Henry Garrick
+245616@@@Tiny Snow Buddy
+245667@@@Captain Garrick
+245686@@@Lady Jaina Proudmoore
+248051@@@Chromie
+248563@@@Wrathion
+248565@@@Kalecgos
+249177@@@Paladin Champion
+249178@@@Warrior Champion
+249182@@@Demon Hunter Champion
+249184@@@Hunter Champion
+249254@@@Ogre Destroyer
+249281@@@Worn Catapult
+249456@@@Cindy Springstock
+250382@@@Vereesa Windrunner
+250391@@@Arator
+250392@@@Neighborhood Child
+250393@@@Lothraxion (IGC)
+250394@@@Liandra
+250395@@@Grand Magister Rommath
+250396@@@Magister Umbric
+250397@@@Lor'themar Theron
+250398@@@Harassed Citizen
+250497@@@Enthralled Sailor
+250510@@@Twilight Cultist
+250586@@@Void Hunter
+250593@@@Aysa Cloudsinger
+250594@@@Chen Stormstout
+250595@@@Chon Po Stormstout
+250596@@@Instructor Qun
+250597@@@Instructor Zhi
+250598@@@Ironfist Zhou
+250599@@@Jaomin Ro
+250600@@@Ji Firepaw
+250601@@@Jojo Ironbrow
+250602@@@Li Li Stormstout
+250603@@@Lorewalker Cho
+250604@@@Quiet Lam
+250605@@@Shisai Stormstout
+250606@@@Yu'lon
+250607@@@Dai-Lo Farmer
+250608@@@Fe-Feng Ruffian
+250609@@@Huojin Trainee
+250610@@@Morning Breeze Villager
+250611@@@Tushui Trainee
+250612@@@Village Cub
+250613@@@Wu-Song Villager
+252008@@@Kill Credit [DNT]
+252233@@@Void Broken
+252234@@@Darklost Brute
+252236@@@Void Wraith
+252242@@@Writhing Shambler
+252280@@@Writhing Shambler
+252326@@@T'lama
+253374@@@P.O.S.T. Assistant
+253460@@@Stuck Ogre
+253699@@@Generic Bunny - PRK
+253710@@@Wrathion
+253758@@@Wrathion
+254148@@@Twilight Cultist
+254456@@@Lorewalker Cho
+254735@@@Costume Kid
+256286@@@Azerothian Athenaeum
+12.0.0.63534
+143622@@@Ancient Imp
+222593@@@Emerald Sporbit
 234793@@@Row Rat
 235240@@@Orgrim Doomhammer
 235411@@@Magister Umbric
@@ -23145,11 +23243,9 @@
 235715@@@Alleria Windrunner
 235776@@@Arator
 235777@@@Lothraxion
-235847@@@Wisp of Wind
 236684@@@Voidwake Behemoth
 236716@@@Arator
 236903@@@Orweyna
-236986@@@Wisp of Wind
 237121@@@Hadwin
 237225@@@Orgrim Doomhammer
 237278@@@Lady Liadrin
@@ -23166,7 +23262,6 @@
 237601@@@Alonsus Faol
 237602@@@Alonsus Faol
 238882@@@Voidfront corpse
-238913@@@Kalecgos
 239390@@@Voidfront Linebreaker
 239473@@@Anduin Wrynn
 239499@@@Elana
@@ -23208,10 +23303,6 @@
 240714@@@Alonsus Faol
 240747@@@Alonsus Faol
 240772@@@Boost
-240821@@@Li Li Stormstout
-240822@@@Chon Po Stormstout
-240823@@@Ji Firepaw
-240824@@@Aysa Cloudsinger
 240851@@@Celestial Drifter
 240857@@@Voidspawn
 240864@@@Blinky
@@ -23260,7 +23351,6 @@
 243111@@@Auctioneer Caidori
 243157@@@Light's Vanguard
 243165@@@Lady Liadrin
-243236@@@Lorewalker Cho
 243441@@@Lady Darkglen
 243491@@@Cauldron of Echoes
 243514@@@Aln'hara's Bloom
@@ -23282,11 +23372,6 @@
 244055@@@Controller
 244073@@@Royal Guard
 244081@@@Nightborne Arcanist
-244341@@@Kalecgos
-244381@@@Enraged Ogre
-244389@@@Kalecgos
-244496@@@Kalecgos
-244497@@@Captain Garrick
 244594@@@Scourge Banner
 244595@@@Scourge War Machine
 244596@@@Scourge War Engineer
@@ -23302,12 +23387,6 @@
 244611@@@Offworlder Refugee
 244630@@@Offworlder Refugee
 244637@@@Offworlder Refugee
-244655@@@Lady Jaina Proudmoore
-244658@@@Lady Jaina Proudmoore
-244667@@@Lady Jaina Proudmoore
-244674@@@Ogre Destroyer
-244685@@@Ogre Basher
-244714@@@Lady Jaina Proudmoore
 244728@@@Sky's Hope
 244745@@@Lady Darkglen
 244778@@@Silvermoon Ranger
@@ -23317,27 +23396,12 @@
 244875@@@Entropy Wielder
 244984@@@Voidwraith
 245014@@@Curious Cat
-245027@@@Gnoll Assailant
-245028@@@Horde Grunt
-245031@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Owl Periodic
-245032@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Cicada Loop
-245036@@@Sound Stalker - 11.2.7 Amb - Housing - Area Trigger Sound Stalker
 245043@@@Hawkstrider Hatchling
 245068@@@Background
-245072@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Tavern Crowd Loop
-245073@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Crickets Loop
-245074@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Tavern Chant Periodic
-245075@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Elwynn Night
-245085@@@Sound Stalker - 11.2.7 Amb - Housing - Item Sound Stalker - Void Ambience
 245125@@@Turalyon
-245184@@@Sound Stalker - Generic Invisible Stalker
 245246@@@Zul'jarra
 245278@@@Charge Bar
 245300@@@Charge Bar
-245371@@@Captain Garrick
-245394@@@Captain Garrick
-245397@@@Lady Jaina Proudmoore
-245399@@@Lady Jaina Proudmoore
 245458@@@Chief Telemancer Oculeth
 245477@@@Rhay'Dahr
 245511@@@Sai'alyo
@@ -23345,12 +23409,8 @@
 245586@@@Lor'themar Theron
 245587@@@Grand Magister Rommath
 245588@@@High Exarch Turalyon
-245594@@@Henry Garrick
 245597@@@Penumbra
 245605@@@Captain Fareeya
-245616@@@Tiny Snow Buddy
-245667@@@Captain Garrick
-245686@@@Lady Jaina Proudmoore
 245694@@@Cauldron of Echoes
 245724@@@Sai'alyo
 245725@@@Sai'alyo
@@ -23507,7 +23567,6 @@
 247495@@@Path Helper
 247664@@@Lady Darkglen
 247674@@@Lady Darkglen
-248051@@@Chromie
 248090@@@Entropy Wielder
 248120@@@Ordon Darkwhisper
 248122@@@Stalker Kaylanna
@@ -23544,8 +23603,6 @@
 248451@@@Echo of Memory
 248455@@@Lucia Nightbreaker
 248492@@@Arcane Cannon
-248563@@@Wrathion
-248565@@@Kalecgos
 248636@@@Alonsus Faol
 248700@@@Abysslick
 248740@@@Ruilla the Huntress
@@ -23564,10 +23621,6 @@
 249102@@@Karion
 249103@@@War Chaplain Senn
 249161@@@Shadowguard Flickerblade
-249177@@@Paladin Champion
-249178@@@Warrior Champion
-249182@@@Demon Hunter Champion
-249184@@@Hunter Champion
 249202@@@Flower Bunny 02
 249203@@@Flower Bunny 03
 249205@@@Flower Bunny 04
@@ -23576,11 +23629,8 @@
 249208@@@Flower Bunny 07
 249209@@@Flower Bunny 08
 249210@@@Flower Bunny 09
-249254@@@Ogre Destroyer
-249281@@@Worn Catapult
 249289@@@Anduin Wrynn
 249396@@@Runaway Tome
-249456@@@Cindy Springstock
 249457@@@Unlit Lantern
 249460@@@Calia Menethil
 249488@@@Dundun
@@ -23613,24 +23663,13 @@
 250288@@@Vereesa Windrunner
 250289@@@Demonic Tyrant
 250353@@@Lost Pet
-250382@@@Vereesa Windrunner
-250391@@@Arator
-250392@@@Neighborhood Child
-250393@@@Lothraxion (IGC)
-250394@@@Liandra
-250395@@@Grand Magister Rommath
-250396@@@Magister Umbric
-250397@@@Lor'themar Theron
-250398@@@Harassed Citizen
 250407@@@Taoshi
 250410@@@Gorgonna
 250412@@@Cyrus Crestfall
 250496@@@Ghostclaw Lynx
-250497@@@Enthralled Sailor
 250499@@@Raven
 250504@@@Roving Springrunner
 250507@@@Dragonhawk
-250510@@@Twilight Cultist
 250547@@@Blood Elf Civilian
 250566@@@Brilliant Hawkstrider
 250567@@@Hawkstrider Fledgling
@@ -23641,28 +23680,6 @@
 250578@@@Dragonhawk
 250583@@@Naloki
 250584@@@Silvermooon Guard
-250586@@@Void Hunter
-250593@@@Aysa Cloudsinger
-250594@@@Chen Stormstout
-250595@@@Chon Po Stormstout
-250596@@@Instructor Qun
-250597@@@Instructor Zhi
-250598@@@Ironfist Zhou
-250599@@@Jaomin Ro
-250600@@@Ji Firepaw
-250601@@@Jojo Ironbrow
-250602@@@Li Li Stormstout
-250603@@@Lorewalker Cho
-250604@@@Quiet Lam
-250605@@@Shisai Stormstout
-250606@@@Yu'lon
-250607@@@Dai-Lo Farmer
-250608@@@Fe-Feng Ruffian
-250609@@@Huojin Trainee
-250610@@@Morning Breeze Villager
-250611@@@Tushui Trainee
-250612@@@Village Cub
-250613@@@Wu-Song Villager
 250658@@@Leading Domanaar
 250680@@@Riftblade Familiar
 250693@@@Mud Potadpole
@@ -23689,7 +23706,6 @@
 251946@@@Anduin Wrynn
 251963@@@Lost Balloon
 251994@@@Bountiful Soil
-252008@@@Kill Credit [DNT]
 252009@@@Unpickable Lockbox
 252010@@@Unpickable Lockbox
 252015@@@Injured Ren'dorei Scout
@@ -23700,14 +23716,8 @@
 252106@@@Blurry Spirit
 252129@@@Overgrown Chest
 252141@@@Poorly-Trapped Chest
-252233@@@Void Broken
-252234@@@Darklost Brute
-252236@@@Void Wraith
-252242@@@Writhing Shambler
-252280@@@Writhing Shambler
 252281@@@Lor'themar Theron
 252282@@@High Exarch Turalyon
-252326@@@T'lama
 252393@@@Akil'zon
 252394@@@Zul'jarra
 252395@@@Lady Liadrin
@@ -23755,15 +23765,10 @@
 253363@@@Leading Domanaar
 253365@@@Lothraxion
 253366@@@Arator
-253374@@@P.O.S.T. Assistant
 253383@@@Light's Vanguard
 253399@@@[DNT] Baby Amani Eagle (Grey)
-253460@@@Stuck Ogre
 253477@@@Lor'themar Theron
-253699@@@Generic Bunny - PRK
-253710@@@Wrathion
 253753@@@Amani Wartusk
-253758@@@Wrathion
 253776@@@Befuddled Engineer
 253821@@@Loa Speaker Brek
 253948@@@Leona Darkstrider
@@ -23771,7 +23776,6 @@
 254055@@@Nightborne Arcanist
 254061@@@Night Elf Archer
 254147@@@Shadowpine Civilian
-254148@@@Twilight Cultist
 254230@@@Orweyna
 254232@@@Hagar
 254234@@@Ruia
@@ -23785,7 +23789,6 @@
 254404@@@Lieutenant Verana
 254407@@@Scout Captain Daelin
 254408@@@Captain Elleane Wavecrest
-254456@@@Lorewalker Cho
 254549@@@Avatar of Halazzi
 254565@@@Delver's Guide
 254592@@@Brann Bronzebeard
@@ -23797,7 +23800,6 @@
 254616@@@Nelthius Shadestone
 254647@@@[PH] Green Baby Hawkstrider
 254689@@@Do, child of Fi'lo
-254735@@@Costume Kid
 254885@@@Silvermoon Broom
 254892@@@Avatar of Nalorakk
 254893@@@Avatar of Akil'zon

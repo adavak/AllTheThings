@@ -1,0 +1,1415 @@
+11.2.7.63642
+12@@@[DNT] Orgrimmar Interior Wall - DO NOT USE
+13@@@[DNT] Partition Pillar (WMO) - DO NOT USE
+60@@@[DNT] Partition Doorway (WMO) - DO NOT USE
+80@@@Ornate Stonework Fireplace
+81@@@Tusked Fireplace
+83@@@[DNT] Plain Interior Narrow Wall - DO NOT USE
+84@@@[DNT] Plain Interior Wall - DO NOT USE
+85@@@[DNT] Sturdy Wooden Interior Pillar - DO NOT USE
+87@@@[DNT] Stormwind Interior Pillar - DO NOT USE
+88@@@[DNT] Stormwind Interior Doorway - DO NOT USE
+89@@@[DNT] Stormwind Interior Wall - DO NOT USE
+90@@@[DNT] Stormwind Interior Narrow Wall - DO NOT USE
+91@@@{DNT] Plain Interior Doorway - DO NOT USE
+126@@@Rolled Scroll
+129@@@[DNT] Green Book of Runes - DO NOT USE
+373@@@Sturdy Wooden Bookcase
+374@@@Sturdy Wooden Shelf
+377@@@Three-Candle Wrought Iron Chandelier
+378@@@Sturdy Wooden Interior Door
+379@@@Small Fruit Platter
+383@@@Wrought Iron Floor Lamp
+387@@@[DNT] Sturdy Wooden Table - DO NOT USE
+388@@@"Sunrise Canyon" Painting
+389@@@Goldshire Window
+390@@@Tall Sturdy Wooden Bookcase
+399@@@Abandoned Bookcase
+478@@@Wooden Coffin Lid
+479@@@Empty Stormwind Market Stand
+480@@@Stormwind Bean Seller's Stand
+481@@@Stormwind Spice Merchant's Stand
+482@@@Gryphon Roost
+483@@@Sturdy Wooden Coffin
+484@@@Open Wooden Coffin
+485@@@Open-Air Sturdy Tent
+486@@@Sturdy Sheltering Tent
+487@@@Small Stonework Fountain
+488@@@Large Stonework Fountain
+489@@@Sturdy Roofed Wagon
+490@@@Sturdy Open Wagon
+491@@@Sturdy Covered Wagon
+492@@@Well-Built Well
+493@@@Sturdy Wooden Wheelbarrow
+494@@@Sturdy Wooden Chair
+495@@@Sturdy Wooden Bed
+496@@@Covered Wooden Table
+497@@@Sturdy Wooden Table
+498@@@Circular Woolen Rug
+508@@@[DNT] Chair for Testing Decor Limits - do not use
+518@@@Studded Wooden Chair
+519@@@Orcish Wooden Bench
+520@@@Gift of Gilneas
+521@@@Charming Laurel Tree
+522@@@Orgrimmar Interior Narrow Wall
+523@@@Orgrimmar Interior Doorway
+524@@@Orgrimmar Interior Wall
+525@@@Orgrimmar Round Interior Pillar
+526@@@Orgrimmar Square Interior Pillar
+527@@@Stormwind Interior Pillar
+528@@@Stormwind Interior Narrow Wall
+529@@@Stormwind Interior Wall
+530@@@Stormwind Interior Doorway
+533@@@Sturdy Wooden Interior Pillar
+534@@@Plain Interior Wall
+535@@@Plain Interior Doorway
+536@@@Plain Interior Narrow Wall
+562@@@Winter Veil Tree
+582@@@Wild Violet Bellflowers
+584@@@Reaching Violet Bellflowers
+586@@@Arched Violet Bellflowers
+592@@@Algari Lettuce Plant
+673@@@Moon-Blessed Storage Crate
+674@@@Ancient Elven Highback Chair
+675@@@Cenarion Privacy Screen
+676@@@Deluxe Val'sharah Bed
+677@@@Cenarion Rectangular Rug
+678@@@Cenarion Round Rug
+679@@@Kaldorei Desk
+714@@@Silvermoon Wooden Chair
+715@@@Small Silvermoon Bookcase
+716@@@Reliquary Storage Crate
+717@@@Long Sin'dorei Rug
+718@@@Circular Sin'dorei Rug
+720@@@Reliquary Telescope
+721@@@Ceiling Cobweb
+722@@@Tented Cobweb
+723@@@Small Dangling Cobweb
+724@@@Large Dangling Cobweb
+725@@@Pillar Cobweb
+726@@@Wrought Iron Chandelier
+744@@@[DNT] Chair - do not use
+749@@@Hungry Human's Platter
+750@@@Tirisgarde Book Tempest
+751@@@Wooden Mug
+752@@@"Night on the Jeweled Estate" Painting
+753@@@"The Final Study" Painting
+754@@@"The Fallen Archmage" Painting
+755@@@Boralus-Style Lobster Platter
+756@@@Venthyr Tome of Unforgiven Sins
+757@@@"Aspects in the Clouds" Painting
+758@@@"Water Falls Home" Painting
+759@@@Dornic Mine and Cheese Platter
+760@@@Literature of Dornogal
+761@@@Literature of Taelloch
+762@@@Literature of Gundargaz
+763@@@Collection of Arathi Scripture
+764@@@Councilward's Jeweled Goblet
+765@@@Kaheti Predator's Assortment
+766@@@Open Tome of Twilight Nihilism
+767@@@Tome of Silvermoon Intrigue
+768@@@Tome of Twilight Nihilism
+769@@@"Edge of Val'sharah" Painting
+770@@@Stormwind Produce Seller's Stand
+771@@@Small Poppy Cluster
+772@@@Creeping Corner Ivy
+773@@@Small Boxwood Bush
+825@@@Cozy Four-Pipe Bed
+826@@@[DNT] Relaxing Goblin Beach Chair with Cup Gripper - DO NOT USE - new asset
+827@@@Rocket-Unpowered Rocket
+828@@@DO NOT USE - new asset coming - Well-Lit Incontinental Loveseat
+829@@@DO NOT USE - new asset coming - Well-Lit Incontinental Couch
+837@@@Lordaeron Banded Crate
+838@@@Lordaeron Banded Barrel
+839@@@Inert Blight Canister
+840@@@Banshee Queen's Banner
+854@@@Brill Coffin
+855@@@Gilnean Cauldron
+856@@@[DNT] Gilnean Problem Solver - Do Not Use - Updated Asset Available
+857@@@Gilnean Celebration Keg
+858@@@Worgen's Chicken Coop
+859@@@Gilnean Bench
+860@@@Gilnean Wooden Bed
+861@@@Open Lordaeron Banded Crate
+862@@@Forsaken Studded Table
+863@@@Tirisfal Wooden Chair
+864@@@Forsaken Spiked Chair
+865@@@Forsaken Round Rug
+866@@@Studious Sin'dorei Desk
+922@@@Brill Coffin Lid
+923@@@Lordaeron Fence
+924@@@Lordaeron Fencepost
+925@@@Elodor Barrel
+926@@@Argussian Crate
+927@@@Spherical Draenic Topiary
+928@@@Hanging Draenethyst Light
+929@@@Karabor Bed
+930@@@Draenic Bookcase
+931@@@Draenic Storage Chest
+932@@@Forsaken War Planning Table
+933@@@Lordaeron Spiked Weapon Rack
+934@@@Lordaeron Lantern
+935@@@Forsaken Long Table
+936@@@Lordaeron Hanging Lantern
+937@@@Large Forsaken War Tent
+938@@@Small Forsaken War Tent
+939@@@Blightfire Lantern
+940@@@Blightfire Hanging Lantern
+941@@@Lordaeron Sconce
+942@@@Blightfire Sconce
+943@@@Undercity Spiked Chest
+944@@@Lordaeron Rectangular Rug
+945@@@Lordaeron Torch
+946@@@Blightfire Torch
+947@@@Dark Ship's Lantern
+948@@@Forsaken Spiked Brazier
+949@@@Large Forsaken Spiked Brazier
+984@@@Elegant Padded Chair
+985@@@Elegant Padded Footstool
+986@@@Elegant Covered Bench
+987@@@Elegant Wooden Dresser
+988@@@Small Elegant End Table
+989@@@Ornate Weapon Rack
+991@@@Elegant Carved Bench
+992@@@Open Elven Wood Crate
+994@@@Grand Elven Bookcase
+1044@@@Stormwind Hall Rug
+1083@@@Secretive Bookcase Wall
+1118@@@Dark Iron Expedition Tent
+1119@@@Loch Modan Bearskin Rug
+1120@@@Replica Dark Iron Mole Machine
+1121@@@Gallagio L.U.C.K. Spinner
+1122@@@Sturdy Wooden Bench
+1123@@@Wicker Basket
+1153@@@Small Elegant Padded Chair
+1155@@@Standing Ornate Weapon Rack
+1161@@@Small Mask of Bwonsamdi, Loa of Graves
+1162@@@Elegant Elven Desk
+1163@@@Carved Elven Bookcase
+1165@@@Grand Elven Bench
+1168@@@Red Dazar'alor Rug
+1169@@@Square Pandaren Table
+1170@@@Zandalari Rickshaw
+1171@@@[DNT] Zandalari Wall Shelf - DO NOT USE
+1172@@@Pandaren Cradle Stool
+1173@@@Gemmed Eversong Lantern
+1175@@@Bookcase of Gonk
+1176@@@Circular Silvermoon Table
+1177@@@Blood Elven Candelabra
+1178@@@Dazar'alor Market Tent
+1179@@@Bwonsamdi's Golden Gong
+1180@@@Blue Dazar'alor Rug
+1181@@@Rectangular Sin'dorei Rug
+1183@@@Grand Mask of Bwonsamdi, Loa of Graves
+1185@@@Idol of Pa'ku, Master of Winds
+1187@@@Pandaren Wooden Table
+1188@@@Golden Loa's Altar
+1189@@@Stone Zandalari Lamp
+1190@@@Sin'dorei Display Case
+1191@@@Dazar'alor Forge
+1192@@@Zuldazar Stool
+1193@@@Tired Troll's Bench
+1194@@@Pandaren Stone Wall
+1195@@@Silvermoon Library Bookcase
+1196@@@Idol of Rezan, Loa of Kings
+1197@@@Zandalari Weapon Rack
+1198@@@Long Silvermoon Table
+1199@@@Zandalari Sconce
+1200@@@Zandalari Skullfire Lamp
+1201@@@Pandaren Cooking Table
+1205@@@Golden Zandalari Bed
+1216@@@Dark Iron Brazier
+1217@@@Gilded Zandalari Table
+1218@@@Red Dazar'alor Tent
+1219@@@Suramar Dresser
+1231@@@Stonebull Canoe
+1232@@@Thunder Totem Brazier
+1235@@@Whitewash River Basket
+1236@@@Enchanted Blood Elven Candelabra
+1241@@@Zandalari Ritual Drum
+1242@@@Tauren Leather Fence
+1243@@@Tauren Fencepost
+1244@@@Empty Wicker Basket
+1245@@@Circular Elven Floor Rug
+1246@@@Rectangular Elven Floor Rug
+1251@@@Large Highmountain Drum
+1252@@@Tauren Waterwheel
+1257@@@Undermine Round Table
+1258@@@Undermine Rectangular Table
+1259@@@Spring-Powered Undermine Chair
+1260@@@Rusting Bolted Bench
+1261@@@Very Reliable Undermine Lamppost
+1262@@@Undermine Fencepost
+1263@@@Undermine Fence
+1264@@@Rust-Plated Storage Crate
+1265@@@Rust-Plated Storage Barrel
+1266@@@Undermine Market Stall
+1267@@@Cartel Head's Schmancy Desk
+1268@@@Undermine Bookcase
+1269@@@Undermine Wall Shelf
+1270@@@Shredderwheel Storage Chest
+1271@@@Rocket-Powered Fountain
+1272@@@Trashfire Barrel
+1273@@@Zhevra-Stripe Rug
+1274@@@"Elegant" Lawn Flamingo
+1275@@@Undermine Bean Bag Chair
+1276@@@Reinforced Goblin Umbrella
+1277@@@Rusty Patchwork Tub
+1279@@@[DNT] Spring-Powered Pointer - DO NOT USE - new asset coming
+1280@@@Reinforced Wooden Chest
+1281@@@Tauren Bluff Rug
+1282@@@Elder Rise Rug
+1283@@@Open Silvermoon Drapes
+1284@@@Small Silvermoon Drapes
+1287@@@Warbrave's Brazier
+1288@@@[DNT] Tauren Hanging Brazier - DO NOT USE - new asset
+1291@@@Tauren Vertical Windmill
+1292@@@Tauren Windmill
+1293@@@Small Highmountain Drum
+1294@@@Riverbend Netting
+1295@@@Riverbend Jar
+1297@@@Highmountain Totem
+1307@@@Skyhorn Storage Chest
+1308@@@Tauren Storage Chest
+1309@@@Dried Whitewash Corn
+1310@@@Akunda the Tapestry
+1311@@@Zanchuli Tapestry
+1312@@@Zuldazar Fencepost
+1313@@@Zuldazar Fence
+1314@@@Tauren Soup Pot
+1315@@@Shadowforge Wooden Box
+1317@@@Draenor Cookpot
+1318@@@Frostwolf Bookcase
+1319@@@Durotar Signal Brazier
+1320@@@Durotar Hanging Brazier
+1321@@@Blackrock Bunkbed
+1322@@@Blackrock Strongbox
+1323@@@Orgrimmar Sconce
+1324@@@Horde Battle Emblem
+1325@@@Blackrock Weapon Rack
+1326@@@Orc-Forged Weaponry
+1329@@@Elegant Padded Divan
+1350@@@Rectangular Elegant Table
+1351@@@Orcish Fencepost
+1352@@@Warsong Footrest
+1353@@@Frostwolf Round Table
+1354@@@Orcish Communal Stove
+1355@@@Frostwolf Axe-Dart Board
+1356@@@Elegant Almond Table
+1405@@@Orcish Fence
+1406@@@Frostwall Architect's Table
+1407@@@Orcish Warlord's Planning Table
+1408@@@Warsong Workbench
+1409@@@Orcish Banded Barrel
+1410@@@Wine Barrel
+1411@@@Wooden Shipping Crate
+1412@@@Youngling's Courser Toys
+1413@@@Orcish Lumberjack's Stool
+1414@@@Frostwolf Banded Stool
+1415@@@Orcish Sleeping Cot
+1416@@@Peon's Work Bucket
+1417@@@Zuldazar Cook's Griddle
+1418@@@Zandalari Wall Shelf
+1434@@@Sturdy Wall Rack
+1435@@@Sturdy Fireplace
+1436@@@Rugged Stool
+1437@@@Iron Chain Chandelier
+1438@@@Iron-Reinforced Door
+1439@@@Tusked Gazebo
+1440@@@Nightborne Fireplace
+1443@@@Orcish Scribe's Drafting Table
+1444@@@Small Purple Suramar Seat Cushion
+1445@@@Gilnean Circular Rug
+1446@@@Wide Silvermoon Seat Cushion
+1447@@@Small Silvermoon Seat Cushion
+1448@@@Triangular Silvermoon Seat Cushion
+1449@@@Circular Silvermoon Seat Cushion
+1450@@@Silvermoon Pillow Roll
+1451@@@Tied-Open Leather Curtains
+1452@@@Closed Leather Curtains
+1453@@@Leather Valance
+1454@@@Tied-Open Folk Curtains
+1455@@@Closed Folk Curtains
+1456@@@Durable Folk Valance
+1457@@@Restful Wooden Bench
+1458@@@Light-Infused Fountain
+1459@@@Tiny String of Schmancy Goblin Lights
+1460@@@Small String of Schmancy Goblin Lights
+1461@@@Drooping String of Schmancy Goblin Lights
+1462@@@Very Long String of Schmancy Goblin Lights
+1463@@@Long String of Schmancy Goblin Lights
+1464@@@Teal Suramar Seat Cushion
+1465@@@Purple Suramar Seat Cushion
+1466@@@Small Red Suramar Seat Cushion
+1481@@@Surwich Peddler's Wagon
+1482@@@Sethraliss Priest's Pillow
+1484@@@Sethrak Neckroll Pillow
+1486@@@Circular Elven Table
+1487@@@Elegant Wall Drape
+1488@@@Elven Floral Window
+1674@@@Head of the Broodmother
+1692@@@Val'sharah Bookcase
+1693@@@Small Val'sharah Bookcase
+1694@@@Kaldorei Chef's Table
+1695@@@Kaldorei Washbasin
+1697@@@Zocalo Drinks
+1698@@@Round Stitched Cushion
+1699@@@Stitched Pillow Roll
+1700@@@Iron-Studded Wooden Window
+1701@@@Charming Seat Cushion
+1702@@@Checkered Charming Seat Cushion
+1703@@@Thunder Totem Kiln
+1704@@@Old Salt's Fireplace
+1717@@@[DNT] Schmancy Goblin String Lights - DO NOT USE
+1718@@@[DNT] Schmancy Goblin String Lights - DO NOT USE
+1719@@@[DNT] Zuldazar Cook's Griddle - DO NOT USE
+1720@@@[DNT] Zuldazar Cook's Griddle - DO NOT USE
+1723@@@Orgrimmar Chair
+1724@@@Rugged Brazier
+1725@@@Frostwall Elevated Brazier
+1736@@@Orgrimmar Nightstand
+1737@@@Durable Wooden Chest
+1738@@@Wide Charming Couch
+1739@@@Iron-Reinforced Cupboard
+1740@@@Trueshot Lodge Fireplace
+1741@@@Runed Dreamweaver Moonstone
+1742@@@Worker's Wooden Desk
+1743@@@[DNT] Cornerstone 02 - DO NOT USE
+1744@@@Orgrimmar Tusked Bed
+1745@@@Iron-Reinforced Standing Mirror
+1746@@@Shaded Suramar Window
+1747@@@Elaborate Suramar Window
+1748@@@Octagonal Ochre Window
+1749@@@Meadery Ochre Window
+1750@@@Ornate Ochre Window
+1751@@@[DNT] Cornerstone 01 - DO NOT USE
+1770@@@Bel'ameth Interior Wall
+1771@@@Bel'ameth Round Interior Pillar
+1772@@@Bel'ameth Interior Doorway
+1773@@@Bel'ameth Interior Narrow Wall
+1774@@@Silvermoon Round Interior Pillar
+1775@@@Silvermoon Interior Narrow Wall
+1776@@@Silvermoon Interior Wall
+1791@@@Frostwall Forge
+1792@@@Ancestral Signal Brazier
+1793@@@Gilnean Problem Solver
+1794@@@Gilnean Noble's Trellis
+1795@@@Arched Rose Trellis
+1796@@@Gilnean Stone Wall
+1801@@@Bradensbrook Smoke Lantern
+1802@@@Bradensbrook Thorned Well
+1826@@@Gilnean Stocks
+1827@@@Surwich Expedition Tent
+1828@@@[DNT] Smoke Sconce - DO NOT USE - new asset
+1829@@@Little Wolf's Loo
+1830@@@Gilnean Wooden Table
+1831@@@Gilnean Wall Shelf
+1832@@@Gilnean Rocking Chair
+1833@@@Waning Wood Fence
+1834@@@Bel'ameth Bench
+1835@@@[DNT] Ornamental Kaldorei Glaive - DO NOT USE - new asset coming
+1836@@@Elven Temple Brazier
+1844@@@Silvermoon Interior Doorway
+1861@@@Filigree Moon Lamp
+1862@@@Wooden Gazebo
+1863@@@Stonework Fountain
+1864@@@Elwynn Cobblestone Round
+1865@@@Elwynn Cobblestone
+1866@@@Elwynn Cobblestone Pair
+1867@@@Elwynn Cobblestone Cluster
+1878@@@Carved Wooden Bar Table
+1879@@@Orgrimmar Bureaucrat's Desk
+1880@@@Tidesage's Fireplace
+1881@@@Shala'nir Feather Bed
+1882@@@Kaldorei Stone Fence
+1883@@@Kaldorei Stone Fencepost
+1884@@@Kaldorei Cushioned Seat
+1885@@@Elven Round Table
+1886@@@Kaldorei Wall Shelf
+1887@@@Kaldorei Treasure Trove
+1888@@@Bel'ameth Barrel
+1889@@@Crescent Moon Lamppost
+1893@@@Overgrown Arathi Trellis
+1894@@@Void-Corrupted Fountain
+1900@@@Sagehold Window
+1919@@@Orange Suramar Seat Cushion
+1920@@@Red Suramar Seat Cushion
+1938@@@Silvermoon Small Platform
+1943@@@Silvermoon Large Platform
+1944@@@Silvermoon Round Platform
+1948@@@Silvermoon Beam Platform
+1950@@@Silvermoon Angled Platform
+1952@@@Bel'ameth Beam Platform
+1953@@@Bel'ameth Round Platform
+1954@@@Bel'ameth Large Platform
+1955@@@Bel'ameth Small Platform
+1956@@@Bel'ameth Angled Platform
+1957@@@Orgrimmar Beam Platform
+1958@@@Orgrimmar Round Platform
+1959@@@Orgrimmar Large Platform
+1960@@@Orgrimmar Small Platform
+1961@@@Orgrimmar Angled Platform
+1962@@@Stormwind Beam Platform
+1963@@@Stormwind Round Platform
+1964@@@Stormwind Large Platform
+1965@@@Stormwind Small Platform
+1966@@@Stormwind Angled Platform
+1977@@@High-Backed Orgrimmar Chair
+1978@@@Iron-Reinforced Wooden Rack
+1979@@@Stitched Leather Rug
+1984@@@Schmancy Goblin String Lights
+1987@@@Bel'ameth Wooden Table
+1988@@@[DNT] Amirdrassil Stool - DO NOT USE - new asset
+1989@@@Bel'ameth Crafter's Tent
+1990@@@Small Bel'ameth Tent
+1991@@@Small Wooden Stool
+1992@@@Large Covered Wooden Table
+1993@@@Small Wooden Nightstand
+1994@@@Carved Wooden Crate
+1995@@@Sturdy Weapon Rack
+1996@@@Wooden Chamberstick
+1997@@@Large Sturdy Wooden Table
+1998@@@Embellished Dwarven Tome
+1999@@@Open Carved Wooden Crate
+2000@@@Filigree Moon Sconce
+2001@@@Shadowforge Sconce
+2018@@@[DNT] Ornate Ironforge Bench - DO NOT USE - new asset coming
+2086@@@Sprouting Lamppost
+2087@@@Short Orgrimmar Bench
+2088@@@Iron-Reinforced Crate
+2089@@@Weather-Treated Wooden Table
+2090@@@Leather-Banded Wooden Bench
+2091@@@Boralus String Lights
+2092@@@Cozy Hide-Covered Bench
+2093@@@Large Orgrimmar Bookcase
+2094@@@Small Leather Rug
+2095@@@[DNT] Spiky Banded Barrel - DO NOT USE - duplicate
+2098@@@Spiky Banded Barrel
+2099@@@Stormwind Beam Platform - M2
+2100@@@Stormwind Round Platform - M2
+2101@@@Stormwind Large Platform - M2
+2102@@@Stormwind Small Platform - M2
+2103@@@Stormwind Angled Platform - M2
+2104@@@Silvermoon Beam Platform - M2
+2105@@@Silvermoon Large Platform - M2
+2106@@@Silvermoon Small Platform - M2
+2107@@@Silvermoon Angled Platform - M2
+2108@@@Silvermoon Round Platform - M2
+2109@@@Bel'ameth Beam Platform - M2
+2110@@@Bel'ameth Large Platform - M2
+2111@@@Bel'ameth Small Platform - M2
+2112@@@Bel'ameth Angled Platform - M2
+2113@@@Bel'ameth Round Platform - M2
+2114@@@Orgrimmar Beam Platform - M2
+2115@@@Orgrimmar Round Platform - M2
+2116@@@Orgrimmar Large Platform - M2
+2117@@@Orgrimmar Small Platform - M2
+2118@@@Orgrimmar Angled Platform - M2
+2226@@@Shadowforge Grinding Wheel
+2227@@@Dark Iron Table Saw
+2228@@@Ironforge Bookcase
+2229@@@Small Ironforge Bookcase
+2230@@@Blackrock Lamppost
+2231@@@Light-Infused Rotunda
+2237@@@Kharanos Bookcase
+2238@@@Stolen Ironforge Seat
+2239@@@Thelsamar Hanging Lantern
+2240@@@Wooden Ironforge Table
+2241@@@Square Stormpike Table
+2242@@@Round Dwarven Table
+2243@@@Ornate Ironforge Table
+2244@@@Dilapidated Wildhammer Well
+2245@@@Overgrown Wildhammer Fountain
+2246@@@Dark Iron Chandelier
+2254@@@Elegant Tied Curtain
+2322@@@Gnomish T.O.O.L.B.O.X.
+2323@@@Automated Gnomeregan Guardian
+2324@@@Retired Industrial Gnomegrabber
+2325@@@Mechanical Gnomish Lamppost
+2326@@@Redundant Reclamation Rig
+2327@@@Mechagon Hanging Floodlight
+2328@@@Mechagnome Sustenance Distribution Station
+2329@@@Gnomish Tesla Mega-Coil
+2330@@@Gnomish Tesla Coil
+2331@@@Ironforge Chandelier
+2332@@@Steel Ironforge Emblem
+2333@@@Ironforge Fencepost
+2334@@@Ironforge Fence
+2337@@@Small Emergency Warning Lamp
+2338@@@Emergency Warning Lamp
+2339@@@Mechagon Eyelight Lamp
+2340@@@Mechagon Miniature Artificial Sun
+2341@@@Gnomish Safety Flamethrower
+2342@@@Charming Couch
+2343@@@Large H.O.M.E. Cog
+2384@@@Short Orgrimmar Bookcase
+2385@@@Sturdy Wooden Trellis
+2427@@@Gnomish Fencepost
+2428@@@Gnomish Fence
+2429@@@Perpetual Motion Crate
+2430@@@Screw-Sealed Stembarrel
+2431@@@Self-Sealing Stembarrel
+2432@@@Small Mechanical Crate
+2433@@@Bolt Chair
+2434@@@Small H.O.M.E. Cog
+2435@@@Gnomish Cog Stack
+2436@@@Deactivated Atomic Recalibrator 
+2437@@@Mecha-Storage Mecha-Chest
+2438@@@Mechagon Armory Rack
+2439@@@Durable Hex Table
+2440@@@Long Leather-Clad Table
+2441@@@Orgrimmar Open Dresser
+2442@@@Razorwind Standing Mirror
+2443@@@Razorwind Fountain
+2444@@@Logger's Picnic Table
+2445@@@Long Durable Table
+2446@@@Razorwind Bar Table
+2447@@@Open Spiky Banded Barrel
+2448@@@Open Iron-Reinforced Crate
+2452@@@Dwarven District Banner
+2453@@@Grummle Sleeping Bag
+2454@@@Tusked Candleholder
+2458@@@Grand Elven Wall Curtain
+2465@@@Gnomish Steam-Powered Bed
+2466@@@Gnomish Sprocket Table
+2467@@@Double-Sprocket Table
+2468@@@Caramel Mint Noodle Dish
+2469@@@Elegant Dracthyr's Tea Cup
+2470@@@Decorative Cinder Honeypot
+2471@@@Dornic Sliced Mineloaf
+2472@@@Earthen Hospitality Cheese-Like Brick
+2474@@@Elegant Pillow Roll
+2495@@@Grummle Bedroll
+2496@@@Tall Sturdy Wooden Chair
+2505@@@Zangarshroom Patch
+2506@@@Arched Wooden Bench
+2511@@@Tome of Shadowforge Cunning
+2512@@@Tome of Pandaren Wisdom
+2513@@@Tome of Draenei Faith
+2514@@@Scribe's Working Notes
+2515@@@"Welcoming Pantry" Painting
+2516@@@"Fruit of the Arcan'dor" Painting
+2517@@@"Raising Your Eyes" Painting
+2518@@@"Healthy Conjuration" Painting
+2519@@@"The Water Lilies" Painting
+2520@@@"Broken Steps" Painting
+2521@@@"Through the Portal" Painting
+2522@@@"Smiling Suns" Painting
+2523@@@"Shu'halo Perspective" Painting
+2524@@@"Tidesage's Omen" Painting
+2525@@@"Fate of All Life" Painting
+2526@@@Tome of Forsaken Resilience
+2527@@@"Tea and Sin" Painting
+2528@@@"Light's Vengeance" Painting
+2529@@@Open Tome of the Dragon's Dedication
+2530@@@Tome of the Lost Dragon
+2531@@@Tome of Reliquary Insights
+2532@@@Kaheti Scribe's Records
+2533@@@Tome of Earthen Directives
+2534@@@Wide Hide-Covered Bench
+2535@@@Razorwind Wall Mirror
+2536@@@Farmer's Water Trough
+2537@@@Hay-Filled Sturdy Feeding Trough
+2538@@@Carved Stone Bench
+2539@@@[DNT] Plush Cushioned Chair - DO NOT USE - new asset coming
+2540@@@Sturdy Brazier
+2541@@@Founder's Point Street Light
+2542@@@Founder's Point Lamppost
+2543@@@Sturdy Feeding Trough
+2544@@@[DNT] Unlit Tusked Sconce - DO NOT USE
+2545@@@Tusked Hanging Sconce
+2546@@@Horned Banded Barrel
+2547@@@Open Horned Banded Barrel
+2548@@@Long Orgrimmar Bench
+2549@@@Crude Banded Crate
+2550@@@Open Crude Banded Crate
+2578@@@Small Covered Wooden Table
+2579@@@Small Sturdy Wooden Table
+2590@@@Elegant Seat Cushion
+2591@@@Mushan Dumpling Stack
+2592@@@Small Orgrimmar Chair
+2593@@@Drake Kebab Platter
+2594@@@Roast Riverbeast Platter
+2595@@@Valdrakken Blossomfruit Platter
+2596@@@Bruffalon Rib Platter
+3826@@@Elegant Carved Door
+3827@@@Elven Woodvine Trellis
+3831@@@Pandaren Signal Brazier
+3832@@@Pandaren Scholar's Lectern
+3833@@@Pandaren Scholar's Bookcase
+3834@@@Jade Temple Incense Burner
+3835@@@Gate of the Apexis
+3836@@@Dalaran Pedestal
+3837@@@MOTHER's Titanic Brazier
+3838@@@N'Zoth's Captured Eye
+3839@@@Lorewalker's Bookcase
+3840@@@Pandaren Pantry
+3867@@@Iron Dragonmaw Gate
+3868@@@Pandaren Stone Post
+3869@@@Pandaren Stone Lamppost
+3870@@@Red Crane Kite
+3871@@@Lantern Kite
+3872@@@Lucky Hanging Lantern
+3873@@@Halfhill Cookpot
+3874@@@Paw'don Well
+3875@@@Lucky Traveler's Bench
+3876@@@Jade Temple Dragon Fountain
+3877@@@Stormstout Brew Keg
+3878@@@Pandaren Meander Rug
+3879@@@Kun-Lai Lacquered Rickshaw
+3880@@@Kotmogu Pedestal
+3881@@@Kotmogu Orb of Power
+3882@@@Timeless Dumpling Cart
+3883@@@Hanging Paper Lanterns
+3884@@@Alliance Dueling Flag
+3885@@@Horde Dueling Flag
+3886@@@Silverwing Sentinels Flag
+3887@@@Warsong Outriders Flag
+3888@@@[DNT] Kyrian Spirit Healer - DO NOT USE - NPC tech not ready yet
+3889@@@Earthcrawl Mine Cart
+3890@@@Deephaul Crystal
+3891@@@Deactivated K'areshi Warp Cannon
+3892@@@Pandaren Fireplace
+3893@@@Challenger's Duelling Flag
+3894@@@Alliance Battlefield Banner
+3895@@@Fortified Alliance Banner
+3896@@@Horde Battlefield Banner
+3897@@@Fortified Horde Banner
+3898@@@Uncontested Battlefield Banner
+3899@@@Netherstorm Battlefield Flag
+3900@@@Berserker's Empowerment
+3901@@@Enigmatic Purple Crystal
+3902@@@Healer's Empowerment
+3903@@@Runner's Empowerment
+3904@@@Wise Pandaren's Bed
+3905@@@Guardian's Empowerment
+3906@@@Chaotic Empowerment
+3907@@@Mysterious Empowerment
+3981@@@Nightborne Merchant's Stall
+3982@@@Deluxe Suramar Sleeper
+3983@@@Suramar Library
+3984@@@Nightborne Bench
+3985@@@Arcwine Counter
+3993@@@Pandaren Lacquered Crate
+3994@@@Serenity Peak Tent
+3995@@@Shaohao Ceremonial Bell
+4022@@@Nightborne Lantern
+4023@@@Suramar Fencepost
+4024@@@Suramar Sconce
+4025@@@Shal'dorei Seat
+4026@@@Large Traditional Shal'dorei Rug
+4027@@@Ornate Suramar Table
+4028@@@Covered Ornate Suramar Table
+4029@@@Square Suramar Table
+4030@@@Covered Square Suramar Table
+4031@@@Covered Small Suramar Table
+4032@@@Nightborne Jeweler's Table
+4033@@@Traditional Shal'dorei Rug
+4034@@@Circular Shal'dorei Rug
+4035@@@Nightborne Wall Shelf
+4036@@@Suramar Fence
+4037@@@Suramar Containment Cell
+4038@@@Suramar Street Light
+4039@@@Suramar Storage Crate
+4040@@@Suramar Window
+4041@@@Shal'dorei Open-Air Tent
+4042@@@Trueshot Skeletal Dragon Trophy
+4048@@@Pandaren Target Dummy
+4157@@@Traditional Brewfest Stein
+4158@@@Venthyr's Target Dummy
+4159@@@Draconic Stone Table
+4160@@@Pentagonal Stone Table
+4161@@@Valdrakken Sconce
+4162@@@Valdrakken Banded Barrel
+4163@@@Valdrakken Storage Crate
+4164@@@Long Valdrakken Storage Crate
+4165@@@Valdrakken Fence
+4166@@@Valdrakken Fencepost
+4167@@@Verdant Valdrakken Vase
+4168@@@Valdrakken Garden Fountain
+4169@@@Thaldraszus Telescope
+4170@@@Draconic Nesting Bed
+4171@@@[DNT] Valdrakken Bookcase - DO NOT USE - newer asset in place
+4172@@@Valdrakken Chandelier
+4173@@@Studious Dracthyr's Tomes
+4174@@@Literature of the Blue Dragonflight
+4175@@@Literature of the Green Dragonflight
+4176@@@Literature of the Red Dragonflight
+4177@@@Draconic Circular Rug
+4178@@@Non-Fatal One-Armed Bandit
+4179@@@[DNT] DuelingFlag_HousingProp.m2 - DO NOT USE - tester asset
+4180@@@The Great Hoard
+4181@@@Portal to Damnation
+4386@@@Razorwind Storage Table
+4401@@@Stormwind Footlocker
+4402@@@Stormwind Large Wooden Table
+4403@@@Stormwind Wooden Bench
+4404@@@Stormwind Wooden Stool
+4405@@@Stormwind Wooden Table
+4406@@@Round-Top Boulder
+4407@@@Flat Boulder
+4408@@@Hilltop Boulder
+4422@@@Founder's Point Signpost
+4423@@@Ornamental Kaldorei Glaive
+4443@@@Stormwind Keg Stand
+4444@@@Westfall Woven Basket
+4445@@@Stormwind Gazebo
+4446@@@Stormwind Trellis and Basin
+4447@@@Stormwind Arched Trellis
+4448@@@Wooden Outhouse
+4449@@@Kaldorei Scribe's Shelf
+4450@@@Cookout Campfire
+4451@@@Razorwind Succulent Palm
+4452@@@Razorwind Fighting Cactus
+4453@@@Razorwind Tumbleweed
+4454@@@Razorwind Palm Tree
+4455@@@Nagrand Blueberry Bush
+4456@@@Barrens Hosta Bush
+4457@@@Azsharan Firespear Tree
+4458@@@Hardy Razorwind Grass Patch
+4459@@@Flowering Durotar Cactus
+4460@@@Razorwind Acacia Tree
+4461@@@Elwynn Whitebrush
+4462@@@Razorwind Gobtree
+4463@@@Sunset Aster Flowers
+4464@@@Pink Razorwind Paintbrush
+4465@@@Gloomrose
+4466@@@Duskberry Bush
+4467@@@Duskwood Shadebrush
+4468@@@Creeping Lattice Ivy
+4469@@@Duskwood Sycamore Shrub
+4470@@@Spiritbloom Flower
+4471@@@Pink Gilnean Rose
+4472@@@Silvermoon Sunrise Bush
+4473@@@Founder's Point Grassy Patch
+4474@@@Autumn Leaf Pile
+4475@@@Young Chestnut Tree
+4476@@@Razorwind Flamebrush
+4477@@@Draconic Memorial Stone
+4478@@@Dragon's Grand Mirror
+4479@@@Valdrakken Stone Stool
+4480@@@Valdrakken Gilded Throne
+4481@@@Elegant Dracthyr's Tea Set
+4482@@@Dragon's Hoard Chest
+4483@@@Valdrakken Market Tent
+4484@@@Elven Wood Crate
+4485@@@Stormwind Workbench
+4486@@@Northshire Scribe's Desk
+4487@@@Jewelcrafter's Tent
+4488@@@Wooden Doghouse
+4489@@@Alliance Soldier's Bed
+4490@@@Stormwind Peddler's Cart
+4560@@@Relaxing Goblin Beach Chair with Cup Gripper
+4561@@@Amirdrassil Stool
+4562@@@Lovely Elven Shelf
+4811@@@Elwynn Fence
+4812@@@Elwynn Fencepost
+4813@@@Goldshire Food Cart
+4814@@@City Wanderer's Candleholder
+4815@@@Northshire Barrel
+4816@@@Wooden Storage Crate
+4818@@@Architect's Drafting Table
+4819@@@Stormwind Weapon Rack
+4822@@@Small Grass Patch
+4823@@@Large Grass Patch
+4829@@@[DNT] Rugged Brazier - DO NOT USE - neighborhood use only
+4831@@@[DNT] Standing Rugged Brazier - DO NOT USE - neighborhood use only
+4833@@@[DNT] Rugged Fire Pit - DO NOT USE - neighborhood use only
+4839@@@Nesingwary Shoveltusk Trophy
+4841@@@Nesingwary Elk Trophy
+4843@@@Void-Corrupted Rotunda
+4844@@@Rough Wooden Chair
+4845@@@Tiny Grass Patch
+5111@@@Golden Cloud Serpent Treasure Chest
+5112@@@Five Dawns Weapon Rack
+5113@@@Five Dawns Shrine of the Smoking Fish
+5114@@@Ironpaw Stew Cart
+5115@@@Hooded Iron Lantern
+5116@@@Stormwind Lamppost
+5117@@@Replica Felblood Altar
+5118@@@Dreadscar Battle Planning Map
+5119@@@Five Dawns Planning Table
+5120@@@Black Harvest Banner
+5126@@@Monastery Gong
+5127@@@Dreadscar Bookcase
+5128@@@Dreadscar Dais
+5136@@@Tauren Hanging Brazier
+5292@@@Black Harvest Orrery
+5342@@@Smoke Sconce
+5525@@@Replica Cursed Forge of the Nathrezim
+5526@@@Replica Forge of Odyn
+5527@@@Illidari Glaiverest
+5528@@@Skyhold Brazier
+5529@@@Skyhold War Table
+5530@@@Illidari Banner
+5531@@@Illidari Skull Sentinel
+5532@@@Valarjar Banner
+5533@@@Valarjar Keg of Celebration
+5534@@@Valarjar Shield Wall
+5555@@@Fel Hammer Scouting Map
+5556@@@Preserver's Censer
+5557@@@Dracthyr Weapon Rack
+5558@@@Evoker's Elegant Rug
+5559@@@Augmenter's Opal Banner
+5560@@@Draconic Crafter's Table
+5561@@@Wind Rider Roost
+5562@@@Skyhold Spear Rack
+5563@@@Elven Standing Mirror
+5575@@@Replica Tome of Fel Secrets
+5687@@@Founder's Point Street Sign
+5688@@@Founder's Point Navigation Sign
+5689@@@Devastator's Brazier
+5851@@@Small Wooden Footstool
+5853@@@Tusked Weapon Rack
+5854@@@Empty Orgrimmar Bathtub
+5855@@@Runed Stone Placard
+5877@@@Trueshot Lodge Weapon Rack
+5878@@@Replica Tome of the Ancients
+5879@@@Ebon Blade Planning Map
+5880@@@Ebon Blade Tome
+5881@@@Acherus Worktable
+5882@@@Ebon Blade Weapon Rack
+5883@@@"Autumn's Eternal Bliss" Painting
+5884@@@"Heart of Quel'Thalas" Painting
+5885@@@"Citadel of Unending Void" Painting
+5886@@@"Forest's Bulwark" Painting
+5887@@@"The Verdant Underwild" Painting
+5888@@@Replica Acherus Soul Forge
+5889@@@Ebon Blade Banner
+5890@@@Replica Altar of the Eternal Hunt
+5891@@@Unseen Path Archer's Gallery
+5892@@@Replica Tales of the Hunt
+5893@@@Banner of the Unseen Path
+5894@@@Tirisgarde Candle
+5895@@@Tirisgarde War Map
+5896@@@Tirisgarde Brazier
+5897@@@Dreamweaver Banner
+5898@@@Seed of Ages Cutting
+7571@@@Replica Altar of Ancient Kings
+7572@@@Silver Hand Banner
+7573@@@Sanctum of Light Hallway Rug
+7574@@@Replica Libram of Ancient Kings
+7575@@@Sanctum of Light Candelabra
+7576@@@Silver Hand Tribute to the Fallen
+7577@@@Silver Hand Weapon Rack
+7578@@@[DNT] Zuldazar Cook's Griddle - DO NOT USE
+7579@@@Tirisgarde Banner
+7582@@@Founder's Point Gravestone
+7583@@@Small Founder's Point Gravestone
+7584@@@Founder's Point Gravestone Tower
+7585@@@Large Founder's Point Gravestone
+7606@@@Netherlight Conclave Voidwell
+7607@@@Conclave Pedestal
+7608@@@Netherlight Lightwell
+7609@@@Conjured Altar of the Guardian
+7688@@@Tusked Leather Tapestry
+7689@@@Razorwind Trophy Pelt
+7701@@@Ancient Weyrn Device
+7815@@@Uncrowned Apothecary's Cabinet
+7816@@@Uncrowned Apothecary's Supplies
+7817@@@Uncrowned Banner
+7818@@@Uncrowned Planning Table
+7819@@@Replica Crucible of the Uncrowned
+7820@@@Stolen Copy of the Blood Ledger
+7821@@@Netherlight Conclave Banner
+7822@@@Replica Altar of Light and Shadow
+7823@@@Replica Word of the Conclave
+7824@@@Scroll of the Conclave
+7835@@@Draconic Crafter's Forge
+7836@@@Small Razorwind Bar Table
+7837@@@Elemental Altar of the Maelstrom
+7838@@@Replica Words of Wind and Earth
+7839@@@Pedestal of the Maelstrom's Wisdom
+7840@@@Farseer's Furs
+7841@@@Maelstrom Banner
+7842@@@Horned Hanging Sconce
+7871@@@Painted Wood Scraps
+7872@@@Painted Wood Scrap Pile
+7873@@@Cenarion Arch
+7874@@@Earthen Ring Scouting Map
+7875@@@Maelstrom Chimes
+7896@@@Bel'ameth Traveler's Pack
+8176@@@Shadowmoon Open-Air Shed
+8177@@@Draenic Fencepost
+8178@@@Draenic Ottoman
+8185@@@Embroidered Embaari Tent
+8186@@@Draenic Wooden Table
+8187@@@Square Draenic Table
+8188@@@Shadowmoon Greenhouse
+8189@@@Draenic Wooden Wall Shelf
+8190@@@Elodor Armory Rack
+8191@@@Draenei Stargazer's Telescope
+8192@@@Draenethyst Lantern
+8193@@@"Dawning Hope" Mosaic
+8194@@@Small Karabor Fountain
+8195@@@Moon-Blessed Barrel
+8196@@@Draenic Basin
+8235@@@Telredor Recliner
+8236@@@Razorwind Cooking Grill
+8237@@@Argussian Circular Rug
+8238@@@Draenei Farmer's Trellis
+8239@@@Draenic Fence
+8240@@@Emblem of the Naaru's Blessing
+8241@@@Draenethyst Sconce
+8242@@@Grand Draenethyst Lamp
+8768@@@Netherlight Command Map
+8769@@@Tusked Weapon Stand
+8770@@@Jagged Orgrimmar Trellis
+8771@@@Hide-Covered Bench
+8772@@@Draenic Forge
+8785@@@Draenethyst Lamppost
+8786@@@Large Karabor Fountain
+8787@@@Draenethyst String Lights
+8907@@@Hide-Covered Wall Shelf
+8910@@@Tusked Chandelier
+8911@@@Tusked Sconce
+8912@@@Wolf Pelt Rug
+8917@@@Elegant Elven Chandelier
+8974@@@Wooden Planter Pot
+8975@@@Wooden Planter Row
+8976@@@Founder's Point Fence
+8977@@@Long Founder's Point Fence
+8978@@@Razorwind Wheelbarrow
+8982@@@Ornate Ironforge Bench
+8983@@@Boralus Barrel
+8984@@@Tidesage's Bookcase
+8985@@@Covered Wooden Desk
+8986@@@Sturdy Wooden Desk
+8989@@@Dalaran Espresso Machine
+9035@@@Admiralty's Upholstered Chair
+9036@@@Boralus Fence
+9037@@@Boralus Fencepost
+9038@@@Proudmoore Shipping Crate
+9039@@@Small Hull'n'Home Table
+9040@@@Large Hull'n'Home Table
+9041@@@Admiral's Chandelier
+9042@@@Hull'n'Home Dresser
+9043@@@Bowhull Bookcase
+9044@@@Brennadam Coop
+9045@@@Admiralty's Copper Lantern
+9046@@@Brennadam Grinder
+9047@@@Stormsong Water Pump
+9048@@@Stormsong Stove
+9049@@@Tiragarde Emblem
+9050@@@Boralus Bookshelf
+9051@@@Tidesage's Double Bookshelves
+9052@@@Admiral's Bed
+9053@@@Hull'n'Home Chair
+9054@@@Admiral's Low-Hanging Chandelier
+9055@@@Green Boralus Market Tent
+9056@@@Founder's Point Framed Torch
+9057@@@Long Old Founder's Point Fence
+9058@@@Old Founder's Point Fence
+9059@@@Founder's Point Fencepost
+9060@@@Old Founder's Point Fencepost
+9061@@@Founder's Point Waterwheel
+9062@@@Broken Founder's Point Fence
+9063@@@Old Broken Founder's Point Fence
+9064@@@Plush Cushioned Chair
+9139@@@Copper Stormsong Well
+9140@@@Tiragarde Treasure Chest
+9141@@@Proudmoore Green Drape
+9142@@@Copper Tidesage's Sconce
+9143@@@Tied-Right Leather Curtains
+9144@@@Founder's Point Front Door
+9149@@@"The High Exarch" Painting
+9150@@@"The Ranger of the Void" Painting
+9151@@@"The Harbinger" Painting
+9152@@@"The Redeemer" Painting
+9166@@@Seaworthy Boralus Bell
+9167@@@Dornogal Framed Rug
+9168@@@Stonelight Countertop
+9169@@@Boulder Springs Recliner
+9170@@@Boulder Springs Hot Tub
+9176@@@Founder's Point Standing Torch
+9177@@@Razorwind Banded Planter
+9178@@@Earthen Etched Throne
+9179@@@Freywold Bench
+9180@@@Dornogal Bookcase
+9181@@@Rambleshire Resting Platform
+9182@@@Fallside Lantern
+9183@@@Freywold Seat
+9184@@@Freywold Table
+9185@@@Dornogal Brazier
+9186@@@Dornogal Hanging Lantern
+9187@@@Dornogal Hanging Sconce
+9188@@@Coreway Sentinel Lamppost
+9236@@@Earthen Chain Wall Shelf
+9237@@@Fallside Storage Tent
+9238@@@Algari Fence
+9239@@@Algari Fencepost
+9240@@@Freywold Fountain
+9241@@@Forgeground Market Bins
+9242@@@Earthen Storage Crate
+9243@@@Meadery Storage Chest
+9244@@@Earthen Contender's Target
+9245@@@Replica Awakening Machine Stasis Pod
+9246@@@Gundargaz Grand Keg
+9247@@@Meadery Storage Barrel
+9254@@@Elegant Elven Canopy Bed
+9255@@@Gemmed Elven Chest
+9261@@@Reliquary Tent
+9262@@@[DNT] Horde Warlord's Throne - DO NOT USE - new asset here
+9263@@@Horde Warlord's Throne
+9264@@@Bel'ameth Front Door
+9266@@@Tirisfal Hollow Campfire
+9267@@@Blightfire Candle
+9268@@@Replica Rumbling Wastes Drill Pod
+9269@@@Gundargaz Candelabra
+9424@@@Goldshire Wardrobe
+9425@@@Iskaaran Open-Air Tent
+9426@@@Iskaaran Smith's Anvil
+9427@@@Iskaaran Cookpot
+9428@@@Iskaaran Hanging Lampfish
+9429@@@Iskaaran Hanging Lantern
+9430@@@Iskaaran Standing Lantern
+9431@@@Tuskarr Meditative Incense Burner
+9432@@@Tuskarr Crabber's Basket
+9433@@@Fur-Adorned Iskaaran Worktable
+9434@@@Tuskarr Postbag
+9435@@@Finned Iskaaran Teapot
+9436@@@Iskaaran Charcuterie Board
+9437@@@Big Kinook's Legendary Soup Pot
+9438@@@Arch of Iskaara
+9471@@@Short Wooden Cabinet
+9472@@@Coal-Fired Stovetop
+9473@@@Sturdy Wooden Washbasin
+9474@@@Sturdy Wooden Bathtub
+10324@@@Small Orgrimmar Tusked Bed
+10334@@@Razorwind Smith's Hammer
+10335@@@Razorwind Miner's Pickaxe
+10336@@@Razorwind Woodworker's Hand Saw
+10337@@@Razorwind Crafter's Chisel
+10338@@@Razorwind Peon's Shovel
+10343@@@Sticky Lever
+10344@@@Dual-Action Turbo Pro Lever
+10345@@@Mechanical Gauge
+10347@@@Lively Pistons
+10366@@@Sandy Vulpera Banner
+10367@@@Small Razorwind Square Table
+10381@@@Razorwind Logger's Axe
+10791@@@Large Razorwind Gazebo
+10852@@@Undermine Mechanic's Hanging Lamp
+10853@@@Undermine Alleyway Sconce
+10854@@@Silvermoon Barrel
+10855@@@Elwynn Apple Tree
+10856@@@Founder's Point Apple Tree
+10857@@@Spring-Powered Pointer
+10860@@@Elegant Table Lamp
+10887@@@Gnomish Tesla Tower
+10888@@@Moonclasp Satchel
+10889@@@Incontinental Table Lamp
+10890@@@Razorwind Iron Chandelier
+10891@@@Low-Hanging Razorwind Iron Chandelier
+10892@@@Small Jagged Orgrimmar Trellis
+10893@@@Razorwind Shores Canoe
+10913@@@Champion Brawler's Gloves
+10944@@@Silvermoon Gemmed Chair
+10946@@@Silvermoon Bench
+10947@@@Silvermoon Fencepost
+10950@@@Sin'dorei Sleeper
+10952@@@Razorwind Shores Front Door
+10961@@@[DNT] Legion's Fel Brazier - DO NOT USE - new asset in place
+10962@@@Draconic Sconce
+10963@@@Valdrakken Oven
+10964@@@Draconic Scribe's Basin
+10965@@@Five Flights' Grimoire
+10966@@@Silvermoon Fence
+10967@@@Silvermoon Front Door
+11127@@@Open Rust-Plated Storage Crate
+11128@@@Leftover Undermine Takeout
+11129@@@Razorwind Standing Tusk
+11130@@@Kharanos Stone Bed
+11131@@@Shadowforge Lamppost
+11133@@@Ornate Dwarven Wardrobe
+11137@@@Qalashi Goulash
+11138@@@Sunsmoke Censer
+11139@@@Razorwind Porch Chair
+11160@@@Shadowforge Stone Chair
+11161@@@[DNT] Kharanos Stone Bed - DO NOT USE - new asset present
+11162@@@Wingrest Signal Brazier
+11163@@@Valdrakken Hanging Lamp
+11164@@@Valdrakken Lamppost
+11165@@@Valdrakken Hanging Cauldron
+11274@@@Stormwind Forge
+11275@@@Conjured Archive of the Tirisgarde
+11276@@@Illidari Tent
+11277@@@Replica Hammer of Khaz'goroth
+11280@@@Replica Chronicle of Ages
+11281@@@Arcan'dor Cutting Fountain
+11282@@@Nightspire Fountain
+11283@@@Magistrix's Garden Fountain
+11296@@@Smoke Lamppost
+11301@@@Gilnean Banded Crate
+11305@@@Small Gilnean Table
+11307@@@Replica Tome of Blighted Implements
+11315@@@Tauren Jeweler's Roller
+11316@@@Tauren Cookpot
+11319@@@Zandalari War Chandelier
+11322@@@Pentagonal Valdrakken Tapestry
+11370@@@Bronze Banner of the Exiled
+11371@@@Draenei Smith's Anvil
+11372@@@Draenei Holo-Dais
+11373@@@Draenei Holo-Path
+11374@@@Draenei Crystal Forge
+11375@@@Dalaran Runic Anvil
+11376@@@Stoppered Black Potion
+11377@@@Gilnean Pitchfork
+11378@@@Pandaren Alchemist's Retort
+11379@@@Orcish Felblood Cauldron
+11380@@@Starry Scrying Pool
+11381@@@Boralus Bottle Lamp
+11382@@@Zandalari Bottle Shipment
+11383@@@Aspirant's Meditation Pool
+11384@@@Bejeweled Venthyr Chalice
+11385@@@Veil-Secured Animacone
+11386@@@Sintallow Candles
+11387@@@Dragon's Elixir Bottle
+11388@@@Tapestry of the Five Flights
+11431@@@Aldor Stellar Console
+11432@@@Mark of the Mages' Eye
+11433@@@Twilight Fire Canister
+11434@@@Pandaren Table Lamp
+11435@@@Intense Mogu Brazier
+11436@@@Venthyr Anima Bottle
+11437@@@Razorwind Covered Well
+11438@@@Apothecary's Work Table
+11439@@@Stampwhistle's Postal Portal
+11440@@@Nerubian Alchemist's Retort
+11451@@@Naaru Crystal Icon
+11453@@@Tale of the Penultimate Lich King
+11454@@@Large Brazier of Elune
+11455@@@Drained Dark Heart of Galakrond
+11456@@@Scroll of K'aresh's Fall
+11457@@@Tome of the Survivor
+11461@@@Slate Cobblestone Pair
+11479@@@Slate Cobblestone
+11480@@@Iron-Reinforced Wooden Window
+11481@@@Slate Cobblestone Path
+11482@@@Slate Cobblestone Trio
+11483@@@Suramar Stepping Stone
+11484@@@Zandalari War Torch
+11485@@@Trueshot Lodge Food Nook
+11486@@@Replica Saga of the Valarjar
+11487@@@Tauren Storyteller's Frame
+11488@@@"Portrait of the Artist as a Young Goblin" Painting
+11489@@@Zandalari War Brazier
+11490@@@Highmountain Tanner's Frame
+11491@@@Skyhorn Banner
+11492@@@"Unity of Thorns" Tapestry
+11493@@@Maelstrom Lava Lamp
+11494@@@Pyrewood Glass Bottle
+11495@@@Baradin Bay Fishing Rack
+11496@@@Smoke Lamp
+11497@@@Standing Smoke Lamp
+11498@@@Stoppered Gilnean Barrel
+11499@@@Ornate Sin'dorei Sconce
+11500@@@Sin'dorei Crafter's Forge
+11501@@@Silvermoon Spire Fountain
+11502@@@Bejeweled Silvermoon Chandelier
+11503@@@Gilded Sunfury Chair
+11707@@@"That Thing What You've Always Needed" Advertisement
+11708@@@Suramar Stepping Stone Set
+11718@@@Small Gilnean Windmill
+11719@@@Elegant Padded Chaise
+11720@@@Open Elegant Elven Barrel
+11721@@@Elegant Curved Table
+11722@@@[DNT] [AUTOGEN] WOLVAR_TOTEM02_DRAGONBLIGHT.M2
+11723@@@[DNT] [AUTOGEN] WORGEN_BOTTLE_02.M2
+11724@@@[DNT] [AUTOGEN] WORGEN_MAILBOX.M2
+11725@@@[DNT] [AUTOGEN] WORGEN_PAPER_07.M2
+11751@@@Skyhorn Arrow Kite
+11752@@@Hanging Arrow Kite
+11753@@@Skyhorn Eagle Kite
+11754@@@Highmountain Banner
+11755@@@Camp Narache Rug
+11770@@@Dalaran Kafa Press
+11771@@@[DNT] [AUTOGEN] 11WE_WildElves_Storage_Basket01.m2
+11772@@@[DNT] [AUTOGEN] 11WE_WildElves_Storage_HangingBasket01.m2
+11773@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging01.m2
+11774@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging02.m2
+11775@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging03.m2
+11776@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging01_Off.m2
+11777@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging02_Off.m2
+11778@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_ChaiseLounge01.m2
+11779@@@[DNT] [AUTOGEN] TWILIGHTSHAMMER_RUG02.M2
+11782@@@[DNT] [AUTOGEN] ZANGARLAMPPOST01.M2
+11783@@@[DNT] [AUTOGEN] ZANGARMUSHROOM05.M2
+11784@@@[DNT] [AUTOGEN] ZANGARMUSHROOMSHELF01.M2
+11785@@@[DNT] [AUTOGEN] ZANGARMUSHROOMTREE06.M2
+11786@@@[DNT] [AUTOGEN] ZANGARMUSHROOMWATER02.M2
+11787@@@[DNT] [AUTOGEN] ZANGARMUSHROOMWATER03.M2
+11788@@@[DNT] [AUTOGEN] ZANGARTREEBLUE03.M2
+11789@@@[DNT] [AUTOGEN] ZANGARTREEGREEN03.M2
+11790@@@[DNT] [AUTOGEN] ZANGARTREEPURPLE03.M2
+11791@@@[DNT] [AUTOGEN] ZANGARTREEWITHERED01.M2
+11792@@@[DNT] [AUTOGEN] ZANGARTREEWITHERED02.M2
+11793@@@[DNT] [AUTOGEN] EBONBLADE_BANNER01.M2
+11794@@@[DNT] [AUTOGEN] G_SporeMushroom.m2
+11795@@@[DNT] [AUTOGEN] SPORELIGHT01.M2
+11796@@@[DNT] [AUTOGEN] SPORELIGHTYELLOW01.M2
+11797@@@Pandaren Wooden Cart
+11798@@@Grummle Kafa Refinery
+11799@@@Hyjal Climbing Vine
+11800@@@Ancient Zandalari Ritual Scroll
+11801@@@Commander's Kafa Mug
+11802@@@Open Sack of Roasted Kafa
+11803@@@Kafa Creamer
+11804@@@Legerdemain Lounge Sign Board
+11805@@@Dalaran Kafa Grinder
+11806@@@Pylon Fragment
+11807@@@Dalaran Kafa Table
+11808@@@Ornamental Proudmoore Anchor
+11809@@@[DNT] [AUTOGEN] 8DU_Mechagon_ControlConsole01.m2
+11810@@@[DNT] [AUTOGEN] 8DU_Mechagon_MachinePart05.m2
+11811@@@[DNT] [AUTOGEN] 8DU_Mechagon_MachinePart07.m2
+11812@@@[DNT] [AUTOGEN] 8DU_MECHAGON_LANTERN.m2
+11813@@@[DNT] [AUTOGEN] 8DU_Mechagon_LargeMachine01_BLANK.m2
+11814@@@Gnomeregan Recyli-Kiln
+11815@@@[DNT] [AUTOGEN] 8DU_Mechagon_ChargingStation02.m2
+11816@@@[DNT] [AUTOGEN] 8DU_Mechagon_JunkyardDoor01.m2
+11817@@@Green Thumb's Watering Can
+11818@@@Forbidden Fork
+11819@@@Draconic Auctioneer's Lectern
+11820@@@Obsidian Warder Pennant
+11821@@@Roasted Ram Leg
+11822@@@Draconic Trader's Cart
+11823@@@War Creche Teaching Crystal
+11824@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_RopeHanging02_NonAnimated.m2
+11825@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_RopeHanging06_NonAnimated.m2
+11826@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging03_Off.m2
+11869@@@[DNT] [AUTOGEN] 12PH_Leg_8ng_nazjatar_centerpiece01_side.m2
+11870@@@[DNT] [AUTOGEN] 12PH_Leg_8NG_Nazjatar_Brazier01.m2
+11871@@@Elegant Silvermoon Dessert Tray
+11872@@@Eversong Party Platter
+11873@@@Empty Lorewalker's Bookcase
+11874@@@Orgrimmar Bathtub
+11878@@@Outland Mag'har Banner
+11879@@@Arakkoa Decoy Scarecrow
+11880@@@Talon King's Totem
+11881@@@Draenei Holo-Projector Pedestal
+11882@@@Tempest Keep Cryo-Pod
+11883@@@Draenei Weaver's Loom
+11884@@@Draenei Transmitter
+11885@@@Crystal Signpost
+11886@@@Gilded Draenei Round Table
+11887@@@Aldor Bookcase
+11888@@@Shattrath Sconce
+11889@@@Shattrath Lamppost
+11890@@@Grand Drape of the Exiles
+11891@@@Silver Dalaran Bench
+11892@@@Dalaran Post
+11893@@@Wolvar Postbag
+11894@@@Gilded Dalaran Banner
+11895@@@Dalaran Scholar's Bookcase
+11896@@@Kirin Tor Sun Chandelier
+11897@@@Kirin Tor Crate
+11898@@@Dalaran Street Sign
+11899@@@Kirin Tor Glass Table
+11900@@@San'layn Blood Orb
+11901@@@Icecrown Plague Canister
+11902@@@Pandaren Alchemist's Kit
+11903@@@Halaa Bench
+11904@@@Reconstructed Mogu Lightning Drill
+11905@@@Driftwood Barrel
+11906@@@Murloc Driftwood Hut
+11907@@@Driftwood Junk Pile
+11908@@@Shellscale Standard
+11909@@@Murloc's Wind Chimes
+11910@@@Dalaran Display Shelves
+11911@@@Failed Failure Detection Pylon
+11912@@@Dalaran Auto-Hammer
+11913@@@Suramar Jeweler's Assortment
+11914@@@[DNT] [AUTOGEN] 8NG_Nazjatar_Bag01.m2
+11915@@@[DNT] [AUTOGEN] 8ng_nazjatar_centerpiece01_pearl.m2
+11916@@@[DNT] [AUTOGEN] 8ng_nazjatar_centerpiece01_bowl.m2
+11917@@@Aspiring Soul's Chair
+11918@@@Ardenweald Lamppost
+11919@@@Maldraxxian Crate
+11920@@@Tome of Maldraxxian Rituals
+11921@@@Kyrian Anima Barrel
+11922@@@Hollow Night Fae Shrine
+11923@@@Broker's Hex Table
+11924@@@Ardenweald Hanging Baskets
+11925@@@Large Revendreth Storage Crate
+11926@@@Margrave's Stitched Leather Rug
+11927@@@Cartel Ta Bookcase
+11928@@@Cartel Xy Capture Crate
+11929@@@Titanic Tyrhold Fountain
+11930@@@Kobold Digger's Chair
+11931@@@Kobold Candle Trio
+11932@@@Kobold Wagon
+11933@@@Candle-Festooned Wooden Awning
+11934@@@Waxmaster's Candle Rack
+11935@@@Thunder Bluff Totem
+11941@@@Kirin Tor Skyline Banner
+11943@@@[DNT] [AUTOGEN] 12PH_Durotar_Crafting_FishingRack02.m2
+11944@@@Gilnean Washing Line
+11945@@@Pandaren Fishing Net
+11946@@@Beloved Elekk Plushie
+11947@@@Flying Skyhorn Eagle Kite
+11948@@@[DNT] [AUTOGEN] 11ET_Ethereal_Structure_Platform01.m2
+11949@@@[DNT] [AUTOGEN] 12PH_Durotar_Crafting_FishingRack01.m2
+11950@@@[DNT] [AUTOGEN] 11ET_Ethereal_Lighting_Brazier01.m2
+11951@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_HoveringPylon01.m2
+11952@@@[DNT] [AUTOGEN] 12PH_Leg_7ET_ETHEREAL_PORTAL01.m2
+11953@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_SiphoningDevice01.m2
+12161@@@Beloved Raptor Plushie
+12162@@@Sandfury Diplomat's Banner
+12163@@@Tidesage's Totem
+12164@@@Drust Enchanter's Rod
+12165@@@Kyrian Aspirant's Rolled Cushion
+12189@@@Elwynn Autumn Apple Tree
+12190@@@Founder's Point Autumn Apple Tree
+12192@@@[DNT] [AUTOGEN] 12PH_Durotar_Storage_Paddle01.m2
+12193@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_RugLarge01.m2
+12194@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_RugSmall01.m2
+12195@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe03.m2
+12196@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe45b.m2
+12197@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe04.m2
+12198@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe90c.m2
+12199@@@Empty Wooden Bathtub
+12200@@@[DNT] [AUTOGEN] 6AK_Arakkoa_Dreamcatcher01.m2
+12201@@@[DNT] [AUTOGEN] 6AK_Arakkoa_Scrolls02.M2
+12202@@@[DNT] [AUTOGEN] 6AK_Arakkoa_Scrolls04.m2
+12203@@@[DNT] [AUTOGEN] 6AK_Arakkoa_Alchemy01.M2
+12204@@@[DNT] [AUTOGEN] 6AK_Arakkoa_Table01.m2
+12205@@@[DNT] [AUTOGEN] 12PH_Leg_6AK_Arakkoa_Shelf01.m2
+12206@@@[DNT] [AUTOGEN] 12PH_Leg_6AK_Arakkoa_Shelf02.m2
+12207@@@[DNT] [AUTOGEN] 12PH_Leg_6AK_Arakkoa_Shelf_empty.m2
+12208@@@[DNT] [AUTOGEN] 12PH_Leg_6AK_Arakkoa_Statue01.m2
+12209@@@[DNT] [AUTOGEN] 6AK_Arakkoa_EyeTerrok.m2
+12210@@@Hull'n'Home Window
+12211@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe90.m2
+12212@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe02.m2
+12217@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_PipeT.m2
+12218@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe90b.m2
+12220@@@[DNT] [AUTOGEN] 12PH_Leg_11ET_Ethereal_Structure_Pipe45.m2
+12263@@@Brawler's Guild Punching Bag
+12453@@@[DNT] [AUTOGEN] 12PH_Durotar_Crafting_LeatherRoll01.m2
+12454@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HangingRope01.m2
+12455@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HangingRope02.m2
+12456@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HangingRope03.m2
+12457@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HangingRope04.m2
+12458@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HangingRope05.m2
+12459@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HangingRope06.m2
+14330@@@Valdrakken Bookcase
+14346@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HayPileLarge01.m2
+14347@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HayPileMedium01.m2
+14348@@@[DNT] [AUTOGEN] 12PH_Durotar_Decoration_HayPileSmall01.m2
+14358@@@Brazier of Elune
+14359@@@Cartel Collector's Cage
+14360@@@Arathi Bartender's Shelves
+14361@@@Replica Libram of the Dead
+14379@@@Kobold Trassure Pile
+14380@@@Maldraxxian Runic Tablet
+14381@@@Gob-chanical Trash Heap
+14382@@@Red Razorwind Paintbrush
+14383@@@Dry Razorwind Grass Patch
+14461@@@Uncrowned Market Stall
+14553@@@Draenei Crystal Chandelier
+14615@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Table02.m2
+14644@@@[DNT] [AUTOGEN] 12ph_leg_7af_artifacthub_altarmonk.m2
+14676@@@[DNT] [AUTOGEN] 9VL_Aspirants_Light01.m2
+14730@@@[DNT] [AUTOGEN] 10VE_VoidElf_Lighting_Lamp01.m2
+14731@@@[DNT] [AUTOGEN] 11XP_Anniversary_Bench_02.m2

@@ -2775,7 +2775,7 @@
 3164@@@Hosaas' Rest
 11.2.5.62554
 1767@@@Nesingwary's Retreat, Highmountain
-12.0.0.63534
+11.2.7.63642
 2972@@@Entrance Gate, Razorwind Shores
 2973@@@Saltfang Shoals East, Razorwind Shores
 2974@@@Runetotem's Bounty North, Razorwind Shores
@@ -2792,6 +2792,13 @@
 3077@@@Gilded Oaks, Founders Point
 3078@@@Brumewood Hollow, Founders Point
 3079@@@Cliffside, Founders Point
+3175@@@Quest Path 11142: 11.2.7 Catch Up - TWW - Q2 - Dornegal to Freywold (KRB)
+3176@@@Quest Path 11144: 11.2.7 Catch Up - TWW - Q2 - Meadery to Coreway (KRB)
+3177@@@Quest Path 11146: 11.2.7 Catch Up - TWW - Q2 - Coreway to Ringing Deeps (KRB)
+3178@@@Quest Path 11147: 11.2.7 Catch Up - TWW - Q3 - Weaver to City (KRB)
+3179@@@Quest Path 11151: 11.2.7 Catch Up - TWW - Q3 - Priory to Foundation Hall (KRB)
+3204@@@Quest Path 11298: 11.2.7 Catch Up -  TWW -  Q2 -  Cavern to Awakening Machine (KRB)
+12.0.0.63534
 3093@@@Quest Path 10497: 12.0 Z3 - Legends - Shrine 01 - Exit Path - (LWB)
 3101@@@Quest Path 10502: 12.0 Z3 - Legends - Shrine 02 - Exit Path - (LWB)
 3102@@@Thalassian University Teleport Base
@@ -2824,11 +2831,6 @@
 3172@@@Exposed Vein
 3173@@@Focal Point
 3174@@@Forge of Secrets
-3175@@@Quest Path 11142: 11.2.7 Catch Up - TWW - Q2 - Dornegal to Freywold (KRB)
-3176@@@Quest Path 11144: 11.2.7 Catch Up - TWW - Q2 - Meadery to Coreway (KRB)
-3177@@@Quest Path 11146: 11.2.7 Catch Up - TWW - Q2 - Coreway to Ringing Deeps (KRB)
-3178@@@Quest Path 11147: 11.2.7 Catch Up - TWW - Q3 - Weaver to City (KRB)
-3179@@@Quest Path 11151: 11.2.7 Catch Up - TWW - Q3 - Priory to Foundation Hall (KRB)
 3186@@@12.0 Silvermoon Sunwing Rookery Teleport Intro Base
 3187@@@12.0 Silvermoon Sunwing Rookery Teleport Intro Top
 3188@@@12.0 Silvermoon Sunwing Rookery Teleport Main Base

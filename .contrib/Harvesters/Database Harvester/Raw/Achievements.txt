@@ -16728,11 +16728,95 @@
 61875@@@The Unbound Healer
 61876@@@The Unbound Damage Dealer
 61877@@@The Unbound Dungeon Master
-12.0.0.63534
+11.2.7.63642
 158@@@Me and the Cappin' Makin' It Happen
 11558@@@The First Rule of Brawler's Guild (Season 3)
 11559@@@The First Rule of Brawler's Guild (Season 3)
 40887@@@Fox Friends
+42192@@@Snowball Fight!
+42270@@@The Deathlord's Campaign
+42271@@@The Slayer's Campaign
+42272@@@The Archdruid's Campaign
+42273@@@The Huntmaster's Campaign
+42274@@@The Archmage's Campaign
+42275@@@The Grandmaster's Campaign
+42276@@@The Highlord's Campaign
+42277@@@The High Priest's Campaign
+42279@@@The Shadowblade's Campaign
+42280@@@The Farseer's Campaign
+42281@@@The Netherlord's Campaign
+42282@@@The Battlelord's Campaign
+42287@@@Hidden Potential of the Deathlord
+42288@@@Hidden Potential of the Slayer
+42289@@@Hidden Potential of the Archdruid
+42290@@@Hidden Potential of the Huntmaster
+42291@@@Hidden Potential of the Archmage
+42292@@@Hidden Potential of the Grandmaster
+42293@@@Hidden Potential of the Highlord
+42294@@@Hidden Potential of the High Priest
+42295@@@Hidden Potential of the Shadowblade
+42296@@@Hidden Potential of the Farseer
+42297@@@Hidden Potential of the Netherlord
+42298@@@Hidden Potential of the Battlelord
+42299@@@Visions of a Shadowed Sun
+51753@@@Azsuna Matata
+60962@@@Legendary Research of the Ebon Blade
+60963@@@Legendary Research of the Illidari
+60964@@@Legendary Research of the Dreamgrove
+60965@@@Legendary Research of the Unseen Path
+60966@@@Legendary Research of the Tirisgarde
+60967@@@Legendary Research of Five Dawns
+60968@@@Legendary Research of the Silver Hand
+60969@@@Legendary Research of the Netherlight Conclave
+60970@@@Legendary Research of the Uncrowned
+60971@@@Legendary Research of the Maelstrom
+60972@@@Legendary Research of the Black Harvest
+60973@@@Legendary Research of the Valarjar
+60981@@@So Many Missions for Acherus
+60982@@@So Many Missions for the Fel Hammer
+60983@@@So Many Missions for the Dreamgrove
+60984@@@So Many Missions for the Trueshot Lodge
+60985@@@So Many Missions for the Hall of the Guardian
+60986@@@So Many Missions for the Temple of Five Dawns
+60987@@@So Many Missions for the Sanctum of Light
+60988@@@So Many Missions for the Netherlight Temple
+60989@@@So Many Missions for the Hall of Shadows
+60990@@@So Many Missions for the Maelstrom
+60991@@@So Many Missions for the Dreadscar Rift
+60992@@@So Many Missions for Skyhold
+61023@@@[DNT] Exalted with a Dracthyr Player Faction
+61211@@@Welcome Home
+61308@@@Score A Decor
+61309@@@Amateur Antiquarian
+61310@@@Casual Collector
+61311@@@Ready To Remodel
+61312@@@Center Stager
+61313@@@Well-Travelled Collection
+61314@@@Furniture Historian
+61315@@@Array of Antiquities
+61316@@@Custom Cabinets
+61317@@@Domicile Designer
+61318@@@Fully Furnished
+61394@@@Master of the Turbulent Timeways IV
+61413@@@The First Rule of Brawler's Guild
+61414@@@The First Rule of Brawler's Guild
+61419@@@Brawler's Chilled
+61420@@@Let Me Solo It
+61421@@@A Prime Ordeal
+61422@@@Audience Participation
+61423@@@Featherweight Brawler
+61424@@@Brawlzilla
+61425@@@Hot Footed
+61426@@@Bare Knuckle Brawl
+61429@@@Brawl Star
+61451@@@Worldsoul-Searching
+61466@@@The Best There Is
+61467@@@Lorewalking: The Elves of Quel'thalas
+61498@@@Ready for Midnight
+61516@@@Radiant Singer
+61553@@@Dynamic Flight Power - Second Wind (Granted in Script 101809)
+61554@@@Dynamic Flight Power - Aerial Halt (Granted in Script 101809)
+12.0.0.63534
 41287@@@Windrunner Spire
 41288@@@Heroic: Windrunner Spire
 41291@@@Mythic: Windrunner Spire
@@ -16782,34 +16866,8 @@
 42179@@@Midnight Leatherworking 50 (DNT)
 42182@@@Midnight Leatherworking 60 (DNT)
 42183@@@Midnight Leatherworking 75 (DNT)
-42192@@@Snowball Fight!
-42270@@@The Deathlord's Campaign
-42271@@@The Slayer's Campaign
-42272@@@The Archdruid's Campaign
-42273@@@The Huntmaster's Campaign
-42274@@@The Archmage's Campaign
-42275@@@The Grandmaster's Campaign
-42276@@@The Highlord's Campaign
-42277@@@The High Priest's Campaign
 42278@@@Day of the Titan
-42279@@@The Shadowblade's Campaign
-42280@@@The Farseer's Campaign
-42281@@@The Netherlord's Campaign
-42282@@@The Battlelord's Campaign
 42283@@@Azeroth Runs on Dundun
-42287@@@Hidden Potential of the Deathlord
-42288@@@Hidden Potential of the Slayer
-42289@@@Hidden Potential of the Archdruid
-42290@@@Hidden Potential of the Huntmaster
-42291@@@Hidden Potential of the Archmage
-42292@@@Hidden Potential of the Grandmaster
-42293@@@Hidden Potential of the Highlord
-42294@@@Hidden Potential of the High Priest
-42295@@@Hidden Potential of the Shadowblade
-42296@@@Hidden Potential of the Farseer
-42297@@@Hidden Potential of the Netherlord
-42298@@@Hidden Potential of the Battlelord
-42299@@@Visions of a Shadowed Sun
 42300@@@Two Minutes to Midnight
 42322@@@1st level 90 on account (DNT)
 42323@@@2nd level 90 on account (DNT)
@@ -16870,7 +16928,6 @@
 42815@@@Midnight Engineering 50 (DNT)
 42817@@@Midnight Engineering 60 (DNT)
 42821@@@Midnight Engineering 75 (DNT)
-51753@@@Azsuna Matata
 60888@@@Pushing My Buttons
 60891@@@The Crimson Rogue
 60942@@@Aquatic Battler of Northrend
@@ -16884,31 +16941,6 @@
 60953@@@Mechanical Battler of Northrend
 60954@@@Undead Battler of Northrend
 60956@@@Family Battler of Northrend
-60962@@@Legendary Research of the Ebon Blade
-60963@@@Legendary Research of the Illidari
-60964@@@Legendary Research of the Dreamgrove
-60965@@@Legendary Research of the Unseen Path
-60966@@@Legendary Research of the Tirisgarde
-60967@@@Legendary Research of Five Dawns
-60968@@@Legendary Research of the Silver Hand
-60969@@@Legendary Research of the Netherlight Conclave
-60970@@@Legendary Research of the Uncrowned
-60971@@@Legendary Research of the Maelstrom
-60972@@@Legendary Research of the Black Harvest
-60973@@@Legendary Research of the Valarjar
-60981@@@So Many Missions for Acherus
-60982@@@So Many Missions for the Fel Hammer
-60983@@@So Many Missions for the Dreamgrove
-60984@@@So Many Missions for the Trueshot Lodge
-60985@@@So Many Missions for the Hall of the Guardian
-60986@@@So Many Missions for the Temple of Five Dawns
-60987@@@So Many Missions for the Sanctum of Light
-60988@@@So Many Missions for the Netherlight Temple
-60989@@@So Many Missions for the Hall of Shadows
-60990@@@So Many Missions for the Maelstrom
-60991@@@So Many Missions for the Dreadscar Rift
-60992@@@So Many Missions for Skyhold
-61023@@@[DNT] Exalted with a Dracthyr Player Faction
 61028@@@Undead Battler of Eastern Kingdoms
 61029@@@Aquatic Battler of Eastern Kingdoms
 61030@@@Beast Battler of Eastern Kingdoms
@@ -16957,7 +16989,6 @@
 61198@@@Battle Mender: Midnight Season 1
 61199@@@Solo Shuffle Medic: Midnight
 61200@@@Battleground Blitz Medic: Midnight
-61211@@@Welcome Home
 61212@@@Magisters' Terrace
 61213@@@Heroic: Magisters' Terrace
 61214@@@Mythic: Magisters' Terrace
@@ -17050,17 +17081,6 @@
 61305@@@Midnight Falls (Normal March on Quel'Danas)
 61306@@@Midnight Falls (Heroic March on Quel'Danas)
 61307@@@Midnight Falls (Mythic March on Quel'Danas)
-61308@@@Score A Decor
-61309@@@Amateur Antiquarian
-61310@@@Casual Collector
-61311@@@Ready To Remodel
-61312@@@Center Stager
-61313@@@Well-Travelled Collection
-61314@@@Furniture Historian
-61315@@@Array of Antiquities
-61316@@@Custom Cabinets
-61317@@@Domicile Designer
-61318@@@Fully Furnished
 61344@@@Legends of the Haranir
 61346@@@We Will, In Fact, See It Again
 61366@@@Voidspire
@@ -17085,20 +17105,8 @@
 61389@@@Prey: Hard Mode I
 61391@@@Prey: Nightmare Mode II
 61392@@@Prey: Nightmare Mode I
-61394@@@Master of the Turbulent Timeways IV
 61403@@@Galactic Combatant
 61405@@@Galactic Combatant
-61413@@@The First Rule of Brawler's Guild
-61414@@@The First Rule of Brawler's Guild
-61419@@@Brawler's Chilled
-61420@@@Let Me Solo It
-61421@@@A Prime Ordeal
-61422@@@Audience Participation
-61423@@@Featherweight Brawler
-61424@@@Brawlzilla
-61425@@@Hot Footed
-61426@@@Bare Knuckle Brawl
-61429@@@Brawl Star
 61430@@@Crunching for Cultists
 61438@@@Thalassian Profession Master
 61439@@@Thalassian Artisan
@@ -17112,7 +17120,6 @@
 61448@@@Frequent the Rise
 61449@@@Customary Rise
 61450@@@Galactic Gladiator's Goredrake
-61451@@@Worldsoul-Searching
 61452@@@Sojourner of Zul'Aman
 61453@@@Making an Amani Out of You
 61454@@@Falling Between The Quacks
@@ -17120,7 +17127,6 @@
 61456@@@Die in Lordaeron or Undercity
 61464@@@Spark in the Night
 61465@@@Spark in the Night
-61466@@@The Best There Is
 61467@@@Lorewalking: Elves
 61474@@@Chimaerus, the Undreamt God (Raid Finder Dreamrift)
 61475@@@Chimaerus, the Undreamt God (Normal Dreamrift)
@@ -17135,4 +17141,3 @@
 61493@@@Hall of Fame: Chimaerus, the Undreamt God
 61494@@@Slayer's Rise battles
 61495@@@Slayer's Rise victories
-61498@@@Ready for Midnight
