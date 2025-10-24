@@ -17,6 +17,8 @@ from ThingTypes import (
     FLAVOR_RANGES,
     FLAVOR_FOLDERS,
     Achievements,
+    Campsites,
+    Decors,
     Explorations,
     Factions,
     FlightPaths,
@@ -55,6 +57,10 @@ def things_version(build: str) -> list[type[Thing]]:
         or version.parse(build) == version.parse("4.3.4.15595")
         ):
             thing_list.remove(SpellNames)
+    if version.parse(build) < version.parse("11.1.0.58221"):
+        thing_list.remove(Campsites)
+    if version.parse(build) < version.parse("11.2.7.63642"):
+        thing_list.remove(Decors)
     return thing_list
 
 
@@ -501,6 +507,8 @@ def post_process(thing: type[Thing], flavor: str) -> None:
     missing_lines = extract_nth_column(missing_path, 0)
     if thing in (
         Achievements,
+        Campsites,
+        Decors,
         Explorations,
         Factions,
         FlightPaths,

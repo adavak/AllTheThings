@@ -98,6 +98,63 @@ class Achievements(Thing):
     def id_schema() -> list[str]:
         return ["id", "name"]
 
+
+class Campsites(Thing):
+    @staticmethod
+    def table() -> str:
+        return "warbandscene"
+
+    @staticmethod
+    def debugDB_prefix() -> str:
+        return "campsite"
+
+    @staticmethod
+    def existing_prefixes() -> tuple[str, ...]:
+        return ("campsite(",)
+
+    @staticmethod
+    def new_prefix() -> str:
+        return Campsites.existing_prefixes()[0]
+
+    @staticmethod
+    def extract_table_info(row: dict[str, str], build: str | None = None) -> str:
+        # Titles have names in the same db
+        name = "Name_lang" if "Name_lang" in row else "Name_lang[0]"
+        return f"{row['ID']}{DELIMITER}{row[name]}"
+
+    @staticmethod
+    def id_schema() -> list[str]:
+        return ["id", "name"]
+
+
+class Decors(Thing):
+    @staticmethod
+    def table() -> str:
+        return "HouseDecor"
+
+    @staticmethod
+    def debugDB_prefix() -> str:
+        return "decor"
+
+    @staticmethod
+    def existing_prefixes() -> tuple[str, ...]:
+        return ("decor(",)
+
+    @staticmethod
+    def new_prefix() -> str:
+        return Decors.existing_prefixes()[0]
+
+    @staticmethod
+    def extract_table_info(row: dict[str, str], build: str | None = None) -> str:
+        # Achievements have names in the same db
+        title = "Name_lang" if "Name_lang" in row else "Name_lang[0]"
+        return f"{row['ID']}{DELIMITER}{row[title]}"
+
+    @staticmethod
+    def id_schema() -> list[str]:
+        return ["id", "name"]
+
+
 class Explorations(Thing):
     @staticmethod
     def table() -> str:
@@ -124,6 +181,7 @@ class Explorations(Thing):
     @staticmethod
     def id_schema() -> list[str]:
         return ["id", "name"]
+
 
 class Factions(Thing):
     @staticmethod
@@ -260,6 +318,7 @@ class Illusions(Thing):
     def id_schema() -> list[str]:
         return ["id"]
 
+
 class Items(Thing):
     @staticmethod
     def table() -> str:
@@ -288,6 +347,7 @@ class Items(Thing):
     @staticmethod
     def id_schema() -> list[str]:
         return ["id", "name"]
+
 
 class Mounts(Thing):
     db_path = Path(DATAS_FOLDER, "00 - DB", "MountDB.lua")
