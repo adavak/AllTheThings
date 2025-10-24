@@ -2321,6 +2321,9 @@
 1251690@@@Prized Turkey
 11.2.5.63092
 448845@@@Blue Old God Fish Mount
+11.2.5.63660
+1245604@@@Astral Aurochs
+1247662@@@Brewfest Bomber
 12.0.0.63534
 447173@@@Elder Glowmite
 451487@@@Retrained Skyrazor
@@ -2332,7 +2335,6 @@
 1244247@@@Thunder-Ridged Elekk
 1244259@@@Cinder-Seared Elekk
 1244261@@@Legion-Forged Elekk
-1247662@@@Brewfest Bomber
 1251433@@@[DNT] Amani Eagle Orange
 1251630@@@Amani Windcaller
 1251665@@@Amani Blessed Bear
