@@ -5740,7 +5740,6 @@ root(ROOTS.Unsorted, {
 			i(241808),	-- [PH] Template
 			i(242369),	-- The First Satyr's Spaulders
 			i(242572),	-- Tome of the Silver Hand
-			i(242590),	-- Strom'kar, the Warbreaker
 			i(242706),	-- Curious Curio
 			i(243013),	-- Doomfire Dynamo
 			i(243023),	-- Badge of the Fallen Vindicator
@@ -5766,7 +5765,6 @@ root(ROOTS.Unsorted, {
 			i(245554),	-- Heroic Cache of Infinite Treasure
 			i(245663),	-- Holy Golden Greatsword
 			i(245664),	-- Holy Hologem Greatsword
-			i(246013),	-- Thas'dorah, Legacy of the Windrunners
 			i(246072),	-- Intricate Everchill Pearl
 			i(246073),	-- Intricate Rage of the Tides
 			i(246074),	-- Intricate Sundered Comet
