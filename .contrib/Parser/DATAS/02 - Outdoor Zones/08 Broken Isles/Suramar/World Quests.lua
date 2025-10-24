@@ -13,9 +13,9 @@ root(ROOTS.Zones, {
 				q(44802),	-- Ancient Guidance
 				q(44769, {	-- Arming the Populace
 					o_repeated({	-- Nightborne Arms Cache
-						i(142216),	-- Nightborne Armaments (QI!)
 						o(254491),	-- Nightborne Arms Cache
 						o(266032),	-- Nightborne Arms Cache
+						i(142216),	-- Nightborne Armaments (QI!)
 					}),
 				}),
 				q(44780),	-- Backlash
