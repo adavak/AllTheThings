@@ -323,50 +323,137 @@
 88798@@@Warchief's Command Board
 88800@@@Warchief's Command Board
 88801@@@Warchief's Command Board
-55296@@@--
-60870@@@--
-61547@@@--
-63769@@@--
-65309@@@--
-65616@@@--
-66145@@@--
-66193@@@--
-66281@@@--
-66286@@@--
-66287@@@--
-66288@@@--
-66289@@@--
-66290@@@--
-66291@@@--
-66292@@@--
-66293@@@--
-66294@@@--
-66295@@@--
-66317@@@--
-66318@@@--
-73193@@@--
-74584@@@--
-75300@@@--
-78647@@@--
-78650@@@--
-78651@@@--
-78652@@@--
-78653@@@--
-78654@@@--
 9546@@@Fulfilling a Promise
+11934@@@Unlocking Your Potential [PH]
+13303@@@Test Quest
+25286@@@Words for Delivery
+78165@@@Talented
+13637@@@Ram Delivery
+13802@@@The Goblin with Two Brains
+14007@@@Steady Shot
+14008@@@Arcane Missiles
+14009@@@Flash Heal
+14010@@@Eviscerate
+14011@@@Primal Strike
+14012@@@Immolate
+14013@@@Charge
+14454@@@The Captured Warrior
+24443@@@The Captured Hunter
+24444@@@The Captured Shaman
+24445@@@The Captured Druid
+24446@@@The Captured Sunwalker
+24494@@@Empowered Rune
+24527@@@Your Path Begins Here
+24530@@@Oh, A Hunter's Life For Me
+24531@@@Getting Battle-Ready
+24640@@@The Arts of a Warrior
+24760@@@The Arts of a Shaman
+24766@@@The Arts of a Druid
+24772@@@The Arts of a Rogue
+24778@@@The Arts of a Hunter
+24784@@@The Arts of a Priest
+24962@@@Trail-Worn Scroll
+24964@@@The Thrill of the Hunt
+24967@@@Stab!
+24968@@@Dark Deeds
+24969@@@Charging into Battle
+25138@@@Glyphic Parchment
+25143@@@Primal Strike
+25145@@@Immolate
+25149@@@Arcane Missiles
+25571@@@A Natural Occurrence
+26054@@@Water They Up To?
+26274@@@The Arts of a Warlock
+26675@@@The Value of Trust
+26715@@@Malfurion Stormrage
+26841@@@Forbidden Sigil
+26940@@@Arcane Missiles
+26945@@@Learning New Techniques
+26946@@@A Rogue's Advantage
+26947@@@A Woodsman's Training
+26990@@@Water They Up To?
+27020@@@The First Lesson
+27021@@@The Hunter's Path
+27023@@@The Way of the Sunwalkers
+27027@@@Primal Strike
+27066@@@Healing in a Flash
+27067@@@Rejuvenating Touch
+27122@@@Fired Up and Not So Good To Go.
+27127@@@Fired Up and Not So Good To Go.
+27149@@@School of the Damned
+27207@@@This Blows
+27209@@@This Blows
+27250@@@REUSE - BAD COPY
+28016@@@Adventurers Wanted: Scarlet Monastery Graveyard
+28018@@@Adventurers Wanted: Scarlet Monastery Armory
+28020@@@Adventurers Wanted: Scarlet Monastery Graveyard
+28022@@@Adventurers Wanted: Scarlet Monastery Armory
+28936@@@Diva Dilemma
+28937@@@Alliance Breadcrumb
+28938@@@Save the Children
+29097@@@Mor'shan Caravan Rescue
+29099@@@Mor'shan Caravan Delivery
+29140@@@Under the Skylord's Gaze
+29180@@@Promises, Promises...
+29216@@@Malfurion's Breach
+29224@@@[DEPRICATED] NO LONGER USED
+29258@@@Meteorite Hunt
+29271@@@Bound for Warmer Weather
+29294@@@Animate Embers
+29441@@@From the Belly of the Beast
+29820@@@Into the Nexus
+30173@@@War Pigs!
+82948@@@Hero's Call Board
+82949@@@Warchief's Command Board
+82981@@@Talented
+82982@@@Talented
+82983@@@Hero's Call Board
+82984@@@Talented
+82985@@@Warchief's Command Board
+82987@@@Talented
+82988@@@Talented
+82989@@@Warchief's Command Board
+88788@@@Talented
+8237@@@REUSE
+11196@@@Warlord of the Amani
+11558@@@Dangerous Love
+12420@@@Brew of the Month Club
+12421@@@Brew of the Month Club
+11997@@@REUSE
+13541@@@
+24661@@@REUSE ME
+25055@@@Elemental Research
+25092@@@Elemental Research
+25180@@@Tablets of the Earth
+25181@@@Tablets of Fire
+25561@@@Circle the Wagons... er, Boats
+25562@@@Circle the Wagons... er, Boats
+26704@@@REUSE
+30538@@@Fun for the Little Ones
+13612@@@Mor'shan Defense
+24498@@@The Path to the Citadel
+24499@@@Echoes of Tortured Souls
+24500@@@Wrath of the Lich King
+24506@@@Inside the Frozen Citadel
+24507@@@The Path to the Citadel
+24510@@@Inside the Frozen Citadel
+24511@@@Echoes of Tortured Souls
+24682@@@The Pit of Saron
+24683@@@The Pit of Saron
+24710@@@Deliverance from the Pit
+24711@@@Frostmourne
+24712@@@Deliverance from the Pit
+24713@@@Frostmourne
+24802@@@Wrath of the Lich King
+26012@@@Trouble at Wyrmrest
+26013@@@Assault on the Sanctum
+26034@@@The Twilight Destroyer
+29851@@@Champion of the Tournament
+55296@@@--
 9713@@@--
 10217@@@--
 10219@@@--
-64032@@@--
-64033@@@--
-64036@@@--
-64071@@@--
-64095@@@--
-64275@@@--
 10549@@@--
-66990@@@--
-66991@@@--
-11934@@@Unlocking Your Potential [PH]
 11994@@@--
 12023@@@--
 12445@@@--
@@ -375,108 +462,12 @@
 12765@@@--
 13123@@@--
 13210@@@--
-13303@@@Test Quest
 13317@@@----
 13990@@@--
 14200@@@--
 24227@@@--
-25286@@@Words for Delivery
-70349@@@--
-70663@@@--
-70664@@@--
-70665@@@--
-70666@@@--
-70667@@@--
-70668@@@--
-70669@@@--
-70670@@@--
-70671@@@--
-70672@@@--
-70673@@@--
-70674@@@--
-70675@@@--
-70676@@@--
-70677@@@--
-70678@@@--
-70679@@@--
-70680@@@--
-70681@@@--
-70682@@@--
-70683@@@--
-70684@@@--
-70686@@@--
-70687@@@--
-70688@@@--
-70689@@@--
-70690@@@--
-70691@@@--
-70692@@@--
-70693@@@--
-70694@@@--
-70695@@@--
-70696@@@--
-70760@@@--
-70855@@@--
-70860@@@--
-70861@@@--
-71098@@@--
-71099@@@--
-71100@@@--
-71101@@@--
-71102@@@--
-71103@@@--
-71104@@@--
-71105@@@--
-71106@@@--
-71107@@@--
-71108@@@--
-71109@@@--
-71110@@@--
-71111@@@--
-71112@@@--
-71113@@@--
-71114@@@--
-71115@@@--
-71116@@@--
-71117@@@--
-71118@@@--
-71119@@@--
-71120@@@--
-71121@@@--
-71122@@@--
-71123@@@--
-71124@@@--
-71125@@@--
-71126@@@--
-71127@@@--
-71128@@@--
-71129@@@--
-71130@@@--
-71131@@@--
-71132@@@--
-71133@@@--
-71134@@@--
-72433@@@--
-76175@@@--
-78165@@@Talented
-77167@@@--
-77168@@@--
-78135@@@--
-78139@@@--
-83699@@@--
-83709@@@--
-83713@@@--
-83714@@@--
-83717@@@--
-84385@@@--
-84386@@@--
-84553@@@--
-84552@@@--
-87379@@@--
 13574@@@--
 13608@@@--
-13637@@@Ram Delivery
-13802@@@The Goblin with Two Brains
 13804@@@--
 13894@@@--
 13939@@@--
@@ -489,13 +480,6 @@
 13996@@@--
 14000@@@--
 14002@@@--
-14007@@@Steady Shot
-14008@@@Arcane Missiles
-14009@@@Flash Heal
-14010@@@Eviscerate
-14011@@@Primal Strike
-14012@@@Immolate
-14013@@@Charge
 14015@@@--
 14020@@@--
 14025@@@--
@@ -504,7 +488,6 @@
 14029@@@--
 14097@@@--
 14133@@@--
-14137@@@--
 14156@@@--
 14298@@@--
 14315@@@--
@@ -512,11 +495,6 @@
 14415@@@--
 14425@@@--
 14426@@@--
-14454@@@The Captured Warrior
-24443@@@The Captured Hunter
-24444@@@The Captured Shaman
-24445@@@The Captured Druid
-24446@@@The Captured Sunwalker
 24447@@@--
 24462@@@--
 24464@@@--
@@ -525,33 +503,17 @@
 24481@@@--
 24482@@@--
 24485@@@--
-24494@@@Empowered Rune
-24527@@@Your Path Begins Here
-24530@@@Oh, A Hunter's Life For Me
-24531@@@Getting Battle-Ready
 24544@@@--
-24640@@@The Arts of a Warrior
 24696@@@--
 24738@@@--
 24739@@@--
-24760@@@The Arts of a Shaman
-24766@@@The Arts of a Druid
-24772@@@The Arts of a Rogue
-24778@@@The Arts of a Hunter
-24784@@@The Arts of a Priest
 24860@@@--
 24900@@@--
 24935@@@--
-24962@@@Trail-Worn Scroll
-24964@@@The Thrill of the Hunt
-24967@@@Stab!
-24968@@@Dark Deeds
-24969@@@Charging into Battle
 24984@@@--
 24985@@@--
 24986@@@--
 24987@@@--
-25016@@@--
 25076@@@--
 25077@@@--
 25078@@@--
@@ -564,15 +526,11 @@
 25116@@@--
 25119@@@--
 25137@@@--
-25138@@@Glyphic Parchment
 25140@@@--
 25142@@@--
-25143@@@Primal Strike
 25144@@@--
-25145@@@Immolate
 25146@@@--
 25148@@@--
-25149@@@Arcane Missiles
 25150@@@--
 25225@@@--
 25231@@@--
@@ -588,7 +546,6 @@
 25501@@@--
 25508@@@--
 25557@@@--
-25571@@@A Natural Occurrence
 25604@@@--
 25625@@@--
 25738@@@--
@@ -599,7 +556,6 @@
 25833@@@--
 25902@@@--
 25903@@@--
-26054@@@Water They Up To?
 26104@@@--
 26109@@@--
 26123@@@--
@@ -611,17 +567,13 @@
 26242@@@--
 26253@@@--
 26262@@@--
-26274@@@The Arts of a Warlock
 26392@@@--
 26458@@@--
 26460@@@--
 26471@@@--
 26626@@@--
-26675@@@The Value of Trust
-26715@@@Malfurion Stormrage
 26716@@@--
 26790@@@--
-26841@@@Forbidden Sigil
 26847@@@--
 26848@@@--
 26849@@@--
@@ -633,33 +585,12 @@
 26877@@@--
 26880@@@--
 26900@@@--
-26940@@@Arcane Missiles
-26945@@@Learning New Techniques
-26946@@@A Rogue's Advantage
-26947@@@A Woodsman's Training
-26990@@@Water They Up To?
-27020@@@The First Lesson
-27021@@@The Hunter's Path
-27023@@@The Way of the Sunwalkers
-27027@@@Primal Strike
 27052@@@--
-27066@@@Healing in a Flash
-27067@@@Rejuvenating Touch
 27081@@@--
-27122@@@Fired Up and Not So Good To Go.
-27127@@@Fired Up and Not So Good To Go.
 27137@@@--
 27138@@@--
-27149@@@School of the Damned
-27207@@@This Blows
-27209@@@This Blows
-27250@@@REUSE - BAD COPY
 27678@@@--
 27723@@@--
-28016@@@Adventurers Wanted: Scarlet Monastery Graveyard
-28018@@@Adventurers Wanted: Scarlet Monastery Armory
-28020@@@Adventurers Wanted: Scarlet Monastery Graveyard
-28022@@@Adventurers Wanted: Scarlet Monastery Armory
 28095@@@--
 28110@@@--
 28371@@@--
@@ -683,9 +614,6 @@
 28899@@@--
 28900@@@--
 28901@@@--
-28936@@@Diva Dilemma
-28937@@@Alliance Breadcrumb
-28938@@@Save the Children
 28939@@@--
 28940@@@--
 28941@@@--
@@ -714,25 +642,15 @@
 29070@@@--
 29072@@@--
 29077@@@--
-29097@@@Mor'shan Caravan Rescue
 29098@@@--
-29099@@@Mor'shan Caravan Delivery
-29140@@@Under the Skylord's Gaze
 29178@@@--
-29180@@@Promises, Promises...
 29184@@@--
 29187@@@--
 29212@@@--
-29216@@@Malfurion's Breach
-29224@@@[DEPRICATED] NO LONGER USED
 29256@@@--
-29258@@@Meteorite Hunt
 29259@@@--
 29260@@@--
-29271@@@Bound for Warmer Weather
 29277@@@--
-29294@@@Animate Embers
-29441@@@From the Belly of the Beast
 29448@@@--
 29459@@@--
 29460@@@--
@@ -742,118 +660,5 @@
 29533@@@--
 29569@@@--
 29671@@@--
-29820@@@Into the Nexus
 29853@@@--
 30119@@@--
-30173@@@War Pigs!
-82808@@@--
-82948@@@Hero's Call Board
-82949@@@Warchief's Command Board
-82981@@@Talented
-82982@@@Talented
-82983@@@Hero's Call Board
-82984@@@Talented
-82985@@@Warchief's Command Board
-82987@@@Talented
-82988@@@Talented
-82989@@@Warchief's Command Board
-83316@@@--
-86554@@@--
-86600@@@--
-88720@@@--
-88775@@@--
-88788@@@Talented
-88791@@@--
-88792@@@--
-88802@@@--
-89045@@@--
-89046@@@--
-89047@@@--
-89048@@@--
-89049@@@--
-89050@@@--
-89051@@@--
-89052@@@--
-8237@@@REUSE
-11196@@@Warlord of the Amani
-11558@@@Dangerous Love
-12420@@@Brew of the Month Club
-12421@@@Brew of the Month Club
-11997@@@REUSE
-12103@@@--
-13541@@@
-24661@@@REUSE ME
-25055@@@Elemental Research
-25092@@@Elemental Research
-25180@@@Tablets of the Earth
-25181@@@Tablets of Fire
-25228@@@--
-25253@@@--
-25254@@@--
-25282@@@--
-25288@@@--
-25290@@@--
-25293@@@--
-25343@@@--
-25347@@@--
-25348@@@--
-25351@@@--
-25380@@@--
-25414@@@--
-25415@@@--
-25416@@@--
-25417@@@--
-25418@@@--
-25425@@@--
-25561@@@Circle the Wagons... er, Boats
-25562@@@Circle the Wagons... er, Boats
-26459@@@--
-26704@@@REUSE
-28468@@@--
-29368@@@--
-29572@@@--
-29683@@@--
-29810@@@--
-30537@@@--
-30538@@@Fun for the Little Ones
-30539@@@--
-30540@@@--
-30541@@@--
-30542@@@--
-30543@@@--
-30544@@@--
-30545@@@--
-30546@@@--
-30547@@@--
-30548@@@--
-30549@@@--
-30550@@@--
-30551@@@--
-30552@@@--
-30553@@@--
-30554@@@--
-30555@@@--
-30556@@@--
-30557@@@--
-30558@@@--
-30559@@@--
-30560@@@--
-13612@@@Mor'shan Defense
-24498@@@The Path to the Citadel
-24499@@@Echoes of Tortured Souls
-24500@@@Wrath of the Lich King
-24506@@@Inside the Frozen Citadel
-24507@@@The Path to the Citadel
-24510@@@Inside the Frozen Citadel
-24511@@@Echoes of Tortured Souls
-24682@@@The Pit of Saron
-24683@@@The Pit of Saron
-24710@@@Deliverance from the Pit
-24711@@@Frostmourne
-24712@@@Deliverance from the Pit
-24713@@@Frostmourne
-24802@@@Wrath of the Lich King
-26012@@@Trouble at Wyrmrest
-26013@@@Assault on the Sanctum
-26034@@@The Twilight Destroyer
-29851@@@Champion of the Tournament
