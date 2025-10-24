@@ -12944,3 +12944,5 @@
 8045@@@Illusory Adornment - Nature's Embrace |A:Professions-ChatIcon-Quality-Tier2:20:20|a
 8046@@@Illusory Adornment - Voidtouched |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 8047@@@Illusory Adornment - Voidtouched |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+12.0.0.63854
+8638@@@Grand Line

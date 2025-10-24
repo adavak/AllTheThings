@@ -2386,3 +2386,20 @@
 1268924@@@Silvermoon's Arcane Defender
 1268926@@@Elven Arcane Guardian
 1268949@@@Arcanovoid Construct
+12.0.0.63854
+1261579@@@Ravenous Shredclaw
+1263635@@@Spectral Hawkstrider
+1266702@@@Voidbound Stormray
+1266980@@@Tenebrous Harrower
+1266993@@@Arboreal Pseudoshell
+1266997@@@Cabbage Pseudoshell
+1267002@@@Lavender Pseudoshell
+1267004@@@Accented Pseudoshell
+1269273@@@Vicious Snapvine
+1269277@@@Ferocious Snapvine
+1269279@@@Blooded Snapvine
+1269280@@@Savage Snapvine
+1270520@@@Fluffy Comfy Flying Carpet
+1270521@@@Gruffy Comfy Flying Carpet
+1270522@@@Huffy Comfy Flying Carpet
+1270523@@@Stuffy Comfy Flying Carpet

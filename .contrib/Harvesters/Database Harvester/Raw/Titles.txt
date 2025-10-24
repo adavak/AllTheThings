@@ -902,3 +902,12 @@
 668@@@%s, Famed Slayer of the Undreamt
 12.0.0.63724
 670@@@%s, Mycelial Mentor
+12.0.0.63854
+556@@@[PH] VoidspireRaid %s
+670@@@%s, Teacher of Strong
+671@@@Mind-Seeker %s
+676@@@%s, Famed Slayer of the VoidspireRaid
+677@@@%s, Famed Slayer of the Dark Naaru
+678@@@[PH] DarkwellRaid %s
+679@@@Dream-Eater %s
+680@@@%s, Chronicler of the Haranir

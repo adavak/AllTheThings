@@ -23909,3 +23909,38 @@
 256432@@@Voidborn Berserker
 256440@@@Light's Vanguard
 256447@@@Void Image
+12.0.0.63854
+107968@@@Archmage Lan'dalock
+242583@@@Danath Trollbane
+250404@@@Archmage Timear
+250408@@@Kelsey Steelspark
+250413@@@Lord Darius Crowley
+250414@@@Eitrigg
+253160@@@Kurdran Wildhammer
+254689@@@Do, child of Filo
+255295@@@Munchy
+256238@@@Treja'saka
+256265@@@Ominous Domanus
+256543@@@Jeremy Feasel
+256546@@@Mind-Seeker Apprentice
+256559@@@Grumpy Mandrake
+256560@@@Plump Mandrake
+256565@@@Chirpy Mandrake
+256566@@@Screechy Mandrake
+256567@@@Gortham
+256709@@@Elder Gavokka
+256759@@@Luma
+256907@@@Lightfrenzy Demolisher
+256908@@@Eversong Farstrider
+256910@@@Halduron Brightwing
+256911@@@Phoenixfire Magister
+256912@@@Orweyna
+256913@@@Grand Magister Rommath
+256914@@@Lightmad Saptor
+256915@@@Lightmad Saptor
+256916@@@Lash'ra Thornguard
+256917@@@Ruia
+256918@@@Elder Hagar
+256933@@@Twilight Material
+256960@@@Eversong Farstrider
+256985@@@Willie

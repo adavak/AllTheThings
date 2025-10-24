@@ -1165,3 +1165,9 @@
 2764@@@Prey: Season 1
 12.0.0.63724
 2770@@@Domanaar Dominance
+12.0.0.63854
+2714@@@Shadow of the Row
+2718@@@Shadow of the Row (Paragon)
+2725@@@The Singularity (Paragon)
+2764@@@Preyseeker's Journey
+2774@@@Domanaar Dominance (Paragon)

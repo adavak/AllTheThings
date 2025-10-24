@@ -17230,3 +17230,81 @@
 61567@@@Midnight Dungeon Hero
 61568@@@Glory of the Midnight Hero
 61569@@@Fool Me Once...
+12.0.0.63854
+61300@@@Belo'ren, Child of Al'ar (Raid Finder March on Quel'Danas)
+61301@@@Belo'ren, Child of Al'ar (Normal March on Quel'Danas)
+61302@@@Belo'ren, Child of Al'ar (Heroic March on Quel'Danas)
+61303@@@Belo'ren, Child of Al'ar (Mythic March on Quel'Danas)
+61344@@@Chronicler of the Haranir
+61378@@@Mythic: Belo'ren, Child of Al'ar
+61574@@@Legends Never Die
+61576@@@Eversong Woods Glyph Hunter
+61581@@@Zul'aman Glyph Hunter
+61582@@@Harandar Glyph Hunter
+61583@@@Voidstorm Glyph Hunter
+61584@@@Midnight Glyph Hunter
+61585@@@You Conduit!
+61586@@@Galactic Gala
+61595@@@Mythic: Ara-Kara, City of Echoes Guild Run
+61596@@@Mythic: Cinderbew Meadery Guild Run
+61597@@@Mythic: City of Threads Guild Run
+61598@@@Mythic: Darkflame Cleft Guild Run
+61599@@@Mythic: Priory of the Sacred Flame Guild Run
+61600@@@Mythic: The Dawnbreaker Guild Run
+61601@@@Mythic: The Rookery Guild Run
+61602@@@Mythic: The Stonevault Guild Run
+61603@@@Mythic: Operation: Floodgate Guild Run
+61604@@@Mythic: Eco-Dome Al'dani Guild Run (copy)
+61605@@@Mythic: Den of Nalorakk Guild Run
+61606@@@The Voidspire Guild Run
+61607@@@Heroic: The Voidspire Guild Run
+61608@@@Mythic: Crown of the Cosmos Guild Run
+61609@@@March on Quel'Danas Guild Run
+61610@@@Heroic: March on Quel'Danas Guild Run
+61611@@@Mythic: Midnight Falls Guild Run
+61612@@@The Dreamrift Guild Run
+61613@@@Heroic: The Dreamrift Guild Run
+61614@@@Mythic: Chimaerus the Undreamt God Guild Run
+61615@@@Mythic: Magisters' Terrace Guild Run
+61616@@@Mythic: Maisara Caverns Guild Run
+61617@@@Mythic: Murder Row Guild Run
+61618@@@Mythic: Nexus-Point Xenas Guild Run
+61619@@@Mythic: The Blinding Vale Guild Run
+61620@@@Mythic: Voidscar Arena Guild Run
+61621@@@Mythic: Windrunner Spire Guild Run
+61622@@@Hall of Fame: Crown of the Cosmos
+61623@@@Hall of Fame: Midnight Falls
+61624@@@Ahead of the Curve: Crown of the Cosmos
+61625@@@Cutting Edge: Crown of the Cosmos
+61626@@@Ahead of the Curve: Midnight Falls
+61627@@@Cutting Edge: Midnight Falls
+61635@@@Voidspire: Wing 1
+61636@@@Voidspire: Wing 2
+61637@@@Voidspire: Wing 3
+61638@@@Den of Nalorakk
+61639@@@Maisara Caverns
+61640@@@Nexus-Point Xenas
+61641@@@The Blinding Vale
+61642@@@Heroic: Den of Nalorakk
+61643@@@Mythic: Den of Nalorakk
+61644@@@Heroic: Maisara Caverns
+61645@@@Mythic: Maisara Caverns
+61646@@@Heroic: Nexus-Point Xenas
+61647@@@Mythic: Nexus-Point Xenas
+61648@@@Heroic: The Blinding Vale
+61649@@@Mythic: The Blinding Vale
+61650@@@Nalorakk kills (Normal Den of Nalorakk)
+61651@@@Nalorakk kills (Heroic Den of Nalorakk)
+61652@@@Nalorakk kills (Mythic Den of Nalorakk)
+61653@@@Rak'tul, Vessel of Souls kills (Normal Maisara Caverns)
+61654@@@Rak'tul, Vessel of Souls kills (Heroic Maisara Caverns)
+61655@@@Rak'tul, Vessel of Souls kills (Mythic Maisara Caverns)
+61656@@@Lothraxion kills (Normal Nexus-Point Xenas)
+61657@@@Lothraxion kills (Heroic Nexus-Point Xenas)
+61658@@@Lothraxion kills (Mythic Nexus-Point Xenas)
+61659@@@Ziekket kills (Normal The Blinding Vale)
+61660@@@Ziekket kills (Heroic The Blinding Vale)
+61661@@@Ziekket kills (Mythic The Blinding Vale)
+61678@@@Midnight Superior
+61679@@@Midnight Epic
+61681@@@You Should See Him in a Crown

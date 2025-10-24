@@ -10683,3 +10683,18 @@
 16801@@@Warden's Retreat
 16802@@@Conviction's Crucible
 16804@@@The Gorging Pit
+12.0.0.63854
+16204@@@Shrine of Filo
+16806@@@Sanctuary of the Mind-Seekers
+16807@@@Sun's Reach Harbor
+16808@@@Sun's Reach Sanctum
+16809@@@Golden Boughs
+16810@@@Dawnstar Village
+16811@@@Sun's Reach Armory
+16812@@@Sunwell Ramparts
+16813@@@Parhelion Plaza
+16814@@@Magister's Terrace
+16815@@@Greengill Coast
+16816@@@Silver Landing
+16817@@@Western Sungrove
+16818@@@Highlands
