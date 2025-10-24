@@ -1516,3 +1516,461 @@
 15477@@@Dreadscar Battle Planning Map
 15595@@@Kun-Lai Lacquered Rickshaw
 15605@@@Golden Pandaren Privacy Screen
+12.0.0.63534
+378@@@Sturdy Wooden Door
+669@@@NYI 12PH_Opulent_INE01_Partition_Pillar.wmo
+670@@@NYI 12PH_Opulent_INE01_Partition_W_L.wmo
+671@@@NYI 12PH_Opulent_INE01_Partition_W_S.wmo
+672@@@NYI 12PH_Opulent_INE01_Partition_W_L_Arch.wmo
+848@@@[DNT] [AUTOGEN] 12PH_Opulent_IBE01_Partition_W_L.wmo
+916@@@[DNT] [AUTOGEN] 12PH_Opulent_IBE01_Partition_W_S.wmo
+986@@@[DNT] [AUTOGEN] 12PH_Opulent_Bench_Short01.m2
+990@@@[DNT] [AUTOGEN] 12PH_Opulent_Barrel01.m2
+991@@@[DNT] [AUTOGEN] 12PH_Opulent_Bench_Short01_NoCloth.m2
+993@@@[DNT] [AUTOGEN] 12PH_Opulent_Barrel01_Open.m2
+1080@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_CrystalBall01.m2
+1081@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_HangingBanner03.m2
+1135@@@[DNT] [AUTOGEN] 12BE_BloodElf_Crafting_Forge01.m2
+1136@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_DraperySet03_Small.m2
+1137@@@[DNT] [AUTOGEN] 12RU_Rutaani_Decor_Fountain01.m2
+1138@@@[DNT] [AUTOGEN] 12BE_BloodElf_Navigation_FenceCapper01.m2
+1139@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Bench01.m2
+1140@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_Sarcophagus03.m2
+1142@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_WallShelf02.m2
+1143@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_Jug01.m2
+1144@@@[DNT] [AUTOGEN] 12RU_Rutaani_Decor_Fountain01_LightBloom.m2
+1145@@@[DNT] [AUTOGEN] 12RU_Rutaani_Storage_SporePod01_LightBloom.m2
+1146@@@[DNT] [AUTOGEN] 12BE_BloodElf_Graveyard_Gravestone01.m2
+1147@@@[DNT] [AUTOGEN] 12RU_Rutaani_Storage_SporePod01.m2
+1148@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_Sarcophagus01.m2
+1149@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_WallShelf01.m2
+1150@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_Sarcophagus02.m2
+1151@@@[DNT] [AUTOGEN] 12RU_Rutaani_Storage_SporeContainer01_Lightbloom.m2
+1152@@@[DNT] [AUTOGEN] 12RU_Rutaani_Storage_SporeContainer01.m2
+1154@@@[DNT] [AUTOGEN] 12BE_BloodElf_Graveyard_Gravestone04.m2
+1156@@@[DNT] [AUTOGEN] 12BE_BloodElf_Graveyard_Gravestone05.m2
+1157@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Chair02_SitMedium.m2
+1158@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Chair01_SitMedium.m2
+1159@@@[DNT] [AUTOGEN] 12BE_BloodElf_Graveyard_Gravestone02.m2
+1160@@@[DNT] [AUTOGEN] 12BE_BloodElf_Graveyard_Gravestone03.m2
+1164@@@[DNT] [AUTOGEN] 12PM_Primitive_Furniture_Table01.m2
+1204@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_IncenseBurner01.m2
+1220@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Chair01.m2
+1221@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_FancyChair01.m2
+1222@@@[DNT] [AUTOGEN] 12BE_BloodElf_Storage_Barrel01.m2
+1223@@@[DNT] [AUTOGEN] 12BE_BloodElf_Storage_Barrel01_Open.m2
+1224@@@[DNT] [AUTOGEN] 12BE_BloodElf_Navigation_Fence01.m2
+1225@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Fountain01.m2
+1226@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_Chandelier01.m2
+1227@@@Sin'dorei Winged Chaise
+1228@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Bed01.m2
+1229@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging04.m2
+1230@@@[DNT] [AUTOGEN] 12BE_BloodElf_Graveyard_Gravestone06.m2
+1247@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_MagicalItem01.m2
+1327@@@[DNT] [AUTOGEN] 11WE_WildElves_Navigation_Signpost01.m2
+1328@@@[DNT] [AUTOGEN] 11WE_WildElves_Navigation_Signpost02.m2
+1349@@@[DNT] [AUTOGEN] 12BE_BloodElf_Storage_Rowboat01.m2
+1351@@@[DNT] Orcish Fencepost - DO NOT USE - new asset coming
+1405@@@[DNT] Orcish Fence - DO NOT USE - new asset coming
+1423@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_Workbench01.m2
+1424@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_GrindingWheel01.m2
+1425@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_GrindingWheel02.m2
+1426@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn01.m2
+1427@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn02.m2
+1428@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn03.m2
+1429@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn01_Destroyed01.m2
+1430@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn04.m2
+1431@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn05.m2
+1432@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn04_Destroyed01.m2
+1433@@@[DNT] [AUTOGEN] 12TR_Amani_Ritual_FuneraryUrn02_Destroyed01.m2
+1441@@@[DNT] [AUTOGEN] 11GO_Goblin_Lighting_Stringlights02.m2
+1442@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Sundial01.m2
+1489@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Table06.m2
+1642@@@[DNT] [AUTOGEN] 12PH_NightElf_INE01_Partition_Pillar.wmo
+1643@@@[DNT] [AUTOGEN] 12PH_NightElf_INE01_Partition_W_S.wmo
+1644@@@[DNT] [AUTOGEN] 12PH_NightElf_INE01_Partition_W_L.wmo
+1645@@@[DNT] [AUTOGEN] 12PH_NightElf_INE01_Partition_W_L_Arch.wmo
+1646@@@[DNT] [AUTOGEN] 12PH_BloodElf_IBE01_Partition_Pillar.wmo
+1647@@@[DNT] [AUTOGEN] 12PH_BloodElf_IBE01_Partition_W_L.wmo
+1648@@@[DNT] [AUTOGEN] 12PH_BloodElf_IBE01_Partition_W_S.wmo
+1666@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_Workbench02.m2
+1726@@@[DNT] [AUTOGEN] 11WE_WildElves_Storage_Handcart01.m2
+1727@@@[DNT] [AUTOGEN] 11WE_WildElves_Storage_Handcart02.m2
+1728@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_GreatVault02.m2
+1729@@@[DNT] [AUTOGEN] 12BE_BloodElf_Storage_RowBoat_Oar01.m2
+1730@@@[DNT] [AUTOGEN] 12XP_General_Furniture_MagicalDresser01.m2
+1895@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_TeleportPad01.m2
+1896@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_TeleportPad02.m2
+1901@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternFloating01.m2
+1902@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging01.m2
+1903@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging02.m2
+1904@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternFloating01_Off.m2
+1905@@@[DNT] [AUTOGEN] 11WE_WildElves_Navigation_RootPortal01.m2
+1906@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_Chandelier02.m2
+1907@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_Candle02.m2
+1908@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_Candelabra03.m2
+1909@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternFloating02.m2
+1926@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging03.m2
+1927@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging01_Off.m2
+1928@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging02_Off.m2
+1929@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging03_Off.m2
+2019@@@[DNT] [AUTOGEN] WORGEN_BOTTLE_01.M2
+2099@@@[DNT] Stormwind Beam Platform - M2 DO NOT USE
+2100@@@[DNT] Stormwind Round Platform - M2 DO NOT USE
+2101@@@[DNT] Stormwind Large Platform - M2 DO NOT USE
+2102@@@[DNT] Stormwind Small Platform - M2 DO NOT USE
+2103@@@[DNT] Stormwind Angled Platform - M2 DO NOT USE
+2104@@@[DNT] Silvermoon Beam Platform - M2 DO NOT USE
+2105@@@[DNT] Silvermoon Large Platform - M2 DO NOT USE
+2106@@@[DNT] Silvermoon Small Platform - M2 DO NOT USE
+2107@@@[DNT] Silvermoon Angled Platform - M2 DO NOT USE
+2108@@@[DNT] Silvermoon Round Platform - M2 DO NOT USE
+2109@@@[DNT] Bel'ameth Beam Platform - M2 DO NOT USE
+2110@@@[DNT] Bel'ameth Large Platform - M2 DO NOT USE
+2111@@@[DNT] Bel'ameth Small Platform - M2 DO NOT USE
+2112@@@[DNT] Bel'ameth Angled Platform - M2 DO NOT USE
+2113@@@[DNT] Bel'ameth Round Platform - M2 DO NOT USE
+2114@@@[DNT] Orgrimmar Beam Platform - M2 DO NOT USE
+2115@@@[DNT] Orgrimmar Round Platform - M2 DO NOT USE
+2116@@@[DNT] Orgrimmar Large Platform - M2 DO NOT USE
+2117@@@[DNT] Orgrimmar Small Platform - M2 DO NOT USE
+2118@@@[DNT] Orgrimmar Angled Platform - M2 DO NOT USE
+2218@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_Gourd01.m2
+2219@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_HangingGourds01.m2
+2220@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_HangingGourds02.m2
+2221@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_HangingGourds03.m2
+2222@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_BottleGourd01.m2
+2223@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_BottleGourd02.m2
+2224@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_BottleGourd03.m2
+2225@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_HangingHerbs01.m2
+2232@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_PaintBowl01.m2
+2233@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_PaintBowl02.m2
+2234@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_PaintBowl03.m2
+2235@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_PaintBowl04.m2
+2295@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_Mortar01.m2
+2296@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_PigmentGourd01.m2
+2297@@@[DNT] [AUTOGEN] 11WE_WildElves_Crafting_PigmentGourd02.m2
+2298@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_Bowl01.m2
+2299@@@[DNT] [AUTOGEN] 12BE_BloodElf_Ritual_Crystal01_Floating.m2
+2300@@@[DNT] [AUTOGEN] 12BE_BloodElf_Ritual_Crystal02_Floating.m2
+2301@@@Ambient Aethercharged Crystal
+2455@@@[DNT] [AUTOGEN] 11WE_WildElves_Storage_Basket01.m2
+2456@@@[DNT] [AUTOGEN] 11WE_WildElves_Storage_HangingBasket01.m2
+2457@@@[DNT] [AUTOGEN] 12FN_Fungarian_Furniture_Stool01.m2
+2459@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_WineBottle01_SpecialAnim.m2
+2460@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_WineBottle02_SpecialAnim.m2
+2473@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_CheeseBoard01.m2
+2498@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging01_Off_blue.m2
+2499@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging02_Off_blue.m2
+2500@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging03_Off_blue.m2
+2501@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging03_blue.m2
+2502@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging02_blue.m2
+2503@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging01_blue.m2
+2507@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_Spool01.m2
+2510@@@Kafa Press
+2530@@@Tome of the Dragon's Dedication
+2583@@@[DNT] [AUTOGEN] 12FN_Fungarian_Crafting_Tool01.m2
+2584@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_Spoon01.m2
+2585@@@[DNT] [AUTOGEN] 12FN_Fungarian_Defense_Barricade01.m2
+2586@@@[DNT] [AUTOGEN] 12FN_Fungarian_Defense_Barricade01_Destroyed.m2
+2587@@@[DNT] [AUTOGEN] 12FN_Fungarian_Food_Planter02.m2
+2588@@@[DNT] [AUTOGEN] 12FN_Fungarian_Storage_Jar01.m2
+2589@@@[DNT] [AUTOGEN] 12FN_Fungarian_Storage_Jar01_Open.m2
+2597@@@[DNT] [AUTOGEN] 12FN_Fungarian_Crafting_Tool02.m2
+2598@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_KnickKnacks01.m2
+2599@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_KnickKnacks02.m2
+2600@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_Bowl01.m2
+2601@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_Bowl02.m2
+2602@@@[DNT] [AUTOGEN] 12FN_Fungarian_Defense_Spear01.m2
+2603@@@[DNT] [AUTOGEN] 12FN_Fungarian_Defense_Shield01.m2
+2604@@@[DNT] [AUTOGEN] 12FN_Fungarian_Defense_BlowGun01.m2
+2605@@@[DNT] [AUTOGEN] 12FN_Fungarian_Food_Planter01.m2
+2606@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Brazier01.m2
+2607@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Brazier01_Unlit.m2
+3826@@@Elven Front Door
+3908@@@Zangarmarsh Lamppost
+3909@@@Small Zangarshroom Patch
+3910@@@Sturdy Zangarshelf
+3911@@@Orange Zangarmarsh Tree
+3912@@@Glowing Zangarshroom Bowl
+3913@@@Glowing Zangarshroom Cup
+3914@@@Blue Zangarmarsh Tree
+3915@@@Green Zangarmarsh Tree
+3916@@@Purple Zangarmarsh Tree
+3917@@@Withered Zangarmarsh Tree
+3918@@@Glowing Withered Zangarmarsh Tree
+3919@@@Pulsing Zangarshroom
+3920@@@Orange Spore Light
+3921@@@Yellow Spore Light
+3922@@@[DNT] [AUTOGEN] 12VD_Void_Decor_Banner01.m2
+4013@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_Pillow01_Destroyed.m2
+4014@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_BeanBag01_Destroyed.m2
+4171@@@Valdrakken Bookcase
+4424@@@Grummle Kafa Refinery
+4425@@@Grummle Tent
+4426@@@[DNT] Stack of Kafa Mugs
+4427@@@Kafa Creamer
+4428@@@Legerdemain Lounge Sign Board
+4429@@@Dalaran Kafa Table
+4430@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue02.m2
+4464@@@Pink Paintbrush
+4814@@@[DNT] City Wanderer's Candleholder - DO NOT USE - new asset
+5129@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask01.m2
+5130@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask02.m2
+5131@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask03.m2
+5132@@@[DNT] [AUTOGEN] 12VD_Void_Furniture_Table01.m2
+5133@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue02_Mirrored.m2
+5564@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue01.m2
+5648@@@[DNT] [AUTOGEN] 12TR_Amani_Storage_Bag01.m2
+5649@@@[DNT] [AUTOGEN] 12FN_Fungarian_Crafting_Tool03.m2
+5650@@@[DNT] [AUTOGEN] 12FN_Fungarian_Storage_Barrel01.m2
+5651@@@[DNT] [AUTOGEN] 12FN_Fungarian_Storage_Barrel01_Open.m2
+5794@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Lantern01.m2
+5796@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue01_Symmetrical.m2
+5797@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Lantern01_Unlit.m2
+7668@@@Forbidden Fork
+7691@@@Draconic Metalshaper's Anvil
+7692@@@Replica Grathardormu's Hammer
+7693@@@Green Thumb's Watering Can
+7694@@@Draconic Auctioneer's Lectern
+7695@@@Obsidian Warder Pennant
+7696@@@Dark Talon Pennant
+7697@@@Roasted Ram Leg
+7698@@@Draconic Trader's Cart
+7699@@@Artisan's Measuring Scales
+7700@@@War Creche Teaching Crystal
+7780@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_Screen01.m2
+7781@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_Screen02.m2
+7782@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_Screen03.m2
+7825@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Trellis01.m2
+7826@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Egg01.m2
+7827@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Egg02.m2
+7828@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Egg03.m2
+7829@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_HangingLight01.m2
+7830@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_WallShelf01.m2
+7832@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_BloodCrystal01.m2
+7833@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_BloodCrystal02.m2
+7834@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_BloodCrystal03.m2
+8124@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue01_Mirrored.m2
+8179@@@Pandaren Wooden Cart
+8180@@@Commander's Kafa Mug
+8181@@@Ceramic Kafa Mug
+8182@@@Dalaran Kafa Grinder
+8844@@@Test Decor
+8872@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_LargePlatter01.m2
+8873@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_LargePlatter02.m2
+8874@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_LargePlatter03.m2
+8875@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_Grapes01.m2
+8876@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_Meat01.m2
+8877@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_Pie01.m2
+8878@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_Cake01.m2
+8879@@@[DNT] [AUTOGEN] 12BE_BloodElf_Food_Cheese01.m2
+8889@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_Banner01.m2
+8890@@@[DNT] [AUTOGEN] 12FN_Fungarian_Decor_Banner02.m2
+8891@@@[DNT] [AUTOGEN] 12BE_BloodElf_Storage_Barrel_Fel_01.m2
+8913@@@[DNT] [AUTOGEN] 12FN_Fungarian_Furniture_Table01.m2
+8914@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_HangingLight01.m2
+8915@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_HangingLight02.m2
+8916@@@[DNT] [AUTOGEN] 12FN_Fungarian_Storage_Sack01.m2
+8918@@@[DNT] [AUTOGEN] 12PH_Opulent_Candelabra01.m2
+8987@@@Open Sack of Roasted Kafa
+8988@@@Sealed Sack of Roasted Kafa
+8990@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Pitcher01.m2
+8991@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Mug01.m2
+8992@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Mug02.m2
+8993@@@[DNT] [AUTOGEN] 12FN_Fungarian_Structure_Tent01.m2
+9065@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_BirdBath01.m2
+9248@@@Dried Gilnean Roses
+9249@@@Hyjal Climbing Vine
+9250@@@Ancient Zandalari Ritual Scroll
+9251@@@Pylon Fragment
+9252@@@Inactive Filigree Moon Lamp
+9253@@@Ornamental Proudmoore Anchor
+9256@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_HangingLight01_Unlit.m2
+9257@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_HangingLight02_Unlit.m2
+9258@@@[DNT] [AUTOGEN] 12FN_Fungarian_Special_TargetDummy01.m2
+9265@@@Lunar Celebrant's Aquarium
+9270@@@Lunar Celebrant's Cradle
+9271@@@Lunar Celebrant's Wide Pillow Roll
+9272@@@Lunar Celebrant's Pillow Roll
+9273@@@Lunar Celebrant's Privacy Screen
+9274@@@Lunar Celebrant's Ornate Vanity
+9275@@@Lunar Celebrant's Compact
+9276@@@Lunar Celebrant's Bamboo Canister
+9277@@@Lunar Celebrant's Tea Tray
+9278@@@Lunar Celebrant's Teacup
+9279@@@Lunar Celebrant's Teapot
+9280@@@Lunar Celebrant's Tea Set
+9281@@@Lunar Celebrant's Vase with Maple Branch
+9285@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_RopeHanging03_NonAnimated.m2
+9286@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_RopeHanging06_NonAnimated.m2
+9287@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_StringlightsHanging03_NonAnimated.m2
+9288@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Spear01.m2
+9289@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Axe01.m2
+9290@@@[DNT] [AUTOGEN] 12PM_Primitive_Furniture_SmallTable01.m2
+9291@@@[DNT] [AUTOGEN] 12PM_Primitive_Furniture_Bed01.m2
+9419@@@Thalassian Chest
+9420@@@Astalor's Hookah
+9421@@@590 Quel'Lithien Red Display Bottle
+9422@@@Thalassion Academy Dictation Device
+9423@@@Sin'dorei Wine Display
+9439@@@Scarred Orcish Spear
+9440@@@Clefthoof Hide Rug
+9441@@@Weathered History of the Warchiefs
+9442@@@Sandy Vulpera Tapestry
+9443@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_WallLamp01.m2
+9444@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_Wreath01.m2
+9475@@@Banner of the Ebon Blade
+9476@@@Artisanal Display Tent
+9477@@@Eversong Crystal Glass
+9478@@@590 Quel'Lithien Red
+9479@@@"Silvermoon in Summer" Painting
+9480@@@"The Last Day of the Semester" Painting
+9481@@@"A Bridge Over Calm Waters" Painting
+9482@@@"Family Portrait" Painting
+9483@@@"Brunch and a Book" Unframed Painting
+9484@@@"Eversong in Bloom" Painting
+9485@@@"Nature's Strength" Painting
+9486@@@"River's Protectors" Unframed Painting
+9487@@@"Isolation" Unframed Painting
+9488@@@"The Fallen Protectors" Unframed Painting
+9489@@@"Autumnal Eversong" Unframed Painting
+9490@@@"Reclamation" Unframed Painting
+9491@@@"Brunch and a Book" Painting
+9492@@@"Autumnal Eversong" Painting
+9493@@@"Isolation" Painting
+9494@@@"Reclamation" Painting
+9495@@@"The Light Blooms" Painting
+9496@@@"The Fallen Protectors" Painting
+9497@@@"River's Protectors" Painting
+9624@@@Sandy Vulpera Banner
+9625@@@[DNT] [AUTOGEN] 12FN_Fungarian_Crafting_WeaponRack01.m2
+9626@@@[DNT] [AUTOGEN] 12FN_Fungarian_Crafting_WeaponRack01_Empty.m2
+9627@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Hammer01.m2
+9628@@@Fresh Canvas
+9629@@@"The Light Blooms" Unframed Painting
+9630@@@[DNT] [AUTOGEN] 12PH_Folk_Crate02_OPEN.m2
+10273@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Easel01_Empty.m2
+10325@@@[DNT] [AUTOGEN] 12FN_Fungarian_Furniture_Table02.m2
+10326@@@[DNT] [AUTOGEN] 12FN_Fungarian_Structure_Cage01.m2
+10327@@@[DNT] [AUTOGEN] 12FN_Fungarian_Structure_Door01.m2
+10339@@@Triple-Tested Steam Valve
+10340@@@Mad Science Blueprints
+10341@@@Safety Electrical Cabling
+10342@@@Mechagon Control Console
+10346@@@Dual Mechanical Gauge
+10348@@@Sturdy Drive Belt
+10349@@@Blue-Glo Lantern
+10350@@@Z-205 Mechanical Device
+10351@@@Well-Oiled Machine Cog
+10352@@@Jury-Rigged Electrical Couple
+10353@@@[DNT] [AUTOGEN] 8GN_Gnome_Recycler01.m2
+10354@@@Miniature Charging Station
+10355@@@Galvanic Storage and Maintenance Device
+10356@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_Chair01.m2
+10368@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack06.m2
+10537@@@Ineffective Mechanical Privacy Screen
+10538@@@[DNT] [AUTOGEN] 11WE_WildElves_Decor_RopeHanging02_NonAnimated.m2
+10539@@@[DNT] [AUTOGEN] 12PM_Primitive_Cooking_BBQRoaster01.m2
+10540@@@[DNT] [AUTOGEN] 12PM_Primitive_Cooking_Plate01.m2
+10541@@@[DNT] [AUTOGEN] 12BE_BloodElf_Crafting_Canvas09.m2
+10542@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_WallArt14.m2
+10543@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_Chandelier01_Void.m2
+10544@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging04_Void.m2
+10778@@@[DNT] [AUTOGEN] 12FN_Fungarian_Structure_Window01.m2
+10784@@@[DNT] [AUTOGEN] 12XP_Generic_Furniture_Canvas01.m2
+10788@@@[DNT] [AUTOGEN] 12XP_Generic_Furniture_Canvas04.m2
+10790@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_EnergyFocus01.m2
+10858@@@[DNT] [AUTOGEN] 12TR_Amani_Structure_Fountain01.m2
+10859@@@[DNT] [AUTOGEN] 12TR_Amani_Structure_Fountain02.m2
+10861@@@[DNT] [AUTOGEN] 12PM_Primitive_Cooking_Bowl01.m2
+10862@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack04.m2
+10863@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack05.m2
+10864@@@[DNT] [AUTOGEN] 12PM_Primitive_Lighting_Candle02.m2
+10865@@@[DNT] [AUTOGEN] 12PM_Primitive_Lighting_Candle03.m2
+10894@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Banner01.m2
+10895@@@[DNT] [AUTOGEN] 12PM_Primitive_Storage_Urn01.m2
+10896@@@[DNT] [AUTOGEN] 12PM_Primitive_Storage_Urn02.m2
+10897@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Banner02.m2
+10898@@@[DNT] [AUTOGEN] 12PM_Primitive_Furniture_Table02.m2
+11140@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack08.m2
+11141@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_RopeKnot01.m2
+11284@@@[DNT] [AUTOGEN] 12BE_BloodElf_Defense_TrainingDummy01.m2
+11285@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack07.m2
+11323@@@[DNT] [AUTOGEN] 12TR_Amani_Crafting_ToolRack02.m2
+11324@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Cauldron01.m2
+11325@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Spit02.m2
+11326@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Cauldron02.m2
+11327@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_LoaTrinket03.m2
+11328@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_Banner01.m2
+11329@@@[DNT] [AUTOGEN] 12PM_Primitive_Ritual_Incense01.m2
+11330@@@[DNT] [AUTOGEN] 12PM_Primitive_Structure_SmallTent01.m2
+11331@@@[DNT] [AUTOGEN] 12PM_Primitive_Structure_Awning02.m2
+11332@@@[DNT] [AUTOGEN] 12PM_Primitive_Structure_SmallTent02.m2
+11333@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_LoaTrinket04.m2
+11334@@@[DNT] [AUTOGEN] 12TR_Amani_Cooking_Cauldron03.m2
+11468@@@[DNT] [AUTOGEN] 12PM_Primitive_Structure_Awning01.m2
+11470@@@[DNT] [AUTOGEN] 12BE_BloodElf_Special_EnergyFocus02.m2
+11504@@@[DNT] [AUTOGEN] 12PM_Primitive_Storage_Sack02.m2
+11505@@@[DNT] [AUTOGEN] 12PM_Primitive_Structure_SmallTent03.m2
+11506@@@[DNT] [AUTOGEN] 12PM_Primitive_Storage_Sack01.m2
+11509@@@[DNT] [AUTOGEN] 12XP_Generic_Furniture_Canvas03.m2
+11510@@@[DNT] [AUTOGEN] 12XP_Generic_Furniture_Canvas02.m2
+11726@@@[DNT] [AUTOGEN] 12PM_Primitive_Cooking_Cauldron01.m2
+11780@@@[DNT] [AUTOGEN] 12PM_Primitive_Storage_Urn04.m2
+11935@@@[DNT] [AUTOGEN] TAURENSIGNPOST01.M2
+11936@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_LoaTrinket01.m2
+11937@@@[DNT] [AUTOGEN] 12PM_Primitive_Ritual_Effigy04.m2
+11938@@@[DNT] [AUTOGEN] 12PM_Primitive_Ritual_Effigy05.m2
+11939@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Banner03.m2
+11940@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Statue01.m2
+12140@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_HangingTrinket01.m2
+12141@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_HangingTrinket02.m2
+12142@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_HangingTrinket03.m2
+12143@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_HangingTrinket04.m2
+12144@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack01.m2
+12145@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack03.m2
+12146@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope01.m2
+12147@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope02.m2
+12148@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope03.m2
+12149@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope04.m2
+12150@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope05.m2
+12151@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope06.m2
+12152@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope07.m2
+12153@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope08.m2
+12154@@@[DNT] [AUTOGEN] 12TR_Amani_Lighting_TableLamp01.m2
+12155@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope02_NoAnim.m2
+12156@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope03_NoAnim.m2
+12157@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope04_NoAnim.m2
+12158@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope05_NoAnim.m2
+12159@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope08_NoAnim.m2
+12160@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope09_NoAnim.m2
+12166@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope09.m2
+12167@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope07_NoAnim.m2
+12168@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope10_Long_NoAnim.m2
+12169@@@[DNT] [AUTOGEN] 12PH_Folk_Barrel02.m2
+12170@@@[DNT] [AUTOGEN] 12PH_Folk_Barrel02_Open.m2
+12171@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Chair01.m2
+12172@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_Window01.m2
+12173@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_Gazebo01.m2
+12174@@@[DNT] [AUTOGEN] 12PH_Folk_Bed_Small01.m2
+12189@@@[DNT] [AUTOGEN] 12ELW_Elwynn_Autumn_Tree_Apple_D01.m2
+12190@@@[DNT] [AUTOGEN] 12ELW_Elwynn_Autumn_Tree_Apple_D02.m2
+12199@@@[DNT] [AUTOGEN] 12PH_Folk_Bathtub01_Empty.m2
+12213@@@[DNT] [AUTOGEN] 12PM_Primitive_Storage_Urn03.m2
+12214@@@[DNT] [AUTOGEN] 12PH_Folk_Bench_Long01.m2
+12215@@@[DNT] [AUTOGEN] 12PH_Folk_Crate02.m2
+12216@@@[DNT] [AUTOGEN] 12PM_Primitive_Ritual_Incense02.m2
+12219@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Shelf01.m2
+12221@@@[DNT] [AUTOGEN] 12PM_Primitive_Lighting_Brazier01.m2
+12222@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_HangingRope01_NoAnim.m2
+12223@@@[DNT] [AUTOGEN] 12PH_Shop_Spring_GardenGnome_Fountain01.m2
+12224@@@[DNT] [AUTOGEN] 12PM_Primitive_Lighting_Brazier01_Unlit.m2
+12225@@@[DNT] [AUTOGEN] 12PM_Primitive_Ritual_StoneAltar01.m2
+12263@@@[DNT] [AUTOGEN] 12PH_BrawlersGuild_Punchingbag01.m2
+12284@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack02.m2
+12285@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_Rug02.m2
+12286@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack09.m2
+12287@@@[DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack10.m2
+12419@@@[DNT] [AUTOGEN] 12PM_Primitive_Ritual_Effigy02.m2
+14204@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_LoaMask_Eagle01.m2
