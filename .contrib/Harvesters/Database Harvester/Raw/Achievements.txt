@@ -16723,6 +16723,11 @@
 61406@@@WoW's 21st Anniversary
 11.2.5.62940
 61339@@@Putting the Finite in Infinite
+11.2.5.63906
+61874@@@The Unbound Tank
+61875@@@The Unbound Healer
+61876@@@The Unbound Damage Dealer
+61877@@@The Unbound Dungeon Master
 12.0.0.63534
 158@@@Me and the Cappin' Makin' It Happen
 11558@@@The First Rule of Brawler's Guild (Season 3)

@@ -2326,6 +2326,8 @@
 1247662@@@Brewfest Bomber
 11.2.5.63796
 1233925@@@Lana'thel's Crimson Cascade
+11.2.5.63906
+1256677@@@Cobalt Phase-Hunter
 12.0.0.63534
 447173@@@Elder Glowmite
 451487@@@Retrained Skyrazor

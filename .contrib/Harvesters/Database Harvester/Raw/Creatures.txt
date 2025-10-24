@@ -23011,6 +23011,8 @@
 251822@@@Bundled-Up Bob
 11.2.5.63092
 254359@@@Lil' Ashlee
+11.2.5.63906
+253016@@@Exodar Miniature
 12.0.0.63534
 114955@@@Dole Dastardly
 143622@@@Ancient Imp
