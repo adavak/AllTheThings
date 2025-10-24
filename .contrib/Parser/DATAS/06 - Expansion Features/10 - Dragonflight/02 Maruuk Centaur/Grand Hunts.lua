@@ -12,7 +12,7 @@ GRAND_HUNTS = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(MARUUK_CENTAUR, {
+	header(HEADERS.Faction, FACTION_MARUUK_CENTAUR, {
 		n(GRAND_HUNTS, bubbleDownSelf({ ["minReputation"] = { FACTION_MARUUK_CENTAUR, 5 } }, {
 			n(ACHIEVEMENTS, {
 				ach(16544),	-- Grand Hunter
@@ -396,7 +396,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(MARUUK_CENTAUR, {
+	header(HEADERS.Faction, FACTION_MARUUK_CENTAUR, {
 		n(GRAND_HUNTS, {
 			q(70004),	-- First time?
 			q(70003),	-- First time Epic Grand Hunt

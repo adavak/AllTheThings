@@ -11,7 +11,7 @@ ISKAARA_FISHING = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		n(ISKAARA_FISHING, bubbleDownSelf({ ["minReputation"] = { FACTION_ISKAARA_TUSKARR, 4 } }, {
 			n(ACHIEVEMENTS, {
 				ach(16531),	-- A Whole Heap of Lunkers
@@ -570,7 +570,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		n(ISKAARA_FISHING, {
 			n(QUESTS, {
 				q(74370),	-- First weekly completion of 'Contribute Supplies: Battered Imbu-made Net'

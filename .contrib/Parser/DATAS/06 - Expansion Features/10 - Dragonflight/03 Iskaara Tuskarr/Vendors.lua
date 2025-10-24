@@ -20,7 +20,7 @@ local THOUSANDBITE_PIRANHA = 194966;
 local TUFT_OF_PRIMAL_WOOL = 201405;
 local WILDERCLOTH = 193050;
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		n(VENDORS, {
 			n(186449, {	-- Arvik
 				["coord"] = { 12.9, 48.8, THE_AZURE_SPAN },

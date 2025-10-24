@@ -2,7 +2,7 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		q(70893, bubbleDownSelf({ ["minReputation"] = { FACTION_ISKAARA_TUSKARR, 3 } }, {	-- Community Feast
 			["provider"] = { "n", 196620 },	-- Pleeqi
 			["coord"] = { 13.5, 48.5, THE_AZURE_SPAN },
@@ -98,7 +98,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		header(HEADERS.Quest, 70893, {	-- Community Feast
 			q(70925),	-- triggers repeatedly during 'Community Feast' (70925) to show in objective pane
 			q(74382),	-- catching a 'Gungle' / purchasing 'Piping Hot Orca Milk' during Community Feast event

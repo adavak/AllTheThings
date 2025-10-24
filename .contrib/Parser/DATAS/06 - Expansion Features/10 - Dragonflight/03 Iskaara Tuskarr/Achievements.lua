@@ -2,8 +2,10 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
-		faction(FACTION_ISKAARA_TUSKARR),
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
+		faction(FACTION_ISKAARA_TUSKARR, {
+			["icon"] = 4687629,
+		}),
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_6 } }, {
 			ach(19482, {	-- Army of the Fed
 				-- Meta Achievement

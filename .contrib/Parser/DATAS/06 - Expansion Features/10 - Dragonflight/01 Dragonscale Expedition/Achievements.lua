@@ -2,8 +2,10 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONSCALE_EXPEDITION, {
-		faction(FACTION_DRAGONSCALE_EXPEDITION),
+	header(HEADERS.Faction, FACTION_DRAGONSCALE_EXPEDITION, {
+		faction(FACTION_DRAGONSCALE_EXPEDITION, {
+			["icon"] = 4687628,
+		}),
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_6 } }, {
 			ach(16522, {	-- A True Explorer
 				["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 25 },	-- Dragonscale Expedition Renown 25

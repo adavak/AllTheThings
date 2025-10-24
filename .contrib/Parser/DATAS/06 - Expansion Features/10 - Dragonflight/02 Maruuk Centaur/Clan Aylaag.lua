@@ -17,7 +17,7 @@ CLAN_AYLAAG = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(MARUUK_CENTAUR, {
+	header(HEADERS.Faction, FACTION_MARUUK_CENTAUR, {
 		n(CLAN_AYLAAG, bubbleDownSelf({ ["minReputation"] = { FACTION_MARUUK_CENTAUR, 4 } }, {
 			n(ACHIEVEMENTS, {
 				ach(16462, {	-- The Ohn'ahran Trail
@@ -153,7 +153,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(MARUUK_CENTAUR, {
+	header(HEADERS.Faction, FACTION_MARUUK_CENTAUR, {
 		n(CLAN_AYLAAG, {
 			q(70922),	-- A > B Reward Test (Mini Boss Steps)
 			q(66578),	-- A > B Reward Test (Low Health)

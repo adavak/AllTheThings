@@ -9,7 +9,7 @@ CARTOGRAPHERS_FLAG = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONSCALE_EXPEDITION, {
+	header(HEADERS.Faction, FACTION_DRAGONSCALE_EXPEDITION, {
 		n(CARTOGRAPHERS_FLAG, bubbleDownSelf({ ["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 7 } }, {
 			n(ACHIEVEMENTS, {
 				ach(15890, {	-- Dragonscale Expedition: The Highest Peaks

@@ -2,7 +2,7 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(VALDRAKKEN_ACCORD, {
+	header(HEADERS.Faction, FACTION_VALDRAKKEN_ACCORD, {
 		n(RENOWN, {
 			n(QUESTS, bubbleDownRep(FACTION_VALDRAKKEN_ACCORD, {
 				{		-- RENOWN 1 --
@@ -1127,7 +1127,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(VALDRAKKEN_ACCORD, {
+	header(HEADERS.Faction, FACTION_VALDRAKKEN_ACCORD, {
 		n(QUESTS, {
 			q(72403),	-- triggered when reaching renown 12 with Valdrakken Accord
 			q(72404),	-- triggered when reaching renown 19 with Valdrakken Accord

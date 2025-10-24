@@ -9,7 +9,7 @@ CATALOGING = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONSCALE_EXPEDITION, {
+	header(HEADERS.Faction, FACTION_DRAGONSCALE_EXPEDITION, {
 		n(CATALOGING, bubbleDownSelf({ ["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 8 } }, {
 			n(ACHIEVEMENTS, {
 				achpart(16572, 16570),	-- Legendary Photograph

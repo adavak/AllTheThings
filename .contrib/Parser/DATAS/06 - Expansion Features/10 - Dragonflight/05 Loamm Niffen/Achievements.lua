@@ -2,9 +2,11 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
-	n(LOAMM_NIFFEN, {
-		header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
-			faction(FACTION_LOAMM_NIFFEN),
+	header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
+		faction(FACTION_LOAMM_NIFFEN, {
+			["icon"] = 5140835,
+		}),
+		n(ACHIEVEMENTS, {
 			ach(17756, {	-- Friends in Loamm Places
 				["minReputation"] = { FACTION_LOAMM_NIFFEN, 15 },	-- Loamm Niffen Renown 15
 				["timeline"] = { ADDED_10_2_0, REMOVED_11_0_7 }
@@ -29,4 +31,4 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			}),
 		}),
 	}),
-})));
+})))

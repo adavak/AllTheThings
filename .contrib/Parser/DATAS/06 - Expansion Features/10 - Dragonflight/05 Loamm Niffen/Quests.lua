@@ -2,7 +2,7 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
-	n(LOAMM_NIFFEN, {
+	header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
 		n(RENOWN, {
 			n(QUESTS, bubbleDownRep(FACTION_LOAMM_NIFFEN, {
 				{		-- RENOWN 1 --
@@ -301,7 +301,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
-	n(LOAMM_NIFFEN, {
+	header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
 		n(QUESTS, {
 			q(76208),	-- Triggered at Renown 3
 			q(76209),	-- Triggered at Renown 3

@@ -9,7 +9,7 @@ CLIMBING = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONSCALE_EXPEDITION, {
+	header(HEADERS.Faction, FACTION_DRAGONSCALE_EXPEDITION, {
 		n(CLIMBING, bubbleDownSelf({ ["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 6 } }, {
 			n(ACHIEVEMENTS, {
 				ach(16625),	-- Belay On!
@@ -108,7 +108,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONSCALE_EXPEDITION, {
+	header(HEADERS.Faction, FACTION_DRAGONSCALE_EXPEDITION, {
 		n(CLIMBING, {
 			q(72560),	-- Triggered after completing Climb Every Mountain (questID 65421)
 			q(71997),	-- looted bonus supplies (Enchanted Compass) while on climbing WQ (66070)

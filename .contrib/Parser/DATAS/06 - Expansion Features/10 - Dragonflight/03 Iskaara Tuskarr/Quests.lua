@@ -2,7 +2,7 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		n(RENOWN, {
 			n(QUESTS, bubbleDownRep(FACTION_ISKAARA_TUSKARR, {
 				{		-- RENOWN 1 --
@@ -722,7 +722,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(ISKAARA_TUSKARR, {
+	header(HEADERS.Faction, FACTION_ISKAARA_TUSKARR, {
 		n(QUESTS, {
 			q(72781),	-- Triggered with 'Tuskarr Fishing Gear' (questID 71230) (spellID 397063)
 			q(71184),	-- Triggered with 'While the Iron Is Hot' (questID 66444) (spellID 390818)

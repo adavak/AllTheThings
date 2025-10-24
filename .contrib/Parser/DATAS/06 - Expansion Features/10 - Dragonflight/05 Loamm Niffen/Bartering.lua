@@ -28,7 +28,7 @@ BARTERING = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
-	n(LOAMM_NIFFEN, {
+	header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
 		n(BARTERING, bubbleDownSelf({ ["minReputation"] = { FACTION_LOAMM_NIFFEN, 3 } }, {
 			n(ACHIEVEMENTS, {
 				ach(17841, {	-- Pyramid Scheme

@@ -2,7 +2,7 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
-	n(LOAMM_NIFFEN, {
+	header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
 		header(HEADERS.Faction, FACTION_GLIMMEROGG_RACER, bubbleDownSelf({ ["minReputation"] = { FACTION_LOAMM_NIFFEN, 7 } }, {
 			faction(FACTION_GLIMMEROGG_RACER),
 			n(ACHIEVEMENTS, {
@@ -133,7 +133,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
-	n(LOAMM_NIFFEN, {
+	header(HEADERS.Faction, FACTION_LOAMM_NIFFEN, {
 		header(HEADERS.Faction, FACTION_GLIMMEROGG_RACER, {
 			n(QUESTS, {
 				q(75710),	-- After turn in 'A Race To The Finish' (questID 75662) (spellID 409255)

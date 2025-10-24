@@ -13,7 +13,7 @@ local TUFT_OF_PRIMAL_WOOL = 201405;
 local WILDERCLOTH = 193050;
 local WILDERTHREAD = 192096;
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONSCALE_EXPEDITION, {
+	header(HEADERS.Faction, FACTION_DRAGONSCALE_EXPEDITION, {
 		n(VENDORS, {
 			n(189065, {	-- Boss Magor
 				["coord"] = { 46.9, 82.9, THE_WAKING_SHORES },

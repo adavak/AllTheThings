@@ -12,8 +12,10 @@ DREAM_INFUSION = createHeader({
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }, {
-	n(DREAM_WARDENS, {
-		faction(FACTION_DREAM_WARDENS),
+	header(HEADERS.Faction, FACTION_DREAM_WARDENS, {
+		faction(FACTION_DREAM_WARDENS, {
+			["icon"] = 5244643,
+		}),
 		n(ACHIEVEMENTS, {
 			ach(19230, {	-- Friends in the Dream
 				["minReputation"] = { FACTION_DREAM_WARDENS, 15 },	-- Dream Wardens Renown 15
@@ -508,7 +510,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 	m(DRAGON_ISLES, {
-		n(DREAM_WARDENS, {
+		header(HEADERS.Faction, FACTION_DREAM_WARDENS, {
 			n(DREAM_INFUSION, {
 				-- TODO: these unlock questIDs can be provided by Wago data as to which Battle Pet items unlock them
 				-- so perhaps restructure into real HQTs that contain the relevant vendor pets?

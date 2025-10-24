@@ -2,7 +2,7 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(MARUUK_CENTAUR, {
+	header(HEADERS.Faction, FACTION_MARUUK_CENTAUR, {
 		n(RENOWN, {
 			n(QUESTS, bubbleDownRep(FACTION_MARUUK_CENTAUR, {
 				{		-- RENOWN 1 --
@@ -497,7 +497,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(MARUUK_CENTAUR, {
+	header(HEADERS.Faction, FACTION_MARUUK_CENTAUR, {
 		n(QUESTS, {
 			q(72778),	-- triggered with 'Call of the Plains' (questID 71229) (spellID 397059)
 			q(72737),	-- triggered with 'Call of the Hunt' (questID 71231) (spellID 396944)
