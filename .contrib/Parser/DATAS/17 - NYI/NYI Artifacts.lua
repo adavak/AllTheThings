@@ -1383,6 +1383,55 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(286978),	-- Warswords of the Valarjar
 					itemsource(286979),	-- Warswords of the Valarjar
 					itemsource(286980),	-- Warswords of the Valarjar
+					-- Unknown slot type
+					i(238199),	-- Warswords of the Valarjar
+					itemsource(287361),	-- Warswords of the Valarjar
+					itemsource(287362),	-- Warswords of the Valarjar
+					itemsource(287363),	-- Warswords of the Valarjar
+					itemsource(287364),	-- Warswords of the Valarjar
+					itemsource(287365),	-- Warswords of the Valarjar
+					itemsource(287366),	-- Warswords of the Valarjar
+					itemsource(287367),	-- Warswords of the Valarjar
+					itemsource(287368),	-- Warswords of the Valarjar
+					itemsource(287369),	-- Warswords of the Valarjar
+					itemsource(287370),	-- Warswords of the Valarjar
+					itemsource(287371),	-- Warswords of the Valarjar
+					itemsource(287372),	-- Warswords of the Valarjar
+					itemsource(287373),	-- Warswords of the Valarjar
+					itemsource(287374),	-- Warswords of the Valarjar
+					itemsource(287375),	-- Warswords of the Valarjar
+					itemsource(287376),	-- Warswords of the Valarjar
+					itemsource(287377),	-- Warswords of the Valarjar
+					itemsource(287378),	-- Warswords of the Valarjar
+					itemsource(287379),	-- Warswords of the Valarjar
+					itemsource(287380),	-- Warswords of the Valarjar
+					itemsource(287381),	-- Warswords of the Valarjar
+					itemsource(287382),	-- Warswords of the Valarjar
+					itemsource(287383),	-- Warswords of the Valarjar
+					i(238200), -- Warswords of the Valarjar
+					itemsource(287385),	-- Warswords of the Valarjar
+					itemsource(287386),	-- Warswords of the Valarjar
+					itemsource(287387),	-- Warswords of the Valarjar
+					itemsource(287388),	-- Warswords of the Valarjar
+					itemsource(287389),	-- Warswords of the Valarjar
+					itemsource(287390),	-- Warswords of the Valarjar
+					itemsource(287391),	-- Warswords of the Valarjar
+					itemsource(287392),	-- Warswords of the Valarjar
+					itemsource(287393),	-- Warswords of the Valarjar
+					itemsource(287394),	-- Warswords of the Valarjar
+					itemsource(287395),	-- Warswords of the Valarjar
+					itemsource(287396),	-- Warswords of the Valarjar
+					itemsource(287397),	-- Warswords of the Valarjar
+					itemsource(287398),	-- Warswords of the Valarjar
+					itemsource(287399),	-- Warswords of the Valarjar
+					itemsource(287400),	-- Warswords of the Valarjar
+					itemsource(287401),	-- Warswords of the Valarjar
+					itemsource(287402),	-- Warswords of the Valarjar
+					itemsource(287403),	-- Warswords of the Valarjar
+					itemsource(287404),	-- Warswords of the Valarjar
+					itemsource(287405),	-- Warswords of the Valarjar
+					itemsource(287406),	-- Warswords of the Valarjar
+					itemsource(287407),	-- Warswords of the Valarjar
 				}),
 				cl(WARRIOR, PROTECTION, {
 					-- Main hand

@@ -5497,8 +5497,6 @@ root(ROOTS.Unsorted, {
 			i(237769),	-- Xenedar Gem Fragment
 			i(237770),	-- Rusting Chain of Ancient Hunger
 			i(237771),	-- Skrog Tooth
-			i(238199),	-- TEST ITEM
-			i(238200),	-- TEST ITEM
 			i(238452),	-- [DNT] Normal Token
 			i(238453),	-- [DNT] Rare Token
 			i(238454),	-- [DNT] Rare Elite Token
