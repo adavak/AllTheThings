@@ -105,25 +105,20 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 236542 },	-- Lady Liadrin
 						["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
 					}),
-					--[[q(??, {	-- Alex TODO: missed to copy-paste questID from chat .-.
+					q(86718, {	-- Twilight Bled
 						["sourceQuests"] = {
 							86716,	-- Armed by Light
 							86721,	-- Everything We Worked For
 						},
-						},
-						},
-						},
-						},
-						},
 						["provider"] = { "n", 236541 },	-- Zul'jarra
-						--["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
+						["coord"] = { 23.1, 79.8, 2536 },	-- Atal'Aman
 						["groups"] = {
 							i(260470),	-- Bloodspattered Bindings
 							i(260469),	-- Bloodspattered Cuffs
 							i(260468),	-- Bloodspattered Shackles
 							i(260471),	-- Bloodspattered Wraps
 						},
-					}),]]--
+					}),
 					q(86720, {	-- Break the Blade
 						["sourceQuests"] = {
 							86712,	-- The Amani Stand Strong
