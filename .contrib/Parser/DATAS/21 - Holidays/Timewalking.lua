@@ -6454,51 +6454,51 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			e(1718, {	-- Patrol Captain Gerdo
 				["crs"] = { 104215 },	-- Patrol Captain Gerdo
 				["sym"] = {{"select", "modItemID",
-					modItemId(134268,1),	-- Arcane Defender's Gauntlets
-					modItemId(134415,1),	-- Arcanist's Resonant Robes
-					modItemId(137483,1),	-- Cape of the Duskwatch
-					modItemId(137482,1),	-- Duskwatch Guard's Boots
-					modItemId(134480,1),	-- Epaulets of Deceitful Intent
-					modItemId(137484,1),	-- Flask of the Solemn Night
-					modItemId(137480,1),	-- Guileful Intruder Handguards
-					modItemId(134296,1),	-- Ley Dragoon's Wristbraces
-					modItemId(134308,1),	-- Manawracker Sandals
-					modItemId(134280,1),	-- Swordsinger's Wristguards
+					modItemId(134268,2),	-- Arcane Defender's Gauntlets
+					modItemId(134415,2),	-- Arcanist's Resonant Robes
+					modItemId(137483,2),	-- Cape of the Duskwatch
+					modItemId(137482,2),	-- Duskwatch Guard's Boots
+					modItemId(134480,2),	-- Epaulets of Deceitful Intent
+					modItemId(137484,2),	-- Flask of the Solemn Night
+					modItemId(137480,2),	-- Guileful Intruder Handguards
+					modItemId(134296,2),	-- Ley Dragoon's Wristbraces
+					modItemId(134308,2),	-- Manawracker Sandals
+					modItemId(134280,2),	-- Swordsinger's Wristguards
 				}},
 			}),
 			e(1719, {	-- Talixae Flamewreath
 				["crs"] = { 104217 },	-- Talixae Flamewreath
 				["sym"] = {{"select", "modItemID",
-					modItemId(134529,1),	-- Chain of Scorched Bones
-					modItemId(134473,1),	-- Collar of Fiery Allegiance
-					modItemId(137488,1),	-- Cord of Wicked Pyromania
-					modItemId(134374,1),	-- Felbat Leather Pauldrons
-					modItemId(134460,1),	-- Fevermelt Legguards
-					modItemId(137485,1),	-- Infernal Writ
-					modItemId(134503,1),	-- Inferno Breastplate
-					modItemId(134385,1),	-- Mardum Chain Gloves
-					modItemId(134392,1),	-- Netherwhisper Hood
-					modItemId(134360,1),	-- Portalguard Shoulders
+					modItemId(134529,2),	-- Chain of Scorched Bones
+					modItemId(134473,2),	-- Collar of Fiery Allegiance
+					modItemId(137488,2),	-- Cord of Wicked Pyromania
+					modItemId(134374,2),	-- Felbat Leather Pauldrons
+					modItemId(134460,2),	-- Fevermelt Legguards
+					modItemId(137485,2),	-- Infernal Writ
+					modItemId(134503,2),	-- Inferno Breastplate
+					modItemId(134385,2),	-- Mardum Chain Gloves
+					modItemId(134392,2),	-- Netherwhisper Hood
+					modItemId(134360,2),	-- Portalguard Shoulders
 				}},
 			}),
 			e(1720, {	-- Advisor Melandrus
 				["crs"] = { 104218 },	-- Advisor Melandrus
 				["sym"] = {{"select", "modItemID",
-					modItemId(134432,1),	-- Amice of the Unfurling Tempest
-					modItemId(134271,1),	-- Arcane Defender's Pants
-					modItemId(137489,1),	-- Arcane-Bound Gale Chain
-					modItemId(137497,1),	-- Footpads of the Swift Balestra
-					modItemId(134513,1),	-- Helmet of Reverent Loyalty
-					modItemId(134542,1),	-- Jeweled Signet of Melandrus
-					modItemId(134298,1),	-- Ley Dragoon's Stompers
-					modItemId(137498,1),	-- Luminous Bladesworn Hauberk
-					modItemId(134310,1),	-- Manawracker Bindings
-					modItemId(137499,1),	-- Roaring Breeze Waistguard
-					modItemId(137487,1),	-- Strand of the Stars
-					modItemId(137496,1),	-- Suramar Magistrate Leggings
-					modItemId(134287,1),	-- Swordsinger's Belt
-					modItemId(134447,1),	-- Veil of Unseen Strikes
-					modItemId(137486,1),	-- Windscar Whetstone
+					modItemId(134432,2),	-- Amice of the Unfurling Tempest
+					modItemId(134271,2),	-- Arcane Defender's Pants
+					modItemId(137489,2),	-- Arcane-Bound Gale Chain
+					modItemId(137497,2),	-- Footpads of the Swift Balestra
+					modItemId(134513,2),	-- Helmet of Reverent Loyalty
+					modItemId(134542,2),	-- Jeweled Signet of Melandrus
+					modItemId(134298,2),	-- Ley Dragoon's Stompers
+					modItemId(137498,2),	-- Luminous Bladesworn Hauberk
+					modItemId(134310,2),	-- Manawracker Bindings
+					modItemId(137499,2),	-- Roaring Breeze Waistguard
+					modItemId(137487,2),	-- Strand of the Stars
+					modItemId(137496,2),	-- Suramar Magistrate Leggings
+					modItemId(134287,2),	-- Swordsinger's Belt
+					modItemId(134447,2),	-- Veil of Unseen Strikes
+					modItemId(137486,2),	-- Windscar Whetstone
 				}},
 			}),
 		}),
