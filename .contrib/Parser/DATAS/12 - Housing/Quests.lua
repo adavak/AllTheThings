@@ -5,6 +5,15 @@ root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 	n(QUESTS, {
 		header(HEADERS.Quest, 92991, {	-- Decor Treasure Hunt
 			-- TODO: Quest names are temp (Most likely)
+			q(92961, {	-- Decor Treasure Hunt
+				["groups"] = { i(245384) },	-- Sturdy Wooden Shelf (DECOR!)
+			}),
+			q(92967, {	-- Decor Treasure Hunt
+				["groups"] = { i(236678) },	-- Stormwind Interior Doorway (DECOR!)
+			}),
+			q(92979, {	-- Decor Treasure Hunt
+				["groups"] = { i(245334) },	-- Wicker Basket (DECOR!)
+			}),
 			q(92991, {	-- Decor Treasure Hunt
 				["groups"] = { i(246254) },	-- Bel'ameth Beam Platform (DECOR!)
 			}),
@@ -14,8 +23,26 @@ root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			q(93141, {	-- Decor Treasure Hunt
 				["groups"] = { i(251981) },	-- Elegant Elven Chandelier (DECOR!)
 			}),
+			q(92437, {	-- Decor Treasure Hunt 01
+				["groups"] = { i(245375) },	-- Sturdy Wooden Bookcase (DECOR!)
+			}),
+			q(92962, {	-- Decor Treasure Hunt 03
+				["groups"] = { i(245355) },	-- Sturdy Wooden Door (DECOR!)
+			}),
+			q(92963, {	-- Decor Treasure Hunt 04
+				["groups"] = { i(245356) },	-- Goldshire Window (DECOR!)
+			}),
+			q(92964, {	-- Decor Treasure Hunt 05
+				["groups"] = { i(245376) },	-- Tall Sturdy Wooden Bookcase (DECOR!)
+			}),
 			q(92965, {	-- Decor Treasure Hunt 06
 				["groups"] = { i(235523) },	-- Sturdy Wooden Chair (DECOR!)
+			}),
+			q(92966, {	-- Decor Treasure Hunt 07
+				["groups"] = { i(236676) },	-- Stormwind Interior Narrow Wall (DECOR!)
+			}),
+			q(92968, {	-- Decor Treasure Hunt 09
+				["groups"] = { i(236677) },	-- Stormwind Interior Wall (DECOR!)
 			}),
 			q(92969, {	-- Decor Treasure Hunt 10
 				["groups"] = { i(242951) },	-- Sturdy Wooden Bench (DECOR!)
@@ -23,17 +50,50 @@ root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			q(92978, {	-- Decor Treasure Hunt 12
 				["groups"] = { i(243334) },	-- Reinforced Wooden Chest (DECOR!)
 			}),
-			q(92970, {	-- Decor Treasure Hunt 20
-				["groups"] = { i(246742) },	-- Tall Sturdy Wooden Chair (DECOR!)
+			q(92977, {	-- Decor Treasure Hunt 13
+				["groups"] = { i(245548) },	-- Iron-Reinforced Cupboard (DECOR!)
+			}),
+			q(92973, {	-- Decor Treasure Hunt 17
+				["groups"] = { i(246101) },	-- Small Wooden Stool (DECOR!)
+			}),
+			q(92972, {	-- Decor Treasure Hunt 18
+				["groups"] = { i(246103) },	-- Small Wooden Nightstand (DECOR!)
 			}),
 			q(92971, {	-- Decor Treasure Hunt 19
 				["groups"] = { i(246104) },	-- Carved Wooden Crate (DECOR!)
 			}),
+			q(92970, {	-- Decor Treasure Hunt 20
+				["groups"] = { i(246742) },	-- Tall Sturdy Wooden Chair (DECOR!)
+			}),
+			q(92989, {	-- Decor Treasure Hunt 21
+				["groups"] = { i(253589) },	-- Short Wooden Cabinet (DECOR!)
+			}),
+			q(92988, {	-- Decor Treasure Hunt 22
+				["groups"] = { i(235675) },	-- Three-Candle Wrought Iron Chandelier (DECOR!)
+			}),
+			q(92987, {	-- Decor Treasure Hunt 23
+				["groups"] = { i(235677) },	-- Wrought Iron Floor Lamp (DECOR!)
+			}),
+			q(92986, {	-- Decor Treasure Hunt 24
+				["groups"] = { i(239075) },	-- Wrought Iron Chandelier (DECOR!)
+			}),
 			q(92985, {	-- Decor Treasure Hunt 25
 				["groups"] = { i(246106) },	-- Wooden Chamberstick (DECOR!)
 			}),
+			q(92984, {	-- Decor Treasure Hunt 26
+				["groups"] = { i(245336) },	-- Sturdy Wooden Bed (DECOR!)
+			}),
 			q(92983, {	-- Decor Treasure Hunt 27
 				["groups"] = { i(245372) },	-- Covered Wooden Table (DECOR!)
+			}),
+			q(92982, {	-- Decor Treasure Hunt 28
+				["groups"] = { i(244531) },	-- Sturdy Fireplace (DECOR!)
+			}),
+			q(92981, {	-- Decor Treasure Hunt 29
+				["groups"] = { i(245547) },	-- Wide Charming Couch (DECOR!)
+			}),
+			q(92980, {	-- Decor Treasure Hunt 30
+				["groups"] = { i(245556) },	-- Iron-Reinforced Standing Mirror (DECOR!)
 			}),
 			q(92999, {	-- Decor Treasure Hunt 31
 				["groups"] = { i(245662) },	-- Carved Wooden Bar Table (DECOR!)
@@ -42,6 +102,9 @@ root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				["qg"] = 248854,	-- The Last Architect
 				--["coord"] = { 52.6, 37.5, FOUNDERS_POINT },
 				["groups"] = { i(246102) },	-- Large Covered Wooden Table (DECOR!)
+			}),
+			q(92996, {	-- Decor Treasure Hunt 34
+				["groups"] = { i(246502) },	-- Charming Couch (DECOR!)
 			}),
 			q(92995, {	-- Decor Treasure Hunt 35
 				["groups"] = { i(255650) },	-- Elegant Table Lamp (DECOR!)

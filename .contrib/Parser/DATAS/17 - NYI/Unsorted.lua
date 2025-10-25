@@ -4898,18 +4898,11 @@ root(ROOTS.Unsorted, {
 			i(262648),	-- Yellow Dye Pigment
 			i(262655),	-- Red Dye Pigment
 			i(262656),	-- Orange Dye Pigment
-			i(235633),	-- Circular Woolen Rug
-			i(235675),	-- Three-Candle Wrought Iron Chandelier
-			i(235677),	-- Wrought Iron Floor Lamp
 			i(236653),	-- Orgrimmar Interior Narrow Wall
 			i(236654),	-- Orgrimmar Interior Doorway
 			i(236655),	-- Orgrimmar Interior Wall
 			i(236666),	-- Orgrimmar Round Interior Pillar
 			i(236667),	-- Orgrimmar Square Interior Pillar
-			i(236675),	-- Stormwind Interior Pillar
-			i(236676),	-- Stormwind Interior Narrow Wall
-			i(236677),	-- Stormwind Interior Wall
-			i(236678),	-- Stormwind Interior Doorway
 			i(238857),	-- Moon-Blessed Storage Crate
 			i(238859),	-- Cenarion Privacy Screen
 			i(238860),	-- Deluxe Val'sharah Bed
@@ -4917,7 +4910,6 @@ root(ROOTS.Unsorted, {
 			i(238862),	-- [DNT] Cenarion Round Rug - do not use - new asset
 			i(238863),	-- Kaldorei Desk
 			i(238975),	-- Reliquary Telescope
-			i(239075),	-- Wrought Iron Chandelier
 			i(239162),	-- Wooden Mug
 			i(239170),	-- Dornic Mine and Cheese Platter
 			i(239177),	-- Open Tome of Twilight Nihilism
@@ -4930,7 +4922,6 @@ root(ROOTS.Unsorted, {
 			i(241066),	-- Forsaken Spiked Brazier
 			i(241067),	-- Large Forsaken Spiked Brazier
 			i(241625),	-- Open Elven Wood Crate
-			i(242255),	-- Stormwind Hall Rug
 			i(243088),	-- Standing Ornate Weapon Rack
 			i(243113),	-- Blue Dazar'alor Rug
 			i(243130),	-- Zandalari Weapon Rack
@@ -4947,8 +4938,6 @@ root(ROOTS.Unsorted, {
 			i(244320),	-- Youngling's Courser Toys
 			i(244321),	-- Orcish Lumberjack's Stool
 			i(244322),	-- Frostwolf Banded Stool
-			i(244530),	-- Sturdy Wall Rack
-			i(244531),	-- Sturdy Fireplace
 			i(244532),	-- Rugged Stool
 			i(244533),	-- Iron Chain Chandelier
 			i(244534),	-- Iron-Reinforced Door
@@ -4960,9 +4949,6 @@ root(ROOTS.Unsorted, {
 			i(244661),	-- Tied-Open Leather Curtains
 			i(244662),	-- Closed Leather Curtains
 			i(244663),	-- Leather Valance
-			i(244664),	-- Tied-Open Folk Curtains
-			i(244665),	-- Closed Folk Curtains
-			i(244666),	-- Durable Folk Valance
 			i(244676),	-- Teal Suramar Seat Cushion
 			i(244677),	-- Purple Suramar Seat Cushion
 			i(244678),	-- Small Red Suramar Seat Cushion
@@ -4978,8 +4964,6 @@ root(ROOTS.Unsorted, {
 			i(245264),	-- Round Stitched Cushion
 			i(245265),	-- Stitched Pillow Roll
 			i(245266),	-- Iron-Studded Wooden Window
-			i(245267),	-- Charming Seat Cushion
-			i(245268),	-- Checkered Charming Seat Cushion
 			i(245270),	-- Thunder Totem Kiln
 			i(245275),	-- Rolled Scroll
 			i(245283),	-- Blood Elven Candelabra
@@ -5012,22 +4996,8 @@ root(ROOTS.Unsorted, {
 			i(245328),	-- Small Boxwood Bush
 			i(245329),	-- Small Poppy Cluster
 			i(245333),	-- Shadowforge Wooden Box
-			i(245334),	-- Wicker Basket
-			i(245335),	-- Empty Wicker Basket
-			i(245336),	-- Sturdy Wooden Bed
-			i(245352),	-- Sturdy Wooden Coffin
-			i(245353),	-- Open Wooden Coffin
-			i(245354),	-- Wooden Coffin Lid
-			i(245355),	-- Sturdy Wooden Door
-			i(245356),	-- Goldshire Window
-			i(245358),	-- Small Fruit Platter
 			i(245369),	-- Gift of Gilneas
-			i(245370),	-- Secretive Bookcase Wall
 			i(245371),	-- Charming Laurel Tree
-			i(245375),	-- Sturdy Wooden Bookcase
-			i(245376),	-- Tall Sturdy Wooden Bookcase
-			i(245383),	-- "Sunrise Canyon" Painting
-			i(245384),	-- Sturdy Wooden Shelf
 			i(245392),	-- Sturdy Wooden Interior Pillar
 			i(245393),	-- Plain Interior Wall
 			i(245394),	-- Plain Interior Doorway
@@ -5095,12 +5065,9 @@ root(ROOTS.Unsorted, {
 			i(245533),	-- Rugged Brazier
 			i(245545),	-- Orgrimmar Nightstand
 			i(245546),	-- Durable Wooden Chest
-			i(245547),	-- Wide Charming Couch
-			i(245548),	-- Iron-Reinforced Cupboard
 			i(245549),	-- Trueshot Lodge Fireplace
 			i(245550),	-- Runed Dreamweaver Moonstone
 			i(245555),	-- Orgrimmar Tusked Bed
-			i(245556),	-- Iron-Reinforced Standing Mirror
 			i(245558),	-- Elaborate Suramar Window
 			i(245560),	-- Meadery Ochre Window
 			i(245561),	-- Ornate Ochre Window
@@ -5138,8 +5105,6 @@ root(ROOTS.Unsorted, {
 			i(246089),	-- Bel'ameth Wooden Table
 			i(246091),	-- Bel'ameth Crafter's Tent
 			i(246100),	-- Small Bel'ameth Tent
-			i(246101),	-- Small Wooden Stool
-			i(246103),	-- Small Wooden Nightstand
 			i(246108),	-- Embellished Dwarven Tome
 			i(246110),	-- Filigree Moon Sconce
 			i(246216),	-- Sprouting Lamppost
@@ -5184,7 +5149,6 @@ root(ROOTS.Unsorted, {
 			i(246498),	-- Emergency Warning Lamp
 			i(246499),	-- Mechagon Eyelight Lamp
 			i(246501),	-- Gnomish Safety Flamethrower
-			i(246502),	-- Charming Couch
 			i(246503),	-- Large H.O.M.E. Cog
 			i(246587),	-- Short Orgrimmar Bookcase
 			i(246595),	-- Gnomish Fencepost
@@ -5416,11 +5380,9 @@ root(ROOTS.Unsorted, {
 			i(252404),	-- Hull'n'Home Chair
 			i(252405),	-- Admiral's Low-Hanging Chandelier
 			i(252406),	-- Green Boralus Market Tent
-			i(252417),	-- Plush Cushioned Chair
 			i(252652),	-- Copper Stormsong Well
 			i(252655),	-- Copper Tidesage's Sconce
 			i(252657),	-- Tied-Right Leather Curtains
-			i(252659),	-- Founder's Point Front Door
 			i(252754),	-- Seaworthy Boralus Bell
 			i(252756),	-- Stonelight Countertop
 			i(253020),	-- Earthen Etched Throne
@@ -5438,9 +5400,6 @@ root(ROOTS.Unsorted, {
 			i(253439),	-- Elegant Carved Bench
 			i(253495),	-- Grand Elven Bench
 			i(253527),	-- Goldshire Wardrobe
-			i(253589),	-- Short Wooden Cabinet
-			i(253592),	-- Sturdy Wooden Washbasin
-			i(253593),	-- Sturdy Wooden Bathtub
 			i(254316),	-- Small Orgrimmar Tusked Bed
 			i(254560),	-- Small Razorwind Square Table
 			i(254893),	-- Large Razorwind Gazebo
@@ -5500,7 +5459,6 @@ root(ROOTS.Unsorted, {
 			i(258301),	-- Gilnean Washing Line
 			i(258658),	-- Elwynn Autumn Apple Tree
 			i(258659),	-- Founder's Point Autumn Apple Tree
-			i(258670),	-- Empty Wooden Bathtub
 			i(258765),	-- Hull'n'Home Window
 			i(259071),	-- Brawler's Guild Punching Bag
 			i(260359),	-- Valdrakken Bookcase

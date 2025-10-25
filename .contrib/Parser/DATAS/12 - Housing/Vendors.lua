@@ -155,5 +155,102 @@ root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				i(245551),	-- Worker's Wooden Desk (DECOR!)
 			},
 		}),
+		n(255203, {	-- Xiao Dan <Decor Vendor>
+			--["coord"] = { 52.0, 38.2, FOUNDERS_POINT },
+			["groups"] =  {
+				i(245383),	-- "Sunrise Canyon" Painting (DECOR!)
+				i(246502, {	-- Charming Couch (DECOR!)
+					["sourceQuest"] = 92996,	-- Decor Treasure Hunt 34
+				}),
+				i(245267),	-- Charming Seat Cushion (DECOR!)
+				i(245268),	-- Checkered Charming Seat Cushion (DECOR!)
+				i(235633),	-- Circular Woolen Rug (DECOR!)
+				i(244665),	-- Closed Folk Curtains (DECOR!)
+				i(244666),	-- Durable Folk Valance (DECOR!)
+				i(245335),	-- Empty Wicker Basket (DECOR!)
+				i(258670),	-- Empty Wooden Bathtub (DECOR!)
+				i(252659),	-- Founder's Point Front Door (DECOR!)
+				i(245356, {	-- Goldshire Window (DECOR!)
+					["sourceQuest"] = 92963,	-- Decor Treasure Hunt 04
+				}),
+				i(245548, {	-- Iron-Reinforced Cupboard (DECOR!)
+					["sourceQuest"] = 92977,	-- Decor Treasure Hunt 13
+				}),
+				i(245556, {	-- Iron-Reinforced Standing Mirror (DECOR!)
+					["sourceQuest"] = 92980,	-- Decor Treasure Hunt 30
+				}),
+				i(245353),	-- Open Wooden Coffin (DECOR!)
+				i(252417),	-- Plush Cushioned Chair (DECOR!)
+				i(245370),	-- Secretive Bookcase Wall (DECOR!)
+				i(253589, {	-- Short Wooden Cabinet (DECOR!)
+					["sourceQuest"] = 92989,	-- Decor Treasure Hunt 21
+				}),
+				i(245358),	-- Small Fruit Platter (DECOR!)
+				i(246103, {	-- Small Wooden Nightstand (DECOR!)
+					["sourceQuest"] = 92972,	-- Decor Treasure Hunt 18
+				}),
+				i(246101, {	-- Small Wooden Stool (DECOR!)
+					["sourceQuest"] = 92973,	-- Decor Treasure Hunt 17
+				}),
+				i(246035),	-- Stormwind Angled Platform (DECOR!)
+				i(246031),	-- Stormwind Beam Platform (DECOR!)
+				i(242255),	-- Stormwind Hall Rug (DECOR!)
+				i(236678, {	-- Stormwind Interior Doorway (DECOR!)
+					["sourceQuest"] = 92967,	-- Decor Treasure Hunt
+				}),
+				i(236676, {	-- Stormwind Interior Narrow Wall (DECOR!)
+					["sourceQuest"] = 92966,	-- Decor Treasure Hunt 07
+				}),
+				i(236675),	-- Stormwind Interior Pillar (DECOR!)
+				i(236677, {	-- Stormwind Interior Wall (DECOR!)
+					["sourceQuest"] = 92968,	-- Decor Treasure Hunt 09
+				}),
+				i(246033),	-- Stormwind Large Platform (DECOR!)
+				i(246032),	-- Stormwind Round Platform (DECOR!)
+				i(246034),	-- Stormwind Small Platform (DECOR!)
+				i(244531, {	-- Sturdy Fireplace (DECOR!)
+					["sourceQuest"] = 92982,	-- Decor Treasure Hunt 28
+				}),
+				i(244530),	-- Sturdy Wall Rack (DECOR!)
+				i(253593),	-- Sturdy Wooden Bathtub (DECOR!)
+				i(245336, {	-- Sturdy Wooden Bed (DECOR!)
+					["sourceQuest"] = 92984,	-- Decor Treasure Hunt 26
+				}),
+				i(245375, {	-- Sturdy Wooden Bookcase (DECOR!)
+					["sourceQuest"] = 92437,	-- Decor Treasure Hunt 01
+				}),
+				i(245352),	-- Sturdy Wooden Coffin (DECOR!)
+				i(245355, {	-- Sturdy Wooden Door (DECOR!)
+					["sourceQuest"] = 92962,	-- Decor Treasure Hunt 03
+				}),
+				i(245384, {	-- Sturdy Wooden Shelf (DECOR!)
+					["sourceQuest"] = 92961,	-- Decor Treasure Hunt
+				}),
+				i(253592),	-- Sturdy Wooden Washbasin (DECOR!)
+				i(245376, {	-- Tall Sturdy Wooden Bookcase (DECOR!)
+					["sourceQuest"] = 92964,	-- Decor Treasure Hunt 05
+				}),
+				i(235675, {	-- Three-Candle Wrought Iron Chandelier (DECOR!)
+					["sourceQuest"] = 92988,	-- Decor Treasure Hunt 22
+				}),
+				i(244664),	-- Tied-Open Folk Curtains (DECOR!)
+				i(245334, {	-- Wicker Basket (DECOR!)
+					["sourceQuest"] = 92979,	-- Decor Treasure Hunt
+				}),
+				i(245547, {	-- Wide Charming Couch (DECOR!)
+					["sourceQuest"] = 92981,	-- Decor Treasure Hunt 29
+				}),
+				i(246106, {	-- Wooden Chamberstick (DECOR!)
+					["sourceQuest"] = 92985,	-- Decor Treasure Hunt 25
+				}),
+				i(245354),	-- Wooden Coffin Lid (DECOR!)
+				i(239075, {	-- Wrought Iron Chandelier (DECOR!)
+					["sourceQuest"] = 92986,	-- Decor Treasure Hunt 24
+				}),
+				i(235677, {	-- Wrought Iron Floor Lamp (DECOR!)
+					["sourceQuest"] = 92987,	-- Decor Treasure Hunt 23
+				}),
+			},
+		}),
 	}),
 })));
