@@ -445,6 +445,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
 						["coord"] = { 60.5, 23.6, THE_DREAMGROVE },
 					}),
+					q(91614, {	-- Focusing the Energies (Remix)
+						["sourceQuests"] = { 42046 },	-- A New Beginning
+						["provider"] = { "n", 106250 },	-- Keeper Remulos
+						["coord"] = { 60.5, 23.6, THE_DREAMGROVE },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+					}),
 					q(40834, {	-- Following the Curse
 						["sourceQuests"] = { 40785 },	-- A Foe in the Dark
 						["provider"] = { "n", 100323 },	-- Revil Kost

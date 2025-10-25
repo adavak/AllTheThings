@@ -2101,6 +2101,7 @@ local AccountWideQuestsDB = {
 	92573,	-- Sturdy Chest
 	92626,	-- ??
 	92628,	-- ??
+	92889,	-- Arsenal: Odyn's Spears
 	-- #ENDIF
 }
 

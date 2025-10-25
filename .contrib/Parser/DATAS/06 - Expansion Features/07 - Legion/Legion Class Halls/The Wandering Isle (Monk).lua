@@ -573,6 +573,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41040 },	-- Halls of Valor: The Brewmaster
 						["provider"] = { "n", 103049 },	-- Melba
 						["maps"] = { 703, 704, 705 },	-- Halls of Valor
+						["groups"] = {
+							o(246953, {	-- Odyn's Cauldron
+								i(134005),	-- Odyn's Cauldron (QI!)
+							}),
+						},
 					}),
 					q(32442, {	-- Impending Danger
 						["sourceQuests"] = {

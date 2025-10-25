@@ -70,7 +70,10 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["timeline"] = { ADDED_5_3_0, REMOVED_8_3_0 },
 				}),
 				ach(8354, {		-- Puddle Jumper
-					["timeline"] = { ADDED_5_3_0, REMOVED_8_3_0 },
+					-- #if AFTER 8.3.0
+					["description"] = "Post-rework, this is only obtainable in the Deepwind Dunk brawl.",
+					-- #endif
+					["timeline"] = { ADDED_5_3_0 },
 				}),
 				ach(8355, {		-- Weighed Down
 					["timeline"] = { ADDED_5_3_0, REMOVED_8_3_0 },

@@ -556,6 +556,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41773 },	-- The Firelord's Command
 						["provider"] = { "n", 105120 },	-- Lord Smolderon
 						["maps"] = { THE_HEART_OF_AZEROTH_FIRELANDS },	-- Firelands (Scenario Map)
+						["groups"] = {
+							o(248868, {	-- Emberscar, Brand of Damnation
+								["coord"] = { 21.5, 36.2, THE_HEART_OF_AZEROTH_FIRELANDS },
+								["groups"] = { i(136604) },	-- Emberscar, Brand of Damnation (QI!)
+							}),
+						},
 					}),
 					q(41888, {	-- Allegiance of Flame
 						["sourceQuests"] = { 41934 },	-- The Brand of Damnation

@@ -1099,11 +1099,9 @@ root(ROOTS.Zones, {
 					["provider"] = { "o", 252260 },	-- Leyline Feed
 					["coords"] = {
 						{ 35.7, 24.2, SURAMAR },	-- cave entrance
-						{ 54.2, 45.5, 689 },
+						{ 54.2, 45.5, 689 },	-- Ley Station Moonfall
 					},
-					["groups"] = {
-						i(140317),	-- Broken Leydar Dish (QI!)
-					},
+					["groups"] = { i(140317) },	-- Broken Leydar Dish (QI!)
 				}),
 				q(44495, {	-- Leyline Master
 					["sourceQuests"] = {

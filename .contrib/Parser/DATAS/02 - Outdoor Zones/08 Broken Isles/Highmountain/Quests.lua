@@ -559,6 +559,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39780 },	-- The Underking
 					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["coord"] = { 53.1, 70.1, HIGHMOUNTAIN },
+					["groups"] = { i(128765) },	-- Hammer of Khaz'goroth (QI!)
 				}),
 				q(39859, {	-- Note-Eating Goats
 					["sourceQuests"] = {

@@ -584,6 +584,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43090,	-- Ulduar's Oath
 						["provider"] = { "n", 96469 },	-- Odyn
 						["coord"] = { 58.3, 84.6, SKYHOLD },
+						["groups"] = { i(138817) },	-- Demonic Runestone (QI!)
 					}),
 					q(43506, {	-- Black Rook Hold: Greater Power
 						["sourceQuests"] = {
@@ -593,6 +594,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 96469 },	-- Odyn
 						["coord"] = { 58.3, 84.6, SKYHOLD },
 						["maps"] = { 751, 752, 753, 754, 755, 756 },	-- Black Rook Hold
+						["groups"] = { i(139453) },	-- Greater Demonic Runestone (QI!)
 					}),
 					q(43577, {	-- Capturing the Gateway
 						["sourceQuest"] = 43506,	-- Black Rook Hold: Greater Power

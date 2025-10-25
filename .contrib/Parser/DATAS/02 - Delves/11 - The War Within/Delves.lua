@@ -3350,7 +3350,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			filter(MISC, {
 				i(210970),	-- Crumbled Keepsake (QI!)
-				i(210981),	-- Kriegval's Helm (QI!)
+				o(412967, {	-- Helm of Memories
+					i(210981),	-- Kriegval's Helm (QI!)
+				}),
 				i(244903, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Charged Touch (CI!)
 				i(211209),	-- Suspicious Candle (QI!)
 			}),

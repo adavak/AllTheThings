@@ -621,6 +621,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43379 },	-- Velen's Vision
 						["provider"] = { "n", 110571 },	-- Delas Moonfang
 						["coord"] = { 48.9, 48.7, NETHERLIGHT_TEMPLE },
+						["groups"] = { i(138817) },	-- Demonic Runestone (QI!)
 					}),
 					q(43378, {	-- Eye of Azshara: Looking Through the Lens
 						["sourceQuests"] = {
