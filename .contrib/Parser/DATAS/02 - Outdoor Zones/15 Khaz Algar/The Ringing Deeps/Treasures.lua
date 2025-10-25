@@ -51,6 +51,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["description"] = "Spawns randomly throughout the zone.",
 				["maps"] = { THE_RINGING_DEEPS },
 			}),
+			o(452697, {	-- Etched Machine Speaker's Reliquary
+				["description"] = "Spawns randomly throughout the zone.",
+				["maps"] = { THE_RINGING_DEEPS },
+			}),
 			o(446495, {	-- Pile of Refuse
 				["description"] = "Spawns randomly throughout the zone.",
 				["maps"] = { THE_RINGING_DEEPS },
