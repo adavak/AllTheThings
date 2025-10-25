@@ -135,9 +135,12 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				crit(53625),	-- Operation: Mechagon - Workshop
 			}),
 			ach(15692, {	-- Keystone Hero: Return to Karazhan
-				spell(373262),	-- Path of the Fallen Guardian
-				crit(53622),	-- Return to Karazhan: Lower
-				crit(53623),	-- Return to Karazhan: Upper
+				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_0, ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+				["groups"] = {
+					spell(373262),	-- Path of the Fallen Guardian
+					crit(53622),	-- Return to Karazhan: Lower
+					crit(53623),	-- Return to Karazhan: Upper
+				},
 			}),
 			ach(15500, {	-- Keystone Hero: Tazavesh, the Veiled Market
 				spell(367416),	-- Path of the Streetwise Merchant
