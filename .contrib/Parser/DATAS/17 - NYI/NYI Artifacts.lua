@@ -1053,6 +1053,7 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(291229),	-- The Fist of Ra-den
 					itemsource(291230),	-- The Fist of Ra-den
 					-- Off hand
+					itemsource(291231),	-- The Highkeeper's Ward
 					itemsource(291232),	-- The Highkeeper's Ward
 					itemsource(291233),	-- The Highkeeper's Ward
 					itemsource(291234),	-- The Highkeeper's Ward
@@ -1076,7 +1077,6 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(291252),	-- The Highkeeper's Ward
 					itemsource(291253),	-- The Highkeeper's Ward
 					itemsource(291254),	-- The Highkeeper's Ward
-					itemsource(291255),	-- The Highkeeper's Ward
 				}),
 				cl(SHAMAN, ENHANCEMENT, {
 					-- Main hand
@@ -1256,6 +1256,7 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(291519),	-- Spine of Thal'kiel
 					itemsource(291520),	-- Spine of Thal'kiel
 					-- Off hand
+					itemsource(291376),	-- Skull of the Man'ari
 					itemsource(291377),	-- Skull of the Man'ari
 					itemsource(291378),	-- Skull of the Man'ari
 					itemsource(291379),	-- Skull of the Man'ari
@@ -1279,7 +1280,6 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(291397),	-- Skull of the Man'ari
 					itemsource(291398),	-- Skull of the Man'ari
 					itemsource(291399),	-- Skull of the Man'ari
-					itemsource(291400),	-- Skull of the Man'ari
 				}),
 			}),
 			cl(WARRIOR, {

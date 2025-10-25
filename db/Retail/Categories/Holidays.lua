@@ -6200,16 +6200,16 @@ i(51805,{awp=30002,b=1,e=9,f=51,lvl=30,rwp=40001,u=2}),
 i(51806,{awp=30002,b=1,e=9,f=51,lvl=30,rwp=40001,u=2}),
 i(51807,{awp=30002,b=1,e=9,f=51,lvl=30,rwp=40001,u=2}),
 i(51804,{awp=30002,b=1,e=9,f=51,lvl=30,rwp=40001,u=2})}}),
-x(3,{awp=30000,g={
-inst(277,{maps=a[189],savedInstanceID=599,g={
+x(3,{
+inst(277,{awp=30003,maps=a[189],savedInstanceID=599,g={
 d(2,{
 n(27975,{
-s(21579,44731,{awp=30003,e=9,f=1,modID=2})})})}}),
+s(21579,44731,{e=9,f=1,modID=2})})})}}),
 inst(285,{maps=a[175],savedInstanceID=574,g={
 d(1,{
 n(23953,{
-s(8737,22206,{e=9,f=1,modID=1})})})}})}}),
-x(4,{awp=40000,g={
+s(8737,22206,{e=9,f=1,modID=1})})})}})}),
+x(4,{
 inst(66,{maps={283,284},savedInstanceID=645,g={
 d(1,{
 n(39679,{
@@ -6223,8 +6223,8 @@ inst(184,{maps={401,402,403,404,405,406},savedInstanceID=938,g={
 d(2,{
 n(54445,{
 s(8737,22206,{e=9,f=1,modID=2})}),
-n(54123,{
-s(21579,44731,{awp=30003,e=9,f=1,modID=2})})})}}),
+n(54123,{awp=30003,g={
+s(21579,44731,{e=9,f=1,modID=2})}})})}}),
 inst(71,{maps={293},savedInstanceID=670,g={
 d(1,{
 n(40319,{
@@ -6252,30 +6252,30 @@ n(42333,{
 s(8737,22206,{e=9,f=1,modID=1})})}),
 d(2,{
 n(42333,{
-s(8737,22206,{e=9,f=1,modID=2})})})}})}}),
-x(6,{awp=60000,g={
+s(8737,22206,{e=9,f=1,modID=2})})})}})}),
+x(6,{awp=30003,g={
 inst(537,{maps={574,575,576},savedInstanceID=1176,g={
 d(1,{
 e(1139,{npcID=75509,g={
-s(21579,44731,{awp=30003,e=9,f=1,modID=1})}})})}})}}),
-x(9,{awp=90000,g={
+s(21579,44731,{e=9,f=1,modID=1})}})})}})}}),
+x(9,{awp=90105,g={
 inst(1194,{savedInstanceID=2441,g={
 d(2,{
 e(2455,{npcID=177269,g={
-i(188692,{awp=90105,description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=2,spellID=61415})}})}),
+i(188692,{description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=2,spellID=61415})}})}),
 d(23,{
 e(2455,{npcID=177269,g={
-i(188692,{awp=90105,description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=23,spellID=61415})}})})}}),
+i(188692,{description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=23,spellID=61415})}})})}}),
 inst(1183,{savedInstanceID=2289,g={
 d(1,{
 e(2423,{npcID=164266,g={
-i(188692,{awp=90105,description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=1,spellID=61415})}})}),
+i(188692,{description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=1,spellID=61415})}})}),
 d(2,{
 e(2423,{npcID=164266,g={
-i(188692,{awp=90105,description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=2,spellID=61415})}})}),
+i(188692,{description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=2,spellID=61415})}})}),
 d(23,{
 e(2423,{npcID=164266,g={
-i(188692,{awp=90105,description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=23,spellID=61415})}})})}})}})}}),
+i(188692,{description="Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",e=9,modID=23,spellID=61415})}})})}})}})}}),
 h(-45,{e=9,g={
 q(9029,{coords={{89.3,75.1,1416}},e=9,isYearly=1,providers={{"o",181073}},rwp=30300,sourceQuests={8984,9028},u=2,g={
 s(8773,22281,{e=9,f=2,rwp=70205,u=2}),
@@ -9046,9 +9046,9 @@ i(13756,{description="Can be caught in open sea water in Blasted Lands and Swamp
 h(-587,{e=133899,maps=a[222],g={
 i(13755,{description="Can be caught in open sea water in Blasted Lands and Swamp of Sorrows from 23nd September to 20th March.",e=133899,f=55,lvl=15,spellID=1127})}}),
 h(-588,{description="The Stranglethorn Fishing Extravaganza is a weekly fishing event held every Sunday in Stranglethorn Vale. There is a highly competitive fishing contest and a more casual rare fish turn-in for this event.",e=6,maps={50,210},g={
-h(-12,{awp=30002,e=6,g={
+h(-12,{awp=30003,e=6,g={
 ach(306,{e=6,providers={{"i",19979},{"i",19970},{"i",50287}},requireSkill=356,g={
-crit(5666,{achID=1516,awp=30003,id=6})}})}}),
+crit(5666,{achID=1516,id=6})}})}}),
 h(-45,{e=6,g={
 q(8194,{coords={a[478]},cost={{"i",19807,5}},e=6,qgs={15078},repeatable=1,requireSkill=356}),
 q(8229,{coords={{53.25,70.65,85}},e=6,qgs={15116},r=1,repeatable=1,requireSkill=356,g={

@@ -3,12 +3,12 @@ local appName, _ = ...;
 local ach,cl,flt,h,i,p,q,s,title,x=_.CreateAchievement,_.CreateCharacterClass,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateExpansion;
 local a={{1,2,6},{1},{10},{11},{12},{13},{2},{3,7,13},{3},{4,10,11,12},{4},{5,8,9},{5},{6},{7},{8},{9}};
 _.Categories.GroupFinder={
-h(-12,{awp=30002,g={
+h(-12,{
 ach(4476,{rank=10}),
 ach(4477,{rank=50,g={
 title(137)}}),
 ach(4478,{rank=100,g={
-p(250,{b=1,itemID=49912,npcID=37865,spellID=70613})}})}}),
+p(250,{b=1,itemID=49912,npcID=37865,spellID=70613})}})}),
 x(1,{
 i(156683,{awp=70305,b=1,description="Rewarded for completing a random classic dungeon.",g={
 s(25687,51982,{b=1,f=6}),
@@ -83,7 +83,7 @@ s(25682,51977,{b=1,f=6,u=2}),
 s(25676,51971,{b=1,f=4,u=2}),
 s(25690,51985,{b=1,f=7,u=2}),
 s(25664,51959,{b=1,f=5,u=2})}})}),
-x(2,{awp=20000,g={
+x(2,{
 i(156682,{awp=70305,b=1,description="Rewarded for completing a random bc dungeon during leveling or completing a random bc timewalking dungeon.",g={
 s(25687,51982,{b=1,f=6}),
 s(25680,51975,{b=1,f=6}),
@@ -125,8 +125,8 @@ i(51991,{b=1,f=52,u=2}),
 s(25680,51975,{b=1,f=6,u=2}),
 s(25674,51969,{b=1,f=4,u=2}),
 s(25688,51983,{b=1,f=7,u=2}),
-s(25666,51961,{b=1,f=5,u=2})}})}}),
-x(3,{awp=30000,g={
+s(25666,51961,{b=1,f=5,u=2})}})}),
+x(3,{
 i(156688,{awp=70305,b=1,description="Rewarded for completing a random wotlk dungeon during leveling or completing a random wotlk timewalking dungeon.",g={
 i(113687,{b=1,f=51}),
 i(113688,{b=1,f=51}),
@@ -185,8 +185,8 @@ s(62480,113694,{b=1,f=6,u=2}),
 s(62479,113693,{b=1,f=6,u=2}),
 s(62535,113758,{b=1,f=4,u=2}),
 s(62476,113690,{b=1,f=5,u=2}),
-s(62475,113689,{b=1,f=5,u=2})}})}}),
-x(4,{awp=40000,g={
+s(62475,113689,{b=1,f=5,u=2})}})}),
+x(4,{
 i(156689,{b=1,description="Rewarded for completing a random cata dungeon during leveling or completing a random cata timewalking dungeon.\nBag contents might be slightly off due to 7.3.5 adjustments and still running for confirmation.",g={
 i(113725,{b=1,f=52}),
 i(113726,{b=1,f=52}),
@@ -262,8 +262,8 @@ s(62507,113721,{b=1,f=6}),
 s(62495,113709,{b=1,f=6}),
 s(62500,113714,{b=1,f=7}),
 s(62506,113720,{b=1,f=7}),
-s(62494,113708,{b=1,f=7})}})}}),
-x(5,{awp=50000,g={
+s(62494,113708,{b=1,f=7})}})}),
+x(5,{
 i(156698,{awp=70305,b=1,description="Rewarded for completing a random mop dungeon during leveling or completing a random mop timewalking dungeon.\nBag contents might be slightly off due to 7.3.5 adjustments and still running for confirmation.",g={
 i(113757,{b=1,f=52}),
 s(62565,113788,{b=1,f=4}),
@@ -348,8 +348,8 @@ s(62523,113743,{b=1,f=7,u=2}),
 s(62529,113749,{b=1,f=7,u=2}),
 s(62530,113750,{b=1,f=7,u=2})}}),
 i(69903,{awp=40100,rwp=60100,sym={{"select","itemID",44984,34535,10360,8491,54436,8485,10394,46398,8496,8486,10392,10822,48114,44970,44973,67282,44974,44982,29960,64403,43698,29953,8492,48116,48118,45002,44980,48120,8487,35504,44721,48124,48126,8495,45606,69992,8490,8488,44965,8499,69991,44971,8489},{"select","itemID",13335,43953,44151,44707,32768,43962,35513}},u=2}),
-i(90818,{awp=50004,rwp=60100,sym={{"select","itemID",69903},{"pop"}},u=2})}}),
-x(6,{awp=60000,g={
+i(90818,{awp=50004,rwp=60100,sym={{"select","itemID",69903},{"pop"}},u=2})}),
+x(6,{
 i(120334,{awp=50400,rwp=60002,sym={{"select","itemID",69903},{"pop"}},u=2}),
 i(104260,{awp=60002,rwp=60100,sym={{"select","itemID",69903},{"pop"}},u=2}),
 i(122607,{awp=60100,b=1,rwp=60200,u=2,g={
@@ -506,19 +506,19 @@ s(70368,124594,{b=1,f=7,lvl=40,u=2})}}),
 i(127821,{b=2,c=a[1],lvl=40,spellID=187932,u=2,g={
 s(70336,124586,{b=1,f=7,lvl=40,u=2})}}),
 i(127818,{b=2,c=a[1],lvl=40,spellID=187929,u=2,g={
-s(70288,124574,{b=1,f=7,lvl=40,u=2})}})}})}}),
-x(7,{awp=70000,g={
-i(140591,{awp=70003,b=1,rwp=80001,u=2})}}),
-x(8,{awp=80000,g={
-q(51370,{awp=80001,lvl=50,repeatable=1,rwp=90001,u=2,g={
+s(70288,124574,{b=1,f=7,lvl=40,u=2})}})}})}),
+x(7,{awp=70003,g={
+i(140591,{b=1,rwp=80001,u=2})}}),
+x(8,{awp=80001,g={
+q(51370,{lvl=50,repeatable=1,rwp=90001,u=2,g={
 i(160054,{b=1,u=2})}})}}),
-x(9,{awp=90000,g={
-i(184522,{awp=90002,b=1,rwp=100000,u=2})}}),
-x(10,{awp=100000,g={
-i(201326,{awp=100002,b=1,g={
+x(9,{awp=90002,g={
+i(184522,{b=1,rwp=100000,u=2})}}),
+x(10,{awp=100002,g={
+i(201326,{b=1,g={
 i(201325,{f=55,lvl=70,spellID=393438})}})}}),
-x(11,{awp=110000,g={
-q(83023,{awp=110002,lvl=80,repeatable=1,g={
+x(11,{awp=110002,g={
+q(83023,{lvl=80,repeatable=1,g={
 i(224573,{b=1,g={
 i(224572,{f=55,lvl=80,spellID=453250})}})}})}}),
 h(-42,{awp=80205,description="Rewarded from Quest while in Party Sync",g={

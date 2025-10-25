@@ -42,10 +42,10 @@ ach(558,{awp=30002,rwp=80001,u=2}),
 ach(2336,{awp=30002,g={
 title(112)}}),
 ach(4496,{awp=30002}),
-ach(6,{awp=30002}),
-ach(7,{awp=30002}),
-ach(8,{awp=30002}),
-ach(9,{awp=30002}),
+ach(6),
+ach(7),
+ach(8),
+ach(9),
 ach(10,{awp=30002,rwp=90001,u=2}),
 ach(11,{awp=30002,rwp=90001,u=2}),
 ach(12,{awp=20001,rwp=90001,u=2}),
@@ -168,7 +168,7 @@ ach(6867,{awp=50004,rwp=50200,u=2}),
 ach(6871,{awp=50004,rwp=50200,u=2}),
 ach(6872,{awp=50004,rwp=50200,u=2}),
 ach(42191,{awp=110200}),
-ach(522,{awp=30002}),
+ach(522),
 ach(1832,{awp=30002,g={
 crit(6522,{achID=1832,id=420,providers={{"i",42433}}}),
 crit(6449,{achID=1832,id=408,providers={{"i",8932}}}),
@@ -864,8 +864,8 @@ ach(2537,{awp=30002,r=1,g={
 mnt(61997,{b=1,itemID=44842,lvl=27})}}),
 ach(2143,{awp=20001,g={
 mnt(60025,{b=1,itemID=44178,lvl=27})}}),
-ach(2142,{awp=30002}),
-ach(2141,{awp=30002}),
+ach(2142),
+ach(2141),
 ach(9713,{awp=60002,g={
 mnt(175700,{b=1,itemID=118676,lvl=27}),
 crit(26683,{achID=9713,id=2,providers={{"i",43951}}}),
@@ -907,7 +907,7 @@ i(163693)}}),
 q(53352,{coords={a[202]},lvl=40,maps={1958,1959},qgs=a[76],r=2,sourceQuests={53342}}),
 q(51474,{coords={a[202]},lvl=40,qgs=a[76],r=2,sourceQuests={53352}}),
 q(53566,{coords={a[229]},lvl=40,maps=a[58],qgs=a[82],r=2,sourceQuests={51474},g={
-ach(12515,{awp=30002}),
+ach(12515),
 mnt(271646,{b=1,itemID=161331,lvl=10,r=2})}}),
 q(51486,{coords={a[227]},lvl=10,qgs=a[85],races=a[158],g={
 s(97209,161329,{b=1,f=9,races=a[158]}),
@@ -1102,7 +1102,7 @@ q(41882,{coords={a[226]},lvl=40,qgs={97662},r=1,sourceQuests=a[171]}),
 q(41841,{coords={a[228]},lvl=40,qgs=a[56],r=1,sourceQuests={41840,41882}}),
 q(48403,{coords={a[228]},lvl=40,qgs=a[56],r=1,sourceQuests={41841}}),
 q(48433,{coords={{56.6,92.6,650}},lvl=40,qgs={126134},r=1,sourceQuests={48403},g={
-ach(12245,{awp=30002}),
+ach(12245),
 mnt(258060,{b=1,itemID=155662,lvl=10})}}),
 q(49773,{coords={{54.9,63.2,652}},lvl=10,qgs=a[290],races=a[148],g={
 s(93938,157757,{b=1,f=9,races=a[148]}),
@@ -1140,7 +1140,7 @@ i(167200)}}),
 q(54735,{coords={{66.5,44.3,942}},lvl=40,qgs=a[102],r=2,sourceQuests={54734}}),
 q(54851,{coords={{67.5,44.7,942}},lvl=40,qgs=a[102],r=2,sourceQuests={54735}}),
 q(53720,{coords={{71.1,43.9,942}},lvl=40,qgs=a[102],r=2,sourceQuests={54851},g={
-ach(13163,{awp=30002}),
+ach(13163),
 mnt(282682,{b=1,itemID=164762,lvl=10,r=2})}}),
 q(55142,{c=a[49],coords={a[256]},lvl=10,qgs=a[109],races=a[155],g={
 s(101206,165010,{b=1,f=9,races=a[155]}),
@@ -1150,7 +1150,7 @@ ra(30,{description="To unlock this questline you need to be logged in on a |cFFa
 q(49698,{coords={a[205]},lvl=40,qgs=a[71],r=2,sourceQuests=a[198]}),
 q(49266,{coords={{44,28,940}},lvl=40,maps={933},qgs={130549},r=2,sourceQuests={49698}}),
 q(50071,{coords={{48.6,40.4,940}},lvl=40,qgs={130810},r=2,sourceQuests={49266},g={
-ach(12243,{awp=30002}),
+ach(12243),
 mnt(258022,{b=1,itemID=155656,lvl=10})}}),
 q(49772,{coords={a[173]},lvl=10,qgs=a[74],races=a[153],g={
 s(93937,157756,{b=1,f=9,races=a[153]}),
@@ -1167,7 +1167,7 @@ q(52943,{coords={{44.8,53,1170}},lvl=40,qgs={142422},r=1,sourceQuests={52942}}),
 q(52945,{coords={{45.2,52,1170}},lvl=40,qgs={142275},r=1,sourceQuests={52943}}),
 q(52955,{coords={{44.4,71.4,1170}},lvl=40,qgs={137837},r=1,sourceQuests={52945}}),
 q(51479,{coords={{41.2,16.8,1}},lvl=40,qgs=a[84],r=1,sourceQuests={52955},g={
-ach(12518,{awp=30002}),
+ach(12518),
 mnt(267274,{b=1,itemID=161330,lvl=10,r=1})}}),
 q(51485,{coords={a[258]},lvl=10,qgs=a[84],races=a[162],g={
 s(97208,161328,{b=1,f=9,races=a[162]}),
@@ -1192,7 +1192,7 @@ i(173302)}}),
 q(57496,{coords={{73,33.6,1462}},lvl=40,qgs=a[117],r=2,sourceQuests={57494}}),
 q(57495,{coords={{58.1,41.1,1573}},lvl=40,qgs={162806},r=2,sourceQuests={57496}}),
 q(57497,{coords={{17.8,65.5,1573}},lvl=40,qgs=a[115],r=2,sourceQuests={57495},g={
-ach(14013,{awp=30002}),
+ach(14013),
 mnt(305592,{b=1,itemID=174067})}}),
 q(58146,{coords={{34,57.5,1573}},lvl=10,qgs=a[117],races=a[165],g={
 s(108028,174068,{b=1,f=9,races=a[165]}),
@@ -1203,7 +1203,7 @@ q(49973,{coords={{37.8,81.1,85}},lvl=40,qgs=a[79],r=1,sourceQuests=a[199]}),
 q(49613,{coords={{65.8,63.6,680}},lvl=40,qgs={131478},r=1,sourceQuests={49973}}),
 q(49354,{coords={a[233]},lvl=40,qgs=a[72],r=1,sourceQuests={49613}}),
 q(49614,{coords={a[233]},lvl=40,qgs=a[72],r=1,sourceQuests={49354},g={
-ach(12244,{awp=30002}),
+ach(12244),
 mnt(258845,{b=1,itemID=156487,lvl=10})}}),
 q(49933,{coords={a[239]},lvl=10,qgs=a[84],races=a[146],g={
 s(93940,157759,{b=1,f=9,races=a[146]}),
@@ -1212,7 +1212,7 @@ q(50303,{coords={a[167]},lvl=10,qgs=a[78],races=a[146],sourceQuests={49933}})}})
 ra(29,{description="To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",maps=a[291],r=2,g={
 q(49787,{coords={a[205]},lvl=40,qgs=a[71],r=2,sourceQuests=a[198]}),
 q(48962,{coords={{79.6,19.7,95}},lvl=40,maps={972},qgs={130919},r=2,sourceQuests={49787},g={
-ach(12242,{awp=30002}),
+ach(12242),
 mnt(259202,{b=1,itemID=156486,lvl=10})}}),
 q(49788,{coords={a[147]},lvl=10,qgs=a[75],races=a[149],g={
 s(93939,157758,{b=1,f=9,races=a[149]}),
@@ -1260,7 +1260,7 @@ toy(173727,{b=1}),
 i(165014)}}),
 q(53908,{coords={a[236]},lvl=40,qgs=a[114],r=1,sourceQuests={53907}}),
 q(57448,{coords={{48.2,71,85}},lvl=40,qgs={145424},r=1,sourceQuests={53908},g={
-ach(13206,{awp=30002}),
+ach(13206),
 mnt(306423,{b=1,itemID=174066,r=1})}}),
 q(58122,{coords={{64.6,46.5,85}},lvl=10,qgs={160452},races=a[160],g={
 s(108029,174069,{b=1,f=9,races=a[160]}),
@@ -1284,7 +1284,7 @@ q(54032,{coords={{46.5,12,1165}},lvl=40,qgs={146214},r=1,sourceQuests={54033}}),
 q(54034,{coords={{44.5,8.8,1165}},lvl=40,qgs={146209},r=1,sourceQuests={54032}}),
 q(53830,{coords={{42.7,8.7,1165}},lvl=40,qgs=a[88],r=1,sourceQuests={54034}}),
 q(53719,{coords={{42.4,9.2,1165}},lvl=40,qgs=a[97],r=1,sourceQuests={53830},g={
-ach(13161,{awp=30002}),
+ach(13161),
 mnt(263707,{b=1,itemID=157870,lvl=10,r=1})}}),
 q(55137,{coords={a[172],{49.9,46.6,1165}},lvl=10,qgs=a[97],races=a[154],g={
 s(101197,165001,{b=1,f=9,races=a[154]}),
@@ -1293,8 +1293,8 @@ q(55138,{coords={a[167]},lvl=10,qgs=a[78],races=a[154],sourceQuests={55137}})}})
 flt(50,{
 i(157787,{b=1,f=113})})}),
 h(-17,{
-x(5,{awp=50000,g={
-ah(6193,{awp=50407,description="These were obtained by creating a Level 90 Class Trial for each class and specialization.",rwp=60002,type="a",u=2,g={
+x(5,{awp=50407,g={
+ah(6193,{description="These were obtained by creating a Level 90 Class Trial for each class and specialization.",rwp=60002,type="a",u=2,g={
 cl(6,{u=2,g={
 cl(6.252,{u=2,g={
 s(53882,101006,{b=1,c=a[240],f=24,lvl=35,u=2}),
@@ -1661,7 +1661,7 @@ i(101304,{b=1,c=a[53],f=52,lvl=35,u=2}),
 i(101305,{b=1,c=a[53],f=52,lvl=35,u=2}),
 i(101303,{b=1,c=a[53],f=53,lvl=35,spellID=126237,u=2}),
 i(101306,{b=1,c=a[53],f=53,lvl=35,spellID=133631,u=2})}})}})}})}}),
-x(6,{awp=60000,g={
+x(6,{
 ah(9060,{awp=60200,description="These were obtained by boosting a character to Level 100 for each class and specialization.",rwp=70305,type="a",u=2,g={
 cl(6,{u=2,g={
 i(142023,{b=1,f=55,u=2,g={
@@ -2430,8 +2430,8 @@ s(65942,117341,{b=1,c=a[53],f=7,lvl=35,u=2}),
 i(117347,{b=1,c=a[53],f=52,lvl=35,u=2}),
 i(117348,{b=1,c=a[53],f=52,lvl=35,u=2}),
 i(117346,{b=1,c=a[53],f=53,lvl=35,spellID=126237,u=2}),
-i(117349,{b=1,c=a[53],f=53,lvl=35,spellID=133631,u=2})}})}})}})}}),
-x(7,{awp=70000,g={
+i(117349,{b=1,c=a[53],f=53,lvl=35,spellID=133631,u=2})}})}})}})}),
+x(7,{
 ah(9060,{awp=70003,description="These were obtained by creating a Level 100 Class Trial for each class and specialization.",rwp=80001,type="a",u=2,g={
 cl(6,{u=2,g={
 i(142023,{b=1,f=55,u=2,g={
@@ -3139,8 +3139,8 @@ s(91230,154027,{b=1,c=a[53],f=7,lvl=45,u=2}),
 i(154115,{b=1,c=a[53],f=52,lvl=45,u=2}),
 i(154114,{b=1,c=a[53],f=52,lvl=45,u=2}),
 i(154116,{b=1,c=a[53],f=53,lvl=45,u=2}),
-i(154117,{b=1,c=a[53],f=53,lvl=45,u=2})}})}})}})}}),
-x(8,{awp=80000,g={
+i(154117,{b=1,c=a[53],f=53,lvl=45,u=2})}})}})}})}),
+x(8,{
 ah(10671,{awp=80001,description="These are gained by boosting a character to Level 100. Each class has one default spec except Shamans, Druids and Hunters.",rwp=90001,type="a",u=2,g={
 h(-97,{u=2,g={
 i(156805,{b=1,f=54,lvl=40,u=2}),
@@ -3793,8 +3793,8 @@ s(105849,170912,{b=1,c=a[53],f=7,lvl=50,u=2}),
 i(170754,{b=1,c=a[53],f=52,lvl=50,u=2}),
 i(170753,{b=1,c=a[53],f=52,lvl=50,u=2}),
 i(170755,{b=1,c=a[53],f=53,lvl=50,u=2}),
-i(170756,{b=1,c=a[53],f=53,lvl=50,u=2})}})}})}})}}),
-x(9,{awp=90000,g={
+i(170756,{b=1,c=a[53],f=53,lvl=50,u=2})}})}})}})}),
+x(9,{
 h(-7,{awp=80001,description="These are gained by creating a Level 48 Trial of that particular class. Each class has one default spec except Shamans, Druids and Hunters.",rwp=90001,u=2,g={
 cl(6,{u=2,g={
 i(160439,{b=1,f=55,u=2,g={
@@ -4928,9 +4928,9 @@ s(91230,154027,{b=1,c=a[53],f=7,lvl=45,u=2}),
 i(154115,{b=1,c=a[53],f=52,lvl=45,u=2}),
 i(154114,{b=1,c=a[53],f=52,lvl=45,u=2}),
 i(154116,{b=1,c=a[53],f=53,lvl=45,u=2}),
-i(154117,{b=1,c=a[53],f=53,lvl=45,u=2})}})}})}})}}),
-x(10,{awp=100000,g={
-ah(14783,{description="These are gained by creating a Level 60 Trial of that particular class. Each class has one default spec except Shamans, Druids and Hunters.",type="a",g={
+i(154117,{b=1,c=a[53],f=53,lvl=45,u=2})}})}})}})}),
+x(10,{
+ah(14783,{awp=100000,description="These are gained by creating a Level 60 Trial of that particular class. Each class has one default spec except Shamans, Druids and Hunters.",type="a",g={
 i(185940,{b=1,spellID=351857}),
 cl(6,{
 i(187659,{b=1,f=55,g={
@@ -5503,7 +5503,7 @@ s(91230,154027,{b=1,c=a[53],f=7,lvl=45,u=2}),
 i(154115,{b=1,c=a[53],f=52,lvl=45,u=2}),
 i(154114,{b=1,c=a[53],f=52,lvl=45,u=2}),
 i(154116,{b=1,c=a[53],f=53,lvl=45,u=2}),
-i(154117,{b=1,c=a[53],f=53,lvl=45,u=2})}})}})}})}}),
+i(154117,{b=1,c=a[53],f=53,lvl=45,u=2})}})}})}})}),
 x(11,{awp=110000,g={
 ah(15805,{description="These are gained by using a Level 70 Boost of that particular class.  Each class has one default spec.  Shamans and Druids have two specs available and both are needed to 100% each category.",type="a",g={
 i(185940,{b=1,spellID=351857}),
@@ -6708,14 +6708,14 @@ mnt(93644,{itemID=67107,lvl=10,minReputation=a[61],r=1,sourceAchievements={5492}
 p(320,{awp=40200,itemID=71033,minReputation=a[61],npcID=54027,sourceAchievements={5840},spellID=100576}),
 mnt(124408,{awp=50004,b=1,itemID=85666,lvl=32,minReputation=a[61],sourceAchievements={6682}})}}))}}),
 h(-219,{
-h(-12,{awp=30002,g={
+h(-12,{
 ach(9909,{
 i(122718,{b=1,g={
 mnt(179245,{itemID=120968}),
 mnt(179244,{itemID=122703})}})}),
 ach(9908),
 ach(9906),
-ach(9911)}}),
+ach(9911)}),
 ah(122338,{awp=60100,providers={{"i",122338}},type="i"}),
 ah(122339,{awp=60100,providers={{"i",122339}},type="i"}),
 ah(122340,{awp=60100,providers={{"i",122340}},type="i"}),
@@ -7507,7 +7507,7 @@ ach(19489,{awp=110002}),
 ach(7380,{awp=50004}),
 ach(7382,{awp=50004,g={
 toy(212174,{awp=110000,b=1})}}),
-ach(889,{awp=30002,rank=2,spellID=33391}),
+ach(889,{rank=2,spellID=33391}),
 ach(1176,{awp=30002,rank=100}),
 ach(1177,{awp=30002,rank=1000}),
 ach(1178,{awp=30002,rank=5000}),
@@ -7516,7 +7516,7 @@ ach(1181,{awp=30002,rank=25000}),
 ach(5455,{awp=40003,rank=50000}),
 ach(5456,{awp=40003,rank=100000}),
 ach(6753,{awp=50004,rank=200000}),
-ach(891,{awp=30002}),
+ach(891),
 ach(890,{awp=20001,rank=3,spellID=34090}),
 ach(19459,{awp=110002}),
 ach(15805,{awp=100002}),
@@ -7541,7 +7541,7 @@ crit(654,{achID=705,id=6,learnedAt=400,requireSkill=46,u=2}),
 crit(9378,{achID=705,id=16,learnedAt=400,requireSkill=176,u=2})}}),
 ach(7384,{awp=50004}),
 ach(621,{awp=30002,rank=1}),
-ach(546,{awp=30002}),
+ach(546),
 ach(545,{awp=30002,maps={84,85,125}}),
 ach(1020,{awp=30002,rank=10}),
 ach(7383,{awp=50004}),

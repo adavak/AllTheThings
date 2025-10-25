@@ -245,21 +245,21 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}, {
 				cl(DEATHKNIGHT, {
 					i(242563),	-- Apocalypse
-					i(242559),	-- Blades of the Fallen Prince
-					i(242560),	-- Blades of the Fallen Prince
+					i(242559),	-- Blades of the Fallen Prince [Main hand]
+					i(242560),	-- Blades of the Fallen Prince [Off hand]
 					i(242562, {["ItemAppearanceModifierID"] = 0}),	-- Maw of the Damned
 				}),
 				cl(DEMONHUNTER, {
-					i(242576),	-- Aldrachi Warblades
-					i(242577),	-- Aldrachi Warblades
-					i(242556),	-- Twinblades of the Deceiver
-					i(242557),	-- Twinblades of the Deceiver
+					i(242577),	-- Aldrachi Warblades [Main hand]
+					i(242576),	-- Aldrachi Warblades [Off hand]
+					i(242556),	-- Twinblades of the Deceiver [Main hand]
+					i(242557, {["collectible"] = false }),	-- Twinblades of the Deceiver [Off hand]
 				}),
 				cl(DRUID, {
-					i(242569),	-- Claws of Ursoc
-					i(242570),	-- Claws of Ursoc
-					i(242579),	-- Fangs of Ashamane
-					i(242580),	-- Fangs of Ashamane
+					i(242569),	-- Claws of Ursoc [Main hand]
+					i(242570, {["collectible"] = false }),	-- Claws of Ursoc [Off hand]
+					i(242580),	-- Fangs of Ashamane [Main hand]
+					i(242579, {["collectible"] = false }),	-- Fangs of Ashamane [Off hand]
 					i(242561),	-- G'Hanir, the Mother Tree
 					i(242578),	-- Scythe of Elune
 				}),
@@ -277,8 +277,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				cl(MONK, {
 					i(242596),	-- Fu Zan, the Wanderer's Companion
 					i(242595),	-- Sheilun, Staff of the Mists
-					i(242597),	-- Fists of the Heavens
-					i(242601),	-- Fists of the Heavens
+					i(242597),	-- Fists of the Heavens [Main hand]
+					i(242601, {["collectible"] = false }),	-- Fists of the Heavens [Off hand]
 				}),
 				cl(PALADIN, {
 					i(242555),	-- Ashbringer
@@ -293,12 +293,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(242602),	-- Secrets of the Void
 				}),
 				cl(ROGUE, {
-					i(242564),	-- Fangs of the Devourer
-					i(242565),	-- Fangs of the Devourer
-					i(242588),	-- The Dreadblades
-					i(242604),	-- The Dreadblades
-					i(242586),	-- The Kingslayers
-					i(242587),	-- The Kingslayers
+					i(242564),	-- Fangs of the Devourer [Main hand]
+					i(242565, {["collectible"] = false }),	-- Fangs of the Devourer [Off hand]
+					i(242588),	-- The Dreadblades [Main hand]
+					i(242604, {["collectible"] = false }),	-- The Dreadblades [Off hand]
+					i(242587),	-- The Kingslayers [Main hand]
+					i(242586, {["collectible"] = false }),	-- The Kingslayers [Off hand]
 				}),
 				cl(SHAMAN, {
 					i(242567),	-- Doomhammer
@@ -318,8 +318,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(237749),	-- Scale of the Earth-Warder
 					i(237748),	-- Scaleshard
 					i(236772, {["ItemAppearanceModifierID"] = 0}),	-- Strom'kar, the Warbreaker
-					i(237746),	-- Warswords of the Valarjar
-					i(237747),	-- Warswords of the Valarjar
+					i(237746),	-- Warswords of the Valarjar [Main hand]
+					i(237747, {["collectible"] = false }),	-- Warswords of the Valarjar [Off hand]
 				}),
 			}),
 		}),
