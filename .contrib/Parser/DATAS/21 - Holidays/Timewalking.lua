@@ -5131,66 +5131,66 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(246, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 }},{	-- Scholomance
 			e(659,   {	-- Instructor Chillheart
 				["crs"] = {
-					modItemId(58633,1),	-- Instructor Chillheart
-					modItemId(58664,1),	-- Instructor Chillheart's Phylactery
+					modItemId(58633,2),	-- Instructor Chillheart
+					modItemId(58664,2),	-- Instructor Chillheart's Phylactery
 				},
 				["sym"] = {{"select", "modItemID",
-					modItemId(144201,1),	-- Gravetouch Greatsword
-					modItemId(144180,1),	-- Anarchist's Pendant
-					modItemId(143967,1),	-- Breastplate of Wracking Souls
-					modItemId(144200,1),	-- Shadow Puppet Bracers
-					modItemId(144202,1),	-- Icewrath Belt
+					modItemId(144201,2),	-- Gravetouch Greatsword
+					modItemId(144180,2),	-- Anarchist's Pendant
+					modItemId(143967,2),	-- Breastplate of Wracking Souls
+					modItemId(144200,2),	-- Shadow Puppet Bracers
+					modItemId(144202,2),	-- Icewrath Belt
 				}},
 			}),
 			e(663,   {	-- Jandice Barov
 				["crs"] = { 59184 },	-- Jandice Barov
 				["sym"] = {{"select", "modItemID",
-					modItemId(144207,1),	-- Metanoia Shield
-					modItemId(144029,1),	-- Barovian Ritual Hood
-					modItemId(144208,1),	-- Phantasmal Drape
-					modItemId(144012,1),	-- Ghostwoven Legguards
-					modItemId(144013,1),	-- Wraithplate Treads
+					modItemId(144207,2),	-- Metanoia Shield
+					modItemId(144029,2),	-- Barovian Ritual Hood
+					modItemId(144208,2),	-- Phantasmal Drape
+					modItemId(144012,2),	-- Ghostwoven Legguards
+					modItemId(144013,2),	-- Wraithplate Treads
 				}},
 			}),
 			e(665,   {	-- Rattlegore
 				["crs"] = { 59153 },	-- Rattlegore
 				["sym"] = {{"select", "modItemID",
-					modItemId(144011,1),	-- Bone Golem Boots
-					modItemId(144204,1),	-- Deadwalker Bracers
-					modItemId(144203,1),	-- Goresoaked Headreaper
-					modItemId(144205,1),	-- Necromantic Wand
-					modItemId(144206,1),	-- Rattling Gloves
-					modItemId(144015,1),	-- Vigorsteel Spaulders
+					modItemId(144011,2),	-- Bone Golem Boots
+					modItemId(144204,2),	-- Deadwalker Bracers
+					modItemId(144203,2),	-- Goresoaked Headreaper
+					modItemId(144205,2),	-- Necromantic Wand
+					modItemId(144206,2),	-- Rattling Gloves
+					modItemId(144015,2),	-- Vigorsteel Spaulders
 				}},
 			}),
 			n(59369, {	-- Doctor Theolen Krastinov
 				["description"] = "This is a Rare Creature and is not always present.",
-				["sym"] = {{"select", "modItemID",
-					modItemId(88566,1),	-- Krastinov's Bag of Horrors (TOY!)
+				["sym"] = {{"select", "itemID",
+					88566,	-- Krastinov's Bag of Horrors (TOY!)
 				}},
 			}),
 			e(666,   {	-- Lilian Voss
 				["crs"] = { 58722 },	-- Lilian Voss
 				["sym"] = {{"select", "modItemID",
-					modItemId(144030,1),	-- Soulburner Crown
-					modItemId(144181,1),	-- Necklace of the Dark Blaze
-					modItemId(143968,1),	-- Shivbreaker Vest
-					modItemId(144209,1),	-- Dark Blaze Gauntlets
-					modItemId(144014,1),	-- Leggings of Unleashed Anguish
+					modItemId(144030,2),	-- Soulburner Crown
+					modItemId(144181,2),	-- Necklace of the Dark Blaze
+					modItemId(143968,2),	-- Shivbreaker Vest
+					modItemId(144209,2),	-- Dark Blaze Gauntlets
+					modItemId(144014,2),	-- Leggings of Unleashed Anguish
 				}},
 			}),
 			e(684, {	-- Darkmaster Gandling
 				["crs"] = { 59080 },	-- Darkmaster Gandling
 				["sym"] = {{"select", "modItemID",
-					modItemId(144212,1),	-- Gloves of Explosive Pain
-					modItemId(144211,1),	-- Headmaster's Will
-					modItemId(144213,1),	-- Incineration Belt
-					modItemId(144161,1),	-- Lessons of the Darkmaster
-					modItemId(144159,1),	-- Price of Progress
-					modItemId(144160,1),	-- Searing Words
-					modItemId(144016,1),	-- Shoulderguards of Painful Lessons
-					modItemId(144210,1),	-- Tombstone Gauntlets
-					modItemId(144015,1),	-- Vigorsteel Spaulders
+					modItemId(144212,2),	-- Gloves of Explosive Pain
+					modItemId(144211,2),	-- Headmaster's Will
+					modItemId(144213,2),	-- Incineration Belt
+					modItemId(144161,2),	-- Lessons of the Darkmaster
+					modItemId(144159,2),	-- Price of Progress
+					modItemId(144160,2),	-- Searing Words
+					modItemId(144016,2),	-- Shoulderguards of Painful Lessons
+					modItemId(144210,2),	-- Tombstone Gauntlets
+					modItemId(144015,2),	-- Vigorsteel Spaulders
 				}},
 			}),
 		})),
@@ -7205,27 +7205,27 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2165, {	-- The Golden Serpent
 				["crs"] = { 135322 },	-- The Golden Serpent
 				["sym"] = {{"select", "modItemID",
-					modItemId(159137,1),	-- Gilded Serpent's Tooth
-					modItemId(159413,1),	-- Gauntlets of the Avian Sentinel
-					modItemId(159369,1),	-- Belt of the Consecrateed Tomb
-					modItemId(159313,1),	-- Breechees of the Sacred Hall
-					modItemId(159234,1),	-- Down-Lined Breeches
-					modItemId(159412,1),	-- Auric Puddle Stompers
-					modItemId(159304,1),	-- Goldfeather Boots
-					modItemId(159617,1),	-- Lustrous Golden Plumage
-					modItemId(168168,1),	-- Gilded Plume
+					159137,	-- Gilded Serpent's Tooth
+					159413,	-- Gauntlets of the Avian Sentinel
+					159369,	-- Belt of the Consecrateed Tomb
+					159313,	-- Breechees of the Sacred Hall
+					159234,	-- Down-Lined Breeches
+					159412,	-- Auric Puddle Stompers
+					159304,	-- Goldfeather Boots
+					159617,	-- Lustrous Golden Plumage
+					168168,	-- Gilded Plume
 				}},
 			}),
 			e(2171, {	-- Mchimba the Embalmer
 				["crs"] = { 134993 },	-- Mchimba the Embalmer
 				["sym"] = {{"select", "modItemID",
-					modItemId(159642,1),	-- Royal Purifier's Spaade
-					modItemId(159667,1),	-- Vessel of Last Rites
-					modItemId(159409,1),	-- Embalmer's Steadying Bracers
-					modItemId(159312,1),	-- Desiccator's Blessed Gloves
-					modItemId(160213,1),	-- Sepulchral Construct's Gloves
-					modItemId(159459,1),	-- Ritual Binder's Ring
-					modItemId(159618,1),	-- Mchimba's Ritual Bandages
+					159642,	-- Royal Purifier's Spaade
+					159667,	-- Vessel of Last Rites
+					159409,	-- Embalmer's Steadying Bracers
+					159312,	-- Desiccator's Blessed Gloves
+					160213,	-- Sepulchral Construct's Gloves
+					159459,	-- Ritual Binder's Ring
+					159618,	-- Mchimba's Ritual Bandages
 				}},
 			}),
 			e(2170, {	-- The Council of Tribes
@@ -7235,23 +7235,23 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					135472,	-- Zanazal the Wise
 				},
 				["sym"] = {{"select", "modItemID",
-					modItemId(160216,1),	-- Crackling Jade Kilij
-					modItemId(159136,1),	-- Jeweled Dagger of Subjugation
-					modItemId(159643,1),	-- Crossbow of Forgotten Majesty
-					modItemId(159288,1),	-- Cloak of the Restless Tribes
-					modItemId(159300,1),	-- Kula's Butchering Wristwraps
-					modItemId(159418,1),	-- Girdle of Pestilent Purification
-					modItemId(159371,1),	-- Boots of the Headlong Conqueror
-					modItemId(159243,1),	-- Sandals of Wise Voodoo
+					160216,	-- Crackling Jade Kilij
+					159136,	-- Jeweled Dagger of Subjugation
+					159643,	-- Crossbow of Forgotten Majesty
+					159288,	-- Cloak of the Restless Tribes
+					159300,	-- Kula's Butchering Wristwraps
+					159418,	-- Girdle of Pestilent Purification
+					159371,	-- Boots of the Headlong Conqueror
+					159243,	-- Sandals of Wise Voodoo
 				}},
 			}),
 			e(2172, {	-- Dazar, The First King
 				["crs"] = { 136160 },	-- King Dazar <The First>
 				["sym"] = {{"select", "modItemID",
-					modItemId(159644,1),	-- Geti'ikku, Cut of Death
-					modItemId(159645,1),	-- Headcracker of Supplication
-					modItemId(159301,1),	-- Primal Dinomancer's Belt
-					modItemId(168129,1),	-- Essence of the Troll Dynasty
+					159644,	-- Geti'ikku, Cut of Death
+					159645,	-- Headcracker of Supplication
+					159301,	-- Primal Dinomancer's Belt
+					168129,	-- Essence of the Troll Dynasty
 				}},
 				["groups"] = {
 					i(239047),	-- Headdress of the First Empire
