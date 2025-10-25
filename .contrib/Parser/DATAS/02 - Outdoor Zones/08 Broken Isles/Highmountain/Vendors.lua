@@ -101,6 +101,37 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
+				n(108017, {	-- Torv Dubstomp
+					["coord"] = { 53.4, 78.0, 652 },	-- Thunder Totem
+					["groups"] = sharedData({
+						["timeline"] = { ADDED_12_0_0 },
+					}, {
+						i(245409),	-- Dried Whitewash Corn (DECOR!)
+						i(257722),	-- Hanging Arrow Kite (DECOR!)
+						i(260698, {	-- Kobold Trassure Pile (DECOR!)
+							["sourceQuest"] = 39772,	-- Can't Hold a Candle To You
+						}),
+						i(245405),	-- Large Highmountain Drum (DECOR!)
+						i(245457),	-- Riverbend Netting (DECOR!)
+						i(257721, {	-- Skyhorn Arrow Kite (DECOR!)
+							["sourceAchievement"] = 10398,	-- Drum Circle
+						}),
+						i(257401),	-- Skyhorn Banner (DECOR!)
+						i(257723, {	-- Skyhorn Eagle Kite (DECOR!)
+							["sourceQuest"] = 39305,	-- Empty Nest
+						}),
+						i(245460, {	-- Skyhorn Storage Chest (DECOR!)
+							["sourceAchievement"] = 11257,	-- Treasures of Highmountain
+						}),
+						i(256913, {	-- Tauren Jeweler's Roller (DECOR!)
+							["sourceAchievement"] = 10996,	-- Got to Ketchum All
+						}),
+						i(257397),	-- Tauren Storyteller's Frame (DECOR!)
+						i(245461),	-- Tauren Vertical Windmill (DECOR!)
+						i(245456),	-- Warbrave's Brazier (DECOR!)
+						i(245453),	-- Whitewash River Basket (DECOR!)
+					}),
+				}),
 				header(HEADERS.Faction, FACTION_TALONS_VENGENCE, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {
 					hqt(45029, {	-- Talon's Vengeance - Intro Complete
 						["description"] = "Talk to Aviana while mounted on any Falcosaur Mount to unlock the Talon's Vengence faction.",

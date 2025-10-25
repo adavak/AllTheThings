@@ -1453,6 +1453,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["sourceQuests"] = { 75023 },	-- Memories of Sindragosa and Malygos
 					["provider"] = { "n", 200447 },	-- Senegos
 					["coord"] = { 67.1, 11.8, THALDRASZUS },
+					["groups"] = { i(248651, {["timeline"] = { ADDED_12_0_0 }}),},	-- Draconic Memorial Stone (DECOR!)
 				}),
 				q(72936, {	-- Azuregos's Support
 					["sourceQuests"] = { 72935 },	-- Archives Return

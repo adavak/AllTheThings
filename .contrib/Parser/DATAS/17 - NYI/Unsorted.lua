@@ -3828,7 +3828,6 @@ root(ROOTS.Unsorted, {
 			i(246741),	-- Grummle Bedroll
 			i(246838),	-- Kafa Press
 			i(247751),	-- Deactivated K'areshi Warp Cannon
-			i(248112),	-- Valdrakken Garden Fountain
 			i(248402),	-- Grummle Kafa Refinery
 			i(248403),	-- Grummle Tent
 			i(248405),	-- Kafa Creamer
@@ -4899,11 +4898,9 @@ root(ROOTS.Unsorted, {
 			i(262648),	-- Yellow Dye Pigment
 			i(262655),	-- Red Dye Pigment
 			i(262656),	-- Orange Dye Pigment
-			i(235523),	-- Sturdy Wooden Chair
 			i(235633),	-- Circular Woolen Rug
 			i(235675),	-- Three-Candle Wrought Iron Chandelier
 			i(235677),	-- Wrought Iron Floor Lamp
-			i(235994),	-- Ornate Stonework Fireplace
 			i(236653),	-- Orgrimmar Interior Narrow Wall
 			i(236654),	-- Orgrimmar Interior Doorway
 			i(236655),	-- Orgrimmar Interior Wall
@@ -4932,26 +4929,16 @@ root(ROOTS.Unsorted, {
 			i(241044),	-- Argussian Crate
 			i(241066),	-- Forsaken Spiked Brazier
 			i(241067),	-- Large Forsaken Spiked Brazier
-			i(241617),	-- Elegant Padded Chair
-			i(241618),	-- Elegant Padded Footstool
-			i(241620),	-- Elegant Wooden Dresser
-			i(241621),	-- Small Elegant End Table
-			i(241622),	-- Ornate Weapon Rack
 			i(241625),	-- Open Elven Wood Crate
 			i(242255),	-- Stormwind Hall Rug
-			i(242951),	-- Sturdy Wooden Bench
 			i(243088),	-- Standing Ornate Weapon Rack
 			i(243113),	-- Blue Dazar'alor Rug
 			i(243130),	-- Zandalari Weapon Rack
-			i(243242),	-- Circular Elven Floor Rug
-			i(243243),	-- Rectangular Elven Floor Rug
 			i(243290),	-- Tauren Waterwheel
 			i(243312),	-- Undermine Rectangular Table
 			i(243321),	-- Cartel Head's Schmancy Desk
-			i(243334),	-- Reinforced Wooden Chest
 			i(243335),	-- Tauren Bluff Rug
 			i(243359),	-- Tauren Windmill
-			i(243495),	-- Elegant Padded Divan
 			i(244118),	-- Rectangular Elegant Table
 			i(244169),	-- Elegant Almond Table
 			i(244313),	-- Orcish Fence
@@ -4976,14 +4963,12 @@ root(ROOTS.Unsorted, {
 			i(244664),	-- Tied-Open Folk Curtains
 			i(244665),	-- Closed Folk Curtains
 			i(244666),	-- Durable Folk Valance
-			i(244667),	-- Restful Wooden Bench
 			i(244676),	-- Teal Suramar Seat Cushion
 			i(244677),	-- Purple Suramar Seat Cushion
 			i(244678),	-- Small Red Suramar Seat Cushion
 			i(244777),	-- Surwich Peddler's Wagon
 			i(244778),	-- Sethraliss Priest's Pillow
 			i(244780),	-- Circular Elven Table
-			i(244781),	-- Elegant Wall Drape
 			i(244782),	-- Elven Floral Window
 			i(245258),	-- Val'sharah Bookcase
 			i(245259),	-- Small Val'sharah Bookcase
@@ -5035,38 +5020,19 @@ root(ROOTS.Unsorted, {
 			i(245354),	-- Wooden Coffin Lid
 			i(245355),	-- Sturdy Wooden Door
 			i(245356),	-- Goldshire Window
-			i(245357),	-- Gryphon Roost
 			i(245358),	-- Small Fruit Platter
-			i(245359),	-- Large Stonework Fountain
-			i(245360),	-- Small Stonework Fountain
-			i(245365),	-- Empty Stormwind Market Stand
-			i(245366),	-- Stormwind Bean Seller's Stand
-			i(245367),	-- Stormwind Produce Seller's Stand
-			i(245368),	-- Stormwind Spice Merchant's Stand
 			i(245369),	-- Gift of Gilneas
 			i(245370),	-- Secretive Bookcase Wall
 			i(245371),	-- Charming Laurel Tree
-			i(245372),	-- Covered Wooden Table
-			i(245374),	-- Sturdy Wooden Table
 			i(245375),	-- Sturdy Wooden Bookcase
 			i(245376),	-- Tall Sturdy Wooden Bookcase
-			i(245377),	-- Open-Air Sturdy Tent
-			i(245378),	-- Sturdy Sheltering Tent
-			i(245379),	-- Sturdy Roofed Wagon
-			i(245380),	-- Sturdy Open Wagon
-			i(245382),	-- Sturdy Covered Wagon
 			i(245383),	-- "Sunrise Canyon" Painting
 			i(245384),	-- Sturdy Wooden Shelf
-			i(245385),	-- Well-Built Well
-			i(245386),	-- Sturdy Wooden Wheelbarrow
 			i(245392),	-- Sturdy Wooden Interior Pillar
 			i(245393),	-- Plain Interior Wall
 			i(245394),	-- Plain Interior Doorway
 			i(245395),	-- Plain Interior Narrow Wall
 			i(245398),	-- Tusked Fireplace
-			i(245405),	-- Large Highmountain Drum
-			i(245409),	-- Dried Whitewash Corn
-			i(245411),	-- Dark Ship's Lantern
 			i(245413),	-- Zandalari Sconce
 			i(245417),	-- Akunda the Tapestry
 			i(245422),	-- Draenic Bookcase
@@ -5089,12 +5055,8 @@ root(ROOTS.Unsorted, {
 			i(245450),	-- Highmountain Totem
 			i(245451),	-- Thunder Totem Brazier
 			i(245452),	-- Stonebull Canoe
-			i(245453),	-- Whitewash River Basket
 			i(245454),	-- Small Highmountain Drum
-			i(245456),	-- Warbrave's Brazier
-			i(245457),	-- Riverbend Netting
 			i(245458),	-- Riverbend Jar
-			i(245461),	-- Tauren Vertical Windmill
 			i(245462),	-- Banshee Queen's Banner
 			i(245464),	-- Inert Blight Canister
 			i(245465),	-- Tirisfal Wooden Chair
@@ -5137,19 +5099,11 @@ root(ROOTS.Unsorted, {
 			i(245548),	-- Iron-Reinforced Cupboard
 			i(245549),	-- Trueshot Lodge Fireplace
 			i(245550),	-- Runed Dreamweaver Moonstone
-			i(245551),	-- Worker's Wooden Desk
 			i(245555),	-- Orgrimmar Tusked Bed
 			i(245556),	-- Iron-Reinforced Standing Mirror
 			i(245558),	-- Elaborate Suramar Window
 			i(245560),	-- Meadery Ochre Window
 			i(245561),	-- Ornate Ochre Window
-			i(245575),	-- Bel'ameth Interior Wall
-			i(245576),	-- Bel'ameth Round Interior Pillar
-			i(245578),	-- Bel'ameth Interior Doorway
-			i(245579),	-- Bel'ameth Interior Narrow Wall
-			i(245581),	-- Silvermoon Round Interior Pillar
-			i(245582),	-- Silvermoon Interior Narrow Wall
-			i(245583),	-- Silvermoon Interior Wall
 			i(245603),	-- Gilnean Noble's Trellis
 			i(245604),	-- Arched Rose Trellis
 			i(245605),	-- Gilnean Stone Wall
@@ -5160,15 +5114,11 @@ root(ROOTS.Unsorted, {
 			i(245624),	-- Waning Wood Fence
 			i(245625),	-- Bel'ameth Bench
 			i(245627),	-- Elven Temple Brazier
-			i(245649),	-- Silvermoon Interior Doorway
 			i(245655),	-- Filigree Moon Lamp
-			i(245656),	-- Wooden Gazebo
-			i(245657),	-- Stonework Fountain
 			i(245658),	-- Elwynn Cobblestone Round
 			i(245659),	-- Elwynn Cobblestone
 			i(245660),	-- Elwynn Cobblestone Pair
 			i(245661),	-- Elwynn Cobblestone Cluster
-			i(245662),	-- Carved Wooden Bar Table
 			i(245680),	-- Orgrimmar Bureaucrat's Desk
 			i(245681),	-- Tidesage's Fireplace
 			i(245698),	-- Kaldorei Stone Fence
@@ -5189,19 +5139,12 @@ root(ROOTS.Unsorted, {
 			i(246091),	-- Bel'ameth Crafter's Tent
 			i(246100),	-- Small Bel'ameth Tent
 			i(246101),	-- Small Wooden Stool
-			i(246102),	-- Large Covered Wooden Table
 			i(246103),	-- Small Wooden Nightstand
-			i(246104),	-- Carved Wooden Crate
-			i(246105),	-- Sturdy Weapon Rack
-			i(246106),	-- Wooden Chamberstick
-			i(246107),	-- Large Sturdy Wooden Table
 			i(246108),	-- Embellished Dwarven Tome
-			i(246109),	-- Open Carved Wooden Crate
 			i(246110),	-- Filigree Moon Sconce
 			i(246216),	-- Sprouting Lamppost
 			i(246217),	-- Short Orgrimmar Bench
 			i(246218),	-- Iron-Reinforced Crate
-			i(246219),	-- Weather-Treated Wooden Table
 			i(246220),	-- Leather-Banded Wooden Bench
 			i(246222),	-- Boralus String Lights
 			i(246223),	-- Cozy Hide-Covered Bench
@@ -5213,16 +5156,6 @@ root(ROOTS.Unsorted, {
 			i(246246),	-- Stormwind Large Platform
 			i(246247),	-- Stormwind Small Platform
 			i(246248),	-- Stormwind Angled Platform
-			i(246249),	-- Silvermoon Beam Platform
-			i(246250),	-- Silvermoon Large Platform
-			i(246251),	-- Silvermoon Small Platform
-			i(246252),	-- Silvermoon Angled Platform
-			i(246253),	-- Silvermoon Round Platform
-			i(246254),	-- Bel'ameth Beam Platform
-			i(246255),	-- Bel'ameth Large Platform
-			i(246256),	-- Bel'ameth Small Platform
-			i(246257),	-- Bel'ameth Angled Platform
-			i(246258),	-- Bel'ameth Round Platform
 			i(246259),	-- Orgrimmar Beam Platform
 			i(246260),	-- Orgrimmar Round Platform
 			i(246261),	-- Orgrimmar Large Platform
@@ -5239,7 +5172,6 @@ root(ROOTS.Unsorted, {
 			i(246427),	-- Dilapidated Wildhammer Well
 			i(246428),	-- Overgrown Wildhammer Fountain
 			i(246429),	-- Dark Iron Chandelier
-			i(246431),	-- Elegant Tied Curtain
 			i(246480),	-- Automated Gnomeregan Guardian
 			i(246481),	-- Retired Industrial Gnomegrabber
 			i(246482),	-- Mechanical Gnomish Lamppost
@@ -5255,7 +5187,6 @@ root(ROOTS.Unsorted, {
 			i(246502),	-- Charming Couch
 			i(246503),	-- Large H.O.M.E. Cog
 			i(246587),	-- Short Orgrimmar Bookcase
-			i(246588),	-- Sturdy Wooden Trellis
 			i(246595),	-- Gnomish Fencepost
 			i(246596),	-- Gnomish Fence
 			i(246597),	-- Perpetual Motion Crate
@@ -5277,15 +5208,11 @@ root(ROOTS.Unsorted, {
 			i(246615),	-- Open Spiky Banded Barrel
 			i(246616),	-- Open Iron-Reinforced Crate
 			i(246687),	-- Tusked Candleholder
-			i(246691),	-- Grand Elven Wall Curtain
 			i(246701),	-- Gnomish Sprocket Table
 			i(246703),	-- Double-Sprocket Table
-			i(246706),	-- Elegant Dracthyr's Tea Cup
 			i(246707),	-- Decorative Cinder Honeypot
 			i(246708),	-- Dornic Sliced Mineloaf
 			i(246709),	-- Earthen Hospitality Cheese-Like Brick
-			i(246711),	-- Elegant Pillow Roll
-			i(246742),	-- Tall Sturdy Wooden Chair
 			i(246845),	-- Tome of Shadowforge Cunning
 			i(246846),	-- Tome of Pandaren Wisdom
 			i(246847),	-- Tome of Draenei Faith
@@ -5304,10 +5231,7 @@ root(ROOTS.Unsorted, {
 			i(246882),	-- Long Orgrimmar Bench
 			i(246883),	-- Crude Banded Crate
 			i(246884),	-- Open Crude Banded Crate
-			i(246961),	-- Elegant Seat Cushion
 			i(247221),	-- Small Orgrimmar Chair
-			i(247223),	-- Roast Riverbeast Platter
-			i(247501),	-- Elegant Carved Door
 			i(247502),	-- Elven Woodvine Trellis
 			i(247662),	-- Pandaren Scholar's Lectern
 			i(247663),	-- Pandaren Scholar's Bookcase
@@ -5379,10 +5303,6 @@ root(ROOTS.Unsorted, {
 			i(248648),	-- Autumn Leaf Pile
 			i(248649),	-- Young Chestnut Tree
 			i(248650),	-- Razorwind Flamebrush
-			i(248651),	-- Draconic Memorial Stone
-			i(248652),	-- Dragon's Grand Mirror
-			i(248653),	-- Valdrakken Stone Stool
-			i(248655),	-- Elegant Dracthyr's Tea Set
 			i(248658),	-- Elven Wood Crate
 			i(248660),	-- Stormwind Workbench
 			i(248661),	-- Northshire Scribe's Desk
@@ -5391,7 +5311,6 @@ root(ROOTS.Unsorted, {
 			i(248665),	-- Stormwind Peddler's Cart
 			i(248758),	-- Relaxing Goblin Beach Chair with Cup Gripper
 			i(248759),	-- Amirdrassil Stool
-			i(248760),	-- Lovely Elven Shelf
 			i(248794),	-- Elwynn Fence
 			i(248795),	-- Elwynn Fencepost
 			i(248797),	-- City Wanderer's Candleholder
@@ -5422,7 +5341,6 @@ root(ROOTS.Unsorted, {
 			i(249549),	-- Draconic Crafter's Table
 			i(249550),	-- Wind Rider Roost
 			i(249551),	-- Skyhold Spear Rack
-			i(249558),	-- Elven Standing Mirror
 			i(250093),	-- Tusked Weapon Rack
 			i(250094),	-- Empty Orgrimmar Bathtub
 			i(250110),	-- Trueshot Lodge Weapon Rack
@@ -5478,7 +5396,6 @@ root(ROOTS.Unsorted, {
 			i(251974),	-- Tusked Chandelier
 			i(251975),	-- Tusked Sconce
 			i(251976),	-- Wolf Pelt Rug
-			i(251981),	-- Elegant Elven Chandelier
 			i(252010),	-- Ornate Ironforge Bench
 			i(252036),	-- Tidesage's Bookcase
 			i(252386),	-- Admiralty's Upholstered Chair
@@ -5517,20 +5434,11 @@ root(ROOTS.Unsorted, {
 			i(253168),	-- Earthen Storage Crate
 			i(253172),	-- Gundargaz Grand Keg
 			i(253173),	-- Meadery Storage Barrel
-			i(253180),	-- Elegant Elven Canopy Bed
-			i(253181),	-- Gemmed Elven Chest
-			i(253242),	-- Horde Warlord's Throne
-			i(253251),	-- Blightfire Candle
 			i(253437),	-- Elegant Covered Bench
 			i(253439),	-- Elegant Carved Bench
-			i(253441),	-- Grand Elven Bookcase
-			i(253479),	-- Small Elegant Padded Chair
-			i(253490),	-- Elegant Elven Desk
-			i(253493),	-- Carved Elven Bookcase
 			i(253495),	-- Grand Elven Bench
 			i(253527),	-- Goldshire Wardrobe
 			i(253589),	-- Short Wooden Cabinet
-			i(253590),	-- Coal-Fired Stovetop
 			i(253592),	-- Sturdy Wooden Washbasin
 			i(253593),	-- Sturdy Wooden Bathtub
 			i(254316),	-- Small Orgrimmar Tusked Bed
@@ -5541,7 +5449,6 @@ root(ROOTS.Unsorted, {
 			i(255644),	-- Elwynn Apple Tree
 			i(255646),	-- Founder's Point Apple Tree
 			i(255647),	-- Spring-Powered Pointer
-			i(255650),	-- Elegant Table Lamp
 			i(255672),	-- Gnomish Tesla Tower
 			i(255673),	-- Moonclasp Satchel
 			i(255674),	-- Incontinental Table Lamp
@@ -5573,23 +5480,17 @@ root(ROOTS.Unsorted, {
 			i(257390),	-- Slate Cobblestone Path
 			i(257392),	-- Slate Cobblestone Trio
 			i(257394),	-- Zandalari War Torch
-			i(257397),	-- Tauren Storyteller's Frame
 			i(257399),	-- Zandalari War Brazier
-			i(257401),	-- Skyhorn Banner
 			i(257405),	-- Baradin Bay Fishing Rack
 			i(257412),	-- Stoppered Gilnean Barrel
 			i(257419),	-- Sin'dorei Crafter's Forge
 			i(257598),	-- Suramar Stepping Stone Set
-			i(257690),	-- Elegant Padded Chaise
 			i(257691),	-- Open Elegant Elven Barrel
 			i(257692),	-- Elegant Curved Table
 			i(257693),	-- Snowfall Tribe Scare-Totem
 			i(257694),	-- Gilnean Green Potion
 			i(257695),	-- Gilnean Postbox
 			i(257696),	-- Gilnean Map
-			i(257721),	-- Skyhorn Arrow Kite
-			i(257722),	-- Hanging Arrow Kite
-			i(257723),	-- Skyhorn Eagle Kite
 			i(257724),	-- Bloodtotem Banner
 			i(257806),	-- Scaled Twilight Mosaic
 			i(258145),	-- Eversong Party Platter
@@ -5605,7 +5506,6 @@ root(ROOTS.Unsorted, {
 			i(260359),	-- Valdrakken Bookcase
 			i(260582),	-- Cartel Collector's Cage
 			i(260583),	-- Arathi Bartender's Shelves
-			i(260698),	-- Kobold Trassure Pile
 			i(260699),	-- Maldraxxian Runic Tablet
 			i(260700),	-- Gob-chanical Trash Heap
 			i(260701),	-- Red Razorwind Paintbrush

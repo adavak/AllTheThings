@@ -691,6 +691,56 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 				},
 			}),
+			n(253067, {	-- Silvrath <Decor Specialist>
+				["coord"] = { 72.0, 49.4, VALDRAKKEN },
+				["timeline"] = { ADDED_12_0_0 },
+				["groups"] = {
+					i(248651, {	-- Draconic Memorial Stone (DECOR!)
+						["sourceQuest"] = 72935,	-- Archives Return
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 600 }},
+					}),
+					i(248103, {	-- Draconic Stone Table (DECOR!)
+						["minReputation"] = { FACTION_VALDRAKKEN_ACCORD, 14 },
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 300 }},
+					}),
+					i(248652, {	-- Dragon's Grand Mirror (DECOR!)
+						["minReputation"] = { FACTION_VALDRAKKEN_ACCORD, 20 },
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 250 }},
+					}),
+					i(246706, {	-- Elegant Dracthyr's Tea Cup (DECOR!)
+						["sourceQuest"] = 67047,	-- Warm Away These Shivers
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
+					}),
+					i(248655, {	-- Elegant Dracthyr's Tea Set (DECOR!)
+						["sourceQuest"] = 70880,	-- To Cook With Finery
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 200 }},
+					}),
+					i(248104, {	-- Pentagonal Stone Table (DECOR!)
+						--["sourceQuest"] = ?????,	-- 
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
+					}),
+					i(247223, {	-- Roast Riverbeast Platter (DECOR!)
+						["sourceQuest"] = 67063,	-- 10,000 Years of Roasting
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 175 }},
+					}),
+					i(248112, {	-- Valdrakken Garden Fountain (DECOR!)
+						["minReputation"] = { FACTION_VALDRAKKEN_ACCORD, 6 },
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
+					}),
+					i(256429, {	-- Valdrakken Lamppost (DECOR!)
+						["sourceQuest"] = 70745,	-- Enforced Relaxation
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 200 }},
+					}),
+					i(256169, {	-- Valdrakken Oven (DECOR!)
+						["minReputation"] = { FACTION_VALDRAKKEN_ACCORD, 3 },
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
+					}),
+					i(248653, {	-- Valdrakken Stone Stool (DECOR!)
+						["sourceQuest"] = 71097,	-- A Helping Claw
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
+					}),
+				},
+			}),
 			n(106448, {	-- Tithris
 				["coord"] = { 47.3, 46.7, VALDRAKKEN },
 				["groups"] = {

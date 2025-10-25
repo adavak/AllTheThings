@@ -639,6 +639,19 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
+				n(252043, {	-- Halenthos Brightstride <Decor Specialist>
+					["coord"] = { 67.0, 33.6, LEGION_DALARAN },
+					["races"] = HORDE_ONLY,
+					["timeline"] = { ADDED_12_0_0 },
+					["groups"] = {
+						i(253251, {	-- Blightfire Candle (DECOR!)
+							["sourceQuest"] = 39801,	-- The Splintered Fleet
+						}),
+						i(245411, {	-- Dark Ship's Lantern (DECOR!)
+							["sourceQuest"] = 38882,	-- A New Life for Undeath
+						}),
+					},
+				}),
 				n(93539, {	-- Hobart Grapplehammer <Engineering Supplies>
 					["coord"] = { 38.4, 24.7, LEGION_DALARAN },
 					["groups"] = {

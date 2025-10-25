@@ -2035,6 +2035,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				}),
 				cr(71865, e(869, {	-- Garrosh Hellscream
 					ach(8537),	-- Strike!
+					i(253242, {["timeline"] = { ADDED_12_0_0 }}),	-- Horde Warlord's Throne (DECOR!)
 				})),
 			}),
 			FLEX_RAID_HEADER({							-- Flexible (Removed with Patch 6.0.2) >> Items marked "Normal" after 6.0 <<

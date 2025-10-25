@@ -3693,6 +3693,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						i(139916),	-- Black Rose Amice
 						i(139925),	-- Black Rose Wristwraps
+						i(253251, {["timeline"] = { ADDED_12_0_0 }}),	-- Blightfire Candle (DECOR!)
 						i(139974),	-- Dark Ranger Shoulderguards
 						i(139987),	-- Dark Ranger Wristguards
 						i(140012),	-- Deathstalker Shoulderplates
