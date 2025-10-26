@@ -47,19 +47,18 @@ body:
     attributes:
       label: "WoW Event"
       description: "Are you participating in special events like the Legion remix?"
-      placeholder: "e.g., Legion remix"
       options:
         - "Mainline"
         - "Legion remix"
         - "Other"
     validations:
       required: true
+
   - type: dropdown
     id: wow_language
     attributes:
       label: "WoW Client Language"
       description: "Select the language of your WoW client."
-      placeholder: "e.g., enUS/frFR/deDE/..."
       options:
         - "enUS"
         - "deDE"
