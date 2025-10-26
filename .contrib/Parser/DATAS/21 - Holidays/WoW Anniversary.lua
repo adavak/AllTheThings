@@ -8,8 +8,8 @@ WOW_ANNIVERSARY_ROOT = createHeader({
 	eventID = EVENTS.WOW_ANNIVERSARY,
 	eventSchedule = {
 		1,	-- Recurring, note that this changes every year.
-		10, 22, 10, 0,	-- 10/22 at 10:00 AM
-		01, 07, 10, 0	-- 01/07 at 10:00 AM
+		11, 16, 10, 0,	-- 11/16 at 10:00 AM
+		12, 07, 10, 0	-- 12/07 at 10:00 AM
 	},
 	text = {
 		en = "WoW's Anniversary",
@@ -2051,7 +2051,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		},
 	}),
 	n(WOW_ANNIVERSARY_TWENTYONE, {
-		["timeline"] = { ADDED_11_2_5, "removed 11.2.5.99999" },
+		["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },
 		["groups"] = {
 			ach(61406),	-- WoW's 21st Anniversary
 			n(MAILBOX, {
