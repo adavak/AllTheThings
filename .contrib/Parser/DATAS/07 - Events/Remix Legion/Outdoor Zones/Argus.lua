@@ -15,7 +15,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							42567,	-- Tour Argus
 							42612,	-- You Are Now Prepared!
 						}},
-						["groups"] = { iensemble(253221) },	-- Bulwark of Mannoroth
+						["groups"] = { i(253221) },	-- Bulwark of Mannoroth [this seems to only be an item, maybe blizz will hotfix after Argus]
 					}),
 					ach(42693),	-- Breaking the Legion I
 					ach(42694),	-- Breaking the Legion II
