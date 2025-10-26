@@ -43,6 +43,19 @@ body:
       placeholder: "e.g., 10.1.7.51000"
 
   - type: dropdown
+    id: wow_event
+    attributes:
+      label: "WoW Event"
+      description: "Are you participating in special events like the Legion remix?"
+      placeholder: "e.g., Legion remix"
+      options:
+        - "Mainline"
+        - "Legion remix"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
     id: att_version
     attributes:
       label: "ATT Version"
