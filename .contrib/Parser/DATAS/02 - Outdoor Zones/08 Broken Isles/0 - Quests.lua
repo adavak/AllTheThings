@@ -16,28 +16,31 @@ root(ROOTS.Zones, {
 				}),
 				header(HEADERS.Spell, 41341, {	-- Balance of Power
 					["description"] = "The only known requirement to start this questline is the completion of your class campaign.",
-					["maps"] = CLASS_HALL_MAPS,
 					["groups"] = {
 						q(43496, {	-- The Power Within
 							["description"] = "This quest is available if you *have* completed the quests at Azurewing Repose in Azsuna.",
 							["provider"] = { "n", 110768 },	-- Image of Kalec
 							["classes"] = exclude(MAGE, ALL_CLASSES),
+							["maps"] = exclude({HALL_OF_THE_GUARDIAN_2ND_FLOOR, HALL_OF_THE_GUARDIAN}, CLASS_HALL_MAPS),
 						}),
 						q(43501, {	-- The Power Within
 							["description"] = "This quest is available if you *have not* completed the quests at Azurewing Repose in Azsuna.",
 							["provider"] = { "n", 110768 },	-- Image of Kalec
 							["classes"] = exclude(MAGE, ALL_CLASSES),
+							["maps"] = exclude({HALL_OF_THE_GUARDIAN_2ND_FLOOR, HALL_OF_THE_GUARDIAN}, CLASS_HALL_MAPS),
 						}),
 						q(43503, {	-- The Power Within
 							["description"] = "This quest is available if you *have* completed the quests at Azurewing Repose in Azsuna.",
 							["provider"] = { "n", 108247 },	-- Image of Kalec
 							["classes"] = { MAGE },
+							["maps"] = { HALL_OF_THE_GUARDIAN_2ND_FLOOR, HALL_OF_THE_GUARDIAN },
 						}),
 						q(43505, {	-- The Power Within
 							["description"] = "This quest is available if you have *not* completed the quests at Azurewing Repose in Azsuna.",
 							["altQuests"] = { 43503 },	-- The Power Within (this is the only version that doesn't autocomplete with the others when you turn one in)
 							["provider"] = { "n", 108247 },	-- Image of Kalec
 							["classes"] = { MAGE },
+							["maps"] = { HALL_OF_THE_GUARDIAN_2ND_FLOOR, HALL_OF_THE_GUARDIAN },
 						}),
 						q(40668, {	-- Eye of Azshara: The Heart of Zin-Azshari
 							["sourceQuests"] = { 43496, 43501, 43503, 43505 },	-- The Power Within (4 versions)

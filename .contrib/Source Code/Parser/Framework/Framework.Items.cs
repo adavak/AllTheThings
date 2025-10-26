@@ -24,13 +24,13 @@ namespace ATT
             /// <summary>
             /// All of the items that have been parsed sorted by Item ID.
             /// </summary>
-            private static IDictionary<decimal, IDictionary<string, object>> ITEMS = new ConcurrentDictionary<decimal, IDictionary<string, object>>();
+            private static ConcurrentDictionary<decimal, IDictionary<string, object>> ITEMS = new ConcurrentDictionary<decimal, IDictionary<string, object>>();
 
             /// <summary>
             /// All of the item IDs that have been referenced somewhere in the database.
             /// NOTE: This will be fully-populated following the 'Validation' stage of the Parse
             /// </summary>
-            private static IDictionary<decimal, bool> ITEMS_WITH_REFERENCES = new ConcurrentDictionary<decimal, bool>();
+            private static ConcurrentDictionary<decimal, bool> ITEMS_WITH_REFERENCES = new ConcurrentDictionary<decimal, bool>();
 
             /// <summary>
             /// All of the items with species data that have been parsed sorted by Item ID.
@@ -141,10 +141,10 @@ namespace ATT
                 // Create a new item dictionary.
                 ++Count;
 
-                return ITEMS[itemID] = new Dictionary<string, object>
+                return ITEMS.GetOrAdd(itemID, _ => new Dictionary<string, object>
                 {
                     { "itemID", itemID }
-                };
+                });
             }
 
             /// <summary>
@@ -1238,7 +1238,7 @@ namespace ATT
             #region Utility
             public static void MarkItemAsReferenced(decimal itemID)
             {
-                ITEMS_WITH_REFERENCES[itemID] = true;
+                ITEMS_WITH_REFERENCES.TryAdd(itemID, true);
             }
 
             public static void MarkItemAsReferenced(IDictionary<string, object> data)

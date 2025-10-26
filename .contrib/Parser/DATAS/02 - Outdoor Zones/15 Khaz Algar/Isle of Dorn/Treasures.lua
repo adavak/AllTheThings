@@ -47,6 +47,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			o(443754, {	-- Earthen Coffer
 				["coord"] = { 59.2, 27.5, ISLE_OF_DORN },
 			}),
+			o(443756, {	-- Ladened Earthen Coffer
+				["coord"] = { 54.4, 64.9, ISLE_OF_DORN },
+			}),
 			o(442718, {	-- Elemental Pearl
 				["coord"] = { 53.0, 18.5, ISLE_OF_DORN },
 				["groups"] = {
