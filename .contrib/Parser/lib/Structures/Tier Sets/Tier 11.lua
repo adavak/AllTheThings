@@ -1,139 +1,215 @@
 TIER_ELEVEN_NORMAL_GROUPS = {	-- Bastion of Twilight [Tier 11] (Normal)
 	cl(WARRIOR, {
 		-- DPS
-		i(60325),	-- Earthen Helmet
-		i(60327),	-- Earthen Pauldrons
+		i(60325, {	-- Earthen Helmet
+			["cost"] = { { "i", 63684, 1 }, },	-- Helm of the Forlorn Protector
+		}),
+		i(60327, {	-- Earthen Pauldrons
+			["cost"] = { { "i", 64316, 1 }, },	-- Mantle of the Forlorn Protector
+		}),
 		i(60326),	-- Earthen Gauntlets
 		i(60323),	-- Earthen Battleplate
 		i(60324),	-- Earthen Legplates
 
 		-- Protection
-		i(60328),	-- Earthen Faceguard
-		i(60331),	-- Earthen Shoulderguards
+		i(60328, {	-- Earthen Faceguard
+			["cost"] = { { "i", 63684, 1 }, },	-- Helm of the Forlorn Protector
+		}),
+		i(60331, {	-- Earthen Shoulderguards
+			["cost"] = { { "i", 64316, 1 }, },	-- Mantle of the Forlorn Protector
+		}),
 		i(60332),	-- Earthen Handguards
 		i(60329),	-- Earthen Chestguard
 		i(60330),	-- Earthen Legguards
 	}),
 	cl(PALADIN, {
 		-- DPS
-		i(60346),	-- Reinforced Sapphirium Helmet
-		i(60348),	-- Reinforced Sapphirium Pauldrons
+		i(60346, {	-- Reinforced Sapphirium Helmet
+			["cost"] = { { "i", 63683, 1 }, },	-- Helm of the Forlorn Conqueror
+		}),
+		i(60348, {	-- Reinforced Sapphirium Pauldrons
+			["cost"] = { { "i", 64315, 1 }, },	-- Mantle of the Forlorn Conqueror
+		}),
 		i(60345),	-- Reinforced Sapphirium Gauntlets
 		i(60344),	-- Reinforced Sapphirium Battleplate
 		i(60347),	-- Reinforced Sapphirium Legplates
 
 		-- Holy
-		i(60359),	-- Reinforced Sapphirium Headguard
-		i(60362),	-- Reinforced Sapphirium Mantle
+		i(60359, {	-- Reinforced Sapphirium Headguard
+			["cost"] = { { "i", 63683, 1 }, },	-- Helm of the Forlorn Conqueror
+		}),
+		i(60362, {	-- Reinforced Sapphirium Mantle
+			["cost"] = { { "i", 64315, 1 }, },	-- Mantle of the Forlorn Conqueror
+		}),
 		i(60363),	-- Reinforced Sapphirium Gloves
 		i(60360),	-- Reinforced Sapphirium Breastplate
 		i(60361),	-- Reinforced Sapphirium Greaves
 
 		-- Protection
-		i(60356),	-- Reinforced Sapphirium Faceguard
-		i(60358),	-- Reinforced Sapphirium Shoulderguards
+		i(60356, {	-- Reinforced Sapphirium Faceguard
+			["cost"] = { { "i", 63683, 1 }, },	-- Helm of the Forlorn Conqueror
+		}),
+		i(60358, {	-- Reinforced Sapphirium Shoulderguards
+			["cost"] = { { "i", 64315, 1 }, },	-- Mantle of the Forlorn Conqueror
+		}),
 		i(60355),	-- Reinforced Sapphirium Handguards
 		i(60354),	-- Reinforced Sapphirium Chestguard
 		i(60357),	-- Reinforced Sapphirium Legguards
 	}),
 	cl(DEATHKNIGHT, {
 		-- DPS
-		i(60341),	-- Magma Plated Helmet
-		i(60343),	-- Magma Plated Pauldrons
+		i(60341, {	-- Magma Plated Helmet
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60343, {	-- Magma Plated Pauldrons
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60340),	-- Magma Plated Gauntlets
 		i(60339),	-- Magma Plated Battleplate
 		i(60342),	-- Magma Plated Legplates
 
 		-- Protection
-		i(60351),	-- Magma Plated Faceguard
-		i(60353),	-- Magma Plated Shoulderguards
+		i(60351, {	-- Magma Plated Faceguard
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60353, {	-- Magma Plated Shoulderguards
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60350),	-- Magma Plated Handguards
 		i(60349),	-- Magma Plated Chestguard
 		i(60352),	-- Magma Plated Legguards
 	}),
 	cl(HUNTER, {
-		i(60303),	-- Lightning-Charged Headguard
-		i(60306),	-- Lightning-Charged Spaulders
+		i(60303, {	-- Lightning-Charged Headguard
+			["cost"] = { { "i", 63684, 1 }, },	-- Helm of the Forlorn Protector
+		}),
+		i(60306, {	-- Lightning-Charged Spaulders
+			["cost"] = { { "i", 64316, 1 }, },	-- Mantle of the Forlorn Protector
+		}),
 		i(60307),	-- Lightning-Charged Gloves
 		i(60304),	-- Lightning-Charged Tunic
 		i(60305),	-- Lightning-Charged Legguards
 	}),
 	cl(ROGUE, {
-		i(60299),	-- Wind Dancer's Helmet
-		i(60302),	-- Wind Dancer's Spaulders
+		i(60299, {	-- Wind Dancer's Helmet
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60302, {	-- Wind Dancer's Spaulders
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60298),	-- Wind Dancer's Gloves
 		i(60301),	-- Wind Dancer's Tunic
 		i(60300),	-- Wind Dancer's Legguards
 	}),
 	cl(PRIEST, {
 		-- DPS
-		i(60256),	-- Mercurial Hood
-		i(60253),	-- Mercurial Shoulderwraps
+		i(60256, {	-- Mercurial Hood
+			["cost"] = { { "i", 63683, 1 }, },	-- Helm of the Forlorn Conqueror
+		}),
+		i(60253, {	-- Mercurial Shoulderwraps
+			["cost"] = { { "i", 64315, 1 }, },	-- Mantle of the Forlorn Conqueror
+		}),
 		i(60257),	-- Mercurial Gloves
 		i(60254),	-- Mercurial Vestment
 		i(60255),	-- Mercurial Leggings
 
 		-- Holy
-		i(60258),	-- Mercurial Cowl
-		i(60262),	-- Mercurial Mantle
+		i(60258, {	-- Mercurial Cowl
+			["cost"] = { { "i", 63683, 1 }, },	-- Helm of the Forlorn Conqueror
+		}),
+		i(60262, {	-- Mercurial Mantle
+			["cost"] = { { "i", 64315, 1 }, },	-- Mantle of the Forlorn Conqueror
+		}),
 		i(60275),	-- Mercurial Handwraps
 		i(60259),	-- Mercurial Robes
 		i(60261),	-- Mercurial Legwraps
 	}),
 	cl(SHAMAN, {
 		-- Enhance
-		i(60320),	-- Helmet of the Raging Elements
-		i(60322),	-- Spaulders of the Raging Elements
+		i(60320, {	-- Helmet of the Raging Elements
+			["cost"] = { { "i", 63684, 1 }, },	-- Helm of the Forlorn Protector
+		}),
+		i(60322, {	-- Spaulders of the Raging Elements
+			["cost"] = { { "i", 64316, 1 }, },	-- Mantle of the Forlorn Protector
+		}),
 		i(60319),	-- Grips of the Raging Elements
 		i(60318),	-- Cuirass of the Raging Elements
 		i(60321),	-- Legguards of the Raging Elements
 
 		-- Elemental
-		i(60315),	-- Headpiece of the Raging Elements
-		i(60317),	-- Shoulderwraps of the Raging Elements
+		i(60315, {	-- Headpiece of the Raging Elements
+			["cost"] = { { "i", 63684, 1 }, },	-- Helm of the Forlorn Protector
+		}),
+		i(60317, {	-- Shoulderwraps of the Raging Elements
+			["cost"] = { { "i", 64316, 1 }, },	-- Mantle of the Forlorn Protector
+		}),
 		i(60314),	-- Gloves of the Raging Elements
 		i(60313),	-- Hauberk of the Raging Elements
 		i(60316),	-- Kilt of the Raging Elements
 
 		-- Restoration
-		i(60308),	-- Faceguard of the Raging Elements
-		i(60311),	-- Mantle of the Raging Elements
+		i(60308, {	-- Faceguard of the Raging Elements
+			["cost"] = { { "i", 63684, 1 }, },	-- Helm of the Forlorn Protector
+		}),
+		i(60311, {	-- Mantle of the Raging Elements
+			["cost"] = { { "i", 64316, 1 }, },	-- Mantle of the Forlorn Protector
+		}),
 		i(60312),	-- Handwraps of the Raging Elements
 		i(60309),	-- Tunic of the Raging Elements
 		i(60310),	-- Legwraps of the Raging Elements
 	}),
 	cl(MAGE, {
-		i(60243),	-- Firelord's Hood
-		i(60246),	-- Firelord's Mantle
+		i(60243, {	-- Firelord's Hood
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60246, {	-- Firelord's Mantle
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60247),	-- Firelord's Gloves
 		i(60244),	-- Firelord's Robes
 		i(60245),	-- Firelord's Leggings
 	}),
 	cl(WARLOCK, {
-		i(60249),	-- Shadowflame Hood
-		i(60252),	-- Shadowflame Mantle
+		i(60249, {	-- Shadowflame Hood
+			["cost"] = { { "i", 63683, 1 }, },	-- Helm of the Forlorn Conqueror
+		}),
+		i(60252, {	-- Shadowflame Mantle
+			["cost"] = { { "i", 64315, 1 }, },	-- Mantle of the Forlorn Conqueror
+		}),
 		i(60248),	-- Shadowflame Handwraps
 		i(60251),	-- Shadowflame Robes
 		i(60250),	-- Shadowflame Leggings
 	}),
 	cl(DRUID, {
 		-- Boomkin
-		i(60282),	-- Stormrider's Cover
-		i(60284),	-- Stormrider's Shoulderwraps
+		i(60282, {	-- Stormrider's Cover
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60284, {	-- Stormrider's Shoulderwraps
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60285),	-- Stormrider's Gloves
 		i(60281),	-- Stormrider's Vestment
 		i(60283),	-- Stormrider's Leggings
 
 		-- Feral
-		i(60286),	-- Stormrider's Headpiece
-		i(60289),	-- Stormrider's Spaulders
+		i(60286, {	-- Stormrider's Headpiece
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60289, {	-- Stormrider's Spaulders
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60290),	-- Stormrider's Grips
 		i(60287),	-- Stormrider's Raiment
 		i(60288),	-- Stormrider's Legguards
 
 		-- Restoration
-		i(60277),	-- Stormrider's Helm
-		i(60279),	-- Stormrider's Mantle
+		i(60277, {	-- Stormrider's Helm
+			["cost"] = { { "i", 63682, 1 }, },	-- Helm of the Forlorn Vanquisher
+		}),
+		i(60279, {	-- Stormrider's Mantle
+			["cost"] = { { "i", 64314, 1 }, },	-- Mantle of the Forlorn Vanquisher
+		}),
 		i(60280),	-- Stormrider's Handwraps
 		i(60276),	-- Stormrider's Robes
 		i(60278),	-- Stormrider's Legwraps
