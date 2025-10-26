@@ -26,6 +26,36 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					i(253618),	-- "The Light Blooms" Painting (DECOR!)
 				}),
 			}),
+			n(252915, {	-- Corlen Hordralin <Master Painter>
+				["description"] = "This Vendor sells Decor only to players that have purchased 'Midnight Epic Edition' upgrade.",
+				["coord"] = { 50.8, 56.6, SILVERMOON_CITY_MID },
+				["groups"] = {
+					i(252668, {	-- "The Harbinger" Painting (DECOR!)
+						["cost"] = {{ "g", 100000000 }},		-- 10,000g
+					}),
+					i(252666, {	-- "The High Exarch" Painting (DECOR!)
+						["cost"] = {{ "g", 100000000 }},		-- 10,000g
+					}),
+					i(252667, {	-- "The Ranger of the Void" Painting (DECOR!)
+						["cost"] = {{ "g", 100000000 }},		-- 10,000g
+					}),
+					i(252669, {	-- "The Redeemer" Painting (DECOR!)
+						["cost"] = {{ "g", 100000000 }},		-- 10,000g
+					}),
+					i(244668, {	-- Light-Infused Fountain (DECOR!)
+						["cost"] = {{ "g", 250000000 }},		-- 25,000g
+					}),
+					i(246414, {	-- Light-Infused Rotunda (DECOR!)
+						["cost"] = {{ "g", 250000000 }},		-- 25,000g
+					}),
+					i(245939, {	-- Void-Corrupted Fountain (DECOR!)
+						["cost"] = {{ "g", 250000000 }},		-- 25,000g
+					}),
+					i(248809, {	-- Void-Corrupted Rotunda (DECOR!)
+						["cost"] = {{ "g", 250000000 }},		-- 25,000g
+					}),
+				},
+			}),
 		}),
 	}),
 }));

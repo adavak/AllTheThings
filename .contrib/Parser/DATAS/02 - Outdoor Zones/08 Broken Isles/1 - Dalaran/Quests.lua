@@ -469,6 +469,7 @@ root(ROOTS.Zones, {
 				q(44412, {	-- Enemies Everywhere
 					["sourceQuest"] = 44411,	-- Strange Humming Crystal
 					["provider"] = { "n", 90417 },	-- Archmage Khadgar
+					["coord"] = { 28.5, 48.4, LEGION_DALARAN },
 					["groups"] = {
 						i(141348, {	-- Wondrous Wisdomball (PET!)
 							["cost"] = {{"i",141349,1}},	-- Strange Humming Crystal
