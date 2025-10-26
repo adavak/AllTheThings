@@ -5006,7 +5006,6 @@ root(ROOTS.Unsorted, {
 			i(245413),	-- Zandalari Sconce
 			i(245417),	-- Akunda the Tapestry
 			i(245422),	-- Draenic Bookcase
-			i(245423),	-- Spherical Draenic Topiary
 			i(245424),	-- Draenic Storage Chest
 			i(245425),	-- Hanging Draenethyst Light
 			i(245427),	-- Dark Iron Expedition Tent
@@ -5335,21 +5334,15 @@ root(ROOTS.Unsorted, {
 			i(251329),	-- Shadowmoon Open-Air Shed
 			i(251330),	-- Draenic Fencepost
 			i(251331),	-- Draenic Ottoman
-			i(251476),	-- Embroidered Embaari Tent
 			i(251477),	-- Draenic Wooden Table
 			i(251478),	-- Square Draenic Table
-			i(251479),	-- Shadowmoon Greenhouse
 			i(251480),	-- Draenic Wooden Wall Shelf
-			i(251483),	-- Draenethyst Lantern
-			i(251484),	-- "Dawning Hope" Mosaic
-			i(251493),	-- Small Karabor Fountain
 			i(251494),	-- Moon-Blessed Barrel
 			i(251544),	-- Telredor Recliner
 			i(251545),	-- Razorwind Cooking Grill
 			i(251547),	-- Draenei Farmer's Trellis
 			i(251548),	-- Draenic Fence
 			i(251549),	-- Emblem of the Naaru's Blessing
-			i(251551),	-- Grand Draenethyst Lamp
 			i(251637),	-- Tusked Weapon Stand
 			i(251638),	-- Jagged Orgrimmar Trellis
 			i(251639),	-- Hide-Covered Bench

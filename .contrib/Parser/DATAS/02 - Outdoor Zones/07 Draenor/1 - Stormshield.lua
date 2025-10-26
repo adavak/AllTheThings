@@ -2470,17 +2470,37 @@ root(ROOTS.Zones, {
 							["groups"] = bubbleDownClassicRep(FACTION_COUNCIL_OF_EXARCHS, {
 								{		-- Neutral
 								}, {	-- Friendly
+									i(251483, {	-- Draenethyst Lantern (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 250 }, },	-- 250x Garrison Resources
+									}),
 									i(118665, {	-- Exarch Elixir
 										["cost"] = { { "c", 823, 1 }, },	-- 1x Apexis Crystal
 									}),
+									i(245423, {	-- Spherical Draenic Topiary (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 250 }, },	-- 250x Garrison Resources
+									}),
 								}, {	-- Honored
+									i(251481, {	-- Elodor Armory Rack (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 500 }, },	-- 500x Garrison Resources
+									}),
 									i(115472, {	-- Permanent Time Bubble (TOY!)
 										["cost"] = 10000000,	-- 1,000g
+									}),
+									i(251493, {	-- Small Karabor Fountain (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 500 }, },	-- 500x Garrison Resources
 									}),
 									i(118680, {	-- Tranquility of the Exarchs
 										["cost"] = 5000000,	-- 500g
 									}),
 								}, {	-- Revered
+									i(251484, {	-- "Dawning Hope" Mosaic (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+									}),
 									i(119162, {	-- Contract: Cleric Maluuf
 										["cost"] = 50000000,	-- 5,000g
 										["groups"] = {
@@ -2493,6 +2513,10 @@ root(ROOTS.Zones, {
 											{ "g", 10000000 },	-- 1,000g
 										},
 									}),
+									i(251476, {	-- Embroidered Embaari Tent (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+									}),
 									i(118663, {	-- Relic of Karabor
 										["cost"] = 25000000,	-- 2,500g
 									}),
@@ -2503,6 +2527,14 @@ root(ROOTS.Zones, {
 											{ "c", 823, 5000 },	-- 5,000x Apexis Crystal
 											{ "g", 50000000 },	-- 5,000g
 										},
+									}),
+									i(251551, {	-- Grand Draenethyst Lamp (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 1500 }, },	-- 1,500x Garrison Resources
+									}),
+									i(251479, {	-- Shadowmoon Greenhouse (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+										["cost"] = { { "c", 824, 1500 }, },	-- 1,500x Garrison Resources
 									}),
 								},
 							}),
