@@ -60,7 +60,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_HIGHMOUNTAIN_TRIBE, {
 						n(ACHIEVEMENTS, {
 							ach(42547, {	-- Highmountain Tribe
-								--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Hanging Felsteel Cage (DECOR!)
+								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Hanging Felsteel Cage (DECOR!)
 							}),
 						}),
 					}),

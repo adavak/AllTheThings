@@ -56,7 +56,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, {
 				15648,	-- Walking in Maw-mphis
 			}},
 			["groups"] = {
-				i(248125, {["timeline"] = { ADDED_12_0_0 }}),	-- Portal to Damnation (DECOR!)
+				i(248125, {["timeline"] = { ADDED_11_2_7 }}),	-- Portal to Damnation (DECOR!)
 				i(217612),	-- Zovaal's Shadebeast Collar (MOUNT!)
 			},
 		})),

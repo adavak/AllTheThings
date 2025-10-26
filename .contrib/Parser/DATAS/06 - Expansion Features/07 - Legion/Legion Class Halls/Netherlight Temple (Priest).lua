@@ -7,7 +7,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(PRIEST, bubbleDownSelf({ ["classes"] = { PRIEST } }, {
 			["maps"] = { NETHERLIGHT_TEMPLE },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42294, {	-- Hidden Potential of the High Priest
 						i(250790),	-- Replica Altar of Light and Shadow (DECOR!)
 					}),

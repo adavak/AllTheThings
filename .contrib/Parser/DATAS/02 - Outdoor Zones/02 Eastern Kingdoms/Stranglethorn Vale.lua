@@ -137,7 +137,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				ach(781),	-- Explore Stranglethorn Vale
 				ach(940, {	-- The Green Hills of Stranglethorn
-					i(248808, {["timeline"] = { ADDED_12_0_0 }}),	-- Nesingwary Elk Trophy (DECOR!)
+					i(248808, {["timeline"] = { ADDED_11_2_7 }}),	-- Nesingwary Elk Trophy (DECOR!)
 				}),
 			}),
 			pvp(o(179697, {	-- Arena Treasure Chest

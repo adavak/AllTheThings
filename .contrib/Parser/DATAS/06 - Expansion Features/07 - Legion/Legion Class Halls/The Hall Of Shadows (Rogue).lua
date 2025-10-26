@@ -7,7 +7,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(ROGUE, bubbleDownSelf({ ["classes"] = { ROGUE } }, {
 			["maps"] = { THE_HALL_OF_SHADOWS },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42295, {	-- Hidden Potential of the Shadowblade
 						i(250787),	-- Replica Crucible of the Uncrowned (DECOR!)
 					}),

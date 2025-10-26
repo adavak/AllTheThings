@@ -642,7 +642,7 @@ root(ROOTS.Zones, {
 				n(252043, {	-- Halenthos Brightstride <Decor Specialist>
 					["coord"] = { 67.0, 33.6, LEGION_DALARAN },
 					["races"] = HORDE_ONLY,
-					["timeline"] = { ADDED_12_0_0 },
+					["timeline"] = { ADDED_11_2_7 },
 					["groups"] = {
 						i(253251, {	-- Blightfire Candle (DECOR!)
 							["sourceQuest"] = 39801,	-- The Splintered Fleet

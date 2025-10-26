@@ -10,8 +10,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					ach(42647),	-- Breaching the Tomb
 					ach(42673, {	-- Defending the Broken Isles I
 						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-						--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Hanging Felsteel Chain (DECOR!)
-						--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Vertical Felsteel Chain (DECOR!)
+						--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Hanging Felsteel Chain (DECOR!)
+						--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Vertical Felsteel Chain (DECOR!)
 					}),
 					ach(42672),	-- Defending the Broken Isles II
 					ach(42675),	-- Defending the Broken Isles III
@@ -38,7 +38,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_ARMIES_OF_LEGIONFALL, {
 						n(ACHIEVEMENTS, {
 							ach(42655, {	-- The Armies of Legionfall
-								--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Demonic Storage Chest (DECOR!)
+								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Demonic Storage Chest (DECOR!)
 							}),
 						}),
 					}),

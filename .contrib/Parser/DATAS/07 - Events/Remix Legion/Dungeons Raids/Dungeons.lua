@@ -81,7 +81,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					60840,	-- The Arcway
 					60822,	-- Vault of the Wardens
 				}},
-				--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),},	-- Legion’s Holo-Communicator (DECOR!)
+				--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),},	-- Legion’s Holo-Communicator (DECOR!)
 			}),
 			ach(61115, {	-- Legion Dungeons: Might of the Legion
 				-- Meta Achievement
@@ -165,7 +165,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			ach(42615),	-- Timeworn Keystone Apprentice (L2)
 			ach(42688),	-- Timeworn Keystone Adept (L7)
 			ach(42689, {	-- Timeworn Keystone Master (L15)
-				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Fel Fountain (DECOR!)
+				--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Fel Fountain (DECOR!)
 			}),
 			ach(42690, {	-- Timeworn Keystone Hero (L30)
 				iensemble(257105),	-- Ensemble: Sargerei Commander's Hellforged Regalia

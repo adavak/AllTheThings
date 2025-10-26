@@ -11,7 +11,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		ach(42624, {	-- Broken Isles World Quests I
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-			--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Altar of the Corrupted Flames (DECOR!)
+			--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Altar of the Corrupted Flames (DECOR!)
 		}),
 		ach(42539),	-- Broken Isles World Quests II
 		ach(42570),	-- Broken Isles World Quests III
@@ -88,7 +88,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(61174),	-- Building a Heroic Army
 		ach(61057, {	-- Heroic Broken Isles World Quests I
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-			--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Legion Torture Rack (DECOR!)
+			--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Legion Torture Rack (DECOR!)
 		}),
 		ach(61056),	-- Heroic Broken Isles World Quests II
 		ach(61054),	-- Heroic Broken Isles World Quests III
@@ -103,7 +103,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(61061, {	-- Power of the Obelisks I
 			["cr"] = 246685,	-- Timewarped Obelisk
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-			--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Legion’s Fel Torch (DECOR!)
+			--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Legion’s Fel Torch (DECOR!)
 		}),
 		ach(61060, {	-- Power of the Obelisks II
 			["cr"] = 246685,	-- Timewarped Obelisk

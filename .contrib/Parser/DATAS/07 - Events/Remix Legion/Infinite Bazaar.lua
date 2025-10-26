@@ -68,7 +68,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				["description"] = "You can buy additional copies of Housing Decor after receiving the first copy from the respective Achievement.",
 				["coord"] = { 45.9, 67.8, BROKEN_ISLES },
 				["groups"] = sharedData({
-					["timeline"] = { ADDED_12_0_0 },	-- EXO NOTE: If wrong, change back to 11_2_7. All Decor so far has been datamined for 12.0.0. Same for the items added under respective Achievements.
+					["timeline"] = { ADDED_11_2_7 },
 				}, {
 					i(XXXXXX, {	-- Altar of the Corrupted Flames (DECOR!)
 						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT

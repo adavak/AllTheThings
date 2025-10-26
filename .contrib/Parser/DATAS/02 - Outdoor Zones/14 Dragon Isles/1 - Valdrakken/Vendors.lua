@@ -693,7 +693,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(253067, {	-- Silvrath <Decor Specialist>
 				["coord"] = { 72.0, 49.4, VALDRAKKEN },
-				["timeline"] = { ADDED_12_0_0 },
+				["timeline"] = { ADDED_11_2_7 },
 				["groups"] = {
 					i(248651, {	-- Draconic Memorial Stone (DECOR!)
 						["sourceQuest"] = 72935,	-- Archives Return
@@ -716,7 +716,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						["cost"] = {{ "c", DRAGON_SUPPLIES, 200 }},
 					}),
 					i(248104, {	-- Pentagonal Stone Table (DECOR!)
-						--["sourceQuest"] = ?????,	-- 
+						--["sourceQuest"] = ?????,	--
 						["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 					}),
 					i(247223, {	-- Roast Riverbeast Platter (DECOR!)

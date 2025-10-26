@@ -219,7 +219,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				12481,	-- The Final Seal
 			}},
 			["races"] = HORDE_ONLY,
-			["groups"] = { i(245522, {["timeline"] = { ADDED_12_0_0 }}),},	-- Grand Mask of Bwonsamdi, Loa of Graves (DECOR!)
+			["groups"] = { i(245522, {["timeline"] = { ADDED_11_2_7 }}),},	-- Grand Mask of Bwonsamdi, Loa of Graves (DECOR!)
 		}),
 	}),
 })));

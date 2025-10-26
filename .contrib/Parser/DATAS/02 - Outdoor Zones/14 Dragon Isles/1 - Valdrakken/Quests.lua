@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							i(200759),	-- Aruunem Berrytart
 							i(200885),	-- Cinna-Cinderbloom Tea
 							i(194550),	-- Coldsnap Sagittate (QI!)
-							i(246706, {["timeline"] = { ADDED_12_0_0 }}),	-- Elegant Dracthyr's Tea Cup (DECOR!)
+							i(246706, {["timeline"] = { ADDED_11_2_7 }}),	-- Elegant Dracthyr's Tea Cup (DECOR!)
 							i(200886),	-- Lemon Silverleaf Tea
 						},
 					}),
@@ -95,7 +95,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							i(200887),	-- Charred Porter
 							i(200888),	-- Coal-Fired Rib Rack
 							i(200889),	-- Highly Spiced Haunch
-							i(247223, {["timeline"] = { ADDED_12_0_0 }}),	-- Roast Riverbeast Platter (DECOR!)
+							i(247223, {["timeline"] = { ADDED_11_2_7 }}),	-- Roast Riverbeast Platter (DECOR!)
 							i(194551),	-- Spicy Lava Spice (QI!)
 						},
 					}),

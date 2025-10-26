@@ -25,17 +25,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(42188, {	-- Lorewalking: Blade's Bane
-					i(257355, {["timeline"] = { ADDED_12_0_0 }}),	-- Tome of the Survivor (DECOR!)
+					i(257355, {["timeline"] = { ADDED_11_2_7 }}),	-- Tome of the Survivor (DECOR!)
 				}),
 				ach(61467, {	-- Lorewalking: The Elves of Quel'thalas / TODO: MIDNIGHT ACHIEVEMENT! Temp placement!
 					["timeline"] = { ADDED_12_0_0 },
 					["groups"] = { i(245332) },	-- Tome of Silvermoon Intrigue (DECOR!)
 				}),
 				ach(42187, {	-- Lorewalking: Ethereal Wisdom
-					i(257354, {["timeline"] = { ADDED_12_0_0 }}),	-- Scroll of K'aresh's Fall (DECOR!)
+					i(257354, {["timeline"] = { ADDED_11_2_7 }}),	-- Scroll of K'aresh's Fall (DECOR!)
 				}),
 				ach(42189, {	-- Lorewalking: The Lich King
-					i(257351, {["timeline"] = { ADDED_12_0_0 }}),	-- Tale of the Penultimate Lich King (DECOR!)
+					i(257351, {["timeline"] = { ADDED_11_2_7 }}),	-- Tale of the Penultimate Lich King (DECOR!)
 				}),
 			}),
 			n(REWARDS, {

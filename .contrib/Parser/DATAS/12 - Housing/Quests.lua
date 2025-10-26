@@ -1,7 +1,7 @@
 ---------------------------------------------
 --      H O U S I N G    M O D U L E       --
 ---------------------------------------------
-root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+root(ROOTS.Housing, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 	n(QUESTS, {
 		header(HEADERS.Quest, 92991, {	-- Decor Treasure Hunt
 			-- TODO: Quest names are temp (Most likely)

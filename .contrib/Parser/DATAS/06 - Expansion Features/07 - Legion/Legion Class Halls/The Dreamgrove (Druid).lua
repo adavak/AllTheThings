@@ -117,7 +117,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						479,	-- Elfin Rabbit (PET!)
 					}},
 				})),
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42289, {	-- Hidden Potential of the Archdruid
 						i(250134),	-- Seed of Ages Cutting (DECOR!)
 					}),

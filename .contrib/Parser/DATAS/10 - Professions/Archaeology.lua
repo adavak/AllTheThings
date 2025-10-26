@@ -138,7 +138,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				crit(15069, {	-- Warmaul of Burningeye
 					["provider"] = { "i", 64484 },	-- Warmaul of Burningeye
 				}),
-				i(245426, {["timeline"] = { ADDED_12_0_0 }}),	-- Dark Iron Brazier (DECOR!)
+				i(245426, {["timeline"] = { ADDED_11_2_7 }}),	-- Dark Iron Brazier (DECOR!)
 			}),
 			ach(4858, {	-- Seven Scepters
 				crit(15051, {	-- Scepter of Charlga Razorflank
@@ -849,7 +849,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				crit(25711, {	-- Apexis Scroll
 					["provider"] = { "i", 114206 },	-- Apexis Scroll
 				}),
-				--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Glorious Pendant of Rukhmar (DECOR!)
+				--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Glorious Pendant of Rukhmar (DECOR!)
 			}),
 			ach(9413, {	-- Strength and Honor
 				crit(25673, {	-- Ancestral Talisman

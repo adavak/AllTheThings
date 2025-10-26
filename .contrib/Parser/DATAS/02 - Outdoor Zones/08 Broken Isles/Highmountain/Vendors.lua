@@ -104,7 +104,7 @@ root(ROOTS.Zones, {
 				n(108017, {	-- Torv Dubstomp
 					["coord"] = { 53.4, 78.0, 652 },	-- Thunder Totem
 					["groups"] = sharedData({
-						["timeline"] = { ADDED_12_0_0 },
+						["timeline"] = { ADDED_11_2_7 },
 					}, {
 						i(245409),	-- Dried Whitewash Corn (DECOR!)
 						i(257722),	-- Hanging Arrow Kite (DECOR!)

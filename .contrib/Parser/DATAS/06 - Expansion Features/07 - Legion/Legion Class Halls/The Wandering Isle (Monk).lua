@@ -7,7 +7,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(MONK, bubbleDownSelf({ ["classes"] = { MONK } }, {
 			["maps"] = { THE_WANDERING_ISLE },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42292, {	-- Hidden Potential of the Grandmaster
 						i(262619),	-- Replica Forge of the Roaring Mountain (DECOR!)
 					}),

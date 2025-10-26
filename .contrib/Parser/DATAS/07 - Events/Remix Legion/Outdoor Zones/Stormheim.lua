@@ -69,7 +69,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_VALAJAR, {
 						n(ACHIEVEMENTS, {
 							ach(42658, {	-- Valarjar
-								--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Vrykul Lord’s Throne (DECOR!)
+								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Vrykul Lord’s Throne (DECOR!)
 							}),
 						}),
 					}),

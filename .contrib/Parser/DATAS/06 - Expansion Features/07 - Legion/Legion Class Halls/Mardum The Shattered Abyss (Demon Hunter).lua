@@ -7,7 +7,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(DEMONHUNTER, bubbleDownSelf({ ["classes"] = { DEMONHUNTER } }, {
 			["maps"] = { MARDUM_THE_SHATTERED_ABYSS_UPPER_COMMAND_CENTER, MARDUM_THE_SHATTERED_ABYSS_LOWER_COMMAND_CENTER },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42288, {	-- Hidden Potential of the Slayer
 						i(249457),	-- Replica Cursed Forge of the Nathrezim (DECOR!)
 					}),

@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						n(ACHIEVEMENTS, {
 							ach(40860),	-- A Star of Dorn (automated)
 							ach(40859, {	-- We're Here All Night (automated)
-								i(253037, {["timeline"] = { ADDED_12_0_0 }}),	-- Dornogal Brazier (DECOR!)
+								i(253037, {["timeline"] = { ADDED_11_2_7 }}),	-- Dornogal Brazier (DECOR!)
 							}),
 						}),
 						n(QUESTS, {

@@ -47,7 +47,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_ARGUSSIAN_REACH, {
 						n(ACHIEVEMENTS, {
 							ach(42627, {	-- Argussian Reach
-								--i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Eredar Lord’s Fel Torch (DECOR!)
+								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Eredar Lord’s Fel Torch (DECOR!)
 							}),
 						}),
 					}),

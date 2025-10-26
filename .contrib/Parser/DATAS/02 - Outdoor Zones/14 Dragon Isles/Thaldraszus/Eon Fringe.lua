@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_6 } }, {
 				ach(19507, {	-- Fringe Benefits
 					["sym"] = {{ "achievement_criteria" }},
-					["groups"] = { i(248105, {["timeline"] = { ADDED_12_0_0 }}),},	-- Valdrakken Sconce (DECOR!)
+					["groups"] = { i(248105, {["timeline"] = { ADDED_11_2_7 }}),},	-- Valdrakken Sconce (DECOR!)
 				}),
 			})),
 			n(QUESTS, {

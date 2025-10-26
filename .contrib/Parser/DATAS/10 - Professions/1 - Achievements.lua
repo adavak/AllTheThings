@@ -209,7 +209,7 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, {
 		applyclassicphase(BFA_PHASE_ONE, ach(12733, {	-- Professional Zandalari Master (H)
 			["races"] = HORDE_ONLY,
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
-			["groups"] = { i(245490, {["timeline"] = { ADDED_12_0_0 }}),},	-- Dazar'alor Forge (DECOR!)
+			["groups"] = { i(245490, {["timeline"] = { ADDED_11_2_7 }}),},	-- Dazar'alor Forge (DECOR!)
 		})),
 		ach(12734, {	-- Working in Kul Tiras (A)			-- Some Primary Professions at Max
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
@@ -270,7 +270,7 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, {
 	expansion(EXPANSION.TWW, {
 		ach(19408, {	-- Professional Algari Master		-- 1 Primary Profession at Max
 			["timeline"] = { ADDED_11_0_2 },
-			["groups"] = { i(253163, {["timeline"] = { ADDED_12_0_0 }}),},	-- Fallside Storage Tent (DECOR!)
+			["groups"] = { i(253163, {["timeline"] = { ADDED_11_2_7 }}),},	-- Fallside Storage Tent (DECOR!)
 		}),
 		achpart(19409, 19410, {	-- Working Underground				-- 2 Primary Professions at Max
 			["timeline"] = { ADDED_11_0_2 },

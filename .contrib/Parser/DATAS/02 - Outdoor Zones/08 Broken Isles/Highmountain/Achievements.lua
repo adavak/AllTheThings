@@ -29,7 +29,7 @@ root(ROOTS.Zones, {
 					-- crit(33537, {	-- TODO
 					-- 	["_quests"] = { TODO },	-- TODO
 					-- })
-					i(245460, {["timeline"] = { ADDED_12_0_0 }}),	-- Skyhorn Storage Chest (DECOR!)
+					i(245460, {["timeline"] = { ADDED_11_2_7 }}),	-- Skyhorn Storage Chest (DECOR!)
 				}),
 			}),
 		}),

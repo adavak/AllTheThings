@@ -25,7 +25,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(MAGE, bubbleDownSelf({ ["classes"] = { MAGE } }, {
 			["maps"] = { HALL_OF_THE_GUARDIAN, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42291, {	-- Hidden Potential of the Archmage
 						i(250306),	-- Conjured Altar of the Guardian (DECOR!)
 					}),

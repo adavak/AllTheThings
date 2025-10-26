@@ -7,7 +7,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(PALADIN, bubbleDownSelf({ ["classes"] = { PALADIN } }, {
 			["maps"] = { SANCTUM_OF_LIGHT },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42293, {	-- Hidden Potential of the Highlord
 						i(250230),	-- Replica Altar of Ancient Kings (DECOR!)
 					}),

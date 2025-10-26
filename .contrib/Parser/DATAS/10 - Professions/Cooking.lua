@@ -590,7 +590,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 			}),
 			ach(12746, {	-- The Zandalari Menu
 				["races"] = HORDE_ONLY,
-				["groups"] = { i(244325, {["timeline"] = { ADDED_12_0_0 }}),},	-- Zuldazar Cook's Griddle (DECOR!)
+				["groups"] = { i(244325, {["timeline"] = { ADDED_11_2_7 }}),},	-- Zuldazar Cook's Griddle (DECOR!)
 			}),
 		}),
 		n(QUESTS, {

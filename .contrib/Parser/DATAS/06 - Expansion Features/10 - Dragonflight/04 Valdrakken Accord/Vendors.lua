@@ -259,7 +259,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							},
 						}),
 						i(256169, {	-- Valdrakken Oven (DECOR!)
-							["timeline"] = { ADDED_12_0_0 },
+							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 					}, {	-- RENOWN 4 --
@@ -296,7 +296,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							},
 						}),
 						i(248112, {	-- Valdrakken Garden Fountain (DECOR!)
-							["timeline"] = { ADDED_12_0_0 },
+							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
 						}),
 					}, {	-- RENOWN 7 --
@@ -409,7 +409,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						}),
 					}, {	-- RENOWN 14 --
 						i(248103, {	-- Draconic Stone Table (DECOR!)
-							["timeline"] = { ADDED_12_0_0 },
+							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {{ "c", DRAGON_SUPPLIES, 300 }},
 						}),
 						i(191545, {	-- Recipe: Sustaining Alchemist's Stone (RECIPE!)
@@ -585,7 +585,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						}),
 					}, {	-- RENOWN 20 --
 						i(248652, {	-- Dragon's Grand Mirror (DECOR!)
-							["timeline"] = { ADDED_12_0_0 },
+							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {{ "c", DRAGON_SUPPLIES, 250 }},
 						}),
 						iensemble(199754, {	-- Ensemble: Azure Valdrakken Clothing

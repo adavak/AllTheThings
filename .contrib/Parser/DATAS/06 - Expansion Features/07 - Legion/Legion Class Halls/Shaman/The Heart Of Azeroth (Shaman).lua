@@ -7,7 +7,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		cl(SHAMAN, bubbleDownSelf({ ["classes"] = { SHAMAN } }, {
 			["maps"] = { THE_HEART_Of_AZEROTH },
 			["groups"] = {
-				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
 					ach(42296, {	-- Hidden Potential of the Farseer
 						i(250914),	-- Elemental Altar of the Maelstrom (DECOR!)
 					}),
