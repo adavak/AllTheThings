@@ -54,6 +54,26 @@ body:
         - "Other"
     validations:
       required: true
+  - type: dropdown
+    id: wow_language
+    attributes:
+      label: "WoW Client Language"
+      description: "Select the language of your WoW client."
+      placeholder: "e.g., enUS/frFR/deDE/..."
+      options:
+        - "enUS"
+        - "deDE"
+        - "esES"
+        - "esMX"
+        - "frFR"
+        - "itIT"
+        - "koKR"
+        - "ptBR"
+        - "ruRU"
+        - "zhCN"
+        - "zhTW"
+    validations:
+      required: true
 
   - type: dropdown
     id: att_version
