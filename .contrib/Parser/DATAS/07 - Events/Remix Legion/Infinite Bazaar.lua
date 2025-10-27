@@ -49,13 +49,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					filter(MAIL, {
 						iensemble(241422),	-- Ensemble: Armor of the Skyfather's Chosen
+						iensemble(241434),	-- Ensemble: Chains of Nightmare's Embrace
 						iensemble(241421),	-- Ensemble: Ravensteel Mail
 						------ Locked behind: Legionfall ------
 						iensemble(241420),	-- Ensemble: Scalemail of Devouring Night
 					}),
 					filter(PLATE, {
 						iensemble(241418),	-- Ensemble: Bloodforged Battleplate
-						iensemble(241434),	-- Ensemble: Chains of Nightmare's Embrace
 						iensemble(241419),	-- Ensemble: Honorforged Valorplate
 						iensemble(241431),	-- Ensemble: Suramar Silver Plating
 						------ Locked behind: Legionfall ------
@@ -639,7 +639,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						iensemble(241381),	-- Ensemble: Leyline Scholar's Regalia
 						iensemble(241438),	-- Ensemble: Moonfall Robes
 						iensemble(241384),	-- Ensemble: Regalia of the Hrydshal Runespeaker
-						iensemble(241594),	-- Ensemble: Scavenged Chains of Karazhan
 						iensemble(241440),	-- Ensemble: Vestments of the Manasinged
 						iensemble(241382),	-- Ensemble: Wine-dark Royal Robes
 						------ Locked behind: Legionfall ------
@@ -672,6 +671,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						iensemble(139168),	-- Ensemble: Fel-Chain Mail Armor
 						iensemble(241373),	-- Ensemble: Highmountain Riverscales
 						iensemble(241375),	-- Ensemble: Scales of Remembered Eternity
+						iensemble(241594),	-- Ensemble: Scavenged Chains of Karazhan
 						iensemble(241374),	-- Ensemble: Stormborn Laminar Armor
 						------ Locked behind: Legionfall ------
 						iensemble(241442),	-- Ensemble: Ered'ruin Scalemail
