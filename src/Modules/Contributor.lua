@@ -1935,8 +1935,12 @@ MobileDB.GameObject = {
 	[473943] = true,	-- Salvageable Scrap (q:85051)
 	[474030] = true,	-- Salvageable Scrap (q:85051)
 	[474033] = true,	-- Salvageable Scrap (q:85051)
+	[474043] = true,	-- Gorgoa Reed (q:84944)
 	[474084] = true,	-- Salvageable Scrap (q:85051)
 	[474086] = true,	-- Salvageable Scrap (q:85051)
+	[474813] = true,	-- Camp Ledger (q:85151)
+	[474815] = true,	-- Weapon Rack (q:85151)
+	[474817] = true,	-- Storage Battery (q:85151)
 	[474147] = true,	-- Portal to K'aresh (q:85082)
 	[474242] = true,	-- Portal to Stormsong Valley
 	[474822] = true,	-- Runed Storm Cache (Treasure)
@@ -1965,7 +1969,12 @@ MobileDB.GameObject = {
 	[495583] = true,	-- Missing Shipment (wq:85812)
 	[495603] = true,	-- Loose Sand (wq:85822)
 	[495605] = true,	-- Sealed Coffer (wq:85822)
+	[499054] = true,	-- Alleria's Void Portal (q:85151)
 	[499099] = true,	-- Entropic Egg (wq:84962)
+	[499258] = true,	-- Ancestral K'areshi Relic (q:85184)
+	[499259] = true,	-- Ancestral K'areshi Relic (q:85184)
+	[499260] = true,	-- Ancestral K'areshi Relic (q:85184)
+	[499261] = true,	-- Ancestral K'areshi Relic (q:85184)
 	[499620] = true,	-- Runed Storm Cache @ 68.4, 73.8, 2369 (q:84726)
 	[499863] = true,	-- Runed Storm Cache @ 39.4, 20.1, 2369 (q:84726)
 	[499928] = true,	-- Darkfuse Research Notes
@@ -2097,6 +2106,7 @@ MobileDB.GameObject = {
 	[567732] = true,	-- Kaja'6-Pack
 	[578955] = true,	-- Flickering Spoils
 	[578956] = true,	-- Shadowed Flickering Spoils
+	[612274] = true,	-- Portal to K'aresh (q:85002)
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}

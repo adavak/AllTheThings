@@ -2215,6 +2215,7 @@ i(257514, 1261677);	-- Bronze Corpsefly
 i(257516, 1261681);	-- Bronze Gravewing
 i(258515, 1263387);	-- Crimson Lupine
 i(258188, 1262886);	-- Geargrinder Mk. 11
+i(242715, 1233516);	-- K'arroc Swiftwing
 i(258488, 1263369);	-- Skypaw Glimmerfur
 i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
 --- UNSORTED ---
@@ -2258,7 +2259,6 @@ i(263450, 1270521);	-- Gruffy Comfy Flying Quilt
 i(263451, 1270522);	-- Huffy Comfy Flying Quilt
 i(0, 1261583);	-- Insatiable Shredclaw
 i(211086, 428065);	-- Jeweled Jade Scarab
-i(242715, 1233516);	-- K'arroc Swiftwing
 i(260895, 1267002);	-- Lavender Pseudoshell
 i(260916, 3363);	-- Lost Nether Drake
 i(257191, 1261336);	-- Preyseeker's Hubris

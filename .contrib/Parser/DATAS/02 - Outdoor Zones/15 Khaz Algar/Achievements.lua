@@ -352,6 +352,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				iensemble(219132),	-- Crimson Cartographer's Orientation
 			},
 		}),
+		ach(61498, {	-- Ready for Midnight
+			["timeline"] = { ADDED_11_2_7 },
+			["groups"] = {
+				title(669),	-- %s, Azeroth's Vanguard
+			},
+		}),
 		ach(20597),		-- The War Within (automated)
 		ach(40231, {	-- The War Within Pathfinder
 			-- Meta Achievement
@@ -363,5 +369,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				19560,	-- The Ringing Deeps
 			}},
 		}),
+		ach(42299, { ["timeline"] = { ADDED_11_2_7 }, }),	-- Visions of a Shadowed Sun
 	}),
 }));

@@ -779,5 +779,253 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				--
 			}),
 		})),
+		header(HEADERS.Achievement, 42299, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Visions of a Shadowed Sun
+			header(HEADERS.AchCriteria, 42299.01, {	-- Radiant Visions
+				q(92405, {	-- Meet Arator
+					["qg"] = 250839,	-- Silver Hand Squire
+					["coord"] = { 51.5, 45.8, DORNOGAL },
+				}),
+				q(84996, {	-- Vereesa's Tale
+					["sourceQuest"] = 92405,	-- Meet Arator
+					["qg"] = 231039,	-- Arator
+					["coord"] = { 28.6, 44.7, ISLE_OF_DORN },
+					["groups"] = { i(246851) },	-- "Raising Your Eyes" Painting (DECOR!)	/ SpellID: 1244123 - "Raising Your Eyes" Painting, is cast on a player. 
+				}),
+				q(84997, {	-- What Might Come
+					["sourceQuest"] = 84996,	-- Vereesa's Tale
+					["qg"] = 233252,	-- Vereesa Windrunner
+					["coord"] = { 26.6, 42.3, ISLE_OF_DORN },
+				}),
+				q(84998, {	-- Bringer of the Void
+					["sourceQuest"] = 84997,	-- What Might Come
+					["qg"] = 233314,	-- Vereesa Windrunner
+					["coord"] = { 26.6, 42.3, ISLE_OF_DORN },
+				}),
+				q(85001, {	-- Blessings Be Upon You
+					["sourceQuest"] = 84997,	-- What Might Come
+					["qg"] = 233312,	-- Arator
+					["coord"] = { 26.6, 42.3, ISLE_OF_DORN },
+				}),
+				q(85002, {	-- Off to Tazavesh
+					["sourceQuests"] = {
+						84998,	-- Bringer of the Void
+						85001,	-- Blessings Be Upon You
+					},
+					["qg"] = 233312,	-- Arator
+					["coord"] = { 26.6, 42.3, ISLE_OF_DORN },
+				}),
+				------ Stay awhile and listen ------
+				hqt(87322, {	-- Stay awhile and listen: Arator
+					["name"] = "Stay awhile and listen: Arator",
+					["description"] = "Dialogue becomes available after accepting 'Off to Tazavesh' (85002).\nDon't click on the portal immediately.",
+					["sourceQuests"] = {
+						84998,	-- Bringer of the Void
+						85001,	-- Blessings Be Upon You
+					},
+					["qg"] = 233312,	-- Arator
+					["coord"] = { 26.6, 42.3, ISLE_OF_DORN },
+				}),
+			}),
+			header(HEADERS.AchCriteria, 42299.02, {	-- A Meeting with Minn'da
+				q(85011, {	-- Where in K'aresh is Alleria Windrunner?
+					["sourceQuest"] = 85002,	-- Off to Tazavesh
+					["qg"] = 231266,	-- Arator
+					["coord"] = { 60.1, 91.3, KARESH_TAZAVESH },
+				}),
+				q(85804, {	-- The Parent Trap
+					["sourceQuest"] = 85011,	-- Where in K'aresh is Alleria Windrunner?
+					["qg"] = 234263,	-- Magister Umbric
+					["coord"] = { 51.4, 19.8, KARESH_TAZAVESH },
+				}),
+				q(85151, {	-- In Her Shadow
+					["sourceQuest"] = 85804,	-- The Parent Trap
+					["qg"] = 231987,	-- Alleria Windrunner
+					["coord"] = { 55.2, 27.9, KARESH },
+				}),
+				q(85155, {	-- Do You Have a Spare?
+					["sourceQuest"] = 85151,	-- In Her Shadow
+					["qg"] = 231987,	-- Alleria Windrunner
+					["coord"] = { 55.2, 27.9, KARESH },
+				}),
+				q(85184, {	-- Repossession is Nine-Tenths of the Law
+					["sourceQuest"] = 85155,	-- Do You Have a Spare?
+					["qg"] = 231820,	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+				}),
+				q(85185, {	-- Those As Well
+					["sourceQuest"] = 85155,	-- Do You Have a Spare?
+					["qg"] = 231820,	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+					["groups"] = { i(232618) },	-- Lesser K'areshi Artifact (QI!)
+				}),
+				q(85186, {	-- A Cage for Alleria
+					["sourceQuests"] = {
+						85184,	-- Repossession is Nine-Tenths of the Law
+						85185,	-- Those As Well
+					},
+					["qg"] = 231820,	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+					["groups"] = { i(232623) },	-- Ve'nari's Package (PQI!)
+				}),
+				q(85196, {	-- Tag, You're It
+					["sourceQuest"] = 85186,	-- A Cage for Alleria
+					["qg"] = 232110,	-- Alleria Windrunner
+					["coord"] = { 60.9, 28.3, KARESH },
+					["groups"] = { i(232618) },	-- Lesser K'areshi Artifact (QI!)
+				}),
+				q(85212, {	-- A Void Test of Wills
+					["sourceQuest"] = 85196,	-- Tag, You're It
+					["qg"] = 233885,	-- Alleria Windrunner
+					["coord"] = { 60.8, 28.0, KARESH },
+				}),
+				q(85213, {	-- Off to Tazavesh, Again
+					["sourceQuest"] = 85212,	-- A Void Test of Wills
+					["qg"] = 233980,	-- Arator
+					["coord"] = { 60.8, 28.1, KARESH },
+					["groups"] = { i(242715) },	-- K'arroc Swiftwing (MOUNT!)
+				}),
+				------ Stay awhile and listen ------
+				hqt(87378, {	-- Stay awhile and listen: Alleria Windrunner
+					["name"] = "Stay awhile and listen: Alleria Windrunner",
+					["description"] = "Dialogue becomes available after accepting 'Off to Tazavesh, Again' (85196), right after talking to Ve'nari.",
+					["sourceQuest"] = 85212,	-- A Void Test of Wills
+					["qg"] = 233885,	-- Alleria Windrunner
+					["coord"] = { 60.8, 28.0, KARESH },
+				}),
+				--
+				q(85214, {	-- Here Goes Something
+					["sourceQuest"] = 85213,	-- Off to Tazavesh, Again
+					["qg"] = 232124,	-- Ve'nari
+					["coord"] = { 60.5, 92.5, KARESH_TAZAVESH },
+				}),
+			}),
+			header(HEADERS.AchCriteria, 42299.03, {	-- Paths Forward
+				q(84935, {	-- Excising the Incursion
+					["sourceQuest"] = 85214,	-- Here Goes Something
+					["qg"] = 231030,	-- Arator
+					["coord"] = { 25.6, 32.5, THE_MAW },
+				}),
+				q(84936, {	-- To Cleanse Shadow's Stain
+					["sourceQuest"] = 85214,	-- Here Goes Something
+					["qg"] = 231030,	-- Arator
+					["coord"] = { 25.6, 32.5, THE_MAW },
+					["groups"] = { i(231791) },	-- Redeemer's Sigil (PQI!)
+				}),
+				q(84937, {	-- Distant Echoes
+					["sourceQuests"] = {
+						84935,	-- Excising the Incursion
+						84936,	-- To Cleanse Shadow's Stain
+					},
+					["qg"] = 231030,	-- Arator
+					["coord"] = { 27.0, 31.8, THE_MAW },
+				}),
+				q(84938, {	-- Chaos Control
+					["sourceQuest"] = 84937,	-- Distant Echoes
+					["qg"] = 231033,	-- Sylvanas Windrunner
+					["coord"] = { 23.4, 21.2, THE_MAW },
+				}),
+				q(84939, {	-- Mad Space
+					["sourceQuest"] = 84937,	-- Distant Echoes
+					["qg"] = 231030,	-- Arator
+					["coord"] = { 23.6, 21.5, THE_MAW },
+				}),
+				q(84942, {	-- The Final Hazard
+					["sourceQuests"] = {
+						84938,	-- Chaos Control
+						84939,	-- Mad Space
+					},
+					["qg"] = 231030,	-- Arator
+					["coord"] = { 28.2, 12.9, THE_MAW },
+				}),
+				q(84943, {	-- The Long Vigil
+					["sourceQuest"] = 84942,	-- The Final Hazard
+					["qg"] = 231033,	-- Sylvanas Windrunner
+					["coord"] = { 30.6, 18.7, THE_MAW },
+				}),
+				q(84944, {	-- Preludes and Preparations
+					["sourceQuest"] = 84942,	-- The Final Hazard
+					["qg"] = 231033,	-- Sylvanas Windrunner
+					["coord"] = { 30.6, 18.7, THE_MAW },
+					["groups"] = {
+						o(474043, {	-- Gorgoa Reed
+							["coords"] = {	-- Coordinates represent clusters
+								{ 25.7, 26.0, THE_MAW },
+								{ 30.3, 21.4, THE_MAW },
+								{ 32.2, 26.9, THE_MAW },
+								{ 32.6, 19.7, THE_MAW },
+							},
+							["groups"] = { i(232427) },	-- Gorgoa Reeds (QI!)
+						}),
+						i(232513),	-- Mawrat Teeth (QI!)
+						i(232429),	-- Pristine Soul-Eater Hide (QI!)
+						i(232428),	-- Soulthread (QI!)
+					},
+				}),
+				------ Stay awhile and listen ------
+				hqt(91850, {	-- Stay awhile and listen: Arator
+					["name"] = "Stay awhile and listen: Arator",
+					["description"] = "Dialogue becomes available after accepting 'The Long Vigil' (84943) and 'Preludes and Preparations' (84944).",
+					["sourceQuest"] = 84942,	-- The Final Hazard
+					["qg"] = 238519,	-- Arator
+					["coord"] = { 30.5, 18.7, THE_MAW },
+				}),
+				--
+				q(84945, {	-- Repent of the Highborne
+					["sourceQuests"] = {
+						84943,	-- The Long Vigil
+						84944,	-- Preludes and Preparations
+					},
+					["qg"] = 231033,	-- Sylvanas Windrunner
+					["coord"] = { 26.9, 38.0, THE_MAW },
+				}),
+				q(84946, {	-- Returning to Life
+					["sourceQuest"] = 84945,	-- Repent of the Highborne
+					["qg"] = 231030,	-- Arator
+					["coord"] = { 26.9, 37.8, THE_MAW },
+				}),
+				q(84947, {	-- Determination
+					["sourceQuest"] = 84945,	-- Repent of the Highborne
+					["qg"] = 233463,	-- Sylvanas Windrunner
+					["coord"] = { 25.9, 32.0, THE_MAW },
+				}),
+				--[[-- Stay awhile and listen ------
+				hqt(?????, {	-- Stay awhile and listen: Sylvanas Windrunner
+					["name"] = "Stay awhile and listen: Sylvanas Windrunner",
+					["description"] = "Dialogue becomes available after accepting 'Determination' (84947).",
+					["sourceQuest"] = 84945,	-- Repent of the Highborne
+					["qg"] = 233463,	-- Sylvanas Windrunner
+					["coord"] = { 25.9, 32.0, THE_MAW },
+				}),
+				--]]
+				q(84949, {	-- The Eleventh Hour
+					["sourceQuests"] = {
+						84946,	-- Returning to Life
+						84947,	-- Determination
+					},
+					["qg"] = 233567,	-- Arator
+					["coord"] = { 60.7, 92.5, KARESH_TAZAVESH },
+				}),
+				------ Stay awhile and listen ------
+				hqt(87418, {	-- Stay awhile and listen: Arator
+					["name"] = "Stay awhile and listen: Arator",
+					["description"] = "Dialogue becomes available after accepting 'The Eleventh Hour' (84949).",
+					["sourceQuests"] = {
+						84946,	-- Returning to Life
+						84947,	-- Determination
+					},
+					["qg"] = 233567,	-- Arator
+					["coord"] = { 60.7, 92.5, KARESH_TAZAVESH },
+				}),
+				--
+			}),
+		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
+	m(KHAZ_ALGAR, {
+		n(QUESTS, {
+			q(84977, { ["timeline"] = { ADDED_11_2_7 } }),	-- Triggers after completing 'Meet Arator' (q:92405)
+		}),
+	}),
+}));

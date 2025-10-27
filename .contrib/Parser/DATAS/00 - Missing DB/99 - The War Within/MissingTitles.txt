@@ -12,8 +12,6 @@ title(675),	-- Northbound Rush, %s
 title(650),	-- Delver %s
 11.2.5.62554
 title(645),	-- Khaz Algar Enthusiast %s
-11.2.7.63642
-title(669),	-- %s, Azeroth's Vanguard
 12.0.0.63534
 title(0),	-- Loa-speaker %s
 title(643),	-- %s, Definitely Not a Cultist

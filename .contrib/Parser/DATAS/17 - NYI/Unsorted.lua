@@ -4128,12 +4128,6 @@ root(ROOTS.Unsorted, {
 			i(229913),	-- Letter from Aysa
 			i(229995),	-- Gorgoa Reed
 			i(230012),	-- [DNT]Black Coffee \\ Black Coffee
-			i(231791),	-- Redeemer's Sigil
-			i(232427),	-- Gorgoa Reeds
-			i(232428),	-- Soulthread
-			i(232429),	-- Pristine Soul-Eater Hide
-			i(232513),	-- Mawrat Teeth
-			i(232618),	-- Lesser K'areshi Artifact
 			i(233203),	-- Schematic: Housing Crafting Test Recipe
 			i(234621),	-- Used Fireworks
 			i(234622),	-- Short Grain Rice
@@ -4144,7 +4138,6 @@ root(ROOTS.Unsorted, {
 			i(239098),	-- Neighborhood Charter
 			i(242520),	-- Festival Hot Air Balloon
 			i(242691),	-- Olemba Lumber
-			i(242715),	-- K'arroc Swiftwing
 			i(242948),	-- Loch Modan Bearskin Rug
 			i(243101),	-- Red Dazar'alor Rug
 			i(243197),	-- Matured Hoof Piece
