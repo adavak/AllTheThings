@@ -3292,10 +3292,10 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(833),		-- Lifestone
 		i(7734),	-- Six Demon Bag
 		i(14557, {	-- The Lion Horn of Stormwind
-			-- #if AFTER 6.0.1
-			["description"] = "Dropped from Big Crate of Salvage during Warlords of Draenor.",
+			-- #if WOD
+			["description"] = "Drops from Big Crate of Salvage.",
 			-- #endif
-			["timeline"] = { REMOVED_3_0_2, ADDED_6_0_2, REMOVED_7_0_3 },
+			["timeline"] = { REMOVED_7_0_3 },
 		}),
 		i(11302),	-- Uther's Strength
 	}),
