@@ -298,6 +298,13 @@ local MissingObjects = {
 	[176693] = "Dreamfoil",
 	[207103] = "Elemental Gate",
 	[211129] = "Signal Flame",
+	[254446] = "Bottle of Arcwine",
+	[254491] = "Nightborne Arms Cache",
+	[254643] = "Bottle of Arcwine",
+	[254645] = "Bottle of Arcwine",
+	[254648] = "Bottle of Arcwine",
+	[254650] = "Bottle of Arcwine",
+	[254654] = "Bottle of Arcwine",
 	[495146] = "Semi-Deluxe Noggenfogger Elixirs",
 }
 
