@@ -336,12 +336,37 @@ WRATH_TAILORING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] =
 	}),
 	n(ARMOR_ENCHANTMENTS, {
 		r(56010),	-- Azure Spellthread
-		r(55769, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Darkglow Embroidery [Rank 1]
-		r(55642, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Lightweave Embroidery [Rank 1]
-		r(56034, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Master's Spellthread [Rank 1]
-		r(56039, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Sanctified Spellthread [Rank 1]
+		r(55769, {	-- Darkglow Embroidery [Rank 1]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			-- #if AFTER CATA
+			["rank"] = 1,
+			-- #endif
+		}),
+		r(55642, {	-- Lightweave Embroidery [Rank 1]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			-- #if AFTER CATA
+			["rank"] = 1,
+			-- #endif
+		}),
+		r(56034, {	-- Master's Spellthread [Rank 1]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			-- #if AFTER CATA
+			["rank"] = 1,
+			-- #endif
+		}),
+		r(56039, {	-- Sanctified Spellthread [Rank 1]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			-- #if AFTER CATA
+			["rank"] = 1,
+			-- #endif
+		}),
 		r(56008),	-- Shining Spellthread
-		r(55777, {["timeline"] = {ADDED_3_0_3,REMOVED_6_0_2}}),	-- Swordguard Embroidery [Rank 1]
+		r(55777, {	-- Swordguard Embroidery [Rank 1]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			-- #if AFTER CATA
+			["rank"] = 1,
+			-- #endif
+		}),
 	}),
 	filter(BAGS, {
 		r(56007),	-- Frostweave Bag
@@ -456,13 +481,28 @@ CATA_TAILORING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = {
 
 	}),
 	n(ARMOR_ENCHANTMENTS, {
-		r(75175, {["timeline"] = {ADDED_4_0_3_LAUNCH,REMOVED_6_0_2}}),	-- Darkglow Embroidery [Rank 2]
+		r(75175, {	-- Darkglow Embroidery [Rank 2]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
 		r(75250),	-- Enchanted Spellthread
 		r(75255),	-- Ghostly Spellthread
-		r(75172, {["timeline"] = {ADDED_4_0_3_LAUNCH,REMOVED_6_0_2}}),	-- Lightweave Embroidery [Rank 2]
-		r(75154, {["timeline"] = {ADDED_4_0_3_LAUNCH,REMOVED_6_0_2}}),	-- Master's Spellthread [Rank 2]
-		r(75155, {["timeline"] = {ADDED_4_0_3_LAUNCH,REMOVED_6_0_2}}),	-- Sanctified Spellthread [Rank 2]
-		r(75178, {["timeline"] = {ADDED_4_0_3_LAUNCH,REMOVED_6_0_2}}),	-- Swordguard Embroidery [Rank 2]
+		r(75172, {	-- Lightweave Embroidery [Rank 2]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(75154, {	-- Master's Spellthread [Rank 2]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(75155, {	-- Sanctified Spellthread [Rank 2]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(75178, {	-- Swordguard Embroidery [Rank 2]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
 	}),
 	filter(BAGS, {
 		r(75264),	-- Embersilk Bag
@@ -634,12 +674,27 @@ MOP_TAILORING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] 
 	}),
 	n(ARMOR_ENCHANTMENTS, {
 		r(125553),	-- Cerulean Spellthread
-		r(125482, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Darkglow Embroidery [Rank 3]
-		r(125481, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Lightweave Embroidery [Rank 3]
-		r(125496, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Master's Spellthread [Rank 3]
+		r(125482, {	-- Darkglow Embroidery [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(125481, {	-- Lightweave Embroidery [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(125496, {	-- Master's Spellthread [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
 		r(125552),	-- Pearlescent Spellthread
-		r(125497, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Sanctified Spellthread [Rank 3]
-		r(125483, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Swordguard Embroidery [Rank 3]
+		r(125497, {	-- Sanctified Spellthread [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(125483, {	-- Swordguard Embroidery [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
 	}),
 	-- #if AFTER BFA
 	filter(MISC, {
