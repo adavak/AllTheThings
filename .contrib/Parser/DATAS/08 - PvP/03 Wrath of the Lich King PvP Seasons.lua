@@ -350,63 +350,68 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 			}),
 			n(PRE_SEASON_HATEFUL, {
 				n(WEAPONS, {
-					moh(80, iensemble(146646, {	-- Arsenal: Hateful Gladiator's Weapons
-						["timeline"] = { ADDED_7_2_0 },
-					})),
-					-- #if AFTER 5.0.0
-					moh(2, i(42563)),	-- Hateful Gladiator's Barrier
+					-- #if ANYCLASSIC
+					["timeline"] = { CREATED_3_0_2 },
 					-- #endif
-					moh(5, i(42512)),	-- Hateful Gladiator's Baton of Light
-					-- #if AFTER 5.0.0
-					moh(5, i(42359)),	-- Hateful Gladiator's Battle Staff
-					moh(5, i(42279)),	-- Hateful Gladiator's Bonecracker
-					moh(5, i(42321)),	-- Hateful Gladiator's Bonegrinder
-					moh(5, i(42231)),	-- Hateful Gladiator's Chopper
-					moh(5, i(42207)),	-- Hateful Gladiator's Cleaver
-					moh(5, i(42316)),	-- Hateful Gladiator's Decapitator
-					moh(2, i(42524)),	-- Hateful Gladiator's Endgame
-					moh(5, i(42383)),	-- Hateful Gladiator's Energy Staff
-					moh(5, i(42269)),	-- Hateful Gladiator's Fleshslicer
-					moh(5, i(44418)),	-- Hateful Gladiator's Focus Staff
-					moh(5, i(42351)),	-- Hateful Gladiator's Gavel
-					moh(5, i(42331)),	-- Hateful Gladiator's Greatsword
-					moh(2, i(42536)),	-- Hateful Gladiator's Grimoire
-					moh(5, i(42226)),	-- Hateful Gladiator's Hacker
-					moh(5, i(42494)),	-- Hateful Gladiator's Heavy Crossbow
-					moh(5, i(42489)),	-- Hateful Gladiator's Longbow
-					moh(5, i(42254)),	-- Hateful Gladiator's Mutilator
-					-- #endif
-					moh(5, i(42518)),	-- Hateful Gladiator's Piercing Touch
-					-- #if AFTER 5.0.0
-					moh(5, i(42326)),	-- Hateful Gladiator's Pike
-					moh(5, i(42274)),	-- Hateful Gladiator's Pummeler
-					moh(5, i(42289)),	-- Hateful Gladiator's Quickblade
-					moh(2, i(42569)),	-- Hateful Gladiator's Redoubt
-					moh(2, i(42530)),	-- Hateful Gladiator's Reprieve
-					moh(5, i(42484)),	-- Hateful Gladiator's Rifle
-					moh(5, i(42259)),	-- Hateful Gladiator's Ripper
-					moh(5, i(42241)),	-- Hateful Gladiator's Shanker
-					moh(2, i(42558)),	-- Hateful Gladiator's Shield Wall
-					moh(5, i(42247)),	-- Hateful Gladiator's Shiv
-					moh(5, i(42264)),	-- Hateful Gladiator's Slasher
-					moh(5, i(42284)),	-- Hateful Gladiator's Slicer
-					moh(5, i(42345)),	-- Hateful Gladiator's Spellblade
-					moh(5, i(42389, {	-- Hateful Gladiator's Staff
-						-- #if ANYCLASSIC
-						["timeline"] = { CREATED_3_0_2 },
+					["groups"] = {
+						moh(80, iensemble(146646, {	-- Arsenal: Hateful Gladiator's Weapons
+							["timeline"] = { ADDED_7_2_0 },
+						})),
+						-- #if AFTER 5.0.0
+						moh(2, i(42563)),	-- Hateful Gladiator's Barrier
 						-- #endif
-					})),
-					-- #endif
-					moh(5, i(42501)),	-- Hateful Gladiator's Touch of Defeat
-					-- #if AFTER 5.0.0
-					moh(5, i(44417)),	-- Hateful Gladiator's War Staff
-					-- #endif
-					moh(5, i(42236)),	-- Hateful Gladiator's Waraxe
-					-- #if AFTER 5.0.0
-					i(42449, {	-- Hateful Gladiator's War Edge (Throw Wep)
-						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
-					}),
-					-- #endif
+						moh(5, i(42512)),	-- Hateful Gladiator's Baton of Light
+						-- #if AFTER 5.0.0
+						moh(5, i(42359)),	-- Hateful Gladiator's Battle Staff
+						moh(5, i(42279)),	-- Hateful Gladiator's Bonecracker
+						moh(5, i(42321)),	-- Hateful Gladiator's Bonegrinder
+						moh(5, i(42231)),	-- Hateful Gladiator's Chopper
+						moh(5, i(42207)),	-- Hateful Gladiator's Cleaver
+						moh(5, i(42316)),	-- Hateful Gladiator's Decapitator
+						moh(2, i(42524)),	-- Hateful Gladiator's Endgame
+						moh(5, i(42383)),	-- Hateful Gladiator's Energy Staff
+						moh(5, i(42269)),	-- Hateful Gladiator's Fleshslicer
+						moh(5, i(44418)),	-- Hateful Gladiator's Focus Staff
+						moh(5, i(42351)),	-- Hateful Gladiator's Gavel
+						moh(5, i(42331)),	-- Hateful Gladiator's Greatsword
+						moh(2, i(42536)),	-- Hateful Gladiator's Grimoire
+						moh(5, i(42226)),	-- Hateful Gladiator's Hacker
+						moh(5, i(42494)),	-- Hateful Gladiator's Heavy Crossbow
+						moh(5, i(42489)),	-- Hateful Gladiator's Longbow
+						moh(5, i(42254)),	-- Hateful Gladiator's Mutilator
+						-- #endif
+						moh(5, i(42518)),	-- Hateful Gladiator's Piercing Touch
+						-- #if AFTER 5.0.0
+						moh(5, i(42326)),	-- Hateful Gladiator's Pike
+						moh(5, i(42274)),	-- Hateful Gladiator's Pummeler
+						moh(5, i(42289)),	-- Hateful Gladiator's Quickblade
+						moh(2, i(42569)),	-- Hateful Gladiator's Redoubt
+						moh(2, i(42530)),	-- Hateful Gladiator's Reprieve
+						moh(5, i(42484)),	-- Hateful Gladiator's Rifle
+						moh(5, i(42259)),	-- Hateful Gladiator's Ripper
+						moh(5, i(42241)),	-- Hateful Gladiator's Shanker
+						moh(2, i(42558)),	-- Hateful Gladiator's Shield Wall
+						moh(5, i(42247)),	-- Hateful Gladiator's Shiv
+						moh(5, i(42264)),	-- Hateful Gladiator's Slasher
+						moh(5, i(42284)),	-- Hateful Gladiator's Slicer
+						moh(5, i(42345)),	-- Hateful Gladiator's Spellblade
+						moh(5, i(42389, {	-- Hateful Gladiator's Staff
+							-- #if ANYCLASSIC
+							["timeline"] = { CREATED_3_0_2 },
+							-- #endif
+						})),
+						-- #endif
+						moh(5, i(42501)),	-- Hateful Gladiator's Touch of Defeat
+						-- #if AFTER 5.0.0
+						moh(5, i(44417)),	-- Hateful Gladiator's War Staff
+						-- #endif
+						moh(5, i(42236)),	-- Hateful Gladiator's Waraxe
+						-- #if AFTER 5.0.0
+						i(42449, {	-- Hateful Gladiator's War Edge (Throw Wep)
+							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
+						}),
+						-- #endif
+					},
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146560, {	-- Ensemble: Hateful Gladiator's Dreadplate Armor
