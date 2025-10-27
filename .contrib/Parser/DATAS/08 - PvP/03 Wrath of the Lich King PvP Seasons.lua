@@ -350,17 +350,22 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 			}),
 			n(PRE_SEASON_HATEFUL, {
 				n(WEAPONS, {
-					-- #if ANYCLASSIC
-					["timeline"] = { CREATED_3_0_2 },
-					-- #endif
-					["groups"] = {
+					["groups"] = sharedData({
+						-- #if ANYCLASSIC
+						["timeline"] = { CREATED_3_0_2 }
+						-- #endif
+					}, {
 						moh(80, iensemble(146646, {	-- Arsenal: Hateful Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
 						})),
 						-- #if AFTER 5.0.0
 						moh(2, i(42563)),	-- Hateful Gladiator's Barrier
 						-- #endif
-						moh(5, i(42512)),	-- Hateful Gladiator's Baton of Light
+						moh(5, i(42512, {
+							-- #if ANYCLASSIC
+							["timeline"] = { ADDED_3_0_2 },
+							-- #endif
+						})),	-- Hateful Gladiator's Baton of Light
 						-- #if AFTER 5.0.0
 						moh(5, i(42359)),	-- Hateful Gladiator's Battle Staff
 						moh(5, i(42279)),	-- Hateful Gladiator's Bonecracker
@@ -380,7 +385,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						moh(5, i(42489)),	-- Hateful Gladiator's Longbow
 						moh(5, i(42254)),	-- Hateful Gladiator's Mutilator
 						-- #endif
-						moh(5, i(42518)),	-- Hateful Gladiator's Piercing Touch
+						moh(5, i(42518, {	-- Hateful Gladiator's Piercing Touch
+							-- #if ANYCLASSIC
+							["timeline"] = { ADDED_3_0_2 },
+							-- #endif
+						})),
 						-- #if AFTER 5.0.0
 						moh(5, i(42326)),	-- Hateful Gladiator's Pike
 						moh(5, i(42274)),	-- Hateful Gladiator's Pummeler
@@ -395,13 +404,13 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						moh(5, i(42264)),	-- Hateful Gladiator's Slasher
 						moh(5, i(42284)),	-- Hateful Gladiator's Slicer
 						moh(5, i(42345)),	-- Hateful Gladiator's Spellblade
-						moh(5, i(42389, {	-- Hateful Gladiator's Staff
+						moh(5, i(42389)),	-- Hateful Gladiator's Staff
+						-- #endif
+						moh(5, i(42501, {	-- Hateful Gladiator's Touch of Defeat
 							-- #if ANYCLASSIC
-							["timeline"] = { CREATED_3_0_2 },
+							["timeline"] = { ADDED_3_0_2 },
 							-- #endif
 						})),
-						-- #endif
-						moh(5, i(42501)),	-- Hateful Gladiator's Touch of Defeat
 						-- #if AFTER 5.0.0
 						moh(5, i(44417)),	-- Hateful Gladiator's War Staff
 						-- #endif
@@ -411,7 +420,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
 						-- #endif
-					},
+					}),
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146560, {	-- Ensemble: Hateful Gladiator's Dreadplate Armor
