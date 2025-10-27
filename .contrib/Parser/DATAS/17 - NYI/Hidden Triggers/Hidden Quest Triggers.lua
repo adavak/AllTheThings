@@ -980,7 +980,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(47495),	-- Insatiable Appetite [UNUSED]
 		q(39044),	-- Unused
 		--q(50690),	-- Unused - Alex: TWW quest in Hallowfall
-		q(54781),	-- UNUSED
+		q(54781),	-- UNUSED - Alex: unflagged with 91938 when I fly into area with Stormmarion Assault in Midnight alpha (spellID 1248080)
 		q(37812),	-- UNUSED: Test Race: 1 Marker
 		q(38845),	-- Unused
 		--q(59038),	-- Got suddenly appeared. Same time as I was chatting. We finished Temple of Jade Serpent, lvl 16, 22, 46 (I'm the 46). Goblin in group with Vulpera Party Sync enabled

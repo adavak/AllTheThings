@@ -460,22 +460,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					i(251183),	-- TODO: missing names
 				},
 			}),
-			q(91084, {	-- Looming Shadows
-				["sourceQuests"] = { 86898 },	-- Rise of the Haranir
-				["provider"] = { "n", 255819 },	-- Elder Hagar
-				["coord"] = { 36.6, 68.4, SILVERMOON_CITY_MID },
-				["isBreadcrumb"] = true,	-- TODO: next quest was up without turn it this one
-			}),
-			q(92061, {	-- Rising Storm
-				["sourceQuests"] = { 91084 },	-- Looming Shadows
-				["provider"] = { "n", 235787 },	-- Lor'themar Theron
-				["coord"] = { 45.4, 70.3, SILVERMOON_CITY_MID },
-			}),
-			q(86543, {	-- agisters' Terrace: Homecoming
-				["sourceQuests"] = { 92061 },	-- Rising Storm
-				["provider"] = { "n", 235386 },	-- Magister Umbric
-				["coord"] = { 45.3, 70.2, SILVERMOON_CITY_MID },
-			}),
 			--Delves
 			q(93421, {	-- Delver's Call: The Grudge Pit
 				["coord"] = { 71.2, 52.1, HARANDAR },
