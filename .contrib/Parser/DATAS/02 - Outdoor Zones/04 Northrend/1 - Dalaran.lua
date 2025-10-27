@@ -1088,11 +1088,22 @@ root(ROOTS.Zones, {
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
 							applyclassicphase(WRATH_PHASE_ONE, n(31864, {	-- Xazi Smolderpipe <Arena Vendor> // Original S5 Vendor // Hateful Gladiator: Season 5 Gladiator Gear
+								-- Wouter NOTE: I adjusted this NPC with Classic specific data starting from MoP, expansions before that may be inaccurate
 								["coord"] = { 58.8, 59.6, NORTHREND_THE_UNDERBELLY },
-								-- #if BEFORE 4.0.3.13277
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL },{ "pop" }},	-- Hateful Gladiator's Set
+								-- #if BEFORE CATA
+								["sym"] = {{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL }, { "pop" }},	-- Hateful Gladiator's Set
+								-- #elseif ANYCLASSIC
+								["sym"] = {
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR }, { "merge" },	-- Relentless Gladiator's Set
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_ELITE }, { "merge" }, { "pop" },		-- Relentless Gladiator's Elite Set
+									{ "not", "headerID", BACK, WAIST, WRIST, FEET },				-- Exclude off-piece headers
+									{ "not", "filterID", NECK_F, FINGER_F, RELICS_F, TRINKET_F },	-- Exclude off-piece filters
+									{ "exclude", "itemID", 49086 }									-- Exclude Relentless Gladiator's Tabard
+								},
 								-- #endif
+								-- #if NOT ANYCLASSIC
 								["timeline"] = { REMOVED_4_0_3 },
+								-- #endif
 							})),
 							-- #if NOT ANYCLASSIC
 							-- Wouter TODO: check if this NPC gets added later in MoP Classic
