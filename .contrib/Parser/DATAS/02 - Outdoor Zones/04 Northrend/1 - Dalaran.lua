@@ -1007,7 +1007,8 @@ root(ROOTS.Zones, {
 									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR }, { "merge" }, { "pop" },	-- Deadly Gladiator's Set
 									{ "not", "headerID", BACK, WAIST, WRIST, FEET },				-- Exclude off-piece headers
 									{ "not", "filterID", NECK_F, FINGER_F, RELICS_F, TRINKET_F },	-- Exclude off-piece filters
-									{ "select", "itemID", 51534 },									-- Add Wrathful Gladiator's Tabard because that's also on the vendor for some reason
+									{ "pop" },						-- Flatten everything out
+									{ "select", "itemID", 51534 },	-- Add Wrathful Gladiator's Tabard because that's also on the vendor for some reason
 								},
 								-- #endif
 								-- #if NOT ANYCLASSIC
@@ -1048,6 +1049,7 @@ root(ROOTS.Zones, {
 								["sym"] = {
 									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_ELITE }, { "merge" },	-- Wrathful Gladiator's Elite Set
 									{ "pop" }, { "where", "headerID", WEAPONS },	-- Pop Elite Set header and select Weapons header
+									{ "pop" },	-- Flatten everything out
 								},
 								-- #endif
 								-- #if NOT ANYCLASSIC
@@ -1098,7 +1100,8 @@ root(ROOTS.Zones, {
 									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_ELITE }, { "merge" }, { "pop" },		-- Relentless Gladiator's Elite Set
 									{ "not", "headerID", BACK, WAIST, WRIST, FEET },				-- Exclude off-piece headers
 									{ "not", "filterID", NECK_F, FINGER_F, RELICS_F, TRINKET_F },	-- Exclude off-piece filters
-									{ "exclude", "itemID", 49086 }									-- Exclude Relentless Gladiator's Tabard
+									{ "exclude", "itemID", 49086 },									-- Exclude Relentless Gladiator's Tabard
+									{ "pop" },	-- Flatten everything out
 								},
 								-- #endif
 								-- #if NOT ANYCLASSIC
@@ -1159,11 +1162,28 @@ root(ROOTS.Zones, {
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
 							applyclassicphase(WRATH_PHASE_ONE, n(31865, {	-- Zom Bocom <Apprentice Arena Vendor> // Original S5 Vendor // Savage Gladiator: Season 5 Honor Gear
+								-- Wouter NOTE: I adjusted this NPC with Classic specific data starting from MoP, expansions before that may be inaccurate
 								["coord"] = { 59.1, 59.6, NORTHREND_THE_UNDERBELLY },
-								-- #if BEFORE 4.0.3.13277
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR },{ "pop" }},	-- Savage Gladiator's Set
+								-- #if BEFORE CATA
+								["sym"] = {{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR }, { "pop" }},	-- Savage Gladiator's Set
+								-- #elseif ANYCLASSIC
+								["sym"] = {
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR },							-- Savage Gladiator's Set
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL },					-- Hateful Gladiator's Set
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR },						-- Deadly Gladiator's Set
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR },						-- Furious Gladiator's Set
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_ELITE }, { "merge" }, { "pop" },	-- Furious Gladiator's Elite Set
+									{ "not", "headerID", BACK, WAIST, WRIST, FEET },				-- Exclude off-piece headers
+									{ "not", "filterID", NECK_F, FINGER_F, RELICS_F, TRINKET_F },	-- Exclude off-piece filters
+									{ "pop" },						-- Flatten everything out
+									{ "exclude", "itemID", 45983 },	-- Exclude Furious Gladiator's Tabard
+									{ "exclude", "itemID", 42214 },	-- Exclude Savage Gladiator's Waraxe
+									{ "exclude", "u", 1 },			-- Exclude items that were never available to begin with
+								},
 								-- #endif
+								-- #if NOT ANYCLASSIC
 								["timeline"] = { REMOVED_4_0_3 },
+								-- #endif
 							})),
 						}),
 					},
