@@ -12,7 +12,6 @@ body:
       options:
         - "Retail"
         - "MoP Classic"
-        - "Cata Classic"
         - "WotLK Classic"
         - "Classic Era"
         - "Hardcore"
@@ -39,8 +38,10 @@ body:
     id: wow_build
     attributes:
       label: "WoW Client Build"
-      description: "Enter the build number of your WoW client (found on the login screen)."
+      description: "Provide the specific WoW build (e.g., from `/dump GetBuildInfo()`[1] & [2] or found on the login screen)."
       placeholder: "e.g., 10.1.7.51000"
+    validations:
+      required: true
 
   - type: dropdown
     id: wow_event
@@ -90,8 +91,10 @@ body:
     id: att_build
     attributes:
       label: "ATT Build Number"
-      description: "Provide the specific ATT build (e.g., from `/att` or addon info)."
+      description: "Provide the specific ATT build (e.g., from `/dump ATTC.Version` or addon info)."
       placeholder: "e.g., 4.1.11(release) / 4.1.11-34-g9b96b53(alpha)"
+    validations:
+      required: true
 
   - type: textarea
     id: bug_description
