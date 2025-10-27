@@ -596,7 +596,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					i(260527),	-- Paintmaker's Walking Stick
 					i(260528),	-- 
 					i(260529),	-- 
-					i(260530),	-- 
+					i(260530),	--
 				},
 			}),
 			---4
