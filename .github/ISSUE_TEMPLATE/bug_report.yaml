@@ -38,7 +38,7 @@ body:
     id: wow_build
     attributes:
       label: "WoW Client Build"
-      description: "Provide the specific WoW build (e.g., from `/dump GetBuildInfo()`[1] & [2] or found on the login screen)."
+      description: "Provide the specific WoW build (e.g., from `/dump GetBuildInfo()` or found on the login screen)."
       placeholder: "e.g., 10.1.7.51000"
     validations:
       required: true
