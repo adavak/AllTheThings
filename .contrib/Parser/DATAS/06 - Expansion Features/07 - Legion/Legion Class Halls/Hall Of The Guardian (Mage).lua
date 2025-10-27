@@ -537,6 +537,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42166,	-- What Is Going On Here?
 						["provider"] = { "n", 106656 },	-- Esara Verrinde
 						["coord"] = { 66.4, 33.5, AZSUNA },
+						["groups"] = {
+							o(249739, {	-- Empyrean Fel Tome
+								["coords"] = {
+									{ 64.4, 33.4, AZSUNA },
+									{ 64.9, 32.4, AZSUNA },
+									{ 65.2, 32.6, AZSUNA },
+									{ 65.9, 33.8, AZSUNA },
+									{ 66.0, 32.6, AZSUNA },
+								},
+								["groups"] = { i(136981) },	-- Empyrean Fel Tome (QI!)
+							}),
+						},
 					}),
 					q(42206, {	-- The Next Level Has Arrived
 						["sourceQuest"] = 42166,	-- What Is Going On Here?
@@ -550,6 +562,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 106656 },	-- Esara Verrinde
 						["coord"] = { 66.4, 33.5, AZSUNA },
+						["groups"] = {
+							o(265474, {	-- Fel Chest
+								["coord"] = { 66.1, 32.6, AZSUNA },
+								["groups"] = { i(137210) },	-- A Missive from Archmage Vargoth (QI!)
+							}),
+						},
 					}),
 					q(42222, {	-- Empyrean Society Report
 						["sourceQuest"] = 42171,	-- Final Exit
@@ -587,6 +605,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42416,	-- The Council is in Session
 						["provider"] = { "n", 90431 },	-- Archmage Ansirem Runeweaver
 						["coord"] = { 28.4, 49.4, LEGION_DALARAN },
+						["groups"] = {
+							o(250417, {	-- Archmage Vargoth's Journal
+								["coord"] = { 21.8, 53.2, LEGION_DALARAN },
+								["groups"] = { i(137571) },	-- Archmage Vargoth's Journal (QI!)
+							}),
+						}
 					}),
 					q(42424, {	-- Following In His Footsteps
 						["sourceQuest"] = 42423,	-- Archmage Vargoth's Retreat
@@ -617,7 +641,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42493, {	-- Impending Dooooooom!
 						["sourceQuest"] = 42521,	-- The Enemy of My Enemy...
 						["provider"] = { "n", 108085 },	-- Image of Kalec
-						["coord"] = { 64.2, 29.5, 683 },
+						["coord"] = { 64.2, 29.5, 683 },	-- The Arcway Vaults
 						["maps"] = { SURAMAR },
 					}),
 					q(42520, {	-- A Terrible Loss
@@ -626,7 +650,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							42494,	-- More Than Just A Food Vendor
 						},
 						["provider"] = { "n", 108085 },	-- Image of Kalec
-						["coord"] = { 41.7, 59.8, 683 },
+						["coord"] = { 42.0, 60.8, 683 },	-- The Arcway Vaults
 						["maps"] = { SURAMAR },
 						["groups"] = {
 							i(139754),	-- Bracers of Tirisgarde
@@ -901,7 +925,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42954, {	-- A Small Favor
 						["sourceQuest"] = 42222,	-- Empyrean Society Report
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
-						["coord"] = { 55.5, 77.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+						["coord"] = { 71.4, 55.3, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 					}),
 					q(42955, {	-- The Proper Way of Things
 						["sourceQuest"] = 42954,	-- A Small Favor
