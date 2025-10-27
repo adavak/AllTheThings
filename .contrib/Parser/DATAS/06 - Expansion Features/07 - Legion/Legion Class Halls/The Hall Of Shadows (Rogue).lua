@@ -479,8 +479,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 						["coord"] = { 40.8, 75.3, THE_HALL_OF_SHADOWS },
 					}),
+					q(91620, {	-- Noggenfogger's Reasonable Request (Remix)
+						["sourceQuest"] = 44181,	-- Champion: Fleet Admiral Tethys
+						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
+						["coord"] = { 40.8, 75.3, THE_HALL_OF_SHADOWS },
+					}),
 					q(44178, {	-- A Particularly Potent Potion
-						["sourceQuest"] = 42730,	-- Noggenfogger's Reasonable Request
+						["sourceQuests"] = {
+							42730,	-- Noggenfogger's Reasonable Request
+							91620,	-- Noggenfogger's Reasonable Request (Remix)
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 102594 },	-- Marin Noggenfogger
 						["coord"] = { 30.5, 70.4, THE_HALL_OF_SHADOWS },
 					}),

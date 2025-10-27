@@ -777,6 +777,8 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 108063 },	-- Korine
 					["coord"] = { 44.2, 73.0, SURAMAR },
 					["groups"] = {
+						i(138301),	-- Control Orb (QI!
+						--
 						i(130209, {	-- Never Ending Toy Chest (TOY!)
 							i(140753),	-- Half Eaten Candy Bar
 						}),
@@ -786,6 +788,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42486,	-- Little One Lost
 					["provider"] = { "n", 107598 },	-- Vanthir
 					["coord"] = { 48.4, 83.2, SURAMAR },
+					["groups"] = { i(138389) },	-- Gift-Wrapped Bottle of Arcwine (QI!)
 				}),
 				q(44053, {	-- Friends With Benefits
 					["sourceQuest"] = 43318,	-- Ly'leth's Champion
@@ -1594,6 +1597,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40947,	-- Special Delivery
 					["provider"] = { "n", 107997 },	-- Silgryn
 					["coord"] = { 48.2, 83.2, SURAMAR },
+					["groups"] = { i(138147) },	-- Control Orb (QI!)
 				}),
 				q(41030, {	-- Sigil Reclamation
 					["description"] = "Automated granted when approaching the first fallen Moon Guard member.",
@@ -1642,7 +1646,10 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41148,	-- Dispensing Compassion
 					["provider"] = { "n", 108411 },	-- Silgryn
 					["coord"] = { 48.2, 83.2, SURAMAR },
-					["groups"] = { i(137601) },	-- Stack of Letters (QI!)
+					["groups"] = {
+						i(137299),	-- Nightborne Spellblade (QI!)
+						i(137601),	-- Stack of Letters (QI!)
+					},
 				}),
 				q(41499, {	-- Squid Out of Water
 					["sourceQuests"] = {

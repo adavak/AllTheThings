@@ -103,7 +103,9 @@ root(ROOTS.Zones, {
 				}),
 				petbattle(q(40337)),	-- Flummoxed
 				q(43932),	-- Forces of Oppression
-				q(42209),	-- Freeing the Taken
+				q(42209, {	-- Freeing the Taken
+					i(138301),	-- Control Orb (QI!
+				}),
 				q(41448, {	-- Heavy Felslate Deposits
 					["requireSkill"] = MINING,
 				}),
@@ -164,6 +166,7 @@ root(ROOTS.Zones, {
 				q(44812),	-- Running on Empty
 				q(44799),	-- Safe Keeping
 				q(42962, {	-- Secret Correspondence
+					i(137299),	-- Nightborne Spellblade (QI!)
 					i(137601),	-- Stack of Letters (QI!)
 				}),
 				q(42725, {	-- Sharing the Wealth

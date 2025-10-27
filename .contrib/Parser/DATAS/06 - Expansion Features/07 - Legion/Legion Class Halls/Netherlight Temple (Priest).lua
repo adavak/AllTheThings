@@ -380,6 +380,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43390 },	-- Forgotten Shadows
 						["provider"] = { "n", 111041 },	-- Micah Belford
 						["coord"] = { 24.2, 37.8, DUSKWOOD },
+						["groups"] = { i(139772) },	-- Natalie's Journal (QI!)
 					}),
 					q(43392, {	-- Into the Void
 						["sourceQuest"] = 43391,	-- Secrets of the Void
@@ -459,6 +460,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43797 },	-- Aiding the Conclave
 						["provider"] = { "n", 109776 },	-- Moira Thaurissan
 						["coord"] = { 51.5, 45.9, NETHERLIGHT_TEMPLE },
+						["groups"] = { i(140191) },	-- Lumenstone (QI!)
 					}),
 					q(43401, {	-- A Light in the Darkness
 						["sourceQuests"] = {
@@ -587,11 +589,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43374 },	-- Murloc Mind Control (must pick up for this quest to be available)
 						["provider"] = { "n", 110686 },	-- Zabra Hexx
 						["coord"] = { 58.5, 37.2, AZSUNA },
+						["groups"] = {
+							o(252167, {	-- Supply Crate
+								["coords"] = {
+									{ 49.3, 37.1, AZSUNA },
+									{ 49.9, 35.2, AZSUNA },
+									{ 50.0, 36.5, AZSUNA },
+									{ 50.1, 33.6, AZSUNA },
+									{ 50.7, 34.7, AZSUNA },
+									{ 51.3, 34.2, AZSUNA },
+									{ 51.9, 33.4, AZSUNA },
+									{ 52.5, 34.2, AZSUNA },
+								},
+								["groups"] = { i(139458) },	-- Felbat Toxin Salve (QI!)
+							}),
+						},
 					}),
 					q(43383, {	-- Awakening the Light
 						["sourceQuests"] = { 43377 },	-- Halls of Valor: The Light Within
 						["provider"] = { "n", 102587 },	-- Saa'ra
 						["coord"] = { 75.7, 40.7, NETHERLIGHT_TEMPLE },
+						["groups"] = { i(139368) },	-- Pure Holy Light (QI!)
 					}),
 					q(43380, {	-- Champion: Sol
 						["sourceQuests"] = { 43383 },	-- Awakening the Light
@@ -630,11 +648,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 110687 },	-- Yalia Sagewhisper
 						["coord"] = { 47.1, 43.9, AZSUNA },
+						["groups"] = { i(139464) },	-- Lens of the Tides (QI!)
 					}),
 					q(43377, {	-- Halls of Valor: The Light Within
 						["sourceQuests"] = { 43379 },	-- Velen's Vision
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
 						["coord"] = { 50.9, 46.8, NETHERLIGHT_TEMPLE },
+						["groups"] = { i(139485) },	-- Spark of Light (QI!)
 					}),
 					q(43385, {	-- Infiltrating Our Enemies
 						["sourceQuests"] = { 43380 },	-- Champion: Sol
@@ -653,6 +673,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 112487 },	-- Yalia Sagewhisper
 						["coord"] = { 58.5, 37.2, AZSUNA },
+						["groups"] = { i(139463) },	-- Felbat Toxin Salve (QI!)
 					}),
 					q(43851, {	-- Recruiting More Troops
 						["sourceQuests"] = { 43379 },	-- Velen's Vision

@@ -217,11 +217,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								44310,	-- Thrice the Power
 							},
 							["sourceQuestNumRequired"] = 1,
-							["provider"] = { "n", 102700 },	-- Meryl Felstorm
-							["coord"] = { 55.3, 38.1, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-							["groups"] = {
-								i(136694),	-- Ancient Scrolls of Meitre (QI!)
+							["qgs"] = {
+								102700,	-- Meryl Felstorm
+								109222,	-- Meryl Felstorm
 							},
+							["coords"] = {
+								{ 55.3, 38.1, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+								{ 71.6, 60.2, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+							},
+							["groups"] = { i(136694) },	-- Ancient Scrolls of Meitre (QI!)
 						}),
 						q(42006, {	-- A New Threat
 							["sourceQuests"] = { 42001 },	-- Aluneth, Greatstaff of the Magna
@@ -257,11 +261,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 27.8, 26.7, BOREAN_TUNDRA },
 							["maps"] = { 736 },	-- The Nexus (Scenario Map)
 							["groups"] = {
-								i(127857, {	-- Aluneth
-									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(126),	-- Aluneth
-									},
+								o(249814, {	-- Aluneth
+									i(127857, {	-- Aluneth
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = {
+											artifact(126),	-- Aluneth
+										},
+									}),
 								}),
 							},
 						}),
@@ -320,18 +326,37 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 42452,	-- Finding Ebonchill
 							["provider"] = { "n", 102846 },	-- Alodi
 							["coord"] = { 60.6, 43.4, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+							["groups"] = {
+								o(250576, {	-- Powerful Mana Gem
+									["coords"] = {
+										{ 51.0, 15.4, LEGION_DALARAN },
+										{ 53.8, 18.6, LEGION_DALARAN },
+										{ 54.0, 15.6, LEGION_DALARAN },
+									},
+									["groups"] = { i(141317) },	-- Powerful Mana Gem (QI!)
+								}),
+							},
 						}),
 						q(42476, {	-- The Deadwind Site
 							["sourceQuest"] = 42452,	-- Finding Ebonchill
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 59.1, 43.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 							["groups"] = {
-								i(141327),	-- Functional Ward (QI!)
+								o(250602, {	-- Functional Ward
+									["coord"] = { 35.9, 64.2, DEADWIND_PASS },
+									["groups"] = { i(141327) },	-- Functional Ward (QI!)
+								}),
 								i(173698, {	-- Karazhan Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
-								i(141329),	-- Ritual Focusing Crystal (QI!)
-								i(141328),	-- Ritual Notes (QI!)
+								o(250611, {	-- Ritual Focusing Crystal
+									["coord"] = { 34.2, 59.9, DEADWIND_PASS },
+									["groups"] = { i(141329) },	-- Ritual Focusing Crystal (QI!)
+								}),
+								o(250600, {
+									["coord"] = { 35.1, 62.3, DEADWIND_PASS },
+									["groups"] = { i(141328) },	-- Ritual Notes (QI!)
+								}),
 							},
 						}),
 						q(42477, {	-- Daio the Decrepit
@@ -354,10 +379,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 59.1, 43.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 							["groups"] = {
-								i(128862, {	-- Ebonchill
-									["ItemAppearanceModifierID"] = 9,
+								o(251049, {	-- Ebonchill
+									["coord"] = { 67.1, 92.8, BROKEN_ISLES },
 									["groups"] = {
-										artifact(168),	-- Ebonchill
+										i(128862, {	-- Ebonchill
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(168),	-- Ebonchill
+											},
+										}),
 									},
 								}),
 							},

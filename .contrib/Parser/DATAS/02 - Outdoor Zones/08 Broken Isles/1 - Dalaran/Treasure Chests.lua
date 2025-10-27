@@ -46,13 +46,14 @@ root(ROOTS.Zones, {
 				}),
 				o(252331, {	-- Traveler Pepe
 					["coords"] = {
-						{ 42.31, 57.51, LEGION_DALARAN },	-- Near Fruit Vendor
-						{ 48.01, 58.01, LEGION_DALARAN },	-- Stairs to Curiositiese & Moore
-						{ 47.71, 32.31, LEGION_DALARAN },	-- Magus Commerce Exchange well
-						{ 47.31, 37.61, LEGION_DALARAN },	-- Legerdemain Lounge
-						{ 40.01, 28.01, LEGION_DALARAN },	-- Things of the Past
-						{ 42.01, 19.01, LEGION_DALARAN },	-- Antonidas Memoria
-						{ 36.01, 37.01, LEGION_DALARAN },	-- Angelique Butler (First Aid Shop)
+						{ 34.1, 49.4, LEGION_DALARAN },
+						{ 42.3, 57.5, LEGION_DALARAN },	-- Near Fruit Vendor
+						{ 48.0, 58.0, LEGION_DALARAN },	-- Stairs to Curiositiese & Moore
+						{ 47.7, 32.3, LEGION_DALARAN },	-- Magus Commerce Exchange well
+						{ 47.3, 37.6, LEGION_DALARAN },	-- Legerdemain Lounge
+						{ 40.0, 28.0, LEGION_DALARAN },	-- Things of the Past
+						{ 42.0, 19.0, LEGION_DALARAN },	-- Antonidas Memoria
+						{ 36.0, 37.0, LEGION_DALARAN },	-- Angelique Butler (First Aid Shop)
 					},
 					["groups"] = {
 						i(139632),	-- A Tiny Pair of Goggles (Pepe!)

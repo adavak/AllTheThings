@@ -529,6 +529,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
+						["groups"] = { i(139634) },	-- Lumenstone (QI!)
 					}),
 					q(43699, {	-- Defenders of the World
 						["sourceQuests"] = {
