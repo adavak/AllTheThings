@@ -12,10 +12,10 @@ ach(5536,{awp=40003,rwp=60002}),
 ach(5537,{awp=40003,rwp=60002}),
 ach(5538,{awp=40003,rwp=60002}),
 ach(6924,{awp=50004,rwp=60002}),
-ach(523,{awp=30002}),
-ach(524,{awp=30002}),
-ach(521,{awp=30002}),
-ach(520,{awp=30002}),
+ach(523),
+ach(524),
+ach(521),
+ach(520),
 ach(519,{awp=20001,u=17}),
 ach(518,{awp=20001,u=17}),
 ach(1014,{awp=20001,u=18}),
@@ -30,13 +30,13 @@ ach(2358,{awp=30100,c={2},rwp=40003,u=2}),
 ach(16,{awp=30002,rwp=40001,u=2}),
 ach(2716,{awp=30100,rwp=70003}),
 ach(558,{awp=30002,rwp=80001,u=30}),
-ach(2336,{awp=30002,description="Insane in the Membrane is a Feat of Strength that rewards the title <The Insane>. This feat requires you to become honored with the Bloodsail Buccaneers and exalted with the Steamwheedle Cartel (Booty Bay, Everlook, Gadgetzan, Ratchet), Ravenholdt, and the Darkmoon Faire. After Cataclysm it does not require that all of these reputation levels be reached at the same time, however, prior to that you must have them all at the same time. Raising reputation with these factions is typically very difficult, time-consuming, and costly.",u=13,g={
+ach(2336,{description="Insane in the Membrane is a Feat of Strength that rewards the title <The Insane>. This feat requires you to become honored with the Bloodsail Buccaneers and exalted with the Steamwheedle Cartel (Booty Bay, Everlook, Gadgetzan, Ratchet), Ravenholdt, and the Darkmoon Faire. After Cataclysm it does not require that all of these reputation levels be reached at the same time, however, prior to that you must have them all at the same time. Raising reputation with these factions is typically very difficult, time-consuming, and costly.",u=13,g={
 title(112,{awp=30002,u=13})}}),
 ach(4496,{awp=30002}),
-ach(6,{awp=30002}),
-ach(7,{awp=30002}),
-ach(8,{awp=30002}),
-ach(9,{awp=30002}),
+ach(6),
+ach(7),
+ach(8),
+ach(9),
 ach(10,{rwp=90001}),
 ach(11,{rwp=90001}),
 ach(12,{awp=20001,rwp=90001,u=17}),
@@ -154,7 +154,7 @@ ach(6870,{awp=50004,rwp=50200,u=2}),
 ach(6867,{awp=50004,rwp=50200,u=2}),
 ach(6871,{awp=50004,rwp=50200,u=2}),
 ach(6872,{awp=50004,rwp=50200,u=2}),
-ach(522,{awp=30002}),
+ach(522),
 ach(16433,{awp=11403,rwp=11500,u=2,g={
 title(143,{awp=30400,u=1604})}}),
 ach(1832,{awp=30002,g={
@@ -732,10 +732,10 @@ ach(2537,{awp=30002,r=1,u=30,g={
 mnt(61997,{awp=30002,b=1,itemID=44842,lvl=70,q=4,u=30})}}),
 ach(2143,{awp=20001,u=17,g={
 mnt(60025,{awp=20001,b=1,itemID=44178,lvl=70,q=4,u=30})}}),
-ach(2142,{awp=30002}),
-ach(2141,{awp=30002})})}),
+ach(2142),
+ach(2141)})}),
 h(-17,{
-x(2,{awp=20000,u=3,g={
+x(2,{u=3,g={
 cl(11,{awp=11307,rwp=30400,u=2,g={
 s(145543,186055,{awp=11307,b=1,f=28,lvl=58,q=2,rwp=30400,u=2}),
 s(116794,186026,{awp=11307,b=1,f=5,lvl=58,q=2,rwp=30400,u=2}),
@@ -861,7 +861,7 @@ i(185985,{awp=11307,b=1,f=53,lvl=58,q=2,rwp=30400,u=2}),
 i(185986,{awp=11307,b=1,f=53,lvl=58,q=2,rwp=30400,u=2}),
 i(185987,{awp=11307,b=1,f=53,lvl=58,q=2,rwp=30400,u=2}),
 i(185988,{awp=11307,b=1,f=53,lvl=58,q=2,rwp=30400,u=2})}}),
-x(3,{awp=30000,u=3,g={
+x(3,{u=3,g={
 cl(11,{awp=30400,rwp=30403,u=2,g={
 s(182222,199713,{awp=30400,b=1,f=28,lvl=70,q=2,rwp=30403,u=2}),
 s(182044,199463,{awp=30400,b=1,f=5,lvl=70,q=2,rwp=30403,u=2}),
@@ -986,7 +986,7 @@ i(199527,{awp=30400,b=1,f=53,lvl=70,q=2,rwp=30403,u=2}),
 i(199528,{awp=30400,b=1,f=53,lvl=70,q=2,rwp=30403,u=2}),
 i(199529,{awp=30400,b=1,f=53,lvl=70,q=2,rwp=30403,u=2}),
 i(199530,{awp=30400,b=1,f=53,lvl=70,q=2,rwp=30403,u=2})}}),
-x(4,{awp=40000,u=3,g={
+x(4,{u=3,g={
 cl(11,{awp=40400,rwp=40402,u=2,g={
 s(190811,209529,{awp=30403,b=1,f=5,lvl=80,q=2,rwp=40400,u=2}),
 s(190812,209530,{awp=30403,b=1,f=5,lvl=80,q=2,rwp=40400,u=2}),
@@ -1393,7 +1393,7 @@ i(209695,{awp=30403,b=1,f=53,lvl=80,q=2,rwp=40400,u=2}),
 i(209780,{awp=30403,b=1,f=53,lvl=80,q=2,rwp=40400,u=2}),
 i(209697,{awp=30403,b=1,f=53,lvl=80,q=2,rwp=40400,u=2}),
 i(209696,{awp=30403,b=1,f=53,lvl=80,q=2,rwp=40400,u=2})}}),
-x(5,{awp=50000,g={
+x(5,{
 ah(4826,{awp=40402,type="a",u=3,g={
 cl(6,{awp=40402,u=3,g={
 s(275329,92110,{awp=40402,b=1,f=25,lvl=85,q=2,u=3}),
@@ -2106,7 +2106,7 @@ s(281329,101298,{awp=50407,b=1,f=7,lvl=90,q=2,rwp=60002,u=54}),
 i(101304,{awp=50407,b=1,f=52,lvl=90,q=2,rwp=60002,u=54}),
 i(101305,{awp=50407,b=1,f=52,lvl=90,q=2,rwp=60002,u=54}),
 i(101303,{awp=50407,b=1,f=53,lvl=90,q=2,rwp=60002,u=54}),
-i(101306,{awp=50407,b=1,f=53,lvl=90,q=2,rwp=60002,u=54})}})}})}})}})}),
+i(101306,{awp=50407,b=1,f=53,lvl=90,q=2,rwp=60002,u=54})}})}})}})})}),
 h(-31,{
 faction(469,{collectible=false,r=2,sharedDescription="This is a hidden reputation. It might not count towards reputation achievements."}),
 faction(891,{collectible=false,r=2,sharedDescription="This is a hidden reputation. It might not count towards reputation achievements."}),
@@ -2443,7 +2443,7 @@ crit(3733,{achID=557,awp=30002,id=12,rwp=40003,u=2})}}),
 ach(5180,{awp=40001,rank=5,spellID=90265,u=40}),
 ach(7380,{awp=50004}),
 ach(7382,{awp=50004}),
-ach(889,{awp=30002,rank=2,spellID=33391}),
+ach(889,{rank=2,spellID=33391}),
 ach(1176,{awp=30002,rank=100}),
 ach(1177,{awp=30002,rank=1000}),
 ach(1178,{awp=30002,rank=5000}),
@@ -2452,7 +2452,7 @@ ach(1181,{awp=30002,rank=25000}),
 ach(5455,{awp=40003,rank=50000}),
 ach(5456,{awp=40003,rank=100000}),
 ach(6753,{awp=50004,rank=200000}),
-ach(891,{awp=30002}),
+ach(891),
 ach(890,{awp=20001,rank=3,spellID=34090,u=17}),
 ach(705,{awp=30002,rwp=40001,u=2,g={
 crit(5586,{achID=705,awp=30002,id=15,learnedAt=400,requireSkill=228,rwp=40001,u=2}),
@@ -2472,7 +2472,7 @@ crit(5583,{achID=705,awp=30002,id=6,learnedAt=400,requireSkill=46,rwp=40001,u=2}
 crit(5587,{achID=705,awp=30002,id=16,learnedAt=400,requireSkill=176,rwp=40001,u=2})}}),
 ach(7384,{awp=50004}),
 ach(621,{awp=30002,providers={{"i",28788},{"i",31779},{"i",20131},{"i",25549},{"i",22999},{"i",38314},{"i",35221},{"i",24004},{"i",23388},{"i",19505},{"i",19031},{"i",23999},{"i",15198},{"i",31778},{"i",32828},{"i",15196},{"i",31781},{"i",32445},{"i",20132},{"i",38310},{"i",31775},{"i",15199},{"i",23709},{"i",38309},{"i",31780},{"i",31777},{"i",11364},{"i",19032},{"i",23705},{"i",31774},{"i",35279},{"i",38313},{"i",31405},{"i",5976},{"i",31776},{"i",19160},{"i",23192},{"i",31804},{"i",43349},{"i",43348},{"i",31404},{"i",31773},{"i",43300},{"i",43154},{"i",43155},{"i",43156},{"i",43157},{"i",45983},{"i",35280},{"i",38311},{"i",69210},{"i",19506},{"i",52252},{"i",24344},{"i",49086},{"i",36941},{"i",15197},{"i",51534},{"i",38312},{"i",64884},{"i",49054},{"i",65905},{"i",65908},{"i",46817},{"i",46818},{"i",46874},{"i",45585},{"i",45582},{"i",45583},{"i",45584},{"i",45579},{"i",45580},{"i",45578},{"i",45577},{"i",45574},{"i",49052},{"i",63378},{"i",64882},{"i",45581},{"i",40643},{"i",65909},{"i",65907},{"i",65906},{"i",65904},{"i",63379},{"i",56246},{"i",69209},{"i",83080},{"i",83079},{"i",89796},{"i",89196},{"i",89401},{"i",89784},{"i",89800},{"i",89795},{"i",89797},{"i",89798},{"i",89799}},rank=1}),
-ach(546,{awp=30002}),
+ach(546),
 ach(545,{awp=30002,maps={84,85,125}}),
 ach(1020,{awp=30002,rank=10,g={
 crit(2338,{achID=1020,awp=30002,id=4,providers={{"i",28788}}}),

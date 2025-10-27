@@ -2334,7 +2334,7 @@ i(14048,{q=1}),
 i(4305,{q=1}),
 i(2997,{q=1}),
 i(14342,{coords={{49.06,33.58,47},{57.11,37.52,56},{10.77,74.71,76},{43.1,80.27,89},{48.05,18.54,89},{13.13,26.23,95},{45.02,23.54,108}},description="Coordinates are for select Moonwells around the world.",q=1})})})}),
-x(2,{awp=20000,u=17,g={
+x(2,{u=17,g={
 prof(171,{awp=20005,u=17,g={
 h(-26,{awp=20005,u=17,g={
 r(41458,{awp=20100,learnedAt=360,requireSkill=171,u=17}),
@@ -3410,7 +3410,7 @@ i(21844,{awp=20005,q=1,u=17}),
 i(21845,{awp=20005,coords={{49.06,33.58,47},{57.11,37.52,56},{10.77,74.71,76},{43.1,80.27,89},{48.05,18.54,89},{13.13,26.23,95},{45.02,23.54,108}},description="Coordinates are for select Moonwells around the world.",q=3,u=17}),
 i(24272,{awp=20005,coords={{58.3,70.9,104}},q=3,u=17}),
 i(24271,{awp=20005,maps={109},q=3,u=17})}})}})}}),
-x(3,{awp=30000,u=30,g={
+x(3,{u=30,g={
 prof(171,{awp=30003,u=30,g={
 h(-22,{awp=30003,u=30,g={
 i(40411,{awp=30002,description="Can be bought from Alchemy Suppliers, as well as some Trade vendors around the world.",rwp=40001,u=2})}}),
@@ -4691,7 +4691,7 @@ i(41511,{awp=30003,q=2,u=30}),
 i(41593,{awp=30003,q=3,u=30}),
 i(41594,{awp=30003,q=3,u=30}),
 i(41595,{awp=30003,q=3,u=30})}})}})}}),
-x(4,{awp=40000,u=40,g={
+x(4,{u=40,g={
 prof(171,{awp=40003,u=40,g={
 flt(55,{awp=40003,u=40,g={
 i(65460,{awp=40003,b=1,f=55,q=1,u=40}),
@@ -5793,7 +5793,7 @@ i(54442,{awp=40003,f=55,q=1,requireSkill=197,u=40})}}),
 flt(56,{awp=40003,u=40,g={
 i(53643,{awp=40003,q=1,u=40}),
 i(54440,{awp=40003,b=1,q=3,u=40})}})}})}}),
-x(5,{awp=50000,u=50,g={
+x(5,{u=50,g={
 prof(171,{awp=50004,u=50,g={
 h(-26,{awp=50004,u=50,g={
 r(114774,{awp=50004,learnedAt=575,requireSkill=171,u=50}),
@@ -7505,9 +7505,9 @@ p(1040,{awp=50100,itemID=90902,npcID=67233,q=2,spellID=132580,u=51})}})}}),
 flt(56,{awp=50004,u=50,g={
 i(82441,{awp=50004,q=1,u=50}),
 i(82447,{awp=50004,b=1,q=3,u=50})}})}}),
-h(-45,{awp=50000,g={
-q(31752,{awp=50000,isDaily=1,qgs={43929},g={
-i(86623,{awp=50000,b=1,q=2,sym={{"select","itemID",87250,87251,41508,44413,15996,11826,4401,11825,21277}},g={
+h(-45,{
+q(31752,{isDaily=1,qgs={43929},g={
+i(86623,{b=1,q=2,sym={{"select","itemID",87250,87251,41508,44413,15996,11826,4401,11825,21277}},g={
 i(97985,{awp=50300,b=1,description="This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",lvl=90,q=1,rwp=70003,u=53}),
-p(1320,{awp=50000,b=1,itemID=103670,npcID=73011,q=3,spellID=147124}),
-i(90561,{awp=50000})}})}})}})}})};
+p(1320,{b=1,itemID=103670,npcID=73011,q=3,spellID=147124}),
+i(90561)}})}})})}})};

@@ -6746,7 +6746,7 @@ e(483,{npcID=7273,g={
 i(8707,{q=1}),
 s(122909,9467,{b=1,f=20,lvl=44,q=3}),
 s(122911,9469,{b=1,f=6,lvl=44,q=3})}})}})}),
-x(2,{awp=20000,u=17,g={
+x(2,{u=17,g={
 h(-12,{awp=20001,u=17,g={
 ach(1287,{awp=30002,u=17}),
 ach(1284,{awp=30002,u=17}),
@@ -9984,7 +9984,7 @@ i(27896,{awp=20001,b=1,f=53,lvl=70,modID=2,q=3,u=17}),
 i(27770,{awp=20001,b=1,f=53,lvl=70,modID=2,q=3,u=17}),
 i(23572,{awp=20001,modID=2,q=3,u=17}),
 i(33826,{awp=20001,q=1,u=17})}})}})}})}}),
-x(3,{awp=30000,u=30,g={
+x(3,{u=30,g={
 h(-12,{awp=30002,u=30,g={
 ach(1658,{awp=30002,u=30,g={
 title(97,{awp=30002,u=30})}}),
@@ -17910,8 +17910,8 @@ e(643,{awp=30002,npcID=26693,u=33,g={
 crit(63369,{achID=19437,awp=30002,id=3,u=33})}}),
 e(644,{awp=30002,npcID=26861,u=33,g={
 crit(63366,{achID=19437,awp=30002,id=1,u=33})}})}}))}})}}),
-x(4,{awp=40000,u=40,g={
-h(-12,{awp=40000,u=40,g={
+x(4,{u=40,g={
+h(-12,{u=40,g={
 ach(4844,{awp=40000,u=40,g={
 crit(13554,{achID=4845,awp=40000,id=1,u=40})}}),
 ach(5506,{awp=40000,u=40,g={
@@ -20810,7 +20810,7 @@ s(212371,69621,{awp=40100,b=1,f=20,lvl=85,modID=2,q=4,u=4001}),
 s(212373,69623,{awp=40100,b=1,f=5,lvl=85,modID=2,q=4,u=4001}),
 s(212377,69627,{awp=40100,b=1,f=8,lvl=85,modID=2,q=4,u=4001}),
 n(52167,{awp=40100,description="|CFFFF0000At least one MUST be killed prior to Jin'do the Godbreaker encounter Phase 2 start, otherwise fight will be impossible.|r\n\nIn Phase 2 their spirits will spawn and they must be pulled up to Hakkar's chains in order to break them with their ability 'Body Slam'.",u=4001})}})}})}})}}),
-x(5,{awp=50000,u=50,g={
+x(5,{u=50,g={
 h(-12,{awp=50004,u=50,g={
 ach(6920,{awp=50004,rwp=60002,u=50}),
 ach(6374,{awp=50004,rwp=60002,u=50,g={

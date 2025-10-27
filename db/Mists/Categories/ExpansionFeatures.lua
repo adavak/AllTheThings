@@ -2,7 +2,7 @@
 local appName, _ = ...;
 local ach,ah,cl,crit,cu,exp,faction,flt,fp,h,heir,i,m,mnt,n,o,p,prof,q,qo,r,s,settings,sp,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateCharacterClass,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateHeirloom,_.CreateItem,_.CreateMap,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateQuestObjective,_.CreateRecipe,_.CreateItemSource,_.Settings,_.CreateSpell,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 _.Categories.ExpansionFeatures={
-x(2,{awp=20000,g={
+x(2,{
 ah(1015,{awp=20100,description="The Netherwing, sometimes called the Netherwing dragonflight, are the main faction of the nether dragons in Outland.\nAlthough generally hostile to most humanoids based on their treatment by the Dragonmaw clan of orcs in Shadowmoon Valley, they can be swayed to change their attitude if tasks to aid them are completed.",icon=132250,lvl=70,maps={104},type="fa",u=1901,g={
 h(-12,{awp=20100,u=1901,g={
 ach(898,{awp=20100,minReputation={1015,42000},u=1901})}}),
@@ -116,8 +116,8 @@ i(32427,{awp=20100,b=1,crs={23169,23264,23267,23269,23285,23286,23305,23324,2332
 i(32506,{awp=20100,b=1,crs={23169,23264,23269,23285,23286,23324,23326,23501},providers={{"o",185881},{"o",185915},{"o",185877}},q=2,u=1901}),
 i(32621,{awp=20100,b=1,coords={{74.6,86.5,104}},crs={23267},lvl=70,minReputation={1015,0},q=1,u=1901}),
 i(32724,{awp=20100,b=1,coords={{69.4,86,104}},crs={23286},q=1,sym={{"select","itemID",32506,32464,32468,32470}},u=1901,g={
-i(32726,{awp=20100,b=1,lvl=70,q=1,u=1901})}})}})}})}}),
-x(3,{awp=30000,g={
+i(32726,{awp=20100,b=1,lvl=70,q=1,u=1901})}})}})}})}),
+x(3,{
 h(-413,{awp=30200,maps={118,170},u=31,g={
 h(-12,{awp=30200,u=31,g={
 ach(3676,{awp=30200,minReputation={1094,42000},r=2,sourceQuests={13702,13732,13733,13734,13735},u=31}),
@@ -1396,8 +1396,8 @@ s(176481,47151,{awp=30403,b=1,cost={{"c",2711,30}},f=5,lvl=80,q=4,r=2,u=33}),
 s(176407,47055,{awp=30403,b=1,cost={{"c",2711,30}},f=5,lvl=80,q=4,r=2,u=33}),
 s(176448,47108,{awp=30403,b=1,cost={{"c",2711,30}},f=7,lvl=80,q=4,r=2,u=33}),
 s(201982,47073,{awp=30403,b=1,cost={{"c",2711,30}},f=6,lvl=80,q=4,r=2,u=33}),
-s(176436,47093,{awp=30403,b=1,cost={{"c",2711,30}},f=7,lvl=80,q=4,r=2,u=33})}})}})}})}}),
-x(4,{awp=40000,g={
+s(176436,47093,{awp=30403,b=1,cost={{"c",2711,30}},f=7,lvl=80,q=4,r=2,u=33})}})}})}})}),
+x(4,{
 h(-414,{awp=40200,lvl=32,u=41,g={
 q(29328,{awp=40200,coords={{69.8,34.2,204}},qgs={53652},sourceQuests={29336},u=41}),
 q(29327,{awp=40200,coords={{47.7,88.9,249}},qgs={53524},sourceQuests={29335},u=41}),
@@ -2450,8 +2450,8 @@ i(62471,{awp=40003,b=1,cost={{"c",391,125}},f=53,lvl=85,minReputation={1177,4200
 i(62470,{awp=40003,b=1,cost={{"c",391,125}},f=53,lvl=85,minReputation={1177,42000},q=4}),
 i(62468,{awp=40003,b=1,cost={{"c",391,125}},f=53,lvl=85,minReputation={1177,42000},q=4})}})}}),
 h(-63,{awp=40003,g={
-p(278,{awp=40003,b=1,crs={47676},itemID=64403,npcID=48641,q=3,spellID=90637})}})}})}}),
-x(5,{awp=50000,u=50,g={
+p(278,{awp=40003,b=1,crs={47676},itemID=64403,npcID=48641,q=3,spellID=90637})}})}})}),
+x(5,{u=50,g={
 h(-416,{awp=50300,description="During 5.3 a big battle occured in Barrens.",maps={1,10,390},OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=53;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,rwp=50400,u=2,g={
 h(-12,{awp=50300,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=53;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,rwp=50400,u=2,g={
 ach(8307,{awp=50300,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=53;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,r=1,rwp=50400,u=2,g={

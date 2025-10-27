@@ -29,7 +29,7 @@ ach(762,{awp=30002,r=1,u=11,g={
 title(98,{awp=30002,u=30})}}),
 ach(4868,{awp=40003,u=40,g={
 crit(13600,{achID=46,awp=30002,id=5,u=30})}}),
-ach(941,{awp=30002,maps={50,107,119},u=30}),
+ach(941,{maps={50,107,119},u=30}),
 ach(1833,{awp=30002,g={
 crit(16952,{achID=1833,awp=30002,id=1,providers={{"i",58256}}}),
 crit(16945,{achID=1833,awp=30002,id=1,providers={{"i",58274}}}),
@@ -278,10 +278,10 @@ ach(7498,{awp=50004,pb=1}),
 ach(7499,{awp=50004,pb=1,g={
 toy(92738,{awp=50004,b=1,pb=1,q=3})}}),
 ach(1182,{awp=30002}),
-ach(942,{awp=30002,maps={77,102,107},r=2,u=17,g={
-title(48,{awp=30002,u=30})}}),
-ach(943,{awp=30002,maps={77,102,107},r=1,u=17,g={
-title(48,{awp=30002,u=30})}}),
+ach(942,{maps={77,102,107},r=2,u=17,g={
+title(48,{u=30})}}),
+ach(943,{maps={77,102,107},r=1,u=17,g={
+title(48,{u=30})}}),
 ach(4958,{awp=40003,maps={107,121,241}}),
 ach(5794,{awp=40200}),
 ach(7520,{awp=50004,g={
@@ -331,8 +331,8 @@ crit(62986,{achID=5548,awp=40003,coords={{54,41,205}},id=11,providers={{"n",4880
 crit(62987,{achID=5548,awp=40003,coords={{27,40,245}},id=12,providers={{"n",47667}}}),
 crit(62988,{achID=5548,awp=40003,coords={{56,13,241}},id=13,providers={{"n",48683}}})}}),
 ach(1244,{awp=30002}),
-ach(46,{awp=30002,u=30,g={
-title(47,{awp=30002,u=30})}}),
+ach(46,{u=30,g={
+title(47,{u=30})}}),
 ach(6590,{awp=50004,pb=1,g={
 title(199,{awp=50004,pb=1})}})}),
 h(-56,{awp=30002,g={
@@ -422,14 +422,14 @@ o(175856,{awp=30002,coords={{52.5,26.9,71},{42,73.7,210}},g={
 crit(3803,{achID=1244,awp=30002,id=43})}})}}),
 m(12,{icon=236807,lore="Kalimdor is home to the night elves, orcs, tauren, trolls, and draenei. Other races present include the ogres, centaur, naga, demons, and other, more minor races.",maps={1464},["zone-text-continent"]=1,g={
 h(-12,{
-ach(43,{awp=30002,g={
-crit(95,{achID=46,awp=30002,id=2,u=30})}}),
+ach(43,{
+crit(95,{achID=46,awp=30002,id=2,u=30})}),
 ach(6585,{awp=50004,pb=1,g={
 crit(19410,{achID=6590,awp=50004,id=2,pb=1})}}),
 ach(6612,{awp=50004,pb=1,g={
 crit(19430,{achID=6611,awp=50004,id=2,pb=1})}}),
-ach(1678,{awp=30002,g={
-crit(6144,{achID=7520,awp=50004,id=1})}}),
+ach(1678,{
+crit(6144,{achID=7520,awp=50004,id=1})}),
 ach(6602,{awp=50004,pb=1,r=1,g={
 crit(19419,{achID=6607,awp=50004,id=5,pb=1})}})}),
 m(89,{icon=255141,isRaid=1,lore="The atmosphere inside the city is quiet and tranquil. It does not have the feeling of confinement that one would feel in Stormwind or Ironforge, where the buildings are grouped close together. Darnassus is open to the sky, and the graceful bridges spanning the lake around which it is built set the buildings wide apart. The elegant bridges, beautiful groves, and leaf-covered pathways that dot the city's landscape are testaments to the night elves' reverence for nature. One of Darnassus's most notable structures is the stunning Temple of the Moon, the center of worship for High Priestess Tyrande Whisperwind and her Sisters of Elune. The prime reason why the city's population is so low is that it is isolated: Teldrassil is a small island away from the main mass of Azeroth, and the only way to gain access from another continent is to fly or sail to Rut'theran Village, a small settlement at the base of Teldrassil, and from there step into the glowing portal to the city proper. Darnassus is home to night elves of all vocations and remains a symbol of the night elves' rich culture and glorious history.",g={
@@ -676,7 +676,7 @@ crit(63510,{achID=5851,awp=40200,id=3})}}),
 ach(5475,{awp=40200,r=1,requireSkill=185,u=40,g={
 crit(16244,{achID=5475,awp=40200,id=6,providers={{"s",99249}},r=1,u=40}),
 crit(63621,{achID=5845,awp=40200,id=2,u=40})}}),
-ach(1836,{awp=30002,providers={{"i",34486}},requireSkill=356,u=17}),
+ach(1836,{providers={{"i",34486}},requireSkill=356,u=17}),
 crit(18295,{achID=6031,awp=40300,e=1,id=3,providers={{"i",74142}},r=1})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",467,471,466,420,418}}}),
 h(-30,{
@@ -2180,10 +2180,10 @@ flt(50,{awp=40003,u=40,g={
 r(85068,{awp=40003,learnedAt=465,requireSkill=165,rwp=60002,u=40}),
 r(85067,{awp=40003,learnedAt=465,requireSkill=165,rwp=60002,u=40}),
 r(101600,{awp=40200,learnedAt=465,requireSkill=165,rwp=60002,u=40}),
-r(85008,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
-r(85010,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
-r(85007,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
-r(85009,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
+r(85008,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
+r(85010,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
+r(85007,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
+r(85009,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
 r(78437,{awp=40003,learnedAt=485,requireSkill=165,u=40}),
 r(78436,{awp=40003,learnedAt=485,requireSkill=165,u=40}),
 r(78379,{awp=40003,learnedAt=425,requireSkill=165,u=40}),
@@ -2400,13 +2400,13 @@ r(18450,{awp=20100,learnedAt=300,requireSkill=197}),
 r(2401,{awp=40003,learnedAt=95,requireSkill=197}),
 r(2402,{awp=40003,learnedAt=75,requireSkill=197})}}),
 h(-243,{awp=40003,u=40,g={
-r(75175,{awp=40003,learnedAt=500,requireSkill=197,rwp=60002,u=40}),
+r(75175,{awp=40003,learnedAt=500,rank=2,requireSkill=197,rwp=60002,u=40}),
 r(75250,{awp=40003,learnedAt=450,requireSkill=197,u=40}),
 r(75255,{awp=40003,learnedAt=460,requireSkill=197,u=40}),
-r(75172,{awp=40003,learnedAt=500,requireSkill=197,rwp=60002,u=40}),
-r(75154,{awp=40003,learnedAt=475,requireSkill=197,rwp=60002,u=40}),
-r(75155,{awp=40003,learnedAt=475,requireSkill=197,rwp=60002,u=40}),
-r(75178,{awp=40003,learnedAt=500,requireSkill=197,rwp=60002,u=40})}}),
+r(75172,{awp=40003,learnedAt=500,rank=2,requireSkill=197,rwp=60002,u=40}),
+r(75154,{awp=40003,learnedAt=475,rank=2,requireSkill=197,rwp=60002,u=40}),
+r(75155,{awp=40003,learnedAt=475,rank=2,requireSkill=197,rwp=60002,u=40}),
+r(75178,{awp=40003,learnedAt=500,rank=2,requireSkill=197,rwp=60002,u=40})}}),
 flt(113,{awp=40003,u=40,g={
 r(75264,{awp=40003,learnedAt=480,requireSkill=197,u=40}),
 r(75268,{awp=40003,learnedAt=490,requireSkill=197,u=40}),
@@ -3713,13 +3713,13 @@ i(43235,{awp=30002,c={4},f=55,lvl=10,rwp=50004,u=2})}}),
 n(52033,{awp=40006,coords={{37.8,71.6,85}},r=1,sym={{"sub","pvp_gear_base",4,-256,-299},{"merge"},{"pop"}}}),
 n(58155,{awp=40300,coords={{48.2,71.6,85}},description="Sells gear related to Cataclysm raid tier 11 (Throne of the Four Winds, Blackwing Descent, and Bastion of Twilight) as well as Baradin Hold.",r=1,g={
 cl(1,{awp=40300,u=40,g={
-s(206897,60325,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
-s(206899,60327,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
+s(206897,60325,{awp=40300,b=1,c={1},cost={{"i",63684,1}},f=7,lvl=85,q=4,u=40}),
+s(206899,60327,{awp=40300,b=1,c={1},cost={{"i",64316,1}},f=7,lvl=85,q=4,u=40}),
 s(206898,60326,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206895,60323,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206896,60324,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
-s(206900,60328,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
-s(206903,60331,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
+s(206900,60328,{awp=40300,b=1,c={1},cost={{"i",63684,1}},f=7,lvl=85,q=4,u=40}),
+s(206903,60331,{awp=40300,b=1,c={1},cost={{"i",64316,1}},f=7,lvl=85,q=4,u=40}),
 s(206904,60332,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206901,60329,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206902,60330,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
@@ -3734,18 +3734,18 @@ s(209671,65270,{awp=40300,b=1,c={1},cost={{"i",60332,1},{"i",67430,1}},f=7,lvl=8
 s(209670,65269,{awp=40300,b=1,c={1},cost={{"i",60329,1},{"i",67424,1}},f=7,lvl=85,q=4,u=40}),
 s(209673,65272,{awp=40300,b=1,c={1},cost={{"i",60330,1},{"i",67427,1}},f=7,lvl=85,q=4,u=40})}}),
 cl(2,{awp=40300,u=40,g={
-s(206913,60346,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206915,60348,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
+s(206913,60346,{awp=40300,b=1,c={2},cost={{"i",63683,1}},f=7,lvl=85,q=4,u=40}),
+s(206915,60348,{awp=40300,b=1,c={2},cost={{"i",64315,1}},f=7,lvl=85,q=4,u=40}),
 s(206912,60345,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206911,60344,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206914,60347,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206926,60359,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206929,60362,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
+s(206926,60359,{awp=40300,b=1,c={2},cost={{"i",63683,1}},f=7,lvl=85,q=4,u=40}),
+s(206929,60362,{awp=40300,b=1,c={2},cost={{"i",64315,1}},f=7,lvl=85,q=4,u=40}),
 s(206930,60363,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206927,60360,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206928,60361,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206923,60356,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206925,60358,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
+s(206923,60356,{awp=40300,b=1,c={2},cost={{"i",63683,1}},f=7,lvl=85,q=4,u=40}),
+s(206925,60358,{awp=40300,b=1,c={2},cost={{"i",64315,1}},f=7,lvl=85,q=4,u=40}),
 s(206922,60355,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206921,60354,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206924,60357,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
@@ -3765,13 +3765,13 @@ s(209626,65225,{awp=40300,b=1,c={2},cost={{"i",60355,1},{"i",67429,1}},f=7,lvl=8
 s(209625,65224,{awp=40300,b=1,c={2},cost={{"i",60354,1},{"i",67423,1}},f=7,lvl=85,q=4,u=40}),
 s(209628,65227,{awp=40300,b=1,c={2},cost={{"i",60357,1},{"i",67428,1}},f=7,lvl=85,q=4,u=40})}}),
 cl(6,{awp=40300,u=40,g={
-s(206908,60341,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
-s(206910,60343,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
+s(206908,60341,{awp=40300,b=1,c={6},cost={{"i",63682,1}},f=7,lvl=85,q=4,u=40}),
+s(206910,60343,{awp=40300,b=1,c={6},cost={{"i",64314,1}},f=7,lvl=85,q=4,u=40}),
 s(206907,60340,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206906,60339,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206909,60342,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
-s(206918,60351,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
-s(206920,60353,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
+s(206918,60351,{awp=40300,b=1,c={6},cost={{"i",63682,1}},f=7,lvl=85,q=4,u=40}),
+s(206920,60353,{awp=40300,b=1,c={6},cost={{"i",64314,1}},f=7,lvl=85,q=4,u=40}),
 s(206917,60350,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206916,60349,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206919,60352,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
@@ -3786,8 +3786,8 @@ s(209586,65185,{awp=40300,b=1,c={6},cost={{"i",60350,1},{"i",67431,1}},f=7,lvl=8
 s(209585,65184,{awp=40300,b=1,c={6},cost={{"i",60349,1},{"i",67425,1}},f=7,lvl=85,q=4,u=40}),
 s(209588,65187,{awp=40300,b=1,c={6},cost={{"i",60352,1},{"i",67426,1}},f=7,lvl=85,q=4,u=40})}}),
 cl(3,{awp=40300,u=40,g={
-s(206875,60303,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
-s(206878,60306,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
+s(206875,60303,{awp=40300,b=1,c={3},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206878,60306,{awp=40300,b=1,c={3},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206879,60307,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
 s(206876,60304,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
 s(206877,60305,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
@@ -3797,8 +3797,8 @@ s(209606,65205,{awp=40300,b=1,c={3},cost={{"i",60307,1},{"i",67430,1}},f=6,lvl=8
 s(209605,65204,{awp=40300,b=1,c={3},cost={{"i",60304,1},{"i",67424,1}},f=6,lvl=85,q=4,u=40}),
 s(209608,65207,{awp=40300,b=1,c={3},cost={{"i",60305,1},{"i",67427,1}},f=6,lvl=85,q=4,u=40})}}),
 cl(4,{awp=40300,u=40,g={
-s(206871,60299,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
-s(206874,60302,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
+s(206871,60299,{awp=40300,b=1,c={4},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206874,60302,{awp=40300,b=1,c={4},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206870,60298,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
 s(206873,60301,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
 s(206872,60300,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
@@ -3808,13 +3808,13 @@ s(209641,65240,{awp=40300,b=1,c={4},cost={{"i",60298,1},{"i",67431,1}},f=5,lvl=8
 s(209640,65239,{awp=40300,b=1,c={4},cost={{"i",60301,1},{"i",67425,1}},f=5,lvl=85,q=4,u=40}),
 s(209643,65242,{awp=40300,b=1,c={4},cost={{"i",60300,1},{"i",67426,1}},f=5,lvl=85,q=4,u=40})}}),
 cl(5,{awp=40300,u=40,g={
-s(206845,60256,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
-s(206842,60253,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
+s(206845,60256,{awp=40300,b=1,c={5},cost={{"i",63683,1}},f=4,lvl=85,q=4,u=40}),
+s(206842,60253,{awp=40300,b=1,c={5},cost={{"i",64315,1}},f=4,lvl=85,q=4,u=40}),
 s(206846,60257,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206843,60254,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206844,60255,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
-s(206847,60258,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
-s(206850,60262,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
+s(206847,60258,{awp=40300,b=1,c={5},cost={{"i",63683,1}},f=4,lvl=85,q=4,u=40}),
+s(206850,60262,{awp=40300,b=1,c={5},cost={{"i",64315,1}},f=4,lvl=85,q=4,u=40}),
 s(206851,60275,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206848,60259,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206849,60261,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
@@ -3829,18 +3829,18 @@ s(209630,65229,{awp=40300,b=1,c={5},cost={{"i",60275,1},{"i",67429,1}},f=4,lvl=8
 s(209633,65232,{awp=40300,b=1,c={5},cost={{"i",60259,1},{"i",67423,1}},f=4,lvl=85,q=4,u=40}),
 s(209632,65231,{awp=40300,b=1,c={5},cost={{"i",60261,1},{"i",67428,1}},f=4,lvl=85,q=4,u=40})}}),
 cl(7,{awp=40300,u=40,g={
-s(206892,60320,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206894,60322,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
+s(206892,60320,{awp=40300,b=1,c={7},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206894,60322,{awp=40300,b=1,c={7},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206891,60319,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206890,60318,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206893,60321,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206887,60315,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206889,60317,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
+s(206887,60315,{awp=40300,b=1,c={7},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206889,60317,{awp=40300,b=1,c={7},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206886,60314,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206885,60313,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206888,60316,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206880,60308,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206883,60311,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
+s(206880,60308,{awp=40300,b=1,c={7},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206883,60311,{awp=40300,b=1,c={7},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206884,60312,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206881,60309,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206882,60310,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
@@ -3860,8 +3860,8 @@ s(209646,65245,{awp=40300,b=1,c={7},cost={{"i",60312,1},{"i",67430,1}},f=6,lvl=8
 s(209645,65244,{awp=40300,b=1,c={7},cost={{"i",60309,1},{"i",67424,1}},f=6,lvl=85,q=4,u=40}),
 s(209648,65247,{awp=40300,b=1,c={7},cost={{"i",60310,1},{"i",67427,1}},f=6,lvl=85,q=4,u=40})}}),
 cl(8,{awp=40300,u=40,g={
-s(206832,60243,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
-s(206835,60246,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
+s(206832,60243,{awp=40300,b=1,c={8},cost={{"i",63682,1}},f=4,lvl=85,q=4,u=40}),
+s(206835,60246,{awp=40300,b=1,c={8},cost={{"i",64314,1}},f=4,lvl=85,q=4,u=40}),
 s(206836,60247,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
 s(206833,60244,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
 s(206834,60245,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
@@ -3871,8 +3871,8 @@ s(209610,65209,{awp=40300,b=1,c={8},cost={{"i",60247,1},{"i",67431,1}},f=4,lvl=8
 s(209613,65212,{awp=40300,b=1,c={8},cost={{"i",60244,1},{"i",67425,1}},f=4,lvl=85,q=4,u=40}),
 s(209612,65211,{awp=40300,b=1,c={8},cost={{"i",60245,1},{"i",67426,1}},f=4,lvl=85,q=4,u=40})}}),
 cl(9,{awp=40300,u=40,g={
-s(206838,60249,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
-s(206841,60252,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
+s(206838,60249,{awp=40300,b=1,c={9},cost={{"i",63683,1}},f=4,lvl=85,q=4,u=40}),
+s(206841,60252,{awp=40300,b=1,c={9},cost={{"i",64315,1}},f=4,lvl=85,q=4,u=40}),
 s(206837,60248,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
 s(206840,60251,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
 s(206839,60250,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
@@ -3882,18 +3882,18 @@ s(209660,65259,{awp=40300,b=1,c={9},cost={{"i",60248,1},{"i",67429,1}},f=4,lvl=8
 s(209663,65262,{awp=40300,b=1,c={9},cost={{"i",60251,1},{"i",67423,1}},f=4,lvl=85,q=4,u=40}),
 s(209662,65261,{awp=40300,b=1,c={9},cost={{"i",60250,1},{"i",67428,1}},f=4,lvl=85,q=4,u=40})}}),
 cl(11,{awp=40300,u=40,g={
-s(206858,60282,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206860,60284,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
+s(206858,60282,{awp=40300,b=1,c={11},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206860,60284,{awp=40300,b=1,c={11},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206861,60285,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206857,60281,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206859,60283,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206862,60286,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206865,60289,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
+s(206862,60286,{awp=40300,b=1,c={11},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206865,60289,{awp=40300,b=1,c={11},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206866,60290,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206863,60287,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206864,60288,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206853,60277,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206855,60279,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
+s(206853,60277,{awp=40300,b=1,c={11},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206855,60279,{awp=40300,b=1,c={11},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206856,60280,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206852,60276,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206854,60278,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
@@ -4734,8 +4734,8 @@ ach(4925,{awp=40003,r=2,sourceQuests={13626,13683,13796,13853,13869,13886,13979,
 crit(69983,{achID=1678,awp=30002,id=1})}}),
 ach(4976,{awp=40003,r=1,sourceQuests={6641,13619,13653,13805,13842,13873,13883,13888,13901,13920,13947,13980,13983,26890},g={
 crit(6100,{achID=1678,awp=30002,id=1})}}),
-ach(845,{awp=30002,g={
-crit(1491,{achID=43,awp=30002,id=11})}})}),
+ach(845,{
+crit(1491,{achID=43,awp=30002,id=11})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",417,424,379,420}},g={
 p(478,{awp=50004,npcID=62177,pb=1,g={
 crit(21702,{achID=6585,awp=50004,id=27,pb=1})}}),
@@ -5362,8 +5362,8 @@ m(76,{icon=236714,lore="Azshara was taken over by the goblins post-Shattering. I
 h(-12,{
 ach(4927,{awp=40003,r=1,sourceQuests={14155,14216,14295,14383,14388,14392,14422,14464,24434,24439,24449},g={
 crit(6101,{achID=1678,awp=30002,id=1})}}),
-ach(852,{awp=30002,g={
-crit(1498,{achID=43,awp=30002,id=18})}}),
+ach(852,{
+crit(1498,{achID=43,awp=30002,id=18})}),
 ach(5448,{awp=40003,providers={{"s",66212}}}),
 ach(5546,{awp=40003,providers={{"s",68189}}}),
 ach(5547,{awp=40003,providers={{"s",69862}}}),
@@ -6497,8 +6497,8 @@ m(62,{icon=236739,lore="Darkshore, a shadowy forest punctuated by waterfalls, is
 h(-12,{
 ach(4928,{awp=40003,r=2,sourceQuests={13515,13546,13569,13588,13891,13897},g={
 crit(6105,{achID=1678,awp=30002,id=1})}}),
-ach(844,{awp=30002,g={
-crit(1490,{achID=43,awp=30002,id=9})}}),
+ach(844,{
+crit(1490,{achID=43,awp=30002,id=9})}),
 ach(5453,{awp=40003,r=2,sourceQuests={28529}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",378,417,379}},g={
 p(508,{awp=50004,description="Can be found in the woods west of the Grove of the Ancients, usually on the treeline just before the beach.",npcID=62250,pb=1,g={
@@ -6998,8 +6998,8 @@ m(66,{icon=236742,lore="Desolace used to be a barren zone, primarily populated b
 h(-12,{
 ach(4930,{awp=40003,sourceQuests={1456,5581,14198,14227,14302,14307,14309,14327,14335,14342,14346,14381,14394},g={
 crit(6106,{achID=1678,awp=30002,id=1})}}),
-ach(848,{awp=30002,g={
-crit(1494,{achID=43,awp=30002,id=14})}})}),
+ach(848,{
+crit(1494,{achID=43,awp=30002,id=14})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",838,479,478,417,452,424,419}},g={
 p(484,{awp=50004,npcID=62186,pb=1,g={
 crit(21712,{achID=6585,awp=50004,id=20,pb=1})}}),
@@ -7700,8 +7700,8 @@ s(120731,5778,{b=1,f=28,q=1,rwp=30300,u=2})}}),
 q(25152,{awp=40003,coords={{45.2,68.4,461}},qgs={10176},r=1}),
 q(4641,{altQuests={787},coords={{43.2,68.4,1}},isBreadcrumb=1,nextQuests={788},qgs={10176},r=1,rwp=40003,u=2})})}}),
 h(-12,{
-ach(728,{awp=30002,g={
-crit(1486,{achID=43,awp=30002,id=2})}}),
+ach(728,{
+crit(1486,{achID=43,awp=30002,id=2})}),
 crit(11082,{achID=3557,awp=30202,e=101,id=2,r=1}),
 crit(11134,{achID=3580,awp=30202,e=101,id=2,r=2})}),
 flt(101,{awp=50004,pb=1,g={
@@ -8032,8 +8032,8 @@ ach(4929,{awp=40003,r=2,sourceQuests={27186,27190,27191,27213,27222,27241,27245,
 crit(69984,{achID=1678,awp=30002,id=1})}}),
 ach(4978,{awp=40003,r=1,sourceQuests={1202,9437,25051,26682,27186,27190,27191,27229,27244,27257,27258,27297,27411,27415,27417,27418,27419},g={
 crit(6109,{achID=1678,awp=30002,id=1})}}),
-ach(850,{awp=30002,g={
-crit(1495,{achID=43,awp=30002,id=15})}})}),
+ach(850,{
+crit(1495,{achID=43,awp=30002,id=15})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398,387,412,420}},g={
 p(385,{awp=50004,npcID=61143,pb=1,g={
 crit(21631,{achID=6585,awp=50004,id=46,pb=1}),
@@ -8668,8 +8668,8 @@ r(16731,{awp=100107,b=1,crs={4368,16072},itemID=12718,learnedAt=300,q=2,requireS
 i(20766,{crs={4391,4392,4393},q=1})})}}),
 m(77,{icon=236763,lore="Once a wooded paradise, Felwood bears a ten-thousand-year-old curse. The trees, land and creatures are twisted and evil, violent and wild. Cursed ancients and furbolg maul any who come close, and satyrs hold depraved court near tainted moonwells. The animals within are mad and brutal and have no fear of humanoids. The undead and demons that survived the Third War fled here as well, and hide in the deep tangles. Felwood is a chaos of battling creatures, and blood soaks the ground. The infamous Shadow Council, a group of orc warlocks loyal to the Burning Legion, hides somewhere within.\n\nAlliance heroes, particularly druids, make forays into the cursed wood in attempts to destroy some of the larger menaces, root out the Shadow Council, and perhaps, some day, restore the land to its former legacy.",petBattleLvl=14,g={
 h(-12,{
-ach(853,{awp=30002,g={
-crit(1499,{achID=43,awp=30002,id=19})}}),
+ach(853,{
+crit(1499,{achID=43,awp=30002,id=19})}),
 ach(4931,{awp=40003,sourceQuests={27995,27997,28126,28128,28129,28148,28213,28214,28228,28264,28288,28338,28340,28341,28342,28358,28359,28364,28366,28368,28374,28389},g={
 crit(6110,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",406,420}},g={
@@ -9159,8 +9159,8 @@ r(19071,{crs={7107},itemID=15744,learnedAt=280,q=2,requireSkill=165,rwp=40003,u=
 r(17571,{awp=100107,coords={{33.8,66.6,77},{38.6,69.6,77}},crs={7106},itemID=13491,learnedAt=280,q=2,requireSkill=171,rwp=40003,u=2})})}}),
 m(69,{icon=236764,lore="Feralas is a rainforest surrounded by arid zones in southern Kalimdor. It is known for the mystery surrounding Dire Maul--a former city of the Highborne that remained hermetic and drew upon demonic energy to stay immortal. There is a strong Night Elf presence--both in Feathermoon Stronghold, the base of operations for the Sentinels, and in the numerous ruins scattered around the zones.",petBattleLvl=11,g={
 h(-12,{
-ach(849,{awp=30002,g={
-crit(1496,{achID=43,awp=30002,id=16})}}),
+ach(849,{
+crit(1496,{achID=43,awp=30002,id=16})}),
 ach(4932,{awp=40003,r=2,sourceQuests={25333,25398,25438,25468,25469,26401},g={
 crit(69985,{achID=1678,awp=30002,id=1})}}),
 ach(4979,{awp=40003,r=1,sourceQuests={25250,25329,25383,25391,25645},g={
@@ -9726,8 +9726,8 @@ i(8705,{b=1,description="This item has a chance to drop from any creature in Fer
 p(87,{awp=11101,b=1,crs={5246,5249,5278,5300,5304,11440,39384,39949},itemID=11474,npcID=9662,q=1,spellID=15067})})}}),
 m(80,{icon=135758,lore="Moonglade is both home of the Cenarion Circle and a haven for all druids. It is an uncorrupted neutral zone, protected by mountains and shrouded in green light, without any hostile mobs or gathering resources. The main village of Nighthaven is maintained by the Cenarion Circle and features druid trainers and a rare robe vendor, Geenia Sunshadow, who sells items like Formal Dangui.",petBattleLvl=15,g={
 h(-12,{
-ach(855,{awp=30002,g={
-crit(1501,{achID=43,awp=30002,id=21})}})}),
+ach(855,{
+crit(1501,{achID=43,awp=30002,id=21})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",478,378,503,379}}}),
 h(-30,{
 exp(656,{
@@ -10797,8 +10797,8 @@ s(117288,1388,{crs={2953},f=28,q=1,rwp=40003,u=2}),
 s(117285,1384,{crs={36708},f=25,q=1}),
 s(120054,4951,{crs={3229},f=5,q=1,rwp=40003,u=2})})}}),
 h(-12,{
-ach(736,{awp=30002,g={
-crit(1487,{achID=43,awp=30002,id=3})}})}),
+ach(736,{
+crit(1487,{achID=43,awp=30002,id=3})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",385,386,378}},g={
 p(477,{awp=50004,npcID=62176,pb=1,g={
 crit(21735,{achID=6585,awp=50004,id=29,pb=1})}})}}),
@@ -11717,8 +11717,8 @@ exp(5695)}),
 h(-46,{
 n(50747,{awp=50200,coords={{60.8,6.6,327}}})})}}),
 h(-12,{
-ach(856,{awp=30002,g={
-crit(1502,{achID=43,awp=30002,id=22})}}),
+ach(856,{
+crit(1502,{achID=43,awp=30002,id=22})}),
 ach(4934,{awp=40003,sourceQuests={8287,8306,8314,8321,8323},g={
 crit(6123,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",406,484,482,512,414,511}},g={
@@ -12756,8 +12756,8 @@ r(8238,{awp=40003,description="Can drop from any creature in the Barrens.",itemI
 i(5052,{awp=40003,crs={3444},q=1})}})}}),
 m(65,{icon=236831,lore="Stonetalon Mountains was heavily changed in the Shattering. Formerly a sleepy zone facing threats from the goblin loggers, it's now a fast-paced zone tracing a ticking time bomb headed towards a night elf camp by Stonetalon Peak.",petBattleLvl=5,g={
 h(-12,{
-ach(847,{awp=30002,g={
-crit(1493,{achID=43,awp=30002,id=13})}}),
+ach(847,{
+crit(1493,{achID=43,awp=30002,id=13})}),
 ach(4936,{awp=40003,r=2,sourceQuests={25642,25646,25851,25931},g={
 crit(69982,{achID=1678,awp=30002,id=1})}}),
 ach(4980,{awp=40003,r=1,sourceQuests={26010,26058,26067,26068,26115},g={
@@ -13274,8 +13274,8 @@ i(11151,{crs={4028,4029,4030},f=200,q=2,requireSkill=333,rwp=40300,u=2}),
 i(6840,{crs={6167},q=1})})}}),
 m(71,{icon=236846,lore="The Tanaris Desert is vast and unexplored. It is a land of endless sands and cloudless skies. The southern Tanaris Desert is more mountainous than the north, boasting canyons and high bluffs. Numerous tunnels run beneath the sands, purportedly infested with the mysterious silithid. Other creatures in the desert include tallstriders, lions, kodo beasts, drakes and dragons — many the offspring of mighty Nozdormu, who is said to make this land his home.\n\nThe only bit of civilization is Gadgetzhan, a goblin trading post. Many Ironforge prospectors stock up on supplies here before heading out in search of the lost Titan city of Uldum.",maps={72,73},petBattleLvl=13,g={
 h(-12,{
-ach(851,{awp=30002,g={
-crit(1497,{achID=43,awp=30002,id=17})}}),
+ach(851,{
+crit(1497,{achID=43,awp=30002,id=17})}),
 ach(4935,{awp=40003,sourceQuests={24950,24953,25001,25065,25107,25166,25421,25513,25591},g={
 crit(6127,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",484,431,511}},g={
@@ -14443,8 +14443,8 @@ s(120434,5393,{b=1,f=28,q=1,rwp=40003,u=2}),
 s(120604,5586,{b=1,f=25,q=1,rwp=40003,u=2}),
 s(124906,12447,{b=1,f=32,q=1,rwp=10700,u=2})}})})}}),
 h(-12,{
-ach(842,{awp=30002,g={
-crit(1488,{achID=43,awp=30002,id=4})}})}),
+ach(842,{
+crit(1488,{achID=43,awp=30002,id=4})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",507,479,447,478,452,419}}}),
 h(-30,{
 exp(736,{
@@ -14643,8 +14643,8 @@ i(5206,{crs={3569},f=55,q=1}),
 s(121749,7094,{awp=100107,coords={{45.4,24.6,57}},crs={2030},f=28,lvl=5,q=1,rwp=40003,u=2})})}}),
 m(64,{icon=236848,lore="Thousand Needles is a flooded zone post-Shattering, dotted with mesa islands. The Shimmering Flats, formerly a racetrack, is completely flooded--the NPCs have made the best of a bad situation and opened up Fizzle and Pozzik's Speedbarge. The Southsea Pirates and Twilight Cultists have also settled this zone.",petBattleLvl=13,g={
 h(-12,{
-ach(846,{awp=30002,g={
-crit(1492,{achID=43,awp=30002,id=12})}}),
+ach(846,{
+crit(1492,{achID=43,awp=30002,id=12})}),
 ach(4938,{awp=40003,sourceQuests={25627,25628,27327,27328,28048,28098,28160,28161},g={
 crit(6130,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398,424,414}},g={
@@ -15191,7 +15191,7 @@ s(117367,1493,{awp=100107,coords={{20.6,22.2,64},{44.6,33.6,64}},crs={4099},f=25
 r(6692,{crs={10760},itemID=5773,learnedAt=150,q=2,requireSkill=197,rwp=40003,u=2})})}}),
 h(-388,{maps={77,83},["zone-text-areaID"]=1769,g={
 h(-12,{
-ach(944,{awp=30002,minReputation={576,42000}})}),
+ach(944,{minReputation={576,42000}})}),
 h(-31,{
 faction(576,{icon=236696,OnTooltip=_.OnTooltipDB.ForTimbermawHold,g={
 crit(2014,{achID=942,awp=30002,id=2,r=2,u=17}),
@@ -15730,8 +15730,8 @@ h(-63,{awp=40003,g={
 r(86646,{awp=40003,b=1,itemID=65651,learnedAt=500,q=1,requireSkill=773})}})}}),
 m(78,{icon=236850,lore="Un'Goro Crater is a lush jungle in southern Kalimdor, isolated from the source as it shares borders with the deserts of Feralas and Silithus. Although its borders make Un'Goro Crater a rather isolated area, many challenges await players here as they explore the wide range of exotic fauna, from aggressive plant mobs to the mighty devilsaurs.\n\nMarshal's Refuge, the main questing hub in Un'Goro, is also a cradle of references to TV Show Land of the Lost: The last names of the main characters were Marshal, Williden Marshal and Hol'anyee Marshal are clear references to main characters Will and Holly Marshal, and Un'Goro's plot revolves around massive pylons scattered across the zone, also a central part of the plot in Land of the Lost.",maps={79},petBattleLvl=15,g={
 h(-12,{
-ach(854,{awp=30002,g={
-crit(1500,{achID=43,awp=30002,id=20})}}),
+ach(854,{
+crit(1500,{achID=43,awp=30002,id=20})}),
 ach(4939,{awp=40003,sourceQuests={24695,24707,24720,24721,24722,24723},g={
 crit(6132,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",406,393,415,404,503,405}},g={
@@ -16093,9 +16093,9 @@ crit(16179,{achID=5443,awp=40003,coords={{56.6,86.6,83},{63.2,89.8,83}},id=5,pro
 crit(16180,{achID=5443,awp=40003,coords={{46.2,17.6,83},{51.4,22,83}},crs={7431,10737},id=6,providers={{"s",93157}}}),
 crit(16181,{achID=5443,awp=40003,coords={{58,23.8,83}},id=7,providers={{"n",7448}}}),
 crit(16182,{achID=5443,awp=40003,coords={{67.6,54.2,83}},crs={7457,7458,7459,7460,49235},id=8,providers={{"s",93165}}})}}),
-ach(857,{awp=30002,g={
-crit(1503,{achID=43,awp=30002,id=7})}}),
-ach(3356,{awp=30002,providers={{"i",13086}},r=2}),
+ach(857,{
+crit(1503,{achID=43,awp=30002,id=7})}),
+ach(3356,{providers={{"i",13086}},r=2}),
 ach(4940,{awp=40003,sourceQuests={28472,28628,28639,28710,28722,28742,28782,28828,28830,28831,28842,28848},g={
 crit(6134,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",441,633,472,471}},g={
@@ -16543,14 +16543,14 @@ i(21383,{b=1,crs={7438,7439,7440,7441,7442,10738,10916},description="Drops commm
 i(21928,{crs={7430,7431,7432,7433,7434,7443,7444,7445,7446},q=1})})}})}}),
 m(13,{icon=236759,lore="The Eastern Kingdoms are the eastern continents on the world of Azeroth. The Eastern Kingdoms is made up from a group of smaller continents (Azeroth, Khaz Modan and Lordaeron) formed from the original continent of Kalimdor following the Great Sundering. The Eastern Kingdoms lie to the east of the Great Sea and to the west of the Forbidding Sea. The central part of the Eastern Kingdoms is dominated by the Khaz Mountains and the Redridge Mountains. Both cover several zones.",maps={1463},["zone-text-continent"]=1,g={
 h(-12,{
-ach(42,{awp=30002,g={
-crit(94,{achID=46,awp=30002,id=1,u=30})}}),
+ach(42,{
+crit(94,{achID=46,awp=30002,id=1,u=30})}),
 ach(6586,{awp=50004,pb=1,g={
 crit(19409,{achID=6590,awp=50004,id=1,pb=1})}}),
 ach(6613,{awp=50004,pb=1,g={
 crit(19429,{achID=6611,awp=50004,id=4,pb=1})}}),
-ach(1676,{awp=30002,g={
-crit(6143,{achID=7520,awp=50004,id=1})}}),
+ach(1676,{
+crit(6143,{achID=7520,awp=50004,id=1})}),
 ach(6603,{awp=50004,pb=1,r=2,g={
 crit(19418,{achID=6607,awp=50004,id=5,pb=1})}})}),
 m(87,{icon=255138,isRaid=1,lore="Ironforge is the capital city of the dwarves, proud members of the Alliance. It is the ancestral home of the Bronzebeard dwarves. The Council of Three Hammers rules the kingdom of Khaz Modan from the throne room within the city.",maps={1361},g={
@@ -18543,10 +18543,10 @@ flt(50,{awp=40003,u=40,g={
 r(85068,{awp=40003,learnedAt=465,requireSkill=165,rwp=60002,u=40}),
 r(85067,{awp=40003,learnedAt=465,requireSkill=165,rwp=60002,u=40}),
 r(101600,{awp=40200,learnedAt=465,requireSkill=165,rwp=60002,u=40}),
-r(85008,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
-r(85010,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
-r(85007,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
-r(85009,{awp=40003,learnedAt=500,requireSkill=165,rwp=60002,u=40}),
+r(85008,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
+r(85010,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
+r(85007,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
+r(85009,{awp=40003,learnedAt=500,rank=2,requireSkill=165,rwp=60002,u=40}),
 r(78437,{awp=40003,learnedAt=485,requireSkill=165,u=40}),
 r(78436,{awp=40003,learnedAt=485,requireSkill=165,u=40}),
 r(78379,{awp=40003,learnedAt=425,requireSkill=165,u=40}),
@@ -18763,13 +18763,13 @@ r(18450,{awp=20100,learnedAt=300,requireSkill=197}),
 r(2401,{awp=40003,learnedAt=95,requireSkill=197}),
 r(2402,{awp=40003,learnedAt=75,requireSkill=197})}}),
 h(-243,{awp=40003,u=40,g={
-r(75175,{awp=40003,learnedAt=500,requireSkill=197,rwp=60002,u=40}),
+r(75175,{awp=40003,learnedAt=500,rank=2,requireSkill=197,rwp=60002,u=40}),
 r(75250,{awp=40003,learnedAt=450,requireSkill=197,u=40}),
 r(75255,{awp=40003,learnedAt=460,requireSkill=197,u=40}),
-r(75172,{awp=40003,learnedAt=500,requireSkill=197,rwp=60002,u=40}),
-r(75154,{awp=40003,learnedAt=475,requireSkill=197,rwp=60002,u=40}),
-r(75155,{awp=40003,learnedAt=475,requireSkill=197,rwp=60002,u=40}),
-r(75178,{awp=40003,learnedAt=500,requireSkill=197,rwp=60002,u=40})}}),
+r(75172,{awp=40003,learnedAt=500,rank=2,requireSkill=197,rwp=60002,u=40}),
+r(75154,{awp=40003,learnedAt=475,rank=2,requireSkill=197,rwp=60002,u=40}),
+r(75155,{awp=40003,learnedAt=475,rank=2,requireSkill=197,rwp=60002,u=40}),
+r(75178,{awp=40003,learnedAt=500,rank=2,requireSkill=197,rwp=60002,u=40})}}),
 flt(113,{awp=40003,u=40,g={
 r(75264,{awp=40003,learnedAt=480,requireSkill=197,u=40}),
 r(75268,{awp=40003,learnedAt=490,requireSkill=197,u=40}),
@@ -20371,13 +20371,13 @@ n(5510,{coords={{61.8,36.2,84}},r=2,sym={{"select","itemID",2509}},g={
 s(118013,2510,{f=31,q=1})}}),
 n(58154,{awp=40300,coords={{79,70.1,84}},description="Sells gear related to Cataclysm raid tier 11 (Throne of the Four Winds, Blackwing Descent, and Bastion of Twilight) as well as Baradin Hold.",r=2,g={
 cl(1,{awp=40300,u=40,g={
-s(206897,60325,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
-s(206899,60327,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
+s(206897,60325,{awp=40300,b=1,c={1},cost={{"i",63684,1}},f=7,lvl=85,q=4,u=40}),
+s(206899,60327,{awp=40300,b=1,c={1},cost={{"i",64316,1}},f=7,lvl=85,q=4,u=40}),
 s(206898,60326,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206895,60323,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206896,60324,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
-s(206900,60328,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
-s(206903,60331,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
+s(206900,60328,{awp=40300,b=1,c={1},cost={{"i",63684,1}},f=7,lvl=85,q=4,u=40}),
+s(206903,60331,{awp=40300,b=1,c={1},cost={{"i",64316,1}},f=7,lvl=85,q=4,u=40}),
 s(206904,60332,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206901,60329,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
 s(206902,60330,{awp=40300,b=1,c={1},f=7,lvl=85,q=4,u=40}),
@@ -20392,18 +20392,18 @@ s(209671,65270,{awp=40300,b=1,c={1},cost={{"i",60332,1},{"i",67430,1}},f=7,lvl=8
 s(209670,65269,{awp=40300,b=1,c={1},cost={{"i",60329,1},{"i",67424,1}},f=7,lvl=85,q=4,u=40}),
 s(209673,65272,{awp=40300,b=1,c={1},cost={{"i",60330,1},{"i",67427,1}},f=7,lvl=85,q=4,u=40})}}),
 cl(2,{awp=40300,u=40,g={
-s(206913,60346,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206915,60348,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
+s(206913,60346,{awp=40300,b=1,c={2},cost={{"i",63683,1}},f=7,lvl=85,q=4,u=40}),
+s(206915,60348,{awp=40300,b=1,c={2},cost={{"i",64315,1}},f=7,lvl=85,q=4,u=40}),
 s(206912,60345,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206911,60344,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206914,60347,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206926,60359,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206929,60362,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
+s(206926,60359,{awp=40300,b=1,c={2},cost={{"i",63683,1}},f=7,lvl=85,q=4,u=40}),
+s(206929,60362,{awp=40300,b=1,c={2},cost={{"i",64315,1}},f=7,lvl=85,q=4,u=40}),
 s(206930,60363,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206927,60360,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206928,60361,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206923,60356,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
-s(206925,60358,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
+s(206923,60356,{awp=40300,b=1,c={2},cost={{"i",63683,1}},f=7,lvl=85,q=4,u=40}),
+s(206925,60358,{awp=40300,b=1,c={2},cost={{"i",64315,1}},f=7,lvl=85,q=4,u=40}),
 s(206922,60355,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206921,60354,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
 s(206924,60357,{awp=40300,b=1,c={2},f=7,lvl=85,q=4,u=40}),
@@ -20423,13 +20423,13 @@ s(209626,65225,{awp=40300,b=1,c={2},cost={{"i",60355,1},{"i",67429,1}},f=7,lvl=8
 s(209625,65224,{awp=40300,b=1,c={2},cost={{"i",60354,1},{"i",67423,1}},f=7,lvl=85,q=4,u=40}),
 s(209628,65227,{awp=40300,b=1,c={2},cost={{"i",60357,1},{"i",67428,1}},f=7,lvl=85,q=4,u=40})}}),
 cl(6,{awp=40300,u=40,g={
-s(206908,60341,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
-s(206910,60343,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
+s(206908,60341,{awp=40300,b=1,c={6},cost={{"i",63682,1}},f=7,lvl=85,q=4,u=40}),
+s(206910,60343,{awp=40300,b=1,c={6},cost={{"i",64314,1}},f=7,lvl=85,q=4,u=40}),
 s(206907,60340,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206906,60339,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206909,60342,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
-s(206918,60351,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
-s(206920,60353,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
+s(206918,60351,{awp=40300,b=1,c={6},cost={{"i",63682,1}},f=7,lvl=85,q=4,u=40}),
+s(206920,60353,{awp=40300,b=1,c={6},cost={{"i",64314,1}},f=7,lvl=85,q=4,u=40}),
 s(206917,60350,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206916,60349,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
 s(206919,60352,{awp=40300,b=1,c={6},f=7,lvl=85,q=4,u=40}),
@@ -20444,8 +20444,8 @@ s(209586,65185,{awp=40300,b=1,c={6},cost={{"i",60350,1},{"i",67431,1}},f=7,lvl=8
 s(209585,65184,{awp=40300,b=1,c={6},cost={{"i",60349,1},{"i",67425,1}},f=7,lvl=85,q=4,u=40}),
 s(209588,65187,{awp=40300,b=1,c={6},cost={{"i",60352,1},{"i",67426,1}},f=7,lvl=85,q=4,u=40})}}),
 cl(3,{awp=40300,u=40,g={
-s(206875,60303,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
-s(206878,60306,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
+s(206875,60303,{awp=40300,b=1,c={3},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206878,60306,{awp=40300,b=1,c={3},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206879,60307,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
 s(206876,60304,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
 s(206877,60305,{awp=40300,b=1,c={3},f=6,lvl=85,q=4,u=40}),
@@ -20455,8 +20455,8 @@ s(209606,65205,{awp=40300,b=1,c={3},cost={{"i",60307,1},{"i",67430,1}},f=6,lvl=8
 s(209605,65204,{awp=40300,b=1,c={3},cost={{"i",60304,1},{"i",67424,1}},f=6,lvl=85,q=4,u=40}),
 s(209608,65207,{awp=40300,b=1,c={3},cost={{"i",60305,1},{"i",67427,1}},f=6,lvl=85,q=4,u=40})}}),
 cl(4,{awp=40300,u=40,g={
-s(206871,60299,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
-s(206874,60302,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
+s(206871,60299,{awp=40300,b=1,c={4},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206874,60302,{awp=40300,b=1,c={4},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206870,60298,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
 s(206873,60301,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
 s(206872,60300,{awp=40300,b=1,c={4},f=5,lvl=85,q=4,u=40}),
@@ -20466,13 +20466,13 @@ s(209641,65240,{awp=40300,b=1,c={4},cost={{"i",60298,1},{"i",67431,1}},f=5,lvl=8
 s(209640,65239,{awp=40300,b=1,c={4},cost={{"i",60301,1},{"i",67425,1}},f=5,lvl=85,q=4,u=40}),
 s(209643,65242,{awp=40300,b=1,c={4},cost={{"i",60300,1},{"i",67426,1}},f=5,lvl=85,q=4,u=40})}}),
 cl(5,{awp=40300,u=40,g={
-s(206845,60256,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
-s(206842,60253,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
+s(206845,60256,{awp=40300,b=1,c={5},cost={{"i",63683,1}},f=4,lvl=85,q=4,u=40}),
+s(206842,60253,{awp=40300,b=1,c={5},cost={{"i",64315,1}},f=4,lvl=85,q=4,u=40}),
 s(206846,60257,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206843,60254,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206844,60255,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
-s(206847,60258,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
-s(206850,60262,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
+s(206847,60258,{awp=40300,b=1,c={5},cost={{"i",63683,1}},f=4,lvl=85,q=4,u=40}),
+s(206850,60262,{awp=40300,b=1,c={5},cost={{"i",64315,1}},f=4,lvl=85,q=4,u=40}),
 s(206851,60275,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206848,60259,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
 s(206849,60261,{awp=40300,b=1,c={5},f=4,lvl=85,q=4,u=40}),
@@ -20487,18 +20487,18 @@ s(209630,65229,{awp=40300,b=1,c={5},cost={{"i",60275,1},{"i",67429,1}},f=4,lvl=8
 s(209633,65232,{awp=40300,b=1,c={5},cost={{"i",60259,1},{"i",67423,1}},f=4,lvl=85,q=4,u=40}),
 s(209632,65231,{awp=40300,b=1,c={5},cost={{"i",60261,1},{"i",67428,1}},f=4,lvl=85,q=4,u=40})}}),
 cl(7,{awp=40300,u=40,g={
-s(206892,60320,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206894,60322,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
+s(206892,60320,{awp=40300,b=1,c={7},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206894,60322,{awp=40300,b=1,c={7},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206891,60319,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206890,60318,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206893,60321,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206887,60315,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206889,60317,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
+s(206887,60315,{awp=40300,b=1,c={7},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206889,60317,{awp=40300,b=1,c={7},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206886,60314,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206885,60313,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206888,60316,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206880,60308,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
-s(206883,60311,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
+s(206880,60308,{awp=40300,b=1,c={7},cost={{"i",63684,1}},f=6,lvl=85,q=4,u=40}),
+s(206883,60311,{awp=40300,b=1,c={7},cost={{"i",64316,1}},f=6,lvl=85,q=4,u=40}),
 s(206884,60312,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206881,60309,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
 s(206882,60310,{awp=40300,b=1,c={7},f=6,lvl=85,q=4,u=40}),
@@ -20518,8 +20518,8 @@ s(209646,65245,{awp=40300,b=1,c={7},cost={{"i",60312,1},{"i",67430,1}},f=6,lvl=8
 s(209645,65244,{awp=40300,b=1,c={7},cost={{"i",60309,1},{"i",67424,1}},f=6,lvl=85,q=4,u=40}),
 s(209648,65247,{awp=40300,b=1,c={7},cost={{"i",60310,1},{"i",67427,1}},f=6,lvl=85,q=4,u=40})}}),
 cl(8,{awp=40300,u=40,g={
-s(206832,60243,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
-s(206835,60246,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
+s(206832,60243,{awp=40300,b=1,c={8},cost={{"i",63682,1}},f=4,lvl=85,q=4,u=40}),
+s(206835,60246,{awp=40300,b=1,c={8},cost={{"i",64314,1}},f=4,lvl=85,q=4,u=40}),
 s(206836,60247,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
 s(206833,60244,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
 s(206834,60245,{awp=40300,b=1,c={8},f=4,lvl=85,q=4,u=40}),
@@ -20529,8 +20529,8 @@ s(209610,65209,{awp=40300,b=1,c={8},cost={{"i",60247,1},{"i",67431,1}},f=4,lvl=8
 s(209613,65212,{awp=40300,b=1,c={8},cost={{"i",60244,1},{"i",67425,1}},f=4,lvl=85,q=4,u=40}),
 s(209612,65211,{awp=40300,b=1,c={8},cost={{"i",60245,1},{"i",67426,1}},f=4,lvl=85,q=4,u=40})}}),
 cl(9,{awp=40300,u=40,g={
-s(206838,60249,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
-s(206841,60252,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
+s(206838,60249,{awp=40300,b=1,c={9},cost={{"i",63683,1}},f=4,lvl=85,q=4,u=40}),
+s(206841,60252,{awp=40300,b=1,c={9},cost={{"i",64315,1}},f=4,lvl=85,q=4,u=40}),
 s(206837,60248,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
 s(206840,60251,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
 s(206839,60250,{awp=40300,b=1,c={9},f=4,lvl=85,q=4,u=40}),
@@ -20540,18 +20540,18 @@ s(209660,65259,{awp=40300,b=1,c={9},cost={{"i",60248,1},{"i",67429,1}},f=4,lvl=8
 s(209663,65262,{awp=40300,b=1,c={9},cost={{"i",60251,1},{"i",67423,1}},f=4,lvl=85,q=4,u=40}),
 s(209662,65261,{awp=40300,b=1,c={9},cost={{"i",60250,1},{"i",67428,1}},f=4,lvl=85,q=4,u=40})}}),
 cl(11,{awp=40300,u=40,g={
-s(206858,60282,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206860,60284,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
+s(206858,60282,{awp=40300,b=1,c={11},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206860,60284,{awp=40300,b=1,c={11},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206861,60285,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206857,60281,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206859,60283,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206862,60286,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206865,60289,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
+s(206862,60286,{awp=40300,b=1,c={11},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206865,60289,{awp=40300,b=1,c={11},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206866,60290,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206863,60287,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206864,60288,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206853,60277,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
-s(206855,60279,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
+s(206853,60277,{awp=40300,b=1,c={11},cost={{"i",63682,1}},f=5,lvl=85,q=4,u=40}),
+s(206855,60279,{awp=40300,b=1,c={11},cost={{"i",64314,1}},f=5,lvl=85,q=4,u=40}),
 s(206856,60280,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206852,60276,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
 s(206854,60278,{awp=40300,b=1,c={11},f=5,lvl=85,q=4,u=40}),
@@ -20983,8 +20983,8 @@ m(14,{icon=236712,lore="The Arathi Highlands are located in southeastern Lordaer
 h(-12,{
 ach(4896,{awp=40003,sourceQuests={26029,26038,26049,26081,26108,26117,26628,26912},g={
 crit(5901,{achID=1676,awp=30002,id=1})}}),
-ach(761,{awp=30002,g={
-crit(1278,{achID=42,awp=30002,id=3})}})}),
+ach(761,{
+crit(1278,{achID=42,awp=30002,id=3})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",386,417,419}},g={
 p(443,{awp=50004,npcID=61704,pb=1,g={
 crit(21611,{achID=6586,awp=50004,id=24,pb=1})}}),
@@ -21415,8 +21415,8 @@ m(15,{icon=236716,lore="Badlands is a scorched zone and the home of the Earthen,
 h(-12,{
 ach(4900,{awp=40003,sourceQuests={27715,27769,27794,27888,27930},g={
 crit(5902,{achID=1676,awp=30002,id=1})}}),
-ach(765,{awp=30002,g={
-crit(1279,{achID=42,awp=30002,id=4})}}),
+ach(765,{
+crit(1279,{achID=42,awp=30002,id=4})}),
 ach(5444,{awp=40003,crs={46393},providers={{"s",86425}}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",406,398,430,431,433,432}},g={
 p(438,{awp=50004,npcID=61443,pb=1,g={
@@ -21850,8 +21850,8 @@ m(17,{icon=236720,lore="The Blasted Lands bear that name for a reason: they were
 h(-12,{
 ach(4909,{awp=40003,sourceQuests={25701,25705,25706,25720,26171,26187},g={
 crit(5906,{achID=1676,awp=30002,id=1})}}),
-ach(766,{awp=30002,g={
-crit(1280,{achID=42,awp=30002,id=5})}})}),
+ach(766,{
+crit(1280,{achID=42,awp=30002,id=5})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",635,415,414,412}},g={
 p(416,{awp=50004,coords={{59.6,60.8,17}},npcID=61329,pb=1,g={
 crit(21623,{achID=6585,awp=50004,id=66,pb=1}),
@@ -22209,8 +22209,8 @@ crit(21422,{achID=6613,awp=50004,id=3,pb=1}),
 crit(21554,{achID=6560,awp=50004,id=28,pb=1})}})}}),
 m(36,{icon=236734,lore="The Burning Steppes hold the only accessible land passage from the Kingdom of Stormwind to Khaz Modan and Lordaeron. The highway is thus well traveled, but still very dangerous. Now virtually abandoned by the Kingdom of Stormwind, the Burning Steppes is controlled by minions of the black dragonflight and agents of the firelord Ragnaros.\n\nThis rugged region is full of craggy foothills, scattered boulders and warring factions. Rivers of lava dot the landscape, as well as charred earth and burning ruins. The sky is a red hue here, due to sporadic eruptions from Blackrock Mountain. Blackrock Spire, an orc stronghold in the Second War, stands proud and defiant among the mountains. Dark Iron dwarves control the fortress's deeps, though rumor has it that Ragnaros the Fire Lord still broods in the shadows. Black dragons under Nefarion hold the spire's upper levels, and the two groups battle constantly for supremacy. The surrounding countryside is home to Blackrock orcs and Fire-Gut ogres, all brutal castoffs from the Second War. The Molten Span, a massive stone edifice in the north, bridges a river of fire and leads to Khaz Modan.",petBattleLvl=15,g={
 h(-12,{
-ach(775,{awp=30002,g={
-crit(1281,{achID=42,awp=30002,id=6})}}),
+ach(775,{
+crit(1281,{achID=42,awp=30002,id=6})}),
 ach(4901,{awp=40003,sourceQuests={28183,28286,28322,28326,28425,28441,28449,28456},g={
 crit(5907,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",393,415,423,414}},g={
@@ -22608,8 +22608,8 @@ i(63335,{awp=40001,q=1}),
 i(63334,{awp=40001,q=1})}})})}}),
 m(42,{icon=236741,lore="Deadwind Pass is a haunted forest and canyon on the edges of the Kingdom of Stormwind in the southern Eastern Kingdoms. Serving as borders between Duskwood and Swamp of Sorrows, evil magic can be felt all through the zone, the trees are all but dead, and very few wildlife and ogres can be found in the zone. Travelers are advised to go through the pass fast, as they might fall to the zone's foreboding magic.\n\nTrivia:\nMedivh, the last Guardian, made Deadwind Pass his final place. The tower of Karazhan to the south served as his bastion until his final days.\n\nThe Karazhan Crypts can be explored by players who kill themselves and traverse the gates as a ghost. The crypt is filled to the brim with disturbing content, the most disturbing being a pool filled with human bodies hanged upside down and roped to chains. This area became known to players as the Upside-Down Sinners.",maps={41,43,44,45},petBattleLvl=17,g={
 h(-12,{
-ach(777,{awp=30002,g={
-crit(1282,{achID=42,awp=30002,id=23})}})}),
+ach(777,{
+crit(1282,{achID=42,awp=30002,id=23})})}),
 flt(101,{awp=50004,pb=1,g={
 p(1160,{awp=50100,npcID=68819,pb=1}),
 p(439,{awp=50004,description="Spawns in |cFFFFD700The Master's Cellar|r during the early morning between midnight and 9:00am PST(US)/CEST(EU)/AEST(OCE).",npcID=61375,pb=1,g={
@@ -22869,8 +22869,8 @@ q(26264,{awp=40003,coords={{39.3,26.5,469}},qgs={42611},races={7},sourceQuests={
 qo(1,{awp=40003,crs={42184},providers={{"i",57987}}})}}),
 q(28169,{awp=40003,coords={{50.9,32,30}},qgs={47250},races={7},sourceQuests={27671}})})}}),
 h(-12,{
-ach(627,{awp=30002,g={
-crit(1283,{achID=42,awp=30002,id=7})}})}),
+ach(627,{
+crit(1283,{achID=42,awp=30002,id=7})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",378}},g={
 p(441,{awp=50004,crs={61690},maps={427,469},npcID=61690,pb=1,g={
 crit(21510,{achID=6585,awp=50004,id=3,pb=1}),
@@ -23194,8 +23194,8 @@ s(117691,2064,{awp=100107,coords={{69.4,58.8,27},{80,57.6,27}},crs={1118},f=23,l
 s(120720,5767,{awp=100107,coords={{46.6,40.6,27},{49,42.6,27},{49.8,37.2,27}},crs={1397},f=4,lvl=4,q=1,rwp=40003,u=2})})}}),
 m(47,{icon=236757,lore="Duskwood is a zone in Southern Eastern Kingdoms, warped and cursed due to the Scythe of Elune. Beneath the eternal blanket of darkness which gave Duskwood its current name, the Scythe's effects have transformed what was once a beautiful part of Elwynn Forest into a land covered in gnarled trees and inhabited by the hideous undead and extradimensional Worgen, brought along with the black fog hanging over the woods. Ogres moving in from Deadwind Pass have brought up even more problems.",petBattleLvl=5,g={
 h(-12,{
-ach(778,{awp=30002,g={
-crit(1284,{achID=42,awp=30002,id=8})}})}),
+ach(778,{
+crit(1284,{achID=42,awp=30002,id=8})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646,385,378,424,419,379}},g={
 p(398,{awp=50004,npcID=61257,pb=1,g={
 crit(21511,{achID=6585,awp=50004,id=7,pb=1}),
@@ -23647,7 +23647,7 @@ qo(1,{providers={{"n",28608},{"n",28940},{"n",28609},{"n",28557}}}),
 qo(2,{providers={{"n",28576},{"n",28577}}}),
 i(38671,{b=1,f=52,q=3})}}),
 q(12680,{coords={{52.6,34.5,124}},qgs={28653},sourceQuests={12670},g={
-qo(1,{providers={{"n",28605},{"n",28607},{"n",28606}}})}}),
+qo(1,{providers={{"n",28607},{"n",28606},{"n",28605}}})}}),
 q(12687,{coords={{52.6,34.5,124}},qgs={28653},sourceQuests={12680},g={
 qo(1,{providers={{"n",28768}}}),
 mnt(48778,{c={6}}),
@@ -23814,11 +23814,11 @@ s(172341,39205,{coords={{54.6,42.8,23},{56.8,49.8,23},{59.6,31.2,23}},crs={28557
 h(-12,{
 ach(4892,{awp=40003,sourceQuests={27373,27391,27489,27527,27620},g={
 crit(5913,{achID=1676,awp=30002,id=1})}}),
-ach(771,{awp=30002,g={
-crit(1286,{achID=42,awp=30002,id=25})}}),
+ach(771,{
+crit(1286,{achID=42,awp=30002,id=25})}),
 ach(5442,{awp=40003,g={
 crit(15624,{achID=5442,awp=40003,id=2,providers={{"s",94998}}})}}),
-ach(946,{awp=30002,maps={22},minReputation={529,42000}})}),
+ach(946,{maps={22},minReputation={529,42000}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398}},g={
 p(626,{awp=50004,npcID=61829,pb=1,g={
 crit(21635,{achID=6585,awp=50004,id=6,pb=1}),
@@ -24705,8 +24705,8 @@ h(-63,{
 s(117688,2057,{crs={38},f=25,q=1,rwp=40003,u=2}),
 s(117686,2055,{f=23,q=1,rwp=40003,u=2})})}}),
 h(-12,{
-ach(776,{awp=30002,g={
-crit(1285,{achID=42,awp=30002,id=2})}}),
+ach(776,{
+crit(1285,{achID=42,awp=30002,id=2})}),
 crit(11081,{achID=3556,awp=30202,e=101,id=5,r=2}),
 crit(11141,{achID=3581,awp=30202,e=101,id=5,r=1})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646}},g={
@@ -25895,8 +25895,8 @@ q(14348,{awp=40003,coords={{35.75,66.29,179}},qgs={36140},races={22},sourceQuest
 qo(1,{awp=40003,coords={{35.5,67.4,179}},providers={{"n",36231},{"i",49202},{"o",196403}}})}})}})}}),
 m(25,{icon=236779,lore="Hillsbrad Foothills was radically changed in Cataclysm. Formerly a grassy zone with World PvP between the Alliance town of Southshore and the Horde town of Tarren Mill, the Forsaken have taken over the zone after the Shattering. Southshore is destroyed due to plague experiments, and toxic waste covers much of the zone. This zone has also been merged with Alterac Mountains, a snowy plateau populated by ogres and surrounded by the Syndicate.",petBattleLvl=6,g={
 h(-12,{
-ach(772,{awp=30002,g={
-crit(1287,{achID=42,awp=30002,id=9})}}),
+ach(772,{
+crit(1287,{achID=42,awp=30002,id=9})}),
 ach(4895,{awp=40003,r=1,sourceQuests={28138,28144,28146,28156,28237,28616,28634,28636,28647},g={
 crit(5918,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646,648,450,378,417,412,379,420}},g={
@@ -27222,8 +27222,8 @@ s(144363,34407,{awp=20400,b=1,cost={{"i",34351,1},{"i",34664,1}},f=5,lvl=70,q=4,
 s(144354,34398,{awp=20400,b=1,cost={{"i",34212,1},{"i",34664,1}},f=5,lvl=70,q=4,u=21})}})}})}}),
 m(48,{icon=236808,lore="Loch Modan is a large area east of Dun Morogh, situated in eastern Khaz Modan. It is known for its temperate climate, abandoned archaeological dig site and, until the cataclysm, the huge lake from which the region takes its name. The gray and rugged Khaz Modan mountains rise up on all sides around the loch, and the hills are lightly wooded with pine and birch.\n\nLoch Modan is heavily populated by hostile troggs, unearthed from caves below ground by the dwarven digs. They have since settled in the surrounding mountainous area and built crude camps and caves from which to strike at passing travelers. Other dangers include dangerous wildlife, aggressive kobolds, and the powerful ogres of the Mo'grosh Stronghold.",petBattleLvl=3,g={
 h(-12,{
-ach(779,{awp=30002,g={
-crit(1288,{achID=42,awp=30002,id=10})}}),
+ach(779,{
+crit(1288,{achID=42,awp=30002,id=10})}),
 ach(4899,{awp=40003,r=2,sourceQuests={13648,25118,25733,25734,25735,25780,25801,25805,25819,25857,25868,26120,26128,26147,26148,26189,26868,27026,27033,27037,27116},g={
 crit(5922,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",441,417,419,387,440,379}},g={
@@ -27600,11 +27600,11 @@ crit(21440,{achID=6613,awp=50004,id=14,pb=1}),
 crit(21559,{achID=6560,awp=50004,id=33,pb=1})}})}}),
 m(50,{icon=236844,lore="Northern Stranglethorn is a new zone in Cataclysm--the old Stranglethorn Vale was split in half after the Sundering. At the bottom of this zone, the remaining whirlpool can be seen. Players learn about the political changes Zul'Gurub, rescue an adorable raptor, and partake in Nesingwary's expanded hunting operations.",petBattleLvl=7,g={
 h(-12,{
-ach(781,{awp=30002,g={
-crit(1293,{achID=42,awp=30002,id=17})}}),
+ach(781,{
+crit(1293,{achID=42,awp=30002,id=17})}),
 ach(4906,{awp=40003,sourceQuests={208,26269,26305,26345,26362,26731,26734,26737,26765,26775},g={
 crit(15213,{achID=1676,awp=30002,id=1})}}),
-ach(940,{awp=30002,sourceQuests={208},g={
+ach(940,{sourceQuests={208},g={
 crit(2008,{achID=941,awp=30002,id=2,u=30})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",404,424,401}},g={
 p(406,{awp=50004,npcID=61319,pb=1,g={
@@ -28140,8 +28140,8 @@ i(1996,{awp=70305,crs={660},f=52,lvl=32,q=2,rwp=40003,u=2}),
 i(8153,{description="Can drop from any troll in The Hinterlands or Stranglethorn Vale.",q=2})})}}),
 m(49,{icon=236814,lore="Redridge Mountains is a sleepy zone that is primarily Alliance. However, threats come from the Blackrock Invasion, which is revealed to be tied to the Black Dragonflight and Deathwing. The main series of quests follows John J. Keeshan, a clear tribute to Rambo.",petBattleLvl=4,g={
 h(-12,{
-ach(780,{awp=30002,g={
-crit(1289,{achID=42,awp=30002,id=11})}}),
+ach(780,{
+crit(1289,{achID=42,awp=30002,id=11})}),
 ach(4902,{awp=40003,r=2,sourceQuests={26545,26607,26726},g={
 crit(5929,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646,378}},g={
@@ -28557,8 +28557,8 @@ q(27401,{awp=40003,coords={{57.5,18.2,217}},qgs={45315},r=1,sourceQuests={27360,
 prof(356,{awp=40003})}}),
 m(32,{icon=236815,lore="Just as Blackrock orcs and their allies dominate Burning Steppes, so Dark Iron dwarves dominate the Searing Gorge. A large population of Dark Iron dwarves, War Golems, and Elementals resides in this dark, mountainous area.\n\nThe climate is very similar to Burning Steppes, as it was the same catastrophe that blackened both: the summoning of Ragnaros. The Searing Gorge is a part of Khaz Modan. Before being shattered by the summoning it was a mountainous region, part of the Redridge Mountains.\n\nLarge mining operations take place in The Cauldron, a giant excavation site forming a huge rift in the middle of the Searing Gorge. The Slag Pit lies within The Cauldron and is an underground mining site rich with multiple types of ore. The mining work is mainly done by slave labor, which consists for the most part of captured enemies.\n\nEver since the Dark Iron dwarves' capital, Thaurissan, was destroyed by the summoning of Ragnaros, they have searched for a landmass to control for their filthy, industrious works. The Searing Gorge was the obvious choice due to a low military presence, scarce population, few settlements, and high vulnerability. The dwarven garrisons were soon overrun by a massive Dark Iron invasion which forced them to retreat to Loch Modan and seal the passage.",petBattleLvl=13,g={
 h(-12,{
-ach(774,{awp=30002,g={
-crit(1291,{achID=42,awp=30002,id=14})}}),
+ach(774,{
+crit(1291,{achID=42,awp=30002,id=14})}),
 ach(4910,{awp=40001,sourceQuests={27964,27979,28035,28064,28099},g={
 crit(5932,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",415}},g={
@@ -28885,8 +28885,8 @@ r(18408,{awp=80200,coords={{19.4,36.6,32},{25.4,25.4,32}},crs={5861},itemID=1447
 r(26277,{awp=100107,coords={{37,42.8,32},{39,50.8,32},{41.6,42.2,32},{43.6,27.6,32},{63.6,59,32},{65.4,65.6,32}},crs={5844,5846,8637},itemID=21547,learnedAt=250,q=2,requireSkill=171,rwp=40003,u=2})})}}),
 m(21,{icon=236830,lore="Silverpine Forest is a vast ancient wood that runs along Lordaeron's rugged western coast. The land ranges from fairly flat to hilly, and is nestled among even taller mountains. The forest is eerily silent save for the occasional unnatural howling echoing among the trees. Mossy overhangs shiver in the cold breeze, and the trees are all sickly or dying. Dilapidated farmsteads and abandoned mines dot the land, home now to the darker denizens of the woods.\n\nThis woodland is haunted and wild, characterized by its tall, silver-barked pines towering over grassy knolls. The Alliance once protected Silverpine Forest when it was verdant and lively. Now the place is shrouded in ghostly mists. Forsaken control the northern forest. What remains of the human population retains control of the southern forest, but they are desperate and their forces thinly stretched. Dalaran sends frequent expeditions into Silverpine to defend these people and study the undead plague and worgen curse — a mysterious affliction that causes its victims to transform into bloodthirsty, lycanthropic worgen when the moon rises.",petBattleLvl=3,g={
 h(-12,{
-ach(769,{awp=30002,g={
-crit(1292,{achID=42,awp=30002,id=15})}}),
+ach(769,{
+crit(1292,{achID=42,awp=30002,id=15})}),
 ach(4894,{awp=40003,r=1,sourceQuests={27056,27096,27290,27438,27518,27601},g={
 crit(9081,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",628,627,378,417,387,379,420}},g={
@@ -29224,8 +29224,8 @@ crit(21443,{achID=6613,awp=50004,id=18,pb=1}),
 crit(21565,{achID=6560,awp=50004,id=39,pb=1})}})}}),
 m(51,{icon=236845,lore="The Swamp of Sorrows is a marshland in southern Eastern Kingdoms filled with green dragons serving Ysera. When the Dark Portal imploded during the Second War, The Black Morass was split in half--the northern part became the Swamp, while the southern half became the barren Blasted Lands.",petBattleLvl=14,g={
 h(-12,{
-ach(782,{awp=30002,g={
-crit(1294,{achID=42,awp=30002,id=19})}}),
+ach(782,{
+crit(1294,{achID=42,awp=30002,id=19})}),
 ach(4904,{awp=40003,sourceQuests={24913,27600,27849,27851,27857,27911,27914},g={
 crit(5939,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",403,401,420,418}},g={
@@ -29550,14 +29550,14 @@ i(6172,{b=1,lvl=30,q=1,rwp=40003,u=2}),
 s(121010,6196,{b=1,crs={5477},f=23,lvl=29,q=0,rwp=40003,u=2})})}}),
 m(210,{icon=236844,lore="The Cape of Stranglethorn is the southern part of Stranglethorn Vale, now split from the Shattering. It traces the escalating conflict between the goblin pirates of Booty Bay and their rivals, the Bloodsail Buccaneers. The rest of the zone is dotted with troll ruins and sandy beaches.",maps={224},petBattleLvl=9,g={
 h(-12,{
-ach(871,{awp=30002,sourceQuests={4621},u=11,g={
+ach(871,{sourceQuests={4621},u=11,g={
 title(111,{awp=30002,u=11})}}),
 ach(4905,{awp=40003,sourceQuests={26555,26612,26613,26665,26703,26814},g={
 crit(5935,{achID=1676,awp=30002,id=1})}}),
 ach(4995,{awp=40003,g={
 crit(1277,{achID=42,awp=30002,id=18})}})}),
 o(179697,{coords={{46.6,26.1,210}},description="WARNING: FREE-FOR-ALL PVP EVENT\n\nChest is dropped in arena every 3 hours, starting at midnight.\n\n00:00/12PM, 03:00/3AM, 06:00/6AM, 09:00/9AM,\n12:00/12AM, 15:00/3PM, 18:00/6PM, 21:00/9PM",pvp=1,g={
-ach(389,{awp=30002,pvp=1}),
+ach(389,{pvp=1}),
 i(18706,{b=1,f=53,lvl=35,pvp=1,q=2}),
 s(129615,18711,{f=6,lvl=45,pvp=1,q=3}),
 s(129614,18710,{f=5,lvl=45,pvp=1,q=3}),
@@ -29658,7 +29658,7 @@ q(3721,{coords={{43,72,210}},lvl=30,qgs={7406},sourceQuests={648,836,25476},g={
 p(83,{awp=11101,itemID=10398,npcID=8376,q=1,spellID=12243})}}),
 q(603,{coords={{18.8,78.5,1416}},lvl=32,qgs={2543},r=2,rwp=40003,sourceQuests={602},u=2}),
 q(7838,{coords={{45,25.4,210}},cost={{"i",18706,12}},pvp=1,qgs={14508},repeatable=1,sourceQuests={7810},g={
-ach(396,{awp=30002,providers={{"i",19024}},pvp=1}),
+ach(396,{providers={{"i",19024}},pvp=1}),
 i(19024,{b=1,f=53,pvp=1,q=3})}}),
 q(7810,{coords={{46.6,26.1,210}},providers={{"i",18706}},pvp=1}),
 q(26644,{awp=40003,coords={{44.3,91.6,210}},qgs={2548},sourceQuests={26633,26634,26635}}),
@@ -30085,8 +30085,8 @@ r(6705,{crs={1561},itemID=5789,learnedAt=190,q=2,requireSkill=165}),
 p(239,{awp=30200,itemID=48126,npcID=35394,q=1,spellID=67420})})}}),
 m(26,{icon=236780,lore="The Hinterlands, located in the Northern part of the Eastern Kingdoms, are probably most notable for the Wildhammer dwarves who make their residence at Aerie Peak in the west. The Wildhammers have always been staunch allies of the Alliance. It is from the Hinterlands that these dwarves find and tame their world-renowned gryphons. The Razorbeak gryphons roam wild in this region.\n\nAlso in the Hinterlands is one of the last remaining settlements of the high elves in Lordaeron at the Quel'Danil Lodge.\n\nThe Hinterlands are also home to a large population of forest trolls, which are divided into three separate tribes. The Revantusk tribe is the only one of the three that has declared sides in the Horde/Alliance conflict and support the warchief Thrall of the Horde. The Vilebranch tribe holds residence in the massive troll city of Jintha'Alor as well as the Altar of Zul while the Witherbark tribe holds the smallest influence, hailing from the temples of Shadra'Alor.",petBattleLvl=11,g={
 h(-12,{
-ach(773,{awp=30002,g={
-crit(1295,{achID=42,awp=30002,id=20})}}),
+ach(773,{
+crit(1295,{achID=42,awp=30002,id=20})}),
 ach(4897,{awp=40003,sourceQuests={26210,26211,26212,26224,26225,26238,26240,26267,26268,26283,26308,26309,26357,26368,26369,26387,26419,26462,26485,26486,26490,26491,26492,26516,26521,26524,26525,26526,26532,26643},g={
 crit(5942,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",393,448,450,417}},g={
@@ -30605,8 +30605,8 @@ s(125441,13114,{f=5,lvl=25,q=3}),
 s(121395,6592,{f=6,lvl=24,q=2}),
 s(122117,7728,{f=4,lvl=29,q=3})}})}),
 h(-12,{
-ach(768,{awp=30002,g={
-crit(1290,{achID=42,awp=30002,id=12})}}),
+ach(768,{
+crit(1290,{achID=42,awp=30002,id=12})}),
 crit(11085,{achID=3557,awp=30202,e=101,id=5,r=1}),
 crit(11137,{achID=3580,awp=30202,e=101,id=5,r=2})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",417,646,417,458}}}),
@@ -32428,8 +32428,8 @@ h(-63,{awp=40003,maps={201,204,205},g={
 r(86644,{awp=40003,b=1,itemID=65649,learnedAt=480,q=1,requireSkill=773})}})}}),
 m(22,{icon=236851,lore="Western Plaguelands is starting to mend thanks to the efforts of the Cenarion Circle, but other parts are torn apart by war, such as Andorhal. After the fall of the Scarlet Crusade and victory in Northrend, Hearthglen was reclaimed by Tirion Fordring and now serves as a major friendly quest hub (in contrast to the pre-Cataclysm elites). The Battle for Andorhal questline also features reappearances of Thassarian and Koltira Deathweaver, two favorite deathknights who wanted to remain friends after their experiences at Acherus instead of picking a side to fight on.",petBattleLvl=10,g={
 h(-12,{
-ach(770,{awp=30002,g={
-crit(1296,{achID=42,awp=30002,id=24})}}),
+ach(770,{
+crit(1296,{achID=42,awp=30002,id=24})}),
 ach(4893,{awp=40003,sourceQuests={26926,26938,26955,27144,27155,27165,27174,27206},g={
 crit(5947,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398,648,378,379,420}},g={
@@ -32938,8 +32938,8 @@ crit(21446,{achID=6613,awp=50004,id=22,pb=1}),
 crit(21568,{achID=6560,awp=50004,id=42,pb=1})}})}}),
 m(52,{icon=236852,lore="Westfall is a low-level Alliance zone. It used to be a tranquil farming area on the coast, but is now taken over by the Defias Brotherhood and crime runs rampant. The Westfall Brigade has created a last-ditch effort at Sentinel Hill to aid the zone, but faces threats from the Brotherhood at Moonbrook.",maps={53,54,55},petBattleLvl=3,g={
 h(-12,{
-ach(802,{awp=30002,g={
-crit(1297,{achID=42,awp=30002,id=21})}}),
+ach(802,{
+crit(1297,{achID=42,awp=30002,id=21})}),
 ach(4903,{awp=40003,r=2,sourceQuests={26270,26297,26370},g={
 crit(5948,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",385,386,387,419,379}},g={
@@ -33280,8 +33280,8 @@ s(200797,2327,{awp=100107,coords={{54.6,26,52},{59.6,18.6,52}},crs={480},f=5,lvl
 s(117025,827,{crs={122,449},f=23,lvl=12,q=2})})}}),
 m(56,{icon=236853,lore="Wetlands is a large swamp and primarily-Alliance area that is partially flooded after the Shattering. Quests involve trying to rebuild the flooded Menethil Harbor, assist the night elves in Greenwarden's Grove, and discover dwarven dig sites.",petBattleLvl=6,g={
 h(-12,{
-ach(841,{awp=30002,g={
-crit(1298,{achID=42,awp=30002,id=22})}})}),
+ach(841,{
+crit(1298,{achID=42,awp=30002,id=22})})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398,393,633,385,379,420,418}},g={
 p(509,{awp=50004,coords={{54.6,33,56}},npcID=61686,pb=1,g={
 crit(21689,{achID=6586,awp=50004,id=78,pb=1})}})}}),
@@ -40773,9 +40773,9 @@ r(69386,{awp=30202,learnedAt=450,requireSkill=165,u=30}),
 r(69388,{awp=30202,learnedAt=450,requireSkill=165,u=30}),
 r(62448,{awp=30003,learnedAt=425,requireSkill=165,u=30}),
 r(50965,{awp=30003,learnedAt=425,requireSkill=165,u=30}),
-r(57683,{awp=30003,learnedAt=400,requireSkill=165,rwp=60002,u=30}),
-r(57691,{awp=30003,learnedAt=400,requireSkill=165,rwp=60002,u=30}),
-r(57690,{awp=30003,learnedAt=400,requireSkill=165,rwp=60002,u=30}),
+r(57683,{awp=30003,learnedAt=400,rank=1,requireSkill=165,rwp=60002,u=30}),
+r(57691,{awp=30003,learnedAt=400,rank=1,requireSkill=165,rwp=60002,u=30}),
+r(57690,{awp=30003,learnedAt=400,rank=1,requireSkill=165,rwp=60002,u=30}),
 r(50963,{awp=30003,learnedAt=395,requireSkill=165,u=30}),
 r(50936,{awp=30003,learnedAt=390,requireSkill=165,u=30}),
 r(50967,{awp=30003,learnedAt=425,requireSkill=165,u=30}),
@@ -40852,12 +40852,12 @@ r(56028,{awp=30003,learnedAt=440,requireSkill=197,u=30}),
 r(55995,{awp=30003,learnedAt=400,requireSkill=197,u=30})}}),
 h(-243,{awp=30003,u=30,g={
 r(56010,{awp=30003,learnedAt=400,requireSkill=197,u=30}),
-r(55769,{awp=30003,learnedAt=420,requireSkill=197,rwp=60002,u=30}),
-r(55642,{awp=30003,learnedAt=420,requireSkill=197,rwp=60002,u=30}),
-r(56034,{awp=30003,learnedAt=405,requireSkill=197,rwp=60002,u=30}),
-r(56039,{awp=30003,learnedAt=405,requireSkill=197,rwp=60002,u=30}),
+r(55769,{awp=30003,learnedAt=420,rank=1,requireSkill=197,rwp=60002,u=30}),
+r(55642,{awp=30003,learnedAt=420,rank=1,requireSkill=197,rwp=60002,u=30}),
+r(56034,{awp=30003,learnedAt=405,rank=1,requireSkill=197,rwp=60002,u=30}),
+r(56039,{awp=30003,learnedAt=405,rank=1,requireSkill=197,rwp=60002,u=30}),
 r(56008,{awp=30003,learnedAt=400,requireSkill=197,u=30}),
-r(55777,{awp=30003,learnedAt=420,requireSkill=197,rwp=60002,u=30})}}),
+r(55777,{awp=30003,learnedAt=420,rank=1,requireSkill=197,rwp=60002,u=30})}}),
 flt(113,{awp=30003,u=30,g={
 r(56007,{awp=30003,learnedAt=410,requireSkill=197,u=30})}}),
 flt(50,{awp=30003,u=30,g={
@@ -50369,9 +50369,11 @@ h(-44,{awp=50004,g={
 prof(171,{awp=50004,g={
 n(65186,{awp=50004,coords={{55.6,35.2,422}},g={
 r(105206,{learnedAt=500,rank=8,requireSkill=171,rwp=80001,u=51}),
+flt(55,{awp=50004,u=51,g={
 r(114751,{awp=50004,learnedAt=500,requireSkill=171,u=51}),
-r(114752,{awp=50004,learnedAt=500,requireSkill=171,u=51}),
-r(136197,{awp=50200,learnedAt=500,requireSkill=171,u=51})}})}})}}),
+r(114752,{awp=50004,learnedAt=500,requireSkill=171,u=51})}}),
+flt(53,{awp=50004,u=51,g={
+r(136197,{awp=50200,learnedAt=500,requireSkill=171,u=51})}})}})}})}}),
 h(-45,{awp=50004,g={
 q(31178,{awp=50004,coords={{25.7,50.2,422}},qgs={63071},sourceQuests={31175},g={
 i(85229,{awp=50004,q=1})}}),
@@ -52193,23 +52195,23 @@ r(124580,{awp=50004,learnedAt=535,requireSkill=165,u=51})}}),
 flt(50,{awp=50004,u=51,g={
 r(124127,{awp=50004,learnedAt=575,requireSkill=165,u=51}),
 r(124126,{awp=50004,learnedAt=550,requireSkill=165,u=51}),
-r(124569,{awp=50004,learnedAt=1,requireSkill=165,rwp=60002,u=51}),
-r(124566,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124561,{awp=50004,learnedAt=0,requireSkill=165,u=51}),
-r(124551,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124552,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124553,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124549,{awp=50004,learnedAt=425,requireSkill=165,rwp=60002,u=51}),
-r(124554,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124568,{awp=50004,learnedAt=1,requireSkill=165,rwp=60002,u=51}),
-r(124565,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124563,{awp=50004,learnedAt=0,requireSkill=165,u=51}),
+r(124569,{awp=50004,learnedAt=1,rank=1,requireSkill=165,rwp=60002,u=51}),
+r(124566,{awp=50004,learnedAt=0,rank=2,requireSkill=165,rwp=60002,u=51}),
+r(124561,{awp=50004,learnedAt=0,rank=3,requireSkill=165,u=51}),
+r(124551,{awp=50004,learnedAt=0,rank=3,requireSkill=165,rwp=60002,u=51}),
+r(124552,{awp=50004,learnedAt=0,rank=3,requireSkill=165,rwp=60002,u=51}),
+r(124553,{awp=50004,learnedAt=0,rank=3,requireSkill=165,rwp=60002,u=51}),
+r(124549,{awp=50004,learnedAt=425,rank=1,requireSkill=165,rwp=60002,u=51}),
+r(124554,{awp=50004,learnedAt=0,rank=3,requireSkill=165,rwp=60002,u=51}),
+r(124568,{awp=50004,learnedAt=1,rank=1,requireSkill=165,rwp=60002,u=51}),
+r(124565,{awp=50004,learnedAt=0,rank=2,requireSkill=165,rwp=60002,u=51}),
+r(124563,{awp=50004,learnedAt=0,rank=3,requireSkill=165,u=51}),
 r(124128,{awp=50004,learnedAt=575,requireSkill=165,u=51}),
 r(131865,{awp=50200,learnedAt=550,requireSkill=165,u=51}),
 r(124627,{awp=50004,learnedAt=500,requireSkill=165,u=51}),
-r(124567,{awp=50004,learnedAt=1,requireSkill=165,rwp=60002,u=51}),
-r(124564,{awp=50004,learnedAt=0,requireSkill=165,rwp=60002,u=51}),
-r(124559,{awp=50004,learnedAt=0,requireSkill=165,u=51}),
+r(124567,{awp=50004,learnedAt=1,rank=1,requireSkill=165,rwp=60002,u=51}),
+r(124564,{awp=50004,learnedAt=0,rank=2,requireSkill=165,rwp=60002,u=51}),
+r(124559,{awp=50004,learnedAt=0,rank=3,requireSkill=165,u=51}),
 r(124628,{awp=50004,learnedAt=525,requireSkill=165,u=51}),
 r(124124,{awp=50004,learnedAt=540,requireSkill=165,u=51}),
 r(124129,{awp=50004,learnedAt=575,requireSkill=165,u=51}),
@@ -57389,12 +57391,12 @@ r(125524,{awp=50004,learnedAt=535,requireSkill=197,u=51}),
 r(125525,{awp=50004,learnedAt=555,requireSkill=197,u=51})}}),
 h(-243,{awp=50004,u=51,g={
 r(125553,{awp=50004,learnedAt=540,requireSkill=197,u=51}),
-r(125482,{awp=50004,learnedAt=0,requireSkill=197,rwp=60002,u=51}),
-r(125481,{awp=50004,learnedAt=0,requireSkill=197,rwp=60002,u=51}),
-r(125496,{awp=50004,learnedAt=0,requireSkill=197,rwp=60002,u=51}),
+r(125482,{awp=50004,learnedAt=0,rank=3,requireSkill=197,rwp=60002,u=51}),
+r(125481,{awp=50004,learnedAt=0,rank=3,requireSkill=197,rwp=60002,u=51}),
+r(125496,{awp=50004,learnedAt=0,rank=3,requireSkill=197,rwp=60002,u=51}),
 r(125552,{awp=50004,learnedAt=530,requireSkill=197,u=51}),
-r(125497,{awp=50004,learnedAt=0,requireSkill=197,rwp=60002,u=51}),
-r(125483,{awp=50004,learnedAt=0,requireSkill=197,rwp=60002,u=51})}}),
+r(125497,{awp=50004,learnedAt=0,rank=3,requireSkill=197,rwp=60002,u=51}),
+r(125483,{awp=50004,learnedAt=0,rank=3,requireSkill=197,rwp=60002,u=51})}}),
 flt(56,{awp=50004,u=51,g={
 r(125551,{awp=50004,learnedAt=500,requireSkill=197,u=51}),
 r(125557,{awp=50004,learnedAt=550,requireSkill=197,u=51}),
