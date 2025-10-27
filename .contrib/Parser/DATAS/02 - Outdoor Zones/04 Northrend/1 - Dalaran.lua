@@ -864,6 +864,7 @@ root(ROOTS.Zones, {
 								}},
 								-- #endif
 							}),
+							-- #if NOT ANYCLASSIC
 							n(30885, {	-- Blazik Fireclaw <Hateful Gladiator> [Legion?] / Blazik Fireclaw <Legacy Arena Armor> [CATA+] / Blazik Fireclaw <Water Vendor> [WRATH]
 								["coord"] = { 59.5, 57.9, NORTHREND_THE_UNDERBELLY },
 								-- #if AFTER LEGION
@@ -872,6 +873,7 @@ root(ROOTS.Zones, {
 								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR },{"merge"},{ "pop" }},	-- Brutal Gladiator's Set [TODO: Specifically Just the Armor...]
 								-- #endif
 							}),
+							-- #endif
 							n(106887, {	-- Cravitz Lorent <Shady Book Dealer>
 								["description"] = "This vendor is not always present. It can appear in either version of Dalaran.",
 								["coord"] = { 47.0, 28.1, NORTHREND_THE_UNDERBELLY },
@@ -1002,6 +1004,7 @@ root(ROOTS.Zones, {
 								-- #endif
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
+							-- #if NOT ANYCLASSIC
 							applyclassicphase(CATA_PHASE_ONE, n(40212, {	-- Trapjaw Rix <Savage Gladiator> [Legion?] / Blazik Fireclaw <Legacy Arena Armor> [CATA+]
 								["coord"] = { 59.3, 57.3, NORTHREND_THE_UNDERBELLY },
 								-- #if AFTER LEGION
@@ -1011,6 +1014,7 @@ root(ROOTS.Zones, {
 								-- #endif
 								["timeline"] = { ADDED_4_0_3 },
 							})),
+							-- #endif
 							applyclassicphase(WRATH_PHASE_FOUR, n(34095, {	-- Trapjaw Rix <Veteran Arena Vendor> / <Exceptional Arena Weaponry> [WRATH] Original WOTLK S8 ELITE VENDOR
 								["coord"] = { 59.9, 57.0, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 4.0.3.13277
