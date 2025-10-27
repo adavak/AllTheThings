@@ -1358,7 +1358,7 @@ namespace ATT
                 if (!TryGetSOURCED("questID", altTransmogSetQuestID, out HashSet<IDictionary<string, object>> questSources))
                 {
                     data.TryGetValue("ensembleID", out long ensembleID);
-                    LogWarn($"Ensemble {ensembleID} has matching un-sourced alternate transmog set questID {altTransmogSetQuestID}", data);
+                    LogWarn($"Ensemble {ensembleID} has matching un-sourced alternate questID {altTransmogSetQuestID}. This is either due to bad Blizzard data and hopefully fixed in future Wago updates, or should have an hqt({altTransmogSetQuestID}) added to prevent this message.", data);
                 }
             }
 
@@ -3287,6 +3287,8 @@ namespace ATT
                         LogDebugWarn($"Existing QuestID {existingQuestID} on Ensemble with TransmogSet {tmogSetID} which has different TrackingQuestID {tmogSet.TrackingQuestID}", data);
                         // if this tmogSet's TrackingQuestID is different, then we will just store it as an alternate questID for reference and
                         // deal with it in EnsembleCleanup if no other Ensemble sources this questID
+                        // for the few cases where this logic is hit, the Spell's QuestID is the one which is actually triggered,
+                        // meaning the actual Ensemble appearances may not be properly granted via its QuestID
                         data["_altTmogSetQuestID"] = tmogSet.TrackingQuestID;
                     }
                     else
