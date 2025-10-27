@@ -90,9 +90,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 					moh(80, iensemble(146647, {	-- Arsenal: Savage Gladiator's Weapons
 						["timeline"] = { ADDED_7_2_0 },
 					})),
+					-- #if BEFORE MOP
 					i(42444, {	-- Savage Gladiator's War Edge (Throw Wep)
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 					}),
+					-- #endif
 					i(42511, {	-- Savage Gladiator's Baton of Light
 						["timeline"] = { ADDED_3_0_2 },
 					}),
@@ -358,15 +360,15 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						moh(80, iensemble(146646, {	-- Arsenal: Hateful Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
 						})),
-						-- #if AFTER 5.0.0
+						-- #if AFTER MOP
 						moh(2, i(42563)),	-- Hateful Gladiator's Barrier
 						-- #endif
-						moh(5, i(42512, {
+						moh(5, i(42512, {	-- Hateful Gladiator's Baton of Light
 							-- #if ANYCLASSIC
 							["timeline"] = { ADDED_3_0_2 },
 							-- #endif
-						})),	-- Hateful Gladiator's Baton of Light
-						-- #if AFTER 5.0.0
+						})),
+						-- #if AFTER MOP
 						moh(5, i(42359)),	-- Hateful Gladiator's Battle Staff
 						moh(5, i(42279)),	-- Hateful Gladiator's Bonecracker
 						moh(5, i(42321)),	-- Hateful Gladiator's Bonegrinder
@@ -390,7 +392,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 							["timeline"] = { ADDED_3_0_2 },
 							-- #endif
 						})),
-						-- #if AFTER 5.0.0
+						-- #if AFTER MOP
 						moh(5, i(42326)),	-- Hateful Gladiator's Pike
 						moh(5, i(42274)),	-- Hateful Gladiator's Pummeler
 						moh(5, i(42289)),	-- Hateful Gladiator's Quickblade
@@ -411,11 +413,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 							["timeline"] = { ADDED_3_0_2 },
 							-- #endif
 						})),
-						-- #if AFTER 5.0.0
+						-- #if AFTER MOP
 						moh(5, i(44417)),	-- Hateful Gladiator's War Staff
 						-- #endif
 						moh(5, i(42236)),	-- Hateful Gladiator's Waraxe
-						-- #if AFTER 5.0.0
+						-- #if BEFORE MOP
 						i(42449, {	-- Hateful Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
@@ -725,9 +727,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 					moh(5, i(42502)),	-- Deadly Gladiator's Touch of Defeat
 					moh(5, i(44419)),	-- Deadly Gladiator's War Staff
 					moh(5, i(42237)),	-- Deadly Gladiator's Waraxe
+					-- #if BEFORE MOP
 					i(42450, {	-- Deadly Gladiator's War Edge (Throw Wep)
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 					}),
+					-- #endif
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146540, {	-- Ensemble: Deadly Gladiator's Dreadplate Armor
@@ -1059,9 +1063,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 					i(42238, {	-- Furious Gladiator's Waraxe
 						["timeline"] = { CREATED_3_1_1 },	-- This may have never been implemented, we'll find out!
 					}),
+					-- #if BEFORE MOP
 					i(42451, {	-- Furious Gladiator's War Edge (Throw Wep)
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 					}),
+					-- #endif
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146550, {	-- Ensemble: Furious Gladiator's Dreadplate Armor
@@ -1424,9 +1430,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 					moh(5, i(42504)),	-- Relentless Gladiator's Touch of Defeat
 					moh(5, i(49185)),	-- Relentless Gladiator's Wand of Alacrity
 					moh(5, i(44423)),	-- Relentless Gladiator's War Staff
+					-- #if BEFORE MOP
 					i(42483, {	-- Relentless Gladiator's War Edge (Throw Wep)
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 					}),
+					-- #endif
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146570, {	-- Ensemble: Relentless Gladiator's Dreadplate Armor
@@ -1789,9 +1797,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 					moh(5, i(51410)),	-- Wrathful Gladiator's Touch of Defeat
 					moh(5, i(51451)),	-- Wrathful Gladiator's Wand of Alacrity
 					moh(5, i(51400)),	-- Wrathful Gladiator's War Staff
+					-- #if BEFORE MOP
 					i(51535, {	-- Wrathful Gladiator's War Edge (Throw Wep)
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 					}),
+					-- #endif
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146590, {	-- Ensemble: Wrathful Gladiator's Dreadplate Armor
