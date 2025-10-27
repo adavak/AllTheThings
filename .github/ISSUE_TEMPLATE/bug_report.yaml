@@ -6,9 +6,8 @@ body:
   - type: dropdown
     id: flavour
     attributes:
-      label: "Which flavo(u)r(s) of WoW are you using?"
-      description: "Select all applicable versions of World of Warcraft."
-      multiple: true
+      label: "Which flavo(u)r of WoW are you using?"
+      description: "Select the versions of World of Warcraft."
       options:
         - "Retail"
         - "MoP Classic"
@@ -24,15 +23,16 @@ body:
   - type: dropdown
     id: realm
     attributes:
-      label: "Which server realm(s) are you in?"
-      description: "Select the region(s) where you encountered the issue."
-      multiple: true
+      label: "Which server realm are you in?"
+      description: "Select the region where you encountered the issue."
       options:
         - "US"
         - "EU"
         - "KR"
         - "TW"
         - "CN"
+    validations:
+      required: true
 
   - type: input
     id: wow_build
