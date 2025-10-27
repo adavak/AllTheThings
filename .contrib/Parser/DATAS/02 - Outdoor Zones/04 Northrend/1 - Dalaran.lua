@@ -1030,11 +1030,19 @@ root(ROOTS.Zones, {
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
 							applyclassicphase(WRATH_PHASE_TWO, n(34087, {	-- Trapjaw Rix <Veteran Arena Vendor> / <Exceptional Arena Weaponry> [WRATH] Original WOTLK S6 ELITE VENDOR
+								-- Wouter NOTE: I adjusted this NPC with Classic specific data starting from MoP, expansions before that may be inaccurate
 								["coord"] = { 59.9, 57.0, NORTHREND_THE_UNDERBELLY },
-								-- #if BEFORE 4.0.3.13277
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_ELITE },{"merge"}},	-- Furious Gladiator's Elite Set
+								-- #if BEFORE CATA
+								["sym"] = {{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_ELITE }, { "merge" }},	-- Furious Gladiator's Elite Set
+								-- #elseif ANYCLASSIC
+								["sym"] = {
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_ELITE }, { "merge" },	-- Wrathful Gladiator's Elite Set
+									{ "pop" }, { "where", "headerID", WEAPONS },	-- Pop Elite Set header and select Weapons header
+								},
 								-- #endif
+								-- #if NOT ANYCLASSIC
 								["timeline"] = { REMOVED_4_0_3 },
+								-- #endif
 							})),
 							-- #if NOT ANYCLASSIC
 							-- Wouter TODO: check if this NPC gets added later in MoP Classic
