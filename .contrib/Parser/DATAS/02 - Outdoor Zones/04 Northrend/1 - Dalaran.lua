@@ -993,16 +993,26 @@ root(ROOTS.Zones, {
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
 							applyclassicphase(WRATH_PHASE_ONE, n(31863, {	-- Nargle Lashcord <Veteran Arena Vendor> // Original S5 Vendor // Deadly Gladiator: Season 5 Gladiator Gear
+								-- Wouter NOTE: I adjusted this NPC with Classic specific data starting from MoP, expansions before that may be inaccurate
 								["coord"] = { 58.7, 59.0, NORTHREND_THE_UNDERBELLY },
-								-- #if BEFORE 4.0.3.13277
+								-- #if BEFORE CATA
 								["sym"] = {
-									{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR },{ "pop" },		-- Deadly Gladiator's Set
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR }, { "pop" },		-- Deadly Gladiator's Set
 									-- #if ANYCLASSIC
 									{ "select", "itemID", 201993 },	-- Deadly Gladiator's Tabard (Wrath Classic Only)
 									-- #endif
 								},
+								-- #elseif ANYCLASSIC
+								["sym"] = {
+									{ "sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR }, { "merge" }, { "pop" },	-- Deadly Gladiator's Set
+									{ "not", "headerID", BACK, WAIST, WRIST, FEET },				-- Exclude off-piece headers
+									{ "not", "filterID", NECK_F, FINGER_F, RELICS_F, TRINKET_F },	-- Exclude off-piece filters
+									{ "select", "itemID", 51534 },									-- Add Wrathful Gladiator's Tabard because that's also on the vendor for some reason
+								},
 								-- #endif
+								-- #if NOT ANYCLASSIC
 								["timeline"] = { REMOVED_4_0_3 },
+								-- #endif
 							})),
 							-- #if NOT ANYCLASSIC
 							applyclassicphase(CATA_PHASE_ONE, n(40212, {	-- Trapjaw Rix <Savage Gladiator> [Legion?] / Blazik Fireclaw <Legacy Arena Armor> [CATA+]
