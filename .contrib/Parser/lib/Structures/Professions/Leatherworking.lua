@@ -386,9 +386,18 @@ WRATH_LEATHERWORKING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timelin
 		r(69388, {["timeline"] = {ADDED_3_2_2}}),	-- Drums of the Wild
 		r(62448),	-- Earthen Leg Armor
 		r(50965),	-- Frosthide Leg Armor
-		r(57683, {["timeline"] = {ADDED_3_0_3, REMOVED_6_0_2}}),	-- Fur Lining - Agility
-		r(57691, {["timeline"] = {ADDED_3_0_3, REMOVED_6_0_2}}),	-- Fur Lining - Intellect
-		r(57690, {["timeline"] = {ADDED_3_0_3, REMOVED_6_0_2}}),	-- Fur Lining - Stamina
+		r(57683, {	-- Fur Lining - Attack Power [Wrath+] / Fur Lining - Agility [Rank 1] [MoP]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(57691, {	-- Fur Lining - Spell Power [Wrath+] / Fur Lining - Intellect [Rank 1] [MoP]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(57690, {	-- Fur Lining - Stamina [Wrath+] / Fur Lining - Stamina [Rank 1] [MoP]
+			["timeline"] = { ADDED_3_0_3, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
 		r(50963),	-- Heavy Borean Armor Kit
 		r(50936),	-- Heavy Borean Leather
 		r(50967),	-- Icescale Leg Armor
@@ -598,11 +607,31 @@ CATA_LEATHERWORKING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"
 		r(85068, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Charscale Leg Reinforcements
 		r(163218, {["timeline"] = {ADDED_6_0_2}}),	-- Deepsea Scale
 		r(85067, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Dragonbone Leg Reinforcements
-		r(101600, {["timeline"] = {ADDED_4_2_0, REMOVED_6_0_2}}),	-- Drakehide Leg Reinforcements
-		r(85008, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Fur Lining - Agility [Rank 2]
-		r(85010, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Fur Lining - Intellect [Rank 2]
-		r(85007, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Fur Lining - Stamina [Rank 2]
-		r(85009, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Fur Lining - Strength [Rank 2]
+		r(101600, {["timeline"] = {ADDED_4_2_0, REMOVED_6_0_2}}),		-- Drakehide Leg Reinforcements
+		r(85008, {	-- Draconic Embossment - Agility [Cata] / Fur Lining - Agility [Rank 2] [MoP]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			-- #if AFTER MOP
+			["rank"] = 2,
+			-- #endif
+		}),
+		r(85010, {	-- Draconic Embossment - Intellect [Cata] / Fur Lining - Intellect [Rank 2] [MoP]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			-- #if AFTER MOP
+			["rank"] = 2,
+			-- #endif
+		}),
+		r(85007, {	-- Draconic Embossment - Stamina [Cata] / Fur Lining - Stamina [Rank 2] [MoP]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			-- #if AFTER MOP
+			["rank"] = 2,
+			-- #endif
+		}),
+		r(85009, {	-- Draconic Embossment - Strength [Cata] / Fur Lining - Strength [Rank 2] [MoP]
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			-- #if AFTER MOP
+			["rank"] = 2,
+			-- #endif
+		}),
 		r(78437),	-- Heavy Savage Armor Kit
 		r(78436),	-- Heavy Savage Leather
 		r(78379),	-- Savage Armor Kit
@@ -808,23 +837,62 @@ MOP_LEATHERWORKING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeli
 	filter(MISC, {
 		r(124127),	-- Angerhide Leg Armor
 		r(124126),	-- Brutal Leg Armor
-		r(124569, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Draconic Leg Reinforcements [Rank 1]
-		r(124566, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Draconic Leg Reinforcements [Rank 2]
-		r(124561),	-- Draconic Leg Reinforcements [Rank 3]
-		r(124551, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Fur Lining - Agility [Rank 3]
-		r(124552, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Fur Lining - Intellect [Rank 3]
-		r(124553, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Fur Lining - Stamina [Rank 3]
-		r(124549, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Fur Lining - Strength [Rank 1]
-		r(124554, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Fur Lining - Strength [Rank 3]
-		r(124568, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Heavy Leg Reinforcements [Rank 1]
-		r(124565, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Heavy Leg Reinforcements [Rank 2]
-		r(124563),	-- Heavy Leg Reinforcements [Rank 3]
+		r(124569, {	-- Draconic Leg Reinforcements [Rank 1]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(124566, {	-- Draconic Leg Reinforcements [Rank 2]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(124561, {	-- Draconic Leg Reinforcements [Rank 3]
+			["rank"] = 3,
+		}),
+		r(124551, {	-- Fur Lining - Agility [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(124552, {	-- Fur Lining - Intellect [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(124553, {	-- Fur Lining - Stamina [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(124549, {	-- Fur Lining - Strength [Rank 1]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(124554, {	-- Fur Lining - Strength [Rank 3]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 3,
+		}),
+		r(124568, {	-- Heavy Leg Reinforcements [Rank 1]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(124565, {	-- Heavy Leg Reinforcements [Rank 2]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(124563, {	-- Heavy Leg Reinforcements [Rank 3]
+			["rank"] = 3,
+		}),
 		r(124128),	-- Ironscale Leg Armor
 		r(131865, {["timeline"] = {ADDED_5_2_0}}),	-- Magnificent Hide
 		r(124627),	-- Mist-Touched Leather
-		r(124567, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Primal Leg Reinforcements [Rank 1]
-		r(124564, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Primal Leg Reinforcements [Rank 2]
-		r(124559),	-- Primal Leg Reinforcements [Rank 3]
+		r(124567, {	-- Primal Leg Reinforcements [Rank 1]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 1,
+		}),
+		r(124564, {	-- Primal Leg Reinforcements [Rank 2]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
+		r(124559, {	-- Primal Leg Reinforcements [Rank 3]
+			["rank"] = 3,
+		}),
 		r(163220, {["timeline"] = {ADDED_6_0_2}}),	-- Prismatic Scale
 		r(124628),	-- Sha Armor Kit
 		r(124124),	-- Sha-Touched Leg Armor
