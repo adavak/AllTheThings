@@ -899,11 +899,14 @@ root(ROOTS.Zones, {
 									}),
 								},
 							}),
+							-- #if NOT ANYCLASSIC
+							-- Wouter TODO: check if this NPC gets added later in MoP Classic
 							n(69321, {	-- Herwin Steampop <Deadly Gladiator>
 								["coord"] = { 59.4, 57.8, NORTHREND_THE_UNDERBELLY },
 								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR },{"merge"},{ "pop" }},	-- Deadly Gladiator's Set
 								["timeline"] = { ADDED_5_2_0 },
 							}),
+							-- #endif
 							n(29538, {	-- Hexil Garrot <Tools of the Trade>
 								["coord"] = { 60.6, 11.9, NORTHREND_THE_UNDERBELLY },
 								["groups"] = {
@@ -937,11 +940,14 @@ root(ROOTS.Zones, {
 									emov(60, i(40738)),	-- Wristwraps of the Cutthroat
 								},
 							}),
+							-- #if NOT ANYCLASSIC
+							-- Wouter TODO: check if this NPC gets added later in MoP Classic
 							n(69318, {	-- Kylo Kelwin <Furious Gladiator>
 								["coord"] = { 59.0, 57.6, NORTHREND_THE_UNDERBELLY },
 								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR },{"merge"},{ "pop" }},	-- Furious Gladiator's Set
 								["timeline"] = { ADDED_5_2_0 },
 							}),
+							-- #endif
 							applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(54653, {	-- Nargle Lashcord <Glorious Conquest Quartermaster>
 								["coord"] = { 58.7, 59.0, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 7.0.1
@@ -1026,6 +1032,8 @@ root(ROOTS.Zones, {
 								-- #endif
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
+							-- #if NOT ANYCLASSIC
+							-- Wouter TODO: check if this NPC gets added later in MoP Classic
 							n(69971, {	-- Xazi Smolderpipe <Wrathful Gladiator> [Legion?] / Xazi Smolderpipe <Conquest Quartermaster> [MOP?]
 								["coord"] = { 58.5, 58.3, NORTHREND_THE_UNDERBELLY },
 								-- #if AFTER LEGION
@@ -1035,6 +1043,7 @@ root(ROOTS.Zones, {
 								-- #endif
 								["timeline"] = { ADDED_5_2_0 },
 							}),
+							-- #endif
 							applyclassicphase(WRATH_PHASE_FOUR, n(33937, {	-- Xazi Smolderpipe <Arena Vendor> // Original S8 Vendor // Relentless Gladiator: Season 7 Gladiator Gear
 								["coord"] = { 58.8, 59.6, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 4.0.3.13277
@@ -1063,6 +1072,8 @@ root(ROOTS.Zones, {
 								-- #endif
 								["timeline"] = { REMOVED_4_0_3 },
 							})),
+							-- #if NOT ANYCLASSIC
+							-- Wouter TODO: check if this NPC gets added later in MoP Classic
 							n(69973, {	-- Zom Bocom <Relentless Gladiator> [Legion?] / Zom Bocom <Honor Quartermaster> [MOP?]
 								["coord"] = { 59.0, 58.8, NORTHREND_THE_UNDERBELLY },
 								-- #if AFTER LEGION
@@ -1072,6 +1083,7 @@ root(ROOTS.Zones, {
 								-- #endif
 								["timeline"] = { ADDED_5_2_0 },
 							}),
+							-- #endif
 							applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(54651, {	-- Zom Bocom <Honor Quartermaster>
 								-- #if BEFORE 5.2.0.16577
 								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_RUTHLESS, PVP_GLADIATOR }},	-- Ruthless Gladiator's Set
