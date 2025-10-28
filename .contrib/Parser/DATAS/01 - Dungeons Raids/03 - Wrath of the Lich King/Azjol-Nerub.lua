@@ -364,6 +364,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 						["groups"] = {
 							i(39256),	-- Sulfur Stave
 							i(39252),	-- Preceptor's Bindings
+							i(39262),	-- Gauntlets of Combined Strength
 							i(39261),	-- Tainted Girdle of Mending
 						},
 					}),

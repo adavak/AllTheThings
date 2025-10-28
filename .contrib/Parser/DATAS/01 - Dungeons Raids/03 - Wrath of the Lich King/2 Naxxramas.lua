@@ -289,15 +289,6 @@ local NAXX_10MAN_METADATA_AND_ACHIEVEMENTS = d(DIFFICULTY.LEGACY_RAID.PLAYER10_N
 						["criteriaID"] = 7149,	-- Patchwerk slain
 						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.DEDICATED_10M]]),
 					}),
-					-- #if NAXX_10MAN_DROPS_25MAN_LOOT
-					i(39262, {	-- Gauntlets of Combined Strength
-						-- #if ANYCLASSIC
-						["description"] = "This item was originally available in Naxxramas 10, but after H+ was introduced to Wrath Classic, it was removed.",
-						["timeline"] = { ADDED_3_0_2, REMOVED_3_4_1 },
-						["isBounty"] = true,
-						-- #endif
-					}),
-					-- #endif
 				},
 			}),
 			e(1611, {	-- Grobbulus
