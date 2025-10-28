@@ -83,8 +83,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			-- #endif
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(257043),	-- Pandaren Alchemist's Retort
-			i(258214),	-- Pandaren Alchemist's Kit
+			i(257043),	-- Pandaren Alchemist's Retort (DECOR!)
+			i(258214),	-- Pandaren Alchemist's Kit (DECOR!)
 		})),
 		filter(REAGENTS, {
 			i(87872),	-- Desecrated Oil
@@ -465,6 +465,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(82900, {["timeline"] = {CREATED_5_0_4, ADDED_7_3_5, REMOVED_10_0_2}}),	-- Spiritguard Bracers
 			i(87405),	-- Unyielding Bloodplate
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(247752),	-- Pandaren Fireplace (DECOR!)
+			i(247661),	-- Pandaren Signal Brazier (DECOR!)
+		})),
 		filter(MISC, {
 			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(98717, {["timeline"] = {ADDED_5_4_0}})),	-- Balanced Trillium Ingot
 			i(80431, {["timeline"] = {CREATED_5_0_4, ADDED_7_3_5, REMOVED_10_0_2}}),	-- Folded Ghost Iron

@@ -147,8 +147,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(127845),	-- Unbending Potion
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(256680),	-- Arcan'dor Cutting Fountain
-			i(257045),	-- Starry Scrying Pool
+			i(256680),	-- Arcan'dor Cutting Fountain (DECOR!)
+			i(257045),	-- Starry Scrying Pool (DECOR!)
 		})),
 		spell(213255, {	-- Transmute: Meat to Pants
 			i(137600, {	-- Pile of Pants
@@ -270,6 +270,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(123897),	-- Leystone Waistguard
 			i(146667, {["timeline"] = {ADDED_7_2_0}}),	-- Rethu's Incessant Courage
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(247922),	-- Suramar Fence (DECOR!)
+			i(247909),	-- Suramar Fencepost (DECOR!)
+			i(245408),	-- Tauren Soup Pot (DECOR!)
+		})),
 		filter(MISC, {
 			i(124461),	-- Demonsteel Bar
 			i(136708),	-- Demonsteel Stirrups

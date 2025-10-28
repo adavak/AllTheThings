@@ -258,8 +258,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(191919),	-- Suspiciously Fuzzy Drink+++
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(257052),	-- Dragon's Elixir Bottle
-			i(248111),	-- Verdant Valdrakken Vase
+			i(257052),	-- Dragon's Elixir Bottle (DECOR!)
+			i(248111),	-- Verdant Valdrakken Vase (DECOR!)
 		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ALCHEMY,
@@ -457,6 +457,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		filter(BATTLE_PETS, {
 			i(191886),	-- Alvin the Anvil (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(256430),	-- Valdrakken Hanging Cauldron (DECOR!)
+			i(256427),	-- Wingrest Signal Brazier (DECOR!)
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = BLACKSMITHING,
 		},{
@@ -590,6 +594,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			FirstCraft(74477, 400808, ADDED_10_0_7);	-- Ancient Ceremonial Trident
 			-- Legendary
 			FirstCraft(75418, 409224, ADDED_10_1_0);	-- Reclaimed Gauntlet Chassis
+			-- Decor
+			--FirstCraft(XXXXX, 1261892, ADDED_11_2_7);	-- Valdrakken Hanging Cauldron
+			--FirstCraft(XXXXX, 1261896, ADDED_11_2_7);	-- Wingrest Signal Brazier
 		})),
 		filter(MISC, {
 			i(203408, {["timeline"] = {ADDED_10_0_7}}),	-- Ancient Ceremonial Trident

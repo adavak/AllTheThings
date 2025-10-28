@@ -151,6 +151,10 @@ ARTISAN_BLACKSMITHING = {
 		-- #endif
 		r(9961),	-- Mithril Coif
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261497),	-- Shadowforge Sconce
+		r(1261499),	-- Steel Ironforge Emblem
+	})),
 	n(WEAPONS, {
 		r(10001),	-- Big Black Mace
 		applyclassicphase(TBC_PHASE_ONE, r(34981, {["timeline"] = {ADDED_2_0_5,REMOVED_5_0_4}})),	-- Whirling Steel Axes
@@ -232,6 +236,11 @@ TBC_BLACKSMITHING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] =
 		r(29545),	-- Fel Iron Plate Gloves
 		r(29549),	-- Fel Iron Plate Pants
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261347),	-- Bronze Banner of the Exiled
+		r(1261359),	-- Draenei Crystal Forge
+		r(1261383),	-- Draenei Smith's Anvil
+	})),
 	filter(MISC, {
 		r(32655, {["timeline"] = {ADDED_2_0_5,REMOVED_5_0_4}}),	-- Fel Iron Rod
 		r(29654),	-- Fel Sharpening Stone
@@ -370,6 +379,9 @@ WRATH_BLACKSMITHING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline
 		r(55376),	-- Tempered Titansteel Treads
 		r(55298),	-- Vengeance Bindings
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261327),	-- Dalaran Runic Anvil
+	})),
 	filter(MISC, {
 		r(59405),	-- Cobalt Skeleton Key
 		r(55656),	-- Eternal Belt Buckle
@@ -466,6 +478,10 @@ CATA_BLACKSMITHING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"]
 		r(76287),	-- Stormforged Legguards
 		r(76286),	-- Stormforged Shoulders
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261256),	-- Gilnean Pitchfork
+		r(1262308),	-- Standing Smoke Lamp
+	})),
 	filter(MISC, {
 		r(92375, {["timeline"] = {ADDED_4_0_3_LAUNCH,REMOVED_5_0_4}}),	-- Elementium Rod
 		r(76441),	-- Elementium Shield Spike
@@ -795,6 +811,10 @@ MOP_BLACKSMITHING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timelin
 		r(122589, {["timeline"] = {CREATED_5_0_4, ADDED_7_3_5, REMOVED_10_0_2}}),	-- Lightsteel Bracers
 		r(122573, {["timeline"] = {CREATED_5_0_4, ADDED_7_3_5, REMOVED_10_0_2}}),	-- Spiritguard Bracers
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261234),	-- Pandaren Fireplace
+		r(1261235),	-- Pandaren Signal Brazier
+	})),
 	filter(MISC, {
 		r(126869, {["timeline"] = {CREATED_5_0_4, ADDED_7_3_5, REMOVED_10_0_2}}),	-- Folded Ghost Iron
 		r(122633),	-- Ghostly Skeleton Key
@@ -895,6 +915,14 @@ DRAENOR_BLACKSMITHING = applyclassicphase(WOD_PHASE_ONE, i(115356, bubbleDownSel
 	},
 })));
 COMMON_DRAENOR_BLACKSMITHING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(256940, {	-- Plans: Blackrock Weapon Rack (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_BLACKSMITHING, 1 }},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
+	i(256939, {	-- Plans: Frostwall Forge (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_BLACKSMITHING, 1 }},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(116746, {	-- Plans: Greater Steelforged Essence (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_BLACKSMITHING, 5 }},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_6_2_0 },
@@ -986,6 +1014,13 @@ COMMON_DRAENOR_BLACKSMITHING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedDa
 		["timeline"] = { ADDED_10_0_5 },
 	}),
 }));
+LEGION_BLACKSMITHING = applyclassicphase(LEGION_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1260693),	-- Suramar Fence
+		r(1260695),	-- Suramar Fencepost
+		r(1260698),	-- Tauren Soup Pot
+	})),
+}));
 BFA_BLACKSMITHING = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	r(330174, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I [Battle for Azeroth]
 	r(330175, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II [Battle for Azeroth]
@@ -1021,6 +1056,10 @@ BFA_BLACKSMITHING = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] =
 		r(304312, {["timeline"] = {ADDED_8_3_0}}),	-- Uncanny Combatant's Plate Greaves [Rank 1]
 		r(304315, {["timeline"] = {ADDED_8_3_0}}),	-- Uncanny Combatant's Plate Waistguard [Rank 1]
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1260691),	-- Brennadam Grinder
+		r(1260692),	-- Stormsong Stove
+	})),
 	filter(MISC, {
 		r(287235, {["timeline"] = {ADDED_8_1_0}}),	-- Aqueous Reconstruction
 		r(278416),	-- Magnetic Mining Pick
@@ -1131,6 +1170,10 @@ SL_BLACKSMITHING = applyclassicphase(SL_PHASE_ONE, bubbleDown({ ["timeline"] = {
 		r(322588),	-- Shadowsteel Sabatons
 		r(322594),	-- Shadowsteel Waistguard
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261982),	-- Aspirant's Meditation Pool
+		r(1261980),	-- Bejeweled Venthyr Chalice
+	})),
 	filter(MISC, {
 		r(343184),	-- Crafter's Mark I
 		r(307721),	-- Laestrite Skeleton Key
@@ -1167,6 +1210,10 @@ DF_BLACKSMITHING = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = {
 		r(367609),	-- Explorer's Plate Bracers
 		r(395886),	-- Explorer's Plate Chestguard
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261892),	-- Valdrakken Hanging Cauldron
+		r(1261896),	-- Wingrest Signal Brazier
+	})),
 	filter(MISC, {
 		r(367712),	-- Frostfire Alloy
 		r(365735),	-- Primal Molten Alloy
@@ -1209,6 +1256,10 @@ TWW_BLACKSMITHING = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 		r(450258),	-- Dredger's Plate Sabatons
 		r(450264),	-- Dredger's Plate Vambraces
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1259675),	-- Rusting Bolted Bench
+		r(1259681),	-- Shredderwheel Storage Chest
+	})),
 	filter(MISC, {
 		r(450291),	-- Coreforged Repair Hammer
 		r(450283),	-- Earthen Master's Hammer

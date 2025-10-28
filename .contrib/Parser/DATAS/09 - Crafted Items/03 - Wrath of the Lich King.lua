@@ -119,8 +119,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(40068),	-- Wrath Elixir
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(258213),	-- Icecrown Plague Canister
-			i(258212),	-- San'layn Blood Orb
+			i(258213),	-- Icecrown Plague Canister (DECOR!)
+			i(258212),	-- San'layn Blood Orb (DECOR!)
 		})),
 		filter(REAGENTS, {
 			applyclassicphase(WRATH_PHASE_THREE, i(36931, {["timeline"] = { ADDED_3_2_0 }})),	-- Ametrine
@@ -341,6 +341,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(41190, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_3}}),	-- Legplates of Conquest
 			-- #endif
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257040),	-- Dalaran Runic Anvil (DECOR!)
+		})),
 		filter(MISC, {
 			i(43854),	-- Cobalt Skeleton Key
 			i(41611),	-- Eternal Belt Buckle

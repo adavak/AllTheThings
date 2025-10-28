@@ -1273,7 +1273,6 @@ i(0, 449575);		-- Volatile Coalescence
 i(244841, 1238010);	-- Invigorating Healing Potion
 i(248550, 1246966);	-- Umbral Essentia
 
-
 ------------------
 -- PATCH 11.2.7 --
 ------------------

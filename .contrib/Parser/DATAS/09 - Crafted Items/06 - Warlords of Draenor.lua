@@ -137,8 +137,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(112090),	-- Transmorphic Tincture
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(257044),	-- Orcish Felblood Cauldron
-			i(244318),	-- Wine Barrel
+			i(257044),	-- Orcish Felblood Cauldron (DECOR!)
+			i(244318),	-- Wine Barrel (DECOR!)
 		})),
 		filter(MISC, {
 			i(118700),	-- Secrets of Draenor Alchemy
@@ -291,6 +291,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 		filter(BATTLE_PETS, {
 			i(119328),	-- Soul of the Forge (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(245436),	-- Blackrock Weapon Rack (DECOR!)
+			i(245600),	-- Frostwall Forge (DECOR!)
+		})),
 		filter(MISC, {
 			i(202210, {["timeline"] = {ADDED_10_0_5}}),	-- Impressive Truesteel Essence
 			i(202208, {["timeline"] = {ADDED_10_0_5}}),	-- Impressive Steelforged Essence

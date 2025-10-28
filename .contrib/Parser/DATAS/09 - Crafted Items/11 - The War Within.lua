@@ -194,8 +194,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(212298),	-- Vicious Flask of the Wrecking Ball
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(252758),	-- Boulder Springs Hot Tub
-			i(257102),	-- Nerubian Alchemist's Retort
+			i(252758),	-- Boulder Springs Hot Tub (DECOR!)
+			i(257102),	-- Nerubian Alchemist's Retort (DECOR!)
 		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ALCHEMY,
@@ -315,6 +315,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222435),	-- Everforged Vambraces
 			i(222458),	-- Sanctified Steps
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(245312),	-- Rusting Bolted Bench (DECOR!)
+			i(245323),	-- Shredderwheel Storage Chest
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = BLACKSMITHING,
 		},{
@@ -413,6 +417,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			-- Other
 			FirstCraft(83398, 450291);	-- Coreforged Repair Hammer
 			FirstCraft(83399, 450292);	-- Coreforged Skeleton Key
+			-- Decor
+			--FirstCraft(XXXXX, 1259675, ADDED_11_2_7);	-- Rusting Bolted Bench
+			--FirstCraft(XXXXX, 1259681, ADDED_11_2_7);	-- Shredderwheel Storage Chest
 		})),
 		filter(MISC, {
 			i(222520),	-- Coreforged Repair Hammer+

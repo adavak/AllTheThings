@@ -115,8 +115,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(168501, {["timeline"] = {ADDED_8_2_0}}),	-- Superior Steelskin Potion
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(257046),	-- Boralus Bottle Lamp
-			i(257047),	-- Zandalari Bottle Shipment
+			i(257046),	-- Boralus Bottle Lamp (DECOR!)
+			i(257047),	-- Zandalari Bottle Shipment (DECOR!)
 		})),
 		filter(MISC, {
 			i(165744),	-- Potion of Herb Tracking
@@ -348,6 +348,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(170389, {["timeline"] = {ADDED_8_3_0}}),	-- Unsettling Osmenite Girdle
 			i(170386, {["timeline"] = {ADDED_8_3_0}}),	-- Unsettling Osmenite Legguards
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(252397),	-- Brennadam Grinder (DECOR!)
+			i(252399),	-- Stormsong Stove (DECOR!)
+		})),
 		filter(MISC, {
 			i(168417, {["timeline"] = {ADDED_8_2_0}}),	-- Inflatable Mount Shoes
 			i(152839, {["timeline"] = {ADDED_8_1_5}}),	-- Khaz'gorian Smithing Hammer

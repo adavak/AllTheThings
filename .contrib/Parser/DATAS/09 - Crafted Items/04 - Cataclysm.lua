@@ -86,8 +86,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(58091),	-- Volcanic Potion
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(245517),	-- Gilnean Cauldron
-			i(257694),	-- Gilnean Green Potion
+			i(245517),	-- Gilnean Cauldron (DECOR!)
+			i(257694),	-- Gilnean Green Potion (DECOR!)
 		})),
 		filter(MOUNTS, {
 			ach(5749, {	-- Vial of the Sands
@@ -244,6 +244,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			dragonsoul(i(75119)),	-- Vicious Pyrium Shoulders
 			firelands(i(69946)),	-- Warboots of Mighty Lords
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257042),	-- Gilnean Pitchfork (DECOR!)
+			i(257409),	-- Standing Smoke Lamp (DECOR!)
+		})),
 		filter(MISC, {
 			i(55054),	-- Ebonsteel Belt Buckle
 			i(65365),	-- Folded Obsidium

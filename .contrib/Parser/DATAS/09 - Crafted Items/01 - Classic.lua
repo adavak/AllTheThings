@@ -243,8 +243,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(9144, {["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 }}),	-- Wildvine Potion
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(257100),	-- Apothecary's Worktable
-			i(257041),	-- Stoppered Black Potion
+			i(257100),	-- Apothecary's Worktable (DECOR!)
+			i(257041),	-- Stoppered Black Potion (DECOR!)
 		})),
 		filter(REAGENTS, {
 			i(12360),	-- Arcanite Bar
@@ -1011,6 +1011,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(12624),	-- Wildthorn Mail
 			-- #endif
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(246111),	-- Shadowforge Sconce (DECOR!)
+			i(246489),	-- Steel Ironforge Emblem
+		})),
 		filter(MISC, {
 			i(16206, {["timeline"] = {REMOVED_5_0_4}}),	-- Arcanite Rod
 			i(15872),	-- Arcanite Skeleton Key

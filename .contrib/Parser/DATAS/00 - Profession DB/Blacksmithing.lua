@@ -2453,3 +2453,32 @@ i(0, 450232);		-- Everforged Warglaive
 i(0, 450286);		-- Ironclaw Razorstone
 i(0, 450285);		-- Ironclaw Whetstone
 i(0, 450289);		-- Tempered Framework
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+--- TRAINER ---
+r(1261982),	-- Aspirant's Meditation Pool
+r(1261980),	-- Bejeweled Venthyr Chalice
+r(1260691),	-- Brennadam Grinder
+r(1261347),	-- Bronze Banner of the Exiled
+r(1261327),	-- Dalaran Runic Anvil
+r(1261359),	-- Draenei Crystal Forge
+r(1261383),	-- Draenei Smith's Anvil
+r(1261256),	-- Gilnean Pitchfork
+r(1261234),	-- Pandaren Fireplace
+r(1261235),	-- Pandaren Signal Brazier
+r(1259675),	-- Rusting Bolted Bench
+r(1261497),	-- Shadowforge Sconce
+r(1259681),	-- Shredderwheel Storage Chest
+r(1262308),	-- Standing Smoke Lamp
+r(1261499),	-- Steel Ironforge Emblem
+r(1260692),	-- Stormsong Stove
+r(1260693),	-- Suramar Fence
+r(1260695),	-- Suramar Fencepost
+r(1260698),	-- Tauren Soup Pot
+r(1261892),	-- Valdrakken Hanging Cauldron
+r(1261896),	-- Wingrest Signal Brazier
+
+i(256940, 1260988),	-- Blackrock Weapon Rack
+i(256939, 1260987),	-- Frostwall Forge

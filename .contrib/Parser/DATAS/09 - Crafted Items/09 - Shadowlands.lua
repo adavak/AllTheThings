@@ -47,8 +47,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 			i(180751),	-- Red Noggin Candle
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
-			i(257051),	-- Sintallow Candles
-			i(257050),	-- Veil-Secured Animacone
+			i(257051),	-- Sintallow Candles (DECOR!)
+			i(257050),	-- Veil-Secured Animacone (DECOR!)
 		})),
 		filter(MISC, sharedDataSelf({ ["timeline"] = { ADDED_9_1_0 } }, {
 			i(186697),	-- Blossom Burst
@@ -143,6 +143,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 			i(171443),	-- Shadowsteel Sabatons
 			i(171448),	-- Shadowsteel Waistguard
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257048),	-- Aspirant's Meditation Pool (DECOR!)
+			i(257049),	-- Bejeweled Venthyr Chalice (DECOR!)
+		})),
 		filter(MISC, {
 			i(171441),	-- Laestrite Skeleton Key
 			i(171436),	-- Porous Sharpening Stone

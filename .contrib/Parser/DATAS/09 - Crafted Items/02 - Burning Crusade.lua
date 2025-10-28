@@ -311,6 +311,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(30070, {["timeline"] = {ADDED_2_0_5, REMOVED_4_0_3}}),	-- Windforged Leggings
 			-- #endif
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257035),	-- Bronze Banner of the Exiled (DECOR!)
+			i(257039),	-- Draenei Crystal Forge (DECOR!)
+			i(257036),	-- Draenei Smith's Anvil (DECOR!)
+		})),
 		filter(MISC, {
 			i(33185, {["timeline"] = {ADDED_2_3_0}}),	-- Adamantite Weapon Chain
 			i(25844, {["timeline"] = {ADDED_2_0_5, REMOVED_5_0_4}}),	-- Adamantite Rod
