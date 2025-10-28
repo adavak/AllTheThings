@@ -1295,6 +1295,7 @@ MobileDB.GameObject = {
 	[269026] = true,	-- Ancient Gong
 	[269852] = true,	-- Challenger's Cache (Return to Karazhan: Upper)
 	[269871] = true,	-- Challenger's Cache (Return to Karazhan: Upper)
+	[269940] = true,	-- Legion Cache (Return to Karazhan: Upper)
 	[270040] = true,	-- Nearly-hatching Pterrordax Egg
 	[270902] = true,	-- Weathered Shrine
 	[270918] = true,	-- Soothing Lilybud (q:47259)
