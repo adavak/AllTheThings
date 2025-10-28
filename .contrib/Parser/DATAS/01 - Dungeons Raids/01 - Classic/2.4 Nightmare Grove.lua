@@ -31,6 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				ko = "",
 				]]--
 				cn = "梦魇林地可在通往翡翠梦境的传送门附近找到。",
+				tw = "夢魘林地可在通往翡翠夢境的傳送門附近找到。",
 			},
 		}),
 		["coords"] = {

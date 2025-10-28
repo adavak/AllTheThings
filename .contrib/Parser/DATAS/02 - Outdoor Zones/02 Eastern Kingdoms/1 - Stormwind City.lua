@@ -4460,14 +4460,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									text = {
 										en = "Archaeologist's Cart",
 										-- TODO: Find the proper translation so it appears on the tooltip.
-										--[[es = "",
-										de = "",
-										fr = "",
-										it = "",
-										pt = "",
-										ru = "",
-										ko = "",]]--
+										-- es = "",
+										-- de = "",
+										-- fr = "",
+										-- it = "",
+										-- pt = "",
+										-- ru = "",
+										-- ko = "",
 										cn = "考古学家的车",
+										-- tw = "",
 									},
 								}) },
 							},
