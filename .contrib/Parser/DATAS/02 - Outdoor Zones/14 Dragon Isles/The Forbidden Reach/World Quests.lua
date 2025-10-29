@@ -11,6 +11,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 			["groups"] = sharedData({ ["isWorldQuest"] = true, }, {
 				petbattle(q(73148, {	-- Combustible Vegetation
 					["coord"] = { 13.6, 53.6, THE_FORBIDDEN_REACH },
+					-- ["maxReputation"] = { FACTION_DARK_TALONS, EXALTED },	-- TODO: convert to 'givesRep' if ever added
 					["crs"] = {
 						200771,	-- Wildfire (Rare?)
 						200689,	-- Wildfire
@@ -25,6 +26,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				})),
 				petbattle(q(73146, {	-- Cutting Wind
 					["coord"] = { 18.3, 13.2, THE_FORBIDDEN_REACH },
+					-- ["maxReputation"] = { FACTION_DARK_TALONS, EXALTED },	-- TODO: convert to 'givesRep' if ever added
 					["crs"] = {
 						200769,	-- Vortex (Rare?)
 						200685,	-- Vortex
@@ -39,6 +41,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				})),
 				petbattle(q(73149, {	-- Flood Warning
 					["coord"] = { 86.7, 62.4, THE_FORBIDDEN_REACH },
+					-- ["maxReputation"] = { FACTION_DARK_TALONS, EXALTED },	-- TODO: convert to 'givesRep' if ever added
 					["crs"] = {
 						200772,	-- Flow (Rare?)
 						200697,	-- Flow
@@ -53,6 +56,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				})),
 				petbattle(q(73147, {	-- Shifting Ground
 					["coord"] = { 29.0, 6.4, THE_FORBIDDEN_REACH },
+					-- ["maxReputation"] = { FACTION_DARK_TALONS, EXALTED },	-- TODO: convert to 'givesRep' if ever added
 					["crs"] = {
 					--	200770,	-- Tremblor
 						200693,	-- Tremblor (Rare!)
