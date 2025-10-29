@@ -488,7 +488,12 @@ CATA_ENGINEERING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] =
 	}),
 	n(ARMOR_ENCHANTMENTS, {
 		r(82177, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Quickflip Deflection Plates
-		r(82175, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Synapse Springs
+		r(82175, {	-- Synapse Springs
+			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_6_0_2 },
+			-- #if AFTER MOP
+			["rank"] = 1,
+			-- #endif
+		}),
 		r(82180, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_6_0_2}}),	-- Tazik Shocker
 		r(82201, {["timeline"] = {ADDED_4_0_3_LAUNCH, REMOVED_5_0_4}}),	-- Z50 Mana Gulper
 	}),
@@ -580,7 +585,10 @@ MOP_ENGINEERING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"
 		r(126392),	-- Goblin Glider
 		r(109077, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Incendiary Fireworks Launcher
 		r(108789, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Phase Fingers
-		r(126731, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Synapse Springs [Rank 2]
+		r(126731, {	-- Synapse Springs [Rank 2]
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+			["rank"] = 2,
+		}),
 		r(109099),	-- Watergliding Jets
 	}),
 	filter(BATTLE_PETS, {
