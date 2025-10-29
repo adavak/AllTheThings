@@ -817,7 +817,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				},
 			}),
 			e(1538, {	-- General Rajaxx
+				-- #if BEFORE TBC
 				["description"] = "Speak with Lieutenant General Andorov in order to start the encounter. Andorov must survive the fight in order to defeat the encounter.",
+				-- #endif
 				["creatureID"] = 15341,
 				["groups"] = {
 					n(CAPTAINS, {
@@ -1020,7 +1022,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 							15340,	-- Moam
 						},
 					}),
-				}),	
+				}),
 				e(1537, {	-- Kurinnaxx
 					["creatureID"] = 15348,
 					["groups"] = {
@@ -1119,7 +1121,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(234083),	-- Ring of Fury
 						i(234084),	-- Southwind Helm
 						i(234088),	-- Legplates of the Destroyer
-						i(234087),	-- Obsidian Scaled Leggings										
+						i(234087),	-- Obsidian Scaled Leggings
 						i(22220, {	-- Plans: Black Grasp of the Destroyer (RECIPE!)
 							["timeline"] = { REMOVED_1_15_5 },
 						}),
