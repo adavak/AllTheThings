@@ -4199,3 +4199,12 @@ root(ROOTS.Zones, {
 		}),
 	})),
 });
+
+-- #if ANYCLASSIC
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WRATH, {
+	inst(760, {
+		q(83713),	-- Triggered when turning in Proof of Demise: Titan Rune Protocol Gamma
+		q(87379),	-- Triggered when turning in Proof of Demise: Threats to Azeroth
+	}),
+}));
+-- #endif
