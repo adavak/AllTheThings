@@ -831,6 +831,14 @@ root(ROOTS.NeverImplemented, {
 					i(83612),	-- 5.0 QA PVP Test Tank Shield 2
 					i(83613),	-- 5.0 QA PVP Test Tank Shield 3
 				}),
+
+				-- 5.0.4
+				-- #if ANYCLASSIC
+				expansion(EXPANSION.MOP, patch(0,4), {
+					-- This item is supposed to be a quest reward from "Flying Colors" in Jade Forest, but it's not among the potential rewards in MoP Classic
+					i(80801),	-- Tian Protector
+				}),
+				-- #endif
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {

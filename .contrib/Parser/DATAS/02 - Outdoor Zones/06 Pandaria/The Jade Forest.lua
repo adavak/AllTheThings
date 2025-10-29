@@ -1375,7 +1375,9 @@ root(ROOTS.Zones, {
 							i(80798),	-- Greataxe of Honor
 							i(80799),	-- Sword of Honor
 							i(80800),	-- Tian Defender
+							-- #if NOT ANYCLASSIC
 							i(80801),	-- Tian Protector
+							-- #endif
 							i(80802),	-- Blade of Honor
 							i(80803),	-- Mace of Honor
 						},
