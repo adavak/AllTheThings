@@ -4,5 +4,9 @@
 
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(VOIDSTORM, {
+		["maps"] = {
+			2526,	-- Voidlands_Micro_Abundance_A
+			2527,	-- Voidlands_Micro_Abundance_B
+		},
 	}),
 }));
