@@ -20,6 +20,10 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				}),
 			}),
 			n(WORLD_QUESTS, {
+				q(42242, {	-- Halls of Valor: A Gift for Vethir
+					["isWorldQuest"] = true,
+					["lvl"] = 110,
+				}),
 				q(42241, {	-- Halls of Valor: A Worthy Challenge
 					["isWorldQuest"] = true,
 					["lvl"] = 110,

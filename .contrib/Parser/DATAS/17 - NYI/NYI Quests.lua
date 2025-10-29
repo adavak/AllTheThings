@@ -2859,7 +2859,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(45368, { ["name"] = "Fel Shard", }),	-- Fel Shard
 			q(46787, { ["name"] = "Further Advancement", }),	-- Further Advancement
 			q(46172, { ["name"] = "Greeting Kit", }),	-- Greeting Kit
-			q(42242, { ["name"] = "Halls of Valor: A Gift for Vethir", }),	-- Halls of Valor: A Gift for Vethir
 			q(44966, { ["name"] = "Healer Chosen", }),	-- Healer Chosen
 			q(45831, { ["name"] = "Hunter", }),	-- Hunter
 			q(45023, { ["name"] = "Hybrid Chosen", }),	-- Hybrid Chosen
