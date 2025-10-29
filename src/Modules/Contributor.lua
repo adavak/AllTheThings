@@ -1130,6 +1130,7 @@ MobileDB.GameObject = {
 	[249466] = true,	-- Stolen Nar'thalas Relic (q:42019)
 	[249467] = true,	-- Stolen Nar'thalas Relic (q:42019)
 	[249693] = true,	-- Legion Cage
+	[249734] = true,	-- Storm Dragon Egg (wq:42242)
 	[249749] = true,	-- DO NOT PUSH THIS BUTTON!
 	[249765] = true,	-- Control Panel
 	[249766] = true,	-- Stabilization Matrix Node

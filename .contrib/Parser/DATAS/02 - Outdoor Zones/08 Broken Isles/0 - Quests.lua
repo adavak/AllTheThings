@@ -244,6 +244,7 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 100738 },	-- Ashildir
 							["coord"] = { 62.7, 68.1, STORMHEIM },
 							["maps"] = { 703, 704, 705 },	-- Halls of Valor
+							["groups"] = { i(132471) },	-- Grand Feast of Valhallas (PQI!)
 						}),
 						q(43898, {	-- Preparing to Move
 							["sourceQuest"] = 40615,	-- Halls of Valor: Odyn's Blessing

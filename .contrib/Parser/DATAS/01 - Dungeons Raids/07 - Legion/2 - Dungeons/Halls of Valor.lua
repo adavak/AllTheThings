@@ -23,6 +23,11 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				q(42242, {	-- Halls of Valor: A Gift for Vethir
 					["isWorldQuest"] = true,
 					["lvl"] = 110,
+					["groups"] = {
+						o(249734, {	-- Storm Dragon Egg
+							i(136968),	-- Storm Dragon Egg (QI!)
+						}),
+					},
 				}),
 				q(42241, {	-- Halls of Valor: A Worthy Challenge
 					["isWorldQuest"] = true,
