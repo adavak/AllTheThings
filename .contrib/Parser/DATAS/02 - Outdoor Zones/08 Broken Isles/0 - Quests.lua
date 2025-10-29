@@ -39,8 +39,8 @@ root(ROOTS.Zones, {
 							["description"] = "This quest is available if you have *not* completed the quests at Azurewing Repose in Azsuna.",
 							["altQuests"] = { 43503 },	-- The Power Within (this is the only version that doesn't autocomplete with the others when you turn one in)
 							["provider"] = { "n", 108247 },	-- Image of Kalec
-							["classes"] = { MAGE },
 							["coord"] = { 56.4, 39.1, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+							["classes"] = { MAGE },
 						}),
 						q(40668, {	-- Eye of Azshara: The Heart of Zin-Azshari
 							["sourceQuests"] = { 43496, 43501, 43503, 43505 },	-- The Power Within (4 versions)
