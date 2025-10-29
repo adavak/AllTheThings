@@ -182,6 +182,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 								i(231749, {	-- Undermine Enforcer's Spikes (COSMETIC!)
 									["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 								}),
+								-- NOTE: These 4 ensembles reference Dungeon-based Items and 1 Rep-based Item (from Smaks)
+								-- but these are not actually granted. I can find no logical way to distinguish this discrepancy
+								-- from the Wago data, so for now the only solution would be to have a manual-sourceID-removal field
+								-- I'd rather not need that...
 								iensemble(237034, {	-- Smartest in Town's Attire
 									["cost"] = {{"c", RESONANCE_CRYSTALS, 9750}},
 								}),

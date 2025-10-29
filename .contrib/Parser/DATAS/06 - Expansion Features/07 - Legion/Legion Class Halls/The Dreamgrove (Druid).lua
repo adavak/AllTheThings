@@ -434,7 +434,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["maps"] = { MOONGLADE },
 					}),
 					q(44235, {	-- Essence of Fate
-						["altQuests"] = { 44236 },	-- Essence of Fate
 						["provider"] = { "n", 110810 },	-- Almenis
 						["coord"] = { 41.0, 29.3, THE_DREAMGROVE },
 					}),
@@ -1176,6 +1175,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 			q(42513),	-- Ashamane's Fall - landing and approaching RPing NPCs at the start of "The Shrine of Ashamane" (questID 42428)
 			q(41885),	-- Naralex Kneel Seen - drinking the potion while next to Naralex during "In Deep Slumber" (questID 41436)
 			q(41194),	-- Remulos Tracker - entering the Emerald Dreamway for the first time
+			q(44236),	-- Essence of Fate (HQT of real quest?)
 			q(44642),	-- Tracking Quest: 7.0 Class Hall - Druid - Pacing Mission 1A - completed the "Sampling the Nightmare" mission
 			q(42360),	-- Tracking Quest: Chose Broll - part of "Defenders of the Dream" (questID 42050)
 			q(42361),	-- Tracking Quest: Chose Sylendra - part of "Defenders of the Dream" (questID 42050)
