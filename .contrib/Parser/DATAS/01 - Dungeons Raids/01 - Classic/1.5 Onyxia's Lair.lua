@@ -879,3 +879,11 @@ for _,item in pairs({
 	item.timeline = { REMOVED_1_15_3 };
 	-- #endif
 end
+
+-- #if ANYCLASSIC
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CLASSIC, {
+	inst(760, {
+		q(76175),	-- Triggered when swapping to the legacy instance by talking to Zoridormi
+	}),
+}));
+-- #endif
