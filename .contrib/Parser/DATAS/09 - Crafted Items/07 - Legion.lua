@@ -358,6 +358,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(128535),	-- Enchanted Pen (PET!)
 			i(128534),	-- Enchanted Torch (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(256681),	-- Nightspire Fountain (DECOR!)
+			i(247923),	-- Suramar Containment Cell (DECOR!)
+		})),
 		filter(RELICS_F, {
 			i(136691),	-- Immaculate Fibril
 			i(136689),	-- Soul Fibril

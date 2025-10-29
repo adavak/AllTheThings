@@ -21,6 +21,9 @@ local PRIMAL_SPIRIT = i(120945, {	-- Primal Spirit
 });
 local COOK_TRADER = sharedData({ ["timeline"] = { ADDED_6_1_0 } }, {
 	i(122556),	-- Recipe: Buttered Sturgeon (RECIPE!)
+	i(260556, {	-- Recipe: Hungry Human's Platter (RECIPE!)
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(122557),	-- Recipe: Jumbo Sea Dog (RECIPE!)
 	i(122558),	-- Recipe: Pickled Eel (RECIPE!)
 	i(122559),	-- Recipe: Salty Squid Roll (RECIPE!)

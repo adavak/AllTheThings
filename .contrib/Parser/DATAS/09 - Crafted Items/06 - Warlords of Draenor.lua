@@ -378,6 +378,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 				i(118322),	-- Recipe Idea: Talador Surf and Turf (RECIPE!)
 			},
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(245428),	-- Hungry Human's Platter (DECOR!)
+		})),
 		i(111449),	-- Blackrock Barbecue
 		i(111433),	-- Blackrock Ham
 		i(111436),	-- Braised Riverbeast
@@ -448,6 +451,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(110641, {["timeline"]={ADDED_6_0_3_LAUNCH, REMOVED_7_0_3}}),	-- Enchant Ring - Gift of Multistrike
 			i(110642),	-- Enchant Ring - Gift of Versatility
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(245601),	-- Ancestral Signal Brazier (DECOR!)
+			i(251655),	-- Draenethyst String Lights (DECOR!)
+		})),
 		filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 			i(138795, {	-- Tome of Illusions: Draenor
 				ill(5334),	-- Mark of the Frostwolf (ILLUSION!)

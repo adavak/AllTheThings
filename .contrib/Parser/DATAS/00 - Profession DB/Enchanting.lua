@@ -1424,3 +1424,32 @@ i(239096, 0);		-- Formula: Enchant Weapon - Void Ritual
 ------------------
 --- ITEM ---
 i(249709, 1249469);	-- Gleeful Glamour - Ethereal
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+--- TRAINER ---
+i(0, 1262828);		-- Aldor Stellar Console
+i(0, 1263238);		-- Ardenweald Lamppost
+i(0, 1270459);		-- Darkmaster's Mystical Brazier
+i(0, 1259715);		-- Dornogal Hanging Sconce
+i(0, 1261933);		-- Draconic Scribe's Basin
+i(0, 1261331);		-- Draenei Holo-Dais
+i(0, 1261340);		-- Draenei Holo-Path
+i(0, 1263877);		-- Drust Enchanter's Rod
+i(0, 1261919);		-- Five Flights' Grimoire
+i(0, 1262302);		-- Intense Mogu Brazier
+i(0, 1262824);		-- Mark of the Mages' Eye
+i(0, 1262238);		-- Nightspire Fountain
+i(0, 1262306);		-- Pandaren Table Lamp
+i(0, 1262331);		-- Pyrewood Glass Bottle
+i(0, 1259690);		-- Replica Awakening Machine Stasis Pod
+i(0, 1262825);		-- Stampwhistle's Postal Portal
+i(0, 1260700);		-- Suramar Containment Cell
+i(0, 1263870);		-- Tidesage's Totem
+i(0, 1261501);		-- Tirisfal Hollow Campfire
+i(0, 1262318);		-- Twilight Fire Canister
+i(0, 1261998);		-- Venthyr Anima Bottle
+--- ITEM ---
+i(256941, 1260990);	-- Ancestral Signal Brazier
+i(256959, 1261008);	-- Draenethyst String Lights

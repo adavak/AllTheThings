@@ -427,6 +427,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(67274),	-- Enchanted Lantern (PET!)
 			i(67275),	-- Magic Lamp (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257404),	-- Pyrewood Glass Bottle (DECOR!)
+			i(257095),	-- Twilight Fire Canister (DECOR!)
+		})),
 		filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 			i(138791, {	-- Tome of Illusions: Cataclysm
 				ill(4098),	-- Windwalk (ILLUSION!)

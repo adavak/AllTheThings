@@ -317,7 +317,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(245312),	-- Rusting Bolted Bench (DECOR!)
-			i(245323),	-- Shredderwheel Storage Chest
+			i(245323),	-- Shredderwheel Storage Chest (DECOR!)
 		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = BLACKSMITHING,
@@ -526,6 +526,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				r(447873),	-- Secret Sauce
 			}),
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(239170),	-- Dornic Mine and Cheese Platter (DECOR!)
+			i(246708),	-- Dornic Sliced Mineloaf (DECOR!)
+			i(246709),	-- Earthen Hospitality Cheese-Like Brick (DECOR!)
+			i(245326),	-- Kaheti Predator's Assortment (DECOR!)
+		})),
 		i(222727),	-- Angler's Delight
 		i(235805, {["timeline"] = {ADDED_11_1_0}}),	-- Authentic Undermine Clam Chowder
 		i(223971),	-- Azj-Kahet Special
@@ -732,6 +738,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(223679),	-- Enchant Ring - Radiant Versatility++
 			i(223680),	-- Enchant Ring - Radiant Versatility+++
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(253039),	-- Dornogal Hanging Sconce (DECOR!)
+			i(253171),	-- Replica Awakening Machine Stasis Pod (DECOR!)
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ENCHANTING,
 		},{
@@ -829,6 +839,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(81044, 445372);	-- Runed Ironclaw Rod
 			FirstCraft(80996, 445323);	-- Runed Null Stone Rod
 			FirstCraft(81028, 445355);	-- Scepter of Radiant Magics
+			-- Decor
+			--FirstCraft(XXXXX, 1259715, ADDED_11_2_7);	-- Dornogal Hanging Sconce
+			--FirstCraft(XXXXX, 1259690, ADDED_11_2_7);	-- Replica Awakening Machine Stasis Pod
 		})),
 		filter(ILLUSIONS, {
 		}),

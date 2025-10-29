@@ -437,6 +437,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		}),
 	}),
 	prof(COOKING, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(245484),	-- Boralus-Style Lobster Platter (DECOR!)
+		})),
 		i(168311, {["timeline"] = {ADDED_8_2_0}}),	-- Abyssal-Fried Rissole
 		i(168313, {["timeline"] = {ADDED_8_2_0}}),	-- Baked Port Tato
 		i(174352, {["timeline"] = {ADDED_8_3_0}}),	-- Baked Voidfin
@@ -503,14 +506,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(159469),	-- Enchant Bracers - Swift Hearthing [A]
 			i(153436),	-- Enchant Bracers - Swift Hearthing [H]
 		}),
+		filter(BATTLE_PETS, sharedDataSelf({ ["timeline"] = { ADDED_8_1_0 } }, {
+			i(152878),	-- Enchanted Tiki Mask (PET!)
+		})),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(258560),	-- Drust Enchanter's Rod (DECOR!)
+			i(258559),	-- Tidesage's Totem (DECOR!)
+		})),
 		filter(MISC, {
 			i(165741),	-- Disenchanting Rod
 			i(164766, {["timeline"] = {ADDED_8_1_5}}),	-- Iwen's Enchanting Rod
 			i(168412, {["timeline"] = {ADDED_8_2_0}}),	-- Light-Step Hoofplates
 		}),
-		filter(BATTLE_PETS, sharedDataSelf({ ["timeline"] = { ADDED_8_1_0 } }, {
-			i(152878),	-- Enchanted Tiki Mask (PET!)
-		})),
 		n(WEAPON_ENCHANTMENTS, {
 			i(153476),	-- Enchant Weapon - Coastal Surge
 			i(159785),	-- Enchant Weapon - Deadly Navigation

@@ -1013,7 +1013,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(246111),	-- Shadowforge Sconce (DECOR!)
-			i(246489),	-- Steel Ironforge Emblem
+			i(246489),	-- Steel Ironforge Emblem (DECOR!)
 		})),
 		filter(MISC, {
 			i(16206, {["timeline"] = {REMOVED_5_0_4}}),	-- Arcanite Rod
@@ -1767,6 +1767,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(38885),	-- Enchant Gloves - Threat
 			-- #endif
 		}))),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(263027),	-- Darkmaster's Mystical Brazier (DECOR!)
+			i(253250),	-- Tirisfal Hollow Campfire (DECOR!)
+		})),
 		filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 			i(138787, {	-- Tome of Illusions: Azeroth
 				ill(803),	-- Fiery Weapon (ILLUSION!)

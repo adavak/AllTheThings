@@ -172,6 +172,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 		}),
 	}),
 	prof(COOKING, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(246705),	-- Caramel Mint Noodle Dish (DECOR!)
+		})),
 		i(172069),	-- Banana Beef Pudding
 		i(172046),	-- Biscuits and Caviar
 		i(186725, {["timeline"] = {ADDED_9_1_0}}),	-- Bonemeal Bread
@@ -229,6 +232,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 			i(172363),	-- Enchant Ring - Tenet of Mastery
 			i(172364),	-- Enchant Ring - Tenet of Versatility
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(258237),	-- Ardenweald Lamppost (DECOR!)
+			i(257098),	-- Venthyr Anima Bottle (DECOR!)
+		})),
 		filter(MISC, sharedDataSelf({ ["timeline"] = { ADDED_9_2_0 } }, {
 			i(187825),	-- Cosmic Protoweave
 			i(187823),	-- Magically Regulated Automa Core

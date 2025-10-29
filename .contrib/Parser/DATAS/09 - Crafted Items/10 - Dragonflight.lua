@@ -701,6 +701,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			r(381398),	-- Sizzling Seafood Medley
 			r(381400),	-- Thousandbone Tongueslicer
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(247225),	-- Bruffalon Rib Platter (DECOR!)
+			i(247222),	-- Drake Kebab Platter (DECOR!)
+			i(247224),	-- Valdrakken Blossomfruit Platter (DECOR!)
+		})),
 		filter(MISC, {
 			i(203409, {["timeline"] = {ADDED_10_0_7}}),	-- Sparkling Spice Pouch
 		}),
@@ -905,6 +910,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		filter(BATTLE_PETS, {
 			i(200479),	-- Sophic Amalgamation (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(256170),	-- Draconic Scribe's Basin (DECOR!)
+			i(256171),	-- Five Flights' Grimoire (DECOR!)
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ENCHANTING,
 		},{
@@ -1004,6 +1013,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			FirstCraft(75235, 405937, ADDED_10_1_0, REMOVED_TWW_LAUNCH);	-- Titan Training Matrix V
 			-- Legendary
 			FirstCraft(78011, 422338, ADDED_10_2_0);	-- Shalasar's Sophic Vellum
+			-- Decor
+			--FirstCraft(XXXXX, 1261933, ADDED_11_2_7);	-- Draconic Scribe's Basin
+			--FirstCraft(XXXXX, 1261919, ADDED_11_2_7);	-- Five Flights' Grimoire
 		})),
 		filter(ILLUSIONS, {
 			i(200883),	-- Illusion: Primal Air (ILLUSION!)

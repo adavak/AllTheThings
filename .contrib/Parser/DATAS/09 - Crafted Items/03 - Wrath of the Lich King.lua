@@ -531,6 +531,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(38967),	-- Enchant Glove - Major Agility
 			i(38953),	-- Enchant Glove - Precision
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257094),	-- Mark of the Mages' Eye (DECOR!)
+			i(257101),	-- Stampwhistle's Postal Portal (DECOR!)
+		})),
 		filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 			i(138790, {	-- Tome of Illusions: Northrend
 				ill(5391),	-- Berserking (ILLUSION!)

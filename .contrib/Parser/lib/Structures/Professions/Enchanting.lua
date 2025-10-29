@@ -140,6 +140,10 @@ EXPERT_ARTISAN_ENCHANTING = {
 		r(13858),	-- Superior Health
 		r(13917),	-- Superior Mana
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1270459),	-- Darkmaster's Mystical Brazier
+		r(1261501),	-- Tirisfal Hollow Campfire
+	})),
 	filter(MISC, {
 		r(17181),	-- Enchanted Leather
 		r(17180),	-- Enchanted Thorium Bar
@@ -209,6 +213,11 @@ TBC_ENCHANTING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { 
 		r(33991),	-- Restore Mana Prime / Versatility Prime[LEGION+]
 		r(27905),	-- Stats
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1262828),	-- Aldor Stellar Console
+		r(1261331),	-- Draenei Holo-Dais
+		r(1261340),	-- Draenei Holo-Path
+	})),
 	filter(MISC, {
 		r(42615, {["timeline"] = {ADDED_2_2_0}}),	-- Small Prismatic Shard
 		r(42613, {["timeline"] = {ADDED_2_2_0, REMOVED_7_3_5}}),	-- Nexus Transformation
@@ -271,6 +280,10 @@ WRATH_ENCHANTING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] 
 		r(44589),	-- Superior Agility[Boot]
 		r(44500),	-- Superior Agility[Cloak]
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1262824),	-- Mark of the Mages' Eye
+		r(1262825),	-- Stampwhistle's Postal Portal
+	})),
 	filter(MISC, {
 		applyclassicphase(WRATH_PHASE_THREE, r(69412, {["timeline"] = {ADDED_3_2_2}})),	-- Abyssal Shatter
 		r(60619, {["timeline"] = {ADDED_3_0_3, REMOVED_5_0_4}}),	-- Runed Titanium Rod
@@ -330,6 +343,10 @@ CATA_ENCHANTING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = 
 		r(74215, {["timeline"] = {ADDED_4_0_3, REMOVED_6_0_2}}),	-- Strength
 		r(74229),	-- Superior Dodge
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1262331),	-- Pyrewood Glass Bottle
+		r(1262318),	-- Twilight Fire Canister
+	})),
 	filter(MISC, {
 		r(104698, {["timeline"] = {ADDED_4_0_3}}),	-- Maelstrom Shatter
 		r(217645, {["timeline"] = {ADDED_7_0_3}}),	-- Tome of Illusions: Cataclysm
@@ -348,43 +365,43 @@ CATA_ENCHANTING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = 
 }));
 COMMON_CATACLYSM_ENCHANTING_RECIPES = applyclassicphase(CATA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_4_0_3 } }, {
 	i(64411, {	-- Formula: Enchant Boots - Assassin's Step (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(64412, {	-- Formula: Enchant Boots - Lavawalker (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(52738, {	-- Formula: Enchant Bracer - Greater Critical Strike (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(64413, {	-- Formula: Enchant Bracer - Greater Speed (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(52740, {	-- Formula: Enchant Chest - Greater Stamina (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(52739, {	-- Formula: Enchant Chest - Peerless Stats (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(52737, {	-- Formula: Enchant Cloak - Greater Critical Strike (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(64414, {	-- Formula: Enchant Gloves - Greater Mastery (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(64415, {	-- Formula: Enchant Gloves - Mighty Strength (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 5 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 5}},
 	}),
 	i(52736, {	-- Formula: Enchant Weapon - Landslide (RECIPE!)
-		["cost"] = {{ "i", MAELSTORM_CRYSTAL, 5 }},
+		["cost"] = {{"i", MAELSTORM_CRYSTAL, 5}},
 	}),
 	i(52733, {	-- Formula: Enchant Weapon - Power Torrent (RECIPE!)
-		["cost"] = {{ "i", MAELSTORM_CRYSTAL, 5 }},
+		["cost"] = {{"i", MAELSTORM_CRYSTAL, 5}},
 	}),
 	i(52735, {	-- Formula: Enchant Weapon - Windwalk (RECIPE!)
-		["cost"] = {{ "i", MAELSTORM_CRYSTAL, 5 }},
+		["cost"] = {{"i", MAELSTORM_CRYSTAL, 5}},
 	}),
 	i(65359, {	-- Formula: Runed Elementium Rod (RECIPE!)
-		["cost"] = {{ "i", HEAVENLY_SHARD, 1 }},
+		["cost"] = {{"i", HEAVENLY_SHARD, 1}},
 		["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
 	}),
 }));
@@ -425,6 +442,10 @@ MOP_ENCHANTING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"]
 		r(104420),	-- Superior Mastery
 		r(104397),	-- Superior Stamina
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1262302),	-- Intense Mogu Brazier
+		r(1262306),	-- Pandaren Table Lamp
+	})),
 	filter(MISC, {
 		r(116498),	-- Ethereal Shard
 		r(118238),	-- Ethereal Shatter
@@ -470,108 +491,122 @@ DRAENOR_ENCHANTING = applyclassicphase(WOD_PHASE_ONE, i(111922, bubbleDownSelf({
 	},
 })));
 COMMON_DRAENOR_ENCHANTING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(256941, {	-- Formula: Ancestral Signal Brazier (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(118394, {	-- Formula: Enchant Cloak - Breath of Critical Strike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118429, {	-- Formula: Enchant Cloak - Breath of Haste (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118430, {	-- Formula: Enchant Cloak - Breath of Mastery (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118431, {	-- Formula: Enchant Cloak - Breath of Multistrike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 },
 	}),
 	i(118432, {	-- Formula: Enchant Cloak - Breath of Versatility (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118433, {	-- Formula: Enchant Cloak - Gift of Critical Strike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118434, {	-- Formula: Enchant Cloak - Gift of Haste (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118435, {	-- Formula: Enchant Cloak - Gift of Mastery (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118436, {	-- Formula: Enchant Cloak - Gift of Multistrike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 },
 	}),
 	i(118437, {	-- Formula: Enchant Cloak - Gift of Versatility (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118438, {	-- Formula: Enchant Neck - Breath of Critical Strike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118439, {	-- Formula: Enchant Neck - Breath of Haste (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118440, {	-- Formula: Enchant Neck - Breath of Mastery (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118441, {	-- Formula: Enchant Neck - Breath of Multistrike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 },
 	}),
 	i(118442, {	-- Formula: Enchant Neck - Breath of Versatility (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118443, {	-- Formula: Enchant Neck - Gift of Critical Strike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118444, {	-- Formula: Enchant Neck - Gift of Haste (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118445, {	-- Formula: Enchant Neck - Gift of Mastery (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118446, {	-- Formula: Enchant Neck - Gift of Multistrike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 },
 	}),
 	i(118447, {	-- Formula: Enchant Neck - Gift of Versatility (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118453, {	-- Formula: Enchant Ring - Gift of Critical Strike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118454, {	-- Formula: Enchant Ring - Gift of Haste (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118455, {	-- Formula: Enchant Ring - Gift of Mastery (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118456, {	-- Formula: Enchant Ring - Gift of Multistrike (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3 },
 	}),
 	i(118457, {	-- Formula: Enchant Ring - Gift of Versatility (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 	}),
 	i(118463, {	-- Formula: Enchant Weapon - Mark of Blackrock (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 5}},
 	}),
 	i(118467, {	-- Formula: Enchant Weapon - Mark of Bleeding Hollow (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 5}},
 	}),
 	i(118462, {	-- Formula: Enchant Weapon - Mark of Shadowmoon (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 5}},
 	}),
 	i(118461, {	-- Formula: Enchant Weapon - Mark of the Frostwolf (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 5}},
 	}),
 	i(118458, {	-- Formula: Enchant Weapon - Mark of the Thunderlord (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 5}},
 	}),
 	i(118460, {	-- Formula: Enchant Weapon - Mark of Warsong (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 5}},
+	}),
+	i(256959, {	-- Formula: Draenethyst String Lights (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
 	}),
 	i(138882, {	-- Formula: Tome of Illusions: Draenor (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENCHANTING, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ENCHANTING, 1}},
 		["timeline"] = { ADDED_7_0_3 },
 	}),
+}));
+LEGION_BLACKSMITHING = applyclassicphase(LEGION_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1262238),	-- Nightspire Fountain
+		r(1260700),	-- Suramar Containment Cell
+	})),
 }));
 BFA_ENCHANTING = applyclassicphase(BFA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	r(302695, {["collectible"] = false}),	-- Disenchant
@@ -595,6 +630,10 @@ BFA_ENCHANTING = applyclassicphase(BFA_PHASE_ONE, sharedData({ ["timeline"] = { 
 		r(255074),	-- Seal of Versatility [Rank 1]
 		r(255089),	-- Seal of Versatility [Rank 2]
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1263877),	-- Drust Enchanter's Rod
+		r(1263870),	-- Tidesage's Totem
+	})),
 	filter(MISC, {
 		r(287270, {["timeline"] = {ADDED_8_1_0}}),	-- Aqueous Invocation
 		r(278418),	-- Disenchanting Rod
@@ -692,6 +731,10 @@ SL_ENCHANTING = applyclassicphase(SL_PHASE_ONE, sharedData({ ["timeline"] = { AD
 		r(309618),	-- Tenet of Mastery
 		r(309619),	-- Tenet of Versatility
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1263238),	-- Ardenweald Lamppost
+		r(1261998),	-- Venthyr Anima Bottle
+	})),
 	filter(MISC, {
 		r(343684),	-- Crafter's Mark I
 		r(343680),	-- Novice Crafter's Mark
@@ -733,6 +776,10 @@ DF_ENCHANTING = applyclassicphase(DF_PHASE_ONE, sharedData({ ["timeline"] = { AD
 		r(389400),	-- Writ of Speed [Cloak]
 		r(389151),	-- Writ of Versatility
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261933),	-- Draconic Scribe's Basin
+		r(1261919),	-- Five Flights' Grimoire
+	})),
 	filter(MISC, {
 		r(391810),	-- Illusory Adornment: Air
 		r(391811),	-- Illusory Adornment: Earth
@@ -775,6 +822,10 @@ TWW_ENCHANTING = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 		r(445348),	-- Whisper of Silken Leech
 		r(445373),	-- Whisper of Silken Speed
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1259715),	-- Dornogal Hanging Sconce
+		r(1259690),	-- Replica Awakening Machine Stasis Pod
+	})),
 	filter(MISC, {
 		r(445338),	-- Algari Mana Oil
 		r(470726),	-- Gleaming Shatter

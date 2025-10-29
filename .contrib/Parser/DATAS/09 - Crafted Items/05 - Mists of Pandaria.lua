@@ -517,6 +517,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		}),
 	}),
 	prof(COOKING, {
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(247220),	-- Mushan Dumpling Stack (DECOR!)
+		})),
 		i(86432),	-- Banana-Infused Rum
 		i(87246),	-- Banquet of the Brew
 		i(87226),	-- Banquet of the Grill
@@ -624,6 +627,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(74720),	-- Enchant Gloves - Superior Haste
 			i(74722),	-- Enchant Gloves - Superior Mastery
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257097),	-- Intense Mogu Brazier (DECOR!)
+			i(257096),	-- Pandaren Table Lamp (DECOR!)
+		})),
 		filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 			i(138793, {	-- Tome of Illusions: Pandaria
 				ill(4441),	-- Windsong (ILLUSION!)

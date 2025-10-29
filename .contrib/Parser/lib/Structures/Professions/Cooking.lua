@@ -227,6 +227,9 @@ WAY_OF_THE_POT = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"]
 	r(104307),	-- Shrimp Dumplings
 }));
 WAY_OF_THE_STEAMER = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = { ADDED_5_0_4 }, ["sourceQuests"] = { 31475 } }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1266563),	-- Mushan Dumpling Stack
+	})),
 	r(125598),	-- Banquet of the Steamer
 	r(104308),	-- Fire Spirit Salmon
 	r(125599),	-- Great Banquet of the Steamer
@@ -257,6 +260,9 @@ DRAENOR_COOKING = applyclassicphase(WOD_PHASE_ONE, i(111387, bubbleDownSelf({ ["
 })));
 BFA_COOKING = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	r(818),		-- Cooking Fire
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1260337),	-- Boralus-Style Lobster Platter
+	})),
 	r(290471, {["timeline"] = {ADDED_8_1_0}}),	-- Boralus Blood Sausage [Rank 1]
 	r(259421),	-- Bountiful Captain's Feast [Rank 1]
 	r(259418),	-- Galley Banquet [Rank 1]
@@ -304,6 +310,9 @@ NAZJATAR_COOKING = applyclassicphase(BFA_PHASE_THREE, bubbleDown({ ["timeline"] 
 SL_COOKING = applyclassicphase(SL_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	r(309830),	-- Shadowlands Cooking
 	r(818),		-- Cooking Fire
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1260334),	-- Caramel Mint Noodle Dish
+	})),
 	r(308415),	-- Banana Beef Pudding
 	r(308410),	-- Biscuits and Caviar
 	r(308397),	-- Butterscotch Marinated Ribs
@@ -324,6 +333,11 @@ SL_COOKING = applyclassicphase(SL_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 DF_COOKING = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	r(366256),	-- Dragon Isles Cooking
 	r(818),		-- Cooking Fire
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1260333),	-- Bruffalon Rib Platter
+		r(1266555),	-- Drake Kebab Platter
+		r(1260331),	-- Valdrakken Blossomfruit Platter
+	})),
 	r(381364),	-- Assorted Exotic Spices
 	r(381371),	-- Breakfast of Draconic Champions
 	r(381367),	-- Cheese and Quackers
@@ -341,6 +355,11 @@ DF_COOKING = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 TWW_COOKING = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	r(423333),	-- Khaz Algar Cooking
 	r(818),		-- Cooking Fire
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1245995),	-- Dornic Sliced Mineloaf
+		r(1245994),	-- Earthen Hospitality Cheese-Like Brick
+		r(1266541),	-- Kaheti Predator's Assortment
+	})),
 	r(445107),	-- Angler's Delight
 	r(445116),	-- Chippy Tea
 	r(445117),	-- Chopped Mycobloom

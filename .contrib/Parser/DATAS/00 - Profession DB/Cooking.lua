@@ -920,8 +920,26 @@ i(223958, 447872);	-- Spongey Scramble
 i(226190, 445483);	-- Sticky Sweet Treat
 --- DISCOVERY ---
 i(0, 447873);		-- Secret Sauce
+
 ------------------
 -- PATCH 11.1.0 --
 ------------------
 --- ITEM ---
 i(235800, 1218414);	-- Authentic Undermine Clam Chowder
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+--- TRAINER ---
+i(0, 1260337);		-- Boralus-Style Lobster Platter
+i(0, 1260333);		-- Bruffalon Rib Platter
+i(0, 1260334);		-- Caramel Mint Noodle Dish
+i(0, 1245995);		-- Dornic Sliced Mineloaf
+i(0, 1266555);		-- Drake Kebab Platter
+i(0, 1245994);		-- Earthen Hospitality Cheese-Like Brick
+i(0, 1266541);		-- Kaheti Predator's Assortment
+i(0, 1266563);		-- Mushan Dumpling Stack
+i(0, 1260331);		-- Valdrakken Blossomfruit Platter
+--- ITEM ---
+i(248013, 1245993);	-- Dornic Mine and Cheese Platter
+i(260556, 1266560);	-- Hungry Human's Platter

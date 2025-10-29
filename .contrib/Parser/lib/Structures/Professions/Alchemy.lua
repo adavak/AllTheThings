@@ -322,51 +322,51 @@ DRAENOR_ALCHEMY = applyclassicphase(WOD_PHASE_ONE, i(109558, bubbleDownSelf({ ["
 COMMON_DRAENOR_ALCHEMY_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	i(160662, {["timeline"] = {ADDED_8_0_1}}),	-- Recipe: Blackwater Anti-Venom (RECIPE!)
 	i(112024, {	-- Recipe: Draenic Agility Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(112038),	-- Recipe: Draenic Agility Potion (RECIPE!)
 	i(112042),	-- Recipe: Draenic Channeled Mana Potion (RECIPE!)
 	i(112026, {	-- Recipe: Draenic Intellect Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(112039),	-- Recipe: Draenic Intellect Potion (RECIPE!)
 	i(112023, {	-- Recipe: Draenic Philosopher's Stone (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(112045, {	-- Recipe: Draenic Rejuvenation Potion (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(112030, {	-- Recipe: Draenic Stamina Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(112027, {	-- Recipe: Draenic Strength Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(112040),	-- Recipe: Draenic Strength Potion (RECIPE!)
 	i(112041),	-- Recipe: Draenic Versatility Potion / Draenic Armor Potion (RECIPE!)
 	i(160661, {["timeline"] = {ADDED_8_0_1}}),	-- Recipe: Fire Ammonite Oil (RECIPE!)
 	i(112031, {	-- Recipe: Greater Draenic Agility Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 5}},
 	}),
 	i(112033, {	-- Recipe: Greater Draenic Intellect Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 5}},
 	}),
 	i(112037, {	-- Recipe: Greater Draenic Stamina Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 5}},
 	}),
 	i(112034, {	-- Recipe: Greater Draenic Strength Flask (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 5 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 5}},
 	}),
 	i(160663, {["timeline"] = {ADDED_8_0_1}}),	-- Recipe: Healing Tonic (RECIPE!)
 	i(257753, {	-- Recipe: Orcish Felblood Cauldron (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 		["timeline"] = { ADDED_11_2_7 },
 	}),
 	i(112047, {	-- Recipe: Transmorphic Tincture (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 	}),
 	i(256938, {	-- Recipe: Wine Barrel (RECIPE!)
-		["cost"] = {{ "i", SECRET_OF_DRAENOR_ALCHEMY, 1 }},
+		["cost"] = {{"i", SECRET_OF_DRAENOR_ALCHEMY, 1}},
 		["timeline"] = { ADDED_11_2_7 },
 	}),
 }));

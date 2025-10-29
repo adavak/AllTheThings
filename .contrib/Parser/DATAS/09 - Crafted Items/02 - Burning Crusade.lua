@@ -501,6 +501,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(38885),	-- Enchant Gloves - Threat
 			-- #endif
 		}))),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(257093),	-- Aldor Stellar Console (DECOR!)
+			i(257037),	-- Draenei Holo-Dais (DECOR!)
+			i(257038),	-- Draenei Holo-Path (DECOR!)
+		})),
 		filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 			i(138789, {	-- Tome of Illusions: Outland
 				ill(5390),	-- Battlemaster (ILLUSION!)
