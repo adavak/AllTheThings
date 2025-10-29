@@ -588,6 +588,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
+					["groups"] = { i(135508) },	-- Lespin's Brooch (QI!)
 				}),
 				q(41466, {	-- Estate Jewelry: Haute Claw-ture
 					["sourceQuests"] = {
@@ -771,6 +772,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 99514 },	-- Lyana Darksorrow
 					["coord"] = { 30.8, 59.1, SURAMAR },
+					["groups"] = { i(133743) },	-- Fresh Fel-Flesh (QI!)
 				}),
 				q(42722, {  -- Friends in Cages
 					["sourceQuest"] = 40745,	-- Shift Change
@@ -839,6 +841,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 99514 },	-- Lyana Darksorrow
 					["coord"] = { 30.8, 59.1, SURAMAR },
 					["groups"] = {
+						i(130210),	-- Lyana's Wrathful Warglaive (QI!)
 						o(245245, {	-- Vengeful Warglaive
 							["coord"] = { 27.2, 59.9, SURAMAR },
 							["groups"] = { i(130211) },	-- Lyana's Vengeful Warglaive (QI!)
@@ -853,6 +856,10 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 99514 },	-- Lyana Darksorrow
 					["coord"] = { 30.8, 59.1, SURAMAR },
 					["classes"] = { DEMONHUNTER },
+					["groups"] = {
+						i(133756),	-- Fresh Mound of Flesh (QI!)
+						i(134065),	-- Grimwing's Head (QI!)
+					},
 				}),
 				q(40901, {	-- Grimwing the Devourer (All others)
 					["sourceQuests"] = {
@@ -862,6 +869,10 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 99514 },	-- Lyana Darksorrow
 					["coord"] = { 30.8, 59.1, SURAMAR },
 					["classes"] = exclude(DEMONHUNTER, ALL_CLASSES),
+					["groups"] = {
+						i(133756),	-- Fresh Mound of Flesh (QI!)
+						i(134065),	-- Grimwing's Head (QI!)
+					},
 				}),
 				q(44562, {	-- Growing Strong
 					["sourceQuest"] = 44561,	-- Seed of Hope
@@ -1393,6 +1404,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41123,	-- An Artisan's Mark
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
+					["groups"] = { i(134821) },	-- Harpy Necklace (QI!)
 				}),
 				q(40370, {	-- Purge the Unclean
 					["sourceQuest"] = 40368,	-- Turtle Powered
@@ -1567,6 +1579,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 99890 },	-- Lyana Darksorrow
 					["coord"] = { 30.0, 69.4, SURAMAR },
+					["groups"] = { i(134028) },	-- Shard of Kozak (QI!)
 				}),
 				q(41097, {	-- Shard of Vorgos
 					["sourceQuests"] = {
@@ -1575,6 +1588,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 99890 },	-- Lyana Darksorrow
 					["coord"] = { 30.0, 69.4, SURAMAR },
+					["groups"] = { i(134027) },	-- Shard of Vorgos (QI!)
 				}),
 				q(41001, {	-- Shatter the Sashj'tar
 					["sourceQuests"] = {
@@ -1719,6 +1733,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 99890 },	-- Lyana Darksorrow
 					["coord"] = { 30.0, 69.4, SURAMAR },
+					["groups"] = { i(133807) },	-- Legion Emblem (QI!)
 				}),
 				q(41762, {	-- Sympathizers Among the Shal'dorei
 					["sourceQuest"] = 41760,	-- Kel'danath's Legacy
@@ -1801,6 +1816,20 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42488,	-- Thalyssra's Abode
 					["provider"] = { "o", 251032 },	-- Armoire
 					["coord"] = { 65.6, 62.7, SURAMAR },
+					["groups"] = {
+						o(251046, {	-- Basket of Clothing
+							["coord"] = { 66.5, 63.3, SURAMAR },
+							["groups"] = { i(138195) },	-- Thalyssra's Favorite Robe (QI!)
+						}),
+						o(251034, {	-- Stack of Arcane Tomes
+							["coord"] = { 65.9, 64.8, SURAMAR },
+							["groups"] = { i(138193) },	-- Stack of Arcane Tomes (QI!)
+						}),
+						o(251035, {	-- Private Correspondence
+							["coord"] = { 65.9, 64.8, SURAMAR },
+							["groups"] = { i(138194) },	-- Private Correspondence (QI!)
+						}),
+					},
 				}),
 				q(45268, {	-- The Advisor and the Arcanist
 					["sourceQuests"] = {
@@ -1863,6 +1892,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44156,	-- Another Arcan'dor Closes...
 					["provider"] = { "n", 107126 },	-- Valewalker Farodin
 					["coord"] = { 36.5, 46.8, SURAMAR },
+					["groups"] = { i(139342) },	-- Purified Life Essence (QI!)
 				}),
 				q(45063, {	-- The Felsoul Experiments
 					["sourceQuest"] = 44919,	-- A Challenge From Our Enemies

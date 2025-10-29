@@ -233,6 +233,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106011 },	-- Jace  Darkweaver
 						["coord"] = { 33.5, 33.1, BROKEN_SHORE },
 						["maps"] = { 714 },	-- Niskara
+						["groups"] = {
+							o(249705, {	-- T'uure
+								["coord"] = { 65.5, 59.4, 714 },	-- Niskara
+								["groups"] = {
+									i(128402, {	-- T'uure, Beacon of the Naaru
+										artifact(118),	-- T'uure, Beacon of the Naaru
+									}),
+								},
+							}),
+						},
 					}),
 					-- Disc
 					q(41625, {	-- The Light's Wrath

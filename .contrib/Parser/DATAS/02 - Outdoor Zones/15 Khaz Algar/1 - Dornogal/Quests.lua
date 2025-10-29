@@ -278,6 +278,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["timeline"] = { ADDED_11_2_5 },
 				["groups"] = { i(250741) },	-- Puzzling Cartel Chip
 			}),
+			q(92332, {	-- Turbo-Boost: Infinite Growth
+				["provider"] = { "o", 571402 },	-- Bounty: Most Dangerous Foes
+				["coord"] = { 52.4, 46.0, DORNOGAL },
+				["timeline"] = { ADDED_11_2_5 },
+				["groups"] = { i(250741) },	-- Puzzling Cartel Chip
+			}),
 		})),
 	}),
 }));

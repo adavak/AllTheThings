@@ -2054,6 +2054,7 @@ local AccountWideQuestsDB = {
 	91476,	-- Behind Enemy Lines
 	91477,	-- Behind Enemy Lines II
 	91478,	-- Behind Enemy Lines III
+	91479,	-- Behind Enemy Lines IIV
 	91481,	-- Speed Siphoner
 	91482,	-- Speed Siphoner II
 	91483,	-- Hacking the Mainframe
@@ -2067,6 +2068,8 @@ local AccountWideQuestsDB = {
 	91526,	-- Head Hunting: Forgeweaver Araz
 	91527,	-- Head Hunting: The Soul Hunters
 	91528,	-- Head Hunting: Horrors of the Forge
+	91529,	-- Head Hunting: Nexus-King Salhadaar
+	91530,	-- Seeing Eye to Eye
 	91539,	-- A Radiant Echo
 	91640,	-- A Dog-eared Book
 	91642,	-- Mysterious Notebook

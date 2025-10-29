@@ -21,14 +21,16 @@ root(ROOTS.Zones, {
 					["coord"] = { 57.6, 71.9, STORMHEIM },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(129225),	-- Runespeaker's Bracers
+						i(128287),	-- Detonator (QI!)
+						--
 						i(129226),	-- Dreadsworn Armplates
-						i(129227),	-- Stormborn Cuffs
-						i(129228),	-- Runesworn Armbands
-						i(132765),	-- Runespeaker's Mantle
-						i(132764),	-- Runesworn Shoulderguards
-						i(132763),	-- Stormborn Monnion
 						i(132762),	-- Dreadsworn Shoulderplates
+						i(129225),	-- Runespeaker's Bracers
+						i(132765),	-- Runespeaker's Mantle
+						i(129228),	-- Runesworn Armbands
+						i(132764),	-- Runesworn Shoulderguards
+						i(129227),	-- Stormborn Cuffs
+						i(132763),	-- Stormborn Monnion
 					},
 				}),
 				q(38312, {	-- A Grapple a Day (Alliance)

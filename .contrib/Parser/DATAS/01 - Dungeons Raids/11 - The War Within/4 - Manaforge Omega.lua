@@ -536,7 +536,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}, {	-- RENOWN 12 --
 						q(91529, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Nexus-King Salhadaar
 					}, {	-- RENOWN 13 --
-						i(244913),	-- Looker Gaz'kreth Jr. (PET!)
+						q(91479, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines II_
+						q(91530, {	-- Seeing Eye to Eye
+							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = { i(244913) },	-- Looker Gaz'kreth Jr. (PET!)
+						}),
 					}, {	-- RENOWN 14 --
 						i(242728),	-- The Bone Freezer (MOUNT!)
 						title(640),	-- Star Savior <Name>
