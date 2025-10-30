@@ -105,8 +105,7 @@ namespace ATT
             var ItemConversionDB = WagoData.GetAll<ItemBonus>().Values.Where(i => i.Type == 37).ToArray();
             if (ItemConversionDB.Length > 0)
             {
-                var itemConversionDB = new Dictionary<string, object>();
-                Exports.Add("ItemConversionDB", itemConversionDB);
+                var itemConversionDB = Exports.GetOrAdd("ItemConversionDB", _ => new Dictionary<string, object>()) as IDictionary<string, object>;
                 if (Exports.TryGetValue("_Compressed", out IDictionary<string, object> compressed))
                 {
                     compressed.Add("ItemConversionDB", true);
@@ -144,21 +143,6 @@ namespace ATT
                 }
             }
 
-            // Go through all of the items in the database and calculate the Filter ID
-            // if the Filter ID is not already assigned. (manual assignment should always override this)
-            foreach (var data in Items.AllItems)
-            {
-                // verify that no source is included for items which should explicitly ignoreSource
-                if (data.TryGetValue("ignoreSource", out bool ig) && ig)
-                {
-                    data.Remove("sourceID");
-                    data.Remove("modIDs");
-                    data.Remove("modID");
-                    data.Remove("bonusIDs");
-                    data.Remove("bonusID");
-                }
-            }
-
             // take out the Uncollectible container as we will handle it specially
             if (Objects.AllContainers.TryGetValue("Uncollectible", out List<object> uncollectible))
             {
@@ -173,27 +157,28 @@ namespace ATT
                 AddHandlerAction(ParseStage.Validation, (data) => data.ContainsKey("objectiveID"), Validate_objectiveID);
             }
 
-            AddHandlerAction(ParseStage.Validation, (data) => data.ContainsKey("headerID"), Validate_headerID);
-            AddHandlerAction(ParseStage.Validation, (data) => data.ContainsKey("questID"), Validate_Quest);
-            AddHandlerAction(ParseStage.Validation, (data) => data.ContainsKey("sym"), Validate_sym);
-            AddHandlerAction(ParseStage.Validation, (data) => data.ContainsKey("providers"), Validate_providers);
-            AddHandlerAction(ParseStage.Validation, (data) => data.ContainsKey("factionID"), Validate_Faction);
+            AddHandlerAction(ParseStage.Validation, data => data.ContainsKey("headerID"), Validate_headerID);
+            AddHandlerAction(ParseStage.Validation, data => data.ContainsKey("questID"), Validate_Quest);
+            AddHandlerAction(ParseStage.Validation, data => data.ContainsKey("sym"), Validate_sym);
+            AddHandlerAction(ParseStage.Validation, data => data.ContainsKey("providers"), Validate_providers);
+            AddHandlerAction(ParseStage.Validation, data => data.ContainsKey("factionID"), Validate_Faction);
             AddHandlerAction(ParseStage.Validation, Handler.AlwaysHandle, Validate_Parallel);
 
             AddHandlerAction(ParseStage.ConditionalData, Handler.AlwaysHandle, Objects.AssignFilterID);
 
+            AddHandlerAction(ParseStage.Incorporation, data => data.ContainsKey("speciesID"), Incorporate_Species);
             AddHandlerAction(ParseStage.Incorporation, Handler.AlwaysHandle, Incorporate_Parallel);
 
             if (Objects.MAPID_COORD_SHIFTS.Count > 0)
             {
                 // check for needed coord shifts on any coords within this group (based on timeline)
-                AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("coords"), DoShiftCoords);
+                AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("coords"), DoShiftCoords);
             }
-            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("coords"), Consolidate_coords);
-            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
-            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
-            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
-            AddHandlerAction(ParseStage.Consolidation, (data) => data.ContainsKey("questID"), Consolidate_questID);
+            AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("coords"), Consolidate_coords);
+            AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("_Incorporate_Ensemble"), Consolidate_EnsembleCleanup);
+            AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("sourceQuests"), Consolidate_sourceQuests);
+            AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
+            AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("questID"), Consolidate_questID);
             AddHandlerAction(ParseStage.Consolidation, Handler.AlwaysHandle, Consolidate_Parallel);
 
             // Merge the Item Data into the Containers.
@@ -215,27 +200,6 @@ namespace ATT
                 ProcessContainer(container);
             }
             RunCurrentParseStageHandlers();
-
-            // Merge Wago Battle Pet data into the containers
-            // TODO: move this to the Incorporate pass instead of manually outside the flow
-            if (SOURCED.TryGetValue("speciesID", out Dictionary<long, HashSet<IDictionary<string, object>>> allSourcedSpecies))
-            {
-                foreach (var sourceSpeciesDataPair in allSourcedSpecies)
-                {
-                    if (WagoData.TryGetValue(sourceSpeciesDataPair.Key, out BattlePetSpecies battlePetSpecies) && battlePetSpecies.CreatureID > 0)
-                    {
-                        foreach (var speciesData in sourceSpeciesDataPair.Value)
-                        {
-                            // TODO: better way to handle pet battle enemies which are species but also listed under NYI
-                            // for now just wipe the npcID of any species listed under NYI
-                            if (!speciesData.ContainsKey("_nyi"))
-                            {
-                                speciesData["npcID"] = battlePetSpecies.CreatureID;
-                            }
-                        }
-                    }
-                }
-            }
 
             // Incorporate external or other DB information into the Objects
             CurrentParseStage = ParseStage.Incorporation;
@@ -1545,7 +1509,7 @@ namespace ATT
 
         internal static bool TryGetSOURCED(string field, object idObj, out HashSet<IDictionary<string, object>> sources)
         {
-            if (SOURCED.TryGetValue(field, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
+            if (SOURCED.TryGetValue(field, out ConcurrentDictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
                 && idObj.TryConvert(out long id)
                 && id > 0
                 && fieldSources.TryGetValue(id, out sources))
@@ -1561,7 +1525,7 @@ namespace ATT
         {
             foreach (KeyValuePair<string, object> field in data)
             {
-                if (SOURCED.TryGetValue(field.Key, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
+                if (SOURCED.TryGetValue(field.Key, out ConcurrentDictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
                     && field.Value.TryConvert(out long id) && id > 0
                     && fieldSources.TryGetValue(id, out HashSet<IDictionary<string, object>> objectSources))
                 {
@@ -1572,7 +1536,7 @@ namespace ATT
 
         private static IEnumerable<HashSet<IDictionary<string, object>>> GetAllMatchingSOURCED(string field, object idObj)
         {
-            if (SOURCED.TryGetValue(field, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
+            if (SOURCED.TryGetValue(field, out ConcurrentDictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
                 && idObj.TryConvert(out long id) && id > 0
                 && fieldSources.TryGetValue(id, out HashSet<IDictionary<string, object>> objectSources))
             {
@@ -1582,13 +1546,9 @@ namespace ATT
 
         private static void CaptureForSOURCED(IDictionary<string, object> data, string field, object idObj)
         {
-            if (SOURCED.TryGetValue(field, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources) && idObj is long id && id > 0)
+            if (SOURCED.TryGetValue(field, out ConcurrentDictionary<long, HashSet<IDictionary<string, object>>> fieldSources) && idObj is long id && id > 0)
             {
-                if (!fieldSources.TryGetValue(id, out HashSet<IDictionary<string, object>> sources))
-                {
-                    fieldSources[id] = sources = new HashSet<IDictionary<string, object>>();
-                }
-                sources.Add(data);
+                fieldSources.GetOrAdd(id, _ => new HashSet<IDictionary<string, object>>()).Add(data);
             }
         }
 
@@ -1605,11 +1565,7 @@ namespace ATT
             {
                 if (data.TryGetValue(kvp.Key, out long id) && id > 0)
                 {
-                    if (!kvp.Value.TryGetValue(id, out HashSet<IDictionary<string, object>> sources))
-                    {
-                        kvp.Value[id] = sources = new HashSet<IDictionary<string, object>>();
-                    }
-                    sources.Add(data);
+                    kvp.Value.GetOrAdd(id, _ => new HashSet<IDictionary<string, object>>()).Add(data);
                 }
                 // TODO: not treating encounters as sources for NPCs currently due to overzealous merging without respect to difficulty
                 // special cases where the id field is not in the data, but we will treat that data as Sourced for that key/id anyway
@@ -3443,6 +3399,24 @@ namespace ATT
             }
         }
 
+        private static void Incorporate_Species(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("speciesID", out long speciesID)) return;
+
+            // add the npcID based on Wago lookup for non-NYI species
+            if (!data.ContainsKey("_nyi"))
+            {
+                if (WagoData.TryGetValue(speciesID, out BattlePetSpecies battlePetSpecies) && battlePetSpecies.CreatureID > 0)
+                {
+                    Objects.Merge(data, "npcID", battlePetSpecies.CreatureID);
+                    TrackIncorporationData(data, "npcID", battlePetSpecies.CreatureID);
+
+                    // since we added a SOURCED field, make sure to track it
+                    CaptureForSOURCED(data, "npcID", battlePetSpecies.CreatureID);
+                }
+            }
+        }
+
         private static void Incorporate_Spell(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("spellID", out long spellID) && !data.ContainsKey("_extraSpells")) return;
@@ -4479,6 +4453,16 @@ namespace ATT
                         data.Remove("recipeID");
                     }
                 }
+            }
+
+            // verify that no source is included for items which should explicitly ignoreSource
+            if (data.TryGetValue("ignoreSource", out bool ig) && ig)
+            {
+                data.Remove("sourceID");
+                data.Remove("modIDs");
+                data.Remove("modID");
+                data.Remove("bonusIDs");
+                data.Remove("bonusID");
             }
 
             // Retail: Items listed directly under a Quest which are of the 'Quest Item' class should be converted into 'qis' on the Quest

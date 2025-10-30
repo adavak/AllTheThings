@@ -152,29 +152,8 @@ namespace ATT
         public static List<object> ALL_RACES;
         public static List<object> ALL_CLASSES;
 
-        private static readonly Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>> SOURCED =
-            new Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>>
-        {
-            { "achID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "creatureID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "currencyID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "explorationID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "factionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "flightpathID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "followerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "headerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "itemID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "mapID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "missionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "mountID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "npcID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "objectID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "questID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "recipeID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "speciesID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "spellID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "sourceID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-        };
+        private static readonly ConcurrentDictionary<string, ConcurrentDictionary<long, HashSet<IDictionary<string, object>>>> SOURCED =
+            new ConcurrentDictionary<string, ConcurrentDictionary<long, HashSet<IDictionary<string, object>>>>();
 
         // TODO: clean all these separate collections into the above
         /// <summary>
@@ -337,10 +316,9 @@ namespace ATT
             }
         }
 
-        private static IDictionary<string, object> Exports { get; } = new Dictionary<string, object>();
+        private static ConcurrentDictionary<string, object> Exports { get; } = new ConcurrentDictionary<string, object>();
 
-        private static IDictionary<string, object> IncorporationReferences { get; } = new Dictionary<string, object>();
-
+        private static ConcurrentDictionary<string, object> IncorporationReferences { get; } = new ConcurrentDictionary<string, object>();
 
         /// <summary>
         /// Performs a ReadKey if the parser is not in an Automated run
@@ -836,6 +814,13 @@ namespace ATT
 
             string[] types = Config["AutoLocalizeTypes"];
             AUTO_LOCALIZE_TYPES = new HashSet<string>(types ?? Array.Empty<string>());
+
+            // Build the SOURCED dictionary
+            string[] sourcedIDs = Config["SOURCED"];
+            foreach (string id in sourcedIDs)
+            {
+                SOURCED.TryAdd(id, new ConcurrentDictionary<long, HashSet<IDictionary<string, object>>>());
+            }
         }
 
         private static void ImportConfiguredObjectTypes(CustomConfigurationNode objectTypesConfig)
@@ -859,20 +844,14 @@ namespace ATT
 
         private static void TrackIncorporationData(string idtype, long id, string field, object data)
         {
-            if (!(IncorporationReferences.TryGetValue(idtype, out object fieldreferencesObj) && fieldreferencesObj is IDictionary<long, object> fieldreferences))
-            {
-                IncorporationReferences[idtype] = fieldreferences = new Dictionary<long, object>();
-            }
+            var fieldreferences = IncorporationReferences.GetOrAdd(idtype, (_) => new ConcurrentDictionary<long, object>()) as ConcurrentDictionary<long, object>;
+            var idreference = fieldreferences.GetOrAdd(id, (_) => new ConcurrentDictionary<string, object>()) as ConcurrentDictionary<string, object>;
 
-            if (!(fieldreferences.TryGetValue(id, out object idreferenceObj) && idreferenceObj is IDictionary<string, object> idreference))
+            if (idtype == "itemID")
             {
-                fieldreferences[id] = idreference = new Dictionary<string, object> { { idtype, id } };
-                if (idtype == "itemID")
-                {
-                    Items.TryGetName(idreference, out string name);
-                    idreference.Remove("_modItemID");
-                    Objects.Merge(idreference, "name", name);
-                }
+                Items.TryGetName(idreference, out string name);
+                idreference.TryRemove("_modItemID", out _);
+                Objects.Merge(idreference, "name", name);
             }
 
             Objects.Merge(idreference, field, data);

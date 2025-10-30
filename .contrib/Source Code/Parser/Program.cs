@@ -329,7 +329,7 @@ namespace ATT
                         }
                         else
                         {
-                            filenames.AsParallel().ForAll(filename => WagoData.LoadFromCSV(filename));
+                            filenames.AsParallel().ForAll(WagoData.LoadFromCSV);
                         }
 
                         if (Errored)
