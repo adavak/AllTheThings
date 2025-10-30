@@ -4,52 +4,8 @@
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 	n(WORLD_BOSSES, {
 		n(ACHIEVEMENTS, {
-			ach(61076, {	-- Broken Isles World Bosses
-				crit(108442, {	-- Ana-Mouz
-					["_npcs"] = { 109943 },
-				}),
-				crit(108436, {	-- Calamir
-					["_npcs"] = { 109331 },
-				}),
-				crit(108438, {	-- Drugon the Frostblood
-					["_npcs"] = { 110378 },
-				}),
-				crit(108441, {	-- Humongris
-					["_npcs"] = { 108879 },
-				}),
-				crit(108437, {	-- Levantus
-					["_npcs"] = { 108829 },
-				}),
-				crit(108443, {	-- Na'zak the Fiend
-					["_npcs"] = { 110321 },
-				}),
-				crit(108439, {	-- Nithogg
-					["_npcs"] = { 107544 },
-				}),
-				crit(108444, {	-- Shar'thos
-					["_npcs"] = { 108678 },
-				}),
-				crit(108440, {	-- The Soultakers
-					["_quests"] = { 42269 },
-				}),
-				crit(108435, {	-- Withered J'im
-					["_npcs"] = { 112350 },
-				}),
-			}),
-			ach(61080, {	-- Broken Shore World Bosses
-				crit(108447, {	-- Apocron
-					["_npcs"] = { 121124 },
-				}),
-				crit(108446, {	-- Brutallus
-					["_npcs"] = { 117239 },
-				}),
-				crit(108445, {	-- Malificus
-					["_npcs"] = { 117303 },
-				}),
-				crit(108448, {	-- Si'vash
-					["_npcs"] = { 117470 },
-				}),
-			}),
+			ach(61076),	-- Broken Isles World Bosses (automated)
+			ach(61080),	-- Broken Shore World Bosses (automated)
 		}),
 		e(1790, {	-- Ana-Mouz
 			["coord"] = { 31.0, 65.5, SURAMAR },
