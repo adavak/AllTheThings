@@ -5002,9 +5002,6 @@ root(ROOTS.Unsorted, {
 				i(250124),	-- Ebon Blade Banner
 				i(250130),	-- Tirisgarde Candle
 				i(250132),	-- Tirisgarde Brazier
-				i(250231),	-- Silver Hand Banner
-				i(250232),	-- Sanctum of Light Hallway Rug
-				i(250235),	-- Silver Hand Tribute to the Fallen
 				i(250239),	-- Tirisgarde Banner
 				i(250302),	-- Netherlight Conclave Voidwell
 				i(250303),	-- Conclave Pedestal
