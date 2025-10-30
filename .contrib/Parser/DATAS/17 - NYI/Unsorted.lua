@@ -6115,7 +6115,6 @@ root(ROOTS.Unsorted, {
 				i(243347),	-- Keg of Curiosities
 			}),
 			filter(MOUNTS, {
-				i(186639),	-- Xy Trustee's Gearglider
 				i(246698),	-- Sunwarmed Furline
 			}),
 			n(PROFESSIONS, {
@@ -6236,10 +6235,6 @@ root(ROOTS.Unsorted, {
 			}),
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249235),	-- Bottomless Bag of Entropy
-			i(249710),	-- Cartel Zo Cypher
-			i(249711),	-- Cartel Ba Cypher
-			i(249712),	-- Cartel Om Cypher
-			i(249713),	-- Cartel Transmorpher
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250709),	-- The Horseman's Chilling Cowl

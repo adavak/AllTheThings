@@ -28,7 +28,7 @@ artifact(729,{b=1,c=a[427],itemID=128868,requireSkill=794,sourceID=77374,spellID
 artifact(751,{b=1,c=a[427],itemID=128825,requireSkill=794,sourceID=77396,spellID=210733}),
 artifact(251,{b=1,c=a[427],isOffHand=1,itemID=133958,requireSkill=794,sourceID=77416})}}),
 cl(6,{requireSkill=794,g={
-artifact(363,{b=1,c=a[478],itemID=128402,requireSkill=794,sourceID=76956,spellID=200152}),
+artifact(363,{b=1,c={5,6},itemID=128402,requireSkill=794,sourceID=76956,spellID=200152}),
 artifact(379,{b=1,c=a[478],isOffHand=1,itemID=128293,requireSkill=794,sourceID=77182}),
 artifact(397,{b=1,c=a[478],itemID=128403,requireSkill=794,sourceID=76990,spellID=202618})}}),
 cl(7,{requireSkill=794,g={

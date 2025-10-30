@@ -2228,6 +2228,7 @@ cl(11,{
 q(42513,{c=a[9],type="hqt"}),
 q(41885,{c=a[9],repeatable=1,type="hqt"}),
 q(41194,{c=a[9],type="hqt"}),
+q(44236,{c=a[9],lvl=45,type="hqt"}),
 q(44642,{c=a[9],type="hqt"}),
 q(42360,{c=a[9],repeatable=1,type="hqt"}),
 q(42361,{c=a[9],repeatable=1,type="hqt"}),
@@ -7089,6 +7090,7 @@ q(82789,{type="hqt"})}}),
 h(-11,{awp=110005,g={
 h(-45,{
 q(85023,{type="hqt"})})}}),
+q(86534,{awp=110002,type="hqt"}),
 h(-557,{awp=110200,e=7,g={
 q(90118,{e=7,type="hqt"}),
 q(91959,{e=7,type="hqt"}),

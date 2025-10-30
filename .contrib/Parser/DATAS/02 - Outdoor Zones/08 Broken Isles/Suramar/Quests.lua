@@ -669,13 +669,16 @@ root(ROOTS.Zones, {
 					["coord"] = { 26.7, 70.7, SURAMAR },
 				}),
 				q(45064, {	-- Felborne No More
-					["sourceQuest"] = 45062,	-- Resisting Arrest
+					["sourceQuests"] = {
+						45066,	-- Experimental Instability
+						45062,	-- Resisting Arrest
+						45065,	-- Survey The City
+					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.4, 45.8, SURAMAR },
-					-- TODO: may also require Experimental Instability (45066)
 					["groups"] = { i(142491) },	-- Experimental Telemancy Orb (QI!)
 				}),
-				q(41452, {	-- Feline Frantic -- aa
+				q(41452, {	-- Feline Frantic
 					["provider"] = { "n", 103568 },	-- Mayruna Moonwing
 					["coord"] = { 25.6, 30.8, SURAMAR },
 				}),

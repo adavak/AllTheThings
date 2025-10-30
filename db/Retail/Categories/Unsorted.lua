@@ -630,7 +630,6 @@ i(240938,{b=1,lvl=80}),
 s(291867,243344,{b=1,f=2}),
 i(243347,{b=1})}),
 flt(100,{
-mnt(353264,{b=1,itemID=186639}),
 i(246698,{b=1,f=100,lvl=10,spellID=317177})}),
 h(-44,{
 i(231770,{f=200}),
@@ -746,10 +745,6 @@ i(246592),
 i(246593)}),
 i(249028,{f=55,spellID=1248409}),
 i(249235,{b=1,lvl=80,spellID=1248507}),
-i(249710),
-i(249711),
-i(249712),
-toy(249713,{b=1}),
 s(297968,250706,{f=2}),
 s(297969,250707,{f=2}),
 s(297971,250709,{f=2}),
@@ -3022,7 +3017,6 @@ q(44197,{c=a[10],description="Category: |cFFf09f26Rogue Campaign|r"}),
 q(44198,{c=a[10],description="Category: |cFFf09f26Rogue Campaign|r"}),
 q(44199,{c=a[10],description="Category: |cFFf09f26Rogue Campaign|r"}),
 q(44201,{c=a[10],description="Category: |cFFf09f26Rogue Campaign|r"}),
-q(44236,{description="Area: |cFFf09f26The Dreamgrove|r"}),
 q(44241,{c=a[12],description="Category: |cFFf09f26Death Knight Campaign|r"}),
 q(44242,{c=a[12],description="Category: |cFFf09f26Death Knight Campaign|r"}),
 q(44747,{description="Category: |cFFf09f26Legionfall Campaign|r"}),
@@ -3225,14 +3219,8 @@ q(89585),
 q(90087,{description="Area: |cFFf09f26The Azure Span|r"}),
 q(90119),
 q(90661,{description="Area: |cFFf09f26Isle of Dorn|r"}),
-q(91479,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r"}),
 q(91480,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r"}),
-q(91530,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r",g={
-i(244913)}}),
 q(91768,{
 i(247927)}),
 q(91954,{description="Type: |cFFf09f26Raid|r\nArea: |cFFf09f26Manaforge Omega|r",g={
-i(242728)}}),
-q(92082,{description="Area: |cFFf09f26Manaforge Omega|r",g={
-i(249713),
-i(186639)}})})};
+i(242728)}})})};

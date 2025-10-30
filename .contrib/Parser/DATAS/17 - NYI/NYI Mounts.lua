@@ -643,10 +643,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 
 		-- 9.1.0
 		expansion(EXPANSION.SL, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_9_1_0 } }, {
-			-- With MountID Attached
-			i(186639, {	-- Pilfered Gearglider (MOUNT!)
-				["displayID"] = 100052,
-			}),
 			i(186491, {	-- Spring Wilderling (MOUNT!)
 				["displayID"] = 101004,
 			}),

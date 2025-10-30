@@ -212,17 +212,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42045 },	-- Communing with Malorne
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
 						["coord"] = { 60.5, 23.6, MOUNT_HYJAL },
-						["groups"] = {
-							i(139730),	-- Bracers of the Dreamgrove
-						},
+						["groups"] = { i(139730) },	-- Bracers of the Dreamgrove
 					}),
 					q(40643, {	-- A Summons From Moonglade
 						["sourceQuests"] = { 44663 },	-- In the Blink of an Eye
 						["provider"] = { "n", 101061 },	-- Archdruid Hamuul Runetotem
 						["coord"] = { 57.8, 45.8, LEGION_DALARAN },
-						["groups"] = {
-							i(173716),	-- Mossy Hearthstone (QI!)
-						},
+						["groups"] = { i(173716) },	-- Mossy Hearthstone (QI!)
 					}),
 					q(42439, {	-- Aid for the Ashen
 						["sourceQuests"] = { 42428 },	-- The Shrine of Ashamane

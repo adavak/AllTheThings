@@ -1471,6 +1471,7 @@ i(245942);	-- Sea-Blessed Shrine
 i(232307);	-- Astral Champion's Prestigious Banner
 i(245946);	-- Brewer's Balloon
 i(246907);	-- Broker Supply Crate
+i(249713);	-- Cartel Transmorpher
 i(242323);	-- Chowdar's Favorite Ribbon
 i(246565);	-- Cosmic Hearthstone
 i(243056);	-- Delver's Mana-Bound Ethergate
@@ -1484,7 +1485,6 @@ i(245970);	-- P.O.S.T. Master's Express Hearthstone
 i(232303);	-- Unbound Banner of the Algari
 --- UNSORTED ---
 i(242534);	-- Azure Sea Skiff
-i(249713);	-- Cartel Transmorpher
 
 ------------------
 -- PATCH 11.2.5 --

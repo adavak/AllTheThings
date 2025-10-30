@@ -187,7 +187,9 @@ root(ROOTS.Zones, {
 				q(41354, {	-- Shattered Felslate Seams
 					["requireSkill"] = MINING,
 				}),
-				q(44815),	-- Sick of the Sycophants
+				q(44815, {	-- Sick of the Sycophants
+					i(142401),	-- Telemancy Orbs (QI!)
+				}),
 				q(42090, {	-- Skittering Subjects
 					i(140916),	-- Satchel of Locklimb Powder (QI!)
 				}),

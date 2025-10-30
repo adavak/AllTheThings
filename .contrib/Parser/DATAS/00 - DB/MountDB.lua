@@ -2120,6 +2120,7 @@ i(243159, 1234821);	-- Vicious Void Creeper [H]
 i(246732, 1243589);	-- Void-Forged Overseer (CN ONLY)
 i(245610, 1239138);	-- Voidlight Surger
 i(243019, 1234303);	-- Voidwing Dragonhawk
+i(186639, 353264);	-- Xy Trustee's Gearglider
 --- NYI ---
 i(247791, 1245357);	-- Adorned Northeron Gryphon
 i(246919, 1244259);	-- Cinder-seared Elekk
@@ -2127,8 +2128,6 @@ i(247794, 1245361);	-- Emberwing Sky Guide
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger
 i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
---- UNSORTED ---
-i(186639, 353264);	-- Xy Trustee's Gearglider
 
 ------------------
 -- PATCH 11.2.5 --
