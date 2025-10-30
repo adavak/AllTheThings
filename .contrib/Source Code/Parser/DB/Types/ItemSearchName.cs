@@ -193,7 +193,7 @@ namespace ATT.DB.Types
                     {
                         if (o is long raceID)
                         {
-                            if ((AllowableRace & flags[raceID]) > 0) races.Add(raceID);
+                            if (flags.TryGetValue(raceID, out long raceFlags) && ((AllowableRace & raceFlags) > 0)) races.Add(raceID);
                             else includedAll = false;
                         }
                     }
@@ -214,6 +214,7 @@ namespace ATT.DB.Types
         }
         #endregion
 
+        // TODO: this needs to be re-designed to utilize JSON/Lua modified data instead of being hard-coded
         private static readonly Dictionary<long, ClassTypeFlags> CLASS_TYPE_FLAGS = new Dictionary<long, ClassTypeFlags>
         {
             { 1, ClassTypeFlags.WARRIOR },
@@ -231,6 +232,7 @@ namespace ATT.DB.Types
             { 13, ClassTypeFlags.EVOKER },
         };
 
+        // TODO: this needs to be re-designed to utilize JSON/Lua modified data instead of being hard-coded
         private static readonly Dictionary<long, RaceTypeBitIndexes> RACE_TO_BIT_INDEX = new Dictionary<long, RaceTypeBitIndexes>
         {
             { 1, RaceTypeBitIndexes.HUMAN },
