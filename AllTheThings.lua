@@ -1762,6 +1762,11 @@ function app:GetDataCache()
 		tinsert(g, db);
 	end
 
+	-- Housing
+	if app.Categories.Housing then
+		tinsert(g, app.CreateCustomHeader(app.HeaderConstants.HOUSING, app.Categories.Housing));
+	end
+
 	-----------------------------------------
 	-- L I M I T E D   C A T E G O R I E S --
 	-----------------------------------------
