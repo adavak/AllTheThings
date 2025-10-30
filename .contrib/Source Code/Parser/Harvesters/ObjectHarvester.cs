@@ -286,6 +286,9 @@ namespace ATT
             // Don't look at "custom" objects... Yeesh. Why do these even exist?!
             if (objectID >= 9000000) return false;
 
+            // Allow skipping lookup if configured as such
+            if (Framework.Config["IgnoreWowheadRetrieval"]) return false;
+
             // Attempt to get the text table.
             bool dirty = false;
             Dictionary<string, object> textLocalizations;
