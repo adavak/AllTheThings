@@ -21,9 +21,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 			}),
 			n(WORLD_QUESTS, {
 				q(42242, {	-- Halls of Valor: A Gift for Vethir
+					["timeline"] = { ADDED_7_2_0 },
 					["isWorldQuest"] = true,
 					["lvl"] = 110,
-					["timeline"] = { ADDED_7_2_0 },
 					["groups"] = {
 						o(249734, {	-- Storm Dragon Egg
 							i(136968),	-- Storm Dragon Egg (QI!)

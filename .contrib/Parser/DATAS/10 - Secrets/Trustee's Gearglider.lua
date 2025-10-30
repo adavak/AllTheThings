@@ -34,9 +34,9 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 		q(92081, {	-- Cartel Om Cypher
 			["name"] = "Cartel Om Cypher",
 			["description"] = "On a rock past Fractillus near the edge of the map.",
+			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
 			["maps"] = 2465,	-- Wastes of Karesh
 			["cost"] = { { "i", 249704, 1 } },	-- Deal: Cartel Om
-			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
 			["groups"] = {
 				i(249712),	-- Cartel Om Cypher
 			},
@@ -44,9 +44,9 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 		q(92079, {	-- Cartel Zo Cypher
 			["name"] = "Cartel Zo Cypher",
 			["description"] = "On top of a pipe in Mana-Vent Aphis before Forgeweaver Araz.",
+			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
 			["maps"] = 2463,	-- Technomancers' Terrace
 			["cost"] = { { "i", 249700, 1 } },	-- Deal: Cartel Zo
-			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
 			["groups"] = {
 				i(249710),	-- Cartel Zo Cypher
 			},
