@@ -3,7 +3,7 @@
 -----------------------------------------------------
 MIDNIGHT_SEASONAL_PROMOTIONS = createHeader({
 	readable = "Midnight Seasonal Promotions",
---	icon = [[~_.asset("Expansion_MID")]],
+	icon = [[~_.asset("Expansion_MN")]],
 	text = {
 		en = "Midnight Seasonal Promotions",
 		es = "Promociones temporada Midnight",
@@ -22,16 +22,16 @@ root(ROOTS.Promotions, {
 		["timeline"] = { ADDED_12_0_0 },
 		["groups"] = {
 			-- "Pre Season"
-			
+
 			-- Season 1
-			
+
 			-- Season 2
-			
+
 			-- Season 3
-			
+
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
-		--	PVE	["description"] = "Mythic Dungeon International: MID Season 1\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",				
+		--	PVE	["description"] = "Mythic Dungeon International: MID Season 1\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",
 		--	PVP	["description"] = "Arena World Championship: MID Season 1\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments",
 		--		["timeline"] = { ADDED_11_0_2 },
 		--		["icon"] = 4731630,
