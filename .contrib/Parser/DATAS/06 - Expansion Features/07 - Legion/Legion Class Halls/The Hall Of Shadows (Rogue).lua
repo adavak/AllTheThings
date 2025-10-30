@@ -1024,10 +1024,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 45.4, 27.6, THE_HALL_OF_SHADOWS },
 						["groups"] = {
 							i(120857, {	-- Barrel of Bandanas (TOY!)
-								["cost"] = { { "c", 1416, 50000 }, },	-- 50,000x Coin of Air
+								["cost"] = {{ "c", 1416, 50000 }},	-- 50,000x Coin of Air
 							}),
 							i(151877, {	-- Barrel of Eyepatches (TOY!)
-								["cost"] = { { "c", 1416, 50000 }, },	-- 50,000x Coin of Air
+								["cost"] = {{ "c", 1416, 50000 }},	-- 50,000x Coin of Air
 								["timeline"] = { ADDED_7_2_5 },
 							}),
 							i(151181, {	-- Certified Organic Lamp Shining Kit
@@ -1036,24 +1036,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(27982),	-- Charm of Potent and Powerful Passions
 							i(27941),	-- Compassionate Critter's Friend
 							i(120858, {	-- Crimson Shadowcap
-								["cost"] = { { "c", 1416, 25000 }, },	-- 25,000x Coin of Air
+								["cost"] = {{ "c", 1416, 25000 }},	-- 25,000x Coin of Air
 							}),
 							i(151633, {	-- Dig Rat (PET!)
-								["cost"] = { { "c", 1416, 10000 }, },	-- 10,000x Coin of Air
+								["cost"] = {{ "c", 1416, 10000 }},	-- 10,000x Coin of Air
 								["timeline"] = { ADDED_7_2_5 },
 							}),
 							i(151749),	-- Dubious Lamp
 							i(120439, {	-- Embroidered Crimson and Gold Mask
-								["cost"] = { { "c", 1416, 25000 }, },	-- 25,000x Coin of Air
+								["cost"] = {{ "c", 1416, 25000 }},	-- 25,000x Coin of Air
 							}),
 							i(120861, {	-- Fancy Crimson Shadowcap
-								["cost"] = { { "c", 1416, 50000 }, },	-- 50,000x Coin of Air
+								["cost"] = {{ "c", 1416, 50000 }},	-- 50,000x Coin of Air
 							}),
 							i(120437, {	-- Forboding Black Mask
-								["cost"] = { { "c", 1416, 5000 }, },	-- 5,000x Coin of Air
+								["cost"] = {{ "c", 1416, 5000 }},	-- 5,000x Coin of Air
 							}),
 							i(120433, {	-- Glamorous Purple Mask
-								["cost"] = { { "c", 1416, 5000 }, },	-- 5,000x Coin of Air
+								["cost"] = {{ "c", 1416, 5000 }},	-- 5,000x Coin of Air
 							}),
 							i(151144, {	-- Gleaming Lamp of Al'Abas
 								["cost"] = 5000000,	-- 500g
@@ -1063,10 +1063,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							i(34249),	-- Hula Girl Doll
 							i(138954, {	-- Illusion: Poisoned (ILLUSION!)
-								["cost"] = { { "c", 1416, 25000 }, },	-- 25,000x Coin of Air
+								["cost"] = {{ "c", 1416, 25000 }},	-- 25,000x Coin of Air
 							}),
 							i(120434, {	-- Immaculate White Mask
-								["cost"] = { { "c", 1416, 5000 }, },	-- 5,000x Coin of Air
+								["cost"] = {{ "c", 1416, 5000 }},	-- 5,000x Coin of Air
 							}),
 							i(27992),	-- Infallible Tikbalang Ward
 							i(151131, {	-- Lamp of Al'Abas
@@ -1075,12 +1075,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							i(27940),	-- Marvelous Madstone of Immortality
 							i(120435, {	-- Mossy Green Mask
-								["cost"] = { { "c", 1416, 5000 }, },	-- 5,000x Coin of Air
+								["cost"] = {{ "c", 1416, 5000 }},	-- 5,000x Coin of Air
 							}),
 							i(27976),	-- Polished Pendant of Edible Energy
 							i(74918),	-- Problem Solving Pendant
 							i(120431, {	-- Rakish Orange Mask
-								["cost"] = { { "c", 1416, 5000 }, },	-- 5,000x Coin of Air
+								["cost"] = {{ "c", 1416, 5000 }},	-- 5,000x Coin of Air
 							}),
 							i(27945),	-- Shark's Tooth of Bona Fide Fluidic Mobility
 							i(151143, {	-- Shining Lamp of Al'Abas
@@ -1088,10 +1088,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["timeline"] = { ADDED_7_2_5 },
 							}),
 							i(120432, {	-- Sinister Rogue Mask
-								["cost"] = { { "c", 1416, 25000 }, },	-- 25,000x Coin of Air
+								["cost"] = {{ "c", 1416, 25000 }},	-- 25,000x Coin of Air
 							}),
 							i(151569, {	-- Sneaky Marmot (PET!)
-								["cost"] = { { "c", 1416, 10000 }, },	-- 10,000x Coin of Air
+								["cost"] = {{ "c", 1416, 10000 }},	-- 10,000x Coin of Air
 								["timeline"] = { ADDED_7_2_5 },
 							}),
 							i(27978),	-- Soap on a Rope
@@ -1139,19 +1139,51 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(139742, {	-- Mask of the Uncrowned
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(250787, {	-- Replica Crucible of the Uncrowned (DECOR!)
+								["sourceAchievement"] = 42295,	-- Hidden Potential of the Shadowblade
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 5000 }},	-- 5,000x Order Resources
+							}),
 							i(140943, {	-- Shadowstalker's Armor Kit
-								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(140979, {	-- Shadowstalker's Greater Armor Kit
-								["cost"] = { { "c", 1220, 4000 }, },	-- 4,000x Order Resources
+								["cost"] = {{ "c", 1220, 4000 }},	-- 4,000x Order Resources
 							}),
 							i(140978, {	-- Shadowstalker's Lesser Armor Kit
-								["cost"] = { { "c", 1220, 500 }, },		-- 500x Order Resources
+								["cost"] = {{ "c", 1220, 500 }},		-- 500x Order Resources
 							}),
 							i(140541),	-- Shiv of the Uncrowned
 							i(140556),	-- Shortblade of the Uncrowned
 							i(139744, {		-- Shoulderblades of the Uncrowned
 								["cost"] = 5000000,	-- 500g
+							}),
+							i(250788, {	-- Stolen Copy of the Blood Ledger (DECOR!)
+								["sourceAchievement"] = 60970,	-- Legendary Research of the Uncrowned
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 3000 }},	-- 3,000x Order Resources
+							}),
+							i(250783, {	-- Uncrowned Apothecary's Cabinet (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(250784, {	-- Uncrowned Apothecary's Supplies (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(250785, {	-- Uncrowned Banner (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+							}),
+							i(260776, {	-- Uncrowned Market Stall (DECOR!)
+								["sourceAchievement"] = 42279,	-- The Shadowblade's Campaign
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1500 }},	-- 1,500x Order Resources
+							}),
+							i(250786, {	-- Uncrowned Planning Table (DECOR!)
+								["sourceAchievement"] = 60989,	-- Raise an Army for the Hall of Shadows
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(139746, {	-- Wristbands of the Uncrowned
 								["cost"] = 5000000,	-- 500g
@@ -1173,7 +1205,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									46089,	-- Hiding in Plain Sight (A)
 									46178,	-- Hiding in Plain Sight (H)
 								},
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 							i(143491, {	-- Shadowblade's Baneful Omen (MOUNT!)
@@ -1181,7 +1213,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									46089,	-- Hiding in Plain Sight (A)
 									46178,	-- Hiding in Plain Sight (H)
 								},
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 							i(143492, {	-- Shadowblade's Lethal Omen (MOUNT!)
@@ -1189,7 +1221,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									46089,	-- Hiding in Plain Sight (A)
 									46178,	-- Hiding in Plain Sight (H)
 								},
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 						},
