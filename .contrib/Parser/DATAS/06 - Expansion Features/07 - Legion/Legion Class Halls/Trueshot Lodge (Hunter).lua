@@ -978,6 +978,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["coord"] = { 44.6, 48.8, TRUESHOT_LODGE },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
 						["groups"] = {
+							i(250128, {	-- Banner of the Unseen Path (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+							}),
 							i(139713, {	-- Belt of the Unseen Path
 								["cost"] = 5000000,	-- 500g
 							}),
@@ -999,14 +1003,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 								["cost"] = 500000,	-- 50g
 							}),
 							i(140938, {	-- Huntmaster's Armor Kit
-								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(140969, {	-- Huntmaster's Greater Armor Kit
-								["cost"] = { { "c", 1220, 4000 }, },	-- 4,000x Order Resources
+								["cost"] = {{ "c", 1220, 4000 }},	-- 4,000x Order Resources
 							}),
 							i(140548),	-- Huntmaster's Halberd
 							i(140968, {	-- Huntmaster's Lesser Armor Kit
-								["cost"] = { { "c", 1220, 500 }, },		-- 500x Order Resources
+								["cost"] = {{ "c", 1220, 500 }},		-- 500x Order Resources
 							}),
 							i(140539),	-- Huntmaster's Longbow
 							i(140544),	-- Huntmaster's Rifle
@@ -1018,11 +1022,39 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							}),
 							i(136781),	-- Pet Training Manual: Fetch (CI!)
 							i(136780),	-- Pet Training Manual: Play Dead (CI!)
+							i(250125, {	-- Replica Altar of the Eternal Hunt (DECOR!)
+								["sourceAchievement"] = 42290,	-- Hidden Potential of the Huntmaster
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 5000 }},	-- 5,000x Order Resources
+							}),
+							i(250127, {	-- Replica Tales of the Hunt (DECOR!)
+								["sourceAchievement"] = 60965,	-- Legendary Research of the Unseen Path
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 3000 }},	-- 3,000x Order Resources
+							}),
 							i(139712, {	-- Spaulders of the Unseen Path
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(139708, {	-- Treads of the Unseen Path
 								["cost"] = 5000000,	-- 500g
+							}),
+							i(245549, {	-- Trueshot Lodge Fireplace (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(250110, {	-- Trueshot Lodge Weapon Rack (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(248011, {	-- Trueshot Skeletal Dragon Trophy (DECOR!)
+								["sourceAchievement"] = 42273,	-- The Huntmaster's Campaign
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1500 }},	-- 1,500x Order Resources
+							}),
+							i(250126, {	-- Unseen Path Archer's Gallery (DECOR!)
+								["sourceAchievement"] = 60984,	-- Raise an Army for the Trueshot Lodge
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(139714, {	-- Wristwraps of the Unseen Path
 								["cost"] = 5000000,	-- 500g
@@ -1035,17 +1067,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["groups"] = {
 							i(147580, {	-- Tome of the Hybrid Beast (CI!)
 								["sourceQuest"] = 46337,	-- Night of the Wilds
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 							i(142228, {	-- Huntmaster's Dire Wolfhawk (MOUNT!)
 								["sourceQuest"] = 46337,	-- Night of the Wilds
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 							i(142226, {	-- Huntmaster's Fierce Wolfhawk (MOUNT!)
 								["sourceQuest"] = 46337,	-- Night of the Wilds
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 						},

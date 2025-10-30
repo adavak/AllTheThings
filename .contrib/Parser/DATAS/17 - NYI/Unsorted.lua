@@ -4764,7 +4764,6 @@ root(ROOTS.Unsorted, {
 				i(245533),	-- Rugged Brazier
 				i(245545),	-- Orgrimmar Nightstand
 				i(245546),	-- Durable Wooden Chest
-				i(245549),	-- Trueshot Lodge Fireplace
 				i(245550),	-- Runed Dreamweaver Moonstone
 				i(245555),	-- Orgrimmar Tusked Bed
 				i(245558),	-- Elaborate Suramar Window
@@ -5003,11 +5002,9 @@ root(ROOTS.Unsorted, {
 				i(249551),	-- Skyhold Spear Rack
 				i(250093),	-- Tusked Weapon Rack
 				i(250094),	-- Empty Orgrimmar Bathtub
-				i(250110),	-- Trueshot Lodge Weapon Rack
 				i(250113),	-- Ebon Blade Tome
 				i(250114),	-- Acherus Worktable
 				i(250124),	-- Ebon Blade Banner
-				i(250128),	-- Banner of the Unseen Path
 				i(250130),	-- Tirisgarde Candle
 				i(250132),	-- Tirisgarde Brazier
 				i(250133),	-- Dreamweaver Banner
