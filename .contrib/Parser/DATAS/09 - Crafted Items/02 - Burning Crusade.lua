@@ -1346,7 +1346,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	-- #endif
 	prof(JEWELCRAFTING, {
-		header(HEADERS.Spell, 31212, {	-- Prospecting
+		header(HEADERS.Spell, 31252, {	-- Prospecting
 			-- Note: Epic quality (purple) gems CANNOT be obtained from prospecting, see Mining.
 			["groups"] = appendAllGroups(
 				sharedData({	-- Uncommon quality (green) gems:

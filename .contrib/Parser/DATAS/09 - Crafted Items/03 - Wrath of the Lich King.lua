@@ -1374,7 +1374,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 	}),
 	prof(JEWELCRAFTING, {
-		header(HEADERS.Spell, 31212, {	-- Prospecting
+		header(HEADERS.Spell, 31252, {	-- Prospecting
 			["groups"] = appendAllGroups(
 				{applyclassicphase(WRATH_PHASE_THREE, i(46849, {	-- Titanium Powder
 					["cost"] = ClassicCost({{ "i", 36910, 5 }}),	-- Titanium Ore
