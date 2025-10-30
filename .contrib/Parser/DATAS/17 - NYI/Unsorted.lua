@@ -4989,15 +4989,12 @@ root(ROOTS.Unsorted, {
 				i(248959),	-- Dreadscar Bookcase
 				i(248985),	-- Tauren Hanging Brazier
 				i(249004),	-- Black Harvest Orrery
-				i(249460),	-- Skyhold Brazier
 				i(249462),	-- Illidari Banner
 				i(249463),	-- Illidari Skull Sentinel
-				i(249464),	-- Valarjar Banner
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
 				i(249550),	-- Wind Rider Roost
-				i(249551),	-- Skyhold Spear Rack
 				i(250093),	-- Tusked Weapon Rack
 				i(250094),	-- Empty Orgrimmar Bathtub
 				i(250113),	-- Ebon Blade Tome
