@@ -19,7 +19,7 @@ CLASSIC_COOKING = {
 		-- #endif
 		["rank"] = 2,
 	}),
-	r(3538, {	-- Cooking (Expert)
+	r(3413, {	-- Cooking (Expert)
 		["timeline"] = { ADDED_3_1_0, REMOVED_8_0_1_LAUNCH },
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
@@ -28,7 +28,7 @@ CLASSIC_COOKING = {
 		-- #endif
 		["rank"] = 3,
 	}),
-	r(9785, {	-- Cooking (Artisan)
+	r(18260, {	-- Cooking (Artisan)
 		["timeline"] = { ADDED_3_1_0, REMOVED_8_0_1_LAUNCH },
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,

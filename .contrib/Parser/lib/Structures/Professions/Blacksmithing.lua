@@ -78,13 +78,10 @@ APPRENTICE_JOURNEYMAN_EXPERT_BLACKSMITHING = {
 		r(3326),	-- Coarse Grinding Stone
 		r(2665),	-- Coarse Sharpening Stone
 		r(3116),	-- Coarse Weightstone
-		r(14379, {["timeline"] = {REMOVED_5_0_4}}),	-- Golden Rod
 		r(19667),	-- Golden Skeleton Key
 		r(3337),	-- Heavy Grinding Stone
 		r(2674),	-- Heavy Sharpening Stone
 		r(3117),	-- Heavy Weightstone
-		r(8768),	-- Iron Buckle
-		r(7818, {["timeline"] = {REMOVED_5_0_4}}),	-- Silver Rod
 		r(19666),	-- Silver Skeleton Key
 		r(3320),	-- Rough Grinding Stone
 		r(2660),	-- Rough Sharpening Stone
@@ -92,8 +89,13 @@ APPRENTICE_JOURNEYMAN_EXPERT_BLACKSMITHING = {
 		r(9920),	-- Solid Grinding Stone
 		r(9918),	-- Solid Sharpening Stone
 		r(9921),	-- Solid Weightstone
-		r(14380, {["timeline"] = {REMOVED_5_0_4}}),	-- Truesilver Rod
 		r(19668),	-- Truesilver Skeleton Key
+	}),
+	filter(REAGENTS, {
+		r(14379, {["timeline"] = {REMOVED_5_0_4}}),	-- Golden Rod
+		r(8768),	-- Iron Buckle
+		r(7818, {["timeline"] = {REMOVED_5_0_4}}),	-- Silver Rod
+		r(14380, {["timeline"] = {REMOVED_5_0_4}}),	-- Truesilver Rod
 	}),
 	n(WEAPONS, {
 		r(2738),	-- Copper Axe
