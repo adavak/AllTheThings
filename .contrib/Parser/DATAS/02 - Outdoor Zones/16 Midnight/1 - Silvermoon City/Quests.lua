@@ -5,18 +5,31 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(EVERSONG_WOODS_MID, {
 		n(QUESTS, {
-			header(HEADERS.AchCriteria, 41802.01, {	-- Whispers in the Twillight
-				q(86735, {	-- Paved in Ash
-					["sourceQuests"] = { 86734 },	-- Diplomacy
-					["provider"] = { "n", 235787 },	-- Lor'themar Theron
-					["coord"] = { 45.4, 70.3, SILVERMOON_CITY_MID },
-					["groups"] = {
-						i(248044),	-- Reluctant Diplomat's Bracers
-						i(248042),	-- Reluctant Diplomat's Cuffs
-						i(248043),	-- Reluctant Diplomat's Vambraces
-						i(248045),	-- Reluctant Diplomat's Wraps
-					},
-				}),
+			--Battle Pet
+			q(94012, {	-- Lost Lil' Strider
+				--["sourceQuests"] = { ??? },	-- ??
+				["provider"] = { "n", 257039 },	-- Hawkrancher Saman
+				["coord"] = { 41.8, 76.4, SILVERMOON_CITY_MID },
+				["groups"] = {
+					i(264165),	-- Tiff (QI!)
+				},
+			}),
+			q(93965, {	-- Pet Wranglin'
+				["sourceQuests"] = { 94012 },	-- Lost Lil' Strider
+				["provider"] = { "n", 257039 },	-- Hawkrancher Saman
+				["coord"] = { 41.8, 76.4, SILVERMOON_CITY_MID },
+				["groups"] = {
+					i(263871),	-- Holy Pet Leash (QI!)
+				},
+			}),
+		}),
+	}),
+}));
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
+	m(MIDNIGHT, {
+		m(SILVERMOON_CITY_MID, {
+			n(QUESTS, {
+				--q(93067), <stay a while and listen> o? | In Memoriam @ 35.2, 70.3. Since it fire with big delay -- gonna leave it like that
 			}),
 		}),
 	}),

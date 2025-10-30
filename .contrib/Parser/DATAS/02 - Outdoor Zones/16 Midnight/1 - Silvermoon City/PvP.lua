@@ -16,20 +16,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--		},
 			--	}),
 			}),
-			--n(QUESTS, sharedData({
-			--	["provider"] = { "n", 219260 },	-- Ruffious
-			--	["coord"] = { 58.9, 75.3, DORNOGAL },
-			--	["isWeekly"] = true,
-			--}, {
-			--	q(80188),	-- Preserving in Arenas
-			--	q(81796, {	-- Sparks of War: Azj-Kahet
-			--		i(219934),	-- Spark of War (QI!)
-			--	}),
+			n(QUESTS, sharedData({
+				["provider"] = { "n", 254971 },	-- Zerella
+				["coord"] = { 36.3, 81.1, SILVERMOON_CITY_MID },
+				["isWeekly"] = true,
+			}, {
+				q(93506),	-- Enshrouded in Battle
+				q(93503),	-- Enshrouded in Teamwork
+			})),
 			n(VENDORS, {
-				-- ToDo: Add correct NPC+Coords
-				n(219215, {	-- Hotharn <Competitor's Recipes>
-				--	["coord"] = { 55.5, 77.1, SILVERMOON_CITY_MID },
-					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {
+				n(243225, {	-- Mirvedon <Competitor's Recipes>
+					["coord"] = { 34.0, 81.2, SILVERMOON_CITY_MID },
+					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {	-- Alex TODO: gold on alpha
 						filter(RECIPES, {
 							i(256719),	-- Design: Midnight Competitor's Amulet
 							i(256702),	-- Design: Midnight Competitor's Signet
@@ -96,7 +94,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(257260),	-- Technique: Thalassian Competitor's Emblem
 							i(257261),	-- Technique: Thalassian Competitor's Insignia of Alacrity
 							i(257262),	-- Technique: Thalassian Competitor's Medallion
-						}),
+						}),--[[ 
 						filter(MISC, {
 							i(257535, {	-- Galactic Jeweler's Setting
 								["cost"] = {
@@ -122,7 +120,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(253307, {	-- Infused Heliotrope
 								["cost"] = {{"c", HONOR, 2500}},
 							}),
-						}),
+						}),]]--
 					}),
 				}),
 				--[[n(219212, {	-- Maara <War Mode Supplies>
@@ -142,9 +140,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(224049),	-- Web Pull
 						})),
 					},
-				}),
-				n(219217, {	-- Velerd <Honor Quartermaster>
-					["coord"] = { 55.0, 76.5, DORNOGAL },
+				}),--]]
+				n(243221, {	-- Captain Dawnrunner <Honor Quartermaster>
+					["coord"] = { 34.0, 81.0, SILVERMOON_CITY_MID },
 					["groups"] = {
 						i(225739, {	-- Algari Distinguishment
 							["cost"] = {{"c", HONOR, 2000}},
@@ -155,12 +153,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						i(224556, {	-- Glorious Contender's Strongbox
 							["cost"] = {{"c", HONOR, 3500}},
 							["sym"] = {
-								{"select","npcID",219215},{"pop"},	-- select Hotharn <Competitor's Recipes>
+								{"select","npcID",243225},{"pop"},	-- select Mirvedon <Competitor's Recipes>
 								{"find","filterID",RECIPES},{"pop"},	-- return recipes
 							},
 						}),
 					},
-				}),--]]
+				}),
 			}),
 		})),
 	}),

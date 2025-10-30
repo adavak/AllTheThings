@@ -119,8 +119,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					q(86528, {	-- A Cracked Holokey
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
-						["coord"] = { 35.7, 79.2, VOIDSTORM },
 						--["provider"] = { "o", XXXX },	-- Cracked Holokey
+						["coord"] = { 35.7, 79.2, VOIDSTORM },
 					}),
 					q(86537, {	-- Network Insecurity
 						["sourceQuests"] = {
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(262734),	-- 
 							i(262735),	-- 
 							i(262738),	-- 
-							i(262739),	--
+							i(262739),	-- 
 						},
 					}),
 					q(86538, {	-- Second, The Fuel
@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(262675),	-- 
 							i(262678),	-- 
 							i(262733),	-- 
-							i(262737),	--
+							i(262737),	-- 
 						},
 					}),
 					q(86539, {	-- A Naaru!
@@ -1140,6 +1140,44 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 				["provider"] = { "n", 254765 },	-- Perodius
 				["coord"] = { 51.4, 67.6, VOIDSTORM },
+			}),
+			--Delve
+			q(93428, {	-- Delver's Call: Shadowguard Point
+				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				--["provider"] = { "o", XXXXX },	-- Shadowguard Point
+				["coord"] = { 37.6, 51.9, VOIDSTORM },
+			}),
+			--Slayer's Rise
+			q(91197, {	-- Collecting Remains
+				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				["provider"] = { "n", 245976 },	-- Deminos Darktrance
+				["coord"] = { 37.9, 83.2, SLAYERS_RISE_OUTDOOR },
+				["isDaily"] = true,
+				["groups"] = {
+					o(554772, {	-- 
+						i(245937),	-- Void-Tainted Remains (QI!)
+					}),
+				},
+			}),
+			q(89354, {	-- Preparing for Battle
+				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				["provider"] = { "n", 245976 },	-- Deminos Darktrance
+				["coord"] = { 37.9, 83.2, SLAYERS_RISE_OUTDOOR },
+				["isWeekly"] = true,
+				["groups"] = {
+					o(554772, {	-- 
+						i(245937),	-- Void-Tainted Remains (QI!)
+					}),
+				},
+			}),
+			q(93865, {	-- Make Your Name
+				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				["provider"] = { "n", 245571 },	-- Sador
+				["coord"] = { 35.3, 83.2, SLAYERS_RISE_OUTDOOR },
+				["isDaily"] = true,
+				["groups"] = {
+					i(262967),	-- Domanaar Dueling Flag (QI!)
+				},
 			}),
 		}),
 	}),

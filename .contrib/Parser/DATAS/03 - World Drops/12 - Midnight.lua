@@ -4,6 +4,7 @@
 root(ROOTS.WorldDrops, expansion(EXPANSION.MID, {
 	n(ARMOR, {
 		filter(CLOTH, {
+			i(258863),	-- Threadbare Armbands
 		}),
 		filter(LEATHER, {
 			i(258876),	-- Frayed Guise
@@ -14,6 +15,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MID, {
 			i(258854),	-- Stained Pauldrons
 		}),
 		filter(PLATE, {
+			i(258869),	-- Brittle Pauldrons
 		}),
 	}),
 	n(WEAPONS, {

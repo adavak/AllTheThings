@@ -516,6 +516,7 @@ HeaderAssignments = {
 	["SteelSeries"] = -517,
 	["Stoktron Brewery"] = -120,
 	["Storming the Citadel"] = -368,
+	["Stormmarion Assault"] = -681,
 	["Stranglethorn Fishing Extravaganza"] = -588,
 	["Tanks"] = -314,
 	["Tankworks"] = -126,
@@ -671,4 +672,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -680;
+NextHeaderID = -682;

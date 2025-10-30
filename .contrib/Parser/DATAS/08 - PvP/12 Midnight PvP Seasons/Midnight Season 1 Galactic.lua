@@ -82,10 +82,9 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			}),
 		})),
 		--]]n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
-			-- ToDo: Update NPC+Coords
-			n(55555, {	--  <War Mode Quartermaster>
-			--	["coord"] = { 0.0, 0.0, DORNOGAL },
-				["groups"] = {
+			n(243224, {	-- Knight-Lord Bloodvalor <War Mode Quartermaster>
+				["coord"] = { 34.1, 81.7, SILVERMOON_CITY_MID },
+				--[[["groups"] = {
 					filter(BACK_F, {
 						bloody(525, i(255914)),	-- Galactic Warmonger's Cape
 						bloody(525, i(255916)),	-- Galactic Warmonger's Cloak
@@ -156,14 +155,13 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 						bloody(875, i(255922)),	-- Galactic Warmonger's Twinblade
 						bloody(1225, i(255934)),	-- Galactic Warmonger's Wand
 					}),
-				},
+				},]]--
 			}),
 		})),
 		n(PVP_ASPIRANT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
-			-- ToDo: Update NPC+Coords
-			n(219217, {	-- Velerd <Honor Quartermaster>
-			--	["coord"] = { 55.0, 76.5, DORNOGAL },
-				["groups"] = {
+			n(243221, {	-- Captain Dawnrunner <Honor Quartermaster>
+				["coord"] = { 34.0, 81.0, SILVERMOON_CITY_MID },
+				--[[ ["groups"] = {
 					filter(BACK_F, {
 						honor(525, i(255339)),	-- Galactic Aspirant's Cape
 						honor(525, i(255338)),	-- Galactic Aspirant's Cloak
@@ -278,15 +276,14 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 						honor(1225, i(255356)),	-- Galactic Aspirant's Wand
 						honor(875, i(255348)),	-- Galactic Aspirant's Warglaive
 					}),
-				},
+				},]]--
 			})
 		})),
 		n(PVP_GLADIATOR, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
-			-- ToDo: Update NPC+Coords
-			n(219222, {	-- Lalandi <Conquest Quartermaster>
-			--	["coord"] = { 55.1, 76.2, DORNOGAL },
+			n(243220, {	-- Irissa Bloodstar <Conquest Quartermaster>
+				["coord"] = { 34.1, 80.4, SILVERMOON_CITY_MID },
 				["ItemAppearanceModifierID"] = 159,
-				["groups"] = {
+				--[[ ["groups"] = {
 					n(CLASSES, {
 						cl(DEATHKNIGHT, {
 							conquest(875, i(255549)),	-- Galactic Gladiator's Chestguard
@@ -616,12 +613,11 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 					i(256553, {	-- Galactic Equipment Chest
 						["timeline"] = { ADDED_12_0_5 },
 					}),
-				},
+				},]]--
 			}),
 			o(456208, {	-- The Catalyst
-			-- ToDo: Update NPC+Coords
 				["description"] = "Help us gather information of what is/isn't available via doing reports in ATT Discord. Especially the alternative sets and if the PvP transmog is available somewhere else.",
-			--	["coord"] = { 50.0, 54.2, DORNOGAL },
+				["coord"] = { 40.3, 65.1, SILVERMOON_CITY_MID },
 				["modelScale"] = 4,
 			--	["catalystID"] = 11,	-- ItemBonus.Value_0 TWW:S3
 				["groups"] = bubbleDown({ ["modID"] = 14 }, {
@@ -685,10 +681,10 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				cl(WARRIOR, {
 				}),
 			}),
-			n(219216, {	-- Rogurn <Elite Conquest Quartermaster>
-				["coord"] = { 59.8, 69.3, DORNOGAL },
+			n(255844, {	-- Soryn <Elite Conquest Quartermaster>
+				["coord"] = { 34.0, 80.7, SILVERMOON_CITY_MID },
 				["groups"] = {
-				--[[honor(100, i(232908, {	-- Galactic Gladiator's Tabard
+				--[[honor(100, i(264164, {	-- Galactic Gladiator's Tabard
 						["sourceAchievements"] = { 41027 },	-- Elite: Midnight Season 1
 					})),
 					moh(5, i(248364)),	-- Galactic Gladiator's Axe
