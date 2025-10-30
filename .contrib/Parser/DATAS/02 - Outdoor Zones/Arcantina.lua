@@ -1,7 +1,7 @@
----------------------------------------------
---	  A R C A N T I N A    M O D U L E	   --
----------------------------------------------
-root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_LAUNCH } }, {
+---------------------------------------------------
+--          Z O N E S        M O D U L E         --
+---------------------------------------------------
+root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_LAUNCH } }, {
 	n(ACHIEVEMENTS, {
 		ach(61083),	-- Highly Decorated
 		ach(61082),	-- Old Soldiers
@@ -13,7 +13,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			["coord"] = { 46.4, 56.8, ARCANTINA },
 			["groups"] = {
 				i(253542),	-- Scarred Orcish Spear (DECOR!)
-				o(579193, {	-- 
+				o(579193, {	--
 					i(254283),	-- Rusty Axe (QI!)
 				}),
 			},
@@ -23,7 +23,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			["coord"] = { 43.1, 64.3, ARCANTINA },
 			["groups"] = {
 				i(253598),	-- Banner of the Ebon Blade (DECOR!)
-				o(614636, {	-- 
+				o(614636, {	--
 					i(260227),	-- Frostbitten Tabard (QI!)
 				}),
 			},
@@ -49,10 +49,10 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				i(253544),	-- Weathered History of the Warchiefs (DECOR!)
 				i(262911, {	-- 	-- Tombstone Piece (QI!)
 					["providers"] = {
-						{ "o", 617246 },	-- 
-						{ "o", 617247 },	-- 
-						{ "o", 617232 },	-- 
-						{ "o", 617245 },	-- 
+						{ "o", 617246 },	--
+						{ "o", 617247 },	--
+						{ "o", 617232 },	--
+						{ "o", 617245 },	--
 					},
 				}),
 				o(572035, {
@@ -65,7 +65,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			["coord"] = { 55.8, 63.9, ARCANTINA },
 			["groups"] = {
 				i(253178),	-- Inactive Filigree Moon Lamp (DECOR!)
-				o(613535, {	-- 
+				o(613535, {	--
 					i(250874),	-- Corrupted Lantern (QI!)
 				}),
 			},
@@ -78,7 +78,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				i(253700),	-- Sandy Vulpera Banner (DECOR!)
 				i(257758),	-- Empty Pouch (QI!)
 				i(257757),	-- Sack of Fragrant Sands (QI!)
-				o(607115, {	-- 
+				o(607115, {	--
 					i(257756),	-- Handful of Sand (QI!)
 				}),
 			},
@@ -89,7 +89,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			["groups"] = {
 				i(253176),	-- Ancient Zandalari Ritual Scroll (DECOR!)
 				i(255685),	-- Lan'dalock's Pocket Watch (QI!)
-				o(572032, {	-- 
+				o(572032, {	--
 					i(250875),	-- Ancient Zandalari Scroll (QI!)
 				}),
 			},
@@ -99,7 +99,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			["coord"] = { 78.7, 60.0, ARCANTINA },
 			["groups"] = {
 				i(253177),	-- Pylon Fragment (DECOR!)
-				o(584750, {	-- 
+				o(584750, {	--
 					i(255681),	-- Lost Page from Nostro's Compendium (QI!)
 				}),
 			},
@@ -109,7 +109,7 @@ root(ROOTS.Arcantina, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			["coord"] = { 76.4, 39.4, ARCANTINA },
 			["groups"] = {
 				i(253175),	-- Hyjal Climbing Vine (DECOR!)
-				o(617884, {	-- 
+				o(617884, {	--
 					i(263872),	-- Lucifern (QI!)
 				}),
 			},
