@@ -27,29 +27,23 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 			["cost"] = { { "i", 249702, 1 } },	-- Deal: Cartel Ba
 			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
 			["questID"] = 92080,
-			["groups"] = {
-				i(249711),	-- Cartel Ba Cypher
-			},
+			["groups"] = { i(249711) },	-- Cartel Ba Cypher
 		}),
-		q(92081, {	-- Cartel Om Cypher
-			["name"] = "Cartel Om Cypher",
+		o(555611, {	-- Cartel Om Dead Drop
 			["description"] = "On a rock past Fractillus near the edge of the map.",
-			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
 			["maps"] = 2465,	-- Wastes of Karesh
 			["cost"] = { { "i", 249704, 1 } },	-- Deal: Cartel Om
-			["groups"] = {
-				i(249712),	-- Cartel Om Cypher
-			},
-		}),
-		q(92079, {	-- Cartel Zo Cypher
-			["name"] = "Cartel Zo Cypher",
-			["description"] = "On top of a pipe in Mana-Vent Aphis before Forgeweaver Araz.",
 			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
+			["questID"] = 92081,
+			["groups"] = { i(249712) },	-- Cartel Om Cypher
+		}),
+		o(555610, {	-- Cartel Zo Dead Drop
+			["description"] = "On top of a pipe in Mana-Vent Aphis before Forgeweaver Araz.",
 			["maps"] = 2463,	-- Technomancers' Terrace
 			["cost"] = { { "i", 249700, 1 } },	-- Deal: Cartel Zo
-			["groups"] = {
-				i(249710),	-- Cartel Zo Cypher
-			},
+			["minReputation"] = { FACTION_MANAFORGE_VANDALS, 8 },
+			["questID"] = 92079,
+			["groups"] = { i(249710) },	-- Cartel Zo Cypher
 		}),
 		q(92082, {	-- Someone Like Me
 			["sourceQuests"] = {
@@ -58,7 +52,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 				92079,	-- Cartel Zo Cypher
 			},
 			["qg"] = 245344,	-- Zo'turu <Renown Quartermaster>
-			["coords"] = { 42, 22.1, KARESH },
+			["coords"] = { 42.0, 22.1, KARESH },
 			["groups"] = {
 				i(249713),	-- Cartel Transmorpher (TOY!)
 				i(186639),	-- Xy Trustee's Gearglider (MOUNT!)

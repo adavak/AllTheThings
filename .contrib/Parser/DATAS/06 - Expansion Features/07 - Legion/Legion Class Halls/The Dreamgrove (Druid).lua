@@ -373,10 +373,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 45.2, 51.9, THE_DREAMGROVE },
 						["groups"] = {
 							title(332),	-- <Name>, Guardian of G'Hanir
-							i(128306, {	-- G'Hanir, the Mother Tree
-								["ItemAppearanceModifierID"] = 9,
+							o(248499, {	-- G'Hanir
+								["coord"] = { 60.6, 25.4, MOUNT_HYJAL },
 								["groups"] = {
-									artifact(45),	-- Standard Appearance
+									i(128306, {	-- G'Hanir, the Mother Tree
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = {
+											artifact(45),	-- Standard Appearance
+										},
+									}),
 								},
 							}),
 						},
@@ -605,6 +610,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 40649 },	-- Meet with Mylune
 						["provider"] = { "n", 113525 },	-- Mylune
 						["coord"] = { 52.6, 52.8, THE_DREAMGROVE },
+						["groups"] = {
+							o(247901, {	-- Empty Cup
+								["coord"] = { 36.1, 26.5, THE_DREAMGROVE },
+								["groups"] = { i(135501) },	-- Cup of Moonwater (QI!)
+							}),
+						},
 					}),
 					q(44074, {	-- Neltharion's Lair: Essence of Tenacity
 						["sourceQuests"] = { 43991 },	-- The Protectors
@@ -748,7 +759,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 73.8, 38.4, VALSHARAH },
 						["groups"] = {
 							o(250386, {	-- Fangs of Ashamane
-								["coord"] = { 54.9, 20.5, SURAMAR },
+								["coord"] = { 54.9, 20.5, 693 },	-- Falanaar Arcway
 								["groups"] = {
 									i(128860, {	-- Fangs of Ashamane
 										["ItemAppearanceModifierID"] = 9,
@@ -782,12 +793,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(44232, {	-- The Grove Provides
 						["provider"] = { "n", 112323 },	-- Amurra Thistledew
-						["coord"] = { 40.0, 24.8, THE_DREAMGROVE },
+						["coords"] = {
+							{ 40.2, 18.7, THE_DREAMGROVE },
+							{ 40.0, 24.8, THE_DREAMGROVE },
+						},
 					--	this is now available to level 45 characters (was previously 110). unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
 					--	["sourceQuests"] = { },	--
-						["groups"] = {
-							i(139726),	-- Hood of the Dreamgrove
-						},
+						["groups"] = { i(139726) },	-- Hood of the Dreamgrove
 					}),
 					q(42129, {	-- The Pendant of Starlight
 						["sourceQuests"] = { 42045 },	-- Communing with Malorne
@@ -863,8 +875,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(41782, {	-- To The Hills
 						["sourceQuests"] = { 41468 },	-- Mistress of the Claw
-						["provider"] = { "n", 101259 },	-- Lea Stonepaw
+						["qgs"] = {
+							101259,	-- Lea Stonepaw
+							104535,	-- Lea Stonepaw
+						},
 						["coord"] = { 39.2, 18.7, VALSHARAH },
+						["groups"] = { i(135563) },	-- Flask of Moonwell Water (QI!)
 					}),
 					q(46675, {	-- To Track a Demon
 						["sourceQuests"] = { 46674 },	-- The Preservation of Nature
@@ -873,9 +889,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							120084,	-- Druid of the Talon
 						},
 						["coord"] = { 43.5, 58.3, BROKEN_SHORE },
-						["groups"] = {
-							i(147282),	-- Impsorrow Missive (QI!)
-						},
+						["groups"] = { i(147282) },	-- Impsorrow Missive (QI!)
 					}),
 					q(42035, {	-- Tracking the Enemy
 						["sourceQuests"] = { 42034 },	-- Grip of Nightmare

@@ -354,6 +354,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98648 },	-- Allari the Souleater
 						["coord"] = { 55.6, 50.1, 721 },
 						["lvl"] = 110,
+						["groups"] = { i(138482) },	-- Sovereign Soul (QI!)
 					}),
 					q(42801, {	-- Back in Black
 						["sourceQuests"] = { 42594 },	-- Move Like No Other
@@ -920,10 +921,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42752, {	-- Vault of the Wardens: Vault Break-In (not sure why there are 2 versions, but they complete each other)
 						["sourceQuests"] = { 42749 },	-- Strange Bedfellows
 						["maps"] = { STORMHEIM },
+						["groups"] = { i(138397) },	-- Sargerite Keystone (QI!)
 					}),
 					q(42753, {	-- Vault of the Wardens: Vault Break-In (not sure why there are 2 versions, but they complete each other)
 						["sourceQuests"] = { 42749 },	-- Strange Bedfellows
 						["maps"] = { STORMHEIM },
+						["groups"] = { i(138397) },	-- Sargerite Keystone (QI!)
 					}),
 					q(45798, {	-- War'zuul the Provoker
 						["sourceQuests"] = { 45385 },	-- We Must be Prepared!
