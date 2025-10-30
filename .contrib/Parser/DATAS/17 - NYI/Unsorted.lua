@@ -4764,7 +4764,6 @@ root(ROOTS.Unsorted, {
 				i(245533),	-- Rugged Brazier
 				i(245545),	-- Orgrimmar Nightstand
 				i(245546),	-- Durable Wooden Chest
-				i(245550),	-- Runed Dreamweaver Moonstone
 				i(245555),	-- Orgrimmar Tusked Bed
 				i(245558),	-- Elaborate Suramar Window
 				i(245560),	-- Meadery Ochre Window
@@ -4805,7 +4804,6 @@ root(ROOTS.Unsorted, {
 				i(246100),	-- Small Bel'ameth Tent
 				i(246108),	-- Embellished Dwarven Tome
 				i(246110),	-- Filigree Moon Sconce
-				i(246216),	-- Sprouting Lamppost
 				i(246217),	-- Short Orgrimmar Bench
 				i(246218),	-- Iron-Reinforced Crate
 				i(246220),	-- Leather-Banded Wooden Bench
@@ -5007,7 +5005,6 @@ root(ROOTS.Unsorted, {
 				i(250124),	-- Ebon Blade Banner
 				i(250130),	-- Tirisgarde Candle
 				i(250132),	-- Tirisgarde Brazier
-				i(250133),	-- Dreamweaver Banner
 				i(250231),	-- Silver Hand Banner
 				i(250232),	-- Sanctum of Light Hallway Rug
 				i(250235),	-- Silver Hand Tribute to the Fallen
