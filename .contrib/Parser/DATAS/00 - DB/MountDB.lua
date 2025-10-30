@@ -2244,8 +2244,11 @@ i(246590, 1242904);	-- Ashes of Belo'ren
 i(262707, 1269279);	-- Blooded Snapvine
 i(0, 1253924);	-- Brilliant Petalwing
 i(260894, 1266997);	-- Cabbage Pseudoshell
+i(0, 1261323);	-- Cerulean Hawkstrider
 i(252014, 1253929);	-- Cerulean Sporeglider
 i(260580, 1266579);	-- Cloudborn Razorwing
+i(0, 1261302);	-- Cobalt Dragonhawk
+i(0, 1261334);	-- Contained Stormarion Defender
 i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider
 i(262496, 1268919);	-- Delver's Arcane Golem
 i(256424, 1260356);	-- Echo of Aln'sharan

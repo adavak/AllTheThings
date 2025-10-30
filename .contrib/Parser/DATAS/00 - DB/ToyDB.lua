@@ -1515,7 +1515,9 @@ i(257736);	-- [DNT] [PH] 12.0 Holy Hearthstone
 i(243146);	-- [DNT] Ren'dorei Struggle
 i(250974);	-- Akil'zon's Updraft
 i(263933);	-- Astalor's Summons
+i(264805);	-- Brann-O-Vision 3000
 i(251633);	-- Bursting Bounty Bundle
+i(264672);	-- Cosmic Ritual Stone
 i(264413);	-- Dominating Victory
 i(263244);	-- Enigmatic Fountain
 i(263975);	-- Feeling Fielder Mk. 7
@@ -1524,6 +1526,7 @@ i(264517);	-- Galactic Flag of Victory
 i(259084);	-- Gift of the Cycle
 i(252265);	-- Hexed Potatoad Mucus
 i(263871);	-- Holy Pet Leash
+i(264695);	-- Interdimensional Parcel Signal
 i(243304);	-- Jubilant Snowman Costume
 i(250320);	-- Lightgraft
 i(264414);	-- Midnight Delver's Flare Gun
@@ -1531,6 +1534,7 @@ i(263489);	-- Naaru's Enfold
 i(253629);	-- Personal Key to the Arcantina
 i(262431);	-- Pocket Mushroom Jump Pad
 i(251903);	-- Potatoad Egg
+i(264666);	-- Rod of Exanguishation
 i(245580);	-- Rolling Snowball
 i(250319);	-- Shadowgraft
 i(258963);	-- Shroom Jumper's Parachute

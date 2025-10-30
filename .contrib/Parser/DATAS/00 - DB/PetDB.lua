@@ -4490,6 +4490,9 @@ i(250138, 4877);	-- Violet Chick
 --- UNSORTED ---
 i(255151, 4906);	-- [DNT] Baby Amani Eagle (Grey)
 i(0, 4905);	-- [DNT] Baby Amazard (Red)
+i(264909, 4982);	-- [DNT] Baby Eversong Lynx (Black)
+i(264892, 4981);	-- [PH] Black Baby Hawkstrider
+i(265035, 4984);	-- [PH] Purple Siphoid
 i(260705, 4947);	-- Assistant Botanist Leafy
 i(0, 4945);	-- Aud'rei III
 i(263492, 4952);	-- Blitzcreek
@@ -4506,6 +4509,7 @@ i(262774, 4967);	-- Gortham
 i(262762, 4963);	-- Grumpy Mandrake
 i(244339, 4816);	-- Hawkstrider Hatchling
 i(262395, 4959);	-- Hexed Bunny
+i(265030, 4983);	-- Kai
 i(262393, 4955);	-- Kreepah'zoyd
 i(259991, 4930);	-- Lil' Preyseeker
 i(260585, 4946);	-- Linda the Lucky
