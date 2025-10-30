@@ -35,9 +35,6 @@
 ## AddonCompartmentFuncOnEnter: AllTheThings_MinimapButtonOnEnter
 ## AddonCompartmentFuncOnLeave: AllTheThings_MinimapButtonOnLeave
 #src\PerformanceTracking.lua
-lib\LibStub\LibStub.lua
-lib\CallbackHandler-1.0\CallbackHandler-1.0.lua
-lib\LibDataBroker-1.1\LibDataBroker-1.1.lua
 src\WoW API Wrappers.lua
 
 # Raw DBs
