@@ -5503,9 +5503,6 @@ root(ROOTS.Unsorted, {
 			i(241606),	-- Ensemble: Garb of the Chosen Dead
 			i(241609),	-- Ensemble: Regalia of the Chosen Dead
 			i(241610),	-- Ensemble: Regalia of the Chosen Dead
-			i(241644),	-- Corrupted Runelord's Band
-			i(241645),	-- Corrupted Silkweave Doublet \\ Imbued Silkweave Doublet
-			i(241647),	-- Dreadleather Vestments \\ Battlebound Mailcoat
 			i(241648),	-- Template
 			i(241678),	-- [PH] Template
 			i(241679),	-- [PH] Template
@@ -5601,14 +5598,11 @@ root(ROOTS.Unsorted, {
 			i(248717),	-- Orange Bountiful Backpack
 			i(248718),	-- Purple Bountiful Backpack
 			i(248719),	-- White Bountiful Backpack
-			i(248721),	-- Chef's Apron
 			i(248725),	-- Smoked Rib Surprise
-			i(248726),	-- Smoked Rib Rack
 			i(248727),	-- Smoked Rib Leftovers
 			i(248728),	-- Bacon-Wrapped Smoked Ribs
 			i(248729),	-- Steaming Pot of Stew
 			i(248730),	-- Weathered Pot of Stew
-			i(248731),	-- Copper Pot of Stew
 			i(248732),	-- Stolen Pot of Stew
 			i(248733),	-- Frozen Dirk of the Ice Queen
 			i(248734),	-- Fiery Dirk of the Ice Queen
@@ -5617,7 +5611,6 @@ root(ROOTS.Unsorted, {
 			i(248737),	-- Well-Used Great Steak Knife
 			i(248738),	-- Used Great Steak Knife
 			i(248739),	-- Dull Great Steak Knife
-			i(248740),	-- Pristine Great Steak Knife
 			i(248812),	-- Frozen Wand of the Ice Queen
 			i(248816),	-- Fiery Wand of the Ice Queen
 			i(248817),	-- Arcane Wand of the Ice Queen
@@ -5627,7 +5620,6 @@ root(ROOTS.Unsorted, {
 			i(248829),	-- Arcane Great Axe of the Frostwolf
 			i(248830),	-- Glowing Great Axe of the Frostwolf
 			i(248832),	-- Big Bronze Fork
-			i(248837),	-- Big Gold Fork
 			i(248839),	-- Big Iron Fork
 			i(248841),	-- Big Silver Fork
 			i(248912),	-- Frozen Warglaives of the North
@@ -5637,14 +5629,11 @@ root(ROOTS.Unsorted, {
 			i(248923),	-- Unfathomably Stale Bread
 			i(248924),	-- Stale Mulgore Spice Bread
 			i(248925),	-- Months Old Rye Bread \\ Months Old Sourdough Bread
-			i(248926),	-- Stale Thirteen Grain Loaf \\ Ancient Thirteen Grain Loaf
 			i(248994),	-- Kalu'ak Crest-Horn \\ Kalu'ak Crest-horn
 			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
-			i(249716),	-- Cutlery Fanatic Backpack \\ Steel Food Fanatic Backpack
 			i(249717),	-- Golden Food Fanatic Backpack
 			i(249718),	-- Bronze Food Fanatic Backpack
 			i(249719),	-- Fine Food Fanatic Backpack \\ Silver Food Fanatic Backpack
-			i(249720),	-- Big Gold Spoon
 			i(249721),	-- Big Steel Spoon
 			i(249722),	-- Big Blue Spoon
 			i(249723),	-- Big Fancy Spoon
@@ -5702,13 +5691,6 @@ root(ROOTS.Unsorted, {
 			i(249930),	-- Villager's Seaside Pants
 			i(249931),	-- Villager's Seaside Boots
 			i(249932),	-- Ensemble: Villager's Seaside Attire
-			i(249933),	-- Villager's Country Cap
-			i(249934),	-- Villager's Country Handwraps
-			i(249935),	-- Villager's Country Tunic
-			i(249936),	-- Villager's Country Buckle
-			i(249937),	-- Villager's Country Pants
-			i(249938),	-- Villager's Country Boots
-			i(249939),	-- Ensemble: Villager's Country Attire
 			i(249940),	-- Villager's City Cap
 			i(249941),	-- Villager's City Handwraps
 			i(249942),	-- Villager's City Tunic
@@ -5718,13 +5700,11 @@ root(ROOTS.Unsorted, {
 			i(249946),	-- Ensemble: Villager's City Attire
 			i(250084),	-- Sturdy Pot Lid
 			i(250085),	-- Battered Pot Lid
-			i(250086),	-- Copper Pot Lid
 			i(250087),	-- Used Pot Lid
 			i(250105),	-- Sharktested Crest-Horn
 			i(250106),	-- Floestrider Crest-Horn \\ Floestrider Crest-horn
 			i(250108),	-- Cragstepper Crest-Horn \\ Cragstepper Crest-horn
 			i(250191),	-- Reins of the Bilebound Ur'zul
-			i(250290),	-- Ready-Warm Portable Bakery \\ Ready-warm Portable Bakery \\ Blistering Hot Portable Bakery
 			i(250291),	-- Hot and Fresh Portable Bakery
 			i(250292),	-- Piping Hot Portable Bakery
 			i(250293),	-- Red Hot Portable Bakery
@@ -5737,7 +5717,6 @@ root(ROOTS.Unsorted, {
 			i(250726),	-- Reins of the Leyfrost Manasaber
 			i(250727),	-- Reins of the Nightwell Manasaber
 			i(250762),	-- Felfueled Memento of the Abyss
-			i(250778),	-- Cutlery Fanatic Shield \\ Steel Food Fanatic Shield
 			i(250779),	-- Golden Food Fanatic Shield
 			i(250780),	-- Bronze Food Fanatic Shield
 			i(250781),	-- Fine Food Fanatic Shield \\ Silver Food Fanatic Shield
@@ -5769,10 +5748,8 @@ root(ROOTS.Unsorted, {
 			i(250909),	-- Villager's City Skirt
 			i(250910),	-- Villager's City Sabatons
 			i(250911),	-- Ensemble: Villager's City Collection
-			i(250926),	-- Highlands Gobbler \\ [PH] Turkey Mount - Black
 			i(250927),	-- Quirky Turkey \\ [PH] Turkey Mount - Brown
-			i(250928),	-- Murky Turkey \\ [PH] Turkey Mount - Purple
-			i(250929),	-- Prized Turkey \\ [PH] Turkey Mount - White
+			i(250928),	-- Murky Turkey \\ [PH] Turkey Mount - Purple\
 			i(251016),	-- Ensemble: Forged Warmonger's Cloth Armor
 			i(251017),	-- Ensemble: Forged Warmonger's Leather Armor
 			i(251018),	-- Ensemble: Forged Warmonger's Mail Armor
@@ -5793,32 +5770,25 @@ root(ROOTS.Unsorted, {
 			i(251249),	-- [DNT] Keystone Dungeon - Timed Only
 			i(251261),	-- [DNT] Keystone Level
 			i(251631),	-- Bottled Time
-			i(251656),	-- Bunch of Orange Carrots
 			i(251657),	-- Bunch of Pink Carrots
 			i(251658),	-- Bunch of Purple Carrots
 			i(251659),	-- Bunch of Yellow Carrots
 			i(251660),	-- Offhand Bunch of Yellow Carrots
 			i(251661),	-- Offhand Bunch of Purple Carrots
 			i(251662),	-- Offhand Bunch of Pink Carrots
-			i(251663),	-- Offhand Bunch of Orange Carrots
 			i(251669),	-- Sturdy Wearable Pot Lid
 			i(251670),	-- Battered Wearable Pot Lid
-			i(251671),	-- Wearable Copper Pot Lid
 			i(251672),	-- Used Wearable Pot Lid
 			i(251674),	-- Sssurine's Luxurious Sssandals
 			i(251797),	-- Ears of Orange Corn
 			i(251798),	-- Ears of Purple Corn
 			i(251799),	-- Ears of White Corn
-			i(251800),	-- Ears of Yellow Corn
 			i(251801),	-- Offhand Ears of Orange Corn
 			i(251802),	-- Offhand Ears of Purple Corn
 			i(251803),	-- Offhand Ears of White Corn
-			i(251804),	-- Offhand Ears of Yellow Corn
-			i(251854),	-- Bunch of Green Chiles \\ Bunch of Green Chile
 			i(251855),	-- Bunch of Orange Chile
 			i(251856),	-- Bunch of Red Chile
 			i(251857),	-- Bunch of Yellow Chile
-			i(251869),	-- Offhand Bunch of Green Chiles \\ Offhand Bunch of Green Chile
 			i(251870),	-- Offhand Bunch of Orange Chile
 			i(251872),	-- Offhand Bunch of Red Chile
 			i(251873),	-- Offhand Bunch of Yellow Chile
@@ -5835,7 +5805,6 @@ root(ROOTS.Unsorted, {
 			i(251991),	-- Trapper's Red Quiver
 			i(251992),	-- Trapper's Purple Quiver
 			i(251995),	-- Trapper's Blue Slippers
-			i(251996),	-- Gold-Plated Sabatons
 			i(251999),	-- Flawed Felfire Crystal
 			i(252000),	-- Intricate Felfire Crystal
 			i(252002),	-- Pristine Felfire Crystal
@@ -5861,7 +5830,6 @@ root(ROOTS.Unsorted, {
 			i(252742),	-- Brick Winter Toque \\ Brick Winter Hat
 			i(252743),	-- Lively Winter Toque \\ Lively Winter Hat
 			i(252744),	-- Faded Winter Toque \\ Faded Winter Hat
-			i(252745),	-- Carrot Winter Toque \\ Carrot Winter Hat
 			i(252746),	-- Rosy Winter Toque \\ Rosy Winter Hat
 			i(252747),	-- Plum Winter Toque \\ Plum Winter Hat
 			i(252748),	-- Crimson Winter Toque \\ Crimson Winter Hat
@@ -5892,7 +5860,6 @@ root(ROOTS.Unsorted, {
 			i(244457),	-- Keystone Container
 			i(255881),	-- Severed Threads Commendation
 			i(257518),	-- Lil' Ashlee
-			i(241646),	-- Deathwhisperer's Robe
 			i(258414),	-- Dottie
 			i(258418),	-- Gillvanas
 			i(258419),	-- Finduin

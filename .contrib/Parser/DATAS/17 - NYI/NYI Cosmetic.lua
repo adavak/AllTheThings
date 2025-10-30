@@ -521,8 +521,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233931),	-- [PH] Shoulder
 				i(233933),	-- [PH] Tabard
 				i(233238),	-- Azure Pack of Lunar Explosives
-				i(233179),	-- Banded Carrot War Slippers
-				i(233162),	-- Banded Carrot War Wraps
 				i(233173),	-- Banded Cloudy War Slippers
 				i(233156),	-- Banded Cloudy War Wraps
 				i(233172),	-- Banded Grassy War Slippers
@@ -537,8 +535,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234709),	-- Earthen Travel Kilt
 				i(234758),	-- Korkron Spaulders
 				i(233237),	-- Lively Pack of Lunar Explosives
-				i(233106),	-- Long Carrot War Skirt
-				i(233145),	-- Long Carrot War Skirt and Leg Wraps
 				i(233100),	-- Long Cloudy War Skirt
 				i(233139),	-- Long Cloudy War Skirt and Leg Wraps
 				i(233099),	-- Long Grassy War Skirt
@@ -560,8 +556,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234051),	-- Lunar Festival Spaulders - Purple
 				i(234052),	-- Lunar Festival Spaulders - Teal
 				i(232924),	-- Sailor's Belt
-				i(233089),	-- Short Carrot War Skirt
-				i(233128),	-- Short Carrot War Skirt and Leg Wraps
 				i(233083),	-- Short Cloudy War Skirt
 				i(233122),	-- Short Cloudy War Skirt and Leg Wraps
 				i(233082),	-- Short Grassy War Skirt
@@ -946,11 +940,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242442),	-- Camo Sweatpants
 				i(242413),	-- Camo Sweatshirt
 
-				------ Carrot Sweatsuit Set ------
-				i(242469),	-- Ensemble: Carrot Sweatsuit
-				i(242446),	-- Carrot Sweatpants
-				i(242417),	-- Carrot Sweatshirt
-
 				------ Cloudy Sweatsuit Set ------
 				i(242459),	-- Ensemble: Cloudy Sweatsuit
 				i(242440),	-- Cloudy Sweatpants
@@ -1025,14 +1014,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242480),	-- Ensemble: Violet Sweatsuit
 				i(242450),	-- Violet Sweatpants
 				i(242421),	-- Violet Sweatshirt
-
-				------ Waterproof Attire Set ------
-				i(242347),	-- Ensemble: Waterproof Attire
-				i(242331),	-- Waterproof Belt
-				i(242339),	-- Waterproof Coat
-				i(242327),	-- Waterproof Galoshes
-				i(242343),	-- Waterproof Hood
-				i(242335),	-- Waterproof Pants
 			}),
 			n(WEAPONS, {
 				i(242521),	-- Chiling Forsaken Cauldron

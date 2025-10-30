@@ -1646,6 +1646,52 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(50, i(235028)),	-- Vigilante's Faded Mask
 			}),
 		})),
+		n(NOVEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.0.63305", "removed 11.2.5.99999" } }, {	-- TODO: Timeline in/out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				i(250929),	-- Prized Turkey (MOUNT!)
+			}),
+			filter(MOUNTS, {
+				traderstender(500, i(250926)),	-- Highlands Gobbler (MOUNT!)
+			}),
+			filter(COSMETIC, {
+				traderstender(20, i(233179)),	-- Banded Carrot War Slippers
+				traderstender(20, i(233162)),	-- Banded Carrot War Wraps
+				traderstender(115, i(248837)),	-- Big Gold Fork
+				traderstender(115, i(249720)),	-- Big Gold Spoon
+				traderstender(95, i(251854)),	-- Bunch of Green Chiles
+				traderstender(95, i(251656)),	-- Bunch of Orange Carrots
+				traderstender(50, i(252745)),	-- Carrot Winter Toque
+				traderstender(70, i(248721)),	-- Chef's Apron
+				traderstender(60, i(250086)),	-- Copper Pot Lid
+				traderstender(60, i(248731)),	-- Copper Pot of Stew
+				traderstender(100, i(241644)),	-- Corrupted Runelord's Band
+				traderstender(90, i(241645)),	-- Corrupted Silkweave Doublet
+				traderstender(95, i(249716)),	-- Cutlery Fanatic Backpack
+				traderstender(60, i(250778)),	-- Cutlery Fanatic Shield
+				traderstender(150, i(241646)),	-- Deathwhisperer's Robe
+				traderstender(115, i(241647)),	-- Dreadleather Vestments
+				traderstender(95, i(251800)),	-- Ears of Yellow Corn--
+				traderstender(100, iensemble(242469)),	-- Ensemble: Carrot Sweatsuit
+				traderstender(850, iensemble(213158)),	-- Ensemble: Dark Ranger General's Kit
+				traderstender(850, iensemble(217038)),	-- Ensemble: Gladiator's Battered Armor
+				traderstender(440, iensemble(249939)),	-- Ensemble: Villager's Country Attire
+				traderstender(440, iensemble(250904)),	-- Ensemble: Villager's Country Collection
+				traderstender(375, iensemble(242347)),	-- Ensemble: Waterproof Attire
+				traderstender(40, i(251996)),	-- Gold-Plated Sabatons
+				traderstender(40, i(233106)),	-- Long Carrot War Skirt
+				traderstender(50, i(233145)),	-- Long Carrot War Skirt and Leg Wraps
+				traderstender(60, i(251869)),	-- Offhand Bunch of Green Chiles
+				traderstender(60, i(251663)),	-- Offhand Bunch of Orange Carrots
+				traderstender(60, i(251804)),	-- Offhand Ears of Yellow Corn
+				traderstender(115, i(248740)),	-- Pristine Great Steak Knife
+				traderstender(95, i(250290)),	-- Ready-Warm Portable Bakery
+				traderstender(40, i(233089)),	-- Short Carrot War Skirt
+				traderstender(50, i(233128)),	-- Short Carrot War Skirt and Leg Wraps
+				traderstender(95, i(248726)),	-- Smoked Rib Rack
+				traderstender(95, i(248926)),	-- Stale Thirteen Grain Loaf
+				traderstender(95, i(251671)),	-- Wearable Copper Pot Lid
+			}),
+		})),
 	}),
 }));
 

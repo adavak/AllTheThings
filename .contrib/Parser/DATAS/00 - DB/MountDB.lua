@@ -2163,6 +2163,7 @@ i(250752, 1251297);	-- Golden Sunrunner
 i(243194, 1234971);	-- Grandiose Grrloc
 i(253029, 1255475);	-- High Priest's Felscorned Seeker
 i(250429, 1250886);	-- Highland Elderhorn
+i(250926, 1251680);	-- Highlands Gobbler
 i(250427, 1250884);	-- Illidari Blightstalker
 i(250428, 1250882);	-- Illidari Dreadstalker
 i(242795, 1233925);	-- Lana'Thel's Crimson Cascade
@@ -2172,6 +2173,7 @@ i(250806, 1251400);	-- Longhorned Beryl Talbuk
 i(250804, 1251398);	-- Longhorned Bleakhoof Talbuk
 i(250802, 1251396);	-- Longhorned Sable Talbuk
 i(250748, 1251284);	-- Luminous Mana Ray
+i(250929, 1251690);	-- Prized Turkey
 i(253030, 1255477);	-- Shadowblade's Felscorned Omen
 i(250423, 1238729);	-- Slag Basilisk
 i(253013, 1255431);	-- Slayer's Felscorned Shrieker
@@ -2184,10 +2186,8 @@ i(246920, 1244260);	-- Void-Razed Elekk
 i(239687, 1229288);	-- Wretched Fel Bat
 --- UNSORTED ---
 i(0, 1254363);	--(PH LEGION REMIX MOUNT)`
-i(250926, 1251680);	-- Highlands Gobbler
 i(250927, 1251685);	-- Quirky Turkey
 i(250928, 1251689);	-- Murky Turkey
-i(250929, 1251690);	-- Prized Turkey
 i(250191, 1250481);	-- Bilebound Ur'zul
 i(239647, 1229264);	-- Bloodguard Fel Bat
 i(253573, 1256677);	-- Cobalt Phase-Hunter
