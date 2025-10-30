@@ -5280,8 +5280,6 @@ root(ROOTS.Unsorted, {
 			i(248810),	-- Rough Wooden Chair
 			i(248811),	-- Elwynn Small Grass Patch
 			i(248934),	-- Golden Cloud Serpent Treasure Chest
-			i(248935),	-- Five Dawns Weapon Rack
-			i(248936),	-- Five Dawns Shrine of the Smoking Fish
 			i(248938),	-- Hooded Iron Lantern
 			i(248939),	-- Stormwind Lamppost
 			i(248943),	-- Black Harvest Banner
