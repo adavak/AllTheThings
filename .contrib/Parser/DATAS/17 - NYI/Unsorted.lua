@@ -4879,9 +4879,6 @@ root(ROOTS.Unsorted, {
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
-				i(250916),	-- Pedestal of the Maelstrom's Wisdom
-				i(250918),	-- Maelstrom Banner
-				i(251015),	-- Maelstrom Chimes
 				i(251022),	-- Bel'ameth Traveler's Pack
 				i(251329),	-- Shadowmoon Open-Air Shed
 				i(251330),	-- Draenic Fencepost

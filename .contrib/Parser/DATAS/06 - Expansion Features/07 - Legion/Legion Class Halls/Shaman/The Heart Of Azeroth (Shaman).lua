@@ -830,8 +830,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(140536),	-- Earthen Ring Aegis
 							i(140545),	-- Earthen Ring Mace
 							i(140546),	-- Earthen Ring Scepter
+							i(251014, {	-- Earthen Ring Scouting Map (DECOR!)
+								["sourceAchievement"] = 60990,	-- Raise an Army for the Maelstrom
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
+							}),
+							i(250914, {	-- Elemental Altar of the Maelstrom (DECOR!)
+								["sourceAchievement"] = 42296,	-- Hidden Potential of the Farseer
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 5000 }},	-- 5,000x Order Resources
+							}),
 							i(140944, {	-- Farseer's Armor Kit
-								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(139704, {	-- Farseer's Belt
 								["cost"] = 5000000,	-- 500g
@@ -843,7 +853,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(140981, {	-- Farseer's Greater Armor Kit
-								["cost"] = { { "c", 1220, 4000 }, },	-- 4,000x Order Resources
+								["cost"] = {{ "c", 1220, 4000 }},	-- 4,000x Order Resources
 							}),
 							i(139698, {	-- Farseer's Harness
 								["cost"] = 5000000,	-- 500g
@@ -852,7 +862,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(140980, {	-- Farseer's Lesser Armor Kit
-								["cost"] = { { "c", 1220, 500 }, },	-- 500x Order Resources
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
 							}),
 							i(139701, {	-- Farseer's Mask
 								["cost"] = 5000000,	-- 500g
@@ -865,7 +875,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							i(232622, { ["timeline"] = { ADDED_11_0_5 } }),	-- Glyph of Energetic Ascendance
 							i(232527, { ["timeline"] = { ADDED_11_0_5 } }),	-- Glyph of Traditional Ascendance
+							i(250918, {	-- Maelstrom Banner (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+							}),
+							i(251015, {	-- Maelstrom Chimes (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(257403, {	-- Maelstrom Lava Lamp (DECOR!)
+								["sourceAchievement"] = 42280,	-- The Farseer's Campaign
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1500 }},	-- 1,500x Order Resources
+							}),
+							i(250916, {	-- Pedestal of the Maelstrom's Wisdom (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
 							i(136934),	-- Raging Elemental Stone (TOY!)
+							i(250915, {	-- Replica Words of Wind and Earth (DECOR!)
+								["sourceAchievement"] = 60971,	-- Legendary Research of the Maelstrom
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 3000 }},	-- 3,000x Order Resources
+							}),
 							i(136935),	-- Tadpole Cloudseeder (TOY!)
 							i(136938),	-- Tome of Hex: Compy (CI!)
 							i(136937),	-- Vol'jin's Serpent Totem (TOY!)
