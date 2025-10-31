@@ -78,6 +78,13 @@ namespace ATT.FieldTypes
             }
         }
 
+        public static Cost GetSimpleCost(string type, decimal id, long amount)
+        {
+            var cost = new Cost(null);
+            cost.Merge(new object[] { new object[] { type, id, amount } });
+            return cost;
+        }
+
         public object AsExportType()
         {
             if ((_costTypes?.Count ?? 0) == 0)

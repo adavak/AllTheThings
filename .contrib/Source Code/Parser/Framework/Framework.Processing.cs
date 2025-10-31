@@ -2377,25 +2377,25 @@ namespace ATT
                 // Cost
                 if (matchedCriteriaInfo.TryGetValue("cost", out object costObj))
                 {
-                    Cost.Merge(data, costObj);
+                    IncorporateDataField(data, "cost", costObj);
                     incorporated = true;
                 }
                 // NPCs
                 if (matchedCriteriaInfo.TryGetValue("_npcs", out object npcs))
                 {
-                    Objects.Merge(data, "_npcs", npcs);
+                    IncorporateDataField(data, "_npcs", npcs);
                     incorporated = true;
                 }
                 // Objects
                 if (matchedCriteriaInfo.TryGetValue("_objects", out object objects))
                 {
-                    Objects.Merge(data, "_objects", objects);
+                    IncorporateDataField(data, "_objects", objects);
                     incorporated = true;
                 }
                 // Quests
                 if (matchedCriteriaInfo.TryGetValue("_quests", out object quests))
                 {
-                    Objects.Merge(data, "_quests", quests);
+                    IncorporateDataField(data, "_quests", quests);
                     incorporated = true;
                 }
             }
@@ -2471,7 +2471,7 @@ namespace ATT
                 }
 
                 LogDebug($"INFO: Added _quests to Criteria {achID}:{criteriaID} => {sq}");
-                Objects.Merge(data, "_quests", sq);
+                IncorporateDataField(data, "_quests", sq);
                 incorporated = true;
 
                 // Criteria moved under a Quest should not have a cost/provider, but rather their destination should have that data
@@ -2503,12 +2503,14 @@ namespace ATT
                     if (parentAmount <= 1)
                     {
                         LogDebug($"INFO: Added Item Provider to Criteria {achID}:{criteriaID} => {providerItem}");
-                        Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
+                        IncorporateDataField(data, "providers", new List<object> { new List<object> { "i", providerItem } });
                     }
                     else
                     {
                         LogDebug($"INFO: Added Item Cost to Criteria {achID}:{criteriaID} => {providerItem}x{parentAmount}");
-                        Cost.Merge(data, "i", providerItem, parentAmount);
+                        // This situation allows for the same Criteria to have different 'cost' based on the parent Achievement
+                        // so don't use IncorporateDataField
+                        Objects.Merge(data, "cost", Cost.GetSimpleCost("i", providerItem, parentAmount));
                     }
                     incorporated = true;
                 }
@@ -2519,7 +2521,7 @@ namespace ATT
             if (providerObject > 0)
             {
                 LogDebug($"INFO: Added _objects to Criteria {achID}:{criteriaID} => {providerObject}");
-                Objects.Merge(data, "_objects", providerObject);
+                IncorporateDataField(data, "_objects", providerObject);
                 incorporated = true;
             }
 
@@ -2540,7 +2542,7 @@ namespace ATT
                 }
 
                 LogDebug($"INFO: Added _npcs to Criteria {achID}:{criteriaID} => {providerNPC}");
-                Objects.Merge(data, "_npcs", providerNPC);
+                IncorporateDataField(data, "_npcs", providerNPC);
                 incorporated = true;
             }
 
@@ -2570,7 +2572,7 @@ namespace ATT
                     //{
                     // _spells is later switched to respective Item associated with the Spell if possible
                     LogDebug($"INFO: Added _spells to visible Criteria {achID}:{criteriaID} => {spellID}");
-                    Objects.Merge(data, "_spells", new List<object> { spellID });
+                    IncorporateDataField(data, "_spells", new List<object> { spellID });
                     incorporated = true;
                     //}
                 }
@@ -2581,7 +2583,7 @@ namespace ATT
             {
                 // casted spells specifically should be providers from the spell
                 LogDebug($"INFO: Added _spells to Criteria {achID}:{criteriaID} => {spellID}");
-                Objects.Merge(data, "_spells", spellID);
+                IncorporateDataField(data, "_spells", spellID);
                 incorporated = true;
             }
 
@@ -2595,7 +2597,7 @@ namespace ATT
                 else
                 {
                     LogDebug($"INFO: Added _achievements to Criteria {achID}:{criteriaID} => {achievementID}");
-                    Objects.Merge(data, "_achievements", achievementID);
+                    IncorporateDataField(data, "_achievements", achievementID);
                     incorporated = true;
                 }
             }
@@ -2615,7 +2617,7 @@ namespace ATT
                         else
                         {
                             LogDebug($"INFO: Added _exploration to Criteria {achID}:{criteriaID} => {explorationID}");
-                            Objects.Merge(data, "_exploration", explorationID);
+                            IncorporateDataField(data, "_exploration", explorationID);
                             incorporated = true;
                         }
                     }
@@ -2632,7 +2634,7 @@ namespace ATT
                 else
                 {
                     LogDebug($"INFO: Added _factions to Criteria {achID}:{criteriaID} => {factionID}");
-                    Objects.Merge(data, "_factions", factionID);
+                    IncorporateDataField(data, "_factions", factionID);
                     incorporated = true;
                 }
             }
@@ -2647,7 +2649,7 @@ namespace ATT
                 else
                 {
                     LogDebug($"INFO: Added _flightpath to Criteria {achID}:{criteriaID} => {flightpathID}");
-                    Objects.Merge(data, "_flightpath", flightpathID);
+                    IncorporateDataField(data, "_flightpath", flightpathID);
                     incorporated = true;
                 }
             }
@@ -2662,7 +2664,7 @@ namespace ATT
                 else
                 {
                     LogDebug($"INFO: Added _follower to Criteria {achID}:{criteriaID} => {followerID}");
-                    Objects.Merge(data, "_follower", followerID);
+                    IncorporateDataField(data, "_follower", followerID);
                     incorporated = true;
                 }
             }
@@ -2677,7 +2679,7 @@ namespace ATT
                 else
                 {
                     LogDebug($"INFO: Added _mission to Criteria {achID}:{criteriaID} with Mission: {missionID}");
-                    Objects.Merge(data, "_mission", missionID);
+                    IncorporateDataField(data, "_mission", missionID);
                     incorporated = true;
                 }
             }
@@ -2685,13 +2687,13 @@ namespace ATT
             long requireSkillID = criteriaData.GetRequiredSkillID();
             if (requireSkillID > 0)
             {
-                Objects.Merge(data, "requireSkill", requireSkillID);
+                IncorporateDataField(data, "requireSkill", requireSkillID);
                 // TODO: it's nice for requireSkill to consolidate to the base profession, but also want to see the 'exact' profession requirement for these cases...
                 //data["_specificRequireSkill"] = true;
                 data.TryGetValue("_parentAmount", out long parentAmount);
                 if (parentAmount > 0)
                 {
-                    Objects.Merge(data, "learnedAt", parentAmount);
+                    IncorporateDataField(data, "learnedAt", parentAmount);
                 }
                 LogDebug($"INFO: Added requireSkill to Criteria {achID}:{criteriaID} with ProfessionID: {requireSkillID} @ {parentAmount}");
                 incorporated = true;
@@ -2701,16 +2703,14 @@ namespace ATT
             if (targetClassID > 0)
             {
                 // TODO: perhaps a different way eventually to show in target tooltips
-                Objects.Merge(data, "c_disp", new List<object> { targetClassID });
-                TrackIncorporationData(data, "c_disp", new List<object> { targetClassID });
+                IncorporateDataField(data, "c_disp", new List<object> { targetClassID });
             }
 
             long targetRaceID = criteriaData.GetTargetRaceID();
             if (targetRaceID > 0)
             {
                 // TODO: perhaps a different way eventually to show in target tooltips
-                Objects.Merge(data, "races_disp", new List<object> { targetRaceID });
-                TrackIncorporationData(data, "races_disp", new List<object> { targetRaceID });
+                IncorporateDataField(data, "races_disp", new List<object> { targetRaceID });
             }
 
             // This needs to be the last check performed since it will remove the Criteria group if nothing useful was added from the Criteria data
@@ -2772,16 +2772,13 @@ namespace ATT
                     {
                         // instead merge the single provider onto the achievement itself
                         LogDebug($"INFO: Incorporating Provider Item {criteriaProviderItem} for Achievement {achID}");
-                        var provider = new List<object> { "i", criteriaProviderItem };
-                        Objects.Merge(data, "provider", provider);
-                        TrackIncorporationData(data, "provider", provider);
+                        IncorporateDataField(data, "provider", new List<object> { "i", criteriaProviderItem });
                     }
                     else
                     {
                         // or merge the amount of items as a cost
                         LogDebug($"INFO: Incorporating Cost Item {criteriaProviderItem} x {criteriaTree.Amount} for Achievement {achID}");
-                        Cost.Merge(data, "i", criteriaProviderItem, criteriaTree.Amount);
-                        TrackIncorporationData(data, "cost", data["cost"]);
+                        IncorporateDataField(data, "cost", Cost.GetSimpleCost("i", criteriaProviderItem, criteriaTree.Amount));
                     }
                     incorporated = true;
                 }
@@ -2819,31 +2816,23 @@ namespace ATT
                         // then merge certain fields into the Achievement data instead of nesting the Criteria
                         if (criteriaData.TryGetValue("cost", out object cost))
                         {
-                            Cost.Merge(data, cost);
-                            TrackIncorporationData(data, "cost", cost);
+                            IncorporateDataField(data, "cost", cost);
                         }
                         if (criteriaData.TryGetValue("providers", out object providers))
                         {
-                            Objects.Merge(data, "providers", providers);
-                            TrackIncorporationData(data, "providers", providers);
+                            IncorporateDataField(data, "providers", providers);
                         }
                         if (criteriaData.TryGetValue("_objects", out List<object> objects))
                         {
-                            var o_prov = new List<object> { "o", objects[0] };
-                            Objects.Merge(data, "provider", o_prov);
-                            TrackIncorporationData(data, "provider", o_prov);
+                            IncorporateDataField(data, "provider", new List<object> { "o", objects[0] });
                         }
                         if (criteriaData.TryGetValue("_npcs", out List<object> nps))
                         {
-                            var n_prov = new List<object> { "n", nps[0] };
-                            Objects.Merge(data, "provider", n_prov);
-                            TrackIncorporationData(data, "provider", n_prov);
+                            IncorporateDataField(data, "provider", new List<object> { "n", nps[0] });
                         }
                         if (criteriaData.TryGetValue("_spells", out List<object> spells))
                         {
-                            var s_prov = new List<object> { "s", spells[0] };
-                            Objects.Merge(data, "provider", s_prov);
-                            TrackIncorporationData(data, "provider", s_prov);
+                            IncorporateDataField(data, "provider", new List<object> { "s", spells[0] });
                         }
                         if (criteriaData.TryGetValue("_quests", out List<object> quests))
                         {
@@ -2853,14 +2842,12 @@ namespace ATT
                                 if (!SOURCED["questID"].ContainsKey(questID))
                                 {
                                     LogDebug($"INFO: Assigned Criteria {achID}:{criteria.ID} QuestID {questID} directly to stand-alone Achievement", data);
-                                    Objects.Merge(data, "questID", questID);
-                                    TrackIncorporationData(data, "questID", questID);
+                                    IncorporateDataField(data, "questID", questID);
                                 }
                                 else if (!data.TryGetValue("questID", out long dataQuestID) || dataQuestID != questID)
                                 {
                                     // otherwise just use sourceQuest
-                                    Objects.Merge(data, "sourceQuest", questID);
-                                    TrackIncorporationData(data, "sourceQuest", questID);
+                                    IncorporateDataField(data, "sourceQuest", questID);
                                 }
                             }
                         }
@@ -2921,13 +2908,11 @@ namespace ATT
                     {
                         extraData = extraData ?? new Dictionary<string, object>();
                         extraData["r"] = 2;
-                        TrackIncorporationData(data, "r", 2);
                     }
                     else if (criteriaTree.IsHordeOnlyFlags())
                     {
                         extraData = extraData ?? new Dictionary<string, object>();
                         extraData["r"] = 1;
-                        TrackIncorporationData(data, "r", 1);
                     }
 
                     foreach (CriteriaTree child in childTrees)
@@ -3030,32 +3015,27 @@ namespace ATT
                     case 4:
                     // 81 (BATTLE_PET_ENTRY)
                     case 81:
-                        Objects.Merge(data, "_npcs", existingModifierTree.Asset);
+                        IncorporateDataField(data, "_npcs", existingModifierTree.Asset);
                         break;
                     // 19 (ITEM_IS_ITEMID)
                     case 19:
-                        Objects.Merge(data, "provider", new List<object> { "i", existingModifierTree.Asset });
-                        TrackIncorporationData(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                        IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
                         break;
                     // 25 (SOURCE_RACE)
                     case 25:
-                        Objects.Merge(data, "races", new List<object> { existingModifierTree.Asset });
-                        TrackIncorporationData(data, "races", new List<object> { existingModifierTree.Asset });
+                        IncorporateDataField(data, "races", new List<object> { existingModifierTree.Asset });
                         break;
                     // 26 (SOURCE_CLASS)
                     case 26:
-                        Objects.Merge(data, "c", new List<object> { existingModifierTree.Asset });
-                        TrackIncorporationData(data, "c", new List<object> { existingModifierTree.Asset });
+                        IncorporateDataField(data, "c", new List<object> { existingModifierTree.Asset });
                         break;
                     // 27 (TARGET_RACE)
                     case 27:
-                        Objects.Merge(data, "races_disp", new List<object> { existingModifierTree.Asset });
-                        TrackIncorporationData(data, "races_disp", new List<object> { existingModifierTree.Asset });
+                        IncorporateDataField(data, "races_disp", new List<object> { existingModifierTree.Asset });
                         break;
                     // 28 (TARGET_CLASS)
                     case 28:
-                        Objects.Merge(data, "c_disp", new List<object> { existingModifierTree.Asset });
-                        TrackIncorporationData(data, "c_disp", new List<object> { existingModifierTree.Asset });
+                        IncorporateDataField(data, "c_disp", new List<object> { existingModifierTree.Asset });
                         break;
                     // 17 (SOURCE_AREA_OR_ZONE)
                     case 17:
@@ -3076,10 +3056,7 @@ namespace ATT
                             if (dict.Count > 0)
                             {
                                 var maps = dict.Values.ToList();
-                                //Objects.Merge(data, "maps", maps);
-                                //TrackIncorporationData(data, "maps", maps);
-                                TrackIncorporationData(data, "_maps", maps);
-                                Objects.Merge(data, "_maps", maps);
+                                IncorporateDataField(data, "_maps", maps);
                                 /*
                                 Console.WriteLine("ADDED MAP DATA TO ACHIEVEMENT:");
                                 Console.WriteLine(MiniJSON.Json.Serialize(data));
@@ -3109,43 +3086,39 @@ namespace ATT
                         break;
                     // 62 (GUILD_REPUTATION)
                     case 62:
-                        Objects.Merge(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
-                        TrackIncorporationData(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
-                        Objects.Merge(data, "_factions", 1168);
+                        IncorporateDataField(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
+                        IncorporateDataField(data, "_factions", 1168);
                         break;
                     // 75 (THE_TILLERS_REPUTATION)
                     case 75:
-                        Objects.Merge(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
-                        TrackIncorporationData(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
-                        Objects.Merge(data, "_factions", 1272);
+                        IncorporateDataField(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
+                        IncorporateDataField(data, "_factions", 1272);
                         break;
                     // 84 (IS_ON_QUEST)
                     case 84:
                     // 110 (REWARDED_QUEST)
                     case 110:
-                        Objects.Merge(data, "_quests", existingModifierTree.Asset);
+                        IncorporateDataField(data, "_quests", existingModifierTree.Asset);
                         break;
                     // 111 (REWARDED_QUEST)
                     case 111:
-                        Objects.Merge(data, "_quests", existingModifierTree.Asset);
+                        IncorporateDataField(data, "_quests", existingModifierTree.Asset);
                         break;
                     // 85 (EXALTED_WITH_FACTION)
                     case 85:
-                        Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
-                        TrackIncorporationData(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
-                        Objects.Merge(data, "_factions", existingModifierTree.Asset);
+                        IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
+                        IncorporateDataField(data, "_factions", existingModifierTree.Asset);
                         break;
                     // 86 (HAS_ACHIEVEMENT)
                     case 86:
                     // 87 (HAS_ACHIEVEMENT_ON_CHARACTER)
                     case 87:
-                        Objects.Merge(data, "_achievements", existingModifierTree.Asset);
+                        IncorporateDataField(data, "_achievements", existingModifierTree.Asset);
                         break;
                     // 88 (CLOUD_SERPENT_REPUTATION)
                     case 88:
-                        Objects.Merge(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
-                        TrackIncorporationData(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
-                        Objects.Merge(data, "_factions", 1271);
+                        IncorporateDataField(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
+                        IncorporateDataField(data, "_factions", 1271);
                         break;
                     // 91 (BATTLE_PET_SPECIES)
                     case 91:
@@ -3153,65 +3126,56 @@ namespace ATT
                         if (TryGetSOURCED("speciesID", existingModifierTree.Asset, out HashSet<IDictionary<string, object>> sourcedSpecies)
                             && sourcedSpecies.All(s => IsObtainableData(s)))
                         {
-                            Objects.Merge(data, "_species", existingModifierTree.Asset);
+                            IncorporateDataField(data, "_species", existingModifierTree.Asset);
                         }
                         else if (WagoData.TryGetValue(existingModifierTree.Asset, out BattlePetSpecies battlePetSpecies))
                         {
-                            Objects.Merge(data, "_npcs", battlePetSpecies.CreatureID);
+                            IncorporateDataField(data, "_npcs", battlePetSpecies.CreatureID);
                         }
                         break;
                     // 95 (FACTION_STANDING)
                     case 95:
-                        Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
-                        TrackIncorporationData(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
-                        Objects.Merge(data, "_factions", existingModifierTree.Asset);
+                        IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
+                        IncorporateDataField(data, "_factions", existingModifierTree.Asset);
                         break;
                     // 99 (SKILL)
                     case 99:
-                        Objects.Merge(data, "requireSkill", existingModifierTree.Asset);
                         // TODO: it's nice for requireSkill to consolidate to the base profession, but also want to see the 'exact' profession requirement for these cases...
                         //data["_specificRequireSkill"] = true;
-                        TrackIncorporationData(data, "requireSkill", existingModifierTree.Asset);
                         // SecondaryAsset = skill level
+                        IncorporateDataField(data, "requireSkill", existingModifierTree.Asset);
                         break;
                     // 105 (ITEM_COUNT)
                     case 105:
                         if (existingModifierTree.SecondaryAsset == 1)
                         {
-                            Objects.Merge(data, "provider", new List<object> { "i", existingModifierTree.Asset });
-                            TrackIncorporationData(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                            IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
                         }
                         else
                         {
-                            Cost.Merge(data, "i", existingModifierTree.Asset, existingModifierTree.SecondaryAsset);
-                            TrackIncorporationData(data, "cost", data["cost"]);
+                            IncorporateDataField(data, "cost", Cost.GetSimpleCost("i", existingModifierTree.Asset, existingModifierTree.SecondaryAsset));
                         }
                         break;
                     // 119 (CURRENCY_AMOUNT)
                     case 119:
-                        Cost.Merge(data, "c", existingModifierTree.Asset, existingModifierTree.SecondaryAsset);
-                        TrackIncorporationData(data, "cost", data["cost"]);
+                        IncorporateDataField(data, "cost", Cost.GetSimpleCost("c", existingModifierTree.Asset, existingModifierTree.SecondaryAsset));
                         break;
                     // 191 (PLAYER_RACE_IS)
                     case 191:
-                        Objects.Merge(data, "races", existingModifierTree.Asset);
-                        TrackIncorporationData(data, "races", existingModifierTree.Asset);
+                        IncorporateDataField(data, "races", existingModifierTree.Asset);
                         break;
                     // 199 (HAS_TOY)
                     case 199:
-                        Objects.Merge(data, "provider", new List<object> { "i", existingModifierTree.Asset });
-                        TrackIncorporationData(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                        IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
                         break;
                     // 221 (PARAGON_LEVEL_WITH_FACTION_EQUAL_OR_GREATER)
                     case 221:
-                        Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
-                        TrackIncorporationData(data, "provider", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
-                        Objects.Merge(data, "_factions", existingModifierTree.SecondaryAsset);
+                        IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
+                        IncorporateDataField(data, "_factions", existingModifierTree.SecondaryAsset);
                         break;
                     // 271 (QUEST_IS_ON_OR_HAS_COMPLETED)
                     case 271:
-                        Objects.Merge(data, "sourceQuests", new List<object> { existingModifierTree.Asset });
-                        TrackIncorporationData(data, "sourceQuests", new List<object> { existingModifierTree.Asset });
+                        IncorporateDataField(data, "sourceQuest", existingModifierTree.Asset);
                         break;
                     default:
                         incorporated = false;
@@ -3249,8 +3213,7 @@ namespace ATT
                     }
                     else
                     {
-                        Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
-                        TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
+                        IncorporateDataField(data, "questID", tmogSet.TrackingQuestID);
                     }
                 }
 
@@ -3358,8 +3321,7 @@ namespace ATT
                 return false;
             });
 
-            Objects.Merge(data, "_sourceIDs", allSourceIDs);
-            TrackIncorporationData(data, "_sourceIDs", allSourceIDs);
+            IncorporateDataField(data, "_sourceIDs", allSourceIDs);
             LogDebug($"INFO: Ensemble {type} with TransmogSet {tmogSetID} merged {allSourceIDs.Count} SourceIDs", data);
 
             //foreach (long sourceID in )
@@ -3395,7 +3357,7 @@ namespace ATT
                     continue;
 
                 // Incorporate_Spell will handle any 'extra' spells triggered by secondary ItemEffects
-                Objects.Merge(data, "_extraSpells", itemEffect.SpellID);
+                IncorporateDataField(data, "_extraSpells", itemEffect.SpellID);
             }
         }
 
@@ -3408,11 +3370,7 @@ namespace ATT
             {
                 if (WagoData.TryGetValue(speciesID, out BattlePetSpecies battlePetSpecies) && battlePetSpecies.CreatureID > 0)
                 {
-                    Objects.Merge(data, "npcID", battlePetSpecies.CreatureID);
-                    TrackIncorporationData(data, "npcID", battlePetSpecies.CreatureID);
-
-                    // since we added a SOURCED field, make sure to track it
-                    CaptureForSOURCED(data, "npcID", battlePetSpecies.CreatureID);
+                    IncorporateDataField(data, "npcID", battlePetSpecies.CreatureID);
                 }
             }
         }
@@ -3505,7 +3463,7 @@ namespace ATT
                     if (allowMergeQuestID)
                     {
                         // we may end up with multiple quests related to this data, so collect all the eligible ones and consolidate later
-                        Objects.Merge(data, "_spellQuests", questID);
+                        IncorporateDataField(data, "_spellQuests", questID);
                         LogDebug($"INFO: Assigned data '_spellQuests' {questID} due to Complete Quest SpellEffect for SpellID {spellID}", data);
                     }
                 }
@@ -3521,8 +3479,7 @@ namespace ATT
                 // don't override any custom data... sometimes blizz hotfixes ensembles but we don't get the updated data immediately from wago
                 if (!data.ContainsKey("tmogSetID"))
                 {
-                    Objects.Merge(data, "tmogSetID", tmogSetID);
-                    TrackIncorporationData(data, "tmogSetID", tmogSetID);
+                    IncorporateDataField(data, "tmogSetID", tmogSetID);
                     LogDebug($"INFO: Assigned 'tmogSetID' {tmogSetID}", data);
                 }
 
@@ -3585,10 +3542,8 @@ namespace ATT
 
             if (allowMergeQuestID)
             {
-                Objects.Merge(data, "questID", questID);
+                IncorporateDataField(data, "questID", questID);
                 LogDebug($"INFO: Assigned data 'questID' {questID}", data);
-                Objects.ReferenceQuestIDs(data);
-                TrackIncorporationData(data, "questID", questID);
             }
         }
 
@@ -3875,7 +3830,7 @@ namespace ATT
 
                 if (crs.Count == npcObjs.Count)
                 {
-                    Objects.Merge(data, "providers", crs.Select(n => new List<object> { "n", n }).ToList());
+                    IncorporateDataField(data, "providers", crs.Select(n => new List<object> { "n", n }).ToList());
                     cloneHandles++;
                 }
             }
@@ -3898,7 +3853,7 @@ namespace ATT
 
                 if (objs.Count == objectObjs.Count)
                 {
-                    Objects.Merge(data, "providers", objs.Select(n => new List<object> { "o", n }).ToList());
+                    IncorporateDataField(data, "providers", objs.Select(n => new List<object> { "o", n }).ToList());
                     cloneHandles++;
                 }
             }
@@ -3944,6 +3899,11 @@ namespace ATT
                             dupeUnsorted = true;
                         }
                     }
+                    else if (questRefs.All(d => d.ContainsKey("criteriaID")))
+                    {
+                        // are we trying to clone the criteria into another criteria which received the
+
+                    }
                 }
 
                 // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
@@ -3958,6 +3918,9 @@ namespace ATT
                     {
                         LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
                     }
+
+                    // TODO: once adding logic to combine achIDs into one shared criteria, review this
+                    // purposely not letting the criteria become 'sourced' in this case
                     Objects.Merge(data, "questID", unsourcedQuests[0]);
                     if (questObjs.Count == 1)
                         cloneHandles++;
@@ -3965,7 +3928,7 @@ namespace ATT
                 // if multiple unsourced quests linked to a criteria, then convert into a sourcequests list instead
                 else if (unsourcedQuests.Count == questObjs.Count)
                 {
-                    Objects.Merge(data, "sourceQuests", unsourcedQuests);
+                    IncorporateDataField(data, "sourceQuests", unsourcedQuests);
                     LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsorted Quest(s) {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
                     cloneHandles++;
                 }
@@ -3993,7 +3956,7 @@ namespace ATT
                             {
                                 data.TryGetValue("achID", out long achID);
                                 LogDebug($"Criteria {achID}:{criteriaID} using Provider for a SpellItem {spellItemID} due to Spell {id} requirement");
-                                Objects.Merge(data, "provider", new List<object> { "i", spellItemID });
+                                IncorporateDataField(data, "provider", new List<object> { "i", spellItemID });
                                 handledSpells.Add(id);
                             }
                         }
@@ -4013,7 +3976,7 @@ namespace ATT
                         else
                         {
                             LogDebug($"Criteria {achID}:{criteriaID} using fallback Provider for an Unsourced Spell {id}");
-                            Objects.Merge(data, "provider", new List<object> { "s", id });
+                            IncorporateDataField(data, "provider", new List<object> { "s", id });
                             handledSpells.Add(id);
                         }
                     }
@@ -4834,6 +4797,20 @@ namespace ATT
             return !data.ContainsKey("_unsorted")
                 && !data.ContainsKey("_nyi")
                 && (!data.TryGetValue("u", out long u) || u > 2);
+        }
+
+        /// <summary>
+        /// Handles incorporation of a data field into the data dictionary, including merging and tracking for SOURCED
+        /// </summary>
+        private static void IncorporateDataField(IDictionary<string, object> data, string field, object value)
+        {
+            Objects.Merge(data, field, value);
+            TrackIncorporationData(data, field, value);
+            Objects.ReferenceQuestIDs(data);
+
+            // if we added a SOURCED field, make sure to track it
+            if (SOURCED.ContainsKey(field))
+                CaptureForSOURCED(data, field, value);
         }
 
         /// <summary>
