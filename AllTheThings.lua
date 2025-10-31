@@ -38,8 +38,8 @@ BINDING_NAME_ALLTHETHINGS_TOGGLERANDOM = L.TOGGLE_RANDOM
 BINDING_NAME_ALLTHETHINGS_REROLL_RANDOM = L.REROLL_RANDOM
 
 -- Performance Cache
-local print, rawget, rawset, tostring, ipairs, pairs, tonumber, wipe, select, setmetatable, getmetatable, tinsert, tremove, type, math_floor
-	= print, rawget, rawset, tostring, ipairs, pairs, tonumber, wipe, select, setmetatable, getmetatable, tinsert, tremove, type, math.floor
+local print,rawget,rawset,tostring,ipairs,pairs,tonumber,wipe,select,setmetatable,getmetatable,tinsert,tremove,type,math_floor,GetTime
+	= print,rawget,rawset,tostring,ipairs,pairs,tonumber,wipe,select,setmetatable,getmetatable,tinsert,tremove,type,math.floor,GetTime
 
 -- Global WoW API Cache
 local C_Map_GetMapInfo = C_Map.GetMapInfo;
@@ -952,8 +952,17 @@ local function GetSearchResults(method, paramA, paramB, options)
 	return group, group.working
 end
 app.GetCachedSearchResults = function(method, paramA, paramB, options)
-	if options and options.IgnoreCache then
-		return GetSearchResults(method, paramA, paramB, options)
+	-- app.print("GCSR",paramA,paramB,options and options.IgnoreCache)
+	if options then
+		if options.IgnoreCache then
+			return GetSearchResults(method, paramA, paramB, options)
+		end
+		-- add a 10sec cache window to lookups
+		-- probably long enough that any repeated use is smoother, but short enough that user actions would typically result in fresh lookups
+		if options.ShortCache then
+			local time = math_floor(GetTime() / 10)
+			return app.GetCachedData((paramB and paramA..":"..paramB or paramA)..time, GetSearchResults, method, paramA, paramB, options);
+		end
 	end
 	return app.GetCachedData(paramB and paramA..":"..paramB or paramA, GetSearchResults, method, paramA, paramB, options);
 end

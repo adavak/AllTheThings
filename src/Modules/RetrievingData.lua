@@ -50,6 +50,7 @@ local searchCache, working = {}, nil;
 app.GetCachedData = function(cacheKey, method, ...)
 	if IsRetrieving(cacheKey) then return; end
 	local cache = searchCache[cacheKey];
+	-- app.PrintDebug("GetCachedData",cacheKey,cache and "CACHE-HIT" or "CACHE-MISS")
 	if not cache then
 		cache, working = method(...);
 		if not working then
