@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Зоны",
 		-- TODO: ko = "",
 		cn = "地图",
-		-- TODO: tw = "",
+		tw = "地圖",
 	},
 })
