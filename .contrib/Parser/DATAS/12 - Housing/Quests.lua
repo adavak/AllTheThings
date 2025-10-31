@@ -1,9 +1,56 @@
 ---------------------------------------------
 --      H O U S I N G    M O D U L E       --
 ---------------------------------------------
-root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+	-- Not sure if Alliance share any of these or if its all horde
+	q(93057, {	-- A House For You
+		["maps"] = { RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(91863, {	-- My First House
+		["sourceQuests"] = { 93057 },	-- A House For You
+		["maps"] = { RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(94455, {	-- Home at Last
+		["sourceQuests"] = { 91863 },	-- My First House
+		["maps"] = { RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(91968, {	-- Welcome Home
+		["sourceQuests"] = { 94455 },	-- Home at Last
+		["maps"] = { RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(91969, {	-- Time to Decorate
+		["sourceQuests"] = { 91968 },	-- Welcome Home
+		["maps"] = { RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(94210, {	-- Feathering the Nest
+		["sourceQuests"] = { 91969 },	-- Time to Decorate
+		["maps"] = { RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(93647, {	-- Lumber For You
+		["sourceQuests"] = { 91969 },	-- Time to Decorate
+		["qg"] = 255520,	-- Xiz'ro
+		["coord"] = { 54.2, 58.0, RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
+	q(94379, {	-- Thid Old Hearth
+		["sourceQuests"] = { 94210 },	-- Feathering the Nest
+		["qg"] = 233708,	-- Tocho Couldhide
+		["coord"] = { 55.3, 57.6, RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	}),
 	header(HEADERS.Quest, 92991, {	-- Decor Treasure Hunt
 		-- TODO: Quest names are temp (Most likely)
+		q(93079, {	-- Decor Treasure Hunt [Horde]
+			["groups"] = { i(244534), },	-- Iron-Reinforced Door (DECOR)
+		}),
+
+
 		q(92961, {	-- Decor Treasure Hunt
 			["groups"] = { i(245384) },	-- Sturdy Wooden Shelf (DECOR!)
 		}),
@@ -166,4 +213,10 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 			["groups"] = { i(241621) },	-- Small Elegant End Table (DECOR!)
 		}),
 	}),
+	q(92734),	-- Popped when entering Razorwind
+	q(92486),	-- Popped when acquired a house
+	q(92733),	-- Popped when entering house
+	q(92666),	-- Popped when talking to local Decor
+	q(92654),	-- Popped when talking to elven decor
+	q(94392),	-- Popped when talking to flora decor
 })));

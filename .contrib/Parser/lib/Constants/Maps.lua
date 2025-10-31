@@ -557,6 +557,8 @@ DEMOLITION_DOME = 2425;
 ARCHIVAL_ASSAULT = 2452;
 DELVE_ETHEREAL_KYVEZA = 2484;
 
+RAZORWIND_SHORES = 2351;
+
 -- Midnight
 MIDNIGHT = 2537;	-- 2930? Alex: currently using Eastern Kingdoms Midnight Continent mapID as midnight
 ISLE_OF_QUELDANAS_MID = 2424;

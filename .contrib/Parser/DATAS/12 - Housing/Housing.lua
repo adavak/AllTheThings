@@ -21,5 +21,6 @@ root(ROOTS.Housing, n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2
 	}),
 	ach(61211, {	-- Welcome Home
 		["description"] = "Build your own home through Housing",
+		["sourceQuests"] = { 91863 },	-- My First House
 	}),
 })));

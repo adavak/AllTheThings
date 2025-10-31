@@ -4599,11 +4599,6 @@ root(ROOTS.Unsorted, {
 				i(258557),	-- Beloved Raptor Plushie
 				i(258558),	-- Sandfury Diplomat's Banner
 				i(258561),	-- Kyrian Aspirant's Rolled Cushion
-				i(236653),	-- Orgrimmar Interior Narrow Wall
-				i(236654),	-- Orgrimmar Interior Doorway
-				i(236655),	-- Orgrimmar Interior Wall
-				i(236666),	-- Orgrimmar Round Interior Pillar
-				i(236667),	-- Orgrimmar Square Interior Pillar
 				i(238857),	-- Moon-Blessed Storage Crate
 				i(238859),	-- Cenarion Privacy Screen
 				i(238860),	-- Deluxe Val'sharah Bed
@@ -4621,8 +4616,6 @@ root(ROOTS.Unsorted, {
 				i(241044),	-- Argussian Crate
 				i(241066),	-- Forsaken Spiked Brazier
 				i(241067),	-- Large Forsaken Spiked Brazier
-				i(241625),	-- Open Elven Wood Crate
-				i(243088),	-- Standing Ornate Weapon Rack
 				i(243113),	-- Blue Dazar'alor Rug
 				i(243130),	-- Zandalari Weapon Rack
 				i(243290),	-- Tauren Waterwheel
@@ -4630,40 +4623,25 @@ root(ROOTS.Unsorted, {
 				i(243321),	-- Cartel Head's Schmancy Desk
 				i(243335),	-- Tauren Bluff Rug
 				i(243359),	-- Tauren Windmill
-				i(244118),	-- Rectangular Elegant Table
-				i(244169),	-- Elegant Almond Table
 				i(244313),	-- Orcish Fence
 				i(244315),	-- Orcish Warlord's Planning Table
 				i(244316),	-- Warsong Workbench
 				i(244320),	-- Youngling's Courser Toys
 				i(244321),	-- Orcish Lumberjack's Stool
 				i(244322),	-- Frostwolf Banded Stool
-				i(244532),	-- Rugged Stool
-				i(244533),	-- Iron Chain Chandelier
-				i(244534),	-- Iron-Reinforced Door
-				i(244535),	-- Tusked Gazebo
 				i(244536),	-- Nightborne Fireplace
 				i(244653),	-- Orcish Scribe's Drafting Table
 				i(244654),	-- Small Purple Suramar Seat Cushion
 				i(244655),	-- Gilnean Circular Rug
-				i(244661),	-- Tied-Open Leather Curtains
-				i(244662),	-- Closed Leather Curtains
-				i(244663),	-- Leather Valance
 				i(244676),	-- Teal Suramar Seat Cushion
 				i(244677),	-- Purple Suramar Seat Cushion
 				i(244678),	-- Small Red Suramar Seat Cushion
 				i(244777),	-- Surwich Peddler's Wagon
-				i(244778),	-- Sethraliss Priest's Pillow
-				i(244780),	-- Circular Elven Table
-				i(244782),	-- Elven Floral Window
 				i(245258),	-- Val'sharah Bookcase
 				i(245259),	-- Small Val'sharah Bookcase
 				i(245260),	-- Kaldorei Chef's Table
 				i(245261),	-- Kaldorei Washbasin
 				i(245263),	-- Zocalo Drinks
-				i(245264),	-- Round Stitched Cushion
-				i(245265),	-- Stitched Pillow Roll
-				i(245266),	-- Iron-Studded Wooden Window
 				i(245270),	-- Thunder Totem Kiln
 				i(245275),	-- Rolled Scroll
 				i(245283),	-- Blood Elven Candelabra
@@ -4692,17 +4670,7 @@ root(ROOTS.Unsorted, {
 				i(245320),	-- Very Reliable Undermine Lamppost
 				i(245321),	-- Rust-Plated Storage Barrel
 				i(245325),	-- Undermine Market Stall
-				i(245327),	-- Creeping Corner Ivy
-				i(245328),	-- Small Boxwood Bush
-				i(245329),	-- Small Poppy Cluster
 				i(245333),	-- Shadowforge Wooden Box
-				i(245369),	-- Gift of Gilneas
-				i(245371),	-- Charming Laurel Tree
-				i(245392),	-- Sturdy Wooden Interior Pillar
-				i(245393),	-- Plain Interior Wall
-				i(245394),	-- Plain Interior Doorway
-				i(245395),	-- Plain Interior Narrow Wall
-				i(245398),	-- Tusked Fireplace
 				i(245413),	-- Zandalari Sconce
 				i(245417),	-- Akunda the Tapestry
 				i(245422),	-- Draenic Bookcase
@@ -4760,11 +4728,6 @@ root(ROOTS.Unsorted, {
 				i(245516),	-- Gilnean Bench
 				i(245518),	-- Worgen's Chicken Coop
 				i(245521),	-- Stone Zandalari Lamp
-				i(245532),	-- Orgrimmar Chair
-				i(245533),	-- Rugged Brazier
-				i(245545),	-- Orgrimmar Nightstand
-				i(245546),	-- Durable Wooden Chest
-				i(245555),	-- Orgrimmar Tusked Bed
 				i(245558),	-- Elaborate Suramar Window
 				i(245560),	-- Meadery Ochre Window
 				i(245561),	-- Ornate Ochre Window
@@ -4779,11 +4742,6 @@ root(ROOTS.Unsorted, {
 				i(245625),	-- Bel'ameth Bench
 				i(245627),	-- Elven Temple Brazier
 				i(245655),	-- Filigree Moon Lamp
-				i(245658),	-- Elwynn Cobblestone Round
-				i(245659),	-- Elwynn Cobblestone
-				i(245660),	-- Elwynn Cobblestone Pair
-				i(245661),	-- Elwynn Cobblestone Cluster
-				i(245680),	-- Orgrimmar Bureaucrat's Desk
 				i(245681),	-- Tidesage's Fireplace
 				i(245698),	-- Kaldorei Stone Fence
 				i(245699),	-- Kaldorei Stone Fencepost
@@ -4796,32 +4754,17 @@ root(ROOTS.Unsorted, {
 				i(245984),	-- Sagehold Window
 				i(246001),	-- Orange Suramar Seat Cushion
 				i(246002),	-- Red Suramar Seat Cushion
-				i(246036),	-- High-Backed Orgrimmar Chair
-				i(246037),	-- Iron-Reinforced Wooden Rack
-				i(246038),	-- Stitched Leather Rug
 				i(246089),	-- Bel'ameth Wooden Table
 				i(246091),	-- Bel'ameth Crafter's Tent
 				i(246100),	-- Small Bel'ameth Tent
 				i(246108),	-- Embellished Dwarven Tome
 				i(246110),	-- Filigree Moon Sconce
-				i(246217),	-- Short Orgrimmar Bench
-				i(246218),	-- Iron-Reinforced Crate
-				i(246220),	-- Leather-Banded Wooden Bench
 				i(246222),	-- Boralus String Lights
-				i(246223),	-- Cozy Hide-Covered Bench
-				i(246224),	-- Large Orgrimmar Bookcase
-				i(246225),	-- Small Leather Rug
-				i(246241),	-- Spiky Banded Barrel
 				i(246243),	-- Stormwind Beam Platform
 				i(246245),	-- Stormwind Round Platform
 				i(246246),	-- Stormwind Large Platform
 				i(246247),	-- Stormwind Small Platform
 				i(246248),	-- Stormwind Angled Platform
-				i(246259),	-- Orgrimmar Beam Platform
-				i(246260),	-- Orgrimmar Round Platform
-				i(246261),	-- Orgrimmar Large Platform
-				i(246262),	-- Orgrimmar Small Platform
-				i(246263),	-- Orgrimmar Angled Platform
 				i(246409),	-- Shadowforge Grinding Wheel
 				i(246411),	-- Ironforge Bookcase
 				i(246412),	-- Small Ironforge Bookcase
@@ -4846,7 +4789,6 @@ root(ROOTS.Unsorted, {
 				i(246499),	-- Mechagon Eyelight Lamp
 				i(246501),	-- Gnomish Safety Flamethrower
 				i(246503),	-- Large H.O.M.E. Cog
-				i(246587),	-- Short Orgrimmar Bookcase
 				i(246595),	-- Gnomish Fencepost
 				i(246596),	-- Gnomish Fence
 				i(246597),	-- Perpetual Motion Crate
@@ -4857,17 +4799,6 @@ root(ROOTS.Unsorted, {
 				i(246603),	-- Gnomish Cog Stack
 				i(246605),	-- Mecha-Storage Mecha-Chest
 				i(246606),	-- Mechagon Armory Rack
-				i(246607),	-- Durable Hex Table
-				i(246608),	-- Long Leather-Clad Table
-				i(246609),	-- Orgrimmar Open Dresser
-				i(246610),	-- Razorwind Standing Mirror
-				i(246611),	-- Razorwind Fountain
-				i(246612),	-- Logger's Picnic Table
-				i(246613),	-- Long Durable Table
-				i(246614),	-- Razorwind Bar Table
-				i(246615),	-- Open Spiky Banded Barrel
-				i(246616),	-- Open Iron-Reinforced Crate
-				i(246687),	-- Tusked Candleholder
 				i(246701),	-- Gnomish Sprocket Table
 				i(246703),	-- Double-Sprocket Table
 				i(246707),	-- Decorative Cinder Honeypot
@@ -4882,16 +4813,6 @@ root(ROOTS.Unsorted, {
 				i(246863),	-- Open Tome of the Dragon's Dedication
 				i(246864),	-- Tome of the Lost Dragon
 				i(246865),	-- Tome of Reliquary Insights
-				i(246868),	-- Wide Hide-Covered Bench
-				i(246869),	-- Razorwind Wall Mirror
-				i(246879),	-- Tusked Hanging Sconce
-				i(246880),	-- Horned Banded Barrel
-				i(246881),	-- Open Horned Banded Barrel
-				i(246882),	-- Long Orgrimmar Bench
-				i(246883),	-- Crude Banded Crate
-				i(246884),	-- Open Crude Banded Crate
-				i(247221),	-- Small Orgrimmar Chair
-				i(247502),	-- Elven Woodvine Trellis
 				i(247662),	-- Pandaren Scholar's Lectern
 				i(247663),	-- Pandaren Scholar's Bookcase
 				i(247670),	-- Pandaren Pantry
@@ -4923,7 +4844,6 @@ root(ROOTS.Unsorted, {
 				i(247924),	-- Suramar Street Light
 				i(248009),	-- Suramar Window
 				i(248116),	-- Valdrakken Chandelier
-				i(248246),	-- Razorwind Storage Table
 				i(248332),	-- Stormwind Footlocker
 				i(248333),	-- Stormwind Large Wooden Table
 				i(248334),	-- Stormwind Wooden Bench
@@ -4936,33 +4856,6 @@ root(ROOTS.Unsorted, {
 				i(248620),	-- Stormwind Trellis and Basin
 				i(248621),	-- Stormwind Arched Trellis
 				i(248622),	-- Wooden Outhouse
-				i(248625),	-- Razorwind Succulent Palm
-				i(248626),	-- Razorwind Fighting Cactus
-				i(248627),	-- Razorwind Tumbleweed
-				i(248628),	-- Razorwind Palm Tree
-				i(248629),	-- Nagrand Blueberry Bush
-				i(248630),	-- Barrens Hosta Bush
-				i(248631),	-- Azsharan Firespear Tree
-				i(248632),	-- Hardy Razorwind Grass Patch
-				i(248633),	-- Flowering Durotar Cactus
-				i(248634),	-- Razorwind Acacia Tree
-				i(248635),	-- Elwynn Whitebrush
-				i(248636),	-- Razorwind Gobtree
-				i(248637),	-- Sunset Aster Flowers
-				i(248638),	-- Pink Razorwind Paintbrush
-				i(248639),	-- Gloomrose
-				i(248640),	-- Duskberry Bush
-				i(248641),	-- Duskwood Shadebrush
-				i(248642),	-- Creeping Lattice Ivy
-				i(248643),	-- Duskwood Sycamore Shrub
-				i(248644),	-- Spiritbloom Flower
-				i(248645),	-- Pink Gilnean Rose
-				i(248646),	-- Silvermoon Sunrise Bush
-				i(248647),	-- Founder's Point Blooming Grass Patch
-				i(248648),	-- Autumn Leaf Pile
-				i(248649),	-- Young Chestnut Tree
-				i(248650),	-- Razorwind Flamebrush
-				i(248658),	-- Elven Wood Crate
 				i(248660),	-- Stormwind Workbench
 				i(248661),	-- Northshire Scribe's Desk
 				i(248662),	-- Jewelcrafter's Tent
@@ -4977,11 +4870,8 @@ root(ROOTS.Unsorted, {
 				i(248799),	-- Wooden Storage Crate
 				i(248800),	-- Architect's Drafting Table
 				i(248801),	-- Stormwind Weapon Rack
-				i(248802),	-- Elwynn Grass Patch
-				i(248803),	-- Elwynn Grass Spread
 				i(248808),	-- Nesingwary Elk Trophy
 				i(248810),	-- Rough Wooden Chair
-				i(248811),	-- Elwynn Small Grass Patch
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
 				i(248938),	-- Hooded Iron Lantern
 				i(248939),	-- Stormwind Lamppost
@@ -4992,16 +4882,11 @@ root(ROOTS.Unsorted, {
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
-				i(249550),	-- Wind Rider Roost
-				i(250093),	-- Tusked Weapon Rack
-				i(250094),	-- Empty Orgrimmar Bathtub
 				i(250113),	-- Ebon Blade Tome
 				i(250114),	-- Acherus Worktable
 				i(250124),	-- Ebon Blade Banner
-				i(250913),	-- Small Razorwind Bar Table
 				i(250916),	-- Pedestal of the Maelstrom's Wisdom
 				i(250918),	-- Maelstrom Banner
-				i(250920),	-- Horned Hanging Sconce
 				i(251015),	-- Maelstrom Chimes
 				i(251022),	-- Bel'ameth Traveler's Pack
 				i(251329),	-- Shadowmoon Open-Air Shed
@@ -5012,20 +4897,12 @@ root(ROOTS.Unsorted, {
 				i(251480),	-- Draenic Wooden Wall Shelf
 				i(251494),	-- Moon-Blessed Barrel
 				i(251544),	-- Telredor Recliner
-				i(251545),	-- Razorwind Cooking Grill
 				i(251547),	-- Draenei Farmer's Trellis
 				i(251548),	-- Draenic Fence
 				i(251549),	-- Emblem of the Naaru's Blessing
-				i(251637),	-- Tusked Weapon Stand
-				i(251638),	-- Jagged Orgrimmar Trellis
-				i(251639),	-- Hide-Covered Bench
 				i(251640),	-- Draenic Forge
 				i(251653),	-- Draenethyst Lamppost
 				i(251654),	-- Large Karabor Fountain
-				i(251973),	-- Hide-Covered Wall Shelf
-				i(251974),	-- Tusked Chandelier
-				i(251975),	-- Tusked Sconce
-				i(251976),	-- Wolf Pelt Rug
 				i(252010),	-- Ornate Ironforge Bench
 				i(252036),	-- Tidesage's Bookcase
 				i(252386),	-- Admiralty's Upholstered Chair
@@ -5047,7 +4924,6 @@ root(ROOTS.Unsorted, {
 				i(252406),	-- Green Boralus Market Tent
 				i(252652),	-- Copper Stormsong Well
 				i(252655),	-- Copper Tidesage's Sconce
-				i(252657),	-- Tied-Right Leather Curtains
 				i(252754),	-- Seaworthy Boralus Bell
 				i(252756),	-- Stonelight Countertop
 				i(253020),	-- Earthen Etched Throne
@@ -5061,25 +4937,15 @@ root(ROOTS.Unsorted, {
 				i(253168),	-- Earthen Storage Crate
 				i(253172),	-- Gundargaz Grand Keg
 				i(253173),	-- Meadery Storage Barrel
-				i(253437),	-- Elegant Covered Bench
-				i(253439),	-- Elegant Carved Bench
-				i(253495),	-- Grand Elven Bench
 				i(253527),	-- Goldshire Wardrobe
-				i(254316),	-- Small Orgrimmar Tusked Bed
-				i(254560),	-- Small Razorwind Square Table
-				i(254893),	-- Large Razorwind Gazebo
 				i(255641),	-- Undermine Mechanic's Hanging Lamp
 				i(255642),	-- Undermine Alleyway Sconce
-				i(255644),	-- Elwynn Apple Tree
-				i(255646),	-- Founder's Point Apple Tree
 				i(255647),	-- Spring-Powered Pointer
 				i(255672),	-- Gnomish Tesla Tower
 				i(255673),	-- Moonclasp Satchel
 				i(255674),	-- Incontinental Table Lamp
-				i(255708),	-- Small Jagged Orgrimmar Trellis
 				i(255840),	-- Champion Brawler's Gloves
 				i(256049),	-- Sin'dorei Sleeper
-				i(256050),	-- Razorwind Shores Front Door
 				i(256168),	-- Draconic Sconce
 				i(256327),	-- Open Rust-Plated Storage Crate
 				i(256328),	-- Leftover Undermine Takeout
@@ -5087,29 +4953,20 @@ root(ROOTS.Unsorted, {
 				i(256331),	-- Shadowforge Lamppost
 				i(256333),	-- Ornate Dwarven Wardrobe
 				i(256354),	-- Qalashi Goulash
-				i(256357),	-- Razorwind Porch Chair
 				i(256554),	-- Definitely Real, Not At All Fake Head of the Broodmother
 				i(256673),	-- Stormwind Forge
 				i(256682),	-- Magistrix's Garden Fountain
 				i(256903),	-- Gilnean Banded Crate
 				i(256905),	-- Small Gilnean Table
 				i(256919),	-- Zandalari War Chandelier
-				i(257099),	-- Razorwind Covered Well
 				i(257349),	-- Naaru Crystal Icon
 				i(257352),	-- Large Brazier of Elune
-				i(257359),	-- Slate Cobblestone Pair
-				i(257388),	-- Slate Cobblestone
-				i(257389),	-- Iron-Reinforced Wooden Window
-				i(257390),	-- Slate Cobblestone Path
-				i(257392),	-- Slate Cobblestone Trio
 				i(257394),	-- Zandalari War Torch
 				i(257399),	-- Zandalari War Brazier
 				i(257405),	-- Baradin Bay Fishing Rack
 				i(257412),	-- Stoppered Gilnean Barrel
 				i(257419),	-- Sin'dorei Crafter's Forge
 				i(257598),	-- Suramar Stepping Stone Set
-				i(257691),	-- Open Elegant Elven Barrel
-				i(257692),	-- Elegant Curved Table
 				i(257693),	-- Snowfall Tribe Scare-Totem
 				i(257694),	-- Gilnean Green Potion
 				i(257695),	-- Gilnean Postbox
@@ -5118,11 +4975,8 @@ root(ROOTS.Unsorted, {
 				i(257806),	-- Scaled Twilight Mosaic
 				i(258145),	-- Eversong Party Platter
 				i(258147),	-- Empty Lorewalker's Bookcase
-				i(258148),	-- Orgrimmar Bathtub
 				i(258289),	-- Thunder Bluff Totem
 				i(258301),	-- Gilnean Washing Line
-				i(258658),	-- Elwynn Autumn Apple Tree
-				i(258659),	-- Founder's Point Autumn Apple Tree
 				i(258765),	-- Hull'n'Home Window
 				i(259071),	-- Brawler's Guild Punching Bag
 				i(260359),	-- Valdrakken Bookcase
@@ -5130,15 +4984,12 @@ root(ROOTS.Unsorted, {
 				i(260583),	-- Arathi Bartender's Shelves
 				i(260699),	-- Maldraxxian Runic Tablet
 				i(260700),	-- Gob-chanical Trash Heap
-				i(260701),	-- Red Razorwind Paintbrush
-				i(260702),	-- Dry Razorwind Grass Patch
 				i(262347),	-- Draenei Crystal Chandelier
 				i(262663),	-- Kyrian Floating Lamp
 				i(263021),	-- Brumewood Hollow Grassy Patch
 				i(263022),	-- Brumewood Hollow Grassy Spread
 				i(263023),	-- Founder's Point Grassy Patch
 				i(263024),	-- Founder's Point Grassy Spread
-				i(263025),	-- Sturdy Wine Press
 				i(263026),	-- Brawler's Barricade
 			}),
 			filter(MISC, {
@@ -5205,7 +5056,7 @@ root(ROOTS.Unsorted, {
 				-- house?
 				i(246697),	-- Self-Assembling Homeware Kit
 				i(249386),	-- Ghost Gear
-				i(253580),	-- Harvesting Hatchet \\ [DNT] [PH] Magic Hatchet
+
 				-- Brawlers Guild
 				i(253515),	-- Challenge Card: Glorp
 				i(253575),	-- Challenge Card: Renegade Swabbie
