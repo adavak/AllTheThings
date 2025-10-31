@@ -276,16 +276,16 @@ TRADING_POST = createPhase({
 		en = [[~TRANSMOG_SOURCE_7]],
 		-- #else
 		en = "Trading Post",
-		-- de = "",
+		de = "Handelsposten",
 		es = "Puesto comercial",
 		mx = "Puesto de venta",
-		-- fr = "",
-		-- it = "",
-		-- ko = "",
-		-- pt = "",
-		-- ru = "",
+		fr = "Comptoir",
+		it = "Emporio",
+		ko = "교역소",
+		pt = "Posto Comercial",
+		ru = "Торговая лавка",
 		cn = "货栈",
-		-- tw = "",
+		tw = "貿易站",
 		-- #endif
 	},
 	description = {
