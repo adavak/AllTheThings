@@ -33,6 +33,9 @@ root(ROOTS.Zones, {
 				i(141012, {	-- Recipe: Turf
 					["description"] = "Fly to Crimson Thicket, Suramar. Kill the Heartwood stag. 3-4 and you should have it.",
 				}),
+				i(136851, {	-- Commander Domitille's Helm (QS!)
+					["cr"] = 106275,	-- Commander Domitille
+				}),
 				i(136901, {	-- Eye of Inquisition (PET!)
 					["crs"] = { 101878 },	-- Felsoul Inquisitor
 				}),

@@ -420,11 +420,32 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 44116,	-- Mystery at Citrine Bay
 						["provider"] = { "n", 112959 },	-- Fleet Admiral Tethys
 						["coord"] = { 77.2, 55.0, STORMHEIM },
+						["groups"] = { i(140730) },	-- SI:7 Orders (QI!)
 					}),
 					q(44117, {	-- Time Flies When Yer Havin' Rum!
 						["sourceQuest"] = 44116,	-- Mystery at Citrine Bay
 						["provider"] = { "n", 112959 },	-- Fleet Admiral Tethys
 						["coord"] = { 77.2, 55.0, STORMHEIM },
+						["groups"] = {
+							o(254072, {	-- Red Blade Rum
+								["coords"] = {
+									{ 74.4, 53.8, STORMHEIM },
+									{ 75.0, 52.5, STORMHEIM },
+									{ 75.3, 51.5, STORMHEIM },
+									{ 76.1, 49.9, STORMHEIM },
+									{ 76.1, 52.2, STORMHEIM },
+								},
+								["groups"] = { i(140729) },	-- Red Blade Rum (QI!)
+							}),
+							o(254077, {	-- Rum Cask
+								["coords"] = {
+									{ 75.1, 52.1, STORMHEIM },
+									{ 75.3, 49.2, STORMHEIM },
+									{ 76.6, 49.4, STORMHEIM },
+								},
+								["groups"] = { i(140729) },	-- Red Blade Rum (QI!)
+							}),
+						},
 					}),
 					q(44177, {	-- Dark Secrets and Shady Deals
 						["sourceQuests"] = {
@@ -492,6 +513,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 102594 },	-- Marin Noggenfogger
 						["coord"] = { 30.5, 70.4, THE_HALL_OF_SHADOWS },
+						["groups"] = {
+							i(140811),	-- Gallywix's Safe Key (QI!)
+							i(140814),	-- Love Potion #6 (QI!)
+						},
 					}),
 					q(44180, {	-- Champion: Marin Noggenfogger
 						["sourceQuest"] = 44178,	-- A Particularly Potent Potion

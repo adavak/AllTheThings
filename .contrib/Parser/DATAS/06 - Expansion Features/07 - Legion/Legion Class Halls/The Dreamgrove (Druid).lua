@@ -367,7 +367,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42043, {	-- Cleaning Up
 						["sourceQuests"] = { 42040 },	-- The Way to Nordrassil
-						["provider"] = { "n", 106204 },	-- Archdruid Hamuul Runetotem
+						["qg"] = 106135,	-- Bashana Runetotem
 						["coord"] = { 43.4, 30.6, 715 },
 					}),
 					q(41689, {	-- Cleansing the Mother Tree
@@ -407,7 +407,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43403, {	-- Defending the Isles
 						["sourceQuests"] = { 42046 },	-- A New Beginning
-						["provider"] = { "n", 106250 },	-- Keeper Remulos
+						["provider"] = { "n", 103832 },	-- Keeper Remulos
 						["coord"] = { 60.5, 23.6, MOUNT_HYJAL },
 					}),
 					q(42031, {	-- Dire Growth
@@ -466,7 +466,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(91614, {	-- Focusing the Energies (Remix)
 						["sourceQuests"] = { 42046 },	-- A New Beginning
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
-						["coord"] = { 60.5, 23.6, THE_DREAMGROVE },
+						["coord"] = { 44.9, 50.0, THE_DREAMGROVE },
 						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
 					}),
 					q(40834, {	-- Following the Curse
@@ -629,7 +629,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42049, {	-- Powering the Portal
 						["sourceQuests"] = { 42046 },	-- A New Beginning
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
-						["coord"] = { 60.5, 23.6, THE_DREAMGROVE },
+						["coord"] = { 44.9, 50.0, THE_DREAMGROVE },
 					}),
 					q(46677, {	-- Prick of a Thistle
 						["sourceQuests"] = {
@@ -686,7 +686,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42042, {	-- Teensy Weensies!
 						["sourceQuests"] = { 42040 },	-- The Way to Nordrassil
 						["provider"] = { "n", 106204 },	-- Archdruid Hamuul Runetotem
-						["coord"] = { 43.4, 30.6, 715 },
+						["coord"] = { 45.0, 32.3, 715 },
+						["groups"] = { i(136840) },	-- Mylune's Flute (QI!)
 					}),
 					q(45528, {	-- The Befouled Barrows
 						["sourceQuests"] = { 44921 },	-- Lone Wolf

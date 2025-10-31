@@ -41,7 +41,9 @@ root(ROOTS.Zones, {
 				petbattle(q(41990)),	-- Chopped
 				q(45307),	-- Claws for Alarm!
 				petbattle(q(41914)),	-- Clear the Catacombs
-				q(42151),	-- Clear the Skies
+				q(42151, {	-- Clear the Skies
+					i(141022),	-- Legion Ammunition
+				}),
 				q(44067, {	-- Consolidating Power
 					["groups"] = {
 						i(141253),	-- Nightblade Pendant (QI!)

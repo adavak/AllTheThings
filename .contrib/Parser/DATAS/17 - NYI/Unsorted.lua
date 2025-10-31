@@ -5513,13 +5513,6 @@ root(ROOTS.Unsorted, {
 			i(250895),	-- Villager's Seaside Skirt
 			i(250896),	-- Villager's Seaside Sabatons
 			i(250897),	-- Ensemble: Villager's Seaside Collection
-			i(250898),	-- Villager's Country Bonnet
-			i(250899),	-- Villager's Country Gloves
-			i(250900),	-- Villager's Country Blouse
-			i(250901),	-- Villager's Country Belt
-			i(250902),	-- Villager's Country Skirt
-			i(250903),	-- Villager's Country Sabatons
-			i(250904),	-- Ensemble: Villager's Country Collection
 			i(250905),	-- Villager's City Bonnet
 			i(250906),	-- Villager's City Gloves
 			i(250907),	-- Villager's City Blouse

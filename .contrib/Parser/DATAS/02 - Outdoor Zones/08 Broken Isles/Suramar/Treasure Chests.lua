@@ -120,6 +120,7 @@ root(ROOTS.Zones, {
 				o(246524, {	-- Small Treasure Chest
 					["questID"] = 40902,
 					["coord"] = { 40.5, 28.9, 682 },
+					["groups"] = { i(133760) },	-- Bloodstained Note
 				}),
 				o(252806, {	-- Small Treasure Chest
 					["questID"] = 43835,

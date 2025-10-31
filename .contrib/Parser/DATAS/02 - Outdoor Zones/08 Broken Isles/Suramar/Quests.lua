@@ -36,9 +36,10 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 100185 },	-- Iadreth
 					["coord"] = { 34.3, 56.1, SURAMAR },
 				}),
-				q(40625, {	-- A Different Source -- aa
+				q(40625, {	-- A Different Source
 					["provider"] = { "n", 101076 },	-- Kyrtos
 					["coord"] = { 26.7, 70.7, SURAMAR },
+					["groups"] = { i(132472) },	-- Fel Deconstructor (QI!)
 				}),
 				q(40328, {	-- A Fate Worse Than Dying
 					["sourceQuests"] = {
@@ -481,6 +482,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40625,	-- A Different Source
 					["provider"] = { "n", 101076 },	-- Kyrtos
 					["coord"] = { 26.7, 70.7, SURAMAR },
+					["groups"] = { i(133793) },	-- Felfire Spine (QI!)
 				}),
 				q(44722, {	-- Disillusioned Defector
 					["sourceQuest"] = 45261,	-- Continuing the Cure

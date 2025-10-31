@@ -138,7 +138,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(175977),	-- Command Lattice Mir
 			i(173004),	-- Command Lattice Omu
 			i(175978),	-- Command Lattice Pio
-			i(136851),	-- Commander Domitille's Helm
 			i(180785),	-- Condensed Essence
 			i(178142),	-- Condensed Stygia
 			i(178875),	-- Corpsehound Whistle
