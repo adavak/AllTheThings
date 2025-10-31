@@ -2,6 +2,217 @@
 --     N E V E R    I M P L E M E N T E D    M O D U L E     --
 ---------------------------------------------------------------
 root(ROOTS.NeverImplemented, n(ARTIFACTS, {
+	expansion(EXPANSION.LEGION, {
+		-- 7.0.3
+		expansion(EXPANSION.LEGION, patch(0,3), bubbleDownSelf({ ["timeline"] = { CREATED_7_0_3 } }, {
+			-- Some of these need to be created using the itemsource shortcut for the correct tooltip.
+			cl(DEMONHUNTER, {
+				cl(DEMONHUNTER, HAVOC, {
+					i(129738),	-- Verus
+					i(129735),	-- Verus
+					i(129736),	-- Verus
+					i(129737),	-- Verus
+				}),
+			}),
+			cl(DRUID, {
+				cl(DRUID, BALANCE, {
+					i(132474),	-- Scythe of Elune
+					i(132475),	-- Scythe of Elune
+					i(132476),	-- Scythe of Elune
+					i(132477),	-- Scythe of Elune
+					i(132478),	-- Scythe of Elune
+				}),
+				cl(DRUID, RESTORATION, {
+					i(132479),	-- G'Hanir, the Mother Tree
+					i(132480),	-- G'Hanir, the Mother Tree
+					i(132481),	-- G'Hanir, the Mother Tree
+					i(132482),	-- G'Hanir, the Mother Tree
+					i(132483),	-- G'Hanir, the Mother Tree
+				}),
+			}),
+			cl(HUNTER, {
+				cl(HUNTER, SURVIVAL, {
+					i(129899),	-- The Eagle Spear
+				}),
+			}),
+			cl(MAGE, {
+				cl(MAGE, ARCANE, {
+					i(118180),	-- Aluneth
+					i(129752),	-- Aluneth
+					i(129753),	-- Aluneth
+					i(129754),	-- Aluneth
+					i(129755),	-- Aluneth
+					i(139275),	-- Aluneth
+					i(139891),	-- Aluneth
+				}),
+			}),
+			cl(MONK, {
+				cl(MONK, MISTWEAVER, {
+					i(129967),	-- Sheilun
+					i(129968),	-- Sheilun
+					i(129969),	-- Sheilun
+					i(129970),	-- Sheilun
+				}),
+			}),
+			cl(PALADIN, {
+				cl(PALADIN, HOLY, {
+					itemsource(79385),	-- The Silver Hand
+					itemsource(79386),	-- The Silver Hand
+					itemsource(79387),	-- The Silver Hand
+					itemsource(79388),	-- The Silver Hand
+					itemsource(79389),	-- The Silver Hand
+					itemsource(79390),	-- The Silver Hand
+					itemsource(79391),	-- The Silver Hand
+					itemsource(79392),	-- The Silver Hand
+					itemsource(79393),	-- The Silver Hand
+					itemsource(79394),	-- The Silver Hand
+					itemsource(79395),	-- The Silver Hand
+					itemsource(79396),	-- The Silver Hand
+					itemsource(79397),	-- The Silver Hand
+					itemsource(79398),	-- The Silver Hand
+					itemsource(79399),	-- The Silver Hand
+					itemsource(79400),	-- The Silver Hand
+					itemsource(79401),	-- The Silver Hand
+					itemsource(79402),	-- The Silver Hand
+					itemsource(79403),	-- The Silver Hand
+					itemsource(79404),	-- The Silver Hand
+					i(139621),	-- The Watcher's Hammer [Used for Lost Edicts of the Watcher Paladin Appearance, actual appearance is gained via a different item]
+					i(128824, {["sourceID"] = 73567 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77195 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77196 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77197 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77198 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77199 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77200 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77201 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77202 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77203 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77204 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77205 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77206 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77207 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77208 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77209 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77210 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77211 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77212 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 77213 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 80692 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 80693 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 80694 }),	-- Tome of the Silver Hand
+					i(128824, {["sourceID"] = 80695 }),	-- Tome of the Silver Hand
+				}),
+				cl(PALADIN, PROTECTION, {
+					itemsource(79405),	-- Truthguard
+					itemsource(79406),	-- Truthguard
+					itemsource(79407),	-- Truthguard
+					itemsource(79408),	-- Truthguard
+					itemsource(79409),	-- Truthguard
+					itemsource(79410),	-- Truthguard
+					itemsource(79411),	-- Truthguard
+					itemsource(79412),	-- Truthguard
+					itemsource(79413),	-- Truthguard
+					itemsource(79414),	-- Truthguard
+					itemsource(79415),	-- Truthguard
+					itemsource(79416),	-- Truthguard
+					itemsource(79417),	-- Truthguard
+					itemsource(79418),	-- Truthguard
+					itemsource(79419),	-- Truthguard
+					itemsource(79420),	-- Truthguard
+					itemsource(79421),	-- Truthguard
+					itemsource(79422),	-- Truthguard
+					itemsource(79423),	-- Truthguard
+					itemsource(79424),	-- Truthguard
+				}),
+				cl(PALADIN, RETRIBUTION, {
+					itemsource(79133),	-- Ashbringer
+					itemsource(79134),	-- Ashbringer
+					itemsource(79135),	-- Ashbringer
+					itemsource(79136),	-- Ashbringer
+					itemsource(79137),	-- Ashbringer
+					itemsource(79138),	-- Ashbringer
+					itemsource(79139),	-- Ashbringer
+					itemsource(79140),	-- Ashbringer
+					itemsource(79141),	-- Ashbringer
+					itemsource(79142),	-- Ashbringer
+					itemsource(79143),	-- Ashbringer
+					itemsource(79144),	-- Ashbringer
+					itemsource(79145),	-- Ashbringer
+					itemsource(79146),	-- Ashbringer
+					itemsource(79147),	-- Ashbringer
+					itemsource(79148),	-- Ashbringer
+					itemsource(79149),	-- Ashbringer
+					itemsource(79150),	-- Ashbringer
+					itemsource(79151),	-- Ashbringer
+					itemsource(79152),	-- Ashbringer
+					i(131738),	-- Ashbringer
+					i(131739),	-- Ashbringer
+					i(131741),	-- Ashbringer
+					i(131742),	-- Ashbringer
+					i(122747),	-- Ashbringer
+					itemsource(79113),	-- Test Artifact 1
+					itemsource(79114),	-- Test Artifact 1
+					itemsource(79115),	-- Test Artifact 1
+					itemsource(79116),	-- Test Artifact 1
+					itemsource(79117),	-- Test Artifact 1
+					itemsource(79118),	-- Test Artifact 1
+					itemsource(79119),	-- Test Artifact 1
+					itemsource(79120),	-- Test Artifact 1
+					itemsource(79121),	-- Test Artifact 1
+					itemsource(79122),	-- Test Artifact 1
+					itemsource(79123),	-- Test Artifact 1
+					itemsource(79124),	-- Test Artifact 1
+					itemsource(79125),	-- Test Artifact 1
+					itemsource(79126),	-- Test Artifact 1
+					itemsource(79127),	-- Test Artifact 1
+					itemsource(79128),	-- Test Artifact 1
+					itemsource(79129),	-- Test Artifact 1
+					itemsource(79130),	-- Test Artifact 1
+					itemsource(79131),	-- Test Artifact 1
+					itemsource(79132),	-- Test Artifact 1
+				}),
+			}),
+			cl(PRIEST, {
+				cl(PRIEST, HOLY, {
+					i(136858),	-- Darkened T'uure
+				}),
+			}),
+			cl(SHAMAN, {
+				cl(SHAMAN, ENHANCEMENT, {
+					i(136593),	-- Doomhammer Offhand Appearance Record (referenced by actual item)
+				}),
+				cl(SHAMAN, ELEMENTAL, {
+					i(139439),	-- The Highkeeper's Ward
+				}),
+			}),
+			cl(WARRIOR, {
+				cl(WARRIOR, FURY, {
+					i(134548, {["sourceID"] = 77749}),	-- Helya's Wrath
+					i(134548, {["sourceID"] = 77750}),	-- Helya's Wrath
+					itemsource(77799),	-- Odyn's Fury
+					itemsource(77800),	-- Odyn's Fury
+					itemsource(77801),	-- Odyn's Fury
+					itemsource(77802),	-- Odyn's Fury
+					itemsource(77803),	-- Odyn's Fury
+					itemsource(77804),	-- Odyn's Fury
+					itemsource(77805),	-- Odyn's Fury
+					itemsource(77806),	-- Odyn's Fury
+					itemsource(77807),	-- Odyn's Fury
+					itemsource(77808),	-- Odyn's Fury
+					itemsource(77809),	-- Odyn's Fury
+					itemsource(77810),	-- Odyn's Fury
+					itemsource(77811),	-- Odyn's Fury
+					itemsource(77812),	-- Odyn's Fury
+					itemsource(77813),	-- Odyn's Fury
+					itemsource(77814),	-- Odyn's Fury
+					itemsource(77815),	-- Odyn's Fury
+					itemsource(77816),	-- Odyn's Fury
+					itemsource(77817),	-- Odyn's Fury
+					itemsource(77818),	-- Odyn's Fury
+				}),
+			}),
+		})),
+	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.2.5
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
@@ -697,6 +908,7 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(290316),	-- Ashbringer
 				}),
 				cl(PALADIN, HOLY, {
+					-- Main hand
 					itemsource(290679),	-- The Silver Hand
 					itemsource(290680),	-- The Silver Hand
 					itemsource(290681),	-- The Silver Hand
@@ -720,6 +932,31 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(290699),	-- The Silver Hand
 					itemsource(290700),	-- The Silver Hand
 					itemsource(290701),	-- The Silver Hand
+					-- Off Hand
+					i(242572, {["sourceID"] = 290702 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290703 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290704 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290705 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290706 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290707 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290708 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290709 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290710 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290711 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290712 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290713 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290714 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290715 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290716 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290717 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290718 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290719 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290720 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290721 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290722 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290723 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290724 }),	-- Tome of the Silver Hand
+					i(242572, {["sourceID"] = 290725 }),	-- Tome of the Silver Hand
 				}),
 				cl(PALADIN, PROTECTION, {
 					-- Main hand

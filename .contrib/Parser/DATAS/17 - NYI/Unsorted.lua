@@ -5346,7 +5346,6 @@ root(ROOTS.Unsorted, {
 			i(241807),	-- [PH] Template
 			i(241808),	-- [PH] Template
 			i(242369),	-- The First Satyr's Spaulders
-			i(242572),	-- Tome of the Silver Hand
 			i(242706),	-- Curious Curio
 			i(243013),	-- Doomfire Dynamo
 			i(243023),	-- Badge of the Fallen Vindicator

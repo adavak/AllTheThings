@@ -12,9 +12,6 @@ root(ROOTS.WorldDrops, bubbleDown({ ["timeline"] = ADDED_10_0_5, ["sharedDescrip
 	--[[
 	n(QUALITY_POOR, {
 		n(WEAPONS, {
-			filter(SHIELDS, {
-				i(128824),	-- Tome of the Silver Hand	-- TODO Legion
-			}),
 			filter(THROWN, {	-- TODO
 				-- #if NOT ANYCLASSIC
 				-- The Burning Crusade

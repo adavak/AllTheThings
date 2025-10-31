@@ -12208,7 +12208,8 @@ q(43412,{c=a[90],coords={{57.7,33.7,721}},lvl=10,qgs={110482,110485},sourceQuest
 q(42682,{c=a[90],coords={{59.9,48.7,720}},lvl=10,qgs=a[999],sourceQuests={42683}}),
 q(46159,{c=a[90],lvl=45,sourceQuests=a[606]}),
 q(45993,{c=a[90],lvl=45,u=2}),
-q(42733,{c=a[90],coords={{55.6,50.1,721}},lvl=45,qgs={98648},sourceQuests={44694}}),
+q(42733,{c=a[90],coords={{55.6,50.1,721}},lvl=45,qgs={98648},sourceQuests={44694},g={
+i(138482,{c=a[90]})}}),
 q(42801,{c=a[90],coords={{57.5,52.3,720}},lvl=10,qgs=a[64],sourceQuests={42594}}),
 q(42679,{c=a[90],coords={{59.1,58.7,720}},lvl=10,qgs=a[56],sourceQuests={42677}}),
 q(44223,{c=a[90],coords={{60,43.8,720}},description="Requires the |cFFFFD700Fel Armaments|r order hall upgrade.",lvl=45,qgs={110433}}),
@@ -12331,8 +12332,10 @@ q(42131,{c=a[90],coords={{59.5,50.6,720}},lvl=10,qgs=a[999],sourceQuests=a[514],
 i(140924,{b=1,spellID=225179}),
 i(140517,{b=1,f=55})}}),
 q(44224,{c=a[90],u=2}),
-q(42752,{c=a[90],lvl=45,maps=a[860],sourceQuests={42749}}),
-q(42753,{c=a[90],lvl=45,maps=a[860],sourceQuests={42749}}),
+q(42752,{c=a[90],lvl=45,maps=a[860],sourceQuests={42749},g={
+i(138397,{c=a[90]})}}),
+q(42753,{c=a[90],lvl=45,maps=a[860],sourceQuests={42749},g={
+i(138397,{c=a[90]})}}),
 q(45798,{c=a[90],coords={a[668]},lvl=45,qgs={117709},sourceQuests={45385}}),
 q(45385,{c=a[90],coords={{59.6,58.8,720}},lvl=45,qgs={108311},sourceQuests={45339}}),
 q(42731,{c=a[90],coords={{58.5,51.6,720}},lvl=10,qgs=a[64],sourceQuests={42131}}),
@@ -13307,7 +13310,7 @@ s(80962,139688,{b=1,c=a[41],cost=5000000,f=7,lvl=45}),
 s(81574,140537,{b=1,c=a[41],f=8}),
 s(81596,140559,{b=1,c=a[41],f=26}),
 s(81594,140557,{b=1,c=a[41],f=25})}})}})}}),
-cl(11,{maps={747},g={
+cl(11,{maps={747,1468},g={
 o(253161,{c=a[68],description="|c808080FAThese pets are obtained by picking them from the|r |cFFFFD700Evergreen|r |c808080FAclass hall ability that druids get on Tier 2.\nOnce the ability is learned you will gain access to two plots where you grow plants every three days and it will randomly pick amongst six plots. When Grove Vine spawns it has a chance for these two pets.|r",g={
 i(139554,{b=1,c=a[68],f=55,spellID=220679,g={
 artifact(62,{c=a[68]})}}),
@@ -13385,8 +13388,9 @@ follower(640,{c=a[68]})}}),
 q(42043,{c=a[68],coords={a[563]},lvl=45,qgs={106204},sourceQuests={42040}}),
 q(41689,{c=a[68],coords={{45.2,51.9,747}},lvl=10,qgs={104577},sourceQuests={41690},g={
 title(332,{c=a[68]}),
+o(248499,{c=a[68],coords={{60.6,25.4,198}},g={
 s(73398,128306,{b=1,c=a[68],f=28,spellID=207560,g={
-artifact(45,{c=a[68]})}})}}),
+artifact(45,{c=a[68]})}})}})}}),
 q(42045,{c=a[68],coords={a[563]},lvl=45,qgs={106204},sourceQuests={42044}}),
 q(44076,{c=a[68],coords={{40.9,59,715}},lvl=10,qgs={112549},sourceQuests={43991}}),
 q(42050,{c=a[68],coords={{61.2,65.2,760}},lvl=45,qgs={107163},sourceQuests={42051}}),
@@ -13432,7 +13436,9 @@ q(44431,{c=a[68],coords={a[575]},lvl=10,qgs=a[49],sourceQuests={43980}}),
 q(45532,{c=a[68],coords={{40.9,42.6,198}},lvl=45,qgs={115802,119982},sourceQuests={44869}}),
 q(45426,{c=a[68],coords={{68.1,55.3,80}},lvl=45,qgs={115750},sourceQuests={46924}}),
 q(46676,{c=a[68],coords={{43.5,58.3,646}},lvl=45,qgs={120070,120084},sourceQuests={46674}}),
-q(41422,{c=a[68],coords={{52.6,52.8,747}},lvl=10,qgs={113525},sourceQuests={40649}}),
+q(41422,{c=a[68],coords={{52.6,52.8,747}},lvl=10,qgs={113525},sourceQuests={40649},g={
+o(247901,{c=a[68],coords={{36.1,26.5,747}},g={
+i(135501,{c=a[68]})}})}}),
 q(44074,{c=a[68],coords={{34.7,62.5,715}},lvl=10,qgs={112546},sourceQuests={43991}}),
 q(42049,{c=a[68],coords={{60.5,23.6,747}},lvl=45,qgs={106250},sourceQuests=a[557]}),
 q(46677,{c=a[68],lvl=45,maps={646},qgs={120070,120084},sourceQuests={46675,46676}}),
@@ -13476,14 +13482,14 @@ q(41918,{c=a[68],coords={{51.3,36.8,116}},lvl=10,qgs={104535},sourceQuests={4064
 q(40644,{c=a[68],coords={{56.2,32,80}},lvl=10,qgs={101064},sourceQuests={41106}}),
 q(42432,{c=a[68],coords={a[575]},lvl=45,qgs=a[49],sourceQuests={42056}}),
 q(42430,{c=a[68],coords={{73.8,38.4,641}},lvl=10,qgs={107392},sourceQuests={42440},g={
-o(250386,{c=a[68],coords={{54.9,20.5,680}},g={
+o(250386,{c=a[68],coords={{54.9,20.5,693}},g={
 s(76524,128860,{b=1,c=a[68],f=20,spellID=197886,g={
 artifact(426,{c=a[68],displayID=66779,races=a[954]}),
 artifact(427,{c=a[68],displayID=66777,races=a[821]}),
 artifact(428,{c=a[68],displayID=66778,races=a[265]}),
 artifact(430,{c=a[68],displayID=66780,races=a[516]})}})}})}}),
 q(41790,{c=a[68],coords={{50.5,37.6,116}},lvl=10,qgs={104385},sourceQuests={41782}}),
-q(44232,{c=a[68],coords={{40,24.8,747}},lvl=45,qgs={112323},g={
+q(44232,{c=a[68],coords={{40,24.8,747},{40.2,18.7,747}},lvl=45,qgs={112323},g={
 s(80998,139726,{b=1,c=a[68],f=5,lvl=45})}}),
 q(42129,{c=a[68],coords={a[512]},lvl=45,qgs={98008},sourceQuests={42045}}),
 q(46674,{c=a[68],coords={{44.6,51.8,747}},lvl=45,qgs=a[49],sourceQuests={45426}}),
@@ -13498,7 +13504,8 @@ q(42053,{c=a[68],coords={{61.4,65.6,760}},lvl=45,qgs={107132},sourceQuests={4205
 q(42040,{c=a[68],coords={{44.6,50,747}},lvl=45,qgs={103832},sourceQuests={42037}}),
 q(46924,{c=a[68],lvl=45,maps={80},qgs={120032,120041},sourceQuests={45498,45528}}),
 q(40645,{c=a[68],coords={{66.8,60.4,80}},lvl=10,qgs={103875},sourceQuests={40644}}),
-q(41782,{c=a[68],coords={{39.2,18.7,641}},lvl=10,qgs={101259},sourceQuests={41468}}),
+q(41782,{c=a[68],coords={{39.2,18.7,641}},lvl=10,qgs={101259,104535},sourceQuests={41468},g={
+i(135563,{c=a[68]})}}),
 q(46675,{c=a[68],coords={{43.5,58.3,646}},lvl=45,qgs={120070,120084},sourceQuests={46674},g={
 i(147282,{c=a[68]})}}),
 q(42035,{c=a[68],coords={{56.8,71.5,641}},lvl=10,qgs={105948},sourceQuests={42034}}),

@@ -29843,25 +29843,6 @@ s(77044)/i(133945),	--
 s(77144)/i(133945),	--
 s(77154)/i(133969),	--
 s(77175)/i(133982),	--
-s(77195)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77196)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77197)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77198)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77199)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77200)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77201)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77202)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77203)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77204)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77205)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77206)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77207)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77208)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77209)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77210)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77211)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77212)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(77213)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
 s(77267)/i(134030),	--
 s(77268)/i(134035),	--
 s(77269)/i(134035),	--
@@ -29886,26 +29867,6 @@ s(77560)/i(134277),	--
 s(77593)/i(134320),	--
 s(77594)/i(134321),	--
 s(77627)/i(134364),	--
-s(77749)/i(134548),	-- Helya's Wrath \\ a's Wrath
-s(77800)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77801)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77802)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77803)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77804)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77805)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77806)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77807)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77808)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77809)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77810)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77811)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77812)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77813)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77814)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77815)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77816)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77817)/i(134562),	-- Odyn's Fury \\ 's Fury
-s(77818)/i(134562),	-- Odyn's Fury \\ 's Fury
 s(77907)/i(134842),	--
 s(77908)/i(134843),	--
 s(77909)/i(134844),	--
@@ -30056,44 +30017,6 @@ s(78978)/i(137382),	-- The Apex Predator's Claw \\ Apex Predator's Claw
 s(79110)/i(137553),	-- Black Alpha Chest \\ k Alpha Chest
 s(79111)/i(137554),	-- Purple Belt \\ le Belt
 s(79112)/i(137555),	--
-s(79114)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79115)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79116)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79117)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79118)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79119)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79120)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79121)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79122)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79123)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79124)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79125)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79126)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79127)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79128)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79129)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79130)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79131)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79132)/i(137581),	-- Test Artifact 1 \\ Artifact 1
-s(79134)/i(137582),	-- Ashbringer \\ ringer
-s(79135)/i(137582),	-- Ashbringer \\ ringer
-s(79136)/i(137582),	-- Ashbringer \\ ringer
-s(79137)/i(137582),	-- Ashbringer \\ ringer
-s(79138)/i(137582),	-- Ashbringer \\ ringer
-s(79139)/i(137582),	-- Ashbringer \\ ringer
-s(79140)/i(137582),	-- Ashbringer \\ ringer
-s(79141)/i(137582),	-- Ashbringer \\ ringer
-s(79142)/i(137582),	-- Ashbringer \\ ringer
-s(79143)/i(137582),	-- Ashbringer \\ ringer
-s(79144)/i(137582),	-- Ashbringer \\ ringer
-s(79145)/i(137582),	-- Ashbringer \\ ringer
-s(79146)/i(137582),	-- Ashbringer \\ ringer
-s(79147)/i(137582),	-- Ashbringer \\ ringer
-s(79148)/i(137582),	-- Ashbringer \\ ringer
-s(79149)/i(137582),	-- Ashbringer \\ ringer
-s(79150)/i(137582),	-- Ashbringer \\ ringer
-s(79151)/i(137582),	-- Ashbringer \\ ringer
-s(79152)/i(137582),	-- Ashbringer \\ ringer
 s(79348)/i(137603),	--
 s(79349)/i(137603),	--
 s(79375)/i(137619),	--
@@ -30102,44 +30025,6 @@ s(79381)/i(137629),	--
 s(79382)/i(137645),	--
 s(79383)/i(137646),	--
 s(79384)/i(137647),	--
-s(79386)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79387)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79388)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79389)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79390)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79391)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79392)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79393)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79394)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79395)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79396)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79397)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79398)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79399)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79400)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79401)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79402)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79403)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79404)/i(137660),	-- The Silver Hand \\ Silver Hand
-s(79406)/i(137661),	-- Truthguard \\ hguard
-s(79407)/i(137661),	-- Truthguard \\ hguard
-s(79408)/i(137661),	-- Truthguard \\ hguard
-s(79409)/i(137661),	-- Truthguard \\ hguard
-s(79410)/i(137661),	-- Truthguard \\ hguard
-s(79411)/i(137661),	-- Truthguard \\ hguard
-s(79412)/i(137661),	-- Truthguard \\ hguard
-s(79413)/i(137661),	-- Truthguard \\ hguard
-s(79414)/i(137661),	-- Truthguard \\ hguard
-s(79415)/i(137661),	-- Truthguard \\ hguard
-s(79416)/i(137661),	-- Truthguard \\ hguard
-s(79417)/i(137661),	-- Truthguard \\ hguard
-s(79418)/i(137661),	-- Truthguard \\ hguard
-s(79419)/i(137661),	-- Truthguard \\ hguard
-s(79420)/i(137661),	-- Truthguard \\ hguard
-s(79421)/i(137661),	-- Truthguard \\ hguard
-s(79422)/i(137661),	-- Truthguard \\ hguard
-s(79423)/i(137661),	-- Truthguard \\ hguard
-s(79424)/i(137661),	-- Truthguard \\ hguard
 s(79425)/i(137662),	--
 s(79437)/i(138034),	--
 s(79438)/i(138035),	--
@@ -30245,10 +30130,6 @@ s(80468)/i(139132),	--
 s(80485)/i(139174),	--
 s(80487)/i(139186),	--
 s(80511)/i(139210),	--
-s(80692)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(80693)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(80694)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
-s(80695)/i(128824),	-- Tome of the Silver Hand \\ of the Silver Hand
 s(80801)/i(139414),	--
 s(80913)/i(139601),	-- Harpy-Hunter's Gloves \\ y-Hunter's Gloves
 s(80915)/i(139602),	-- Valarjar Runepriest's Vesture \\ rjar Runepriest's Vesture
@@ -36142,13 +36023,6 @@ s(288356)/i(239727),	-- Leyline Scholar's Robe
 s(288357)/i(239728),	-- Wine-Dark Royal Robe \\ Wine-dark Royal Robe
 s(288358)/i(239732),	-- Crescent Vale Robe
 s(288359)/i(239733),	-- Hrydshal Runespeaker Robe
-s(288360)/i(239734),	-- Antoran Guard's Golden Shawl
-s(288361)/i(239735),	-- Antoran Guard's Golden Drape
-s(288362)/i(239736),	-- Antoran Guard's Golden Cloak
-s(288363)/i(239737),	-- Searaider's Drape
-s(288364)/i(239738),	-- Searaider's Shroud
-s(288365)/i(239739),	-- Searaider's Wrap
-s(288366)/i(239740),	-- Searaider's Cloak
 s(288367)/i(239741),	-- Blood Knight's Plate Shawl
 s(288368)/i(239742),	-- Blood Knight's Plate Drape
 s(288369)/i(239743),	-- Blood Knight's Plate Cloak
@@ -36160,22 +36034,6 @@ s(288374)/i(239748),	-- Blood Knight's Plate Gauntlets
 s(288375)/i(239749),	-- Blood Knight's Plate Breastplate
 s(288376)/i(239750),	-- Blood Knight's Plate Sabatons
 s(288377)/i(239751),	-- Blood Knight's Plate Girdle
-s(288378)/i(239752),	-- Armplates of the Valhalas Champion
-s(288379)/i(239753),	-- Spaulders of the Valhalas Champion
-s(288380)/i(239754),	-- Wargreaves of the Valhalas Champion
-s(288381)/i(239755),	-- Helmet of the Valhalas Champion
-s(288383)/i(239765),	-- Handguards of the Valhalas Champion
-s(288384)/i(239766),	-- Breastplate of the Valhalas Champion
-s(288385)/i(239767),	-- Warboots of the Valhalas Champion
-s(288386)/i(239768),	-- Waistguard of the Valhalas Champion
-s(288387)/i(239769),	-- Jarl's Battlehorned Armguards
-s(288388)/i(239770),	-- Jarl's Battlehorned Epaulets
-s(288389)/i(239771),	-- Jarl's Battlehorned Legguards
-s(288390)/i(239772),	-- Jarl's Battlehorned Faceguard
-s(288391)/i(239773),	-- Jarl's Battlehorned Gauntlets
-s(288392)/i(239774),	-- Jarl's Battlehorned Battleplate
-s(288393)/i(239775),	-- Jarl's Battlehorned Sabatons
-s(288394)/i(239776),	-- Jarl's Battlehorned Waistguard
 s(288395)/i(239777),	-- Valorborne Dragonscale Vambraces
 s(288396)/i(239778),	-- Valorborne Dragonscale Epaulets
 s(288397)/i(239779),	-- Valorborne Dragonscale Breeches
@@ -36188,23 +36046,6 @@ s(288403)/i(239785),	-- Emerald Drake Hunter's Shoulderpads
 s(288404)/i(239786),	-- [DNT]
 s(288405)/i(239787),	-- [DNT]
 s(288406)/i(239788),	-- [DNT]
-s(288407)/i(239789),	-- Sunborne Runemail Hauberk
-s(288408)/i(239790),	-- Sunborne Runemail Vambraces
-s(288409)/i(239791),	-- Sunborne Runemail Shoulderguards
-s(288410)/i(239792),	-- Sunborne Runemail Legguards
-s(288411)/i(239793),	-- Sunborne Runemail Mask
-s(288412)/i(239794),	-- Sunborne Runemail Grips
-s(288413)/i(239795),	-- Sunborne Runemail Chestguard
-s(288414)/i(239796),	-- Sunborne Runemail Greaves
-s(288415)/i(239797),	-- Sunborne Runemail Girdle
-s(288416)/i(239798),	-- Jarl's Scalemail Wristguards
-s(288417)/i(239799),	-- Jarl's Scalemail Pinions
-s(288418)/i(239800),	-- Jarl's Scalemail Leggings
-s(288419)/i(239801),	-- Jarl's Scalemail Helmet
-s(288420)/i(239802),	-- Jarl's Scalemail Handguards
-s(288421)/i(239803),	-- Jarl's Scalemail Mail
-s(288422)/i(239804),	-- Jarl's Scalemail Sabatons
-s(288423)/i(239805),	-- Jarl's Scalemail Belt
 s(288424)/i(239806),	-- Mountainborne Bindings
 s(288425)/i(239807),	-- Mountainborne Trousers
 s(288426)/i(239808),	-- Mountainborne Shoulders
@@ -36221,57 +36062,6 @@ s(288436)/i(239818),	-- Grips of the Hunting Dream
 s(288437)/i(239819),	-- Vest of the Hunting Dream
 s(288438)/i(239820),	-- Boots of the Hunting Dream
 s(288439)/i(239821),	-- Waistband of the Hunting Dream
-s(288440)/i(239822),	-- Fel-Bloodied Shawl \\ Fel-bloodied Shawl
-s(288441)/i(239823),	-- Fel-Bloodied Drape \\ Fel-bloodied Drape
-s(288442)/i(239824),	-- Fel-Bloodied Overcloak \\ Fel-bloodied Overcloak
-s(288443)/i(239825),	-- Fel-Bloodied Cloak \\ Fel-bloodied Cloak
-s(288444)/i(239826),	-- Fel-Bloodied Cuffs \\ Fel-bloodied Cuffs
-s(288445)/i(239827),	-- Fel-Bloodied Shoulderguard \\ Fel-bloodied Shoulderguard
-s(288446)/i(239828),	-- Fel-Bloodied Pants \\ Fel-bloodied Pants
-s(288447)/i(239829),	-- Fel-Bloodied Headgear \\ Fel-bloodied Headgear
-s(288448)/i(239830),	-- Fel-Bloodied Gloves \\ Fel-bloodied Gloves
-s(288449)/i(239831),	-- Fel-Bloodied Chestguard \\ Fel-bloodied Chestguard
-s(288450)/i(239832),	-- Fel-Bloodied Striders \\ Fel-bloodied Striders
-s(288451)/i(239833),	-- Fel-Bloodied Cinch \\ Fel-bloodied Cinch
-s(288452)/i(239834),	-- Blazing Dreamscribed Gloves
-s(288453)/i(239835),	-- Blazing Dreamscribed Bindings
-s(288454)/i(239836),	-- Blazing Dreamscribed Treads
-s(288455)/i(239837),	-- Blazing Dreamscribed Pantaloons
-s(288456)/i(239838),	-- Blazing Dreamscribed Sash
-s(288457)/i(239839),	-- Blazing Dreamscribed Robe
-s(288458)/i(239840),	-- Blazing Dreamscribed Chestwrap
-s(288459)/i(239841),	-- Blazing Dreamscribed Cowl
-s(288460)/i(239842),	-- Earthrune Skirt
-s(288461)/i(239843),	-- Skyrune Skirt
-s(288462)/i(239844),	-- Nightrune Skirt
-s(288463)/i(239845),	-- Argussian Demonsbane Shawl
-s(288464)/i(239846),	-- Argussian Demonsbane Drape
-s(288465)/i(239847),	-- Argussian Demonsbane Cloak
-s(288466)/i(239848),	-- Argussian Demonsbane Wraps
-s(288467)/i(239849),	-- Argussian Demonsbane Mantle
-s(288468)/i(239850),	-- Argussian Demonsbane Legguards
-s(288469)/i(239851),	-- Argussian Demonsbane Cap
-s(288470)/i(239852),	-- Argussian Demonsbane Grips
-s(288471)/i(239853),	-- Argussian Demonsbane Tunic
-s(288472)/i(239854),	-- Argussian Demonsbane Striders
-s(288473)/i(239855),	-- Argussian Demonsbane Girdle
-s(288474)/i(239856),	-- Antoran Guard's Golden Vambraces
-s(288475)/i(239857),	-- Antoran Guard's Golden Epaulets
-s(288476)/i(239858),	-- Antoran Guard's Golden Legguards
-s(288477)/i(239859),	-- Antoran Guard's Golden Faceguard
-s(288478)/i(239860),	-- Antoran Guard's Golden Handguards
-s(288479)/i(239861),	-- Antoran Guard's Golden Waistguard
-s(288480)/i(239862),	-- Antoran Guard's Golden Breastplate
-s(288481)/i(239863),	-- Antoran Guard's Golden Jackboots
-s(288482)/i(239864),	-- Hauberk of Eredathian Sacrifice
-s(288483)/i(239865),	-- Wristguards of Eredathian Sacrifice
-s(288484)/i(239866),	-- Spaulders of Eredathian Sacrifice
-s(288485)/i(239867),	-- Wargreaves of Eredathian Sacrifice
-s(288486)/i(239868),	-- Helm of Eredathian Sacrifice
-s(288487)/i(239869),	-- Grips of Eredathian Sacrifice
-s(288488)/i(239870),	-- Chainmail of Eredathian Sacrifice
-s(288489)/i(239871),	-- Stompers of Eredathian Sacrifice
-s(288490)/i(239872),	-- Girdle of Eredathian Sacrifice
 s(288491)/i(239873),	-- Stygian Hide Shawl
 s(288492)/i(239874),	-- Stygian Hide Drape
 s(288493)/i(239875),	-- Stygian Hide Cape
@@ -36284,206 +36074,25 @@ s(288499)/i(239881),	-- Stygian Hide Tunic
 s(288500)/i(239882),	-- Stygian Hide Waders
 s(288501)/i(239883),	-- Stygian Hide Girdle
 s(288502)/i(239884),	-- Gladeraider's Shroud
-s(288503)/i(239885),	-- Gladeraider's Cloak
 s(288504)/i(239886),	-- Gladeraider's Drape
 s(288505)/i(239887),	-- Gladeraider's Wrap
-s(288506)/i(239888),	-- Wristguards of the Archdruid's Nightmare
-s(288507)/i(239889),	-- Gambeson of the Archdruid's Nightmare
-s(288508)/i(239890),	-- Dreamseeker's Bindings
-s(288509)/i(239891),	-- Dreamseeker's Epaulets
-s(288510)/i(239892),	-- Dreamseeker's Pants
-s(288511)/i(239893),	-- Dreamseeker's Cowl
-s(288512)/i(239894),	-- Dreamseeker's Gloves
-s(288513)/i(239895),	-- Dreamseeker's Doublet
-s(288514)/i(239896),	-- Dreamseeker's Slippers
-s(288515)/i(239897),	-- Dreamseeker's Cinch
-s(288516)/i(239898),	-- Dreamwatcher's Wraps
-s(288517)/i(239899),	-- Dreamwatcher's Shoulders
-s(288518)/i(239900),	-- Dreamwatcher's Leggings
-s(288519)/i(239901),	-- Dreamwatcher's Hood
-s(288520)/i(239902),	-- Dreamwatcher's Gloves
-s(288521)/i(239903),	-- Dreamwatcher's Chestwrap
-s(288522)/i(239904),	-- Dreamwatcher's Treads
-s(288523)/i(239905),	-- Dreamwatcher's Cinch
-s(288524)/i(239906),	-- Seaborne Wraps
-s(288525)/i(239907),	-- Seaborne Pants
-s(288526)/i(239908),	-- Seaborne Spaulders
-s(288527)/i(239909),	-- Seaborne Cowl
-s(288528)/i(239910),	-- Seaborne Gloves
-s(288529)/i(239911),	-- Seaborne Vest
-s(288530)/i(239912),	-- Seaborne Striders
-s(288531)/i(239913),	-- Seaborne Waistband
-s(288532)/i(239914),	-- Slayer's Silver Bindings
-s(288533)/i(239915),	-- Slayer's Silver Shoulders
-s(288534)/i(239916),	-- Slayer's Silver Legwraps
-s(288535)/i(239917),	-- Slayer's Silver Headgear
-s(288536)/i(239918),	-- Slayer's Silver Gloves
-s(288537)/i(239919),	-- Slayer's Silver Vest
-s(288538)/i(239920),	-- Slayer's Silver Striders
-s(288539)/i(239921),	-- Slayer's Silver Girdle
-s(288540)/i(239922),	-- Slayer's Golden Cuffs
-s(288541)/i(239923),	-- Slayer's Golden Shoulderguard
-s(288542)/i(239924),	-- Slayer's Golden Legwraps
-s(288543)/i(239925),	-- Slayer's Golden Headgear
-s(288544)/i(239926),	-- Slayer's Golden Gloves
-s(288545)/i(239927),	-- Slayer's Golden Harness
-s(288546)/i(239928),	-- Val'kyr's Armguards
-s(288547)/i(239929),	-- Val'kyr's Shoulderguards
-s(288548)/i(239930),	-- Val'kyr's Wargreaves
-s(288549)/i(239931),	-- Val'kyr's Faceguard
-s(288550)/i(239932),	-- Val'kyr's Gauntlets
-s(288551)/i(239933),	-- Val'kyr's Chestpiece
-s(288552)/i(239934),	-- Val'kyr's Jackboots
-s(288553)/i(239935),	-- Val'kyr's Waistguard
-s(288554)/i(239936),	-- Slayer's Golden Waders
-s(288555)/i(239937),	-- Slayer's Golden Cinch
-s(288556)/i(239938),	-- Ruby Drake Hunter's Vambraces
-s(288557)/i(239939),	-- Ruby Drake Hunter's Breeches
-s(288558)/i(239940),	-- Ruby Drake Hunter's Epaulets
-s(288559)/i(239941),	-- Ruby Drake Hunter's Helmet
-s(288560)/i(239942),	-- Ruby Drake Hunter's Gauntlets
-s(288561)/i(239943),	-- Ruby Drake Hunter's Chainmail
-s(288562)/i(239944),	-- Ruby Drake Hunter's Sollerets
-s(288563)/i(239945),	-- Ruby Drake Hunter's Belt
-s(288564)/i(239946),	-- Storm Champion's Wristguards
-s(288565)/i(239947),	-- Storm Champion's Legguards
-s(288566)/i(239948),	-- Storm Champion's Shoulderguards
-s(288567)/i(239949),	-- Storm Champion's Faceguard
-s(288568)/i(239950),	-- Storm Champion's Handguards
-s(288569)/i(239951),	-- Storm Champion's Chestpiece
-s(288570)/i(239952),	-- Storm Champion's Stompers
-s(288571)/i(239953),	-- Storm Champion's Greatbelt
-s(288572)/i(239954),	-- Dream Defender's Emerald Armguards
-s(288573)/i(239955),	-- Dream Defender's Emerald Pauldrons
-s(288574)/i(239956),	-- Dream Defender's Emerald Wargreaves
-s(288575)/i(239957),	-- Dream Defender's Emerald Helmet
-s(288576)/i(239958),	-- Dream Defender's Emerald Handguards
 s(288577)/i(239959),	-- Fel-marked Hauberk
 s(288578)/i(239960),	-- Fel-marked Vambraces
 s(288579)/i(239961),	-- Fel-marked Pinions
 s(288580)/i(239962),	-- Fel-marked Wargreaves
-s(288581)/i(239963),	-- Dream Defender's Emerald Battleplate
-s(288582)/i(239964),	-- Dream Defender's Emerald Jackboots
-s(288583)/i(239965),	-- Dream Defender's Emerald Greatbelt
 s(288584)/i(239966),	-- Fel-marked Faceguard
 s(288585)/i(239967),	-- Fel-marked Handguards
 s(288586)/i(239968),	-- Fel-marked Chestguard
 s(288587)/i(239969),	-- Fel-marked Greaves
 s(288588)/i(239970),	-- Fel-marked Cinch
 s(288589)/i(239971),	-- Firewurm Dragonscale Bracers
-s(288590)/i(239972),	-- Skyborne Wraps
-s(288591)/i(239973),	-- Skyborne Breeches
-s(288592)/i(239974),	-- Skyborne Spaulders
-s(288593)/i(239975),	-- Skyborne Helm
-s(288594)/i(239976),	-- Skyborne Gloves
-s(288595)/i(239977),	-- Skyborne Harness
-s(288596)/i(239978),	-- Skyborne Boots
-s(288597)/i(239979),	-- Skyborne Belt
-s(288598)/i(239980),	-- Earthweald Dragonscale Epaulets
-s(288599)/i(239981),	-- Earthweald Dragonscale Breeches
-s(288600)/i(239982),	-- Earthweald Dragonscale Coif
-s(288601)/i(239983),	-- Earthweald Dragonscale Gauntlets
-s(288602)/i(239984),	-- Earthweald Dragonscale Haubergeon
-s(288603)/i(239985),	-- Skyrune Robe
-s(288604)/i(239986),	-- Skyrune Cuffs
-s(288605)/i(239987),	-- Skyrune Epaulets
-s(288606)/i(239988),	-- Skyrune Pantaloons
-s(288607)/i(239989),	-- Earthweald Dragonscale Stompers
-s(288608)/i(239990),	-- Earthweald Dragonscale Cinch
-s(288609)/i(239991),	-- Dreamweald Dragonscale Bracers
-s(288610)/i(239992),	-- Dreamweald Dragonscale Shoulderguards
-s(288611)/i(239993),	-- Skyrune Cover
-s(288612)/i(239994),	-- Skyrune Handwraps
-s(288613)/i(239995),	-- Skyrune Doublet
-s(288614)/i(239996),	-- Skyrune Slippers
-s(288615)/i(239997),	-- Skyrune Cinch
-s(288616)/i(239998),	-- Earthrune Robe
-s(288617)/i(239999),	-- Earthrune Wristwraps
-s(288618)/i(240000),	-- Earthrune Shoulders
-s(288619)/i(240001),	-- Earthrune Pants
-s(288620)/i(240002),	-- Earthrune Hood
-s(288621)/i(240003),	-- Earthrune Handwraps
-s(288622)/i(240004),	-- Dreamweald Dragonscale Legguards
-s(288623)/i(240005),	-- Dreamweald Dragonscale Mask
-s(288624)/i(240006),	-- Earthrune Raiment
-s(288625)/i(240007),	-- Earthrune Boots
-s(288626)/i(240008),	-- Earthrune Cord
-s(288627)/i(240009),	-- Nightrune Robe
-s(288628)/i(240010),	-- Nightrune Wristwraps
-s(288629)/i(240011),	-- Nightrune Mantle
-s(288630)/i(240012),	-- Nightrune Pantaloons
-s(288631)/i(240013),	-- Nightrune Cover
-s(288632)/i(240014),	-- Nightrune Gloves
-s(288633)/i(240015),	-- Nightrune Doublet
-s(288634)/i(240016),	-- Nightrune Footwraps
-s(288635)/i(240017),	-- Dreamweald Dragonscale Gauntlets
-s(288778)/i(240219),	-- Dreamweald Dragonscale Chestguard
-s(288779)/i(240220),	-- Dreamweald Dragonscale Sabatons
-s(288780)/i(240221),	-- Dreamweald Dragonscale Waistband
-s(288781)/i(240222),	-- Gladeraider's Wristguards
-s(288782)/i(240223),	-- Gladeraider's Shoulderguard
-s(288783)/i(240224),	-- Gladeraider's Pants
-s(288784)/i(240225),	-- Gladeraider's Cap
-s(288785)/i(240226),	-- Gladeraider's Grips
-s(288786)/i(240227),	-- Nightrune Cinch
-s(288787)/i(240228),	-- Highpeak Dragonscale Wristguards
-s(288788)/i(240229),	-- Highpeak Dragonscale Epaulets
-s(288789)/i(240230),	-- Highpeak Dragonscale Wargreaves
-s(288790)/i(240231),	-- Highpeak Dragonscale Faceguard
-s(288791)/i(240232),	-- Gladeraider's Chestguard
-s(288792)/i(240233),	-- Gladeraider's Waders
-s(288793)/i(240234),	-- Gladeraider's Girdle
-s(288794)/i(240235),	-- Highpeak Dragonscale Grips
-s(288795)/i(240236),	-- Highpeak Dragonscale Chainmail
-s(288796)/i(240237),	-- Highpeak Dragonscale Stompers
-s(288797)/i(240238),	-- Highpeak Dragonscale Clasp
-s(288798)/i(240239),	-- Searaider's Spaulders
-s(288799)/i(240240),	-- Searaider's Bindings
-s(288800)/i(240241),	-- Searaider's Trousers
-s(288801)/i(240242),	-- Searaider's Cap
-s(288802)/i(240243),	-- Searaider's Gloves
-s(288803)/i(240244),	-- Searaider's Harness
-s(288804)/i(240245),	-- Searaider's Striders
-s(288805)/i(240246),	-- Searaider's Waistband
-s(288806)/i(240247),	-- Firewurm Dragonscale Shoulderguard
-s(288807)/i(240248),	-- Firewurm Dragonscale Wargreaves
-s(288808)/i(240249),	-- Firewurm Dragonscale Helmet
-s(288809)/i(240250),	-- Firewurm Dragonscale Handguards
-s(288810)/i(240251),	-- Firewurm Dragonscale Haubergeon
-s(288811)/i(240252),	-- Firewurm Dragonscale Greaves
-s(288812)/i(240253),	-- Firewurm Dragonscale Waistband
-s(288813)/i(240254),	-- Earthweald Dragonscale Vambraces
 s(288814)/i(240255),	-- Shroud of Devouring Night
-s(288815)/i(240256),	-- Thirsting Wrap
-s(288816)/i(240257),	-- Nightstalker's Wrap
 s(288818)/i(240259),	-- Shawl of Devouring Night
 s(288819)/i(240260),	-- Cape of Devouring Night
-s(288821)/i(240262),	-- Thirsting Cloak
 s(288822)/i(240263),	-- Ered'ruin Shawl
-s(288823)/i(240264),	-- Nightstalker's Cloak
 s(288824)/i(240265),	-- [DNT]
-s(288826)/i(240267),	-- Nightstalker's Shroud
 s(288828)/i(240269),	-- Ered'ruin Cloak
-s(288830)/i(240271),	-- Thirsting Shroud
-s(288831)/i(240272),	-- Stygian Silk Cape
 s(288832)/i(240273),	-- Ered'ruin Shroud
-s(288833)/i(240274),	-- Thirsting Drape
-s(288834)/i(240275),	-- Nightforged Handguards
-s(288835)/i(240276),	-- Nightforged Armplates
-s(288836)/i(240277),	-- Nightforged Greatboots
-s(288837)/i(240278),	-- Nightforged Wargreaves
-s(288838)/i(240279),	-- Nightforged Waistguard
-s(288839)/i(240280),	-- Nightforged Chestpiece
-s(288840)/i(240281),	-- Nightforged Shoulderguards
-s(288841)/i(240282),	-- Nightforged Warhelm
-s(288842)/i(240283),	-- Bloodforged Handguards
-s(288843)/i(240284),	-- Bloodforged Vambraces
-s(288844)/i(240285),	-- Bloodforged Sabatons
-s(288845)/i(240286),	-- Bloodforged Wargreaves
-s(288846)/i(240287),	-- Bloodforged Girdle
-s(288847)/i(240288),	-- Bloodforged Chestplate
-s(288848)/i(240289),	-- Bloodforged Shoulderguards
-s(288849)/i(240290),	-- Bloodforged Warhelm
 s(288858)/i(240299),	-- Handguards of Devouring Night
 s(288859)/i(240300),	-- Wristguards of Devouring Night
 s(288860)/i(240301),	-- Stompers of Devouring Night
@@ -36492,30 +36101,6 @@ s(288862)/i(240303),	-- Waistband of Devouring Night
 s(288863)/i(240304),	-- Haubergeon of Devouring Night
 s(288864)/i(240305),	-- Spaulders of Devouring Night
 s(288865)/i(240306),	-- Faceguard of Devouring Night
-s(288866)/i(240307),	-- Ravensteel Handguards
-s(288867)/i(240308),	-- Ravensteel Wristguards
-s(288868)/i(240309),	-- Ravensteel Stompers
-s(288869)/i(240310),	-- Ravensteel Wargreaves
-s(288870)/i(240311),	-- Ravensteel Belt
-s(288871)/i(240312),	-- Ravensteel Chestguard
-s(288872)/i(240313),	-- Ravensteel Pinions
-s(288873)/i(240314),	-- Ravensteel Helmet
-s(288882)/i(240323),	-- Nightstalker's Grips
-s(288883)/i(240324),	-- Nightstalker's Wraps
-s(288884)/i(240325),	-- Nightstalker's Boots
-s(288885)/i(240326),	-- Nightstalker's Trousers
-s(288886)/i(240327),	-- Nightstalker's Cinch
-s(288887)/i(240328),	-- Nightstalker's Chestguard
-s(288888)/i(240329),	-- Nightstalker's Mantle
-s(288889)/i(240330),	-- Nightstalker's Cap
-s(288890)/i(240331),	-- Thirsting Grips
-s(288891)/i(240332),	-- Thirsting Bindings
-s(288892)/i(240333),	-- Thirsting Boots
-s(288893)/i(240334),	-- Thirsting Legguards
-s(288894)/i(240335),	-- Thirsting Cinch
-s(288895)/i(240336),	-- Thirsting Harness
-s(288896)/i(240337),	-- Thirsting Mantle
-s(288897)/i(240338),	-- Thirsting Helm
 s(288906)/i(240347),	-- Gloves of Night Eternal
 s(288907)/i(240348),	-- Cuffs of Night Eternal
 s(288908)/i(240349),	-- Boots of Night Eternal
@@ -36525,15 +36110,6 @@ s(288911)/i(240352),	-- Robe of Night Eternal
 s(288912)/i(240353),	-- Vestments of Night Eternal
 s(288913)/i(240354),	-- Amice of Night Eternal
 s(288914)/i(240355),	-- Guise of Night Eternal
-s(288915)/i(240356),	-- Sanguine Oath Handwraps
-s(288916)/i(240357),	-- Sanguine Oath Wristwraps
-s(288917)/i(240358),	-- Sanguine Oath Treads
-s(288918)/i(240359),	-- Sanguine Oath Legwraps
-s(288919)/i(240360),	-- Sanguine Oath Cinch
-s(288920)/i(240361),	-- Sanguine Oath Robe
-s(288921)/i(240362),	-- Sanguine Oath Vestments
-s(288922)/i(240363),	-- Sanguine Oath Shoulders
-s(288923)/i(240364),	-- Sanguine Oath Cowl
 s(288933)/i(240374),	-- Leyline Defender's Handguards
 s(288934)/i(240375),	-- Leyline Defender's Wristguards
 s(288935)/i(240376),	-- Leyline Defender's Jackboots
@@ -36542,14 +36118,6 @@ s(288937)/i(240378),	-- Leyline Defender's Greatbelt
 s(288938)/i(240379),	-- Leyline Defender's Chestpiece
 s(288939)/i(240380),	-- Leyline Defender's Epaulets
 s(288940)/i(240381),	-- Leyline Defender's Faceguard
-s(288949)/i(240390),	-- Suramar Silver Handguards
-s(288950)/i(240391),	-- Suramar Silver Wristguards
-s(288951)/i(240392),	-- Suramar Silver Jackboots
-s(288952)/i(240393),	-- Suramar Silver Legguards
-s(288953)/i(240394),	-- Suramar Silver Girdle
-s(288954)/i(240395),	-- Suramar Silver Breastplate
-s(288955)/i(240396),	-- Suramar Silver Mantle
-s(288956)/i(240397),	-- Suramar Silver Greathelm
 s(288957)/i(240398),	-- Darkwatcher Grips
 s(288958)/i(240399),	-- Darkwatcher Bracers
 s(288959)/i(240400),	-- Darkwatcher Sabatons
@@ -36558,14 +36126,6 @@ s(288961)/i(240402),	-- Darkwatcher Cinch
 s(288962)/i(240403),	-- Darkwatcher Chestguard
 s(288963)/i(240404),	-- Darkwatcher Pauldrons
 s(288964)/i(240405),	-- Darkwatcher Faceguard
-s(288973)/i(240414),	-- Gauntlets of the Nightmare's Embrace
-s(288974)/i(240415),	-- Bracers of the Nightmare's Embrace
-s(288975)/i(240416),	-- Boots of the Nightmare's Embrace
-s(288976)/i(240417),	-- Breeches of the Nightmare's Embrace
-s(288977)/i(240418),	-- Cinch of the Nightmare's Embrace
-s(288978)/i(240419),	-- Chestguard of the Nightmare's Embrace
-s(288979)/i(240420),	-- Pinions of the Nightmare's Embrace
-s(288980)/i(240421),	-- Helmet of the Nightmare's Embrace
 s(288981)/i(240422),	-- Ambervale Bone Grips
 s(288982)/i(240423),	-- Ambervale Bone Wraps
 s(288983)/i(240424),	-- Ambervale Bone Boots
@@ -36593,15 +36153,6 @@ s(289013)/i(240454),	-- Moonfall Robe
 s(289014)/i(240455),	-- Moonfall Raiment
 s(289015)/i(240456),	-- Moonfall Shoulders
 s(289016)/i(240457),	-- Moonfall Cover
-s(289017)/i(240458),	-- Terrorcloth Handwraps
-s(289018)/i(240459),	-- Terrorcloth Cuffs
-s(289019)/i(240460),	-- Terrorcloth Footwraps
-s(289020)/i(240461),	-- Terrorcloth Leggings
-s(289021)/i(240462),	-- Terrorcloth Cinch
-s(289022)/i(240463),	-- Terrorcloth Robe
-s(289023)/i(240464),	-- Terrorcloth Raiment
-s(289024)/i(240465),	-- Terrorcloth Amice
-s(289025)/i(240466),	-- Terrorcloth Cowl
 s(289096)/i(240539),	-- Xorothian Gauntlets
 s(289097)/i(240540),	-- Xorothian Wristguards
 s(289098)/i(240541),	-- Xorothian Jackboots
@@ -36647,17 +36198,8 @@ s(289137)/i(240580),	-- Garothi Drape
 s(289138)/i(240581),	-- Garothi Shroud
 s(289139)/i(240582),	-- Garothi Shawl
 s(289140)/i(240583),	-- Garothi Cloak
-s(289141)/i(240584),	-- Stygian Silk Drape
-s(289142)/i(240585),	-- Stygian Silk Shroud
-s(289143)/i(240586),	-- Stygian Silk Gloves
-s(289144)/i(240587),	-- Stygian Silk Armbands
-s(289145)/i(240588),	-- Stygian Silk Slippers
-s(289146)/i(240589),	-- Stygian Silk Trousers
-s(289147)/i(240590),	-- Stygian Silk Sash
-s(289148)/i(240591),	-- Stygian Silk Robe
-s(289149)/i(240592),	-- Stygian Silk Raiment
-s(289150)/i(240593),	-- Stygian Silk Shoulderpads
-s(289151)/i(240594),	-- Stygian Silk Hood
+s(289676)/i(241727),	-- Stygian Silk Shroud
+s(298396)/i(251827),	-- Stygian Silk Cloak
 s(289152)/i(240595),	-- Praetorium Guard's Shawl
 s(289153)/i(240596),	-- Praetorium Guard's Shroud
 s(289154)/i(240597),	-- Praetorium Guard's Drape
@@ -36758,40 +36300,6 @@ s(289387)/i(240830),	-- Shrinebreaker's Grips
 s(289532)/i(241221),	-- Riven Priesthood Robe
 s(289533)/i(241222),	-- Oronaar Disciple's Hauberk
 s(289534)/i(241223),	-- Cloak of Devouring Night
-s(289535)/i(241224),	-- Emerald Drake Hunter's Tunic
-s(289536)/i(241225),	-- Emerald Drake Hunter's Pants
-s(289537)/i(241226),	-- Emerald Drake Hunter's Boots
-s(289538)/i(241227),	-- Emerald Drake Hunter's Coif
-s(289539)/i(241228),	-- Emerald Drake Hunter's Gloves
-s(289540)/i(241229),	-- Emerald Drake Hunter's Bracers
-s(289541)/i(241230),	-- Emerald Drake Hunter's Belt
-s(289551)/i(241242),	-- Hologemmed Bracers
-s(289552)/i(241243),	-- Hologemmed Hoofguards
-s(289553)/i(241244),	-- Hologemmed Legplates
-s(289554)/i(241245),	-- Hologemmed Girdle
-s(289555)/i(241246),	-- Hologemmed Gloves
-s(289556)/i(241247),	-- Hologemmed Pauldrons
-s(289557)/i(241248),	-- Hologemmed Gorget
-s(289558)/i(241249),	-- Hologemmed Chestguard
-s(289559)/i(241250),	-- Crimson Vengeance Bracers
-s(289560)/i(241251),	-- Crimson Vengeance Hoofguards
-s(289561)/i(241252),	-- Crimson Vengeance Legplates
-s(289562)/i(241253),	-- Crimson Vengeance Girdle
-s(289563)/i(241254),	-- Crimson Vengeance Gloves
-s(289564)/i(241255),	-- Crimson Vengeance Pauldrons
-s(289565)/i(241256),	-- Crimson Vengeance Gorget
-s(289566)/i(241257),	-- Crimson Vengeance Chestguard
-s(289567)/i(241258),	-- Vineyard Red Shal'dorei Crown
-s(289568)/i(241259),	-- Vineyard Red Shal'dorei Mantle
-s(289569)/i(241260),	-- Vineyard Red Shal'dorei Finery
-s(289570)/i(241261),	-- Vineyard Red Shal'dorei Gloves
-s(289571)/i(241262),	-- Vineyard Red Shal'dorei Belt
-s(289572)/i(241263),	-- Vineyard Red Shal'dorei Leggings
-s(289573)/i(241264),	-- Vineyard Red Shal'dorei Slippers
-s(289574)/i(241265),	-- Vineyard Red Shal'dorei Bracers
-s(289594)/i(241637),	-- Earthrune Band
-s(289595)/i(241638),	-- Nightrune Band
-s(289596)/i(241639),	-- Sunborne Runemail Kilt
 s(289597)/i(241640),	-- Dreadthorn Kilt
 s(289598)/i(241641),	-- Kilt of Remembered Eternity
 s(289599)/i(241642),	-- Stormborn Laminar Kilt
@@ -36831,7 +36339,6 @@ s(289671)/i(241722),	-- Shroud of the Master at Arms
 s(289672)/i(241723),	-- Shawl of the Master at Arms
 s(289673)/i(241724),	-- Lost Dragonhide Shawl
 s(289674)/i(241725),	-- Lost Dragonhide Drape
-s(289676)/i(241727),	-- Stygian Silk Shroud
 s(289679)/i(241730),	-- Gladiator's Pious Shroud
 s(289680)/i(241731),	-- Gladiator's Pious Cape
 s(289684)/i(241735),	-- Shroud of Eredar Nobility
@@ -36967,37 +36474,6 @@ s(290170)/i(242222),	-- Draping Cloak of the Forest's Nightmare
 s(290171)/i(242223),	-- Pondskipper's Draping Cloak
 s(290210)/i(242368),	-- The First Satyr's Spaulders
 s(290211)/i(242368),	-- The First Satyr's Spaulders
-s(290702)/i(242572),	-- Tome of the Silver Hand
-s(290703)/i(242572),	-- Tome of the Silver Hand
-s(290704)/i(242572),	-- Tome of the Silver Hand
-s(290705)/i(242572),	-- Tome of the Silver Hand
-s(290706)/i(242572),	-- Tome of the Silver Hand
-s(290707)/i(242572),	-- Tome of the Silver Hand
-s(290708)/i(242572),	-- Tome of the Silver Hand
-s(290709)/i(242572),	-- Tome of the Silver Hand
-s(290710)/i(242572),	-- Tome of the Silver Hand
-s(290711)/i(242572),	-- Tome of the Silver Hand
-s(290712)/i(242572),	-- Tome of the Silver Hand
-s(290713)/i(242572),	-- Tome of the Silver Hand
-s(290714)/i(242572),	-- Tome of the Silver Hand
-s(290715)/i(242572),	-- Tome of the Silver Hand
-s(290716)/i(242572),	-- Tome of the Silver Hand
-s(290717)/i(242572),	-- Tome of the Silver Hand
-s(290718)/i(242572),	-- Tome of the Silver Hand
-s(290719)/i(242572),	-- Tome of the Silver Hand
-s(290720)/i(242572),	-- Tome of the Silver Hand
-s(290721)/i(242572),	-- Tome of the Silver Hand
-s(290722)/i(242572),	-- Tome of the Silver Hand
-s(290723)/i(242572),	-- Tome of the Silver Hand
-s(290724)/i(242572),	-- Tome of the Silver Hand
-s(290725)/i(242572),	-- Tome of the Silver Hand
-s(291870)/i(243366),	-- Timerunner's Staff
-s(291871)/i(243367),	-- Timerunner's Shield
-s(291872)/i(243368),	-- Timerunner's Dagger
-s(291873)/i(243369),	-- Timerunner's Bow
-s(291874)/i(243370),	-- Timerunner's Greatsword
-s(291875)/i(243371),	-- Timerunner's Sword
-s(291876)/i(243372),	-- Timerunner's Mace
 s(292836)/i(245663),	-- Holy Golden Greatsword
 s(292837)/i(245664),	-- Holy Hologem Greatsword
 s(292991)/i(246154),	-- Marigold Remembrance Veil
@@ -37056,30 +36532,6 @@ s(295717)/i(248923),	-- Unfathomably Stale Bread
 s(295718)/i(248924),	-- Stale Mulgore Spice Bread
 s(295719)/i(248925),	-- Months Old Rye Bread \\ Months Old Sourdough Bread
 s(295720)/i(248926),	-- Stale Thirteen Grain Loaf \\ Ancient Thirteen Grain Loaf
-s(296251)/i(249678),	-- Helheim Hound's Visor
-s(296252)/i(249678),	-- Helheim Hound's Visor
-s(296254)/i(249678),	-- Helheim Hound's Visor
-s(296255)/i(249679),	-- Sovereign Valarjar Mantle
-s(296256)/i(249679),	-- Sovereign Valarjar Mantle
-s(296258)/i(249679),	-- Sovereign Valarjar Mantle
-s(296259)/i(249680),	-- Ordained Hunter's Crown
-s(296260)/i(249680),	-- Ordained Hunter's Crown
-s(296262)/i(249680),	-- Ordained Hunter's Crown
-s(296263)/i(249681),	-- Shoulders of the Dragonslayer
-s(296264)/i(249681),	-- Shoulders of the Dragonslayer
-s(296266)/i(249681),	-- Shoulders of the Dragonslayer
-s(296267)/i(249682),	-- Supreme Runecaster's Crown
-s(296268)/i(249682),	-- Supreme Runecaster's Crown
-s(296270)/i(249682),	-- Supreme Runecaster's Crown
-s(296271)/i(249683),	-- Shoulderguards of Divine Arts
-s(296272)/i(249683),	-- Shoulderguards of Divine Arts
-s(296274)/i(249683),	-- Shoulderguards of Divine Arts
-s(296275)/i(249684),	-- Horns of Unwavering Faith
-s(296276)/i(249684),	-- Horns of Unwavering Faith
-s(296278)/i(249684),	-- Horns of Unwavering Faith
-s(296279)/i(249685),	-- Mantle of Unforgotten Souls
-s(296280)/i(249685),	-- Mantle of Unforgotten Souls
-s(296282)/i(249685),	-- Mantle of Unforgotten Souls
 s(296283)/i(249716),	-- Cutlery Fanatic Backpack \\ Steel Food Fanatic Backpack
 s(296284)/i(249717),	-- Golden Food Fanatic Backpack
 s(296285)/i(249718),	-- Bronze Food Fanatic Backpack
@@ -37185,14 +36637,6 @@ s(298071)/i(250907),	-- Villager's City Blouse
 s(298072)/i(250908),	-- Villager's City Belt
 s(298073)/i(250909),	-- Villager's City Skirt
 s(298074)/i(250910),	-- Villager's City Sabatons
-s(298242)/i(251262),	-- Tidesoaked Champion's Vambraces
-s(298243)/i(251263),	-- Tidesoaked Champion's Epaulets
-s(298244)/i(251264),	-- Tidesoaked Champion's Legguards
-s(298245)/i(251265),	-- Tidesoaked Champion's Faceguard
-s(298246)/i(251266),	-- Tidesoaked Champion's Handguards
-s(298247)/i(251267),	-- Tidesoaked Champion's Waistguard
-s(298248)/i(251268),	-- Tidesoaked Champion's Breastplate
-s(298249)/i(251269),	-- Tidesoaked Champion's Jackboots
 s(298270)/i(251536),	-- Highmountain's Finest Draping Cloak
 s(298271)/i(251538),	-- Pondskipper's Cloak
 s(298272)/i(251539),	-- Tattered Highmountain Cloak
@@ -37220,7 +36664,6 @@ s(298384)/i(251801),	-- Offhand Ears of Orange Corn
 s(298385)/i(251802),	-- Offhand Ears of Purple Corn
 s(298386)/i(251803),	-- Offhand Ears of White Corn
 s(298387)/i(251804),	-- Offhand Ears of Yellow Corn
-s(298396)/i(251827),	-- Stygian Silk Cloak
 s(298409)/i(251854),	-- Bunch of Green Chiles \\ Bunch of Green Chile
 s(298410)/i(251855),	-- Bunch of Orange Chile
 s(298411)/i(251856),	-- Bunch of Red Chile
@@ -37282,94 +36725,10 @@ s(298716)/i(253230),	-- Felscorned Shalamayne \\ Felscorned Shallamayne
 s(298781)/i(253283),	-- Scythe of the Unmaker
 s(298782)/i(253284),	-- Scythe of the Unmaker
 s(298783)/i(253285),	-- Felscorned Scythe of the Unmaker
-s(298788)/i(253308),	-- Sargerei Commander's Felscorned Spaulders
-s(298789)/i(253309),	-- Sargerei Commander's Felscorned Crown
-s(298790)/i(253310),	-- Sargerei Commander's Felscorned Hauberk
-s(298791)/i(253311),	-- Sargerei Commander's Felscorned Buckle
-s(298792)/i(253312),	-- Sargerei Commander's Felscorned Chausses
-s(298793)/i(253313),	-- Sargerei Commander's Felscorned Sabatons
-s(298794)/i(253314),	-- Sargerei Commander's Felscorned Gauntlets
-s(298795)/i(253315),	-- Sargerei Commander's Felscorned Shroud \\ Sargerei Commander's Felscorned Mantle
-s(298796)/i(253317),	-- Sargerei Commander's Lightbound Spaulders
-s(298797)/i(253318),	-- Sargerei Commander's Lightbound Crown
-s(298798)/i(253319),	-- Sargerei Commander's Lightbound Hauberk
-s(298799)/i(253320),	-- Sargerei Commander's Lightbound Buckle
-s(298800)/i(253321),	-- Sargerei Commander's Lightbound Chausses
-s(298801)/i(253322),	-- Sargerei Commander's Lightbound Sabatons
-s(298802)/i(253323),	-- Sargerei Commander's Lightbound Gauntlets
-s(298803)/i(253324),	-- Sargerei Commander's Lightbound Shroud \\ Sargerei Commander's Lightbound Mantle
-s(298804)/i(253325),	-- Sargerei Commander's Voidscarred Spaulders
-s(298805)/i(253326),	-- Sargerei Commander's Voidscarred Crown
-s(298806)/i(253327),	-- Sargerei Commander's Voidscarred Hauberk
-s(298807)/i(253328),	-- Sargerei Commander's Voidscarred Buckle
-s(298808)/i(253329),	-- Sargerei Commander's Voidscarred Chausses
-s(298809)/i(253330),	-- Sargerei Commander's Voidscarred Sabatons
-s(298810)/i(253331),	-- Sargerei Commander's Voidscarred Gauntlets
-s(298811)/i(253332),	-- Sargerei Commander's Voidscarred Shroud \\ Sargerei Commander's Voidscarred Mantle
-s(298812)/i(253333),	-- Sargerei Commander's Hellforged Spaulders
-s(298813)/i(253334),	-- Sargerei Commander's Hellforged Crown
-s(298814)/i(253335),	-- Sargerei Commander's Hellforged Hauberk
-s(298815)/i(253336),	-- Sargerei Commander's Hellforged Buckle
-s(298816)/i(253337),	-- Sargerei Commander's Hellforged Chausses
-s(298817)/i(253338),	-- Sargerei Commander's Hellforged Sabatons
-s(298818)/i(253339),	-- Sargerei Commander's Hellforged Gauntlets
-s(298819)/i(253340),	-- Sargerei Commander's Hellforged Shroud \\ Sargerei Commander's Hellforged Mantle
-s(298820)/i(253344),	-- Kaldorei Queen's Sarong
-s(298821)/i(253345),	-- Kaldorei Queen's Crown
-s(298822)/i(253346),	-- Kaldorei Queen's Robe
-s(298823)/i(253347),	-- Kaldorei Queen's Sash
-s(298824)/i(253348),	-- Kaldorei Queen's Anklets
-s(298825)/i(253349),	-- Kaldorei Queen's Bangles
-s(298828)/i(253354),	-- Tideskorn Hunter's Forest Quiver
-s(298829)/i(253355),	-- Tideskorn Hunter's Wine-Dark Quiver
-s(298830)/i(253356),	-- Tideskorn Hunter's Brightsea Quiver
-s(298831)/i(253359),	-- Shadow's Rage Windrunner Quiver
-s(298832)/i(253360),	-- Sunwell's Legacy Windrunner Quiver
-s(298833)/i(253361),	-- Legendary Windrunner Quiver
-s(298834)/i(253362),	-- Fabled Windrunner Quiver
-s(298835)/i(253363),	-- Forest's Rage Windrunner Quiver
-s(298836)/i(253364),	-- Vindictive Windrunner Quiver
-s(298837)/i(253365),	-- Vengeful Windrunner Quiver
-s(298838)/i(253366),	-- Royal Blue Windrunner Quiver
-s(298839)/i(253367),	-- North Sea Blue Windrunner Quiver
-s(298840)/i(253368),	-- Sunset Windrunner Quiver
-s(298841)/i(253369),	-- Eversong Classic Windrunner Quiver
-s(298842)/i(253370),	-- Bright Blue Windrunner Quiver
-s(298843)/i(253371),	-- Shadowy Windrunner Quiver
-s(298844)/i(253372),	-- Sunrise Windrunner Quiver
-s(298845)/i(253373),	-- Royal Windrunner Quiver
-s(298846)/i(253374),	-- Valorous Red Windrunner Quiver
-s(298847)/i(253375),	-- Valorous Purple Windrunner Quiver
-s(298848)/i(253376),	-- Valorous Green Windrunner Quiver
-s(298849)/i(253377),	-- Valorous Blue Windrunner Quiver
-s(298850)/i(253380),	-- Felforged Bulwark
-s(298851)/i(253381),	-- Felforged Spitblade
-s(298852)/i(253383),	-- Suramar Arcanist's Mantle
-s(298853)/i(253384),	-- Duskwatch Manablade's Mantle
 s(298859)/i(253520),	-- Enclave Aspirant's Hatchet
-s(298860)/i(253548),	-- Legionforged Mo'arg Sword
-s(298861)/i(253549),	-- Ebonsteel Mo'arg Sword
-s(298862)/i(253550),	-- Brightsteel Mo'arg Sword
-s(298863)/i(253552),	-- Bloodculling Bone Scythe
-s(298864)/i(253553),	-- Bloodculling Bone Scythe
-s(298865)/i(253554),	-- Plagueculling Bone Scythe
-s(298866)/i(253555),	-- Plagueculling Bone Scythe
-s(298867)/i(253557),	-- Immortal Soul Mace
-s(298868)/i(253558),	-- Immortal Legion Mace
-s(298869)/i(253559),	-- Immortal Iron Mace
-s(298870)/i(253560),	-- Immortal Bronze Mace
-s(298871)/i(253562),	-- Ebonsteel Mo'arg Hornmace
-s(298872)/i(253563),	-- Bronze Mo'arg Hornmace
-s(298873)/i(253564),	-- Fel Iron Mo'arg Hornmace
 s(298874)/i(253566),	-- Lightforged Starmace
 s(298875)/i(253567),	-- Lightforged Gemsword
 s(298876)/i(253568),	-- Lightforged Gem Mace
-11.2.5.62687
-s(299247)/i(254664),	-- Blazing Dreamscribed Mantle
-11.2.5.62785
-s(299376)/i(255009),	-- Taeshalach
-s(299498)/i(255152),	-- Stormforged Spear
-s(299499)/i(255153),	-- Spear of Light
 12.0.0.63534
 s(230711)/i(233067),	--
 s(266734)/i(235225),	-- Garden Shears

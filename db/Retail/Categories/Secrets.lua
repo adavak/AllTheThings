@@ -974,9 +974,9 @@ p(382,{b=1,itemID=142223,npcID=61087,spellID=231215})}})}}),
 ah(186639,{awp=110200,description="You can use one Cartel Deal per week on your account, across three weeks, equip the granted title then collect each dead drop within Manaforge Omega (Any difficulty) then return to the quartermaster for a new quest awarding your mount.",maps={2460,2461,2462,2463,2464,2465,2466,2467,2468,2469,2470,2471},minReputation=a[39],type="i",g={
 o(555609,{cost={{"i",249702,1}},description="To the right of the first miniboss after Plexus.",maps={2460},minReputation=a[39],questID=92080,g={
 i(249711)}}),
-q(92081,{cost={{"i",249704,1}},description="On a rock past Fractillus near the edge of the map.",maps={2465},minReputation=a[39],g={
+o(555611,{cost={{"i",249704,1}},description="On a rock past Fractillus near the edge of the map.",maps={2465},minReputation=a[39],questID=92081,g={
 i(249712)}}),
-q(92079,{cost={{"i",249700,1}},description="On top of a pipe in Mana-Vent Aphis before Forgeweaver Araz.",maps={2463},minReputation=a[39],g={
+o(555610,{cost={{"i",249700,1}},description="On top of a pipe in Mana-Vent Aphis before Forgeweaver Araz.",maps={2463},minReputation=a[39],questID=92079,g={
 i(249710)}}),
 q(92082,{coords={{42,22.1,2371}},lvl=70,qgs={245344},sourceQuests={92079,92080,92081},g={
 toy(249713,{b=1}),

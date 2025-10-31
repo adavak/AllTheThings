@@ -112,7 +112,10 @@ THE_HINTERLANDS_ACTIVATED = createHeader({
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_0_3 } }, {
 	n(CLASS_HALL, {
 		cl(DRUID, bubbleDownSelf({ ["classes"] = { DRUID } }, {
-			["maps"] = { THE_DREAMGROVE },
+			["maps"] = {
+				THE_DREAMGROVE,
+				1468,	-- The Dreamgrove
+			},
 			["groups"] = {
 				o(253161, {	-- Grove Vine
 					["classes"] = { DRUID },

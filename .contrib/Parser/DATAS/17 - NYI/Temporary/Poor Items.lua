@@ -3171,7 +3171,6 @@ root(ROOTS.NeverImplemented, {
 				filter(ONE_HANDED_SWORDS, {
 					i(132920),	-- Dreadblade
 					i(134069),	-- Felblade
-					i(134548),	-- Helya's Wrath
 					i(127651),	-- Wrathweaver
 					i(138422),	-- Wrathweaver
 				}),

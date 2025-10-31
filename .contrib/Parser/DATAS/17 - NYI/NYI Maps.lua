@@ -178,7 +178,6 @@ root(ROOTS.NeverImplemented, n(MAPS, {
 			m(1560),	-- Blackwing Lair
 			m(1552),	-- Caverns of Time
 			m(1521),	-- Karazhan Catacombs
-			m(1468),	-- The Dreamgrove
 		})),
 
 		-- 8.3.0

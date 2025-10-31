@@ -1595,8 +1595,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Twilight Zone",
 	[-662] = "Champion Equipment",
 	[-665] = "Brewfest Banquet",
-	[-680] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-681] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-684] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-685] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -8212,6 +8212,7 @@ local ObjectNames = {
 	[247797] = "Lost Mail",
 	[247851] = "Sealed Powder Keg",
 	[247875] = "Boom Bait",
+	[247901] = "Empty Cup",
 	[247999] = "Felwort",
 	[248000] = "Felwort",
 	[248001] = "Felwort",
@@ -8232,6 +8233,7 @@ local ObjectNames = {
 	[248407] = "Kel'danath's Manaflask",
 	[248416] = "Shadowfen Heirlooms",
 	[248419] = "Thas'dorah, Legacy of the Windrunners",
+	[248499] = "G'Hanir",
 	[248521] = "Crystallized Soul",
 	[248534] = "Tears of Elune",
 	[248785] = "Aldrachi Warblades",
@@ -11756,6 +11758,8 @@ local ObjectNames = {
 	[549999] = "Energy Urn",
 	[550001] = "Energy Pyramid",
 	[555609] = "Cartel Ba Dead Drop",
+	[555610] = "Cartel Zo Dead Drop",
+	[555611] = "Cartel Om Dead Drop",
 	[558090] = "A Dog-eared Book",
 	[558105] = "Mysterious Notebook",
 	[558108] = "Multiversal Energy Dynamics and the Murmuration Paradox",
@@ -16449,6 +16453,7 @@ local ObjectModels = {
 	[247797] = 576627,
 	[247851] = 310482,
 	[247875] = 985362,
+	[247901] = 875233,
 	[247999] = 1284877,
 	[248000] = 1284877,
 	[248001] = 1284877,
@@ -16469,6 +16474,7 @@ local ObjectModels = {
 	[248407] = 1360810,
 	[248416] = 987264,
 	[248419] = 353152,
+	[248499] = 1346391,
 	[248521] = 605726,
 	[248534] = 1337278,
 	[248785] = 353152,
@@ -19732,6 +19738,8 @@ local ObjectModels = {
 	[549999] = 5916228,
 	[550001] = 5916229,
 	[555609] = 4196520,
+	[555610] = 4196520,
+	[555611] = 4196520,
 	[558090] = 5387320,
 	[558105] = 949611,
 	[558108] = 949619,
@@ -22504,7 +22512,7 @@ L.QUEST_NAMES = {
 	[50147] = "Step 8: Temple of Karabor",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-681],
+	[52819] = _.L.HEADER_NAMES[-685],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -23422,8 +23430,6 @@ L.QUEST_NAMES = {
 	[91532] = "Stay awhile and listen: Faerin Lothar",
 	[91534] = "Stay awhile and listen: Eitrigg",
 	[91894] = "Coren Special Loot (Daily Accountwide)",
-	[92079] = "Cartel Zo Cypher",
-	[92081] = "Cartel Om Cypher",
 	[92627] = "An Arrested Development",
 	[92651] = "Deathless Attempt Finished",
 }
@@ -24065,8 +24071,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Zwielicht-Duo",
 	[-661] = "Zwielichtzone",
 	[-662] = "Championausrüstung",
-	[-680] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-681] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-684] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-685] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -27420,6 +27426,7 @@ localize(ObjectNames, {
 	[247797] = "Verlorene Post",
 	[247851] = "Versiegeltes Pulverfass",
 	[247875] = "Explosivköder",
+	[247901] = "Leerer Becher",
 	[247999] = "Teufelswurz",
 	[248000] = "Teufelswurz",
 	[248001] = "Teufelswurz",
@@ -30567,6 +30574,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Eimer mit S�
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Horde"; end
 for key,value in pairs({
 	[3] = "Battle.net-Guthaben",
+	[9] = "Schwarzmarkt-Auktionshaus [BMAH]",
 })
 do phases[key].name = value; end
 end
@@ -31083,8 +31091,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Duo Crépusculaire",
 	[-661] = "Chroniques des Crépusculaires",
 	[-662] = "Équipement de champion",
-	[-680] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-681] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-684] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-685] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -34451,6 +34459,7 @@ localize(ObjectNames, {
 	[247797] = "Courrier perdu",
 	[247851] = "Baril de poudre scellé",
 	[247875] = "Pêche à la dynamite",
+	[247901] = "Coupe vide",
 	[247999] = "Gangrèche",
 	[248000] = "Gangrèche",
 	[248001] = "Gangrèche",
@@ -34471,6 +34480,7 @@ localize(ObjectNames, {
 	[248407] = "Flacon de mana de Kel’danath",
 	[248416] = "Souvenirs d’Ombrefange",
 	[248419] = "Thas’dorah, héritage des Coursevent",
+	[248499] = "G’Hanir",
 	[248521] = "Âme cristallisée",
 	[248534] = "Larmes d’Élune",
 	[248785] = "Lames de guerre des Aldrachi",
@@ -37552,6 +37562,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Seau de bonb
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de la Horde"; end
 for key,value in pairs({
 	[3] = "Porte-monnaie Battle.net",
+	[9] = "Hôtel des ventes au marché noir [BMAH]",
 })
 do phases[key].name = value; end
 end
@@ -37710,8 +37721,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Doppietta Crepuscolare",
 	[-661] = "Zona del Crepuscolo",
 	[-662] = "Equipaggiamento campione",
-	[-680] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-681] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-684] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-685] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -40663,6 +40674,7 @@ localize(ObjectNames, {
 	[247797] = "Posta Perduta",
 	[247851] = "Barilotto di Polvere Sigillato",
 	[247875] = "Esca esplosiva",
+	[247901] = "Coppa Vuota",
 	[247999] = "Vilpianta",
 	[248000] = "Vilpianta",
 	[248001] = "Vilpianta",
@@ -40683,6 +40695,7 @@ localize(ObjectNames, {
 	[248407] = "Fiasca di Mana di Kel'danath",
 	[248416] = "Cimeli della Palude d'Ombra",
 	[248419] = "Thas'dorah, Eredità dei Ventolesto",
+	[248499] = "G'hanir",
 	[248521] = "Anima Cristallizzata",
 	[248534] = "Lacrime di Elune",
 	[248785] = "Lame da Guerra degli Aldrachi",
@@ -43503,6 +43516,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Secchio dell
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Orda"; end
 for key,value in pairs({
 	[3] = "Saldo Battle.net",
+	[9] = "Casa d'Aste del Mercato Nero [BMAH]",
 })
 do phases[key].name = value; end
 end
@@ -43722,8 +43736,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Dupla do Crepúsculo",
 	[-661] = "Além da Imaginação",
 	[-662] = "Equipamento de Campeão",
-	[-680] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-681] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-684] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-685] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -46986,6 +47000,7 @@ localize(ObjectNames, {
 	[247797] = "Correspondência Extraviada",
 	[247851] = "Barril de Pólvora Selado",
 	[247875] = "Iscabum",
+	[247901] = "Taça Vazia",
 	[247999] = "Maltevil",
 	[248000] = "Maltevil",
 	[248001] = "Maltevil",
@@ -49986,6 +50001,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Balde de Bal
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Fogueira da Horda"; end
 for key,value in pairs({
 	[3] = "Saldo Battle.net",
+	[9] = "Casa de Leilões do Mercado Negro [BMAH]",
 })
 do phases[key].name = value; end
 end
@@ -50911,8 +50927,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Сумеречный дуэт",
 	[-661] = "Зона сумерек",
 	[-662] = "Снаряжение защитника",
-	[-680] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-681] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-684] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-685] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -54300,6 +54316,7 @@ localize(ObjectNames, {
 	[247797] = "Утерянное письмо",
 	[247851] = "Запечатанный бочонок с порохом",
 	[247875] = "Взрывная наживка",
+	[247901] = "Пустая чашка",
 	[247999] = "Зверобой Скверны",
 	[248000] = "Зверобой Скверны",
 	[248001] = "Зверобой Скверны",
@@ -54320,6 +54337,7 @@ localize(ObjectNames, {
 	[248407] = "Фляга маны Кел'даната",
 	[248416] = "Пожитки жителей Темнотопи",
 	[248419] = "Тас'дора, наследие Ветрокрылых",
+	[248499] = "Г'ханир",
 	[248521] = "Кристаллизованная душа",
 	[248534] = "Слеза Элуны",
 	[248785] = "Альдрахийские боевые клинки",
@@ -57440,7 +57458,7 @@ for key,value in pairs({
 	[4] = "ПвП Элита / Гладиатор",
 	[5] = "Неизучаемые",
 	[6] = "Требуются предметы для призыва",
-	[9] = "Черный рынок AH [BMAH]",
+	[9] = "Аукцион черного рынка [BMAH]",
 	[10] = "Коллекционная карточная игра [TCG]",
 	[38] = "Ордос - Легендарный плащ",
 })
@@ -57619,8 +57637,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "황혼의 2인조",
 	[-661] = "황혼 지대",
 	[-662] = "용사 장비",
-	[-680] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-681] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-684] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-685] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -63429,6 +63447,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "사탕 바�
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "호드 화톳불"; end
 for key,value in pairs({
 	[3] = "배틀코인",
+	[9] = "암시장 경매장 [BMAH]",
 })
 do phases[key].name = value; end
 end
@@ -64459,8 +64478,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Dúo Crepuscular",
 	[-661] = "Dimensión Desconocida",
 	[-662] = "Equipo de campeón",
-	[-680] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-681] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-684] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-685] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -67840,6 +67859,7 @@ localize(ObjectNames, {
 	[247797] = "Correo perdido",
 	[247851] = "Barril de pólvora sellado",
 	[247875] = "Cebo explosivo",
+	[247901] = "Copa vacía",
 	[247999] = "Matojo vil",
 	[248000] = "Matojo vil",
 	[248001] = "Matojo vil",
@@ -70814,7 +70834,7 @@ for key,value in pairs({
 	[4] = "PvP Elite/Gladiador",
 	[5] = "No aprendible",
 	[6] = "Requiere objetos para una invocación",
-	[9] = "Casa de subasta del mercado negro[BMAH]",
+	[9] = "Casa de subasta del mercado negro [BMAH]",
 	[10] = "Juego de cartas[TCG]",
 	[38] = "Ordos - Capa legendaria",
 })
@@ -71141,7 +71161,7 @@ localize(L.HEADER_NAMES, {
 	[-590] = "Fiesta de los mil barcos",
 	[-591] = "Festival del errante",
 	[-654] = "Cosechando",
-	[-681] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-685] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -72444,8 +72464,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "暮光二重奏",
 	[-661] = "暮光领域",
 	[-662] = "勇士装备",
-	[-680] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-681] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-684] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-685] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
@@ -75451,6 +75471,7 @@ localize(ObjectNames, {
 	[247695] = "源质板",
 	[247797] = "遗失的邮件",
 	[247851] = "密封的火药桶",
+	[247901] = "空杯子",
 	[247999] = "邪能球茎",
 	[248000] = "邪能球茎",
 	[248001] = "邪能球茎",
@@ -75470,6 +75491,7 @@ localize(ObjectNames, {
 	[248398] = "虚灵通讯装置",
 	[248407] = "凯尔丹纳斯的法力瓶",
 	[248416] = "影沼传家宝",
+	[248499] = "加尼尔",
 	[248521] = "灵魂结晶",
 	[248534] = "艾露恩之泪",
 	[248785] = "奥达奇战刃",
@@ -79496,7 +79518,7 @@ for key,value in pairs({
 	[4] = "PvP 精良/鬥士",
 	[5] = "不可學",
 	[6] = "需要召喚物品",
-	[9] = "黑市拍賣行 [BMAH]",
+	[9] = "黑市拍賣場 [BMAH]",
 	[10] = "集換式卡牌遊戲 [TCG]",
 	[38] = "歐朵斯 - 傳奇披風",
 })
@@ -79508,7 +79530,7 @@ for key,value in pairs({
 	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 頭銜、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
 	[6] = "|cFFFFAAAA除非您認識可以使用用於召喚首領的物品的人，否則這將不再可用。|r",
-	[9] = "|cFFAAFFAA此物品可在黑市拍賣行購買。原始來源可能已被刪除。|r",
+	[9] = "|cFFAAFFAA此物品可在黑市拍賣場購買。原始來源可能已被刪除。|r",
 	[10] = "|cFFAAFFAA最初通過不再印刷的 TCG 卡獲得，但仍可通過黑市、遊戲內或現實中的拍賣行獲得。|r",
 	[38] = "|cFFFFAAAA這僅適用於在《潘達利亞之謎》完成傳奇披風任務鏈、《混搭再造：潘達利亞之謎》取得成就的玩家或通過黑市拍賣行獲得。|r",
 })
