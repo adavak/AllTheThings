@@ -314,7 +314,7 @@ i(1713,{f=53,lvl=17,spellID=14053}),
 i(2802,{f=53,lvl=16,spellID=13744}),
 i(833,{f=53,lvl=22,spellID=5707}),
 i(7734,{f=53,lvl=20,spellID=14537}),
-i(14557,{awp=60002,description="Dropped from Big Crate of Salvage during Warlords of Draenor.",f=53,lvl=24,rwp=70003,spellID=20847,u=2}),
+i(14557,{f=53,lvl=24,rwp=70003,spellID=20847,u=2}),
 i(11302,{f=53,lvl=20,spellID=8397})}),
 flt(52,{
 i(11968,{f=52,lvl=10}),

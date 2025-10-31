@@ -4997,16 +4997,12 @@ root(ROOTS.Unsorted, {
 				i(228974),	-- [DNT]Kalimdoricano \\ Kalimdoricano
 				i(229197),	-- [DNT]Sack of Coffee Beans \\ Sack of Coffee Beans
 				i(230012),	-- [DNT]Black Coffee \\ Black Coffee
-				i(235818),	-- Celestial Firework
 				i(239098),	-- Neighborhood Charter
 				i(243197),	-- Matured Hoof Piece
-				i(243199),	-- Majestic Whisker
-				i(243200),	-- Slightly Smooth Scales
 				i(243201),	-- Massive Serpent Fang
 				i(243202),	-- Tiny Pangolin Fang
 				i(243204),	-- Stiff Bristles
 				i(243206),	-- Cracked Predator's Claw
-				i(243207),	-- Matted Cat Hair
 				i(243208),	-- Mangled Leg Meat
 				i(243209),	-- Split Bird Beak
 				i(243210),	-- Shredded Ray Fin
@@ -5015,14 +5011,8 @@ root(ROOTS.Unsorted, {
 				i(243213),	-- Gnawed Rabbit's Foot
 				i(243214),	-- Shed Vulpine Fur
 				i(243215),	-- Enlarged Insect Organs
-				i(243216),	-- Snapped Antennae
 				i(243218),	-- Pristine Blushleaf Shell
-				i(243222),	-- Pillaged Rake
-				i(243223),	-- Shredded Linen Cloth
-				i(243224),	-- Pilfered Spade
-				i(243225),	-- Mashed Carrot
 				i(243226),	-- Glimmering Elemental Core
-				i(243227),	-- Handful of Water Droplets
 				i(243228),	-- Dim Elemental Essence
 				i(244906),	-- Gently Shaken Gift
 				i(244908),	-- Winter Veil Gift
@@ -5062,38 +5052,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(260409),	-- Savage Crimson Battle Turtle
 				i(260580),	-- Cloudborn Razorwing
-			}),
-			race(PANDAREN_NEUTRAL, {	-- Pandaren Heritage?
-				i(258625),	-- Tushui Legwraps
-				i(258626),	-- Tushui Wooden Capsa
-				i(258628),	-- Tushui Bamboo Cover
-				i(258629),	-- Tushui Charm Band
-				i(258630),	-- Tushui Sandals
-				i(258631),	-- Tushui Tunic
-				i(258632),	-- Tushui Wraps
-				i(258633),	-- Tushui Travel Belt
-				i(258634),	-- Tushui Shoulderguards
-				i(258635),	-- Ensemble: Heritage of the Wandering Isle
-				i(258636),	-- Honored Guest's Party Favor
-				i(258639),	-- Huojin Legwraps
-				i(258640),	-- Huojin Wooden Capsa
-				i(258641),	-- Huojin Bamboo Cover
-				i(258642),	-- Huojin Charm Band
-				i(258643),	-- Huojin Sandals
-				i(258644),	-- Huojin Tunic
-				i(258645),	-- Huojin Wraps
-				i(258646),	-- Huojin Travel Belt
-				i(258647),	-- Huojin Shoulderguards
-				i(258648),	-- Wandering Isle Legwraps
-				i(258649),	-- Wandering Isle Capsa
-				i(258650),	-- Wandering Isle Cover
-				i(258651),	-- Wandering Isle Charm
-				i(258652),	-- Wandering Isle Sandals
-				i(258653),	-- Wandering Isle Tunic
-				i(258654),	-- Wandering Isle Wraps
-				i(258655),	-- Wandering Isle Travel Belt
-				i(258656),	-- Wandering Isle Shoulderguards
-				i(258657),	-- Ensemble: Heritage of the Wandering Isle
 			}),
 			n(PROFESSIONS, {
 				i(233203),	-- Schematic: Housing Crafting Test Recipe
@@ -5173,14 +5131,8 @@ root(ROOTS.Unsorted, {
 				i(259154),	-- Housing Dye: Rain Poppy Red
 			}),
 			filter(QUEST_ITEMS, {
-				i(229004),	-- Vegetable Medley
 				i(229913),	-- Letter from Aysa
 				i(229995),	-- Gorgoa Reed
-				i(234621),	-- Used Fireworks
-				i(234622),	-- Short Grain Rice
-				i(234623),	-- Barley Grains
-				i(234625),	-- Freshwater Crabs
-				i(235715),	-- Blue Floristar
 				i(243573),	-- Poorly Written Plans
 				i(252423),	-- Truffles
 				i(252947),	-- Honeycomb
@@ -5233,7 +5185,6 @@ root(ROOTS.Unsorted, {
 				i(258662),	-- Progenitor's Custodial Sentry
 			}),
 			filter(TOYS, {
-				i(242520),	-- Festival Hot Air Balloon
 				i(243304),	-- Jubilant Snowman Costume
 				i(245580),	-- Rolling Snowball
 				i(263489),	-- Naaru's Enfold

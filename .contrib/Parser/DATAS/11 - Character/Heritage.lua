@@ -1148,177 +1148,217 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	-- ToDo: Add Pandaren Questline
-	--[[race(PANDAREN, bubbleDown({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = { PANDAREN } }, {
+	race(PANDAREN_NEUTRAL, bubbleDown({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = { PANDAREN_ALLIANCE, PANDAREN_HORDE } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Pandaren|r.",
 		["groups"] = {
-			q(84442, {	-- Invitation to the Spirit Festival (A)
-				["description"] = "Auto-accepted once criteria is met.",
-				["races"] = { PANDAREN_ALLIANCE },
+			n(QUESTS, {
+				q(84442, {	-- Invitation to the Spirit Festival [A]
+					["description"] = "Auto-accepted once criteria is met.",
+					["races"] = { PANDAREN_ALLIANCE },
+				}),
+				q(84444, {	-- Invitation to the Spirit Festival [H]
+					["description"] = "Auto-accepted once criteria is met.",
+					["races"] = { PANDAREN_HORDE },
+				}),
+				q(84451, {	-- The Wanderers [A]
+					["sourceQuest"] = 84442,	-- Invitation to the Spirit Festival [A]
+					["qg"] = 229257,	-- Li Li Stormstout
+					["coord"] = { 68.2, 16.2, STORMWIND_CITY },
+					["races"] = { PANDAREN_ALLIANCE },
+				}),
+				q(84452, {	-- The Wanderers [H]
+					["sourceQuest"] = 84444,	-- Invitation to the Spirit Festival [H]
+					["qg"] = 229338,	-- Li Li Stormstout
+					["coord"] = { 70.5, 39, ORGRIMMAR },
+					["races"] = { PANDAREN_HORDE },
+				}),
+				q(84456, {	-- To Morning Breeze [A]
+					["sourceQuest"] = 84451,	-- The Wanderers [A]
+					["qg"] = 229349,	-- Aysa Cloudsinger
+					["coord"] = { 50.4, 20.1, THE_WANDERING_ISLE_HERITAGE },
+					["races"] = { PANDAREN_ALLIANCE },
+				}),
+				q(84457, {	-- To Morning Breeze [H]
+					["sourceQuest"] = 84452,	-- The Wanderers
+					["qg"] = 229348,	-- Ji Firepaw
+					["coord"] = { 50.3, 20.0, THE_WANDERING_ISLE_HERITAGE },
+					["races"] = { PANDAREN_HORDE },
+				}),
+				q(84453, {	-- To Dai-Lo Farmstead
+					["sourceQuests"] = {
+						84451,	-- The Wanderers [A]
+						84452,	-- The Wanderers [H]
+					},
+					["qg"] = 229347,	-- Chen Stormstout
+					["coord"] = { 50.6, 20.1, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84454, {	-- Tide of Virmen
+					["sourceQuest"] = 84453,	-- To Dai-Lo Farmstead
+					["qg"] = 229357,	-- Chen Stormstout
+					["coord"] = { 69.7, 67.6, THE_WANDERING_ISLE_HERITAGE },
+					["groups"] = {
+						o(466704, {	-- Crate of Produce
+							i(229004),	-- Vegetable Medley (QI!)
+						});
+					},
+				}),
+				q(84455, {	-- Big Bertha
+					["description"] = "She is underground in the Virmen tunnels.",
+					["sourceQuest"] = 84453,	-- To Dai-Lo Farmstead
+					["qg"] = 229358,	-- Chon Po Stormstout
+					["coord"] = { 69.8, 67.5, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84468, {	-- Brew You One Better
+					["sourceQuests"] = {
+						84454,	-- Tide of Virmen
+						84455,	-- Big Bertha
+					},
+					["qg"] = 229357,	-- Chen Stormstout
+					["coord"] = { 69.7, 67.6, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84458, {	-- Devil's in the Details
+					["sourceQuests"] = {
+						84456,	-- To Morning Breeze [A]
+						84457,	-- To Morning Breeze [H]
+					},
+					["qg"] = 229380,	-- Aysa Cloudsinger
+					["coord"] = { 30.1, 41.5, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84459, {	-- Scamps Ain't It!
+					["sourceQuests"] = {
+						84456,	-- To Morning Breeze [A]
+						84457,	-- To Morning Breeze [H]
+					},
+					["qgs"] = {
+						229381,	-- Ji Firepaw
+						230864,	-- Ji Firepaw (mobileNPC)
+					},
+					["coord"] = { 30.1, 41.7, THE_WANDERING_ISLE_HERITAGE },
+					["groups"] = {
+						o(504683, {	-- Wooden Barrel
+							["coord"] = { 32.2, 42.1, THE_WANDERING_ISLE_HERITAGE },
+							["groups"] = { i(234621) },	-- Used Fireworks (QI!)
+						}),
+						o(504788, {	-- Wooden Barrel
+							["coord"] = { 30.2, 42.9, THE_WANDERING_ISLE_HERITAGE },
+							["groups"] = { i(234622) },	-- Short Grain Rice (QI!)
+						}),
+						o(504789, {	-- Wooden Barrel
+							["coord"] = { 30.2, 37.4, THE_WANDERING_ISLE_HERITAGE },
+							["groups"] = { i(234623) },	-- Barley Grains (QI!)
+						}),
+						o(504790, {	-- Wooden Barrel
+							["coord"] = { 28.6, 41.9, THE_WANDERING_ISLE_HERITAGE },
+							["groups"] = { i(234625) },	-- Freshwater Crabs (QI!)
+						}),
+					},
+				}),
+				q(84460, {	-- Red Hand or Herring?
+					["sourceQuests"] = {
+						84458,	-- Devil's in the Details
+						84459,	-- Scamps Ain't It!
+					},
+					["qg"] = 230417,	-- Aysa Cloudsinger (mobileNPC)
+					-- Coord depends on where you turn in previous quests
+				}),
+				q(84461, {	-- It's Not a Spirit Festival Without Spirits
+					["sourceQuests"] = {
+						84460,	-- Red Hand or Herring?
+						84468,	-- Brew You One Better
+					},
+					["qg"] = 229535,	-- Mr. Crane (mobileNPC)
+					["coords"] = {
+						{ 22.4, 33.8, THE_WANDERING_ISLE_HERITAGE },
+						{ 69.8, 67.3, THE_WANDERING_ISLE_HERITAGE },
+						-- Coords depend on which quest you completed second. 'Red Hand or Herring?' or 'Brew You One Better'
+					},
+				}),
+				q(84462, {	-- Patterns in Static
+					["sourceQuests"] = { 84461 },	-- It's Not a Spirit Festival Without Spirits
+					["qg"] = 229412,	-- Li Li Stormstout
+					["coord"] = { 51.5, 46.3, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84463, {	-- Codependency
+					["sourceQuests"] = { 84462 },	-- Patterns in Static
+					["qg"] = 229271,	-- Jojo Ironbrow
+					["coord"] = { 50.9, 76.9, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84464, {	-- Lost My Spark
+					["sourceQuests"] = { 84463 },	-- Codependency
+					["qg"] = 229413,	-- Li Li Stormstout
+					["coord"] = { 39.7, 63.5, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				q(84465, {	-- Of Water and Blood
+					["sourceQuests"] = { 84464 },	-- Lost My Spark
+					["qg"] = 229413,	-- Li Li Stormstout
+					["coord"] = { 39.5, 57.1, THE_WANDERING_ISLE_HERITAGE },
+					["groups"] = {
+						o(464146, {	-- Blue Floristar
+							i(235715),	-- Blue Floristar (QI!)
+						}),
+					},
+				}),
+				q(84466, {	-- Thousands of Years Ago...
+					["sourceQuests"] = { 84465 },	-- Of Water and Blood
+					["qg"] = 229465,	-- Li Li Stormstout
+					["coord"] = { 21.9, 56.4, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				------ Stay awhile and listen ------
+				hqt(89227, {	-- Stay awhile and listen: Li Li Stormstout
+					["name"] = "Stay awhile and listen: Li Li Stormstout",
+					["description"] = "Dialogue becomes available after accepting 'Thousands of Years Ago...' (84466).",
+					["sourceQuest"] = 84465,	-- Of Water and Blood
+					["qg"] = 229465,	-- Li Li Stormstout
+					["coord"] = { 21.9, 56.4, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				--
+				q(84467, {	-- This Was Home
+					["sourceQuests"] = { 84466 },	-- Thousands of Years Ago...
+					["qg"] = 229476,	-- Lorewalker Cho
+					["coord"] = { 52.3, 19.2, THE_WANDERING_ISLE_HERITAGE },
+					["groups"] = {
+						o(509560, {	-- Barrel of Fireworks
+							["coords"] = {
+								{ 49.9, 23.7, THE_WANDERING_ISLE_HERITAGE },
+								{ 50.9, 18.9, THE_WANDERING_ISLE_HERITAGE },
+							},
+							["groups"] = { i(235818) },	-- Celestial Firework
+						}),
+					},
+				}),
+				------ Stay awhile and listen ------
+				hqt(89270, {	-- Stay awhile and listen: Aysa and Ji
+					["name"] = "Stay awhile and listen: Aysa and Ji",
+					["description"] = "Dialogue becomes available after accepting 'This Was Home' (84467).",
+					["sourceQuest"] = 84466,	-- Thousands of Years Ago...
+					["qg"] = 231915,	-- Aysa Cloudsinger
+					["coord"] = { 48.4, 20.6, THE_WANDERING_ISLE_HERITAGE },
+				}),
+				--
+				q(92030, {	-- A New Tradition
+					["sourceQuests"] = { 84467 },	-- This Was Home
+					["qg"] = 229476, -- Lorewalker Cho
+					["coord"] = { 52.3, 19.2, THE_WANDERING_ISLE_HERITAGE },
+					["groups"] = {
+						i(242520),	-- Festival Hot Air Balloon (TOY!)
+						iensemble(258635, {	-- Ensemble: Heritage of the Wandering Isle [Tushui Set, Alliance]
+							["races"] = { PANDAREN_ALLIANCE },
+						}),
+						iensemble(258657, {	-- Ensemble: Heritage of the Wandering Isle [Huojin Set, Horde]
+							["races"] = { PANDAREN_HORDE },
+						}),
+						i(258636),	-- Honored Guest's Party Favor (Awarded to players completing the quest more than once)
+					},
+				}),
 			}),
-			q(84444, {	-- Invitation to the Spirit Festival (H)
-				["description"] = "Auto-accepted once criteria is met.",
-				["races"] = { PANDAREN_HORDE },
-			}),
-			q(84451, {	-- The Wanderers (A)
-				["sourceQuests"] = { 84442 },	-- Invitation to the Spirit Festival
-				["provider"] = { "n", },	-- Li Li Stormstout
-				["coord"] = {},
-			}),
-			q(84452, {	-- The Wanderers (H)
-				["sourceQuests"] = { 84444 },	-- Invitation to the Spirit Festival
-				["provider"] = { "n", },	-- Li Li Stormstout
-				["coord"] = {},
-			}),
-			q(84456, {	-- To Morning Breeze (A)
-				["sourceQuests"] = { 84451 },	-- The Wanderers
-				["provider"] = { "n", },	-- Aysa Cloudsinger
-				["coord"] = {},
-			}),
-			q(84457, {	-- To Morning Breeze (H)
-				["sourceQuests"] = { 84452 },	-- The Wanderers
-				["provider"] = { "n", },	-- Ji Firepaw
-				["coord"] = {},
-			}),
-			q(84453, {	-- To Dai-Lo Farmstead
-				["sourceQuests"] = {
-					84452,	-- The Wanderers (H)
-				},
-				["provider"] = {"n", },	-- Chen Stormstout
-				["coord"] = {},
-			}),
-			q(84454, {	-- Tide of Virmen
-				["sourceQuests"] = { 84453 },	-- To Dai-Lo Farmstead
-				["provider"] = { "n", },	-- Chen Stormstout
-				["coord"] = {},
-				["groups"] = {
-					i(229004),	-- Vegetable Medley
-				},
-			}),
-			q(84455, {	-- Big Bertha
-				["description"] = "She is underground in the Virmen tunnels.",
-				["sourceQuests"] = { 84453 },	-- To Dai-Lo Farmstead
-				["provider"] = { "n", },	-- Chon Po Stormstout
-				["coord"] = {},
-			}),
-			q(84468, {	-- Brew You One Better
-				["sourceQuests"] = {
-					84454,	-- Tide of Virmen
-					84455,	-- Big Bertha
-				},
-				["coord"] = {},
-				["provder"] = { "n", },	-- Chen Stormstout
-			}),
-			q(84459, {	-- Scamps Ain't It!
-				["sourceQuests"] = {
-					84457,	-- To Morning Breeze (H)
-				},
-				["provider"] = { "n", },	-- Ji Firepaw
-				["coord"] = {},
-				["groups"] = {
-					i(234621),	-- Used Fireworks (QI!)
-					i(234622),	-- Short Grain Rice  (QI!)
-					i(234623),	-- Barley Grains (QI!)
-					i(234625),	-- Freshwater Crabs (QI!)
-				},
-			}),
-			q(84458, {	-- Devil's in the Details
-				["sourceQuests"] = {
-					84457,	-- To Morning Breeze (H)
-				},
-				["provider"] = { "n", },	-- Aysa Cloudsinger
-				["coord"] = {},
-			}),
-			q(84460, {	-- Red Hand or Herring?
-				["sourceQuests"] = {
-					84458,	-- Devil's in the Details
-					84459,	-- Scamps Ain't It!
-				},
-				["provider"] = { "n", },	-- Aysa Cloudsinger
-				["coord"] = {},
-			}),
-			q(84461, {	-- It's Not a Spirit Festival Without Spirits
-				["sourceQuests"] = {
-					84460,	-- Red Hand or Herring?
-					84468,	-- Brew You One Better
-				},
-				["provder"] = { "n", },	-- Mr. Crane
-			}),
-			q(84462, {	-- Patterns in Static
-				["sourceQuests"] = { 84461 },	-- It's Not a Spirit Festival Without Spirits
-				["coord"] = {},
-				["provder"] = { "n", },	-- Li Li Stormstout
-			}),
-			q(84463, {	-- Codependency
-				["sourceQuests"] = { 84462 },	-- Patterns in Static
-				["coord"] = {},
-				["provder"] = { "n", },	-- Jojo Ironbrow
-			}),
-			q(84464, {	-- Lost My Spark
-				["sourceQuests"] = { 84463 },	-- Codependency
-				["coord"] = {},
-				["provder"] = { "n", },	-- Li Li Stormstout
-			}),
-			q(84465, {	-- Of Water and Blood
-				["sourceQuests"] = { 84464 },	-- Lost My Spark
-				["coord"] = {},
-				["provder"] = { "n", },	-- Li Li Stormstout
-				["groups"] = {
-					i(235715),	-- Blue Floristar (QI!)
-				},
-			}),
-			q(84466, {	-- Thousands of Years Ago...
-				["sourceQuests"] = { 84465 },	-- Of Water and Blood
-				["coord"] = {},
-				["provder"] = { "n", },	-- Li Li Stormstout
-			}),
-			q(84467, {	-- This Was Home
-				["sourceQuests"] = { 84466 },	-- Thousands of Years Ago...
-				["coord"] = {},
-				["provder"] = { "n", },	-- Lorewalker Cho
-				["groups"] = {
-					i(235818),	-- Celestial Firework
-				},
-			}),
-			q(92030, {	-- A New Tradition
-				["sourceQuests"] = { 84467 },	-- This Was Home
-				["coord"] = {},
-				["provder"] = { "n", },	-- Lorewalker Cho
-				["groups"] = {
-					i(242520),	-- Festival Hot Air Balloon (TOY!)
-					i(258635),	-- Ensemble: Heritage of the Wandering Isle
-					i(258657),	-- Ensemble: Heritage of the Wandering Isle
-					i(258625),	-- Tushui Legwraps
-					i(258626),	-- Tushui Wooden Capsa
-					i(258628),	-- Tushui Bamboo Cover
-					i(258629),	-- Tushui Charm Band
-					i(258630),	-- Tushui Sandals
-					i(258631),	-- Tushui Tunic
-					i(258632),	-- Tushui Wraps
-					i(258633),	-- Tushui Travel Belt
-					i(258634),	-- Tushui Shoulderguards
-					i(258639),	-- Huojin Legwraps
-					i(258640),	-- Huojin Wooden Capsa
-					i(258641),	-- Huojin Bamboo Cover
-					i(258642),	-- Huojin Charm Band
-					i(258643),	-- Huojin Sandals
-					i(258644),	-- Huojin Tunic
-					i(258645),	-- Huojin Wraps
-					i(258646),	-- Huojin Travel Belt
-					i(258647),	-- Huojin Shoulderguards
-					i(258648),	-- Wandering Isle Legwraps
-					i(258649),	-- Wandering Isle Capsa
-					i(258650),	-- Wandering Isle Cover
-					i(258651),	-- Wandering Isle Charm
-					i(258652),	-- Wandering Isle Sandals
-					i(258653),	-- Wandering Isle Tunic
-					i(258654),	-- Wandering Isle Wraps
-					i(258655),	-- Wandering Isle Travel Belt
-					i(258656),	-- Wandering Isle Shoulderguards
-				},
+			n(SPECIAL, {
+				n(230150, {	-- Hot Air Balloon
+					["description"] = "You can return to the Capital City of your Faction by riding the Hot Air Balloon after you've had enough celebrating.",
+				}),
 			}),
 		},
 
-	})),--]]
+	})),
 	race(TAUREN, bubbleDown({ ["timeline"] = { ADDED_8_2_0 }, ["races"] = { TAUREN } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Tauren|r that has completed |cFFFFD700Stay of Execution|r, the 8.2 War Campaign.",
 		["groups"] = bubbleDown({

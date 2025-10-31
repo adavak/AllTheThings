@@ -2228,6 +2228,7 @@ cl(11,{
 q(42513,{c=a[9],type="hqt"}),
 q(41885,{c=a[9],repeatable=1,type="hqt"}),
 q(41194,{c=a[9],type="hqt"}),
+q(44236,{c=a[9],lvl=45,type="hqt"}),
 q(44642,{c=a[9],type="hqt"}),
 q(42360,{c=a[9],repeatable=1,type="hqt"}),
 q(42361,{c=a[9],repeatable=1,type="hqt"}),
@@ -5043,7 +5044,7 @@ q(79474,{type="hqt"}),
 q(80080,{type="hqt"}),
 q(78903,{isDaily=1,type="hqt"})}}),
 m(1978,{awp=100207,lvl=10,g={
-m(2239,{awp=100205,lvl=70,g={
+m(2239,{awp=100205,lvl=10,g={
 h(-12,{
 q(80190,{type="hqt"})}),
 h(-45,{
@@ -5123,7 +5124,7 @@ q(76255,{type="hqt"}),
 q(76256,{type="hqt"})}})}}),
 h(-12,{awp=100002,g={
 q(73863,{type="hqt"})}}),
-m(2200,{awp=100200,maps={2253,2254},lvl=70,g={
+m(2200,{awp=100200,maps={2253,2254},lvl=10,g={
 h(-400,{
 q(78975,{type="hqt"}),
 q(79306,{type="hqt"}),
@@ -5629,7 +5630,7 @@ q(66808,{type="hqt"}),
 q(66802,{type="hqt"}),
 q(67168,{repeatable=1,type="hqt"}),
 q(72378,{awp=100005,type="hqt"})})}}),
-m(2133,{awp=100100,maps={2184},petBattleLvl=25,lvl=70,g={
+m(2133,{awp=100100,maps={2184},petBattleLvl=25,lvl=10,g={
 h(-45,{
 q(76118,{type="hqt"}),
 q(76363,{type="hqt"}),
@@ -6551,7 +6552,7 @@ q(82251,{type="hqt"}),
 q(82252,{type="hqt"}),
 q(79585,{type="hqt"}),
 q(82160,{type="hqt"})})}}),
-m(2371,{maps={2472,2477},g={
+m(2371,{maps={2472,2477},lvl=80,g={
 h(-46,{
 q(90685,{type="hqt"}),
 q(90675,{type="hqt"}),
@@ -6603,6 +6604,8 @@ q(91175,{an="cu:3028",isWeekly=1,type="hqt"}),
 q(91176,{an="cu:3028",isWeekly=1,type="hqt"}),
 q(91177,{an="cu:3028",isWeekly=1,type="hqt"}),
 q(91178,{an="cu:3028",isWeekly=1,type="hqt"})})}}),
+h(-45,{awp=110207,g={
+q(84977,{type="hqt"})}}),
 m(2369,{maps=a[16],petBattleLvl=25,g={
 h(-45,{
 q(85070,{type="hqt"}),
@@ -7085,10 +7088,12 @@ q(85172,{type="hqt"})}}),
 h(-9,{awp=110002,g={
 q(82770,{type="hqt"}),
 q(82788,{type="hqt"}),
-q(82789,{type="hqt"})}}),
+q(82789,{type="hqt"}),
+q(85050,{awp=110207,type="hqt"})}}),
 h(-11,{awp=110005,g={
 h(-45,{
 q(85023,{type="hqt"})})}}),
+q(86534,{awp=110002,type="hqt"}),
 h(-557,{awp=110200,e=7,g={
 q(90118,{e=7,type="hqt"}),
 q(91959,{e=7,type="hqt"}),
@@ -7381,7 +7386,7 @@ q(40596,{type="hqt"}),
 q(40595,{type="hqt"}),
 q(47495,{type="hqt"}),
 q(39044,{type="hqt"}),
-q(54781,{lvl=10,r=2,type="hqt"}),
+q(54781,{lvl=10,r=2,repeatable=1,type="hqt"}),
 q(37812,{type="hqt"}),
 q(38845,{type="hqt"}),
 q(47954,{type="hqt"}),

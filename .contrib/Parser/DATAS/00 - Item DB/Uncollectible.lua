@@ -2626,6 +2626,19 @@ i(245668);	-- Warglaive of the Subdued Tracker
 i(243145);	-- Well-Preserved Wrappings
 
 ------------------
+-- PATCH 11.2.7 --
+------------------
+i(243227);	-- Handful of Water Droplets
+i(243199);	-- Majestic Whisker
+i(243225);	-- Mashed Carrot
+i(243207);	-- Matted Cat Hair
+i(243222);	-- Pillaged Rake
+i(243224);	-- Pilfered Spade
+i(243223);	-- Shredded Linen Cloth
+i(243200);	-- Slightly Smooth Scales
+i(243216);	-- Snapped Antennae
+
+------------------
 -- PATCH 12.0.0 --
 ------------------
 i(244041);	-- Budding Seed

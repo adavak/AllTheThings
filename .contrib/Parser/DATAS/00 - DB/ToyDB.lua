@@ -1502,6 +1502,7 @@ i(254666);	-- Lil' Exodar
 ------------------
 -- PATCH 11.2.7 --
 ------------------
+i(242520);	-- Festival Hot Air Balloon
 i(251491);	-- Magical Pet Clicker
 --- UNSORTED ---
 
@@ -1521,7 +1522,6 @@ i(264672);	-- Cosmic Ritual Stone
 i(264413);	-- Dominating Victory
 i(263244);	-- Enigmatic Fountain
 i(263975);	-- Feeling Fielder Mk. 7
-i(242520);	-- Festival Hot Air Balloon
 i(264517);	-- Galactic Flag of Victory
 i(259084);	-- Gift of the Cycle
 i(252265);	-- Hexed Potatoad Mucus
