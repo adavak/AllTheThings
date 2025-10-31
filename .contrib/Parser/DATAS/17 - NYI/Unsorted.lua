@@ -4998,9 +4998,6 @@ root(ROOTS.Unsorted, {
 				i(250113),	-- Ebon Blade Tome
 				i(250114),	-- Acherus Worktable
 				i(250124),	-- Ebon Blade Banner
-				i(250130),	-- Tirisgarde Candle
-				i(250132),	-- Tirisgarde Brazier
-				i(250239),	-- Tirisgarde Banner
 				i(250913),	-- Small Razorwind Bar Table
 				i(250916),	-- Pedestal of the Maelstrom's Wisdom
 				i(250918),	-- Maelstrom Banner
