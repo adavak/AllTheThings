@@ -1074,7 +1074,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["groups"] = {
 							i(147537, {	-- A Tiny Set of Warglaives (TOY!)
 								["description"] = "|c808080FAIn order to purchase the toy|r |c00FF96AFTiny Set of Warglaives|r|c808080FA, you must have completed the class mount quest|r |cFFFFD700To Fel and Back|r|c808080FA.\n|c808080FAOnce completed you have to unlock all 52 traits on either spec to be able purchase it.|r",
-								["cost"] = { { "c", 1220, 1000 }, },	-- 1000x Order Resources
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1000x Order Resources
 							}),
 							i(139721, {	-- Belt of the Shattered Abyss
 								["cost"] = 5000000,	-- 500g
@@ -1085,20 +1085,52 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(139719, {	-- Breeches of the Shattered Abyss
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(249518, {	-- Fel Hammer Scouting Map (DECOR!)
+								["sourceAchievement"] = 60982,	-- Raise an Army for the Fel Hammer
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1000 }},	-- 2000x Order Resources
+							}),
 							i(139717, {	-- Gloves of the Shattered Abyss
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(139718, {	-- Helm of the Shattered Abyss
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(249462, {	-- Illidari Banner (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+							}),
+							i(249459, {	-- Illidari Glaiverest (DECOR!)
+								["sourceAchievement"] = 42271,	-- The Slayer's Campaign
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1500 }},	-- 1,500x Order Resources
+							}),
+							i(249463, {	-- Illidari Skull Sentinel (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(256675, {	-- Illidari Tent (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(249457, {	-- Replica Cursed Forge of the Nathrezim (DECOR!)
+								["sourceAchievement"] = 42288,	-- Hidden Potential of the Slayer
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 5000 }},	-- 5,000x Order Resources
+							}),
+							i(249690, {	-- Replica Tome of Fel Secrets (DECOR!)
+								["sourceAchievement"] = 60963,	-- Legendary Research of the Illidari
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 3000 }},	-- 3,000x Order Resources
+							}),
 							i(140936, {	-- Slayer's Armor Kit
-								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(140965, {	-- Slayer's Greater Armor Kit
-								["cost"] = { { "c", 1220, 4000 }, },	-- 4,000x Order Resources
+								["cost"] = {{ "c", 1220, 4000 }},	-- 4,000x Order Resources
 							}),
 							i(140964, {	-- Slayer's Lesser Armor Kit
-								["cost"] = { { "c", 1220, 500 }, },		-- 500x Order Resources
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
 							}),
 							i(133670),	-- Slayer's Tabard
 							i(139720, {	-- Spaulders of the Shattered Abyss

@@ -4989,8 +4989,6 @@ root(ROOTS.Unsorted, {
 				i(248959),	-- Dreadscar Bookcase
 				i(248985),	-- Tauren Hanging Brazier
 				i(249004),	-- Black Harvest Orrery
-				i(249462),	-- Illidari Banner
-				i(249463),	-- Illidari Skull Sentinel
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
@@ -5095,7 +5093,6 @@ root(ROOTS.Unsorted, {
 				i(256357),	-- Razorwind Porch Chair
 				i(256554),	-- Definitely Real, Not At All Fake Head of the Broodmother
 				i(256673),	-- Stormwind Forge
-				i(256675),	-- Illidari Tent
 				i(256682),	-- Magistrix's Garden Fountain
 				i(256903),	-- Gilnean Banded Crate
 				i(256905),	-- Small Gilnean Table
