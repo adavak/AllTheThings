@@ -4879,9 +4879,6 @@ root(ROOTS.Unsorted, {
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
-				i(250113),	-- Ebon Blade Tome
-				i(250114),	-- Acherus Worktable
-				i(250124),	-- Ebon Blade Banner
 				i(250916),	-- Pedestal of the Maelstrom's Wisdom
 				i(250918),	-- Maelstrom Banner
 				i(251015),	-- Maelstrom Chimes
