@@ -119,8 +119,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					q(86528, {	-- A Cracked Holokey
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
-						--["provider"] = { "o", XXXX },	-- Cracked Holokey
 						["coord"] = { 35.7, 79.2, VOIDSTORM },
+						--["provider"] = { "o", XXXX },	-- Cracked Holokey
 					}),
 					q(86537, {	-- Network Insecurity
 						["sourceQuests"] = {
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(262734),	-- 
 							i(262735),	-- 
 							i(262738),	-- 
-							i(262739),	-- 
+							i(262739),	--
 						},
 					}),
 					q(86538, {	-- Second, The Fuel
@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(262675),	-- 
 							i(262678),	-- 
 							i(262733),	-- 
-							i(262737),	-- 
+							i(262737),	--
 						},
 					}),
 					q(86539, {	-- A Naaru!
@@ -1144,8 +1144,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--Delve
 			q(93428, {	-- Delver's Call: Shadowguard Point
 				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
-				--["provider"] = { "o", XXXXX },	-- Shadowguard Point
 				["coord"] = { 37.6, 51.9, VOIDSTORM },
+				--["provider"] = { "o", XXXXX },	-- Shadowguard Point
 			}),
 			--Slayer's Rise
 			q(91197, {	-- Collecting Remains
