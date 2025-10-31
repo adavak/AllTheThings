@@ -1150,16 +1150,14 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 	-- ToDo: Add Pandaren Questline
 	--[[race(PANDAREN, bubbleDown({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = { PANDAREN } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Pandaren|r.",
-		["groups"] = bubbleDown({
-			-- #if BEFORE 10.1.0
-			["minReputation"] = { FACTION_PANDAREN, EXALTED },
-			-- #endif
-		}, {
+		["groups"] = {
 			q(84442, {	-- Invitation to the Spirit Festival (A)
 				["description"] = "Auto-accepted once criteria is met.",
+				["races"] = { PANDAREN_ALLIANCE },
 			}),
 			q(84444, {	-- Invitation to the Spirit Festival (H)
 				["description"] = "Auto-accepted once criteria is met.",
+				["races"] = { PANDAREN_HORDE },
 			}),
 			q(84451, {	-- The Wanderers (A)
 				["sourceQuests"] = { 84442 },	-- Invitation to the Spirit Festival
@@ -1318,7 +1316,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					i(258656),	-- Wandering Isle Shoulderguards
 				},
 			}),
-		}),
+		},
 
 	})),--]]
 	race(TAUREN, bubbleDown({ ["timeline"] = { ADDED_8_2_0 }, ["races"] = { TAUREN } }, {
@@ -1848,6 +1846,11 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(82770),	-- Ensemble: Earthen Copper Regalia
 			q(82788),	-- Arsenal: Earthen Weaponry
 			q(82789),	-- Popped on turn in of Stranger in a Strange Land [A] (81887)
+		}),
+	})),
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		n(HERITAGE, {
+			q(85050),	-- Triggered after accepting 'Invitation to the Spirit Festival' (84442)
 		}),
 	})),
 });

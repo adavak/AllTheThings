@@ -4875,10 +4875,7 @@ root(ROOTS.Unsorted, {
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
 				i(248938),	-- Hooded Iron Lantern
 				i(248939),	-- Stormwind Lamppost
-				i(248943),	-- Black Harvest Banner
-				i(248959),	-- Dreadscar Bookcase
 				i(248985),	-- Tauren Hanging Brazier
-				i(249004),	-- Black Harvest Orrery
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
