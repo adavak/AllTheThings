@@ -62,6 +62,7 @@ do
 	end
 
 	local PerCharacterMountSpells = {
+		[75207] = 1,	-- Vashj'ir Seahorse
 		[148970] = 1,	-- Felsteed (Green)
 		[148972] = 1,	-- Dreadsteed (Green)
 		[241857] = 1,	-- Druid Lunarwing
