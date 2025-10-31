@@ -5003,10 +5003,6 @@ root(ROOTS.Unsorted, {
 				i(250130),	-- Tirisgarde Candle
 				i(250132),	-- Tirisgarde Brazier
 				i(250239),	-- Tirisgarde Banner
-				i(250302),	-- Netherlight Conclave Voidwell
-				i(250303),	-- Conclave Pedestal
-				i(250304),	-- Netherlight Lightwell
-				i(250789),	-- Netherlight Conclave Banner
 				i(250913),	-- Small Razorwind Bar Table
 				i(250916),	-- Pedestal of the Maelstrom's Wisdom
 				i(250918),	-- Maelstrom Banner

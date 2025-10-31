@@ -766,6 +766,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(139762, {	-- Bracers of the High Priest
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(250303, {	-- Conclave Pedestal (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
 							i(139761, {	-- Cord of the High Priest
 								["cost"] = 5000000,	-- 500g
 							}),
@@ -773,13 +777,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(140942, {	-- High Priest's Armor Kit
-								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(140977, {	-- High Priest's Greater Armor Kit
-								["cost"] = { { "c", 1220, 4000 }, },	-- 4,000x Order Resources
+								["cost"] = {{ "c", 1220, 4000 }},	-- 4,000x Order Resources
 							}),
 							i(140976, {	-- High Priest's Lesser Armor Kit
-								["cost"] = { { "c", 1220, 500 }, },		-- 500x Order Resources
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
 							}),
 							i(139758, {	-- Leggings of the High Priest
 								["cost"] = 5000000,	-- 500g
@@ -787,9 +791,41 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(139757, {	-- Miter of the High Priest
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(251636, {	-- Netherlight Command Map (DECOR!)
+								["sourceAchievement"] = 60988,	-- Raise an Army for the Netherlight Temple
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
+							}),
+							i(250789, {	-- Netherlight Conclave Banner (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+							}),
+							i(250302, {	-- Netherlight Conclave Voidwell (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
+							i(250304, {	-- Netherlight Lightwell (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+							}),
 							i(140552),	-- Netherlight Spire
+							i(250790, {	-- Replica Altar of Light and Shadow (DECOR!)
+								["sourceAchievement"] = 42294,	-- Hidden Potential of the High Priest
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 5000 }},	-- 5,000x Order Resources
+							}),
+							i(250791, {	-- Replica Word of the Conclave (DECOR!)
+								["sourceAchievement"] = 60969,	-- Legendary Research of the Netherlight Conclave
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 3000 }},	-- 3,000x Order Resources
+							}),
 							i(139759, {	-- Robes of the High Priest
 								["cost"] = 5000000,	-- 500g
+							}),
+							i(250792, {	-- Scroll of the Conclave (DECOR!)
+								["sourceAchievement"] = 42277,	-- The High Priest's Campaign
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {{ "c", 1220, 1500 }},	-- 1,500x Order Resources
 							}),
 							i(139760, {	-- Spaulders of the High Priest
 								["cost"] = 5000000,	-- 500g
