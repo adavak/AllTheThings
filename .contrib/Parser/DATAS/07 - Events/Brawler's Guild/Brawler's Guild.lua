@@ -385,7 +385,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
 				-- #if BEFORE 5.5.3
 				["description"] = "Before Phase 4, you can only reach Rank 8.",
-				["maxReputation"] = { FACTION_BRAWLGAR_SEASON_1, 8 },	-- Rank 8
+				["minReputation"] = { FACTION_BRAWLGAR_SEASON_1, 8 },	-- Rank 8
 				-- #endif
 			}),
 			faction(FACTION_BRAWLGAR_SEASON_2, {	-- Brawl'gar Arena (Season 2) (Horde)
