@@ -5677,19 +5677,99 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 		-- 11.1.7
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_7 } }, {
-			i(242743),	-- Durable Information Securing Container [Trinket]
-			i(246757),	-- Miniature Roulette Wheel
-			i(246758),	-- Miniature Roulette Wheel
-			i(246759),	-- Miniature Roulette Wheel
-			i(246760),	-- Miniature Roulette Wheel
-			i(246761),	-- Miniature Roulette Wheel
-			i(246762),	-- Miniature Roulette Wheel
-			i(246763),	-- Miniature Roulette Wheel
-			i(246764),	-- Miniature Roulette Wheel
-			i(246765),	-- Miniature Roulette Wheel
-			i(246766),	-- Miniature Roulette Wheel
-			i(246767),	-- Miniature Roulette Wheel
-			i(246768),	-- Miniature Roulette Wheel
+			filter(CLOTH, {
+				i(239023, {["modID"] = 2}),	-- Amice of the Returned
+				i(239023, {["modID"] = 23}),	-- Amice of the Returned
+				i(239031, {["modID"] = 2}),	-- Brood Cleanser's Amice
+				i(239031, {["modID"] = 23}),	-- Brood Cleanser's Amice
+				i(239038, {["modID"] = 2}),	-- Mantle of Void-Touched Waters
+				i(239038, {["modID"] = 23}),	-- Mantle of Void-Touched Waters
+				i(239032, {["modID"] = 2}),	-- Robes of the Reborn Serpent
+				i(239032, {["modID"] = 23}),	-- Robes of the Reborn Serpent
+				i(239056, {["modID"] = 2}),	-- Ruffled Poet Blouse
+				i(239056, {["modID"] = 23}),	-- Ruffled Poet Blouse
+				i(239071, {["modID"] = 2}),	-- Secret Spinner's Miter
+				i(239071, {["modID"] = 23}),	-- Secret Spinner's Miter
+				i(239053, {["modID"] = 2}),	-- Smartly Plumed Cap
+				i(239053, {["modID"] = 23}),	-- Smartly Plumed Cap
+				i(239024, {["modID"] = 2}),	-- Soulfuel Headdress
+				i(239024, {["modID"] = 23}),	-- Soulfuel Headdress
+				i(239039, {["modID"] = 2}),	-- Stormlurker's Cowl
+				i(239039, {["modID"] = 23}),	-- Stormlurker's Cowl
+			}),
+			filter(LEATHER, {
+				i(239040, {["modID"] = 2}),	-- Cowl of Fluid Machinations
+				i(239040, {["modID"] = 23}),	-- Cowl of Fluid Machinations
+				i(239057, {["modID"] = 2}),	-- Gold-Tasseled Epaulets
+				i(239057, {["modID"] = 23}),	-- Gold-Tasseled Epaulets
+				i(239026, {["modID"] = 2}),	-- Gorak Tul's Mantle
+				i(239026, {["modID"] = 23}),	-- Gorak Tul's Mantle
+				i(239033, {["modID"] = 2}),	-- Hood of the Slithering Loa
+				i(239033, {["modID"] = 23}),	-- Hood of the Slithering Loa
+				i(239055, {["modID"] = 2}),	-- Irontide Captain's Hat
+				i(239055, {["modID"] = 23}),	-- Irontide Captain's Hat
+				i(239072, {["modID"] = 2}),	-- Loa Betrayer's Vestments
+				i(239072, {["modID"] = 23}),	-- Loa Betrayer's Vestments
+				i(239070, {["modID"] = 2}),	-- Mantle of Fastidious Machinations
+				i(239070, {["modID"] = 23}),	-- Mantle of Fastidious Machinations
+				i(239025, {["modID"] = 2}),	-- Raiment of the Blighted Tribe
+				i(239025, {["modID"] = 23}),	-- Raiment of the Blighted Tribe
+				i(239068, {["modID"] = 2}),	-- Spymaster's Wrap
+				i(239068, {["modID"] = 23}),	-- Spymaster's Wrap
+				i(239041, {["modID"] = 2}),	-- Tentacle-Laced Spaulders
+				i(239041, {["modID"] = 23}),	-- Tentacle-Laced Spaulders
+			}),
+			filter(MAIL, {
+				i(239073, {["modID"] = 2}),	-- Coif of the Court Spider
+				i(239073, {["modID"] = 23}),	-- Coif of the Court Spider
+				i(239034, {["modID"] = 2}),	-- Corrupted Hexxer's Vestments
+				i(239034, {["modID"] = 23}),	-- Corrupted Hexxer's Vestments
+				i(239027, {["modID"] = 2}),	-- Deathslaver's Hauberk
+				i(239027, {["modID"] = 23}),	-- Deathslaver's Hauberk
+				i(239042, {["modID"] = 2}),	-- Hauberk of Sunken Despair
+				i(239042, {["modID"] = 23}),	-- Hauberk of Sunken Despair
+				i(239035, {["modID"] = 2}),	-- Sethraliss' Fanged Helm
+				i(239035, {["modID"] = 23}),	-- Sethraliss' Fanged Helm
+				i(239028, {["modID"] = 2}),	-- Soulscarred Headgear
+				i(239028, {["modID"] = 23}),	-- Soulscarred Headgear
+				i(239054, {["modID"] = 2}),	-- Sweete's Jeweled Headgear
+				i(239054, {["modID"] = 23}),	-- Sweete's Jeweled Headgear
+			}),
+			filter(PLATE, {
+				i(239029, {["modID"] = 2}),	-- Breastplate of the Vengeful
+				i(239029, {["modID"] = 23}),	-- Breastplate of the Vengeful
+				i(239043, {["modID"] = 2}),	-- Chestguard of the Deep Denizen
+				i(239043, {["modID"] = 23}),	-- Chestguard of the Deep Denizen
+				i(239037, {["modID"] = 2}),	-- C'thraxxi Binders Pauldrons
+				i(239037, {["modID"] = 23}),	-- C'thraxxi Binders Pauldrons
+				i(239036, {["modID"] = 2}),	-- Desert Guardian's Breastplate
+				i(239036, {["modID"] = 23}),	-- Desert Guardian's Breastplate
+				i(239044, {["modID"] = 2}),	-- Helm of Abyssal Malevolence
+				i(239044, {["modID"] = 23}),	-- Helm of Abyssal Malevolence
+				i(239030, {["modID"] = 2}),	-- Pauldrons of the Horned Horror
+				i(239030, {["modID"] = 23}),	-- Pauldrons of the Horned Horror
+				i(239052, {["modID"] = 2}),	-- Sea-Brawler's Greathelm
+				i(239052, {["modID"] = 23}),	-- Sea-Brawler's Greathelm
+				i(239069, {["modID"] = 2}),	-- Soulspun Casque
+				i(239069, {["modID"] = 23}),	-- Soulspun Casque
+			}),
+			filter(FINGER_F, {
+				i(246757),	-- Miniature Roulette Wheel
+				i(246758),	-- Miniature Roulette Wheel
+				i(246759),	-- Miniature Roulette Wheel
+				i(246760),	-- Miniature Roulette Wheel
+				i(246761),	-- Miniature Roulette Wheel
+				i(246762),	-- Miniature Roulette Wheel
+				i(246763),	-- Miniature Roulette Wheel
+				i(246764),	-- Miniature Roulette Wheel
+				i(246765),	-- Miniature Roulette Wheel
+				i(246766),	-- Miniature Roulette Wheel
+				i(246767),	-- Miniature Roulette Wheel
+				i(246768),	-- Miniature Roulette Wheel
+			}),
+			filter(TRINKET_F, {
+				i(242743),	-- Durable Information Securing Container
+			}),
 		})),
 
 		-- 11.2.0
