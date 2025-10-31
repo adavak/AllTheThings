@@ -1312,7 +1312,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(65145, {	-- Relic Clues
-				["sourceQuest"] = 63861,	-- Beginning the Collection
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
 				["coords"] = {
 					{ 62.8, 22.6, KORTHIA },
@@ -1322,13 +1321,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["timeline"] = { ADDED_9_1_5 },
 			}),
 			q(64368, {	-- Relic Efficiency
-				["sourceQuest"] = 63861,	-- Beginning the Collection
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
 				["coord"] = { 62.7, 22.5, KORTHIA },
 				["minReputation"] = { FACTION_THE_ARCHIVISTS_CODEX, 4 },	-- Tier 4
 			}),
 			q(65146, {	-- Relic Hunter
-				["sourceQuest"] = 63861,	-- Beginning the Collection
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
 				["coord"] = { 62.8, 22.6, KORTHIA },
 				["minReputation"] = { FACTION_THE_ARCHIVISTS_CODEX, 5 },	-- Tier 5
