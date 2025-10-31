@@ -1704,6 +1704,7 @@ function app:GetDataCache()
 	if app.Categories.Holidays then
 		db = app.CreateCustomHeader(app.HeaderConstants.HOLIDAYS, app.Categories.Holidays);
 		db.isHolidayCategory = true;
+		db.difficultyID = 19	-- 'Event' difficulty, allows auto-expand logic to find it when queueing special holiday dungeons
 		db.SortType = "EventStart";
 		tinsert(g, db);
 	end
