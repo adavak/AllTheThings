@@ -1376,7 +1376,7 @@ function app:CreateMiniListForGroup(group, forceFresh)
 				-- app.PrintDebug("Expire Refreshed",popout.Suffix)
 			end
 			-- Add Timerunning filter to the popout
-			popout.Filters = app.Settings:GetTooltipSetting("Filter:MiniList:Timerunning") and { Timerunning = true } or nil
+			popout.Filters = not popout.isQuestChain and app.Settings:GetTooltipSetting("Filter:MiniList:Timerunning") and { Timerunning = true } or nil
 			self:BaseUpdate(force or got, got);
 		end
 
