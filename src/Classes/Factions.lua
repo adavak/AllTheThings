@@ -388,7 +388,7 @@ app.AddEventHandler("OnRefreshCollections", function()
 			end
 			-- This is currently always 'false' in Retail, even for Factions with the bonus because Blizzard broke it
 			-- years ago and hasn't bothered fixing it
-			if GetFactionBonusReputation(id) then
+			if not app.IsClassic and GetFactionBonusReputation(id) then	-- (sidenote: it does work in Classic at the moment)
 				-- leaving this debug print here in case it ever gets fixed I'll see it spam chat and we can rejoice
 				-- and make the Grand Commendations collectible again :)
 				app.PrintDebug("FactionBonus",id,app:SearchLink(faction))
