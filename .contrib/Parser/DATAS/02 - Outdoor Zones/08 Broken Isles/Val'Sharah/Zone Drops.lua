@@ -5,6 +5,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 	m(VALSHARAH, {
 		n(ZONE_DROPS, {
 			i(144318),	-- Formula: Enchant Neck - Mark of the Deadly [Rank 2] (RECIPE!)
+			i(138441, {	-- Grotesque Remains
+				["coord"] = { 59.6, 81.8, VALSHARAH },
+				["cr"] = 108327, -- Undulating Boneslime
+			}),
 			i(141290, {	-- Dreamgrove Sproutling
 				["bonusID"] = 1812,
 			}),
