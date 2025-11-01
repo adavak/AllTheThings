@@ -502,10 +502,7 @@ root(ROOTS.Zones, {
 						["maxReputation"] = { FACTION_CENARION_EXPEDITION, EXALTED },	-- Cenarion Expedition, Exalted.
 						["timeline"] = { REMOVED_4_3_0 },
 						["maps"] = { COILFANG_RESERVOIR_STEAMVAULT },
-						-- #if BEFORE 4.3.0
-						-- This way it doesnt display as currency once the quest got removed
 						["cost"] = { { "i", 24368, 1 } },	-- Coilfang Armaments
-						-- #endif
 						-- #if NOT ANYCLASSIC
 						["lockCriteria"] = { 1, "factionID", 942.8 },	-- Cenarion Expedition, Exalted
 						-- #endif

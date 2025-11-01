@@ -1707,7 +1707,7 @@ app.AddEventHandler("RowOnEnter", function(self)
 		window.HightlightDatas[reference] = nil
 		self:SetHighlightLocked(false)
 	end
-	reference.working = nil;
+	local working
 	local tooltip = GameTooltip;
 	if not tooltip then return end;
 	local modifier = IsModifierKeyDown();
@@ -1726,7 +1726,7 @@ app.AddEventHandler("RowOnEnter", function(self)
 		tooltip.ATT_IsRefreshing = true;
 		tooltip:ClearATTReferenceTexture();
 	end
-	-- app.PrintDebug("RowOnEnter", "Rebuilding...");
+	-- app.PrintDebug("RowOnEnter Rebuilding...", tooltip.ATT_IsModifierKeyDown, tooltip.ATT_IsRefreshing, tooltip.ATT_AttachComplete);
 
 	-- Always display tooltip data when viewing information from our windows.
 	local wereTooltipIntegrationsDisabled = not app.Settings:GetTooltipSetting("Enabled");
@@ -1735,6 +1735,7 @@ app.AddEventHandler("RowOnEnter", function(self)
 	-- Build tooltip information.
 	local tooltipInfo = {};
 	tooltip:ClearLines();
+	tooltip.ATT_AttachComplete = nil
 	app.ActiveRowReference = reference;
 	local owner;
 	if self:GetCenter() > (UIParent:GetWidth() / 2) and (not AuctionFrame or not AuctionFrame:IsVisible()) then
@@ -1745,14 +1746,14 @@ app.AddEventHandler("RowOnEnter", function(self)
 	tooltip:SetOwner(self, owner);
 
 	-- Attempt to show the object as a hyperlink in the tooltip
-	local linkSuccessful;
+	local linkSuccessful
+	local link = reference.link or reference.tooltipLink or reference.silentLink
 	local refkey = reference.key
 	-- Items always use their links
 	if reference.itemID
 		-- Quest links are ignored if 'Objectives' is enabled
 		or (refkey ~= (app.Settings:GetTooltipSetting("Objectives") and "questID" or "_Z_"))
 	then
-		local link = reference.link or reference.tooltipLink or reference.silentLink
 		if link and link:sub(1, 1) ~= "[" then
 			-- app.PrintDebug("SetHyperlink!", link);
 			local ok, result = pcall(tooltip.SetHyperlink, tooltip, link);
@@ -1772,6 +1773,21 @@ app.AddEventHandler("RowOnEnter", function(self)
 		if (not linkSuccessful or tooltip.ATT_AttachComplete == nil) and reference.currencyID then
 			---@diagnostic disable-next-line: redundant-parameter
 			tooltip:SetCurrencyByID(reference.currencyID, 1);
+		end
+	end
+
+	-- if nothing was rendered into tooltip using an actual link, then use the search result logic to replace our reference
+	-- after capturing relative field values
+	if not linkSuccessful and link then
+		local searchreference = app.GetCachedSearchResults(app.SearchForLink, link)
+		if searchreference then
+			local parent = rawget(reference, "parent")
+			local sourceParent = rawget(reference, "sourceParent")
+			reference = searchreference
+			reference.parent = parent
+			reference.sourceParent = sourceParent
+			app.ActiveRowReference = reference;
+			-- app.PrintDebug("Used search due to no link rendering",reference.working)
 		end
 	end
 
@@ -2118,8 +2134,8 @@ app.AddEventHandler("RowOnEnter", function(self)
 				local label = critFuncs["label_"..critKey];
 				local text = tostring(critFuncs["text_"..critKey](critValue))
 				-- TODO: probably a more general way to check this on lines that can be retrieving
-				if not reference.working and IsRetrieving(text) then
-					reference.working = true
+				if not working and IsRetrieving(text) then
+					working = true
 				end
 				tooltipInfo[#tooltipInfo + 1] = {
 					left = app.GetCompletionIcon(critFunc(critValue)).." "..label..": "..text,
@@ -2289,7 +2305,10 @@ app.AddEventHandler("RowOnEnter", function(self)
 	app.ActiveRowReference = nil;
 
 	-- Tooltip for something which was not attached via search, so mark it as complete here
-	tooltip.ATT_AttachComplete = not reference.working;
+	working = working or reference.working
+	-- don't capture working in the reference itself
+	reference.working = nil
+	tooltip.ATT_AttachComplete = not working
 end)
 
 -- TODO: move to Minilist window UI file once split

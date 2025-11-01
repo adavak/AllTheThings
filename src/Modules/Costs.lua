@@ -49,6 +49,7 @@ local CostDebugIDs = {
 	-- [194681] = true,	-- Sugarwing Cupcake
 	-- [193215] = true,	-- Scaleseeker Mezeri
 	-- [24368] = true,	-- Coilfang Armaments
+	-- [9766] = true,	-- Coilfang Armaments (quest)
 }
 local function PrintDebug(id, ...)
 	if CostDebugIDs.ALL then
@@ -70,7 +71,7 @@ end
 -- 2 - Available to collect based on only Unobtainable Filtering
 -- 3 - Available to collect without Filtering
 local function CheckCollectible(ref, costid)
-	-- local RefSearch = app:RawSearchLink(ref.key,ref[ref.key])
+	-- local RefSearch = app:RawSearchLink(ref.key,ref.keyval)
 	-- Depth = Depth + 1
 	-- Only track Costs through Things which are Available
 	if not IsAvailable(ref) then
@@ -528,7 +529,7 @@ app.CollectibleAsCost = function(t)
 	local lastSettings, appSettings = t._SettingsRefresh, app._SettingsRefresh
 	-- previously checked without Settings changed
 	if lastSettings and lastSettings == appSettings then
-		-- app.PrintDebug("CAC:Cached",t.hash,t.isCost,lastSettings)
+		-- PrintDebug(t.keyval, "CAC:Cached",t.hash,t.isCost,lastSettings)
 		return t.isCost;
 	end
 	local thash = t.hash
@@ -538,7 +539,7 @@ app.CollectibleAsCost = function(t)
 		return
 	end
 	CACChain[thash] = true
-	-- app.PrintDebug("CAC:Check",app:SearchLink(t))
+	-- PrintDebug(t.keyval, "CAC:Check",app:SearchLink(t))
 	t._SettingsRefresh = appSettings;
 	t.isCost = nil;
 	-- this group should not be considered collectible as a cost if it is already obtained as a Toy
@@ -566,7 +567,7 @@ app.CollectibleAsCost = function(t)
 			t.isCost = true;
 			t.collectibleAsCost = nil;
 			CACChain[thash] = nil
-			-- PrintDebug("CAC:Set",app:SearchLink(t),"from",app:SearchLink(ref),"w/req",collectible,"@",t._SettingsRefresh)
+			-- PrintDebug(t.keyval, "CAC:Set",app:SearchLink(t),"from",app:SearchLink(ref),"w/req",collectible,"@",t._SettingsRefresh)
 			return true;
 		end
 	end
