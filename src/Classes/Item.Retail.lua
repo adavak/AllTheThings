@@ -430,11 +430,6 @@ local itemFields = {
 		return bonuses
 	end,
 	-- some calculated properties can let fall-through to the merge source of a group instead of needing to re-calculate in every copy
-	isCost = function(t)
-		local merge = t.__merge
-		if not merge then return end
-		return merge.isCost
-	end,
 	isUpgrade = function(t)
 		local merge = t.__merge
 		if not merge then return end

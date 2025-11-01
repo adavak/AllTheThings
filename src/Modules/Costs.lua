@@ -48,6 +48,7 @@ local CostDebugIDs = {
 	-- [40610] = true,	-- Chestguard of the Lost Conqueror [10M]
 	-- [194681] = true,	-- Sugarwing Cupcake
 	-- [193215] = true,	-- Scaleseeker Mezeri
+	-- [24368] = true,	-- Coilfang Armaments
 }
 local function PrintDebug(id, ...)
 	if CostDebugIDs.ALL then
@@ -1081,18 +1082,18 @@ app.AddEventHandler("OnLoad", function()
 			-- 	NestObject(group, sourceGroup, nil, 1)
 			-- end
 			local groupHash = group.hash;
-			-- app.PrintDebug("DeterminePurchaseGroups",app:SearchLink(group),"-collectibles",collectibles and #collectibles);
+			-- if FillData.Debug then app.PrintDebug("DeterminePurchaseGroups",app:SearchLink(group),"-collectibles",collectibles and #collectibles) end
 			local groups = {};
 			local clone;
 			for _,o in ipairs(collectibles) do
 				if o.hash ~= groupHash then
-					-- app.PrintDebug("Purchase @",app:SearchLink(o))
+					-- if FillData.Debug then app.PrintDebug("Purchase @",app:SearchLink(o)) end
 					clone = CreateObject(o);
 					clone.filledType = "COST"
 					groups[#groups + 1] = clone
 				end
 			end
-			-- app.PrintDebug("DeterminePurchaseGroups-final",groups and #groups);
+			-- if FillData.Debug then app.PrintDebug("DeterminePurchaseGroups-final",groups and #groups) end
 			-- mark this group as no-longer collectible as a cost since its cost collectibles have been determined
 			if #groups > 0 then
 				group.collectibleAsCost = false;
