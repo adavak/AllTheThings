@@ -27,12 +27,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 				ach(42188, {	-- Lorewalking: Blade's Bane
 					i(257355, {["timeline"] = { ADDED_11_2_7 }}),	-- Tome of the Survivor (DECOR!)
 				}),
-				ach(61467, {	-- Lorewalking: The Elves of Quel'thalas / TODO: MIDNIGHT ACHIEVEMENT! Temp placement!
-					["timeline"] = { ADDED_12_0_0 },
-					["groups"] = { i(245332) },	-- Tome of Silvermoon Intrigue (DECOR!)
-				}),
 				ach(42187, {	-- Lorewalking: Ethereal Wisdom
 					i(257354, {["timeline"] = { ADDED_11_2_7 }}),	-- Scroll of K'aresh's Fall (DECOR!)
+				}),
+				ach(61467, {	-- Lorewalking: The Elves of Quel'thalas
+					["timeline"] = { ADDED_11_2_7 },
+					["groups"] = { i(245332) },	-- Tome of Silvermoon Intrigue (DECOR!)
 				}),
 				ach(42189, {	-- Lorewalking: The Lich King
 					i(257351, {["timeline"] = { ADDED_11_2_7 }}),	-- Tale of the Penultimate Lich King (DECOR!)
@@ -166,6 +166,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						},
 					}),
 				}),
+				--header(HEADERS.Achievement, 61467, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Lorewalking: The Elves of Quel'thalas
+				-- Not available on PTR... For now?
+				--})),
 				header(HEADERS.Achievement, 42189, {	-- Lorewalking: The Lich King
 					q(85884, {	-- Lorewalking: The Prince Who Would Be King
 						["provider"] = { "n", 230246 },	-- Lorewalker Cho

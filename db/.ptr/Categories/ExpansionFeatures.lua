@@ -13527,7 +13527,7 @@ q(46044,{c=a[68],coords={{44.4,51.5,747}},lvl=45,qgs={106299},sourceQuests={4542
 follower(999,{c=a[68]})}}),
 q(40650,{c=a[68],coords={{47.3,7.5,747}},lvl=10,qgs={98013},sourceQuests={42583},g={
 follower(640,{c=a[68]})}}),
-q(42043,{c=a[68],coords={a[563]},lvl=45,qgs={106204},sourceQuests={42040}}),
+q(42043,{c=a[68],coords={a[563]},lvl=45,qgs={106135},sourceQuests={42040}}),
 q(41689,{c=a[68],coords={{45.2,51.9,747}},lvl=10,qgs={104577},sourceQuests={41690},g={
 title(332,{c=a[68]}),
 o(248499,{c=a[68],coords={{60.6,25.4,198}},g={
@@ -13536,7 +13536,7 @@ artifact(45,{c=a[68]})}})}})}}),
 q(42045,{c=a[68],coords={a[563]},lvl=45,qgs={106204},sourceQuests={42044}}),
 q(44076,{c=a[68],coords={{40.9,59,715}},lvl=10,qgs={112549},sourceQuests={43991}}),
 q(42050,{c=a[68],coords={{61.2,65.2,760}},lvl=45,qgs={107163},sourceQuests={42051}}),
-q(43403,{c=a[68],coords={{60.5,23.6,198}},lvl=45,qgs={106250},sourceQuests=a[557]}),
+q(43403,{c=a[68],coords={{60.5,23.6,198}},lvl=45,qgs={103832},sourceQuests=a[557]}),
 q(42031,{c=a[68],coords={a[675]},lvl=10,qgs=a[997],sourceQuests={42032}}),
 q(40835,{c=a[68],coords={{52.4,34.4,42}},lvl=10,qgs=a[47],sourceQuests={40834}}),
 q(40654,{c=a[68],coords={{44.6,52,747}},lvl=10,qgs=a[49],sourceQuests={42036}}),
@@ -13547,7 +13547,7 @@ q(42719,{c=a[68],coords={a[512]},lvl=45,qgs={98008},sourceQuests={42045}}),
 q(44077,{c=a[68],coords={{30.7,50.8,715}},lvl=10,qgs={112548},sourceQuests={43991}}),
 q(41783,{c=a[68],coords={{51.3,36.8,116}},qgs={104535},sourceQuests={41782},u=2}),
 q(42365,{c=a[68],coords={{60.5,23.6,747}},lvl=45,qgs={106250},sourceQuests=a[557]}),
-q(91614,{awp=110205,c=a[68],coords={{60.5,23.6,747}},qgs={106250},rwp=120000,sourceQuests=a[557]}),
+q(91614,{awp=110205,c=a[68],coords={{44.9,50,747}},qgs={106250},rwp=120000,sourceQuests=a[557]}),
 q(40834,{c=a[68],coords={{77.4,36.3,47}},lvl=10,qgs={100323},sourceQuests={40785}}),
 q(46786,{c=a[68],coords={a[675]},lvl=45,qgs=a[997],sourceQuests={46044}}),
 q(46154,{c=a[68],u=2}),
@@ -13582,7 +13582,7 @@ q(41422,{c=a[68],coords={{52.6,52.8,747}},lvl=10,qgs={113525},sourceQuests={4064
 o(247901,{c=a[68],coords={{36.1,26.5,747}},g={
 i(135501,{c=a[68]})}})}}),
 q(44074,{c=a[68],coords={{34.7,62.5,715}},lvl=10,qgs={112546},sourceQuests={43991}}),
-q(42049,{c=a[68],coords={{60.5,23.6,747}},lvl=45,qgs={106250},sourceQuests=a[557]}),
+q(42049,{c=a[68],coords={{44.9,50,747}},lvl=45,qgs={106250},sourceQuests=a[557]}),
 q(46677,{c=a[68],lvl=45,maps={646},qgs={120070,120084},sourceQuests={46675,46676}}),
 q(41690,{c=a[68],coords={{39.6,18.2,641}},cost={{"i",135582,1}},lvl=10,qgs={104349},sourceQuests={41436}}),
 q(42585,{c=a[68],coords={a[675]},lvl=10,qgs=a[997],sourceQuests={42584}}),
@@ -13592,7 +13592,8 @@ q(42438,{c=a[68],coords={{70.4,46.7,641}},lvl=10,qgs={107392},sourceQuests={4242
 q(42584,{c=a[68],coords={a[675]},lvl=10,qgs=a[997],sourceQuests={42583}}),
 q(41255,{c=a[68],coords={{44.5,51.1,747}},description="Available after collecting your first artifact weapon.",lvl=10,qgs=a[49]}),
 q(44869,{c=a[68],coords={{44.3,51.5,747}},lvl=45,qgs={106299},sourceQuests=a[606]}),
-q(42042,{c=a[68],coords={a[563]},lvl=45,qgs={106204},sourceQuests={42040}}),
+q(42042,{c=a[68],coords={{45,32.3,715}},lvl=45,qgs={106204},sourceQuests={42040},g={
+i(136840,{c=a[68],spellID=210390})}}),
 q(45528,{c=a[68],coords={{68,54.8,80}},lvl=45,qgs={120032,120041},sourceQuests={44921}}),
 q(40900,{c=a[68],coords={{68.3,27.1,46}},lvl=10,qgs={101282},sourceQuests={40838}}),
 q(43365,{c=a[68],coords={a[512]},lvl=45,qgs={98008},sourceQuests={42045},g={
@@ -13831,8 +13832,13 @@ q(43829,{c=a[516],coords={a[538]},lvl=10,qgs=a[52],sourceQuests={43958}}),
 q(44041,{c=a[516],coords={a[538]},lvl=10,qgs=a[52],sourceQuests={43829},g={
 i(140395,{b=4,c=a[516],spellID=223665})}}),
 q(44116,{c=a[516],coords={a[538]},lvl=10,qgs=a[52],sourceQuests={44041}}),
-q(44155,{c=a[516],coords={{77.2,55,634}},lvl=10,qgs={112959},sourceQuests={44116}}),
-q(44117,{c=a[516],coords={{77.2,55,634}},lvl=10,qgs={112959},sourceQuests={44116}}),
+q(44155,{c=a[516],coords={{77.2,55,634}},lvl=10,qgs={112959},sourceQuests={44116},g={
+i(140730,{c=a[516]})}}),
+q(44117,{c=a[516],coords={{77.2,55,634}},lvl=10,qgs={112959},sourceQuests={44116},g={
+o(254072,{c=a[516],coords={{74.4,53.8,634},{75,52.5,634},{75.3,51.5,634},{76.1,49.9,634},{76.1,52.2,634}},g={
+i(140729,{c=a[516]})}}),
+o(254077,{c=a[516],coords={{75.1,52.1,634},{75.3,49.2,634},{76.6,49.4,634}},g={
+i(140729,{c=a[516]})}})}}),
 q(44177,{c=a[516],coords={{77.2,55,634}},lvl=10,qgs={112959},sourceQuests={44117,44155},g={
 artifact(230,{c=a[516]}),
 artifact(695,{c=a[516]}),
@@ -13849,7 +13855,9 @@ q(42684,{c=a[516],coords={a[526]},lvl=10,qgs=a[998],sourceQuests={44181}}),
 q(42730,{c=a[516],coords={a[526]},lvl=10,qgs=a[998],sourceQuests={44181},g={
 i(127837,{f=55,lvl=40,spellID=188019})}}),
 q(91620,{c=a[516],coords={a[526]},qgs=a[998],sourceQuests={44181}}),
-q(44178,{c=a[516],coords={{30.5,70.4,626}},lvl=10,qgs={102594},sourceQuests={42730,91620},sqreq=1}),
+q(44178,{c=a[516],coords={{30.5,70.4,626}},lvl=10,qgs={102594},sourceQuests={42730,91620},sqreq=1,g={
+i(140811,{c=a[516]}),
+i(140814,{c=a[516]})}}),
 q(44180,{c=a[516],coords={{30.5,70.4,626}},lvl=10,qgs={102594},sourceQuests={44178},g={
 follower(890,{c=a[516]})}}),
 q(43468,{c=a[516],coords={a[526]},lvl=10,qgs=a[998],sourceQuests={44181}}),
@@ -31908,6 +31916,8 @@ ach(42188,{sourceQuests={84789},g={
 i(257355,{awp=110207,spellID=1261473})}}),
 ach(42187,{sourceQuests={85036},g={
 i(257354,{awp=110207,spellID=1261470})}}),
+ach(61467,{awp=110207,questID=85254,g={
+i(245332,{awp=110107,spellID=1238432})}}),
 ach(42189,{sourceQuests={85885},g={
 i(257351,{awp=110207,spellID=1261467})}})}),
 h(-47,{

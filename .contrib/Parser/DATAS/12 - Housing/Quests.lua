@@ -2,41 +2,41 @@
 --      H O U S I N G    M O D U L E       --
 ---------------------------------------------
 root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
-	-- Not sure if Alliance share any of these or if its all horde
+	-- Alex: Not sure if Alliance share any of these or if its all horde
+	-- Exo: At least main quests are shared... Dunno about Decor Hunts.
 	q(93057, {	-- A House For You
-		["maps"] = { RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
 	q(91863, {	-- My First House
 		["sourceQuests"] = { 93057 },	-- A House For You
-		["maps"] = { RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
 	q(94455, {	-- Home at Last
 		["sourceQuests"] = { 91863 },	-- My First House
-		["maps"] = { RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
 	q(91968, {	-- Welcome Home
 		["sourceQuests"] = { 94455 },	-- Home at Last
-		["maps"] = { RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
 	q(91969, {	-- Time to Decorate
 		["sourceQuests"] = { 91968 },	-- Welcome Home
-		["maps"] = { RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
 	q(94210, {	-- Feathering the Nest
 		["sourceQuests"] = { 91969 },	-- Time to Decorate
-		["maps"] = { RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
 	q(93647, {	-- Lumber For You
 		["sourceQuests"] = { 91969 },	-- Time to Decorate
-		["qg"] = 255520,	-- Xiz'ro
-		["coord"] = { 54.2, 58.0, RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+		["qgs"] = {
+			255519,	-- Lestia Goldenstrike [A]
+			255520,	-- Xiz'ro [H]
+		},
+		["coords"] = {
+			{ 51.9, 38.7,   FOUNDERS_POINT },	-- Lestia Goldenstrike [A]
+			{ 54.2, 58.0, RAZORWIND_SHORES },	-- Xiz'ro [H]
+		},
 	}),
 	q(94379, {	-- Thid Old Hearth
 		["sourceQuests"] = { 94210 },	-- Feathering the Nest
@@ -139,6 +139,9 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(245547) },	-- Wide Charming Couch (DECOR!)
 		}),
 		q(92980, {	-- Decor Treasure Hunt 30
+			["description"] = "Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",
+			["qg"] = 248854,	-- The Last Architect
+			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
 			["groups"] = { i(245556) },	-- Iron-Reinforced Standing Mirror (DECOR!)
 		}),
 		q(92999, {	-- Decor Treasure Hunt 31
@@ -146,7 +149,7 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(92998, {	-- Decor Treasure Hunt 32
 			["qg"] = 248854,	-- The Last Architect
-			--["coord"] = { 52.6, 37.5, FOUNDERS_POINT },
+			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
 			["groups"] = { i(246102) },	-- Large Covered Wooden Table (DECOR!)
 		}),
 		q(92996, {	-- Decor Treasure Hunt 34
@@ -213,10 +216,11 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(241621) },	-- Small Elegant End Table (DECOR!)
 		}),
 	}),
-	q(92734),	-- Popped when entering Razorwind
+	q(92734),	-- Popped when entering Razorwind and Founder's Point
 	q(92486),	-- Popped when acquired a house
 	q(92733),	-- Popped when entering house
 	q(92666),	-- Popped when talking to local Decor
 	q(92654),	-- Popped when talking to elven decor
+	q(93629),	-- Triggered after completing 'Time to Decorate'
 	q(94392),	-- Popped when talking to flora decor
 })));

@@ -2,8 +2,29 @@
 --      H O U S I N G    M O D U L E       --
 ---------------------------------------------
 root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+	-- Alliance
+	n(257339, {	-- Argan Hammerfist
+		["coord"] = { 52.2, 37.8, FOUNDERS_POINT },
+		["races"] = ALLIANCE_ONLY,
+		["groups"] = {
+			i(244780),	-- Circular Elven Table (DECOR!)
+			i(244169),	-- Elegant Almond Table (DECOR!)
+			i(253439),	-- Elegant Carved Bench (DECOR!)
+			i(253437),	-- Elegant Covered Bench (DECOR!)
+			i(257692),	-- Elegant Curved Table (DECOR!)
+			i(244782),	-- Elven Floral Window (DECOR!)
+			i(248658),	-- Elven Wood Crate (DECOR!)
+			i(247502),	-- Elven Woodvine Trellis (DECOR!)
+			i(253495),	-- Grand Elven Bench (DECOR!)
+			i(257691),	-- Open Elegant Elven Barrel (DECOR!)
+			i(241625),	-- Open Elven Wood Crate (DECOR!)
+			i(244118),	-- Rectangular Elegant Table (DECOR!)
+			i(243088),	-- Standing Ornate Weapon Rack (DECOR!)
+		},
+	}),
 	n(255216, {	-- Balen Starfinder <Decor Vendor>
-		--["coord"] = { 52.2, 37.8, FOUNDERS_POINT },
+		["coord"] = { 52.2, 37.8, FOUNDERS_POINT },
+		["races"] = ALLIANCE_ONLY,
 		["groups"] =  {
 			i(246257),	-- Bel'ameth Angled Platform (DECOR!)
 			i(246254, {	-- Bel'ameth Beam Platform (DECOR!)
@@ -64,6 +85,7 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 				["sourceQuest"] = 93005,	-- Decor Treasure Hunt 45
 			}),
 			i(246691),	-- Grand Elven Wall Curtain (DECOR!)
+			i(264169),	-- Homestone Doormat (DECOR!)
 			i(248760, {	-- Lovely Elven Shelf (DECOR!)
 				["sourceQuest"] = 93134,	-- Decor Treasure Hunt 35
 			}),
@@ -96,7 +118,8 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 		},
 	}),
 	n(255213, {	-- Faarden the Builder <Decor Vendor>
-		--["coord"] = { 52.0, 38.4, FOUNDERS_POINT },
+		["coord"] = { 52.0, 38.4, FOUNDERS_POINT },
+		["races"] = ALLIANCE_ONLY,
 		["groups"] =  {
 			i(245662, {	-- Carved Wooden Bar Table (DECOR!)
 				["sourceQuest"] = 92999,	-- Decor Treasure Hunt 31
@@ -133,6 +156,7 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 			i(245379),	-- Sturdy Roofed Wagon (DECOR!)
 			i(245378),	-- Sturdy Sheltering Tent (DECOR!)
 			i(246105),	-- Sturdy Weapon Rack (DECOR!)
+			i(263025),	-- Sturdy Wine Press (DECOR!)
 			i(242951, {	-- Sturdy Wooden Bench (DECOR!)
 				["sourceQuest"] = 92969,	-- Decor Treasure Hunt 10
 			}),
@@ -154,8 +178,16 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 			i(245551),	-- Worker's Wooden Desk (DECOR!)
 		},
 	}),
+	n(255519, {	-- Lestia Goldenstrike <Lumberjack>
+		["coord"] = { 51.9, 38.7, FOUNDERS_POINT },
+		["races"] = ALLIANCE_ONLY,
+		["groups"] = {
+			i(253580),	-- Harvesting Hatchet
+		},
+	}),
 	n(255203, {	-- Xiao Dan <Decor Vendor>
-		--["coord"] = { 52.0, 38.2, FOUNDERS_POINT },
+		["coord"] = { 52.0, 38.2, FOUNDERS_POINT },
+		["races"] = ALLIANCE_ONLY,
 		["groups"] =  {
 			i(245383),	-- "Sunrise Canyon" Painting (DECOR!)
 			i(246502, {	-- Charming Couch (DECOR!)
@@ -179,6 +211,9 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 				["sourceQuest"] = 92980,	-- Decor Treasure Hunt 30
 			}),
 			i(245353),	-- Open Wooden Coffin (DECOR!)
+			i(245394),	-- Plain Interior Doorway (DECOR!)
+			i(245395),	-- Plain Interior Narrow Wall (DECOR!)
+			i(245393),	-- Plain Interior Wall (DECOR!)
 			i(252417),	-- Plush Cushioned Chair (DECOR!)
 			i(245370),	-- Secretive Bookcase Wall (DECOR!)
 			i(253589, {	-- Short Wooden Cabinet (DECOR!)
@@ -191,8 +226,8 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 			i(246101, {	-- Small Wooden Stool (DECOR!)
 				["sourceQuest"] = 92973,	-- Decor Treasure Hunt 17
 			}),
-			i(246035),	-- Stormwind Angled Platform (DECOR!)
-			i(246031),	-- Stormwind Beam Platform (DECOR!)
+			i(246248),	-- Stormwind Angled Platform (DECOR!)
+			i(246243),	-- Stormwind Beam Platform (DECOR!)
 			i(242255),	-- Stormwind Hall Rug (DECOR!)
 			i(236678, {	-- Stormwind Interior Doorway (DECOR!)
 				["sourceQuest"] = 92967,	-- Decor Treasure Hunt
@@ -204,9 +239,9 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 			i(236677, {	-- Stormwind Interior Wall (DECOR!)
 				["sourceQuest"] = 92968,	-- Decor Treasure Hunt 09
 			}),
-			i(246033),	-- Stormwind Large Platform (DECOR!)
-			i(246032),	-- Stormwind Round Platform (DECOR!)
-			i(246034),	-- Stormwind Small Platform (DECOR!)
+			i(246246),	-- Stormwind Large Platform (DECOR!)
+			i(246245),	-- Stormwind Round Platform (DECOR!)
+			i(246247),	-- Stormwind Small Platform (DECOR!)
 			i(244531, {	-- Sturdy Fireplace (DECOR!)
 				["sourceQuest"] = 92982,	-- Decor Treasure Hunt 28
 			}),
@@ -222,6 +257,7 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 			i(245355, {	-- Sturdy Wooden Door (DECOR!)
 				["sourceQuest"] = 92962,	-- Decor Treasure Hunt 03
 			}),
+			i(245392),	-- Sturdy Wooden Interior Pillar (DECOR!)
 			i(245384, {	-- Sturdy Wooden Shelf (DECOR!)
 				["sourceQuest"] = 92961,	-- Decor Treasure Hunt
 			}),
@@ -251,10 +287,7 @@ root(ROOTS.Housing, n(VENDORS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } 
 			}),
 		},
 	}),
-
-
-
-
+	-- Horde
 	n(255319, {	-- "High Tides" Ren <Decor Vendor>
 		["coord"] = { 39.8, 73.8, RAZORWIND_SHORES },
 		["races"] = HORDE_ONLY,
