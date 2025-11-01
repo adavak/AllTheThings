@@ -344,16 +344,14 @@ local function GetCatalystIcon(data, iconOnly)
 	end
 end
 local function GetCostIconForRow(data, iconOnly)
-	-- cost only for filled groups, or if itself is a cost
-	-- temp, added filledCost back due to some discrepancies discovered based on Fillers not accounted for in Cost calculations
-	if data.isCost or data.filledCost or (data.progress == data.total and data.costTotal > 0) then
+	-- cost only if itself is a cost
+	if data.isCost then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end
 local function GetCostIconForTooltip(data, iconOnly)
 	-- cost only if itself is a cost
-	-- temp, added filledCost back due to some discrepancies discovered based on Fillers not accounted for in Cost calculations
-	if data.isCost or data.filledCost then
+	if data.isCost then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end
