@@ -1203,7 +1203,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(3726, {["timeline"] = { REMOVED_4_0_3, ADDED_9_1_0 }}),	-- Big Bear Steak
 		i(3220),	-- Blood Sausage
 		i(5525),	-- Boiled Clams
-		applyclassicphase(WRATH_PHASE_ONE, i(46691, {["timeline"] = { ADDED_3_2_2 }})),	-- Bread of the Dead [Day of the Dead]
+		applyclassicphase(WRATH_PHASE_ONE, i(46691, {	-- Bread of the Dead [Day of the Dead]
+			["description"] = "Ghostly Cooking Fire can be found near any graveyards with Day of the Dead-festivities.",
+			["timeline"] = { ADDED_3_2_2 },
+		})),
 		i(6290),	-- Brilliant Smallfish
 		i(4593),	-- Bristle Whisker Catfish
 		applyclassicphase(WRATH_PHASE_ONE, i(44839, {["timeline"] = { ADDED_3_2_2 }})),	-- Candied Sweet Potato [Pilgrim's Bounty]
