@@ -7,8 +7,8 @@
 local appName, app = ...;
 local L = app.L;
 
-local AssignChildren, GetRelativeValue, IsQuestFlaggedCompleted
-	= app.AssignChildren, app.GetRelativeValue, app.IsQuestFlaggedCompleted
+local AssignChildren, GetRelativeValue, IsQuestFlaggedCompleted, GetRelativeGroup
+	= app.AssignChildren, app.GetRelativeValue, app.IsQuestFlaggedCompleted, app.GetRelativeGroup
 
 -- Abbreviations
 L.ABBREVIATIONS[L.UNSORTED .. " %> " .. L.UNSORTED] = "|T" .. app.asset("WindowIcon_Unsorted") .. ":0|t " .. L.SHORTTITLE .. " %> " .. L.UNSORTED;
@@ -2659,7 +2659,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 		end
 
 		(function()
-		local results, groups, nested, header, headerKeys, difficultyID, nextParent, headerID, isInInstance
+		local results, groups, nested, header, headerKeys, difficultyGroup, nextParent, headerID, isInInstance
 		local rootGroups, mapGroups = {}, {};
 
 		self.MapCache = setmetatable({}, { __mode = "kv" })
@@ -2787,8 +2787,10 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					-- Get the header chain for the group
 					nextParent = group.parent;
 
-					-- Cache the difficultyID, if there is one and we are in an actual instance where the group is being mapped
-					difficultyID = isInInstance and GetRelativeValue(nextParent, "difficultyID");
+					-- Cache the difficultyGroup, if there is one and we are in an actual instance where the group is being mapped
+					if isInInstance then
+						difficultyGroup = GetRelativeGroup(nextParent, "difficultyID")
+					end
 
 					-- Building the header chain for each mapped Thing
 					while nextParent do
@@ -2821,8 +2823,12 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 						group = app.CreateFilter(101, CreateHeaderData(group));
 					end
 
-					-- If relative to a difficultyID, then merge it into one.
-					if difficultyID then group = app.CreateDifficulty(difficultyID, { g = { group } }); end
+					-- If relative to a difficultyGroup, then merge it into one.
+					if difficultyGroup then
+						group = CreateHeaderData(group, difficultyGroup);
+						-- remove the name sorttype from the difficulty-based header
+						group.SortType = nil
+					end
 
 					-- If we're trying to map in another 'map', nest it into a special group for external maps
 					if group.instanceID or group.mapID then
