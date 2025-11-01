@@ -24,6 +24,7 @@ local GetFactionLore = app.WOWAPI.GetFactionLore;
 local GetFactionReaction = app.WOWAPI.GetFactionReaction;
 local GetFactionCurrentReputation = app.WOWAPI.GetFactionCurrentReputation;
 local GetFactionReputationCeiling = app.WOWAPI.GetFactionReputationCeiling;
+local GetFactionBonusReputation = app.WOWAPI.GetFactionBonusReputation;
 
 -- Faction API Implementation
 
@@ -127,6 +128,17 @@ local function CompareStanding(t, standing)
 	return t.standing >= standing;
 end
 
+-- This is used for the Grand Commendations unlocking Bonus Reputation
+app.GlobalVariants.AndFactionBonus = {
+	__name = "AndFactionBonus",
+	collected = function(t)
+		return app.IsAccountCached("FactionBonus", t.factionID)
+	end,
+	__condition = function(t)
+		return not t.repeatable;
+	end,
+}
+
 -- Faction lib
 local KEY, CACHE, SETTING = "factionID", "Factions", "Reputations"
 app.CreateFaction = app.CreateClass("Faction", KEY, {
@@ -171,12 +183,14 @@ app.CreateFaction = app.CreateClass("Faction", KEY, {
 		end
 		return false;
 	end,
+	-- TODO: dont need separate methods for Classic since it uses Collection.lua
 	collected = app.IsClassic and function(t)
 		if t.saved then return 1; end
 		if app.Settings.AccountWide.Reputations and ATTAccountWideData.Factions[t[KEY]] then return 2; end
 	end or function(t)
 		return app.TypicalCharacterCollected(CACHE, t[KEY], SETTING)
 	end,
+	-- TODO: dont need separate methods for Classic since it uses Collection.lua
 	saved = app.IsClassic and function(t)
 		local factionID = t[KEY];
 		if app.CurrentCharacter.Factions[factionID] then return true; end
@@ -381,7 +395,7 @@ end)
 if app.IsRetail then
 	app.AddEventHandler("OnRefreshCollections", function()
 		local faction
-		local saved, none = {}, {}
+		local saved, none, bonus, nobonus = {}, {}, {}, {}
 		for id,_ in pairs(app.GetRawFieldContainer(KEY)) do
 			faction = app.SearchForObject(KEY, id, "key")
 			if faction then
@@ -389,6 +403,16 @@ if app.IsRetail then
 					saved[id] = true
 				else
 					none[id] = true
+				end
+				-- This is currently always 'false' in Retail, even for Factions with the bonus because Blizzard broke it
+				-- years ago and hasn't bothered fixing it
+				if GetFactionBonusReputation(id) then
+					-- leaving this debug print here in case it ever gets fixed I'll see it spam chat and we can rejoice
+					-- and make the Grand Commendations collectible again :)
+					app.PrintDebug("FactionBonus",id,app:SearchLink(faction))
+					bonus[id] = true
+				else
+					nobonus[id] = true
 				end
 			else app.PrintDebug(Colorize("MISSING FACTION", app.Colors.ChatLinkError),app:Linkify("Faction "..id,app.Colors.ChatLinkError,"search:factionID:"..id))
 			end
@@ -398,6 +422,9 @@ if app.IsRetail then
 		app.SetBatchCached(CACHE, none)
 		-- Account Cache (removals handled by Sync)
 		app.SetBatchAccountCached(CACHE, saved, 1)
+		-- Account Cache of FactionBonus
+		app.SetBatchAccountCached("FactionBonus", bonus, 1)
+		app.SetBatchAccountCached("FactionBonus", nobonus)
 	end);
 	local function ScanForNewCollectedFactions()
 		-- app.PrintDebug("Scan uncollected factions")
@@ -426,6 +453,7 @@ end
 app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, accountWideData)
 	if not currentCharacter[CACHE] then currentCharacter[CACHE] = {} end
 	if not accountWideData[CACHE] then accountWideData[CACHE] = {} end
+	if not accountWideData.FactionBonus then accountWideData.FactionBonus = {}; end
 end);
 
 -- External APIs
