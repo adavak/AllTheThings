@@ -1,6 +1,6 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
-local ah,en,flt,h,i,mnt,p,prof,q,r,ra,s,toy,x=_.CreateHeader,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateRace,_.CreateItemSource,_.CreateToy,_.CreateExpansion;
+local ah,flt,h,i,mnt,p,prof,q,r,ra,s,toy,x=_.CreateHeader,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateRace,_.CreateItemSource,_.CreateToy,_.CreateExpansion;
 local a={{1,2,3,4,5,6,7,8,9,10,11,12,14},{1},{10},{11},{12},{13},{2},{3},{4,11},{4},{5},{6},{7},{8},{9}};
 _.Categories.Unsorted={
 x(11,{
@@ -150,21 +150,6 @@ i(246082,{spellID=1234434}),
 i(246083,{spellID=1234429}),
 i(246084,{spellID=1234424}),
 i(246085,{spellID=1234419}),
-s(292991,246154,{f=2}),
-s(292992,246155,{f=2}),
-s(292993,246156,{f=2}),
-s(292994,246157,{f=2}),
-s(292995,246158,{f=2}),
-s(292998,246179,{f=2}),
-s(292999,246180,{f=2}),
-s(293000,246181,{f=2}),
-s(293001,246182,{f=2}),
-s(293002,246183,{f=2}),
-s(293003,246184,{f=2}),
-s(293004,246185,{f=2}),
-s(293005,246186,{f=2}),
-s(293006,246187,{f=2}),
-s(293007,246188,{f=2}),
 i(246238),
 i(246789,{f=55,spellID=1243778}),
 i(246796,{f=55,spellID=1243906}),
@@ -327,13 +312,6 @@ s(298060,250894,{f=2}),
 s(298061,250895,{f=2}),
 s(298062,250896,{f=2}),
 i(250897,{f=55,spellID=1251633}),
-s(298063,250898,{f=2}),
-s(298064,250899,{f=2}),
-s(298065,250900,{f=2}),
-s(298066,250901,{f=2}),
-s(298067,250902,{f=2}),
-s(298068,250903,{f=2}),
-en(250904,{spellID=1251635}),
 s(298069,250905,{f=2}),
 s(298070,250906,{f=2}),
 s(298071,250907,{f=2}),
