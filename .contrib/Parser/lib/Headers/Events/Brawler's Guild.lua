@@ -10,7 +10,7 @@ BRAWLERS_GUILD = createHeader({
 		it = "[Brawler's Guild]",
 		ko = "[Brawler's Guild]",
 		pt = "[Brawler's Guild]",
-		ru = "[Brawler's Guild]",
+		ru = "Бойцовская гильдия",
 		cn = "[Brawler's Guild]",
 		tw = "鬥陣俱樂部",
 	},
