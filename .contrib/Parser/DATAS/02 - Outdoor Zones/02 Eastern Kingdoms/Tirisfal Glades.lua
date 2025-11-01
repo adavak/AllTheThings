@@ -3009,6 +3009,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 			})),
 			-- #endif
+			n(141488, {	-- Zidormi
+				["description"] = "If you get loaded into Tirisfal Glades by Zidormi and want to phase back into pre-BfA version of the zone, you can talk to this npc. However, if she does not give any options, try to traverse eastwards towards Western Plaguelands. At some point you should hopefully phase back into pre-BfA Tirisfal Glades.",
+				["timeline"] = { ADDED_8_0_1 },
+			}),
 			n(ZONE_DROPS, {
 				i(2839, {	-- A Letter to Yvette
 					--[[["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
