@@ -435,6 +435,7 @@ local function CostCalcComplete()
 	for suffix,window in pairs(app.Windows) do
 		if suffix ~= "Prime" then
 			-- TODO: I don't like this, find a way to make it not necessary when Cost updates are performed
+			-- app.PrintDebug("Refresh after Costs",window.Suffix)
 			app.UpdateRunner.Run(window.Update, window, true)
 		end
 	end
@@ -865,21 +866,22 @@ do
 		-- app.PrintDebug("New Cost Collector",windowRunner)
 		-- Table which can capture cost information for a collector
 		local Collector = {
-			Runner=CollectorRunner,
+			Runner = CollectorRunner,
 			Data = setmetatable({}, __costData),
 			Hashes = {},
+			WindowGroup = group,
 		}
 
 		Collector.ScanGroups = function(group, costGroup)
+			if costGroup._SettingsRefresh == app._SettingsRefresh then
+				return
+			end
+			-- only need to run costs once per settings refresh, otherwise the costs won't change from regular refreshes
+			costGroup._SettingsRefresh = app._SettingsRefresh
 			Collector.__group = costGroup
 			local runner = Collector.Runner
 			runner.Run(StartUpdating, Collector)
-			local g = group.g
-			if g then
-				for _,o in ipairs(g) do
-					ScanGroups(o, Collector)
-				end
-			end
+			ScanGroups(group, Collector)
 			runner.Run(ScanSubCosts, Collector)
 		end
 
@@ -947,6 +949,7 @@ local function BuildCost(group)
 	app.NestObject(group, costGroup, nil, 1);
 end
 
+local RefreshCollectorHooked
 -- Begins an async operation using a Runner to progressively accummulate the entirety of the 'cost'/'provider'
 -- information contained by all groups within the provided 'group'
 -- and captures the information into trackable Cost groups under a 'Total Costs' header
@@ -965,31 +968,35 @@ local function BuildTotalCost(group)
 	-- keep an unmodified text copy
 	costGroup.__text = costGroup.text
 
-	local Collector = app.Modules.Costs.GetCostCollector(group)
-
-	local function RefreshCollector(window, didUpdate)
-		-- app.PrintDebug("RefreshCollector??",group.window.Suffix,window and app:SearchLink(window.data),didUpdate)
-		if not didUpdate then return end
-		if window then
-			-- don't process the refresh if it's a different window
-			if window ~= group.window then return end
-			-- don't update costs if the popout hasn't been filled yet
-			if not window.data._fillcomplete then return end
-		else
-			-- no window provided to event
-			return
-		end
-
-		wipe(costGroup.g)
-		Collector.ScanGroups(group, costGroup)
-	end
-
 	-- we need to make sure we have a window reference for this group's Collector
 	-- so that when the window is expired, we know to remove the necessary Handler(s)
 	if group.window then
-		group.window:AddEventHandler("OnWindowUpdated", RefreshCollector)
+
+		local Collector = app.Modules.Costs.GetCostCollector(group)
+
+		group.window.__RefreshCostCollector = function(window, didUpdate)
+			-- app.PrintDebug("RefreshCollector??",group.window.Suffix,window and app:SearchLink(window.data),didUpdate)
+			wipe(costGroup.g)
+			-- app.PrintDebug("ScanGroups",window)
+			Collector.ScanGroups(group, costGroup)
+		end
+	end
+
+	-- We only need one hooked method to attempt to refresh the collector on whichever window triggered the respective events
+	-- This will just get added as a permanent one-time event for the session once a popout is created
+	if not RefreshCollectorHooked then
+		RefreshCollectorHooked = true
+		-- Event handlers are still called by every Window which triggers these events, so let's just only run the Refresh
+		-- if the Window itself has it assigned, instead of trying to determine if the Window matches the Event Window
+		local function RefreshIfExisting(window, didUpdate)
+			if window and didUpdate and window.__RefreshCostCollector and window.data._fillcomplete then
+				window.__RefreshCostCollector(window, didUpdate)
+			end
+		end
+		app.AddEventHandler("OnWindowUpdated", RefreshIfExisting)
 		-- when called from window fill complete, force it to appear as an update
-		group.window:AddEventHandler("OnWindowFillComplete", function(window) RefreshCollector(window, true) end)
+		app.AddEventHandler("OnWindowFillComplete", function(window) RefreshIfExisting(window, true) end)
+		-- app.PrintDebug("RefreshCollectorHooked")
 	end
 
 	-- Add the cost group to the popout
