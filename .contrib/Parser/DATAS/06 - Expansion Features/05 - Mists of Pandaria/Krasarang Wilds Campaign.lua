@@ -1251,7 +1251,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							i(93278),	-- Crab-Leather Tabi
 							i(93334),	-- Divide's Loyal Clasp
 							i(93332),	-- Girdle of Crushing Strength
-							i(93231),	-- Grand Commendation of Operation: Shieldwall
+							i(93231, {	-- Grand Commendation of Operation: Shieldwall
+								["races"] = ALLIANCE_ONLY,
+							}),
 							i(93274),	-- Greatboots of Flashing Light
 							i(93260),	-- Heartwarmer Medallion
 							i(93261),	-- Helmbreaker Medallion
@@ -1336,7 +1338,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							i(93264),	-- Cragchewer Sollerets
 							i(93255),	-- Cutstitcher Medallion
 							i(93325),	-- Divide's Greatheart Clasp
-							i(93232),	-- Grand Commendation of the Dominance Offensive
+							i(93232, {	-- Grand Commendation of the Dominance Offensive
+								["races"] = HORDE_ONLY,
+							}),
 							i(93267),	-- Greaves of Manifest Destiny
 							i(93263),	-- Groundbreaker Sabatons
 							i(93324),	-- Immovable Waistplate
