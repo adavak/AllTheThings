@@ -1996,7 +1996,7 @@ local softRefresh = function()
 end;
 if app.IsClassic then
 	-- Way too spammy to be used without a Callback or combat protection
-	app.AddEventRegistration("CRITERIA_UPDATE", softRefresh)
+	app.AddEventRegistration("CRITERIA_UPDATE", app.WipeSearchCache)
 	-- This triggers in many situations where nothing actually changes... (like opening Quest Log)
 	app.AddEventRegistration("QUEST_LOG_UPDATE", RefreshAllQuestInfo)
 else
