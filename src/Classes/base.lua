@@ -173,6 +173,10 @@ local DefaultFields = {
     ["upgradeTotal"] = returnZero,
 	["progress"] = returnZero,
     ["total"] = returnZero,
+	["isContainer"] = function(t)
+		local total = t.total
+		return total and (total > 1 or (total > 0 and not t.collectible))
+	end,
 	["nmc"] = function(t)
 		local c = t.c;
 		local nmc = c and not containsValue(c, app.ClassIndex) or false;

@@ -418,10 +418,9 @@ local function GetProgressTextForRow(data)
 		__Text[#__Text + 1] = stateIcon
 	end
 	-- Container
-	local total = data.total;
-	local isContainer = total and (total > 1 or (total > 0 and not data.collectible));
+	local isContainer = data.isContainer
 	if isContainer then
-		__Text[#__Text + 1] = GetProgressColorText(data.progress or 0, total)
+		__Text[#__Text + 1] = GetProgressColorText(data.progress or 0, data.total)
 	end
 	-- Non-collectible/total Container (only contains visible, non-collectibles...)
 	local g = data.g;
@@ -485,10 +484,9 @@ local function GetProgressTextForTooltip(data)
 		end
 	end
 	-- Container
-	local total = data.total;
-	local isContainer = total and (total > 1 or (total > 0 and not data.collectible));
+	local isContainer = data.isContainer
 	if isContainer then
-		__Text[#__Text + 1] = GetProgressColorText(data.progress or 0, total)
+		__Text[#__Text + 1] = GetProgressColorText(data.progress or 0, data.total)
 	end
 
 	-- Trackable (Only if no other text available)
