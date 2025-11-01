@@ -5336,21 +5336,6 @@ root(ROOTS.Unsorted, {
 			i(246083),	-- Pristine Ettin Bone Fragment
 			i(246084),	-- Pristine Gleaming Iron Spike
 			i(246085),	-- Pristine Xakal's Determination
-			i(246154),	-- Marigold Remembrance Veil
-			i(246155),	-- Starflower Remembrance Veil
-			i(246156),	-- Lotus Remembrance Veil
-			i(246157),	-- Orchid Remembrance Veil
-			i(246158),	-- Heartblossom Remembrance Veil
-			i(246179),	-- Lotus Deathmask
-			i(246180),	-- Marigold Deathmask
-			i(246181),	-- Starflower Deathmask
-			i(246182),	-- Orchid Deathmask
-			i(246183),	-- Heartblossom Deathmask
-			i(246184),	-- Heartblossom Crown of the Dead
-			i(246185),	-- Orchid Crown of the Dead
-			i(246186),	-- Lotus Crown of the Dead
-			i(246187),	-- Starflower Crown of the Dead
-			i(246188),	-- Marigold Crown of the Dead
 			i(246238),	-- [DNT] Affix Token
 			i(246789),	-- Cache of Infinite Power
 			i(246796),	-- Epic Cache of Infinite Power
