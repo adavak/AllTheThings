@@ -220,57 +220,45 @@ root(ROOTS.Holidays, applyevent(EVENTS.DAY_OF_THE_DEAD, n(DAY_OF_THE_DEAD_HEADER
 						["timeline"] = { ADDED_10_1_7 },
 					}),
 					i(246184, {	-- Heartblossom Crown of the Dead
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246183, {	-- Heartblossom Deathmask
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246158, {	-- Heartblossom Remembrance Veil
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246186, {	-- Lotust Crown of the Dead
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246179, {	-- Lotus Deathmask
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246156, {	-- Lotust Remembrance Veil
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246188, {	-- Marigold Crown of the Dead
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246180, {	-- Marigold Deathmask
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(188689, {	-- Marigold Petal Offering Bowl
 						["timeline"] = { ADDED_9_1_5 },
 					}),
 					i(246154, {	-- Marigold Remembrance Veil
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(46718, {	-- Orange Marigold
 						["timeline"] = { ADDED_3_2_2 },
 					}),
 					i(246185, {	-- Orchid Crown of the Dead
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246182, {	-- Orchid Deathmask
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246157, {	-- Orchid Remembrance Veil
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(46710, {	-- Recipe: Bread of the Dead (RECIPE!)
@@ -280,15 +268,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.DAY_OF_THE_DEAD, n(DAY_OF_THE_DEAD_HEADER
 						["timeline"] = { ADDED_3_2_2 },
 					}),
 					i(246187, {	-- Starflower Crown of the Dead
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246181, {	-- Starflower Deathmask
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(246155, {	-- Starflower Remembrance Veil
-						["cost"] = 1000000,	-- 100 g
 						["timeline"] = { ADDED_11_2_5 },
 					}),
 					i(46860, {	-- Whimsical Skull Mask (Cosmetic)
