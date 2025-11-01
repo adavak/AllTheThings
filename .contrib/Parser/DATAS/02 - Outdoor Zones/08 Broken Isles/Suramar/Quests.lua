@@ -1849,6 +1849,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44053,	-- Friends With Benefits
 					["provider"] = { "n", 103155 },	-- Arcanist Valtrois
 					["coord"] = { 37.0, 46.2, SURAMAR },
+					["groups"] = { i(138394) },	-- Suramar Leyline Map (QI!)
 				}),
 				q(42490, {	-- The Arcway: Opening the Arcway
 					["sourceQuest"] = 44053,	-- Friends With Benefits

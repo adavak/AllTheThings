@@ -1419,9 +1419,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							103732,	-- Tylos Darksight <Illidari Helmsman>
 						},
 						["coord"] = { 17.4, 31.4, SURAMAR },
-						["groups"] = {
-							i(137573),	-- Llothien Prowler (MOUNT!)
-						},
+						["groups"] = { i(137573) },	-- Llothien Prowler (MOUNT!)
 					}),
 					--[[q(45312, {	-- You Beat the Ball of Meat
 						["provider"] = { "i", 143590 },	-- Hunk of Meatball

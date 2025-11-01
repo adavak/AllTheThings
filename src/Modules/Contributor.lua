@@ -1210,6 +1210,7 @@ MobileDB.GameObject = {
 	[251626] = true,	-- Thousand-Year Arcwine (q:42841)
 	[251763] = true,	-- Legion Portal
 	[251954] = true,	-- Small Treasure Chest
+	[251959] = true,	-- Ancient Elven Chest (q:43251)
 	[252010] = true,	-- Crystallized Bough (q:43361)
 	[252074] = true,	-- Basket of Root Vegetables (q:38331)
 	[252076] = true,	-- Barrel of Krabs

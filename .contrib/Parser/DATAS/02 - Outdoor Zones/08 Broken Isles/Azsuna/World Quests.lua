@@ -206,7 +206,13 @@ root(ROOTS.Zones, {
 				}),
 				q(46164),	-- Mal'serus (Invasion WQ)
 				q(44786),	-- Midterm: Rune Aptitude
-				q(42105),	-- Mixology Mix-up
+				q(42105, {	-- Mixology Mix-up
+					o(249524, {	-- Egg of Gangamesh
+						["coord"] = { 51.6, 32.5, AZSUNA },
+						["groups"] = { i(136839) },	-- Egg of Gangamesh (QI!)
+					}),
+					i(136838),	-- Intact Murloc Eye (QI!)
+				}),
 				q(44048),	-- Nagana Happen
 				q(42275),	-- Not On My Watch
 				q(46116),	-- On Unhallowed Grounds (Invasion WQ)

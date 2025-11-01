@@ -615,6 +615,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45145 },	-- Moonfang Family Relics
 						["provider"] = { "n", 109102 },	-- Delas Moonfang
 						["coord"] = { 59.1, 32.6, LIGHTS_HOPE_CHAPEL },
+						["groups"] = { i(137677) },	-- Fel Blood (QI!)
 					}),
 					q(45147, {	-- Felstone Destruction
 						["sourceQuests"] = { 45146 },	-- Runic Reading

@@ -530,6 +530,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 44181,	-- Champion: Fleet Admiral Tethys
 						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 						["coord"] = { 40.8, 75.3, THE_HALL_OF_SHADOWS },
+						["groups"] = { i(137677) },	-- Fel Blood (QI!)
 					}),
 					q(43253, {	-- Maw of Souls: Ancient Vrykul Legends
 						["sourceQuests"] = {
@@ -540,6 +541,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 						["coord"] = { 40.9, 75.5, THE_HALL_OF_SHADOWS },
 						["maps"] = { 706, 707, 708 },	-- Maw of Souls
+						["groups"] = { i(139302) },	-- Etching from the Raven's Eye Tablet
 					}),
 					q(43249, {	-- The Raven's Eye
 						["sourceQuests"] = { 43253 },	-- Maw of Souls: Ancient Vrykul Legends
@@ -560,6 +562,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43250 },	-- Off to Court
 						["provider"] = { "n", 110164 },	-- Valeera Sanguinar
 						["coord"] = { 40.4, 52.9, VALSHARAH },
+						["groups"] = {
+							o(251959, {	-- Ancient Elven Chest
+								i(139317),	-- Broken Ancient Weapon
+								i(139316),	-- Moldy Scrap of Parchment
+								i(139290),	-- Ravencourt Ledger (QI!)
+								i(139318),	-- Torn Fragment of Cloth
+							}),
+						},
 					}),
 					q(42678, {	-- Black Rook Hold: Into Black Rook Hold
 						["sourceQuests"] = {
@@ -569,14 +579,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 110164 },	-- Valeera Sanguinar
 						["coord"] = { 40.4, 52.9, VALSHARAH },
 						["maps"] = { 751, 752, 753, 754, 755, 756 },	-- Black Rook Hold
+						["groups"] = { i(139319) },	-- The Raven's Eye
 					}),
 					q(42680, {	-- Deciphering the Letter
 						["sourceQuests"] = { 42678 },	-- Black Rook Hold: Into Black Rook Hold
 						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 						["coord"] = { 40.9, 75.5, THE_HALL_OF_SHADOWS },
-						["groups"] = {
-							i(139746),	-- Wristbands of the Uncrowned
-						},
+						["groups"] = { i(139746) },	-- Wristbands of the Uncrowned
 					}),
 					q(42800, {	-- Champion: Valeera Sanguinar
 						["sourceQuests"] = { 42680 },	-- Deciphering the Letter

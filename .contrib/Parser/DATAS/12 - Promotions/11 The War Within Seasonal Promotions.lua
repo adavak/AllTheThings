@@ -318,7 +318,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(257515, { -- Lil' Coalee (PET!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between October 1st, 10:00 a.m. & October 29th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.5.99999" },	-- Removed October 29th, 2025
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.5.64154" },	-- Removed October 29th, 2025
 			}),
 			i(247848, {	-- Astral Aurochs (MOUNT!)
 				["description"] = "Obtained if you set up a 12-Month WoW Subscription.",
