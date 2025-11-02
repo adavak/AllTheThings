@@ -151,6 +151,7 @@
     <Compile Include="Framework\Framework.Processing.cs" />
     <Compile Include="Framework\Handler.cs" />
     <Compile Include="Framework\HierarchicalFieldAdjustments.cs" />
+    <Compile Include="Framework\ReplacementTree.cs" />
     <Compile Include="Framework\Structs.cs" />
     <Compile Include="Harvesters\ObjectHarvester.cs" />
     <Compile Include="Framework\ParseStage.cs" />

@@ -65,6 +65,73 @@ namespace ATT
             FUNCTION_SHORTCUTS[shortcut] = function;
         }
 
+        public Exporter Replace(ReplacementTree tree)
+        {
+            var replaced = tree.Replace(_builder);
+            _builder.Clear();
+            _builder.Append(replaced.ToString());
+            return this;
+        }
+
+        public StringBuilder[] ProportionalSplit(int count, string splitter)
+        {
+            List<StringBuilder> segments = new List<StringBuilder>();
+            int totalLength = _builder.Length;
+            int approxStep = totalLength / count;
+            int previousIndex = 0;
+
+            for (int i = 1; i <= count; i++)
+            {
+                // We've reached the end of the builder before using up the expected number of splits
+                if (previousIndex >= totalLength)
+                    break;
+
+                // Estimate the next split point
+                int splitIndex = IndexOf(_builder, splitter, previousIndex + approxStep);
+
+                // If no splitter found, use end of builder
+                if (splitIndex == -1 || splitIndex <= previousIndex)
+                {
+                    splitIndex = totalLength;
+                }
+
+                // Extract the segment
+                int length = splitIndex - previousIndex;
+                var segment = new StringBuilder(_builder.ToString(previousIndex, length));
+                segments.Add(segment);
+
+                previousIndex = splitIndex + splitter.Length;
+            }
+
+            return segments.ToArray();
+        }
+
+        private static int IndexOf(StringBuilder builder, string value, int startIndex = 0)
+        {
+            if (builder == null || value == null || value.Length == 0 || startIndex < 0 || startIndex >= builder.Length)
+                return -1;
+
+            int maxStart = builder.Length - value.Length;
+
+            for (int i = startIndex; i <= maxStart; i++)
+            {
+                bool match = true;
+                for (int j = 0; j < value.Length; j++)
+                {
+                    if (builder[i + j] != value[j])
+                    {
+                        match = false;
+                        break;
+                    }
+                }
+
+                if (match)
+                    return i;
+            }
+
+            return -1;
+        }
+
         #region StringBuilder pass-thru
         public Exporter Append(string val)
         {

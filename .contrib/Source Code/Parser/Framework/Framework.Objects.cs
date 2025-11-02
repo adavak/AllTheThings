@@ -1189,15 +1189,18 @@ namespace ATT
                 if (simplifyConfig == null)
                 {
                     simplifyFunc = (s) => { SimplifyStructureForLua(s, 0, 0); };
+                    Log("Simplification is SKIPPED");
                 }
                 else if (simplifyConfig.Defined)
                 {
                     int[] simplify = simplifyConfig;
                     simplifyFunc = (s) => { SimplifyStructureForLua(s, simplify[0], simplify[1]); };
+                    Log($"Simplification with SimplifyStructures : Replacements={simplify[0]},MinUses={simplify[1]}");
                 }
                 else
                 {
                     simplifyFunc = (s) => { SimplifyStructureForLua(s); };
+                    Log($"Simplification with defaults (use SimplifyStructures in .config instead!)");
                 }
 
                 if (Debugger.IsAttached)
@@ -1212,13 +1215,7 @@ namespace ATT
                 {
                     // Perform replacements on all small StringBuilders in parallel tasks
                     // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
-                    Task[] replacementTasks = new Task[categoriesByLength.Count];
-                    for (int i = 0; i < categoriesByLength.Count; i++)
-                    {
-                        var s = categoriesByLength[i];
-                        //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
-                        replacementTasks[i] = Task.Run(() => simplifyFunc(s.Value));
-                    }
+                    Task[] replacementTasks = categoriesByLength.Select(s => Task.Run(() => simplifyFunc(s.Value))).ToArray();
                     Task.WaitAll(replacementTasks);
                 }
 

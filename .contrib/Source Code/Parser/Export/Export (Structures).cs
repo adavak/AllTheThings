@@ -23,6 +23,7 @@ namespace ATT
             Dictionary<string, string> replacements = new Dictionary<string, string>();
             if (builder.STRUCTURE_COUNTS.Any())
             {
+                Framework.LogDebug($"Simplifying {builder.Name} {builder.Length}...");
                 string CategorySplitter = Environment.NewLine;
 
                 // Prepare the shortcuts for commonly repeated structures.
@@ -32,11 +33,13 @@ namespace ATT
                     .ToList();
                 builder.STRUCTURE_COUNTS.Clear();
 
+                // swap in the replacement 'savings' for each structure since we will re-use this value a lot
+                order = order.Select(s => new KeyValuePair<string, int>(s.Key, ReplacmentSavings(s.Key.Count(c => c == ','), s.Value))).ToList();
+
                 // Sort the KeyValues so that the largest memory-cost replacements are exported first for performance reasons
                 order.Sort(delegate (KeyValuePair<string, int> a, KeyValuePair<string, int> b)
                 {
-                    int compare = ReplacmentSavings(b.Key.Count(c => c == ','), b.Value)
-                            .CompareTo(ReplacmentSavings(a.Key.Count(c => c == ','), a.Value));
+                    int compare = b.Value.CompareTo(a.Value);
                     if (compare != 0)
                         return compare;
 
@@ -46,69 +49,68 @@ namespace ATT
 
                 int ReplacmentSavings(int keys, int uses) =>
                     // table size
-                    (40 + 16 * keys) *
+                    (40 + 16 * keys)
                     // reduced duplicate definitions
-                    (uses - 1);
+                    * (uses - 1)
+                    // number of new references to the replacement table (8 byte)
+                    - (8 * uses);
 
                 int count = 0;
                 // Reduce the allowed set of replacements
                 var replacementOrder = order.Take(maximum).ToList();
 
-                Framework.Log($" - {builder.Name}: Up to {maximum} structure replacements (min. {minimumReplacements} uses each) from {order.Count} total ==> {replacementOrder.Count} replacements ({replacementOrder.Sum(x => ReplacmentSavings(x.Key.Count(c => c == ','), x.Value)) / 1024}kB reduction)");
+                Framework.Log($" - {builder.Name}: {order.Count} total ==> {replacementOrder.Count} replaced ({replacementOrder.Sum(x => x.Value) / 1024}kB reduction)");
 
-                // Sort the final set of replacements by their actual replacement key, to maintain identical export structure when re-parsing the same content
-                replacementOrder.Sort(delegate (KeyValuePair<string, int> a, KeyValuePair<string, int> b)
+                if (replacementOrder.Count > 0)
                 {
-                    return string.Compare(a.Key, b.Key);
-                });
+                    // Sort the final set of replacements by their actual replacement key, to maintain identical export structure when re-parsing the same content
+                    replacementOrder.Sort(delegate (KeyValuePair<string, int> a, KeyValuePair<string, int> b)
+                    {
+                        return string.Compare(a.Key, b.Key);
+                    });
 
-                // Split the StringBuilder into smaller string builders based on something which is not related to replaceable content
-                List<StringBuilder> splitBuilders = builder.ToString()
-                    .Split(new string[] { CategorySplitter }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(s => new StringBuilder(s))
-                    .ToList();
+                    // Determine all replacement relationships
+                    count = 0;
+                    foreach (var replaceCount in replacementOrder)
+                    {
+                        replacements.Add(replaceCount.Key, $"a[{++count}]");
+                    }
 
-                // Determine all replacement relationships
-                count = 0;
-                foreach (var replaceCount in replacementOrder)
-                {
-                    replacements.Add($"a[{++count}]", replaceCount.Key);
+                    ReplacementTree tree = new ReplacementTree(replacements);
+
+                    // one builder replacement per CPU to reduce overhead
+                    var subbuilders = builder.ProportionalSplit(Environment.ProcessorCount, CategorySplitter);
+                    List<StringBuilder> splitBuilders = new List<StringBuilder>();
+                    if (Debugger.IsAttached)
+                    {
+                        splitBuilders.AddRange(subbuilders.Select(s => tree.Replace(s)));
+                    }
+                    else
+                    {
+                        // 041788 - 049474 = 7.686 @ 50 / 1000,2
+                        //splitBuilders.AddRange(subbuilders.AsParallel().Select(s => tree.Replace(s)));
+
+                        // 038104 - 044826 = 6.722 @ 50 / 1000,2
+                        // 037892 - 044625 = 6.733 @ 50 / 5000,2
+                        Task<StringBuilder>[] replacementTasks = subbuilders.Select(s => Task.Run(() => { return tree.Replace(s); })).ToArray();
+                        splitBuilders.AddRange(Task.WhenAll(replacementTasks).Result);
+                    }
+
+                    // Replace the main string builder with the multiple builder content
+                    builder.Clear();
+                    builder.Append(string.Join(CategorySplitter, splitBuilders.Select(sb => sb.ToString())));
                 }
-
-                // TODO: build a more efficient replacements algorithm instead of splitting into thousands of tiny tasks
-                //builder.ReplaceStringBuilderContent(replacements);
-
-                // capture containers in a sorted list for processing, without affecting export order
-                List<StringBuilder> processingOrder = new List<StringBuilder>(splitBuilders);
-                // longest containers first for most processing time
-                processingOrder.Sort((a, b) => { return b.Length - a.Length; });
-
-                // Perform replacements on all small StringBuilders in parallel tasks
-                Task[] replacementTasks = new Task[splitBuilders.Count];
-                for (int i = 0; i < processingOrder.Count; i++)
-                {
-                    var s = processingOrder[i];
-                    //Trace.WriteLine(s.ToString(0, 10) + ":" + s.Length);
-                    replacementTasks[i] = Task.Run(() => { ReplaceStringBuilderContent(s, replacements); });
-                }
-                Task.WaitAll(replacementTasks);
-
-                Framework.Log($" - {builder.Name}: Done");
-
-                // Replace the main string builder with the multiple builder content
-                builder.Clear();
-                builder.Append(string.Join(CategorySplitter, splitBuilders.Select(sb => sb.ToString())));
+                Framework.LogDebug($"{builder.Name} Done");
             }
 
             action(builder, replacements);
         }
 
-        private static void ReplaceStringBuilderContent(StringBuilder builder, IEnumerable<KeyValuePair<string, string>> replacements)
+        private static void ReplaceStringBuilderContent(StringBuilder builder, ReplacementTree tree)
         {
-            foreach (var pair in replacements)
-            {
-                builder.Replace(pair.Value, pair.Key);
-            }
+            var replaced = tree.Replace(builder);
+            builder.Clear();
+            builder.Append(replaced.ToString());
         }
 
         /// <summary>

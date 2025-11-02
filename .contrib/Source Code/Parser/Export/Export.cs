@@ -106,9 +106,9 @@ namespace ATT
             foreach (var pair in keyValues)
             {
                 if (count++ > 0) builder2.Append(',');
-                builder2.Append(pair.Key);
-                builder2.Append(" = ");
                 builder2.Append(pair.Value);
+                builder2.Append(" = ");
+                builder2.Append(pair.Key);
             }
             builder2.Append(';').AppendLine();
             if (count > 0) builder.Insert(0, builder2);
@@ -168,7 +168,7 @@ namespace ATT
             foreach (var table in keyValues)
             {
                 if (count++ > 0) builder2.Append(',');
-                builder2.Append(table.Value);
+                builder2.Append(table.Key);
             }
             builder2.Append("};").AppendLine();
             builder.Replace("--STRUCTURE_REPLACEMENTS" + Environment.NewLine, builder2.ToString());

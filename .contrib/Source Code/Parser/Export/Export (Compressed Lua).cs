@@ -430,7 +430,7 @@ namespace ATT
         {
             // Export the Category
             var builder = new Exporter(name);
-            builder.Append("_.Categories.").Append(name).AppendLine("={");
+            builder.Append("_.Categories.").Append(name).Append("={");
             foreach (var group in category)
             {
                 ExportCompressedLua(builder, group);
