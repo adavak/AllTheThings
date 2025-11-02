@@ -3409,33 +3409,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(179595),	-- Drust Mask
 			}),
 			expansion(EXPANSION.SL, patch(2,0), {
-				i(188065),	-- Choral Bands
-				i(188064),	-- Choral Belt
-				i(188063),	-- Choral Breeches
-				i(188062),	-- Choral Cowl
-				i(188061),	-- Choral Gloves
-				i(188066),	-- Choral Mantle
-				i(188060),	-- Choral Shoes
-				i(188059),	-- Choral Tunic
-				--
-				i(190244),	-- Enlightened Researcher's Boots
-				i(190279),	-- Enlightened Researcher's Breeches
-				i(190248),	-- Enlightened Researcher's Cord
-				i(190245),	-- Enlightened Researcher's Grips
-				i(190277),	-- Enlightened Researcher's Handwraps
-				i(190247),	-- Enlightened Researcher's Leggings
-				i(190282),	-- Enlightened Researcher's Mantle
-				i(190246),	-- Enlightened Researcher's Mask
-				i(190275),	-- Enlightened Researcher's Raiment
-				i(190280),	-- Enlightened Researcher's Sash
-				i(190274),	-- Enlightened Researcher's Shawl
-				i(190276),	-- Enlightened Researcher's Treads
-				i(190243),	-- Enlightened Researcher's Tunic
-				i(190278),	-- Enlightened Researcher's Visage
-				i(190281),	-- Enlightened Researcher's Wraps
-				i(190249),	-- Enlightened Researcher's Wristbands
-				--
-
+				i(188065, {["sourceID"] = 165453}),	-- Choral Bands
+				i(188064, {["sourceID"] = 165452}),	-- Choral Belt
+				i(188063, {["sourceID"] = 165451}),	-- Choral Breeches
+				i(188062, {["sourceID"] = 165450}),	-- Choral Cowl
+				i(188061, {["sourceID"] = 165449}),	-- Choral Gloves
+				i(188066, {["sourceID"] = 165454}),	-- Choral Mantle
+				i(188060, {["sourceID"] = 165448}),	-- Choral Shoes
+				i(188059, {["sourceID"] = 165447}),	-- Choral Tunic
 				i(188110),	-- Cypher Attunement Chestpiece
 				i(188109),	-- Cypher Attunement Feet
 				i(188116),	-- Cypher Attunement Hands
@@ -3444,29 +3425,22 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(188107),	-- Cypher Attunement Shoulder
 				i(188108),	-- Cypher Attunement Waist
 				i(188113),	-- Cypher Attunement Wrist
-				--
-
-				-- Does not work now (fix would also need to re-harvest sources)
-				--[[
-				i(190621, {	-- Dealic Deterrent Stockings
-					["modID"] = 4
-				}),
-				i(190621, {	-- Dealic Deterrent Stockings
-					["modID"] = 2
-				}),
-				i(190621, {	-- Dealic Deterrent Stockings
-					["modID"] = 6
-				}),
-				i(190620, {	-- Sav'thul's Calamitous Tantour
-					["modID"] = 4,
-				}),
-				i(190620, {	-- Sav'thul's Calamitous Tantour
-					["modID"] = 2,
-				}),
-				i(190620, {	-- Sav'thul's Calamitous Tantour
-					["modID"] = 6,
-				}),
-				]]--
+				i(190244, {["sourceID"] = 168348}),	-- Enlightened Researcher's Boots
+				i(190279, {["sourceID"] = 168383}),	-- Enlightened Researcher's Breeches
+				i(190248, {["sourceID"] = 168352}),	-- Enlightened Researcher's Cord
+				i(190245, {["sourceID"] = 168349}),	-- Enlightened Researcher's Grips
+				i(190277, {["sourceID"] = 168381}),	-- Enlightened Researcher's Handwraps
+				i(190247, {["sourceID"] = 168351}),	-- Enlightened Researcher's Leggings
+				i(190282, {["sourceID"] = 168386}),	-- Enlightened Researcher's Mantle
+				i(190246, {["sourceID"] = 168350}),	-- Enlightened Researcher's Mask
+				i(190275, {["sourceID"] = 168379}),	-- Enlightened Researcher's Raiment
+				i(190280, {["sourceID"] = 168384}),	-- Enlightened Researcher's Sash
+				i(190274, {["sourceID"] = 168378}),	-- Enlightened Researcher's Shawl
+				i(190276, {["sourceID"] = 168380}),	-- Enlightened Researcher's Treads
+				i(190243, {["sourceID"] = 168347}),	-- Enlightened Researcher's Tunic
+				i(190278, {["sourceID"] = 168382}),	-- Enlightened Researcher's Visage
+				i(190281, {["sourceID"] = 168385}),	-- Enlightened Researcher's Wraps
+				i(190249, {["sourceID"] = 168353}),	-- Enlightened Researcher's Wristbands
 			}),
 			expansion(EXPANSION.SL, patch(2,5), {
 				i(191425),	-- Choral Amice
@@ -3500,54 +3474,38 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(188190),	-- Shoulderpads of the Primordial
 				i(188188),	-- Worldbinder Tricorne
 				--
-				i(188068),	-- Staccato Bands
-				i(188072),	-- Staccato Bracers
-				i(188069),	-- Staccato Cap
-				i(188089),	-- Staccato Jerkin
-				i(188070),	-- Staccato Pants
-				i(188090),	-- Staccato Pauldrons
-				i(188067),	-- Staccato Treads
-				i(188071),	-- Staccato Waistband
-				--
-				i(190254),	-- Unbound Explorer's Belt
-				i(190255),	-- Unbound Explorer's Bindings
-				i(190288),	-- Unbound Explorer's Bracers
-				i(190272),	-- Unbound Explorer's Chestguard
-				i(190285),	-- Unbound Explorer's Cowl
-				i(190306),	-- Unbound Explorer's Epaulets
-				i(190250),	-- Unbound Explorer's Footpads
-				i(190284),	-- Unbound Explorer's Gloves
-				i(190251),	-- Unbound Explorer's Handlers
-				i(190252),	-- Unbound Explorer's Headgear
-				i(190305),	-- Unbound Explorer's Jerkin
-				i(190253),	-- Unbound Explorer's Legguards
-				i(190273),	-- Unbound Explorer's Shoulderguards
-				i(190283),	-- Unbound Explorer's Striders
-				i(190286),	-- Unbound Explorer's Trousers
-				i(190287),	-- Unbound Explorer's Waistwrap
-				--
-
-				-- Does not work now (fix would also need to re-harvest sources)
-				--[[
-				i(190618, {	-- Lattice of the Distant Keeper
-					["bonusID"] = 451
-				}),
-				i(190618, {	-- Lattice of the Distant Keeper
-					["modID"] = 2
-				}),
-				i(190618, {	-- Lattice of the Distant Keeper
-					["modID"] = 6
-				}),
-				i(190619, {	-- Antecedent's Aliform Joggers
-					["modID"] = 4
-				}),
-				i(190619, {	-- Antecedent's Aliform Joggers
-					["modID"] = 2
-				}),
-				i(190619, {	-- Antecedent's Aliform Joggers
-					["modID"] = 6
-				})
-				--]]
+				i(188069, {["sourceID"] = 165457}),	-- Staccato Cap
+				i(188069, {["sourceID"] = 168477}),	-- Staccato Cap
+				i(188072, {["sourceID"] = 165460}),	-- Staccato Bracers
+				i(188072, {["sourceID"] = 168480}),	-- Staccato Bracers
+				i(188090, {["sourceID"] = 165478}),	-- Staccato Pauldrons
+				i(188090, {["sourceID"] = 168482}),	-- Staccato Pauldrons
+				i(188068, {["sourceID"] = 165456}),	-- Staccato Bands
+				i(188068, {["sourceID"] = 168476}),	-- Staccato Bands
+				i(188089, {["sourceID"] = 165477}),	-- Staccato Jerkin
+				i(188089, {["sourceID"] = 168481}),	-- Staccato Jerkin
+				i(188071, {["sourceID"] = 165459}),	-- Staccato Waistband
+				i(188071, {["sourceID"] = 168479}),	-- Staccato Waistband
+				i(188067, {["sourceID"] = 165455}),	-- Staccato Treads
+				i(188067, {["sourceID"] = 168475}),	-- Staccato Treads
+				i(188070, {["sourceID"] = 165458}),	-- Staccato Pants
+				i(188070, {["sourceID"] = 168478}),	-- Staccato Pants
+				i(190254, {["sourceID"] = 168358}),	-- Unbound Explorer's Belt
+				i(190255, {["sourceID"] = 168359}),	-- Unbound Explorer's Bindings
+				i(190288, {["sourceID"] = 168392}),	-- Unbound Explorer's Bracers
+				i(190272, {["sourceID"] = 168376}),	-- Unbound Explorer's Chestguard
+				i(190285, {["sourceID"] = 168389}),	-- Unbound Explorer's Cowl
+				i(190306, {["sourceID"] = 168410}),	-- Unbound Explorer's Epaulets
+				i(190250, {["sourceID"] = 168354}),	-- Unbound Explorer's Footpads
+				i(190284, {["sourceID"] = 168388}),	-- Unbound Explorer's Gloves
+				i(190251, {["sourceID"] = 168355}),	-- Unbound Explorer's Handlers
+				i(190252, {["sourceID"] = 168356}),	-- Unbound Explorer's Headgear
+				i(190305, {["sourceID"] = 168409}),	-- Unbound Explorer's Jerkin
+				i(190253, {["sourceID"] = 168357}),	-- Unbound Explorer's Legguards
+				i(190273, {["sourceID"] = 168377}),	-- Unbound Explorer's Shoulderguards
+				i(190283, {["sourceID"] = 168387}),	-- Unbound Explorer's Striders
+				i(190286, {["sourceID"] = 168390}),	-- Unbound Explorer's Trousers
+				i(190287, {["sourceID"] = 168391}),	-- Unbound Explorer's Waistwrap
 			}),
 		}),
 		filter(MAIL, {
@@ -3565,54 +3523,38 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(178304),	-- unused
 			}),
 			expansion(EXPANSION.SL, patch(2,0), {
-				i(188074),	-- Anthemic Boots
-				i(188079),	-- Anthemic Clasp
-				i(188077),	-- Anthemic Cuisses
-				i(188075),	-- Anthemic Grasps
-				i(188073),	-- Anthemic Hauberk
-				i(188076),	-- Anthemic Helm
-				i(188078),	-- Anthemic Pauldrons
-				i(188080),	-- Anthemic Wristlinks
-				--
-				i(190295),	-- Transcendent Vagabond's Chain
-				i(190263),	-- Transcendent Vagabond's Clasps
-				i(190259),	-- Transcendent Vagabond's Coif
-				i(190289),	-- Transcendent Vagabond's Cuirass
-				i(190257),	-- Transcendent Vagabond's Footguards
-				i(190293),	-- Transcendent Vagabond's Greaves
-				i(190291),	-- Transcendent Vagabond's Grips
-				i(190258),	-- Transcendent Vagabond's Handguards
-				i(190292),	-- Transcendent Vagabond's Helm
-				i(190260),	-- Transcendent Vagabond's Pants
-				i(190256),	-- Transcendent Vagabond's Scales
-				i(190261),	-- Transcendent Vagabond's Shoulderpads
-				i(190294),	-- Transcendent Vagabond's Spaulders
-				i(190290),	-- Transcendent Vagabond's Striders
-				i(190262),	-- Transcendent Vagabond's Waistguard
-				i(190296),	-- Transcendent Vagabond's Wristguards
-				--
-
-				-- Does not work now (fix would also need to re-harvest sources)
-				--[[
-				i(190616, {	-- Controlled Sequence Clasp
-					["bonusID"] = 451
-				}),
-				i(190616, {	-- Controlled Sequence Clasp
-					["modID"] = 2
-				}),
-				i(190616, {	-- Controlled Sequence Clasp
-					["modID"] = 6
-				}),
-				i(190617, {	-- Destruction-Core Handlers
-					["bonusID"] = 451
-				}),
-				i(190617, {	-- Destruction-Core Handlers
-					["modID"] = 2
-				}),
-				i(190617, {	-- Destruction-Core Handlers
-					["modID"] = 6
-				}),
-				--]]
+				i(188079, {["sourceID"] = 165467}),	-- Anthemic Clasp
+				i(188079, {["sourceID"] = 168497}),	-- Anthemic Clasp
+				i(188075, {["sourceID"] = 165463}),	-- Anthemic Grasps
+				i(188075, {["sourceID"] = 168493}),	-- Anthemic Grasps
+				i(188074, {["sourceID"] = 165462}),	-- Anthemic Boots
+				i(188074, {["sourceID"] = 168492}),	-- Anthemic Boots
+				i(188073, {["sourceID"] = 165461}),	-- Anthemic Hauberk
+				i(188073, {["sourceID"] = 168491}),	-- Anthemic Hauberk
+				i(188076, {["sourceID"] = 165464}),	-- Anthemic Helm
+				i(188076, {["sourceID"] = 168494}),	-- Anthemic Helm
+				i(188077, {["sourceID"] = 165465}),	-- Anthemic Cuisses
+				i(188077, {["sourceID"] = 168495}),	-- Anthemic Cuisses
+				i(188078, {["sourceID"] = 165466}),	-- Anthemic Pauldrons
+				i(188078, {["sourceID"] = 168496}),	-- Anthemic Pauldrons
+				i(188080, {["sourceID"] = 165468}),	-- Anthemic Wristlinks
+				i(188080, {["sourceID"] = 168498}),	-- Anthemic Wristlinks
+				i(190295, {["sourceID"] = 168399}),	-- Transcendent Vagabond's Chain
+				i(190263, {["sourceID"] = 168367}),	-- Transcendent Vagabond's Clasps
+				i(190259, {["sourceID"] = 168363}),	-- Transcendent Vagabond's Coif
+				i(190289, {["sourceID"] = 168393}),	-- Transcendent Vagabond's Cuirass
+				i(190257, {["sourceID"] = 168361}),	-- Transcendent Vagabond's Footguards
+				i(190293, {["sourceID"] = 168397}),	-- Transcendent Vagabond's Greaves
+				i(190291, {["sourceID"] = 168395}),	-- Transcendent Vagabond's Grips
+				i(190258, {["sourceID"] = 168362}),	-- Transcendent Vagabond's Handguards
+				i(190292, {["sourceID"] = 168396}),	-- Transcendent Vagabond's Helm
+				i(190260, {["sourceID"] = 168364}),	-- Transcendent Vagabond's Pants
+				i(190256, {["sourceID"] = 168360}),	-- Transcendent Vagabond's Scales
+				i(190261, {["sourceID"] = 168365}),	-- Transcendent Vagabond's Shoulderpads
+				i(190294, {["sourceID"] = 168398}),	-- Transcendent Vagabond's Spaulders
+				i(190290, {["sourceID"] = 168394}),	-- Transcendent Vagabond's Striders
+				i(190262, {["sourceID"] = 168366}),	-- Transcendent Vagabond's Waistguard
+				i(190296, {["sourceID"] = 168400}),	-- Transcendent Vagabond's Wristguards
 			}),
 		}),
 		filter(PLATE, {
@@ -3627,55 +3569,39 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(180552),	-- Wristguards of the Dark Keepers
 			}),
 			expansion(EXPANSION.SL, patch(2,0), {
-				i(188082),	-- Harmonium Armor
-				i(188087),	-- Harmonium Belt
-				i(188088),	-- Harmonium Binders
-				i(188083),	-- Harmonium Boots
-				i(188084),	-- Harmonium Grips
-				i(188085),	-- Harmonium Pillars
-				i(188086),	-- Harmonium Shoulderplates
-				i(188081),	-- Harmonium Visor
-				--
 				i(190623),	-- [DNT] 9.2 Raid - Sepulcher of the First Ones - Trash Drops - Armor - Plate Shoulders
-				i(190298),	-- Eternal Warder's Breastplate
-				i(190303),	-- Eternal Warder's Buckle
-				i(190265),	-- Eternal Warder's Chestplate
-				i(190300),	-- Eternal Warder's Crushers
-				i(190268),	-- Eternal Warder's Cuisses
-				i(190297),	-- Eternal Warder's Faceplate
-				i(190267),	-- Eternal Warder's Gauntlets
-				i(190270),	-- Eternal Warder's Girdle
-				i(190299),	-- Eternal Warder's Greaves
-				i(190301),	-- Eternal Warder's Legplates
-				i(190269),	-- Eternal Warder's Pauldrons
-				i(190266),	-- Eternal Warder's Sabatons
-				i(190302),	-- Eternal Warder's Shoulderplates
-				i(190271),	-- Eternal Warder's Vambraces
-				i(190264),	-- Eternal Warder's Visor
-				i(190304),	-- Eternal Warder's Wristplates
-				--
-
-				-- Does not work now (fix would also need to re-harvest sources)
-				--[[
-				i(190614, {	-- Antros' Entrusted Bascinet
-					["modID"] = 4,
-				}),
-				i(190614, {	-- Antros' Entrusted Bascinet
-					["modID"] = 2,
-				}),
-				i(190614, {	-- Antros' Entrusted Bascinet
-					["modID"] = 6,
-				}),
-				i(190615, {	-- Cosmic Guardian's Casing
-					["modID"] = 4,
-				}),
-				i(190615, {	-- Cosmic Guardian's Casing
-					["modID"] = 2,
-				}),
-				i(190615, {	-- Cosmic Guardian's Casing
-					["modID"] = 6,
-				}),
-				--]]
+				i(188082, {["sourceID"] = 165470}),	-- Harmonium Armor
+				i(188082, {["sourceID"] = 168458}),	-- Harmonium Armor
+				i(188087, {["sourceID"] = 165475}),	-- Harmonium Belt
+				i(188087, {["sourceID"] = 168463}),	-- Harmonium Belt
+				i(188088, {["sourceID"] = 165476}),	-- Harmonium Binders
+				i(188088, {["sourceID"] = 168464}),	-- Harmonium Binders
+				i(188083, {["sourceID"] = 165471}),	-- Harmonium Boots
+				i(188083, {["sourceID"] = 168459}),	-- Harmonium Boots
+				i(188084, {["sourceID"] = 165472}),	-- Harmonium Grips
+				i(188084, {["sourceID"] = 168460}),	-- Harmonium Grips
+				i(188085, {["sourceID"] = 165473}),	-- Harmonium Pillars
+				i(188085, {["sourceID"] = 168461}),	-- Harmonium Pillars
+				i(188086, {["sourceID"] = 165474}),	-- Harmonium Shoulderplates
+				i(188086, {["sourceID"] = 168462}),	-- Harmonium Shoulderplates
+				i(188081, {["sourceID"] = 165469}),	-- Harmonium Visor
+				i(188081, {["sourceID"] = 168457}),	-- Harmonium Visor
+				i(190298, {["sourceID"] = 168402}),	-- Eternal Warder's Breastplate
+				i(190303, {["sourceID"] = 168407}),	-- Eternal Warder's Buckle
+				i(190265, {["sourceID"] = 168369}),	-- Eternal Warder's Chestplate
+				i(190300, {["sourceID"] = 168404}),	-- Eternal Warder's Crushers
+				i(190268, {["sourceID"] = 168372}),	-- Eternal Warder's Cuisses
+				i(190297, {["sourceID"] = 168401}),	-- Eternal Warder's Faceplate
+				i(190267, {["sourceID"] = 168371}),	-- Eternal Warder's Gauntlets
+				i(190270, {["sourceID"] = 168374}),	-- Eternal Warder's Girdle
+				i(190299, {["sourceID"] = 168403}),	-- Eternal Warder's Greaves
+				i(190301, {["sourceID"] = 168405}),	-- Eternal Warder's Legplates
+				i(190269, {["sourceID"] = 168373}),	-- Eternal Warder's Pauldrons
+				i(190266, {["sourceID"] = 168370}),	-- Eternal Warder's Sabatons
+				i(190302, {["sourceID"] = 168406}),	-- Eternal Warder's Shoulderplates
+				i(190271, {["sourceID"] = 168375}),	-- Eternal Warder's Vambraces
+				i(190264, {["sourceID"] = 168368}),	-- Eternal Warder's Visor
+				i(190304, {["sourceID"] = 168408}),	-- Eternal Warder's Wristplates
 			}),
 		}),
 		n(LEGENDARIES, {

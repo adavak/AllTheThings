@@ -35353,38 +35353,6 @@ s(146347)/i(186852),	-- Cosmic Gladiator's Plate Wristguards
 s(146348)/i(186852),	-- Cosmic Gladiator's Plate Wristguards
 s(146349)/i(186853),	-- Cosmic Gladiator's Plate Vambraces
 s(146350)/i(186853),	-- Cosmic Gladiator's Plate Vambraces
-s(165447)/i(188059),	-- Choral Tunic \\ [PH] Copy Korthian Caretaker's Vestments
-s(165448)/i(188060),	-- Choral Shoes \\ [PH] Copy Korthian Caretaker's Sandals
-s(165449)/i(188061),	-- Choral Gloves \\ [PH] Copy Korthian Caretaker's Mitts
-s(165450)/i(188062),	-- Choral Cowl \\ [PH] Copy Korthian Caretaker's Crown
-s(165451)/i(188063),	-- Choral Breeches \\ [PH] Copy Korthian Caretaker's Pantaloons
-s(165452)/i(188064),	-- Choral Belt \\ [PH] Copy Korthian Caretaker's Sash
-s(165453)/i(188065),	-- Choral Bands \\ [PH] Copy Korthian Caretaker's Wraps
-s(165454)/i(188066),	-- Choral Mantle \\ [PH] Copy Korthian Caretaker's Mantle
-s(165455)/i(188067),	-- Staccato Treads \\ [PH] Copy Shardhide Leather Treads
-s(165456)/i(188068),	-- Staccato Bands \\ [PH] Copy Shardhide Leather Handlers
-s(165457)/i(188069),	-- Staccato Cap \\ [PH] Copy Shardhide Leather Cowl
-s(165458)/i(188070),	-- Staccato Pants \\ [PH] Copy Shardhide Leather Trousers
-s(165459)/i(188071),	-- Staccato Waistband \\ [PH] Copy Shardhide Leather Strap
-s(165460)/i(188072),	-- Staccato Bracers \\ [PH] Copy Shardhide Leather Cuffs
-s(165461)/i(188073),	-- Anthemic Hauberk \\ [PH] Copy Razorwing Scale Harness
-s(165462)/i(188074),	-- Anthemic Boots \\ [PH] Copy Razorwing Scale Footguards
-s(165463)/i(188075),	-- Anthemic Grasps \\ [PH] Copy Razorwing Scale Fists
-s(165464)/i(188076),	-- Anthemic Helm \\ [PH] Copy Razorwing Scale Hood
-s(165465)/i(188077),	-- Anthemic Cuisses \\ [PH] Copy Razorwing Scale Pants
-s(165466)/i(188078),	-- Anthemic Pauldrons \\ [PH] Copy Razorwing Scale Spaulders
-s(165467)/i(188079),	-- Anthemic Clasp \\ [PH] Copy Razorwing Scale Chain
-s(165468)/i(188080),	-- Anthemic Wristlinks \\ [PH] Copy Razorwing Scale Wristguards
-s(165469)/i(188081),	-- Harmonium Visor \\ [PH] Copy Vault Guardian's Visor
-s(165470)/i(188082),	-- Harmonium Armor \\ [PH] Copy Vault Guardian's Chestpiece
-s(165471)/i(188083),	-- Harmonium Boots \\ [PH] Copy Vault Guardian's Stompers
-s(165472)/i(188084),	-- Harmonium Grips \\ [PH] Copy Vault Guardian's Handguards
-s(165473)/i(188085),	-- Harmonium Pillars \\ [PH] Copy Vault Guardian's Legplates
-s(165474)/i(188086),	-- Harmonium Shoulderplates \\ [PH] Copy Vault Guardian's Shoulderplates
-s(165475)/i(188087),	-- Harmonium Belt \\ [PH] Copy Vault Guardian's Buckle
-s(165476)/i(188088),	-- Harmonium Binders \\ [PH] Copy Vault Guardian's Binders
-s(165477)/i(188089),	-- Staccato Jerkin \\ [PH] Copy Shardhide Leather Jerkin
-s(165478)/i(188090),	-- Staccato Pauldrons \\ [PH] Copy Shardhide Leather Epaulets
 s(165479)/i(188091),	-- [PH] Copy Korthian Keeper's Buckler
 s(165480)/i(188092),	-- [PH] Copy Korthian Anima Vessel
 s(165481)/i(188093),	-- [PH] Copy Korthian Energy Bow
@@ -35444,96 +35412,6 @@ s(167944)/i(189833),	-- Taciturn Keeper's Lapis \\ <DNT> 9.2 Raid - Sepulcher of
 s(167945)/i(189833),	-- Taciturn Keeper's Lapis \\ <DNT> 9.2 Raid - Sepulcher of the First Ones - Boss 07 - Halondrus - Accessory - Cloak
 s(167946)/i(189833),	-- Taciturn Keeper's Lapis \\ <DNT> 9.2 Raid - Sepulcher of the First Ones - Boss 07 - Halondrus - Accessory - Cloak
 s(167947)/i(189833),	-- Taciturn Keeper's Lapis \\ <DNT> 9.2 Raid - Sepulcher of the First Ones - Boss 07 - Halondrus - Accessory - Cloak
-9.2.0.41462
-s(168347)/i(190243),	-- Enlightened Researcher's Tunic
-s(168348)/i(190244),	-- Enlightened Researcher's Boots
-s(168349)/i(190245),	-- Enlightened Researcher's Grips
-s(168350)/i(190246),	-- Enlightened Researcher's Mask
-s(168351)/i(190247),	-- Enlightened Researcher's Leggings
-s(168352)/i(190248),	-- Enlightened Researcher's Cord
-s(168353)/i(190249),	-- Enlightened Researcher's Wristbands
-s(168354)/i(190250),	-- Unbound Explorer's Footpads
-s(168355)/i(190251),	-- Unbound Explorer's Handlers
-s(168356)/i(190252),	-- Unbound Explorer's Headgear
-s(168357)/i(190253),	-- Unbound Explorer's Legguards
-s(168358)/i(190254),	-- Unbound Explorer's Belt
-s(168359)/i(190255),	-- Unbound Explorer's Bindings
-s(168360)/i(190256),	-- Transcendent Vagabond's Scales
-s(168361)/i(190257),	-- Transcendent Vagabond's Footguards
-s(168362)/i(190258),	-- Transcendent Vagabond's Handguards
-s(168363)/i(190259),	-- Transcendent Vagabond's Coif
-s(168364)/i(190260),	-- Transcendent Vagabond's Pants
-s(168365)/i(190261),	-- Transcendent Vagabond's Shoulderpads
-s(168366)/i(190262),	-- Transcendent Vagabond's Waistguard
-s(168367)/i(190263),	-- Transcendent Vagabond's Clasps
-s(168368)/i(190264),	-- Eternal Warder's Visor
-s(168369)/i(190265),	-- Eternal Warder's Chestplate
-s(168370)/i(190266),	-- Eternal Warder's Sabatons
-s(168371)/i(190267),	-- Eternal Warder's Gauntlets
-s(168372)/i(190268),	-- Eternal Warder's Cuisses
-s(168373)/i(190269),	-- Eternal Warder's Pauldrons
-s(168374)/i(190270),	-- Eternal Warder's Girdle
-s(168375)/i(190271),	-- Eternal Warder's Vambraces
-s(168376)/i(190272),	-- Unbound Explorer's Chestguard
-s(168377)/i(190273),	-- Unbound Explorer's Shoulderguards
-s(168378)/i(190274),	-- Enlightened Researcher's Shawl
-s(168379)/i(190275),	-- Enlightened Researcher's Raiment
-s(168380)/i(190276),	-- Enlightened Researcher's Treads
-s(168381)/i(190277),	-- Enlightened Researcher's Handwraps
-s(168382)/i(190278),	-- Enlightened Researcher's Visage
-s(168383)/i(190279),	-- Enlightened Researcher's Breeches
-s(168384)/i(190280),	-- Enlightened Researcher's Sash
-s(168385)/i(190281),	-- Enlightened Researcher's Wraps
-s(168386)/i(190282),	-- Enlightened Researcher's Mantle
-s(168387)/i(190283),	-- Unbound Explorer's Striders
-s(168388)/i(190284),	-- Unbound Explorer's Gloves
-s(168389)/i(190285),	-- Unbound Explorer's Cowl
-s(168390)/i(190286),	-- Unbound Explorer's Trousers
-s(168391)/i(190287),	-- Unbound Explorer's Waistwrap
-s(168392)/i(190288),	-- Unbound Explorer's Bracers
-s(168393)/i(190289),	-- Transcendent Vagabond's Cuirass
-s(168394)/i(190290),	-- Transcendent Vagabond's Striders
-s(168395)/i(190291),	-- Transcendent Vagabond's Grips
-s(168396)/i(190292),	-- Transcendent Vagabond's Helm
-s(168397)/i(190293),	-- Transcendent Vagabond's Greaves
-s(168398)/i(190294),	-- Transcendent Vagabond's Spaulders
-s(168399)/i(190295),	-- Transcendent Vagabond's Chain
-s(168400)/i(190296),	-- Transcendent Vagabond's Wristguards
-s(168401)/i(190297),	-- Eternal Warder's Faceplate
-s(168402)/i(190298),	-- Eternal Warder's Breastplate
-s(168403)/i(190299),	-- Eternal Warder's Greaves
-s(168404)/i(190300),	-- Eternal Warder's Crushers
-s(168405)/i(190301),	-- Eternal Warder's Legplates
-s(168406)/i(190302),	-- Eternal Warder's Shoulderplates
-s(168407)/i(190303),	-- Eternal Warder's Buckle
-s(168408)/i(190304),	-- Eternal Warder's Wristplates
-s(168409)/i(190305),	-- Unbound Explorer's Jerkin
-s(168410)/i(190306),	-- Unbound Explorer's Epaulets
-9.2.0.41726
-s(168457)/i(188081),	-- Harmonium Visor \\ [PH] Copy Vault Guardian's Visor
-s(168458)/i(188082),	-- Harmonium Armor \\ [PH] Copy Vault Guardian's Chestpiece
-s(168459)/i(188083),	-- Harmonium Boots \\ [PH] Copy Vault Guardian's Stompers
-s(168460)/i(188084),	-- Harmonium Grips \\ [PH] Copy Vault Guardian's Handguards
-s(168461)/i(188085),	-- Harmonium Pillars \\ [PH] Copy Vault Guardian's Legplates
-s(168462)/i(188086),	-- Harmonium Shoulderplates \\ [PH] Copy Vault Guardian's Shoulderplates
-s(168463)/i(188087),	-- Harmonium Belt \\ [PH] Copy Vault Guardian's Buckle
-s(168464)/i(188088),	-- Harmonium Binders \\ [PH] Copy Vault Guardian's Binders
-s(168475)/i(188067),	-- Staccato Treads \\ [PH] Copy Shardhide Leather Treads
-s(168476)/i(188068),	-- Staccato Bands \\ [PH] Copy Shardhide Leather Handlers
-s(168477)/i(188069),	-- Staccato Cap \\ [PH] Copy Shardhide Leather Cowl
-s(168478)/i(188070),	-- Staccato Pants \\ [PH] Copy Shardhide Leather Trousers
-s(168479)/i(188071),	-- Staccato Waistband \\ [PH] Copy Shardhide Leather Strap
-s(168480)/i(188072),	-- Staccato Bracers \\ [PH] Copy Shardhide Leather Cuffs
-s(168481)/i(188089),	-- Staccato Jerkin \\ [PH] Copy Shardhide Leather Jerkin
-s(168482)/i(188090),	-- Staccato Pauldrons \\ [PH] Copy Shardhide Leather Epaulets
-s(168491)/i(188073),	-- Anthemic Hauberk \\ [PH] Copy Razorwing Scale Harness
-s(168492)/i(188074),	-- Anthemic Boots \\ [PH] Copy Razorwing Scale Footguards
-s(168493)/i(188075),	-- Anthemic Grasps \\ [PH] Copy Razorwing Scale Fists
-s(168494)/i(188076),	-- Anthemic Helm \\ [PH] Copy Razorwing Scale Hood
-s(168495)/i(188077),	-- Anthemic Cuisses \\ [PH] Copy Razorwing Scale Pants
-s(168496)/i(188078),	-- Anthemic Pauldrons \\ [PH] Copy Razorwing Scale Spaulders
-s(168497)/i(188079),	-- Anthemic Clasp \\ [PH] Copy Razorwing Scale Chain
-s(168498)/i(188080),	-- Anthemic Wristlinks \\ [PH] Copy Razorwing Scale Wristguards
 9.2.0.41827
 s(168854)/i(190614),	-- Antros' Entrusted Bascinet \\ [DNT] 9.2 Raid - Sepulcher of the First Ones - World Boss - Armor - Plate Head
 s(168855)/i(190614),	-- Antros' Entrusted Bascinet \\ [DNT] 9.2 Raid - Sepulcher of the First Ones - World Boss - Armor - Plate Head
