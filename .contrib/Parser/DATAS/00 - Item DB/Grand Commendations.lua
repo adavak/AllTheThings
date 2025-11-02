@@ -56,6 +56,9 @@ h(i(70154, FACTION_UNDERCITY));				-- Undercity Writ of Commendation
 i(93231, 1376, true);		-- Grand Commendation of Operation: Shieldwall
 i(93225, 1302, true);		-- Grand Commendation of the Anglers
 i(93224, 1341, true);		-- Grand Commendation of the August Celestials
+-- #if ANYCLASSIC
+i(254313, 1359, true);		-- Grand Commendation of the Black Prince
+-- #endif
 i(93232, 1375, true);		-- Grand Commendation of the Dominance Offensive
 i(93215, 1269, true);		-- Grand Commendation of the Golden Lotus
 i(95545, 1387, true);		-- Grand Commendation of the Kirin Tor Offensive
