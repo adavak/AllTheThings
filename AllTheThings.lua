@@ -161,32 +161,6 @@ end -- TradeSkill Functionality
 local GetSpecsString, GetGroupItemIDWithModID, GroupMatchesParams, GetClassesString
 	= app.GetSpecsString, app.GetGroupItemIDWithModID, app.GroupMatchesParams, app.GetClassesString
 
-local function CleanInheritingGroups(groups, ...)
-	-- Cleans any groups which are nested under any group with any specified fields
-	local arrs = select("#", ...);
-	if groups and arrs > 0 then
-		local refined, f, match = {}, nil, nil;
-		-- app.PrintDebug("CIG:Start",#groups,...)
-		for _,j in ipairs(groups) do
-			match = nil;
-			for n=1,arrs do
-				f = select(n, ...);
-				if GetRelativeValue(j, f) then
-					match = true;
-					-- app.PrintDebug("CIG:Skip",j.hash,f)
-					break;
-				end
-			end
-			if not match then
-				tinsert(refined, j);
-			end
-		end
-		-- app.PrintDebug("CIG:End",#refined)
-		return refined;
-	end
-end
-app.CleanInheritingGroups = CleanInheritingGroups
-
 do
 local ContainsLimit, ContainsExceeded;
 local Indicator, GetProgressTextForRow, GetUnobtainableTexture
@@ -2712,7 +2686,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 			local currentMaps, mapID = {}, self.mapID
 
 			-- Get all results for this map, without any results that have been cloned into Source Ignored groups or are under Unsorted
-			results = CleanInheritingGroups(SearchForField("mapID", mapID), "sourceIgnored");
+			results = SearchForField("mapID", mapID)
 			-- app.PrintDebug("Rebuild#",#results);
 			if results and #results > 0 then
 
@@ -2723,7 +2697,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 				-- local submapinfos = ArrayAppend(C_Map_GetMapChildrenInfo(mapID, 5), C_Map_GetMapChildrenInfo(mapID, 6))
 				-- if submapinfos then
 					-- for _,mapInfo in ipairs(submapinfos) do
-						-- subresults = CleanInheritingGroups(SearchForField("mapID", mapInfo.mapID), "sourceIgnored")
+						-- subresults = SearchForField("mapID", mapInfo.mapID)
 						-- app.PrintDebug("Adding Sub-Map Results:",mapInfo.mapID,mapInfo.mapType,#subresults)
 						-- results = ArrayAppend(results, subresults)
 					-- end
@@ -2740,7 +2714,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					local subresults
 					for _,subMapID in ipairs(rootMap.maps) do
 						if subMapID ~= mapID then
-							subresults = CleanInheritingGroups(SearchForField("mapID", subMapID), "sourceIgnored")
+							subresults = SearchForField("mapID", subMapID)
 							-- app.PrintDebug("Adding Sub-Map Results:",subMapID,#subresults)
 							results = ArrayAppend(results, subresults)
 						end
