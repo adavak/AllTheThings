@@ -14,7 +14,7 @@ createLocalizationString({
 		pt = "Colecionador",
 		ru = "Коллекционер",
 		ko = "수집기",
-		cn = "集电极",
-		tw = "集電極",
+		cn = "收藏家",
+		tw = "收藏家",
 	},
 })
