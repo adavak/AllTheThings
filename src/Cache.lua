@@ -715,9 +715,17 @@ else
 	end
 end
 
-CacheFields = function(group, skipMapCaching)
+CacheFields = function(group, skipMapCaching, cacheName)
 	allowMapCaching = not skipMapCaching
-	_CacheFields(group);
+	if cacheName then
+		local cache = cacheName and AllCaches[cacheName]
+		if not cache then
+			cache = CreateDataCache(cacheName, skipMapCaching)
+		end
+		cache.CacheFields(group)
+	else
+		_CacheFields(group)
+	end
 	for i=1,#runners do
 		runners[i]()
 	end
