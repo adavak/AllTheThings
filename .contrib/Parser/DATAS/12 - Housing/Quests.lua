@@ -57,21 +57,41 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 		["groups"] = { i(239098) },	-- Neighborhood Charter
 	}),
-	header(HEADERS.Quest, 92991, {	-- Decor Treasure Hunt
-		-- TODO: Quest names are temp (Most likely)
-		q(93079, {	-- Decor Treasure Hunt [Horde]
-			["qg"] = 253596,	-- The Last Architect
-			["coord"] = { 53.7, 57.4, RAZORWIND_SHORES },
+	header(HEADERS.Quest, 92969, sharedData({	-- Decor Treasure Hunt [A]
+		["qg"] = 248854,	-- The Last Architect
+		["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
+		["races"] = ALLIANCE_ONLY,
+	},{
+		q(92969, {	-- Decor Treasure Hunt
+			["groups"] = { i(242951) },	-- Sturdy Wooden Bench (DECOR!)
+		}),
+		q(92980, {	-- Decor Treasure Hunt
+			["description"] = "Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",
+			["qg"] = 248854,	-- The Last Architect
+			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
+			["groups"] = { i(245556) },	-- Iron-Reinforced Standing Mirror (DECOR!)
+		}),
+		q(92998, {	-- Decor Treasure Hunt
+			["qg"] = 248854,	-- The Last Architect
+			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
+			["groups"] = { i(246102) },	-- Large Covered Wooden Table (DECOR!)
+		}),
+	}));
+	header(HEADERS.Quest, 93109, sharedData({	-- Decor Treasure Hunt [H]
+		["qg"] = 253596,	-- The Last Architect
+		["coord"] = { 53.7, 57.4, RAZORWIND_SHORES },
+		["races"] = HORDE_ONLY,
+	},{
+		q(93079, {	-- Decor Treasure Hunt
 			["groups"] = { i(244534) },	-- Iron-Reinforced Door (DECOR)
 		}),
-		q(93109, {	-- Decor Treasure Hunt [Horde]
+		q(93109, {	-- Decor Treasure Hunt
 			["description"] = "Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",
-			["qg"] = 253596,	-- The Last Architect
-			["coord"] = { 53.7, 57.4, RAZORWIND_SHORES },
 			["groups"] = { i(245680) },	-- Orgrimmar Bureaucrat's Desk (DECOR)
 		}),
-
-
+	}));
+	header(HEADERS.Quest, 92991, {	-- Decor Treasure Hunt [UNSORTED]
+		-- TODO: Although most of these can be sorted based on the rewards alone, better wait for confirmation until sorting.
 		q(92961, {	-- Decor Treasure Hunt
 			["groups"] = { i(245384) },	-- Sturdy Wooden Shelf (DECOR!)
 		}),
@@ -110,11 +130,6 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(92968, {	-- Decor Treasure Hunt 09
 			["groups"] = { i(236677) },	-- Stormwind Interior Wall (DECOR!)
-		}),
-		q(92969, {	-- Decor Treasure Hunt 10
-			["qg"] = 248854,	-- The Last Architect
-			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
-			["groups"] = { i(242951) },	-- Sturdy Wooden Bench (DECOR!)
 		}),
 		q(92978, {	-- Decor Treasure Hunt 12
 			["groups"] = { i(243334) },	-- Reinforced Wooden Chest (DECOR!)
@@ -161,19 +176,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		q(92981, {	-- Decor Treasure Hunt 29
 			["groups"] = { i(245547) },	-- Wide Charming Couch (DECOR!)
 		}),
-		q(92980, {	-- Decor Treasure Hunt 30
-			["description"] = "Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",
-			["qg"] = 248854,	-- The Last Architect
-			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
-			["groups"] = { i(245556) },	-- Iron-Reinforced Standing Mirror (DECOR!)
-		}),
 		q(92999, {	-- Decor Treasure Hunt 31
 			["groups"] = { i(245662) },	-- Carved Wooden Bar Table (DECOR!)
-		}),
-		q(92998, {	-- Decor Treasure Hunt 32
-			["qg"] = 248854,	-- The Last Architect
-			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
-			["groups"] = { i(246102) },	-- Large Covered Wooden Table (DECOR!)
 		}),
 		q(92996, {	-- Decor Treasure Hunt 34
 			["groups"] = { i(246502) },	-- Charming Couch (DECOR!)

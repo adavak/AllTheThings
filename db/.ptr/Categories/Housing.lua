@@ -46,11 +46,19 @@ q(94379,{coords={{55.3,57.6,2351},{53.1,40.1,2352}},qgs={233063,233708},sourceQu
 q(93647,{coords={a[10],a[5]},qgs=a[4],sourceQuests=a[12]}),
 q(89450,{maps=a[1],qgs=a[4],g={
 i(239098,{spellID=1225512})}}),
-ah(92991,{type="q",g={
-q(93079,{coords={a[9]},qgs=a[3],g={
+ah(92969,{type="q",g={
+q(92969,{coords={a[7]},qgs=a[2],r=2,g={
+i(242951,{sourceQuests=a[22],spellID=1234097})}}),
+q(92980,{coords={a[7]},description="Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",qgs=a[2],r=2,g={
+i(245556,{sourceQuests=a[30],spellID=1239013})}}),
+q(92998,{coords={a[7]},qgs=a[2],r=2,g={
+i(246102,{sourceQuests=a[47],spellID=1240789})}})}}),
+ah(93109,{type="q",g={
+q(93079,{coords={a[9]},qgs=a[3],r=1,g={
 i(244534,{spellID=1237682})}}),
-q(93109,{coords={a[9]},description="Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",qgs=a[3],g={
-i(245680,{spellID=1239679})}}),
+q(93109,{coords={a[9]},description="Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",qgs=a[3],r=1,g={
+i(245680,{spellID=1239679})}})}}),
+ah(92991,{type="q",g={
 q(92961,{
 i(245384,{sourceQuests=a[14],spellID=1238509})}),
 q(92967,{
@@ -77,8 +85,6 @@ q(92966,{
 i(236676,{sourceQuests=a[19],spellID=1220600})}),
 q(92968,{
 i(236677,{sourceQuests=a[21],spellID=1220601})}),
-q(92969,{coords={a[7]},qgs=a[2],g={
-i(242951,{sourceQuests=a[22],spellID=1234097})}}),
 q(92978,{
 i(243334,{sourceQuests=a[28],spellID=1235453})}),
 q(92977,{
@@ -109,12 +115,8 @@ q(92982,{
 i(244531,{sourceQuests=a[32],spellID=1237679})}),
 q(92981,{
 i(245547,{sourceQuests=a[31],spellID=1238936})}),
-q(92980,{coords={a[7]},description="Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",qgs=a[2],g={
-i(245556,{sourceQuests=a[30],spellID=1239013})}}),
 q(92999,{
 i(245662,{sourceQuests=a[48],spellID=1239623})}),
-q(92998,{coords={a[7]},qgs=a[2],g={
-i(246102,{sourceQuests=a[47],spellID=1240789})}}),
 q(92996,{
 i(246502,{sourceQuests=a[45],spellID=1242366})}),
 q(92995,{
