@@ -1845,6 +1845,7 @@ function app:GetDataCache()
 		for _, o in ipairs(db.g) do
 			o.sourceIgnored = nil
 		end
+		CacheFields(db, true, "Achievements")
 		tinsert(g, db);
 	end
 
