@@ -35849,11 +35849,6 @@ s(187762)/i(206044),	-- Obsidian Gladiator's Axe
 s(188669)/i(207102),	-- TESTING ITEM DELETE ME
 10.1.5.49908
 s(189585)/i(208097),	-- Flamethrower
-10.1.7.50587
-s(190168)/i(208986),	-- The Horseman's Horrific Hood
-s(190169)/i(208987),	-- The Horseman's Sinister Slicer
-s(190171)/i(209022),	-- The Horseman's Sinister Slicer
-s(190172)/i(209023),	-- The Horseman's Horrific Hood
 10.2.0.51239
 s(192432)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
 s(192433)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
@@ -35863,16 +35858,8 @@ s(192436)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
 s(192437)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
 s(192438)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
 s(192439)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
-10.2.5.52206
-s(193062)/i(210526),	-- Unraveling Tunic
 10.2.6.53840
 s(197334)/i(216027),	-- Draconic Gladiator's Silk Blouse
-11.0.0.54311
-s(219387)/i(221699),	-- Artisan Enchanter's Hat \\ Artisan's Enchanter's Hat
-s(220286)/i(224170),	-- Wildercloth Fishing Cap
-s(220287)/i(224171),	-- Master's Wildercloth Fishing Cap
-11.0.0.54605
-s(220997)/i(225349),	-- Kaheti Confiscated Borers
 11.0.0.54675
 s(221287)/i(225726),	-- 11.0 Raid Template - Plate - Waist
 s(221288)/i(225726),	-- 11.0 Raid Template - Plate - Waist
@@ -35906,34 +35893,6 @@ s(222786)/i(212446),	-- Royal Emblem of Nerub-ar \\ 11.0 Raid Template - Generic
 11.0.2.55665
 s(225006)/i(212435),	-- Liquified Defector's Leggings \\ 11.0 Raid Template - Mail - Legs
 s(225007)/i(212435),	-- Liquified Defector's Leggings \\ 11.0 Raid Template - Mail - Legs
-11.0.5.56487
-s(227801)/i(230033),	-- Prowler's Midnight Shoulder Cape
-s(227821)/i(230054),	-- Prowler's Midnight Cowl
-s(227841)/i(230074),	-- Prowler's Midnight Mask
-11.1.0.58221
-s(248966)/i(227541),	-- Miner's Debt Marker
-11.1.0.58999
-s(287817)/i(238775),	-- Gallagio Raider's Venture Co. Blasthammer
-s(287819)/i(238775),	-- Gallagio Raider's Venture Co. Blasthammer
-s(287820)/i(238775),	-- Gallagio Raider's Venture Co. Blasthammer
-11.1.5.59571
-s(230226)/i(232352),	-- Ashjra'kamas, Shroud of Resolve
-s(230227)/i(232352),	-- Ashjra'kamas, Shroud of Resolve
-11.1.5.59651
-s(290177)/i(242318),	-- Wooden Orgrimmar Shield
-11.2.0.61476
-s(285331)/i(237520),    -- Hemet's Hood
-s(285332)/i(237521),    -- Hemet's Cloak
-s(287305)/i(238029),	-- 11.2 Raid - Cloth - Waist
-s(287306)/i(238029),	-- 11.2 Raid - Cloth - Waist
-s(287307)/i(238029),	-- 11.2 Raid - Cloth - Waist
-s(289548)/i(241239),	-- Epaulets of Arcing Power
-s(289550)/i(241240),	-- Type II Bomber Jacket
-11.2.0.63305
-s(285238)/i(237389),	-- Soulweave Great Blade
-s(285317)/i(237477),	-- Soulweave Staff
-s(287102)/i(237853),	-- Soulweave Bulwark
-s(287518)/i(238510),	-- Soulweave Longbow
 11.2.5.62554
 s(284425)/i(235900),	-- Holy Goldforged Chestguard
 s(284426)/i(235901),	-- Holy Goldforged Gorget

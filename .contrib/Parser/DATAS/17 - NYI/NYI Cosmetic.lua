@@ -791,6 +791,9 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234611),	-- Double-Bladed Butterfly Garden Trowel
 				i(234609),	-- Double-Bladed Forest Garden Trowel
 				i(234370),	-- Flame-Bearing Crozier
+				i(238775, {["sourceID"] = 287817}),	-- Gallagio Raider's Venture Co. Blasthammer
+				i(238775, {["sourceID"] = 287819}),	-- Gallagio Raider's Venture Co. Blasthammer
+				i(238775, {["sourceID"] = 287820}),	-- Gallagio Raider's Venture Co. Blasthammer
 				i(234371),	-- Hand of Piety
 				i(234373),	-- Imperial Flarebolt
 				i(234375),	-- Lamplighter's Mercy

@@ -136,7 +136,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(221700),	-- Artisan's Alchemist's Robe
 					i(222367),	-- Artisan's Alchemist's Robe
 					i(221701),	-- Artisan's Chef's Hat
-					i(221699),	-- Artisan Enchanter's Hat
+					i(221699, {["sourceID"] = 219387}),	-- Artisan Enchanter's Hat
 					i(221698),	-- Artisan's Fishing Cap
 					i(221697),	-- Artisan Gardening Hat
 					i(221610),	-- Blacksmithing Bag

@@ -4526,8 +4526,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		expansion(EXPANSION.DF, patch(1,5), bubbleDown({ ["timeline"] = { CREATED_10_1_5 } }, {
 			i(208988),	-- Band of the Petrified Pumpkin [Hallow's End]
 			i(208991),	-- Seal of Ghoulish Glee [Hallow's End]
-			i(208986),	-- The Horseman's Horrific Hood [Hallow's End]
-			i(209023),	-- The Horseman's Horrific Hood [Hallow's End]
+			i(208986, {["sourceID"] = 190168}),	-- The Horseman's Horrific Hood [Hallow's End]
+			i(209023, {["sourceID"] = 190172}),	-- The Horseman's Horrific Hood [Hallow's End]
 			i(208990),	-- The Horseman's Ring [Hallow's End]
 			i(208989),	-- Wicked Witch's Signet [Hallow's End]
 		})),
@@ -5035,8 +5035,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(224095),	-- Anglin' Art's Treads
 			i(224096),	-- Anglin' Art's Sandals
 			i(224097),	-- Lucky Fishing Hat
-			i(224170),	-- Wildercloth Fishing Cap
-			i(224171),	-- Master's Wildercloth Fishing Cap
+			i(224170, {["sourceID"] = 220286}),	-- Wildercloth Fishing Cap
+			i(224171, {["sourceID"] = 220287}),	-- Master's Wildercloth Fishing Cap
 			i(225509),	-- [PH] Armor Vestment
 			i(225510),	-- [PH] Armor Sandals
 			i(225511),	-- [PH] Armor Handwraps
@@ -5671,7 +5671,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 		-- 11.1.5
 		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
-			i(232352, { ["ItemAppearanceModifierID"] = 150 }),	-- Ashjra'kamas, Shroud of Resolve
+			i(232352, {["sourceID"] = 230225}),	-- Ashjra'kamas, Shroud of Resolve
+			i(232352, {["sourceID"] = 230226}),	-- Ashjra'kamas, Shroud of Resolve
+			i(232352, {["sourceID"] = 230227}),	-- Ashjra'kamas, Shroud of Resolve
 			i(238934),	-- Boots of the Darkwalker
 		})),
 
@@ -5774,9 +5776,22 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 		-- 11.2.0
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_0 } }, {
+			filter(LEATHER, {
+				i(241240),	-- Type II Bomber Jacket
+			}),
+			filter(MAIL, {
+				i(241239),	-- Epaulets of Arcing Power
+			}),
+			filter(CLOAKS, {
+				i(237521),    -- Hemet's Cloak
+			}),
+			n(HEAD, {
+				i(237520),    -- Hemet's Hood
+			}),
 			header(HEADERS.LFGDungeon, 2805, {	-- Manaforge Omega
 				d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {
 					filter(CLOTH, {
+						i(238029, {["bonusID"] = 0, ["modID"] = 4}),	-- 11.2 Raid - Cloth - Waist
 						i(237549),	-- Bloodwrath's Gnarled Claws
 						i(237558),	-- Conjoined Glass Bracers
 						i(237538),	-- Forgeweaver's Journal Holster
@@ -5843,6 +5858,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				})),
 				d(DIFFICULTY.RAID.NORMAL, bubbleDown({ ["bonusID"] = 6895, ["modID"] = 0, }, {
 					filter(CLOTH, {
+						i(238029, {["bonusID"] = 0, }),	-- 11.2 Raid - Cloth - Waist
 						i(237549),	-- Bloodwrath's Gnarled Claws
 						i(237558),	-- Conjoined Glass Bracers
 						i(237538),	-- Forgeweaver's Journal Holster
@@ -5909,6 +5925,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				})),
 				d(DIFFICULTY.RAID.HEROIC, bubbleDown({ ["bonusID"] = 6896, ["modID"] = 0, }, {
 					filter(CLOTH, {
+						i(238029, {["bonusID"] = 0, ["modID"] = 5}),	-- 11.2 Raid - Cloth - Waist
 						i(237549),	-- Bloodwrath's Gnarled Claws
 						i(237558),	-- Conjoined Glass Bracers
 						i(237538),	-- Forgeweaver's Journal Holster
@@ -5975,6 +5992,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				})),
 				d(DIFFICULTY.RAID.MYTHIC, bubbleDown({ ["bonusID"] = 6897, ["modID"] = 0, }, {
 					filter(CLOTH, {
+						i(238029, {["bonusID"] = 0, ["modID"] = 6}),	-- 11.2 Raid - Cloth - Waist
 						i(237549),	-- Bloodwrath's Gnarled Claws
 						i(237558),	-- Conjoined Glass Bracers
 						i(237538),	-- Forgeweaver's Journal Holster

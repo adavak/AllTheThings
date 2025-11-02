@@ -1,6 +1,6 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
-local ah,flt,h,i,mnt,p,prof,q,r,ra,s,toy,x=_.CreateHeader,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateRace,_.CreateItemSource,_.CreateToy,_.CreateExpansion;
+local flt,h,i,mnt,p,prof,q,r,ra,s,toy,x=_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateRace,_.CreateItemSource,_.CreateToy,_.CreateExpansion;
 local a={{1,2,3,4,5,6,7,8,9,10,11,12,14},{1},{10},{11},{12},{13},{2},{3},{4,11},{4},{5},{6},{7},{8},{9}};
 _.Categories.Unsorted={
 x(11,{
@@ -453,10 +453,6 @@ i(258483,{f=101,spellID=439994}),
 i(259454,{f=55,spellID=1218771}),
 i(263226,{f=55,spellID=1270148})}}),
 x(11.02,{awp=110200,g={
-h(-88,{
-s(287256,238008,{b=1,f=35,lvl=70}),
-s(289547,241239,{b=1,f=6}),
-s(289549,241240,{b=1,f=5})}),
 flt(101,{
 p(4860,{b=1,itemID=246723,npcID=247465,spellID=1243343})}),
 flt(2,{
@@ -536,8 +532,6 @@ i(248327,{f=55,spellID=1246951}),
 s(295511,248395,{f=2}),
 s(295512,248396,{f=2}),
 s(295513,248397,{f=2})}),
-ah(2805,{type="d",g={
-s(287304,238029,{f=4})}}),
 flt(50,{
 i(238853),
 i(239109),

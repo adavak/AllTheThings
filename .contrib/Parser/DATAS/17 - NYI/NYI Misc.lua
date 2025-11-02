@@ -1912,7 +1912,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(243249),	-- Khaz Algar Adventurer Pack
 			i(240187),	-- Refulgent Crystal Shards
 			i(237511),	-- Vial of Healing
-			i(242318),	-- Wooden Orgrimmar Shield
 			i(236939),	-- [DNT] TEST
 			i(236958),	-- [NOT USED] Empty Mysterious Potion
 			i(236941),	-- [NOT USED] Mysterious Accessories Satchel

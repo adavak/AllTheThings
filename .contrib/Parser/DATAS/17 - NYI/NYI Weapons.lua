@@ -723,8 +723,8 @@ root(ROOTS.NeverImplemented, {
 
 				-- 10.1.7
 				expansion(EXPANSION.DF, patch(1,7), bubbleDown({ ["timeline"] = { CREATED_10_1_7 } }, {
-					i(208987),	-- The Horseman's Sinister Slicer [Hallow's End]
-					i(209022),	-- The Horseman's Sinister Slicer [Hallow's End]
+					i(208987, {["sourceID"] = 190169}),	-- The Horseman's Sinister Slicer [Hallow's End]
+					i(209022, {["sourceID"] = 190171}),	-- The Horseman's Sinister Slicer [Hallow's End]
 				})),
 			}),
 		}),
@@ -1817,7 +1817,7 @@ root(ROOTS.NeverImplemented, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			-- Reported in Discord
-			moh(10, i(225862)),	-- Forged Gladiator's Greatstaff
+			i(225862),	-- Forged Gladiator's Greatstaff
 			-- Leave this for Darkal //Braghe
 			i(219780),	-- 11.0 Leveling Quest Template - Axe2H - Str
 			i(219781),	-- 11.0 Leveling Quest Template - FistWeapon - Agi
@@ -1925,6 +1925,7 @@ root(ROOTS.NeverImplemented, {
 			i(218238),	-- 11.0 Leveling Quest Template - Warglaive - Agi
 			i(224467),	-- Forgotten Axe [2h axe]
 			i(225873),	-- Forged Gladiator's Sword
+			i(225349, {["sourceID"] = 220997}),	-- Kaheti Confiscated Borers
 
 			--- Fist
 			i(223585),	-- Algari Bladefist
@@ -1969,6 +1970,16 @@ root(ROOTS.NeverImplemented, {
 			i(233063),	-- Brann's Boomstick
 			i(232932),	-- Brann Bronzebeard's Mace
 			i(232987),	-- Brann Bronzebeard's Shield
+		})),
+
+		-- 11.1.5
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
+			i(242318, {["sourceID"] = 290177}),	-- Wooden Orgrimmar Shield
+		})),
+
+		-- 11.2.0
+		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_0 } }, {
+			i(238008),	-- Wastelander's Folly
 		})),
 	}),
 	n(WEAPONS, {

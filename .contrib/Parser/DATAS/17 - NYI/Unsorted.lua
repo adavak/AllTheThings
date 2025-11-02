@@ -5640,19 +5640,10 @@ root(ROOTS.Unsorted, {
 			i(263226),	-- Infinite Knowledge
 		})),
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
-			n(ARMOR, {
-				-- Unknown (PvP Appearance?)
-				i(238008),	-- Wastelander's Folly
-
-				-- Mechagon Junkyard?
-				i(241239),	-- Epaulets of Arcing Power
-				i(241240),	-- Type II Bomber Jacket
-			}),
 			filter(BATTLE_PETS, {
 				i(246723),	-- Unfazed Diver
 			}),
 			filter(COSMETIC, {
-
 				-- Reputation Cosmetic
 				i(248784),	-- Ensemble: Void-Scarred Captain's Plate
 				i(248785),	-- Ensemble: Void-Scarred Striker's Battlegear
@@ -5732,9 +5723,6 @@ root(ROOTS.Unsorted, {
 				i(248395),	-- Wildhammer's Ritualistic Mantle
 				i(248396),	-- The Speaker's Ritualistic Mantle
 				i(248397),	-- Bronzbeard's Ritualistic Mantle
-			}),
-			header(HEADERS.LFGDungeon, 2805, {	-- Manaforge Omega
-				i(238029),	-- 11.2 Raid - Cloth - Waist
 			}),
 			filter(MISC, {
 				i(238853),	-- Netherbound Heart
