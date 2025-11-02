@@ -319,7 +319,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 58.3, 84.6, SKYHOLD },
 							["groups"] = {
 								o(248832, {	-- Warswords of Valor
-									["coord"] = { 43.1, 53.6, 694 },	-- Helmouth Shallows
+									["coords"] = {
+										{ 43.1, 53.6, 694 },	-- Helmouth Shallows
+										{ 55.7, 43.0, 694 },	-- Helmouth Shallows
+									},
 									["groups"] = {
 										i(128908, {	-- Warswords of the Valarjar [Main Hand]
 											["ItemAppearanceModifierID"] = 9,
@@ -355,10 +358,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 										artifact(66),	-- Scaleshard
 									},
 								}),
-								i(128289, {	-- Scale of the Earth-Warder
-									["ItemAppearanceModifierID"] = 9,
+								o(248831, {	-- Scale of the Earth Warder
+									["coord"] = { 49.9, 82.3, 635 }, -- Shield's Rest
 									["groups"] = {
-										artifact(66),	-- Scale of the Earth-Warder
+										i(128289, {	-- Scale of the Earth-Warder
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(66),	-- Scale of the Earth-Warder
+											},
+										}),
 									},
 								}),
 							},

@@ -973,13 +973,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					--
 
 					q(44237),	-- Ancients of War
-					q(41412, {	-- The Retreat
-						["sourceQuests"] = { 44153 },	-- Light's Charge
+					hqt(41412, {	-- The Retreat
+						["sourceQuests"] = { 41413 },	-- What Could Go Wrong?
 						["coord"] = { 60.0, 52.4, THE_DREAMGROVE },
-						-- TODO: triggered "Right after completing Light's Charge and picking up Goddess Watch Over You"
-						-- maybe more info? is this actually an HQT instead?
 					}),
-					q(41413),	-- What Could Go Wrong?
+					q(41413, {	-- What Could Go Wrong?
+						["qg"] = 98784,	-- Zen'kiki
+						["coord"] = { 59.1, 53.3, THE_DREAMGROVE },
+					}),
 
 					--[[ TODO: Artifact Appearance  Quests Commented Out For Now
 					o(253118, {	-- Dreamgrove Blossoms

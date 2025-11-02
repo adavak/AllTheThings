@@ -295,10 +295,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 28.6, 37.2, HILLSBRAD_FOOTHILLS },
 							["maps"] = { 700 },	-- Icecrown Citadel (Scenario Map)
 							["groups"] = {
-								i(128820, {	-- Felo'melorn
-									["ItemAppearanceModifierID"] = 9,
+								o(247494, {	-- Felo'melorn
+									["coord"] = { 51.9, 16.2, 700 },	-- Icecrown Citadel (Scenario Map)
 									["groups"] = {
-										artifact(124),	-- Felo'melorn
+										i(128820, {	-- Felo'melorn
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(124),	-- Felo'melorn
+											},
+										}),
 									},
 								}),
 								i(133959, {	-- Heart of the Phoenix

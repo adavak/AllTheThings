@@ -467,6 +467,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 105018 },	-- Ritssyn Flamescowl
 						["coord"] = { 55.2, 37.0, DREADSCAR_RIFT },
 						["maps"] = { 751, 752, 753, 754, 755, 756 },	-- Black Rock Hold
+						["groups"] = { i(138988) },	-- Unclaimed Soul (QI!)
 					}),
 					q(42100, {	-- Empowering the Soul
 						["sourceQuests"] = {
@@ -475,6 +476,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 105018 },	-- Ritssyn Flamescowl
 						["coord"] = { 55.2, 37.0, DREADSCAR_RIFT },
+						["groups"] = { i(136834) },	-- Empowered Soul Shard (QI!)
 					}),
 					q(41798, {	-- Recruiting More Troops
 						["sourceQuests"] = {
@@ -506,12 +508,43 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 41781,	-- Herding Goats
 						["provider"] = { "n", 104824 },	-- Ernest Carlisle
 						["coord"] = { 39.1, 62.6, VALSHARAH },
+						["groups"] = {
+							o_repeated({	-- Spotted Gloomcap
+								["coords"] = {
+									{ 60.4, 70.7, VALSHARAH },
+									{ 60.6, 71.1, VALSHARAH },
+									{ 61.0, 73.4, VALSHARAH },
+									{ 61.2, 69.8, VALSHARAH },
+									{ 61.8, 71.7, VALSHARAH },
+									{ 62.0, 73.6, VALSHARAH },
+									{ 62.2, 70.8, VALSHARAH },
+									{ 62.2, 72.6, VALSHARAH },
+									{ 62.6, 71.2, VALSHARAH },
+									{ 62.9, 75.4, VALSHARAH },
+									{ 63.0, 73.5, VALSHARAH },
+									{ 63.6, 72.2, VALSHARAH },
+									{ 63.8, 74.3, VALSHARAH },
+									{ 63.9, 71.4, VALSHARAH },
+									{ 64.0, 74.0, VALSHARAH },
+									{ 64.8, 72.3, VALSHARAH },
+									{ 64.9, 73.1, VALSHARAH },
+								},
+								["groups"] = {
+									i(128758),	-- Spotted Gloomcap (QI!)
+									o(248782),	-- Spotted Gloomcap
+									o(248781),	-- Spotted Gloomcap
+								},
+							}),
+							i(128330),	-- Rotwood Root (QI!)
+							i(128759),	-- Shimmering Pollen (QI!)
+						},
 					}),
 					q(41784, {	-- Borrowed Time
 						["sourceQuests"] = { 41780 },	-- Doom and Gloom
 						["provider"] = { "n", 104824 },	-- Ernest Carlisle
 						["coord"] = { 39.1, 62.6, VALSHARAH },
 						["groups"] = {
+							i(136357),	-- Shimmering Elixir of Suspension (QI!)
 							i(139770),	-- Wristbands of the Black Harvest
 						},
 					}),
@@ -548,6 +581,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 104732 },	-- Kira Iresoul
 						["coord"] = { 54.1, 34.9, DREADSCAR_RIFT },
 						["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
+						["groups"] = { i(138989) },	-- Felsworn Heart (QI!)
 					}),
 					q(42103, {	-- Let it Feed
 						["sourceQuests"] = {

@@ -152,7 +152,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								i(173704, {	-- Granary Jug (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
-								i(138623),	-- Sack of Roasted Grain (QI!)
+								o(251422, {	-- Sack of Roasted Grain
+									["coords"] = {
+										{ 51.1, 60.8, VALLEY_OF_THE_FOUR_WINDS },
+										{ 51.3, 63.3, VALLEY_OF_THE_FOUR_WINDS },
+										{ 51.3, 64.9, VALLEY_OF_THE_FOUR_WINDS },
+										{ 51.7, 62.5, VALLEY_OF_THE_FOUR_WINDS },
+										{ 52.3, 64.8, VALLEY_OF_THE_FOUR_WINDS },
+										{ 52.6, 63.5, VALLEY_OF_THE_FOUR_WINDS },
+										{ 53.1, 60.8, VALLEY_OF_THE_FOUR_WINDS },
+									},
+									["groups"] = { i(138623) },	-- Sack of Roasted Grain (QI!)
+								}),
 							},
 						}),
 						q(42957, {	-- Journey to the East
@@ -180,11 +191,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 55.4, 58.3, THE_JADE_FOREST },
 							["maps"] = { 791, 792 },	-- Temple of the Jade Serpent (Scenario Map)
 							["groups"] = {
-								i(128938, {	-- Fu Zan, the Wanderer's Companion
-									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(289),	-- Fu Zan, the Wanderer's Companion
-									},
+								o(251605, {	-- Fu Zan, the Wanderer's Companion
+									i(128938, {	-- Fu Zan, the Wanderer's Companion
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = {
+											artifact(289),	-- Fu Zan, the Wanderer's Companion
+										},
+									}),
 								}),
 							},
 						}),
@@ -201,10 +214,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 51.4, 48.4, THE_WANDERING_ISLE },
 							["maps"] = { 728 },	-- Terrace of Endless Spring (Scenario Map)
 							["groups"] = {
-								i(128937, {	-- Sheilun, Staff of the Mists
-									["ItemAppearanceModifierID"] = 9,
+								o(256913, {
+									["coord"] = { 39.6, 48.0, 728 },	-- Terrace of Endless Spring (Scenario Map)
 									["groups"] = {
-										artifact(123),	-- Sheilun, Staff of the Mists
+										i(128937, {	-- Sheilun, Staff of the Mists
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(123),	-- Sheilun, Staff of the Mists
+											},
+										}),
 									},
 								}),
 							},
@@ -239,10 +257,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["maps"] = { 716 },	-- Skywall (Scenario Map)
 							["groups"] = {
 								i(132745),	-- Essence of the Whirlwind (QI!)
-								i(128940, {	-- Fists of the Heavens [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(248086, {	-- Fists of the Heavens
+									["coord"] = { 35.7, 82.9, 716 },	-- Skywall (Scenario Map)
 									["groups"] = {
-										artifact(290),	-- Fists of the Heavens [Main Hand]
+										i(128940, {	-- Fists of the Heavens [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(290),	-- Fists of the Heavens [Main Hand]
+											},
+										}),
 									},
 								}),
 								i(133948, {	-- Fists of the Heavens [Off Hand]

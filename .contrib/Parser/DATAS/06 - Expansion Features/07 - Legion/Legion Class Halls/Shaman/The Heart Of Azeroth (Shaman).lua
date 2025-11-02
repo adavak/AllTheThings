@@ -79,7 +79,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(QUESTS, {
 					q(39746, {	-- A Ring Unbroken
 						["provider"] = { "n", 91731 },	-- Thrall
-						["maps"] = { LEGION_DALARAN, 725 },	-- The Maelstrom (Scenario Map)
+						["coord"] = { 47.1, 33.5, LEGION_DALARAN },
+						["maps"] = { 725 },	-- The Maelstrom (Scenario Map)
 					}),
 					q(41335, {	-- The Elements Call...
 						["sourceQuests"] = { 39746 },	-- A Ring Unbroken
@@ -93,7 +94,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							106519,	-- Farseer Nobundo
 						},
 						["coords"] = {
-							{ 30.3, 51.6, 725 },	-- The Maelstrom (Scenario Map)
+							{ 30.3, 51.6, THE_HEART_Of_AZEROTH },
 							{ 31.6, 76.2, THE_HEART_Of_AZEROTH },
 						},
 					}),
@@ -162,7 +163,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 43.6, 63.2, VASHJIR_SHIMMERING_EXPANSE },
 							["maps"] = { 742, 743 },	-- Abyssal Maw (Scenario Map)
 							["groups"] = {
-								artifact(116),	-- Sharas'dal, Scepter of Tides
+								o(249342, {	-- Sharas'dal
+									["coords"] = { 50.6, 42.4, 743 },	-- Abyssal Maw (Scenario Map)
+									["groups"] = {
+										i(128911, {	-- Sharas'dal, Scepter of Tides
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(116) },	-- Sharas'dal, Scepter of Tides
+										}),
+									},
+								}),
 								artifact(116),	-- Shield of the Sea Queen
 							},
 						}),
@@ -216,7 +225,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 56.5, 12.9, DEEPHOLM },
 							["maps"] = { 729 },	-- Crumbling Depths (Scenario Map)
 							["groups"] = {
-								artifact(117),	-- Doomhammer
+								o(256905, {	-- Doomhammer
+									["coords"] = { 54.5, 55.0, 729 },	-- Crumbling Depths (Scenario Map)
+									["groups"] = {
+										i(128819, {	-- Doomhammer
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(117) },	-- Doomhammer
+										}),
+									},
+								}),
 								artifact(117),	-- Fury of the Stonemother
 							},
 						}),

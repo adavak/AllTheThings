@@ -936,6 +936,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				{ "n", 149904 },	-- Neri Sharpfin
 				{ "i", 170176 },	-- Fathom Ray Wing
 			},
+			["coord"] = { 50.2, 64.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["repeatable"] = true,
 		}),
