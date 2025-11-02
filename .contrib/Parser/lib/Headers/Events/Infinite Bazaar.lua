@@ -3,6 +3,15 @@ INFINITE_BAZAAR = createHeader({
 	icon = 298656,
 	text = {
 		en = "Infinite Bazaar",
+		-- de = "",
+		-- es = "",
+		-- mx = "",
+		-- fr = "",
+		-- it = "",
+		-- ko = "",
+		-- pt = "",
+		-- ru = "",
+		-- cn = "",
 		tw = "無限市集",
 	},
 	-- #if BEFORE 11.2.5

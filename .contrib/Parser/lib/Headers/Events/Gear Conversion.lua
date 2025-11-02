@@ -3,6 +3,15 @@ GEAR_CONVERSION = createHeader({
 	icon = 1391675,
 	text = {
 		en = "Gear Conversion",
+		-- de = "",
+		-- es = "",
+		-- mx = "",
+		-- fr = "",
+		-- it = "",
+		-- ko = "",
+		-- pt = "",
+		-- ru = "",
+		-- cn = "",
 		tw = "裝備轉換",
 	},
 	description = {
