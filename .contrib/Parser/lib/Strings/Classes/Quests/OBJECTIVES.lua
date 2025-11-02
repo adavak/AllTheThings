@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Цели",
 		-- TODO: ko = "",
 		cn = "目标",
-		-- TODO: tw = "",
+		tw = "目標",
 	},
 })

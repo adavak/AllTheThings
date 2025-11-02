@@ -13,7 +13,7 @@ createLocalizationString({
 		pt = "Senhor Rei %s",
 		ru = "Лорд-король %s",
 		ko = "국왕 %s",
-		cn = "国王大人%s",
-		tw = "國王大人%s",
+		cn = "%s国王大人",
+		tw = "%s國王大人",
 	},
 })
