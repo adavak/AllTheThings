@@ -2,7 +2,6 @@
 local appName, _ = ...;
 local cu,x=_.CreateCurrencyClass,_.CreateExpansion;
 _.Categories.HiddenCurrencyTriggers={
-
 x(11,{
 x(11.0002,{awp=110002,g={
 cu(3002),

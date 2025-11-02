@@ -283,7 +283,7 @@ crit(15065,{achID=4859,id=5,providers={{"i",64344}},requireSkill=794}),
 crit(15066,{achID=4859,id=6,providers={{"i",64371}},requireSkill=794}),
 crit(15068,{achID=4859,id=7,providers={{"i",64485}},requireSkill=794}),
 crit(15069,{achID=4859,id=8,providers={{"i",64484}},requireSkill=794}),
-i(245426,{awp=110207,requireSkill=794})}}),
+i(245426,{awp=110207,requireSkill=794,spellID=1238558})}}),
 ach(4858,{requireSkill=794,g={
 crit(15051,{achID=4858,id=2,providers={{"i",64367}},requireSkill=794}),
 crit(15050,{achID=4858,id=3,providers={{"i",64348}},requireSkill=794}),
@@ -1221,7 +1221,7 @@ crit(31248,{achID=10761,id=11,providers={{"i",137972}}})})}}),
 x(8,{
 ach(12731,{awp=80001,r=2}),
 ach(12733,{awp=80001,r=1,g={
-i(245490,{awp=110207})}}),
+i(245490,{awp=110207,spellID=1238633})}}),
 ach(12734,{awp=80001,r=2}),
 ach(12735,{awp=80001,r=1}),
 ach(12736,{awp=80001,r=2,g={
@@ -1290,7 +1290,7 @@ crit(53511,{achID=16630,id=10,learnedAt=100,requireSkill=393}),
 crit(53512,{achID=16630,id=11,learnedAt=100,requireSkill=197})})}}),
 x(11,{awp=110002,g={
 ach(19408,{
-i(253163,{awp=110207})}),
+i(253163,{awp=110207,spellID=1255715})}),
 ach(19409,{sym={{"partial_achievement",19410}}}),
 ach(19515,{sym={{"partial_achievement",19410}},g={
 en(219125,{b=1,questID=81544,spellID=442778,tmogSetID=3547,g={
@@ -2525,7 +2525,7 @@ crit(40804,{achID=12744,id=12,providers={a[138]},r=2}),
 crit(40805,{achID=12744,id=12,providers={a[139]},r=2}),
 crit(40806,{achID=12744,id=12,providers={a[33]},r=2})}}),
 ach(12746,{r=1,requireSkill=185,g={
-i(244325,{awp=110207,requireSkill=185}),
+i(244325,{awp=110207,requireSkill=185,spellID=1236866}),
 crit(40771,{achID=12746,id=1,providers={a[30]},r=1}),
 crit(40772,{achID=12746,id=1,providers={a[31]},r=1}),
 crit(40774,{achID=12746,id=2,providers={a[135]},r=1}),

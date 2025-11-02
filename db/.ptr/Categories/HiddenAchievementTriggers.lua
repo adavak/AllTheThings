@@ -2,7 +2,6 @@
 local appName, _ = ...;
 local ach,crit,x=_.CreateAchievement,_.CreateAchievementCriteria,_.CreateExpansion;
 _.Categories.HiddenAchievementTriggers={
-
 x(3,{awp=30000,g={
 ach(49),
 ach(50),

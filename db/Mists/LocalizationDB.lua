@@ -1112,7 +1112,17 @@ _.HeaderConstants = {
 };
 _.HeaderData = {
 	IGNOREINMINILIST = {[-420]=1,[-49]=1},
-	FILLNPCS = {[-98]=1,[-95]=1,[-94]=1,[-93]=1,[-90]=1,[-63]=1,[-47]=1,[-27]=1,[-22]=1,[-19]=1},
+	FILLNPCS = {
+[-98]=1,
+[-95]=1,
+[-94]=1,
+[-93]=1,
+[-90]=1,
+[-63]=1,
+[-47]=1,
+[-27]=1,
+[-22]=1,
+[-19]=1},
 };
 localize(L.HEADER_NAMES, {
 	[-11] = "New Character",
@@ -9342,7 +9352,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Mogu'shan Vaults.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1753963200,
+		release = 1753984800,
 		state = 2,
 	},
 	[5002] = {
@@ -9351,7 +9361,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Celestial Dungeons with MSV loot.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1755000000,
+		release = 1755021600,
 		state = 2,
 	},
 	[5003] = {
@@ -9360,7 +9370,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1755777600,
+		release = 1755799200,
 		state = 2,
 	},
 	[5004] = {
@@ -9369,7 +9379,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Tier 14 Gear from Sha of Anger.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756209600,
+		release = 1756231200,
 		state = 2,
 	},
 	[5005] = {
@@ -9378,7 +9388,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756814400,
+		release = 1756836000,
 		state = 2,
 	},
 	[5006] = {
@@ -9387,7 +9397,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756987200,
+		release = 1757008800,
 		state = 2,
 	},
 	[5007] = {
@@ -9396,7 +9406,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1758024000,
+		release = 1758045600,
 		state = 2,
 	},
 	[51] = {
