@@ -245,14 +245,16 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 	}),
 })));
 
-expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
-	n(HOUSING, {
-		q(92734),	-- Popped when entering Razorwind and Founder's Point
-		q(92486),	-- Popped when acquired a house
-		q(92733),	-- Popped when entering house
-		q(92666),	-- Popped when talking to local Decor
-		q(92654),	-- Popped when talking to elven decor
-		q(93629),	-- Triggered after completing 'Time to Decorate'
-		q(94392),	-- Popped when talking to flora decor
-	}),
-}));
+root(ROOTS.HiddenQuestTriggers, {
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		n(HOUSING, {
+			q(92734),	-- Popped when entering Razorwind and Founder's Point
+			q(92486),	-- Popped when acquired a house
+			q(92733),	-- Popped when entering house
+			q(92666),	-- Popped when talking to local Decor
+			q(92654),	-- Popped when talking to elven decor
+			q(93629),	-- Triggered after completing 'Time to Decorate'
+			q(94392),	-- Popped when talking to flora decor
+		}),
+	}));
+});

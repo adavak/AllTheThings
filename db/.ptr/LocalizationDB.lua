@@ -957,6 +957,7 @@ _.HeaderConstants = {
 	HIDDEN_APPEARANCE = -136,
 	HOLIDAYS = -36,
 	HONOR_TITLES = -298,
+	HOUSING = -682,
 	IN_GAME_SHOP = -213,
 	KALIMDOR_CUP_HEADER = -570,
 	LEGENDARIES = -221,
@@ -1596,6 +1597,7 @@ localize(L.HEADER_NAMES, {
 	[-662] = "Champion Equipment",
 	[-665] = "Brewfest Banquet",
 	[-679] = HOUSING_ITEM_TOAST_TYPE_DECOR,
+	[-682] = BINDING_HEADER_HOUSING_SYSTEM,
 	[-684] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
 	[-685] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
@@ -2258,6 +2260,7 @@ localize(L.HEADER_ICONS, {
 	[-662] = 1599042,
 	[-665] = _.asset("holiday_brewfest"),
 	[-679] = _.asset("interface_decor"),
+	[-682] = _.asset("category_housing"),
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
