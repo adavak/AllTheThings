@@ -988,6 +988,7 @@ _.CategoryIcons = {
 -- Custom Header Database Module
 _.HeaderConstants = {
 	ACHIEVEMENTS = -12,
+	ARTIFACTS = -214,
 	BREWFEST_HEADER = -557,
 	CHEST = -90,
 	CHILDRENS_WEEK_HEADER = -559,
@@ -997,6 +998,7 @@ _.HeaderConstants = {
 	DARKMOON_FAIRE_HEADER = -37,
 	DAY_OF_THE_DEAD_HEADER = -566,
 	DISCOVERY = -26,
+	EXPANSION_PRELAUNCH = -103,
 	EXPLORATION = -30,
 	FACTIONS = -31,
 	FEAST_OF_WINTER_VEIL_HEADER = -574,
@@ -1096,10 +1098,12 @@ localize(L.HEADER_NAMES, {
 	[-100] = INVTYPE_WAIST,
 	[-101] = AUCTION_CATEGORY_WEAPONS,
 	[-102] = INVTYPE_WRIST,
+	[-103] = "Expansion Pre-Launch",
 	[-210] = FACTION_ALLIANCE,
 	[-211] = FACTION_HORDE,
 	[-212] = COMBATLOG_FILTER_STRING_NEUTRAL_UNITS,
 	[-213] = BATTLE_PET_SOURCE_10,
+	[-214] = ITEM_QUALITY6_DESC,
 	[-215] = ITEM_QUALITY1_DESC,
 	[-217] = ITEM_QUALITY4_DESC,
 	[-219] = HEIRLOOMS,
@@ -1161,14 +1165,11 @@ localize(L.HEADER_NAMES, {
 	[-371] = "The Frostwing Halls",
 	[-388] = C_Map.GetAreaInfo(1769),
 	[-413] = select(1,GetCategoryInfo(14941)),
-	[-474] = "Elemental Unrest",
-	[-475] = select(2,GetAchievementInfo(4786)),
 	[-476] = "Plunderstorm",
 	[-481] = "The Ahn'Qiraj War Effort",
 	[-482] = "The Opening of the Dark Portal",
 	[-483] = "The Scepter of the Shifting Sands",
 	[-484] = "The Scourge Invasion",
-	[-485] = select(2,GetAchievementInfo(4790)),
 	[-520] = "BlizzCon",
 	[-521] = "Collector's Edition",
 	[-522] = "Heroic Edition",
@@ -1225,14 +1226,11 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-365] = "Stratholme is divided into two sides.\n\nThis side is commonly referred to as the \"Live\" or \"Scarlet\" side, which the Scarlet Crusade has taken over.",
 	[-366] = "Stratholme is divided into two sides.\n\nThis side is commonly referred to as the \"Dead\" or \"Scourge\" side, which the Scourge has taken over.",
 	[-367] = "You must kill all 6 mini bosses around the room in order to unlock the way to Jammal'an the Prophet.",
-	[-474] = "The Elemental Unrest was a world event that heralded the Cataclysm. The event culminated in elementals attacking Stormwind, Orgrimmar, Ironforge, and Thunder Bluff. Players defeating these elementals and freeing trapped citizens within their entire city were granted access to two special boss encounters.",
-	[-475] = "Operation: Gnomeregan was the name of Gelbin Mekkatorque's plan for the retaking of the surface of Gnomeregan. Only Alliance players between level 75 and 80 were able to serve during the operation, but lower level players helped by motivating other gnomes or by turning in items.",
 	[-476] = "Get swept away in the Plunderstorm— a fun, new, limited-time, pirate-themed event of prodigious proportions lasting the next several weeks. Scour the map and try to be the last pirate standing while dashing across the Arathi Highlands to find abilities, upgrades, and loot to plunder just to survive!\n\nTo Play: Login to Retail WoW and select 'Plunderstorm' from the Game Mode on the top left of your Character Select screen.",
 	[-481] = "The Ruins of Ahn'Qiraj and Temple of Ahn'Qiraj were not be immediately available with the release of Phase 5. Instead, server communities had to undertake a massive war effort to open the raids by gathering supplies to prepare for the war and completing an epic questline that ultimately culminates in the banging of a gong to open the gates and release the horrors within upon the world.\n\nOnce both factions have finished their contribution, there is a 5-day grace period where. Afterwards, there is a server-wide 10 hour event which spans several zones in Kalimdor the moment someone bangs the gong.\n\nHow quickly Ahn'Qiraj opens depends on the server and its faction balance.\n\nWe recommend delaying the War Effort as long as possible to allow for the most number of people to obtain the Scarab Lord mount as everyone that finishes The Scepter of the Shifting Sands quest line will be granted the same rewards!",
 	[-482] = "The Opening of the Dark Portal was a one-time event that happened between Prepatch and the launch of TBC and subsequentially removed after. The tabard is the only tabard in the game with the Flex emote built into it and is highly covetted by collectors. Highlord Kruul would spawn randomly outside of the major cities and max level zones of the time.",
 	[-483] = "In addition to all players on a realm working towards completing the War Effort, one player had to create the Scepter of the Shifting Sands - a very difficult task that could only be solved by a server's top guild back when the questline was added. After the war effort was finished and the army of the Alliance and the Horde arrived in Silithus, the Scepter of the Shifting Sands could be used on the Scarab Gong. Doing so resulted in the opening of Ahn'Qiraj. The first player to bang the Scarab Gong on each server would be rewarded with the Scarab Lord title (in Burning Crusade, the title will not be available in Classic!) and the Black Qiraji Resonating Crystal mount. Anyone else who followed them within 10 hours was rewarded with the title as well.\n\nAlthough it is still possible to complete the questline for the Scepter of the Shifting Sands after the gates have been opened on your server, doing so will not reward neither the Black Qiraji Resonating Crystal nor the Scarab Lord title.",
 	[-484] = "The Scourge Invasion was a world event in Patch 1.11 and again during the Wrath of the Lich King Pre-Patch during 3.0.1 that heralded the opening of Naxxramas, the citadel of the dreaded Kel'Thuzad.\n\nSeveral regions of Azeroth came under attack by Scourge forces. Members of the Argent Dawn organized a worldwide counter to the Scourge invasion, keeping an eye out for any necropolis sightings and passing on their information to all adventurers willing to aid them in their struggle.\n\nWith each victory against the Scourge, the defense grows stronger. As more and more invasion attempts are beaten back by the defenders, the Argent Dawn will be able to bestow increasingly more powerful blessings upon those fighting the invaders. If the mortal races focus on clearing the Scourge camps all over the world that have sprung up beneath each necropolis, perhaps the invasion can effectively be halted or even repelled. Those who wish to take up arms against the undead invaders should speak with a representative of the Argent Dawn to learn what regions need help and how the defense is holding up.",
-	[-485] = "Zalazane's Fall (also referred to as the Battle to reclaim the Echo Isles) was the final push by Vol'jin and the Darkspear tribe to retake the Echo Isles from the clutches of the evil Zalazane. It was a culminating event for the Horde to occur before the release of the next expansion, Cataclysm. Furthermore, all troll characters created after the liberation of the Echo Isles now have their new starting point there.",
 	[-534] = "These rewards are available to anyone who purchased the Collector's Edition for Starcraft II: Wings of Liberty.",
 	[-546] = "These were only available through the 2006 iCoke Promotion (China Only)",
 	[-547] = "This section is for miscellaneous promotions that took place in the real world or something to do with account management.",
@@ -1306,10 +1304,12 @@ localize(L.HEADER_ICONS, {
 	[-100] = 132513,
 	[-101] = _.asset("weapon_type_epic"),
 	[-102] = 132606,
+	[-103] = 134289,
 	[-210] = 374217,
 	[-211] = 374221,
 	[-212] = 374222,
 	[-213] = _.asset("category_ingameshop"),
+	[-214] = _.asset("weapon_type_artifact"),
 	[-215] = 135030,
 	[-217] = 135028,
 	[-219] = _.asset("weapon_type_heirloom"),
@@ -1371,14 +1371,11 @@ localize(L.HEADER_ICONS, {
 	[-371] = 343638,
 	[-388] = 236696,
 	[-413] = 236689,
-	[-474] = _.asset("expansion_cata"),
-	[-475] = 255139,
 	[-476] = 133168,
 	[-481] = 132594,
 	[-482] = 255348,
 	[-483] = 133062,
 	[-484] = 135228,
-	[-485] = 255135,
 	[-520] = _.asset("promotion_blizzcon"),
 	[-521] = _.asset("promotion_collector"),
 	[-522] = _.asset("weapon_type_heirloom"),
@@ -1460,10 +1457,13 @@ localize(L.EVENT_REMAPPING, {
 });
 
 -- Programmatic Event Scheduling
+_.Modules.Events.SetEventInformation(444, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=26,["weekday"]=4,["year"]=2025})
+});
 _.Modules.Events.SetEventInformation(242, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=4,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=4,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=7,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=7,["year"]=2024}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=2,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=2,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -1474,9 +1474,6 @@ _.Modules.Events.SetEventInformation(133889, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=6,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=3,["year"]=2026})
-});
-_.Modules.Events.SetEventInformation(444, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=26,["weekday"]=4,["year"]=2025})
 });
 
 -- Filter Database Module
@@ -5684,22 +5681,6 @@ local phases = {
 		buildVersion = 30403,
 		state = 2,
 	},
-	[3303] = {
-		name = "Operation Zalazane",
-		description = "|cFFAAFFAAThis became available with the release of Operation Gnomeregan and Zalazane's Fall during Wrath Classic.|r",
-		lore = "|cFFFFAAAAIncluded Operation Gnomeregan and Zalazane's Fall|r",
-		minimumBuildVersion = 30400,
-		buildVersion = 30403,
-		state = 2,
-	},
-	[3304] = {
-		name = "Elemental Unrest",
-		description = "|cFFAAFFAAThis became available with the release of the Elemental Unrest Cataclysm Prepatch Event during Wrath Classic.|r",
-		lore = "|cFFFFAAAAThe Elemental Unrest Pre-Expansion Event?|r",
-		minimumBuildVersion = 30400,
-		buildVersion = 30404,
-		state = 2,
-	},
 };
 L.PHASES = phases;
 
@@ -7512,6 +7493,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Eimer mit S�
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Horde"; end
 for key,value in pairs({
 	[3] = "Battle.net-Guthaben",
+	[7] = "Handelsposten",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -7881,6 +7863,7 @@ localize(L.HEADER_NAMES, {
 	[-85] = "Second coffre",
 	[-86] = "Troisième coffre",
 	[-87] = "Coffre final",
+	[-103] = "Pré-Lancement de l’Extension",
 	[-247] = select(2,GetAchievementInfo(2091))..": Saison 1",
 	[-248] = select(2,GetAchievementInfo(418))..": Saison 2",
 	[-249] = select(2,GetAchievementInfo(419))..": Saison 3",
@@ -9317,6 +9300,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Seau de bonb
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de la Horde"; end
 for key,value in pairs({
 	[3] = "Porte-monnaie Battle.net",
+	[7] = "Comptoir",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -10373,6 +10357,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Secchio dell
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Orda"; end
 for key,value in pairs({
 	[3] = "Saldo Battle.net",
+	[7] = "Emporio",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -11810,6 +11795,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Balde de Bal
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Fogueira da Horda"; end
 for key,value in pairs({
 	[3] = "Saldo Battle.net",
+	[7] = "Posto Comercial",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -12530,6 +12516,7 @@ localize(L.HEADER_NAMES, {
 	[-85] = "Второй Сундук",
 	[-86] = "Третий Сундук",
 	[-87] = "Последний Сундук",
+	[-103] = "Препатч",
 	[-243] = "Наложение чар на броню",
 	[-245] = "Наложение чар на оружие",
 	[-247] = select(2,GetAchievementInfo(2091))..": Сезон 1",
@@ -12560,7 +12547,6 @@ localize(L.HEADER_NAMES, {
 	[-368] = "Штурм цитадели",
 	[-369] = "Чумодельня",
 	[-371] = "Залы Ледокрылых",
-	[-474] = "Буйство элементалей",
 	[-481] = "Война в Ан'Кираже",
 	[-482] = "Открытие Темного портала",
 	[-483] = "Скипетр Зыбучих песков",
@@ -13982,6 +13968,7 @@ for key,value in pairs({
 	[3] = "Кошелек Battle.net",
 	[4] = "ПвП Элита / Гладиатор",
 	[5] = "Неизучаемые",
+	[7] = "Торговая лавка",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -15404,6 +15391,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "사탕 바�
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "호드 화톳불"; end
 for key,value in pairs({
 	[3] = "배틀코인",
+	[7] = "교역소",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -16280,6 +16268,7 @@ localize(L.HEADER_NAMES, {
 	[-86] = "Tercer cofre",
 	[-87] = "Cofre final",
 	[-97] = "Reliquias",
+	[-103] = "Evento de pre-parche",
 	[-229] = "Fuente IDs",
 	[-232] = "Parche 1.x.x",
 	[-235] = "Parche 2.x.x",
@@ -17759,8 +17748,6 @@ for key,value in pairs({
 	[33] = "Fase 4",
 	[3301] = "Prioridad de la Agonía de sombras",
 	[3302] = "Sagrario rubí",
-	[3303] = "Operación Zalazane",
-	[3304] = "Inestabilidad elemental",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -17807,8 +17794,6 @@ for key,value in pairs({
 	[33] = "|cFFAAFFAAEsto no estuvo disponible hasta Fase 4 de Wrath Classic.|r",
 	[3301] = "|cFFAAFFAAEl portador de Agonias de sombras para todos los que no la tienen.|r",
 	[3302] = "|cFFAAFFAAEsto estuvo disponible con el lanzamiento del Sagrario rubí durante Wrath Classic.|r",
-	[3303] = "|cFFAAFFAAEsto estuvo disponible con el lanzamiento de Operación Gnomeregan y La Caída de Zalazane durante Wrath Classic.|r",
-	[3304] = "|cFFAAFFAAEsto estuvo disponible con el lanzamiento del evento Inestabilidad elemental previo al parche Cataclysm durante Wrath Classic.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -17850,8 +17835,6 @@ for key,value in pairs({
 	[33] = "|cFFFFAAAAIncluía La ciudadela corona de hielo|r",
 	[3301] = "|cFFFFAAAADebido a la exclusividad de Agonía de Sombras y a que la prioridad no siempre se otorga a los coleccionistas en lugar de a los que sudan, Crieve decidió que era apropiado por ahora proporcionar un filtro para reducir el drama de hermandad.\n\nEste filtro se activará por defecto después del pre-parche de Cataclysm.\n\nSi de hecho tienes la prioridad de Agonía de Sombras, simplemente actívala.|r",
 	[3302] = "|cFFFFAAAAIncluía El sagrario rubí.|r",
-	[3303] = "|cFFFFAAAAIncluía Operación Gnomeregan y La Caída de Zalazane|r",
-	[3304] = "|cFFFFAAAA¿Inestabilidad elemental evento Pre-parche?|r",
 })
 do phases[key].lore = value; end
 for key,value in pairs({
@@ -18126,6 +18109,7 @@ localize(L.HEADER_NAMES, {
 	[-36] = "Fiestas",
 	[-63] = "Botín de la zona",
 	[-74] = "Dragones de pesadilla",
+	[-103] = "Evento de pre-expansion",
 	[-525] = "Paquete heroico Rasganorte WotLK Classic",
 	[-526] = "Paquete heroico abrasador de Cataclysm Classic",
 });
@@ -18145,7 +18129,6 @@ for key,value in pairs({
 do phases[key].description = value; end
 for key,value in pairs({
 	[1610] = "|cFFFFAAAAIncluía Ahn'Qiraj, y la nueva banda Arboleda de la Pesadillas|r",
-	[3304] = "|cFFFFAAAA¿Inestabilidad elemental evento Pre-Expansion?|r",
 })
 do phases[key].lore = value; end
 for key,value in pairs({
@@ -18416,10 +18399,15 @@ L.FACTION_MODE_TOOLTIP = "如果你想只看到你当前阵营的种族和职业
 L.FACTION_SPECIFIC_REP = "并非所有声望都可以在单个角色上查看。例：联盟玩家无法看到战歌骑手，部落玩家无法查看银翼哨兵。";
 L.FACTIONS = "阵营";
 L.FAILED_ITEM_INFO = "未能获得物品信息。该物品可能是无效的或者可能还没有被缓存在你的服务器上。";
+L.FILL_CATALYST_DATA_CHECKBOX_TOOLTIP = "将当前物品可能且通过 ATT 判定的化生 |T" .. _.asset("Interface_Catalyst") .. ":0|t 结果填入。\n\n注意：此填充器不适用于 ATT 迷你列表。";
+L.FILL_COST_DATA_CHECKBOX_TOOLTIP = "将可用指定消耗 |T".._.asset("Currency")..":0|t 购买的所有物品填入。\n\n注意：“购买”在此为广义概念，本质上指需要消耗/使用/扣除该“成本”才能获取的物品。";
 L.FILL_DYNAMIC_QUESTS_CHECKBOX = "显示可回收成本组";
 L.FILL_DYNAMIC_QUESTS_CHECKBOX_TOOLTIP = "如果您想让用于购买收藏品的物品/货币被视为收藏品并显示在动态填充的任务下，请启用此选项。 ";
 L.FILL_NPC_DATA_CHECKBOX = "显示嵌套 NPC 数据";
 L.FILL_NPC_DATA_CHECKBOX_TOOLTIP = "如果希望在迷你列表中显示时将所有相关数据嵌套到给定的 NPC（常见首领掉落、掉落等），请启用此选项。此选项可能会导致大量重复，但其想法是该 NPC 将在迷你列表中保持可见，就好像需要特定于该 NPC 的内容一样。\n\n默认：关闭";
+L.FILL_OBJECT_DATA_CHECKBOX_TOOLTIP = "填入由源对象提供的通用数据（例如采矿/采药/钓鱼点）。";
+L.FILL_SYMLINK_DATA_CHECKBOX_TOOLTIP = "填入在额外来源中具有替代性及显著获取途径的内容。\n此功能主要用于：当某项内容在主列表中可能被归类至通用“奖励”（或类似）分组下时，若在迷你列表或悬浮提示中显示，则能更清晰地展示其具体来源（多个供应商等）。\n\n注意：存在符号链接的悬浮提示将显示以下文本：\n%s";
+L.FILL_UPGRADE_DATA_CHECKBOX_TOOLTIP = "填入适用于指定物品的所有升级选项 |T".._.asset("Interface_Upgrade")..":0|t。n\n在 ATT 列表中，这通常显示物品在默认来源状态下可用的升级；而在悬浮提示中，它基于显示的原始物品数据。";
 L.FILLERS_EXPLANATION = "|cffFFFFFF填充项是一种机制，通过它可以在各种界面元素中的其他 ATT 内容内或下方“填充”额外数据，以展示某个事物的进一步用途或作用。例如，显示某个物品可购买的结果就是由“填充项”提供的。\n此标签页允许你修改在 ATT 中将启用哪些填充项。|r";
 L.FILLERS_LABEL = "填充项";
 L.FILTER_ID = "滤镜 ID";
@@ -18602,6 +18590,7 @@ L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX = "排除 NPC";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX_TOOLTIP = "启用此选项可在战斗中忽略显示 NPC 的提示。";
 L.NOT_TRADEABLE = "不可交易";
 L.NOTHING_TO_SELECT_FROM = "没有什么可以随意选择的。如果在“设置”中启用了“临时更新”，则必须在使用此窗口之前更新主列表（/att）。";
+L.OBJECT = "物件";
 L.OBJECT_ID = "道具 ID";
 L.OBJECT_TYPE = "目标类型";
 L.OBJECTIVES = "目标";
@@ -18632,13 +18621,13 @@ L.PLAY_DEATH_SOUND_CHECKBOX = "死亡时播放音效";
 L.PLAY_DEATH_SOUND_CHECKBOX_TOOLTIP = "如果你想在死亡时听到音效，请启用此选项。";
 L.PLAYER_COORDINATES = "玩家坐标";
 L.PLAYER_RANK_AUTHOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "作者|r";
-L.PLAYER_RANK_COLLECTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "集电极|r";
+L.PLAYER_RANK_COLLECTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "收藏家|r";
 L.PLAYER_RANK_CONTRIBUTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "贡献者|r";
 L.PLAYER_TITLE_BRINGER_OF_FLAMES = "|cffa335ee%s，火焰使者|r";
 L.PLAYER_TITLE_GOLD_TYCOON = "|c" .. _.DefaultColors.Raid .. "黄金大亨%s|r";
 L.PLAYER_TITLE_KING_OF_THE_ASYLUM = "|cffa335ee%s，庇护所之王|r";
-L.PLAYER_TITLE_LORD_KING = "|cffa335ee国王大人%s|r";
-L.PLAYER_TITLE_LORD_QUEEN = "|cffa335ee女王陛下%s|r";
+L.PLAYER_TITLE_LORD_KING = "|cffa335ee%s国王大人|r";
+L.PLAYER_TITLE_LORD_QUEEN = "|cffa335ee%s女王陛下|r";
 L.PLAYER_TITLE_SCARAB_LORD = "|c" .. _.DefaultColors.Raid .. "甲虫之王 %s|r";
 L.PLAYER_TITLE_THE_COMPLETIONIST = "|c" .. _.DefaultColors.Raid .. "%s 完美主义者|r";
 L.PLAYER_TITLE_THE_EXTERMINATOR = "|cffa335ee%s消灭者|r";
@@ -18780,6 +18769,7 @@ L.SHOW_ALL_SEASONAL = "所有季节性事件";
 L.SHOW_ALL_SEASONAL_TOOLTIP = "启用此设置可显示所有季节性事件，而不是仅显示当前活动的季节性事件。\n\n注意：季节性活动将提前7天自动显示为活动状态。";
 L.SHOW_BOE_CHECKBOX = "装备绑定/战团绑定物品";
 L.SHOW_BOE_CHECKBOX_TOOLTIP = "启用此选项以显示装备绑定/战团绑定物品。\n\n如果你在为某个角色刷一些经典地下城，而且不想在那些之后能用其他小号刷，或者在拍卖行获取的物品，禁用此选项会很有用。\n\n即：别在刷厄运钟摆时磨失了智。";
+L.SHOW_CHALLENGE_MASTER_CHECKBOX_TOOLTIP = "启用此设置可显示需要达成挑战模式服务器最佳成绩的内容。";
 L.SHOW_COLLECTED_THINGS_CHECKBOX = "显示已收藏事物";
 L.SHOW_COLLECTED_THINGS_CHECKBOX_TOOLTIP = "启用此选项可以看到已经收藏事物。\n\n建议关闭此设置因为它可以节省小列表中的空间并允许快速查看在该区域遗漏的内容。";
 L.SHOW_COLLECTION_PROGRESS_CHECKBOX = "收藏进度";
@@ -18968,6 +18958,7 @@ localize(L.HEADER_NAMES, {
 	[-85] = "二箱",
 	[-86] = "三箱",
 	[-87] = "最终宝箱",
+	[-103] = "资料片前夕",
 	[-219] = ITEM_QUALITY7_DESC,
 	[-247] = select(2,GetAchievementInfo(2091)).."：第1赛季",
 	[-248] = select(2,GetAchievementInfo(418)).."：第2赛季",
@@ -18998,7 +18989,6 @@ localize(L.HEADER_NAMES, {
 	[-368] = "进攻堡垒",
 	[-369] = "天灾工厂",
 	[-371] = "霜翼大厅",
-	[-474] = "元素动荡",
 	[-481] = "安其拉之战捐献",
 	[-482] = "开启黑暗之门",
 	[-483] = "流沙节杖",
@@ -20209,6 +20199,7 @@ localize(ObjectNames, {
 	[202082] = "暴掠龙女王的卵",
 	[202083] = "刺喉雌龙的卵",
 	[207724] = "船只残骸",
+	[100000000] = "考古学家的车",
 	[100000001] = "未点燃的火把",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "联盟篝火"; end
@@ -20220,13 +20211,16 @@ for key,value in pairs({
 	[3] = "战网点数",
 	[4] = "PvP 精良/角斗士",
 	[5] = "不可学",
+	[7] = "货栈",
 })
 do phases[key].name = value; end
 for key,value in pairs({
 	[1] = "|cFFFF0000此项玩家永远无法获得。|r",
 	[2] = "|cFFFF0000此项已从游戏中删除。|r",
+	[3] = "|cFFAAFFAA该物品需要付费解锁，需使用战网余额或真实货币购买。|r",
 	[4] = "|cFFFFAAAA除非您拥有所需的 PvP 头衔、所需的 PvP 等级或处于该赛季的前 %，否则无法再购买或解锁幻化。|r",
 	[5] = "|cFFFFAAAA这不能永久收集、学习或用于幻化。|r",
+	[7] = "|cFFAAFFAA该物品可在货栈购买。|r",
 	[11] = "|cFFAAFFAA该功能直到 Phase 1 的 WoW Classic 才可用。|r",
 	[12] = "|cFFAAFFAA该功能直到 Phase 2 的 WoW Classic 才可用。|r",
 	[13] = "|cFFAAFFAA该功能直到 Phase 3 的 WoW Classic 才可用。|r",
@@ -20245,6 +20239,10 @@ for key,value in pairs({
 	[33] = "|cFFAAFFAA该功能直到 Phase 4 的 Wrath Classic 才可用。|r",
 })
 do phases[key].description = value; end
+for key,value in pairs({
+	[3] = "|cFFFFAAAA在游戏的任何版本中，鼓励使用真实货币的行为均不受认可。参与此类内容需自行承担风险。|r",
+})
+do phases[key].lore = value; end
 for key,value in pairs({
 	[5788] = "辛德拉的代言人",
 })
@@ -20545,6 +20543,7 @@ L.LOCK_CRITERIA_QUEST_LABEL = "已完成任務";
 L.LOCK_CRITERIA_SPELL_LABEL = "已學法術/坐騎/配方";
 L.LOCKED_QUESTS = "鎖定任務";
 L.LOCKOUT = "鎖定";
+L.LOCKOUTS = "鎖定";
 L.LOOT_MODE_TOOLTIP = "啟用此選項可以顯示來自所有來源的戰利品。\n\n您可以依據“篩選器”標籤更改顯示的戰利品類型。";
 L.LOOT_SPEC = "拾取專精";
 L.LOOT_SPEC_DESC = "在個人拾取地城，副本和戶外事件中，此設定將決定哪些物品可供使用。\n\n點擊此行可立即更改！";
@@ -20558,6 +20557,7 @@ L.MAIN_LIST_SLIDER_LABEL = "主列表縮放";
 L.MAIN_ONLY = "僅主要";
 L.MAIN_ONLY_TOOLTIP = "如果你還想讓 ATT *假裝*你贏得了所有未被其他種族或職業鎖定的共享外觀，請啟用此設定。\n\n例如，如果你從冰冠城塞收藏了一個僅限獵人使用的物品，並且在沒有職業/種族限制的情況下，有一個來自副本的共享外觀，那麼 ATT 將*假裝*你也獲得了該外觀來源。\n\n注意：以這種方式解鎖時，切換到其他種族/職業將錯誤地回報你已經獲得了尚未為新角色收藏的外觀來源。";
 L.MAP_ID = "地圖 ID";
+L.MAPS = "地圖";
 L.MARKS_OF_HONOR_DESC = "榮耀印記必須在彈出視窗中查看才能看到所有正常的'包含'內容。\n(在聊天中輸入'/att' 然後 " .. SHIFT_KEY_TEXT .. "點擊連接的物品)\n\n|cFFfe040f之後購買和一起使用，重新登入和強制 ATT 刷新（按此順序）\n可能需要正確註冊所有物品。|r";
 L.MAX_TOOLTIP_TOP_LINE_LENGTH_LABEL = "最大頂線長度";
 L.MAXIMUM_STANDING_WITH_FACTION = "最高陣營聲望等級 %s 和 %s。";
@@ -20573,6 +20573,7 @@ L.MINIMAP_MOUSEOVER_TEXT = "右鍵改變設定。\n左鍵打開主列表。\n" .
 L.MINIMAP_SLIDER = "小地圖按鈕尺寸";
 L.MINIMAP_SLIDER_TOOLTIP = "使用此選項可自訂小地圖按鈕的大小。\n\n預設：36";
 L.MINUMUM_STANDING_WITH_FACTION = "最低陣營聲望等級 %s 和 %s。";
+L.MISSION_ID = "任務 ID";
 L.MODE_EXPLAIN_LABEL = "|cffFFFFFF您收藏的內容總結在這裡。啟用所有 |c" .. _.DefaultColors.Insane .. "彩色選項|r 解鎖 |c" .. _.DefaultColors.Insane .. "瘋狂模式|r。|r";
 L.MODULES = "模組";
 L.MODULES_LABEL = "模組和小列表";
@@ -20602,6 +20603,7 @@ L.NO_SEARCH_METHOD = "未指定搜尋方法。";
 L.NOT_AVAILABLE_IN_PL = "在個人拾取中不可用。";
 L.NOTHING_TO_SELECT_FROM = "沒有什麼可以隨意選擇的。如果在“設定”中啟用了“臨時更新”，則必須在使用此視窗之前更新主列表（/att）。";
 L.OBJECT_TYPE = "目標類型";
+L.OBJECTIVES = "目標";
 L.ONLY_NOT_TRASH = "排除垃圾物品";
 L.ONLY_NOT_TRASH_TOOLTIP = "啟用此選項可忽略白色/灰色物品。暴雪尚未在經典懷舊服中提供 API。";
 L.ONLY_RELEVANT_CHECKBOX = "僅相關";
@@ -20614,6 +20616,7 @@ L.OPPOSITE_FACTION_EQ = "與敵對陣營對應：";
 L.OTHER_ROW_INSTRUCTIONS = "|cff3399ff左鍵展開/折疊\n右鍵彈出小列表\n" .. SHIFT_KEY_TEXT .. "左鍵刷新收藏\n" .. CTRL_KEY_TEXT .. "左鍵展開/折疊列表\n" .. SHIFT_KEY_TEXT .. "點擊右鍵排序組/彈出列表\n" .. ALT_KEY_TEXT .. "右鍵設定路線點|r";
 L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ff左鍵展開/折疊\n右鍵彈出小列表\n" .. SHIFT_KEY_TEXT .. "左鍵搜尋拍賣行|r";
 L.OWNED_BY = "擁有者 %s";
+L.OWNED_PETS = "已擁有寵物";
 L.PATREON_BUTTON_TOOLTIP = "點擊按鈕複製 URL 以進入 All The Things Patreon 頁面。\n\n在這裡您可以看到如何在經濟上支援此插件！";
 L.PERCENTAGES_CHECKBOX = "顯示完成百分比";
 L.PERCENTAGES_CHECKBOX_TOOLTIP = "如果想查看每行的完成百分比請啟用此選項。\n\n按完成度對組進行著色不受影響。";
@@ -20622,12 +20625,10 @@ L.PET_DESC = "點擊此按鈕可依據缺少的內容選擇隨機寵物。";
 L.PLAY_DEATH_SOUND_CHECKBOX = "死亡時播放音效";
 L.PLAY_DEATH_SOUND_CHECKBOX_TOOLTIP = "如果你想在死亡時聽到音效，請啟用此選項。";
 L.PLAYER_COORDINATES = "玩家座標";
-L.PLAYER_RANK_COLLECTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "集電極|r";
 L.PLAYER_RANK_CONTRIBUTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "貢獻者|r";
 L.PLAYER_TITLE_GOLD_TYCOON = "|c" .. _.DefaultColors.Raid .. "黃金大亨%s|r";
 L.PLAYER_TITLE_KING_OF_THE_ASYLUM = "|cffa335ee%s，庇護所之王|r";
-L.PLAYER_TITLE_LORD_KING = "|cffa335ee國王大人%s|r";
-L.PLAYER_TITLE_LORD_QUEEN = "|cffa335ee%女王陛下s|r";
+L.PLAYER_TITLE_LORD_KING = "|cffa335ee%s國王大人|r";
 L.PLAYER_TITLE_SCARAB_LORD = "|c" .. _.DefaultColors.Raid .. "聖甲蟲領主 %s|r";
 L.PLAYER_TITLE_THE_COMPLETIONIST = "|c" .. _.DefaultColors.Raid .. "%s 完美主義者|r";
 L.PLAYER_TITLE_THE_EXTERMINATOR = "|cffa335ee%s消滅者|r";
@@ -20893,6 +20894,7 @@ localize(L.HEADER_NAMES, {
 	[-85] = "第二個箱子",
 	[-86] = "第三個箱子",
 	[-87] = "最後的箱子",
+	[-103] = "資料片前夕",
 	[-247] = select(2,GetAchievementInfo(2091)).."：第1賽季",
 	[-248] = select(2,GetAchievementInfo(418)).."：第2賽季",
 	[-249] = select(2,GetAchievementInfo(419)).."：第3賽季",
@@ -20909,7 +20911,6 @@ localize(L.HEADER_NAMES, {
 	[-342] = "獨特外觀",
 	[-350] = "四騎士",
 	[-355] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
-	[-474] = "元素入侵",
 	[-481] = "安其拉之戰捐獻",
 	[-483] = "流沙節杖",
 	[-484] = "天譴軍團入侵",
@@ -21011,6 +21012,7 @@ for key,value in pairs({
 	[3] = "Battle.net 點數",
 	[4] = "PvP 精良/鬥士",
 	[5] = "不可學",
+	[7] = "貿易站",
 	[1604] = "大師賽季",
 	[1610] = "第6階段",
 	[17] = "第1階段",

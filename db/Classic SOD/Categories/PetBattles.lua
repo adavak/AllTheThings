@@ -3,8 +3,4 @@
 local appName, _ = ...;
 local ach,h=_.CreateAchievement,_.CreateCustomHeader;
 _.Categories.PetBattles={
-
-h(-12,{pb=1,g={
-ach(1248,{pb=1}),
-ach(15,{pb=1}),
-ach(1017,{pb=1})}})};
+h(-12,{pb=1,g={ach(1248,{pb=1}),ach(15,{pb=1}),ach(1017,{pb=1})}})};
