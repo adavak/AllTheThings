@@ -1147,7 +1147,6 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 		}),
 	})),
-	-- ToDo: Add Pandaren Questline
 	race(PANDAREN_NEUTRAL, bubbleDown({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = { PANDAREN_ALLIANCE, PANDAREN_HORDE } }, {
 		["description"] = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Pandaren|r.",
 		["groups"] = {
@@ -1179,7 +1178,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					["races"] = { PANDAREN_ALLIANCE },
 				}),
 				q(84457, {	-- To Morning Breeze [H]
-					["sourceQuest"] = 84452,	-- The Wanderers
+					["sourceQuest"] = 84452,	-- The Wanderers [H]
 					["qg"] = 229348,	-- Ji Firepaw
 					["coord"] = { 50.3, 20.0, THE_WANDERING_ISLE_HERITAGE },
 					["races"] = { PANDAREN_HORDE },
@@ -1347,7 +1346,9 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 						iensemble(258657, {	-- Ensemble: Heritage of the Wandering Isle [Huojin Set, Horde]
 							["races"] = { PANDAREN_HORDE },
 						}),
-						i(258636),	-- Honored Guest's Party Favor (Awarded to players completing the quest more than once)
+						i(258636, {	-- Honored Guest's Party Favor
+							["description"] = "Awarded to players completing the Heritage Questline more than once.",
+						}),
 					},
 				}),
 			}),

@@ -7246,7 +7246,7 @@ s(301547,258644,{f=2,r=1}),
 s(301548,258645,{f=2,r=1}),
 s(301549,258646,{f=2,r=1}),
 s(301550,258647,{f=2,r=1})}}),
-i(258636,{races=a[152]})}})}}),
+i(258636,{description="Awarded to players completing the Heritage Questline more than once.",races=a[152]})}})}}),
 h(-55,{races=a[152],g={
 n(230150,{description="You can return to the Capital City of your Faction by riding the Hot Air Balloon after you've had enough celebrating.",races=a[152]})}})}}),
 ra(6,{awp=80200,description="To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Tauren|r that has completed |cFFFFD700Stay of Execution|r, the 8.2 War Campaign.",races=a[251],g={

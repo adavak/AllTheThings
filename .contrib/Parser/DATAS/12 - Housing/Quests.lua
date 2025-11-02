@@ -27,6 +27,17 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		["sourceQuests"] = { 91969 },	-- Time to Decorate
 		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	}),
+	q(94379, {	-- Thid Old Hearth
+		["sourceQuests"] = { 94210 },	-- Feathering the Nest
+		["qgs"] = {
+			233063,	-- Lyssabel Dawnpetal [A]
+			233708,	-- Tocho Couldhide [H]
+		},
+		["coords"] = {
+			{ 53.1, 40.1,   FOUNDERS_POINT },	-- Lyssabel Dawnpetal [A]
+			{ 55.3, 57.6, RAZORWIND_SHORES },	-- Tocho Couldhide [H]
+		},
+	}),
 	q(93647, {	-- Lumber For You
 		["sourceQuests"] = { 91969 },	-- Time to Decorate
 		["qgs"] = {
@@ -38,16 +49,26 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			{ 54.2, 58.0, RAZORWIND_SHORES },	-- Xiz'ro [H]
 		},
 	}),
-	q(94379, {	-- Thid Old Hearth
-		["sourceQuests"] = { 94210 },	-- Feathering the Nest
-		["qg"] = 233708,	-- Tocho Couldhide
-		["coord"] = { 55.3, 57.6, RAZORWIND_SHORES },
-		["races"] = HORDE_ONLY,
+	q(89450, {	-- Create a Neighborhood
+		["qgs"] = {
+			255519,	-- Lestia Goldenstrike [A]
+			255520,	-- Xiz'ro [H]
+		},
+		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
+		["groups"] = { i(239098) },	-- Neighborhood Charter
 	}),
 	header(HEADERS.Quest, 92991, {	-- Decor Treasure Hunt
 		-- TODO: Quest names are temp (Most likely)
 		q(93079, {	-- Decor Treasure Hunt [Horde]
-			["groups"] = { i(244534), },	-- Iron-Reinforced Door (DECOR)
+			["qg"] = 253596,	-- The Last Architect
+			["coord"] = { 53.7, 57.4, RAZORWIND_SHORES },
+			["groups"] = { i(244534) },	-- Iron-Reinforced Door (DECOR)
+		}),
+		q(93109, {	-- Decor Treasure Hunt [Horde]
+			["description"] = "Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",
+			["qg"] = 253596,	-- The Last Architect
+			["coord"] = { 53.7, 57.4, RAZORWIND_SHORES },
+			["groups"] = { i(245680) },	-- Orgrimmar Bureaucrat's Desk (DECOR)
 		}),
 
 
@@ -91,6 +112,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(236677) },	-- Stormwind Interior Wall (DECOR!)
 		}),
 		q(92969, {	-- Decor Treasure Hunt 10
+			["qg"] = 248854,	-- The Last Architect
+			["coord"] = { 52.7, 37.5, FOUNDERS_POINT },
 			["groups"] = { i(242951) },	-- Sturdy Wooden Bench (DECOR!)
 		}),
 		q(92978, {	-- Decor Treasure Hunt 12
@@ -216,11 +239,16 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(241621) },	-- Small Elegant End Table (DECOR!)
 		}),
 	}),
-	q(92734),	-- Popped when entering Razorwind and Founder's Point
-	q(92486),	-- Popped when acquired a house
-	q(92733),	-- Popped when entering house
-	q(92666),	-- Popped when talking to local Decor
-	q(92654),	-- Popped when talking to elven decor
-	q(93629),	-- Triggered after completing 'Time to Decorate'
-	q(94392),	-- Popped when talking to flora decor
 })));
+
+expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+	n(HOUSING, {
+		q(92734),	-- Popped when entering Razorwind and Founder's Point
+		q(92486),	-- Popped when acquired a house
+		q(92733),	-- Popped when entering house
+		q(92666),	-- Popped when talking to local Decor
+		q(92654),	-- Popped when talking to elven decor
+		q(93629),	-- Triggered after completing 'Time to Decorate'
+		q(94392),	-- Popped when talking to flora decor
+	}),
+}));

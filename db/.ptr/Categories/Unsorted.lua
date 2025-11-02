@@ -1,6 +1,6 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
-local ah,flt,h,i,mnt,p,prof,q,r,ra,s,toy,x=_.CreateHeader,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateRace,_.CreateItemSource,_.CreateToy,_.CreateExpansion;
+local flt,h,i,mnt,p,prof,q,r,ra,s,toy,x=_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateRace,_.CreateItemSource,_.CreateToy,_.CreateExpansion;
 local a={{1,2,3,4,5,6,7,8,9,10,11,12,14},{1},{10},{11},{12},{13},{2},{3},{4,11},{4},{5},{6},{7},{8},{9}};
 _.Categories.Unsorted={
 x(11,{
@@ -647,11 +647,6 @@ i(246100,{spellID=1240787}),
 i(246108,{spellID=1240795}),
 i(246110,{spellID=1240797}),
 i(246222,{spellID=1241202}),
-i(246243,{spellID=1241365}),
-i(246245,{spellID=1241383}),
-i(246246,{spellID=1241384}),
-i(246247,{spellID=1241385}),
-i(246248,{spellID=1241386}),
 i(246409,{spellID=1242063}),
 i(246411,{spellID=1242065}),
 i(246412,{spellID=1242066}),
@@ -883,7 +878,6 @@ i(228973,{f=55,spellID=274913}),
 i(228974,{f=55,spellID=274913}),
 i(229197),
 i(230012,{f=55,spellID=27089}),
-i(239098,{spellID=1225512}),
 i(243197),
 i(243201),
 i(243202),
@@ -1209,21 +1203,6 @@ i(246082,{spellID=1234434}),
 i(246083,{spellID=1234429}),
 i(246084,{spellID=1234424}),
 i(246085,{spellID=1234419}),
-s(292991,246154,{f=2}),
-s(292992,246155,{f=2}),
-s(292993,246156,{f=2}),
-s(292994,246157,{f=2}),
-s(292995,246158,{f=2}),
-s(292998,246179,{f=2}),
-s(292999,246180,{f=2}),
-s(293000,246181,{f=2}),
-s(293001,246182,{f=2}),
-s(293002,246183,{f=2}),
-s(293003,246184,{f=2}),
-s(293004,246185,{f=2}),
-s(293005,246186,{f=2}),
-s(293006,246187,{f=2}),
-s(293007,246188,{f=2}),
 i(246238),
 i(246789,{f=55,spellID=1243778}),
 i(246796,{f=55,spellID=1243906}),
@@ -1527,10 +1506,6 @@ i(258483,{f=101,spellID=439994}),
 i(259454,{f=55,spellID=1218771}),
 i(263226,{f=55,spellID=1270148})}}),
 x(11.02,{awp=110200,g={
-h(-88,{
-s(287256,238008,{b=1,f=35,lvl=70}),
-s(289547,241239,{b=1,f=6}),
-s(289549,241240,{b=1,f=5})}),
 flt(101,{
 p(4860,{b=1,itemID=246723,npcID=247465,spellID=1243343})}),
 flt(2,{
@@ -1610,8 +1585,6 @@ i(248327,{f=55,spellID=1246951}),
 s(295511,248395,{f=2}),
 s(295512,248396,{f=2}),
 s(295513,248397,{f=2})}),
-ah(2805,{type="d",g={
-s(287304,238029,{f=4})}}),
 flt(50,{
 i(238853),
 i(239109),

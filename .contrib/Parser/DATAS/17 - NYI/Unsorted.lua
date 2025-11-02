@@ -4760,11 +4760,6 @@ root(ROOTS.Unsorted, {
 				i(246108),	-- Embellished Dwarven Tome
 				i(246110),	-- Filigree Moon Sconce
 				i(246222),	-- Boralus String Lights
-				i(246243),	-- Stormwind Beam Platform
-				i(246245),	-- Stormwind Round Platform
-				i(246246),	-- Stormwind Large Platform
-				i(246247),	-- Stormwind Small Platform
-				i(246248),	-- Stormwind Angled Platform
 				i(246409),	-- Shadowforge Grinding Wheel
 				i(246411),	-- Ironforge Bookcase
 				i(246412),	-- Small Ironforge Bookcase
@@ -4997,7 +4992,6 @@ root(ROOTS.Unsorted, {
 				i(228974),	-- [DNT]Kalimdoricano \\ Kalimdoricano
 				i(229197),	-- [DNT]Sack of Coffee Beans \\ Sack of Coffee Beans
 				i(230012),	-- [DNT]Black Coffee \\ Black Coffee
-				i(239098),	-- Neighborhood Charter
 				i(243197),	-- Matured Hoof Piece
 				i(243201),	-- Massive Serpent Fang
 				i(243202),	-- Tiny Pangolin Fang
