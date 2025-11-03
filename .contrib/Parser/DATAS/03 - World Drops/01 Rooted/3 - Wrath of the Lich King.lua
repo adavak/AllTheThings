@@ -1660,14 +1660,12 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			--
 			-- Other reagents:
 				i(47556, {	-- Crusader Orb
-					["description"] = "Is a common drop from Trial of the Crusader bosses.",
 					["timeline"] = { ADDED_3_2_0 },
 				}),
 				i(43102, {	-- Frozen Orb
 					["description"] = "Has a chance to drop from the last boss of any Heroic WotLK dungeon.",
 				}),
 				i(45087, {	-- Runed Orb
-					["description"] = "Is a common drop from Ulduar bosses.",
 					["timeline"] = { ADDED_3_1_0 },
 				}),
 			}
