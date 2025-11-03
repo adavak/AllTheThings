@@ -106,7 +106,7 @@ AssignAPIWrapper("GetItemInfoInstant", C_Item and C_Item.GetItemInfoInstant, Get
 AssignAPIWrapper("GetItemID", C_Item and C_Item.GetItemIDForItemInfo, GetItemInfoInstant)
 AssignAPIWrapper("GetItemInfo", C_Item and C_Item.GetItemInfo, GetItemInfo)
 AssignAPIWrapper("GetItemSpecInfo", C_Item and C_Item.GetItemSpecInfo, GetItemSpecInfo)
-if app.CURRENT_EXPANSION >= EXPANSION.LEGION then
+if app.GameBuildVersion >= 70000 then
 	AssignAPIWrapper("IsArtifactRelicItem", C_ItemSocketInfo and C_ItemSocketInfo.IsArtifactRelicItem, IsArtifactRelicItem)
 end
 ---@diagnostic enable: deprecated
