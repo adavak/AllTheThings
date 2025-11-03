@@ -64,7 +64,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			--[[
-			n(251042, {	-- Domelius <Housing Vendor>
+			n(251042, {	-- Domelius <Home Improvements>
 				["description"] = "You can buy additional copies of Housing Decor after receiving the first copy from the respective Achievement.",
 				["coord"] = { 45.9, 67.8, BROKEN_ISLES },
 				["groups"] = sharedData({
