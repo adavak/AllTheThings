@@ -6072,6 +6072,17 @@ root(ROOTS.NeverImplemented, n(SETS, {
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
 		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
+			cl(DRUID, {
+				i(198145),	-- Copy Bracers of the druid name PH
+				i(198144),	-- Copy Chestguard of the druid name PH
+				i(198147),	-- Copy Cincture of the druid name PH
+				i(198149),	-- Copy Footwraps of the druid name PH
+				i(198148),	-- Copy Handwraps of the druid name PH
+				i(198142),	-- Copy Headpiece of the druid name PH
+				i(198143),	-- Copy Leggings of the druid name PH
+				i(198146),	-- Copy Shoulderpads of the druid name PH
+				i(198150),	-- Copy Wrap of the druid name PH
+			}),
 			cl(EVOKER, {
 				i(187651),	-- Evoker Tunic
 				i(187652),	-- Evoker Boots
