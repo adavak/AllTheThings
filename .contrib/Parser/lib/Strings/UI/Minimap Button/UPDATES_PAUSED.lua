@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Обновления приостановлены",
 		-- TODO: ko = "",
 		cn = "更新已暂停",
-		-- TODO: tw = "",
+		tw = "更新已暫停",
 	},
 })

@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Открыть мини-список для ",
 		-- TODO: ko = "",
 		cn = "打开迷你列表：",
-		-- TODO: tw = "",
+		tw = "打開迷你列表：",
 	},
 })
