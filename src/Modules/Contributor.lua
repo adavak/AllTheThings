@@ -145,6 +145,7 @@ api.AddReportData = AddReportData
 local function BuildGenericReportData(objRef, id)
 	return {
 		id = id,
+		name = (objRef and objRef.name or UNKNOWN),
 		type = (objRef and objRef.__type or UNKNOWN),
 		[objRef and objRef.key or "RefID"] = (objRef and objRef[objRef.key]) or UNKNOWN,
 	}
