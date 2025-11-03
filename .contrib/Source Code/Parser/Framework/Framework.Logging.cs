@@ -94,12 +94,30 @@ namespace ATT
         /// Outputs the message to the Trace which requires User intervention
         /// </summary>
         /// <param name="message"></param>
-        public static void LogException(Exception ex)
+        public static void LogException(Exception ex, bool isInner = false)
         {
             IsErrored = true;
-            Trace.WriteLine("FILE: " + CurrentFileName);
-            LogError(ex.Message);
-            Trace.WriteLine(ex.StackTrace);
+            if (!isInner)
+                Log("==== EXCEPTION ====");
+
+            if (ex is AggregateException aggEx)
+            {
+                LogError("AggregateException encountered with " + aggEx.InnerExceptions.Count + " inner exceptions.");
+                Trace.WriteLine(aggEx.StackTrace);
+
+                int index = 0;
+                foreach (var inner in aggEx.InnerExceptions)
+                {
+                    Trace.WriteLine($"-- Inner Exception [{index}] --");
+                    LogException(inner, true);
+                    index++;
+                }
+            }
+            else
+            {
+                LogError(ex.Message);
+                Trace.WriteLine(ex.StackTrace);
+            }
         }
     }
 }

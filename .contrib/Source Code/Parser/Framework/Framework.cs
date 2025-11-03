@@ -2850,6 +2850,7 @@ namespace ATT
                     builder.AppendLine("_.HeaderData = {");
                     foreach (var key in extraHeaderData)
                     {
+                        AddTableNewLines = false;
                         builder.Append("\t").Append(key.Key).Append(" = ").Append(ExportCompressedLua(key.Value)).AppendLine(",");
                     }
                     builder.AppendLine("};");
