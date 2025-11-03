@@ -2175,6 +2175,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["timeline"] = { ADDED_7_3_0 },
 						}),
 						i(3748),	-- Feline Mantle
+						i(244655, {	-- Gilnean Circular Rug (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(151071, {	-- Gloves of the Uplifted Cup
 							["timeline"] = { ADDED_7_3_0 },
 						}),
@@ -2267,6 +2270,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(63461),	-- Staff of Isolation
 							i(63456),	-- Meteor Shard
 							i(63459),	-- Worgen Hunter's Helm
+							i(244655, {	-- Gilnean Circular Rug (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 							i(63462),	-- Helm of Untold Stories
 							i(63465),	-- Mantle of Loss
 							i(63463),	-- Mantle of the Eastern Lords

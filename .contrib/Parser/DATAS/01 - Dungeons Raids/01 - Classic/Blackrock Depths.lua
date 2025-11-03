@@ -3510,6 +3510,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						ach(5051, {	-- Blackrock Depths Guild Run
 							["timeline"] = { ADDED_4_0_3 },
 						}),
+						i(246429, {	-- Dark Iron Chandelier (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(227981, {	-- Dreadforge Retaliatior
 							["timeline"] = { ADDED_1_15_3 },

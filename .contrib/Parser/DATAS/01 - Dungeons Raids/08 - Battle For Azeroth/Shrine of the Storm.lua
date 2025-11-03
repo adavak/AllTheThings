@@ -29,6 +29,16 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					["lvl"] = 120,
 				}),
 			}),
+			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
+				e(2156, {	-- Vol'zith the Whisperer
+					["crs"] = { 134069 },	-- Vol'zith the Whisperer
+					["groups"] = {
+						i(245681, {	-- Tidesage's Fireplace
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
+				}),
+			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				e(2153, {	-- Aqu'sirr
 					["crs"] = {

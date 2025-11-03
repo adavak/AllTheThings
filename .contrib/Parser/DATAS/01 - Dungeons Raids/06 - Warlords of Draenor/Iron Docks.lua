@@ -76,6 +76,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				BossOnly(OSHIR),
 				BossOnly(SKULLOC, {
 					ach(9038),	-- Iron Docks
+					i(245434, {	-- Orgrimmar Sconce (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC).AddGroups({

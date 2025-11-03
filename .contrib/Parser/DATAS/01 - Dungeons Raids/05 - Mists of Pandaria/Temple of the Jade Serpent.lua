@@ -61,6 +61,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					["crs"] = { 56439 },	-- Sha of Doubt
 					["groups"] = {
 						ach(6757),	-- Temple of the Jade Serpent
+						i(246846, {	-- Tome of Pandaren Wisdom (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 			}),

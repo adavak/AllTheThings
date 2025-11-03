@@ -122,6 +122,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["crs"] = { 124729 },	-- L'ura
 					["groups"] = {
 						ach(12007),	-- Heroic: Seat of the Triumvirate
+						i(241044, {	-- Argussian Crate (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(153037),	-- Technique: Glyph of Dark Absolution (RECIPE!)
 					},
 				})),

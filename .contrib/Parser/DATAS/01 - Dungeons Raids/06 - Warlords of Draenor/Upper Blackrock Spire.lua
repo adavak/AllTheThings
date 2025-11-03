@@ -82,6 +82,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					i(118738),	-- Felshanker
 					i(118739),	-- Draconian Doomshield
 					i(110013),	-- Emberscale Talisman
+					i(245435, {	-- Horde Battle Emblem (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC).AddGroups({

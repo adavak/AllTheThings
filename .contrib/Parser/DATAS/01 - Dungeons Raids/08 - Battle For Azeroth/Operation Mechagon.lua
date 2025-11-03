@@ -536,21 +536,25 @@ local INSTANCE_GROUPS = {
 				BossOnly(GOBBAMAK, {
 					i(168751),	-- Omnipurpose Effective Logic Board
 					i(168752),	-- Omnipurpose Efficient Logic Board
+					i(170507),	-- Omnipurpose Logic Board
 					i(168750),	-- Omnipurpose Refined Logic Board
 				}),
 				BossOnly(GUNKER, {
 					i(168746),	-- Optimized Adaptable Logic Board
 					i(168745),	-- Optimized Effective Logic Board
 					i(168744),	-- Optimized Efficient Logic Board
+					i(170508),	-- Optimized Logic Board
 				}),
 				BossOnly(TRIXIENAENO, {
 					i(168747),	-- Performant Adaptable Logic Board
 					i(168749),	-- Performant Effective Logic Board
+					i(170509),	-- Performant Logic Board
 					i(168748),	-- Performant Refined Logic Board
 				}),
 				BossOnly(HK8, {
 					i(168742),	-- Forceful Adaptable Logic Board
 					i(168743),	-- Forceful Efficient Logic Board
+					i(170510),	-- Forceful Logic Board
 					i(168741),	-- Forceful Refined Logic Board
 					i(168657),	-- Friend of Foe Identifier
 					i(167677),	-- Harmonic Dematerializer
@@ -562,26 +566,33 @@ local INSTANCE_GROUPS = {
 			BossOnly(TUSSLETONKS, {
 				i(168742),	-- Forceful Adaptable Logic Board
 				i(168743),	-- Forceful Efficient Logic Board
+				i(170510),	-- Forceful Logic Board
 				i(168741),	-- Forceful Refined Logic Board
 			}),
 			BossOnly(KUJO, {
 				i(168746),	-- Optimized Adaptable Logic Board
 				i(168745),	-- Optimized Effective Logic Board
 				i(168744),	-- Optimized Efficient Logic Board
+				i(170508),	-- Optimized Logic Board
 				i(169529),	-- Plans: Monelite Reinforced Chassis (RECIPE!)
 				i(169609),	-- Schematic: Super-Charged Engine (RECIPE!)
 			}),
 			BossOnly(MACHINIST, {
 				i(168751),	-- Omnipurpose Effective Logic Board
 				i(168752),	-- Omnipurpose Efficient Logic Board
+				i(170507),	-- Omnipurpose Logic Board
 				i(168750),	-- Omnipurpose Refined Logic Board
 			}),
 			BossOnly(KING, {
 				i(168842),	-- Engine of Mecha-Perfection (Rank 1)
 				i(169172),	-- Blueprint: Perfectly Timed Differential
 				i(168671),	-- Electromagnetic Resistors
+				i(255672, {	-- Gnomish Tesla Tower (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 				i(168747),	-- Performant Adaptable Logic Board
 				i(168749),	-- Performant Effective Logic Board
+				i(170509),	-- Performant Logic Board
 				i(168748),	-- Performant Refined Logic Board
 				i(169774),	-- Progression Sprocket
 				i(167556),	-- Subroutine: Overclock

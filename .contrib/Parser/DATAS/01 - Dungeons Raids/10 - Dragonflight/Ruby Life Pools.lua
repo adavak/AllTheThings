@@ -57,6 +57,9 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						i(197401),	-- Renewed Proto-Drake: Beaked Snout (MM!)
 						i(197601),	-- Windborne Velocidrake: Wavy Horns (MM!)
 						i(201742),	-- Technique: Renewed Proto-Drake: Silver and Blue Armor (RECIPE!)
+						i(256428, {	-- Valdrakken Hanging Lamp (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 			}),

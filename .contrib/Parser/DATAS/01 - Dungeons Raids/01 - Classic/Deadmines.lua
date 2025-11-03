@@ -762,6 +762,9 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 					i(5198),	-- Cookie's Stirring Rod
 					i(5193),	-- Cape of the Brotherhood
 					i(5202),	-- Corsair's Overshirt
+					i(248332, {	-- Stormwind Footlocker (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 		-- #if AFTER CATA
@@ -865,6 +868,9 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 						i(63486),	-- Shackles of the Betrayed
 						i(63482),	-- Daughter's Hands
 						i(63483),	-- Guildmaster's Greaves
+						i(248332, {	-- Stormwind Footlocker (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(65178),	-- VanCleef's Boots
 						-- #if BEFORE MOP
 						i(63487, {	-- Book of the Well Sung Song

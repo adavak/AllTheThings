@@ -97,6 +97,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 					i(205975, {	-- Hate-Sculpted Magma
 						["timeline"] = { ADDED_11_0_2 },
 					}),
+					i(245451, {	-- Thunder Totem Brazier (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				})),
 			}),
 			n(MYTHIC_PLUS, sharedDataSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 } }, {

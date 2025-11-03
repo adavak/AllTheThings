@@ -53,7 +53,7 @@ q(92961,{coords={a[7]},qgs=a[2],r=2,g={
 i(245384,{sourceQuests=a[13],spellID=1238509})}}),
 q(92962,{coords={a[7]},qgs=a[2],r=2,g={
 i(245355,{sourceQuests=a[14],spellID=1238477})}}),
-q(92963,{coords={a[7]},description="Treasure can be found near the entrance to the Brumewood Hollow of the Founder's Point at 63.1, 46.7",qgs=a[2],r=2,g={
+q(92963,{coords={{63.1,46.7,2352}},description="Treasure can be found near the entrance to the Brumewood Hollow of the Founder's Point at 63.1, 46.7",qgs=a[2],r=2,g={
 i(245356,{sourceQuests=a[15],spellID=1238478})}}),
 q(92964,{coords={a[7]},qgs=a[2],r=2,g={
 i(245376,{sourceQuests=a[16],spellID=1238501})}}),
@@ -87,9 +87,9 @@ q(92978,{coords={a[7]},qgs=a[2],r=2,g={
 i(243334,{sourceQuests=a[27],spellID=1235453})}}),
 q(92979,{coords={a[7]},qgs=a[2],r=2,g={
 i(245334,{sourceQuests=a[28],spellID=1238434})}}),
-q(92980,{coords={a[7]},description="Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",qgs=a[2],r=2,g={
+q(92980,{coords={{28.6,46.8,2352}},description="Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",qgs=a[2],r=2,g={
 i(245556,{sourceQuests=a[29],spellID=1239013})}}),
-q(92981,{coords={a[7]},qgs=a[2],r=2,g={
+q(92981,{coords={{29.9,48.2,2352}},description="Treasure can be found just below the Watch Tower at The Outer Banks of the Founder's Point at 29.9, 48.2",qgs=a[2],r=2,g={
 i(245547,{sourceQuests=a[30],spellID=1238936})}}),
 q(92982,{coords={a[7]},qgs=a[2],r=2,g={
 i(244531,{sourceQuests=a[31],spellID=1237679})}}),
@@ -101,7 +101,7 @@ q(92985,{coords={a[7]},qgs=a[2],r=2,g={
 i(246106,{sourceQuests=a[34],spellID=1240793})}}),
 q(92986,{coords={a[7]},qgs=a[2],r=2,g={
 i(239075,{sourceQuests=a[35],spellID=1227187})}}),
-q(92987,{coords={a[7]},qgs=a[2],r=2,g={
+q(92987,{coords={{36.6,57.9,2352}},description="Treasure can be found below a big tree in the Gilded Oaks of the Founder's Point at 36.6, 57.9",qgs=a[2],r=2,g={
 i(235677,{sourceQuests=a[36],spellID=1218169})}}),
 q(92988,{coords={a[7]},qgs=a[2],r=2,g={
 i(235675,{sourceQuests=a[37],spellID=1218167})}}),
@@ -170,7 +170,7 @@ q(93082,{coords={a[9]},qgs=a[3],r=1,g={
 i(245533,{spellID=1238731})}}),
 q(93083,{coords={a[9]},qgs=a[3],r=1,g={
 i(245545,{spellID=1238933})}}),
-q(93084,{coords={a[9]},qgs=a[3],r=1,g={
+q(93084,{coords={{60.7,64.6,2351}},description="Treasure can be found at The Bloom of the Razorwind Shores at 60.7, 64.6",qgs=a[3],r=1,g={
 i(245546,{spellID=1238935})}}),
 q(93085,{coords={a[9]},qgs=a[3],r=1,g={
 i(246026)}}),
@@ -188,7 +188,7 @@ q(93099,{coords={a[9]},qgs=a[3],r=1,g={
 i(246224,{spellID=1241204})}}),
 q(93100,{coords={a[9]},qgs=a[3],r=1,g={
 i(246587,{spellID=1242811})}}),
-q(93101,{coords={a[9]},description="Treasure can be found atop the arch at Saltfang Shoals of the Razorwind Shores at 61.9, 76.7",qgs=a[3],r=1,g={
+q(93101,{coords={{61.9,76.7,2351}},description="Treasure can be found atop the arch at Saltfang Shoals of the Razorwind Shores at 61.9, 76.7",qgs=a[3],r=1,g={
 i(246687,{spellID=1243355})}}),
 q(93102,{coords={a[9]},qgs=a[3],r=1,g={
 i(250920,{spellID=1251656})}}),
@@ -204,7 +204,7 @@ q(93107,{coords={a[9]},qgs=a[3],r=1,g={
 i(248246,{spellID=1246777})}}),
 q(93108,{coords={a[9]},qgs=a[3],r=1,g={
 i(251973,{spellID=1253706})}}),
-q(93109,{coords={a[9]},description="Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",qgs=a[3],r=1,g={
+q(93109,{coords={{47.8,88.4,2351}},description="Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",qgs=a[3],r=1,g={
 i(245680,{spellID=1239679})}}),
 q(93110,{coords={a[9]},qgs=a[3],r=1,g={
 i(245398,{spellID=1238523})}}),

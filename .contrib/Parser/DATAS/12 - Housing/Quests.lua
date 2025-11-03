@@ -76,6 +76,7 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(92963, {	-- Decor Treasure Hunt
 			["description"] = "Treasure can be found near the entrance to the Brumewood Hollow of the Founder's Point at 63.1, 46.7",
+			["coord"] = { 63.1, 46.7, FOUNDERS_POINT },	-- Treasure
 			["groups"] = { i(245356) },	-- Goldshire Window (DECOR!)
 		}),
 		q(92964, {	-- Decor Treasure Hunt
@@ -138,10 +139,12 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(92980, {	-- Decor Treasure Hunt
 			["description"] = "Treasure can be found at The Outer Banks of the Founder's Point at 28.6, 46.8",
+			["coord"] = { 28.6, 46.8, FOUNDERS_POINT },	-- Treasure
 			["groups"] = { i(245556) },	-- Iron-Reinforced Standing Mirror (DECOR!)
 		}),
 		q(92981, {	-- Decor Treasure Hunt
-			-- WoWhead Comment: Can be found on the beach immediately below the Lighthouse at The Outer Banks in Founder's Point.
+			["description"] = "Treasure can be found just below the Watch Tower at The Outer Banks of the Founder's Point at 29.9, 48.2",
+			["coord"] = { 29.9, 48.2, FOUNDERS_POINT },	-- Treasure
 			["groups"] = { i(245547) },	-- Wide Charming Couch (DECOR!)
 		}),
 		q(92982, {	-- Decor Treasure Hunt
@@ -164,7 +167,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(239075) },	-- Wrought Iron Chandelier (DECOR!)
 		}),
 		q(92987, {	-- Decor Treasure Hunt
-			-- WoWhead Comment: Gilded Oaks, near the hollow log at the base of a tree. /way 36 57
+			["description"] = "Treasure can be found below a big tree in the Gilded Oaks of the Founder's Point at 36.6, 57.9",
+			["coord"] = { 36.6, 57.9, FOUNDERS_POINT },	-- Treasure
 			["groups"] = { i(235677) },	-- Wrought Iron Floor Lamp (DECOR!)
 		}),
 		q(92988, {	-- Decor Treasure Hunt
@@ -298,6 +302,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(245545) },	-- Orgrimmar Nightstand (DECOR)
 		}),
 		q(93084, {	-- Decor Treasure Hunt
+			["description"] = "Treasure can be found at The Bloom of the Razorwind Shores at 60.7, 64.6",
+			["coord"] = { 60.7, 64.6, RAZORWIND_SHORES },	-- Treasure
 			["groups"] = { i(245546) },	-- Durable Wooden Chest (DECOR)
 		}),
 		q(93085, {	-- Decor Treasure Hunt
@@ -328,6 +334,7 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(93101, {	-- Decor Treasure Hunt
 			["description"] = "Treasure can be found atop the arch at Saltfang Shoals of the Razorwind Shores at 61.9, 76.7",
+			["coord"] = { 61.9, 76.7, RAZORWIND_SHORES },	-- Treasure
 			["groups"] = { i(246687) },	-- Tusked Candleholder (DECOR)
 		}),
 		q(93102, {	-- Decor Treasure Hunt
@@ -354,6 +361,7 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(93109, {	-- Decor Treasure Hunt
 			["description"] = "Treasure can be found at Saltfang Shoals of the Razorwind Shores at 47.8, 88.4",
+			["coord"] = { 47.8, 88.4, RAZORWIND_SHORES },	-- Treasure
 			["groups"] = { i(245680) },	-- Orgrimmar Bureaucrat's Desk (DECOR)
 		}),
 		q(93110, {	-- Decor Treasure Hunt

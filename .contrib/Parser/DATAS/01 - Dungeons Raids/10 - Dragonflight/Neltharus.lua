@@ -72,6 +72,9 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						ach(16263),	-- Neltharus
 						i(193776),	-- Dragonkiln Chestguard
 						i(193777),	-- Helm of Hardened Gold
+						i(256354, {	-- Qalashi Goulash (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(193778),	-- Qalashi Defender
 						i(193779),	-- Sargha's Smasher
 						i(193773),	-- Spoils of Neltharus

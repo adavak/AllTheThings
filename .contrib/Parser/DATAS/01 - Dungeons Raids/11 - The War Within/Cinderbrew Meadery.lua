@@ -63,6 +63,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						i(221070),	-- "Azeroth's Greatest BEE.E.O." Cap
 						i(221198),	-- 85-Year Tenure Ring
 						i(221071),	-- Backbreaking Bootstrappers
+						i(245560, {	-- Meadery Ochre Window (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(221072),	-- Moneymaking Businessmantle
 						i(221068),	-- Profit Divider
 						i(221069),	-- Slashproof Business Plate

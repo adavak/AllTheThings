@@ -4599,7 +4599,6 @@ root(ROOTS.Unsorted, {
 				i(258557),	-- Beloved Raptor Plushie
 				i(258558),	-- Sandfury Diplomat's Banner
 				i(258561),	-- Kyrian Aspirant's Rolled Cushion
-				i(238857),	-- Moon-Blessed Storage Crate
 				i(238859),	-- Cenarion Privacy Screen
 				i(238860),	-- Deluxe Val'sharah Bed
 				i(238861),	-- Cenarion Rectangular Rug
@@ -4613,7 +4612,6 @@ root(ROOTS.Unsorted, {
 				i(239214),	-- Well-Lit Incontinental Couch
 				i(239606),	-- Forsaken Round Rug
 				i(241043),	-- Elodor Barrel
-				i(241044),	-- Argussian Crate
 				i(241066),	-- Forsaken Spiked Brazier
 				i(241067),	-- Large Forsaken Spiked Brazier
 				i(243113),	-- Blue Dazar'alor Rug
@@ -4632,7 +4630,6 @@ root(ROOTS.Unsorted, {
 				i(244536),	-- Nightborne Fireplace
 				i(244653),	-- Orcish Scribe's Drafting Table
 				i(244654),	-- Small Purple Suramar Seat Cushion
-				i(244655),	-- Gilnean Circular Rug
 				i(244676),	-- Teal Suramar Seat Cushion
 				i(244677),	-- Purple Suramar Seat Cushion
 				i(244678),	-- Small Red Suramar Seat Cushion
@@ -4676,8 +4673,6 @@ root(ROOTS.Unsorted, {
 				i(245427),	-- Dark Iron Expedition Tent
 				i(245431),	-- Draenor Cookpot
 				i(245433),	-- Blackrock Strongbox
-				i(245434),	-- Orgrimmar Sconce
-				i(245435),	-- Horde Battle Emblem
 				i(245437),	-- Orc-Forged Weaponry
 				i(245438),	-- Frostwolf Bookcase
 				i(245441),	-- Orcish Fencepost
@@ -4687,7 +4682,6 @@ root(ROOTS.Unsorted, {
 				i(245445),	-- Frostwolf Axe-Dart Board
 				i(245449),	-- Ancient Elven Highback Chair
 				i(245450),	-- Highmountain Totem
-				i(245451),	-- Thunder Totem Brazier
 				i(245452),	-- Stonebull Canoe
 				i(245454),	-- Small Highmountain Drum
 				i(245458),	-- Riverbend Jar
@@ -4726,7 +4720,6 @@ root(ROOTS.Unsorted, {
 				i(245518),	-- Worgen's Chicken Coop
 				i(245521),	-- Stone Zandalari Lamp
 				i(245558),	-- Elaborate Suramar Window
-				i(245560),	-- Meadery Ochre Window
 				i(245603),	-- Gilnean Noble's Trellis
 				i(245604),	-- Arched Rose Trellis
 				i(245605),	-- Gilnean Stone Wall
@@ -4738,7 +4731,6 @@ root(ROOTS.Unsorted, {
 				i(245625),	-- Bel'ameth Bench
 				i(245627),	-- Elven Temple Brazier
 				i(245655),	-- Filigree Moon Lamp
-				i(245681),	-- Tidesage's Fireplace
 				i(245698),	-- Kaldorei Stone Fence
 				i(245699),	-- Kaldorei Stone Fencepost
 				i(245700),	-- Kaldorei Cushioned Seat
@@ -4746,7 +4738,6 @@ root(ROOTS.Unsorted, {
 				i(245702),	-- Kaldorei Wall Shelf
 				i(245704),	-- Bel'ameth Barrel
 				i(245739),	-- Crescent Moon Lamppost
-				i(245938),	-- Overgrown Arathi Trellis
 				i(245984),	-- Sagehold Window
 				i(246001),	-- Orange Suramar Seat Cushion
 				i(246002),	-- Red Suramar Seat Cushion
@@ -4759,13 +4750,11 @@ root(ROOTS.Unsorted, {
 				i(246409),	-- Shadowforge Grinding Wheel
 				i(246411),	-- Ironforge Bookcase
 				i(246412),	-- Small Ironforge Bookcase
-				i(246421),	-- Stolen Ironforge Seat
 				i(246422),	-- Thelsamar Hanging Lantern
 				i(246424),	-- Square Stormpike Table
 				i(246425),	-- Round Dwarven Table
 				i(246427),	-- Dilapidated Wildhammer Well
 				i(246428),	-- Overgrown Wildhammer Fountain
-				i(246429),	-- Dark Iron Chandelier
 				i(246480),	-- Automated Gnomeregan Guardian
 				i(246481),	-- Retired Industrial Gnomegrabber
 				i(246482),	-- Mechanical Gnomish Lamppost
@@ -4793,14 +4782,12 @@ root(ROOTS.Unsorted, {
 				i(246708),	-- Dornic Sliced Mineloaf
 				i(246709),	-- Earthen Hospitality Cheese-Like Brick
 				i(246845),	-- Tome of Shadowforge Cunning
-				i(246846),	-- Tome of Pandaren Wisdom
 				i(246847),	-- Tome of Draenei Faith
 				i(246848),	-- Scribe's Working Notes
 				i(246850),	-- "Fruit of the Arcan'dor" Painting
 				i(246860),	-- Tome of Forsaken Resilience
 				i(246863),	-- Open Tome of the Dragon's Dedication
 				i(246864),	-- Tome of the Lost Dragon
-				i(246865),	-- Tome of Reliquary Insights
 				i(247662),	-- Pandaren Scholar's Lectern
 				i(247663),	-- Pandaren Scholar's Bookcase
 				i(247670),	-- Pandaren Pantry
@@ -4823,7 +4810,6 @@ root(ROOTS.Unsorted, {
 				i(247910),	-- Suramar Sconce
 				i(247911),	-- Shal'dorei Seat
 				i(247912),	-- Large Traditional Shal'dorei Rug
-				i(247913),	-- Ornate Suramar Table
 				i(247914),	-- Covered Ornate Suramar Table
 				i(247915),	-- Square Suramar Table
 				i(247917),	-- Covered Small Suramar Table
@@ -4832,7 +4818,6 @@ root(ROOTS.Unsorted, {
 				i(247924),	-- Suramar Street Light
 				i(248009),	-- Suramar Window
 				i(248116),	-- Valdrakken Chandelier
-				i(248332),	-- Stormwind Footlocker
 				i(248334),	-- Stormwind Wooden Bench
 				i(248335),	-- Stormwind Wooden Stool
 				i(248401),	-- Ornamental Kaldorei Glaive
@@ -4854,7 +4839,6 @@ root(ROOTS.Unsorted, {
 				i(251022),	-- Bel'ameth Traveler's Pack
 				i(251329),	-- Shadowmoon Open-Air Shed
 				i(251330),	-- Draenic Fencepost
-				i(251331),	-- Draenic Ottoman
 				i(251477),	-- Draenic Wooden Table
 				i(251478),	-- Square Draenic Table
 				i(251480),	-- Draenic Wooden Wall Shelf
@@ -4901,7 +4885,6 @@ root(ROOTS.Unsorted, {
 				i(255641),	-- Undermine Mechanic's Hanging Lamp
 				i(255642),	-- Undermine Alleyway Sconce
 				i(255647),	-- Spring-Powered Pointer
-				i(255672),	-- Gnomish Tesla Tower
 				i(255673),	-- Moonclasp Satchel
 				i(255674),	-- Incontinental Table Lamp
 				i(255840),	-- Champion Brawler's Gloves
@@ -4911,9 +4894,7 @@ root(ROOTS.Unsorted, {
 				i(256328),	-- Leftover Undermine Takeout
 				i(256330),	-- Kharanos Stone Bed
 				i(256331),	-- Shadowforge Lamppost
-				i(256354),	-- Qalashi Goulash
 				i(256554),	-- Definitely Real, Not At All Fake Head of the Broodmother
-				i(256682),	-- Magistrix's Garden Fountain
 				i(256903),	-- Gilnean Banded Crate
 				i(256905),	-- Small Gilnean Table
 				i(256919),	-- Zandalari War Chandelier
@@ -4937,7 +4918,6 @@ root(ROOTS.Unsorted, {
 				i(258301),	-- Gilnean Washing Line
 				i(258765),	-- Hull'n'Home Window
 				i(259071),	-- Brawler's Guild Punching Bag
-				i(260359),	-- Valdrakken Bookcase
 				i(260582),	-- Cartel Collector's Cage
 				i(260583),	-- Arathi Bartender's Shelves
 				i(260699),	-- Maldraxxian Runic Tablet
@@ -8007,10 +7987,6 @@ root(ROOTS.Unsorted, {
 			i(170257),	-- Mirror of Spell Turning
 			i(170258),	-- Rod of Magical Fervor
 			i(170259),	-- Tome of Last Rites
-			i(170507),	-- Omnipurpose Logic Board
-			i(170508),	-- Optimized Logic Board
-			i(170509),	-- Performant Logic Board
-			i(170510),	-- Forceful Logic Board
 			i(164732),	-- Ub3r-Construct: Short-Fused Boom Bots
 			i(164734),	-- Ub3r-Construct: Ub3r-Improved Target Dummy
 			i(164738),	-- Ub3r-Construct:  Ub3r S3ntry Mk. X8.0

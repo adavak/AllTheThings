@@ -47,6 +47,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 					i(201996, {	-- Edge of the First Blade
 						["timeline"] = { ADDED_11_0_2 },
 					}),
+					i(247913, {	-- Ornate Suramar Table (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				})),
 			}),
 			n(MYTHIC_PLUS, sharedDataSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_1_0 } }, {

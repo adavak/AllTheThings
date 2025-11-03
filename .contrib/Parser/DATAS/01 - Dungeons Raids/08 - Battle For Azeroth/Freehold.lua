@@ -23,6 +23,16 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					["lvl"] = 120,
 				}),
 			}),
+			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
+				e(2095,	{	-- Harlan Sweete
+					["crs"] = { 126983 },	-- Harlan Sweete
+					["groups"] = {
+						i(246421, {	-- Stolen Ironforge Seat (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
+				}),
+			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				e(2102, {	-- Skycap'n Kragg
 					["crs"] = {

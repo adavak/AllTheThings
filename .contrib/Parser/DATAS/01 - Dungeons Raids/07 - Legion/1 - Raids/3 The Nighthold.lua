@@ -317,6 +317,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					i(137756),	-- Vantus Rune Technique: Trilliax [Rank 2] (RECIPE!)
 				}),
 				BossOnly(ALURIEL, {
+					i(256682, {	-- Magistrix's Garden Fountain
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(139645),	-- Vantus Rune Technique: Spellblade Aluriel [Rank 1] (RECIPE!)
 					i(137757),	-- Vantus Rune Technique: Spellblade Aluriel [Rank 2] (RECIPE!)
 				}),

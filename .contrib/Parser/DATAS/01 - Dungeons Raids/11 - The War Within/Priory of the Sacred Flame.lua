@@ -49,6 +49,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						i(221129),	-- Divine Pyrewalkers
 						i(221131),	-- Elysian Flame Crown
 						i(221127),	-- Emberbrand Zweihander
+						i(245938, {	-- Overgrown Arathi Trellis (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(221200),	-- Radiant Necromancer's Band
 						i(221203),	-- Reanimator's Pyreforged Shoulders
 						i(221130),	-- Seraphic Wraps of the Ordained

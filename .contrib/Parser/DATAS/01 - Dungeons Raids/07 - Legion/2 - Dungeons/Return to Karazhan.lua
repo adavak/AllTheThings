@@ -209,6 +209,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						i(213017, {	-- Grimoire of the Riftsmolder Darkglare (CI!)
 							["timeline"] = { ADDED_10_2_5 },
 						}),
+						i(246865, {	-- Tome of Reliquary Insights (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 			}),

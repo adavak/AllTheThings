@@ -42,6 +42,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				cr(99192, e(1657, {	-- Shade of Xavius
 					ach(10783),	-- Darkheart Thicket
 					i(128595),	-- Formula: Enchant Neck - Mark of the Hidden Satyr [Rank 2] (RECIPE!)
+					i(238857, {	-- Moon-Blessed Storage Crate (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(137876),	-- Pattern: Warhide Bindings [Rank 3] (RECIPE!)
 				})),
 			}),
