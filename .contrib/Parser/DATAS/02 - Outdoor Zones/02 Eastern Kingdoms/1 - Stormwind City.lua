@@ -3863,6 +3863,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["cr"] = 2417,	-- Grel'borg the Miser
 						}),
+						i(248662, {["timeline"] = { ADDED_11_2_7 }}),	-- Jewelcrafter's Tent (DECOR!)
 					},
 				}),
 				q(58675, {	-- The Price of Peace
@@ -5095,27 +5096,46 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 67.6, 72.8, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(45574, {	-- Stormwind Tabard
-							["timeline"] = { ADDED_3_1_0 },
-						}),
-						i(64902, {	-- Cape of Stormwind
-							["minReputation"] = { FACTION_STORMWIND, EXALTED },	-- Stormwind, Exalted.
-							["timeline"] = { ADDED_4_0_1 },
-						}),
-						i(64901, {	-- Mantle of Stormwind
-							["minReputation"] = { FACTION_STORMWIND, EXALTED },	-- Stormwind, Exalted.
-							["timeline"] = { ADDED_4_0_1 },
-						}),
-						i(64903, {	-- Shroud of Stormwind
-							["minReputation"] = { FACTION_STORMWIND, EXALTED },	-- Stormwind, Exalted.
-							["timeline"] = { ADDED_4_0_1 },
-						}),
-						i(67531, {	-- Stormwind Satchel
-							["minReputation"] = { FACTION_STORMWIND, REVERED },	-- Stormwind, Revered.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-					},
+					["groups"] = bubbleDownClassicRep(FACTION_STORMWIND, {
+						{		-- Neutral
+						}, {	-- Friendly
+							i(248797, {["timeline"] = { ADDED_11_2_7 }}),	-- City Wanderer's Candleholder (DECOR!)
+							i(253168, {["timeline"] = { ADDED_11_2_7 }}),	-- Earthen Storage Crate (DECOR!)
+							i(248794, {["timeline"] = { ADDED_11_2_7 }}),	-- Elwynn Fence (DECOR!)
+							i(248795, {["timeline"] = { ADDED_11_2_7 }}),	-- Elwynn Fencepost (DECOR!)
+							i(248938, {["timeline"] = { ADDED_11_2_7 }}),	-- Hooded Iron Lantern (DECOR!)
+							i(248662, {	-- Jewelcrafter's Tent (DECOR!)
+								["sourceQuest"] = 543,	-- The Perenolde Tiara
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+							i(248798, {["timeline"] = { ADDED_11_2_7 }}),	-- Northshire Barrel (DECOR!)
+							i(248621, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Arched Trellis (DECOR!)
+							i(256673, {	-- Stormwind Forge (DECOR!)
+								["sourceQuest"] = 7604,	-- A Binding Contract
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+							i(45574, {["timeline"] = { ADDED_3_1_0 }}),	-- Stormwind Tabard
+							i(248801, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Weapon Rack (DECOR!)
+							i(248336, {	-- Stormwind Wooden Table (DECOR!)
+								["sourceQuest"] = 59583,	-- Welcome to Stormwind
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+							i(248618, {["timeline"] = { ADDED_11_2_7 }}),	-- Westfall Woven Basket (DECOR!)
+						}, {	-- Honored
+							i(248939, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Lamppost (DECOR!)
+							i(248333, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Large Wooden Table (DECOR!)
+						}, {	-- Revered
+							i(248617, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Keg Stand (DECOR!)
+							i(67531, {["timeline"] = { ADDED_4_0_3 }}),	-- Stormwind Satchel
+							i(248620, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Trellis and Basin (DECOR!)
+						}, {	-- Exalted
+							i(64902, {["timeline"] = { ADDED_4_0_1 }}),	-- Cape of Stormwind
+							i(64901, {["timeline"] = { ADDED_4_0_1 }}),	-- Mantle of Stormwind
+							i(64903, {["timeline"] = { ADDED_4_0_1 }}),	-- Shroud of Stormwind
+							i(248619, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Gazebo (DECOR!)
+							i(248665, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Peddler's Cart (DECOR!)
+						},
+					}),
 				}),
 				n(32379, {	-- Captain O'Neal <Jewelcrafting Quartermaster>
 					["coord"] = { 75.0, 66.7, STORMWIND_CITY },

@@ -1594,27 +1594,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 55.8, 47.8, IRONFORGE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(45577, {	-- Ironforge Tabard
-							["timeline"] = { ADDED_3_1_0 },
-						}),
-						i(64899, {	-- Cape of Ironforge
-							["minReputation"] = { FACTION_IRONFORGE, EXALTED },	-- Ironforge, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64900, {	-- Mantle of Ironforge
-							["minReputation"] = { FACTION_IRONFORGE, EXALTED },	-- Ironforge, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64898, {	-- Shroud of Ironforge
-							["minReputation"] = { FACTION_IRONFORGE, EXALTED },	-- Ironforge, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(67528, {	-- Ironforge Satchel
-							["minReputation"] = { FACTION_IRONFORGE, REVERED },	-- Ironforge, Revered.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-					},
+					["groups"] = bubbleDownClassicRep(FACTION_IRONFORGE, {
+						{		-- Neutral
+						}, {	-- Friendly
+							i(246491, {["timeline"] = { ADDED_11_2_7 }}),	-- Ironforge Fence (DECOR!)
+							i(246490, {["timeline"] = { ADDED_11_2_7 }}),	-- Ironforge Fencepost (DECOR!)
+							i(45577, {["timeline"] = { ADDED_3_1_0 }}),	-- Ironforge Tabard
+						}, {	-- Honored
+							i(252010, {["timeline"] = { ADDED_11_2_7 }}),	-- Ornate Ironforge Bench (DECOR!)
+							i(246426, {["timeline"] = { ADDED_11_2_7 }}),	-- Ornate Ironforge Table (DECOR!)
+						}, {	-- Revered
+							i(67528, {["timeline"] = { ADDED_4_0_3 }}),	-- Ironforge Satchel
+							i(256333, {["timeline"] = { ADDED_11_2_7 }}),	-- Ornate Dwarven Wardrobe (DECOR!)
+						}, {	-- Exalted
+							i(64899, {["timeline"] = { ADDED_4_0_3 }}),	-- Cape of Ironforge
+							i(64900, {["timeline"] = { ADDED_4_0_3 }}),	-- Mantle of Ironforge
+							i(64898, {["timeline"] = { ADDED_4_0_3 }}),	-- Shroud of Ironforge
+						},
+					}),
 				}),
 				n(5125, {	-- Dolkin Craghelm
 					["coord"] = { 54.8, 88.6, IRONFORGE },

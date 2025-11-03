@@ -129,6 +129,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(227710),	-- Tome of Polymorph: Mosswool (CI!)
 				},
 			}),
+			q(94210, {	-- Furniture Favor
+				["qg"] = 252312,	-- Second Chair Pawdo
+				["coord"] = { 52.9, 68.0, DORNOGAL },
+				["timeline"] = { ADDED_11_2_7 },
+				["groups"] = { i(253173) },	-- Meadery Storage Barrel (DECOR!)
+			}),
 			q(83275, {	-- Gear Enchanting
 				["provider"] = { "n", 226287 },	-- Ellerdin
 				["coord"] = { 51.8, 48.7, DORNOGAL },

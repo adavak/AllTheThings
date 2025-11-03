@@ -5023,27 +5023,20 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 50.4, 58.4, ORGRIMMAR },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(45581, {	-- Orgrimmar Tabard
-							["timeline"] = { ADDED_3_1_0 },
-						}),
-						i(64908, {	-- Shroud of Orgrimmar
-							["minReputation"] = { FACTION_ORGRIMMAR, EXALTED },	-- Orgrimmar, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64909, {	-- Cape of Orgrimmar
-							["minReputation"] = { FACTION_ORGRIMMAR, EXALTED },	-- Orgrimmar, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64910, {	-- Mantle of Orgrimmar
-							["minReputation"] = { FACTION_ORGRIMMAR, EXALTED },	-- Orgrimmar, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(67533, {	-- Orgrimmar Satchel
-							["minReputation"] = { FACTION_ORGRIMMAR, REVERED },	-- Orgrimmar, Revered.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-					},
+					["groups"] = bubbleDownClassicRep(FACTION_ORGRIMMAR, {
+						{		-- Neutral
+						}, {	-- Friendly
+							i(253168, {["timeline"] = { ADDED_11_2_7 }}),	-- Earthen Storage Crate (DECOR!)
+							i(45581, {["timeline"] = { ADDED_3_1_0 }}),	-- Orgrimmar Tabard
+						}, {	-- Honored
+						}, {	-- Revered
+							i(67533, {["timeline"] = { ADDED_4_0_3 }}),	-- Orgrimmar Satchel
+						}, {	-- Exalted
+							i(64909, {["timeline"] = { ADDED_4_0_3 }}),	-- Cape of Orgrimmar
+							i(64910, {["timeline"] = { ADDED_4_0_3 }}),	-- Mantle of Orgrimmar
+							i(64908, {["timeline"] = { ADDED_4_0_3 }}),	-- Shroud of Orgrimmar
+						},
+					}),
 				}),
 				-- #if NOT ANYCLASSIC
 				n(12794, {	-- Stone Guard Zarg <Legacy Weapon Quartermaster>

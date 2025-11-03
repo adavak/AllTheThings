@@ -4652,9 +4652,6 @@ root(ROOTS.Unsorted, {
 				i(245291),	-- Replica Dark Iron Mole Machine
 				i(245293),	-- Collection of Arathi Scripture
 				i(245294),	-- Councilward's Jeweled Goblet
-				i(245295),	-- Literature of Dornogal
-				i(245296),	-- Literature of Taelloch
-				i(245297),	-- Literature of Gundargaz
 				i(245303),	-- Rocket-Unpowered Rocket
 				i(245306),	-- Cozy Four-Pipe Bed
 				i(245307),	-- Undermine Bookcase
@@ -4730,7 +4727,6 @@ root(ROOTS.Unsorted, {
 				i(245521),	-- Stone Zandalari Lamp
 				i(245558),	-- Elaborate Suramar Window
 				i(245560),	-- Meadery Ochre Window
-				i(245561),	-- Ornate Ochre Window
 				i(245603),	-- Gilnean Noble's Trellis
 				i(245604),	-- Arched Rose Trellis
 				i(245605),	-- Gilnean Stone Wall
@@ -4767,7 +4763,6 @@ root(ROOTS.Unsorted, {
 				i(246422),	-- Thelsamar Hanging Lantern
 				i(246424),	-- Square Stormpike Table
 				i(246425),	-- Round Dwarven Table
-				i(246426),	-- Ornate Ironforge Table
 				i(246427),	-- Dilapidated Wildhammer Well
 				i(246428),	-- Overgrown Wildhammer Fountain
 				i(246429),	-- Dark Iron Chandelier
@@ -4777,8 +4772,6 @@ root(ROOTS.Unsorted, {
 				i(246484),	-- Mechagon Hanging Floodlight
 				i(246485),	-- Mechagnome Sustenance Distribution Station
 				i(246487),	-- Gnomish Tesla Coil
-				i(246490),	-- Ironforge Fencepost
-				i(246491),	-- Ironforge Fence
 				i(246497),	-- Small Emergency Warning Lamp
 				i(246498),	-- Emergency Warning Lamp
 				i(246499),	-- Mechagon Eyelight Lamp
@@ -4840,36 +4833,20 @@ root(ROOTS.Unsorted, {
 				i(248009),	-- Suramar Window
 				i(248116),	-- Valdrakken Chandelier
 				i(248332),	-- Stormwind Footlocker
-				i(248333),	-- Stormwind Large Wooden Table
 				i(248334),	-- Stormwind Wooden Bench
 				i(248335),	-- Stormwind Wooden Stool
-				i(248336),	-- Stormwind Wooden Table
 				i(248401),	-- Ornamental Kaldorei Glaive
-				i(248617),	-- Stormwind Keg Stand
-				i(248618),	-- Westfall Woven Basket
-				i(248619),	-- Stormwind Gazebo
-				i(248620),	-- Stormwind Trellis and Basin
-				i(248621),	-- Stormwind Arched Trellis
 				i(248622),	-- Wooden Outhouse
 				i(248660),	-- Stormwind Workbench
 				i(248661),	-- Northshire Scribe's Desk
-				i(248662),	-- Jewelcrafter's Tent
 				i(248663),	-- Wooden Doghouse
-				i(248665),	-- Stormwind Peddler's Cart
 				i(248758),	-- Relaxing Goblin Beach Chair with Cup Gripper
 				i(248759),	-- Amirdrassil Stool
-				i(248794),	-- Elwynn Fence
-				i(248795),	-- Elwynn Fencepost
-				i(248797),	-- City Wanderer's Candleholder
-				i(248798),	-- Northshire Barrel
 				i(248799),	-- Wooden Storage Crate
 				i(248800),	-- Architect's Drafting Table
-				i(248801),	-- Stormwind Weapon Rack
 				i(248808),	-- Nesingwary Elk Trophy
 				i(248810),	-- Rough Wooden Chair
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
-				i(248938),	-- Hooded Iron Lantern
-				i(248939),	-- Stormwind Lamppost
 				i(248985),	-- Tauren Hanging Brazier
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
@@ -4889,7 +4866,6 @@ root(ROOTS.Unsorted, {
 				i(251640),	-- Draenic Forge
 				i(251653),	-- Draenethyst Lamppost
 				i(251654),	-- Large Karabor Fountain
-				i(252010),	-- Ornate Ironforge Bench
 				i(252036),	-- Tidesage's Bookcase
 				i(252386),	-- Admiralty's Upholstered Chair
 				i(252387),	-- Boralus Fence
@@ -4920,9 +4896,7 @@ root(ROOTS.Unsorted, {
 				i(253040),	-- Coreway Sentinel Lamppost
 				i(253162),	-- Earthen Chain Wall Shelf
 				i(253166),	-- Freywold Fountain
-				i(253168),	-- Earthen Storage Crate
 				i(253172),	-- Gundargaz Grand Keg
-				i(253173),	-- Meadery Storage Barrel
 				i(253527),	-- Goldshire Wardrobe
 				i(255641),	-- Undermine Mechanic's Hanging Lamp
 				i(255642),	-- Undermine Alleyway Sconce
@@ -4937,10 +4911,8 @@ root(ROOTS.Unsorted, {
 				i(256328),	-- Leftover Undermine Takeout
 				i(256330),	-- Kharanos Stone Bed
 				i(256331),	-- Shadowforge Lamppost
-				i(256333),	-- Ornate Dwarven Wardrobe
 				i(256354),	-- Qalashi Goulash
 				i(256554),	-- Definitely Real, Not At All Fake Head of the Broodmother
-				i(256673),	-- Stormwind Forge
 				i(256682),	-- Magistrix's Garden Fountain
 				i(256903),	-- Gilnean Banded Crate
 				i(256905),	-- Small Gilnean Table
