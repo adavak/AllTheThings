@@ -690,38 +690,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					}),
 				}),
 				n(ZONE_DROPS, {
-					-- "Mini Bosses"
-					n(52442, {	-- Florawing Hive Queen
-						["questID"] = 53809,	-- KillID
-						["isDaily"] = true,
-						["groups"] = {
-							i(69817),	-- Hive Queen's Honeycomb
-						},
-					}),
-					n(52392, {	-- Gurubashi Master Chef
-						i(69822),	-- Master Chef's Groceries
-					}),
-					n(52440, {	-- Gub
-						i(69823),	-- Gub's Catch
-					}),
-					n(52422, {	-- Kaulema
-						i(69818),	-- Giant Sack
-					}),
-					n(52418, {	-- Lost Offspring of Gahz'ranka
-						i(70719),	-- Water-Filled Gills
-					}),
-					n(52438, {	-- Mortaxx
-					--	i(52722),	-- Maelstrom Crystal
-					}),
-					n(52405, {	-- Mor'Lek
-						i(69818),	-- Giant Sack
-					}),
-					n(52414),	-- Tor-Tun
 					i(69802),	-- Band of the Gurubashi Berserker
 					i(69803),	-- Gurubashi Punisher
 					i(69800),	-- Spiritguard Drape
 					i(69796),	-- Spiritcaller Cloak
 				}),
+				n(52442, {	-- Florawing Hive Queen (unique mob)
+					["questID"] = 53809,	-- KillID
+					["isDaily"] = true,
+					["groups"] = {
+						i(69817),	-- Hive Queen's Honeycomb
+					},
+				}),
+				n(52440, {	-- Gub (unique mob)
+					i(69823),	-- Gub's Catch
+				}),
+				n(52418, {	-- Lost Offspring of Gahz'ranka (elite mob)
+					i(70719),	-- Water-Filled Gills
+				}),
+				n(52414),	-- Tor-Tun (unique mob)
 				e(175, {	-- High Priest Venoxis
 					["crs"] = { 52155 },	-- High Priest Venoxis
 					["groups"] = {
@@ -732,6 +719,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(69601),	-- Serpentine Leggings
 						i(69602),	-- Signet of Venoxis
 					},
+				}),
+				n(52422, {	-- Kaulema (unique mob)
+					i(69818),	-- Giant Sack
 				}),
 				e(176, {	-- Bloodlord Mandokir
 					["crs"] = { 52151 },	-- Bloodlord Mandokir
@@ -744,6 +734,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(69606),	-- Hakkari Loa Drape
 						i(69607),	-- Touch of Discord
 					},
+				}),
+				n(52405, {	-- Mor'Lek (unique mob)
+					i(69818),	-- Giant Sack
 				}),
 				n(CACHE_OF_MADNESS, {
 					--[[ encounter IDs if we're ever able to use an array for them:
@@ -791,6 +784,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							i(69641),	-- Troll Skull Chestplate
 						}),
 					},
+				}),
+				n(52438, {	-- Mortaxx (unique mob)
+				--	i(52722),	-- Maelstrom Crystal
+				}),
+				n(52392, {	-- Gurubashi Master Chef (unique mob)
+					i(69822),	-- Master Chef's Groceries
 				}),
 				e(181, {	-- High Priestess Kilnara
 					["crs"] = { 52059 },	-- High Priestess Kilnara
