@@ -238,7 +238,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["coord"] = { 65.5, 59.4, 714 },	-- Niskara
 								["groups"] = {
 									i(128825, {	-- T'uure, Beacon of the Naaru
-										artifact(118),	-- T'uure, Beacon of the Naaru
+										["ItemAppearanceModifierID"] = 9,
+										["groups"] = { artifact(118) },	-- T'uure, Beacon of the Naaru
 									}),
 								},
 							}),

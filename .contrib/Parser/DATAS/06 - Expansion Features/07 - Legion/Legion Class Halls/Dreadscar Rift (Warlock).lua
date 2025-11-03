@@ -112,6 +112,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 101456 },	-- Ritssyn Flamescowl
 						["coord"] = { 57.3, 60.8, LEGION_THE_UNDERBELLY },
 						["maps"] = { 718 },	-- Dreadscar Rift (Scenario Map)
+						["groups"] = {
+							o(245924, {	-- Tome of Blighted Implements
+								["coord"] = { 57.3, 37.2, 718 },	-- Dreadscar Rift (Scenario Map)
+								["groups"] = { i(132512) },	-- Tome of Blighted Implements (QI!)
+							}),
+						},
 					}),
 					-- Artifact
 					q(40684, {	-- The Tome of Blighted Implements
@@ -181,10 +187,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.8, DEADWIND_PASS },
 							["groups"] = {
-								i(128942, {	-- Ulthalesh, the Deadwind Harvester
-									["ItemAppearanceModifierID"] = 9,
+								o(246021, {	-- Ulthalesh, the Deadwind Harvester
+									["coord"] = { 45.1, 67.8, 46 },	-- Karazhan Catacombs
 									["groups"] = {
-										artifact(294),	-- Ulthalesh, the Deadwind Harvester
+										i(128942, {	-- Ulthalesh, the Deadwind Harvester
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(294),	-- Ulthalesh, the Deadwind Harvester
+											},
+										}),
 									},
 								}),
 							},
@@ -232,9 +243,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								{ 37.7, 31.8, DREADSCAR_RIFT },
 							},
 							["groups"] = {
-								i(136987),	-- Aged Snowplum Brandy (QI!)
-								i(136985),	-- Can of Overheated Oil (QI!)
-								i(136983),	-- Grave Dust (QI!)
+								o(249748, {	-- Aged Snowplum Brandy
+									["coord"] = { 48.6, 38.5, LEGION_DALARAN },
+									["groups"] = { i(136987) },	-- Aged Snowplum Brandy (QI!)
+								}),
+								o(249744, {	-- Can of Overheated Oil
+									["coord"] = { 38.6, 24.9, LEGION_DALARAN },
+									["groups"] = { i(136985) },	-- Can of Overheated Oil (QI!)
+								}),
+								o(249742, {	-- Freshly Dug Grave
+									["coord"] = { 34.7, 38.1, LEGION_DALARAN },
+									["groups"] = { i(136983) },	-- Grave Dust (QI!)
+								}),
 								i(136986),	-- Stag Blood Sample (QI!)
 							},
 						}),
@@ -1015,6 +1035,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 	n(CLASS_HALL, {
 		cl(WARLOCK, bubbleDownSelf({ ["classes"] = { WARLOCK } }, {
 			q(41154),	-- Attacking Revil Kost During Artifact Quest
+			q(42167),	-- Blood Gather Bit -- choose to use dark magic on NPC during q(42128)
 			q(42205),	-- Entrance Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
 			q(40514),	-- Revil convinced
 			q(42203),	-- Ritual Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)

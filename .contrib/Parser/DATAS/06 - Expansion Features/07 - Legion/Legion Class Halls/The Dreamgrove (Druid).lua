@@ -238,8 +238,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42054, {	-- Archimonde, the Defiler
 						["sourceQuests"] = { 42053 },	-- The War of the Ancients
-						["provider"] = { "n", 107212 },	-- Skylord Omnuron
-						["coord"] = { 53.7, 33.9, 760 },
+						["qgs"] = {
+							107132,	-- Keeper Remulos
+							107212,	-- Emerald Dryad
+							107213,	-- Guardian of the Dream
+							107214,	-- Guardian of the Dream
+							107215,	-- Guardian of the Dream
+						},
+						["coord"] = { 61.6, 65.6, 760 },
 					}),
 					q(41332, {	-- Ascending The Circle
 						["sourceQuests"] = { 41255 },	-- Sowing The Seed

@@ -143,6 +143,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42762 },	-- The Wanderer's Companion
 							["provider"] = { "n", 108700 },	-- The Monkey King
 							["coord"] = { 41.6, 27.4, THE_JADE_FOREST },
+							["groups"] = {
+								o(251337, {	-- Barrel of Odd Smelling Brew
+									["coord"] = { 51.5, 64.5, VALLEY_OF_THE_FOUR_WINDS },
+									["groups"] = { i(138624) },	-- Odd Smelling Brew (QI!)
+								}),
+							},
 						}),
 						q(42767, {	-- The Riddle of the Land
 							["sourceQuests"] = { 42762 },	-- The Wanderer's Companion

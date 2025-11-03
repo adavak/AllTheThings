@@ -431,7 +431,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			expansion(EXPANSION.LEGION, patch(0,3), bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 				q(39842),	-- One Mage's Trash
 				q(39843),	-- The Muck Stops Here
-				q(42167),	-- Blood Gather Bit
 				q(42480),	-- Assn Rogue - Flavor Event 02 (Alliance)
 			})),
 
