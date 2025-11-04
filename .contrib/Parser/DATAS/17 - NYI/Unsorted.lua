@@ -3985,7 +3985,6 @@ root(ROOTS.Unsorted, {
 			i(264164),	-- Galactic Gladiator's Tabard
 			i(264165),	-- Tiff
 			i(264166),	-- Void Artifact Shard
-			i(264168),	-- Cenarion Round Rug
 			i(264182),	-- Kelum'ko's Generous Aromatic Gift
 			i(264183),	-- Kelum'ko's Generous Aromatic Gift
 			i(264184),	-- Arsenal: Heirlooms of Atal'Aman
@@ -4599,9 +4598,6 @@ root(ROOTS.Unsorted, {
 				i(258557),	-- Beloved Raptor Plushie
 				i(258558),	-- Sandfury Diplomat's Banner
 				i(258561),	-- Kyrian Aspirant's Rolled Cushion
-				i(238859),	-- Cenarion Privacy Screen
-				i(238860),	-- Deluxe Val'sharah Bed
-				i(238861),	-- Cenarion Rectangular Rug
 				i(238862),	-- [DNT] Cenarion Round Rug - do not use - new asset
 				i(238863),	-- Kaldorei Desk
 				i(238975),	-- Reliquary Telescope
@@ -4627,7 +4623,6 @@ root(ROOTS.Unsorted, {
 				i(244320),	-- Youngling's Courser Toys
 				i(244321),	-- Orcish Lumberjack's Stool
 				i(244322),	-- Frostwolf Banded Stool
-				i(244536),	-- Nightborne Fireplace
 				i(244653),	-- Orcish Scribe's Drafting Table
 				i(244654),	-- Small Purple Suramar Seat Cushion
 				i(244676),	-- Teal Suramar Seat Cushion
@@ -4637,7 +4632,6 @@ root(ROOTS.Unsorted, {
 				i(245258),	-- Val'sharah Bookcase
 				i(245259),	-- Small Val'sharah Bookcase
 				i(245260),	-- Kaldorei Chef's Table
-				i(245261),	-- Kaldorei Washbasin
 				i(245263),	-- Zocalo Drinks
 				i(245270),	-- Thunder Totem Kiln
 				i(245275),	-- Rolled Scroll
@@ -4733,11 +4727,8 @@ root(ROOTS.Unsorted, {
 				i(245655),	-- Filigree Moon Lamp
 				i(245698),	-- Kaldorei Stone Fence
 				i(245699),	-- Kaldorei Stone Fencepost
-				i(245700),	-- Kaldorei Cushioned Seat
 				i(245701),	-- Elven Round Table
-				i(245702),	-- Kaldorei Wall Shelf
 				i(245704),	-- Bel'ameth Barrel
-				i(245739),	-- Crescent Moon Lamppost
 				i(245984),	-- Sagehold Window
 				i(246001),	-- Orange Suramar Seat Cushion
 				i(246002),	-- Red Suramar Seat Cushion
@@ -4784,7 +4775,6 @@ root(ROOTS.Unsorted, {
 				i(246845),	-- Tome of Shadowforge Cunning
 				i(246847),	-- Tome of Draenei Faith
 				i(246848),	-- Scribe's Working Notes
-				i(246850),	-- "Fruit of the Arcan'dor" Painting
 				i(246860),	-- Tome of Forsaken Resilience
 				i(246863),	-- Open Tome of the Dragon's Dedication
 				i(246864),	-- Tome of the Lost Dragon
@@ -4801,21 +4791,15 @@ root(ROOTS.Unsorted, {
 				i(247741),	-- Kotmogu Orb of Power
 				i(247842),	-- Nightborne Merchant's Stall
 				i(247843),	-- Deluxe Suramar Sleeper
-				i(247844),	-- Suramar Library
-				i(247845),	-- Nightborne Bench
-				i(247847),	-- Arcwine Counter
 				i(247855),	-- Pandaren Lacquered Crate
 				i(247858),	-- Shaohao Ceremonial Bell
 				i(247908),	-- Nightborne Lantern
-				i(247910),	-- Suramar Sconce
 				i(247911),	-- Shal'dorei Seat
 				i(247912),	-- Large Traditional Shal'dorei Rug
 				i(247914),	-- Covered Ornate Suramar Table
 				i(247915),	-- Square Suramar Table
 				i(247917),	-- Covered Small Suramar Table
 				i(247919),	-- Traditional Shal'dorei Rug
-				i(247921),	-- Nightborne Wall Shelf
-				i(247924),	-- Suramar Street Light
 				i(248009),	-- Suramar Window
 				i(248116),	-- Valdrakken Chandelier
 				i(248334),	-- Stormwind Wooden Bench
@@ -4842,7 +4826,6 @@ root(ROOTS.Unsorted, {
 				i(251477),	-- Draenic Wooden Table
 				i(251478),	-- Square Draenic Table
 				i(251480),	-- Draenic Wooden Wall Shelf
-				i(251494),	-- Moon-Blessed Barrel
 				i(251544),	-- Telredor Recliner
 				i(251547),	-- Draenei Farmer's Trellis
 				i(251548),	-- Draenic Fence

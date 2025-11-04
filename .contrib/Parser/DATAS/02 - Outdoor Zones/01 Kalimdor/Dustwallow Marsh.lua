@@ -3689,6 +3689,16 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			n(VENDORS, {
+				n(23995, {	-- Axle <Innkeeper>
+					["coord"] = { 41.8, 74.0, DUSTWALLOW_MARSH },
+					["timeline"] = { ADDED_2_3_0 },
+					["groups"] = {
+						i(256554, {	-- Definitely Real, Not At All Fake Head of the Broodmother (DECOR!)
+							["sourceAchievement"] = 4405,	-- More Dots! (25 player)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
+				}),
 				-- #if BEFORE CATA
 				n(13476, {	-- Balai Lok'Wein <Potions, Scrolls and Reagents>
 					["coord"] = { 36.4, 30.4, DUSTWALLOW_MARSH, },

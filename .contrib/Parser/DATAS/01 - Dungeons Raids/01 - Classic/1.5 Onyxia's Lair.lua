@@ -623,7 +623,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["groups"] = {
 							ach(4406),	-- Many Whelps! Handle It! (25 player)
 							ach(4405, {	-- More Dots! (25 player)
-								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Head of the Broodmother (DECOR!)
+								i(244852, {["timeline"] = { ADDED_11_2_7 }}),	-- Head of the Broodmother (DECOR!)
 							}),
 							ach(4397),	-- Onyxia's Lair (25 player)
 							ach(4407),	-- She Deep Breaths More (25 player)

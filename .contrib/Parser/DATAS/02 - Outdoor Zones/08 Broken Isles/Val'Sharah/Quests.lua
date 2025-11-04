@@ -129,6 +129,9 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["coord"] = { 63.7, 49.9, 643 },	-- Sleeper's Barrow
 					["groups"] = {
+						i(245702, {	-- Kaldorei Wall Shelf (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(121586),	-- Nightvale Cowl
 						i(121593),	-- Nightvale Robe
 						i(121574),	-- Rooksguard Breastplate
@@ -260,6 +263,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 					["provider"] = { "n", 92680 },	-- Lyanis Moonfall
 					["coord"] = { 51.4, 56.9, VALSHARAH },
+					["groups"] = {
+						i(245700, {	-- Kaldorei Cushioned Seat (DECOR!)
+							["timeline"] = { ADDED_11_2_7 }
+						}),
+					},
 				}),
 				q(38595, {	-- Malfurion's Fury
 					["sourceQuests"] = { 38663 },	-- The Die is Cast
@@ -425,6 +433,9 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "o", 248534 },	-- The Tears of Elune
 					["coord"] = { 53.7, 55.8, VALSHARAH },
 					["groups"] = {
+						i(245739, {	-- Crescent Moon Lamppost (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(139043),	-- Tear of Elune (QI!)
 						i(130001),	-- Shaladrassil Cuirass
 						i(129993),	-- Shaladrassil Tunic

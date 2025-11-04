@@ -19,7 +19,7 @@ root(ROOTS.Zones, {
 						i(141205),	-- Souvenir Murloc
 						i(140671),	-- Souvenir Raptor
 						i(130151, {	-- The "Devilsaur" Lunchbox (TOY!)
-							["cost"] = { { "c", 1155, 1000 }, },	-- 1,000x Ancient Mana
+							["cost"] = {{ "c", 1155, 1000 }},	-- 1,000x Ancient Mana
 						}),
 					},
 				}),
@@ -34,11 +34,25 @@ root(ROOTS.Zones, {
 							i(121738, {	-- Irongrove Refugee Boots
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(247921, {	-- Nightborne Wall Shelf (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",   2400000 },	-- 240g
+									{ "c", 1220, 500 },	-- 500x Order Resources
+								},
+							}),
 							i(121736, {	-- Nightfall Slipeprs
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(140015, {	-- Scavenged Felsoul Sabatons
 								["cost"] = 5000000,	-- 500g
+							}),
+							i(247910, {	-- Suramar Sconce (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",   2400000 },	-- 240g
+									{ "c", 1220, 500 },	-- 500x Order Resources
+								},
 							}),
 						}, {	-- Honored
 							i(139683, {	-- Battlelord's Gauntlets
@@ -47,9 +61,7 @@ root(ROOTS.Zones, {
 							}),
 							i(140218, {	-- Boon of the Manaseeker
 								["cost"] = 1000000,	-- 100g
-								["groups"] = {
-									i(140226),	-- Mana-Tinged Pack
-								},
+								["groups"] = { i(140226) },	-- Mana-Tinged Pack
 							}),
 							i(139600, {	-- Braided Manastring Cinch
 								["cost"] = 10000000,	-- 1,000g
@@ -99,10 +111,31 @@ root(ROOTS.Zones, {
 								["cost"] = 5000000,	-- 500g
 							}),
 							i(140324),	-- Mobile Telemancy Beacon (TOY!)
+							i(247845, {	-- Nightborne Bench (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",   4000000 },	-- 400g
+									{ "c", 1220, 750 },	-- 750x Order Resources
+								},
+							}),
+							i(247844, {	-- Suramar Library (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",   4000000 },	-- 400g
+									{ "c", 1220, 750 },	-- 750x Order Resources
+								},
+							}),
 							i(140746, {	-- Treasure Map: Suramar
 								["filterID"] = CONSUMABLES,
 							}),
 						}, {	-- Revered
+							i(247847, {	-- Arcwine Counter (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",    5600000 },	-- 560g
+									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+								},
+							}),
 							i(136899, {	-- Extinguished Eye (PET!)
 								["cost"] = 5000000,	-- 500g
 							}),
@@ -116,7 +149,29 @@ root(ROOTS.Zones, {
 								["cost"] = 20000000,	-- 2,000g
 								["timeline"] = { ADDED_7_1_0 },
 							}),
+							i(247924, {	-- Suramar Street Light (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",    5600000 },	-- 560g
+									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+								},
+							}),
 						}, {	-- Exalted
+							i(246850, {	-- "Fruit of the Arcan'dor" Painting (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",    8000000 },	-- 800g
+									{ "c", 1220, 2000 },	-- 2,000x Order Resources
+								},
+							}),
+							i(245448, {	-- "Night on the Jeweled Estate" Painting (DECOR!)
+								["sourceAchievement"] = 11124,	-- Good Suramaritan
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",    5600000 },	-- 560g
+									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+								},
+							}),
 							i(139768, {	-- Amice of the Black Harvest
 								["classes"] = { WARLOCK },
 								["cost"] = 5000000,	-- 500g
@@ -160,6 +215,13 @@ root(ROOTS.Zones, {
 								["classes"] = { MAGE },
 								["cost"] = 5000000,	-- 500g
 							}),
+							i(244536, {	-- Nightborne Fireplace (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g",    5600000 },	-- 560g
+									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+								},
+							}),
 							i(140575),	-- Nightfallen Tabard
 							i(137973, {	-- Pattern: Imbued Silkweave Bracers [Rank 3] (RECIPE!)
 								["cost"] = 30000000,	-- 3,000g
@@ -195,9 +257,7 @@ root(ROOTS.Zones, {
 				}),
 				n(107467, {	-- Jacin
 					["coord"] = { 49.0, 81.6, SURAMAR },
-					["groups"] = {
-						i(137467),	-- Shimmerfield Crystal
-					},
+					["groups"] = { i(137467) },	-- Shimmerfield Crystal
 				}),
 				n(113843, {	-- Kieule <Souvenirs>
 					["coord"] = { 50.4, 53.0, SURAMAR },
@@ -207,7 +267,7 @@ root(ROOTS.Zones, {
 						i(140671),	-- Souvenir Raptor
 						--]]
 						i(130151, {	-- The "Devilsaur" Lunchbox (TOY!)
-							["cost"] = { { "c", 1155, 1000 }, },	-- 1,000x Ancient Mana
+							["cost"] = {{ "c", 1155, 1000 }},	-- 1,000x Ancient Mana
 						}),
 					},
 				}),
@@ -215,16 +275,16 @@ root(ROOTS.Zones, {
 					["coord"] = { 40.2, 69.6, SURAMAR },
 					["groups"] = {
 						i(127277, {	-- Imbued Silkweave Cover [Rank 1] (RECIPE!)
-							["cost"] = { { "i", 124437, 100 }, },	-- 100x Shal'dorei Silk
+							["cost"] = {{ "i", 124437, 100 }},	-- 100x Shal'dorei Silk
 						}),
 						i(127278, {	-- Imbued Silkweave Drape [Rank 1] (RECIPE!)
-							["cost"] = { { "i", 124437, 100 }, },	-- 100x Shal'dorei Silk
+							["cost"] = {{ "i", 124437, 100 }},	-- 100x Shal'dorei Silk
 						}),
 						i(127280, {	-- Imbued Silkweave Flourish [Rank 1] (RECIPE!)
-							["cost"] = { { "i", 124437, 100 }, },	-- 100x Shal'dorei Silk
+							["cost"] = {{ "i", 124437, 100 }},	-- 100x Shal'dorei Silk
 						}),
 						i(127279, {	-- Imbued Silkweave Shade [Rank 1] (RECIPE!)
-							["cost"] = { { "i", 124437, 100 }, },	-- 100x Shal'dorei Silk
+							["cost"] = {{ "i", 124437, 100 }},	-- 100x Shal'dorei Silk
 						}),
 					},
 				}),
@@ -232,15 +292,13 @@ root(ROOTS.Zones, {
 					["coord"] = { 49.4, 75.8, SURAMAR },
 					["groups"] = {
 						i(127025, {	-- Imbued Silkweave Hood [Rank 1] (RECIPE!)
-							["cost"] = { { "i", 124437, 100 }, },	-- 100x Shal'dorei Silk
+							["cost"] = {{ "i", 124437, 100 }},	-- 100x Shal'dorei Silk
 						}),
 					},
 				}),
 				n(112226, {	-- Markus Hjolbruk
 					["coord"] = { 71.6, 48.8, SURAMAR },
-					["groups"] = {
-						i(133819),	-- Recipe: Koi-Scented Stormray [Rank 1] (RECIPE!)
-					},
+					["groups"] = { i(133819) },	-- Recipe: Koi-Scented Stormray [Rank 1] (RECIPE!)
 				}),
 				n(112059, {	-- Sasunne Dameuse <Souvenirs>
 					["coord"] = { 51.2, 50.0, SURAMAR },
@@ -251,7 +309,7 @@ root(ROOTS.Zones, {
 						i(140671),	-- Souvenir Raptor
 						--]]
 						i(130151, {	-- The "Devilsaur" Lunchbox (TOY!)
-							["cost"] = { { "c", 1155, 1000 }, },	-- 1,000x Ancient Mana
+							["cost"] = {{ "c", 1155, 1000 }},	-- 1,000x Ancient Mana
 						}),
 					},
 				}),
@@ -348,9 +406,7 @@ root(ROOTS.Zones, {
 						i(147768, {	-- Suramarian Sapphire (QI!)
 							["b"] = 1,	-- Force BoP since this is only available as a quest item
 							["classes"] = { PALADIN },
-							["cost"] = {
-								{ "c", 1155, 500 },	-- 500x Ancient Mana
-							},
+							["cost"] = {{ "c", 1155, 500 }},	-- 500x Ancient Mana
 						}),
 					},
 				}),
