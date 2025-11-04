@@ -386,6 +386,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(242617, {	-- Curious Simulacrum (QI!)
 					i(247808),	-- Bronze Simulacrum (QS!)
 				}),
+				i(248141, {	-- Curious Simulacrum
+					i(248140),	-- Bronze Simulacrum
+				}),
 				-- Exo Note: Simulacrum is obtained during the regular Order Hall quest chain for the Artifact Weapon that you have already selected and obtained during the quest 'Something Borrowed'.
 				-- eg. If a Paladin, takes Ashbringer from 'Something Borrowed', instead of Ashbringer he will receive a Curious Simulacrum during the regular Class Quest for the weapon.
 			},

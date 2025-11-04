@@ -5277,8 +5277,6 @@ root(ROOTS.Unsorted, {
 			i(248092),	-- Blinky
 			i(248093),	-- Ensemble: Dreadlord's Shadowsbane Regalia
 			i(248094),	-- Ensemble: Waveborne Diplomat's Regalia
-			i(248140),	-- Bronze Simulacrum
-			i(248141),	-- Curious Simulacrum
 			i(248219),	-- [DNT] Heroic Normal Token
 			i(248220),	-- [DNT] Heroic Rare Token
 			i(248221),	-- [DNT] Heroic Rare Elite Token

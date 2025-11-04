@@ -610,6 +610,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 104732 },	-- Kira Iresoul
 						["coord"] = { 54.1, 34.9, DREADSCAR_RIFT },
+						["groups"] = { i(138991) },	-- Demon Blood (QI!)
 					}),
 					q(44682, {	-- Unparalleled Power
 						["sourceQuests"] = {
@@ -633,11 +634,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41785 },	-- Finding Fizzlebang
 						["provider"] = { "n", 104855 },	-- Lulubelle Fizzlebang
 						["coord"] = { 39.3, 42.2, STORMHEIM },
+						["groups"] = { i(136363) },	-- Galius' Confession (QI!)
 					}),
 					q(41787, {	-- Someone Else's Mess
 						["sourceQuests"] = { 41785 },	-- Finding Fizzlebang
 						["provider"] = { "n", 104855 },	-- Lulubelle Fizzlebang
 						["coord"] = { 39.3, 42.2, STORMHEIM },
+						["groups"] = { i(141865) },	-- Orb of Banishment (QI!)
 					}),
 					q(41793, {	-- Lulubelle on Loan
 						["sourceQuests"] = {

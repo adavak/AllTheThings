@@ -2137,6 +2137,7 @@ MobileDB.GameObject = {
 	[537690] = true,	-- Prosperity Pebble (q: 90770)
 	[540500] = true,	-- Brewfest Resources
 	[543115] = true,	-- Funny Candle
+	[543116] = true,	-- Funny Candle
 	[547532] = true,	-- Ky'veza's Etheric Cache
 	[549326] = true,	-- Phase-Lost Exchequer
 	[549348] = true,	-- Stove
