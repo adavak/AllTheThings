@@ -137,7 +137,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				filter(CLOAKS, {
 					i(240260),	-- Cape of Devouring Night
 					i(241223),	-- Cloak of Devouring Night
-					i(241758),	-- Draping Shawl of Devouring Night
 					i(240604),	-- Lunarblight Leather Cloak
 					i(240602),	-- Lunarblight Leather Shroud
 					i(240603),	-- Lunarblight Leather Wrap
