@@ -910,7 +910,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			-- #if AFTER 10.1.5
 			header(HEADERS.Achievement, 18372, {	-- Wards of the Dread Citadel
-				["description"] = "With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStage 1: Memory of Scholomance, this unlocks Old Scholomance on an accound-wide basis, see the instructions in it's header in Western Plaguelands.\n\nStage 2: Obtain your first Argent Dawn Commission, see the instructions in the subheader below.\n\nHereafter any of your characters need to have an Argent Dawn Commission equipped for any progression.\n\nStage 3: Experience Sleight of Hand, see the instructions in the subheader below.\n\nThe stages 4-6 takes place in Naxxramas. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.",
+				["description"] = "With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStage 1: Memory of Scholomance, this unlocks Old Scholomance on an accound-wide basis, see the instructions in it's header in Western Plaguelands.\n\nStage 2: Obtain your first Argent Dawn Commission, see the instructions in the subheader below.\n\nHereafter any of your characters may need to have an Argent Dawn Commission equipped for any progression if the game does not automatically provide you with a substituting buff.\n\nStage 3: Experience Sleight of Hand, see the instructions in the subheader below.\n\nThe stages 4-6 takes place in Naxxramas. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.",
 				["groups"] = {
 					header(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
 						["groups"] = {
@@ -1057,7 +1057,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "See Stage 6 'Forgotten Knowledge' in Naxxramas.",
 						["groups"] = {
 							n(16365, {	-- Master Craftsman Omarion <Brotherhood of the Light>
-								["description"] = "To unlock this vendor you are required to complete the 'Wards of the Dred Citadel' stage 6 named 'Forgotten Knowledge in Naxxramas.",
+								["description"] = "To unlock this vendor you are required to complete the 'Wards of the Dread Citadel' stage 6 named 'Forgotten Knowledge in Naxxramas.",
 								["sourceQuest"] = 76290,	-- Omarion's Second Handbook
 								["coord"] = { 75.6, 52.0, EASTERN_PLAGUELANDS },
 								["groups"] = sharedData({
@@ -1100,6 +1100,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								}),
 							}),
 						},
+					}),
+					n(COMMON_BOSS_DROPS, {
+						i(206374, {	-- Invader's Scourgestone
+							["description"] = "Although this is an explicit drop from bosses in Old Scholomance and Stratholme, it will not drop from indoor bosses in Stratholme living, AKA the Scarlet section of the dungeon.",
+							["maps"] = { STRATHOLME },
+							["timeline"] = { ADDED_10_1_5 },
+						}),
 					}),
 					n(QUESTS, {
 						q(76268, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Corruptor's Scourgestones
@@ -1183,12 +1190,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									i(207575),	-- Ancient Technique: Wanderer's Guide (RECIPE!)
 								},
 							})),
-						}),
-					}),
-					n(ZONE_DROPS, {
-						i(206374, {	-- Invader's Scourgestone
-							["maps"] = { STRATHOLME },
-							["timeline"] = { ADDED_10_1_5 },
 						}),
 					}),
 					-- Nax portal: 35.7, 23.1
@@ -3180,6 +3181,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["cr"] = 8529,	-- Scourge Champion
 						}),
+						i(13159),	-- Bone Dust
 					},
 				}),
 				q(27389, {	-- Marauders of Darrowshire
@@ -3196,6 +3198,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["cr"] = 8529,	-- Scourge Champion
 						}),
+						i(13159, {["timeline"] = { ADDED_1_11_1 }}),	-- Bone Dust
 					},
 				}),
 				q(5510, {	-- Minion's Scourgestones
