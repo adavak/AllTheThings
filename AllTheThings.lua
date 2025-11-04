@@ -2752,7 +2752,8 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 				-- first merge all root groups into the list
 				local groupMaps
 				for i=1,#rootGroups do
-					groupMaps = rootGroups[i].maps
+					group = rootGroups[i]
+					groupMaps = group.maps
 					if groupMaps then
 						for i=1,#groupMaps do
 							currentMaps[groupMaps[i]] = true;
