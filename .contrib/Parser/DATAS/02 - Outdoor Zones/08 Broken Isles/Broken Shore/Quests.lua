@@ -425,7 +425,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 119886 },	-- Excavator Karla
 				["coord"] = { 39.6, 71.7, BROKEN_SHORE },
 				["groups"] = {
-					i(146955),	-- Potentially Precious Gem (QI!)
+					o(268472, {	-- Spider-Covered Treasure Chest
+						["coords"] = { 43.4, 31.2, BROKEN_SHORE },
+						["g"] = { i(146955) },	-- Potentially Precious Gem (QI!)
+					}),
 				},
 			}),
 			q(46246, {	-- Strike Them Down

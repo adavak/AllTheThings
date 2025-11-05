@@ -1319,6 +1319,7 @@ MobileDB.GameObject = {
 	[266703] = true,	-- Energy Disruptor (q:44964)
 	[266704] = true,	-- Energy Disruptor (q:44964)
 	[268380] = true,	-- Legion Cage (q:46262)
+	[268436] = true,	-- Unearthed Relic (Broken Shore)
 	[268440] = true,	-- Highborne Archaeology Find
 	[268450] = true,	-- Highmountain Tauren Archaeology Find
 	[268451] = true,	-- Demonic Archaeology Find
