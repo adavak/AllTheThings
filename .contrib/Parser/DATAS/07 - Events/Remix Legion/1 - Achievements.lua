@@ -8,7 +8,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42503),	-- Artifact, Remixed III
 		ach(42565, {	-- Bringing Order to the Isles
 		-- Added with Phase3 Legion Remix Release -- Gold 5th Nov 2025
-			["description"] = "Requires completion of every Classes' Order Hall, including the Broken Shore."
+			["description"] = "Requires completion of all Class 12 Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.",
 		}),
 		ach(42624, {	-- Broken Isles World Quests I
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
