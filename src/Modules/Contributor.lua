@@ -1301,6 +1301,7 @@ MobileDB.GameObject = {
 	[266009] = true,	-- Telemancy Beacon (q:44740)
 	[266029] = true,	-- Felsoul Cage (q:44727)
 	[266032] = true,	-- Nightborne Arms Cache (q:44769)
+	[266081] = true,	-- Thorim's Beacon (q:44787)
 	[266126] = true,	-- "Your Ancestors"
 	[266127] = true,	-- "Just wanted you to feel at home, mon."
 	[266128] = true,	-- "We found your mounts..."
