@@ -59071,7 +59071,8 @@ i(246727,{b=1})}}),
 q(91479,{coords={a[822]},lvl=80,minReputation=a[633],qgs=a[590]}),
 q(91530,{coords={a[822]},lvl=80,minReputation=a[633],qgs=a[590],g={
 p(4832,{b=1,itemID=244913,minReputation=a[633],npcID=245479,spellID=1238275})}}),
-mnt(1233542,{b=1,coords={a[822]},itemID=242728,lvl=10,minReputation=a[634],providers={a[12]}}),
+q(91954,{coords={a[822]},lvl=80,minReputation=a[634],qgs={254344},g={
+mnt(1233542,{b=1,itemID=242728,lvl=10,minReputation=a[634]})}}),
 title(640,{coords={a[822]},minReputation=a[634],providers={a[12]}}),
 cs(1239155,{coords={a[822]},minReputation={2736,15},providers={a[12]}})}),
 h(-58,{
