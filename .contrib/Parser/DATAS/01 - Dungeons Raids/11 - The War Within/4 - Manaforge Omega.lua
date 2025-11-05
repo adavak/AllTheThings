@@ -536,13 +536,17 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}, {	-- RENOWN 12 --
 						q(91529, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Nexus-King Salhadaar
 					}, {	-- RENOWN 13 --
-						q(91479, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines II_
+						q(91479, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines IV
 						q(91530, {	-- Seeing Eye to Eye
 							["timeline"] = { ADDED_11_2_0 },
 							["groups"] = { i(244913) },	-- Looker Gaz'kreth Jr. (PET!)
 						}),
 					}, {	-- RENOWN 14 --
-						i(242728),	-- The Bone Freezer (MOUNT!)
+						q(91954, {	-- Freezing Over
+							["provider"] = { "n", 254344 },	-- Zo'turu
+							["timeline"] = { ADDED_11_2_0 },
+							["groups"] = { i(242728) },	-- The Bone Freezer (MOUNT!)
+						}),
 						title(640),	-- Star Savior <Name>
 					}, {	-- RENOWN 15 --
 						spell(1239155),	-- Path of the All-Devouring
