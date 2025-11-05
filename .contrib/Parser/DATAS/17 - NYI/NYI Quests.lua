@@ -8663,6 +8663,8 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			}),
 			q(85725),	-- (Argent Dawn Valor Token)
 			q(85726),	-- (Argent Dawn Valor Token)
+			q(85727),	-- (Death's Bargaining Chip)
+			q(85728),	-- (Death's Bargaining Chip)
 		})),
 
 		-- 11.1.0
