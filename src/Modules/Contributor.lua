@@ -440,6 +440,7 @@ MobileDB.Creature = {
 	[113857] = true,	-- Light's Heart
 	[114282] = true,	-- Dread Commander Thalanor
 	[115785] = true,	-- Direbeak Hatchling
+	[116737] = true,	-- Minerva Ravensorrow
 	[117292] = true,	-- Navarrogg
 	[117475] = true,	-- Lord Darius Crowley
 	[126576] = true,	-- Razgaji (You can accept quests as he's walking back to his start position)
