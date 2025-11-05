@@ -587,6 +587,7 @@ root(ROOTS.Zones, {
 						q(45175, {	-- Soul Prism of the Illidari
 							["sourceQuest"] = 45174,	-- The Hunt for Illidan Stormrage
 							["provider"] = { "n", 89398 },	-- Allari the Souleater <Illidari>
+							["coord"] = { 43.3, 43.2, AZSUNA },
 							["groups"] = {
 								i(139930),	-- Belt of the Netherwalker
 								i(139978),	-- Boots of the Illidari Crusade
@@ -601,6 +602,7 @@ root(ROOTS.Zones, {
 						q(45176, {	-- Trial of Valor: The Once and Future Lord of Shadows
 							["sourceQuest"] = 45175,	-- Soul Prism of the Illidari
 							["provider"] = { "n", 89398 },	-- Allari the Souleater <Illidari>
+							["coord"] = { 43.3, 43.2, AZSUNA },
 							["maps"] = { 703, 704, 705 },	-- Halls of Valor
 							["groups"] = {
 								i(143661),	-- Soul Prism of the Illidari (QI!)
