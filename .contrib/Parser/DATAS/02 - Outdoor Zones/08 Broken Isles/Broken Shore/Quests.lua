@@ -227,7 +227,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 119886 },	-- Excavator Karla
 				["coord"] = { 39.6, 71.7, BROKEN_SHORE },
 				["groups"] = {
-					i(146956),	-- Promising Treasure Key (QI!)
+					o(268510, {	-- Dusty Treasure Chest
+						["coords"] = { 49.8, 46.7, BROKEN_SHORE },
+						["g"] = { i(146956) },	-- Promising Treasure Key (QI!)
+					}),
 					i(146664),	-- Finely-Jeweled Key
 				},
 			}),
