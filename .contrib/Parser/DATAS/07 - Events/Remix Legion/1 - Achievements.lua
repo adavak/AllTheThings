@@ -7,7 +7,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42502),	-- Artifact, Remixed II
 		ach(42503),	-- Artifact, Remixed III
 		ach(42565, {	-- Bringing Order to the Isles
-			["timeline"] = { CREATED_11_2_5 },	-- Not ingame yet. Decent chance with 11.2.7 maybe? Gold 20th October 2025
+		-- Added with Phase3 Legion Remix Release -- Gold 5th Nov 2025
+			["description"] = "Requires completion of every Classes' Order Hall, including the Broken Shore."
 		}),
 		ach(42624, {	-- Broken Isles World Quests I
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
