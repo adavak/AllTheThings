@@ -95,6 +95,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 
 		------ Misc ------
 		i(251562),	-- Tome of Combat Training
+		i(263226),	-- Infinite Knowledge
 
 		filter(CONSUMABLES, {
 			i(238726),	-- Drake Treat

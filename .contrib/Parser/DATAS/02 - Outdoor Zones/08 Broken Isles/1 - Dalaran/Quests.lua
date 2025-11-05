@@ -202,7 +202,10 @@ root(ROOTS.Zones, {
 						105081,	-- Archmage Kalec
 						115467,	-- Archmage Kalec
 					},
-					["coord"] = { 28.7, 49.9, LEGION_DALARAN },
+					["coords"] = {
+						{ 23.0, 40.6, LEGION_DALARAN },
+						{ 28.7, 49.9, LEGION_DALARAN },
+					},
 					["classes"] = { WARRIOR },
 				}),
 				q(47051, {	-- Assassination: Fate of the Tideskorn
@@ -601,7 +604,10 @@ root(ROOTS.Zones, {
 						90418,	-- Archmage Modera
 						115465,	-- Archmage Modera
 					},
-					["coord"] = { 28.5, 48.9, LEGION_DALARAN },
+					["coords"] = {
+						{ 22.6, 39.2, LEGION_DALARAN },
+						{ 28.5, 48.9, LEGION_DALARAN },
+					},
 					["classes"] = { WARRIOR },
 				}),
 				q(45413, {	-- Gathering Information
@@ -943,7 +949,10 @@ root(ROOTS.Zones, {
 						90431,	-- Archmage Ansirem Runeweaver
 						115466,	-- Archmage Ansirem Runeweaver
 					},
-					["coord"] = { 28.5, 49.5, LEGION_DALARAN },
+					["coords"] = {
+						{ 22.8, 40.2, LEGION_DALARAN },
+						{ 28.5, 49.5, LEGION_DALARAN },
+					},
 					["classes"] = { WARRIOR },
 				}),
 				q(45910, {	-- Raest's Gift

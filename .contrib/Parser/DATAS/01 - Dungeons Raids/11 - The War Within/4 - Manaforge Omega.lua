@@ -543,7 +543,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						}),
 					}, {	-- RENOWN 14 --
 						q(91954, {	-- Freezing Over
-							["provider"] = { "n", 254344 },	-- Zo'turu
 							["timeline"] = { ADDED_11_2_0 },
 							["groups"] = { i(242728) },	-- The Bone Freezer (MOUNT!)
 						}),

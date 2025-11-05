@@ -5,9 +5,9 @@
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(BROKEN_SHORE, {
-			n(WORLD_QUESTS, sharedData({ ["isWorldQuest"] = true, 
+			n(WORLD_QUESTS, sharedData({ ["isWorldQuest"] = true,
 				-- #if BEFORE DF
-				["lvl"] = 45, 
+				["lvl"] = 45,
 				-- #endif
 			},{
 				q(46209, {	-- A Flare In The Dark
@@ -79,18 +79,25 @@ root(ROOTS.Zones, {
 				q(45934),	-- Fowl Play
 				q(46072),	-- Full Fel
 				q(46198, {	-- Gems of Destruction
-					["groups"] = {
-						i(144362),	-- Pulsating Gem (QI!)
-					},
+					i(144362),	-- Pulsating Gem (QI!)
 				}),
 				q(46212),	-- Get Them Up
 				q(40390, {	-- Hallowed Ground
 					["classes"] = { PALADIN },
 				}),
 				q(45985, {	-- Hellish Scavengers
-					["groups"] = {
-						i(144240),	-- Ravaged Supplies (QI!)
-					},
+					o(267655, {	-- Ravaged Supplies
+						["coords"] = {
+							{ 52.4, 55.4, BROKEN_SHORE },
+							{ 53.9, 58.6, BROKEN_SHORE },
+							{ 54.3, 56.7, BROKEN_SHORE },
+							{ 54.4, 58.0, BROKEN_SHORE },
+							{ 55.0, 56.7, BROKEN_SHORE },
+							{ 56.7, 55.4, BROKEN_SHORE },
+							{ 56.7, 56.8, BROKEN_SHORE },
+						},
+						["groups"] = { i(144240) },	-- Ravaged Supplies (QI!)
+					}),
 				}),
 				q(45541),	-- How Do YOU Like It?!
 				q(46066),	-- I Fel Bat For You
@@ -138,9 +145,12 @@ root(ROOTS.Zones, {
 				q(46180),	-- Power of Our Enemy
 				q(45929),	-- Purging the Flames
 				q(46075, {	-- Relic Hunting
-					["groups"] = {
+					o_repeated({	-- Unearthed Antiquities
 						i(143851),	-- Precious Antiquity (QI!)
-					},
+						o(267768),	-- Precious Antiquity
+						o(267769),	-- Precious Antiquity
+						o(267770),	-- Precious Antiquity
+					}),
 				}),
 				q(46076),	-- Restless Spirits
 				q(46175, {	-- Rolling Thunder
@@ -183,7 +193,33 @@ root(ROOTS.Zones, {
 				}),
 				q(45791, {	-- War Materiel
 					["groups"] = {
-						i(143888),	-- Felslag (QI!)
+						o(267278, {	-- Fel Crucible
+							["coords"] = {
+								{ 77.2, 39.7, BROKEN_SHORE },
+								{ 78.1, 39.6, BROKEN_SHORE },
+								{ 79.0, 38.4, BROKEN_SHORE },
+								{ 79.0, 41.1, BROKEN_SHORE },
+							},
+							["groups"] = { i(143888) },	-- Felslag (QI!)
+						}),
+						o(267277, {	-- Felslag
+							["coords"] = {
+								{ 77.2, 40.2, BROKEN_SHORE },
+								{ 77.4, 39.0, BROKEN_SHORE },
+								{ 77.5, 38.9, BROKEN_SHORE },
+								{ 78.3, 41.4, BROKEN_SHORE },
+								{ 78.5, 41.1, BROKEN_SHORE },
+								{ 78.8, 37.9, BROKEN_SHORE },
+								{ 79.2, 42.1, BROKEN_SHORE },
+								{ 79.3, 38.7, BROKEN_SHORE },
+								{ 79.3, 40.0, BROKEN_SHORE },
+								{ 79.4, 42.5, BROKEN_SHORE },
+								{ 80.4, 42.6, BROKEN_SHORE },
+								{ 80.6, 44.5, BROKEN_SHORE },
+								{ 80.9, 43.1, BROKEN_SHORE },
+							},
+							["groups"] = { i(143888) },	-- Felslag (QI!)
+						}),
 					},
 				}),
 				q(45930),	-- We Didn't Start the Fire

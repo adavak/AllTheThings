@@ -12,9 +12,41 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
 						--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Hanging Felsteel Chain (DECOR!)
 						--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Vertical Felsteel Chain (DECOR!)
+						["maps"] = {
+							VALSHARAH,
+							HIGHMOUNTAIN,
+							STORMHEIM,
+							AZSUNA,
+							BROKEN_ISLES,	-- Stormheim Invasion Scenario
+							865,	-- Stormheim Invasion Scenario: Upper Ship Floor
+							866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+							696,	-- Stormheim (scenario)
+						},
 					}),
-					ach(42672),	-- Defending the Broken Isles II
-					ach(42675),	-- Defending the Broken Isles III
+					ach(42672, {	-- Defending the Broken Isles II
+						["maps"] = {
+							VALSHARAH,
+							HIGHMOUNTAIN,
+							STORMHEIM,
+							AZSUNA,
+							BROKEN_ISLES,	-- Stormheim Invasion Scenario
+							865,	-- Stormheim Invasion Scenario: Upper Ship Floor
+							866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+							696,	-- Stormheim (scenario)
+						},
+					}),
+					ach(42675, {	-- Defending the Broken Isles III
+						["maps"] = {
+							VALSHARAH,
+							HIGHMOUNTAIN,
+							STORMHEIM,
+							AZSUNA,
+							BROKEN_ISLES,	-- Stormheim Invasion Scenario
+							865,	-- Stormheim Invasion Scenario: Upper Ship Floor
+							866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+							696,	-- Stormheim (scenario)
+						},
+					}),
 					ach(60815),	-- Explore Broken Shore
 					ach(42540, {	-- Looking for Group: The Broken Shore
 						-- Meta Achievement

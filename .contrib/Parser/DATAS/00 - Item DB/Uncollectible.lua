@@ -475,6 +475,7 @@ i(166859);	-- Zinj'alor Blue Diamond
 -- PATCH 8.2.0 --
 -----------------
 i(165668);	-- Azsharan Medallion
+i(168793);	-- Bottle of Homemade Wine
 i(169146);	-- Brittle Thrust Booster
 i(169130);	-- Bent Cogwheel
 i(170030);	-- Burned Codex

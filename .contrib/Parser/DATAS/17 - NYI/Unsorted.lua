@@ -5564,7 +5564,6 @@ root(ROOTS.Unsorted, {
 			i(258482),	-- Ysergle
 			i(258483),	-- Fathom
 			i(259454),	-- Ensemble: Regalia of Shackled Elements
-			i(263226),	-- Infinite Knowledge
 		})),
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			filter(BATTLE_PETS, {
@@ -7802,7 +7801,6 @@ root(ROOTS.Unsorted, {
 			i(168789),	-- Perpetual Motion Device
 			i(168790),	-- Sack of Fish Bones
 			i(168792),	-- Kobold's Candle
-			i(168793),	-- Bottle of Homemade Wine
 			i(168794),	-- Last Year's Brewfest Flyer
 			i(168797),	-- Stack of Undeliverable Mail
 			i(168812),	-- Air Freshner
