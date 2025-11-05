@@ -229,7 +229,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["groups"] = {
 					o(268510, {	-- Dusty Treasure Chest
 						["coords"] = { 49.8, 46.7, BROKEN_SHORE },
-						["g"] = { i(146956) },	-- Promising Treasure Key (QI!)
+						["groups"] = { i(146956) },	-- Promising Treasure Key (QI!)
 					}),
 					i(146664),	-- Finely-Jeweled Key
 				},
@@ -430,7 +430,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["groups"] = {
 					o(268472, {	-- Spider-Covered Treasure Chest
 						["coords"] = { 43.4, 31.2, BROKEN_SHORE },
-						["g"] = { i(146955) },	-- Potentially Precious Gem (QI!)
+						["groups"] = { i(146955) },	-- Potentially Precious Gem (QI!)
 					}),
 				},
 			}),
