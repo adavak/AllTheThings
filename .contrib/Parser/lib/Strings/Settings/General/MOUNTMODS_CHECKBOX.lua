@@ -16,6 +16,6 @@ createLocalizationString({
 		ru = "Модификации транспорта",
 		-- ko = "",
 		cn = "坐骑定制",
-		-- tw = "",
+		tw = "坐騎修飾",
 	},
 })
