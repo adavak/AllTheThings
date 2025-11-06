@@ -4664,7 +4664,6 @@ root(ROOTS.Unsorted, {
 				i(245422),	-- Draenic Bookcase
 				i(245424),	-- Draenic Storage Chest
 				i(245425),	-- Hanging Draenethyst Light
-				i(245427),	-- Dark Iron Expedition Tent
 				i(245431),	-- Draenor Cookpot
 				i(245433),	-- Blackrock Strongbox
 				i(245437),	-- Orc-Forged Weaponry

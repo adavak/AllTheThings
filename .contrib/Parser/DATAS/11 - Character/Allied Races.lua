@@ -109,6 +109,9 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["groups"] = {
 					ach(12515),	-- Allied Races: Dark Iron Dwarf
 					i(161331),	-- Dark Iron Core Hound (MOUNT!)
+					i(245427, {	-- Dark Iron Expedition Tent (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			-- Dark Iron Dwarf Starter Quests

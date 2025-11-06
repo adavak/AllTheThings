@@ -138,7 +138,9 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				crit(15069, {	-- Warmaul of Burningeye
 					["provider"] = { "i", 64484 },	-- Warmaul of Burningeye
 				}),
-				i(245426, {["timeline"] = { ADDED_11_2_7 }}),	-- Dark Iron Brazier (DECOR!)
+				i(245426, {	-- Dark Iron Brazier (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			}),
 			ach(4858, {	-- Seven Scepters
 				crit(15051, {	-- Scepter of Charlga Razorflank

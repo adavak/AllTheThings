@@ -1597,21 +1597,85 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = bubbleDownClassicRep(FACTION_IRONFORGE, {
 						{		-- Neutral
 						}, {	-- Friendly
-							i(246491, {["timeline"] = { ADDED_11_2_7 }}),	-- Ironforge Fence (DECOR!)
-							i(246490, {["timeline"] = { ADDED_11_2_7 }}),	-- Ironforge Fencepost (DECOR!)
-							i(45577, {["timeline"] = { ADDED_3_1_0 }}),	-- Ironforge Tabard
+							i(246491, {	-- Ironforge Fence (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 1500000,	-- 150g
+							}),
+							i(246490, {	-- Ironforge Fencepost (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 2500000,	-- 250g
+							}),
+							i(45577, {	-- Ironforge Tabard
+								["timeline"] = { ADDED_3_1_0 },
+							}),
 						}, {	-- Honored
-							i(252010, {["timeline"] = { ADDED_11_2_7 }}),	-- Ornate Ironforge Bench (DECOR!)
-							i(246426, {["timeline"] = { ADDED_11_2_7 }}),	-- Ornate Ironforge Table (DECOR!)
+							i(252010, {	-- Ornate Ironforge Bench (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 4500000,	-- 450g
+							}),
+							i(246426, {	-- Ornate Ironforge Table (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 6000000,	-- 600g
+							}),
 						}, {	-- Revered
-							i(67528, {["timeline"] = { ADDED_4_0_3 }}),	-- Ironforge Satchel
-							i(256333, {["timeline"] = { ADDED_11_2_7 }}),	-- Ornate Dwarven Wardrobe (DECOR!)
+							i(67528, {	-- Ironforge Satchel
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+							i(256333, {	-- Ornate Dwarven Wardrobe (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 10000000,	-- 1,000g
+							}),
 						}, {	-- Exalted
-							i(64899, {["timeline"] = { ADDED_4_0_3 }}),	-- Cape of Ironforge
-							i(64900, {["timeline"] = { ADDED_4_0_3 }}),	-- Mantle of Ironforge
-							i(64898, {["timeline"] = { ADDED_4_0_3 }}),	-- Shroud of Ironforge
+							i(64899, {	-- Cape of Ironforge
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+							i(64900, {	-- Mantle of Ironforge
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+							i(64898, {	-- Shroud of Ironforge
+								["timeline"] = { ADDED_4_0_3 },
+							}),
 						},
 					}),
+				}),
+				n(253235, {	-- Dedric Sleetshaper <Decor Specialist>
+					["coord"] = { 23.8, 45.2, IRONFORGE },
+					["timeline"] = { ADDED_11_2_7 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(245426, {	-- Dark Iron Brazier (DECOR!)
+							["sourceAchievement"] = 4859,	-- Kings Under the Mountain
+							["cost"] = 7000000,	-- 700g
+						}),
+						i(245427, {	-- Dark Iron Expedition Tent (DECOR!)
+							["sourceQuest"] = 53566,	-- Dark Iron Dwarves
+							["cost"] = 12000000,	-- 1,200g
+						}),
+						i(246491, {	-- Ironforge Fence (DECOR!)
+							["minReputation"] = { FACTION_IRONFORGE, FRIENDLY },	-- Ironforge, Friendly
+							["cost"] = 1500000,	-- 150g
+						}),
+						i(246490, {	-- Ironforge Fencepost (DECOR!)
+							["minReputation"] = { FACTION_IRONFORGE, FRIENDLY },	-- Ironforge, Friendly
+							["cost"] = 2500000,	-- 250g
+						}),
+						i(256333, {	-- Ornate Dwarven Wardrobe (DECOR!)
+							["minReputation"] = { FACTION_IRONFORGE, REVERED },	-- Ironforge, Revered
+							["cost"] = 10000000,	-- 1,000g
+						}),
+						i(252010, {	-- Ornate Ironforge Bench (DECOR!)
+							["minReputation"] = { FACTION_IRONFORGE, HONORED },	-- Ironforge, Honored
+							["cost"] = 4500000,	-- 450g
+						}),
+						i(246426, {	-- Ornate Ironforge Table (DECOR!)
+							["minReputation"] = { FACTION_IRONFORGE, HONORED },	-- Ironforge, Honored
+							["cost"] = 6000000,	-- 600g
+						}),
+						i(256425, {	-- Shadowforge Stone Chair (DECOR!)
+							["sourceAchievement"] = 8316,	-- Blood in the Snow
+							["cost"] = 3500000,	-- 350g
+						}),
+					},
 				}),
 				n(5125, {	-- Dolkin Craghelm
 					["coord"] = { 54.8, 88.6, IRONFORGE },

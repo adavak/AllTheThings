@@ -233,7 +233,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(8316, {	-- Blood in the Snow
-							i(256425, {["timeline"] = { ADDED_11_2_7 }}),	-- Shadowforge Stone Chair (DECOR!)
+							i(256425, {	-- Shadowforge Stone Chair (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 						}),
 						ach(8329),	-- Heed the Weed
 						ach(8330),	-- Hekima's Heal-Halter
