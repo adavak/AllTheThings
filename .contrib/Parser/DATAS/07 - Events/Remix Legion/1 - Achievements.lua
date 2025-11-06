@@ -9,6 +9,20 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42565, {	-- Bringing Order to the Isles
 		-- Added with Phase3 Legion Remix Release -- Gold 5th Nov 2025
 			["description"] = "Requires completion of all Class 12 Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.",
+			["sourceQuests"] = {
+				46813,	-- (Death Knight)
+				46334,	-- (Demon Hunter)
+				46319,	-- (Druid)
+				46337,	-- (Hunter)
+				45354,	-- (Mage)
+				46350,	-- (Monk)
+				45770,	-- (Paladin)
+				45789,	-- (Priest)
+				46089,	-- (Rogue)
+				46792,	-- (Shaman)
+				46243,	-- (Warlock)
+				46207,	-- (Warrior)
+			},
 		}),
 		ach(42624, {	-- Broken Isles World Quests I
 			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
