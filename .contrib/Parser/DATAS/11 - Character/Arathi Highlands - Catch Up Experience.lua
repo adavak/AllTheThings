@@ -176,14 +176,14 @@ root(ROOTS.Character, n(CATCH_UP, m(ARATHI_HIGHLANDS_CATCHUP, {
 			q(90897, {	-- Back to Stromgarde
 				["sourceQuest"] = 90896,	-- One Last Ogre
 				["qg"] = 244667,	-- Lady Jaina Proudmoore
-				["races"] = ALLIANCE_ONLY,
 				["coord"] = { 24.7, 37.1, ARATHI_HIGHLANDS_CATCHUP },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(90898, {	-- Back to Hammerfall
 				["sourceQuest"] = 90896,	-- One Last Ogre
 				["qg"] = 244666,	-- Thrall
-				["races"] = HORDE_ONLY,
 				["coord"] = { 24.6, 37.1, ARATHI_HIGHLANDS_CATCHUP },
+				["races"] = HORDE_ONLY,
 			}),
 			q(90911, {	-- Your Next Adventure
 				["sourceQuests"] = {

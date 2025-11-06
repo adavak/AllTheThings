@@ -146,10 +146,10 @@ root(ROOTS.Zones, {
 				q(45929),	-- Purging the Flames
 				q(46075, {	-- Relic Hunting
 					o_repeated({	-- Unearthed Antiquities
-						i(143851),	-- Precious Antiquity (QI!)
 						o(267768),	-- Precious Antiquity
 						o(267769),	-- Precious Antiquity
 						o(267770),	-- Precious Antiquity
+						i(143851),	-- Precious Antiquity (QI!)
 					}),
 				}),
 				q(46076),	-- Restless Spirits
