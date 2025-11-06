@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 				ach(11264),	-- Adventurer of Highmountain (automated)
 				ach(10059),	-- Ain't No Mountain High Enough (automated)
 				ach(10398, {	-- Drum Circle
-					["description"] = "This achievement can be soloed since after 'Battle for Azeroth'. Repeatedly jump for 1-3 minutes in the middle ring on the lower floor of Thunder Totem. It CANNOT be completed while you are on 'Assault on Thunder Totem' and you must be able to hear the drum beats to know the achievement is working."
+					["description"] = "This achievement can be soloed since after 'Battle for Azeroth'. Repeatedly jump for 1-3 minutes in the middle ring on the lower floor of Thunder Totem. It CANNOT be completed while you are on 'Assault on Thunder Totem' and you must be able to hear the drum beats to know the achievement is working.",
 					["groups"] = {
 						i(257721, {	-- Skyhorn Arrow Kite (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
