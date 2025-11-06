@@ -1585,8 +1585,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Twilight Zone",
 	[-662] = "Champion Equipment",
 	[-665] = "Brewfest Banquet",
-	[-684] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-685] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-685] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-686] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -8559,6 +8559,12 @@ local ObjectNames = {
 	[266655] = "Large Ceremonial Drum",
 	[266689] = "Medium Ceremonial Drum",
 	[266851] = "Wand of Simulated Life",
+	[267277] = "Felslag",
+	[267278] = "Fel Crucible",
+	[267655] = "Ravaged Supplies",
+	[267768] = "Unearthed Antiquities",
+	[267769] = "Unearthed Antiquities",
+	[267770] = "Unearthed Antiquities",
 	[268440] = "Highborne Archaeology Find",
 	[268450] = "Highmountain Tauren Archaeology Find",
 	[268451] = "Demonic Archaeology Find",
@@ -16814,6 +16820,12 @@ local ObjectModels = {
 	[266655] = 1318778,
 	[266689] = 1318477,
 	[266851] = 1534531,
+	[267277] = 1049484,
+	[267278] = 1243754,
+	[267655] = 307334,
+	[267768] = 195075,
+	[267769] = 195074,
+	[267770] = 195074,
 	[268440] = 1367054,
 	[268450] = 1367062,
 	[268451] = 1367063,
@@ -22546,7 +22558,7 @@ L.QUEST_NAMES = {
 	[50147] = "Step 8: Temple of Karabor",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-685],
+	[52819] = _.L.HEADER_NAMES[-686],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -24059,6 +24071,7 @@ localize(L.HEADER_NAMES, {
 	[-470] = "Angriffe von Fyrakk",
 	[-471] = "Lehrensuche",
 	[-472] = "Verstörende Visionen erneut erlebt",
+	[-480] = "Ewigen Basar",
 	[-482] = "Die Öffnung des Dunklen Portals",
 	[-483] = "Das Szepter der Sandstürme",
 	[-487] = "Kopfgeld",
@@ -24106,8 +24119,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Zwielicht-Duo",
 	[-661] = "Zwielichtzone",
 	[-662] = "Championausrüstung",
-	[-684] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-685] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-685] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-686] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -27803,6 +27816,12 @@ localize(ObjectNames, {
 	[266655] = "Große zeremonielle Trommel",
 	[266689] = "Mittelgroße zeremonielle Trommel",
 	[266851] = "Zauberstab des simulierten Lebens",
+	[267277] = "Teufelsschlacke",
+	[267278] = "Teufelstiegel",
+	[267655] = "Verwüstete Vorräte",
+	[267768] = "Ausgegrabene Antiquitäten",
+	[267769] = "Ausgegrabene Antiquitäten",
+	[267770] = "Ausgegrabene Antiquitäten",
 	[268440] = "Archäologischer Fund der Hochgeborenen",
 	[268450] = "Archäologischer Fund der Hochbergtauren",
 	[268451] = "Archäologischer Fund der Dämonen",
@@ -31095,6 +31114,7 @@ localize(L.HEADER_NAMES, {
 	[-470] = "Assauts de Fyrakk",
 	[-471] = "Chroniques",
 	[-472] = "Visions horrifiques redécouvertes",
+	[-480] = "Bazar Infini",
 	[-481] = "Effort de guerre d’Ahn'Qiraj",
 	[-482] = "L'ouverture de la Porte des ténèbres",
 	[-483] = "Le Sceptre des Sables changeants",
@@ -31146,8 +31166,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Duo Crépusculaire",
 	[-661] = "Chroniques des Crépusculaires",
 	[-662] = "Équipement de champion",
-	[-684] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-685] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-685] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-686] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -34859,6 +34879,12 @@ localize(ObjectNames, {
 	[266655] = "Grand tambour de cérémonie",
 	[266689] = "Tambour de cérémonie moyen",
 	[266851] = "Baguette d'existence artificielle",
+	[267277] = "Gangrescorie",
+	[267278] = "Creuset corrompu",
+	[267655] = "Fournitures ravagées",
+	[267768] = "Antiquités déterrées",
+	[267769] = "Antiquités déterrées",
+	[267770] = "Antiquités déterrées",
 	[268440] = "Trouvaille archéologique des Bien-nés",
 	[268450] = "Trouvaille archéologique taurène de Haut-Roc",
 	[268451] = "Trouvaille archéologique démoniaque",
@@ -37753,6 +37779,7 @@ localize(L.HEADER_NAMES, {
 	[-470] = "Assalti di Fyrakk",
 	[-471] = "Cammino della Storia",
 	[-472] = "Visioni Orripilanti Rivisitate",
+	[-480] = "Bazar dell'Infinito",
 	[-482] = "L'apertura del Portale Oscuro",
 	[-483] = "Scettro delle Sabbie Mutevoli",
 	[-487] = "Premio",
@@ -37798,8 +37825,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Doppietta Crepuscolare",
 	[-661] = "Zona del Crepuscolo",
 	[-662] = "Equipaggiamento campione",
-	[-684] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-685] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-685] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-686] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -41092,6 +41119,12 @@ localize(ObjectNames, {
 	[266655] = "Tamburo Cerimoniale Grosso",
 	[266689] = "Tamburo Cerimoniale Medio",
 	[266851] = "Bacchetta della Vita Simulata",
+	[267277] = "Vilscoria",
+	[267278] = "Vilcrogiolo",
+	[267655] = "Provviste Depredate",
+	[267768] = "Antichità Dissotterrate",
+	[267769] = "Antichità Dissotterrate",
+	[267770] = "Antichità Dissotterrate",
 	[268440] = "Ritrovamento Archeologico degli Alti Nobili",
 	[268450] = "Ritrovamento Archeologico dei Tauren di Alto Monte",
 	[268451] = "Ritrovamento Archeologico dei Demoni",
@@ -43787,6 +43820,7 @@ localize(L.HEADER_NAMES, {
 	[-470] = "Ofensivas de Fyrakk",
 	[-471] = "Trilha das Lendas",
 	[-472] = "Visões Horrendas Revividas",
+	[-480] = "Bazar Infinito",
 	[-482] = "A abertura do Portal Negro",
 	[-483] = "Cetro das Areias Cambiantes",
 	[-487] = "Recompensa",
@@ -43832,8 +43866,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Dupla do Crepúsculo",
 	[-661] = "Além da Imaginação",
 	[-662] = "Equipamento de Campeão",
-	[-684] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-685] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-685] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-686] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -47437,6 +47471,12 @@ localize(ObjectNames, {
 	[266655] = "Tambor Cerimonial Grande",
 	[266689] = "Tambor Cerimonial Médio",
 	[266851] = "Varinha da Vida Simulada",
+	[267277] = "Lavavil",
+	[267278] = "Crisol Vil",
+	[267655] = "Suprimentos Assolados",
+	[267768] = "Antiguidades Desenterradas",
+	[267769] = "Antiguidades Desenterradas",
+	[267770] = "Antiguidades Desenterradas",
 	[268440] = "Achado Arqueológico Altaneiro",
 	[268450] = "Achado Arqueológico Tauren Altamontês",
 	[268451] = "Achado Arqueológico Demoníaco",
@@ -50984,6 +51024,7 @@ localize(L.HEADER_NAMES, {
 	[-472] = "Возвращение в жуткие видения",
 	[-474] = "Буйство элементалей",
 	[-476] = "Пиратская буря",
+	[-480] = "бесконечный базар",
 	[-481] = "Война в Ан'Кираже",
 	[-482] = "Открытие Темного портала",
 	[-483] = "Скипетр Зыбучих песков",
@@ -51043,8 +51084,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Сумеречный дуэт",
 	[-661] = "Зона сумерек",
 	[-662] = "Снаряжение защитника",
-	[-684] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-685] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-685] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-686] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -54781,6 +54822,12 @@ localize(ObjectNames, {
 	[266655] = "Большой ритуальный барабан",
 	[266689] = "Средний ритуальный барабан",
 	[266851] = "Жезл искусственной жизни",
+	[267277] = "Шлак Скверны",
+	[267278] = "Горнило Скверны",
+	[267655] = "Опустошенные припасы",
+	[267768] = "Раскопанные древности",
+	[267769] = "Раскопанные древности",
+	[267770] = "Раскопанные древности",
 	[268440] = "Археологическая находка высокорожденных",
 	[268450] = "Археологическая находка тауренов Крутогорья",
 	[268451] = "Археологическая находка демонов",
@@ -57731,6 +57778,7 @@ localize(L.HEADER_NAMES, {
 	[-471] = "전승",
 	[-472] = "다시 찾은 공포의 환영",
 	[-476] = "약탈폭풍",
+	[-480] = "무한의 시장",
 	[-482] = "어둠의 문 열기",
 	[-483] = "흐르는 모래의 홀",
 	[-487] = "하사품",
@@ -57776,8 +57824,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "황혼의 2인조",
 	[-661] = "황혼 지대",
 	[-662] = "용사 장비",
-	[-684] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-685] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-685] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-686] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -61279,6 +61327,12 @@ localize(ObjectNames, {
 	[266122] = "부두, 흙점술, 천민들의 마법",
 	[266123] = "주문파괴: 방패 후려치기의 기술",
 	[266851] = "모조 생명체의 마법봉",
+	[267277] = "지옥광재",
+	[267278] = "지옥 도가니",
+	[267655] = "습격당한 보급품",
+	[267768] = "발굴한 골동품",
+	[267769] = "발굴한 골동품",
+	[267770] = "발굴한 골동품",
 	[268440] = "명가 고고학 발굴품",
 	[268450] = "높은산 타우렌 고고학 발굴품",
 	[268453] = "명가 고고학 발굴품",
@@ -64565,6 +64619,8 @@ localize(L.HEADER_NAMES, {
 	[-470] = "Asaltos de Fyrakk",
 	[-471] = "Paseo por la historia",
 	[-472] = "Regreso a las visiones horripilantes",
+	[-479] = "Conversión de equipo",
+	[-480] = "Bazar Infinito",
 	[-482] = "La apertura del Portal Oscuro",
 	[-483] = "El cetro del Mar de Dunas",
 	[-487] = "Recompensa",
@@ -64624,6 +64680,9 @@ localize(L.HEADER_NAMES, {
 	[-590] = "Azote de los Mil Barcos",
 	[-591] = "Festival del Errante",
 	[-592] = "Aniversario de WoW",
+	[-649] = "Jefe de la oleada 6",
+	[-650] = "Jefe de la oleada 12",
+	[-651] = "Jefe de la oleada final",
 	[-652] = "Incursiones zandalari",
 	[-654] = "Cosecha",
 	[-656] = "Hermandad de camorristas",
@@ -64631,14 +64690,15 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Dúo Crepuscular",
 	[-661] = "Dimensión Desconocida",
 	[-662] = "Equipo de campeón",
-	[-684] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-685] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-685] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-686] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
 	[-28] = "Estos objetos son obtenidos al completar misiones de emisario o cajas de paragon",
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar ese evento.",
 	[-36] = "Es posible que deba estar activo un día festivo específico para que pueda completar las cosas referenciadas en esta sección.",
+	[-43] = "Esta sección contiene misiones y domadores relacionados con los Duelos de Mascotas.",
 	[-44] = "Esta sección solo mostrará las profesiones de tu personaje actual fuera del modo Cuenta y Depuración.",
 	[-47] = "Contiene cosas que son recompensadas o están disponibles en otro contenido dentro de la sección contenedora.\nSe consolidan aquí en un esfuerzo por reducir la duplicación de muchas fuentes posibles.",
 	[-49] = "Contiene cosas que se obtienen como recompensa al completar ese escenario.",
@@ -64663,6 +64723,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-441] = "Esta misión indica si has activado la Piedra buhogato de Bosque del Ocaso.",
 	[-442] = "Esta misión indica si has activado la Piedra buhogato de Feralas.",
 	[-443] = "Esta misión indica si has activado la Piedra buhogato de las Tierras del Interior.",
+	[-479] = "Estos objetos fueron obtenidos por personajes creados durante el evento Remix y se transfirieron automáticamente a Retail cuando finalizó el evento.",
 	[-549] = "Los siguientes conjuntos de objetos se implementaron como recompensas de mejoras de personaje para los receptores del Pergamino de la Resurrección.\n\nPosteriormente, se añadieron a los vendedores del Monte Hyjal y Vash'jir una vez que se retiró el Servicio del Pergamino de la Resurrección.",
 	[-550] = "Este es un evento basado en Campos de batalla que coincide con el inicio de los Juegos Olímpicos de Verano. La única vez que se celebró fue en 2008 para coincidir con los Juegos Olímpicos de Pekín, y aunque parecía haber intención de repetirlo, nunca regresó.",
 	[-552] = "Estos fueron recompensados por iniciar sesión al menos una vez por facción mientras la película de Warcraft aún estaba en los cines.",
@@ -68353,6 +68414,12 @@ localize(ObjectNames, {
 	[266655] = "Tambor ceremonial grande",
 	[266689] = "Tambor ceremonial mediano",
 	[266851] = "Varita de vida simulada",
+	[267277] = "Escoriavil",
+	[267278] = "Crisol vil",
+	[267655] = "Suministros devastados",
+	[267768] = "Antigüedades desenterradas",
+	[267769] = "Antigüedades desenterradas",
+	[267770] = "Antigüedades desenterradas",
 	[268440] = "Hallazgo arqueológico de los Altonato",
 	[268450] = "Hallazgo arqueológico de los tauren Monte Alto",
 	[268451] = "Hallazgo arqueológico demoníaco",
@@ -71334,7 +71401,7 @@ localize(L.HEADER_NAMES, {
 	[-591] = "Festival del errante",
 	[-654] = "Cosechando",
 	[-656] = "Gremio de luchadores",
-	[-685] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-686] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -71672,10 +71739,6 @@ L.CELEBRATIONS_LABEL = "庆祝和音效";
 L.CHANGE_SEARCH_FILTER = "更改搜索过滤";
 L.CHANGE_SEARCH_FILTER_DESC = "点击此按钮可更改搜索过滤。";
 L.CHANNEL_AMBIENCE = "环境";
-L.CHANNEL_DIALOG = "对话";
-L.CHANNEL_MASTER = "主要";
-L.CHANNEL_MUSIC = "音乐";
-L.CHANNEL_SFX = "音效";
 L.CHARACTERUNLOCKS_CHECKBOX = "角色解锁";
 L.CHARACTERUNLOCKS_CHECKBOX_TOOLTIP = "启用此选项可跟踪角色解锁。这些是基于角色的各种解锁，无法明确归类为其他类型（例如 妖术变体、变形术变体、猎人物种驯服解锁、波可波克自定义等）。\n\n默认情况下按角色跟踪。";
 L.CHAT_COMMANDS_LABEL = "聊天命令";
@@ -72640,8 +72703,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "暮光二重奏",
 	[-661] = "暮光领域",
 	[-662] = "勇士装备",
-	[-684] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-685] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-685] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-686] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
@@ -75936,6 +75999,10 @@ localize(ObjectNames, {
 	[266123] = "法术克星——盾击的艺术",
 	[266289] = "迷时宝箱",
 	[266851] = "模拟生命魔杖",
+	[267655] = "抢来的补给品",
+	[267768] = "出土的古董",
+	[267769] = "出土的古董",
+	[267770] = "出土的古董",
 	[268440] = "上层精灵考古发现",
 	[268450] = "至高岭牛头人考古发现",
 	[268453] = "上层精灵考古发现",
@@ -78475,6 +78542,7 @@ L.AUCTION_TAB_CHECKBOX = "顯示拍賣行模組標籤";
 L.AUCTION_TAB_CHECKBOX_TOOLTIP = "如果你想查看 ATT 提供的拍賣行模組請啟用此選項。\n\n一些插件很調皮會大量修改這個框架。ATT 並不總是和那些玩具玩得很好。";
 L.AUCTIONATOR_GROUPS = "基於群組的搜尋只支援使用 Auctionator。";
 L.AUDIO_CHANNEL = "聲音通道";
+L.AUDIO_PAGE = "聲音";
 L.AUTO_BOUNTY_CHECKBOX = "自動打開獎勵列表";
 L.AUTO_BOUNTY_CHECKBOX_TOOLTIP = "如果想查看具有傑出收藏獎勵的物品，請啟用此選項。如果設法抓住顯示在此列表中的物品之一，可以賺到一筆不錯的金幣。\n\n快捷命令：/attbounty";
 L.AUTO_MAIN_LIST_CHECKBOX = "自動打開主列表";
@@ -78506,12 +78574,14 @@ L.BREADCRUMB_PARTYSYNC_4 = "如果嘗試通過隊伍同步獲得此任務，請�
 L.BREADCRUMBS = "無關緊要";
 L.BREADCRUMBS_WARNING = "完成此任務後可能無法獲得無關緊要的任務：";
 L.CACHED_RECIPES_1 = "快取 ";
+L.CAMPSITES_CHECKBOX_TOOLTIP = "啟用此選項來追蹤戰隊營區的完成情況。";
 L.CATALYST = "催化器";
 L.CELEBRATE_COLLECTED_CHECKBOX = "收藏事物觸發慶祝音效";
 L.CELEBRATE_COLLECTED_CHECKBOX_TOOLTIP = "如果你想在獲得新的事物時聽到慶祝'fanfare'效果請啟用這個選項。\n\n這個功能可以極大地幫助你保持動力。";
 L.CELEBRATIONS_LABEL = "慶祝和音效";
 L.CHANGE_SEARCH_FILTER = "更改搜尋篩選";
 L.CHANGE_SEARCH_FILTER_DESC = "點擊此按鈕可更改搜尋篩選。";
+L.CHANNEL_AMBIENCE = "環境";
 L.CHARACTERUNLOCKS_CHECKBOX = "角色解鎖";
 L.CHARACTERUNLOCKS_CHECKBOX_TOOLTIP = "啟用此選項可追蹤角色解鎖。這些是基於角色的各種解鎖，無法明確歸類為其他類型（例如 妖術變體、變形術變體、獵人物種馴服解鎖、波可波克自訂等）。\n\n預設情況下按角色追蹤。";
 L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFF或|R /things |cffFFFFFF或|R /allthethings\n|cffFFFFFF打開主列表。\n\n|R/att mini |cffFFFFFF或|R /attmini\n|cffFFFFFF打開小列表。\n\n|R/att bounty\n|cffFFFFFF打開被出錯或未確認的物品列表。\n\n|R/att ra |cffFFFFFF或|R /attra\n|cffFFFFFF打開團隊助手。\n\n|R/att wq |cffFFFFFF或|R /attwq\n|cffFFFFFF打開世界任務列表。\n\n|R/att item:1234 |cffFFFFFF或|R /att [物品連接]\n|cffFFFFFF打開一個共享外觀的視窗。也適用於其他事物，例如|R quest:1234|cffFFFFFF，|Rnpcid:1234|cffFFFFFF，|Rmapid:1234|cffFFFFFF 或 |Rrecipeid:1234|cffFFFFFF。\n\n|R/att rwp\n|cffFFFFFF顯示所有未來用更新刪除的東西。\n\n|R/att random |cffFFFFFF或|R /attrandom |cffFFFFFF或|R /attran\n|cffFFFFFF打開隨機列表。\n\n|R/att unsorted\n|cffFFFFFF打開未知來源物品列表。最好在偵錯模式下打開。\n\n|R/rl\n|cffFFFFFF重載魔獸介面。|R";
@@ -78651,6 +78721,8 @@ L.HEIRLOOMS_CHECKBOX_TOOLTIP = "啟用此選項可追蹤你是否已解鎖傳家
 L.HEIRLOOMS_UPGRADES_CHECKBOX = "+升級";
 L.HEIRLOOMS_UPGRADES_CHECKBOX_TOOLTIP = "啟用此選項可專門追蹤單個傳家寶升級的收藏情況。\n\n我們都知道暴雪就是喜歡消耗你的金幣和靈魂，所以用這個切換來追蹤你的金幣。";
 L.HEIRLOOMS_UPGRADES_DESC = "這表明你是否已經將傳家寶升級到了一定的級別。\n\n安息吧…金幣。\n - Crieve";
+L.HIDDEN_ACHIEVEMENT_TRIGGERS = "隱藏成就觸發器";
+L.HIDDEN_ACHIEVEMENT_TRIGGERS_DESC = "這些成就是依據特定條件手動判定觸發的，主要由遊戲內部用於追蹤目的。";
 L.HIDDEN_CURRENCY_TRIGGERS = "隱藏貨幣觸發器";
 L.HIDDEN_CURRENCY_TRIGGERS_DESC = "這些貨幣是根據特定條件手動判定或觸發，主要供遊戲內部用於追蹤目的。";
 L.HIDDEN_QUEST_TRIGGERS = "隱藏任務觸發";
@@ -78737,6 +78809,7 @@ L.MORE_COLORS_CHECKBOX = "顯示顏色";
 L.MORE_COLORS_CHECKBOX_TOOLTIP = "如果你想看到使用更多的顏色來幫助區分列表中事物的附加條件，請啟用此選項（比如職業顏色，陣營顏色等。）";
 L.MOUNT_DESC = "點擊此按鈕可依據缺少的內容選擇隨機坐騎。";
 L.MOUNT_ID = "坐騎 ID";
+L.MOUNTMODS_CHECKBOX = "|T" .. _.asset("Expansion_DF") .. ":0|t 坐騎修飾";
 L.MOUNTS_CHECKBOX_TOOLTIP = "啟用此選項以追蹤坐騎。\n\n你可以騎著它們比跑步更快去別的地方。誰知道！";
 L.MUSIC_ROLL_ID = "樂譜 ID";
 L.MUSIC_ROLLS_DESC = "這些是按角色解鎖且目前尚未在戰隊中共享。如果暴雪有人在看，如果能把這些戰隊共享的話那就太好了。\n\n必須通過 " .. SHIFT_KEY_TEXT .. "點擊要檢測的標題手動刷新插件。";
@@ -78821,6 +78894,7 @@ L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "任務 '%s' %s 將阻止收藏�
 L.QUEST_ROW_INSTRUCTIONS = "右擊查看任何任務鏈要求";
 L.QUESTS_CHECKBOX_TOOLTIP = "啟用此選項以追蹤任務。\n\n你可以點擊右鍵列表中的任何任務，彈出它們的完整任務鏈，以顯示你的進度和任何先決條件或後續任務。\n\n注意：每日、每周、每年和世界任務的追蹤不包含在此選項中，因為它們會在暴雪資料庫中定期重置。";
 L.QUESTS_DESC = "按數字升序顯示遊戲中所有可能的任務 ID。";
+L.QUESTS_HIDDEN_TRACKER_CHECKBOX_TOOLTIP = "啟用此選項將包含隱藏任務追蹤（HQT）的完成情況。\n\nHQT 是對玩家不可見的任務 ID，遊戲在後台用於監控角色/帳號在各種情況下的進度或狀態。\n\n你大概並不關心追蹤這些，對吧？我想你應該沒問題的。";
 L.QUESTS_LOCKED_CHECKBOX = "+已鎖定";
 L.QUESTS_LOCKED_CHECKBOX_TOOLTIP = "啟用此選項可專門包括追蹤鎖定任務的完成情況。\n\n鎖定任務是指玩家無法再通過正常遊戲完成的任務（依據已知的 ATT 資料）。\n\n獲得這些任務非常依賴於隊伍同步功能或使用帳號通用內的任務來整合其他角色的進度。";
 L.RACE_LOCKED = "種族限定";
@@ -79717,12 +79791,14 @@ for key,value in pairs({
 	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 頭銜、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
 	[6] = "|cFFFFAAAA除非您認識可以使用用於召喚首領的物品的人，否則這將不再可用。|r",
+	[7] = "|cFFAAFFAA該物品可以在貿易戰購買|r",
 	[9] = "|cFFAAFFAA此物品可在黑市拍賣場購買。原始來源可能已被刪除。|r",
 	[10] = "|cFFAAFFAA最初通過不再印刷的 TCG 卡獲得，但仍可通過黑市、遊戲內或現實中的拍賣行獲得。|r",
 	[38] = "|cFFFFAAAA這僅適用於在《潘達利亞之謎》完成傳奇披風任務鏈、《混搭再造：潘達利亞之謎》取得成就的玩家或通過黑市拍賣行獲得。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
+	[3] = "|cFFFFAAAA在遊戲的任何版本中，鼓勵使用真實貨幣的行為均不受認可。參與此類內容需自行承擔風險。|r",
 	[6] = "|cFFFFAAAA注意：如果過去擁有大多數召喚物品，則可以通過與相應的 NPC 交談來重新獲得它們。|r",
 })
 do phases[key].lore = value; end

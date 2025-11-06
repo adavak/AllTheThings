@@ -11882,10 +11882,7 @@ i(206465,{b=1,questID=76306,type="ihqt",g={
 crit(60664,{achID=18616,id=16})}})}}),
 o(403962,{description="Located inside a cage in the first major room of the Military Quarter.",g={
 i(206449,{b=1})}}),
-q(76290,{providers={{"i",206449}},sourceQuests=a[1225],sqreq=1}),
-ach(18616)}}),
-h(-12,{
-ach(18557)}),
+q(76290,{providers={{"i",206449}},sourceQuests=a[1225],sqreq=1})}}),
 h(-19,{
 i(206375,{b=2})}),
 h(-225,{
@@ -59071,7 +59068,7 @@ i(246727,{b=1})}}),
 q(91479,{coords={a[822]},lvl=80,minReputation=a[633],qgs=a[590]}),
 q(91530,{coords={a[822]},lvl=80,minReputation=a[633],qgs=a[590],g={
 p(4832,{b=1,itemID=244913,minReputation=a[633],npcID=245479,spellID=1238275})}}),
-q(91954,{coords={a[822]},lvl=80,minReputation=a[634],qgs={254344},g={
+q(91954,{coords={a[822]},lvl=80,minReputation=a[634],qgs=a[590],g={
 mnt(1233542,{b=1,itemID=242728,lvl=10,minReputation=a[634]})}}),
 title(640,{coords={a[822]},minReputation=a[634],providers={a[12]}}),
 cs(1239155,{coords={a[822]},minReputation={2736,15},providers={a[12]}})}),
