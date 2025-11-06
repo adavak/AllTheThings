@@ -235,7 +235,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 42.8, 27.8, LEGION_DALARAN },
 		}),
 		q(90659, {	-- Something Borrowed
-			["description"] = "You can get one Artifact Weapon of your chosice (based on your Specialization). Others can be obtained through Order Hall Campaign.",
+			["description"] = "You can get one Artifact Weapon of your choice (based on your specialization). Others can be obtained through Order Hall Campaign.",
 			["sourceQuest"] = 89409,	-- Infinite Bronze
 			["qg"] = 241744,	-- Momentus
 			["coord"] = { 42.8, 27.8, LEGION_DALARAN },
