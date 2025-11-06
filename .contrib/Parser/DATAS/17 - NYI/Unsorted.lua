@@ -4973,10 +4973,6 @@ root(ROOTS.Unsorted, {
 				i(253581),	-- Challenge Card: Sunny
 				i(253868),	-- Challenge Card: The Quacken
 				i(254690),	-- Blood-Soaked Invitation
-				-- Catch up?
-				i(249771),	-- Large Blue Bag
-				i(249772),	-- Large Red Bag
-				i(249773),	-- Large Black Bag
 			}),
 			filter(MOUNTS, {
 				i(260409),	-- Savage Crimson Battle Turtle
