@@ -9,7 +9,10 @@ root(ROOTS.Zones, {
 				q(41916, {	-- A Better Future
 					["sourceQuest"] = 40632,	-- Take Me To Your Leader
 					["provider"] = { "n", 114908 },	-- First Arcanist Thalyssra
-					["coord"] = { 41.6, 51.6, SURAMAR },	-- horde coordinate. Possibly different for alliance?
+					["coords"] = {
+						{ 40.5, 53.1, SURAMAR },
+						{ 41.6, 51.6, SURAMAR },
+					},
 				}),
 				q(42841, {	-- A Big Score
 					["sourceQuest"] = 42840,	-- If Words Don't Work...
@@ -387,7 +390,10 @@ root(ROOTS.Zones, {
 						41607,	-- Taking a Promenade (H)
 					},
 					["provider"] = { "n", 114908 },	-- First Arcanist Thalyssra
-					["coord"] = { 41.6, 51.6, SURAMAR },
+					["coords"] = {
+						{ 40.5, 53.1, SURAMAR },
+						{ 41.6, 51.6, SURAMAR },
+					},
 				}),
 				q(41709, {	-- Breaking Down the Big Guns
 					["sourceQuest"] = 40927,	-- Jandvik's Last Hope

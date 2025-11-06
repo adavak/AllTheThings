@@ -6,6 +6,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		------ Item Caches ------
 		i(248247),	-- Cache of Infinite Power
 		i(237812),	-- Cache of Infinite Treasure
+		i(239303),	-- Cache of Infinite Treasure (Call to Arms - Bonus Cache)
 
 		------ Bronze Caches, ordered by quality ------
 		i(246812),	-- Minor Bronze Cache (Uncommon)

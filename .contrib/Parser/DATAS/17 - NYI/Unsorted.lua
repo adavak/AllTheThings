@@ -5142,7 +5142,6 @@ root(ROOTS.Unsorted, {
 			i(238460),	-- [DNT] World Boss Token
 			i(238461),	-- [DNT] Minus Mob Token
 			i(239205),	-- [DNT] Raid Boss Token, Consolation
-			i(239303),	-- Cache of Infinite Treasure
 			i(239647),	-- Reins of the Bloodguard Fel Bat
 			i(239666),	-- Reins of the Risen Fel Bat
 			i(239686),	-- Reins of the Forgotten Fel Bat

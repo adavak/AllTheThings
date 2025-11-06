@@ -436,6 +436,7 @@ MobileDB.Creature = {
 	[112688] = true,	-- Meryl Felstorm
 	[112693] = true,	-- Black Harvest Acolyte
 	[112701] = true,	-- Justicar Julia Celeste
+	[113327] = true,	-- Snowfeather
 	[113686] = true,	-- Archmage Khadgar
 	[113857] = true,	-- Light's Heart
 	[114282] = true,	-- Dread Commander Thalanor

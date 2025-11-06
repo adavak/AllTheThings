@@ -94,7 +94,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					q(44366, {	-- One Last Adventure
 						["sourceQuest"] = 44043,	-- Continuing the Legend
-						["provider"] = { "n", 107973 },	-- Emmarel Shadewarden
+						["providers"] = {
+							{ "n", 107317 },	-- Emmarel Shadewarden
+							{ "n", 107973 },	-- Emmarel Shadewarden
+						},
 						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
 					}),
 					cl(HUNTER, BEAST_MASTERY, {
