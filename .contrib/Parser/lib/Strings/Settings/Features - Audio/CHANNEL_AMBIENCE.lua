@@ -5,5 +5,6 @@ createLocalizationString({
 	text = {
 		en = [[~AMBIENCE_VOLUME]],
 		cn = "环境",
+		tw = "環境",
 	},
 })

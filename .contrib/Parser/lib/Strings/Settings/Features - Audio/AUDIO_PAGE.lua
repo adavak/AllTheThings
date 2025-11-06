@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Аудио",
 		-- TODO: ko = "",
 		cn = "声音",
-		-- TODO: tw = "",
+		tw = "聲音",
 	},
 })

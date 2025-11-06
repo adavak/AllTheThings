@@ -4,6 +4,5 @@ createLocalizationString({
 	export = true,
 	text = {
 		en = [[~FX_VOLUME]],
-		cn = "音效",
 	},
 })
