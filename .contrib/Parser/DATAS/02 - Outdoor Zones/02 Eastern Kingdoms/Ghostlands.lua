@@ -1456,6 +1456,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 							}),
 							i(22985),	-- Suncrown Breastplate
 						}, {	-- Exalted
+							i(257419, {	-- Sin'dorei Crafter's Forge (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 50000000,	-- 5,000g
+							}),
+							i(256049, {	-- Sin'dorei Sleeper (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 50000000,	-- 5,000g
+							}),
 							i(22990),	-- Tranquillien Champion's Cloak
 						},
 					}),

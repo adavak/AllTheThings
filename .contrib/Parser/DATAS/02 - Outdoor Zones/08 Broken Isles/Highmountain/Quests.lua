@@ -139,6 +139,9 @@ root(ROOTS.Zones, {
 						i(133121),	-- Instincts of the Elderhorn
 						i(133122),	-- Betrayal of the Bloodtotem
 						i(133124),	-- Ironbull's Last Words
+						i(257722, {	-- Hanging Arrow Kite (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(42630, {	-- Bolas Bastion
@@ -181,6 +184,9 @@ root(ROOTS.Zones, {
 						--
 						i(130275),	-- Chain of Bossing Around
 						i(130284),	-- Drogstitch Chestguard
+						i(260698, {	-- Kobold Trassure Pile (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(130283),	-- Snowblind Vestments
 						i(130286),	-- Thunderpeak Breastplate
 						i(130285),	-- Whitewater Chestwrap
@@ -208,6 +214,9 @@ root(ROOTS.Zones, {
 							i(138199),	-- Large Ceremonial Drum (QI!)
 							o(250903),	-- Large Ceremonial Drum
 							o(266655),	-- Large Ceremonial Drum
+						}),
+						i(245405, {	-- Large Highmountain Drum (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
 						}),
 					},
 				}),
@@ -321,6 +330,9 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						i(128757),	-- Eagle Eggs (PQI!)
 						--
+						i(257723, {	-- Skyhorn Eagle Kite (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(129277),	-- Skyhorn Nestling (PET!)
 					},
 				}),
@@ -337,6 +349,11 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39496 },	-- The Flow of the River
 					["provider"] = { "n", 95186 },	-- Angler Creel
 					["coord"] = { 41.2, 61.5, HIGHMOUNTAIN },
+					["groups"] = {
+						i(245457, {	-- Riverbend Netting (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(40069, {	-- Fledgling Worm Guts
 					["provider"] = { "n", 94068 },	-- Oren Windstrider
@@ -434,8 +451,11 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 97903 },	-- Jarod Shadowsong
 					["coord"] = { 31.2, 52.4, 697 },	-- Azshara (Scenario)
 					["groups"] = {
-						i(130282),	-- Highmountain Trueshot Cape
 						i(130309),	-- Band of Malorne's Chosen
+						i(130282),	-- Highmountain Trueshot Cape
+						i(257397, {	-- Tauren Storyteller's Frame (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(39873, {	-- I Have a Bad Feeling About This
@@ -525,6 +545,11 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39572 },	-- Moozy's Adventure
 					["provider"] = { "n", 96084 },	-- Sella Waterwise
 					["coord"] = { 46.1, 54.6, 750 },	-- Thunder Totem
+					["groups"] = {
+						i(245453, {	-- Whitewash River Basket (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(39323, {	-- Moozy's Sojourn
 					["sourceQuests"] = {
@@ -788,6 +813,9 @@ root(ROOTS.Zones, {
 						i(133144),	-- Memory of Neltharion
 						i(133146),	-- The Four Winds
 						i(133129),	-- Smoldering Crux
+						i(245456, {	-- Warbrave's Brazier (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(38912, {	-- The Bloodtotem Tribe
@@ -840,6 +868,11 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 93833 },	-- Jale Rivermane
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
+					["groups"] = {
+						i(245409, {	-- Dried Whitewash Corn (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(39769, {	-- The Gates of Wax
 					["sourceQuests"] = {
@@ -873,6 +906,11 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39322 },	-- The Witchqueen
 					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["coord"] = { 45.7, 39.1, HIGHMOUNTAIN },
+					["groups"] = {
+						i(257401, {	-- Skyhorn Banner (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(38913, {	-- The Skyhorn Tribe
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
@@ -929,6 +967,9 @@ root(ROOTS.Zones, {
 						i(130270),	-- Drogstitch Cowl
 						i(130271),	-- Whitewater Headguard
 						i(130272),	-- Thunderpeak Greathelm
+						i(245461, {	-- Tauren Vertical Windmill (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(42104, {	-- The Underking Comes

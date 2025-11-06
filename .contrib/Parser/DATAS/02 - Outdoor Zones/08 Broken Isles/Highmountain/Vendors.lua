@@ -28,7 +28,119 @@ root(ROOTS.Zones, {
 					["coord"] = { 38.3, 45.8, 750 },	-- Thunder Totem
 					["groups"] = bubbleDownClassicRep(FACTION_HIGHMOUNTAIN_TRIBE, {
 						{		-- Neutral
+							i(245409, {	-- Dried Whitewash Corn (DECOR!)
+								["sourceQuest"] = 39496,	-- The Flow of the River
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(257722, {	-- Hanging Arrow Kite (DECOR!)
+								["sourceQuest"] = 39426,	-- Blood Debt
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(260698, {	-- Kobold Trassure Pile (DECOR!)
+								["sourceQuest"] = 39772,	-- Can't Hold a Candle To You
+								["cost"] = {
+									{ "g", 1000000 },	-- 100g
+									{ "c", ORDER_RESOURCES, 200 },
+								},
+							}),
+							i(245405, {	-- Large Highmountain Drum (DECOR!)
+								["sourceQuest"] = 42622,	-- Ceremonial Drums
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(245457, {	-- Riverbend Netting (DECOR!)
+								["sourceQuest"] = 39614,	-- Fish Out of Water
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(257721, {	-- Skyhorn Arrow Kite (DECOR!)
+								["sourceAchievement"] = 10398,	-- Drum Circle
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(257401, {	-- Skyhorn Banner (DECOR!)
+								["sourceQuest"] = 39387,	-- The Skies of Highmountain
+								["cost"] = {
+									{ "g", 7000000 },	-- 700g
+									{ "c", ORDER_RESOURCES, 1000 },
+								},
+							}),
+							i(257723, {	-- Skyhorn Eagle Kite (DECOR!)
+								["sourceQuest"] = 39305,	-- Empty Nest
+								["cost"] = {
+									{ "g", 5000000 },	-- 500g
+									{ "c", ORDER_RESOURCES, 750 },
+								},
+							}),
+							i(245460, {	-- Skyhorn Storage Chest (DECOR!)
+								["sourceAchievement"] = 11257,	-- Treasures of Highmountain
+								["cost"] = {
+									{ "g", 5000000 },	-- 500g
+									{ "c", ORDER_RESOURCES, 750 },
+								},
+							}),
+							i(256913, {	-- Tauren Jeweler's Roller (DECOR!)
+								["sourceAchievement"] = 10996,	-- Got to Ketchum All
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(257397, {	-- Tauren Storyteller's Frame (DECOR!)
+								["sourceQuest"] = 39992,	-- Huln's War - The Nathrezim
+								["cost"] = {
+									{ "g", 5000000 },	-- 500g
+									{ "c", ORDER_RESOURCES, 750 },
+								},
+							}),
+							i(245461, {	-- Tauren Vertical Windmill (DECOR!)
+								["sourceQuest"] = 39780,	-- The Underking
+								["cost"] = {
+									{ "g", 7000000 },	-- 700g
+									{ "c", ORDER_RESOURCES, 1000 },
+								},
+							}),
+							i(245456, {	-- Warbrave's Brazier (DECOR!)
+								["sourceQuest"] = 39579,	-- The Backdoor
+								["cost"] = {
+									{ "g", 5000000 },	-- 500g
+									{ "c", ORDER_RESOURCES, 750 },
+								},
+							}),
+							i(245453, {	-- Whitewash River Basket (DECOR!)
+								["sourceQuest"] = 42590,	-- Moozy's Reunion
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
 						}, {	-- Friendly
+							i(245458, {	-- Riverbend Jar (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
+							i(245454, {	-- Small Highmountain Drum (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", ORDER_RESOURCES, 500 },
+								},
+							}),
 							i(131814),	-- Whitewater Carp (TOY!)
 						}, {	-- Honored
 							i(140215, {	-- Boon of the Butcher
@@ -42,6 +154,20 @@ root(ROOTS.Zones, {
 							}),
 							i(136697, {	-- Plans: Gleaming Iron Spike (RECIPE!)
 								["cost"] = 5500000,		-- 550g
+							}),
+							i(245452, {	-- Stonebull Canoe (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 5000000 },	-- 500g
+									{ "c", ORDER_RESOURCES, 750 },
+								},
+							}),
+							i(248985, {	-- Tauren Hanging Brazier (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 5000000 },	-- 500g
+									{ "c", ORDER_RESOURCES, 750 },
+								},
 							}),
 							i(140731, {	-- Treasure Map: Highmountain
 								["filterID"] = CONSUMABLES,
@@ -60,6 +186,20 @@ root(ROOTS.Zones, {
 								["timeline"] = { ADDED_7_1_0 },
 								["cost"] = 5500000,		-- 550g
 							}),
+							i(243359, {	-- Tauren Windmill (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 7000000 },	-- 700g
+									{ "c", ORDER_RESOURCES, 1000 },
+								},
+							}),
+							i(245270, {	-- Thunder Totem Kiln (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 7000000 },	-- 700g
+									{ "c", ORDER_RESOURCES, 1000 },
+								},
+							}),
 						}, {	-- Exalted
 							i(137855, {	-- Design: Ancient Maelstrom Amulet [Rank 3] (RECIPE!)
 								["cost"] = 30000000,	-- 3,000g
@@ -69,6 +209,13 @@ root(ROOTS.Zones, {
 							}),
 							i(137844, {	-- Design: Prophetic Band [Rank 3] (RECIPE!)
 								["cost"] = 30000000,	-- 3,000g
+							}),
+							i(245450, {	-- Highmountain Totem (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 10000000 },	-- 1,000g
+									{ "c", ORDER_RESOURCES, 2000 },
+								},
 							}),
 							i(139597, {	-- Mountainforged Chain Hauberk
 								["cost"] = 50000000,	-- 5,000g
@@ -87,6 +234,13 @@ root(ROOTS.Zones, {
 								["cost"] = 30000000,	-- 3,000g
 							}),
 							i(140576),	-- Tabard of the Hightmountain Tribe
+							i(243290, {	-- Tauren Waterwheel (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 10000000 },	-- 1,000g
+									{ "c", ORDER_RESOURCES, 2000 },
+								},
+							}),
 						},
 					}),
 				}),
@@ -102,34 +256,108 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(108017, {	-- Torv Dubstomp
-					["coord"] = { 53.4, 78.0, 652 },	-- Thunder Totem
+					["coord"] = { 54.9, 78.1, 652 },	-- Thunder Totem
 					["groups"] = sharedData({
 						["timeline"] = { ADDED_11_2_7 },
 					}, {
-						i(245409),	-- Dried Whitewash Corn (DECOR!)
-						i(257722),	-- Hanging Arrow Kite (DECOR!)
+						i(245409, {	-- Dried Whitewash Corn (DECOR!)
+							["sourceQuest"] = 39496,	-- The Flow of the River
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
+						}),
+						i(257722, {	-- Hanging Arrow Kite (DECOR!)
+							["sourceQuest"] = 39426,	-- Blood Debt
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
+						}),
 						i(260698, {	-- Kobold Trassure Pile (DECOR!)
 							["sourceQuest"] = 39772,	-- Can't Hold a Candle To You
+							["cost"] = {
+								{ "g", 1000000 },	-- 100g
+								{ "c", ORDER_RESOURCES, 200 },
+							},
 						}),
-						i(245405),	-- Large Highmountain Drum (DECOR!)
-						i(245457),	-- Riverbend Netting (DECOR!)
+						i(245405, {	-- Large Highmountain Drum (DECOR!)
+							["sourceQuest"] = 42622,	-- Ceremonial Drums
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
+						}),
+						i(245457, {	-- Riverbend Netting (DECOR!)
+							["sourceQuest"] = 39614,	-- Fish Out of Water
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
+						}),
 						i(257721, {	-- Skyhorn Arrow Kite (DECOR!)
 							["sourceAchievement"] = 10398,	-- Drum Circle
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
 						}),
-						i(257401),	-- Skyhorn Banner (DECOR!)
+						i(257401, {	-- Skyhorn Banner (DECOR!)
+							["sourceQuest"] = 39387,	-- The Skies of Highmountain
+							["cost"] = {
+								{ "g", 7000000 },	-- 700g
+								{ "c", ORDER_RESOURCES, 1000 },
+							},
+						}),
 						i(257723, {	-- Skyhorn Eagle Kite (DECOR!)
 							["sourceQuest"] = 39305,	-- Empty Nest
+							["cost"] = {
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },
+							},
 						}),
 						i(245460, {	-- Skyhorn Storage Chest (DECOR!)
 							["sourceAchievement"] = 11257,	-- Treasures of Highmountain
+							["cost"] = {
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },
+							},
 						}),
 						i(256913, {	-- Tauren Jeweler's Roller (DECOR!)
 							["sourceAchievement"] = 10996,	-- Got to Ketchum All
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
 						}),
-						i(257397),	-- Tauren Storyteller's Frame (DECOR!)
-						i(245461),	-- Tauren Vertical Windmill (DECOR!)
-						i(245456),	-- Warbrave's Brazier (DECOR!)
-						i(245453),	-- Whitewash River Basket (DECOR!)
+						i(257397, {	-- Tauren Storyteller's Frame (DECOR!)
+							["sourceQuest"] = 39992,	-- Huln's War - The Nathrezim
+							["cost"] = {
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },
+							},
+						}),
+						i(245461, {	-- Tauren Vertical Windmill (DECOR!)
+							["sourceQuest"] = 39780,	-- The Underking
+							["cost"] = {
+								{ "g", 7000000 },	-- 700g
+								{ "c", ORDER_RESOURCES, 1000 },
+							},
+						}),
+						i(245456, {	-- Warbrave's Brazier (DECOR!)
+							["sourceQuest"] = 39579,	-- The Backdoor
+							["cost"] = {
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },
+							},
+						}),
+						i(245453, {	-- Whitewash River Basket (DECOR!)
+							["sourceQuest"] = 42590,	-- Moozy's Reunion
+							["cost"] = {
+								{ "g", 3000000 },	-- 300g
+								{ "c", ORDER_RESOURCES, 500 },
+							},
+						}),
 					}),
 				}),
 				header(HEADERS.Faction, FACTION_TALONS_VENGENCE, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {

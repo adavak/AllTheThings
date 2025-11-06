@@ -4611,11 +4611,9 @@ root(ROOTS.Unsorted, {
 				i(241067),	-- Large Forsaken Spiked Brazier
 				i(243113),	-- Blue Dazar'alor Rug
 				i(243130),	-- Zandalari Weapon Rack
-				i(243290),	-- Tauren Waterwheel
 				i(243312),	-- Undermine Rectangular Table
 				i(243321),	-- Cartel Head's Schmancy Desk
 				i(243335),	-- Tauren Bluff Rug
-				i(243359),	-- Tauren Windmill
 				i(244313),	-- Orcish Fence
 				i(244315),	-- Orcish Warlord's Planning Table
 				i(244316),	-- Warsong Workbench
@@ -4631,7 +4629,6 @@ root(ROOTS.Unsorted, {
 				i(245258),	-- Val'sharah Bookcase
 				i(245259),	-- Small Val'sharah Bookcase
 				i(245263),	-- Zocalo Drinks
-				i(245270),	-- Thunder Totem Kiln
 				i(245275),	-- Rolled Scroll
 				i(245283),	-- Blood Elven Candelabra
 				i(245285),	-- Reliquary Storage Crate
@@ -4672,10 +4669,6 @@ root(ROOTS.Unsorted, {
 				i(245444),	-- Orcish Communal Stove
 				i(245445),	-- Frostwolf Axe-Dart Board
 				i(245449),	-- Ancient Elven Highback Chair
-				i(245450),	-- Highmountain Totem
-				i(245452),	-- Stonebull Canoe
-				i(245454),	-- Small Highmountain Drum
-				i(245458),	-- Riverbend Jar
 				i(245462),	-- Banshee Queen's Banner
 				i(245464),	-- Inert Blight Canister
 				i(245465),	-- Tirisfal Wooden Chair
@@ -4785,7 +4778,6 @@ root(ROOTS.Unsorted, {
 				i(247734),	-- Paw'don Well
 				i(247737),	-- Stormstout Brew Keg
 				i(247842),	-- Nightborne Merchant's Stall
-				i(247843),	-- Deluxe Suramar Sleeper
 				i(247855),	-- Pandaren Lacquered Crate
 				i(247858),	-- Shaohao Ceremonial Bell
 				i(247908),	-- Nightborne Lantern
@@ -4811,7 +4803,6 @@ root(ROOTS.Unsorted, {
 				i(248808),	-- Nesingwary Elk Trophy
 				i(248810),	-- Rough Wooden Chair
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
-				i(248985),	-- Tauren Hanging Brazier
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
 				i(249549),	-- Draconic Crafter's Table
@@ -4866,7 +4857,6 @@ root(ROOTS.Unsorted, {
 				i(255673),	-- Moonclasp Satchel
 				i(255674),	-- Incontinental Table Lamp
 				i(255840),	-- Champion Brawler's Gloves
-				i(256049),	-- Sin'dorei Sleeper
 				i(256327),	-- Open Rust-Plated Storage Crate
 				i(256328),	-- Leftover Undermine Takeout
 				i(256330),	-- Kharanos Stone Bed
@@ -4881,7 +4871,6 @@ root(ROOTS.Unsorted, {
 				i(257399),	-- Zandalari War Brazier
 				i(257405),	-- Baradin Bay Fishing Rack
 				i(257412),	-- Stoppered Gilnean Barrel
-				i(257419),	-- Sin'dorei Crafter's Forge
 				i(257598),	-- Suramar Stepping Stone Set
 				i(257693),	-- Snowfall Tribe Scare-Totem
 				i(257694),	-- Gilnean Green Potion

@@ -12,10 +12,19 @@ root(ROOTS.Zones, {
 				ach(10669),	-- Explore Suramar
 				ach(11124, {	-- Good Suramaritan
 					["sym"] = {{ "achievement_criteria" }},
-					["groups"] = { i(245448, {["timeline"] = { ADDED_11_2_7 }}),},	-- "Night on the Jeweled Estate" Painting (DECOR!)
+					["groups"] = {
+						i(245448, {	-- "Night on the Jeweled Estate" Painting (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(11340, {	-- Insurrection
 					["sym"] = {{ "achievement_criteria" }},
+					["groups"] = {
+						i(247843, {	-- Deluxe Suramar Sleeper (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(10756, {	-- Leyline Bling
 					["sym"] = {{ "achievement_criteria" }},

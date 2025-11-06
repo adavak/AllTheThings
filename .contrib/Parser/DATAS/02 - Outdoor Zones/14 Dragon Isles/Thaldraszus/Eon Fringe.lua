@@ -22,7 +22,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_6 } }, {
 				ach(19507, {	-- Fringe Benefits
 					["sym"] = {{ "achievement_criteria" }},
-					["groups"] = { i(248105, {["timeline"] = { ADDED_11_2_7 }}),},	-- Valdrakken Sconce (DECOR!)
+					["groups"] = {
+						i(248105, {	-- Valdrakken Sconce (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 			})),
 			n(QUESTS, {
@@ -330,6 +334,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						}),
 						i(206926, {	-- Off-Sync Off-Hammer (COSMETIC!)
 							["cost"] = {{ "c", DRAGON_SUPPLIES, 600 }},
+						}),
+						i(248105, {	-- Valdrakken Sconce (DECOR!)
+							["sourceAchievement"] = 19507,	-- Fringe Benefits
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 					},
 				}),
