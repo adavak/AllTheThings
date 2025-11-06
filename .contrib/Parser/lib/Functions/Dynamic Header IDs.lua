@@ -94,6 +94,7 @@ HeaderAssignments = {
 	["Cata Classic Blazing Upgrade"] = -526,
 	["Cataclysmic Gladiator"] = -258,
 	["Cataloging"] = -460,
+	["Catch Up Experience"] = -684,
 	["Cathedral"] = -364,
 	["Celestial Dungeons"] = -655,
 	["Cgi.Children's Week"] = -559,
@@ -674,4 +675,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -684;
+NextHeaderID = -685;

@@ -28,6 +28,9 @@ root(ROOTS.Zones, {
 						ROGUE,			-- Subtlety
 						WARRIOR,		-- Arms
 					},
+					["groups"] = {
+						hqt(45853, name(HEADERS.Achievement, 11609)),	-- Melee DPS Trait Complete
+					},
 				}),
 				q(45864, {	-- A Gift From the Six
 					["sourceQuests"] = { 46200 },	-- The Matter Resolved... For Now...
@@ -39,6 +42,9 @@ root(ROOTS.Zones, {
 						SHAMAN,
 						MONK,
 						DRUID
+					},
+					["groups"] = {
+						hqt(45852, name(HEADERS.Achievement, 11609)),	-- Healer Trait Complete
 					},
 				}),
 				q(45862, {	-- A Gift From the Six
@@ -52,6 +58,9 @@ root(ROOTS.Zones, {
 						SHAMAN,		-- Enhancement
 						WARLOCK,	-- Demonology
 					},
+					["groups"] = {
+						hqt(45849, name(HEADERS.Achievement, 11609)),	-- 3+ Targets Trait Complete
+					},
 				}),
 				q(45842, {	-- A Gift From the Six
 					["sourceQuests"] = { 45841 },	-- A Triumphant Report
@@ -62,6 +71,9 @@ root(ROOTS.Zones, {
 						MONK,		-- Windwalker
 						PRIEST,		-- Discipline
 						WARLOCK,	-- Destruction
+					},
+					["groups"] = {
+						hqt(45851, name(HEADERS.Achievement, 11609)),	-- Dual Boss Trait Complete
 					},
 				}),
 				q(45866, {	-- A Gift From the Six
@@ -74,6 +86,9 @@ root(ROOTS.Zones, {
 						MAGE,	-- Frost
 						PRIEST,	-- Shadow
 						WARLOCK,	-- Affliction
+					},
+					["groups"] = {
+						hqt(45854, name(HEADERS.Achievement, 11609)),	-- Ranged DPS Trait Complete
 					},
 				}),
 				q(45861, {	-- A Gift From the Six
@@ -88,6 +103,9 @@ root(ROOTS.Zones, {
 						SHAMAN,			-- Elemental
 						WARRIOR,		-- Fury
 					},
+					["groups"] = {
+						hqt(45850, name(HEADERS.Achievement, 11609)),	-- AoE DPS Trait Complete
+					},
 				}),
 				q(45863, {	-- A Gift From the Six
 					["sourceQuests"] = { 45843 },	-- Dark Omens
@@ -100,6 +118,9 @@ root(ROOTS.Zones, {
 						MONK,			-- Brewmaster
 						PALADIN,		-- Protection
 						WARRIOR,		-- Protection
+					},
+					["groups"] = {
+						hqt(45855, name(HEADERS.Achievement, 11609)),	-- Tank Trait Complete
 					},
 				}),
 				q(72129, {	-- Aiding Khadgar

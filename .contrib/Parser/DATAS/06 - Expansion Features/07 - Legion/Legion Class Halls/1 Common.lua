@@ -82,19 +82,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				-- #ENDIF
 			}),
 			un(REMOVED_FROM_GAME, ach(10852)),		-- Artifact or Artifiction
-			ach(11137, {	-- A Legendary Campaign
-				["sym"] = {{ "achievement_criteria" }},
-				["groups"] = {
-					ach(11136),	-- An Epic Campaign
-					ach(11135),	-- A Heroic Campaign
-					ach(10994),	-- A Glorious Campaign
-				},
-			}),
+			ach(11137),	-- A Legendary Campaign
+			achpart(11136, 11137),	-- An Epic Campaign
+			achpart(11135, 11137),	-- A Heroic Campaign
+			achpart(10994, 11137),	-- A Glorious Campaign
 			ach(11171),	-- Arsenal of Power
-			ach(11222, {	-- Champions of Power
-				ach(11221),	-- Champions Rise
-				ach(11220),	-- Roster of Champions
-			}),
+			ach(11222),	-- Champions of Power
+			ach(11221),	-- Champions Rise
+			ach(11220),	-- Roster of Champions
 			ach(11846, {	-- Champions of Legionfall (Broken Shore)
 				crit(36604, {		-- Complete 'Champions of Legionfall'
 					["_quests"] = { 47137 },
@@ -116,26 +111,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 				},
 			}),
-			ach(10747, {	-- Fighting with Style: Upgraded
-				ach(10746, {	-- Forged for Battle
-					["sourceQuests"] = {
-						43407,	-- A Hero's Weapon (Death Knight)
-						43412,	-- A Hero's Weapon (Demon Hunter)
-						43409,	-- A Hero's Weapon (Druid)
-						43423,	-- A Hero's Weapon (Hunter)
-						43415,	-- A Hero's Weapon (Mage)
-						43359,	-- A Hero's Weapon (Monk)
-						43424,	-- A Hero's Weapon (Paladin)
-						43420,	-- A Hero's Weapon (Priest)
-						43422,	-- A Hero's Weapon (Rogue)
-						43418,	-- A Hero's Weapon (Shaman)
-						43414,	-- A Hero's Weapon (Warlock)
-						43425,	-- A Hero's Weapon (Warrior)
-					},
-				}),
-				ach(11144),	-- Power Realized
-				ach(10853),	-- Part of History
-			}),
+			ach(10747),	-- Fighting with Style: Upgraded
 			ach(10748, {	-- Fighting with Style: Valorous
 				["sym"] = {{"meta_achievement",
 						10459,	-- Improving on History
@@ -163,47 +139,38 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					crit(32155),	-- Honor Level 80
 				},
 			}),
+			ach(10746, {	-- Forged for Battle
+				["sourceQuests"] = {
+					43407,	-- A Hero's Weapon (Death Knight)
+					43412,	-- A Hero's Weapon (Demon Hunter)
+					43409,	-- A Hero's Weapon (Druid)
+					43423,	-- A Hero's Weapon (Hunter)
+					43415,	-- A Hero's Weapon (Mage)
+					43359,	-- A Hero's Weapon (Monk)
+					43424,	-- A Hero's Weapon (Paladin)
+					43420,	-- A Hero's Weapon (Priest)
+					43422,	-- A Hero's Weapon (Rogue)
+					43418,	-- A Hero's Weapon (Shaman)
+					43414,	-- A Hero's Weapon (Warlock)
+					43425,	-- A Hero's Weapon (Warrior)
+				},
+			}),
 			ach(10460),	-- Hidden Potential
 			ach(10459),	-- Improving on History
-			ach(11213, {	-- Lead a Legion (100)
-				ach(11212),	-- Raise an Army (20)
-				ach(10706),	-- Training the Troops (5)
-			}),
+			ach(11213),	-- Lead a Legion (100)
+			ach(11212),	-- Raise an Army (20)
+			ach(10706),	-- Training the Troops (5)
 			ach(11223),	-- Legendary Research
-			ach(11217, {	-- Many Many Missions, Handle It! (500)
-				ach(11216),	-- So Many Missions (100)
-				ach(11215),	-- Quite a Few Missions (50)
-				ach(11214),	-- Many Missions (10)
-			}),
+			ach(11217),	-- Many Many Missions, Handle It! (500)
+			ach(11216),	-- So Many Missions (100)
+			ach(11215),	-- Quite a Few Missions (50)
+			ach(11214),	-- Many Missions (10)
 			ach(11219),	-- Need Backup
-			un(REMOVED_FROM_GAME, ach(11772, {		-- Power Ascended
-				un(REMOVED_FROM_GAME, ach(11144)),		-- Power Realized
-			})),
-			ach(11610, {	-- Power Unleashed
-				ach(11609, {	-- Power Unbound
-					crit(35630, {
-						["_quests"] = 45849,	-- Tracking Quest - 3+ Targets Trait Complete - completed "A Gift From The Six" (questID 45862)
-					}),
-					crit(35632, {
-						["_quests"] = 45851,	-- Dual Boss Trait Complete - completed "A Gift From The Six" (questID 45842)
-					}),
-					crit(35820, {
-						["_quests"] = 45855,	-- Tank Trait Complete - completed "A Gift From The Six" (questID 45863)
-					}),
-					crit(35821, {
-						["_quests"] = 45853,	-- Melee DPS Trait Complete - completed "A Gift From The Six" (questID 45865)
-					}),
-					crit(35822, {
-						["_quests"] = 45852,	-- Healer Trait Complete - completed "A Gift From The Six" (questID 45864)
-					}),
-					crit(35823, {
-						["_quests"] = 45854,	-- Ranged DPS Trait Complete - completed "A Gift From The Six" (questID 45866)
-					}),
-					crit(35824, {
-						["_quests"] = 45850,	-- Tracking Quest - AoE Chosen - completed "A Gift From The Six" (questID 45861)
-					}),
-				}),
-			}),
+			ach(10853),	-- Part of History
+			un(REMOVED_FROM_GAME, ach(11772)),	-- Power Ascended
+			un(REMOVED_FROM_GAME, ach(11144)),	-- Power Realized
+			ach(11609),	-- Power Unbound (automated)
+			ach(11610),	-- Power Unleashed
 		}),
 		n(FOLLOWERS, bubbleDownSelf({
 			["collectible"] = false,
