@@ -152,6 +152,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						["cost"] = {{ "i", ASPECTS_TOKEN_OF_MERIT_S1, 6 }},
 						["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_1_0 }
 					}),
+					i(248124, {	-- The Great Hoard (DECOR!)
+						["sourceAchievement"] = 19458,	-- A World Awoken
+						["cost"] = {{ "c", DRAGON_SUPPLIES, 7500 }},
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(205999, {	-- Volcanic Sculptor
 						["cost"] = {{ "i", ASPECTS_TOKEN_OF_MERIT_S2, 6 }},
 						["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 }

@@ -19,10 +19,14 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						6972,	-- What is Best in Life?
 						6980,	-- Temple of Kotmogu All-Star
 					}},
-					--[[["groups"] = {
-						i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Kotmogu Orb of Power
-						i(XXXXXX, {["timeline"] = { ADDED_12_0_0 }}),	-- Kotmogu Pedestal
-					},--]]
+					["groups"] = {
+						i(247741, {	-- Kotmogu Orb of Power (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+						i(247740, {	-- Kotmogu Pedestal (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(6740, {	-- Temple of Kotmogu Victory
 					["rank"] = 1,

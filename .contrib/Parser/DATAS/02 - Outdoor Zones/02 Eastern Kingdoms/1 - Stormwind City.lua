@@ -6964,40 +6964,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				n(87501, bubbleDownSelf({	-- Paulie
-					["races"] = ALLIANCE_ONLY,
-					["timeline"] = { ADDED_6_0_2 },
-				},{
-					["coord"] = { 73.0, 59.5, STORMWIND_CITY },
-					["groups"] = {
-						i(116789, {	-- Champion's Treadblade (MOUNT!)
-							["cost"] = 1000000000,	-- 100,000g
-						})
-					},
-				})),
-				n(167429, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {	-- Quartermaster Richter
-					["description"] = "Only sells items once the achievement |cffebae34Exile's Reach|r [14222] is completed.",
-					["coord"] = { 79.5, 69.0, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(175173),	-- Expeditionary Cudgel
-						i(175172),	-- Expeditionary Dagger
-						i(175166),	-- Expeditionary Greatsword
-						i(175162),	-- Expeditionary Longbow
-						i(175168),	-- Expeditionary Quarterstaff
-						i(175170),	-- Expeditionary Short Sword
-						i(175167),	-- Expeditionary Staff
-					},
-				})),
-				n(53991, {	-- Quincy Cutler <Owner and Proprietor>
-					["timeline"] = { ADDED_4_2_0 },
-					["coord"] = { 64.0, 46.2, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(44679),	-- Red Wine Glass
-						i(44678),	-- Wine Glass
-					},
-				}),
 				n(1323, {	-- Osric Strang <Heavy Armor Merchant>
 					["coords"] = {
 						-- #if AFTER WRATH
@@ -7042,6 +7008,40 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						2153,	-- Polished Scale Vest
 						17192,	-- Reinforced Targe
 					}},
+				}),
+				n(87501, bubbleDownSelf({	-- Paulie
+					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_6_0_2 },
+				},{
+					["coord"] = { 73.0, 59.5, STORMWIND_CITY },
+					["groups"] = {
+						i(116789, {	-- Champion's Treadblade (MOUNT!)
+							["cost"] = 1000000000,	-- 100,000g
+						})
+					},
+				})),
+				n(167429, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {	-- Quartermaster Richter
+					["description"] = "Only sells items once the achievement |cffebae34Exile's Reach|r [14222] is completed.",
+					["coord"] = { 79.5, 69.0, STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(175173),	-- Expeditionary Cudgel
+						i(175172),	-- Expeditionary Dagger
+						i(175166),	-- Expeditionary Greatsword
+						i(175162),	-- Expeditionary Longbow
+						i(175168),	-- Expeditionary Quarterstaff
+						i(175170),	-- Expeditionary Short Sword
+						i(175167),	-- Expeditionary Staff
+					},
+				})),
+				n(53991, {	-- Quincy Cutler <Owner and Proprietor>
+					["timeline"] = { ADDED_4_2_0 },
+					["coord"] = { 64.0, 46.2, STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(44679),	-- Red Wine Glass
+						i(44678),	-- Wine Glass
+					},
 				}),
 				n(5193, {	-- Rebecca Laughlin <Tabard Designer>
 					["coords"] = {
@@ -7090,6 +7090,85 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_10_2_7 },
 						}),
 					},
+				}),
+				n(254603, {	-- Riica <Battleground Decor Specialist>
+					["coord"] = { 77.8, 65.7, STORMWIND_CITY },
+					["timeline"] = { ADDED_11_2_7 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = pvp({
+						i(247757, {	-- Alliance Battlefield Banner (DECOR!)
+							["sourceAchievement"] = 158,	-- Me and the Cappin' Makin' It Happen
+							["cost"] = {{ "c", HONOR, 600 }},
+						}),
+						i(247744, {	-- Alliance Dueling Flag (DECOR!)
+							["sourceAchievement"] = 231,	-- Wrecking Ball
+							["cost"] = {{ "c", HONOR, 1000 }},
+						}),
+						i(247763, {	-- Berserker's Empowerment (DECOR!)
+							["sourceAchievement"] = 61683,	-- Entering Battle
+							["cost"] = {{ "i", 137642, 5 }},	-- 5x Mark of Honor
+						}),
+						i(247756, {	-- Challenger's Dueling Flag (DECOR!)
+							["sourceAchievement"] = 1157,	-- Duel-icious
+							["cost"] = {{ "c", HONOR, 1000 }},
+						}),
+						i(247769, {	-- Chaotic Empowerment (DECOR!)
+							["sourceAchievement"] = 61685,	-- Proficient in Battle
+							["cost"] = {{ "i", 137642, 5 }},	-- 5x Mark of Honor
+						}),
+						i(247750, {	-- Deephaul Crystal (DECOR!)
+							["sourceAchievement"] = 40612,	-- Sprinting in the Ravine
+							["cost"] = {{ "c", HONOR, 2500 }},
+						}),
+						i(253170, {	-- Earthen Contender's Target (DECOR!)
+							["sourceAchievement"] = 40210,	-- Deephaul Ravine Victory
+							["cost"] = {{ "c", HONOR, 750 }},
+						}),
+						i(247758, {	-- Fortified Alliance Banner (DECOR!)
+							["sourceAchievement"] = 221,	-- Alterac Grave Robber
+							["cost"] = {{ "c", HONOR, 1200 }},
+						}),
+						i(247768, {	-- Guardian's Empowerment (DECOR!)
+							["sourceAchievement"] = 61684,	-- Progressing in Battle
+							["cost"] = {{ "i", 137642, 5 }},	-- 5x Mark of Honor
+						}),
+						i(247765, {	-- Healer's Empowerment (DECOR!)
+							["sourceAchievement"] = 61687,	-- Champion in Battle
+							["cost"] = {{ "i", 137642, 5 }},	-- 5x Mark of Honor
+						}),
+						i(247741, {	-- Kotmogu Orb of Power (DECOR!)
+							["sourceAchievement"] = 6981,	-- Master of Temple of Kotmogu
+							["cost"] = {{ "c", HONOR, 1000 }},
+						}),
+						i(247740, {	-- Kotmogu Pedestal (DECOR!)
+							["sourceAchievement"] = 6981,	-- Master of Temple of Kotmogu
+							["cost"] = {{ "c", HONOR, 2000 }},
+						}),
+						i(247770, {	-- Mysterious Empowerment (DECOR!)
+							["sourceAchievement"] = 61686,	-- Expert in Battle
+							["cost"] = {{ "i", 137642, 2 }},	-- 2x Mark of Honor
+						}),
+						i(247762, {	-- Netherstorm Battlefield Flag (DECOR!)
+							["sourceAchievement"] = 213,	-- Stormtrooper
+							["cost"] = {{ "c", HONOR, 300 }},
+						}),
+						i(247766, {	-- Runner's Empowerment (DECOR!)
+							["sourceAchievement"] = 61688,	-- Master in Battle
+							["cost"] = {{ "i", 137642, 5 }},	-- 5x Mark of Honor
+						}),
+						i(247746, {	-- Silverwing Sentinels Flag (DECOR!)
+							["sourceAchievement"] = 200,	-- Persistent Defender
+							["cost"] = {{ "c", HONOR, 800 }},
+						}),
+						i(256896, {	-- Smoke Lamppost (DECOR!)
+							["sourceAchievement"] = 5245,	-- Battle for Gilneas Victory
+							["cost"] = {{ "c", HONOR, 450 }},
+						}),
+						i(247761, {	-- Uncontested Battlefield Banner (DECOR!)
+							["sourceAchievement"] = 212,	-- Storm Capper
+							["cost"] = {{ "c", HONOR, 400 }},
+						}),
+					}),
 				}),
 				n(277, {	-- Roberto Pupellyverbos <Merlot Connoisseur>
 					["coords"] = {

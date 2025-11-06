@@ -4599,7 +4599,6 @@ root(ROOTS.Unsorted, {
 				i(258558),	-- Sandfury Diplomat's Banner
 				i(258561),	-- Kyrian Aspirant's Rolled Cushion
 				i(238862),	-- [DNT] Cenarion Round Rug - do not use - new asset
-				i(238863),	-- Kaldorei Desk
 				i(238975),	-- Reliquary Telescope
 				i(239162),	-- Wooden Mug
 				i(239177),	-- Open Tome of Twilight Nihilism
@@ -4631,7 +4630,6 @@ root(ROOTS.Unsorted, {
 				i(244777),	-- Surwich Peddler's Wagon
 				i(245258),	-- Val'sharah Bookcase
 				i(245259),	-- Small Val'sharah Bookcase
-				i(245260),	-- Kaldorei Chef's Table
 				i(245263),	-- Zocalo Drinks
 				i(245270),	-- Thunder Totem Kiln
 				i(245275),	-- Rolled Scroll
@@ -4786,8 +4784,6 @@ root(ROOTS.Unsorted, {
 				i(247732),	-- Lucky Hanging Lantern
 				i(247734),	-- Paw'don Well
 				i(247737),	-- Stormstout Brew Keg
-				i(247740),	-- Kotmogu Pedestal
-				i(247741),	-- Kotmogu Orb of Power
 				i(247842),	-- Nightborne Merchant's Stall
 				i(247843),	-- Deluxe Suramar Sleeper
 				i(247855),	-- Pandaren Lacquered Crate
@@ -4871,7 +4867,6 @@ root(ROOTS.Unsorted, {
 				i(255674),	-- Incontinental Table Lamp
 				i(255840),	-- Champion Brawler's Gloves
 				i(256049),	-- Sin'dorei Sleeper
-				i(256168),	-- Draconic Sconce
 				i(256327),	-- Open Rust-Plated Storage Crate
 				i(256328),	-- Leftover Undermine Takeout
 				i(256330),	-- Kharanos Stone Bed

@@ -4,6 +4,23 @@
 root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	m(VALSHARAH, {
 		n(VENDORS, {
+			n(112634, {	-- Hilseth Travelstride <Provisioner>
+				["coords"] = {	-- Wanlks back-and-forth between the coordinates
+					{ 57.2, 72.4, VALSHARAH },
+					{ 57.6, 76.5, VALSHARAH },
+					{ 56.4, 80.6, VALSHARAH },
+				},
+				["groups"] = {
+					i(245260, {	-- Kaldorei Chef's Table (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+						["cost"] = {{ "c", 1220, 400 }},	-- 400x Order Resource
+					}),
+					i(238863, {	-- Kaldorei Desk (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+						["cost"] = {{ "c", 1220, 300 }},	-- 300x Order Resource
+					}),
+				},
+			}),
 			n(93974, {	-- Leyweaver Erenyi
 				["coord"] = { 70.4, 46.6, VALSHARAH },
 				["groups"] = {

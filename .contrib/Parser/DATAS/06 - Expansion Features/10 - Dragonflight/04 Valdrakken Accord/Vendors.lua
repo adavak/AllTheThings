@@ -212,6 +212,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["coord"] = { 58.1, 35.2, VALDRAKKEN },
 				["groups"] = bubbleDownRep(FACTION_VALDRAKKEN_ACCORD, {
 					{		-- RENOWN 1 --
+						i(256168, {	-- Draconic Sconce (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 10 }},
+						}),
 					}, {	-- RENOWN 2 --
 					}, {	-- RENOWN 3 --
 						i(199648, {	-- Dragon Dinner Fork
@@ -304,24 +308,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}, {	-- RENOWN 9 --
 						i(197015, {	-- Cliffside Wylderdrake: Dark Skin Variation (MM!)
 							["timeline"] = { ADDED_10_0_7 },
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 						i(196972, {	-- Cliffside Wylderdrake: Plated Brow (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 						i(197003, {	-- Cliffside Wylderdrake: Spiked Cheek (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 						i(196977, {	-- Cliffside Wylderdrake: Split Head Horns (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 					}, {	-- RENOWN 10 --
 						i(199655, {	-- Black Dragonspawn Shoulderpads
@@ -356,19 +352,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						}),
 					}, {	-- RENOWN 11 --
 						i(199818, {	-- Formula: Enchant Boots - Watcher's Loam (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 						i(199817, {	-- Formula: Enchant Cloak - Homebound Speed (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 						i(199246, {	-- Schematic: Tinker: Grounded Circuitry (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 50 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 50 }},
 						}),
 					}, {	-- RENOWN 12 --
 					}, {	-- RENOWN 13 --
@@ -413,88 +403,56 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							["cost"] = {{ "c", DRAGON_SUPPLIES, 300 }},
 						}),
 						i(191545, {	-- Recipe: Sustaining Alchemist's Stone (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 400 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
 						}),
 						i(194482, {	-- Plans: Obsidian Seared Invoker (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 400 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
 						}),
 						i(194479, {	-- Plans: Obsidian Seared Claymore (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 400 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
 						}),
 						i(194280, {	-- Pattern: Chronocloth Sash (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 400 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
 						}),
 						i(194279, {	-- Pattern: Azureweave Slippers (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 400 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 400 }},
 						}),
 					}, {	-- RENOWN 15 --
 						i(196974, {	-- Cliffside Wylderdrake: Four-Horned Chin (MM!)
 							["timeline"] = { ADDED_10_0_7 },
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 100 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
 						}),
 						i(196998, {	-- Cliffside Wylderdrake: Hook Horns (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 100 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
 						}),
 						i(197009, {	-- Cliffside Wylderdrake: Scaled Pattern (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 100 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
 						}),
 						i(197020, {	-- Cliffside Wylderdrake: Spear Tail (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 100 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
 						}),
 						i(197004, {	-- Cliffside Wylderdrake: Spiked Legs (MM!)
 							["timeline"] = { ADDED_10_0_7 },
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 100 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
 						}),
 						i(196989, {	-- Cliffside Wylderdrake: White Hair (MM!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 100 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 100 }},
 						}),
 						i(198892, {	-- Technique: Cliffside Wylderdrake: Red Hair (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 25 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 25 }},
 						}),
 					}, {	-- RENOWN 16 --
 						i(199761, {	-- Valdrakken Dragonspawn Waistguard
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 						i(199762, {	-- Valdrakken Guards Belt
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 						i(199759, {	-- Valdrakken Plate Girdle
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 						i(199760, {	-- Valdrakken Spellweaver's Cord
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 					}, {	-- RENOWN 17 --
 						i(199682, {	-- Bronze Drakonid Helmet
@@ -544,44 +502,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						}),
 					}, {	-- RENOWN 19 --
 						i(194500, {	-- Plans: Khaz'gorite Leatherworker's Toolset (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(194498, {	-- Plans: Khaz'gorite Needle Set (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(194495, {	-- Plans: Khaz'gorite Sickle (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(199244, {	-- Schematic: Khaz'gorite Delver's Helmet  (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(199245, {	-- Schematic: Lapidary's Khaz'gorite Clamps  (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(194288, {	-- Pattern: Master's Wildercloth Alchemist's Robe (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(194290, {	-- Pattern: Master's Wildercloth Enchanter's Hat (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 						i(194292, {	-- Pattern: Master's Wildercloth Gradening Hat (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 500 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 500 }},
 						}),
 					}, {	-- RENOWN 20 --
 						i(248652, {	-- Dragon's Grand Mirror (DECOR!)
@@ -651,35 +593,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						}),
 					}, {	-- RENOWN 22 --
 						i(199766, {	-- Expedition Guard's Helm
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 						i(199764, {	-- Expedition Mercenary's Helm
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 						i(199763, {	-- Expedition Researcher's Hood
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 						i(199765, {	-- Field Scout's Helmet
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 150 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 						}),
 					}, {	-- RENOWN 23 --
 						i(194287, {	-- Pattern: Chronocloth Reagent Bag (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 750 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 750 }},
 						}),
 						i(198941, {	-- Technique: Contract: Valdrakken Accord (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 200 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 200 }},
 						}),
 					}, {	-- RENOWN 24 --
 					}, {	-- RENOWN 25 --
@@ -869,14 +799,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							},
 						}),
 						i(194282, {	-- Pattern: Cushion of Time Travel (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 750 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 750 }},
 						}),
 						i(198912, {	-- Technique: Illusion Parchment: Whirling Breeze (RECIPE!)
-							["cost"] = {
-								{ "c", DRAGON_SUPPLIES, 750 },
-							},
+							["cost"] = {{ "c", DRAGON_SUPPLIES, 750 }},
 						}),
 					}, {	-- RENOWN 29 --
 						i(199736, {	-- Amber Dragonflame Blade

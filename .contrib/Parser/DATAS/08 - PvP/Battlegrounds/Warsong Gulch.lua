@@ -132,14 +132,22 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				ach(167, {	-- Warsong Gulch Veteran
 					["timeline"] = { ADDED_3_0_2 },
 					["rank"] = 100,
-					["groups"] = { i(247747, {["timeline"] = { ADDED_11_2_7 }}),},	-- Warsong Outriders Flag (DECOR!)
+					["groups"] = {
+						i(247747, {	-- Warsong Outriders Flag (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(199, {	-- Capture the Flag
 					["timeline"] = { ADDED_3_0_2 },
 				}),
 				ach(200, {	-- Persistent Defender
 					["timeline"] = { ADDED_3_0_2 },
-					["groups"] = { i(247746, {["timeline"] = { ADDED_11_2_7 }}),},	-- Silverwing Sentinels Flag (DECOR!)
+					["groups"] = {
+						i(247746, {	-- Silverwing Sentinels Flag (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(872, {	-- Frenzied Defender
 					["timeline"] = { ADDED_3_0_2 },

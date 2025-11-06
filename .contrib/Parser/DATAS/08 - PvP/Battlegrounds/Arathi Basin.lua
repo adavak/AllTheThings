@@ -108,11 +108,19 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				}),
 				ach(158, {	-- Me and the Cappin' Makin' It Happen
 					["timeline"] = { ADDED_3_0_2 },
-					["groups"] = { i(247757, {["timeline"] = { ADDED_11_2_7 }}),},	-- Alliance Battlefield Banner (DECOR!)
+					["groups"] = {
+						i(247757, {	-- Alliance Battlefield Banner (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(1153, {	-- Overly Defensive
 					["timeline"] = { ADDED_3_0_2 },
-					["groups"] = { i(247759, {["timeline"] = { ADDED_11_2_7 }}),},	-- Horde Battlefield Banner (DECOR!)
+					["groups"] = {
+						i(247759, {	-- Horde Battlefield Banner (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				ach(161, {	-- Resilient Victory
 					["timeline"] = { ADDED_3_0_2 },
