@@ -1048,14 +1048,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
 						["groups"] = {
 							i(140939, {	-- Archmage's Armor Kit
-								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 2000 }},	-- 2,000x Order Resources
 							}),
 							i(140550),	-- Archmage's Battle Staff
 							i(140971, {	-- Archmage's Greater Armor Kit
-								["cost"] = {{ "c", 1220, 4000 }},	-- 4,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 4000 }},	-- 4,000x Order Resources
 							}),
 							i(140970, {	-- Archmage's Lesser Armor Kit
-								["cost"] = {{ "c", 1220, 500 }},		-- 500x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 500 }},		-- 500x Order Resources
 							}),
 							i(139747, {	-- Boots of Tirisgarde
 								["cost"] = 5000000,	-- 500g
@@ -1066,12 +1066,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(250306, {	-- Conjured Altar of the Guardian (DECOR!)
 								["sourceAchievement"] = 42291,	-- Hidden Potential of the Archmage
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 5000 }},	-- 5,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 5000 }},	-- 5,000x Order Resources
 							}),
 							i(256674, {	-- Conjured Archive of the Tirisgarde (DECOR!)
 								["sourceAchievement"] = 60966,	-- Legendary Research of the Tirisgarde
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 3000 }},	-- 3,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 3000 }},	-- 3,000x Order Resources
 							}),
 							i(139749, {	-- Cowl of Tirisgarde
 								["cost"] = 5000000,	-- 500g
@@ -1093,25 +1093,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							i(250239, {	-- Tirisgarde Banner (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 1000 }},	-- 1,000x Order Resources
 							}),
 							i(245429, {	-- Tirisgarde Book Tempest (DECOR!)
 								["sourceAchievement"] = 42274,	-- The Archmage's Campaign
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 1500 }},	-- 1,500x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 1500 }},	-- 1,500x Order Resources
 							}),
 							i(250132, {	-- Tirisgarde Brazier (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 500 }},	-- 500x Order Resources
 							}),
 							i(250130, {	-- Tirisgarde Candle (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 500 }},	-- 500x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 500 }},	-- 500x Order Resources
 							}),
 							i(250131, {	-- Tirisgarde War Map (DECOR!)
 								["sourceAchievement"] = 60985,	-- Raise an Army for the Hall of the Guardian
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", 1220, 2000 }},	-- 2,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 2000 }},	-- 2,000x Order Resources
 							}),
 						},
 					}),
@@ -1120,7 +1120,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["groups"] = {
 							i(147832, {	-- Magical Saucer (TOY!)
 								["sourceQuest"] = 45354,	-- Dispersion of the Discs
-								["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resources
+								["cost"] = {{ "c", ORDER_RESOURCES, 1000 }},	-- 1,000x Order Resources
 								["timeline"] = { ADDED_7_2_0 },
 							}),
 						},

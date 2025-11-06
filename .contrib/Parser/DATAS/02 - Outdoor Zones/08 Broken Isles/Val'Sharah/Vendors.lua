@@ -5,7 +5,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 	m(VALSHARAH, {
 		n(VENDORS, {
 			n(112634, {	-- Hilseth Travelstride <Provisioner>
-				["coords"] = {	-- Wanlks back-and-forth between the coordinates
+				["coords"] = {	-- Walks back-and-forth between the coordinates
 					{ 57.2, 72.4, VALSHARAH },
 					{ 57.6, 76.5, VALSHARAH },
 					{ 56.4, 80.6, VALSHARAH },
@@ -13,11 +13,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["groups"] = {
 					i(245260, {	-- Kaldorei Chef's Table (DECOR!)
 						["timeline"] = { ADDED_11_2_7 },
-						["cost"] = {{ "c", 1220, 400 }},	-- 400x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 400 }},	-- 400x Order Resource
 					}),
 					i(238863, {	-- Kaldorei Desk (DECOR!)
 						["timeline"] = { ADDED_11_2_7 },
-						["cost"] = {{ "c", 1220, 300 }},	-- 300x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 300 }},	-- 300x Order Resource
 					}),
 				},
 			}),
@@ -36,57 +36,57 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					i(238859, {	-- Cenarion Privacy Screen (DECOR!)
 						["minReputation"] = { FACTION_THE_DREAMWEAVERS, EXALTED },	-- The Dreamweavers, Exalted
 						["cost"] = {
-							{ "g",   10000000 },	-- 1,000g
-							{ "c", 1220, 2000 },	-- 2,000x Order Resources
+							{ "g", 10000000 },	-- 1,000g
+							{ "c", ORDER_RESOURCES, 2000 },	-- 2,000x Order Resources
 						},
 					}),
 					i(238861, {	-- Cenarion Rectangular Rug (DECOR!)
 						["minReputation"] = { FACTION_THE_DREAMWEAVERS, HONORED },	-- The Dreamweavers, Honored
 						["cost"] = {
-							{ "g",   5000000 },	-- 500g
-							{ "c", 1220, 750 },	-- 750x Order Resources
+							{ "g", 5000000 },	-- 500g
+							{ "c", ORDER_RESOURCES, 750 },	-- 750x Order Resources
 						},
 					}),
 					i(264168, {	-- Cenarion Round Rug (DECOR!)
 						["minReputation"] = { FACTION_THE_DREAMWEAVERS, HONORED },	-- The Dreamweavers, Honored
 						["cost"] = {
-							{ "g",   5000000 },	-- 500g
-							{ "c", 1220, 750 },	-- 750x Order Resources
+							{ "g", 5000000 },	-- 500g
+							{ "c", ORDER_RESOURCES, 750 },	-- 750x Order Resources
 						},
 					}),
 					i(245739, {	-- Crescent Moon Lamppost (DECOR!)
 						["sourceQuest"] = 40890,	-- The Tears of Elune
-						["cost"] = {{ "c", 1220, 600 }},	-- 600x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 600 }},	-- 600x Order Resource
 					}),
 					i(238860, {	-- Deluxe Val'sharah Bed (DECOR!)
-						["cost"] = {{ "c", 1220, 1000 }},	-- 1,000x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 1000 }},	-- 1,000x Order Resource
 					}),
 					i(245700, {	-- Kaldorei Cushioned Seat (DECOR!)
 						["sourceQuest"] = 38663,	-- The Die is Cast
-						["cost"] = {{ "c", 1220, 250 }},	-- 250x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 250 }},	-- 250x Order Resource
 					}),
 					i(245703, {	-- Kaldorei Treasure Trove (DECOR!)
 						["sourceAchievement"] = 11258,	-- Treasures of Val'sharah
-						["cost"] = {{ "c", 1220, 750 }},	-- 750x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 750 }},	-- 750x Order Resource
 					}),
 					i(245702, {	-- Kaldorei Wall Shelf (DECOR!)
 						["sourceQuest"] = 38147,	-- Entangled Dreams
-						["cost"] = {{ "c", 1220, 450 }},	-- 450x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 450 }},	-- 450x Order Resource
 					}),
 					i(245261, {	-- Kaldorei Washbasin (DECOR!)
 						["minReputation"] = { FACTION_THE_DREAMWEAVERS, REVERED },	-- The Dreamweavers, Revered
 						["cost"] = {
-							{ "g",    7000000 },	-- 700g
-							{ "c", 1220, 1000 },	-- 1,000x Order Resources
+							{ "g", 7000000 },	-- 700g
+							{ "c", ORDER_RESOURCES, 1000 },	-- 1,000x Order Resources
 						},
 					}),
 					i(251494, {	-- Moon-Blessed Barrel (DECOR!)
 						["minReputation"] = { FACTION_THE_DREAMWEAVERS, FRIENDLY },	-- The Dreamweavers, Friendly
-						["cost"] = {{ "c", 1220, 200 }},	-- 200x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 200 }},	-- 200x Order Resource
 					}),
 					i(245697, {	-- Shala'nir Feather Bed (DECOR!)
 						["sourceAchievement"] = 10698,	-- That's Val'sharah Folks!
-						["cost"] = {{ "c", 1220, 950 }},	-- 950x Order Resource
+						["cost"] = {{ "c", ORDER_RESOURCES, 950 }},	-- 950x Order Resource
 					}),
 				},
 			}),
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					}, {	-- Friendly
 						i(251494, {	-- Moon-Blessed Barrel (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 1220, 200 }},	-- 200x Order Resource
+							["cost"] = {{ "c", ORDER_RESOURCES, 200 }},	-- 200x Order Resource
 						}),
 						i(130158, {	-- Path of Elothir (TOY!)
 							["cost"] = 1000000,	-- 100g
@@ -112,15 +112,15 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(238861, {	-- Cenarion Rectangular Rug (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {
-								{ "g",   5000000 },	-- 500g
-								{ "c", 1220, 750 },	-- 750x Order Resources
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },	-- 750x Order Resources
 							},
 						}),
 						i(264168, {	-- Cenarion Round Rug (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {
-								{ "g",   5000000 },	-- 500g
-								{ "c", 1220, 750 },	-- 750x Order Resources
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },	-- 750x Order Resources
 							},
 						}),
 						i(128599, {	-- Formula: Enchant Ring - Word of Versatility [Rank 3] (RECIPE!)
@@ -146,8 +146,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(245261, {	-- Kaldorei Washbasin (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {
-								{ "g",    7000000 },	-- 700g
-								{ "c", 1220, 1000 },	-- 1,000x Order Resources
+								{ "g", 7000000 },	-- 700g
+								{ "c", ORDER_RESOURCES, 1000 },	-- 1,000x Order Resources
 							},
 						}),
 						i(130232, {	-- Moonfeather Statue (TOY!)
@@ -160,8 +160,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(238859, {	-- Cenarion Privacy Screen (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = {
-								{ "g",   10000000 },	-- 1,000g
-								{ "c", 1220, 2000 },	-- 2,000x Order Resources
+								{ "g", 10000000 },	-- 1,000g
+								{ "c", ORDER_RESOURCES, 2000 },	-- 2,000x Order Resources
 							},
 						}),
 						i(140578, {	-- Dreamweaver Initiate's Tabard

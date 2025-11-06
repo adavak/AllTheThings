@@ -7017,7 +7017,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(116789, {	-- Champion's Treadblade (MOUNT!)
 							["cost"] = 1000000000,	-- 100,000g
-						})
+						}),
 					},
 				})),
 				n(167429, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {	-- Quartermaster Richter

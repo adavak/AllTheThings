@@ -278,7 +278,7 @@ root(ROOTS.Zones, {
 						q(48636, {	-- Fueling the Antoran Campaign
 							["sourceQuests"] = { 48912 },	-- Supplying the Antoran Campaign
 							["qg"] = 126954,	-- High Exarch Turalyon
-							["cost"] = { { "c", 1220, 900 } },	-- 900x Order Resources
+							["cost"] = {{ "c", ORDER_RESOURCES, 900 }},	-- 900x Order Resources
 							["repeatable"] = true,
 							["groups"] = {
 								i(152097, {	-- Lightforged Bulwark
@@ -382,7 +382,7 @@ root(ROOTS.Zones, {
 								{ 45.9, 23.9, THE_VINDICAAR_EREDATH_UPPER },
 								{ 39.2, 24.8, THE_VINDICAAR_KROKUUN_UPPER },
 							},
-							["cost"] = { { "c", 1220, 150 } },	-- 150x Order Resources
+							["cost"] = {{ "c", ORDER_RESOURCES, 150 }},	-- 150x Order Resources
 							["isWeekly"] = true,
 							["groups"] = {
 								i(152097, {	-- Lightforged Bulwark

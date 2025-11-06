@@ -37,8 +37,8 @@ root(ROOTS.Zones, {
 							i(247921, {	-- Nightborne Wall Shelf (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",   2400000 },	-- 240g
-									{ "c", 1220, 500 },	-- 500x Order Resources
+									{ "g", 2400000 },	-- 240g
+									{ "c", ORDER_RESOURCES, 500 },	-- 500x Order Resources
 								},
 							}),
 							i(121736, {	-- Nightfall Slipeprs
@@ -50,8 +50,8 @@ root(ROOTS.Zones, {
 							i(247910, {	-- Suramar Sconce (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",   2400000 },	-- 240g
-									{ "c", 1220, 500 },	-- 500x Order Resources
+									{ "g", 2400000 },	-- 240g
+									{ "c", ORDER_RESOURCES, 500 },	-- 500x Order Resources
 								},
 							}),
 						}, {	-- Honored
@@ -114,15 +114,15 @@ root(ROOTS.Zones, {
 							i(247845, {	-- Nightborne Bench (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",   4000000 },	-- 400g
-									{ "c", 1220, 750 },	-- 750x Order Resources
+									{ "g", 4000000 },	-- 400g
+									{ "c", ORDER_RESOURCES, 750 },	-- 750x Order Resources
 								},
 							}),
 							i(247844, {	-- Suramar Library (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",   4000000 },	-- 400g
-									{ "c", 1220, 750 },	-- 750x Order Resources
+									{ "g", 4000000 },	-- 400g
+									{ "c", ORDER_RESOURCES, 750 },	-- 750x Order Resources
 								},
 							}),
 							i(140746, {	-- Treasure Map: Suramar
@@ -132,8 +132,8 @@ root(ROOTS.Zones, {
 							i(247847, {	-- Arcwine Counter (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",    5600000 },	-- 560g
-									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+									{ "g", 5600000 },	-- 560g
+									{ "c", ORDER_RESOURCES, 1000 },	-- 1,000x Order Resources
 								},
 							}),
 							i(136899, {	-- Extinguished Eye (PET!)
@@ -152,24 +152,24 @@ root(ROOTS.Zones, {
 							i(247924, {	-- Suramar Street Light (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",    5600000 },	-- 560g
-									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+									{ "g", 5600000 },	-- 560g
+									{ "c", ORDER_RESOURCES, 1000 },	-- 1,000x Order Resources
 								},
 							}),
 						}, {	-- Exalted
 							i(246850, {	-- "Fruit of the Arcan'dor" Painting (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",    8000000 },	-- 800g
-									{ "c", 1220, 2000 },	-- 2,000x Order Resources
+									{ "g", 8000000 },	-- 800g
+									{ "c", ORDER_RESOURCES, 2000 },	-- 2,000x Order Resources
 								},
 							}),
 							i(245448, {	-- "Night on the Jeweled Estate" Painting (DECOR!)
 								["sourceAchievement"] = 11124,	-- Good Suramaritan
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",    5600000 },	-- 560g
-									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+									{ "g", 5600000 },	-- 560g
+									{ "c", ORDER_RESOURCES, 1000 },	-- 1,000x Order Resources
 								},
 							}),
 							i(139768, {	-- Amice of the Black Harvest
@@ -218,8 +218,8 @@ root(ROOTS.Zones, {
 							i(244536, {	-- Nightborne Fireplace (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
-									{ "g",    5600000 },	-- 560g
-									{ "c", 1220, 1000 },	-- 1,000x Order Resources
+									{ "g", 5600000 },	-- 560g
+									{ "c", ORDER_RESOURCES, 1000 },	-- 1,000x Order Resources
 								},
 							}),
 							i(140575),	-- Nightfallen Tabard
