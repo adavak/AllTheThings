@@ -1327,6 +1327,7 @@ root(ROOTS.Zones, {
 					["description"] = "You may need to leave Shal'aran before this quest appears.",
 					["sourceQuests"] = {
 						43568,	-- Arcan'dor, Gift of the Ancient Magi
+						43569,	-- Arluin's Request
 						45271,	-- Insurrection (legacy)
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
