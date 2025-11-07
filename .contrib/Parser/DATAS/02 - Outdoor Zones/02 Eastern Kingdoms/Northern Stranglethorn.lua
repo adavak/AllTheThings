@@ -28,7 +28,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				ach(940),	-- The Green Hills of Stranglethorn
+				ach(940, {	-- The Green Hills of Stranglethorn
+					i(248808, {	-- Nesingwary Elk Trophy (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				}),
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",
@@ -3180,6 +3184,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(12250, {	-- Midnight Axe
 							["isLimited"] = true,
+						}),
+						i(248808, {	-- Nesingwary Elk Trophy (DECOR!)
+							["sourceAchievement"] = 940,	-- The Green Hills of Stranglethorn
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = 4500000,	-- 450g
 						}),
 						i(12164, {	-- Plans: Massive Iron Axe (RECIPE!)
 							["isLimited"] = true,

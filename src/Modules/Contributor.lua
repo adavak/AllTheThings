@@ -1883,6 +1883,7 @@ MobileDB.GameObject = {
 	[414699] = true,	-- Darkroot Persimmon
 	[414701] = true,	-- Cold Coffee
 	[414869] = true,	-- Weapons Crate
+	[414927] = true,	-- Rittsyn's Soulstone (q:78531)
 	[414957] = true,	-- Hastily-Prepared Antidote
 	[415296] = true,	-- Repair Kit
 	[416392] = true,	-- Weapons Crate

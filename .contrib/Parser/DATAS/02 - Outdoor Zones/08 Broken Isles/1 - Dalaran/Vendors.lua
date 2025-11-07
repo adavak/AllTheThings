@@ -1245,6 +1245,16 @@ root(ROOTS.Zones, {
 						i(137920),	-- Pattern: Gravenscale Warhelm [Rank 2] (RECIPE!)
 					},
 				}),
+				n(112716, {	-- Rasil Fireborne <Art Dealer>
+					["coord"] = { 43.1, 49.1, LEGION_DALARAN },
+					["groups"] = {
+						i(246851, {	-- "Raising Your Eyes" Painting (DECOR!)
+							["sourceQuest"] = 84996,	-- Vereesa's Tale
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = 150000000,	-- 15,000g
+						}),
+					},
+				}),
 				n(97332, {	-- Richard Hatstock <Haberdasher>
 					["coord"] = { 37.2, 55.6, LEGION_DALARAN },
 					["sym"] = {

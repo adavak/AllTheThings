@@ -4713,7 +4713,6 @@ root(ROOTS.Unsorted, {
 				i(246001),	-- Orange Suramar Seat Cushion
 				i(246002),	-- Red Suramar Seat Cushion
 				i(246089),	-- Bel'ameth Wooden Table
-				i(246091),	-- Bel'ameth Crafter's Tent
 				i(246100),	-- Small Bel'ameth Tent
 				i(246108),	-- Embellished Dwarven Tome
 				i(246110),	-- Filigree Moon Sconce
@@ -4782,7 +4781,6 @@ root(ROOTS.Unsorted, {
 				i(248660),	-- Stormwind Workbench
 				i(248661),	-- Northshire Scribe's Desk
 				i(248758),	-- Relaxing Goblin Beach Chair with Cup Gripper
-				i(248759),	-- Amirdrassil Stool
 				i(248799),	-- Wooden Storage Crate
 				i(248800),	-- Architect's Drafting Table
 				i(248808),	-- Nesingwary Elk Trophy

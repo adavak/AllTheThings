@@ -789,7 +789,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 					["sourceQuest"] = 92405,	-- Meet Arator
 					["qg"] = 231039,	-- Arator
 					["coord"] = { 28.6, 44.7, ISLE_OF_DORN },
-					["groups"] = { i(246851) },	-- "Raising Your Eyes" Painting (DECOR!)	/ SpellID: 1244123 - "Raising Your Eyes" Painting, is cast on a player. 
+					["groups"] = {
+						-- Exo Note: SpellID: 1244123 - "Raising Your Eyes" Painting, is cast on a player at quest turn-in. Item is here for tracking purposes.
+						i(246851),	-- "Raising Your Eyes" Painting (DECOR!)
+					},
 				}),
 				q(84997, {	-- What Might Come
 					["sourceQuest"] = 84996,	-- Vereesa's Tale
