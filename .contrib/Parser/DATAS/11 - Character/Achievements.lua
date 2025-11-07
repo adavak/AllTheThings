@@ -656,6 +656,12 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 		ach(10688),	-- Fashionista: Wrist
 	})),
 	filter(MOUNTS, {
+		a(ach(62103, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {	-- Insurmountable Collection (A, 600 mounts)
+			i(265656),	-- Anu'shalla, Shadow's Guidance (MOUNT!)
+		}))),
+		h(ach(62096, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {	-- Insurmountable Collection (H, 600 mounts)
+			i(265656),	-- Anu'shalla, Shadow's Guidance (MOUNT!)
+		}))),
 		a(ach(15834, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_0 } }, {	-- A Horde of Hoofbeats (A, 500 mounts)
 			i(198654),	-- Otterworldly Ottuk Carrier (MOUNT!)
 		}))),

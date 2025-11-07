@@ -2222,6 +2222,7 @@ i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
 ------------------
 -- PATCH 12.0.0 --
 ------------------
+i(265656, 1276650);	-- Anu'shalla, Shadow's Guidance
 i(262620, 1257058);	-- Calamitous Carrion
 i(262621, 1257081);	-- Convalescent Carrion
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
