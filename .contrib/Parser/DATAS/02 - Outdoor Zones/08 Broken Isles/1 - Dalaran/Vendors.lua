@@ -646,9 +646,11 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						i(253251, {	-- Blightfire Candle (DECOR!)
 							["sourceQuest"] = 39801,	-- The Splintered Fleet
+							["cost"] = 2000000,	-- 200g
 						}),
 						i(245411, {	-- Dark Ship's Lantern (DECOR!)
 							["sourceQuest"] = 38882,	-- A New Life for Undeath
+							["cost"] = 20000000,	-- 2,000g
 						}),
 					},
 				}),

@@ -32,7 +32,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					40434,	-- Treasures of the Isle of Dorn
 					40859,	-- We're Here All Night
 				}},
-				["groups"] = { i(246867, {["timeline"] = { ADDED_11_2_7 }}),},	-- Tome of Earthen Directives (DECOR!)
+				["groups"] = {
+					i(246867, {	-- Tome of Earthen Directives (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			skyriding(ach(40665, {	-- Skyriding Glyphs: Dhar Durgaz
 				["coord"] = { 44.5, 79.7, ISLE_OF_DORN },
@@ -65,7 +69,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 75.7, 22.2, ISLE_OF_DORN },
 			})),
 			ach(20595, {	-- Sojourner of Isle of Dorn (automated)
-				i(252757, {["timeline"] = { ADDED_11_2_7 }}),	-- Boulder Springs Recliner (DECOR!)
+				i(252757, {	-- Boulder Springs Recliner (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			}),
 			ach(20118),		-- The Isle of Dorn (automated)
 			pvp(ach(40083)),	-- Tour of Duty: Isle of Dorn

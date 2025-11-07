@@ -4697,7 +4697,6 @@ root(ROOTS.Unsorted, {
 				i(245501),	-- Venthyr Tome of Unforgiven Sins
 				i(245504),	-- Lordaeron Fence
 				i(245505),	-- Lordaeron Fencepost
-				i(245508),	-- Pandaren Cooking Table
 				i(245512),	-- Pandaren Cradle Stool
 				i(245521),	-- Stone Zandalari Lamp
 				i(245558),	-- Elaborate Suramar Window
@@ -4760,13 +4759,10 @@ root(ROOTS.Unsorted, {
 				i(246864),	-- Tome of the Lost Dragon
 				i(247662),	-- Pandaren Scholar's Lectern
 				i(247663),	-- Pandaren Scholar's Bookcase
-				i(247670),	-- Pandaren Pantry
 				i(247729),	-- Pandaren Stone Lamppost
 				i(247730),	-- Red Crane Kite
 				i(247731),	-- Hanging Paper Lanterns
 				i(247732),	-- Lucky Hanging Lantern
-				i(247734),	-- Paw'don Well
-				i(247737),	-- Stormstout Brew Keg
 				i(247842),	-- Nightborne Merchant's Stall
 				i(247855),	-- Pandaren Lacquered Crate
 				i(247858),	-- Shaohao Ceremonial Bell
@@ -4785,7 +4781,6 @@ root(ROOTS.Unsorted, {
 				i(248622),	-- Wooden Outhouse
 				i(248660),	-- Stormwind Workbench
 				i(248661),	-- Northshire Scribe's Desk
-				i(248663),	-- Wooden Doghouse
 				i(248758),	-- Relaxing Goblin Beach Chair with Cup Gripper
 				i(248759),	-- Amirdrassil Stool
 				i(248799),	-- Wooden Storage Crate
@@ -4815,12 +4810,9 @@ root(ROOTS.Unsorted, {
 				i(252393),	-- Hull'n'Home Dresser
 				i(252404),	-- Hull'n'Home Chair
 				i(252405),	-- Admiral's Low-Hanging Chandelier
-				i(252756),	-- Stonelight Countertop
 				i(253020),	-- Earthen Etched Throne
 				i(253021),	-- Freywold Bench
-				i(253034),	-- Fallside Lantern
 				i(253035),	-- Freywold Seat
-				i(253038),	-- Dornogal Hanging Lantern
 				i(253040),	-- Coreway Sentinel Lamppost
 				i(253162),	-- Earthen Chain Wall Shelf
 				i(253166),	-- Freywold Fountain

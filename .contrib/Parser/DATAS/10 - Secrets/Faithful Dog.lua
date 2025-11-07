@@ -24,6 +24,9 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = {
 				i(80144),	-- Tasty T-Bone (QI!)
+				i(248663, {	-- Wooden Doghouse (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			},
 		}),
 		q(46952, {	-- Step 2: Show the Pebble to Dog

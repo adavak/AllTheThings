@@ -101,7 +101,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						n(ACHIEVEMENTS, {
 							ach(40860),	-- A Star of Dorn (automated)
 							ach(40859, {	-- We're Here All Night (automated)
-								i(253037, {["timeline"] = { ADDED_11_2_7 }}),	-- Dornogal Brazier (DECOR!)
+								i(253037, {	-- Dornogal Brazier (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
 							}),
 						}),
 						n(QUESTS, {
@@ -208,11 +210,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 39.1, 24.0, DORNOGAL },
 						["groups"] = bubbleDownRep(FACTION_COUNCIL_OF_DORNOGAL, {
 							{		-- RENOWN 1 --
-								i(253168, { ["timeline"] = { ADDED_11_2_7 } }),	-- Earthen Storage Crate (DECOR!)
-								i(245295, { ["timeline"] = { ADDED_11_2_7 } }),	-- Literature of Dornogal (DECOR!)
-								i(245297, { ["timeline"] = { ADDED_11_2_7 } }),	-- Literature of Gundargaz (DECOR!)
-								i(245296, { ["timeline"] = { ADDED_11_2_7 } }),	-- Literature of Taelloch (DECOR!)
-								i(245561, { ["timeline"] = { ADDED_11_2_7 } }),	-- Ornate Ochre Window (DECOR!)
+								i(253168, {	-- Earthen Storage Crate (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
+								i(245295, {	-- Literature of Dornogal (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
+								i(245297, {	-- Literature of Gundargaz (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
+								i(245296, {	-- Literature of Taelloch (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
+								i(245561, {	-- Ornate Ochre Window (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
 							}, {	-- RENOWN 2 --
 								i(228419, {	-- Mineral-Sparkled Cape
 									["cost"] = {{"c", RESONANCE_CRYSTALS, 250}},

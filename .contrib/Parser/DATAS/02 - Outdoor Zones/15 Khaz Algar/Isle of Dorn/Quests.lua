@@ -580,6 +580,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["sourceQuests"] = { 79529 },	-- Forcing My Hand
 					["provider"] = { "n", 219475 },	-- Steelvein
 					["coord"] = { 55.6, 5.6, DORNOGAL },
+					["groups"] = {
+						i(252756, {	-- Stonelight Countertop (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 			}),
 			header(HEADERS.AchCriteria, 20595.03, {	-- Seven Soldiers
@@ -933,6 +938,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 69.9, 57.0, ISLE_OF_DORN },
 					["groups"] = {
 						i(224550),	-- Carved Placard (QI!)
+						i(253034, {	-- Fallside Lantern (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 			}),

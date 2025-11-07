@@ -56,7 +56,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}},
 			}),
 			ach(40504, {	-- Rocked to Sleep (automated)
-				i(253023, {["timeline"] = { ADDED_11_2_7 }}),	-- Rambleshire Resting Platform (DECOR!)
+				i(253023, {	-- Rambleshire Resting Platform (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			}),
 			skyriding(ach(40678, {	-- Skyriding Glyphs: Abyssal Excavation
 				["coord"] = { 63.7, 95.0, THE_RINGING_DEEPS },

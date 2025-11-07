@@ -323,12 +323,55 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 				},
 			}),
+			n(252910, {	-- Garnett <Decor Specialist>
+				["coord"] = { 54.7, 57.8, DORNOGAL },
+				["timeline"] = { ADDED_11_2_7 },
+				["groups"] = {
+					i(252757, {	-- Boulder Springs Recliner (DECOR!)
+						["sourceAchievement"] = 20595,	-- Sojourner of Isle of Dorn
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 900 }},
+					}),
+					i(253037, {	-- Dornogal Brazier (DECOR!)
+						["sourceAchievement"] = 40859,	-- We're Here All Night
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 600 }},
+					}),
+					i(253038, {	-- Dornogal Hanging Lantern (DECOR!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 500 }},
+					}),
+					i(253034, {	-- Fallside Lantern (DECOR!)
+						["sourceQuest"] = 82895,	-- The Weight of Duty
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 450 }},
+					}),
+					i(253163, {	-- Fallside Storage Tent (DECOR!)
+						["sourceAchievement"] = 19408,	-- Professional Algari Master
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 900 }},
+					}),
+					i(253023, {	-- Rambleshire Resting Platform (DECOR!)
+						["sourceAchievement"] = 40504,	-- Rocked to Sleep
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 800 }},
+					}),
+					i(252756, {	-- Stonelight Countertop (DECOR!)
+						["sourceQuest"] = 79530,	-- Bad Business
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 800 }},
+					}),
+				},
+			}),
 			n(219197, {	-- Griftah <Amazing Amulets>
 				["coord"] = { 62.5, 50.9, DORNOGAL },
 				["groups"] = {
 					i(224763),	-- Design: Cubic Blasphemia (RECIPE!)
 					i(228921),	-- Griftah's Heavy-Duty Embellishing Powder
 					i(202046),	-- Lucky Tortollan Charm
+				},
+			}),
+			n(219318, {	-- Jorid <General Goods>
+				["coord"] = { 57.3, 60.6, DORNOGAL },
+				["groups"] = {
+					i(246867, {	-- Tome of Earthen Directives (DECOR!)
+						["sourceAchievement"] = 41186,	-- Slate of the Union
+						["timeline"] = { ADDED_11_2_7 },
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 750 }},
+					}),
 				},
 			}),
 			n(219255, {	-- Karbath <Weapon Trader>

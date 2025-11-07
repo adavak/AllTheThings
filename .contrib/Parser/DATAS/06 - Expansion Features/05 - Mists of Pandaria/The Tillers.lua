@@ -2522,7 +2522,32 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							i(89813, {	-- "Thunder King" Pest Repellers
 								["cost"] = 800000,	-- 80g
 							}),
+							i(248663, {	-- Wooden Doghouse (DECOR!)
+								["sourceQuest"] = 30526,	-- Lost and Lonely
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 3000000,	-- 300g
+							}),
 						}, {	-- Friendly
+							i(245508, {	-- Pandaren Cooking Table (DECOR!)
+								["minReputation"] = { FACTION_TINA_MUDCLAW, 5 },	-- Good Friend
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 10000000,	-- 1,000g
+							}),
+							i(247670, {	-- Pandaren Pantry (DECOR!)
+								["minReputation"] = { FACTION_ELLA, 5 },	-- Good Friend
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 10000000,	-- 1,000g
+							}),
+							i(247734, {	-- Paw'don Well (DECOR!)
+								["minReputation"] = { FACTION_FARMER_FUNG, 5 },	-- Good Friend
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 8000000,	-- 800g
+							}),
+							i(247737, {	-- Stormstout Brew Keg (DECOR!)
+								["minReputation"] = { FACTION_JOGU_THE_DRUNK, 5 },	-- Good Friend
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 3000000,	-- 300g
+							}),
 						}, {	-- Honored
 						}, {	-- Revered
 							i(93226, {	-- Grand Commendation of the Tillers
