@@ -794,6 +794,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["provider"] = { "i", 50219 },	-- Side of Stag Meat
 							["cr"] = 37786,	-- Brown Stag
 						}),
+						i(245518, {	-- Worgen's Chicken Coop (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(14386, {	-- Leader of the Pack
@@ -1021,6 +1024,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 36458,	-- Grandma Wahl
 					["coord"] = { 32.52, 75.48, GILNEAS },
 					["races"] = { WORGEN },
+					["groups"] = {
+						i(245620, {	-- Little Wolf's Loo (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(24673, {	-- Return to Stormglen
 					["sourceQuest"] = 24593,	-- Neither Human Nor Beast

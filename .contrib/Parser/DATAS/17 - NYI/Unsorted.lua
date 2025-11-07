@@ -4699,14 +4699,10 @@ root(ROOTS.Unsorted, {
 				i(245505),	-- Lordaeron Fencepost
 				i(245508),	-- Pandaren Cooking Table
 				i(245512),	-- Pandaren Cradle Stool
-				i(245518),	-- Worgen's Chicken Coop
 				i(245521),	-- Stone Zandalari Lamp
 				i(245558),	-- Elaborate Suramar Window
-				i(245603),	-- Gilnean Noble's Trellis
-				i(245605),	-- Gilnean Stone Wall
 				i(245615),	-- Bradensbrook Smoke Lantern
 				i(245616),	-- Bradensbrook Thorned Well
-				i(245620),	-- Little Wolf's Loo
 				i(245624),	-- Waning Wood Fence
 				i(245625),	-- Bel'ameth Bench
 				i(245627),	-- Elven Temple Brazier
@@ -4715,7 +4711,6 @@ root(ROOTS.Unsorted, {
 				i(245699),	-- Kaldorei Stone Fencepost
 				i(245701),	-- Elven Round Table
 				i(245704),	-- Bel'ameth Barrel
-				i(245984),	-- Sagehold Window
 				i(246001),	-- Orange Suramar Seat Cushion
 				i(246002),	-- Red Suramar Seat Cushion
 				i(246089),	-- Bel'ameth Wooden Table
@@ -4818,14 +4813,8 @@ root(ROOTS.Unsorted, {
 				i(252391),	-- Large Hull'n'Home Table
 				i(252392),	-- Admiral's Chandelier
 				i(252393),	-- Hull'n'Home Dresser
-				i(252394),	-- Bowhull Bookcase
-				i(252395),	-- Brennadam Coop
-				i(252396),	-- Admiralty's Copper Lantern
-				i(252398),	-- Stormsong Water Pump
 				i(252404),	-- Hull'n'Home Chair
 				i(252405),	-- Admiral's Low-Hanging Chandelier
-				i(252652),	-- Copper Stormsong Well
-				i(252655),	-- Copper Tidesage's Sconce
 				i(252756),	-- Stonelight Countertop
 				i(253020),	-- Earthen Etched Throne
 				i(253021),	-- Freywold Bench
@@ -4870,7 +4859,6 @@ root(ROOTS.Unsorted, {
 				i(258765),	-- Hull'n'Home Window
 				i(259071),	-- Brawler's Guild Punching Bag
 				i(260582),	-- Cartel Collector's Cage
-				i(260583),	-- Arathi Bartender's Shelves
 				i(260699),	-- Maldraxxian Runic Tablet
 				i(260700),	-- Gob-chanical Trash Heap
 				i(262347),	-- Draenei Crystal Chandelier

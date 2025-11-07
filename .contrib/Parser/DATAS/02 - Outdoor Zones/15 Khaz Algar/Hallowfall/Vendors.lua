@@ -31,6 +31,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 				},
 			}),
+			n(217642, {	-- Nalina Ironsong <Innkeeper>
+				["coord"] = { 42.8, 55.8, HALLOWFALL },
+				["groups"] = {
+					i(260583, {	-- Arathi Bartender's Shelves (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 500 }},
+					}),
+				},
+			}),
 			n(214380, {	-- Raen Dawncavalyr
 				["coord"] = { 43.3, 56.4, HALLOWFALL },
 				["groups"] = {

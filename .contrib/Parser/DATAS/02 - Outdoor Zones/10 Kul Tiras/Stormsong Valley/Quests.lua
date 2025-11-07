@@ -334,6 +334,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 137866 },	-- Taelia
 				["coord"] = { 57.9, 86.0, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(252395, {	-- Brennadam Coop (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(50621, {	-- Caught in the Net
 				["sourceQuests"] = { 49818 },	-- Trouble at Fort Daelin
@@ -1402,6 +1407,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 66.0, 47.4, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
+					i(252655, {	-- Copper Tidesage's Sconce (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(158681),	-- Lightning Tether
 				},
 			}),
@@ -1474,9 +1482,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = {
 					i(158702),	-- Darkwater Bindings
 					i(158700),	-- Dread Corsair Vambraces
+					i(245984, {	-- Sagehold Window (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(158701),	-- Stormchaser Shackles
-					i(158699),	-- Tidespeaker Bindings
 					i(155236),	-- Stormwarden Seal
+					i(158699),	-- Tidespeaker Bindings
 				},
 			}),
 			q(50165, {	-- The Bee Team

@@ -1624,27 +1624,45 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 37.1, 47.4, DARNASSUS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(64882, {	-- Gilneas Tabard
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64893, {	-- Cape of Gilneas
-							["minReputation"] = { FACTION_GILNEAS, EXALTED },	-- Gilneas, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64892, {	-- Mantle of Gilneas
-							["minReputation"] = { FACTION_GILNEAS, EXALTED },	-- Gilneas, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(64894, {	-- Shroud of Gilneas
-							["minReputation"] = { FACTION_GILNEAS, EXALTED },	-- Gilneas, Exalted.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(67532, {	-- Gilnean Satchel
-							["minReputation"] = { FACTION_GILNEAS, REVERED },	-- Gilneas, Revered.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-					},
+					["groups"] = bubbleDownClassicRep(FACTION_GILNEAS, {
+						{		-- Neutral
+							i(245620, {	-- Little Wolf's Loo (DECOR!)
+								["sourceQuest"] = 14402,	-- Ready to Go
+								["cost"] = 4500000,	-- 450g
+							}),
+							i(245518, {	-- Worgen's Chicken Coop (DECOR!)
+								["sourceQuest"] = 24675,	-- Last Meal
+								["cost"] = 1500000,	-- 150g
+							}),
+						}, {	-- Friendly
+							i(64882, {	-- Gilneas Tabard
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+						}, {	-- Honored
+							i(245605, {	-- Gilnean Stone Wall (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 3000000,	-- 300g
+							}),
+						}, {	-- Revered
+							i(245603, {	-- Gilnean Noble's Trellis (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = 3500000,	-- 350g
+							}),
+							i(67532, {	-- Gilnean Satchel
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+						}, {	-- Exalted
+							i(64893, {	-- Cape of Gilneas
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+							i(64892, {	-- Mantle of Gilneas
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+							i(64894, {	-- Shroud of Gilneas
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+						},
+					}),
 				}),
 				n(4177, {	-- Melea
 					["coord"] = { 55.6, 75.0, DARNASSUS },

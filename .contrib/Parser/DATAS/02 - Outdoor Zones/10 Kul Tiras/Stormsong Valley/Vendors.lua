@@ -119,6 +119,41 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 			}),
+			n(252313, {	-- Caspian <Traveling Decor Specialist>
+				["coord"] = { 59.5, 69.6, STORMSONG_VALLEY },
+				["timeline"] = { ADDED_11_2_7 },
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(252396, {	-- Admiralty's Copper Lantern (DECOR!)
+						["minReputation"] = { FACTION_STORMS_WAKE, FRIENDLY },	-- Storm's Wake, Friendly
+						["cost"] = {{ "c", 1560, 125 }},	-- 125x War Resources
+					}),
+					i(252394, {	-- Bowhull Bookcase (DECOR!)
+						["minReputation"] = { FACTION_STORMS_WAKE, REVERED },	-- Storm's Wake, Revered
+						["cost"] = {{ "c", 1560, 550 }},	-- 550x War Resources
+					}),
+					i(252395, {	-- Brennadam Coop (DECOR!)
+						["sourceQuest"] = 51401,	-- Carry On
+						["cost"] = {{ "c", 1560, 450 }},	-- 450x War Resources
+					}),
+					i(252652, {	-- Copper Stormsong Well (DECOR!)
+						["minReputation"] = { FACTION_STORMS_WAKE, REVERED },	-- Storm's Wake, Revered
+						["cost"] = {{ "c", 1560, 800 }},	-- 800x War Resources
+					}),
+					i(252655, {	-- Copper Tidesage's Sconce (DECOR!)
+						["sourceQuest"] = 50611,	-- Storm's Vengeance
+						["cost"] = {{ "c", 1560, 175 }},	-- 175x War Resources
+					}),
+					i(245984, {	-- Sagehold Window (DECOR!)
+						["sourceQuest"] = 50783,	-- The Abyssal Council
+						["cost"] = {{ "c", 1560, 350 }},	-- 350x War Resources
+					}),
+					i(252398, {	-- Stormsong Water Pump (DECOR!)
+						["minReputation"] = { FACTION_STORMS_WAKE, HONORED },	-- Storm's Wake, Honored
+						["cost"] = {{ "c", 1560, 200 }},	-- 200x War Resources
+					}),
+				},
+			}),
 			n(130786, {	-- Hobbs
 				["coord"] = { 58.3, 70.3, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
