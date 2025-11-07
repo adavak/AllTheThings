@@ -330,7 +330,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_2_5 },
 				["u"] = REAL_MONEY,
 			}),
-			i(242480, { -- Ensemble: Violet Sweatsuit
+			iensemble(242480, { -- Ensemble: Violet Sweatsuit
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 11th, 10:00 a.m. & December 2nd, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_11_2_5, "removed 11.2.5.99999" },	-- Removed December 2nd, 2025
 			}),
