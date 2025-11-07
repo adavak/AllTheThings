@@ -689,6 +689,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					azewrongItem(175296),	-- Outrigger Helm (no azerite version)
 					azewrongItem(175294),	-- Sea Raider's Greathelm (no azerite version)
 					azewrongItem(175354),	-- Sea Raider's Breastplate (no azerite version)
+					i(252386, {	-- Admiralty's Upholstered Chair (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			q(57324, {	-- Sail With the Tide

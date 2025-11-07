@@ -4699,17 +4699,13 @@ root(ROOTS.Unsorted, {
 				i(245505),	-- Lordaeron Fencepost
 				i(245508),	-- Pandaren Cooking Table
 				i(245512),	-- Pandaren Cradle Stool
-				i(245515),	-- Gilnean Wooden Bed
-				i(245516),	-- Gilnean Bench
 				i(245518),	-- Worgen's Chicken Coop
 				i(245521),	-- Stone Zandalari Lamp
 				i(245558),	-- Elaborate Suramar Window
 				i(245603),	-- Gilnean Noble's Trellis
-				i(245604),	-- Arched Rose Trellis
 				i(245605),	-- Gilnean Stone Wall
 				i(245615),	-- Bradensbrook Smoke Lantern
 				i(245616),	-- Bradensbrook Thorned Well
-				i(245617),	-- Gilnean Stocks
 				i(245620),	-- Little Wolf's Loo
 				i(245624),	-- Waning Wood Fence
 				i(245625),	-- Bel'ameth Bench
@@ -4727,7 +4723,6 @@ root(ROOTS.Unsorted, {
 				i(246100),	-- Small Bel'ameth Tent
 				i(246108),	-- Embellished Dwarven Tome
 				i(246110),	-- Filigree Moon Sconce
-				i(246222),	-- Boralus String Lights
 				i(246409),	-- Shadowforge Grinding Wheel
 				i(246411),	-- Ironforge Bookcase
 				i(246412),	-- Small Ironforge Bookcase
@@ -4819,10 +4814,6 @@ root(ROOTS.Unsorted, {
 				i(251640),	-- Draenic Forge
 				i(251653),	-- Draenethyst Lamppost
 				i(251654),	-- Large Karabor Fountain
-				i(252036),	-- Tidesage's Bookcase
-				i(252386),	-- Admiralty's Upholstered Chair
-				i(252387),	-- Boralus Fence
-				i(252388),	-- Boralus Fencepost
 				i(252390),	-- Small Hull'n'Home Table
 				i(252391),	-- Large Hull'n'Home Table
 				i(252392),	-- Admiral's Chandelier
@@ -4831,15 +4822,10 @@ root(ROOTS.Unsorted, {
 				i(252395),	-- Brennadam Coop
 				i(252396),	-- Admiralty's Copper Lantern
 				i(252398),	-- Stormsong Water Pump
-				i(252400),	-- Tiragarde Emblem
-				i(252402),	-- Tidesage's Double Bookshelves
-				i(252403),	-- Admiral's Bed
 				i(252404),	-- Hull'n'Home Chair
 				i(252405),	-- Admiral's Low-Hanging Chandelier
-				i(252406),	-- Green Boralus Market Tent
 				i(252652),	-- Copper Stormsong Well
 				i(252655),	-- Copper Tidesage's Sconce
-				i(252754),	-- Seaworthy Boralus Bell
 				i(252756),	-- Stonelight Countertop
 				i(253020),	-- Earthen Etched Throne
 				i(253021),	-- Freywold Bench
@@ -4881,7 +4867,6 @@ root(ROOTS.Unsorted, {
 				i(258145),	-- Eversong Party Platter
 				i(258147),	-- Empty Lorewalker's Bookcase
 				i(258289),	-- Thunder Bluff Totem
-				i(258301),	-- Gilnean Washing Line
 				i(258765),	-- Hull'n'Home Window
 				i(259071),	-- Brawler's Guild Punching Bag
 				i(260582),	-- Cartel Collector's Cage

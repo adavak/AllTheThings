@@ -1241,6 +1241,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 121239 },	-- Flynn Fairwind
 				["coord"] = { 75.8, 49.0, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(252406, {	-- Green Boralus Market Tent (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(47486, {	-- Suspicious Shipments
 				["sourceQuests"] = { 47485 },	-- The Ashvane Trading Company

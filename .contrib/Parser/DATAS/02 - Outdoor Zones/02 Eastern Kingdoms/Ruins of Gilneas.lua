@@ -209,7 +209,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						78190,	-- What We Left Behind (A)
 						79137,	-- The Wall between Us (H)
 					},
-					["groups"] = { i(245520, {["timeline"] = { ADDED_11_2_7 }}),},	-- Gilnean Celebration Keg (DECOR!)
+					["groups"] = {
+						i(245520, {	-- Gilnean Celebration Keg (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(78596, {	-- Summons to Lord Greymane
 					["qg"] = 212899,	-- Greyguard Elite
@@ -404,6 +408,64 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				},
 			})),
+			n(VENDORS, {
+				n(211065, {	-- Marie Allen <General Goods Vendor>
+					["coord"] = { 60.4, 92.3, RUINS_OF_GILNEAS },
+					["timeline"] = { ADDED_10_2_5 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = sharedData({
+						["timeline"] = { ADDED_11_2_7 },
+					}, {
+						i(245604, {	-- Arched Rose Trellis (DECOR!)
+							["cost"] = 1000000,	-- 100g
+						}),
+						i(245516, {	-- Gilnean Bench (DECOR!)
+							["cost"] = 750000,	-- 75g
+						}),
+						i(245520, {	-- Gilnean Celebration Keg (DECOR!)
+							["sourceAchievement"] = 19719,	-- Reclamation of Gilneas
+							["cost"] = 1500000,	-- 150g
+						}),
+						i(245617, {	-- Gilnean Stocks (DECOR!)
+							["cost"] = 1000000,	-- 100g
+						}),
+						i(258301, {	-- Gilnean Washing Line (DECOR!)
+							["cost"] = 1250000,	-- 125g
+						}),
+						i(245515, {	-- Gilnean Wooden Bed (DECOR!)
+							["cost"] = 750000,	-- 75g
+						}),
+					}),
+				}),
+				n(216888, {	-- Samantha Buckley <General Goods Vendor>
+					["coord"] = { 65.4, 47.2, RUINS_OF_GILNEAS },
+					["timeline"] = { ADDED_10_2_5 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = sharedData({
+						["timeline"] = { ADDED_11_2_7 },
+					}, {
+						i(245604, {	-- Arched Rose Trellis (DECOR!)
+							["cost"] = 1000000,	-- 100g
+						}),
+						i(245516, {	-- Gilnean Bench (DECOR!)
+							["cost"] = 750000,	-- 75g
+						}),
+						i(245520, {	-- Gilnean Celebration Keg (DECOR!)
+							["sourceAchievement"] = 19719,	-- Reclamation of Gilneas
+							["cost"] = 1500000,	-- 150g
+						}),
+						i(245617, {	-- Gilnean Stocks (DECOR!)
+							["cost"] = 1000000,	-- 100g
+						}),
+						i(258301, {	-- Gilnean Washing Line (DECOR!)
+							["cost"] = 1250000,	-- 125g
+						}),
+						i(245515, {	-- Gilnean Wooden Bed (DECOR!)
+							["cost"] = 750000,	-- 75g
+						}),
+					}),
+				}),
+			}),
 			n(ZONE_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
 				i(211939),	-- Worn Scarlet Cloak
 			})),

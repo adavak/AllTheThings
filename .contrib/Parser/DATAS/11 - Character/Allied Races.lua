@@ -714,6 +714,9 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					ach(13163),	-- Allied Races: Kul Tiran
+					i(252403, {	-- Admiral's Bed (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 					i(164762),	-- Kul Tiran Charger (MOUNT!)
 				},
 			}),

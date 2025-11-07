@@ -140,7 +140,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["groups"] = {
 							ach(12582, {	-- Come Sail Away
 								["races"] = ALLIANCE_ONLY,
-								["groups"] = { i(245271, {["timeline"] = { ADDED_11_2_7 }}),},	-- Old Salt's Fireplace (DECOR!)
+								["groups"] = {
+									i(245271, {	-- Old Salt's Fireplace (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+									}),
+								},
 							}),
 						},
 					}),
@@ -1257,6 +1261,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 145580 },	-- Lady Jaina Proudmoore
 						["coord"] = { 36.4, 30.7, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(252400, {	-- Tiragarde Emblem (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+						},
 					}),
 				--	BETWEEN WAR MARCHES ON AND THE SLEEPER AGENT
 					q(54191, {	-- Changing Course
@@ -1565,6 +1574,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150574 },	-- Lady Jaina Proudmoore
 						["coord"] = { 69.4, 27.0, BORALUS },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(252754, {	-- Seaworthy Boralus Bell (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+						},
 					}),
 					q(55171, {	-- Spy Versus Spy
 						["sourceQuests"] = { 55045 },	-- My Brother's Keeper

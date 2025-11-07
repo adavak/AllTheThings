@@ -24,7 +24,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["coord"] = { 47.3, 46.2, TOL_DAGOR },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(160326),	-- Glittering Gunpowder (QI!)
+						o(290126, {	-- Glittering Gunpowder
+							["coord"] = { 43.5, 54.1, TOL_DAGOR },
+							["groups"] = { i(160326) },	-- Glittering Gunpowder (QI!)
+						}),
 					},
 				}),
 			}),

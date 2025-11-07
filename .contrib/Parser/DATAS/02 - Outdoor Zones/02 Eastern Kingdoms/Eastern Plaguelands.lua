@@ -1295,7 +1295,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["description"] = "Collect all other travelers, then speak to Beezil at Light Hope's Chapel.",
 							["_npcs"] = { 46022 },	-- Beezil Linkspanner
 						}),
-						i(248796, {["timeline"] = { ADDED_11_2_7 }}),	-- Goldshire Food Cart (DECOR!)
+						i(248796, {	-- Goldshire Food Cart (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				achWithRep(946, FACTION_ARGENT_DAWN, {	-- The Argent Dawn

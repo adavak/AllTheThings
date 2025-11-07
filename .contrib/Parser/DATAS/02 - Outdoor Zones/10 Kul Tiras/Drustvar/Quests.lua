@@ -1519,7 +1519,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = {
 					ach(12997, {	-- The Pride of Kul Tiras
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = { i(252654, {["timeline"] = { ADDED_11_2_7 }}),},	-- Proudmoore Green Drape (DECOR!)
+						["groups"] = {
+							i(252654, {	-- Proudmoore Green Drape (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+						},
 					}),
 				},
 			}),

@@ -288,6 +288,17 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 				},
 			}),
+			n(142115, {	-- Fiona
+				["coord"] = { 68.0, 41.2, BORALUS },
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(248796, {	-- Goldshire Food Cart (DECOR!)
+						["sourceAchievement"] = 5442,	-- Full Caravan
+						["timeline"] = { ADDED_11_2_7 },
+						["cost"] = 30000000,	-- 3,000g
+					}),
+				},
+			}),
 			n(133536, {	-- Grix "Ironfists" Barlow <Blacksmithing Trainer>
 				["coord"] = { 73.5, 8.57, BORALUS },
 				["races"] = ALLIANCE_ONLY,
@@ -396,6 +407,45 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(3025),	-- BKP 42 "Ultra"
 				},
 			}),
+			n(252345, {	-- Pearl Barlow <Decor Specialist>
+				["coord"] = { 68.0, 41.2, BORALUS },
+				["timeline"] = { ADDED_11_2_7 },
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(252403, {	-- Admiral's Bed (DECOR!)
+						["sourceQuest"] = 53720,	-- Allegiance of Kul Tiras
+						["cost"] = {{ "c", 1560, 550 }},	-- 550x War Resources
+					}),
+					i(252386, {	-- Admiralty's Upholstered Chair (DECOR!)
+						["sourceQuest"] = 50972,	-- Proudmoore's Parley
+						["cost"] = {{ "c", 1560, 400 }},	-- 400x War Resources
+					}),
+					i(252406, {	-- Green Boralus Market Tent (DECOR!)
+						["sourceQuest"] = 47489,	-- Stow and Go
+						["cost"] = {{ "c", 1560, 375 }},	-- 375x War Resources
+					}),
+					i(245271, {	-- Old Salt's Fireplace (DECOR!)
+						["sourceAchievement"] = 12582,	-- Come Sail Away
+						["cost"] = {{ "c", 1560, 800 }},	-- 800x War Resources
+					}),
+					i(252654, {	-- Proudmoore Green Drape (DECOR!)
+						["sourceAchievement"] = 12997,	-- The Pride of Kul Tiras
+						["cost"] = {{ "c", 1560, 300 }},	-- 300x War Resources
+					}),
+					i(252754, {	-- Seaworthy Boralus Bell (DECOR!)
+						["sourceQuest"] = 55045,	-- My Brother's Keeper
+						["cost"] = {{ "c", 1560, 800 }},	-- 800x War Resources
+					}),
+					i(252400, {	-- Tiragarde Emblem (DECOR!)
+						["sourceQuest"] = 53887,	-- War Marches On
+						["cost"] = {{ "c", 1560, 500 }},	-- 500x War Resources
+					}),
+					i(252653, {	-- Tiragarde Treasure Chest (DECOR!)
+						["sourceAchievement"] = 13049,	-- The Long Con
+						["cost"] = {{ "c", 1560, 650 }},	-- 650x War Resources
+					}),
+				},
+			}),
 			n(142169, {	-- Phil Gresham <Cobbler>
 				["coord"] = { 70.6, 19.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
@@ -418,7 +468,19 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = bubbleDownClassicRep(FACTION_PROUDMOORE_ADMIRALTY, {
 					{		-- Neutral
 					}, {	-- Friendly
+						i(252387, {	-- Boralus Fence (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 1560, 100 }},	-- 100x War Resources
+						}),
+						i(252388, {	-- Boralus Fencepost (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 1560,  50 }},	-- 50x War Resources
+						}),
 					}, {	-- Honored
+						i(246222, {	-- Boralus String Lights (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 1560,  75 }},	-- 75x War Resources
+						}),
 						i(163201, {	-- Gnoll Targetting Barrel (TOY!)
 							["cost"] = 11000000,	-- 1,100g
 						}),
@@ -480,6 +542,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						}),
 						i(162328, {	-- Schematic: AZ3-R1-T3 Bionic Bifocals [Rank 3] (RECIPE!)
 							["cost"] = 14000000,	-- 1,400g
+						}),
+						i(252036, {	-- Tidesage's Bookcase (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 1560, 500 }},	-- 500x War Resources
+						}),
+						i(252402, {	-- Tidesage's Double Bookshelves (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 1560, 450 }},	-- 450x War Resources
 						}),
 						i(161572, {	-- Yardarm Sharpshooter's Boots
 							["cost"] = 14000000,	-- 1,400g
