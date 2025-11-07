@@ -1645,7 +1645,7 @@ root(ROOTS.NeverImplemented, n(ARTIFACTS, {
 					itemsource(287381),	-- Warswords of the Valarjar
 					itemsource(287382),	-- Warswords of the Valarjar
 					itemsource(287383),	-- Warswords of the Valarjar
-					i(238200), -- Warswords of the Valarjar
+					i(238200),	-- Warswords of the Valarjar
 					itemsource(287385),	-- Warswords of the Valarjar
 					itemsource(287386),	-- Warswords of the Valarjar
 					itemsource(287387),	-- Warswords of the Valarjar

@@ -359,7 +359,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									},
 								}),
 								o(248831, {	-- Scale of the Earth Warder
-									["coord"] = { 49.9, 82.3, 635 }, -- Shield's Rest
+									["coord"] = { 49.9, 82.3, 635 },	-- Shield's Rest
 									["groups"] = {
 										i(128289, {	-- Scale of the Earth-Warder
 											["ItemAppearanceModifierID"] = 9,

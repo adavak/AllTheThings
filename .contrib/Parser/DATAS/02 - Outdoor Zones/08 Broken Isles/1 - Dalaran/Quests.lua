@@ -310,7 +310,10 @@ root(ROOTS.Zones, {
 						90418,	-- Archmage Modera
 						115465,	-- Archmage Modera (2 versions)
 					},
-					["coord"] = { 28.5, 48.9, LEGION_DALARAN },
+					["coords"] = {
+						{ 23.4, 39.6, LEGION_DALARAN },
+						{ 28.5, 48.9, LEGION_DALARAN },
+					},
 					["classes"] = { HUNTER },
 				}),
 				q(45415, {	-- Between Worlds
@@ -339,7 +342,10 @@ root(ROOTS.Zones, {
 						90431,	-- Archmage Ansirem Runeweaver
 						115466,	-- Archmage Ansirem Runeweaver
 					},
-					["coord"] = { 28.5, 49.5, LEGION_DALARAN },
+					["coords"] = {
+						{ 22.8, 40.2, LEGION_DALARAN },
+						{ 28.5, 49.5, LEGION_DALARAN },
+					},
 					["classes"] = { DEATHKNIGHT },
 				}),
 				q(47024, {	-- Brewmaster: Aid of the Illidari
@@ -600,6 +606,10 @@ root(ROOTS.Zones, {
 						115467,	-- Archmage Kalec
 						105081,	-- Archmage Kalec
 					},
+					["coords"] = {
+						{ 23.0, 40.6, LEGION_DALARAN },
+						{ 29.0, 49.6, LEGION_DALARAN },
+					},
 					["classes"] = { DEATHKNIGHT },
 					["lvl"] = 110,
 				}),
@@ -836,6 +846,10 @@ root(ROOTS.Zones, {
 						90463,	-- Archmage Karlain
 						115468,	-- Archmage Karlain
 					},
+					["coords"] = {
+						{ 28.8, 48.6, LEGION_DALARAN },
+						{ 23.4, 39.8, LEGION_DALARAN },
+					},
 					["classes"] = { HUNTER },
 					["lvl"] = 110,
 				}),
@@ -875,6 +889,7 @@ root(ROOTS.Zones, {
 						47042,	-- Shadow: The Twisted Twin
 					},
 					["provider"] = { "n", 116175 },	-- Karam Magespear
+					["coord"] = { 49.6, 39.4, LEGION_DALARAN },
 					["classes"] = {
 						DRUID,		-- Balance
 						HUNTER,		-- Marksmanship
@@ -1089,6 +1104,7 @@ root(ROOTS.Zones, {
 				q(45187, {	-- Secrets in the Underbelly
 					["sourceQuests"] = { 45185 },	-- Message from the Shadows
 					["provider"] = { "n", 116175 },	-- Karam Magespear
+					["coord"] = { 49.6, 39.4, LEGION_DALARAN },
 					["classes"] = {
 						DRUID,		-- Balance
 						HUNTER,		-- Marksmanship
@@ -1097,9 +1113,7 @@ root(ROOTS.Zones, {
 						WARLOCK,	-- Affliction
 					},
 					["lvl"] = 45,
-					["groups"] = {
-						i(143496),	-- Nethersworn Manifesto (QI!)
-					},
+					["groups"] = { i(143496) },	-- Nethersworn Manifesto (QI!)
 				}),
 				q(47042, {	-- Shadow: The Twisted Twin
 					["sourceQuests"] = {
@@ -1136,6 +1150,10 @@ root(ROOTS.Zones, {
 					["qgs"] = {
 						115467,	-- Archmage Kalec
 						105081,	-- Archmage Kalec
+					},
+					["coords"] = {
+						{ 23.0, 40.6, LEGION_DALARAN },
+						{ 29.0, 49.6, LEGION_DALARAN },
 					},
 					["classes"] = { HUNTER },
 					["lvl"] = 110,
@@ -1296,7 +1314,10 @@ root(ROOTS.Zones, {
 						90418,	-- Archmage Modera
 						115465,	-- Archmage Modera
 					},
-					["coord"] = { 28.5, 48.9, LEGION_DALARAN },
+					["coords"] = {
+						{ 23.4, 39.6, LEGION_DALARAN },
+						{ 28.5, 48.9, LEGION_DALARAN },
+					},
 					["classes"] = { DEATHKNIGHT },
 				}),
 				q(43341, {	-- Uniting the Isles

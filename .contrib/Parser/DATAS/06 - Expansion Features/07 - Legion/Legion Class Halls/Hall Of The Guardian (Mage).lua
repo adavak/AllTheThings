@@ -826,6 +826,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 116321 },	-- Arcanist Ryanna
 						["coord"] = { 47.1, 23.5, 691 },
 						["timeline"] = { ADDED_7_2_0 },
+						["groups"] = {
+							o(266092, {	-- Nightborne Scroll
+								i(142211),	-- Ancient Shal'dorei Scroll (QI!)
+							}),
+						},
 					}),
 					q(46351, {	-- Keep it Secret, Keep it Safe
 						["sourceQuests"] = {

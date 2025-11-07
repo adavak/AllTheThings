@@ -359,6 +359,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40908,	-- Jarl Come Back Now
 					["provider"] = { "n", 99544 },	-- Brandolf
 					["coord"] = { 69.0, 54.1, SURAMAR },
+					["groups"] = { i(132244) },	-- Sashj'tar Fang (QI!)
 				}),
 				q(41256, {	-- Blast of Spice Fish
 					["description"] = "Must be disguised as a Nightborne.",
@@ -399,6 +400,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40927,	-- Jandvik's Last Hope
 					["provider"] = { "n", 102390 },	-- Toryl
 					["coord"] = { 75.9, 52.7, SURAMAR },
+					["groups"] = { i(133926 ) },	-- Harpoon Parts (QI!)
 				}),
 				q(42225, {	-- Breaking the Seal
 					["sourceQuest"] = 42224,	-- Cloaked in Moonshade
@@ -675,6 +677,10 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40694,	-- One Small Step for Magic
 					["provider"] = { "n", 101076 },	-- Kyrtos
 					["coord"] = { 26.7, 70.7, SURAMAR },
+					["groups"] = {
+						i(133925),	-- Fel Lash (QI!)
+						i(133780),	-- Felbat Hide Scraps (QI!)
+					},
 				}),
 				q(45064, {	-- Felborne No More
 					["sourceQuests"] = {
@@ -1379,6 +1385,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40694,	-- One Small Step for Magic
 					["provider"] = { "n", 101076 },	-- Kyrtos
 					["coord"] = { 26.7, 70.7, SURAMAR },
+					["groups"] = { i(136592) },	-- Fel Essence (QI!)
 				}),
 				q(44844, {	-- Powering Down the Portal
 					["sourceQuests"] = { -- TODO: verify these
@@ -1881,6 +1888,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40694,	-- One Small Step for Magic
 					["provider"] = { "n", 101076 },	-- Kyrtos
 					["coord"] = { 26.7, 70.7, SURAMAR },
+					["groups"] = { i(132860 ) },	-- The Black Tome (QI!)
 				}),
 				q(44176, {	-- The Conveniences of Home
 					["description"] = "Obtained through Withered Army Training.",
@@ -2227,6 +2235,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42230,	-- The Valewalker's Burden
 					["provider"] = { "n", 100775 },	-- Lilryia Dawnwind
 					["coord"] = { 61.8, 49.0, SURAMAR },
+					["groups"] = { i(134120 ) },	-- Collar of Domination (QI!)
 					-- TODO: 42223 possibly a breadcrumb here?
 				}),
 				q(40336, {	-- Turning the Tidemistress

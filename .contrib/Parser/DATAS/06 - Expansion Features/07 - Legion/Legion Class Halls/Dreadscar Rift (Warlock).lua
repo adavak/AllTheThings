@@ -724,6 +724,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 115863 },	-- Jubeka Shadowbreaker
 						["coord"] = { 30.4, 44.6, AZSUNA },
 						["timeline"] = { ADDED_7_2_0 },
+						["groups"] = {
+							o(266291, {	-- Fel Crystal
+								["coords"] = {
+									{ 30.7, 52.6, AZSUNA },
+									{ 31.1, 54.3, AZSUNA },
+									{ 31.6, 52.2, AZSUNA },
+									{ 32.0, 53.3, AZSUNA },
+									{ 37.9, 58.3, AZSUNA },
+									{ 39.6, 54.1, AZSUNA },
+									{ 40.0, 57.7, AZSUNA },
+								},
+								["groups"] = { i(142393) },	-- Fel Crystal (QI!)
+							}),
+						},
 					}),
 					q(45026, {	-- Expending Fel Energy
 						["sourceQuests"] = {
@@ -733,6 +747,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 115863 },	-- Jubeka Shadowbreaker
 						["coord"] = { 30.4, 44.6, AZSUNA },
 						["timeline"] = { ADDED_7_2_0 },
+						["groups"] = {
+							i(144255),	-- Depleted Fel Crystals (QI!)
+							i(144256),	-- Fel Crystals (QI!)
+						},
 					}),
 					q(45794, {	-- Informing the Council
 						["sourceQuests"] = { 45026 },	-- Expending Fel Energy

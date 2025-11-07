@@ -972,6 +972,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 46318 },	-- Defense of Aviana
 						["provider"] = { "n", 106299 },	-- Thisalee Crow
 						["groups"] = {
+							i(146798),	-- Corrupted Idol of Aviana (QI!)
+							--
 							mount(231437),	-- Archdruid's Lunarwing Form (MOUNT!)
 							mount(241857),	-- Archdruid's Lunarwing Form (MOUNT!)
 						},

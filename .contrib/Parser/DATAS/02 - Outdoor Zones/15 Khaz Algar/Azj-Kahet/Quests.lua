@@ -315,7 +315,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["sourceQuests"] = { 78248 },	-- What We Still Have
 					["provider"] = { "n", 217385 },	-- Alleria Windrunner
 					["coord"] = { 60.6, 68.8, AZJ_KAHET },
-					["_norepeatable"] = true, -- 462605 spell clears this quest, but likely not used
+					["_norepeatable"] = true,	-- 462605 spell clears this quest, but likely not used
 				}),
 				--
 			}),

@@ -523,19 +523,39 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45343 },	-- A Curious Contagion
 						["provider"] = { "n", 118528 },	-- Aelthalyste
 						["coord"] = { 30.0, 55.9, HIGHMOUNTAIN },
+						["groups"] = {
+							o(267641, {	-- Fel Contagion
+								["coords"] = {
+									{ 25.2, 37.2, HIGHMOUNTAIN },
+									{ 26.0, 36.5, HIGHMOUNTAIN },
+									{ 26.1, 35.4, HIGHMOUNTAIN },
+									{ 26.7, 30.5, HIGHMOUNTAIN },
+									{ 26.8, 29.8, HIGHMOUNTAIN },
+									{ 26.8, 33.7, HIGHMOUNTAIN },
+									{ 26.9, 32.5, HIGHMOUNTAIN },
+									{ 27.0, 31.6, HIGHMOUNTAIN },
+									{ 27.4, 28.7, HIGHMOUNTAIN },
+									{ 27.8, 29.3, HIGHMOUNTAIN },
+									{ 27.9, 33.3, HIGHMOUNTAIN },
+									{ 28.0, 34.7, HIGHMOUNTAIN },
+									{ 28.0, 35.6, HIGHMOUNTAIN },
+									{ 28.2, 30.7, HIGHMOUNTAIN },
+								},
+								["groups"] = { i(143654) },	-- Contaminated Specimen (QI!)
+							}),
+						},
 					}),
 					q(45346, {	-- Shambling Specimens
 						["sourceQuests"] = { 45343 },	-- A Curious Contagion
 						["provider"] = { "n", 118528 },	-- Aelthalyste
 						["coord"] = { 30.0, 55.9, HIGHMOUNTAIN },
+						["groups"] = { i(143718) },	-- Corpse Collector (QI!)
 					}),
 					q(45345, {	-- Mischievous Sprites
 						["sourceQuests"] = { 45343 },	-- A Curious Contagion
 						["provider"] = { "n", 118528 },	-- Aelthalyste
 						["coord"] = { 30.0, 55.9, HIGHMOUNTAIN },
-						["groups"] = {
-							i(143678),	-- Shimmering Dust (QI!)
-						},
+						["groups"] = { i(143678) },	-- Shimmering Dust (QI!)
 					}),
 					q(45347, {	-- Crafting a Cure
 						["sourceQuests"] = {
@@ -550,6 +570,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45347 },	-- Crafting a Cure
 						["provider"] = { "n", 118528 },	-- Aelthalyste
 						["coord"] = { 30.0, 55.9, HIGHMOUNTAIN },
+						["groups"] = { i(143736) },	-- Contagion Counteragent (QI!)
 					}),
 					q(45349, {	-- To the Broken Shore
 						["sourceQuests"] = { 45348 },	-- Safekeeping
@@ -560,6 +581,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45349 },	-- To the Broken Shore
 						["provider"] = { "n", 118528 },	-- Aelthalyste
 						["coord"] = { 33.6, 49.7, BROKEN_SHORE },
+						["groups"] = { i(143773) },	-- Contagion Counteragent (QI!)
 					}),
 					q(45350, {	-- Countering the Contagion
 						["sourceQuests"] = { 45349 },	-- To the Broken Shore

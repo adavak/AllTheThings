@@ -1336,7 +1336,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				--
 				q(92030, {	-- A New Tradition
 					["sourceQuests"] = { 84467 },	-- This Was Home
-					["qg"] = 229476, -- Lorewalker Cho
+					["qg"] = 229476,	-- Lorewalker Cho
 					["coord"] = { 52.3, 19.2, THE_WANDERING_ISLE_HERITAGE },
 					["groups"] = {
 						i(242520),	-- Festival Hot Air Balloon (TOY!)

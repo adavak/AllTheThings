@@ -7,8 +7,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 		n(QUESTS, {
 			q(46268, {	-- A Found Memento
 				["provider"] = { "o", 268478 },	-- Battered Trinket
+				["coord"] = { 53.5, 80.5, BROKEN_SHORE },
 				["timeline"] = { ADDED_7_2_0 },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = { i(146408) },	-- Battered Trinket (QI!)
 			}),
 			q(47097, {	-- A Walk to Remember
 				["sourceQuests"] = { 47202 },	-- A Personal Message
@@ -419,7 +421,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 119886 },	-- Excavator Karla
 				["coord"] = { 39.6, 71.7, BROKEN_SHORE },
 				["groups"] = {
-					i(146958),	-- Wonderfully-Adorned Cloth (QI!)
+					o(268512, {	-- Sunken Treasure Chest
+						["coord"] = { 54.7, 77.8, BROKEN_SHORE },
+						["groups"] = { i(146958) },	-- Wonderfully-Adorned Cloth (QI!)
+					}),
 					i(146663),	-- Soggy Tapestry
 				},
 			}),
@@ -524,7 +529,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 119886 },	-- Excavator Karla
 				["coord"] = { 39.6, 71.7, BROKEN_SHORE },
 				["groups"] = {
-					i(146957),	-- Mysterious Potion (QI!)
+					o(268511, {	-- Grandiose  Treasure Chest
+						["coord"] = { 67.7, 16.5, BROKEN_SHORE },
+						["groups"] = { i(146957) },	-- Mysterious Potion (QI!)
+					}),
 				},
 			}),
 			q(47054, {	-- Touched By Fate
@@ -543,7 +551,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 119886 },	-- Excavator Karla
 				["coord"] = { 39.6, 71.7, BROKEN_SHORE },
 				["groups"] = {
-					i(146653),	-- Ancient Shard of Binding (QI!)
+					o(268513, {	-- Sandy Treasure Chest
+						["coord"] = { 75.9, 21.4, BROKEN_SHORE },
+						["groups"] = { i(146653) },	-- Ancient Shard of Binding (QI!)
+					}),
 				},
 			}),
 			q(53778, {	-- Where He Fell

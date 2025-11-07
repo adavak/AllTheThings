@@ -959,6 +959,7 @@ local AccountWideQuestsDB = {
 	64983,
 	65298,
 	65539,
+	65716,	-- Ensemble: Barkbinds of the Archdruid's Nightmare
 	66858,
 	66959,
 	67030,

@@ -714,6 +714,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45385 },	-- We Must be Prepared!
 						["provider"] = { "n", 117709 },	-- Lady S'theno
 						["coord"] = { 52.1, 21.3, BROKEN_SHORE },
+						["groups"] = { i(146797) },	-- Battleship Power Core (QI!)
 					}),
 					q(42669, {	-- Preparations for Invasion
 						["sourceQuests"] = { 42776 },	-- Two Worthies
@@ -725,9 +726,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45385 },	-- We Must be Prepared!
 						["provider"] = { "n", 117709 },	-- Lady S'theno
 						["coord"] = { 52.1, 21.3, BROKEN_SHORE },
-						["groups"] = {
-							i(143918),	-- Stabilizing Crystal (QI!)
-						},
+						["groups"] = { i(143918) },	-- Stabilizing Crystal (QI!)
 					}),
 					q(46266, {	-- Return of the Slayer
 						["sourceQuests"] = {

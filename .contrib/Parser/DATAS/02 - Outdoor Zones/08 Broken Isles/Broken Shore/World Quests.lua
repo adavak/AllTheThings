@@ -14,24 +14,40 @@ root(ROOTS.Zones, {
 					["classes"] = { HUNTER },
 				}),
 				q(45473, {	-- A Giant Problem
-					["groups"] = {
+					o(267575, {	-- Sunken Cache
 						i(146947),	-- Sunken Cargo (QI!)
-					},
+					}),
 				}),
 				q(46932),	-- A Tad More Corruption
 				q(45988, {	-- Ancient Bones
-					["groups"] = {
-						i(144238),	-- Ancient Bones (QI!)
-					},
+					o(267642, {	-- Ancient Bones
+						["coords"] = {
+							{ 50.9, 12.5, BROKEN_SHORE },
+							{ 51.8, 12.3, BROKEN_SHORE },
+							{ 52.8, 18.8, BROKEN_SHORE },
+							{ 53.0, 12.1, BROKEN_SHORE },
+							{ 53.1, 13.0, BROKEN_SHORE },
+							{ 53.4, 18.1, BROKEN_SHORE },
+							{ 53.4, 19.9, BROKEN_SHORE },
+							{ 53.8, 17.0, BROKEN_SHORE },
+							{ 54.2, 12.8, BROKEN_SHORE },
+							{ 54.2, 19.4, BROKEN_SHORE },
+							{ 54.4, 17.6, BROKEN_SHORE },
+							{ 54.5, 15.3, BROKEN_SHORE },
+							{ 55.4, 15.7, BROKEN_SHORE },
+							{ 55.5, 16.4, BROKEN_SHORE },
+						},
+						["groups"] = { i(144238) },	-- Ancient Bones (QI!)
+					}),
 				}),
 				q(46105, {	-- Arachnid Superiority
-					["groups"] = {
-						i(147206),	-- Potent Venom Sac (QI!)
-					},
+					i(147206),	-- Potent Venom Sac (QI!)
 				}),
 				q(46104),	-- Arachnid Toxicity
 				q(45694),	-- Arachnicide
-				q(46750),	-- Battery Backup
+				q(46750, {	-- Battery Backup
+					i(146892),	-- Battleship Power Core (QI!)
+				}),
 				q(45559),	-- Behind Enemy Portals
 				q(45542, {	-- Behind Enemy Portals
 					ach(11681),	-- Crate Expectations
@@ -140,7 +156,9 @@ root(ROOTS.Zones, {
 				q(45793, {	-- Occultist Onslaught
 					["classes"] = { WARLOCK },
 				}),
-				q(46752),	-- On Borrowed Wings
+				q(46752, {	-- On Borrowed Wings
+					i(146892),	-- Battleship Power Core (QI!)
+				}),
 				q(45797),	-- Playing with Green Fire
 				q(46180),	-- Power of Our Enemy
 				q(45929),	-- Purging the Flames
@@ -228,7 +246,29 @@ root(ROOTS.Zones, {
 				}),
 				q(44748, {	-- Winged Terrors
 					["groups"] = {
-						i(142079),	-- Shipwrecked Supplies (QI!)
+						o_repeated({	-- Shipwrecked Supplies
+							["coords"] = {
+								{ 45.7, 73.4, BROKEN_SHORE },
+								{ 47.0, 70.8, BROKEN_SHORE },
+								{ 48.4, 70.9, BROKEN_SHORE },
+								{ 48.5, 69.1, BROKEN_SHORE },
+								{ 48.5, 73.5, BROKEN_SHORE },
+								{ 48.9, 67.4, BROKEN_SHORE },
+								{ 48.9, 72.6, BROKEN_SHORE },
+								{ 49.0, 70.4, BROKEN_SHORE },
+								{ 49.8, 68.3, BROKEN_SHORE },
+								{ 49.9, 71.8, BROKEN_SHORE },
+								{ 49.9, 72.4, BROKEN_SHORE },
+								{ 50.1, 70.9, BROKEN_SHORE },
+								{ 50.4, 69.4, BROKEN_SHORE },
+							},
+							["groups"] = {
+								i(142079),	-- Shipwrecked Supplies (QI!)
+								o(265551),	-- Shipwrecked Supplies
+								o(265552),	-- Shipwrecked Supplies
+								o(265554),	-- Shipwrecked Supplies
+							},
+						}),
 					},
 				}),
 			})),

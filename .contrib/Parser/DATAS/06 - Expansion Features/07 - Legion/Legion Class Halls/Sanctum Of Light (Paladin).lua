@@ -156,6 +156,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 106337 },	-- Travard
 							["coord"] = { 72.0, 49.3, LEGION_DALARAN },
 							["groups"] = {
+								o(249824, {	-- The Silver Hand
+									["coord"] = { 37.5, 56.0, 20 },	-- Keeper's Rest
+									["groups"] = {
+										i(128823, {	-- The Silver Hand
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(120) },	-- The Silver Hand
+										}),
+									},
+								}),
 								i(173523),	-- Tirisfal Camp Scroll (QI!)
 							},
 						}),
@@ -192,6 +201,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42005 },	-- The End of the Saga
 							["provider"] = { "n", 105813 },	-- Orik Trueheart
 							["coord"] = { 72.6, 49.8, LEGION_DALARAN },
+							["groups"] = {
+								o(249420, {	-- Truthguard
+									["coord"] = { 27.9, 45.8, 635 },	-- Shield's Rest
+									["groups"] = {
+										i(128866, {	-- Truthguard
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(291) },	-- Truthguard
+										}),
+									},
+								}),
+							},
 						}),
 					}),
 					cl(PALADIN, RETRIBUTION, {
@@ -202,8 +222,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								44370,	-- Completing Your Arsenal
 							},
 							["sourceQuestNumRequired"] = 1,
-							["provider"] = { "n", 90259 },	-- Lord Maxwell Tyrosus
-							["coord"] = { 49.8, 72.4, SANCTUM_OF_LIGHT },
+							["qgs"] = {
+								90259,	-- Lord Maxwell Tyrosus
+								90369,	-- Lord Maxwell Tyrosus
+							},
+							["coords"] = {
+								{ 49.8, 72.4, SANCTUM_OF_LIGHT },
+								{ 74.6, 47.8, LEGION_DALARAN },
+							},
 							["groups"] = {
 								i(173537, {	-- Glowing Hearthstone (QI!)
 									["timeline"] = { ADDED_9_0_1 },
@@ -252,7 +278,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42811, {	-- We Meet at Light's Hope
 						["sourceQuests"] = { 38376 },	-- The Search for the Highlord
 						["provider"] = { "n", 91144 },	-- Lord Maxwell Tyrosus
-						["coord"] = { 20.4, 61.4, BROKEN_SHORE },
+						["coord"] = { 20.4, 61.4, 676 },	-- Broken Shore (Scenario Map)
 					}),
 					q(42812),	-- Paladin Order Hall - We Meet at Light's Hope. Triggered together with 42811 version
 					q(38566, {	-- A United Force

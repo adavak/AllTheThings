@@ -158,15 +158,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(166358, {	-- Proper Parrot (PET!)
 						["description"] = "Can be looted from Pirates.",
 						["crs"] = {
-							229190, -- Bert and Benny
-							229171, -- Bicephalic Bill
-							228583, -- Chef Chum Platter
-							229189, -- Finny Four-Eyes
-							228582, -- First Mate Shellshock
-							228580, -- Plank-Master Bluebelly
-							227644, -- Spare-Head Ed
-							229169, -- Timmy Two-Tongue
-							229168, -- Twin-Dome Doug
+							229190,	-- Bert and Benny
+							229171,	-- Bicephalic Bill
+							228583,	-- Chef Chum Platter
+							229189,	-- Finny Four-Eyes
+							228582,	-- First Mate Shellshock
+							228580,	-- Plank-Master Bluebelly
+							227644,	-- Spare-Head Ed
+							229169,	-- Timmy Two-Tongue
+							229168,	-- Twin-Dome Doug
 						}
 					}),
 					n(228582, {	-- First Mate Shellshock

@@ -558,7 +558,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							41737,	-- Champion: Hiro
 							41738,	-- Champion: Sylara Steelsong
 						},
-						["provider"] = { "n", 41736 },	-- Iron-Body Ponshu
+						["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 						["coord"] = { 51.4, 48.4, THE_WANDERING_ISLE },
 					}),
 					q(41039, {	-- Stolen Knowledge
@@ -691,6 +691,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 51.3, 48.5, THE_WANDERING_ISLE },
 						["timeline"] = { ADDED_7_2_0 },
 						["maps"] = { 872, 873, 874 },	-- Stormstout Brewery (Scenario Map)
+						["groups"] = {
+							o(266951, {	-- Barrel of Storm Brew
+								i(143731),	-- Barrel of Storm Brew (QI!)
+							}),
+						},
 					}),
 					q(45459, {	-- Storming the Legion
 						["sourceQuests"] = { 45404 },	-- Panic at the Brewery
@@ -743,6 +748,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 119765 },	-- Spirit of Brewmaster Blanche
 						["coord"] = { 50.5, 57.8, THE_WANDERING_ISLE },
 						["timeline"] = { ADDED_7_2_0 },
+						["groups"] = { i(146401) },	-- Curative Brew (QI!)
 					}),
 					q(45790, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Champion: Almai
 						["sourceQuests"] = { 45771 },	-- A Time for Everything
