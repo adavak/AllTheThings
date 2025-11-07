@@ -4525,6 +4525,7 @@ i(258903, 4927);	-- Percival
 i(260730, 4948);	-- Perturbed Sporebat
 i(262763, 4964);	-- Plump Mandrake
 i(260922, 4950);	-- Preyseeker's Immature Behemoth
+i(265609, 4985);	-- Princess Bloodshed
 i(250141, 4881);	-- Purple Swamp Leech
 i(264366, 4975);	-- Razeshi C.
 i(244911, 4830);	-- Rhay'Dahr

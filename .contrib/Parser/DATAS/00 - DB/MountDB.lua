@@ -2230,25 +2230,30 @@ i(246594, 1243003);	-- Light-Forged Mechsuit
 i(257504, 1261648);	-- Vicious Snaplizard [A]
 i(257502, 1261629);	-- Vicious Snaplizard [H]
 --- UNSORTED ---
+i(257197, 1261348);	-- [DNT] 12.0 Amani Pangolin
 i(257157, 1261325);	-- [DNT] 12.0 Black Hawkstrider
+i(257444, 1261576);	-- [DNT] 12.0 Hex Eagle Mount
+i(257223, 1261360);	-- [DNT] 12.0 Shadowpine Bear
 i(260231, 1265784);	-- [DNT] 12.0 White Hawkstrider
 i(0, 1252141);	-- [DNT] Jellyfish
 i(222988, 447173);	-- [PH] Firefly2Mount (Green)
 i(224148, 451487);	-- [PH] NerubianWarbeastMount (Cyan)
 i(260896, 1267004);	-- Accented Pseudoshell
 i(257219, 1261357);	-- Amani Blessed Bear
+i(257152, 1261316);	-- Amani Sharptalon
 i(250782, 1251433);	-- Amani Sunfeather
 i(250889, 1251630);	-- Amani Windcaller
 i(260893, 1266993);	-- Arboreal Pseudoshell
 i(263222, 1268949);	-- Arcanovoid Construct
 i(246590, 1242904);	-- Ashes of Belo'ren
+i(257085, 1261155);	-- Augmented Stormray
 i(262707, 1269279);	-- Blooded Snapvine
 i(0, 1253924);	-- Brilliant Petalwing
 i(260894, 1266997);	-- Cabbage Pseudoshell
 i(0, 1261323);	-- Cerulean Hawkstrider
 i(252014, 1253929);	-- Cerulean Sporeglider
 i(260580, 1266579);	-- Cloudborn Razorwing
-i(0, 1261302);	-- Cobalt Dragonhawk
+i(257156, 1261302);	-- Cobalt Dragonhawk
 i(0, 1261334);	-- Contained Stormarion Defender
 i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider
 i(262496, 1268919);	-- Delver's Arcane Golem
@@ -2258,6 +2263,7 @@ i(262706, 1269277);	-- Ferocious Snapvine
 i(246734, 1243593);	-- Fierce Grimlynx
 i(257142, 1261291);	-- Fiery Dragonhawk
 i(263449, 1270520);	-- Fluffy Comfy Flying Quilt
+i(0, 1261349);	-- Giganto Manis
 i(263450, 1270521);	-- Gruffy Comfy Flying Quilt
 i(263451, 1270522);	-- Huffy Comfy Flying Quilt
 i(0, 1261583);	-- Insatiable Shredclaw
@@ -2267,7 +2273,9 @@ i(260916, 3363);	-- Lost Nether Drake
 i(257191, 1261336);	-- Preyseeker's Hubris
 i(257192, 1261337);	-- Preyseeker's Wrath
 i(0, 1261579);	-- Ravenous Shredclaw
+i(246735, 1243597);	-- Rootstalker Grimlynx
 i(252017, 1253938);	-- Ruddy Sporeglider
+i(260635, 1266700);	-- Sanguine Harrower
 i(260409, 1266248);	-- Savage Crimson Battle Turtle
 i(262708, 1269280);	-- Savage Snapvine
 i(262500, 1268924);	-- Silvermoon's Arcane Defender
@@ -2278,4 +2286,6 @@ i(260887, 1266980);	-- Tenebrous Harrower
 i(256423, 1260354);	-- Untainted Grove Crawler
 i(262705, 1269273);	-- Vicious Snapvine
 i(263580, 1270675);	-- Vivid Chloroceros
+i(252012, 1253927);	-- Vibrant Petalwing
 i(0, 1266702);	-- Voidbound Stormray
+i(257200, 1261351);	-- Witherbark Pango

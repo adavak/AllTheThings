@@ -1518,6 +1518,7 @@ i(250974);	-- Akil'zon's Updraft
 i(263933);	-- Astalor's Summons
 i(264805);	-- Brann-O-Vision 3000
 i(251633);	-- Bursting Bounty Bundle
+i(265100);	-- Corewarden's Hearthstone
 i(264672);	-- Cosmic Ritual Stone
 i(264413);	-- Dominating Victory
 i(263244);	-- Enigmatic Fountain
