@@ -2543,7 +2543,7 @@ o(529396,{coords={{46.1,25.4,627}},e=447,g={
 i(243604,{e=447})}})}}),
 q(89408,{coords={a[276]},e=447,qgs=a[190],sourceQuests=a[444]}),
 q(89409,{coords={a[276]},e=447,qgs=a[190],sourceQuests={89407,89408}}),
-q(90659,{coords={a[276]},description="You can get one Artifact Weapon of your chosice (based on your Specialization). Others can be obtained through Order Hall Campaign.",e=447,qgs=a[190],sourceQuests={89409},g={
+q(90659,{coords={a[276]},description="You can get one Artifact Weapon of your choice (based on your specialization). Others can be obtained through Order Hall Campaign.",e=447,qgs=a[190],sourceQuests={89409},g={
 cl(6,{e=447,g={
 s(290486,242563,{c=a[352],e=447,f=26,spellID=1233922}),
 s(290389,242559,{c=a[352],e=447,f=25,spellID=1233922}),

@@ -114,7 +114,10 @@ toy(232303,{awp=110200,description="Mythic Dungeon International: TWW Season 3\n
 p(4856,{awp=110200,description="Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-30, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",itemID=246343,npcID=246663,rwp=110200,spellID=1241763,u=2}),
 p(4907,{awp=110200,description="Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between October 1st, 10:00 a.m. & October 29th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",itemID=257515,npcID=254356,rwp=110205,spellID=1261676,u=2}),
 mnt(1245604,{awp=110205,description="Obtained if you set up a 12-Month WoW Subscription.",itemID=247848,u=3}),
-mnt(1234971,{awp=110205,description="Obtained if you set up a 12-Month WoW Subscription.",itemID=243194,u=3})}}),
+mnt(1234971,{awp=110205,description="Obtained if you set up a 12-Month WoW Subscription.",itemID=243194,u=3}),
+en(242480,{awp=110205,description="Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 11th, 10:00 a.m. & December 2nd, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",questID=90654,rwp=110205,spellID=1232446,tmogSetID=4538,g={
+s(290242,242421,{f=2}),
+s(290265,242450,{f=2})}})}}),
 h(-519,{awp=100007,rwp=100206,u=2,g={
 mnt(51412,{itemID=49282,lvl=17,rwp=100007,u=2}),
 p(256,{b=1,itemID=54847,npcID=40703,rwp=100100,spellID=75906,u=2}),
