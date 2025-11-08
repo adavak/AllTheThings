@@ -1300,6 +1300,7 @@ MobileDB.GameObject = {
 	[265509] = true,	-- Broken Telemancy Beacon
 	[265521] = true,	-- Felsoul Cage (q:44727)
 	[265572] = true,	-- Prison Cage (q:44751)
+	[266736] = true,	-- Levia's Research Journal (q:47057)
 	[267575] = true,	-- Sunken Cache (q:45473)
 	[267600] = true,	-- Saltwater Crane Egg (wq:45934)
 	[267768] = true,	-- Unearthed Antiquities (q:46075)
