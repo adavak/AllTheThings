@@ -612,8 +612,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["u"] = REMOVED_FROM_GAME,	-- supposedly removed in 7.2
 					}),
 					-- 7.2.0
-					q(45143, {	-- Judgement Awaits
-						["sourceQuests"] = { 47137 },	-- Champions of Legionfall
+					q(45143, {	-- Judgment Awaits
+						["sourceQuests"] = {
+							47137,	-- Champions of Legionfall
+							-- #IF AFTER 7.2.0
+							43424,	-- A Hero's Weapon
+							-- #ELSE
+							45998,	-- Investigate the Broken Shore
+							-- #ENDIF
+						},
 						["provider"] = { "n", 90249 },	-- Lady Liadrin
 						["coord"] = { 50.3, 74.1, LIGHTS_HOPE_CHAPEL },
 					}),

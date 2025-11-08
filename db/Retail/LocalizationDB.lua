@@ -50655,7 +50655,7 @@ L.PLAYER_TITLE_BRINGER_OF_FLAMES = "|cffa335ee%s, несущий пламя|r";
 L.PLAYER_TITLE_GOLD_TYCOON = "|c" .. _.DefaultColors.Raid .. "Золотой магнат %s|r";
 L.PLAYER_TITLE_KING_OF_THE_ASYLUM = "|cffa335ee%s, король убежища|r";
 L.PLAYER_TITLE_LORD_KING = "|cffa335eeЛорд-король %s|r";
-L.PLAYER_TITLE_LORD_QUEEN = "|cffa335eeЛорд королева %s|r";
+L.PLAYER_TITLE_LORD_QUEEN = "|cffa335eeЛорд-королева %s|r";
 L.PLAYER_TITLE_SCARAB_LORD = "|c" .. _.DefaultColors.Raid .. "Повелитель Скарабеев %s|r";
 L.PLAYER_TITLE_THE_COMPLETIONIST = "|c" .. _.DefaultColors.Raid .. "%s Завершающий|r";
 L.PLAYER_TITLE_THE_EXTERMINATOR = "|cffa335ee%s Истребитель|r";
@@ -51114,7 +51114,7 @@ localize(L.HEADER_NAMES, {
 	[-472] = "Возвращение в жуткие видения",
 	[-474] = "Буйство элементалей",
 	[-476] = "Пиратская буря",
-	[-480] = "бесконечный базар",
+	[-480] = "Бесконечный базар",
 	[-481] = "Война в Ан'Кираже",
 	[-482] = "Открытие Темного портала",
 	[-483] = "Скипетр Зыбучих песков",

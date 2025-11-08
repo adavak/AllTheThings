@@ -515,9 +515,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					--
 
 					q(45343, {	-- A Curious Contagion
+						["sourceQuests"] = {
+							47137,	-- Champions of Legionfall
+							-- #IF AFTER 7.2.0
+							43420,	-- A Hero's Weapon
+							-- #ELSE
+							45998,	-- Investigate the Broken Shore
+							-- #ENDIF
+						},
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
 						["coord"] = { 51.0, 48.4, NETHERLIGHT_TEMPLE },
-						--["sourceQuests"] = { 47137 },
 					}),
 					q(45344, {	-- Sampling the Source
 						["sourceQuests"] = { 45343 },	-- A Curious Contagion

@@ -685,7 +685,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
 					}),
 					q(44869, {	-- Talon Terror
-						["sourceQuests"] = { 47137 },	-- Champions of Legionfall
+						["sourceQuests"] = {
+							47137,	-- Champions of Legionfall
+							-- #IF AFTER 7.2.0
+							43409,	-- A Hero's Weapon
+							-- #ELSE
+							45998,	-- Investigate the Broken Shore
+							-- #ENDIF
+						},
 						["provider"] = { "n", 106299 },	-- Thisalee Crow
 						["coord"] = { 44.3, 51.5, THE_DREAMGROVE },
 					}),

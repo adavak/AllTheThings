@@ -343,7 +343,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 59.9, 48.7, 720 },
 					}),
 					q(46159, {	-- An Urgent Message
-						["sourceQuests"] = { 47137 },	-- Champions of Legionfall (must be in log)
+						["sourceQuests"] = {
+							47137,	-- Champions of Legionfall
+							-- #IF AFTER 7.2.0
+							43412	-- A Hero's Weapon
+							-- #ELSE
+							45998,	-- Investigate the Broken Shore
+							-- #ENDIF
+						},
 						["lvl"] = 110,
 					}),
 					q(45993, {	-- An Urgent Warning
@@ -659,8 +666,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(46333, {	-- Livin' on the Ledge
 						["sourceQuests"] = {
-							46734,	-- Assault on Broken Shore
-							47137,	-- Champions of Legionfall
+							45391,	-- Champion: Lady S'theno
 						},
 						["provider"] = { "n", 118316 },	-- Illidari Enforcer
 						["coord"] = { 44.0, 62.7, BROKEN_SHORE },

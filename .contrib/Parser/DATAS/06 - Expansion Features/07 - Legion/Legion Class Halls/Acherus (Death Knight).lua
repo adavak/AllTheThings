@@ -614,10 +614,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- 7.2.0
 					q(45240, {	-- Making Preparations
+						["sourceQuests"] = {
+							47137,	-- Champions of Legionfall
+							-- #IF AFTER 7.2.0
+							43407, -- A Hero's Weapon
+							-- #ELSE
+							45998,	-- Investigate the Broken Shore
+							-- #ENDIF
+						},
 						["provider"] = { "n", 113695 },	-- Highlord Darion Mograine
 						["coord"] = { 27.0, 28.9, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["maps"] = { 823 },	-- Pit of Saron (Scenario Map)
-						--["sourceQuest"] = 47137,	-- Champions of Legionfall (must be in log)
 					}),
 					q(45398, {	-- Harnessing Power
 						["sourceQuest"] = 45240,	-- Making Preparations
@@ -682,9 +689,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(46719, {	-- Amal'thazad's Message
+						["sourceQuest"] = 46050,	-- Champion: Minerva Ravensorrow
 						["provider"] = { "n", 117573 },	-- Dread Commander Thalanor
 						["coord"] = { 43.4, 62.7, BROKEN_SHORE },
-						-- ["sourceQuests"] = { 46251 },	-- Shard Times
 					}),
 					q(46720, {	-- Frozen Memories
 						["sourceQuest"] = 46719,	-- Amal'thazad's Message

@@ -2267,7 +2267,7 @@ ach(42502,{e=447,g={
 crit(106003,{achID=42502,e=447,id=1,providers={a[23]}})}}),
 ach(42503,{e=447,g={
 crit(106003,{achID=42503,e=447,id=1,providers={a[23]}})}}),
-ach(42565,{description="Requires completion of all Class 12 Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.",e=447,sourceQuests={45354,45770,45789,46089,46207,46243,46319,46334,46337,46350,46792,46813},g={
+ach(42565,{description="Requires completion of all 12 Class Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.",e=447,sourceQuests={45354,45770,45789,46089,46207,46243,46319,46334,46337,46350,46792,46813},g={
 crit(108376,{achID=42565,e=447,id=1}),
 crit(108360,{achID=42565,e=447,id=2}),
 crit(108648,{achID=42565,e=447,id=3}),
