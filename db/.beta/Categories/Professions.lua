@@ -283,7 +283,7 @@ crit(15065,{achID=4859,id=5,providers={{"i",64344}},requireSkill=794}),
 crit(15066,{achID=4859,id=6,providers={{"i",64371}},requireSkill=794}),
 crit(15068,{achID=4859,id=7,providers={{"i",64485}},requireSkill=794}),
 crit(15069,{achID=4859,id=8,providers={{"i",64484}},requireSkill=794}),
-i(245426,{awp=110207,requireSkill=794,spellID=1238558})}}),
+i(245426,{awp=110207,requireSkill=794,sourceAchievements={4859},spellID=1238558})}}),
 ach(4858,{requireSkill=794,g={
 crit(15051,{achID=4858,id=2,providers={{"i",64367}},requireSkill=794}),
 crit(15050,{achID=4858,id=3,providers={{"i",64348}},requireSkill=794}),
@@ -1290,7 +1290,7 @@ crit(53511,{achID=16630,id=10,learnedAt=100,requireSkill=393}),
 crit(53512,{achID=16630,id=11,learnedAt=100,requireSkill=197})})}}),
 x(11,{awp=110002,g={
 ach(19408,{
-i(253163,{awp=110207,spellID=1255715})}),
+i(253163,{awp=110207,sourceAchievements={19408},spellID=1255715})}),
 ach(19409,{sym={{"partial_achievement",19410}}}),
 ach(19515,{sym={{"partial_achievement",19410}},g={
 en(219125,{b=1,questID=81544,spellID=442778,tmogSetID=3547,g={

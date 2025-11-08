@@ -679,7 +679,6 @@ root(ROOTS.Unsorted, {
 			i(242635),	-- Twilight's Blade Tabard
 			i(242637),	-- Recycle Potions
 			i(242638),	-- Recycle Flasks
-			i(242639),	-- Practically Pork
 			i(242640),	-- Plant Protein
 			i(242641),	-- Cooking Spirits
 			i(242642),	-- Thalassian Herbs
@@ -2104,7 +2103,6 @@ root(ROOTS.Unsorted, {
 			i(251691),	-- Embroidery Floss
 			i(251782),	-- Withered Saptor's Paw
 			i(251783),	-- Lost Idol of the Hash'ey \\ Fractured Amani Idol
-			i(251784),	-- Sylvan Wakrapuku
 			i(251785),	-- Void-Reaper's Libram
 			i(251786),	-- Ever-collapsing Void Fissure
 			i(251787),	-- Sealed Chaos Urn
@@ -2429,7 +2427,6 @@ root(ROOTS.Unsorted, {
 			i(256761),	-- Formula: Enchant Shoulders - Voidtouched
 			i(256965),	-- Steelbark Vambraces \\ [PH] WQ - Armor - Plate WRIST - A
 			i(256966),	-- Rootspeaker's Leafwraps \\ [PH] WQ - Armor - Mail WRIST - A
-			i(256967),	-- Verdant Tracker's Cuffs \\ [PH] WQ - Armor - Leather WRIST - A
 			i(256968),	-- Deepvine Bracers \\ [PH] WQ - Armor - Cloth WRIST - A
 			i(256969),	-- Farstrider's Pendant \\ [PH] WQ - Accessory - NECK - B
 			i(256970),	-- Loa-Blessed Beads \\ [PH] WQ - Accessory - NECK - A
@@ -2437,36 +2434,28 @@ root(ROOTS.Unsorted, {
 			i(256972),	-- Evertwisting Swiftvine \\ [PH] WQ - Accessory - FINGER - C
 			i(256973),	-- Steelbark Sabatons \\ [PH] WQ - Armor - Plate FEET - A
 			i(256974),	-- Rootspeaker's Footwraps \\ [PH] WQ - Armor - Mail FEET - A
-			i(256975),	-- Verdant Tracker's Anklets \\ [PH] WQ - Armor - Leather FEET - A
 			i(256976),	-- Deepvine Ankleguards \\ [PH] WQ - Armor - Cloth FEET - A
 			i(256977),	-- Steelbark Gauntlets \\ [PH] WQ - Armor - Plate HAND - A
 			i(256978),	-- Rootspeaker's Branches \\ [PH] WQ - Armor - Mail HAND - A
-			i(256979),	-- Verdant Tracker's Claws \\ [PH] WQ - Armor - Leather HAND - A
 			i(256980),	-- Deepvine Grips \\ [PH] WQ - Armor - Cloth HAND - A
 			i(256981),	-- Steelbark Chestguard \\ [PH] WQ - Armor - Plate CHEST - A
 			i(256982),	-- Rootspeaker's Trunk \\ [PH] WQ - Armor - Mail CHEST - A
-			i(256983),	-- Verdant Tracker's Vest \\ [PH] WQ - Armor - Leather CHEST - A
 			i(256984),	-- Deepvine Chestwrap \\ [PH] WQ - Armor - Cloth CHEST - A
-			i(256985),	-- Forest Hunter's Hoop \\ [PH] WQ - Accessory - FINGER - B
 			i(256986),	-- Circlet of Encroaching Shadow \\ [PH] WQ - Accessory - FINGER - A
 			i(256987),	-- Ironvine Bulwark \\ [PH] WQ - Weapon - Shield STRINT - A
 			i(256988),	-- Lumenbloom Lantern \\ [PH] WQ - Weapon - Offhand INT - A
 			i(256989),	-- Bladed Rootwarden's Stave \\ [PH] WQ - Weapon - 2H Staff AGI - A
-			i(256990),	-- Verdant Tracker's Edge \\ [PH] WQ - Weapon - 1H Sword AGI - A
 			i(256991),	-- Vinewrapped Mallet \\ [PH] WQ - Weapon - 1H Mace STR - A
 			i(256992),	-- Razorvine Cudgel \\ [PH] WQ - Weapon - 1H Mace AGI - A
 			i(256993),	-- Verdant Tracker's Spike \\ [PH] WQ - Weapon - 1H Dagger AGI - B
 			i(256994),	-- Steelbark Casque \\ [PH] WQ - Armor - Plate HEAD - A
 			i(256995),	-- Rootspeaker's Headdress \\ [PH] WQ - Armor - Mail HEAD - A
-			i(256996),	-- Verdant Tracker's Guise \\ [PH] WQ - Armor - Leather HEAD - A
 			i(256997),	-- Deepvine Collar \\ [PH] WQ - Armor - Cloth HEAD - A
 			i(256998),	-- Steelbark Shoulderguards \\ [PH] WQ - Armor - Plate SHOULDER - A
 			i(256999),	-- Rootspeaker's Canopy \\ [PH] WQ - Armor - Mail SHOULDER - A
-			i(257000),	-- Verdant Tracker's Trophy Mantle \\ [PH] WQ - Armor - Leather SHOULDER - A
 			i(257001),	-- Deepvine Pauldrons \\ [PH] WQ - Armor - Cloth SHOULDER - A
 			i(257002),	-- Steelbark Greaves \\ [PH] WQ - Armor - Plate LEGS - A
 			i(257003),	-- Rootspeaker's Leggings \\ [PH] WQ - Armor - Mail LEGS - A
-			i(257004),	-- Verdant Tracker's Legguards \\ [PH] WQ - Armor - Leather LEGS - A
 			i(257005),	-- Deepvine Britches \\ [PH] WQ - Armor - Cloth LEGS - A
 			i(257006),	-- Vine-Rending Claymore \\ [PH] WQ - Weapon - 2H Sword STR - A
 			i(257007),	-- Tanglevine Spellfocus \\ [PH] WQ - Weapon - 2H Staff INT - A
@@ -2478,12 +2467,9 @@ root(ROOTS.Unsorted, {
 			i(257013),	-- Viridescent Crusher \\ [PH] WQ - Weapon - 1H Mace STR - A
 			i(257014),	-- Lumenbloom Scepter \\ [PH] WQ - Weapon - 1H Mace INT - A
 			i(257015),	-- Vinebound Shank \\ [PH] WQ - Weapon - 1H Dagger AGI - A
-			i(257016),	-- Deep Forest Hacker \\ [PH] WQ - Weapon - 1H Axe AGI - A
 			i(257017),	-- Steelbark Girdle \\ [PH] WQ - Armor - Plate WAIST - A
 			i(257018),	-- Rootspeaker's Barkclasp \\ [PH] WQ - Armor - Mail WAIST - A
-			i(257019),	-- Verdant Tracker's Buckle \\ [PH] WQ - Armor - Leather WAIST - A
 			i(257020),	-- Deepvine Waistguard \\ [PH] WQ - Armor - Cloth WAIST - A
-			i(257021),	-- Verdant Tracker's Cover \\ [PH] WQ - Accessory - CLOAK - B
 			i(257022),	-- Deepvine Shroud \\ [PH] WQ - Accessory - CLOAK - A
 			i(257023),	-- Preyseeker's Adventurer Chest \\ [DNT] 12.0 Prey Basic Hunt Normal Mode Box
 			i(257026),	-- Preyseeker's Veteran Chest \\ [DNT] 12.0 Prey Basic Hunt Hard Mode Box
@@ -2873,34 +2859,6 @@ root(ROOTS.Unsorted, {
 			i(258832),	-- [DNT] Haranir Heritage Armor Shoulder - Purple
 			i(258833),	-- [DNT] Haranir Heritage Armor Cloak - Purple
 			i(258839),	-- Concealed Catalogue
-			i(258848),	-- Stained Girdle
-			i(258849),	-- Stained Headguard
-			i(258850),	-- Stained Fistguards
-			i(258851),	-- Stained Hauberk
-			i(258853),	-- Stained Sabatons
-			i(258855),	-- Stained Armguards
-			i(258856),	-- Threadbare Mantle
-			i(258857),	-- Threadbare Sash
-			i(258858),	-- Threadbare Crown
-			i(258859),	-- Threadbare Mitts
-			i(258860),	-- Threadbare Leggings
-			i(258861),	-- Threadbare Slippers
-			i(258862),	-- Threadbare Vestments
-			i(258863),	-- Threadbare Armbands
-			i(258864),	-- Brittle Waistguard
-			i(258865),	-- Brittle Breastplate
-			i(258866),	-- Brittle Gauntlets
-			i(258867),	-- Brittle Faceguard
-			i(258868),	-- Brittle Legguards
-			i(258869),	-- Brittle Pauldrons
-			i(258870),	-- Brittle Warboots
-			i(258871),	-- Brittle Armplates
-			i(258872),	-- Frayed Wristwraps
-			i(258873),	-- Frayed Tunic
-			i(258874),	-- Frayed Shoulderpads
-			i(258875),	-- Frayed Britches
-			i(258877),	-- Frayed Handwraps
-			i(258878),	-- Frayed Boots
 			i(258890),	-- Boar Carcass \\ [PH] Boar Carcass
 			i(258901),	-- Waterlogged Reliquary Paintbrush
 			i(258908),	-- Tarnished Dawnlit Band
@@ -2923,14 +2881,6 @@ root(ROOTS.Unsorted, {
 			i(258925),	-- Tarnished Dawnlit Corsair's Spaulders
 			i(258926),	-- Tarnished Dawnlit Corsair's Belt
 			i(258927),	-- Tarnished Dawnlit Corsair's Bracers
-			i(258928),	-- Tarnished Dawnlit Sentinel's Hauberk
-			i(258929),	-- Tarnished Dawnlit Sentinel's Sabatons
-			i(258930),	-- Tarnished Dawnlit Sentinel's Handguards
-			i(258931),	-- Tarnished Dawnlit Sentinel's Cover
-			i(258932),	-- Tarnished Dawnlit Sentinel's Chausses
-			i(258933),	-- Tarnished Dawnlit Sentinel's Epaulets
-			i(258934),	-- Tarnished Dawnlit Sentinel's Girdle
-			i(258935),	-- Tarnished Dawnlit Sentinel's Armguards
 			i(258936),	-- Tarnished Dawnlit Commander's Breastplate
 			i(258937),	-- Tarnished Dawnlit Commander's Warboots
 			i(258938),	-- Tarnished Dawnlit Commander's Gauntlets
@@ -2938,25 +2888,6 @@ root(ROOTS.Unsorted, {
 			i(258940),	-- Tarnished Dawnlit Commander's Greaves
 			i(258941),	-- Tarnished Dawnlit Commander's Mantle
 			i(258943),	-- Tarnished Dawnlit Commander's Armplates
-			i(258944),	-- Tarnished Dawnlit Cleaver
-			i(258945),	-- Tarnished Dawnlit Carver
-			i(258946),	-- Tarnished Dawnlit Chopper
-			i(258947),	-- Tarnished Dawnlit Dagger
-			i(258948),	-- Tarnished Dawnlit Knife
-			i(258949),	-- Tarnished Dawnlit Mace
-			i(258950),	-- Tarnished Dawnlit Warmace
-			i(258951),	-- Tarnished Dawnlit Shortsword
-			i(258952),	-- Tarnished Dawnlit Longsword
-			i(258953),	-- Tarnished Dawnlit Longbow
-			i(258954),	-- Tarnished Dawnlit Poleaxe
-			i(258955),	-- Tarnished Dawnlit Halberd
-			i(258956),	-- Tarnished Dawnlit Scepter
-			i(258957),	-- Tarnished Dawnlit Staff
-			i(258958),	-- Tarnished Dawnlit Greatsword
-			i(258959),	-- Tarnished Dawnlit Blade
-			i(258960),	-- Tarnished Dawnlit Beacon
-			i(258961),	-- Tarnished Dawnlit Defender
-			i(258962),	-- Tarnished Dawnlit Warglaive
 			i(258965),	-- Tome of Polymorph
 			i(258966),	-- Lynx Collar
 			i(258967),	-- Hara'ti Scout's Grove Bow
@@ -3075,14 +3006,6 @@ root(ROOTS.Unsorted, {
 			i(259922),	-- Preyseeker's Refined Epaulet \\ [DNT] 12.0 Prey - Armor - Cloth SHOULDER - A
 			i(259923),	-- Preyseeker's Refined Cord \\ [DNT] 12.0 Prey - Armor - Cloth WAIST - A
 			i(259924),	-- Preyseeker's Refined Cuffs \\ [DNT] 12.0 Prey - Armor - Cloth WRIST - A
-			i(259925),	-- Preyseeker's Sleek Jerkin \\ [DNT] 12.0 Prey - Armor - Leather CHEST - A
-			i(259926),	-- Preyseeker's Sleek Boots \\ [DNT] 12.0 Prey - Armor - Leather FEET - A
-			i(259927),	-- Preyseeker's Sleek Gauntlets \\ [DNT] 12.0 Prey - Armor - Leather HAND - A
-			i(259928),	-- Preyseeker's Sleek Mask \\ [DNT] 12.0 Prey - Armor - Leather HEAD - A
-			i(259929),	-- Preyseeker's Sleek Trousers \\ [DNT] 12.0 Prey - Armor - Leather LEGS - A
-			i(259930),	-- Preyseeker's Sleek Shoulderpads \\ [DNT] 12.0 Prey - Armor - Leather SHOULDER - A
-			i(259931),	-- Preyseeker's Sleek Belt \\ [DNT] 12.0 Prey - Armor - Leather WAIST - A
-			i(259932),	-- Preyseeker's Sleek Armlets \\ [DNT] 12.0 Prey - Armor - Leather WRIST - A
 			i(259933),	-- Preyseeker's Rugged Haubergeon \\ [DNT] 12.0 Prey - Armor - Mail CHEST - A
 			i(259934),	-- Preyseeker's Rugged Sabatons \\ [DNT] 12.0 Prey - Armor - Mail FEET - A
 			i(259935),	-- Preyseeker's Rugged Grips \\ [DNT] 12.0 Prey - Armor - Mail HAND - A

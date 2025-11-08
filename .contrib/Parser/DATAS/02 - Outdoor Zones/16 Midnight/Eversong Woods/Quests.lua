@@ -428,6 +428,11 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						--["sourceQuests"] = { xx },	-- xx
 						--["provider"] = { "o", XX },	-- Agitated Tome
 					}),
+					q(93372, {	-- Delver's Call: Shadow Enclave
+						["coord"] = { 50.8, 40.0, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
+						--["provider"] = { "o", XX },	-- The Shadow Enclave
+					}),
 					---
 					q(90669, {	-- Gold is Gold
 						["provider"] = { "n", 243290 },	-- Sarvi
@@ -1074,6 +1079,43 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["groups"] = {
 							i(244339),	-- Hawkstrider Egg (PET!)
 						},
+					}),
+					---Runestone Rumbles
+					q(92396, {	-- Calling in the Cavalry
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 250791 },	-- Terel Bloodfate
+						["coord"] = { 50.1, 34.2, EVERSONG_WOODS_MID },
+					}),
+					q(92397, {	-- And Then They Came
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 250798 },	-- Alesil Dawnblood
+						["coord"] = { 61.7, 62.9, EVERSONG_WOODS_MID },
+					}),
+					---Scootin' Through Silvermoon
+					q(92729, {	-- Hounded and Hassled
+						--["sourceQuests"] = { xx },	-- xx
+						["provider"] = { "n", 252500 },	-- Ranger Telenus
+						["coord"] = { 35.7, 69.0, SILVERMOON_CITY_MID },
+					}),
+					q(92728, {	-- Dogged Disturbances
+						["sourceQuests"] = { 92729 },	-- Hounded and Hassled
+						["provider"] = { "n", 253015 },	-- Magistrix Zaedana
+						["coord"] = { 35.4, 57.7, SILVERMOON_CITY_MID },
+					}),
+					q(92868, {	-- He Went Thataway
+						["sourceQuests"] = { 92728 },	-- Dogged Disturbances
+						["provider"] = { "n", 253015 },	-- Magistrix Zaedana
+						["coord"] = { 35.4, 57.7, SILVERMOON_CITY_MID },
+					}),
+					q(92869, {	-- Fishy Dis-pondencies
+						["sourceQuests"] = { 92868 },	-- He Went Thataway
+						["provider"] = { "n", 253468 },	-- Drathen
+						["coord"] = { 44.8, 60.4, SILVERMOON_CITY_MID },
+					}),
+					q(92870, {	-- Scoot Along Now
+						["sourceQuests"] = { 92869 },	-- Fishy Dis-pondencies
+						["provider"] = { "n", 253468 },	-- Drathen
+						["coord"] = { 44.8, 60.4, SILVERMOON_CITY_MID },
 					}),
 				--}),
 			--}),

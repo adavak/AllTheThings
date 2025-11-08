@@ -30,6 +30,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		m(SILVERMOON_CITY_MID, {
 			n(QUESTS, {
 				--q(93067), <stay a while and listen> o? | In Memoriam @ 35.2, 70.3. Since it fire with big delay -- gonna leave it like that
+				q(90806),	-- Midnight adventure mode // World Quests & Adventure Mode (spellID 1234841) & Unlock Content Scaling (spellID 1234839)
 			}),
 		}),
 	}),

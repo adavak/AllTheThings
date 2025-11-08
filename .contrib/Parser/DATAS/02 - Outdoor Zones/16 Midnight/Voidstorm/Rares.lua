@@ -33,7 +33,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			n(245182, {	-- Eruundi
 				["coord"] = { 40.1, 90.9, SLAYERS_RISE_OUTDOOR },
-				--["questID"] = XXXX,	-- missing questID
+				["questID"] = 91047,
 				["groups"] = {
 					--no loot table
 				},

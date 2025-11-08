@@ -370,7 +370,41 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 					["coord"] = { 61.9, 68.3, EVERSONG_WOODS_MID },
 				}),
 			}),
-			header(HEADERS.AchCriteria, 60891.02, {	-- TODO: missing quest chain
+			header(HEADERS.AchCriteria, 60891.02, {	-- A Favor for the Lion
+				q(91828, {	-- A Favor for the Lion
+					["sourceQuests"] = { 91827 },	-- No Loose Ends (TODO: could be wrong)
+					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
+					["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+				}),
+				q(91829, {	-- One by One
+					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
+					["provider"] = { "n", 248982 },	-- Valeera Sanguinar
+					["coord"] = { 40.4, 71.7, ZULAMAN_MID },
+				}),
+				q(91830, {	-- Intercepted
+					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
+					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
+					--["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+					["groups"] = {
+						o(2567202, {
+							 i(248928),	-- Cult Orders (QI!)
+						}),
+					},
+				}),
+				q(91831, {	-- Keys Are Optional
+					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
+					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
+					--["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+				}),
+				q(91918, {	-- Delves: Measure Once, Cut Twice
+					["sourceQuests"] = {
+						91830,	-- Intercepted
+						91831,	-- Keys Are Optional
+						91829,	-- One by One
+					},
+					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
+					--["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+				}),
 			}),
 		}),
 	}),

@@ -8,6 +8,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 		--	["sourceQuests"] = {
 		--	},
 		--	["groups"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
+				pvp(q(92576, {	-- Undercover Hunt
+					["coord"] = { 56.0, 1.0, SLAYERS_RISE_OUTDOOR },
+				})),
 				pvp(q(89267, {	-- Mysterious Entity
 					["coord"] = { 34.5, 51.9, SLAYERS_RISE_OUTDOOR },
 				})),
@@ -20,6 +23,15 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				pvp(q(89377, {	-- Undercover Hunt
 					["coord"] = { 45.7, 36.6, SLAYERS_RISE_OUTDOOR },
 				})),
+				q(93573, {	-- Deciphering Darkness
+					["coord"] = { 41.8, 75.3, VOIDSTORM },
+				}),
+				q(92546, {	-- Encroaching Predators
+					["coord"] = { 36.1, 60.3, VOIDSTORM },
+				}),
+				q(93397, {	-- Gnawing Hunger
+					["coord"] = { 57.7, 72.7, VOIDSTORM },
+				}),
 		--	}),
 		}),
 	}),

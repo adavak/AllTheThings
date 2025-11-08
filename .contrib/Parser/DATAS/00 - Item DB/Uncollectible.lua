@@ -2642,9 +2642,32 @@ i(243216);	-- Snapped Antennae
 ------------------
 -- PATCH 12.0.0 --
 ------------------
+i(260664);	-- Bioluminescent Flower Petals
+i(260670);	-- Bloody Broken Beak
+i(260652);	-- Broken Wildfire Claw
 i(244041);	-- Budding Seed
+i(260669);	-- Colorless Pebbles
+i(260687);	-- Decaying Leather
+i(260647);	-- Digested Human Hand
+i(220262);	-- Elongated Proboscis
+i(247672);	-- Eversong Fizz
+i(260672);	-- Fetid Eye
+i(260689);	-- Fine Bioluminescent Powder
+i(260606);	-- Light and Shaggy Fur
+i(260693);	-- Mossy Lump of Dirt
 i(243845);	-- Petalwrap Sack
 i(243844);	-- Petalwrap Bag
 i(244039);	-- Pitcher Plant Vase
+i(260662);	-- Polished Purple Pebble
 i(244040);	-- Sack of Seeds
+i(247673);	-- Silvermoon Sin'gria
+i(260665);	-- Sizable Tusk
+i(260616);	-- Soft Marine Fungi
+i(246376);	-- Solaarian Sintalia
+i(260659);	-- Stellar Vortex Residue
+i(262786);	-- Suntouched Special Reserve
+i(260648);	-- Tattered Clothes
+i(238944);	-- Torn Material
+i(260686);	-- Vibrant Wings
 i(244038);	-- Vinetwinted Crate
+i(260645);	-- Water Filled Organ

@@ -447,6 +447,7 @@ HeaderAssignments = {
 	["Rune Engraving"] = -639,
 	["Ruthless Gladiator"] = -257,
 	["S.C.R.A.P."] = -411,
+	["Saltheril's Soiree"] = -686,
 	["Sanctum Upgrades"] = -171,
 	["Sandstorms"] = -193,
 	["Sargerei War Council"] = -393,
@@ -675,4 +676,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -685;
+NextHeaderID = -687;

@@ -893,7 +893,51 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61452.12, {	-- The Capybara Loa
+				header(HEADERS.AchCriteria, 61452.12, {	-- The Sound of Her Voice
+					q(93178, {	-- A Quiet Walk Interrupted
+						["provider"] = { "n", 254716 },	-- Nerunda
+						["coord"] = { 36.7, 25.1, ZULAMAN_MID },
+						--["sourceQuests"] = { XXX },	-- ??
+						["groups"] = {
+							--o(XXX, {
+								i(265611),	-- Broken Picnic Basket (QI!)
+							--}),
+							o(616571, {
+								i(265626),	-- Shattered Teapot (QI!)
+							}),
+						},
+					}),
+					q(93179, {	-- Child-like Devotion
+						["sourceQuests"] = { 93178 },	-- A Quiet Walk Interrupted
+						["provider"] = { "n", 254716 },	-- Nerunda
+						["coord"] = { 36.7, 25.1, ZULAMAN_MID },
+					}),
+					q(93180, {	-- Shrine Preparations
+						["sourceQuests"] = { 93179 },	-- Child-like Devotion
+						["provider"] = { "n", 254719 },	-- Kanza
+						["coord"] = { 52.3, 32.2, ZULAMAN_MID },
+						["groups"] = {
+							o(619616, {
+								i(265341),	-- Thorncap (QI!)
+							}),
+						},
+					}),
+					q(93181, {	-- Temple and a Teapot
+						["sourceQuests"] = { 93180 },	-- Shrine Preparations
+						["provider"] = { "n", 258014 },	-- Kanza
+						["coord"] = { 51.4, 30.6, ZULAMAN_MID },
+						["groups"] = {
+							i(265401),	-- Antique Tuskarr Teapot (QI!)
+						},
+					}),
+					q(93182, {	-- Healing Homeward
+						["sourceQuests"] = { 93181 },	-- Temple and a Teapot
+						["provider"] = { "n", 258363 },	-- Kanza
+						["coord"] = { 52.3, 32.1, ZULAMAN_MID },
+						["groups"] = {
+							--spell(1276571),	-- Blessings of Children
+						},
+					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.13, {	-- A Venomous History
 					q(91406, {	-- Far from the Hinterlands
@@ -1032,11 +1076,6 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						i(258891),	-- Pristine Shade Lily (QI!)
 					}),
 				},
-			}),
-			q(93178, {	-- A Quiet Walk Interrupted (TODO: NYI? missing steps poi and description)
-				["provider"] = { "n", 254716 },	-- Nerunda
-				["coord"] = { 36.7, 25.1, ZULAMAN_MID },
-				--["sourceQuests"] = { XXX },	-- ??
 			}),
 			--Possible Renown 2/3 quest?
 			q(93792, {	-- Blessings of the Loa

@@ -5,6 +5,9 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(ZULAMAN_MID, {
 		n(ZONE_DROPS, {
+			i(259361,{	-- Vile Essence
+				["description"] = "Can be looted from enemies near Maisara Caverns dungeon",
+			}),
 		}),
 	}),
 }));

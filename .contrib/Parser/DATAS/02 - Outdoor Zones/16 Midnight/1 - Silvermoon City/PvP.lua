@@ -21,7 +21,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["coord"] = { 36.3, 81.1, SILVERMOON_CITY_MID },
 				["isWeekly"] = true,
 			}, {
+				q(93499),	-- Enshrouded in Arenas
 				q(93506),	-- Enshrouded in Battle
+				q(93504),	-- Enshrouded in Skirmishes
 				q(93503),	-- Enshrouded in Teamwork
 			})),
 			n(VENDORS, {

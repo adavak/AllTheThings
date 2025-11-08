@@ -753,7 +753,8 @@ i(49310,{b=1,f=53,lvl=30,modID=1})}})}),
 d(4,{
 e(1651,{npcID=10184,g={
 ach(4406),
-ach(4405),
+ach(4405,{awp=110207,g={
+i(244852,{modID=1,spellID=1238162})}}),
 ach(4397),
 ach(4407),
 i(49644,{b=1,lvl=30,r=2}),
@@ -11888,10 +11889,7 @@ i(206465,{b=1,questID=76306,type="ihqt",g={
 crit(60664,{achID=18616,id=16})}})}}),
 o(403962,{description="Located inside a cage in the first major room of the Military Quarter.",g={
 i(206449,{b=1})}}),
-q(76290,{providers={{"i",206449}},sourceQuests=a[1227],sqreq=1}),
-ach(18616)}}),
-h(-12,{
-ach(18557)}),
+q(76290,{providers={{"i",206449}},sourceQuests=a[1227],sqreq=1})}}),
 h(-19,{
 i(206375,{b=2})}),
 h(-225,{
@@ -17684,13 +17682,7 @@ s(17723,37292,{b=1,f=7,lvl=30,modID=2}),
 i(36961,{b=1,f=52,lvl=29,modID=2}),
 i(36972,{b=1,f=53,lvl=29,modID=2,spellID=60471}),
 i(52676,{b=1,description="This bag is only available if you queue for the instance using the Random Dungeon Finder. It will not drop in an explicitly formed group or by using the Select Instance interface.",modID=2,g={
-mnt(59568,{b=1,itemID=43953,lvl=27}),
-i(36933),
-i(36921),
-i(36930),
-i(36918),
-i(36924),
-i(36927)}}),
+mnt(59568,{b=1,itemID=43953,lvl=27})}}),
 crit(5617,{achID=498,id=5}),
 crit(5617,{achID=1658,id=10})}})})}}),
 inst(283,{awp=30002,coords={{66.6,67.9,125}},mapID=168,savedInstanceID=608,g={
@@ -59100,7 +59092,8 @@ i(246727,{b=1})}}),
 q(91479,{coords={a[824]},lvl=80,minReputation=a[635],qgs=a[592]}),
 q(91530,{coords={a[824]},lvl=80,minReputation=a[635],qgs=a[592],g={
 p(4832,{b=1,itemID=244913,minReputation=a[635],npcID=245479,spellID=1238275})}}),
-mnt(1233542,{b=1,coords={a[824]},itemID=242728,lvl=10,minReputation=a[636],providers={a[12]}}),
+q(91954,{coords={a[824]},lvl=80,minReputation=a[636],qgs=a[592],g={
+mnt(1233542,{b=1,itemID=242728,lvl=10,minReputation=a[636]})}}),
 title(640,{coords={a[824]},minReputation=a[636],providers={a[12]}}),
 cs(1239155,{coords={a[824]},minReputation={2736,15},providers={a[12]}})}),
 h(-58,{
