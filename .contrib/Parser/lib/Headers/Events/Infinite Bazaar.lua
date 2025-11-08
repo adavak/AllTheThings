@@ -10,7 +10,7 @@ INFINITE_BAZAAR = createHeader({
 		it = "Bazar dell'Infinito",
 		ko = "무한의 시장",
 		pt = "Bazar Infinito",
-		ru = "бесконечный базар",
+		ru = "Бесконечный базар",
 		cn = "永恒集市",
 		tw = "無限市集",
 	},
