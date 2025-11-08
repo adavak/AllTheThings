@@ -127,7 +127,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 28.8, 48.4, LEGION_DALARAN },
 					["timeline"] = { ADDED_10_0_2 },
 					["classes"] = { EVOKER },
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(72134, {	-- An Adventurer's Aid
 					["sourceQuest"] = 72129,	-- Aiding Khadgar
