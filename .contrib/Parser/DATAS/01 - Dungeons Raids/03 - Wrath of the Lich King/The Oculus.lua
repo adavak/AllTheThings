@@ -403,12 +403,14 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 								["description"] = "This bag is only available if you queue for the instance using the Random Dungeon Finder. It will not drop in an explicitly formed group or by using the Select Instance interface.",
 								["groups"] = {
 									i(43953),	-- Blue Drake (MOUNT!)
+									-- #IF BEFORE CATA
 									i(36933),	-- Forest Emerald
 									i(36921),	-- Autumn's Glow
 									i(36930),	-- Monarch Topaz
 									i(36918),	-- Scarlet Ruby
 									i(36924),	-- Sky Sapphire
 									i(36927),	-- Twilight Opal
+									-- #endif
 								},
 							})),
 						},
