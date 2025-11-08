@@ -2235,8 +2235,8 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42230,	-- The Valewalker's Burden
 					["provider"] = { "n", 100775 },	-- Lilryia Dawnwind
 					["coord"] = { 61.8, 49.0, SURAMAR },
-					["groups"] = { i(134120 ) },	-- Collar of Domination (QI!)
 					-- TODO: 42223 possibly a breadcrumb here?
+					["groups"] = { i(134120 ) },	-- Collar of Domination (QI!)
 				}),
 				q(40336, {	-- Turning the Tidemistress
 					["sourceQuests"] = {
