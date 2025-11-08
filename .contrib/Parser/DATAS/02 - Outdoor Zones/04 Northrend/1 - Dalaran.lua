@@ -2847,6 +2847,7 @@ root(ROOTS.Zones, {
 							i(42436),	-- Chocolate Celebration Cake
 							i(42431),	-- Dalaran Brownie
 							i(42430),	-- Dalaran Doughnut
+							i(74921, {["timeline"] = { ADDED_4_3_0 }}), -- Darkmoon Doughnut
 							i(42438),	-- Lovely Cake
 							i(42429),	-- Red Velvet Cupcake
 						},
@@ -2865,7 +2866,15 @@ root(ROOTS.Zones, {
 						["coord"] = { 26.2, 39.2, NORTHREND_DALARAN },
 						["description"] = "Walks around the Purple Parlour.",
 						["groups"] = {
+							i(33451),	-- Fillet of Icefin
+							i(33452),	-- Honey-Spiced Lichen
+							i(33445),	-- Honeymint Tea
+							i(35953),	-- Mead-Basted Caribou
+							i(35951),	-- Poached Emperor Salmon
+							i(33444),	-- Pungent Seal Whey
+							i(33454),	-- Salted Venison
 							i(35947),	-- Sparkling Frostcap
+							i(35954),	-- Sweetened Goat's Milk
 						},
 					}),
 					n(29628, {	-- Angelique Butler <First Aid Supplies>
@@ -2881,6 +2890,15 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							emoh(35, i(40701)),	-- Crygil's Discarded Plate Panel
 							emoh(35, i(40700)),	-- Protective Barricade of the Light
+						},
+					}),
+					n(29547, {	-- Applebough <Fruit Vendor>
+						["coord"] = { 43.1, 57.0, NORTHREND_DALARAN },
+						["groups"] = {
+							i(43088),	-- Dalaran Apple Bowl
+							i(43086),	-- Fresh Apple Juice
+							i(35948),	-- Savoury Snowplum
+							i(35949),	-- Tundra Berries
 						},
 					}),
 					n(31579, {	-- Arcanist Adurin <Legacy Justice Quartermaster> / <Emblem of Valor Quartermaster> [WRATH]
@@ -3168,6 +3186,12 @@ root(ROOTS.Zones, {
 					n(32337, {	-- Christi Stockton <Wine Vendor>
 						["coord"] = { 53.8, 32.6, NORTHREND_DALARAN },
 						["groups"] = {
+							i(44625),	-- Bottle of Aged Dalaran Red
+							i(44623),	-- Bottle of Dalaran Red
+							i(44621),	-- Bottle of Dalaran White
+							i(44626),	-- Cask of Aged Dalaran Red
+							i(44632),	-- Cask of Dalaran Red
+							i(44622),	-- Cask of Dalaran White
 							i(44679),	-- Red Wine Glass
 							i(44678),	-- Wine Glass
 						},
@@ -3345,6 +3369,17 @@ root(ROOTS.Zones, {
 							24004,	-- Thrallmar Tabard (H)
 							19505,	-- Warsong Battle Tabard (H)
 							},
+						},
+					}),
+					n(29715, {	-- Fialla Sweetberry <Food & Drink>
+						["coord"] = { 53.4, 34.6, NORTHREND_DALARAN },
+						["groups"] = {
+							i(40042),	-- Caraway Burnwine
+							i(44618),	-- Glass of Aged Dalaran Red
+							i(44617),	-- Glass of Dalaran Red
+							i(44616),	-- Glass of Dalaran White
+							i(40035),	-- Northrend Honey Mead
+							i(40036),	-- Snowplum Brandy
 						},
 					}),
 					applyclassicphase(WRATH_PHASE_FOUR, n(40160, {	-- Frozo the Renowned <Frozen Orb Trader>
@@ -3739,6 +3774,20 @@ root(ROOTS.Zones, {
 							i(21912),	-- Pattern: Frozen Shadoweave Shoulders (RECIPE!)
 							i(21913),	-- Pattern: Frozen Shadoweave Robe (RECIPE!)
 							i(30483),	-- Pattern: Shadowcloth (RECIPE!)
+						},
+					}),
+					n(29714, {	-- Lucian Trias <Bread & Cheese Vendor>
+						["coord"] = { 55.0, 31.1, NORTHREND_DALARAN },
+						["groups"] = {
+							-- Bread:
+							i(33449),	-- Crusty Flat Bread
+							i(44610),	-- Fresh Dalaran Bread
+							i(35950),	-- Sweet Potato Bread
+							-- Cheese:
+							i(44613),	-- Aged Dalaran Sharp Wheel
+							i(35952),	-- Briny Hardcheese
+							i(44612),	-- Dalaran Swiss Wheel
+							i(33443),	-- Sour Goat Cheese
 						},
 					}),
 					applyclassicphase(WRATH_PHASE_FOUR, n(37941, {	-- Magister Arlan <Legacy Justice Quartermaster> / <Emblem of Frost Quartermaster> [WRATH]
