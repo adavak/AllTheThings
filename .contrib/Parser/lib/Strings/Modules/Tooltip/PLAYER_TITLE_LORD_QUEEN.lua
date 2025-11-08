@@ -11,7 +11,7 @@ createLocalizationString({
 		fr = "Seigneur Reine %s",
 		it = "Lord Regina %s",
 		pt = "Senhor Rainha %s",
-		ru = "Лорд королева %s",
+		ru = "Лорд-королева %s",
 		ko = "여왕님 %s",
 		cn = "%s女王陛下",
 		tw = "%s女王陛下",
