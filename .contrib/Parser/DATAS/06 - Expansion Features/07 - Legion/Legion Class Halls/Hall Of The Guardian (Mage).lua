@@ -682,6 +682,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
 						["coord"] = { 71.7, 54.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["maps"] = { 713 },	-- Eye of Azshara
+						["groups"] = {
+							i(138272),	-- Khadgar's Vial (QI!)
+							i(138271),	-- Vial of Arcane Water (QI!)
+						},
 					}),
 					q(42940, {	-- When There's a Will, There's a Way
 						["sourceQuest"] = 42520,	-- A Terrible Loss

@@ -95,7 +95,10 @@ root(ROOTS.ExpansionFeatures,
 					q(45572, {	-- Holding Our Ground
 						["sourceQuests"] = { 45840 },	-- Assault on Highmountain
 						["provider"] = { "n", 119944 },	-- Lasan Skyhorn
-						["coord"] = { 25.2, 22.6, 750 },	-- Thunder Totem
+						["coords"] = {
+							{ 25.2, 22.6, 750 },	-- Thunder Totem
+							{ 44.2, 57.2, HIGHMOUNTAIN },
+						},
 						["repeatable"] = true,
 					}),
 					q(44789, {	-- Holding the Ramparts

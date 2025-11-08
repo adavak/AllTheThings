@@ -686,8 +686,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
 						["cost"] = { { "i", 131746, 1 } },	-- Stonehide Leather Barding
 					}),
+					q(94847, {	-- Preparations Underway (Remix)
+						["sourceQuests"] = { 46069 },	-- Worthy of the Title
+						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker <Mission Specialist>
+						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+					}),
 					q(46071, {	-- The Hammer of Dalaran
-						["sourceQuests"] = { 46070 },	-- Preparations Underway
+						["sourceQuests"] = {
+							46070,	-- Preparations Underway
+							94847,	-- Preparations Underway (Remix)
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
 					}),
@@ -696,22 +706,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 92183 },	-- Alard Schmied
 						["coord"] = { 45.0, 29.6, LEGION_DALARAN },
 						["cost"] = {
-							{ "i", 123918, 25 },	-- Leystone Ore x25
-							{ "i", 147768, 1 },		-- Suramarian Sapphire
+							{ "i", 123918, 25 },	-- 25x Leystone Ore
+							{ "i", 147768, 1 },		-- 1x Suramarian Sapphire
 						},
 					}),
-
-
-
+					q(91618, {	-- A Few Things First (Remix)
+						["sourceQuests"] = { 46071 },	-- The Hammer of Dalaran
+						["provider"] = { "n", 92183 },	-- Alard Schmied
+						["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+					}),
 					q(45645, {	-- A Fool's Errand
 						["sourceQuests"] = { 45644 },	-- Oh Doloria, My Sweet Doloria
 						["provider"] = { "n", 117438 },	-- Doloria
 						["coord"] = { 48.2, 41.0, LEGION_DALARAN },
 						["classes"] = { PALADIN },
 						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
-						["groups"] = {
-							i(143845),	-- "Jewelry" (QI!)
-						},
+						["groups"] = { i(143845) },	-- "Jewelry" (QI!)
 					}),
 					q(45566, {	-- A Knight's Belongings
 						["sourceQuests"] = { 45562 },	-- Kneel and Be Squired!
@@ -749,11 +760,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					}),
 					q(46074, {	-- Leather to Legendary
-						["sourceQuests"] = { 46083 },	-- A Few Things First
+						["sourceQuests"] = {
+							46083,	-- A Few Things First
+							91618,	-- A Few Things First (Remix)
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 92183 },	-- Alard Schmied
 						["coord"] = { 45.0, 29.6, LEGION_DALARAN },
 						["groups"] = {
-							i(144294),	-- Plated Barding (QI!)
+							o(267765, {	-- Plated Barding
+								["coord"] = { 44.6, 28.4, LEGION_DALARAN },
+								["groups"] = { i(144294) },	-- Plated Barding (QI!)
+							}),
 						},
 					}),
 					q(45567, {	-- My Kingdom for a Horse
@@ -790,6 +808,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker <Mission Specialist>
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
 						["groups"] = {
+							o(267580, {	-- Cache of Holy Water
+								i(144064),	-- Stratholme Holy Water
+							}),
 							mount(231435),	-- Highlord's Golden Charger (MOUNT!)
 						},
 					}),
@@ -804,9 +825,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 						["classes"] = { PALADIN },
 						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
-						["groups"] = {
-							i(143840),	-- Excaliberto (QI!)
-						},
+						["groups"] = { i(143840) },	-- Excaliberto (QI!)
 					}),
 					q(45813, {	-- Where Art Thou, My Sweet
 						["sourceQuests"] = { 45645 },	-- A Fool's Errand

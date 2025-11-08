@@ -898,7 +898,10 @@ root(ROOTS.Zones, {
 						WARLOCK,	-- Affliction
 					},
 					["groups"] = {
-						i(143494),	-- A Mysterious Note (QI!)
+						o(266619, {	-- A Mysterious Note
+							["coord"] = { 47.0, 39.5, LEGION_DALARAN },
+							["groups"] = { i(143494) },	-- A Mysterious Note (QI!)
+						}),
 					},
 				}),
 				q(47005, {	-- Mistweaver: The Bradensbrook Investigation
@@ -1246,6 +1249,7 @@ root(ROOTS.Zones, {
 				q(45188, {	-- The Wisdom of the Council
 					["sourceQuests"] = { 45187 },	-- Secrets in the Underbelly
 					["provider"] = { "n", 116308 },	-- Karam Magespear
+					["coord"] = { 49.6, 39.4, LEGION_DALARAN },
 					["classes"] = {
 						DRUID,		-- Balance
 						HUNTER,		-- Marksmanship
@@ -1254,9 +1258,7 @@ root(ROOTS.Zones, {
 						WARLOCK,	-- Affliction
 					},
 					["lvl"] = 45,
-					["groups"] = {
-						i(143496),	-- Nethersworn Manifesto (QI!)
-					},
+					["groups"] = { i(143496) },	-- Nethersworn Manifesto (QI!)
 				}),
 				q(43331, {	-- Time to Collect
 					["sourceQuests"] = { 42483 },	-- Put It All on Red
@@ -1365,6 +1367,7 @@ root(ROOTS.Zones, {
 				q(45190, {	-- Where it's Thinnest
 					["sourceQuests"] = { 45188 },	-- The Wisdom of the Council
 					["provider"] = { "n", 90463 },	-- Archmage Karlain
+					["coord"] = { 28.8, 48.6, LEGION_DALARAN },
 					["classes"] = {
 						DRUID,		-- Balance
 						HUNTER,		-- Marksmanship

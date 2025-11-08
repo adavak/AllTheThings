@@ -840,7 +840,20 @@ root(ROOTS.Zones, {
 					},
 					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["groups"] = {
-						i(143778),	-- Fel Infusing Totem (QI!)
+						o(267032, {	-- Fel Infusing Totem
+							["coords"] = {
+								{ 31.8, 24.6, HIGHMOUNTAIN },
+								{ 31.9, 23.4, HIGHMOUNTAIN },
+								{ 32.0, 23.5, HIGHMOUNTAIN },
+								{ 32.6, 25.9, HIGHMOUNTAIN },
+								{ 32.7, 24.8, HIGHMOUNTAIN },
+								{ 33.5, 23.5, HIGHMOUNTAIN },
+								{ 33.9, 25.6, HIGHMOUNTAIN },
+								{ 34.3, 24.7, HIGHMOUNTAIN },
+								{ 34.5, 22.6, HIGHMOUNTAIN },
+							},
+							["groups"] = { i(143778) },	-- Fel Infusing Totem (QI!)
+						}),
 					},
 				}),
 				q(39026, {	-- The Drogbar

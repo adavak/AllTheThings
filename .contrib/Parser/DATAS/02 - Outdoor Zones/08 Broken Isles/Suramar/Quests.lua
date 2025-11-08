@@ -151,15 +151,14 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42230,	-- The Valewalker's Burden
 					["provider"] = { "n", 99065 },	-- Thaedris Feathersong
 					["coord"] = { 45.6, 40.8, SURAMAR },
+					["groups"] = { i(132881) },	-- Harpy Talon (QI!)
 				}),
 				q(41123, {	-- An Artisan's Mark
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
 					-- TODO: figure out the sourceQuest. this isn't always available
 					--["sourceQuest"] =
-					["groups"] = {
-						i(134041),	-- Bloodspattered Signet Ring (QI!)
-					},
+					["groups"] = { i(134041) },	-- Bloodspattered Signet Ring (QI!)
 				}),
 				q(40012, {	-- An Old Ally
 					["sourceQuest"] = 42229,	-- Shal'Aran
@@ -233,6 +232,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 98312 },	-- First Arcanist Thalyssra
 					["coord"] = { 35.3, 47.3, SURAMAR },
 					["groups"] = {
+						i(141667),	-- Ancient Keeper's Brooch
 						o(245126, {	-- Crystallized Ancient Mana
 							["coord"] = { 37.0, 46.5, SURAMAR },
 							["groups"] = { i(129979) },	-- Crystallized Ancient Mana (QI!)
@@ -411,6 +411,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 43562,	-- Giving It All We've Got
 					["provider"] = { "n", 98548 },	-- Chief Telemancer Oculeth
 					["coord"] = { 37.1, 46.6, SURAMAR },
+					["groups"] = { i(140257) },	-- Advanced Telemancy Beacon (QI!)
 				}),
 				q(40364, {	-- Bubble Trouble
 					["sourceQuest"] = 41606,	-- Finding Brytag
@@ -467,6 +468,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44053,	-- Friends With Benefits
 					["provider"] = { "n", 97140 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.7, SURAMAR },
+					["groups"] = { i(140757 ) },	-- Melandrus' Spellstone (QI!)
 				}),
 				q(38695, {	-- Crackdown
 					["sourceQuest"] = 38649,	-- Silence in the City
@@ -585,6 +587,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 43562,	-- Giving It All We've Got
 					["provider"] = { "n", 103155 },	-- Arcanist Valtrois
 					["coord"] = { 37.0, 46.5, SURAMAR },
+					["groups"] = { i(139689) },	-- Warp-Resistant Plating (QI!)
 				}),
 				q(44752, {	-- Essence Triangulation
 					["sourceQuest"] = 44742,	-- Tavernkeeper's Fate
@@ -637,6 +640,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40319,	-- The Final Ingredient
 					["provider"] = { "n", 99575 },	-- Thaedris Feathersong
 					["coord"] = { 45.0, 30.9, SURAMAR },
+					["groups"] = { i(130260 ) },	-- Thaedris's Elixir (QI!)
 				}),
 				q(43106, {	-- Feed Oculeth
 					["sourceQuest"] = 44691,	-- Hungry Work
@@ -781,6 +785,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40227,	-- Bad Intentions
 					["provider"] = { "o", 245688 },	-- Shattered Burial Urn
 					["coord"] = { 49.1, 34.3, SURAMAR },
+					["groups"] = { i(130212) },	-- Tel'anor Memento (QI!)
 				}),
 				q(40898, {	-- Fresh Meat
 					["sourceQuests"] = {
@@ -1124,6 +1129,7 @@ root(ROOTS.Zones, {
 						{ 24.2, 19.3, SURAMAR },	-- cave entrance
 						{ 50.1, 47.6, 690 },	-- Ley Station Aethenar
 					},
+					["groups"] = { i(140318) },	-- Leyline Feed Fragment (QI!)
 				}),
 				q(43590, {	-- Leyline Feed: Ley Station Moonfall
 					["sourceQuests"] = { 41138 },	-- Feeding Shal'Aran
@@ -1228,6 +1234,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44722,	-- Disillusioned Defector
 					["provider"] = { "n", 114948 },	-- Silgryn
 					["coord"] = { 52.1, 79.1, SURAMAR },
+					["groups"] = { i(142066) },	-- Legion Communicator (QI!)
 				}),
 				q(43808, {	-- Moon Guard Teleporter Online!
 					["provider"] = { "o", 252814 },	-- Unpowered Telemancy Beacon
@@ -1242,14 +1249,13 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41478,	-- The Final Blessing
 					["provider"] = { "n", 103571 },	-- Solendra Featherdown
 					["coord"] = { 30.3, 30.8, SURAMAR },
-					["groups"] = {
-						i(136605),	-- Solendra's Compassion (QI!)
-					},
+					["groups"] = { i(136605) },	-- Solendra's Compassion (QI!)
 				}),
 				q(44723, {	-- More Like Me
 					["sourceQuest"] = 44722,	-- Disillusioned Defector
 					["provider"] = { "n", 114956 },	-- Victoire
 					["coord"] = { 52.0, 79.1, SURAMAR },
+					["groups"] = { i(142065) },	-- Dusk Lily Sigil (QI!)
 				}),
 				q(42828, {	-- Moths to a Flame
 					["sourceQuest"] = 42488,	-- Thalyssra's Abode
@@ -1933,6 +1939,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40315,	-- End of the Line
 					["provider"] = { "n", 99575 },	-- Thaedris Feathersong
 					["coord"] = { 45.0, 30.9, SURAMAR },
+					["groups"] = { i(130255 ) },	-- Latara's Bow (QI!)
 				}),
 				q(42832, {	-- The Fruit of Our Efforts
 					["sourceQuest"] = 42829,	-- Make an Entrance
@@ -2305,6 +2312,10 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 44753,	-- On Public Display
 					["provider"] = { "n", 115557 },	-- First Arcanist Thalyssra
 					["coord"] = { 52.2, 79.0, SURAMAR },
+					["groups"] = {
+						i(142261),	-- Fruit of the Arcan'dor (QI!)
+						i(142281),	-- Thoramir's Control Orb (QI!)
+					},
 				}),
 				q(44829, {	-- We Need Weapons
 					["sourceQuests"] = {

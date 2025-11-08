@@ -954,7 +954,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(47202, {	-- A Personal Message
 					["sourceQuest"] = 46275,	-- A Kingdom's Heart
-					["qg"] = 119357,	-- Anduin Wrynn
+					["qg"] = 120268,	-- Anduin Wrynn
 					["coord"] = { 85.9, 34.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_2_0 },
 					["races"] = ALLIANCE_ONLY,

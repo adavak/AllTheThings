@@ -668,7 +668,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = {
 							45391,	-- Champion: Lady S'theno
 						},
-						["provider"] = { "n", 118316 },	-- Illidari Enforcer
+						["qgs"] = {
+							118306,	-- Illidari Enforcer
+							118307,	-- Illidari Enforcer
+							118314,	-- Illidari Enforcer
+							118316,	-- Illidari Enforcer
+						},
 						["coord"] = { 44.0, 62.7, BROKEN_SHORE },
 					}),
 					q(42681, {	-- Loramus, Is That You?
@@ -732,7 +737,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45385 },	-- We Must be Prepared!
 						["provider"] = { "n", 117709 },	-- Lady S'theno
 						["coord"] = { 52.1, 21.3, BROKEN_SHORE },
-						["groups"] = { i(143918) },	-- Stabilizing Crystal (QI!)
+						["groups"] = {
+							o(267353, {	-- Stabilizing Crystal
+								["coords"] = {
+									{ 64.1, 18.4, BROKEN_SHORE },
+									{ 65.9, 22.1, BROKEN_SHORE },
+									{ 66.1, 15.7, BROKEN_SHORE },
+									{ 67.3, 21.9, BROKEN_SHORE },
+									{ 67.4, 16.2, BROKEN_SHORE },
+									{ 68.3, 20.4, BROKEN_SHORE },
+									{ 68.4, 18.1, BROKEN_SHORE },
+								},
+								["groups"] = { i(143918) },	-- Stabilizing Crystal (QI!)
+							}),
+						},
 					}),
 					q(46266, {	-- Return of the Slayer
 						["sourceQuests"] = {

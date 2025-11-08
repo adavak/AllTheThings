@@ -817,18 +817,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 119166 },	-- Mor'zul Bloodbringer
 						["coord"] = { 35.3, 38.5, DREADSCAR_RIFT },
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							i(144443),	-- Overcharged Fel Core (QI!)
-						},
+						["groups"] = { i(144443) },	-- Overcharged Fel Core (QI!)
 					}),
 					q(46240, {	-- Give Me Fuel, Give Me Fire
 						["sourceQuest"] = 46237,	-- Bloodbringer's Missive
 						["provider"] = { "n", 119166 },	-- Mor'zul Bloodbringer
 						["coord"] = { 35.3, 38.5, DREADSCAR_RIFT },
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							i(144444),	-- Owlbeast Blood (QI!)
-						},
+						["groups"] = { i(144444) },	-- Owlbeast Blood (QI!)
 					}),
 					q(46238, {	-- If You Build It
 						["sourceQuest"] = 46237,	-- Bloodbringer's Missive
@@ -836,17 +832,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 35.3, 38.5, DREADSCAR_RIFT },
 						["timeline"] = { ADDED_7_2_0 },
 						["cost"] = {
-							{ "i", 123919, 5 },	-- 5xFelslate
-							{ "i", 130175, 3 },	-- 3xChaotic Spinel
-							{ "i", 127845, 1 },	-- 1xUnbending Potion
+							{ "i", 123919, 5 },	-- 5x Felslate
+							{ "i", 130175, 3 },	-- 3x Chaotic Spinel
+							{ "i", 127845, 1 },	-- 1x Unbending Potion
 						},
+					}),
+					q(94850, {	-- If You Build It (Remix)
+						["sourceQuest"] = 46237,	-- Bloodbringer's Missive
+						["provider"] = { "n", 119166 },	-- Mor'zul Bloodbringer
+						["coord"] = { 35.3, 38.5, DREADSCAR_RIFT },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
 					}),
 					q(46241, {	-- The Minions of Hel'nurath
 						["sourceQuests"] = {
 							46239,	-- Fel to the Core
 							46240,	-- Give Me Fuel, Give Me Fire
 							46238,	-- If You Build It
+							94850,	-- If You Build It (Remix)
 						},
+						["sourceQuestNumRequired"] = 3,
 						["provider"] = { "n", 119166 },	-- Mor'zul Bloodbringer
 						["coord"] = { 35.3, 38.5, DREADSCAR_RIFT },
 						["timeline"] = { ADDED_7_2_0 },
