@@ -12,7 +12,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				{ 45.7, 68.5, BROKEN_ISLES },
 				{ 45.8, 68.5, BROKEN_ISLES },
 			},
-			["isDaily"] = true,
+			["isRepeatable"] = true,
 		}, {
 			q(91445),	-- Infinite Research: Advanced Combat Studies, Comprehensive
 			q(91447),	-- Infinite Research: Advanced Combat Studies, Demonology
@@ -129,6 +129,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			i(251821),	-- Cache of Infinite Power
 			i(239224),	-- Cache of Infinite Treasure
 			i(254579),	-- Epoch Resonance
+			i(249400, {	-- Stack of Chronoqueries
+				["sourceQuest"] = 91846,	-- Infinite Research Promotion: Principal Chronoquery Investigator
+			}),
 		}),
 	}),
 	n(QUESTS, {
@@ -385,8 +388,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				i(242617, {	-- Curious Simulacrum (QI!)
 					i(247808),	-- Bronze Simulacrum (QS!)
 				}),
-				i(248141, {	-- Curious Simulacrum
-					i(248140),	-- Bronze Simulacrum
+				i(248141, {	-- Curious Simulacrum (QI!)
+					i(248140),	-- Bronze Simulacrum (QS!)
 				}),
 				-- Exo Note: Simulacrum is obtained during the regular Order Hall quest chain for the Artifact Weapon that you have already selected and obtained during the quest 'Something Borrowed'.
 				-- eg. If a Paladin, takes Ashbringer from 'Something Borrowed', instead of Ashbringer he will receive a Curious Simulacrum during the regular Class Quest for the weapon.
@@ -477,17 +480,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["description"] = "Quest pops-up when you obtain and equip your first jewelry (Trinket, Ring, Necklace).",
 		}),
 		q(91613, {	-- Infinite Research Promotion: Timely Assistant
-			["description"] = "Quest pops-up after you complete 5 'Infinite Research' quests.",
+			["description"] = "Quest becomes available after you complete 5 'Infinite Research' quests.",
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
-			--["sourceQuest"] = ??,
 		}),
 		q(92855, {	-- Make Haste, Not Waste
 			["description"] = "Grants a random piece of jewelry.",
 			["qg"] = 241189,	-- Lidamorrutu
 			["coord"] = { 45.9, 68.0, BROKEN_ISLES },
 			["isDaily"] = true,
-			--["sourceQuest"] = ??,
 		}),
 		q(93112, {	-- Infinite Research: Special Assignment, Fel Skies
 			["qg"] = 241748,	-- Eternus
@@ -562,11 +563,10 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["lvl"] = 80,
 		}),
 		q(91846, {	-- Infinite Research Promotion: Principal Chronoquery Investigator
-			["sourceAchievement"] = 60935,	-- Tenured in the Timeways IV
+			["description"] = "Quest becomes available after you complete 150 'Infinite Research' quests.",
 			["qg"] = 241748,	-- Eternus
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 			["lvl"] = 80,
-			["groups"] = { i(249400) },	-- Stack of Chronoqueries
 		}),
 		-- Infinite Epilogues
 		q(91522, {	-- Order from Chaos
