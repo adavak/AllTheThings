@@ -346,7 +346,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = {
 							47137,	-- Champions of Legionfall
 							-- #IF AFTER 7.2.0
-							43412	-- A Hero's Weapon
+							43412,	-- A Hero's Weapon
 							-- #ELSE
 							45998,	-- Investigate the Broken Shore
 							-- #ENDIF
