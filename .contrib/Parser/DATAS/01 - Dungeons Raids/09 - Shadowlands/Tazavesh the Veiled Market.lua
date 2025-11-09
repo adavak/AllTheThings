@@ -303,7 +303,10 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 						["crs"] = { 176563 },	-- Zo'gron
 						["groups"] = {
 							i(187256, {	-- Hips' Spare Fedora
+								-- #IF BEFORE 11.2.5
+								-- dropped in hardmode Taz as Night Fae
 								["customCollect"] = "SL_COV_VEN",
+								-- #ENDIF
 							}),
 							-- Conduits
 							i(182460),	-- Accrued Vitality
@@ -578,7 +581,10 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 					["crs"] = { 176563 },	-- Zo'gron
 					["groups"] = {
 						i(187256, {	-- Hips' Spare Fedora
+							-- #IF BEFORE 11.2.5
+							-- dropped in hardmode Taz as Night Fae
 							["customCollect"] = "SL_COV_VEN",
+							-- #ENDIF
 						}),
 						-- Conduits
 						i(182460),	-- Accrued Vitality

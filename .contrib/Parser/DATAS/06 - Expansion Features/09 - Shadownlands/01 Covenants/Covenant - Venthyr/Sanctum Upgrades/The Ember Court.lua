@@ -2428,6 +2428,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				q(61571),	-- Let's get your hair sorted. > How about you grow it out full?
 				q(61573),	-- Let's get your hair sorted. > Let's go wild and spikey!
 				q(61570),	-- Let's get your hair sorted. > I swear you will look great in a cap.
+				q(63925, name(HEADERS.Item, 187256)),	-- Let's get your hair sorted. > Hip's Spare Fedora (first time only)
 				q(63926),	-- Let's get your hair sorted. > [Party Hat]
 				q(63927),	-- Let's get your hair sorted. > It's time to don the Bewitching Little Hat
 				q(61575),	-- Let's update your clothes. > How about we try the long sleeved doublet.
