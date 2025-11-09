@@ -772,29 +772,28 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
-					["lvl"] = 110,
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46082, {	-- Shadowsong's Return
 					["sourceQuests"] = { 46079 },	-- Aid on the Front Lines
 					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46106, {	-- Cutting off the Heads
 					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
 					["provider"] = { "n", 118947 },	-- Commander Jarod Shadowsong
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46080, {	-- Quieting the Spirits
 					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
 					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46107, {	-- Source of the Corruption
 					["sourceQuests"] = {
@@ -804,14 +803,14 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46200, {	-- The Matter Resolved... For Now...
 					["sourceQuests"] = { 46107 },	-- Source of the Corruption
 					["provider"] = { "n", 118954 },	-- Night Elf Warrior
 					["classes"] = { DRUID, MONK, PALADIN, PRIEST, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
-					["_drop"] = { "classes" },	-- bad API data
+					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				-- Side
 				q(38656, {	-- Mark of the Demon
