@@ -2439,6 +2439,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.0, 67.8, ICECROWN },
 						["cr"] = 32349,	-- Cultist Shard Watcher
 					}),
+					i(43089),	-- Vrykul Bones
 				}),
 			},
 		}),
