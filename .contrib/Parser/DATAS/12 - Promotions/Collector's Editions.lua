@@ -46,7 +46,7 @@ TBC_CLASSIC_DELUXE_EDITION = createHeader({
 		es = "Edición TBC Classic Deluxe",
 		fr = "Édition BC Classic Deluxe",
 		mx = "Edición TBC Classic Deluxe",
-		cn = "燃烧的远征经典怀旧服典藏包",
+		cn = "'燃烧的远征'怀旧服典藏包",
 		tw = "燃燒的遠征：經典版 - 豪華版",
 	},
 });
@@ -59,6 +59,7 @@ WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
 		en = "WotLK Classic Northrend Upgrade",
 		es = "Pack Heroic Rasganorte WotLK Classic",
 		mx = "Paquete heroico Rasganorte WotLK Classic",
+		cn = "'巫妖王之怒'怀旧服 - 北裂境升级",
 		tw = "巫妖王之怒：經典版 - 北裂境升級",
 	},
 });
@@ -71,6 +72,7 @@ CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
 		en = "Cata Classic Blazing Upgrade",
 		es = "Pack Heroic llameante de Cataclysm Classic",
 		mx = "Paquete heroico abrasador de Cataclysm Classic",
+		cn = "'大地的裂变'怀旧服 - 炽炎升级",
 		tw = "浩劫與重生：經典版 - 熾炎升級",
 	},
 });
@@ -82,6 +84,7 @@ MOP_CLASSIC_HEROIC_PACK = createHeader({
 		en = "MoP Classic Sha-Infused Heroic Pack",
 		es = "Pack Heroic imbuido de sha",
 		mx = "Paquete heroico infundido por los sha",
+		cn = "'熊猫人之谜'怀旧服 - 宿煞英雄礼包",
 		tw = "潘達利亞之謎：經典版 - 煞之灌注英雄版組合包",
 	},
 });
