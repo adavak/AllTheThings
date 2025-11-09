@@ -92,6 +92,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(90787),	-- Triggered after killing the first Rare?
 			q(91934),	-- Triggered after completing 1st Infinite Research quest
 			q(91094),	-- Triggered after completing 'Infinite Chaos' (91061)
+			q(92298),	-- Triggered when you take the portal to The Skyfire, in quest 'A Royal Summons' (38035) (Alliance)
 			q(92428),	-- Triggered after completing 'Uniting the Isles' (43341), Unlocking World Quests?
 			q(92835),	-- Triggered after killing a Doomguard Challenger
 			q(93121),	-- Triggered after opening the (main) Glimmering Treasure Chest after completing the Withered Training
