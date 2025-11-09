@@ -1162,6 +1162,7 @@ MobileDB.GameObject = {
 	[249769] = true,	-- Stabilization Matrix Node
 	[249771] = true,	-- Heavy Stone (wq:42172)
 	[249773] = true,	-- Control Panel
+	[249812] = true,	-- Titanstrike
 	[249814] = true,	-- Aluneth (q:42011)
 	[250086] = true,	-- Cask of Arcwine (q:40730, 42725)
 	[250238] = true,	-- Gondola (q:40730)
