@@ -12,5 +12,6 @@ createLocalizationString({
 		fr = "Incomplet",
 		ru = "Не Выполнено",
 		cn = "未完成",
+		tw = "未完成",
 	},
 })

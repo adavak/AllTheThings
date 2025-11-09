@@ -14,6 +14,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "账号模式|r 启用所有账号范围的追踪，并显示所有角色的进度。",
-		-- TODO: tw = "",
+		tw = "帳號模式|r 啟用所有帳號範圍的追蹤，並顯示來自所有角色的進度。",
 	},
 })

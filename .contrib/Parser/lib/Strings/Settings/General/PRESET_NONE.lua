@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "一无所有模式会禁用所有收藏品的追踪。挑战自己的方式。",
-		-- TODO: tw = "",
+		tw = "一無所有模式會停用所有收藏品的追蹤。這是挑戰自我的好方法。",
 	},
 })

@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Общее содержимое",
 		-- TODO: ko = "",
 		cn = "通用内容",
-		tw = "通用內容",
+		tw = "共通內容",
 	},
 })

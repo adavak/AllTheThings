@@ -7,5 +7,6 @@ createLocalizationString({
 		es = [[~"|c" .. _.DefaultColors.Insane .. "Modo Demente|r ¡Activa todas |c" .. _.DefaultColors.Insane .. "las opciones coloreadas|r y te da un verdadero desafío!"]],
 		mx = [[~"|c" .. _.DefaultColors.Insane .. "Modo Enfermo|r ¡Activa todas |c" .. _.DefaultColors.Insane .. "las opciones coloreadas|r y te da un verdadero desafío!"]],
 		cn = [[~"|c" .. _.DefaultColors.Insane .. "疯狂模式|r 启用所有 |c" .. _.DefaultColors.Insane .. "彩色选项|r，并给你一个真正的挑战！"]],
+		tw = [[~"|c" .. _.DefaultColors.Insane .. "瘋狂模式|r 啟用所有 |c" .. _.DefaultColors.Insane .. "彩色選項|r，並給你一個真正的挑戰！"]],
 	},
 })

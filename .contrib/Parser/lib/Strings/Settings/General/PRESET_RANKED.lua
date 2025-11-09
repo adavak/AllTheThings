@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "排名模式启用由 Data For Azeroth 和 WoWthing 等网站追踪的收藏品。",
-		-- TODO: tw = "",
+		tw = "排名模式啟用被 Data For Azeroth 和 WoWthing 等網站追蹤的收藏品。",
 	},
 })

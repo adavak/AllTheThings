@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "核心模式启用游戏战团收藏日志中可见的收藏品。",
-		-- TODO: tw = "",
+		tw = "核心模式啟用遊戲內戰隊搜集日誌中可見的收藏品",
 	},
 })

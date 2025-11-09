@@ -9,6 +9,6 @@ createLocalizationString({
 		fr = [[~"Par défaut, suivi sur |c" .. _.DefaultColors.Account .. "l’ensemble du compte|r."]],
 		ru = [[~"Отслеживается на |c" .. _.DefaultColors.Account .. "Весь Аккаунт|r по умолчанию."]],
 		cn = [[~"已追踪 |c" .. _.DefaultColors.Account .. "账号通用|r 默认。"]],
-		tw = [[~"已追蹤 |c" .. _.DefaultColors.Account .. "帳號通用|r 預設。"]],
+		tw = [[~"已追蹤 |c" .. _.DefaultColors.Account .. "帳號共通|r 預設。"]],
 	},
 })

@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Основные настройки",
 		-- TODO: ko = "",
 		cn = "通用",
-		-- TODO: tw = "",
+		tw = "共通",
 	},
 })

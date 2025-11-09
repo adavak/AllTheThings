@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "单人模式禁用所有账号范围的追踪，仅显示当前角色的进度。",
-		-- TODO: tw = "",
+		tw = "單人模式停用所有帳號共通的追蹤，僅顯示您目前角色的進度。",
 	},
 })

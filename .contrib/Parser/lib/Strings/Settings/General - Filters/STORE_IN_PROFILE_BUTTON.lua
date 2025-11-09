@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Сохранять в профиле",
 		-- TODO: ko = "",
 		cn = "储存在配置文件中",
-		-- TODO: tw = "",
+		tw = "儲存在設定檔中",
 	},
 })

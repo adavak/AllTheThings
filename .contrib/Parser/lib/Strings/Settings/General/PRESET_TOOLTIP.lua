@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "启用此预设。这将仅调整当前配置文件的相关追踪选项。",
-		-- TODO: tw = "",
+		tw = "啟用此預設。這將僅調整當前設定檔的相關追蹤選項。",
 	},
 })

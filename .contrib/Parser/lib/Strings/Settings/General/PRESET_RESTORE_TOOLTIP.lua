@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "将追踪选项恢复到应用任何预设之前的状态。",
-		-- TODO: tw = "",
+		tw = "將追蹤選項回復到套用任何預設之前的狀態。",
 	},
 })

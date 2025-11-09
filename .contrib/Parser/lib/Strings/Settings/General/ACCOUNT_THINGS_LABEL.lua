@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Штучки для всего аккаунта",
 		-- TODO: ko = "",
 		cn = "帐号通用事物",
-		tw = "帳號通用事物",
+		tw = "帳號共通事物",
 	},
 })

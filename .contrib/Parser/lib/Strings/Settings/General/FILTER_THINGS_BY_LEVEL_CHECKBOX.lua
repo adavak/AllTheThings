@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Без Фильтра по Уровню",
 		-- TODO: ko = "",
 		cn = "不限制等级",
-		tw = "等級限制",
+		tw = "無等級限制",
 	},
 })

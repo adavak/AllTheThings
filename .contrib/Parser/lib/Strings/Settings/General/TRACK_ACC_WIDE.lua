@@ -14,6 +14,6 @@ createLocalizationString({
 		ru = "Отслеживать на весь аккаунт",
 		-- TODO: ko = "",
 		cn = "追踪 账号通用",
-		tw = "追蹤 帳號通用",
+		tw = "追蹤 帳號共通",
 	},
 })

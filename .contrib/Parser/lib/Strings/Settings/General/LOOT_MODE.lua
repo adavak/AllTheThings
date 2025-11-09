@@ -13,6 +13,6 @@ createLocalizationString({
 		ru = "Режим Лута",
 		-- TODO: ko = "",
 		cn = "拾取模式",
-		-- TODO: tw = "",
+		tw = "拾取模式",
 	},
 })
