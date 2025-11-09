@@ -1082,20 +1082,20 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 					---Runestone Rumbles
 					q(92396, {	-- Calling in the Cavalry
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 250791 },	-- Terel Bloodfate
 						["coord"] = { 50.1, 34.2, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(92397, {	-- And Then They Came
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 250798 },	-- Alesil Dawnblood
 						["coord"] = { 61.7, 62.9, EVERSONG_WOODS_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					---Scootin' Through Silvermoon
 					q(92729, {	-- Hounded and Hassled
-						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 252500 },	-- Ranger Telenus
 						["coord"] = { 35.7, 69.0, SILVERMOON_CITY_MID },
+						--["sourceQuests"] = { xx },	-- xx
 					}),
 					q(92728, {	-- Dogged Disturbances
 						["sourceQuests"] = { 92729 },	-- Hounded and Hassled
