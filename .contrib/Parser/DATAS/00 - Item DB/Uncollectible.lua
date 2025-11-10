@@ -493,6 +493,7 @@ i(169961);	-- Crumbling Mineral Formation
 i(170014);	-- Crumbling Rock
 i(169880);	-- Decayed Isotopes
 i(169124);	-- Decorational Whirlycog
+i(170054);	-- Decrypted Message 001-316
 i(169976);	-- Disintegrating Leaf
 i(170097);	-- Discarded Quel'dorei Tome
 i(169149);	-- Dulled Micro-Serrated Incisor
@@ -502,6 +503,7 @@ i(169962);	-- Frayed Fetish
 i(169123);	-- Functional Fiddleswitch
 i(170013);	-- Inanimate Rock
 i(169988);	-- Inert Mineral Dust
+i(168792);	-- Kobold's Candle
 i(169129);	-- Lovingly Worn Wrench
 i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome

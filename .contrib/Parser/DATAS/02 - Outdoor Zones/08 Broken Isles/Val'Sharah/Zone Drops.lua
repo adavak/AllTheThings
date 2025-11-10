@@ -4,6 +4,10 @@
 root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	m(VALSHARAH, {
 		n(ZONE_DROPS, {
+			i(128340, {	-- Chieftain's Beads
+				["coord"] = { 48.4, 87.9, VALSHARAH },
+				["cr"] = 91318,	-- Chieftain Graw
+			}),
 			i(144318),	-- Formula: Enchant Neck - Mark of the Deadly [Rank 2] (RECIPE!)
 			i(138441, {	-- Grotesque Remains
 				["coord"] = { 59.6, 81.8, VALSHARAH },

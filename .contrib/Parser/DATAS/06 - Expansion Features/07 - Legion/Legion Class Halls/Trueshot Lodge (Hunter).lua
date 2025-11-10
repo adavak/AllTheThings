@@ -133,10 +133,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							["provider"] = { "n", 106558 },	-- Mimiron
 							["coord"] = { 43.7, 38.9, 745 },
 							["groups"] = {
-								i(128861, {	-- Titanstrike
-									["ItemAppearanceModifierID"] = 9,
+								o(249812, {	-- Titanstrike
+									["coord"] = { 33.5, 58.1, 745 },
 									["groups"] = {
-										artifact(288),	--  Titanstrike
+										i(128861, {	-- Titanstrike
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(288) },	--  Titanstrike
+										}),
 									},
 								}),
 							},

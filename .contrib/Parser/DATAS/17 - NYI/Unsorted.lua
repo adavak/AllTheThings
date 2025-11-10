@@ -7664,7 +7664,6 @@ root(ROOTS.Unsorted, {
 			i(168788),	-- Toy Soldier Weapons
 			i(168789),	-- Perpetual Motion Device
 			i(168790),	-- Sack of Fish Bones
-			i(168792),	-- Kobold's Candle
 			i(168794),	-- Last Year's Brewfest Flyer
 			i(168797),	-- Stack of Undeliverable Mail
 			i(168812),	-- Air Freshner
@@ -7792,7 +7791,6 @@ root(ROOTS.Unsorted, {
 			i(170042),	-- Scattered Bones
 			i(170043),	-- Split Bone
 			i(170044),	-- Pitted Finger-Bone
-			i(170054),	-- Decrypted Message 001-316
 			i(170055),	-- Decrypted Message 001-322
 			i(170056),	-- Decrypted Message 001-346
 			i(170057),	-- Decrypted Message 001-372

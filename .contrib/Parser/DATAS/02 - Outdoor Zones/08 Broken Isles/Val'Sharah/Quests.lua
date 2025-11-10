@@ -146,7 +146,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests. Turning in whichever version you pick up should give you credit for all three.",
 					["sourceQuests"] = { 38147 },	-- Entangled Dreams
 					["provider"] = { "n", 91223 },	-- Koda Steelclaw
-					["coord"] = { 48.9, 81.6, VALSHARAH },
+					["coords"] = {
+						{ 48.9, 81.6, VALSHARAH },
+						{ 67.2, 27, 643 },	-- Sleeper's Barrow
+					},
 				}),
 				------ Chapter 3 ------
 				q(38381, {	-- Archdruid of Lore (Non-Druid version)

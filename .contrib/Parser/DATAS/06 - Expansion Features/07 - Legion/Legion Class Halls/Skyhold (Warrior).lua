@@ -679,8 +679,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 34.3, 28.5, HELHEIM },
 						["timeline"] = { ADDED_7_2_0 },
 						["groups"] = {
-							i(142285),	-- Stolen Warrior's Blade (QI!)
-							i(142312),	-- Stolen Warrior's Shield (QI!)
+							o(267952, {	-- Stolen Crate
+								i(142285),	-- Stolen Warrior's Blade (QI!)
+								i(142312),	-- Stolen Warrior's Shield (QI!)
+							}),
 						},
 					}),
 					q(45834, {	-- Stolen Souls
