@@ -1659,14 +1659,8 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			--__________________________________
 			--
 			-- Other reagents:
-				i(47556, {	-- Crusader Orb
-					["timeline"] = { ADDED_3_2_0 },
-				}),
 				i(43102, {	-- Frozen Orb
 					["description"] = "Has a chance to drop from the last boss of any Heroic WotLK dungeon.",
-				}),
-				i(45087, {	-- Runed Orb
-					["timeline"] = { ADDED_3_1_0 },
 				}),
 			}
 		),
