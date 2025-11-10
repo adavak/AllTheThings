@@ -141,6 +141,44 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 				},
 			}),
+			n(251911, {	-- Stacks Topskimmer <Used Decor Salesman>
+				["coord"] = { 43.2, 50.5, UNDERMINE },
+				["timeline"] = { ADDED_11_2_7 },
+				["groups"] = {
+					i(245308, {	-- "Elegant" Lawn Flamingo (DECOR!)
+						["sourceQuest"] = 87008,	-- Ad-Hoc Wedding Planner
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 750 }},
+					}),
+					i(243321, {	-- Cartel Head's Schmancy Desk (DECOR!)
+						["sourceQuest"] = 87297,	-- Cashing the Check
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 800 }},
+					}),
+					i(245306, {	-- Cozy Four-Pipe Bed (DECOR!)
+						["sourceQuest"] = 86408,	-- My Hole in the Wall
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 900 }},
+					}),
+					i(260700, {	-- Gob-chanical Trash Heap (DECOR!)
+						["sourceQuest"] = 84675,	-- Showdown in the Attic
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 300 }},
+					}),
+					i(245310, {	-- Reinforced Goblin Umbrella (DECOR!)
+						["sourceQuest"] = 83176,	-- Just a Hunch
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 800 }},
+					}),
+					i(245324, {	-- Rocket-Powered Fountain (DECOR!)
+						["sourceAchievement"] = 40894,	-- Sojourner of Undermine
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1500 }},
+					}),
+					i(245303, {	-- Rocket-Unpowered Rocket (DECOR!)
+						["sourceQuest"] = 85780,	-- Right Where We Want Him
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 800 }},
+					}),
+					i(245325, {	-- Undermine Market Stall (DECOR!)
+						["sourceQuest"] = 85711,	-- Unsolicited Feedback
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1000 }},
+					}),
+				},
+			}),
 		}),
 	}),
 }));

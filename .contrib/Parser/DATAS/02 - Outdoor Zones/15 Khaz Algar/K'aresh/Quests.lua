@@ -640,6 +640,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["qg"] = 231522,	-- Alleria Windrunner
 						["coord"] = { 42.9, 21.5, KARESH },
 						["groups"] = {
+							i(260582, {	-- Cartel Collector's Cage (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 							i(231769),	-- Enchanted Runed Ethereal Crest
 							i(236954),	-- Void-Touched Valorstone
 						},

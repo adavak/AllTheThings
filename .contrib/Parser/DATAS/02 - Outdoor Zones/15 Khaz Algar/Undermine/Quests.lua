@@ -272,6 +272,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						},
 						["provider"] = { "n", 229243 },	-- Renzik "The Shiv"
 						["coord"] = { 61.7, 71.8, UNDERMINE },
+						["groups"] = {
+							i(245310, {	-- Reinforced Goblin Umbrella (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 40900.03, {	-- Chapter 3: Uncovering the Truth
@@ -641,6 +646,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["sourceQuests"] = { 83207 },	-- My Top Gal
 						["provider"] = { "n", 235238 },	-- Monte Gazlowe
 						["coord"] = { 56.5, 44.7, UNDERMINE },
+						["groups"] = {
+							i(245303, {	-- Rocket-Unpowered Rocket (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 40900.06, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {	-- Chapter 6: Homecoming
@@ -691,6 +701,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["sourceQuest"] = 85192,	-- Coming Home
 						["provider"] = { "n", 234801 },	-- Monte Gazlowe
 						["coord"] = { 39.1, 23.3, UNDERMINE },
+						["groups"] = {
+							i(243321, {	-- Cartel Head's Schmancy Desk (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+						},
 					}),
 					------ Stay awhile and listen ------
 					hqt(87351, {	-- Stay awhile and listen: Monte Gazlowe <Bilgewater Trade-Prince>
@@ -851,6 +866,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 38.1, 88.4, UNDERMINE },
 					["groups"] = {
 						i(232895),	-- Spotty (PET!)
+						i(245325, {	-- Undermine Market Stall (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 			}),
@@ -902,6 +920,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["sourceQuests"] = { 83421 },	-- The Perfect Wedding
 					["provider"] = { "n", 226518 },	-- Papa Kraz Torquewrench
 					["coord"] = { 26.2, 43.6, UNDERMINE },
+					["groups"] = {
+						i(245308, {	-- "Elegant" Lawn Flamingo (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.06, {	-- Copyright Infringement
@@ -968,6 +991,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 39.7, 61.4, UNDERMINE },
 					["groups"] = {
 						i(233202),	-- G.O.L.E.M Jr. (TOY!)
+						i(260700, {	-- Gob-chanical Trash Heap (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(230731),	-- Pitz's Masterwork Invention (QI!)
 					},
 				}),
@@ -1241,10 +1267,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						i(235148),	-- Maniac Biker's Legguards
 					},
 				}),
-				q(86408, {	-- Home Sweet Home
+				q(86408, {	-- My Hole in the Wall / (Unknown when this was renamed from) Home Sweet Home
 					["sourceQuests"] = { 84381 },	-- Renegotiations
 					["provider"] = { "n", 228857 },	-- Mama Keara
 					["coord"] = { 39.5, 68.5, UNDERMINE },
+					["groups"] = {
+						i(245306, {	-- Cozy Four-Pipe Bed (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.11, {	-- G.E.T.A.

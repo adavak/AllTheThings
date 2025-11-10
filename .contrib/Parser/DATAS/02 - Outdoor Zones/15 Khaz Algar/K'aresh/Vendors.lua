@@ -1,6 +1,8 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
+local UNTETHERED_COIN = 3303;
+
 root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(KARESH, {
 		n(VENDORS, {
@@ -48,53 +50,53 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 50.4, 36.3, KARESH },
 				["groups"] = {
 					i(242730, {	-- Acidic Void Creeper (MOUNT!)
-						["cost"] = { { "c", 3303, 7 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 7 }},
 					}),
 					i(246907, {	-- Broker Supply Crate (TOY!)
-						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 3 }},
 					}),
 					i(250722, {	-- Ethereal Stall (TOY!)
-						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 3 }},
 					}),
 					i(246903, {	-- Guise of the Phase Diver (TOY!)
-						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 3 }},
 					}),
 					i(244336, {	-- K'aresh Box of Resonance Crystals
-						["cost"] = { { "c", 3303, 1 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 1 }},
 					}),
 					i(244335, {	-- K'aresh Box of Valorstones
-						["cost"] = { { "c", 3303, 1 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 1 }},
 					}),
 					i(246908, {	-- K'areshi Supply Crate (TOY!)
-						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 3 }},
 					}),
 					i(242717, {	-- Lavender K'arroc (MOUNT!)
-						["cost"] = { { "c", 3303, 10 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 10 }},
 					}),
 					i(246905, {	-- Overtuned K'areshi Goggles (TOY!)
-						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 3 }},
 					}),
 					i(244910, {	-- Penumbral Terror (PET!)
-						["cost"] = { { "c", 3303, 4 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 4 }},
 					}),
 					i(247882),	-- Phase Regulator
 					iensemble(250442, {	-- Ensemble: Ancient Capes of the Reshii
-						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 5 }},
 					}),
 					iensemble(250441, {	-- Ensemble: Shoulderguards of the Wastelander Seer
-						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 5 }},
 					}),
 					iensemble(248996, {	-- Ensemble: Untethered Blade's Garb
-						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 5 }},
 					}),
 					iensemble(248998, {	-- Ensemble: Untethered Captain's Full-Plate
-						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 5 }},
 					}),
 					iensemble(248995, {	-- Ensemble: Untethered Seer's Vestiture
-						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 5 }},
 					}),
 					iensemble(248997, {	-- Ensemble: Untethered Striker's Gear
-						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+						["cost"] = {{ "c", UNTETHERED_COIN, 5 }},
 					}),
 				},
 			}),
@@ -108,9 +110,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(235314, {	-- Ta'sam <Fine Goods & Lost Treasures>
-				["description"] = "|cFFE50D12WARNING:|r Sells junk items. Purchases are not refundable. Selling the items back will get you back only 1/4 of the gold spent.",
+				["description"] = "|cFFE50D12WARNING:|r Sells mostly junk items. Purchases are not refundable. Selling the items back will get you back only 1/4 of the gold spent.",
 				["coord"] = { 43.3, 35.5, KARESH_TAZAVESH },
 				["groups"] = {
+					i(260582, {	-- Cartel Collector's Cage (DECOR!)
+						["sourceQuest"] = 86820,	-- Manaforge Omega: Dimensius Looms
+						["timeline"] = { ADDED_11_2_7 },
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 500 }},
+					}),
 					i(247686),	-- Crystalized Nightshade (JUNK!)
 					i(247688),	-- K'arroc Feather Quill (JUNK!)
 					i(247687),	-- Overly-Preserved K'areshi Preserves (JUNK!)
@@ -121,7 +128,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 53.2, 54.1, KARESH_TAZAVESH },
 				["groups"] = {
 					i(246811, {	-- Technique: Inspired Writer's Quill (RECIPE!)
-						["cost"] = { { "g", 5000000 } },	-- 500g
+						["cost"] = {{ "g", 5000000 }},	-- 500g
 						["requireSkill"] = INSCRIPTION,
 					}),
 				},

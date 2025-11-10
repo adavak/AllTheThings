@@ -8649,7 +8649,7 @@ ach(41779,{awp=110107,description="Each week finish 4 dungeons with Distilled Kn
 ach(41995,{awp=110105,description="Die 30 times within one match solo or collectively as a group THEN complete the fight and loot the prize chest. The arena will will with 15 gravestones to the left and right of the entrance to count your progress.",e=451,rwp=110107,u=2}),
 ach(42300,{awp=120000,rwp=120000,u=2}),
 ach(42807,{awp=110205,e=447,rwp=120000,u=2}),
-ach(61339,{awp=110205,description="Awarded to players who spend Infinite Power on 999 purchases of the Artifact Weapon [Limits Unbound] perk & complete a Keystone intime with a key level of 49 or greater.",e=447,rwp=120000,u=2}),
+ach(61339,{awp=110205,description="Earned upon reaching 999 Infinite Power or completing a +49 or higher Keystone in time.",e=447,rwp=120000,u=2}),
 ach(61406,{awp=110205,e=242,rwp=110207,u=2}),
 ach(61430,{awp=120000,rwp=120000,u=2})}),
 achcat(15268,{

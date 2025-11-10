@@ -318,6 +318,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["maps"] = { 2368 },	-- Hall of Awakening
 					["groups"] = {
 						i(219018),	-- Esteemed Earthen Emblem
+						i(253020, {	-- Earthen Etched Throne (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(79354, {	-- The Machine Speakers
@@ -747,6 +750,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["sourceQuestNumRequired"] = 1,
 					["provider"] = { "n", 225616 },	-- Cogwin
 					["coord"] = { 41.4, 22.5, THE_RINGING_DEEPS },
+					["groups"] = {
+						i(253172, {	-- Gundargaz Grand Keg (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(83152, {	-- Magmamagement
 					["sourceQuests"] = {
@@ -1170,6 +1178,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						i(228674),	-- Compiler's Greaves
 						i(228668),	-- Compiler's Handwraps
 						i(228671),	-- Compiler's Shoulderguards
+						i(253040, {	-- Coreway Sentinel Lamppost (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 			}),

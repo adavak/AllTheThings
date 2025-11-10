@@ -236,7 +236,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			ach(40948),	-- Nine-Tenths of the Law
 			ach(40894, {	-- Sojourner of Undermine (automated)
-				i(245324, {["timeline"] = { ADDED_11_2_7 }}),	-- Rocket-Powered Fountain (DECOR!)
+				i(245324, {	-- Rocket-Powered Fountain (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			}),
 			ach(41588, {	-- Read Between the Lines (automated)
 				i(235050),	-- Desk-In-A-Box (TOY!)

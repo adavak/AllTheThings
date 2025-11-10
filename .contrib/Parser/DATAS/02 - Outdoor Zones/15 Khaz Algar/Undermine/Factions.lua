@@ -61,9 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					faction(FACTION_CARTELS_OF_UNDERMINE),	-- Cartels of Undermine
 					ach(41086, {	-- Ally of Undermine
 						["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 20 },
-						["groups"] = {
-							title(603),	-- <Name> the Explosive
-						},
+						["groups"] = { title(603) },	-- <Name> the Explosive
 					}),
 					n(231409, {	-- Smaks Topskimmer <Renown Quartermaster>
 						["coord"] = { 43.6, 50.8, UNDERMINE },
@@ -74,140 +72,156 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							}, {	-- RENOWN 4 --
 							}, {	-- RENOWN 5 --
 								i(235338, {	-- Pattern: Charged Armor Kit (RECIPE!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 150 }},
 								}),
 								i(234274, {	-- Schematic: 22H Slicks (RECIPE!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 150 }},
 								}),
 								i(232535, {	-- Technique: Contract: The Cartels of Undermine (RECIPE!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 150 }},
 								}),
 								i(233022, {	-- Technique: Vantus Rune: Undermine (RECIPE!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 150 }},
+								}),
+								i(245318, {	-- Undermine Fence (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 450 }},
+								}),
+								i(245319, {	-- Undermine Fencepost (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 350 }},
 								}),
 							}, {	-- RENOWN 6 --
 							}, {	-- RENOWN 7 --
 								i(232384, {	-- Aqirite-Toe Boots
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
 								}),
 								i(232381, {	-- Mostly Cobbled Shoes
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
 								}),
 								i(232379, {	-- Slime-Slicked Slippers
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
 								}),
 								i(232383, {	-- Soot-Encrusted Kickers
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
 								}),
 							}, {	-- RENOWN 8 --
 							}, {	-- RENOWN 9 --
 							}, {	-- RENOWN 10 --
+								i(243312, {	-- Undermine Rectangular Table
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 700 }},
+								}),
+								i(245314, {	-- Undermine Round Table (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 650 }},
+								}),
 							}, {	-- RENOWN 11 --
 							}, {	-- RENOWN 12 --
 							}, {	-- RENOWN 13 --
 							}, {	-- RENOWN 14 --
 								i(232410, {	-- Craftsman's Repurposed Mitts
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 3900 }},
 								}),
 								i(232411, {	-- Goblin Boxer's Wraps
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 3900 }},
 								}),
 								i(232413, {	-- Retired Bouncer's Gauntlets
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 3900 }},
 								}),
 								i(232412, {	-- Undermine Smelter's Gloves
 									["modID"] = 14,
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 3900 }},
 								}),
 							}, {	-- RENOWN 15 --
 								i(229936, {	-- Violet Armored Growler (MOUNT!)
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 8125}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
 								}),
 							}, {	-- RENOWN 16 --
 								i(232499, {	-- Undermine Treatise on Alchemy (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = ALCHEMY,
 								}),
 								i(232500, {	-- Undermine Treatise on Blacksmithing (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = BLACKSMITHING,
 								}),
 								i(232501, {	-- Undermine Treatise on Enchanting (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = ENCHANTING,
 								}),
 								i(232507, {	-- Undermine Treatise on Engineering (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = ENGINEERING,
 								}),
 								i(232503, {	-- Undermine Treatise on Herbalism (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = HERBALISM,
 								}),
 								i(232508, {	-- Undermine Treatise on Inscription (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = INSCRIPTION,
 								}),
 								i(232504, {	-- Undermine Treatise on Jewelcrafting (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = JEWELCRAFTING,
 								}),
 								i(232505, {	-- Undermine Treatise on Leatherworking (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = LEATHERWORKING,
 								}),
 								i(232509, {	-- Undermine Treatise on Mining (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = MINING,
 								}),
 								i(232506, {	-- Undermine Treatise on Skinning (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = SKINNING,
 								}),
 								i(232502, {	-- Undermine Treatise on Tailoring (CI!)
-									["cost"] = {{"i", ARTISANS_ACUITY, 50}},
+									["cost"] = {{ "i", ARTISANS_ACUITY, 50 }},
 									["requireSkill"] = TAILORING,
 								}),
 							}, {	-- RENOWN 17 --
 								i(231743, {	-- Undermine Enforcer's Helmet (COSMETIC!)
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 1625}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
 								}),
 								i(231749, {	-- Undermine Enforcer's Spikes (COSMETIC!)
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 3250 }},
 								}),
 								-- NOTE: These 4 ensembles reference Dungeon-based Items and 1 Rep-based Item (from Smaks)
 								-- but these are not actually granted. I can find no logical way to distinguish this discrepancy
 								-- from the Wago data, so for now the only solution would be to have a manual-sourceID-removal field
 								-- I'd rather not need that...
 								iensemble(237034, {	-- Smartest in Town's Attire
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 9750}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 9750 }},
 								}),
 								iensemble(237102, {	-- Slickest in Town's Attire
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 9750}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 9750 }},
 								}),
 								iensemble(237112, {	-- Craftiest in Town's Attire
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 9750}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 9750 }},
 								}),
 								iensemble(237122, {	-- Toughest in Town's Attire
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 9750}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 9750 }},
 								}),
 							}, {	-- RENOWN 18 --
 								i(232515, {	-- Experimental Goblin Jetpack (COSMETIC!)
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 3250 }},
 								}),
 							}, {	-- RENOWN 19 --
 								i(229944, {	-- The Topskimmer Special (MOUNT!)
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 11375}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
 								}),
 								i(232981, {	-- GNZ Airmaster 9000 (MM!)
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
 								}),
 							}, {	-- RENOWN 20 --
 							},
@@ -282,9 +296,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				faction(FACTION_DARKFUSE_SOLUTIONS),	-- Darkfuse Solutions
 				ach(41350, {	-- A Long Fuse
 					["minReputation"] = { FACTION_DARKFUSE_SOLUTIONS, EXALTED },	-- Darkfuse Solutions Exalted
-					["groups"] = {
-						title(606),	-- Darkfuse Diplomat <Name>
-					},
+					["groups"] = { title(606) },	-- Darkfuse Diplomat <Name>
 				}),
 				q(85808, {	-- Exalted with Darkfuse Solutions (Paragon)
 					["provider"] = { "n", 231396 },	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>

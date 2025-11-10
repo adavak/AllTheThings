@@ -123,7 +123,8 @@ q(72798,{coords={{16.1,62.6,2022}},cost={{"i",199203,1},{"i",199080,15},{"i",202
 p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}}),
 h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet",g={
 q(30526,{coords={{42.4,50.2,376}},lvl=15,minReputation={1272,21600},qgs={59533},g={
-i(80144)}}),
+i(80144),
+i(248663,{awp=110207,sourceQuests={30526},spellID=1247392})}}),
 q(46952,{awp=70200,coords={{58.8,53.8,582},{44.6,84.8,590}},description="You need to have an Herb Garden in your garrison. Show the Pebble to Dog by speaking with them. Do not throw the pebble at Dog.",qgs={87553},qis={147420},sourceQuests={30526,34193,36404}}),
 q(83093,{awp=110002,coords={a[40]},description="Interacting with the bowl near Dalaran's crash will send Dog running to you.",providers={{"o",452438}},sourceQuests={46952}}),
 q(83094,{awp=110002,coords={a[40]},description="Interact with Dog to get them as a pet.",qgs={225486},sourceQuests={83093},g={

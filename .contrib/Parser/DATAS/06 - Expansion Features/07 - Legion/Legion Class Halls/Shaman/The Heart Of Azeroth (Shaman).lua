@@ -297,7 +297,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42383, {	-- Rise, Champions
 						["sourceQuests"] = { 42114 },	-- The Ritual of Tides
-						["provider"] = { "n", 96528 },	-- Farseer Nobundo
+						["qgs"] = {
+							96528,	-- Farseer Nobundo
+							106316,	-- Farseer Nobundo
+						},
 						["coord"] = { 34.1, 31.3, THE_HEART_Of_AZEROTH },
 					}),
 					q(42198, {	-- Champion: Stormcaller Mylra
@@ -425,6 +428,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 109464 },	-- Elementalist Janai
 						["coord"] = { 29.4, 77.9, THE_HEART_Of_AZEROTH },
 						["maps"] = { 737 },	-- The Vortex Pinnacle (Scenario Map)
+						["groups"] = { i(138994) },	-- Mistral Essence (QI!)
 					}),
 					q(42984, {	-- Eye of Azshara: The Scepter of Storms
 						["sourceQuests"] = { 42983 },	-- Mistral Essence

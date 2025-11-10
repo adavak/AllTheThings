@@ -4,6 +4,27 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(THE_RINGING_DEEPS, {
 		n(VENDORS, {
+			n(252887, {	-- Chert <Decor Specialist>
+				["coord"] = { 43.4, 32.8, THE_RINGING_DEEPS },
+				["timeline"] = { ADDED_11_2_7 },
+				["groups"] = {
+					i(253040, {	-- Coreway Sentinel Lamppost (DECOR!)
+						["sourceQuest"] = 82144,	-- On the Road
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 650 }},
+					}),
+					i(253162, {	-- Earthen Chain Wall Shelf (DECOR!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 600 }},
+					}),
+					i(253020, {	-- Earthen Etched Throne (DECOR!)
+						["sourceQuest"] = 78761,	-- Into the Machine
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 500 }},
+					}),
+					i(253172, {	-- Gundargaz Grand Keg (DECOR!)
+						["sourceQuest"] = 83160,	-- Cinderbrew Reserve
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 850 }},
+					}),
+				},
+			}),
 			n(216598, {	-- Janky <Candles>
 				["coord"] = { 47.6, 33.4, THE_RINGING_DEEPS },
 				["groups"] = {

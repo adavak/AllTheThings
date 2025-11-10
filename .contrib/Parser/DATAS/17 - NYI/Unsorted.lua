@@ -4534,8 +4534,6 @@ root(ROOTS.Unsorted, {
 				i(241067),	-- Large Forsaken Spiked Brazier
 				i(243113),	-- Blue Dazar'alor Rug
 				i(243130),	-- Zandalari Weapon Rack
-				i(243312),	-- Undermine Rectangular Table
-				i(243321),	-- Cartel Head's Schmancy Desk
 				i(243335),	-- Tauren Bluff Rug
 				i(244313),	-- Orcish Fence
 				i(244315),	-- Orcish Warlord's Planning Table
@@ -4561,21 +4559,13 @@ root(ROOTS.Unsorted, {
 				i(245291),	-- Replica Dark Iron Mole Machine
 				i(245293),	-- Collection of Arathi Scripture
 				i(245294),	-- Councilward's Jeweled Goblet
-				i(245303),	-- Rocket-Unpowered Rocket
-				i(245306),	-- Cozy Four-Pipe Bed
 				i(245307),	-- Undermine Bookcase
-				i(245308),	-- "Elegant" Lawn Flamingo
 				i(245309),	-- Rusty Patchwork Tub
-				i(245310),	-- Reinforced Goblin Umbrella
 				i(245311),	-- Undermine Wall Shelf
 				i(245313),	-- Spring-Powered Undermine Chair
-				i(245314),	-- Undermine Round Table
 				i(245315),	-- Trashfire Barrel
-				i(245318),	-- Undermine Fence
-				i(245319),	-- Undermine Fencepost
 				i(245320),	-- Very Reliable Undermine Lamppost
 				i(245321),	-- Rust-Plated Storage Barrel
-				i(245325),	-- Undermine Market Stall
 				i(245333),	-- Shadowforge Wooden Box
 				i(245413),	-- Zandalari Sconce
 				i(245417),	-- Akunda the Tapestry
@@ -4730,14 +4720,9 @@ root(ROOTS.Unsorted, {
 				i(252392),	-- Admiral's Chandelier
 				i(252393),	-- Hull'n'Home Dresser
 				i(252404),	-- Hull'n'Home Chair
-				i(252405),	-- Admiral's Low-Hanging Chandelier
-				i(253020),	-- Earthen Etched Throne
 				i(253021),	-- Freywold Bench
 				i(253035),	-- Freywold Seat
-				i(253040),	-- Coreway Sentinel Lamppost
-				i(253162),	-- Earthen Chain Wall Shelf
 				i(253166),	-- Freywold Fountain
-				i(253172),	-- Gundargaz Grand Keg
 				i(253527),	-- Goldshire Wardrobe
 				i(255641),	-- Undermine Mechanic's Hanging Lamp
 				i(255642),	-- Undermine Alleyway Sconce
@@ -4749,7 +4734,6 @@ root(ROOTS.Unsorted, {
 				i(256328),	-- Leftover Undermine Takeout
 				i(256330),	-- Kharanos Stone Bed
 				i(256331),	-- Shadowforge Lamppost
-				i(256554),	-- Definitely Real, Not At All Fake Head of the Broodmother
 				i(256903),	-- Gilnean Banded Crate
 				i(256905),	-- Small Gilnean Table
 				i(256919),	-- Zandalari War Chandelier
@@ -4771,9 +4755,7 @@ root(ROOTS.Unsorted, {
 				i(258289),	-- Thunder Bluff Totem
 				i(258765),	-- Hull'n'Home Window
 				i(259071),	-- Brawler's Guild Punching Bag
-				i(260582),	-- Cartel Collector's Cage
 				i(260699),	-- Maldraxxian Runic Tablet
-				i(260700),	-- Gob-chanical Trash Heap
 				i(262347),	-- Draenei Crystal Chandelier
 				i(262663),	-- Kyrian Floating Lamp
 				i(263021),	-- Brumewood Hollow Grassy Patch
@@ -7279,7 +7261,6 @@ root(ROOTS.Unsorted, {
 				i(159680),	-- Smuggled Goods
 				i(159710),	-- Goblin Mining Pick
 				i(159716),	-- Heart of Azeroth
-				i(159748),	-- Rune-Etched Bone
 				i(159754),	-- Heart of Azeroth
 				i(159760),	-- Sandfishing Pole
 				i(159774),	-- Undying Torch

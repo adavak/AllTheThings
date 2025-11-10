@@ -393,6 +393,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 47.3, 32.9, THE_RINGING_DEEPS },
 						["groups"] = bubbleDownRep(FACTION_THE_ASSEMBLY_OF_THE_DEEPS, {
 							{		-- RENOWN 1 --
+								i(253162, {	-- Earthen Chain Wall Shelf (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "c", RESONANCE_CRYSTALS, 600 }},
+									-- Exo Note: Unknown which Renown rank
+								}),
 								i(228418, {	-- Noncandescent Smithing Choker
 									["cost"] = {{"c", RESONANCE_CRYSTALS, 250}},
 								}),

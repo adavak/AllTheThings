@@ -631,7 +631,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(51134, {	-- If Bones Could Talk
 				["sourceQuests"] = { 48941 },	-- A Slight Detour
-				["provider"] = {"i",159748},	-- Rune-Etched Bone
+				["provider"] = { "i", 159748 },	-- Rune-Etched Bone (QS!)
 				["races"] = ALLIANCE_ONLY,
 				-- Needs confirmation -- the quest didn't auto-pop and I didn't notice the item in my bags until later. This source is based on a wowhead comment.
 				-- Not required for "Drust Do It."

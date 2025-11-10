@@ -5,6 +5,18 @@
 root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(DRUSTVAR, {
 		n(ZONE_DROPS, {
+			i(168126, {	-- Grasping Wicker Arm
+				["requireSkill"] = ENCHANTING,
+				["crs"] = {
+					138244,	-- Briarwood Bulwark
+					133118,	-- Gnarled Hulk
+					137133,	-- Wicker Golem
+				},
+			}),
+			i(159748, {	-- Rune-Etched Bone (QS!)
+				["coord"] = { 44.8, 32.6, DRUSTVAR },	-- General area where Awakened Dead can be found
+				["cr"] = 136490,	-- Awakened Dead
+			}),
 			i(163574, {	-- Terrified Pack Mule (MOUNT!)
 				["crs"] = {
 					133892,	-- Hexthralled Crossbowman
@@ -15,13 +27,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					131519,	-- Hexthralled Falconer
 					133736,	-- Hexthralled Falconeer
 					137134,	-- Hexthralled Soldier
-				},
-			}),
-			i(168126, {	-- Grasping Wicker Arm
-				["crs"] = {
-					138244,	-- Briarwood Bulwark
-					133118,	-- Gnarled Hulk
-					137133,	-- Wicker Golem
 				},
 			}),
 		}),
