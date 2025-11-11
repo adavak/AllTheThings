@@ -3863,7 +3863,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["cr"] = 2417,	-- Grel'borg the Miser
 						}),
-						i(248662, {["timeline"] = { ADDED_11_2_7 }}),	-- Jewelcrafter's Tent (DECOR!)
+						i(248662, {	-- Jewelcrafter's Tent (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(58675, {	-- The Price of Peace
@@ -5099,41 +5101,105 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = bubbleDownClassicRep(FACTION_STORMWIND, {
 						{		-- Neutral
 						}, {	-- Friendly
-							i(248797, {["timeline"] = { ADDED_11_2_7 }}),	-- City Wanderer's Candleholder (DECOR!)
-							i(253168, {["timeline"] = { ADDED_11_2_7 }}),	-- Earthen Storage Crate (DECOR!)
-							i(248794, {["timeline"] = { ADDED_11_2_7 }}),	-- Elwynn Fence (DECOR!)
-							i(248795, {["timeline"] = { ADDED_11_2_7 }}),	-- Elwynn Fencepost (DECOR!)
-							i(248938, {["timeline"] = { ADDED_11_2_7 }}),	-- Hooded Iron Lantern (DECOR!)
+							i(248797, {	-- City Wanderer's Candleholder (DECOR!)
+								["sourceQuest"] = 26229,	-- "I TAKE Candle!"
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 500000 },	-- 50g
+							}),
+							i(253168, {	-- Earthen Storage Crate (DECOR!)
+								["sourceQuest"] = 92572,	-- Furniture Favor
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+							i(248794, {	-- Elwynn Fence (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 500000 },	-- 50g
+							}),
+							i(248795, {	-- Elwynn Fencepost (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 950000 },	-- 95g
+							}),
+							i(248938, {	-- Hooded Iron Lantern (DECOR!)
+								["sourceQuest"] = 60,	-- Kobold Candles
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 1900000 },	-- 190g
+							}),
 							i(248662, {	-- Jewelcrafter's Tent (DECOR!)
 								["sourceQuest"] = 543,	-- The Perenolde Tiara
 								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 5000000 },	-- 500g
 							}),
-							i(248798, {["timeline"] = { ADDED_11_2_7 }}),	-- Northshire Barrel (DECOR!)
-							i(248621, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Arched Trellis (DECOR!)
+							i(248798, {	-- Northshire Barrel (DECOR!)
+								["sourceQuest"] = 54,	-- Report to Goldshire
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 2550000 },	-- 255g
+							}),
+							i(248621, {	-- Stormwind Arched Trellis (DECOR!)
+								["sourceQuest"] = 26390,	-- Ending the Invasion!
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 3800000 },	-- 380g
+							}),
 							i(256673, {	-- Stormwind Forge (DECOR!)
 								["sourceQuest"] = 7604,	-- A Binding Contract
 								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 10000000 },	-- 1000g
 							}),
-							i(45574, {["timeline"] = { ADDED_3_1_0 }}),	-- Stormwind Tabard
-							i(248801, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Weapon Rack (DECOR!)
+							i(45574, {	-- Stormwind Tabard
+								["timeline"] = { ADDED_3_1_0 },
+							}),
+							i(248801, {	-- Stormwind Weapon Rack (DECOR!)
+								["sourceQuest"] = 26297,	-- The Dawning of a New Day
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 1000000 },	-- 100g
+							}),
 							i(248336, {	-- Stormwind Wooden Table (DECOR!)
 								["sourceQuest"] = 59583,	-- Welcome to Stormwind
 								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 3800000 },	-- 380g
 							}),
-							i(248618, {["timeline"] = { ADDED_11_2_7 }}),	-- Westfall Woven Basket (DECOR!)
+							i(248618, {	-- Westfall Woven Basket (DECOR!)
+								["sourceQuest"] = 26270,	-- You Have Our Thanks
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 2550000 },	-- 255g
+							}),
 						}, {	-- Honored
-							i(248939, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Lamppost (DECOR!)
-							i(248333, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Large Wooden Table (DECOR!)
+							i(248939, {	-- Stormwind Lamppost (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 1300000 },	-- 130g
+							}),
+							i(248333, {	-- Stormwind Large Wooden Table (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 1300000 },	-- 130g
+							}),
 						}, {	-- Revered
-							i(248617, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Keg Stand (DECOR!)
-							i(67531, {["timeline"] = { ADDED_4_0_3 }}),	-- Stormwind Satchel
-							i(248620, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Trellis and Basin (DECOR!)
+							i(248617, {	-- Stormwind Keg Stand (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 1900000 },	-- 190g
+							}),
+							i(67531, {	-- Stormwind Satchel
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+							i(248620, {	-- Stormwind Trellis and Basin (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 1900000 },	-- 190g
+							}),
 						}, {	-- Exalted
-							i(64902, {["timeline"] = { ADDED_4_0_1 }}),	-- Cape of Stormwind
-							i(64901, {["timeline"] = { ADDED_4_0_1 }}),	-- Mantle of Stormwind
-							i(64903, {["timeline"] = { ADDED_4_0_1 }}),	-- Shroud of Stormwind
-							i(248619, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Gazebo (DECOR!)
-							i(248665, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Peddler's Cart (DECOR!)
+							i(64902, {	-- Cape of Stormwind
+								["timeline"] = { ADDED_4_0_1 },
+							}),
+							i(64901, {	-- Mantle of Stormwind
+								["timeline"] = { ADDED_4_0_1 },
+							}),
+							i(64903, {	-- Shroud of Stormwind
+								["timeline"] = { ADDED_4_0_1 },
+							}),
+							i(248619, {	-- Stormwind Gazebo (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 3150000 },	-- 315g
+							}),
+							i(248665, {	-- Stormwind Peddler's Cart (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = { "g", 3150000 },	-- 315g
+							}),
 						},
 					}),
 				}),

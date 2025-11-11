@@ -680,6 +680,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						objective(1, {	-- 0/12 Kobold Digger slain
 							["provider"] = { "n", 1236 },	-- Kobold Digger
 						}),
+						i(248797, {	-- City Wanderer's Candleholder (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 						i(58905, {	-- Kobold Basher
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -1321,6 +1324,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["provider"] = { "n", 42680 },	-- Shadowy Figure
 							["coord"] = { 43.9, 69.3, WESTFALL },
 						}),
+						i(248801, {	-- Stormwind Weapon Rack (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(65, {		-- The Defias Brotherhood (1/7)
@@ -1634,6 +1640,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 56.0, 31.2, WESTFALL },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(248618, {	-- Westfall Woven Basket (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 			}),
 			n(RARES, {

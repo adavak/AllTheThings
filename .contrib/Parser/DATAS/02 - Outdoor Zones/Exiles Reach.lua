@@ -1816,7 +1816,11 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 				["provider"] = { "n", 154169 },	-- Captain Garrick
 				["coord"] = { 73.6, 91.3, STORMWIND_CITY },
 				["races"] = ALLIANCE_ONLY,
-				["groups"] = { i(248336, {["timeline"] = { ADDED_11_2_7 }}),},	-- Stormwind Wooden Table (DECOR!)
+				["groups"] = {
+					i(248336, {	-- Stormwind Wooden Table (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(58908, {	-- Finding Your Way
 				["sourceQuests"] = { 59583 },	-- Welcome to Stormwind

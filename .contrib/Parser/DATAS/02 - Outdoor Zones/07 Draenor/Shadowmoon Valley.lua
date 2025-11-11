@@ -331,6 +331,10 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							garrisonBuilding(64),	-- Fishing Shack
+							i(114875),	-- Eventide Fishing Journal (PQI!)
+							i(248335, {	-- Stormwind Wooden Stool (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 						},
 					}),
 					q(35014, {	-- Blademoon Bloom

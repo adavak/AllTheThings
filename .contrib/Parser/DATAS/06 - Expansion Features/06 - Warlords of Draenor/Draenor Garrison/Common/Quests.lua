@@ -2171,6 +2171,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["provider"] = { "n", 77209 },	-- Baros Alexston
 				["coord"] = { 41.2, 49.3, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(248661, {	-- Northshire Scribe's Desk (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(36567, {	-- Bigger is Better
 				["sourceQuest"] = 34775,	-- Mission Probable
@@ -2305,6 +2310,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					garrisonBuilding(29),	-- Herb Garden lvl 1
+					i(248334, {	-- Stormwind Wooden Bench (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			q(34193, {	-- Clearing the Garden
@@ -2568,6 +2576,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(110560),	-- Garrison Hearthstone (TOY!)
+					i(248799, {	-- Wooden Storage Crate (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			q(34378, {	-- Establish Your Garrison
@@ -2770,6 +2781,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["provider"] = { "n", 77209 },	-- Baros Alexston
 				["coord"] = { 41.1, 49.4, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(112730),	-- Shelly's Report (QI!)
+					i(248810, {	-- Rough Wooden Chair (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(36352, {	-- Locating the Lapidarist
 				["sourceQuest"] = 36314,	-- The Intricate Pendant
@@ -2820,6 +2837,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["provider"] = { "n", 77209 },	-- Baros Alexston
 				["coord"] = { 31.8, 31.0, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					i(248800, {	-- Architect's Drafting Table (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(36614, {	-- My Very Own Fortress
 				["sourceQuest"] = 36567,	-- Bigger is Better
@@ -3210,7 +3232,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["coord"] = { 65.2, 41.8, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					garrisonBuilding(61),	-- Frostwall Mines
+					garrisonBuilding(61),	-- Lunarfall Mines lvl 1
+					i(248660, {	-- Stormwind Workbench (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			q(35154, {	-- Things Are Not Goren Our Way

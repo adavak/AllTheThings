@@ -300,8 +300,8 @@ root(ROOTS.ExpansionFeatures,
 					["groups"] = FUR_TRADER,
 				})),
 				n(88633, {	-- Deluwin Whisperfield <Contracts>
-					["races"] = ALLIANCE_ONLY,
 					["description"] = "Sells contracts for followers not chosen during zone quests.",
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(119291, {	-- Contract: Artificer Andren
 							["cost"] = 50000000,	-- 5,000g
@@ -399,6 +399,7 @@ root(ROOTS.ExpansionFeatures,
 					["groups"] = COOK_TRADER,
 				}),
 				n(88635, {	-- Nalya Battlehorn <Contracts>
+					["description"] = "Sells contracts for followers not chosen during zone quests.",
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(119255, {	-- Contract: Bruto
@@ -675,93 +676,132 @@ root(ROOTS.ExpansionFeatures,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = HERB_TRADER,
 				})),
-				n(88223, {	-- Sergeant Crowler <Garrison Quartermaster>
-					["crs"] = {78564},
+				n(78564, {	-- Sergeant Crowler <Garrison Quartermaster> LVL3
+					["cr"] = 88223,	-- LVL1 and LVL2 Quartermaster
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						i(248800, {	-- Architect's Drafting Table (DECOR!)
+							["sourceQuest"] = 36615,	-- My Very Own Castle
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 1500 }},	-- 1,500x Garrison Resources
+						}),
 						i(120348, {	-- Enchanted Crystal of Freezing
-							["cost"] = { { "c", 824, 60 }, },	-- 60x Garrison Resources
+							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
 						}),
 						i(120347, {	-- Enchanted Crystal of Replenishment
-							["cost"] = { { "c", 824, 60 }, },	-- 60x Garrison Resources
+							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
 						}),
 						i(120349, {	-- Enduring Vial of Swiftness
-							["cost"] = { { "c", 824, 60 }, },	-- 60x Garrison Resources
+							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
 						}),
 						i(120182, {	-- Excess Potion of Accelerated Learning
-							["cost"] = { { "c", 824, 100 }, },	-- 100x Garrison Resources
+							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
 						}),
 						i(122272, {	-- Follower Ability Retraining Manual
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122273, {	-- Follower Trait Retraining Guide
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+						}),
+						i(248661, {	-- Northshire Scribe's Desk (DECOR!)
+							["sourceQuest"] = 36592,	-- Bigger is Better
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+						}),
+						i(245275, {	-- Rolled Scroll (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+						}),
+						i(248810, {	-- Rough Wooden Chair (DECOR!)
+							["sourceQuest"] = 35176,	-- Keeping it Together
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
 						}),
 						i(122307, {	-- Rush Order: Barn
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122490, {	-- Rush Order: Dwarven Bunker
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122497, {	-- Rush Order: Garden Shipment
-							["cost"] = { { "c", 824, 300 }, },	-- 300x Garrison Resources
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
 						}),
 						i(122487, {	-- Rush Order: Gladiator's Sanctum
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122500, {	-- Rush Order: Gnomish Gearworks
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122503, {	-- Rush Order: Mine Shipment
-							["cost"] = { { "c", 824, 300 }, },	-- 300x Garrison Resources
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
 						}),
 						i(128373, {	-- Rush Order: Shipyard
-							["cost"] = { { "c", 824, 500 }, },	-- 500x Garrison Resources
+							["cost"] = {{ "c", 824, 500 }},	-- 500x Garrison Resources
 						}),
 						i(122423, {	-- Scouting Missive: Broken Precipice
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122417, {	-- Scouting Missive: Darktide Roost
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122404, {	-- Scouting Missive: Everbloom Wilds
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122406, {	-- Scouting Missive: Iron Siegeworks
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122414, {	-- Scouting Missive: Lost Veil Anzu
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122399, {	-- Scouting Missive: Magnarok
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122422, {	-- Scouting Missive: Mok'gol Watchpost
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122409, {	-- Scouting Missive: Pillars of Fate
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122410, {	-- Scouting Missive: Shattrath Harbor
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122407, {	-- Scouting Missive: Skettis
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122415, {	-- Scouting Missive: Socrethar's Rise
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122401, {	-- Scouting Missive: Stonefury Cliffs
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(133883, {	-- Scouting Missive: The Heart of Shattrath
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(133878, {	-- Scouting Missive: The Pit
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+						}),
+						i(248334, {	-- Stormwind Wooden Bench (DECOR!)
+							["sourceQuest"] = 36404,	-- Clearing the Garden
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+						}),
+						i(248335, {	-- Stormwind Wooden Stool (DECOR!)
+							["sourceQuest"] = 36202,	-- Anglin' In Our Garrison
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+						}),
+						i(248660, {	-- Stormwind Workbench (DECOR!)
+							["sourceQuest"] = 34192,	-- Things Are Not Goren Our Way
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
 						}),
 						i(141642, {	-- Technique: Tome of the Clear Mind (RECIPE!)
-							["cost"] = { { "i", 114931, 20 }, },	-- 20x Cerulean Pigment
+							["cost"] = {{ "i", 114931, 20 }},	-- 20x Cerulean Pigment
+						}),
+						i(248799, {	-- Wooden Storage Crate (DECOR!)
+							["sourceQuest"] = 34586,	-- Establish Your Garrison
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
 						}),
 					},
 				}),
@@ -770,88 +810,88 @@ root(ROOTS.ExpansionFeatures,
 					["crs"] = { 79774 },	-- Sergeant Grimjaw <Garrison Quartermaster> (secondary version)
 					["groups"] = {
 						i(120348, {	-- Enchanted Crystal of Freezing
-							["cost"] = { { "c", 824, 60 }, },	-- 60x Garrison Resources
+							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
 						}),
 						i(120347, {	-- Enchanted Crystal of Replenishment
-							["cost"] = { { "c", 824, 60 }, },	-- 60x Garrison Resources
+							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
 						}),
 						i(120349, {	-- Enduring Vial of Swiftness
-							["cost"] = { { "c", 824, 60 }, },	-- 60x Garrison Resources
+							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
 						}),
 						i(120182, {	-- Excess Potion of Accelerated Learning
-							["cost"] = { { "c", 824, 100 }, },	-- 100x Garrison Resources
+							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
 						}),
 						i(122272, {	-- Follower Ability Retraining Manual
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122273, {	-- Follower Trait Retraining Guide
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122307, {	-- Rush Order: Barn
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122496, {	-- Rush Order: Garden Shipment
-							["cost"] = { { "c", 824, 300 }, },	-- 300x Garrison Resources
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
 						}),
 						i(122487, {	-- Rush Order: Gladiator's Sanctum
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122501, {	-- Rush Order: Goblin Workshop
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122502, {	-- Rush Order: Mine Shipment
-							["cost"] = { { "c", 824, 300 }, },	-- 300x Garrison Resources
+							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
 						}),
 						i(128373, {	-- Rush Order: Shipyard
-							["cost"] = { { "c", 824, 500 }, },	-- 500x Garrison Resources
+							["cost"] = {{ "c", 824, 500 }},	-- 500x Garrison Resources
 						}),
 						i(122491, {	-- Rush Order: War Mill
-							["cost"] = { { "c", 824, 1000 }, },	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
 						}),
 						i(122424, {	-- Scouting Missive: Broken Precipice
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122418, {	-- Scouting Missive: Darktide Roost
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122400, {	-- Scouting Missive: Everbloom Wilds
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122402, {	-- Scouting Missive: Iron Siegeworks
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122413, {	-- Scouting Missive: Lost Veil Anzu
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122403, {	-- Scouting Missive: Magnarok
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122421, {	-- Scouting Missive: Mok'gol Watchpost
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122411, {	-- Scouting Missive: Pillars of Fate
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122412, {	-- Scouting Missive: Shattrath Harbor
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122408, {	-- Scouting Missive: Skettis
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122416, {	-- Scouting Missive: Socrethar's Rise
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(122405, {	-- Scouting Missive: Stonefury Cliffs
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(133884, {	-- Scouting Missive: The Heart of Shattrath
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(133876, {	-- Scouting Missive: The Pit
-							["cost"] = { { "c", 824, 200 }, },	-- 200x Garrison Resources
+							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
 						}),
 						i(141642, {	-- Technique: Tome of the Clear Mind (RECIPE!)
-							["cost"] = { { "i", 114931, 20 }, },	-- 20x Cerulean Pigment
+							["cost"] = {{ "i", 114931, 20 }},	-- 20x Cerulean Pigment
 						}),
 					},
 				}),

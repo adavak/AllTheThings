@@ -55,6 +55,18 @@ root(ROOTS.ExpansionFeatures,
 							i(120309),	-- Pygmy Cow (PET!)
 						})),
 					}),
+					n(VENDORS, {
+						a(n(88126, {	-- Maybell Maclure-Stonefield
+							i(253527, {	-- Goldshire Wardrobe (DECOR!)
+								["sourceQuest"] = 114,	-- The Escape
+								["timeline"] = { ADDED_11_2_7 },
+								["cost"] = {
+									{ "g", 3000000 },	-- 300g
+									{ "c", 824, 500 },	-- 500x Garrison Resources
+								},
+							}),
+						})),
+					}),
 				}),
 			}),
 		})),

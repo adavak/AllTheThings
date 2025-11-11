@@ -460,10 +460,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								}),
 								-- #endif
 								-- CRIEVE NOTE: The following two items were replaced with the above items.
-								i(57392, {	-- Willem's Mitts
+								i(57394, {	-- Long Lost Wand
 									["timeline"] = { ADDED_4_0_3, REMOVED_7_3_5 },
 								}),
-								i(57394, {	-- Long Lost Wand
+								i(248621, {	-- Stormwind Arched Trellis (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
+								i(57392, {	-- Willem's Mitts
 									["timeline"] = { ADDED_4_0_3, REMOVED_7_3_5 },
 								}),
 							},
@@ -1391,6 +1394,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								}),
 								i(57389, {	-- Innkeeper's Longstockings
 									["timeline"] = { ADDED_4_0_3 },
+								}),
+								i(248798, {	-- Northshire Barrel (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
 								}),
 								i(6078),	-- Pikeman Shield
 								i(57391, {	-- Pikeman Trousers
@@ -2711,11 +2717,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								475,	-- Kobold Tunneler
 							},
 						}),
+						i(57398, {	-- Candlewax Streaked Robe
+							["timeline"] = { ADDED_4_0_3 },
+						}),
 						i(1434, {	-- Glowing Wax Stick
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
-						i(57398, {	-- Candlewax Streaked Robe
-							["timeline"] = { ADDED_4_0_3 },
+						i(248938, {	-- Hooded Iron Lantern (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
 						}),
 						i(57399, {	-- Kobold Hunter's Trophy Belt
 							["timeline"] = { ADDED_4_0_3 },
@@ -3076,6 +3085,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 43.3, 65.7, ELWYNN_FOREST },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(5, 5, 1),
+					["groups"] = {
+						i(253527, {	-- Goldshire Wardrobe (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(62, {	-- The Fargodeep Mine
 					["qg"] = 240,	-- Marshal Dughan

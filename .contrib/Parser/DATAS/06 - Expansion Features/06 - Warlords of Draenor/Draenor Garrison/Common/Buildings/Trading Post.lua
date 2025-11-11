@@ -188,7 +188,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 						["groups"] = bubbleDownClassicRep(FACTION_SHATARI_DEFENSE, {
 							{		-- Neutral
 							}, {	-- Friendly
+								i(245424, {	-- Draenic Storage Chest (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {
+										{ "g", 5000000 },	-- 500g
+										{ "c", 823, 1000 },	-- 1,000x Apexis Crystal
+									},
+								}),
 								i(118669),	-- Sha'tari Elixir
+								i(251544, {	-- Telredor Recliner (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {
+										{ "g", 5000000 },	-- 500g
+										{ "c", 823, 1000 },	-- 1,000x Apexis Crystal
+									},
+								}),
 							}, {	-- Honored
 								i(118685, {	-- Sha'tari Protector
 									["cost"] = 5000000,		-- 500g

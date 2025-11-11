@@ -4550,7 +4550,6 @@ root(ROOTS.Unsorted, {
 				i(245258),	-- Val'sharah Bookcase
 				i(245259),	-- Small Val'sharah Bookcase
 				i(245263),	-- Zocalo Drinks
-				i(245275),	-- Rolled Scroll
 				i(245283),	-- Blood Elven Candelabra
 				i(245285),	-- Reliquary Storage Crate
 				i(245286),	-- Rectangular Sin'dorei Rug
@@ -4570,7 +4569,6 @@ root(ROOTS.Unsorted, {
 				i(245413),	-- Zandalari Sconce
 				i(245417),	-- Akunda the Tapestry
 				i(245422),	-- Draenic Bookcase
-				i(245424),	-- Draenic Storage Chest
 				i(245425),	-- Hanging Draenethyst Light
 				i(245431),	-- Draenor Cookpot
 				i(245433),	-- Blackrock Strongbox
@@ -4687,17 +4685,10 @@ root(ROOTS.Unsorted, {
 				i(247919),	-- Traditional Shal'dorei Rug
 				i(248009),	-- Suramar Window
 				i(248116),	-- Valdrakken Chandelier
-				i(248334),	-- Stormwind Wooden Bench
-				i(248335),	-- Stormwind Wooden Stool
 				i(248401),	-- Ornamental Kaldorei Glaive
 				i(248622),	-- Wooden Outhouse
-				i(248660),	-- Stormwind Workbench
-				i(248661),	-- Northshire Scribe's Desk
 				i(248758),	-- Relaxing Goblin Beach Chair with Cup Gripper
-				i(248799),	-- Wooden Storage Crate
-				i(248800),	-- Architect's Drafting Table
 				i(248808),	-- Nesingwary Elk Trophy
-				i(248810),	-- Rough Wooden Chair
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
 				i(249545),	-- Preserver's Censer
 				i(249547),	-- Evoker's Elegant Rug
@@ -4708,7 +4699,6 @@ root(ROOTS.Unsorted, {
 				i(251477),	-- Draenic Wooden Table
 				i(251478),	-- Square Draenic Table
 				i(251480),	-- Draenic Wooden Wall Shelf
-				i(251544),	-- Telredor Recliner
 				i(251547),	-- Draenei Farmer's Trellis
 				i(251548),	-- Draenic Fence
 				i(251549),	-- Emblem of the Naaru's Blessing
@@ -4723,7 +4713,6 @@ root(ROOTS.Unsorted, {
 				i(253021),	-- Freywold Bench
 				i(253035),	-- Freywold Seat
 				i(253166),	-- Freywold Fountain
-				i(253527),	-- Goldshire Wardrobe
 				i(255641),	-- Undermine Mechanic's Hanging Lamp
 				i(255642),	-- Undermine Alleyway Sconce
 				i(255647),	-- Spring-Powered Pointer

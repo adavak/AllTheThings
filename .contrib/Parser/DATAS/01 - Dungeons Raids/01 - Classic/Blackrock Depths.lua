@@ -94,7 +94,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
-						i(256673, {["timeline"] = { ADDED_11_2_7 }}),	-- Stormwind Forge (DECOR!)
+						i(256673, {	-- Stormwind Forge (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(4264, {	-- A Crumpled Up Note
