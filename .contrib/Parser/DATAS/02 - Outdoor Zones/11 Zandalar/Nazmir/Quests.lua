@@ -451,12 +451,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 137113 },	-- Rokhan
 				["coord"] = { 51.8, 65.5, NAZMIR },
 				["races"] = HORDE_ONLY,
+				--	is this a breadcrumb?
 				["groups"] = {
 					i(245491, {	-- Bwonsamdi's Golden Gong (DECOR!)
 						["timeline"] = { ADDED_11_2_7 },
 					}),
 				},
-				--	is this a breadcrumb?
 			}),
 			q(47711, {	-- Head of the Viper
 				["sourceQuests"] = {
