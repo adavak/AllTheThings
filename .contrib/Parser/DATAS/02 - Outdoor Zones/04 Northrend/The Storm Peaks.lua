@@ -1637,6 +1637,20 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
+				n(TREASURES, {
+					o(193997, {	-- Everfrost Chip
+						["coords"] = {
+							{ 58.2, 62.0, THE_STORM_PEAKS },	-- Valley of Ancient Kings
+							{ 70.4, 59.8, THE_STORM_PEAKS },	-- Frostfield Lake
+						},
+						["description"] = "Everfrost Chip spawns can be hard to find due to their scarcity. They can spawn anywhere between Brunnhildar Village and Thunderfall.\n\nAlthough you can open these while being hated with The Sons of Hodir, you will NOT get any Everfrost Chips!",
+						["minReputation"] = { FACTION_THE_SONS_OF_HODIR, FRIENDLY },	-- The Sons of Hodir, Friendly. Propably? Does only provide grey powder when hated.
+						["groups"] = {
+							i(44724),	-- Everfrost Chip (for repeating quests)
+							i(44725),	-- Everfrost Chip (for initial quest)
+						},
+					}),
+				}),
 				n(VENDORS, {
 					n(30464, {	-- "Honest" Max <Slightly Used Flying Mounts>
 						["coord"] = { 40.6, 84.6, THE_STORM_PEAKS },
@@ -1809,8 +1823,6 @@ root(ROOTS.Zones, {
 							29792,	-- Frostfeather Screecher
 						},
 					}),
-					i(44724),	-- Everfrost Chip
-					i(44725),	-- Everfrost Chip
 					i(42780),	-- Relics of Ulduar
 					i(49050, {	-- Schematic: Jeeves (RECIPE!)
 						["crs"] = { 29724 },	-- Library Guardian
