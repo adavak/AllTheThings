@@ -45,18 +45,18 @@ link_beta_files() {
     if [[ ! -d "$1" ]]; then
         mkdir -p "$1/db/Retail"
         rsync -a --link-dest="$PWD/db/.beta/Categories/" "$PWD/db/.beta/Categories/" "$1/db/Retail/Categories"
-        rsync -a --link-dest="$PWD/db/.beta/Categories.xml" "$PWD/db/.beta/Categories.xml" "$1/db/Retail/Categories.xml"
-        rsync -a --link-dest="$PWD/db/.beta/LocalizationDB.lua" "$PWD/db/.beta/LocalizationDB.lua" "$1/db/Retail/LocalizationDB.lua"
-        rsync -a --link-dest="$PWD/db/.beta/ReferenceDB.lua" "$PWD/db/.beta/ReferenceDB.lua" "$1/db/Retail/ReferenceDB.lua"
+        rsync -a "$PWD/db/.beta/Categories.xml" "$1/db/Retail/Categories.xml"
+        rsync -a "$PWD/db/.beta/LocalizationDB.lua" "$1/db/Retail/LocalizationDB.lua"
+        rsync -a "$PWD/db/.beta/ReferenceDB.lua" "$1/db/Retail/ReferenceDB.lua"
 
         rsync -a --link-dest="$PWD/assets/" "$PWD/assets/" "$1/assets"
         rsync -a --link-dest="$PWD/lib/" "$PWD/lib/" "$1/lib"
         rsync -a --link-dest="$PWD/locales/" "$PWD/locales/" "$1/locales"
         rsync -a --link-dest="$PWD/src/" "$PWD/src/" "$1/src"
 
-        rsync -a --link-dest="$PWD/AllTheThings.lua" "$PWD/AllTheThings.lua" "$1/AllTheThings.lua"
-        rsync -a --link-dest="$PWD//AllTheThings_Mainline.toc" "$PWD//AllTheThings_Mainline.toc" "$1//AllTheThings_Mainline.toc"
-        rsync -a --link-dest="$PWD/Bindings.xml" "$PWD/Bindings.xml" "$1/Bindings.xml"
+        rsync -a "$PWD/AllTheThings.lua" "$1/AllTheThings.lua"
+        rsync -a "$PWD//AllTheThings_Mainline.toc" "$1//AllTheThings_Mainline.toc"
+        rsync -a "$PWD/Bindings.xml" "$1/Bindings.xml"
     fi
 }
 
@@ -75,18 +75,18 @@ link_ptr_files() {
     if [[ ! -d "$1" ]]; then
         mkdir -p "$1/db/Retail"
         rsync -a --link-dest="$PWD/db/.ptr/Categories/" "$PWD/db/.ptr/Categories/" "$1/db/Retail/Categories"
-        rsync -a --link-dest="$PWD/db/.ptr/Categories.lua" "$PWD/db/.ptr/Categories.lua" "$1/db/Retail/Categories.lua"
-        rsync -a --link-dest="$PWD/db/.ptr/LocalizationDB.lua" "$PWD/db/.ptr/LocalizationDB.lua" "$1/db/Retail/LocalizationDB.lua"
-        rsync -a --link-dest="$PWD/db/.ptr/ReferenceDB.lua" "$PWD/db/.ptr/ReferenceDB.lua" "$1/db/Retail/ReferenceDB.lua"
+        rsync -a "$PWD/db/.ptr/Categories.xml" "$1/db/Retail/Categories.xml"
+        rsync -a "$PWD/db/.ptr/LocalizationDB.lua" "$1/db/Retail/LocalizationDB.lua"
+        rsync -a "$PWD/db/.ptr/ReferenceDB.lua" "$1/db/Retail/ReferenceDB.lua"
 
         rsync -a --link-dest="$PWD/assets/" "$PWD/assets/" "$1/assets"
         rsync -a --link-dest="$PWD/lib/" "$PWD/lib/" "$1/lib"
         rsync -a --link-dest="$PWD/locales/" "$PWD/locales/" "$1/locales"
         rsync -a --link-dest="$PWD/src/" "$PWD/src/" "$1/src"
 
-        rsync -a --link-dest="$PWD/AllTheThings.lua" "$PWD/AllTheThings.lua" "$1/AllTheThings.lua"
-        rsync -a --link-dest="$PWD/AllTheThings_Mainline.toc" "$PWD/AllTheThings_Mainline.toc" "$1/AllTheThings_Mainline.toc"
-        rsync -a --link-dest="$PWD/Bindings.xml" "$PWD/Bindings.xml" "$1/Bindings.xml"
+        rsync -a "$PWD/AllTheThings.lua" "$1/AllTheThings.lua"
+        rsync -a "$PWD/AllTheThings_Mainline.toc" "$1/AllTheThings_Mainline.toc"
+        rsync -a "$PWD/Bindings.xml" "$1/Bindings.xml"
     fi
 }
 
