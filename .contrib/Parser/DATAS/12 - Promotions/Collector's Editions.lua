@@ -80,7 +80,7 @@ MOP_CLASSIC_HEROIC_PACK = createHeader({
 });
 MIDNIGHT_TEMPORARY = createHeader({
 	readable = "Midnight",
-	icon = [[~_.asset("Expansion_MD")]],
+	icon = [[~_.asset("Expansion_MN")]],
 	text = {
 		en = "Midnight",
 		-- es = "Midnight",
