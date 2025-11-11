@@ -497,6 +497,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					},
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = CAPITAL_GARDENS_MAPS,
+					-- #if BEFORE TBC
+					["races"] = HORDE_ONLY,
+					-- #endif
 					["classes"] = { SHAMAN },
 					["lvl"] = 54,
 					["groups"] = {
