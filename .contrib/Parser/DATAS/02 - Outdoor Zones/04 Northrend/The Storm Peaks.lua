@@ -642,6 +642,11 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 12858,	-- Pieces to the Puzzle
 						["qg"] = 29579,	-- Brann Bronzebeard
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(41179, {	-- The Inventor's Disk
+								["description"] = "Despite what the item text says, this can only be used on Databanks on Terrace of the Makers, downstairs from The Inventor's Library.",
+							}),
+						},
 					}),
 					q(12927, {	-- Data Mining (H)
 						["description"] = "Use Brann's Communicator to pick this quest up.",
