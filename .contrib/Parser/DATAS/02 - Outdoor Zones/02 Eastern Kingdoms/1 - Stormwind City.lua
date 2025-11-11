@@ -5104,7 +5104,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							i(248797, {	-- City Wanderer's Candleholder (DECOR!)
 								["sourceQuest"] = 26229,	-- "I TAKE Candle!"
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 500000 },	-- 50g
+								["cost"] = {{ "g", 500000 }},	-- 50g
 							}),
 							i(253168, {	-- Earthen Storage Crate (DECOR!)
 								["sourceQuest"] = 92572,	-- Furniture Favor
@@ -5112,36 +5112,36 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							}),
 							i(248794, {	-- Elwynn Fence (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 500000 },	-- 50g
+								["cost"] = {{ "g", 500000 }},	-- 50g
 							}),
 							i(248795, {	-- Elwynn Fencepost (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 950000 },	-- 95g
+								["cost"] = {{ "g", 950000 }},	-- 95g
 							}),
 							i(248938, {	-- Hooded Iron Lantern (DECOR!)
 								["sourceQuest"] = 60,	-- Kobold Candles
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 1900000 },	-- 190g
+								["cost"] = {{ "g", 1900000 }},	-- 190g
 							}),
 							i(248662, {	-- Jewelcrafter's Tent (DECOR!)
 								["sourceQuest"] = 543,	-- The Perenolde Tiara
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 5000000 },	-- 500g
+								["cost"] = {{ "g", 5000000 }},	-- 500g
 							}),
 							i(248798, {	-- Northshire Barrel (DECOR!)
 								["sourceQuest"] = 54,	-- Report to Goldshire
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 2550000 },	-- 255g
+								["cost"] = {{ "g", 2550000 }},	-- 255g
 							}),
 							i(248621, {	-- Stormwind Arched Trellis (DECOR!)
 								["sourceQuest"] = 26390,	-- Ending the Invasion!
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 3800000 },	-- 380g
+								["cost"] = {{ "g", 3800000 }},	-- 380g
 							}),
 							i(256673, {	-- Stormwind Forge (DECOR!)
 								["sourceQuest"] = 7604,	-- A Binding Contract
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 10000000 },	-- 1000g
+								["cost"] = {{ "g", 10000000 }},	-- 1000g
 							}),
 							i(45574, {	-- Stormwind Tabard
 								["timeline"] = { ADDED_3_1_0 },
@@ -5149,38 +5149,38 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							i(248801, {	-- Stormwind Weapon Rack (DECOR!)
 								["sourceQuest"] = 26297,	-- The Dawning of a New Day
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 1000000 },	-- 100g
+								["cost"] = {{ "g", 1000000 }},	-- 100g
 							}),
 							i(248336, {	-- Stormwind Wooden Table (DECOR!)
 								["sourceQuest"] = 59583,	-- Welcome to Stormwind
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 3800000 },	-- 380g
+								["cost"] = {{ "g", 3800000 }},	-- 380g
 							}),
 							i(248618, {	-- Westfall Woven Basket (DECOR!)
 								["sourceQuest"] = 26270,	-- You Have Our Thanks
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 2550000 },	-- 255g
+								["cost"] = {{ "g", 2550000 }},	-- 255g
 							}),
 						}, {	-- Honored
 							i(248939, {	-- Stormwind Lamppost (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 1300000 },	-- 130g
+								["cost"] = {{ "g", 1300000 }},	-- 130g
 							}),
 							i(248333, {	-- Stormwind Large Wooden Table (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 1300000 },	-- 130g
+								["cost"] = {{ "g", 1300000 }},	-- 130g
 							}),
 						}, {	-- Revered
 							i(248617, {	-- Stormwind Keg Stand (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 1900000 },	-- 190g
+								["cost"] = {{ "g", 1900000 }},	-- 190g
 							}),
 							i(67531, {	-- Stormwind Satchel
 								["timeline"] = { ADDED_4_0_3 },
 							}),
 							i(248620, {	-- Stormwind Trellis and Basin (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 1900000 },	-- 190g
+								["cost"] = {{ "g", 1900000 }},	-- 190g
 							}),
 						}, {	-- Exalted
 							i(64902, {	-- Cape of Stormwind
@@ -5194,11 +5194,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							}),
 							i(248619, {	-- Stormwind Gazebo (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 3150000 },	-- 315g
+								["cost"] = {{ "g", 3150000 }},	-- 315g
 							}),
 							i(248665, {	-- Stormwind Peddler's Cart (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { "g", 3150000 },	-- 315g
+								["cost"] = {{ "g", 3150000 }},	-- 315g
 							}),
 						},
 					}),
