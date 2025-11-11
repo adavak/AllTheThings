@@ -795,6 +795,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 57.3, 10.1, SILVERPINE_FOREST },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(245504, {	-- Lordaeron Fence (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(428, {	-- Lost Deathstalkers
 					["qg"] = 1952,	-- High Executor Hadrec

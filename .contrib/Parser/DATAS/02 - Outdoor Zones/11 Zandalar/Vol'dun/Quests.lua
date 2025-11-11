@@ -311,6 +311,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 130660 },	-- Warguard Rakera
 				["coord"] = { 53.6, 91.6, VOLDUN },	-- Temple of Akunda
 				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(245417, {	-- Akunda the Tapestry (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(47943, {	-- Crab Trapping
 				["sourceQuests"] = { 51772 },	-- The Tortaka Tribe
@@ -1651,6 +1656,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(155395),	-- Resilient Outcast's Gloves
 					i(155448),	-- Deserted Divining Rod
 					i(159975),	-- Scorched Plateau Defender
+					i(245263, {	-- Zocalo Drinks (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			q(48335, {	-- The Strongest Rope in Vol'dun

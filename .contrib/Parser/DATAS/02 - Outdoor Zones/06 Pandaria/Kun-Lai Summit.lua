@@ -1438,6 +1438,9 @@ root(ROOTS.Zones, {
 							i(82547),	-- Yak Herder Gauntlets
 							i(82548),	-- Summit Guardian Gauntlets
 							i(82549),	-- Wallwatcher Gauntlets
+							i(247739, {	-- Kun-Lai Lacquered Rickshaw (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 						},
 					}),
 					q(31452, {	-- The Missing Merchant (A)

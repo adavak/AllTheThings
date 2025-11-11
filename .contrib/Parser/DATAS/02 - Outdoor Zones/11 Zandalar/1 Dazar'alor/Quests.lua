@@ -769,12 +769,22 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 127489 },	-- Hexlord Raal
 				["coord"] = { 49.9, 33.5, DAZARALOR },
 				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(245486, {	-- Tired Troll's Bench (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(48897, {	-- The Bargain is Struck (Gonk)
 				["sourceQuests"] = { 47439 },	-- Gonk, Lord of the Pack
 				["provider"] = { "n", 127576 },	-- Wardruid Loti
 				["coord"] = { 50, 33.6, DAZARALOR },
 				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(245486, {	-- Tired Troll's Bench (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(47199, {	-- The Blood Gate
 				["sourceQuests"] = {

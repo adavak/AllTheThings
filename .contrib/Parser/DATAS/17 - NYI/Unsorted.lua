@@ -4532,8 +4532,6 @@ root(ROOTS.Unsorted, {
 				i(241043),	-- Elodor Barrel
 				i(241066),	-- Forsaken Spiked Brazier
 				i(241067),	-- Large Forsaken Spiked Brazier
-				i(243113),	-- Blue Dazar'alor Rug
-				i(243130),	-- Zandalari Weapon Rack
 				i(243335),	-- Tauren Bluff Rug
 				i(244313),	-- Orcish Fence
 				i(244315),	-- Orcish Warlord's Planning Table
@@ -4549,7 +4547,6 @@ root(ROOTS.Unsorted, {
 				i(244777),	-- Surwich Peddler's Wagon
 				i(245258),	-- Val'sharah Bookcase
 				i(245259),	-- Small Val'sharah Bookcase
-				i(245263),	-- Zocalo Drinks
 				i(245283),	-- Blood Elven Candelabra
 				i(245285),	-- Reliquary Storage Crate
 				i(245286),	-- Rectangular Sin'dorei Rug
@@ -4567,7 +4564,6 @@ root(ROOTS.Unsorted, {
 				i(245321),	-- Rust-Plated Storage Barrel
 				i(245333),	-- Shadowforge Wooden Box
 				i(245413),	-- Zandalari Sconce
-				i(245417),	-- Akunda the Tapestry
 				i(245422),	-- Draenic Bookcase
 				i(245425),	-- Hanging Draenethyst Light
 				i(245431),	-- Draenor Cookpot
@@ -4597,19 +4593,11 @@ root(ROOTS.Unsorted, {
 				i(245480),	-- Lordaeron Torch
 				i(245481),	-- Blightfire Torch
 				i(245482),	-- Undercity Spiked Chest
-				i(245485),	-- Golden Zandalari Bed
-				i(245486),	-- Tired Troll's Bench
 				i(245488),	-- Zandalari Rickshaw
-				i(245489),	-- Zuldazar Stool
-				i(245491),	-- Bwonsamdi's Golden Gong
-				i(245493),	-- Idol of Rezan, Loa of Kings
 				i(245495),	-- Dazar'alor Market Tent
 				i(245500),	-- Red Dazar'alor Tent
 				i(245501),	-- Venthyr Tome of Unforgiven Sins
-				i(245504),	-- Lordaeron Fence
-				i(245505),	-- Lordaeron Fencepost
 				i(245512),	-- Pandaren Cradle Stool
-				i(245521),	-- Stone Zandalari Lamp
 				i(245558),	-- Elaborate Suramar Window
 				i(245615),	-- Bradensbrook Smoke Lantern
 				i(245616),	-- Bradensbrook Thorned Well
@@ -4630,7 +4618,6 @@ root(ROOTS.Unsorted, {
 				i(246409),	-- Shadowforge Grinding Wheel
 				i(246411),	-- Ironforge Bookcase
 				i(246412),	-- Small Ironforge Bookcase
-				i(246422),	-- Thelsamar Hanging Lantern
 				i(246424),	-- Square Stormpike Table
 				i(246425),	-- Round Dwarven Table
 				i(246427),	-- Dilapidated Wildhammer Well
@@ -4686,7 +4673,6 @@ root(ROOTS.Unsorted, {
 				i(248009),	-- Suramar Window
 				i(248116),	-- Valdrakken Chandelier
 				i(248401),	-- Ornamental Kaldorei Glaive
-				i(248622),	-- Wooden Outhouse
 				i(248758),	-- Relaxing Goblin Beach Chair with Cup Gripper
 				i(248808),	-- Nesingwary Elk Trophy
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
@@ -4725,11 +4711,9 @@ root(ROOTS.Unsorted, {
 				i(256331),	-- Shadowforge Lamppost
 				i(256903),	-- Gilnean Banded Crate
 				i(256905),	-- Small Gilnean Table
-				i(256919),	-- Zandalari War Chandelier
 				i(257349),	-- Naaru Crystal Icon
 				i(257352),	-- Large Brazier of Elune
 				i(257394),	-- Zandalari War Torch
-				i(257399),	-- Zandalari War Brazier
 				i(257405),	-- Baradin Bay Fishing Rack
 				i(257412),	-- Stoppered Gilnean Barrel
 				i(257598),	-- Suramar Stepping Stone Set

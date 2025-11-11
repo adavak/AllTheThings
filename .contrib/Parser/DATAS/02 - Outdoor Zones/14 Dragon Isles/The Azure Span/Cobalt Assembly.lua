@@ -45,7 +45,9 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 45.9, 25.9, THE_AZURE_SPAN },
 					["groups"] = {
 						i(200628),	-- Somewhat-Stabilized Arcana (TOY!)
-						i(248653, {["timeline"] = { ADDED_11_2_7 }}),	-- Valdrakken Stone Stool (DECOR!)
+						i(248653, {	-- Valdrakken Stone Stool (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
 					},
 				}),
 				q(72784, {	-- Supporting the Cobalt Assembly

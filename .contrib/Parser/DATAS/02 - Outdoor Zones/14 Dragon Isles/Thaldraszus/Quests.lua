@@ -912,7 +912,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["sourceQuests"] = { 70744 },	-- Look at the Bones!
 					["provider"] = { "n", 196160 },	-- Quilius
 					["coord"] = { 40.5, 48.9, THALDRASZUS },
-					["groups"] = { i(256429, {["timeline"] = { ADDED_11_2_7 }}),},	-- Valdrakken Lamppost (DECOR!)
+					["groups"] = {
+						i(256429, {	-- Valdrakken Lamppost (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 			}),
 			header(HEADERS.AchCriteria, 16398.08, {	-- Misty Vale

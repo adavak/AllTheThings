@@ -451,6 +451,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 137113 },	-- Rokhan
 				["coord"] = { 51.8, 65.5, NAZMIR },
 				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(245491, {	-- Bwonsamdi's Golden Gong (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 				--	is this a breadcrumb?
 			}),
 			q(47711, {	-- Head of the Viper
@@ -1509,6 +1514,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 122766 },	-- Bwonsamdi
 				["coord"] = { 39.5, 30.0, NAZMIR },
 				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(245489, {	-- Zuldazar Stool (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(51244, {	-- What Rots Beneath
 				["sourceQuests"] = { 50087 },	-- Ateena's Fall

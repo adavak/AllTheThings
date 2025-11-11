@@ -1453,7 +1453,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["sourceQuests"] = { 75023 },	-- Memories of Sindragosa and Malygos
 					["provider"] = { "n", 200447 },	-- Senegos
 					["coord"] = { 67.1, 11.8, THALDRASZUS },
-					["groups"] = { i(248651, {["timeline"] = { ADDED_11_2_7 }}),},	-- Draconic Memorial Stone (DECOR!)
+					["groups"] = {
+						i(248651, {	-- Draconic Memorial Stone (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(72936, {	-- Azuregos's Support
 					["sourceQuests"] = { 72935 },	-- Archives Return
@@ -1856,7 +1860,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						["groups"] = {
 							ach(17773, {	-- A Blue Dawn
 								["timeline"] = { ADDED_10_1_7 },
-								["groups"] = { i(248104, {["timeline"] = { ADDED_11_2_7 }}),},	-- Pentagonal Stone Table (DECOR!)
+								["groups"] = {
+									i(248104, {	-- Pentagonal Stone Table (DECOR!)
+										["timeline"] = { ADDED_11_2_7 },
+									}),
+								},
 							}),
 							iensemble(205958),	-- Ensemble: Azure Renewal Finery
 							i(205908, {	-- Inherited Wisdom of Senegos (TOY!)

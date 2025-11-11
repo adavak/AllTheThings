@@ -1105,7 +1105,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 129757 },	-- King Rastakhan
 				["coord"] = { 42.7, 37.7, ZULDAZAR },
 				["races"] = HORDE_ONLY,
-			--	possibly a breadcrumb?
+				["groups"] = {
+					i(245485, {	-- Golden Zandalari Bed (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
+				-- possibly a breadcrumb?
 			}),
 			q(55506, {	-- One Road Ends
 				["sourceQuests"] = { 55503 },	-- The Direhorn and the Saurid
@@ -1695,6 +1700,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 124655 },	-- King Rastakhan
 				["coord"] = { 74.9, 24.9, ZULDAZAR },
 				["races"] = HORDE_ONLY,
+				["groups"] = {
+					i(245493, {	-- Idol of Rezan, Loa of Kings (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(53776, {	-- To the Broken Shore
 				["sourceQuests"] = { 53775 },	-- Shades of Disruption

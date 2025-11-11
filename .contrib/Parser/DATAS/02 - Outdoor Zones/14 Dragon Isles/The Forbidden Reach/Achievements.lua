@@ -47,7 +47,9 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 			}),
 			ach(17534),	-- Explore the Forbidden Reach
 			ach(17529, {	-- Forbidden Spoils
-				i(248656, {["timeline"] = { ADDED_11_2_7 }}),	-- Dragon's Hoard Chest (DECOR!)
+				i(248656, {	-- Dragon's Hoard Chest (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			}),
 			petbattle(ach(17541, {	-- Global Swarming
 				["sym"] = {{ "achievement_criteria" }},

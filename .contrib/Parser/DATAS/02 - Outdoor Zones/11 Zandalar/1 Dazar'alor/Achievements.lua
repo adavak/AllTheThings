@@ -42,7 +42,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					crit(40624, {	-- Boon of Krag'wa
 						["sourceQuests"] = { 47696 },	-- Krag'wa the Terrible
 					}),
-					i(245497, {["timeline"] = { ADDED_11_2_7 }}),	-- Golden Loa's Altar (DECOR!)
+					i(245497, {	-- Golden Loa's Altar (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				},
 			}),
 			ach(13039, {	-- Paku'ai
@@ -67,13 +69,21 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					{ 65.3, 33.9, ZULDAZAR },
 				},
 				["races"] = HORDE_ONLY,
-				["groups"] = { i(245494, {["timeline"] = { ADDED_11_2_7 }}),},	-- Idol of Pa'ku, Master of Winds (DECOR!)
+				["groups"] = {
+					i(245494, {	-- Idol of Pa'ku, Master of Winds (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			ach(13038, {	-- Raptari Rider
 				["description"] = "You can get this achievement easily by running between the two totems at the coordinates provided.\n\nRequires alignment with Gonk. You can switch loa by speaking to Chronicler Ash'tari in Dazar'alor (50.7, 35.2).\n",
 				["coord"] = { 49.9, 33.3, DAZARALOR },
 				["races"] = HORDE_ONLY,
-				["groups"] = { i(245487, {["timeline"] = { ADDED_11_2_7 }}),},	-- Bookcase of Gonk (DECOR!)
+				["groups"] = {
+					i(245487, {	-- Bookcase of Gonk (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			ach(12555, {	-- Welcome to Zandalar
 				["sourceQuests"] = { 52131 },	-- We Need Each Other

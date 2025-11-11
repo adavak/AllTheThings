@@ -64,7 +64,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							i(199648),	-- Dragon Dinner Fork
 							i(200750),	-- Dragon Dinner Knife
 							i(199649),	-- Dragon Tea Set (TOY!)
-							i(248655, {["timeline"] = { ADDED_11_2_7 }}),	-- Elegant Dracthyr's Tea Set (DECOR!)
+							i(248655, {	-- Elegant Dracthyr's Tea Set (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 							i(200753),	-- Simple Gold Dragon Goblet
 							i(200751),	-- Simple Silver Dragon Goblet
 						},

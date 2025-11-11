@@ -680,6 +680,93 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(163569),	-- Insulated Wiring
 				},
 			}),
+			n(252326, {	-- T'lama <Decor Specialist>
+				["coord"] = { 36.6, 60.1, HALL_OF_CHRONICLERS },
+				["timeline"] = { ADDED_11_2_7 },
+				["races"] = HORDE_ONLY,
+				["groups"] = bubbleDownClassicRep(FACTION_ZANDALARI_EMPIRE, {
+					{		-- Neutral
+						i(245417, {	-- Akunda the Tapestry (DECOR!)
+							["sourceQuest"] = 47874,	-- Clearing the Fog
+							["cost"] = {{ "c", 1560, 400 }},	-- 400x War Resources
+						}),
+						i(245487, {	-- Bookcase of Gonk (DECOR!)
+							["sourceAchievement"] = 13038,	-- Raptari Rider
+							["cost"] = {{ "c", 1560, 500 }},	-- 500x War Resources
+						}),
+						i(245491, {	-- Bwonsamdi's Golden Gong (DECOR!)
+							["sourceQuest"] = 50808,	-- Halting the Empire's Fall
+							["cost"] = {{ "c", 1560, 600 }},	-- 600x War Resources
+						}),
+						i(245490, {	-- Dazar'alor Forge (DECOR!)
+							["sourceAchievement"] = 12733,	-- Professional Zandalari Master
+							["cost"] = {{ "c", 1560, 600 }},	-- 600x War Resources
+						}),
+						i(245497, {	-- Golden Loa's Altar (DECOR!)
+							["sourceAchievement"] = 12614,	-- Loa Expectations
+							["cost"] = {{ "c", 1560, 500 }},	-- 500x War Resources
+						}),
+						i(245485, {	-- Golden Zandalari Bed (DECOR!)
+							["sourceQuest"] = 50963,	-- Of Dark Deeds and Dark Days
+							["cost"] = {{ "c", 1560, 1000 }},	-- 1,000x War Resources
+						}),
+						i(245522, {	-- Grand Mask of Bwonsamdi, Loa of Graves (DECOR!)
+							["sourceAchievement"] = 12479,	-- Zandalar Forever!
+							["cost"] = {{ "c", 1560, 1200 }},	-- 1,200x War Resources
+						}),
+						i(245494, {	-- Idol of Pa'ku, Master of Winds (DECOR!)
+							["sourceAchievement"] = 13039,	-- Paku'ai
+							["cost"] = {{ "c", 1560, 200 }},	-- 200x War Resources
+						}),
+						i(245493, {	-- Idol of Rezan, Loa of Kings (DECOR!)
+							["sourceQuest"] = 47741,	-- To Sacrifice a Loa
+							["cost"] = {{ "c", 1560, 200 }},	-- 200x War Resources
+						}),
+						i(245486, {	-- Tired Troll's Bench (DECOR!)
+							["sourceQuests"] = {
+								47432,	-- The Bargain is Struck (Paku)
+								48897,	-- The Bargain is Struck (Gonk)
+							},
+							["cost"] = {{ "c", 1560, 150 }},	-- 150x War Resources
+						}),
+						i(244326, {	-- Zandalari Wall Shelf (DECOR!)
+							["sourceAchievement"] = 13018,	-- Dune Rider
+							["cost"] = {{ "c", 1560, 150 }},	-- 150x War Resources
+						}),
+						i(245263, {	-- Zocalo Drinks (DECOR!)
+							["sourceQuest"] = 48554,	-- The Source of the Problem
+							["cost"] = {{ "c", 1560, 150 }},	-- 150x War Resources
+						}),
+						i(244325, {	-- Zuldazar Cook's Griddle (DECOR!)
+							["sourceAchievement"] = 12746,	-- The Zandalari Menu
+							["cost"] = {{ "c", 1560, 400 }},	-- 400x War Resources
+						}),
+						i(245489, {	-- Zuldazar Stool (DECOR!)
+							["sourceQuest"] = 47250,	-- We'll Meet Again
+							["cost"] = {{ "c", 1560, 150 }},	-- 150x War Resources
+						}),
+					}, {	-- Friendly
+						i(245521, {	-- Stone Zandalari Lamp (DECOR!)
+							["cost"] = {{ "c", 1560, 100 }},	-- 100x War Resources
+						}),
+					}, {	-- Honored
+						i(243113, {	-- Blue Dazar'alor Rug (DECOR!)
+							["cost"] = {{ "c", 1560, 150 }},	-- 150x War Resources
+						}),
+						i(243130, {	-- Zandalari Weapon Rack (DECOR!)
+							["cost"] = {{ "c", 1560, 300 }},	-- 300x War Resources
+						}),
+					}, {	-- Revered
+						i(257399, {	-- Zandalari War Brazier (DECOR!)
+							["cost"] = {{ "c", 1560, 300 }},	-- 300x War Resources
+						}),
+						i(256919, {	-- Zandalari War Chandelier (DECOR!)
+							["cost"] = {{ "c", 1560, 300 }},	-- 300x War Resources
+						}),
+					}, {	-- Exalted
+					},
+				}),
+			}),
 			n(125879, {	-- Talutu <Mount Vendor>
 				["coord"] = { 48.5, 87.0, DAZARALOR },
 				["groups"] = {

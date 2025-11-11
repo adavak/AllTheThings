@@ -392,6 +392,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 34.7, 49.1, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(246422, {	-- Thelsamar Hanging Lantern (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					},
 				}),
 				q(2500, {	-- Badlands Reagent Run
 					["qg"] = 1470,	-- Ghak Healtouch
@@ -2056,6 +2061,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(6892),	-- Recipe: Smoked Bear Meat (RECIPE!)
+						i(246422, {	-- Thelsamar Hanging Lantern (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "g", 2850000 }},	-- 285g
+						}),
 					},
 				}),
 				n(1686, {	-- Irene Sureshot <Gunsmith>

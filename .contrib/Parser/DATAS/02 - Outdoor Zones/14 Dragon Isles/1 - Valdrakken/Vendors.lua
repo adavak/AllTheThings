@@ -721,7 +721,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						["cost"] = {{ "c", DRAGON_SUPPLIES, 200 }},
 					}),
 					i(248104, {	-- Pentagonal Stone Table (DECOR!)
-						--["sourceQuest"] = ?????,	--
+						["sourceAchievement"] = 17773,	-- A Blue Dawn
 						["cost"] = {{ "c", DRAGON_SUPPLIES, 150 }},
 					}),
 					i(247223, {	-- Roast Riverbeast Platter (DECOR!)

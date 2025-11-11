@@ -43,7 +43,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					{ 32.2, 69.0, VOLDUN },
 					{ 54.9, 21.4, VOLDUN },
 				},
-				["groups"] = { i(244326, {["timeline"] = { ADDED_11_2_7 }}),},	-- Zandalari Wall Shelf (DECOR!)
+				["groups"] = {
+					i(244326, {	-- Zandalari Wall Shelf (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			ach(41204, {	-- Dune Squad
 				["timeline"] = { ADDED_11_0_7 },

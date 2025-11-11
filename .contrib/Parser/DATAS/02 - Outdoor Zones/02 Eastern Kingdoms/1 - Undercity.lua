@@ -1526,27 +1526,37 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(45583, {	-- Undercity Tabard
-							["timeline"] = { ADDED_3_1_0 },
-						}),
-						i(64921, {	-- Cape of Undercity
-							["minReputation"] = { FACTION_UNDERCITY, EXALTED },	-- Undercity, Exalted.
-							["timeline"] = { ADDED_4_0_1 },
-						}),
-						i(64922, {	-- Mantle of Undercity
-							["minReputation"] = { FACTION_UNDERCITY, EXALTED },	-- Undercity, Exalted.
-							["timeline"] = { ADDED_4_0_1 },
-						}),
-						i(64920, {	-- Shroud of Undercity
-							["minReputation"] = { FACTION_UNDERCITY, EXALTED },	-- Undercity, Exalted.
-							["timeline"] = { ADDED_4_0_1 },
-						}),
-						i(67529, {	-- Undercity Satchel
-							["minReputation"] = { FACTION_UNDERCITY, REVERED },	-- Undercity, Revered.
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-					},
+					["groups"] = bubbleDownClassicRep(FACTION_UNDERCITY, {
+						{		-- Neutral
+							i(245504, {	-- Lordaeron Fence (DECOR!)
+								["sourceQuest"] = 27098,	-- Lordaeron
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+							i(245505, {	-- Lordaeron Fencepost (DECOR!)
+								["sourceQuest"] = 27098,	-- Lordaeron
+								["timeline"] = { ADDED_11_2_7 },
+							}),
+							i(45583, {	-- Undercity Tabard
+								["timeline"] = { ADDED_3_1_0 },
+							}),
+						}, {	-- Friendly
+						}, {	-- Honored
+						}, {	-- Revered
+							i(67529, {	-- Undercity Satchel
+								["timeline"] = { ADDED_4_0_3 },
+							}),
+						}, {	-- Exalted
+							i(64921, {	-- Cape of Undercity
+								["timeline"] = { ADDED_4_0_1 },
+							}),
+							i(64922, {	-- Mantle of Undercity
+								["timeline"] = { ADDED_4_0_1 },
+							}),
+							i(64920, {	-- Shroud of Undercity
+								["timeline"] = { ADDED_4_0_1 },
+							}),
+						},
+					}),
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				n(5675, {	-- Carendin Halgar
