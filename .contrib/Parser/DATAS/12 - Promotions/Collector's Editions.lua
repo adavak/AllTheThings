@@ -58,6 +58,7 @@ WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
 		tw = "巫妖王之怒：經典版 - 北裂境升級",
 	},
 });
+-- #NOTE: No longer available on the store since 25 September 2025.
 CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
 	readable = "Cata Classic Blazing Upgrade",
 	icon = [[~_.asset("Expansion_CATA")]],
@@ -495,7 +496,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		}),
 	})),
 	-- #else
-	n(CATA_CLASSIC_BLAZING_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
+	n(CATA_CLASSIC_BLAZING_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0, REMOVED_11_2_0} }, {
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Blazing Heroic Edition.",
 			["groups"] = {
