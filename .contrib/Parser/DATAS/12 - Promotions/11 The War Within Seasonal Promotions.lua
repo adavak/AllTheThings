@@ -241,7 +241,11 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_0_7, "removed 11.1.0.59425" },	-- Removed February 27th, 2025
 			})),
 			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
+				-- #if AFTER 11.0.2
+				-- #if BEFORE 12.0.0
 				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop for a limited time.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_11_0_7,  "removed 11.1.0.59425" },	-- Removed February 27th, 2025
 				["groups"] = {
 					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
@@ -305,11 +309,13 @@ root(ROOTS.Promotions, {
 			})),
 			i(232307, {	-- Astral Champion's Prestigious Banner (TOY!)(PVP)
 				["description"] = "Arena World Championship: TWW Season 3\n\nSign up on Raider.io for any of the 3 Cups, available until October 22nd 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments",
-				["timeline"] = { ADDED_11_2_0, "removed 11.2.5.64154" },	-- Removed after 11.2.5 Release
+				["timeline"] = { ADDED_11_2_0, "removed 11.2.5.64154" },	-- Removed AFTER 11.2.5 Release
 			}),
 			i(232303, {	-- Unbound Banner of the Algari (TOY!)(PVE)
-				["description"] = "Mythic Dungeon International: TWW Season 3\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",
-				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_5 },	-- Removed before 11.2.5 Release
+				-- #if BEFORE 11.2.5
+				["description"] = "Mythic Dungeon International: TWW Season 3\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\n\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. \nFor more details & requirements check out: Raider.io/tournaments",
+				-- #endif
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_5 },	-- Removed BEFORE 11.2.5 Release
 			}),
 			i(246343, {	-- Scruffyhorn Fel Snooter (PET!)
 				["description"] = "Included for free with any purchase over $75 from the World of Warcraft Collection on the Blizzard Gear Store. Available from September 8-30, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
@@ -334,10 +340,16 @@ root(ROOTS.Promotions, {
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 11th, 10:00 a.m. & December 2nd, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_11_2_5, REMOVED_11_2_7 },	-- Removed December 2nd, 2025
 			}),
+			i(232303, {	-- Unbound Banner of the Algari (TOY!)(PVE)
+				["description"] = "Break the Meta: TWW Season 3\n\nBreak the Meta is focused on teams pushing keys as high as they can with off-meta specs and classes.\n\nComplete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +8|r or higher will receive an exclusive Toy to use in-game!.\n\nThe Event starts on Nov 18th for US, Nov 19th for EU & Nov 20th for CN/KR/TW & lasts for 1 week.\nFor more details & requirements check out: Raider.io/events/break-the-meta-the-war-within-season-3/",
+				["timeline"] = { ADDED_11_2_5 },
+			--	["u"] = REMOVED_FROM_GAME,	-- 27th November 2025
+			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
 		--	PVE	["description"] = "Mythic Dungeon International: TWW Season 3\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive an exclusive Toy to use in-game!\nSign-ups close 30th September 2025 3PM PDT and The Time Trials are on 1st October 1PM PDT - 6th October (US) 3PM PDT. For more details & requirements check out: Raider.io/tournaments",
 		--	PVP	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements check out: Raider.io/tournaments",
+		--	BtM ["description"] = "Break the Meta: TWW Season 3\n\nBreak the Meta is focused on teams pushing keys as high as they can with off-meta specs and classes.\n\nComplete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +8|r or higher will receive an exclusive Toy to use in-game!.\n\nThe Event starts on Nov 18th for US, Nov 19th for EU & Nov 20th for CN/KR/TW & lasts for 1 week.\nFor more details & requirements check out: Raider.io/events/break-the-meta-the-war-within-season-3/",			
 		--		["timeline"] = { ADDED_11_0_2 },
 		--		["icon"] = 4731630,
 		--		["name"] = "Tempered Banner of the Algari (TOY!)(PVE)"
