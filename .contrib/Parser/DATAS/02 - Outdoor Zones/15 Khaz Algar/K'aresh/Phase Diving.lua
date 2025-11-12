@@ -51,6 +51,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						{ 62.6, 41.6, KARESH },
 						{ 64.9, 52.2, KARESH },
 						{ 64.9, 55.0, KARESH },
+						{ 66.0, 48.8, KARESH },
 						{ 69.7, 55.3, KARESH },
 						{ 70.3, 32.0, KARESH },
 						{ 74.0, 57.5, KARESH },
