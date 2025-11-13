@@ -733,7 +733,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(79774, {	-- Sergeant Grimjaw <Garrison Quartermaster> LVL3
 					["races"] = HORDE_ONLY,
-					["crs"] = { 88228 },	-- LVL1 and LVL2 Quartermaster
+					["cr"] = 88228,	-- LVL1 and LVL2 Quartermaster
 					["groups"] = {
 						i(120348, {	-- Enchanted Crystal of Freezing
 							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},

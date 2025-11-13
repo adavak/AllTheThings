@@ -254,6 +254,117 @@ root(ROOTS.Zones, {
 								}),
 							},
 						}),
+						--[[ Exo Note: This will be uncommented when I finish Domelius. Just wanted this to be available.
+						n(105333, {	-- Val'zuun
+							["coord"] = { 67.4, 63.1, LEGION_THE_UNDERBELLY },
+							["groups"] = sharedData({
+								["timeline"] = { ADDED_12_0_0 },
+							}, {
+								i(250693, {	-- Altar of the Corrupted Flames (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 18000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+								i(250406, {	-- Corruption Pit (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 18000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+								i(252753, {	-- Demonic Storage Chest (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250690, {	-- Eredar Lord’s Fel Torch (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(251779, {	-- Fel Fountain (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 18000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+								i(258299, {	-- Hanging Felsteel Cage (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 12000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+								i(250404, {	-- Hanging Felsteel Chain (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(256677, {	-- Large Legion Candle (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250407, {	-- Legion’s Fel Brazier (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250405, {	-- Legion’s Fel Torch (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250403, {	-- Legion’s Holo-Communicator (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 18000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+								i(250689, {	-- Legion Torture Rack (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 6000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(251778, {	-- Sentinel’s Moonwing Gaze (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 18000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+								i(256678, {	-- Small Legion Candle (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 1500 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250307, {	-- Tome of the Corrupt (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 6000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250622, {	-- Vertical Felsteel Chain (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 3000 },
+										{ "c", VEILED_ARGUNITE,   50 },
+									},
+								}),
+								i(250402, {	-- Vrykul Lord’s Throne (DECOR!)
+									["cost"] = {
+										{ "c", ORDER_RESOURCES, 18000 },
+										{ "c", VEILED_ARGUNITE,    50 },
+									},
+								}),
+							}),
+						}),
+						--]]
 					}),
 					n(ZONE_DROPS, {
 						i(139572, {	-- Lost Codex of the Amani
