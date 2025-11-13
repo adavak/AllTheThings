@@ -74,7 +74,7 @@ root(ROOTS.ExpansionFeatures,
 				n(BOSSES, {
 					n(90802, {	-- Annihilon
 						["description"] = "Void Prison summons this boss. It has a chance to be obtained during a Shadowmoon Invasion.",
-						["cost"] = { { "i", 122475, 1 } },	-- 1x Void Prison
+						["cost"] = {{ "i", 122475, 1 }},	-- 1x Void Prison
 						["sym"] = {
 							{ "select", "itemID", 122163, },	-- Select 'Routed Invader's Crate of Spoils'  (Platinum Rewards)
 							{ "pop" },							-- pop the Item container
@@ -82,7 +82,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(90841, {	-- Commander Dro'gan
 						["description"] = "Bloodied Iron Horde Banner summons this boss. It has a chance to be obtained during an Iron Horde Invasion.",
-						["cost"] = { { "i", 122472, 1 } },	-- 1x Bloodied Iron Horde Banner
+						["cost"] = {{ "i", 122472, 1 }},	-- 1x Bloodied Iron Horde Banner
 						["sym"] = {
 							{ "select", "itemID", 122163, },	-- Select 'Routed Invader's Crate of Spoils'  (Platinum Rewards)
 							{ "pop" },							-- pop the Item container
@@ -90,7 +90,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(90943, {	-- Gaur
 						["description"] = "Runed Greatstone summons this boss. It has a chance to be obtained during a Goren Invasion.",
-						["cost"] = { { "i", 122468, 1 } },	-- 1x Runed Greatstone
+						["cost"] = {{ "i", 122468, 1 }},	-- 1x Runed Greatstone
 						["sym"] = {
 							{ "select", "itemID", 122163, },	-- Select 'Routed Invader's Crate of Spoils'  (Platinum Rewards)
 							{ "pop" },							-- pop the Item container
@@ -98,7 +98,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(91012, {	-- Lady Fleshear
 						["description"] = "Legion Beacon summons this boss. It has a chance to be obtained during a Shadow Council Invasion.",
-						["cost"] = { { "i", 122473, 1 } },	-- 1x Legion Beacon
+						["cost"] = {{ "i", 122473, 1 }},	-- 1x Legion Beacon
 						["sym"] = {
 							{ "select", "itemID", 122163, },	-- Select 'Routed Invader's Crate of Spoils'  (Platinum Rewards)
 							{ "pop" },							-- pop the Item container
@@ -106,7 +106,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(90995, {	-- Mage Lord Gogg'nathog
 						["description"] = "Arcane Highmaul Relic summons this boss. It has a chance to be obtained during an Ogre Invasion.",
-						["cost"] = { { "i", 122474, 1 } },	-- 1x Arcane Highmaul Relic
+						["cost"] = {{ "i", 122474, 1 }},	-- 1x Arcane Highmaul Relic
 						["sym"] = {
 							{ "select", "itemID", 122163, },	-- Select 'Routed Invader's Crate of Spoils'  (Platinum Rewards)
 							{ "pop" },							-- pop the Item container
@@ -114,7 +114,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(90946, {	-- Teluur
 						["description"] = "Heart of Oak summons this boss. It has a chance to be obtained during a Botani Invasion.",
-						["cost"] = { { "i", 122466, 1 } },	-- 1x Heart of Oak
+						["cost"] = {{ "i", 122466, 1 }},	-- 1x Heart of Oak
 						["sym"] = {
 							{ "select", "itemID", 122163, },	-- Select 'Routed Invader's Crate of Spoils'  (Platinum Rewards)
 							{ "pop" },							-- pop the Item container
@@ -123,84 +123,84 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(QUESTS, {
 					q(36171, {	-- Botani Invasion!
-						["provider"] = { "n", 78564 },	-- Sergeant Crowler
+						["qg"] = 78564,	-- Sergeant Crowler
 						["coord"] = { 38.2, 32.0, LUNARFALL },
 						["races"] = ALLIANCE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36653, {	-- Botani Invasion!
-						["provider"] = { "n", 79774 },	-- Sergeant Grimjaw
+						["qg"] = 79774,	-- Sergeant Grimjaw
 						["coord"] = { 44.1, 47.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36376, {	-- Goren Invasion!
-						["provider"] = { "n", 78564 },	-- Sergeant Crowler
+						["qg"] = 78564,	-- Sergeant Crowler
 						["coord"] = { 38.2, 32.0, LUNARFALL },
 						["races"] = ALLIANCE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(35142, {	-- Goren Invasion!
-						["provider"] = { "n", 79774 },	-- Sergeant Grimjaw
+						["qg"] = 79774,	-- Sergeant Grimjaw
 						["coord"] = { 44.1, 47.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36655, {	-- Iron Horde Invasion!
-						["provider"] = { "n", 78564 },	-- Sergeant Crowler
+						["qg"] = 78564,	-- Sergeant Crowler
 						["coord"] = { 38.2, 32.0, LUNARFALL },
 						["races"] = ALLIANCE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(35935, {	-- Iron Horde Invasion!
-						["provider"] = { "n", 79774 },	-- Sergeant Grimjaw
+						["qg"] = 79774,	-- Sergeant Grimjaw
 						["coord"] = { 44.1, 47.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36650, {	-- Ogre Invasion!
-						["provider"] = { "n", 78564 },	-- Sergeant Crowler
+						["qg"] = 78564,	-- Sergeant Crowler
 						["coord"] = { 38.2, 32.0, LUNARFALL },
 						["races"] = ALLIANCE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36623, {	-- Ogre Invasion!
-						["provider"] = { "n", 79774 },	-- Sergeant Grimjaw
+						["qg"] = 79774,	-- Sergeant Grimjaw
 						["coord"] = { 44.1, 47.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36830, {	-- Shadow Council Invasion!
-						["provider"] = { "n", 78564 },	-- Sergeant Crowler
+						["qg"] = 78564,	-- Sergeant Crowler
 						["coord"] = { 38.2, 32.0, LUNARFALL },
 						["races"] = ALLIANCE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36831, {	-- Shadow Council Invasion!
-						["provider"] = { "n", 79774 },	-- Sergeant Grimjaw
+						["qg"] = 79774,	-- Sergeant Grimjaw
 						["coord"] = { 44.1, 47.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36412, {	-- Shadowmoon Invasion!
-						["provider"] = { "n", 78564 },	-- Sergeant Crowler
+						["qg"] = 78564,	-- Sergeant Crowler
 						["coord"] = { 38.2, 32.0, LUNARFALL },
 						["races"] = ALLIANCE_ONLY,
 						["repeatable"] = true,
 						["lvl"] = 100,
 					}),
 					q(36414, {	-- Shadowmoon Invasion!
-						["provider"] = { "n", 79774 },	-- Sergeant Grimjaw
+						["qg"] = 79774,	-- Sergeant Grimjaw
 						["coord"] = { 44.1, 47.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["repeatable"] = true,
@@ -209,9 +209,9 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(EVENT_COMPLETION, {
 					i(120320, {	-- Invader's Abandoned Sack
+						["description"] = "Bronze Challenge",
 						["questID"] = 37638,
 						["isWeekly"] = true,
-						["description"] = "Bronze Challenge",
 						["groups"] = {
 							i(115418),	-- Blood Gutter Greatsword
 							i(115417),	-- Chadrik's Lost Axe
@@ -236,18 +236,18 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					i(120319, {	-- Invader's Damaged Cache
+						["description"] = "Silver Challenge",
 						["questID"] = 37639,
 						["isWeekly"] = true,
-						["description"] = "Silver Challenge",
 						["sym"] = {
 							{ "select", "itemID", 120320 },	-- Select Invader's Abandoned Sack (Bronze Rewards)
 							{ "pop" },						-- pop the Item container
 						},
 					}),
 					i(116980, {	-- Invader's Forgotten Treasure
+						["description"] = "Gold Challenge",
 						["questID"] = 37640,
 						["isWeekly"] = true,
-						["description"] = "Gold Challenge",
 						["sym"] = {
 							{ "select", "itemID", 120320 },	-- Select Invader's Abandoned Sack (Bronze Rewards)
 							{ "pop" },						-- pop the Item container
@@ -260,9 +260,9 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					i(122163, {	-- Routed Invader's Crate of Spoils
+						["description"] = "Platinum Challenge",
 						["questID"] = 38482,
 						["isWeekly"] = true,
-						["description"] = "Platinum Challenge",
 						["sym"] = {
 							{ "select", "itemID", 116980 },	-- Select Invader's Forgotten Treasure (Gold Rewards)
 							{ "pop" },						-- pop the Item container

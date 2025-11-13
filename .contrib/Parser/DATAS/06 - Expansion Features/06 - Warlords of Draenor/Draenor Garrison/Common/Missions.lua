@@ -460,7 +460,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(94398, {	-- Frostwall Fleet Command Table
 					["modelScale"] = 2.3,
-					["crs"] = { 94399 },	-- Lunarfall Fleet Command Table
+					["cr"] = 94399,	-- Lunarfall Fleet Command Table
 					["groups"] = {
 						a(ach(10174)),	-- Admiral [A]
 						a(ach(10173)),	-- Fleet Commander [A]

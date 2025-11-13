@@ -1,6 +1,7 @@
 -------------------------------------------------------------------
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
+
 local WOD_REMOVED_RECIPE_STR = "In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.";
 local ALCHEMICAL_CATALYST = 108996;
 local BLACKROCK_ORE = 109118;
@@ -277,6 +278,7 @@ local ORE_TRADER = {
 		["cost"] = {{ "i", TRUE_IRON_ORE, 60 }},
 	}),
 };
+
 root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
@@ -305,72 +307,50 @@ root(ROOTS.ExpansionFeatures,
 					["groups"] = {
 						i(119291, {	-- Contract: Artificer Andren
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(184),	-- Apprentice Artificer Andren
-							},
+							["groups"] = { follower(184) },	-- Apprentice Artificer Andren
 						}),
 						i(119288, {	-- Contract: Daleera Moonfang
 							follower(463),	-- Daleera Moonfang
 						}),
 						i(119256, {	-- Contract: Glirin
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(211),	-- Glirin
-							},
+							["groups"] = { follower(211) },	-- Glirin
 						}),
 						i(119244, {	-- Contract: Hulda Shadowblade
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(453),	-- Hulda Shadowblade
-							},
+							["groups"] = { follower(453) },	-- Hulda Shadowblade
 						}),
 						i(119242, {	-- Contract: Magister Serena
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(154),	-- Magister Serena
-							},
+							["groups"] = { follower(154) },	-- Magister Serena
 						}),
 						i(119420, {	-- Contract: Miall
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(155),	-- Miall
-							},
+							["groups"] = { follower(155) },	-- Miall
 						}),
 						i(119254, {	-- Contract: Pitfighter Vaandaam
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(176),	-- Pitfighter Vaandaam
-							},
+							["groups"] = { follower(176) },	-- Pitfighter Vaandaam
 						}),
 						i(119296, {	-- Contract: Rangari Chel
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(185),	-- Rangari Chel
-							},
+							["groups"] = { follower(185) },	-- Rangari Chel
 						}),
 						i(119252, {	-- Contract: Rangari Erdanii
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(212),	-- Rangari Erdanii
-							},
+							["groups"] = { follower(212) },	-- Rangari Erdanii
 						}),
 						i(119298, {	-- Contract: Ranger Kaalya
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(159),	-- Rangari Kaalya
-							},
+							["groups"] = { follower(159) },	-- Rangari Kaalya
 						}),
 						i(119292, {	-- Contract: Vindicator Onaala
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(186),	-- Vindicator Onaala
-							},
+							["groups"] = { follower(186) },	-- Vindicator Onaala
 						}),
 						i(119267, {	-- Contract: Ziri'ak
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(168),	-- Ziri'ak
-							},
+							["groups"] = { follower(168) },	-- Ziri'ak
 						}),
 					},
 				}),
@@ -404,72 +384,50 @@ root(ROOTS.ExpansionFeatures,
 					["groups"] = {
 						i(119255, {	-- Contract: Bruto
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(176),	-- Bruto
-							},
+							["groups"] = { follower(176) },	-- Bruto
 						}),
 						i(119245, {	-- Contract: Dark Ranger Velonara
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(453),	-- Dark Ranger Velonara
-							},
+							["groups"] = { follower(453) },	-- Dark Ranger Velonara
 						}),
 						i(122135, {	-- Contract: Greatmother Geyah
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(186),	-- Greatmother Geyah
-							},
+							["groups"] = { follower(186) },	-- Greatmother Geyah
 						}),
 						i(122136, {	-- Contract: Kal'gor the Honorable
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(184),	-- Kal'gor the Honorable
-							},
+							["groups"] = { follower(184) },	-- Kal'gor the Honorable
 						}),
 						i(119233, {	-- Contract: Kaz the Shrieker
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(159),	-- Kaz the Shrieker
-							},
+							["groups"] = { follower(159) },	-- Kaz the Shrieker
 						}),
 						i(119240, {	-- Contract: Lokra
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(185),	-- Lokra
-							},
+							["groups"] = { follower(185) },	-- Lokra
 						}),
 						i(119243, {	-- Contract: Magister Krelas
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(154),	-- Magister Krelas
-							},
+							["groups"] = { follower(154) },	-- Magister Krelas
 						}),
 						i(119418, {	-- Contract: Morketh Bladehowl
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(155),	-- Morketh Bladehowl
-							},
+							["groups"] = { follower(155) },	-- Morketh Bladehowl
 						}),
 						i(119257, {	-- Contract: Penny Clobberbottom
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(211),	-- Penny Clobberbottom
-							},
+							["groups"] = { follower(211) },	-- Penny Clobberbottom
 						}),
 						i(119253, {	-- Contract: Spirit of Bony Xuk
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(212),	-- Spirit of Bony Xuk
-							},
+							["groups"] = { follower(212) },	-- Spirit of Bony Xuk
 						}),
 						i(114825, {	-- Contract: Ulna Thresher
 							follower(463),	-- Ulna Thresher
 						}),
 						i(119267, {	-- Contract: Ziri'ak
 							["cost"] = 50000000,	-- 5,000g
-							["groups"] = {
-								follower(168),	-- Ziri'ak
-							},
+							["groups"] = { follower(168) },	-- Ziri'ak
 						}),
 					},
 				}),
@@ -566,15 +524,11 @@ root(ROOTS.ExpansionFeatures,
 						}),
 						ach(9565, {	-- Master Trapper (125)
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111969),	-- Barn, Level 3
-							},
+							["groups"] = { i(111969) },	-- Barn, Level 3
 						}),
 						ach(9523, {	-- Patrolling Draenor
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111971),	-- Barracks, Level 3
-							},
+							["groups"] = { i(111971) },	-- Barracks, Level 3
 						}),
 						ach(9462, {	-- Draenor Angler
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
@@ -587,88 +541,60 @@ root(ROOTS.ExpansionFeatures,
 								9456,		-- Abyssal Gulper Eel Angler
 								9455,		-- Fire Ammonite
 							}},
-							["groups"] = {
-								i(111928),		-- Fishing Shack, Level 3 [Blueprints]
-							},
+							["groups"] = { i(111928) },		-- Fishing Shack, Level 3 [Blueprints]
 						}),
 						ach(9453, {	-- Draenic Stone Collector
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(116249),	-- Frostwall Mines, Level 3
-							},
+							["groups"] = { i(116249) },	-- Frostwall Mines, Level 3
 						}),
 						ach(9703, {	-- Stay Awhile and Listen
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(116432),	-- Frostwall Tavern, Level 3
-							},
+							["groups"] = { i(116432) },	-- Frostwall Tavern, Level 3
 						}),
 						ach(9495, {	-- The Bone Collector
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111981),	-- Gladiator's Sanctum, Level 3
-							},
+							["groups"] = { i(111981) },	-- Gladiator's Sanctum, Level 3
 						}),
 						ach(9527, {	-- Terrific Technology
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(116201),	-- Goblin Workshop, Level 3
-							},
+							["groups"] = { i(116201) },	-- Goblin Workshop, Level 3
 						}),
 						ach(9454, {	-- Draenic Seed Collector
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111997),	-- Herb Garden, Level 3
-							},
+							["groups"] = { i(111997) },	-- Herb Garden, Level 3
 						}),
 						ach(9429, {	-- Upgrading the Mill
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(109255),	-- Lumber Mill, Level 3
-							},
+							["groups"] = { i(109255) },	-- Lumber Mill, Level 3
 						}),
 						ach(9463, {	-- Draenic Pet Battler
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111999),	-- Menagerie, Level 3
-							},
+							["groups"] = { i(111999) },	-- Menagerie, Level 3
 						}),
 						ach(9468, {	-- Salvaging Pays Off
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111977),	-- Salvage Yard, Level 3
-							},
+							["groups"] = { i(111977) },	-- Salvage Yard, Level 3
 						}),
 						ach(9497, {	-- Finding Your Waystones
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(116197),	-- Spirit Lodge, Level 3
-							},
+							["groups"] = { i(116197) },	-- Spirit Lodge, Level 3
 						}),
 						ach(9526, {	-- Master of Mounts
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(112003),	-- Stables, Level 3
-							},
+							["groups"] = { i(112003) },	-- Stables, Level 3
 						}),
 						ach(9487, {	-- Got My Mind On My Draenor Money (10,000)
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111983),	-- Storehouse, Level 3
-							},
+							["groups"] = { i(111983) },	-- Storehouse, Level 3
 						}),
 						h(ach(9477, {	-- Savage Friends
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 							["_noautomation"] = true,
-							["groups"] = {
-								i(111987),	-- Trading Post, Level 3
-							},
+							["groups"] = { i(111987) },	-- Trading Post, Level 3
 						})),
 						ach(9129, {	-- Filling the Ranks
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(116186),	-- War Mill, Level 3
-							},
+							["groups"] = { i(116186) },	-- War Mill, Level 3
 						}),
 					},
 				}),
@@ -683,117 +609,117 @@ root(ROOTS.ExpansionFeatures,
 						i(248800, {	-- Architect's Drafting Table (DECOR!)
 							["sourceQuest"] = 36615,	-- My Very Own Castle
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 1500 }},	-- 1,500x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1500 }},
 						}),
 						i(120348, {	-- Enchanted Crystal of Freezing
-							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},
 						}),
 						i(120347, {	-- Enchanted Crystal of Replenishment
-							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},
 						}),
 						i(120349, {	-- Enduring Vial of Swiftness
-							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},
 						}),
 						i(120182, {	-- Excess Potion of Accelerated Learning
-							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 						i(122272, {	-- Follower Ability Retraining Manual
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122273, {	-- Follower Trait Retraining Guide
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(248661, {	-- Northshire Scribe's Desk (DECOR!)
 							["sourceQuest"] = 36592,	-- Bigger is Better
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(245275, {	-- Rolled Scroll (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 						i(248810, {	-- Rough Wooden Chair (DECOR!)
 							["sourceQuest"] = 35176,	-- Keeping it Together
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 						i(122307, {	-- Rush Order: Barn
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122490, {	-- Rush Order: Dwarven Bunker
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122497, {	-- Rush Order: Garden Shipment
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(122487, {	-- Rush Order: Gladiator's Sanctum
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122500, {	-- Rush Order: Gnomish Gearworks
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122503, {	-- Rush Order: Mine Shipment
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(128373, {	-- Rush Order: Shipyard
-							["cost"] = {{ "c", 824, 500 }},	-- 500x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 500 }},
 						}),
 						i(122423, {	-- Scouting Missive: Broken Precipice
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122417, {	-- Scouting Missive: Darktide Roost
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122404, {	-- Scouting Missive: Everbloom Wilds
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122406, {	-- Scouting Missive: Iron Siegeworks
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122414, {	-- Scouting Missive: Lost Veil Anzu
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122399, {	-- Scouting Missive: Magnarok
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122422, {	-- Scouting Missive: Mok'gol Watchpost
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122409, {	-- Scouting Missive: Pillars of Fate
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122410, {	-- Scouting Missive: Shattrath Harbor
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122407, {	-- Scouting Missive: Skettis
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122415, {	-- Scouting Missive: Socrethar's Rise
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122401, {	-- Scouting Missive: Stonefury Cliffs
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(133883, {	-- Scouting Missive: The Heart of Shattrath
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(133878, {	-- Scouting Missive: The Pit
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(248334, {	-- Stormwind Wooden Bench (DECOR!)
 							["sourceQuest"] = 36404,	-- Clearing the Garden
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(248335, {	-- Stormwind Wooden Stool (DECOR!)
 							["sourceQuest"] = 36202,	-- Anglin' In Our Garrison
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 						i(248660, {	-- Stormwind Workbench (DECOR!)
 							["sourceQuest"] = 34192,	-- Things Are Not Goren Our Way
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(141642, {	-- Technique: Tome of the Clear Mind (RECIPE!)
 							["cost"] = {{ "i", 114931, 20 }},	-- 20x Cerulean Pigment
@@ -801,94 +727,94 @@ root(ROOTS.ExpansionFeatures,
 						i(248799, {	-- Wooden Storage Crate (DECOR!)
 							["sourceQuest"] = 34586,	-- Establish Your Garrison
 							["timeline"] = { ADDED_11_2_7 },
-							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 					},
 				}),
-				n(88228, {	-- Sergeant Grimjaw <Garrison Quartermaster>
+				n(79774, {	-- Sergeant Grimjaw <Garrison Quartermaster> LVL3
 					["races"] = HORDE_ONLY,
-					["crs"] = { 79774 },	-- Sergeant Grimjaw <Garrison Quartermaster> (secondary version)
+					["crs"] = { 88228 },	-- LVL1 and LVL2 Quartermaster
 					["groups"] = {
 						i(120348, {	-- Enchanted Crystal of Freezing
-							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},
 						}),
 						i(120347, {	-- Enchanted Crystal of Replenishment
-							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},
 						}),
 						i(120349, {	-- Enduring Vial of Swiftness
-							["cost"] = {{ "c", 824, 60 }},	-- 60x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 60 }},
 						}),
 						i(120182, {	-- Excess Potion of Accelerated Learning
-							["cost"] = {{ "c", 824, 100 }},	-- 100x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 						i(122272, {	-- Follower Ability Retraining Manual
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122273, {	-- Follower Trait Retraining Guide
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122307, {	-- Rush Order: Barn
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122496, {	-- Rush Order: Garden Shipment
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(122487, {	-- Rush Order: Gladiator's Sanctum
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122501, {	-- Rush Order: Goblin Workshop
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122502, {	-- Rush Order: Mine Shipment
-							["cost"] = {{ "c", 824, 300 }},	-- 300x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
 						}),
 						i(128373, {	-- Rush Order: Shipyard
-							["cost"] = {{ "c", 824, 500 }},	-- 500x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 500 }},
 						}),
 						i(122491, {	-- Rush Order: War Mill
-							["cost"] = {{ "c", 824, 1000 }},	-- 1,000x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
 						i(122424, {	-- Scouting Missive: Broken Precipice
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122418, {	-- Scouting Missive: Darktide Roost
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122400, {	-- Scouting Missive: Everbloom Wilds
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122402, {	-- Scouting Missive: Iron Siegeworks
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122413, {	-- Scouting Missive: Lost Veil Anzu
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122403, {	-- Scouting Missive: Magnarok
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122421, {	-- Scouting Missive: Mok'gol Watchpost
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122411, {	-- Scouting Missive: Pillars of Fate
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122412, {	-- Scouting Missive: Shattrath Harbor
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122408, {	-- Scouting Missive: Skettis
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122416, {	-- Scouting Missive: Socrethar's Rise
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(122405, {	-- Scouting Missive: Stonefury Cliffs
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(133884, {	-- Scouting Missive: The Heart of Shattrath
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(133876, {	-- Scouting Missive: The Pit
-							["cost"] = {{ "c", 824, 200 }},	-- 200x Garrison Resources
+							["cost"] = {{ "c", GARRISON_RESOURCES, 200 }},
 						}),
 						i(141642, {	-- Technique: Tome of the Clear Mind (RECIPE!)
 							["cost"] = {{ "i", 114931, 20 }},	-- 20x Cerulean Pigment
@@ -966,6 +892,7 @@ root(ROOTS.ExpansionFeatures,
 						i(111986),	-- Trading Post, Level 2
 						-- TODO: this is weird...
 						ach(9406, {		-- Working More Orders (250)
+							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 							["groups"] = {
 								i(111930),	-- Alchemy Lab, Level 3
 								i(111973),	-- Enchanter's Study, Level 3
@@ -976,25 +903,18 @@ root(ROOTS.ExpansionFeatures,
 								i(111991),	-- The Forge, Level 3
 								i(111989),	-- The Tannery, Level 3
 							},
-							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 						}),
 						ach(9565, {	-- Master Trapper (125)
-							["groups"] = {
-								i(111969),	-- Barn, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111969) },	-- Barn, Level 3
 						}),
 						ach(9523, {	-- Patrolling Draenor
-							["groups"] = {
-								i(111971),	-- Barracks, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111971) },	-- Barracks, Level 3
 						}),
 						ach(9129, {	-- Filling the Ranks
-							["groups"] = {
-								i(111967),	-- Dwarven Bunker, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111967) },	-- Dwarven Bunker, Level 3
 						}),
 						ach(9462, {	-- Draenor Angler
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
@@ -1007,82 +927,56 @@ root(ROOTS.ExpansionFeatures,
 								9456,		-- Abyssal Gulper Eel Angler
 								9455,		-- Fire Ammonite
 							}},
-							["groups"] = {
-								i(111928),		-- Fishing Shack, Level 3 [Blueprints]
-							},
+							["groups"] = { i(111928) },		-- Fishing Shack, Level 3 [Blueprints]
 						}),
 						ach(9495, {	-- The Bone Collector
-							["groups"] = {
-								i(111981),	-- Gladiator's Sanctum, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111981) },	-- Gladiator's Sanctum, Level 3
 						}),
 						ach(9527, {	-- Terrific Technology
-							["groups"] = {
-								i(111985),	-- Gnomish Gearworks, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111985) },	-- Gnomish Gearworks, Level 3
 						}),
 						ach(9454, {	-- Draenic Seed Collector
-							["groups"] = {
-								i(111997),	-- Herb Garden, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111997) },	-- Herb Garden, Level 3
 						}),
 						ach(9429, {	-- Upgrading the Mill
-							["groups"] = {
-								i(109255),	-- Lumber Mill, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(109255) },	-- Lumber Mill, Level 3
 						}),
 						ach(9453, {	-- Draenic Stone Collector
-							["groups"] = {
-								i(111996),	-- Lunarfall Excavation, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111996) },	-- Lunarfall Excavation, Level 3
 						}),
 						ach(9703, {	-- Stay Awhile and Listen
-							["groups"] = {
-								i(109065),	-- Lunarfall Inn, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(109065) },	-- Lunarfall Inn, Level 3
 						}),
 						ach(9497, {	-- Finding Your Waystones
-							["groups"] = {
-								i(109063),	-- Mage Tower, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(109063) },	-- Mage Tower, Level 3
 						}),
 						ach(9463, {	-- Draenic Pet Battler
-							["groups"] = {
-								i(111999),	-- Menagerie, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111999) },	-- Menagerie, Level 3
 						}),
 						ach(9468, {	-- Salvaging Pays Off
-							["groups"] = {
-								i(111977),	-- Salvage Yard, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111977) },	-- Salvage Yard, Level 3
 						}),
 						ach(9526, {	-- Master of Mounts
-							["groups"] = {
-								i(112003),	-- Stables, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(112003) },	-- Stables, Level 3
 						}),
 						ach(9487, {	-- Got My Mind On My Draenor Money (10,000)
-							["groups"] = {
-								i(111983),	-- Storehouse, Level 3
-							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
+							["groups"] = { i(111983) },	-- Storehouse, Level 3
 						}),
 						a(ach(9478, {	-- Savage Friends
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 							["_noautomation"] = true,
-							["groups"] = {
-								i(111987),	-- Trading Post, Level 3
-							},
+							["groups"] = { i(111987) },	-- Trading Post, Level 3
 						})),
 					},
 				}),

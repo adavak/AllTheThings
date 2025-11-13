@@ -1,6 +1,7 @@
 -------------------------------------------------------------------
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
+
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } }, {
 		n(BUILDINGS, {
@@ -15,29 +16,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"]
 						["isDaily"] = true,
 					}),
 					q(36310, {	-- The Arakkoan Enchanter [A]
-						["sourceQuests"] = { 36308 },	-- Enchanted Highmaul Bracer
-						["provider"] = { "n", 83491 },	-- Eileese Shadowsong
+						["sourceQuest"] = 36308,	-- Enchanted Highmaul Bracer
+						["qg"] = 83491,	-- Eileese Shadowsong
 						["coord"] = { 45.4, 53.4, LUNARFALL },
 						["requireSkill"] = ENCHANTING,
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = { i(115350) },	-- Enchanted Highmaul Bracer (QI!)
 					}),
 					q(36256, {	-- The Arakkoan Enchanter [H]
-						["sourceQuests"] = { 36255 },	-- Enchanted Highmaul Bracer
-						["provider"] = { "n", 83482 },	-- Yu'rina the Mystic
+						["sourceQuest"] = 36255,	-- Enchanted Highmaul Bracer
+						["qg"] = 83482,	-- Yu'rina the Mystic
 						["coord"] = { 47.6, 38.7, FROSTWALL },
 						["requireSkill"] = ENCHANTING,
 						["races"] = HORDE_ONLY,
 						["groups"] = { i(115350) },	-- Enchanted Highmaul Bracer (QI!)
 					}),
 					q(36645, {	-- Your First Enchanting Work Order
-						["provider"] = { "n", 77354 },	-- Ayada the White
-						["cost"] = { { "i", 109693, 5 } },	-- 5x Draenic Dust
+						["qg"] = 77354,	-- Ayada the White
+						["cost"] = {{ "i", 109693, 5 }},	-- 5x Draenic Dust
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(37570, {	-- Your First Enchanting Work Order
-						["provider"] = { "n", 79821 },	-- Yukla Greenshadow
-						["cost"] = { { "i", 109693, 5 } },	-- 5x Draenic Dust
+						["qg"] = 79821,	-- Yukla Greenshadow
+						["cost"] = {{ "i", 109693, 5 }},	-- 5x Draenic Dust
 						["races"] = HORDE_ONLY,
 					}),
 				}),

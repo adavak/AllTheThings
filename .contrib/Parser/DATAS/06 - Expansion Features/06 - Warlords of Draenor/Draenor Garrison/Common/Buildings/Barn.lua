@@ -12,37 +12,35 @@ root(ROOTS.ExpansionFeatures,
 							ach(9451),		-- Trapper's Delight (250)
 							ach(9565, {		-- Master Trapper (125)
 								["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-								["groups"] = {
-									i(111969),		-- Barn, Level 3 [Blueprints]
-								},
+								["groups"] = { i(111969) },		-- Barn, Level 3 [Blueprints]
 							}),
 							ach(9450),		-- The Trap Game (50)
 						}),
 					}),
 					n(QUESTS, {
 						q(36274, {	-- Bigger Trap, Better Rewards
-							["provider"] = { "n", 84524 },	-- Homer Stonefield
+							["qg"] = 84524,	-- Homer Stonefield
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(36346, {	-- Bigger Trap, Better Rewards
-							["provider"] = { "n", 85048 },	-- Farmer Lok'lub
+							["qg"] = 85048,	-- Farmer Lok'lub
 							["races"] = HORDE_ONLY,
 						}),
 						q(36272, {	-- Feeding An Army
-							["provider"] = { "n", 84524 },	-- Homer Stonefield
+							["qg"] = 84524,	-- Homer Stonefield
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(36344, {	-- Feeding An Army
-							["provider"] = { "n", 85048 },	-- Farmer Lok'lub
+							["qg"] = 85048,	-- Farmer Lok'lub
 							["races"] = HORDE_ONLY,
 						}),
 						q(36271, {	-- Breaking into the Trap Game
-							["provider"] = { "n", 84524 },	-- Homer Stonefield
+							["qg"] = 84524,	-- Homer Stonefield
 							["coord"] = { 51.0, 42.0, LUNARFALL },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(36345, {	-- Breaking into the Trap Game
-							["provider"] = { "n", 85048 },	-- Farmer Lok'lub
+							["qg"] = 85048,	-- Farmer Lok'lub
 							["coord"] = { 59.0, 26.0, LUNARFALL },
 							["races"] = HORDE_ONLY,
 						}),
@@ -61,8 +59,8 @@ root(ROOTS.ExpansionFeatures,
 								["sourceQuest"] = 114,	-- The Escape
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = {
+									{ "c", GARRISON_RESOURCES, 500 },
 									{ "g", 3000000 },	-- 300g
-									{ "c", 824, 500 },	-- 500x Garrison Resources
 								},
 							}),
 						})),

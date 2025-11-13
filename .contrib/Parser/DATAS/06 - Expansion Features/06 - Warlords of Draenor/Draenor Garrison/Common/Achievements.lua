@@ -24,18 +24,14 @@ root(ROOTS.ExpansionFeatures,
 						9825,	-- Master Relic Hunter (A)
 					}},
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						follower(465),	-- Harrison Jones
-					},
+					["groups"] = { follower(465) },	-- Harrison Jones
 				}),
 				ach(9901, {	-- Don't Call Me Junior (H)
 					["sym"] = {{"meta_achievement",
 						9836,	-- Master Relic Hunter (H)
 					}},
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						follower(465),	-- Harrison Jones
-					},
+					["groups"] = { follower(465) },	-- Harrison Jones
 				}),
 				petbattle(ach(9264)),	-- Draenor Pet Brawler
 				a(ach(9101, {	-- Even More Plots (A)
@@ -58,9 +54,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				achpart(9912, 10015, {	-- Azeroth's Top Twenty Tunes (A) (20)
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(122700),	-- Portable Audiophone (TOY!)
-					},
+					["groups"] = { i(122700) },	-- Portable Audiophone (TOY!)
 				}),
 				ach(10015, {	-- Full Discography (A)
 					["races"] = ALLIANCE_ONLY,
@@ -70,9 +64,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				achpart(9914, 10016, {	-- Azeroth's Top Twenty Tunes (H) (20)
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(122700),	-- Portable Audiophone (TOY!)
-					},
+					["groups"] = { i(122700) },	-- Portable Audiophone (TOY!)
 				}),
 				ach(10016, {	-- Full Discography (H)
 					["races"] = HORDE_ONLY,
@@ -85,9 +77,7 @@ root(ROOTS.ExpansionFeatures,
 						9097,	-- Keepin' Busy
 						9096,	-- Master Builder
 					}},
-					["groups"] = {
-						title(260),		-- Architect
-					},
+					["groups"] = { title(260) },		-- Architect
 				}),
 				ach(9210, {	-- Garrison Buddies (A)
 					["races"] = ALLIANCE_ONLY,
@@ -97,9 +87,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				ach(9487, {	-- Got My Mind On My Draenor Money (10,000)
 					["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-					["groups"] = {
-						i(111983),	-- Storehouse, Level 3 (Garrison Blueprint)
-					},
+					["groups"] = { i(111983) },	-- Storehouse, Level 3 (Garrison Blueprint)
 				}),
 				ach(9128, {	-- Grand Master Draftsman (60)
 					ach(9126),		-- Master Draftsman (40)

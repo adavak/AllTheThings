@@ -10,18 +10,16 @@ root(ROOTS.ExpansionFeatures,
 					n(ACHIEVEMENTS, {
 						ach(9468, {		-- Salvaging Pays Off
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
-							["groups"] = {
-								i(111977),		-- Salvage Yard, Level 3 [Blueprints]
-							},
+							["groups"] = { i(111977) },		-- Salvage Yard, Level 3 [Blueprints]
 						}),
 					}),
 					n(QUESTS, {
 						q(37086, {	-- Salvaging the Situation
-							["provider"] = { "n", 77378 },	-- Hennick Helmsley
+							["qg"] = 77378,	-- Hennick Helmsley
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(37045, {	-- Salvaging the Situation
-							["provider"] = { "n", 79857 },	-- Lumba the Crusher
+							["qg"] = 79857,	-- Lumba the Crusher
 							["races"] = HORDE_ONLY,
 						}),
 					}),

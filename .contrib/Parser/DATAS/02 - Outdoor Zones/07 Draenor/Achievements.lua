@@ -1,6 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
+
 root(ROOTS.Zones, m(DRAENOR, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	n(ACHIEVEMENTS, {
 		applyclassicphase(WOD_PHASE_ONE, ach(8935, {	-- Draenor Explorer [7.0.3] / Explore Draenor
@@ -25,9 +26,7 @@ root(ROOTS.Zones, m(DRAENOR, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } 
 				10350,	-- Tanaan Diplomat (Alliance)
 				10349,	-- Tanaan Diplomat (Horde)
 			}},
-			["groups"] = {
-				i(128706),	-- Soaring Skyterror (MOUNT!)
-			},
+			["groups"] = { i(128706) },	-- Soaring Skyterror (MOUNT!)
 		}),
 		petbattle(ach(9685, {		-- Draenor Safari
 			i(111866),		-- Royal Peacock (PET!)
