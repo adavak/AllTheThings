@@ -63,89 +63,82 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 			}),
-			--[[
 			n(251042, {	-- Domelius <Home Improvements>
-				["description"] = "You can buy additional copies of Housing Decor after receiving the first copy from the respective Achievement.",
+				["description"] = "You can buy additional copies of Housing Decor after receiving the first one from the respective Achievement.",
 				["coord"] = { 45.9, 67.8, BROKEN_ISLES },
 				["groups"] = sharedData({
 					["timeline"] = { ADDED_11_2_7 },
 				}, {
-					i(XXXXXX, {	-- Altar of the Corrupted Flames (DECOR!)
-						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-						["sourceAchievement"] = 42624,	-- Broken Isles World Quests I
+					i(250693, {	-- Altar of the Corrupted Flames (DECOR!)
+						["sourceAchievement"] = 42674,	-- Broken Isles World Quests V
 						["cost"] = {{ "c", BRONZE, 30000 }},
 					}),
-					i(XXXXXX, {	-- Corruption Pit (DECOR!)
+					i(250406, {	-- Corruption Pit (DECOR!)
 						["sourceAchievement"] = 42321,	-- Legion Remix Raids
 						["cost"] = {{ "c", BRONZE, 30000 }},
 					}),
-					i(XXXXXX, {	-- Demonic Storage Chest (DECOR!)
+					i(252753, {	-- Demonic Storage Chest (DECOR!)
 						["sourceAchievement"] = 42655,	-- The Armies of Legionfall
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Eredar Lord’s Fel Torch (DECOR!)
+					i(250690, {	-- Eredar Lord’s Fel Torch (DECOR!)
 						["sourceAchievement"] = 42627,	-- Argussian Reach
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Fel Fountain (DECOR!)
+					i(251779, {	-- Fel Fountain (DECOR!)
 						["sourceAchievement"] = 42689,	-- Timeworn Keystone Master
 						["cost"] = {{ "c", BRONZE, 30000 }},
 					}),
-					i(XXXXXX, {	-- Hanging Felsteel Cage (DECOR!)
+					i(258299, {	-- Hanging Felsteel Cage (DECOR!)
 						["sourceAchievement"] = 42547,	-- Highmountain Tribe
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Hanging Felsteel Chain (DECOR!)
-						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-						["sourceAchievement"] = 42673,	-- Defending the Broken Isles I
+					i(250404, {	-- Hanging Felsteel Chain (DECOR!)
+						["sourceAchievement"] = 42675,	-- Defending the Broken Isles III
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Large Legion Candle (DECOR!)
+					i(256677, {	-- Large Legion Candle (DECOR!)
 						["sourceAchievement"] = 42628,	-- The Nightfallen
 						["cost"] = {{ "c", BRONZE, 2500 }},
 					}),
-					i(XXXXXX, {	-- Legion’s Fel Brazier (DECOR!)
+					i(250407, {	-- Legion’s Fel Brazier (DECOR!)
 						["sourceAchievement"] = 42619,	-- Dreamweavers
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Legion’s Fel Torch (DECOR!)
-						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-						["sourceAchievement"] = 61061,	-- Power of the Obelisks I
+					i(250405, {	-- Legion’s Fel Torch (DECOR!)
+						["sourceAchievement"] = 61060,	-- Power of the Obelisks II
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Legion’s Holo-Communicator (DECOR!)
+					i(250403, {	-- Legion’s Holo-Communicator (DECOR!)
 						["sourceAchievement"] = 42692,	-- Broken Isles Dungeoneer
 						["cost"] = {{ "c", BRONZE, 30000 }},
 					}),
-					i(XXXXXX, {	-- Legion Torture Rack (DECOR!)
-						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-						["sourceAchievement"] = 61057,	-- Heroic Broken Isles World Quests I
+					i(250689, {	-- Legion Torture Rack (DECOR!)
+						["sourceAchievement"] = 61054,	-- Heroic Broken Isles World Quests III
 						["cost"] = {{ "c", BRONZE, 10000 }},
 					}),
-					i(XXXXXX, {	-- Sentinel’s Moonwing Gaze (DECOR!)
+					i(251778, {	-- Sentinel’s Moonwing Gaze (DECOR!)
 						["sourceAchievement"] = 61218,	-- The Wardens
 						["cost"] = {{ "c", BRONZE, 30000 }},
 					}),
-					i(XXXXXX, {	-- Small Legion Candle (DECOR!)
+					i(256678, {	-- Small Legion Candle (DECOR!)
 						["sourceAchievement"] = 42628,	-- The Nightfallen
 						["cost"] = {{ "c", BRONZE, 2500 }},
 					}),
-					i(XXXXXX, {	-- Tome of the Corrupt (DECOR!)
+					i(250307, {	-- Tome of the Corrupt (DECOR!)
 						["sourceAchievement"] = 42318,	-- Court of Farondis
 						["cost"] = {{ "c", BRONZE, 10000 }},
 					}),
-					i(XXXXXX, {	-- Vertical Felsteel Chain (DECOR!)
-						--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-						["sourceAchievement"] = 42673,	-- Defending the Broken Isles I
+					i(250622, {	-- Vertical Felsteel Chain (DECOR!)
+						["sourceAchievement"] = 42675,	-- Defending the Broken Isles III
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
-					i(XXXXXX, {	-- Vrykul Lord’s Throne (DECOR!)
+					i(250402, {	-- Vrykul Lord’s Throne (DECOR!)
 						["sourceAchievement"] = 42658,	-- Valarjar
 						["cost"] = {{ "c", BRONZE, 20000 }},
 					}),
 				}),
 			}),
-			--]]
 			n(246030, {	-- Freddie Threads <Discount Cloak Dealer>
 				["coord"] = { 45.4, 67.8, BROKEN_ISLES },
 				["groups"] = {

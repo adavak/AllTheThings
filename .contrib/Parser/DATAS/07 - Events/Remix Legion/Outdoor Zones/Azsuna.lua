@@ -49,14 +49,18 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_COURT_OF_FARONDIS, {
 						n(ACHIEVEMENTS, {
 							ach(42318, {	-- Court of Farondis
-								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Tome of the Corrupt (DECOR!)
+								i(250307, {	-- Tome of the Corrupt (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
 							}),
 						}),
 					}),
 					faction(FACTION_THE_WARDENS, {
 						n(ACHIEVEMENTS, {
 							ach(61218, {	-- The Wardens
-								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Sentinel’s Moonwing Gaze (DECOR!)
+								i(251778, {	-- Sentinel’s Moonwing Gaze (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
 							}),
 						}),
 					}),

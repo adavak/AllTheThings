@@ -24,15 +24,63 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				46207,	-- (Warrior)
 			},
 		}),
-		ach(42624, {	-- Broken Isles World Quests I
-			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-			--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Altar of the Corrupted Flames (DECOR!)
-		}),
+		ach(42624),	-- Broken Isles World Quests I
 		ach(42539),	-- Broken Isles World Quests II
 		ach(42570),	-- Broken Isles World Quests III
 		ach(42555),	-- Broken Isles World Quests IV
-		ach(42674),	-- Broken Isles World Quests V
+		ach(42674, {	-- Broken Isles World Quests V
+			i(250693, {	-- Altar of the Corrupted Flames (DECOR!)
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+		}),
 		ach(42807),	-- Cloudy With a Chance of Infernals
+		ach(42673, {	-- Defending the Broken Isles I
+			["maps"] = {
+				VALSHARAH,
+				HIGHMOUNTAIN,
+				STORMHEIM,
+				AZSUNA,
+				BROKEN_ISLES,
+				865,	-- Stormheim Invasion Scenario: Upper Ship Floor
+				866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+				696,	-- Stormheim (scenario)
+				1642,	-- Val'sharah (Scenario)
+			},
+		}),
+		ach(42672, {	-- Defending the Broken Isles II
+			["maps"] = {
+				VALSHARAH,
+				HIGHMOUNTAIN,
+				STORMHEIM,
+				AZSUNA,
+				BROKEN_ISLES,
+				865,	-- Stormheim Invasion Scenario: Upper Ship Floor
+				866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+				696,	-- Stormheim (scenario)
+				1642,	-- Val'sharah (Scenario)
+			},
+		}),
+		ach(42675, {	-- Defending the Broken Isles III
+			["maps"] = {
+				VALSHARAH,
+				HIGHMOUNTAIN,
+				STORMHEIM,
+				AZSUNA,
+				BROKEN_ISLES,
+				865,	-- Stormheim Invasion Scenario: Upper Ship Floor
+				866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+				696,	-- Stormheim (scenario)
+				1642,	-- Val'sharah (Scenario)
+			},
+			["groups"] = {
+				i(250404, {	-- Hanging Felsteel Chain (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
+				i(250622, {	-- Vertical Felsteel Chain (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
+			},
+		}),
 		ach(42593),	-- Pillars of Creation
 		ach(61339, {	-- Putting the Finite in Infinite
 			["description"] = "Earned upon reaching 999 Infinite Power or completing a +49 or higher Keystone in time.",
@@ -101,12 +149,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 
 		------ Heroic World Tier ------
 		ach(61174),	-- Building a Heroic Army
-		ach(61057, {	-- Heroic Broken Isles World Quests I
-			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-			--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Legion Torture Rack (DECOR!)
-		}),
+		ach(61057),	-- Heroic Broken Isles World Quests I
 		ach(61056),	-- Heroic Broken Isles World Quests II
-		ach(61054),	-- Heroic Broken Isles World Quests III
+		ach(61054, {	-- Heroic Broken Isles World Quests III
+			i(250689, {	-- Legion Torture Rack (DECOR!)
+				["timeline"] = { ADDED_11_2_7 },
+			}),
+		}),
 		ach(61070, {	-- Heroic Broken Isles World Quests IV
 			iensemble(257104),	-- Ensemble: Sargerei Commander's Voidscarred Regalia
 		}),
@@ -117,11 +166,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(61323),	-- Legionslayer V
 		ach(61061, {	-- Power of the Obelisks I
 			["cr"] = 246685,	-- Timewarped Obelisk
-			--TODO: VERIFY IF THIS IS CORRECT ACHIEVEMENT
-			--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Legion’s Fel Torch (DECOR!)
 		}),
 		ach(61060, {	-- Power of the Obelisks II
 			["cr"] = 246685,	-- Timewarped Obelisk
+			["groups"] = {
+				i(250405, {	-- Legion’s Fel Torch (DECOR!)
+					["timeline"] = { ADDED_11_2_7 },
+				}),
+			},
 		}),
 		ach(61055, {	-- Power of the Obelisks III
 			["cr"] = 246685,	-- Timewarped Obelisk

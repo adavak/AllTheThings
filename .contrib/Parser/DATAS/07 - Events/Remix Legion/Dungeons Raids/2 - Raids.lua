@@ -13,7 +13,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					60870,	-- Tomb of Sargeras
 					60860,	-- Trial of Valor
 				}},
-				--["groups"] = { i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),},	-- Corruption Pit (DECOR!)
+				["groups"] = {
+					i(250406, {	-- Corruption Pit (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			ach(61075, {	-- Heroic Legion Remix Raider
 				-- Meta Achievement

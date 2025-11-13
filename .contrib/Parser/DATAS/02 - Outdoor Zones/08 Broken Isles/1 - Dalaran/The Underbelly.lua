@@ -2,6 +2,8 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
+local VEILED_ARGUNITE = 1508;	-- Exo Note: Temp placement until it gets added to currencies
+
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(LEGION_DALARAN, {
@@ -254,7 +256,6 @@ root(ROOTS.Zones, {
 								}),
 							},
 						}),
-						--[[ Exo Note: This will be uncommented when I finish Domelius. Just wanted this to be available.
 						n(105333, {	-- Val'zuun
 							["coord"] = { 67.4, 63.1, LEGION_THE_UNDERBELLY },
 							["groups"] = sharedData({
@@ -364,7 +365,6 @@ root(ROOTS.Zones, {
 								}),
 							}),
 						}),
-						--]]
 					}),
 					n(ZONE_DROPS, {
 						i(139572, {	-- Lost Codex of the Amani

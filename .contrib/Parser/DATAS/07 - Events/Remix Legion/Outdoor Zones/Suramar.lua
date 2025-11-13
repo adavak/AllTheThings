@@ -70,8 +70,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_THE_NIGHTFALLEN, {
 						n(ACHIEVEMENTS, {
 							ach(42628, {	-- The Nightfallen
-								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Large Legion Candle (DECOR!)
-								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Small Legion Candle (DECOR!)
+								i(256677, {	-- Large Legion Candle (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
+								i(256678, {	-- Small Legion Candle (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
 							}),
 						}),
 					}),

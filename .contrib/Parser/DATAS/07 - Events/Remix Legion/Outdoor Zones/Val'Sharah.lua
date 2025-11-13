@@ -62,7 +62,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					faction(FACTION_THE_DREAMWEAVERS, {
 						n(ACHIEVEMENTS, {
 							ach(42619, {	-- Dreamweavers
-								--i(XXXXXX, {["timeline"] = { ADDED_11_2_7 }}),	-- Legion’s Fel Brazier (DECOR!)
+								i(250407, {	-- Legion’s Fel Brazier (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+								}),
 							}),
 						}),
 					}),
