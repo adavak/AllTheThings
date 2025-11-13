@@ -708,8 +708,16 @@ COMMON_DRAENOR_ENGINEERING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData
 	i(118493, {	-- Schematic: Didi's Delicate Assembly (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENGINEERING, 1 }},
 	}),
+	i(256962, {	-- Schematic: Draenei Stargazer's Telescope (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENGINEERING, 1 }},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(118480, {	-- Schematic: Findle's Loot-a-Rang (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENGINEERING, 1 }},
+	}),
+	i(256964, {	-- Schematic: Frostwall Architect's Table (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENGINEERING, 1 }},
+		["timeline"] = { ADDED_11_2_7 },
 	}),
 	i(118495, {	-- Schematic: Hemet's Heartseeker (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENGINEERING, 1 }},

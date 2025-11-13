@@ -735,6 +735,18 @@ DRAENOR_TAILORING = applyclassicphase(WOD_PHASE_ONE, i(115357, bubbleDownSelf({ 
 	},
 })));
 COMMON_DRAENOR_TAILORING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(257109, {	-- Pattern: Argussian Circular Rug (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
+	i(258486, {	-- Pattern: Beloved Elekk Plushie (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
+	i(257110, {	-- Pattern: Karabor Bed (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(114863, {	-- Pattern: Brilliant Hexweave Cloak (RECIPE!)
 		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
 	}),

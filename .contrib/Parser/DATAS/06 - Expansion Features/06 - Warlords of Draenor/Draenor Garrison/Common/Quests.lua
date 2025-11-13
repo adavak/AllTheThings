@@ -2407,7 +2407,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["qg"] = 78466,	-- Gazlowe
 				["coord"] = { 51.2, 39.6, FROSTWALL },
 				["races"] = HORDE_ONLY,
-				["groups"] = { i(110560) },	-- Garrison Hearthstone (TOY!)
+				["groups"] = {
+					i(110560),	-- Garrison Hearthstone (TOY!)
+					i(245443, {	-- Frostwolf Round Table (DECOR!)
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+				},
 			}),
 			q(34583, {	-- For the Alliance
 				["sourceQuest"] = 34582,	-- Finding a Foothold

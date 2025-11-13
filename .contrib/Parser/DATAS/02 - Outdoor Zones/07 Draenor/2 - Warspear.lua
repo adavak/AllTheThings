@@ -1921,9 +1921,25 @@ root(ROOTS.Zones, {
 								i(118607, {	-- Technique: Etched-Blade Warstaff (RECIPE!)
 									["cost"] = {{ "i", 119297, 1 }},	-- 1x Secret of Draenor Inscription
 								}),
+								i(257025, {	-- Technique: Frostwall Elevated Brazier (RECIPE!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "i", 119297, 1 }},	-- 1x Secret of Draenor Inscription
+								}),
 								i(202236, {	-- Technique: Impressive Weapon Crystal (RECIPE!)
 									["timeline"] = { ADDED_10_0_5 },
 									["cost"] = {{ "i", 119297, 5 }},	-- 5x Secret of Draenor Inscription
+								}),
+								i(257028, {	-- Technique: Orcish Banded Barrel (RECIPE!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "i", 119297, 1 }},	-- 1x Secret of Draenor Inscription
+								}),
+								i(262809, {	-- Technique: Orcish Fence (RECIPE!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "i", 119297, 1 }},	-- 1x Secret of Draenor Inscription
+								}),
+								i(262810, {	-- Technique: Orcish Fencepost (RECIPE!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "i", 119297, 1 }},	-- 1x Secret of Draenor Inscription
 								}),
 								i(202237, {	-- Technique: Remarkable Weapon Crystal (RECIPE!)
 									["timeline"] = { ADDED_10_0_5 },
@@ -1943,6 +1959,10 @@ root(ROOTS.Zones, {
 									["timeline"] = { ADDED_6_0_2, REMOVED_10_0_5 },
 									["cost"] = {{ "i", 119297, 5 }},	-- 5x Secret of Draenor Inscription
 									["collectible"] = false,
+								}),
+								i(257027, {	-- Technique: Wooden Shipping Crate (RECIPE!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{ "i", 119297, 1 }},	-- 1x Secret of Draenor Inscription
 								}),
 								i(118608, { ["timeline"] = { CREATED_6_0_2 }}),	-- Technique: Greater Weapon Crystal (RECIPE!)
 								i(120266, { ["timeline"] = { CREATED_6_0_2 }}),	-- Technique: Greater Ensorcelled Tarot (RECIPE!)

@@ -4534,12 +4534,8 @@ root(ROOTS.Unsorted, {
 				i(241067),	-- Large Forsaken Spiked Brazier
 				i(243335),	-- Tauren Bluff Rug
 				i(244313),	-- Orcish Fence
-				i(244315),	-- Orcish Warlord's Planning Table
-				i(244316),	-- Warsong Workbench
-				i(244320),	-- Youngling's Courser Toys
 				i(244321),	-- Orcish Lumberjack's Stool
 				i(244322),	-- Frostwolf Banded Stool
-				i(244653),	-- Orcish Scribe's Drafting Table
 				i(244654),	-- Small Purple Suramar Seat Cushion
 				i(244676),	-- Teal Suramar Seat Cushion
 				i(244677),	-- Purple Suramar Seat Cushion
@@ -4568,11 +4564,7 @@ root(ROOTS.Unsorted, {
 				i(245425),	-- Hanging Draenethyst Light
 				i(245431),	-- Draenor Cookpot
 				i(245433),	-- Blackrock Strongbox
-				i(245437),	-- Orc-Forged Weaponry
-				i(245438),	-- Frostwolf Bookcase
 				i(245441),	-- Orcish Fencepost
-				i(245442),	-- Warsong Footrest
-				i(245443),	-- Frostwolf Round Table
 				i(245444),	-- Orcish Communal Stove
 				i(245445),	-- Frostwolf Axe-Dart Board
 				i(245449),	-- Ancient Elven Highback Chair

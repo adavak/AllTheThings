@@ -753,6 +753,24 @@ root(ROOTS.ExpansionFeatures,
 						i(122273, {	-- Follower Trait Retraining Guide
 							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
+						i(245438, {	-- Frostwolf Bookcase (DECOR!)
+							["sourceQuest"] = 33527,	-- Last Steps
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 500 }},
+						}),
+						i(245443, {	-- Frostwolf Round Table (DECOR!)
+							["sourceQuest"] = 34378,	-- Establish Your Garrison
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
+						}),
+						i(244653, {	-- Orcish Scribe's Drafting Table (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
+						}),
+						i(244315, {	-- Orcish Warlord's Planning Table (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 1500 }},
+						}),
 						i(122307, {	-- Rush Order: Barn
 							["cost"] = {{ "c", GARRISON_RESOURCES, 1000 }},
 						}),
@@ -818,6 +836,15 @@ root(ROOTS.ExpansionFeatures,
 						}),
 						i(141642, {	-- Technique: Tome of the Clear Mind (RECIPE!)
 							["cost"] = {{ "i", 114931, 20 }},	-- 20x Cerulean Pigment
+						}),
+						i(244316, {	-- Warsong Workbench (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 300 }},
+						}),
+						i(244320, {	-- Youngling's Courser Toys (DECOR!)
+							["sourceQuest"] = 33470,	-- Pool of Visions
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 100 }},
 						}),
 					},
 				}),
@@ -978,6 +1005,15 @@ root(ROOTS.ExpansionFeatures,
 							["_noautomation"] = true,
 							["groups"] = { i(111987) },	-- Trading Post, Level 3
 						})),
+					},
+				}),
+				n(76872, {	-- Supplymaster Eri <General Goods & Repairs>
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(244324, {	-- Peon's Work Bucket (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+							["cost"] = {{ "c", GARRISON_RESOURCES, 150 }},
+						}),
 					},
 				}),
 				n(95470, {	-- Trader Araanda <Local Supplies>

@@ -1329,6 +1329,14 @@ DRAENOR_JEWELCRAFTING = applyclassicphase(WOD_PHASE_ONE, i(115356, bubbleDownSel
 	},
 })));
 COMMON_DRAENOR_JEWELCRAFTING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(257031, {	-- Design: Draenethyst Sconce (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
+	i(257030, {	-- Design: Draenic Basin (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 1}},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(116080, {	-- Design: Greater Taladite Amplifier (RECIPE!)
 		["cost"] = {{"i", SECRET_OF_DRAENOR_JEWELCRAFTING, 5}},
 		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_6_2_0 },

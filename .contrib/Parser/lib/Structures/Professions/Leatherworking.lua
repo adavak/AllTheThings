@@ -961,6 +961,10 @@ DRAENOR_LEATHERWORKING = applyclassicphase(WOD_PHASE_ONE, i(115358, bubbleDownSe
 	},
 })));
 COMMON_DRAENOR_LEATHERWORKING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(257033, {	-- Pattern: Blackrock Bunkbed (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_LEATHERWORKING, 5 }},
+		["timeline"] = { ADDED_11_2_7 },
+	}),
 	i(116328, {	-- Pattern: Brilliant Burnished Cloak (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_LEATHERWORKING, 1 }},
 	}),
@@ -995,6 +999,10 @@ COMMON_DRAENOR_LEATHERWORKING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedD
 	}),
 	i(116327, {	-- Pattern: Nimble Burnished Cloak (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_LEATHERWORKING, 1 }},
+	}),
+	i(257058, {	-- Pattern: Orcish Sleeping Cot (RECIPE!)
+		["cost"] = {{ "i", SECRET_OF_DRAENOR_LEATHERWORKING, 5 }},
+		["timeline"] = { ADDED_11_2_7 },
 	}),
 	i(116326, {	-- Pattern: Powerful Burnished Cloak (RECIPE!)
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_LEATHERWORKING, 1 }},

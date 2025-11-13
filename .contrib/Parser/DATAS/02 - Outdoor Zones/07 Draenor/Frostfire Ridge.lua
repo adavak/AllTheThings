@@ -569,6 +569,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 50.4, 32.6, 527 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
+							i(245438, {	-- Frostwolf Bookcase (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 							i(107302),	-- Frostwolf Ringmail Belt
 							i(106135),	-- Frostwolf Scout's Belt
 							i(106149),	-- Frostwolf Stalwart Girdle
@@ -726,6 +729,9 @@ root(ROOTS.Zones, {
 							i(106141),	-- Frostwolf Scout's Spaulders
 							i(106152),	-- Frostwolf Stalwart Shoulders
 							i(106162),	-- Frostwolf Wind-Talker Mantle
+							i(244320, {	-- Youngling's Courser Toys (DECOR!)
+								["timeline"] = { ADDED_11_2_7 },
+							}),
 						},
 					}),
 					q(34345, {	-- Poulticide
