@@ -84,7 +84,7 @@ root(ROOTS.ExpansionFeatures,
 						un(REMOVED_FROM_GAME, i(118293)),	-- Solium Band of Endurance
 						un(REMOVED_FROM_GAME, i(118294)),	-- Solium Band of Mending
 						un(REMOVED_FROM_GAME, i(118290)),	-- Solium Band of Might
-						un(REMOVED_FROM_GAME, i(118291)),	-- Solium Band of Wisdom						
+						un(REMOVED_FROM_GAME, i(118291)),	-- Solium Band of Wisdom
 					},
 				}),
 				-- Part 1

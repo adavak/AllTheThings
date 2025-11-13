@@ -1377,44 +1377,44 @@ root(ROOTS.Zones, {
 						["coord"] = { 46.5, 46.5, SPIRES_OF_ARAK },
 					}),
 					q(35674, {	-- Wanted: Keeho's Severed Paw (Alliance)
+						["icon"] = 632821,
 						["sourceQuest"] = 35286,	-- Orders, Commander?
 						["provider"] = { "o", 233100 },	-- Wanted Poster
-						["icon"] = 632821,
 						["coord"] = { 39.6, 61.3, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35669, {	-- Wanted: Keeho's Severed Paw (Horde)
+						["icon"] = 632821,
 						["sourceQuest"] = 35277,	-- Orders, Commander?
 						["provider"] = { "o", 233099 },	-- Wanted Poster
-						["icon"] = 632821,
 						["coord"] = { 40.1, 43.0, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35675, {	-- Wanted: Spineslicer's Husk (Alliance)
+						["icon"] = 632821,
 						["sourceQuest"] = 35286,	-- Orders, Commander?
 						["provider"] = { "o", 233100 },	-- Wanted Poster
-						["icon"] = 632821,
 						["coord"] = { 39.6, 61.3, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35670, {	-- Wanted: Spineslicer's Husk (Horde)
+						["icon"] = 632821,
 						["sourceQuest"] = 35277,	-- Orders, Commander?
 						["provider"] = { "o", 233099 },	-- Wanted Poster
-						["icon"] = 632821,
 						["coord"] = { 40.1, 43.0, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35676, {	-- Wanted: Venombarb (Alliance)
+						["icon"] = 632821,
 						["sourceQuest"] = 35286,	-- Orders, Commander?
 						["provider"] = { "o", 233100 },	-- Wanted Poster
-						["icon"] = 632821,
 						["coord"] = { 39.6, 61.3, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35672, {	-- Wanted: Venombarb (Horde)
+						["icon"] = 632821,
 						["sourceQuest"] = 35277,	-- Orders, Commander?
 						["provider"] = { "o", 233099 },	-- Wanted Poster
-						["icon"] = 632821,
 						["coord"] = { 40.1, 43.0, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
