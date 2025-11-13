@@ -57,6 +57,16 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 		["groups"] = { i(239098) },	-- Neighborhood Charter
 	}),
+	-- Misc
+	q(92572, {	-- Furniture Favor
+		["qg"] = 252312,	-- Second Chair Pawdo
+		["coords"] = {
+			{ 52.9, 68.0,  DORNOGAL },
+			{ 52.9, 89.0, ORGRIMMAR },
+			{ 56.1, 77.1, STORMWIND },
+		},
+		["groups"] = { i(253173) },	-- Meadery Storage Barrel (DECOR!)
+	}),
 	-- It IS possible that some of these quests are Neutral but not yet datamined properly on WoWhead. In that case, create a Neutral Header and move respective quests there.
 	header(HEADERS.Quest, 92969, sharedData({	-- Decor Treasure Hunt [Alliance]
 		["qg"] = 248854,	-- The Last Architect
