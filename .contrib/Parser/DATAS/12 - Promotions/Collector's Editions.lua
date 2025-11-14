@@ -36,6 +36,8 @@ EPIC_EDITION = createHeader({
 		tw = "史詩版",
 	},
 });
+-- NOTE: Released on May 18, 2021.
+-- NOTE: No longer available on the store since September, 2022.
 TBC_CLASSIC_DELUXE_EDITION = createHeader({
 	readable = "TBC Classic Deluxe Edition",
 	icon = [[~_.asset("Expansion_TBC")]],
@@ -48,6 +50,8 @@ TBC_CLASSIC_DELUXE_EDITION = createHeader({
 		tw = "燃燒的遠征：經典版 - 豪華版",
 	},
 });
+-- NOTE: Released on August 30, 2022.
+-- NOTE: No longer available on the store since 3 November, 2023.
 WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
 	readable = "WotLK Classic Northrend Upgrade",
 	icon = [[~_.asset("Expansion_WOTLK")]],
@@ -58,7 +62,8 @@ WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
 		tw = "巫妖王之怒：經典版 - 北裂境升級",
 	},
 });
--- NOTE: No longer available on the store since 25 September 2025.
+-- NOTE: Released on November 3, 2023.
+-- NOTE: No longer available on the store since 25 September, 2025.
 CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
 	readable = "Cata Classic Blazing Upgrade",
 	icon = [[~_.asset("Expansion_CATA")]],
@@ -69,6 +74,7 @@ CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
 		tw = "浩劫與重生：經典版 - 熾炎升級",
 	},
 });
+-- NOTE: Released on February 20, 2025.
 MOP_CLASSIC_HEROIC_PACK = createHeader({
 	readable = "MoP Classic Sha-Infused Heroic Pack",
 	icon = [[~_.asset("Expansion_MOP")]],
