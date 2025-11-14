@@ -607,18 +607,7 @@ namespace ATT
                         }
                     // temp special case for 'lvl', only include data if it is in the expected new format of a list
                     case "lvl":
-                        if (value is List<object> lvls)
-                        {
-                            Objects.MergeIntegerArrayData(item, field, lvls);
-                        }
-                        else if (value is long lvl)
-                        {
-                            item[field] = lvl;
-                        }
-                        else
-                        {
-                            item[field] = Convert.ToInt64(value);
-                        }
+                        Objects.MergeIntegerArrayData(item, field, value);
                         break;
 
                     // Sub-Dictionary Data Type Fields (stored as Dictionary<int, int> for usability reasons)

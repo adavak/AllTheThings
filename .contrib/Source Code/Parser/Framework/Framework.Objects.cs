@@ -1563,29 +1563,19 @@ end");
             {
                 // Convert the data to a list of generic objects.
                 var newList = ConvertToList(item, field, value);
-                if (newList == null) return;
+                if (newList == null)
+                {
+                    LogError($"Failed merging int-array '{field}' from {ToJSON(value)}", item);
+                    return;
+                }
 
                 // Attempt to get the old list data.
-                List<object> oldList;
-                if (item.TryGetValue(field, out object oldData))
+                if (!item.TryGetValue(field, out List<object> oldList))
                 {
-                    // Convert the old data to a list of objects.
-                    oldList = oldData as List<object>;
-
-                    // a non-array item
-                    if (oldList == null)
+                    if (item.ContainsKey(field))
                     {
-                        // TODO: tons of spam due to 'lvl' right now... maybe re-introduce at a later time when all 'lvl is cleaned up
-                        //item[field] = oldList = new List<object>() { oldData };
-                        //Log("Warning: Non-Standard format for '" + field + "' used:" + ToJSON(item));
-
-                        // Create a new list since the incoming data is bad
-                        item[field] = oldList = new List<object>();
+                        LogWarn($"Replacing non-list type data stored in '{field}'", item);
                     }
-                }
-                else
-                {
-                    // Create a new list.
                     item[field] = oldList = new List<object>();
                 }
 
@@ -1609,42 +1599,32 @@ end");
                     if (newmax > 0 && newmax < long.MaxValue)
                     {
                         oldList.Clear();
-                        oldList.Add(newmin);
-                        oldList.Add(newmax);
+                        oldList.Add((long)newmin);
+                        oldList.Add((long)newmax);
                     }
                     else if (newmin > 0)
                     {
                         oldList.Clear();
-                        oldList.Add(newmin);
+                        oldList.Add((long)newmin);
                     }
                 }
                 else
                 {
                     // Merge the new list of data into the old data and ensure there are no duplicate values.
-                    try
+                    foreach (long entry in newList.AsTypedEnumerable<long>())
                     {
-                        foreach (var entry in newList)
-                        {
-                            var index = Convert.ToInt64(entry);
-                            if (oldList.Contains(index)) continue;
-                            oldList.Add(index);
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        LogError($"WHAT IS THIS: {field}{Environment.NewLine}{ToJSON(newList)}");
-                        WaitForUser();
-                        throw e;
+                        if (!oldList.Contains(entry))
+                            oldList.Add(entry);
                     }
                 }
 
-                // Sort the old list to ensure that the order is consistent, but not for difficulties
-                if (!NON_SORTED_FIELDS.Contains(field))
+                // Only sort Parser metadata fields
+                if (field.StartsWith("_"))
                     oldList.Sort();
 
                 if (oldList.Count == 0)
                 {
-                    LogError($"int-array field: '{field}' contained no data after merge.{Environment.NewLine}{ToJSON(item)}");
+                    LogError($"int-array field: '{field}' contained no data after merge", item);
                 }
             }
 

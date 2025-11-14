@@ -484,6 +484,10 @@ namespace ATT
                 {
                     yield return t;
                 }
+                else
+                {
+                    Framework.LogWarn($"Expected a '{typeof(T).Name}' type value but '{Framework.ToJSON(c)}' cannot be converted");
+                }
             }
 
             yield break;

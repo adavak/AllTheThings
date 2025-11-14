@@ -2023,7 +2023,7 @@ namespace ATT
                 long sqQuestID = questIDs.AsTypedEnumerable<long>().First();
 
                 LogDebug($"INFO: Converted single 'sourceQuests' to '_quests' for Criteria {achID}:{criteriaID} with sourceQuest: {sqQuestID}");
-                data["_quests"] = new List<long> { sqQuestID };
+                Objects.Merge(data, "_quests", sqQuestID);
                 // can remove 'sourceQuests' from the criteria since it's going to be sourced under the required quest
                 data.Remove("sourceQuests");
             }
@@ -3005,182 +3005,214 @@ namespace ATT
                 existingModifierTree = modifierTree;
             }
 
-            // 2 (SingleTrue)
-            if (existingModifierTree.Operator == 2)
+            switch (existingModifierTree.Operator)
             {
-                incorporated = true;
-                switch (existingModifierTree.Type)
-                {
-                    // 4 (TARGET_CREATURE_ENTRY)
-                    case 4:
-                    // 81 (BATTLE_PET_ENTRY)
-                    case 81:
-                        IncorporateDataField(data, "_npcs", existingModifierTree.Asset);
-                        break;
-                    // 19 (ITEM_IS_ITEMID)
-                    case 19:
-                        IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
-                        break;
-                    // 25 (SOURCE_RACE)
-                    case 25:
-                        IncorporateDataField(data, "races", new List<object> { existingModifierTree.Asset });
-                        break;
-                    // 26 (SOURCE_CLASS)
-                    case 26:
-                        IncorporateDataField(data, "c", new List<object> { existingModifierTree.Asset });
-                        break;
-                    // 27 (TARGET_RACE)
-                    case 27:
-                        IncorporateDataField(data, "races_disp", new List<object> { existingModifierTree.Asset });
-                        break;
-                    // 28 (TARGET_CLASS)
-                    case 28:
-                        IncorporateDataField(data, "c_disp", new List<object> { existingModifierTree.Asset });
-                        break;
-                    // 17 (SOURCE_AREA_OR_ZONE)
-                    case 17:
-                    // 41 (SOURCE_ZONE)
-                    case 41:
-                        if (WagoData.TryGetAreaAssociations(existingModifierTree.Asset, out List<UiMapAssignment> associations))
+                // 2 (SingleTrue)
+                case 2:
+                    {
+                        incorporated = true;
+                        switch (existingModifierTree.Type)
                         {
-                            var dict = new Dictionary<long, object>();
-                            foreach (var uiMapAssociation in associations)
-                            {
-                                var mapID = uiMapAssociation.UiMapID;
-                                if (MAPID_MERGE_REPLACEMENTS.TryGetValue(mapID, out long replacementMapID))
+                            // 4 (TARGET_CREATURE_ENTRY)
+                            case 4:
+                            // 81 (BATTLE_PET_ENTRY)
+                            case 81:
+                                IncorporateDataField(data, "_npcs", existingModifierTree.Asset);
+                                break;
+                            // 19 (ITEM_IS_ITEMID)
+                            case 19:
+                                IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                                break;
+                            // 25 (SOURCE_RACE)
+                            case 25:
+                                IncorporateDataField(data, "races", new List<object> { existingModifierTree.Asset });
+                                break;
+                            // 26 (SOURCE_CLASS)
+                            case 26:
+                                IncorporateDataField(data, "c", new List<object> { existingModifierTree.Asset });
+                                break;
+                            // 27 (TARGET_RACE)
+                            case 27:
+                                IncorporateDataField(data, "races_disp", new List<object> { existingModifierTree.Asset });
+                                break;
+                            // 28 (TARGET_CLASS)
+                            case 28:
+                                IncorporateDataField(data, "c_disp", new List<object> { existingModifierTree.Asset });
+                                break;
+                            // 17 (SOURCE_AREA_OR_ZONE)
+                            case 17:
+                            // 41 (SOURCE_ZONE)
+                            case 41:
+                                if (WagoData.TryGetAreaAssociations(existingModifierTree.Asset, out List<UiMapAssignment> associations))
                                 {
-                                    mapID = replacementMapID;
+                                    var dict = new Dictionary<long, object>();
+                                    foreach (var uiMapAssociation in associations)
+                                    {
+                                        var mapID = uiMapAssociation.UiMapID;
+                                        if (MAPID_MERGE_REPLACEMENTS.TryGetValue(mapID, out long replacementMapID))
+                                        {
+                                            mapID = replacementMapID;
+                                        }
+                                        if (mapID > 0) dict[mapID] = mapID;
+                                    }
+                                    if (dict.Count > 0)
+                                    {
+                                        var maps = dict.Values.ToList();
+                                        IncorporateDataField(data, "_maps", maps);
+                                        /*
+                                        Console.WriteLine("ADDED MAP DATA TO ACHIEVEMENT:");
+                                        Console.WriteLine(MiniJSON.Json.Serialize(data));
+                                        Console.ReadLine();
+                                        */
+                                    }
+                                    /*
+                                    else
+                                    {
+                                        Console.WriteLine("FAILED TO FIND MAP DATA TO ACHIEVEMENT:");
+                                        Console.WriteLine(MiniJSON.Json.Serialize(data));
+                                        Console.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
+                                        Console.WriteLine(MiniJSON.Json.Serialize(associations));
+                                        Console.ReadLine();
+                                    }
+                                    */
                                 }
-                                if (mapID > 0) dict[mapID] = mapID;
-                            }
-                            if (dict.Count > 0)
-                            {
-                                var maps = dict.Values.ToList();
-                                IncorporateDataField(data, "_maps", maps);
                                 /*
-                                Console.WriteLine("ADDED MAP DATA TO ACHIEVEMENT:");
-                                Console.WriteLine(MiniJSON.Json.Serialize(data));
-                                Console.ReadLine();
+                                else
+                                {
+                                    Console.WriteLine("FAILED TO FIND AREA DATA TO ACHIEVEMENT:");
+                                    Console.WriteLine(MiniJSON.Json.Serialize(data));
+                                    Console.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
+                                    Console.ReadLine();
+                                }
                                 */
-                            }
-                            /*
-                            else
-                            {
-                                Console.WriteLine("FAILED TO FIND MAP DATA TO ACHIEVEMENT:");
-                                Console.WriteLine(MiniJSON.Json.Serialize(data));
-                                Console.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
-                                Console.WriteLine(MiniJSON.Json.Serialize(associations));
-                                Console.ReadLine();
-                            }
-                            */
+                                break;
+                            // 62 (GUILD_REPUTATION)
+                            case 62:
+                                IncorporateDataField(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
+                                IncorporateDataField(data, "_factions", 1168);
+                                break;
+                            // 75 (THE_TILLERS_REPUTATION)
+                            case 75:
+                                IncorporateDataField(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
+                                IncorporateDataField(data, "_factions", 1272);
+                                break;
+                            // 84 (IS_ON_QUEST)
+                            case 84:
+                            // 110 (REWARDED_QUEST)
+                            case 110:
+                                IncorporateDataField(data, "_quests", existingModifierTree.Asset);
+                                break;
+                            // 111 (REWARDED_QUEST)
+                            case 111:
+                                IncorporateDataField(data, "_quests", existingModifierTree.Asset);
+                                break;
+                            // 85 (EXALTED_WITH_FACTION)
+                            case 85:
+                                IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
+                                IncorporateDataField(data, "_factions", existingModifierTree.Asset);
+                                break;
+                            // 86 (HAS_ACHIEVEMENT)
+                            case 86:
+                            // 87 (HAS_ACHIEVEMENT_ON_CHARACTER)
+                            case 87:
+                                IncorporateDataField(data, "_achievements", existingModifierTree.Asset);
+                                break;
+                            // 88 (CLOUD_SERPENT_REPUTATION)
+                            case 88:
+                                IncorporateDataField(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
+                                IncorporateDataField(data, "_factions", 1271);
+                                break;
+                            // 91 (BATTLE_PET_SPECIES)
+                            case 91:
+                                // world quest battle pets have 'speciesID' and are sourced under NYI... don't move any of their criteria there
+                                if (TryGetSOURCED("speciesID", existingModifierTree.Asset, out HashSet<IDictionary<string, object>> sourcedSpecies)
+                                    && sourcedSpecies.All(s => IsObtainableData(s)))
+                                {
+                                    IncorporateDataField(data, "_species", existingModifierTree.Asset);
+                                }
+                                else if (WagoData.TryGetValue(existingModifierTree.Asset, out BattlePetSpecies battlePetSpecies))
+                                {
+                                    IncorporateDataField(data, "_npcs", battlePetSpecies.CreatureID);
+                                }
+                                break;
+                            // 95 (FACTION_STANDING)
+                            case 95:
+                                IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
+                                IncorporateDataField(data, "_factions", existingModifierTree.Asset);
+                                break;
+                            // 99 (SKILL)
+                            case 99:
+                                // TODO: it's nice for requireSkill to consolidate to the base profession, but also want to see the 'exact' profession requirement for these cases...
+                                //data["_specificRequireSkill"] = true;
+                                // SecondaryAsset = skill level
+                                IncorporateDataField(data, "requireSkill", existingModifierTree.Asset);
+                                break;
+                            // 105 (ITEM_COUNT)
+                            case 105:
+                                if (existingModifierTree.SecondaryAsset == 1)
+                                {
+                                    IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                                }
+                                else
+                                {
+                                    IncorporateDataField(data, "cost", Cost.GetSimpleCost("i", existingModifierTree.Asset, existingModifierTree.SecondaryAsset));
+                                }
+                                break;
+                            // 119 (CURRENCY_AMOUNT)
+                            case 119:
+                                IncorporateDataField(data, "cost", Cost.GetSimpleCost("c", existingModifierTree.Asset, existingModifierTree.SecondaryAsset));
+                                break;
+                            // 191 (PLAYER_RACE_IS)
+                            case 191:
+                                IncorporateDataField(data, "races", existingModifierTree.Asset);
+                                break;
+                            // 199 (HAS_TOY)
+                            case 199:
+                                IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                                break;
+                            // 221 (PARAGON_LEVEL_WITH_FACTION_EQUAL_OR_GREATER)
+                            case 221:
+                                IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
+                                IncorporateDataField(data, "_factions", existingModifierTree.SecondaryAsset);
+                                break;
+                            // 271 (QUEST_IS_ON_OR_HAS_COMPLETED)
+                            case 271:
+                                IncorporateDataField(data, "sourceQuest", existingModifierTree.Asset);
+                                break;
+                            default:
+                                incorporated = false;
+                                break;
                         }
-                        /*
-                        else
+                    }
+                    break;
+
+                // 3 (SingleFalse)
+                case 3:
+                    {
+                        incorporated = true;
+                        switch (existingModifierTree.Type)
                         {
-                            Console.WriteLine("FAILED TO FIND AREA DATA TO ACHIEVEMENT:");
-                            Console.WriteLine(MiniJSON.Json.Serialize(data));
-                            Console.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
-                            Console.ReadLine();
+                            // TODO: this isn't entirely accurate? if something requires NOT being a certain race/class, that doesn't necessarily
+                            // mean it's available to all the other race/class...
+                            // 25 (SOURCE_RACE)
+                            //case 25:
+                            //    IncorporateDataField(data, "races", ALL_RACES.Where(x => !x.Equals(existingModifierTree.Asset)));
+                            //    break;
+                            //// 26 (SOURCE_CLASS)
+                            //case 26:
+                            //    IncorporateDataField(data, "c", ALL_CLASSES.Where(x => !x.Equals(existingModifierTree.Asset)));
+                            //    break;
+                            //// 27 (TARGET_RACE)
+                            //case 27:
+                            //    IncorporateDataField(data, "races_disp", ALL_RACES.Where(x => !x.Equals(existingModifierTree.Asset)));
+                            //    break;
+                            //// 28 (TARGET_CLASS)
+                            //case 28:
+                            //    IncorporateDataField(data, "c_disp", ALL_CLASSES.Where(x => !x.Equals(existingModifierTree.Asset)));
+                            //    break;
                         }
-                        */
-                        break;
-                    // 62 (GUILD_REPUTATION)
-                    case 62:
-                        IncorporateDataField(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
-                        IncorporateDataField(data, "_factions", 1168);
-                        break;
-                    // 75 (THE_TILLERS_REPUTATION)
-                    case 75:
-                        IncorporateDataField(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
-                        IncorporateDataField(data, "_factions", 1272);
-                        break;
-                    // 84 (IS_ON_QUEST)
-                    case 84:
-                    // 110 (REWARDED_QUEST)
-                    case 110:
-                        IncorporateDataField(data, "_quests", existingModifierTree.Asset);
-                        break;
-                    // 111 (REWARDED_QUEST)
-                    case 111:
-                        IncorporateDataField(data, "_quests", existingModifierTree.Asset);
-                        break;
-                    // 85 (EXALTED_WITH_FACTION)
-                    case 85:
-                        IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
-                        IncorporateDataField(data, "_factions", existingModifierTree.Asset);
-                        break;
-                    // 86 (HAS_ACHIEVEMENT)
-                    case 86:
-                    // 87 (HAS_ACHIEVEMENT_ON_CHARACTER)
-                    case 87:
-                        IncorporateDataField(data, "_achievements", existingModifierTree.Asset);
-                        break;
-                    // 88 (CLOUD_SERPENT_REPUTATION)
-                    case 88:
-                        IncorporateDataField(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
-                        IncorporateDataField(data, "_factions", 1271);
-                        break;
-                    // 91 (BATTLE_PET_SPECIES)
-                    case 91:
-                        // world quest battle pets have 'speciesID' and are sourced under NYI... don't move any of their criteria there
-                        if (TryGetSOURCED("speciesID", existingModifierTree.Asset, out HashSet<IDictionary<string, object>> sourcedSpecies)
-                            && sourcedSpecies.All(s => IsObtainableData(s)))
-                        {
-                            IncorporateDataField(data, "_species", existingModifierTree.Asset);
-                        }
-                        else if (WagoData.TryGetValue(existingModifierTree.Asset, out BattlePetSpecies battlePetSpecies))
-                        {
-                            IncorporateDataField(data, "_npcs", battlePetSpecies.CreatureID);
-                        }
-                        break;
-                    // 95 (FACTION_STANDING)
-                    case 95:
-                        IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
-                        IncorporateDataField(data, "_factions", existingModifierTree.Asset);
-                        break;
-                    // 99 (SKILL)
-                    case 99:
-                        // TODO: it's nice for requireSkill to consolidate to the base profession, but also want to see the 'exact' profession requirement for these cases...
-                        //data["_specificRequireSkill"] = true;
-                        // SecondaryAsset = skill level
-                        IncorporateDataField(data, "requireSkill", existingModifierTree.Asset);
-                        break;
-                    // 105 (ITEM_COUNT)
-                    case 105:
-                        if (existingModifierTree.SecondaryAsset == 1)
-                        {
-                            IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
-                        }
-                        else
-                        {
-                            IncorporateDataField(data, "cost", Cost.GetSimpleCost("i", existingModifierTree.Asset, existingModifierTree.SecondaryAsset));
-                        }
-                        break;
-                    // 119 (CURRENCY_AMOUNT)
-                    case 119:
-                        IncorporateDataField(data, "cost", Cost.GetSimpleCost("c", existingModifierTree.Asset, existingModifierTree.SecondaryAsset));
-                        break;
-                    // 191 (PLAYER_RACE_IS)
-                    case 191:
-                        IncorporateDataField(data, "races", existingModifierTree.Asset);
-                        break;
-                    // 199 (HAS_TOY)
-                    case 199:
-                        IncorporateDataField(data, "provider", new List<object> { "i", existingModifierTree.Asset });
-                        break;
-                    // 221 (PARAGON_LEVEL_WITH_FACTION_EQUAL_OR_GREATER)
-                    case 221:
-                        IncorporateDataField(data, "minReputation", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
-                        IncorporateDataField(data, "_factions", existingModifierTree.SecondaryAsset);
-                        break;
-                    // 271 (QUEST_IS_ON_OR_HAS_COMPLETED)
-                    case 271:
-                        IncorporateDataField(data, "sourceQuest", existingModifierTree.Asset);
-                        break;
-                    default:
-                        incorporated = false;
-                        break;
-                }
+                    }
+                    break;
             }
 
             // ModifierTree can be a parent, which means the children should be incorporated into the data instead
