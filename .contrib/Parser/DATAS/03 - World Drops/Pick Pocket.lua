@@ -21,6 +21,9 @@ root(ROOTS.WorldDrops, {
 					["coord"] = { 47.8, 49.4, DRAGONBLIGHT },
 					["cr"] = 27539,	-- Frigid Necromancer <Cult of the Damned>
 				}),
+				filter(CONSUMABLES, {
+					i(40202),	-- Sizzling Grizzly Flank
+				}),
 				filter(TOYS, {
 					i(36863, {	-- Decahedral Dwarven Dice (TOY!)
 						["description"] = "Can be pickpocketed from Northrend humanoids.",

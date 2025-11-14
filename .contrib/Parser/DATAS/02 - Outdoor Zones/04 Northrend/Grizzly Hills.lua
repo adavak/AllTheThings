@@ -581,6 +581,7 @@ root(ROOTS.Zones, {
 						},
 						["qg"] = 26424,	-- Samir
 						["coord"] = { 16.1, 47.6, GRIZZLY_HILLS },
+						["description"] = "This quest requires the use of a pet named Budd.\nAny pet classes must dismiss their active pets.\nSpeak with Budd in the camp to get him as a pet.\nThe ability to tag a troll can be found on the pet bar.",
 						["groups"] = {
 							i(39116),	-- Grinder of Reverse Emancipation
 							i(39142),	-- Mace of Helotry
@@ -2001,10 +2002,10 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(VENDORS, {
-					["description"] = "The PVP vendors in this zone (Grizzly D. Adams and Purkom) are only visible while your faction controls Venture Bay.",
 					["groups"] = {
 						n(27760, {	-- "Grizzly" D. Adams <Venture Coin Vendor>
 							["coord"] = { 13.8, 86.4, GRIZZLY_HILLS },
+							["description"] = "Is only visible while your faction controls Venture Bay.",
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = pvp({
 								-- TODO: For Cata, we're gonna need to add the honor costs... yuck.
@@ -2055,6 +2056,31 @@ root(ROOTS.Zones, {
 								})),
 							}),
 						}),
+						n(29275, {	-- Aspen Grove Supplier <Food & Drink>
+							["coord"] = { 34.6, 55.0, GRIZZLY_HILLS },
+							["description"] = "This vendor is only friendly to Alliance players, and even then it only applies until you finalise your relationship with the people at Silverbrook!",
+							["races"] = ALLIANCE_ONLY,
+							["groups"] = {
+								i(40359),	-- Fresh Eagle Meat
+								i(40356),	-- Grizzleberries
+								i(40357),	-- Grizzleberry Juice
+								i(40358),	-- Raw Tallhorn Chunk
+							},
+						}),
+						n(26484, {	-- Hugh Glass <Merchant>
+							["coord"] = { 69.1, 40.1, GRIZZLY_HILLS },
+							["groups"] = {
+								i(35794),	-- Silvercoat Stag Meat
+							},
+						}),
+						n(29244, {	-- Jesse Masters <Butcher>
+							["coord"] = { 31.6, 59.8, GRIZZLY_HILLS },
+							["description"] = "Access to this vendor requires completing 'Replenishing the Storehouse' and the following 'Take Their Rear!'.",
+							["races"] = ALLIANCE_ONLY,
+							["groups"] = {
+								i(40202),	-- Sizzling Grizzly Flank
+							},
+						}),
 						n(26868, {	-- Provisioner Lorkran <General Goods>
 							["coord"] = { 22.6, 66.0, GRIZZLY_HILLS },
 							["races"] = HORDE_ONLY,
@@ -2065,6 +2091,7 @@ root(ROOTS.Zones, {
 						}),
 						n(27730, {	-- Purkom <Venture Coin Vendor>
 							["coord"] = { 13.8, 86.2, GRIZZLY_HILLS },
+							["description"] = "Is only visible while your faction controls Venture Bay.",
 							["races"] = HORDE_ONLY,
 							["groups"] = pvp({
 								-- TODO: For Cata, we're gonna need to add the honor costs... yuck.
@@ -2142,11 +2169,19 @@ root(ROOTS.Zones, {
 						["coord"] = { 60.5, 51.5, GRIZZLY_HILLS },
 						["cr"] = 33224,	-- Maiden of Ashwood Lake
 					})),
+					i(36743, {	-- Desperate Mojo
+						["description"] = "Only used for a given quest, can otherwise be vendored.",
+					}),
+					i(35799, {	-- Frozen Mojo
+						["description"] = "Only used for a given quest, can otherwise be vendored.",
+					}),
 					i(41123, {	-- Plans: Reinforced Cobalt Helm (RECIPE!)
 						["coord"] = { 68.4, 16.0, GRIZZLY_HILLS },
 						["cr"] = 26270,	-- Iron Rune-Shaper
 					}),
-					i(36758),	-- Sacred Mojo
+					i(36758, {	-- Sacred Mojo
+						["description"] = "Only used for a given quest, can otherwise be vendored.",
+					}),
 					i(46108, {	-- Technique: Rituals of the New Moon
 						["crs"] = {
 							27676,	-- Silverbrook Defender
@@ -2154,6 +2189,9 @@ root(ROOTS.Zones, {
 							26679,	-- Silverbrook Trapper
 							26708,	-- Silverbrook Villager
 						},
+					}),
+					i(35836, {	-- Zim'bo's Mojo
+						["description"] = "Only used for a given quest, can otherwise be vendored.",
 					}),
 				}),
 			},
