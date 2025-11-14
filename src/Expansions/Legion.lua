@@ -144,15 +144,6 @@ app.CreateArtifact = app.CreateClass(CLASSNAME, KEY, {
 		local info = t.artifactinfo
 		return { info[9], info[10], info[11], 1.0 };
 	end,
-	model = function(t)
-		return GetRelativeValue(t.parent, "model");
-	end,
-	modelScale = function(t)
-		return GetRelativeValue(t.parent, "modelScale") or 0.95;
-	end,
-	modelRotation = function(t)
-		return GetRelativeValue(t.parent, "modelRotation") or 45;
-	end,
 	silentLink = function(t)
 		local itemID = t.itemID;
 		if itemID then
@@ -172,6 +163,13 @@ app.CreateArtifact = app.CreateClass(CLASSNAME, KEY, {
 	itemID = function(t)
 		local info = t.artifactinfo
 		return t.isOffHand and info.itemOffhandID or info.itemID
+	end,
+	-- custom 'nmc' for Artifact since it doesn't use 'c' but rather 'class' from artifactinfo
+	nmc = function(t)
+		local nmc = t.artifactinfo.class ~= app.ClassIndex
+		-- app.PrintDebug("artifact.nmc",nmc,t[KEY])
+		t.nmc = nmc
+		return nmc
 	end,
 	modItemID = function(t)
 		-- Artifacts will use a fake modItemID by way of the ArtifactID and IsOffhand
