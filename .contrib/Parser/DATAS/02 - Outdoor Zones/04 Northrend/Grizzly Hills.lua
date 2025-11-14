@@ -575,13 +575,13 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.0, 47.9, GRIZZLY_HILLS },
 					}),
 					q(11984, {	-- Filling the Cages
+						["description"] = "This quest requires the use of a pet named Budd.\nAny pet classes must dismiss their active pets.\nSpeak with Budd in the camp to get him as a pet.\nThe ability to tag a troll can be found on the pet bar.",
 						["sourceQuests"] = {
 							12210,	-- Troll Season! (A)
 							12208,	-- Good Troll Hunting (H)
 						},
 						["qg"] = 26424,	-- Samir
 						["coord"] = { 16.1, 47.6, GRIZZLY_HILLS },
-						["description"] = "This quest requires the use of a pet named Budd.\nAny pet classes must dismiss their active pets.\nSpeak with Budd in the camp to get him as a pet.\nThe ability to tag a troll can be found on the pet bar.",
 						["groups"] = {
 							i(39116),	-- Grinder of Reverse Emancipation
 							i(39142),	-- Mace of Helotry

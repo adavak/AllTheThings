@@ -96,9 +96,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					},
 				}),
 				q(28852, {	-- Soften them Up
+					["description"] = "Blizzard will occasionally mess with the way creatures scales with level, which can make this quest impossible to complete.",
 					["provider"] = { "n", 50390 },	-- Velastrasza
 					["coord"] = { 50, 50, 293 },	-- Grim Batol
-					["description"] = "Blizzard will occasionally mess with the way creatures scales with level, which can make this quest impossible to complete.",
 				}),
 				q(28803, {	-- Vengeance of the Wildhammer
 					["provider"] = { "o", 207411 },	-- Dwarven Bone Pile

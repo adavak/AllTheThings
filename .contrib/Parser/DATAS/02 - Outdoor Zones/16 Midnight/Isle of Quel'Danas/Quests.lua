@@ -99,9 +99,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 				q(86834, {	-- Voidborn Banishing
 					["sourceQuests"] = { 86807 },	-- The Gate
-					["providers"] = {
-						{ "n", 236964 },	-- Arator
-						{ "n", 237222 },	-- Arator (mobileNPC)
+					["qgs"] = {
+						236964,	-- Arator
+						237222,	-- Arator (mobileNPC)
 					},
 					["coord"] = { 41.4, 39.1, ISLE_OF_QUELDANAS_MID_i },
 					["groups"] = {
