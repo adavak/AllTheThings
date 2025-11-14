@@ -409,7 +409,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43829,	-- Spy vs. Spy
 						["provider"] = { "n", 101513 },	-- Lord Jorach Ravenholdt
 						["coord"] = { 41.3, 78.1, THE_HALL_OF_SHADOWS },
-						["groups"] = { i(140395) },	-- Stylish Spy Glasses (QI!)
+						["groups"] = { i(140395, {f=COSMETIC}) },	-- Stylish Spy Glasses (QI!) [Source is learnable, so treat as Cosmetic]
 					}),
 					q(44116, {	-- Mystery at Citrine Bay
 						["sourceQuest"] = 44041,	-- The Bloody Truth
