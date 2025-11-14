@@ -414,7 +414,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43403, {	-- Defending the Isles
 						["sourceQuests"] = { 42046 },	-- A New Beginning
 						["provider"] = { "n", 103832 },	-- Keeper Remulos
-						["coord"] = { 60.5, 23.6, MOUNT_HYJAL },
+						["coord"] = { 44.8, 50.6, THE_DREAMGROVE },
 					}),
 					q(42031, {	-- Dire Growth
 						["sourceQuests"] = { 42032 },	-- Sampling the Nightmare
@@ -634,8 +634,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42049, {	-- Powering the Portal
 						["sourceQuests"] = { 42046 },	-- A New Beginning
-						["provider"] = { "n", 106250 },	-- Keeper Remulos
+						["provider"] = { "n", 103832 },	-- Keeper Remulos
 						["coord"] = { 44.9, 50.0, THE_DREAMGROVE },
+						["groups"] = { i(137119) },	-- Shard of Nightmare (QI!)
 					}),
 					q(46677, {	-- Prick of a Thistle
 						["sourceQuests"] = {
@@ -954,6 +955,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									}),
 								},
 							}),
+							i(136414),	-- Flask of Moonwell Water (QI!)
 						},
 					}),
 					q(40652, {	-- Word on the Winds

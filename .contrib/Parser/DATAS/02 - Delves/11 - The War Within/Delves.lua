@@ -3255,30 +3255,23 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			filter(MISC, {
 				o(409302, {	-- Dispersal Crystal
 					["coord"] = { 63, 54.3, FUNGAL_FOLLY },
-					["groups"] = {
-						i(209788),	-- Dispersion Crystal (QI!)
-					},
+					["groups"] = { i(209788) },	-- Dispersion Crystal (QI!)
 				}),
 				i(210017),	-- Fungal Fish (QI!)
 				o(531965, {	-- Loose Parts
 					["timeline"] = { ADDED_11_2_0 },
-					["groups"] = {
-						i(241220),	-- Loose Parts (QI!)
-					},
+					["coord"] = { 36.5, 13.6, FUNGAL_FOLLY },
+					["groups"] = { i(241220) },	-- Loose Parts (QI!)
 				}),
 				i(244900, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Spark Burst (CI!)
 				o(536065, {	-- Nuts and Bolts
 					["timeline"] = { ADDED_11_2_0 },
-					["groups"] = {
-						i(250107),	-- Nuts and Bolts (QI!)
-					},
+					["groups"] = { i(250107) },	-- Nuts and Bolts (QI!)
 				}),
 				i(238254, {["timeline"] = { ADDED_11_2_0 }}),	-- Nuts and Bolts (QI!)
 				o(531965, {	-- Work Table
 					["timeline"] = { ADDED_11_2_0 },
-					["groups"] = {
-						i(242380),	-- Black Blood Blower (QI!)
-					},
+					["groups"] = { i(242380) },	-- Black Blood Blower (QI!)
 				}),
 			}),
 			n(QUESTS, {

@@ -637,14 +637,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(41739, {	-- Champion: Aegira
-						["provider"] = { "n", 105226 },	-- Aegira <Brewmaster>
+						["qgs"] = {
+							105226,	-- Aegira <Brewmaster>
+							102855,	-- Aegira <Brewmaster>
+						},
 						["coords"] = {
 							{ 31.1, 40.5, THE_WANDERING_ISLE },	-- Next to Storm Brew turn-in
 							{ 55.3, 57.3, THE_WANDERING_ISLE },	-- If you leave Storm Brew turn-in area without doing this quest
 						},
-						["groups"] = {
-							follower(607),	-- Aegira
-						},
+						["groups"] = { follower(607) },	-- Aegira
 					}),
 					q(43359, {	-- A Hero's Weapon
 						["sourceQuests"] = { 41087 },	-- Storm Brew
@@ -709,9 +710,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 53.6, 53.3, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
 						["groups"] = {
+							o(268448, {	-- Fel Cauldron
+								["coords"] = {
+									{ 57.3, 43.5, BROKEN_SHORE },
+									{ 57.3, 46.6, BROKEN_SHORE },
+									{ 57.3, 52.0, BROKEN_SHORE },
+									{ 57.9, 44.8, BROKEN_SHORE },
+									{ 59.3, 51.9, BROKEN_SHORE },
+									{ 59.5, 52.3, BROKEN_SHORE },
+									{ 59.7, 50.5, BROKEN_SHORE },
+									{ 59.9, 44.8, BROKEN_SHORE },
+									{ 59.9, 45.6, BROKEN_SHORE },
+									{ 60.1, 44.4, BROKEN_SHORE },
+									{ 60.5, 52.2, BROKEN_SHORE },
+									{ 60.8, 48.9, BROKEN_SHORE },
+									{ 60.9, 42.1, BROKEN_SHORE },
+									{ 62.2, 38.4, BROKEN_SHORE },
+								},
+								["groups"] = { i(146310) },	-- Vial of Liquid Felflame (QI!)
+							}),
 							i(146312),	-- Demonic Ash (QI!)
 							i(146311),	-- Flask of Fel Blood (QI!)
-							i(146310),	-- Vial of Liquid Felflame (QI!)
 						},
 					}),
 					q(45545, {	-- Barrel Toss
@@ -815,7 +834,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 74.4, 88.7, KUN_LAI_SUMMIT },
 						["timeline"] = { ADDED_7_2_0 },
 						["groups"] = {
-							i(147313),	-- Moon Lily (QI!)
+							o(268813, {	-- Moon Lily
+								["coords"] = {
+									{ 72.6, 43.1, KUN_LAI_SUMMIT },
+									{ 72.7, 37.4, KUN_LAI_SUMMIT },
+									{ 72.7, 38.9, KUN_LAI_SUMMIT },
+									{ 73.0, 44.1, KUN_LAI_SUMMIT },
+									{ 73.2, 37.6, KUN_LAI_SUMMIT },
+									{ 73.4, 45.6, KUN_LAI_SUMMIT },
+									{ 74.1, 47.2, KUN_LAI_SUMMIT },
+									{ 74.3, 47.9, KUN_LAI_SUMMIT },
+								},
+								["groups"] = { i(147313) },	-- Moon Lily (QI!)
+							}),
 						},
 					}),
 					q(46350, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Trial of Ban-Lu

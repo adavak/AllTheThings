@@ -355,7 +355,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 14347 },	-- Highlord Demitrian
 						["coord"] = { 29.6, 10.6, SILITHUS },
 						["groups"] = {
-							i(139000),	-- Damaged Thunderfury (QI!)
+							o(251656, {	-- Damaged Thunderfury
+								["coord"] = { 32.7, 48.8, AZSUNA },
+								["groups"] = { i(139000) },	-- Damaged Thunderfury (QI!)
+							}),
 						},
 					}),
 					q(41770, {	-- The Skies Above

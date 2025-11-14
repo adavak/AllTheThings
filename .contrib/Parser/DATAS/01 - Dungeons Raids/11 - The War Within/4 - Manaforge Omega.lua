@@ -548,6 +548,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						}),
 						title(640),	-- Star Savior <Name>
 					}, {	-- RENOWN 15 --
+						q(91480, { ["timeline"] = { ADDED_11_2_0 } }),	-- Behind Enemy Lines V
 						spell(1239155),	-- Path of the All-Devouring
 					},
 				}))),

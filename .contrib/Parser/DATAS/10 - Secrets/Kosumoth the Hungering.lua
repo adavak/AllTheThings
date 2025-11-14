@@ -113,6 +113,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 			q(43725),	-- Flag 2 triggers on repeated dialogue from Drak'thul during Step 2.
 			q(43727),	-- Flag 3 triggers on repeated dialogue from Drak'thul during Step 2.
 			q(43728),	-- Flag 4 triggers on repeated dialogue from Drak'thul during Step 2.
+			q(91076, { ["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END } }),	-- Obtain final orb within Legion Remix, unlocks Fathom Dweller at Infinite Bazaar
 		}),
 	}),
 })));

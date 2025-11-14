@@ -355,6 +355,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["sourceQuests"] = { 41724, 38675 },	-- Heart of the Nightmare (A, H)
 					["provider"] = { "n", 92783 },	-- Elothir
 					["coord"] = { 66.1, 44.6, VALSHARAH },
+					["groups"] = { i(136391) },	-- Corrupted Petals (QI!)
 				}),
 				q(43702, {	-- Softening the Target
 					["sourceQuests"] = {
@@ -460,6 +461,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
 					["provider"] = { "n", 92618 },	-- Granny Marl
 					["coord"] = { 38.9, 61.4, VALSHARAH },
+					["groups"] = { i(127030) },	-- Granny's Flare Grenades (QI!)
 				}),
 				q(38645, {	-- Children of the Night
 					["sourceQuests"] = { 38643 },	-- A Village in Peril

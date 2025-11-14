@@ -160,11 +160,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 42503,	-- Codebreaker
 							["maps"] = { DUSKWOOD },
 							["groups"] = {
-								i(138113),	-- Blood of the Innocent (QI!)
+								o(250678, {	-- Blood of the Innocent
+									["coord"] = { 73.6, 43.7, DUSKWOOD },
+									["groups"] = { i(138113) },	-- Blood of the Innocent (QI!)
+								}),
 								i(173527, {	-- Duskwood Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
-								i(138112),	-- Skull of the Innocent (QI!)
+								o(250682, {	-- Skull of the Innocent
+									["coord"] = { 73.9, 48.4, DUSKWOOD },
+									["groups"] = { i(138112) },	-- Skull of the Innocent (QI!)
+								}),
 							},
 						}),
 						q(42568, {	-- Preparation
@@ -236,17 +242,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 102120 },	-- Fleet Admiral Tethys
 							["coord"] = { 40.6, 69.2, THE_CAPE_OF_STRANGLETHORN },
 							["groups"] = {
-								i(128872, {	-- The Dreadblades [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(254087, {	-- The Dreadblades
+									["coord"] = { 53.5, 71.9, AZSUNA },
 									["groups"] = {
-										artifact(692),	-- The Dreadblades [Main Hand]
+										i(128872, {	-- The Dreadblades [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(692) },	-- The Dreadblades [Main Hand]
+										}),
 									},
 								}),
 								i(134552, {	-- The Dreadblades [Off Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(692),	-- The Dreadblades [Off Hand]
-									},
+									["groups"] = { artifact(692) },	-- The Dreadblades [Off Hand]
 								}),
 							},
 						}),
@@ -266,6 +273,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 41919,	-- The Shadows Reveal
 							["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 							["coord"] = { 51.6, 70.4, LEGION_DALARAN },
+							["groups"] = {
+								o(248876, {	-- Rune of Portals
+									["coord"] = { 53.8, 47.4, LEGION_DALARAN },
+									["groups"] = { i(136603) },	-- Rune of Portals (QI!)
+								}),
+							},
 						}),
 						q(41921, {	-- Closing In
 							["sourceQuest"] = 41920,	-- A Matter of Finesse
@@ -283,17 +296,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 67.9, 63.1, LEGION_THE_UNDERBELLY },
 							["maps"] = { 740, 741 },	-- Shadowgore Citadel (Scenario Map)
 							["groups"] = {
-								i(128476, {	-- Fangs of the Devourer [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(249347, {		-- Fangs of the Devourer
+									["coord"] = { 63.8, 52.8, 740 },	-- Shadowgore Citadel (Scenario Map)
 									["groups"] = {
-										artifact(67),	-- Fangs of the Devourer [Main Hand]
+										i(128476, {	-- Fangs of the Devourer [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(67) },	-- Fangs of the Devourer [Main Hand]
+										}),
 									},
 								}),
 								i(128479, {	-- Fangs of the Devourer [Off Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(67),	-- Fangs of the Devourer [Off Hand]
-									},
+									["groups"] = { artifact(67) },	-- Fangs of the Devourer [Off Hand]
 								}),
 							},
 						}),

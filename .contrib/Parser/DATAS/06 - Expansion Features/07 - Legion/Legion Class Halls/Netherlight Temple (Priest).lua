@@ -204,16 +204,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					-- Holy
 					q(41957, {	-- The Vindicator's Plea
 						["sourceQuests"] = { 40706 },	-- A Legend You Can Hold
-						["provider"] = { "n", 101314 },	-- Alonsus Faol
+						["qgs"] = {
+							101314,	-- Alonsus Faol
+							110564,	-- Alonsus Faol
+						},
 						["coord"] = { 78.9, 41.0, TIRISFAL_GLADES },
 					}),
 					q(41966, {	-- House Call
 						["sourceQuests"] = { 41957 },	-- The Vindicator's Plea
 						["provider"] = { "n", 105602 },	-- Vindicator Boros
 						["coord"] = { 37.7, 36.7, LEGION_DALARAN },
-						["groups"] = {
-							i(173379),	-- Purify Stone (QI!)
-						},
+						["groups"] = { i(173379) },	-- Purify Stone (QI!)
 					}),
 					q(41967, {	-- Out of the Darkness
 						["sourceQuests"] = { 41966 },	-- House Call
@@ -369,7 +370,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43389, {	-- Unexpected Guests
 						["sourceQuests"] = { 43387 },	-- Scarlet Redemption
-						["provider"] = { "n", 110683 },	-- Mariella the Heretic
+						["provider"] = { "n", 111191 },	-- Mariella the Heretic
 						["maps"] = { DRAGONBLIGHT },
 					}),
 					q(43381, {	-- Champion: Mariella Ward
@@ -385,7 +386,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43390, {	-- Forgotten Shadows
 						["sourceQuests"] = { 43381 },	-- Champion: Mariella Ward
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
-						["coord"] = { 50.9, 46.8, NETHERLIGHT_TEMPLE },
+						["coord"] = { 51.3, 48.9, NETHERLIGHT_TEMPLE },
 					}),
 					q(43391, {	-- Secrets of the Void
 						["sourceQuests"] = { 43390 },	-- Forgotten Shadows
@@ -414,6 +415,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43394, {	-- Crossing Legion Lines
 						["sourceQuests"] = { 43393 },	-- Rising Shadows
 						["provider"] = { "n", 111044 },	-- Lord Maxwell Tyrosus
+						["coord"] = { 49.8, 59.5, NETHERLIGHT_TEMPLE },
 						["maps"] = { 748 },
 					}),
 					q(43396, {	-- The Mind of the Enemy
@@ -442,7 +444,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43832, {	-- Elixirs of Aid
 						["sourceQuests"] = { 43797 },	-- Aiding the Conclave
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
-						["coord"] = { 50.9, 46.8, NETHERLIGHT_TEMPLE },
+						["coord"] = { 51.3, 47.8, NETHERLIGHT_TEMPLE },
 					}),
 					q(43923, {	-- Starlight Rose
 						["sourceQuests"] = { 43832 },	-- Elixirs of Aid
@@ -470,7 +472,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43400, {	-- Lumenstone
 						["sourceQuests"] = { 43797 },	-- Aiding the Conclave
 						["provider"] = { "n", 109776 },	-- Moira Thaurissan
-						["coord"] = { 51.5, 45.9, NETHERLIGHT_TEMPLE },
+						["coord"] = { 51.3, 47.8, NETHERLIGHT_TEMPLE },
 						["groups"] = { i(140191) },	-- Lumenstone (QI!)
 					}),
 					q(43401, {	-- A Light in the Darkness
@@ -647,7 +649,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43383, {	-- Awakening the Light
 						["sourceQuests"] = { 43377 },	-- Halls of Valor: The Light Within
-						["provider"] = { "n", 102587 },	-- Saa'ra
+						["provider"] = { "n", 110864 },	-- Spark of Light
 						["coord"] = { 75.7, 40.7, NETHERLIGHT_TEMPLE },
 						["groups"] = { i(139368) },	-- Pure Holy Light (QI!)
 					}),
@@ -655,25 +657,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43383 },	-- Awakening the Light
 						["provider"] = { "n", 110457 },	-- Sol
 						["coord"] = { 73.9, 40.8, NETHERLIGHT_TEMPLE },
-						["groups"] = {
-							follower(872),	-- Sol
-						},
+						["groups"] = { follower(872) },	-- Sol
 					}),
 					q(42137, {	-- Champion: Yalia Sagewhisper
 						["sourceQuests"] = { 43376 },	-- Problem Salver
 						["provider"] = { "n", 110687 },	-- Yalia Sagewhisper
 						["coord"] = { 47.1, 43.9, AZSUNA },
-						["groups"] = {
-							follower(871),	-- Yalia Sagewhisper
-						},
+						["groups"] = { follower(871) },	-- Yalia Sagewhisper
 					}),
 					q(42138, {	-- Champion: Zabra Hexx
 						["sourceQuests"] = { 43376 },	-- Problem Salver
 						["provider"] = { "n", 110686 },	-- Zabra Hexx
 						["coord"] = { 47.1, 43.9, AZSUNA },
-						["groups"] = {
-							follower(870),	-- Zabra Hexx
-						},
+						["groups"] = { follower(870) },	-- Zabra Hexx
 					}),
 					q(43384, {	-- Demonic Runes
 						["sourceQuests"] = { 43379 },	-- Velen's Vision
@@ -693,7 +689,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43377, {	-- Halls of Valor: The Light Within
 						["sourceQuests"] = { 43379 },	-- Velen's Vision
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
-						["coord"] = { 50.9, 46.8, NETHERLIGHT_TEMPLE },
+						["coord"] = { 51.6, 48.2, NETHERLIGHT_TEMPLE },
 						["groups"] = { i(139485) },	-- Spark of Light (QI!)
 					}),
 					q(43385, {	-- Infiltrating Our Enemies

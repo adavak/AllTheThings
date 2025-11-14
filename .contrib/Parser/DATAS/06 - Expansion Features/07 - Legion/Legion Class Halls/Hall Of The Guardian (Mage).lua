@@ -773,11 +773,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 56.2, 37.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
 						["groups"] = {
-							i(146404),	-- Coronet of the Lu'minellia (QI!)
-							i(146405),	-- Crystallized Silithid Essence (QI!)
-							i(146402),	-- Erno's Enigma (QI!)
-							i(146409),	-- Nightborne Soulstone (QI!)
-							i(146403),	-- Twilight Device (QI!)
+							o(268476, {	-- Cache of the Sin'dorei
+								["coord"] = { 58.6, 67.6, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+								["groups"] = { i(146404) },	-- Coronet of the Lu'minellia (QI!)
+							}),
+							o(268477, {	-- Crystallized Sillithid Essence
+								["coord"] = { 63.1, 43.1, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+								["groups"] = { i(146405) },	-- Crystallized Silithid Essence (QI!)
+							}),
+							o(268474, {	-- Erno's Enigma
+								["coord"] = { 82.6, 25.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+								["groups"] = { i(146402) },	-- Erno's Enigma (QI!)
+							}),
+							o(268479, {	-- Nightborne Soulstone
+								["coord"] = { 72.8, 60.5, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+								["groups"] = { i(146409) },	-- Nightborne Soulstone (QI!)
+							}),
+							o(268475, {	-- Twilight Reliquary
+								["coord"] = { 50.0, 58.5, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+								["groups"] = { i(146403) },	-- Twilight Device (QI!)
+							}),
 						},
 					}),
 					q(46338, {	-- A Creative Solution
@@ -900,9 +915,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							i(143837),	-- Tri-Disc of Frost (QI!)
-						},
+						["groups"] = { i(143837) },	-- Tri-Disc of Frost (QI!)
 					}),
 					q(45845, {	-- Burning Within
 						["sourceQuest"] = 45844,	-- Avocation of Antonidas
@@ -910,7 +923,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
 						["groups"] = {
-							i(143836),	-- Tri-Disc of Fire (QI!)
+							o(267190, {	-- Tri-Disc of Fire
+								["coord"] = { 51.6, 89.6, DEADWIND_PASS },
+								["groups"] = { i(143836) },	-- Tri-Disc of Fire (QI!)
+							}),
 						},
 					}),
 					q(45847, {	-- Close to Home
@@ -919,7 +935,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
 						["groups"] = {
-							i(143838),	-- Tri-Disc of the Arcane (QI!)
+							o(267181, {	-- Tri-Disc of the Arcane
+								["coord"] = { 53.8, 47.7, LEGION_DALARAN },
+								["groups"] = { i(143838) },	-- Tri-Disc of the Arcane (QI!)
+							}),
 						},
 					}),
 					q(45354, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Dispersion of the Discs
