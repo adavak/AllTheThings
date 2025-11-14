@@ -1943,6 +1943,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 	expansion(EXPANSION.MID, {
 		-- 12.0.0
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+			i(242719),	-- Chest of Playtest Equipment
 			i(255828),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Alchemy
 			i(255829),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Blacksmithing
 			i(255830),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Enchanting

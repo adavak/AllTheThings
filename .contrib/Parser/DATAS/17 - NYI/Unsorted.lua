@@ -690,7 +690,6 @@ root(ROOTS.Unsorted, {
 			i(242651),	-- Stabilized Derivate
 			i(242693),	-- Kafaccino
 			i(242712),	-- Eversong Diamond
-			i(242719),	-- Chest of Playtest Equipment
 			i(242720),	-- Harandar Peridot
 			i(242721),	-- Tenebrous Amethyst
 			i(242722),	-- Amani Lapis

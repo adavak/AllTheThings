@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			n(252465, {	-- Tarhu the Ransacker
-				["coord"] = { 55.5, 28.8, ISLE_OF_QUELDANAS_MID_i },	-- TODO: it also up on normal map, need to re-confirm coords
+				["coord"] = { 55.5, 28.7, ISLE_OF_QUELDANAS_MID_i },
 				--["questID"] = ??,	-- missing kill questID
 				["groups"] = {
 					--no loot table

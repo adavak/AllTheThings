@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	m(ISLE_OF_QUELDANAS_MID, {
 		n(TREASURES, {
 			o(577798, {	-- Artisan's Cache
-				["coord"] = { 38.5, 45.3, ISLE_OF_QUELDANAS_MID_i },
+				["coord"] = { 58.8, 35.2, ISLE_OF_QUELDANAS_MID_i },
 				["questID"] = 92623,
 				["groups"] = {
 					--ph
@@ -40,6 +40,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--ph
 				},
 			}),
+			--o(XXXXXX, {	-- Artisan's Cache	// Exo Note: Forgot to enable debugger. Server was laggy and DCing all the time.
+			--	["coord"] = { 48.9, 21.8, ISLE_OF_QUELDANAS_MID_i },
+			--	["questID"] = 94830,
+			--	["groups"] = {
+			--		--ph
+			--	},
+			--}),
 			-- possible, they become locked after map switch (intro quest)
 		}),
 	}),

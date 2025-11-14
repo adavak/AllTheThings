@@ -5,6 +5,15 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(ISLE_OF_QUELDANAS_MID, {
 		n(ZONE_REWARDS, {
+			o(532495, {	-- Healing Salve
+				i(237899),	-- Healing Salve (QI!)
+			}),
+			o(518640, {	-- Lightspire Spear
+				i(237140),	-- Lightspire Spear (QI!)
+			}),
+			o(523752, {	-- Medical Supplies
+				i(237899),	-- Healing Salve (QI!)
+			}),
 		}),
 	}),
 }));

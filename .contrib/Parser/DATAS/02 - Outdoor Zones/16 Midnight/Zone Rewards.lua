@@ -3,6 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(MIDNIGHT, {
 	n(ZONE_REWARDS, {
+		currency(VOIDLIGHT_MARL),
 		--TODO: alpha state - seems like there no separation between zones in rewards and they could be mixed in
 		n(ARMOR, {
 			filter(BACK_F, {
