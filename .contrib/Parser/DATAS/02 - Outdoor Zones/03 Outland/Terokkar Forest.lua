@@ -1777,6 +1777,14 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					n(19718, {	-- Provisioner Tsaalt
+						["coord"] = { 39.7, 70.1, TEROKKAR_FOREST },
+						["minReputation"] = { FACTION_LOWER_CITY, FRIENDLY },	-- Lower City, Friendly.
+						["groups"] = {
+							i(27857),	-- Garadar Sharp
+							i(29448),	-- Mag'har Mild Cheese
+						},
+					}),
 					n(18960, {	-- Rungor <Trade Goods>
 						["coord"] = { 48.8, 46.0, TEROKKAR_FOREST },
 						["races"] = HORDE_ONLY,
