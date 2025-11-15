@@ -425,6 +425,7 @@ HeaderAssignments = {
 	["Queen's Conservatory"] = -168,
 	["Quests"] = -45,
 	["Raid Finder Vendor"] = -344,
+	["Raid Gear Conversion"] = -687,
 	["Raids"] = -77,
 	["Rank 1"] = -307,
 	["Rank 2"] = -308,
@@ -676,4 +677,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -687;
+NextHeaderID = -688;

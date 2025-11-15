@@ -50,8 +50,6 @@ local COMMONLOOT = {
 		-- No cloaks were made for Remix here
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247188),	-- Gilded Seraph's Drape
 		i(247170),	-- Runebound Cape
 		i(247206),	-- Grim Inquisitor's Cloak
@@ -77,8 +75,6 @@ local COMMONLOOT = {
 		i(247625),	-- Whisperstep Runners
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247189),	-- Gilded Seraph's Handwraps
 		i(247190),	-- Gilded Seraph's Crown
 		i(247191),	-- Gilded Seraph's Leggings
@@ -107,8 +103,6 @@ local COMMONLOOT = {
 		i(247634),	-- Vicious Flamepaws
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247194),	-- Vest of the Dashing Scoundrel
 		i(247196),	-- Gloves of the Dashing Scoundrel
 		i(247197),	-- Cavalier Hat of the Dashing Scoundrel
@@ -142,8 +136,6 @@ local COMMONLOOT = {
 		i(247655),	-- World-Ravager Waistguard
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247164),	-- Serpentstalker Tunic
 		i(247166),	-- Serpentstalker Grips
 		i(247167),	-- Serpentstalker Helmet
@@ -167,8 +159,6 @@ local COMMONLOOT = {
 		i(247652),	-- Varimathras' Shattered Manacles
 
 		-- Set items
-		-- These might not drop and be Ensemble only
-		-- Remove when confirmed
 		i(247212),	-- Juggernaut Breastplate
 		i(247214),	-- Juggernaut Gauntlets
 		i(247215),	-- Juggernaut Helm
@@ -349,6 +339,138 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}),
 					}),
 				}),
+				n(RAID_GEAR_CONVERSION, bubbleDown({ ["modID"] = 4 }, {
+					filter(CLOAKS, {
+						-- Regular items
+						-- No cloaks were made for Remix here
+
+						-- Set items
+						i(247188),	-- Gilded Seraph's Drape
+						i(247170),	-- Runebound Cape
+						i(247206),	-- Grim Inquisitor's Cloak
+						i(247195),	-- Cloak of the Dashing Scoundrel
+						i(247177),	-- Cloak of Chi-Ji
+						i(247159),	-- Bearmantle Cloak
+						i(247153),	-- Felreaper Drape
+						i(247165),	-- Serpentstalker Drape
+						i(247201),	-- Drape of Venerated Spirits
+						i(247213),	-- Juggernaut Cloak
+						i(247183),	-- Light's Vanguard Greatcloak
+						i(247147),	-- Dreadwake Greatcloak
+					}),
+					filter(CLOTH, {
+						-- Regular items
+						i(247632),	-- Blood-Drenched Bindings
+						i(247627),	-- Cord of Surging Hysteria
+						i(247630),	-- Cord of Blossoming Petals
+						i(247629),	-- Enhanced Worldscorcher Cinch
+						i(247628),	-- Lady Dacidion's Silk Slippers
+						i(247631),	-- Man'ari Pyromancer Cuffs
+						i(247626),	-- Sandals of the Reborn Colossus
+						i(247625),	-- Whisperstep Runners
+
+						-- Set items
+						i(247189),	-- Gilded Seraph's Handwraps
+						i(247190),	-- Gilded Seraph's Crown
+						i(247191),	-- Gilded Seraph's Leggings
+						i(247192),	-- Gilded Seraph's Robes
+						i(247193),	-- Gilded Seraph's Amice
+						i(247171),	-- Runebound Gloves
+						i(247172),	-- Runebound Collar
+						i(247173),	-- Runebound Leggings
+						i(247174),	-- Runebound Tunic
+						i(247175),	-- Runebound Mantle
+						i(247207),	-- Grim Inquisitor's Gloves
+						i(247208),	-- Grim Inquisitor's Death Mask
+						i(247209),	-- Grim Inquisitor's Leggings
+						i(247210),	-- Grim Inquisitor's Robes
+						i(247211),	-- Grim Inquisitor's Shoulderguards
+					}),
+					filter(LEATHER, {
+						-- Regular items
+						i(247637),	-- Belt of Fractured Sanity
+						i(247654),	-- Bracers of Wanton Morality
+						i(247635),	-- Death-Enveloping Cincture
+						i(247653),	-- Depraved Machinist's Footpads
+						i(247638),	-- Fiendish Logistician's Wristwraps
+						i(247633),	-- Life-Bearing Footpads
+						i(247636),	-- Portal Keeper's Cincture
+						i(247634),	-- Vicious Flamepaws
+
+						-- Set items
+						i(247194),	-- Vest of the Dashing Scoundrel
+						i(247196),	-- Gloves of the Dashing Scoundrel
+						i(247197),	-- Cavalier Hat of the Dashing Scoundrel
+						i(247198),	-- Pants of the Dashing Scoundrel
+						i(247199),	-- Shoulderpads of the Dashing Scoundrel
+						i(247176),	-- Tunic of Chi-Ji
+						i(247178),	-- Grips of Chi-Ji
+						i(247179),	-- Douli of Chi-Ji
+						i(247180),	-- Leggings of Chi-Ji
+						i(247181),	-- Meditation Spheres of Chi-Ji
+						i(247158),	-- Bearmantle Harness
+						i(247160),	-- Bearmantle Paws
+						i(247161),	-- Bearmantle Headdress
+						i(247162),	-- Bearmantle Legguards
+						i(247163),	-- Bearmantle Shoulders
+						i(247152),	-- Felreaper Vest
+						i(247154),	-- Felreaper Gloves
+						i(247155),	-- Felreaper Hood
+						i(247156),	-- Felreaper Leggings
+						i(247157),	-- Felreaper Spaulders
+					}),
+					filter(MAIL, {
+						-- Regular items
+						i(247639),	-- Deft Soulhunter's Sabatons
+						i(247641),	-- Depraved Tactician's Waistguard
+						i(247656),	-- Greatboots of the Searing Tempest
+						i(247640),	-- Nathrezim Shade-Walkers
+						i(247643),	-- Reality-Splitting Wristguards
+						i(247642),	-- Sash of the Gilded Rose
+						i(247651),	-- Scalding Shatterguards
+						i(247655),	-- World-Ravager Waistguard
+
+						-- Set items
+						i(247164),	-- Serpentstalker Tunic
+						i(247166),	-- Serpentstalker Grips
+						i(247167),	-- Serpentstalker Helmet
+						i(247168),	-- Serpentstalker Legguards
+						i(247169),	-- Serpentstalker Mantle
+						i(247200),	-- Robes of Venerated Spirits
+						i(247202),	-- Gloves of Venerated Spirits
+						i(247203),	-- Headdress of Venerated Spirits
+						i(247204),	-- Leggings of Venerated Spirits
+						i(247205),	-- Pauldrons of Venerated Spirits
+					}),
+					filter(PLATE, {
+						-- Regular items
+						i(247645),	-- Burning Coven Sabatons
+						i(247644),	-- Doomwalker Warboots
+						i(247646),	-- Eredar Warcouncil Sabatons
+						i(247648),	-- Flamelicked Girdle
+						i(247649),	-- Grond-Father Girdle
+						i(247647),	-- Nathrezim Battle Girdle
+						i(247650),	-- Vambraces of Life's Assurance
+						i(247652),	-- Varimathras' Shattered Manacles
+
+						-- Set items
+						i(247212),	-- Juggernaut Breastplate
+						i(247214),	-- Juggernaut Gauntlets
+						i(247215),	-- Juggernaut Helm
+						i(247216),	-- Juggernaut Legplates
+						i(247217),	-- Juggernaut Pauldrons
+						i(247182),	-- Light's Vanguard Breastplate
+						i(247184),	-- Light's Vanguard Gauntlets
+						i(247185),	-- Light's Vanguard Helm
+						i(247186),	-- Light's Vanguard Legplates
+						i(247187),	-- Light's Vanguard Shoulderplates
+						i(247146),	-- Dreadwake Bonecage
+						i(247148),	-- Dreadwake Gauntlets
+						i(247149),	-- Dreadwake Helm
+						i(247150),	-- Dreadwake Legplates
+						i(247151),	-- Dreadwake Pauldrons
+					}),
+				})),
 				Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
 					header(HEADERS.Achievement, 60871, {	-- Light's Breach
 						BossOnly(WORLDBREAKER),
