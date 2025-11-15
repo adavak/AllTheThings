@@ -1882,7 +1882,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		}),
 		n(ARMOR, {
 			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(98612, {["timeline"] = {ADDED_5_4_0}})),	-- Belt of the Night Sky
+			-- #if NOT ANYCLASSIC
+			-- Wouter NOTE: these are not available in Classic for some reason
 			i(92726),	-- Bipsi's Gloves
+			-- #endif
 			i(82430),	-- Contender's Satin Amice
 			i(82436),	-- Contender's Satin Belt
 			i(82429),	-- Contender's Satin Cowl
