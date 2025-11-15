@@ -15,6 +15,6 @@ RAID_GEAR_CONVERSION = createHeader({
 		-- tw = "",
 	},
 	description = {
-		en = "These items are obtained when you keep the raid items in your inventory during the transfer to Retail.",
+		en = "When transferring a Timerunner to Retail, any Normal+ raid drop in your bags, bank, or mailbox will grant the appearances for their LFR, N, H, and M difficulty Remix variants.",
 	},
 });
