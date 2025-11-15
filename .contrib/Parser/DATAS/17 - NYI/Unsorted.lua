@@ -4762,9 +4762,6 @@ root(ROOTS.Unsorted, {
 				i(244908),	-- Winter Veil Gift
 				i(252990),	-- Drustvar Candies
 				i(263508),	-- Human Brain
-				i(254323),	-- Worldsoul Satchel
-				i(254324),	-- Worldsoul Satchel
-				i(254325),	-- Worldsoul Satchel
 				i(260428),	-- Raw Mussel
 				i(260429),	-- Crescent Cove Crab
 				i(260519),	-- Farm Carrots

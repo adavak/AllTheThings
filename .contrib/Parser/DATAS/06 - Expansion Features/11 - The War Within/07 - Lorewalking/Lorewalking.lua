@@ -173,7 +173,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 					}),
 				}),
 				--header(HEADERS.Achievement, 61467, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Lorewalking: The Elves of Quel'thalas
-				-- Not available on PTR... For now?
+					-- Not available on PTR or Beta... I guess we'll see it when 11.2.7 goes live...
 				--})),
 				header(HEADERS.Achievement, 42189, {	-- Lorewalking: The Lich King
 					q(85884, {	-- Lorewalking: The Prince Who Would Be King
@@ -219,6 +219,54 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						--["coord"] = { X, Y, ICECROWN_CITADEL },
 					}),
 				}),
+				header(HEADERS.Quest, 93929, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- The War Within Recap
+					q(93929, {	-- The War Within Recap
+						["lvl"] = 71,
+					}),
+					q(91843, {	-- Recap: The Harbinger
+						["qg"] = 248956,	-- Tome of History
+						["coord"] = { 49.5, 31.9, DORNOGAL },
+					}),
+					q(91864, {	-- Recap: Fractured Visions
+						["sourceQuest"] = 91843,	-- Recap: The Harbinger
+						["qg"] = 248948,	-- Tome of History
+						["coord"] = { 49.5, 31.9, DORNOGAL },
+						["groups"] = {
+							i(254323, {	-- Worldsoul Satchel
+								["description"] = "Contains Equipment rewarded from various Quests available throughout Khaz Algar.",
+							}),
+						},
+					}),
+					q(91868, {	-- Recap: Shadowy Pursuits
+						["sourceQuest"] = 91864,	-- Recap: Fractured Visions
+						["qg"] = 248948,	-- Tome of History
+						["coords"] = {
+							{ 43.0, 34.1, THE_RINGING_DEEPS },	-- If you were to continue the Recap right away
+							{ 49.5, 31.9, DORNOGAL },	-- If you were to abandon the Recap and come back later
+						},
+						["groups"] = {
+							i(254324, {	-- Worldsoul Satchel
+								["description"] = "Contains Equipment rewarded from various Quests available throughout Khaz Algar.",
+							}),
+						},
+					}),
+					q(91871, {	-- Recap: The Dark Heart
+						["sourceQuest"] = 91868,	-- Recap: Shadowy Pursuits
+						["qg"] = 248948,	-- Tome of History
+						["coord"] = { 49.5, 31.9, DORNOGAL },
+						["groups"] = {
+							i(254325, {	-- Worldsoul Satchel
+								["description"] = "Contains Equipment rewarded from various Quests available throughout Khaz Algar.",
+							}),
+						},
+					}),
+					q(93979, {	-- Lingering Memories
+						["description"] = "'Lingering Memories' is available only through Recap Experience. It replaces the quest 'What Is Left of Home' (85032).",
+						["sourceQuest"] = 84967,	-- The Shadowguard Shattered
+						["qg"] = 231128,	-- Locus-Walker
+						["coord"] = { 37.7, 74.8, KARESH_TAZAVESH },
+					}),
+				})),
 			}),
 		},
 	})),
