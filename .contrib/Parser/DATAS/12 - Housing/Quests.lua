@@ -39,7 +39,6 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		},
 	}),
 	q(93647, {	-- Lumber For You
-		["sourceQuests"] = { 91969 },	-- Time to Decorate
 		["qgs"] = {
 			255519,	-- Lestia Goldenstrike [A]
 			255520,	-- Xiz'ro [H]
@@ -141,6 +140,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(245548) },	-- Iron-Reinforced Cupboard (DECOR!)
 		}),
 		q(92978, {	-- Decor Treasure Hunt
+			["description"] = "Treasure can be found between the dock and the stranded boat at the Brumewood Hollow of the Founder's Point at 54.2, 73.6",
+			["coord"] = { 54.2, 73.6, FOUNDERS_POINT },	-- Treasure
 			["groups"] = { i(243334) },	-- Reinforced Wooden Chest (DECOR!)
 		}),
 		q(92979, {	-- Decor Treasure Hunt
@@ -263,7 +264,7 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(93009, {	-- Decor Treasure Hunt
 			-- WoWhead Comment: Behind the big circular hay bale location 57.59
-			["groups"] = { i(246023) },	-- Bel'ameth Large Platform (DECOR!)
+			["groups"] = { i(246255) },	-- Bel'ameth Large Platform (DECOR!)
 		}),
 		q(93078, {	-- Decor Treasure Hunt
 			-- Exo Note: Somewhere in the area of 53.8, 24.0
@@ -296,7 +297,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(244534) },	-- Iron-Reinforced Door (DECOR)
 		}),
 		q(93080, {	-- Decor Treasure Hunt
-			-- WoWhead Comment: Just northwest of Cragthrown Highlands flightpath. You will see sellers outlining a circular plot. The treasure is there under a tent.
+			["description"] = "Treasure can be found under the tent in the Sellers Market at the Cragthorn Highlands of the Razorwind Shores at 62.6, 51.7",
+			["coord"] = { 62.6, 51.7, RAZORWIND_SHORES },	-- Treasure
 			["groups"] = { i(245266) },	-- Iron-Studded Wooden Window (DECOR)
 		}),
 		q(93081, {	-- Decor Treasure Hunt
@@ -409,7 +411,7 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 		}),
 		q(93138, {	-- Decor Treasure Hunt
 			-- WoWhead Comment: The chest can be found in the SouthEast, 59.9, 76.1 at Razorwind Shores.
-			["groups"] = { i(246017) },	-- Silvermoon Large Platform (DECOR!)
+			["groups"] = { i(246250) },	-- Silvermoon Large Platform (DECOR!)
 		}),
 		q(93139, {	-- Decor Treasure Hunt
 			["groups"] = { i(246253) },	-- Silvermoon Round Platform (DECOR!)

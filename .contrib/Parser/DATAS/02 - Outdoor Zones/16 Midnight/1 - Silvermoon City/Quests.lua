@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(MIDNIGHT, {
 	m(EVERSONG_WOODS_MID, {
 		n(QUESTS, {
-			--Battle Pet
+			-- Battle Pet
 			q(94012, {	-- Lost Lil' Strider
 				["provider"] = { "n", 257039 },	-- Hawkrancher Saman
 				["coord"] = { 41.8, 76.4, SILVERMOON_CITY_MID },
@@ -20,6 +20,16 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["coord"] = { 41.8, 76.4, SILVERMOON_CITY_MID },
 				["groups"] = {
 					i(263871),	-- Holy Pet Leash (QI!)
+				},
+			}),
+			-- Profession(s)
+			q(93723, {	-- Crafters Needed
+				["qg"] = 243283,	-- Captain Flaresworn
+				["coord"] = { 45.0, 55.2, SILVERMOON_CITY_MID },
+				["groups"] = {
+					i(251321),	-- Collection of Eversong Minerals
+					i(251322),	-- Thalassian Leatherworker's Duffel
+					i(251327),	-- Thalassian Tailor's Tote Bag
 				},
 			}),
 		}),

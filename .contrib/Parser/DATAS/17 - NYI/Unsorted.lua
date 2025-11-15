@@ -2031,11 +2031,8 @@ root(ROOTS.Unsorted, {
 			i(251285),	-- Petrified Root
 			i(251286),	-- Bundle of Petrified Roots
 			i(251287),	-- Generous Bundle of Petrified Roots
-			i(251321),	-- Collection of Eversong Minerals
-			i(251322),	-- Thalassian Leatherworker's Duffel
 			i(251324),	-- Basket of Eversong Herbs
 			i(251326),	-- Thalassian Enchanter's Purse
-			i(251327),	-- Thalassian Tailor's Tote Bag
 			i(251487),	-- Prismatic Focusing Iris
 			i(251488),	-- Prismatic Focusing Iris
 			i(251489),	-- Stabilizing Gemstone Bandolier

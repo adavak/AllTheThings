@@ -1698,3 +1698,13 @@ i(249705, 1249468);	-- Deal: Cartel Om
 i(249701, 1249463);	-- Deal: Cartel Zo
 i(246811, 1243994);	-- Inspired Writer's Quill
 i(244334, 1236908);	-- Vantus Rune: Manaforge Omega
+
+------------------
+-- PATCH 11.2.7 --
+------------------
+--- ITEM ---
+i(257025, 1261032);	-- Technique: Frostwall Elevated Brazier
+i(257028, 1261066);	-- Technique: Orcish Banded Barrel
+i(262809, 1269500);	-- Technique: Orcish Fence
+i(262810, 1269501);	-- Technique: Orcish Fencepost
+i(257027, 1261045);	-- Technique: Wooden Shipping Crate
