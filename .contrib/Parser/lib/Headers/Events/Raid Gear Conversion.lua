@@ -18,3 +18,15 @@ RAID_GEAR_CONVERSION = createHeader({
 		en = "When transferring a Timerunner to Retail, any Normal+ raid drop in your bags, bank, or mailbox will grant the appearances for their LFR, N, H, and M difficulty Remix variants.",
 	},
 });
+
+-- allows creating an Item which has a cost assignment from the other variants of that item
+i_RAID_GEAR_CONVERSION = function(itemID)
+	-- This is expected to be an LFR variant of the Item
+	local item = i(itemID)
+	item.cost = {
+		{"i",modItemId(itemID,3),1},	-- Normal
+		{"i",modItemId(itemID,5),1},	-- Heroic
+		{"i",modItemId(itemID,6),1},	-- Mythic
+	}
+	return item
+end

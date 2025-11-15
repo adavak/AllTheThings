@@ -223,8 +223,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 				n(RAID_GEAR_CONVERSION, bubbleDown({ ["modID"] = 4 }, {
 					filter(CLOAKS, {
-						i(247560),	-- Evergreen Vinewrap Drape
-						i(247512),	-- Gossamer-Spun Greatcloak
+						i_RAID_GEAR_CONVERSION(247560),	-- Evergreen Vinewrap Drape
+						i_RAID_GEAR_CONVERSION(247512),	-- Gossamer-Spun Greatcloak
 					}),
 					filter(CLOTH, {
 						i(247517),	-- Ancient Dreamwoven Mantle
