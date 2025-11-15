@@ -249,7 +249,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					-- Disc
 					q(41625, {	-- The Light's Wrath
 						["sourceQuests"] = { 40706 },	-- A Legend You Can Hold
-						["provider"] = { "n", 101314 },	-- Alonsus Faol
+						["qgs"] = {
+							101314,	-- Alonsus Faol
+							110564,	-- Alonsus Faol
+						},
 						["coord"] = { 51.5, 47.9, NETHERLIGHT_TEMPLE },
 					}),
 					q(41626, {	-- A New Threat
@@ -265,9 +268,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(41628, {	-- Eyes of the Dragon
 						["sourceQuests"] = { 41626 },	-- A Forgotten Enemy
 						["provider"] = { "n", 105917 },	-- Image of Kalec
-						["groups"] = {
-							i(173430),	-- Nexus Teleport Scroll (QI!)
-						},
+						["groups"] = { i(173430) },	-- Nexus Teleport Scroll (QI!)
 					}),
 					q(41629, {	-- Harnessing the Holy Fire
 						["sourceQuests"] = { 41627 },	-- Eyes of the Dragon
@@ -281,6 +282,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41630 },	-- Unleashing Judgment
 						["provider"] = { "n", 105917 },	-- Image of Kalec
 						["maps"] = { 736 },	-- The Nexus Vault
+						["groups"] = {
+							o(248572, {	-- Light's Wrath
+								i(128868, {	-- Light's Wrath
+									["ItemAppearanceModifierID"] = 9,
+									["groups"] = { artifact(292) },	-- Light's Wrath
+								}),
+							}),
+						},
 					}),
 					q(41632, {	-- A Gift of Time
 						["sourceQuests"] = { 41630 },	-- The Nexus Vault
@@ -299,9 +308,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 112401 },	-- Meridelle Lightspark
 						["coord"] = { 38.9, 24.4, NETHERLIGHT_TEMPLE },
 						["lvl"] = 45,
-						["groups"] = {
-							i(139757),	-- Miter of the High Priest
-						},
+						["groups"] = { i(139757) },	-- Miter of the High Priest
 					}),
 					-- Zone
 					q(41019, {	-- Actions on Azeroth
@@ -609,9 +616,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 46145 },	-- Sterile Surroundings
 						["provider"] = { "n", 120842 },	-- Aelthalyste
 						["coord"] = { 24.8, 40.1, NETHERLIGHT_TEMPLE },
-						["groups"] = {
-							follower(1002),	-- Aelthalyste
-						},
+						["groups"] = { follower(1002) },	-- Aelthalyste
 					}),
 					q(45788, {	-- The Speaker Awaits
 						["sourceQuests"] = { 46034 },	-- Champion: Aelthalyste
@@ -623,9 +628,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 102709 },	-- Betild Deepanvil <Master Artificer>
 						["coord"] = { 50.4, 21.8, NETHERLIGHT_TEMPLE },
 						["maps"] = { 839 },	-- THe Maelstrom
-						["groups"] = {
-							mount(229377),	-- High Priest's Lightsworn Seeker (MOUNT!)
-						},
+						["groups"] = { mount(229377) },	-- High Priest's Lightsworn Seeker (MOUNT!)
 					}),
 					q(43375, {	-- An Ample Supply
 						["sourceQuests"] = { 43374 },	-- Murloc Mind Control (must pick up for this quest to be available)

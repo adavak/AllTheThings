@@ -574,12 +574,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(41773, {	-- The Firelord's Command
 						["sourceQuests"] = { 41772 },	-- Ascendant of Flames
 						["provider"] = { "n", 105055 },	-- Baron Scaldius
-						["maps"] = { THE_HEART_OF_AZEROTH_FIRELANDS },	-- Firelands (Scenario Map)
+						["maps"] = { THE_HEART_OF_AZEROTH_FIRELANDS },
 					}),
 					q(41934, {	-- The Brand of Damnation
 						["sourceQuests"] = { 41773 },	-- The Firelord's Command
 						["provider"] = { "n", 105120 },	-- Lord Smolderon
-						["maps"] = { THE_HEART_OF_AZEROTH_FIRELANDS },	-- Firelands (Scenario Map)
+						["coord"] = { 49.2, 31.0, THE_HEART_OF_AZEROTH_FIRELANDS },
 						["groups"] = {
 							o(248868, {	-- Emberscar, Brand of Damnation
 								["coord"] = { 21.5, 36.2, THE_HEART_OF_AZEROTH_FIRELANDS },
@@ -590,7 +590,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(41888, {	-- Allegiance of Flame
 						["sourceQuests"] = { 41934 },	-- The Brand of Damnation
 						["provider"] = { "n", 105594 },	-- Lord Smolderon
-						["maps"] = { THE_HEART_OF_AZEROTH_FIRELANDS },	-- Firelands (Scenario Map)
+						["maps"] = { THE_HEART_OF_AZEROTH_FIRELANDS },
 						["groups"] = {
 							i(139698),	-- Farseer's Harness
 							title(336),	-- Farseer <Name>

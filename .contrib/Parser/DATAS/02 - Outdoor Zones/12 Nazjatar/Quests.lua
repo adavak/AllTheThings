@@ -2664,9 +2664,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168324),	-- Braxicus' Giant Claw (QI!)
-			},
+			["groups"] = { i(168324) },	-- Braxicus' Giant Claw (QI!)
 		}),
 		q(55770, {	-- WANTED: Commander Sarj'eth (A)
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
@@ -2674,18 +2672,14 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168317),	-- Commander Sarj'eth's Head (QI!)
-			},
+			["groups"] = { i(168317) },	-- Commander Sarj'eth's Head (QI!)
 		}),
 		q(56223, {	-- Wanted: Commander Sarj'eth (H)
 			["provider"] = { "o", 327585 },	-- Bounty Board
 			["coord"] = { 47.9, 61.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168317),	-- Commander Sarj'eth's Head (QI!)
-			},
+			["groups"] = { i(168317) },	-- Commander Sarj'eth's Head (QI!)
 		}),
 		q(55776, {	-- WANTED: Emorneth
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
@@ -2702,9 +2696,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168321),	-- Eye of Gler'thogg (QI!)
-			},
+			["groups"] = { i(168321) },	-- Eye of Gler'thogg (QI!)
 		}),
 		q(56226, {	-- WANTED: Gler'thogg (H)
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
@@ -2713,9 +2705,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168321),	-- Eye of Gler'thogg (QI!)
-			},
+			["groups"] = { i(168321) },	-- Eye of Gler'thogg (QI!)
 		}),
 		q(55775, {	-- WANTED: Haggronar
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
@@ -2724,9 +2714,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168323),	-- Haggronar's Head (QI!)
-			},
+			["groups"] = { i(168323) },	-- Haggronar's Head (QI!)
 		}),
 		q(55774, {	-- WANTED: Inquisitor Ithriza (A)
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
@@ -2735,18 +2723,14 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168322),	-- Inquisitor Ithriza's Head (QI!)
-			},
+			["groups"] = { i(168322) },	-- Inquisitor Ithriza's Head (QI!)
 		}),
 		q(56227, {	-- WANTED: Inquisitor Ithriza (H)
 			["provider"] = { "o", 327585 },	-- Bounty Board
 			["coord"] = { 47.9, 61.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168322),	-- Inquisitor Ithriza's Head (QI!)
-			},
+			["groups"] = { i(168322) },	-- Inquisitor Ithriza's Head (QI!)
 		}),
 		q(55772, {	-- WANTED: Lady Narjiss (A)
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
@@ -2754,9 +2738,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168319),	-- Lady Narjiss' Head (QI!)
-			},
+			["groups"] = { i(168319) },	-- Lady Narjiss' Head (QI!)
 		}),
 		q(56225, {	-- Wanted: Lady Narjiss (H)
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
@@ -2764,9 +2746,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 47.9, 61.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168319),	-- Lady Narjiss' Head (QI!)
-			},
+			["groups"] = { i(168319) },	-- Lady Narjiss' Head (QI!)
 		}),
 		q(55750, {	-- WANTED: Lady Naz'jess
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
@@ -2775,9 +2755,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168265),	-- Lady Naz'jess' Head (QI!)
-			},
+			["groups"] = { i(168265) },	-- Lady Naz'jess' Head (QI!)
 		}),
 		q(56222, {	-- WANTED: Lady Naz'jess
 			--["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
@@ -2786,9 +2764,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168265),	-- Lady Naz'jess' Head (QI!)
-			},
+			["groups"] = { i(168265) },	-- Lady Naz'jess' Head (QI!)
 		}),
 		q(55771, {	-- WANTED: Lord Ha'kass
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
@@ -2797,20 +2773,16 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] ={
-				i(168318),	-- Lord Ha'kass' Head (QI!)
-			},
+			["groups"] ={ i(168318) },	-- Lord Ha'kass' Head (QI!)
 		}),
 		q(56224, {	-- WANTED: Lord Ha'kass
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
 			["sourceQuest"] = 55500,	-- Save a Friend
-			["provider"] = { "o", 326142 },	-- Bounty Board
+			["provider"] = { "o", 327585 },	-- Bounty Board
 			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] ={
-				i(168318),	-- Lord Ha'kass' Head (QI!)
-			},
+			["groups"] ={ i(168318) },	-- Lord Ha'kass' Head (QI!)
 		}),
 		q(56039, {	-- We Can't Have Dull Weapons (A)
 			["sourceQuests"] = {
@@ -2848,9 +2820,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168628),	-- Crackleclaw Crab (QI!)
-			},
+			["groups"] = { i(168628) },	-- Crackleclaw Crab (QI!)
 		}),
 		q(56264, {	-- We've Got Crabs! (H)
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
@@ -2859,9 +2829,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 25.4, 26.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168628),	-- Crackleclaw Crab (QI!)
-			},
+			["groups"] = { i(168628) },	-- Crackleclaw Crab (QI!)
 		}),
 		q(55561, {	-- What Remains of Zin-Azshari
 			["sourceQuests"] = { 55558 },	-- A Bolt Hole
@@ -2947,9 +2915,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 41.3, 58.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168432),	-- Fresh Sponge (QI!)
-			},
+			["groups"] = { i(168432) },	-- Fresh Sponge (QI!)
 		}),
 		q(55872, {	-- Where They Hide
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
@@ -2961,9 +2927,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 45.6, 58.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
-			["groups"] = {
-				i(168432),	-- Fresh Sponge (QI!)
-			},
+			["groups"] = { i(168432) },	-- Fresh Sponge (QI!)
 		}),
 		q(56217, {	-- Wild Tame
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 20.",
@@ -2983,9 +2947,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 7.",
 			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["races"] = HORDE_ONLY,
-			["groups"] = {
-				i(169919),	-- Unshackled Commendation Crate
-			},
+			["groups"] = { i(169919) },	-- Unshackled Commendation Crate
 		}),
 		q(56804, {	-- With Friends Like You, Who Needs Anemones?
 			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 5.",
@@ -3003,27 +2965,21 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
-			["groups"] = {
-				i(168810),	-- Iridescent Pearl (QI!)
-			},
+			["groups"] = { i(168810) },	-- Iridescent Pearl (QI!)
 		}),
 		q(56046, {	-- Working with Purpose (H)
 			["sourceQuest"] = 55866,	-- Scouting Undercover
 			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
-			["groups"] = {
-				i(168810),	-- Iridescent Pearl (QI!)
-			},
+			["groups"] = { i(168810) },	-- Iridescent Pearl (QI!)
 		}),
 		q(56811, {	-- You've Got A Friend In Me
 			["description"] = "Offered when |cFFFFD700Poen Gillbract|r reaches Rank 9.",
 			["sourceQuest"] = 55500,	-- Save a Friend
 			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrac)
 			["races"] = HORDE_ONLY,
-			["groups"] = {
-				i(169915),	-- Poen's Stashed Supplies
-			},
+			["groups"] = { i(169915) },	-- Poen's Stashed Supplies,
 		}),
 	}),
 })));

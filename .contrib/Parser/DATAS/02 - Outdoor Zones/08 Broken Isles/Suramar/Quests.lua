@@ -1318,6 +1318,10 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115517 },	-- Magus Sendath
 					["coord"] = { 46.4, 58.1, SURAMAR },
+					["groups"] = {
+						i(142245),	-- Charged Arcshaper Staff (QI!)
+						i(142244),	-- Volatile Construct Core (QI!)
+					},
 				}),
 				q(44873, {	-- Oculeth Ex Machina
 					["sourceQuest"] = 44870,	-- Mouths to Feed
