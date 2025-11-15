@@ -3738,14 +3738,7 @@ r(74497,{awp=40003,rank=8,requireSkill=182,u=2}),
 r(121279,{awp=50004,rank=9,requireSkill=182,u=2})}}),
 x(7,{requireSkill=182,g={
 h(-12,{awp=100107,requireSkill=182,g={
-ach(18837,{requireSkill=182,g={
-crit(61501,{achID=18837,id=1,providers={{"s",193294}},requireSkill=182}),
-crit(61507,{achID=18837,id=2,providers={{"s",247814}},requireSkill=182}),
-crit(61502,{achID=18837,id=3,providers={{"s",193297}},requireSkill=182}),
-crit(61506,{achID=18837,id=4,providers={{"s",193309}},requireSkill=182}),
-crit(61504,{achID=18837,id=5,providers={{"s",193303}},requireSkill=182}),
-crit(61503,{achID=18837,id=6,providers={{"s",193300}},requireSkill=182}),
-crit(61505,{achID=18837,id=7,providers={{"s",193306}},requireSkill=182})}})}}),
+ach(18837,{requireSkill=182})}}),
 ah(193294,{awp=70003,maps=a[492],providers={{"o",244774}},requireSkill=182,type="s",g={
 q(40013,{lvl=10,providers={{"i",129117}},requireSkill=182}),
 q(40014,{coords={a[382]},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40013},g={
@@ -3757,14 +3750,16 @@ q(40016,{coords={a[382]},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40015}
 r(193293,{requireSkill=182}),
 i(129153,{requireSkill=182})}}),
 q(40017,{description="Farm around 1000-4000 Aethrils to make this quest spawn.",lvl=10,requireSkill=182,sourceQuests={40016},g={
-r(193294,{requireSkill=182})}})}}),
+r(193294,{requireSkill=182}),
+crit(61501,{achID=18837,awp=100107,id=1,providers={{"s",193294}},requireSkill=182})}})}}),
 ah(247814,{awp=70300,maps=a[537],providers={{"o",272782},{"o",273052},{"o",273053}},requireSkill=182,type="s",g={
 q(48027,{lvl=45,providers={{"i",151856}},requireSkill=182,g={
 r(247812,{requireSkill=182})}}),
 q(48028,{lvl=45,providers={{"i",151857}},requireSkill=182,sourceQuests={48027},g={
 r(247813,{requireSkill=182})}}),
 q(48029,{lvl=45,providers={{"i",151858}},requireSkill=182,sourceQuests={48028},g={
-r(247814,{requireSkill=182})}})}}),
+r(247814,{requireSkill=182}),
+crit(61507,{achID=18837,awp=100107,id=2,providers={{"s",247814}},requireSkill=182})}})}}),
 ah(193297,{awp=70003,maps=a[494],providers={{"o",244776},{"o",244775}},requireSkill=182,type="s",g={
 q(40018,{lvl=10,providers={{"i",129118}},requireSkill=182}),
 q(40019,{coords={a[382]},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40018},g={
@@ -3776,7 +3771,8 @@ q(40021,{lvl=10,qgs=a[574],requireSkill=182,sourceQuests={40020},g={
 r(193296,{requireSkill=182})}}),
 q(40022,{lvl=10,providers={{"i",129141}},requireSkill=182,sourceQuests={40021}}),
 q(40023,{description="Farm around 1000-4000 Dreamleaves to make this quest spawn.",lvl=10,qgs=a[574],requireSkill=182,sourceQuests={40022},g={
-r(193297,{requireSkill=182})}})}}),
+r(193297,{requireSkill=182}),
+crit(61502,{achID=18837,awp=100107,id=3,providers={{"s",193297}},requireSkill=182})}})}}),
 ah(193309,{awp=70003,maps=a[491],providers={{"o",244786},{"o",252404},{"o",247999},{"o",248001},{"o",248004},{"o",248010},{"o",248002},{"o",248011},{"o",248009},{"o",248012},{"o",248007},{"o",248005},{"o",248006},{"o",248003},{"o",248000},{"o",248008}},requireSkill=182,type="s",g={
 q(40040,{lvl=10,providers={{"i",129122}},requireSkill=182,g={
 r(193307,{requireSkill=182})}}),
@@ -3787,7 +3783,8 @@ i(129214,{requireSkill=182}),
 i(129212,{requireSkill=182})}}),
 q(40042,{coords={a[382]},description="Available after obtaining All other herbs at Rank 2.",lvl=10,maps=a[534],qgs=a[549],requireSkill=182,sourceQuests={40016,40021,40026,40031,40037,40041},g={
 r(193309,{requireSkill=182}),
-i(136413,{requireSkill=182})}})}}),
+i(136413,{requireSkill=182}),
+crit(61506,{achID=18837,awp=100107,id=4,providers={{"s",193309}},requireSkill=182})}})}}),
 ah(193303,{awp=70003,maps=a[493],providers={{"o",244777}},requireSkill=182,type="s",g={
 q(40029,{cost={{"i",124104,20}},lvl=10,providers={{"i",129120}},requireSkill=182,g={
 r(193301,{requireSkill=182})}}),
@@ -3799,7 +3796,8 @@ i(129200,{requireSkill=182}),
 i(129201,{requireSkill=182})}}),
 q(40032,{description="Farm around 1000-4000 Fjarnskaggls to make this quest spawn.",lvl=10,providers={{"i",129142}},requireSkill=182,sourceQuests={40031}}),
 q(40033,{coords={a[382]},cost={{"i",124104,20}},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40032},g={
-r(193303,{requireSkill=182})}})}}),
+r(193303,{requireSkill=182}),
+crit(61504,{achID=18837,awp=100107,id=5,providers={{"s",193303}},requireSkill=182})}})}}),
 ah(193300,{awp=70003,maps=a[499],providers={{"o",241641}},requireSkill=182,type="s",g={
 q(40024,{cost={{"i",124103,20}},lvl=10,providers={{"i",129119}},requireSkill=182,g={
 r(193298,{requireSkill=182})}}),
@@ -3808,7 +3806,8 @@ q(40026,{coords={a[382]},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40025}
 r(193299,{requireSkill=182}),
 i(129220,{requireSkill=182})}}),
 q(40028,{description="Farm around 1000-4000 Foxflowers to make this quest spawn.",lvl=10,providers={{"i",129278}},requireSkill=182,sourceQuests={40026},g={
-r(193300,{requireSkill=182})}})}}),
+r(193300,{requireSkill=182}),
+crit(61503,{achID=18837,awp=100107,id=6,providers={{"s",193300}},requireSkill=182})}})}}),
 ah(193306,{awp=70003,maps=a[504],providers={{"o",244778}},requireSkill=182,type="s",g={
 q(40034,{lvl=10,providers={{"i",129121}},requireSkill=182}),
 q(40035,{coords={a[382]},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40034},g={
@@ -3820,17 +3819,16 @@ i(129155,{requireSkill=182})}}),
 q(40038,{description="Farm around 1000-4000 Starlight Roses to make this quest spawn.",lvl=10,providers={{"i",129143}},requireSkill=182,sourceQuests={40037}}),
 q(40039,{coords={a[382]},cost={{"i",129158,20}},lvl=10,qgs=a[549],requireSkill=182,sourceQuests={40038},g={
 r(193306,{requireSkill=182}),
-i(129209,{requireSkill=182})}})}})}}),
+i(129209,{requireSkill=182}),
+crit(61505,{achID=18837,awp=100107,id=7,providers={{"s",193306}},requireSkill=182})}})}})}}),
 x(8,{requireSkill=182,g={
 h(-12,{awp=100107,requireSkill=182,g={
 ach(18838,{requireSkill=182,g={
-crit(61510,{achID=18838,id=1,providers={{"s",252413}},requireSkill=182}),
 crit(61514,{achID=18838,id=2,providers={{"s",252426}},requireSkill=182,sourceQuests={51361,51481},sqreq=1}),
 crit(61508,{achID=18838,id=3,providers={{"s",252407}},requireSkill=182,sourceQuests={48754,51243},sqreq=1}),
 crit(61513,{achID=18838,id=4,providers={{"s",252423}},requireSkill=182,sourceQuests={48769,51503},sqreq=1}),
 crit(61512,{achID=18838,id=5,providers={{"s",252420}},requireSkill=182,sourceQuests={48755,51452}}),
 crit(61509,{achID=18838,id=6,providers={{"s",252410}},requireSkill=182,sourceQuests={48757,51478},sqreq=1}),
-crit(61511,{achID=18838,id=7,providers={{"s",252417}},requireSkill=182}),
 crit(61515,{achID=18838,id=8,providers={{"s",298144}},requireSkill=182,sourceQuests={56098,56430},sqreq=1})}})}}),
 ah(252413,{awp=80001,maps={864},providers={{"o",276237}},requireSkill=182,type="s",g={
 q(51398,{coords={a[509]},description="Requires 50 Kul Tiran Herbalism.",isBreadcrumb=1,lvl=10,nextQuests=a[438],qgs=a[214],r=2,requireSkill=182}),
@@ -3841,7 +3839,8 @@ q(51408,{coords={a[485]},lvl=10,qgs=a[215],requireSkill=182,sourceQuests=a[438],
 r(252412,{requireSkill=182}),
 i(160187,{requireSkill=182,spellID=270585})}}),
 q(51404,{description="This can drop from |cFFFFD700Akunda's Bite|r at any herbalism level. You can only turn it in at Level 150 Kul Tiran / Zandalari Herbalism.",lvl=10,providers={{"i",160117}},requireSkill=182,sourceQuests={51408},g={
-r(252413,{requireSkill=182})}})}}),
+r(252413,{requireSkill=182}),
+crit(61510,{achID=18838,awp=100107,id=1,providers={{"s",252413}},requireSkill=182})}})}}),
 ah(252426,{awp=80001,maps=a[538],providers={{"o",294125},{"o",276242}},requireSkill=182,type="s",g={
 q(51016,{coords={a[509]},description="Requires 100 Kul Tiran Herbalism.",lvl=10,maps=a[170],qgs=a[214],r=2,requireSkill=182,g={
 r(252425,{requireSkill=182}),
@@ -3914,7 +3913,8 @@ q(51446,{coords={a[378]},description="Requires 50 Zandalari Herbalism.",isBreadc
 q(51376,{coords={{20.61,45.61,896}},cost={{"i",152546,7}},lvl=10,qgs={136141},requireSkill=182,sourceQuests={48762,51446},sqreq=1,g={
 r(252416,{requireSkill=182})}}),
 q(48763,{description="This can drop from |cFFFFD700Winter's Kiss|r at any herbalism level. You can only turn it in at Level 150 Kul Tiran / Zandalari Herbalism.",lvl=10,providers={{"i",160064}},requireSkill=182,sourceQuests=a[437],g={
-r(252417,{requireSkill=182})}})}}),
+r(252417,{requireSkill=182}),
+crit(61511,{achID=18838,awp=100107,id=7,providers={{"s",252417}},requireSkill=182})}})}}),
 ah(298144,{awp=80200,maps=a[204],providers={{"o",326598}},requireSkill=182,type="s",g={
 q(56098,{lvl=50,providers={{"i",168919}},r=2,requireSkill=182,g={
 r(298144,{requireSkill=182})}}),
@@ -5341,12 +5341,8 @@ cu(2793,{requireSkill=186})}})}})}})}),
 prof(393,{
 h(-12,{awp=100107,g={
 ach(18834,{
-crit(61485,{achID=18834,id=1,providers={{"s",194169}}}),
-crit(61486,{achID=18834,id=2,providers={a[25],{"s",247844}}}),
 crit(61487,{achID=18834,id=3,providers={{"i",139895}}}),
 crit(61488,{achID=18834,id=4,providers={{"i",139896}}}),
-crit(61489,{achID=18834,id=5,providers={{"s",194163}}}),
-crit(61490,{achID=18834,id=6,providers={{"s",194166}}}),
 crit(61491,{achID=18834,id=7,providers={{"i",139894}}}),
 crit(61492,{achID=18834,id=8,providers={{"i",139893}}})}),
 ach(18831,{
@@ -5402,14 +5398,12 @@ crit(61483,{achID=18833,coords={{59.6,39.5,2133}},cost={{"i",193906,1}},id=11,pr
 crit(61484,{achID=18833,coords={{43.8,48,2133}},cost={{"i",193906,1}},id=12,providers={{"n",204831}}})}),
 ach(18835,{
 crit(61493,{achID=18835,id=1,providers={{"s",302016}},sourceQuests={56565,56566},sqreq=1}),
-crit(61494,{achID=18835,id=2,providers={{"s",302011}},sourceQuests={56562,56563},sqreq=1}),
-crit(61495,{achID=18835,id=3,providers={{"s",257154}}}),
-crit(61496,{achID=18835,id=4,providers={{"s",257148}}}),
-crit(61497,{achID=18835,id=5,providers={{"s",257151}}})})}}),
+crit(61494,{achID=18835,id=2,providers={{"s",302011}},sourceQuests={56562,56563},sqreq=1})})}}),
 q(52213,{awp=80001,description="Requires 150 Zandalari Skinning to get the item.",lvl=10,providers={{"i",161431}},r=1,sourceQuests={51575},g={
 r(257148,{requireSkill=393})}}),
 q(52224,{awp=80001,description="Requires 150 Kul Tiran Skinning to get the item.",lvl=10,providers={{"i",161424}},r=2,sourceQuests={52223},g={
-r(257148,{requireSkill=393})}}),
+r(257148,{requireSkill=393}),
+crit(61496,{achID=18835,awp=100107,id=4,providers={{"s",257148}}})}}),
 x(10,{awp=100002,requireSkill=393,g={
 h(-45,{requireSkill=393,g={
 q(70363,{coords={{76.7,34.8,2022}},description="Do NOT skin any Dragon Isles creatures. This quest can only be picked up PRIOR to learning Dragon Isles Skinning.",lc={1,"spellID",366263},lvl=10,qgs=a[243],requireSkill=393}),
@@ -5534,7 +5528,8 @@ q(40157,{lvl=45,qgs=a[558],requireSkill=393,sourceQuests={40156}}),
 q(40158,{lvl=45,qgs=a[579],requireSkill=393,sourceQuests={40157},g={
 r(194168,{requireSkill=393})}}),
 q(40159,{lvl=45,qgs=a[558],requireSkill=393,sourceQuests={40158},g={
-r(194169,{requireSkill=393})}})}})}}),
+r(194169,{requireSkill=393}),
+crit(61485,{achID=18834,awp=100107,id=1,providers={{"s",194169}}})}})}})}}),
 i(151566),
 ah(151566,{requireSkill=393,type="i",g={
 q(48040,{lvl=45,maps=a[537],providers={{"i",151866}},requireSkill=393,g={
@@ -5542,7 +5537,8 @@ r(247842,{requireSkill=393})}}),
 q(48041,{lvl=45,maps=a[537],providers={{"i",151867}},requireSkill=393,sourceQuests={48040},g={
 r(247843,{requireSkill=393})}}),
 q(48042,{lvl=45,maps=a[537],providers={a[25]},requireSkill=393,sourceQuests={48041},g={
-r(247844,{requireSkill=393})}})}}),
+r(247844,{requireSkill=393}),
+crit(61486,{achID=18834,awp=100107,id=2,providers={a[25],{"s",247844}}})}})}}),
 i(124115),
 ah(124115,{requireSkill=393,type="i",g={
 q(40141,{lvl=10,maps=a[491],providers={{"i",129862}},requireSkill=393}),
@@ -5563,7 +5559,8 @@ q(40152,{lvl=10,maps=a[488],qgs=a[558],requireSkill=393,sourceQuests={40151}}),
 q(40153,{lvl=10,maps={155,350,474},qgs=a[579],requireSkill=393,sourceQuests=a[352]}),
 q(40154,{lvl=10,qgs=a[579],requireSkill=393,sourceQuests=a[352]}),
 q(40155,{lvl=10,qgs=a[579],requireSkill=393,sourceQuests={40153,40154},g={
-r(194166,{requireSkill=393})}})}}),
+r(194166,{requireSkill=393}),
+crit(61490,{achID=18834,awp=100107,id=6,providers={{"s",194166}}})}})}}),
 i(124113),
 ah(124113,{requireSkill=393,type="i",g={
 q(40131,{lvl=10,maps=a[491],providers={{"i",129860}},requireSkill=393}),
@@ -5582,7 +5579,8 @@ q(40137,{lvl=10,maps=a[504],qgs=a[558],requireSkill=393,sourceQuests={40136}}),
 q(40138,{lvl=10,qgs=a[579],requireSkill=393,sourceQuests=a[349]}),
 q(40139,{lvl=10,qgs=a[579],requireSkill=393,sourceQuests=a[349]}),
 q(40140,{lvl=10,qgs=a[579],requireSkill=393,sourceQuests={40138,40139},g={
-r(194163,{requireSkill=393})}})}})}}),
+r(194163,{requireSkill=393}),
+crit(61489,{achID=18834,awp=100107,id=5,providers={{"s",194163}}})}})}})}}),
 flt(101,{awp=70300,requireSkill=393,g={
 p(2121,{b=1,description="This can be obtained from any skinnable Argus mob.",itemID=153057,npcID=128160,requireSkill=393,spellID=254298})}}),
 flt(102,{requireSkill=393,g={
