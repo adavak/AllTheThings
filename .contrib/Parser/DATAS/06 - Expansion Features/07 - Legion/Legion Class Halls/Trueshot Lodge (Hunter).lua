@@ -383,6 +383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["coord"] = { 42.9, 46.9, TRUESHOT_LODGE },
 					}),
 					q(42525, {	-- Troops in the Field
+						["sourceQuests"] = { 42524 },	-- Recruiting The Troops
 						["provider"] = { "n", 103023 },	-- Tactician Tinderfell
 						["coord"] = { 42.9, 46.9, TRUESHOT_LODGE },
 					}),
@@ -473,7 +474,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						},
 					}),
 					q(42395, {	-- Signaling Trouble
-						["sourceQuests"] = { 42393 },	-- Homecoming
+						["sourceQuests"] = {
+							42410,	-- Champion: Rexxar
+							42393,	-- Homecoming
+						},
 						["provider"] = { "n", 107973 },	-- Emmarel Shadewarden
 						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
 					}),
