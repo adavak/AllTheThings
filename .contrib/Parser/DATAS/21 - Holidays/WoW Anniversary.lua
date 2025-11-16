@@ -1854,6 +1854,34 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						iensemble(228197, {	-- Ensemble: Eternal Battlegear of Wrath
 							["classes"] = { WARRIOR },
 						}),
+						i(253154, {    -- Loyal Watchman's Gauntlets
+							["cost"] = {{"c", TIMEWARPED_BADGE, 20}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(253155, {    -- Loyal Watchman's Belt
+							["cost"] = {{"c", TIMEWARPED_BADGE, 20}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(253156, {    -- Loyal Watchman's Boots
+							["cost"] = {{"c", TIMEWARPED_BADGE, 30}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(253157, {    -- Loyal Watchman's Trousers
+							["cost"] = {{"c", TIMEWARPED_BADGE, 30}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(253158, {    -- Loyal Watchman's Cuirass
+							["cost"] = {{"c", TIMEWARPED_BADGE, 30}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(253159, {    -- Loyal Watchman's Spaulders
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(253160, {    -- Loyal Watchman's Helm
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 					}),
 				}),
 			}),
