@@ -10,8 +10,6 @@ title(674),	-- Dawn's Vanguard, %s
 title(675),	-- Northbound Rush, %s
 11.2.0.62049
 title(650),	-- Delver %s
-11.2.5.62554
-title(645),	-- Khaz Algar Enthusiast %s
 12.0.0.63534
 title(0),	-- Loa-speaker %s
 title(643),	-- %s, Definitely Not a Cultist

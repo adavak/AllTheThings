@@ -5125,7 +5125,6 @@ root(ROOTS.Unsorted, {
 			i(248924),	-- Stale Mulgore Spice Bread
 			i(248925),	-- Months Old Rye Bread \\ Months Old Sourdough Bread
 			i(248994),	-- Kalu'ak Crest-Horn \\ Kalu'ak Crest-horn
-			i(249242),	-- Bronze Celebration Titles: Khaz Algar Enthusiast
 			i(249717),	-- Golden Food Fanatic Backpack
 			i(249718),	-- Bronze Food Fanatic Backpack
 			i(249719),	-- Fine Food Fanatic Backpack \\ Silver Food Fanatic Backpack

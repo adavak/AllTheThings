@@ -558,7 +558,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(43090, {	-- Ulduar's Oath
-						["sourceQuest"] = 43586,	-- Maw of Souls: Message to Helya
+						["sourceQuests"] = {
+							43586,	-- Maw of Souls: Message to Helya
+							43604,	-- Maw of Souls: Ymiron's Broken Blade
+							43975,	-- Recruiting Shieldmaidens
+						},
 						["provider"] = { "n", 96469 },	-- Odyn
 						["coord"] = { 58.3, 84.6, SKYHOLD },
 						["maps"] = { 744, 746 },	-- Ulduar (Scenario Map)
