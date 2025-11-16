@@ -762,9 +762,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["qg"] = 93677,	-- Shivering Ashmaw Cub
 					["coord"] = { 53.1, 87.9, VALSHARAH },	-- cave entrance
 					["crs"] = { 93686 },	-- Jinikki the Puncturer
-					["groups"] = {
-						i(128690),	-- Ashmaw Cub (PET!)
-					},
+					["groups"] = { i(128690) },	-- Ashmaw Cub (PET!)
 				}),
 				-- APPEARANCE --
 				q(46079, {	-- Aid on the Front Lines
@@ -776,12 +774,14 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						47003,	-- Restoration: The Bradensbrook Investigation, Shaman
 					},
 					["provider"] = { "n", 118752 },	-- Mayor Heathrow
+					["coord"] = { 42.3, 58.9, VALSHARAH },
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46082, {	-- Shadowsong's Return
 					["sourceQuests"] = { 46079 },	-- Aid on the Front Lines
 					["provider"] = { "n", 118752 },	-- Mayor Heathrow
+					["coord"] = { 42.3, 58.9, VALSHARAH },
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes", "c" },	-- bad API data

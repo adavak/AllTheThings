@@ -976,10 +976,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(46318, {	-- Defense of Aviana
 						["sourceQuests"] = { 46317 },	-- Talon's Call
 						["provider"] = { "n", 106299 },	-- Thisalee Crow
+						["coord"] = { 44.6, 51.4, THE_DREAMGROVE },
 					}),
 					q(46319, {	-- You Can't Take the Sky from Me
 						["sourceQuests"] = { 46318 },	-- Defense of Aviana
 						["provider"] = { "n", 106299 },	-- Thisalee Crow
+						["coord"] = { 31.1, 4.2, THE_DREAMGROVE },
 						["groups"] = {
 							i(146798),	-- Corrupted Idol of Aviana (QI!)
 							--

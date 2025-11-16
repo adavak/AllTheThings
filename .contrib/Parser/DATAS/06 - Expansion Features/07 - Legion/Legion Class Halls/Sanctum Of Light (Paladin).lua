@@ -265,6 +265,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42774 },	-- Hope Prevails
 							["provider"] = { "n", 90369 },	-- Lord Maxwell Tyrosus
 							["coord"] = { 74.3, 53.2, EASTERN_PLAGUELANDS },
+							["groups"] = {
+								o(247318, {	-- The Ashbringer
+									["coord"] = { 26.8, 61.4, 676 },	-- Broken Shore (Scenario Map)
+									["groups"] = {
+										i(120978, {	-- The Ashbringer
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(9) },	-- The Ashbringer
+										}),
+									},
+								}),
+							},
 						}),
 					}),
 					q(38576, {	-- We Meet at Light's Hope
@@ -303,7 +314,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(38933, {	-- Logistical Matters
 						["sourceQuests"] = { 38566 },	-- A United Force
-						["provider"] = { "n", 100031 },	-- Lord Maxwell Tyrosus
+						["provider"] = { "n", 91866 },	-- Lord Maxwell Tyrosus
 						["coord"] = { 73.7, 19.6, SANCTUM_OF_LIGHT },
 					}),
 					-- Zone
@@ -317,9 +328,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 39756 },	-- A Sound Plan
 						["provider"] = { "n", 90259 },	-- Lord Maxwell Tyrosus
 						["coord"] = { 49.8, 72.4, SANCTUM_OF_LIGHT },
-						["groups"] = {
-							follower(480),	-- Lord Maxwell Tyrosus
-						},
+						["groups"] = { follower(480) },	-- Lord Maxwell Tyrosus
 					}),
 					q(42846, {	-- The Blood Matriarch
 						["sourceQuests"] = { 39696 },	-- Rise, Champions
@@ -329,10 +338,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42881, {	-- Champion: Lady Liadrin
 						["sourceQuests"] = { 42846 },	-- The Blood Matriarch
 						["provider"] = { "n", 92346 },		-- Lady Liadrin <Blood Knight Matriarch>
-						["coord"] = { 38.2, 64.6, SANCTUM_OF_LIGHT },
-						["groups"] = {
-							follower(478),	-- Lady Liadrin
-						},
+						["coord"] = { 38.8, 63.6, SANCTUM_OF_LIGHT },
+						["groups"] = { follower(478) },	-- Lady Liadrin
 					}),
 					q(42847, {	-- Dark Storms
 						["sourceQuests"] = { 42846 },	-- The Blood Matriarch

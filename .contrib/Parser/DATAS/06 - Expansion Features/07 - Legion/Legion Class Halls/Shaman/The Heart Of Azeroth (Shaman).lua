@@ -692,7 +692,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(45763, {	-- Demonic Disruption
 						["sourceQuests"] = { 44800 },	-- Against Magatha's Will
-						["provider"] = { "n", 96528 },	-- Farseer Nobundo
+						["provider"] = { "n", 106519 },	-- Farseer Nobundo
 						["coord"] = { 30.4, 51.8, THE_HEART_Of_AZEROTH },
 						["timeline"] = { ADDED_7_2_0 },
 					}),

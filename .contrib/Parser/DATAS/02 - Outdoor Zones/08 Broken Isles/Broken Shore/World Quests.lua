@@ -145,9 +145,9 @@ root(ROOTS.Zones, {
 				}),
 				q(46756),	-- Mission: Felrage Destruction
 				q(46825, {	-- Mud Mucking
-					["groups"] = {
+					o(268765, {	-- Disturbed Mud
 						i(147211),	-- Sparkling Kirin Tor Coin (QI!)
-					},
+					}),
 				}),
 				q(46822),	-- Natural Selection
 				q(46833),	-- Nature Unshackled

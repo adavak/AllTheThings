@@ -1163,7 +1163,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		q(56803, {	-- Just A Friend
 			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches rank 2.",
 			--["sourceQuest"] =
-			["provider"] = { "n", 149906 },	-- Vim Brineheart
+			["qgs"] = {
+				149906,	-- Vim Brineheart
+				151309,	-- Vim Brineheart
+			},
 			["coord"] = { 50.8, 65.2, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
