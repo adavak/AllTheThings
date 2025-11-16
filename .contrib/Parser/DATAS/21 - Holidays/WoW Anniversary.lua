@@ -2772,6 +2772,55 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 				},
 			}),
+			n(VENDORS, {
+				n(158061, {	-- Historian Ma'di
+					["coord"] = { 62.6, 50.4, TANARIS },
+					["groups"] = {
+						i(229828, {	-- 20th Anniversary Balloon Chest (TOY!)
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(208572, {	-- Azure Worldchiller (MOUNT!)
+							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
+						}),
+						i(232598, {	-- Bag of Timewarped Badges
+							["cost"] = {{"c", BRONZE_TOKEN, 1}},
+							["groups"] = {
+								currency(TIMEWARPED_BADGE),
+							},
+						}),
+						i(235505, {	-- Satchel of Timewarped Badges
+							["cost"] = {{"c", BRONZE_TOKEN, 5}},
+							["groups"] = {
+								currency(TIMEWARPED_BADGE),
+							},
+						}),
+						i(235506, {	-- Box of Timewarped Badges
+							["cost"] = {{"c", BRONZE_TOKEN, 25}},
+							["groups"] = {
+								currency(TIMEWARPED_BADGE),
+							},
+						}),
+						i(228785, {	-- Coldflame Bulwark
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228788, {	-- Coldflame Edged Crest
+							["cost"] = {{"c", BRONZE_TOKEN, 15}}
+						}),
+						i(228789, {	-- Coldflame Ring (TOY!)
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228786, {	-- Coldflame Winged Crown
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228784, {	-- Coldflame's Edge
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228781, {	-- Lil'Doomy (PET!)
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+					},
+				}),
+			}),
 		}),
 		{	-- Recurring Content
 			n(ACHIEVEMENTS, {
@@ -2947,53 +2996,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							i(225378, {	-- Mohawk Grenade
 								["cost"] = {{"c", TIMEWARPED_BADGE, 200}}
 							}),
-						}),
-					},
-				}),
-				n(158061, {	-- Historian Ma'di
-					["coord"] = { 62.6, 50.4, TANARIS },
-					["groups"] = {
-						i(229828, {	-- 20th Anniversary Balloon Chest (TOY!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(208572, {	-- Azure Worldchiller (MOUNT!)
-							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
-						}),
-						i(232598, {	-- Bag of Timewarped Badges
-							["cost"] = {{"c", BRONZE_TOKEN, 1}},
-							["groups"] = {
-								currency(TIMEWARPED_BADGE),
-							},
-						}),
-						i(235505, {	-- Satchel of Timewarped Badges
-							["cost"] = {{"c", BRONZE_TOKEN, 5}},
-							["groups"] = {
-								currency(TIMEWARPED_BADGE),
-							},
-						}),
-						i(235506, {	-- Box of Timewarped Badges
-							["cost"] = {{"c", BRONZE_TOKEN, 25}},
-							["groups"] = {
-								currency(TIMEWARPED_BADGE),
-							},
-						}),
-						i(228785, {	-- Coldflame Bulwark
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228788, {	-- Coldflame Edged Crest
-							["cost"] = {{"c", BRONZE_TOKEN, 15}}
-						}),
-						i(228789, {	-- Coldflame Ring (TOY!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228786, {	-- Coldflame Winged Crown
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228784, {	-- Coldflame's Edge
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228781, {	-- Lil'Doomy (PET!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
 						}),
 					},
 				}),
