@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					q(40955, {	-- Oath of Service
 						["sourceQuests"] = { 40954 },	-- The Unseen Path
 						["provider"] = { "n", 102574 },	-- Emmarel Shadewarden
-						["coord"] = { 44.4, 26.4, TRUESHOT_LODGE },
+						["coord"] = { 43.5, 24.6, TRUESHOT_LODGE },
 					}),
 					q(41053, {	-- Altar of the Eternal Hunt
 						["sourceQuests"] = { 40955 },	-- Oath of Service
@@ -340,7 +340,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							-- #ENDIF
 						},
 						["provider"] = { "n", 102574 },	-- Emmarel Shadewarden
-						["coord"] = { 43.6, 26.2, TRUESHOT_LODGE },
+						["coord"] = { 43.5, 24.6, TRUESHOT_LODGE },
 					}),
 					q(40959, {	-- The Campaign Begins
 						["sourceQuests"] = { 40958 },	-- Tactical Matters
