@@ -1281,7 +1281,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		},
 	}),
-	n(WOW_ANNIVERSARY_TWENTY, bubbleDown({["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
+	n(WOW_ANNIVERSARY_TWENTY, bubbleDown({["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 }}, {
 		n(ACHIEVEMENTS, {
 			ach(41220),	-- WoW's 20th Anniversary
 		}),
@@ -1289,7 +1289,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			currency(BRONZE_TOKEN),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDown({["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },
+	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDown({["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" }}, {
 		ach(61406),	-- WoW's 21st Anniversary
 	})),
 	-- Stuff that's still in the game
@@ -3519,7 +3519,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDown({["timeline"] = { ADDED_11_2_5 },
+	n(WOW_ANNIVERSARY_TWENTYONE, bubbleDown({["timeline"] = { ADDED_11_2_5 }}, {
 		n(VENDORS, {
 			n(231352, {	-- Notary Grably <Titles of Olde>
 				["coord"] = { 63.3, 50.7, TANARIS },
