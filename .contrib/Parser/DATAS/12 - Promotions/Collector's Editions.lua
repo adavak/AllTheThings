@@ -37,7 +37,7 @@ EPIC_EDITION = createHeader({
 	},
 });
 -- NOTE: Released on May 18, 2021.
--- NOTE: No longer available on the store since September, 2022.
+-- NOTE: No longer available on the store since August 30, 2022.
 TBC_CLASSIC_DELUXE_EDITION = createHeader({
 	readable = "TBC Classic Deluxe Edition",
 	icon = [[~_.asset("Expansion_TBC")]],
