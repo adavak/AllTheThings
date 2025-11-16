@@ -10,7 +10,7 @@ createLocalizationString({
 		fr = "Illusions",
 		it = "Illusioni d'Incantamento",
 		pt = "Ilusões",
-		ru = "Иллюзии",
+		ru = "Чары для оружия",
 		ko = "환영들",
 		cn = "幻象",
 		tw = "幻象",
