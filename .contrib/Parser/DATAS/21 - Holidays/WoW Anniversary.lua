@@ -2953,6 +2953,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					["groups"] = {
 						ach(40977),	-- Codex Editor: Ahn'Qiraj
 						i(233014, {	-- Bronze Celebration Cache of Treasures
+							["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 							["sym"] = SYM_ALL_BRD_DROPS,
 						}),
 					},
