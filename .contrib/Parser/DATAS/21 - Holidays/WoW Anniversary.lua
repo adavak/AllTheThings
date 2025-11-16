@@ -2800,24 +2800,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								currency(TIMEWARPED_BADGE),
 							},
 						}),
-						i(228785, {	-- Coldflame Bulwark
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228788, {	-- Coldflame Edged Crest
-							["cost"] = {{"c", BRONZE_TOKEN, 15}}
-						}),
-						i(228789, {	-- Coldflame Ring (TOY!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228786, {	-- Coldflame Winged Crown
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228784, {	-- Coldflame's Edge
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228781, {	-- Lil'Doomy (PET!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
 					},
 				}),
 			}),
@@ -2997,6 +2979,29 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							i(225378, {	-- Mohawk Grenade
 								["cost"] = {{"c", TIMEWARPED_BADGE, 200}}
 							}),
+						}),
+					},
+				}),
+				n(158061, {	-- Historian Ma'di
+					["coord"] = { 62.6, 50.4, TANARIS },
+					["groups"] = {
+						i(228785, {	-- Coldflame Bulwark
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228788, {	-- Coldflame Edged Crest
+							["cost"] = {{"c", BRONZE_TOKEN, 15}}
+						}),
+						i(228789, {	-- Coldflame Ring (TOY!)
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228786, {	-- Coldflame Winged Crown
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228784, {	-- Coldflame's Edge
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+						}),
+						i(228781, {	-- Lil'Doomy (PET!)
+							["cost"] = {{"c", BRONZE_TOKEN, 10}}
 						}),
 					},
 				}),
