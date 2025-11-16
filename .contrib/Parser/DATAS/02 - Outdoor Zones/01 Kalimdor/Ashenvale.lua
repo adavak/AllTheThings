@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13853,	-- Return Fire
 						13979,	-- The Goblin Braintrust
 						13987,	-- The Last Stand
-						25607,	-- Ze Gnomecorder -- TODO:: verify if actually needed
+						25607,	-- Ze Gnomecorder -- TODO:  verify if actually needed
 						26482,	-- True Power of the Rod
 						13886,	-- Vortex
 						13869,	-- Recover the Remains

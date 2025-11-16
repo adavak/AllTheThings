@@ -586,7 +586,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(55404),	-- Triggered when interacting with the "Deepflame Campfire" in Mezzamere as alliance, but without picking a follower
 		q(57097),	-- ??? Triggered after the cutscene for "Scouting the Palace" in Nazjatar on Alliance
 		q(56881),	-- Triggered upon first entry into Nazjatar
-		q(56677),	-- Triggered sometime after turning in "Needs of the People", after picking up the dailies, but before leaving Newhome. TODO:: research more (possibly bodyguard dialogue quest?)
+		q(56677),	-- Triggered sometime after turning in "Needs of the People", after picking up the dailies, but before leaving Newhome. TODO:  research more (possibly bodyguard dialogue quest?)
 		q(56661),	-- Triggered when walking into the "Void Chamber" cave
 		q(55604, {["isDaily"]=true}),	-- Triggers after unlocking or making a purchase from Mrrl (Once per day)
 		q(56901, {["isDaily"]=true}),	-- Triggers after buying anything from Mrrl's secret trader stock (requires cloak with special stock trait).
@@ -625,7 +625,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(58409),	-- Combining Coalescing Visions 4x
 		q(58994),	-- Triggers when you get your first corrupted item. It procs the "Curious Corruption" quest
 		q(58815),	-- Triggers when completing the blacktalon agent daily for a zone vision
-		q(58085),	-- Triggered upon entering the vision to the Shrine of Seven Stars -- TODO:: verify this. didn't pop up since latest PTR build
+		q(58085),	-- Triggered upon entering the vision to the Shrine of Seven Stars -- TODO:  verify this. didn't pop up since latest PTR build
 		q(59132),	-- probably "Unwavering Resolve" achievement (upgrade cloak to rank 15)
 
 		-- Horrific Visions

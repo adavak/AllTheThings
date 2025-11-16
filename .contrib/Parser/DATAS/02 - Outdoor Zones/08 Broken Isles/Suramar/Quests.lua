@@ -98,7 +98,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 115736 },	-- First Arcanist Thalyssra
 					["coord"] = { 36.5, 46.7, SURAMAR },
-					-- TODO:: may also require A Dance With Dragons (44876)
+					-- TODO:  may also require A Dance With Dragons (44876)
 					["groups"] = { i(143597) },	-- Fruit of the Arcan'dor (QI!)
 				}),
 				q(40401, {	-- A Way Back In

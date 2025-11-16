@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			--[[
 				R33-DR - 63.4, 57.0 interactive "data analyzer" npc. Possibly part of a puzzle?
 			]]--
-			-- TODO:: See Hidden Quest Triggers.lua for remaining first kill id's needed
+			-- TODO:  See Hidden Quest Triggers.lua for remaining first kill id's needed
 			n(150306, {	-- Drill Rig
 				["description"] = "These rares are only available when the Drill Rig is an active construction project. Speak to |Cff00991aWaren Gearheart|r |Cffffffff(73.0, 33.5)|r to see which construction projects are available.\r\rEach rare spawn is accompanied by a specific zonewide announcement. Hover over each rare in the list to see its announcement.",
 				["groups"] = {

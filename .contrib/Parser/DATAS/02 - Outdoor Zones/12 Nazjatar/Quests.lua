@@ -611,7 +611,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 76.0, 45.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
-		q(56310, {	-- City of Drowned Friends -- TODO:: verify sourceQuest
+		q(56310, {	-- City of Drowned Friends -- TODO:  verify sourceQuest
 			["sourceQuest"] = 55500,	-- Save a Friend
 			["provider"] = { "n", 154520 },	-- First Arcanist Thalyssra
 			["coord"] = { 73.4, 47.8, NAZJATAR },
@@ -964,7 +964,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				i(168253),	-- Fathom Hook (QI!)
 			},
 		}),
-		q(55661, {	-- Fighting Venomous With Venom -- TODO:: verify sourceQuest
+		q(55661, {	-- Fighting Venomous With Venom -- TODO:  verify sourceQuest
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["sourceQuest"] = 55500,	-- Save a Friend
 			["provider"] = { "n", 153777 },	-- Cando Mikfin

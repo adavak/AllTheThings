@@ -209,7 +209,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 						n(156299, {	-- R'khuzj the Unfathomable
 							["questID"] = 57430,
-							["description"] = "Roams around the southern half of Uldum.",	-- TODO:: his path is HUGE. do we want to add coords?
+							["description"] = "Roams around the southern half of Uldum.",	-- TODO:  his path is HUGE. do we want to add coords?
 						}),
 						n(161033, {	-- Shadowmaw
 							["description"] = "In the waters surrounding the main hub.",

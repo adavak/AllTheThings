@@ -46,7 +46,7 @@ root(ROOTS.Zones, {
 							12123,	-- Informing the Queen
 							13343,	-- Mystery of the Infinite, Redux
 							12459,	-- That Which Creates Can Also Destroy
-							-- TODO:: confirm below
+							-- TODO:  confirm below
 							12266,	-- Tales of Destruction
 							12419,	-- The Fate of the Ruby Dragonshrine
 							12456,	-- The Plume of Alystros
@@ -72,7 +72,7 @@ root(ROOTS.Zones, {
 							12124,	-- Informing the Queen
 							13343,	-- Mystery of the Infinite, Redux
 							12459,	-- That Which Creates Can Also Destroy
-							-- TODO:: confirm below
+							-- TODO:  confirm below
 							12266,	-- Tales of Destruction
 							12419,	-- The Fate of the Ruby Dragonshrine
 							12456,	-- The Plume of Alystros
@@ -1279,7 +1279,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(12234, {	-- Need to Know
-						["sourceQuest"] = 12230,	-- Stealing from the Siegesmiths	-- TODO:: verify this
+						["sourceQuest"] = 12230,	-- Stealing from the Siegesmiths	-- TODO:  verify this
 						["qg"] = 27337,	-- Spy Mistress Repine
 						["coord"] = { 76.7, 63.0, DRAGONBLIGHT },
 						["races"] = HORDE_ONLY,
