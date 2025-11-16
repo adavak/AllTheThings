@@ -5325,13 +5325,6 @@ root(ROOTS.Unsorted, {
 			i(252750),	-- Aquatic Winter Toque \\ Aquatic Winter Hat
 			i(252751),	-- Snowy Winter Toque \\ Snowy Winter Hat
 			i(252752),	-- Sunny Winter Toque \\ Sunny Winter Hat
-			i(253154),	-- Loyal Watchman's Gauntlets
-			i(253155),	-- Loyal Watchman's Belt
-			i(253156),	-- Loyal Watchman's Boots
-			i(253157),	-- Loyal Watchman's Trousers
-			i(253158),	-- Loyal Watchman's Cuirass
-			i(253159),	-- Loyal Watchman's Spaulders
-			i(253160),	-- Loyal Watchman's Helm
 			i(253219),	-- Bulwark of Mannoroth
 			i(253220),	-- Bulwark of Mannoroth
 			i(253222),	-- Corrupted Thorn of the Dream
