@@ -10,7 +10,7 @@ createLocalizationString({
 		fr = "ID de l’Illusion",
 		it = "ID dell’Illusione",
 		pt = "ID de Ilusão",
-		ru = "ID Иллюзии",
+		ru = "ID чар оружия",
 		ko = "환영 ID",
 		cn = "幻象 ID",
 		tw = "幻象 ID",
