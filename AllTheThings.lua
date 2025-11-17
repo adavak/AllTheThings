@@ -920,7 +920,7 @@ local function GetSearchResults(method, paramA, paramB, options)
 		group.g = nil;
 	end
 
-	app.TopLevelUpdateGroup(group);
+	app.TopLevelUpdateGroup(group, true);
 
 	group.isBaseSearchResult = true;
 
