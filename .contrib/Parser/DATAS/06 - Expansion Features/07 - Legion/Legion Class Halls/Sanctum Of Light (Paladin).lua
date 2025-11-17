@@ -279,7 +279,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 					q(38576, {	-- We Meet at Light's Hope
-						["sourceQuests"] = { 42017 },	-- Shrine of the Truthguard
+						["sourceQuests"] = {
+							42017,	-- Shrine of the Truthguard
+							38376,	-- The Search for the Highlord
+							42120,	-- The Silver Hand
+						},
+						["sourceQuestNumRequired"] = 1,
 						["qgs"] = {
 							106209,	-- Lord Maxwell Tyrosus
 							106834,	-- Lord Maxwell Tyrosus
@@ -287,15 +292,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 71.7, 45.1, LEGION_DALARAN },
 					}),
 					q(42811, {	-- We Meet at Light's Hope
-						["sourceQuests"] = { 38376 },	-- The Search for the Highlord
+						["sourceQuests"] = {
+							42017,	-- Shrine of the Truthguard
+							38376,	-- The Search for the Highlord
+							42120,	-- The Silver Hand
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 91144 },	-- Lord Maxwell Tyrosus
 						["coord"] = { 20.4, 61.4, 676 },	-- Broken Shore (Scenario Map)
 					}),
-					q(42812),	-- Paladin Order Hall - We Meet at Light's Hope. Triggered together with 42811 version
+					q(42812, {	-- We Meet at Light's Hope
+						["sourceQuests"] = {
+							42017,	-- Shrine of the Truthguard
+							38376,	-- The Search for the Highlord
+							42120,	-- The Silver Hand
+						},
+						["sourceQuestNumRequired"] = 1,
+						["provider"] = { "n", 108956 },	-- Silver Hand Knight
+						["coord"] = { 78.0, 46.6, EASTERN_PLAGUELANDS },
+					}),
 					q(38566, {	-- A United Force
 						["sourceQuests"] = {
 							38576,	-- We Meet at Light's Hope
 							42811,	-- We Meet at Light's Hope
+							42812,	-- We Meet at Light's Hope
 						},
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 100031 },	-- Lord Maxwell Tyrosus
@@ -323,7 +343,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker <Mission Specialist>
 						["coord"] = { 52.3, 78.1, SANCTUM_OF_LIGHT },
 					}),
-					-- Bla
 					q(39696, {	-- Rise, Champions
 						["sourceQuests"] = { 39756 },	-- A Sound Plan
 						["provider"] = { "n", 90259 },	-- Lord Maxwell Tyrosus
@@ -362,9 +381,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 52.3, 78.1, SANCTUM_OF_LIGHT },
 					}),
 					q(42866, {	-- A Sign From The Sky
+						["sourceQuests"] = { 42850 },	-- Tech It Up a Notch
 						["provider"] = { "n", 90259 },	-- Lord Maxwell Tyrosus
 						["coord"] = { 49.8, 72.4, SANCTUM_OF_LIGHT },
-						--["sourceQuests"] = { 42847 },	-- Dark Storms
 					}),
 					q(42867, {	-- Meeting of the Silver Hand
 						["sourceQuests"] = { 44153 },	-- Light's Charge
@@ -403,6 +422,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							42967,	-- The Highlord's Command
 							42968,	-- The Highlord's Command
 						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker <Mission Specialist>
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
 					}),
@@ -468,14 +488,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["isBreadcrumb"] = true,
 					}),
 					q(43487, {	-- Assault on Violet Hold: The Fel Lexicon
+						["sourceQuests"] = { 43486 },	-- Cracking the Codex
 						["provider"] = { "n", 110571 },	-- Delas Moonfang
 						["coord"] = { 44.6, 23.1, LEGION_DALARAN },
-						--["sourceQuests"] = { 43486 },	-- Cracking the Codex
 					}),
 					q(43488, {	-- Blood of Our Enemy
+						["sourceQuests"] = { 43486 },	-- Cracking the Codex
 						["provider"] = { "n", 110571 },	-- Delas Moonfang
 						["coord"] = { 44.6, 23.1, LEGION_DALARAN },
-						--["sourceQuests"] = { 43486 },	-- Cracking the Codex
 					}),
 					q(43535, {	-- Translation: Danger!
 						["sourceQuests"] = {
@@ -555,6 +575,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
 					}),
+					q(91619, {	-- Blood of Sargeras (Remix)
+						["sourceQuests"] = {
+							43492,	-- Champion: Aponi Brightmane
+							43933,	-- Champion: Delas Moonfang
+						},
+						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker
+						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
+						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+					}),
 					q(43698, {	-- Lumenstone
 						["sourceQuests"] = {
 							43492,	-- Champion: Aponi Brightmane
@@ -574,9 +603,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43700, {	-- A Light in the Darkness
 						["sourceQuests"] = {
+							43534,	-- Blood of Sargeras
+							91619,	-- Blood of Sargeras (Remix)
 							43699,	-- Defenders of the World
 							43698,	-- Lumenstone
 						},
+						["sourceQuestNumRequired"] = 3,
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
 						["maps"] = { NETHERLIGHT_TEMPLE },

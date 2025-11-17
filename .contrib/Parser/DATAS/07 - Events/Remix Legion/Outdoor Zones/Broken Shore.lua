@@ -38,16 +38,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}),
 					}),
 				}),
-				n(ZONE_REWARDS, {
-					filter(CLOTH, {
-					}),
-					filter(LEATHER, {
-					}),
-					filter(MAIL, {
-					}),
-					filter(PLATE, {
-					}),
-				}),
 			},
 		}),
 	}),
