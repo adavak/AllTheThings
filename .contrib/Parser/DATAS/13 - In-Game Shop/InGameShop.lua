@@ -717,6 +717,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["description"] = "Also obtained if you set up a 6-Month WoW Subscription.",
 			["timeline"] = { ADDED_11_0_7, },
 		}),
+		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238", "added 11.2.5.64395" },	-- Removed Jan 6, 2025, Added Nov 17 2025, Removed Jan 5 2026
+		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
 		}),
@@ -829,9 +832,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(212228, {	-- Soaring Sky Fox (MOUNT!)
 			["timeline"] = { ADDED_11_0_5, "removed 11.1.0.60037" },	-- Removed March 31, 2025
-		}),
-		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Removed January 6, 2025
 		}),
 		i(160589, {	-- The Dreadwake (MOUNT!)
 			["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_10_1_7 },	-- Removed Sep 17th, 2023
