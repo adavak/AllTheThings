@@ -2560,6 +2560,12 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 		local function CreateHeaderData(group, header)
 			-- copy an uncollectible version of the existing header
 			if header then
+				-- special case for Difficulty headers, need to be actual difficulty groups to merge properly with any existing
+				if header.difficultyID then
+					header = CreateObject(header, true)
+					header.g = { group }
+					return header
+				end
 				header = CreateWrapVisualHeader(header, {group})
 				header.SortType = "name"
 				return header
@@ -2776,6 +2782,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					-- Cache the difficultyGroup, if there is one and we are in an actual instance where the group is being mapped
 					if isInInstance then
 						difficultyGroup = GetRelativeGroup(nextParent, "difficultyID")
+						-- app.PrintDebug("difficultyGroup:",app:SearchLink(difficultyGroup))
 					end
 
 					-- Building the header chain for each mapped Thing
@@ -2814,6 +2821,9 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 						group = CreateHeaderData(group, difficultyGroup);
 						-- remove the name sorttype from the difficulty-based header
 						group.SortType = nil
+						-- link the difficulty group to the current window header so that it assumes its expected hash
+						group.parent = header
+						group.sourceParent = nil
 					end
 
 					-- If we're trying to map in another 'map', nest it into a special group for external maps
@@ -2821,8 +2831,10 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 						externalMaps[#externalMaps + 1] = group
 						group = nil
 					end
-					-- app.PrintDebug("Merge as Mapped:",app:SearchLink(group))
-					MergeObject(groups, group);
+					if group then
+						-- app.PrintDebug("Merge as Mapped:",app:SearchLink(group))
+						MergeObject(groups, group)
+					end
 				end
 
 				-- Nest our external maps into a special header to reduce minilist header spam

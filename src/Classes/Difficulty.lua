@@ -171,16 +171,6 @@ app.CreateDifficulty = app.CreateClass("Difficulty", "difficultyID", {
 			return 1271;	-- TIMEWALKING event constant
 		end
 	end,
-	["hash"] = function(t)
-		local key = t.key;
-		if key then
-			if t.parent then
-				local parentKey = t.parent.key;
-				if parentKey then return key .. t[key] .. "~" .. parentKey .. t.parent[parentKey]; end
-			end
-			return key .. t[key];
-		end
-	end,
 	["ignoreSourceLookup"] = app.ReturnTrue,
 	["ShouldExcludeFromTooltip"] = function(t)
 		local difficultyID = app.GetCurrentDifficultyID();
