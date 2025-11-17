@@ -6823,6 +6823,8 @@ i(254320,{cost={{"c",3252,5}},description="|cFFE50D12NOT CONSUMED ON USE:|r If y
 i(250316,{cost={{"c",3252,5}},e=447,f=55,races={1,2,3,4,5,6,7,8,9,10,11,22,24,25,26,27,28,29,30,31,32,34,35,36,37,52,70},spellID=1250721}),
 i(253574,{cost={{"c",3252,5}},e=447,f=55,races={84,85},spellID=1256686}),
 i(188152,{cost={{"c",3252,5}},e=447,spellID=113902}),
+i(265922,{c=a[222],cost={{"c",3252,5}},e=447}),
+i(265923,{c=a[222],cost={{"c",3252,5}},e=447}),
 i(226037,{cost={{"c",3252,5}},e=447,f=55,spellID=384129})}}),
 n(241168,{coords={{45.5,67.8,619}},e=447,g={
 ah(6,{e=447,type="c",g={
@@ -7042,7 +7044,9 @@ s(84186,143363,{f=7,lvl=a[290],modID=4}),
 s(84189,143367,{f=3,lvl=a[290],modID=4})}})}}),
 flt(55,{e=447,g={
 i(254849,{cost={{"i",253305,5}},description="Becomes available after purchasing 'Hammer of Vigilance'.\n\nContains 2500 Bronze.",e=447}),
-i(254850,{cost={{"i",242370,5}},description="Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",e=447})}})}}),
+i(254850,{cost={{"i",242370,5}},description="Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",e=447}),
+i(254847,{cost={{"c",3252,30000}},e=447}),
+i(254848,{cost={{"c",3252,30000}},e=447})}})}}),
 n(246026,{coords={a[284]},e=447,g={
 en(253382,{cost={{"c",3252,7500}},e=447,questID=92615,spellID=1256156,tmogSetID=5293,g={
 s(298850,253380,{f=8}),

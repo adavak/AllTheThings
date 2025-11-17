@@ -20,7 +20,7 @@ L.ACCOUNT_MODE_TOOLTIP = "Turn this setting on if you want to track all of the T
 L.ACCOUNT_SYNCHRONIZATION = "Account Synchronization";
 L.ACCOUNT_THINGS_LABEL = "Account-Wide Things";
 L.ACCOUNT_WIDE_ACHIEVEMENTS_TOOLTIP = "Achievement tracking is usually Account-Wide, but there are a number of achievements exclusive to specific classes and races that you can't get on your main.";
-L.ACCOUNT_WIDE_APPEARANCES_TOOLTIP = "Transmog should be collected account wide. Certain items cannot be learned by every class, so ATT will do its best to only show you things that you can collect on your current character.";
+L.ACCOUNT_WIDE_APPEARANCES_TOOLTIP = "Appearances should be collected account wide. Certain items cannot be learned by every class, so ATT will do its best to only show you things that you can collect on your current character.";
 L.ACCOUNT_WIDE_AZERITE_ESSENCES_TOOLTIP = "Azerite Essences cannot technically be collected and used Account-Wide, but if you only care about collecting them on your main character then you may prefer tracking them Account-Wide.";
 L.ACCOUNT_WIDE_BATTLE_PETS_TOOLTIP = "Companion pets can be collected on multiple characters and realistically would require that you have an insane amount of bag space in order to collect them all on one character.\n\nWe recommend you keep this turned on, but you do you fam.";
 L.ACCOUNT_WIDE_CHARACTERUNLOCKS_TOOLTIP = "Consider any Character Unlock collected if any character has collected it.";
@@ -1596,8 +1596,8 @@ localize(L.HEADER_NAMES, {
 	[-684] = "Catch Up Experience",
 	[-686] = "Saltheril's Soiree",
 	[-687] = "Raid Gear Conversion",
-	[-688] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-689] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-689] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-690] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -1702,7 +1702,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-660] = "Engage Sartharion with at least 2 of the 3 drakes alive and then defeat Sartharion.",
 	[-661] = "Engage Sartharion with all 3 drakes alive and then defeat Sartharion.",
 	[-669] = "These promotions happened during the time Midnight was the most recent expansion.\n\nThey are listed in the order of their first appearance.",
-	[-687] = "These items are obtained when you keep the raid items in your inventory during the transfer to Retail.",
+	[-687] = "When transferring a Timerunner to Retail, any Normal+ raid drop in your bags, bank, or mailbox will grant the appearances for their LFR, N, H, and M difficulty Remix variants.",
 });
 localize(L.HEADER_LORE, {
 	[-74] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -2472,7 +2472,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=2,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=2,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=9,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=11,["monthDay"]=9,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=23,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=11,["monthDay"]=23,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=30,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=11,["monthDay"]=30,["weekday"]=1,["year"]=2025}),
@@ -2524,7 +2523,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=18,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=18,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=10,["monthDay"]=25,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=10,["monthDay"]=25,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=1,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=1,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=8,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=8,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=8,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=8,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=15,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=15,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -8252,6 +8252,7 @@ local ObjectNames = {
 	[247072] = "Wax Ingot",
 	[247073] = "Wax Ingots",
 	[247074] = "Wax Ingots",
+	[247318] = "The Ashbringer",
 	[247339] = "Chest of Shrouds",
 	[247386] = "Blades of the Fallen Prince",
 	[247398] = "Felsoul Keyring",
@@ -8307,6 +8308,9 @@ local ObjectNames = {
 	[249345] = "Overlooked Crate",
 	[249347] = "Fangs of the Devourer",
 	[249393] = "Mistfall Cache",
+	[249406] = "The Master's Journal pt. 1",
+	[249407] = "The Master's Journal pt. 2",
+	[249408] = "The Master's Journal pt. 3",
 	[249420] = "Truthguard",
 	[249464] = "Stolen Nar'thalas Relic",
 	[249466] = "Stolen Nar'thalas Relic",
@@ -8671,6 +8675,7 @@ local ObjectNames = {
 	[268513] = "Sandy Treasure Chest",
 	[268551] = "Curious Wyrmtongue Cache",
 	[268753] = "Small Treasure Chest",
+	[268765] = "Disturbed Mud",
 	[268813] = "Moon Lily",
 	[269037] = "Loose Pebble",
 	[269064] = "Small Treasure Chest",
@@ -9349,6 +9354,7 @@ local ObjectNames = {
 	[326141] = "Bounty Board",
 	[326142] = "Bounty Board",
 	[326148] = "Naga Attack Plans",
+	[326216] = "Azerite Trident",
 	[326239] = "Fathom Egg",
 	[326394] = "Arcane Chest",
 	[326395] = "Glowing Arcane Trunk",
@@ -16678,6 +16684,7 @@ local ObjectModels = {
 	[247072] = 1254527,
 	[247073] = 1254530,
 	[247074] = 1254531,
+	[247318] = 1346481,
 	[247339] = 196988,
 	[247386] = 1355113,
 	[247398] = 970210,
@@ -16733,6 +16740,9 @@ local ObjectModels = {
 	[249345] = 1391084,
 	[249347] = 353152,
 	[249393] = 1096755,
+	[249406] = 243447,
+	[249407] = 243447,
+	[249408] = 243447,
 	[249420] = 353152,
 	[249464] = 1096768,
 	[249466] = 1096769,
@@ -17089,6 +17099,7 @@ local ObjectModels = {
 	[268513] = 1352441,
 	[268551] = 219372,
 	[268753] = 1349620,
+	[268765] = 189528,
 	[268813] = 1146686,
 	[269037] = 1308984,
 	[269064] = 1349620,
@@ -17767,6 +17778,7 @@ local ObjectModels = {
 	[326141] = 1822634,
 	[326142] = 1822634,
 	[326148] = 1367068,
+	[326216] = 2917615,
 	[326239] = 984888,
 	[326394] = 2833918,
 	[326395] = 2839405,
@@ -22860,7 +22872,7 @@ L.QUEST_NAMES = {
 	[50147] = "Step 8: Temple of Karabor",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-689],
+	[52819] = _.L.HEADER_NAMES[-690],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -24079,6 +24091,8 @@ L.HEIRLOOMS_UPGRADES_CHECKBOX = "+Aufwertungen";
 L.HEIRLOOMS_UPGRADES_DESC = "Dies zeigt an, ob Ihr ein Erbstück bereits auf eine bestimmte Stufe aufgewertet habt.\n\nR.I.P. Gold.\n - Crieve";
 L.HIDDEN_QUEST_TRIGGERS = "Versteckte Quest Auslöser";
 L.HIDDEN_QUEST_TRIGGERS_DESC = "Dies sind Quests, deren Auslösung anhand bestimmter Kriterien manuell festgelegt wurde und die vor allem Intern vom Spiel zu Nachverfolgungszwecken verwendet werden.";
+L.ILLUSION_ID = "Illusion-ID";
+L.ILLUSIONS_CHECKBOX = "Illusionen";
 L.INCOMPLETE = "|T" .. _.asset("incomplete") .. ":0|t |c" .. _.DefaultColors.Completed .. "Unvollständig|r";
 L.INSTANCE_DESC = "Klick diesen Knopf um eine zufällige Instanz auszuwählen, die Euch noch fehlt.";
 L.ITEM_DESC = "Klick diesen Knopf um einen zufälligen Gegenstand auszuwählen, der Euch noch fehlt.";
@@ -24414,8 +24428,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Zwielicht-Duo",
 	[-661] = "Zwielichtzone",
 	[-662] = "Championausrüstung",
-	[-688] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-689] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-689] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-690] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -27763,6 +27777,7 @@ localize(ObjectNames, {
 	[247072] = "Wachsbarren",
 	[247073] = "Wachsbarren",
 	[247074] = "Wachsbarren",
+	[247318] = "Der Aschenbringer",
 	[247339] = "Truhe mit Tüchern",
 	[247386] = "Klingen des gefallenen Prinzen",
 	[247398] = "Schlüsselring der Teufelsseele",
@@ -27813,6 +27828,9 @@ localize(ObjectNames, {
 	[249345] = "Übersehene Kiste",
 	[249347] = "Reißzähne des Verschlingers",
 	[249393] = "Schatz von Nebelhauch",
+	[249406] = "Tagebuch der Meisterin, Teil 1",
+	[249407] = "Tagebuch der Meisterin, Teil 2",
+	[249408] = "Tagebuch der Meisterin, Teil 3",
 	[249420] = "Der Wahrheitshüter",
 	[249464] = "Gestohlenes Relikt von Nar'thalas",
 	[249466] = "Gestohlenes Relikt von Nar'thalas",
@@ -28165,6 +28183,7 @@ localize(ObjectNames, {
 	[268513] = "Sandige Schatzkiste",
 	[268551] = "Seltsame Wyrmzungentruhe",
 	[268753] = "Kleine Schatztruhe",
+	[268765] = "Aufgewühlter Schlamm",
 	[268813] = "Mondlilie",
 	[269037] = "Loser Stein",
 	[269064] = "Kleine Schatztruhe",
@@ -28835,6 +28854,7 @@ localize(ObjectNames, {
 	[326141] = "Steckbrieftafel",
 	[326142] = "Steckbrieftafel",
 	[326148] = "Angriffspläne der Naga",
+	[326216] = "Azeritdreizack",
 	[326239] = "Tiefenei",
 	[326394] = "Arkane Truhe",
 	[326395] = "Leuchtende arkane Truhe",
@@ -31109,6 +31129,7 @@ L.ICON_ONLY_CHECKBOX = "Icône seulement";
 L.ICON_ONLY_CHECKBOX_TOOLTIP = "Activez cette option si vous souhaitez afficher uniquement l’icône dans le coin supérieur droit au lieu de l’icône et du texte collecté / non collecté.\n\nCertaines personnes préfèrent des infobulles plus petites…";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX = "Ignorer les objets LqE / LqR";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "Activez cette option si vous souhaitez ignorer les exigences en matière d’armure, d’arme, de race, de classe ou de profession pour les objets LqE / LqR.\n\nSi vous essayez de collecter des objets pour vos personnages secondaires via l’hôtel des ventes, ce mode peut vous être utile.";
+L.ILLUSION_ID = "ID de l’Illusion";
 L.INCOMPLETE = "|T" .. _.asset("incomplete") .. ":0|t |c" .. _.DefaultColors.Completed .. "Incomplet|r";
 L.INSTANCE_DESC = "Cliquez sur ce bouton pour sélectionner une instance aléatoire basé sur ce qu’il vous manque.";
 L.ITEM_DESC = "Cliquez sur ce bouton pour sélectionner un objet aléatoire basé sur ce qu’il vous manque.";
@@ -31471,8 +31492,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Duo Crépusculaire",
 	[-661] = "Chroniques des Crépusculaires",
 	[-662] = "Équipement de champion",
-	[-688] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-689] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-689] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-690] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -34832,6 +34853,7 @@ localize(ObjectNames, {
 	[247072] = "Lingot de cire",
 	[247073] = "Lingots de cire",
 	[247074] = "Lingots de cire",
+	[247318] = "Porte-Cendres",
 	[247339] = "Coffre de voiles",
 	[247386] = "Lames du prince déchu",
 	[247398] = "Clés de Gangrâme",
@@ -34887,6 +34909,9 @@ localize(ObjectNames, {
 	[249345] = "Caisse oubliée",
 	[249347] = "Crocs du Dévoreur",
 	[249393] = "Cache de Tombe-Brume",
+	[249406] = "Le journal du Maître - 1re partie",
+	[249407] = "Le journal du Maître - 2e partie",
+	[249408] = "Le journal du Maître - 3e partie",
 	[249420] = "Garde-Vérité",
 	[249464] = "Relique de Nar’thalas volée",
 	[249466] = "Relique de Nar’thalas volée",
@@ -35238,6 +35263,7 @@ localize(ObjectNames, {
 	[268513] = "Coffre au trésor couvert de sable",
 	[268551] = "Cache de langue-de-wyrm curieux",
 	[268753] = "Petit coffre au trésor",
+	[268765] = "Boue dérangée",
 	[268813] = "Lys de lune",
 	[269037] = "Caillou déchaussé",
 	[269064] = "Petit coffre au trésor",
@@ -35910,6 +35936,7 @@ localize(ObjectNames, {
 	[326141] = "Tableau de récompense",
 	[326142] = "Tableau de récompense",
 	[326148] = "Plans d’attaque nagas",
+	[326216] = "Trident azéritique",
 	[326239] = "Œuf pélagique",
 	[326394] = "Coffre arcanique",
 	[326395] = "Malle arcanique luisante",
@@ -38031,6 +38058,8 @@ L.EXPANSION_FILTER_LABEL = "Filtra per Espansione";
 L.EXPANSION_FILTER_TOOLTIP = "Attiva/disattiva la visibilità del contenuto di %s";
 L.EXPANSION_FILTERS_PAGE = "Filtri Espansione";
 L.FOLLOWERS_CHECKBOX = "|T" .. _.asset("Expansion_WOD") .. ":0|t Seguaci & Avventurieri";
+L.ILLUSION_ID = "ID dell’Illusione";
+L.ILLUSIONS_CHECKBOX = "Illusioni d'Incantamento";
 L.NEW_VERSION_FLAVORS = {"perché AllTheThings ha fame."};
 L.PLAYER_RANK_AUTHOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "Autore|r";
 L.PLAYER_RANK_COLLECTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "Collettore|r";
@@ -38140,8 +38169,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Doppietta Crepuscolare",
 	[-661] = "Zona del Crepuscolo",
 	[-662] = "Equipaggiamento campione",
-	[-688] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-689] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-689] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-690] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -41086,6 +41115,7 @@ localize(ObjectNames, {
 	[247072] = "Lingotto di Cera",
 	[247073] = "Lingotti di Cera",
 	[247074] = "Lingotti di Cera",
+	[247318] = "Brandicenere",
 	[247339] = "Cassa di Veli",
 	[247386] = "Lame del Principe Caduto",
 	[247398] = "Portachiavi di Vilanima",
@@ -41138,6 +41168,9 @@ localize(ObjectNames, {
 	[249345] = "Cassa Sfuggita",
 	[249347] = "Zanne del Divoratore",
 	[249393] = "Cassa di Calanebbia",
+	[249406] = "Diario del Maestro, Parte 1",
+	[249407] = "Diario del Maestro, Parte 2",
+	[249408] = "Diario del Maestro, Parte 3",
 	[249420] = "Scudo della Verità",
 	[249464] = "Reliquia Rubata di Nar'thalas",
 	[249466] = "Reliquia Rubata di Nar'thalas",
@@ -41487,6 +41520,7 @@ localize(ObjectNames, {
 	[268512] = "Cassa del Tesoro Sommersa",
 	[268513] = "Cassa del Tesoro Insabbiata",
 	[268551] = "Cassa dei Drachilingua Strana",
+	[268765] = "Fango Smosso",
 	[268813] = "Giglio di Luna",
 	[269037] = "Ciottolo Instabile",
 	[269064] = "Cassa del Tesoro Piccola",
@@ -42135,6 +42169,7 @@ localize(ObjectNames, {
 	[326141] = "Bacheca delle Taglie",
 	[326142] = "Bacheca delle Taglie",
 	[326148] = "Piani d'attacco dei Naga",
+	[326216] = "Tridente d'Azerite",
 	[326239] = "Uovo delle Profondità",
 	[326394] = "Cassa Arcana",
 	[326395] = "Baule Arcano Luminoso",
@@ -44039,6 +44074,8 @@ L.FOLLOWERS_CHECKBOX = "|T" .. _.asset("Expansion_WOD") .. ":0|t Seguidores & Co
 L.HEIRLOOM_TEXT = "Herança Desbloqueada";
 L.HEIRLOOM_TEXT_DESC = "Isso indica se já adquiriu ou não a Herança.";
 L.HEIRLOOMS_UPGRADES_DESC = "Isso indica se já atualizou ou não a herança para um certo nível.\n\nR.I.P. Gold.\n - Crieve";
+L.ILLUSION_ID = "ID de Ilusão";
+L.ILLUSIONS_CHECKBOX = "Ilusões";
 L.ITEM_GIVES_REP = "Concede reputação com '";
 L.KNOWN_BY = "Conhecido como %s";
 L.LORE = "História";
@@ -44191,8 +44228,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Dupla do Crepúsculo",
 	[-661] = "Além da Imaginação",
 	[-662] = "Equipamento de Campeão",
-	[-688] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-689] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-689] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-690] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -47449,6 +47486,7 @@ localize(ObjectNames, {
 	[247072] = "Lingote de Cera",
 	[247073] = "Lingotes de Cera",
 	[247074] = "Lingotes de Cera",
+	[247318] = "A Crematória",
 	[247339] = "Baú das Mortalhas",
 	[247386] = "Lâminas do Príncipe Caído",
 	[247398] = "Chaveiro de Almavil",
@@ -47499,6 +47537,9 @@ localize(ObjectNames, {
 	[249345] = "Caixote Ignorado",
 	[249347] = "Presas do Devorador",
 	[249393] = "Tesouro de Quedabruma",
+	[249406] = "O Diário do Mestre Pt. 1",
+	[249407] = "O Diário do Mestre Pt. 2",
+	[249408] = "O Diário do Mestre Pt. 3",
 	[249420] = "Guarda Fiel",
 	[249464] = "Relíquia de Nar'thalas Roubada",
 	[249466] = "Relíquia de Nar'thalas Roubada",
@@ -47850,6 +47891,7 @@ localize(ObjectNames, {
 	[268513] = "Baú do Tesouro Coberto de Areia",
 	[268551] = "Baú de Língua de Serpe Singular",
 	[268753] = "Baú do Tesouro Pequeno",
+	[268765] = "Lama Agitada",
 	[268813] = "Lírio-da-lua",
 	[269037] = "Cascalho Solto",
 	[269064] = "Baú do Tesouro Pequeno",
@@ -48493,6 +48535,7 @@ localize(ObjectNames, {
 	[326141] = "Quadro de Recompensas",
 	[326142] = "Quadro de Recompensas",
 	[326148] = "Planos de Ataque Naga",
+	[326216] = "Tridente de Azerita",
 	[326239] = "Ovo das Profundezas",
 	[326394] = "Baú Arcano",
 	[326395] = "Arca Arcana Brilhante",
@@ -50795,6 +50838,7 @@ L.ICON_ONLY_CHECKBOX = "Только Иконка";
 L.ICON_ONLY_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть только иконку в углу подсказки вместо иконки и надписи собрано/не собрано.\n\nНекоторым людям нравятся подсказки поменьше ...";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX = "Игнорировать Фильтры БоЕ/БоА";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите игнорировать требования по типу брони, оружия, расе, классу или профессии для БоЕ/БоА предметов.\n\nЕсли Вы стремитесь собрать штучки для Ваших альтов через Аукцион, этот режим может быть полезен для Вас.";
+L.ILLUSION_ID = "ID чар оружия";
 L.ILLUSIONS_CHECKBOX = "Чары для оружия";
 L.ILLUSIONS_CHECKBOX_TOOLTIP = "Включите для отслеживания чар для оружия.\n\nЭто круто выглядящие эффекты, которые можно применить к Вашему оружию!\n\nПримечание: Вы не иллюзия, невзирая на то, как считают все Ночнорождённые.";
 L.INCLUDE_ORIGINAL_CHECKBOX = "Оригинал";
@@ -51421,8 +51465,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Зона сумерек",
 	[-662] = "Снаряжение защитника",
 	[-669] = "Промо Midnight",
-	[-688] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-689] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-689] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-690] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -54803,6 +54847,7 @@ localize(ObjectNames, {
 	[247072] = "Кусок воска",
 	[247073] = "Куски воска",
 	[247074] = "Куски воска",
+	[247318] = "Испепелитель",
 	[247339] = "Сундук с саванами",
 	[247386] = "Клинки падшего принца",
 	[247398] = "Связка ключей оплота Оскверненной Души",
@@ -54858,6 +54903,9 @@ localize(ObjectNames, {
 	[249345] = "Припрятанный ящик",
 	[249347] = "Клыки Пожирателя",
 	[249393] = "Тайник Туманного Водопада",
+	[249406] = "Дневник Владычицы, часть 1",
+	[249407] = "Дневник Владычицы, часть 2",
+	[249408] = "Дневник Владычицы, часть 3",
 	[249420] = "Страж Истины",
 	[249464] = "Похищенная реликвия Нар'таласа",
 	[249466] = "Похищенная реликвия Нар'таласа",
@@ -55213,6 +55261,7 @@ localize(ObjectNames, {
 	[268513] = "Занесенный песком сундук с сокровищами",
 	[268551] = "Необычный тайник змееуста",
 	[268753] = "Маленький сундук с сокровищами",
+	[268765] = "Разрытая грязь",
 	[268813] = "Лунная лилия",
 	[269037] = "Шатающийся камушек",
 	[269064] = "Маленький сундук с сокровищами",
@@ -55890,6 +55939,7 @@ localize(ObjectNames, {
 	[326141] = "Доска объявлений",
 	[326142] = "Доска объявлений",
 	[326148] = "Планы нападения наг",
+	[326216] = "Азеритовый трезубец",
 	[326239] = "Яйцо глубинного ската",
 	[326394] = "Чародейский сундук",
 	[326395] = "Светящийся чародейский сундук",
@@ -58060,6 +58110,8 @@ L.EXPANSION_FILTER_LABEL = "확장팩별 필터";
 L.EXPANSION_FILTER_TOOLTIP = "%s 콘텐츠 표시 전환";
 L.EXPANSION_FILTERS_PAGE = "확장팩 필터";
 L.FOLLOWERS_CHECKBOX = "|T" .. _.asset("Expansion_WOD") .. ":0|t 추종자 및 동료";
+L.ILLUSION_ID = "환영 ID";
+L.ILLUSIONS_CHECKBOX = "환영들";
 L.NEW_VERSION_FLAVORS = {"AllTheThings가 배고프기 때문입니다."};
 L.PLAYER_RANK_AUTHOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "작가|r";
 L.PLAYER_RANK_COLLECTOR = "|T" .. _.asset("logo_32x32") .. ":0|t |c" .. _.DefaultColors.White .. "수집기|r";
@@ -58168,8 +58220,8 @@ localize(L.HEADER_NAMES, {
 	[-660] = "황혼의 2인조",
 	[-661] = "황혼 지대",
 	[-662] = "용사 장비",
-	[-688] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-689] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-689] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-690] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -61704,6 +61756,7 @@ localize(ObjectNames, {
 	[268478] = "문드러진 장신구",
 	[268551] = "수상한 고룡혓바닥 보관함",
 	[268753] = "작은 보물 상자",
+	[268765] = "파헤쳐진 진흙",
 	[268813] = "달 백합",
 	[269037] = "거리의 자갈",
 	[269064] = "작은 보물 상자",
@@ -62262,6 +62315,7 @@ localize(ObjectNames, {
 	[326141] = "현상 수배 게시판",
 	[326142] = "현상 수배 게시판",
 	[326148] = "나가 공격 계획",
+	[326216] = "아제라이트 삼지창",
 	[326239] = "심해 알",
 	[326394] = "비전 상자",
 	[326395] = "빛나는 비전 상자",
@@ -64340,7 +64394,7 @@ L.ICON_ONLY_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver sólo el icon
 L.ICON_PATH = "Icono de ruta";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX = "Ignora los filtros de objetos BoE/BoA";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "Activa este ajuste si quieres ignorar requerimientos de armadura, arma, raza, clase o de profesión para los objetos BoE/BoA.\n\nSi estás intentando coleccionar cosas para tus personajes secundarios escaneando la Casa de Subastas, este modo puede serte útil.";
-L.ILLUSION_ID = "Ilusión ID";
+L.ILLUSION_ID = "ID de Ilusión";
 L.ILLUSIONS_CHECKBOX = "Ilusiones";
 L.ILLUSIONS_CHECKBOX_TOOLTIP = "Activa esta opción para rastrear ilusiones.\n\nSon efectos muy molones que puedes aplicar a tus armas!\n\nNOTA: No eres una ilusión, aunque todos los Nocheterna piensen lo contrario.";
 L.INCLUDE_ORIGINAL_CHECKBOX = "Fuente original";
@@ -65028,8 +65082,9 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Dimensión Desconocida",
 	[-662] = "Equipo de campeón",
 	[-669] = "Promociones temporada Midnight",
-	[-688] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-689] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-684] = "Experiencia de ponerse al día",
+	[-689] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-690] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -68405,6 +68460,7 @@ localize(ObjectNames, {
 	[247072] = "Lingote de cera",
 	[247073] = "Lingotes de cera",
 	[247074] = "Lingotes de cera",
+	[247318] = "La Crematoria",
 	[247339] = "Cofre de sudarios",
 	[247386] = "Hojas del Príncipe Caído",
 	[247398] = "Llavero Alma Vil",
@@ -68455,6 +68511,9 @@ localize(ObjectNames, {
 	[249345] = "Cajón discreto",
 	[249347] = "Colmillos del Devorador",
 	[249393] = "Alijo de Bruma Otoñal",
+	[249406] = "Diario de la Maestra, parte 1",
+	[249407] = "Diario de la Maestra, parte 2",
+	[249408] = "Diario de la Maestra, parte 3",
 	[249420] = "Veraguardia",
 	[249464] = "Reliquia de Nar'thalas robada",
 	[249466] = "Reliquia de Nar'thalas robada",
@@ -68806,6 +68865,7 @@ localize(ObjectNames, {
 	[268513] = "Arqueta arenosa",
 	[268551] = "Alijo Lenguavermis curioso",
 	[268753] = "Arqueta pequeña",
+	[268765] = "Barro revuelto",
 	[268813] = "Lirio de luna",
 	[269037] = "Guijarro suelto",
 	[269064] = "Arqueta pequeña",
@@ -69472,6 +69532,7 @@ localize(ObjectNames, {
 	[326141] = "Tablón de recompensas",
 	[326142] = "Tablón de recompensas",
 	[326148] = "Planes de ataque naga",
+	[326216] = "Tridente de azerita",
 	[326239] = "Huevo de las profundidades",
 	[326394] = "Cofre Arcano",
 	[326395] = "Valija Arcana resplandeciente",
@@ -71577,7 +71638,6 @@ L.ICON_LEGEND_STATUS_LABEL = "Mensaje del icono";
 L.ICON_LEGEND_STATUS_TEXT = "|c" .. _.DefaultColors.White .. "|T" .. _.asset("status-unobtainable") .. ":0|t No obtenible\n|T" .. _.asset("status-prerequisites") .. ":0|t Obtenible sólo con prerequisitos\n|T" .. _.asset("status-seasonal-available") .. ":0|t Contenido temporal disponible\n|T" .. _.asset("status-seasonal-unavailable") .. ":0|t Contenido temporal no disponible\n|T374225:0|t No disponible en tu personaje actual\n|T" .. _.asset("status-unsorted") .. ":0|t Sin listar en ATT|r";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX = "Ignora los filtros de objetos LaE/LaC";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "Activa este ajuste si quieres ignorar requerimientos de armadura, arma, raza, clase o de profesión para los objetos LaE/LaC.\n\nSi estás intentando coleccionar cosas para tus personajes secundarios escaneando la Casa de Subastas, este modo puede serte útil.";
-L.ILLUSION_ID = "ID de ilusión";
 L.ILLUSIONS_CHECKBOX_TOOLTIP = "Activa esta opción para rastrear ilusiones.\n\nSon efectos muy vistosos que puedes aplicar a tus armas!\n\nNOTA: No eres una ilusión, aunque todos los Natonocturnos piensen lo contrario.";
 L.INCLUDE_ORIGINAL_CHECKBOX = "origen original";
 L.INCLUDE_ORIGINAL_CHECKBOX_TOOLTIP = "Activa esta opción si te gustaba la información de origen original en la lista de Apariencias Compartidas en la ventana emergente.";
@@ -71769,7 +71829,7 @@ localize(L.HEADER_NAMES, {
 	[-591] = "Festival del errante",
 	[-654] = "Cosechando",
 	[-656] = "Gremio de luchadores",
-	[-689] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-690] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -71998,7 +72058,7 @@ L.ACCOUNT_MODE_TOOLTIP = "如果要追踪所有角色的所有内容，而不考
 L.ACCOUNT_SYNCHRONIZATION = "帐号同步";
 L.ACCOUNT_THINGS_LABEL = "帐号通用事物";
 L.ACCOUNT_WIDE_ACHIEVEMENTS_TOOLTIP = "成就追踪通常是在整个账号通用内进行的，但有一些特定职业和种族的专属成就，你无法在你的主账号上获得。";
-L.ACCOUNT_WIDE_APPEARANCES_TOOLTIP = "幻化应该在整个账号范围内收集。某些物品并非每个职业都能学会，因此 ATT 将尽力只向您展示你当前角色可以收集的物品。";
+L.ACCOUNT_WIDE_APPEARANCES_TOOLTIP = "外观应该在整个账号范围内收集。某些物品并非每个职业都能学会，因此 ATT 将尽力只向您展示你当前角色可以收集的物品。";
 L.ACCOUNT_WIDE_AZERITE_ESSENCES_TOOLTIP = "艾泽里特精华在技术上不能在整个战网内收藏和使用，但如果你只关心收藏你的主角色那么你可能更喜欢在整个战网上追踪它们。";
 L.ACCOUNT_WIDE_BATTLE_PETS_TOOLTIP = "伙伴宠物可在多个角色上收集，并且实际上需要你拥有大量的背包空间才能将它们全部收集在一个角色上。\n\n我们建议您保持此功能开启，但你可以自己刷。";
 L.ACCOUNT_WIDE_CHARACTERUNLOCKS_TOOLTIP = "如果任一角色已经收集了角色解锁的物品，则将其视为已收集。";
@@ -72312,8 +72372,8 @@ L.ICON_PATH = "图标路径";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX = "忽略装备绑定/战团绑定的筛选";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "启用此选项以忽略装备绑定/战团绑定物品的护甲、武器、种族、职业或专业技能要求。\n\n如果你正试图通过拍卖行扫描给小号收集物品，此模式可能对你有用。";
 L.ILLUSION_ID = "幻象 ID";
-L.ILLUSIONS_CHECKBOX = "附魔幻象";
-L.ILLUSIONS_CHECKBOX_TOOLTIP = "启用此选项以追踪附魔幻象。\n\n这些看起来很酷的幻化效果，你可以应用到你的武器上！\n\n注意：你不是一个幻象，尽管所有的夜之子都这么认为。";
+L.ILLUSIONS_CHECKBOX = "幻象";
+L.ILLUSIONS_CHECKBOX_TOOLTIP = "启用此选项以追踪幻象。\n\n这些看起来很酷的幻化效果，你可以应用到你的武器上！\n\n注意：你不是一个幻象，尽管所有的夜之子都这么认为。";
 L.INCLUDE_ORIGINAL_CHECKBOX = "原始来源";
 L.INCLUDE_ORIGINAL_CHECKBOX_TOOLTIP = "如果你真的喜欢在鼠标提示中的共享外观列表中看到原始来源信息，请启用此选项。";
 L.INCOMPLETE = "|T" .. _.asset("incomplete") .. ":0|t |c" .. _.DefaultColors.Completed .. "未完成|r";
@@ -73000,7 +73060,10 @@ localize(L.HEADER_NAMES, {
 	[-521] = "典藏版",
 	[-522] = "英雄礼包",
 	[-523] = "史诗礼包",
-	[-524] = "燃烧的远征经典怀旧服典藏包",
+	[-524] = "'燃烧的远征'怀旧服典藏包",
+	[-525] = "'巫妖王之怒'怀旧服 - 北裂境升级",
+	[-526] = "'大地的裂变'怀旧服 - 炽炎升级",
+	[-527] = "'熊猫人之谜'怀旧服 - 宿煞英雄礼包",
 	[-528] = "至暗之夜",
 	[-529] = "魔兽世界15周年典藏版",
 	[-530] = "暗黑破坏神III",
@@ -73039,8 +73102,9 @@ localize(L.HEADER_NAMES, {
 	[-661] = "暮光领域",
 	[-662] = "勇士装备",
 	[-669] = "至暗之夜季节性促销",
-	[-688] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-689] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-687] = "团队装备转换",
+	[-689] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-690] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
@@ -76038,6 +76102,7 @@ localize(ObjectNames, {
 	[247063] = "恶魔废物堆",
 	[247073] = "蜡块",
 	[247074] = "蜡块",
+	[247318] = "灰烬使者",
 	[247339] = "一箱裹布",
 	[247386] = "堕落王子之剑",
 	[247398] = "邪魂钥匙环",
@@ -76369,6 +76434,7 @@ localize(ObjectNames, {
 	[268513] = "沾满沙子的宝箱",
 	[268551] = "可疑的虫语者箱子",
 	[268753] = "小宝箱",
+	[268765] = "翻过的泥土",
 	[268813] = "月光百合",
 	[269037] = "松动的卵石",
 	[269064] = "小宝箱",
@@ -76970,6 +77036,7 @@ localize(ObjectNames, {
 	[326141] = "悬赏榜",
 	[326142] = "悬赏榜",
 	[326148] = "纳迦攻击计划",
+	[326216] = "艾泽里特三叉戟",
 	[326239] = "深水之卵",
 	[326394] = "奥术宝箱",
 	[326395] = "发光的奥能宝箱",
@@ -78884,7 +78951,7 @@ L.AH_SEARCH_NO_ITEMS_FOUND = "搜尋中找不到快取的物品。展開組並�
 L.ALL_BUTTON_TOOLTIP = "點擊此按鈕一次啟用所有裝備篩選。";
 L.ALL_THE_APPEARANCES_DESC = "所有你需要的外觀都在這裡顯示。";
 L.ALL_THE_BATTLEPETS_DESC = "所有你尚未收藏的寵物都會顯示在這裡。";
-L.ALL_THE_ILLUSIONS_DESC = "這裡展示了附魔幻象、玩具等可以獲得收藏的物品。";
+L.ALL_THE_ILLUSIONS_DESC = "這裡展示了幻象、玩具等可以獲得收藏的物品。";
 L.ALL_THE_ITEMS_FOR_ACHIEVEMENTS_DESC = "所有可以用來獲得成就的物品都會顯示在這裡。";
 L.ALL_THE_MOUNTS_DESC = "所有你尚未收藏的坐騎都會顯示在這裡。";
 L.ALL_THE_QUESTS_DESC = "所有有目標或起始物品可以在拍賣行出售的任務都會在這裡顯示。";
@@ -79101,7 +79168,7 @@ L.ICON_ONLY_CHECKBOX = "僅圖標";
 L.ICON_ONLY_CHECKBOX_TOOLTIP = "如果只想在右上角看到圖標而不是圖標和已收藏/未收藏的文字，請啟用此選項。\n\n有些人喜歡更小的指標提示…";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX = "忽略裝備綁定/拾取綁定的篩選";
 L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "如果要忽略裝備綁定/拾取綁定物品的裝備、武器、種族、等級或職業要求，請啟用此設定。\n\n如果你正試圖通過拍賣行掃描收藏你的物品，此模式可能對你有用。";
-L.ILLUSIONS_CHECKBOX_TOOLTIP = "啟用此選項以追蹤附魔幻象。\n\n這些看起來很酷的幻化效果，你可以套用到你的武器上！\n\n注意：你不是一個幻象，儘管所有的夜裔精靈都這麼認為。";
+L.ILLUSIONS_CHECKBOX_TOOLTIP = "啟用此選項以追蹤幻象。\n\n這些看起來很酷的塑形效果，你可以套用到你的武器上！\n\n注意：你不是一個幻象，儘管所有的夜裔精靈都這麼認為。";
 L.INCLUDE_ORIGINAL_CHECKBOX = "原始來源";
 L.INCLUDE_ORIGINAL_CHECKBOX_TOOLTIP = "如果你真的喜歡在指標提示中的共享外觀列表中看到原始來源資訊，請啟用此選項。";
 L.INSTANCE_DESC = "點擊此按鈕可依據缺少的內容選擇隨機副本。";
@@ -79136,6 +79203,7 @@ L.LOCK_CRITERIA_FACTION_FORMAT = "%s 和 %s（當前：%s）";
 L.LOCK_CRITERIA_FACTION_LABEL = "陣營聲望";
 L.LOCK_CRITERIA_LEVEL_LABEL = "玩家等級";
 L.LOCK_CRITERIA_QUEST_LABEL = "已完成任務";
+L.LOCK_CRITERIA_SOURCE_LABEL = "已知外觀";
 L.LOCK_CRITERIA_SPELL_LABEL = "已學法術/坐騎/配方";
 L.LOCKED_QUESTS = "鎖定任務";
 L.LOCKOUT = "鎖定";
@@ -79207,7 +79275,7 @@ L.ONLY_NOT_TRASH_TOOLTIP = "啟用此選項可忽略白色/灰色物品。暴雪
 L.ONLY_RELEVANT_CHECKBOX = "僅相關";
 L.ONLY_RELEVANT_CHECKBOX_TOOLTIP = "如果你只想看到你的角色可以解鎖的共享外觀，請啟用此選項。\n\n注意：我們建議你保持這個關閉，因為了解一個物品的解鎖要求可以幫助識別為什麼一個物品沒有被收藏。";
 L.ONLY_RWP = "僅‘隨更新移除’";
-L.ONLY_RWP_TOOLTIP = "啟用此選項僅追蹤未來會從遊戲中刪除的幻化。只有標記為“隨更新移除”的資料的物品才會計入此資料。如果您發現未標記但應標記的物品，請告訴我！\n\n您可以依據“篩選器”選項卡更改顯示的戰利品類型。";
+L.ONLY_RWP_TOOLTIP = "啟用此選項僅追蹤未來會從遊戲中刪除的塑形。只有標記為“隨更新移除”的資料的物品才會計入此資料。如果您發現未標記但應標記的物品，請告訴我！\n\n您可以依據“篩選器”選項卡更改顯示的戰利品類型。";
 L.OPEN_AUTOMATICALLY = "自動開啟";
 L.OPEN_AUTOMATICALLY_DESC = "如果你不是暴雪開發者，最好是取消勾選此項。這樣做是為了迫使暴雪修復或承認這些錯誤。";
 L.OPEN_MINILIST_FOR = "打開小列表：";
@@ -79371,6 +79439,7 @@ L.SHOW_RECIPES_CHECKBOX = "顯示配方";
 L.SHOW_RECIPES_CHECKBOX_TOOLTIP = "如果您想在指標提示中看到任何角色可以用某種材料製作的所有配方列表，請啟用此選項。";
 L.SHOW_REMAINING_CHECKBOX = "顯示剩餘事物";
 L.SHOW_REMAINING_CHECKBOX_TOOLTIP = "如果你想查看剩餘事物數量而不是總進度，請啟用此選項。";
+L.SHOW_SKYRIDING_CHECKBOX_TOOLTIP = "如果想在遊戲中顯示需要天空騎術的內容，請啟用此選項。";
 L.SKIP_AUTO_REFRESH = "不自動刷新！";
 L.SKIP_AUTO_REFRESH_TOOLTIP = "預設情況下(未勾選)，任何可能影響可見資料的設定變化都會導致自動刷新。\n\n通過啟用該選項設定的變化將不會生效，直到玩家 " .. SHIFT_KEY_TEXT .. "點擊 ATT 視窗執行全部刷新。";
 L.SKIP_CUTSCENES_CHECKBOX = "自動跳過過場動畫";
@@ -79648,6 +79717,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
 	[-64] = "這些物品可以從稀有菁英、可重複的寶箱、祈願蟋蟀、世界任務、指揮桌任務中取得。",
 	[-106] = "在艾澤拉斯冒險可以獲得額外的經驗與聲望，還能在巨龍群島以及卡茲阿爾加找到神秘的背袋！",
+	[-213] = "此部分顯示能在遊戲內商城購買的東西。",
 	[-355] = "副本的這部分可以從最東邊的傳送門進入。（右側）",
 	[-356] = "副本的這部分可以從最北邊的傳送門進入。",
 	[-357] = "副本的這部分可以從最西邊的傳送門進入。（左側）",

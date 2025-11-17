@@ -55,6 +55,7 @@ HeaderAssignments = {
 	["Blackrock Eruption"] = -627,
 	["BlizzCon"] = -520,
 	["Blood from Stone"] = -378,
+	["Blood Moon"] = -688,
 	["Bloodmaul Slag Mines"] = -108,
 	["Bonus Objectives"] = -14,
 	["Bonus Roll"] = -15,
@@ -677,4 +678,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -688;
+NextHeaderID = -689;
