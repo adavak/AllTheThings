@@ -11,8 +11,8 @@ SCENARIOS = createHeader({
 	},
 });
 -- #if ANYCLASSIC
-local REMOVED_WITH_TOT_ONUPDATE = [[function(t)
-	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
+local REMOVED_WITH_LANDFALL_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_LANDFALL .. [[) then
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 		t.rwp = nil;
 	else
@@ -420,7 +420,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["description"] = "Rewarded for completing a random scenario.",
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },
 						-- #if ANYCLASSIC
-						["OnUpdate"] = REMOVED_WITH_TOT_ONUPDATE,
+						["OnUpdate"] = REMOVED_WITH_LANDFALL_ONUPDATE,
 						-- #endif
 						["groups"] = {
 							n(BACK, {
@@ -523,7 +523,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 							}),
 						},
 					})),
-					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, container(92813, {	-- Greater Cache of Treasures
+					applyclassicphase(MOP_PHASE_LANDFALL, container(92813, {	-- Greater Cache of Treasures
 						["timeline"] = { ADDED_5_1_0, REMOVED_5_3_0 },
 						-- #if ANYCLASSIC
 						["OnUpdate"] = REMOVED_WITH_ESCALATION_ONUPDATE,
@@ -1307,7 +1307,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				applyclassicphase(MOP_PHASE_ONE, i(89613, {	-- Cache of Treasures [Looks like this was deprecated in favor of #92813)
 					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },
 					-- #if ANYCLASSIC
-					["OnUpdate"] = REMOVED_WITH_TOT_ONUPDATE,
+					["OnUpdate"] = REMOVED_WITH_LANDFALL_ONUPDATE,
 					-- #endif
 				})),
 				applyclassicphase(MOP_PHASE_LANDFALL, i(92813, {	-- Greater Cache of Treasures [Looks like this was deprecated in favor of #98133)
