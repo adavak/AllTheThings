@@ -364,7 +364,6 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 					cnONLY(i(246264)),	-- Inarius' Charger 
 					cnONLY(i(76889)),	-- Spectral Gryphon 
 					cnONLY(i(76902)),	-- Spectral Wind Rider 
-					cnONLY(i(223459)),	-- Blackrock Warsaber
 					cnONLY(i(71726)),	-- Murkablo
 					cnONLY(i(72134)),	-- Gregarious Grell
 					cnONLY(i(72159)),	-- Magical Ogre Idol
