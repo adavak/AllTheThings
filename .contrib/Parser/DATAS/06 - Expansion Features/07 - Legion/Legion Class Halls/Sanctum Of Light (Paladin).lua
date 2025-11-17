@@ -754,6 +754,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 92183 },	-- Alard Schmied
 						["coord"] = { 45.0, 29.6, LEGION_DALARAN },
 						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+						["cost"] = {{ "i", 147768, 1 }},	-- 1x Suramarian Sapphire
 					}),
 					q(45645, {	-- A Fool's Errand
 						["sourceQuests"] = { 45644 },	-- Oh Doloria, My Sweet Doloria
