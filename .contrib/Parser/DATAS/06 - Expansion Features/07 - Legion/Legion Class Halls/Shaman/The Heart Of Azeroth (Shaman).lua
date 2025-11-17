@@ -473,15 +473,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							o(249406, {	-- The Master's Journal pt. 1
 								["coord"] = { 64.0, 75.1, DEEPHOLM },
 								["groups"] = { i(136791) },	-- The Master's Journal pt. 1 (QI!)
-							},
+							}),
 							o(249407, {	-- The Master's Journal pt. 2
 								["coord"] = { 61.7, 72.0, DEEPHOLM },
 								["groups"] = { i(136792) },	-- The Master's Journal pt. 2 (QI!)
-							},
+							}),
 							o(249408, {	-- The Master's Journal pt. 3
 								["coord"] = { 62.4, 76.0, DEEPHOLM },
 								["groups"] = { i(136793) },	-- The Master's Journal pt. 3 (QI!)
-							},
+							}),
 						},
 					}),
 					q(41898, {	-- Unleashing the Elements
