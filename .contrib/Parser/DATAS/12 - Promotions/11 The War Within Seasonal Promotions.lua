@@ -48,7 +48,7 @@ TREASURE_OF_AZEROTH = createHeader({
 	--	cn = "雷蛇",
 	},
 	description = {
-		en = "To celebrate the launch of Titan Reforged servers tomorrow, Chinese players can participate in The Treasures of Azeroth event, offering brand new rewards.",
+		en = "To celebrate the launch of Titan Reforged servers, Chinese players can participate in The Treasures of Azeroth event, offering brand new rewards. The Rewards are not shared between game types and must be obtained separately in each.",
 	},
 });
 
