@@ -1082,8 +1082,8 @@ app.AddEventHandler("OnLoad", function()
 			-- 		["skipFill"] = true,
 			-- 		["g"] = {},
 			-- 	})
-			-- 	NestObjects(sourceGroup, collectibles, true)
-			-- 	NestObject(group, sourceGroup, nil, 1)
+			-- 	app.NestObjects(sourceGroup, collectibles, true)
+			-- 	app.NestObject(group, sourceGroup, nil, 1)
 			-- end
 			local groupHash = group.hash;
 			-- if FillData.Debug then app.PrintDebug("DeterminePurchaseGroups",app:SearchLink(group),"-collectibles",collectibles and #collectibles) end
