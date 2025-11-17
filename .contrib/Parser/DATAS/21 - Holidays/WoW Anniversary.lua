@@ -714,14 +714,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				q(47251, {	-- Interesting Things
 					["provider"] = { "i", 147881 },	-- A Slightly More Urgent Letter from the Timewalkers [Horde]
 					["coord"] = { 36.4, 74.4, ORGRIMMAR },
-					["races"] = HORDE_ONLY,
 					["timeline"] = { ADDED_7_2_5, REMOVED_7_2_5 },
+					["races"] = HORDE_ONLY,
 				}),
 				q(47252, {	-- Interesting Things
 					["provider"] = { "i", 147880 },	-- A Slightly More Urgent Letter from the Timewalkers [Alliance]
 					["coord"] = { 84.6, 25.0, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
 					["timeline"] = { ADDED_7_2_5, REMOVED_7_2_5 },
+					["races"] = ALLIANCE_ONLY,
 				}),
 				q(47253, {	-- The Originals [Alliance]
 					["qg"] = 110034,	-- Historian Llore
@@ -2248,8 +2248,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					["sourceQuest"] = 57249,	-- A Timely Invitation
 					["qg"] = 157113,	-- Chromie
 					["coord"] = { 53.5, 54.7, CAVERNS_OF_TIME },
-					["lvl"] = 60,
 					["timeline"] = { ADDED_8_2_5, REMOVED_9_0_1 },
+					["lvl"] = 60,
 				}),
 				q(57300, {	-- Soldier of Time
 					-- #if BEFORE 11.0.5
