@@ -13025,7 +13025,7 @@ q(46070,{c=a[1018],coords={a[2334]},cost={{"i",131746,1}},lvl=45,qgs=a[3481],sou
 q(94847,{awp=110205,c=a[1018],coords={a[2334]},qgs=a[3481],rwp=120000,sourceQuests=a[2077]}),
 q(46071,{c=a[1018],coords={a[2334]},lvl=45,qgs=a[3481],sourceQuests={46070,94847},sqreq=1}),
 q(46083,{c=a[1018],coords={a[2009]},cost={{"i",147768,1},{"i",123918,25}},lvl=45,qgs=a[3498],sourceQuests=a[2079]}),
-q(91618,{awp=110205,c=a[1018],coords={a[2009]},qgs=a[3498],rwp=120000,sourceQuests=a[2079]}),
+q(91618,{awp=110205,c=a[1018],coords={a[2009]},cost={{"i",147768,1}},qgs=a[3498],rwp=120000,sourceQuests=a[2079]}),
 q(45645,{c=a[1018],coords={{48.2,41,627}},lvl=45,qgs={117438},sourceQuests={45644},g={
 i(143845,{c=a[1018]})}}),
 q(45566,{c=a[1018],coords={a[2555]},lvl=45,qgs=a[406],sourceQuests=a[2047],g={

@@ -40,6 +40,17 @@ RAZER = createHeader({
 		en = "Promotion for Razer Gaming Peripherals World of Warcraft Collection. Purchasing any item will award all three promotional codes.",
 	},
 });
+TREASURE_OF_AZEROTH = createHeader({
+	readable = "Treasures of Azeroth",
+	icon = 7259806,
+	text = {
+		en = "Treasures of Azeroth",
+	--	cn = "雷蛇",
+	},
+	description = {
+		en = "To celebrate the launch of Titan Reforged servers tomorrow, Chinese players can participate in The Treasures of Azeroth event, offering brand new rewards.",
+	},
+});
 
 root(ROOTS.Promotions, {
 	n(THE_WAR_WITHIN_SEASONAL_PROMOTIONS, {
@@ -72,6 +83,25 @@ root(ROOTS.Promotions, {
 				i(224574, {	-- Savage Ebony Battle Turtle (MOUNT!)
 					["description"] = "Aquired alongside the purchase of a 80$ Artistan Keycap, 40$QcK XXL Mousepad, or a 40$ Alliance/Horde Booster Pack as part of the World of Warcraft SteelSeries Limited Editon Collection.",
 				}),
+			}));
+			n(TREASURE_OF_AZEROTH, sharedDataSelf({
+				["timeline"] = { "added 11.2.5.64395" },
+				["u"] = REAL_MONEY,
+			}, {
+				["groups"] = {
+				--	cnONLY(i(, {	-- Azerothian Treasure Coins ToDo: Its currency to buy all the items
+				--	ToDo: Add Cost: https://wow.zamimg.com/uploads/screenshots/normal/1251957.jpg
+						cnONLY(i(252679)),	-- Mechanical Prototype Panther MK-0
+						cnONLY(i(252681)),	-- Steel Prototype Panther MK-0
+						cnONLY(i(223471)),	-- Kaldorei War Wolf
+						cnONLY(i(223459)),	-- Blackrock Warsaber
+						cnONLY(i(71726)),	-- Murkablo
+						cnONLY(i(72134)),	-- Gregarious Grell
+					--	cnONLY(i()),	-- Sands of Time (Different game?)
+					--	cnONLY(i()),	-- Karesh expedition resupply
+					--	cnONLY(i()),	-- Shard of Azeroth Fragment
+				--	})),
+				},
 			}));
 			-- "Pre Season"
 			cnONLY(ach(40910, {	-- Successfully Stress Test CN Realms

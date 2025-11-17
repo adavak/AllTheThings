@@ -584,6 +584,7 @@ HeaderAssignments = {
 	["Trading Post"] = -230,
 	["Transport Network"] = -173,
 	["Treasures"] = -56,
+	["Treasures of Azeroth"] = -691,
 	["Trial of Style"] = -38,
 	["Trinket"] = -99,
 	["Twilight Assist"] = -659,
@@ -678,4 +679,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -689;
+NextHeaderID = -692;
