@@ -374,6 +374,6 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 			--	})),
 			},
 		}));
-	})
+	}),
 	-- #endif
 }));
