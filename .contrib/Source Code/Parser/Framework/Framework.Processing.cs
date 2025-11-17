@@ -560,7 +560,7 @@ namespace ATT
         private static void AdditionalProcessing()
         {
             // Clean out any temporary containers
-            string[] temporaryKeys = Objects.AllContainers.Keys.Where(k => k.StartsWith("_")).ToArray();
+            string[] temporaryKeys = Objects.AllContainers.Keys.Where(k => k[0] == '_').ToArray();
             temporaryKeys.All(k => Objects.AllContainers.Remove(k));
 
             // Merge conditional data
@@ -1143,7 +1143,7 @@ namespace ATT
                     removeKeys.Add("timeline");
                 }
                 // parser-only fields removed
-                else if (dataKvp.Key.StartsWith("_"))
+                else if (dataKvp.Key[0] == '_')
                 {
                     removeKeys.Add(dataKvp.Key);
                 }

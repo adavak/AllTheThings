@@ -4107,7 +4107,7 @@ setmetatable(_.HeaderConstants, {
                 {
                     var incorporationDB = new StringBuilder();
                     incorporationDB.AppendLine("-- For reference only! Not used for Parsing! Contains information which was Incorporated from external DBs or other sources");
-                    if (incorporationData.Key.StartsWith("_"))
+                    if (incorporationData.Key[0] == '_')
                         continue;
 
                     incorporationDB.Append("_=").Append(ExportPureLua(incorporationData.Value));

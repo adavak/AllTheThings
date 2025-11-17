@@ -1619,7 +1619,7 @@ end");
                 }
 
                 // Only sort Parser metadata fields
-                if (field.StartsWith("_"))
+                if (field[0] == '_')
                     oldList.Sort();
 
                 if (oldList.Count == 0)
@@ -2113,7 +2113,7 @@ end");
                             }
 
                             // simple assignment for other fields starting with _ since those will be used for metadata in some scenarios and cleaned up by the Parser
-                            if (field.StartsWith("_"))
+                            if (field[0] == '_')
                             {
                                 item[field] = value;
                                 break;
