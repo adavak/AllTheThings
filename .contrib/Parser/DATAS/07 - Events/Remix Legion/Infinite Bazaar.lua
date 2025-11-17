@@ -723,13 +723,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 			}),
-			--[[
-			n(244792, {	-- Lindormi <Mythic Keystones>
-				["coord"] = { 45.5, 68.4, BROKEN_ISLES },
-				["groups"] = {
-				},
-			}),
-			--]]
 			n(241142, {	-- Momentus <Weaponmaster>
 				["coord"] = { 45.8, 68.0, BROKEN_ISLES },
 				["groups"] = sharedData({
@@ -759,6 +752,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 					}),
 					i(188152),	-- Gateway Control Shard
+					i(265922, {	-- Pet Training Manual: Fetch
+						["classes"] = { HUNTER },
+					}),
+					i(265923, {	-- Pet Training Manual: Play Dead
+						["classes"] = { HUNTER },
+					}),
 					i(226037),	-- Timeless Neural Silencer
 				}),
 			}),
@@ -1129,6 +1128,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["description"] = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
 							["cost"] = {{ "i", 242370, 5 }},	-- 5x Horns of the First Satyr
 						}),
+						-- Taeshalach and Scythe
+						i(254847),	-- Minor Bronze Cache
+						i(254848),	-- Minor Bronze Cache
 					}),
 				}),
 			}),

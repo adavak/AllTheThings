@@ -1274,7 +1274,10 @@ root(ROOTS.Zones, {
 				q(45188, {	-- The Wisdom of the Council
 					["sourceQuests"] = { 45187 },	-- Secrets in the Underbelly
 					["provider"] = { "n", 116308 },	-- Karam Magespear
-					["coord"] = { 49.6, 39.4, LEGION_DALARAN },
+					["coords"] = {
+						{ 49.6, 39.4, LEGION_DALARAN },
+						{ 60.7, 45.4, LEGION_THE_UNDERBELLY },
+					},
 					["classes"] = {
 						DRUID,		-- Balance
 						HUNTER,		-- Marksmanship

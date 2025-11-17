@@ -4927,30 +4927,9 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
 			i(235903),	-- Gold Lightforged Chestguard
 			i(235915),	-- Highmountain Hide Cap
-			i(237750),	-- Warbreaker's Revenge
-			i(237751),	-- Val'kyrian Rebirth
-			i(237752),	-- Flame-scarred Scales of the Earth-Warder
-			i(237754),	-- Self-Conjuring Mana Gem
-			i(237755),	-- Treatise of the Council's Wisdom
-			i(237756),	-- Blessed Prayer Beads
-			i(237769),	-- Xenedar Gem Fragment
-			i(237770),	-- Rusting Chain of Ancient Hunger
-			i(237771),	-- Skrog Tooth
-			i(238452),	-- [DNT] Normal Token
-			i(238453),	-- [DNT] Rare Token
-			i(238454),	-- [DNT] Rare Elite Token
-			i(238455),	-- [DNT] Elite Token
-			i(238456),	-- [DNT] Dungeon Boss Token
-			i(238457),	-- [DNT] Raid Boss Token
-			i(238458),	-- [DNT] Rift Boss Token
-			i(238459),	-- [DNT] Roaming Boss Token
-			i(238460),	-- [DNT] World Boss Token
-			i(238461),	-- [DNT] Minus Mob Token
-			i(239205),	-- [DNT] Raid Boss Token, Consolation
 			i(239647),	-- Reins of the Bloodguard Fel Bat
 			i(239666),	-- Reins of the Risen Fel Bat
 			i(239686),	-- Reins of the Forgotten Fel Bat
-			i(239697),	-- Timeless Keystone
 			i(239741),	-- Blood Knight's Plate Shawl
 			i(239742),	-- Blood Knight's Plate Drape
 			i(239743),	-- Blood Knight's Plate Cloak
@@ -4970,9 +4949,6 @@ root(ROOTS.Unsorted, {
 			i(239782),	-- Valorborne Dragonscale Haubergeon
 			i(239783),	-- Valorborne Dragonscale Greaves
 			i(239784),	-- Valorborne Dragonscale Waistband
-			i(239786),	-- [DNT]
-			i(239787),	-- [DNT]
-			i(239788),	-- [DNT]
 			i(239806),	-- Mountainborne Bindings
 			i(239807),	-- Mountainborne Trousers
 			i(239808),	-- Mountainborne Shoulders
@@ -4998,7 +4974,6 @@ root(ROOTS.Unsorted, {
 			i(239968),	-- Fel-marked Chestguard
 			i(239969),	-- Fel-marked Greaves
 			i(239970),	-- Fel-marked Cinch
-			i(240265),	-- [DNT]
 			i(240396),	-- Suramar Silver Mantle
 			i(240563),	-- Vileweave Gloves
 			i(240564),	-- Vileweave Bindings
@@ -5006,8 +4981,6 @@ root(ROOTS.Unsorted, {
 			i(240569),	-- Vileweave Vestments
 			i(240570),	-- Vileweave Shawl
 			i(240571),	-- Vileweave Guise
-			i(241146),	-- Epoch Memento
-			i(241357),	-- Ensemble: Barkbinds of the Archdruid's Nightmare
 			i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
 			i(241600),	-- Ensemble: Chains of the Chosen Dead
@@ -5016,62 +4989,8 @@ root(ROOTS.Unsorted, {
 			i(241606),	-- Ensemble: Garb of the Chosen Dead
 			i(241609),	-- Ensemble: Regalia of the Chosen Dead
 			i(241610),	-- Ensemble: Regalia of the Chosen Dead
-			i(241648),	-- Template
-			i(241678),	-- [PH] Template
-			i(241679),	-- [PH] Template
-			i(241680),	-- [PH] Template
-			i(241681),	-- [PH] Template
-			i(241712),	-- [PH] Template
-			i(241713),	-- [PH] Template
-			i(241714),	-- [PH] Template
-			i(241715),	-- [PH] Template
-			i(241805),	-- [PH] Template
-			i(241806),	-- [PH] Template
-			i(241807),	-- [PH] Template
-			i(241808),	-- [PH] Template
-			i(242369),	-- The First Satyr's Spaulders
-			i(242706),	-- Curious Curio
-			i(243013),	-- Doomfire Dynamo
-			i(243023),	-- Badge of the Fallen Vindicator
-			i(243024),	-- Knot of Fel
-			i(243025),	-- Corrupted Ley Crystal
-			i(243026),	-- Azshara's Ire
-			i(243027),	-- Flame of Valhalas \\ Flame of Valhallas
-			i(243028),	-- Darktide Fervor
-			i(243029),	-- Drogbar Kindling
-			i(243030),	-- Flawed Everchill Pearl
-			i(243031),	-- Mrrmgmrl Grmmlmglrg
-			i(243032),	-- Flawed Rage of the Tides
-			i(243033),	-- Flawed Sundered Comet
-			i(243034),	-- Flawed Gelmogg's Fractured Skull
-			i(243035),	-- Flawed Ettin Bone Fragment
-			i(243036),	-- Flawed Gleaming Iron Spike
-			i(243037),	-- Flawed Xakal's Determination
-			i(244449),	-- Set Keystone Map: Black Rook Hold
-			i(244458),	-- Add Keystone Affix: Sands of Time
-			i(244862),	-- [DNT] Small Bronze Token
-			i(244863),	-- [DNT] Large Bronze Token
-			i(244864),	-- [DNT] Gathering Token
-			i(245554),	-- Heroic Cache of Infinite Treasure
 			i(245663),	-- Holy Golden Greatsword
 			i(245664),	-- Holy Hologem Greatsword
-			i(246072),	-- Intricate Everchill Pearl
-			i(246073),	-- Intricate Rage of the Tides
-			i(246074),	-- Intricate Sundered Comet
-			i(246075),	-- Intricate Gelmogg's Fractured Skull
-			i(246076),	-- Intricate Ettin Bone Fragment
-			i(246077),	-- Intricate Gleaming Iron Spike
-			i(246078),	-- Intricate Xakal's Determination
-			i(246079),	-- Pristine Everchill Pearl
-			i(246080),	-- Pristine Rage of the Tides
-			i(246081),	-- Pristine Sundered Comet
-			i(246082),	-- Pristine Gelmogg's Fractured Skull
-			i(246083),	-- Pristine Ettin Bone Fragment
-			i(246084),	-- Pristine Gleaming Iron Spike
-			i(246085),	-- Pristine Xakal's Determination
-			i(246238),	-- [DNT] Affix Token
-			i(246789),	-- Cache of Infinite Power
-			i(246796),	-- Epic Cache of Infinite Power
 			i(247457),	-- Captain's Parade Breastplate
 			i(247894),	-- Dalaran Hearthstone
 			i(248088),	-- Jade, Bright Foreseer
@@ -5081,13 +5000,6 @@ root(ROOTS.Unsorted, {
 			i(248092),	-- Blinky
 			i(248093),	-- Ensemble: Dreadlord's Shadowsbane Regalia
 			i(248094),	-- Ensemble: Waveborne Diplomat's Regalia
-			i(248219),	-- [DNT] Heroic Normal Token
-			i(248220),	-- [DNT] Heroic Rare Token
-			i(248221),	-- [DNT] Heroic Rare Elite Token
-			i(248222),	-- [DNT] Heroic Elite Token
-			i(248223),	-- [DNT] Heroic Roaming Boss Token
-			i(248224),	-- [DNT] Heroic World Boss Token
-			i(248225),	-- [DNT] Heroic Minus Mob Token
 			i(248393),	-- Blank Doomsayer's Pamphlet
 			i(248716),	-- Green Bountiful Backpack
 			i(248717),	-- Orange Bountiful Backpack
@@ -5203,11 +5115,6 @@ root(ROOTS.Unsorted, {
 			i(250292),	-- Piping Hot Portable Bakery
 			i(250293),	-- Red Hot Portable Bakery
 			i(250321),	-- Reins of the Thorignir Drake
-			i(250408),	-- Add Keystone Affix: Dusk of the Infinite
-			i(250409),	-- Add Keystone Affix: Timeways Manifested
-			i(250410),	-- Add Keystone Affix: Twilight Reflections
-			i(250464),	-- [DNT] Quest Token
-			i(250724),	-- Add Keystone Affix: Tyrannically Fortified
 			i(250726),	-- Reins of the Leyfrost Manasaber
 			i(250727),	-- Reins of the Nightwell Manasaber
 			i(250762),	-- Felfueled Memento of the Abyss
@@ -5253,10 +5160,6 @@ root(ROOTS.Unsorted, {
 			i(251245),	-- Ensemble: Astral Warmonger's Mail Armor
 			i(251246),	-- Ensemble: Astral Warmonger's Plate Armor
 			i(251247),	-- Arsenal: Astral Warmonger's Weapons
-			i(251248),	-- [DNT] Keystone Dungeon - Any Completion
-			i(251249),	-- [DNT] Keystone Dungeon - Timed Only
-			i(251261),	-- [DNT] Keystone Level
-			i(251631),	-- Bottled Time
 			i(251657),	-- Bunch of Pink Carrots
 			i(251658),	-- Bunch of Purple Carrots
 			i(251659),	-- Bunch of Yellow Carrots
@@ -5292,20 +5195,12 @@ root(ROOTS.Unsorted, {
 			i(251991),	-- Trapper's Red Quiver
 			i(251992),	-- Trapper's Purple Quiver
 			i(251995),	-- Trapper's Blue Slippers
-			i(251999),	-- Flawed Felfire Crystal
-			i(252000),	-- Intricate Felfire Crystal
-			i(252002),	-- Pristine Felfire Crystal
-			i(252018),	-- Pristine Lightbound Crystal
-			i(252020),	-- Intricate Lightbound Crystal
-			i(252021),	-- Flawed Lightbound Crystal
 			i(252137),	-- Lil' Chompers
 			i(252193),	-- Slippery Saul
 			i(252194),	-- Fishmonger May
 			i(252195),	-- Fishstick Keith
 			i(252199),	-- Festive Eve
 			i(252200),	-- Bundled-Up Bob \\ Bundled-up Bob
-			i(252300),	-- Bronze Cluster
-			i(252364),	-- Gem of Gul'dan
 			i(252656),	-- K'areshi Scientific Expedition Supply
 			i(252710),	-- Midnight Winter Toque \\ Midnight Winter Hat
 			i(252711),	-- Azure Winter Toque \\ Azure Winter Hat
@@ -5326,18 +5221,11 @@ root(ROOTS.Unsorted, {
 			i(252752),	-- Sunny Winter Toque \\ Sunny Winter Hat
 			i(253219),	-- Bulwark of Mannoroth
 			i(253220),	-- Bulwark of Mannoroth
-			i(253222),	-- Corrupted Thorn of the Dream
-			i(253223),	-- Fractal Felshard
-			i(253286),	-- Scythe of the Unmaker
 			i(253520),	-- Enclave Aspirant's Hatchet
 			i(253573),	-- Cobalt Phase-Hunter \\ Cerulean Phase-Hunter
-			i(253867),	-- Cache of Infinite Treasure
 			i(254666),	-- Exodar Replica \\ Exodar Miniature \\ Lil' Exodar
-			i(254847),	-- Minor Bronze Cache
-			i(254848),	-- Minor Bronze Cache
 			i(255827),	-- Collection: Wings of Awakening
 			i(255839),	-- Collection: Baby Murloc Satch-Shells
-			i(244457),	-- Keystone Container
 			i(255881),	-- Severed Threads Commendation
 			i(257518),	-- Lil' Ashlee
 			i(258414),	-- Dottie

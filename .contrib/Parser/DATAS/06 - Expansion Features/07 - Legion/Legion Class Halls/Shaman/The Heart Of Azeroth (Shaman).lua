@@ -118,15 +118,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 96541 },	-- Rehgar Earthfury
-							["coords"] = {
-								{ 34.1, 74.3, 725 },	-- The Maelstrom (Scenario Map)
-								{ 34.1, 74.3, THE_HEART_Of_AZEROTH },
-							},
+							["coord"] = { 34.2, 77.7, THE_HEART_Of_AZEROTH },
 						}),
 						q(43338, {	-- The Codex of Ra
 							["sourceQuests"] = { 43334 },	-- The Coming Storm
 							["provider"] = { "n", 60968 },	-- Xuen
 							["coord"] = { 66.9, 56.2, KUN_LAI_SUMMIT },
+							["groups"] = {
+								i(139432),	-- The Edict of Fire (QI!)
+								i(139433),	-- The Edict of Stone (QI!)
+								i(139434),	-- The Edict of the Storm (QI!)
+							},
 						}),
 						q(39771, {	-- The Voice of Thunder
 							["sourceQuests"] = { 43338 },	-- The Codex of Ra
@@ -438,6 +440,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 109464 },	-- Elementalist Janai
 						["coord"] = { 29.4, 77.9, THE_HEART_Of_AZEROTH },
 						["maps"] = { 713 },	-- Eye of Azshara
+						["groups"] = { i(138995) },	-- Scepter of Storms (QI!)
 					}),
 					q(42200, {	-- Mission: Investigating Deepholm
 						["sourceQuests"] = {
@@ -466,13 +469,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42068 },	-- The Return of Twilight
 						["provider"] = { "n", 106001 },	-- Muln Earthfury
 						["coord"] = { 64.0, 70.5, DEEPHOLM },
+						["groups"] = {
+							o(249406, {	-- The Master's Journal pt. 1
+								["coord"] = { 64.0, 75.1, DEEPHOLM },
+								["groups"] = { i(136791) },	-- The Master's Journal pt. 1 (QI!)
+							},
+							o(249407, {	-- The Master's Journal pt. 2
+								["coord"] = { 61.7, 72.0, DEEPHOLM },
+								["groups"] = { i(136792) },	-- The Master's Journal pt. 2 (QI!)
+							},
+							o(249408, {	-- The Master's Journal pt. 3
+								["coord"] = { 62.4, 76.0, DEEPHOLM },
+								["groups"] = { i(136793) },	-- The Master's Journal pt. 3 (QI!)
+							},
+						},
 					}),
 					q(41898, {	-- Unleashing the Elements
 						["sourceQuests"] = {
 							41777,	-- Destroying the Cult
 							41897,	-- The Master's Plan
 						},
-						["provider"] = { "n", 106001 },	-- Muln Earthfury
+						["provider"] = { "n", 106001 },	-- Muln Earthfury (mobileNPC)
 						["maps"] = { DEEPHOLM },
 					}),
 					q(41899, {	-- Held Captive!
@@ -480,7 +497,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							41777,	-- Destroying the Cult
 							41897,	-- The Master's Plan
 						},
-						["provider"] = { "n", 106001 },	-- Muln Earthfury
+						["provider"] = { "n", 106001 },	-- Muln Earthfury (mobileNPC)
 						["maps"] = { DEEPHOLM },
 					}),
 					q(42065, {	-- The Twilight Master
@@ -534,7 +551,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42989, {	-- Ma'haat the Indomitable
 						["sourceQuests"] = { 42997 },	-- The Maelstrom Pillar: Earth
 						["provider"] = { "n", 109464 },	-- Elementalist Janai
-						["coord"] = { 29.4, 77.8, DEEPHOLM },
+						["coord"] = { 29.4, 77.8, THE_HEART_Of_AZEROTH },
 					}),
 					q(42995, {	-- A Taste For Blood
 						["sourceQuests"] = { 42989 },	-- Ma'haat the Indomitable
@@ -555,12 +572,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 42470 },	-- Ma'haat the Indomitable
 						["coord"] = { 56.9, 14.2, DEEPHOLM },
+						["groups"] = { i(138997) },	-- Egg of Gaiath (QI!)
 					}),
 					q(42990, {	-- Neltharion's Lair: The Earthen Amulet
 						["sourceQuests"] = { 43003 },	-- Return to Janai
 						["provider"] = { "n", 109464 },	-- Elementalist Janai
-						["coord"] = {29.4, 77.8, DEEPHOLM },
+						["coord"] = {29.4, 77.8, THE_HEART_Of_AZEROTH },
 						["maps"] = { 731 },	-- Neltharion's Lair
+						["groups"] = { i(138999) },	-- Earthen Amulet (QI!)
 					}),
 					q(41772, {	-- Ascendant of Flames
 						["sourceQuests"] = {

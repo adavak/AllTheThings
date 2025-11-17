@@ -360,7 +360,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 			q(45193, {	-- One Step Behind
 				["sourceQuests"] = { 45192 },	-- Runes of Rending
 				["provider"] = { "n", 116175 },	-- Karam Magespear
-				["coord"] = { 49.6, 39.4, LEGION_DALARAN },
+				["coords"] = {
+					{ 59.8, 27.4, BROKEN_SHORE },
+					{ 49.6, 39.4, LEGION_DALARAN },
+				},
 				["classes"] = {
 					DRUID,		-- Balance
 					HUNTER,		-- Marksmanship

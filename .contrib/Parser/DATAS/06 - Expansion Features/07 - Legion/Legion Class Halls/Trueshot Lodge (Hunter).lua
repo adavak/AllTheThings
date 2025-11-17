@@ -856,6 +856,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["provider"] = { "n", 110424 },	-- Image of Mimiron
 						["coord"] = { 44.4, 45.0, TRUESHOT_LODGE },
 						["groups"] = {
+							i(139386),	-- Essence of Pure Spirit (QI!)
+							i(139384),	-- Pristine Harpy Feather (QI!)
+							i(139385),	-- Reflective Scale (QI!)
+							i(139349),	-- Stormy Gland (QI!)
+							--
 							i(138393),	-- Essence Swapper
 						},
 					}),
