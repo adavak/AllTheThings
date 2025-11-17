@@ -2578,6 +2578,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
 							["coord"] = { 63.0, 49.7, TANARIS },
 						}),
+						------ Stay awhile and listen ------
+						hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
+							["name"] = "Stay awhile and listen: Moira Thaurissan",
+							["description"] = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
+							["sourceQuests"] = { 82817 },	-- Disturbance Detected: Blackrock Depths (Completed)
+							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
+							["coord"] = { 63.0, 49.7, TANARIS },
+						}),
 					}),
 					n(VENDORS, {
 						-- TODO: maybe once I have figured out better 'Sources' tech to list things with a Source and then assign alternate Sources
@@ -2905,14 +2913,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["sym"] = SYM_ALL_BRD_DROPS,
 						}),
 					},
-				}),
-				------ Stay awhile and listen ------
-				hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
-					["name"] = "Stay awhile and listen: Moira Thaurissan",
-					["description"] = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
-					["sourceQuests"] = { 82817 },	-- Disturbance Detected: Blackrock Depths (Completed)
-					["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
-					["coord"] = { 63.0, 49.7, TANARIS },
 				}),
 			}),
 			n(TREASURES, {
