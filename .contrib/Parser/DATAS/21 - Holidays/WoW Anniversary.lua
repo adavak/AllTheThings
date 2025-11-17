@@ -2876,10 +2876,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			n(GROUP_FINDER, sharedData({
 				["maps"] = { 2354 },	-- Silithus
 			},{
-				i(229355),	-- Chromie's Premium Goodie Bag
-				i(226102),	-- Chromie's Tour Goodie Bag
-				i(229359),	-- Chromie's Goodie Bag
-				i(232877,{["modID"]=22}),	-- Timely Goodie Bag (force same modID as TW version so it doesn't appear removed)
+				-- when these bags are 'filled' with their content, fillAdjust '1' will remove the TW event flags from their
+				-- Sourced contents in the TW rewards
+				i(229355, {fillAdjust=1}),	-- Chromie's Premium Goodie Bag
+				i(226102, {fillAdjust=1}),	-- Chromie's Tour Goodie Bag
+				i(229359, {fillAdjust=1}),	-- Chromie's Goodie Bag
+				i(232877,{fillAdjust=1,["modID"]=22}),	-- Timely Goodie Bag (force same modID as TW version so it doesn't appear removed)
 				-- Satchel when under level 80 for Celebration Raid Finder (possibly codex?)
 				i(234413, {	-- Satchel of Exotic Mysteries
 					i(224572),	-- Crystallized Augment Rune
