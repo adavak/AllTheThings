@@ -2492,8 +2492,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			-- empty
 		}),
 	}),
-	n(WOW_ANNIVERSARY_TWENTY, appendAllGroups({},
-		sharedData({
+	n(WOW_ANNIVERSARY_TWENTY, {
+		["timeline"] = { ADDED_11_0_5 },
+		["groups"] = appendAllGroups({},sharedData({
 			["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 		},{	-- One-Time Content
 			ach(41220),	-- WoW's 20th Anniversary
@@ -3356,8 +3357,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					},
 				}),
 			}),
-		})
-	),
+		}),
+	}),
 	n(WOW_ANNIVERSARY_TWENTYONE, {
 		["timeline"] = { ADDED_11_2_5 },
 		["groups"] = appendAllGroups({},sharedData({
