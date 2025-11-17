@@ -345,13 +345,13 @@ local function GetCatalystIcon(data, iconOnly)
 end
 local function GetCostIconForRow(data, iconOnly)
 	-- cost only if itself is a cost
-	if data.isCost then
+	if data.isCost or data.isOwnedCost then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end
 local function GetCostIconForTooltip(data, iconOnly)
 	-- cost only if itself is a cost
-	if data.isCost then
+	if data.isCost or data.isOwnedCost then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end

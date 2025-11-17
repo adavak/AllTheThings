@@ -195,7 +195,7 @@ do
 		return total
 	end
 end
-local function SetCostTotals(costs, isCost, refresh, costID)
+local function SetCostTotals(costs, isCost, refresh, costID, isOwnedCost)
 	-- Iterate on the search result of the entry key
 	local parent, blockedBy
 	-- PrintDebug(costID, "SetCostTotals",#costs,isCost)
@@ -203,6 +203,7 @@ local function SetCostTotals(costs, isCost, refresh, costID)
 		-- Mark the group with a costTotal
 		-- PrintDebug(costID, "Force Cost",app:SearchLink(c),isCost,c.hash,c.modItemID or c.currencyID)
 		c._SettingsRefresh = refresh;
+		c.isOwnedCost = isOwnedCost
 		-- only mark cost on visible content
 		if isCost and RecursiveGroupRequirementsFilter(c, ExtraFilters) then
 			parent = c.parent
@@ -325,16 +326,18 @@ end
 local function FinishCostAssignmentsForItem(itemID, costs, refresh)
 	local isProv = CostTotals.ip[itemID]
 	local total = CostTotals.i[itemID] or 0
+	local owned = 0
 	local isCost
 	if total > 0 or not isProv then
-		local owned = total > 0 and GetItemCount(itemID, true, nil, true, true) or 0
+		owned = total > 0 and GetItemCount(itemID, true, nil, true, true) or 0
 		isCost = total > owned
 		-- PrintDebug(itemID, app:SearchLink(costs[1]),isCost and "IS COST" or "NOT COST","requiring",total,"minus owned:",owned)
 	else
 		isProv = PlayerIsMissingProviderItem(itemID)
 		-- PrintDebug(itemID, app:SearchLink(costs[1]),isProv and "IS PROV" or "NOT PROV")
 	end
-	SetCostTotals(costs, isCost or isProv, refresh, itemID)
+	local isOwnedCost = not isCost and owned > 0
+	SetCostTotals(costs, isCost or isProv, refresh, itemID, isOwnedCost)
 end
 local function FinishCostAssignmentsForCurr(currencyID, costs, refresh)
 	local total = CostTotals.c[currencyID] or 0
