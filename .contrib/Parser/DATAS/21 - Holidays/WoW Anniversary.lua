@@ -590,6 +590,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					i(139409),	-- Letter from the Timewalker [Alliance]
 				}),
 			}),
+		}),
+		{	-- Recurring Content
 			n(QUESTS, {
 				q(43472, {	-- The Historians
 					["provider"] = { "i", 139410 },	-- Letter from the Timewalker [Horde]
@@ -605,10 +607,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					["races"] = ALLIANCE_ONLY,
 					["isYearly"] = true,
 				}),
-			}),
-		}),
-		{	-- Recurring Content
-			n(QUESTS, {
 				-- Correct answers is in the bottom
 				q(43461, {	-- A Time to Reflect
 					["qg"] = 110035,	-- Historian Jupa
@@ -710,21 +708,21 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					i(139409),	-- Letter from the Timewalker [Alliance]
 				}),
 			}),
+		}),
+		{	-- Recurring Content
 			n(QUESTS, {
 				q(47251, {	-- Interesting Things
 					["provider"] = { "i", 147881 },	-- A Slightly More Urgent Letter from the Timewalkers [Horde]
 					["coord"] = { 36.4, 74.4, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
+					["timeline"] = { ADDED_7_2_5, REMOVED_7_2_5 },
 				}),
 				q(47252, {	-- Interesting Things
 					["provider"] = { "i", 147880 },	-- A Slightly More Urgent Letter from the Timewalkers [Alliance]
 					["coord"] = { 84.6, 25.0, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_7_2_5, REMOVED_7_2_5 },
 				}),
-			}),
-		}),
-		{	-- Recurring Content
-			n(QUESTS, {
 				q(47253, {	-- The Originals [Alliance]
 					["qg"] = 110034,	-- Historian Llore
 					["coord"] = { 51.5, 38.7, CAVERNS_OF_TIME },
@@ -1538,14 +1536,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					i(172016),	-- Lil' Nefarian (PET!)
 				}),
 			}),
-			n(QUESTS, {
-				q(57298, {	-- How Things "Really" Happened...
-					["sourceQuest"] = 57249,	-- A Timely Invitation
-					["qg"] = 157113,	-- Chromie
-					["coord"] = { 53.5, 54.7, CAVERNS_OF_TIME },
-					["lvl"] = 60,
-				}),
-			}),
 		}),
 		{	-- Recurring Content
 			m(1537, {	-- Alterac Valley
@@ -2251,7 +2241,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				q(57249, {	-- A Timely Invitation
 					["provider"] = { "i", 171177 },	-- Invitation from the Timewalkers
 					["coord"] = { 53.6, 54.8, CAVERNS_OF_TIME },
+					["timeline"] = { ADDED_8_2_5, REMOVED_11_0_5 },
 					["isYearly"] = true,
+				}),
+				q(57298, {	-- How Things "Really" Happened...
+					["sourceQuest"] = 57249,	-- A Timely Invitation
+					["qg"] = 157113,	-- Chromie
+					["coord"] = { 53.5, 54.7, CAVERNS_OF_TIME },
+					["lvl"] = 60,
+					["timeline"] = { ADDED_8_2_5, REMOVED_9_0_1 },
 				}),
 				q(57300, {	-- Soldier of Time
 					-- #if BEFORE 11.0.5
@@ -2494,9 +2492,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			-- empty
 		}),
 	}),
-	n(WOW_ANNIVERSARY_TWENTY, {
-		["timeline"] = { ADDED_11_0_5 },
-		["groups"] = appendAllGroups({},sharedData({
+	n(WOW_ANNIVERSARY_TWENTY, appendAllGroups({},
+		sharedData({
 			["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 		},{	-- One-Time Content
 			ach(41220),	-- WoW's 20th Anniversary
@@ -2772,37 +2769,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 				},
 			}),
-			n(VENDORS, {
-				n(158061, {	-- Historian Ma'di
-					["coord"] = { 62.6, 50.4, TANARIS },
-					["groups"] = {
-						i(229828, {	-- 20th Anniversary Balloon Chest (TOY!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(208572, {	-- Azure Worldchiller (MOUNT!)
-							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
-						}),
-						i(232598, {	-- Bag of Timewarped Badges
-							["cost"] = {{"c", BRONZE_TOKEN, 1}},
-							["groups"] = {
-								currency(TIMEWARPED_BADGE),
-							},
-						}),
-						i(235505, {	-- Satchel of Timewarped Badges
-							["cost"] = {{"c", BRONZE_TOKEN, 5}},
-							["groups"] = {
-								currency(TIMEWARPED_BADGE),
-							},
-						}),
-						i(235506, {	-- Box of Timewarped Badges
-							["cost"] = {{"c", BRONZE_TOKEN, 25}},
-							["groups"] = {
-								currency(TIMEWARPED_BADGE),
-							},
-						}),
-					},
-				}),
-			}),
 		}),
 		{	-- Recurring Content
 			n(ACHIEVEMENTS, {
@@ -2960,6 +2926,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			n(VENDORS, {
 				n(223884, {	--  Bobadormu
 					["coord"] = { 62.7, 50.3, TANARIS },
+					["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 					["groups"] = {
 						filter(MISC, sharedData({
 							["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
@@ -2984,26 +2951,55 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				}),
 				n(158061, {	-- Historian Ma'di
 					["coord"] = { 62.6, 50.4, TANARIS },
-					["groups"] = {
-						i(228785, {	-- Coldflame Bulwark
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
+					["groups"] = appendAllGroups({},
+						sharedData({
+							["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
+						},{	-- One-Time Content
+							i(229828, {	-- 20th Anniversary Balloon Chest (TOY!)
+								["cost"] = {{"c", BRONZE_TOKEN, 10}}
+							}),
+							i(232598, {	-- Bag of Timewarped Badges
+								["cost"] = {{"c", BRONZE_TOKEN, 1}},
+								["groups"] = {
+									currency(TIMEWARPED_BADGE),
+								},
+							}),
+							i(235505, {	-- Satchel of Timewarped Badges
+								["cost"] = {{"c", BRONZE_TOKEN, 5}},
+								["groups"] = {
+									currency(TIMEWARPED_BADGE),
+								},
+							}),
+							i(235506, {	-- Box of Timewarped Badges
+								["cost"] = {{"c", BRONZE_TOKEN, 25}},
+								["groups"] = {
+									currency(TIMEWARPED_BADGE),
+								},
+							}),
 						}),
-						i(228788, {	-- Coldflame Edged Crest
-							["cost"] = {{"c", BRONZE_TOKEN, 15}}
+						{	-- Recurring Content
+							i(208572, {	-- Azure Worldchiller (MOUNT!)
+								["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
+							}),
+							i(228785, {	-- Coldflame Bulwark
+								["cost"] = {{"c", BRONZE_TOKEN, 10}}
+							}),
+							i(228788, {	-- Coldflame Edged Crest
+								["cost"] = {{"c", BRONZE_TOKEN, 15}}
+							}),
+							i(228789, {	-- Coldflame Ring (TOY!)
+								["cost"] = {{"c", BRONZE_TOKEN, 10}}
+							}),
+							i(228786, {	-- Coldflame Winged Crown
+								["cost"] = {{"c", BRONZE_TOKEN, 10}}
+							}),
+							i(228784, {	-- Coldflame's Edge
+								["cost"] = {{"c", BRONZE_TOKEN, 10}}
+							}),
+							i(228781, {	-- Lil'Doomy (PET!)
+								["cost"] = {{"c", BRONZE_TOKEN, 10}}
+							}),
 						}),
-						i(228789, {	-- Coldflame Ring (TOY!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228786, {	-- Coldflame Winged Crown
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228784, {	-- Coldflame's Edge
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-						i(228781, {	-- Lil'Doomy (PET!)
-							["cost"] = {{"c", BRONZE_TOKEN, 10}}
-						}),
-					},
 				}),
 				n(231352, {	-- Notary Grably <Titles of Olde>
 					["coord"] = { 63.3, 50.7, TANARIS },
@@ -3102,6 +3098,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				}),
 				n(229707, {	-- Storekeeper Reginald <Out of Time-ly Trinkets>
 					["coord"] = { 62.9, 51.1, TANARIS },
+					["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 					["groups"] = sharedData({
 						["cost"] = {{"c", BRONZE_TOKEN, 10}},
 					}, {
@@ -3120,6 +3117,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				}),
 				n(223902, {	-- Traeya <Armor Vendor>
 					["coord"] = { 63.1, 50.9, TANARIS },
+					["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 					["groups"] = sharedData({
 						["cost"] = {{"c", BRONZE_TOKEN, 60}},
 					}, {
@@ -3356,8 +3354,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					},
 				}),
 			}),
-		}),
-	}),
+		})
+	),
 	n(WOW_ANNIVERSARY_TWENTYONE, {
 		["timeline"] = { ADDED_11_2_5 },
 		["groups"] = appendAllGroups({},sharedData({
@@ -3461,7 +3459,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		n(WOW_ANNIVERSARY_TWENTY, {
 			q(84309),	-- Bonus chance for Reins of the Heavenly Onyx Cloud Serpent from Sha of Anger on first kill per day
 			q(84312),	-- Bonus chance for Grand Black War Mammoth from Doomwalker/Archavon on first kill per day
-			q(86398),	-- Bonus chance for Illidary Doomhawk from Doomwalker on first kill per day
+			q(86398),	-- Bonus chance for Illidari Doomhawk from Doomwalker on first kill per day
 			q(85723),	-- first WB kill of day/event or maybe Doomwalker
 			q(85168),	-- fourth WB kill of day/event or maybe Kazzak
 			q(84878),	-- triggered with turnin of 'Chromie's Codex' [82783] (Bronze Cel Cache lockout?)
