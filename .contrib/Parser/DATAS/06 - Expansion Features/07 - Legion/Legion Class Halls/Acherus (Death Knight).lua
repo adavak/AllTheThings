@@ -299,7 +299,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Choose Zone
 					q(39832, {	-- Plans and Preparations
-						["sourceQuest"] = 39757,	-- Keeping Your Edge
+						["sourceQuests"] = {
+							-- #IF BEFORE BFA
+							39757,	-- Keeping Your Edge
+							-- #ELSE
+							40740,	-- The Dead and the Damned
+							38990,	-- The Call of Icecrown
+							40935,	-- The Call of Vengeance (Good)
+							40987,	-- The Call of Vengeance (Bad)
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
@@ -459,8 +468,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["groups"] = { i(139538) },	-- Nightmare Lash (QI!)
 					}),
 					q(42818, {	-- The Scarlet Assault
-						["sourceQuest"] = 43899,	-- Steeds of the Damned
-						-- ["sourceQuest"] = 43572,	-- Darkheart Thicket: The Nightmare Lash
+						["sourceQuest"] = 43572,	-- Darkheart Thicket: The Nightmare Lash
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 					}),
@@ -569,8 +577,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							43928,	-- Aggregates of Anguish
 							44690,	-- A Thirst For Blood
 							91615,	-- A Thirst For Blood (Remix)
+							44286,	-- Vault of the Wardens: A Masterpiece of Flesh
+							43574,	-- Maw of Souls: Maul of the Dead
+							44282,	-- Eye of Azshara: The Frozen Soul
 						},
-						["sourceQuestNumRequired"] = 3,
+						["sourceQuestNumRequired"] = 6,
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.6, 50.0, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["groups"] = {
