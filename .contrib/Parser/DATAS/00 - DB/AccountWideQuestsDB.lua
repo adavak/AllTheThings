@@ -2107,6 +2107,7 @@ local AccountWideQuestsDB = {
 	92626,	-- ??
 	92628,	-- ??
 	92889,	-- Arsenal: Odyn's Spears
+	93033,	-- Triggers when you spawn in Bazaar for the first time [Remix: Legion]
 	-- #ENDIF
 }
 
