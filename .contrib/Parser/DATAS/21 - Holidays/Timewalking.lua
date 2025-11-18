@@ -917,7 +917,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 					i(151460),	-- Farraki Ceremonial Robes
 					i(232903),	-- Jang'thraze the Protector
 					i(9478),	-- Ripsaw
-					i(232904),	-- Sul'thraze the Lashe
+					i(232904),	-- Sul'thraze the Lasher
 					i(9477),	-- The Chief's Enforcer
 					i(151461),	-- Ukorz's Chain Leggings
 				},
@@ -983,7 +983,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 							i(133543),	-- Infinite Timereaver (MOUNT!)
 							-- Archimonde
 							i(171942),	-- Cowl of Absolution
-							i(171941),	-- Cowl o the Tempest
+							i(171941),	-- Cowl of the Tempest
 							i(171943),	-- Hood of Absolution
 							i(171940),	-- Hood of the Malefic
 							i(171929),	-- Lightbringer Faceguard
@@ -1196,7 +1196,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 						i(232001, {	-- Blazing Skyhawk Repeater
 							["cost"] = {{"c", TIMEWARPED_BADGE, 1800}},
 						}),
-						i(232061, {	-- Cenarion Gaurdian's Stave
+						i(232061, {	-- Cenarion Guardian's Stave
 							["cost"] = {{"c", TIMEWARPED_BADGE, 1800}},
 						}),
 						i(232023, {	-- Chilled Obsidian Dragon's Tooth
@@ -4000,7 +4000,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 							["timeline"] = { ADDED_11_2_0 },
 						}),
-						i(244648, {	-- Scipture of the Scarlet High Priest
+						i(244648, {	-- Scripture of the Scarlet High Priest
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 							["timeline"] = { ADDED_11_2_0 },
 						}),
@@ -7152,7 +7152,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					126847,	-- Captain Raoul
 				},
 				["sym"] = {{"select", "modItemID",
-					modItemId(159132,1),	-- Jolly's Boot Daggeer
+					modItemId(159132,1),	-- Jolly's Boot Dagger
 					modItemId(159130,1),	-- Captain's Diplomacy
 					modItemId(158311,1),	-- Concealed Fencing Plates
 					modItemId(159356,1),	-- Raoul's Barrelhook Bracers

@@ -1075,7 +1075,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									--	ach(695),	-- The Battle for Mount Hyjal
 									-- Old Token Items
 									i(171942),	-- Cowl of Absolution
-									i(171941),	-- Cowl o the Tempest
+									i(171941),	-- Cowl of the Tempest
 									i(171943),	-- Hood of Absolution
 									i(171940),	-- Hood of the Malefic
 									i(171929),	-- Lightbringer Faceguard

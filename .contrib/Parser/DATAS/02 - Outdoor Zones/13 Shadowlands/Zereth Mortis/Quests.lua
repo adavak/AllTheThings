@@ -911,7 +911,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 			}),
-			header(HEADERS.AchCriteria, 15515.02, {	-- Not Al Are Lost
+			header(HEADERS.AchCriteria, 15515.02, {	-- Not All Are Lost
 				q(64771, {	-- Enlightened Exodus
 					["sourceQuests"] = { 64958 },	-- The Forces Gather
 					["provider"] = { "n", 181003 },	-- Al'dalil
