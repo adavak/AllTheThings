@@ -14327,7 +14327,7 @@ i(232877,{b=1,e=242,fillAdjust=1,lvl=10,maps=a[328],modID=22}),
 i(234413,{e=242,maps=a[328],g={
 i(224572,{e=242,f=55,lvl=80,spellID=453250})}})}}),
 h(-45,{e=242,g={
-q(82672,{e=242,lvl=10}),
+q(82672,{coords={{45.5,55.5,2339}},e=242,isYearly=1,lvl=10,qgs={224450}}),
 q(84254,{coords={a[698]},e=242,lvl=10,qgs=a[318]}),
 q(84489,{coords={a[698]},e=242,lvl=10,qgs=a[318],sourceQuests={84254}}),
 q(84616,{coords={a[698]},e=242,isDaily=1,lvl=10,qgs=a[318]}),

@@ -307,6 +307,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							38990,	-- The Call of Icecrown
 							40935,	-- The Call of Vengeance (Good)
 							40987,	-- The Call of Vengeance (Bad)
+							-- #ENDIF
 						},
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine

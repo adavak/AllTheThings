@@ -2213,7 +2213,6 @@ q(42353,{c=a[14],repeatable=1,type="hqt"}),
 q(42354,{c=a[14],repeatable=1,type="hqt"}),
 q(38229,{c=a[14],type="hqt"})}),
 cl(7,{
-q(41116,{c=a[30],type="hqt"}),
 q(44653,{c=a[30],type="hqt"}),
 q(44654,{c=a[30],type="hqt"}),
 q(38275,{c=a[30],repeatable=1,type="hqt"}),
