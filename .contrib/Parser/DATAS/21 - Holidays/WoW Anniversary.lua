@@ -1276,7 +1276,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									i(171551, {	-- Legguards of the Lurking Threat
 										["races"] = ALLIANCE_ONLY,
 									}),
-									i(171607, {	--  Legplates of Redeemed Blood
+									i(171607, {	-- Legplates of Redeemed Blood
 										["races"] = HORDE_ONLY,
 									}),
 									i(171596, {	-- Legplates of the Immortal Spider
@@ -2406,7 +2406,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						-- #ENDIF
 					},
 					["maps"] = {
-						74,	--	Caverns of Time Entrance
+						74,	-- Caverns of Time Entrance
 						CAVERNS_OF_TIME,
 					},
 					["groups"] = {
@@ -2937,7 +2937,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				}),
 			}),
 			n(VENDORS, {
-				n(223884, {	--  Bobadormu
+				n(223884, {	-- Bobadormu
 					["coord"] = { 62.7, 50.3, TANARIS },
 					["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 					["groups"] = {
@@ -3183,7 +3183,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					["isDaily"] = true,
 					["coord"] = { 33.7, 55.6 , TANARIS },
 					["maps"] = {
-						74,	--	Caverns of Time Entrance
+						74,	-- Caverns of Time Entrance
 						CAVERNS_OF_TIME,
 					},
 					["groups"] = {
@@ -3288,7 +3288,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					["isDaily"] = true,
 					["coord"] = { 46.0, 28.9, TANARIS },
 					["maps"] = {
-						74,	--	Caverns of Time Entrance
+						74,	-- Caverns of Time Entrance
 						CAVERNS_OF_TIME,
 					},
 					["groups"] = {
@@ -3392,25 +3392,25 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				n(223902, {	-- Traeya <Armor Vendor>
 					["coord"] = { 63.1, 50.9, TANARIS },
 					["groups"] = {
-						i(253154, {    -- Loyal Watchman's Gauntlets
+						i(253154, {	-- Loyal Watchman's Gauntlets
 							["cost"] = {{"c", TIMEWARPED_BADGE, 20}},
 						}),
-						i(253155, {    -- Loyal Watchman's Belt
+						i(253155, {	-- Loyal Watchman's Belt
 							["cost"] = {{"c", TIMEWARPED_BADGE, 20}},
 						}),
-						i(253156, {    -- Loyal Watchman's Boots
+						i(253156, {	-- Loyal Watchman's Boots
 							["cost"] = {{"c", TIMEWARPED_BADGE, 30}},
 						}),
-						i(253157, {    -- Loyal Watchman's Trousers
+						i(253157, {	-- Loyal Watchman's Trousers
 							["cost"] = {{"c", TIMEWARPED_BADGE, 30}},
 						}),
-						i(253158, {    -- Loyal Watchman's Cuirass
+						i(253158, {	-- Loyal Watchman's Cuirass
 							["cost"] = {{"c", TIMEWARPED_BADGE, 30}},
 						}),
-						i(253159, {    -- Loyal Watchman's Spaulders
+						i(253159, {	-- Loyal Watchman's Spaulders
 							["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
 						}),
-						i(253160, {    -- Loyal Watchman's Helm
+						i(253160, {	-- Loyal Watchman's Helm
 							["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
 						}),
 					},

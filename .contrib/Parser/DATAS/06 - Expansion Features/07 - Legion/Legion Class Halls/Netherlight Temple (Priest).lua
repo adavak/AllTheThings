@@ -62,7 +62,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["provider"] = { "n", 58633 },	-- Instructor Chillheart
 								["coords"] = {
 									{ 69.0, 72.9, WESTERN_PLAGUELANDS },	-- Scholomance entrance
-									{ 58.8, 84.0, SCHOLOMANCE },	--	Actual volume inside the dungeon
+									{ 58.8, 84.0, SCHOLOMANCE },	-- Actual volume inside the dungeon
 								},
 							}),
 							q(44342, {	-- Volume VI
@@ -173,7 +173,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 78.9, 41.0, TIRISFAL_GLADES },
 					}),
 					q(43935, {	-- A Second Legend
-						["sourceQuests"] = { 40706 },	--  A Legend You Can Hold
+						["sourceQuests"] = { 40706 },	-- A Legend You Can Hold
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
 						["coord"] = { 51.1, 48.2, NETHERLIGHT_TEMPLE },
 					}),

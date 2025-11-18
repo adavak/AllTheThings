@@ -552,7 +552,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43928,	-- Aggregates of Anguish
 						["provider"] = { "n", 93555 },	-- Amal'thazad
 						["coord"] = { 58.1, 31.1, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["maps"] = { 713 },	--  Eye of Azshara
+						["maps"] = { 713 },	-- Eye of Azshara
 						["groups"] = { i(141302) },	-- Frozen Soul Pendant (QI!)
 					}),
 					q(44247, {	-- Champion: Amal'thazad
@@ -617,7 +617,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = {
 							47137,	-- Champions of Legionfall
 							-- #IF AFTER 7.2.0
-							43407, -- A Hero's Weapon
+							43407,	-- A Hero's Weapon
 							-- #ELSE
 							45998,	-- Investigate the Broken Shore
 							-- #ENDIF
