@@ -29,12 +29,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				-- crit(108376, {["_quests"] = { QUESTID }}),
 				-- crit(108360, {["_quests"] = { QUESTID }}),
 				-- crit(108648, {["_quests"] = { QUESTID }}),
-				-- crit(108651, {["_quests"] = { QUESTID }}),
+				-- crit(108651, {["_quests"] = { QUESTID }}),	-- DH or Hunter
 				-- crit(108656, {["_quests"] = { QUESTID }}),
 				-- crit(108655, {["_quests"] = { QUESTID }}),
 				-- crit(108653, {["_quests"] = { QUESTID }}),
 				-- crit(108650, {["_quests"] = { QUESTID }}),
-				-- crit(108649, {["_quests"] = { QUESTID }}),
+				-- crit(108649, {["_quests"] = { QUESTID }}),	-- DH or Hunter
 				-- crit(108652, {["_quests"] = { QUESTID }}),
 				-- crit(108657, {["_quests"] = { QUESTID }}),
 				-- crit(108654, {["_quests"] = { QUESTID }}),

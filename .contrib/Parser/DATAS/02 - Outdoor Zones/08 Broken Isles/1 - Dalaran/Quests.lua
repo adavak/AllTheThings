@@ -415,6 +415,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 41, 26.2, LEGION_DALARAN },
 				}),
 				q(45125, {	-- Dabbling in the Demonic
+					["description"] = "To stabilize the portal, activate following runes: Dregla, Taam, and Talar.",
 					["sourceQuests"] = { 45916 },	-- The Acolyte Imperiled
 					["provider"] = { "n", 116714 },	-- Ritssyn Flamescowl
 					["coord"] = { 57.9, 72.6, 629 },
