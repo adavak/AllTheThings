@@ -1087,13 +1087,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				})),
 				RemovedWithSOO(q(31297, {	-- Setting Sun Garrison
 					["qg"] = 59337,	-- Sun Tenderheart
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
 					["lockCriteria"] = { 1,
 						"questID", 30385,	-- Setting Sun Garrison
 						"questID", 31247,	-- Setting Sun Garrison
 						"questID", 31250,	-- Setting Sun Garrison
 					},
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				RemovedWithSOO(q(30244, {	-- Along the Serpent's Spine
 					["sourceQuests"] = {

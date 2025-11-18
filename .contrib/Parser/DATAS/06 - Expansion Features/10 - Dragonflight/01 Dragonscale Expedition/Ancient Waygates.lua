@@ -369,8 +369,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 					["provider"] = { "n", 189066 },	-- Thaelin Darkanvil
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
-					["DisablePartySync"] = true,
 					-- ["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 23 },	-- Dragonscale Expedition Renown 23
+					["DisablePartySync"] = true,
 					["groups"] = {
 						i(204438),	-- Enchanted Arcana Vessel
 					},

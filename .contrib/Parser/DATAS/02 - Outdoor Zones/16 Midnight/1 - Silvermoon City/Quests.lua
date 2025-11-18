@@ -7,9 +7,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 		n(QUESTS, {
 			-- Battle Pet
 			q(94012, {	-- Lost Lil' Strider
+				--["sourceQuests"] = { ??? },	-- ??
 				["provider"] = { "n", 257039 },	-- Hawkrancher Saman
 				["coord"] = { 41.8, 76.4, SILVERMOON_CITY_MID },
-				--["sourceQuests"] = { ??? },	-- ??
 				["groups"] = {
 					i(264165),	-- Tiff (QI!)
 				},

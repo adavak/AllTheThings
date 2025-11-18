@@ -460,9 +460,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(42818, {	-- The Scarlet Assault
 						["sourceQuest"] = 43899,	-- Steeds of the Damned
+						-- ["sourceQuest"] = 43572,	-- Darkheart Thicket: The Nightmare Lash
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.1, 50.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						-- ["sourceQuest"] = 43572,	-- Darkheart Thicket: The Nightmare Lash
 					}),
 					q(42821, {	-- Raising an Army
 						["sourceQuest"] = 42818,	-- The Scarlet Assault

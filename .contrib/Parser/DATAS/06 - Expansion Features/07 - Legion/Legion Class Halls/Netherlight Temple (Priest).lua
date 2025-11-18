@@ -749,8 +749,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(46788, {	-- Further Advancement
-						["provider"] = { "n", 109776 },	-- Moira Thaurissan <Queen of the Dark Iron>
 						--["sourceQuests"] = { 46034, },	-- Champion: Aelthalyste
+						["provider"] = { "n", 109776 },	-- Moira Thaurissan <Queen of the Dark Iron>
 					}),
 					q(46153, {	-- Furthering Knowledge
 						["u"] = REMOVED_FROM_GAME,

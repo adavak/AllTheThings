@@ -1779,9 +1779,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["repeatable"] = true,
 								}),
 								q(61766, {	-- Homegrown Help
+									-- ["sourceQuests"] = {  },	-- TODO: upgrade to Tier 2 without doing any Tier 1 quests to verify SQ
 									["provider"] = { "n", 164966 },	-- Temel
 									["coord"] = { 27.9, 43.0, REVENDRETH },
-									-- ["sourceQuests"] = {  },	-- TODO: upgrade to Tier 2 without doing any Tier 1 quests to verify SQ
 								}),
 								q(62361, {	-- Introductions are in Order
 									["sourceQuests"] = { 61763 },	-- Dredging Up an Assistant
@@ -1878,9 +1878,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61943, {	-- Court Influencer
+									-- ["sourceQuests"] = {  },	-- TODO: unknown
 									["provider"] = { "n", 165399 },	-- Lord Garridan
 									["coord"] = { 28.5, 41.0, REVENDRETH },
-									-- ["sourceQuests"] = {  },	-- TODO: unknown
 									["groups"] = {
 										i(181537),	-- Guest List Page (EC!)
 									},
@@ -1959,40 +1959,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 61.9, 77.0, SINFALL_DEPTHS },
 									["groups"] = {
 										q(62559, {	-- Sootible Hat: Crown of the Righteous
+										--	["sourceQuests"] = {  },	-- TODO: unknown
+										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 											["provider"] = { "n", 165302 },	-- Rendle
 											["coord"] = { 62.5, 76.6, SINFALL_DEPTHS },
 											["cost"] = { { "i", 180760, 1 } },	-- Crown of the Righteous
 											["customCollect"] = "SL_COV_VEN",	-- marking specifically for 'contains' section
 											["repeatable"] = true,
-										--	["sourceQuests"] = {  },	-- TODO: unknown
-										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 										}),
 										q(62558, {	-- Sootible Hat: Fae Revel Masque
+										--	["sourceQuests"] = {  },	-- TODO: unknown
+										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 											["provider"] = { "n", 165302 },	-- Rendle
 											["coord"] = { 62.5, 76.6, SINFALL_DEPTHS },
 											["cost"] = { { "i", 180755, 1 } },	-- Fae Revel Masque
 											["customCollect"] = "SL_COV_VEN",	-- marking specifically for 'contains' section
 											["repeatable"] = true,
-										--	["sourceQuests"] = {  },	-- TODO: unknown
-										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 										}),
 										q(62556, {	-- Sootible Hat: Pink Party Hat
+										--	["sourceQuests"] = {  },	-- TODO: unknown
+										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 											["provider"] = { "n", 165302 },	-- Rendle
 											["coord"] = { 62.5, 76.6, SINFALL_DEPTHS },
 											["cost"] = { { "i", 180752, 1 } },	-- Pink Party Hat
 											["customCollect"] = "SL_COV_VEN",	-- marking specifically for 'contains' section
 											["repeatable"] = true,
-										--	["sourceQuests"] = {  },	-- TODO: unknown
-										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 										}),
 										q(62554, {	-- Sootible Hat: Red Noggin Candle
+										--	["sourceQuests"] = {  },	-- TODO: unknown
+										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 											["provider"] = { "n", 165302 },	-- Rendle
 											["coord"] = { 62.5, 76.6, SINFALL_DEPTHS },
 											["cost"] = { { "i", 180751, 1 } },	-- Red Noggin Candle
 											["customCollect"] = "SL_COV_VEN",	-- marking specifically for 'contains' section
 											["repeatable"] = true,
-										--	["sourceQuests"] = {  },	-- TODO: unknown
-										--	initially picked up right after picking up RSVP: Rendle and Cudgelface
 										}),
 										i(176118),	-- RSVP: Rendle and Cudgelface
 									},
@@ -2041,9 +2041,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Mikanikos?
 								}),
 								q(61174, {	-- RSVP: Baroness Vashj
+									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["provider"] = { "n", 162487 },	-- Baroness Vashj
 									["coord"] = { 67.6, 45.9, MALDRAXXUS },
-									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["groups"] = {
 										i(180846),	-- Colossal Feaster's Head (QI!)
 										i(180850),	-- Morbid Boneguard's Head (QI!)
@@ -2053,9 +2053,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61354, {	-- RSVP: Lady Moonberry
+									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["provider"] = { "n", 172098 },	-- Lady Moonberry
 									["coord"] = { 48.9, 51.0, ARDENWEALD },
-									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["groups"] = {
 										i(181251),	-- Blooming Lasher Spur (QI!)
 										i(181250),	-- Gorm Pheromone Gland (QI!)
@@ -2076,9 +2076,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61173, {	-- RSVP: Mikanikos
+									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["provider"] = { "n", 171647 },	-- Mikanikos
 									["coord"] = { 50.1, 21.0, BASTION },
-									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["groups"] = {
 										i(180895),	-- Potentially Perfect Part (QI!)
 										i(176113),	-- RSVP: Mikanikos
@@ -2086,9 +2086,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(60948, {	-- RSVP: The Countess
+									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["provider"] = { "n", 171106 },	-- The Countess
 									["coord"] = { 58.0, 27.4, REVENDRETH },
-									-- ["sourceQuests"] = {  },	-- Tier 4 Unlock from Fourth Guest List Page...
 									["groups"] = {
 										o(354185, {	-- House Iremoore Formal Wear
 											["coord"] = { 56, 35.5, REVENDRETH },
@@ -2108,14 +2108,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["icon"] = 3750310,
 							["groups"] = {
 								q(61945, {	-- The Professionals
+									-- ["sourceQuests"] = {  },	-- TODO
 									["provider"] = { "n", 164966 },	-- Temel
 									["coord"] = { 27.9, 43.1, REVENDRETH },
-									-- ["sourceQuests"] = {  },	-- TODO
 								}),
 								q(62599, {	-- Gormsmith Cavina
-									["provider"] = { "i", 183846 },	-- Orders to Gormsmith Cavina
 									-- TODO: first time obtaining this quest item, Exalted + Rank 5 Ember Court... not sure requirements if any
 									-- ["sourceQuests"] = {  },	-- TODO
+									["provider"] = { "i", 183846 },	-- Orders to Gormsmith Cavina
 								}),
 								q(62616, {	-- Night Fae Arsenal
 									["sourceQuests"] = { 62599 },	-- Gormsmith Cavina

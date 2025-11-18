@@ -1072,11 +1072,11 @@ root(ROOTS.ExpansionFeatures,
 									["lvl"] = 120,
 								}),
 								q(54661, {	-- Echolocation
+									-- ["sourceQuest"] = 54660,	-- Throwing Blight
 									["provider"] = { "n", 145554 },	-- Base Cap'n Crankshot
 									["coord"] = { 49.6, 35.0, 1203 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
-									-- ["sourceQuest"] = 54660,	-- Throwing Blight
 									["groups"] = {
 										spell(281872),	-- Flight Master's Whistle Upgrade: Warfronts
 										i(166389),	-- Crankshot's Note (QI!)

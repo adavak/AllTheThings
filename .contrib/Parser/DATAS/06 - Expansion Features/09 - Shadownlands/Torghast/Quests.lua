@@ -190,9 +190,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(61958, {	-- Champion: Gorgelimb [Necrolord]
+				-- ["sourceQuests"] = { },	-- TODO
 				["provider"] = { "n", 173397 },	-- Gorgelimb
 				["customCollect"] = "SL_COV_NEC",	-- Necrolord
-				-- ["sourceQuests"] = { },	-- TODO
 				["groups"] = {
 					follower(1306),	-- Gorgelimb
 				},
@@ -387,9 +387,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(61426, {	-- Champion: Yira'lya [Night Fae]
+				-- ["sourceQuests"] = { },	-- TODO
 				["provider"] = { "n", 172243 },	-- Yira'lya
 				["customCollect"] = "SL_COV_NFA",	-- Night Fae
-				-- ["sourceQuests"] = { },	-- TODO
 				["groups"] = {
 					follower(1282)	-- Yira'lya
 				},
@@ -461,8 +461,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				-- Fracture Chambers 4 / 2
 			}),
 			q(64187, {	-- Kiaranyka's Search
-				["timeline"] = { ADDED_9_1_0 },
 				--["provider"] = { "n", },	-- Kiaranyka (multiple npcid)
+				["timeline"] = { ADDED_9_1_0 },
 			}),
 			q(64189, {	-- Kinessa's Support
 				["provider"] = { "n", 179677 },	-- Kinessa the Absorbent

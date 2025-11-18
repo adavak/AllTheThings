@@ -222,9 +222,9 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 			}),
 			q(82540, {	-- Memories of Adventures Past
 				["sourceQuests"] = { 82539 },	-- Radiant Echoes
+				-- ["sourceQuests"] = { 80500 },	-- The Bronzebeard Family (TODO: could be some additional hqt in future or will be up due to warbound change?)
 				["provider"] = { "n", 213627 },	-- Archmage Khadgar
 				["coord"] = { 42.9, 59.7, 629 },	-- Legion Dalaran, Aegwynn's Gallery
-				-- ["sourceQuests"] = { 80500 },	-- The Bronzebeard Family (TODO: could be some additional hqt in future or will be up due to warbound change?)
 			}),
 			q(82689, {	-- Only Darkness
 				["provider"] = { "n", 224373 },	-- Echo of the Silver Hand

@@ -2460,6 +2460,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["isBreadcrumb"] = true,
 			}),
 			q(33461, {	-- Gloomshade Game Hunter
+				-- ["icon"] = 632821,
 				["sourceQuests"] = {
 					33081,	-- Escape from Shaz'gul
 					33059,	-- The Fate of Karabor
@@ -2473,7 +2474,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					{ 39.8, 29.4, DRAENOR_SHADOWMOON_VALLEY },	-- Lost Packmule
 				},
 				["races"] = ALLIANCE_ONLY,
-				-- ["icon"] = 632821,
 			}),
 			q(37917, {	-- Gronnsbane: The Blessing of Fire
 				["sourceQuest"] = 37916,	-- Gronnsbane: The Broken Spear
@@ -2819,14 +2819,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["isDaily"] = true,
 			}),
 			q(37288, {	-- Resources in Ashran
-				["qg"] = 77209,	-- Baros Alexston
-				["coord"] = { 29.5, 33.3, LUNARFALL },
-				["races"] = ALLIANCE_ONLY,
 			--	["sourceQuests"] = {  },	--
 			--	unknown SQ. wowhead says level requirement is 92, but i didn't see this until i hit 100 and upgraded to a level 3 garrison
 			--	possible that you have to pick up 'outpost building assembly notes,' which are awarded by specific quests in spires of arak and gorgrond
 			--	i had also just received my first outpost notes before finding this quest
 			--	gorgrond is a level 92 zone, so that's possible
+				["qg"] = 77209,	-- Baros Alexston
+				["coord"] = { 29.5, 33.3, LUNARFALL },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(34733, {	-- Services of Dagg
 				["aqd"] = {
