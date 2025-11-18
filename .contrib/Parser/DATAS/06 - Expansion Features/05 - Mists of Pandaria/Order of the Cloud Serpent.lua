@@ -156,9 +156,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58413,	-- Jenova Longeye
 					["coord"] = { 57.3, 45.1, THE_JADE_FOREST },	-- midpoint of NPC's path
 					["minReputation"] = { FACTION_ORDER_OF_THE_CLOUD_SERPENT, HONORED },
-					-- #if AFTER BFA
-					["requireSkill"] = TAILORING,
-					-- #else
+					-- #if BEFORE BFA
 					["requireSkill"] = FIRST_AID,
 					-- #endif
 					["groups"] = {
