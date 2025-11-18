@@ -23,6 +23,22 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				46243,	-- (Warlock)
 				46207,	-- (Warrior)
 			},
+			["groups"] = {
+				-- TODO: need to determine which criteria is which quest from above ^^
+				-- then swap the questID in and uncomment the criteria
+				-- crit(108376, {["_quests"] = { QUESTID }}),
+				-- crit(108360, {["_quests"] = { QUESTID }}),
+				-- crit(108648, {["_quests"] = { QUESTID }}),
+				-- crit(108651, {["_quests"] = { QUESTID }}),
+				-- crit(108656, {["_quests"] = { QUESTID }}),
+				-- crit(108655, {["_quests"] = { QUESTID }}),
+				-- crit(108653, {["_quests"] = { QUESTID }}),
+				-- crit(108650, {["_quests"] = { QUESTID }}),
+				-- crit(108649, {["_quests"] = { QUESTID }}),
+				-- crit(108652, {["_quests"] = { QUESTID }}),
+				-- crit(108657, {["_quests"] = { QUESTID }}),
+				-- crit(108654, {["_quests"] = { QUESTID }}),
+			},
 		}),
 		ach(42624),	-- Broken Isles World Quests I
 		ach(42539),	-- Broken Isles World Quests II
