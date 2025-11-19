@@ -20,13 +20,13 @@ RAID_GEAR_CONVERSION = createHeader({
 });
 
 -- allows creating an Item which has a cost assignment from the other variants of that item
-i_RAID_GEAR_CONVERSION = function(itemID)
+i_RAID_GEAR_CONVERSION = function(itemID, t)
 	-- This is expected to be an LFR variant of the Item
-	local item = i(itemID)
-	item.cost = {
-		{"i",modItemId(itemID,3),1},	-- Normal
-		{"i",modItemId(itemID,5),1},	-- Heroic
-		{"i",modItemId(itemID,6),1},	-- Mythic
+	local item = i(itemID, t)
+	item.providers = {
+		{"i",modItemId(itemID,3)},	-- Normal
+		{"i",modItemId(itemID,5)},	-- Heroic
+		{"i",modItemId(itemID,6)},	-- Mythic
 	}
 	return item
 end

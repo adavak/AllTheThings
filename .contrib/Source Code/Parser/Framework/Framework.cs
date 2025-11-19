@@ -184,12 +184,12 @@ namespace ATT
         /// <summary>
         /// All of the NPC IDs that have been referenced somewhere in the database.
         /// </summary>
-        private static IDictionary<long, bool> NPCS_WITH_REFERENCES = new ConcurrentDictionary<long, bool>();
+        public static IDictionary<long, bool> NPCS_WITH_REFERENCES = new ConcurrentDictionary<long, bool>();
 
         /// <summary>
         /// All of the Object IDs that have been referenced somewhere in the database.
         /// </summary>
-        private static IDictionary<long, bool> OBJECTS_WITH_REFERENCES = new ConcurrentDictionary<long, bool>();
+        public static IDictionary<long, bool> OBJECTS_WITH_REFERENCES = new ConcurrentDictionary<long, bool>();
 
         /// <summary>
         /// All of thePhase Constants listed by their constant name and id value.
