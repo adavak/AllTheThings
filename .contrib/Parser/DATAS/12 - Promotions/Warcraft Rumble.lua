@@ -154,8 +154,8 @@ root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDE
 			["coords"] = {
 				{ 50.8, 82.2, ORGRIMMAR },
 			},
-			["races"] = HORDE_ONLY,
 			["cost"] = {{"i",202162,1}},	-- Rumble Coin
+			["races"] = HORDE_ONLY,
 			["repeatable"] = true,
 			["groups"] = {
 				i(202163, {	-- Rumble Prize Box
