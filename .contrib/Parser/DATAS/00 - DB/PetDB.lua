@@ -4448,6 +4448,7 @@ i(252301, 4901);	-- Fledgeling Warden's Companion
 i(239705, 4802);	-- Morsel
 i(246342, 4855);	-- Mustyfur Fel Snooter
 i(129108, 1751);	-- Son of Goredome
+i(253699, 4903);	-- Starshard Whelpling
 i(239699, 4801);	-- Tidbit
 
 --- UNSORTED ---

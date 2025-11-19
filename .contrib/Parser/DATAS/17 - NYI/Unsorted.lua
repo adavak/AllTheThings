@@ -4921,7 +4921,6 @@ root(ROOTS.Unsorted, {
 			filter(TOYS, {
 				i(243304),	-- Jubilant Snowman Costume
 				i(245580),	-- Rolling Snowball
-				i(263489),	-- Naaru's Enfold
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
@@ -5222,8 +5221,6 @@ root(ROOTS.Unsorted, {
 			i(253219),	-- Bulwark of Mannoroth
 			i(253220),	-- Bulwark of Mannoroth
 			i(253520),	-- Enclave Aspirant's Hatchet
-			i(253573),	-- Cobalt Phase-Hunter \\ Cerulean Phase-Hunter
-			i(254666),	-- Exodar Replica \\ Exodar Miniature \\ Lil' Exodar
 			i(255827),	-- Collection: Wings of Awakening
 			i(255839),	-- Collection: Baby Murloc Satch-Shells
 			i(255881),	-- Severed Threads Commendation

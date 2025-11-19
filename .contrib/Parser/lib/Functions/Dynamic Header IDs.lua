@@ -526,6 +526,7 @@ HeaderAssignments = {
 	["Stranglethorn Fishing Extravaganza"] = -588,
 	["Tanks"] = -314,
 	["Tankworks"] = -126,
+	["TBC Classic Anniversary Edition - Outland Upgrade"] = -694,
 	["TBC Classic Deluxe Edition"] = -524,
 	["Temple of Ahn'Qiraj Hardmode"] = -69,
 	["The Ahn'Qiraj War Effort"] = -481,
@@ -679,4 +680,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -692;
+NextHeaderID = -695;

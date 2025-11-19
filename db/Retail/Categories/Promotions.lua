@@ -217,6 +217,12 @@ crit(34633,{achID=665,awp=30002,id=3,u=2})}}),
 p(111,{awp=20001,description="This was only available in the EU.",itemID=30360,npcID=15358,rwp=30002,spellID=24988,u=2})}}),
 h(-524,{awp=90100,description="These rewards were made available to anyone who purchased a Deluxe Edition of The Burning Crusade Classic.",rwp=90207,u=2,g={
 mnt(346136,{u=2})}}),
+h(-694,{awp=110205,description="These rewards were made available to anyone who purchased the Outland Heroic Pack of The Burning Crusade Classic Anniversary.",u=3,g={
+mnt(1256677,{itemID=253573,u=3}),
+toy(254666,{u=3}),
+toy(263489,{u=3}),
+p(4903,{itemID=253699,u=3}),
+mnt(1255246,{itemID=252950,u=3})}}),
 x(3,{awp=20403,description="These rewards were made available to anyone who purchased a Collector's Edition of Wrath of the Lich King.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",u=3,g={
 ach(683,{providers={{"i",39286}},rwp=30305,u=2}),
 p(188,{itemID=39286,npcID=28883,rwp=30305,spellID=52615,u=2,g={

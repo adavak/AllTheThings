@@ -7003,11 +7003,7 @@ q(89346,{type="hqt",u=2})}}),
 m(619,{petBattleLvl=25,lvl=10,g={
 m(646,{maps=a[28],lvl=45,g={
 h(-61,{
-q(92540,{isDaily=1,type="hqt"}),
-q(91789,{isDaily=1,type="hqt"}),
-q(91790,{isDaily=1,type="hqt"}),
-q(91791,{isDaily=1,type="hqt"}),
-q(91792,{isDaily=1,type="hqt"})})}})}}),
+q(92540,{isDaily=1,type="hqt"})})}})}}),
 h(-104,{awp=110205,e=447,rwp=120000,g={
 q(90686,{e=447,type="hqt"}),
 q(90703,{an="s:1232807",e=447,type="hqt"}),

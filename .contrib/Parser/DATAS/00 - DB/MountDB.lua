@@ -2146,6 +2146,7 @@ i(250759, 1251309);	-- Bonesteed of Plague
 i(250761, 1251305);	-- Bonesteed of Triumph
 i(251795, 1253130);	-- Brimstone Courser
 i(251796, 1253129);	-- Chestnut Courser
+i(253573, 1256677);	-- Cobalt Phase-Hunter
 i(253031, 1255478);	-- Farseer's Felscorned Tempest
 i(250745, 1251279);	-- Fel-scarred Mana Ray
 i(253024, 1255451);	-- Feldruid's Scornwing Form
@@ -2173,11 +2174,14 @@ i(250806, 1251400);	-- Longhorned Beryl Talbuk
 i(250804, 1251398);	-- Longhorned Bleakhoof Talbuk
 i(250802, 1251396);	-- Longhorned Sable Talbuk
 i(250748, 1251284);	-- Luminous Mana Ray
+i(252679, 1255159);	-- Mechanical Prototype Panther MK-0
 i(250929, 1251690);	-- Prized Turkey
 i(253030, 1255477);	-- Shadowblade's Felscorned Omen
 i(250423, 1238729);	-- Slag Basilisk
 i(253013, 1255431);	-- Slayer's Felscorned Shrieker
 i(250721, 1235513);	-- Snowy Highmountain Eagle
+i(252950, 1255246);	-- Starspark Netherdrake
+i(252681, 1255179);	-- Steel Prototype Panther MK-0
 i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(250723, 1251255);	-- Treetop Highmountain Eagle
 i(250756, 1251298);	-- Turquoise Courser
@@ -2190,7 +2194,6 @@ i(250927, 1251685);	-- Quirky Turkey
 i(250928, 1251689);	-- Murky Turkey
 i(250191, 1250481);	-- Bilebound Ur'zul
 i(239647, 1229264);	-- Bloodguard Fel Bat
-i(253573, 1256677);	-- Cobalt Phase-Hunter
 i(250108, 1250288);	-- Cragstepper Crest-horn
 i(250106, 1250287);	-- Floestrider Crest-horn
 i(239686, 1229286);	-- Forgotten Fel Bat
@@ -2272,6 +2275,7 @@ i(260895, 1267002);	-- Lavender Pseudoshell
 i(260916, 3363);	-- Lost Nether Drake
 i(260231, 1265784);	-- Lucent Hawkstrider
 i(257191, 1261336);	-- Preyseeker's Hubris
+i(257193, 1261338);	-- Preyseeker's Nightmare
 i(257192, 1261337);	-- Preyseeker's Wrath
 i(257447, 1261584);	-- Prowling Shredclaw
 i(0, 1261579);	-- Ravenous Shredclaw

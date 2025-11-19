@@ -387,6 +387,16 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	-- #endif
+	n(TBC_CLASSIC_ANNIVERSARY_OUTLAND_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
+		["description"] = "These rewards were made available to anyone who purchased the Outland Heroic Pack of The Burning Crusade Classic Anniversary.",
+		["groups"] = {
+			i(253573),	-- Cobalt Phase-Hunter (MOUNT!)
+			i(254666),	-- Exodar Replica (TOY!
+			i(263489),	-- Naaru's Enfold (TOY!)
+			i(253699),	-- Starshard Whelpling (PET!)
+			i(252950),	-- Starspark Netherdrake (MOUNT!)
+		},
+	})),
 	expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_3, REMOVED_3_3_5 } }, {
 		["description"] = "These rewards were made available to anyone who purchased a Collector's Edition of Wrath of the Lich King.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",
 		["groups"] = {
