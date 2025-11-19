@@ -63,6 +63,11 @@ root(ROOTS.HiddenAchievementTriggers, {
 		ach(41010),	-- Rune Learned - Shared Acquisition - Ley Lines (50)
 		ach(41011),	-- Rune Learned - Shared Acquisition - Wild Gods (50)
 		-- #endif
+		--1.15.7.60000
+		-- #if SEASON_OF_DISCOVERY
+		ach(42133),	-- [DNT] Balnazzar Defeated (Rewarded MOP 2025 Classic LEVEL Boost)
+		ach(42186),	-- [DNT] Balnazzar Defeated (Rewarded MOP 2025 Classic LEVEL Boost Hotfix)
+		-- #endif
 	}),
 	expansion(EXPANSION.TBC, {
 		--2.5.1.39399

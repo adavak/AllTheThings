@@ -1048,18 +1048,30 @@ end
 -----------------
 -- CLASSIC WOW --
 -----------------
-i(198665, 4234);	-- Pebble's Pebble
 i(200060, 4235);	-- Hoplet (Classic)
+
+-- TBC Classic --
 i(204982, 4236);	-- Glub
 i(187794, 4233);	-- Flurky
-i(211082, 4329);	-- Arfus (WOTLK)
-i(209877, 4273);	-- Cypress (WOTLK)
-i(209945, 4274);	-- Lil' Wrathion (WOTLK)
-i(0, 4532);			-- Pinchy the Plunderer (WOTLK)
+
 -- #if SEASON_OF_DISCOVERY
 i(220620, 446105);	-- Skeletal Wind Serpent (SOD) [Sunken Temple]
 -- #endif
+
+-- TBC Classic 2026 --
+i(260433, 4962);	-- Starshard Whelpling Collar
+
+-- Wrath Classic --
+i(211082, 4329);	-- Arfus (WOTLK)
+i(209877, 4273);	-- Cypress (WOTLK)
+i(209945, 4274);	-- Lil' Wrathion (WOTLK)
+i(198665, 4234);	-- Pebble's Pebble
+i(0, 4532);			-- Pinchy the Plunderer (WOTLK)
+
+-- Cata Classic --
 i(224002, 4585);	-- Swoopy (Cata)
+
+--- MOP CLASSIC ---
 i(231312, 4685);	-- Timbered Air Snakelet (MOP)
 -- #endif
 

@@ -30,6 +30,10 @@ i(233357, 0); -- Twilight Qiraji Resonating Crystal
 -- TBC Classic --
 i(184865, 348459);	-- Reawakened Phase-Hunter
 
+-- TBC Classic 2026 --
+i(260438, 1266345);	-- Cerulean Phase-Hunter
+i(260759, 1266866);	-- Reins of the Starshard Netherdrake
+
 -- Wrath Classic --
 i(192455, 372677);	-- Kalu'ak Whalebone Glider
 i(201699, 394209);	-- Festering Emerald Drake
