@@ -2428,3 +2428,199 @@
 16315@@@[DNT] [AUTOGEN] 10MP_MolePeople_Food_Bowl08.m2
 16316@@@[DNT] [AUTOGEN] 12TR_Amani_Navigation_SignPost01.m2
 16317@@@[DNT] [AUTOGEN] 12DU_MaisaraHills_Ritual_EncounterAltar01.M2
+12.0.0.64228
+1080@@@Replica Sky's Hope
+1142@@@Leather-Bound Haranir Wall Shelf
+1157@@@Sturdy Haranir Chair
+1247@@@Rootbound Vat
+1328@@@Harandar Signpost
+2219@@@Hollowed Harandar Gourds
+2225@@@Haranir Herb Rack
+2460@@@Self-Pouring Thalassian Sunwine
+2503@@@Hanging Mana Brazier
+2588@@@Sealed Fungal Jar
+2589@@@Opened Fungal Jar
+3922@@@Cosmic Void Banner
+5132@@@Cosmic Void Table
+5133@@@Resplendent Highborne Statue
+5651@@@Fungarian Barrel
+7780@@@Silvermoon Privacy Screen
+8889@@@Fungarian Banner
+8916@@@Fungarian Sack
+11324@@@Hash'ey Heartbroth Cauldron
+11326@@@Empty Amani Cauldron
+11327@@@Carved Idol of Nalorakk
+11333@@@Carved Idol of Jan'alai
+11334@@@Boiling Amani Cauldron
+11936@@@Carved Idol of Halazzi
+12154@@@Burning Amani Pinecone
+14204@@@Visage of Akil'zon
+14350@@@Visage of Nalorakk
+14351@@@Visage of Halazzi
+14352@@@Visage of Jan'alai
+14555@@@Lush Telogrus Carpet
+14557@@@Riftstone
+14558@@@Entropic Illuminant
+14559@@@Haranir Preserving Agents
+14579@@@Embossed Sin'dorei Fur Rug
+14580@@@Ensorcelled Broom
+14581@@@Gilded Silvermoon Anvil
+14582@@@Masterwork Crafting Hammer
+14583@@@Gilded Thalassian Armillary
+14584@@@Shining Sin'dorei Hourglass
+14585@@@Font of Gleaming Water
+14586@@@Ornamental Silvermoon Hanger
+14587@@@Gilded Silvermoon Hanger
+14588@@@Animated Sin'dorei Pick
+14589@@@Animated Sin'dorei Hammer
+14590@@@Ren'dorei Anvil
+14592@@@Dark Void Inkwell
+14593@@@Cosmic Void Ashwell
+14594@@@Floating Void-Touched Tome
+14595@@@Ren'dorei Stargazer
+14596@@@Void Elf Table
+14597@@@Void Elf Round Table
+14598@@@Ren'dorei Postal Repository
+14599@@@Brilliant Phoenix Harp
+14600@@@Spellbound Tome of Thalassian Magics
+14601@@@Bejeweled Sin'dorei Lyre
+14616@@@Rootflame Campfire
+14617@@@Luxurious Silvermoon Lounge Cushion
+14618@@@Plush Silvermoon Bed
+14619@@@Chic Silvermoon Pillow
+14620@@@Homely Sin'dorei Shelf
+14621@@@Homely Wall Shelves
+14622@@@Gilded Eversong Book
+14623@@@Opened Sin'dorei Scroll
+14624@@@Silvermoon Curtains
+14625@@@Stitched Haranir Rug
+14626@@@Wild Hanging Scroll
+14627@@@Ren'dorei Warp Orb
+14632@@@Void Elf Throne
+14633@@@Void Elf Stool
+14634@@@Void Elf Floating Lantern
+14636@@@Voidstrider Saddlebag
+14637@@@Sturdy Ren'dorei Cask
+14638@@@Replica Haranir Mural
+14639@@@Harandar Runestone
+14640@@@Sin'dorei Phoenix Quill
+14641@@@Lively Songwriter's Quill
+14642@@@Ren'dorei Crafting Framework
+14643@@@Ren'dorei Void Projector
+14799@@@Harandar Anvil
+14808@@@Haranir Pennant
+14809@@@Ward of the Shul'ka
+14820@@@Magnificent Towering Bookcase
+14822@@@Hanging Dawnflower
+14823@@@Replica Wey'nan's Ward
+14824@@@Haranir Canopy Bed
+14825@@@Harandar Flowering Lamp
+14827@@@Replica Root of the World
+14828@@@Rootlight Lampost
+14835@@@Ren'dorei Lightpost
+14965@@@Harandar Glow-vine Sconce
+14967@@@Harandar Glow-vine Lamppost
+14968@@@Harandar Glow-vine Lantern
+15064@@@Sin'dorei Spinning Library
+15158@@@Simple Amani Basket
+15160@@@Rope-bound Amani Basket
+15412@@@Corewarden's Spoils
+15463@@@Harandar Charcuterie Board
+15478@@@Lush Haranir Pillow
+15479@@@Plush Haranir Leather Pillow
+15480@@@Plush Haranir Blanket
+15493@@@Blossoming Forge
+15494@@@On'ohia's Call
+15497@@@Haranir Whistling Arrow
+15502@@@Rutaani Birdfeeder
+15503@@@Rutaani Birdbath
+15504@@@Rutaani Bird Perch
+15567@@@Amani Dining Table
+15568@@@Amani Hanging Brazier
+15571@@@Amani Incense Burner
+15575@@@Cosmic Void Training Dummy
+15578@@@Cosmic Void Summoning Crystal
+15581@@@Cosmic Void Crate
+15582@@@Cosmic Void Cache
+15584@@@Cosmic Void Orb
+15596@@@Carved Idol of Akil'zon
+15747@@@Cosmic Void Campfire
+15769@@@Void Elf Barrel
+16227@@@Decorated Underground Table
+16228@@@Loamm Bartering Stall
+16229@@@Ceramic Loamm Bowl
+16230@@@Zaralek Candles
+16231@@@Loamm Archway
+16232@@@Gooey Niffen Jar
+16233@@@Zaralek Snail Cart
+16234@@@Strong Sniffin' Incense
+16235@@@Underdecorated Underground Table
+16236@@@Loamm Wheelpot
+16237@@@Kilnmaster's Bucket
+16314@@@Consortium Translocation Portal
+16315@@@Hearty Niffen Grub
+16691@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue06.M2
+16808@@@[DNT] [AUTOGEN] 12TR_Amani_Structure_Hex_Awning01.m2
+16811@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Tomato.M2
+16812@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Lemon.M2
+16813@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_CottonCandy.M2
+16814@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Mint.M2
+16815@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Magenta.M2
+16816@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Sunset.M2
+16817@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Mauve.M2
+16818@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Pearl.M2
+16819@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Charcoal.M2
+16820@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Onyx.M2
+16821@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Bright.M2
+16822@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Juniper.M2
+16962@@@Loammy Soil
+16963@@@[DNT] [AUTOGEN] 12BE_BloodElf_Decor_DraperySet05.m2
+16964@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Basil.M2
+16965@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Void.M2
+16966@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Fel.M2
+16967@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Spectral.M2
+16968@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Emerald.M2
+16969@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Metallic.M2
+16970@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Verdant.M2
+16971@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Cobalt.M2
+16972@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Teal.M2
+16973@@@[DNT] [AUTOGEN] 12PH_Misc_MurlocPlush01_Ochre.M2
+17294@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue07.M2
+17358@@@[DNT] [AUTOGEN] 12PH_Opulent_Countertop01.M2
+17359@@@[DNT] [AUTOGEN] 12PH_Opulent_Sink01.M2
+17439@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_MagisterSunbreaker01.m2
+17440@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_SeniorTinkerOzwold01.m2
+17441@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_NexusEdgeHadim01.m2
+17442@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_JoZoloTheBreaker01.m2
+17443@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_TheWingofAkilzon01.m2
+17444@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_LamyneoftheUndercroft01.m2
+17446@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_HighVindicatorVureem01.m2
+17447@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_ConsulNebulor01.m2
+17449@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_ExecutorKaenius01.m2
+17450@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_KnightErrantBloodshatter01.m2
+17452@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_LostTheldrin01.m2
+17453@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_ThornspeakerEdgath01.m2
+17454@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_GrothozTheBurningShadow01.m2
+17455@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_MagisterSunbreaker02.m2
+17456@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_SeniorTinkerOzwold02.m2
+17457@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_NexusEdgeHadim02.m2
+17458@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_JoZoloTheBreaker02.m2
+17459@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_TheWingofAkilzon02.m2
+17460@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_LamyneoftheUndercroft02.m2
+17462@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_HighVindicatorVureem02.m2
+17464@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_ConsulNebulor02.m2
+17465@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_ExecutorKaenius02.m2
+17467@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_KnightErrantBloodshatter02.m2
+17469@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_LostTheldrin02.m2
+17472@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_ThornspeakerEdgath02.m2
+17474@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_GrothozTheBurningShadow02.m2
+17476@@@[DNT] [AUTOGEN] 12BE_BloodElf_Crafting_Tongs01.m2
+17515@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Bed02.m2
+17516@@@[DNT] [AUTOGEN] 12FN_Fungarian_Navigation_Fence01.m2
+17517@@@[DNT] [AUTOGEN] 12FN_Fungarian_Navigation_Fence02.m2
+17518@@@[DNT] [AUTOGEN] 12XP_Prey_Special_TrophyBase01.m2
+17519@@@[DNT] [AUTOGEN] 12XP_Prey_Special_TrophyBase02.m2
+17520@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_DeliahGloomsong01.m2
+17521@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_RangerSwiftglade01.m2
+17522@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_DeliahGloomsong02.m2
+17523@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_RangerSwiftglade02.m2

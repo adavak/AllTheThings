@@ -24001,3 +24001,26 @@
 257849@@@Entropy Wielder
 257857@@@[DNT] Baby Eversong Lynx (Black)
 257908@@@Kai
+12.0.0.64228
+239944@@@Magister Umbric
+240962@@@Orweyna
+241043@@@Grand Magister Rommath
+241044@@@Lor'themar Theron
+241046@@@High Exarch Turalyon
+248429@@@Decimus
+253162@@@Guard
+254297@@@Hara'ti Villager
+255023@@@Eye of Gul'dan
+257238@@@Hara'ti Villager
+257991@@@Stormbound Mystic
+257992@@@Ruthless Totemcaller
+258046@@@Bonded Beasttamer
+258047@@@Grizzled Warbringer
+258066@@@Loa Speaker Nanea
+258074@@@Luxmaster 5000
+258205@@@Mannoroth
+258281@@@Princess Bloodshed
+258536@@@Xal'atath
+258584@@@Imp Lord
+258587@@@Fel Ravager
+258640@@@Time Flies

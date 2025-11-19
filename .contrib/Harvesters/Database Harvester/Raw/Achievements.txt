@@ -17471,3 +17471,31 @@
 61959@@@Focused Target
 61960@@@Treasures of Eversong Woods (Midnight)
 61961@@@Runestone Rush
+12.0.0.64228
+42788@@@Alchemizing at Midnight
+61731@@@The Gulf of Memory Stories
+62057@@@Midnight: The Highest Peaks
+62058@@@Hungry Hungry Hatchlings
+62096@@@Insurmountable Collection
+62103@@@Insurmountable Collection
+62104@@@Midnight Lore Hunter
+62105@@@Lysikas Would Be Proud
+62106@@@The Only Winning Move Is Not To Play
+62107@@@Mandatory Training
+62108@@@Training with Patience
+62109@@@Training with Patience
+62110@@@Loremaster of Midnight
+62111@@@Boots on the Ground: Arathi Basin
+62112@@@Boots on the Ground: Battle for Gilneas
+62113@@@Boots on the Ground: Silvershard Mines
+62114@@@Learning the Landscape: Arathi Basin
+62115@@@Learning the Landscape: Battle for Gilneas
+62116@@@Learning the Landscape: Silvershard Mines
+62117@@@Abyss Anglers: Placeholder 1
+62118@@@Abyss Anglers: Placeholder 2
+62119@@@Abyss Anglers: Placeholder 3
+62120@@@Altar of Blessings: Placeholder 1
+62121@@@Altar of Blessings: Placeholder 2
+62122@@@Tallest Tree in the Forest
+62125@@@Treasures of Zul'Aman
+62126@@@Treasures of Voidstorm

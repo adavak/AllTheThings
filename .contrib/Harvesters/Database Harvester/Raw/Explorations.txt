@@ -10709,3 +10709,10 @@
 16827@@@The Riftlabs
 16828@@@Crown of the Cosmos
 16829@@@[PH] Battlefield
+12.0.0.64228
+15973@@@Voidscar Arena
+16046@@@Suncrown Village
+16047@@@Thas'minellia
+16838@@@Atal'Utek (copy)
+16841@@@Tomb of Mun'jin
+16844@@@Dusk's Repose

@@ -2423,3 +2423,15 @@
 1261302@@@Cobalt Dragonhawk
 1261323@@@Cerulean Hawkstrider
 1261334@@@Contained Stormarion Defender
+12.0.0.64228
+1243597@@@Rootstalker Grimlynx
+1253927@@@Vibrant Petalwing
+1261155@@@Augmented Stormray
+1261316@@@Amani Sharptalon
+1261348@@@[DNT] 12.0 Amani Pangolin
+1261349@@@Giganto Manis
+1261351@@@Witherbark Pango
+1261360@@@[DNT] 12.0 Shadowpine Bear
+1261576@@@[DNT] 12.0 Hex Eagle Mount
+1266700@@@Sanguine Harrower
+1276650@@@Anu'shalla, Shadow's Guidance
