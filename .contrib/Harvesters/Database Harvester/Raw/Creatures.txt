@@ -23023,6 +23023,9 @@
 253016@@@Exodar Miniature
 11.2.5.64154
 256938@@@Khadgar's Upgraded Servant
+11.2.5.64484
+252859@@@Starshard Whelpling
+253016@@@Exodar Replica
 11.2.7.63642
 114955@@@Dole Dastardly
 149917@@@Captain Garrick
@@ -23249,7 +23252,6 @@
 218041@@@Stormrider Adalar
 218745@@@Stormrider Kothilde
 251889@@@Fledgling Warden's Companion
-253016@@@Exodar Replica
 256656@@@Aelric Leid
 256719@@@Aelric Leid
 256721@@@Glooming Disciple

@@ -2331,6 +2331,10 @@
 1233925@@@Lana'thel's Crimson Cascade
 11.2.5.63906
 1256677@@@Cobalt Phase-Hunter
+11.2.5.64484
+1255159@@@Mechanical Prototype Panther MK-0
+1255179@@@Steel Prototype Panther MK-0
+1255246@@@Starspark Netherdrake
 11.2.7.63642
 1233516@@@K'arroc Swiftwing
 1244247@@@Thunder-Ridged Elekk
