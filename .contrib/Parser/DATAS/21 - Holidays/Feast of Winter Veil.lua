@@ -2145,9 +2145,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				-- 	7021,	-- Great-father Winter is Here! (Horde)
 				-- 	7024,	-- Great-father Winter is Here! (Horde)
 				-- },
-				["qg"] = 13445,	-- Great-father Winter
-				["coord"] = { 52.4, 68.8, ORGRIMMAR },
-				["races"] = HORDE_ONLY,
 			}),
 			["cost"] = {
 				{ "i", 17197, 5 },	-- Gingerbread Cookie
