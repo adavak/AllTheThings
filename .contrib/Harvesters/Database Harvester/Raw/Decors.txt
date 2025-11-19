@@ -2624,3 +2624,106 @@
 17521@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_RangerSwiftglade01.m2
 17522@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_DeliahGloomsong02.m2
 17523@@@[DNT] [AUTOGEN] 12XP_Prey_Special_Trophy_RangerSwiftglade02.m2
+12.0.0.64339
+848@@@Elegant Elven Interior Wall
+916@@@Elegant Elven Interior Narrow Wall
+990@@@Elegant Elven Barrel
+993@@@[DNT] Open Elegant Elven Barrel - DO NOT USE - duplicate
+1220@@@Embroidered Sunfury Chair
+1446@@@Silvermoon Painter's Cushion
+1896@@@Silvermoon Sanctum Teleporter
+1901@@@Floating Azure Lantern
+2459@@@Murder Row Wine Decanter
+3922@@@Galactic Void-Scarred Banner
+5564@@@Statue of Reverent Grace
+7782@@@Crimson Lightwood Screen
+14806@@@Tattered Vanguard Banner
+14828@@@Rootlight Lamppost
+14965@@@Harandar Glowvine Sconce
+14967@@@Harandar Glowvine Lamppost
+14968@@@Harandar Glowvine Lantern
+14970@@@Rack of Silvermoon Arms
+14971@@@Crimson Silvermoon Runner
+14972@@@Plum Eversong Rug
+14978@@@Farstrider's Comfy Cushion
+14979@@@Gilded Lightwood Wardrobe
+14985@@@Gilded Sky-Blue Drapery
+14995@@@Gentle Floating Planter
+15013@@@Sunlit Glass Mirror
+15059@@@Grand Lightwood Table
+15060@@@Ornate Lightwood Table
+15063@@@Floating Spire Shelf
+15065@@@Turning Silvermoon Archives
+15160@@@Rope-Bound Amani Basket
+15467@@@Blessed Phoenix Egg
+15481@@@Eerie Irisdescent Riftshroom
+15488@@@Galactic Void-Scarred Barricade
+15499@@@Gilded Vigil Post
+15500@@@Sanctified Flame Lantern
+15583@@@Cosmic Void Gravitational Orb
+15585@@@Galactic Commander's Orb
+15746@@@Void Elf Torch
+15755@@@Voidbound Holding Cell
+15756@@@Devouring Host Ritual Portal
+15758@@@Banded Domanaar Storage Crate
+15761@@@Imperator's Torment Crystal
+15762@@@Voltaic Trigore Egg
+15764@@@Devouring Host Ritual Engine
+17439@@@Preyseeker's Magister Trophy
+17440@@@Preyseeker's Tinker Trophy
+17441@@@Preyseeker's Ethereal Trophy
+17442@@@Preyseeker's Breaker Trophy
+17443@@@Preyseeker's Amani Trophy
+17444@@@Preyseeker's Rutaani Trophy
+17446@@@Preyseeker's Vindicator Trophy
+17447@@@Preyseeker's Consul Trophy
+17449@@@Preyseeker's Executor Trophy
+17450@@@Preyseeker's Knight-Errant Trophy
+17452@@@Preyseeker's Wretched Trophy
+17453@@@Preyseeker's Thornspeaker Trophy
+17454@@@Preyseeker's Twilight Trophy
+17455@@@Preyseeker's Magister Bust
+17456@@@Preyseeker's Tinker Bust
+17457@@@Preyseeker's Ethereal Bust
+17458@@@Preyseeker's Breaker Bust
+17459@@@Preyseeker's Amani Bust
+17460@@@Preyseeker's Rutaani Bust
+17462@@@Preyseeker's Vindicator Bust
+17464@@@Preyseeker's Consul Bust
+17465@@@Preyseeker's Executor Bust
+17467@@@Preyseeker's Knight-Errant Bust
+17469@@@Preyseeker's Wretched Bust
+17472@@@Preyseeker's Thornspeaker Bust
+17474@@@Preyseeker's Twilight Bust
+17515@@@Luxurious Haranir Canopy Bed
+17518@@@Preyseeker's Plinth
+17519@@@Preyseeker's Ornate Plinth
+17520@@@Preyseeker's Ren'dorei Trophy
+17521@@@Preyseeker's Farstrider Trophy
+17522@@@Preyseeker's Ren'dorei Bust
+17523@@@Preyseeker's Farstrider Bust
+17626@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Table01.m2
+17627@@@[DNT] [AUTOGEN] 11WE_WildElves_Furniture_Table03.m2
+17628@@@Gleaming March on Quel'Danas Vanquisher's Trophy
+17629@@@Gleaming Dreamrift Vanquisher's Trophy
+17630@@@Gleaming Voidspire Vanquisher's Trophy
+17785@@@[DNT] [AUTOGEN] 12FN_Fungarian_Lighting_LampPost01.m2
+17786@@@[DNT] [AUTOGEN] 12PH_BloodElf_Food_WineBottle01_SpecialAnim.M2
+17787@@@[DNT] [AUTOGEN] 12PH_Opulent_Gazebo01.M2
+17862@@@[DNT] [AUTOGEN] 12PH_Elwynn_Lighting_HangingLantern01.m2
+17863@@@[DNT] [AUTOGEN] 12PH_Razorwind_Coast_LargeCluster_01.M2
+17864@@@[DNT] [AUTOGEN] 12PH_Razorwind_Main_LargeCluster_01.M2
+17865@@@[DNT] [AUTOGEN] 12PH_Razorwind_Main_LargeCluster_02.M2
+17866@@@[DNT] [AUTOGEN] 12PH_Razorwind_Oasis_LargeCluster_01.M2
+17867@@@[DNT] [AUTOGEN] 12PH_Razorwind_Azshara_LargeCluster_01.M2
+17868@@@[DNT] [AUTOGEN] 12PH_Founders_Coast_LargeCluster_01.M2
+17869@@@[DNT] [AUTOGEN] 12PH_Founders_Main_LargeCluster_01.M2
+17870@@@[DNT] [AUTOGEN] 12PH_Founders_Duskwood_LargeCluster_01.M2
+17871@@@[DNT] [AUTOGEN] 12PH_Founders_Autumn_LargeCluster_01.M2
+17872@@@[DNT] [AUTOGEN] 12PH_Founders_Mountain_LargeCluster_01.M2
+17873@@@[DNT] [AUTOGEN] 12PH_Founders_CobblestonePath_01.M2
+17874@@@[DNT] [AUTOGEN] 12PH_Founders_CobblestonePath_02.M2
+17879@@@[DNT] [AUTOGEN] 12PH_Elwynn_Lighting_HangingLantern02.m2
+17880@@@[DNT] [AUTOGEN] 12PH_Elwynn_Lighting_HangingLantern03.m2
+17886@@@[DNT] [AUTOGEN] 11WE_WildElves_Ritual_Altar01.m2
+17889@@@[DNT] [AUTOGEN] 12PH_Leg_Zandalari_Mask_01.M2

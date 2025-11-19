@@ -24024,3 +24024,65 @@
 258584@@@Imp Lord
 258587@@@Fel Ravager
 258640@@@Time Flies
+12.0.0.64339
+235787@@@Lor'themar Theron
+236100@@@Arator
+236134@@@High Exarch Turalyon
+236391@@@Arator
+236571@@@High Exarch Turalyon
+236583@@@Grand Magister Rommath
+236588@@@Zul'jan
+236755@@@[DNT] Invisible Bunny
+236778@@@High Exarch Turalyon
+237234@@@Orweyna
+237284@@@Amarakk
+237325@@@Orweyna
+237346@@@Orweyna
+237567@@@Hagar
+241176@@@Halduron Brightwing
+241629@@@Hannan
+241695@@@Lightwood Ballista
+243759@@@Aksem
+243761@@@Orweyna
+250405@@@Thisalee Crow
+250406@@@Zen'tabra
+250409@@@Gamon
+251587@@@Halduron Brightwing
+252822@@@Lady Liadrin
+256107@@@Immature Behemoth
+257695@@@Nova
+257802@@@Medusa
+258651@@@Kajai
+258688@@@Loa Speaker Nanea
+258689@@@Lilaju
+258690@@@Loa Speaker Tobui
+258691@@@Kul'amara the Fierce
+258692@@@Vun'zarah
+258693@@@Loa Speaker Brek
+258694@@@Tak'lejo
+258695@@@Jan'alai
+258696@@@Halazzi
+258698@@@Akil'zon
+258699@@@Loa Speaker Kinduru
+258700@@@Lady Liadrin
+258701@@@Spear of Torntusk
+258703@@@Zul'jarra
+258704@@@Shadowpine Troop
+258705@@@Witherbark Shadowblade
+258730@@@Lord Antenorian
+258753@@@Khadgar's Servant
+258796@@@Shadow Barrier
+258803@@@Nether Siphoner
+258806@@@Scrying Focus
+258841@@@Kal'eani
+258844@@@Mind-Seeker Apprentice
+258845@@@Shadow Missile
+258869@@@Twilight Voidchurner
+258874@@@Lord Smudgington
+258877@@@Nalorakk
+258901@@@Empowering Shadow
+258909@@@[DNT] 12.0 Dungeon - Magisters' Terrace - Sound Stalker
+258947@@@Lightwood Ballista
+258948@@@High Exarch Turalyon
+258949@@@Generic Bunny - PRK
+258952@@@High Exarch Turalyon

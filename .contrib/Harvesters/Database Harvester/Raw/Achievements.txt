@@ -17499,3 +17499,71 @@
 62122@@@Tallest Tree in the Forest
 62125@@@Treasures of Zul'Aman
 62126@@@Treasures of Voidstorm
+12.0.0.64339
+61724@@@The Grudge Pit Stories
+61725@@@Parhelion Plaza Stories
+61726@@@Collegiate Calamity Stories
+61727@@@The Shadow Enclave Stories
+61729@@@Atal'Aman Stories
+61730@@@Twilight Crypts Stories
+61732@@@Sunkiller Sanctum Stories
+61733@@@Shadowguard Point Stories
+61957@@@Sojourner of Eversong Woods
+61960@@@Treasures of Eversong Woods
+62117@@@Abyss Anglers: Boarhide Catch Sack
+62118@@@Abyss Anglers: Amazardhide Catch Case
+62119@@@Abyss Anglers: Loaknit-Woven Catch Satchel
+62120@@@Altar of Blessings: The Penitent Troll
+62121@@@Altar of Blessings: Sacred Buffet Devotee
+62130@@@The Ultimate Predator
+62133@@@Thrill of the Chase
+62134@@@The Deadliest of Prey
+62135@@@Now It's A Party
+62136@@@I'm Good At What I Do
+62137@@@I'm Not Trapped In Here With You
+62138@@@You're Trapped In Here With Me
+62139@@@Midnight Hunter
+62140@@@Kitchen Nightmare
+62141@@@Look, I'm Just Trying To Fish Here
+62142@@@I Didn't Hear No Bell
+62143@@@Trapped In The Middle With You
+62145@@@Dungeon Unlock: Windrunner Spire
+62146@@@Dungeon Unlock: Murder Row
+62147@@@Dungeon Unlock: Den of Nalorakk
+62148@@@Dungeon Unlock: Maisara Caverns
+62149@@@Dungeon Unlock: The Blinding Vale
+62150@@@Dungeon Unlock: Nexus-Point Xenas
+62151@@@Dungeon Unlock: Voidscar Arena
+62152@@@Dungeon Unlock: Magisters' Terrace
+62185@@@Ever Painting
+62186@@@The Party Must Go On
+62187@@@Grand Magister's Sommelier
+62188@@@More Than Just Their Roots
+62189@@@Mind-Seeker
+62190@@@Life of the Party
+62191@@@Call of the Light
+62192@@@Midnight Diplomat
+62193@@@Midnight Dungeon Damage Dealer
+62194@@@Midnight Dungeon Healer
+62195@@@Midnight Dungeon Tank
+62196@@@Midnight Dungeoneer
+62199@@@Put a Pin in It
+62200@@@Gnome Alone
+62201@@@The Frog and the Princesses
+62202@@@Spiritpaw Marathon
+62206@@@Midnight Delver III
+62207@@@Abyss Anglers: Reinforced Joints
+62208@@@Abyss Anglers: Depth Grease
+62209@@@Abyss Anglers: Pahk Trench Fins
+62210@@@Abyss Anglers: Depthdiver's Used Tank
+62211@@@Abyss Anglers: Fathom-Tested Tank
+62212@@@Abyss Anglers: Nalorakk's Breath Tank
+62213@@@Abyss Anglers: Shallows Net
+62214@@@Abyss Anglers: Triple-Thread Net
+62215@@@Abyss Anglers: Heavy Harpoon Cannon
+62216@@@Abyss Anglers: Hollowcore Harpoon Turret
+62217@@@Abyss Anglers: Idol of the Depths
+62218@@@Abyss Anglers: Even The Best
+62219@@@Abyss Anglers: No Sea Can Hold Me
+62220@@@Abyss Anglers: Proper Procedure
+62221@@@Abyss Anglers: Fresh Depth Tech
