@@ -1075,6 +1075,7 @@ TBC_PHASE_ONE = createClassicPhase({
 	buildVersion = 20501,
 	phaseID = 17,
 	text = {
+		de = "Phase 1",
 		en = "Phase 1",
 		es = "Fase 1",
 		mx = "Fase 1",
