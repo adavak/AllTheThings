@@ -345,9 +345,12 @@
 995@@@Malevolent Skirmisher %s
 996@@@Tyrannical Skirmisher %s
 5.5.2.63832
+5.5.3.64141
+255@@@Mistwalker %s
+736@@@%s, the Mistborne
+737@@@%s, Heir to the Mist
 6.0.1.18125
 6.0.1.18156
-255@@@Mistwalker %s
 6.0.1.18379
 256@@@%s of the Black Harvest
 6.0.1.18505
