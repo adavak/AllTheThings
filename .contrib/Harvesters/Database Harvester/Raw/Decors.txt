@@ -1563,6 +1563,31 @@
 16219@@@[DNT] [AUTOGEN] AK_ALCHEMYBOTTLE01.M2
 16220@@@Arakkoan Alchemist's Bottle
 16221@@@[DNT] 12PH_Leg_7NE_Druid_StoneRune01.M2
+11.2.7.64438
+7610@@@Tome of the Corrupt
+7620@@@Vrykul Lord's Throne
+7621@@@Legion's Holo-Communicator
+7622@@@Hanging Felsteel Chain
+7623@@@Legion's Fel Torch
+7624@@@Corruption Pit
+7625@@@Legion's Fel Brazier
+7658@@@Vertical Felsteel Chain
+7686@@@Legion Torture Rack
+7687@@@Eredar Lord's Fel Torch
+7690@@@Altar of the Corrupted Flames
+8810@@@Sentinel's Moonwing Gaze
+8811@@@Fel Fountain
+9165@@@Demonic Storage Chest
+11278@@@Large Legion Candle
+11279@@@Small Legion Candle
+11942@@@Hanging Felsteel Cage
+14615@@@Simple Haranir Table
+16014@@@Aspirant's Ringed Banner
+16754@@@[DNT] [AUTOGEN] DR_DRAENEI_HOLORUNES01.M2
+17609@@@[DNT] [AUTOGEN] 12PH_Durotar_Lighting_HangingBrazier03.M2
+17610@@@[DNT] [AUTOGEN] 12PH_Durotar_Lighting_HangingBrazier04.M2
+17611@@@[DNT] [AUTOGEN] 12PH_Durotar_Lighting_HangingBrazier05.M2
+17740@@@[DNT] [AUTOGEN] 12PH_Opulent_Sofa_Large01_NoCloth.M2
 12.0.0.63534
 378@@@Sturdy Wooden Door
 669@@@NYI 12PH_Opulent_INE01_Partition_Pillar.wmo
