@@ -1516,6 +1516,53 @@
 15477@@@Dreadscar Battle Planning Map
 15595@@@Kun-Lai Lacquered Rickshaw
 15605@@@Golden Pandaren Privacy Screen
+11.2.7.64044
+1938@@@[DNT] Silvermoon Small Platform - WMO - DO NOT USE
+1943@@@[DNT] Silvermoon Large Platform - WMO - DO NOT USE
+1944@@@[DNT] Silvermoon Round Platform - WMO - DO NOT USE
+1948@@@[DNT] Silvermoon Beam Platform - WMO - DO NOT USE
+1950@@@[DNT] Silvermoon Angled Platform - WMO - DO NOT USE
+1952@@@[DNT] Bel'ameth Beam Platform - WMO - DO NOT USE
+1953@@@[DNT] Bel'ameth Round Platform - WMO - DO NOT USE
+1954@@@[DNT] Bel'ameth Large Platform - WMO - DO NOT USE
+1955@@@[DNT] Bel'ameth Small Platform - WMO - DO NOT USE
+1956@@@[DNT] Bel'ameth Angled Platform - WMO - DO NOT USE
+1957@@@[DNT] Orgrimmar Beam Platform - WMO - DO NOT USE
+1958@@@[DNT] Orgrimmar Round Platform - WMO - DO NOT USE
+1959@@@[DNT] Orgrimmar Large Platform - WMO - DO NOT USE
+1960@@@[DNT] Orgrimmar Small Platform - WMO - DO NOT USE
+1961@@@[DNT] Orgrimmar Angled Platform - WMO - DO NOT USE
+1962@@@[DNT] Stormwind Beam Platform - WMO - DO NOT USE
+1963@@@[DNT] Stormwind Round Platform - WMO - DO NOT USE
+1964@@@[DNT] Stormwind Large Platform - WMO - DO NOT USE
+1965@@@[DNT] Stormwind Small Platform - WMO - DO NOT USE
+1966@@@[DNT] Stormwind Angled Platform - WMO - DO NOT USE
+2328@@@Mechagnome Sustenance Distributor
+3883@@@[DNT] Hanging Paper Lanterns - do not use - duplicate
+10366@@@[DNT] Sandy Vulpera Banner - do not use - duplicate
+11316@@@[DNT] Tauren Soup Pot - do not use - new asset
+11438@@@Apothecary's Worktable
+12218@@@Reinforced Corner Ethereal Pipe Segment
+15740@@@[DNT] 12PH_Leg_Worgen_Bench_02.M2
+15741@@@[DNT] [AUTOGEN] 7TR_Tauren_Postbox01.m2
+15742@@@[DNT] 12PH_Leg_7NE_Nightelf_Chair03.M2
+16012@@@Dalaran Sewer Gate
+16013@@@Rolled Scarab Rug
+16014@@@Aspirant's Ringed Sash
+16015@@@Valdrakken Wall Shelf
+16082@@@Glazed Sin'dorei Vial
+16083@@@Shadow Council Torch
+16084@@@Resizable All-Purpose Gear
+16085@@@Home Defense Gadget
+16086@@@Stranglekelp Sack
+16087@@@Dalaran Sun Sconce
+16088@@@Joybuzz's Joyful Wall of Trains
+16089@@@Gilnean Spare Saddle
+16090@@@Heart of the Forest Banner
+16091@@@[DNT] 12PH_Leg_PA_innBench_01.M2
+16219@@@[DNT] [AUTOGEN] AK_ALCHEMYBOTTLE01.M2
+16220@@@Arakkoan Alchemist's Bottle
+16221@@@[DNT] 12PH_Leg_7NE_Druid_StoneRune01.M2
 12.0.0.63534
 378@@@Sturdy Wooden Door
 669@@@NYI 12PH_Opulent_INE01_Partition_Pillar.wmo
@@ -2142,7 +2189,6 @@
 15163@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue03.M2
 12.0.0.63967
 10273@@@Sin'dori Artisan's Easel
-11438@@@Apothecary's Worktable
 15255@@@[DNT] [AUTOGEN] 12TR_Amani_Storage_Basket06.m2
 15256@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_Weaponrack01.m2
 15257@@@[DNT] [AUTOGEN] 12PM_Primitive_Defense_WeaponrackEmpty01.m2
@@ -2249,7 +2295,6 @@
 15598@@@[DNT] [AUTOGEN] 12PH_Opulent_Bathtub01.M2
 15599@@@[DNT] [AUTOGEN] 12PH_Opulent_Bathtub01_Empty.M2
 15740@@@[DNT] [AUTOGEN] 12PH_Leg_Worgen_Bench_02.M2
-15741@@@[DNT] [AUTOGEN] 7TR_Tauren_Postbox01.m2
 15742@@@[DNT] [AUTOGEN] 12PH_Leg_7NE_Nightelf_Chair03.M2
 15743@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_WallTapestry01.m2
 15744@@@[DNT] [AUTOGEN] 12TR_Amani_Decor_WallTapestry02.m2

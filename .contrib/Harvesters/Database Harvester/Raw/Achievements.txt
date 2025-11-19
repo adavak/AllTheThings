@@ -16847,6 +16847,9 @@
 61688@@@Master in Battle
 61862@@@<DNT> Brewgarden Tutorial Completed
 61890@@@<Hidden> Housing Early Access [DNT]
+11.2.7.64044
+61308@@@Score a Decor
+61311@@@Ready to Remodel
 12.0.0.63534
 41287@@@Windrunner Spire
 41288@@@Heroic: Windrunner Spire
