@@ -50,6 +50,18 @@ TBC_CLASSIC_DELUXE_EDITION = createHeader({
 		tw = "燃燒的遠征：經典版 - 豪華版",
 	},
 });
+-- NOTE: Released on November 18, 2025.
+TBC_CLASSIC_ANNIVERSARY_EDITION = createHeader({
+	readable = "TBC Classic 20th Anniversary Edition",
+	icon = [[~_.asset("Expansion_TBC")]],
+	text = {
+		en = "TBC Classic 20th Anniversary Edition",
+		es = "Edición Aniversario 20 de TBC Classic",
+		mx = "Edición Aniversario 20 de TBC Classic",
+		cn = "'燃烧的远征'怀旧服20周年纪念版",
+		tw = "燃燒的遠征：經典版 - 20週年紀念版",
+	},
+});
 -- NOTE: Released on August 30, 2022.
 -- NOTE: No longer available on the store since 3 November, 2023.
 WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
