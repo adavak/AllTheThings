@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			n(REWARDS, {
 				["groups"] = {
 					i(210219, {	-- Gigantic Dreamy Bounty
-						["provider"] = {"i", 208047, 1},	-- Gigantic Dreamseed
+						["cost"] = {{"i", 208047, 1}},	-- Gigantic Dreamseed
 						["sym"] = {
 							{"select", "npcID", 211265 },	-- Sylvia Whisperbloom
 							{"pop"},
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 						},
 					}),
 					i(210218, {	-- Plump Dreamy Bounty
-						["provider"] = {"i", 208067, 1},	-- Plump Dreamseed
+						["cost"] = {{"i", 208067, 1}},	-- Plump Dreamseed
 						["sym"] = {
 							{"select", "npcID", 211265 },	-- Sylvia Whisperbloom
 							{"pop"},
@@ -197,7 +197,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 						},
 					}),
 					i(210217, {	-- Small Dreamy Bounty
-						["provider"] = {"i", 208066, 1},	-- Small Dreamseed
+						["cost"] = {{"i", 208066, 1}},	-- Small Dreamseed
 						-- Dont Think we should symlink this?
 					}),
 				},

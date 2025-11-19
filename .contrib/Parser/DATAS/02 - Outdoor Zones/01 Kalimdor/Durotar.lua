@@ -2527,7 +2527,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 4,
 					["groups"] = {
 						objective(1, {	-- 0/1 Fizzle's Claw
-							["provider"] = { "i", 4869, 1 },	-- Fizzle's Claw
+							["provider"] = { "i", 4869 },	-- Fizzle's Claw
 							["coord"] = { 42.6, 26.4, DUROTAR },
 							["cr"] = 3203,	-- Fizzle Darkstorm
 						}),
@@ -3101,7 +3101,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["lvl"] = 7,
 							["groups"] = {
 								objective(1, {	-- 0/4 Venomtail Poison Sac
-									["provider"] = { "i", 4886, 4 },	-- Venomtail Poison Sac
+									["cost"] = {{ "i", 4886, 4 }},	-- Venomtail Poison Sac
 									["crs"] = {
 										3226,	-- Corrupted Scorpid
 										5823,	-- Death Flayer
