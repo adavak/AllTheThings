@@ -747,6 +747,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							i(86848),	-- Serrated Wasp Bracers
 							i(86841),	-- Shining Cicada Bracers
 							i(86843),	-- Smooth Beetle Wristbands
+							-- Trinkets
+							i(86772),	-- Jade Bandit Figurine [confirmed Retail drop 2025-06-02 Runaway]
 							-- #endif
 						},
 					}),

@@ -2525,13 +2525,7 @@ root(ROOTS.Zones, {
 						["modelScale"] = 2,
 						["coord"] = { 39.2, 41.7, TALADOR },
 						["groups"] = {
-							i(112623, {	-- Pack of Fishing Supplies
-								i(45991),	-- Bone Fishing Pole
-								i(45992),	-- Jeweled Fishing Pole
-								i(34834),	-- Recipe: Captain Rumsey's Lager (RECIPE!)
-								i(44983),	-- Strand Crawler (PET!)
-								i(33820),	-- Weather-Beaten Fishing Hat
-							}),
+							i(112623),	-- Pack of Fishing Supplies
 						},
 					}),
 					o(230643, {	-- Teroclaw Nest

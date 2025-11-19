@@ -2566,6 +2566,10 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					header.g = { group }
 					return header
 				end
+				-- special case for Map auto-headers, ignore re-nesting a Map header of the current Map
+				if header.type == "m" and header.keyval == self.mapID then
+					return group
+				end
 				header = CreateWrapVisualHeader(header, {group})
 				header.SortType = "name"
 				return header

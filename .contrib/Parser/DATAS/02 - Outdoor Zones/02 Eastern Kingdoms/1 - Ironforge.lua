@@ -133,31 +133,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					i(34864, {	-- Baby Crocolisk
 						["timeline"] = { ADDED_2_4_0 },
 					}),
-					i(67414, {	-- Bag of Shiny Things
-						["description"] = "Fishing Daily Quest Reward",
-						["provider"] = { "n", 5161 },	-- Grimnur Stonebrand
-						["timeline"] = { ADDED_4_0_1 },
-						["groups"] = {
-							i(44983, {	-- Strand Crawler (PET!)
-								["timeline"] = { ADDED_3_1_0 },
-							}),
-							i(33820, {	-- Weather-Beaten Fishing Hat
-								["timeline"] = { ADDED_2_4_0 },
-							}),
-							i(45991, {	-- Bone Fishing Pole
-								["timeline"] = { ADDED_3_1_0 },
-							}),
-							i(45992, {	-- Jeweled Fishing Pole
-								["timeline"] = { ADDED_3_1_0 },
-							}),
-							i(67410, {	-- Very Unlucky Rock
-								["timeline"] = { ADDED_4_0_1 },
-							}),
-							i(67388, {	-- String of Alligator Teeth
-								["timeline"] = { ADDED_4_0_1 },
-							}),
-						},
-					}),
 					i(122204, {	-- Music Roll: Cold Mountain
 						["timeline"] = { ADDED_6_1_0 },
 						["races"] = ALLIANCE_ONLY,

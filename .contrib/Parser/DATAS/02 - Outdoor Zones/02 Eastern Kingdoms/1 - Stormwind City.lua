@@ -557,38 +557,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					i(34864, {	-- Baby Crocolisk
 						["timeline"] = { ADDED_2_4_0 },
 					}),
-					i(67414, {	-- Bag of Shiny Things
-						["description"] = "Fishing Daily Quest Reward",
-						["sourceQuests"] = {
-							26488,	-- Big Gulp
-							26420,	-- Diggin' For Worms
-							26414,	-- Hitting a Walleye
-							26442,	-- Rock Lobster
-							26536,	-- Thunder Falls
-						},
-						["provider"] = { "n", 5494 },	-- Catherine Leland
-						["timeline"] = { ADDED_4_0_1 },
-						["groups"] = {
-							i(44983, {	-- Strand Crawler (PET!)
-								["timeline"] = { ADDED_3_1_0 },
-							}),
-							i(33820, {	-- Weather-Beaten Fishing Hat
-								["timeline"] = { ADDED_2_4_0 },
-							}),
-							i(45991, {	-- Bone Fishing Pole
-								["timeline"] = { ADDED_3_1_0 },
-							}),
-							i(45992, {	-- Jeweled Fishing Pole
-								["timeline"] = { ADDED_3_1_0 },
-							}),
-							i(67410, {	-- Very Unlucky Rock
-								["timeline"] = { ADDED_4_0_1 },
-							}),
-							i(67388, {	-- String of Alligator Teeth
-								["timeline"] = { ADDED_4_0_1 },
-							}),
-						},
-					}),
 				}),
 				prof(HERBALISM, {
 					n(5566, {	-- Tannysa <Herbalism Trainer>

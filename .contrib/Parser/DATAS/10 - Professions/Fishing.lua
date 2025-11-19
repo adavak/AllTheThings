@@ -225,6 +225,21 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 			}},
 		}),
 		-- #endif
+		container(67414, {	-- Bag of Shiny Things
+			["description"] = "Fishing Daily Quest Reward",
+			["timeline"] = { ADDED_4_0_1 },
+			["providers"] = {
+				{"i",112623},	-- Pack of Fishing Supplies
+			},
+			["groups"] = {
+				i(44983),	-- Strand Crawler (PET!)
+				i(33820),	-- Weather-Beaten Fishing Hat
+				i(45991),	-- Bone Fishing Pole
+				i(45992),	-- Jeweled Fishing Pole
+				i(67410),	-- Very Unlucky Rock
+				i(67388),	-- String of Alligator Teeth
+			},
+		}),
 	})),
 	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 		n(ACHIEVEMENTS, {
