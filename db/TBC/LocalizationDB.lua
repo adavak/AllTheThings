@@ -1104,7 +1104,7 @@ localize(L.HEADER_NAMES, {
 	[-524] = "TBC Classic Deluxe Edition",
 	[-525] = "WotLK Classic Northrend Upgrade",
 	[-546] = "iCoke",
-	[-547] =  AUCTION_CATEGORY_MISCELLANEOUS,
+	[-547] = AUCTION_CATEGORY_MISCELLANEOUS,
 	[-548] = REFER_A_FRIEND,
 	[-550] = "Spirit of Competition",
 	[-551] = BATTLE_PET_SOURCE_9,
@@ -4463,7 +4463,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Phase 1 of TBC Classic.|r",
 		lore = "|cFFFFAAAAIncluded Karazhan, Magtheridon's Lair, and Gruul's Lair.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20501,
+		buildVersion = 20505,
 		state = 2,
 	},
 	[18] = {
@@ -4471,7 +4471,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Phase 2 of TBC Classic.|r",
 		lore = "|cFFFFAAAAIncluded Serpentshrine Cavern, Tempest Keep: The Eye, and Swift Druid Flight Forms.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20502,
+		buildVersion = 20506,
 		state = 2,
 	},
 	[1801] = {
@@ -4479,7 +4479,7 @@ local phases = {
 		description = "|cFFAAFFAAThis became available with the Ogri'la Faction during TBC Classic.|r",
 		lore = "|cFFFFAAAAIf the Ogri'la Faction is available on your server, simply turn this on.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20502,
+		buildVersion = 20506,
 		state = 2,
 	},
 	[1802] = {
@@ -4487,7 +4487,7 @@ local phases = {
 		description = "|cFFAAFFAAThis became available with the Skyguard Faction during TBC Classic.|r",
 		lore = "|cFFFFAAAAIf the Skyguard Faction is available on your server, simply turn this on.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20502,
+		buildVersion = 20506,
 		state = 2,
 	},
 	[19] = {
@@ -4495,7 +4495,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Phase 3 of TBC Classic.|r",
 		lore = "|cFFFFAAAAIncluded Hyjal Summit and the Black Temple in addition to the vast majority of end game daily / faction content.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20503,
+		buildVersion = 20507,
 		state = 2,
 	},
 	[1901] = {
@@ -4503,7 +4503,7 @@ local phases = {
 		description = "|cFFAAFFAAThis became available with the Netherwing Faction during TBC Classic.|r",
 		lore = "|cFFFFAAAAIf the Netherwing Faction is available on your server, simply turn this on.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20503,
+		buildVersion = 20507,
 		state = 2,
 	},
 	[1902] = {
@@ -4519,7 +4519,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Phase 4 of TBC Classic.|r",
 		lore = "|cFFFFAAAAIncluded Zul'Aman.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20504,
+		buildVersion = 20508,
 		state = 2,
 	},
 	[21] = {
@@ -4527,7 +4527,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Phase 5 of TBC Classic.|r",
 		lore = "|cFFFFAAAAIncluded Sunwell Plateau and the Isle of Quel'Danas daily content.|r",
 		minimumBuildVersion = 20501,
-		buildVersion = 20504,
+		buildVersion = 20508,
 		state = 2,
 	},
 	[2101] = {
