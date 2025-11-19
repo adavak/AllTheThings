@@ -2727,3 +2727,164 @@
 17880@@@[DNT] [AUTOGEN] 12PH_Elwynn_Lighting_HangingLantern03.m2
 17886@@@[DNT] [AUTOGEN] 11WE_WildElves_Ritual_Altar01.m2
 17889@@@[DNT] [AUTOGEN] 12PH_Leg_Zandalari_Mask_01.M2
+12.0.0.64499
+669@@@[DNT] 12PH_Opulent_INE01_Partition_Pillar.wmo - DO NOT USE - unfinished
+670@@@[DNT] 12PH_Opulent_INE01_Partition_W_L.wmo  - DO NOT USE - unfinished
+671@@@[DNT] 12PH_Opulent_INE01_Partition_W_S.wmo - DO NOT USE - unfinished
+672@@@[DNT] 12PH_Opulent_INE01_Partition_W_L_Arch.wmo - DO NOT USE - unfinished
+848@@@[DNT] 12PH_Opulent_IBE01_Partition_W_L.wmo - DO NOT USE - duplicate
+916@@@[DNT] 12PH_Opulent_IBE01_Partition_W_S.wmo - DO NOT USE - duplicate
+1137@@@Veilroot Fountain
+1204@@@Sunsmoke Censer
+1441@@@[DNT] Small String of Schmancy Goblin Lights - DO NOT USE - duplicate
+1642@@@[DNT] 12PH_NightElf_INE01_Partition_Pillar.wmo - DO NOT USE - duplicate
+1643@@@[DNT] 12PH_NightElf_INE01_Partition_W_S.wmo - DO NOT USE - duplicate
+1644@@@[DNT] 12PH_NightElf_INE01_Partition_W_L.wmo - DO NOT USE - duplicate
+1645@@@[DNT] 12PH_NightElf_INE01_Partition_W_L_Arch.wmo - DO NOT USE - duplicate
+1646@@@[DNT] Silvermoon Round Interior Pillar - DO NOT USE - duplicate
+1647@@@[DNT] Silvermoon Interior Wall - DO NOT USE - duplicate
+1648@@@[DNT] Silvermoon Interior Narrow Wall - DO NOT USE - duplicate
+1896@@@Silvermoon Sanctum Focus
+1904@@@[DNT] 12BE_BloodElf_Lighting_LanternFloating01_Off.m2 - DO NOT USE - no off lights
+1927@@@[DNT] 12BE_BloodElf_Lighting_LanternHanging01_Off.m2 - DO NOT USE - no off lights
+1928@@@[DNT] 12BE_BloodElf_Lighting_LanternHanging02_Off.m2 - DO NOT USE - no off lights
+1929@@@[DNT] 12BE_BloodElf_Lighting_LanternHanging03_Off.m2 - DO NOT USE - no off lights
+2019@@@[DNT] Pyrewood Glass Bottle - DO NOT USE - duplicate
+2473@@@[DNT] 12BE_BloodElf_Food_CheeseBoard01.m2 - DO NOT USE - duplicate
+2498@@@[DNT] 12BE_BloodElf_Lighting_LanternHanging01_Off_blue.m2 - DO NOT USE - no off lights
+2499@@@[DNT] 12BE_BloodElf_Lighting_LanternHanging02_Off_blue.m2 - DO NOT USE - no off lights
+2500@@@[DNT] 12BE_BloodElf_Lighting_LanternHanging03_Off_blue.m2 - DO NOT USE - no off lights
+5564@@@Reverent Sin'dorei Statue
+7782@@@Crimson Lightwood Privacy Screen
+7829@@@Spring Blossom Ceiling Light
+7830@@@Spring Blossom Shelf
+8878@@@[DNT] Elegant Silvermoon Dessert Tray - DO NOT USE - duplicate
+8918@@@Gilded Silvermoon Candelabra
+9444@@@Spring Blossom Wreath
+10353@@@[DNT] Gnomeregan Recyli-Kiln - DO NOT USE - duplicate
+10356@@@Spring Blossom Hanging Chair
+11284@@@Silvermoon Training Dummy
+11327@@@Carved Idol of Nalorakk, Loa of War
+11333@@@Carved Idol of Jan'alai, Loa of Fire
+11936@@@Carved Idol of Halazzi, Loa of the Hunt
+12172@@@Spring Blossom Window
+12173@@@Spring Blossom Gazebo
+14204@@@Visage of Akil'zon, Loa of Victory
+14350@@@Visage of Nalorakk, Loa of War
+14351@@@Visage of Halazzi, Loa of the Hunt
+14352@@@Visage of Jan'alai, Loa of Fire
+14817@@@Twisted Rope Coil
+14824@@@Haranir Reclined Bed
+14826@@@[DNT] 11WE_WildElves_Lighting_Campfire01_off.m2 - DO NOT USE - no off lights
+15061@@@Magister's Bookshelf
+15069@@@Illicit Long Table
+15070@@@Cuddly Tan Grrgle
+15140@@@Spring Blossom Pond
+15141@@@Spring Blossom Tree
+15402@@@Midnight Alchemist's Shop Sign
+15403@@@Midnight Blacksmith's Shop Sign
+15404@@@Midnight Cook's Shop Sign
+15405@@@Midnight Enchanter's Shop Sign
+15406@@@Midnight Engineer's Shop Sign
+15407@@@Midnight Fisher's Shop Sign
+15408@@@Midnight Herbalist's Shop Sign
+15409@@@Midnight Scribe's Shop Sign
+15410@@@Midnight Jewelcrafter's Shop Sign
+15411@@@Midnight Leatherworker's Shop Sign
+15457@@@Midnight Miner's Shop Sign
+15458@@@Midnight Skinner's Shop Sign
+15459@@@Midnight Tailor's Shop Sign
+15481@@@Eerie Iridescent Riftshroom
+15570@@@Amani Ritual Altar
+15574@@@Voidlight Brazier
+15576@@@Domanaar Control Console
+15596@@@Carved Idol of Akil'zon, Loa of Victory
+15598@@@Elegant Elven Bathtub
+15599@@@Empty Elegant Elven Bathtub
+15756@@@Chaotic Void Maw
+16094@@@Amani Warding Hex
+16219@@@Arakkoan Alchemist's Concoction
+16754@@@Draenei Holo-Junction
+16811@@@Cuddly Tomato Grrgle
+16812@@@Cuddly Lemon Grrgle
+16813@@@Cuddly Cotton Candy Grrgle
+16814@@@Cuddly Mint Grrgle
+16815@@@Cuddly Magenta Grrgle
+16816@@@Cuddly Sunset Grrgle
+16817@@@Cuddly Mauve Grrgle
+16818@@@Cuddly Pearl Grrgle
+16819@@@Cuddly Charcoal Grrgle
+16820@@@Cuddly Onyx Grrgle
+16821@@@Cuddly Bright Grrgle
+16822@@@Cuddly Juniper Grrgle
+16964@@@Cuddly Basil Grrgle
+16965@@@Cuddly Void Grrgle
+16966@@@Cuddly Fel Grrgle
+16967@@@Cuddly Spectral Grrgle
+16968@@@Cuddly Emerald Grrgle
+16969@@@Cuddly Metallic Grrgle
+16970@@@Cuddly Verdant Grrgle
+16971@@@Cuddly Cobalt Grrgle
+16972@@@Cuddly Teal Grrgle
+16973@@@Cuddly Ochre Grrgle
+17358@@@Elegant Storage Table
+17359@@@Elegant Elven Washbasin
+17439@@@Preyseeker's Magister Effigy
+17440@@@Preyseeker's Tinker Effigy
+17441@@@Preyseeker's Ethereal Effigy
+17442@@@Preyseeker's Breaker Effigy
+17443@@@Preyseeker's Amani Effigy
+17444@@@Preyseeker's Rutaani Effigy
+17446@@@Preyseeker's Vindicator Effigy
+17447@@@Preyseeker's Consul Effigy
+17449@@@Preyseeker's Executor Effigy
+17450@@@Preyseeker's Knight-Errant Effigy
+17452@@@Preyseeker's Wretched Effigy
+17453@@@Preyseeker's Thornspeaker Effigy
+17454@@@Preyseeker's Twilight Effigy
+17515@@@Haranir Canopy Bed
+17520@@@Preyseeker's Ren'dorei Effigy
+17521@@@Preyseeker's Farstrider Effigy
+17609@@@High-Mounted Razorwind Bowl Chandelier
+17610@@@Razorwind Bowl Chandelier
+17611@@@Low-Hanging Razorwind Bowl Chandelier
+17628@@@March on Quel'Danas Vanquisher's Trophy
+17629@@@Dreamrift Vanquisher's Trophy
+17630@@@Voidspire Vanquisher's Trophy
+17740@@@Elegant Cushioned Chaise
+17787@@@Gilded Silvermoon Gazebo
+17863@@@Saltfang Shoals Large Garden Cluster
+17864@@@Razorwind Cactus Large Garden Cluster
+17865@@@Razorwind Blooms Large Garden Cluster
+17866@@@Runetotem's Bounty Large Garden Cluster
+17867@@@Cragthorn Highlands Large Garden Cluster
+17868@@@Outer Banks Large Garden Cluster
+17869@@@Founder's Point Large Garden Cluster
+17870@@@Brumewood Hollow Large Garden Cluster
+17871@@@Gilded Oaks Large Garden Cluster
+17872@@@Stoneveil Ridge Large Garden Cluster
+17873@@@Granite Cobblestone Path Corner
+17874@@@Granite Cobblestone Path Arc
+17918@@@Granite Cobblestone Path
+17919@@@Granite Cobblestone Long Path
+18396@@@[DNT] [AUTOGEN] 12PH_Special_Trophy_DarkNaaru02.M2
+18397@@@[DNT] [AUTOGEN] 12PH_Special_Trophy_MalformedLoa02.M2
+18398@@@[DNT] [AUTOGEN] 12PH_Special_Trophy_VoidAlleria02.M2
+18482@@@[DNT] [AUTOGEN] DR_DRAENEI_HOLORUNES02.M2
+18483@@@Eye of Acherus
+18484@@@Crucible Votive
+18485@@@Amani Training Dummy
+18614@@@[DNT] [AUTOGEN] 12PH_Opulent_Stovetop01.M2
+18615@@@[DNT] [AUTOGEN] 12TR_Amani_Lighting_Hex_HangingFire01.m2
+18616@@@[DNT] [AUTOGEN] 12BE_BloodElf_Ritual_Tome02_Open.m2
+18617@@@[DNT] [AUTOGEN] 12VD_Void_Furniture_Table02.m2
+18618@@@[DNT] [AUTOGEN] 12PH_Rugged_Brazier02.M2
+18619@@@[DNT] [AUTOGEN] 12PH_Elwynn_Decor_HayBail01.M2
+18620@@@[DNT] [AUTOGEN] 12PH_Rugged_TableLight02.M2
+18792@@@[DNT] [AUTOGEN] 12PH_Leg_7NB_Nightborn_Fountain03.M2
+18793@@@[DNT] [AUTOGEN] 12PH_Opulent_WaterWell01.M2
+18798@@@[DNT] [AUTOGEN] 12TR_Amani_Defense_TerritoryMarker01.m2
+18799@@@[DNT] [AUTOGEN] 12FN_Fungarian_Crafting_Anvil01.m2
+18800@@@[DNT] [AUTOGEN] 12VE_VoidElf_Furniture_BedRoll02.m2
+18801@@@[DNT] [AUTOGEN] 12AL_ArmyofLight_Defense_WeaponRack01.m2
+18802@@@[DNT] [AUTOGEN] 12AL_ArmyofLight_Defense_WeaponRack02.m2

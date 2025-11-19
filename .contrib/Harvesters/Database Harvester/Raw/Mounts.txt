@@ -2440,3 +2440,8 @@
 1261584@@@Prowling Shredclaw
 1261585@@@Frenzied Shredclaw
 1265784@@@Lucent Hawkstrider
+12.0.0.64499
+1261338@@@Preyseeker's Nightmare
+1261348@@@Blessed Amani Burrower
+1261360@@@Ancestral War Bear
+1261576@@@Hexed Vilefeather Eagle

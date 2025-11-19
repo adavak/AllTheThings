@@ -24086,3 +24086,36 @@
 258948@@@High Exarch Turalyon
 258949@@@Generic Bunny - PRK
 258952@@@High Exarch Turalyon
+12.0.0.64499
+235392@@@Decimus
+235394@@@Lothraxion
+235405@@@Magister Umbric
+235481@@@Lor'themar Theron
+235483@@@Grand Magister Rommath
+235608@@@Arator
+235609@@@Alleria Windrunner
+235664@@@Alleria Windrunner
+235724@@@Arator
+235726@@@Alleria Windrunner
+239810@@@High Exarch Turalyon
+239826@@@Alleria Windrunner
+240545@@@Restive Wraith
+240673@@@Lothraxion
+241045@@@Ku'paal
+250400@@@Tehd Shoemaker
+250401@@@Marius Felbane
+250402@@@Gidwin Goldbraids
+250403@@@Tarenar Sunstrike
+253399@@@Scruffbeak
+257857@@@Flicker
+258994@@@Shadowpine Soldier, Scout
+258995@@@Shadowpine Soldier, Fighter
+258996@@@Shadowpine Soldier, Caster
+259022@@@12.0 Z1 - Local 16 - Paladin Rescue - Sanctum of the Moon - Twilight's Blade - Mortals - T1 Caster (KRB)
+259037@@@Arator
+259041@@@High Exarch Turalyon
+259044@@@Targeting Bunny
+259068@@@Mor'duun
+259103@@@Zul'jarra
+259153@@@Soridormi
+259222@@@Zul'jarra

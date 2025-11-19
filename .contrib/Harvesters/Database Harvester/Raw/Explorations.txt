@@ -10719,3 +10719,7 @@
 12.0.0.64339
 16850@@@Retribution Hold
 16851@@@Mettle's Hold
+12.0.0.64499
+16826@@@Behemoth's Rise
+16855@@@Voidscar Arena
+16860@@@The Great Sea
