@@ -2775,6 +2775,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					group = mapGroups[i]
 					-- app.PrintDebug("Mapping:",app:SearchLink(group))
 					nested = nil;
+					difficultyGroup = nil
 
 					-- Get the header chain for the group
 					nextParent = group.parent;

@@ -195,6 +195,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			n(235104, {	-- The Wallbreaker
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
 				["coord"] = { 27.5, 72.3, KARESH_TAZAVESH },
+				["crs"] = { 235102 },	-- Devourer Attack 4 (Vignette)
 				["questID"] = 91312,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
