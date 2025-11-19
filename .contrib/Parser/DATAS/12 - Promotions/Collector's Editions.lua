@@ -51,15 +51,13 @@ TBC_CLASSIC_DELUXE_EDITION = createHeader({
 	},
 });
 -- NOTE: Released on November 18, 2025.
-TBC_CLASSIC_ANNIVERSARY_EDITION = createHeader({
-	readable = "TBC Classic 20th Anniversary Edition",
+TBC_CLASSIC_ANNIVERSARY_OUTLAND_UPGRADE = createHeader({
+	readable = "TBC Classic Anniversary Edition - Outland Upgrade",
 	icon = [[~_.asset("Expansion_TBC")]],
 	text = {
-		en = "TBC Classic 20th Anniversary Edition",
-		es = "Edición Aniversario 20 de TBC Classic",
-		mx = "Edición Aniversario 20 de TBC Classic",
-		cn = "'燃烧的远征'怀旧服20周年纪念版",
-		tw = "燃燒的遠征：經典版 - 20週年紀念版",
+		en = "TBC Classic 20th Anniversary Edition - Outland Upgrade",
+		cn = "'燃烧的远征'周年纪念版 - 外域升级",
+		tw = "燃燒的遠征：經典週年紀念版 - 外域升級",
 	},
 });
 -- NOTE: Released on August 30, 2022.
