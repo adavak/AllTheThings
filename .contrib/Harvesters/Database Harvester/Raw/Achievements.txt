@@ -17440,3 +17440,34 @@
 61913@@@A Singular Problem
 61916@@@Void Elf Demon Hunter
 61917@@@"Hold aggro, I got this"
+12.0.0.64124
+41802@@@Eversong In Reprise
+42283@@@Abundance: Azeroth Runs on Dundun
+61587@@@Keystone Victor: Magisters' Terrace (Midnight)
+61588@@@Keystone Victor: Maisara Caverns
+61589@@@Keystone Victor: Nexus-Point Xenas
+61590@@@Keystone Victor: Windrunner Spire
+61591@@@Keystone Victor: Algeth'ar Academy
+61592@@@Keystone Victor: Pit of Saron
+61593@@@Keystone Victor: Seat of the Triumvirate
+61594@@@Keystone Victor: Skyreach
+61681@@@Abundance: You Should See Him in a Crown
+61910@@@Mrglgrgl of Grglmrgl
+61922@@@Ninety Percent is Good Enough
+61936@@@Aura Farming
+61937@@@Abundance: Artisan of Mausoloa
+61938@@@Abundance: Artisan of Loaknit
+61939@@@Abundance: Artisan of Floaret
+61940@@@Abundance: Artisan of Loanite
+61941@@@Abundance: Acolyte of a Glorious Entity
+61942@@@Heritage of the Haranir
+61943@@@Abundance: Prosperous Plentitude!
+61953@@@Putting in the Practice
+61954@@@Putting in the Practice
+61955@@@Putting in the Practice
+61956@@@Putting in the Practice
+61957@@@Sojourner of Eversong Woods (Midnight)
+61958@@@Focused Target
+61959@@@Focused Target
+61960@@@Treasures of Eversong Woods (Midnight)
+61961@@@Runestone Rush

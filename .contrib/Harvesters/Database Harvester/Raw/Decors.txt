@@ -2354,3 +2354,77 @@
 15894@@@[DNT] [AUTOGEN] 12VE_VoidElf_Storage_Satchel02.m2
 15895@@@[DNT] [AUTOGEN] 12VE_VoidElf_Structure_Tent01.m2
 15896@@@[DNT] [AUTOGEN] 12VE_VoidElf_Structure_Tent02.m2
+12.0.0.64124
+14432@@@Alliance Doormat
+14433@@@Horde Doormat
+14467@@@The Dark Portal
+14677@@@Complete Guide to K'areshi Wrappings, Vol. 11
+14678@@@K'areshi Holo-Crystal Projector
+14679@@@K'areshi Incense Burner
+14680@@@Oath Scale
+14793@@@Consortium Glowpost
+14800@@@Tazaveshi Hookah 
+14829@@@Consortium Energy Barrel
+14830@@@Empty Consortium Energy Barrel
+14831@@@Consortium Energy Collector
+14832@@@Consortium Energy Crate
+14833@@@Empty Consortium Energy Crate
+14834@@@Consortium Energy Banner
+15070@@@Cuddly  Tan Grrgle
+15072@@@Cuddly Seafoam Grrgle
+15073@@@Cuddly Saffron Grrgle
+15074@@@Cuddly Sage Grrgle
+15142@@@Cuddly Lavender Grrgle
+15143@@@Cuddly Pink Grrgle
+15144@@@Cuddly Gold-Colored Grrgle
+15145@@@Cuddly Lime Grrgle
+15146@@@Cuddly Orange Grrgle
+15147@@@Cuddly Cerulean Grrgle
+15148@@@Cuddly Alliance Blue Grrgle
+15149@@@Cuddly Horde Red Grrgle
+15150@@@Cuddly Purple Grrgle
+15151@@@Cuddly Green Grrgle
+15152@@@Cuddly Red Grrgle
+15153@@@Cuddly Blue Grrgle
+15339@@@DO NOT USE - new asset coming - Well-Lit Incontinental Couch
+15399@@@Fungal Chest
+15400@@@Delver's Bountiful Coffer
+15401@@@Twilight Tabernacle
+15412@@@Dominator's Spoils
+15413@@@Root-Wrapped Reliquary
+15455@@@Ancient Kaldorei Coffer
+15460@@@Amani Strongbox
+15741@@@Thunder Totem Mailbox
+16027@@@Cuddly Seagreen Grrgle
+16028@@@Cuddly Brown Grrgle
+16029@@@Cuddly Flaxen Grrgle
+16030@@@Cuddly Sanguine Grrgle
+16031@@@Cuddly Gumball Grrgle
+16032@@@Cuddly Violet Grrgle
+16033@@@Cuddly Olive Grrgle
+16034@@@Cuddly Plum Grrgle
+16035@@@Cuddly Tangerine Grrgle
+16036@@@Cuddly Sapphire Grrgle
+16037@@@Cuddly Clover Grrgle
+16038@@@Cuddly Peach Grrgle
+16092@@@[DNT] [AUTOGEN] 12TR_Amani_Lighting_HangingFire02.m2
+16093@@@[DNT] [AUTOGEN] 12TR_Amani_Lighting_Hex_Brazier01.m2
+16094@@@[DNT] [AUTOGEN] 12TR_Amani_Defense_Hex_TerritoryMarker01.m2
+16095@@@[DNT] [AUTOGEN] 12TR_Amani_Navigation_Canoe01.m2
+16096@@@[DNT] [AUTOGEN] 12TR_Amani_Navigation_Oar01.m2
+16097@@@[DNT] [AUTOGEN] 12VE_VoidElf_Furniture_BedRoll01.m2
+16227@@@[DNT] [AUTOGEN] 10MP_MolePeople_Table01.m2
+16228@@@[DNT] [AUTOGEN] 10MP_MolePeople_Merchant_Stall02.m2
+16229@@@[DNT] [AUTOGEN] 10MP_MolePeople_Food_Bowl04.m2
+16230@@@[DNT] [AUTOGEN] 10MP_MolePeople_Lighting_Candle02.m2
+16231@@@[DNT] [AUTOGEN] 10MP_MolePeople_Doorway02.m2
+16232@@@[DNT] [AUTOGEN] 10MP_MolePeople_Storage_Barrel_Large02.m2
+16233@@@[DNT] [AUTOGEN] 10MP_Molepeople_Storage_Wagon_01.m2
+16234@@@[DNT] [AUTOGEN] 10MP_MolePeople_Decor_Incense01.m2
+16235@@@[DNT] [AUTOGEN] 10MP_MolePeople_Table_NoTableRunner01.m2
+16236@@@[DNT] [AUTOGEN] 10MP_MolePeople_Wheelbarrow01_NoRug.m2
+16237@@@[DNT] [AUTOGEN] 10MP_MolePeople_Blacksmithing_Bucket01.m2
+16314@@@[DNT] [AUTOGEN] 7ET_ETHEREAL_PORTAL01.m2
+16315@@@[DNT] [AUTOGEN] 10MP_MolePeople_Food_Bowl08.m2
+16316@@@[DNT] [AUTOGEN] 12TR_Amani_Navigation_SignPost01.m2
+16317@@@[DNT] [AUTOGEN] 12DU_MaisaraHills_Ritual_EncounterAltar01.M2
