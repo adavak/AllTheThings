@@ -90,30 +90,33 @@ local ConversionMethods = setmetatable({
 		end
 	end,
 	itemName = function(itemID, reference)
-		local name = select(2, GetItemInfo(itemID));
-		if IsRetrieving(name) then
+		local item = app.SearchForObject("itemID", itemID, "field") or app.CreateItem(itemID)
+		local link = item and item.link
+		if IsRetrieving(link) then
 			reference.working = true
-			name = "Item: " .. RETRIEVING_DATA;
+			link = "Item: " .. RETRIEVING_DATA
 		end
 		if app.Settings:GetTooltipSetting("itemID") then
-			return name .. " (" .. itemID .. ")";
+			return link .. " (" .. itemID .. ")"
 		else
-			return name;
+			return link
 		end
 	end,
 	itemNameAndIcon = function(itemID, reference)
-		local _,name,_,_,_,_,_,_,_,icon = GetItemInfo(itemID);
-		if IsRetrieving(name) then
+		local item = app.SearchForObject("itemID", itemID, "field") or app.CreateItem(itemID)
+		local link = item and item.link
+		if IsRetrieving(link) then
 			reference.working = true
-			name = "Item: " .. RETRIEVING_DATA;
+			link = "Item: " .. RETRIEVING_DATA
 		end
+		local icon = item and item.icon
 		if icon then
-			name = "|T" .. icon .. ":0|t" .. name;
+			link = "|T" .. icon .. ":0|t" .. link
 		end
 		if app.Settings:GetTooltipSetting("itemID") then
-			return name .. " (" .. itemID .. ")";
+			return link .. " (" .. itemID .. ")"
 		else
-			return name;
+			return link
 		end
 	end,
 	objectName = function(objectID, reference)
