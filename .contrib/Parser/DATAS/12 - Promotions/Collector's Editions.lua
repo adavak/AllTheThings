@@ -55,7 +55,7 @@ TBC_CLASSIC_ANNIVERSARY_OUTLAND_UPGRADE = createHeader({
 	readable = "TBC Classic Anniversary Edition - Outland Upgrade",
 	icon = [[~_.asset("Expansion_TBC")]],
 	text = {
-		en = "TBC Classic 20th Anniversary Edition - Outland Upgrade",
+		en = "TBC Classic Anniversary Edition - Outland Upgrade",
 		cn = "'燃烧的远征'周年纪念版 - 外域升级",
 		tw = "燃燒的遠征：經典週年紀念版 - 外域升級",
 	},
