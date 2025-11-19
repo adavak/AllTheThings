@@ -23021,6 +23021,8 @@
 254359@@@Lil' Ashlee
 11.2.5.63906
 253016@@@Exodar Miniature
+11.2.5.64154
+256938@@@Khadgar's Upgraded Servant
 11.2.7.63642
 114955@@@Dole Dastardly
 149917@@@Captain Garrick
@@ -23254,7 +23256,6 @@
 256722@@@Glooming Disciple
 256724@@@Glooming Belligerent
 256725@@@Xal'atath
-256938@@@Khadgar's Upgraded Servant
 257173@@@Hammerfall Grunt
 257174@@@Dragonscale Researcher
 257178@@@Vulpera Mixologist
