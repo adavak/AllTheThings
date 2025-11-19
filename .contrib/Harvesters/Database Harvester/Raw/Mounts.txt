@@ -353,6 +353,9 @@
 1250045@@@Obsidian Worldbreaker Utility (Final Name TBD)
 3.4.5.63309
 1249659@@@Sha-scarred Drake
+3.80.0.64393
+1250045@@@Ashened Cataclysm
+1272988@@@Inarius' Charger
 4.4.0.53627
 10790@@@Tiger
 13819@@@Summon Warhorse

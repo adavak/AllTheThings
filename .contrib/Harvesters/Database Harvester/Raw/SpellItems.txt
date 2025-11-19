@@ -4912,6 +4912,83 @@
 2888@@@+12 Block Value
 2975@@@+10 Block Value
 3363@@@+27 Block Value
+3.80.0.64393
+2759@@@+8 Block Rating
+2788@@@+9 Block Rating
+2789@@@+15 Block Rating
+2801@@@+8 Block Rating
+2856@@@+4 Block Rating
+2859@@@+5 Stamina
+2862@@@+5 Stamina
+2867@@@+3 Stamina
+2878@@@+6 Stamina
+2891@@@+10 Block Rating
+2933@@@+15 Block Rating
+3000@@@+18 Stamina, +12 Dodge Rating, and +12 Block Rating
+3004@@@+18 Stamina and +20 Defense Rating
+3069@@@+6 Spell Power and +4 Block Rating
+3079@@@+8 Attack Power and +5 Block Rating
+3080@@@+6 Stamina and +5 Block Rating
+3084@@@+5 Dodge Rating and +4 Block Rating
+3087@@@+5 Strength and +4 Block Rating
+3090@@@+5 Parry Rating and +4 Block Rating
+3131@@@+10 Block Rating
+3215@@@+12 Block Rating
+3226@@@+4 Block Rating and +6 Stamina
+3229@@@+36 Shield Block Value
+3245@@@+20 Block Rating
+3284@@@+5 Block Rating and +7 Stamina
+3385@@@+12 Block Rating
+3408@@@+6 Strength and +6 Block Rating
+3412@@@+6 Agility and +6 Block Rating
+3416@@@+7 Spell Power and +6 Block Rating
+3424@@@+12 Attack Power and +6 Block Rating
+3431@@@+6 Block Rating and +9 Stamina
+3436@@@+6 Block Rating and +6 Spirit
+3441@@@+6 Block Rating and +3 Mana every 5 seconds
+3462@@@+16 Block Rating
+3480@@@+8 Strength and +8 Block Rating
+3484@@@+8 Agility and +8 Block Rating
+3489@@@+9 Spell Power and +8 Block Rating
+3493@@@+16 Attack Power and +8 Block Rating
+3503@@@+8 Block Rating and +12 Stamina
+3508@@@+8 Block Rating and +8 Spirit
+3513@@@+8 Block Rating and +4 Mana every 5 seconds
+3530@@@+20 Block Rating
+3552@@@+10 Strength and +10 Block Rating
+3556@@@+10 Agility and +10 Block Rating
+3561@@@+12 Spell Power and +10 Block Rating
+3566@@@+20 Attack Power and +10 Block Rating
+3576@@@+10 Block Rating and +15 Stamina
+3581@@@+10 Block Rating and +10 Spirit
+3586@@@+10 Block Rating and +5 Mana every 5 seconds
+3600@@@+9 Stamina
+3662@@@+14 Block Rating
+3680@@@+14 Attack Power and +7 Block Rating
+3684@@@+7 Strength and +7 Block Rating
+3688@@@+7 Agility and +7 Block Rating
+3692@@@+8 Spell Power and +7 Block Rating
+3707@@@+7 Block Rating and +7 Spirit
+3708@@@+7 Block Rating and +11 Stamina
+3713@@@+7 Block Rating and +4 Mana every 5 seconds
+3744@@@+34 Block Rating
+3792@@@+30 Stamina
+3793@@@+40 Attack Power and +23 Stamina
+3794@@@+23 Spell Power and +23 Stamina
+3795@@@+50 Attack Power and +30 Stamina
+3796@@@+29 Spell Power and +30 Stamina
+3797@@@+29 Spell Power and +30 Stamina
+3821@@@+8 Block Rating
+3842@@@+30 Stamina and +25 Block Rating
+3852@@@+30 Stamina and +15 Block Rating
+3853@@@+40 Block Rating and +28 Stamina
+8634@@@+12 Block Value
+8636@@@+$1266779s2 Ranged Hit Rating
+8639@@@+18 Block Value
+8640@@@+24 Critical Strike Rating
+8643@@@+10 Dodge Rating
+8645@@@+6 to All Stats
+8647@@@+12 Spell Power
 4.0.1.12911
 2@@@Frostbrand
 5@@@Flametongue
