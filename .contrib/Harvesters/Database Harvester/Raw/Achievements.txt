@@ -5207,6 +5207,16 @@
 61460@@@Malevolent Conquest
 5.5.2.63832
 61680@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden)
+5.5.2.64133
+61944@@@Temple of the Jade Serpent: Platinum (TRACKER)
+61945@@@Mogu'shan Palace: Platinum (TRACKER)
+61946@@@Shado-Pan Monastery: Platinum (TRACKER)
+61947@@@Gate of the Setting Sun: Platinum (TRACKER)
+61948@@@Scarlet Halls: Platinum (TRACKER)
+61949@@@Scarlet Monastery: Platinum (TRACKER)
+61950@@@Scholomance: Platinum (TRACKER)
+61951@@@Siege of Niuzao Temple: Platinum (TRACKER)
+61952@@@Stormstout Brewery: Platinum (TRACKER)
 6.0.1.18179
 8394@@@The Frostwind Slayer
 8463@@@Mythic: Immerseus
