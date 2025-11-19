@@ -3712,3 +3712,29 @@
 92843@@@--
 93516@@@--
 94008@@@--
+9085@@@Shadows of Doom
+9153@@@Under the Shadow
+9154@@@Light's Hope Chapel
+9247@@@The Keeper's Call
+9260@@@Investigate the Scourge of Stormwind
+9261@@@Investigate the Scourge of Ironforge
+9262@@@Investigate the Scourge of Darnassus
+9263@@@Investigate the Scourge of Orgrimmar
+9264@@@Investigate the Scourge of Thunder Bluff
+9265@@@Investigate the Scourge of the Undercity
+9292@@@Cracked Necrotic Crystal
+9295@@@Letter from the Front
+9299@@@Note from the Front
+9300@@@Page from the Front
+9301@@@Envelope from the Front
+9302@@@Missive from the Front
+9304@@@Document from the Front
+9310@@@Faint Necrotic Crystal
+60860@@@--
+60863@@@--
+60864@@@--
+60865@@@--
+60866@@@--
+60868@@@--
+60870@@@--
+61547@@@--
