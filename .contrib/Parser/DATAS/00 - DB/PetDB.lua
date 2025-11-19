@@ -1050,13 +1050,13 @@ end
 -----------------
 i(200060, 4235);	-- Hoplet (Classic)
 
--- TBC Classic --
-i(204982, 4236);	-- Glub
-i(187794, 4233);	-- Flurky
-
 -- #if SEASON_OF_DISCOVERY
 i(220620, 446105);	-- Skeletal Wind Serpent (SOD) [Sunken Temple]
 -- #endif
+
+-- TBC Classic --
+i(204982, 4236);	-- Glub
+i(187794, 4233);	-- Flurky
 
 -- TBC Classic 2026 --
 i(260433, 4962);	-- Starshard Whelpling Collar

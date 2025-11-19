@@ -911,7 +911,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 	})),
-	n(MIDNIGHT_TEMPORARY, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } },{
+	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } },{
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
 			["groups"] = {
