@@ -433,12 +433,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43462, {	-- Mother Ozram
 						["sourceQuests"] = { 42887 },	-- This Is Retribution
-						["provider"] = { "n", 109384 },	-- Justicar Julia Celeste
+						["qgs"] = {
+							109384,	-- Justicar Julia Celeste
+							109434,	-- Silver Hand Knight
+						},
 						["coord"] = { 30.6, 44.9, AZSUNA },
 					}),
 					q(42888, {	-- Communication Orbs
 						["sourceQuests"] = { 42887 },	-- This Is Retribution
-						["provider"] = { "n", 109384 },	-- Justicar Julia Celeste
+						["qgs"] = {
+							109384,	-- Justicar Julia Celeste
+							109434,	-- Silver Hand Knight
+						},
 						["coord"] = { 30.6, 44.9, AZSUNA },
 					}),
 					q(42890, {	-- The Codex of Command
@@ -446,7 +452,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							43462,	-- Mother Ozram
 							42888,	-- Communication Orbs
 						},
-						["provider"] = { "n", 109434 },	-- Justicar Julia Celeste
+						["qgs"] = {
+							109384,	-- Justicar Julia Celeste
+							109434,	-- Silver Hand Knight
+						},
 						["maps"] = { AZSUNA },
 						["groups"] = {},	-- First order campaign
 					}),
@@ -531,7 +540,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43491, {	-- Allies of the Light
 						["sourceQuests"] = { 43490 },	-- Aponi's Trail
-						["provider"] = { "n", 110969 },	-- Aponi Brightmane
+						["qgs"] = {
+							110749,	-- Aponi Brightmane
+							110969,	-- Aponi Brightmane
+						},
 						["coord"] = { 48.9, 63.7, 748 },
 					}),
 					q(43541, {	-- United As One

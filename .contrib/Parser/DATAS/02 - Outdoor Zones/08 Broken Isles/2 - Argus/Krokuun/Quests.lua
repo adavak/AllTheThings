@@ -54,7 +54,9 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 121519 },	-- Captain Fareeya
 						["coord"] = { 40.5, 63.5, KROKUUN },
 						["groups"] = {
-							i(150942),	-- Argunite Crystal (QI!)
+							o(267729, {	-- Argunite Crystal
+								i(150942),	-- Argunite Crystal (QI!)
+							}),
 						},
 					}),
 					q(47991, {	-- Dark Machinations
