@@ -2181,7 +2181,6 @@ root(ROOTS.Unsorted, {
 			i(253245),	-- Cracked Keystone
 			i(253302),	-- Malleable Wireframe
 			i(253303),	-- Pile of Junk
-			i(253316),	-- Scoped Max Falcon Stealth Dragon 90
 			i(253342),	-- Beacon of Hope \\ [DNT] Shrieking Quartz
 			i(253387),	-- Cracked Novice's Glaive \\ Broken Training Glaive
 			i(253388),	-- Tyrannus's Runeblade
@@ -3772,14 +3771,6 @@ root(ROOTS.Unsorted, {
 			i(252039),	-- Open Sack of Roasted Kafa
 			i(252040),	-- Sealed Sack of Roasted Kafa
 			i(252041),	-- Dalaran Espresso Machine
-			i(253522),	-- Thalassian Chest
-			i(253523),	-- Astalor's Hookah
-			i(253524),	-- 590 Quel'Lithien Red Display Bottle
-			i(253525),	-- Thalassion Academy Dictation Device
-			i(253526),	-- Sin'dorei Wine Display
-			i(253599),	-- Artisanal Display Tent
-			i(253600),	-- Eversong Crystal Glass
-			i(253601),	-- 590 Quel'Lithien Red
 			i(253606),	-- "Brunch and a Book" Unframed Painting
 			i(253609),	-- "River's Protectors" Unframed Painting
 			i(253610),	-- "Isolation" Unframed Painting
@@ -3789,8 +3780,6 @@ root(ROOTS.Unsorted, {
 			i(253629),	-- Personal Key to the Arcantina
 			i(253704),	-- Fresh Canvas
 			i(253705),	-- "The Light Blooms" Unframed Painting
-			i(253802),	-- Deed of Patronage
-			i(254235),	-- Sin'dori Artisan's Easel
 			i(254400),	-- Triple-Tested Steam Valve
 			i(254401),	-- Mad Science Blueprints
 			i(254402),	-- Safety Electrical Cabling

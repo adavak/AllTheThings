@@ -326,9 +326,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(250804, {	-- Longhorned Bleakhoof Talbuk (MOUNT!)
 						["cost"] = {{ "c", BRONZE, 10000 }},
 					}),
-					i(250192, {	-- Reins of the Ghastly Ur'zul (MOUNT!)
-						["cost"] = {{ "c", BRONZE, 10000 }},
-					}),
 					i(250747, {	-- Reins of the Albino Mana Ray (MOUNT!)
 						["cost"] = {{ "c", BRONZE, 10000 }},
 					}),
@@ -336,6 +333,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["cost"] = {{ "c", BRONZE, 10000 }},
 					}),
 					i(250745, {	-- Reins of the Fel-scarred Mana Ray (MOUNT!)
+						["cost"] = {{ "c", BRONZE, 10000 }},
+					}),
+					i(250192, {	-- Reins of the Ghastly Ur'zul (MOUNT!)
 						["cost"] = {{ "c", BRONZE, 10000 }},
 					}),
 					i(250805, {	-- Reins of the Longhorned Argussian Talbuk (MOUNT!)

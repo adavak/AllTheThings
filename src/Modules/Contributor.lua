@@ -456,6 +456,7 @@ MobileDB.Creature = {
 	[117292] = true,	-- Navarrogg
 	[117331] = true,	-- Aethas Sunreaver
 	[117475] = true,	-- Lord Darius Crowley
+	[118954] = true,	-- Commander Jarod Shadowsong
 	[119001] = true,	-- Aethas Sunreaver
 	[119982] = true,	-- Druid of the Talon
 	[120041] = true,	-- Druid of the Talon
@@ -540,6 +541,8 @@ MobileDB.Creature = {
 	[241603] = true,	-- Threadis
 	[241604] = true,	-- Destien
 	[241605] = true,	-- Kitzy
+	[248854] = true,	-- The Last Architect
+	[253596] = true,	-- The Last Architect
 }
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates

@@ -788,14 +788,22 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				q(46106, {	-- Cutting off the Heads
 					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
-					["provider"] = { "n", 118947 },	-- Commander Jarod Shadowsong
+					["qgs"] = {
+						118947,	-- Commander Jarod Shadowsong
+						118954,	-- Commander Jarod Shadowsong (mobileNPC)
+					},
+					["coord"] = { 39.1, 58.1, VALSHARAH },
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46080, {	-- Quieting the Spirits
 					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
-					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
+					["qgs"] = {
+						118947,	-- Commander Jarod Shadowsong
+						118954,	-- Commander Jarod Shadowsong (mobileNPC)
+					},
+					["coord"] = { 39.1, 58.1, VALSHARAH },
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes", "c" },	-- bad API data
@@ -805,14 +813,14 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						46106,	-- Cutting off the Heads
 						46080,	-- Quieting the Spirits
 					},
-					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
+					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong (mobileNPC)
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes", "c" },	-- bad API data
 				}),
 				q(46200, {	-- The Matter Resolved... For Now...
 					["sourceQuests"] = { 46107 },	-- Source of the Corruption
-					["provider"] = { "n", 118954 },	-- Night Elf Warrior
+					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong (mobileNPC)
 					["classes"] = { DRUID, MONK, PALADIN, PRIEST, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes", "c" },	-- bad API data
