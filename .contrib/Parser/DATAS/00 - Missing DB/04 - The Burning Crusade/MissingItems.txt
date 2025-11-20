@@ -2193,3 +2193,10 @@ i(191060),	-- Black Sack of Gems
 i(191061),	-- Brilliant Glass
 2.5.4.44833
 i(194101),	-- Netherwhelp's Collar
+2.5.5.64508
+i(265826),	-- Communal Flamewrought Key
+i(265830),	-- Communal Flamewrought Key
+i(265843),	-- Communal Reservoir Key
+i(265845),	-- Communal Auchenai Key
+i(265847),	-- Communal Warpforged Key
+i(265849),	-- Communal Key of Time
