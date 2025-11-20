@@ -124,7 +124,7 @@ root(ROOTS.Zones, {
 					q(48440, {	-- Into the Night
 						["sourceQuests"] = { 47224 },	-- The Vidicaar
 						["provider"] = { "n", 120977 },	-- Prophet Velen
-						["coord"] = { 39.5, 76.8, 893 },	-- The Vindicaar (introductory scenario)
+						["coord"] = { 39.1, 78.2, 893 },	-- The Vindicaar (introductory scenario)
 						["maps"] = {
 							891,	-- Azuremyst Isle (introductory scenario)
 							892,	-- The Exodar (introductory scenario)
@@ -140,7 +140,7 @@ root(ROOTS.Zones, {
 					q(47223, {	-- Light's Exodus
 						["sourceQuests"] = { 47222 },	-- Two If By Sea
 						["provider"] = { "n", 121756 },	-- Vindicator Boros
-						["coord"] = { 20.6, 53.1, 891 },	-- Azuremyst Isle (introductory scenario)
+						["coord"] = { 21.4, 55.1, 891 },	-- Azuremyst Isle (introductory scenario)
 						["maps"] = {
 							892,	-- The Exodar (introductory scenario)
 							893,	-- The Vindicaar (introductory scenario)
@@ -324,18 +324,26 @@ root(ROOTS.Zones, {
 					q(47967, {	-- An Argus Roper
 						["sourceQuests"] = { 48460 },	-- The Wranglers [Breadcrumb - Required]
 						["provider"] = { "n", 126160 },	-- Lead Rider Jerek
+						["coord"] = { 64.4, 62.6, KROKUUN },
 					}),
 					q(48455, {	-- Duskcloak Problem
 						["sourceQuests"] = { 48460 },	-- The Wranglers [Breadcrumb - Required]
 						["provider"] = { "n", 126160 },	-- Lead Rider Jerek
+						["coord"] = { 64.4, 62.6, KROKUUN },
 					}),
 					q(48453, {	-- Strike Back
 						["sourceQuests"] = { 48460 },	-- The Wranglers [Breadcrumb - Required]
 						["provider"] = { "n", 126160 },	-- Lead Rider Jerek
+						["coord"] = { 64.4, 62.6, KROKUUN },
 					}),
 					q(48544, {	-- Woah, Nelly
-						["sourceQuests"] = { 47967, 48455, 48453 },	-- An Argus Roper / Duskcloak Problem / Strike Back
+						["sourceQuests"] = {
+							47967,	-- An Argus Roper
+							48455,	-- Duskcloak Problem
+							48453,	-- Strike Back
+						},
 						["provider"] = { "n", 126160 },	-- Lead Rider Jerek
+						["coord"] = { 64.4, 62.6, KROKUUN },
 					}),
 					q(48441, {	-- Remnants of Darkfall Ridge
 						["sourceQuests"] = { 48544 },	-- Woah, Nelly

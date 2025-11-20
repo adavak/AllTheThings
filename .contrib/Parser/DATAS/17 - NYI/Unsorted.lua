@@ -5207,8 +5207,6 @@ root(ROOTS.Unsorted, {
 			i(252750),	-- Aquatic Winter Toque \\ Aquatic Winter Hat
 			i(252751),	-- Snowy Winter Toque \\ Snowy Winter Hat
 			i(252752),	-- Sunny Winter Toque \\ Sunny Winter Hat
-			i(253219),	-- Bulwark of Mannoroth
-			i(253220),	-- Bulwark of Mannoroth
 			i(253520),	-- Enclave Aspirant's Hatchet
 			i(255827),	-- Collection: Wings of Awakening
 			i(255839),	-- Collection: Baby Murloc Satch-Shells

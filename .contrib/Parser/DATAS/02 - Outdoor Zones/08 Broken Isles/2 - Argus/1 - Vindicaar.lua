@@ -238,7 +238,10 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 126307 },	-- Prophet Velen
 							["coord"] = { 45.9, 34.0, THE_VINDICAAR_KROKUUN_UPPER },
 							["groups"] = {
-								i(153125),	-- Vestige of Light (QI!)
+								o(277348, {	-- Vestige of Light
+									["coord"] = { 50.2, 46.2, THE_VINDICAAR_KROKUUN_UPPER },
+									["groups"] = { i(153125) },	-- Vestige of Light (QI!)
+								}),
 							},
 						}),
 						q(47134, {	-- Foiling the Legion's Jailbreak

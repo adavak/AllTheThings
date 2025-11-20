@@ -1984,6 +1984,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(237756),	-- Blessed Prayer Beads
 			i(251631),	-- Bottled Time
 			i(252300),	-- Bronze Cluster
+			i(253221),	-- Bulwark of Mannoroth
 			i(246789),	-- Cache of Infinite Power
 			i(253867),	-- Cache of Infinite Treasure
 			i(243025),	-- Corrupted Ley Crystal
