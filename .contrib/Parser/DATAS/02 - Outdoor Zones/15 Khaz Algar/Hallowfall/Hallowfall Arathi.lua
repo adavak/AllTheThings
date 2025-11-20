@@ -433,7 +433,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["coord"] = { 64.5, 31.1, HALLOWFALL },
 								["groups"] = {
 									i(206601),	-- Dark-Nurtured Scallions (QI!)
-									i(211474),	-- Shadowblind Grouper (QI!)
+									o(414639, {	-- Shadowblind Grouper
+										["coords"] = {
+											{ 61.4, 22.5, HALLOWFALL },
+											{ 62.3, 28.5, HALLOWFALL },
+											{ 62.4, 23.6, HALLOWFALL },
+											{ 62.7, 24.6, HALLOWFALL },
+										},
+										["groups"] = { i(211474) },	-- Shadowblind Grouper (QI!)
+									}),
 									i(211475),	-- Twilight Spice (QI!)
 									i(212492),	-- Twilight-Spiced Grouper
 								},
@@ -1233,6 +1241,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							o(434924, {	-- Radiant Remnant
 								["coord"] = { 64.4, 34.1, HALLOWFALL },
 								["questID"] = 80581,
+							}),
+							o(430347, {	-- Radiant Remnant
+								["coord"] = { 66.2, 16.6, HALLOWFALL },
+								["questID"] = 80337,
 							}),
 						})),
 						n(VENDORS, {

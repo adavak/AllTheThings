@@ -2106,6 +2106,8 @@ local AccountWideQuestsDB = {
 	92573,	-- Sturdy Chest
 	92626,	-- ??
 	92628,	-- ??
+	92861,	-- Ensemble: Eredath Lightseeker's Regalia
+	92862,	-- Ensemble: Forgotten Conservatory Clothes
 	92889,	-- Arsenal: Odyn's Spears
 	93033,	-- Triggers when you spawn in Bazaar for the first time [Remix: Legion]
 	-- #ENDIF

@@ -588,7 +588,10 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["lvl"] = 80,
 		}),
 		q(91730, {	-- Azeroth Saved
-			["sourceQuest"] = 91729,	-- Armies Gathered
+			["sourceQuests"] = {
+				91729,	-- Armies Gathered
+				47654,	-- Seat of the Triumvirate: The Crest of Knowledge
+			},
 			["qg"] = 243853,	-- Moratari
 			["coord"] = { 45.6, 67.7, BROKEN_ISLES },
 			["lvl"] = 80,

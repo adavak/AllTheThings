@@ -140,7 +140,7 @@ root(ROOTS.Zones, {
 					q(47223, {	-- Light's Exodus
 						["sourceQuests"] = { 47222 },	-- Two If By Sea
 						["provider"] = { "n", 121756 },	-- Vindicator Boros
-						["coord"] = { 21.4, 55.1, 891 },	-- Azuremyst Isle (introductory scenario)
+						["coord"] = { 21.4, 55.2, 891 },	-- Azuremyst Isle (introductory scenario)
 						["maps"] = {
 							892,	-- The Exodar (introductory scenario)
 							893,	-- The Vindicaar (introductory scenario)
@@ -219,9 +219,18 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 124975 },	-- Image of Grand Artificer Romuul
 						["coord"] = { 60.8, 47.3, KROKUUN },
 						["groups"] = {
-							i(151837),	-- Invocation Array (QI!)
-							i(151838),	-- Judgment Core (QI!)
-							i(151839),	-- Vindicator Plating (QI!)
+							o(272458, {	-- Invocation Array
+								["coord"] = { 60.6, 33.1, KROKUUN },
+								["groups"] = { i(151837) },	-- Invocation Array (QI!)
+							}),
+							o(272460, {	-- Judgment Core
+								["coord"] = { 60.2, 28.2, KROKUUN },
+								["groups"] = { i(151838) },	-- Judgment Core (QI!)
+							}),
+							o(272463, {	-- Vindicator Plating
+								["coord"] = { 62.1, 41.5, KROKUUN },
+								["groups"] = { i(151839) },	-- Vindicator Plating (QI!)
+							}),
 						},
 					}),
 					q(47641, {	-- Signs of Resistance
@@ -263,9 +272,11 @@ root(ROOTS.Zones, {
 					q(47224, {	-- The Vindicaar
 						["sourceQuests"] = { 47223 },	-- Light's Exodus
 						["provider"] = { "n", 120977 },	-- Prophet Velen
-						["coord"] = { 34.0, 65.1, 891 },	-- Azuremyst Isle (introductory scenario)
+						["coords"] = {
+							{ 34.0, 65.1, 891 },	-- Azuremyst Isle (introductory scenario)
+							{ 34.0, 65.1, 892 },	-- The Exodar (introductory scenario)
+						},
 						["maps"] = {
-							892,	-- The Exodar (introductory scenario)
 							893,	-- The Vindicaar (introductory scenario)
 							894,	-- The Vindicaar (introductory scenario)
 						},
@@ -315,7 +326,10 @@ root(ROOTS.Zones, {
 							128722,	-- Prophet Velen
 							128949,	-- Prophet Velen
 						},
-						["coord"] = { 40.2, 24.1, THE_VINDICAAR_KROKUUN_UPPER },
+						["coords"] = {
+							{ 32.9, 59.0, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+							{ 40.2, 24.1, THE_VINDICAAR_KROKUUN_UPPER },
+						},
 						["groups"] = {
 							i(152984),	-- Boon of the Pantheon
 							i(152626),	-- Insignia of the Grand Army
@@ -348,6 +362,7 @@ root(ROOTS.Zones, {
 					q(48441, {	-- Remnants of Darkfall Ridge
 						["sourceQuests"] = { 48544 },	-- Woah, Nelly
 						["provider"] = { "n", 119388 },	-- Chieftain Hatuun
+						["coord"] = { 56.6, 67.6, KROKUUN },
 					}),
 					q(48442, {	-- Nath'raxas Hold: Preparations
 						["sourceQuests"] = { 48441 },	-- Remnants of Darkfall Ridge

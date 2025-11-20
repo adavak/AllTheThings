@@ -185,17 +185,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["maps"] = { STORMWIND_CITY },
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = {
-								i(128870, {	-- The Kingslayers [Main Hand]
-									["ItemAppearanceModifierID"] = 9,
+								o(251107, {	-- The Kingslayers
+									["coord"] = { 82.8, 28.0, STORMWIND_CITY },
 									["groups"] = {
-										artifact(228),	-- The Kingslayers [Main Hand]
+										i(128870, {	-- The Kingslayers [Main Hand]
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(228) },	-- The Kingslayers [Main Hand]
+										}),
 									},
 								}),
 								i(128869, {	-- The Kingslayers [Off Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(228),	-- The Kingslayers [Off Hand]
-									},
+									["groups"] = { artifact(228) },	-- The Kingslayers [Off Hand]
 								}),
 							},
 						}),
@@ -208,15 +209,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["groups"] = {
 								i(128870, {	-- The Kingslayers [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(228),	-- The Kingslayers [Main Hand]
-									},
+									["groups"] = { artifact(228) },	-- The Kingslayers [Main Hand]
 								}),
 								i(128869, {	-- The Kingslayers [Off Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(228),	-- The Kingslayers [Off Hand]
-									},
+									["groups"] = { artifact(228) },	-- The Kingslayers [Off Hand]
 								}),
 							},
 						}),
@@ -352,8 +349,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							40950,	-- Honoring Success
 							-- #ENDIF
 						},
-						["provider"] = { "n", 102594 },	-- Marin Noggenfogger
-						["coord"] = { 41.3, 78.0, THE_HALL_OF_SHADOWS },
+						["qgs"] = {
+							101513,	-- Lord Jorach Ravenholdt
+							102594,	-- Marin Noggenfogger
+						},
+						["coords"] = {
+							{ 31.6, 66.4, THE_HALL_OF_SHADOWS },
+							{ 41.3, 78.0, THE_HALL_OF_SHADOWS },
+						},
 					}),
 					q(40997, {	-- Lethal Efficiency
 						["sourceQuest"] = 40996,	-- Delegation

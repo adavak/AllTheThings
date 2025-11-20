@@ -298,10 +298,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 96469 },	-- Odyn
 							["coord"] = { 58.3, 84.6, SKYHOLD },
 							["groups"] = {
-								i(128910, {	-- Strom'kar, the Warbreaker
-									["ItemAppearanceModifierID"] = 0,
+								o(247877, {	-- Strom'kar
+									["coord"] = { 60.8, 73.5, 20 },	-- Keeper's Rest
 									["groups"] = {
-										artifact(295),	-- Strom'kar, the Warbreaker
+										i(128910, {	-- Strom'kar, the Warbreaker
+											["ItemAppearanceModifierID"] = 0,
+											["groups"] = { artifact(295) },	-- Strom'kar, the Warbreaker
+										}),
 									},
 								}),
 							},

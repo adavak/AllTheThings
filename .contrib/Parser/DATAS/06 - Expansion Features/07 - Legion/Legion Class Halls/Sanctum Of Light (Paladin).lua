@@ -553,17 +553,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 90250 },	-- Lord Grayson Shadowbreaker <Mission Specialist>
 						["coord"] = { 52.3, 78.1, LIGHTS_HOPE_CHAPEL },
-						["groups"] = {
-							i(139697),	-- Bindings of the Silver Hand
-						},
+						["groups"] = { i(139697) },	-- Bindings of the Silver Hand
 					}),
 					q(43492, {	-- Champion: Aponi Brightmane
 						["sourceQuests"] = { 43541 },	-- United As One
 						["provider"] = { "n", 90251 },		-- Aponi Brightmane <Sunwalker Chieftain>
 						["coord"] = { 48.3, 72.4, LIGHTS_HOPE_CHAPEL },
-						["groups"] = {
-							follower(757),	-- Aponi Brightmane
-						},
+						["groups"] = { follower(757) },	-- Aponi Brightmane
 					}),
 					q(43934, {	-- A New Path
 						["sourceQuests"] = { 43541 },	-- United As One
@@ -574,9 +570,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43934 },	-- A New Path
 						["provider"] = { "n", 113299 },	-- Delas Moonfang
 						["coord"] = { 71.9, 24.4, LIGHTS_HOPE_CHAPEL },
-						["groups"] = {
-							follower(756),	-- Delas Moonfang
-						},
+						["groups"] = { follower(756) },	-- Delas Moonfang
 					}),
 					-- Chap
 					q(43534, {	-- Blood of Sargeras
@@ -628,7 +622,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43697, {	-- Warriors of Light
 						["sourceQuests"] = { 43700 },	-- A Light in the Darkness
 						["provider"] = { "n", 90259 },	-- Lord Maxwell Tyrosus
-						["coord"] = { 72.6, 25.8, BROKEN_SHORE },
+						["coord"] = { 72.6, 25.8, LIGHTS_HOPE_CHAPEL },
 						["groups"] = {
 							i(139690),	-- Breastplate of the Silver Hand
 							title(345),	-- Highlord <Name>
@@ -638,17 +632,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43697 },	-- Warriors of Light
 						["provider"] = { "n", 99997 },		-- Arator the Redeemer
 						["coord"] = { 71.6, 23.7, LIGHTS_HOPE_CHAPEL },
-						["groups"] = {
-							follower(758),	-- Arator the Redeemer
-						},
+						["groups"] = { follower(758) },	-- Arator the Redeemer
 					}),
 					q(43701, {	-- Champion: Lothraxion
 						["sourceQuests"] = { 43697 },	-- Warriors of Light
 						["provider"] = { "n", 109105 },	-- Lothraxion <High Commander>
-						["coord"] = { 73.1, 23.5, LIGHTS_HOPE_CHAPEL },
-						["groups"] = {
-							follower(759),	-- Lothraxion
-						},
+						["coord"] = { 49.4, 74.1, LIGHTS_HOPE_CHAPEL },
+						["groups"] = { follower(759) },	-- Lothraxion
 					}),
 					q(43424, {	-- A Hero's Weapon
 						["sourceQuests"] = { 43697 },	-- Warriors of Light
@@ -690,9 +680,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 119209 },	-- Erelyn Moonfang
 						["coord"] = { 66.8, 53.4, VALSHARAH },
 						["groups"] = {
-							i(143330),	-- Felstone Pendant (QI!)
-							i(143331),	-- Nerus' Journal (QI!)
-							i(143332),	-- Blank Scroll (QI!)
+							o(266595, {	-- Moonfang Chest
+								["coord"] = { 65.9, 50.9, VALSHARAH },
+								["groups"] = { i(143332) },	-- Blank Scroll (QI!)
+							}),
+							o(266588, {	-- Moonfang Chest
+								["coord"] = { 64.8, 51.3, VALSHARAH },
+								["groups"] = { i(143330) },	-- Felstone Pendant (QI!)
+							}),
+							o(266594, {	-- Moonfang Chest
+								["coord"] = { 66.9, 53.1, VALSHARAH },
+								["groups"] = { i(143331) },	-- Nerus' Journal (QI!)
+							}),
 						},
 					}),
 					q(45146, {	-- Runic Reading
@@ -722,9 +721,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							45148,	-- Oath Breaker
 						},
 						["provider"] = { "n", 119545 },	-- Nerus Moonfang
-						["groups"] = {
-							follower(1000),	-- Nerus Moonfang
-						},
+						["coord"] = { 59.1, 32.2, LIGHTS_HOPE_CHAPEL },
+						["groups"] = { follower(1000) },	-- Nerus Moonfang
 					}),
 					q(46069, {	-- Worthy of the Title
 						["sourceQuests"] = { 46045 },	-- Champion: Nerus Moonfang

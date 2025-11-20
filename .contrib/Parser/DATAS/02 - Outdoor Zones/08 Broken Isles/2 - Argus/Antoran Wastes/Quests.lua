@@ -39,8 +39,8 @@ root(ROOTS.Zones, {
 					}),
 					q(47473, {	-- Sizing Up The Opposition (Light's Purchase)
 						["sourceQuests"] = { 48201 },	-- Reinforce Light's Purchase
-						["provider"] = { "n", 127051 },	-- Illidan Stormrage
-						["coord"] = { 68.8, 25.9, ANTORAN_WASTES },
+						["provider"] = { "n", 127033 },	-- Alleria Windrunner
+						["coord"] = { 72.4, 74.8, ANTORAN_WASTES },
 					}),
 					q(48929, {	-- Sizing Up The Opposition (The Veiled Den)
 						["sourceQuests"] = { 48202 },	-- Reinforce the Veiled Den

@@ -1128,9 +1128,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["description"] = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
 							["cost"] = {{ "i", 242370, 5 }},	-- 5x Horns of the First Satyr
 						}),
-						-- Taeshalach and Scythe
-						i(254847),	-- Minor Bronze Cache
-						i(254848),	-- Minor Bronze Cache
+						i(254847, {	-- Minor Bronze Cache
+							["description"] = "Becomes available after purchasing 'Taeshalach'.\n\nContains 2500 Bronze.",
+							["cost"] = {{ "i", 253306, 5 }},	-- 5x Everflame of Hatred
+						}),
+						i(254848, {	-- Minor Bronze Cache
+							["description"] = "Becomes available after purchasing 'Scythe of the Unmaker'.\n\nContains 2500 Bronze.",
+							["cost"] = {{ "i", 253304, 5 }},	-- 5x Cosmic Soulsilver
+						}),
 					}),
 				}),
 			}),
