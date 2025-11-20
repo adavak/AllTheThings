@@ -98,26 +98,6 @@ MOP_CLASSIC_HEROIC_PACK = createHeader({
 		tw = "潘達利亞之謎：經典版 - 煞之灌注英雄版組合包",
 	},
 });
-MIDNIGHT_TEMPORARY = createHeader({
-	readable = "Midnight",
-	icon = [[~_.asset("Expansion_MN")]],
-	text = {
-		en = "Midnight",
-		-- es = "Midnight",
-		-- mx = "Midnight",
-		-- de = "Midnight",
-		-- fr = "Midnight",
-		-- it = "Midnight",
-		-- pt = "Midnight",
-		-- ru = "Midnight",
-		ko = "한밤",
-		cn = "至暗之夜",
-		-- tw = "至暗之夜",
-	},
-	description = {
-		en = "Midnight is the eleventh expansion for World of Warcraft and the second chapter of the Worldsoul Saga.",
-	};
-});
 WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION = createHeader({
 	readable = "WoW 15th Anniversary Collector's Edition",
 	icon = [[~_.asset("Expansion_CLASSIC")]],
