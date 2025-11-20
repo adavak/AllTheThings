@@ -1,5 +1,7 @@
 1.14.3.42926
 61544@@@Orphan Spell Visual Invisible Holder
+2.5.5.64508
+255994@@@Exodar Replica
 3.4.3.51126
 2671@@@Mechanical Squirrel
 7380@@@Siamese Cat
@@ -2041,7 +2043,6 @@
 185317@@@Incubus
 253198@@@Archincubus
 5.5.2.63832
-255994@@@Exodar Replica
 5.5.2.64481
 255820@@@Starshard Whelpling
 5.5.3.64308
