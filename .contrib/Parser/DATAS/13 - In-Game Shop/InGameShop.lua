@@ -718,7 +718,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_11_0_7, },
 		}),
 		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238", "added 11.2.5.64395" },	-- Removed Jan 6, 2025, Added Nov 17 2025, Removed Jan 5 2026
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238", "added 11.2.5.64395", "removed 11.2.7.99999" },	-- Removed Jan 6, 2025, Added Nov 17 2025, Removed Jan 5 2026
 		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
