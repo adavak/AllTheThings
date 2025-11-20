@@ -840,6 +840,14 @@ local function CreateObject(t, rootOnly)
 			t = app.CreateHeirloom(t.heirloomID, t);
 		elseif t.azeriteessenceID then
 			t = app.CreateAzeriteEssence(t.azeriteessenceID, t);
+		elseif t.artifactID then
+			t = app.CreateArtifact(t.artifactID, t);
+		elseif t.titleID then
+			t = app.CreateTitle(t.titleID, t);
+		elseif t.runeforgepowerID then
+			t = app.CreateRuneforgeLegendary(t.runeforgepowerID, t);
+		elseif t.conduitID then
+			t = app.CreateConduit(t.conduitID, t);
 		elseif t.itemID or t.modItemID then
 			local itemID, modID, bonusID = app.GetItemIDAndModID(t.modItemID or t.itemID)
 			t.itemID = itemID
@@ -847,10 +855,6 @@ local function CreateObject(t, rootOnly)
 			t.bonusID = bonusID
 			if t.toyID then
 				t = app.CreateToy(itemID, t);
-			elseif t.runeforgepowerID then
-				t = app.CreateRuneforgeLegendary(t.runeforgepowerID, t);
-			elseif t.conduitID then
-				t = app.CreateConduit(t.conduitID, t);
 			else
 				t = app.CreateItem(itemID, t);
 			end
