@@ -397,11 +397,14 @@ local SYM_ALL_BRD_DROPS = {{"select","headerID",WOW_ANNIVERSARY_TWENTY},{"pop"},
 
 local function RelicCofferKeyPurchase(itemID)
 	local item = i(itemID, {
+		-- #IF BEFORE 11.2.5
+		-- No vendors anymore, so no costs
 		["cost"] = {
 			{"i",231510,40},	-- Timewarped Relic Coffer Key [L]
 			{"i",232365,40},	-- Timewarped Relic Coffer Key [N]
 			{"i",232366,40},	-- Timewarped Relic Coffer Key [H]
 		},
+		-- #ENDIF
 	})
 	return item
 end
@@ -2501,283 +2504,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			n(REWARDS, {
 				currency(BRONZE_TOKEN),
 			}),
-			inst(1301, {	-- Blackrock Depths
-				["maps"] = {
-					2362,	-- Shadowforge City
-					2363,	-- Detention Block
-				},
-				["isRaid"] = true,
-				["groups"] = {
-					n(ACHIEVEMENTS, {
-						ach(40999, {		-- You're in Your Blackrock Depths
-							crit(70642, {	-- Lord Roccor
-								["_encounter"] = { ROCCOR, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70571, {	-- High Interrogator Gerstahn
-								["_npc"] = { GERSTAHN },
-							}),
-							crit(70643, {	-- Bael'Gar
-								["_encounter"] = { BAELGAR, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70572, {	-- Houndmaster Grebmar
-								["_npc"] = { GREBMAR },
-							}),
-							crit(70644, {	-- Lord Incendius
-								["_encounter"] = { INCENDIUS, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70575, {	-- Fineous Darkvire
-								["_npc"] = { DARKVIRE },
-							}),
-							crit(70576, {	-- Phalanx
-								["_npc"] = { PHALANX },
-							}),
-							crit(70645, {	-- Golem Lord Argelmach
-								["_encounter"] = { ARGELMACH, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70578, {	-- The Seven
-								["_encounter"] = { THE_SEVEN, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70646, {	-- General Angerforge
-								["_encounter"] = { ANGERFORGE, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70647, {	-- Ambassador Flamelash
-								["_encounter"] = { FLAMELASH, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-							crit(70581, {	-- Pyromancer Loregrain
-								["_npc"] = { LOREGRAIN },
-							}),
-							crit(70648, {	-- Emperor Dagran Thaurissan
-								["_encounter"] = { DAGRAN, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
-							}),
-						}),
-					}),
-					n(QUESTS, {
-						q(82817, {	-- Disturbance Detected: Blackrock Depths
-							["qgs"] = {
-								-- #if BEFORE 11.0.7
-								229494,	-- Moira Thaurissan <Queen of the Dark Iron>
-								-- #else
-								234556,	-- Grannadormu
-								-- #endif
-							},
-							["coords"] = {
-								-- #if BEFORE 11.0.7
-								{ 63.0, 49.7, TANARIS },
-								-- #else
-								{ 52.8, 82.8, ORGRIMMAR },
-								{ 56.0, 18.4, STORMWIND_CITY },
-								-- #endif
-							},
-							["isWeekly"] = true,
-							["groups"] = {
-								i(232471, {	-- Cache of Dark Iron Treasures
-									["sym"] = SYM_ALL_BRD_DROPS,
-								}),
-							},
-						}),
-						q(84735, {	-- Truth of the Dark Irons
-							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
-							["coord"] = { 63.0, 49.7, TANARIS },
-						}),
-						------ Stay awhile and listen ------
-						hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
-							["name"] = "Stay awhile and listen: Moira Thaurissan",
-							["description"] = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
-							["sourceQuests"] = { 82817 },	-- Disturbance Detected: Blackrock Depths (Completed)
-							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
-							["coord"] = { 63.0, 49.7, TANARIS },
-						}),
-					}),
-					n(VENDORS, {
-						-- TODO: maybe once I have figured out better 'Sources' tech to list things with a Source and then assign alternate Sources
-						-- this can be cleaned up again while maintaining proper 'cost' links
-						RelicCofferKeyPurchase(231418),	-- Angerforge's Battle Axe
-						RelicCofferKeyPurchase(231480),	-- Anvilrage Dragoon's Trousers
-						RelicCofferKeyPurchase(231477),	-- Anvilrage Medic's Boots
-						RelicCofferKeyPurchase(231479),	-- Anvilrage Rogue's Belt of Knives
-						RelicCofferKeyPurchase(231488),	-- Anvilrage, Warden's Breastplate
-						RelicCofferKeyPurchase(231463),	-- Arbiter's Blade
-						RelicCofferKeyPurchase(231472),	-- Argelmach's Breaking Bar
-						RelicCofferKeyPurchase(231492),	-- Barman Shanker
-						RelicCofferKeyPurchase(231450),	-- Belt of the Eminent Mason
-						RelicCofferKeyPurchase(231447),	-- Bloodclot Band
-						RelicCofferKeyPurchase(231399),	-- Bloodfist
-						RelicCofferKeyPurchase(231493),	-- Bottle-Popper Ring
-						RelicCofferKeyPurchase(231457),	-- Bottled Magma
-						RelicCofferKeyPurchase(231486),	-- Burning Spirit Tender's Mitts
-						RelicCofferKeyPurchase(231424),	-- Burst of Knowledge
-						RelicCofferKeyPurchase(231415),	-- Cape of the Fire Salamander
-						RelicCofferKeyPurchase(231425),	-- Chief Architect's Monocle
-						RelicCofferKeyPurchase(231404),	-- Cinderhide Armsplints
-						RelicCofferKeyPurchase(231412),	-- Circle of Flame
-						RelicCofferKeyPurchase(231489),	-- Dark Warder's Pauldrons
-						RelicCofferKeyPurchase(231431),	-- Deathdealer Breastplate
-						RelicCofferKeyPurchase(231476),	-- Dope'rel's Calling Rune
-						RelicCofferKeyPurchase(231474),	-- Dope'rel's Finger Gloves
-						RelicCofferKeyPurchase(231482),	-- Dragoon's Volley Gun
-						RelicCofferKeyPurchase(231395),	-- Earthslag Shoulders
-						RelicCofferKeyPurchase(231440),	-- Ebonsteel Spaulders
-						RelicCofferKeyPurchase(231407),	-- Emberplate Armguards
-						RelicCofferKeyPurchase(231455),	-- Embershard Pendant
-						RelicCofferKeyPurchase(231437),	-- Emperor's Seal
-						RelicCofferKeyPurchase(231392),	-- Enthralled Sphere
-						RelicCofferKeyPurchase(231448),	-- Entrenching Boots
-						RelicCofferKeyPurchase(231451),	-- Ferrous Cord
-						RelicCofferKeyPurchase(231484),	-- Fireguard's Lava-Dipped Cleaver
-						RelicCofferKeyPurchase(231400),	-- Fists of Phalanx
-						RelicCofferKeyPurchase(231413),	-- Flame Wrath
-						RelicCofferKeyPurchase(231464),	-- Flame-Tempered Skinner
-						RelicCofferKeyPurchase(231468),	-- Flamekeeper's Fire Blanket
-						RelicCofferKeyPurchase(231478),	-- Flamekeeper's Handwraps
-						RelicCofferKeyPurchase(231483),	-- Flamelash's Fiery Spike
-						RelicCofferKeyPurchase(231467),	-- Flamelord's Emberstaff
-						RelicCofferKeyPurchase(231401),	-- Flamestrider Robes
-						RelicCofferKeyPurchase(231485),	-- Flamewalker Scale Spaulders
-						RelicCofferKeyPurchase(231406),	-- Flameweave Cuffs
-						RelicCofferKeyPurchase(231409),	-- Force of Magma
-						RelicCofferKeyPurchase(231414),	-- Force of Will
-						RelicCofferKeyPurchase(231444),	-- Foreman's Head Protector
-						RelicCofferKeyPurchase(231430),	-- Ghostshroud
-						RelicCofferKeyPurchase(231494),	-- Golem Carapace Opener
-						RelicCofferKeyPurchase(231443),	-- Golem Fitted Pauldrons
-						RelicCofferKeyPurchase(231471),	-- Golem Gearbox
-						RelicCofferKeyPurchase(231446),	-- Greaves of Withering Despair
-						RelicCofferKeyPurchase(231491),	-- Grebmar's Catch Pole
-						RelicCofferKeyPurchase(231465),	-- Grizzle's Skinne
-						RelicCofferKeyPurchase(231435),	-- Guiding Stave of Wisdom
-						RelicCofferKeyPurchase(231417),	-- Hand of Justice
-						RelicCofferKeyPurchase(231439),	-- Hands of the Exalted Herald
-						RelicCofferKeyPurchase(231434),	-- Haunting Specter Leggings
-						RelicCofferKeyPurchase(231456),	-- Heart of Roccor
-						RelicCofferKeyPurchase(231487),	-- Helm of the Molten Avatar
-						RelicCofferKeyPurchase(231393),	-- Houndmaster's Bow
-						RelicCofferKeyPurchase(231436),	-- Imperial Jewel
-						RelicCofferKeyPurchase(231427),	-- Impervious Giant
-						RelicCofferKeyPurchase(231458),	-- Insolent Dark Iron's Vest
-						RelicCofferKeyPurchase(231391),	-- Kentic Amice
-						RelicCofferKeyPurchase(231403),	-- Kindling Stave
-						RelicCofferKeyPurchase(231408),	-- Lavacrest Leggings
-						RelicCofferKeyPurchase(231388),	-- Lead Surveyor's Belt
-						RelicCofferKeyPurchase(231449),	-- Leggings of Frenzied Magic
-						RelicCofferKeyPurchase(231432),	-- Legplates of the Eternal Guardian
-						RelicCofferKeyPurchase(231419),	-- Lord General's Sword
-						RelicCofferKeyPurchase(231389),	-- Luminary Robe
-						RelicCofferKeyPurchase(231461),	-- Magma Giant's Crown
-						RelicCofferKeyPurchase(231454),	-- Magma-Shot Boomstick
-						RelicCofferKeyPurchase(231445),	-- Mantle of Lost Hope
-						RelicCofferKeyPurchase(231416),	-- Molten Fists
-						RelicCofferKeyPurchase(231462),	-- Molten Furnace
-						RelicCofferKeyPurchase(231398),	-- Molten Ironfoe
-						RelicCofferKeyPurchase(231396),	-- Naglering
-						RelicCofferKeyPurchase(231423),	-- Omnicast Boots
-						RelicCofferKeyPurchase(231405),	-- Pyremail Wristguards
-						RelicCofferKeyPurchase(231429),	-- Robes of the Royal Crown
-						RelicCofferKeyPurchase(231421),	-- Royal Decorated Armor
-						RelicCofferKeyPurchase(231397),	-- Rubicund Armguards
-						RelicCofferKeyPurchase(231410),	-- Rubidium Hammer
-						RelicCofferKeyPurchase(231475),	-- Sabaton's of Anger'rel
-						RelicCofferKeyPurchase(231481),	-- Sapper's Waistplate
-						RelicCofferKeyPurchase(231411),	-- Sash of the Burning Heart
-						RelicCofferKeyPurchase(231442),	-- Sash of the Grand Hunt
-						RelicCofferKeyPurchase(231402),	-- Searingscale Leggings
-						RelicCofferKeyPurchase(231420),	-- Second Wind
-						RelicCofferKeyPurchase(231426),	-- Senior Designer's Pantaloons
-						RelicCofferKeyPurchase(231453),	-- Shard Splinter
-						RelicCofferKeyPurchase(231470),	-- Spare Golem Frame
-						RelicCofferKeyPurchase(231469),	-- Spare Golem Pauldrons
-						RelicCofferKeyPurchase(231390),	-- Spritecaster Cape
-						RelicCofferKeyPurchase(231394),	-- Stoneshell Guard
-						RelicCofferKeyPurchase(231438),	-- Swiftwalker Boots
-						RelicCofferKeyPurchase(231433),	-- Thaurissan's Royal Scepter
-						RelicCofferKeyPurchase(231473),	-- The Fifth's Linked Treads
-						RelicCofferKeyPurchase(231428),	-- The Hammer of Grace
-						RelicCofferKeyPurchase(231422),	-- Warstrife Leggings
-						RelicCofferKeyPurchase(231441),	-- Wristguards of Renown
-						n(223881, {	-- Braggi Brazenbrass <Raidfinder Relic Coffer Key Exchanger>
-							["coord"] = { 63.0, 49.8, TANARIS },
-							["sym"] = SYM_ALL_BRD_DROPS,
-						}),
-						n(233209, {	-- Kraegan Emberforge <Normal Relic Coffer Key Exchanger>
-							["coord"] = { 63.0, 49.8, TANARIS},
-							["sym"] = SYM_ALL_BRD_DROPS,
-						}),
-						n(224322, {	-- Hilda Hellforge <Heroic Relic Coffer Key Exchanger>
-							["coord"] = { 63.0, 49.8, TANARIS},
-							["sym"] = SYM_ALL_BRD_DROPS,
-						}),
-					}),
-					Difficulty(DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC).AddGroups({
-						ZoneDrops({}),
-						Boss(ROCCOR),
-						n(GERSTAHN, {
-							i(231488),	-- Anvilrage, Warden's Breastplate
-							i(231489),	-- Dark Warder's Pauldrons
-							i(231392),	-- Enthralled Sphere
-							i(231446),	-- Greaves of Withering Despair
-							i(231391),	-- Kentic Amice
-						}),
-						Boss(BAELGAR),
-						n(GREBMAR, {
-							i(231491),	-- Grebmar's Catch Pole
-							i(231465),	-- Grizzle's Skinne
-							i(231393),	-- Houndmaster's Bow
-							i(231390),	-- Spritecaster Cape
-						}),
-						Boss(INCENDIUS),
-						n(DARKVIRE, {
-							i(231450),	-- Belt of the Eminent Mason
-							i(231425),	-- Chief Architect's Monocle
-							i(231444),	-- Foreman's Head Protector
-							i(231494),	-- Golem Carapace Opener
-							i(231388),	-- Lead Surveyor's Belt
-							i(231426),	-- Senior Designer's Pantaloons
-						}),
-						n(PHALANX, {
-							i(231492),	-- Barman Shanker
-							i(231399),	-- Bloodfist
-							i(231493),	-- Bottle-Popper Ring
-							i(231451),	-- Ferrous Cord
-							i(231400),	-- Fists of Phalanx
-							i(231443),	-- Golem Fitted Pauldrons
-							i(231441),	-- Wristguards of Renown
-						}),
-						Boss(ARGELMACH),
-						Boss(THE_SEVEN),
-						Boss(ANGERFORGE),
-						Boss(FLAMELASH),
-						n(LOREGRAIN, {
-							i(231448),	-- Entrenching Boots
-							i(231401),	-- Flamestrider Robes
-							i(231403),	-- Kindling Stave
-							i(231402),	-- Searingscale Leggings
-						}),
-						Boss(DAGRAN, {
-							i(224278),	-- Timewarped Ironforge Blueprints (QI!)
-						}),
-					}),
-					Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
-						CommonBossDrops({
-							i(231510, {	-- Timewarped Relic Coffer Key
-								["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
-							}),
-						}),
-					}),
-					Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
-						CommonBossDrops({
-							i(232365, {	-- Timewarped Relic Coffer Key
-								["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
-							}),
-						}),
-					}),
-					Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
-						CommonBossDrops({
-							i(232366, {	-- Timewarped Relic Coffer Key
-								["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
-							}),
-						}),
-					}),
-				},
-			}),
 		}),
 		{	-- Recurring Content
 			n(ACHIEVEMENTS, {
@@ -2874,6 +2600,290 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					["icon"] = 135727,
 				}),
 			}),
+			inst(1301, {	-- Blackrock Depths
+				["maps"] = {
+					2362,	-- Shadowforge City
+					2363,	-- Detention Block
+				},
+				["isRaid"] = true,
+				["groups"] = {
+					n(ACHIEVEMENTS, {
+						ach(40999, {		-- You're in Your Blackrock Depths
+							crit(70642, {	-- Lord Roccor
+								["_encounter"] = { ROCCOR, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70571, {	-- High Interrogator Gerstahn
+								["_npc"] = { GERSTAHN },
+							}),
+							crit(70643, {	-- Bael'Gar
+								["_encounter"] = { BAELGAR, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70572, {	-- Houndmaster Grebmar
+								["_npc"] = { GREBMAR },
+							}),
+							crit(70644, {	-- Lord Incendius
+								["_encounter"] = { INCENDIUS, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70575, {	-- Fineous Darkvire
+								["_npc"] = { DARKVIRE },
+							}),
+							crit(70576, {	-- Phalanx
+								["_npc"] = { PHALANX },
+							}),
+							crit(70645, {	-- Golem Lord Argelmach
+								["_encounter"] = { ARGELMACH, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70578, {	-- The Seven
+								["_encounter"] = { THE_SEVEN, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70646, {	-- General Angerforge
+								["_encounter"] = { ANGERFORGE, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70647, {	-- Ambassador Flamelash
+								["_encounter"] = { FLAMELASH, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+							crit(70581, {	-- Pyromancer Loregrain
+								["_npc"] = { LOREGRAIN },
+							}),
+							crit(70648, {	-- Emperor Dagran Thaurissan
+								["_encounter"] = { DAGRAN, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
+							}),
+						}),
+					}),
+					n(QUESTS, {
+						q(82817, {	-- Disturbance Detected: Blackrock Depths
+							["qgs"] = {
+								-- #if BEFORE 11.0.7
+								229494,	-- Moira Thaurissan <Queen of the Dark Iron>
+								-- #else
+								234556,	-- Grannadormu
+								-- #endif
+							},
+							["coords"] = {
+								-- #if BEFORE 11.0.7
+								{ 63.0, 49.7, TANARIS },
+								-- #else
+								{ 52.8, 82.8, ORGRIMMAR },
+								{ 56.0, 18.4, STORMWIND_CITY },
+								-- #endif
+							},
+							["isWeekly"] = true,
+							["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7},
+							["groups"] = {
+								i(232471, {	-- Cache of Dark Iron Treasures
+									["sym"] = SYM_ALL_BRD_DROPS,
+								}),
+							},
+						}),
+						q(84735, {	-- Truth of the Dark Irons
+							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
+							["coord"] = { 63.0, 49.7, TANARIS },
+							["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7},
+						}),
+						------ Stay awhile and listen ------
+						hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
+							["name"] = "Stay awhile and listen: Moira Thaurissan",
+							["description"] = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
+							-- #IF BEFORE 11.2.5
+							["sourceQuests"] = { 82817 },	-- Disturbance Detected: Blackrock Depths (Completed)
+							-- #ENDIF
+							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
+							["coord"] = { 63.0, 49.7, TANARIS },
+						}),
+					}),
+					n(VENDORS, {
+						["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7},
+						["groups"] = {
+							-- TODO: maybe once I have figured out better 'Sources' tech to list things with a Source and then assign alternate Sources
+							-- this can be cleaned up again while maintaining proper 'cost' links
+							RelicCofferKeyPurchase(231418),	-- Angerforge's Battle Axe
+							RelicCofferKeyPurchase(231480),	-- Anvilrage Dragoon's Trousers
+							RelicCofferKeyPurchase(231477),	-- Anvilrage Medic's Boots
+							RelicCofferKeyPurchase(231479),	-- Anvilrage Rogue's Belt of Knives
+							RelicCofferKeyPurchase(231488),	-- Anvilrage, Warden's Breastplate
+							RelicCofferKeyPurchase(231463),	-- Arbiter's Blade
+							RelicCofferKeyPurchase(231472),	-- Argelmach's Breaking Bar
+							RelicCofferKeyPurchase(231492),	-- Barman Shanker
+							RelicCofferKeyPurchase(231450),	-- Belt of the Eminent Mason
+							RelicCofferKeyPurchase(231447),	-- Bloodclot Band
+							RelicCofferKeyPurchase(231399),	-- Bloodfist
+							RelicCofferKeyPurchase(231493),	-- Bottle-Popper Ring
+							RelicCofferKeyPurchase(231457),	-- Bottled Magma
+							RelicCofferKeyPurchase(231486),	-- Burning Spirit Tender's Mitts
+							RelicCofferKeyPurchase(231424),	-- Burst of Knowledge
+							RelicCofferKeyPurchase(231415),	-- Cape of the Fire Salamander
+							RelicCofferKeyPurchase(231425),	-- Chief Architect's Monocle
+							RelicCofferKeyPurchase(231404),	-- Cinderhide Armsplints
+							RelicCofferKeyPurchase(231412),	-- Circle of Flame
+							RelicCofferKeyPurchase(231489),	-- Dark Warder's Pauldrons
+							RelicCofferKeyPurchase(231431),	-- Deathdealer Breastplate
+							RelicCofferKeyPurchase(231476),	-- Dope'rel's Calling Rune
+							RelicCofferKeyPurchase(231474),	-- Dope'rel's Finger Gloves
+							RelicCofferKeyPurchase(231482),	-- Dragoon's Volley Gun
+							RelicCofferKeyPurchase(231395),	-- Earthslag Shoulders
+							RelicCofferKeyPurchase(231440),	-- Ebonsteel Spaulders
+							RelicCofferKeyPurchase(231407),	-- Emberplate Armguards
+							RelicCofferKeyPurchase(231455),	-- Embershard Pendant
+							RelicCofferKeyPurchase(231437),	-- Emperor's Seal
+							RelicCofferKeyPurchase(231392),	-- Enthralled Sphere
+							RelicCofferKeyPurchase(231448),	-- Entrenching Boots
+							RelicCofferKeyPurchase(231451),	-- Ferrous Cord
+							RelicCofferKeyPurchase(231484),	-- Fireguard's Lava-Dipped Cleaver
+							RelicCofferKeyPurchase(231400),	-- Fists of Phalanx
+							RelicCofferKeyPurchase(231413),	-- Flame Wrath
+							RelicCofferKeyPurchase(231464),	-- Flame-Tempered Skinner
+							RelicCofferKeyPurchase(231468),	-- Flamekeeper's Fire Blanket
+							RelicCofferKeyPurchase(231478),	-- Flamekeeper's Handwraps
+							RelicCofferKeyPurchase(231483),	-- Flamelash's Fiery Spike
+							RelicCofferKeyPurchase(231467),	-- Flamelord's Emberstaff
+							RelicCofferKeyPurchase(231401),	-- Flamestrider Robes
+							RelicCofferKeyPurchase(231485),	-- Flamewalker Scale Spaulders
+							RelicCofferKeyPurchase(231406),	-- Flameweave Cuffs
+							RelicCofferKeyPurchase(231409),	-- Force of Magma
+							RelicCofferKeyPurchase(231414),	-- Force of Will
+							RelicCofferKeyPurchase(231444),	-- Foreman's Head Protector
+							RelicCofferKeyPurchase(231430),	-- Ghostshroud
+							RelicCofferKeyPurchase(231494),	-- Golem Carapace Opener
+							RelicCofferKeyPurchase(231443),	-- Golem Fitted Pauldrons
+							RelicCofferKeyPurchase(231471),	-- Golem Gearbox
+							RelicCofferKeyPurchase(231446),	-- Greaves of Withering Despair
+							RelicCofferKeyPurchase(231491),	-- Grebmar's Catch Pole
+							RelicCofferKeyPurchase(231465),	-- Grizzle's Skinne
+							RelicCofferKeyPurchase(231435),	-- Guiding Stave of Wisdom
+							RelicCofferKeyPurchase(231417),	-- Hand of Justice
+							RelicCofferKeyPurchase(231439),	-- Hands of the Exalted Herald
+							RelicCofferKeyPurchase(231434),	-- Haunting Specter Leggings
+							RelicCofferKeyPurchase(231456),	-- Heart of Roccor
+							RelicCofferKeyPurchase(231487),	-- Helm of the Molten Avatar
+							RelicCofferKeyPurchase(231393),	-- Houndmaster's Bow
+							RelicCofferKeyPurchase(231436),	-- Imperial Jewel
+							RelicCofferKeyPurchase(231427),	-- Impervious Giant
+							RelicCofferKeyPurchase(231458),	-- Insolent Dark Iron's Vest
+							RelicCofferKeyPurchase(231391),	-- Kentic Amice
+							RelicCofferKeyPurchase(231403),	-- Kindling Stave
+							RelicCofferKeyPurchase(231408),	-- Lavacrest Leggings
+							RelicCofferKeyPurchase(231388),	-- Lead Surveyor's Belt
+							RelicCofferKeyPurchase(231449),	-- Leggings of Frenzied Magic
+							RelicCofferKeyPurchase(231432),	-- Legplates of the Eternal Guardian
+							RelicCofferKeyPurchase(231419),	-- Lord General's Sword
+							RelicCofferKeyPurchase(231389),	-- Luminary Robe
+							RelicCofferKeyPurchase(231461),	-- Magma Giant's Crown
+							RelicCofferKeyPurchase(231454),	-- Magma-Shot Boomstick
+							RelicCofferKeyPurchase(231445),	-- Mantle of Lost Hope
+							RelicCofferKeyPurchase(231416),	-- Molten Fists
+							RelicCofferKeyPurchase(231462),	-- Molten Furnace
+							RelicCofferKeyPurchase(231398),	-- Molten Ironfoe
+							RelicCofferKeyPurchase(231396),	-- Naglering
+							RelicCofferKeyPurchase(231423),	-- Omnicast Boots
+							RelicCofferKeyPurchase(231405),	-- Pyremail Wristguards
+							RelicCofferKeyPurchase(231429),	-- Robes of the Royal Crown
+							RelicCofferKeyPurchase(231421),	-- Royal Decorated Armor
+							RelicCofferKeyPurchase(231397),	-- Rubicund Armguards
+							RelicCofferKeyPurchase(231410),	-- Rubidium Hammer
+							RelicCofferKeyPurchase(231475),	-- Sabaton's of Anger'rel
+							RelicCofferKeyPurchase(231481),	-- Sapper's Waistplate
+							RelicCofferKeyPurchase(231411),	-- Sash of the Burning Heart
+							RelicCofferKeyPurchase(231442),	-- Sash of the Grand Hunt
+							RelicCofferKeyPurchase(231402),	-- Searingscale Leggings
+							RelicCofferKeyPurchase(231420),	-- Second Wind
+							RelicCofferKeyPurchase(231426),	-- Senior Designer's Pantaloons
+							RelicCofferKeyPurchase(231453),	-- Shard Splinter
+							RelicCofferKeyPurchase(231470),	-- Spare Golem Frame
+							RelicCofferKeyPurchase(231469),	-- Spare Golem Pauldrons
+							RelicCofferKeyPurchase(231390),	-- Spritecaster Cape
+							RelicCofferKeyPurchase(231394),	-- Stoneshell Guard
+							RelicCofferKeyPurchase(231438),	-- Swiftwalker Boots
+							RelicCofferKeyPurchase(231433),	-- Thaurissan's Royal Scepter
+							RelicCofferKeyPurchase(231473),	-- The Fifth's Linked Treads
+							RelicCofferKeyPurchase(231428),	-- The Hammer of Grace
+							RelicCofferKeyPurchase(231422),	-- Warstrife Leggings
+							RelicCofferKeyPurchase(231441),	-- Wristguards of Renown
+							n(223881, {	-- Braggi Brazenbrass <Raidfinder Relic Coffer Key Exchanger>
+								["coord"] = { 63.0, 49.8, TANARIS },
+								["sym"] = SYM_ALL_BRD_DROPS,
+							}),
+							n(233209, {	-- Kraegan Emberforge <Normal Relic Coffer Key Exchanger>
+								["coord"] = { 63.0, 49.8, TANARIS},
+								["sym"] = SYM_ALL_BRD_DROPS,
+							}),
+							n(224322, {	-- Hilda Hellforge <Heroic Relic Coffer Key Exchanger>
+								["coord"] = { 63.0, 49.8, TANARIS},
+								["sym"] = SYM_ALL_BRD_DROPS,
+							}),
+						},
+					}),
+					Difficulty(DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC).AddGroups({
+						ZoneDrops({}),
+						Boss(ROCCOR),
+						n(GERSTAHN, {
+							i(231488),	-- Anvilrage, Warden's Breastplate
+							i(231489),	-- Dark Warder's Pauldrons
+							i(231392),	-- Enthralled Sphere
+							i(231446),	-- Greaves of Withering Despair
+							i(231391),	-- Kentic Amice
+						}),
+						Boss(BAELGAR),
+						n(GREBMAR, {
+							i(231491),	-- Grebmar's Catch Pole
+							i(231465),	-- Grizzle's Skinne
+							i(231393),	-- Houndmaster's Bow
+							i(231390),	-- Spritecaster Cape
+						}),
+						Boss(INCENDIUS),
+						n(DARKVIRE, {
+							i(231450),	-- Belt of the Eminent Mason
+							i(231425),	-- Chief Architect's Monocle
+							i(231444),	-- Foreman's Head Protector
+							i(231494),	-- Golem Carapace Opener
+							i(231388),	-- Lead Surveyor's Belt
+							i(231426),	-- Senior Designer's Pantaloons
+						}),
+						n(PHALANX, {
+							i(231492),	-- Barman Shanker
+							i(231399),	-- Bloodfist
+							i(231493),	-- Bottle-Popper Ring
+							i(231451),	-- Ferrous Cord
+							i(231400),	-- Fists of Phalanx
+							i(231443),	-- Golem Fitted Pauldrons
+							i(231441),	-- Wristguards of Renown
+						}),
+						Boss(ARGELMACH),
+						Boss(THE_SEVEN),
+						Boss(ANGERFORGE),
+						Boss(FLAMELASH),
+						n(LOREGRAIN, {
+							i(231448),	-- Entrenching Boots
+							i(231401),	-- Flamestrider Robes
+							i(231403),	-- Kindling Stave
+							i(231402),	-- Searingscale Leggings
+						}),
+						Boss(DAGRAN, {
+							i(224278),	-- Timewarped Ironforge Blueprints (QI!)
+						}),
+					}),
+					Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
+						CommonBossDrops({
+							i(231510, {	-- Timewarped Relic Coffer Key
+								["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
+							}),
+						}),
+					}),
+					Difficulty(DIFFICULTY.RAID.NORMAL, {["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7}}).AddGroups({
+						CommonBossDrops({
+							i(232365, {	-- Timewarped Relic Coffer Key
+								["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
+							}),
+						}),
+					}),
+					Difficulty(DIFFICULTY.RAID.HEROIC, {["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7}}).AddGroups({
+						CommonBossDrops({
+							i(232366, {	-- Timewarped Relic Coffer Key
+								["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
+							}),
+						}),
+					}),
+				},
+			}),
 			n(GROUP_FINDER, sharedData({
 				["maps"] = { 2354 },	-- Silithus
 			},{
@@ -2925,6 +2935,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 							["sym"] = SYM_ALL_BRD_DROPS,
 						}),
+						-- #IF AFTER 11.2.5
+						currency(TIMEWARPED_BADGE),
+						-- #ENDIF
 					},
 				}),
 			}),
