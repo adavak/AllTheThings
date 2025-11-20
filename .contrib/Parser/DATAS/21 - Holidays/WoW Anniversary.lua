@@ -265,7 +265,7 @@ local EncounterToCRS = {
 		226308,	-- Vile'rel
 	},
 	[ANGERFORGE] = { 226316 },	-- General Angerforge
-	[FLAMELASH] = { 226302 },		-- Ambassador Flamelash
+	[FLAMELASH] = { 226302 },	-- Ambassador Flamelash
 	[DAGRAN] = {
 		226305,	-- Emperor Dagran Thaurissan
 		226314,	-- Moira Bronzebeard
@@ -519,16 +519,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			ach(8820, {	-- 10th Anniversary
 				i(115301),	-- Molten Corgi (PET!)
 			}),
-			ach(9729, {		-- Victory in Hillsbrad (Alliance)
+			ach(9729, {	-- Victory in Hillsbrad (Alliance)
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					title(280),		-- <Name>, Tarren Mill Terror
+					title(280),	-- <Name>, Tarren Mill Terror
 				},
 			}),
-			ach(9566, {		-- Victory in Hillsbrad (Horde)
+			ach(9566, {	-- Victory in Hillsbrad (Horde)
 				["races"] = HORDE_ONLY,
 				["groups"] = {
-					title(281),		-- <Name>, Southshore Slayer
+					title(281),	-- <Name>, Southshore Slayer
 				},
 			}),
 			n(MAILBOX, {
@@ -2508,46 +2508,48 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		{	-- Recurring Content
 			n(ACHIEVEMENTS, {
 				ach(40976, {	-- A Cool Twenty Years
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						40996,	-- A Gatecrasher
-						40994,	-- An Original
-						40990,	-- Balloonist
-						40977,	-- Codex Editor: Ahn'Qiraj
-						40987,	-- Fashion Critic
-						40985,	-- I Have That One!
-						40992,	-- Peanut Gallery
-						40989,	-- Pet Mischief
-					}},
+					["maps"] = {TANARIS},
 					["groups"] = {
 						i(228760),	-- Coldflame Tempest (MOUNT!)
 					},
 				}),
-				ach(41015),		-- A Dark Iron Past
-				ach(40996),		-- A Gatecrasher (automated)
-				ach(40998),		-- A Timewalking Step Back to a Classic Dungeon Time (automated)
-				ach(41000),		-- A Timewalking Journey Back to a Classic Dungeon Time (automated)
-				ach(40994),		-- An Original (automated)
+				ach(41015, {	-- A Dark Iron Past
+					["maps"] = {
+						2362,	-- Shadowforge City
+						2363,	-- Detention Block
+					},
+				}),
+				achpart(40996, 40997),	-- A Gatecrasher (automated) / The Gatecrashers (full)
+				ach(40998),	-- A Timewalking Step Back to a Classic Dungeon Time (automated)
+				ach(41000),	-- A Timewalking Journey Back to a Classic Dungeon Time (automated)
+				achpart(40994, 40995),	-- An Original (automated) / The Originals (full)
 				ach(40993, {	-- Avid Listener
-					crit(70553),	-- Listen to 'The Heroes of the Scarab Wall' story
-					crit(70555),	-- Listen to 'The Mercy of Baine Bloodhoof' story
-					crit(70554),	-- Listen to 'The Tragedy of Thassarian' story
+					["maps"] = {TANARIS},
+					["groups"] = {
+						crit(70553),	-- Listen to 'The Heroes of the Scarab Wall' story
+						crit(70555),	-- Listen to 'The Mercy of Baine Bloodhoof' story
+						crit(70554),	-- Listen to 'The Tragedy of Thassarian' story
+					},
 				}),
-				ach(40990),		-- Balloonist
-				ach(40984),		-- Big Fan
-				ach(41033),		-- Classy Dresser
-				ach(40987),		-- Fashion Critic
+				achpart(40990, 40991, {["maps"] = {TANARIS}}),	-- Balloonist / Frequent Flyer (full)
+				ach(40984, {["maps"] = {TANARIS}}),	-- Big Fan
+				ach(41033, {["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7}}),	-- Classy Dresser
+				ach(40987, {["maps"] = {TANARIS}}),	-- Fashion Critic
 				ach(40991, {	-- Frequent Flyer
-					crit(70549, {["crs"]={225017}}),	-- Bronze Balloon
-					crit(70550, {["crs"]={228529}}),	-- Dark Blue Balloon
-					crit(70548, {["crs"]={225252}}),	-- Gold Balloon
-					crit(70551, {["crs"]={228530}}),	-- Light Blue Balloon
+					["maps"] = {TANARIS},
+					["groups"] = {
+						crit(70549, {["crs"]={225017}}),	-- Bronze Balloon
+						crit(70550, {["crs"]={228529}}),	-- Dark Blue Balloon
+						crit(70548, {["crs"]={225252}}),	-- Gold Balloon
+						crit(70551, {["crs"]={228530}}),	-- Light Blue Balloon
+					},
 				}),
-				ach(40985),		-- I Have That One!
-				ach(40986),		-- Mount Master
-				ach(40992),		-- Peanut Gallery
+				ach(40985, {["maps"] = {TANARIS}}),	-- I Have That One!
+				ach(40986, {["maps"] = {TANARIS}}),	-- Mount Master
+				ach(40992, {["maps"] = {TANARIS}}),	-- Peanut Gallery
 				ach(40989, {	-- Pet Mischief
 					["provider"] = { "i", 224157 },	-- Pet Mirror
+					["maps"] = {TANARIS},
 				}),
 				ach(40988, {	-- Photo Op!
 					["crs"] = {
@@ -2576,12 +2578,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						226191,	-- Waking Shores
 						226190,	-- Azure Span
 					},
+					["maps"] = {TANARIS},
 				}),
-				ach(40997),		-- The Gatecrashers (automated)
-				ach(40995),		-- The Originals (automated)
-				ach(41038),		-- Token Collector
-				ach(41013),		-- Upgraded Apparel
-				ach(40661, {		-- Zoomies!
+				ach(40997),	-- The Gatecrashers (automated)
+				ach(40995),	-- The Originals (automated)
+				ach(41038, {["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7}}),	-- Token Collector
+				ach(41013, {["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7}}),	-- Upgraded Apparel
+				ach(40661, {	-- Zoomies!
 					["provider"] = { "i", 224157 },	-- Pet Mirror
 					["crs"] = { 227559 },	-- Zoomy Treat
 					["coords"] = {
@@ -2608,7 +2611,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				["isRaid"] = true,
 				["groups"] = {
 					n(ACHIEVEMENTS, {
-						ach(40999, {		-- You're in Your Blackrock Depths
+						ach(40999, {	-- You're in Your Blackrock Depths
 							crit(70642, {	-- Lord Roccor
 								["_encounter"] = { ROCCOR, DIFFICULTY.RAID.MULTI.ALL_WITHOUT_MYTHIC },
 							}),
@@ -2683,8 +2686,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						------ Stay awhile and listen ------
 						hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
 							["name"] = "Stay awhile and listen: Moira Thaurissan",
-							["description"] = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
 							-- #IF BEFORE 11.2.5
+							["description"] = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
 							["sourceQuests"] = { 82817 },	-- Disturbance Detected: Blackrock Depths (Completed)
 							-- #ENDIF
 							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
