@@ -1283,8 +1283,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80592, 1 }},	-- Mogu Pumpkin Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80592, 1 }},	-- Mogu Pumpkin Seeds
 					}),
 				}),
 				q(31942, {	-- It's Melon Time
@@ -1292,8 +1292,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 89329, 1 }},	-- Striped Melon Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 89329, 1 }},	-- Striped Melon Seeds
 					}),
 				}),
 				q(31673, {	-- Red Blossom Leeks, You Make the Croc-in' World Go Down
@@ -1301,8 +1301,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80593, 1 }},	-- Red Blossom Leek Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80593, 1 }},	-- Red Blossom Leek Seeds
 					}),
 				}),
 				q(30337, {	-- Simian Sabotage
@@ -1340,8 +1340,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 89328, 1 }},	-- Jade Squash Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 89328, 1 }},	-- Jade Squash Seeds
 					}),
 				}),
 				q(30335, {	-- Stalling the Ravage
@@ -1378,8 +1378,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80590, 1 }},	-- Juicycrunch Carrot Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80590, 1 }},	-- Juicycrunch Carrot Seeds
 					}),
 				}),
 				q(31669, {	-- The Cabbage Test
@@ -1387,8 +1387,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 79102, 1 }},	-- Green Cabbage Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 79102, 1 }},	-- Green Cabbage Seeds
 					}),
 				}),
 				q(30336, {	-- The Kunzen Hunter-Chief
@@ -1414,8 +1414,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80594, 1 }},	-- Pink Turnip Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80594, 1 }},	-- Pink Turnip Seeds
 					}),
 				}),
 				q(31675, {	-- The White Turnip Treatment
@@ -1423,8 +1423,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80595, 1 }},	-- White Turnip Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80595, 1 }},	-- White Turnip Seeds
 					}),
 				}),
 				q(31943, {	-- Which Berries? Witchberries.
@@ -1432,8 +1432,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 89326, 1 }},	-- Witchberry Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 89326, 1 }},	-- Witchberry Seeds
 					}),
 				}),
 				q(31671, {	-- Why Not Scallions?
@@ -1441,8 +1441,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80591, 1 }},	-- Scallion Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80591, 1 }},	-- Scallion Seeds
 					}),
 				}),
 			})),
@@ -1965,8 +1965,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80595, 8 }},	-- White Turnip Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80595, 8 }},	-- White Turnip Seeds
 					}),
 				}),
 				q(32648, {	-- Work Order: Golden Lotus II
@@ -2025,8 +2025,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 79102, 8 }},	-- Green Cabbage Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 79102, 8 }},	-- Green Cabbage Seeds
 					}),
 				}),
 				q(32650, {	-- Work Order: Shado-Pan II
@@ -2084,8 +2084,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							{ "i", 89329 },	-- Striped Melon Seeds
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 89329, 8 }},	-- Striped Melon Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 89329, 8 }},	-- Striped Melon Seeds
 					}),
 				}),
 				q(32657, {	-- Work Order: The August Celestials II
@@ -2111,8 +2111,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["providers"] = {
 							{ "n", 59990 },	-- Tilled Soil
 						},
-						["cost"] = {{ "i", 80592, 8 }},	-- Mogu Pumpkin Seeds
 						["coord"] = { 52.0, 48.6, VALLEY_OF_THE_FOUR_WINDS },
+						["cost"] = {{ "i", 80592, 8 }},	-- Mogu Pumpkin Seeds
 					}),
 				}),
 				q(32659, {	-- Work Order: The Klaxxi II
