@@ -88,7 +88,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				{"finalize"},
 
 				-- Antorus, the Burning Throne
-				{"select","instanceID",959},{"pop"},
+				{"select","instanceID",946},{"pop"},
 				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
 				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
 			},
