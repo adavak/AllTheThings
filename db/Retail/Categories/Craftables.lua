@@ -3997,7 +3997,7 @@ i(87883,{awp=50004,c=a[239],f=111,lvl=11,spellID=125739})}),
 flt(1,{
 s(21393,44210,{f=1,lvl=29}),
 s(18376,38322,{f=1,lvl=29}),
-i(45854,{awp=30100,collectible=false,description="This version of the off-hand is a placeholder for the four available versions of it, and crafting it gives you a random one of the four. The four available versions of the off-hands have the same stats, but offer a different coloured giant wholf.",f=1,lvl=27,spellID=64052,g={
+ah(45854,{awp=30100,description="This version of the off-hand is a placeholder for the four available versions of it, and crafting it gives you a random one of the four. The four available versions of the off-hands have the same stats, but offer a different coloured giant wholf.",providers={{"i",45854},{"s",64051}},type="i",g={
 s(267060,45850,{awp=30003,f=1,lvl=27,spellID=64048}),
 s(267057,45851,{awp=30003,f=1,lvl=27,spellID=64047}),
 s(267058,45852,{awp=30003,f=1,lvl=27,spellID=64049}),

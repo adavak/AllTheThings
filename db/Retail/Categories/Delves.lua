@@ -931,7 +931,7 @@ q(91780,{awp=110200,lvl=80,rwp=120000}),
 q(91781,{awp=110200,coords={a[33]},lvl=70,qgs=a[9],rwp=120000,sourceQuests={91780},g={
 i(248127,{b=1,f=55,lvl=80,questID=91783}),
 i(248126,{b=1,f=55,lvl=80,questID=91784})}}),
-q(91782,{awp=110200,coords={a[33]},lvl=70,qgs=a[9],rwp=120000,sourceQuests={91781},g={
+q(91782,{awp=110200,coords={a[33]},lvl=70,maps={2472},qgs=a[9],rwp=120000,sourceQuests={91781},g={
 o(563555,{coords={{47.5,44.4,2339}}}),
 o(564545,{coords={{47.1,19.9,2472}},g={
 i(248129,{lvl=80})}}),

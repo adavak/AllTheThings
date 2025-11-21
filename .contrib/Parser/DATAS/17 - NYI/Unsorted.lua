@@ -6174,31 +6174,8 @@ root(ROOTS.Unsorted, {
 			i(252751),	-- Snowy Winter Toque \\ Snowy Winter Hat
 			i(252752),	-- Sunny Winter Toque \\ Sunny Winter Hat
 			i(253520),	-- Enclave Aspirant's Hatchet
-			i(255827),	-- Collection: Wings of Awakening
-			i(255839),	-- Collection: Baby Murloc Satch-Shells
 			i(255881),	-- Severed Threads Commendation
-			i(257518),	-- Lil' Ashlee
-			i(258414),	-- Dottie
-			i(258418),	-- Gillvanas
-			i(258419),	-- Finduin
-			i(258422),	-- Ensemble: Wooly Wendigo
-			i(258423),	-- Gargantuan Grrloc
-			i(258425),	-- Ginormous Grrloc
-			i(258427),	-- Bound Blizzard
-			i(258428),	-- Snowstorm
-			i(258429),	-- Moon-Touched Netherwhelp
-			i(258430),	-- Wandering Ancient
-			i(258431),	-- Sarge's Tale
-			i(258432),	-- Drakks
-			i(258475),	-- Tuskarr Shoreglider
-			i(258476),	-- Frostbrood Proto-Wyrm
-			i(258477),	-- Telix the Stormhorn
-			i(258479),	-- Algarian Stormrider
-			i(258481),	-- Gnomelia Gearheart
-			i(258482),	-- Ysergle
-			i(258483),	-- Fathom
 			i(259454),	-- Ensemble: Regalia of Shackled Elements
-
 			i(242590),	-- Strom'kar, the Warbreaker
 			i(246013),	-- Thas'dorah, Legacy of the Windrunners
 		})),

@@ -1390,7 +1390,11 @@ i(183715, 332927);	-- Sinfall Gargon
 i(183937, 332400);	-- Sinful Gladiator's Soul Eater
 i(182614, 339588);	-- Sinrunner Blanchy
 i(182717, 340068);	-- Sintouched Deathwalker
+-- #if AFTER 11.2.5
+i(258428, 341821);	-- Snowstorm
+-- #else
 i(0, 341821);		-- Snowstorm
+-- #endif
 i(180725, 334364);	-- Spinemaw Gladechewer
 i(180773, 312765);	-- Sundancer
 i(180728, 312767);	-- Swift Gloomhoof
@@ -1450,7 +1454,11 @@ i(186477, 353873);	-- Pale Gravewing
 i(187183, 356501);	-- Rampaging Mauler
 i(186488, 353884);	-- Regal Corpsefly
 i(186656, 354351);	-- Sanctum Gloomcharger
+-- #if AFTER 11.2.5
+i(258431, 356488);	-- Sarge's Tale
+-- #else
 i(0, 356488);		-- Sarge's Tale
+-- #endif
 i(186476, 353872);	-- Sinfall Gravewing
 i(186648, 347251);	-- Soaring Razorwing
 i(186657, 354352);	-- Soulbound Gloomcharger
@@ -1546,14 +1554,24 @@ i(0, 367190);		-- [DND] Test Mount JZB
 -----------------
 -- PATCH 9.2.7 --
 -----------------
+-- #if AFTER 11.2.5
+i(258476, 386452);	-- Frostbrood Proto-Wyrm
+i(258475, 370770);	-- Tuskarr Shoreglider
+-- #else
 i(0, 386452);		-- Frostbrood Proto-Wyrm
 i(0, 370770);		-- Tuskarr Shoreglider
+-- #endif
 
 ------------------
 -- PATCH 10.0.0 --
 ------------------
+-- #if AFTER 11.2.5
+i(258423, 315132);		-- Gargantuan Grrloc
+i(258477, 381529);		-- Telix the Stormhorn
+-- #else
 i(0, 315132);		-- Gargantuan Grrloc
 i(0, 381529);		-- Telix the Stormhorn
+-- #endif
 --- NYI ---
 i(0, 371571);		-- Dragon Isles Drake Model Test
 i(0, 372995);		-- Swift Spectral Drake
@@ -1695,13 +1713,25 @@ i(206673, 414316);	-- White War Wolf
 ------------------
 -- PATCH 10.1.7 --
 ------------------
+-- #if AFTER 11.2.5
+i(258479, 417888);	-- Algarian Stormrider
+-- #else
 i(0, 417888);		-- Algarian Stormrider
+-- #endif
 i(208572, 420097);	-- Azure Worldchiller
+-- #if AFTER 11.2.5
+i(258427, 358072);		-- Bound Blizzard
+-- #else
 i(0, 358072);		-- Bound Blizzard
+-- #endif
 i(137576, 171840);	-- Coldflame Infernal
 i(198824, 385262);	-- Duskwing Ohuna
 i(208598, 419345);	-- Eve's Ghastly Rider
+-- #if AFTER 11.2.5
+i(258425, 419567);	-- Ginormous Grrloc
+-- #else
 i(0, 419567);		-- Ginormous Grrloc
+-- #endif
 i(203727, 400976);	-- Gleaming Moonbeast
 i(192807, 374278);	-- Renewed Magmammoth
 i(205208, 408654);	-- Sandy Shalewing

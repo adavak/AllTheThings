@@ -2543,7 +2543,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		q(56226, {	-- WANTED: Gler'thogg (H)
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
 			["sourceQuest"] = 55500,	-- Save a Friend
-			["provider"] = { "o", 326142 },	-- Bounty Board
+			["provider"] = { "o", 327585 },	-- Bounty Board
 			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,

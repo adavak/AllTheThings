@@ -443,7 +443,11 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(EPIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased a Epic Upgrade Edition of Wrath of the Lich King Classic.",
 			["groups"] = {
+				-- #if AFTER 11.2.5
+				i(258475),	-- Tuskarr Shoreglider (MOUNT!)
+				-- #else
 				mount(370770),	-- Tuskarr Shoreglider (MOUNT!)
+				-- #endif
 			},
 		}),
 	})),
@@ -655,7 +659,11 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Dragonflight Heroic Edition.",
 			["groups"] = {
+				-- #if AFTER 11.2.5
+				i(258432, {	-- Drakks (PET!)
+				-- #else
 				pet(3177, {	-- Drakks (PET!)
+				-- #endif
 					["description"] = "This is a pre-order bonus only available before the launch of Dragonflight.",
 					["timeline"] = { REMOVED_10_0_2 },
 				}),
@@ -671,11 +679,15 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			["description"] = "These rewards were made available to anyone who purchased Dragonflight Epic Edition.",
 			["groups"] = {
 				i(193588),	-- Timewalker's Hearthstone (TOY!)
+				-- #if AFTER 11.2.5
+				iensemble(255827),	-- Collection: Wings of Awakening
+				-- #else
 				i(188257),	-- Azure Wings of Awakening
 				i(188258),	-- Bronze Wings of Awakening
 				i(188259),	-- Emerald Wings of Awakening
 				i(188260),	-- Ruby Wings of Awakening
 				i(188256),	-- Obsidian Wings of Awakening
+				-- #endif
 				i(193610),	-- Diadem of the Spell-Keeper
 			},
 		}),
@@ -684,7 +696,11 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased The War Within Heroic Edition.",
 			["groups"] = {
+				-- #if AFTER 11.2.5
+				i(258479),	-- Algarian Stormrider (MOUNT!)
+				-- #else
 				mount(417888),	-- Algarian Stormrider (MOUNT!)
+				-- #endif
 				ach(19027),	-- Heroic Edition: Algarian Stormrider
 				iensemble(209336),	-- Ensemble: Stormrider's Attire
 				skyriding(n(DRAGONRIDING_RACING, {

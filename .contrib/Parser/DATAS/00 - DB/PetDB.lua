@@ -3249,8 +3249,13 @@ i(169195, 0);		-- Golden Cricket
 -- PATCH 8.2.5 --
 -----------------
 i(172493, 2794);	-- Crimson Skipper
+-- #if AFTER 11.2.5
+i(258419, 2778);	-- Finduin
+i(258418, 2777);	-- Gillvanas
+-- #else
 i(0, 2778);			-- Finduin
 i(0, 2777);			-- Gillvanas
+-- #endif
 i(0, 2795);			-- Jenafur
 i(172016, 2621);	-- Lil' Nefarian
 i(172491, 2792);	-- Papi
@@ -3266,7 +3271,11 @@ i(174476, 2848);	-- Aqir Tunneler
 i(174474, 2846);	-- Corrupted Tentacle
 i(174481, 2850);	-- Cursed Dune Watcher
 i(174457, 2838);	-- C'Thuffer
+-- #if AFTER 11.2.5
+i(258414, 2623);	-- Dottie
+-- #else
 i(0, 2623);			-- Dottie
+-- #endif
 i(174449, 2835);	-- Ra'kim
 i(174828, 2868);	-- Experiment 13
 i(174452, 2836);	-- Eye of Corruption
@@ -3422,7 +3431,11 @@ i(181171, 2947);	-- Luminous Webspinner
 i(183191, 3029);	-- Maw Crawler
 i(183194, 3033);	-- Maw Stalker
 i(181269, 2959);	-- Micromancer
+-- #if AFTER 11.2.5
+i(258429, 3053);	-- Moon-Touched Netherwhelp
+-- #else
 i(0, 3053);			-- Moon-Touched Netherwhelp
+-- #endif
 i(181282, 2963);	-- Mu'dud
 i(181164, 2944);	-- Oonar's Arm
 i(180628, 2923);	-- Pearlwing Heron
@@ -3685,7 +3698,11 @@ n(185475, 3246);	-- Tezpet
 -----------------
 -- PATCH 9.2.5 --
 -----------------
+-- #if AFTER 11.2.5
+i(258432, 3177);	-- Drakks
+-- #else
 i(0, 3177);			-- Drakks
+-- #endif
 i(190586, 3249);	-- Lil' Ursoc
 i(0, 3175);			-- Murkastrasza
 
@@ -4020,11 +4037,19 @@ i(0, 4237);			-- Treanthony
 i(211271, 3491);	-- Arfus
 i(205024, 3523);	-- Cheddar
 i(205010, 3516);	-- Crimson Swoglet
+-- #if AFTER 11.2.5
+i(258481, 3236);	-- Gnomelia Gearheart
+-- #else
 i(0, 3236);			-- Gnomelia Gearheart
+-- #endif
 i(208543, 4265);	-- Lil' Frostwing
 i(208850, 4267);	-- Lil' Maggz
 i(208751, 4266);	-- Squally
+-- #if AFTER 11.2.5
+i(258482, 3579);	-- Ysergle The Dreamurk
+-- #else
 i(0, 3579);			-- Ysergle The Dreamurk
+-- #endif
 
 ------------------
 -- PATCH 10.2.0 --
@@ -4086,7 +4111,11 @@ i(206174, 3582);	-- Blub
 -- #if BEFORE 11.0.7
 i(0, 4426);			-- Bubbles
 -- #endif
+-- #if AFTER 11.2.5
+i(258483, 4437);	-- Fathom
+-- #else
 i(0, 4437);			-- Fathom
+-- #endif
 -- #if BEFORE 11.0.7
 i(0, 4425);			-- Glamrok
 i(0, 4435);			-- Happy
@@ -4447,7 +4476,6 @@ i(244914, 4833);	-- Xanthous Siphonmite
 i(246694, 4859);	-- Zo'ya
 --- UNSORTED ---
 i(0, 4824);	-- Baby Karesh Fox - Orange
-i(257518, 4908);	-- Lil' Ashlee
 
 i(246723, 4860);	-- Unfazed Diver
 i(0, 4837);	-- Worm, Cosmic - Critter (Red)
@@ -4457,6 +4485,7 @@ i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 ------------------
 i(246339, 4854);	-- Duskytooth Fel Snooter
 i(252301, 4901);	-- Fledgeling Warden's Companion
+i(257518, 4908);	-- Lil' Ashlee
 i(239705, 4802);	-- Morsel
 i(246342, 4855);	-- Mustyfur Fel Snooter
 i(129108, 1751);	-- Son of Goredome

@@ -410,6 +410,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 
 		------ Murloc Shells Set ------
+		-- #if AFTER 11.2.5
+		iensemble(255839, {	-- Collection: Baby Murloc Satch-Shells
+			["timeline"] = { ADDED_11_2_5 },
+		}),
+		-- #else
 		i(188135, {	-- Frrgl's Shaking Shell
 			["timeline"] = { ADDED_9_1_5 },
 		}),
@@ -419,6 +424,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(188136, {	-- Mrrgl's Shiny Shell
 			["timeline"] = { ADDED_9_1_5 },
 		}),
+		-- #endif
 
 		------ Spirit Healer Collection ------
 		iensemble(239481, { ["timeline"] = { ADDED_11_2_0 } }),	-- Arsenal: Soul-Touched Collection
@@ -474,6 +480,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 
 		------ Single Pieces ------
+		-- #if AFTER 11.2.5
+		iensemble(255827, {	-- Collection: Wings of Awakening
+			["timeline"] = { ADDED_11_2_5 },
+		}),
+		-- #else
 		i(188257, {	-- Azure Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
 		}),
@@ -492,6 +503,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(188256, {	-- Obsidian Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
 		}),
+		-- #endif
 
 		-- #if ANYCLASSIC
 		i(23705, {	-- Tabard of Flame
