@@ -112,20 +112,6 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9637),		-- Poor Communication
-					ach(9564, {	-- Securing Draenor (A)
-						["collectible"] = false,
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							crit(26258),	-- Assault on Shattrath Harbor
-						},
-					}),
-					ach(9562, {	-- Securing Draenor (Horde)
-						["collectible"] = false,
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							crit(26242),	-- Assault on Shattrath Harbor
-						},
-					}),
 					ach(9632),		-- The Power Is Yours
 					ach(9636),		-- United We Stand
 				}),

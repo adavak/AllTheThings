@@ -115,22 +115,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9564, {	-- Securing Draenor (Alliance)
-						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							crit(26250),	-- Assault on the Broken Precipice
-							crit(26252),	-- Assault on Mok'gol Watchpost
-						},
-					}),
-					ach(9562, {	-- Securing Draenor (Horde)
-						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							crit(26233),	-- Assault on the Broken Precipice
-							crit(26237),	-- Assault on Mok'gol Watchpost
-						},
-					}),
 					ach(9541, {	-- The Song of Silence
 						["sym"] = {{ "achievement_criteria" }},
 					}),

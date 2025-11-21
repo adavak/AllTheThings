@@ -115,22 +115,6 @@ root(ROOTS.Zones, {
 					ach(9600, {		-- Monster Mash (Lost Veil Anzu)
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9564, {	-- Securing Draenor (Alliance)
-						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							crit(26255),	-- Assault on Skettis
-							crit(26256),	-- Assault on Pillars of Fate
-						},
-					}),
-					ach(9562, {	-- Securing Draenor (Horde)
-						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							crit(26240),	-- Assault on Pillars of Fate
-							crit(26243),	-- Assault on Skettis
-						},
-					}),
 				}),
 				petbattle(filter(BATTLE_PETS, {
 					["sym"] = {{"select","speciesID",

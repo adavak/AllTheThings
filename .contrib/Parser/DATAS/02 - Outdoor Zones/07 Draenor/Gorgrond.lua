@@ -172,22 +172,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9564, {	-- Securing Draenor (A)
-						["collectible"] = false,
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							crit(26248),	-- Assault on the Pit
-							crit(26249),	-- Assault on the Everbloom Wilds
-						},
-					}),
-					ach(9562, {	-- Securing Draenor (H)
-						["collectible"] = false,
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							crit(26229),	-- Assault on the Pit
-							crit(26232),	-- Assault on the Everbloom Wilds
-						},
-					}),
 					ach(9401),		-- Shredder Maniac
 				}),
 				petbattle(filter(BATTLE_PETS, {

@@ -1306,10 +1306,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		filter(HELD_IN_OFF_HAND, {
 			i(44210),	-- Faces of Doom
 			i(38322),	-- Iron-Bound Tome
-			i(45854, {	-- Rituals of the New Moon
+			salvagerecipe(64051, 45854, {	-- Rituals of the New Moon
 				["description"] = "This version of the off-hand is a placeholder for the four available versions of it, and crafting it gives you a random one of the four. The four available versions of the off-hands have the same stats, but offer a different coloured giant wholf.",
 				["timeline"] = { ADDED_3_1_0 },
-				["collectible"] = false,
 				["groups"] = {
 					i(45850),	-- Rituals of the New Moon (red wolf)
 					i(45851),	-- Rituals of the New Moon (white wolf)

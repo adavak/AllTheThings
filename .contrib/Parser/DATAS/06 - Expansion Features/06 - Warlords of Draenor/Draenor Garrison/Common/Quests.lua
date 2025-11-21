@@ -1568,11 +1568,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26254, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36692, {	-- Assault on Darktide Roost [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1582,11 +1577,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26239, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36681, {	-- Assault on Lost Veil Anzu [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1614,11 +1604,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26247, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36697, {	-- Assault on Magnarok [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1628,11 +1613,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26228, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36678, {	-- Assault on Mok'gol Watchpost [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1642,11 +1622,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26252, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36693, {	-- Assault on Mok'gol Watchpost [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1656,11 +1631,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26237, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36682, {	-- Assault on Pillars of Fate [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1670,11 +1640,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26256, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36689, {	-- Assault on Pillars of Fate [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1684,11 +1649,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26240, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36649, {	-- Assault on Shattrath Harbor [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1698,11 +1658,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26258, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36667, {	-- Assault on Shattrath Harbor [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1712,11 +1667,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26242, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36683, {	-- Assault on Skettis [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1726,11 +1676,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26255, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36688, {	-- Assault on Skettis [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1740,11 +1685,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26243, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36680, {	-- Assault on Socrethar's Rise [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1754,11 +1694,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26253, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36691, {	-- Assault on Socrethar's Rise [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1768,11 +1703,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26238, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36648, {	-- Assault on Stonefury Cliffs [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1782,11 +1712,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26245, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36669, {	-- Assault on Stonefury Cliffs [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1796,11 +1721,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26226, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36677, {	-- Assault on the Broken Precipice [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1810,11 +1730,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26250, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36694, {	-- Assault on the Broken Precipice [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1824,11 +1739,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26233, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36676, {	-- Assault on the Everbloom Wilds [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1838,11 +1748,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26249, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36695, {	-- Assault on the Everbloom Wilds [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1852,11 +1757,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26232, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36685, {	-- Assault on the Heart of Shattrath [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1884,11 +1784,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26244, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36696, {	-- Assault on the Iron Siegeworks [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1898,11 +1793,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26225, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36686, {	-- Assault on the Pit [A]
 				["provider"] = { "o", 236165 },	-- War Planning Map
@@ -1912,11 +1802,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26248, {
-						["achievementID"] = 9564,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(36701, {	-- Assault on the Pit [H]
 				["provider"] = { "o", 236206 },	-- War Planning Map
@@ -1926,11 +1811,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-				["groups"] = {
-					crit(26229, {
-						["achievementID"] = 9562,	-- Securing Draenor
-					}),
-				},
 			}),
 			q(38929, {	-- Battle Hardened
 				["qg"] = 94870,	-- Seer Kazal
