@@ -20,8 +20,9 @@ GUEST_RELATIONS = createHeader({
 		tw = "公關",
 	},
 });
-root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+root(ROOTS.Secrets, n(GUEST_RELATIONS, {
 	["description"] = "***Using Debug Mode is recommended.***\n",
+	["timeline"] = { ADDED_11_0_5 },
 	["groups"] = {
 		n(ACHIEVEMENTS, {
 			ach(40870, {	-- Azeroth's Greatest Detective
@@ -37,7 +38,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 		}),
-		n(QUESTS, bubbleDownSelf({ ["timeline"] = { "removed 11.0.7.58238" } }, {
+		n(QUESTS, {
 			-- Tutorial Questline
 			q(84143, {	-- Lost and Busy
 				["provider"] = { "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
@@ -139,7 +140,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-		})),
+		}),
 		n(VENDORS, {
 			n(226766, {	-- Benatauk <Unco Benny>
 				["description"] = "You need to get up to the quest 'A Whiff of Help' in the chain and accept it in order to buy the items.",
@@ -197,7 +198,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 		}),
-		header(HEADERS.Achievement, 40872, bubbleDownSelf({ ["timeline"] = { "removed 11.0.7.58238" } }, {	-- I Saved the Party and All I Got Was This Lousy Hat
+		header(HEADERS.Achievement, 40872, {	-- I Saved the Party and All I Got Was This Lousy Hat
 			ach(40872, {	-- I Saved the Party and All I Got Was This Lousy Hat (automated)
 				i(234448),	-- Bright Ideas Thinking Cap
 				i(231906),	-- High-Alert Thinking Cap
@@ -591,8 +592,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-		})),
-		header(HEADERS.Achievement, 40871, bubbleDownSelf({ ["timeline"] = { "removed 11.0.7.58238" } }, {	-- Assistant to the Assistant Guest Relations Manager
+		}),
+		header(HEADERS.Achievement, 40871, {	-- Assistant to the Assistant Guest Relations Manager
 			ach(40871, {	-- Assistant to the Assistant Guest Relations Manager (automated)
 				i(231907),	-- Tricked-Out Thinking Cap
 			}),
@@ -973,7 +974,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-		})),
+		}),
 		header(HEADERS.Achievement, 40979, {	-- No Crate Left Behind
 			ach(40979, {	-- No Crate Left Behind
 				["sourceQuests"] = {
@@ -1600,7 +1601,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 		}),
 	},
-})));
+}))
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 	n(GUEST_RELATIONS, {
