@@ -6,10 +6,10 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(BROKEN_SHORE, {
 			["icon"] = 1408999,
-			["lore"] = "The Broken Shore was introduced in Patch 7.2 with World Quests, Armies of Legionfall reputation, Nethershards, and a new dungeon and raid.",
-			["timeline"] = { ADDED_7_2_0 },
+			["lore"] = "The Broken Shore was introduced to the campaign in Patch 7.2 with World Quests, Armies of Legionfall reputation, Nethershards, and a new dungeon and raid.",
+			["timeline"] = { ADDED_7_0_3_LAUNCH },
 			["maps"] = { 676 },	-- Broken Shore (Opening Warrior OH map)
-			["groups"] = {
+			["groups"] = bubbleDown({ ["timeline"] = { ADDED_7_2_0 }, }, {
 				n(ACHIEVEMENTS, {
 					ach(11731),	-- A Magic Contribution
 					ach(11732),	-- A Magnificent Contribution
@@ -1361,6 +1361,15 @@ root(ROOTS.Zones, {
 						["coord"] = { 49.2, 48.4, BROKEN_SHORE },
 					}),
 				}),
+				n(TREASURES, {
+					o(268551, {	-- Curious Wyrmtongue Cache [Used first one out of many]
+						["cost"] = {{ "i", 143559, 1 }},	-- Wyrmtongue's Cache Key
+						["groups"] = {
+							i(147867),	-- Pilfered Sweeper (TOY!)
+							i(146953),	-- Scraps (PET!)
+						},
+					}),
+				}),
 				n(VENDORS, {
 					n(118403, {	-- Syaith <Loaner Demon>
 						["description"] = "/kiss her during the Where There is a Whip... WQ.",
@@ -1439,12 +1448,6 @@ root(ROOTS.Zones, {
 							}),
 							i(143559, {	-- Wyrmtongue's Cache Key
 								["cost"] = { { "c", 1226, 2000 }, },	-- 2,000x Nethershard
-								["groups"] = {
-									o(268551, {	-- Curious Wyrmtongue Cache [Used first one out of many]
-										i(147867),	-- Pilfered Sweeper (TOY!)
-										i(146953),	-- Scraps (PET!)
-									}),
-								},
 							}),
 						},
 					}),
@@ -1955,7 +1958,7 @@ root(ROOTS.Zones, {
 						-- can drop from pretty much any demon-related creature in Legion, but is mainly available on the Broken Shore
 					}),
 				}),
-			},
+			}),
 		}),
 	}),
 });
@@ -1964,10 +1967,8 @@ root(ROOTS.Zones, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
 	m(BROKEN_ISLES, {
 		m(BROKEN_SHORE, {
-			n(FACTIONS, {
-				n(EMISSARY_QUESTS, {
-					q(46802),	-- Paragon of the Legionfall Armies
-				}),
+			n(EMISSARY_QUESTS, {
+				q(46802),	-- Paragon of the Legionfall Armies
 			}),
 			n(QUESTS, {
 				q(47038),	-- 7.2 Broken Shore - Buildings - Activation Buff - Nether Disruptor - Seal Your Fate - Day 1 - Tracking
