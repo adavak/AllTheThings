@@ -1071,12 +1071,20 @@ local function BuildSourceParent(group)
 								NestObject(parent, thing, true)
 							end
 							break
+						-- or a map
 						elseif parent.mapID then
 							parent = app.CreateVisualHeaderWithGroups(CreateObject(parent, true))
 							parents[#parents + 1] = parent
 							-- achievement criteria can nest inside their Source for clarity
 							if isAchievement and KeepSourced[thing.key] then
 								NestObject(parent, thing, true)
+							end
+							break
+						-- or a header with tagged NCPs
+						elseif parent.headerID and parent.crs then
+							local npcs = parent.crs
+							for i=1,#npcs do
+								parents[#parents + 1] = app.CreateNPC(npcs[i])
 							end
 							break
 						end
