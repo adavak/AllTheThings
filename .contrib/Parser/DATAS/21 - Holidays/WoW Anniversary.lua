@@ -2670,8 +2670,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								{ 56.0, 18.4, STORMWIND_CITY },
 								-- #endif
 							},
-							["isWeekly"] = true,
 							["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7},
+							["isWeekly"] = true,
 							["groups"] = {
 								i(232471, {	-- Cache of Dark Iron Treasures
 									["sym"] = SYM_ALL_BRD_DROPS,
