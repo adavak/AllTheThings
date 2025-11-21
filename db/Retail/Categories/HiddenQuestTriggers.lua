@@ -1646,7 +1646,6 @@ h(-28,{
 q(48973,{lvl=45,type="hqt"}),
 q(48974,{lvl=45,type="hqt"})})}),
 h(-45,{
-q(48668,{lvl=45,type="hqt"}),
 q(47888,{type="hqt"}),
 q(47869,{type="hqt"}),
 q(49161,{type="hqt"}),

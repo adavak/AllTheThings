@@ -443,38 +443,6 @@ q(82809,{awp=110000,qgs={209681},u=3,g={
 p(4590,{b=1,itemID=224259,npcID=224716,spellID=452222,u=3}),
 p(4589,{b=1,itemID=224261,npcID=224717,spellID=452221,u=3}),
 p(4591,{b=1,itemID=224260,npcID=224718,spellID=452223,u=3})}})}})}}),
-h(-528,{awp=110200,u=3,g={
-h(-522,{description="These rewards were made available to anyone who purchased Midnight Heroic Edition.",u=3,g={
-ach(61401,{providers={{"s",1234305}},u=3}),
-en(248249,{questID=91814,spellID=1246785,tmogSetID=5165,u=3,g={
-s(295500,248378,{f=3}),
-s(295501,248379,{f=2}),
-s(295502,248380,{f=2}),
-s(295503,248381,{f=2}),
-s(295504,248382,{f=2}),
-s(295505,248383,{f=2}),
-s(295506,248384,{f=2}),
-s(295507,248385,{f=2}),
-s(295508,248386,{f=2}),
-s(295509,248387,{f=2})}}),
-mnt(1234305,{itemID=243020,lvl=30,u=3})}}),
-h(-523,{description="These rewards were made available to anyone who purchased Midnight Epic Edition.",u=3,g={
-ach(61402,{providers={{"s",1239138}},u=3}),
-p(4812,{itemID=243063,npcID=244146,spellID=1234591,u=3}),
-p(4811,{itemID=243062,npcID=244145,spellID=1234588,u=3}),
-mnt(1239138,{itemID=245610,lvl=30,u=3}),
-mnt(1234303,{itemID=243019,lvl=30,u=3}),
-en(248974,{questID=91953,spellID=1248235,tmogSetID=5164,u=3,g={
-s(295490,248368,{f=3}),
-s(295491,248369,{f=2}),
-s(295492,248370,{f=2}),
-s(295493,248371,{f=2}),
-s(295494,248372,{f=2}),
-s(295495,248373,{f=2}),
-s(295496,248374,{f=2}),
-s(295497,248375,{f=2}),
-s(295498,248376,{f=2}),
-s(295499,248377,{f=2})}})}})}}),
 h(-529,{awp=80205,description="These rewards are available to anyone who purchases World of Warcraft 15th Anniversary Collection.",rwp=100100,u=2,g={
 mnt(302361,{itemID=207964,lvl=10,r=2,u=2}),
 mnt(302362,{itemID=207963,lvl=10,r=1,u=2})}}),
@@ -768,7 +736,7 @@ mnt(356488,{u=3}),
 ach(15323,{u=3})}}),
 h(-544,{awp=100205,maps={1,84,2112},g={
 h(-12,{
-ach(19866,{providers={{"i",163186},{"s",278966}},u=2}),
+ach(19866,{providers={{"i",163186}},u=2}),
 ach(20033,{sym={{"partial_achievement",19724}},g={
 toy(211946,{
 i(212924,{f=55})})}}),

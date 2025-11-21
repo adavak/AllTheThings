@@ -63,7 +63,7 @@ crit(102781,{achID=41530,id=1,providers={a[3]},u=2}),
 crit(102780,{achID=41530,id=2,providers={a[4]},u=2}),
 crit(102784,{achID=40438,awp=110000,id=7})}})}}),
 q(86407,{isWeekly=1,providers={a[3],a[4]},type="hqt"})}}),
-q(87286,{isWeekly=1,providers={{"i",233186},{"o",507768},{"n",236942}},type="hqt"})}}),
+q(87286,{isWeekly=1,providers={{"i",233186},{"n",236942},{"o",507768}},type="hqt"})}}),
 h(-385,{awp=110200,g={
 h(-12,{rwp=120000,g={
 ach(42779,{crs=a[30],maps=a[11],g={
@@ -1571,7 +1571,7 @@ i(210981,{spellID=427849})}),
 cq(90951,{awp=110107,b=1,itemID=244903,spellID=1238257}),
 i(211209,{spellID=428379})}),
 h(-45,{
-q(83759,{coords={a[35],{35.6,27.1,2250}},lvl=70,providers={a[6],{"o",455713}}})}),
+q(83759,{coords={a[35],{35.6,27.1,2250}},lvl=70,providers={{"o",455713},a[6]}})}),
 h(-56,{awp=110000,g={
 o(455510,{coords={{46.2,19.8,2250}},questID=83665,g={
 crit(69525,{achID=40807,id=2})}}),
