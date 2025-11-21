@@ -162,6 +162,7 @@ end
 -- 5) That number goes into this table for the mapID
 local MapPrecisionOverrides = {
 	  [24] = 2,	-- Light's Hope Chapel
+	 [626] = 2,	-- The Hall of Shadows
 	 [629] = 3,	-- Aegwynn's Gallery
 	 [640] = 4,	-- Vault of Eyir, Stormheim
 	 [642] = 2,	-- Darkpens, Val'sharah
@@ -1040,7 +1041,10 @@ MobileDB.GameObject = {
 	[241908] = true,	-- Prince's Plunder (q:37565)
 	[242275] = true,	-- Nightmare Totem
 	[242669] = true,	-- Small Treasure Chest
+	[242994] = true,	-- Eyir's Helm (q:39092, 39155)
 	[242995] = true,	-- Eyir's Pauldron (q:39092, 39155)
+	[242996] = true,	-- Eyir's Shield (q:39092, 39155)
+	[242998] = true,	-- Eyir's Spear (q:39092, 39155)
 	[243007] = true,	-- Heathrow Cellar
 	[243089] = true,	-- Kur'talos Ravencrest's Sigil
 	[243099] = true,	-- Vibrating Arcane Trap
@@ -1455,6 +1459,7 @@ MobileDB.GameObject = {
 	[272782] = true,	-- Astral Glory
 	[272918] = true,	-- Gilded Triumvirate Chest (Seat of the Triumvirate)
 	[273052] = true,	-- Fel-Encrusted Herb
+	[273245] = true,	-- Vindicaar Matrix Core
 	[273270] = true,	-- Harbor Seaweed (q:48352)
 	[273274] = true,	-- Congealed Void Crystal (wq:48094)
 	[273292] = true,	-- Vindicaar Matrix Core (q:47287)

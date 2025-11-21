@@ -285,7 +285,14 @@ root(ROOTS.Zones, {
 						}),
 						q(48636, {	-- Fueling the Antoran Campaign
 							["sourceQuests"] = { 48912 },	-- Supplying the Antoran Campaign
-							["qg"] = 126954,	-- High Exarch Turalyon
+							["qgs"] = {
+								124312,	-- High Exarch Turalyon
+								126954,	-- High Exarch Turalyon
+							},
+							["coords"] = {
+								{ 39.8, 25.7, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 45.8, 24.9, THE_VINDICAAR_EREDATH_UPPER },
+							},
 							["cost"] = {{ "c", ORDER_RESOURCES, 900 }},	-- 900x Order Resources
 							["repeatable"] = true,
 							["groups"] = {
@@ -355,6 +362,7 @@ root(ROOTS.Zones, {
 							["altQuests"] = { 48202 },	-- Reinforce the Veiled Den — you get one of two quests depending on which camp is up at the time
 							["provider"] = { "n", 126954 },	-- High Exarch Turalyon
 							["coords"] = {
+								{ 33.5, 57.8, THE_VINDICAAR_ANTORAN_WASTES_LOWER },
 								{ 33.6, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 								{ 34.4, 57.2, THE_VINDICAAR_KROKUUN_UPPER },
 							},

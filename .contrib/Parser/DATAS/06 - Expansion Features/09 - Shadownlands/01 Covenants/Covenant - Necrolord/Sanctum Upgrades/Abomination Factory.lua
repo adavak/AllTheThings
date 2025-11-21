@@ -1055,7 +1055,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["_drop"] = { "g", "isDaily" },	-- Superior Parts is included from API
 										["groups"] = {
 											i(183142),	-- Call Professor (QI!)
-											i(183398),	-- Intriguing Ancient Relic (QI!)
+											o(358339, {	-- Pile of Debris
+												["coords"] = {
+													{ 69.1, 32.4, MALDRAXXUS },
+													{ 69.7, 31.9, MALDRAXXUS },
+													{ 69.9, 36.3, MALDRAXXUS },
+													{ 70.0, 33.6, MALDRAXXUS },
+													{ 70.0, 37.0, MALDRAXXUS },
+													{ 70.4, 31.3, MALDRAXXUS },
+													{ 70.5, 37.3, MALDRAXXUS },
+													{ 71.0, 32.0, MALDRAXXUS },
+													{ 71.0, 33.0, MALDRAXXUS },
+													{ 71.0, 35.8, MALDRAXXUS },
+													{ 71.5, 36.8, MALDRAXXUS },
+												},
+												["groups"] = { i(183398) },	-- Intriguing Ancient Relic (QI!)
+											}),
 										},
 									}),
 									q(61996, {	-- Say The Magic Words

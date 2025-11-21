@@ -229,7 +229,10 @@ root(ROOTS.Zones, {
 							48654,	-- Beneath Oronaar
 						},
 						["provider"] = { "n", 121230 },	-- Alleria Windrunner
-						["coord"] = { 39.6, 26.1, THE_VINDICAAR_KROKUUN_UPPER },
+						["coords"] = {
+							{ 39.6, 26.1, THE_VINDICAAR_KROKUUN_UPPER },
+							{ 45.8, 24.9, THE_VINDICAAR_EREDATH_UPPER },
+						},
 					}),
 					q(47217, {	-- Sources of Darkness
 						["sourceQuests"] = { 47203 },	-- Throwing Shade

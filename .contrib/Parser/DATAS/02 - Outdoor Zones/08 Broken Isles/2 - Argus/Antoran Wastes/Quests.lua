@@ -35,7 +35,10 @@ root(ROOTS.Zones, {
 							48654,	-- Beneath Oronaar
 						},
 						["provider"] = { "n", 124312 },	-- High Exarch Turalyon
-						["coord"] = { 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
+						["coords"] = {
+							{ 39.7, 26.3, THE_VINDICAAR_KROKUUN_UPPER },
+							{ 45.8, 24.9, THE_VINDICAAR_EREDATH_UPPER },
+						},
 					}),
 					q(47473, {	-- Sizing Up The Opposition (Light's Purchase)
 						["sourceQuests"] = { 48201 },	-- Reinforce Light's Purchase
@@ -50,7 +53,10 @@ root(ROOTS.Zones, {
 					q(48600, {	-- Take the Edge Off
 						["sourceQuests"] = { 48448 },	-- Hindering the Legion War Machine
 						["provider"] = { "n", 124312 },	-- High Exarch Turalyon
-						["coord"] = { 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
+						["coord"] = {
+							{ 39.7, 26.3, THE_VINDICAAR_KROKUUN_UPPER },
+							{ 45.8, 24.9, THE_VINDICAAR_EREDATH_UPPER },
+						},
 					}),
 					q(48870, {	-- The Many-Faced Devourer
 						["description"] = "You need to collect three bones from various locations around the zone. After you have done the initial collection and summoning process, you can always summon the rare.\n\nYou must have |cFFFFFFFFCall of the Devourer|r in your inventory to be able to see the bones.",

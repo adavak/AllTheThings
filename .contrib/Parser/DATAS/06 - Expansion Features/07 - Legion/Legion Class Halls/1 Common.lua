@@ -437,9 +437,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1785, {	-- Assault on Felfire Armory
 						q(48601, {	-- Felfire Shattering
-							["groups"] = {
-								i(153130),	-- Man'ari Training Amulet
+							["qgs"] = {
+								124312,	-- High Exarch Turalyon
+								126954,	-- High Exarch Turalyon
 							},
+							["coords"] = {
+								{ 39.7, 26.3, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 45.8, 24.9, THE_VINDICAAR_EREDATH_UPPER },
+							},
+							["groups"] = { i(153130) },	-- Man'ari Training Amulet
 						}),
 					}),
 					mission(1503, {	-- Council of War
