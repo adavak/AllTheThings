@@ -20,6 +20,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							i(253220),	-- Bulwark of Mannoroth (Cloak)
 						},
 					}),
+					ach(42627, {	-- Argussian Reach
+						i(250690, {	-- Eredar Lord’s Fel Torch (DECOR!)
+							["timeline"] = { ADDED_11_2_7 },
+						}),
+					}),
 					ach(42693),	-- Breaking the Legion I
 					ach(42694),	-- Breaking the Legion II
 					ach(42695),	-- Breaking the Legion III
@@ -45,17 +50,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}},
 					}),
 					ach(42612),	-- You Are Now Prepared!
-				}),
-				n(FACTIONS, {
-					faction(FACTION_ARGUSSIAN_REACH, {
-						n(ACHIEVEMENTS, {
-							ach(42627, {	-- Argussian Reach
-								i(250690, {	-- Eredar Lord’s Fel Torch (DECOR!)
-									["timeline"] = { ADDED_11_2_7 },
-								}),
-							}),
-						}),
-					}),
 				}),
 			},
 		}),
