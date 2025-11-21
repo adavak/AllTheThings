@@ -1091,7 +1091,6 @@ root(ROOTS.Unsorted, {
 			i(244817),	-- Recipe: Blood Hunter Lure
 			i(244818),	-- Recipe: Rootland Crab Lure
 			i(244844),	-- Twilight's Blade Missive
-			i(244911),	-- Rhay'Dahr
 			i(245257),	-- Magical Marble
 			i(245276),	-- Zal'vithra Pigment
 			i(245337),	-- Evercore Swiftfeet
@@ -1318,57 +1317,7 @@ root(ROOTS.Unsorted, {
 			i(246590),	-- Ashes of Belo'ren
 			i(246621),	-- Venomous Horn
 			i(246627),	-- Twilight's Blade Tabard
-			i(246628),	-- Emerald Sporbit
-			i(246629),	-- Ascension Arrestor's Robe
-			i(246630),	-- Ascension Arrestor's Soles
-			i(246631),	-- Ascension Arrestor's Mitts
-			i(246632),	-- Ascension Arrestor's Mitre
-			i(246633),	-- Ascension Arrestor's Leggings
-			i(246634),	-- Ascension Arrestor's Amice
-			i(246635),	-- Ascension Arrestor's Cincture
-			i(246636),	-- Ascension Arrestor's Wraps
-			i(246637),	-- Ascension Arrestor's Doublet
-			i(246638),	-- Ascension Arrestor's Shoes
-			i(246639),	-- Ascension Arrestor's Gloves
-			i(246640),	-- Ascension Arrestor's Hood
-			i(246641),	-- Ascension Arrestor's Breeches
-			i(246642),	-- Ascension Arrestor's Mantle
-			i(246643),	-- Ascension Arrestor's Clasp
-			i(246644),	-- Ascension Arrestor's Bindings
-			i(246645),	-- Ascension Arrestor's Hauberk
-			i(246646),	-- Ascension Arrestor's Boots
-			i(246647),	-- Ascension Arrestor's Grips
-			i(246648),	-- Ascension Arrestor's Helmet
-			i(246649),	-- Ascension Arrestor's Petticoat
-			i(246650),	-- Ascension Arrestor's Spaulders
-			i(246651),	-- Ascension Arrestor's Girdle
-			i(246652),	-- Ascension Arrestor's Mail Cuffs
-			i(246653),	-- Ascension Arrestor's Surcoat
-			i(246654),	-- Ascension Arrestor's Sollerets
-			i(246655),	-- Ascension Arrestor's Gauntlets
-			i(246656),	-- Ascension Arrestor's Bascinet
-			i(246657),	-- Ascension Arrestor's Greaves
-			i(246658),	-- Ascension Arrestor's Pauldrons
-			i(246659),	-- Ascension Arrestor's Greatbelt
-			i(246660),	-- Ascension Arrestor's Bracers
-			i(246662),	-- Ascension Arrestor's Axe
-			i(246663),	-- Ascension Arrestor's Mace
-			i(246664),	-- Ascension Arrestor's Cudgel
-			i(246665),	-- Ascension Arrestor's Spear
-			i(246666),	-- Ascension Arrestor's Staff
-			i(246667),	-- Ascension Arrestor's Greatsword
-			i(246668),	-- Ascension Arrestor's Censer
-			i(246669),	-- Ascension Arrestor's Shield
-			i(246670),	-- Ascension Arrestor's Warglaive
 			i(246671),	-- Recipe: Sunsmoke Censer
-			i(246672),	-- Ascension Arrestor's Shawl
-			i(246673),	-- Ascension Arrestor's Cowl
-			i(246674),	-- Ascension Arrestor's Cape
-			i(246675),	-- Ascension Arrestor's Cloak
-			i(246676),	-- Ascension Arrestor's Ring
-			i(246677),	-- Ascension Arrestor's Band
-			i(246678),	-- Ascension Arrestor's Choker
-			i(246679),	-- Ascension Arrestor's Pendant
 			i(246726),	-- Greatsword of Returning Light
 			i(246729),	-- Fang of Shadra
 			i(246734),	-- Fierce Grimlynx
@@ -1386,7 +1335,6 @@ root(ROOTS.Unsorted, {
 			i(246755),	-- Satchel of Champion Dawncrests \\ Satchel of Carved Dawncrests (ilvl req?, icon, currency)
 			i(246756),	-- Pack of Hero Dawncrests \\ Pack of Runed Dawncrests (ilvl req?, icon, currency)
 			i(246795),	-- Tabard of the Haranir
-			i(246995),	-- Ascension Arrestor's Dagger
 			i(247237),	-- Mold Samples
 			i(247422),	-- Spiteful Shadowgraft
 			i(247423),	-- Recipe: Silvermoon Spire Fountain
@@ -1420,15 +1368,6 @@ root(ROOTS.Unsorted, {
 			i(248139),	-- Aln'hara's Bloom
 			i(248205),	-- Surplus Elementium
 			i(248208),	-- Bound Journal
-			i(248210),	-- Weathered Twilight Cultist's Sword
-			i(248211),	-- Weathered Twilight Cultist's Axe
-			i(248212),	-- Weathered Twilight Cultist's Greataxe
-			i(248213),	-- Weathered Twilight Cultist's Longbow
-			i(248214),	-- Weathered Twilight Cultist's Ritual Knife
-			i(248215),	-- Weathered Twilight Cultist's Rifle
-			i(248216),	-- Weathered Twilight Cultist's Hammer
-			i(248217),	-- Weathered Twilight Cultist's Greatmace
-			i(248218),	-- Arsenal: Weathered Twilight's Hammer Armaments
 			i(248245),	-- Super Sin'dorei Gilded Hardhat
 			i(248280),	-- Void Analysis Baton
 			i(248409),	-- W-47CH D0G
@@ -1569,17 +1508,12 @@ root(ROOTS.Unsorted, {
 			i(249414),	-- Feelings Journal
 			i(249418),	-- Lightblooming Bulb
 			i(249421),	-- Mana-Fortified Vintage
-			i(249434),	-- Well-Worn Twilight Cultist's Cowl
-			i(249435),	-- Well-Worn Twilight Cultist's Mantle
-			i(249436),	-- Well-Worn Twilight Cultist's Robe
 			i(249437),	-- Wand of Diminutive Proportions
-			i(249438),	-- Ensemble: Well-Worn Twilight Cultist's Attire
 			i(249439),	-- Bright Feather
 			i(249440),	-- Bright Feather
 			i(249444),	-- Eversong Pyrepetal
 			i(249445),	-- Bolt of Mana Silk Cloth
 			i(249452),	-- Inanimate Broom
-			i(249468),	-- Twilight's Blade Top Secret Strategy Training Guide
 			i(249472),	-- Fragrant Bloodthistle
 			i(249498),	-- Stolen Supplies \\ Stolen Medicine
 			i(249517),	-- Smuggled Goods
@@ -4324,8 +4258,6 @@ root(ROOTS.Unsorted, {
 			i(265051),	-- Carved Root Totem
 			i(265052),	-- Crumbly Stone Shard
 			i(265053),	-- Gnarled Bark Shard
-			i(245284),	-- Silvermoon Wooden Chair
-			i(245330),	-- Enchanted Blood Elven Candelabra
 			i(245941),	-- Silvermoon Sanctum Focus \\ Silvermoon Sanctum Teleporter \\ [DNT] [AUTOGEN] Decor 1896 Item
 			i(245985),	-- Floating Azure Lantern \\ [DNT] [AUTOGEN] Decor 1901 Item
 			i(246402),	-- Hollowed Harandar Gourds
@@ -4340,7 +4272,6 @@ root(ROOTS.Unsorted, {
 			i(250772),	-- Crimson Lightwood Privacy Screen \\ Crimson Lightwood Screen \\ [DNT] Divider Screen 01
 			i(251967),	-- Fungarian Banner
 			i(251980),	-- Fungarian Sack
-			i(251997),	-- Sin'dorei Winged Chaise
 			i(252012),	-- Vibrant Petalwing
 			i(253443),	-- Replica Sky's Hope
 			i(256040),	-- Silvermoon Gemmed Chair

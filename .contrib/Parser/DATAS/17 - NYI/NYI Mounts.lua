@@ -920,9 +920,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(222904, {	-- [PH] Mount - Shalehorn (Yellow) (White Saddle) (Player Mount)  / Item: [PH] Mount - Unicorn Moose (Yellow) (White Saddle) (Player Mount) (MOUNT!)
 				["displayID"] = 119342,
 			}),
-			i(224148, {	-- [PH] NerubianWarbeastMount (Cyan) (MOUNT!)
-				["displayID"] = 119982,
-			}),
 			i(224149, {	-- [PH] NerubianWarbeastMount (Orange) (MOUNT!)
 				["displayID"] = 119983,
 			}),

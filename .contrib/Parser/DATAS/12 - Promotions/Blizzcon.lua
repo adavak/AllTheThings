@@ -188,14 +188,14 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 	i(258428, {	-- Snowstorm (MOUNT!)
 	-- #else
 	mount(341821, {	-- Snowstorm (MOUNT!)
-	-- #emdif
+	-- #endif
 		["timeline"] = { ADDED_9_0_2, REMOVED_9_2_0 },
 	}),
 	-- #if AFTER 11.2.5
 	i(258429, {	-- Moon-Touched Netherwhelp (PET!)
 	-- #else
 	pet(3053, {	-- Moon-Touched Netherwhelp (PET!)
-	-- #emdif
+	-- #endif
 		["timeline"] = { ADDED_9_0_2, REMOVED_9_2_0 },
 	}),
 	ach(14904, {	-- Netherwhelp Online
@@ -207,7 +207,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 	i(258427, {	-- Bound Blizzard (MOUNT!)
 	-- #else
 	mount(358072, {	-- Bound Blizzard (MOUNT!)
-	-- #emdif
+	-- #endif
 		["description"] = "Received after buying the Blizzcon 2023 Collection: Legendary Pack.",
 		["timeline"] = { ADDED_10_1_7, REMOVED_10_2_5 },
 		["u"] = REAL_MONEY,

@@ -4518,11 +4518,14 @@ i(250148, 4879);	-- Blistercreepling
 i(238793, 4790);	-- Devouring Runt
 i(250143, 4883);	-- Dragonhawk Mosswing
 i(250139, 4878);	-- Ebon Snapling
+i(246628, 4508);	-- Emerald Sporbit
 i(250146, 4885);	-- Gloom Toad
 i(250137, 4876);	-- Mud Potadpole
 i(250145, 4884);	-- Pangolil
+i(244911, 4830);	-- Rhay'Dahr
 i(251005, 4892);	-- Riftblade Familiar
 i(250136, 4875);	-- Rootling Nester
+i(232856, 4633);	-- Scruff
 i(250147, 4886);	-- Silkcrawler
 i(258660, 4912);	-- Silvermoon Broom
 i(250140, 4880);	-- Swamp Biter
@@ -4546,7 +4549,6 @@ i(258189, 4910);	-- Do, child of Fi'lo
 i(259224, 4928);	-- Dragonhawk Munchkin
 i(0, 4887);	-- Dundun
 i(264654, 4977);	-- Emberwing Hatchling
-i(246628, 4508);	-- Emerald Sporbit
 i(262774, 4967);	-- Gortham
 i(262762, 4963);	-- Grumpy Mandrake
 i(244339, 4816);	-- Hawkstrider Hatchling
@@ -4570,10 +4572,8 @@ i(260922, 4950);	-- Preyseeker's Immature Behemoth
 i(265609, 4985);	-- Princess Bloodshed
 i(266076, 4881);	-- Nether Siphoner
 i(264366, 4975);	-- Razeshi C.
-i(244911, 4830);	-- Rhay'Dahr
 i(262343, 4960);	-- Saka'saka
 i(262769, 4966);	-- Screechy Mandrake
-i(232856, 4633);	-- Scruff
 i(262390, 4953);	-- Sporbie
 i(262342, 4956);	-- Spormilian
 i(251004, 3364);	-- Striped Snakebiter

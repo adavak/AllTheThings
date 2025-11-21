@@ -2264,6 +2264,7 @@ i(262620, 1257058);	-- Calamitous Carrion
 i(262621, 1257081);	-- Convalescent Carrion
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
 i(246594, 1243003);	-- Light-Forged Mechsuit
+i(224148, 451487);	-- Retrained Skyrazor
 i(257504, 1261648);	-- Vicious Snaplizard [A]
 i(257502, 1261629);	-- Vicious Snaplizard [H]
 --- UNSORTED ---
@@ -2273,7 +2274,6 @@ i(257444, 1261576);	-- [DNT] 12.0 Hex Eagle Mount
 i(257223, 1261360);	-- [DNT] 12.0 Shadowpine Bear
 i(0, 1252141);	-- [DNT] Jellyfish
 i(222988, 447173);	-- [PH] Firefly2Mount (Green)
-i(224148, 451487);	-- [PH] NerubianWarbeastMount (Cyan)
 i(260896, 1267004);	-- Accented Pseudoshell
 i(257219, 1261357);	-- Amani Blessed Bear
 i(257152, 1261316);	-- Amani Sharptalon

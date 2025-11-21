@@ -1508,6 +1508,7 @@ i(251491);	-- Magical Pet Clicker
 -- PATCH 12.0.0 --
 ------------------
 i(256881);	-- Steward's Bauble
+i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
 i(256893);	-- Wretched Dredger's Brand
 --- UNSORTED ---
 i(257736);	-- [DNT] [PH] 12.0 Holy Hearthstone
@@ -1539,6 +1540,5 @@ i(245580);	-- Rolling Snowball
 i(250319);	-- Shadowgraft
 i(258963);	-- Shroom Jumper's Parachute
 i(259240);	-- Sin'dorei Wine
-i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
 i(263198);	-- Valdekar's Special
 i(256552);	-- Verdant Rutaani Seed

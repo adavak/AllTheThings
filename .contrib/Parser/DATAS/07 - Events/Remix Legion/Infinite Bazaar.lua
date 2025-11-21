@@ -1120,14 +1120,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						}),
 					}),
 					filter(CONSUMABLES, {
-						i(254849, {	-- Minor Bronze Cache
-							["description"] = "Becomes available after purchasing 'Hammer of Vigilance'.\n\nContains 2500 Bronze.",
-							["cost"] = {{ "i", 253305, 5 }},	-- 5x Felwarped Slab
-						}),
-						i(254850, {	-- Minor Bronze Cache
-							["description"] = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
-							["cost"] = {{ "i", 242370, 5 }},	-- 5x Horns of the First Satyr
-						}),
 						i(254847, {	-- Minor Bronze Cache
 							["description"] = "Becomes available after purchasing 'Taeshalach'.\n\nContains 2500 Bronze.",
 							["cost"] = {{ "i", 253306, 5 }},	-- 5x Everflame of Hatred
@@ -1135,6 +1127,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						i(254848, {	-- Minor Bronze Cache
 							["description"] = "Becomes available after purchasing 'Scythe of the Unmaker'.\n\nContains 2500 Bronze.",
 							["cost"] = {{ "i", 253304, 5 }},	-- 5x Cosmic Soulsilver
+						}),
+						i(254849, {	-- Minor Bronze Cache
+							["description"] = "Becomes available after purchasing 'Hammer of Vigilance'.\n\nContains 2500 Bronze.",
+							["cost"] = {{ "i", 253305, 5 }},	-- 5x Felwarped Slab
+						}),
+						i(254850, {	-- Minor Bronze Cache
+							["description"] = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
+							["cost"] = {{ "i", 242370, 5 }},	-- 5x Horns of the First Satyr
 						}),
 					}),
 				}),
