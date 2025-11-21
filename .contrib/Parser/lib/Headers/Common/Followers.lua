@@ -9,3 +9,10 @@ FOLLOWERS = createHeader({
 		en = [[~GARRISON_FOLLOWERS]],
 	},
 });
+
+n_TrainingFollowers = function(t)
+	return n(FOLLOWERS, bubbleDown({
+		["collectible"] = false,
+		["u"] = UNLEARNABLE,	-- Temporary troops
+	},t))
+end

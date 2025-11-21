@@ -41,10 +41,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(752),	-- Air Ascendants
 					follower(685),	-- Circle of Earthcallers
 					follower(782),	-- Circle of Earthcallers
@@ -75,7 +72,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 
 					-- TODO itemID 143850
 					follower(993),	-- Grimtotem Warrior
-				})),
+				}),
 				n(QUESTS, {
 					q(39746, {	-- A Ring Unbroken
 						["provider"] = { "n", 91731 },	-- Thrall

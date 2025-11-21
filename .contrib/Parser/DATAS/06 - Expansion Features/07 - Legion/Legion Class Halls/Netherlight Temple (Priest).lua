@@ -127,10 +127,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(927),	-- Band of Zealots
 					follower(928),	-- Band of Zealots
 					follower(929),	-- Band of Zealots
@@ -151,7 +148,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(924),	-- Netherlight Paragons
 					follower(925),	-- Netherlight Paragons
 					follower(926),	-- Netherlight Paragons
-				})),
+				}),
 				n(QUESTS, {
 					-- Start
 					q(40705, {	-- Priestly Matters

@@ -21,10 +21,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						i(249459),	-- Illidari Glaiverest (DECOR!)
 					}),
 				})),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(665),	-- Ashtongue Warriors
 					follower(878),	-- Ashtongue Warriors
 					follower(879),	-- Ashtongue Warriors
@@ -48,7 +45,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 
 					-- TODO: itemID 143849
 					follower(991),	-- Coilskar Brute
-				})),
+				}),
 				n(QUESTS, {
 					q(39047, {	-- Call of the Illidari (Altruis)
 						["provider"] = { "n", 99343 },	-- Kor'vas Bloodthorn

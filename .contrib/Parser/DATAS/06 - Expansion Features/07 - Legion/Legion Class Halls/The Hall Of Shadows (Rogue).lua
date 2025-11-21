@@ -61,10 +61,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(907),	-- Crew of Pirates
 					follower(917),	-- Crew of Pirates
 					follower(918),	-- Crew of Pirates
@@ -85,7 +82,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(914),	-- Uncrowned Duelists
 					follower(915),	-- Uncrowned Duelists
 					follower(916),	-- Uncrowned Duelists
-				})),
+				}),
 				n(QUESTS, {
 					-- Intro
 					q(40832, {	-- Call of The Uncrowned

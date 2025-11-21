@@ -172,15 +172,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 			ach(11609),	-- Power Unbound (automated)
 			ach(11610),	-- Power Unleashed
 		}),
-		n(FOLLOWERS, bubbleDownSelf({
-			["collectible"] = false,
-			["u"] = UNLEARNABLE,	-- Temporary troops
-		}, {
+		n_TrainingFollowers({
 			-- Dinner Guests (Moroes Mission reward)
 			follower(983),	-- Baroness Dorothea Millstipe
 			follower(984),	-- Baron Rafe Dreuger
 			follower(985),	-- Lord Crispin Ference
-		})),
+		}),
 		n(QUESTS, {
 			q(46940, {	-- Using Lost Knowledge
 				["timeline"] = { ADDED_7_2_0, REMOVED_7_3_0 },	-- estimated removal

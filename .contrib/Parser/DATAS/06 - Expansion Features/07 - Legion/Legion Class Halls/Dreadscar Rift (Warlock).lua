@@ -77,10 +77,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(729),	-- Black Harvest Acolytes
 					follower(730),	-- Black Harvest Acolytes
 					follower(740),	-- Black Harvest Acolytes
@@ -101,7 +98,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(736),	-- Swarm of Wild Imps
 					follower(737),	-- Swarm of Wild Imps
 					follower(738),	-- Swarm of Wild Imps
-				})),
+				}),
 				n(QUESTS, {
 					q(40716, {	-- The Sixth
 						["provider"] = { "n", 103506 },	-- Ritssyn Flamescowl

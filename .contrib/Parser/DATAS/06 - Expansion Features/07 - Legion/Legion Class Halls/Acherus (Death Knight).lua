@@ -49,10 +49,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(FLIGHT_PATHS, {
 					fp(1862),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(663),	-- Ebon Knights
 					follower(901),	-- Ebon Knights
 					follower(902),	-- Ebon Knights
@@ -78,7 +75,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(783),	-- Abomination
 					follower(941),	-- Alliance:Abomination \\ Horde:Abomination
 					follower(942),	-- Abomination
-				})),
+				}),
 				n(QUESTS, {
 					q(40714, {	-- The Call To War
 						["maps"] = { LEGION_DALARAN },

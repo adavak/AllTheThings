@@ -155,10 +155,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 61.7, 33.9, THE_DREAMGROVE },
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(749),	-- Ancient of War
 					follower(938),	-- Ancient of War
 					follower(939),	-- Ancient of War
@@ -182,7 +179,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(835),	-- Keepers of the Grove
 					follower(836),	-- Keepers of the Grove
 					follower(837),	-- Keepers of the Grove
-				})),
+				}),
 				n(QUESTS, {
 					q(42044, {	-- A Dying Dream
 						["sourceQuests"] = {

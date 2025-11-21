@@ -214,10 +214,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(1012),	-- Alliance:7th Legion Shock Force \\ Horde:Kor'kron Shock Force
 					follower(1013),	-- Alliance:7th Legion Shock Force \\ Horde:Kor'kron Shock Force
 					follower(1014),	-- Alliance:7th Legion Shock Force \\ Horde:Kor'kron Shock Force
@@ -238,7 +235,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(867),	-- Valkyra Shieldmaidens
 					follower(868),	-- Valkyra Shieldmaidens
 					follower(869),	-- Valkyra Shieldmaidens
-				})),
+				}),
 				n(QUESTS, {
 					-- Introduction
 					q(42814, {	-- An Important Mission

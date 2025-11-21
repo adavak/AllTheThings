@@ -154,10 +154,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(769),	-- Arcane Golems
 					follower(817),	-- Arcane Golems
 					follower(818),	-- Arcane Golems
@@ -178,7 +175,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(814),	-- Water Elemental
 					follower(815),	-- Water Elemental
 					follower(816),	-- Water Elemental
-				})),
+				}),
 				n(QUESTS, {
 					-- Intro
 					q(41035, {	-- Felstorm's Plea

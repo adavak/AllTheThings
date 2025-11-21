@@ -55,10 +55,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(702),	-- Echo of Chi-Ji
 					follower(701),	-- Echo of Niuzao
 					follower(703),	-- Echo of Xuen
@@ -90,7 +87,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(693),	-- Tiger Masters
 					follower(694),	-- Tiger Masters
 					follower(777),	-- Tiger Masters
-				})),
+				}),
 				n(QUESTS, {
 					-- Intro
 					q(12103, {	-- Before the Storm

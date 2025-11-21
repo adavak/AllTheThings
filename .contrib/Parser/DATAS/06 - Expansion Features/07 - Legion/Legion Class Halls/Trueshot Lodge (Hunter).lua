@@ -46,10 +46,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["coord"] = { 39.8, 29.6, TRUESHOT_LODGE },
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(671),	-- Squad of Archers
 					follower(801),	-- Squad of Archers
 					follower(802),	-- Squad of Archers
@@ -70,7 +67,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					follower(1024),	-- Nightborne Hunters
 					follower(1025),	-- Nightborne Hunters
 					follower(1026),	-- Nightborne Hunters
-				})),
+				}),
 				n(QUESTS, {
 					q(40384, {	-- Needs of the Hunters
 						["description"] = "This NPC will approach you within a few seconds the first time you enter Legion Dalaran.",

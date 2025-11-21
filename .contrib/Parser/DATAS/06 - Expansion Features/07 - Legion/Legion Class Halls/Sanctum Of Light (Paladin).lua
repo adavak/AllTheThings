@@ -95,10 +95,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 				}),
-				n(FOLLOWERS, bubbleDownSelf({
-					["collectible"] = false,
-					["u"] = UNLEARNABLE,	-- Temporary troops
-				}, {
+				n_TrainingFollowers({
 					follower(770),	-- Shieldbearer Phalanx
 					follower(843),	-- Shieldbearer Phalanx
 					follower(844),	-- Shieldbearer Phalanx
@@ -119,7 +116,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(840),	-- Squad of Squires
 					follower(841),	-- Squad of Squires
 					follower(842),	-- Squad of Squires
-				})),
+				}),
 				n(QUESTS, {
 					q(38710, {	-- An Urgent Gathering
 						["provider"] = { "n", 92909 },	-- Lord Maxwell Tyrosus
