@@ -1577,15 +1577,15 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			i(231760, {	-- Crunchy (PET!)
 				["displayID"] = 54848,
 			}),
-			i(231762, {	-- Dosh (PET!)
-				["displayID"] = 123032,
-			}),
+			-- i(231762, {	-- Dosh (PET!) TODO: [wrong ItemID]
+			-- 	["displayID"] = 123032,
+			-- }),
 			i(231758, {	-- Finnity (PET!)
 				["displayID"] = 74800,
 			}),
-			i(231763, {	-- FO-MO Mark II (PET!)
-				["displayID"] = 111667,
-			}),
+			-- i(231763, {	-- FO-MO Mark II (PET!) TODO: [wrong ItemID]
+			-- 	["displayID"] = 111667,
+			-- }),
 			i(235909, {	-- Gleam (PET!)
 				["displayID"] = 89251,
 			}),

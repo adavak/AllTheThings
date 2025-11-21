@@ -4373,9 +4373,9 @@ i(231628, 4676);	-- Bawkinator 2000
 i(231627, 4677);	-- Black Cave Crab
 i(0, 4671);	-- Cauldrone
 i(231760, 4673);	-- Crunchy
-i(231762, 4674);	-- Dosh
+i(0, 4674);	-- Dosh
 i(231758, 4672);	-- Finnity
-i(231763, 4675);	-- FO-MO Mark II
+i(0, 4675);	-- FO-MO Mark II
 i(235909, 4755);	-- Gleam
 i(232854, 4634);	-- Grinner
 i(0, 4670);	-- Hermes
