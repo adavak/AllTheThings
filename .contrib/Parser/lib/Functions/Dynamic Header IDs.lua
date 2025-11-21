@@ -365,6 +365,7 @@ HeaderAssignments = {
 	["Neck"] = -96,
 	["Necrolord"] = -166,
 	["Nether Disruptor"] = -394,
+	["Nether Portal"] = -696,
 	["Neutral"] = -212,
 	["New Character"] = -11,
 	["Night Fae"] = -167,
@@ -680,4 +681,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -695;
+NextHeaderID = -697;

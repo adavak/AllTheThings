@@ -7,25 +7,45 @@ root(ROOTS.Zones, {
 		m(BROKEN_SHORE, {
 			n(RARES, {
 				header(HEADERS.Achievement, 11841, {	-- Naxt Victim
-					["description"] = "Each different Sentinax Beacon summons mobs that drop additional Sentinax Beacons for that specific Beacon and ultimately the Portal Stone (boss).\n\nYou get the Uncommon (green quality) Sentinax Beacons from the standard mobs in the area, you then need to farm the mobs that come out of the Sentinax Portal until they drop a Rare (blue quality) Sentinax Beacon and use it to empower the portal, it is only after this that the Portal Stone can drop. Keep using all the Rare Sentinax Beacons you get to extend the duration of the Sentinax Beacon.",
+					["description"] = "Use the associated Portal-Stone to summon each of these rare elites.",
 					["groups"] = {
+						n(COMMON_BOSS_DROPS, {
+							["crs"] = {
+								120675,	-- An'thyna <Venom Queen>
+								120681,	-- Fel Obliterator
+								120665,	-- Force-Commander Xillious
+								120686,	-- Illisthyndria <Keeper of Knives>
+								120641,	-- Skulguloth
+								120583,	-- Than'otalion
+							},
+							["groups"] = {
+								i(147894),	-- Attack Beacon: Dalaran Underbelly
+								i(147889),	-- Attack Beacon: Illidari Stand
+								i(147891),	-- Attack Beacon: Starsong Refuge
+								i(147893),	-- Attack Beacon: Stormtorn Foothills
+								i(147892),	-- Attack Beacon: Skyhorn
+								i(146922),	-- Sentinax Beacon of Fel Growth
+								i(146923),	-- Sentinax Beacon of Petrification
+								i(147355),	-- Sentinax Beacon of the Bloodstrike
+							},
+						}),
 						n(120675, {	-- An'thyna <Venom Queen>
-							["provider"] = {"i",146919},	-- Portal-Stone: An'thyna
+							["provider"] = { "i", 146919 },	-- Portal-Stone: An'thyna
 						}),
 						n(120681, {	-- Fel Obliterator
-							["provider"] = {"i",146920},	-- Portal-Stone: Fel Obliterator
+							["provider"] = { "i", 146920 },	-- Portal-Stone: Fel Obliterator
 						}),
 						n(120665, {	-- Force-Commander Xillious
-							["provider"] = {"i",146918},	-- Portal-Stone: Force-Commander Xillious
+							["provider"] = { "i", 146918 },	-- Portal-Stone: Force-Commander Xillious
 						}),
 						n(120686, {	-- Illisthyndria <Keeper of Knives>
-							["provider"] = {"i",146921},	-- Portal-Stone: Illisthyndria
+							["provider"] = { "i", 146921 },	-- Portal-Stone: Illisthyndria
 						}),
 						n(120641, {	-- Skulguloth
-							["provider"] = {"i",146917},	-- Portal-Stone: Skulguloth
+							["provider"] = { "i", 146917 },	-- Portal-Stone: Skulguloth
 						}),
 						n(120583, {	-- Than'otalion
-							["provider"] = {"i",146916},	-- Portal-Stone: Than'otalion
+							["provider"] = { "i", 146916},	-- Portal-Stone: Than'otalion
 						}),
 					},
 				}),
