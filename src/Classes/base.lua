@@ -845,6 +845,13 @@ app.AddSimpleCollectibleSwap = function(classname, setting)
 	app.AddEventHandler("OnStartup", AssignCollectibleFunction);
 end
 
+local OverrideBaseClassFields = {
+	total = true,
+	progress = true,
+	isContainer = true,
+	costTotal = true,
+	upgradeTotal = true,
+}
 -- Allows wrapping one Type Object with another Type Object. This allows for fall-through field logic
 -- without requiring a full copied definition of identical field functions and raw Object content
 app.WrapObject = function(object, baseObject)
@@ -864,7 +871,9 @@ app.WrapObject = function(object, baseObject)
 		-- e.g. hash on the wrapped object might be a different value than hash on the baseObject
 		local BaseClass__class = app.BaseClass.__class
 		for key,_ in pairs(BaseClass__class) do
-			__class[key] = nil
+			if not OverrideBaseClassFields[key] then
+				__class[key] = nil
+			end
 		end
 		-- cache this in the metatable of this object
 		objectMeta.__wrapclass = __class
