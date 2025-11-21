@@ -170,7 +170,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "o", 245793 },	-- Battered Journal
 							["coord"] = { 52.3, 33.9, DEADWIND_PASS },
 							["groups"] = {
-								i(132377),	-- Ariden's Compass (QI!)
+								o(245794, {	-- Compass
+									["coord"] = { 52.2, 34.1, DEADWIND_PASS },
+									["groups"] = { i(132377) },	-- Ariden's Compass (QI!)
+								}),
 							},
 						}),
 						q(40611, {	-- The Fate of Deadwind
@@ -185,13 +188,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 49.4, 74.8, DEADWIND_PASS },
 							["groups"] = {
 								o(246021, {	-- Ulthalesh, the Deadwind Harvester
-									["coord"] = { 45.1, 67.8, 46 },	-- Karazhan Catacombs
+									["coord"] = { 69.5, 27.2, 46 },	-- Karazhan Catacombs
 									["groups"] = {
 										i(128942, {	-- Ulthalesh, the Deadwind Harvester
 											["ItemAppearanceModifierID"] = 9,
-											["groups"] = {
-												artifact(294),	-- Ulthalesh, the Deadwind Harvester
-											},
+											["groups"] = { artifact(294) },	-- Ulthalesh, the Deadwind Harvester
 										}),
 									},
 								}),
@@ -203,10 +204,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.8, DEADWIND_PASS },
 							["groups"] = {
-								i(128942, {	-- Ulthalesh, the Deadwind Harvester
-									["ItemAppearanceModifierID"] = 9,
+								o(246021, {	-- Ulthalesh, the Deadwind Harvester
+									["coord"] = { 69.5, 27.2, 46 },	-- Karazhan Catacombs
 									["groups"] = {
-										artifact(294),	-- Ulthalesh, the Deadwind Harvester
+										i(128942, {	-- Ulthalesh, the Deadwind Harvester
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(294) },	-- Ulthalesh, the Deadwind Harvester
+										}),
 									},
 								}),
 							},
@@ -311,10 +315,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 109838 },	-- Calydus
 							["coord"] = { 73.8, 42.9, LEGION_DALARAN },
 							["groups"] = {
-								i(128941, {	-- Scepter of Sargeras
-									["ItemAppearanceModifierID"] = 9,
+								o(252054, {	-- Scepter of Sargeras
+									["coord"] = { 60.2, 25.4, BROKEN_SHORE },
 									["groups"] = {
-										artifact(188),	-- Scepter of Sargeras
+										i(128941, {	-- Scepter of Sargeras
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = { artifact(188) },	-- Scepter of Sargeras
+										}),
 									},
 								}),
 							},

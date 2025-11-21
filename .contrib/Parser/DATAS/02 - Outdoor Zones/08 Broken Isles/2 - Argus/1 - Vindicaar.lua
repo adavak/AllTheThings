@@ -365,6 +365,7 @@ root(ROOTS.Zones, {
 								{ 33.5, 57.8, THE_VINDICAAR_ANTORAN_WASTES_LOWER },
 								{ 33.6, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 								{ 34.4, 57.2, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 72.9, 50.2, ANTORAN_WASTES },
 							},
 						}),
 						q(48202, {	-- Reinforce the Veiled Den

@@ -423,6 +423,7 @@ MobileDB.Creature = {
 	[102381] = true,	-- Jandvik Warrior (Brandolf)
 	[102478] = true,	-- Emmarel Shadewarden
 	[102700] = true,	-- Meryl Felstorm
+	[102996] = true,	-- Aegira
 	[103437] = true,	-- Angus Stormbrew
 	[103506] = true,	-- Ritssyn Flamescowl
 	[105637] = true,	-- Scowling Rosa <Texts and Specialty Goods>

@@ -562,27 +562,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41038 },	-- The Mead Master
 						["provider"] = { "n", 102843 },	-- Aegira
 						["coord"] = { 62.1, 20.2, STORMHEIM },
-						["groups"] = {
-							i(133995),	-- Storm Brew Recipe (QI!)
-						},
+						["groups"] = { i(133995) },	-- Storm Brew Recipe (QI!)
 					}),
 					q(41910, {	-- Freya's Spring
 						["sourceQuests"] = { 41039 },	-- Stolen Knowledge
-						["provider"] = { "n", 102843 },	-- Aegira (Broken Temple Brewmaster)
+						["qgs"] = {
+							102843,	-- Aegira (Broken Temple Brewmaster)
+							102996,	-- Aegira (Broken Temple Brewmaster)
+						},
 						["maps"] = { STORMHEIM },
 					}),
 					q(41040, {	-- Halls of Valor: The Brewmaster
 						["sourceQuests"] = { 41039 },	-- Stolen Knowledge
-						["provider"] = { "n", 102843 },	-- Aegira (Broken Temple Brewmaster)
+						["qgs"] = {
+							102843,	-- Aegira (Broken Temple Brewmaster)
+							102996,	-- Aegira (Broken Temple Brewmaster)
+						},
 						["maps"] = { 703, 704, 705 },	-- Halls of Valor
 					}),
 					q(41911, {	-- Amaranthine Hops
 						["sourceQuests"] = { 41039 },	-- Stolen Knowledge
 						["provider"] = { "n", 102996 },	-- Aegira (Broken Temple Brewmaster)
 						["maps"] = { STORMHEIM },
-						["groups"] = {
-							i(139033),	-- Amaranthine Hops (QI!)
-						},
+						["groups"] = { i(139033) },	-- Amaranthine Hops (QI!)
 					}),
 					q(41086, {	-- A Peaceful World
 						["sourceQuests"] = { 41911 },	-- Amaranthine Hops
