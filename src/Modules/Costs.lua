@@ -797,9 +797,11 @@ do
 							costThing = nil
 						end
 						if costThing then
-							if costThing.providers or (costThing.cost and type(costThing.cost) == "table") then
+							local costTbl = costThing.cost
+							local costAmount = costTbl and type(costTbl) == "table" and #costTbl or 0.5
+							if costThing.providers or costAmount > 0.5 then
 								costThing.back = 0.5
-								costThing[1] = (costThing.cost and #costThing.cost) or 0.5
+								costThing[1] = costAmount
 								requiresCostItems[#requiresCostItems + 1] = costThing
 							else
 								costItems[#costItems + 1] = costThing

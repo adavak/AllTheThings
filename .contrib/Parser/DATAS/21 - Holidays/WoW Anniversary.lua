@@ -2921,7 +2921,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			})),
 			n(GUEST_RELATIONS, {
 				["description"] = "***Using Debug Mode is recommended.***\n",
-				["timeline"] = { ADDED_11_0_5 },
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(40870, {	-- Azeroth's Greatest Detective
