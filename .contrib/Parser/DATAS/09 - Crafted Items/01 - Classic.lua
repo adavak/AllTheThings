@@ -2310,7 +2310,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["description"] = "Interestingly enough, you can fish this out of the lava in Ironforge. I guess the gnomes failed their quest...",
 				}),
 			}),
-			filter(HELD_IN_OFF_HAND, bubbleDownSelf({ ["collectible"] = false, }, {
+			filter(HELD_IN_OFF_HAND, sharedData({ ["collectible"] = false, }, {
 				i(6292),	-- 10 Pound Mud Snapper
 				i(6294),	-- 12 Pound Mud Snapper
 				i(6295),	-- 15 Pound Mud Snapper
