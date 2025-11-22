@@ -835,9 +835,6 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "i", 127860 },	-- Warden's Signet
 					["coord"] = { 38.9, 65.1, VALSHARAH },
 					["cr"] = 94366,	-- Lelyn Swiftshadow
-					["groups"] = {
-						i(127860),	-- Warden's Signet (QI!)
-					},
 				}),
 				q(39015, {	-- Grumpy
 					["qg"] = 92738,-- Grumpy
