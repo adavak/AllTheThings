@@ -84,6 +84,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 					XXXXXX,	-- Stormwind NPC
 					XXXXXX,	-- Orgrimmar NPC
 				},
+				},
 				["coords"] = {
 					{ X, Y, STORMWIND_CITY },
 					{ X, Y, ORGRIMMAR },

@@ -84,8 +84,8 @@ root(ROOTS.Zones, {
 					q(48641, {	-- Armies of Legionfall
 						["qg"] = 120414,	-- Captain Ruysantos
 						["coord"] = { 42.2, 58.8, BROKEN_SHORE },
-						["timeline"] = { ADDED_7_3_0 },
 						["minReputation"] = { FACTION_ARMIES_OF_LEGIONFALL, EXALTED },
+						["timeline"] = { ADDED_7_3_0 },
 						["isWorldQuest"] = true,
 						["groups"] = {
 							i(157830, {	-- Legionfall Spoils
