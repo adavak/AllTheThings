@@ -233,6 +233,7 @@ root(ROOTS.Zones, {
 							},
 							["coords"] = {
 								{ 40.7, 24.2, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 46.6, 23.1, THE_VINDICAAR_EREDATH_UPPER },
 								{ 53.1, 48.8, THE_VINDICAAR_EREDATH_UPPER },
 							},
 							["groups"] = { i(152594) },	-- Essence of Shadow (QI!)
@@ -276,12 +277,10 @@ root(ROOTS.Zones, {
 								{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 								{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_LOWER },
 								{ 45.8, 23.9, THE_VINDICAAR_EREDATH_UPPER },
-								{ 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 39.4, 25.1, THE_VINDICAAR_KROKUUN_UPPER },
 							},
 							["isWeekly"] = true,
-							["groups"] = {
-								i(153014),	-- Pristine Argunite (QI!)
-							},
+							["groups"] = { i(153014) },	-- Pristine Argunite (QI!)
 						}),
 						q(48636, {	-- Fueling the Antoran Campaign
 							["sourceQuests"] = { 48912 },	-- Supplying the Antoran Campaign
@@ -495,7 +494,10 @@ root(ROOTS.Zones, {
 						q(47287, {	-- The Vindicaar Matrix Core
 							["sourceQuests"] = { 47743 },	-- Child of Light and Shadow
 							["provider"] = { "n", 121263 },	-- Grand Artificer Romuul
-							["coord"] = { 43.7, 29.2, THE_VINDICAAR_KROKUUN_UPPER },
+							["coords"] = {
+								{ 43.7, 29.2, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 49.4, 23.6, THE_VINDICAAR_EREDATH_UPPER },
+							},
 						}),
 						q(48344, {	-- We Have a Problem
 							["sourceQuests"] = { 48461 },	-- Where They Least Expect It

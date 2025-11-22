@@ -410,9 +410,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			n(QUESTS, {
 				q(48954, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0, REMOVED_8_0_1, ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END } }, {	-- Blood of a Titan
 					["provider"] = { "i", 152900 },	-- Blood of the Unmaker
-					["groups"] = {
-						i(152901),	-- Violet Spellwing (MOUNT!)
-					},
+					["groups"] = { i(152901) },	-- Violet Spellwing (MOUNT!)
 				})),
 				q(49077, {	-- Moments of Reflection
 					["provider"] = { "n", 129429 },	-- Alor'idal Crystal

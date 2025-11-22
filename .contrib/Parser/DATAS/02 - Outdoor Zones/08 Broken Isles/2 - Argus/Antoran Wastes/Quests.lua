@@ -19,6 +19,7 @@ root(ROOTS.Zones, {
 					q(48605, {	-- Commander's Downfall
 						["sourceQuests"] = { 48513 },	-- Invasion Point Offensive
 						["qgs"] = {
+							120978,	-- Illidan Stormrage
 							126408,	-- Illidan Stormrage
 							127051,	-- Illidan Stormrage
 							127057,	-- Illidan Stormrage
@@ -26,6 +27,7 @@ root(ROOTS.Zones, {
 						["coords"] = {
 							{ 31.4, 60.0, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 							{ 39.1, 19.8, THE_VINDICAAR_KROKUUN_UPPER },
+							{ 47.4, 19.7, THE_VINDICAAR_EREDATH_UPPER },
 							{ 68.8, 25.9, ANTORAN_WASTES },
 						},
 					}),

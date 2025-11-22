@@ -252,7 +252,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								101314,	-- Alonsus Faol
 								110564,	-- Alonsus Faol
 							},
-							["coord"] = { 51.5, 47.9, NETHERLIGHT_TEMPLE },
+							["coords"] = {
+								{ 51.5, 47.9, NETHERLIGHT_TEMPLE },
+								{ 79.0, 41.0, TIRISFAL_GLADES },
+							},
 						}),
 						q(41626, {	-- A New Threat
 							["sourceQuests"] = { 41625 },	-- The Light's Wrath
@@ -372,12 +375,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(43388, {	-- Apostate Liberation
 						["sourceQuests"] = { 43386 },	-- Onslaught Envoy
-						["provider"] = { "n", 110683 },	-- Mariella the Heretic
+						["qgs"] = {
+							110683,	-- Mariella the Heretic
+							111191,	-- Mariella the Heretic
+						},
 						["coord"] = { 71.4, 71.8, DRAGONBLIGHT },
 					}),
 					q(43387, {	-- Scarlet Redemption
 						["sourceQuests"] = { 43386 },	-- Onslaught Envoy
-						["provider"] = { "n", 110683 },	-- Mariella the Heretic
+						["qgs"] = {
+							110683,	-- Mariella the Heretic
+							111191,	-- Mariella the Heretic
+						},
 						["coord"] = { 71.4, 71.8, DRAGONBLIGHT },
 					}),
 					q(43389, {	-- Unexpected Guests
@@ -623,7 +632,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(46034, {	-- Champion: Aelthalyste
 						["sourceQuests"] = { 46145 },	-- Sterile Surroundings
 						["provider"] = { "n", 120842 },	-- Aelthalyste
-						["coord"] = { 24.8, 40.1, NETHERLIGHT_TEMPLE },
+						["coords"] = {
+							{ 21.9, 42.9, NETHERLIGHT_TEMPLE },
+							{ 24.8, 40.1, NETHERLIGHT_TEMPLE },
+						},
 						["groups"] = { follower(1002) },	-- Aelthalyste
 					}),
 					q(45788, {	-- The Speaker Awaits
@@ -634,7 +646,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45789, {	-- The Sunken Vault
 						["sourceQuests"] = { 45788 },	-- The Speaker Awaits
 						["provider"] = { "n", 102709 },	-- Betild Deepanvil <Master Artificer>
-						["coord"] = { 50.4, 21.8, NETHERLIGHT_TEMPLE },
+						["coords"] = {
+							{ 48.0, 21.9, NETHERLIGHT_TEMPLE },
+							{ 50.4, 21.8, NETHERLIGHT_TEMPLE },
+						},
 						["maps"] = { 839 },	-- THe Maelstrom
 						["groups"] = { mount(229377) },	-- High Priest's Lightsworn Seeker (MOUNT!)
 					}),
