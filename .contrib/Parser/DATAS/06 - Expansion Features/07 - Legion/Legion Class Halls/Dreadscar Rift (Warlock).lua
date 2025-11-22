@@ -334,8 +334,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							43254,	-- Ritual Ruination
 							41155,	-- The Dark Riders (Bad)
 							40623,	-- The Dark Riders (Good)
-							40712,	-- The Power Possessed (Good)
 							41156,	-- The Power Possessed (Bad)
+							40712,	-- The Power Possessed (Good)
 						},
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 101097 },	-- Calydus
@@ -357,9 +357,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(40823, {	-- Rebuilding the Council
-					-- #if BEFORE 8.0.1
-						["sourceQuests"] = { 40821 },	-- Power Overwhelming
-						-- #endif
+						["sourceQuests"] = {
+							-- #IF BEFORE BFA
+							40821,	-- Power Overwhelming
+							-- #ELSE
+							40731,	-- The Heart of the Dreadscar
+							-- #ENDIF
+						},
 						["provider"] = { "n", 101097 },	-- Calydus
 						["coord"] = { 37.7, 31.8, DREADSCAR_RIFT },
 					}),
@@ -812,6 +816,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							46047,	-- Champion: Kanrethad Ebonlocke
 							46316,	-- Champion: Kanrethad Ebonlocke
 						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 117622 },	-- Elithys Firestorm
 						["coord"] = { 43.9, 63.2, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
