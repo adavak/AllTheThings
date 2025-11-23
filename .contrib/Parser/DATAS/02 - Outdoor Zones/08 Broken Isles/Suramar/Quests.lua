@@ -154,10 +154,10 @@ root(ROOTS.Zones, {
 					["groups"] = { i(132881) },	-- Harpy Talon (QI!)
 				}),
 				q(41123, {	-- An Artisan's Mark
-					-- TODO: figure out the sourceQuest. this isn't always available
-					-- ["sourceQuest"] =
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
+					-- TODO: figure out the sourceQuest. this isn't always available
+					-- ["sourceQuest"] =
 					["groups"] = { i(134041) },	-- Bloodspattered Signet Ring (QI!)
 				}),
 				q(40012, {	-- An Old Ally
