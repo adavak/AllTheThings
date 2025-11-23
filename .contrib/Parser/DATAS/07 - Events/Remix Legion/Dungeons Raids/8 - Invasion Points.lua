@@ -114,3 +114,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		},
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
+	m(BROKEN_ISLES, {
+		m(ARGUS, {
+			q(92541),	-- Triggered after killing a boss while in 'Heroic World Tier'
+		}),
+	}),
+}));
