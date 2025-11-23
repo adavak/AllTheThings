@@ -104,7 +104,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 41.3, 78.1, THE_HALL_OF_SHADOWS },
 					}),
 					q(44034, {	-- Another Worthy Blade
-						["sourceQuest"] = 40840,	-- A Worthy Blade
+						["sourceQuest"] = 40997,	-- Lethal Efficiency
 						["provider"] = { "n", 101513 },	-- Lord Jorach Ravenholdt
 						["coord"] = { 41.3, 78.1, THE_HALL_OF_SHADOWS },
 					}),
@@ -123,6 +123,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 94138 },	-- Princess Tess Greymane
 							["coord"] = { 42.3, 75.9, THE_HALL_OF_SHADOWS },
+							["maps"] = { BLASTED_LANDS },
 							["groups"] = {
 								i(173531, {	-- Blasted Lands Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
@@ -139,6 +140,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 94138 },	-- Princess Tess Greymane
 							["coord"] = { 42.3, 75.9, THE_HALL_OF_SHADOWS },
+							["maps"] = { DUSKWOOD },
 							["groups"] = {
 								i(173530, {	-- Duskwood Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
@@ -151,11 +153,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								42501,	-- Finishing the Job
 								42502,	-- No Sanctuary
 							},
-							["maps"] = { DUSKWOOD },
+							["maps"] = { BLASTED_LANDS, DUSKWOOD },
 						}),
 						q(42539, {	-- Cloak and Dagger
 							["sourceQuest"] = 42503,	-- Codebreaker
-							["maps"] = { DUSKWOOD },
+							["maps"] = { BLASTED_LANDS, DUSKWOOD },
 							["groups"] = {
 								o(250678, {	-- Blood of the Innocent
 									["coord"] = { 73.6, 43.7, DUSKWOOD },
@@ -381,7 +383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(43262, {	-- Champion: Garona Halforcen
-						["sourceQuest"] = 43261,	-- Champion: Vanessa VanCleef
+						["sourceQuest"] = 42139,	-- Rise, Champions
 						["provider"] = { "n", 94141 },	-- Garona Halforcen
 						["coord"] = { 42.4, 74.7, THE_HALL_OF_SHADOWS },
 						["groups"] = {
@@ -551,7 +553,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							42684,	-- Throwing SI:7 Off the Trail
 							43468,	-- Blood for the Wolfe
 							42730,	-- Noggenfogger's Reasonable Request
+							91620,	-- Noggenfogger's Reasonable Request (Remix)
 						},
+						["sourceQuestNumRequired"] = 3,
 						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 						["coord"] = { 40.9, 75.5, THE_HALL_OF_SHADOWS },
 						["maps"] = { 706, 707, 708 },	-- Maw of Souls
@@ -679,7 +683,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(44215, {	-- One More Thing...
-						["sourceQuest"] = 37689,	-- The Imposter
+						["sourceQuests"] = {
+							43724,	-- Champion: Master Mathias Shaw
+							43723,	-- Champion: Taoshi
+						},
 						["provider"] = { "n", 101513 },	-- Lord Jorach Ravenholdt
 						["coord"] = { 41.3, 78.1, THE_HALL_OF_SHADOWS },
 					}),
@@ -739,26 +746,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["timeline"] = { ADDED_7_2_0 },
 						["races"] = HORDE_ONLY,
 					}),
-					q(44758, {	-- What's the Cache? (A)
+					q(44758, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- What's the Cache? (A)
 						["sourceQuest"] = 45833,	-- The Pirate's Bay
 						["provider"] = { "n", 119821 },	-- Tess Graymane
 						["coord"] = { 57.7, 63.5, AZSUNA },
-						["timeline"] = { ADDED_7_2_0 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							i(142116),	-- Fel-Infused Gunpowder Cache (QI!)
 						},
-					}),
-					q(46323, {	-- What's the Cache? (H)
+					})),
+					q(46323, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- What's the Cache? (H)
 						["sourceQuest"] = 46322,	-- The Pirate's Bay
 						["provider"] = { "n", 119822 },	-- Lilian Voss
 						["coord"] = { 57.7, 63.5, AZSUNA },
-						["timeline"] = { ADDED_7_2_0 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(142116),	-- Fel-Infused Gunpowder Cache (QI!)
 						},
-					}),
+					})),
 					q(45835, {	-- False Orders (A)
 						["sourceQuest"] = 45833,	-- The Pirate's Bay
 						["provider"] = { "n", 119821 },	-- Tess Graymane
@@ -774,7 +779,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["races"] = HORDE_ONLY,
 					}),
 					q(45073, {	-- Loot and Plunder!
-						["sourceQuest"] = 45833,	-- The Pirate's Bay
+						["sourceQuests"] = {
+							45833,	-- The Pirate's Bay (A)
+							46322,	-- The Pirate's Bay (H)
+						},
 						["provider"] = { "n", 118125 },	-- Fleet Admiral Tethys
 						["coord"] = { 57.7, 63.6, AZSUNA },
 						["timeline"] = { ADDED_7_2_0 },
@@ -858,26 +866,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["timeline"] = { ADDED_7_2_0 },
 						["races"] = HORDE_ONLY,
 					}),
-					q(46058, {	-- Champion: Lilian Voss
+					q(46058, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Champion: Lilian Voss
 						["sourceQuest"] = 46827,	-- Meld Into the Shadows
 						["provider"] = { "n", 98099 },	-- Lilian Voss
 						["coord"] = { 42.2, 77.0, THE_HALL_OF_SHADOWS },
-						["timeline"] = { ADDED_7_2_0 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							follower(988),	-- Princess Tess Greymane / Lilian Voss
 						},
-					}),
-					q(46059, {	-- Champion: Tess Greymane
+					})),
+					q(46059, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Champion: Tess Greymane
 						["sourceQuest"] = 46260,	-- Meld Into the Shadows
 						["provider"] = { "n", 94138 },	-- Princess Tess Greymane
 						["coord"] = { 42.3, 75.9, THE_HALL_OF_SHADOWS },
-						["timeline"] = { ADDED_7_2_0 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							follower(988),	-- Princess Tess Greymane / Lilian Voss
 						},
-					}),
+					})),
 					q(46103, {	-- Dread Infiltrators
 						["sourceQuests"] = {
 							46058,	-- Champion: Lilian Voss
