@@ -555,10 +555,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				q(82220, {	-- Eagle Eye, Eagle Die
+					["description"] = "Becomes available after daily reset.",
 					["sourceQuests"] = { 82217 },	-- Underground Economics
 					["provider"] = { "n", 213145 },	-- Auralia Steelstrike
 					["coord"] = { 42.3, 55.0, HALLOWFALL },
-				["description"] = "Becomes available after daily reset.",
 					["groups"] = {
 						i(222951),	-- Eagle Fillet (QI!)
 						i(222976),	-- Flame-Tempered Harpoon (QI!)
