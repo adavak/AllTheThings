@@ -511,6 +511,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 						}),
 					}),
+					q(44232, {	-- The Grove Provides
+						["sourceQuests"] = {
+							40900,	-- The Burden Borne
+							42430,	-- The Fangs of Ashamane
+							41918,	-- The Dreamer Returns
+							41689,	-- Cleansing the Mother Tree
+						},
+						["sourceQuestNumRequired"] = 1,
+						["provider"] = { "n", 112323 },	-- Amurra Thistledew
+						["coords"] = {
+							{ 40.2, 18.7, THE_DREAMGROVE },
+							{ 40.0, 24.8, THE_DREAMGROVE },
+						},
+						["groups"] = { i(139726) },	-- Hood of the Dreamgrove
+					}),
 					q(41255, {	-- Sowing The Seed
 						["sourceQuests"] = {
 							40900,	-- The Burden Borne
@@ -522,8 +537,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 101195 },	-- Rensar Greathoof
 						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
 					}),
-					q(41332, {	-- Ascending The Circle
+					q(40651, {	-- The Seed of Ages
 						["sourceQuests"] = { 41255 },	-- Sowing The Seed
+						["timeline"] = { REMOVED_8_0_1_LAUNCH },
+					}),
+					q(41332, {	-- Ascending The Circle
+						["sourceQuests"] = {
+							-- #IF AFTER BFA
+							41255,	-- Sowing The Seed
+							-- #ELSE
+							40651,	-- The Seed of Ages
+							-- #ENDIF
+						},
 						["provider"] = { "n", 97923 },	-- Rensar Greathoof
 						["coord"] = { 30.9, 54.2, THE_DREAMGROVE },
 					}),
@@ -904,22 +929,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 40.9, 42.6, MOUNT_HYJAL },
 					}),
-					-------------------------------------------------------------------
-					-- TODO:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 					q(44888, {	-- Aviana's Grace
 						["sourceQuests"] = {
 							44877,	-- Attack on the Roost
@@ -931,39 +940,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 40.9, 42.6, MOUNT_HYJAL },
 					}),
-					q(46044, {	-- Champion: Thisalee Crow
-						["sourceQuests"] = { 45425 },	-- Grovebound
-						["provider"] = { "n", 106299 },	-- Thisalee Crow
-						["coord"] = { 44.4, 51.5, THE_DREAMGROVE },
-						["groups"] = {
-							follower(999),	-- Thisalee Crow
-						},
-					}),
-					q(44235, {	-- Essence of Fate
-						["provider"] = { "n", 110810 },	-- Almenis
-						["coord"] = { 41.0, 29.3, THE_DREAMGROVE },
-					}),
-					q(46786, {	-- Further Advancement
-						["sourceQuests"] = { 46044 },	-- Champion: Thisalee Crow
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(46154, {	-- Furthering Knowledge
-						["u"] = REMOVED_FROM_GAME,
-					}),
-					q(45425, {	-- Grovebound
-						["sourceQuests"] = { 46677 },	-- Prick of a Thistle
-						["qgs"] = {
-							120070,	-- Thisalee Crow
-							120084,	-- Druid of the Talon
-						},
-						["maps"] = { BROKEN_SHORE },
-					}),
-					q(43879, {	-- Hitting the Books
-						["u"] = REMOVED_FROM_GAME,
-					}),
-					q(46141, {	-- Knowledge is Power
-						["u"] = REMOVED_FROM_GAME,
+					q(44921, {	-- Lone Wolf
+						["sourceQuest"] = 44888,	-- Aviana's Grace
+						["provider"] = { "n", 115749 },	-- Aviana
+						["coord"] = { 44.3, 48.0, MOUNT_HYJAL },
 					}),
 					q(45498, {	-- Let Sleeping Dogs Lie
 						["sourceQuests"] = { 44921 },	-- Lone Wolf
@@ -973,35 +953,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 68.0, 54.8, MOONGLADE },
 					}),
-					q(44921, {	-- Lone Wolf
-						["sourceQuest"] = 44888,	-- Aviana's Grace
-						["provider"] = { "n", 115749 },	-- Aviana
-						["coord"] = { 44.3, 48.0, MOUNT_HYJAL },
-					}),
-					q(45426, {	-- Nature's Advance
-						["sourceQuests"] = { 46924 },	-- The Wolf's Tale
-						["provider"] = { "n", 115750 },	-- Goldrinn <Ancient>
-						["coord"] = { 68.1, 55.3, MOONGLADE },
-					}),
-					q(46676, {	-- Nature's Touch
-						["sourceQuests"] = { 46674 },	-- The Preservation of Nature
-						["qgs"] = {
-							120070,	-- Thisalee Crow
-							120084,	-- Druid of the Talon
-						},
-						["coord"] = { 43.5, 58.3, BROKEN_SHORE },
-					}),
-					q(46677, {	-- Prick of a Thistle
-						["sourceQuests"] = {
-							46676,	-- Nature's Touch
-							46675,	-- To Track a Demon
-						},
-						["qgs"] = {
-							120070,	-- Thisalee Crow
-							120084,	-- Druid of the Talon
-						},
-						["maps"] = { BROKEN_SHORE },
-					}),
 					q(45528, {	-- The Befouled Barrows
 						["sourceQuests"] = { 44921 },	-- Lone Wolf
 						["qgs"] = {
@@ -1009,24 +960,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							120041,	-- Druid of the Talon
 						},
 						["coord"] = { 68.0, 54.8, MOONGLADE },
-					}),
-					q(44232, {	-- The Grove Provides
-					--	this is now available to level 45 characters (was previously 110). unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
-					--	["sourceQuests"] = { },	--
-						["provider"] = { "n", 112323 },	-- Amurra Thistledew
-						["coords"] = {
-							{ 40.2, 18.7, THE_DREAMGROVE },
-							{ 40.0, 24.8, THE_DREAMGROVE },
-						},
-						["groups"] = { i(139726) },	-- Hood of the Dreamgrove
-					}),
-					q(46674, {	-- The Preservation of Nature
-						["sourceQuests"] = { 45426 },	-- Nature's Advance
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.6, 51.8, THE_DREAMGROVE },
-					}),
-					q(40651, {	-- The Seed of Ages
-						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(46924, {	-- The Wolf's Tale
 						["sourceQuests"] = {
@@ -1039,6 +972,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["maps"] = { MOONGLADE },
 					}),
+					q(45426, {	-- Nature's Advance
+						["sourceQuests"] = { 46924 },	-- The Wolf's Tale
+						["provider"] = { "n", 115750 },	-- Goldrinn <Ancient>
+						["coord"] = { 68.1, 55.3, MOONGLADE },
+					}),
+					q(46674, {	-- The Preservation of Nature
+						["sourceQuests"] = { 45426 },	-- Nature's Advance
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.6, 51.8, THE_DREAMGROVE },
+					}),
+					q(46676, {	-- Nature's Touch
+						["sourceQuests"] = { 46674 },	-- The Preservation of Nature
+						["qgs"] = {
+							120070,	-- Thisalee Crow
+							120084,	-- Druid of the Talon
+						},
+						["coord"] = { 43.5, 58.3, BROKEN_SHORE },
+					}),
 					q(46675, {	-- To Track a Demon
 						["sourceQuests"] = { 46674 },	-- The Preservation of Nature
 						["qgs"] = {
@@ -1048,13 +999,35 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 43.5, 58.3, BROKEN_SHORE },
 						["groups"] = { i(147282) },	-- Impsorrow Missive (QI!)
 					}),
-
-					-- 7.2.0
-					q(46317, {	-- Talon's Call
+					q(46677, {	-- Prick of a Thistle
 						["sourceQuests"] = {
-							47137,	-- Champions of Legionfall
-							45425,	-- Grovebound
+							46676,	-- Nature's Touch
+							46675,	-- To Track a Demon
 						},
+						["qgs"] = {
+							120070,	-- Thisalee Crow
+							120084,	-- Druid of the Talon
+						},
+						["maps"] = { BROKEN_SHORE },
+					}),
+					q(45425, {	-- Grovebound
+						["sourceQuests"] = { 46677 },	-- Prick of a Thistle
+						["qgs"] = {
+							120070,	-- Thisalee Crow
+							120084,	-- Druid of the Talon
+						},
+						["maps"] = { BROKEN_SHORE },
+					}),
+					q(46044, {	-- Champion: Thisalee Crow
+						["sourceQuests"] = { 45425 },	-- Grovebound
+						["provider"] = { "n", 106299 },	-- Thisalee Crow
+						["coord"] = { 44.4, 51.5, THE_DREAMGROVE },
+						["groups"] = {
+							follower(999),	-- Thisalee Crow
+						},
+					}),
+					q(46317, {	-- Talon's Call
+						["sourceQuests"] = { 45425 },	-- Champion: Thisalee Crow
 						["provider"] = { "n", 118105 },	-- Grovewarden Proudhorn
 						["coord"] = { 43.6, 63.6, BROKEN_SHORE },
 					}),
@@ -1074,18 +1047,52 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							mount(241857),	-- Archdruid's Lunarwing Form (MOUNT!)
 						},
 					}),
-					--
-
-					q(44237),	-- Ancients of War
-					hqt(41412, {	-- The Retreat
-						["sourceQuests"] = { 41413 },	-- What Could Go Wrong?
-						["coord"] = { 60.0, 52.4, THE_DREAMGROVE },
-					}),
+					-- Misc
 					q(41413, {	-- What Could Go Wrong?
 						["qg"] = 98784,	-- Zen'kiki
 						["coord"] = { 59.1, 53.3, THE_DREAMGROVE },
 					}),
-
+					q(43879, {	-- Hitting the Books
+						["timeline"] = { ADDED_7_0_3, REMOVED_7_3_0 },
+					}),
+					q(46141, {	-- Knowledge is Power
+						["timeline"] = { ADDED_7_1_5, REMOVED_7_3_0 },
+					}),
+					q(46154, {	-- Furthering Knowledge
+						["timeline"] = { ADDED_7_1_5, REMOVED_7_3_0 },
+					}),
+					q(46786, {	-- Further Advancement
+						["sourceQuests"] = { 46044 },	-- Champion: Thisalee Crow
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+						["timeline"] = { ADDED_7_2_0 },
+					}),
+				}),
+				n(SPECIAL, {
+					-- TODO: Add garrisonTalentID
+					q(44235, {	-- Essence of Fate
+						["provider"] = { "n", 110810 },	-- Almenis
+						["coord"] = { 41.0, 29.3, THE_DREAMGROVE },
+					}),
+					q(44237),	-- Ancients of War
+				}),
+				n(98000, {	-- Scouting Map
+					["groups"] = {
+						i(139420),	-- Wild Mushroom
+					},
+					["achievementID"] = 11217,
+					["modelScale"] = 2.25,
+				}),
+				n(TREASURES, {
+					o_repeated({	-- Spirit Berries
+						["coord"] = { 45.6, 63.7, THE_DREAMGROVE },
+						["groups"] = {
+							o(253157),	-- Spirit Berries
+							o(253183),	-- Spirit Berries
+							i(140347),	-- Spirit Berries
+							i(140351),	-- Sunfruit
+						},
+					}),
 					--[[ TODO: Artifact Appearance  Quests Commented Out For Now
 					o(253118, {	-- Dreamgrove Blossoms
 						sp(220679, { i(139554) }),	-- Acorn of the Endless
@@ -1106,24 +1113,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						sp(220679, { i(139554) }),	-- Acorn of the Endless
 					}),
 					--]]
-				}),
-				n(98000, {	-- Scouting Map
-					["groups"] = {
-						i(139420),	-- Wild Mushroom
-					},
-					["achievementID"] = 11217,
-					["modelScale"] = 2.25,
-				}),
-				n(TREASURES, {
-					o_repeated({	-- Spirit Berries
-						["coord"] = { 45.6, 63.7, THE_DREAMGROVE },
-						["groups"] = {
-							o(253157),	-- Spirit Berries
-							o(253183),	-- Spirit Berries
-							i(140347),	-- Spirit Berries
-							i(140351),	-- Sunfruit
-						},
-					}),
 				}),
 				n(VENDORS, {
 					n(112323, {	-- Amurra Thistledew <Proprietor>
@@ -1327,6 +1316,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 			q(41885),	-- Naralex Kneel Seen - drinking the potion while next to Naralex during "In Deep Slumber" (questID 41436)
 			q(41194),	-- Remulos Tracker - entering the Emerald Dreamway for the first time
 			q(44236),	-- Essence of Fate - completed with quest 44235
+			q(41412),	-- The Retreat - completed with quest 41413
 			q(44642),	-- Tracking Quest: 7.0 Class Hall - Druid - Pacing Mission 1A - completed the "Sampling the Nightmare" mission
 			q(42360),	-- Tracking Quest: Chose Broll - part of "Defenders of the Dream" (questID 42050)
 			q(42361),	-- Tracking Quest: Chose Sylendra - part of "Defenders of the Dream" (questID 42050)
