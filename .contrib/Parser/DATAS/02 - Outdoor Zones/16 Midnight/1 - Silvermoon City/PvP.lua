@@ -120,6 +120,118 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--			}),
 			--		},
 			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
+			--		["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--		["groups"] = {
+			--			i(256608, {	-- Galactic Gladiator's Heraldry x9
+			--				["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 },
+			--			}),
+			--		},
+			--	}),
 			}),
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 254971 },	-- Zerella
