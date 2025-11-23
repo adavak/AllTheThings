@@ -181,6 +181,420 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(837),	-- Keepers of the Grove
 				}),
 				n(QUESTS, {
+					-- Intro
+					q(40643, {	-- A Summons From Moonglade
+						["sourceQuests"] = { 44663 },	-- In the Blink of an Eye
+						["provider"] = { "n", 101061 },	-- Archdruid Hamuul Runetotem
+						["coord"] = { 57.8, 45.8, LEGION_DALARAN },
+						["groups"] = { i(173716) },	-- Mossy Hearthstone (QI!)
+					}),
+					q(41106, {	-- Call of the Wilds
+						["sourceQuests"] = { 40643 },	-- A Summons From Moonglade
+						["qgs"] = {
+							101064,	-- Archdruid Hamuul Runetotem
+							-- #if AFTER BFA
+							142299,	-- Archdruid Hamuul Runetotem
+							-- #endif
+						},
+						["coords"] = {
+							{ 56.2, 32.0, MOONGLADE },
+							-- #if AFTER BFA
+							{ 42.3, 44.3, SILITHUS },
+							-- #endif
+						},
+					}),
+					q(40644, {	-- The Dreamway
+						["sourceQuests"] = { 41106 },	-- Call of the Wilds
+						["provider"] = { "n", 101064 },	-- Archdruid Hamuul Runetotem
+						["coord"] = { 56.2, 32.0, MOONGLADE },
+					}),
+					q(40645, {	-- To The Dreamgrove
+						["sourceQuests"] = { 40644 },	-- The Dreamway
+						["provider"] = { "n", 103875 },	-- Malfurion Stormrage
+						["coord"] = { 66.8, 60.4, MOONGLADE },
+					}),
+					-- Artifact
+					q(40646, {	-- Weapons of Legend
+						["sourceQuests"] = { 40644 },	--	To The Dreamgrove
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
+					}),
+					q(43980, {	-- Another Weapon of Old
+						["sourceQuests"] = { 40653 },	-- Making Trails
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
+					}),
+					q(44431, {	-- More Weapons of Old
+						["sourceQuests"] = { 43980 },	-- Another Weapon of Old
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
+					}),
+					q(44443, {	-- Weapons of the Ancients
+						["sourceQuests"] = { 44431 },	-- More Weapons of Old
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
+					}),
+					cl(DRUID, BALANCE,{
+						q(40783, {	-- The Scythe of Elune
+							["sourceQuests"] = {
+								40646,	-- Weapons of Legend
+								43980,	-- Another Weapon of Old
+								44431,	-- More Weapons of Old
+								44443,	-- Weapons of the Ancients
+							},
+							["sourceQuestNumRequired"] = 1,
+							["provider"] = { "n", 103778 },	-- Naralex
+							["coord"] = { 44.6, 51.4, THE_DREAMGROVE },
+						}),
+						q(40784, {	-- Its Rightful Place
+							["sourceQuests"] = { 40783 },	-- The Scythe of Elune
+							["provider"] = { "n", 101656 },	-- Valorn Stillbough
+							["coord"] = { 48.9, 34.3, DUSKWOOD },
+						}),
+						q(40785, {	-- A Foe of the Dark
+							["sourceQuests"] = { 40784 },	-- Its Rightful Place
+							["provider"] = { "n", 101651 },	-- Belysra Starbreeze
+							["coord"] = { 48.8, 34.2, DUSKWOOD },
+						}),
+						q(40834, {	-- Following the Curse
+							["sourceQuests"] = { 40785 },	-- A Foe in the Dark
+							["provider"] = { "n", 100323 },	-- Revil Kost
+							["coord"] = { 77.4, 36.3, DUSKWOOD },
+						}),
+						q(40835, {	-- Disturbing the Past
+							["sourceQuests"] = { 40834 },	-- Following the Curse
+							["provider"] = { "n", 100729 },	-- Revil Kost
+							["coord"] = { 52.4, 34.4, DEADWIND_PASS },
+						}),
+						q(40837, {	-- The Deadwind Hunt
+							["sourceQuests"] = { 40835 },	-- Disturbing the Past
+							["provider"] = { "n", 100729 },	-- Revil Kost
+							["coord"] = { 52.4, 34.4, DEADWIND_PASS },
+						}),
+						q(40838, {	-- The Dark Riders
+							["sourceQuests"] = { 40837 },	-- The Deadwind Hunt
+							["provider"] = { "n", 100812 },	-- Revil Kost
+							["coord"] = { 46.9, 69.5, DEADWIND_PASS },
+							["groups"] = {
+								o(246437, {
+									["coord"] = { 68.3, 23.6, 46 },	-- Karazhan Catacombs
+									["groups"] = {
+										i(128858, {	-- Scythe of Elune
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(244),	-- Standard Appearance
+											},
+										}),
+									},
+								}),
+							},
+						}),
+						q(40900, {	-- The Burden Borne
+							["sourceQuests"] = { 40838 },	-- The Dark Riders
+							["provider"] = { "n", 101282 },	-- Revil Kost
+							["coord"] = { 68.3, 27.1, 46 },
+						}),
+					}),
+					cl(DRUID, FERAL, {
+						q(42428, {	-- The Shrine of Ashamane
+							["sourceQuests"] = {
+								40646,	-- Weapons of Legend
+								43980,	-- Another Weapon of Old
+								44431,	-- More Weapons of Old
+								44443,	-- Weapons of the Ancients
+							},
+							["sourceQuestNumRequired"] = 1,
+							["provider"] = { "n", 101195 },	-- Rensar Greathoof
+							["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
+						}),
+						q(42439, {	-- Aid for the Ashen
+							["sourceQuests"] = { 42428 },	-- The Shrine of Ashamane
+							["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
+							["coord"] = { 70.4, 46.7, VALSHARAH },
+						}),
+						q(42438, {	-- Seeds of Renewal
+							["sourceQuests"] = { 42428 },	-- The Shrine of Ashamane
+							["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
+							["coord"] = { 70.4, 46.7, VALSHARAH },
+						}),
+						q(42440, {	-- The Shrine in Peril
+							["sourceQuests"] = {
+								42438,	-- Seeds of Renewal
+								42439,	-- Aid for the Ashen
+							},
+							["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
+							["coord"] = { 73.2, 42.6, VALSHARAH },
+						}),
+						q(42430, {	-- The Fangs of Ashamane
+							["sourceQuests"] = { 42440 },	-- The Shrine in Peril
+							["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
+							["coord"] = { 73.8, 38.4, VALSHARAH },
+							["groups"] = {
+								o(250386, {	-- Fangs of Ashamane
+									["coord"] = { 54.9, 20.5, 693 },	-- Falanaar Arcway
+									["groups"] = {
+										i(128860, {	-- Fangs of Ashamane
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(426, {	-- Standard Troll
+													["displayID"] = 66779,	-- Rainbow Druid Form
+													["races"] = { TROLL, ZANDALARI },
+												}),
+												artifact(427, {	-- Standard Tauren
+													["displayID"] = 66777,	-- Brown Druid Form
+													["races"] = { TAUREN, HIGHMOUNTAIN_TAUREN },
+												}),
+												artifact(428, {	-- Standard Worgen / Kultiran
+													["displayID"] = 66778,	-- Light Brown Form
+													["races"] = { WORGEN, KULTIRAN },
+												}),
+												artifact(430, {	-- Standard Night Elf
+													["displayID"] = 66780,	-- Purple Druid Form
+													["races"] = { NIGHTELF },
+												}),
+											},
+										}),
+									},
+								}),
+							},
+						}),
+					}),
+					cl(DRUID, GUARDIAN, {
+						q(41468, {	-- Mistress of the Claw
+							["sourceQuests"] = {
+								40646,	-- Weapons of Legend
+								43980,	-- Another Weapon of Old
+								44431,	-- More Weapons of Old
+								44443,	-- Weapons of the Ancients
+							},
+							["sourceQuestNumRequired"] = 1,
+							["provider"] = { "n", 101195 },	-- Rensar Greathoof
+							["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
+						}),
+						q(41782, {	-- To The Hills
+							["sourceQuests"] = { 41468 },	-- Mistress of the Claw
+							["qgs"] = {
+								101259,	-- Lea Stonepaw
+								104535,	-- Lea Stonepaw
+							},
+							["coord"] = { 39.2, 18.7, VALSHARAH },
+							["groups"] = { i(135563) },	-- Flask of Moonwell Water (QI!)
+						}),
+						q(41783, {	-- Fallen Offerings
+							["sourceQuests"] = { 41782 },	-- To The Hills
+							["provider"] = { "n", 104535 },	-- Lea Stonepaw
+							["coord"] = { 51.3, 36.8, GRIZZLY_HILLS },
+							["timeline"] = { REMOVED_9_0_1 },
+						}),
+						q(41790, {	-- The First Trial of Ursol
+							["sourceQuests"] = {
+								-- #IF AFTER SL
+								41782,	-- To The Hills
+								-- #ELSE
+								41783,	-- Fallen Offerings
+								-- #ENDIF
+							},
+							["provider"] = { "n", 104385 },	-- Ursol
+							["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
+						}),
+						q(41791, {	-- The Second Trial of Ursol
+							["sourceQuests"] = { 41790 },	-- The First Trial of Ursol
+							["provider"] = { "n", 104385 },	-- Ursol
+							["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
+						}),
+						q(41792, {	-- The Third Trial of Ursol
+							["sourceQuests"] = { 41791 },	-- The Second Trial of Ursol
+							["provider"] = { "n", 104385 },	-- Ursol
+							["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
+						}),
+						q(40647, {	-- When Dreams Become Nightmares
+							["sourceQuests"] = { 41792 },	-- The Third Trial of Ursol
+							["provider"] = { "n", 104535 },	-- Lea Stonepaw
+							["coord"] = { 51.3, 36.8, GRIZZLY_HILLS },
+							["maps"] = {
+								757,	-- Ursoc's Lair
+							},
+							["groups"] = {
+								o(248853, {	-- Claws of Ursoc
+									["coord"] = { 50.5, 26.6, 757 },	-- Ursoc's Lair
+									["groups"] = {
+										i(128821, {	-- Claws of Ursoc
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(265, {	-- Standard Troll
+													["races"] = { TROLL, ZANDALARI },
+												}),
+												artifact(264, {	-- Standard Tauren
+													["races"] = { TAUREN, HIGHMOUNTAIN_TAUREN },
+												}),
+												artifact(266, {	-- Standard Worgen / Kultiran
+													["races"] = { WORGEN, KULTIRAN },
+												}),
+												artifact(121, {	-- Standard Night Elf
+													["races"] = { NIGHTELF },
+												}),
+											},
+										}),
+									},
+								}),
+								i(136414),	-- Flask of Moonwell Water (QI!)
+							},
+						}),
+						q(41918, {	-- The Dreamer Returns
+							["sourceQuests"] = { 40647 },	-- When Dreams Become Nightmares
+							["provider"] = { "n", 104535 },	-- Lea Stonepaw
+							["coord"] = { 51.3, 36.8, GRIZZLY_HILLS },
+						}),
+					}),
+					cl(DRUID, RESTORATION, {
+						q(40649, {	-- Meet with Mylune
+							["sourceQuests"] = {
+								40646,	-- Weapons of Legend
+								43980,	-- Another Weapon of Old
+								44431,	-- More Weapons of Old
+								44443,	-- Weapons of the Ancients
+							},
+							["sourceQuestNumRequired"] = 1,
+							["provider"] = { "n", 103832 },	-- Keeper Remulos
+							["coord"] = { 44.8, 50.6, THE_DREAMGROVE },
+						}),
+						q(41422, {	-- Necessary Preparations
+							["sourceQuests"] = { 40649 },	-- Meet with Mylune
+							["provider"] = { "n", 113525 },	-- Mylune
+							["coord"] = { 52.6, 52.8, THE_DREAMGROVE },
+							["groups"] = {
+								o(247901, {	-- Empty Cup
+									["coord"] = { 36.1, 26.5, THE_DREAMGROVE },
+									["groups"] = { i(135501) },	-- Cup of Moonwater (QI!)
+								}),
+							},
+						}),
+						q(41449, {	-- Join the Dreamer
+							["sourceQuests"] = { 41422 },	-- Necessary Preparations
+							["provider"] = { "n", 113525 },	-- Mylune
+							["coord"] = { 52.6, 52.8, THE_DREAMGROVE },
+						}),
+						q(41436, {	-- In Deep Slumber
+							["sourceQuests"] = { 41449 },	-- Join the Dreamer
+							["provider"] = { "n", 104349 },	-- Naralex
+							["coord"] = { 39.6, 18.2, VALSHARAH },	-- technically Dreamgrove, but inside the barrow den the mapID changes
+							["groups"] = {
+								o(248098, {	-- C'Hanir
+									["coord"] = { 45.5, 50.5, 747 },	-- The Dreamgrove
+									["groups"] = { i(135582) },	-- Corrupted G'Hanir, the Mother Tree
+								}),
+							},
+						}),
+						q(41690, {	-- Reconvene
+							["sourceQuests"] = { 41436 },	-- In Deep Slumber
+							["provider"] = { "n", 104349 },	-- Naralex
+							["coord"] = { 39.6, 18.2, VALSHARAH },	-- technically Dreamgrove, but in the barrow den the mapID changes
+							["cost"] = { { "i", 135582, 1 } },	-- Corrupted G'Hanir, the Mother Tree
+						}),
+						q(41689, {	-- Cleansing the Mother Tree
+							["sourceQuests"] = { 41690 },	-- Reconvene
+							["provider"] = { "n", 104577 },	-- Lyessa Bloomwatcher
+							["coord"] = { 45.2, 51.9, THE_DREAMGROVE },
+							["groups"] = {
+								title(332),	-- <Name>, Guardian of G'Hanir
+								o(248499, {	-- G'Hanir
+									["coord"] = { 60.6, 25.4, MOUNT_HYJAL },
+									["groups"] = {
+										i(128306, {	-- G'Hanir, the Mother Tree
+											["ItemAppearanceModifierID"] = 9,
+											["groups"] = {
+												artifact(45),	-- Standard Appearance
+											},
+										}),
+									},
+								}),
+							},
+						}),
+					}),
+					q(41255, {	-- Sowing The Seed
+						["sourceQuests"] = {
+							40900,	-- The Burden Borne
+							42430,	-- The Fangs of Ashamane
+							41918,	-- The Dreamer Returns
+							41689,	-- Cleansing the Mother Tree
+						},
+						["sourceQuestNumRequired"] = 1,
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
+					}),
+					q(41332, {	-- Ascending The Circle
+						["sourceQuests"] = { 41255 },	-- Sowing The Seed
+						["provider"] = { "n", 97923 },	-- Rensar Greathoof
+						["coord"] = { 30.9, 54.2, THE_DREAMGROVE },
+					}),
+					-- Start Zone
+					q(40652, {	-- Word on the Winds
+						["sourceQuests"] = { 41332 },	-- Ascending The Circle
+						["provider"] = { "n", 104241 },	-- Malfurion Stormrage
+						["coord"] = { 46.0, 51.1, THE_DREAMGROVE },
+					}),
+					q(40653, {	-- Making Trails
+						["sourceQuests"] = { 40652 },	-- Word on the Winds
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+					}),
+					-- Learn Mission Table & Research
+					q(42516, {	-- Growing Power
+						["description"] = "To get this quest, you have to port to Dalaran.",
+						["sourceQuests"] = { 40653 },	-- Making Trails
+						["provider"] = { "n", 112689 },	-- Archdruid Hamuul Runetotem
+						["isBreadcrumb"] = true,
+					}),
+					q(42583, {	-- Rise, Champions
+						["sourceQuests"] = { 42516 },	-- Growing Power
+						["provider"] = { "n", 101195 },	-- Rensar Greathoof
+						["coord"] = { 44.6, 52.0, THE_DREAMGROVE },
+					}),
+					q(42096, {	-- Champion: Naralex
+						["sourceQuests"] = { 42583 },	-- Rise, Champions
+						["provider"] = { "n", 103778 },	-- Naralex
+						["coord"] = { 67.2, 75.8, THE_DREAMGROVE },
+						["groups"] = {
+							follower(639),	-- Naralex
+						},
+					}),
+					q(40650, {	-- Champion: Zen'tabra
+						["sourceQuests"] = { 42583 },	-- Rise, Champions
+						["provider"] = { "n", 98013 },	-- Zen'tabra
+						["coord"] = { 47.3, 7.5, THE_DREAMGROVE },
+						["groups"] = {
+							follower(640),	-- Zen'tabra
+						},
+					}),
+					q(42584, {	-- Sister Lilith
+						["sourceQuests"] = { 42583 },	-- Rise, Champions
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+					}),
+					q(42585, {	-- Recruiting the Troops
+						["sourceQuests"] = { 42584 },	-- Sister Lilith
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+					}),
+					q(42586, {	-- A Glade Defense
+						["sourceQuests"] = { 42585 },	-- Recruiting the Troops
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+					}),
+					q(42588, {	-- Branching Out
+						["sourceQuests"] = { 42586 },	-- A Glade Defense
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+					}),
+					-- Chapter 1
+					q(42032, {	-- Sampling the Nightmare
+						["sourceQuests"] = { 42588 },	-- Branching Out
+						["provider"] = { "n", 98002 },	-- Skylord Omnuron
+						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+					}),
+					-- TODO sort quests
+					-------------------------------------------------------------------
+
 					q(42044, {	-- A Dying Dream
 						["sourceQuests"] = {
 							42041,	-- Enduring the Nightmare
@@ -189,16 +603,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 106204 },	-- Archdruid Hamuul Runetotem
 						["coord"] = { 43.4, 30.6, 715 },
-					}),
-					q(40785, {	-- A Foe of the Dark
-						["sourceQuests"] = { 40784 },	-- Its Rightful Place
-						["provider"] = { "n", 101651 },	-- Belysra Starbreeze
-						["coord"] = { 48.8, 34.2, DUSKWOOD },
-					}),
-					q(42586, {	-- A Glade Defense
-						["sourceQuests"] = { 42585 },	-- Recruiting the Troops
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
 					}),
 					q(43409, {	-- A Hero's Weapon
 						["sourceQuests"] = { 42056 },	-- Champion: Remulos
@@ -214,24 +618,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 60.5, 23.6, MOUNT_HYJAL },
 						["groups"] = { i(139730) },	-- Bracers of the Dreamgrove
 					}),
-					q(40643, {	-- A Summons From Moonglade
-						["sourceQuests"] = { 44663 },	-- In the Blink of an Eye
-						["provider"] = { "n", 101061 },	-- Archdruid Hamuul Runetotem
-						["coord"] = { 57.8, 45.8, LEGION_DALARAN },
-						["groups"] = { i(173716) },	-- Mossy Hearthstone (QI!)
-					}),
-					q(42439, {	-- Aid for the Ashen
-						["sourceQuests"] = { 42428 },	-- The Shrine of Ashamane
-						["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
-						["coord"] = { 70.4, 46.7, VALSHARAH },
-					}),
 					q(46026, {	-- An Urgent Warning
 						["u"] = REMOVED_FROM_GAME,	-- supposedly removed in 7.2
-					}),
-					q(43980, {	-- Another Weapon of Old
-						["sourceQuests"] = { 40653 },	-- Making Trails
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
 					}),
 					q(42054, {	-- Archimonde, the Defiler
 						["sourceQuests"] = { 42053 },	-- The War of the Ancients
@@ -243,11 +631,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							107215,	-- Guardian of the Dream
 						},
 						["coord"] = { 61.6, 65.6, MALORNE_NIGHTMARE },
-					}),
-					q(41332, {	-- Ascending The Circle
-						["sourceQuests"] = { 41255 },	-- Sowing The Seed
-						["provider"] = { "n", 97923 },	-- Rensar Greathoof
-						["coord"] = { 30.9, 54.2, THE_DREAMGROVE },
 					}),
 					q(44877, {	-- Attack on the Roost
 						["sourceQuest"] = 44869,	-- Talon Terror
@@ -267,26 +650,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							119982,	-- Druid of the Talon
 						},
 						["coord"] = { 40.9, 42.6, MOUNT_HYJAL },
-					}),
-					q(42588, {	-- Branching Out
-						["sourceQuests"] = { 42586 },	-- A Glade Defense
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(41106, {	-- Call of the Wilds
-						["sourceQuests"] = { 40643 },	-- A Summons From Moonglade
-						["qgs"] = {
-							101064,	-- Archdruid Hamuul Runetotem
-							-- #if AFTER BFA
-							142299,	-- Archdruid Hamuul Runetotem
-							-- #endif
-						},
-						["coords"] = {
-							{ 56.2, 32.0, MOONGLADE },
-							-- #if AFTER BFA
-							{ 42.3, 44.3, SILITHUS },
-							-- #endif
-						},
 					}),
 					q(43368, {	-- Champion: Brightwing
 						["sourceQuests"] = {
@@ -327,14 +690,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							follower(644),	-- Mylune
 						},
 					}),
-					q(42096, {	-- Champion: Naralex
-						["sourceQuests"] = { 42583 },	-- Rise, Champions
-						["provider"] = { "n", 103778 },	-- Naralex
-						["coord"] = { 67.2, 75.8, THE_DREAMGROVE },
-						["groups"] = {
-							follower(639),	-- Naralex
-						},
-					}),
 					q(42056, {	-- Champion: Remulos
 						["sourceQuests"] = { 42055 },	-- The Demi-God's Return
 						["provider"] = { "n", 103832 },	-- Keeper Remulos
@@ -360,37 +715,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							follower(999),	-- Thisalee Crow
 						},
 					}),
-					q(40650, {	-- Champion: Zen'tabra
-						["sourceQuests"] = { 42583 },	-- Rise, Champions
-						["provider"] = { "n", 98013 },	-- Zen'tabra
-						["coord"] = { 47.3, 7.5, THE_DREAMGROVE },
-						["groups"] = {
-							follower(640),	-- Zen'tabra
-						},
-					}),
 					q(42043, {	-- Cleaning Up
 						["sourceQuests"] = { 42040 },	-- The Way to Nordrassil
 						["qg"] = 106135,	-- Bashana Runetotem
 						["coord"] = { 43.4, 30.6, 715 },
-					}),
-					q(41689, {	-- Cleansing the Mother Tree
-						["sourceQuests"] = { 41690 },	-- Reconvene
-						["provider"] = { "n", 104577 },	-- Lyessa Bloomwatcher
-						["coord"] = { 45.2, 51.9, THE_DREAMGROVE },
-						["groups"] = {
-							title(332),	-- <Name>, Guardian of G'Hanir
-							o(248499, {	-- G'Hanir
-								["coord"] = { 60.6, 25.4, MOUNT_HYJAL },
-								["groups"] = {
-									i(128306, {	-- G'Hanir, the Mother Tree
-										["ItemAppearanceModifierID"] = 9,
-										["groups"] = {
-											artifact(45),	-- Standard Appearance
-										},
-									}),
-								},
-							}),
-						},
 					}),
 					q(42045, {	-- Communing with Malorne
 						["sourceQuests"] = { 42044 },	-- A Dying Dream
@@ -417,11 +745,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42032 },	-- Sampling the Nightmare
 						["provider"] = { "n", 98002 },	-- Skylord Omnuron
 						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(40835, {	-- Disturbing the Past
-						["sourceQuests"] = { 40834 },	-- Following the Curse
-						["provider"] = { "n", 100729 },	-- Revil Kost
-						["coord"] = { 52.4, 34.4, DEADWIND_PASS },
 					}),
 					q(40654, {	-- Druids of the Claw
 						["sourceQuests"] = { 42036 },	-- Idol of the Wilds
@@ -455,12 +778,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 30.7, 50.8, 715 },
 						["lvl"] = 103,
 					}),
-					q(41783, {	-- Fallen Offerings
-						["sourceQuests"] = { 41782 },	-- To The Hills
-						["provider"] = { "n", 104535 },	-- Lea Stonepaw
-						["coord"] = { 51.3, 36.8, GRIZZLY_HILLS },
-						["u"] = REMOVED_FROM_GAME,	-- was not part of the questline as of 12/12/20
-					}),
 					q(42365, {	-- Focusing the Energies
 						["sourceQuests"] = { 42046 },	-- A New Beginning
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
@@ -471,11 +788,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
 						["coord"] = { 44.9, 50.0, THE_DREAMGROVE },
 						["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
-					}),
-					q(40834, {	-- Following the Curse
-						["sourceQuests"] = { 40785 },	-- A Foe in the Dark
-						["provider"] = { "n", 100323 },	-- Revil Kost
-						["coord"] = { 77.4, 36.3, DUSKWOOD },
 					}),
 					q(46786, {	-- Further Advancement
 						["sourceQuests"] = { 46044 },	-- Champion: Thisalee Crow
@@ -505,12 +817,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["maps"] = { BROKEN_SHORE },
 					}),
-					q(42516, {	-- Growing Power
-						["description"] = "To get this quest, you have to port to Dalaran.",
-						["sourceQuests"] = { 40653 },	-- Making Trails
-						["provider"] = { "n", 112689 },	-- Archdruid Hamuul Runetotem
-						["isBreadcrumb"] = true,
-					}),
 					q(44075, {	-- Halls of Valor: Essence of Ferocity
 						["sourceQuests"] = { 43991 },	-- The Protectors
 						["provider"] = { "n", 112544 },	-- Keeper Remulos
@@ -526,30 +832,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 59.8, 75.2, VALSHARAH },
 						["lvl"] = 103,
 					}),
-					q(41436, {	-- In Deep Slumber
-						["sourceQuests"] = { 41449 },	-- Join the Dreamer
-						["provider"] = { "n", 104349 },	-- Naralex
-						["coord"] = { 39.6, 18.2, VALSHARAH },	-- technically Dreamgrove, but inside the barrow den the mapID changes
-						["groups"] = {
-							o(248098, {	-- C'Hanir
-								["coord"] = { 45.5, 50.5, 747 },	-- The Dreamgrove
-								["groups"] = { i(135582) },	-- Corrupted G'Hanir, the Mother Tree
-							}),
-						},
-					}),
 					q(46027, {	-- Investigate the Broken Shore
 						["isBreadcrumb"] = true,
 						["u"] = REMOVED_FROM_GAME,	-- supposedly removed in 7.2
-					}),
-					q(40784, {	-- Its Rightful Place
-						["sourceQuests"] = { 40783 },	-- The Scythe of Elune
-						["provider"] = { "n", 101656 },	-- Valorn Stillbough
-						["coord"] = { 48.9, 34.3, DUSKWOOD },
-					}),
-					q(41449, {	-- Join the Dreamer
-						["sourceQuests"] = { 41422 },	-- Necessary Preparations
-						["provider"] = { "n", 113525 },	-- Mylune
-						["coord"] = { 52.6, 52.8, THE_DREAMGROVE },
 					}),
 					q(46141, {	-- Knowledge is Power
 						["u"] = REMOVED_FROM_GAME,
@@ -573,24 +858,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 44.6, 52.0, THE_DREAMGROVE },
 						["lvl"] = 103,
 					}),
-					q(40653, {	-- Making Trails
-						["sourceQuests"] = { 40652 },	-- Word on the Winds
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(40649, {	-- Meet with Mylune
-						["provider"] = { "n", 103832 },	-- Keeper Remulos
-						["coord"] = { 44.8, 50.6, THE_DREAMGROVE },
-					}),
-					q(41468, {	-- Mistress of the Claw
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
-					}),
-					q(44431, {	-- More Weapons of Old
-						["sourceQuests"] = { 43980 },	-- Another Weapon of Old
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
-					}),
 					q(45532, {	-- Mother's Orders
 						["sourceQuest"] = 44869,	-- Talon Terror
 						["qgs"] = {
@@ -611,17 +878,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							120084,	-- Druid of the Talon
 						},
 						["coord"] = { 43.5, 58.3, BROKEN_SHORE },
-					}),
-					q(41422, {	-- Necessary Preparations
-						["sourceQuests"] = { 40649 },	-- Meet with Mylune
-						["provider"] = { "n", 113525 },	-- Mylune
-						["coord"] = { 52.6, 52.8, THE_DREAMGROVE },
-						["groups"] = {
-							o(247901, {	-- Empty Cup
-								["coord"] = { 36.1, 26.5, THE_DREAMGROVE },
-								["groups"] = { i(135501) },	-- Cup of Moonwater (QI!)
-							}),
-						},
 					}),
 					q(44074, {	-- Neltharion's Lair: Essence of Tenacity
 						["sourceQuests"] = { 43991 },	-- The Protectors
@@ -645,42 +901,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							120084,	-- Druid of the Talon
 						},
 						["maps"] = { BROKEN_SHORE },
-					}),
-					q(41690, {	-- Reconvene
-						["sourceQuests"] = { 41436 },	-- In Deep Slumber
-						["provider"] = { "n", 104349 },	-- Naralex
-						["coord"] = { 39.6, 18.2, VALSHARAH },	-- technically Dreamgrove, but in the barrow den the mapID changes
-						["cost"] = { { "i", 135582, 1 } },	-- Corrupted G'Hanir, the Mother Tree
-					}),
-					q(42585, {	-- Recruiting the Troops
-						["sourceQuests"] = { 42584 },	-- Sister Lilith
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(42583, {	-- Rise, Champions
-						["sourceQuests"] = { 42516 },	-- Growing Power
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.6, 52.0, THE_DREAMGROVE },
-					}),
-					q(42032, {	-- Sampling the Nightmare
-						["sourceQuests"] = { 42588 },	-- Branching Out
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(42438, {	-- Seeds of Renewal
-						["sourceQuests"] = { 42428 },	-- The Shrine of Ashamane
-						["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
-						["coord"] = { 70.4, 46.7, VALSHARAH },
-					}),
-					q(42584, {	-- Sister Lilith
-						["sourceQuests"] = { 42583 },	-- Rise, Champions
-						["provider"] = { "n", 98002 },	-- Skylord Omnuron
-						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(41255, {	-- Sowing The Seed
-						["description"] = "Available after collecting your first artifact weapon.",
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
 					}),
 					q(44869, {	-- Talon Terror
 						["sourceQuests"] = {
@@ -708,11 +928,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 68.0, 54.8, MOONGLADE },
 					}),
-					q(40900, {	-- The Burden Borne
-						["sourceQuests"] = { 40838 },	-- The Dark Riders
-						["provider"] = { "n", 101282 },	-- Revil Kost
-						["coord"] = { 68.3, 27.1, 46 },
-					}),
 					q(43365, {	-- The Cycle Continues
 						["sourceQuests"] = { 42045 },	-- Communing with Malorne
 						["provider"] = { "n", 98008 },	-- Brightwing
@@ -721,31 +936,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(139380),	-- Dream Seeds (QI!)
 						},
 					}),
-					q(40838, {	-- The Dark Riders
-						["sourceQuests"] = { 40837 },	-- The Deadwind Hunt
-						["provider"] = { "n", 100812 },	-- Revil Kost
-						["coord"] = { 46.9, 69.5, DEADWIND_PASS },
-						["groups"] = {
-							o(246437, {
-								["coord"] = { 68.3, 23.6, 46 },	-- Karazhan Catacombs
-								["groups"] = {
-									i(128858, {	-- Scythe of Elune
-										["ItemAppearanceModifierID"] = 9,
-										["groups"] = {
-											artifact(244),	-- Standard Appearance
-										},
-									}),
-								},
-							}),
-						},
-					}),
-					q(40837, {	-- The Deadwind Hunt
-						["sourceQuests"] = { 40835 },	-- Disturbing the Past
-						["provider"] = { "n", 100729 },	-- Revil Kost
-						["coord"] = { 52.4, 34.4, DEADWIND_PASS },
-					}),
 					q(42055, {	-- The Demi-God's Return
-						["sourceQuests"] = { 42054 },	-- Call of the Wilds
+						["sourceQuests"] = { 42054 },	-- Archimonde, the Defiler
 						["provider"] = { "n", 106905 },	-- Malorne
 						["coord"] = { 66.1, 66.8, MALORNE_NIGHTMARE },
 						["groups"] = {
@@ -753,58 +945,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							title(327),	-- Archdruid <Name>
 						},
 					}),
-					q(41918, {	-- The Dreamer Returns
-						["sourceQuests"] = { 40647 },	-- When Dreams Become Nightmares
-						["provider"] = { "n", 104535 },	-- Lea Stonepaw
-						["coord"] = { 51.3, 36.8, GRIZZLY_HILLS },
-					}),
-					q(40644, {	-- The Dreamway
-						["sourceQuests"] = { 41106 },	-- Call of the Wilds
-						["provider"] = { "n", 101064 },	-- Archdruid Hamuul Runetotem
-						["coord"] = { 56.2, 32.0, MOONGLADE },
-					}),
 					q(42432, {	-- The Emerald Nightmare: The Emerald Nightmare
 						["sourceQuests"] = { 42056 },	-- Champion: Remulos
 						["provider"] = { "n", 101195 },	-- Rensar Greathoof
 						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
-					}),
-					q(42430, {	-- The Fangs of Ashamane
-						["sourceQuests"] = { 42440 },	-- The Shrine in Peril
-						["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
-						["coord"] = { 73.8, 38.4, VALSHARAH },
-						["groups"] = {
-							o(250386, {	-- Fangs of Ashamane
-								["coord"] = { 54.9, 20.5, 693 },	-- Falanaar Arcway
-								["groups"] = {
-									i(128860, {	-- Fangs of Ashamane
-										["ItemAppearanceModifierID"] = 9,
-										["groups"] = {
-											artifact(426, {	-- Standard Troll
-												["displayID"] = 66779,	-- Rainbow Druid Form
-												["races"] = { TROLL, ZANDALARI },
-											}),
-											artifact(427, {	-- Standard Tauren
-												["displayID"] = 66777,	-- Brown Druid Form
-												["races"] = { TAUREN, HIGHMOUNTAIN_TAUREN },
-											}),
-											artifact(428, {	-- Standard Worgen / Kultiran
-												["displayID"] = 66778,	-- Light Brown Form
-												["races"] = { WORGEN, KULTIRAN },
-											}),
-											artifact(430, {	-- Standard Night Elf
-												["displayID"] = 66780,	-- Purple Druid Form
-												["races"] = { NIGHTELF },
-											}),
-										},
-									}),
-								},
-							}),
-						},
-					}),
-					q(41790, {	-- The First Trial of Ursol
-						["sourceQuests"] = { 41782 },	-- To The Hills
-						["provider"] = { "n", 104385 },	-- Ursol
-						["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
 					}),
 					q(44232, {	-- The Grove Provides
 					--	this is now available to level 45 characters (was previously 110). unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
@@ -833,34 +977,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 44.6, 50.0, THE_DREAMGROVE },
 						["lvl"] = 103,
 					}),
-					q(40783, {	-- The Scythe of Elune
-						["provider"] = { "n", 103778 },	-- Naralex
-						["coord"] = { 44.6, 51.4, THE_DREAMGROVE },
-					}),
-					q(41791, {	-- The Second Trial of Ursol
-						["sourceQuests"] = { 41790 },	-- The First Trial of Ursol
-						["provider"] = { "n", 104385 },	-- Ursol
-						["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
-					}),
 					q(40651, {	-- The Seed of Ages
 						["u"] = REMOVED_FROM_GAME,
-					}),
-					q(42428, {	-- The Shrine of Ashamane
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
-					}),
-					q(42440, {	-- The Shrine in Peril
-						["sourceQuests"] = {
-							42438,	-- Seeds of Renewal
-							42439,	-- Aid for the Ashen
-						},
-						["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
-						["coord"] = { 73.2, 42.6, VALSHARAH },
-					}),
-					q(41792, {	-- The Third Trial of Ursol
-						["sourceQuests"] = { 41791 },	-- The Second Trial of Ursol
-						["provider"] = { "n", 104385 },	-- Ursol
-						["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
 					}),
 					q(42053, {	-- The War of Ancients
 						["sourceQuests"] = { 42050 },	-- Defenders of the Dream
@@ -883,20 +1001,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["maps"] = { MOONGLADE },
 					}),
-					q(40645, {	-- To The Dreamgrove
-						["sourceQuests"] = { 40644 },	-- The Dreamway
-						["provider"] = { "n", 103875 },	-- Malfurion Stormrage
-						["coord"] = { 66.8, 60.4, MOONGLADE },
-					}),
-					q(41782, {	-- To The Hills
-						["sourceQuests"] = { 41468 },	-- Mistress of the Claw
-						["qgs"] = {
-							101259,	-- Lea Stonepaw
-							104535,	-- Lea Stonepaw
-						},
-						["coord"] = { 39.2, 18.7, VALSHARAH },
-						["groups"] = { i(135563) },	-- Flask of Moonwell Water (QI!)
-					}),
 					q(46675, {	-- To Track a Demon
 						["sourceQuests"] = { 46674 },	-- The Preservation of Nature
 						["qgs"] = {
@@ -911,54 +1015,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 105948 },	-- Sylendra Gladesong
 						["coord"] = { 56.8, 71.5, VALSHARAH },
 						["lvl"] = 103,
-					}),
-					q(40646, {	-- Weapons of Legend
-						["sourceQuests"] = { 40644 },	--	To The Dreamgrove
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
-					}),
-					q(44443, {	-- Weapons of the Ancients
-						["sourceQuests"] = { 44431 },	-- More Weapons of Old
-						["provider"] = { "n", 101195 },	-- Rensar Greathoof
-						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
-					}),
-					q(40647, {	-- When Dreams Become Nightmares
-						["sourceQuests"] = { 41792 },	-- The Third Trial of Ursol
-						["provider"] = { "n", 104535 },	-- Lea Stonepaw
-						["coord"] = { 51.3, 36.8, GRIZZLY_HILLS },
-						["maps"] = {
-							757,	-- Ursoc's Lair
-						},
-						["groups"] = {
-							o(248853, {	-- Claws of Ursoc
-								["coord"] = { 50.5, 26.6, 757 },	-- Ursoc's Lair
-								["groups"] = {
-									i(128821, {	-- Claws of Ursoc
-										["ItemAppearanceModifierID"] = 9,
-										["groups"] = {
-											artifact(265, {	-- Standard Troll
-												["races"] = { TROLL, ZANDALARI },
-											}),
-											artifact(264, {	-- Standard Tauren
-												["races"] = { TAUREN, HIGHMOUNTAIN_TAUREN },
-											}),
-											artifact(266, {	-- Standard Worgen / Kultiran
-												["races"] = { WORGEN, KULTIRAN },
-											}),
-											artifact(121, {	-- Standard Night Elf
-												["races"] = { NIGHTELF },
-											}),
-										},
-									}),
-								},
-							}),
-							i(136414),	-- Flask of Moonwell Water (QI!)
-						},
-					}),
-					q(40652, {	-- Word on the Winds
-						["sourceQuests"] = { 41332 },	-- Ascending The Circle
-						["provider"] = { "n", 104241 },	-- Malfurion Stormrage
-						["coord"] = { 46.0, 51.1, THE_DREAMGROVE },
 					}),
 
 					-- 7.2.0

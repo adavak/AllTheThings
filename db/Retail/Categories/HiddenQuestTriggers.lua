@@ -6140,6 +6140,11 @@ q(79429,{type="hqt"}),
 q(79430,{type="hqt"}),
 q(79431,{type="hqt"}),
 q(79459,{type="hqt"})}}),
+h(-551,{
+q(83005,{an="i:79769",type="hqt"}),
+q(83013,{an="i:69227",type="hqt"}),
+q(83004,{an="i:72161",type="hqt"}),
+q(83012,{an="i:69215",type="hqt"})}),
 h(-553,{awp=100107,g={
 q(75712,{type="hqt"}),
 q(75713,{type="hqt"}),
@@ -7001,7 +7006,9 @@ q(89346,{type="hqt",u=2})}}),
 m(619,{petBattleLvl=25,lvl=10,g={
 m(646,{maps=a[28],lvl=45,g={
 h(-61,{
-q(92540,{isDaily=1,type="hqt"})})}})}}),
+q(92540,{isDaily=1,type="hqt"})})}}),
+m(905,{lvl=45,g={
+q(92541,{isDaily=1,type="hqt"})}})}}),
 h(-104,{awp=110205,e=447,rwp=120000,g={
 q(90686,{e=447,type="hqt"}),
 q(90703,{an="s:1232807",e=447,type="hqt"}),
