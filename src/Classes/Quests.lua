@@ -1558,6 +1558,11 @@ local FactionCache = setmetatable({}, {
 });
 local QuestWithReputationCostCollectibles = setmetatable({}, {
 	__index = function(t, quest)
+		if NotInGame(quest) then
+			-- app.PrintDebug("ignore costcollectibles for unavailable quest", quest.questID)
+			t[quest.questID] = app.EmptyTable
+			return
+		end
 		local costCollectibles
 		-- TODO: adjust when givesReputation exists
 		local maxReputation = quest.maxReputation
