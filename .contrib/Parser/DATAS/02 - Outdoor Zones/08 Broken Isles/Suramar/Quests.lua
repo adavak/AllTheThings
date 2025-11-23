@@ -750,7 +750,10 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 42079,	-- Masquerade
 					["provider"] = { "n", 105342 },	-- Ly'leth Lunastre
 					["coord"] = { 43.3, 78.7, SURAMAR },
-					["groups"] = { i(137010) },	-- Half-Full Bottle of Arcwine
+					["groups"] = {
+						i(137011),	-- Corked Bottle (QI!)
+						i(137010),	-- Half-Full Bottle of Arcwine
+					},
 				}),
 				q(40334, {	-- Fisherman's Tonic
 					["sourceQuests"] = {

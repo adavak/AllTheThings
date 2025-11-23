@@ -415,6 +415,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43015,	-- What Winstone Suggests
 						["provider"] = { "n", 101513 },	-- Lord Jorach Ravenholdt
 						["coord"] = { 41.4, 78.0, THE_HALL_OF_SHADOWS },
+						["groups"] = {
+							o(253072, {	-- SI:7 Missive
+								["coord"] = { 81.4, 70, THE_HALL_OF_SHADOWS },
+								["groups"] = { i(140278) },	-- SI:7 Missive (QI!)
+							}),
+						},
 					}),
 					q(43829, {	-- Spy vs. Spy
 						["sourceQuest"] = 43958,	-- A Body of Evidence
@@ -530,8 +536,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 102594 },	-- Marin Noggenfogger
 						["coord"] = { 30.5, 70.4, THE_HALL_OF_SHADOWS },
 						["groups"] = {
-							i(140811),	-- Gallywix's Safe Key (QI!)
-							i(140814),	-- Love Potion #6 (QI!)
+							o(254254, {	-- Gallywix's Key Ring
+								["coord"] = { 20.1, 59.0, AZSHARA },
+								["groups"] = { 	i(140811) },	-- Gallywix's Safe Key (QI!)
+							}),
+							o(254255, {	-- Gallywix's Safe
+								["coord"] = { 19.9, 56.1, AZSHARA },
+								["groups"] = { 	i(140814) },	-- Love Potion #6 (QI!)
+							}),
 						},
 					}),
 					q(44180, {	-- Champion: Marin Noggenfogger
@@ -609,9 +621,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42680 },	-- Deciphering the Letter
 						["provider"] = { "n", 98102 },	-- Valeera Sanguinar
 						["coord"] = { 40.9, 75.5, THE_HALL_OF_SHADOWS },
-						["groups"] = {
-							follower(891),	-- Valeera Sanguinar
-						},
+						["groups"] = { follower(891) },	-- Valeera Sanguinar
 					}),
 					-- Chap 3
 					q(43470, {	-- Pruning the Garden

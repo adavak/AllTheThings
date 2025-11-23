@@ -281,9 +281,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									["groups"] = {
 										i(128858, {	-- Scythe of Elune
 											["ItemAppearanceModifierID"] = 9,
-											["groups"] = {
-												artifact(244),	-- Standard Appearance
-											},
+											["groups"] = { artifact(244) },	-- Standard Appearance
 										}),
 									},
 								}),
@@ -291,8 +289,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(40900, {	-- The Burden Borne
 							["sourceQuests"] = { 40838 },	-- The Dark Riders
-							["provider"] = { "n", 101282 },	-- Revil Kost
-							["coord"] = { 68.3, 27.1, 46 },
+							["qgs"] = {
+								100812,	-- Revil Kost
+								101282,	-- Revil Kost
+							},
+							["coords"] = {
+								{ 46.9, 69.5, DEADWIND_PASS },
+								{ 68.3, 27.1, 46 },	-- Karazhan Catacombs
+							},
 						}),
 					}),
 					cl(DRUID, FERAL, {
@@ -579,17 +583,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42583 },	-- Rise, Champions
 						["provider"] = { "n", 103778 },	-- Naralex
 						["coord"] = { 67.2, 75.8, THE_DREAMGROVE },
-						["groups"] = {
-							follower(639),	-- Naralex
-						},
+						["groups"] = { follower(639) },	-- Naralex
 					}),
 					q(40650, {	-- Champion: Zen'tabra
 						["sourceQuests"] = { 42583 },	-- Rise, Champions
 						["provider"] = { "n", 98013 },	-- Zen'tabra
 						["coord"] = { 47.3, 7.5, THE_DREAMGROVE },
-						["groups"] = {
-							follower(640),	-- Zen'tabra
-						},
+						["groups"] = { follower(640) },	-- Zen'tabra
 					}),
 					q(42584, {	-- Sister Lilith
 						["sourceQuests"] = { 42583 },	-- Rise, Champions

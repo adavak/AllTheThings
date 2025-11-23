@@ -520,25 +520,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 105152 },	-- Hiro
 						["maps"] = { STORMHEIM },
-						["groups"] = {
-							i(139738),	-- Grandmaster's Cuffs
-						},
+						["groups"] = { i(139738) },	-- Grandmaster's Cuffs
 					}),
 					q(41737, {	-- Champion: Hiro
 						["sourceQuests"] = { 41854 },	-- Brick by Brick
 						["provider"] = { "n", 105058 },	-- Hiro
 						["coord"] = { 51.8, 49.6, THE_WANDERING_ISLE },
-						["groups"] = {
-							follower(606),	-- Hiro
-						},
+						["groups"] = { follower(606) },	-- Hiro
 					}),
 					q(41738, {	-- Champion: Sylara Steelsong
 						["sourceQuests"] = { 41854 },	-- Brick by Brick
 						["provider"] = { "n", 105056 },	-- Sylara Steelsong
 						["coord"] = { 51.8, 49.6, THE_WANDERING_ISLE },
-						["groups"] = {
-							follower(604),	-- Sylara Steelsong
-						},
+						["groups"] = { follower(604) },	-- Sylara Steelsong
 					}),
 					q(41736, {	-- Champion: Angus Ironfist
 						["sourceQuests"] = { 41854 },	-- Brick by Brick
@@ -687,7 +681,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(45404, {	-- Panic at the Brewery
 						["sourceQuests"] = { 45440 },	-- A Brewing Situation
-						["provider"] = { "n", 119664 },	-- Brewmaster Almai
+						["qgs"] = {
+							119664,	-- Brewer Almai
+							116900,	-- Brewer Almai
+						},
 						["coord"] = { 51.3, 48.5, THE_WANDERING_ISLE },
 						["timeline"] = { ADDED_7_2_0 },
 						["maps"] = { 872, 873, 874 },	-- Stormstout Brewery (Scenario Map)
