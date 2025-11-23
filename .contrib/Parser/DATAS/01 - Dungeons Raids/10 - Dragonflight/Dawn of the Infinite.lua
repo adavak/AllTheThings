@@ -26,6 +26,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(114387),	-- Hood of Hooded Nighmates			(NYI)
 			i(147517, {	-- Inquisitor's Battle Cowl			(NYI)
 				["modID"] = 2,
+				["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 			}),
 			ig(121507),	-- Runespeaker's Crown				(NYI)
 
@@ -42,6 +43,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(114388),	-- Hood of Falling Leaves			(NYI)
 			i(147516, {	-- Legion Stalker's Hood			(NYI)
 				["modID"] = 2,	-- Heroic dungeon
+				["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 			}),
 			ig(121509),	-- Runesworn Crown					(NYI)
 
@@ -330,6 +332,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(114269),	-- Leafscale Legguards				(NYI)
 			i(147515, {	-- Hellblaze Invader's Greaves	(NYI)
 				["modID"] = 2,	-- Heroic dungeon
+				["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 			}),
 			ig(4013),	-- Sterling Chain Pants				(NYI)
 			ig(121512),	-- Stormborn Leggings				(NYI)
@@ -345,6 +348,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(121510),	-- Dreadsworn Legguards				(NYI)
 			i(147514, {	-- Felguard Destroyer's Legplates	(NYI)
 				["modID"] = 2,
+				["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 			}),
 			ig(108082),	-- Hardened Draenic Steel Legguards	(NYI)
 			ig(114394),	-- Legplates of Grievous Storms		(NYI)
@@ -384,18 +388,23 @@ local QUANTUM_GROUP = sharedData({
 			["name"] = "Quantum Bow completed.",
 		}),
 		ig(5748),	-- Centaur Longbow						(NYI)
-		ig(204674),	-- Cursed Demonbone Longbow				(NYI)
+		ig(204674, {	-- Cursed Demonbone Longbow				(NYI)
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
+		}),
 		i(186414, {	-- Rae'shalare, Death's Whisper (LFR)	(NYI)
 			["bonusID"] = 451,
 			["modID"] = 0,
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 		}),
 		i(186414, {	-- Rae'shalare, Death's Whisper (HC)	(NYI)
 			["bonusID"] = 1,
 			["modID"] = 0,
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 		}),
 		i(186414, {	-- Rae'shalare, Death's Whisper (M)		(NYI)
 			["bonusID"] = 450,
 			["modID"] = 0,
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 		}),
 		ig(115294),	-- Spectral Longbow						(NYI)
 
@@ -472,15 +481,18 @@ local QUANTUM_GROUP = sharedData({
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
 			["modID"] = 4,	-- LFR raid
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
 			["modID"] = 3,	-- Normal raid
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
 			["modID"] = 5,	-- Heroic raid
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 		}),
 		i(187542, {	-- Jaithys, the Prison Blade		(Removed)
 			["modID"] = 6,	-- Mythic raid
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
 		}),
 		-- This item is available outside of Quantum, but nobody knows where. Maybe in WoD Classic!
 		ig(108905),	-- Jagged Turtleshell Blade				(Removed)
@@ -490,7 +502,9 @@ local QUANTUM_GROUP = sharedData({
 		hqt(77606, {	-- when you learn everything from Quantum Knife (Dagger)
 			["name"] = "Quantum Knife/Dagger completed.",
 		}),
-		ig(147908),	-- 6.0 Weapon - Knife_1h_DraenorRaid_D_01 - Jade	(NYI)
+		ig(147908, {	-- 6.0 Weapon - Knife_1h_DraenorRaid_D_01 - Jade	(NYI)
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
+		}),
 		ig(108054),	-- Draenic Steel Dagger					(NYI)
 		ig(108150),	-- Hardened Draeneic Steel Dagger		(NYI)
 		ig(108234),	-- Peerless Draenic Steel Dagger		(NYI)
@@ -531,10 +545,14 @@ local QUANTUM_GROUP = sharedData({
 		}),
 		ig(166405),	-- Blindside							(NYI)
 		ig(108058),	-- Draenic Steel Mace					(NYI)
-		ig(174228),	-- Gavel of the Oasis					(NYI)
+		ig(174228, {	-- Gavel of the Oasis					(NYI)
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
+		}),
 		ig(108154),	-- Hardened Draenic Steel Mace			(NYI)
 		ig(163930),	-- Kovork's Rattle						(NYI)
-		ig(161118),	-- Marrow Shatter						(NYI)
+		ig(161118, {	-- Marrow Shatter						(NYI)
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
+		}),
 		ig(107390),	-- Obliterator Firing Lever				(NYI)(Unique)
 		ig(108238),	-- Peerless Draenic Steel Mace			(NYI)
 		ig(108240),	-- Peerless Draenic Steel Mace			(NYI)
@@ -605,7 +623,9 @@ local QUANTUM_GROUP = sharedData({
 			["name"] = "Quantum Sword (One-Handed) completed.",
 		}),
 		ig(134613),	-- Scorching Quickblade					(NYI)
-		ig(166364),	-- Song of the Fallen					(NYI)
+		ig(166364, {	-- Song of the Fallen					(NYI)
+			["timeline"] = { ADDED_10_1_5, REMOVED_11_0_2 },
+		}),
 		ig(155074),	-- Toll Enforcer						(NYI)
 
 		ig(68195),	-- Bazzalan's Blade						(Removed)
