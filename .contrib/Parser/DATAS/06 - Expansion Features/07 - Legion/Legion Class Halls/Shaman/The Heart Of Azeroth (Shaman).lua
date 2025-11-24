@@ -115,7 +115,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 96541 },	-- Rehgar Earthfury
-							["coord"] = { 34.2, 77.7, THE_HEART_OF_AZEROTH },
+							["coords"] = {
+								{ 34.2, 77.7, 725 },	-- The Maelstrom (Scenario Map)
+								{ 34.2, 77.7, THE_HEART_OF_AZEROTH },
+							},
 						}),
 						q(43338, {	-- The Codex of Ra
 							["sourceQuests"] = { 43334 },	-- The Coming Storm
@@ -606,7 +609,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(41888, {	-- Allegiance of Flame
 						["sourceQuests"] = { 41934 },	-- The Brand of Damnation
-						["provider"] = { "n", 105594 },	-- Lord Smolderon
+						["qgs"] = {
+							105120,	-- Lord Smolderon
+							105594,	-- Firelord Smolderon <Lord of the Firelands>
+						},
 						["coord"] = { 49.2, 29.7, THE_HEART_OF_AZEROTH_FIRELANDS },
 						["groups"] = {
 							i(139698),	-- Farseer's Harness
@@ -617,17 +623,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41888 },	-- Allegiance of Flame
 						["provider"] = { "n", 106517 },	-- Rehgar Earthfury <Hero of the Storm>
 						["coord"] = { 31.4, 57.8, THE_HEART_OF_AZEROTH },
-						["groups"] = {
-							follower(612),	-- Rehgar Earthfury
-						},
+						["groups"] = { follower(612) },	-- Rehgar Earthfury
 					}),
 					q(41745, {	-- Champion: Scaldius
 						["sourceQuests"] = { 41888 },	-- Allegiance of Flame
 						["provider"] = { "n", 106649 },	-- Baron Scaldius <Emissary of the Firelord>
 						["coord"] = { 29.8, 57.6, THE_HEART_OF_AZEROTH },
-						["groups"] = {
-							follower(613),	-- Baron Scaldius
-						},
+						["groups"] = { follower(613) },	-- Baron Scaldius
 					}),
 					q(43418, {	-- A Hero's Weapon
 						["sourceQuests"] = { 41888 },	-- Allegiance of Flame
@@ -704,8 +706,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							45723,	-- The Crone's Wrath
 						},
 						["provider"] = { "n", 120244 },	-- Magatha Grimtotem
+						["coord"] = { 37.2, 32.1, THOUSAND_NEEDLES },
 						["timeline"] = { ADDED_7_2_0 },
-						["maps"] = { THOUSAND_NEEDLES },
 					}),
 					q(45763, {	-- Demonic Disruption
 						["sourceQuests"] = { 44800 },	-- Against Magatha's Will

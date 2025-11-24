@@ -145,7 +145,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 101097 },	-- Calydus
 							["coords"] = {
-								{ 56.4, 64.6, LEGION_THE_UNDERBELLY },
+								{ 56.1, 65.7, LEGION_THE_UNDERBELLY },
 								{ 37.7, 31.8, DREADSCAR_RIFT },
 							},
 							["groups"] = {
@@ -248,9 +248,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									["coord"] = { 48.6, 38.5, LEGION_DALARAN },
 									["groups"] = { i(136987) },	-- Aged Snowplum Brandy (QI!)
 								}),
-								o(249744, {	-- Can of Overheated Oil
+								o_repeated({	-- Can of Overheated Oil
 									["coord"] = { 38.6, 24.9, LEGION_DALARAN },
-									["groups"] = { i(136985) },	-- Can of Overheated Oil (QI!)
+									["groups"] = {
+										i(136985),	-- Can of Overheated Oil (QI!)
+										o(245661),	-- Can of Overheated Oil
+										o(249744),	-- Can of Overheated Oil
+									}
 								}),
 								o(249742, {	-- Freshly Dug Grave
 									["coord"] = { 34.7, 38.1, LEGION_DALARAN },
@@ -269,17 +273,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 106610 },	-- Calydus
 							["coord"] = { 54.0, 47.0, LEGION_DALARAN },
 							["groups"] = {
-								i(128943, {	-- Skull of the Man'ari
-									["ItemAppearanceModifierID"] = 0,
+								o(249821, {	-- Skull of the Man'ari
+									["coord"] = { 31.1, 65.9, SURAMAR },
 									["groups"] = {
-										artifact(811),	-- Skull of the Man'ari
+										i(128943, {	-- Skull of the Man'ari
+											["ItemAppearanceModifierID"] = 0,
+											["groups"] = { artifact(811) },	-- Skull of the Man'ari
+										}),
 									},
 								}),
 								i(137246, {	-- Spine of Thal'kiel
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(811),	-- Spine of Thal'kiel
-									},
+									["groups"] = { artifact(811) },	-- Spine of Thal'kiel
 								}),
 							},
 						}),

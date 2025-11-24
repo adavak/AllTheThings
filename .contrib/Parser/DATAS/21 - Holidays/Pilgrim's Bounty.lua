@@ -358,6 +358,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 						19173,	-- Night Elf Commoner
 						20102,	-- Goblin Commoner
 						-- #if AFTER TWW
+						220870,	-- Holiday Enthusiast
 						220307,	-- Holiday Enthusiast
 						-- #endif
 					},
@@ -476,7 +477,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 				}),
 				q(14058, {	-- She Says Potato (Horde)
 					["qg"] = 34768,	-- William Mullins
-					["coord"] = { 65.8, 13.2, UNDERCITY },
+					["coords"] = {
+						{ 61.6, 68.1, UNDERCITY },
+						{ 65.8, 13.2, UNDERCITY },
+					},
 					["cost"] = { { "i", 44839, 20 } },	-- Candied Sweet Potato
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
@@ -578,7 +582,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 				}),
 				q(14059, {	-- We're Out of Cranberry Chutney Again? (Horde)
 					["qg"] = 34712,	-- Roberta Carter
-					["coord"] = { 64.0, 9.6, UNDERCITY },
+					["coords"] = {
+						{ 61.3, 67.0, TIRISFAL_GLADES },
+						{ 64.0, 9.6, UNDERCITY },
+					},
 					["cost"] = { { "i", 44840, 20 } },	-- Cranberry Chutney
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,

@@ -104,6 +104,27 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["lvl"] = 110,
 				}),
 			}),
+			n(ZONE_DROPS, {
+				i(152204, {	-- Glowing Key Fragment (QS!)
+					["maps"] = { EREDATH },
+					["crs"] = {
+						122316,	-- Saprish
+						126152,	-- General Zah'd
+						122423,	-- Grand Shadow-Weaver
+						127791,	-- Grand Shadow-Weaver
+						121670,	-- Shadowguard Adept
+						127797,	-- Shadowguard Champion
+						122403,	-- Shadowguard Champion
+						121672,	-- Shadowguard Phaseblade
+						122413,	-- Shadowguard Riftstalker
+						127796,	-- Shadowguard Riftstalker
+						124171,	-- Shadowguard Subjugator
+						122404,	-- Shadowguard Voidbender
+						122421,	-- Umbral War-Adept
+						122056,	-- Viceroy Nezhar
+					},
+				}),
+			}),
 			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, {
 				n(127882, {	-- Vixx the Collector
 					i(153004),	-- Unstable Portal Emitter (TOY!)
