@@ -14,6 +14,7 @@ call :download CriteriaTree
 call :download GlyphProperties
 call :download HolidayNames
 call :downloadrenamed Holiday Holidays
+call :download HouseDecor
 call :download Item
 call :download ItemBonus
 call :download ItemEffect

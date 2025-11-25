@@ -1907,6 +1907,9 @@ function app:GetDataCache()
 				icon = app.asset("Interface_Vendor")
 			}),
 
+			-- Decor TODO
+			-- app.CreateDynamicHeader("decorID", SimpleHeaderGroup(app.HeaderConstants.DECOR)),
+
 			-- Factions
 			app.CreateDynamicHeaderByValue("factionID", {
 				dynamic_withsubgroups = true,

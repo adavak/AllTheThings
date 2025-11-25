@@ -9,7 +9,7 @@ MERGE_OBJECT_FIELDS = {
 	instanceID = { "isRaid" },
 	mapID = { "maps" },
 	questID = { "type","sourceQuests","altQuests","isBreadcrumb","c","r","races","lvl","OnTooltip","_type","_area","_category","_text","name","description","nextQuests","isDaily","isMonthly","isYearly","repeatable","g" },
-	itemID = { "_class","_subclass","_inventoryType","ignoreBonus","minReputation","spellID" },
+	itemID = { "_class","_subclass","_inventoryType","ignoreBonus","minReputation","spellID","decorID" },
 }
 
 -- Will eventually be removed as all 'merge' data is migrated to DB-scoped data

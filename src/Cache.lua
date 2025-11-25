@@ -381,6 +381,9 @@ local fieldConverters = {
 	["currencyID"] = function(group, value)
 		CacheField(group, "currencyID", value);
 	end,
+	["decorID"] = function(group, value)
+		CacheField(group, "decorID", value);
+	end,
 	["encounterID"] = function(group, value)
 		CacheField(group, "encounterID", value);
 	end,

@@ -135,6 +135,7 @@ src\Classes\Ensemble.lua
 src\Classes\CharacterUnlock.lua
 
 # Item Sub-Classes
+src\Classes\Decor.lua
 src\Classes\Heirloom.lua
 src\Classes\Toys.lua
 

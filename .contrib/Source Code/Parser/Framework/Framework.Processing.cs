@@ -76,6 +76,9 @@ namespace ATT
             // Item Search Name (Quality, Required Skills, Item Level, Race/Class Requirements)
             MergeItemDB(WagoData.GetAll<ItemSearchName>().Values.Select(i => i.GetExportableData()));
 
+            // House Decor
+            MergeItemDB(WagoData.GetAll<HouseDecor>().Values.Select(i => i.GetExportableData()));
+
             // GlyphGB
             foreach (var glyph in WagoData.GetAll<GlyphProperties>().Values)
             {
@@ -1288,9 +1291,17 @@ namespace ATT
             // as of later 2024, Blizz seems to have fixed their logic for granting all Appearances in Ensembles, even when Class/Armor restricted! Huzzah
             //RemoveWrongFilterSources(data, spellID, symlinkSources, rawSources);
 
+            // If this Ensemble is part of an Event, apply that Event to all the raw sources
+            data.TryGetValue("e", out long eventID);
+
             // add the raw sources to the ensemble
             foreach (IDictionary<string, object> source in rawSources)
             {
+                if (eventID > 0)
+                {
+                    Objects.Merge(source, "e", eventID);
+                }
+
                 Items.DetermineItemID(source);
                 Items.MarkItemAsReferenced(source);
 
@@ -1457,6 +1468,7 @@ namespace ATT
             Validate_LocationData(data);
             Validate_LocalizableData(data);
             Validate_IProcessedFields(data);
+            Validate_achievement(data);
 
             // dynamic config-driven validaton
             Validator.Validate(data);
@@ -1469,6 +1481,22 @@ namespace ATT
             Objects.MergeFromObject(data);
         }
 
+        private static void Validate_achievement(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("achID", out long achID) || data.ContainsKey("criteriaID"))
+                return;
+
+            // Achievements should not nest other Achievements
+            if (data.TryGetValue("g", out List<object> g))
+            {
+                long gachID = 0;
+                if (g.Any(d => d is Dictionary<string, object> gd && gd.TryGetValue("achID", out gachID) && !gd.ContainsKey("criteriaID")))
+                {
+                    LogDebugWarn($"Achievement {achID} contains Achievement {gachID}. Use flat listing of Achievements, not nested", data);
+                }
+            }
+        }
+
         /// <summary>
         /// General validation on contrib-defined data
         /// </summary>
@@ -1478,7 +1506,7 @@ namespace ATT
             // Explicitly-marked 'non-collectible' Headers should not be necessary and can be warned to convert to Automatic Header type (ignored if it is a quest)
             if (data.TryGetValue("collectible", out bool collectible) && !collectible && !data.ContainsKey("questID") && data.ContainsKey("g"))
             {
-                LogDebugWarn($"Explicitly Non-Collectible Header defined. Convert to Automatic Header or adjust as needed", data);
+                LogWarn($"Explicitly Non-Collectible Header defined. Convert to Automatic Header or adjust as needed", data);
             }
 
             // If we're processing unsorted, mark those objects
