@@ -373,6 +373,14 @@ i(104294);	-- Rime of the Time-Lost Mariner
 i(104323);	-- The Swineskin
 i(104331);	-- Warning Sign
 
+-- #if ANYCLASSIC
+-----------------
+-- PATCH 5.5.2 --
+-----------------
+i(260622);	-- Exodar Replica
+i(260221);	-- Naaru's Embrace
+-- #endif
+
 -----------------
 -- PATCH 6.0.2 --
 -----------------
