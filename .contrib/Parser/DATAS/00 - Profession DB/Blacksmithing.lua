@@ -2463,6 +2463,8 @@ i(0, 1261980);		-- Bejeweled Venthyr Chalice
 i(0, 1260691);		-- Brennadam Grinder
 i(0, 1261347);		-- Bronze Banner of the Exiled
 i(0, 1261327);		-- Dalaran Runic Anvil
+i(0, 1272662);		-- Dalaran Sewer Gate
+i(0, 1272614);		-- Dalaran Sun Sconce
 i(0, 1261359);		-- Draenei Crystal Forge
 i(0, 1261383);		-- Draenei Smith's Anvil
 i(0, 1261256);		-- Gilnean Pitchfork

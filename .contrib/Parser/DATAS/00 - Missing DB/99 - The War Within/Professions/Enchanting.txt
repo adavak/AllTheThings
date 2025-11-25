@@ -1,6 +1,3 @@
-11.2.7.63642
-r(1260700),	-- Suramar Containment Cell
-r(1262238),	-- Nightspire Fountain
 12.0.0.63534
 r(471006),	-- Midnight Enchanting
 r(471042),	-- Recraft Equipment

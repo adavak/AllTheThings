@@ -1402,6 +1402,29 @@ i(234274, 1213620);	-- 22H Slicks
 ------------------
 -- PATCH 11.2.7 --
 ------------------
+i(0, 1261509);		-- Dark Iron Table Saw
+i(0, 1261504);		-- Gnomish Steam-Powered Bed
+i(0, 1263654);		-- Draenei Holo-Projector Pedestal
+i(0, 1263663);		-- Draenei Transmitter
+i(0, 1263643);		-- Tempest Keep Cryo-Pod
+i(0, 1272688);		-- Home Defense Gadget
+i(0, 1272676);		-- Joybuzz's Joyful Wall of Trains
+i(0, 1272707);		-- Resizable All-Purpose Gear
+i(0, 1261258);		-- Gilnean Problem Solver
+i(0, 1262340);		-- Small Gilnean Windmill
+i(0, 1261236);		-- Halfhill Cookpot
+i(0, 1263551);		-- Reconstructed Mogu Lightning Drill
+i(0, 1263319);		-- Dalaran Auto-Hammer
+i(0, 1263338);		-- Failed Failure Detection Pylon
+i(0, 1260349);		-- Deactivated Atomic Recalibrator
+i(0, 1260352);		-- Gnomish Tesla Mega-Coil
+i(0, 1260425);		-- Mechagon Miniature Artificial Sun
+i(0, 1263240);		-- Cartel Xy Capture Crate
+i(0, 1263239);		-- Kyrian Anima Barrel
+i(0, 1259404);		-- Thaldraszus Telescope
+i(0, 1263237);		-- Titanic Tyrhold Fountain
+i(0, 1259778);		-- Replica Rumbling Wastes Drill Pod
+i(0, 1259724);		-- Schmancy Goblin String Lights
 --- ITEM ---
 i(256962, 1261025);	-- Schematic: Draenei Stargazer's Telescope
 i(256964, 1261027);	-- Schematic: Frostwall Architect's Table

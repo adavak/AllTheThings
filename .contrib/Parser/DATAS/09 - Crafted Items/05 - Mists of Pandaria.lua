@@ -697,6 +697,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(94903, {["timeline"] = {ADDED_5_4_0}})),	-- Pierre (PET!)
 			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(100905, {["timeline"] = {ADDED_5_4_0}})),	-- Rascal-Bot (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(247733),	-- Halfhill Cookpot (DECOR!)
+			i(258216),	-- Reconstructed Mogu Lightning Drill (DECOR!)
+		})),
 		filter(GEMS, {
 			i(77544),	-- Flashing Tinker's Gear
 			i(77547),	-- Fractured Tinker's Gear

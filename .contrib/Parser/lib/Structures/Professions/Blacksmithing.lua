@@ -383,6 +383,8 @@ WRATH_BLACKSMITHING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline
 	}),
 	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 		r(1261327),	-- Dalaran Runic Anvil
+		r(1272662),	-- Dalaran Sewer Gate
+		r(1272614),	-- Dalaran Sun Sconce
 	})),
 	filter(MISC, {
 		r(59405),	-- Cobalt Skeleton Key

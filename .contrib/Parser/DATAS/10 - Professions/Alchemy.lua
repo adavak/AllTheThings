@@ -1174,6 +1174,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				r(1230856),	-- Wondrous Synergist
 			}),
 		}),
+		--[[
 		n(TREASURES, {
 
 		}),
@@ -1193,5 +1194,6 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "i", 225235} ,		-- Deepstone Crucible
 			}),
 		})),
+		--]]
 	})),
 })));

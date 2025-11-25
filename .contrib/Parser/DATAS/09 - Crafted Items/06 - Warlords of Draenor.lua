@@ -495,6 +495,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(111402),	-- Mechanical Axebeak (PET!)
 			i(118741),	-- Mechanical Scorpid (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(251482),	-- Draenei Stargazer's Telescope (DECOR!)
+			i(244314),	-- Frostwall Architect's Table (DECOR!)
+		})),
 		filter(MISC, {
 			i(127719, {["timeline"] = {ADDED_6_2_0, REMOVED_10_0_5}}),	-- Advanced Muzzlesprocket
 			i(171072),	-- Alliance Firework

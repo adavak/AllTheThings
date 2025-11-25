@@ -1174,6 +1174,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(221873),	-- Potion Bomb of Speed++
 			i(221874),	-- Potion Bomb of Speed+++
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(253252),	-- Replica Rumbling Wastes Drill Pod (DECOR!)
+			i(246066),	-- Schmancy Goblin String Lights (DECOR!)
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ENGINEERING,
 		},{
@@ -1258,6 +1262,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(81323, 447334),	-- Miner's Bismuth Hoard
 			FirstCraft(81312, 447323),	-- Spring-Loaded Aqirite Fabric Cutters
 			FirstCraft(81311, 447322),	-- Spring-Loaded Bismuth Fabric Cutters
+			-- Decor
+			-- FirstCraft(XXXXX, 1259778, ADDED_11_2_7);	-- Replica Rumbling Wastes Drill Pod
+			-- FirstCraft(XXXXX, 1259724, ADDED_11_2_7);	-- Schmancy Goblin String Lights
 		})),
 		filter(GEMS, {
 			i(221904),	-- Tinker: Earthen Delivery Drill+

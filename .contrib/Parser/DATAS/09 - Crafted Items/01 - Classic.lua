@@ -245,6 +245,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257100),	-- Apothecary's Worktable (DECOR!)
 			i(257041),	-- Stoppered Black Potion (DECOR!)
+			r(262639),	-- Black Dye Pigment
+			r(262643),	-- Blue Dye Pigment
+			r(262642),	-- Brown Dye Pigment
+			r(262647),	-- Green Dye Pigment
+			r(262656),	-- Orange Dye Pigment
+			r(262625),	-- Purple Dye Pigment
+			r(262655),	-- Red Dye Pigment
+			r(262628),	-- Teal Dye Pigment
+			r(260947),	-- White Dye Pigment
+			r(262648),	-- Yellow Dye Pigment
 		})),
 		filter(REAGENTS, {
 			i(12360),	-- Arcanite Bar
@@ -3950,7 +3960,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "o", 142140 },	-- Purple Lotus
 				}),
 				-- ___________________________________________
-				-- 
+				--
 				-- Nodes:
 				o(142141, {	-- Arthas' Tears (Scourge)
 					["maps"] = {

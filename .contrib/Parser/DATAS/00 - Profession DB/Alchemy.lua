@@ -1284,19 +1284,38 @@ i(0, 1259673);		-- Boulder Springs Hot Tub
 i(0, 1261882);		-- Dragon's Elixir Bottle
 i(0, 1261255);		-- Gilnean Cauldron
 i(0, 1269506);		-- Gilnean Green Potion
+i(0, 1272712);		-- Glazed Sin'dorei Vial
 i(0, 1263559);		-- Icecrown Plague Canister
 i(0, 1261878);		-- Nerubian Alchemist's Retort
 i(0, 1261233);		-- Pandaren Alchemist's Retort
 i(0, 1263558);		-- San'layn Blood Orb
+i(0, 1272723);		-- Shadow Council Torch
 i(0, 1261972);		-- Sintallow Candles
 i(0, 1262152);		-- Starry Scrying Pool
 i(0, 1261495);		-- Stoppered Black Potion
+i(0, 1272715);		-- Stranglekelp Sack
 i(0, 1261958);		-- Veil-Secured Animacone
 i(0, 1261885);		-- Verdant Valdrakken Vase
 i(0, 1262151);		-- Zandalari Bottle Shipment
+--- DYES ---
+i(0, 1269228);		-- Black Dye Pigment
+i(0, 1269226);		-- Blue Dye Pigment
+i(0, 1269235);		-- Brown Dye Pigment
+i(0, 1269230);		-- Green Dye Pigment
+i(0, 1269233);		-- Orange Dye Pigment
+i(0, 1269231);		-- Purple Dye Pigment
+i(0, 1269229);		-- Red Dye Pigment
+i(0, 1269232);		-- Teal Dye Pigment
+i(0, 1269227);		-- White Dye Pigment
+i(0, 1269234);		-- Yellow Dye Pigment
 --- ITEM ---
 i(257753, 1262011);	-- Orcish Felblood Cauldron
 i(256938, 1260985);	-- Wine Barrel
+
+
+
+
+
 
 ------------------
 -- PATCH 12.0.0 --

@@ -200,12 +200,18 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(LEGION_DALARAN, {
 			n(PROFESSIONS, {
+				prof(ALCHEMY, {
+					n(92458, {	-- Deucus Valdera <Alchemy Trainer>
+						["coord"] = { 41.3, 33.4, LEGION_DALARAN },
+						["groups"] = LEGION_ALCHEMY,
+					}),
+				}),
 				prof(BLACKSMITHING, {
 					n(92183, {	-- Alard Schmied <Blacksmithing Trainer>
 						["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-						["groups"] = {
+						["groups"] = appendGroups(LEGION_BLACKSMITHING, {
 							r(239415, {["timeline"] = {ADDED_7_2_0}}),	-- Rethu's Incessant Courage (RECIPE!)
-						},
+						}),
 					}),
 				}),
 				prof(COOKING, {
@@ -484,6 +490,18 @@ root(ROOTS.Zones, {
 								}, },
 							})
 						),
+					}),
+				}),
+				prof(ENCHANTING, {
+					n(93531, {	-- Enchanter Nalthanis <Enchanting Trainer>
+						["coord"] = { 38.3, 40.3, LEGION_DALARAN },
+						["groups"] = LEGION_ENCHANTING,
+					}),
+				}),
+				prof(ENGINEERING, {
+					n(92194, {	-- Timofey Oshenko <Engineering Trainer>
+						["coord"] = { 37.9, 26.2, LEGION_DALARAN },
+						["groups"] = LEGION_ENGINEERING,
 					}),
 				}),
 				prof(FIRST_AID, {

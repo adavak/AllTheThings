@@ -269,6 +269,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 		filter(BATTLE_PETS, {
 			i(180208),	-- PHA7-YNX (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(258252),	-- Cartel Xy Capture Crate (DECOR!)
+			i(258240),	-- Kyrian Anima Barrel (DECOR!)
+		})),
 		filter(MISC, {
 			i(172915),	-- 50UL-TR4P
 			i(172902),	-- Bomb Bola Launcher

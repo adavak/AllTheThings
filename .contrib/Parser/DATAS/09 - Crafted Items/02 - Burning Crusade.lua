@@ -92,6 +92,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(28101),	-- Unstable Mana Potion
 			i(28100),	-- Volatile Healing Potion
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(264705),	-- Glazed Sin'dorei Vial (DECOR!)
+			i(264706),	-- Shadow Council Torch (DECOR!)
+			i(264709),	-- Stranglekelp Sack (DECOR!)
+		})),
 		filter(REAGENTS, {
 			i(25867),	-- Earthstorm Diamond
 			convertItem(22451, 22572, 10),	-- Primal Air / Mote of Air
@@ -677,6 +682,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				-- #endif
 			})),
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(258193),	-- Draenei Holo-Projector Pedestal (DECOR!)
+			i(258196),	-- Draenei Transmitter (DECOR!)
+			i(258194),	-- Tempest Keep Cryo-Pod (DECOR!)
+		})),
 		filter(MISC, {
 			i(23737),	-- Adamantite Grenade
 			applyclassicphase(TBC_PHASE_TWO, i(20475, {["timeline"] = {ADDED_2_3_0, REMOVED_4_0_1}})),	-- Adamantite Arrow Maker

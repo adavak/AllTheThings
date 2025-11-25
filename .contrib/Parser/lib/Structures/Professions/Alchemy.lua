@@ -41,6 +41,18 @@ APPRENTICE_JOURNEYMAN_ALCHEMY = {
 		r(7841),	-- Swim Speed Potion
 		r(3170),	-- Weak Troll's Blood Elixir / Weak Troll's Blood Potion
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1269228),	-- Black Dye Pigment
+		r(1269226),	-- Blue Dye Pigment
+		r(1269235),	-- Brown Dye Pigment
+		r(1269230),	-- Green Dye Pigment
+		r(1269233),	-- Orange Dye Pigment
+		r(1269231),	-- Purple Dye Pigment
+		r(1269229),	-- Red Dye Pigment
+		r(1269232),	-- Teal Dye Pigment
+		r(1269227),	-- White Dye Pigment
+		r(1269234),	-- Yellow Dye Pigment
+	})),
 	filter(REAGENTS, {
 		r(7836),	-- Blackmouth Oil
 		r(7837),	-- Fire Oil
@@ -143,6 +155,11 @@ TBC_ALCHEMY = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { ADD
 			r(33733),	-- Unstable Mana Potion
 			r(33732),	-- Volatile Healing Potion
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			r(1272712),	-- Glazed Sin'dorei Vial
+			r(1272723),	-- Shadow Council Torch
+			r(1272715),	-- Stranglekelp Sack
+		})),
 		filter(TRINKET_F, {
 			r(38070),	-- Mercurial Stone
 		}),

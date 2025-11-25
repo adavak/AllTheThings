@@ -519,6 +519,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				-- #endif
 			}),
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(245602),	-- Gilnean Problem Solver (DECOR!)
+			i(257689),	-- Small Gilnean Windmill (DECOR!)
+		})),
 		filter(MISC, {
 			i(67494, {	-- Electrostatic Condenser
 				["collectible"] = false,

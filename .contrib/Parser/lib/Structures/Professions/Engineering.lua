@@ -277,6 +277,11 @@ TBC_ENGINEERING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = {
 			-- #endif
 		})),
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1263654),	-- Draenei Holo-Projector Pedestal
+		r(1263663),	-- Draenei Transmitter
+		r(1263643),	-- Tempest Keep Cryo-Pod
+	})),
 	filter(MISC, {
 		r(30311),	-- Adamantite Grenade
 		r(30310),	-- Fel Iron Bomb
@@ -411,6 +416,11 @@ WRATH_ENGINEERING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"]
 		r(63770, {["timeline"] = {ADDED_3_0_3, REMOVED_6_0_2}}),	-- Reticulated Armor Webbing
 		r(63765, {["timeline"] = {ADDED_3_0_3, REMOVED_4_0_1}}),	-- Springy Arachnoweave
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1272688),	-- Home Defense Gadget
+		r(1272676),	-- Joybuzz's Joyful Wall of Trains
+		r(1272707),	-- Resizable All-Purpose Gear
+	})),
 	filter(MISC, {
 		r(56461),	-- Bladed Pickaxe
 		r(56468),	-- Box of Bombs
@@ -532,6 +542,10 @@ CATA_ENGINEERING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] =
 		r(84413),	-- De-Weaponized Mechanical Companion
 		r(84412),	-- Personal World Destroyer
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261258),	-- Gilnean Problem Solver
+		r(1262340),	-- Small Gilnean Windmill
+	})),
 	filter(MISC, {
 		r(95707),	-- Big Daddy
 		r(95703),	-- Electrostatic Condenser
@@ -625,6 +639,10 @@ MOP_ENGINEERING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"
 	filter(BATTLE_PETS, {
 		r(127135),	-- Mechanical Pandaren Dragonling
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1261236),	-- Halfhill Cookpot
+		r(1263551),	-- Reconstructed Mogu Lightning Drill
+	})),
 	filter(GEMS, {
 		r(131211),	-- Flashing Tinker's Gear
 		r(131212),	-- Fractured Tinker's Gear
@@ -794,6 +812,12 @@ COMMON_DRAENOR_ENGINEERING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData
 		["cost"] = {{ "i", SECRET_OF_DRAENOR_ENGINEERING, 1 }},
 	}),
 }));
+LEGION_ENGINEERING = applyclassicphase(LEGION_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1263319),	-- Dalaran Auto-Hammer
+		r(1263338),	-- Failed Failure Detection Pylon
+	})),
+}));
 BFA_ENGINEERING = applyclassicphase(BFA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	n(ARMOR, {
 		r(272062),	-- AZ3-R1-T3 Bionic Bifocals [Rank 1]
@@ -814,6 +838,11 @@ BFA_ENGINEERING = applyclassicphase(BFA_PHASE_ONE, sharedData({ ["timeline"] = {
 		r(269123),	-- Belt Enchant: Miniaturized Plasma Shield
 		r(255940),	-- Belt Enchant: Personal Space Amplifier
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1260349),	-- Deactivated Atomic Recalibrator
+		r(1260352),	-- Gnomish Tesla Mega-Coil
+		r(1260425),	-- Mechagon Miniature Artificial Sun
+	})),
 	filter(MISC, {
 		r(287279, {["timeline"] = {ADDED_8_1_0}}),	-- Aqueous Thermo-Degradation
 		r(256154),	-- Deployable Attire Rearranger [Rank 1]
@@ -885,6 +914,10 @@ SL_ENGINEERING = applyclassicphase(SL_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		r(310504),	-- Grounded Ectoplasmic Specs
 		r(310509),	-- Reinforced Ectoplasmic Specs
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1263240),	-- Cartel Xy Capture Crate
+		r(1263239),	-- Kyrian Anima Barrel
+	})),
 	filter(MISC, {
 		r(310493),	-- 50UL-TR4P
 		r(310486),	-- Bomb Bola Launcher
@@ -921,6 +954,10 @@ DF_ENGINEERING = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		r(382383),	-- Quality-Assured Optics
 		r(382386),	-- Sentry's Stabilized Specs
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1259404),	-- Thaldraszus Telescope
+		r(1263237),	-- Titanic Tyrhold Fountain
+	})),
 	filter(MISC, {
 		r(382379),	-- Arclight Capacitor
 		r(382393),	-- Bottomless Stonecrust Ore Satchel
@@ -962,6 +999,10 @@ TWW_ENGINEERING = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 		r(447376),	-- Spelunker's Goggles
 		r(447377),	-- Tracker's Goggles
 	}),
+	n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+		r(1259778),	-- Replica Rumbling Wastes Drill Pod
+		r(1259724),	-- Schmancy Goblin String Lights
+	})),
 	filter(PROFESSION_EQUIPMENT, {
 		r(447332),	-- Bismuth Fueled Samophlange
 	}),

@@ -343,6 +343,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(257040),	-- Dalaran Runic Anvil (DECOR!)
+			i(264676),	-- Dalaran Sewer Gate (DECOR!)
+			i(264710),	-- Dalaran Sun Sconce (DECOR!)
 		})),
 		filter(MISC, {
 			i(43854),	-- Cobalt Skeleton Key
@@ -639,6 +641,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(42553),	-- Visage Liquification Goggles
 			i(42550),	-- Weakness Spectralizers
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(264711),	-- Joybuzz's Joyful Wall of Trains (DECOR!)
+			i(264707),	-- Resizable All-Purpose Gear (DECOR!)
+			i(245602),	-- Gilnean Problem Solver (DECOR!)
+		})),
 		filter(MISC, {
 			i(40893, {	-- Bladed Pickaxe
 				-- #if AFTER 10.0

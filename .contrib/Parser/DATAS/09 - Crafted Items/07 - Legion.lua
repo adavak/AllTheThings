@@ -371,13 +371,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 		}),
 	}),
 	prof(ENGINEERING, {
-		filter(BATTLE_PETS, {
-			i(132519),	-- Trigger (PET!)
-		}),
-		filter(TOYS, {
-			i(132518),	-- Blingtron's Circuit Design Tutorial (TOY!)
-			i(151652, {["timeline"] = {ADDED_7_3_0}}),	-- Wormhole Generator: Argus (TOY!)*
-		}),
 		n(ARMOR, {
 			i(132500),	-- Blink-Trigger Headgun
 			i(132502),	-- Bolt-Action Headgun
@@ -392,6 +385,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(132501),	-- Tactical Headgun
 			i(144331, {["timeline"] = {ADDED_7_1_5}}),	-- Tailored Skullblasters
 		}),
+		filter(BATTLE_PETS, {
+			i(132519),	-- Trigger (PET!)
+		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(258226),	-- Dalaran Auto-Hammer (DECOR!)
+			i(258225),	-- Failed Failure Detection Pylon (DECOR!)
+		})),
 		filter(RELICS_F, {
 			i(136687),	-- "The Felic"
 			i(136688),	-- Shockinator
@@ -432,6 +432,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			}),
 			i(144341, {["timeline"] = {ADDED_7_1_5}}),	-- Rechargeable Reaves Battery
 			i(132982),	-- Sonic Environment Enhancer
+		}),
+		filter(TOYS, {
+			i(132518),	-- Blingtron's Circuit Design Tutorial (TOY!)
+			i(151652, {["timeline"] = {ADDED_7_3_0}}),	-- Wormhole Generator: Argus (TOY!)*
 		}),
 	}),
 	-- #if BEFORE BFA

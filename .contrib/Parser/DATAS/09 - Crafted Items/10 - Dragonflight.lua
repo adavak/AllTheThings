@@ -1254,6 +1254,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		filter(BATTLE_PETS, {
 			i(193572),	-- Quack-E (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(248113),	-- Thaldraszus Telescope (DECOR!)
+			i(258253),	-- Titanic Tyrhold Fountain (DECOR!)
+		})),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ENGINEERING,
 		},{
@@ -1382,6 +1386,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			FirstCraft(74312, 400810, ADDED_10_0_7);	-- Gnomish Voicebox
 			-- Legendary
 			FirstCraft(75435, 407170, ADDED_10_1_0);	-- Inspired Order Recalibrator
+			-- Decor
+			-- FirstCraft(XXXXX, 1259404, ADDED_11_2_7);	-- Thaldraszus Telescope
+			-- FirstCraft(XXXXX, 1263237, ADDED_11_2_7);	-- Titanic Tyrhold Fountain
 		})),
 		filter(MISC, {
 			i(198549),	-- Black Fireflight

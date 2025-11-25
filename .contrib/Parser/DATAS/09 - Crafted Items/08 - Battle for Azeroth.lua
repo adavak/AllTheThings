@@ -696,6 +696,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		filter(BATTLE_PETS, {
 			i(165849, {["timeline"] = {ADDED_8_1_0}}),	-- Mechantula (PET!)
 		}),
+		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
+			i(246604),	-- Deactivated Atomic Recalibrator (DECOR!)
+			i(246486),	-- Gnomish Tesla Mega-Coil (DECOR!)
+			i(246500),	-- Mechagon Miniature Artificial Sun (DECOR!)
+		})),
 		filter(MISC, {
 			i(153597),	-- Deployable Attire Rearranger
 			i(153573),	-- Electroshock Mount Motivator
