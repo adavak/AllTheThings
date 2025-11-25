@@ -490,9 +490,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["cost"] = {{ "c", BRONZE, 10000 }},
 						}),
 						------ Locked behind: Rise of the Nightfallen ------
-						i(144394, {	-- Tylarr Gronnden (PET!)
-							["cost"] = {{ "c", BRONZE, 35000 }},
-						}),
+						-- i(144394, {	-- Tylarr Gronnden (PET!)
+						-- 	["cost"] = {{ "c", BRONZE, 35000 }},
+						-- }),	-- Does not seem to be on the vendor, likely due to the return of the Brawler's Guild?
 						------ Locked behind: Legionfall ------
 						i(151828, {	-- Ageless Bronze Drake (PET!)
 							["cost"] = {{ "c", BRONZE, 80000 }},
