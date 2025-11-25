@@ -13,31 +13,31 @@ title(101,{awp=30002,e=7,rwp=50004,u=2})}}),
 ach(1683,{awp=30002,e=7,g={
 title(101,{awp=30002,e=7}),
 crit(7564,{achID=2144,awp=30002,id=6,u=30})}}),
-ach(3496,{awp=20001,e=7,providers={{"i",37828},{"i",33977}}}),
+ach(3496,{awp=20001,e=7,providers={{"i",33977},{"i",37828}}}),
 ach(1260,{awp=30002,e=7,maps={111}}),
-ach(1293,{awp=20001,e=7,providers={{"i",33016},{"i",33017},{"i",33019},{"i",33021},{"i",33018},{"i",33020}},rwp=30002,u=2}),
+ach(1293,{awp=20001,e=7,providers={{"i",33016},{"i",33017},{"i",33018},{"i",33019},{"i",33020},{"i",33021}},rwp=30002,u=2}),
 ach(2796,{awp=30002,e=7,providers={{"i",37736},{"i",37737}},g={
 crit(9859,{achID=2796,awp=30002,e=7,id=2,questID=12420,u=1}),
 crit(9861,{achID=2796,awp=30002,e=7,id=4,questID=12421,u=1}),
 crit(6175,{achID=1683,awp=30002,e=7,id=3})}}),
 ach(1183,{awp=30002,e=7,g={
-crit(3526,{achID=1183,awp=30002,e=7,id=13,providers={{"i",37490},{"s",42254}}}),
-crit(3525,{achID=1183,awp=30002,e=7,id=12,providers={{"i",37497},{"s",42260}}}),
-crit(3524,{achID=1183,awp=30002,e=7,id=11,providers={{"i",37498},{"s",42258}}}),
-crit(3523,{achID=1183,awp=30002,e=7,id=10,providers={{"i",37496},{"s",42259}}}),
-crit(3522,{achID=1183,awp=30002,e=7,id=9,providers={{"i",37493},{"s",42257}}}),
-crit(3521,{achID=1183,awp=30002,e=7,id=8,providers={{"i",37495},{"s",42264}}}),
-crit(3520,{achID=1183,awp=30002,e=7,id=7,providers={{"i",37489},{"s",42255}}}),
-crit(3519,{achID=1183,awp=30002,e=7,id=6,providers={{"i",37499},{"s",42261}}}),
-crit(3518,{achID=1183,awp=30002,e=7,id=5,providers={{"i",37491},{"s",43961}}}),
-crit(3517,{achID=1183,awp=30002,e=7,id=4,providers={{"i",37492},{"s",42263}}}),
-crit(3516,{achID=1183,awp=30002,e=7,id=3,providers={{"i",37494},{"s",43959}}}),
-crit(3515,{achID=1183,awp=30002,e=7,id=2,providers={{"i",37488},{"s",42256}}})}}),
-ach(293,{awp=30002,e=7,maps={125},providers={{"i",33968},{"i",33864},{"i",33967},{"i",33969},{"i",33863},{"i",33862},{"i",33868},{"i",33966}}}),
+crit(3526,{achID=1183,awp=30002,e=7,id=13,providers={{"i",37490}}}),
+crit(3525,{achID=1183,awp=30002,e=7,id=12,providers={{"i",37497}}}),
+crit(3524,{achID=1183,awp=30002,e=7,id=11,providers={{"i",37498}}}),
+crit(3523,{achID=1183,awp=30002,e=7,id=10,providers={{"i",37496}}}),
+crit(3522,{achID=1183,awp=30002,e=7,id=9,providers={{"i",37493}}}),
+crit(3521,{achID=1183,awp=30002,e=7,id=8,providers={{"i",37495}}}),
+crit(3520,{achID=1183,awp=30002,e=7,id=7,providers={{"i",37489}}}),
+crit(3519,{achID=1183,awp=30002,e=7,id=6,providers={{"i",37499}}}),
+crit(3518,{achID=1183,awp=30002,e=7,id=5,providers={{"i",37491}}}),
+crit(3517,{achID=1183,awp=30002,e=7,id=4,providers={{"i",37492}}}),
+crit(3516,{achID=1183,awp=30002,e=7,id=3,providers={{"i",37494}}}),
+crit(3515,{achID=1183,awp=30002,e=7,id=2,providers={{"i",37488}}})}}),
+ach(293,{awp=30002,e=7,maps={125},providers={{"i",33862},{"i",33863},{"i",33864},{"i",33868},{"i",33966},{"i",33967},{"i",33968},{"i",33969}}}),
 ach(1936,{awp=20202,e=7,providers={{"i",32233}},g={
 crit(7234,{achID=1683,awp=30002,e=7,id=7})}}),
-ach(4782,{awp=30002,e=7,providers={{"i",37892},{"i",37895},{"i",37897},{"i",37896},{"i",37894},{"i",37893}},rwp=40001,u=2}),
-ach(303,{awp=20001,e=7,providers={{"i",33976},{"i",37828},{"i",33977},{"i",37750},{"i",39476},{"i",37816},{"i",39477}},g={
+ach(4782,{awp=30002,e=7,providers={{"i",37892},{"i",37893},{"i",37894},{"i",37895},{"i",37896},{"i",37897}},rwp=40001,u=2}),
+ach(303,{awp=20001,e=7,providers={{"i",33976},{"i",33977},{"i",37750},{"i",37816},{"i",37828},{"i",39476},{"i",39477}},g={
 crit(6190,{achID=1683,awp=30002,e=7,id=6})}}),
 ach(1184,{awp=30002,e=7,r=2,g={
 crit(8885,{achID=1184,awp=30002,e=7,id=1,providers={{"i",33030}},r=2}),
@@ -75,7 +75,7 @@ crit(18621,{achID=1185,awp=30002,e=7,id=5,providers={{"i",34065}}}),
 crit(18623,{achID=1185,awp=30002,e=7,id=6,providers={{"i",33025}}}),
 crit(18624,{achID=1185,awp=30002,e=7,id=9,providers={{"i",33026}}}),
 crit(6174,{achID=1683,awp=30002,e=7,id=2})}}),
-ach(1292,{awp=20001,e=7,providers={{"i",32912},{"i",32917},{"i",32915},{"i",32919},{"i",32920},{"i",32918}},rwp=20403,u=2})}}),
+ach(1292,{awp=20001,e=7,providers={{"i",32912},{"i",32915},{"i",32917},{"i",32918},{"i",32919},{"i",32920}},rwp=20403,u=2})}}),
 n(23872,{awp=20001,description="You can loot the keg once a day per character by queueing for the encounter in the Dungeon Finder.",e=7,isDaily=1,lvl=75,maps={242,243},g={
 ach(295,{awp=30002,e=7,g={
 crit(6177,{achID=1683,awp=30002,e=7,id=4})}}),
@@ -369,13 +369,13 @@ ach(1793,{awp=30002,e=13,g={
 title(104,{awp=30002,e=13,gender=3}),
 title(105,{awp=30002,e=13,gender=2}),
 crit(7555,{achID=2144,awp=30002,id=4,u=30})}}),
-ach(1792,{awp=30002,e=13,providers={{"i",23007},{"i",46545},{"i",32622},{"i",46544},{"i",32616},{"i",23015},{"i",23002},{"i",32617},{"i",66073},{"i",69648}},g={
+ach(1792,{awp=30002,e=13,providers={{"i",23002},{"i",23007},{"i",23015},{"i",32616},{"i",32617},{"i",32622},{"i",46544},{"i",46545},{"i",66073},{"i",69648}},g={
 crit(6746,{achID=1793,awp=30002,e=13,id=3})}}),
 ach(1788,{awp=30002,e=13,g={
 crit(6656,{achID=1788,awp=30002,e=13,id=7,maps={125},providers={{"i",42431}}}),
 crit(6657,{achID=1788,awp=30002,e=13,id=8,maps={125},providers={{"i",42430}}}),
 crit(6654,{achID=1788,awp=30002,e=13,id=5,maps={125},providers={{"i",33924}}}),
-crit(6655,{achID=1788,awp=30002,coords={{46.88,34.02,393}},e=13,id=6,maps={125},providers={{"i",42438},{"i",42434},{"n",64099}}}),
+crit(6655,{achID=1788,awp=30002,coords={{46.88,34.02,393}},e=13,id=6,maps={125},providers={{"i",42434},{"i",42438},{"n",64099}}}),
 crit(6653,{achID=1788,awp=30002,coords={{46.88,34.02,393}},e=13,id=4,maps={125},providers={{"i",42429},{"n",64099}}}),
 crit(6652,{achID=1788,awp=30002,e=13,id=3,providers={{"i",43490}}}),
 crit(6651,{achID=1788,awp=30002,coords={{69.87,85.18,64},{53.32,79.27,85},{53.66,53.01,85},{54.22,76.11,107},{56.73,34.51,107}},crs={14480,14481,18913,18914,24934,47383,49893},e=13,id=2,maps={84,86},providers={{"i",7228}}}),
@@ -478,7 +478,7 @@ qo(1,{awp=40001,coords={{44.1,79.9,89}},e=13,providers={{"n",43845}},rwp=80001})
 q(13956,{awp=30002,e=13,isYearly=1,lvl=72,maps={78,119,125},providers={{"i",46397},{"n",33533}},sourceQuests={13929,13933,13950},g={
 qo(1,{awp=30002,coords={{47.56,9.17,78},{40.01,82.05,119},{40.66,84.18,119}},e=13,providers={{"n",28092}}})}}),
 q(11975,{awp=20400,e=13,isYearly=1,lvl=60,maps={110,111},providers={{"i",31880},{"n",22817}},r=1,sourceQuests={10945,10951,10953},g={
-qo(1,{awp=20400,coords={{76.61,81.23,110}},e=13,providers={{"n",25151},{"n",25152},{"n",25148},{"n",25150},{"n",25149}}})}}),
+qo(1,{awp=20400,coords={{76.61,81.23,110}},e=13,providers={{"n",25148},{"n",25149},{"n",25150},{"n",25151},{"n",25152}}})}}),
 q(13950,{awp=30002,e=13,isYearly=1,lvl=72,maps={114,125},providers={{"i",46397},{"n",33533}},sourceQuests={13926},g={
 qo(1,{awp=30002,coords={{42.06,11.26,114},{42.68,12.61,114},{43.87,12.06,114}},e=13,providers={{"n",34489}}})}}),
 q(13951,{awp=30002,e=13,isYearly=1,lvl=72,maps={115,125},providers={{"i",46396},{"n",33532}},sourceQuests={13927},g={
@@ -631,7 +631,7 @@ cu(515,{awp=40300,e=1,u=54}),
 crit(18645,{achID=6027,awp=40300,e=1,id=3}),
 crit(18645,{achID=6029,awp=40300,e=1,id=9})}}),
 q(29506,{awp=40300,coords={{50.5,69.5,407}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14844},requireSkill=171,g={
-qo(1,{awp=40300,cost={{"i",1645,5},{"i",19299,5}},e=1,providers={{"i",72044},{"i",72043}}}),
+qo(1,{awp=40300,cost={{"i",1645,5},{"i",19299,5}},e=1,providers={{"i",72043},{"i",72044}}}),
 i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18300,{achID=6032,awp=40300,e=1,id=2,questID=30562})}}),
@@ -650,12 +650,12 @@ crit(18647,{achID=6029,awp=40300,e=1,id=4})}}),
 q(7885,{coords={{55,71.6,407}},e=1,qgs={14833},repeatable=1,rwp=40300,u=2,g={
 i(19182,{b=1,e=1,f=55,q=1,rwp=40300,u=2})}}),
 q(29508,{awp=40300,coords={{51.1,82,407}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14829},requireSkill=164,g={
-qo(1,{awp=40300,coords={{51.6,81.6,407},{55,72,407}},e=1,providers={{"n",54510},{"i",71967},{"i",71964}}}),
+qo(1,{awp=40300,coords={{51.6,81.6,407},{55,72,407}},e=1,providers={{"i",71964},{"i",71967},{"n",54510}}}),
 i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18302,{achID=6032,awp=40300,e=1,id=4})}}),
 q(29520,{awp=40300,coords={{55.4,54.8,407}},cost={{"i",6260,1},{"i",2604,1},{"i",2320,1}},e=1,isMonthly=1,maxReputation={909,42000},qgs={10445},requireSkill=197,g={
-qo(1,{awp=40300,coords={{55.8,54.4,407}},e=1,providers={{"n",54545},{"i",72048}}}),
+qo(1,{awp=40300,coords={{55.8,54.4,407}},e=1,providers={{"i",72048},{"n",54545}}}),
 i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18370,{achID=6032,awp=40300,e=1,id=16})}}),
@@ -751,7 +751,7 @@ i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18308,{achID=6032,awp=40300,e=1,id=10})}}),
 q(29516,{awp=40300,coords={{55,71.6,407}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14833},requireSkill=755,g={
-qo(1,{awp=40300,e=1,providers={{"i",72050},{"o",209287},{"i",72052}}}),
+qo(1,{awp=40300,e=1,providers={{"i",72050},{"i",72052},{"o",209287}}}),
 i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18310,{achID=6032,awp=40300,e=1,id=12})}}),
@@ -781,7 +781,7 @@ i(71083,{awp=40300,b=1,e=1,f=55,q=2,rwp=80001}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18306,{achID=6032,awp=40300,e=1,id=8})}}),
 q(29509,{awp=40300,coords={{52.8,67.9,407}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14845},requireSkill=185,g={
-qo(1,{awp=40300,cost={{"i",30817,5}},e=1,providers={{"i",72058},{"i",72056}}}),
+qo(1,{awp=40300,cost={{"i",30817,5}},e=1,providers={{"i",72056},{"i",72058}}}),
 i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18303,{achID=6032,awp=40300,e=1,id=5})}}),
@@ -862,7 +862,7 @@ i(19182,{b=1,e=1,f=55,q=1,rwp=40300,u=2})}}),
 q(7895,{coords={{49.4,60.8,407}},e=1,qgs={14841},repeatable=1,rwp=40300,u=2,g={
 i(19182,{b=1,e=1,f=55,q=1,rwp=40300,u=2})}}),
 q(29515,{awp=40300,coords={{53.2,75.8,407}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14822},requireSkill=773,g={
-qo(1,{awp=40300,cost={{"i",39354,5}},e=1,providers={{"i",71974},{"i",71972},{"i",71971}}}),
+qo(1,{awp=40300,cost={{"i",39354,5}},e=1,providers={{"i",71971},{"i",71972},{"i",71974}}}),
 i(71083,{awp=40300,b=1,e=1,f=55,q=2}),
 cu(515,{awp=40300,e=1,u=54}),
 crit(18309,{achID=6032,awp=40300,e=1,id=11})}}),
@@ -1300,7 +1300,7 @@ title(102,{awp=30002,e=14,rwp=50004,u=2})}}),
 ach(1691,{awp=30002,e=14,g={
 title(102,{awp=30002,e=14}),
 crit(7566,{achID=2144,awp=30002,id=8,u=30})}}),
-ach(277,{awp=30002,e=14,maps={125},providers={{"i",21215},{"i",21525},{"i",21524},{"i",34087},{"i",34085},{"i",34086},{"s",25990}},g={
+ach(277,{awp=30002,e=14,maps={125},providers={{"i",21215},{"i",21524},{"i",21525},{"i",34085},{"i",34086},{"i",34087}},g={
 crit(6278,{achID=1691,awp=30002,e=14,id=5})}}),
 ach(5853,{awp=40300,e=14,maps={85,88,110,998},providers={{"i",70923}},r=2,g={
 crit(17782,{achID=5853,awp=40300,e=14,id=4,providers={{"s",100343}},r=2}),
@@ -1312,7 +1312,7 @@ crit(17786,{achID=5854,awp=40300,e=14,id=2,providers={{"s",100343}},r=1}),
 crit(17787,{achID=5854,awp=40300,e=14,id=5,providers={{"s",100343}},r=1}),
 crit(17785,{achID=5854,awp=40300,e=14,id=3,providers={{"s",100343}},r=1}),
 crit(17784,{achID=5854,awp=40300,e=14,id=4,providers={{"s",100343}},r=1})}}),
-ach(1690,{awp=30002,e=14,maps={125},providers={{"i",17712},{"i",17202}},g={
+ach(1690,{awp=30002,e=14,maps={125},providers={{"i",17202},{"i",17712}},g={
 crit(6285,{achID=1691,awp=30002,e=14,id=11})}}),
 ach(4436,{awp=30002,e=14,maps={85,88,110,998},providers={{"i",46725}},r=2,g={
 crit(12659,{achID=4436,awp=30002,e=14,id=4,providers={{"n",16802}},r=2}),
@@ -1324,7 +1324,7 @@ crit(12665,{achID=4437,awp=30002,e=14,id=5,providers={{"n",7999}},r=1}),
 crit(12666,{achID=4437,awp=30002,e=14,id=4,providers={{"n",17468}},r=1}),
 crit(12664,{achID=4437,awp=30002,e=14,id=2,providers={{"n",42928}},r=1}),
 crit(12663,{achID=4437,awp=30002,e=14,id=3,providers={{"n",29611}},r=1})}}),
-ach(1295,{awp=30002,e=14,providers={{"i",37710},{"i",54343},{"s",49444}}}),
+ach(1295,{awp=30002,e=14,providers={{"i",37710},{"i",54343}}}),
 ach(1282,{awp=30002,coords={{27.6,52.9,105}},e=14,providers={{"i",21212},{"i",21213},{"n",23120}},sourceQuests={11023},g={
 crit(6277,{achID=1691,awp=30002,e=14,id=4})}}),
 ach(1689,{awp=30002,e=14,g={
@@ -1378,7 +1378,7 @@ crit(7358,{achID=1706,e=14,id=2,providers={{"i",37710}},rwp=30300,u=2})}}),
 ach(6059,{awp=40300,e=14,providers={{"i",46725}},sourceQuests={13966}}),
 ach(6060,{awp=60203,e=14,providers={{"i",46709}},rwp=40300,sourceQuests={28878},u=2}),
 ach(6061,{awp=40300,e=14,providers={{"i",70923}}}),
-ach(7852,{awp=50100,e=14,providers={{"i",90888},{"i",90883}},g={
+ach(7852,{awp=50100,e=14,providers={{"i",90883},{"i",90888}},g={
 crit(22226,{achID=7852,awp=50100,e=14,id=1,providers={{"i",90883}}}),
 crit(22227,{achID=7852,awp=50100,e=14,id=2,providers={{"i",90888}}})}}),
 ach(8698,{awp=50400,e=14,providers={{"i",104318}},sourceQuests={33252}})}}),
@@ -1392,25 +1392,25 @@ r(44953,{awp=20300,b=1,e=14,itemID=34262,learnedAt=285,q=2,requireSkill=165}),
 r(45022,{awp=20300,b=1,e=14,itemID=34413,learnedAt=325,q=1,requireSkill=185}),
 toy(17712,{b=1,description="Greatfather Winter will mail this to you 24 hours after you complete the 'A Smokywood Pastures Thank You!' quest.",e=14,q=1,sourceQuests={6984,7045}})}}),
 h(-45,{e=14,g={
-q(8744,{e=14,isYearly=1,maps={85,87},providers={{"o",180743},{"i",21191}},g={
+q(8744,{e=14,isYearly=1,maps={85,87},providers={{"i",21191},{"o",180743}},g={
 i(21254,{b=1,e=14,f=55,q=1}),
 crit(6251,{achID=1689,awp=30002,e=14,id=3})}}),
-q(8803,{e=14,isYearly=1,lvl=10,maps={85,87},providers={{"o",180793},{"i",21363}},g={
+q(8803,{e=14,isYearly=1,lvl=10,maps={85,87},providers={{"i",21363},{"o",180793}},g={
 i(21328,{b=1,e=14,q=1}),
 crit(6254,{achID=1689,awp=30002,e=14,id=6})}}),
-q(8768,{e=14,isYearly=1,lvl=20,maps={85,87},providers={{"o",180747},{"i",21310}},g={
+q(8768,{e=14,isYearly=1,lvl=20,maps={85,87},providers={{"i",21310},{"o",180747}},g={
 p(119,{awp=11101,e=14,itemID=21301,npcID=15698,q=1,spellID=26533}),
 p(118,{awp=11101,e=14,itemID=21308,npcID=15706,q=1,spellID=26529}),
 p(120,{awp=11101,e=14,itemID=21305,npcID=15705,q=1,spellID=26541}),
 p(117,{awp=11101,e=14,itemID=21309,npcID=15710,q=1,spellID=26045}),
 crit(6255,{achID=1689,awp=30002,e=14,id=7})}}),
-q(8767,{c={1,2,3,4,6,10},description="Given prior to 2015 exclusively to non-spell casters.",e=14,isYearly=1,maps={85,87},providers={{"o",180746},{"i",21270}},rwp=60203,g={
+q(8767,{c={1,2,3,4,6,10},description="Given prior to 2015 exclusively to non-spell casters.",e=14,isYearly=1,maps={85,87},providers={{"i",21270},{"o",180746}},rwp=60203,g={
 i(21235,{b=1,e=14,f=55,q=1,rwp=60203}),
 crit(6252,{achID=1689,awp=30002,e=14,id=4})}}),
-q(8788,{c={5,7,8,9,11},description="Given prior to 2015 exclusively to spell casters.",e=14,isYearly=1,maps={85,87},providers={{"o",180746},{"i",21271}},rwp=60203,g={
+q(8788,{c={5,7,8,9,11},description="Given prior to 2015 exclusively to spell casters.",e=14,isYearly=1,maps={85,87},providers={{"i",21271},{"o",180746}},rwp=60203,g={
 i(21241,{b=1,e=14,f=55,q=1,rwp=60203}),
 crit(6253,{achID=1689,awp=30002,e=14,id=5})}}),
-q(8769,{e=14,isYearly=1,lvl=40,maps={85,87},providers={{"o",180748},{"i",21327}},g={
+q(8769,{e=14,isYearly=1,lvl=40,maps={85,87},providers={{"i",21327},{"o",180748}},g={
 r(21931,{e=14,itemID=17725,learnedAt=190,q=2,requireSkill=333}),
 r(21943,{e=14,itemID=17722,learnedAt=190,q=2,requireSkill=165}),
 r(21945,{e=14,itemID=17724,learnedAt=190,q=1,requireSkill=197}),
@@ -1438,25 +1438,25 @@ r(21913,{e=14,itemID=17706,learnedAt=190,q=2,requireSkill=164}),
 r(21923,{e=14,itemID=17709,learnedAt=190,q=1,requireSkill=171}),
 r(21940,{e=14,itemID=17720,learnedAt=190,q=2,requireSkill=202})}}),
 crit(6224,{achID=279,awp=30002,e=14,id=3})}}),
-q(11528,{awp=20300,description="Gift from 2007.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",34426}},rwp=30002,u=2,g={
+q(11528,{awp=20300,description="Gift from 2007.",e=14,lvl=10,maps={85,87},providers={{"i",34426},{"o",187236}},rwp=30002,u=2,g={
 p(191,{awp=20300,b=1,e=14,itemID=34425,npcID=24968,q=3,rwp=30002,spellID=54187}),
 crit(6250,{achID=1689,awp=30002,e=14,id=2}),
 crit(6250,{achID=1705,awp=20300,e=14,id=2})}}),
-q(13203,{awp=20403,description="Gift from 2008.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",43504}},rwp=30300,u=2,g={
+q(13203,{awp=20403,description="Gift from 2008.",e=14,lvl=10,maps={85,87},providers={{"i",43504},{"o",187236}},rwp=30300,u=2,g={
 toy(37710,{awp=30002,b=1,e=14,q=2,rwp=30300}),
 crit(8739,{achID=1689,awp=30002,e=14,id=9}),
 crit(8739,{achID=1706,e=14,id=3,rwp=30300,u=2})}}),
-q(13966,{awp=30300,description="Gift from 2009.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",46740}},rwp=40003,u=2,g={
+q(13966,{awp=30300,description="Gift from 2009.",e=14,lvl=10,maps={85,87},providers={{"i",46740},{"o",187236}},rwp=40003,u=2,g={
 i(46725,{awp=30300,b=1,e=14,f=55,q=2,rwp=40003}),
 crit(13256,{achID=1689,awp=30002,e=14,id=10})}}),
-q(28878,{awp=40003,description="Gift from 2010.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",67443}},rwp=40200,u=2,g={
+q(28878,{awp=40003,description="Gift from 2010.",e=14,lvl=10,maps={85,87},providers={{"i",67443},{"o",187236}},rwp=40200,u=2,g={
 toy(46709,{awp=40003,b=1,e=14,q=3,rwp=40200})}}),
-q(29385,{awp=40200,description="Gift from 2011.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",70938}},rwp=50100,u=2,g={
+q(29385,{awp=40200,description="Gift from 2011.",e=14,lvl=10,maps={85,87},providers={{"i",70938},{"o",187236}},rwp=50100,u=2,g={
 s(213173,70923,{awp=40200,b=1,e=14,f=2,q=2,rwp=50100})}}),
-q(32106,{awp=50100,description="Gift from 2012.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",90892}},rwp=50400,u=2,g={
+q(32106,{awp=50100,description="Gift from 2012.",e=14,lvl=10,maps={85,87},providers={{"i",90892},{"o",187236}},rwp=50400,u=2,g={
 toy(90888,{awp=50100,b=1,e=14,q=2,rwp=50400}),
 toy(90883,{awp=50100,b=1,e=14,q=2,rwp=50400})}}),
-q(33252,{awp=50400,description="Gift from 2013.",e=14,lvl=10,maps={85,87},providers={{"o",187236},{"i",104319}},rwp=60002,g={
+q(33252,{awp=50400,description="Gift from 2013.",e=14,lvl=10,maps={85,87},providers={{"i",104319},{"o",187236}},rwp=60002,g={
 toy(104318,{awp=50400,b=1,e=14,q=3,rwp=60002})}}),
 q(7022,{coords={{33.2,67.8,87}},e=14,isYearly=1,lvl=10,qgs={13433},r=2}),
 q(7023,{coords={{62.8,70.2,84},{55.6,49,103}},e=14,isYearly=1,lvl=10,qgs={13435,23010},r=2}),
@@ -1659,15 +1659,15 @@ crit(12908,{achID=292,awp=30002,e=16,id=2,providers={{"i",33292}}}),
 crit(5829,{achID=1656,awp=30002,e=16,id=10})}}),
 ach(981,{awp=30002,e=16,providers={{"i",37604}},g={
 crit(5824,{achID=1656,awp=30002,e=16,id=5})}}),
-ach(979,{awp=30002,e=16,providers={{"i",20392},{"i",20565},{"i",20563},{"i",20571},{"i",34003},{"i",20562},{"i",34000},{"i",34002},{"i",20566},{"i",20567},{"i",20561},{"i",20572},{"i",20570},{"i",20568},{"i",34001},{"i",20574},{"i",20573},{"i",20569},{"i",20391},{"i",20564},{"i",69190},{"i",49212},{"i",69193},{"i",49210},{"i",49215},{"i",69192},{"i",69194},{"i",49216},{"i",69187},{"i",69188},{"i",69195},{"i",69189}}}),
+ach(979,{awp=30002,e=16,providers={{"i",20391},{"i",20392},{"i",20561},{"i",20562},{"i",20563},{"i",20564},{"i",20565},{"i",20566},{"i",20567},{"i",20568},{"i",20569},{"i",20570},{"i",20571},{"i",20572},{"i",20573},{"i",20574},{"i",34000},{"i",34001},{"i",34002},{"i",34003},{"i",49210},{"i",49212},{"i",49215},{"i",49216},{"i",69187},{"i",69188},{"i",69189},{"i",69190},{"i",69192},{"i",69193},{"i",69194},{"i",69195}}}),
 ach(283,{awp=30002,e=16,g={
-crit(3209,{achID=283,awp=30002,e=16,id=2,providers={{"i",20410},{"s",24733}}}),
-crit(3210,{achID=283,awp=30002,e=16,id=3,providers={{"i",20409},{"s",24737}}}),
-crit(3211,{achID=283,awp=30002,e=16,id=4,providers={{"i",20399},{"s",24719}}}),
-crit(3212,{achID=283,awp=30002,e=16,id=5,providers={{"i",20398},{"s",24718}}}),
-crit(3213,{achID=283,awp=30002,e=16,id=6,providers={{"i",20397},{"s",24717}}}),
-crit(3214,{achID=283,awp=30002,e=16,id=7,providers={{"i",20411},{"s",24724}}}),
-crit(3215,{achID=283,awp=30002,e=16,id=8,providers={{"i",20414},{"s",24741}}}),
+crit(3209,{achID=283,awp=30002,e=16,id=2,providers={{"i",20410}}}),
+crit(3210,{achID=283,awp=30002,e=16,id=3,providers={{"i",20409}}}),
+crit(3211,{achID=283,awp=30002,e=16,id=4,providers={{"i",20399}}}),
+crit(3212,{achID=283,awp=30002,e=16,id=5,providers={{"i",20398}}}),
+crit(3213,{achID=283,awp=30002,e=16,id=6,providers={{"i",20397}}}),
+crit(3214,{achID=283,awp=30002,e=16,id=7,providers={{"i",20411}}}),
+crit(3215,{achID=283,awp=30002,e=16,id=8,providers={{"i",20414}}}),
 crit(5828,{achID=1656,awp=30002,e=16,id=9})}}),
 ach(289,{awp=30002,e=16,maps={1,18,27,37,94,97},g={
 crit(5822,{achID=1656,awp=30002,e=16,id=4})}}),
@@ -2762,16 +2762,16 @@ ach(1693,{awp=30002,e=9,g={
 title(103,{awp=30002,e=9}),
 crit(7561,{achID=2144,awp=30002,id=2,u=30})}}),
 ach(1701,{awp=30002,e=9,g={
-crit(6324,{achID=1701,awp=30002,e=9,id=2,providers={{"i",21816},{"s",70577}}}),
-crit(6325,{achID=1701,awp=30002,e=9,id=3,providers={{"i",21818},{"s",70579}}}),
-crit(6326,{achID=1701,awp=30002,e=9,id=4,providers={{"i",21819},{"s",70578}}}),
-crit(6327,{achID=1701,awp=30002,e=9,id=5,providers={{"i",21821},{"s",70581}}}),
-crit(6328,{achID=1701,awp=30002,e=9,id=6,providers={{"i",21823},{"s",70574}}}),
-crit(6329,{achID=1701,awp=30002,e=9,id=7,providers={{"i",21822},{"s",70575}}}),
-crit(6330,{achID=1701,awp=30002,e=9,id=8,providers={{"i",21820},{"s",70576}}}),
-crit(6331,{achID=1701,awp=30002,e=9,id=9,providers={{"i",21817},{"s",70580}}}),
+crit(6324,{achID=1701,awp=30002,e=9,id=2,providers={{"i",21816}}}),
+crit(6325,{achID=1701,awp=30002,e=9,id=3,providers={{"i",21818}}}),
+crit(6326,{achID=1701,awp=30002,e=9,id=4,providers={{"i",21819}}}),
+crit(6327,{achID=1701,awp=30002,e=9,id=5,providers={{"i",21821}}}),
+crit(6328,{achID=1701,awp=30002,e=9,id=6,providers={{"i",21823}}}),
+crit(6329,{achID=1701,awp=30002,e=9,id=7,providers={{"i",21822}}}),
+crit(6330,{achID=1701,awp=30002,e=9,id=8,providers={{"i",21820}}}),
+crit(6331,{achID=1701,awp=30002,e=9,id=9,providers={{"i",21817}}}),
 crit(6362,{achID=1693,awp=30002,e=9,id=10})}}),
-ach(260,{awp=30002,cost={{"i",49916,12}},e=9,providers={{"i",49661},{"s",69531}},rwp=100205,g={
+ach(260,{awp=30002,cost={{"i",49916,12}},e=9,providers={{"i",49661}},rwp=100205,g={
 crit(6351,{achID=1693,awp=30002,e=9,id=1})}}),
 ach(1695,{awp=30002,e=9,sourceQuests={24638,24645,24647,24648,24649,24650,24651,24652,24658,24659,24660,24662,24663,24664,24665,24666,28934,28935},g={
 crit(6356,{achID=1693,awp=30002,e=9,id=5})}}),
@@ -2788,9 +2788,9 @@ crit(6319,{achID=1699,awp=30002,c_disp={8},e=9,id=10,races_disp={10}}),
 crit(6321,{achID=1699,awp=30002,c_disp={3},e=9,id=12,races_disp={3}}),
 crit(6320,{achID=1699,awp=30002,c_disp={2},e=9,id=11,races_disp={11}}),
 crit(6359,{achID=1693,awp=30002,e=9,id=8})}}),
-ach(1279,{awp=30002,coords={{46.6,48.4,87}},e=9,providers={{"n",9099},{"i",22218},{"i",49857},{"i",49858},{"i",49856}},r=2,rwp=100205,g={
+ach(1279,{awp=30002,coords={{46.6,48.4,87}},e=9,providers={{"i",22218},{"i",49856},{"i",49857},{"i",49858},{"n",9099}},r=2,rwp=100205,g={
 crit(6367,{achID=1693,awp=30002,e=9,id=3})}}),
-ach(1280,{awp=30002,coords={{67.6,43.8,998}},e=9,providers={{"n",8403},{"i",22218},{"i",49857},{"i",49858},{"i",49856}},r=1,rwp=100205,g={
+ach(1280,{awp=30002,coords={{67.6,43.8,998}},e=9,providers={{"i",22218},{"i",49856},{"i",49857},{"i",49858},{"n",8403}},r=1,rwp=100205,g={
 crit(6353,{achID=1693,awp=30002,e=9,id=3})}}),
 ach(1704,{awp=30002,cost={{"i",22261,5}},e=9,maps={93,123,130,162,210},g={
 crit(6346,{achID=1704,awp=30002,e=9,id=5,providers={{"n",16111}}}),
@@ -2799,7 +2799,7 @@ crit(6347,{achID=1704,awp=30002,e=9,id=6,providers={{"n",16111}}}),
 crit(6345,{achID=1704,awp=30002,e=9,id=4,providers={{"n",16111}}}),
 crit(6344,{achID=1704,awp=30002,e=9,id=3,providers={{"n",16111}}}),
 crit(6364,{achID=1693,awp=30002,e=9,id=12})}}),
-ach(1291,{awp=30002,e=9,maps={125},providers={{"i",34480},{"i",22236}},g={
+ach(1291,{awp=30002,e=9,maps={125},providers={{"i",22236},{"i",34480}},g={
 crit(6354,{achID=1693,awp=30002,e=9,id=4})}}),
 ach(1703,{awp=30002,e=9,providers={{"i",22206},{"i",44731}},g={
 crit(6363,{achID=1693,awp=30002,e=9,id=11})}}),
@@ -3140,7 +3140,7 @@ ach(607,{awp=30002,cost={{"i",21100,10}},e=18}),
 ach(608,{awp=30002,cost={{"i",21100,25}},e=18}),
 ach(609,{awp=30002,cost={{"i",21100,50}},e=18,g={
 crit(6286,{achID=913,awp=30002,e=18,id=9})}}),
-ach(626,{awp=30002,e=18,providers={{"i",21157},{"i",21538},{"i",21539},{"i",21541},{"i",21544},{"i",21543}},g={
+ach(626,{awp=30002,e=18,providers={{"i",21157},{"i",21538},{"i",21539},{"i",21541},{"i",21543},{"i",21544}},g={
 crit(6287,{achID=913,awp=30002,e=18,id=10})}}),
 ach(1281,{awp=30002,cost={{"i",21576,10}},e=18,g={
 crit(6288,{achID=913,awp=30002,e=18,id=11})}}),
@@ -3506,7 +3506,7 @@ ach(8044,{awp=50200,e=11,r=1})}}),
 ach(271,{awp=30002,description="You need the Mantle of the Fire Festival, Vestment of Summer, and the Sandals of Summer to complete the Midsummer set.",e=11,providers={{"s",58934}},g={
 crit(7338,{achID=1038,awp=30002,e=11,id=4,r=2}),
 crit(7338,{achID=1039,awp=30002,e=11,id=3,r=1})}}),
-ach(263,{awp=30002,e=11,providers={{"i",35280},{"i",35279}},g={
+ach(263,{awp=30002,e=11,providers={{"i",35279},{"i",35280}},g={
 crit(11718,{achID=263,awp=30002,e=11,id=3,providers={{"n",25865}}}),
 crit(7339,{achID=1038,awp=30002,e=11,id=3,r=2}),
 crit(7339,{achID=1039,awp=30002,e=11,id=4,r=1})}}),
@@ -4138,7 +4138,7 @@ crit(9138,{achID=2436,awp=30002,e=15,id=2,maps={15},providers={{"s",61818}}}),
 crit(9141,{achID=2436,awp=30002,e=15,id=6,maps={64},providers={{"s",61818}}}),
 crit(9869,{achID=2798,awp=30002,e=15,id=3})}}),
 ach(249,{awp=30002,e=15,providers={{"i",19028}}}),
-ach(2416,{awp=30002,description="Use the Blossoming Branch on someone else and hopefully they return the favor.",e=15,maps={78},providers={{"i",44792},{"s",61718}},g={
+ach(2416,{awp=30002,description="Use the Blossoming Branch on someone else and hopefully they return the favor.",e=15,maps={78},providers={{"i",44792}},g={
 crit(9865,{achID=2798,awp=30002,e=15,id=5})}}),
 ach(2676,{awp=30002,e=15,providers={{"i",45072}},g={
 crit(9863,{achID=2798,awp=30002,e=15,id=1})}}),
@@ -4154,9 +4154,9 @@ crit(9203,{achID=2497,awp=30002,e=15,id=3,maps={18},providers={{"s",61875}},r=1}
 crit(9204,{achID=2497,awp=30002,e=15,id=4,maps={94},providers={{"s",61875}},r=1}),
 crit(9205,{achID=2497,awp=30002,e=15,id=5,maps={1},providers={{"s",61875}},r=1}),
 crit(9874,{achID=2798,awp=30002,e=15,id=6})}}),
-ach(2421,{awp=30002,e=15,maps={84},providers={{"i",44818},{"s",61820}},r=2,g={
+ach(2421,{awp=30002,e=15,maps={84},providers={{"i",44818}},r=2,g={
 crit(9867,{achID=2798,awp=30002,e=15,id=7})}}),
-ach(2420,{awp=30002,e=15,maps={110},providers={{"i",44818},{"s",61820}},r=1,g={
+ach(2420,{awp=30002,e=15,maps={110},providers={{"i",44818}},r=1,g={
 crit(9875,{achID=2798,awp=30002,e=15,id=7})}}),
 ach(2422,{awp=30002,e=15,providers={{"i",45073}},g={
 crit(9124,{achID=2422,awp=30002,e=15,id=2,races_disp={10}}),
@@ -4307,7 +4307,7 @@ q(14064,{awp=30100,coords={{34.1,51,37}},e=101,isYearly=1,maps={27,89},qgs={3465
 q(14065,{awp=30100,e=101,isYearly=1,maps={1,18,94,100},qgs={34654},r=1}),
 q(14055,{awp=30100,coords={{33.9,50.8,37}},cost={{"i",44839,20}},e=101,isDaily=1,qgs={34744},r=2,g={
 crit(11198,{achID=3596,awp=30202,e=101,id=5,r=2})}}),
-q(14058,{awp=30100,coords={{65.8,13.2,998}},cost={{"i",44839,20}},e=101,isDaily=1,qgs={34768},r=1,g={
+q(14058,{awp=30100,coords={{61.6,68.1,998},{65.8,13.2,998}},cost={{"i",44839,20}},e=101,isDaily=1,qgs={34768},r=1,g={
 crit(11206,{achID=3597,awp=30202,e=101,id=5,r=1})}}),
 q(14035,{awp=30100,coords={{34,51.4,37}},e=101,isYearly=1,qgs={34675},r=2,sourceQuests={14033},g={
 qo(1,{awp=30100,cost={{"i",44835,5},{"i",44853,20},{"i",44834,5}},e=101,providers={{"i",44838}}})}}),
@@ -4321,7 +4321,7 @@ q(14030,{awp=30100,coords={{33.9,50.8,37}},cost={{"i",44836,5},{"i",44837,5}},e=
 q(14044,{awp=30100,coords={{46.6,13.8,1}},cost={{"i",44840,5},{"i",44837,5}},e=101,isYearly=1,qgs={34679},r=1,sourceQuests={14043}}),
 q(14053,{awp=30100,coords={{33.7,50.6,37}},cost={{"i",44840,20}},e=101,isDaily=1,qgs={34710},r=2,g={
 crit(11199,{achID=3596,awp=30202,e=101,id=6,r=2})}}),
-q(14059,{awp=30100,coords={{64,9.6,998}},cost={{"i",44840,20}},e=101,isDaily=1,qgs={34712},r=1,g={
+q(14059,{awp=30100,coords={{61.3,67,18},{64,9.6,998}},cost={{"i",44840,20}},e=101,isDaily=1,qgs={34712},r=1,g={
 crit(11207,{achID=3597,awp=30202,e=101,id=6,r=1})}})}}),
 h(-47,{awp=30100,description="The following are rewards from completing the dailies. Turn on 'Show incomplete Things' to show them.",e=101,maps={1,7,18,27,37,57,84,85,87,88,89,94,97,103,110,998},sourceQuests={14048,14051,14053,14054,14055,14058,14059,14060,14061,14062},g={
 s(176325,46723,{awp=30202,b=1,e=101,f=2,q=1}),
@@ -4370,7 +4370,7 @@ h(-587,{e=133899,maps={17,51},g={
 i(13755,{description="Can be caught in open sea water in Blasted Lands and Swamp of Sorrows from 23nd September to 20th March.",e=133899,f=55,lvl=35,q=1})}}),
 h(-588,{description="The Stranglethorn Fishing Extravaganza is a weekly fishing event held every Sunday in Stranglethorn Vale. There is a highly competitive fishing contest and a more casual rare fish turn-in for this event.",e=6,maps={50,210},g={
 h(-12,{e=6,g={
-ach(306,{e=6,providers={{"i",19979},{"i",19970},{"i",50287}},requireSkill=356,g={
+ach(306,{e=6,providers={{"i",19970},{"i",19979},{"i",50287}},requireSkill=356,g={
 crit(5666,{achID=1516,awp=30003,id=6,u=30})}})}}),
 h(-45,{e=6,g={
 q(8194,{coords={{41.4,73,210}},cost={{"i",19807,5}},e=6,qgs={15078},repeatable=1,requireSkill=356}),
@@ -4405,7 +4405,7 @@ i(19806,{b=1,e=6,q=2}),
 i(19805,{b=1,e=6,q=2}),
 s(130431,19808,{description="Keep this in your bank until Transmog is added, otherwise you'll need to obtain it again. Fair warning!",e=6,f=23,lvl=40,q=2}),
 i(19807,{b=1,e=6,q=1})}})}})}}),
-h(-591,{awp=50004,coords={{76,26.8,418}},e=133900,providers={{"o",223184},{"n",73594}},g={
+h(-591,{awp=50004,coords={{76,26.8,418}},e=133900,providers={{"n",73594},{"o",223184}},g={
 h(-12,{awp=50004,e=133900,g={
 ach(7518,{awp=50004,e=133900,providers={{"s",131331}}})}}),
 flt(101,{awp=50004,e=133900,pb=1,g={

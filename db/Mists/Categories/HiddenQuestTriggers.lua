@@ -426,7 +426,7 @@ q(32395,{awp=50100,type="hqt",u=51}),
 q(32339,{awp=50100,type="hqt",u=51}),
 q(32365,{awp=50100,type="hqt",u=51})}})}})}}),
 m(390,{awp=50500,maps={395,396},petBattleLvl=24,g={
-q(92522,{awp=50500,rwp=50502,type="hqt"})}}),
+q(92522,{awp=50500,rwp=50502,type="hqt",u=2})}}),
 h(-45,{awp=50004,g={
 q(30557,{awp=50004,type="hqt"}),
 q(30553,{awp=50004,type="hqt"}),

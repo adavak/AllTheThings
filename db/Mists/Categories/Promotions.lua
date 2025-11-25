@@ -54,7 +54,16 @@ p(4585,{b=1,description="Obtained if you set up a 12 Month WoW Subscription afte
 mnt(463045,{description="Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",u=2}),
 p(4685,{b=1,description="Obtained if you set up a 6/12 Month WoW Subscription after 31st January 2025.",itemID=231312,npcID=232536,q=3,u=2})}}),
 x(5,{u=3,g={
-p(4850,{description="Obtained if you set up a 6/12 Month WoW Subscription after 15th July 2025.",npcID=245603,u=3})}}),
+p(4850,{description="Obtained if you set up a 6/12 Month WoW Subscription after 15th July 2025.",npcID=245603,u=3}),
+h(-691,{awp=50502,u=3,g={(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+mnt(107203,{awp=50502,b=1,itemID=76755,lvl=20,q=4,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+mnt(1241429,{awp=50502,itemID=246264,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+mnt(107516,{awp=50502,b=1,itemID=76889,lvl=20,q=4,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+mnt(107517,{awp=50502,b=1,itemID=76902,lvl=20,q=4,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+p(329,{awp=50502,b=1,itemID=71726,npcID=54438,q=3,spellID=101606,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+p(333,{awp=50502,b=1,itemID=72134,npcID=54730,q=3,spellID=102317,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+toy(72159,{awp=50502,b=1,q=3,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+toy(79769,{awp=50502,b=1,q=3,u=3}))}})}}),
 h(-521,{u=3,g={
 x(1,{description="These rewards were made available to anyone who purchased an original Collector's Edition of World of Warcraft.\n\nThere may still be copies online, but expect to lose a sizable chunk of real world currency for it.",u=3,g={
 h(-45,{rwp=20001,u=2,g={
@@ -84,6 +93,12 @@ q(63450,{altQuests={63448},awp=20501,coords={{28,75.8,224}},crs={5111,6740,6741,
 mnt(348459,{awp=20501,b=1,itemID=184865,lvl=20,q=4,rwp=30400,u=2}),
 toy(184871,{awp=20501,b=1,q=3,rwp=30400,u=2}),
 toy(38233,{awp=20501,b=1,q=3,rwp=30400,u=2})}})}})}}),
+h(-694,{awp=50502,description="These rewards were made available to anyone who purchased the Outland Heroic Pack of The Burning Crusade Classic Anniversary.",u=3,g={
+mnt(1266345,{awp=50502,itemID=260438,lvl=30,u=3}),
+i(260622,{awp=50502,u=3}),
+i(260221,{awp=50502,u=3}),
+p(4962,{awp=50502,itemID=260433,npcID=255820,u=3}),
+mnt(1266866,{awp=50502,itemID=260759,lvl=70,u=3})}}),
 x(3,{description="These rewards were made available to anyone who purchased a Collector's Edition of Wrath of the Lich King.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",u=3,g={
 ach(683,{awp=20403,providers={{"i",39286}},rwp=30305,u=2}),
 p(188,{awp=20403,b=1,itemID=39286,npcID=28883,q=3,rwp=30305,spellID=52615,u=2,g={
@@ -92,7 +107,7 @@ h(-525,{awp=20504,rwp=40001,u=2,g={
 h(-522,{awp=20504,description="These rewards were made available to anyone who purchased a Heroic Upgrade Edition of Wrath of the Lich King Classic.",questID=70449,rwp=40001,u=2,g={
 p(4234,{awp=20504,b=1,itemID=198665,npcID=194870,q=4,rwp=40001,spellID=384796,u=2}),
 toy(198647,{awp=20504,b=1,q=4,rwp=40001,u=2}),
-ach(16332,{awp=20504,cost={{"i",41803,1},{"i",40199,1},{"i",41813,1},{"i",41806,1},{"i",41801,1},{"i",41802,1},{"i",41814,1},{"i",41809,1},{"i",43646,1},{"i",41810,1},{"i",41807,1},{"i",41800,1},{"i",41805,1},{"i",41808,1},{"i",41812,1}},providers={{"n",194870},{"i",199914}},rwp=40001,u=2})}}),
+ach(16332,{awp=20504,cost={{"i",41803,1},{"i",40199,1},{"i",41813,1},{"i",41806,1},{"i",41801,1},{"i",41802,1},{"i",41814,1},{"i",41809,1},{"i",43646,1},{"i",41810,1},{"i",41807,1},{"i",41800,1},{"i",41805,1},{"i",41808,1},{"i",41812,1}},providers={{"i",199914},{"n",194870}},rwp=40001,u=2})}}),
 h(-523,{awp=20504,description="These rewards were made available to anyone who purchased a Epic Upgrade Edition of Wrath of the Lich King Classic.",questID=70448,rwp=40001,u=2,g={
 mnt(372677,{awp=20504,b=1,itemID=192455,lvl=20,q=4,rwp=40001,u=2})}})}}),
 x(4,{description="These rewards were made available to anyone who purchased a Collector's Edition of Cataclysm.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",u=3,g={
@@ -118,11 +133,11 @@ ach(6849,{awp=50004,providers={{"i",85870}},rwp=50407,u=2}),
 ach(6848,{awp=50004,providers={{"i",85871}},rwp=50407,u=2}),
 mnt(124659,{awp=50004,b=1,itemID=85870,lvl=20,q=4,rwp=50407,u=2}),
 p(671,{awp=50004,b=1,itemID=85871,npcID=63832,q=3,rwp=50407,spellID=124660,u=2})}}),
-h(-527,{awp=40402,rwp=50502,u=3,g={
-h(-522,{awp=40402,description="These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",rwp=50502,u=3,g={
-mnt(473487,{awp=40402,rwp=50502,u=3}),
-mnt(473478,{awp=40402,rwp=50502,u=3}),
-toy(235464,{awp=40402,b=1,q=3,rwp=50502,u=3})}})}}),
+h(-527,{awp=40402,rwp=50502,u=2,g={
+h(-522,{awp=40402,description="These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",rwp=50502,u=2,g={
+mnt(473487,{awp=40402,rwp=50502,u=2}),
+mnt(473478,{awp=40402,rwp=50502,u=2}),
+toy(235464,{awp=40402,b=1,q=3,rwp=50502,u=2})}})}}),
 h(-530,{description="These rewards are available to anyone who purchases Diablo 3 Collection.",u=1,g={
 ach(7412,{providers={{"i",76062}},u=1}),
 p(346,{b=1,itemID=76062,npcID=56266,q=3,spellID=105633,u=1})}}),
@@ -180,7 +195,7 @@ p(247,{awp=40003,b=1,description="Originally only available to the Chinese & Tai
 p(170,{awp=20300,b=1,description="Originally only available to the Chinese & Taiwan only, they have been added to the Recruit-A-Friend Program in 5.4.1.",itemID=34518,npcID=25146,q=3,spellID=45174,u=2}),
 p(171,{awp=20300,b=1,description="Originally only available to the Chinese & Taiwan only, they have been added to the Recruit-A-Friend Program in 5.4.1.",itemID=34519,npcID=25147,q=3,spellID=45175,u=2})}),
 h(-550,{awp=20403,rwp=30002,u=2,g={
-ach(1637,{awp=20403,providers={{"i",37297},{"s",48406}},rwp=30002,u=2}),
+ach(1637,{awp=20403,providers={{"i",37297}},rwp=30002,u=2}),
 p(179,{awp=20403,b=1,description="Win a battleground during the Spirit of Competition event to get this.",itemID=37297,npcID=27217,q=3,rwp=30002,spellID=48406,u=2}),
 ach(1636,{awp=20403,providers={{"i",36941}},rwp=30002,u=2}),
 s(145354,36941,{awp=20403,b=1,description="Participate in a battleground during the Spirit of Competition event to get this.",f=9,OnUpdate=function(t)if _.IsQuestFlaggedCompleted(12187)then	if not settings.AccountWide.Quests then	t.u=2;else	t.u=nil;end	end	end,q=3,rwp=30002,u=2}),
