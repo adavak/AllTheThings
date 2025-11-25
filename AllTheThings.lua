@@ -976,6 +976,7 @@ app.ThingKeys = {
 	explorationID = true,
 	titleID = true,
 	campsiteID = true,
+	decorID = true,
 	achievementID = true,	-- special handling
 	criteriaID = true,	-- special handling
 };
@@ -1907,8 +1908,11 @@ function app:GetDataCache()
 				icon = app.asset("Interface_Vendor")
 			}),
 
-			-- Decor TODO
-			-- app.CreateDynamicHeader("decorID", SimpleHeaderGroup(app.HeaderConstants.DECOR)),
+			-- Decor
+			app.CreateDynamicHeader("decorID", {
+				name = CATALOG_SHOP_TYPE_DECOR,
+				icon = app.asset("Category_Housing")
+			}),
 
 			-- Factions
 			app.CreateDynamicHeaderByValue("factionID", {
@@ -3138,6 +3142,7 @@ customWindowUpdates.NWP = function(self, force)
 				{ id = "characterUnlock", name = CHARACTER .. " " .. UNLOCK .. "s", icon = app.asset("Category_ItemSets") },
 				{ id = "conduitID", name = GetSpellName(348869) .. " (" .. EXPANSION_NAME8 .. ")", icon = 3601566 },
 				{ id = "currencyID", name = CURRENCY, icon = app.asset("Interface_Vendor") },
+				{ id = "decorID", name = CATALOG_SHOP_TYPE_DECOR, icon = app.asset("Category_Housing") },
 				{ id = "explorationID", name = "Exploration", icon = app.asset("Category_Exploration") },
 				{ id = "factionID", name = L.FACTIONS, icon = app.asset("Category_Factions") },
 				{ id = "flightpathID", name = L.FLIGHT_PATHS, icon = app.asset("Category_FlightPaths") },
@@ -3329,6 +3334,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 					{ id = "characterUnlock", name = CHARACTER .. " " .. UNLOCK .. "s", icon = app.asset("Category_ItemSets") },
 					{ id = "conduitID", name = GetSpellName(348869) .. " (" .. EXPANSION_NAME8 .. ")", icon = 3601566 },
 					{ id = "currencyID", name = CURRENCY, icon = app.asset("Interface_Vendor") },
+					{ id = "decorID", name = CATALOG_SHOP_TYPE_DECOR, icon = app.asset("Category_Housing") },
 					{ id = "explorationID", name = "Exploration", icon = app.asset("Category_Exploration") },
 					{ id = "factionID", name = L.FACTIONS, icon = app.asset("Category_Factions") },
 					{ id = "flightpathID", name = L.FLIGHT_PATHS, icon = app.asset("Category_FlightPaths") },

@@ -121,6 +121,7 @@ local function presetStore()
 		["Thing:BattlePets"] = settings:Get("Thing:BattlePets"),
 		["Thing:Toys"] = settings:Get("Thing:Toys"),
 		["Thing:Campsites"] = settings:Get("Thing:Campsites"),
+		["Thing:Decor"] = settings:Get("Thing:Decor"),
 
 		-- General Things
 		["Thing:Achievements"] = settings:Get("Thing:Achievements"),
@@ -204,6 +205,7 @@ modeButton:SetScript("OnClick", function()
 				settings:Set("Thing:BattlePets", settings:Get("PresetRestore")["Thing:BattlePets"])
 				settings:Set("Thing:Toys", settings:Get("PresetRestore")["Thing:Toys"])
 				settings:Set("Thing:Campsites", settings:Get("PresetRestore")["Thing:Campsites"])
+				settings:Set("Thing:Decor", settings:Get("PresetRestore")["Thing:Decor"])
 
 				-- General Things
 				settings:Set("Thing:Achievements", settings:Get("PresetRestore")["Thing:Achievements"])
@@ -285,6 +287,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Thing:BattlePets", false)
 			settings:Set("Thing:Toys", false)
 			settings:Set("Thing:Campsites", false)
+			settings:Set("Thing:Decor", false)
 
 			-- General Things
 			settings:Set("Thing:Achievements", false)
@@ -343,6 +346,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Thing:BattlePets", true)
 			settings:Set("Thing:Toys", true)
 			settings:Set("Thing:Campsites", true)
+			settings:Set("Thing:Decor", true)
 
 			-- General Things
 			settings:Set("Thing:Achievements", false)
@@ -401,6 +405,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Thing:BattlePets", true)
 			settings:Set("Thing:Toys", true)
 			settings:Set("Thing:Campsites", false)
+			settings:Set("Thing:Decor", false)
 
 			-- General Things
 			settings:Set("Thing:Achievements", true)
@@ -459,6 +464,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Thing:BattlePets", true)
 			settings:Set("Thing:Toys", true)
 			settings:Set("Thing:Campsites", true)
+			settings:Set("Thing:Decor", true)
 
 			-- General Things
 			settings:Set("Thing:Achievements", true)
@@ -885,9 +891,26 @@ child:CreateTrackingCheckbox("CAMPSITES", "Campsites", true)
 	:AlignAfter(accwideCheckboxCampsites)
 end
 
+-- Decor were added during The War Within
+local accwideCheckboxDecor;
+if app.GameBuildVersion >= 110205 then	-- TODO: Change to 110207
+accwideCheckboxDecor =
+child:CreateAccountWideCheckbox("DECOR", "Decor")
+	:AlignBelow(accwideCheckboxCampsites)
+local decorCheckbox = child:CreateTrackingCheckbox("DECOR", "Decor", true)
+	:AlignAfter(accwideCheckboxDecor)
+decorCheckbox:MarkAsWIP();	-- TODO: Remove WIP once Decor is working and done
+end
+
 local headerGeneralThings = child:CreateHeaderLabel(L.GENERAL_THINGS_LABEL)
 headerGeneralThings:SetPoint("LEFT", headerMode, 0, 0)
-headerGeneralThings:SetPoint("TOP", accwideCheckboxToys, "BOTTOM", 0, -30)
+if app.GameBuildVersion >= 110205 then	-- TODO: Change to 110207
+	headerGeneralThings:SetPoint("TOP", accwideCheckboxDecor, "BOTTOM", 0, -10)
+elseif app.GameBuildVersion >= 110100 then
+	headerGeneralThings:SetPoint("TOP", accwideCheckboxCampsites, "BOTTOM", 0, -10)
+else
+	headerGeneralThings:SetPoint("TOP", accwideCheckboxToys, "BOTTOM", 0, -10)
+end
 headerGeneralThings.OnRefresh = function(self)
 	if app.MODE_DEBUG then
 		self:SetAlpha(0.4)

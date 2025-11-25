@@ -5,7 +5,7 @@ local _, app = ...
 local CACHE = "Decor"
 local CLASSNAME = "Decor"
 local KEY = "decorID"
-if app.GameBuildVersion < 110205 then
+if app.GameBuildVersion < 110205 then	-- TODO: Change to 110207
 	app.CreateDecor = app.CreateUnimplementedClass(CLASSNAME, KEY)
 
 	return
