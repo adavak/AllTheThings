@@ -5,7 +5,19 @@
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.MID, {
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
-			i(232875),	-- Spark of Radiance
+			n(PROFESSIONS, {
+				prof(ALCHEMY, {
+					i(241279),	-- Midnight Catalyst
+					i(241288),	-- Potion of Recklessness++
+					i(241289),	-- Potion of Recklessness+
+					i(241290),	-- Midnight Void Potion 3
+					i(241314),	-- Midnight Phial of Concentrated Ingenuity++
+					i(241315),	-- Midnight Phial of Concentrated Ingenuity+
+					i(241328),	-- Midnight Stacking Heals Flask++
+					i(241329),	-- Midnight Stacking Heals Flask+
+				}),
+			}),
+
 			i(235225),	-- Garden Shears
 			i(235637),	-- [NYI] Lockpick Power
 			i(235644),	-- Concealed Pistol
@@ -41,10 +53,7 @@ root(ROOTS.Unsorted, {
 			i(236778),	-- Mana Lily
 			i(236779),	-- Mana Lily
 			i(236780),	-- Nocturnal Lotus
-			i(236949),	-- Mote of Light
-			i(236950),	-- Mote of Primal Energy
-			i(236951),	-- Mote of Wild Magic
-			i(236952),	-- Mote of Pure Void
+
 			i(236963),	-- Bright Linen
 			i(236965),	-- Bright Linen
 			i(237015),	-- Sunfire Silk
@@ -548,59 +557,6 @@ root(ROOTS.Unsorted, {
 			i(241150),	-- Sunwell Fish Lure
 			i(241151),	-- Rootland Crab Lure
 			i(241155),	-- Void Condenser
-			i(241279),	-- Midnight Catalyst
-			i(241280),	-- Composite Flora
-			i(241281),	-- Composite Flora
-			i(241282),	-- Wondrous Synergist
-			i(241283),	-- Wondrous Synergist
-			i(241284),	-- Midnight Potion Cauldron
-			i(241285),	-- Midnight Potion Cauldron
-			i(241286),	-- Light's Preservation
-			i(241287),	-- Light's Preservation
-			i(241288),	-- Potion of Recklessness
-			i(241289),	-- Potion of Recklessness
-			i(241290),	-- Midnight Void Potion 3
-			i(241291),	-- Primal Philosopher's Stone
-			i(241293),	-- Draught of Rampant Abandon
-			i(241294),	-- Potion of Devoured Dreams
-			i(241295),	-- Potion of Devoured Dreams
-			i(241296),	-- Potion of Zealotry
-			i(241297),	-- Potion of Zealotry
-			i(241298),	-- Amani Extract
-			i(241299),	-- Amani Extract
-			i(241300),	-- Midnight Mana Potion
-			i(241301),	-- Midnight Mana Potion
-			i(241302),	-- Void-Shrouded Tincture
-			i(241303),	-- Void-Shrouded Tincture
-			i(241304),	-- Midnight Healing Potion
-			i(241305),	-- Midnight Healing Potion
-			i(241306),	-- Refreshing Serum
-			i(241307),	-- Refreshing Serum
-			i(241308),	-- Light's Potential
-			i(241309),	-- Light's Potential
-			i(241310),	-- Midnight Phial of Finesse \\ Haranir Phial of Finesse
-			i(241311),	-- Midnight Phial of Finesse \\ Haranir Phial of Finesse
-			i(241312),	-- Midnight Phial of Ingenuity \\ Haranir Phial of Ingenuity
-			i(241313),	-- Midnight Phial of Ingenuity \\ Haranir Phial of Ingenuity
-			i(241314),	-- Midnight Phial of Concentrated Ingenuity
-			i(241315),	-- Midnight Phial of Concentrated Ingenuity
-			i(241316),	-- Midnight Phial of Perception \\ Haranir Phial of Perception
-			i(241317),	-- Midnight Phial of Perception \\ Haranir Phial of Perception
-			i(241318),	-- Midnight Flask Cauldron
-			i(241319),	-- Midnight Flask Cauldron
-			i(241320),	-- Midnight Versatility Flask
-			i(241321),	-- Midnight Versatility Flask
-			i(241322),	-- Midnight Mastery Flask
-			i(241323),	-- Midnight Mastery Flask
-			i(241324),	-- Midnight Haste Flask
-			i(241325),	-- Midnight Haste Flask
-			i(241326),	-- Midnight Critical Strike Flask
-			i(241327),	-- Midnight Critical Strike Flask
-			i(241328),	-- Midnight Stacking Heals Flask
-			i(241329),	-- Midnight Stacking Heals Flask
-			i(241338),	-- Enlightenment Tonic
-			i(241339),	-- Enlightenment Tonic
-			i(241340),	-- Midnight Alchemist's Stone \\ Midnight Alchemist Stone
 			i(241349),	-- Fragrant Mushroom Cap
 			i(241611),	-- Zarat's Head
 			i(242241),	-- Latent Arcana
@@ -659,8 +615,7 @@ root(ROOTS.Unsorted, {
 			i(242620),	-- Glimmering Gemdust
 			i(242621),	-- Glimmering Gemdust
 			i(242635),	-- Twilight's Blade - Armor - Tabard \\ Twilight's Blade Tabard
-			i(242637),	-- Recycle Potions
-			i(242638),	-- Recycle Flasks
+
 			i(242640),	-- Plant Protein
 			i(242641),	-- Cooking Spirits
 			i(242642),	-- Thalassian Herbs
@@ -668,7 +623,7 @@ root(ROOTS.Unsorted, {
 			i(242645),	-- Ripened Vegetable Assortment
 			i(242646),	-- Pouch of Spices
 			i(242647),	-- Tavern Fixings
-			i(242650),	-- Box of Rocks
+
 			i(242651),	-- Stabilized Derivate
 			i(242693),	-- Kafaccino
 			i(242712),	-- Eversong Diamond
@@ -1107,11 +1062,7 @@ root(ROOTS.Unsorted, {
 			i(245348),	-- Void Sample
 			i(245573),	-- Salmon
 			i(245585),	-- Combat Engagement Launcher
-			i(245644),	-- Box of Rocks
-			i(245647),	-- School of Gems
-			i(245648),	-- School of Gems
-			i(245650),	-- Bouquet of Herbs
-			i(245651),	-- Bouquet of Herbs
+
 			i(245750),	-- Darkmoon Deck: Void
 			i(245751),	-- Thalassian Competitor's Medallion
 			i(245752),	-- Thalassian Competitor's Insignia of Alacrity
@@ -1337,7 +1288,6 @@ root(ROOTS.Unsorted, {
 			i(246795),	-- Tabard of the Haranir
 			i(247237),	-- Mold Samples
 			i(247422),	-- Spiteful Shadowgraft
-			i(247423),	-- Recipe: Silvermoon Spire Fountain
 			i(247425),	-- Recipe: Void Elf KnickKnack
 			i(247498),	-- Recipe: Entropic Illuminant
 			i(247499),	-- Recipe: Haranir Reagent Bowl
@@ -2962,7 +2912,6 @@ root(ROOTS.Unsorted, {
 			i(258133),	-- Pattern: Blood Elf Pillow
 			i(258134),	-- Pattern: Void Elf Satchel
 			i(258138),	-- Potent Healing Potion
-			i(258141),	-- Recipe: Haranir Phial of Perception
 			i(258146),	-- Rotten Carrion
 			i(258189),	-- Do, child of Filo \\ Do, child of Fi'lo
 			i(258218),	-- Skybreaker's Blade
@@ -2971,7 +2920,6 @@ root(ROOTS.Unsorted, {
 			i(258279),	-- [DNT] Big Pouch of Supplies
 			i(258280),	-- [DNT] Huge Pouch of Supplies
 			i(258295),	-- Jagged Fang \\ Dragonhawk Feather
-			i(258305),	-- Recipe: Amani Extract
 			i(258321),	-- Ransacked Heirloom
 			i(258324),	-- Stolen Game Meat \\ Stolen Game
 			i(258329),	-- Carrion Essence
@@ -4287,7 +4235,7 @@ root(ROOTS.Unsorted, {
 			i(257197),	-- Blessed Amani Burrower \\ [DNT] 12.0 Amani Pangolin
 			i(257200),	-- Escaped Witherbark Pango
 			i(257223),	-- Ancestral War Bear \\ [DNT] 12.0 Shadowpine Bear
-			i(257420),	-- Silvermoon Spire Fountain
+
 			i(257421),	-- Bejeweled Silvermoon Chandelier
 			i(257422),	-- Gilded Sunfury Chair
 			i(257444),	-- Hexed Vilefeather Eagle \\ [DNT] 12.0 Hex Eagle Mount

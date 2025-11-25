@@ -86,7 +86,12 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MID, {
 	}),
 	filter(REAGENTS, {
 		i(242639),	-- Practically Pork
+		i(236949),	-- Mote of Light
+		i(236950),	-- Mote of Primal Energy
+		i(236952),	-- Mote of Pure Void
+		i(236951),	-- Mote of Wild Magic
 	}),
 	filter(RECIPES, {
+		i(247423),	-- Recipe: Silvermoon Spire Fountain (RECIPE!)	-- Mentions "World Nullaeus Creatures"
 	}),
 }));

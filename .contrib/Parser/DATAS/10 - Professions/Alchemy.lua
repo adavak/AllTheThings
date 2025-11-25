@@ -3,6 +3,7 @@
 -----------------------------------------------------
 local DF_ALCHEMY_KNOWLEDGE = 2024;
 local TWW_ALCHEMY_KNOWLEDGE = 2785;
+local MID_ALCHEMY_KNOWLEDGE = 3150;
 root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEMY }, {
 	n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		ach(18733),	-- A Cure for All Ails IV
@@ -1048,18 +1049,16 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			ach(19704),	-- Overflowing Algari Flasks (automated)
 			ach(19716),	-- Plentiful Algari Potions (automated)
 		}),
-		n(QUESTS, sharedData({
-			["isWeekly"] = true,
-			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["groups"] = {
-				i(228773),	-- Algari Alchemist's Notebook
-			},
-		},{
+		n(QUESTS, {
 			q(84133, {	-- Alchemy Services Requested
 				["provider"] = { "n", 228177 },	-- Kala Clayhoof
 				["coord"] = { 59.2, 55.2, DORNOGAL },
+				["isWeekly"] = true,
+				["groups"] = {
+					i(228773),	-- Algari Alchemist's Notebook
+				},
 			}),
-		})),
+		}),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
 			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ALCHEMY_KNOWLEDGE, 1 }} }, {
@@ -1158,91 +1157,25 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				},
 			}),
 		}),
-		--[[
-		n(QUESTS, sharedData({
-			["isWeekly"] = true,
-			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["groups"] = {
-				i(228773),	-- Algari Alchemist's Notebook
-			},
-		},{
-			q(84133, {	-- Alchemy Services Requested
-				["provider"] = { "n", 228177 },	-- Kala Clayhoof
-				["coord"] = { 59.2, 55.2, DORNOGAL },
-			}),
-		})),
+		n(QUESTS, {
+			-- No Quest on Beta
+		}),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ALCHEMY_KNOWLEDGE, 1 }} }, {
-				r(432962),	-- Algari Flask Cauldron
-				r(432963),	-- Algari Potion Cauldron
-				r(433087),	-- Formulated Courage
-				r(449938),	-- Gleaming Chaos
-				r(430624),	-- Gleaming Glory
-				r(432204),	-- Harmonious Horticulture
-				r(449573),	-- Mercurial Coalescence
-				r(449574),	-- Ominous Coalescence
-				r(430315),	-- Thaumaturgy
-				r(449575),	-- Volatile Coalescence
+			["groups"] = sharedData({ ["cost"] = {{ "c", MID_ALCHEMY_KNOWLEDGE, 1 }} }, {
+				r(1230891),	-- Box of Rocks
+				r(1230870),	-- Haranir Phial of Finesse
+				r(1230858),	-- Light's Preservation
+				r(1230885),	-- Midnight Alchemist Stone
+				r(1230874),	-- Midnight Flask Cauldron
+				r(1230857),	-- Midnight Potion Cauldron
+				r(1230875),	-- Midnight Versatility Flask
+				r(1230867),	-- Void-Shrouded Tincture
+				r(1230856),	-- Wondrous Synergist
 			}),
 		}),
 		n(TREASURES, {
-			o(456021, {	-- Chemist's Purified Water
-				["coord"] = { 42.7, 55.1, HALLOWFALL },
-				["questID"] = 83844,
-				["groups"] = {
-					i(226269),	-- Chemist's Purified Water
-				},
-			}),
-			o(456018, {	-- Dark Apothecary's Vial
-				["coord"] = { 42.9, 57.3, AZJ_KAHET },
-				["questID"] = 83847,
-				["groups"] = {
-					i(226272),	-- Dark Apothecary's Vial
-				},
-			}),
-			o(456025, {	-- Earthen Iron Powder
-				["coord"] = { 32.5, 60.3, DORNOGAL },
-				["questID"] = 83840,
-				["groups"] = {
-					i(226265),	-- Earthen Iron Powder
-				},
-			}),
-			o(456022, {	-- Engraved Stirring Rod
-				["coord"] = { 64.9, 61.8, THE_RINGING_DEEPS },
-				["questID"] = 83843,
-				["groups"] = {
-					i(226268),	-- Engraved Stirring Rod
-				},
-			}),
-			o(456024, {	-- Metal Dornogal Frame
-				["coord"] = { 57.7, 61.8, ISLE_OF_DORN },
-				["questID"] = 83841,
-				["groups"] = {
-					i(226266),	-- Metal Dornogal Frame
-				},
-			}),
-			o(456019, {	-- Nerubian Mixing Salts
-				["coord"] = { 45.4, 13.2, NERUBAR },
-				["questID"] = 83846,
-				["groups"] = {
-					i(226271),	-- Nerubian Mixing Salts
-				},
-			}),
-			o(456023, {	-- Reinforced Beaker
-				["coord"] = { 42.2, 24.1, THE_RINGING_DEEPS },
-				["questID"] = 83842,
-				["groups"] = {
-					i(226267),	-- Reinforced Beaker
-				},
-			}),
-			o(456020, {	-- Sanctified Mortar and Pestle
-				["coord"] = { 41.7, 55.8, HALLOWFALL },
-				["questID"] = 83845,
-				["groups"] = {
-					i(226270),	-- Sanctified Mortar and Pestle
-				},
-			}),
+
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
@@ -1259,6 +1192,6 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["name"] = "TWW Weekly Alchemy Treasure #2",
 				["provider"] = { "i", 225235} ,		-- Deepstone Crucible
 			}),
-		})),--]]
+		})),
 	})),
 })));

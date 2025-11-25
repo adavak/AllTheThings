@@ -544,6 +544,7 @@ DF_ALCHEMY = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 	r(366261),	-- Dragon Isles Alchemy
 	r(370746),	-- Basic Phial Experimentation
 	r(370743),	-- Basic Potion Experimentation
+	r(389190),	-- Recraft Equipment
 	filter(CONSUMABLES, {
 		r(370547),	-- Aerated Mana Potion
 		r(370551),	-- Elemental Potion of Power
@@ -555,18 +556,16 @@ DF_ALCHEMY = applyclassicphase(DF_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED
 		r(1261882),	-- Dragon's Elixir Bottle
 		r(1261885),	-- Verdant Valdrakken Vase
 	})),
-	filter(MISC, {
-		r(389190),	-- Recraft Equipment
-		r(370711),	-- Transmute: Awakened Air
-	}),
 	filter(REAGENTS, {
 		r(370722),	-- Omnium Draconis
 		r(370717),	-- Primal Convergent
 		r(370748),	-- Reclaim Concoctions
+		r(370711),	-- Transmute: Awakened Air
 	}),
 }));
 TWW_ALCHEMY = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	r(423321),	-- Khaz Algar Alchemy
+	r(425137),	-- Recraft Equipment
 	r(427174),	-- Wild Experimentation
 	filter(CONSUMABLES, {
 		r(430590),	-- Algari Healing Potion
@@ -575,12 +574,33 @@ TWW_ALCHEMY = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 		r(1259673),	-- Boulder Springs Hot Tub
 		r(1261878),	-- Nerubian Alchemist's Retort
 	})),
-	filter(MISC, {
-		r(425137),	-- Recraft Equipment
-	}),
 	filter(REAGENTS, {
 		r(462121),	-- Bubbling Mycobloom Culture
 		r(427214),	-- Neutralize Concoctions
 		r(462122),	-- Petal Powder
+	}),
+});
+MID_ALCHEMY = bubbleDown({ ["timeline"] = { ADDED_12_0_0 } }, {
+	r(471003),	-- Midnight Alchemy
+	r(1265667),	-- Artisan Alchemist's Moxie
+	r(1265675),	-- Concentration
+	r(1265701),	-- Ingenuity
+	r(1265614),	-- Knowledge
+	r(1265599),	-- Multicraft
+	r(1265651),	-- Quality
+	r(471040),	-- Recraft Equipment
+	r(1233130),	-- Recycle Flasks
+	r(1233129),	-- Recycle Potions
+	r(1265692),	-- Resourcefulness
+	r(1265732),	-- Skill
+	r(1265659),	-- Sparks
+	filter(CONSUMABLES, {
+		r(1230886),	-- Enlightenment Tonic
+		r(1230866),	-- Midnight Healing Potion
+		r(1230868),	-- Refreshing Serum
+	}),
+	filter(REAGENTS, {
+		r(1230855),	-- Composite Flora
+		r(1230887),	-- Transmute: Mote of Wild Magic
 	}),
 });

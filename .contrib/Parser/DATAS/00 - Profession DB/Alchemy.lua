@@ -1297,3 +1297,77 @@ i(0, 1262151);		-- Zandalari Bottle Shipment
 --- ITEM ---
 i(257753, 1262011);	-- Orcish Felblood Cauldron
 i(256938, 1260985);	-- Wine Barrel
+
+------------------
+-- PATCH 12.0.0 --
+------------------
+--- TRAINER ---
+i(0, 471003);	-- Midnight Alchemy
+i(0, 1265667);	-- Artisan Alchemist's Moxie
+i(0, 1230855);	-- Composite Flora
+i(0, 1265675);	-- Concentration
+i(0, 1230886);	-- Enlightenment Tonic
+i(0, 1265701);	-- Ingenuity
+i(0, 1265614);	-- Knowledge
+i(0, 1230866);	-- Midnight Healing Potion
+i(0, 1265599);	-- Multicraft
+i(0, 1265651);	-- Quality
+i(0, 471040);	-- Recraft Equipment
+i(0, 1233130);	-- Recycle Flasks
+i(0, 1233129);	-- Recycle Potions
+i(0, 1230868);	-- Refreshing Serum
+i(0, 1265692);	-- Resourcefulness
+i(0, 1265732);	-- Skill
+i(0, 1265659);	-- Sparks
+i(0, 1230887);	-- Transmute: Mote of Wild Magic
+--- ITEM ---
+i(258305, 1230864);	-- Amani Extract
+i(258141, 1230873);	-- Haranir Phial of Perception [Spell name and recipe name does not match]
+i(247423, 1233138);	-- Silvermoon Spire Fountain
+--- SPECIALIZATION ---
+i(0, 1230891);	-- Box of Rocks
+i(0, 1230870);	-- Haranir Phial of Finesse [Spell name and recipe name does not match]
+i(0, 1230858);	-- Light's Preservation
+i(0, 1230885);	-- Midnight Alchemist Stone
+i(0, 1230874);	-- Midnight Flask Cauldron
+i(0, 1230857);	-- Midnight Potion Cauldron
+i(0, 1230875);	-- Midnight Versatility Flask
+i(0, 1230867);	-- Void-Shrouded Tincture
+i(0, 1230856);	-- Wondrous Synergist
+--- CAULDRON ---
+i(0, 1230892);	-- Bouquet of Herbs
+i(0, 1230860);	-- Draught of Rampant Abandon
+i(0, 1230872);	-- Haranir Phial of Ingenuity [Spell name and recipe name does not match]
+i(0, 1230869);	-- Light's Potential
+i(0, 1230878);	-- Midnight Critical Strike Flask
+i(0, 1230877);	-- Midnight Haste Flask
+i(0, 1230865);	-- Midnight Mana Potion
+i(0, 1230876);	-- Midnight Mastery Flask
+i(0, 1230862);	-- Potion of Devoured Dreams
+i(0, 1230863);	-- Potion of Zealotry
+i(0, 1230861);	-- Primal Philosopher's Stone
+i(0, 1230893);	-- School of Gems
+i(0, 1230890);	-- Transmute: Mote of Light
+i(0, 1230889);	-- Transmute: Mote of Primal Energy
+i(0, 1230888);	-- Transmute: Mote of Pure Void
+--[[
+--- All of these are BROKEN!
+r(1233132),	-- Entropic Illuminant
+r(1233133),	-- Rootbound Vat
+r(1233135),	-- Sunsmoke Censer
+r(1233136),	-- Riftstone
+r(1233137),	-- Haranir Preserving Agents
+r(1230854),	-- Midnight Catalyst [NOT LISTED ANYWHERE BUT GAINED WHEN USING BRAIN CHECK LATER]
+r(1230859),	-- Potion of Recklessness [NOT LISTED AT THE SOURCE (CAULDRON)! CHECK LATER]
+r(1230883),	-- Midnight Vicious Flask of Honor
+--- NYI??
+r(1230772),	-- [DNT] 12.0 Alchemy Recipe Spell Template
+r(1230871),	-- [DNT] Alchemy Recipe - Reuse Me
+r(1233131),	-- [DNT] 12.0 Alchemy Recipe Spell Template
+r(1233139),	-- [DNT] 12.0 Alchemy Recipe Spell Template
+r(1230879),	-- Midnight Stacking Heals Flask
+r(1230880),	-- Midnight Vicious Flask of the Wrecking Ball
+r(1230881),	-- Midnight Vicious Flask of Manifested Fury
+r(1230882),	-- Midnight Vicious Flask of Determination
+r(1230884),	-- Midnight Vicious Flask of Classical Spirits
+--]]

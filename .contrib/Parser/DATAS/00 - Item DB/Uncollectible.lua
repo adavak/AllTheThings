@@ -2674,3 +2674,7 @@ i(238944);	-- Torn Material
 i(260686);	-- Vibrant Wings
 i(244038);	-- Vinetwinted Crate
 i(260645);	-- Water Filled Organ
+
+-- Profession
+i(242637);	-- Recycle Potions
+i(242638);	-- Recycle Flasks
