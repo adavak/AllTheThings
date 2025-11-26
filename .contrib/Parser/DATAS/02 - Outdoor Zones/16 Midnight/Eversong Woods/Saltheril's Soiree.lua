@@ -8,7 +8,7 @@ SALTHERILS_HAVEN = createHeader({
 		en = "Saltheril's Soiree",
 	},
 });
-root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH } }, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH } }, {
 	n(SALTHERILS_HAVEN, {
 		n(ACHIEVEMENTS, {
 		}),
@@ -16,17 +16,17 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 			q(91627, {	-- Saltheril's Haven
 				--["sourceQuests"] = { ??? },	-- ??
 				["provider"] = { "n", 247955 },	-- Jonas Everdawn
-				["coord"] = { 45.7, 62.5, SILVERMOON_CITY_MID },
+				["coord"] = { 45.7, 62.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 			}),
 			q(91628, {	-- Honored Guests
 				["sourceQuests"] = { 91627 },	-- Saltheril's Haven
 				["provider"] = { "n", 240832 },	-- Lord Saltheril
-				["coord"] = { 42.7, 47.3, EVERSONG_WOODS_MID },
+				["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 			}),
 			q(91629, {	-- High Esteem
 				["sourceQuests"] = { 91628 },	-- Honored Guests
 				["provider"] = { "n", 240832 },	-- Lord Saltheril
-				["coord"] = { 42.7, 47.3, EVERSONG_WOODS_MID },
+				["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["groups"] = {
 					i(238987),	-- Saltheril's Favor (TODO: not really quest item, but it is?)
 				},
@@ -34,13 +34,13 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 			q(91693, {	-- The Subtle Game
 				["sourceQuests"] = { 91629 },	-- High Esteem (TODO: could be wrong)
 				["provider"] = { "n", 240832 },	-- Lord Saltheril
-				["coord"] = { 42.7, 47.3, EVERSONG_WOODS_MID },
+				["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 			}),
 		}),
 		--Blood-Guards weekly
 		n(QUESTS, sharedData({
 			["provider"] = { "n", 240835 },	-- Knight-Lord Sunguard
-			["coord"] = { 42.4, 46.7, EVERSONG_WOODS_MID },
+			["coord"] = { 42.4, 46.7, MAP.MIDNIGHT.EVERSONG_WOODS },
 			["isWeekly"] = true,
 		}, {
 			--q(XXX),	-- Fortify the Runestones: XXX
@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 			q(91978, {	-- Taxing the Tideborne
 				["description"] = "Up after 2nd Saltheril's Favor donation.",
 				["groups"] = {
-					o(568550, {	-- 
+					o(568550, {	--
 						i(249686),	-- Tideborne Dubloon (QI!)
 					}),
 				},
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 			q(91973, {	-- Naga Blade
 				["description"] = "Up after 3rd Saltheril's Favor donation.",
 				["groups"] = {
-					o(568483, {	-- 
+					o(568483, {	--
 						i(249499),	-- Naga Scimitar (QI!)
 					}),
 				},
@@ -74,14 +74,14 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 		--Farstriders weekly
 		n(QUESTS, sharedData({
 			["provider"] = { "n", 240836 },	-- Ranger-Captain Dawnfletch
-			["coord"] = { 42.9, 46.4, EVERSONG_WOODS_MID },
+			["coord"] = { 42.9, 46.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 			["isWeekly"] = true,
 		}, {
 			q(90575),	-- Fortify the Runestones: Farstriders
 			q(91989, {	-- Ghostland Peppers
 				["description"] = "Up after 1st Saltheril's Favor donation.",
 				["groups"] = {
-					o(568477, {	-- 
+					o(568477, {	--
 						i(249497),	-- Ghostland Pepper (QI!)
 					}),
 				},
@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 				["description"] = "Up after 3rd Saltheril's Favor donation.",
 				["groups"] = {
 					i(249542),	-- Partially Used Memento (QI!)
-					o(568507, {	-- 
+					o(568507, {	--
 						i(249552),	-- Mischievous Mask (QI!)
 						i(249531),	-- Mysterious Cube (QI!)
 						i(249540),	-- Oddly Sealed Book (QI!)
@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 		})),
 		n(BONUS_OBJECTIVES, {
 			q(91966, {	-- Saltheril's Soiree (TODO: possibly wq in future builds? questID unique per chosen faction?)
-				["coord"] = { 42.7, 47.3, EVERSONG_WOODS_MID },
+				["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 			}),
 		}),
 		n(REWARDS, {
@@ -118,8 +118,8 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 			i(256969),	-- Farstrider's Pendant (neck)
 		}),
 		--[[n(VENDORS, {
-			n(xx, {	-- 
-				["coord"] = { x, y, EVERSONG_WOODS_MID },
+			n(xx, {	--
+				["coord"] = { x, y, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["groups"] = {
 					i(, {
 						["costs"] = {{"c", XX, XXX }},
@@ -130,7 +130,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDown({ ["timeline"] = { ADDED_12_0_0_LAUNCH 
 	}),
 })));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
 		m(SALTHERILS_HAVEN, {
 			n(QUESTS, {
 				q(89431),	-- Farstrider - Epic [DNT] (spellID 1227983), Farstriders with "exeptional" tag was chosen during questID 91629 (High Esteem) // this also seems like unlock ability to see objectID 531479 (Ranger's Cache) in zone.

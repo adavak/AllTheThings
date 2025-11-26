@@ -20,7 +20,7 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1304, {	-- Murder Row
-		["coord"] = { 56.8, 61.1, SILVERMOON_CITY_MID },
+		["coord"] = { 56.8, 61.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = {
 			2433,	-- Murder Row

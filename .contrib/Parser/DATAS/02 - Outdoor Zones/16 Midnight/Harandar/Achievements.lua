@@ -1,8 +1,8 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(HARANDAR, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.HARANDAR, {
 		n(ACHIEVEMENTS, {
 			ach(61052),	-- Dust 'Em Off
 			ach(61264),	-- Leaf None Behind

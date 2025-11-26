@@ -1,8 +1,8 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(SILVERMOON_CITY_MID, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.SILVERMOON_CITY, {
 		pvp(n(PVP, {
 			n(QUESTS, {
 			-- ToDO: Add correct questID
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 254971 },	-- Zerella
-				["coord"] = { 36.3, 81.1, SILVERMOON_CITY_MID },
+				["coord"] = { 36.3, 81.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["isWeekly"] = true,
 			}, {
 				q(93499),	-- Enshrouded in Arenas
@@ -133,7 +133,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			})),
 			n(VENDORS, {
 				n(243225, {	-- Mirvedon <Competitor's Recipes>
-					["coord"] = { 34.0, 81.2, SILVERMOON_CITY_MID },
+					["coord"] = { 34.0, 81.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = sharedData({ ["cost"] = {{"c", HONOR, 7500}} }, {	-- Alex TODO: gold on alpha
 						filter(RECIPES, {
 							i(256719),	-- Design: Midnight Competitor's Amulet
@@ -201,7 +201,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							i(257260),	-- Technique: Thalassian Competitor's Emblem
 							i(257261),	-- Technique: Thalassian Competitor's Insignia of Alacrity
 							i(257262),	-- Technique: Thalassian Competitor's Medallion
-						}),--[[ 
+						}),--[[
 						filter(MISC, {
 							i(257535, {	-- Galactic Jeweler's Setting
 								["cost"] = {
@@ -249,7 +249,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					},
 				}),--]]
 				n(243221, {	-- Captain Dawnrunner <Honor Quartermaster>
-					["coord"] = { 34.0, 81.0, SILVERMOON_CITY_MID },
+					["coord"] = { 34.0, 81.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
 						i(225739, {	-- Algari Distinguishment
 							["cost"] = {{"c", HONOR, 2000}},

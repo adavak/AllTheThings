@@ -20,7 +20,7 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1299, {	-- Windrunner Spire
-		["coord"] = { 35.5, 78.8, EVERSONG_WOODS_MID },
+		["coord"] = { 35.5, 78.8, MAP.MIDNIGHT.EVERSONG_WOODS },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = {
 			2492,	-- The Promenade

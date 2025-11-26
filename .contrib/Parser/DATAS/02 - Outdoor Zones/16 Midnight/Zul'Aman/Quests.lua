@@ -2,20 +2,20 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(ZULAMAN_MID, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.ZULAMAN, {
 		n(QUESTS, {
 			header(HEADERS.Achievement, 41803, {	-- For Zul'Aman!
 				header(HEADERS.AchCriteria, 41803.01, {	-- Dis Was Our Land
 					q(86708, {	-- The Gates of Zul'Aman
 						--["sourceQuests"] = { 86735 },	-- Paved in Ash (Alex TODO: it (for whatever reason) fire 86736 (Paved in Ash) on alpha, fix whatever will be proper one on beta stage
 						["provider"] = { "n", 240523 },	-- Scouting Map
-						["coord"] = { 45.4, 70.3, SILVERMOON_CITY_MID },
+						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(86710, {	-- The Line Must be Drawn Here
 						["sourceQuests"] = { 86708 },	-- The Gates of Zul'Aman
 						["provider"] = { "n", 236436 },	-- Lady Liadrin
-						["coord"] = { 60.1, 81.5, SILVERMOON_CITY_MID },
+						["coord"] = { 60.1, 81.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(90749, {	-- Our Mutual Enemy
 						["sourceQuests"] = { 86710 },	-- The Line Must be Drawn Here
@@ -54,7 +54,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 236558 },	-- Zul'jan
 						["coord"] = { 46.3, 48.4, 2536 },	-- Atal'Aman
 						["groups"] = {
-							o(539207, {	-- 
+							o(539207, {	--
 								i(237768),	-- Hash'ey Staff (QI!)
 							}),
 						},
@@ -68,12 +68,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["coord"] = { 16.6, 20.5, 2536 },	-- Atal'Aman
 						["groups"] = {
 							i(237767),	-- Lightwood Weapon (QI!)
-							i(248555),	-- 
-							i(248556),	-- 
-							i(248557),	-- 
-							i(248558),	-- 
-							i(248559),	-- 
-							i(248560),	-- 
+							i(248555),	--
+							i(248556),	--
+							i(248557),	--
+							i(248558),	--
+							i(248559),	--
+							i(248560),	--
 							i(248561),	-- Stonebough Hatchet
 							i(248562),	-- Stonebough Spear
 						},
@@ -145,19 +145,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86723, {	-- Isolation
 						["sourceQuests"] = { 86722 },	-- Heart of the Amani
 						["provider"] = { "n", 236602 },	-- Zul'jarra
-						["coord"] = { 42.6, 66.9, ZULAMAN_MID },
+						["coord"] = { 42.6, 66.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86652, {	-- Left in the Shadows
 						["sourceQuests"] = { 86723 },	-- Isolation
 						["provider"] = { "n", 236659 },	-- Zul'jarra
-						["coord"] = { 45.7, 65.5, ZULAMAN_MID },
+						["coord"] = { 45.7, 65.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41803.02, {	-- Path of de Hash'ey
 					q(86653, {	-- The Path of the Amani
 						["sourceQuests"] = { 86723 },	-- Isolation
 						["provider"] = { "n", 236126 },	-- Zul'jarra
-						["coord"] = { 43.8, 68.3, ZULAMAN_MID },
+						["coord"] = { 43.8, 68.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					------ Stay awhile and listen ------
 					hqt(91060, {	-- Stay awhile and listen: Loa Speaker Kinduru
@@ -165,18 +165,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["description"] = "Dialogue becomes available during 'The Path of the Amani' (86653).",
 						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 244479 },	-- Loa Speaker Kinduru
-						["coord"] = { 43.8, 68.4, ZULAMAN_MID },
+						["coord"] = { 43.8, 68.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					--
 					q(86654, {	-- Gnarldin Bashing
 						["sourceQuests"] = { 86653 },	-- The Path of the Amani
 						["provider"] = { "n", 236143 },	-- Lady Liadrin
-						["coord"] = { 51.6, 70.7, ZULAMAN_MID },
+						["coord"] = { 51.6, 70.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(89334, {	-- Ahead of the Issue
 						["sourceQuests"] = { 86653 },	-- The Path of the Amani
 						["provider"] = { "n", 236140 },	-- Zul'jarra
-						["coord"] = { 51.6, 70.8, ZULAMAN_MID },
+						["coord"] = { 51.6, 70.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(260461),	-- Brulagh's Torque
 							i(239083),	-- Head of Brulagh the Crusher (QI!)
@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86655, {	-- De Ancient Path
 						["sourceQuests"] = { 86653 },	-- The Path of the Amani
 						["provider"] = { "n", 236140 },	-- Zul'jarra
-						["coord"] = { 51.6, 70.8, ZULAMAN_MID },
+						["coord"] = { 51.6, 70.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248570),	-- Skyblessed Breastplate
 							i(248569),	-- Skyblessed Chainmail
@@ -202,7 +202,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86654,	-- Gnarldin Bashing
 						},
 						["provider"] = { "n", 236147 },	-- Zul'jarra
-						["coord"] = { 51.9, 75.9, ZULAMAN_MID },
+						["coord"] = { 51.9, 75.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					------ Stay awhile and listen ------
 					--hqt(??, {	-- Stay awhile and listen: Lady Liadrin
@@ -214,13 +214,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--		86654,	-- Gnarldin Bashing
 					--	},
 					--	["provider"] = { "n", 244421 },	-- Lady Liadrin
-					--	["coord"] = { 52.4, 81.0, ZULAMAN_MID },
+					--	["coord"] = { 52.4, 81.0, MAP.MIDNIGHT.ZULAMAN },
 					--}),
 					--
 					q(86809, {	-- Test of Conviction
 						["sourceQuests"] = { 86656 },	-- Brutal Feast
 						["provider"] = { "n", 244422 },	-- Zul'jarra
-						["coord"] = { 52.4, 81.0, ZULAMAN_MID },
+						["coord"] = { 52.4, 81.0, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							--spell(1239215),	-- Blessing: Akil'zon's Gale
 							--spell(1239206),	-- Winds of Akil'zon
@@ -229,7 +229,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86657, {	-- Shadebasin Watch
 						["sourceQuests"] = { 86809 },	-- Brutal Feast
 						["provider"] = { "n", 236141 },	-- Zul'jarra
-						["coord"] = { 52.4, 81.0, ZULAMAN_MID },
+						["coord"] = { 52.4, 81.0, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					------ Stay awhile and listen ------
 					hqt(92125, {	-- Stay awhile and listen: Zul'jarra
@@ -237,18 +237,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["description"] = "Dialogue becomes available during 'Shadebasin Watch' (86657).",
 						["sourceQuests"] = { 86809 },	-- Test of Conviction
 						["provider"] = { "n", 236141 },	-- Zul'jarra
-						["coord"] = { 52.4, 81.0, ZULAMAN_MID },
+						["coord"] = { 52.4, 81.0, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					--
 					q(86660, {	-- Rescue from the Shadows
 						["sourceQuests"] = { 86657 },	-- Shadebasin Watch
 						["provider"] = { "n", 244438 },	-- Zul'jarra
-						["coord"] = { 44.1, 34.5, ZULAMAN_MID },
+						["coord"] = { 44.1, 34.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86658, {	-- The Crypt in the Mist
 						["sourceQuests"] = { 86657 },	-- Shadebasin Watch
 						["provider"] = { "n", 244438 },	-- Zul'jarra
-						["coord"] = { 44.1, 34.5, ZULAMAN_MID },
+						["coord"] = { 44.1, 34.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248573),	-- Spiritwarden's Cinch
 							i(248571),	-- Spiritwarden's Cord
@@ -262,7 +262,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86658,	-- The Crypt in the Mist
 						},
 						["provider"] = { "n", 244588 },	-- Zul'jarra
-						["coord"] = { 36.8, 35.0, ZULAMAN_MID },
+						["coord"] = { 36.8, 35.0, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248576),	-- Prowlers Cloth
 							i(248575),	-- Prowlers Shawl
@@ -271,7 +271,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(92084, {	-- Halazzi's Guile
 						["sourceQuests"] = { 86659 },	-- Breaching the Mist
 						["provider"] = { "n", 236155 },	-- Zul'jarra
-						["coord"] = { 32.4, 31.6, ZULAMAN_MID },
+						["coord"] = { 32.4, 31.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							--Alex TODO: check if Blizzard removed this as dupe reward from it
 							i(248576),	-- Prowlers Cloth
@@ -282,17 +282,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86661, {	-- Coals of a Dead Loa
 						["sourceQuests"] = { 92084 },	-- Halazzi's Guile
 						["provider"] = { "n", 236155 },	-- Zul'jarra
-						["coord"] = { 32.4, 31.6, ZULAMAN_MID },
+						["coord"] = { 32.4, 31.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86808, {	-- The Riddled Speaker
 						["sourceQuests"] = { 86661 },	-- Coals of a Dead Loa
 						["provider"] = { "n", 244592 },	-- Zul'jarra
-						["coord"] = { 38.5, 22.5, ZULAMAN_MID },
+						["coord"] = { 38.5, 22.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86663, {	-- Embers to a Flame
 						["sourceQuests"] = { 86808 },	-- The Riddled Speaker
 						["provider"] = { "n", 236162 },	-- Zul'jarra
-						["coord"] = { 55.0, 18.3, ZULAMAN_MID },
+						["coord"] = { 55.0, 18.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					------ Stay awhile and listen ------
 					--hqt(??, {	-- Stay awhile and listen: Lady Liadrin
@@ -300,13 +300,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--	["description"] = "Dialogue becomes available during 'Embers to a Flame' (86663).",
 					--	["sourceQuests"] = { 86808 },	-- The Riddled Speaker
 					--	["provider"] = { "n", 236163 },	-- Lady Liadrin
-					--	["coord"] = { 55.0, 18.4, ZULAMAN_MID },
+					--	["coord"] = { 55.0, 18.4, MAP.MIDNIGHT.ZULAMAN },
 					--}),
 					--
 					q(86664, {	-- Seer or Sear
 						["sourceQuests"] = { 86663 },	-- Embers to a Flame
 						["provider"] = { "n", 236162 },	-- Zul'jarra
-						["coord"] = { 55.0, 18.3, ZULAMAN_MID },
+						["coord"] = { 55.0, 18.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248578),	-- Band of Impatience
 							i(248577),	-- Ring of Doubt
@@ -315,12 +315,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86665, {	-- Face in the Fire
 						["sourceQuests"] = { 86664 },	-- Seer or Sear
 						["provider"] = { "n", 236162 },	-- Zul'jarra
-						["coord"] = { 55.0, 18.3, ZULAMAN_MID },
+						["coord"] = { 55.0, 18.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90772, {	-- The Flames Rise Higher
 						["sourceQuests"] = { 86665 },	-- Face in the Fire
 						["provider"] = { "n", 236162 },	-- Zul'jarra
-						["coord"] = { 55.0, 18.3, ZULAMAN_MID },
+						["coord"] = { 55.0, 18.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							spell(1239220),	-- Blessing: Jan'alai's Everburn
 						},
@@ -328,24 +328,24 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86666, {	-- In the Shadow of Rebirth
 						["sourceQuests"] = { 90772 },	-- The Flames Rise Higher
 						["provider"] = { "n", 236162 },	-- Zul'jarra
-						["coord"] = { 55.0, 18.3, ZULAMAN_MID },
+						["coord"] = { 55.0, 18.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41803.03, {	-- Where War Slumbers
 					q(86681, {	-- A Taste of Vengeance
 						["sourceQuests"] = { 86666 },	-- In the Shadow of Rebirth
 						["provider"] = { "n", 240186 },	-- Zul'jarra
-						["coord"] = { 43.8, 68.3, ZULAMAN_MID },
+						["coord"] = { 43.8, 68.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86682, {	-- Waking de Bear
 						["sourceQuests"] = { 86681 },	-- A Taste of Vengeance
 						["provider"] = { "n", 240186 },	-- Zul'jarra
-						["coord"] = { 43.8, 68.3, ZULAMAN_MID },
+						["coord"] = { 43.8, 68.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91958, {	-- Den of Nalorakk: Unforgiven
 						["sourceQuests"] = { 86681 },	-- A Taste of Vengeance
 						["provider"] = { "n", 240215 },	-- Zul'jarra
-						["coord"] = { 33.6, 78.8, ZULAMAN_MID },
+						["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							--spell(1239223),	-- Blessing: Nalorakk's Pressure
 						},
@@ -356,7 +356,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					--	["description"] = "Dialogue becomes available during 'Den of Nalorakk: Unforgiven' (91958).",
 					--	["sourceQuests"] = { 86682 },	-- Waking de Bear
 					--	["provider"] = { "n", 240215 },	-- Zul'jarra
-					--	["coord"] = { 33.6, 78.8, ZULAMAN_MID },
+					--	["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
 					--}),
 					--
 				}),
@@ -364,17 +364,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86683, {	-- Hash'ey Away
 						["sourceQuests"] = { 91958 },	-- Den of Nalorakk: Unforgiven
 						["provider"] = { "n", 240215 },	-- Zul'jarra
-						["coord"] = { 31.6, 83.9, ZULAMAN_MID },
+						["coord"] = { 31.6, 83.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86684, {	-- The Blade's Edge
 						["sourceQuests"] = { 86683 },	-- Hash'ey Away
 						["provider"] = { "n", 240216 },	-- Zul'jarra
-						["coord"] = { 43.5, 68.8, ZULAMAN_MID },
+						["coord"] = { 43.5, 68.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86687, {	-- Conduit Crisis
 						["sourceQuests"] = { 86684 },	-- The Blade's Edge
 						["provider"] = { "n", 240033 },	-- Zul'jarra
-						["coord"] = { 28.4, 77.4, ZULAMAN_MID },
+						["coord"] = { 28.4, 77.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248579),	-- Atalguard's Oath Mantle
 							i(248582),	-- Atalguard's Oath Pauldrons
@@ -385,12 +385,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86685, {	-- Chip and Shatter
 						["sourceQuests"] = { 86684 },	-- The Blade's Edge
 						["provider"] = { "n", 240033 },	-- Zul'jarra
-						["coord"] = { 28.4, 77.4, ZULAMAN_MID },
+						["coord"] = { 28.4, 77.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86686, {	-- Light Indiscriminate
 						["sourceQuests"] = { 86684 },	-- The Blade's Edge
 						["provider"] = { "n", 240039 },	-- Lady Liadrin
-						["coord"] = { 28.4, 77.4, ZULAMAN_MID },
+						["coord"] = { 28.4, 77.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91001, {	-- Clear de Way
 						["sourceQuests"] = {
@@ -399,12 +399,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86686,	-- The Blade's Edge
 						},
 						["provider"] = { "n", 245270 },	-- Zul'jarra
-						["coord"] = { 25.7, 77.6, ZULAMAN_MID },
+						["coord"] = { 25.7, 77.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86692, {	-- Blade Shattered
 						["sourceQuests"] = { 91001 },	-- Clear de Way
 						["provider"] = { "n", 240034 },	-- Zul'jarra
-						["coord"] = { 22.5, 77.4, ZULAMAN_MID },
+						["coord"] = { 22.5, 77.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248583),	-- Drum of Renewed Bonds
 						},
@@ -412,12 +412,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86693, {	-- De Legend of Hash'ey
 						["sourceQuests"] = { 86692 },	-- Blade Shattered
 						["provider"] = { "n", 240037 },	-- Zul'jarra
-						["coord"] = { 21.4, 77.4, ZULAMAN_MID },
+						["coord"] = { 21.4, 77.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91062, {	-- Broken Bridges
 						["sourceQuests"] = { 86693 },	-- De Legend of Hash'ey
 						["provider"] = { "n", 249653 },	-- Zul'jarra
-						["coord"] = { 45.7, 65.5, ZULAMAN_MID },
+						["coord"] = { 45.7, 65.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					------ Stay awhile and listen ------
 					hqt(92108, {	-- Stay awhile and listen: Zul'jan
@@ -425,7 +425,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["description"] = "Dialogue becomes available during 'Broken Bridges' (91062).",
 						["sourceQuests"] = { 86693 },	-- De Legend of Hash'ey
 						["provider"] = { "n", 245646 },	-- Zul'jan
-						["coord"] = { 51.3, 54.4, ZULAMAN_MID },
+						["coord"] = { 51.3, 54.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					--
 				}),
@@ -434,18 +434,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			q(91087, {	-- Reports Returned
 				["sourceQuests"] = { 91062 },	-- Broken Bridges
 				["provider"] = { "n", 241308 },	-- Lady Liadrin
-				["coord"] = { 50.8, 54.5, ZULAMAN_MID },
+				["coord"] = { 50.8, 54.5, MAP.MIDNIGHT.ZULAMAN },
 			}),
 			q(91967, {	-- You Know This Evil?
 				["sourceQuests"] = { 91087 },	-- Reports Returned
 				["provider"] = { "n", 235787 },	-- Lor'themar Theron
-				["coord"] = { 45.4, 70.3, SILVERMOON_CITY_MID },
+				["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				--Alex TODO: further progress locked due to vanishing quest npcs
 			}),
 			--
 			n(BONUS_OBJECTIVES, {
 				q(91040, {	-- Vexatious Vilebranch
-					["coord"] = { 36.7, 34.9, ZULAMAN_MID },
+					["coord"] = { 36.7, 34.9, MAP.MIDNIGHT.ZULAMAN },
 				}),
 			}),
 			--Sojourner
@@ -454,12 +454,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91206, {	-- Loa Disturbance
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254665 },	-- Elder Doru
-						["coord"] = { 43.1, 67.9, ZULAMAN_MID },
+						["coord"] = { 43.1, 67.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(87254, {	-- Curse Cleanse
 						["sourceQuests"] = { 91206 },	-- Loa Disturbance
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
-						["coord"] = { 40.5, 49.4, ZULAMAN_MID },
+						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(245982),	-- Large Pango Liver (QI!)
 						},
@@ -467,9 +467,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(87256, {	-- Alternative Medicine
 						["sourceQuests"] = { 91206 },	-- Loa Disturbance
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
-						["coord"] = { 40.5, 49.4, ZULAMAN_MID },
+						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(516293, {	-- 
+							o(516293, {	--
 								i(235912),	-- Bloodclot Branch (QI!)
 							}),
 						},
@@ -480,9 +480,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							87254,	-- Curse Cleanse
 						},
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
-						["coord"] = { 40.5, 49.4, ZULAMAN_MID },
+						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(554628, {	-- 
+							o(554628, {	--
 								i(246210),	-- Shattered Staff (QI!)
 							}),
 						},
@@ -490,24 +490,24 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(87268, {	-- Required Repentance
 						["sourceQuests"] = { 87267 },	-- Demands Unmet
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
-						["coord"] = { 40.5, 49.4, ZULAMAN_MID },
+						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(87317, {	-- Denial Denied
 						["sourceQuests"] = { 87268 },	-- Required Repentance
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
-						["coord"] = { 40.5, 49.4, ZULAMAN_MID },
+						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92531, {	-- The Medicine Loa's Shrine
 						["sourceQuests"] = { 87317 },	-- Denial Denied
 						["provider"] = { "n", 237956 },	-- Kulzi
-						["coord"] = { 38.8, 44.8, ZULAMAN_MID },
+						["coord"] = { 38.8, 44.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.02, {	-- [PH] Logging Camp
 					q(88986, {	-- Blind The Bandits
 						--["sourceQuests"] = { XXX },	-- ??
 						["provider"] = { "n", 240521 },	-- Woodcrafter Azai
-						["coord"] = { 28.4, 27.3, ZULAMAN_MID },
+						["coord"] = { 28.4, 27.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(238962),	-- Lightwood Splinters (QI!)
 						},
@@ -515,7 +515,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(88987, {	-- Salvaged Sabotage
 						--["sourceQuests"] = { XXX },	-- ??
 						["provider"] = { "n", 240521 },	-- Woodcrafter Azai
-						["coord"] = { 28.4, 27.3, ZULAMAN_MID },
+						["coord"] = { 28.4, 27.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(525374, {	--
 								i(238964),	-- Stolen Equipment (QI!)
@@ -528,7 +528,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							88987,	-- Salvaged Sabotage
 						},
 						["provider"] = { "n", 241219 },	-- Woodcrafter Azai
-						["coord"] = { 28.4, 27.5, ZULAMAN_MID },
+						["coord"] = { 28.4, 27.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(527670, {	--
 								i(239138),	-- Lightwood Chunk (QI!)
@@ -538,7 +538,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(88989, {	-- Another One Bites the Sawdust
 						["sourceQuests"] = { 88988 },	-- The Artisan's Apprentice
 						["provider"] = { "n", 241219 },	-- Woodcrafter Azai
-						["coord"] = { 28.4, 27.5, ZULAMAN_MID },
+						["coord"] = { 28.4, 27.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(531204, {	--
 								i(241612),	-- Lightwood Javelin (QI!)
@@ -550,10 +550,10 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(89231, {	-- A Fighter Not a Lover
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 240977 },	-- Zak'kash
-						["coord"] = { 43.9, 66.0, ZULAMAN_MID },
+						["coord"] = { 43.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(249236),	-- Amani Headdress (QI!)
-							o(567976, {	-- 
+							o(567976, {	--
 								i(249231),	-- Eagle Feather (QI!)
 							}),
 						},
@@ -561,7 +561,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(89230, {	-- A Lover Not a Fighter
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 240976 },	-- Kagara
-						["coord"] = { 44.0, 66.2, ZULAMAN_MID },
+						["coord"] = { 44.0, 66.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(249271),	-- Gnarldin Necklace (QI!)
 						},
@@ -572,21 +572,21 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							89230,	-- A Lover Not a Fighter
 						},
 						["provider"] = { "n", 240975 },	-- Namaji
-						["coord"] = { 44.4, 65.7, ZULAMAN_MID },
+						["coord"] = { 44.4, 65.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.04, {	-- Sorrowing Kin
 					q(89565, {	-- The Path of Mourning
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 242014 },	-- Chana
-						["coord"] = { 45.4, 69.7, ZULAMAN_MID },
+						["coord"] = { 45.4, 69.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(89503, {	-- Somber Siblings
 						["sourceQuests"] = { 89565 },	-- The Path of Mourning
 						["provider"] = { "n", 247424 },	-- Chana
-						["coord"] = { 45.9, 72.4, ZULAMAN_MID },
+						["coord"] = { 45.9, 72.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(528004, {	-- 
+							o(528004, {	--
 								i(239447),	-- Weeping Spores (QI!)
 							}),
 						},
@@ -602,7 +602,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["sourceQuests"] = { 89506 },	-- Strong Ties
 						["provider"] = { "n", 247425 },	-- Chana (mobileNPC)
 						["groups"] = {
-							o(528071, {	-- 
+							o(528071, {	--
 								i(239494),	-- Shrine Piece (QI!)
 							}),
 						},
@@ -611,7 +611,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["sourceQuests"] = { 89506 },	-- Strong Ties
 						["provider"] = { "n", 247425 },	-- Chana (mobileNPC)
 						["groups"] = {
-							o(528034, {	-- 
+							o(528034, {	--
 								i(239483),	-- Fallen Branch (QI!)
 							}),
 						},
@@ -628,20 +628,20 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90481, {	-- I Have a Permit
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 242383 },	-- Seeker Crikkash
-						["coord"] = { 46.3, 26.1, ZULAMAN_MID },
+						["coord"] = { 46.3, 26.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90484, {	-- Sightseeing Stegadon
 						["sourceQuests"] = { 90481 },	-- I Have a Permit
 						["provider"] = { "n", 242393 },	-- Trishe
-						["coord"] = { 47.3, 26.1, ZULAMAN_MID },
+						["coord"] = { 47.3, 26.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90482, {	-- Cuisine Connection
 						["sourceQuests"] = { 90481 },	-- I Have a Permit
 						["provider"] = { "n", 242394 },	-- Amaxel
-						["coord"] = { 47.2, 24.6, ZULAMAN_MID },
+						["coord"] = { 47.2, 24.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(241013),	-- Zapgut Eel Stomach (QI!)
-							o(529683, {	-- 
+							o(529683, {	--
 								i(241014),	-- Blisterskin Kelp (QI!)
 							}),
 						},
@@ -649,23 +649,23 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90483, {	-- A Witherbark Story
 						["sourceQuests"] = { 90481 },	-- I Have a Permit
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
-						["coord"] = { 47.3, 24.4, ZULAMAN_MID },
+						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90485, {	-- Afterthought Artifacts
 						["sourceQuests"] = { 90481 },	-- I Have a Permit
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
-						["coord"] = { 47.3, 24.4, ZULAMAN_MID },
+						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(572498, {	-- 
+							o(572498, {	--
 								i(241615),	-- Lost Amani Trinket (QI!)
 							}),
-							o(572428, {	-- 
+							o(572428, {	--
 								i(251075),	-- Lost Amani Bolt (QI!)
 							}),
-							o(531227, {	-- 
+							o(531227, {	--
 								i(251272),	-- Lost Amani Oar (QI!)
 							}),
-							o(531213, {	-- 
+							o(531213, {	--
 								i(241614),	-- Old Amani Pot (QI!)
 							}),
 						},
@@ -673,7 +673,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90486, {	-- Dangerous Delicacies
 						["sourceQuests"] = { 90482 },	-- Cuisine Connection
 						["provider"] = { "n", 242394 },	-- Amaxel
-						["coord"] = { 47.2, 24.6, ZULAMAN_MID },
+						["coord"] = { 47.2, 24.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90568, {	-- Unlikely Friends
 						["sourceQuests"] = {
@@ -681,19 +681,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							90485,	-- Afterthought Artifacts
 						},
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
-						["coord"] = { 47.3, 24.4, ZULAMAN_MID },
+						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.06, {	-- The Voice of Nalorakk
 					q(91813, {	-- The Spiritpaw
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 248657 },	-- Pel'na Torntusk
-						["coord"] = { 33.6, 78.8, ZULAMAN_MID },
+						["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91747, {	-- Not Quite Nalorakk
 						["sourceQuests"] = { 91813 },	-- The Spiritpaw
 						["provider"] = { "n", 248121 },	-- Furgh
-						["coord"] = { 41.4, 80.1, ZULAMAN_MID },
+						["coord"] = { 41.4, 80.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(248300),	-- Nalorakk Trinket (QI!)
 						},
@@ -701,7 +701,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91748, {	-- Too Much Twilight
 						["sourceQuests"] = { 91813 },	-- The Spiritpaw
 						["provider"] = { "n", 248123 },	-- Fleeg
-						["coord"] = { 41.3, 80.1, ZULAMAN_MID },
+						["coord"] = { 41.3, 80.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91749, {	-- It's Just Not Right
 						["sourceQuests"] = {
@@ -709,9 +709,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91748,	-- Too Much Twilight
 						},
 						["provider"] = { "n", 248121 },	-- Furgh
-						["coord"] = { 41.4, 80.1, ZULAMAN_MID },
+						["coord"] = { 41.4, 80.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(566020 , {	-- 
+							o(566020 , {	--
 								i(248659),	-- Groffa's Treasures (QI!)
 							}),
 						},
@@ -719,37 +719,37 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(93734, {	-- Precious Trinkets
 						["sourceQuests"] = { 91749 },	-- It's Just Not Right
 						["provider"] = { "n", 248121 },	-- Furgh
-						["coord"] = { 41.4, 80.1, ZULAMAN_MID },
+						["coord"] = { 41.4, 80.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91750, {	-- Perils of Trust
 						["sourceQuests"] = { 93734 },	-- Precious Trinkets
 						["provider"] = { "n", 248123 },	-- Fleeg
-						["coord"] = { 41.3, 80.1, ZULAMAN_MID },
+						["coord"] = { 41.3, 80.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.07, {	-- Reclaiming de Honor
 					q(92492, {	-- Honorin' de Sacrifice
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245664 },	-- Lilaju
-						["coord"] = { 33.6, 78.8, ZULAMAN_MID },
+						["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92495, {	-- Disruptin' de Blade
 						["sourceQuests"] = { 92492 },	-- Honorin' de Sacrifice
 						["provider"] = { "n", 251669 },	-- Lilaju
-						["coord"] = { 26.1, 64.5, ZULAMAN_MID },
+						["coord"] = { 26.1, 64.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92493, {	-- What Remains of Idago
 						["sourceQuests"] = { 92492 },	-- Honorin' de Sacrifice
 						["provider"] = { "n", 251669 },	-- Lilaju
-						["coord"] = { 26.1, 64.5, ZULAMAN_MID },
+						["coord"] = { 26.1, 64.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(574576 , {	-- 
+							o(574576 , {	--
 								i(252134),	-- Idago's Warspear (QI!)
 							}),
-							--o(XXXX, {	-- 
+							--o(XXXX, {	--
 								i(252136),	-- Idago's Letter (QI!)
 							--}),
-							o(574585 , {	-- 
+							o(574585 , {	--
 								i(252135),	-- Idago's Banner (QI!)
 							}),
 						},
@@ -760,7 +760,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							92493,	-- What Remains of Idago
 						},
 						["provider"] = { "n", 251669 },	-- Lilaju
-						["coord"] = { 22.6, 63.9, ZULAMAN_MID },
+						["coord"] = { 22.6, 63.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92497, {	-- Simply Magical
 						["sourceQuests"] = {
@@ -768,12 +768,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							92493,	-- What Remains of Idago
 						},
 						["provider"] = { "n", 251522 },	-- Idago
-						["coord"] = { 21.2, 63.4, ZULAMAN_MID },
+						["coord"] = { 21.2, 63.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(580011, {	-- 
+							o(580011, {	--
 								i(260406),	-- Page of Pain (QI!)
 							}),
-							o(580012, {	-- 
+							o(580012, {	--
 								i(260407),	-- Page of Binding (QI!)
 							}),
 						},
@@ -784,21 +784,21 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							92496,	-- Spears Against de Shadow
 						},
 						["provider"] = { "n", 251669 },	-- Lilaju
-						["coord"] = { 22.6, 63.9, ZULAMAN_MID },
+						["coord"] = { 22.6, 63.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.08, {	-- Vengeance for Tolbani
 					q(91069, {	-- Vengeance for Tolbani
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
-						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						["coord"] = { 53.1, 62.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91070, {	-- Reclaim The Goods
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
-						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						["coord"] = { 53.1, 62.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(548731, {	-- 
+							o(548731, {	--
 								i(245588),	-- Food Provisions (QI!)
 							}),
 						},
@@ -806,7 +806,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91071, {	-- The Menace of Atal'Abasi
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 245669 },	-- Jehnira
-						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						["coord"] = { 53.1, 62.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91556, {	-- Loa's Flame
 						["sourceQuests"] = {
@@ -815,7 +815,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91069,	-- Vengeance for Tolbani
 						},
 						["provider"] = { "n", 245669 },	-- Jehnira
-						["coord"] = { 53.1, 62.8, ZULAMAN_MID },
+						["coord"] = { 53.1, 62.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.09, {	-- Loa of Murlocs
@@ -824,25 +824,25 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(92450, {	-- Growing Up is Hard
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 251258 },	-- Ani
-						["coord"] = { 45.2, 69.8, ZULAMAN_MID },
+						["coord"] = { 45.2, 69.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92451, {	-- I Think I Can
 						["sourceQuests"] = { 92450 },	-- Growing Up is Hard
 						["provider"] = { "n", 251258 },	-- Ani
-						["coord"] = { 48.1, 67.6, ZULAMAN_MID },
+						["coord"] = { 48.1, 67.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92452, {	-- Not According to Plan
 						["sourceQuests"] = { 92451 },	-- I Think I Can
 						--["provider"] = { "o", XXXX },	-- Ani's Trinket Bag
-						["coord"] = { 48.7, 66.1, ZULAMAN_MID },
+						["coord"] = { 48.7, 66.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(587574 , {	-- 
+							o(587574 , {	--
 								i(259345),	-- Ani's Feathered Totem (QI!)
 							}),
-							o(587576 , {	-- 
+							o(587576 , {	--
 								i(259348),	-- Ani's Scented Strobilus (QI!)
 							}),
-							o(587577, {	-- 
+							o(587577, {	--
 								i(259350),	-- Ani's Carved Effigy (QI!)
 							}),
 						},
@@ -850,14 +850,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(92453, {	-- Fearless
 						["sourceQuests"] = { 92452 },	-- Not According to Plan
 						["provider"] = { "n", 251258 },	-- Ani
-						["coord"] = { 44.6, 60.5, ZULAMAN_MID },
+						["coord"] = { 44.6, 60.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.11, {	-- Bitter Honor
 					q(93093, {	-- Gnarldin Trophies
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 253997 },	-- Kel'venko
-						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
+						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(257084),	-- Bashed In Bark (QI!)
 							i(257090),	-- Bone Belt (QI!)
@@ -872,7 +872,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(93094, {	-- Scavenged Victory
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 253997 },	-- Kel'venko
-						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
+						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(588832, {	--
 								i(256685),	-- Hunter's Tablet (QI!)
@@ -885,19 +885,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							93094,	-- Scavenged Victory
 						},
 						["provider"] = { "n", 253997 },	-- Kel'venko
-						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
+						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93096, {	-- Amani Honor
 						["sourceQuests"] = { 93095 },	-- Gnarldin Fury
 						["provider"] = { "n", 253997 },	-- Kel'venko
-						["coord"] = { 28.9, 33.5, ZULAMAN_MID },
+						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.12, {	-- The Sound of Her Voice
 					q(93178, {	-- A Quiet Walk Interrupted
 						--["sourceQuests"] = { XXX },	-- ??
 						["provider"] = { "n", 254716 },	-- Nerunda
-						["coord"] = { 36.7, 25.1, ZULAMAN_MID },
+						["coord"] = { 36.7, 25.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							--o(XXX, {
 								i(265611),	-- Broken Picnic Basket (QI!)
@@ -910,12 +910,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(93179, {	-- Child-like Devotion
 						["sourceQuests"] = { 93178 },	-- A Quiet Walk Interrupted
 						["provider"] = { "n", 254716 },	-- Nerunda
-						["coord"] = { 36.7, 25.1, ZULAMAN_MID },
+						["coord"] = { 36.7, 25.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93180, {	-- Shrine Preparations
 						["sourceQuests"] = { 93179 },	-- Child-like Devotion
 						["provider"] = { "n", 254719 },	-- Kanza
-						["coord"] = { 52.3, 32.2, ZULAMAN_MID },
+						["coord"] = { 52.3, 32.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(619616, {
 								i(265341),	-- Thorncap (QI!)
@@ -925,7 +925,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(93181, {	-- Temple and a Teapot
 						["sourceQuests"] = { 93180 },	-- Shrine Preparations
 						["provider"] = { "n", 258014 },	-- Kanza
-						["coord"] = { 51.4, 30.6, ZULAMAN_MID },
+						["coord"] = { 51.4, 30.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(265401),	-- Antique Tuskarr Teapot (QI!)
 						},
@@ -933,7 +933,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(93182, {	-- Healing Homeward
 						["sourceQuests"] = { 93181 },	-- Temple and a Teapot
 						["provider"] = { "n", 258363 },	-- Kanza
-						["coord"] = { 52.3, 32.1, ZULAMAN_MID },
+						["coord"] = { 52.3, 32.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							--spell(1276571),	-- Blessings of Children
 						},
@@ -943,24 +943,24 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91406, {	-- Far from the Hinterlands
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
-						["coord"] = { 36.1, 24.8, ZULAMAN_MID },
+						["coord"] = { 36.1, 24.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91407, {	-- The Eye of the Loa
 						["sourceQuests"] = { 91406 },	-- Far from the Hinterlands
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
-						["coord"] = { 36.1, 24.8, ZULAMAN_MID },
+						["coord"] = { 36.1, 24.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91563, {	-- Halazzi's Hunt
 						["sourceQuests"] = { 91407 },	-- The Eye of the Loa
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
-						["coord"] = { 36.1, 24.8, ZULAMAN_MID },
+						["coord"] = { 36.1, 24.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91404, {	-- A Most Vile Venom
 						["sourceQuests"] = { 91563 },	-- Halazzi's Hunt
 						["provider"] = { "n", 246999 },	-- Loa Speaker Tobui
-						["coord"] = { 32.3, 31.6, ZULAMAN_MID },
+						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(584793, {	-- 
+							o(584793, {	--
 								i(246681),	-- Ritual Fang (QI!)
 							}),
 						},
@@ -968,7 +968,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91403, {	-- Probable Paralytic
 						["sourceQuests"] = { 91407 },	-- The Eye of the Loa (TODO: this quest was up when you come at this place to turn in 91563, it could be up by itself here, need more testing)
 						["provider"] = { "n", 246999 },	-- Loa Speaker Tobui
-						["coord"] = { 32.3, 31.6, ZULAMAN_MID },
+						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91405, {	-- Validating the Venom
 						["sourceQuests"] = {
@@ -976,17 +976,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91404,	-- A Most Vile Venom
 						},
 						["provider"] = { "n", 246999 },	-- Loa Speaker Tobui
-						["coord"] = { 32.3, 31.6, ZULAMAN_MID },
+						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91408, {	-- Seeking Shadra
 						["sourceQuests"] = { 91405 },	-- Validating the Venom
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
-						["coord"] = { 36.1, 24.8, ZULAMAN_MID },
+						["coord"] = { 36.1, 24.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91630, {	-- Stolen Sight
 						["sourceQuests"] = { 91408 },	-- Seeking Shadra
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 39.1, 22.3, ZULAMAN_MID },
+						["coord"] = { 39.1, 22.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(246744),	-- Eye of Shadra (QI!)
 						},
@@ -994,12 +994,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91409, {	-- Dreaming of Spiders
 						["sourceQuests"] = { 91630 },	-- Stolen Sight
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 39.1, 22.3, ZULAMAN_MID },
+						["coord"] = { 39.1, 22.3, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91411, {	-- Deep in Maisara
 						["sourceQuests"] = { 91409 },	-- Dreaming of Spiders
 						["provider"] = { "n", 247251 },	-- Nija Torntusk
-						["coord"] = { 38.8, 22.7, ZULAMAN_MID },
+						["coord"] = { 38.8, 22.7, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(246586),	-- Shell of Shadra (QI!)
 						},
@@ -1007,19 +1007,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91412, {	-- Return of the Venom Queen
 						["sourceQuests"] = { 91411 },	-- Deep in Maisara
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 38.7, 22.7, ZULAMAN_MID },
+						["coord"] = { 38.7, 22.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91410, {	-- Shared Loa
 						["sourceQuests"] = { 91412 },	-- Return of the Venom Queen
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 38.7, 22.7, ZULAMAN_MID },
+						["coord"] = { 38.7, 22.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.14, {	-- [PH] Hub Culture
 					q(93051, {	-- The Final Exam
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254136 },	-- Ri'kari
-						["coord"] = { 44.0, 65.7, ZULAMAN_MID },
+						["coord"] = { 44.0, 65.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.15, {	-- Something Vile This Way Comes
@@ -1029,22 +1029,22 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(93257, {	-- Revantusk at Risk
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254488 },	-- Jak'zari
-						["coord"] = { 45.9, 70.7, ZULAMAN_MID },
+						["coord"] = { 45.9, 70.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93258, {	-- Crab Clues
 						["sourceQuests"] = { 93257 },	-- Revantusk at Risk
 						["provider"] = { "n", 254491 },	-- Kahanea
-						["coord"] = { 40.2, 79.2, ZULAMAN_MID },
+						["coord"] = { 40.2, 79.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93260, {	-- Caging Crawlers
 						["sourceQuests"] = { 93258 },	-- Crab Clues
 						["provider"] = { "n", 254491 },	-- Kahanea
-						["coord"] = { 40.2, 79.2, ZULAMAN_MID },
+						["coord"] = { 40.2, 79.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93259, {	-- Clobbering Crawlers
 						["sourceQuests"] = { 93258 },	-- Crab Clues
 						["provider"] = { "n", 254491 },	-- Kahanea
-						["coord"] = { 40.2, 79.2, ZULAMAN_MID },
+						["coord"] = { 40.2, 79.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(259471),	-- Mouthwatering Crab Meat (QI!)
 						},
@@ -1055,7 +1055,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							93260,	-- Caging Crawlers
 						},
 						["provider"] = { "n", 254491 },	-- Kahanea
-						["coord"] = { 32.2, 83.8, ZULAMAN_MID },
+						["coord"] = { 32.2, 83.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(260410),	-- Void-Touched Refuse (QI!)
 						},
@@ -1067,12 +1067,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			q(93049, {	-- Homework Support
 				--["sourceQuests"] = { XXX },	-- ??
 				["provider"] = { "n", 254144 },	-- An'jali
-				["coord"] = { 46.7, 68.0, ZULAMAN_MID },
+				["coord"] = { 46.7, 68.0, MAP.MIDNIGHT.ZULAMAN },
 				["groups"] = {
-					o(613439, {	-- 
+					o(613439, {	--
 						i(258892),	-- Dragonhawk Fern Frond (QI!)
 					}),
-					o(613438, {	-- 
+					o(613438, {	--
 						i(258891),	-- Pristine Shade Lily (QI!)
 					}),
 				},
@@ -1080,18 +1080,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			--Possible Renown 2/3 quest?
 			q(93792, {	-- Blessings of the Loa
 				["provider"] = { "n", 256510 },	-- Du'gal
-				["coord"] = { 43.1, 69.2, ZULAMAN_MID },
+				["coord"] = { 43.1, 69.2, MAP.MIDNIGHT.ZULAMAN },
 			}),
 			--Delves
 			q(93410, {	-- Delver's Call: Twilight Crypts
 				--["provider"] = { "o", XXXX },	-- Twilight Crypts
-				["coord"] = { 43.1, 69.2, ZULAMAN_MID },
+				["coord"] = { 43.1, 69.2, MAP.MIDNIGHT.ZULAMAN },
 			}),
 			--Odd chain, could be one of criteria questID but missing it?
 			q(93440, {	-- Personal History
 				--["sourceQuests"] = { XXX },	-- ??
 				["provider"] = { "n", 249653 },	-- Zul'jarra
-				["coord"] = { 45.8, 65.5, ZULAMAN_MID },
+				["coord"] = { 45.8, 65.5, MAP.MIDNIGHT.ZULAMAN },
 			}),
 			q(93433, {	-- Shrine, Sealed, Delivered
 				["sourceQuests"] = { 93440 },	-- Personal History
@@ -1137,8 +1137,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	}),
 }));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
-		m(ZULAMAN_MID, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
+		m(MAP.MIDNIGHT.ZULAMAN, {
 			n(QUESTS, {
 				--During questing
 				--q(89196),	-- Zone Choice Made (spellID 1254861), after accepting questID 86708 (The Gates of Zul'Aman) // seems like also fired on any quest that are sourced from Scouting Map and then it unflagging itself at somepoint during chain?

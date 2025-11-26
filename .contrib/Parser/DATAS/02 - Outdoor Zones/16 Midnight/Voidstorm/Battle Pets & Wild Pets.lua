@@ -2,8 +2,8 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(VOIDSTORM, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.VOIDSTORM, {
 		filter(BATTLE_PETS, {
 			["groups"] = {
 				pet(4879, {	-- Blistercreepling

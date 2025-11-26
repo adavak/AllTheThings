@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(MIDNIGHT, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	n(ZONE_REWARDS, {
 		currency(VOIDLIGHT_MARL),
 		--TODO: alpha state - seems like there no separation between zones in rewards and they could be mixed in

@@ -2,11 +2,11 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(SILVERMOON_CITY_MID, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.SILVERMOON_CITY, {
 		n(VENDORS, {
 			n(252915, {	-- Corlen Hordralin <Master Painter>
-				["coord"] = { 44.2, 62.8, SILVERMOON_CITY_MID },
+				["coord"] = { 44.2, 62.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = sharedData({
 					["cost"] = {{ "g", 50000000 }},		-- 5,000g
 					-- Requires completion of 12.0 patch meta achievement [PH]. TODO: Which achievement?
@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			n(252915, {	-- Corlen Hordralin <Master Painter>
 				["description"] = "This Vendor sells Decor only to players that have purchased 'Midnight Epic Edition' upgrade.",
-				["coord"] = { 50.8, 56.6, SILVERMOON_CITY_MID },
+				["coord"] = { 50.8, 56.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = {
 					i(252668, {	-- "The Harbinger" Painting (DECOR!)
 						["cost"] = {{ "g", 100000000 }},		-- 10,000g

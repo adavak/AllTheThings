@@ -3,23 +3,23 @@
 ---------------------------------------------------
 local STABILIZED_DERIVATE = 242651;
 local ALCHEMISTS_MOXIE = 3256;
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(ISLE_OF_QUELDANAS_MID, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.SILVERMOON_CITY, {
 		n(PROFESSIONS, {
 			prof(ALCHEMY, {
 				n(243357, {	-- Camberon <Alchemy Trainer>
-					["coord"] = { 47.0, 52.0, SILVERMOON_CITY_MID },
+					["coord"] = { 47.0, 52.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = MID_ALCHEMY,
 				}),
 				n(243359, {	-- Melaris <Alchemy Supplies>
-					["coord"] = { 47.0, 51.7, SILVERMOON_CITY_MID },
+					["coord"] = { 47.0, 51.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
 						i(247811),	-- Oil of Heartwood
 						i(240991),	-- Sunglass Vial+
 					},
 				}),
 				n(247420, {	-- Camberon's Coaching Cauldron
-					["coord"] = { 47.0, 51.5, SILVERMOON_CITY_MID },
+					["coord"] = { 47.0, 51.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
 						r(1230892, {	-- Bouquet of Herbs
 							["cost"] = {

@@ -2,8 +2,8 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(HARANDAR, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.HARANDAR, {
 		filter(BATTLE_PETS, {
 			["groups"] = {
 				pet(4882, {	-- Azure Sporebat

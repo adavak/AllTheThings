@@ -21,7 +21,7 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1311, {	-- Den of Nalorakk
-		["coord"] = { 30.0, 84.5, ZULAMAN_MID },
+		["coord"] = { 30.0, 84.5, MAP.MIDNIGHT.ZULAMAN },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = {
 			2514,	-- Dreamer's Passage
@@ -34,7 +34,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				BossOnly(SENTINEL, {
 				}),
 				BossOnly(NALORAKK, {
-					ach(),	-- 
+					ach(),	--
 				}),
 				n(MISC, {
 					i(245573),	-- Salmon
@@ -42,12 +42,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
 				BossOnly(NALORAKK, {
-					ach(),	-- 
+					ach(),	--
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
 				BossOnly(NALORAKK, {
-					ach(),	-- 
+					ach(),	--
 				}),
 			}),
 		},

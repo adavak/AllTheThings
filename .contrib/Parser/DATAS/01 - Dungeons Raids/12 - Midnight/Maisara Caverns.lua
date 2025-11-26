@@ -25,7 +25,7 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1315, {	-- Maisara Caverns
-		["coord"] = { 44.0, 39.6, ZULAMAN_MID },
+		["coord"] = { 44.0, 39.6, MAP.MIDNIGHT.ZULAMAN },
 		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = { MAISARA_CAVERNS },
 		["groups"] = {
@@ -35,17 +35,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				BossOnly(VORDAZA, {
 				}),
 				BossOnly(RAKTUL, {
-					ach(),	-- 
+					ach(),	--
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
 				BossOnly(RAKTUL, {
-					ach(),	-- 
+					ach(),	--
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
 				BossOnly(RAKTUL, {
-					ach(),	-- 
+					ach(),	--
 				}),
 			}),
 		},

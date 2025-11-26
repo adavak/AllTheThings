@@ -226,7 +226,7 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_LA
 	}),
 })));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
 		m(ARCANTINA, {
 			n(QUESTS, {
 				--Probably worth to redo into hqt or under treasure, idk?

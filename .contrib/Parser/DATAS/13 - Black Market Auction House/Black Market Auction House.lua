@@ -41,7 +41,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		DORNOGAL,
 		LEGION_THE_UNDERBELLY,
 		-- #elseif BEFORE TLT
-		SILVERMOON_CITY_MID,
+		MAP.MIDNIGHT.SILVERMOON_CITY,
 		-- #endif
 	},
 	-- #endif

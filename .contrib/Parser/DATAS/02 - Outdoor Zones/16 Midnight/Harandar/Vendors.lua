@@ -2,11 +2,11 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(HARANDAR, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.HARANDAR, {
 		n(VENDORS, {
 			n(251259, {	-- Mothkeeper Wew'tam
-				["coord"] = { 49.3, 54.3, HARANDAR },
+				["coord"] = { 49.3, 54.3, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					i(257155, {	-- Groovewarden's Kris (COSMETIC!)
 						["cost"] = {{"c", 3385, 10}},	-- Luminous Dust
@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			n(240407, {	-- Naynar <Renown Quartermaster>
-				["coord"] = { 51.0, 50.7, HARANDAR },
+				["coord"] = { 51.0, 50.7, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					--TODO: add
 				},

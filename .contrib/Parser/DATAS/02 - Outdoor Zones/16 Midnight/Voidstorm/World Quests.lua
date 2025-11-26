@@ -2,8 +2,8 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(VOIDSTORM, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.VOIDSTORM, {
 		n(WORLD_QUESTS, {
 		--	["sourceQuests"] = {
 		--	},
@@ -24,13 +24,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					["coord"] = { 45.7, 36.6, SLAYERS_RISE_OUTDOOR },
 				})),
 				q(93573, {	-- Deciphering Darkness
-					["coord"] = { 41.8, 75.3, VOIDSTORM },
+					["coord"] = { 41.8, 75.3, MAP.MIDNIGHT.VOIDSTORM },
 				}),
 				q(92546, {	-- Encroaching Predators
-					["coord"] = { 36.1, 60.3, VOIDSTORM },
+					["coord"] = { 36.1, 60.3, MAP.MIDNIGHT.VOIDSTORM },
 				}),
 				q(93397, {	-- Gnawing Hunger
-					["coord"] = { 57.7, 72.7, VOIDSTORM },
+					["coord"] = { 57.7, 72.7, MAP.MIDNIGHT.VOIDSTORM },
 				}),
 		--	}),
 		}),

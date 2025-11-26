@@ -5,69 +5,69 @@ local function bo(questID, isDaily)
     return { ["questID"] = questID, ["isDaily"] = isDaily };
 end
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(EVERSONG_WOODS_MID, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.EVERSONG_WOODS, {
 	--	n(RARES, sharedData({ ["isDaily"] = true }, {
 	--	})),
 		n(RARES, {
 			n(250841, {	-- Bad Zed
-				["coord"] = { 49.0, 87.9, EVERSONG_WOODS_MID },
+				["coord"] = { 49.0, 87.9, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92404,
 				["groups"] = {
 					i(264621),	-- Bad Zed's Worst Channeler
 				},
 			}),
 			n(250826, {	-- Banuran
-				["coord"] = { 56.4, 77.6, EVERSONG_WOODS_MID },
+				["coord"] = { 56.4, 77.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92403,
 				["groups"] = {
 					i(264526),	-- Supremely Slimy Sash
 				},
 			}),
 			n(250582, {	-- Bloated Snapdragon
-				["coord"] = { 36.6, 64.0, EVERSONG_WOODS_MID },
+				["coord"] = { 36.6, 64.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92366,
 				["groups"] = {
 					i(264560),	-- Sharpclaw Gauntlets
 				},
 			}),
 			n(250683, {	-- Coralfang
-				["coord"] = { 36.4, 36.4, EVERSONG_WOODS_MID },
+				["coord"] = { 36.4, 36.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92389,
 				["groups"] = {
 					i(264629),	-- Coralfang's Hefty Fin
 				},
 			}),
 			n(250719, {	-- Cre'van
-				["coord"] = { 63.2, 50.0, EVERSONG_WOODS_MID },
+				["coord"] = { 63.2, 50.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92391,
 				["groups"] = {
 					i(264573),	-- Taskmaster's Sadistic Shoulderguards
 				},
 			}),
 			n(255348, {	-- Dame Bloodshed
-				["coord"] = { 44.8, 38.5, EVERSONG_WOODS_MID },
+				["coord"] = { 44.8, 38.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 93561,
 				["groups"] = {
 					i(264624),	-- Fang of the Dame
 				},
 			}),
 			n(255302, {	-- Duskburn
-				["coord"] = { 42.3, 69.0, EVERSONG_WOODS_MID },
+				["coord"] = { 42.3, 69.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 93550,
 				["groups"] = {
 					i(264569),	-- Void-Gorged Kickers
 				},
 			}),
 			n(246633, {	-- Harried Hawkstrider
-				["coord"] = { 45.0, 78.9, EVERSONG_WOODS_MID },
+				["coord"] = { 45.0, 78.9, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 91315,
 				["groups"] = {
 					i(264521),	-- Striderplume Focus
 				},
 			}),
 			n(250754, {	-- Lady Liminus
-				["coord"] = { 36.6, 77.2, EVERSONG_WOODS_MID },
+				["coord"] = { 36.6, 77.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92393,
 				["groups"] = {
 					i(264645),	-- Aged Farstrider Bow
@@ -75,14 +75,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			n(250806, {	-- Lost Guardian
 				--could be locked/phased behind quests in area?
-				["coord"] = { 59.1, 79.2, EVERSONG_WOODS_MID },
+				["coord"] = { 59.1, 79.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92399,
 				["groups"] = {
 					i(264575),	-- Hexwood Helm
 				},
 			}),
 			n(255329, {	-- Malfunctioning Construct
-				["coord"] = { 51.7, 46.0, EVERSONG_WOODS_MID },
+				["coord"] = { 51.7, 46.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 93555,
 				["groups"] = {
 					i(264603),	-- Guardian's Gemstone Loop
@@ -90,21 +90,21 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			n(240129, {	-- Overfester Hydra (vignette - Dormant Lightbloom Hydra)
-				["coord"] = { 54.7, 60.4, EVERSONG_WOODS_MID },
+				["coord"] = { 54.7, 60.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92392,
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(250876, {	-- Terrinor
-				["coord"] = { 40.3, 85.3, EVERSONG_WOODS_MID },
+				["coord"] = { 40.3, 85.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92409,
 				["groups"] = {
 					i(264546),	-- Bat Fur Boots
 				},
 			}),
 			n(246332, {	-- Warden of Weeds
-				["coord"] = { 52.7, 75.0, EVERSONG_WOODS_MID },
+				["coord"] = { 52.7, 75.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 91280,
 				["groups"] = {
 					i(264613),	-- Steelbark Bulwark
@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			}),
 			n(250780, {	-- Waverly
 				["cr"] = 250788,	-- Lovely Sunflower
-				["coord"] = { 34.8, 21.0, EVERSONG_WOODS_MID },
+				["coord"] = { 34.8, 21.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 89580,
 				["groups"] = {
 					i(264608),	-- String of Lovely Blossoms
@@ -122,8 +122,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	}),
 }));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
-		m(EVERSONG_WOODS_MID, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
+		m(MAP.MIDNIGHT.EVERSONG_WOODS, {
 			n(RARES, {
 				q(94692, {	-- Weekly reputation: Banuran
 					["name"] = "Banuran weekly reputation obtained.",

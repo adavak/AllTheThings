@@ -2,41 +2,41 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(VOIDSTORM, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.VOIDSTORM, {
 		n(QUESTS, {
 			header(HEADERS.Achievement, 41806, {	-- Voidstorm
 				header(HEADERS.AchCriteria, 41806.01, {	-- Into the Abyss
 					q(91084, {	-- Looming Shadows
 						["sourceQuests"] = { 86898 },	-- Rise of the Haranir
 						["provider"] = { "n", 255819 },	-- Elder Hagar
-						["coord"] = { 36.6, 68.4, SILVERMOON_CITY_MID },
+						["coord"] = { 36.6, 68.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["isBreadcrumb"] = true,	-- TODO: next quest was up without turn it this one
 					}),
 					q(92061, {	-- Rising Storm
 						["sourceQuests"] = { 91084 },	-- Looming Shadows
 						["provider"] = { "n", 235787 },	-- Lor'themar Theron
-						["coord"] = { 45.4, 70.3, SILVERMOON_CITY_MID },
+						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(86543, {	-- Magisters' Terrace: Homecoming
 						["sourceQuests"] = { 92061 },	-- Rising Storm
 						["provider"] = { "n", 235386 },	-- Magister Umbric
-						["coord"] = { 45.3, 70.2, SILVERMOON_CITY_MID },
+						["coord"] = { 45.3, 70.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(86549, {	-- No Fear of the Dark
 						["sourceQuests"] = { 86543 },	-- Magisters' Terrace: Homecoming
 						["provider"] = { "n", 235405 },	-- Magister Umbric
-						["coord"] = { 35.2, 65.8, SILVERMOON_CITY_MID },
+						["coord"] = { 35.2, 65.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(86557, {	-- A Matter of Strife and Death
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 235486 },	-- Lothraxion
-						["coord"] = { 34.4, 60.5, VOIDSTORM },
+						["coord"] = { 34.4, 60.5, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86558, {	-- Save a Piece of Mind
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 235411 },	-- Magister Umbric
-						["coord"] = { 34.3, 60.5, VOIDSTORM },
+						["coord"] = { 34.3, 60.5, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260837),	-- Gauntlets of Infinite Gravity
 							i(260839),	-- Grips of the Colossal Behemoths
@@ -50,12 +50,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86558,	-- Save a Piece of Mind
 						},
 						["provider"] = { "n", 235522 },	-- Lothraxion
-						["coord"] = { 36.9, 58.6, VOIDSTORM },
+						["coord"] = { 36.9, 58.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86562, {	-- Dancing with Death
 						["sourceQuests"] = { 86559 },	-- The Far, Far Frontier
 						["provider"] = { "n", 235530 },	-- Lothraxion
-						["coord"] = { 31.3, 54.4, VOIDSTORM },
+						["coord"] = { 31.3, 54.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260840),	-- Hazy Penumbral Belt
 							i(260842),	-- Neverending Vortex Sash
@@ -66,7 +66,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86561, {	-- A Strange, Different World
 						["sourceQuests"] = { 86559 },	-- The Far, Far Frontier
 						["provider"] = { "n", 235532 },	-- Alleria Windrunner
-						["coord"] = { 31.3, 54.3, VOIDSTORM },
+						["coord"] = { 31.3, 54.3, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(242390),	-- Shadowgraft Fragment (QI!)
 						},
@@ -77,7 +77,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86561,	-- A Strange, Different World
 						},
 						["provider"] = { "n", 235535 },	-- Lothraxion
-						["coord"] = { 27.4, 51.0, VOIDSTORM },
+						["coord"] = { 27.4, 51.0, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260844),	-- Hazy Penumbral Pants
 							i(260845),	-- Greaves of Infinite Gravity
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86561,	-- A Strange, Different World
 						},
 						["provider"] = { "n", 235609 },	-- Alleria Windrunner
-						["coord"] = { 35.4, 59.0, VOIDSTORM },
+						["coord"] = { 35.4, 59.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--
 				}),
@@ -102,17 +102,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86536, {	-- Reliable Enemies
 						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["provider"] = { "n", 235606 },	-- Lothraxion
-						["coord"] = { 35.4, 59.1, VOIDSTORM },
+						["coord"] = { 35.4, 59.1, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86531, {	-- Work Disruption
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
 						["provider"] = { "n", 235389 },	-- Alleria Windrunner
-						["coord"] = { 36.6, 73.0, VOIDSTORM },
+						["coord"] = { 36.6, 73.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86530, {	-- First, The Shells
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
 						["provider"] = { "n", 235394 },	-- Lothraxion
-						["coord"] = { 36.7, 73.1, VOIDSTORM },
+						["coord"] = { 36.7, 73.1, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(237380),	-- Empty Manacell (QI!)
 						},
@@ -120,7 +120,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86528, {	-- A Cracked Holokey
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
 						--["provider"] = { "o", XXXX },	-- Cracked Holokey
-						["coord"] = { 35.7, 79.2, VOIDSTORM },
+						["coord"] = { 35.7, 79.2, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86537, {	-- Network Insecurity
 						["sourceQuests"] = {
@@ -129,18 +129,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86531,	-- Work Disruption
 						},
 						["provider"] = { "n", 235717 },	-- Alleria Windrunner
-						["coord"] = { 36.3, 80.4, VOIDSTORM },
+						["coord"] = { 36.3, 80.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(237745),	-- Encrypted Device (QI!)
 							i(262669),	-- Void-Touched Axe
-							i(262670),	-- 
-							i(262671),	-- 
-							i(262673),	-- 
-							i(262677),	-- 
-							i(262730),	-- 
-							i(262734),	-- 
-							i(262735),	-- 
-							i(262738),	-- 
+							i(262670),	--
+							i(262671),	--
+							i(262673),	--
+							i(262677),	--
+							i(262730),	--
+							i(262734),	--
+							i(262735),	--
+							i(262738),	--
 							i(262739),	--
 						},
 					}),
@@ -151,19 +151,19 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86531,	-- Work Disruption
 						},
 						["provider"] = { "n", 235713 },	-- Lothraxion
-						["coord"] = { 36.3, 80.6, VOIDSTORM },
+						["coord"] = { 36.3, 80.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(526844, {	-- 
+							o(526844, {	--
 								i(237744),	-- Arcane Remnant] (QI!)
 							}),
-							i(260848),	-- 
+							i(260848),	--
 							i(262375),	-- Darkness-Infused Polearms
-							i(262376),	-- 
+							i(262376),	--
 							i(262672),	-- [DNT] Iron Fists of the Eternal Void
-							i(262674),	-- 
-							i(262675),	-- 
-							i(262678),	-- 
-							i(262733),	-- 
+							i(262674),	--
+							i(262675),	--
+							i(262678),	--
+							i(262733),	--
 							i(262737),	--
 						},
 					}),
@@ -173,17 +173,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86538,	-- Second, The Fuel
 						},
 						["provider"] = { "n", 235713 },	-- Lothraxion
-						["coord"] = { 36.3, 80.6, VOIDSTORM },
+						["coord"] = { 36.3, 80.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86540, {	-- Third, Blow It Up
 						["sourceQuests"] = { 86539 },	-- A Naaru!
 						["provider"] = { "n", 235648 },	-- Lothraxion
-						["coord"] = { 39.3, 82.2, VOIDSTORM },
+						["coord"] = { 39.3, 82.2, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(88768, {	-- Agents of Darkness
 						["sourceQuests"] = { 86539 },	-- A Naaru!
 						["provider"] = { "n", 235660 },	-- Alleria Windrunner
-						["coord"] = { 39.4, 82.2, VOIDSTORM },
+						["coord"] = { 39.4, 82.2, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(263282),	-- Repurposed Volatile Manacell
 						},
@@ -191,7 +191,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86541, {	-- Just In Case...
 						["sourceQuests"] = { 86539 },	-- A Naaru!
 						["provider"] = { "n", 235650 },	-- Decimus
-						["coord"] = { 39.4, 82.1, VOIDSTORM },
+						["coord"] = { 39.4, 82.1, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(237895),	-- Fragmented Keystone (QI!)
 							i(242254),	-- Master's Override (QI!)
@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86540,	-- Third, Blow It Up
 						},
 						["provider"] = { "n", 235649 },	-- Lothraxion
-						["coord"] = { 38.0, 83.2, VOIDSTORM },
+						["coord"] = { 38.0, 83.2, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260833),	-- Cowl of Infinite Gravity
 							i(260832),	-- Hazy Penumbral Helm
@@ -215,12 +215,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(89249, {	-- Overwhelmed
 						["sourceQuests"] = { 86542 },	-- Flicker in the Dark
 						["provider"] = { "n", 241109 },	-- Arator
-						["coord"] = { 41.6, 78.8, VOIDSTORM },
+						["coord"] = { 41.6, 78.8, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86544, {	-- Post-Mortem
 						["sourceQuests"] = { 89249 },	-- Overwhelmed
 						["provider"] = { "n", 235724 },	-- Arator
-						["coord"] = { 41.7, 74.7, VOIDSTORM },
+						["coord"] = { 41.7, 74.7, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(238500),	-- Maella's Report (QI!)
 						},
@@ -231,13 +231,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["description"] = "Dialogue becomes available during 'Post-Mortem' (86544).",
 						["sourceQuests"] = { 89249 },	-- Overwhelmed
 						["provider"] = { "n", 235664 },	-- Alleria Windrunner
-						["coord"] = { 41.7, 74.7, VOIDSTORM },
+						["coord"] = { 41.7, 74.7, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--]]--
 					q(86545, {	-- The Light's Brand
 						["sourceQuests"] = { 86544 },	-- Post-Mortem
 						["provider"] = { "n", 235724 },	-- Arator
-						["coord"] = { 41.7, 74.7, VOIDSTORM },
+						["coord"] = { 41.7, 74.7, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260854),	-- Hazy Penumbral Shoulderpads
 							i(260856),	-- Neverending Vortex Mantle
@@ -250,7 +250,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86509, {	-- Friend or Fiend
 						["sourceQuests"] = { 86545 },	-- The Light's Brand
 						["provider"] = { "n", 240691 },	-- Decimus
-						["coord"] = { 41.2, 72.7, VOIDSTORM },
+						["coord"] = { 41.2, 72.7, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--[[------ Stay awhile and listen ------
 					hqt(XXXX, {	-- Stay awhile and listen: Lothraxion
@@ -258,18 +258,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["description"] = "Dialogue becomes available during 'Friend or Fiend' (86509).",
 						["sourceQuests"] = { 86545 },	-- The Light's Brand
 						["provider"] = { "n", 240673 },	-- Lothraxion
-						["coord"] = { 41.0, 72.6, VOIDSTORM },
+						["coord"] = { 41.0, 72.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--]]--
 					q(86510, {	-- Domus Penumbra
 						["sourceQuests"] = { 86509 },	-- Friend or Fiend
 						["provider"] = { "n", 240697 },	-- Decimus
-						["coord"] = { 51.4, 72.9, VOIDSTORM },
+						["coord"] = { 51.4, 72.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90571, {	-- The Lay of the Beast
 						["sourceQuests"] = { 86510 },	-- Domus Penumbra
 						["provider"] = { "n", 235697 },	-- Decimus
-						["coord"] = { 51.0, 67.9, VOIDSTORM },
+						["coord"] = { 51.0, 67.9, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260858),	-- Penumbral Gem Necklace
 							i(260859),	-- Thorny Necklace
@@ -281,23 +281,23 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["description"] = "Dialogue becomes available during 'The Lay of the Beast' (90571).",
 						["sourceQuests"] = { 86510 },	-- Domus Penumbra
 						["provider"] = { "n", 235469 },	-- Arator
-						["coord"] = { 51.0, 68.1, VOIDSTORM },
+						["coord"] = { 51.0, 68.1, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--]]--
 					q(86511, {	-- Edge of the Abyss
 						["sourceQuests"] = { 90571 },	-- The Lay of the Beast
 						["provider"] = { "n", 238296 },	-- Alleria Windrunner
-						["coord"] = { 51.1, 68.0, VOIDSTORM },
+						["coord"] = { 51.1, 68.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86512, {	-- The Harvest
 						["sourceQuests"] = { 86511 },	-- Edge of the Abyss
 						["provider"] = { "n", 235633 },	-- Decimus
-						["coord"] = { 54.3, 74.3, VOIDSTORM },
+						["coord"] = { 54.3, 74.3, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86513, {	-- Face the Tide
 						["sourceQuests"] = { 86511 },	-- Edge of the Abyss
 						["provider"] = { "n", 235469 },	-- Arator
-						["coord"] = { 54.3, 74.3, VOIDSTORM },
+						["coord"] = { 54.3, 74.3, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86514, {	-- Lady of the Pit
 						["sourceQuests"] = {
@@ -305,9 +305,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86512,	-- The Harvest
 						},
 						["provider"] = { "n", 236945 },	-- Alleria Windrunner
-						["coord"] = { 55.6, 72.8, VOIDSTORM },
+						["coord"] = { 55.6, 72.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(526075, {	-- 
+							o(526075, {	--
 								i(238779),	-- Torentia's Sigil (QI!)
 							}),
 							i(260861),	-- Bracelets of Infinite Gravity
@@ -319,9 +319,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86516, {	-- All Become Prey
 						["sourceQuests"] = { 86514 },	-- Lady of the Pit
 						["provider"] = { "n", 235502 },	-- Alleria Windrunner
-						["coord"] = { 60.8, 73.6, VOIDSTORM },
+						["coord"] = { 60.8, 73.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(531495, {	-- 
+							o(531495, {	--
 								i(237807),	-- Carrion Essence (QI!)
 							}),
 						},
@@ -329,9 +329,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86517, {	-- Vanished in the Void
 						["sourceQuests"] = { 86514 },	-- Lady of the Pit
 						["provider"] = { "n", 235503 },	-- Arator
-						["coord"] = { 60.8, 73.6, VOIDSTORM },
+						["coord"] = { 60.8, 73.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(529725, {	-- 
+							o(529725, {	--
 								i(240831),	-- Hieron's Journal (QI!)
 							}),
 						},
@@ -339,7 +339,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86515, {	-- Hollow Hunger
 						["sourceQuests"] = { 86514 },	-- Lady of the Pit
 						["provider"] = { "n", 235504 },	-- Lothraxion
-						["coord"] = { 60.7, 73.6, VOIDSTORM },
+						["coord"] = { 60.7, 73.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260867),	-- Breastplate of the Colossal Behemoths
 							i(260864),	-- Hazy Penumbral Mantle
@@ -355,10 +355,10 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86517,	-- Vanished in the Void
 						},
 						["provider"] = { "n", 235502 },	-- Alleria Windrunner
-						["coord"] = { 60.8, 73.6, VOIDSTORM },
+						["coord"] = { 60.8, 73.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--[[------ Stay awhile and listen ------
-					hqt(XXXX, {	-- Stay awhile and listen: Lothraxion 
+					hqt(XXXX, {	-- Stay awhile and listen: Lothraxion
 						["name"] = "Stay awhile and listen: Lothraxion ",
 						["description"] = "Dialogue becomes available during 'The Mantle of Predation' (86518).",
 						["sourceQuests"] = {
@@ -366,14 +366,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							86515,	-- Hollow Hunger
 							86517,	-- Vanished in the Void
 						},
-						["provider"] = { "n", 235504 },	-- Lothraxion 
-						["coord"] = { 60.7, 73.6, VOIDSTORM },
+						["provider"] = { "n", 235504 },	-- Lothraxion
+						["coord"] = { 60.7, 73.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--]]--
 					q(86519, {	-- Abyssus, Abyssum
 						["sourceQuests"] = { 86518 },	-- The Mantle of Predation
 						["provider"] = { "n", 235715 },	-- Alleria Windrunner
-						["coord"] = { 60.3, 76.4, VOIDSTORM },
+						["coord"] = { 60.3, 76.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(256214),	-- Boots of Infinite Gravity (TODO: bugged, rewards only armor type you are on)
 						},
@@ -381,26 +381,26 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(86520, {	-- Hunt the Light
 						["sourceQuests"] = { 86519 },	-- Abyssus, Abyssum
 						["provider"] = { "n", 239574 },	-- Alleria Windrunner
-						["coord"] = { 60.1, 76.2, VOIDSTORM },
+						["coord"] = { 60.1, 76.2, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(86521, {	-- Nexus-Point Xenas: Eclipse
 						["sourceQuests"] = { 86520 },	-- Hunt the Light
 						["provider"] = { "n", 235763 },	-- Alleria Windrunner
-						["coord"] = { 64.1, 61.8, VOIDSTORM },
+						["coord"] = { 64.1, 61.8, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--[[------ Stay awhile and listen ------
-					hqt(XXXX, {	-- Stay awhile and listen: Alleria Windrunner 
+					hqt(XXXX, {	-- Stay awhile and listen: Alleria Windrunner
 						["name"] = "Stay awhile and listen: Alleria Windrunner ",
 						["description"] = "Dialogue becomes available during 'Nexus-Point Xenas: Eclipse' (86521).",
 						["sourceQuests"] = { 86520 },	-- Hunt the Light
 						["provider"] = { "n", 235763 },	-- Alleria Windrunner
-						["coord"] = { 64.1, 61.8, VOIDSTORM },
+						["coord"] = { 64.1, 61.8, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					--]]--
 					q(86522, {	-- Daylight is Breaking
 						["sourceQuests"] = { 86521 },	-- Nexus-Point Xenas: Eclipse
 						["provider"] = { "n", 235765 },	-- Alleria Windrunner
-						["coord"] = { 46.0, 64.6, VOIDSTORM },
+						["coord"] = { 46.0, 64.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 				}),
 			}),
@@ -409,17 +409,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(88755, {	-- Scholarly Pursuits
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 242700 },	-- Kelia Everglow
-						["coord"] = { 35.8, 58.6, VOIDSTORM },
+						["coord"] = { 35.8, 58.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(87388, {	-- A Bigger Beast
 						["sourceQuests"] = { 88755 },	-- Scholarly Pursuits
 						["provider"] = { "n", 236908 },	-- Matrean Dawnfall
-						["coord"] = { 41.1, 61.5, VOIDSTORM },
+						["coord"] = { 41.1, 61.5, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(87391, {	-- Sampling the Local Fare
 						["sourceQuests"] = { 88755 },	-- Scholarly Pursuits
 						["provider"] = { "n", 236930 },	-- Kelia Everglow
-						["coord"] = { 41.2, 61.5, VOIDSTORM },
+						["coord"] = { 41.2, 61.5, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(235632),	-- Exotic Tissue Sample (QI!)
 						},
@@ -430,7 +430,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							87391,	-- Sampling the Local Fare
 						},
 						["provider"] = { "n", 236908 },	-- Matrean Dawnfall
-						["coord"] = { 41.1, 61.5, VOIDSTORM },
+						["coord"] = { 41.1, 61.5, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(87672, {	-- Void is in the Air
 						["sourceQuests"] = {
@@ -438,15 +438,15 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							87391,	-- Sampling the Local Fare
 						},
 						["provider"] = { "n", 236930 },	-- Kelia Everglow
-						["coord"] = { 41.2, 61.5, VOIDSTORM },
+						["coord"] = { 41.2, 61.5, MAP.MIDNIGHT.VOIDSTORM },
 					}),
-					q(88708, {	-- 
+					q(88708, {	--
 						["sourceQuests"] = {
 							87672,	-- Void is in the Air
 							88653,	-- Yolks on You
 						},
 						["provider"] = { "n", 236930 },	-- Kelia Everglow
-						["coord"] = { 41.2, 61.5, VOIDSTORM },
+						["coord"] = { 41.2, 61.5, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(243146),	-- Ren'dorei Struggle (TOY!)
 						},
@@ -456,7 +456,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91145, {	-- The Conquered Heroes
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 245878 },	-- Knight Anais
-						["coord"] = { 51.8, 71.9, VOIDSTORM },
+						["coord"] = { 51.8, 71.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91147, {	-- Cut Her Strings
 						["sourceQuests"] = { 91145 },	-- The Conquered Heroes
@@ -468,13 +468,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 246035 },	-- Knight Anais (TODO: could be 252807)
 						["coord"] = { 56.5, 86.4, SLAYERS_RISE_OUTDOOR },
 						["groups"] = {
-							o(551817, {	-- 
+							o(551817, {	--
 								i(255158),	-- Callum's Tinder Box (QI!)
 							}),
-							o(551773, {	-- 
+							o(551773, {	--
 								i(255159),	-- Callum's Shield (QI!)
 							}),
-							o(551815, {	-- 
+							o(551815, {	--
 								i(255160),	-- Callum's Necklace (QI!)
 							}),
 						},
@@ -492,7 +492,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["provider"] = { "n", 253523 },	-- Knight Anais
 						["coord"] = { 44.8, 90.1, SLAYERS_RISE_OUTDOOR },
 						["groups"] = {
-							o(613324, {	-- 
+							o(613324, {	--
 								i(256135),	-- Light-Infused Tinder Box (QI!)
 							}),
 							i(264289),	-- [DNT] Cloth Gloves
@@ -506,12 +506,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90782, {	-- The Nethersent
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 242233 },	-- Juras the Nethersent
-						["coord"] = { 56.2, 71.9, VOIDSTORM },
+						["coord"] = { 56.2, 71.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90866, {	-- Universal Language
 						["sourceQuests"] = { 90782 },	-- The Nethersent
 						["provider"] = { "n", 241620 },	-- Tul'amar, Twice-Exiled
-						["coord"] = { 39.9, 49.0, VOIDSTORM },
+						["coord"] = { 39.9, 49.0, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(243350),	-- Predator Blood (QI!)
 						},
@@ -519,7 +519,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90872, {	-- Drenched In It
 						["sourceQuests"] = { 90866 },	-- Universal Language
 						["provider"] = { "n", 241620 },	-- Tul'amar, Twice-Exiled
-						["coord"] = { 39.4, 48.0, VOIDSTORM },
+						["coord"] = { 39.4, 48.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90873, {	-- These Violent Delights
 						["sourceQuests"] = { 90872 },	-- Drenched In It
@@ -555,12 +555,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90910, {	-- Overwhelming Darkness (Alex TODO: wrong quest in chain index or breadcrumb?)
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
-						["coord"] = { 42.4, 75.4, VOIDSTORM },
+						["coord"] = { 42.4, 75.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91339, {	-- Smothered in the Crib
 						["sourceQuests"] = { 90910 },	-- Overwhelming Darkness
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
-						["coord"] = { 47.9, 78.6, VOIDSTORM },
+						["coord"] = { 47.9, 78.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(246435),	-- Reliquary of Darkness (QI!)
 						},
@@ -568,7 +568,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91340, {	-- For Violence's Sake
 						["sourceQuests"] = { 90910 },	-- Overwhelming Darkness
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
-						["coord"] = { 47.9, 78.6, VOIDSTORM },
+						["coord"] = { 47.9, 78.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91341, {	-- Unlimited
 						["sourceQuests"] = {
@@ -576,7 +576,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91339,	-- Smothered in the Crib
 						},
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
-						["coord"] = { 47.9, 78.6, VOIDSTORM },
+						["coord"] = { 47.9, 78.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91343, {	-- Ambition's Reward
 						["sourceQuests"] = { 91341 },	-- Unlimited
@@ -591,14 +591,14 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.05, {	-- Pathogenic Problem
-					--[[q(91557, {	-- 
+					--[[q(91557, {	--
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: temp source which lead into zone)
 						["isBreadcrumb"] = true,
 					}),]]--
 					q(91558, {	-- Pestilent Petals
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: fix to 91557 when you find it)
 						["provider"] = { "n", 247664 },	-- Lady Darkglen
-						["coord"] = { 35.9, 48.3, VOIDSTORM },
+						["coord"] = { 35.9, 48.3, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							o(573747, {
 								i(251902),	-- Mature Blood Petal (QI!)
@@ -608,7 +608,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91559, {	-- Virulent Vermin
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: fix to 91557 when you find it)
 						["provider"] = { "n", 247664 },	-- Lady Darkglen
-						["coord"] = { 35.9, 48.3, VOIDSTORM },
+						["coord"] = { 35.9, 48.3, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(251905),	-- Specialized Liver (QI!)
 						},
@@ -619,7 +619,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91559,	-- Virulent Vermin
 						},
 						["provider"] = { "n", 247674 },	-- Lady Darkglen
-						["coord"] = { 34.6, 43.8, VOIDSTORM },
+						["coord"] = { 34.6, 43.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(251905),	-- Specialized Liver (QI!)
 						},
@@ -631,7 +631,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91559,	-- Virulent Vermin
 						},
 						["provider"] = { "n", 254402 },	-- Cured Ren'dorei Scout
-						["coord"] = { 34.7, 43.8, VOIDSTORM },
+						["coord"] = { 34.7, 43.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(251905),	-- Specialized Liver (QI!)
 						},
@@ -642,7 +642,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91560,	-- Expunging Explorers
 						},
 						["provider"] = { "n", 247674 },	-- Lady Darkglen
-						["coord"] = { 34.6, 43.8, VOIDSTORM },
+						["coord"] = { 34.6, 43.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(264300),	-- [DNT] Cloth Belt
 							i(264299),	-- [DNT] Leather Belt
@@ -655,12 +655,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91884, {	-- The Illusion of Motion
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 248881 },	-- Scout Nefina
-						["coord"] = { 41.4, 74.0, VOIDSTORM },
+						["coord"] = { 41.4, 74.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91885, {	-- Drain You
 						["sourceQuests"] = { 91884 },	-- The Illusion of Motion
 						["provider"] = { "n", 248880 },	-- Starving Voidwalker
-						["coord"] = { 48.8, 82.3, VOIDSTORM },
+						["coord"] = { 48.8, 82.3, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(249433),	-- Void Splinter (QI!)
 						},
@@ -668,12 +668,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91886, {	-- Voices of Omens
 						["sourceQuests"] = { 91885 },	-- Drain You
 						["provider"] = { "n", 256206 },	-- Sentient Voidwalker
-						["coord"] = { 48.8, 82.3, VOIDSTORM },
+						["coord"] = { 48.8, 82.3, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91887, {	-- Dominion of Deceit
 						["sourceQuests"] = { 91886 },	-- Voices of Omens
 						["provider"] = { "n", 248894 },	-- Scout Nefina
-						["coord"] = { 44.6, 82.3, VOIDSTORM },
+						["coord"] = { 44.6, 82.3, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(264434),	-- Voldy (PET!)
 						},
@@ -733,8 +733,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 						["groups"] = {
 							i(256694, {	-- Bone Splinter (QI!)
 								["providers"] = {
-									{ "o", 578030 },	-- 
-									{ "o", 589095 },	-- 
+									{ "o", 578030 },	--
+									{ "o", 589095 },	--
 								},
 							}),
 						},
@@ -788,17 +788,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(92657, {	-- The Brewing Storm
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 254510 },	-- Lysikas
-						["coord"] = { 36.0, 59.9, VOIDSTORM },
+						["coord"] = { 36.0, 59.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(92658, {	-- Tactical Acquisition
 						["sourceQuests"] = { 92657 },	-- The Brewing Storm
 						["provider"] = { "n", 254509 },	-- Lysikas
-						["coord"] = { 26.3, 68.4, VOIDSTORM },
+						["coord"] = { 26.3, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(257728, {	-- Condensed Void Shard (QI!)
 								["providers"] = {
-									{ "o", 609910 },	-- 
-									{ "o", 580092 },	-- 
+									{ "o", 609910 },	--
+									{ "o", 580092 },	--
 								},
 							}),
 						},
@@ -806,7 +806,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(92659, {	-- Materiel Destruction
 						["sourceQuests"] = { 92657 },	-- The Brewing Storm
 						["provider"] = { "n", 254509 },	-- Lysikas
-						["coord"] = { 26.3, 68.4, VOIDSTORM },
+						["coord"] = { 26.3, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(92660, {	-- Null Implements
 						["sourceQuests"] = {
@@ -814,15 +814,15 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							92658,	-- Tactical Acquisition
 						},
 						["provider"] = { "n", 252947 },	-- Lysikas
-						["coord"] = { 35.7, 66.8, VOIDSTORM },
+						["coord"] = { 35.7, 66.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(580095, {	-- 
+							o(580095, {	--
 								i(257729),	-- Null Stabilizer (QI!)
 							}),
-							o(580096, {	-- 
+							o(580096, {	--
 								i(257730),	-- Voidway Energist (QI!)
 							}),
-							o(580097, {	-- 
+							o(580097, {	--
 								i(257731),	-- Singularity Forceps (QI!)
 							}),
 						},
@@ -833,7 +833,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							92658,	-- Tactical Acquisition
 						},
 						["provider"] = { "n", 252949 },	-- Riftblade Maella
-						["coord"] = { 35.7, 66.9, VOIDSTORM },
+						["coord"] = { 35.7, 66.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(92662, {	-- Core Collapse
 						["sourceQuests"] = {
@@ -841,7 +841,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							92660,	-- Null Implements
 						},
 						["provider"] = { "n", 254513 },	-- Riftblade Maella
-						["coord"] = { 31.2, 68.2, VOIDSTORM },
+						["coord"] = { 31.2, 68.2, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(260590),	-- Maella's Stormarion Core (QI!)
 							i(264325),	-- [DNT] Cloth Pauldrons
@@ -859,18 +859,18 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(92948),]]--
 				}),
 				header(HEADERS.AchCriteria, 61864.12, {	-- Oaths to Family
-					--[[q(90838, {	-- 
+					--[[q(90838, {	--
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", XXXX },	-- XXXXX
-						["coord"] = { X, Y, VOIDSTORM },
+						["coord"] = { X, Y, MAP.MIDNIGHT.VOIDSTORM },
 						["isBreadcrumb"] = true,
 					}),]]--
 					q(90845, {	-- Distant Memories
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: temo source, fix to 90838 when you find it)
 						["provider"] = { "n", 244499 },	-- Kifaan
-						["coord"] = { 44.7, 68.6, VOIDSTORM },
+						["coord"] = { 44.7, 68.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(542839, {	-- 
+							o(542839, {	--
 								i(244775),	-- K'areshi Keepsake (QI!)
 							}),
 						},
@@ -878,7 +878,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90844, {	-- Fits of Lucidity
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: temo source, fix to 90838 when you find it)
 						["provider"] = { "n", 244499 },	-- Kifaan
-						["coord"] = { 44.7, 68.6, VOIDSTORM },
+						["coord"] = { 44.7, 68.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(244146),	-- Interrogated Data (QI!)
 						},
@@ -889,7 +889,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							90844,	-- Fits of Lucidity
 						},
 						["provider"] = { "n", 244499 },	-- Kifaan
-						["coord"] = { 44.7, 68.6, VOIDSTORM },
+						["coord"] = { 44.7, 68.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(245628),	-- Dreamfire's Necklace (QI!)
 						},
@@ -897,17 +897,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90848, {	-- She Started the Fire
 						["sourceQuests"] = { 90847 },	-- Truth From Power
 						["provider"] = { "n", 244499 },	-- Kifaan
-						["coord"] = { 44.7, 68.6, VOIDSTORM },
+						["coord"] = { 44.7, 68.6, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90851, {	-- Eating Their Own
 						["sourceQuests"] = { 90848 },	-- She Started the Fire
 						["provider"] = { "n", 244516 },	-- Kifaan
-						["coord"] = { 37.7, 48.4, VOIDSTORM },
+						["coord"] = { 37.7, 48.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90852, {	-- Techno Magnetic Pulse
 						["sourceQuests"] = { 90848 },	-- She Started the Fire
 						["provider"] = { "n", 244516 },	-- Kifaan
-						["coord"] = { 37.7, 48.4, VOIDSTORM },
+						["coord"] = { 37.7, 48.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(93396, {	-- Bursting at the Seams
 						["sourceQuests"] = {
@@ -915,17 +915,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							90851,	-- Eating Their Own
 						},
 						["provider"] = { "n", 244516 },	-- Kifaan
-						["coord"] = { 36.3, 44.0, VOIDSTORM },
+						["coord"] = { 36.3, 44.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90858, {	-- Repress the Oppressors
 						["sourceQuests"] = { 93396 },	-- Bursting at the Seams
 						["provider"] = { "n", 244522 },	-- Veraan
-						["coord"] = { 36.3, 44.0, VOIDSTORM },
+						["coord"] = { 36.3, 44.0, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90860, {	-- Shedding the Yoke
 						["sourceQuests"] = { 90858 },	-- Bursting at the Seams
 						["provider"] = { "n", 244522 },	-- Veraan
-						["coord"] = { 37.4, 39.5, VOIDSTORM },
+						["coord"] = { 37.4, 39.5, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(264407),	-- [DNT] Cloth Pants
 							i(264408),	-- [DNT] Leather Pants
@@ -938,20 +938,20 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91533, {	-- What We Leave Behind (Alex TODO: questchain order reversed in wago table, chain bugged in 63967)
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 249034 },	-- Riftwalker Sideras
-						["coord"] = { 53.7, 69.9, VOIDSTORM },
+						["coord"] = { 53.7, 69.9, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(567709, {	-- 
+							o(567709, {	--
 								i(248209),	-- A Worn Envelope (QI!)
-								i(248207),	-- Hieron's Journal (QI!) 
+								i(248207),	-- Hieron's Journal (QI!)
 							}),
 						},
 					}),
 					q(91535, {	-- Home Sweet Grave
 						["sourceQuests"] = { 91533 },	-- What We Leave Behind
 						["provider"] = { "n", 248616 },	-- Riftblade Astre
-						["coord"] = { 41.8, 74.8, VOIDSTORM },
+						["coord"] = { 41.8, 74.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(555428, {	-- 
+							o(555428, {	--
 								i(248241),	-- Ghostflower Leaves (QI!)
 							}),
 						},
@@ -959,7 +959,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91536, {	-- Like a Weed
 						["sourceQuests"] = { 91533 },	-- What We Leave Behind
 						["provider"] = { "n", 248616 },	-- Riftblade Astre
-						["coord"] = { 41.8, 74.8, VOIDSTORM },
+						["coord"] = { 41.8, 74.8, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91537, {	-- Confronting It
 						["sourceQuests"] = {
@@ -967,17 +967,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							91536,	-- Like a Weed
 						},
 						["provider"] = { "n", 248616 },	-- Riftblade Astre
-						["coord"] = { 41.9, 74.5, VOIDSTORM },
+						["coord"] = { 41.9, 74.5, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91541, {	-- Unchecked Emotions
 						["sourceQuests"] = { 91537 },	-- Confronting It
 						["provider"] = { "n", 248616 },	-- Riftblade Astre
-						["coord"] = { 41.9, 74.5, VOIDSTORM },
+						["coord"] = { 41.9, 74.5, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91542, {	-- The Town Inside Me
 						["sourceQuests"] = { 91541 },	-- Unchecked Emotions
 						["provider"] = { "n", 248072 },	-- Riftblade Astre
-						["coord"] = { 52.1, 69.6, VOIDSTORM },
+						["coord"] = { 52.1, 69.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(248722),	-- Ghostflower Tea (QI!)
 						},
@@ -994,7 +994,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90914, {	-- A Born Killer
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 243907 },	-- Decimus
-						["coord"] = { 51.2, 68.4, VOIDSTORM },
+						["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(248086),	-- Void Essence (QI!)
 						},
@@ -1002,9 +1002,9 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90915, {	-- Artifice of Aggression
 						["sourceQuests"] = { 90914 },	-- A Born Killer
 						["provider"] = { "n", 243907 },	-- Decimus
-						["coord"] = { 51.2, 68.4, VOIDSTORM },
+						["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(565238, {	-- 
+							o(565238, {	--
 								i(248281),	-- Light Shard (QI!)
 							}),
 						},
@@ -1012,12 +1012,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90916, {	-- Seek to Destroy
 						["sourceQuests"] = { 90915 },	-- Artifice of Aggression
 						["provider"] = { "n", 243907 },	-- Decimus
-						["coord"] = { 51.2, 68.4, VOIDSTORM },
+						["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90917, {	-- Harvester of Savagery
 						["sourceQuests"] = { 90916 },	-- Seek to Destroy
 						["provider"] = { "n", 244929 },	-- Decimus
-						["coord"] = { 61.3, 61.9, VOIDSTORM },
+						["coord"] = { 61.3, 61.9, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(248593),	-- Nascent Blade (QI!)
 						},
@@ -1025,7 +1025,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(90918, {	-- The Unforgiven
 						["sourceQuests"] = { 90916 },	-- Seek to Destroy
 						["provider"] = { "n", 244929 },	-- Decimus
-						["coord"] = { 61.3, 61.9, VOIDSTORM },
+						["coord"] = { 61.3, 61.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90919, {	-- The Fiend that Failed
 						["sourceQuests"] = {
@@ -1033,22 +1033,22 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							90917,	-- Harvester of Savagery
 						},
 						["provider"] = { "n", 244929 },	-- Decimus
-						["coord"] = { 61.3, 61.9, VOIDSTORM },
+						["coord"] = { 61.3, 61.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90920, {	-- Warmth for the Soul
 						["sourceQuests"] = { 90919 },	-- The Fiend that Failed
 						["provider"] = { "n", 244948 },	-- Decimus
-						["coord"] = { 59.1, 56.7, VOIDSTORM },
+						["coord"] = { 59.1, 56.7, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90923, {	-- Shepherd of Fear
 						["sourceQuests"] = { 90920 },	-- Warmth for the Soul
 						["provider"] = { "n", 244948 },	-- Decimus
-						["coord"] = { 59.1, 56.7, VOIDSTORM },
+						["coord"] = { 59.1, 56.7, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90922, {	-- The Fallen Wake
 						["sourceQuests"] = { 90920 },	-- Warmth for the Soul
 						["provider"] = { "n", 251891 },	-- Lingering Shade (mobileNPC)
-						--["coord"] = { 59.1, 56.7, VOIDSTORM },
+						--["coord"] = { 59.1, 56.7, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(90924, {	-- The Wicked End
 						["sourceQuests"] = {
@@ -1056,17 +1056,17 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 							90923,	-- Shepherd of Fear
 						},
 						["provider"] = { "n", 252853 },	-- Decimus
-						["coord"] = { 47.3, 49.1, VOIDSTORM },
+						["coord"] = { 47.3, 49.1, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							ach(61569),	-- Fool Me Once...
-							i(264425),	-- [DNT] 
+							i(264425),	-- [DNT]
 							i(264426),	-- [DNT] Agility Mace
-							i(264427),	-- [DNT] 
-							i(264428),	-- [DNT] 
+							i(264427),	-- [DNT]
+							i(264428),	-- [DNT]
 							i(264429),	-- [DNT] Agility Sword
-							i(264430),	-- [DNT] 
-							i(264431),	-- [DNT] 
-							i(264432),	-- [DNT] 
+							i(264430),	-- [DNT]
+							i(264431),	-- [DNT]
+							i(264432),	-- [DNT]
 							--TODO: there qna in the end - I'm not sure if there could be some hqts with them
 						},
 					}),
@@ -1075,7 +1075,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91363, {	-- Harvest of Darkness
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 246727 },	-- Ravenia
-						["coord"] = { 52.1, 67.4, VOIDSTORM },
+						["coord"] = { 52.1, 67.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(246372),	-- Void-Infused Protein (QI!)
 							o(556121, {
@@ -1086,12 +1086,12 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 					q(91380, {	-- Belly of the Beast
 						["sourceQuests"] = { 91363 },	-- Harvest of Darkness
 						["provider"] = { "n", 246727 },	-- Ravenia
-						["coord"] = { 52.1, 67.4, VOIDSTORM },
+						["coord"] = { 52.1, 67.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 					q(91382, {	-- Mighty and Superior
 						["sourceQuests"] = { 91380 },	-- Belly of the Beast
 						["provider"] = { "n", 246727 },	-- Ravenia
-						["coord"] = { 52.1, 67.4, VOIDSTORM },
+						["coord"] = { 52.1, 67.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
 				}),
 			}),
@@ -1106,7 +1106,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			q(93970, {	-- Researching the Storm
 				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 				["provider"] = { "n", 248328 },	-- Void Researcher Anomander
-				["coord"] = { 52.6, 72.9, VOIDSTORM },
+				["coord"] = { 52.6, 72.9, MAP.MIDNIGHT.VOIDSTORM },
 				["groups"] = {
 					currency(3400),	-- Uncontaminated Void Sample
 					--spell(1225312),	-- Amassing Voidlust
@@ -1117,7 +1117,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			q(92505, {	-- Truth of the Past
 				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 				["provider"] = { "n", 252110 },	-- Leona Darkstrider
-				["coord"] = { 53.2, 70.4, VOIDSTORM },
+				["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
 			}),
 			q(92506, {	-- The Soul Price
 				["sourceQuests"] = { 92505 },	-- Truth of the Past
@@ -1139,13 +1139,13 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 			q(93810, {	-- Masters' Perch
 				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 				["provider"] = { "n", 254765 },	-- Perodius
-				["coord"] = { 51.4, 67.6, VOIDSTORM },
+				["coord"] = { 51.4, 67.6, MAP.MIDNIGHT.VOIDSTORM },
 			}),
 			--Delve
 			q(93428, {	-- Delver's Call: Shadowguard Point
 				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 				--["provider"] = { "o", XXXXX },	-- Shadowguard Point
-				["coord"] = { 37.6, 51.9, VOIDSTORM },
+				["coord"] = { 37.6, 51.9, MAP.MIDNIGHT.VOIDSTORM },
 			}),
 			--Slayer's Rise
 			q(91197, {	-- Collecting Remains
@@ -1154,7 +1154,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["coord"] = { 37.9, 83.2, SLAYERS_RISE_OUTDOOR },
 				["isDaily"] = true,
 				["groups"] = {
-					o(554772, {	-- 
+					o(554772, {	--
 						i(245937),	-- Void-Tainted Remains (QI!)
 					}),
 				},
@@ -1165,7 +1165,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				["coord"] = { 37.9, 83.2, SLAYERS_RISE_OUTDOOR },
 				["isWeekly"] = true,
 				["groups"] = {
-					o(554772, {	-- 
+					o(554772, {	--
 						i(245937),	-- Void-Tainted Remains (QI!)
 					}),
 				},
@@ -1183,8 +1183,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	}),
 }));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
-		m(VOIDSTORM, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
+		m(MAP.MIDNIGHT.VOIDSTORM, {
 			n(QUESTS, {
 				-- During questing
 				--q(89196),	-- Zone Choice Made (spellID 1254861), same hqt as previously.

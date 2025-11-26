@@ -1,24 +1,24 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 	n(QUESTS, {
 		header(HEADERS.Achievement, 41805, {	-- Arator's Journey
 			header(HEADERS.AchCriteria, 41805.01, {	-- The Path of Light
 				q(89193, {	-- Arator
 					--["sourceQuests"] = { XX },	-- XX
 					["provider"] = { "n", 240523 },	-- Scouting Map
-					["coord"] = { 45.5, 70.4, SILVERMOON_CITY_MID },
+					["coord"] = { 45.5, 70.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(86837, {	-- Meet at the Sunwell
 					["sourceQuests"] = { 89193 },	-- Arator
 					["provider"] = { "n", 237565 },	-- Alonsus Faol
-					["coord"] = { 45.8, 65.8, SILVERMOON_CITY_MID },
+					["coord"] = { 45.8, 65.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(86838, {	-- Renewal for the Weary
 					["sourceQuests"] = { 89193 },	-- Arator
 					["provider"] = { "n", 240240 },	-- Alonsus Faol
-					["coord"] = { 52.9, 55.2, ISLE_OF_QUELDANAS_MID },
+					["coord"] = { 52.9, 55.2, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
 					["groups"] = {
 						i(237811),	-- Faol's Benediction (QI!)
 						i(251274),	-- Gloves of Renewal
@@ -33,13 +33,13 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				--	["description"] = "Dialogue becomes available during 'Renewal for the Weary' (86838).",
 				--	["sourceQuests"] = { 86837 },	-- Meet at the Sunwell
 				--	["provider"] = { "n", 240240 },	-- Alonsus Faol
-				--	["coord"] = { 52.9, 55.2, ISLE_OF_QUELDANAS_MID },
+				--	["coord"] = { 52.9, 55.2, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
 				--}),
 				--
 				q(86839, {	-- To Light's Hope
 					["sourceQuests"] = { 86838 },	-- Renewal for the Weary
 					["provider"] = { "n", 240240 },	-- Alonsus Faol
-					["coord"] = { 52.9, 55.2, ISLE_OF_QUELDANAS_MID },
+					["coord"] = { 52.9, 55.2, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
 				}),
 				q(86840, {	-- Flickering Hope
 					["sourceQuests"] = { 86839 },	-- To Light's Hope
@@ -103,16 +103,16 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 						i(237576),	-- Benthar's Scarlet Spire (QI!)
 						i(237579),	-- Meyer's Rod of Castigation (QI!)
 						--rewards after turn in
-						i(251724),	-- 
-						i(251725),	-- 
-						i(251726),	-- 
-						i(251727),	-- 
-						i(251728),	-- 
-						i(251729),	-- 
-						i(251730),	-- 
-						i(251731),	-- 
-						i(251732),	-- 
-						i(251733),	-- 
+						i(251724),	--
+						i(251725),	--
+						i(251726),	--
+						i(251727),	--
+						i(251728),	--
+						i(251729),	--
+						i(251730),	--
+						i(251731),	--
+						i(251732),	--
+						i(251733),	--
 						i(251734),	--
 					},
 				}),
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(86902, {	-- Relinquishing Relics
 					["sourceQuests"] = { 92136 },	-- Relic Delivery
 					["provider"] = { "n", 251355 },	-- Alonsus Faol
-					["coord"] = { 52.6, 55.9, ISLE_OF_QUELDANAS_MID },
+					["coord"] = { 52.6, 55.9, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
 					["groups"] = {
 						i(251774, {	-- Crate of Holy Relics
 							i(251775),	-- Empty Crate of Relics
@@ -137,7 +137,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(86845, {	-- Follow the Light
 					["sourceQuests"] = { 86902 },	-- Relinquishing Relics
 					["provider"] = { "n", 251355 },	-- Alonsus Faol
-					["coord"] = { 52.6, 55.9, ISLE_OF_QUELDANAS_MID },
+					["coord"] = { 52.6, 55.9, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
 				}),
 				q(86846, {	-- Resupplying our Suppliers
 					["sourceQuests"] = { 86845 },	-- Follow the Light
@@ -294,12 +294,12 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(86833, {	-- A Bulwark Remade
 					["sourceQuests"] = { 86832 },	-- To Silvermoon
 					["provider"] = { "n", 237511 },	-- Alonsus Faol
-					["coord"] = { 45.8, 65.5, SILVERMOON_CITY_MID },
+					["coord"] = { 45.8, 65.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(86903, {	-- The Arcantina (TODO: should this be considered as sourceQuest for Arcantina?)
 					["sourceQuests"] = { 86833 },	-- A Bulwark Remade
 					["provider"] = { "n", 253125 },	-- Kurdran Wildhammer
-					["coord"] = { 45.8, 65.5, SILVERMOON_CITY_MID },
+					["coord"] = { 45.8, 65.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["maps"] = { ARCANTINA },
 					["groups"] = {
 						i(248131),	-- Key to the Arcantina (QI!) (but you keep it after quest as tp into zone?)
@@ -317,7 +317,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 		q(91854, {	-- Deepening Shadows
 			["sourceQuests"] = { 91787 },	-- The Journey Ends
 			["provider"] = { "n", 248631 },	-- Commander Koruth Mountainfist
-			["coord"] = { 51.9, 60.8, SILVERMOON_CITY_MID },
+			["coord"] = { 51.9, 60.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["groups"] = {
 				--Alex TODO: bug out and npc fade out, probably it is part of other quest chain or 90s campgain, idk
 			},
@@ -327,17 +327,17 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(91822, {	-- The Regent's Request
 					--["sourceQuests"] = { XX },	-- XX
 					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
-					["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+					["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(91823, {	-- Lines Cut, Tongues Silenced
 					["sourceQuests"] = { 91822 },	-- The Regent's Request
 					["provider"] = { "n", 248750 },	-- Valeera Sanguinar
-					["coord"] = { 61.9, 68.3, EVERSONG_WOODS_MID },
+					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				}),
 				q(91824, {	-- The Thieves' Trail
 					["sourceQuests"] = { 91822 },	-- The Regent's Request
 					["provider"] = { "n", 248750 },	-- Valeera Sanguinar
-					["coord"] = { 61.9, 68.3, EVERSONG_WOODS_MID },
+					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
 						i(248614),	-- Quel'dorel Artifact (QI!)
 					},
@@ -345,7 +345,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(91825, {	-- Dead Men Keep No Secrets
 					["sourceQuests"] = { 91822 },	-- The Regent's Request
 					["provider"] = { "n", 248750 },	-- Valeera Sanguinar
-					["coord"] = { 61.9, 68.3, EVERSONG_WOODS_MID },
+					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
 						i(248615),	-- Infiltrator's Cache (QI!)
 					},
@@ -357,9 +357,9 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 						91824,	-- The Thieves' Trail
 					},
 					["provider"] = { "n", 248874 },	-- Valeera Sanguinar
-					["coord"] = { 61.9, 68.3, EVERSONG_WOODS_MID },
+					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
-						o(566101, {	-- 
+						o(566101, {	--
 							i(248720),	-- Stolen Documents (QI!)
 						}),
 					},
@@ -367,24 +367,24 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(91827, {	-- No Loose Ends
 					["sourceQuests"] = { 91826 },	-- Tripwire Tango
 					["provider"] = { "n", 248874 },	-- Valeera Sanguinar
-					["coord"] = { 61.9, 68.3, EVERSONG_WOODS_MID },
+					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 60891.02, {	-- A Favor for the Lion
 				q(91828, {	-- A Favor for the Lion
 					["sourceQuests"] = { 91827 },	-- No Loose Ends (TODO: could be wrong)
 					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
-					["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+					["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(91829, {	-- One by One
 					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
 					["provider"] = { "n", 248982 },	-- Valeera Sanguinar
-					["coord"] = { 40.4, 71.7, ZULAMAN_MID },
+					["coord"] = { 40.4, 71.7, MAP.MIDNIGHT.ZULAMAN },
 				}),
 				q(91830, {	-- Intercepted
 					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
 					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
-					--["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
 						o(2567202, {
 							 i(248928),	-- Cult Orders (QI!)
@@ -394,7 +394,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 				q(91831, {	-- Keys Are Optional
 					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
 					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
-					--["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(91918, {	-- Delves: Measure Once, Cut Twice
 					["sourceQuests"] = {
@@ -403,7 +403,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 						91829,	-- One by One
 					},
 					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
-					--["coord"] = { 52.5, 78.3, SILVERMOON_CITY_MID },
+					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 			}),
 		}),
@@ -411,7 +411,7 @@ root(ROOTS.Zones, m(MIDNIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(QUESTS, {
 			-- During questing
 			q(89196),	-- Zone Choice Made (spellID 1254861), after accepting questID 89193 (Arator)

@@ -5,27 +5,27 @@
 local function bo(questID, isDaily)
     return { ["questID"] = questID, ["isDaily"] = isDaily };
 end
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(VOIDSTORM, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.VOIDSTORM, {
 	--	n(RARES, sharedData({ ["isDaily"] = true }, {
 	--	})),
 		n(RARES, {
 			n(256924, {	-- Aeonelle Blackstar
-				["coord"] = { 39.2, 64.0, VOIDSTORM },
+				["coord"] = { 39.2, 64.0, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(256923, {	-- Bane of the Vilebloods
-				["coord"] = { 48.3, 78.3, VOIDSTORM },
+				["coord"] = { 48.3, 78.3, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(256770, {	-- Bilemaw the Gluttonous
-				["coord"] = { 35.5, 50.2, VOIDSTORM },
+				["coord"] = { 35.5, 50.2, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			n(256821, {	-- Far'thana the Mad
-				["coord"] = { 53.8, 62.7, VOIDSTORM },
+				["coord"] = { 53.8, 62.7, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
@@ -57,35 +57,35 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				},
 			}),
 			n(256925, {	-- Lotus Darkblossom
-				["coord"] = { 37.9, 71.8, VOIDSTORM },
+				["coord"] = { 37.9, 71.8, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(245044, {	-- Nightbrood
-				["coord"] = { 40.1, 41.3, VOIDSTORM },
+				["coord"] = { 40.1, 41.3, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(256808, {	-- Ravengerus
-				["coord"] = { 49.2, 52.9, VOIDSTORM },	-- a bit off, didn't kill it
+				["coord"] = { 49.2, 52.9, MAP.MIDNIGHT.VOIDSTORM },	-- a bit off, didn't kill it
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(244272, {	-- Sundereth the Caller
-				["coord"] = { 29.5, 50.1, VOIDSTORM },
+				["coord"] = { 29.5, 50.1, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table
 				},
 			}),
 			n(238498, {	-- Territorial Voidscythe
-				["coord"] = { 34.1, 82.1, VOIDSTORM },
+				["coord"] = { 34.1, 82.1, MAP.MIDNIGHT.VOIDSTORM },
 				--["questID"] = XXXX,	-- missing questID
 				["groups"] = {
 					--no loot table

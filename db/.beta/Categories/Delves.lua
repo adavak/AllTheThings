@@ -63,7 +63,7 @@ crit(102781,{achID=41530,id=1,providers={a[2]},u=2}),
 crit(102780,{achID=41530,id=2,providers={a[3]},u=2}),
 crit(102784,{achID=40438,awp=110000,id=6})}})}}),
 q(86407,{isWeekly=1,providers={a[2],a[3]},type="hqt"})}}),
-q(87286,{isWeekly=1,providers={{"i",233186},{"o",507768},{"n",236942}},type="hqt"})}}),
+q(87286,{isWeekly=1,providers={{"i",233186},{"n",236942},{"o",507768}},type="hqt"})}}),
 h(-385,{awp=110200,g={
 h(-12,{rwp=120000,u=2,g={
 ach(42779,{crs=a[30],maps=a[11],u=2,g={
@@ -945,7 +945,7 @@ q(91780,{awp=110200,lvl=80,rwp=120000,u=2}),
 q(91781,{awp=110200,coords={a[33]},lvl=70,qgs=a[8],rwp=120000,sourceQuests={91780},u=2,g={
 i(248127,{b=1,f=55,lvl=80,questID=91783,u=2}),
 i(248126,{b=1,f=55,lvl=80,questID=91784,u=2})}}),
-q(91782,{awp=110200,coords={a[33]},lvl=70,qgs=a[8],rwp=120000,sourceQuests={91781},u=2,g={
+q(91782,{awp=110200,coords={a[33]},lvl=70,maps={2472},qgs=a[8],rwp=120000,sourceQuests={91781},u=2,g={
 o(563555,{coords={{47.5,44.4,2339}},u=2}),
 o(564545,{coords={{47.1,19.9,2472}},u=2,g={
 i(248129,{lvl=80,u=2})}}),
@@ -1585,7 +1585,7 @@ i(210981,{spellID=427849})}),
 cq(90951,{awp=110107,b=1,itemID=244903,spellID=1238257}),
 i(211209,{spellID=428379})}),
 h(-45,{
-q(83759,{coords={a[35],{35.6,27.1,2250}},lvl=70,providers={a[5],{"o",455713}}})}),
+q(83759,{coords={a[35],{35.6,27.1,2250}},lvl=70,providers={{"o",455713},a[5]}})}),
 h(-56,{awp=110000,g={
 o(455510,{coords={{46.2,19.8,2250}},questID=83665,g={
 crit(69525,{achID=40807,id=2})}}),

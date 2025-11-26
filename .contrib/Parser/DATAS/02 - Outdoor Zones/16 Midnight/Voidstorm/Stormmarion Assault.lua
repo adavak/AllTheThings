@@ -9,14 +9,14 @@ STORMMARION_ASSAULT = createHeader({
 	},
 });
 
-root(ROOTS.Zones, m(MIDNIGHT, {
-	m(VOIDSTORM, {
+root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
+	m(MAP.MIDNIGHT.VOIDSTORM, {
 		n(STORMMARION_ASSAULT, {
 			n(ACHIEVEMENTS, {
 			}),
 			n(EVENT_COMPLETION, {
 				o(560325, {	-- Core Chest
-					["coord"] = { 26.8, 67.9, VOIDSTORM },
+					["coord"] = { 26.8, 67.9, MAP.MIDNIGHT.VOIDSTORM },
 					["questID"] = 91719,
 					["isWeekly"] = true,
 					["groups"] = {
@@ -25,7 +25,7 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 				}),
 			}),
 			n(ZONE_REWARDS, {
-				o(618828, {	-- 
+				o(618828, {	--
 					i(264506),	-- Stormarion Fragment
 				}),
 			}),
@@ -33,8 +33,8 @@ root(ROOTS.Zones, m(MIDNIGHT, {
 	}),
 }));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MIDNIGHT, {
-		m(VOIDSTORM, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
+		m(MAP.MIDNIGHT.VOIDSTORM, {
 			n(STORMMARION_ASSAULT, {
 				n(QUESTS, {
 					--q(91938),	-- either prep state or wave 1 (unflagged 54781 (unknown hqt))

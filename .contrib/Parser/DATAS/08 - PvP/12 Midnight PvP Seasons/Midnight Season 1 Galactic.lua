@@ -83,7 +83,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 		})),
 		--]]n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
 			n(243224, {	-- Knight-Lord Bloodvalor <War Mode Quartermaster>
-				["coord"] = { 34.1, 81.7, SILVERMOON_CITY_MID },
+				["coord"] = { 34.1, 81.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 				--[[["groups"] = {
 					filter(BACK_F, {
 						bloody(525, i(255914)),	-- Galactic Warmonger's Cape
@@ -160,7 +160,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 		})),
 		n(PVP_ASPIRANT, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
 			n(243221, {	-- Captain Dawnrunner <Honor Quartermaster>
-				["coord"] = { 34.0, 81.0, SILVERMOON_CITY_MID },
+				["coord"] = { 34.0, 81.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 				--[[ ["groups"] = {
 					filter(BACK_F, {
 						honor(525, i(255339)),	-- Galactic Aspirant's Cape
@@ -281,7 +281,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 		})),
 		n(PVP_GLADIATOR, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0_SEASONSTART, REMOVED_12_1_0 } }, {
 			n(243220, {	-- Irissa Bloodstar <Conquest Quartermaster>
-				["coord"] = { 34.1, 80.4, SILVERMOON_CITY_MID },
+				["coord"] = { 34.1, 80.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["ItemAppearanceModifierID"] = 159,
 				--[[ ["groups"] = {
 					n(CLASSES, {
@@ -617,7 +617,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			}),
 			o(456208, {	-- The Catalyst
 				["description"] = "Help us gather information of what is/isn't available via doing reports in ATT Discord. Especially the alternative sets and if the PvP transmog is available somewhere else.",
-				["coord"] = { 40.3, 65.1, SILVERMOON_CITY_MID },
+				["coord"] = { 40.3, 65.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["modelScale"] = 4,
 			--	["catalystID"] = 11,	-- ItemBonus.Value_0 TWW:S3
 				["groups"] = bubbleDown({ ["modID"] = 14 }, {
@@ -682,7 +682,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				}),
 			}),
 			n(255844, {	-- Soryn <Elite Conquest Quartermaster>
-				["coord"] = { 34.0, 80.7, SILVERMOON_CITY_MID },
+				["coord"] = { 34.0, 80.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = {
 				--[[honor(100, i(264164, {	-- Galactic Gladiator's Tabard
 						["sourceAchievements"] = { 41027 },	-- Elite: Midnight Season 1
