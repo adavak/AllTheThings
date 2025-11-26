@@ -260,30 +260,35 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 			ach(42160, {	-- The War Within Season 3: Resilient Keystone 23
 				["_noautomation"] = true,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Floodgate 23 not possible
 			}),
 			ach(42161, {	-- The War Within Season 3: Resilient Keystone 24
 				["_noautomation"] = true,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 			ach(42162, {	-- The War Within Season 3: Resilient Keystone 25
 				["_noautomation"] = true,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 			ach(42802, {	-- The War Within Season 3: Resilient Keystone 26
 				["_noautomation"] = true,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 			ach(42803, {	-- The War Within Season 3: Resilient Keystone 27
 				["_noautomation"] = true,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 			ach(42804, {	-- The War Within Season 3: Resilient Keystone 28
 				["_noautomation"] = true,
-				["collectible"] = false,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 			ach(42805, {	-- The War Within Season 3: Resilient Keystone 29
 				["_noautomation"] = true,
-				["collectible"] = false,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 			ach(42806, {	-- The War Within Season 3: Resilient Keystone 30
 				["_noautomation"] = true,
-				["collectible"] = false,
+				["timeline"] = { ADDED_11_2_0, REMOVED_11_2_0 },	-- Impossible to complete
 			}),
 		})),
 		n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
