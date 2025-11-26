@@ -391,6 +391,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 						19177,	-- Troll Commoner
 						19178,	-- Forsaken Commoner
 						20102,	-- Goblin Commoner
+						-- #if AFTER TWW
+						220870,	-- Holiday Enthusiast
+						220307,	-- Holiday Enthusiast
+						-- #endif
 					},
 					["maps"] = {
 						NORTHERN_BARRENS,
@@ -405,6 +409,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 						THE_STORM_PEAKS,
 						NORTHREND_DALARAN,
 						THE_CAPE_OF_STRANGLETHORN,
+						-- #if AFTER TWW
+						DORNOGAL,
+						-- #endif
 					},
 					["races"] = HORDE_ONLY,
 					["isYearly"] = true,
@@ -478,7 +485,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 				q(14058, {	-- She Says Potato (Horde)
 					["qg"] = 34768,	-- William Mullins
 					["coords"] = {
-						{ 61.6, 68.1, UNDERCITY },
+						{ 61.6, 68.1, TIRISFAL_GLADES },
 						{ 65.8, 13.2, UNDERCITY },
 					},
 					["cost"] = { { "i", 44839, 20 } },	-- Candied Sweet Potato

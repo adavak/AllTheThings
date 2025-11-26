@@ -616,6 +616,7 @@ root(ROOTS.Zones, {
 					}),
 					q(32296, {	-- Treasures of the Thunder King
 						["qg"] = 70316,	-- Taoshi
+						["coord"] = { 51.5, 46.0, ISLE_OF_THUNDER },
 						["cost"] = { { "i", 94222, 1} },	-- 1x Key to the Palace of Lei Shen
 						["isWeekly"] = true,
 						["_drop"] = { "g" },	-- unnecessary API data
