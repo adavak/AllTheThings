@@ -72,27 +72,7 @@ root(ROOTS.HiddenAchievementTriggers, {
 	expansion(EXPANSION.TBC, {
 		-- 2.5.1.39399
 		-- #if AFTER 3.0.1
-		ach(15019),	-- Gladiator: Season 1
-		ach(15020),	-- Duelist: Season 1
-		ach(15021),	-- Rival: Season 1
-		ach(15022),	-- Challenger: Season 1
-		ach(15018),	-- Infernal Gladiator
 		ach(15198),	-- [DNT] BCC Arena Tournament - Vanquisher Title
-		-- #endif
-		-- 2.5.2.39570
-		-- #if AFTER 3.0.1
-		ach(15199),	-- Gladiator: Season 2
-		ach(15200),	-- Gladiator: Season 4
-		ach(15201),	-- Duelist: Season 4
-		ach(15202),	-- Rival: Season 4
-		ach(15203),	-- Challenger: Season 4
-		ach(15204),	-- Gladiator: Season 3
-		ach(15205),	-- Duelist: Season 3
-		ach(15206),	-- Rival: Season 3
-		ach(15207),	-- Challenger: Season 3
-		ach(15208),	-- Duelist: Season 2
-		ach(15209),	-- Rival: Season 2
-		ach(15210),	-- Challenger: Season 2
 		-- #endif
 		-- 2.5.4.44833
 		-- #if AFTER 3.0.1
@@ -541,10 +521,6 @@ root(ROOTS.HiddenAchievementTriggers, {
 		-- 3.4.0.46158
 		-- #if ANYCLASSIC
 		-- #if AFTER 3.0.1
-		ach(16313),	-- Rival: Season 5
-		ach(16314),	-- Gladiator: Season 5
-		ach(16315),	-- Duelist: Season 5
-		ach(16316),	-- Challenger: Season 5
 		ach(16397),	-- [DNT] Heirloom Tracking - Bloodied Arcanite Reaper (Hidden)
 		ach(16437),	-- [DNT] Soul of Iron Tracker (Season of Mastery) (hidden)
 		-- #endif
@@ -558,25 +534,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 		-- 3.4.2.49311
 		-- #if ANYCLASSIC
 		-- #if AFTER 3.0.1
-		ach(17415),	-- Rival: Season 6
-		ach(17416),	-- Gladiator: Season 6
-		ach(17417),	-- Duelist: Season 6
-		ach(17418),	-- Challenger: Season 6
 		ach(18375),	-- [DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
 		ach(18376),	-- [DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
-		-- #endif
-		-- #endif
-		-- 3.4.2.49658
-		-- #if ANYCLASSIC
-		-- #if AFTER 3.0.1
-		ach(18544),	-- Rival: Season 7
-		ach(18545),	-- Gladiator: Season 7
-		ach(18546),	-- Duelist: Season 7
-		ach(18547),	-- Challenger: Season 7
-		ach(18548),	-- Rival: Season 8
-		ach(18549),	-- Duelist: Season 8
-		ach(18550),	-- Challenger: Season 8
-		ach(18551),	-- Gladiator: Season 8
 		-- #endif
 		-- #endif
 		-- 3.4.3.55417
@@ -711,15 +670,6 @@ root(ROOTS.HiddenAchievementTriggers, {
 		ach(6168),	-- Deathwing Heroic kills (Dragon Soul)
 		ach(6170),	-- Alizabal kills (Baradin Hold)
 
-		-- 4.4.1.56464
-		-- #if ANYCLASSIC
-		-- #if AFTER 4.4.1
-		ach(40968),	-- Rival: Season 9
-		ach(40969),	-- Gladiator: Season 9
-		ach(40970),	-- Duelist: Season 9
-		ach(40971),	-- Challenger: Season 9
-		-- #endif
-		-- #endif
 		-- 4.4.1.56859
 		-- #if ANYCLASSIC
 		-- #if AFTER 4.4.1
@@ -729,10 +679,6 @@ root(ROOTS.HiddenAchievementTriggers, {
 		-- 4.4.2.58486
 		-- #if ANYCLASSIC
 		-- #if AFTER 4.4.2
-		ach(41332),	-- Rival: Season 10
-		ach(41333),	-- Duelist: Season 10
-		ach(41334),	-- Challenger: Season 10
-		ach(41336),	-- Gladiator: Season 10
 		-- #endif
 		-- #endif
 	}),
@@ -1038,6 +984,17 @@ root(ROOTS.HiddenAchievementTriggers, {
 		ach(8636),	-- Garrosh Hellscream (25-player Normal Siege of Orgrimmar)
 		ach(8637),	-- Garrosh Hellscream (10-player Heroic Siege of Orgrimmar)
 		ach(8638),	-- Garrosh Hellscream (25-player Heroic Siege of Orgrimmar)
+		-- #IF ANYCLASSIC
+		ach(61944),	-- Temple of the Jade Serpent: Platinum (TRACKER)
+		ach(61945),	-- Mogu'shan Palace: Platinum (TRACKER)
+		ach(61946),	-- Shado-Pan Monastery: Platinum (TRACKER)
+		ach(61947),	-- Gate of the Setting Sun: Platinum (TRACKER)
+		ach(61948),	-- Scarlet Halls: Platinum (TRACKER)
+		ach(61949),	-- Scarlet Monastery: Platinum (TRACKER)
+		ach(61950),	-- Scholomance: Platinum (TRACKER)
+		ach(61951),	-- Siege of Niuzao Temple: Platinum (TRACKER)
+		ach(61952),	-- Stormstout Brewery: Platinum (TRACKER)
+		-- #endif
 	}),
 	expansion(EXPANSION.WOD, {
 		ach(9258),	-- Gug'rokk kills (Bloodmaul Slag Mines)

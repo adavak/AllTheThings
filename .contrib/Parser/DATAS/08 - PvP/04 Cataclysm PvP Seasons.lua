@@ -524,6 +524,15 @@ root(ROOTS.PVP, {
 			n(ACHIEVEMENTS, elitepvp(bubbleDown({
 				["timeline"] = { ADDED_4_0_3, REMOVED_4_2_0 },
 			}, {
+				-- #if ANYCLASSIC
+				ach(40971),	-- Challenger: Season 9
+				ach(40968),	-- Rival: Season 9
+				ach(40970),	-- Duelist: Season 9
+				ach(41336),	-- Gladiator: Season 9
+				ach(40969, {	-- Gladiator: Season 9
+					i(71339),	-- Vicious Gladiator's Twilight Drake
+				}),
+				-- #endif
 				ach(5344, {	-- Hero of the Alliance: Vicious
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1469,6 +1478,14 @@ root(ROOTS.PVP, {
 			n(ACHIEVEMENTS, elitepvp(bubbleDown({
 				["timeline"] = { ADDED_4_2_0, REMOVED_4_3_0 },
 			}, {
+				-- #if ANYCLASSIC
+				ach(41334),	-- Challenger: Season 10
+				ach(41332),	-- Rival: Season 10
+				ach(41333),	-- Duelist: Season 10
+				ach(41336, {	-- Gladiator: Season 10
+					i(71954),	-- Ruthless Gladiator's Twilight Drake
+				}),
+				-- #endif
 				ach(6316, {	-- Hero of the Alliance: Ruthless
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2488,6 +2505,14 @@ root(ROOTS.PVP, {
 			n(ACHIEVEMENTS, elitepvp(bubbleDown({
 				["timeline"] = { ADDED_5_0_4, REMOVED_5_0_4 },
 			}, {
+				-- #if ANYCLASSIC
+				ach(42775),	-- Challenger: Season 11
+				ach(42772),	-- Rival: Season 11
+				ach(42774),	-- Duelist: Season 11
+				ach(42777, {	-- Gladiator: Season 11
+					i(85785),	-- Cataclysmic Gladiator's Twilight Drake
+				}),
+				-- #endif
 				ach(6939, {	-- Hero of the Alliance: Cataclysmic
 					["races"] = ALLIANCE_ONLY,
 				}),

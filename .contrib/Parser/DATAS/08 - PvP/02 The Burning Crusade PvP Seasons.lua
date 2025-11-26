@@ -385,6 +385,17 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 						["description"] = "Awarded to members of the Arena teams during TBC Season 1 that were in the 0.5% bracket of their battlegroup.",
 					}),
 					ach(11706, {["timeline"] = {ADDED_7_2_0}}),	-- The Original (PvP Season 1)
+					-- #if ANYCLASSIC
+					ach(15022),	-- Challenger: Season 1
+					ach(15020),	-- Duelist: Season 1
+					ach(15019, {	-- Gladiator: Season 1
+						i(30609),	-- Swift Nether Drake
+					}),
+					ach(15018, {	-- Infernal Gladiator
+						title(41),	-- Infernal Gladiator %s
+					}),
+					ach(15021),	-- Rival: Season 1
+					-- #endif
 				},
 			})),
 			n(PVP_GLADIATOR, {
@@ -1016,6 +1027,14 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 					i(34092, {	-- Merciless Nether Drake
 						["description"] = "Awarded to members of the Arena teams during TBC Season 2 that were in the 0.5% bracket of their battlegroup.",
 					}),
+					-- #if ANYCLASSIC
+					ach(15210),	-- Challenger: Season 2
+					ach(15208),	-- Duelist: Season 2
+					ach(15199, {	-- Gladiator: Season 2
+						i(34092),	-- Merciless Nether Drake
+					}),
+					ach(15209),	-- Rival: Season 2
+					-- #endif
 				},
 			}))),
 			n(PVP_GLADIATOR, {
@@ -1342,6 +1361,14 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 					i(37676, {	-- Vengeful Nether Drake
 						["description"] = "Awarded to members of the Arena teams during TBC Season 3 that were in the 0.5% bracket of their battlegroup.",
 					}),
+					-- #if ANYCLASSIC
+					ach(15207),	-- Challenger: Season 3
+					ach(15205),	-- Duelist: Season 3
+					ach(15204, {	-- Gladiator: Season 3
+						i(37676),	-- Vengeful Nether Drake
+					}),
+					ach(15206),	-- Rival: Season 3
+					-- #endif
 				},
 			}))),
 			n(PVP_GLADIATOR, {
@@ -1695,6 +1722,14 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 					i(43516, {	-- Brutal Nether Drake
 						["description"] = "Awarded to members of the Arena teams during TBC Season 4 that were in the 0.5% bracket of their battlegroup.",
 					}),
+					-- #if ANYCLASSIC
+					ach(15203),	-- Challenger: Season 4
+					ach(15201),	-- Duelist: Season 4
+					ach(15200, {	-- Gladiator: Season 4
+						i(43516),	-- Brutal Nether Drake
+					}),
+					ach(15202),	-- Rival: Season 4
+					-- #endif
 				},
 			}))),
 			n(PVP_GLADIATOR, {

@@ -67,6 +67,15 @@ root(ROOTS.PVP, {
 					["description"] = "Awarded to members of the Arena teams during MoP Season 1 that were in the 0.5% bracket of their battlegroup.",
 				}),
 				-- #if ANYCLASSIC
+				ach(42762),	-- Challenger: Season 12
+				ach(42764),	-- Rival: Season 12
+				ach(42763),	-- Duelist: Season 12
+				ach(61350, {	-- Gladiator: Season 12 (2v2)
+				}),
+				ach(42765, {	-- Gladiator: Season 12 (3v3)
+				}),
+				ach(61358, {	-- Gladiator: Season 12 (5v5)
+				}),
 				ach(61354, {	-- Malevolent Gladiator: Season 12 (2v2)
 					title(223),	-- Malevolent Gladiator <Name>
 				}),
@@ -877,6 +886,15 @@ root(ROOTS.PVP, {
 					["description"] = "Awarded to members of the Arena teams during MoP Season 2 that were in the 0.5% bracket of their battlegroup.",
 				}),
 				-- #if ANYCLASSIC
+				ach(61098),	-- Challenger: Season 13
+				ach(61097),	-- Duelist: Season 13
+				ach(61099),	-- Rival: Season 13
+				ach(61351, {	-- Gladiator: Season 13 (2v2)
+				}),
+				ach(61096, {	-- Gladiator: Season 13 (3v3)
+				}),
+				ach(61359, {	-- Gladiator: Season 13 (5v5)
+				}),
 				ach(61355, {	-- Tyrannical Gladiator: Season 13 (2v2)
 					title(225),	-- Tyrannical Gladiator <Name>
 				}),
@@ -1886,7 +1904,7 @@ root(ROOTS.PVP, {
 						["timeline"] = { ADDED_7_3_2 },
 					})),
 				}),
-				ach(8644, {	-- Gladiator: Mists of Pandaria Season 3/Season 14
+				ach(8644, {	-- Gladiator: Season 14 (Retail) // Gladiator: Season 14 (3v3) (Classic)
 					i(104326),	-- Grievous Gladiator's Cloud Serpent
 				}),
 				ach(8485, {	-- Grievous Combatant (Alliance) Mists of Pandaria Season 3/Season 14
@@ -1920,6 +1938,13 @@ root(ROOTS.PVP, {
 				}),
 				ach(8646),	-- Rival: Mists of Pandaria Season 3/Season 14
 				-- #if ANYCLASSIC
+				ach(61352, {	-- Gladiator: Season 14 (2v2)
+					i(104326),	-- Grievous Gladiator's Cloud Serpent
+				}),
+				-- Gladiator 3v3 is above, as it exist in Retail
+				ach(61360, {	-- Gladiator: Season 14 (5v5)
+					i(104326),	-- Grievous Gladiator's Cloud Serpent
+				}),
 				ach(61356, {	-- Grievous Gladiator: Season 14 (2v2)
 					title(253),	-- Grievous Gladiator <Name>
 				}),
@@ -3190,7 +3215,7 @@ root(ROOTS.PVP, {
 						["timeline"] = { ADDED_7_3_2 },
 					})),
 				}),
-				ach(8667, {	-- Gladiator: Mists of Pandaria Season 4/Season 15
+				ach(8667, {	-- Gladiator: Season 15 (Retail) // Gladiator: Season 15 (3v3) (Classic)
 					i(104327),	-- Prideful Gladiator's Cloud Serpent
 				}),
 				ach(8658, {	-- Hero of the Alliance: Prideful
@@ -3224,6 +3249,13 @@ root(ROOTS.PVP, {
 				}),
 				ach(8669),	-- Rival: Mists of Pandaria Season 4/Season 15
 				-- #if ANYCLASSIC
+				ach(61353, {	-- Gladiator: Season 15 (2v2)
+					i(104327),	-- Prideful Gladiator's Cloud Serpent
+				}),
+				-- Gladiator 3v3 is above, as it exist in Retail
+				ach(61361, {	-- Gladiator: Season 15 (5v5)
+					i(104327),	-- Prideful Gladiator's Cloud Serpent
+				}),
 				ach(61357, {	-- Prideful Gladiator: Season 15 (2v2)
 					title(254),	-- Prideful Gladiator <Name>
 				}),
