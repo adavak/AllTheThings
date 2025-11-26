@@ -166,11 +166,30 @@ local function AssignArtifactItemID(t)
 	end
 end
 
+local NonCollectibleBaseItems = {
+	[128869] = true,	-- The Kingslayers [Off Hand] is not actually a learned SourceID
+	[127830] = true,	-- Twinblades of the Deceiver [Off Hand] is not actually a learned SourceID
+}
+
 local i = function(id, t)
 	CurrentItemID = id
-	t = i(id, t)
-	-- wrap all nested artifacts with the raw itemID of themselves modified by artifactID/offhand
-	t = bubbleDownFiltered(NoData, AssignArtifactItemID, t);
+	-- store the base Item
+	if t then
+		local rawitem = i(id)
+		if NonCollectibleBaseItems[id] then
+			rawitem.collectible = false
+		end
+		if t.g or t.groups then
+			table.insert(t.g or t.groups, 1, rawitem)
+		else
+			table.insert(t, 1, rawitem)
+		end
+		t = header(HEADERS.Item, id, t)
+		-- wrap all nested artifacts with the raw itemID of themselves modified by artifactID/offhand
+		t = bubbleDownFiltered(NoData, AssignArtifactItemID, t);
+	else
+		t = i(id)
+	end
 	return t
 end
 
@@ -179,6 +198,7 @@ root(ROOTS.ExpansionFeatures,
 		n(ARTIFACTS, {
 			["description"] = "\nPressing |cFFFFD700CTRL + Left Click|r will allow you to preview the appropriate skin and tint.\n\n",
 			["ItemAppearanceModifierID"] = 9,
+			["timeline"] = { ADDED_7_0_3 },
 			["groups"] = {
 				ach(11143, {		-- Honoring the Past
 					["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 },
@@ -705,7 +725,6 @@ root(ROOTS.ExpansionFeatures,
 							artifact(612),	-- Kill 1,000 Players Hidden
 						}),
 					}),
-					i(128869, {["collectible"] = false}),	-- The Kingslayers [Off Hand] is not actually a learned SourceID
 					i(128869, bubbleDown({ ["isOffHand"] = 1 }, {	-- The Kingslayers [Off Hand]
 						BaseAppearance(1259291, {
 							artifact(228),	-- Standard
@@ -2276,7 +2295,6 @@ root(ROOTS.ExpansionFeatures,
 							artifact(984),	-- Kill 1,000 Players Hidden
 						}),
 					}),
-					i(127830, {["collectible"] = false}),	-- Twinblades of the Deceiver [Off Hand] is not actually a learned SourceID
 					i(127830, bubbleDown({ ["isOffHand"] = 1 }, {	-- Twinblades of the Deceiver [Off Hand]
 						BaseAppearance(1117778, {
 							artifact(26),	-- Standard
