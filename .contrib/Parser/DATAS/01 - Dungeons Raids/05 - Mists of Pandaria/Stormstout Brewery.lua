@@ -377,6 +377,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				ach(6891, {	-- Stormstout Brewery: Gold
 					spell(131205),	-- Path of the Stout Brew
 				}),
+				-- #if ANYCLASSIC
+				ach(61968, {	-- Stormstout Brewery: Platinum
+					i(265780),	-- Platinum "Little Ale"
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

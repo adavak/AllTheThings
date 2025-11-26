@@ -6187,15 +6187,15 @@ h(-259,{awp=50004,pvp=1,u=50,g={
 h(-12,{awp=50004,pvp=1,u=50,g={
 ach(8243,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,r=2,rwp=50200,u=2}),
 ach(8244,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,r=1,rwp=50200,u=2}),
-ach(61354,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2,g={
-title(223,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2})}}),
 ach(8214,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2,g={
-title(223,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2})}}),
-ach(61362,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2,g={
 title(223,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2})}}),
 ach(8216,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,providers={{"i",95041}},pvp=1,rwp=50200,u=2,g={
 crit(22943,{achID=8216,awp=50004,id=2,providers={{"i",95041}},pvp=1,rwp=50200,u=2})}}),
 mnt(139407,{awp=50004,b=1,description="Awarded to members of the Arena teams during MoP Season 1 that were in the 0.5% bracket of their battlegroup.",itemID=95041,lvl=90,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,q=4,rwp=50200,u=2}),
+ach(61354,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2,g={
+title(223,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2})}}),
+ach(61362,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2,g={
+title(223,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2})}}),
 ach(61415,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2,g={
 title(261,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,pvp=1,rwp=50200,u=2})}})}}),
 h(-299,{awp=50004,pvp=1,u=50,g={
@@ -6804,7 +6804,13 @@ ach(8791,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)the
 title(225,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2})}}),
 ach(8678,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,providers={{"i",104325}},pvp=1,rwp=50400,u=2,g={
 crit(23927,{achID=8678,awp=50200,id=2,providers={{"i",104325}},pvp=1,rwp=50400,u=2})}}),
-mnt(148618,{awp=50200,b=1,description="Awarded to members of the Arena teams during MoP Season 2 that were in the 0.5% bracket of their battlegroup.",itemID=104325,lvl=90,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,q=4,rwp=50400,u=2})}}),
+mnt(148618,{awp=50200,b=1,description="Awarded to members of the Arena teams during MoP Season 2 that were in the 0.5% bracket of their battlegroup.",itemID=104325,lvl=90,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,q=4,rwp=50400,u=2}),
+ach(61355,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2,g={
+title(225,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2})}}),
+ach(61363,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2,g={
+title(225,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2})}}),
+ach(61416,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2,g={
+title(261,{awp=50200,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=52;end	end,pvp=1,rwp=50400,u=2})}})}}),
 h(-299,{awp=50200,description="These items are available from Malevolent Gladiator: Season 12 Vendor.",pvp=1,u=52,g={
 h(-101,{awp=50200,pvp=1,u=52,g={
 s(274994,91482,{awp=50200,b=1,f=8,lvl=90,pvp=1,q=4,u=52}),

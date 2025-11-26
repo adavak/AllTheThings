@@ -21,6 +21,23 @@ i(38506);	-- Don Carlos' Famous Hat -- With ICC Patch of Wrath Classic, they mad
 -- Cata Classic
 i(216893);	-- Goblin Town-in-a-Box
 i(235464);	-- Sha-Touched Tea Set
+
+-- MOP Classic
+-----------------
+-- PATCH 5.5.2 --
+-----------------
+i(260622);	-- Exodar Replica
+i(260221);	-- Naaru's Embrace
+i(265414);	-- Platinum Amber
+i(265415);	-- Platinum Vial of Polyformic Acid
+i(265416);	-- Platinum Battle Banner
+i(265417);	-- Platinum Battle Horn
+i(265418);	-- Platinum Rod of Ambershaping
+i(265419);	-- Platinum Potion of Invisibility
+i(265573);	-- Platinum Sacrificial Dagger
+i(265774);	-- Platinum Boots of Expeditious Retreat
+i(265780);	-- Platinum "Little Ale"
+
 -- #endif
 
 -----------------
@@ -372,14 +389,6 @@ i(104262);	-- Odd Polished Stone
 i(104294);	-- Rime of the Time-Lost Mariner
 i(104323);	-- The Swineskin
 i(104331);	-- Warning Sign
-
--- #if ANYCLASSIC
------------------
--- PATCH 5.5.2 --
------------------
-i(260622);	-- Exodar Replica
-i(260221);	-- Naaru's Embrace
--- #endif
 
 -----------------
 -- PATCH 6.0.2 --

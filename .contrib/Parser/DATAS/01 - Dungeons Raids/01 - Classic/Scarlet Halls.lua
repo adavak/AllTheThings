@@ -278,6 +278,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				ach(6910, {	-- Scarlet Halls: Gold
 					spell(131231),	-- Path of the Scarlet Blade
 				}),
+				-- #if ANYCLASSIC
+				ach(61972, {	-- Scarlet Halls: Platinum
+					i(265416),	-- Platinum Battle Banner
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

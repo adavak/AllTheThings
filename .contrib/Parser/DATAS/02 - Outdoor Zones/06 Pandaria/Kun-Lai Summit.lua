@@ -2760,6 +2760,11 @@ root(ROOTS.Zones, {
 							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
 							{"pop"},	-- Discard the Set header and acquire the children.
 						},
+						["groups"] = {
+							-- #if ANYCLASSIC
+							i(254315),	-- Formula: Enchant Weapon - Tyranny
+							-- #endif
+						},
 						-- #endif
 					}),
 					n(69982, {	-- Lok'nor Bloodfist <Honor Quartermaster>

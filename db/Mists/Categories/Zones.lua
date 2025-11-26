@@ -51320,7 +51320,7 @@ q(32505,{awp=50200,isWeekly=1,providers={{"o",218072}},u=52,g={
 ach(8105,{awp=50200,u=52,g={
 crit(22849,{achID=8121,awp=50200,id=4,u=52})}}),
 i(94221,{awp=50200,b=1,q=3,u=52})}}),
-q(32296,{awp=50200,cost={{"i",94222,1}},isWeekly=1,qgs={70316},u=52,g={
+q(32296,{awp=50200,coords={{51.5,46,504}},cost={{"i",94222,1}},isWeekly=1,qgs={70316},u=52,g={
 m(518,{awp=50200,u=52,g={
 ach(8106,{awp=50200,u=52,g={
 crit(22910,{achID=8106,awp=50200,providers={{"i",95342}},u=52}),
@@ -52845,7 +52845,8 @@ n(65515,{awp=50004,coords={{7.3,52.4,390}},OnUpdate=function(t)if settings:GetUn
 n(73145,{awp=50004,r=1,u=2}),
 n(65165,{awp=50004,coords={{7.5,52.5,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=1,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-296},{"merge"},{"pop"}},u=2}),
 n(69965,{awp=50004,r=1,u=2}),
-n(65164,{awp=50004,coords={{7.1,52.5,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=1,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-299},{"merge"},{"pop"}},u=2}),
+n(65164,{awp=50004,coords={{7.1,52.5,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=1,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-299},{"merge"},{"pop"}},u=2,g={
+r(1257682,{awp=50004,b=1,itemID=254315,learnedAt=600,q=3,requireSkill=333,rwp=50200,u=2})}}),
 n(69982,{awp=50004,r=1,u=2}),
 n(70108,{awp=50004,r=1,u=2}),
 n(61749,{awp=50004,coords={{71.4,92.1,379}},g={
@@ -57850,7 +57851,8 @@ n(61215,{awp=50004,coords={{84.8,21.6,376}},sym={{"select","npcID",56705},{"pop"
 n(65514,{awp=50004,coords={{7.3,65,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=2,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-295},{"merge"},{"pop"}},u=2}),
 n(69968,{awp=50004,r=2,u=2}),
 n(73147,{awp=50004,r=2,u=2}),
-n(65166,{awp=50004,coords={{7.1,65,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=2,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-299},{"merge"},{"pop"}},u=2}),
+n(65166,{awp=50004,coords={{7.1,65,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=2,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-299},{"merge"},{"pop"}},u=2,g={
+r(1257682,{awp=50004,b=1,itemID=254315,learnedAt=600,q=3,requireSkill=333,rwp=50200,u=2})}}),
 n(73143,{awp=50004,r=2,u=2}),
 n(65167,{awp=50004,coords={{7.6,64.8,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=2,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-296},{"merge"},{"pop"}},u=2}),
 n(64395,{awp=50004,coords={{53.6,51.2,376}},g={

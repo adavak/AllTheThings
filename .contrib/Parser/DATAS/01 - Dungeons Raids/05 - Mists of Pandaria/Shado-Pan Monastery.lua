@@ -430,6 +430,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				ach(6904, {	-- Shado-Pan Monastery: Gold
 					spell(131206),	-- Path of the Shado-Pan
 				}),
+				-- #if ANYCLASSIC
+				ach(61970, {	-- Shado-Pan Monastery: Platinum
+					i(265419),	-- Platinum Potion of Invisibility
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

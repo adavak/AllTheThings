@@ -4763,7 +4763,9 @@ ach(6909,{awp=50004,rwp=60002,g={
 crit(19888,{achID=6375,awp=50004,id=6,rwp=60002,u=50})}}),
 ach(6910,{awp=50004,rwp=60002,g={
 sp(131231,{awp=50004,rwp=60002}),
-crit(19897,{achID=6378,awp=50004,id=6,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19897,{achID=6378,awp=50004,id=6,rwp=60002,u=50})}}),
+ach(61972,{awp=50004,rwp=60002,g={
+toy(265416,{awp=50004,rwp=60002})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(656,{awp=50500,npcID=59150,u=5002,g={
 ach(60897,{awp=50500,u=5002,g={
@@ -5069,7 +5071,9 @@ ach(6912,{awp=50004,rwp=60002,g={
 crit(19889,{achID=6375,awp=50004,id=7,rwp=60002,u=50})}}),
 ach(6913,{awp=50004,rwp=60002,g={
 sp(131229,{awp=50004,rwp=60002}),
-crit(19898,{achID=6378,awp=50004,id=7,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19898,{achID=6378,awp=50004,id=7,rwp=60002,u=50})}}),
+ach(61973,{awp=50004,rwp=60002,g={
+toy(265573,{awp=50004,rwp=60002})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(674,{awp=50500,npcID=3977,u=5002,g={
 ach(60898,{awp=50500,u=5002,g={
@@ -5488,7 +5492,9 @@ ach(6915,{awp=50004,rwp=60002,g={
 crit(19890,{achID=6375,awp=50004,id=8,rwp=60002,u=50})}}),
 ach(6916,{awp=50004,rwp=60002,g={
 sp(131232,{awp=50004,rwp=60002}),
-crit(19899,{achID=6378,awp=50004,id=8,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19899,{achID=6378,awp=50004,id=8,rwp=60002,u=50})}}),
+ach(61974,{awp=50004,rwp=60002,g={
+toy(265415,{awp=50004,rwp=60002})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(684,{awp=50500,npcID=59080,u=5002,g={
 ach(60899,{awp=50500,u=5002,g={
@@ -20911,6 +20917,10 @@ s(274066,90129,{awp=50004,b=1,c={7},f=6,lvl=90,q=4,rwp=60002,u=50}),
 s(274065,90128,{awp=50004,b=1,c={7},f=6,lvl=90,q=4,rwp=60002,u=50}),
 s(274068,90131,{awp=50004,b=1,c={7},f=6,lvl=90,q=4,rwp=60002,u=50}),
 s(274071,90134,{awp=50004,b=1,c={7},f=6,lvl=90,q=4,rwp=60002,u=50})}})}}),
+ach(61987,{awp=50502,rwp=50503,sym={{"meta_achievement",61971,61969,61972,61973,61974,61970,61975,61968,61967}},u=50}),
+ach(8903,{awp=50502,description="Players must complete |cFFE50D12EACH:|r dungeon listed below within the time limit to be a Mistwalker.\n\nTemple of the Jade Serpent: 8m 30s\n\nStormstout Brewery: 6m 30s\n\nGate of the Setting Sun: 5m 30s\n\nShado-Pan Monastery: 10m 30s\n\nSiege of Niuzao Temple: 10m 15s\n\nMogu’shan Palace: 6m 45s\n\nScholomance: 7m 15s\n\nScarlet Halls: 4m 15s\n\nScarlet Monastery: 5m 30s",rwp=50503,u=50,g={
+title(255,{awp=50502,rwp=50503,u=50}),
+mnt(1247598,{awp=50502,b=1,itemID=248742,lvl=90,q=4,rwp=50503,u=50})}}),
 ach(6433,{awp=50004,rwp=50200,u=2}),
 ach(6927,{awp=50004,u=50,g={
 mnt(127156,{awp=50004,b=1,itemID=87769,lvl=90,q=4,u=50})}}),
@@ -26784,7 +26794,9 @@ ach(6906,{awp=50004,rwp=60002,u=50,g={
 crit(19887,{achID=6375,awp=50004,id=5,rwp=60002,u=50})}}),
 ach(6907,{awp=50004,rwp=60002,u=50,g={
 sp(131225,{awp=50004,rwp=60002,u=50}),
-crit(19896,{achID=6378,awp=50004,id=5,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19896,{achID=6378,awp=50004,id=5,rwp=60002,u=50})}}),
+ach(61971,{awp=50004,rwp=60002,u=50,g={
+toy(265418,{awp=50004,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(649,{awp=50004,npcID=56877,u=5002,g={
 ach(60896,{awp=50004,u=5002,g={
@@ -26899,7 +26911,9 @@ ach(6900,{awp=50004,rwp=60002,u=50,g={
 crit(19885,{achID=6375,awp=50004,id=3,rwp=60002,u=50})}}),
 ach(6901,{awp=50004,rwp=60002,u=50,g={
 sp(131222,{awp=50004,rwp=60002,u=50}),
-crit(19894,{achID=6378,awp=50004,id=3,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19894,{achID=6378,awp=50004,id=3,rwp=60002,u=50})}}),
+ach(61969,{awp=50004,rwp=60002,u=50,g={
+toy(265417,{awp=50004,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(698,{awp=50004,npcID=61398,u=5002,g={
 ach(60894,{awp=50004,u=5002,g={
@@ -27010,7 +27024,9 @@ crit(19886,{achID=6375,awp=50004,id=4,rwp=60002,u=50})}}),
 ach(6904,{awp=50004,rwp=60002,u=50,g={
 sp(131206,{awp=50004,rwp=60002,u=50}),
 crit(19895,{achID=6378,awp=50004,id=4,rwp=60002,u=50}),
-crit(19895,{achID=7479,awp=50004,id=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19895,{achID=7479,awp=50004,id=2})}}),
+ach(61970,{awp=50004,rwp=60002,u=50,g={
+toy(265419,{awp=50004,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(686,{awp=50004,npcID=56884,u=5002,g={
 ach(60895,{awp=50004,u=5002,g={
@@ -27117,7 +27133,9 @@ ach(6918,{awp=50004,rwp=60002,u=50,g={
 crit(19891,{achID=6375,awp=50004,id=9,rwp=60002,u=50})}}),
 ach(6919,{awp=50004,rwp=60002,u=50,g={
 sp(131228,{awp=50004,rwp=60002,u=50}),
-crit(19900,{achID=6378,awp=50004,id=9,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19900,{achID=6378,awp=50004,id=9,rwp=60002,u=50})}}),
+ach(61975,{awp=50004,rwp=60002,u=50,g={
+toy(265414,{awp=50004,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(727,{awp=50004,npcID=62205,u=5002,g={
 ach(60900,{awp=50004,u=5002,g={
@@ -27225,7 +27243,9 @@ ach(6890,{awp=50004,rwp=60002,u=50,g={
 crit(19884,{achID=6375,awp=50004,id=2,rwp=60002,u=50})}}),
 ach(6891,{awp=50004,rwp=60002,u=50,g={
 sp(131205,{awp=50004,rwp=60002,u=50}),
-crit(19893,{achID=6378,awp=50004,id=2,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19893,{achID=6378,awp=50004,id=2,rwp=60002,u=50})}}),
+ach(61968,{awp=50004,rwp=60002,u=50,g={
+toy(265780,{awp=50004,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(670,{awp=50004,npcID=59479,u=5002,g={
 ach(60893,{awp=50004,u=5002,g={
@@ -27338,7 +27358,9 @@ ach(6886,{awp=50004,rwp=60002,u=50,g={
 crit(19883,{achID=6375,awp=50004,id=1,rwp=60002,u=50})}}),
 ach(6887,{awp=50004,rwp=60002,u=50,g={
 sp(131204,{awp=50004,rwp=60002,u=50}),
-crit(19892,{achID=6378,awp=50004,id=1,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
+crit(19892,{achID=6378,awp=50004,id=1,rwp=60002,u=50})}}),
+ach(61967,{awp=50004,rwp=60002,u=50,g={
+toy(265774,{awp=50004,rwp=60002,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1243929)(
 h(-655,{awp=50500,u=5002,g={
 e(335,{awp=50004,npcID=56439,u=5002,g={
 ach(60892,{awp=50004,u=5002,g={

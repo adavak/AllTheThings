@@ -216,6 +216,91 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					}),
 				},
 			}),
+			-- #if ANYCLASSIC
+			ach(61987, {	-- Challenge Conqueror: Platinum (Season 1)
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					61971,	-- Gate of the Setting Sun: Platinum
+					61969,	-- Mogu'shan Palace: Platinum
+					61972,	-- Scarlet Halls: Platinum
+					61973,	-- Scarlet Monastery: Platinum
+					61974,	-- Scholomance: Platinum
+					61970,	-- Shado-Pan Monastery: Platinum
+					61975,	-- Siege of Niuzao Temple: Platinum
+					61968,	-- Stormstout Brewery: Platinum
+					61967,	-- Temple of the Jade Serpent: Platinum
+				}},
+				["timeline"] = { ADDED_5_5_2, REMOVED_5_5_3 },
+				["groups"] = {
+					-- Coins
+				},
+			}),
+			ach(61990, {	-- Challenge Conqueror: Platinum (Season 2)
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					61971,	-- Gate of the Setting Sun: Platinum
+					61969,	-- Mogu'shan Palace: Platinum
+					61972,	-- Scarlet Halls: Platinum
+					61973,	-- Scarlet Monastery: Platinum
+					61974,	-- Scholomance: Platinum
+					61970,	-- Shado-Pan Monastery: Platinum
+					61975,	-- Siege of Niuzao Temple: Platinum
+					61968,	-- Stormstout Brewery: Platinum
+					61967,	-- Temple of the Jade Serpent: Platinum
+				}},
+				["timeline"] = { ADDED_5_5_3, REMOVED_5_5_4 },
+				["groups"] = {
+					-- Coins
+				},
+			}),
+			ach(61991, {	-- Challenge Conqueror: Platinum (Season 3)
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					61971,	-- Gate of the Setting Sun: Platinum
+					61969,	-- Mogu'shan Palace: Platinum
+					61972,	-- Scarlet Halls: Platinum
+					61973,	-- Scarlet Monastery: Platinum
+					61974,	-- Scholomance: Platinum
+					61970,	-- Shado-Pan Monastery: Platinum
+					61975,	-- Siege of Niuzao Temple: Platinum
+					61968,	-- Stormstout Brewery: Platinum
+					61967,	-- Temple of the Jade Serpent: Platinum
+				}},
+				["timeline"] = { ADDED_5_5_4, REMOVED_5_5_5 },
+				["groups"] = {
+					-- Coins
+				},
+			}),
+			-- #endif
+			-- #if ANYCLASSIC
+			ach(8903, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_2, REMOVED_5_5_3 } }, {	-- Mistwalker (Season 1)
+				-- #if BEFORE 5.5.3
+				["description"] = "Players must complete |cFFE50D12EACH:|r dungeon listed below within the time limit to be a Mistwalker.\n\nTemple of the Jade Serpent: 8m 30s\n\nStormstout Brewery: 6m 30s\n\nGate of the Setting Sun: 5m 30s\n\nShado-Pan Monastery: 10m 30s\n\nSiege of Niuzao Temple: 10m 15s\n\nMogu’shan Palace: 6m 45s\n\nScholomance: 7m 15s\n\nScarlet Halls: 4m 15s\n\nScarlet Monastery: 5m 30s",
+				-- #endif
+				["groups"] = {
+					title(255),	-- Mistwalker <Name>
+					i(248742),	-- Reins of the Celestial Riding Tiger (MOUNT!)
+				},
+			})),
+			ach(8903, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_3, REMOVED_5_5_4 } }, {	-- Mistwalker (Season 2)
+				-- #if BEFORE 5.5.4
+			-- ToDo: Update for S2 End	["description"] = "Players must complete |cFFE50D12EACH:|r dungeon listed below within the time limit to be a Mistwalker.\n\nTemple of the Jade Serpent: 8m 30s\n\nStormstout Brewery: 6m 30s\n\nGate of the Setting Sun: 5m 30s\n\nShado-Pan Monastery: 10m 30s\n\nSiege of Niuzao Temple: 10m 15s\n\nMogu’shan Palace: 6m 45s\n\nScholomance: 7m 15s\n\nScarlet Halls: 4m 15s\n\nScarlet Monastery: 5m 30s",
+				-- #endif
+				["groups"] = {
+					title(255),	-- Mistwalker <Name>
+					i(248743),	-- Reins of the Celestial Riding Serpent (MOUNT!)
+				},
+			})),
+			ach(8903, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_4, REMOVED_5_5_5 } }, {	-- Mistwalker (Season 3)
+				-- #if BEFORE 5.5.5
+			-- ToDo: Update for S3 End	["description"] = "Players must complete |cFFE50D12EACH:|r dungeon listed below within the time limit to be a Mistwalker.\n\nTemple of the Jade Serpent: 8m 30s\n\nStormstout Brewery: 6m 30s\n\nGate of the Setting Sun: 5m 30s\n\nShado-Pan Monastery: 10m 30s\n\nSiege of Niuzao Temple: 10m 15s\n\nMogu’shan Palace: 6m 45s\n\nScholomance: 7m 15s\n\nScarlet Halls: 4m 15s\n\nScarlet Monastery: 5m 30s",
+				-- #endif
+				["groups"] = {
+					title(255),	-- Mistwalker <Name>
+					i(248744),	-- Reins of the Celestial Riding Ox (MOUNT!)
+				},
+			})),
+			-- #else
 			challengemaster(ach(8903, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_6_0_3_LAUNCH } }, {	-- Mistwalker
 				-- Meta Achievement
 				["sym"] = {{"meta_achievement",
@@ -233,9 +318,24 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					title(255),	-- Mistwalker <Name>
 				},
 			}))),
+			-- #endif
 			ach(6433, {	-- Realm First! Challenge Conqueror: Gold
 				["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 			}),
+			-- #if ANYCLASSIC
+			-- SEASON 2
+			ach(61962, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_3, REMOVED_5_5_4 } }, {	-- Realm First! Challenge Conqueror: Platinum (Season 2)
+				["groups"] = {
+					title(738),	-- %s, the Thundering Stampede
+				},
+			})),
+			-- SEASON 3
+			ach(61963, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_4, REMOVED_5_5_5 } }, {	-- Realm First! Challenge Conqueror: Platinum (Season 3)
+				["groups"] = {
+					title(739),	-- %s, the Momentous Terror
+				},
+			})),
+			-- #endif
 			ach(6927, {	-- Glory of the Pandaria Hero
 				["sym"] = {{"meta_achievement",
 					6925,	-- Pandaria Dungeon Hero

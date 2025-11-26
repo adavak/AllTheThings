@@ -55,6 +55,10 @@ i(0, 466980);	-- Chaos-Born Hippogryph
 i(0, 466977);	-- Chaos-Born Wind Rider
 
 --- MOP CLASSIC ---
+i(248741, 1247591);	-- Celestial Riding Crane
+i(248744, 1247597);	-- Celestial Riding Ox
+i(248743, 1247596);	-- Celestial Riding Serpent
+i(248742, 1247598);	-- Celestial Riding Tiger
 --- NYI? ---
 i(0, 1224647);	-- Meeksi Brewrobber
 i(0, 1224643);	-- Meeksi Gentlepaw
@@ -73,7 +77,7 @@ i(198628, 387311);	-- X-51 Nether-Rocket X-TREME
 -- #endif
 
 -----------------
---   CLASSIC   --
+--   VANILLA   --
 -----------------
 i(12302, 16056);	-- Ancient Frostsaber
 i(12351, 16081);	-- Arctic Wolf
@@ -810,16 +814,6 @@ i(107951, 153489);	-- Iron Skyreaver
 -- PATCH 5.4.7 --
 -----------------
 i(109013, 155741);	-- Dread Raven
-
--- #if ANYCLASSIC
------------------
--- PATCH 5.5.0 --
------------------
-i(248741, 1247591);	-- Celestial Riding Crane
-i(248744, 1247597);	-- Celestial Riding Ox
-i(248743, 1247596);	-- Celestial Riding Serpent
-i(248742, 1247598);	-- Celestial Riding Tiger
--- #endif
 
 -----------------
 -- PATCH 6.0.2 --

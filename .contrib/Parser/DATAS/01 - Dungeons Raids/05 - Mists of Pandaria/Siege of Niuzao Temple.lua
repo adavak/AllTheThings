@@ -444,6 +444,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				ach(6919, {	-- Siege of Niuzao Temple: Gold
 					spell(131228),	-- Path of the Black Ox
 				}),
+				-- #if ANYCLASSIC
+				ach(61975, {	-- Siege of Niuzao Temple: Platinum
+					i(265414),	-- Platinum Amber
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

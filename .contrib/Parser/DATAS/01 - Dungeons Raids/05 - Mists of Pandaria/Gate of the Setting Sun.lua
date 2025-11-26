@@ -410,6 +410,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				ach(6907, {	-- Gate of the Setting Sun: Gold
 					spell(131225),	-- Path of the Setting Sun
 				}),
+				-- #if ANYCLASSIC
+				ach(61971, {	-- Gate of the Setting Sun: Platinum
+					i(265418),	-- Platinum Rod of Ambershaping
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

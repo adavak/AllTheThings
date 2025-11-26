@@ -429,6 +429,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				ach(6887, {	-- Temple of the Jade Serpent: Gold
 					spell(131204),	-- Path of the Jade Serpent
 				}),
+				-- #if ANYCLASSIC
+				ach(61967, {	-- Temple of the Jade Serpent: Platinum
+					i(265774),	-- Platinum Boots of Expeditious Retreat
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

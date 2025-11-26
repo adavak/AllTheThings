@@ -2487,6 +2487,11 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDown
 	ach(6916, {	-- Scholomance: Gold
 		spell(131232),	-- Path of the Necromancer
 	}),
+	-- #if ANYCLASSIC
+	ach(61974, {	-- Scholomance: Platinum
+		i(265415),	-- Platinum Vial of Polyformic Acid
+	}),
+	-- #endif
 })));
 -- #endif
 -- #endif

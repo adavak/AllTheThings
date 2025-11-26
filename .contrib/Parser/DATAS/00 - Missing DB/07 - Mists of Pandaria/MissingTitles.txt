@@ -12,6 +12,3 @@ title(996),	-- Tyrannical Skirmisher %s
 5.5.3.64141
 title(736),	-- %s, the Mistborne
 title(737),	-- %s, Heir to the Mist
-5.5.3.64308
-title(738),	-- %s, the Thundering Stampede
-title(739),	-- %s, the Momentous Terror

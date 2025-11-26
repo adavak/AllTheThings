@@ -6,6 +6,11 @@ local i = GetRecipeHelperForProfession(ENCHANTING);
 -----------------
 --- ITEM ---
 i(186683, 27927);	-- Stats
+
+-----------------
+-- PATCH 5.2.0 --
+-----------------
+i(254315, 1257682);	-- Enchant Weapon - Tyranny
 -- #endif
 
 -- #if SEASON_OF_DISCOVERY

@@ -1288,6 +1288,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				ach(6913, {	-- Scarlet Monastery: Gold
 					spell(131229),	-- Path of the Scarlet Mitre
 				}),
+				-- #if ANYCLASSIC
+				ach(61973, {	-- Scarlet Monastery: Platinum
+					i(265573),	-- Platinum Sacrificial Dagger
+				}),
+				-- #endif
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {

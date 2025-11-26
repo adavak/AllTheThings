@@ -56,19 +56,9 @@ root(ROOTS.PVP, {
 				ach(8244, {	-- Hero of the Horde: Malevolent
 					["races"] = HORDE_ONLY,
 				}),
-				-- #if ANYCLASSIC
-				ach(61354, {	-- Malevolent Gladiator: Season 12 (2v2)
-					title(223),	-- Malevolent Gladiator <Name>
-				}),
-				-- #endif
 				ach(8214, {	-- Malevolent Gladiator (Retail) // Malevolent Gladiator: Season 12 (3v3) (Classic)
 					title(223),	-- Malevolent Gladiator <Name>
 				}),
-				-- #if ANYCLASSIC
-				ach(61362, {	-- Malevolent Gladiator: Season 12 (5v5)
-					title(223),	-- Malevolent Gladiator <Name>
-				}),
-				-- #endif
 				ach(8216, {	-- Malevolent Gladiator's Cloud Serpent
 					["provider"] = { "i", 95041 },	-- Malevolent Gladiator's Cloud Serpent
 					["filterID"] = MOUNTS,
@@ -77,6 +67,12 @@ root(ROOTS.PVP, {
 					["description"] = "Awarded to members of the Arena teams during MoP Season 1 that were in the 0.5% bracket of their battlegroup.",
 				}),
 				-- #if ANYCLASSIC
+				ach(61354, {	-- Malevolent Gladiator: Season 12 (2v2)
+					title(223),	-- Malevolent Gladiator <Name>
+				}),
+				ach(61362, {	-- Malevolent Gladiator: Season 12 (5v5)
+					title(223),	-- Malevolent Gladiator <Name>
+				}),
 				ach(61415, {	-- Undisputed Gladiator: Season 12
 					title(261),	-- Undisputed Gladiator <Name>
 				}),
@@ -870,7 +866,7 @@ root(ROOTS.PVP, {
 				ach(8653, {	-- Hero of the Horde: Tyrannical
 					["races"] = HORDE_ONLY,
 				}),
-				ach(8791, {	-- Tyrannical Gladiator: Mists of Pandaria Season 2
+				ach(8791, {	-- Tyrannical Gladiator (Retail) // Tyrannical Gladiator: Season 13 (3v3) (Classic)
 					title(225),	-- Tyrannical Gladiator <Name>
 				}),
 				ach(8678, {	-- Tyrannical Gladiator's Cloud Serpent
@@ -880,6 +876,17 @@ root(ROOTS.PVP, {
 				i(104325, {	-- Tyrannical Gladiator's Cloud Serpent
 					["description"] = "Awarded to members of the Arena teams during MoP Season 2 that were in the 0.5% bracket of their battlegroup.",
 				}),
+				-- #if ANYCLASSIC
+				ach(61355, {	-- Tyrannical Gladiator: Season 13 (2v2)
+					title(225),	-- Tyrannical Gladiator <Name>
+				}),
+				ach(61363, {	-- Tyrannical Gladiator: Season 13 (5v5)
+					title(225),	-- Tyrannical Gladiator <Name>
+				}),
+				ach(61416, {	-- Undisputed Gladiator: Season 13
+					title(261),	-- Undisputed Gladiator <Name>
+				}),
+				-- #endif
 			})),
 			n(PVP_HONOR, {
 				["description"] = "These items are available from Malevolent Gladiator: Season 12 Vendor.",
