@@ -1895,7 +1895,7 @@ root(ROOTS.PVP, {
 				ach(8484, {	-- Grievous Combatant (Horde) Mists of Pandaria Season 3/Season 14
 					["races"] = HORDE_ONLY,
 				}),
-				ach(8643, {	-- Grievous Gladiator: Mists of Pandaria Season 3/Season 14
+				ach(8643, {	-- Grievous Gladiator (Retail) // Grievous Gladiator: Season 14 (3v3) (Classic)
 					title(253),	-- Grievous Gladiator <Name>
 				}),
 				ach(8705, {	-- Grievous Gladiator's Cloud Serpent
@@ -1919,6 +1919,17 @@ root(ROOTS.PVP, {
 					},
 				}),
 				ach(8646),	-- Rival: Mists of Pandaria Season 3/Season 14
+				-- #if ANYCLASSIC
+				ach(61356, {	-- Grievous Gladiator: Season 14 (2v2)
+					title(253),	-- Grievous Gladiator <Name>
+				}),
+				ach(61364, {	-- Grievous Gladiator: Season 14 (5v5)
+					title(253),	-- Grievous Gladiator <Name>
+				}),
+				ach(61417, {	-- Undisputed Gladiator: Season 14
+					title(261),	-- Undisputed Gladiator <Name>
+				}),
+				-- #endif
 			})),
 			n(FACTION_HEADER_ALLIANCE, {
 				["races"] = ALLIANCE_ONLY,
@@ -3204,7 +3215,7 @@ root(ROOTS.PVP, {
 				ach(8641, {	-- Prideful Combatant (Horde) Mists of Pandaria Season 4/Season 15
 					["races"] = HORDE_ONLY,
 				}),
-				ach(8666, {	-- Prideful Gladiator: Mists of Pandaria Season 4/Season 15
+				ach(8666, {	-- Prideful Gladiator (Retail) // Prideful Gladiator: Season 15 (3v3) (Classic)
 					title(254),	-- Prideful Gladiator <Name>
 				}),
 				ach(8707, {	-- Prideful Gladiator's Cloud Serpent
@@ -3212,6 +3223,17 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				ach(8669),	-- Rival: Mists of Pandaria Season 4/Season 15
+				-- #if ANYCLASSIC
+				ach(61357, {	-- Prideful Gladiator: Season 15 (2v2)
+					title(254),	-- Prideful Gladiator <Name>
+				}),
+				ach(61365, {	-- Prideful Gladiator: Season 15 (5v5)
+					title(254),	-- Prideful Gladiator <Name>
+				}),
+				ach(61418, {	-- Undisputed Gladiator: Season 15
+					title(261),	-- Undisputed Gladiator <Name>
+				}),
+				-- #endif
 			})),
 			n(FACTION_HEADER_ALLIANCE, {
 				["races"] = ALLIANCE_ONLY,
