@@ -2870,8 +2870,14 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					local headerGroups = header.g;
 					if #headerGroups == 1 then
 						local topGroup = headerGroups[1]
-						if not topGroup.external then
+						if not topGroup.external
+							-- only shift up certain group types
+							and (topGroup.instanceID or topGroup.classID or topGroup.mapID)
+						then
 							header.g = nil;
+							-- don't persist the parent links since this will now be a minilist root
+							topGroup.parent = nil
+							topGroup.sourceParent = nil
 							MergeProperties(header, topGroup, true);
 							NestObjects(header, topGroup.g);
 						end
