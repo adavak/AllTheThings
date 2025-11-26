@@ -985,6 +985,7 @@ root(ROOTS.HiddenAchievementTriggers, {
 		ach(8637),	-- Garrosh Hellscream (10-player Heroic Siege of Orgrimmar)
 		ach(8638),	-- Garrosh Hellscream (25-player Heroic Siege of Orgrimmar)
 		-- #IF ANYCLASSIC
+		ach(42242),	-- [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) \\ [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) (copy) (copy)
 		ach(61944),	-- Temple of the Jade Serpent: Platinum (TRACKER)
 		ach(61945),	-- Mogu'shan Palace: Platinum (TRACKER)
 		ach(61946),	-- Shado-Pan Monastery: Platinum (TRACKER)
@@ -994,6 +995,7 @@ root(ROOTS.HiddenAchievementTriggers, {
 		ach(61950),	-- Scholomance: Platinum (TRACKER)
 		ach(61951),	-- Siege of Niuzao Temple: Platinum (TRACKER)
 		ach(61952),	-- Stormstout Brewery: Platinum (TRACKER)
+		ach(61680),	-- [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden)
 		-- #endif
 	}),
 	expansion(EXPANSION.WOD, {

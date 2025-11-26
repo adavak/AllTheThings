@@ -3,8 +3,6 @@ ach(6337),	-- Ossirian kills (Ruins of Ahn'Qiraj)
 ach(6786),	-- Flameweaver Koegler kills (Scarlet Halls)
 ach(6941),	-- Hero of the Horde
 ach(6942),	-- Hero of the Alliance
-5.5.0.60700
-ach(42242),	-- [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) \\ [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) (copy) (copy)
 5.5.0.61217
 ach(42776),	-- Cataclysmic Gladiator
 5.5.0.61496
@@ -12,5 +10,3 @@ ach(60907),	-- Realm First! Will of the Emperor (10 player)
 ach(60908),	-- Realm First! Grand Empress Shek'zeer (10 player)
 ach(60909),	-- Realm First! Sha of Fear (10 player)
 ach(60910),	-- Realm First! Ra-den (10 player)
-5.5.2.63832
-ach(61680),	-- [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden)
