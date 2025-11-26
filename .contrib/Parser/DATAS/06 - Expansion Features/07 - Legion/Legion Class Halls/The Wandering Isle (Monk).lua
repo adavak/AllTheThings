@@ -155,7 +155,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								i(173704, {	-- Granary Jug (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
-								o(251422, {	-- Sack of Roasted Grain
+								o_repeated({	-- -- Sack of Roasted Grain
 									["coords"] = {
 										{ 51.1, 60.8, VALLEY_OF_THE_FOUR_WINDS },
 										{ 51.3, 63.3, VALLEY_OF_THE_FOUR_WINDS },
@@ -165,7 +165,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 										{ 52.6, 63.5, VALLEY_OF_THE_FOUR_WINDS },
 										{ 53.1, 60.8, VALLEY_OF_THE_FOUR_WINDS },
 									},
-									["groups"] = { i(138623) },	-- Sack of Roasted Grain (QI!)
+									["groups"] = {
+										i(138623),	-- Sack of Roasted Grain (QI!)
+										o(251422),	-- Sack of Roasted Grain
+										o(251424),	-- Sack of Roasted Grain
+									},
 								}),
 							},
 						}),
@@ -337,17 +341,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42187 },	-- Rise, Champions
 						["provider"] = { "n", 102820 },	-- Chen Stormstout
 						["coord"] = { 55.2, 57.1, THE_WANDERING_ISLE },
-						["groups"] = {
-							follower(596),	-- Chen Stormstout
-						},
+						["groups"] = { follower(596) },	-- Chen Stormstout
 					}),
 					q(40704, {	-- Champion: Li Li Stormstout
 						["sourceQuests"] = { 42187 },	-- Rise, Champions
 						["provider"] = { "n", 101046 },	-- Li Li Stormstout
 						["coord"] = { 49.1, 58.6, THE_WANDERING_ISLE },
-						["groups"] = {
-							follower(588),	-- Li Li Stormstout
-						},
+						["groups"] = { follower(588) },	-- Li Li Stormstout
 					}),
 					q(41945, {	-- Tianji of the Ox
 						["sourceQuests"] = {
@@ -377,9 +377,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42191 },	-- Tech It Up a Notch
 						["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 						["coord"] = { 51.4, 48.5, THE_WANDERING_ISLE },
-						["groups"] = {
-							i(140483),	-- Jade Fragment
-						},
+						["groups"] = { i(140483) },	-- Jade Fragment
 					}),
 					q(41728, {	-- The Defense of Tian Monastery
 						["sourceQuests"] = { 41905 },	-- Report From Tian Monastery

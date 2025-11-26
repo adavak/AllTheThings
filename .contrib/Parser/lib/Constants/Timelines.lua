@@ -569,10 +569,9 @@ REMOVED_LEGION_REMIX_END = "removed 12.0.0.99999";		-- Legion Remix ends on Janu
 CREATED_11_2_5 = "created 11.2.5.63660";				-- The War Within 11.2.5 launch on October 7th, 2025
 ADDED_11_2_5 = "added 11.2.5.63660";					-- The War Within 11.2.5 launch on October 7th, 2025
 REMOVED_11_2_5 = "removed 11.2.5.63660";				-- The War Within 11.2.5 launch on October 7th, 2025
-
-CREATED_11_2_7 = "created 11.2.7";						-- The War Within 11.2.7 launch in December 2nd, 2025
-ADDED_11_2_7 = "added 11.2.7";							-- The War Within 11.2.7 launch in December 2nd, 2025
-REMOVED_11_2_7 = "removed 11.2.7";						-- The War Within 11.2.7 launch in December 2nd, 2025
+CREATED_11_2_7 = "created 11.2.7";						-- The War Within 11.2.7 launch on December 2nd, 2025
+ADDED_11_2_7 = "added 11.2.7";							-- The War Within 11.2.7 launch on December 2nd, 2025
+REMOVED_11_2_7 = "removed 11.2.7";						-- The War Within 11.2.7 launch on December 2nd, 2025
 
 --------------
 -- MIDNIGHT --
@@ -580,9 +579,9 @@ REMOVED_11_2_7 = "removed 11.2.7";						-- The War Within 11.2.7 launch in Decem
 CREATED_12_0_0 = "created 12.0.0";						-- Midnight 12.0.0 Prepatch
 ADDED_12_0_0 = "added 12.0.0";							-- Midnight 12.0.0 Prepatch
 REMOVED_12_0_0 = "removed 12.0.0";						-- Midnight 12.0.0 Prepatch
-CREATED_12_0_0_LAUNCH = "created 12.0.0";				-- Midnight 12 Launch
-ADDED_12_0_0_LAUNCH = "added 12.0.0";					-- Midnight 12.Launch
-REMOVED_12_0_0_LAUNCH = "removed 12.0.0";				-- Midnight 12.Launch
+CREATED_12_0_0_LAUNCH = "created 12.0.0";				-- Midnight 12.0.0 Launch on March 2nd, 2026
+ADDED_12_0_0_LAUNCH = "added 12.0.0";					-- Midnight 12.0.0 Launch on March 2nd, 2026
+REMOVED_12_0_0_LAUNCH = "removed 12.0.0";				-- Midnight 12.0.0 Launch on March 2nd, 2026
 CREATED_12_0_0_SEASONSTART = "created 12.0.0";			-- Midnight 12 Seasonstart
 ADDED_12_0_0_SEASONSTART = "added 12.0.0";				-- Midnight 12.Seasonstart
 REMOVED_12_0_0_SEASONSTART = "removed 12.0.0";			-- Midnight 12.Seasonstart
