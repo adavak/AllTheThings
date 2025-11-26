@@ -8,10 +8,10 @@ root(ROOTS.Zones, {
 			n(RARES, sharedData({ 
 				-- #IF AFTER 11.2.5
 				-- #IF BEFORE 12.0.0
-				["isDaily"] = true }, -- Daily during Legion Remix 2025
+				["isDaily"] = true, -- Daily during Legion Remix 2025
 				-- #endif
 				-- #endif
-			{
+			}, {
 				n(111649, {	-- Ambassador D'vwinn
 					["questID"] = 43794,
 					["coord"] = { 54.8, 63.8, SURAMAR },
