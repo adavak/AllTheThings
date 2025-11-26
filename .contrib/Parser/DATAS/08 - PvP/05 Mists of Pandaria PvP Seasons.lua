@@ -76,6 +76,12 @@ root(ROOTS.PVP, {
 				}),
 				ach(61358, {	-- Gladiator: Season 12 (5v5)
 				}),
+				ach(61459, {	-- Malevolent Conquest
+					["races"] = HORDE_ONLY,
+				}),
+				ach(61460, {	-- Malevolent Conquest
+					["races"] = ALLIANCE_ONLY,
+				}),
 				ach(61354, {	-- Malevolent Gladiator: Season 12 (2v2)
 					title(223),	-- Malevolent Gladiator <Name>
 				}),
