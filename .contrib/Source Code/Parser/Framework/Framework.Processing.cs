@@ -873,7 +873,7 @@ namespace ATT
             // These validate functions require current heirarchy
             Validate_General(data);
             Validate_Encounter(data);
-            Validate_Criteria(data);
+            Validate_Criteria(data, parentData);
 
             // If this item has an "unobtainable" flag on it, meaning for a different phase of content.
             if (data.TryGetValue("u", out long phase))
@@ -1940,24 +1940,23 @@ namespace ATT
             }
         }
 
-        private static void Validate_Criteria(IDictionary<string, object> data)
+        private static void Validate_Criteria(IDictionary<string, object> data, IDictionary<string, object> parent)
         {
             if (!data.TryGetValue("criteriaID", out long criteriaID))
                 return;
 
-            if (CurrentParentGroup == null)
-                return;
-
-            var parent = CurrentParentGroup.Value;
-
             // criteria already has an achID or use parent group to find AchID
-            if (!data.TryGetValue("achID", out long achID) && parent.Key != "achID" & !parent.Value.TryConvert(out achID))
+            if (!data.TryGetValue("achID", out long achID))
             {
-                LogError($"Orhapned Criteria nested under a non-Achievement group! {criteriaID}", data);
-                return;
+                if (!parent.TryGetValue("achID", out achID))
+                {
+                    LogError($"Orphaned Criteria nested under a non-Achievement group! {criteriaID} ==> {ToJSON(parent)}", data);
+                }
+                else
+                {
+                    Objects.Merge(data, "achID", achID);
+                }
             }
-
-            data["achID"] = achID;
 
             // Single SourceQuests can convert to _quests for criteria cloning
             if (data.TryGetValue("sourceQuests", out List<object> questIDs) && questIDs.Count == 1)

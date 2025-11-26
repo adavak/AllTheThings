@@ -381,8 +381,6 @@ do
 		achievementID = achievementID or t.achievementID
 		if not achievementID or not critID then return end
 
-		if achievementID < 1 then app.PrintDebug("Wtf negative achievementID?",achievementID,critUID,critID) return end
-
 		local criteriaString, criteriaType, completed, quantity, reqQuantity, charName, flags, assetID, quantityString, criteriaID, eligible
 			= GetAchievementCriteriaInfoByID(achievementID, critUID)
 		-- criteriaType will exist even when criteriaString is empty, so don't need to check retrieving and stuff

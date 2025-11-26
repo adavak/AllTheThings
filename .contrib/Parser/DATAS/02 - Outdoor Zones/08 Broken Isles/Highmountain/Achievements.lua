@@ -6,10 +6,11 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(HIGHMOUNTAIN, {
 			n(ACHIEVEMENTS, {
-				ach(11264),	-- Adventurer of Highmountain (mostly-automated)
+				ach(11264, {	-- Adventurer of Highmountain (mostly-automated)
 					crit(33517, {	-- Amateur Hunters
 						["_quests"] = { 40413 },	-- Amateur Hunters rare
 					}),
+				}),
 				ach(10059),	-- Ain't No Mountain High Enough (automated)
 				ach(10398, {	-- Drum Circle
 					["description"] = "This achievement can be soloed since after 'Battle for Azeroth'. Repeatedly jump for 1-3 minutes in the middle ring on the lower floor of Thunder Totem. It CANNOT be completed while you are on 'Assault on Thunder Totem' and you must be able to hear the drum beats to know the achievement is working.",
@@ -33,6 +34,9 @@ root(ROOTS.Zones, {
 				ach(11257, {	-- Treasures of Highmountain (mostly-automated)
 					crit(33537, {	-- 40 Treasures
 						["_quests"] = { 40612 },	-- 40 Treasures
+					}),
+					crit(33517, {	-- Amateur Hunters
+						["_quests"] = { 40413 },	-- Amateur Hunters rare
 					}),
 					i(245460, {	-- Skyhorn Storage Chest (DECOR!)
 						["timeline"] = { ADDED_11_2_7 },
