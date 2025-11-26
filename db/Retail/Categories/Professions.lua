@@ -1641,7 +1641,7 @@ crit(65282,{achID=19716,id=9,providers={{"s",430599}}}),
 crit(65283,{achID=19716,id=10,providers={{"s",430600}}}),
 crit(65280,{achID=19716,id=7,providers={{"s",430597}}})}})}}),
 h(-45,{requireSkill=171,g={
-q(84133,{coords={a[442]},isWeekly=1,lvl=68,maxReputation=a[229],qgs=a[226],requireSkill=171,g={
+q(84133,{coords={a[442]},isWeekly=1,lvl=68,qgs=a[226],requireSkill=171,g={
 i(228773,{b=1,isWeekly=1,requireSkill=171,spellID=463199})}})}}),
 flt(200,{description="These are learned by specialization.",requireSkill=171,g={
 r(432962,{cost={{"c",2785,1}},learnedAt=100,requireSkill=171}),

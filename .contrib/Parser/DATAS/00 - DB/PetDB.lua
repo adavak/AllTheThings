@@ -4483,6 +4483,7 @@ i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 ------------------
 -- PATCH 11.2.5 --
 ------------------
+i(252200, 4900);	-- Bundled-up Bob
 i(246339, 4854);	-- Duskytooth Fel Snooter
 i(252301, 4901);	-- Fledgeling Warden's Companion
 i(257518, 4908);	-- Lil' Ashlee
@@ -4493,7 +4494,6 @@ i(253699, 4903);	-- Starshard Whelpling
 i(239699, 4801);	-- Tidbit
 
 --- UNSORTED ---
-i(252200, 4900);	-- Bundled-up Bob
 i(252199, 4899);	-- Festive Eve
 i(252194, 4897);	-- Fishmonger May
 i(252195, 4898);	-- Fishstick Keith

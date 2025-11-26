@@ -2201,6 +2201,8 @@ i(250429, 1250886);	-- Highland Elderhorn
 i(250926, 1251680);	-- Highlands Gobbler
 i(250427, 1250884);	-- Illidari Blightstalker
 i(250428, 1250882);	-- Illidari Dreadstalker
+i(211085, 428062);	-- Jeweled Sapphire Scarab
+i(248994, 1248309);	-- Kalu'ak Crest-horn
 i(242795, 1233925);	-- Lana'Thel's Crimson Cascade
 i(250424, 1250879);	-- Leystone Basilisk
 i(250805, 1251399);	-- Longhorned Argussian Talbuk
@@ -2232,8 +2234,6 @@ i(250108, 1250288);	-- Cragstepper Crest-horn
 i(250106, 1250287);	-- Floestrider Crest-horn
 i(239686, 1229286);	-- Forgotten Fel Bat
 i(243194, 1234971);	-- Grandiose Grrloc
-i(211085, 428062);	-- Jeweled Sapphire Scarab
-i(248994, 1248309);	-- Kalu'ak Crest-horn
 i(250726, 1251257);	-- Leyfrost Manasaber
 i(250727, 1251264);	-- Nightwell Manasaber
 i(239666, 1229278);	-- Risen Fel Bat

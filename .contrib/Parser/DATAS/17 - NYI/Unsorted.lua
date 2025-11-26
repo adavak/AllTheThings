@@ -5840,32 +5840,27 @@ root(ROOTS.Unsorted, {
 			i(248729),	-- Steaming Pot of Stew
 			i(248730),	-- Weathered Pot of Stew
 			i(248732),	-- Stolen Pot of Stew
-			i(248733),	-- Frozen Dirk of the Ice Queen
 			i(248734),	-- Fiery Dirk of the Ice Queen
 			i(248735),	-- Arcane Dirk of the Ice Queen
 			i(248736),	-- Glowing Dirk of the Ice Queen
 			i(248737),	-- Well-Used Great Steak Knife
 			i(248738),	-- Used Great Steak Knife
 			i(248739),	-- Dull Great Steak Knife
-			i(248812),	-- Frozen Wand of the Ice Queen
 			i(248816),	-- Fiery Wand of the Ice Queen
 			i(248817),	-- Arcane Wand of the Ice Queen
 			i(248818),	-- Glowing Wand of the Ice Queen
-			i(248827),	-- Frozen Great Axe of the Frostwolf
 			i(248828),	-- Fiery Great Axe of the Frostwolf
 			i(248829),	-- Arcane Great Axe of the Frostwolf
 			i(248830),	-- Glowing Great Axe of the Frostwolf
 			i(248832),	-- Big Bronze Fork
 			i(248839),	-- Big Iron Fork
 			i(248841),	-- Big Silver Fork
-			i(248912),	-- Frozen Warglaives of the North
 			i(248913),	-- Fiery Warglaives of the North
 			i(248914),	-- Arcane Warglaives of the North
 			i(248915),	-- Glowing Warglaives of the North
 			i(248923),	-- Unfathomably Stale Bread
 			i(248924),	-- Stale Mulgore Spice Bread
 			i(248925),	-- Months Old Rye Bread \\ Months Old Sourdough Bread
-			i(248994),	-- Kalu'ak Crest-Horn \\ Kalu'ak Crest-horn
 			i(249717),	-- Golden Food Fanatic Backpack
 			i(249718),	-- Bronze Food Fanatic Backpack
 			i(249719),	-- Fine Food Fanatic Backpack \\ Silver Food Fanatic Backpack
@@ -5880,7 +5875,6 @@ root(ROOTS.Unsorted, {
 			i(249733),	-- Noble's Winter Boots \\ [PH] Blue Winter Feet
 			i(249734),	-- Noble's Winter Gloves \\ [PH] Blue Winter Hands
 			i(249735),	-- Noble's Winter Cloak \\ [PH] Blue Winter Cloak
-			i(249736),	-- Ensemble: The Noble's Winter Collection \\ [PH] Ensemble: The Icy Winter Collection
 			i(249737),	-- Seafarer's Winter Hood \\ [PH] Teal Winter Helm
 			i(249738),	-- Seafarer's Winter Pauldrons \\ [PH] Teal Winter Armored Shoulder
 			i(249739),	-- Seafarer's Winter Tunic \\ [PH] Teal Winter Chest
@@ -6011,28 +6005,20 @@ root(ROOTS.Unsorted, {
 			i(251870),	-- Offhand Bunch of Orange Chile
 			i(251872),	-- Offhand Bunch of Red Chile
 			i(251873),	-- Offhand Bunch of Yellow Chile
-			i(251964),	-- Frost Marshal's Carbine
-			i(251966),	-- Libram of Azure Light
-			i(251971),	-- Tome of Cerulean Ciphers
-			i(251972),	-- Sapphire Scarab Bulwark
 			i(251985),	-- Trapper's Black Quiver
 			i(251986),	-- Trapper's Blue Quiver
 			i(251987),	-- Trapper's Brown Quiver
 			i(251988),	-- Trapper's Dark Brown Quiver
-			i(251989),	-- Frostwolf Hunting Quiver \\ Trapper's Frost Quiver
 			i(251990),	-- Trapper's Light Brown Quiver
 			i(251991),	-- Trapper's Red Quiver
 			i(251992),	-- Trapper's Purple Quiver
-			i(251995),	-- Trapper's Blue Slippers
 			i(252137),	-- Lil' Chompers
 			i(252193),	-- Slippery Saul
 			i(252194),	-- Fishmonger May
 			i(252195),	-- Fishstick Keith
 			i(252199),	-- Festive Eve
-			i(252200),	-- Bundled-Up Bob \\ Bundled-up Bob
 			i(252656),	-- K'areshi Scientific Expedition Supply
 			i(252710),	-- Midnight Winter Toque \\ Midnight Winter Hat
-			i(252711),	-- Azure Winter Toque \\ Azure Winter Hat
 			i(252712),	-- Sepia Winter Toque \\ Sepia Winter Hat
 			i(252713),	-- Grassy Winter Toque \\ Grassy Winter Hat
 			i(252714),	-- Cloudy Winter Toque \\ Cloudy Winter Hat

@@ -43788,7 +43788,7 @@ i(138728,{f=55,pvp=1,spellID=216805}),
 i(138479,{b=1,f=55,pvp=1,spellID=216333}),
 i(138488,{f=55,pvp=1,spellID=216468}),
 i(138486,{f=55,pvp=1,spellID=216431})}}),
-i(135539,{b=1,description="Rewarded for winning a random battleground below max level.",pvp=1,g={
+i(135539,{b=1,description="System.Collections.Generic.List`1[System.Object]",pvp=1,g={
 s(77823,134643,{b=1,f=4,pvp=1}),
 s(77822,134642,{b=1,f=4,pvp=1}),
 s(77820,134640,{b=1,f=4,pvp=1}),

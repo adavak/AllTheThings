@@ -792,9 +792,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(211086, {	-- Jeweled Jade Scarab (MOUNT!)
 				["displayID"] = 114744,
 			}),
-			i(211085, {	-- Jeweled Sapphire Scarab (MOUNT!)
-				["displayID"] = 114737,
-			}),
 			-- Without MountID Attached
 			i(210140, {	-- [PH] Black-Furred Bakar (MOUNT!)
 				-- ["displayID"] = ,

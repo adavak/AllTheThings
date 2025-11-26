@@ -904,11 +904,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
 			n(SETS, {
 
-				------ Azure Sweatsuit Set ------
-				i(242456),	-- Ensemble: Azure Sweatsuit
-				i(242437),	-- Azure Sweatpants
-				i(242408),	-- Azure Sweatshirt
-
 				------ Banshee's Chilling Set ------
 				i(244223),	-- Ensemble: Banshee's Chilling Collection
 				i(244206),	-- Banshee's Chilling Chestplate
@@ -999,14 +994,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242457),	-- Ensemble: Sepia Sweatsuit
 				i(242438),	-- Sepia Sweatpants
 				i(242409),	-- Sepia Sweatshirt
-
-				------ Squall Braced Attire Set ------
-				i(242344),	-- Ensemble: Squall Braced Attire
-				i(242328),	-- Squall Braced Belt
-				i(242336),	-- Squall Braced Coat
-				i(242324),	-- Squall Braced Galoshes
-				i(242340),	-- Squall Braced Hood
-				i(242332),	-- Squall Braced Pants
 
 				------ Sunny Sweatsuit Set ------
 				i(242492),	-- Ensemble: Sunny Sweatsuit

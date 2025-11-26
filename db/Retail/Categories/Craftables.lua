@@ -8595,11 +8595,6 @@ i(136689,{f=54,lvl=45})}),
 flt(102,{
 toy(128536)})}}),
 prof(202,{awp=70003,g={
-flt(101,{
-p(1886,{itemID=132519,npcID=106210,spellID=210696})}),
-flt(102,{
-toy(132518),
-toy(151652,{awp=70300,lvl=39,requireSkill=202})}),
 h(-88,{
 s(76356,132500,{f=4,learnedAt=1,lvl=40,requireSkill=202,spellID=226221}),
 s(76358,132502,{f=6,learnedAt=1,lvl=40,requireSkill=202,spellID=226221}),
@@ -8613,6 +8608,8 @@ s(76361,132505,{f=5,learnedAt=1,lvl=45,requireSkill=202,spellID=201360}),
 s(76360,132504,{f=4,learnedAt=1,lvl=45,requireSkill=202,spellID=201360}),
 s(76357,132501,{f=5,learnedAt=1,lvl=40,requireSkill=202,spellID=226221}),
 s(84517,144331,{awp=70105,f=4,learnedAt=1,lvl=45,requireSkill=202,spellID=201360})}),
+flt(101,{
+p(1886,{itemID=132519,npcID=106210,spellID=210696})}),
 flt(54,{
 i(136687,{f=54,lvl=45}),
 i(136688,{f=54,lvl=45})}),
@@ -8637,7 +8634,10 @@ cq(40732,{itemID=132525,requireSkill=202,spellID=200087}),
 cq(40735,{b=1,itemID=132529,requireSkill=202,spellID=200145}),
 cq(40738,{itemID=132524,requireSkill=202,spellID=200149}),
 i(144341,{awp=70105,b=1,f=55,requireSkill=202,spellID=200061}),
-i(132982,{spellID=210563})})}}),
+i(132982,{spellID=210563})}),
+flt(102,{
+toy(132518),
+toy(151652,{awp=70300,lvl=39,requireSkill=202})})}}),
 prof(356,{awp=70003,g={
 i(133742,{b=1,lvl=39,requireSkill=356,spellID=201826}),
 i(133733,{b=1,lvl=39,requireSkill=356,spellID=201826}),

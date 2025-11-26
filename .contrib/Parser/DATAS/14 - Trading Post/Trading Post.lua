@@ -1692,6 +1692,48 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(95, i(251671)),	-- Wearable Copper Pot Lid
 			}),
 		})),
+		n(DECEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.2.5.64154", "removed 11.2.7.99999" } }, {	-- TODO: Timeline in/out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				i(211085),	-- Jeweled Sapphire Scarab (MOUNT!)
+			}),
+			filter(MOUNTS, {
+				traderstender(500, i(248994)),	-- Kalu'ak Crest-Horn (MOUNT!)
+				traderstender(750, i(212228)),	-- Reins of the Soaring Sky Fox (MOUNT!)
+			}),
+			filter(BATTLE_PETS, {
+				traderstender(250, i(252200)),	-- Bundled-Up Bob (PET!)
+			}),
+			filter(COSMETIC, {
+				traderstender(300, i(230853)),	-- Aegis of Yuletide
+				traderstender(50, i(252711)),	-- Azure Winter Toque
+				traderstender(600, i(210843)),	-- Candied Blade
+				traderstender(400, i(229961)),	-- Candied Knife
+				traderstender(450, i(229960)),	-- Cheerbringer XL
+				traderstender(100, iensemble(242456)),	-- Ensemble: Azure Sweatsuit
+				traderstender(750, iensemble(212221)),	-- Ensemble: Sky Witch's Attire
+				traderstender(375, iensemble(242344)),	-- Ensemble: Squall Braced Attire
+				traderstender(100, iensemble(230174)),	-- Ensemble: Prowler's Icy Headgear
+				traderstender(600, iensemble(249736)),	-- Ensemble: The Noble's Winter Collection
+				traderstender(200, i(251964)),	-- Frost Marshal's Carbine
+				traderstender(170, i(229720)),	-- Frostwolf Earmuffs
+				traderstender(100, i(251989)),	-- Frostwolf Hunting Quiver
+				traderstender(170, i(248733)),	-- Frozen Dirk of the Ice Queen
+				traderstender(260, i(248827)),	-- Frozen Great Axe of the Frostwolf
+				traderstender(170, i(248812)),	-- Frozen Wand of the Ice Queen
+				traderstender(175, i(248912)),	-- Frozen Warglaives of the North
+				traderstender(450, i(229963)),	-- Great Candied Blade
+				traderstender(75, i(251966)),	-- Libram of Azure Light
+				traderstender(170, i(229714)),	-- Lion's Crest Earmuffs
+				traderstender(300, i(229817)),	-- Lovely Airy Longbow
+				traderstender(75, i(230043)),	-- Prowler's Icy Shoulder Cape
+				traderstender(100, i(251972)),	-- Sapphire Scarab Bulwark
+				traderstender(250, i(229815)),	-- Sky Witch's Airy Stave
+				traderstender(200, i(229816)),	-- Sky Witch's Airy Wand
+				traderstender(75, i(251971)),	-- Tome of Cerulean Ciphers
+				traderstender(40, i(251995)),	-- Trapper's Blue Slippers
+				traderstender(400, i(229962)),	-- Tree Topper
+			}),
+		})),
 	}),
 }));
 
