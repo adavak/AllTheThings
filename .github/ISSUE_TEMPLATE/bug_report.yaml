@@ -9,7 +9,7 @@ body:
       label: "Which flavo(u)r of WoW are you using?"
       description: "Select the versions of World of Warcraft."
       options:
-        - "MidNight beta"
+        - "Midnight beta"
         - "Retail"
         - "MoP Classic"
         - "Classic Era"
