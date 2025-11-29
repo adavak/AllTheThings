@@ -34,10 +34,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["timeline"] = { ADDED_11_2_7 },
 					}),
 				}),
-				ach(61467, {	-- Lorewalking: The Elves of Quel'thalas
-					["timeline"] = { ADDED_11_2_7 },
+				ach(61467, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Lorewalking: The Elves of Quel'thalas
 					["groups"] = { i(245332) },	-- Tome of Silvermoon Intrigue (DECOR!)
-				}),
+				})),
 				ach(42189, {	-- Lorewalking: The Lich King
 					i(257351, {	-- Tale of the Penultimate Lich King (DECOR!)
 						["timeline"] = { ADDED_11_2_7 },
@@ -52,12 +51,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 			n(QUESTS, {
 				q(90705, {	-- Lorewalking
 					["isBreadcrumb"] = true,	-- speculation
-					-- auto-pop at login on ptr build 60520 @ 80s character
+					-- auto-pop at login @ 80s character
 				}),
 				-- Only quests that throw reports and not repeated (already sorted) quest in chain
 				header(HEADERS.Achievement, 42188, {	-- Lorewalking: Blade's Bane
 					q(84371, {	-- Lorewalking: The Blade and the High Priest
-						-- ["sourceQuests"] = { 90705 },	-- Lorewalking
 						-- Alex: when I picked up this quest - it flag 40706 & 42074 as completed
 						["provider"] = { "n", 232441 },	-- Lorewalker Cho
 						["coords"] = {
@@ -129,7 +127,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 				}),
 				header(HEADERS.Achievement, 42187, {	-- Lorewalking: Ethereal Wisdom
 					q(85027, {	-- Lorewalking: The Protectorate
-						-- ["sourceQuests"] = { 90705 },	-- Lorewalking
 						["provider"] = { "n", 232441 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
@@ -172,12 +169,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						},
 					}),
 				}),
-				-- header(HEADERS.Achievement, 61467, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Lorewalking: The Elves of Quel'thalas
-					-- Not available on PTR or Beta... I guess we'll see it when 11.2.7 goes live...
-				-- })),
+				header(HEADERS.Achievement, 61467, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Lorewalking: The Elves of Quel'thalas
+					-- Exo Note: Reuses parts of the "Blood Elf Heritage" and Allied Race "Nightborne" and "Void Elves" quests, that throw contrib errors because of the wrong sourceQuests
+					q(85252, {	-- Lorewalking: Children of the Blood
+						["provider"] = { "n", 230246 },	-- Lorewalker Cho
+						["coords"] = {
+							{ 49.5, 31.6, DORNOGAL },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
+						},
+						["isRepeatable"] = true,
+					}),
+					q(85254, {	-- Lorewalking: Children of the Void
+						["sourceQuests"] = { 85252 },	-- Lorewalking: Children of the Blood
+						["provider"] = { "n", 234616 },	-- Lorewalker Cho
+						["coords"] = {
+							{ 49.5, 31.6, DORNOGAL },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
+						},
+						["isRepeatable"] = true,
+					}),
+				})),
 				header(HEADERS.Achievement, 42189, {	-- Lorewalking: The Lich King
 					q(85884, {	-- Lorewalking: The Prince Who Would Be King
-						-- ["sourceQuests"] = { 90705 },	-- Lorewalking
 						["provider"] = { "n", 230246 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
