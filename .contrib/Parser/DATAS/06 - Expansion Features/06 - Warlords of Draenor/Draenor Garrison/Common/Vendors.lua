@@ -1,7 +1,6 @@
 -------------------------------------------------------------------
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
-local RECIPE_UNLEARNABLE;
 local ALCHEMICAL_CATALYST = 108996;
 local BLACKROCK_ORE = 109118;
 local CERULEAN_PIGMENT = 114931;
@@ -43,11 +42,11 @@ local FUR_TRADER = {
 	}),
 	i(127724, {	-- Pattern: Mighty Hexweave Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
 		["cost"] = {{ "i", SUMPTUOUS_FUR, 60 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 	}),
 	i(122549, {	-- Pattern: Powerful Hexweave Essence (RECIPE!)
 		["cost"] = {{ "i", SUMPTUOUS_FUR, 60 }},
@@ -55,22 +54,22 @@ local FUR_TRADER = {
 	}),
 	i(127742, {	-- Pattern: Savage Hexweave Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
 		["cost"] = {{ "i", SUMPTUOUS_FUR, 60 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 	}),
 };
 local HERB_TRADER = {
 	PRIMAL_SPIRIT,
 	i(128161, {	-- Recipe: Elemental Distillate (RECIPE!)
 		-- #if AFTER 9.0.1
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #endif
 		["cost"] = {{ "i", ALCHEMICAL_CATALYST, 10 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 }
+		["timeline"] = { ADDED_6_2_0 }
 	}),
 	i(122710, {	-- Recipe: Primal Alchemy (RECIPE!)
 		["cost"] = {{ "i", STARFLOWER, 60 }},
@@ -80,11 +79,11 @@ local HERB_TRADER = {
 	}),
 	i(128160, {	-- Recipe: Wildswater (RECIPE!)
 		-- #if AFTER 9.0.1
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #endif
 		["cost"] = {{ "i", ALCHEMICAL_CATALYST, 10 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 }
+		["timeline"] = { ADDED_6_2_0 }
 	}),
 	i(128410, {	-- Technique: Mass Mill Fireweed (RECIPE!)
 		["cost"] = {{ "i", CERULEAN_PIGMENT, 20 }},
@@ -106,33 +105,33 @@ local HERB_TRADER = {
 	}),
 	i(127723, {	-- Technique: Mighty Ensorcelled Tarot (RECIPE!)
 		-- #if AFTER 9.0.1
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #endif
 		["cost"] = {{ "i", CERULEAN_PIGMENT, 20 }},
 	}),
 	i(127728, {	-- Technique: Mighty Weapon Crystal (RECIPE!)
 		-- #if AFTER 9.0.1
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #endif
 		["cost"] = {{ "i", CERULEAN_PIGMENT, 20 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 	}),
 	i(127741, {	-- Technique: Savage Ensorcelled Tarot (RECIPE!)
 		-- #if AFTER 9.0.1
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #endif
 		["cost"] = {{ "i", CERULEAN_PIGMENT, 20 }},
 	}),
 	i(127746, {	-- Technique: Savage Weapon Crystal (RECIPE!)
 		-- #if AFTER 9.0.1
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #endif
 		["cost"] = {{ "i", CERULEAN_PIGMENT, 20 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 	}),
 	i(122713, {	-- Technique: The Spirit of War (RECIPE!)
 		["cost"] = {{ "i", CERULEAN_PIGMENT, 20 }},
@@ -171,11 +170,11 @@ local LEATHER_TRADER = {
 	PRIMAL_SPIRIT,
 	i(127722, {	-- Pattern: Mighty Burnished Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
 		["cost"] = {{ "i", RAW_BEAST_HIDE, 60 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 	}),
 	i(122547, {	-- Pattern: Powerful Burnished Essence (RECIPE!)
 		["cost"] = {{ "i", RAW_BEAST_HIDE, 60 }},
@@ -183,11 +182,11 @@ local LEATHER_TRADER = {
 	}),
 	i(127740, {	-- Pattern: Savage Burnished Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
 		["cost"] = {{ "i", RAW_BEAST_HIDE, 60 }},
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 	}),
 	i(122715, {	-- Pattern: Spiritual Leathercraft (RECIPE!)
 		["cost"] = {{ "i", RAW_BEAST_HIDE, 60 }},
@@ -197,10 +196,10 @@ local ORE_TRADER = {
 	PRIMAL_SPIRIT,
 	i(127726, {	-- Design: Mighty Taladite Amplifier (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(122551, {	-- Design: Powerful Taladite Amplifier (RECIPE!)
@@ -212,26 +211,26 @@ local ORE_TRADER = {
 	}),
 	i(127744, {	-- Design: Savage Taladite Amplifier (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(127725, {	-- Plans: Mighty Steelforged Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(127727, {	-- Plans: Mighty Truesteel Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", TRUE_IRON_ORE, 60 }},
 	}),
 	i(122550, {	-- Plans: Powerful Steelforged Essence (RECIPE!)
@@ -247,42 +246,42 @@ local ORE_TRADER = {
 	}),
 	i(127743, {	-- Plans: Savage Steelforged Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(127745, {	-- Plans: Savage Truesteel Essence (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", TRUE_IRON_ORE, 60 }},
 	}),
 	i(127729, {	-- Schematic: Advanced Muzzlesprocket (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", TRUE_IRON_ORE, 60 }},
 	}),
 	i(127721, {	-- Schematic: Bi-Directional Fizzle Reducer (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(127739, {	-- Schematic: Infrablue-Blocker Lenses (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", BLACKROCK_ORE, 60 }},
 	}),
 	i(122546, {	-- Schematic: Oglethorpe's Octagonal Lenses (RECIPE!)
@@ -298,10 +297,10 @@ local ORE_TRADER = {
 	}),
 	i(127747, {	-- Schematic: Taladite Firing Pin (RECIPE!)
 		-- #IF AFTER 10.0.5
-		["description"] = RECIPE_UNLEARNABLE,
+		["u"] = UNLEARNABLE,
 		["collectible"] = false,	-- item still exists on vendor, but not usable/learnable so we have to mark it as not collectible
 		-- #ENDIF
-		["timeline"] = { ADDED_6_2_0, REMOVED_10_0_5 },
+		["timeline"] = { ADDED_6_2_0 },
 		["cost"] = {{ "i", TRUE_IRON_ORE, 60 }},
 	}),
 };
