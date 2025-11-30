@@ -643,6 +643,7 @@ HeaderAssignments = {
 	["Work Orders"] = -131,
 	["Workshop"] = -375,
 	["World Bosses"] = -61,
+	["World Drops"] = -698,
 	["World PvP"] = -488,
 	["World Quests"] = -62,
 	["Worldsoul Memory"] = -473,
@@ -682,4 +683,4 @@ HeaderAssignments = {
 	["Zskera Vaults"] = -403,
 	["Zul'Gurub Hakkar Hardmode"] = -697,
 };
-NextHeaderID = -698;
+NextHeaderID = -699;

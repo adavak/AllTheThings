@@ -14,6 +14,70 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(QUESTS),
 			d(DIFFICULTY.SOD.PLAYER20, {
 				["groups"] = {
+					header(HEADERS.Item, 239301, {	-- Corrupted Ashbringer
+						["classes"] = { HUNTER, PALADIN, WARRIOR },
+						["isRaid"] = true,
+						["groups"] = {
+							q(89445, {	-- Blades of Light
+								["cost"] = {
+									{ "i", 239196, 1 },	-- Ruined Lightforged Blade
+								},
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["lvl"] = 60,
+							}),
+							q(89446, {	-- The Lost Craftsman
+								["sourceQuest"] = 89445,	-- Blades of Light
+								["qg"] = 16376,	-- Craftsman Wilhelm
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["maps"] = { NAXXRAMAS },
+							}),
+							q(89447, {	-- Extravagant Tastes
+								["sourceQuest"] = 89446,	-- The Lost Craftsman
+								["qg"] = 16365,	-- Master Craftsman Omarion
+								["cost"] = {
+									{ "i", 21023, 10 },	-- Dirge's Kickin' Chimaerok Chops
+								},
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["maps"] = { NAXXRAMAS },
+							}),
+							q(89448, {	-- Gathering Light
+								["sourceQuest"] = 89447,	-- Extravagant Tastes
+								["qg"] = 16365,	-- Master Craftsman Omarion
+								["cost"] = {
+									{ "i", 239216, 12 },	-- Lightforged Iron
+								},
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["maps"] = { NAXXRAMAS },
+							}),
+							q(89449, {	-- The Radiant Forge
+								["sourceQuest"] = 89448,	-- Gathering Light
+								["qg"] = 16365,	-- Master Craftsman Omarion
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["maps"] = { NAXXRAMAS },
+							}),
+							q(89237, {	-- This Could Get Expensive...
+								["sourceQuest"] = 89449,	-- The Radiant Forge
+								["qg"] = 16365,	-- Master Craftsman Omarion
+								["cost"] = {
+									{ "i", 12360, 20 },	-- Arcanite Bar
+									{ "i", 234003, 20 },	-- Obsidian-Infused Thorium Bar
+									{ "i", 6037, 120 },	-- Truesilver Bar
+									{ "i", 12364, 10 },	-- Huge Emerald
+									{ "i", 12811, 20 },	-- Righteous Orb
+								},
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["maps"] = { NAXXRAMAS },
+							}),
+							q(89304, {	-- The Perfect Metal
+								["sourceQuest"] = 89237,	-- This Could Get Expensive...
+								["qg"] = 16365,	-- Master Craftsman Omarion
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+								["maps"] = { NAXXRAMAS },
+							}),
+							-- to be continued
+							-- https://www.wowhead.com/classic/guide/season-of-discovery/ashbringer-unlock-questline
+						},
+					}),
 					n(11036, {	-- Leonid Barthalomew the Revered <The Argent Dawn>
 						["coords"] = {
 							{ 81.6, 57.8, EASTERN_PLAGUELANDS },	-- Leonid Barthalomew the Revered <The Argent Dawn>
@@ -260,7 +324,23 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(238305),	-- Pattern: Scarlet Augur's Soles (RECIPE!)
 						i(238303),	-- Pattern: Scarlet Augur's Strap (RECIPE!)
 					}),
-					n(COMMON_BOSS_DROPS),
+					n(COMMON_BOSS_DROPS, {
+						["crs"] = {
+							240811,	-- Balnazzar
+							240812,	-- High Commander Beatrix
+							238954,	-- Solidstraza
+							240794,	-- Alexei the Beastlord
+							241021,	-- Mason the Echo <Grand Admiral>
+							240810,	-- Doan
+							240795,	-- Herod <The Scarlet Champion>
+							240809,	-- Vishas
+							243021,	-- Lilian Voss
+							241006,	-- Grand Crusader Caldoran
+						},
+						["groups"] = {
+							i(239216),	-- Lightforged Iron
+						},
+					}),
 					e(3185, {	-- Balnazzar
 						["creatureID"] = 240811,
 						["groups"] = {
@@ -280,7 +360,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(241157),	-- Scarlet Chestplate
 							i(241178),	-- Stalwart Pain Plate
 							i(240839),	-- Thalkituun, the Unseen Guest
-							i(242365),	-- Wing of Balnazzar
+							i(242365),	-- Wing of Balnazzar (QUEST!)
 						},
 					}),
 					e(3187, {	-- High Commander Beatrix
@@ -291,7 +371,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(239718),	-- Consecrated Belt
 							i(239756),	-- Consecrated Girdle
 							i(239760),	-- Consecrated Waistguard
-							i(239694),	-- Covenant of Light
+							i(239694),	-- Covenant of Light (MOUNT!)
 							i(241076),	-- Cowl of the Covenant
 							i(241170),	-- Enclave Protectors
 							i(240997),	-- Fratley's Spur
@@ -305,7 +385,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(238308),	-- Pattern: Scarlet Infiltrator's Vest
 							i(238316),	-- Pattern: Scarlet Huntsman's Chain
 							i(238324),	-- Plans: Scarlet Soldier's Chestplate
-							i(239196),	-- Ruined Lightforged Blade
+							i(239196, {	-- Ruined Lightforged Blade (QUEST!)
+								["classes"] = { HUNTER, PALADIN, WARRIOR },
+							}),
 							i(241027),	-- Shield Warden's Guard
 							i(241068),	-- Stiltz's Standard
 							-- 2x crafting pattern
@@ -323,7 +405,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(240850),	-- Lightfist Hammer
 							i(239216),	-- Lightforged Iron
 							i(241180),	-- Lightscale Leggings
-							i(242364),	-- Mature Light Dragon Sinew
+							i(242364),	-- Mature Light Dragon Sinew (QUEST!)
 							i(241186),	-- Polished Scarlet Mail Boots
 							i(241002),	-- Remnants of the Red
 							i(240174),	-- Solistra, Fang of the First Light
@@ -435,7 +517,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["groups"] = {
 							i(241029),	-- Baelin's Band
 							i(241172),	-- Caldoran's Locked Gauntlets
-							i(239215),	-- Charred Emblem
+							i(239215),	-- Charred Emblem (QUEST!)
 							i(239715),	-- Consecrated Robe
 							i(239731),	-- Consecrated Tunic
 							i(239761),	-- Consecrated Breastplate
@@ -443,25 +525,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(239117),	-- Crusader's Chalice
 							i(240841),	-- High Commander's Guard
 							i(239696),	-- Hilt of the Ashbringer
-							i(242366),	-- Inescapable Fate
+							i(242366),	-- Inescapable Fate (QUEST!)
 							i(241039),	-- Infusion of Souls
 							i(240920),	-- Leogan
 							i(239216),	-- Lightforged Iron
 							i(238298),	-- Pattern: Scarlet Augur's Hood (RECIPE!)
 							i(238299),	-- Pattern: Scarlet Augur's Mantle (RECIPE!)
 							i(238300),	-- Pattern: Scarlet Augur's Vestaments (RECIPE!)
-							i(238306),	-- Pattern: Scarlet Infiltrator's Bandana
-							i(238307),	-- Pattern: Scarlet Infiltrator's Shoulderpads
-							i(238308),	-- Pattern: Scarlet Infiltrator's Vest
-							i(238314),	-- Pattern: Scarlet Huntsman's Coif
-							i(238315),	-- Pattern: Scarlet Huntsman's Pauldrons
-							i(238316),	-- Pattern: Scarlet Huntsman's Chain
-							i(238322),	-- Plans: Scarlet Soldier's Helmet
-							i(238323),	-- Plans: Scarlet Soldier's Spaulders
-							i(238324),	-- Plans: Scarlet Soldier's Chestplate
+							i(238306),	-- Pattern: Scarlet Infiltrator's Bandana (RECIPE!)
+							i(238307),	-- Pattern: Scarlet Infiltrator's Shoulderpads (RECIPE!)
+							i(238308),	-- Pattern: Scarlet Infiltrator's Vest (RECIPE!)
+							i(238314),	-- Pattern: Scarlet Huntsman's Coif (RECIPE!)
+							i(238315),	-- Pattern: Scarlet Huntsman's Pauldrons (RECIPE!)
+							i(238316),	-- Pattern: Scarlet Huntsman's Chain (RECIPE!)
+							i(238322),	-- Plans: Scarlet Soldier's Helmet (RECIPE!)
+							i(238323),	-- Plans: Scarlet Soldier's Spaulders (RECIPE!)
+							i(238324),	-- Plans: Scarlet Soldier's Chestplate (RECIPE!)
 							i(240851),	-- Regicide
 							i(241032),	-- Ring of Resurrection
-							i(239695),	-- Scarlet Steed
+							i(239695),	-- Scarlet Steed (MOUNT!)
 							i(240921),	-- Scarlet Smashbringer
 							i(241024),	-- Scarlet Commander's Cape
 							i(241006),	-- Spire of Sacrifice

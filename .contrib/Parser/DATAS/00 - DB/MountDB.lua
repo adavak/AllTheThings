@@ -33,6 +33,10 @@ i(236663, 0); -- Reins of Conquest
 i(236664, 0); -- Reins of Death
 i(236665, 0); -- Reins of Famine
 
+-- Phase 8
+i(239694, 0); -- Covenant of Light 
+i(239695, 0); -- Scarlet Steed
+
 -- TBC Classic --
 i(184865, 348459);	-- Reawakened Phase-Hunter
 
