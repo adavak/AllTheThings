@@ -5,6 +5,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(AZJ_KAHET, {
 		explorationHeader({
 			exploration(14758),	-- Arathi's End
+			map_exploration(14752,{coord={24.7,28.0,AZJ_KAHET}}),	-- Azj-Kahet
 			exploration(14763),	-- Breathing Pit
 			visit_exploration(14952,{coord={62.1,24.3,AZJ_KAHET}}),	-- Crawling Chasm
 			visit_exploration(15474,{coord={68.8,80.7,AZJ_KAHET}}),	-- Deepwalker Pass

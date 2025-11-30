@@ -8667,21 +8667,17 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(82200),	-- TWW Alpha/Beta Questauren Ringing Deeps skip
 			q(82201),	-- TWW Alpha/Beta Questauren Hallowfall skip
 			q(82202),	-- TWW Alpha/Beta Questauren Azj-Kahet skip
-			q(82366, {	-- DO NOT USE
-			-- ["provider"] = { "n", 221390 },	-- Waxmonger Squick <Quatermaster>
-			-- ["coord"] = { 47.5, 32.8, THE_RINGING_DEEPS },
-			-- ["groups"] = {
-			-- 	i(226146),	-- Handful of Humming Shinies
-			-- },
-			}),
-			q(82421, {	-- For Your Next Delve
-			-- ["provider"] = { "n", 223750 },	-- Lady Vinazian <Severed Threads Quartermaster>
-			-- ["coord"] = { 55.3, 41.2, AZJ_KAHET },
-			}),
+			q(82366),	-- DO NOT USE
+			q(82421),	-- For Your Next Delve
 			q(85725),	-- (Argent Dawn Valor Token)
 			q(85726),	-- (Argent Dawn Valor Token)
 			q(85727),	-- (Death's Bargaining Chip)
 			q(85728),	-- (Death's Bargaining Chip)
+		})),
+
+		-- 11.0.2
+		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
+			q(84694),	-- Weaver's Lair Profession Table
 		})),
 
 		-- 11.1.0

@@ -691,16 +691,13 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 		-- 11.0.2
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
 			-- Zone: Dornogal
-			exploration(15329),	-- Delver's Headquarters
 			-- Sub-zone:
 			exploration(15051),	-- Chamber of Heart
 
 			-- Zone: Isle of Dorn
-			exploration(14717),	-- Isle of Dorn
 			exploration(15525),	-- The Great Sea
 
 			-- Zone: The Rinding Deeps
-			exploration(14795),	-- The Ringing Deeps
 			exploration(14807),	-- The Glittering Shelf
 			exploration(14818),	-- Darkflame Cleft Exterior
 			exploration(14823),	-- <Unnamed POI 007>
@@ -719,12 +716,10 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			exploration(14836),	-- <Unnamed POI 020>
 
 			-- Zone: Hallowfall
-			exploration(14838),	-- Hallowfall
 			exploration(14920),	-- The Basin
 			exploration(15552),	-- The Undersea
 
 			-- Zone: Azj-Kahet
-			exploration(14752),	-- Azj-Kahet
 			exploration(14753),	-- City of Threads
 			exploration(14903),	-- Deepstrike Point
 			exploration(15359),	-- Sundered's Crucible
@@ -758,47 +753,6 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 
 			-- Scenario: Awakening The Machine
 			instance_exploration(15133),	-- Awakening The Machine
-
-			-- Delve: Earthcrawl Mines
-			instance_exploration(14999),	-- Earthcrawl Mines
-
-			-- Delve: Fungal Folly
-			instance_exploration(14957),	-- Fungal Folly
-
-			-- Delve: Kriegval's Rest
-			instance_exploration(15000),	-- Kriegval's Rest
-
-			-- Delve: Mycomancer Cavern
-			instance_exploration(14998),	-- Mycomancer Cavern
-
-			-- Delve: Nightfall Sanctum
-			instance_exploration(15005),	-- Nightfall Sanctum
-
-			-- Delve: Skittering Breach
-			instance_exploration(15004),	-- Skittering Breach
-
-			-- Delve: Tak-Rethan Abyss
-			instance_exploration(15008),	-- Tak-Rethan Abyss
-			instance_exploration(15327),	-- Tak-Rethan Abyss
-
-			-- Delve: The Dread Pit
-			instance_exploration(15003),	-- The Dread Pit
-
-			-- Delve: The Sinkhole
-			instance_exploration(15006),	-- The Sinkhole
-			instance_exploration(15175),	-- The Sinkhole
-
-			-- Delve: The Spiral Weave
-			instance_exploration(15007),	-- The Spiral Weave
-
-			-- Delve: The Underkeep
-			instance_exploration(15009),	-- The Underkeep
-
-			-- Delve: The Waterworks
-			instance_exploration(15002),	-- The Waterworks
-
-			-- Delve: Zekvir's Lair
-			instance_exploration(15001),	-- Zekvir's Lair
 
 			-- Raid: Nerub-ar Palace
 			instance_exploration(15372),	-- Brood Pens
@@ -965,12 +919,6 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			-- Delve: Demolition Dome
 			instance_exploration(15991),	-- Demolition Dome
 
-			-- Delve: Sidestreet Sluice
-			instance_exploration(15990),	-- Sidestreet Sluice
-
-			-- Delve: Excavation Site 9
-			instance_exploration(15836),	-- Excavation Site 9
-
 			-- Dungeon: Operation: Floodgate
 			instance_exploration(15452),	-- Operation: Floodgate
 			instance_exploration(15710),	-- The Waterworks
@@ -1123,15 +1071,6 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 
 		-- 11.2.0
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_0 } }, {
-			-- Zone: K'aresh
-			exploration(15336),	-- K'aresh
-
-			-- Delve: Voidrazor Sanctuary
-			instance_exploration(16539),	-- Voidrazor Sanctuary
-
-			-- Delve: Archival Assault
-			instance_exploration(16427),	-- Archival Assault
-
 			-- Dungeon: Eco-Dome Al'dani
 			instance_exploration(16422),	-- Al'dani Sands
 			instance_exploration(16419),	-- Breached Dome

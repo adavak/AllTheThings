@@ -7,8 +7,8 @@ local contains = app.contains;
 -- Global locals
 local coroutine, ipairs, pairs, pcall, rawset, tinsert, tremove, tonumber, math_floor, math_sqrt, math_random
 	= coroutine, ipairs, pairs, pcall, rawset, tinsert, tremove, tonumber, math.floor, math.sqrt, math.random;
-local CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, InCombatLockdown,IsInInstance
-	= CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, InCombatLockdown,IsInInstance
+local CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, GetZoneText, InCombatLockdown,IsInInstance
+	= CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, GetZoneText, InCombatLockdown,IsInInstance
 local C_Map_GetMapArtID = C_Map.GetMapArtID;
 local C_Map_GetMapLevels = C_Map.GetMapLevels;
 local C_Map_GetBestMapForUnit = C_Map.GetBestMapForUnit;
@@ -471,20 +471,20 @@ local function PrintDiscordInformationForAllExplorations(o, type)
 	local luaFormat
 
 	if type == "subzone" then
-		if inInstance then
-			luaFormat = "visit_exploration(%d),\t-- %s"
-			tinsert(ExplorationReportLines, luaFormat:format(areaID, text))
-		else
+		if position then
 			luaFormat = "visit_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
 			tinsert(ExplorationReportLines, luaFormat:format(areaID, x or 0, y or 0, mapID, text))
+		else
+			luaFormat = "visit_exploration(%d),\t-- %s"
+			tinsert(ExplorationReportLines, luaFormat:format(areaID, text))
 		end
 	elseif type == "zone" then
-		if inInstance then
-			luaFormat = "map_exploration(%d),\t-- %s"
-			tinsert(ExplorationReportLines, luaFormat:format(areaID, text))
-		else
+		if position then
 			luaFormat = "map_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
 			tinsert(ExplorationReportLines, luaFormat:format(areaID, x or 0, y or 0, mapID, text))
+		else
+			luaFormat = "map_exploration(%d),\t-- %s"
+			tinsert(ExplorationReportLines, luaFormat:format(areaID, text))
 		end
 	end
 

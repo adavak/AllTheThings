@@ -7507,7 +7507,12 @@ ach(42567,{e=447,g={
 crit(107627,{achID=42549,e=447,id=3})}}),
 ach(42612,{e=447,g={
 crit(107625,{achID=42549,e=447,id=1})}})}}),
-m(882,{e=447,icon=1714098,petBattleLvl=25,lvl=45,g={}}),
+m(882,{e=447,icon=1714098,petBattleLvl=25,lvl=45,g={
+h(-56,{e=447,g={
+o(276228,{coords={{57.1,76.8,882}},e=447,questID=48749,sourceQuests={48107},g={
+s(298859,253520,{e=447,f=21}),
+crit(37600,{achID=12074,awp=70300,id=9}),
+crit(107017,{achID=60816,e=447,id=9})}})}})}}),
 m(830,{e=447,icon=1719207,maps={833},petBattleLvl=25,lvl=45,g={
 h(-64,{e=447,g={
 flt(3,{e=447,g={

@@ -164,6 +164,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						}),
 					}),
 				}),
+				n(EXPLORATION, {
+					map_exploration(15001,{coord={66.1,52.8,ZEKVIRS_LAIR}}),	-- Zekvir's Lair
+				}),
 				n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
 					q(83752, {	-- Threats of Zekvir
 						["provider"] = { "n", 227492 },	-- Brann Bronzebeard
@@ -220,6 +223,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235614),	-- Golden-Gob Propulsion Rig
 					}),
 				})),
+				n(EXPLORATION, {
+					map_exploration(15991,{coord={82.2,43.1,2426}}),	-- Demolition Dome
+				}),
 				hqt(86407, {
 					["name"] = "Received Item from Underpin (Delve)",
 					["providers"] = {
@@ -231,16 +237,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			},
 		})),
-		hqt(87286, {	-- after opening Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
-			["name"] = "Received Item from Underpin (Summon)",
-			["providers"] = {
-				{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
-				{"o",507768},	-- Jettisoned Pile of Goblin-Bucks
-				{"n",236942},	-- The Underpin
-			},
-			["timeline"]={ADDED_11_1_0_SEASONSTART},
-			["isWeekly"] = true,
-		}),
 	})),
 	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0 } }, {	-- Includes Voidrazor Sanctuary
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
@@ -286,6 +282,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					ach(42194, {	-- Pruning the Princess
 						title(639),	-- Contract Killer %s
 					}),
+				}),
+				n(EXPLORATION, {
+					map_exploration(16539,{coord={53.4,82.9,DELVE_ETHEREAL_KYVEZA}}),	-- Voidrazor Sanctuary
 				}),
 			},
 		})),
@@ -2260,7 +2259,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["cr"] = 236942,	-- The Underpin
 			["groups"] = {
 				i(235813),	-- Machine Gob's Iron Grin
-				-- i(233071),	-- Delver's Bounty
+				i(233071),	-- Delver's Bounty
 			},
 		}),
 		o(547532, {	-- Ky'veza's Etheric Cache
@@ -2271,6 +2270,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(218126),	-- Befouler's Syringe
 				i(246071),	-- Mana-Seamster's Arcane-Needle
 				i(238001),	-- Rod of the Unwoven
+				i(248142),	-- Delver's Bounty
 			},
 		}),
 		o(567732, {	-- Kaja'6-Pack (Curio Spawned)
@@ -3092,6 +3092,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(106404),	-- Waygate Wiles
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(16427,{coord={41.3,86.1,ARCHIVAL_ASSAULT}}),	-- Archival Assault
+			}),
 			filter(MISC, {
 				-- Story Variant: Relic Retrieval
 				i(244859),	-- Armoire of Invincibility
@@ -3169,6 +3172,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(14999,{coord={45.3,11.0,EARTHCRAWL_MINES}}),	-- Earthcrawl Mines
+			}),
 			filter(MISC, {
 				o(503639, {	-- Tools Chest
 					["coord"] = { 43.6, 13.7, EARTHCRAWL_MINES },
@@ -3241,6 +3247,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15836,{coord={50.0,6.1,EXCAVATION_SITE_9}}),	-- Excavation Site 9
+			}),
 			n(TREASURES, {
 				o(503011, {	-- Sturdy Chest
 					["coord"] = { 57.0, 46.8, EXCAVATION_SITE_9 },
@@ -3297,6 +3306,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212163),	-- Soporific Shroom Cap
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				map_exploration(14957,{coord={65.5,84.5,FUNGAL_FOLLY}}),	-- Fungal Folly
 			}),
 			filter(MISC, {
 				o(409302, {	-- Dispersal Crystal
@@ -3387,6 +3399,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15000,{coord={33.5,26.8,KRIEGVALS_REST}}),	-- Kriegval's Rest
+			}),
 			filter(MISC, {
 				i(210970),	-- Crumbled Keepsake (QI!)
 				o(412967, {	-- Helm of Memories
@@ -3450,6 +3465,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212163),	-- Soporific Shroom Cap
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				map_exploration(14998,{coord={18.2,37.6,MYCOMANCER_CAVERN}}),	-- Mycomancer Cavern
 			}),
 			filter(MISC, {
 				i(218002),	-- Priceless Pumpkin (QI!)
@@ -3542,6 +3560,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15005,{coord={75.0,24.4,NIGHTFALL_SANCTUM}}),	-- Nightfall Sanctum
+			}),
 			filter(MISC, {
 				i(244905, { ["timeline"] = { ADDED_11_1_7 } }),	-- Miniature Titan Disc: Charged Crystal (CI!)
 				i(215466),	-- Sanctified Supplies (QI!)
@@ -3598,6 +3619,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(70990),	-- Teleporter Tantrums
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15990,{coord={49.1,63.0,2423}}),	-- Sidestreet Sluice
+			}),
 			filter(MISC, {
 				i(244901, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Statically Charged (CI!)
 				i(234454),	-- Remote Teleporter (QI!)
@@ -3649,6 +3673,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212173),	-- Rulk'Nerub Raptorial Spine
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				map_exploration(15004,{coord={76.0,53.7,SKITTERING_BREACH}}),	-- Skittering Breach
 			}),
 			filter(MISC, {
 				i(225719),	-- Light's Mantle (QI!)
@@ -3709,6 +3736,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15008,{coord={53.1,17.2,TAK_RETHAN_ABYSS}}),	-- Tak-Rethan Abyss [Flooded]
+				map_exploration(15327,{coord={53.1,17.2,TAK_RETHAN_ABYSS}}),	-- Tak-Rethan Abyss [Dry]
+			}),
 			filter(MISC, {
 				o(415296, {	-- Repair Kit
 					i(211776),	-- Damp Repair Kit (QI!)
@@ -3766,6 +3797,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15003,{coord={29.7,56.0,THE_DREAD_PIT}}),	-- The Dread Pit
+			}),
 			filter(MISC, {
 				i(217965),	-- Repair Kit (QI!)
 			}),
@@ -3820,6 +3854,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212165),	-- Deep Nautic Helm
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				map_exploration(15175,{coord={52.2,12.2,THE_SINKHOLE}}),	-- The Sinkhole [Flooded]
+				map_exploration(15006,{coord={52.2,12.2,THE_SINKHOLE}}),	-- The Sinkhole [Dry]
 			}),
 			filter(MISC, {
 				i(218122),	-- Stolen Relic (QI!)
@@ -3882,6 +3920,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212173),	-- Rulk'Nerub Raptorial Spine
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				map_exploration(15007,{coord={53.5,78.8,2313}}),	-- The Spiral Weave
 			}),
 			filter(MISC, {
 				i(244902, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Electric Current (CI!)
@@ -3956,6 +3997,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 			}),
+			n(EXPLORATION, {
+				map_exploration(15009,{coord={34.4,25.1,THE_UNDERKEEP}}),	-- The Underkeep
+			}),
 			filter(MISC, {
 				i(217715),	-- Key Scroll (QI!)
 				o(433705, {	-- Pheromone Bottle
@@ -4019,6 +4063,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(212169),	-- Mint-Scented Candle Hat
 					}),
 				}),
+			}),
+			n(EXPLORATION, {
+				map_exploration(15002,{coord={46.8,12.1,THE_WATERWORKS}}),	-- The Waterworks
 			}),
 			n(QUESTS, {
 				q(83749, {	-- Delves: The Waterworks
@@ -4161,5 +4208,28 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 
 		-- Ky'veza Delve
 		q(91045, {["timeline"]={ADDED_11_2_0}}),	-- Killed Nexus-Princess Ky'Veza on "?" for the first time
+
+		-- Weekly summon boss questID
+		hqt(87286, {	-- Received Item from The Underpin / Nexus-Princess Ky'veza
+			["name"] =
+				-- #if AFTER 11.2.0
+				"Received Item from Nexus-Princess (Summon)",
+				-- #else
+				"Received Item from The Underpin (Summon)",
+				-- #endif
+			["providers"] = {
+				-- #if AFTER 11.2.0
+				{"i",248017},	-- Shrieking Quartz (not really a quest provider, but otherwise turns into a quest item cuz providers)
+				{"o",547532},	-- Ky'veza's Etheric Cache
+				{"n",244755},	-- Nexus-Princess Ky'veza
+				-- #else
+				{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
+				{"o",507768},	-- Jettisoned Pile of Goblin-Bucks
+				{"n",236942},	-- The Underpin
+				-- #endif
+			},
+			["timeline"]={ADDED_11_1_0_SEASONSTART},
+			["isWeekly"] = true,
+		}),
 	})),
 }));
