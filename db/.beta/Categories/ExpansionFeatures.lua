@@ -8040,24 +8040,24 @@ o(233633,{coords={{31.5,34.5,590},{48.6,31.3,590},{58.7,22,590}},questID=36053,r
 h(-58,{maps=a[2707],g={
 n(90894,{awp=60100,r=2,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
-r(187493,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127726,requireSkill=755,rwp=100005,u=2}),
+r(187493,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127726,requireSkill=755,rwp=100005,u=2}),
 r(181419,{b=1,cost={{"i",109118,60}},itemID=122551,requireSkill=755,rwp=60200,u=2}),
 r(182127,{b=1,cost={{"i",109119,60}},itemID=122714,learnedAt=100,requireSkill=755}),
-r(187517,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127744,requireSkill=755,rwp=100005,u=2}),
-r(187490,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127725,requireSkill=164,rwp=100005,u=2}),
-r(187491,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127727,requireSkill=164,rwp=100005,u=2}),
+r(187517,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127744,requireSkill=755,rwp=100005,u=2}),
+r(187490,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127725,requireSkill=164,rwp=100005,u=2}),
+r(187491,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127727,requireSkill=164,rwp=100005,u=2}),
 r(181416,{b=1,cost={{"i",109118,60}},itemID=122550,requireSkill=164,rwp=60200,u=2}),
 r(181417,{b=1,cost={{"i",109119,60}},itemID=122552,requireSkill=164,rwp=60200,u=2}),
 r(182116,{b=1,cost={{"i",109119,60}},itemID=122705,learnedAt=100,requireSkill=164}),
-r(187514,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127743,requireSkill=164,rwp=100005,u=2}),
-r(187515,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127745,requireSkill=164,rwp=100005,u=2}),
-r(187496,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127729,requireSkill=202,rwp=100005,u=2}),
-r(187497,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127721,requireSkill=202,rwp=100005,u=2}),
-r(187521,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127739,requireSkill=202,rwp=100005,u=2}),
+r(187514,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127743,requireSkill=164,rwp=100005,u=2}),
+r(187515,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127745,requireSkill=164,rwp=100005,u=2}),
+r(187496,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127729,requireSkill=202,rwp=100005,u=2}),
+r(187497,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127721,requireSkill=202,rwp=100005,u=2}),
+r(187521,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127739,requireSkill=202,rwp=100005,u=2}),
 r(181423,{b=1,cost={{"i",109118,60}},itemID=122546,requireSkill=202,rwp=60200,u=2}),
 r(181422,{b=1,cost={{"i",109119,60}},itemID=122554,requireSkill=202,rwp=60200,u=2}),
 r(182120,{b=1,cost={{"i",109118,60}},itemID=122712,learnedAt=100,requireSkill=202}),
-r(187520,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127747,requireSkill=202,rwp=100005,u=2})}}),
+r(187520,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127747,requireSkill=202,rwp=100005,u=2})}}),
 n(80159,{r=2,g={
 r(180761,{awp=60100,b=1,itemID=122556,learnedAt=1,requireSkill=185}),
 r(1266560,{awp=110207,itemID=260556,requireSkill=185}),
@@ -8072,9 +8072,9 @@ toy(119212)}),
 n(91034,{awp=60100,r=1,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
 r(182123,{b=1,cost={{"i",111557,60}},itemID=122716,learnedAt=100,requireSkill=197}),
-r(187492,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127724,requireSkill=197,rwp=100005,u=2}),
+r(187492,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},itemID=127724,requireSkill=197,rwp=100005,u=2}),
 r(181418,{b=1,cost={{"i",111557,60}},itemID=122549,requireSkill=197,rwp=60200,u=2}),
-r(187516,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127742,requireSkill=197,rwp=100005,u=2})}}),
+r(187516,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},itemID=127742,requireSkill=197,rwp=100005,u=2})}}),
 n(88633,{description="Sells contracts for followers not chosen during zone quests.",r=2,g={
 i(119291,{b=1,cost=50000000,f=55,spellID=176954,g={
 follower(184)}}),
@@ -8103,9 +8103,9 @@ follower(168)}})}}),
 n(91025,{awp=60100,r=2,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
 r(182123,{b=1,cost={{"i",111557,60}},itemID=122716,learnedAt=100,requireSkill=197}),
-r(187492,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127724,requireSkill=197,rwp=100005,u=2}),
+r(187492,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},itemID=127724,requireSkill=197,rwp=100005,u=2}),
 r(181418,{b=1,cost={{"i",111557,60}},itemID=122549,requireSkill=197,rwp=60200,u=2}),
-r(187516,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127742,requireSkill=197,rwp=100005,u=2})}}),
+r(187516,{awp=60200,b=1,collectible=false,cost={{"i",111557,60}},itemID=127742,requireSkill=197,rwp=100005,u=2})}}),
 n(91020,{awp=60100,r=2,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
 r(182129,{b=1,cost={{"i",111245,5}},itemID=122711,learnedAt=100,requireSkill=333})}}),
@@ -8113,9 +8113,9 @@ n(80285,{description="Must speak to him in |cFFFFD700Frostfire Ridge|r to invite
 s(67090,119430,{cost=10000000,f=28,lvl=35})}}),
 n(91024,{awp=60100,r=2,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
-r(187489,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127722,requireSkill=165,rwp=100005,u=2}),
+r(187489,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},itemID=127722,requireSkill=165,rwp=100005,u=2}),
 r(181415,{b=1,cost={{"i",110609,60}},itemID=122547,requireSkill=165,rwp=60200,u=2}),
-r(187513,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127740,requireSkill=165,rwp=100005,u=2}),
+r(187513,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},itemID=127740,requireSkill=165,rwp=100005,u=2}),
 r(182121,{b=1,cost={{"i",110609,60}},itemID=122715,learnedAt=100,requireSkill=165})}}),
 n(76928,{r=1,g={
 r(180761,{awp=60100,b=1,itemID=122556,learnedAt=1,requireSkill=185}),
@@ -8152,20 +8152,20 @@ i(119267,{b=1,cost=50000000,f=55,spellID=176990,g={
 follower(168)}})}}),
 n(91031,{awp=60100,r=1,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
-r(188676,{awp=60200,collectible=false,cost={{"i",108996,10}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=128161,requireSkill=171,rwp=100005,u=2}),
+r(188676,{awp=60200,collectible=false,cost={{"i",108996,10}},itemID=128161,requireSkill=171,rwp=100005,u=2}),
 r(156591,{b=1,cost={{"i",109127,60}},itemID=122710,lvl=10,requireSkill=171}),
 r(181643,{b=1,cost={{"i",108996,10}},itemID=122600,learnedAt=5,lvl=10,requireSkill=171}),
-r(188674,{awp=60200,collectible=false,cost={{"i",108996,10}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=128160,requireSkill=171,rwp=100005,u=2}),
+r(188674,{awp=60200,collectible=false,cost={{"i",108996,10}},itemID=128160,requireSkill=171,rwp=100005,u=2}),
 r(190382,{b=1,cost={{"i",114931,20}},itemID=128410,learnedAt=1,requireSkill=773}),
 r(190381,{b=1,cost={{"i",114931,20}},itemID=128409,learnedAt=1,requireSkill=773}),
 r(190383,{b=1,cost={{"i",114931,20}},itemID=128411,learnedAt=1,requireSkill=773}),
 r(190385,{b=1,cost={{"i",114931,20}},itemID=128413,learnedAt=1,requireSkill=773}),
 r(190384,{b=1,cost={{"i",114931,20}},itemID=128412,learnedAt=1,requireSkill=773}),
 r(190386,{b=1,cost={{"i",114931,20}},itemID=128414,learnedAt=1,requireSkill=773}),
-i(127723,{b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",f=200,requireSkill=773,spellID=187495}),
-r(187494,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127728,requireSkill=773,rwp=100005,u=2}),
-r(187519,{b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127741,requireSkill=773}),
-r(187518,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127746,requireSkill=773,rwp=100005,u=2}),
+i(127723,{b=1,collectible=false,cost={{"i",114931,20}},f=200,requireSkill=773,spellID=187495}),
+r(187494,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},itemID=127728,requireSkill=773,rwp=100005,u=2}),
+r(187519,{b=1,collectible=false,cost={{"i",114931,20}},itemID=127741,requireSkill=773}),
+r(187518,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},itemID=127746,requireSkill=773,rwp=100005,u=2}),
 r(182125,{b=1,cost={{"i",114931,20}},itemID=122713,learnedAt=100,requireSkill=773}),
 r(227561,{b=1,cost={{"i",114931,20}},itemID=141642,learnedAt=1,lvl=10,requireSkill=773}),
 i(122599,{b=1,cost={{"i",108996,10}},f=200,lvl=10,requireSkill=171,spellID=181638,g={
@@ -8278,20 +8278,20 @@ ach(9129,{description="Unlocks the ability to purchase the blueprint from Bluepr
 gb(10,{b=1,itemID=116186,lvl=10,r=1})}})}}),
 n(91404,{awp=60100,r=2,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
-r(188676,{awp=60200,collectible=false,cost={{"i",108996,10}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=128161,requireSkill=171,rwp=100005,u=2}),
+r(188676,{awp=60200,collectible=false,cost={{"i",108996,10}},itemID=128161,requireSkill=171,rwp=100005,u=2}),
 r(156591,{b=1,cost={{"i",109127,60}},itemID=122710,lvl=10,requireSkill=171}),
 r(181643,{b=1,cost={{"i",108996,10}},itemID=122600,learnedAt=5,lvl=10,requireSkill=171}),
-r(188674,{awp=60200,collectible=false,cost={{"i",108996,10}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=128160,requireSkill=171,rwp=100005,u=2}),
+r(188674,{awp=60200,collectible=false,cost={{"i",108996,10}},itemID=128160,requireSkill=171,rwp=100005,u=2}),
 r(190382,{b=1,cost={{"i",114931,20}},itemID=128410,learnedAt=1,requireSkill=773}),
 r(190381,{b=1,cost={{"i",114931,20}},itemID=128409,learnedAt=1,requireSkill=773}),
 r(190383,{b=1,cost={{"i",114931,20}},itemID=128411,learnedAt=1,requireSkill=773}),
 r(190385,{b=1,cost={{"i",114931,20}},itemID=128413,learnedAt=1,requireSkill=773}),
 r(190384,{b=1,cost={{"i",114931,20}},itemID=128412,learnedAt=1,requireSkill=773}),
 r(190386,{b=1,cost={{"i",114931,20}},itemID=128414,learnedAt=1,requireSkill=773}),
-i(127723,{b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",f=200,requireSkill=773,spellID=187495}),
-r(187494,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127728,requireSkill=773,rwp=100005,u=2}),
-r(187519,{b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127741,requireSkill=773}),
-r(187518,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127746,requireSkill=773,rwp=100005,u=2}),
+i(127723,{b=1,collectible=false,cost={{"i",114931,20}},f=200,requireSkill=773,spellID=187495}),
+r(187494,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},itemID=127728,requireSkill=773,rwp=100005,u=2}),
+r(187519,{b=1,collectible=false,cost={{"i",114931,20}},itemID=127741,requireSkill=773}),
+r(187518,{awp=60200,b=1,collectible=false,cost={{"i",114931,20}},itemID=127746,requireSkill=773,rwp=100005,u=2}),
 r(182125,{b=1,cost={{"i",114931,20}},itemID=122713,learnedAt=100,requireSkill=773}),
 r(227561,{b=1,cost={{"i",114931,20}},itemID=141642,learnedAt=1,lvl=10,requireSkill=773}),
 i(122599,{b=1,cost={{"i",108996,10}},f=200,lvl=10,requireSkill=171,spellID=181638,g={
@@ -8489,29 +8489,29 @@ mnt(171628,{b=1,cost=100000000,itemID=116667,lvl=17}),
 mnt(171616,{b=1,cost=200000000,itemID=116655,lvl=17})}}),
 n(91030,{awp=60100,r=1,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
-r(187493,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127726,requireSkill=755,rwp=100005,u=2}),
+r(187493,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127726,requireSkill=755,rwp=100005,u=2}),
 r(181419,{b=1,cost={{"i",109118,60}},itemID=122551,requireSkill=755,rwp=60200,u=2}),
 r(182127,{b=1,cost={{"i",109119,60}},itemID=122714,learnedAt=100,requireSkill=755}),
-r(187517,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127744,requireSkill=755,rwp=100005,u=2}),
-r(187490,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127725,requireSkill=164,rwp=100005,u=2}),
-r(187491,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127727,requireSkill=164,rwp=100005,u=2}),
+r(187517,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127744,requireSkill=755,rwp=100005,u=2}),
+r(187490,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127725,requireSkill=164,rwp=100005,u=2}),
+r(187491,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127727,requireSkill=164,rwp=100005,u=2}),
 r(181416,{b=1,cost={{"i",109118,60}},itemID=122550,requireSkill=164,rwp=60200,u=2}),
 r(181417,{b=1,cost={{"i",109119,60}},itemID=122552,requireSkill=164,rwp=60200,u=2}),
 r(182116,{b=1,cost={{"i",109119,60}},itemID=122705,learnedAt=100,requireSkill=164}),
-r(187514,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127743,requireSkill=164,rwp=100005,u=2}),
-r(187515,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127745,requireSkill=164,rwp=100005,u=2}),
-r(187496,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127729,requireSkill=202,rwp=100005,u=2}),
-r(187497,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127721,requireSkill=202,rwp=100005,u=2}),
-r(187521,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127739,requireSkill=202,rwp=100005,u=2}),
+r(187514,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127743,requireSkill=164,rwp=100005,u=2}),
+r(187515,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127745,requireSkill=164,rwp=100005,u=2}),
+r(187496,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127729,requireSkill=202,rwp=100005,u=2}),
+r(187497,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127721,requireSkill=202,rwp=100005,u=2}),
+r(187521,{awp=60200,b=1,collectible=false,cost={{"i",109118,60}},itemID=127739,requireSkill=202,rwp=100005,u=2}),
 r(181423,{b=1,cost={{"i",109118,60}},itemID=122546,requireSkill=202,rwp=60200,u=2}),
 r(181422,{b=1,cost={{"i",109119,60}},itemID=122554,requireSkill=202,rwp=60200,u=2}),
 r(182120,{b=1,cost={{"i",109118,60}},itemID=122712,learnedAt=100,requireSkill=202}),
-r(187520,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127747,requireSkill=202,rwp=100005,u=2})}}),
+r(187520,{awp=60200,b=1,collectible=false,cost={{"i",109119,60}},itemID=127747,requireSkill=202,rwp=100005,u=2})}}),
 n(91033,{awp=60100,r=1,g={
 i(120945,{b=1,cost={{"i",111557,5},{"i",110609,5},{"i",109125,5},{"i",109693,5},{"i",109118,5}}}),
-r(187489,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127722,requireSkill=165,rwp=100005,u=2}),
+r(187489,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},itemID=127722,requireSkill=165,rwp=100005,u=2}),
 r(181415,{b=1,cost={{"i",110609,60}},itemID=122547,requireSkill=165,rwp=60200,u=2}),
-r(187513,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},description="In 9.0.1, Blizzard made this recipe unlearnable but the item still appears on the vendor even though it has no use and is no longer collectible.",itemID=127740,requireSkill=165,rwp=100005,u=2}),
+r(187513,{awp=60200,b=1,collectible=false,cost={{"i",110609,60}},itemID=127740,requireSkill=165,rwp=100005,u=2}),
 r(182121,{b=1,cost={{"i",110609,60}},itemID=122715,learnedAt=100,requireSkill=165})}})}}),
 m(590,{description="Frostwall is the Horde Garrison, located in Frostfire Ridge. A fully-upgraded Frostwall garrison is considered to be a fortress.",icon=1046795,isRaid=1,maps={585,586,587},petBattleLvl=25}),
 m(582,{description="Lunarfall is the Alliance Garrison, located in Shadowmoon Valley. Several Shadowmoon clan ruins dotted the area before the garrison was built. A fully-upgraded Lunarfall garrison is considered to be a castle.",icon=1046782,isRaid=1,maps={579,580,581},petBattleLvl=25})}}),
@@ -12090,7 +12090,7 @@ q(44076,{c=a[305],coords={{40.9,59,715}},lvl=10,qgs={112549},sourceQuests=a[1948
 q(42040,{c=a[305],coords={a[1971]},lvl=45,qgs=a[227],sourceQuests={42037,43991}}),
 q(42043,{c=a[305],coords={a[1910]},lvl=45,qgs={106135},sourceQuests=a[1811]}),
 q(42041,{c=a[305],coords={a[1910]},lvl=45,qgs=a[247],sourceQuests=a[1811]}),
-q(42042,{c=a[305],coords={{45,32.3,715}},lvl=45,qgs=a[247],sourceQuests=a[1811],g={
+q(42042,{c=a[305],coords={{45,32.3,715}},lvl=45,qgs={106136},sourceQuests=a[1811],g={
 i(136840,{c=a[305],spellID=210390})}}),
 q(42044,{c=a[305],coords={a[1910]},lvl=45,qgs=a[247],sourceQuests={42041,42042,42043}}),
 q(42045,{c=a[305],coords={a[1910]},lvl=45,qgs=a[247],sourceQuests={42044}}),
@@ -12425,7 +12425,7 @@ o(268474,{awp=70003,c=a[3366],coords={{82.6,25.8,734}},g={
 i(146402,{c=a[3366]})}}),
 o(268479,{awp=70003,c=a[3366],coords={{72.8,60.5,734}},g={
 i(146409,{c=a[3366]})}}),
-o(268475,{awp=70003,c=a[3366],coords={{50,58.5,734}},g={
+o(268475,{awp=70003,c=a[3366],coords={{50,58.5,734},{50,58.5,735}},g={
 i(146403,{c=a[3366]})}})}}),
 q(46338,{awp=70200,c=a[3366],coords={{56.2,37.8,735}},lvl=45,qgs=a[275],sourceQuests={46335}}),
 q(45207,{awp=70200,c=a[3366],coords={a[3217]},lvl=45,qgs=a[376],sourceQuests={46338}}),
@@ -14255,8 +14255,10 @@ o(251337,{c=a[193],coords={{51.5,64.5,376}},g={
 i(138624,{c=a[193]})}})}}),
 q(42767,{c=a[193],coords={a[1740]},lvl=10,qgs=a[286],sourceQuests=a[1885],g={
 i(173704,{awp=90001,c=a[193],spellID=311857}),
-o(251422,{c=a[193],coords={{51.1,60.8,376},{51.3,63.3,376},{51.3,64.9,376},{51.7,62.5,376},{52.3,64.8,376},{52.6,63.5,376},{53.1,60.8,376}},g={
-i(138623,{c=a[193]})}})}}),
+o(251422,{c=a[193],coords={{51.1,60.8,376},{51.3,63.3,376},{51.3,64.9,376},{51.7,62.5,376},{52.3,64.8,376},{52.6,63.5,376},{53.1,60.8,376}},type="AsGenericObjectContainer",g={
+i(138623,{c=a[193],type="AsSubGenericObject"}),
+o(251422,{c=a[193],type="AsSubGenericObject"}),
+o(251424,{c=a[193],type="AsSubGenericObject"})}})}}),
 q(42957,{c=a[193],lvl=10,maps=a[1591],qgs={109049},sourceQuests={42766,42767,42768},g={
 i(173706,{awp=90001,c=a[193],spellID=311861})}}),
 q(42868,{c=a[193],coords={{55.3,58.1,371}},lvl=10,qgs=a[290],sourceQuests={42957}}),
@@ -21271,7 +21273,7 @@ q(58609,{coords={{42.9,74.1,1670}},customCollect=a[168],lvl=60,qgs={171821},sour
 q(62835,{coords={a[2061]},customCollect=a[168],lvl=60,qgs=a[886],sourceQuests={62834}}),
 q(58472,{coords={{73.8,57.4,1525}},customCollect=a[168],lvl=60,qgs=a[707],sourceQuests=a[2734]}),
 q(62297,{coords={{70.4,27.7,1536}},customCollect=a[168],lvl=60,qgs={174020},sourceQuests=a[2928],g={
-i(183394,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",f=55,questID=62266,spellID=341169,g={
+cq(62266,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",itemID=183394,spellID=341169,g={
 crit(49931,{achID=14763,awp=90000,id=3,providers={{"i",183394}}})}})}}),
 q(61742,{customCollect=a[168],lvl=60,qgs=a[874],sourceQuests={61740,61741,62414}}),
 q(61759,{coords={a[2458]},customCollect=a[168],lvl=60,sourceQuests={61758}}),
@@ -21348,7 +21350,7 @@ q(58833,{coords={a[2184]},customCollect=a[168],description="Requires Renown 20."
 q(61746,{coords={a[3049]},customCollect=a[168],lvl=60,qgs=a[865],sourceQuests=a[2929],g={
 i(182609,{customCollect=a[168]})}}),
 q(62317,{coords={{46.5,31.5,1652}},customCollect=a[168],lvl=60,providers={{"o",358319}},sourceQuests=a[2930],g={
-i(183397,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",f=55,questID=62306,spellID=341420,g={
+cq(62306,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",itemID=183397,spellID=341420,g={
 crit(49932,{achID=14763,awp=90000,id=4,providers={{"i",183397}}})}})}}),
 q(61757,{coords={{44.1,26.9,1652}},customCollect=a[168],lvl=60,qgs=a[864],sourceQuests={61756}}),
 q(60044,{coords={a[1251]},customCollect=a[168],lvl=60,qgs=a[768],sourceQuests=a[2864]}),
@@ -21400,7 +21402,7 @@ q(60043,{coords={a[1514]},customCollect=a[168],lvl=60,qgs=a[770],sourceQuests=a[
 q(61569,{coords={{30.2,43.6,1536}},customCollect=a[168],lvl=60,qgs={172805},sourceQuests={61551}}),
 q(61586,{coords={{50.4,70.6,1536}},customCollect=a[168],lvl=60,qgs={166535},sourceQuests={59894}}),
 q(62308,{coords={{67.9,30.6,1536}},customCollect=a[168],lvl=60,qgs={172813},sourceQuests=a[2933],g={
-i(183399,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",f=55,questID=62311,spellID=341424,g={
+cq(62311,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",itemID=183399,spellID=341424,g={
 crit(49935,{achID=14763,awp=90000,id=7,providers={{"i",183399}}})}})}}),
 q(61745,{coords={{44,27.3,1652}},customCollect=a[168],lvl=60,qgs=a[864],sourceQuests={61744}}),
 q(62391,{coords={a[2184]},customCollect=a[168],lvl=60,qgs=a[719],sourceQuests={61761}}),
@@ -21448,7 +21450,7 @@ q(60067,{coords={{31.8,30.3,1536}},customCollect=a[168],lvl=60,qgs=a[852],source
 q(61335,{coords={{48.6,18.5,1536}},customCollect=a[168],lvl=60,qgs={159814},sourceQuests={61227},g={
 i(173312,{customCollect=a[168],spellID=311333})}}),
 q(62320,{coords={{71.7,32.9,1536}},customCollect=a[168],lvl=60,qgs={174120},sourceQuests=a[2931],g={
-i(183401,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",f=55,questID=62319,spellID=341428,g={
+cq(62319,{b=1,customCollect=a[168],description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",itemID=183401,spellID=341428,g={
 crit(49934,{achID=14763,awp=90000,id=6,providers={{"i",183401}}})}}),
 i(183400,{customCollect=a[168]})}}),
 q(61983,{coords={a[2331]},customCollect=a[168],isWeekly=1,lvl=60,qgs=a[720],sourceQuests=a[2823]}),
@@ -31836,8 +31838,8 @@ ach(42188,{sourceQuests={84789},g={
 i(257355,{awp=110207,sourceAchievements=a[1823],spellID=1261473})}}),
 ach(42187,{sourceQuests={85036},g={
 i(257354,{awp=110207,sourceAchievements=a[1822],spellID=1261470})}}),
-ach(61467,{awp=110207,questID=85254,g={
-i(245332,{awp=110107,sourceAchievements={61467},spellID=1238432})}}),
+ach(61467,{awp=110207,sourceQuests={85254},g={
+i(245332,{sourceAchievements={61467},spellID=1238432})}}),
 ach(42189,{sourceQuests=a[3436],g={
 i(257351,{awp=110207,sourceAchievements={42189},spellID=1261467})}})}),
 h(-47,{
@@ -31864,6 +31866,9 @@ i(231831)}}),
 q(85036,{coords={{27.5,28.3,971}},lvl=10,qgs={231706},repeatable=1,sourceQuests={85035},g={
 toy(245567,{b=1}),
 i(244843,{b=1})}})}}),
+ah(61467,{awp=110207,type="a",g={
+q(85252,{coords={a[3000],a[2469],a[2182]},qgs=a[1031],repeatable=1}),
+q(85254,{coords={a[3000],a[2469],a[2182]},qgs={234616},repeatable=1,sourceQuests={85252}})}}),
 ah(42189,{type="a",g={
 q(85884,{coords={a[3000],a[2469],a[2182]},lvl=10,qgs=a[1031],repeatable=1}),
 q(85862,{coords={{34.1,84.1,2418}},lvl=10,qgs={233752},repeatable=1,sourceQuests=a[3435]}),
@@ -32193,7 +32198,7 @@ i(236877,{b=1,u=2})}}),
 ach(41937,{awp=110200,rwp=120000,u=2,g={
 i(240175,{b=1,u=2})}}),
 ach(42325,{awp=110200,g={
-i(246737,{b=1,f=55,questID=91521,spellID=1245440,tmogSetID=5155,g={
+i(246737,{b=1,questID=91521,spellID=1245440,tmogSetID=5155,type="ihqt",g={
 d(17,{
 cl(6,{
 s(285778,237626,{b=1,bonusID=6894,c=a[2839],f=7,lvl=80}),

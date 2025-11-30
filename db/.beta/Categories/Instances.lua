@@ -6609,7 +6609,7 @@ s(13874,30729,{f=3,lvl=27}),
 s(13875,30730,{f=5,lvl=27}),
 s(13871,30725,{f=4,lvl=27}),
 s(13872,30727,{f=4,lvl=27})}})}}),
-inst(745,{awp=20001,coords={{46.87,74.69,42}},description="The best route for a fuil clear:\n1. Turn right immediately after going through the Gatehouse Door and enter the Servant's Quarters.\n2. From the western bat room goes a passage up to the Guest Chambers. Ignore the passage to the right until this section is cleared.\n3. Ignore the Opera Hall, go downstairs through the ballroom to Moroes and further through the kitchen and stables for Attumen the Huntsman. Here you will also find the practical vendor Koren (requires Honored with The Violet Eye).\n4. Back to the Gatehouse and upstairs to the Opera Hall, from here is the raid linear to last boss.",isLockoutShared=1,isRaid=1,lore="Karazhan is an abandoned citadel located on a nexus of ley lines in southern Deadwind Pass. The tower is best known for its last known occupant - Medivh, the last Guardian of Tirisfal. After Medivh was killed by Khadgar, Anduin Lothar, and Garona, the tower sealed itself off from the rest of the world. But recently, Karazhan has reawakened - an evil presence has taken the tower as its own, its halls crawling with spirits and demons, and Medivh's presence is still alive and well, even decades after his death.",maps={350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366},savedInstanceID=532,g={
+inst(745,{awp=20001,coords={{46.87,74.69,42}},description="The best route for a full clear:\n1. Turn right immediately after going through the Gatehouse Door and enter the Servant's Quarters.\n2. From the western bat room goes a passage up to the Guest Chambers. Ignore the passage to the right until this section is cleared.\n3. Ignore the Opera Hall, go downstairs through the ballroom to Moroes and further through the kitchen and stables for Attumen the Huntsman. Here you will also find the practical vendor Koren (requires Honored with The Violet Eye).\n4. Back to the Gatehouse and upstairs to the Opera Hall, from here is the raid linear to last boss.",isLockoutShared=1,isRaid=1,lore="Karazhan is an abandoned citadel located on a nexus of ley lines in southern Deadwind Pass. The tower is best known for its last known occupant - Medivh, the last Guardian of Tirisfal. After Medivh was killed by Khadgar, Anduin Lothar, and Garona, the tower sealed itself off from the rest of the world. But recently, Karazhan has reawakened - an evil presence has taken the tower as its own, its halls crawling with spirits and demons, and Medivh's presence is still alive and well, even decades after his death.",maps={350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366},savedInstanceID=532,g={
 h(-12,{
 ach(960,{minReputation=a[1378]})}),
 h(-31,{
@@ -11762,7 +11762,7 @@ o(403722,{description="Located in the second room of the Construct Quarter, by a
 i(206470,{b=1,spellID=413666})}})}),
 h(-55,{
 cq(76307,{b=1,cost={{"i",206472,1},{"i",206470,1},{"i",206471,1}},itemID=206473,sourceQuests=a[1229],spellID=413668,sqreq=1})})}}),
-ah(413989,{description="1. Kill all bosses in Construct Quarter, and walk back to the entrance of The Halls of Reanimation.\n\n2. Walk up the slope to the platform on left side, and you should see two Grapple Point on two ledges to the left side. Grapple to the southern ledge.\n\n3. Speed-jump (Burning Rush/Speed potion) to the platform northeast of the ledge, and position yourself such that you are facing the corresponding platform to the northen ledge. Said platform is connected to a wall structure with two windows on the top. The left window ledge is the location of the next grappling point. Grapple up to it.\n\n4. Jump down to the brown ledge following the wall in a northeastern direction and around the corner, then over the skull on the wall, and back in a southeastern direction. The next grapple point is across the gap to a window ledge on left side, grapple to it.\n\n5. Follow the ledge in a southwestern direction and around the corner. You should see two pipe ends on the wall in front of you, the next grappling point on the left pipe. Grapple to it.\n\n6. Facing the position you grappled from, you should see Zackett Skullsmash on a window ledge. Jump down to the NPC.\n\n7. Use Stratholme Holy Water on Zackett Skullsmash and accept the quest Inconvenience Fee. You should have all required items on you and be able to turn it in immediatelly. This unlocks Zackett Skullsmah on an account-wide basis, and the Goblin will move to the central ring.\n\n8. You can safely get down by jumping down to the ledge above the entrance to the room, and leave through the Naxxramas Portal located where you killed Thaddius.\n\n",type="s",g={
+ah(413989,{description="1. Kill all bosses in Construct Quarter, and walk back to the entrance of The Halls of Reanimation.\n\n2. Walk up the slope to the platform on left side, and you should see two Grapple Point on two ledges to the left side. Grapple to the southern ledge.\n\n3. Speed-jump (Burning Rush/Speed potion) to the platform northeast of the ledge, and position yourself such that you are facing the corresponding platform to the northen ledge. Said platform is connected to a wall structure with two windows on the top. The left window ledge is the location of the next grappling point. Grapple up to it.\n\n4. Jump down to the brown ledge following the wall in a northeastern direction and around the corner, then over the skull on the wall, and back in a southeastern direction. The next grapple point is across the gap to a window ledge on left side, grapple to it.\n\n5. Follow the ledge in a southwestern direction and around the corner. You should see two pipe ends on the wall in front of you, the next grappling point on the left pipe. Grapple to it.\n\n6. Facing the position you grappled from, you should see Zackett Skullsmash on a window ledge. Jump down to the NPC.\n\n7. Use Stratholme Holy Water on Zackett Skullsmash and accept the quest Inconvenience Fee. You should have all required items on you and be able to turn it in immediately. This unlocks Zackett Skullsmah on an account-wide basis, and the Goblin will move to the central ring.\n\n8. You can safely get down by jumping down to the ledge above the entrance to the room, and leave through the Naxxramas Portal located where you killed Thaddius.\n\n",type="s",g={
 n(206572,{sourceQuests=a[1234],g={
 i(206573,{b=1,cost={{"i",206576,3}},description="Includes a wide range of Bind on Equip (BoE) Belts from Classic, including those found in dungeons. We specifically feature items where Dented Tokens serve as the exclusive or optimal source.",f=55,spellID=413881,g={
 i(206609)}}),
@@ -20078,7 +20078,7 @@ e(311,{npcID=55265,g={
 ach(6174,{
 crit(18585,{achID=6169,id=7})})}}),
 e(324,{npcID=55308,g={
-ach(6128,{description="Can be soloed without a pet to hold the boss, the ball occationaly have an immune phase where it can pass through the boss without losing the strike.",g={
+ach(6128,{description="Can be soloed without a pet to hold the boss, the ball occasionally has an immune phase where it can pass through the boss without losing the strike.",g={
 crit(18577,{achID=6169,id=9})}})}}),
 e(325,{npcID=55312,g={
 ach(6129,{description="The oozes you need for the achievement spawns through the boss fight. Four colours will spawn each time, and the remaining oozes becomes immune when the first is killed. This is fine, just make sure two of the remaining oozes matches a criteria.",g={
@@ -20108,7 +20108,7 @@ cq(38066,{awp=60100,b=1,itemID=122198,lvl=10,OnTooltip=_.OnTooltipDB.MusicRollIt
 crit(27740,{achID=10015,awp=60003,id=4,r=2}),
 crit(27740,{achID=10016,awp=60003,id=4,r=1})}})}}),
 e(333,{npcID=56173,g={
-ach(6180,{description="Facing inwards towards the Maelstrom, The aspects will be positioned on the following platforms when the event starts:\nYsera on the start platform.\nKalecgos on the right.\nNozdormu on the left.\nAlextraxa on the far left.\nYou can get a movement buff prior to event start by moving between the platforms, which helps to reach Alextraza in time. Make sure the aspect is properly assaulted to get credit.",g={
+ach(6180,{description="Facing inwards towards the Maelstrom, The aspects will be positioned on the following platforms when the event starts:\nYsera on the start platform.\nKalecgos on the right.\nNozdormu on the left.\nAlexstrasza on the far left.\nYou can get a movement buff prior to event start by moving between the platforms, which helps to reach Alexstrasza in time. Make sure the aspect is properly assaulted to get credit.",g={
 crit(18658,{achID=6180,providers={{"n",56099}}}),
 crit(18659,{achID=6180,providers={{"n",56101}}}),
 crit(18660,{achID=6180,providers={{"n",56102}}}),
@@ -33582,7 +33582,7 @@ ach(8897,{sym={{"meta_achievement",8880,8876,8888,8998,8884,8872,9002,8892}},u=2
 title(290,{u=2})}}),
 ach(8898,{sym={{"meta_achievement",8881,8877,8889,8999,8885,8873,9003,8893}},u=2,g={
 mnt(171848,{b=1,itemID=116791,lvl=17,u=2})}}),
-ach(8899,{sym={{"meta_achievement",8882,8878,8880,9000,8886,8874,9004,8894}},u=2,g={
+ach(8899,{sym={{"meta_achievement",8882,8878,8890,9000,8886,8874,9004,8894}},u=2,g={
 s(66549,118401,{f=28,lvl=40,u=2}),
 s(66544,118396,{f=23,lvl=40,u=2}),
 s(66543,118395,{f=34,lvl=40,u=2}),
@@ -48245,7 +48245,7 @@ s(145622,186287,{b=1,f=4,lvl=60,modID=5}),
 i(186428,{b=1,f=53,lvl=60,modID=5,spellID=356334}),
 i(186378,{b=1,f=51,lvl=60,modID=5}),
 i(186427,{b=1,f=53,lvl=60,modID=5,spellID=355319}),
-crit(52347,{achID=15127})}}),
+crit(52348,{achID=15127})}}),
 e(2445,{npcID=175727,g={
 s(145642,186294,{b=1,f=5,lvl=60,modID=5}),
 s(145630,186289,{b=1,f=3,lvl=60,modID=5}),
@@ -48259,7 +48259,7 @@ s(145710,186314,{b=1,f=7,lvl=60,modID=5}),
 s(146678,186411,{b=1,f=32,lvl=60,modID=5}),
 s(145730,186319,{b=1,f=4,lvl=60,modID=5}),
 s(145794,186337,{b=1,f=5,lvl=60,modID=5}),
-crit(52348,{achID=15127})}}),
+crit(52347,{achID=15127})}}),
 e(2443,{npcID=176523,g={
 s(146668,186388,{b=1,f=34,lvl=60,modID=5,spellID=359168}),
 i(186431,{b=1,f=53,lvl=60,modID=5,spellID=357558}),

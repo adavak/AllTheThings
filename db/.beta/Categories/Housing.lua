@@ -237,7 +237,7 @@ q(93139,{coords={a[10]},qgs=a[4],r=1,g={
 i(246253,{spellID=1241391})}}),
 q(93140,{coords={a[10]},qgs=a[4],r=1,g={
 i(246249,{spellID=1241387})}}),
-q(93141,{coords={a[10]},qgs=a[4],r=1,g={
+q(93141,{coords={{50.4,76.8,2351}},description="Treasure can be found right behind the tower located just Northwest of The Bluffs Flightpath at 50.4, 76.8",qgs=a[4],r=1,g={
 i(251981,{sourceQuests=a[60],spellID=1253720})}}),
 q(93143,{coords={a[10]},qgs=a[4],r=1,g={
 i(241617,{sourceQuests=a[61],spellID=1231527})}}),
