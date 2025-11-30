@@ -2062,8 +2062,7 @@ root(ROOTS.Zones, {
 						i(124554),	-- Baleful Hood
 						i(124559),	-- Baleful Choker
 						i(124556),	-- Baleful Spaulders (normal kill)
-						i(128348, {	-- Baleful Spaulders (first kill)
-							["questID"] = 39434,	-- Short-Supply Reward - triggers on the first rare kill (Baleful Spaulders itemID 128348)
+						i(128348, {	-- Baleful Spaulders (CI!) (first kill)
 							["description"] = "|cfffd1818This token drops from your first Tanaan rare killed on any character. If you played during WoD and discarded the item before the introduction of the wardrobe, or if you recently sold the token itself without opening it, you will need to collect the appearance on a different character.\n\nYou CANNOT get these items from opening Baleful tokens purchased from the vendor.|r\n",
 							["groups"] = {
 								i(128349),	-- Felcast Mantle (Warforged)

@@ -134,8 +134,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					i(168930, {	-- Tome of the Quickening Tides (Rank 3)
 						["cost"] = { { "c", 1721, 50 }, },	-- 50x Prismatic Manapearl
 					}),
-					i(168479, {	-- Troop Requisition
-						["questID"] = 55968,
+					i(168479, {	-- Troop Requisition (CI!)
 						["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 						["groups"] = {
 							follower(1183, {	-- Alliance:Ankoan Tidehunters \\ Horde:Unshackled Mercenaries (Temporary Troop)
@@ -515,8 +514,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					i(168930, {	-- Tome of the Quickening Tides (Rank 3)
 						["cost"] = { { "c", 1721, 50 }, },	-- 50x Prismatic Manapearl
 					}),
-					i(168480, {	-- Troop Requisition
-						["questID"] = 55969,
+					i(168480, {	-- Troop Requisition (CI!)
 						["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 						["groups"] = {
 							follower(1183, {	-- Alliance:Ankoan Tidehunters \\ Horde:Unshackled Mercenaries (Temporary Troop)

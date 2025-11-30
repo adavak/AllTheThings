@@ -1080,9 +1080,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							i(174647, {	-- Rajani Tabard
 								["cost"] = 2400000,	-- 240g
 							}),
-							i(174905, {	-- Troop Requisition: Rajani Sparkcaller
+							i(174905, {	-- Troop Requisition: Rajani Sparkcaller (CI!)
 								["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
-								["questID"] = 58907,
 								["groups"] = {
 									follower(1187, {	-- Rajani Sparkcallers
 										["collectible"] = false,

@@ -159,6 +159,7 @@ is(120140, 126819, MAGE);			-- Tome of Polymorph: Porcupine
 -----------------
 -- PATCH 6.2.0 --
 -----------------
+ihqt(128348, 39434);				-- Baleful Spaulders
 iq(128444, 39561);					-- Blueprint: Oil Rig [A]
 iq(128490, 39561);					-- Blueprint: Oil Rig [H]
 iq(128251, 39359);					-- Equipment Blueprint: Tuskarr Fishing Net
@@ -296,6 +297,8 @@ iq(166749, 54859);					-- Lyrics: Song of the Sea
 -----------------
 -- PATCH 8.2.0 --
 -----------------
+iq(168479, 55968);					-- Troop Requisition
+iq(168480, 55969);					-- Troop Requisition
 
 -----------------
 -- PATCH 8.2.5 --
@@ -308,6 +311,8 @@ is(172405, 309328, SHAMAN);			-- Tome of Hex: Living Honey
 iq(175158, 59029, nil, VULPERA);	-- Flames of Fury
 iq(175160, 59035, nil, VULPERA);	-- Holy Relic
 iq(175159, 59032, nil, VULPERA);	-- Sinister Shadows
+iq(174905, 58907);					-- Troop Requisition: Rajani Sparkcaller
+iq(174904, 58906);					-- Troop Requisition: Ramkahen Lancer
 ihqt(169693, 57063);				-- Zem'Lans Lost Treasure Map
 
 -----------------
@@ -904,6 +909,8 @@ ihqt(234744, 86750);				-- Blackwater's Trove (Honored)
 ihqt(235260, 86751);				-- Blackwater's Trove (Revered)
 ihqt(235261, 86597);				-- Blackwater's Trove (Exalted)
 iq(235037, 86630);					-- Crumpled Schematic: Wormhole Generator: Undermine
+ihqt(233281, 86329);				-- Delver's Cosmetic Surprise Bag
+ihqt(233276, 86328);				-- Delver's Starter Kit
 ihqt(236852, 87353);				-- Gallagio Highroller's Boomstone
 ihqt(235608, 86878);				-- Nightfall Sanctum Campsite
 is(0, 467553);						-- Path of the Azerite Refinery [A]
@@ -975,6 +982,8 @@ is(0, 1237215);						-- Path of the Eco-Dome
 -- PATCH 11.2.5 --
 ------------------
 ihqt(249242, 91961);				-- Bronze Celebration Titles: Khaz Algar Enthusiast
+ihqt(248127, 91783);				-- Delver's Cosmetic Surprise Bag
+ihqt(248126, 91784);				-- Delver's Starter Kit
 
 ------------
 -- UNUSED --

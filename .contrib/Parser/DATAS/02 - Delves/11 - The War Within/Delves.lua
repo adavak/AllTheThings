@@ -1962,10 +1962,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["coord"] = { 47.4, 44.4, DORNOGAL },
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			["groups"] = {
-				i(233281, {	-- Delver's Cosmetic Surprise Bag
-					-- it seems like give you as reward any cosmetic from s1 delves that wasn't looted before
-				}),
-				i(233276),	-- Delver's Starter Kit
+				i(233281),	-- Delver's Cosmetic Surprise Bag (CI!) [cointains any unlearned cosmetic from delves]
+				i(233276),	-- Delver's Starter Kit (CI!)
 			},
 		}),
 		q(85243, {	-- I Want My Hat Back
@@ -2140,8 +2138,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["coord"] = { 47.4, 44.4, DORNOGAL },
 			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 			["groups"] = {
-				i(248127),	-- Delver's Cosmetic Surprise Bag
-				i(248126),	-- Delver's Starter Kit
+				i(248127),	-- Delver's Cosmetic Surprise Bag (CI!) [cointains any unlearned cosmetic from delves]
+				i(248126),	-- Delver's Starter Kit (CI!)
 			},
 		}),
 		q(91782, {	-- Repossessed!
@@ -2775,24 +2773,31 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						-- #endif
 					}),
 					i(224172, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(232493, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(232494, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(232495, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(232496, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					i(232497, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					i(232498, {	-- Restored Coffer Key
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
 					-- Season 2
@@ -4097,10 +4102,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(84819),	-- Zekvir pop in Skittering Breach (2nd time in week, Tier 8), also in Nightfall Sanctum (unsure, Tier 3)
 		}),
 		n(DELVES_TWW_S2, applyDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
-			n(QUESTS, {
-				-- q(86329),	-- Delver's Cosmetic Surprise Bag (itemID 233281) [linked to Item]
-				-- q(86328),	-- Delver's Starter Kit (itemID 233276) [linked to Item]
-			}),
 			-- Delver's Journey Rewards
 			q(85204),	-- Delver's Dirigible Schematic: Flamethrower (spellID 467083)
 			q(85203),	-- Delver's Dirigible Schematic: Pipes (spellID 467082)
@@ -4139,8 +4140,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			-- Items (probably automation will do a thing, just in case)
 			-- q(89040),	-- Purchaseable Rare Delve Key - 1 (spellID 1225596) (itemID 238526)
 			-- q(89041),	-- Purchaseable Rare Delve Key - 2 (spellID 1225597) (itemID 238527)
-			-- q(91783),	-- Delver's Cosmetic Surprise Bag (spellID 1246295) (itemID 248127)
-			-- q(91784),	-- Delver's Starter Kit (spellID 1246296) (itemID 248126)
 		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
