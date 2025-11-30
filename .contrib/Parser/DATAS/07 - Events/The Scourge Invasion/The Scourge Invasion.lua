@@ -458,6 +458,13 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				["races"] = { GNOME },
 				["lvl"] = 65,
 			}),
+			-- #IF SEASON_OF_DISCOVERY
+			q(87361, {	-- Laid to Rest
+				["qg"] = 238376,	-- Brother Luctus <Soul Seer>
+				["coord"] = { 80.6, 65.4, EASTERN_PLAGUELANDS },
+				["sourceQuest"] = 87361,	-- Laid to Rest
+			}),
+			-- #ENDIF
 			q(9295, {	-- Letter from the Front
 				["providers"] = {
 					{ "i", 22977 },	-- A Torn Letter
@@ -587,6 +594,25 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				},
 				["lvl"] = 45,
 			}),
+			-- #IF SEASON_OF_DISCOVERY
+			q(88745, {	-- Shadows of Doom
+				["qg"] = 16361,	-- Commander Thomas Helleran <The Argent Dawn>
+				["coord"] = { 81.1, 60.6, EASTERN_PLAGUELANDS },
+				["providers"] = {
+					{ "i", 236750 },	-- Heart of Doom
+				},
+				["isYearly"] = true,
+				["lvl"] = 50,
+				["groups"] = {
+					objective(1, {	-- 0/1 Shadow of Doom slain
+						["provider"] = { "n", 16143 },	-- Shadow of Doom
+					}),
+					i(238234),	-- Blessed Wizard Oil
+					i(238241),	-- Consecrated Sharpening Stone
+					i(237810),	-- Weighted Consecrated Sharpening Stone
+				},
+			}),
+			-- #ELSE
 			q(9085, {	-- Shadows of Doom
 				["qg"] = 16361,	-- Commander Thomas Helleran <The Argent Dawn>
 				["coord"] = { 81.1, 60.6, EASTERN_PLAGUELANDS },
@@ -600,6 +626,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 					i(23122),	-- Consecrated Sharpening Stone
 				},
 			}),
+			-- #ENDIF
 			q(12788, {	-- Silvermoon
 				["sourceQuest"] = 12782,	-- Desperate Research
 				["providers"] = {
@@ -779,6 +806,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 					["timeline"] = { ADDED_WITH_WRATH_PREPATCH, REMOVED_AFTER_WRATH_PREPATCH },
 				}),
 				-- #IF SEASON_OF_DISCOVERY
+				applyclassicphase(PHASE_SIX_SCOURGE_INVASION, i(236750)),	-- Heart of Doom
 				applyclassicphase(PHASE_SIX_SCOURGE_INVASION, i(236708)),	-- Breastplate of Undead Slaying
 				applyclassicphase(PHASE_SIX_SCOURGE_INVASION, i(236709)),	-- Chestguard of Undead Slaying
 				applyclassicphase(PHASE_SIX_SCOURGE_INVASION, i(236718)),	-- Robe of Undead Cleansing

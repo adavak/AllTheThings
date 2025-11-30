@@ -5249,6 +5249,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #IF SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_SEVEN, n(238376, {	-- Brother Luctus
+					["sourceQuest"] = 87361,	-- Laid to Rest
 					["coords"] = { 
 						{ 80.6, 65.4, EASTERN_PLAGUELANDS },
 						{ 65.43, 55.13, BURNING_STEPPES },
