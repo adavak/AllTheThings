@@ -3,6 +3,11 @@
 ---------------------------------------------
 root(ROOTS.Craftables, expansion(EXPANSION.MID, {
 	i(232875),	-- Spark of Radiance
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7, ADDED_12_0_0 } }, {
+		o(618517, {	-- Thalassian Lumber
+			i(256963),	-- Thalassian Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		filter(CONSUMABLES, {
 			i(241299),	-- Amani Extract+

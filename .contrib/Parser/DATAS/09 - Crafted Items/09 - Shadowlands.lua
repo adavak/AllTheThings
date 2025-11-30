@@ -11,6 +11,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 	i(183942),	-- Novice Crafter's Mark
 	i(185960, {["timeline"] = {ADDED_9_1_0}}),	-- Vestige of Origins
 	i(187784, {["timeline"] = {ADDED_9_2_0}}),	-- Vestige of the Eternal
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(553616, {	-- Arden Lumber
+			i(251772),	-- Arden Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		filter(CONSUMABLES, {
 			i(187802, {["timeline"] = {ADDED_9_2_0}}),	-- Cosmic Healing Potion

@@ -5129,19 +5129,6 @@ root(ROOTS.Unsorted, {
 				i(263504),	-- Skymaster's Blood Pauldrons
 			}),
 			n(DECOR, {
-				i(245586),	-- Ironwood Lumber
-				i(242691),	-- Olemba Lumber
-				i(251762),	-- Coldwind Lumber
-				i(251764),	-- Ashwood Lumber
-				i(251763),	-- Bamboo Lumber
-				i(251766),	-- Shadowmoon Lumber
-				i(251767),	-- Fel-Touched Lumber
-				i(251768),	-- Darkpine Lumber
-				i(251772),	-- Arden Lumber
-				i(251773),	-- Dragonpine Lumber
-				i(248012),	-- Dornic Fir Lumber
-				i(256963),	-- Thalassian Lumber
-
 				i(242948),	-- Loch Modan Bearskin Rug
 				i(243101),	-- Red Dazar'alor Rug
 				i(243327),	-- Zhevra-Stripe Rug

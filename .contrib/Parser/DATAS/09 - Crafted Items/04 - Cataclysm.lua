@@ -47,6 +47,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 	i(180058, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III
 	i(180059, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(578160, {	-- Ashwood Lumber
+			i(251764),	-- Ashwood Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		filter(CONSUMABLES, {
 			i(65460),	-- Big Cauldron of Battle

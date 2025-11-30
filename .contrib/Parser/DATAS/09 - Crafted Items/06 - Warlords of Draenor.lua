@@ -42,7 +42,7 @@ end
 -- 10.0.5: Removes Item 1*, Item 4, Item 5 and add twos new items called Impressive and Remarkable which makes you able to get the appearances. \\End
 
 -- Item 1: X / Unstable X,
--- Item 2: Greate X / Unstable Greater X
+-- Item 2: Greater X / Unstable Greater X
 -- Item 3: Powerful X / Unstable Powerful X
 -- Item 1*: X
 -- Item 4: Mighty X
@@ -108,6 +108,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 	i(180058, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III
 	i(180059, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		--o(572129, {	-- Shadowmoon Lumber
+		-- Exo Note: Unconfirmed ObjectID, could not find a single lumber in Draenor zones
+			i(251766),	-- Shadowmoon Lumber
+		--}),
+	})),
 	prof(ALCHEMY, {
 		filter(CONSUMABLES, {
 			i(116979, {["timeline"] = {ADDED_8_0_1}}),	-- Blackwater Anti-Venom

@@ -7,6 +7,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 	i(180058, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III
 	i(180059, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(559409, {	-- Fel-Touched Lumber
+			i(251767),	-- Fel-Touched Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		n(DISCOVERY, {
 			spell(188299, {	-- Ancient Healing Potion [Rank 2]

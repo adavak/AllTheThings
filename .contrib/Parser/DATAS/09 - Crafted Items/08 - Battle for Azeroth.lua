@@ -11,6 +11,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 	i(162460, {["timeline"] = {ADDED_8_1_0}}),	-- Hydrocore
 	i(162461, {["timeline"] = {ADDED_8_1_0}}),	-- Sanguicell
 	i(171320, {["timeline"] = {ADDED_8_3_0}}),	-- Void Focus
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(556425, {	-- Darkpine Lumber
+			i(251768),	-- Darkpine Lumber
+		}),
+	})),
 	filter(MOUNTS, {
 		i(153594, {	-- Xiwyllag ATV (MOUNT!)
 			["cost"] = {

@@ -18,6 +18,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	i(180058, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III
 	i(180059, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(575032, {	-- Ironwood Lumber
+			i(245586),	-- Ironwood Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		n(COMMON_VENDOR_ITEMS, {
 			["groups"] = appendAllGroups(

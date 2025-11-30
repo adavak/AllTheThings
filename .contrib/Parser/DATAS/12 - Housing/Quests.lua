@@ -442,7 +442,8 @@ root(ROOTS.Housing, n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }
 			["groups"] = { i(246249) },	-- Silvermoon Beam Platform (DECOR!)
 		}),
 		q(93141, {	-- Decor Treasure Hunt
-			-- WoWhead Comment: Located at 50.5, 79.6, right behind the tower located just Northwest of The Bluffs Flightpath.
+			["description"] = "Treasure can be found right behind the tower located just Northwest of The Bluffs Flightpath at 50.4, 76.8",
+			["coord"] = { 50.4, 76.8, RAZORWIND_SHORES },	-- Treasure
 			["groups"] = { i(251981) },	-- Elegant Elven Chandelier (DECOR!)
 		}),
 		q(93143, {	-- Decor Treasure Hunt

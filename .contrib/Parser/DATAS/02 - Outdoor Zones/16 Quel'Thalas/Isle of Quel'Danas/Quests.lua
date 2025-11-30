@@ -23,6 +23,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coords"] = {
 						{ 53.0, 77.5, ORGRIMMAR },
 						{ 53.3, 54.3, STORMWIND_CITY },
+						{ 46.7, 80.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 					},
 					["groups"] = {
 						i(239151),	-- Light's Summon (PQI!)

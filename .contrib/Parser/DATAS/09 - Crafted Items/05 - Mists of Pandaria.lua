@@ -18,6 +18,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 	i(180058, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III
 	i(180059, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(562440, {	-- Bamboo Lumber
+			i(251763),	-- Bamboo Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		n(DISCOVERY, {
 			r(114774),	-- Darkwater Potion

@@ -18,6 +18,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	i(180058, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past III
 	i(180059, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past IV
 	i(180060, {["timeline"] = { ADDED_9_0_1 }}),	-- Relic of the Past V
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(569722, {	-- Coldwind Lumber
+			i(251762),	-- Coldwind Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		n(COMMON_VENDOR_ITEMS, {
 			i(40411, {	-- Enchanted Vial for WotLK, turns into Shattered Vial with Cataclysm.

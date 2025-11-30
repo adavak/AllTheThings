@@ -16,6 +16,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		["cost"] = {{"i", 231757, 2}},	-- Fractured Spark of Starlight
 		["timeline"] = { ADDED_11_2_0 },
 	}),
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(543723, {	-- Dornic Fir Lumber
+			i(248012),	-- Dornic Fir Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		n(DISCOVERY, {
 			salvagerecipe(430345, 211958, {	-- Meticulous Experimentation

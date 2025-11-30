@@ -35,6 +35,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 	i(191529),	-- Illustrious Insight
 	i(191526),	-- Lesser Illustrious Insight
 	i(204462, {["timeline"] = {ADDED_10_1_0}}),	-- Dracothyst Shards
+	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		o(551833, {	-- Dragonpine Lumber
+			i(251773),	-- Dragonpine Lumber
+		}),
+	})),
 	prof(ALCHEMY, {
 		spell(370747, {	-- Advanced Phial Experimentation
 			["sym"] = {{"select","spellID",370746},{"extract","recipeID"}},	-- Basic Phial Experimentation -> Recipes
