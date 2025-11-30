@@ -1667,10 +1667,8 @@ function app:GetDataCache()
 
 	-- World Drops
 	if app.Categories.WorldDrops then
-		db = app.CreateRawText(TRANSMOG_SOURCE_4);
-		db.g = app.Categories.WorldDrops;
+		db = app.CreateCustomHeader(app.HeaderConstants.WORLD_DROPS, app.Categories.WorldDrops)
 		db.isWorldDropCategory = true;
-		db.icon = app.asset("Category_WorldDrops");
 		tinsert(g, db);
 	end
 
