@@ -5265,6 +5265,7 @@ inst(2856,{awp=11507,isRaid=1,lvl=60,u=1612,["zone-text-areaID"]=16236,g={
 h(-45,{awp=11507,u=1612}),
 d(201,{awp=11507,u=1612,g={
 ah(239301,{awp=11507,c={1,2,3},isRaid=1,type="i",u=1612,g={
+ah(239196,{awp=11507,type="i",u=1612,g={
 q(89445,{awp=11507,c={1,2,3},cost={{"i",239196,1}},lvl=60,u=1612}),
 q(89446,{awp=11507,c={1,2,3},maps={162},qgs={16376},sourceQuests={89445},u=1612}),
 q(89447,{awp=11507,c={1,2,3},cost={{"i",21023,10}},maps={162},qgs={16365},sourceQuests={89446},u=1612}),
@@ -5272,6 +5273,31 @@ q(89448,{awp=11507,c={1,2,3},cost={{"i",239216,12}},maps={162},qgs={16365},sourc
 q(89449,{awp=11507,c={1,2,3},maps={162},qgs={16365},sourceQuests={89448},u=1612}),
 q(89237,{awp=11507,c={1,2,3},cost={{"i",12811,20},{"i",12364,10},{"i",6037,120},{"i",234003,20},{"i",12360,20}},maps={162},qgs={16365},sourceQuests={89449},u=1612}),
 q(89304,{awp=11507,c={1,2,3},maps={162},qgs={16365},sourceQuests={89237},u=1612})}}),
+ah(239696,{awp=11507,type="i",u=1612,g={
+q(89300,{awp=11507,c={1,2,3},lvl=60,sourceQuests={89304},u=1612,g={
+s(287884,239010,{awp=11507,description="Equip the Hilt to summon The Will of the Ashbringer!",f=26,lvl=60,q=4,u=1612})}}),
+q(89232,{awp=11507,c={1,2,3},lvl=60,qgs={241334},sourceQuests={89300},u=1612}),
+q(89303,{awp=11507,c={1,2,3},lvl=60,qgs={241334},sourceQuests={89232},u=1612}),
+q(89442,{awp=11507,c={1,2,3},lvl=60,qgs={241334},sourceQuests={89303},u=1612,g={
+i(239197,{awp=11507,u=1612})}}),
+q(89443,{awp=11507,c={1,2,3},lvl=60,qgs={11034},sourceQuests={89442},u=1612,g={
+i(239219,{awp=11507,lvl=60,u=1612}),
+s(289461,240936,{awp=11507,cost={{"i",239010,1},{"i",239197,1}},description="Be aware, when you equip it all Argent Dawn NPCs turn hostile. Make sure you are a good distance outside of Light's Hope Chapel before equipping it. Use it to summon the Will of the Ashbringer once again.",f=26,lvl=60,q=4,u=1612})}}),
+q(89301,{awp=11507,c={1,2,3},lvl=60,qgs={241334},sourceQuests={89443},u=1612}),
+q(89451,{awp=11507,c={1,2,3},lvl=60,qgs={241334},sourceQuests={89301},u=1612}),
+q(89462,{awp=11507,c={1,2,3},lvl=60,qgs={241834},sourceQuests={89451},u=1612}),
+q(90507,{awp=11507,c={1,2,3},lvl=60,qgs={242174},sourceQuests={89462},u=1612}),
+q(90506,{awp=11507,c={1,2,3},lvl=60,qgs={242174},sourceQuests={89462},u=1612}),
+q(90508,{awp=11507,c={1,2,3},description="Use the Inert Ashbringer Inert Ashbringer to summon the Will of the Ashbringer again & to start the next quest.",lvl=60,qgs={242174},sourceQuests={90506,90507},u=1612}),
+q(89473,{awp=11507,c={1,2,3},lvl=60,qgs={241334},sourceQuests={90508},u=1612}),
+q(90559,{awp=11507,c={1,2,3},lvl=60,qgs={242863},sourceQuests={89473},u=1612,g={
+i(241653,{awp=11507,u=1612}),
+i(241657,{awp=11507,cost={{"i",241653,1}},u=1612}),
+s(289449,241081,{awp=11507,f=26,lvl=60,q=4,u=1612})}}),
+q(89474,{awp=11507,c={1,2,3},lvl=60,maps={435},qgs={241334},sourceQuests={90559},u=1612}),
+q(89475,{awp=11507,c={1,2,3},lvl=60,maps={435},qgs={242499},sourceQuests={89474},u=1612}),
+q(89488,{awp=11507,c={1,2,3},lvl=60,qgs={242501},sourceQuests={89475},u=1612,g={
+s(288080,239301,{awp=11507,f=26,lvl=60,q=5,u=1612})}})}})}}),
 n(11036,{awp=11507,coords={{81.6,57.8,1423},{98.6,84,1423}},u=1612,g={
 cl(11,{awp=11507,u=1612,g={
 s(288677,240060,{awp=11507,c={11},f=5,lvl=60,q=4,u=1612}),
@@ -5628,7 +5654,7 @@ i(239761,{awp=11507,lvl=60,u=1612}),
 s(289398,240852,{awp=11507,f=21,lvl=60,q=4,u=1612}),
 i(239117,{awp=11507,u=1612}),
 s(289390,240841,{awp=11507,f=25,lvl=60,q=4,u=1612}),
-i(239696,{awp=11507,lvl=60,q=5,u=1612}),
+i(239696,{awp=11507,description="Only drops once you have completed the 'Ruined Lightforged Blade' Questchain.",lvl=60,q=5,sourceQuests={89304},u=1612}),
 i(242366,{awp=11507,lvl=60,u=1612}),
 i(241039,{awp=11507,f=53,lvl=60,u=1612}),
 s(289402,240920,{awp=11507,c={2},f=26,lvl=60,q=4,u=1612}),
@@ -6947,7 +6973,7 @@ ach(5788,{icon=133736,maps={236,237,238},minReputation={809,42000},rwp=40003,u=1
 ach(644,{awp=10200,maps={235,236,237,238,239},u=1608})}}),
 h(-31,{awp=10200,u=1608,g={
 faction(809,{maps={236,237,238},OnTooltip=function(t,tooltipInfo)local reputation=t.reputation;if reputation<42000 then	_.Modules.FactionData.AddReputationTooltipInfo(tooltipInfo,reputation,"Libram Turn Ins",200,42000);end	end,rwp=40003,u=1608,g={
-crit(8825,{achID=2336,id=5,u=1609})}}),
+crit(8825,{achID=2336,id=1,u=1609})}}),
 faction(169,{awp=10200,icon=133784,maps={235,1413,1434,1444,1446,1452},OnTooltip=function(t,tooltipInfo)tinsert(tooltipInfo,{left="This is a hidden reputation. It might not count towards reputation achievements.",r=1,g=1,b=1,wrap=true});local reputation=t.reputation;if reputation<42000 then	local addRepInfo=_.Modules.FactionData.AddReputationTooltipInfo;if reputation<20999 then	tinsert(tooltipInfo,{left="To 11999 Honored:",r=1,g=1,b=1});addRepInfo(tooltipInfo,reputation," Kill Venture Co. (STV)",2.5,20999);addRepInfo(tooltipInfo,reputation," Kill Southsea Pirates. (Tanaris & Barrens)",2.5,20999);end	addRepInfo(tooltipInfo,reputation,"Complete Zapping Quests (Feralas)",25,42000);addRepInfo(tooltipInfo,reputation,"Complete Free Knot! (Dire Maul)",150,42000);addRepInfo(tooltipInfo,reputation,"Complete The Gordok Ogre Suit (Dire Maul)",50,42000);end	end,u=1608})}}),
 h(-45,{awp=10200,u=1608,g={
 q(1193,{cost={{"i",3829,1},{"i",15994,1}},description="Use the items on the Broken Trap to trap Guard Slip'kik. It takes a few seconds to finish fixing the trap.\n\nYou must activate this trap in order to do the Tribute Run.",lvl=56,maps={235},providers={{"o",179485}},repeatable=1,rwp=40003,u=1608}),

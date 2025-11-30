@@ -17,65 +17,200 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					header(HEADERS.Item, 239301, {	-- Corrupted Ashbringer
 						["classes"] = { HUNTER, PALADIN, WARRIOR },
 						["isRaid"] = true,
-						["groups"] = {
-							q(89445, {	-- Blades of Light
-								["cost"] = {
-									{ "i", 239196, 1 },	-- Ruined Lightforged Blade
-								},
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["lvl"] = 60,
-							}),
-							q(89446, {	-- The Lost Craftsman
-								["sourceQuest"] = 89445,	-- Blades of Light
-								["qg"] = 16376,	-- Craftsman Wilhelm
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["maps"] = { NAXXRAMAS },
-							}),
-							q(89447, {	-- Extravagant Tastes
-								["sourceQuest"] = 89446,	-- The Lost Craftsman
-								["qg"] = 16365,	-- Master Craftsman Omarion
-								["cost"] = {
-									{ "i", 21023, 10 },	-- Dirge's Kickin' Chimaerok Chops
-								},
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["maps"] = { NAXXRAMAS },
-							}),
-							q(89448, {	-- Gathering Light
-								["sourceQuest"] = 89447,	-- Extravagant Tastes
-								["qg"] = 16365,	-- Master Craftsman Omarion
-								["cost"] = {
-									{ "i", 239216, 12 },	-- Lightforged Iron
-								},
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["maps"] = { NAXXRAMAS },
-							}),
-							q(89449, {	-- The Radiant Forge
-								["sourceQuest"] = 89448,	-- Gathering Light
-								["qg"] = 16365,	-- Master Craftsman Omarion
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["maps"] = { NAXXRAMAS },
-							}),
-							q(89237, {	-- This Could Get Expensive...
-								["sourceQuest"] = 89449,	-- The Radiant Forge
-								["qg"] = 16365,	-- Master Craftsman Omarion
-								["cost"] = {
-									{ "i", 12360, 20 },	-- Arcanite Bar
-									{ "i", 234003, 20 },	-- Obsidian-Infused Thorium Bar
-									{ "i", 6037, 120 },	-- Truesilver Bar
-									{ "i", 12364, 10 },	-- Huge Emerald
-									{ "i", 12811, 20 },	-- Righteous Orb
-								},
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["maps"] = { NAXXRAMAS },
-							}),
-							q(89304, {	-- The Perfect Metal
-								["sourceQuest"] = 89237,	-- This Could Get Expensive...
-								["qg"] = 16365,	-- Master Craftsman Omarion
-								["classes"] = { HUNTER, PALADIN, WARRIOR },
-								["maps"] = { NAXXRAMAS },
-							}),
-							-- to be continued
+						["groups"] = {	
+							-- ToDO: Add Coords
 							-- https://www.wowhead.com/classic/guide/season-of-discovery/ashbringer-unlock-questline
+							header(HEADERS.Item, 239196, {	-- Ruined Lightforged Blade
+								q(89445, {	-- Blades of Light
+									["cost"] = {
+										{ "i", 239196, 1 },	-- Ruined Lightforged Blade
+									},
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(89446, {	-- The Lost Craftsman
+									["sourceQuest"] = 89445,	-- Blades of Light
+									["qg"] = 16376,	-- Craftsman Wilhelm
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["maps"] = { NAXXRAMAS },
+								}),
+								q(89447, {	-- Extravagant Tastes
+									["sourceQuest"] = 89446,	-- The Lost Craftsman
+									["qg"] = 16365,	-- Master Craftsman Omarion
+									["cost"] = {
+										{ "i", 21023, 10 },	-- Dirge's Kickin' Chimaerok Chops
+									},
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["maps"] = { NAXXRAMAS },
+								}),
+								q(89448, {	-- Gathering Light
+									["sourceQuest"] = 89447,	-- Extravagant Tastes
+									["qg"] = 16365,	-- Master Craftsman Omarion
+									["cost"] = {
+										{ "i", 239216, 12 },	-- Lightforged Iron
+									},
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["maps"] = { NAXXRAMAS },
+								}),
+								q(89449, {	-- The Radiant Forge
+									["sourceQuest"] = 89448,	-- Gathering Light
+									["qg"] = 16365,	-- Master Craftsman Omarion
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["maps"] = { NAXXRAMAS },
+								}),
+								q(89237, {	-- This Could Get Expensive...
+									["sourceQuest"] = 89449,	-- The Radiant Forge
+									["qg"] = 16365,	-- Master Craftsman Omarion
+									["cost"] = {
+										{ "i", 12360, 20 },	-- Arcanite Bar
+										{ "i", 234003, 20 },	-- Obsidian-Infused Thorium Bar
+										{ "i", 6037, 120 },	-- Truesilver Bar
+										{ "i", 12364, 10 },	-- Huge Emerald
+										{ "i", 12811, 20 },	-- Righteous Orb
+									},
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["maps"] = { NAXXRAMAS },
+								}),
+								q(89304, {	-- The Perfect Metal
+									["sourceQuest"] = 89237,	-- This Could Get Expensive...
+									["qg"] = 16365,	-- Master Craftsman Omarion
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["maps"] = { NAXXRAMAS },
+								}),
+							}),
+							header(HEADERS.Item, 239696, {	-- Hilt of the Ashbringer
+								q(89300, {	-- The Ashbringer
+									["sourceQuest"] = 89304,	-- The Perfect Metal
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["groups"] = {
+										i(239010, {	-- Hilt of the Ashbringer
+											["description"] = "Equip the Hilt to summon The Will of the Ashbringer!",
+										}),
+									},
+								}),
+								q(89232, {	-- The First Step
+									["sourceQuest"] = 89300,	-- The Ashbringer
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(89303, {	-- On Fate's Path
+									["sourceQuest"] = 89232,	-- The First Step
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(89442, {	-- Emblem of Darkness
+									["sourceQuest"] = 89303,	-- On Fate's Path
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["groups"] = {
+										i(239197),	-- Reforged Blade of the Ashbringer
+									},
+								}),
+								q(89443, {	-- Falling Into Place
+									["sourceQuest"] = 89442,	-- Emblem of Darkness
+									["qg"] = 11034,	-- Lord Maxwell Tyrosus <The Argent Dawn>
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["groups"] = {
+										i(239219),	-- Emblem of the Ashbringer
+										i(240936, {	-- Inert Ashbringer
+											["description"] = "Be aware, when you equip it all Argent Dawn NPCs turn hostile. Make sure you are a good distance outside of Light's Hope Chapel before equipping it. Use it to summon the Will of the Ashbringer once again.",
+											["cost"] = {
+												{ "i", 239197, 1 },	-- Reforged Blade of the Ashbringer
+												{ "i", 239010, 1 },	-- Hilt of the Ashbringer
+											},
+										}),
+									},
+								}),
+								q(89301, {	-- A Difficult Path
+									["sourceQuest"] = 89443,	-- Falling Into Place
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(89451, {	-- Journey To Moonglade
+									["sourceQuest"] = 89301,	-- A Difficult Path
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(89462, {	-- The Druid of the Talon
+									["sourceQuest"] = 89451,	-- Journey To Moonglade
+									["qg"] = 241834,	-- Istaria
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(90507, {	-- Logistics Challenges
+									["sourceQuest"] = 89462,	-- The Druid of the Talon
+									["qg"] = 242174,	-- Thisalee Crow
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(90506, {	-- Take Their Breath Away
+									["sourceQuest"] = 89462,	-- The Druid of the Talon
+									["qg"] = 242174,	-- Thisalee Crow
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(90508, {	-- As The Crow Flies
+									["sourceQuests"] = {
+										90506,	-- Take Their Breath Away
+										90507,	-- Logistics Challenges
+									},
+									["qg"] = 242174,	-- Thisalee Crow
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["description"] = "Use the Inert Ashbringer Inert Ashbringer to summon the Will of the Ashbringer again & to start the next quest.",
+								}),
+								q(89473, {	-- The Well of Eternity
+									["sourceQuest"] = 90508,	-- As The Crow Flies
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+								}),
+								q(90559, {	-- The Tempering
+									["sourceQuest"] = 89473,	-- The Well of Eternity
+									["qg"] = 242863,	-- Hyjal Bonfire
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["groups"] = {
+										i(241653),	-- Heated Blade
+										i(241657, {	-- Tempered Blade
+											["cost"] = {
+												{ "i", 241653, 1 },	-- Heated Blade
+											},
+										}),
+										i(241081),	-- Corrupted Ashbringer
+									},
+								}),
+								q(89474, {	-- Forgiveness
+									["sourceQuest"] = 90559,	-- The Tempering
+									["qg"] = 241334,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["maps"] = { SCARLET_MONASTERY },
+								}),
+								q(89475, {	-- The Lonely Path of the Damned
+									["sourceQuest"] = 89474,	-- Forgiveness
+									["qg"] = 242499,	-- Highlord Mograine
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["maps"] = { SCARLET_MONASTERY },
+								}),
+								q(89488, {	-- A Kind of Peace
+									["sourceQuest"] = 89475,	-- The Lonely Path of the Damned
+									["qg"] = 242501,	-- The Will of the Ashbringer
+									["classes"] = { HUNTER, PALADIN, WARRIOR },
+									["lvl"] = 60,
+									["groups"] = {
+										i(239301),	-- Corrupted Ashbringer
+									},
+								}),
+							}),
 						},
 					}),
 					n(11036, {	-- Leonid Barthalomew the Revered <The Argent Dawn>
@@ -524,7 +659,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(240852),	-- Crimson Cleaver
 							i(239117),	-- Crusader's Chalice
 							i(240841),	-- High Commander's Guard
-							i(239696),	-- Hilt of the Ashbringer
+							i(239696, {	-- Hilt of the Ashbringer (QUEST!)
+								["sourceQuest"] = 89304,	-- -- The Perfect Metal
+								["description"] = "Only drops once you have completed the 'Ruined Lightforged Blade' Questchain.",
+							}),
 							i(242366),	-- Inescapable Fate (QUEST!)
 							i(241039),	-- Infusion of Souls
 							i(240920),	-- Leogan
