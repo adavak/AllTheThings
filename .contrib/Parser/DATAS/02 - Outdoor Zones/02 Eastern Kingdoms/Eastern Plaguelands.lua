@@ -3695,6 +3695,29 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				-- #IF SEASON_OF_DISCOVERY
+				applyclassicphase(PHASE_SIX, q(88724, {	-- Superior Armaments of Battle - Exalted Amongst the Dawn
+					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
+					["coords"] = {
+						{ 81.6, 60.0, EASTERN_PLAGUELANDS },
+					},
+					["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn
+					["cost"] = {
+						{ "i", 22524, 6 },	-- Insignia of the Crusade
+						{ "i", 22523, 6 },	-- Insignia of the Dawn
+					},
+					["repeatable"] = true,
+					["lvl"] = 55,
+					["groups"] = {
+						i(237284),	-- Supply Bag
+						i(237285),	-- Band of Resolution
+						i(237286),	-- Band of Piety
+						i(237287),	-- Verimonde's Last Resort
+						i(237288),	-- Sanctified Leather Helm
+						i(237289),	-- Leggings of the Plague Hunter
+					},
+				})),
+				-- #ELSE
 				applyclassicphase(PHASE_SIX, q(9227, {	-- Superior Armaments of Battle - Exalted Amongst the Dawn
 					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
 					["coords"] = {
@@ -3733,6 +3756,32 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				})),
+				-- #endif
+				-- #IF SEASON_OF_DISCOVERY
+				applyclassicphase(PHASE_SIX, q(88721, {	-- Superior Armaments of Battle - Friend of the Dawn
+					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
+					["coords"] = {
+						{ 81.6, 60.0, EASTERN_PLAGUELANDS },
+					},
+					["minReputation"] = { FACTION_ARGENT_DAWN, FRIENDLY },	-- Argent Dawn
+					["maxReputation"] = { FACTION_ARGENT_DAWN, HONORED },	-- Argent Dawn
+					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = {
+						{ "i", 22524, 30 },	-- Insignia of the Crusade
+						{ "i", 22523, 30 },	-- Insignia of the Dawn
+					},
+					["repeatable"] = true,
+					["lvl"] = 55,
+					["groups"] = {
+						i(237284),	-- Supply Bag
+						i(237285),	-- Band of Resolution
+						i(237286),	-- Band of Piety
+						i(237287),	-- Verimonde's Last Resort
+						i(237288),	-- Sanctified Leather Helm
+						i(237289),	-- Leggings of the Plague Hunter
+					},
+				})),
+				-- #ELSE
 				applyclassicphase(PHASE_SIX, q(9221, {	-- Superior Armaments of Battle - Friend of the Dawn
 					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
 					["coords"] = {
@@ -3772,6 +3821,32 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				})),
+				-- #endif
+				-- #IF SEASON_OF_DISCOVERY
+				applyclassicphase(PHASE_SIX, q(88722, {	-- Superior Armaments of Battle - Honored Amongst the Dawn
+					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
+					["coords"] = {
+						{ 81.6, 60.0, EASTERN_PLAGUELANDS },
+					},
+					["minReputation"] = { FACTION_ARGENT_DAWN, HONORED },	-- Argent Dawn
+					["maxReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn
+					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = {
+						{ "i", 22524, 20 },	-- Insignia of the Crusade
+						{ "i", 22523, 20 },	-- Insignia of the Dawn
+					},
+					["repeatable"] = true,
+					["lvl"] = 55,
+					["groups"] = {
+						i(237284),	-- Supply Bag
+						i(237285),	-- Band of Resolution
+						i(237286),	-- Band of Piety
+						i(237287),	-- Verimonde's Last Resort
+						i(237288),	-- Sanctified Leather Helm
+						i(237289),	-- Leggings of the Plague Hunter
+					},
+				})),
+				-- #else
 				applyclassicphase(PHASE_SIX, q(9223, {	-- Superior Armaments of Battle - Honored Amongst the Dawn
 					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
 					["coords"] = {
@@ -3811,6 +3886,32 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				})),
+				-- #endif
+				-- #IF SEASON_OF_DISCOVERY
+				applyclassicphase(PHASE_SIX, q(88723, {	-- Superior Armaments of Battle - Revered Amongst the Dawn
+					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
+					["coords"] = {
+						{ 81.6, 60.0, EASTERN_PLAGUELANDS },
+					},
+					["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn
+					["maxReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn
+					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = {
+						{ "i", 22524, 7 },	-- Insignia of the Crusade
+						{ "i", 22523, 7 },	-- Insignia of the Dawn
+					},
+					["repeatable"] = true,
+					["lvl"] = 55,
+					["groups"] = {
+						i(237284),	-- Supply Bag
+						i(237285),	-- Band of Resolution
+						i(237286),	-- Band of Piety
+						i(237287),	-- Verimonde's Last Resort
+						i(237288),	-- Sanctified Leather Helm
+						i(237289),	-- Leggings of the Plague Hunter
+					},
+				})),
+				-- #else
 				applyclassicphase(PHASE_SIX, q(9226, {	-- Superior Armaments of Battle - Revered Amongst the Dawn
 					["qg"] = 11536,	-- Quartermaster Miranda Breechlock <The Argent Dawn>
 					["coords"] = {
@@ -3850,6 +3951,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				})),
+				-- #endif
 				q(27370, {	-- Tarenar Sunstrike
 					["qg"] = 45417,	-- Fiona
 					["coord"] = { 9.0, 66.5, EASTERN_PLAGUELANDS },

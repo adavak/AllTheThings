@@ -1136,20 +1136,7 @@ i(235788),	-- Enthusiastic Wisp
 i(235789),	-- Flame of Life
 i(235790),	-- Enchanted Firebrand
 i(235852),	-- Violet Satchel
-i(235867),	-- Scrap of Parchment
 
-i(236219),	-- Harbinger of Doom
-i(236220),	-- Necro-Knight's Garb
-i(236221),	-- Misplaced Servo Arm
-i(236222),	-- Ghoul Skin Tunic
-i(236223),	-- Ring of the Eternal Flame
-i(236224),	-- Stygian Buckler
-i(236225),	-- Girdle of Elemental Fury
-i(236226),	-- Pauldrons of Elemental Fury
-i(236227),	-- Belt of the Grand Crusader
-i(236228),	-- Spaulders of the Grand Crusader
-i(236229),	-- Leggings of the Grand Crusader
-i(236230),	-- Leggings of Elemental Fury
 i(236354),	-- Aspirant's Seal of the Dawn
 i(236355),	-- Initiate's Seal of the Dawn
 i(236356),	-- Squire's Seal of the Dawn
@@ -1194,7 +1181,6 @@ i(236661),	-- Bubbles' Ribcage of Ribaldy
 i(236704),	-- Frosty Wrists
 i(236705),	-- Frosty Gloves
 i(236706),	-- Frosty Vest
-i(236750),	-- Heart of Doom
 i(236786),	-- Heart of Doom
 i(236871),	-- Creepy Censor Sensors
 i(236872),	-- Schematic: Creepy Censor Sensors
@@ -1212,18 +1198,9 @@ i(237280),	-- Medallion of the Dawn
 i(237281),	-- Bracers of Hope
 i(237282),	-- Bracers of Subterfuge
 i(237283),	-- Talisman of Ascendance
-i(237284),	-- Supply Bag
-i(237285),	-- Band of Resolution
-i(237286),	-- Band of Piety
-i(237287),	-- Verimonde's Last Resort
-i(237288),	-- Sanctified Leather Helm
-i(237289),	-- Leggings of the Plague Hunter
 i(237348),	-- Monster - Sword, Short Ornate
-i(237381),	-- Desecrated Ring
 i(237386),	-- Wartorn Undermine Supply Crate
 i(237504),	-- Supply Shipment
-i(237512),	-- Blade of Inquisition
-i(237577),	-- Totem of Unholy Might
 1.15.6.58725
 i(237773),	-- Word of Thawing
 i(237810),	-- Weighted Consecrated Sharpening Stone
@@ -1263,9 +1240,6 @@ i(238361),	-- Lord Blackwood's Blade
 i(238362),	-- Bracers of Mending
 i(238363),	-- The Shadow's Grasp
 i(238364),	-- Cloak of Revanchion
-1.15.6.59415
-i(236864),	-- Soulfrost Quiver
-i(236869),	-- Soulfrost Ammo Pouch
 1.15.7.59706
 i(190325),	-- Monster - Incubus Whip Mace1H
 i(237020),	-- Scarlet Insignia
@@ -1349,7 +1323,6 @@ i(238945),	-- Caladboulder
 i(238960),	-- Quartermaster's Crate
 i(238961),	-- Caladbolg
 i(238985),	-- Heavy Crate
-i(239010),	-- Hilt of the Ashbringer
 i(239011),	-- Shard of Crystallized Light
 i(239012),	-- Splinter of Crystallized Light
 i(239013),	-- Crystalline Axe
@@ -1390,11 +1363,8 @@ i(240836),	-- Thisalee's Whistle
 i(240837),	-- Strings of Fate
 i(240845),	-- Prototype Magnet
 i(240846),	-- Magnetic Scrap
-i(240848),	-- Nordrassil Detritus
-i(240936),	-- Inert Ashbringer
 i(240945),	-- Slice of Carrie's Apple Pie
 i(240994),	-- Tim's Test Ranged Weapon 2
-i(241081),	-- Corrupted Ashbringer
 i(241082),	-- Ashbringer
 i(241083),	-- S03 - Scarlet Enclave - Sword 2h Raid
 i(241084),	-- S03 - Scarlet Enclave - Herod's Sword - Normal

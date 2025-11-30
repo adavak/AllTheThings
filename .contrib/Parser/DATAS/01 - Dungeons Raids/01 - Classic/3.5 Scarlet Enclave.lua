@@ -171,6 +171,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									["qg"] = 241334,	-- The Will of the Ashbringer
 									["classes"] = { HUNTER, PALADIN, WARRIOR },
 									["lvl"] = 60,
+									["groups"] = {
+										objective(1, {	-- 0/12 Nordrassil Detritus
+											["provider"] = { "i", 240848 },	-- Nordrassil Detritus
+										}),
+									},
 								}),
 								q(90559, {	-- The Tempering
 									["sourceQuest"] = 89473,	-- The Well of Eternity
@@ -207,7 +212,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									["classes"] = { HUNTER, PALADIN, WARRIOR },
 									["lvl"] = 60,
 									["groups"] = {
-										i(239301),	-- Corrupted Ashbringer
+										i(239301),	-- Corrupted Ashbringer (Cleansed)
 									},
 								}),
 							}),

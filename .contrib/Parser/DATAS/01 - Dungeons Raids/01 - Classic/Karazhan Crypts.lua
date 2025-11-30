@@ -163,6 +163,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(ZONE_DROPS, {
+						i(235867),	-- Scrap of Parchment
 						i(236708),	-- Breastplate of Undead Slaying
 						i(236709),	-- Chestguard of Undead Slaying
 						i(236718),	-- Robe of Undead Cleansing

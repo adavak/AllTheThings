@@ -4252,6 +4252,8 @@ applyclassicphase(PHASE_SIX,
 									i(236256),	-- Touch of Frost
 									i(236257),	-- Gem of Nerubis
 									i(236258),	-- Cryptfiend Silk Cloak
+									i(236228),	-- Spaulders of the Grand Crusader
+									i(236226),	-- Pauldrons of Elemental Fury
 									i(236259),	-- Band of Unanswered Prayers
 								}),
 								n(15953, {	-- Grand Widow Faerlina
@@ -4260,6 +4262,7 @@ applyclassicphase(PHASE_SIX,
 									i(236262),	-- Polar Shoulder Pads
 									i(236263),	-- Widow's Remorse
 									i(236264),	-- The Widow's Embrace
+									i(236223),	-- Ring of the Eternal Flame
 								}),
 								n(15952, {	-- Maexxna
 									i(236233),	-- Desecrated Gauntlets
@@ -4282,6 +4285,8 @@ applyclassicphase(PHASE_SIX,
 									i(236272),	-- Cloak of the Scourge
 									i(236273),	-- Band of the Inevitable
 									i(236274),	-- Hailstone Band
+									i(236230),	-- Leggings of Elemental Fury
+									i(236229),	-- Leggings of the Grand Crusader
 									i(236275),	-- Noth's Frigid Heart
 									i(236276),	-- Totem of Flowing Water
 								}),
@@ -4289,6 +4294,7 @@ applyclassicphase(PHASE_SIX,
 									i(236277),	-- Necklace of Necropsy
 									i(236278),	-- Glacial Headdress
 									i(236279),	-- Preceptor's Hat
+									i(236219),	-- Harbinger of Doom
 									i(236280),	-- Legplates of Carnage
 									i(236281),	-- Icy Scale Coif
 								}),
@@ -4375,6 +4381,7 @@ applyclassicphase(PHASE_SIX,
 									i(236309),	-- Girdle of the Mentor
 									i(236310),	-- Wand of the Whispering Dead
 									i(236311),	-- Signet of the Fallen Defender
+									i(236220),	-- Necro-Knight's Garb
 									i(236312),	-- Iblis, Blade of the Fallen Seraph
 								}),
 								n(16060, {	-- Gothik the Harvester
@@ -4383,6 +4390,8 @@ applyclassicphase(PHASE_SIX,
 									i(236314),	-- Boots of Displacement
 									i(236315),	-- Polar Helmet
 									i(236316),	-- Sadist's Collar
+									i(236227),	-- Belt of the Grand Crusader
+									i(236225),	-- Girdle of Elemental Fury
 								}),
 								n(THE_FOUR_HORSEMEN, {
 									["qgs"] = {
@@ -4404,7 +4413,7 @@ applyclassicphase(PHASE_SIX,
 											["collectible"] = false,
 										}),
 										-- #endif
-									--	i(22691),	-- Corrupted Ashbringer
+										i(237512),	-- Blade of Inquisition
 										i(236318),	-- Seal of the Damned
 										i(236319),	-- Leggings of Apocalypse
 										i(236320),	-- Warmth of Forgiveness
@@ -4425,6 +4434,7 @@ applyclassicphase(PHASE_SIX,
 										i(236289),	-- Cloak of Suturing
 										i(236290),	-- Wand of Fates
 										i(236291),	-- Band of Reanimation
+										i(236222),	-- Ghoul Skin Tunic
 									},
 								}),
 								n(15931, {	-- Grobbulus
@@ -4435,6 +4445,7 @@ applyclassicphase(PHASE_SIX,
 										i(236294),	-- Icy Scale Spaulders
 										i(236295),	-- Glacial Mantle
 										i(236297),	-- The End of Dreams
+										i(236221),	-- Misplaced Servo Arm
 									},
 								}),
 								n(15932, {	-- Gluth
@@ -4443,6 +4454,8 @@ applyclassicphase(PHASE_SIX,
 									i(236300),	-- Gluth's Missing Collar
 									i(236301),	-- Digested Hand of Power
 									i(236296),	-- Death's Bargain
+									i(236224),	-- Stygian Buckler
+									i(237577),	-- Totem of Unholy Might
 								}),
 								n(15928, {	-- Thaddius
 									i(236236),	-- Desecrated Helmet
