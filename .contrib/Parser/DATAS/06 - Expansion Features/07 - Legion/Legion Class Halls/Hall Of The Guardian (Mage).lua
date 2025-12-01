@@ -877,16 +877,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117331 },	-- Aethas Sunreaver
 						["coord"] = { 49.2, 18.6, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							i(143795),	-- Nightborne Soulstone (QI!)
-						},
+						["groups"] = { i(143795) },	-- Nightborne Soulstone (QI!)
 					}),
 					q(46000, {	-- Arming Dalaran
 						["sourceQuests"] = {
 							45614,	-- Lady Remor'za
 							45586,	-- Shield Amplification
 						},
-						["provider"] = { "n", 117331 },	-- Aethas Sunreaver
+						["provider"] = { "n", 119001 },	-- Aethas Sunreaver
 						["coord"] = { 49.2, 18.6, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
 					}),
@@ -900,9 +898,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 46290,	-- Return of the Archmage
 						["provider"] = { "n", 117497 },	-- Aethas Sunreaver
 						["coord"] = { 72.2, 63.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(994),	-- Aethas Sunreaver
-						},
+						["groups"] = { follower(994) },	-- Aethas Sunreaver
 					})),
 					q(45844, {	-- Avocation of Antonidas
 						["sourceQuest"] = 46043,	-- Champion: Aethas Sunreaver

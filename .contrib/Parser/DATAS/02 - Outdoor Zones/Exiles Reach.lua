@@ -92,9 +92,23 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						o_repeated({	-- Old Spring
+							["coord"] = { 51.8, 51.7, EXILES_REACH },
+							["groups"] = {
+								i(175980),	-- Old Spring (QI!)
+								o(346277),	-- Old Spring
+								o(350814),	-- Old Spring
+							},
+						}),
+						o_repeated({	-- Rusted Chains
+							["coord"] = { 52.2, 53.1, EXILES_REACH },
+							["groups"] = {
+								i(175981),	-- Rusted Chain (QI!)
+								o(346278),	-- Rusted Chains
+								o(350813),	-- Rusted Chains
+							},
+						}),
 						i(175979),	-- Ice Mote (QI!)
-						i(175981),	-- Rusted Chain (QI!)
-						i(175980),	-- Old Spring (QI!)
 					},
 				}),
 				q(59356, {	-- Hunting the Stalker [A]
@@ -121,9 +135,23 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
+						o_repeated({	-- Old Spring
+							["coord"] = { 51.8, 51.7, EXILES_REACH },
+							["groups"] = {
+								i(175980),	-- Old Spring (QI!)
+								o(346277),	-- Old Spring
+								o(350814),	-- Old Spring
+							},
+						}),
+						o_repeated({	-- Rusted Chain
+							["coord"] = { 52.2, 53.1, EXILES_REACH },
+							["groups"] = {
+								i(175981),	-- Rusted Chain (QI!)
+								o(346278),	-- Rusted Chains
+								o(350813),	-- Rusted Chains
+							},
+						}),
 						i(175979),	-- Ice Mote (QI!)
-						i(175981),	-- Rusted Chain (QI!)
-						i(175980),	-- Old Spring (QI!)
 					},
 				}),
 				q(59953, {	-- Hunting the Stalker [H]

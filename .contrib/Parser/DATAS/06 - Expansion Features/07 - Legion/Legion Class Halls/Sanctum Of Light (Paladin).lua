@@ -634,7 +634,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(43701, {	-- Champion: Lothraxion
 						["sourceQuests"] = { 43697 },	-- Warriors of Light
 						["provider"] = { "n", 109105 },	-- Lothraxion <High Commander>
-						["coord"] = { 49.4, 74.1, LIGHTS_HOPE_CHAPEL },
+						["coords"] = {
+							{ 49.4, 74.1, LIGHTS_HOPE_CHAPEL },
+							{ 72.3, 24.4, LIGHTS_HOPE_CHAPEL },
+						},
 						["groups"] = { follower(759) },	-- Lothraxion
 					}),
 					q(43424, {	-- A Hero's Weapon

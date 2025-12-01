@@ -881,18 +881,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98099 },	-- Lilian Voss
 						["coord"] = { 42.2, 77.0, THE_HALL_OF_SHADOWS },
 						["races"] = HORDE_ONLY,
-						["groups"] = {
-							follower(988),	-- Princess Tess Greymane / Lilian Voss
-						},
+						["groups"] = { follower(988) },	-- Princess Tess Greymane / Lilian Voss
 					})),
 					q(46059, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Champion: Tess Greymane
 						["sourceQuest"] = 46260,	-- Meld Into the Shadows
 						["provider"] = { "n", 94138 },	-- Princess Tess Greymane
 						["coord"] = { 42.3, 75.9, THE_HALL_OF_SHADOWS },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							follower(988),	-- Princess Tess Greymane / Lilian Voss
-						},
+						["groups"] = { follower(988) },	-- Princess Tess Greymane / Lilian Voss
 					})),
 					q(46103, {	-- Dread Infiltrators
 						["sourceQuests"] = {
@@ -908,18 +904,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98099 },	-- Lilian Voss
 						["coord"] = { 20.0, 21.4, THE_HALL_OF_SHADOWS },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							mount(231434),	-- Shadowblade's Murderous Omen (MOUNT!)
-						},
+						["groups"] = { mount(231434) },	-- Shadowblade's Murderous Omen (MOUNT!)
 					})),
 					q(46178, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Hiding in Plain Sight (H)
 						["sourceQuest"] = 46103,	-- Dread Infiltrators
 						["provider"] = { "n", 98099 },	-- Lilian Voss
 						["coord"] = { 20.0, 21.4, THE_HALL_OF_SHADOWS },
 						["races"] = HORDE_ONLY,
-						["groups"] = {
-							mount(231434),	-- Shadowblade's Murderous Omen (MOUNT!)
-						},
+						["groups"] = { mount(231434) },	-- Shadowblade's Murderous Omen (MOUNT!)
 					})),
 					-- Side Quest
 					q(47591, {	-- Wanna Buy a Lamp?

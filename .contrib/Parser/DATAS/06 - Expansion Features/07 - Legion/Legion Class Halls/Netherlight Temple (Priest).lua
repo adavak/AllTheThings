@@ -640,7 +640,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(45788, {	-- The Speaker Awaits
 						["sourceQuests"] = { 46034 },	-- Champion: Aelthalyste
-						["provider"] = { "n", 118536 },	-- Grand Priest
+						["qgs"] = {
+							118536,	-- Grand Priest
+							118537,	-- Grand Priestess
+						},
 						["coord"] = { 44.4, 63.7, BROKEN_SHORE },
 					}),
 					q(45789, {	-- The Sunken Vault

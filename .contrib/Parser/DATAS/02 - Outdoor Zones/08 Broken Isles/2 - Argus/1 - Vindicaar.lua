@@ -380,8 +380,15 @@ root(ROOTS.Zones, {
 						}),
 						q(47654, {	-- Seat of the Triumvirate: The Crest of Knowledge
 							["sourceQuests"] = { 47220 },	-- A Beacon in the Dark
-							["provider"] = { "n", 128722 },	-- Prophet Velen
-							["coord"] = { 53.1, 48.8, THE_VINDICAAR_EREDATH_UPPER },
+							["qgs"] = {
+								120533,	-- Prophet Velen
+								126950,	-- Prophet Velen
+								128722,	-- Prophet Velen
+							},
+							["coords"] = {
+								{ 50.7, 51.2, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 53.1, 48.8, THE_VINDICAAR_EREDATH_UPPER },
+							},
 							["groups"] = { i(151090) },	-- The Crest of Knowledge (QI!)
 						}),
 						q(48200, {	-- Securing a Foothold
