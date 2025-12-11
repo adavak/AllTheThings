@@ -5825,7 +5825,6 @@ root(ROOTS.Unsorted, {
 				i(252952),	-- Bewitched Berries
 				i(253042),	-- Felwood Candies
 				i(253043),	-- Duskwood Candies
-				i(254504),	-- Adventuring Letter
 				i(257891),	-- Dog Whistle
 				i(258217),	-- Honey Drops
 			}),

@@ -30,6 +30,12 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 				["provider"] = { "n", 214051 },	-- Vyranoth
 				["coord"] = { 57.1, 37.6, VALDRAKKEN },
 			}),
+			q(92875, {	-- Understanding the War Within
+				["sourceQuests"] = { 78865 },	-- Siblings Until the End
+				["provider"] = { "n", 187678 },	-- Alexstrasza the Life-Binder
+				["coord"] = { 58.0, 35.7, VALDRAKKEN },
+				["timeline"] = { ADDED_11_2_7 },
+			}),
 			q(78864, {	-- The Returning
 				["sourceQuests"] = { 78863 },	-- A Place Beneath the Boughs
 				["provider"] = { "n", 216067 },	-- Shandris Feathermoon
