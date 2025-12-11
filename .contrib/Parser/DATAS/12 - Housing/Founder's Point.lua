@@ -343,69 +343,60 @@ root(ROOTS.Housing, m(FOUNDERS_POINT, {
 			n(255228, {	-- "Len" Splinthoof <Decor Vendor>
 				["coord"] = { 62.5, 80.4, FOUNDERS_POINT },
 				["groups"] = {
-					i(246883),	-- Crude Banded Crate
-					i(245546),	-- Durable Wooden Chest
-					i(246880),	-- Horned Banded Barrel
-					i(246218),	-- Iron-Reinforced Crate
-					i(251638),	-- Jagged Orgrimmar Trellis
-					i(254893),	-- Large Razorwind Gazebo
-					i(246220),	-- Leather-Banded Wooden Bench
-					i(246612),	-- Logger's Picnic Table
-					i(246882),	-- Long Orgrimmar Bench
-					i(246884),	-- Open Crude Banded Crate
-					i(246881),	-- Open Horned Banded Barrel
-					i(246616),	-- Open Iron-Reinforced Crate
-					i(246615),	-- Open Spiky Banded Barrel
-					i(251545),	-- Razorwind Cooking Grill
-					i(257099),	-- Razorwind Covered Well
-					i(246611),	-- Razorwind Fountain
-					i(256357),	-- Razorwind Porch Chair
-					i(245533),	-- Razorwind Brazier
-					i(244532),	-- Rugged Stool
-					i(246217),	-- Short Orgrimmar Bench
-					i(255708),	-- Small Jagged Orgrimmar Trellis
-					i(246241),	-- Spiky Banded Barrel
-					i(244535),	-- Tusked Gazebo
-					i(251637),	-- Tusked Weapon Stand
-					i(246868),	-- Wide Hide-Covered Bench
-					i(249550),	-- Wind Rider Roost
+					i(246883),	-- Crude Banded Crate (DECOR!)
+					i(245546),	-- Durable Wooden Chest (DECOR!)
+					i(246880),	-- Horned Banded Barrel (DECOR!)
+					i(246218),	-- Iron-Reinforced Crate (DECOR!)
+					i(251638),	-- Jagged Orgrimmar Trellis (DECOR!)
+					i(254893),	-- Large Razorwind Gazebo (DECOR!)
+					i(246220),	-- Leather-Banded Wooden Bench (DECOR!)
+					i(246612),	-- Logger's Picnic Table (DECOR!)
+					i(246882),	-- Long Orgrimmar Bench (DECOR!)
+					i(246884),	-- Open Crude Banded Crate (DECOR!)
+					i(246881),	-- Open Horned Banded Barrel (DECOR!)
+					i(246616),	-- Open Iron-Reinforced Crate (DECOR!)
+					i(246615),	-- Open Spiky Banded Barrel (DECOR!)
+					i(251545),	-- Razorwind Cooking Grill (DECOR!)
+					i(257099),	-- Razorwind Covered Well (DECOR!)
+					i(246611),	-- Razorwind Fountain (DECOR!)
+					i(256357),	-- Razorwind Porch Chair (DECOR!)
+					i(245533),	-- Razorwind Brazier (DECOR!)
+					i(244532),	-- Rugged Stool (DECOR!)
+					i(246217),	-- Short Orgrimmar Bench (DECOR!)
+					i(255708),	-- Small Jagged Orgrimmar Trellis (DECOR!)
+					i(246241),	-- Spiky Banded Barrel (DECOR!)
+					i(244535),	-- Tusked Gazebo (DECOR!)
+					i(251637),	-- Tusked Weapon Stand (DECOR!)
+					i(246868),	-- Wide Hide-Covered Bench (DECOR!)
+					i(249550),	-- Wind Rider Roost (DECOR!)
 				},
 			}),
 			n(255230, {	-- "Yen" Malone <Decor Vendor>
 				["coord"] = { 62.2, 80.3, FOUNDERS_POINT },
 				["groups"] = {
-					i(248631),	-- Azsharan Firespear Tree
-					i(248630),	-- Barrens Hosta Bush
-					i(266238),	-- Cragthorn Highlands Large Garden Cluster
-					i(260702),	-- Dry Razorwind Grass Patch
-					i(248633),	-- Flowering Durotar Cactus
-					i(266444),	-- Granite Cobblestone Long Path (DECOR!)
-					i(266443),	-- Granite Cobblestone Path (DECOR!)
-					i(266245),	-- Granite Cobblestone Path Arc (DECOR!)
-					i(266244),	-- Granite Cobblestone Path Corner (DECOR!)
-					i(248632),	-- Hardy Razorwind Grass Patch
-					i(248629),	-- Nagrand Blueberry Bush
-					i(248638),	-- Pink Razorwind Paintbrush
-					i(248634),	-- Razorwind Acacia Tree
-					i(266236),	-- Razorwind Blooms Large Garden Cluster
-					i(266235),	-- Razorwind Cactus Large Garden Cluster
-					i(248626),	-- Razorwind Fighting Cactus
-					i(248650),	-- Razorwind Flamebrush
-					i(248636),	-- Razorwind Gobtree
-					i(248628),	-- Razorwind Palm Tree
-					i(248625),	-- Razorwind Succulent Palm
-					i(248627),	-- Razorwind Tumbleweed
-					i(260701),	-- Red Razorwind Paintbrush
-					i(266237),	-- Runetotem's Bounty Large Garden Cluster
-					i(266234),	-- Saltfang Shoals Large Garden Cluster
-					i(257359),	-- Slate Cobblestone Pair
-					i(257388),	-- Slate Cobblestone
-					i(257390),	-- Slate Cobblestone Path
-					i(257392),	-- Slate Cobblestone Trio
-					i(248637),	-- Sunset Aster Flowers
-					i(248338),	-- Flat Boulder
-					i(248339),	-- Hilltop Boulder
-					i(248337),	-- Round-Top Boulder
+					i(248631),	-- Azsharan Firespear Tree (DECOR!)
+					i(248630),	-- Barrens Hosta Bush (DECOR!)
+					i(260702),	-- Dry Razorwind Grass Patch (DECOR!)
+					i(248633),	-- Flowering Durotar Cactus (DECOR!)
+					i(248632),	-- Hardy Razorwind Grass Patch (DECOR!)
+					i(248629),	-- Nagrand Blueberry Bush (DECOR!)
+					i(248638),	-- Pink Razorwind Paintbrush (DECOR!)
+					i(248634),	-- Razorwind Acacia Tree (DECOR!)
+					i(248626),	-- Razorwind Fighting Cactus (DECOR!)
+					i(248650),	-- Razorwind Flamebrush (DECOR!)
+					i(248636),	-- Razorwind Gobtree (DECOR!)
+					i(248628),	-- Razorwind Palm Tree (DECOR!)
+					i(248625),	-- Razorwind Succulent Palm (DECOR!)
+					i(248627),	-- Razorwind Tumbleweed (DECOR!)
+					i(260701),	-- Red Razorwind Paintbrush (DECOR!)
+					i(257359),	-- Slate Cobblestone Pair (DECOR!)
+					i(257388),	-- Slate Cobblestone (DECOR!)
+					i(257390),	-- Slate Cobblestone Path (DECOR!)
+					i(257392),	-- Slate Cobblestone Trio (DECOR!)
+					i(248637),	-- Sunset Aster Flowers (DECOR!)
+					i(248338),	-- Flat Boulder (DECOR!)
+					i(248339),	-- Hilltop Boulder (DECOR!)
+					i(248337),	-- Round-Top Boulder (DECOR!)
 				},
 			}),
 			n(255218, {	-- Argan Hammerfist
@@ -651,7 +642,6 @@ root(ROOTS.Housing, m(FOUNDERS_POINT, {
 				["coord"] = { 53.5, 40.9, FOUNDERS_POINT },
 				["groups"] = {
 					i(248648),	-- Autumn Leaf Pile (DECOR!)
-					i(266241),	-- Brumewood Hollow Large Garden Cluster (DECOR!)
 					i(245371),	-- Charming Laurel Tree (DECOR!)
 					i(245327),	-- Creeping Corner Ivy (DECOR!)
 					i(248642),	-- Creeping Lattice Ivy (DECOR!)
@@ -671,21 +661,13 @@ root(ROOTS.Housing, m(FOUNDERS_POINT, {
 					i(255646),	-- Founder's Point Apple Tree (DECOR!)
 					i(258659),	-- Founder's Point Autumn Apple Tree (DECOR!)
 					i(248647),	-- Founder's Point Blooming Grass Patch (DECOR!)
-					i(266240),	-- Founder's Point Large Garden Cluster (DECOR!)
 					i(245369),	-- Gift of Gilneas (DECOR!)
-					i(266242),	-- Gilded Oaks Large Garden Cluster (DECOR!)
 					i(248639),	-- Gloomrose (DECOR!)
-					i(266444),	-- Granite Cobblestone Long Path (DECOR!)
-					i(266443),	-- Granite Cobblestone Path (DECOR!)
-					i(266245),	-- Granite Cobblestone Path Arc (DECOR!)
-					i(266244),	-- Granite Cobblestone Path Corner (DECOR!)
-					i(266239),	-- Outer Banks Large Garden Cluster (DECOR!)
 					i(248645),	-- Pink Gilnean Rose (DECOR!)
 					i(248646),	-- Silvermoon Sunrise Bush (DECOR!)
 					i(245328),	-- Small Boxwood Bush (DECOR!)
 					i(245329),	-- Small Poppy Cluster (DECOR!)
 					i(248644),	-- Spiritbloom Flower (DECOR!)
-					i(266243),	-- Stoneveil Ridge Large Garden Cluster (DECOR!)
 					i(248649),	-- Young Chestnut Tree (DECOR!)
 					i(248338),	-- Flat Boulder (DECOR!)
 					i(248339),	-- Hilltop Boulder (DECOR!)

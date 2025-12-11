@@ -39,7 +39,12 @@ root(ROOTS.Housing, n(QUESTS, {
 				{ 53.1, 40.1, FOUNDERS_POINT },	-- Lyssabel Dawnpetal [A]
 				{ 55.3, 57.6, RAZORWIND_SHORES },	-- Tocho Couldhide [H]
 			},
-			["groups"] = { i(266892) },	-- Neighbourhood Campsites (Unlocks 'Founders Point' and 'Razorwind Shores' Campsites. Could not see Campsite IDs even with them enabled in ATT Settings)
+			["groups"] = {
+				i(266892, sharedDataSelf({ ["timeline"] = { ADDED_12_0_0 } }, {	-- Neighbourhood Campsites
+					campsite(146),	-- Founders Point
+					campsite(145),	-- Razorwind Shores
+				})),
+			},
 		}),
 		q(93647, {	-- Lumber For You
 			["qgs"] = {
