@@ -1874,6 +1874,20 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							i(205970),	-- Azure Flightstone
 						},
 					}),
+					q(91467, {	-- Incarnates on the Move
+						["description"] = "This can be completed in party-sync with a character who has not completed 'A Peaceful Farewell' (ID 72951).",
+						["sourceQuests"] = { 72951 },	-- A Peaceful Farewell
+						["provider"] = { "n", 247407 },	-- Scalecommander Emberthal
+						["coord"] = { 39.4, 63.0, THE_AZURE_SPAN },
+						["timeline"] = { ADDED_11_2_7 },
+					}),
+					q(91466, {	-- Aiding the Green Dragons
+						["description"] = "This can be completed in party-sync with a character who has not completed 'A Peaceful Farewell' (ID 72951).",
+						["sourceQuests"] = { 91467 },	-- Incarnates on the Move
+						["provider"] = { "n", 247407 },	-- Scalecommander Emberthal
+						["coord"] = { 39.4, 63.0, THE_AZURE_SPAN },
+						["timeline"] = { ADDED_11_2_7 },
+					}),
 				}),
 				header(HEADERS.Quest, 73196, sharedData({ ["classes"] = { DRUID, EVOKER, MAGE, PRIEST, SHAMAN, WARLOCK }, }, {	-- Tarecgosa's Rest
 					q(73196, {	-- Tarecgosa's Rest
