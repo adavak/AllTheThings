@@ -2267,7 +2267,7 @@ i(258515, 1263387);	-- Crimson Lupine
 i(258188, 1262886);	-- Geargrinder Mk. 11
 i(242715, 1233516);	-- K'arroc Swiftwing
 i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
---- NYI ---
+--- UNSORTED ---
 i(258488, 1263369);	-- Skypaw Glimmerfur
 
 ------------------

@@ -218,6 +218,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 				}),
 			},
 		}),
+		n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7, REMOVED_12_0_0 } }, {
+			q(92857, {	-- Ta'readon's Mount Voucher
+				["provider"] = { "i", 254694 },	-- Ta'readon's Mount Voucher
+				["sym"] = {{"select","itemID",
+					-- You can choose 1 mount from this quest and buy the rest from the vendor
+					257511,	-- Bronze Wilderling Harness (MOUNT!)
+					257513,	-- Bronze Aquilon Harness (MOUNT!)
+					257514,	-- Bronze Corpsefly Harness (MOUNT!)
+					257516,	-- Bronze Gravewing Harness (MOUNT!)
+				}},
+			}),
+		})),
 		n(REWARDS, {
 			TimelyGoodieBag({	-- Timely Goodie Bag
 				-- TODO: probably nice to organize by armor/type & weapon since the drops are likely loot-spec-based
@@ -7615,16 +7627,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
 						i(257511, {	-- Bronze Wilderling Harness (MOUNT!)
-							["cost"] = {{ "i", 254694, 1 }},	-- Ta'readon's Mount Voucher
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
 						i(257513, {	-- Bronze Aquilon Harness (MOUNT!)
-							["cost"] = {{ "i", 254694, 1 }},	-- Ta'readon's Mount Voucher
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
 						i(257514, {	-- Bronze Corpsefly Harness (MOUNT!)
-							["cost"] = {{ "i", 254694, 1 }},	-- Ta'readon's Mount Voucher
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
 						i(257516, {	-- Bronze Gravewing Harness (MOUNT!)
-							["cost"] = {{ "i", 254694, 1 }},	-- Ta'readon's Mount Voucher
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
 						i(258515, {	-- Crimson Lupine (MOUNT!)
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
@@ -7632,9 +7644,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 						i(259463, {	-- Snowpaw Glimmerfur Prowler (MOUNT!)
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
-						--i(258488, {	-- Skypaw Glimmerfur (MOUNT!)
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
-						--}),
 					}),
 					filter(TOYS, {
 						i(256881, {	-- Steward's Bauble (TOY!)

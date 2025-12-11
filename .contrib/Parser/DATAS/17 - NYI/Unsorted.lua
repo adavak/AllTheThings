@@ -5740,6 +5740,7 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(260409),	-- Savage Crimson Battle Turtle
+				i(258488),	-- Skypaw Glimmerfur
 				i(260580),	-- Cloudborn Razorwing
 			}),
 			n(PROFESSIONS, {
@@ -5818,15 +5819,16 @@ root(ROOTS.Unsorted, {
 				i(259154),	-- Housing Dye: Rain Poppy Red
 			}),
 			filter(QUEST_ITEMS, {
-				i(229913),	-- Letter from Aysa
-				i(229995),	-- Gorgoa Reed
-				i(252423),	-- Truffles
-				i(252947),	-- Honeycomb
 				i(252952),	-- Bewitched Berries
-				i(253042),	-- Felwood Candies
-				i(253043),	-- Duskwood Candies
 				i(257891),	-- Dog Whistle
+				i(253043),	-- Duskwood Candies
+				i(253042),	-- Felwood Candies
+				i(229995),	-- Gorgoa Reed
 				i(258217),	-- Honey Drops
+				i(252947),	-- Honeycomb
+				i(229913),	-- Letter from Aysa
+				i(252423),	-- Truffles
+				i(265822),	-- Unstable Mechagon Re-Localizatron
 			}),
 			n(TIMEWALKING_HEADER, {	-- Timewalking Shadowlands
 				i(254693),	-- Distilled Knowledge of Timeways
@@ -5835,7 +5837,6 @@ root(ROOTS.Unsorted, {
 				i(243304),	-- Jubilant Snowman Costume
 				i(245580),	-- Rolling Snowball
 			}),
-			i(265822),	-- Unstable Mechagon Re-Localizatron
 		})),
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
 			filter(BATTLE_PETS, {
