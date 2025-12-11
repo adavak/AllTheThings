@@ -2468,7 +2468,7 @@ root(ROOTS.Zones, {
 								}),
 							},
 						}),
-						n(93906, {	-- Trader Caerel <General Goods>
+						n(85950, {	-- Trader Caerel <General Goods>
 							["coord"] = { 41.0, 59.6, STORMSHIELD },
 							["groups"] = sharedData({
 								["timeline"] = { ADDED_11_2_7 }
