@@ -3363,10 +3363,10 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		}),
 		-- #if AFTER 9.1.0
 		i(3300, {	-- Rabbit's Foot
-			["description"] = "Drops from wolves or dogs in Classic zones.",
+			["description"] = "Drops from wolves or dogs in vanilla zones.",
 		}),
 		i(11406, {	-- Rotting Bear Carcass
-			["description"] = "Drops from bears in Classic zones.",
+			["description"] = "Drops from bears in vanilla zones and the dungeon Old Hillsbrad Foothills.",
 		}),
 		-- #endif
 		-- #if SEASON_OF_DISCOVERY
@@ -4630,8 +4630,10 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				EASTERN_PLAGUELANDS,
 				WESTERN_PLAGUELANDS,
 				-- #endif
-				DIRE_MAUL_CAPITAL_GARDENS,
+				-- #if BEFORE MOP
 				SCHOLOMANCE,
+				-- #endif
+				DIRE_MAUL_CAPITAL_GARDENS,
 				STRATHOLME,
 			},
 		}),
@@ -4654,8 +4656,10 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				-- #elseif AFTER 4.0.3
 				EASTERN_PLAGUELANDS,
 				-- #endif
-				DIRE_MAUL,
+				-- #if BEFORE MOP
 				SCHOLOMANCE,
+				-- #endif
+				DIRE_MAUL,
 				STRATHOLME,
 			},
 		}),

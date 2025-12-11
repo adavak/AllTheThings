@@ -772,9 +772,6 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 			["description"] = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
-		i(206374, {	-- Invader's Scourgestone
-			["timeline"] = { ADDED_10_1_5 },
-		}),
 		i(12840, {	-- Minion's Scourgestone / Inert Minion's Scourgestone
 			["description"] = "Can drop from weak Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
@@ -784,7 +781,6 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 			["timeline"] = { REMOVED_4_0_3, ADDED_10_1_5 },
 			["cr"] = 10678,	-- Plagued Hatchling
 		}),
-		ignoreTimeline(i(20520)),	-- Dark Rune
 		i(12753, {	-- Skin of Shadow
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
@@ -1730,7 +1726,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 		}),
 	}),
 	n(1853, {	-- Darkmaster Gandling
-		["description"] = "You must full clear out the Crypt before this boss will spawn on the bottom floor. It is recommended that you clear the top floor last so that you have an opportunity to properly position your group.",
+		["description"] = "You must fully clear out the six rooms around Headmaster's Study before this boss will spawn on the bottom floor. It is recommended that you clear the top floor last so that you have an opportunity to properly position your group.",
 		["groups"] = {
 			i(206373, {	-- Darkmaster's Scourgestone (QI!)
 				["description"] = "Drops only with equipped Argent Dawn Commission",
@@ -2086,6 +2082,9 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.NORMAL, {
 			["timeline"] = { ADDED_4_0_3 },
 			["repeatable"] = true,
 			["lvl"] = lvlsquish(40, 40, 15),
+			-- #if AFTER 10.1.5
+			["description"] = "Killing Rattlegore in Old Scholomance DOES NOT progress this quest.",
+			-- #endif
 			["groups"] = {
 				objective(1, {	-- 0/1 Rattlegore slain
 					["provider"] = { "n", 59153 },	-- Rattlegore
