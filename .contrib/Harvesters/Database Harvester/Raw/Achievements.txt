@@ -5311,6 +5311,8 @@
 62055@@@The Mistwalker
 62059@@@Mistborne
 62060@@@Heir to the Mist
+5.5.3.64857
+62350@@@Hidden - Mistwalker
 6.0.1.18179
 8394@@@The Frostwind Slayer
 8463@@@Mythic: Immerseus
