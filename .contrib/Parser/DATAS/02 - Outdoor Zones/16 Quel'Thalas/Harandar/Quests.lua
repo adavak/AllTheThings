@@ -158,7 +158,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = {
 							i(256196),	-- Greathelm of Scorched Fronds
 							i(256204),	-- Har'mara Defender's Helm
-							i(256212),	-- Hat of the Harmonius Grove
+							i(256212),	-- Hat of the Harmonious Grove
 							i(256220),	-- Singed Sporetender's Cap
 						},
 					}),
@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 240533 },	-- Orweyna
 						["coord"] = { 35.7, 25.3, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							i(258623),	-- Glowing Seed (QI!)
+							i(258623),	-- Glistening Seed Bag (QI!)
 						},
 					}),
 					------ Stay awhile and listen ------

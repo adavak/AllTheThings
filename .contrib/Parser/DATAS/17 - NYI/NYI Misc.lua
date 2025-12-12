@@ -1723,7 +1723,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(224786),	-- Skeleton King Outfit
 			i(224729),	-- Slum Shark Tooth
 			i(210051),	-- Spark Feather
-			i(211494),	-- Spark of Beginnings
+			i(211494),	-- Spark of Vanity
 			i(228224),	-- Spark of Legacies
 			i(220342),	-- Spiced Stock
 			i(212527),	-- Spiderforged Emitter Key [REMOVED]

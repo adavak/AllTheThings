@@ -71,7 +71,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 					i(250255),	-- Unstable Felheart Crystal
 					i(251140),	-- Vilefiend's Guise
 				}),
-				n(MISC, {
+				filter(MISC, {
 					i(236381),	-- Sargle's Fortune #12
 					-- Vednor consumable buff, one per player. Not sure if worth sourcing per npc
 					i(237765),	-- Hearthstop Blade

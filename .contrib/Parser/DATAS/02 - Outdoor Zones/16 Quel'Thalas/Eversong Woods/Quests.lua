@@ -72,7 +72,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(248047),	-- Lightbloom Band
 							i(248048),	-- Ring of Overgrowth
 							o(577805, {	-- Strange Seed
-								i(253386),	-- Strange Seed (QI!)
+								i(253386),	-- Light-pulsing Seed (QI!)
 							}),
 						},
 					}),

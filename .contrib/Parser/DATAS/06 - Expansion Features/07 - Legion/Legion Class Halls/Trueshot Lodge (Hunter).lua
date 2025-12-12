@@ -18,7 +18,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						i(250126),	-- Unseen Path Archer's Gallery (DECOR!)
 					}),
 					ach(42273, {	-- The Huntmaster's Campaign
-						i(248011),	-- Trueshot Skeletal Dragon Trophy (DECOR!)
+						i(248011),	-- Trueshot Skeletal Dragon Head (DECOR!)
 					}),
 				})),
 				n(ARTIFACTS, {
@@ -1058,7 +1058,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = { { "c", ORDER_RESOURCES, 500 } },
 							}),
-							i(248011, {	-- Trueshot Skeletal Dragon Trophy (DECOR!)
+							i(248011, {	-- Trueshot Skeletal Dragon Head (DECOR!)
 								["sourceAchievement"] = 42273,	-- The Huntmaster's Campaign
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = { { "c", ORDER_RESOURCES, 1500 }  },

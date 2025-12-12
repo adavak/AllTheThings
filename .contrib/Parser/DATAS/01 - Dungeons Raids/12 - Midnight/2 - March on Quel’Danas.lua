@@ -14,7 +14,7 @@ local EncounterToCRS = {
 ------ EncounterToLoot ------
 local EncounterToLoot = {
 	[BELOREN] = {
-		i(249283),	-- Belo'ren's Mystic Talon
+		i(249283),	-- Belo'melorn, the Shattered Talon
 		i(249284),	-- Belo'ren's Swift Talon
 		i(249377),	-- Darkstrider Treads
 		i(249328),	-- Echoing Void Mantle

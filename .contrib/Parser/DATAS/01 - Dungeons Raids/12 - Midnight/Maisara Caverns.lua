@@ -28,7 +28,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(MUROJIN, {
-					i(251163),	-- Berserker's Hexclaws
 					i(251174),	-- Deciever's Rotbow
 					i(251166),	-- Falconer's Cinch
 					i(251167),	-- Nightprey Stalkers
@@ -40,7 +39,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 					i(251178),	-- Ceremonial Hexblade
 					i(251171),	-- Enthralled Bonespines
 					i(251169),	-- Footwraps of Ill-Fate
-					i(251168),	-- Liferipper's Cutlass
 					i(250223),	-- Soulcatcher's Charm
 					i(251161),	-- Soulhunter's Mask
 					i(251172),	-- Vilehex Bonds
@@ -50,9 +48,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 					ach(61639),	-- Maisara Caverns
 					i(251164),	-- Amalgamation's Harness
 					i(251163),	-- Berserker's Hexclaws
-					i(251178),	-- Ceremonial Hexblade
 					i(251179),	-- Decaying Cuirass
-					i(251174),	-- Deciever's Rotbow
 					i(251177),	-- Fetid Vilecrown
 					i(251168),	-- Liferipper's Cutlass
 					i(251175),	-- Soulblight Cleaver

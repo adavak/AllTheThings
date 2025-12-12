@@ -599,7 +599,7 @@ root(ROOTS.Housing, m(FOUNDERS_POINT, {
 						["cost"] = {{ "c", COMMUNITY_COUPONS, 5 }},
 					}),
 					-- Reach the second milestone of the endeavor
-					i(253525, {	-- Thalassion Academy Dictation Device (DECOR!)
+					i(253525, {	-- Thalassian Academy Dictation Device (DECOR!)
 						["cost"] = {{ "c", COMMUNITY_COUPONS, 10 }},
 					}),
 					-- Reach the third milestone of the endeavor

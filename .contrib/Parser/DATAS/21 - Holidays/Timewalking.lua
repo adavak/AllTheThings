@@ -2443,7 +2443,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 							-- Lich King
 							i(171571),	-- Archus, Greatstaff of Antonidas
 							i(171569),	-- Bloodsurge, Kel'Thuzad's Blade of Agony
-							i(171563),	-- Fal'inrush, Defender of Quel'thalas
+							i(171563),	-- Fal'inrush, Defender of Quel'Thalas
 							i(171566),	-- Glorenzelg, High-Blade of the Silver Hand
 							i(171576),	-- Halion, Staff of Forgotten Love
 							i(171565),	-- Havoc's Call, Blade of Lordaeron Kings

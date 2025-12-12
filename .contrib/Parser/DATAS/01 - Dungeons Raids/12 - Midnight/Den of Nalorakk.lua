@@ -58,7 +58,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 					i(251159),	-- War Trial Vestments
 					i(251173),	-- Yoke of the Charging Bear
 				}),
-				n(MISC, {
+				filter(MISC, {
 					i(245573),	-- Salmon
 				}),
 			}),
