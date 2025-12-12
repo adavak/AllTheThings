@@ -901,9 +901,61 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 			-- TWW
 			sharedData({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = ALLIANCE_ONLY }, {
+				q(92845, {	-- By Invitation Only?
+					["qg"] = 253181,	-- Babbling Brawler
+					["lockCriteria"] = { 1,
+						"achID", 61413,	-- The First Rule of Brawler's Guild [A]
+						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
+					},
+					["DisablePartySync"] = true,
+					["coord"] = { 51.2, 43.4, DORNOGAL },
+				}),
+				q(92851, {	-- Questionable Qualifications
+					["sourceQuest"] = 92845,	-- By Invitation Only?
+					["qg"] = 253170,	-- Pick Butterworth
+					["lockCriteria"] = { 1,
+						"achID", 61413,	-- The First Rule of Brawler's Guild [A]
+						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
+					},
+					["DisablePartySync"] = true,
+					["coord"] = { 53.0, 61.2, DEEPRUN_TRAM },
+					["groups"] = {
+						i(254690),	-- Blood-Soaked Invitation
+					},
+				}),
 				q(94363, {	-- The Gloves Are Off
+					["sourceQuest"] = 92851,	-- Questionable Qualifications
 					["qg"] = 253170,	-- Pick Butterworth
 					["coord"] = { 53.0, 61.2, DEEPRUN_TRAM },
+				}),
+			}),
+			sharedData({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = HORDE_ONLY }, {
+				q(92715, {	-- By Invitation Only?
+					--["qg"] = TODO,	-- TODO (same as alliance?)
+					["lockCriteria"] = { 1,
+						"achID", 61413,	-- The First Rule of Brawler's Guild [A]
+						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
+					},
+					["DisablePartySync"] = true,
+					--["coord"] = { XX.X, YY.Y, DORNOGAL }, (same as alliance?)
+				}),
+				q(92740, {	-- Questionable Qualifications
+					["sourceQuest"] = 92715,	-- By Invitation Only?
+					["qg"] = 252933,	-- Alton Philips
+					["coord"] = { 73.4, 31.6, ORGRIMMAR },
+					["lockCriteria"] = { 1,
+						"achID", 61413,	-- The First Rule of Brawler's Guild [A]
+						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
+					},
+					["DisablePartySync"] = true,
+					["groups"] = {
+						i(254690),	-- Blood-Soaked Invitation
+					},
+				}),
+				q(94372, {	-- The Gloves Are Off
+					["sourceQuest"] = 92740,	-- Questionable Qualifications
+					["qg"] = 252933,	-- Alton Philips
+					["coord"] = { 73.4, 31.6, ORGRIMMAR },
 				}),
 			})
 		)),

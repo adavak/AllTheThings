@@ -5710,9 +5710,6 @@ root(ROOTS.Unsorted, {
 				i(262565),	-- Spool of Thread
 				-- house?
 				i(249386),	-- Ghost Gear
-
-				-- Brawlers Guild
-				i(254690),	-- Blood-Soaked Invitation
 			}),
 			filter(MOUNTS, {
 				i(260409),	-- Savage Crimson Battle Turtle
