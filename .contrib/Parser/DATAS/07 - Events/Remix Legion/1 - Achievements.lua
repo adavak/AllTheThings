@@ -8,7 +8,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42503),	-- Artifact, Remixed III
 		ach(42565, {	-- Bringing Order to the Isles
 		-- Added with Phase3 Legion Remix Release -- Gold 5th Nov 2025
-			["description"] = "Requires completion of all 12 Class Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.",
+			["description"] = "Requires completion of all 12 Class Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.\n\nDruids can skip some of the dungeon quests.\n\nRogues have to do every single quest, including getting every follower.",
 			["groups"] = {
 				crit(108652, {["_quests"] = { 45354 }}),	-- Dispersion of the Discs (Mage)
 				crit(108656, {["_quests"] = { 46792 }}),	-- Gathering of the Storms (Shaman)
@@ -87,7 +87,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		ach(42593),	-- Pillars of Creation
 		ach(61339, {	-- Putting the Finite in Infinite
-			["description"] = "Earned upon reaching 999 Infinite Power or completing a +49 or higher Keystone in time.",
+			["description"] = "Earned upon completing a +49 or higher Keystone in time.",	-- There is some reaching 999 Infinite Power stuff, but everyone will do a dungeon at +49 before reaching 999 power
 		}),
 		ach(42313),	-- Remixing Time
 		ach(60959),	-- Tenured in the Timeways I
