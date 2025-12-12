@@ -1,7 +1,7 @@
 @echo off
 
 @REM Download The War Within Classic database
-SET BUILD=11.2.7.64797
+SET BUILD=11.2.7.64877
 call :downloadlocalized HolidayNames
 exit /b
 
