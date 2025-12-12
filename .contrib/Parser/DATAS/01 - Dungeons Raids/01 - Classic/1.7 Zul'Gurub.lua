@@ -2947,6 +2947,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 							i(231874), -- Fang of Venoxis
 							i(231870), -- Halberd of Smiting
 							i(231861),	-- Jeklik's Crusher
+							i(231847),	-- Gri'lek's Grinder
 							i(231846), -- Gri'lek's Carver
 							i(231852), -- Gurubashi Dwarf Destroyer
 							i(231868), -- Mandokir's Sting
@@ -2964,6 +2965,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 							i(231875), -- Thekal's Grasp
 							i(231865), -- Zulian Scepter of Rites
 							i(231854), -- Zin'rokh, Destroyer of Worlds
+							i(231859),	-- Jin'do's Hexxer
+							i(231860),	-- Jin'do's Judgement
+							i(231862),	-- Blazefury Retributer
+							i(231871),	-- Wushoolay's Poker
+							i(231872),	-- Hoodoo Hunting Bow
+							i(231873),	-- Zulian Stone Axe
 						},
 					}),
 					i(19802),	-- Heart of Hakkar

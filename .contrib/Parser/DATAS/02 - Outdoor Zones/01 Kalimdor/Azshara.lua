@@ -2645,6 +2645,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				n(3621, {	-- Kurll
+					["coord"] = { 21.8, 52.0, AZSHARA },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						-- #if SEASON_OF_DISCOVERY
+						i(231780, {	-- Tome of Conjure Water VIII
+							["timeline"] = { ADDED_1_15_4 },
+						}),
+						-- #endif
+					},
+				}),
 				n(49885, {	-- KTC Train-a-Tron Deluxe <Professions Trainer & Vendor>
 					["coord"] = { 57.0, 50.6, AZSHARA },
 					["timeline"] = { ADDED_4_0_1 },

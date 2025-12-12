@@ -2487,6 +2487,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(16110),	-- Recipe: Monster Omelet (RECIPE!)
 					},
 				}),
+				n(2303, {	-- Lyranne Feathersong <Food & Drink>
+					["coord"] = { 52.0, 29.2, WINTERSPRING },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						-- #if SEASON_OF_DISCOVERY
+						i(231780, {	-- Tome of Conjure Water VIII
+							["timeline"] = { ADDED_1_15_4 },
+						}),
+						-- #endif
+					},
+				}),
 				n(52830, {	-- Michelle De Rum <Pet Collector>
 					["coord"] = { 59.8, 51.6, WINTERSPRING },
 					["timeline"] = { ADDED_4_1_0 },

@@ -3083,6 +3083,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							real(25, i(226712)),	-- Wildheart Belt
 							real(50, i(226709)),	-- Wildheart Kilt
 							real(25, i(226713)),	-- Wildheart Boots
+							real(25, i(232423)),	-- Idol of Nurture
+							real(25, i(232424)),	-- Idol of Cruelty
+							real(25, i(232390)),	-- Idol of Celestial Focus
+							real(25, i(232391)),	-- Idol of Feline Focus
 						}),
 						cl(HUNTER, {
 							real(50, i(226720)),	-- Beaststalker's Cap
@@ -3113,6 +3117,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							real(25, i(226732)),	-- Lightforge Belt
 							real(50, i(226736)),	-- Lightforge Legplates
 							real(25, i(226738)),	-- Lightforge Boots
+							real(25, i(232389)),	-- Libram of Plenty
+							real(25, i(232420)),	-- Libram of Wrath
+							real(25, i(232421)),	-- Libram of Avenging \\ Libram of Avengement
 						}),
 						cl(PRIEST, {
 							real(50, i(226746)),	-- Devout Crown
@@ -3143,6 +3150,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							real(25, i(226754)),	-- Cord of Elements
 							real(50, i(226750)),	-- Kilt of Elements
 							real(25, i(226752)),	-- Boots of Elements
+							real(25, i(232392)),	-- Totem of Relentless Thunder
+							real(25, i(232409)),	-- Totem of the Elements
+							real(25, i(232416)),	-- Totem of Astral Flow
+							real(25, i(232419)),	-- Totem of Conductive Currents
 						}),
 						cl(WARLOCK, {
 							real(50, i(226762)),	-- Dreadmist Mask

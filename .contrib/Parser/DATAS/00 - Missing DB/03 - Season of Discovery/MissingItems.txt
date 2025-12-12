@@ -1256,7 +1256,6 @@ i(231752),	-- S03 - Monster - Sword, 2H Alliance
 i(231754),	-- Kestrel
 i(231755),	-- Peregrine
 i(231778),	-- Mountain Spring Water
-i(231780),	-- Tome of Conjure Water VIII
 i(231789),	-- Sigil of the Keeper
 i(231792),	-- Soul of Mischief
 i(231797),	-- Soul of the Void
@@ -1273,15 +1272,6 @@ i(231842),	-- Nandieb's Stave
 i(231843),	-- First Sigil Fragment
 i(231844),	-- Second Sigil Fragment
 i(231845),	-- Third Sigil Fragment
-i(231847),	-- Gri'lek's Grinder
-i(231859),	-- Jin'do's Hexxer
-i(231860),	-- Jin'do's Judgement
-i(231862),	-- Blazefury Retributer
-i(231871),	-- Wushoolay's Poker
-i(231872),	-- Hoodoo Hunting Bow
-i(231873),	-- Zulian Stone Axe
-i(231885),	-- Frostmourne
-i(231887),	-- Test Dagger
 i(231890),	-- Terrestris
 i(231891),	-- Treatise of the Falcon
 i(231901),	-- Truthbearer
@@ -1293,22 +1283,9 @@ i(231996),	-- Supercharged Gobmogrifier
 i(232312),	-- Blood of the Lightbringer
 i(232324),	-- Bird Whistle \\ Whistle
 1.15.4.56493
-i(232343),	-- QAEnchant Shield - Law of Nature
 i(232344),	-- Vick's VIP Pass
 i(232358),	-- Empty Reliquary
 i(232373),	-- Refined Eye of Sulfuras
-i(232389),	-- Libram of Plenty
-i(232390),	-- Idol of Celestial Focus
-i(232391),	-- Idol of Feline Focus
-i(232392),	-- Totem of Relentless Thunder
-i(232409),	-- Totem of the Elements
-i(232414),	-- Dragontooth Blade
-i(232416),	-- Totem of Astral Flow
-i(232419),	-- Totem of Conductive Currents
-i(232420),	-- Libram of Wrath
-i(232421),	-- Libram of Avenging \\ Libram of Avengement
-i(232423),	-- Idol of Nurture
-i(232424),	-- Idol of Cruelty
 1.15.4.56573
 i(232454),	-- Emblem of the Wild Gods
 i(232455),	-- Emblem of Dishonor

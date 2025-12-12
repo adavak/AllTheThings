@@ -3,6 +3,11 @@
 ---------------------------------------------------------------
 root(ROOTS.NeverImplemented, {
 	n(WEAPONS, {
+		-- #if SEASON_OF_DISCOVERY
+		i(231885),	-- Frostmourne
+		i(231887),	-- Test Dagger
+		i(232343),	-- QAEnchant Shield - Law of Nature
+		-- #endif
 		filter(BOWS, {
 			expansion(EXPANSION.CLASSIC, {
 				n(P1xx, {
