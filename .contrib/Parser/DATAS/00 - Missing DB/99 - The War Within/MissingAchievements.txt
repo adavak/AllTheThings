@@ -1,13 +1,6 @@
 11.2.7.63642
 ach(42192),	-- Snowball Fight!
-ach(51753),	-- Azsuna Matata
-ach(61023),	-- [DNT] Exalted with a Dracthyr Player Faction
 ach(61516),	-- Radiant Singer
-ach(61553),	-- Dynamic Flight Power - Second Wind (Granted in Script 101809)
-ach(61554),	-- Dynamic Flight Power - Aerial Halt (Granted in Script 101809)
-11.2.7.64011
-ach(61862),	-- <DNT> Brewgarden Tutorial Completed
-ach(61890),	-- <Hidden> Housing Early Access [DNT]
 12.0.0.63534
 ach(41287),	-- Windrunner Spire
 ach(41288),	-- Heroic: Windrunner Spire

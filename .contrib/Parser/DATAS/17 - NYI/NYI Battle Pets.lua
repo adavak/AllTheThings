@@ -1559,43 +1559,67 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			pet(4746),	-- Sooty Croach (PET!)
 			pet(4738),	-- Status Symbol (PET!)
 			pet(4743),	-- Swabbie (PET!)
-			--
+			-- Only SpeciesID
+			pet(4676, {	-- Bawkinator 2000 (PET!)
+				["displayID"] = 75333,
+			}),
+			pet(4677, {	-- Black Cave Crab (PET!)
+				["displayID"] = 120695,
+			}),
+			pet(4671, {	-- Cauldrone (PET!)
+				["displayID"] = 47711,
+			}),
+			pet(4673, {	-- Crunchy (PET!)
+				["displayID"] = 54848,
+			}),
+			pet(4674, {	-- Dosh (PET!)
+				["displayID"] = 123032,
+			}),
+			pet(4672, {	-- Finnity (PET!)
+				["displayID"] = 74800,
+			}),
+			pet(4675, {	-- FO-MO Mark II (PET!)
+				["displayID"] = 111667,
+			}),
+			pet(4670, {	-- Hermes
+				["displayID"] = 120709,
+			}),
+			pet(4665, {	-- Yellow Tropical Frog (PET!)
+				["displayID"] = 122963,
+			}),
+			-- With SpeciesID Attached
 			i(235909, {	-- Gleam (PET!)
 				["displayID"] = 89251,
 			}),
 			i(232854, {	-- Grinner (PET!)
 				["displayID"] = 121850,
 			}),
-			--[[
-			-- TODO: Wrong itemID! All of these are using npcID instead.
-			i(231628, {	-- Bawkinator 2000 (PET!)
-				["displayID"] = 75333,
+		})),
+
+		-- 11.1.5
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
+			-- Only SpeciesID
+			pet(4761, {	-- Pascal the Wonder Pup (PET!)
+				["displayID"] = 126779,
 			}),
-			i(231627, {	-- Black Cave Crab (PET!)
-				["displayID"] = 120695,
+			pet(4792, {	-- Ada the Sweetest (PET!)
+				["displayID"] = 70068,
 			}),
-			i(231760, {	-- Crunchy (PET!)
-				["displayID"] = 54848,
+		})),
+
+		-- 11.2.0
+		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_0 } }, {
+			-- With SpeciesID Attached
+			i(246723, {	-- Unfazed Diver (PET!)
+				["displayID"] = 98508,
 			}),
-			i(231762, {	-- Dosh (PET!)
-				["displayID"] = 123032,
+			-- Only SpeciesID
+			pet(4824, {	-- Baby Karesh Fox - Orange (PET!)
+				["displayID"] = 124240,
 			}),
-			i(231758, {	-- Finnity (PET!)
-				["displayID"] = 74800,
+			pet(4837, {	-- Worm, Cosmic - Critter (Red) (PET!)
+				["displayID"] = 128503,
 			}),
-			i(231763, {	-- FO-MO Mark II (PET!)
-				["displayID"] = 111667,
-			}),
-			i(231756, {	-- Hermes
-				["displayID"] = 120709,
-			}),
-			i(231613, {	-- Yellow Tropical Frog (PET!)
-				["displayID"] = 122963,
-			}),
-			i(231757, {	-- Cauldrone (PET!)
-				["displayID"] = 47711,
-			}),
-			]]--
 		})),
 	}),
 }));

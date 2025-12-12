@@ -6050,9 +6050,6 @@ root(ROOTS.Unsorted, {
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
-			filter(BATTLE_PETS, {
-				i(246723),	-- Unfazed Diver
-			}),
 			filter(MISC, {
 				-- Trial/boosted characters?
 				i(243235),	-- Adventurer's Footlocker

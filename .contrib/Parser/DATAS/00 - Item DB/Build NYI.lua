@@ -1,17 +1,19 @@
 -- Build NYI
 root(ROOTS.NeverImplemented, {
-	n(ACHIEVEMENTS, {["timeline"] = {CREATED_3_0_2}}),					-- Completed up to 10.2.5
+	n(ACHIEVEMENTS, {["timeline"] = {CREATED_3_0_2}}),					-- Completed up to 11.2.5
 	n(ARMOR),															-- Not Completed and Not Sorted
-	n(ARTIFACTS),														-- Not Completed and Not Sorted
+	n(ARTIFACTS),														-- Completed up to 11.2.5
 	filter(BAGS),														-- Not Completed and Not Sorted
-	filter(BATTLE_PETS),												-- Completed up to 10.2.5
+	filter(BATTLE_PETS),												-- Completed up to 11.2.0
+	n(CAMPSITES, {["timeline"] = {CREATED_11_1_0}}),					-- Completed up to 11.2.5
 	n(CLASSES),															-- Completed up to 10.2.5
-	n(CONDUITS, {["timeline"] = {CREATED_9_0_1}}),						-- Completed up to 10.2.5
+	n(CONDUITS, {["timeline"] = {CREATED_9_0_1}}),						-- Completed up to 11.2.5
 	filter(COSMETIC),													-- Not Completed and Not Sorted
-	n(MOUNT_MODS, {["timeline"] = {CREATED_10_0_0}}),					-- Completed up to 10.2.5
-	explorationHeader({}),												-- Will be done when Blizzard fixes in-game exploration API
+	n(DECOR, {["timeline"] = {CREATED_11_2_7}}),						-- Not Completed and Not Sorted
+	n(MOUNT_MODS, {["timeline"] = {CREATED_10_0_0}}),					-- Completed up to 11.2.5
+	n(EXPLORATION),														-- Not Completed and Not Sorted
 	-- n(FACTIONS),														-- Completed up to 10.2.5
-	n(FLIGHT_PATHS),													-- Completed up to 10.2.5
+	n(FLIGHT_PATHS),													-- Completed up to 11.2.5
 	n(FOLLOWERS, {["timeline"] = {CREATED_6_0_2}}),						-- Completed up to 10.2.5
 	n(HEIRLOOMS, {["timeline"] = {CREATED_4_0_1}}),						-- Not Completed and Not Sorted
 	filter(ILLUSIONS, {["timeline"] = {CREATED_8_0_1}}),				-- Completed up to 10.2.5
@@ -67,9 +69,11 @@ root(ROOTS.HiddenAchievementTriggers, {
 	expansion(EXPANSION.SL),
 	expansion(EXPANSION.DF),
 	expansion(EXPANSION.TWW),
+	expansion(EXPANSION.MID),
 });
 root(ROOTS.HiddenCurrencyTriggers, {
 	expansion(EXPANSION.TWW),
+	expansion(EXPANSION.MID),
 });
 root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.CLASSIC),
@@ -83,4 +87,5 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.SL),
 	expansion(EXPANSION.DF),
 	expansion(EXPANSION.TWW),
+	expansion(EXPANSION.MID),
 });
