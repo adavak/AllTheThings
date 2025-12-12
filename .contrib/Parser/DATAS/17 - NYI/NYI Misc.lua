@@ -1932,7 +1932,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_7 } }, {
 			i(246114),	-- Catalyst Elixir
 			i(238740),	-- Distilled Knowledge of Timeways
-			i(250776),	-- Illusion: Sha Corruption
 			i(246730),	-- Landro's Loot Box
 		})),
 
