@@ -1010,31 +1010,9 @@ i(226679),	-- Timeless Wanderer's Insights
 i(226680),	-- Rune of the First Warrior
 i(226698),	-- Vertically Composited Patch Hampler
 i(226699),	-- Brass-fitted Flam-Tamp Flange
-i(226775),	-- Feralheart Wraps
-i(226819),	-- Feralheart Helm
-i(226822),	-- Feralheart Chest
-i(226849),	-- Darkmantle Helm
-i(226852),	-- Darkmantle Chest
 i(226856),	-- Guided Buoyancy Accelerant
-i(226877),	-- Helm of Heroism
-i(226880),	-- Chest of Heroism
-i(226901),	-- Beastmaster's Helm
-i(226904),	-- Beastmaster's Chest
-i(226925),	-- Deathmist Helm
-i(226928),	-- Deathmist Chest
-i(226938),	-- Sorcerer's Waist
-i(226941),	-- Sorcerer's Helm
-i(226942),	-- Sorcerer's Gloves
-i(226944),	-- Sorcerer's Chest
-i(226965),	-- Virtuous Helm
-i(226968),	-- Virtuous Chest
-i(226997),	-- Soulforge Helm
-i(227000),	-- Soulforge Chest
-i(227037),	-- Helm of The Five Thunders
-i(227040),	-- Chest of The Five Thunders
 i(227041),	-- Scourge Shadow Scalpel
 i(227285),	-- Structural Dynamics of Flow
-i(227380),	-- Wicked Boots, Legs, and Shoulders Set
 i(227444),	-- Idol of the Huntress
 i(227451),	-- Sending Sigil
 i(227456),	-- Rune of the Crimson Tempest \\ Rune of Crimson Tempest
@@ -1240,7 +1218,6 @@ i(231015),	-- Twill Mask
 i(231275),	-- Blazefury Retributer
 i(231298),	-- Scroll of Lesser Spatial Mending
 i(231304),	-- Scroll: SERELS PATALIS GNEMIND
-i(231340),	-- Unmarred Vision of Voodress
 i(231382),	-- Vessel of Rebirth
 i(231383),	-- Presence of Sight
 i(231384),	-- Falcon's Fury
@@ -1286,6 +1263,7 @@ i(232324),	-- Bird Whistle \\ Whistle
 i(232344),	-- Vick's VIP Pass
 i(232358),	-- Empty Reliquary
 i(232373),	-- Refined Eye of Sulfuras
+i(232414),	-- Dragontooth Blade
 1.15.4.56573
 i(232454),	-- Emblem of the Wild Gods
 i(232455),	-- Emblem of Dishonor
@@ -1547,7 +1525,6 @@ i(235788),	-- Enthusiastic Wisp
 i(235789),	-- Flame of Life
 i(235790),	-- Enchanted Firebrand
 i(235852),	-- Violet Satchel
-i(236013),	-- Ring of the Dreadnaught
 i(236354),	-- Aspirant's Seal of the Dawn
 i(236355),	-- Initiate's Seal of the Dawn
 i(236356),	-- Squire's Seal of the Dawn

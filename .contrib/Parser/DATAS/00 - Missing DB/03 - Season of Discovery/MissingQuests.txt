@@ -422,7 +422,6 @@ q(85388),	-- CLASSIC:A Foul Interference
 q(85401),	-- CLASSIC:The Frigid Barrow
 q(85435),	-- CLASSIC:A Foul Interference
 q(85445),	-- CLASSIC:The Golden Disk
-q(85446),	-- CLASSIC:Scale of the Dragon Lord
 q(85447),	-- CLASSIC:Grim Batol
 q(85452),	--
 q(85453),	-- CLASSIC:No Good Deed Goes Unpunished

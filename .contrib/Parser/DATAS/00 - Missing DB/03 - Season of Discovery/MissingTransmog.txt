@@ -269,27 +269,6 @@ s(219803)/i(223323),	-- Shirt \\ Premo's Poise-Demanding Uniform
 s(220131)/i(223648),	-- Dream Imbued Arrow
 1.15.3.55112
 s(222832)/i(225893),	-- Epoch's End
-s(223273)/i(226775),	-- Feralheart Wraps
-s(223307)/i(226819),	-- Feralheart Helm
-s(223310)/i(226822),	-- Feralheart Chest
-s(223335)/i(226849),	-- Darkmantle Helm
-s(223338)/i(226852),	-- Darkmantle Chest
-s(223360)/i(226877),	-- Helm of Heroism
-s(223363)/i(226880),	-- Chest of Heroism
-s(223384)/i(226901),	-- Beastmaster's Helm
-s(223387)/i(226904),	-- Beastmaster's Chest
-s(223408)/i(226925),	-- Deathmist Helm
-s(223411)/i(226928),	-- Deathmist Chest
-s(223421)/i(226938),	-- Sorcerer's Waist
-s(223424)/i(226941),	-- Sorcerer's Helm
-s(223425)/i(226942),	-- Sorcerer's Gloves
-s(223427)/i(226944),	-- Sorcerer's Chest
-s(223448)/i(226965),	-- Virtuous Helm
-s(223451)/i(226968),	-- Virtuous Chest
-s(223480)/i(226997),	-- Soulforge Helm
-s(223483)/i(227000),	-- Soulforge Chest
-s(223520)/i(227037),	-- Helm of The Five Thunders
-s(223523)/i(227040),	-- Chest of The Five Thunders
 s(224038)/i(227688),	-- Gorehowl
 1.15.3.55244
 s(224085)/i(227806),	-- Wisdom of the Timbermaw
@@ -398,50 +377,11 @@ s(229127)/i(230764),	--
 s(229247)/i(231014),	-- Lizardscale Eyepatch
 s(229248)/i(231015),	-- Twill Mask
 s(229441)/i(231275),	-- Blazefury Retributer
-s(229460)/i(231317),	-- Zandalar Haruspex's Tunic
-s(229461)/i(231318),	-- Zandalar Haruspex's Belt
-s(229462)/i(231319),	-- Zandalar Haruspex's Bracers
-s(229463)/i(231321),	-- Zandalar Predator's Mantle
-s(229464)/i(231322),	-- Zandalar Predator's Belt
-s(229465)/i(231323),	-- Zandalar Predator's Bracers
-s(229466)/i(231325),	-- Zandalar Illusionist's Mantle
-s(229467)/i(231326),	-- Zandalar Illusionist's Wraps
-s(229468)/i(231327),	-- Zandalar Illusionist's Robe
-s(229469)/i(231329),	-- Zandalar Freethinker's Breastplate
-s(229470)/i(231330),	-- Zandalar Freethinker's Belt
-s(229471)/i(231331),	-- Zandalar Freethinker's Armguards
-s(229472)/i(231333),	-- Zandalar Confessor's Mantle
-s(229473)/i(231334),	-- Zandalar Confessor's Bindings
-s(229474)/i(231335),	-- Zandalar Confessor's Wraps
-s(229475)/i(231337),	-- Zandalar Madcap's Tunic
-s(229476)/i(231338),	-- Zandalar Madcap's Mantle
-s(229477)/i(231339),	-- Zandalar Madcap's Bracers
-s(229478)/i(231341),	-- Zandalar Augur's Hauberk
-s(229479)/i(231342),	-- Zandalar Augur's Belt
-s(229480)/i(231343),	-- Zandalar Augur's Bracers
-s(229483)/i(231347),	-- Zandalar Demoniac's Wraps
-s(229484)/i(231348),	-- Zandalar Demoniac's Robe
-s(229485)/i(231349),	-- Zandalar Demoniac's Mantle
-s(229486)/i(231351),	-- Zandalar Vindicator's Armguards
-s(229487)/i(231352),	-- Zandalar Vindicator's Belt
-s(229488)/i(231353),	-- Zandalar Vindicator's Breastplate
-s(229682)/i(231613),	-- General's Satin Grips
-s(229695)/i(231627),	-- Marshal's Satin Walkers
-s(229696)/i(231628),	-- Field Marshal's Satin Mantle
 s(229792)/i(231752),	-- S03 - Monster - Sword, 2H Alliance
 s(229794)/i(231754),	-- Kestrel
 s(229795)/i(231755),	-- Peregrine
 s(229800)/i(231806),	-- Searing Arrow
 s(229801)/i(231807),	-- Searing Shot
-s(229815)/i(231847),	-- Gri'lek's Grinder
-s(229827)/i(231859),	-- Jin'do's Hexxer
-s(229828)/i(231860),	-- Jin'do's Judgement
-s(229830)/i(231862),	-- Blazefury Retributer
-s(229839)/i(231871),	-- Wushoolay's Poker
-s(229840)/i(231872),	-- Hoodoo Hunting Bow
-s(229841)/i(231873),	-- Zulian Stone Axe
-s(229845)/i(231885),	-- Frostmourne
-s(229846)/i(231887),	-- Test Dagger
 s(229847)/i(231890),	-- Terrestris
 s(230198)/i(232297),	--
 1.15.5.57537
