@@ -204,6 +204,10 @@ REMOVED_2_5_4 = "removed 2.5.4.42800";					-- The Burning Crusade Classic 2.5.4 
 CREATED_2_5_4_A = "created 2.5.4.43638";				-- The Burning Crusade Classic 2.5.4a launch on May 12th, 2022
 ADDED_2_5_4_A = "added 2.5.4.43638";					-- The Burning Crusade Classic 2.5.4a launch on May 12th, 2022
 REMOVED_2_5_4_A = "removed 2.5.4.43638";				-- The Burning Crusade Classic 2.5.4a launch on May 12th, 2022
+--- ANNIVERSARY CLASSIC TIMELINES ---
+CREATED_2_5_5 = "created 2.5.5";		    		    -- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
+ADDED_2_5_5 = "added 2.5.5";				    	    -- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
+REMOVED_2_5_5 = "removed 2.5.5";				        -- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
 
 ----------------------------
 -- WRATH OF THE LICH KING --
@@ -342,12 +346,12 @@ REMOVED_5_5_0 = "removed 5.5.0.61767";					-- Mists of Pandaria Classic 5.5.0 la
 CREATED_5_5_1 = "created 5.5.1.63364";					-- Mists of Pandaria Classic 5.5.1 launch in September 23rd, 2025
 ADDED_5_5_1 = "added 5.5.1.63364";						-- Mists of Pandaria Classic 5.5.1 launch in September 23rd, 2025
 REMOVED_5_5_1 = "removed 5.5.1.63364";					-- Mists of Pandaria Classic 5.5.1 launch in September 23rd, 2025
-CREATED_5_5_2 = "created 5.5.2.64068";					-- Mists of Pandaria Classic 5.5.2 launch in October 28, 2025
-ADDED_5_5_2 = "added 5.5.2.64068";						-- Mists of Pandaria Classic 5.5.2 launch in October 28, 2025
-REMOVED_5_5_2 = "removed 5.5.2.64068";					-- Mists of Pandaria Classic 5.5.2 launch in October 28, 2025
-CREATED_5_5_3 = "created 5.5.3.64802";					-- Mists of Pandaria Classic 5.5.3 launch in December 9, 2025
-ADDED_5_5_3 = "added 5.5.3.64802";						-- Mists of Pandaria Classic 5.5.3 launch in December 9, 2025
-REMOVED_5_5_3 = "removed 5.5.3.64802";					-- Mists of Pandaria Classic 5.5.3 launch in December 9, 2025
+CREATED_5_5_2 = "created 5.5.2.64068";					-- Mists of Pandaria Classic 5.5.2 launch in October 28th, 2025
+ADDED_5_5_2 = "added 5.5.2.64068";						-- Mists of Pandaria Classic 5.5.2 launch in October 28th, 2025
+REMOVED_5_5_2 = "removed 5.5.2.64068";					-- Mists of Pandaria Classic 5.5.2 launch in October 28th, 2025
+CREATED_5_5_3 = "created 5.5.3.64802";					-- Mists of Pandaria Classic 5.5.3 launch in December 9th, 2025
+ADDED_5_5_3 = "added 5.5.3.64802";						-- Mists of Pandaria Classic 5.5.3 launch in December 9th, 2025
+REMOVED_5_5_3 = "removed 5.5.3.64802";					-- Mists of Pandaria Classic 5.5.3 launch in December 9th, 2025
 CREATED_5_5_4 = "created 5.5.4";						-- Mists of Pandaria Classic 5.5.4 launch in Summer 2026
 ADDED_5_5_4 = "added 5.5.4";							-- Mists of Pandaria Classic 5.5.4 launch in Summer 2026
 REMOVED_5_5_4 = "removed 5.5.4";						-- Mists of Pandaria Classic 5.5.4 launch in Summer 2026
