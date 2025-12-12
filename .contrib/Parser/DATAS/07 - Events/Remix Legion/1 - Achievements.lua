@@ -82,7 +82,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			},
 		}),
 		ach(11065, {	-- It All Makes Sense Now (Originally under Legion PreLaunch Event)
-			["description"] = "Locate one of the many Doomsayers in Dalaran (Legion Remix).\nSpeak with them and take a pamphlet.\nNormally there is a 20-minute cooldown between acquiring pamphlets, but you circumvent that with the death mechanic:\n\nFind a Doomersayer near a graveyard.\nFly up into the sky and then fall to the ground to die.\nRelease spirit and talk to the Spirit Healer to take Resurrection sickness.\nFly bkac to the Doomsayer and talk to him again for a new pamphlet.\nRepeat until done.",
+			["description"] = "Locate one of the many Doomsayers in Dalaran (Legion Remix).\nSpeak with them and take a pamphlet.\nNormally there is a 20-minute cooldown between acquiring pamphlets, but you circumvent that with the death mechanic:\n\nFind a Doomsayer near a graveyard.\nFly up into the sky and then fall to the ground to die.\nRelease spirit and talk to the Spirit Healer to take Resurrection sickness.\nFly back to the Doomsayer and talk to him again for a new pamphlet.\nRepeat until done.",
 			["maps"] = { LEGION_DALARAN, STORMWIND_CITY, ORGRIMMAR },
 		}),
 		ach(42593),	-- Pillars of Creation
