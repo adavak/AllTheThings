@@ -27,7 +27,6 @@ root(ROOTS.Unsorted, {
 			i(249779),	-- Discordant Tune
 			-- Mount
 			i(248681),	-- Scorching Valor
-			i(257145),	-- Crimson Dragonhawk
 
 
 			-- Toy
@@ -5050,7 +5049,6 @@ root(ROOTS.Unsorted, {
 
 			-- Toy
 			i(267291),	-- Coffer Key Glue
-			i(267456),	-- Lil' Scoots' Pillow
 
 
 

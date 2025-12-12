@@ -1523,6 +1523,7 @@ i(242520);	-- Festival Hot Air Balloon
 ------------------
 -- PATCH 12.0.0 --
 ------------------
+i(267456);	-- Lil' Scoots' Pillow
 i(251491);	-- Magical Pet Clicker
 i(256881);	-- Steward's Bauble
 i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
@@ -1534,6 +1535,7 @@ i(250974);	-- Akil'zon's Updraft
 i(263933);	-- Astalor's Summons
 i(264805);	-- Brann-O-Vision 3000
 i(251633);	-- Bursting Bounty Bundle
+i(267291);	-- Coffer Key Glue
 i(265100);	-- Corewarden's Hearthstone
 i(264672);	-- Cosmic Ritual Stone
 i(264413);	-- Dominating Victory

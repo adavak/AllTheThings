@@ -1116,6 +1116,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 92869 },	-- Fishy Dis-pondencies
 						["provider"] = { "n", 253468 },	-- Drathen
 						["coord"] = { 44.8, 60.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["groups"] = { i(267456) },	-- Lil' Scoots' Pillow (TOY!)
 					}),
 				--}),
 			--}),

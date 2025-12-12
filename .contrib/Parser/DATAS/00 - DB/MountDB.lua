@@ -2304,9 +2304,13 @@ i(257156, 1261323);	-- Cerulean Hawkstrider
 i(252014, 1253929);	-- Cerulean Sporeglider
 i(260580, 1266579);	-- Cloudborn Razorwing
 i(257156, 1261302);	-- Cobalt Dragonhawk
+i(263451, 1270522);	-- Comfy Bel'ameth Flying Quilt
+i(263452, 1270523);	-- Comfy Silvermoon Flying Quilt
 i(0, 1261334);	-- Contained Stormarion Defender
+i(257145, 1261298);	-- Crimson Dragonhawk
 i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider
 i(262496, 1268919);	-- Delver's Arcane Golem
+i(257176, 1261332);	-- Duskbrute Harrower
 i(256424, 1260356);	-- Echo of Aln'sharan
 i(262502, 1268926);	-- Elven Arcane Guardian
 i(262706, 1269277);	-- Ferocious Snapvine
@@ -2316,9 +2320,9 @@ i(263449, 1270520);	-- Fluffy Comfy Flying Quilt
 i(257448, 1261585);	-- Frenzied Shredclaw
 i(0, 1261349);	-- Giganto Manis
 i(263450, 1270521);	-- Gruffy Comfy Flying Quilt
-i(263451, 1270522);	-- Huffy Comfy Flying Quilt
 i(257446, 1261583);	-- Insatiable Shredclaw
 i(211086, 428065);	-- Jeweled Jade Scarab
+i(0, 1266703);	-- Lab-grown Stormray
 i(260895, 1267002);	-- Lavender Pseudoshell
 i(260916, 3363);	-- Lost Nether Drake
 i(260231, 1265784);	-- Lucent Hawkstrider
@@ -2333,9 +2337,9 @@ i(252017, 1253938);	-- Ruddy Sporeglider
 i(260635, 1266700);	-- Sanguine Harrower
 i(260409, 1266248);	-- Savage Crimson Battle Turtle
 i(262708, 1269280);	-- Savage Snapvine
+i(248681, 1247422);	-- Scorching Valor
 i(262500, 1268924);	-- Silvermoon's Arcane Defender
 i(0, 1263635);	-- Spectral Hawkstrider
-i(263452, 1270523);	-- Stuffy Comfy Flying Quilt
 i(0, 1238827);	-- Swift Spectral Dragonhawk
 i(260887, 1266980);	-- Tenebrous Harrower
 i(256423, 1260354);	-- Untainted Grove Crawler

@@ -1816,6 +1816,7 @@ MobileDB.GameObject = {
 	[355436] = true,	-- Crate of Gnomish Machinations [The Manastorms]
 	[355915] = true,	-- Razorthread Spool (q:58680)
 	[355937] = true,	-- Hazardous Animacache (q:60531)
+	[355938] = true,	-- Potion of Fortification (q:60531)
 	[355941] = true,	-- Book of Rituals (q:60531)
 	[355971] = true,	-- Stoneborn Glaive (q:61402)
 	[356560] = true,	-- Explosive Animastore (q:60532)
