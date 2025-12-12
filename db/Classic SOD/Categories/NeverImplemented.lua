@@ -182,23 +182,23 @@ exp(4644)})}),
 h(-32,{
 x(1,{
 h(-232,{
-fp(1,{description="Northshire Abbey"}),
-fp(3,{description="Programmer Isle"}),
-fp(9,{description="Booty Bay, Stranglethorn"}),
-fp(15,{description="Eastern Plaguelands"}),
-fp(24,{description="Generic, World Target 002"}),
-fp(34,{description="Transport, Booty Bay"}),
-fp(35,{description="Transport, Orgrimmar"}),
-fp(36,{description="Generic, World Target 001"}),
-fp(57,{description="Fishing Village, Teldrassil"}),
-fp(46,{description="Transport, Southshore"}),
-fp(47,{description="Transport, Grom'gol"}),
-fp(50,{description="Transport, Menethil Harbor"}),
-fp(51,{description="Transport, Auberdine"}),
-fp(54,{description="Transport, Feathermoon"}),
-fp(59,{description="Dun Baldar, Alterac Valley"}),
-fp(60,{description="Frostwolf Keep, Alterac Valley"}),
-fp(78,{description="Naxxramas"})})})}),
+fp(1),
+fp(3),
+fp(9),
+fp(15),
+fp(24),
+fp(34),
+fp(35),
+fp(36),
+fp(57),
+fp(46),
+fp(47),
+fp(50),
+fp(51),
+fp(54),
+fp(59),
+fp(60),
+fp(78)})})}),
 h(-40),
 flt(50,{
 x(1,{
@@ -1084,6 +1084,9 @@ x(1,{
 h(-232,{
 toy(37460)})})}),
 h(-101,{
+s(229845,231885,{b=1,f=26,lvl=58,q=4}),
+s(229846,231887,{b=1,f=20,lvl=50,q=3}),
+i(232343,{f=55,q=1}),
 flt(32,{
 x(1,{
 h(-232,{
@@ -2004,6 +2007,16 @@ i(20146,{f=31,lvl=60,q=4}),
 i(20245,{f=31,lvl=60,q=2})}),
 flt(32,{
 i(4763,{f=32,lvl=4,q=2})})}),
+h(-632,{rwp=20001,u=1605,g={
+s(194133,211445,{b=1,f=32,lvl=13,q=2,rwp=20001,u=1605}),
+s(194131,211443,{b=1,f=26,lvl=13,q=2,rwp=20001,u=1605}),
+s(194132,211444,{b=1,f=3,lvl=13,q=2,rwp=20001,u=1605}),
+s(194152,211501,{b=1,c={1},f=7,lvl=60,q=4,rwp=20001,u=1605}),
+s(194080,211263,{b=1,c={2},f=7,lvl=60,q=4,rwp=20001,u=1605}),
+s(194485,211940,{b=1,f=29,lvl=59,q=3,rwp=20001,u=1605}),
+s(194488,211944,{b=1,f=29,lvl=58,q=3,rwp=20001,u=1605}),
+s(194486,211941,{b=1,f=29,lvl=58,q=3,rwp=20001,u=1605}),
+i(220619,{b=1,lvl=50,q=4,rwp=20001,u=1607})}}),
 h(-215,{
 x(1,{
 h(-101,{
