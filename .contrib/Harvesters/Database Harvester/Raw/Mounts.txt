@@ -356,6 +356,8 @@
 3.80.0.64393
 1250045@@@Ashened Cataclysm
 1272988@@@Inarius' Charger
+3.80.0.64859
+1280400@@@Titan-Reforged Invincible
 4.4.0.53627
 10790@@@Tiger
 13819@@@Summon Warhorse

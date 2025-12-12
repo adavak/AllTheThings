@@ -237,6 +237,8 @@
 245603@@@Sa'bak's Favored
 3.80.0.64393
 257025@@@Star Fragment
+3.80.0.64859
+54730@@@Gregarious Grell
 4.4.0.53627
 25706@@@Searing Scorchling
 40295@@@Blue Clockwork Rocket Bot
@@ -291,7 +293,6 @@
 54491@@@Darkmoon Monkey
 54539@@@Alliance Balloon
 54541@@@Horde Balloon
-54730@@@Gregarious Grell
 54745@@@Sand Scarab
 55187@@@Darkmoon Balloon
 55215@@@Lumpy
