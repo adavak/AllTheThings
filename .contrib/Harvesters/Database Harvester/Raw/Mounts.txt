@@ -2456,3 +2456,6 @@
 1266703@@@Lab-grown Stormray
 1270522@@@Comfy Bel'ameth Flying Quilt
 1270523@@@Comfy Silvermoon Flying Quilt
+12.0.1.64889
+1247422@@@Scorching Valor
+1261298@@@Crimson Dragonhawk

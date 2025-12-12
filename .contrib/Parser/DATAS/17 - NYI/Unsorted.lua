@@ -4,6 +4,260 @@
 -- Everything in this file hasn't been sorted yet.
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.MID, {
+		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+			i(211494),	-- Spark of Vanity
+			i(241149),	-- Ominous Octopus Lure
+			i(241623),	-- Elegant Elven Barrel
+			i(243090),	-- Sturdy Haranir Chair
+			i(244214),	-- Juicy Frog Leg
+			i(244592),	-- Smuggler's Reinforced Shoulderguards
+			i(244815),	-- Recipe: Ominous Octopus Lure
+			i(245535),	-- Sturdy Haranir Handcart
+			i(245588),	-- Food Provisions
+			i(246112),	-- Alliance Shield
+			i(246126),	-- Horde Axe
+			i(246129),	-- Outsider's Gear
+			i(246152),	-- Saptor Frill
+			i(246407),	-- Stoppered Spring Water Gourd
+			i(246415),	-- Ruddy Haranir Pigment Bowl
+			i(246693),	-- Self-Pouring Thalassian Sunwine
+			i(247234),	-- Rustic Harandar Planter
+			i(248681),	-- Scorching Valor
+			i(248814),	-- Witherbark Supplies
+			i(249283),	-- Belo'melorn, the Shattered Talon
+			i(249320),	-- Sabatons of Obscurement
+			i(249775),	-- Bright Berry
+			i(249779),	-- Discordant Tune
+			i(250228),	-- Resonant Bellowstone
+			i(250243),	-- Manaheart's Binding Flame
+			i(250258),	-- Vessel of Tortured Souls
+			i(250319),	-- Researcher's Shadowgraft
+			i(251077),	-- Roostwarden's Bough
+			i(251078),	-- Emberdawn Defender
+			i(251079),	-- Amberfrond Bracers
+			i(251080),	-- Brambledawn Halo
+			i(251081),	-- Embergrove Grasps
+			i(251082),	-- Snapvine Cinch
+			i(251083),	-- Excavating Cudgel
+			i(251084),	-- Whipcoil Sabatons
+			i(251085),	-- Mantle of Dark Devotion
+			i(251086),	-- Riphook Defender
+			i(251087),	-- Legwraps of Lingering Legacies
+			i(251088),	-- Warworn Cleaver
+			i(251089),	-- Grips of Forgotten Honor
+			i(251090),	-- Commander's Faded Breeches
+			i(251091),	-- Sabatons of Furious Revenge
+			i(251092),	-- Fallen Grunt's Mantle
+			i(251094),	-- Sigil of the Restless Heart
+			i(251095),	-- Hurricane's Heart
+			i(251096),	-- Pendant of Aching Grief
+			i(251097),	-- Spaulders of Arrow's Flight
+			i(251098),	-- Fletcher's Faded Faceplate
+			i(251099),	-- Vest of the Howling Gale
+			i(251101),	-- Arcane Guardian's Shell
+			i(251102),	-- Clasp of Compliance
+			i(251103),	-- Custodial Cuffs
+			i(251104),	-- Leggings of Orderly Conduct
+			i(251105),	-- Ward of the Spellbreaker
+			i(251107),	-- Oathsworn Stompers
+			i(251108),	-- Wraps of Watchful Wrath
+			i(251109),	-- Spellsnap Shadowmask
+			i(251110),	-- Sunlash's Sunsash
+			i(251111),	-- Splitshroud Stinger
+			i(251112),	-- Shadowsplit Girdle
+			i(251113),	-- Gloves of Viscous Goo
+			i(251114),	-- Voidwarped Oozemail
+			i(251115),	-- Bifurcation Band
+			i(251117),	-- Whirling Voidcleaver
+			i(251118),	-- Legplates of Lingering Dusk
+			i(251119),	-- Vortex Visage
+			i(251120),	-- Wraps of Umbral Descent
+			i(251121),	-- Domanaar's Dire Treads
+			i(251122),	-- Shadowslash Slicer
+			i(251123),	-- Nibbles' Training Rod
+			i(251124),	-- Gauntlets of Fevered Defense
+			i(251125),	-- Felsoaked Soles
+			i(251126),	-- Greathelm of Temptation
+			i(251127),	-- Nibbling Armbands
+			i(251128),	-- Bladesorrow
+			i(251129),	-- Counterfeit Clutches
+			i(251130),	-- Breeches of Deft Deals
+			i(251131),	-- Jangling Felpaulets
+			i(251132),	-- Speakeasy Shroud
+			i(251133),	-- Overseer's Vambraces
+			i(251134),	-- Xathuux's Cleave
+			i(251135),	-- Fury-fletched Armlets
+			i(251136),	-- Signet of Snarling Servitude
+			i(251137),	-- Tempestuous Sandals
+			i(251138),	-- Cinderfury Shoulderguards
+			i(251139),	-- Summoner's Searing Shirt
+			i(251140),	-- Vilefiend's Guise
+			i(251141),	-- Lithiel's Linked Leggings
+			i(251142),	-- Pendant of Malefic Fury
+			i(251143),	-- Grim Harvest Gloves
+			i(251148),	-- Pilfered Precious Band
+			i(251161),	-- Soulhunter's Mask
+			i(251162),	-- Traitor's Talon
+			i(251163),	-- Berserker's Hexclaws
+			i(251164),	-- Amalgamation's Harness
+			i(251166),	-- Falconer's Cinch
+			i(251167),	-- Nightprey Stalkers
+			i(251168),	-- Liferipper's Cutlass
+			i(251169),	-- Footwraps of Ill-Fate
+			i(251170),	-- Wickedweave Trousers
+			i(251171),	-- Enthralled Bonespines
+			i(251172),	-- Vilehex Bonds
+			i(251174),	-- Deciever's Rotbow
+			i(251175),	-- Soulblight Cleaver
+			i(251176),	-- Reanimator's Weight
+			i(251177),	-- Fetid Vilecrown
+			i(251178),	-- Ceremonial Hexblade
+			i(251179),	-- Decaying Cuirass
+			i(252045),	-- Fungal Pergola
+			i(253210),	-- Soothsayer's Signet
+			i(253211),	-- Smuggler's Signet
+			i(253386),	-- Light-pulsing Seed
+			i(253457),	-- Leather-Bound Haranir Wall Shelf
+			i(253467),	-- Rutaani Sporepod
+			i(253485),	-- Sin'dorei Honor Stone
+			i(253497),	-- Embroidered Sunfury Chair
+			i(253506),	-- Rootbound Vat
+			i(253508),	-- Harandar Signpost
+			i(253543),	-- Clefthoof Hide Rug
+			i(254235),	-- Sin'dorei Artisan's Easel
+			i(254319),	-- Root-Woven Door
+			i(254773),	-- "Eversong Lantern" Painting
+			i(254878),	-- Root-Woven Window
+			i(255258),	-- Grovecrawler Fang
+			i(255259),	-- Chloroceros Bone
+			i(255260),	-- Lasher Vine
+			i(255261),	-- Sporeglider's Tail Spore
+			i(255577),	-- Chloroceros Bud
+			i(255643),	-- Silvermoon Barrel
+			i(255648),	-- Zul'Aman Ancestral Fountain
+			i(256042),	-- Silvermoon Bench
+			i(256043),	-- Silvermoon Fencepost
+			i(256172),	-- Silvermoon Fence
+			i(256232),	-- Bunch of Ripe Grapes
+			i(256356),	-- Sunsmoke Censer
+			i(256397),	-- Packet of Instant Yeast
+			i(256722),	-- Crest of Unending Sorrow
+			i(256723),	-- Crest of Unending Grief
+			i(256724),	-- Crest of Unending Pain
+			i(256882),	-- A Tattered Ball
+			i(256925),	-- Amani Spearhunter's Spit
+			i(257024),	-- A Lost Hunting Knife
+			i(257054),	-- A Rolled-Up Pillow
+			i(257145),	-- Crimson Dragonhawk
+			i(257717),	-- Ka'dani Spear
+			i(257729),	-- Null Stabilizer
+			i(257730),	-- Voidway Energist
+			i(257731),	-- Singularity Forceps
+			i(258623),	-- Glistening Seed Bag
+			i(258748),	-- "Rising Glory of Rukhmar" Statue
+			i(258768),	-- Battered Safebox Key
+			i(258769),	-- Worn Safebox Key
+			i(258770),	-- Tarnished Safebox Key
+			i(259219),	-- Bear Tooth
+			i(259220),	-- Dragonhawk Feather
+			i(259223),	-- Lynx Claw
+			i(260248),	-- Mysterious Green Fluid
+			i(260250),	-- Mysterious Purple Fluid
+			i(260251),	-- Mysterious Red Fluid
+			i(260266),	-- Fizzing Fluid
+			i(260312),	-- Defiant Defender's Drape
+			i(262450),	-- Ensorcelled Broom
+			i(262451),	-- Gilded Silvermoon Anvil
+			i(262454),	-- Shining Sin'dorei Hourglass
+			i(262455),	-- Font of Gleaming Water
+			i(262456),	-- Ornamental Silvermoon Hanger
+			i(262457),	-- Gilded Silvermoon Hanger
+			i(262468),	-- Ren'dorei Postal Repository
+			i(262469),	-- Brilliant Phoenix Harp
+			i(262470),	-- Spellbound Tome of Thalassian Magics
+			i(262471),	-- Bejeweled Sin'dorei Lyre
+			i(262591),	-- Luxurious Silvermoon Lounge Cushion
+			i(262592),	-- Plush Silvermoon Bed
+			i(262594),	-- Homely Sin'dorei Shelf
+			i(262595),	-- Homely Wall Shelves
+			i(262597),	-- Gilded Eversong Book
+			i(262599),	-- Silvermoon Curtains
+			i(262607),	-- Void Elf Throne
+			i(262608),	-- Void Elf Stool
+			i(262609),	-- Void Elf Floating Lantern
+			i(262616),	-- Lively Songwriter's Quill
+			i(263031),	-- Twisted Rope Coil
+			i(263034),	-- Magnificent Towering Bookcase
+			i(263193),	-- Trollhunter's Bands
+			i(263211),	-- Gilded Eversong Cup
+			i(263315),	-- Bubbling Haranir Cauldron
+			i(263324),	-- Tytalor's Discarded Chain
+			i(263325),	-- Tytalor's Least Favorite Necklace
+			i(263350),	-- Harbringer Fan Fiction
+			i(264244),	-- Plush Haranir Leather Pillow
+			i(264248),	-- Sin'dorei Storage Jar
+			i(264251),	-- Depthdiver's Cooking Spit
+			i(264257),	-- Zul'Aman Armament Rest
+			i(264298),	-- Nightbreaker's Vambraces
+			i(264344),	-- Cosmic Void Orb
+			i(264352),	-- Elegant Elven Bathtub
+			i(264353),	-- Empty Elegant Elven Bathtub
+			i(264412),	-- Sin'dorei Magister's Keepsake
+			i(264471),	-- Loa Impostor's Gloves
+			i(264472),	-- Loa Impostor's Clawguards
+			i(264473),	-- Loa Impostor's Tidegrips
+			i(264474),	-- Loa Impostor's Brinefists
+			i(264477),	-- Thunder Totem Mailbox
+			i(264656),	-- Void Elf Weapon Rack
+			i(264680),	-- Cuddly Sea Green Grrgle
+			i(264715),	-- Zul'Aman Flame Cradle
+			i(265031),	-- Consortium Translocation Portal
+			i(265541),	-- Loammy Soil
+			i(265653),	-- Elegant Storage Table
+			i(265654),	-- Elegant Elven Washbasin
+			i(265792),	-- Fungarian Vine Fence
+			i(265832),	-- Incomplete Booklet of Sonnets
+			i(266130),	-- Gilded Silvermoon Gazebo
+			i(266234),	-- Saltfang Shoals Large Garden Cluster
+			i(266235),	-- Razorwind Cactus Large Garden Cluster
+			i(266236),	-- Razorwind Blooms Large Garden Cluster
+			i(266237),	-- Runetotem's Bounty Large Garden Cluster
+			i(266238),	-- Cragthorn Highlands Large Garden Cluster
+			i(266239),	-- Outer Banks Large Garden Cluster
+			i(266240),	-- Founder's Point Large Garden Cluster
+			i(266241),	-- Brumewood Hollow Large Garden Cluster
+			i(266242),	-- Gilded Oaks Large Garden Cluster
+			i(266243),	-- Stoneveil Ridge Large Garden Cluster
+			i(266244),	-- Granite Cobblestone Path Corner
+			i(266245),	-- Granite Cobblestone Path Arc
+			i(266259),	-- Altar of the Shul'ka
+			i(266443),	-- Granite Cobblestone Long Path
+			i(266444),	-- Granite Cobblestone Path
+			i(267645),	-- Dreamrift Vanquisher's Argent Trophy
+			i(267646),	-- March on Quel'Danas Vanquisher's Argent Trophy
+			i(268049),	-- Voidspire Vanquisher's Argent Trophy
+			i(268111),	-- Arkonite Beacon
+			i(268112),	-- Argunite Beacon
+			i(268115),	-- Overbaked Donut
+			i(268116),	-- Twin-Flame Holder
+			i(268274),	-- Blinky's Collar
+			i(268297),	-- Rattling Bag o' Gold
+			i(268326),	-- Sin'dorei Citizen's Cloak
+			i(268327),	-- Sin'dorei Citizen's Shawl
+			i(268365),	-- Thalassian Competitor's Staff
+			i(268366),	-- Technique: Thalassian Competitor's Staff
+			i(268475),	-- Evercore Dome Dinger
+			i(268477),	-- P.O.W. x3
+			i(268479),	-- Thalassian Competitor's Rifle
+			i(268485),	-- Victorious Stormarion Pinnacle Cache
+			i(268487),	-- Avid Learner's Supply Pack
+			i(268488),	-- Overflowing Abundant Satchel
+			i(268489),	-- Surplus Bag of Party Favors
+			i(268490),	-- Apex Cache
+			i(268534),	-- Sanctum's Decree
+			i(268545),	-- Preyseeker's Adventurer Chest
+			i(268551),	-- Scroll of Reflection
+		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
 				prof(ALCHEMY, {

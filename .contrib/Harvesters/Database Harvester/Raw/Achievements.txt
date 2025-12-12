@@ -17749,3 +17749,54 @@
 62270@@@Altar of Blessings: One for Altar
 62271@@@Abyss Anglers: Trench Berserker
 62272@@@Abyss Anglers: Certified Depthdiver
+12.0.1.64889
+61238@@@Midnight Bounty
+62184@@@Prey: Breaking the Blade (Nightmare)
+62273@@@Echoes of Midnight
+62288@@@Eversong Woods: The Highest Peaks
+62289@@@Zul'Aman: The Highest Peaks
+62290@@@Harandar: The Highest Peaks
+62291@@@Voidstorm: The Highest Peaks
+62292@@@Adventurer Dawncrests earned
+62293@@@Veteran Dawncrests earned
+62294@@@Champion Dawncrests earned
+62295@@@Hero Dawncrests earned
+62296@@@Myth Dawncrests earned
+62324@@@Abundance: Loa of all Trades
+62325@@@Abundance: Treasures Aplenty
+62326@@@Abundance: Golden Opportunities
+62329@@@Abundance: Squash the Competition
+62330@@@Abundance: One Bite at a Time
+62331@@@Abundance: Drops of Prosperity
+62332@@@Abundance: Dundun's Favored
+62333@@@Abundance: Harvester
+62336@@@Abundance: Contributer
+62337@@@Abundance: Professional
+62338@@@Abundance: Artisan
+62339@@@Abundance: Gambler
+62340@@@Abundance: Investor
+62341@@@Abundance: Ain't Dun Till It's Dun
+62342@@@Abyss Anglers: The Finest of Fish
+62343@@@Abyss Anglers: Legends Lurk Beneath
+62351@@@Preying For Midnight
+62352@@@Nothing to See Here
+62357@@@Classically Trained Lumberjack
+62358@@@Outlandish Lumberjack
+62359@@@Wrathful Lumberjack
+62360@@@Cataclysmic Lumberjack
+62361@@@Mist-Shrouded Lumberjack
+62362@@@Lumberjack Warlord
+62363@@@Legion Lumberjack
+62364@@@Azeroth's Lumberjack
+62365@@@Shadowy Lumberjack
+62366@@@Draconic Lumberjack
+62369@@@The Lumberjack Within
+62370@@@Midnight Lumberjack
+62371@@@Couponing for Beginners
+62373@@@Coupon Collector
+62374@@@You Get The Best Deals Anywhere
+62375@@@Buying in Bulk
+62376@@@Extreme Couponing
+62377@@@A Fist Full of Coupons
+62378@@@A Few Coupons More
+62383@@@Gotta Hunt Them All

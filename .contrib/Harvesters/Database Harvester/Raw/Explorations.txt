@@ -10728,3 +10728,9 @@
 16601@@@The Sunwell
 16863@@@Quiet Cavern
 16864@@@Consumptor Cave
+12.0.1.64889
+16543@@@Floaret Grotto
+16814@@@Magisters' Terrace
+16829@@@The Approach
+16873@@@Razorwind Camp
+16874@@@Founders Point Camp
