@@ -489,6 +489,7 @@ i(170087);	-- Chromatic "Vinegar"
 i(169139);	-- Clogged Webbing Fabricator
 i(170086);	-- Coral-Flecked Chalice
 i(170099);	-- Corroded Elegant Key
+i(169010);	-- Corroded Evaporator Coil
 i(169997);	-- Cracked Aegis
 i(169132);	-- Cracked Gyroscope
 i(169992);	-- Cracked Iris Lens
@@ -509,6 +510,7 @@ i(169123);	-- Functional Fiddleswitch
 i(170013);	-- Inanimate Rock
 i(169988);	-- Inert Mineral Dust
 i(168792);	-- Kobold's Candle
+i(168794);	-- Last Year's Brewfest Flyer
 i(169129);	-- Lovingly Worn Wrench
 i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome

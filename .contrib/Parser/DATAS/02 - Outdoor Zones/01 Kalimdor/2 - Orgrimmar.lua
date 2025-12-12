@@ -4235,6 +4235,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- i(246847, { 	-- Tome of Draenei Faith (DECOR!)
 						-- 	["cost"] = 20000000,	-- 2000g
 						-- }),
+						--i(246845, {	-- Tome of Shadowforge Cunning (DECOR!)
+							--["cost"] = 20000000,	-- 2000g
+						--}),
 						i(239179, {	-- Tome of Twilight Nihilism (DECOR!)
 							["cost"] = 20000000,	-- 2000g
 						}),

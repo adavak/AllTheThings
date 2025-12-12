@@ -2984,7 +2984,14 @@ Click Leave vehicle and repeat steps 3-8"]],
 				})),
 				q(28089, {	-- Warchief's Command: Hillsbrad Foothills!
 					["altQuests"] = { 27746 },	-- Empire of Dirt
-					["qg"] = 44640,	-- High Warlord Cromush
+					["qgs"] = {
+						44640,	-- High Warlord Cromush
+						45631,	-- High Warlord Cromush
+						46125,	-- High Warlord Cromush
+						-- #if AFTER SL
+						176567,	-- High Warlord Cromush
+						-- #endif
+					},
 					["coords"] = {
 						{ 57.3, 10.1, SILVERPINE_FOREST },	-- Forsaken High Command
 						{ 44.8, 40.7, SILVERPINE_FOREST },	-- The Sepulcher

@@ -847,7 +847,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(250112, {	-- Ebon Blade Planning Map (DECOR!)
 								["sourceAchievement"] = 60981,	-- Raise an Army for Acherus
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", ORDER_RESOURCES, 2000 }},
+								["cost"] = {{ "c", ORDER_RESOURCES, 1500 }},
 							}),
 							i(250113, {	-- Ebon Blade Tome (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
@@ -856,7 +856,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(250115, {	-- Ebon Blade Weapon Rack (DECOR!)
 								["sourceAchievement"] = 42270,	-- The Deathlord's Campaign
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", ORDER_RESOURCES, 1500 }},
+								["cost"] = {{ "c", ORDER_RESOURCES, 1200 }},
 							}),
 							i(38669),	-- Engraved Saronite Legplates
 							i(174488, {	-- Freezing Greatsword of the Ebon Blade
@@ -877,12 +877,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(250123, {	-- Replica Acherus Soul Forge (DECOR!)
 								["sourceAchievement"] = 42287,	-- Hidden Potential of the Deathlord
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", ORDER_RESOURCES, 5000 }},
+								["cost"] = {{ "c", ORDER_RESOURCES, 2500 }},
 							}),
 							i(260584, {	-- Replica Libram of the Dead (DECOR!)
 								["sourceAchievement"] = 60962,	-- Legendary Research of the Ebon Blade
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = {{ "c", ORDER_RESOURCES, 3000 }},
+								["cost"] = {{ "c", ORDER_RESOURCES, 2000 }},
 							}),
 							i(38707),	-- Runed Spellblade
 							i(38665),	-- Saronite War Plate

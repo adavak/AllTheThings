@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			}),
 			o(242667, {	-- Small Treasure Chest
 				["questID"] = 39085,
-				["coord"] = { 42.0, 88.5, 642 },
+				["coord"] = { 41.6, 86.5, 642 },	-- Darkpens
 			}),
 			o(242669, {	-- Small Treasure Chest
 				["questID"] = 39087,

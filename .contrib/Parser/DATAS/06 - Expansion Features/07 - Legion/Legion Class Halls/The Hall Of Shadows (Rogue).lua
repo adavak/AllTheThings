@@ -1049,7 +1049,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						n(TREASURES, sharedData({ ["cost"] = { { "i", 139781, 1 } } }, {
 							o(252273, {	-- Box of Throwing Daggers
-								i(139589),	-- Poisoned Throwing Knives
+								["coord"] = { 31.7, 64.7, THE_HALL_OF_SHADOWS },
+								["groups"] = { i(139589) },	-- Poisoned Throwing Knives
 							}),
 							o(252267, {	-- Large Plundered Sack
 								i(141408),	-- Uncrowned Shadowcraft Cap

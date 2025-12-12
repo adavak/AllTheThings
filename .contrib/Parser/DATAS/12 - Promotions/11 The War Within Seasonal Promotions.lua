@@ -400,7 +400,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(257518, {	-- Lil' Ashlee (PET!)
 				["description"] = "Included for free with any purchase from the World of Warcraft Lil' Ashlee Collection on the Blizzard Gear Store. Available from November 21st through December 8th, 2025. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-				["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed December 8th, 2025
+				["timeline"] = { ADDED_11_2_5, "removed 11.2.7.64772" },	-- Removed December 8th, 2025
 				["u"] = REAL_MONEY,
 			}),
 			i(235343, {	-- Topsy Turvy Joker's Mask

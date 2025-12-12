@@ -25,9 +25,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					header(HEADERS.Item, 141332, {	-- The Annals of Light and Shadow
 						["description"] = "Obtain 12 of these books to complete the set and receive the Discipline Priest Hidden Artifact Appearance.\n\nStart with Volume VI and Archivist Inkforge in your Order Hall.",
 						["groups"] = sharedData({
-							["groups"] = {
-								i(141332),	-- The Annals of Light and Shadow
-							},
+							["groups"] = { i(141332) },	-- The Annals of Light and Shadow
 						},{
 							q(44339, {	-- Volume I
 								["name"] = "|cFFFFFFFFVolume I|r | The Violet Citadel in new Dalaran.",
@@ -76,7 +74,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["description"] = "Run through the instance to Flameweaver Koegler's room. on the left-hand side of the room there's a table with a candelabra. Volume 7 is on the bench between the table and the bookshelf.",
 								["provider"] = { "n", 59150 },	-- Flameweaver Koegler
 								["coords"] = {
-									{ 69.0, 24.9, SCARLET_MONASTERY_ENTRANCE },	-- Scarlet Halls entrance
+									{ 77.0, 56.0, SCARLET_MONASTERY_ENTRANCE },	-- Scarlet Halls entrance
 									{ 35.7, 14.2, 432 },	-- Actual volume inside instance
 								},
 							}),

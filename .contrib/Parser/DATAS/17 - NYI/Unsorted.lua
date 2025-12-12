@@ -5633,19 +5633,15 @@ root(ROOTS.Unsorted, {
 				i(247743),	-- [DNT] Hanging Paper Lanterns - do not use - duplicate \\ Hanging Paper Lanterns
 				i(238862),	-- [DNT] Cenarion Round Rug - do not use - new asset
 				i(246487),	-- Gnomish Tesla Coil
-				i(246845),	-- Tome of Shadowforge Cunning
 				i(246860),	-- Tome of Forsaken Resilience
 				i(247908),	-- Nightborne Lantern
 				i(247915),	-- Square Suramar Table
 				i(248116),	-- Valdrakken Chandelier
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
-				i(255840),	-- Champion Brawler's Gloves
-				i(259071),	-- Brawler's Guild Punching Bag
 				i(263021),	-- Brumewood Hollow Grassy Patch
 				i(263022),	-- Brumewood Hollow Grassy Spread
 				i(263023),	-- Founder's Point Grassy Patch
 				i(263024),	-- Founder's Point Grassy Spread
-				i(263026),	-- Brawler's Barricade
 				i(247739),	-- Kun-Lai Lacquered Rickshaw
 				i(246026),	-- Orgrimmar Beam Platform
 				i(246028),	-- Orgrimmar Large Platform
@@ -5719,10 +5715,6 @@ root(ROOTS.Unsorted, {
 				i(249386),	-- Ghost Gear
 
 				-- Brawlers Guild
-				i(253515),	-- Challenge Card: Glorp
-				i(253575),	-- Challenge Card: Renegade Swabbie
-				i(253581),	-- Challenge Card: Sunny
-				i(253868),	-- Challenge Card: The Quacken
 				i(254690),	-- Blood-Soaked Invitation
 			}),
 			filter(MOUNTS, {
@@ -6012,7 +6004,6 @@ root(ROOTS.Unsorted, {
 				i(241610),	-- Ensemble: Regalia of the Chosen Dead
 				i(248094),	-- Ensemble: Waveborne Diplomat's Regalia
 				i(252656),	-- K'areshi Scientific Expedition Supply
-				i(255881),	-- Severed Threads Commendation
 			}),
 			filter(MOUNTS, {
 				i(250108),	-- Cragstepper Crest-Horn
@@ -7950,7 +7941,6 @@ root(ROOTS.Unsorted, {
 			i(168786),	-- Rotten Food
 			i(168789),	-- Perpetual Motion Device
 			i(168790),	-- Sack of Fish Bones
-			i(168794),	-- Last Year's Brewfest Flyer
 			i(168797),	-- Stack of Undeliverable Mail
 			i(168812),	-- Air Freshner
 			i(168815),	-- Kelpberry Cask
@@ -7958,7 +7948,6 @@ root(ROOTS.Unsorted, {
 			i(168835),	-- De-Synced Vibro Blade
 			i(168867),	-- Queen's Orders \\ The Queen's Orders
 			i(168914),	-- Grime-Coated Disc
-			i(169010),	-- Corroded Evaporator Coil
 			i(169107),	-- T.A.R.G.E.T. Device
 			i(169115),	-- Preserved Nutrient Bar
 			i(169116),	-- Dehydrated Nourishment Packet
