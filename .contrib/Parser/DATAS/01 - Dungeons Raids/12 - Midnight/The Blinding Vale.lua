@@ -29,7 +29,6 @@ InstanceHelper.BossOnly, InstanceHelper.Difficulty
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1309, {	-- The Blinding Vale
 		["coord"] = { 27.2, 78.0, HARANDAR },
-		["timeline"] = { ADDED_12_0_0_LAUNCH },
 		["maps"] = { BLINDING_VALE },
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({

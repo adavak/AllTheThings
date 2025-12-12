@@ -61,7 +61,6 @@ InstanceHelper.UpgradeMapping = {
 root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1308, {	-- March on Quel'Danas
 		--["coord"] = { X, Y, MAP.MIDNIGHT.VOIDSTORM },
-		["timeline"] = { ADDED_12_0_0 },
 		--["maps"] = {
 
 		--},
