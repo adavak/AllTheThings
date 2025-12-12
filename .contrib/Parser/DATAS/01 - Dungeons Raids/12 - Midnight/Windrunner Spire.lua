@@ -10,6 +10,12 @@ local HEART = 2658;
 ------ EncounterToCRS ------
 local EncounterToCRS = {
 	[EMBERDAWN] = { 231606 },	-- Emberdawn
+	[DUO] = {
+		231626,	-- Kalis
+		231629,	-- Latch
+	},
+	[KROLUK] = { 231631 },	-- Commander Kroluk <Old Horde>
+	[HEART] = { 231636 },	-- Restless Heart
 };
 
 ------ Boss Functions ------
@@ -68,12 +74,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 					i(251099),	-- Vest of the Howling Gale
 				}),
 			}),
-			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
+			Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
 				BossOnly(HEART, {	-- The Restless Heart
 					ach(41288),	-- Heroic: Windrunner Spire
 				}),
 			}),
-			d(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
+			Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
 				BossOnly(HEART, {	-- The Restless Heart
 					ach(41291),	-- Mythic: Windrunner Spire
 					i(256653),	-- Pattern: Ranger-General's Grips (RECIPE!)

@@ -5,7 +5,6 @@ faction(2722),	-- Delves: Season 3
 faction(2739),	-- Delves: Coffer Key Shards Conversion
 11.2.7.63642
 faction(2662),	-- [PH] The Power of Friendship
-faction(2663),	-- Meerah
 faction(2664),	-- Flynn Fairwind
 faction(2665),	-- Lillistrasza
 faction(2666),	-- Roasts and Boasts

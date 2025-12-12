@@ -2297,9 +2297,7 @@ q(91682),	--
 q(91683),	--
 q(91684),	--
 q(91727),	--
-q(91757),	--
 q(91766),	--
-q(91821),	--
 q(91957),	--
 q(92096),	--
 q(92097),	--
@@ -2329,7 +2327,7 @@ q(94422),	--
 q(94932),	--
 11.2.7.63642
 q(63415),	--
-q(83547),	-- PTR2:Welcome to the Neighborhood
+q(83547),	-- Welcome to the Neighborhood
 q(83557),	--
 q(84382),	--
 q(84387),	--
@@ -2349,42 +2347,40 @@ q(84523),	--
 q(84524),	--
 q(84678),	--
 q(84679),	--
-q(84832),	-- PTR2:[DNT] Example Breadcrumb to DF
+q(84832),	-- [DNT] Example Breadcrumb to DF
 q(84833),	--
-q(84934),	-- PTR2:A Dark Descent
+q(84934),	-- A Dark Descent
 q(85000),	--
 q(85016),	--
-q(85017),	-- PTR2:Tracking Quest to Send Mailer [DNT]
+q(85017),	-- Tracking Quest to Send Mailer [DNT]
 q(85049),	--
 q(85062),	--
 q(86330),	--
 q(86331),	--
-q(86905),	-- PTR2:No More Sick Days
-q(86936),	-- PTR2:Warped Wood
+q(86905),	-- No More Sick Days
+q(86936),	-- Warped Wood
 q(86937),	--
-q(86960),	-- PTR2:The Key to Good Health
-q(86962),	-- PTR2:Blood in the Wound
-q(87000),	-- PTR2:No Wood Left Behind
+q(86960),	-- The Key to Good Health
+q(86962),	-- Blood in the Wound
+q(87000),	-- No Wood Left Behind
 q(90973),	--
-q(91041),	-- PTR2:A Gently Shaken Gift
-q(91042),	-- PTR2:A Winter Veil Gift
+q(91041),	-- A Gently Shaken Gift
+q(91042),	-- A Winter Veil Gift
 q(91200),	--
 q(91204),	--
-q(91466),	-- PTR2:Aiding the Green Dragons
-q(91467),	-- PTR2:Incarnates on the Move
-q(91691),	-- PTR2:The Vanishing of Iridikron
+q(91691),	-- The Vanishing of Iridikron
 q(91692),	--
-q(91695),	-- PTR2:Tracking Down Incarnates
-q(91865),	--
-q(91866),	--
-q(91867),	--
-q(91869),	--
+q(91695),	-- Tracking Down Incarnates
+q(91865),	-- Catch Up: Khaz Algar
+q(91866),	-- Catch Up: The Ringing Deeps
+q(91867),	-- Catch Up: Hallowfall
+q(91869),	-- Catch Up: A Light in the Dark
 q(91870),	--
 q(91878),	--
 q(91879),	--
 q(91880),	--
-q(92104),	-- PTR2:Broomstick Express
-q(92455),	-- PTR2:Specter Inspector
+q(92104),	-- Broomstick Express
+q(92455),	-- Specter Inspector
 q(92475),	--
 q(92476),	--
 q(92477),	--
@@ -2393,27 +2389,20 @@ q(92498),	--
 q(92535),	--
 q(92536),	--
 q(92537),	--
-q(92577),	--
 q(92578),	--
-q(92580),	--
+q(92580),	-- Spare A Chair
 q(92581),	--
 q(92584),	--
 q(92585),	--
-q(92647),	--
-q(92650),	--
-q(92715),	--
-q(92740),	--
-q(92816),	-- PTR2:A Letter for Adventure
-q(92845),	--
-q(92851),	--
-q(92856),	--
-q(92857),	-- PTR2:Ta'readon's Mount Voucher
-q(92875),	-- PTR2:Understanding the War Within
+q(92715),	-- By Invitation Only?
+q(92740),	-- Questionable Qualifications
+q(92845),	-- By Invitation Only?
+q(92851),	-- Questionable Qualifications
 q(92876),	--
 q(92943),	--
 q(93042),	--
-q(93076),	-- PTR2:[DNT] TEST HOUSE ROOM REWARD
-q(93119),	-- PTR2:[DNT] TEST HOUSE DECOR REWARD
+q(93076),	-- [DNT] TEST HOUSE ROOM REWARD
+q(93119),	-- [DNT] TEST HOUSE DECOR REWARD
 q(93183),	--
 q(93223),	--
 q(93321),	--
@@ -2441,33 +2430,33 @@ q(93402),	--
 q(93403),	--
 q(93405),	--
 q(93441),	--
-q(93452),	-- PTR2:Retrieved Crumpled Present
+q(93452),	-- Retrieved Crumpled Present
 q(93466),	--
 q(93468),	--
 q(93469),	--
 q(93477),	--
 q(93492),	--
-q(93683),	-- PTR2:Conditional Objectives - Singular
+q(93683),	-- Conditional Objectives - Singular
 q(93688),	--
 q(93764),	--
 q(93765),	--
 11.2.7.64011
-q(93877),	-- PTR2:Conditional Objectives - Sequential
-q(93878),	-- PTR2:Conditional Objectives - Multiple Steps, No Sequence
-q(93879),	-- PTR2:Conditional Objectives - Conditional After Sequence
+q(93877),	-- Conditional Objectives - Sequential
+q(93878),	-- Conditional Objectives - Multiple Steps, No Sequence
+q(93879),	-- Conditional Objectives - Conditional After Sequence
 q(93888),	--
-q(93901),	-- PTR2:[DNT] House Level 2 Room Award
-q(93902),	-- PTR2:[DNT] House Level 4 Room Award
-q(94363),	--
+q(93901),	-- [DNT] House Level 2 Room Award
+q(93902),	-- [DNT] House Level 4 Room Award
+q(94363),	-- The Gloves Are Off
 q(94364),	--
-q(94372),	--
+q(94372),	-- The Gloves Are Off
 11.2.7.64044
-q(94416),	-- PTR2:Rehoming Technology
-q(94431),	-- PTR2:[DNT] House Level 3 Room Award
-q(94437),	-- PTR2:[DNT] House Level 5 Room Award
-q(94439),	--
+q(94431),	-- [DNT] House Level 3 Room Award
+q(94437),	-- [DNT] House Level 5 Room Award
 11.2.7.64438
 q(94780),	--
+11.2.7.64877
+q(95139),	--
 12.0.0.63534
 q(85916),	-- BETA:Midnight
 q(85917),	-- BETA:Midnight
@@ -5278,3 +5267,43 @@ q(95053),	--
 q(95054),	--
 q(95067),	--
 q(95068),	--
+12.0.1.64889
+q(93581),	-- BETA:Against Overwhelming Odds
+q(93582),	--
+q(95091),	--
+q(95113),	--
+q(95114),	-- BETA:Prey: A Crimson Summons
+q(95127),	--
+q(95128),	--
+q(95129),	--
+q(95130),	--
+q(95131),	--
+q(95132),	--
+q(95133),	--
+q(95134),	--
+q(95135),	--
+q(95136),	--
+q(95137),	--
+q(95138),	--
+q(95146),	--
+q(95154),	--
+q(95155),	--
+q(95166),	--
+q(95167),	--
+q(95168),	--
+q(95169),	--
+q(95170),	--
+q(95171),	--
+q(95172),	--
+q(95173),	--
+q(95175),	-- BETA:Anchoring the Defense
+q(95215),	-- BETA:A New Direction
+q(95220),	-- BETA:Midnight (20-79) E
+q(95230),	-- BETA:Midnight (80) E
+q(95234),	--
+q(95237),	-- BETA:Midnight (81-89) E
+q(95240),	--
+q(95243),	--
+q(95244),	--
+q(95245),	-- BETA:Midnight: World Tour
+q(95247),	--

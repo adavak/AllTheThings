@@ -18404,7 +18404,6 @@ i(94203),	-- Yellow Potion
 i(94204),	-- Poisoned Red Potion
 i(94205),	-- Poisoned Blue Potion
 i(94206),	-- Poisoned Yellow Potion
-i(94223),	-- en Shado-Pan Insignia \\ Stolen Shado-Pan Insignia
 i(94236),	-- Dragon Scrolls of Kalimdor \\ The Dragon Scrolls of Kalimdor
 i(94237),	-- Temple Blueprints \\ Mogu Temple Blueprints
 i(94238),	-- rding Prohibited Magics \\ Regarding Prohibited Magics
@@ -22499,7 +22498,6 @@ i(132868),	-- Demonic Residue \\ nic Residue
 i(132875),	-- Second Piece of the Band of Farondis \\ nd Piece of the Band of Farondis
 i(132876),	-- Third Piece of the Band of Farondis \\ d Piece of the Band of Farondis
 i(132877),	-- Eye of Azzorok \\ of Azzorok
-i(132880),	-- Heart of the Overlord \\ t of the Overlord
 i(132885),	-- Moon Lily \\ Lily
 i(132886),	-- Moon Lily \\ Lily
 i(132887),	-- Bouquet of Moon Lilies \\ uet of Moon Lilies
@@ -23204,7 +23202,6 @@ i(139024),	-- Highmountain Tribe Insignia \\ mountain Tribe Insignia
 i(139025),	-- Wardens Insignia \\ ens Insignia
 i(139026),	-- Nightfallen Insignia \\ tfallen Insignia
 i(139032),	-- Freya's Spring Water \\ a's Spring Water
-i(139034),	-- Letter from Gul'dan \\ er from Gul'dan
 i(139038),	-- Greater Elementals \\ ter Elementals
 i(139039),	-- Geomancers \\ ancers
 i(139044),	-- Satchel of Buoys \\ hel of Buoys
@@ -23810,7 +23807,6 @@ i(141870),	-- Arcane Tablet of Falanaar \\ ne Tablet of Falanaar
 i(141872),	-- Artisan's Handiwork \\ san's Handiwork
 i(141876),	-- Soul-Powered Containment Unit \\ -Powered Containment Unit
 i(141877),	-- Coura's Ancient Scepter \\ a's Ancient Scepter
-i(141878),	-- Arcane-Infused Vial \\ ne-Infused Vial
 i(141881),	-- Eternal Bride's Wedding Ring \\ nal Bride's Wedding Ring
 i(141883),	-- Azsharan Keepsake \\ aran Keepsake
 i(141884),	-- Krota's Shield \\ a's Shield
@@ -24666,7 +24662,6 @@ i(152863),	-- Orphaned Krokul Doll \\ aned Krokul Doll
 7.3.0.24651
 i(152897),	-- Fouled Felcore \\ ed Felcore
 i(152939),	-- Mark of the Triumvirate Warriors \\ of the Triumvirate Warriors
-i(152965),	-- Vishax's Portal Generator \\ ax's Portal Generator
 i(152996),	-- Vrykul Toy Boat \\ ul Toy Boat
 i(152999),	-- Imp Meat \\ Meat
 i(153000),	-- Tarnished Timeless Coin \\ ished Timeless Coin
@@ -24802,6 +24797,10 @@ i(251244),	-- Ensemble: Astral Warmonger's Leather Armor
 i(251245),	-- Ensemble: Astral Warmonger's Mail Armor
 i(251246),	-- Ensemble: Astral Warmonger's Plate Armor
 i(251247),	-- Arsenal: Astral Warmonger's Weapons
+11.2.7.64011
+i(248941),	-- [DNT] Dreadscar Battle Planning Map - do not use - new asset
+11.2.7.64877
+i(268368),	-- Fragmented Memento of Epoch Challenges
 12.0.0.63534
 i(248210),	-- Weathered Twilight Cultist's Sword
 i(248211),	-- Weathered Twilight Cultist's Axe
@@ -24811,6 +24810,7 @@ i(248214),	-- Weathered Twilight Cultist's Ritual Knife
 i(248215),	-- Weathered Twilight Cultist's Rifle
 i(248216),	-- Weathered Twilight Cultist's Hammer
 i(248217),	-- Weathered Twilight Cultist's Greatmace
+i(249228),	-- 12.0 Delves - Season 1 - Curio - Utility 5
 i(249434),	-- Well-Worn Twilight Cultist's Cowl
 i(249435),	-- Well-Worn Twilight Cultist's Mantle
 i(249436),	-- Well-Worn Twilight Cultist's Robe
