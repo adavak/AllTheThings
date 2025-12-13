@@ -1,11 +1,6 @@
 ---------------------------------------------------------------
 --     N E V E R    I M P L E M E N T E D    M O D U L E     --
 ---------------------------------------------------------------
--- Everything in this file hasn't been implemented yet.
--- We don't need all of this as part of the addon since there's no trigger to alert that a Faction has
--- been encountered, and it really causes the Dynamic population to take forever since every one of these Factions is added into the Main list
-
---[[
 root(ROOTS.NeverImplemented, n(FACTIONS, {
 	expansion(EXPANSION.CLASSIC, {
 		-- 0.5.3.3368
@@ -747,4 +742,3 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 		})),
 	}),
 }));
---]]
