@@ -795,7 +795,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["coord"] = { 47.1, 82.6, THE_WAKING_SHORES },
 						["groups"] = {
 							spell(388278),	-- Intrepid Explorer cast
-							title(475),	-- Intrepid Explorer <Name> (TITLE!)
+							title(475),	-- Intrepid Explorer <Name>
 							i(197921),	-- Primal Infusion
 						},
 					}),

@@ -8,7 +8,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		},{
 			ach(61254),	-- Midnight Keystone Explorer: Season One
 			ach(61255, {	-- Midnight Keystone Conqueror: Season One
-				title(655),	-- %s the Umbral
+				title(655),	-- <Name> the Umbral
 			}),
 			ach(61256, {	-- Midnight Keystone Master: Season One
 				i(262620),	-- Calamitous Carrion (MOUNT!)

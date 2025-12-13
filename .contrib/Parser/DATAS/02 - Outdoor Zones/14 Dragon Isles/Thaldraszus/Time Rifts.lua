@@ -286,7 +286,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							["minReputation"] = { FACTION_SORIDORMI, 5 },
 							["groups"] = {
 								i(208006),	-- Greater Paracausal Chest / it also could contain vendor stuff, was Ensemble: Hauberk of Discipline - Alex
-								spell(417360),	-- Unparalleled (TITLE!)
+								spell(417360),	-- Unparalleled
 							},
 						}),
 					}),

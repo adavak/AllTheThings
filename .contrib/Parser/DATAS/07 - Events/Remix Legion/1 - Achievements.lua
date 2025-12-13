@@ -94,10 +94,10 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(60960),	-- Tenured in the Timeways II
 		ach(60961),	-- Tenured in the Timeways III
 		ach(60935, {	-- Tenured in the Timeways IV
-			title(646),	-- Chronoscholar (TITLE!)
+			title(646),	-- Chronoscholar
 		}),
 		ach(42301, {	-- Timerunner
-			title(551),	-- Timerunner (TITLE!)
+			title(551),	-- Timerunner
 		}),
 		ach(42685, {	-- Timerunner: Death Knight
 			i(252954),	-- Felscorned Reins of the Vilebrood Vanquisher (MOUNT!)

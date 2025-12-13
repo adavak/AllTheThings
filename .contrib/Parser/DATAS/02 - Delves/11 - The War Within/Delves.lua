@@ -249,7 +249,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			})),
 			ach(42801, {	-- Journey's End (Season 3)
 				["groups"] = {
-					title(638, {	-- %s the Delver Within
+					title(638, {	-- <Name> the Delver Within
 						["timeline"] = { ADDED_11_2_0 },
 					}),
 				},
@@ -2425,7 +2425,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["groups"] = {
-							title(641, {	-- %s Bronzebeard
+							title(641, {	-- <Name> Bronzebeard
 								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 								["collectible"] = false,
 							}),

@@ -2944,7 +2944,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								40979,	-- No Crate Left Behind
 							}},
 							["groups"] = {
-								title(571),	-- Detective <Name> (TITLE!)
+								title(571),	-- Detective <Name>
 							},
 						}),
 					}),
@@ -4196,91 +4196,91 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						i(230264, {	-- Bronze Celebration Titles: Broken Isles Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(587),	-- Broken Isles Enthusiast <Name> (TITLE!)
+								title(587),	-- Broken Isles Enthusiast <Name>
 							},
 						}),
 						i(230261, {	-- Bronze Celebration Titles: Cataclysm Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(584),	-- Cataclsym Enthusiast <Name> (TITLE!)
+								title(584),	-- Cataclsym Enthusiast <Name>
 							},
 						}),
 						i(230258, {	-- Bronze Celebration Titles: Classic Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(581),	-- Classic Enthusiast <Name> (TITLE!)
+								title(581),	-- Classic Enthusiast <Name>
 							},
 						}),
 						i(230263, {	-- Bronze Celebration Titles: Draenor Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(586),	-- Draenor Enthusias <Name> (TITLE!)
+								title(586),	-- Draenor Enthusias <Name>
 							},
 						}),
 						i(230268, {	-- Bronze Celebration Titles: Dragon Isles Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(591),	-- Dragon Isles Enthusiast <Name> (TITLE!)
+								title(591),	-- Dragon Isles Enthusiast <Name>
 							},
 						}),
 						i(229826, {	-- Bronze Celebration Titles: Grizzly Hills Hiker (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(577),	-- Grizzly Hills Hiker <Name> (TITLE!)
+								title(577),	-- Grizzly Hills Hiker <Name>
 							},
 						}),
 						i(231833, {	-- Bronze Celebration Titles: Karazhan Graduate (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(596),	-- Karazhan Graduate <Name> (TITLE!)
+								title(596),	-- Karazhan Graduate <Name>
 							},
 						}),
 						i(230266, {	-- Bronze Celebration Titles: Kul Tiras Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(589),	-- Kul Tiras Enthusiast <Name> (TITLE!)
+								title(589),	-- Kul Tiras Enthusiast <Name>
 							},
 						}),
 						i(231832, {	-- Bronze Celebration Titles: Molten Core Prospector (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(595),	-- Molten Core Prospector <Name> (TITLE!)
+								title(595),	-- Molten Core Prospector <Name>
 							},
 						}),
 						i(230260, {	-- Bronze Celebration Titles: Northrend Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(583),	-- Northrend Enthusiast <Name> (TITLE!)
+								title(583),	-- Northrend Enthusiast <Name>
 							},
 						}),
 						i(230259, {	-- Bronze Celebration Titles: Outland Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(582),	-- Outland Enthusiast <Name> (TITLE!)
+								title(582),	-- Outland Enthusiast <Name>
 							},
 						}),
 						i(230262, {	-- Bronze Celebration Titles: Pandaria Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(585),	-- Pandaria Enthusiast <Name> (TITLE!)
+								title(585),	-- Pandaria Enthusiast <Name>
 							},
 						}),
 						i(229827, {	-- Bronze Celebration Titles: Plaguelands Survivor (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(578),	-- Plaguelands Survivor <Name> (TITLE!)
+								title(578),	-- Plaguelands Survivor <Name>
 							},
 						}),
 						i(230267, {	-- Bronze Celebration Titles: Shadowlands Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(590),	-- Shadowlands Enthusiast <Name> (TITLE!)
+								title(590),	-- Shadowlands Enthusiast <Name>
 							},
 						}),
 						i(230265, {	-- Bronze Celebration Titles: Zuldazar Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(588),	-- Zuldazar Enthusiast <Name> (TITLE!)
+								title(588),	-- Zuldazar Enthusiast <Name>
 							},
 						}),
 					},
@@ -4561,7 +4561,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						i(249242, {	-- Bronze Celebration Titles: Khaz Algar Enthusiast (CI!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
 							["groups"] = {
-								title(645),	-- Khaz Algar Enthusiast <Name> (TITLE!)
+								title(645),	-- Khaz Algar Enthusiast <Name>
 							},
 						}),
 					},
