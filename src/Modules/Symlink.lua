@@ -947,6 +947,11 @@ ResolveSymbolicLink = function(o, refonly)
 end
 app.ResolveSymbolicLink = ResolveSymbolicLink
 
+-- Performance Tracking
+if app.__perf then
+	app.__perf.AutoCaptureTable(ResolveFunctions, "Symlink.ResolveFunctions");
+end
+
 local function ResolveSymlinkGroupAsync(group)
 	-- app.PrintDebug("RSGa",group.hash)
 	local groups = ResolveSymbolicLink(group);

@@ -971,7 +971,7 @@ app.CreateCache = function(idField, className)
 	end
 	cache.DefaultFunctions = DefaultFunctions
 	if app.__perf then
-		return app.__perf.AutoCaptureTable(cache, "ClassCache:"..(className or idField))
+		return app.__perf.CaptureTable(cache, "ClassCache:"..(className or idField))
 	end
 	if className then
 		ClassDataCaches[className] = cache
