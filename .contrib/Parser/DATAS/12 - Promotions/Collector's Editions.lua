@@ -474,7 +474,11 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	n(TBC_CLASSIC_DELUXE_EDITION, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0, REMOVED_9_2_7 } }, {
 		["description"] = "These rewards were made available to anyone who purchased a Deluxe Edition of The Burning Crusade Classic.",
 		["groups"] = {
+			-- #if AFTER 11.2.5
+			i(248090),	-- Viridian Phase-Hunter (MOUNT!)
+			-- #else
 			mount(346136),	-- Viridian Phase-Hunter (MOUNT!)
+			-- #endif
 		},
 	})),
 	-- #endif
@@ -771,7 +775,11 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 					["timeline"] = { REMOVED_10_0_2 },
 				}),
 				pet(3175),	-- Murkastrasza (PET!)
+				-- #if AFTER 11.2.5
+				i(248089),	-- Tangled Dreamweaver (MOUNT!)
+				-- #else
 				mount(359843),	-- Tangled Dreamweaver (MOUNT!)
+				-- #endif
 				ach(17314),	-- Heroic Edition: Tangled Dreamweaver
 				ach(17305, {	-- Trading Post: Dragonflight
 					["timeline"] = { ADDED_10_0_5, REMOVED_10_2_0 },

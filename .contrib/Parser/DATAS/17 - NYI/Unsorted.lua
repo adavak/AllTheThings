@@ -5999,24 +5999,6 @@ root(ROOTS.Unsorted, {
 				i(248094),	-- Ensemble: Waveborne Diplomat's Regalia
 				i(252656),	-- K'areshi Scientific Expedition Supply
 			}),
-			filter(MOUNTS, {
-				i(250108),	-- Cragstepper Crest-Horn
-				i(250762),	-- Felfueled Memento of the Abyss
-				i(250106),	-- Floestrider Crest-Horn
-				i(248088),	-- Jade, Bright Foreseer
-				i(250928),	-- Murky Turkey
-				i(250927),	-- Quirky Turkey
-				i(239647),	-- Reins of the Bloodguard Fel Bat
-				i(239666),	-- Reins of the Risen Fel Bat
-				i(239686),	-- Reins of the Forgotten Fel Bat
-				i(250191),	-- Reins of the Bilebound Ur'zul
-				i(250321),	-- Reins of the Thorignir Drake
-				i(250726),	-- Reins of the Leyfrost Manasaber
-				i(250727),	-- Reins of the Nightwell Manasaber
-				i(250105),	-- Sharktested Crest-Horn
-				i(248089),	-- Tangled Dreamweaver
-				i(248090),	-- Viridian Phase-Hunter
-			}),
 			filter(QUEST_ITEMS, {
 				i(247894),	-- Dalaran Hearthstone
 			}),

@@ -10,7 +10,6 @@ root(ROOTS.NeverImplemented, {
 	n(CONDUITS, {["timeline"] = {CREATED_9_0_1}}),						-- Completed up to 11.2.5
 	filter(COSMETIC),													-- Not Completed and Not Sorted
 	n(DECOR, {["timeline"] = {CREATED_11_2_7}}),						-- Not Completed and Not Sorted
-	n(MOUNT_MODS, {["timeline"] = {CREATED_10_0_0}}),					-- Completed up to 11.2.5
 	n(EXPLORATION),														-- Not Completed and Not Sorted
 	-- n(FACTIONS),														-- Completed up to 10.2.5
 	n(FLIGHT_PATHS),													-- Completed up to 11.2.5
@@ -19,7 +18,8 @@ root(ROOTS.NeverImplemented, {
 	filter(ILLUSIONS, {["timeline"] = {CREATED_8_0_1}}),				-- Completed up to 11.2.5
 	n(MAPS),															-- Completed up to 10.2.5
 	filter(MISC),														-- Not Completed and Not Sorted
-	filter(MOUNTS),														-- Completed up to 10.2.5
+	n(MOUNT_MODS, {["timeline"] = {CREATED_10_0_0}}),					-- Completed up to 11.2.5
+	filter(MOUNTS),														-- Completed up to 11.2.5
 	n(PROFESSIONS, {													-- Not Completed and Not Sorted
 		prof(ABOMINABLE_STITCHING, {["timeline"] = {CREATED_9_0_1}}),	-- Completed up to 10.2.5
 		prof(ALCHEMY),													-- Completed up to 10.2.5

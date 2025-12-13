@@ -665,9 +665,15 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(85870, {	-- Imperial Quilen (MOUNT!)
 			["timeline"] = { ADDED_8_3_0 },
 		}),
+		-- #if AFTER 11.2.5
+		i(248088, {	-- Jade, Bright Foreseer (MOUNT!)
+			["timeline"] = { ADDED_10_0_2 },
+		}),
+		-- #else
 		mount(369451, {	-- Jade, Bright Foreseer (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },
 		}),
+		-- #endif
 		-- #if ANYCLASSIC
 		i(192455, {	-- Kalu'ak Whalebone Glider (MOUNT!)
 			["timeline"] = { ADDED_2_5_4_A },
@@ -728,9 +734,15 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(166776, {	-- Sylverian Dreamer (MOUNT!)
 			["timeline"] = { ADDED_8_2_0 },
 		}),
+		-- #if AFTER 11.2.5
+		i(248089, {	-- Tangled Dreamweaver (MOUNT!)
+			["timeline"] = { ADDED_10_2_0 },
+		}),
+		-- #else
 		mount(359843, {	-- Tangled Dreamweaver (MOUNT!)
 			["timeline"] = { ADDED_10_2_0 },
 		}),
+		-- #endif
 		i(231297, {	-- Timbered Sky Snake (MOUNT!)
 			["description"] = "Also obtained if you set up a 6-Month WoW Subscription.",
 			["timeline"] = { ADDED_11_0_7, },
@@ -738,9 +750,15 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
 			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238", "added 11.2.5.64395", "removed 11.2.7.99999" },	-- Removed Jan 6, 2025, Added Nov 17 2025, Removed Jan 5 2026
 		}),
+		-- #if AFTER 11.2.5
+		i(248090, {	-- Viridian Phase-Hunter (MOUNT!)
+			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
+		}),
+		-- #else
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
 		}),
+		-- #endif
 		i(246920, {	-- Void-Razed Elekk (MOUNT!)
 			["timeline"] = { ADDED_11_2_5, "removed 11.2.7.99999" },	-- Removed January 12, 2026
 		}),
