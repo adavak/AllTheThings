@@ -1500,7 +1500,7 @@ i(246908);	-- K'areshi Supply Crate
 i(246905);	-- Overtuned K'areshi Goggles
 i(245970);	-- P.O.S.T. Master's Express Hearthstone
 i(232303);	-- Unbound Banner of the Algari
---- UNSORTED ---
+--- NYI ---
 i(242534);	-- Azure Sea Skiff
 
 ------------------
@@ -1519,6 +1519,9 @@ i(263489);	-- Naaru's Enfold
 -- PATCH 11.2.7 --
 ------------------
 i(242520);	-- Festival Hot Air Balloon
+--- UNSORTED ---
+i(243304);	-- Jubilant Snowman Costume
+i(245580);	-- Rolling Snowball
 
 ------------------
 -- PATCH 12.0.0 --
@@ -1548,14 +1551,12 @@ i(252265);	-- Hexed Potatoad Mucus
 i(263871);	-- Holy Pet Leash
 i(267139);	-- Hungry Black Hole
 i(264695);	-- Interdimensional Parcel Signal
-i(243304);	-- Jubilant Snowman Costume
 i(250320);	-- Lightgraft
 i(264414);	-- Midnight Delver's Flare Gun
 i(253629);	-- Personal Key to the Arcantina
 i(262431);	-- Pocket Mushroom Jump Pad
 i(251903);	-- Potatoad Egg
 i(264666);	-- Rod of Exanguishation
-i(245580);	-- Rolling Snowball
 i(250319);	-- Shadowgraft
 i(258963);	-- Shroom Jumper's Parachute
 i(259240);	-- Sin'dorei Wine
