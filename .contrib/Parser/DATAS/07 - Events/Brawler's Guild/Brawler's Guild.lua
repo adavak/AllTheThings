@@ -919,9 +919,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					},
 					["DisablePartySync"] = true,
 					["coord"] = { 53.0, 61.2, DEEPRUN_TRAM },
-					["groups"] = {
-						i(254690),	-- Blood-Soaked Invitation
-					},
+					["groups"] = { i(254690) },	-- Blood-Soaked Invitation
 				}),
 				q(94363, {	-- The Gloves Are Off
 					["sourceQuest"] = 92851,	-- Questionable Qualifications
@@ -948,9 +946,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
 					},
 					["DisablePartySync"] = true,
-					["groups"] = {
-						i(254690),	-- Blood-Soaked Invitation
-					},
+					["groups"] = { i(254690) },	-- Blood-Soaked Invitation
 				}),
 				q(94372, {	-- The Gloves Are Off
 					["sourceQuest"] = 92740,	-- Questionable Qualifications
