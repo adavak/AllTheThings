@@ -1406,10 +1406,6 @@ root(ROOTS.Unsorted, {
 			i(246345),	-- Polearm
 			i(246371),	-- Ballista Bolt
 			i(246374),	-- Juvenile Blood
-			i(246397),	-- Twilight Cultist Robes
-			i(246398),	-- Cultist Cowl \\ [DNT] Cultist Mask \\ Cultist Mask
-			i(246399),	-- Cultist Dagger
-			i(246400),	-- Cultist Robes
 			i(246436),	-- Ogre Tome of Dark Magic
 			i(246437),	-- Ogre Tome of Fighting Techniques
 			i(246439),	-- Void Ashes
@@ -1437,7 +1433,6 @@ root(ROOTS.Unsorted, {
 			i(246585),	-- Artisan's Consortium Payout \\ DNT - Artisan's Consortium Payout
 			i(246590),	-- Ashes of Belo'ren
 			i(246621),	-- Venomous Horn
-			i(246627),	-- Twilight's Blade Tabard
 			i(246671),	-- Recipe: Sunsmoke Censer
 			i(246726),	-- Greatsword of Returning Light
 			i(246729),	-- Fang of Shadra
@@ -1845,7 +1840,6 @@ root(ROOTS.Unsorted, {
 			i(250460),	-- Encroaching Shadow Signet
 			i(250461),	-- Chain of the Ancient Watcher
 			i(250462),	-- Forgotten Farstrider's Insignia
-			i(250465),	-- Shadow Crystal \\ Gembombs
 			i(250705),	-- Naga Missive PH NAME
 			i(250750),	-- Pouch of Sprouted Clippings
 			i(250753),	-- Bag of Cracked Orebits
