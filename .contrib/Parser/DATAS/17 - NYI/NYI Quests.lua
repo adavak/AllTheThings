@@ -7403,9 +7403,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(66109),	-- Enchanted Compass
 			q(69840),	-- Enraged Sapphire
 			q(69849),	-- Enraged Steamburst Elemental
-			q(65569),	-- Ensemble: Twisted Arcanum Regalia
-			q(65676),	-- Ensemble: Chains of the Honored Valarjar
-			q(65734),	-- Ensemble: Battleplate of the Honored Valarjar
 			q(70596),	-- Essence of Arcana
 			q(66496),	-- Expedition Task Accepted (spellID 372078)
 			q(66497),	-- Expedition Task Accepted (spellID 372095)
@@ -8398,8 +8395,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(75536),	--
 			q(75605),	--
 			q(76198),	--
-			q(76226),	--
-			q(76237),	--
 			q(76245),	--
 			q(76289),	--
 			q(76360),	--

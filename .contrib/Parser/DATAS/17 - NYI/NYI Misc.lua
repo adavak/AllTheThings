@@ -1282,6 +1282,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(203461),	-- Chronologically Reallocated Rations
 			i(202112),	-- Crystal Shattering Armaments
 			i(202310),	-- Defective Doomsday Device
+			i(200917),	-- Ensemble: Tidecaller's Chainmail
 			i(201990),	-- Primal Mote
 			i(204277),	-- Ruby Whelp Treat
 			i(204236),	-- Sack of Stolen Dragon Glyphs
@@ -1505,6 +1506,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 
 		-- 10.2.5
 		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
+			i(190924),	-- Arsenal: Ruby Felfire Armaments
 			i(212784),	-- Destroyed Relic
 			i(211104),	-- Ephemeral Fractured Emerald
 			i(211112),	-- Ephemeral Swift Emerald

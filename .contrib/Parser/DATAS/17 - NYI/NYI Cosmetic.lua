@@ -87,24 +87,17 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
 		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
-			i(194318),	-- Book of Ancient Lore
-			i(193069),	-- Climber's Pack
-			i(198385),	-- Draconian Garden Pick
-			i(194329),	-- Elaborate Reliquary Candelabra
-			i(198386),	-- Gardener's Tilling Spork
-			i(194314),	-- Light of the Enlightened
-			i(194331),	-- Pristine Research Journal
-			i(194316),	-- Tome of Forgotten Legends
-			i(198342),	-- Tuskarr Expedition Pack
-			i(191647),	-- Tuskarr Fishing Pole
-			i(199666),	-- Spiked Azure Spaulders
-			i(199667),	-- Spiked Bronze Spaulders
-			i(199668),	-- Spiked Emerald Spaulders
-			i(199665),	-- Spiked Obsidian Spaulders
-
-				------ TRADING POST ------
+			n(ARMOR, {
+				i(193069),	-- Climber's Pack
+				i(199666),	-- Spiked Azure Spaulders
+				i(199667),	-- Spiked Bronze Spaulders
+				i(199668),	-- Spiked Emerald Spaulders
+				i(199665),	-- Spiked Obsidian Spaulders
+			}),
 			n(SETS, {
 				------ Honored Valarjar Set [Mail] ------
+				i(190575),	-- Ensemble: Chains of the Honored Valarjar
+				q(65676),	-- Ensemble: Chains of the Honored Valarjar
 				i(190563),	-- Armbands of the Honored Valarjar
 				i(190564),	-- Cape of the Honored Valarjar
 				i(190568),	-- Coif of the Honored Valarjar
@@ -116,6 +109,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190569),	-- Sabatons of the Honored Valarjar
 
 				------ Honored Valarjar Set [Plate] ------
+				i(190920),	-- Ensemble: Battleplate of the Honored Valarjar
+				q(65734),	-- Ensemble: Battleplate of the Honored Valarjar
 				i(190919),	-- Breastplate of the Honored Valarjar
 				i(190915),	-- Gardbrace of the Honored Valarjar
 				i(190914),	-- Greatbelt of the Honored Valarjar
@@ -127,6 +122,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190912),	-- Warboots of the Honored Valarjar
 
 				------ Slumbering Caldera Set ------
+				i(190796),	-- Ensemble: Slumbering Caldera Regalia
+				q(65718),	-- Ensemble: Slumbering Caldera Regalia
 				i(190781),	-- Slumbering Caldera Bracers
 				i(190780),	-- Slumbering Caldera Crown
 				i(190775),	-- Slumbering Caldera Gauntlets
@@ -138,6 +135,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190779),	-- Slumbering Caldera Sabatons
 
 				------ Twisted Arcanum Set ------
+				i(190165),	-- Ensemble: Twisted Arcanum Regalia
+				q(65569),	-- Ensemble: Twisted Arcanum Regalia
 				i(190162),	-- Twisted Arcanum Bindings
 				i(190159),	-- Twisted Arcanum Cowl
 				i(190158),	-- Twisted Arcanum Grips
@@ -148,20 +147,28 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190160),	-- Twisted Arcanum Trousers
 				i(190193),	-- Twisted Arcanum Tunic
 			}),
+			n(WEAPONS, {
+				i(194318),	-- Book of Ancient Lore
+				i(198385),	-- Draconian Garden Pick
+				i(194329),	-- Elaborate Reliquary Candelabra
+				i(198386),	-- Gardener's Tilling Spork
+				i(194314),	-- Light of the Enlightened
+				i(194331),	-- Pristine Research Journal
+				i(194316),	-- Tome of Forgotten Legends
+				i(198342),	-- Tuskarr Expedition Pack
+				i(191647),	-- Tuskarr Fishing Pole
+			}),
 		})),
 
 		-- 10.0.5
 		expansion(EXPANSION.DF, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_5 } }, {
-				------ TRADING POST ------
 			n(ARMOR, {
 				i(190672),	-- Deathguard Acolyte's Cloak
 				i(189869),	-- Distinguished Warcloak
 			}),
 			n(SETS, {
-				i(190575),	-- Ensemble: Chains of the Honored Valarjar
-				i(190165),	-- Ensemble: Twisted Arcanum Regalia
-
 				------ Val'Sharah Protector Set ------
+				i(200910),	-- Ensemble: Val'sharah Protector's Battleplate
 				i(190547),	-- Val'Sharah Protector's Bracers
 				i(190897),	-- Val'Sharah Protector's Crown
 				i(190213),	-- Val'sharah Protector's Cuirass
@@ -172,6 +179,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190074),	-- Val'sharah Protector's Spaulders
 
 				------ Void-Bound Set [Cloth] ------
+				i(200918),	-- Ensemble: Void-Bound Raiment
+				q(72087),	-- Ensemble: Void-Bound Raiment
 				i(190679),	-- Void-Bound Cord
 				i(190839),	-- Void-Bound Crown
 				i(190834),	-- Void-Bound Cuffs
@@ -183,6 +192,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190684),	-- Void-Bound Trousers
 
 				------ Void-Bound Set [Leather] ------
+				i(200924),	-- Ensemble: Void-Bound Battlegear
+				q(72088),	-- Ensemble: Void-Bound Battlegear
 				i(190863),	-- Void-Bound Belt
 				i(190862),	-- Void-Bound Bracers
 				i(200920),	-- Void-Bound Cloak
@@ -194,6 +205,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190707),	-- Void-Bound Vest
 
 				------ Void-Bound Set [Mail] ------
+				i(201000),	-- Ensemble: Void-Bound Chains
+				q(72123),	-- Ensemble: Void-Bound Chains
 				i(190677),	-- Void-Bound Boots
 				i(190678),	-- Void-Bound Chain
 				i(190682),	-- Void-Bound Circlet
@@ -205,6 +218,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(190836),	-- Void-Bound Wristguards
 
 				------ Void-Bound Set [Plate] ------
+				i(201001),	-- Ensemble: Void-Bound Warplate
+				q(72124),	-- Ensemble: Void-Bound Warplate
 				i(190866),	-- Void-Bound Breastplate
 				i(190865),	-- Void-Bound Gauntlets
 				i(190701),	-- Void-Bound Girdle
@@ -237,10 +252,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 		-- 10.1.0
 		expansion(EXPANSION.DF, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_0 } }, {
-				------ TRADING POST ------
-			n(SETS, {
-				i(190796),	-- Ensemble: Slumbering Caldera Regalia
-			}),
 			n(WEAPONS, {
 				i(190077),	-- Scarlet Zealot's Heater Shield
 				i(189885),	-- The Battlespoon
@@ -249,33 +260,31 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 		-- 10.1.5
 		expansion(EXPANSION.DF, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_5 } }, {
-			i(206800),	-- Arcane Detection Rod
-			i(206806),	-- Part Dislocator
-				------ TRADING POST ------
 			n(ARMOR, {
 				i(190559),	-- Helm of the Swift
 			}),
 			n(SETS, {
-				iensemble(200917),	-- Ensemble: Tidecaller's Chainmail
-
 				------ Vagabond's Grassy Threads ------
-				iensemble(206329),	-- Ensemble: Vagabond's Grassy Threads
+				i(206329),	-- Ensemble: Vagabond's Grassy Threads
+				q(76237),	-- Ensemble: Vagabond's Grassy Threads
 				i(206285),	-- Vagabond's Grassy Cape
 				i(206296),	-- Vagabond's Grassy Hood
 
 				------ Wanderer's Grassy Trappings ------
-				iensemble(206340),	-- Ensemble: Wanderer's Grassy Trappings
+				i(206340),	-- Ensemble: Wanderer's Grassy Trappings
+				q(76226),	-- Ensemble: Wanderer's Grassy Trappings
 				i(206318),	-- Wanderer's Grassy Cloak
 				i(206307),	-- Wanderer's Grassy Scarf
 			}),
 			n(WEAPONS, {
+				i(206800),	-- Arcane Detection Rod
 				i(190561),	-- Crystalblade of Shifting Magic
+				i(206806),	-- Part Dislocator
 			}),
 		})),
 
 		-- 10.2.0
 		expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_0 } }, {
-				------ Trading Post ------
 			n(ARMOR, {
 				i(210856),	-- Trader's Faded Sarong
 				i(210851),	-- Trader's Grassy Sarong
@@ -287,18 +296,17 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 		-- 10.2.5
 		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
-			i(212338),	-- DNT - Hearthstone - Loot - Hat (Needs Art)
-			i(212532),	-- Reno's Hat
-			i(211926),	-- Riders of Azeroth Tabard
-				------ Trading Post ------
 			n(ARMOR, {
 				i(190807),	-- Artisan's Work Shirt
 				i(190669),	-- Burnished Helm of Righteousness
 				i(190692),	-- Champion's Battle Standard
 				i(190847),	-- Deathmantle Assassin's Barb
 				i(190090),	-- Dessicated Bouquet
+				i(212338),	-- DNT - Hearthstone - Loot - Hat (Needs Art)
 				i(212625),	-- Dueler's Grassy Shoulder Cape
 				i(190893),	-- Jeweled Valkyrion Cape
+				i(212532),	-- Reno's Hat
+				i(211926),	-- Riders of Azeroth Tabard
 				i(190688),	-- Silvered Helm of Righteousness
 				i(212705),	-- Spring Reveler's Cornsilk Attire
 				i(212706),	-- Spring Reveler's Cornsilk Belt
@@ -307,15 +315,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(212987),	-- Spring Reveler's Cornsilk Pants
 				i(212717),	-- Spring Reveler's Cornsilk Sun Hat
 				i(212610),	-- Wings of the Emerald Monarch
-			}),
-			n(SETS, {
-				i(190924),	-- Arsenal: Ruby Felfire Armaments
-				iensemble(190920),	-- Ensemble: Battleplate of the Honored Valarjar
-				iensemble(200910),	-- Ensemble: Val'sharah Protector's Battleplate
-				iensemble(200918),	-- Ensemble: Void-Bound Raiment
-				iensemble(200924),	-- Ensemble: Void-Bound Battlegear
-				iensemble(201000),	-- Ensemble: Void-Bound Chains
-				iensemble(201001),	-- Ensemble: Void-Bound Warplate
 			}),
 			n(WEAPONS, {
 				i(190848),	-- [DNT] Do not use
@@ -340,18 +339,21 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 		-- 10.2.6
 		expansion(EXPANSION.DF, patch(2,6), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_6 } }, {
-			i(217635),	-- Dream Raider's Azure Razor
-
-			------ Dragonriding Cup ------
-			i(212686),	-- Azure Riders of Azeroth Tabard
-			i(212874),	-- Drake Racer's Azure Jersey
-			i(212875),	-- Drake Racer's Azure Handwraps
-			i(212876),	-- Drake Racer's Azure Belt
-			i(212877),	-- Drake Racer's Azure Leggings
-			i(212878),	-- Drake Racer's Azure Boots
-			i(212879),	-- Drake Racer's Azure Scarf
-			i(212880),	-- Drake Racer's Azure Shoulderpads
-			i(212881),	-- Drake Racer's Azure Helmet
+			n(SETS, {
+				------ Dragonriding Cup ------
+				i(212686),	-- Azure Riders of Azeroth Tabard
+				i(212874),	-- Drake Racer's Azure Jersey
+				i(212875),	-- Drake Racer's Azure Handwraps
+				i(212876),	-- Drake Racer's Azure Belt
+				i(212877),	-- Drake Racer's Azure Leggings
+				i(212878),	-- Drake Racer's Azure Boots
+				i(212879),	-- Drake Racer's Azure Scarf
+				i(212880),	-- Drake Racer's Azure Shoulderpads
+				i(212881),	-- Drake Racer's Azure Helmet
+			}),
+			n(WEAPONS, {
+				i(217635),	-- Dream Raider's Azure Razor
+			}),
 		})),
 
 		-- 10.2.7
@@ -380,13 +382,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(223224),	-- Green Diver's Pauldrons
 				i(223253),	-- Green Diver's Tank
 				i(223259),	-- Green Diver's Wrist Seal
-
-				------ Pink Tropical Set ------
-				i(221543),	-- Ensemble: Pink Tropical
-				i(222960),	-- Ensemble: Pink Tropical Swimwear
 			}),
 			n(WEAPONS, {
-				------ Single Pieces ------
 				i(220690),	-- Water Blaster P.R.
 				i(220691),	-- Water Blaster Y.L.
 			}),
@@ -445,6 +442,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 				------ Battered Harvest Golem Set ------
 				i(226483),	-- Ensemble: Battered Harvest Golem
+				q(84002),	-- Ensemble: Battered Harvest Golem (same ID)
 				i(226452),	-- Battered Harvest Golem's Belt
 				i(226451),	-- Battered Harvest Golem's Boots
 				i(226438),	-- Battered Harvest Golem's Chest
@@ -456,6 +454,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 				------ Grimy Harvest Golem Set ------
 				i(226482),	-- Ensemble: Grimy Harvest Golem
+				q(84002),	-- Ensemble: Grimy Harvest Golem (same ID)
 				i(226470),	-- Grimy Harvest Golem's Belt
 				i(226469),	-- Grimy Harvest Golem's Boots
 				i(226468),	-- Grimy Harvest Golem's Chest

@@ -1214,7 +1214,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					iensemble(241408, {	-- Ensemble: Fel-Bloodied Battlegear
 						["cost"] = {{ "c", BRONZE, 7500 }},
 					}),
-					iensemble(241356, {	-- Ensemble: Ensemble: Fel-Marked Scales
+					iensemble(241356, {	-- Ensemble: Tidecaller's Scales
 						["cost"] = {{ "c", BRONZE, 7500 }},
 					}),
 					iensemble(241397, {	-- Ensemble: Firewurm Dragonscale

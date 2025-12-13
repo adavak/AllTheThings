@@ -52,7 +52,6 @@ root(ROOTS.NeverImplemented, {
 	n(SOURCEID_NYI),													-- Not Completed and Not Sorted
 	filter(TITLES, {["timeline"] = {CREATED_3_0_2}}),					-- Completed up to 11.2.5
 	filter(TOYS),														-- Completed up to 11.2.5
-	n(TRADING_POST_NYI, {["timeline"] = {CREATED_10_0_5}}),				-- Not Completed and Not Sorted
 	n(WEAPONS),															-- Not Completed and Not Sorted
 });
 root(ROOTS.HiddenAchievementTriggers, {
