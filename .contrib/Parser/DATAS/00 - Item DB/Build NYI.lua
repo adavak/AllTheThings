@@ -4,7 +4,7 @@ root(ROOTS.NeverImplemented, {
 	n(ARMOR),															-- Not Completed and Not Sorted
 	n(ARTIFACTS),														-- Completed up to 11.2.5
 	filter(BAGS),														-- Not Completed and Not Sorted
-	filter(BATTLE_PETS),												-- Completed up to 11.2.0
+	filter(BATTLE_PETS),												-- Completed up to 11.2.5
 	n(CAMPSITES, {["timeline"] = {CREATED_11_1_0}}),					-- Completed up to 11.2.5
 	n(CLASSES),															-- Completed up to 11.2.5
 	n(CONDUITS, {["timeline"] = {CREATED_9_0_1}}),						-- Completed up to 11.2.5
@@ -16,7 +16,7 @@ root(ROOTS.NeverImplemented, {
 	n(FOLLOWERS, {["timeline"] = {CREATED_6_0_2}}),						-- Completed up to 11.2.5
 	n(HEIRLOOMS, {["timeline"] = {CREATED_4_0_1}}),						-- Not Completed and Not Sorted
 	filter(ILLUSIONS, {["timeline"] = {CREATED_8_0_1}}),				-- Completed up to 11.2.5
-	n(MAPS),															-- Completed up to 10.2.5
+	n(MAPS),															-- Completed up to 11.2.5
 	filter(MISC),														-- Not Completed and Not Sorted
 	n(MOUNT_MODS, {["timeline"] = {CREATED_10_0_0}}),					-- Completed up to 11.2.5
 	filter(MOUNTS),														-- Completed up to 11.2.5
