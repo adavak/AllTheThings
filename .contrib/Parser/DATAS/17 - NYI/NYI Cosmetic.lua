@@ -6,11 +6,20 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		-- 1.x.x
 		n(P1xx, {
 			i(6834),	-- Black Tuxedo
+			i(7996),	-- Worn Fishing Hat
+		}),
+	}),
+	expansion(EXPANSION.WRATH, {
+		-- 3.x.x
+		n(P3xx, {
+			i(34718),	-- Black Leather Shoes
+			i(45860),	-- Crystal Tiara
 		}),
 	}),
 	expansion(EXPANSION.CATA, {
 		-- 4.0.3
 		expansion(EXPANSION.CATA, patch(0,3), bubbleDownSelf({ ["timeline"] = { CREATED_4_0_3 } }, {
+			i(62058),	-- Irradiated Bandages
 			i(52488),	-- Jeweler's Sapphire Monocle
 		})),
 	}),
@@ -18,6 +27,12 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		-- 5.0.1
 		expansion(EXPANSION.MOP, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_5_0_4 } }, {
 			i(73240),	-- Sedge Hat of the Enlightened
+		})),
+
+		-- 5.1.0
+		expansion(EXPANSION.MOP, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_1_0 } }, {
+			i(92553),	-- Gnomish X-Ray Specs Visual
+			i(90986),	-- Ruby Bracelet
 		})),
 	}),
 	expansion(EXPANSION.WOD, {
@@ -38,12 +53,11 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 		-- 7.2.0
 		expansion(EXPANSION.LEGION, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_7_2_0 } }, {
-			i(147379),	-- Wooden Toy Axe [H] used to apply the mog
-			i(147378),	-- Wooden Toy Sword [A] (Visual usage for toy weapon set)
-			--
 			i(146306),	-- Green Winter Clothes
 			i(146305),	-- Green Winter Hat
 			i(146307),	-- Winter Boots
+			i(147379),	-- Wooden Toy Axe [H] used to apply the mog
+			i(147378),	-- Wooden Toy Sword [A] (Visual usage for toy weapon set)
 		})),
 	}),
 	expansion(EXPANSION.BFA, {
@@ -1130,6 +1144,216 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(245954),	-- Wildhammer's Ceremonial Mace
 				i(245958),	-- Wildhammer's Crystal Ward
 				i(246800),	-- Wildhammer's Mighty Crossbow
+			}),
+		})),
+
+		-- 11.2.5
+		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
+			n(ARMOR, {
+				i(252750),	-- Aquatic Winter Toque
+				i(251670),	-- Battered Wearable Pot Lid
+				i(252742),	-- Brick Winter Toque
+				i(249718),	-- Bronze Food Fanatic Backpack
+				i(252741),	-- Camo Winter Toque
+				i(252714),	-- Cloudy Winter Toque
+				i(252748),	-- Crimson Winter Toque
+				i(252715),	-- Deep Winter Toque
+				i(252744),	-- Faded Winter Toque
+				i(249719),	-- Fine Food Fanatic Backpack
+				i(235903),	-- Gold Lightforged Chestguard
+				i(249717),	-- Golden Food Fanatic Backpack
+				i(252713),	-- Grassy Winter Toque
+				i(250291),	-- Hot and Fresh Portable Bakery
+				i(252743),	-- Lively Winter Toque
+				i(252710),	-- Midnight Winter Toque
+				i(250292),	-- Piping Hot Portable Bakery
+				i(252747),	-- Plum Winter Toque
+				i(250293),	-- Red Hot Portable Bakery
+				i(252746),	-- Rosy Winter Toque
+				i(252712),	-- Sepia Winter Toque
+				i(252751),	-- Snowy Winter Toque
+				i(251669),	-- Sturdy Wearable Pot Lid
+				i(252752),	-- Sunny Winter Toque
+				i(251985),	-- Trapper's Black Quiver
+				i(251986),	-- Trapper's Blue Quiver
+				i(251987),	-- Trapper's Brown Quiver
+				i(251988),	-- Trapper's Dark Brown Quiver
+				i(251990),	-- Trapper's Light Brown Quiver
+				i(251991),	-- Trapper's Red Quiver
+				i(251992),	-- Trapper's Purple Quiver
+				i(251672),	-- Used Wearable Pot Lid
+				i(252749),	-- Violet Winter Toque
+			}),
+			n(SETS, {
+				------ The Seafarer's Winter Set ------
+				i(249754),	-- Ensemble: The Drustvar Winter Collection
+				q(92097),	-- Ensemble: The Drustvar Winter Collection
+				i(249749),	-- Drustvar Winter Belt
+				i(249751),	-- Drustvar Winter Boots
+				i(249753),	-- Drustvar Winter Cloak
+				i(249752),	-- Drustvar Winter Gloves
+				i(249746),	-- Drustvar Winter Hood
+				i(249750),	-- Drustvar Winter Leggings
+				i(249747),	-- Drustvar Winter Pauldrons
+				i(249863),	-- Drustvar Winter Spaulders
+				i(249748),	-- Drustvar Winter Tunic
+
+				------ The Kirin Tor Winter Set ------
+				i(249763),	-- Ensemble: The Kirin Tor Winter Collection
+				q(92098),	-- Ensemble: The Kirin Tor Winter Collection
+				i(249758),	-- Kirin Tor Winter Belt
+				i(249760),	-- Kirin Tor Winter Boots
+				i(249762),	-- Kirin Tor Winter Cloak
+				i(249761),	-- Kirin Tor Winter Gloves
+				i(249755),	-- Kirin Tor Winter Hood
+				i(249759),	-- Kirin Tor Winter Leggings
+				i(249756),	-- Kirin Tor Winter Pauldrons
+				i(249864),	-- Kirin Tor Winter Spaulders
+				i(249757),	-- Kirin Tor Winter Tunic
+
+				------ The Seafarer's Winter Set ------
+				i(249745),	-- Ensemble: The Seafarer's Winter Collection
+				q(92096),	-- Ensemble: The Seafarer's Winter Collection
+				i(249740),	-- Seafarer's Winter Belt
+				i(249742),	-- Seafarer's Winter Boots
+				i(249744),	-- Seafarer's Winter Cloak
+				i(249743),	-- Seafarer's Winter Gloves
+				i(249737),	-- Seafarer's Winter Hood
+				i(249741),	-- Seafarer's Winter Leggings
+				i(249738),	-- Seafarer's Winter Pauldrons
+				i(249862),	-- Seafarer's Winter Spaulders
+				i(249739),	-- Seafarer's Winter Tunic
+
+				------ Villager's City Set 1 ------
+				i(249946),	-- Ensemble: Villager's City Attire
+				q(92117),	-- Ensemble: Villager's City Attire
+				i(249945),	-- Villager's City Boots
+				i(249943),	-- Villager's City Buckle
+				i(249940),	-- Villager's City Cap
+				i(249941),	-- Villager's City Handwraps
+				i(249944),	-- Villager's City Pants
+				i(249942),	-- Villager's City Tunic
+
+				------ Villager's City Set 2 ------
+				i(250911),	-- Ensemble: Villager's City Collection
+				q(92370),	-- Ensemble: Villager's City Collection
+				i(250908),	-- Villager's City Belt
+				i(250907),	-- Villager's City Blouse
+				i(250905),	-- Villager's City Bonnet
+				i(250906),	-- Villager's City Gloves
+				i(250910),	-- Villager's City Sabatons
+				i(250909),	-- Villager's City Skirt
+
+				------ Villager's Forest Set 1 ------
+				i(250888),	-- Ensemble: Villager's Forest Collection
+				q(92367),	-- Ensemble: Villager's Forest Collection
+				i(250885),	-- Villager's Forest Belt
+				i(250884),	-- Villager's Forest Blouse
+				i(250883),	-- Villager's Forest Bonnet
+				i(250890),	-- Villager's Forest Gloves
+				i(250887),	-- Villager's Forest Sabatons
+				i(250886),	-- Villager's Forest Skirt
+
+				------ Villager's Forest Set 2 ------
+				i(249917),	-- Ensemble: Villager's Forest Attire
+				q(92112),	-- Ensemble: Villager's Forest Attire
+				i(249916),	-- Villager's Forest Boots
+				i(249910),	-- Villager's Forest Buckle
+				i(249906),	-- Villager's Forest Cap
+				i(249908),	-- Villager's Forest Handwraps
+				i(249911),	-- Villager's Forest Pants
+				i(249909),	-- Villager's Forest Tunic
+
+				------ Villager's Seaside Set 1 ------
+				i(249932),	-- Ensemble: Villager's Seaside Attire
+				q(92115),	-- Ensemble: Villager's Seaside Attire
+				i(249931),	-- Villager's Seaside Boots
+				i(249929),	-- Villager's Seaside Buckle
+				i(249926),	-- Villager's Seaside Cap
+				i(249927),	-- Villager's Seaside Handwraps
+				i(249930),	-- Villager's Seaside Pants
+				i(249928),	-- Villager's Seaside Tunic
+
+				------ Villager's Seaside Set 2 ------
+				i(250897),	-- Ensemble: Villager's Seaside Collection
+				q(92368),	-- Ensemble: Villager's Seaside Collection
+				i(250894),	-- Villager's Seaside Belt
+				i(250893),	-- Villager's Seaside Blouse
+				i(250891),	-- Villager's Seaside Bonnet
+				i(250892),	-- Villager's Seaside Gloves
+				i(250896),	-- Villager's Seaside Sabatons
+				i(250895),	-- Villager's Seaside Skirt
+
+				------ Unused duplicated Ensembles ------
+				i(241600),	-- Ensemble: Chains of the Chosen Dead
+				i(241602),	-- Ensemble: Chains of the Chosen Dead
+				i(248093),	-- Ensemble: Dreadlord's Shadowsbane Regalia
+				i(241595),	-- Ensemble: Funerary Plate of the Chosen Dead
+				i(241598),	-- Ensemble: Funerary Plate of the Chosen Dead
+				i(241605),	-- Ensemble: Garb of the Chosen Dead
+				i(241606),	-- Ensemble: Garb of the Chosen Dead
+				i(259454),	-- Ensemble: Regalia of Shackled Elements
+				i(241609),	-- Ensemble: Regalia of the Chosen Dead
+				i(241610),	-- Ensemble: Regalia of the Chosen Dead
+				i(248094),	-- Ensemble: Waveborne Diplomat's Regalia
+			}),
+			n(WEAPONS, {
+				i(248735),	-- Arcane Dirk of the Ice Queen
+				i(248817),	-- Arcane Wand of the Ice Queen
+				i(248829),	-- Arcane Great Axe of the Frost
+				i(248914),	-- Arcane Warglaives of the Nort
+				i(248728),	-- Bacon-Wrapped Smoked Ribs
+				i(250085),	-- Battered Pot Lid
+				i(248832),	-- Big Bronze Fork
+				i(248839),	-- Big Iron Fork
+				i(248841),	-- Big Silver Fork
+				i(249721),	-- Big Steel Spoon
+				i(249722),	-- Big Blue Spoon
+				i(249723),	-- Big Fancy Spoon
+				i(250780),	-- Bronze Food Fanatic Shield
+				i(251657),	-- Bunch of Pink Carrots
+				i(251658),	-- Bunch of Purple Carrots
+				i(251659),	-- Bunch of Yellow Carrotsts
+				i(251855),	-- Bunch of Orange Chilets
+				i(251856),	-- Bunch of Red Chile
+				i(251857),	-- Bunch of Yellow Chile
+				i(248739),	-- Dull Great Steak Knife
+				i(251797),	-- Ears of Orange Corn
+				i(251798),	-- Ears of Purple Corn
+				i(251799),	-- Ears of White Corn
+				i(248734),	-- Fiery Dirk of the Ice Queen
+				i(248816),	-- Fiery Wand of the Ice Queen
+				i(248828),	-- Fiery Great Axe of the Frostw
+				i(248913),	-- Fiery Warglaives of the North
+				i(250781),	-- Fine Food Fanatic Shield
+				i(248736),	-- Glowing Dirk of the Ice Queen
+				i(248818),	-- Glowing Wand of the Ice Queen
+				i(248830),	-- Glowing Great Axe of the Fros
+				i(248915),	-- Glowing Warglaives of the Nor
+				i(250779),	-- Golden Food Fanatic Shield
+				i(245663),	-- Holy Golden Greatsword
+				i(245664),	-- Holy Hologem Greatsword
+				i(248925),	-- Months Old Rye Bread
+				i(251660),	-- Offhand Bunch of Yellow Carro
+				i(251661),	-- Offhand Bunch of Purple Carro
+				i(251662),	-- Offhand Bunch of Pink Carrots
+				i(251801),	-- Offhand Ears of Orange Corn
+				i(251802),	-- Offhand Ears of Purple Corn
+				i(251803),	-- Offhand Ears of White Cornolf
+				i(251870),	-- Offhand Bunch of Orange Chilewolf
+				i(251872),	-- Offhand Bunch of Red Chiletwolf
+				i(251873),	-- Offhand Bunch of Yellow Chile
+				i(248725),	-- Smoked Rib Surprise
+				i(248727),	-- Smoked Rib Leftovers
+				i(248924),	-- Stale Mulgore Spice Bread
+				i(248729),	-- Steaming Pot of Stewh
+				i(248732),	-- Stolen Pot of Stewth
+				i(250084),	-- Sturdy Pot Lid
+				i(248923),	-- Unfathomably Stale Bread
+				i(248738),	-- Used Great Steak Knife
+				i(250087),	-- Used Pot Lid
+				i(248730),	-- Weathered Pot of Stew
+				i(248737),	-- Well-Used Great Steak Knife
 			}),
 		})),
 	}),

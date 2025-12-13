@@ -8,7 +8,7 @@ root(ROOTS.NeverImplemented, {
 	n(CAMPSITES, {["timeline"] = {CREATED_11_1_0}}),					-- Completed up to 11.2.5
 	n(CLASSES),															-- Completed up to 11.2.5
 	n(CONDUITS, {["timeline"] = {CREATED_9_0_1}}),						-- Completed up to 11.2.5
-	filter(COSMETIC),													-- Not Completed and Not Sorted
+	filter(COSMETIC),													-- Completed up to 11.2.5
 	n(DECOR, {["timeline"] = {CREATED_11_2_7}}),						-- Not Completed and Not Sorted
 	n(EXPLORATION),														-- Not Completed and Not Sorted
 	-- n(FACTIONS),														-- Completed up to 10.2.5
