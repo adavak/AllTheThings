@@ -1316,6 +1316,7 @@ i(0, 326390);		-- Steamscale Incinerator
 -- PATCH 9.0.1 --
 -----------------
 --- NYI ---
+i(182083, 332482);	-- Bonecleaver's Skullboar
 i(0, 312772);		-- Gilded Prowler
 i(0, 332257);		-- Gorm (Yellow)
 i(0, 332908);		-- PH Devourer Mite (Green)

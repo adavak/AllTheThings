@@ -7623,9 +7623,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 						}),
 					}),
 					filter(MOUNTS, {
-						i(182083, {	-- Bonecleaver's Skullboar (MOUNT!)
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
-						}),
 						i(257511, {	-- Bronze Wilderling Harness (MOUNT!)
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
 						}),
