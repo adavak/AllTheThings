@@ -69,15 +69,27 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 				-- #endif
 			},
 		}),
+		-- #if AFTER 11.2.5
+		i(248091, {	-- Anima Wyrmling (PET!)
+			["timeline"] = { ADDED_10_2_0 },
+		}),
+		-- #else
 		pet(2779, {	-- Anima Wyrmling (PET!)
 			["timeline"] = { ADDED_10_2_0 },
 		}),
+		-- #endif
 		i(118516, {	-- Argi (PET!)
 			["timeline"] = { ADDED_6_0_2 },
 		}),
+		-- #if AFTER 11.2.5
+		i(248092, {	-- Blinky (PET!)
+			["timeline"] = { ADDED_9_1_5 },
+		}),
+		-- #else
 		i(188837, {	-- Blinky (PET!)
 			["timeline"] = { ADDED_9_1_5 },
 		}),
+		-- #endif
 		i(98550, {	-- Blossoming Ancient (PET!)
 			["timeline"] = {
 				-- #if ANYCLASSIC

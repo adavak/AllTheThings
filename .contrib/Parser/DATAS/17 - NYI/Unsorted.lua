@@ -5812,15 +5812,6 @@ root(ROOTS.Unsorted, {
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {
-			filter(BATTLE_PETS, {
-				i(248091),	-- Anima Wyrmling
-				i(248092),	-- Blinky
-				i(252199),	-- Festive Eve
-				i(252194),	-- Fishmonger May
-				i(252195),	-- Fishstick Keith
-				i(252137),	-- Lil' Chompers
-				i(252193),	-- Slippery Saul
-			}),
 			filter(COSMETIC, {
 				i(235903),	-- Gold Lightforged Chestguard
 				i(245663),	-- Holy Golden Greatsword

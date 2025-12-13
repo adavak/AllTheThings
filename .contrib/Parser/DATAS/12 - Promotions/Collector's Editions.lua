@@ -760,7 +760,11 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(EPIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Shadowlands Epic Edition.",
 			["groups"] = {
+				-- #if AFTER 11.2.5
+				i(248091),	-- Anima Wyrmling (PET!)
+				-- #else
 				pet(2779),	-- Anima Wyrmling (PET!)
+				-- #endif
 				i(172179),	-- Eternal Traveler's Hearthstone (TOY!)
 				i(172177),	-- Illusion: Wraithchill (ILLUSION!)
 			},

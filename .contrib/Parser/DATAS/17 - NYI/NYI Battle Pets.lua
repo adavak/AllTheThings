@@ -1163,6 +1163,12 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			pet(3188, {	-- Trub'ul (PET!)
 				["displayID"] = 103091,
 			}),
+			-- #if AFTER 11.2.5
+			-- Without SpeciesID Attached
+			i(188837, {	-- Blinky Egg (PET!)
+				["displayID"] = 101380,
+			}),
+			-- #endif
 		})),
 
 		-- 9.2.0
@@ -1619,6 +1625,26 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			}),
 			pet(4837, {	-- Worm, Cosmic - Critter (Red) (PET!)
 				["displayID"] = 128503,
+			}),
+		})),
+
+		-- 11.2.5
+		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
+			-- With SpeciesID Attached
+			i(252199, {	-- Festive Eve
+				["displayID"] = 137218,
+			}),
+			i(252194, {	-- Fishmonger May
+				["displayID"] = 137213,
+			}),
+			i(252195, {	-- Fishstick Keith
+				["displayID"] = 137215,
+			}),
+			i(252137, {	-- Lil' Chompers
+				["displayID"] = 137193,
+			}),
+			i(252193, {	-- Slippery Saul
+				["displayID"] = 137201,
 			}),
 		})),
 	}),

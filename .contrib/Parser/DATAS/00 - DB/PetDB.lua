@@ -3346,7 +3346,11 @@ i(0, 2871);			-- Pet Training Dummy
 -----------------
 -- PATCH 9.0.1 --
 -----------------
+-- #if ATTER 11.2.5
+i(248091, 2779);	-- Anima Wyrmling
+-- #else
 i(0, 2779);			-- Anima Wyrmling
+-- #endif
 --- NYI ---
 i(0, 2951);			-- PH Slime
 i(180838, 0);		-- Blue Etherwyrm
@@ -3633,7 +3637,11 @@ i(186545, 0);		-- REUSE
 -----------------
 -- PATCH 9.1.5 --
 -----------------
+-- #if AFTER 11.2.5
+i(248092, 3153);	-- Blinky
+-- #else
 i(188837, 3153);	-- Blinky
+-- #endif
 i(186553, 3107);	-- Gurgl
 --- NYI ---
 i(0, 3188);			-- Trub'ul
@@ -4494,7 +4502,7 @@ i(246342, 4855);	-- Mustyfur Fel Snooter
 i(129108, 1751);	-- Son of Goredome
 i(253699, 4903);	-- Starshard Whelpling
 i(239699, 4801);	-- Tidbit
---- UNSORTED ---
+--- NYI ---
 i(252199, 4899);	-- Festive Eve
 i(252194, 4897);	-- Fishmonger May
 i(252195, 4898);	-- Fishstick Keith
