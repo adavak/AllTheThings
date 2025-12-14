@@ -118,10 +118,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["timeline"] = { ADDED_5_3_0, REMOVED_6_0_2 },
 			})),
 			ach(11572, {	-- I Am Thrall's Complete Lack Of Surprise (Season 3)
-				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1 },
+				["timeline"] = { ADDED_7_1_5, REMOVED_8_0_1, ADDED_11_2_7 },
 			}),
 			ach(13194, {	-- I Am Thrall's Complete Lack Of Surprise
-				["timeline"] = { ADDED_7_1_5, REMOVED_8_1_5 },
+				["timeline"] = { ADDED_7_1_5, REMOVED_8_1_5, ADDED_11_2_7 },
 			}),
 			ach(7943, {		-- I'm Your Number One Fan (Season 1 & 2)
 				["timeline"] = { ADDED_5_1_0, REMOVED_7_0_3 },

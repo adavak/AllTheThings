@@ -221,11 +221,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								}),
 								i(245295, {	-- Literature of Dornogal (DECOR!)
 									["timeline"] = { ADDED_11_2_7 },
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 250}},
+									["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
 								}),
 								i(245297, {	-- Literature of Gundargaz (DECOR!)
 									["timeline"] = { ADDED_11_2_7 },
-									["cost"] = {{"c", RESONANCE_CRYSTALS, 250}},
+									["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
 								}),
 								i(245296, {	-- Literature of Taelloch (DECOR!)
 									["timeline"] = { ADDED_11_2_7 },

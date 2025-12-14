@@ -131,7 +131,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							["coord"] = { 43.7, 38.9, 745 },
 							["groups"] = {
 								o(249812, {	-- Titanstrike
-									["coord"] = { 33.5, 58.1, 745 },
+									["coord"] = { 33.5, 58.1, THE_STORM_PEAKS },
 									["groups"] = {
 										i(128861, {	-- Titanstrike
 											["ItemAppearanceModifierID"] = 9,

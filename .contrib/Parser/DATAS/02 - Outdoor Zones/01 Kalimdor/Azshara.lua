@@ -2000,6 +2000,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 58.9, 71.8, AZSHARA },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
+					["groups"] = {
+						o(201579, {	-- Keystone Shard
+							["coord"] = { 57.6, 71.0, AZSHARA },
+							["groups"] = { i(49094) },	-- Keystone Shard (QI!)
+						}),
+					},
 				}),
 				applyclassicphase(PHASE_FOUR_SUNKEN_TEMPLE_CLASS_QUESTS, q(8151, {	-- The Hunter's Charm
 					["allianceQuestData"] = {

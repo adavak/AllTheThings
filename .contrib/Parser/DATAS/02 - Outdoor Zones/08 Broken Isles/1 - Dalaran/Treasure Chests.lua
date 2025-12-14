@@ -63,9 +63,9 @@ root(ROOTS.Zones, {
 				o(266851, {	-- Wand of Simulated Life
 					["description"] = "Item is sitting on a table upstairs in The Legerdemain Lounge.",
 					["icon"] = 133836,
-					["groups"] = {
-						i(143534),	-- Wand of Simulated Life (TOY!)
-					},
+					["coord"] = { 47.8, 41.5, LEGION_DALARAN },
+					["timeline"] = { ADDED_7_1_0 },
+					["groups"] = { i(143534) },	-- Wand of Simulated Life (TOY!)
 				}),
 			}),
 		}),
