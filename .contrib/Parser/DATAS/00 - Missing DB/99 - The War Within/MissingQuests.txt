@@ -2316,9 +2316,7 @@ q(91041),	-- A Gently Shaken Gift
 q(91042),	-- A Winter Veil Gift
 q(91200),	--
 q(91204),	--
-q(91691),	-- The Vanishing of Iridikron
 q(91692),	--
-q(91695),	-- Tracking Down Incarnates
 q(91865),	-- Catch Up: Khaz Algar
 q(91866),	-- Catch Up: The Ringing Deeps
 q(91867),	-- Catch Up: Hallowfall

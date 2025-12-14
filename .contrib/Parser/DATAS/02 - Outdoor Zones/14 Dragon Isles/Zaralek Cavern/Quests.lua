@@ -566,6 +566,20 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 					["provider"] = { "n", 187678 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 58.1, 34.9, VALDRAKKEN },
 				}),
+				q(91691, {	-- The Vanishing of Iridikron
+					["sourceQuests"] = { 75417 },	-- Symbol of Hope
+					["provider"] = { "n", 187669 },	-- Nozdormu
+					["coord"] = { 60.8, 39.2, VALDRAKKEN },
+					["lockCriteria"] = { 1, "questID", 75918 },	-- Fire Season
+					["timeline"] = { ADDED_11_2_7 },
+				}),
+				q(91695, {	-- Tracking Down Incarnates
+					["sourceQuests"] = { 91691 },	-- The Vanishing of Iridikron
+					["provider"] = { "n", 187669 },	-- Nozdormu
+					["coord"] = { 60.8, 39.2, VALDRAKKEN },
+					["lockCriteria"] = { 1, "questID", 75918 },	-- Fire Season
+					["timeline"] = { ADDED_11_2_7 },
+				}),
 			}),
 			------ New System ------
 			q(76101, {	-- Tougher Down Under
