@@ -721,5 +721,21 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 			faction(2692),	-- Venture Company
 			faction(2670),	-- Venture Company (Paragon)
 		})),
+
+		-- 11.2.0
+		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_0 } }, {
+			faction(2657),	-- 11.2 Ethereum
+			faction(2739),	-- Delves: Coffer Key Shards Conversion
+			faction(2722),	-- Delves: Season 3
+			faction(2659),	-- The K'aresh Trust (Paragon)
+		})),
+
+		-- 11.2.7
+		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
+			faction(2664),	-- Flynn Fairwind
+			faction(2665),	-- Lillistrasza
+			faction(2666),	-- Roasts and Boasts
+			faction(2662),	-- [PH] The Power of Friendship
+		})),
 	}),
 }));
