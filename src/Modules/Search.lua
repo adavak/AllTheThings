@@ -60,6 +60,7 @@ local KeyMaps = setmetatable({
 	battlepet = "speciesID",
 	c = "currencyID",
 	camp = "campsiteID",
+	creature = "npcID",
 	currency = "currencyID",
 	crit = "criteriaID",
 	enchant = "spellID",

@@ -1013,6 +1013,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 					},
 					["qg"] = 233567,	-- Arator
 					["coord"] = { 60.7, 92.5, KARESH_TAZAVESH },
+					["maps"] = { DORNOGAL },
 				}),
 				------ Stay awhile and listen ------
 				hqt(87418, {	-- Stay awhile and listen: Arator
