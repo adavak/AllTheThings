@@ -1,11 +1,10 @@
 ---------------------------------------------
 --      H O U S I N G    M O D U L E       --
 ---------------------------------------------
-root(ROOTS.Housing, prof(DYE_CRAFTING, bubbleDownSelf({ ["requireSkill"] = DYE_CRAFTING }, {
+root(ROOTS.Housing, prof(DYE_CRAFTING, {
 	["timeline"] = { ADDED_11_2_7 },
 	-- Requires either Alchemy or Inscription
 	-- ["requireSkill"] = TODO,
-	["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 	["coords"] = {
 		{ 52.4, 37.6, FOUNDERS_POINT },
 		{ 53.6, 58.1, RAZORWIND_SHORES },
@@ -94,4 +93,4 @@ root(ROOTS.Housing, prof(DYE_CRAFTING, bubbleDownSelf({ ["requireSkill"] = DYE_C
 		r(1265119),	-- Zandalari Gold Dye
 		r(1264891),	-- Zephras Blue Dye
 	},
-})));
+}));

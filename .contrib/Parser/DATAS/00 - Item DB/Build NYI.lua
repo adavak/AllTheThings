@@ -27,7 +27,7 @@ root(ROOTS.NeverImplemented, {
 		prof(ASCENSION_CRAFTING, {["timeline"] = {CREATED_9_0_1}}),		-- Completed up to 11.2.5
 		prof(BLACKSMITHING),											-- Completed up to 11.2.5
 		prof(COOKING),													-- Completed up to 11.2.5
-		prof(DYE_CRAFTING),												-- Completed up to 11.2.5
+		prof(DYE_CRAFTING, {["timeline"] = {CREATED_11_2_7}}),			-- Completed up to 11.2.5
 		prof(ENCHANTING),												-- Completed up to 11.2.5
 		prof(ENGINEERING),												-- Completed up to 11.2.5
 		prof(FIRST_AID),												-- Completed up to 11.2.5
