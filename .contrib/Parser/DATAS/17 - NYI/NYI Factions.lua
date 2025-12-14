@@ -3,6 +3,7 @@
 ---------------------------------------------------------------
 root(ROOTS.NeverImplemented, n(FACTIONS, {
 	expansion(EXPANSION.CLASSIC, {
+		-- 1.x.x
 		n(P1xx, {
 			faction(189),	-- Alliance Generic
 			faction(148),	-- Ambient
@@ -159,6 +160,7 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 		}),
 	}),
 	expansion(EXPANSION.TBC, {
+		-- 2.x.x
 		n(P2xx, {
 			faction(960),	-- Actor Evil
 			faction(959),	-- Actor Good

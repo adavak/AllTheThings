@@ -563,7 +563,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(180736),	-- Blacksmith's Journal
 			i(175041),	-- Blinding Anima
 			i(175148),	-- Blooming Vale
-			i(181281),	-- Boss 10 Lure
 			i(180007),	-- Brewfest Pretzel Bowl
 			i(180829),	-- Cache of Anima Tolls
 			i(183939),	-- Carefully Bottled Holy Water

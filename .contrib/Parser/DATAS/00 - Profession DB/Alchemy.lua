@@ -1287,6 +1287,7 @@ i(0, 1269506);		-- Gilnean Green Potion
 i(0, 1272712);		-- Glazed Sin'dorei Vial
 i(0, 1263559);		-- Icecrown Plague Canister
 i(0, 1261878);		-- Nerubian Alchemist's Retort
+i(0, 1263548);		-- Pandaren Alchemist's Kit
 i(0, 1261233);		-- Pandaren Alchemist's Retort
 i(0, 1263558);		-- San'layn Blood Orb
 i(0, 1272723);		-- Shadow Council Torch
