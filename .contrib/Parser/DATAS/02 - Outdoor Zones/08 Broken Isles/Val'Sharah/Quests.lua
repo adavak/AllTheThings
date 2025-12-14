@@ -57,6 +57,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						i(130019),	-- Armplates of Unrelenting Anguish
 						i(130000),	-- Bands of Unrelenting Anguish
 						i(129992),	-- Cuffs of Unrelenting Anguish
+						i(245698, { ["timeline"] = { ADDED_11_2_7 } }),	-- Kaldorei Stone Fence (DECOR!)
 						i(121643),	-- Thaon's Grief
 					},
 				}),

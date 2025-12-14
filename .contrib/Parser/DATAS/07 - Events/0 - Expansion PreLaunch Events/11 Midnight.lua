@@ -88,22 +88,22 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(90760, {	-- Avoiding Blame [A]
-				["sourceQuest"] = 90759,	-- The Cult Within
+				["sourceQuest"] = 90759,	-- The Cult Within [A]
 				--["qg"] = ,	-- X
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(90761, {	-- Avoiding Blame [H]
-				["sourceQuest"] = 90764,	-- The Cult Within
+				["sourceQuest"] = 90764,	-- The Cult Within [H]
 				--["qg"] = ,	-- X
 				["races"] = HORDE_ONLY,
 			}),
 			q(90762, {	-- The Twilight Highlands [A]
-				["sourceQuest"] = 90760,	-- Avoiding Blame
+				["sourceQuest"] = 90760,	-- Avoiding Blame [A]
 				--["qg"] = ,	-- X
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(90763, {	-- The Twilight Highlands [H]
-				["sourceQuest"] = 90761,	-- Avoiding Blame
+				["sourceQuest"] = 90761,	-- Avoiding Blame [H]
 				--["qg"] = ,	-- X
 				["races"] = HORDE_ONLY,
 			}),

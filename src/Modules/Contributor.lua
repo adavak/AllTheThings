@@ -481,6 +481,7 @@ MobileDB.Creature = {
 	[114274] = true,	-- Mackay Firebeard
 	[114282] = true,	-- Dread Commander Thalanor
 	[115785] = true,	-- Direbeak Hatchling
+	[116308] = true,	-- Karam Magespear
 	[116737] = true,	-- Minerva Ravensorrow
 	[117292] = true,	-- Navarrogg
 	[117331] = true,	-- Aethas Sunreaver
