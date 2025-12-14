@@ -1,12 +1,12 @@
 createLocalizationString({
 	readable = "Skyriding",
-	constant = "SHOW_SKYRIDING_CHECKBOX",
+	constant = "ACCESSIBILITY_ADV_FLY_LABEL",
 	export = true,
 	text = {
 		-- #if AFTER DF
-		en = [[~DYNAMIC_FLIGHT]],
+		en = [[~ACCESSIBILITY_ADV_FLY_LABEL]],
 		-- #else
-		en = "Skyriding",
+		en = "Dragonriding",
 		-- TODO: de = "",
 		es = "Jinete de dragones",
 		mx = "Dracoequitación",
