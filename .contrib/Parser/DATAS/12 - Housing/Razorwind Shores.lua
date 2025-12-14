@@ -603,4 +603,4 @@ root(ROOTS.Housing, m(RAZORWIND_SHORES, {
 			}),
 		}),
 	},
-}))
+}));

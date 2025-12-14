@@ -110,7 +110,7 @@ root(ROOTS.Housing, n(QUESTS, {
 			},
 		}),
 	},
-}))
+}));
 
 root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.TWW, {
@@ -135,4 +135,4 @@ root(ROOTS.HiddenQuestTriggers, {
 			},
 		}),
 	})
-})
+});

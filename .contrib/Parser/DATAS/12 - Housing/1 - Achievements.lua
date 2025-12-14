@@ -27,4 +27,4 @@ root(ROOTS.Housing, n(ACHIEVEMENTS, {
 			["sourceQuests"] = { 91863 },	-- My First House
 		}),
 	},
-}))
+}));
