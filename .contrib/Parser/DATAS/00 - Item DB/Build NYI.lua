@@ -42,7 +42,7 @@ root(ROOTS.NeverImplemented, {
 		prof(SKINNING),													-- Not Completed and Not Sorted
 		prof(SOUL_CYPHERING, {["timeline"] = {CREATED_9_0_1}}),			-- Completed up to 10.2.5
 		-- prof(STYGIA_CRAFTING, {["timeline"] = {CREATED_9_0_5}}),		-- Completed up to 10.2.5
-		prof(SUPPLY_SHIPMENTS, {["timeline"] = {CREATED_10_2_0}}),		-- Completed up to 10.2.5
+		-- prof(SUPPLY_SHIPMENTS, {["timeline"] = {CREATED_10_2_0}}),	-- Completed up to 11.2.5
 		prof(TAILORING),												-- Not Completed and Not Sorted
 		-- prof(TUSKARR_FISHING_GEAR, {["timeline"] = {CREATED_10_0_0}}),-- Completed up to 10.2.5
 	}),
