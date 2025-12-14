@@ -60,9 +60,11 @@ root(ROOTS.NeverImplemented, filter(TITLES, {
 		})),
 
 		-- 9.2.0
+		-- #if BEFORE 11.2.0
 		expansion(EXPANSION.SL, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_9_2_0 } }, {
 			title(453),	-- <Name> the [PH] TBD Title
 		})),
+		-- #endif
 	}),
 	expansion(EXPANSION.DF, {
 		-- 10.2.0

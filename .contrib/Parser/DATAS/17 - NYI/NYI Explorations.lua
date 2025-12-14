@@ -687,7 +687,7 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			exploration(14996),	-- The Headlands
 
 			-- NYI?
-			exploration(15011),	-- FX - Test Dungeon \\ FX Test Dungeon
+			exploration(15011),	-- FX - Test Dungeon
 			exploration(14987),	-- James's Dynamic Mount Testground
 			exploration(15109),	-- Sound Room - Audio Smoketest
 		})),

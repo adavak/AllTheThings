@@ -28,15 +28,15 @@ root(ROOTS.NeverImplemented, {
 		prof(BLACKSMITHING),											-- Completed up to 11.2.5
 		prof(COOKING),													-- Completed up to 11.2.5
 		prof(ENCHANTING),												-- Completed up to 11.2.5
-		prof(ENGINEERING),												-- Not Completed and Not Sorted
+		prof(ENGINEERING),												-- Completed up to 11.2.5
 		prof(FIRST_AID),												-- Completed up to 11.2.5
 		prof(FISHING),													-- Completed up to 10.2.5
-		prof(HERBALISM),												-- Completed up to 10.2.5
+		prof(HERBALISM),												-- Completed up to 11.2.5
 		prof(INSCRIPTION, {["timeline"] = {CREATED_3_0_2}}),			-- Not Completed and Not Sorted
 		prof(JEWELCRAFTING),											-- Not Completed and Not Sorted
-		prof(JUNKYARD_TINKERING, {["timeline"] = {CREATED_8_2_0}}),		-- Completed up to 10.2.5
-		prof(LEATHERWORKING),											-- Completed up to 10.2.5
-		prof(MINING),													-- Completed up to 10.2.5
+		prof(JUNKYARD_TINKERING, {["timeline"] = {CREATED_8_2_0}}),		-- Completed up to 11.2.5
+		prof(LEATHERWORKING),											-- Completed up to 11.2.5
+		prof(MINING),													-- Completed up to 11.2.5
 		prof(POISONS),													-- Not Completed and Not Sorted
 		prof(PROTOFORM_SYNTHESIS, {["timeline"] = {CREATED_9_2_0}}),	-- Completed up to 11.2.5
 		prof(SKINNING),													-- Not Completed and Not Sorted

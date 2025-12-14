@@ -5711,7 +5711,6 @@ root(ROOTS.Unsorted, {
 				i(260580),	-- Cloudborn Razorwing
 			}),
 			n(PROFESSIONS, {
-				i(233203),	-- Schematic: Housing Crafting Test Recipe
 				i(260947),	-- White Dye Pigment
 				i(262625),	-- Purple Dye Pigment
 				i(262628),	-- Teal Dye Pigment

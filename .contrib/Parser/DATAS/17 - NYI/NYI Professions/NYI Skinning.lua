@@ -23,25 +23,6 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(177279),	-- Gaunt Sinew
 				})),
 			}),
-			expansion(EXPANSION.DF, {
-				-- 10.0.0
-				expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
-					i(193232),	-- Deathchill Hide+
-					i(193233),	-- Deathchill Hide++
-					i(193234),	-- Deathchill Hide+++
-					i(193239),	-- Drygrate Scales+
-					i(193240),	-- Drygrate Scales++
-					i(193241),	-- Drygrate Scales+++
-				})),
-			}),
-			expansion(EXPANSION.TWW, {
-				-- 11.0.0
-				expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
-					i(219895),	-- Deepfury Hide+
-					i(219896),	-- Deepfury Hide++
-					i(219897),	-- Deepfury Hide+++
-				})),
-			}),
 		}),
 		filter(RECIPES, {
 			expansion(EXPANSION.DF, {

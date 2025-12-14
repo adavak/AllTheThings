@@ -731,7 +731,7 @@ root(ROOTS.NeverImplemented, n(FLIGHT_PATHS, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			fp(2894), -- 11.0  - TEST - Dorn Batol, Khaz Algar - (LWB)
-			fp(2938), -- The Swaying Span \\ Weapon Master, Nerub'ar Palace
+			fp(2938), -- The Swaying Span
 			fp(2955), -- Quest Path 9706: 11.0 Z2 - Max Level - CH3 - Q2 - Pipe Ingress 1 Taxi (SMART)
 			fp(2964), -- Quest Path 9786: 11.0 Z2 - Campaign - Ch 3 - Dark Iron From Above - Boss Flyover - (LWB)
 			fp(2967), -- Quest Path 9870: 11.0 Raid - Nerubian - Zone - Thread Elevator - 04 Taxi Path 01 - TJS
