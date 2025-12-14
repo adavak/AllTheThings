@@ -816,6 +816,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 		}),
 	}),
 	prof(SKINNING, {
+		filter(BATTLE_PETS, {
+			i(153057, {	-- Fossorial Bile Larva (PET!)
+				["description"] = "This can be obtained from any skinnable Argus mob.",
+				["timeline"] = { ADDED_7_3_0 },
+			}),
+		}),
 		n(DISCOVERY, {
 			r(195125, {	-- Skinning (Legion)
 				["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
@@ -823,6 +829,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			}),
 			r(194174),	-- Skinning Journal
 			applyclassicphase(BFA_PHASE_ONE, r(265867, {["timeline"] = {ADDED_8_0_1}})),	-- Skinning (Legion)
+		}),
+		spell(8613, {	-- Skinning
+			i(151566, {["timeline"] = {ADDED_7_3_0}}),	-- Fiendish Leather
+			i(124115),	-- Stormscale
+			i(124113),	-- Stonehide Leather
+		}),
+		filter(TOYS, {
+			i(130102),	-- Mother's Skinning Knife (TOY!)
 		}),
 	}),
 	prof(TAILORING, {

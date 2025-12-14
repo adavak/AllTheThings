@@ -3,7 +3,6 @@
 -----------------------------------------------------
 local DF_SKINNING_KNOWLEDGE = 2033;
 local TWW_SKINNING_KNOWLEDGE = 2794;
--- Skinning - Skill ID 393 / Spell ID 8613
 root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = HERBALISM }, {
 	n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		ach(18834, {	-- Broken Isles Skinning Techniques
@@ -32,6 +31,313 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = HERBA
 			crit(61492, {	-- Unbroken Tooth
 				["provider"] = { "i", 139893 },	-- Skinning Technique: Unbroken Tooth
 			}),
+		}),
+	})),
+	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+			ach(18837, {	-- Broken Isles Herbalism Techniques
+				crit(61501, {	-- Aethril
+					["sourceQuests"] = { 40017 },	-- A Slip of the Hand
+				}),
+				crit(61507, {	-- Astral Glory
+					["sourceQuests"] = { 48029 },	-- The Heart of It
+				}),
+				crit(61502, {	-- Dreamleaf
+					["sourceQuests"] = { 40023 },	-- The Last Straw
+				}),
+				crit(61506, {	-- Felwort
+					["sourceQuests"] = { 40042 },	-- The Emerald Nightmare: Felwort Mastery
+				}),
+				crit(61504, {	-- Fjarnskaggl
+					["sourceQuests"] = { 40033 },	-- Fjarnskaggl
+				}),
+				crit(61503, {	-- Foxflower
+					["sourceQuests"] = { 40028 },	-- The Pied Picker
+				}),
+				crit(61505, {	-- Starlight Rose
+					["sourceQuests"] = { 40039 },	-- Tharillon's Fall
+				}),
+			}),
+		})),
+		header(HEADERS.Spell, 247842, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Fiendish Leather [Rank 1]
+			q(48040, {	-- Tainted Scraps
+				["provider"] = { "i", 151866 },	-- Tainted Scraps
+				["maps"] = {
+					ANTORAN_WASTES,
+					KROKUUN,
+					EREDATH,
+				},
+				["groups"] = {
+					r(247842),	-- Fiendish Leather [Rank 1]
+				},
+			}),
+		})),
+		header(HEADERS.Spell, 247843, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Fiendish Leather [Rank 2]
+			q(48041, {	-- A Larger Cut
+				["sourceQuest"] = 48040,	-- Tainted Scraps
+				["provider"] = { "i", 151867 },	-- Spoiled Fiendish Leather
+				["maps"] = {
+					ANTORAN_WASTES,
+					KROKUUN,
+					EREDATH,
+				},
+				["groups"] = {
+					r(247843),	-- Fiendish Leather [Rank 2]
+				},
+			}),
+		})),
+		header(HEADERS.Spell, 247844, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Fiendish Leather [Rank 3]
+			q(48042, {	-- Order of Operations
+				["sourceQuest"] = 48041,	-- A Larger Cut
+				["provider"] = { "i", 151868 },	-- Corrupted Tooth
+				["maps"] = {
+					ANTORAN_WASTES,
+					KROKUUN,
+					EREDATH,
+				},
+				["groups"] = {
+					r(247844),	-- Fiendish Leather [Rank 3]
+				},
+			}),
+		})),
+		header(HEADERS.Spell, 194161, {	-- Stonehide Leather [Rank 1]
+			q(40131, {	-- Stonehide Leather Sample
+				["provider"] = { "i", 129860 },	-- Stonehide Leather Sample
+				["maps"] = {
+					AZSUNA,
+					HIGHMOUNTAIN,
+					STORMHEIM,
+					VALSHARAH,
+					SURAMAR,
+				},
+			}),
+			q(40132, {	-- In One Piece
+				["sourceQuest"] = 40131,	-- Stonehide Leather Sample
+				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+				["coord"] = { 35.9, 28.6, LEGION_DALARAN },
+				["groups"] = {
+					r(194161),	-- Stonehide Leather [Rank 1]
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 194162, {	-- Stonehide Leather [Rank 2]
+			q(40133, {	-- Scrap of Pants
+				["sourceQuest"] = 40132,	-- In One Piece
+				["provider"] = { "i", 129864 },	-- Scrap of Pants
+				["maps"] = {
+					AZSUNA,
+					HIGHMOUNTAIN,
+					STORMHEIM,
+					VALSHARAH,
+					SURAMAR,
+				},
+			}),
+			q(40134, {	-- Highmountain Hides
+				["sourceQuest"] = 40133,	-- Scrap of Pants
+				["qg"] = 94409,	-- Hemet Nesingwary <Hemet's Hunting Party>
+				["groups"] = {
+					i(129900),	-- Bear Hide (QI!)
+					i(129901),	-- Elderhorn Hide (QI!)
+					i(129903),	-- Saber Hide (QI!)
+					i(130064),	-- Deadeye Monocle
+				},
+			}),
+			q(40135, {	-- The Freedom to Roam
+				["sourceQuest"] = 40133,	-- Scrap of Pants
+				["qg"] = 94409,	-- Hemet Nesingwary <Hemet's Hunting Party>
+				["groups"] = {
+					r(194162),	-- Stonehide Leather [Rank 2]
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 194163, {	-- Stonehide Leather [Rank 3]
+			q(40136, {	-- Immaculate Stonehide Leather
+				["sourceQuest"] = 40135,	-- In One Piece
+				["provider"] = { "i", 129866 },	-- Immaculate Stonehide Leather
+				["maps"] = {
+					AZSUNA,
+					HIGHMOUNTAIN,
+					STORMHEIM,
+					VALSHARAH,
+					SURAMAR,
+				},
+			}),
+			q(40137, {	-- Leather for Ske'rit
+				["sourceQuest"] = 40136,	-- Immaculate Stonehide Leather
+				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+				["maps"] = { SURAMAR },
+			}),
+			q(40138, {	-- Trial of the Crusader: Hides of Legend
+				["sourceQuest"] = 40137,	-- Leather for Ske'rit
+				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+			}),
+			q(40139, {	-- Halls of Valor: The Hide of Fenryr
+				["sourceQuest"] = 40137,	-- Leather for Ske'rit
+				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+			}),
+			q(40140, {	-- Ske'rit's Leather Handbook
+				["sourceQuests"] = {
+					40138,	-- Trial of the Crusader: Hides of Legend
+					40139	-- Halls of Valor: The Hide of Fenryr
+				},
+				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+				["groups"] = {
+					r(194163),	-- Stonehide Leather [Rank 3]
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 194164, {	-- Stormscale [Rank 1]
+			q(40141, {	-- Stormscale Sample
+				["provider"] = { "i", 129862 },	-- Stormscale Sample
+				["maps"] = {
+					AZSUNA,
+					HIGHMOUNTAIN,
+					STORMHEIM,
+					VALSHARAH,
+					SURAMAR,
+				},
+			}),
+			q(40142, {	-- The Core of the Stormscale
+				["sourceQuest"] = 40141,	-- Stormscale Sample
+				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+				["groups"] = {
+					r(194164),	-- Stormscale [Rank 1]
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 194165, {	-- Stormscale [Rank 2]
+			q(40143, {	-- Unfinished Treatise on the Properties of Stormscale
+				["sourceQuest"] = 40142,	-- The Core of the Stormscale
+				["provider"] = { "i", 129865 },	-- Unfinished Treatise on the Properties of Stormscale
+				["maps"] = {
+					AZSUNA,
+					HIGHMOUNTAIN,
+					STORMHEIM,
+					VALSHARAH,
+					SURAMAR,
+				},
+			}),
+			q(40144, {	-- Glielle
+				["sourceQuest"] = 40143,	-- Unfinished Treatise on the Properties of Stormscale
+				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+				["coord"] = { 35.9, 28.5, LEGION_DALARAN },
+			}),
+			q(40145, {	-- Under Down
+				["sourceQuest"] = 40144,	-- Glielle
+				["qg"] = 98791,	-- Glielle <Skinning Trainer>
+				["coord"] = { 47.0, 45.2, AZSUNA },
+				["groups"] = {
+					r(194165),	-- Stormscale [Rank 2]
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 194166, {	-- Stormscale [Rank 3]
+			q(40146, {	-- Seymour and Agnes
+				["sourceQuest"] = 40143,	-- Unfinished Treatise on the Properties of Stormscale
+				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+				["coord"] = { 35.9, 28.5, LEGION_DALARAN },
+			}),
+			q(40147, {	-- Mother's Prized Knife
+				["sourceQuest"] = 40146,	-- Seymour and Agnes
+				["qg"] = 98721,	-- Seymour <Skinning Trainer>
+				["coord"] = { 45.7, 25.6, STORMHEIM },
+				["groups"] = {
+					i(129910),	-- Agnes' Skinning Knife (QI!)
+				},
+			}),
+			q(40148, {	-- Red-Eyed Revenge
+				["sourceQuest"] = 40146,	-- Seymour and Agnes
+				["qg"] = 98721,	-- Seymour <Skinning Trainer>
+				["coord"] = { 45.7, 25.6, STORMHEIM },
+			}),
+			q(40149, {	-- Drakol'nir Must Die
+				["sourceQuests"] = {
+					40147,	-- Mother's Prized Knife
+					40148	-- Seymour and Agnes
+				},
+				["qg"] = 98721,	-- Seymour <Skinning Trainer>
+				["coord"] = { 45.7, 25.6, STORMHEIM },
+				["groups"] = {
+					i(130102),	-- Mother's Skinning Knife (TOY!)
+				},
+			}),
+			q(40151, {	-- Immaculate Stormscale
+				["sourceQuest"] = 40145,	-- Under Down
+				["provider"] = { "i", 129867 },	-- Immaculate Stormscale
+				["maps"] = {
+					AZSUNA,
+					HIGHMOUNTAIN,
+					STORMHEIM,
+					VALSHARAH,
+					SURAMAR,
+				},
+			}),
+			q(40152, {	-- Scales for Ske'rit
+				["sourceQuest"] = 40151,	-- Immaculate Stormscale
+				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+				["maps"] = { LEGION_DALARAN },	-- TODO replace with coord
+			}),
+			q(40153, {	-- Return to Karazhan: Scales of Legend
+				["sourceQuest"] = 40152,	-- Scales for Ske'rit
+				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+				["maps"] = { KARAZHAN, 474, THE_OBSIDIAN_SANCTUM },
+			}),
+			q(40154, {	-- Eye of Azshara: The Scales of Serpentrix
+				["sourceQuest"] = 40152,	-- Scales for Ske'rit
+				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+			}),
+			q(40155, {	-- Eye of Azshara: The Scales of Serpentrix
+				["sourceQuests"] = {
+					40153,	-- Return to Karazhan: Scales of Legend
+					40154	-- Eye of Azshara: The Scales of Serpentrix
+				},
+				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+				["groups"] = {
+					r(194166),	-- Stormscale [Rank 3]
+				},
+			}),
+		}),
+		n(103675, {	-- Felhide Gargantuan
+			["description"] = "These mobs are only available during a World Quest. They can only be skinned one time, similarly to the Slice of Bacon cooking quests.",
+			["groups"] = {
+				i(124116),	-- Felhide
+				header(HEADERS.Spell, 194167, {	-- Felhide [Rank 1]
+					q(40156, {	-- Felhide Sample
+						["provider"] = { "i", 129863 },	-- Felhide Sample
+						["maps"] = {
+							AZSUNA,
+							HIGHMOUNTAIN,
+							STORMHEIM,
+							VALSHARAH,
+						},
+						["groups"] = {
+							r(194167),	-- Felhide [Rank 1]
+						},
+					}),
+				}),
+				header(HEADERS.Spell, 194168, {	-- Felhide [Rank 2]
+					q(40157, {	-- An Unseemly Task
+						["sourceQuest"] = 40156,	-- Felhide Sample
+						["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+					}),
+					q(40158, {	-- Darkheart Thicket: Demons Be Different
+						["sourceQuest"] = 40157,	-- An Unseemly Task
+						["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
+						["groups"] = {
+							r(194168),	-- Felhide [Rank 2]
+						},
+					}),
+				}),
+				header(HEADERS.Spell, 194169, {	-- Felhide [Rank 3]
+					q(40159, {	-- The Emerald Nightmare: The Pestilential Hide of Nythendra
+						["sourceQuest"] = 40158,	-- Darkheart Thicket: Demons Be Different
+						["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
+						["groups"] = {
+							r(194169),	-- Felhide [Rank 3]
+						},
+					}),
+				}),
+			},
 		}),
 	})),
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
@@ -778,309 +1084,3 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = HERBA
 		})),--]]
 	})),
 })));
-profession(SKINNING, {
-	-- #if AFTER WOD
-	-- TODO: This is not timelined
-	n(DROPS, {
-		i(111351, {		-- A Guide to Skinning in Draenor
-			["description"] = "This can drop from any Warlords of Draenor mob after skinning it.",
-		}),
-		n(103675, {	-- Felhide Gargantuan
-			["description"] = "These mobs are only available during a World Quest. They can only be skinned one time, similarly to the Slice of Bacon cooking quests.",
-			["groups"] = {
-				i(124116),	-- Felhide
-				header(HEADERS.Item, 124116, {	-- Felhide
-					q(40156, {	-- Felhide Sample
-						["provider"] = { "i", 129863 },	-- Felhide Sample
-						["maps"] = {
-							AZSUNA,
-							HIGHMOUNTAIN,
-							STORMHEIM,
-							VALSHARAH,
-						},
-						["groups"] = {
-							recipe(194167),	-- Felhide [Rank 1]
-						},
-					}),
-					q(40157, {	-- An Unseemly Task
-						["sourceQuest"] = 40156,	-- Felhide Sample
-						["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-					}),
-					q(40158, {	-- Darkheart Thicket: Demons Be Different
-						["sourceQuest"] = 40157,	-- An Unseemly Task
-						["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-						["groups"] = {
-							recipe(194168),	-- Felhide [Rank 2]
-						},
-					}),
-					q(40159, {	-- The Emerald Nightmare: The Pestilential Hide of Nythendra
-						["sourceQuest"] = 40158,	-- Darkheart Thicket: Demons Be Different
-						["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-						["groups"] = {
-							recipe(194169),	-- Felhide [Rank 3]
-						},
-					}),
-				}),
-			},
-		}),
-		i(151566),	-- Fiendish Leather
-		header(HEADERS.Item, 151566, {	-- Fiendish Leather
-			q(48040, {	-- Tainted Scraps
-				["provider"] = { "i", 151866 },	-- Tainted Scraps
-				["maps"] = {
-					ANTORAN_WASTES,
-					KROKUUN,
-					EREDATH,
-				},
-				["groups"] = {
-					recipe(247842),	-- Fiendish Leather [Rank 1]
-				},
-			}),
-			q(48041, {	-- A Larger Cut
-				["sourceQuest"] = 48040,	-- Tainted Scraps
-				["provider"] = { "i", 151867 },	-- Spoiled Fiendish Leather
-				["maps"] = {
-					ANTORAN_WASTES,
-					KROKUUN,
-					EREDATH,
-				},
-				["groups"] = {
-					recipe(247843),	-- Fiendish Leather [Rank 2]
-				},
-			}),
-			q(48042, {	-- Order of Operations
-				["sourceQuest"] = 48041,	-- A Larger Cut
-				["provider"] = { "i", 151868 },	-- Corrupted Tooth
-				["maps"] = {
-					ANTORAN_WASTES,
-					KROKUUN,
-					EREDATH,
-				},
-				["groups"] = {
-					recipe(247844),	-- Fiendish Leather [Rank 3]
-				},
-			}),
-		}),
-		i(124115),	-- Stormscale
-		header(HEADERS.Item, 124115, {	-- Stormscale
-			q(40141, {	-- Stormscale Sample
-				["provider"] = { "i", 129862 },	-- Stormscale Sample
-				["maps"] = {
-					AZSUNA,
-					HIGHMOUNTAIN,
-					STORMHEIM,
-					VALSHARAH,
-					SURAMAR,
-				},
-			}),
-			q(40142, {	-- The Core of the Stormscale
-				["sourceQuest"] = 40141,	-- Stormscale Sample
-				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["groups"] = {
-					recipe(194164),	-- Stormscale [Rank 1]
-				},
-			}),
-			q(40143, {	-- Unfinished Treatise on the Properties of Stormscale
-				["sourceQuest"] = 40142,	-- The Core of the Stormscale
-				["provider"] = { "i", 129865 },	-- Unfinished Treatise on the Properties of Stormscale
-				["maps"] = {
-					AZSUNA,
-					HIGHMOUNTAIN,
-					STORMHEIM,
-					VALSHARAH,
-					SURAMAR,
-				},
-			}),
-			q(40144, {	-- Glielle
-				["sourceQuest"] = 40143,	-- Unfinished Treatise on the Properties of Stormscale
-				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["coord"] = { 35.9, 28.5, LEGION_DALARAN },
-			}),
-			q(40145, {	-- Under Down
-				["sourceQuest"] = 40144,	-- Glielle
-				["qg"] = 98791,	-- Glielle <Skinning Trainer>
-				["coord"] = { 47.0, 45.2, AZSUNA },
-				["groups"] = {
-					recipe(194165),	-- Stormscale [Rank 2]
-				},
-			}),
-			q(40146, {	-- Seymour and Agnes
-				["sourceQuest"] = 40143,	-- Unfinished Treatise on the Properties of Stormscale
-				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["coord"] = { 35.9, 28.5, LEGION_DALARAN },
-			}),
-			q(40147, {	-- Mother's Prized Knife
-				["sourceQuest"] = 40146,	-- Seymour and Agnes
-				["qg"] = 98721,	-- Seymour <Skinning Trainer>
-				["coord"] = { 45.7, 25.6, STORMHEIM },
-				["groups"] = {
-					i(129910),	-- Agnes' Skinning Knife (QI!)
-				},
-			}),
-			q(40148, {	-- Red-Eyed Revenge
-				["sourceQuest"] = 40146,	-- Seymour and Agnes
-				["qg"] = 98721,	-- Seymour <Skinning Trainer>
-				["coord"] = { 45.7, 25.6, STORMHEIM },
-			}),
-			q(40149, {	-- Drakol'nir Must Die
-				["sourceQuests"] = {
-					40147,	-- Mother's Prized Knife
-					40148	-- Seymour and Agnes
-				},
-				["qg"] = 98721,	-- Seymour <Skinning Trainer>
-				["coord"] = { 45.7, 25.6, STORMHEIM },
-				["groups"] = {
-					i(130102),	-- Mother's Skinning Knife (TOY!)
-				},
-			}),
-			q(40151, {	-- Immaculate Stormscale
-				["sourceQuest"] = 40145,	-- Under Down
-				["provider"] = { "i", 129867 },	-- Immaculate Stormscale
-				["maps"] = {
-					AZSUNA,
-					HIGHMOUNTAIN,
-					STORMHEIM,
-					VALSHARAH,
-					SURAMAR,
-				},
-			}),
-			q(40152, {	-- Scales for Ske'rit
-				["sourceQuest"] = 40151,	-- Immaculate Stormscale
-				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["maps"] = { LEGION_DALARAN },	-- TODO replace with coord
-			}),
-			q(40153, {	-- Return to Karazhan: Scales of Legend
-				["sourceQuest"] = 40152,	-- Scales for Ske'rit
-				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-				["maps"] = { KARAZHAN, 474, THE_OBSIDIAN_SANCTUM },
-			}),
-			q(40154, {	-- Eye of Azshara: The Scales of Serpentrix
-				["sourceQuest"] = 40152,	-- Scales for Ske'rit
-				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-			}),
-			q(40155, {	-- Eye of Azshara: The Scales of Serpentrix
-				["sourceQuests"] = {
-					40153,	-- Return to Karazhan: Scales of Legend
-					40154	-- Eye of Azshara: The Scales of Serpentrix
-				},
-				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-				["groups"] = {
-					recipe(194166),	-- Stormscale [Rank 3]
-				},
-			}),
-		}),
-		i(124113),	-- Stonehide Leather
-		header(HEADERS.Item, 124113, {	-- Stonehide Leather
-			q(40131, {	-- Stonehide Leather Sample
-				["provider"] = { "i", 129860 },	-- Stonehide Leather Sample
-				["maps"] = {
-					AZSUNA,
-					HIGHMOUNTAIN,
-					STORMHEIM,
-					VALSHARAH,
-					SURAMAR,
-				},
-			}),
-			q(40132, {	-- In One Piece
-				["sourceQuest"] = 40131,	-- Stonehide Leather Sample
-				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["coord"] = { 35.9, 28.6, LEGION_DALARAN },
-				["groups"] = {
-					recipe(194161),	-- Stonehide Leather [Rank 1]
-				},
-			}),
-			q(40133, {	-- Scrap of Pants
-				["sourceQuest"] = 40132,	-- In One Piece
-				["provider"] = { "i", 129864 },	-- Scrap of Pants
-				["maps"] = {
-					AZSUNA,
-					HIGHMOUNTAIN,
-					STORMHEIM,
-					VALSHARAH,
-					SURAMAR,
-				},
-			}),
-			q(40134, {	-- Highmountain Hides
-				["sourceQuest"] = 40133,	-- Scrap of Pants
-				["qg"] = 94409,	-- Hemet Nesingwary <Hemet's Hunting Party>
-				["groups"] = {
-					i(129900),	-- Bear Hide (QI!)
-					i(129901),	-- Elderhorn Hide (QI!)
-					i(129903),	-- Saber Hide (QI!)
-					i(130064),	-- Deadeye Monocle
-				},
-			}),
-			q(40135, {	-- The Freedom to Roam
-				["sourceQuest"] = 40133,	-- Scrap of Pants
-				["qg"] = 94409,	-- Hemet Nesingwary <Hemet's Hunting Party>
-				["groups"] = {
-					recipe(194162),	-- Stonehide Leather [Rank 2]
-				},
-			}),
-			q(40136, {	-- Immaculate Stonehide Leather
-				["sourceQuest"] = 40135,	-- In One Piece
-				["provider"] = { "i", 129866 },	-- Immaculate Stonehide Leather
-				["maps"] = {
-					AZSUNA,
-					HIGHMOUNTAIN,
-					STORMHEIM,
-					VALSHARAH,
-					SURAMAR,
-				},
-			}),
-			q(40137, {	-- Leather for Ske'rit
-				["sourceQuest"] = 40136,	-- Immaculate Stonehide Leather
-				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["maps"] = { SURAMAR },
-			}),
-			q(40138, {	-- Trial of the Crusader: Hides of Legend
-				["sourceQuest"] = 40137,	-- Leather for Ske'rit
-				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-			}),
-			q(40139, {	-- Halls of Valor: The Hide of Fenryr
-				["sourceQuest"] = 40137,	-- Leather for Ske'rit
-				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-			}),
-			q(40140, {	-- Ske'rit's Leather Handbook
-				["sourceQuests"] = {
-					40138,	-- Trial of the Crusader: Hides of Legend
-					40139	-- Halls of Valor: The Hide of Fenryr
-				},
-				["qg"] = 98720,	-- Ske'rit <Skinning Trainer>
-				["groups"] = {
-					recipe(194163),	-- Stonehide Leather [Rank 3]
-				},
-			}),
-		}),
-	}),
-	filter(BATTLE_PETS, {
-		i(153057, {	-- Fossorial Bile Larva (PET!)
-			["description"] = "This can be obtained from any skinnable Argus mob.",
-			["timeline"] = { ADDED_7_3_0 },
-		}),
-	}),
-	filter(TOYS, {
-		i(130102),	-- Mother's Skinning Knife (TOY!)
-	}),
-	filter(RECIPES, {
-		expansion(EXPANSION.LEGION, {
-			recipe(194167),	-- Felhide [Rank 1]
-			recipe(194168),	-- Felhide [Rank 2]
-			recipe(194169),	-- Felhide [Rank 3]
-			recipe(247842),	-- Fiendish Leather [Rank 1]
-			recipe(247843),	-- Fiendish Leather [Rank 2]
-			recipe(247844),	-- Fiendish Leather [Rank 3]
-			recipe(194173),	-- Legion Butchery
-			recipe(194203),	-- Legion Gutting
-			recipe(194161),	-- Stonehide Leather [Rank 1]
-			recipe(194162),	-- Stonehide Leather [Rank 2]
-			recipe(194163),	-- Stonehide Leather [Rank 3]
-			recipe(194164),	-- Stormscale [Rank 1]
-			recipe(194165),	-- Stormscale [Rank 2]
-			recipe(194166),	-- Stormscale [Rank 3]
-			recipe(194171),	-- Unbroken Claw
-			recipe(194170),	-- Unbroken Tooth
-		}),
-	}),
-	-- #endif
-});

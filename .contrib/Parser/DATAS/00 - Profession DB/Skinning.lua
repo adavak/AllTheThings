@@ -58,26 +58,26 @@ i(0, 158756);	-- Skinning (Draenor Master) [REMOVED: 8.0.1]
 --- TRAINER ---
 i(0, 195125);	-- Skinning (Legion) [REMOVED: 8.0.1]
 i(0, 194174);	-- Skinning Journal
+--- QUEST ---
+i(0, 194167);	-- Felhide [Rank 1]
+i(0, 194168);	-- Felhide [Rank 2]
+i(0, 194169);	-- Felhide [Rank 3]
+i(0, 247842);	-- Fiendish Leather [Rank 1]
+i(0, 247843);	-- Fiendish Leather [Rank 2]
+i(0, 247844);	-- Fiendish Leather [Rank 3]
+i(0, 194161);	-- Stonehide Leather [Rank 1]
+i(0, 194162);	-- Stonehide Leather [Rank 2]
+i(0, 194163);	-- Stonehide Leather [Rank 3]
+i(0, 194164);	-- Stormscale [Rank 1]
+i(0, 194165);	-- Stormscale [Rank 2]
+i(0, 194166);	-- Stormscale [Rank 3]
+--- ITEM ---
+i(139895, 194173);	-- Skinning Technique: Legion Butchery
+i(139896, 194203);	-- Skinning Technique: Legion Gutting
+i(139894, 194171);	-- Skinning Technique: Unbroken Claw
+i(139893, 194170);	-- Skinning Technique: Unbroken Tooth
 --- NYI ---
 i(0, 205243);	-- Skinning
-
--- TODO:
-i(139893, 194170);	-- Skinning Technique: Unbroken Tooth (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(139894, 194171);	-- Skinning Technique: Unbroken Claw (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(139895, 194173);	-- Skinning Technique: Legion Butchery
-i(139896, 194203);	-- Skinning Technique: Legion Gutting (Guessed via Duplicate SpellID Match with Sourced RecipeID)
---i(?, 194161),	-- Stonehide Leather
---i(?, 194162),	-- Stonehide Leather
---i(?, 194163),	-- Stonehide Leather
---i(?, 194164),	-- Stormscale
---i(?, 194165),	-- Stormscale
---i(?, 194166),	-- Stormscale
---i(?, 194167),	-- Felhide
---i(?, 194168),	-- Felhide
---i(?, 194169),	-- Felhide
---i(?, 247842),	-- Fiendish Leather
---i(?, 247843),	-- Fiendish Leather
---i(?, 247844),	-- Fiendish Leather
 
 -----------------
 -- PATCH 8.0.1 --
@@ -95,7 +95,7 @@ i(0, 265871);	-- Skinning (Zandalari)
 i(0, 257152);	-- Bone Gathering [Rank 1]
 i(0, 257146);	-- Leather Gathering [Rank 1]
 i(0, 257149);	-- Scale Gathering [Rank 1]
---- QUESTS ---
+--- QUEST ---
 i(0, 257153);	-- Bone Gathering [Rank 2]
 i(0, 257154);	-- Bone Gathering [Rank 3]
 i(0, 257147);	-- Leather Gathering [Rank 2]
@@ -112,7 +112,7 @@ i(0, 302007);	-- Dredged Leather [Rank 1]
 --- ITEM ---
 i(170066, 302010);	-- Dredged Leather [Rank 2]
 i(170067, 302015);	-- Cragscale [Rank 2]
---- QUESTS ---
+--- QUEST ---
 i(0, 302016);	-- Cragscale [Rank 3]
 i(0, 302011);	-- Dredged Leather [Rank 3]
 

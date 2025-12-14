@@ -152,7 +152,7 @@ root(ROOTS.Zones, {
 								i(139425, {	-- Imp-Binding Contract
 									["cost"] = { { "c", 1149, 225 }, },		-- 225x Sightless Eye
 								}),
-								i(139896, {	-- Skinning Technique: Legion Gutting
+								i(139896, {	-- Skinning Technique: Legion Gutting (RECIPE!)
 									["cost"] = { { "c", 1149, 250 }, },		-- 250x Sightless Eye
 								}),
 								i(141066, {	-- Technique: Grimoire of the Voidlord (RECIPE!)
