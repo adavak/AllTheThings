@@ -30,7 +30,7 @@ root(ROOTS.NeverImplemented, {
 		prof(ENCHANTING),												-- Completed up to 11.2.5
 		prof(ENGINEERING),												-- Completed up to 11.2.5
 		prof(FIRST_AID),												-- Completed up to 11.2.5
-		prof(FISHING),													-- Completed up to 10.2.5
+		prof(FISHING),													-- Completed up to 11.2.5
 		prof(HERBALISM),												-- Completed up to 11.2.5
 		prof(INSCRIPTION, {["timeline"] = {CREATED_3_0_2}}),			-- Not Completed and Not Sorted
 		prof(JEWELCRAFTING),											-- Not Completed and Not Sorted

@@ -815,6 +815,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			--]]
 		}),
 	}),
+	prof(SKINNING, {
+		n(DISCOVERY, {
+			r(195125, {	-- Skinning (Legion)
+				["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
+				["collectible"] = false,
+			}),
+			r(194174),	-- Skinning Journal
+			applyclassicphase(BFA_PHASE_ONE, r(265867, {["timeline"] = {ADDED_8_0_1}})),	-- Skinning (Legion)
+		}),
+	}),
 	prof(TAILORING, {
 		n(ARMOR, {
 			i(146666, {["timeline"] = {ADDED_7_2_0}}),	-- Celumbra, the Night's Dichotomy

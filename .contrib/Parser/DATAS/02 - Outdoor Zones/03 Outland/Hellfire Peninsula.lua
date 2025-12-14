@@ -413,6 +413,18 @@ root(ROOTS.Zones, {
 							["groups"] = TBC_MINING,
 						}),
 					}),
+					prof(SKINNING, {
+						n(18777, {	-- Jelena Nightsky <Master Skinning Trainer> (Alliance)
+							["races"] = ALLIANCE_ONLY,
+							["coord"] = { 54.6, 63.2, HELLFIRE_PENINSULA },
+							["groups"] = TBC_SKINNING,
+						}),
+						n(18755, {	-- Moorutu <Master Skinning Trainer> (Horde)
+							["races"] = HORDE_ONLY,
+							["coord"] = { 56.2, 38.6, HELLFIRE_PENINSULA },
+							["groups"] = TBC_SKINNING,
+						}),
+					}),
 					prof(TAILORING, {
 						n(18772, {	-- Hama <Tailoring Trainer> (Alliance)
 							["races"] = ALLIANCE_ONLY,

@@ -279,13 +279,6 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = MOP_FIRST_AID,
 					}),
-					prof(HERBALISM, {
-						n(66980, {	-- Grower Miao <Herbalism Trainer>
-							["races"] = HORDE_ONLY,
-							["coord"] = { 27.8, 15.6, THE_JADE_FOREST },
-							["groups"] = MOP_HERBALISM,
-						}),
-					}),
 					prof(INSCRIPTION, {
 						n(56065, {	-- Inkmaster Wei <Inscription Trainer>
 							["coord"] = { 54.8, 45.0, THE_JADE_FOREST },
@@ -428,6 +421,17 @@ root(ROOTS.Zones, {
 							["coord"] = { 46.0, 29.4, THE_JADE_FOREST },
 							["groups"] = MOP_MINING,
 						}),
+					}),
+					prof(SKINNING, {
+						["aqd"] = {
+							["cr"] = 67026,	-- Hao of the Stag's Horns <Skinning Trainer> (A)
+							["coord"] = { 44.8, 85.6, THE_JADE_FOREST },
+						},
+						["hqd"] = {
+							["cr"] = 66981,	-- Trapper Ri <Skinning Trainer> (H)
+							["coord"] = { 27.8, 15.4, THE_JADE_FOREST },
+						},
+						["groups"] = MOP_SKINNING,
 					}),
 				}),
 				n(QUESTS, {

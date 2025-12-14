@@ -4,7 +4,7 @@
 local DF_SKINNING_KNOWLEDGE = 2033;
 local TWW_SKINNING_KNOWLEDGE = 2794;
 -- Skinning - Skill ID 393 / Spell ID 8613
-root(ROOTS.Professions, prof(SKINNING, {
+root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = HERBALISM }, {
 	n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		ach(18834, {	-- Broken Isles Skinning Techniques
 			crit(61485, {	-- Felhide
@@ -33,218 +33,377 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["provider"] = { "i", 139893 },	-- Skinning Technique: Unbroken Tooth
 			}),
 		}),
-		ach(18831, sharedData({	-- Elusive Beasts of the Dragon Isles (15)
-			["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
-		},{
-			crit(61435, {	-- Elusive Salamanther
-				["crs"] = { 193854 },	-- Elusive Salamanther
-			}),
-			crit(61437, {	-- Elusive Vorquin
-				["crs"] = { 193855 },	-- Elusive Vorquin
-			}),
-			crit(61438, {	-- Elusive Proto Dragon
-				["crs"] = { 193857 },	-- Elusive Proto Dragon
-			}),
-			crit(61439, {	-- Elusive Thunder Lizard
-				["crs"] = { 193859 },	-- Elusive Thunder Lizard
-			}),
-			crit(61440, {	-- Elusive Lava Phoenix
-				["crs"] = { 193860 },	-- Elusive Lava Phoenix
-			}),
-			crit(61441, {	-- Elusive Magmammoth
-				["crs"] = { 193861 },	-- Elusive Magmammoth
-			}),
-			crit(61442, {	-- Elusive Fiery Dreadsquall
-				["crs"] = { 193862 },	-- Elusive Fiery Dreadsquall
-			}),
-			crit(61443, {	-- Elusive Snapdragon
-				["crs"] = { 193873 },	-- Elusive Snapdragon
-			}),
-			crit(61443, {	-- Elusive Rockfang
-				["crs"] = { 193881 },	-- Elusive Rockfang
-			}),
-			crit(61445, {	-- Elusive Feral Bakar
-				["crs"] = { 193882 },	-- Elusive Feral Bakar
-			}),
-			crit(61447, {	-- Elusive Hornstrider
-				["crs"] = { 193884 },	-- Elusive Hornstrider
-			}),
-			crit(61448, {	-- Elusive Crystalspine
-				["crs"] = { 193891 },	-- Elusive Crystalspine
-			}),
-			crit(61449, {	-- Elusive Bull
-				["crs"] = { 193892 },	-- Elusive Bull
-			}),
-			crit(61450, {	-- Elusive Stonegazer
-				["crs"] = { 193893 },	-- Elusive Stonegazer
-			}),
-			crit(61451, {	-- Elusive Ottuk
-				["crs"] = { 193894 },	-- Elusive Ottuk
-			}),
-			crit(61452, {	-- Elusive Slyvern
-				["crs"] = { 193986 },	-- Elusive Slyvern
-			}),
-			crit(61453, {	-- Elusive Magmammoth Bull
-				["crs"] = { 194060 },	-- Elusive Magmammoth Bull
-			}),
-			crit(61454, {	-- Elusive Prime Salamanther
-				["crs"] = { 194062 },	-- Elusive Prime Salamanther
-			}),
-			crit(61455, {	-- Elusive Prime Proto Dragon
-				["crs"] = { 194063 },	-- Elusive Prime Proto Dragon
-			}),
-			crit(61456, {	-- Elusive Storm Lizard
-				["crs"] = { 194082 },	-- Elusive Storm Lizard
-			}),
-			crit(61457, {	-- Elusive Elder Rockfang
-				["crs"] = { 194085 },	-- Elusive Elder Rockfang
-			}),
-			crit(61458, {	-- Elusive Elder Slyvern
-				["crs"] = { 194102 },	-- Elusive Elder Slyvern
-			}),
-			crit(61459, {	-- Elusive Rimeclaw Bear
-				["crs"] = { 194103 },	-- Elusive Rimeclaw Bear
-			}),
-			crit(61460, {	-- Elusive Elder Armoredon
-				["crs"] = { 194105 },	-- Elusive Elder Armoredon
-			}),
-			crit(61461, {	-- Elusive Argali
-				["crs"] = { 202506 },	-- Elusive Argali
-			}),
-			crit(61462, {	-- Elusive Elder Argali
-				["crs"] = { 202510 },	-- Elusive Elder Argali
-			}),
-			crit(61463, {	-- Elusive Deepflayer
-				["crs"] = { 204819 },	-- Elusive Deepflayer
-			}),
-			crit(61464, {	-- Elusive Stoneclaw
-				["crs"] = { 204820 },	-- Elusive Stoneclaw
-			}),
-			crit(61465, {	-- Elusive Viper (Lava)
-				["crs"] = { 204825 },	-- Elusive Viper (Lava)
-			}),
-			crit(61466, {	-- Elusive Lavafang
-				["crs"] = { 204828 },	-- Elusive Lavafang
-			}),
-			crit(61467, {	-- Elusive Deepstrider
-				["crs"] = { 204833 },	-- Elusive Deepstrider
-			}),
-			crit(61468, {	-- Elusive Colossal Deepstrider
-				["crs"] = { 204834 },	-- Elusive Colossal Deepstrider
-			}),
-			crit(61469, {	-- Elusive Viper (Rock)
-				["crs"] = { 204837 },	-- Elusive Viper (Rock)
-			}),
-			crit(61470, {	-- Elusive Shalefang
-				["crs"] = { 204839 },	-- Elusive Shalefang
-			}),
-			crit(61471, {	-- Elusive Sulfurstrider
-				["crs"] = { 204840 },	-- Elusive Sulfurstrider
-			}),
-			crit(61472, {	-- Elusive Colossal Sulfurstrider
-				["crs"] = { 204841 },	-- Elusive Colossal Sulfurstrider
+	})),
+	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+			ach(18835, {	-- Fourth War Skinning Techniques
+				crit(61493, {	-- Cragscale
+					["sourceQuests"] = {
+						56565,	-- Hanging by a Thread [A]
+						56566 ,	-- Hanging by a Thread [H]
+					},
+					["sourceQuestNumRequired"] = 1,
+				}),
+				crit(61494, {	-- Dredged Leather
+					["sourceQuests"] = {
+						56562,	-- The Problem with Shrinkage [A]
+						56563 ,	-- The Problem with Shrinkage [H]
+					},
+					["sourceQuestNumRequired"] = 1,
+				}),
+				crit(61495, {	-- Bone Gathering
+					["sourceQuests"] = { 52228 },	-- Atal'Dazar: An Unbreakable Bone Needle
+				}),
+				crit(61496, {	-- Leather Gathering
+					["sourceQuests"] = { 52224 },	-- Ivory Handled Dagger
+				}),
+				crit(61497, {	-- Scale Gathering
+					["sourceQuests"] = { 52226 },	-- Turtle Soup
+				}),
 			}),
 		})),
-		achpart(18832, 18833),	-- Elusive Legend of the Dragon Isles (1)
-		ach(18833, sharedData({	-- Elusive Legends of the Dragon Isles
-			["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
-		},{
-			crit(61473, {	-- Elusive Elder Drake
-				["crs"] = { 194489 },	-- Elusive Elder Drake
-				["coord"] = { 23.2, 33.8, THE_AZURE_SPAN },
+		header(HEADERS.Spell, 257153, {	-- Bone Gathering [Rank 2]
+			q(52227, {	-- Bone Needle
+				["description"] = "Requires 50 Kul Tiran Skinning.",
+				["provider"] = { "n", 136061 },	-- Camilla Darksky
+				["coord"] = { 75.8, 13.1, BORALUS },
+				["requireSkill"] = SKINNING,
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(257153),	-- Bone Gathering [Rank 2]
+					i(161427),	-- Immaculate Quill (QI!)
+				},
 			}),
-			crit(61474, {	-- Elusive Elder Frigidpelt
-				["crs"] = { 194491 },	-- Elusive Elder Frigidpelt
-				["coord"] = { 64.7, 30.7, THE_AZURE_SPAN },
+			q(52216, {	-- Hexoskeleton
+				["description"] = "Requires 50 Zandalari Skinning",
+				["provider"] = { "n", 122699 },	-- Rana the Cutta
+				["coord"] = { 43.8, 34.7, DAZARALOR },
+				["requireSkill"] = SKINNING,
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(257153),	-- Bone Gathering [Rank 2]
+					i(161434),	-- Unbroken Makrura Carapace (QI!)
+				},
 			}),
-			crit(61475, {	-- Elusive Tempest Lizard
-				["crs"] = { 195465 },	-- Elusive Tempest Lizard
-				["coord"] = { 55.0, 55.2, OHNAHRAN_PLAINS },
+		}),
+		header(HEADERS.Spell, 257154, {	-- Bone Gathering [Rank 3]
+			q(52228, {	-- Atal'Dazar: An Unbreakable Bone Needle
+				["description"] = "Requires 150 Kul Tiran Skinning.",
+				["provider"] = { "n", 136061 },	-- Camilla Darksky
+				["coord"] = { 75.8, 13.1, BORALUS },
+				["requireSkill"] = SKINNING,
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(257154),	-- Bone Gathering [Rank 3]
+					i(161429),	-- Rezan's Bone Splinter (QI!)
+				},
 			}),
-			crit(61476, {	-- Elusive Ferocious Titanfang
-				["crs"] = { 195472 },	-- Elusive Ferocious Titanfang
-				["coord"] = { 48.2, 50.7, THALDRASZUS },
+			q(52217, {	-- Loa Fit For A King
+				["description"] = "Requires 150 Zandalari Skinning",
+				["sourceQuest"] = 52216,	-- Hexoskeleton
+				["provider"] = { "n", 122699 },	-- Rana the Cutta
+				["coord"] = { 43.8, 34.7, DAZARALOR },
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(257154),	-- Bone Gathering [Rank 3]
+					i(161435),	-- Rezan's Bone Splinter (QI!)
+				},
 			}),
-			crit(61477, {	-- Elusive Deepwater Salamanther
-				["crs"] = { 195492 },	-- Elusive Deepwater Salamanther
-				["coord"] = { 54.7, 58.8, THE_WAKING_SHORES },
+		}),
+		header(HEADERS.Spell, 302016, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {	-- Cragscale [Rank 3]
+			q(56565, {	-- Hanging by a Thread [A]
+				["provider"] = { "i", 169767 },	-- Deteriorating Cragscales
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(302016),	-- Cragscale [Rank 3]
+				},
 			}),
-			crit(61478, {	-- Elusive Proto Skyterror
-				["crs"] = { 195509 },	-- Elusive Proto Skyterror
-				["coord"] = { 44.8, 78.2, THE_WAKING_SHORES },
-			}),
-			crit(61479, {	-- Elusive Cliffdweller Vorquin
-				["crs"] = { 195518 },	-- Elusive Cliffdweller Vorquin
-				["coord"] = { 56.2, 70.6, THALDRASZUS },
-			}),
-			crit(61480, {	-- Elusive Flourishing Quillbloom
-				["crs"] = { 195541 },	-- Elusive Flourishing Quillbloom
-				["coord"] = { 24.7, 58.7, OHNAHRAN_PLAINS },
-			}),
-			crit(61481, {	-- Elusive Frenzied Amberfur
-				["crs"] = { 202436 },	-- Elusive Frenzied Amberfur
-				["coord"] = { 40.8, 60.7, THE_FORBIDDEN_REACH },
-			}),
-			crit(61482, {	-- Elusive Auric Argali
-				["crs"] = { 202441 },	-- Elusive Auric Argali
-				["coord"] = { 44.7, 40.0, THE_FORBIDDEN_REACH },
-			}),
-			crit(61483, {	-- Elusive Crystalscale Stonecleaver
-				["crs"] = { 204821 },	-- Elusive Crystalscale Stonecleaver
-				["coord"] = { 59.6, 39.5, ZARALEK_CAVERN },
-			}),
-			crit(61484, {	-- Elusive Magma Cobra
-				["crs"] = { 204831 },	-- Elusive Magma Cobra
-				["coord"] = { 43.8, 48.0, ZARALEK_CAVERN },
+			q(56566, {	-- Hanging by a Thread [H]
+				["provider"] = { "i", 169779 },	-- Deteriorating Cragscales
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(302016),	-- Cragscale [Rank 3]
+				},
 			}),
 		})),
-		ach(18835, {	-- Fourth War Skinning Techniques
-			crit(61493, {	-- Cragscale
-				["sourceQuests"] = {
-					56565,	-- Hanging by a Thread [A]
-					56566 ,	-- Hanging by a Thread [H]
+		header(HEADERS.Spell, 302011, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {	-- Dredged Leather [Rank 3]
+			q(56562, {	-- The Problem with Shrinkage [A]
+				["provider"] = { "i", 169775 },	-- Shriveled Leather Hide
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(302011),	-- Dredged Leather [Rank 3]
 				},
-				["sourceQuestNumRequired"] = 1,
 			}),
-			crit(61494, {	-- Dredged Leather
-				["sourceQuests"] = {
-					56562,	-- The Problem with Shrinkage [A]
-					56563 ,	-- The Problem with Shrinkage [H]
+			q(56563, {	-- The Problem with Shrinkage [H]
+				["provider"] = { "i", 169772 },	-- Shriveled Leather Hide
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(302011),	-- Dredged Leather [Rank 3]
 				},
-				["sourceQuestNumRequired"] = 1,
 			}),
-			crit(61495, {	-- Bone Gathering
-				["sourceQuests"] = { 52228 },	-- Atal'Dazar: An Unbreakable Bone Needle
+		})),
+		header(HEADERS.Spell, 257147, {	-- Leather Gathering [Rank 2]
+			q(52223, {	-- Brinepinch
+				["description"] = "Requires 50 Kul Tiran Skinning.",
+				["provider"] = { "n", 136061 },	-- Camilla Darksky
+				["coord"] = { 75.8, 13.1, BORALUS },
+				["requireSkill"] = SKINNING,
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(257147),	-- Leather Gathering [Rank 2]
+					i(161423),	-- Brinepinch's "Head" (QI!)
+				},
 			}),
-			crit(61496, {	-- Leather Gathering
-				["sourceQuests"] = { 52224 },	-- Ivory Handled Dagger
+			q(51575, {	-- Lost But Not Forgotten
+				["description"] = "Requires 50 Zandalari Skinning",
+				["provider"] = { "n", 122699 },	-- Rana the Cutta
+				["coord"] = { 43.8, 34.7, DAZARALOR },
+				["requireSkill"] = SKINNING,
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(257147),	-- Leather Gathering [Rank 2]
+					i(161430),	-- Rana's 'Ancient Artifact' (QI!)
+				},
 			}),
-			crit(61497, {	-- Scale Gathering
-				["sourceQuests"] = { 52226 },	-- Turtle Soup
+		}),
+		header(HEADERS.Spell, 257148, {	-- Leather Gathering [Rank 3]
+			q(52213, {	-- Ancient Skinning Knife
+				["description"] = "Requires 150 Zandalari Skinning to get the item.",
+				["sourceQuest"] = 51575,	-- Lost But Not Forgotten
+				["provider"] = { "i", 161431 },	-- Ancient Skinning Knife
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(257148),	-- Leather Gathering [Rank 3]
+				},
+			}),
+			q(52224, {	-- Ivory Handled Dagger
+				["description"] = "Requires 150 Kul Tiran Skinning to get the item.",
+				["sourceQuest"] = 52223,	-- Brinepinch
+				["provider"] = { "i", 161424 },	-- Ivory Handled Dagger
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(257148),	-- Leather Gathering [Rank 3]
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 257150, {	-- Scale Gathering [Rank 2]
+			q(52225, {	-- In Pursuit of Fashion
+				["description"] = "Requires 50 Kul Tiran Skinning.",
+				["provider"] = { "n", 136061 },	-- Camilla Darksky
+				["coord"] = { 75.8, 13.1, BORALUS },
+				["requireSkill"] = SKINNING,
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(257150),	-- Scale Gathering [Rank 2]
+					i(161425),	-- Pristine Saurlisk Skin (QI!)
+				},
+			}),
+			q(52214, {	-- Ceremonial Vestments
+				["description"] = "Requires 50 Zandalari Skinning",
+				["provider"] = { "n", 122699 },	-- Rana the Cutta
+				["coord"] = { 43.8, 34.7, DAZARALOR },
+				["requireSkill"] = SKINNING,
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(257150),	-- Scale Gathering [Rank 2]
+					i(161432),	-- Pristine Crocolisk Skin (QI!)
+				},
+			}),
+		}),
+		header(HEADERS.Spell, 257151, {	-- Scale Gathering [Rank 3]
+			q(52226, {	-- Turtle Soup
+				["description"] = "Requires 150 Kul Tiran Skinning.",
+				["provider"] = { "n", 136061 },	-- Camilla Darksky
+				["coord"] = { 75.8, 13.1, BORALUS },
+				["requireSkill"] = SKINNING,
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					r(257151),	-- Scale Gathering [Rank 3]
+					i(161426),	-- Sulphur Speckled Turtle Skin (QI!)
+				},
+			}),
+			q(52215, {	-- A Thicker Thread
+				["description"] = "Requires 150 Zandalari Skinning",
+				["sourceQuest"] = 52214,	-- Ceremonial Vestments
+				["provider"] = { "n", 122699 },	-- Rana the Cutta
+				["coord"] = { 43.8, 34.7, DAZARALOR },
+				["requireSkill"] = SKINNING,
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					r(257151),	-- Scale Gathering [Rank 3]
+					i(161433),	-- Thick Webbing (QI!)
+				},
 			}),
 		}),
 	})),
-	q(52213, {	-- Ancient Skinning Knife
-		["description"] = "Requires 150 Zandalari Skinning to get the item.",
-		["sourceQuest"] = 51575,	-- Lost But Not Forgotten
-		["provider"] = { "i", 161431 },	-- Ancient Skinning Knife
-		["timeline"] = { ADDED_8_0_1 },
-		["races"] = HORDE_ONLY,
-		["groups"] = {
-			recipe(257148),	-- Skinning Technique: Leather Gathering (Rank 3)
-		},
-	}),
-	q(52224, {	-- Ivory Handled Dagger
-		["description"] = "Requires 150 Kul Tiran Skinning to get the item.",
-		["sourceQuest"] = 52223,	-- Brinepinch
-		["provider"] = { "i", 161424 },	-- Ivory Handled Dagger
-		["timeline"] = { ADDED_8_0_1 },
-		["races"] = ALLIANCE_ONLY,
-		["groups"] = {
-			recipe(257148),	-- Skinning Technique: Leather Gathering (Rank 3)
-		},
-	}),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2 }, ["requireSkill"] = SKINNING }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+			ach(18831, sharedData({	-- Elusive Beasts of the Dragon Isles (15)
+				["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
+			},{
+				crit(61435, {	-- Elusive Salamanther
+					["crs"] = { 193854 },	-- Elusive Salamanther
+				}),
+				crit(61437, {	-- Elusive Vorquin
+					["crs"] = { 193855 },	-- Elusive Vorquin
+				}),
+				crit(61438, {	-- Elusive Proto Dragon
+					["crs"] = { 193857 },	-- Elusive Proto Dragon
+				}),
+				crit(61439, {	-- Elusive Thunder Lizard
+					["crs"] = { 193859 },	-- Elusive Thunder Lizard
+				}),
+				crit(61440, {	-- Elusive Lava Phoenix
+					["crs"] = { 193860 },	-- Elusive Lava Phoenix
+				}),
+				crit(61441, {	-- Elusive Magmammoth
+					["crs"] = { 193861 },	-- Elusive Magmammoth
+				}),
+				crit(61442, {	-- Elusive Fiery Dreadsquall
+					["crs"] = { 193862 },	-- Elusive Fiery Dreadsquall
+				}),
+				crit(61443, {	-- Elusive Snapdragon
+					["crs"] = { 193873 },	-- Elusive Snapdragon
+				}),
+				crit(61443, {	-- Elusive Rockfang
+					["crs"] = { 193881 },	-- Elusive Rockfang
+				}),
+				crit(61445, {	-- Elusive Feral Bakar
+					["crs"] = { 193882 },	-- Elusive Feral Bakar
+				}),
+				crit(61447, {	-- Elusive Hornstrider
+					["crs"] = { 193884 },	-- Elusive Hornstrider
+				}),
+				crit(61448, {	-- Elusive Crystalspine
+					["crs"] = { 193891 },	-- Elusive Crystalspine
+				}),
+				crit(61449, {	-- Elusive Bull
+					["crs"] = { 193892 },	-- Elusive Bull
+				}),
+				crit(61450, {	-- Elusive Stonegazer
+					["crs"] = { 193893 },	-- Elusive Stonegazer
+				}),
+				crit(61451, {	-- Elusive Ottuk
+					["crs"] = { 193894 },	-- Elusive Ottuk
+				}),
+				crit(61452, {	-- Elusive Slyvern
+					["crs"] = { 193986 },	-- Elusive Slyvern
+				}),
+				crit(61453, {	-- Elusive Magmammoth Bull
+					["crs"] = { 194060 },	-- Elusive Magmammoth Bull
+				}),
+				crit(61454, {	-- Elusive Prime Salamanther
+					["crs"] = { 194062 },	-- Elusive Prime Salamanther
+				}),
+				crit(61455, {	-- Elusive Prime Proto Dragon
+					["crs"] = { 194063 },	-- Elusive Prime Proto Dragon
+				}),
+				crit(61456, {	-- Elusive Storm Lizard
+					["crs"] = { 194082 },	-- Elusive Storm Lizard
+				}),
+				crit(61457, {	-- Elusive Elder Rockfang
+					["crs"] = { 194085 },	-- Elusive Elder Rockfang
+				}),
+				crit(61458, {	-- Elusive Elder Slyvern
+					["crs"] = { 194102 },	-- Elusive Elder Slyvern
+				}),
+				crit(61459, {	-- Elusive Rimeclaw Bear
+					["crs"] = { 194103 },	-- Elusive Rimeclaw Bear
+				}),
+				crit(61460, {	-- Elusive Elder Armoredon
+					["crs"] = { 194105 },	-- Elusive Elder Armoredon
+				}),
+				crit(61461, {	-- Elusive Argali
+					["crs"] = { 202506 },	-- Elusive Argali
+				}),
+				crit(61462, {	-- Elusive Elder Argali
+					["crs"] = { 202510 },	-- Elusive Elder Argali
+				}),
+				crit(61463, {	-- Elusive Deepflayer
+					["crs"] = { 204819 },	-- Elusive Deepflayer
+				}),
+				crit(61464, {	-- Elusive Stoneclaw
+					["crs"] = { 204820 },	-- Elusive Stoneclaw
+				}),
+				crit(61465, {	-- Elusive Viper (Lava)
+					["crs"] = { 204825 },	-- Elusive Viper (Lava)
+				}),
+				crit(61466, {	-- Elusive Lavafang
+					["crs"] = { 204828 },	-- Elusive Lavafang
+				}),
+				crit(61467, {	-- Elusive Deepstrider
+					["crs"] = { 204833 },	-- Elusive Deepstrider
+				}),
+				crit(61468, {	-- Elusive Colossal Deepstrider
+					["crs"] = { 204834 },	-- Elusive Colossal Deepstrider
+				}),
+				crit(61469, {	-- Elusive Viper (Rock)
+					["crs"] = { 204837 },	-- Elusive Viper (Rock)
+				}),
+				crit(61470, {	-- Elusive Shalefang
+					["crs"] = { 204839 },	-- Elusive Shalefang
+				}),
+				crit(61471, {	-- Elusive Sulfurstrider
+					["crs"] = { 204840 },	-- Elusive Sulfurstrider
+				}),
+				crit(61472, {	-- Elusive Colossal Sulfurstrider
+					["crs"] = { 204841 },	-- Elusive Colossal Sulfurstrider
+				}),
+			})),
+			achpart(18832, 18833),	-- Elusive Legend of the Dragon Isles (1)
+			ach(18833, sharedData({	-- Elusive Legends of the Dragon Isles
+				["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
+			},{
+				crit(61473, {	-- Elusive Elder Drake
+					["crs"] = { 194489 },	-- Elusive Elder Drake
+					["coord"] = { 23.2, 33.8, THE_AZURE_SPAN },
+				}),
+				crit(61474, {	-- Elusive Elder Frigidpelt
+					["crs"] = { 194491 },	-- Elusive Elder Frigidpelt
+					["coord"] = { 64.7, 30.7, THE_AZURE_SPAN },
+				}),
+				crit(61475, {	-- Elusive Tempest Lizard
+					["crs"] = { 195465 },	-- Elusive Tempest Lizard
+					["coord"] = { 55.0, 55.2, OHNAHRAN_PLAINS },
+				}),
+				crit(61476, {	-- Elusive Ferocious Titanfang
+					["crs"] = { 195472 },	-- Elusive Ferocious Titanfang
+					["coord"] = { 48.2, 50.7, THALDRASZUS },
+				}),
+				crit(61477, {	-- Elusive Deepwater Salamanther
+					["crs"] = { 195492 },	-- Elusive Deepwater Salamanther
+					["coord"] = { 54.7, 58.8, THE_WAKING_SHORES },
+				}),
+				crit(61478, {	-- Elusive Proto Skyterror
+					["crs"] = { 195509 },	-- Elusive Proto Skyterror
+					["coord"] = { 44.8, 78.2, THE_WAKING_SHORES },
+				}),
+				crit(61479, {	-- Elusive Cliffdweller Vorquin
+					["crs"] = { 195518 },	-- Elusive Cliffdweller Vorquin
+					["coord"] = { 56.2, 70.6, THALDRASZUS },
+				}),
+				crit(61480, {	-- Elusive Flourishing Quillbloom
+					["crs"] = { 195541 },	-- Elusive Flourishing Quillbloom
+					["coord"] = { 24.7, 58.7, OHNAHRAN_PLAINS },
+				}),
+				crit(61481, {	-- Elusive Frenzied Amberfur
+					["crs"] = { 202436 },	-- Elusive Frenzied Amberfur
+					["coord"] = { 40.8, 60.7, THE_FORBIDDEN_REACH },
+				}),
+				crit(61482, {	-- Elusive Auric Argali
+					["crs"] = { 202441 },	-- Elusive Auric Argali
+					["coord"] = { 44.7, 40.0, THE_FORBIDDEN_REACH },
+				}),
+				crit(61483, {	-- Elusive Crystalscale Stonecleaver
+					["crs"] = { 204821 },	-- Elusive Crystalscale Stonecleaver
+					["coord"] = { 59.6, 39.5, ZARALEK_CAVERN },
+				}),
+				crit(61484, {	-- Elusive Magma Cobra
+					["crs"] = { 204831 },	-- Elusive Magma Cobra
+					["coord"] = { 43.8, 48.0, ZARALEK_CAVERN },
+				}),
+			})),
+		})),
 		n(QUESTS, {
 			q(70363, {	-- Dragon Isles Skinning
 				["description"] = "Do NOT skin any Dragon Isles creatures. This quest can only be picked up PRIOR to learning Dragon Isles Skinning.",
@@ -618,7 +777,7 @@ root(ROOTS.Professions, prof(SKINNING, {
 			}),
 		})),--]]
 	})),
-}));
+})));
 profession(SKINNING, {
 	-- #if AFTER WOD
 	-- TODO: This is not timelined
@@ -921,23 +1080,6 @@ profession(SKINNING, {
 			recipe(194166),	-- Stormscale [Rank 3]
 			recipe(194171),	-- Unbroken Claw
 			recipe(194170),	-- Unbroken Tooth
-		}),
-		expansion(EXPANSION.BFA, {
-			recipe(257152),	-- Bone Gathering [Rank 1]
-			recipe(257153),	-- Bone Gathering [Rank 2]
-			recipe(257154),	-- Bone Gathering [Rank 3]
-			recipe(302014),	-- Cragscale [Rank 1]
-			recipe(302015),	-- Cragscale [Rank 2]
-			recipe(302016),	-- Cragscale [Rank 3]
-			recipe(302007),	-- Dredged Leather [Rank 1]
-			recipe(302010),	-- Dredged Leather [Rank 2]
-			recipe(302011),	-- Dredged Leather [Rank 3]
-			recipe(257146),	-- Leather Gathering [Rank 1]
-			recipe(257147),	-- Leather Gathering [Rank 2]
-			recipe(257148),	-- Leather Gathering [Rank 3]
-			recipe(257149),	-- Scale Gathering [Rank 1]
-			recipe(257150),	-- Scale Gathering [Rank 2]
-			recipe(257151),	-- Scale Gathering [Rank 3]
 		}),
 	}),
 	-- #endif

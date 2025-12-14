@@ -633,6 +633,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						),
 					}),
 				}),
+				prof(SKINNING, {
+					n(1292, {	-- Maris Granger <Skinning Trainer>
+						["coords"] = {
+							-- #if AFTER CATA
+							{ 72.6, 62.0, STORMWIND_CITY },
+							-- #else
+							{ 67.8, 49.0, STORMWIND_CITY },
+							-- #endif
+						},
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = CLASSIC_CATA_SKINNING,
+					}),
+				}),
 				prof(TAILORING, {
 					n(1346, {	-- Georgio Bolero <Tailoring Trainer>
 						["coords"] = {

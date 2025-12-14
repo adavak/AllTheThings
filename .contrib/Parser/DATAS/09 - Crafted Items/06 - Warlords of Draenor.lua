@@ -952,6 +952,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(109119),	-- True Iron Ore
 		}),
 	}),
+	prof(SKINNING, {
+		spell(8613, {	-- Skinning
+			DRAENOR_SKINNING,
+			i(110609),	-- Raw Beast Hide
+			i(110610),	-- Raw Beast Hide Scraps
+		}),
+	}),
 	prof(TAILORING, {
 		n(ARMOR, {
 			-- #IF BEFORE 10.0.5

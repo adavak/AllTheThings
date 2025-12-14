@@ -162,6 +162,12 @@ root(ROOTS.Zones, {
 							["timeline"] = { ADDED_5_2_0 },
 						}),
 					}),
+					prof(HERBALISM, {
+						n(65877, {	-- Han Flowerbloom <Herbalism Trainer>
+							["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
+							["groups"] = MOP_HERBALISM,
+						}),
+					}),
 					prof(TAILORING, {
 						n(57405, {	-- Silkmaster Tsai <"The Tailor of Pandaria">
 							["coord"] = { 62.6, 59.6, VALLEY_OF_THE_FOUR_WINDS },

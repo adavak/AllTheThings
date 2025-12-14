@@ -1616,6 +1616,12 @@ root(ROOTS.Zones, {
 							["groups"] = WRATH_MINING,
 						}),
 					}),
+					prof(SKINNING, {
+						n(28696, {	-- Derik Marks <Grand Master Skinning Trainer>
+							["coord"] = { 35.2, 28.4, NORTHREND_DALARAN },
+							["groups"] = WRATH_SKINNING,
+						}),
+					}),
 					prof(TAILORING, {
 						n(28699, {	-- Charles Worth <Tailoring Trainer>
 							-- #if AFTER 6.2.2

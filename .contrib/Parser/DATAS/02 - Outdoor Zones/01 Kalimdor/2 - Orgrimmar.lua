@@ -630,6 +630,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						),
 					}),
 				}),
+				prof(SKINNING, {
+					n(7088, {	-- Thuwd <Skinning Trainer>
+						["coords"] = {
+							-- #if AFTER CATA
+							{ 61.0, 54.6, ORGRIMMAR },
+							-- #else
+							{ 63.2, 45.2, ORGRIMMAR },
+							-- #endif
+						},
+						["races"] = HORDE_ONLY,
+						["groups"] = CLASSIC_CATA_SKINNING,
+					}),
+				}),
 				prof(TAILORING, {
 					n(3363, {	-- Magar <Tailoring Trainer>
 						["coords"] = {

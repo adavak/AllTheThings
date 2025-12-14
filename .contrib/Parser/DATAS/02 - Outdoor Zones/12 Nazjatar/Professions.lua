@@ -124,33 +124,15 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}),
 		}),
 		prof(SKINNING, {
-			q(56565, {	-- Hanging by a Thread [A]
-				["provider"] = { "i", 169767 },	-- Deteriorating Cragscales
+			n(154257, {	-- Instructor Ulooaka <Profession Trainer> [Alliance]
 				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					recipe(302016),	-- Skinning Technique: Cragscale (Rank 3)
-				},
+				["coord"] = { 38.0, 53.0, NAZJATAR },
+				["groups"] = NAZJATAR_SKINNING,
 			}),
-			q(56566, {	-- Hanging by a Thread [H]
-				["provider"] = { "i", 169779 },	-- Deteriorating Cragscales
+			n(154408, {	-- Rolm <Profession Trainer> [Horde]
 				["races"] = HORDE_ONLY,
-				["groups"] = {
-					recipe(302016),	-- Skinning Technique: Cragscale (Rank 3)
-				},
-			}),
-			q(56562, {	-- The Problem with Shrinkage [A]
-				["provider"] = { "i", 169775 },	-- Shriveled Leather Hide
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					recipe(302011),	-- Skinning Technique: Dredged Leather (Rank 3)
-				},
-			}),
-			q(56563, {	-- The Problem with Shrinkage [H]
-				["provider"] = { "i", 169772 },	-- Shriveled Leather Hide
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					recipe(302011),	-- Skinning Technique: Dredged Leather (Rank 3)
-				},
+				["coord"] = { 49.2, 61.8, NAZJATAR },
+				["groups"] = NAZJATAR_SKINNING,
 			}),
 		}),
 		prof(TAILORING, {

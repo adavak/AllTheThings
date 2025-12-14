@@ -20227,8 +20227,6 @@ i(110570),	-- Drudgeboat Schedule \\ geboat Schedule
 i(110606),	-- Shadow Hunter Garb \\ ow Hunter Garb
 i(110607),	-- Shadow Hunter's Glaive \\ ow Hunter's Glaive
 i(110608),	-- Shadow Hunter's Mask \\ ow Hunter's Mask
-i(110609),	-- Raw Beast Hide \\ Beast Hide
-i(110610),	-- Raw Beast Hide Scraps \\ Beast Hide Scraps
 i(110661),	-- Stitched Starglazed Leather \\ ched Starglazed Leather
 i(110664),	-- Bloodmaul Slave Key \\ dmaul Slave Key
 i(110667),	-- Tear-stained Letter \\ -stained Letter
