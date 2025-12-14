@@ -678,7 +678,6 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			faction(2610),	-- Azj-Kaheti Nerubian (Always Hostile) (Hidden)
-			faction(2640),	-- Brann Bronzebeard
 			faction(2612),	-- Council of Dornogal (Paragon)
 			faction(2644),	-- Delves: Season 1
 			faction(2645),	-- Earthen

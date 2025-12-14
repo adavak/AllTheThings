@@ -1756,6 +1756,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(211040),	-- Unhinged Vault-Hatch
 		}),
 	})),
+	n(FACTIONS, {
+		faction(2640),	-- Brann Bronzebeard
+	}),
 	n(HIDDEN_QUESTS, {
 		-- Brann Bronzebeard leveling quest
 		hqt(77716),	-- Level 2
