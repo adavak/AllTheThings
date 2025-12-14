@@ -37,13 +37,13 @@ root(ROOTS.NeverImplemented, {
 		prof(JUNKYARD_TINKERING, {["timeline"] = {CREATED_8_2_0}}),		-- Completed up to 11.2.5
 		prof(LEATHERWORKING),											-- Completed up to 11.2.5
 		prof(MINING),													-- Completed up to 11.2.5
-		prof(POISONS),													-- Not Completed and Not Sorted
+		prof(POISONS),													-- Completed up to 11.2.5
 		prof(PROTOFORM_SYNTHESIS, {["timeline"] = {CREATED_9_2_0}}),	-- Completed up to 11.2.5
-		prof(SKINNING),													-- Not Completed and Not Sorted
+		prof(SKINNING),													-- Completed up to 11.2.5
 		prof(SOUL_CYPHERING, {["timeline"] = {CREATED_9_0_1}}),			-- Completed up to 11.2.5
 		-- prof(STYGIA_CRAFTING, {["timeline"] = {CREATED_9_0_5}}),		-- Completed up to 11.2.5
 		-- prof(SUPPLY_SHIPMENTS, {["timeline"] = {CREATED_10_2_0}}),	-- Completed up to 11.2.5
-		prof(TAILORING),												-- Not Completed and Not Sorted
+		prof(TAILORING),												-- Completed up to 11.2.5
 		-- prof(TUSKARR_FISHING_GEAR, {["timeline"] = {CREATED_10_0_0}}),-- Completed up to 11.2.5
 	}),
 	filter(QUEST_ITEMS),												-- Not Completed and Not Sorted

@@ -4608,7 +4608,7 @@ s(9122,23192,{awp=50300,b=1,f=9,spellID=216042})}}),
 e(656,{npcID=59150,g={
 ach(7413),
 gach(7434),
-o(212968,{coords={{48.4,14.6,432}},g={
+o(212968,{coords={{48.4,20,432}},g={
 cs(120145,{c=a[1260],description="Can be looted from a bookshelf if the boss didn't burn them.",itemID=82469,lvl=35})}})}})}}),
 d(1,{
 h(-45,{

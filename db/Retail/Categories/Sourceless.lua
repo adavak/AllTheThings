@@ -193,10 +193,13 @@ flt(50,{awp=100107,sharedDescription="If you obtain this item, please provide as
 x(10,{
 x(10.0107,{
 i(208878,{b=1,f=55})})})}}),
-h(-41,{awp=100200,sharedDescription="If you obtain this item, please provide as much information as you can about how and where you got it.",g={
-x(10,{
+h(-41,{sharedDescription="If you obtain this item, please provide as much information as you can about how and where you got it.",g={
+x(10,{awp=100200,g={
 x(10.02,{
-mm(207775,{b=1,questID=77146})})})}}),
+mm(207775,{b=1,questID=77146})})}}),
+x(11,{awp=110000,g={
+x(11.0000001,{
+mm(223510,{b=1,questID=82177})})}})}}),
 h(-33,{awp=90001,g={
 x(9,{
 x(9.0001,{

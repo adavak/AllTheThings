@@ -1,6 +1,6 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
-local ach,ah,campsite,cq,crit,cu,en,exp,flt,h,i,m,mm,mnt,n,o,p,q,r,s,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateExploration,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local ach,ah,campsite,cq,crit,cu,en,exp,faction,flt,h,i,m,mm,mnt,n,o,p,q,r,s,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 local a={{"n",221427},{"n",234168},{"n",236626},{"n",244753},{"o",455716},{"s",453139},{"s",464820},{206017},{2249,2250,2251,2259,2269,2277,2299,2301,2302,2310,2312,2347,2348,2396,2420,2425,2452,2484},{2249,2250,2251,2259,2269,2277,2299,2301,2302,2310,2312,2347,2396,2420,2452},{2249,2250,2277,2310,2347,2420},{2249},{2250},{2251},{225401},{2259},{2269},{2277},{2299},{2301},{2302},{2310},{2312},{2347},{235490},{2396},{2420},{245191},{245938},{249592},{2570,12},{47.4,44.4,2339},{48,43.4,2339},{52.2,12.2,2301},{53.1,17.2,2259},{55.3,55.9,2248},{68},{70},{85242},{90969}};
 _.Categories.Delves={
 x(11,{
@@ -776,6 +776,8 @@ s(218290,219356,{b=1,f=21,lvl=70}),
 s(218287,219353,{b=1,f=33,lvl=70}),
 s(193926,211046,{b=1,f=20,lvl=70}),
 s(193920,211040,{b=1,f=8,lvl=70})})}}),
+h(-31,{
+faction(2640)}),
 h(-35,{
 q(77716,{lvl=70,type="hqt"}),
 q(77718,{lvl=70,type="hqt"}),

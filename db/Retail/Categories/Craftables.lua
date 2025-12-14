@@ -2081,6 +2081,7 @@ i(10922,{c=a[356],f=55,lvl=23,u=2})}}),
 prof(393,{description="The following items can be gathered by skinning creatures out in the world.\n\nNote that although Light-/Medium-/Heavy-/Thick-/Rugged Leather is most common to get from skinning, which one you get is depending on two factors:\n\n* Your skill level in Skinning\n\n*The historic level bracket of the creature.\n\nYou will never be able to obtain Heavy Leather from skinning in Dun Morogh, and if you get Light Leather from skinning in Uldaman your skill level is way too low.",g={
 h(-22,{
 s(2680,7005,{collectible=false,description="Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",f=57,learnedAt=1,requireSkill=393,spellID=124181})}),
+sp(8613,{
 i(4234,{maps_disp=a[310]}),
 i(2318,{maps_disp=a[233]}),
 i(2319,{maps_disp=a[276]}),
@@ -2121,7 +2122,7 @@ i(8165,{description="Can be skinned from elite creatures of any Dragonflights ar
 i(20501),
 i(20500),
 i(11512,{b=1}),
-i(20498)}}),
+i(20498)})}}),
 prof(197,{
 h(-88,{
 s(3665,10030,{f=4,lvl=19,spellID=12022}),
@@ -8540,6 +8541,14 @@ i(109118),
 i(115508,{b=1}),
 i(109991,{spellID=157517}),
 i(109119)})}}),
+prof(393,{awp=60003,g={
+sp(8613,{
+i(111351,{b=1,description="This item can drop while skinning mobs in Draenor.",f=200,lvl=10,requireSkill=393,spellID=160321,g={
+r(158756,{collectible=false,rank=9,requireSkill=393,rwp=80001,u=2}),
+r(194174,{awp=70003,requireSkill=393}),
+r(265865,{awp=80001,requireSkill=393})}}),
+i(110609),
+i(110610,{requireSkill=393,spellID=159069})})}}),
 prof(197,{awp=60003,g={
 h(-88,{
 s(63716,114819,{bonusID=525,f=3,lvl=35}),
@@ -9193,6 +9202,19 @@ i(124501,{b=1}),
 i(124500,{b=1}),
 i(124492,{b=1}),
 i(151862,{awp=70300,b=1})})}}),
+prof(393,{awp=70003,g={
+flt(101,{
+p(2121,{awp=70300,b=1,description="This can be obtained from any skinnable Argus mob.",itemID=153057,npcID=128160,spellID=254298})}),
+h(-26,{
+r(195125,{collectible=false,requireSkill=393,rwp=80001,u=2}),
+r(194174,{requireSkill=393}),
+r(265867,{awp=80001,requireSkill=393})}),
+sp(8613,{
+i(151566,{awp=70300}),
+i(124115),
+i(124113)}),
+flt(102,{
+toy(130102,{b=1,requireSkill=182})})}}),
 prof(197,{awp=70003,g={
 h(-88,{
 s(85957,146666,{awp=70200,c=a[379],f=4,lvl=40,spellID=241334}),
