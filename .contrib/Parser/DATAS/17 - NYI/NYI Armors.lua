@@ -441,7 +441,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		n(P4xx, {
 			filter(BACK_F, {
 				i(59791),	-- Giantslayer Cloak
-				i(58696),	-- QA Combat Test Healer Cloak 3 \\ QA Combat Test Healer Cloak 2
+				i(58696),	-- QA Combat Test Healer Cloak 3
 			}),
 			filter(LEATHER, {
 				i(59790),	-- Gnash-Crusher Helm
@@ -2717,6 +2717,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(134597),	-- Vanguard Necklace
 				i(134598),	-- Vanguard Pendant
 			}),
+			filter(PLATE, {
+				-- #if BEFORE 11.2.5
+				-- It was added into Legion: Remix Ensembles
+				i(139603, {["bonusID"] = 1}),	-- Vault Patroller's Warboots
+				-- #endif
+			}),
 			n(RELICS, {
 				i(133018),	-- Azsuna Package 3 - Holy 1 - Unused
 				i(138229),	-- Nightmare Boss 3 Relic Storm
@@ -3135,7 +3141,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(166490),	-- Shiny Ring
 			}),
 			expansion(EXPANSION.BFA, patch(3,0), {
-				i(174470),	-- Bound Sinew Ring \\ Ring - PH
+				i(174470),	-- Bound Sinew Ring
 				i(174053),	-- Corrupted Ring - Overconfident
 				i(174050),	-- Corrupted Ring - Revel in Violence
 				i(174051),	-- Corrupted Ring - Spontaneous Fury
@@ -3145,7 +3151,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(174057),	-- Corrupted Ring - Mesmerizing
 				i(174055),	-- Corrupted Ring - Thing From Beyond
 				i(170738),	-- Felsoul Band of Destruction
-				i(174468),	-- Ring of Deceitful Rumors \\ Ring - PH
+				i(174468),	-- Ring of Deceitful Rumors
 			}),
 			n(P8xx, {
 				i(167135),	-- QA Combat Test Ring 1
