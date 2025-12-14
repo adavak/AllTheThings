@@ -282,7 +282,12 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(207775),	-- Grotto Netherwing Drake: Teal Scales (MM!)
 			})),
 		}),
-
+		expansion(EXPANSION.TWW, {
+			-- 11.0.0
+			expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
+				i(223510),	-- Delver's Dirigible Schematic: Template (MM!)
+			})),
+		}),
 	}),
 	n(FOLLOWERS, {
 		expansion(EXPANSION.SL, {

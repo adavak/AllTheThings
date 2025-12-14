@@ -452,7 +452,6 @@ i(213561, 79690);	-- Winding Slitherdrake: Void Scales
 ------------------
 -- PATCH 11.0.0 --
 ------------------
---- NYI ---
 i(223510, 82177);	-- Delver's Dirigible Schematic: Template
 
 ------------------

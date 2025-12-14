@@ -48,11 +48,6 @@ root(ROOTS.NeverImplemented, n(MOUNT_MODS, {
 		})),
 	}),
 	expansion(EXPANSION.TWW, {
-		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
-			i(223510),	-- Delver's Dirigible Schematic: Template (MM!)
-		})),
-
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
 			i(232980),	-- Axel Sneakfoot (MM!)
