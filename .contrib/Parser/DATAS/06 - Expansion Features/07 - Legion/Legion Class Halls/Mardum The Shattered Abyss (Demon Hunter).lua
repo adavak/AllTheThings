@@ -911,10 +911,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 60.1, 50.8, 720 },
 						["maps"] = { 861 },	-- Mardum, the Shattered Abyss (scenario)
 						["lvl"] = 110,
-						["groups"] = {
-							mount(229417, {	-- Slayer's Felbroken Shrieker (MOUNT!)
-									}),
-						},
+						["groups"] = { mount(229417) },	-- Slayer's Felbroken Shrieker (MOUNT!)
 					}),
 					q(42776, {	-- Two Worthies
 						["sourceQuests"] = { 42775 },	-- The Crux of the Plan

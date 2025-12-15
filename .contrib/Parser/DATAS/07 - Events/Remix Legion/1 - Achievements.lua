@@ -12,7 +12,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["groups"] = {
 				crit(108652, {["_quests"] = { 45354 }}),	-- Dispersion of the Discs (Mage)
 				crit(108656, {["_quests"] = { 46792 }}),	-- Gathering of the Storms (Shaman)
-				crit(108655, {["_quests"] = { 46089 }}),	-- Hiding In Plain Sight (Rogue)
+				crit(108655, {["_quests"] = { 46089,46178 }}),	-- Hiding In Plain Sight [A]/[H] (Rogue)
 				crit(108651, {["_quests"] = { 46337 }}),	-- Night of the Wilds (Hunter)
 				crit(108376, {["_quests"] = { 45770 }}),	-- Stirring in the Shadows (Paladin)
 				crit(108648, {["_quests"] = { 46813 }}),	-- The Lost Glacier (Death Knight)
