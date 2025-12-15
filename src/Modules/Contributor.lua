@@ -674,6 +674,7 @@ MobileDB.GameObject = {
 	[177789] = true,	-- Augustus' Receipt Book (q:27534)
 	[177928] = true,	-- Onyxia's Gate
 	[178144] = true,	-- Troll Chest (q:13874 [A], q:6462 [H])
+	[178609] = true,	-- Holiday Snow
 	[179528] = true,	-- Warpwood Pod
 	[179550] = true,	-- Door
 	[179828] = true,	-- Dark Iron Pillow (q:28057)
