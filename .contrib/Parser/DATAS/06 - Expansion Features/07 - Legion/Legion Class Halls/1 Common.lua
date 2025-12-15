@@ -447,7 +447,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					mission(1503, {	-- Council of War
 						q(45162, {	-- We Brought the Hammer
 							["provider"] = { "i", 142553 },	-- Tuft of Dwarvish Beard
+							-- #if BEFORE 11.2.7
 							["u"] = REMOVED_FROM_GAME,	-- until Brawler's Guild comes back someday
+							-- #endif
 						}),
 					}),
 					mission(1387, {	-- Friends, Not Food
@@ -459,7 +461,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					mission(1513, {	-- I've Got A Strange Feeling About This
 						q(45312, {	-- You Beat the Ball of Meat
 							["provider"] = { "i", 143590 },	-- Hunk of Meatball
+							-- #if BEFORE 11.2.7
 							["u"] = REMOVED_FROM_GAME,	-- until Brawler's Guild comes back someday
+							-- #endif
 							["groups"] = {
 								follower(986),	-- Meatball
 							},
@@ -468,7 +472,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					mission(1504, {	-- It's Clean Up Time
 						q(45163, {	-- Clearing Up
 							["provider"] = { "i", 142554 },	-- Broken Handle
+							-- #if BEFORE 11.2.7
 							["u"] = REMOVED_FROM_GAME,	-- until Brawler's Guild comes back someday
+							-- #endif
 						}),
 					}),
 					mission(1386, {	-- It's so FLUFFY!
@@ -477,7 +483,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					mission(1512, {	-- Master of Shadows
 						q(45304, {	-- Attacking the Darkness
 							["provider"] = { "i", 143561 },	-- Exhausted Shadow Candle
+							-- #if BEFORE 11.2.7
 							["u"] = REMOVED_FROM_GAME,	-- until Brawler's Guild comes back someday
+							-- #endif
 						}),
 					}),
 					mission(1506, {	-- Once More Into the Fray

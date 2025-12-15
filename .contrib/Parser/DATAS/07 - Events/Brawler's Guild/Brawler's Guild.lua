@@ -277,34 +277,44 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 			-- Season 5
 			ach(61421, {	-- A Prime Ordeal
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61422, {	-- Audience Participation
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61419, {	-- Brawler's Chilled
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61424, {	-- Brawlzilla
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61426, {	-- Bare Knuckle Brawl
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61429, {	-- Brawl Star
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 				["groups"] = { title(666) },	-- Brawl Star %s
 			}),
 			ach(61423, {	-- Featherweight Brawler
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61425, {	-- Hot Footed
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61420, {	-- Let Me Solo It
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61466, {	-- The Best There Is
+				["cr"] = 254940,	-- Challenge Broker Senna
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61413, {	-- The First Rule of Brawler's Guild
@@ -1222,7 +1232,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98085, {	-- Brucehide Jersey
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					i(253011, {	-- Brawler's Healing Brute Punch
 						["timeline"] = { ADDED_11_2_7 },
@@ -1237,14 +1247,14 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98092, {	-- Digmaster's Bodysleeve
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					iensemble(167892, {	-- Ensemble: Brawler's Garb
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98079, {	-- Floot-Tooter's Tunic
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					TempForceMisc(i(127773, {	-- Gemcutter Module: Mastery
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
@@ -1252,16 +1262,16 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["requireSkill"] = JEWELCRAFTING,
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98080, {	-- Gorgeous Blouse
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98091, {	-- Last Season's Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98084, {	-- Ooze-Soaked Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98087, {	-- Paper Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					i(118908, {	-- Pit Fighter's Punching Ring
 						["races"] = HORDE_ONLY,
@@ -1272,26 +1282,26 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98083, {	-- Sharkskin Tunic
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98093, {	-- Sightless Mantle
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98081, {	-- The Boomshirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					i(95050, {	-- The Brassiest Knuckle
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98086, {	-- Tuxedo-Like Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98082, {	-- Undisputed Champion's Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98543, {	-- Wraps of the Blood-Soaked Brawler
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 				},
 			}),
@@ -1381,7 +1391,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98085, {	-- Brucehide Jersey
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					i(253011, {	-- Brawler's Healing Brute Punch
 						["timeline"] = { ADDED_11_2_7 },
@@ -1396,14 +1406,14 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98092, {	-- Digmaster's Bodysleeve
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					iensemble(167891, {	-- Ensemble: Brawler's Garb
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98079, {	-- Floot-Tooter's Tunic
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					TempForceMisc(i(127773, {	-- Gemcutter Module: Mastery
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
@@ -1411,16 +1421,16 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["requireSkill"] = JEWELCRAFTING,
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98080, {	-- Gorgeous Blouse
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98091, {	-- Last Season's Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98084, {	-- Ooze-Soaked Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98087, {	-- Paper Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					i(118907, {	-- Pit Fighter's Punching Ring
 						["races"] = ALLIANCE_ONLY,
@@ -1431,26 +1441,26 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98083, {	-- Sharkskin Tunic
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98093, {	-- Sightless Mantle
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98081, {	-- The Boomshirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					i(95051, {	-- The Brassiest Knuckle
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_0_2 },
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98086, {	-- Tuxedo-Like Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98082, {	-- Undisputed Champion's Shirt
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(98543, {	-- Wraps of the Blood-Soaked Brawler
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
+						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
 					})),
 				},
 			}),

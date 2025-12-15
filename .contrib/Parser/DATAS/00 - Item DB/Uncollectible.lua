@@ -413,6 +413,7 @@ i(155635);	-- Sinewy Wing
 i(155620);	-- Singed Sprig of Teldrassil
 i(158788);	-- Sleek Quill
 i(155617);	-- Slime Spore
+i(163084);	-- Solid Gold Cutlass
 i(158744);	-- Spectral Veil
 i(162980);	-- Spindle of Golden Sailthread
 i(158771);	-- Spirit Ichor

@@ -808,6 +808,7 @@ MobileDB.GameObject = {
 	[201974] = true,	-- Raptor Egg (q:24741)
 	[201975] = true,	-- Tarblossom (q:24700)
 	[201979] = true,	-- Un'Goro Coconut (q:24715)
+	[202112] = true,	-- Quilboar Cage (q:24852)
 	[202136] = true,	-- Stonetalon Supplies (q:24863)
 	[202158] = true,	-- Discarded Supplies (q:24701)
 	[202159] = true,	-- Discarded Supplies (q:24701)

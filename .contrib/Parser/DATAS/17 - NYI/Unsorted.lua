@@ -6767,7 +6767,6 @@ root(ROOTS.Unsorted, {
 				i(163074),	-- Hard White Pellet \\ Pile of Hard White Pellets
 				i(163079),	-- Chipped Trophy Tusk
 				i(163080),	-- Partially Eaten Sunfruit
-				i(163084),	-- Solid Gold Cutlass \\ Gold-Plated Cutlass
 				i(163085),	-- Onion Garland
 				i(163086),	-- Crimsonwood Dentures
 				i(163088),	-- Perfectly Ordinary Broomstick
