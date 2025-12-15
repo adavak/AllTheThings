@@ -3199,14 +3199,13 @@ customWindowUpdates.NWP = function(self, force)
 
 			return searchResults
 		end
-		local NWPwindow = {
-			text = L.NEW_WITH_PATCH,
+		local NWPwindow = app.CreateRawText(L.NEW_WITH_PATCH, {
 			icon = app.asset("Interface_Newly_Added"),
 			description = L.NEW_WITH_PATCH_TOOLTIP,
 			visible = true,
 			back = 1,
 			g = CreateNWPWindow(),
-		};
+		})
 		self:SetData(NWPwindow);
 		self:BuildData();
 	end
@@ -3394,8 +3393,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 			end
 			return patchBuild
 		end
-		local AWPwindow = {
-			text = L.ADDED_WITH_PATCH,
+		local AWPwindow = app.CreateRawText(L.ADDED_WITH_PATCH, {
 			icon = app.asset("Interface_Newly_Added"),
 			description = L.ADDED_WITH_PATCH_TOOLTIP,
 			visible = true,
@@ -3406,7 +3404,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 					g = CreatePatches(param),
 				}),
 			},
-		};
+		})
 		self:SetData(AWPwindow);
 		self:BuildData();
 	end
