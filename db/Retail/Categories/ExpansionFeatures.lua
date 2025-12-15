@@ -14096,7 +14096,8 @@ q(46089,{awp=70200,c=a[1657],coords={a[974]},lvl=45,qgs=a[3554],r=2,sourceQuests
 mnt(231434,{c=a[1657]}),
 crit(108655,{achID=42565,awp=110205,e=447,id=6,rwp=120000})}}),
 q(46178,{awp=70200,c=a[1657],coords={a[974]},lvl=45,qgs=a[3554],r=1,sourceQuests=a[2074],g={
-mnt(231434,{c=a[1657]})}}),
+mnt(231434,{c=a[1657]}),
+crit(108655,{achID=42565,awp=110205,e=447,id=6,rwp=120000})}}),
 q(47591,{awp=70205,c=a[1657],coords={a[2009]},lvl=10,qgs=a[224],g={
 i(151180,{b=1,c=a[1657]})}}),
 q(47592,{awp=70205,c=a[1657],coords={a[2009]},lvl=10,qgs=a[224],sourceQuests={47591}}),

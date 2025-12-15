@@ -1,6 +1,6 @@
 createLocalizationString({
 	readable = "Skyriding",
-	constant = "ACCESSIBILITY_ADV_FLY_LABEL",
+	constant = "SHOW_SKYRIDING_CHECKBOX",
 	export = true,
 	text = {
 		-- #if AFTER DF
