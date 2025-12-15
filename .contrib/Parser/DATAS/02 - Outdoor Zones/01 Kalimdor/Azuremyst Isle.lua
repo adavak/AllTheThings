@@ -799,7 +799,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 				q(9612, {	-- A Hearty Thanks!
-					["description"] = "1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob\n.3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.",
+					["description"] = "1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob\n.3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.\n\nThis can prove to be impossible on higher level characters.",
 					["qg"] = 17587,	-- Draenei Youngling
 					["coords"] = {
 						{ 37.6, 18.6, AZUREMYST_ISLE },
@@ -811,6 +811,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						{ 55.6, 47.8, AZUREMYST_ISLE },
 						{ 56.8, 59.6, AZUREMYST_ISLE },
 						{ 58.0, 41.6, AZUREMYST_ISLE },
+						{ 39.5, 37.4, AZUREMYST_ISLE },
 					},
 					["races"] = { DRAENEI },
 					["lvl"] = lvlsquish(8, 8, 1),
