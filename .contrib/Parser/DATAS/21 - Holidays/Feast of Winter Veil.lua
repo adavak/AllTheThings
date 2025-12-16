@@ -2151,7 +2151,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				-- 	7024,	-- Great-father Winter is Here! (Horde)
 				-- },
 				["qg"] = 13445,	-- Great-father Winter
-				["coord"] = { 52.4, 68.8, ORGRIMMAR },
+				["coord"] = { 49.9, 78.4, ORGRIMMAR },
 				["races"] = HORDE_ONLY,
 			}),
 			["cost"] = {

@@ -273,7 +273,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 			}),
 			ach(11567, {	-- You Are Not The Contents Of Your Wallet
-				["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH },
+				["timeline"] = { ADDED_7_1_5, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 			}),
 			-- Season 5
 			ach(61421, {	-- A Prime Ordeal
@@ -314,7 +314,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61466, {	-- The Best There Is
-				["cr"] = 254940,	-- Challenge Broker Senna
+				["crs"] = {
+					70751,	-- Card Trader Ami
+					70752,	-- Card Trader Leila
+				},
 				["timeline"] = { ADDED_11_2_7 },
 			}),
 			ach(61413, {	-- The First Rule of Brawler's Guild
@@ -1087,7 +1090,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(70723, {	-- Dame Jesepha <Luxury Food Vendor>
 				["coord"] = { 22.1, 72.4, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 				-- #if BFA
 				["groups"] = {
 					i(98121, {	-- Amberseed Bun
@@ -1109,7 +1112,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				-- Wouter TODO: add coords
 				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
-				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 				-- #if BFA
 				["groups"] = {
 					i(98121, {	-- Amberseed Bun
@@ -1119,11 +1122,11 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				-- #endif
 			}),
 			n(70713, {	-- Haxxil Drinkmeister <Rare and Luxury Drink Vendor>
-				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				["maps"] = { BRAWLGAR_ARENA },
 				-- Wouter TODO: add coords
 				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+				["races"] = HORDE_ONLY,
+				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 				-- #if BFA
 				["groups"] = {
 					i(98117, {	-- Moneybrau
@@ -1133,11 +1136,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				-- #endif
 			}),
 			n(70719, {	-- Mozzle Gearbeer <Rare and Luxury Drink Vendor>
-				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-				-- Wouter TODO: add coords
-				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				["coord"] = { 24.7, 65.0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH },
+				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 				-- #if BFA
 				["groups"] = {
 					i(98117, {	-- Moneybrau

@@ -127,7 +127,9 @@ root(ROOTS.Zones, {
 					["requireSkill"] = HERBALISM,
 				}),
 				q(42169),	-- Left for Dead
-				q(44813),	-- Ley Line Interference
+				q(44813, {	-- Ley Line Interference
+					i(142446),	-- Leysight Spectacles (QI!)
+				}),
 				q(43774),	-- Ley Race
 				q(43583),	-- Life Finds a Way
 				q(44744),	-- Lifelines

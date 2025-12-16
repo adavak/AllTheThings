@@ -123,24 +123,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						q(41119, {	-- The Hunt (Altruis)
 							["sourceQuest"] = 41121,	-- By Any Means (Altruis)
 							["provider"] = { "n", 103156 },	-- Altruis the Sufferer
-							["maps"] = { 723 },	-- Violet Hold
+							["coord"] = { 50.4, 70.0, 723 },	-- Violet Hold
 							["groups"] = {
 								o(251878, {	-- Twinblades of the Deceiver
 									["coord"] = { 33.0, 67.0, SURAMAR },
 									["groups"] = {
 										i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 											["ItemAppearanceModifierID"] = 9,
-											["groups"] = {
-												artifact(26),	-- Standard
-											},
+											["groups"] = { artifact(26) },	-- Standard
 										}),
 									},
 								}),
 								i(127830, {	-- Twinblades of the Deceiver [Off Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(26),	-- Standard
-									},
+									["groups"] = { artifact(26) },	-- Standard
 								}),
 							},
 						}),
@@ -151,15 +147,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["groups"] = {
 								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(26),	-- Standard
-									},
+									["groups"] = { artifact(26) },	-- Standard
 								}),
 								i(127830, {	-- Twinblades of the Deceiver [Off Hand]
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(26),	-- Standard
-									},
+									["groups"] = { artifact(26) },	-- Standard
 								}),
 							},
 						}),

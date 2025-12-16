@@ -818,6 +818,7 @@ root(ROOTS.Zones, {
 						i(132786),	-- Archived Record of Valor
 						i(132791),	-- Archived Record of Will
 						i(132775),	-- Blessing of the Watchers
+						i(141398),	-- Blessing of the Watchers
 						i(132796),	-- Breath of the Vault
 						i(132783),	-- Echo of Aggramar
 						i(132780),	-- Grasp of the God-King
@@ -1190,6 +1191,7 @@ root(ROOTS.Zones, {
 						i(132810),	-- Erratic Stormforce
 						i(132802),	-- Hrydshal Forgeflame
 						i(132816),	-- Hrydshal Weald
+						i(141399),	-- Overcharged Stormscale
 						i(132804),	-- Sigil of Hrydshal
 						i(132817),	-- Shade of Thorim's Peak
 						i(132815),	-- Storm-Charged Lodestone

@@ -37,11 +37,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["cost"] = {
 									{ "i", 139466, 1 },		-- Bindings of the Windlord (Left)
 									{ "i", 139468, 1 },		-- Bindings of the Windlord (Right)
-									{ "i", 124444, 10 },	-- 10xInfernal Brimstone
+									{ "i", 124444, 10 },	-- 10x Infernal Brimstone
+								},
+							}),
+							q(94932, {	-- Bindings of the Windlord (REMIX)
+								["description"] = "You need to first collect the two bindings and then be in Outlaw spec to get this quest.",
+								["sourceQuests"] = { 39652 },	-- Where Dragons Rule
+								["provider"] = { "n", 92218 },	-- Thrymjaris <Mother of the Thorignir>
+								["coord"] = { 40.8, 80.8, STORMHEIM },
+								["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END },
+								["cost"] = {
+									{ "i", 139466, 1 },		-- Bindings of the Windlord (Left)
+									{ "i", 139468, 1 },		-- Bindings of the Windlord (Right)
 								},
 							}),
 							q(43560, {	-- Audience with the Windlord
-								["sourceQuests"] = { 43558 },	-- Bindings of the Windlord
+								["sourceQuests"] = {
+									43558,	-- Bindings of the Windlord
+									94932,	-- Bindings of the Windlord (REMIX)
+								},
+								["sourceQuestNumRequired"] = 1,
 								["provider"] = { "n", 92218 },	-- Thrymjaris <Mother of the Thorignir>
 								["groups"] = {
 									i(139536, {	-- Emanation of the Winds
