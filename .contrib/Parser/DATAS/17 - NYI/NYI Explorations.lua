@@ -61,7 +61,6 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 
 			-- Zone: Drustvar
 			exploration(10078),	-- Horde Airship
-			exploration(10343),	-- Iwen's Sanctum
 
 			-- Zone: Stormsong Valley
 			exploration(10079),	-- Horde Airship
