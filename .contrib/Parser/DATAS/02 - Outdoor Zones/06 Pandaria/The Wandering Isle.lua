@@ -21,8 +21,11 @@ root(ROOTS.Zones, {
 				}),
 				n(FACTIONS, {
 					faction(1216, {	-- Shang Xi's Academy
+						-- #if BEFORE 11.2.7
+						-- Exalted is now obtainable with Heritage questline for Pandarens
 						["description"] = "The maximum obtainable reputation with this faction is 8510/12000 (Honored).",
 						["minReputation"] = { 1216, HONORED + 8510 },	-- Shang Xi's Academy, Honored + change.
+						-- #endif
 					}),
 				}),
 				n(QUESTS, {
