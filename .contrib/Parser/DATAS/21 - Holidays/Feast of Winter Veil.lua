@@ -2344,8 +2344,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					},
 				}),
 				i(149503, {	-- Stolen Gift
-					["description"] = "This gift is granted to any player below max level. This gift doesn't drop any of the rare seasonal items; it's currently not worth it.",
-					["timeline"] = { ADDED_7_2_5 },
+					["description"] = "This gift is granted to any player below max level. This gift doesn't drop any of the rare seasonal items thus it is not worth farming.",
+					["timeline"] = { ADDED_7_2_5, REMOVED_11_0_5 },	-- Danny Donkey: Stolen Present (116762) is rewarded in it's place with TWW, making it unobtainable.
 					-- #if AFTER SL
 					["lvl"] = { 30, 59 },
 					-- #elseif AFTER BFA
@@ -2353,7 +2353,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					-- #else
 					["lvl"] = { 30, 100 },
 					-- #endif
+					-- #if BEFORE TWW
 					["groups"] = HOLIDAY_NON_COLLECTIBLE_GROUPS,
+					-- #endif
 				}),
 				i(93626, {	-- Stolen Present
 					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
@@ -2369,7 +2371,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				}),
 				i(116762, {	-- Stolen Present
 					["timeline"] = { ADDED_6_0_2 },
+					-- #if AFTER TWW
+					["description"] = "This gift is granted to any characters completing the the daily quest, which requires lvl 30.",
+					["lvl"] = { 30, 80 },	-- Danny Donkey: Replaces Stolen Gift (149503) for the bracket 30-59.
+					-- #else
 					["lvl"] = 50,
+					-- #endif
 					["groups"] = STOLEN_PRESENT_GROUPS,
 				}),
 			},
