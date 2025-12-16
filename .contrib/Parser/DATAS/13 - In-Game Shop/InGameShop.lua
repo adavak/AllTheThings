@@ -347,7 +347,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 
 		------ Drustvar Winter Collection ------
-		iensemble(249754),	-- Ensemble: The Drustvar Winter Collection
+		iensemble(249754, {	-- Ensemble: The Drustvar Winter Collection
+			["timeline"] = { ADDED_11_2_7 },
+		}),
 
 		------ Feathered Archmage Set ------
 		iensemble(243480, {	-- Ensemble: Feathered Collection of the Archmage
