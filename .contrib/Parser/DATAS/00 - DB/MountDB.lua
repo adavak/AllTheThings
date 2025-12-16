@@ -2252,9 +2252,8 @@ i(239687, 1229288);	-- Wretched Fel Bat
 i(0, 1254363);	-- (PH LEGION REMIX MOUNT)
 i(250191, 1250481);	-- Bilebound Ur'zul-horn
 i(239647, 1229264);	-- Bloodguard Fel Ba
-i(250108, 1250288);	-- Cragstepper Crest
 i(250762, 0);		-- Felfueled Memento of the Abyss
-i(250106, 1250287);	-- Floestrider Crest
+i(250106, 1250287);	-- Floestrider Crest-Horn
 i(239686, 1229286);	-- Forgotten Fel Batt
 i(250726, 1251257);	-- Leyfrost Manasabe
 i(250928, 1251689);	-- Murky Turkey
@@ -2273,6 +2272,7 @@ i(257511, 1261668);	-- Bronze Wilderling
 i(257513, 1261671);	-- Bronze Aquilon
 i(257514, 1261677);	-- Bronze Corpsefly
 i(257516, 1261681);	-- Bronze Gravewing
+i(250108, 1250288);	-- Cragstepper Crest-Horn
 i(258515, 1263387);	-- Crimson Lupine
 i(258188, 1262886);	-- Geargrinder Mk. 11
 i(242715, 1233516);	-- K'arroc Swiftwing

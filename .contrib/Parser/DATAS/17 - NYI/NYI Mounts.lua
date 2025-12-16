@@ -1032,9 +1032,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
 			mount(1254363),	-- (PH LEGION REMIX MOUNT)
 			-- With MountID attached
-			i(250108, {	-- Cragstepper Crest-Horn
-				["displayID"] = 136076,
-			}),
 			i(250106, {	-- Floestrider Crest-Horn
 				["displayID"] = 136075,
 			}),

@@ -1185,18 +1185,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(252749),	-- Violet Winter Toque
 			}),
 			n(SETS, {
-				------ The Seafarer's Winter Set ------
-				i(249754),	-- Ensemble: The Drustvar Winter Collection
-				q(92097),	-- Ensemble: The Drustvar Winter Collection
-				i(249749),	-- Drustvar Winter Belt
-				i(249751),	-- Drustvar Winter Boots
-				i(249753),	-- Drustvar Winter Cloak
-				i(249752),	-- Drustvar Winter Gloves
-				i(249746),	-- Drustvar Winter Hood
-				i(249750),	-- Drustvar Winter Leggings
-				i(249747),	-- Drustvar Winter Pauldrons
-				i(249863),	-- Drustvar Winter Spaulders
-				i(249748),	-- Drustvar Winter Tunic
 
 				------ The Kirin Tor Winter Set ------
 				i(249763),	-- Ensemble: The Kirin Tor Winter Collection

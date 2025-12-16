@@ -346,6 +346,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_5 },
 		}),
 
+		------ Drustvar Winter Collection ------
+		iensemble(249754),	-- Ensemble: The Drustvar Winter Collection
+
 		------ Feathered Archmage Set ------
 		iensemble(243480, {	-- Ensemble: Feathered Collection of the Archmage
 			["timeline"] = { ADDED_11_1_5 },
@@ -633,6 +636,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		-- #endif
 		i(219450, {	-- Charming Courier (MOUNT!)
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
+		}),
+		i(250108, {	-- Cragstepper Crest-Horn (MOUNT!)
+			["timeline"] = { ADDED_11_2_7 },
 		}),
 		i(109013, {	-- Dread Raven (MOUNT!)
 			["timeline"] = { ADDED_10_1_0 },
