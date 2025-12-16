@@ -2372,7 +2372,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				i(116762, {	-- Stolen Present
 					["timeline"] = { ADDED_6_0_2 },
 					-- #if AFTER TWW
-					["description"] = "This gift is granted to any characters completing the the daily quest, which requires lvl 30.",
+					["description"] = "This gift is granted to any characters completing the daily quest, which requires lvl 30.",
 					["lvl"] = { 30, 80 },	-- Danny Donkey: Replaces Stolen Gift (149503) for the bracket 30-59.
 					-- #else
 					["lvl"] = 50,
