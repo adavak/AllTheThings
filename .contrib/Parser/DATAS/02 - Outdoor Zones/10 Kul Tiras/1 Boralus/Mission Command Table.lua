@@ -19,6 +19,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["_doautomation"] = true,
 				}),
 				i(163036, {["races"]=IGNORED_VALUE}),	-- Polished Pet Charm
+				i(149503, {["races"]=IGNORED_VALUE}),	-- Stolen Gift
 				mission(2078),	-- Azeroth Bleed
 				mission(2087),	-- Explore the Roost
 				mission(1877, {	-- The Shadow War

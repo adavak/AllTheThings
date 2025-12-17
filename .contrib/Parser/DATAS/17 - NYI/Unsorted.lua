@@ -5627,7 +5627,6 @@ root(ROOTS.Unsorted, {
 				i(246487),	-- Gnomish Tesla Coil
 				i(247908),	-- Nightborne Lantern
 				i(247915),	-- Square Suramar Table
-				i(248116),	-- Valdrakken Chandelier
 				i(248934),	-- Golden Cloud Serpent Treasure Chest
 				i(263021),	-- Brumewood Hollow Grassy Patch
 				i(263022),	-- Brumewood Hollow Grassy Spread
@@ -7723,7 +7722,6 @@ root(ROOTS.Unsorted, {
 			i(168655),	-- Greater Mystical Flask
 			i(168662),	-- Maroon Pigment
 			i(168755),	-- Unpublished Research
-			i(168786),	-- Rotten Food
 			i(168789),	-- Perpetual Motion Device
 			i(168790),	-- Sack of Fish Bones
 			i(168797),	-- Stack of Undeliverable Mail

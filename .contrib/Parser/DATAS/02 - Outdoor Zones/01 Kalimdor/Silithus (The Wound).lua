@@ -1062,6 +1062,16 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["groups"] = sharedData({
 								["timeline"] = { ADDED_8_3_0 },
 							}, {
+								i(247667, {	-- MOTHER's Titanic Brazier (DECOR!)
+									["sourceAchievement"] = 40953,	-- A Farewell to Arms
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = { { "c", 1803, 10000 }, },	-- 10,000x Echoes of Ny'alotha
+								}),
+								i(247668, {	-- N'Zoth's Captured Eye (DECOR!)
+									["sourceAchievement"] = 40953,	-- A Farewell to Arms
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = { { "c", 1803, 10000 }, },	-- 10,000x Echoes of Ny'alotha
+								}),
 								i(173363, {	-- Vessel of Horrific Visions
 									["cost"] = { { "c", 1803, 1750 }, },	-- 1750 Echoes of Ny'alotha
 								}),

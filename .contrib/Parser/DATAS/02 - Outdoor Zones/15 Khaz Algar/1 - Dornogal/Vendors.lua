@@ -705,6 +705,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					i(253173),	-- Meadery Storage Barrel (DECOR!)
 					i(245655),	-- Filigree Moon Lamp (DECOR!)
 					i(245259),	-- Small Val'sharah Bookcase (DECOR!)
+					i(248116, {	-- Valdrakken Chandelier (DECOR!)
+						["sourceQuest"] = 92578,	-- Draconic Decor
+					}),
 				},
 			}),
 			n(234906, {	-- Syenite

@@ -2268,8 +2268,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["isYearly"] = true,
 		}),
 		q(81560, {	-- Winter's Presents
-			["qg"] = 220307,	-- Holiday Enthusiast
-			["coord"] = { 46, 55.1, DORNOGAL },
+			["qgs"] = {
+				220307,	-- Holiday Enthusiast
+				220865,	-- Holiday Enthusiast
+				220870, -- Holiday Enthusiast
+			},
+			["coords"] = {
+				{ 46.0, 55.1, DORNOGAL },
+				{ 56.9, 28.7, DORNOGAL },
+				{ 55.6, 61.2, DORNOGAL },
+			},
 			["timeline"] = { ADDED_11_0_7 },
 			["races"] = ALLIANCE_ONLY,
 			["isYearly"] = true,

@@ -719,10 +719,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42917, {	-- Champion: Archmage Vargoth
 						["sourceQuest"] = 42734,	-- Into the Oculus
 						["provider"] = { "n", 109226 },	-- Archmage Vargoth <Kirin Tor>
-						["coord"] = { 71.2, 63.5, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(762),	-- Archmage Vargoth
+						["coords"] = {
+							{ 67.5, 54.3, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+							{ 71.2, 63.5, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						},
+						["groups"] = { follower(762) },	-- Archmage Vargoth
 					}),
 					q(43415, {	-- A Hero's Weapon
 						["sourceQuest"] = 42914,	-- Champion: Meryl Felstorm

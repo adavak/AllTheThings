@@ -334,6 +334,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 				["lvl"] = 80,
 				["groups"] = { i(232877) },	-- Timely Goodie Bag
 			}),
+			q(82817, {	-- Disturbance Detected: Blackrock Depths
+				["qgs"] = { 234556 },	-- Grannadormu
+				["coords"] = {
+					{ 52.8, 82.8, ORGRIMMAR },
+					{ 56.0, 18.4, STORMWIND_CITY },
+				},
+				["timeline"] = { ADDED_11_2_7 },
+				["isWeekly"] = true,
+				["groups"] = { i(232471) },	-- Cache of Dark Iron Treasures
+			}),
 			q(83285, {	-- The Ancient Scroll
 				["provider"] = { "i", 225348 },	-- Ancient Timewarped Scroll
 				["isWeekly"] = true,

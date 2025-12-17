@@ -518,6 +518,7 @@ i(170031);	-- Moldy Tome
 i(168795);	-- Old Boot
 i(168796);	-- Recycled Scroll
 i(168009);	-- Rotten Direbloom Petal
+i(168786);	-- Rotten Food
 i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
 i(170001);	-- Seized Engine

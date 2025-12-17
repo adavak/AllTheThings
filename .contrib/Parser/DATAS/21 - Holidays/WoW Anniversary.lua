@@ -2700,7 +2700,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								{ 56.0, 18.4, STORMWIND_CITY },
 								-- #endif
 							},
-							["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7},
+							["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 							["isWeekly"] = true,
 							["groups"] = {
 								i(232471, {	-- Cache of Dark Iron Treasures
@@ -2711,7 +2711,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						q(84735, {	-- Truth of the Dark Irons
 							["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
 							["coord"] = { 63.0, 49.7, TANARIS },
-							["timeline"] = {ADDED_11_0_5, REMOVED_11_0_7},
+							["timeline"] = { ADDED_11_0_5, REMOVED_11_0_7 },
 						}),
 						------ Stay awhile and listen ------
 						hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
