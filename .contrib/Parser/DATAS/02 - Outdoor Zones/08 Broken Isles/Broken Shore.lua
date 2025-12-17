@@ -746,7 +746,20 @@ root(ROOTS.Zones, {
 							-- #ELSE
 							46247,	-- Defending Broken Isles
 							-- #ENDIF
+							43407,	-- A Hero's Weapon (Death Knight)
+							43412,	-- A Hero's Weapon (Demon Hunter)
+							43409,	-- A Hero's Weapon (Druid)
+							43423,	-- A Hero's Weapon (Hunter)
+							43415,	-- A Hero's Weapon (Mage)
+							43359,	-- A Hero's Weapon (Monk)
+							43424,	-- A Hero's Weapon (Paladin)
+							43420,	-- A Hero's Weapon (Priest)
+							43422,	-- A Hero's Weapon (Rogue)
+							43418,	-- A Hero's Weapon (Shaman)
+							43414,	-- A Hero's Weapon (Warlock)
+							43425,	-- A Hero's Weapon (Warrior)
 						},
+						["sourceQuestNumRequired"] = 2,
 						["provider"] = { "n", 116576 },	-- Maiev Shadowsong
 						["coord"] = { 44.4, 63.4, BROKEN_SHORE },
 					}),

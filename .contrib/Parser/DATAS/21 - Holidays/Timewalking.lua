@@ -5070,9 +5070,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(321, {	-- Mogu'shan Palace
 			e(708, {	-- Trial of the King (Ming the Cunning; 61442 Kuai the Brute, 61445 Haiyan the Unstoppable)
 				["crs"] = {
-					modItemId(61445,1),	-- Haiyan the Unstoppable
-					modItemId(61442,1),	-- Kuai the Brute
-					modItemId(61444,1),	-- Ming the Cunning
+					61445,	-- Haiyan the Unstoppable
+					61442,	-- Kuai the Brute
+					61444,	-- Ming the Cunning
 				},
 				["sym"] = {{"select", "modItemID",
 					modItemId(144020,1),	-- Crest of the Clan Lords
@@ -5112,8 +5112,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		inst_tw(246, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 }},{	-- Scholomance
 			e(659,   {	-- Instructor Chillheart
 				["crs"] = {
-					modItemId(58633,2),	-- Instructor Chillheart
-					modItemId(58664,2),	-- Instructor Chillheart's Phylactery
+					58633,	-- Instructor Chillheart
+					58664,	-- Instructor Chillheart's Phylactery
 				},
 				["sym"] = {{"select", "modItemID",
 					modItemId(144201,2),	-- Gravetouch Greatsword
@@ -6399,8 +6399,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 			e(1672, {	-- Lord Kur'talos Ravencrest
 				["crs"] = {
-					modItemId(98970,1),	-- Dantalionax
-					modItemId(98965,1),	-- Kur'talos Ravencrest
+					98970,	-- Dantalionax
+					98965,	-- Kur'talos Ravencrest
 				},
 				["sym"] = {{"select", "modItemID",
 					modItemId(136716,1),	-- Caged Horror
