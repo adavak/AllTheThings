@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 			q(78864, {	-- The Returning
 				["sourceQuests"] = { 78863 },	-- A Place Beneath the Boughs
 				["provider"] = { "n", 216067 },	-- Shandris Feathermoon
-				["coord"] = { 51, 60.6, AMIRDRASSIL },
+				["coord"] = { 51.0, 60.6, AMIRDRASSIL },
 				["groups"] = {
 					i(251022, { ["timeline"] = { ADDED_11_2_7 } }),	-- Bel'ameth Traveler's Pack (DECOR!)
 					i(213004),	-- Violet Kaldorei Backpack (COSMETIC!)
@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 			q(80071, {	-- Fact Finding
 				["sourceQuests"] = { 80069 },	-- Tears of Teldrassil
 				["provider"] = { "n", 218697 },	-- Kelestra
-				["coord"] = { 73, 79.4, AMIRDRASSIL },
+				["coord"] = { 73.0, 79.4, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(80072, {	-- A Primalist Point of View

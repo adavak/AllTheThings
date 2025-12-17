@@ -239,7 +239,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(5090, {	-- A Call to Arms: The Plaguelands! [Ironforge]
 					["qg"] = 10877,	-- Courier Hammerfall
-					["coord"] = { 31.6, 67, IRONFORGE },
+					["coord"] = { 31.6, 67.0, IRONFORGE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -271,7 +271,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(5094, {	-- A Call to Arms: The Plaguelands! [Undercity]
 					["qg"] = 10879,	-- Harbinger Balthazad
-					["coord"] = { 64, 44, UNDERCITY },
+					["coord"] = { 64.0, 44.0, UNDERCITY },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
@@ -431,7 +431,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "i",  15042 },	-- Empty Termite Jar
 								{ "o", 177464 },	-- Large Termite Mound
 							},
-							["coord"] = { 42, 38, EASTERN_PLAGUELANDS },
+							["coord"] = { 42.0, 38.0, EASTERN_PLAGUELANDS },
 						}),
 					},
 				},
@@ -598,19 +598,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- Tower One marked
 							["provider"] = { "i", 12815 },	-- Beacon Torch
-							["coord"] = { 40, 72, WESTERN_PLAGUELANDS },
+							["coord"] = { 40.0, 72.0, WESTERN_PLAGUELANDS },
 						}),
 						objective(2, {	-- Tower Two marked
 							["provider"] = { "i", 12815 },	-- Beacon Torch
-							["coord"] = { 42, 66, WESTERN_PLAGUELANDS },
+							["coord"] = { 42.0, 66.0, WESTERN_PLAGUELANDS },
 						}),
 						objective(3, {	-- Tower Three marked
 							["provider"] = { "i", 12815 },	-- Beacon Torch
-							["coord"] = { 44, 63, WESTERN_PLAGUELANDS },
+							["coord"] = { 44.0, 63.0, WESTERN_PLAGUELANDS },
 						}),
 						objective(4, {	-- Tower Four marked
 							["provider"] = { "i", 12815 },	-- Beacon Torch
-							["coord"] = { 46, 70, WESTERN_PLAGUELANDS },
+							["coord"] = { 46.0, 70.0, WESTERN_PLAGUELANDS },
 						}),
 					},
 				},
@@ -1105,7 +1105,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						5231,	-- Target: Dalson's Tears
 					},
 					["provider"] = { "o", 177289 },	-- Scourge Cauldron
-					["coord"] = { 46.2, 52, WESTERN_PLAGUELANDS },
+					["coord"] = { 46.2, 52.0, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["cost"] = {
 						{ "i", 13320, 1 },	-- Arcane Quickener
@@ -1696,7 +1696,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "o", 177289 },	-- Scourge Cauldron
 						{ "i",  13191 },	-- Filled Dalson's Tears Bottle
 					},
-					["coord"] = { 46.2, 52, WESTERN_PLAGUELANDS },
+					["coord"] = { 46.2, 52.0, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 50,
 				},
@@ -1741,7 +1741,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "o", 176393 },	-- Scourge Cauldron
 						{ "i",  13192 },	-- Filled Writhing Haunt Bottle
 					},
-					["coord"] = { 53, 65.7, WESTERN_PLAGUELANDS },
+					["coord"] = { 53.0, 65.7, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 50,
 				},
@@ -1778,7 +1778,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["coords"] = {
 								{ 83.1, 69.1, TIRISFAL_GLADES },
-								{ 40, 53, WESTERN_PLAGUELANDS },
+								{ 40.0, 53.0, WESTERN_PLAGUELANDS },
 							},
 						}),
 					},
@@ -2266,7 +2266,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Scourge Bone Animus destroyed
 							["provider"] = { "o", 204966 },	-- Scourge Bone Animus
-							["coord"] = { 42, 66, WESTERN_PLAGUELANDS },
+							["coord"] = { 42.0, 66.0, WESTERN_PLAGUELANDS },
 						}),
 						objective(2, {	-- 0/5 Stickbone Berserker slain
 							["provider"] = { "n", 44329 },	-- Stickbone Berserker
@@ -2601,7 +2601,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6004, {	-- Unfinished Business (1/3)
 					["qg"] = 11610,	-- Kirsta Deepshadow
-					["coord"] = { 52, 28, WESTERN_PLAGUELANDS },
+					["coord"] = { 52.0, 28.0, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 50,
 					["groups"] = {
@@ -2622,7 +2622,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(6023, {	-- Unfinished Business (2/3)
 					["sourceQuest"] = 6004,	-- Unfinished Business (1/3)
 					["qg"] = 11610,	-- Kirsta Deepshadow
-					["coord"] = { 52, 28, WESTERN_PLAGUELANDS },
+					["coord"] = { 52.0, 28.0, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 50,
 					["groups"] = {
@@ -2639,7 +2639,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(6025, {	-- Unfinished Business (3/3)
 					["sourceQuest"] = 6023,	-- Unfinished Business (2/3)
 					["qg"] = 11610,	-- Kirsta Deepshadow
-					["coord"] = { 52, 28, WESTERN_PLAGUELANDS },
+					["coord"] = { 52.0, 28.0, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 50,
 				}),
@@ -2668,7 +2668,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- Uther's blessing
 							["provider"] = { "i", 61920 },	-- Chillwind Tribute
-							["coord"] = { 52, 82.8, WESTERN_PLAGUELANDS },
+							["coord"] = { 52.0, 82.8, WESTERN_PLAGUELANDS },
 						}),
 					},
 				}),
@@ -2843,7 +2843,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						5233,	-- Target: Writhing Haunt
 					},
 					["provider"] = { "o", 176393 },	-- Scourge Cauldron
-					["coord"] = { 53, 65.7, WESTERN_PLAGUELANDS },
+					["coord"] = { 53.0, 65.7, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["cost"] = {
 						{ "i", 13320, 1 },	-- Arcane Quickener

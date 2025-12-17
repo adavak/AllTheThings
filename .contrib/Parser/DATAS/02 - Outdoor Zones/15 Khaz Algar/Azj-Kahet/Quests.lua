@@ -336,7 +336,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(79119, {	-- It's Rough to Be a Bug!
 					["sourceQuests"] = { 83325 },
 					["provider"] = { "n", 214359 },	-- Kish'nal
-					["coord"] = { 76, 82.4, AZJ_KAHET },
+					["coord"] = { 76.0, 82.4, AZJ_KAHET },
 				}),
 				q(79114, {	-- Beautification Project
 					["sourceQuests"] = { 79119 },	-- It's Rough to Be a Bug!
@@ -361,7 +361,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(79120, {	-- Beetle in a Haystack
 					["sourceQuests"] = { 79118 },	-- Rak-Ush Under New Management
 					["provider"] = { "n", 214356 },	-- Vix'aron
-					["coord"] = { 75, 80.9, AZJ_KAHET },
+					["coord"] = { 75.0, 80.9, AZJ_KAHET },
 					["groups"] = {
 						i(213392),	-- Smoke Grenade (QI!)
 					},
@@ -369,12 +369,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(79121, {	-- Bug Test
 					["sourceQuests"] = { 79120 },	-- Beetle in a Haystack
 					["provider"] = { "n", 214359 },	-- Kish'nal
-					["coord"] = { 75, 80.7, AZJ_KAHET },
+					["coord"] = { 75.0, 80.7, AZJ_KAHET },
 				}),
 				q(79122, {	-- Scarab Scouting
 					["sourceQuests"] = { 79121 },	-- Bug Test
 					["provider"] = { "n", 214359 },	-- Kish'nal
-					["coord"] = { 75, 80.7, AZJ_KAHET },
+					["coord"] = { 75.0, 80.7, AZJ_KAHET },
 					["groups"] = {
 						i(228440),	-- Chitin-Laced Shoulderguards
 						i(228439),	-- Mitts of Menial Tasks
@@ -385,7 +385,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				q(79123, {	-- Permanent Hire
 					["sourceQuests"] = { 79122 },	-- Scarab Scouting
 					["provider"] = { "n", 214359 },	-- Kish'nal
-					["coord"] = { 75, 80.7, AZJ_KAHET },
+					["coord"] = { 75.0, 80.7, AZJ_KAHET },
 					["groups"] = {
 						i(225935),	-- Rak-Ush Battleshell (PET!)
 					},
@@ -1103,7 +1103,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["provider"] = { "n", 227217 },	-- Webster
 				["coords"] = {
 					{ 31.6, 63.2, DORNOGAL },
-					{ 57, 41.7, AZJ_KAHET },
+					{ 57.0, 41.7, AZJ_KAHET },
 					{ 39.4, 65.4, NERUBAR },
 				},
 			}),
@@ -1120,12 +1120,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			q(82126, {	-- Defense of the People
 				["sourceQuests"] = { 82125 },	-- A Spy Like Us
 				["provider"] = { "n", 222790  },	-- Gut'usu
-				["coord"] = { 57.2, 41, NERUBAR_LOWER },
+				["coord"] = { 57.2, 41.0, NERUBAR_LOWER },
 			}),
 			q(82127, {	-- Make Them Prey
 				["sourceQuests"] = { 82125 },	-- A Spy Like Us
 				["provider"] = { "n", 222790  },	-- Gut'usu
-				["coord"] = { 57.2, 41, NERUBAR_LOWER },
+				["coord"] = { 57.2, 41.0, NERUBAR_LOWER },
 			}),
 			q(82130, {	-- A Shot at the Top
 				["sourceQuests"] = {
@@ -1133,7 +1133,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					82127,	-- Make Them Prey
 				},
 				["provider"] = { "n", 222790  },	-- Gut'usu
-				["coord"] = { 57.2, 41, NERUBAR_LOWER },
+				["coord"] = { 57.2, 41.0, NERUBAR_LOWER },
 			}),
 			q(82141, {	-- To Kill a Queen
 				["sourceQuests"] = { 82130 },	-- A Shot at the Top

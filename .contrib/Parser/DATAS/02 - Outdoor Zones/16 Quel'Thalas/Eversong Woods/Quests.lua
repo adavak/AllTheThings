@@ -522,7 +522,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(90835, {	-- Rumors Abound
 						--["sourceQuests"] = { xx },	-- xx
 						["provider"] = { "n", 244493 },	-- Avara
-						["coord"] = { 56, 63.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["coord"] = { 56.0, 63.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["groups"] = {
 						},
 					}),

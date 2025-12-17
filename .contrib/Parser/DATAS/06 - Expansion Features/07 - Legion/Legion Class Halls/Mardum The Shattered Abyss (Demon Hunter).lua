@@ -143,7 +143,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						q(39247, {	-- The Hunt (Kayn)
 							["sourceQuest"] = 39051,	-- By Any Means (Kayn)
 							["provider"] = { "n", 94902 },	-- Kayn Sunfury
-							["coord"] = { 50.5, 70, 723 },	-- The Violet Hold
+							["coord"] = { 50.5, 70.0, 723 },	-- The Violet Hold
 							["groups"] = {
 								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 									["ItemAppearanceModifierID"] = 9,

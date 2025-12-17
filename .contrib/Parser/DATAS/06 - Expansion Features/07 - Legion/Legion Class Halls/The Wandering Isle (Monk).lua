@@ -26,7 +26,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						gt(254, {	-- Brewhouse
 							["description"] = "Click this once per day.",
 							["questID"] = 43974,
-							["coord"] = { 55, 56.5, THE_WANDERING_ISLE },
+							["coord"] = { 55.0, 56.5, THE_WANDERING_ISLE },
 							["groups"] = {
 								i(139561, {	-- Legend of the Monkey King
 									artifact(959),	-- Fu Zan, the Wanderer's Companion

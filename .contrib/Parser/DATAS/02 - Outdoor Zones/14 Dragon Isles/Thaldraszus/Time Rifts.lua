@@ -373,7 +373,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					q(76351, {	-- Titanic Beasts
 						["provider"] = { "i", 206564 },	-- Time-Displaced Titanic Disc (QI!)
 						["coords"] = {
-							{ 55, 57.5, ULDEROTH },
+							{ 55.0, 57.5, ULDEROTH },
 							{ 45.8, 72.1, 2199 },	-- Tyrhold Reservoir (Scenario Map)
 						},
 					}),

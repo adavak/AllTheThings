@@ -180,7 +180,7 @@ root(ROOTS.Zones, {
 				}),
 				o(250987, {	-- Small Treasure Chest
 					["questID"] = 42632,
-					["coord"] = { 74, 52.2, STORMHEIM },
+					["coord"] = { 74.0, 52.2, STORMHEIM },
 				}),
 				o(251776, {	-- Small Treasure Chest
 					["questID"] = 43238,
@@ -188,7 +188,7 @@ root(ROOTS.Zones, {
 				}),
 				o(241153, {	-- Small Treasure Chest
 					["questID"] = 38483,
-					["coord"] = { 50.3, 41, STORMHEIM },
+					["coord"] = { 50.3, 41.0, STORMHEIM },
 					["description"] = "Inside the cave.",
 				}),
 				o(269079, {	-- Small Treasure Chest

@@ -399,7 +399,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(70766, {	-- The Fractured Flame
 						["sourceQuests"] = { 70507 },	-- The Insight of Tyr
 						["provider"] = { "i", 199790 },	-- Makko's Journal Cover
-						["coord"] = { 44, 66, OHNAHRAN_PLAINS },
+						["coord"] = { 44.0, 66.0, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(203598),	-- Makko's Journal Cover (QI!)
 							i(200295),	-- Makko's Complete Journal (QI!) [book]

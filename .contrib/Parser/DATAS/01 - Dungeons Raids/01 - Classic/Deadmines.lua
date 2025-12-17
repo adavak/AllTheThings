@@ -265,7 +265,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 					-- #if AFTER WRATH
 					{ 57.7, 47.9, STORMWIND_CITY },
 					-- #else
-					{ 49, 30.2, STORMWIND_CITY },
+					{ 49.0, 30.2, STORMWIND_CITY },
 					-- #endif
 				},
 				["timeline"] = { REMOVED_4_0_3 },

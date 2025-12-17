@@ -432,7 +432,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 41.4, 78.0, THE_HALL_OF_SHADOWS },
 						["groups"] = {
 							o(253072, {	-- SI:7 Missive
-								["coord"] = { 81.4, 70, THE_HALL_OF_SHADOWS },
+								["coord"] = { 81.4, 70.0, THE_HALL_OF_SHADOWS },
 								["groups"] = { i(140278) },	-- SI:7 Missive (QI!)
 							}),
 						},

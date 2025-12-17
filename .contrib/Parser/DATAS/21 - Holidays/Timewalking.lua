@@ -978,7 +978,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 			}),
 			q(47523, {	-- Disturbance Detected: Black Temple
 				["provider"] = { "n", 123252 },	-- Vormu
-				["coord"] = { 54.6, 39,  SHATTRATH_CITY },
+				["coord"] = { 54.6, 39.0,  SHATTRATH_CITY },
 				["timeline"] = { ADDED_7_2_5 },
 				["isWeekly"] = true,
 				["groups"] = {

@@ -1004,7 +1004,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(145695, {	-- "Bad Luck" Symmes <Brawl'gar Arena Quartermaster>
 				["sourceQuest"] = 53914,	-- Murder at the Brawl'gar Arena
 				["maps"] = { BRAWLGAR_ARENA },
-				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+				-- ["coord"] = { 0.0, 0.0, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 				["sym"] = { {"sub", "common_vendor", 68364} },	-- Paul North <Brawl'gar Arena Quartermaster>
@@ -1102,7 +1102,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(151941, {	-- Dershway the Triggered <Bizmo's Brawlpub Quartermaster>
 				["sourceQuest"] = 55002,	-- Murder at the Brawlpub
 				["maps"] = { DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
-				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				-- ["coord"] = { 0.0, 0.0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 				["sym"] = { {"sub", "common_vendor", 68363} },	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
@@ -1110,7 +1110,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(70714, {	-- Harr Grayhide <Luxury Food Vendor>
 				["maps"] = { BRAWLGAR_ARENA },
 				-- Wouter TODO: add coords
-				-- ["coord"] = { 0, 0, BRAWLGAR_ARENA },
+				-- ["coord"] = { 0.0, 0.0, BRAWLGAR_ARENA },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 				-- #if BFA
@@ -1124,7 +1124,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			n(70713, {	-- Haxxil Drinkmeister <Rare and Luxury Drink Vendor>
 				["maps"] = { BRAWLGAR_ARENA },
 				-- Wouter TODO: add coords
-				-- ["coord"] = { 0, 0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
+				-- ["coord"] = { 0.0, 0.0, DEEPRUN_TRAM_BIZMOS_BRAWLPUB },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_5_3_0, REMOVED_9_0_2_LAUNCH, ADDED_11_2_7 },
 				-- #if BFA

@@ -99,7 +99,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		["groups"] = {
 			q(78068, {	-- An Artificer's Appeal
 				["provider"] = { "o", 415303 },	-- Magically-Sealed Parcel
-				["coord"] = { 53, 15.5, STORMWIND_CITY },
+				["coord"] = { 53.0, 15.5, STORMWIND_CITY },
 				["groups"] = {
 					i(210454),	-- Spare Hologem (QI!)
 				},
@@ -852,12 +852,12 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(76194, {	-- A Grim Portent
 				["sourceQuests"] = { 75891 },	-- Ancient Curses
 				["provider"] = { "n", 202702 },	-- Maiev Stormsong
-				["coord"] = { 54, 79.4, FELWOOD },
+				["coord"] = { 54.0, 79.4, FELWOOD },
 			}),
 			q(76195, {	-- Countering Corruption
 				["sourceQuests"] = { 76194 },	-- A Grim Portent
 				["provider"] = { "n", 202700 },	-- Lysander Starshade
-				["coord"] = { 54, 79.4, FELWOOD },
+				["coord"] = { 54.0, 79.4, FELWOOD },
 				["groups"] = {
 					i(207004),	-- Incanter's Tome (QI!)
 				},
@@ -865,7 +865,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(76196, {	-- Mercy or Misery
 				["sourceQuests"] = { 76194 },	-- A Grim Portent
 				["provider"] = { "n", 202701 },	-- Arko'narin Starshade
-				["coord"] = { 54, 79.4, FELWOOD },
+				["coord"] = { 54.0, 79.4, FELWOOD },
 			}),
 			q(76203, {	-- Stepping into the Shadows
 				["sourceQuests"] = {
@@ -878,7 +878,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(76197, {	-- A Glimpse of Terror
 				["sourceQuests"] = { 76203 },	-- Stepping into the Shadows
 				["provider"] = { "n", 202702 },	-- Maiev Stormsong
-				["coord"] = { 38, 53.7, FELWOOD },
+				["coord"] = { 38.0, 53.7, FELWOOD },
 			}),
 			q(76205, {	-- Balancing the Scales
 				["sourceQuests"] = { 76197 },	-- A Glimpse of Terror
@@ -1117,7 +1117,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				q(84452, {	-- The Wanderers [H]
 					["sourceQuest"] = 84444,	-- Invitation to the Spirit Festival [H]
 					["qg"] = 229338,	-- Li Li Stormstout
-					["coord"] = { 70.5, 39, ORGRIMMAR },
+					["coord"] = { 70.5, 39.0, ORGRIMMAR },
 					["races"] = { PANDAREN_HORDE },
 				}),
 				q(84456, {	-- To Morning Breeze [A]
@@ -1529,7 +1529,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(72858, {	-- Acid Beats Paper
 				["sourceQuests"] = { 72855 },	-- To the Sepulcher
 				["provider"] = { "n", 199768 },	-- Dark Ranger Velonara
-				["coord"] = { 45.4, 42, SILVERPINE_FOREST },
+				["coord"] = { 45.4, 42.0, SILVERPINE_FOREST },
 				["groups"] = { i(202182) },	-- Acid Rifle (QI!)
 			}),
 			q(72857, {	-- Boom Weed
@@ -1599,7 +1599,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(72862, {	-- Among Us
 				["sourceQuests"] = { 72861 },	-- The Scarlet Spy
 				["provider"] = { "n", 199806 },	-- Quartermaster Newlem
-				["coord"] = { 64, 33.5, SILVERPINE_FOREST },
+				["coord"] = { 64.0, 33.5, SILVERPINE_FOREST },
 			}),
 			q(72863, {	-- The Flight of the Banshee
 				["sourceQuests"] = { 72862 },	-- Among Us
@@ -1614,7 +1614,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(72865, {	-- This is the Hour of the Forsaken
 				["sourceQuests"] = { 72864 },	-- Death to the Living
 				["provider"] = { "n", 199893 },	-- Lilian Voss
-				["coord"] = { 66.2, 31, SILVERPINE_FOREST },
+				["coord"] = { 66.2, 31.0, SILVERPINE_FOREST },
 			}),
 			q(72866, {	-- Return to Lordaeron
 				["sourceQuests"] = { 72865 },	-- This is the Hour of the Forsaken

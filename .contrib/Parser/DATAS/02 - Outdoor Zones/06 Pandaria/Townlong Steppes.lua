@@ -192,7 +192,7 @@ root(ROOTS.Zones, {
 					}),
 					q(31198, {	-- A Morale Victory
 						["qg"] = 63614,	-- Ling of the Six Pools
-						["coord"] = { 49, 71.2, TOWNLONG_STEPPES },
+						["coord"] = { 49.0, 71.2, TOWNLONG_STEPPES },
 						["isDaily"] = true,
 					}),
 					q(30964, {	-- A Proper Poultice

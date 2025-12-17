@@ -484,7 +484,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			n(QUESTS, {
 				q(72686, {	-- Storm Surge
 					["provider"] = { "n", 196598 },	-- Rethelshi
-					["coord"] = { 38.2, 37, VALDRAKKEN },
+					["coord"] = { 38.2, 37.0, VALDRAKKEN },
 					["isWeekly"] = true,
 					["groups"] = {
 						currency(2122),	-- Storm Sigil

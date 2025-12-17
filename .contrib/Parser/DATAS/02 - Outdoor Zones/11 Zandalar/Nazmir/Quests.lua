@@ -649,7 +649,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["groups"] = { i(154137) },	-- Pristine Phylactery (QI!)
 					}),
 					o(278337, {	-- Repaired Phylactery
-						["coord"] = {  40.9, 52, NAZMIR },
+						["coord"] = { 40.9, 52.0, NAZMIR },
 						["groups"] = { i(152468) },	-- epaired Phylactery (QI!)
 					}),
 					i(154130),	-- Spirit Powder (QI!)

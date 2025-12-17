@@ -311,7 +311,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				}),
 				q(6825, {	-- Call of Air - Guse's Fleet
 					["qg"] = 13179,	-- Wing Commander Guse
-					["coord"] = { 50, 32, ALTERAC_VALLEY },
+					["coord"] = { 50.0, 32.0, ALTERAC_VALLEY },
 					["maxReputation"] = { FACTION_FROSTWOLF_CLAN, EXALTED },	-- Frostwolf Clan, Exalted.
 					["cost"] = { { "i", 17326, 1 } },	-- Stormpike Soldier's Flesh
 					["races"] = HORDE_ONLY,

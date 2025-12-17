@@ -104,7 +104,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(7635, bubbleDown({ ["timeline"] = REMOVED_WITH_CATA }, {	-- A Proper String
 					["sourceQuest"] = 7633,	-- An Introduction
 					["qg"] = 14525,	-- Stoma the Ancient
-					["coord"] = { 47, 24.48, FELWOOD },
+					["coord"] = { 47.0, 24.48, FELWOOD },
 					-- #if AFTER WRATH
 					["maps"] = { BURNING_STEPPES },
 					-- #endif
@@ -140,7 +140,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(7634, bubbleDown({ ["timeline"] = REMOVED_WITH_CATA }, {	-- Ancient Sinew Wrapped Lamina
 					["sourceQuest"] = 7633,	-- An Introduction
 					["qg"] = 14526,	-- Hastat the Ancient
-					["coord"] = { 47, 24.48, FELWOOD },
+					["coord"] = { 47.0, 24.48, FELWOOD },
 					["maps"] = { WINTERSPRING },
 					["cost"] = { { "i", 18704, 1 } },	-- Mature Blue Dragon Sinew
 					["classes"] = { HUNTER },
@@ -267,7 +267,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ "n", 14524 },	-- Vartrus the Ancient
 						{ "i", 18708 },	-- Petrified Bark
 					},
-					["coord"] = { 47, 24.48, FELWOOD },
+					["coord"] = { 47.0, 24.48, FELWOOD },
 					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { UNGORO_CRATER, BURNING_STEPPES, SILITHUS, WINTERSPRING },
 					["classes"] = { HUNTER },
@@ -336,7 +336,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ "n", 14524 },	-- Vartrus the Ancient
 						{ "i", 18708 },	-- Petrified Bark
 					},
-					["coord"] = { 47, 24.48, FELWOOD },
+					["coord"] = { 47.0, 24.48, FELWOOD },
 					["maps"] = { UNGORO_CRATER, BURNING_STEPPES, SILITHUS, WINTERSPRING },
 					["classes"] = { HUNTER },
 					["lvl"] = lvlsquish(60, 60, 30),

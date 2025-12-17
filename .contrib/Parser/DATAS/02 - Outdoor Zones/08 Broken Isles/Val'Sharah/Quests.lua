@@ -149,7 +149,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["coords"] = {
 						{ 48.9, 81.6, VALSHARAH },
-						{ 67.2, 27, 643 },	-- Sleeper's Barrow
+						{ 67.2, 27.0, 643 },	-- Sleeper's Barrow
 					},
 				}),
 				------ Chapter 3 ------

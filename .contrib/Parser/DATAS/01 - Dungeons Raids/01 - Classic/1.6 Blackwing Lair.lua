@@ -127,7 +127,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 						-- #elseif AFTER CATA
 						{ 48.6, 71.0, ORGRIMMAR },	-- Saurfang, Vol'jin, Garrosh
 						-- #else
-						{ 32, 37.8, ORGRIMMAR },	-- Thrall <Warchief>
+						{ 32.0, 37.8, ORGRIMMAR },	-- Thrall <Warchief>
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
@@ -639,7 +639,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					q(85644, {	-- The Lord of Blackrock [H] (2/2)
 						["sourceQuest"] = 7783,	-- The Lord of Blackrock [H]
 						["qg"] = 4949,	-- Thrall <Warchief>
-						["coord"] = { 32, 37.8, ORGRIMMAR },
+						["coord"] = { 32.0, 37.8, ORGRIMMAR },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(230840),	-- Master Dragonslayer's Medallion

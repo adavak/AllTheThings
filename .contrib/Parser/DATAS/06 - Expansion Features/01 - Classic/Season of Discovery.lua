@@ -656,7 +656,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { FERALAS, THE_HINTERLANDS, ZULFARRAK },
@@ -696,7 +696,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { THE_BARRENS },
 					["groups"] = {
@@ -732,7 +732,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						{ "i", 210177 },	-- Ataeric: On Arcane Curiosities
 						{ "n", 211022 },	-- Owen Thadd <Librarian>
 					},
-					["coord"] = { 73.6, 33, UNDERCITY },
+					["coord"] = { 73.6, 33.0, UNDERCITY },
 					["maps"] = { SILVERPINE_FOREST },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -747,7 +747,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { THE_BARRENS },
 					["groups"] = {
@@ -762,7 +762,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { WESTFALL },
 					["groups"] = {
@@ -777,7 +777,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { DUSKWOOD },
 					["groups"] = {
@@ -810,7 +810,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					["sourceQuestNumRequired"] = 10,
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["groups"] = {
 						recipe(425170),	-- Engrave Pants - Icy Veins
@@ -824,7 +824,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { STONETALON_MOUNTAINS },
 					["groups"] = {
@@ -839,7 +839,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { WETLANDS },
 					["groups"] = {
@@ -854,7 +854,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { DARKSHORE },
 					["groups"] = {
@@ -881,7 +881,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { LOCH_MODAN },
 					["groups"] = {
@@ -896,7 +896,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { WAILING_CAVERNS },
 					["groups"] = {
@@ -908,7 +908,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						{ "i", 208185 },	-- The Apothecary's Metaphysical Primer
 						{ "n", 211022 },	-- Owen Thadd <Librarian>
 					},
-					["coord"] = { 73.6, 33, UNDERCITY },
+					["coord"] = { 73.6, 33.0, UNDERCITY },
 					["maps"] = { TIRISFAL_GLADES },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -923,7 +923,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					},
 					["coords"] = {
 						{ 37.8, 80.2, STORMWIND_CITY },
-						{ 73.6, 33, UNDERCITY },
+						{ 73.6, 33.0, UNDERCITY },
 					},
 					["maps"] = { SILVERPINE_FOREST },
 					["groups"] = {
@@ -935,7 +935,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						{ "i", 207972 },	-- The Lessons of Ta'zo
 						{ "n", 211022 },	-- Owen Thadd <Librarian>
 					},
-					["coord"] = { 73.6, 33, UNDERCITY },
+					["coord"] = { 73.6, 33.0, UNDERCITY },
 					["maps"] = { ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -1339,7 +1339,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				["groups"] = {
 					objective(1, {	-- Rescue Alyssian Windcaller
 						["provider"] = { "n", 221270 },	-- Alyssian Windcaller <Druid of the Claw>
-						["coord"] = { 92, 54, ASHENVALE },
+						["coord"] = { 92.0, 54.0, ASHENVALE },
 					}),
 				},
 			}),
@@ -1363,7 +1363,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				["groups"] = {
 					objective(1, {	-- Rescue Maseara Autumnmoon
 						["provider"] = { "n", 221269 },	-- Maseara Autumnmoon <Druid of the Claw>
-						["coord"] = { 81, 50, ASHENVALE },
+						["coord"] = { 81.0, 50.0, ASHENVALE },
 					}),
 				},
 			}),
@@ -1884,7 +1884,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				["groups"] = {
 					objective(1, {	-- Rescue Nerene Brooksinger
 						["provider"] = { "n", 221398 },	-- Nerene Brooksinger <Druid of the Claw>
-						["coord"] = { 45, 16, FERALAS },
+						["coord"] = { 45.0, 16.0, FERALAS },
 					}),
 				},
 			}),
@@ -3282,7 +3282,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						i(223222),	-- Fel Mail Wristbands
 					}),
 					i(223148, {	-- Otherworldly Treasure (25)
-						["sym"] = {{"select","itemID",	
+						["sym"] = {{"select","itemID",
 							221499,	-- Rune of the Felguard
 						}},
 						["groups"] = {
@@ -3294,7 +3294,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						},
 					}),
 					i(223149, {	-- Otherworldly Treasure (35)
-						["sym"] = {{"select","itemID",	
+						["sym"] = {{"select","itemID",
 							223163,	-- Formula: Scroll of Spatial Mending
 							221499,	-- Rune of the Felguard
 						}},
@@ -3306,7 +3306,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						},
 					}),
 					i(223150, {	-- Otherworldly Treasure (45)
-						["sym"] = {{"select","itemID",	
+						["sym"] = {{"select","itemID",
 							223163,	-- Formula: Scroll of Spatial Mending
 							221499,	-- Rune of the Felguard
 						}},
@@ -3327,7 +3327,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						},
 					}),
 					i(223151, {	-- Otherworldly Treasure (55)
-						["sym"] = {{"select","itemID",	
+						["sym"] = {{"select","itemID",
 							223163,	-- Formula: Scroll of Spatial Mending
 							221499,	-- Rune of the Felguard
 						}},

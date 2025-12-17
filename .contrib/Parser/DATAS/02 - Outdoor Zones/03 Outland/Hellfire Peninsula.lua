@@ -762,7 +762,7 @@ root(ROOTS.Zones, {
 									{ "i",  23485 },	-- Empty Birdcage
 									{ "o", 181582 },	-- Kaliri Nest
 								},
-								["coord"] = { 29, 81, HELLFIRE_PENINSULA },
+								["coord"] = { 29.0, 81.0, HELLFIRE_PENINSULA },
 								["cr"] = 17034,	-- Female Kaliri Hatchling
 							}),
 						},
@@ -1340,7 +1340,7 @@ root(ROOTS.Zones, {
 									{ "i", 29162 },	-- Galaxis Soul Shard
 									{ "i", 29226 },	-- Warp Rift Generator
 								},
-								["coord"] = { 81, 78.8, HELLFIRE_PENINSULA },
+								["coord"] = { 81.0, 78.8, HELLFIRE_PENINSULA },
 								["cr"] = 16939,	-- Void Baron Galaxis
 							}),
 							i(29400),	-- Abyssal Shroud
@@ -2067,7 +2067,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- Fallen Sky Ridge Revitalized
 								["provider"] = { "i", 29478 },	-- Seed of Revitalization
-								["coord"] = { 13.6, 39, HELLFIRE_PENINSULA },
+								["coord"] = { 13.6, 39.0, HELLFIRE_PENINSULA },
 								["cr"] = 19305,	-- Goliathon <King of the Colossi>
 							}),
 							i(28075),	-- Destroyer's Mantle
@@ -2419,7 +2419,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- Draenei Anchorite slain
 								["provider"] = { "i", 23358 },	-- Signaling Gem
-								["coord"] = { 39, 40, HELLFIRE_PENINSULA },
+								["coord"] = { 39.0, 40.0, HELLFIRE_PENINSULA },
 								["cr"] = 16994,	-- Draenei Anchorite
 							}),
 							i(25499),	-- Felblood Band
@@ -2447,7 +2447,7 @@ root(ROOTS.Zones, {
 									{ "i", 31607 },	-- Demoniac Scryer Reading
 									{ "i", 31606 },	-- Demoniac Scryer
 								},
-								["coord"] = { 44, 51, HELLFIRE_PENINSULA },
+								["coord"] = { 44.0, 51.0, HELLFIRE_PENINSULA },
 							}),
 							i(31715),	-- Demoniac Soul Prison
 						},
@@ -2779,7 +2779,7 @@ root(ROOTS.Zones, {
 									{ "i", 29051 },	-- Warp Nether
 									{ "i", 29027 },	-- Unstable Warp Rift Generator
 								},
-								["coord"] = { 52, 84, HELLFIRE_PENINSULA },
+								["coord"] = { 52.0, 84.0, HELLFIRE_PENINSULA },
 								["cr"] = 20145,	-- Unstable Voidwalker
 							}),
 						},
@@ -3600,7 +3600,7 @@ root(ROOTS.Zones, {
 						["cr"] = 16907,	-- Bleeding Hollow Peon
 					}),
 					i(31346, {	-- Burning Bleeding Hollow Torch
-						["coord"] = { 69, 69, HELLFIRE_PENINSULA },
+						["coord"] = { 69.0, 69.0, HELLFIRE_PENINSULA },
 						["cost"] = {
 							{ "i", 31347, 1 },	-- Bleeding Hollow Torch
 						},

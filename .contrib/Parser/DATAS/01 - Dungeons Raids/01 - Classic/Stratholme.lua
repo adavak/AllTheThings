@@ -181,7 +181,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(5944, {	-- In Dreams
 					["sourceQuest"] = 5862,	-- Scarlet Subterfuge
 					["qg"] = 1842,	-- Highlord Taelan Fordring <Highlord of the Scarlet Crusade>
-					["coord"] = { 42, 14.8, WESTERN_PLAGUELANDS },
+					["coord"] = { 42.0, 14.8, WESTERN_PLAGUELANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 52,
 					["groups"] = {

@@ -128,7 +128,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				o(265526, {	-- Treasure Chest
-					["coord"] = { 39, 54.5, HIGHMOUNTAIN },
+					["coord"] = { 39.0, 54.5, HIGHMOUNTAIN },
 					["questID"] = 44731,
 				}),
 				o(250541, {	-- Treasure Chest

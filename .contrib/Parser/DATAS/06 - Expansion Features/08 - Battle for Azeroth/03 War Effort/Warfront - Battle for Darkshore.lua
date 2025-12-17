@@ -1095,14 +1095,14 @@ root(ROOTS.ExpansionFeatures,
 								q(54657, {	-- Arms and Armor
 									["sourceQuest"] = 54656,	-- Darkshore Recruits (H)
 									["provider"] = { "n", 148482 },	-- Apothecary Keever
-									["coord"] = { 51.8, 58, 1332 },
+									["coord"] = { 51.8, 58.0, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54658, {	-- The Altar of Storms
 									["sourceQuest"] = 54657,	-- Arms and Armor (H)
 									["provider"] = { "n", 148482 },	-- Apothecary Keever
-									["coord"] = { 51.8, 58, 1332 },
+									["coord"] = { 51.8, 58.0, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),

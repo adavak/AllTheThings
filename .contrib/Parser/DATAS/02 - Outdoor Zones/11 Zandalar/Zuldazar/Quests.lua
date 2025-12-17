@@ -1872,7 +1872,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 129589 },	-- The Monkey King
 				["coords"] = {
 					{ 47.0, 88.4, DAZARALOR },
-					{ 57, 58.5, ZULDAZAR },
+					{ 57.0, 58.5, ZULDAZAR },
 				},
 				["races"] = ALLIANCE_ONLY,
 				["isBreadcrumb"] = true,

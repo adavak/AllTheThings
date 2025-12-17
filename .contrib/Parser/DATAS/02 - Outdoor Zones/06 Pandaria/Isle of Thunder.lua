@@ -407,7 +407,7 @@ root(ROOTS.Zones, {
 												{ "o", 218196 },	-- Heavy Explosives
 												{ "i", 93962 },	-- Heavy Explosives
 											},
-											["coord"] = { 48.4, 51, ISLE_OF_THUNDER },
+											["coord"] = { 48.4, 51.0, ISLE_OF_THUNDER },
 										}),
 									},
 								}),

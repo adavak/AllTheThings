@@ -412,7 +412,7 @@ root(ROOTS.Zones, {
 				q(45160, {	-- Cubic Currents
 					["sourceQuests"] = { 45159 },	-- Cubic Conundrum
 					["provider"] = { "n", 93538 },	-- Dariness the Learned
-					["coord"] = { 41, 26.2, LEGION_DALARAN },
+					["coord"] = { 41.0, 26.2, LEGION_DALARAN },
 				}),
 				q(45125, {	-- Dabbling in the Demonic
 					["description"] = "To stabilize the portal, activate following runes: Dregla, Taam, and Talar.",

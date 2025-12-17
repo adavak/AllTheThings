@@ -502,8 +502,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						10878,	-- Herald Moonstalker
 					},
 					["coords"] = {
-						{ 39, 63.6, DARNASSUS },
-						{ 30.5, 67, IRONFORGE },
+						{ 39.0, 63.6, DARNASSUS },
+						{ 30.5, 67.0, IRONFORGE },
 						{ 54.8, 62.6, STORMWIND_CITY },
 					},
 					["timeline"] = { REMOVED_4_0_3 },

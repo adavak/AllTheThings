@@ -91,7 +91,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 					5302,	-- The Way of the Weaponsmith [H]
 				},
 				["qg"] = 11146,	-- Ironus Coldsteel
-				["coord"] = { 49.8, 45, IRONFORGE },
+				["coord"] = { 49.8, 45.0, IRONFORGE },
 				-- #if SEASON_OF_DISCOVERY
 				["timeline"] = { REMOVED_1_15_2 },
 				-- #endif
@@ -132,7 +132,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 					82665,	-- The Way of the Weaponsmith [H]
 				},
 				["qg"] = 11146,	-- Ironus Coldsteel
-				["coord"] = { 49.8, 45, IRONFORGE },
+				["coord"] = { 49.8, 45.0, IRONFORGE },
 				["timeline"] = { ADDED_1_15_2 },
 				["cost"] = {
 					{ "i", 217281, 4 },	-- Moonsteel Broadsword

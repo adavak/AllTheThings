@@ -115,6 +115,8 @@ q(92572,{coords={a[13],a[9],a[8]},qgs=a[3],g={
 de(9247,{itemID=253173,spellID=1255725})}}),
 q(92577,{coords={a[13],a[9],a[8]},qgs=a[3],g={
 de(1693,{itemID=245259,spellID=1238340})}}),
+q(92578,{coords={a[13],a[9],a[8]},qgs=a[3],g={
+de(4172,{itemID=248116,sourceQuests={92578},spellID=1246280})}}),
 q(92608,{coords={{53.9,55.7,2339},{53.9,55.7,2351}},qgs={252717},repeatable=1,g={
 i(253316)}})}}),
 m(2352,{awp=110207,g={

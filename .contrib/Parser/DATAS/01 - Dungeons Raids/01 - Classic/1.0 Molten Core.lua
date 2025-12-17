@@ -261,7 +261,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(7633, bubbleDown({ ["timeline"] = { ADDED_1_0_1, REMOVED_4_0_3 } }, {	-- An Introduction
 					["sourceQuest"] = 7632,	-- The Ancient Leaf
 					["qg"] = 14524,	-- Vartrus the Ancient
-					["coord"] = { 47, 24.48, FELWOOD },
+					["coord"] = { 47.0, 24.48, FELWOOD },
 					["classes"] = { HUNTER },
 					["lvl"] = 60,
 				})),
@@ -383,7 +383,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(7632, bubbleDown({ ["timeline"] = { ADDED_1_0_1, REMOVED_4_0_3 } }, {	-- The Ancient Leaf
 					["description"] = "To find Vartrus go to the Irontree Woods in Felwood, there is an island in the middle of the green sludge with a little hill on it, go up the hill and Vartrus will appear to you.",
 					["qg"] = 14524,	-- Vartrus the Ancient
-					["coord"] = { 47, 24.48, FELWOOD },
+					["coord"] = { 47.0, 24.48, FELWOOD },
 					["cost"] = {
 						{ "i", 18703, 1 },	-- Ancient Petrified Leaf
 					},

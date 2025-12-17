@@ -1602,7 +1602,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["groups"] = {
 						objective(1, {	-- The Traitor Uncovered
 							["provider"] = { "i", 23792 },	-- Tree Disguise Kit
-							["coord"] = { 19, 83, AZUREMYST_ISLE },
+							["coord"] = { 19.0, 83.0, AZUREMYST_ISLE },
 							["cr"] = 17243,	-- Engineer "Spark" Overgrind <Envoy of Mekkatorque>
 						}),
 					},

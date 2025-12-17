@@ -163,7 +163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				q(70450, {	-- Otter Devastation
 					["provider"] = { "n", 195444 },	-- Brix Rocketcast
-					["coord"] = { 63.6, 75, THE_WAKING_SHORES },
+					["coord"] = { 63.6, 75.0, THE_WAKING_SHORES },
 				}),
 				q(71194, {	-- Frogs of Fire
 					["provider"] = { "n", 198767 },	-- Explorative Fisher

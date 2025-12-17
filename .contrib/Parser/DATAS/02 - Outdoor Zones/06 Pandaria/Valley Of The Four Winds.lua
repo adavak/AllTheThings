@@ -1653,7 +1653,7 @@ root(ROOTS.Zones, {
 						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 7.3, 65, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.3, 65.0, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = ALLIANCE_ONLY,
@@ -1926,7 +1926,7 @@ root(ROOTS.Zones, {
 						-- Wouter NOTE: Blizzard added these NPCs to the Gate of the Setting Sun because they couldn't figure out how to make phasing work at their original location
 						-- #if ANYCLASSIC
 						["coords"] = {
-							{ 7.1, 65, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 7.1, 65.0, VALE_OF_ETERNAL_BLOSSOMS },
 						},
 						-- #endif
 						["races"] = ALLIANCE_ONLY,

@@ -421,7 +421,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				39340,	-- Lining the Crucible
 			},
 			["provider"] = { "i", 127877 },	-- Bendy Glass Tubes
-			["coord"] = { 40, 50, 678 },	-- Vault of the Wardens
+			["coord"] = { 40.0, 50.0, 678 },	-- Vault of the Wardens
 			["maps"] = { 710, 711, 712, },	-- Vault of the Wardens
 		}),
 		q(39344, {	-- Going Underground

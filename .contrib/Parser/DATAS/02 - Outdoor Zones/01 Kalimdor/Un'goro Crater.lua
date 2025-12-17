@@ -139,7 +139,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(4491, {	-- A Little Help From My Friends
 					["sourceQuest"] = 4492,	-- Lost!
 					["qg"] = 9999,	-- Ringo
-					["coord"] = { 52, 50, UNGORO_CRATER },
+					["coord"] = { 52.0, 50.0, UNGORO_CRATER },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 50,
 					["groups"] = {
@@ -243,7 +243,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "o", 174793 },	-- Gorishi Hive Hatchery
 								{ "i",  11132 },	-- Unused Scraping Vial
 							},
-							["coord"] = { 48, 85, UNGORO_CRATER },
+							["coord"] = { 48.0, 85.0, UNGORO_CRATER },
 						}),
 					},
 				}),
@@ -768,7 +768,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i",  12472 },	-- Krackle's Thermometer
 								{ "o", 148503 },	-- Fire Plume Ridge Hot Spot
 							},
-							["coord"] = { 49, 45, UNGORO_CRATER },
+							["coord"] = { 49.0, 45.0, UNGORO_CRATER },
 						}),
 					},
 				}),
@@ -1040,7 +1040,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i",  11179 },	-- Golden Flame
 								{ "o", 164910 },	-- Ornate Chest
 							},
-							["coord"] = { 50.2, 50, UNGORO_CRATER },
+							["coord"] = { 50.2, 50.0, UNGORO_CRATER },
 						}),
 						i(11905, {	-- Linken's Boomerang
 							["timeline"] = { REMOVED_4_0_3 },
@@ -1887,7 +1887,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["coords"] = {
 								{ 45.1, 25.6, FERALAS },
-								{ 44, 11, FERALAS },
+								{ 44.0, 11.0, FERALAS },
 							},
 							["timeline"] = { REMOVED_4_0_3 },
 							["repeatable"] = true,

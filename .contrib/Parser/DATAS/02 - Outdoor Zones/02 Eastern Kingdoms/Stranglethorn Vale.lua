@@ -377,7 +377,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #if AFTER CATA
 						{ 38.1, 50.0, NORTHERN_STRANGLETHORN },
 						-- #else
-						{ 32, 28.6, STRANGLETHORN_VALE },
+						{ 32.0, 28.6, STRANGLETHORN_VALE },
 						-- #endif
 					},
 					["timeline"] = { ADDED_2_0_1 },
@@ -613,7 +613,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #if AFTER CATA
 						{ 38.1, 50.0, NORTHERN_STRANGLETHORN },
 						-- #else
-						{ 32, 28.6, STRANGLETHORN_VALE },
+						{ 32.0, 28.6, STRANGLETHORN_VALE },
 						-- #endif
 					},
 					["timeline"] = { ADDED_2_0_1 },
@@ -621,7 +621,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Bloodscalp Totem
 							["provider"] = { "i", 23679 },	-- Bloodscalp Totem
-							["coord"] = { 30.8, 19, STRANGLETHORN_VALE },
+							["coord"] = { 30.8, 19.0, STRANGLETHORN_VALE },
 							["cr"] = 697,	-- Bloodscalp Shaman
 						}),
 					},
@@ -829,7 +829,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(1116, {	-- Dream Dust in the Swamp
 					["sourceQuest"] = 1115,	-- The Rumormonger
 					["qg"] = 773,	-- Krazek
-					["coord"] = { 27, 77.2, STRANGLETHORN_VALE },
+					["coord"] = { 27.0, 77.2, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { SWAMP_OF_SORROWS },
 					["lvl"] = 30,
@@ -1003,7 +1003,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- Place the grim message.
 							["provider"] = { "i", 9319 },	-- Nimboya's Laden Pike
-							["coord"] = { 32, 58, THE_HINTERLANDS },
+							["coord"] = { 32.0, 58.0, THE_HINTERLANDS },
 							["cost"] = {
 								{ "i", 15002, 1 },	-- Nimboya's Pike
 								{ "i", 9320, 20 },	-- Witherbark Skull x20
@@ -1092,7 +1092,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["description"] = "Every so often, Thorsen will go on patrol. If you follow him, he will be ambushed by two of Kurzen's lackeys - if he survives, he will offer you this quest.",
 					-- #endif
 					["qg"] = 738,	-- Private Thorsen
-					["coord"] = { 40, 8, STRANGLETHORN_VALE },
+					["coord"] = { 40.0, 8.0, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 30,
@@ -1235,7 +1235,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(570, {	-- Mok'thardin's Enchantment (1/4)
 					["qg"] = 2465,	-- Far Seer Mok'thardin
-					["coord"] = { 32, 29.2, STRANGLETHORN_VALE },
+					["coord"] = { 32.0, 29.2, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 33,
@@ -1256,7 +1256,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(572, {	-- Mok'thardin's Enchantment (2/4)
 					["sourceQuest"] = 570,	-- Mok'thardin's Enchantment (1/4)
 					["qg"] = 2465,	-- Far Seer Mok'thardin
-					["coord"] = { 32, 29.2, STRANGLETHORN_VALE },
+					["coord"] = { 32.0, 29.2, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 33,
@@ -1270,7 +1270,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(571, {	-- Mok'thardin's Enchantment (3/4)
 					["sourceQuest"] = 572,	-- Mok'thardin's Enchantment (2/4)
 					["qg"] = 2465,	-- Far Seer Mok'thardin
-					["coord"] = { 32, 29.2, STRANGLETHORN_VALE },
+					["coord"] = { 32.0, 29.2, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 33,
@@ -1284,7 +1284,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(573, {	-- Mok'thardin's Enchantment (4/4)
 					["sourceQuest"] = 571,	-- Mok'thardin's Enchantment (3/4)
 					["qg"] = 2465,	-- Far Seer Mok'thardin
-					["coord"] = { 32, 29.2, STRANGLETHORN_VALE },
+					["coord"] = { 32.0, 29.2, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 33,
@@ -1543,7 +1543,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						q(593, {	-- Filling the Soul Gem
 							["qg"] = 2530,	-- Yenniku <Darkspear Hostage>
-							["coord"] = { 39, 58.2, STRANGLETHORN_VALE },
+							["coord"] = { 39.0, 58.2, STRANGLETHORN_VALE },
 							["cost"] = { { "i", 3912, 1 } },	-- Soul Gem
 							["repeatable"] = true,
 							["groups"] = {
@@ -1976,7 +1976,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "i", 4027 },	-- Catelyn's Blade
 								{ "o", 2576 },	-- Altar of the Tides
 							},
-							["coord"] = { 25, 23.6, STRANGLETHORN_VALE },
+							["coord"] = { 25.0, 23.6, STRANGLETHORN_VALE },
 							["cr"] = 2624,	-- Gazban
 						}),
 						i(4120, {	-- Robe of Crystal Waters
@@ -2643,8 +2643,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				description = {
 					en = "This is a free-for-all PvP event that takes place in Stranglethorn Vale for 30 minutes once every 3 hours starting at midnight server time.\n\nKill players to receive the stacking buff Blood for the Blood Loa. This stacks 255 times.\nYou receive 5 stacks of blood per kill.\nYou can lose blood from dying.\nTravel to blood altars |cffffffff(red flag on map)|r to exchange Blood for the Blood Loa stacks for Copper Blood Coin, Silver Blood Coin, Gold Blood Coin. You simply walk up to the altar and the coins will automatically appear in your bags.\n\nYou can opt out of the event by speaking to a Zandalarian Emissary.",
 					-- TODO: de = "",
-					es = "Este es un evento JcJ todos contra todos que se lleva a cabo en la Vega de Tuercespina durante 30 minutos, una vez cada 3 horas, a partir de la medianoche (hora del servidor).\n\nMata jugadores para recibir la mejora acumulable Sangre para el Loa de Sangre. Esta se acumula hasta 255 veces.\nRecibes 5 acumulaciones de Sangre por cada muerte.\nPuedes perder Sangre al morir.\nViaja a los altares de sangre |cffffffff(bandera roja en el mapa)|r para intercambiar acumulaciones de Sangre para el Loa de Sangre por Monedas de Sangre de Cobre, Plata y Oro. Simplemente acércate al altar y las monedas aparecerán automáticamente en tu inventario.\n\nPuedes optar por no participar en el evento hablando con un Emisario Zandalariano.",	
-					mx = "Este es un evento JcJ todos contra todos que se lleva a cabo en la Vega de Tuercespina durante 30 minutos, una vez cada 3 horas, a partir de la medianoche (hora del servidor).\n\nMata jugadores para recibir la mejora acumulable Sangre para el Loa de Sangre. Esta se acumula hasta 255 veces.\nRecibes 5 acumulaciones de Sangre por cada muerte.\nPuedes perder Sangre al morir.\nViaja a los altares de sangre |cffffffff(bandera roja en el mapa)|r para intercambiar acumulaciones de Sangre para el Loa de Sangre por Monedas de Sangre de Cobre, Plata y Oro. Simplemente acércate al altar y las monedas aparecerán automáticamente en tu inventario.\n\nPuedes optar por no participar en el evento hablando con un Emisario Zandalar.",	
+					es = "Este es un evento JcJ todos contra todos que se lleva a cabo en la Vega de Tuercespina durante 30 minutos, una vez cada 3 horas, a partir de la medianoche (hora del servidor).\n\nMata jugadores para recibir la mejora acumulable Sangre para el Loa de Sangre. Esta se acumula hasta 255 veces.\nRecibes 5 acumulaciones de Sangre por cada muerte.\nPuedes perder Sangre al morir.\nViaja a los altares de sangre |cffffffff(bandera roja en el mapa)|r para intercambiar acumulaciones de Sangre para el Loa de Sangre por Monedas de Sangre de Cobre, Plata y Oro. Simplemente acércate al altar y las monedas aparecerán automáticamente en tu inventario.\n\nPuedes optar por no participar en el evento hablando con un Emisario Zandalariano.",
+					mx = "Este es un evento JcJ todos contra todos que se lleva a cabo en la Vega de Tuercespina durante 30 minutos, una vez cada 3 horas, a partir de la medianoche (hora del servidor).\n\nMata jugadores para recibir la mejora acumulable Sangre para el Loa de Sangre. Esta se acumula hasta 255 veces.\nRecibes 5 acumulaciones de Sangre por cada muerte.\nPuedes perder Sangre al morir.\nViaja a los altares de sangre |cffffffff(bandera roja en el mapa)|r para intercambiar acumulaciones de Sangre para el Loa de Sangre por Monedas de Sangre de Cobre, Plata y Oro. Simplemente acércate al altar y las monedas aparecerán automáticamente en tu inventario.\n\nPuedes optar por no participar en el evento hablando con un Emisario Zandalar.",
 					-- TODO: fr = "",
 					-- TODO: it = "",
 					-- TODO: ko = "",

@@ -124,7 +124,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if AFTER CATA
 				fp(44, {	-- Bilgewater Harbor, Azshara [CATA+] / Valormok, Azshara
 					["cr"] = 8610,	-- Kroum <Wind Rider Master>
-					["coord"] = { 53, 49.8, AZSHARA },
+					["coord"] = { 53.0, 49.8, AZSHARA },
 					["races"] = HORDE_ONLY,
 				}),
 				-- #endif
@@ -499,7 +499,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "n", 4485 },	-- Belgrom Rockmaul
 						{ "i", 10643 },	-- Sealed Letter to Ag'tor
 					},
-					["coord"] = { 75, 34.2, ORGRIMMAR },
+					["coord"] = { 75.0, 34.2, ORGRIMMAR },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 44,
@@ -1072,7 +1072,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "n", 8659 },	-- Jes'rimon
 						{ "i", 10680 },	-- Jes'rimon's Note
 					},
-					["coord"] = { 55.6, 34, ORGRIMMAR },
+					["coord"] = { 55.6, 34.0, ORGRIMMAR },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 45,
@@ -2547,7 +2547,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				n(107477, {	-- N.U.T.Z
-					["coord"] = { 44, 75.6, AZSHARA },
+					["coord"] = { 44.0, 75.6, AZSHARA },
 					["timeline"] = { ADDED_7_0_3 },
 				}),
 				n(13896, {	-- Scalebeard

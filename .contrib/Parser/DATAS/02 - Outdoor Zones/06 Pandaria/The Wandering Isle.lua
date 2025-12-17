@@ -152,7 +152,7 @@ root(ROOTS.Zones, {
 									{ "n", 56007 },	-- Darkened Horror
 									{ "n", 56008 },	-- Darkened Terror
 								},
-								["coord"] = { 38, 75.4, THE_WANDERING_ISLE_STARTING_ZONE },
+								["coord"] = { 38.0, 75.4, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 							i(74607),	-- Boots of Courage
 							i(74608),	-- Legguards of the Brave
@@ -292,7 +292,7 @@ root(ROOTS.Zones, {
 									{ "o", 209326 },	-- Loose Dogwood Root
 									{ "o", 209327 },	-- Loose Dogwood Root
 								},
-								["coord"] = { 48, 31.8, THE_WANDERING_ISLE_STARTING_ZONE },
+								["coord"] = { 48.0, 31.8, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
 					}),
@@ -581,7 +581,7 @@ root(ROOTS.Zones, {
 							29677,	-- The Sun Pearl
 						},
 						["qg"] = 55020,	-- Old Man Liang
-						["coord"] = { 78.4, 43, THE_WANDERING_ISLE_STARTING_ZONE },
+						["coord"] = { 78.4, 43.0, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
 							objective(1, {	-- Cross to the Pool of Reflection
 								["description"] = "Jump into the swirling blue effects on the closest rock to the shore to jump up the rest of the stones to ledge.",
@@ -607,7 +607,7 @@ root(ROOTS.Zones, {
 									{ "o", 209671 },	-- Kun-Pai Ritual Charm
 									{ "o", 209774 },	-- Kun-Pai Ritual Charm
 								},
-								["coord"] = { 23, 47.3, THE_WANDERING_ISLE_STARTING_ZONE },
+								["coord"] = { 23.0, 47.3, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
 					}),
@@ -1163,7 +1163,7 @@ root(ROOTS.Zones, {
 							}),
 							objective(2, {	-- Uncover the source of Shen-zin Su's pain
 								["provider"] = { "n", 57769 },	-- Shen-zin Su
-								["coord"] = { 0, 50, THE_WANDERING_ISLE_STARTING_ZONE },
+								["coord"] = { 0.0, 50.0, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
 					}),
@@ -1267,7 +1267,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- Guardian of the Elders slain
 								["provider"] = { "n", 56274 },	-- Guardian of the Elders
-								["coord"] = { 23, 52.8, THE_WANDERING_ISLE_STARTING_ZONE },
+								["coord"] = { 23.0, 52.8, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
 					}),

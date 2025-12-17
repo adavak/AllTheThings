@@ -3315,7 +3315,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			filter(MISC, {
 				o(409302, {	-- Dispersal Crystal
-					["coord"] = { 63, 54.3, FUNGAL_FOLLY },
+					["coord"] = { 63.0, 54.3, FUNGAL_FOLLY },
 					["groups"] = { i(209788) },	-- Dispersion Crystal (QI!)
 				}),
 				i(210017),	-- Fungal Fish (QI!)
@@ -3811,7 +3811,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					["provider"] = { "o", 455685 },	-- Delver's Call: Dread Pit
 					["coords"] = {
 						{ 58.3, 64.2, THE_RINGING_DEEPS },
-						{ 30, 54.8, THE_DREAD_PIT },
+						{ 30.0, 54.8, THE_DREAD_PIT },
 					},
 				}),
 			}),
@@ -4038,7 +4038,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					["questID"] = 83682,
 				}),
 				o(455523, {	-- Sturdy Chest
-					["coord"] = { 72, 88.8, THE_UNDERKEEP },
+					["coord"] = { 72.0, 88.8, THE_UNDERKEEP },
 					["questID"] = 83697,
 				}),
 			}),

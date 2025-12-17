@@ -146,7 +146,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(10593, {	-- An Ancient Evil
 					["sourceQuest"] = 10592,	-- Wisdom of the Banshee Queen
 					["qg"] = 10181,	-- Lady Sylvanas Windrunner <Banshee Queen>
-					["coord"] = { 57.8, 92, UNDERCITY },
+					["coord"] = { 57.8, 92.0, UNDERCITY },
 					["timeline"] = { ADDED_2_0_1, REMOVED_4_0_3 },
 					["classes"] = { PALADIN },
 					["races"] = HORDE_ONLY,

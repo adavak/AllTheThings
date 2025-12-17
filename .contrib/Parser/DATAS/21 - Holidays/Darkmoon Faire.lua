@@ -362,7 +362,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			["groups"] = {
 				n(DARKMOON_DANCE_HEADER, {
 					["cr"] = 181097,	-- Simon Sezdans <Dance Master>
-					["coord"] = { 51.2, 74, DARKMOON_ISLAND },
+					["coord"] = { 51.2, 74.0, DARKMOON_ISLAND },
 					["timeline"] = { ADDED_9_2_0 },
 					["groups"] = {
 						n(ACHIEVEMENTS, {
@@ -407,7 +407,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						}),
 						q(64783, {	-- Dance Dance Darkmoon
 							["qg"] = 181097,	-- Simon Sezdans <Dance Master>
-							["coord"] = { 51.2, 74, DARKMOON_ISLAND },
+							["coord"] = { 51.2, 74.0, DARKMOON_ISLAND },
 							["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 							["timeline"] = { ADDED_9_2_0 },
 							["isDaily"] = true,
@@ -2751,7 +2751,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 62.0, ORGRIMMAR },
 				-- #else
-				["coord"] = { 52.2, 66, ORGRIMMAR },
+				["coord"] = { 52.2, 66.0, ORGRIMMAR },
 				["lvl"] = 6,
 				-- #endif
 				["races"] = HORDE_ONLY,
@@ -2923,9 +2923,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				-- #else
 				["coords"] = {
 					{ 41.6, 70.6, ELWYNN_FOREST },
-					{ 37, 37.4, MULGORE },
+					{ 37.0, 37.4, MULGORE },
 					-- #if AFTER TBC
-					{ 34, 34.8, TEROKKAR_FOREST },
+					{ 34.0, 34.8, TEROKKAR_FOREST },
 					-- #endif
 				},
 				["maxReputation"] = TIER_TWO_MAX_REPUTATION,
@@ -2949,7 +2949,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["qg"] = 14841,	-- Rinling
 				["coords"] = {
 					{ 41.6, 70.6, ELWYNN_FOREST },
-					{ 37, 37.4, MULGORE },
+					{ 37.0, 37.4, MULGORE },
 				},
 				["maxReputation"] = TIER_TWO_MAX_REPUTATION,
 				["timeline"] = { REMOVED_2_0_1 },
@@ -3030,7 +3030,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ "i", 19452 },	-- Sayge's Fortune #27
 					{ "n", 14822 },	-- Sayge
 				},
-				["coord"] = { 35, 61.5, MULGORE },
+				["coord"] = { 35.0, 61.5, MULGORE },
 				["timeline"] = { REMOVED_4_3_0 },
 				["repeatable"] = true,
 				["lvl"] = 10,

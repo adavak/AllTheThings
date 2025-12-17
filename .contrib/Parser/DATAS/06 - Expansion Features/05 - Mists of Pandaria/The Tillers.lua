@@ -763,7 +763,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["groups"] = {
 						objective(1, {	-- 0/8 Suspicious Footprints found
 							["provider"] = { "n", 59505 },	-- Suspicious Footprint
-							["coord"] = { 38, 43, VALLEY_OF_THE_FOUR_WINDS },
+							["coord"] = { 38.0, 43.0, VALLEY_OF_THE_FOUR_WINDS },
 						}),
 					},
 				}),
@@ -1031,7 +1031,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 								{ "n", 59515 },	-- Springtail Littlewhisker
 								{ "n", 59513 },	-- Springtail Trapper
 							},
-							["coord"] = { 44, 22.6, VALLEY_OF_THE_FOUR_WINDS },
+							["coord"] = { 44.0, 22.6, VALLEY_OF_THE_FOUR_WINDS },
 						}),
 					},
 				}),
@@ -1403,7 +1403,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							{ "n", 59129 },	-- Maaka <Hunter-Chief>
 							{ "n", 59130 },	-- Teeku <Hunter-Chief>
 						},
-						["coord"] = { 30.8, 48, VALLEY_OF_THE_FOUR_WINDS },
+						["coord"] = { 30.8, 48.0, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 				}),
 				q(30333, {	-- The Lesser of Two Evils
