@@ -434,9 +434,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Choose Zone
 					q(41112, {	-- The Great Akazamzarak
+						["sourceQuests"] = {
 						-- #if BEFORE 8.0.1
-						["sourceQuests"] = { 41125 },	-- Unlocked Potential
+							41125,	-- Unlocked Potential
+						-- #else
+							41114,	-- The Champion's Return
 						-- #endif
+						},
 						["provider"] = { "n", 102700 },	-- Meryl Felstorm
 						["coord"] = { 56.5, 33.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["groups"] = {
@@ -690,7 +694,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 71.7, 54.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 					}),
 					q(44689, {	-- The Might of the Tirisgarde
-						["sourceQuests"] = { 42707 },	-- Eye of Azshara: A Magical Affliction
+						["sourceQuest"] = 42520,	-- A Terrible Loss
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
 						["coord"] = { 71.7, 54.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 					}),
