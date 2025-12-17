@@ -4161,6 +4161,174 @@ customWindowUpdates.RWP = function(self, force)
 		self:BaseUpdate(force);
 	end
 end;
+customWindowUpdates.Import = function(self, force)
+	if not self:IsVisible() then return end
+
+	if not self.initialized then
+		self.initialized = true
+
+		function self:Rebuild()
+			self:BuildData()
+			self:Update(true)
+		end
+
+		local function NothingFoundRow()
+			return app.CreateRawText("Nothing found", {
+				description = "No matching objects were found for the provided IDs.",
+				visible = true,
+				OnUpdate = app.AlwaysShowUpdate,
+			})
+		end
+
+		function self:ClearResults()
+			local fixed = {}
+			for _, row in ipairs(self.data.g) do
+				if row.isButton then
+					fixed[#fixed + 1] = row
+				end
+			end
+			wipe(self.data.g)
+			ArrayAppend(self.data.g, fixed)
+		end
+
+		local function ParseIDs(str)
+			local ids = {}
+			for id in str:gmatch("%d+") do
+				id = tonumber(id)
+				if not id or id <= 0 or id >= 1000000 then
+					return nil
+				end
+				ids[#ids + 1] = id
+			end
+			return ids
+		end
+
+		local function FindATTObjects(typeKey, id)
+			local searchKey = typeKey .. ":" .. id
+			local results = app.SearchForLink(searchKey)
+			if not results or #results == 0 then
+				results = app.SourceSearcher.LinkSources(searchKey)
+			end
+			return results
+		end
+
+		function self:Import(typeKey, input)
+			local ids = ParseIDs(input)
+			self:ClearResults()
+			if not ids then return false end
+
+			local foundAnything = false
+
+			for _, id in ipairs(ids) do
+				local found = FindATTObjects(typeKey, id)
+				if found and #found > 0 then
+					for _, ref in ipairs(found) do
+						local clone = app.CloneReference(ref)
+						clone.forceShow = true
+						clone.OnUpdate = app.AlwaysShowUpdate
+						tinsert(self.data.g, clone)
+						foundAnything = true
+					end
+				end
+			end
+
+			return foundAnything
+		end
+
+		local initialButtons = {
+			{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements") },
+			{ id = "sourceID", name = WARDROBE, icon = 135276 },
+			{ id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact") },
+			{ id = "azeriteessenceID", name = SPLASH_BATTLEFORAZEROTH_8_2_0_FEATURE2_TITLE, icon = app.asset("Category_AzeriteEssences") },
+			{ id = "speciesID", name = AUCTION_CATEGORY_BATTLE_PETS, icon = app.asset("Category_PetJournal") },
+			{ id = "campsiteID", name = WARBAND_SCENES, icon = app.asset("Category_Campsites") },
+			{ id = "currencyID", name = CURRENCY, icon = app.asset("Interface_Vendor") },
+			{ id = "decorID", name = CATALOG_SHOP_TYPE_DECOR, icon = app.asset("Category_Housing") },
+			{ id = "explorationID", name = "Exploration", icon = app.asset("Category_Exploration") },
+			{ id = "factionID", name = L.FACTIONS, icon = app.asset("Category_Factions") },
+			{ id = "flightpathID", name = L.FLIGHT_PATHS, icon = app.asset("Category_FlightPaths") },
+			{ id = "followerID", name = GARRISON_FOLLOWERS, icon = app.asset("Category_Followers") },
+			{ id = "illusionID", name = L.FILTER_ID_TYPES[103], icon = app.asset("Category_Illusions") },
+			{ id = "itemID", name = ITEMS, icon = 135276 },
+			{ id = "questID", name = TRACKER_HEADER_QUESTS, icon = app.asset("Interface_Quest_header") },
+			{ id = "titleID", name = PAPERDOLL_SIDEBAR_TITLES, icon = app.asset("Category_Titles") },
+		}
+
+		local function ImportButton(typeKey, label, icon)
+			return app.CreateRawText(label, {
+				icon = icon,
+				visible = true,
+				isButton = true,
+				OnUpdate = app.AlwaysShowUpdate,
+				OnClick = function()
+					app:ShowPopupDialogWithEditBox(
+						"Paste " .. label .. " IDs",
+						"",
+						function(input)
+							if not input or input:match("^%s*$") then
+								return
+							end
+
+							local found = self:Import(typeKey, input)
+							self:ShowResetButton()
+
+							if not found then
+								tinsert(self.data.g, NothingFoundRow())
+							end
+
+							self:Rebuild()
+						end
+					)
+					return true
+				end,
+			})
+		end
+
+		function self:ResetToInitialButtons()
+			wipe(self.data.g)
+			for _, b in ipairs(initialButtons) do
+				tinsert(self.data.g, ImportButton(b.id, b.name, b.icon))
+			end
+			self:Rebuild()
+		end
+
+		function self:ShowResetButton()
+			local importedRows = {}
+			for _, row in ipairs(self.data.g) do
+				if not row.isButton then
+					tinsert(importedRows, row)
+				end
+			end
+			wipe(self.data.g)
+
+			local resetButton = app.CreateRawText("Reset Import", {
+				icon = app.asset("unknown"),
+				visible = true,
+				isButton = true,
+				OnUpdate = app.AlwaysShowUpdate,
+				OnClick = function()
+					self:ResetToInitialButtons()
+					return true
+				end,
+			})
+			tinsert(self.data.g, resetButton)
+			ArrayAppend(self.data.g, importedRows)
+			self:Rebuild()
+		end
+
+		self:SetData(app.CreateRawText("Import", {
+			icon = app.asset("logo_32x32"),
+			description = "Import objects using their IDs, separated by commas.",
+			visible = true,
+			back = 1,
+			g = {}
+		}))
+
+		self:ResetToInitialButtons()
+	end
+
+	self:BaseUpdate(force)
+end
 customWindowUpdates.Sync = function(self)
 	if self:IsVisible() then
 		if not self.initialized then
