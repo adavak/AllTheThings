@@ -458,7 +458,7 @@ namespace ATT
         /// <summary>
         /// Try to convert the object to a specific Type
         /// </summary>
-        public static bool TryConvert<T>(this object obj, out T value, bool lazy = false)
+        public static bool TryConvert<T>(this object obj, out T value, bool lazy = false, bool warnOnConvert = false, bool debugWarnOnConvert = false)
         {
             if (obj is T val)
             {
@@ -470,6 +470,15 @@ namespace ATT
             {
                 try
                 {
+                    if (warnOnConvert)
+                    {
+                        Framework.LogWarn($"Potentially unexpected value type conversion for {obj} ({obj?.GetType().FullName}) => {typeof(T).FullName}");
+                    }
+                    if (debugWarnOnConvert)
+                    {
+                        Framework.LogDebugWarn($"Potentially unexpected value type conversion for {obj} ({obj?.GetType().FullName}) => {typeof(T).FullName}");
+                    }
+
                     value = (T)Convert.ChangeType(obj, typeof(T));
                     return true;
                 }
@@ -482,7 +491,7 @@ namespace ATT
         /// <summary>
         /// Converts a set of raw objects into a set of strongly-typed elements
         /// </summary>
-        public static IEnumerable<T> AsTypedEnumerable<T>(this object listObj)
+        public static IEnumerable<T> AsTypedEnumerable<T>(this object listObj, bool lazy = false, bool warnOnConvert = false)
         {
             if (listObj == null || listObj is string || !(listObj is IEnumerable objs))
                 yield break;
@@ -491,7 +500,7 @@ namespace ATT
             while (e.MoveNext())
             {
                 var c = e.Current;
-                if (c.TryConvert(out T t))
+                if (c.TryConvert(out T t, lazy, warnOnConvert))
                 {
                     yield return t;
                 }

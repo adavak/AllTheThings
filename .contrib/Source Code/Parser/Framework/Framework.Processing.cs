@@ -2067,10 +2067,10 @@ namespace ATT
                 && providers.GetProviderType("n", true) != null)
             {
                 var npcProviders = providers.GetProviderType("n").ToList();
-                List<object> quest_qgs = new List<object>(npcProviders.Count);
+                List<long> quest_qgs = new List<long>(npcProviders.Count);
                 foreach (var npcID in npcProviders)
                 {
-                    quest_qgs.Add(npcID);
+                    quest_qgs.Add((long)npcID);
                     providers.Remove("n", npcID);
                     //LogDebug($"Quest {questID} provider 'n', {providerItems[1]} converted to 'qgs'");
                 }
@@ -4542,9 +4542,9 @@ namespace ATT
             {
                 List<object> parentg = new List<object>();
                 List<object> parentProviders = new List<object>();
-                List<decimal> parentCrs = new List<decimal>();
-                List<decimal> parentQis = new List<decimal>();
-                List<decimal> parentItems = new List<decimal>();
+                List<long> parentCrs = new List<long>();
+                List<long> parentQis = new List<long>();
+                List<long> parentItems = new List<long>();
 
                 foreach (var provider in providers)
                 {
@@ -4559,11 +4559,11 @@ namespace ATT
                             {
                                 Items.MarkItemAsReferenced(pID);
                                 // we will use 'qis' as a way to know that the itemID can be cached directly to that quest instead of as an item cost
-                                parentQis.Add(pID);
+                                parentQis.Add((long)pID);
                             }
                             else
                             {
-                                parentItems.Add(pID);
+                                parentItems.Add((long)pID);
                                 LogDebug($"INFO: Assigned 'objective-item' {pID} to parent due to being Sourced elsewhere", parentData);
                             }
                             break;
@@ -4593,7 +4593,7 @@ namespace ATT
                             }
                             else
                             {
-                                parentCrs.Add(pID);
+                                parentCrs.Add((long)pID);
                             }
                             break;
                     }

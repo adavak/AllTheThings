@@ -92,20 +92,21 @@ namespace ATT.FieldTypes
 
                 foreach (object coordobj in coords)
                 {
-                    // we're merging data which represents coords
-                    if (coordobj.TryConvert(out float eFloat))
+                    // we're merging data which represents coords (coord X/Y values should parse as Double but we store as Float)
+                    // TODO: regular warning if all existing 2900+ non-decimal coords are ever converted
+                    if (coordobj.TryConvert(out double eDouble, debugWarnOnConvert: i < 2))
                     {
                         switch (i)
                         {
-                            case 0: coord.X = eFloat; break;
-                            case 1: coord.Y = eFloat; break;
-                            case 2: coord.MapID = (int)eFloat; break;
+                            case 0: coord.X = (float)eDouble; break;
+                            case 1: coord.Y = (float)eDouble; break;
+                            case 2: coord.MapID = (int)eDouble; break;
                             default: LogError("Excessive entries for a single 'coord'", _data); break;
                         }
                     }
                     else
                     {
-                        LogError($"Invalid Numeric Format for Merge - {eFloat}:{coordobj}", _data);
+                        LogError($"Invalid Numeric Format for Merge - {eDouble}:{coordobj}", _data);
                     }
                     i++;
                 }
