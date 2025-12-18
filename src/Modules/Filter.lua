@@ -371,7 +371,8 @@ end);
 -- we actually don't "really" care to have level filter in the RawCharacterFilters... just causes more inaccurate quest reports since level req on every expac changes all the time
 RawCharacterFilters.Level = nil;
 
--- SkillLevel
+-- SkillLevel (Classic only)
+if app.IsClassic then
 app.MaximumSkillLevel = 99999;
 DefineToggleFilter("SkillLevel", CharacterFilters,
 function(group)
@@ -383,6 +384,7 @@ function(group)
 end);
 -- SkillLevel doesn't really exclude a character from seeing a given Thing
 RawCharacterFilters.SkillLevel = nil;
+end
 
 -- Trackable
 -- Whether this group can be 'tracked'
