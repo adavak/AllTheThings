@@ -126,8 +126,12 @@ local ConversionMethods = setmetatable({
 			return IsRetrievingConversionMethod(app.ObjectNames[objectID], reference)
 		end
 	end,
-	professionName = function(spellID, reference)
-		return IsRetrievingConversionMethod(GetSpellName(app.SkillDB.SkillToSpell[spellID] or 0), reference)
+	professionName = function(skillID, reference)
+		local skillName = app.WOWAPI.GetTradeSkillDisplayName(skillID)
+		if skillName then
+			return skillName
+		end
+		return IsRetrievingConversionMethod(GetSpellName(app.SkillDB.SkillToSpell[skillID] or 0), reference)
 	end,
 }, {
 	__index = function(t, key)
@@ -1156,7 +1160,7 @@ local InformationTypes = {
 	}),
 	CreateInformationType("requireSkill", { text = TRADE_SKILLS, priority = 8000,
 		Process = function(t, reference, tooltipInfo)
-			local requireSkill, learnedAt = reference.requireSkill, reference.learnedAt;
+			local requireSkill, learnedAt = reference.skillID or reference.requireSkill, reference.learnedAt;
 			if requireSkill then
 				local professionName = ConversionMethods.professionName(requireSkill, reference);
 				if learnedAt then professionName = professionName .. " (" .. learnedAt .. ")"; end
