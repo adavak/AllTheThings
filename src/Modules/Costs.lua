@@ -723,12 +723,12 @@ do
 			end
 		end
 	end
-	local IgnoredTypesForCost = {
+	local IgnoredTypes = {
 		NonCollectible = true,
 		VisualHeader = true,
 		VisualHeaderWithGroups = true,
 	}
-	local IgnoredTypesForNestedCosts = {
+	local IgnoredTypesForNested = {
 		EnsembleItem = true,
 	}
 	local function ScanGroups(group, Collector)
@@ -737,10 +737,9 @@ do
 
 		local runner = Collector.Runner
 		local groupType = group.__type
-		-- app.PrintDebug("AGC:Run",app:SearchLink(group),IgnoredTypesForCost[groupType],IgnoredTypesForNestedCosts[groupType],group.filledCost)
+		-- app.PrintDebug("AGC:Run",app:SearchLink(group),IgnoredTypes[groupType],IgnoredTypesForNested[groupType],group.filledCost)
 		-- don't include NonCollectible or VisualHeaders
-		-- don't include Costs of visible, but 'saved' Things
-		if not IgnoredTypesForCost[groupType] and not group.saved then
+		if not IgnoredTypes[groupType] then
 			runner.Run(AddGroupCosts, group, Collector)
 		end
 		local g = group.g
@@ -748,7 +747,7 @@ do
 
 		-- don't scan groups inside Item groups which have a cost/provider (i.e. ensembles)
 		-- this leads to wildly bloated totals
-		if group.filledCost or IgnoredTypesForNestedCosts[groupType] then return end
+		if (not group.window and group.filledCost) or IgnoredTypesForNested[groupType] then return end
 
 		for _,o in ipairs(g) do
 			ScanGroups(o, Collector)

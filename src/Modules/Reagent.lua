@@ -160,7 +160,7 @@ do
 
 		-- don't scan groups inside Item groups which have a cost/provider (i.e. ensembles)
 		-- this leads to wildly bloated totals
-		if group.filledCost or IgnoredTypesForNested[groupType] then return end
+		if (not group.window and group.filledCost) or IgnoredTypesForNested[groupType] then return end
 
 		for _,o in ipairs(g) do
 			ScanGroups(o, Collector)
