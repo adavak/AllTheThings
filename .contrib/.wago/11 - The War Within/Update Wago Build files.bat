@@ -19,6 +19,7 @@ call :download ItemModifiedAppearance
 call :download ItemXItemEffect
 call :download ItemSearchName
 call :download ModifierTree
+call :download SkillLineAbility
 call :download SpellEffect
 call :download TaxiNodes
 call :download TransmogSet

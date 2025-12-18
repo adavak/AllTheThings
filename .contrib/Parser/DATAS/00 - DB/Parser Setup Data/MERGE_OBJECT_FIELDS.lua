@@ -4,7 +4,7 @@
 
 MERGE_OBJECT_FIELDS = {
 	spellID = { "type","learnedAt" },
-	recipeID = { "requireSkill","learnedAt" },
+	recipeID = { "requireSkill","learnedAt","skillID" },
 	speciesID = { "pb","crs","itemID" },
 	instanceID = { "isRaid" },
 	mapID = { "maps" },

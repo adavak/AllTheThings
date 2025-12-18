@@ -79,6 +79,9 @@ namespace ATT
             // House Decor
             MergeItemDB(WagoData.GetAll<HouseDecor>().Values.Select(i => i.GetExportableData()));
 
+            // Recipe Skill lines
+            MergeRecipeDB(WagoData.GetAll<SkillLineAbility>().Values.Select(i => i.GetExportableData()));
+
             // GlyphGB
             foreach (var glyph in WagoData.GetAll<GlyphProperties>().Values)
             {
@@ -4214,6 +4217,15 @@ namespace ATT
                     {
                         LogDebugWarn($"Possibly remove HQT {questID} since it is linked from one non-Quest Item {itemID} which is has one Source and could simply be an ItemWithQuest", data);
                     }
+                }
+            }
+
+            // Retail: Items with 'learnedAt' are redundant/inaccurate with Blizzard tooltip and not used in ATT anyway
+            if (!PreProcessorTags.Contains("ANYCLASSIC") && data.TryGetValue("itemID", out itemID))
+            {
+                if (data.Remove("learnedAt"))
+                {
+                    LogDebug($"INFO: Removed 'learnedAt' from Item {itemID}", data);
                 }
             }
         }

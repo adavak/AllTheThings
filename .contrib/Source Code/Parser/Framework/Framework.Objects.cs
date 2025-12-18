@@ -1905,6 +1905,7 @@ end");
                     case "_multiDifficultyID":
                     case "trackID":
                     case "catalystID":
+                    case "skillID":
                         {
                             if (value.TryConvert(out long vLong))
                             {
