@@ -27,7 +27,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["description"] = "Can be looted from any killed demon.",
 						}),
 						q(44083, {	-- The Grimoire of the First Necrolyte
-							["description"] = "Only available from Rare Elite World Quests.",
+							["description"] = "Only available from Rare Elite (DANGER) World Quests.",
 							["provider"] = { "i", 140764 },	-- Grimoire of the First Necrolyte
 						}),
 						n(112862, {	-- Sataiel

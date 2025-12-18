@@ -571,10 +571,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		-- Infinite Epilogues
 		q(91522, {	-- Order from Chaos
-			["sourceQuests"] = {	-- Exo Note: Confirmed
+			["sourceQuests"] = {
 				45354,	-- Dispersion of the Discs (Mage)
 				46792,	-- Gathering of the Storms (Shaman)
-				46089,	-- Hiding In Plain Sight (Rogue)
+				46089,	-- Hiding In Plain Sight [A] (Rogue)
+				46178,	-- Hiding In Plain Sight [H] (Rogue)
 				46337,	-- Night of the Wilds (Hunter)
 				45770,	-- Stirring in the Shadows (Paladin)
 				46813,	-- The Lost Glacier (Death Knight)

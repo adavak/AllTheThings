@@ -188,9 +188,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 41035,	-- Felstorm's Plea
 						["provider"] = { "n", 102700 },	-- Meryl Felstorm
 						["maps"] = { LEGION_DALARAN },
-						["groups"] = {
-							spell(204287),	-- Teleport: Hall of the Guardian
-						},
+						["groups"] = { spell(204287) },	-- Teleport: Hall of the Guardian
 					}),
 					-- Artifact
 					q(41085, {	-- A Mage's Weapon
@@ -230,6 +228,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42001 },	-- Aluneth, Greatstaff of the Magna
 							["provider"] = { "n", 105081 },	-- Archmage Kalec
 							["coord"] = { 28.6, 49.9, LEGION_DALARAN },
+							["groups"] = { i(136410) },	-- Kalec's Image Crystal (PQI!)
 						}),
 						q(42007, {	-- A Forgotten Enemy
 							["sourceQuest"] = 42006,	-- A New Threat
@@ -240,9 +239,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 42007,	-- A Forgotten Enemy
 							["provider"] = { "n", 105917 },	-- Image of Kalec
 							["coord"] = { 56.6, 69.1, DRAGONBLIGHT },
-							["groups"] = {
-								i(173430),	-- Nexus Teleport Scroll (QI!)
-							},
+							["groups"] = { i(173430) },	-- Nexus Teleport Scroll (QI!)
 						}),
 						q(42009, {	-- Harnessing the Arcane
 							["sourceQuest"] = 42008,	-- Eyes of the Dragon
@@ -263,9 +260,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								o(249814, {	-- Aluneth
 									i(127857, {	-- Aluneth
 										["ItemAppearanceModifierID"] = 9,
-										["groups"] = {
-											artifact(126),	-- Aluneth
-										},
+										["groups"] = { artifact(126) },	-- Aluneth
 									}),
 								}),
 							},
@@ -282,16 +277,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 55.3, 38.1, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+							["groups"] = { i(130131) },	-- Glowing Resonate Crystal (PQI!)
 						}),
 						q(40270, {	-- The Path of Atonement
 							["sourceQuest"] = 40267,	-- An Unexpected Message
 							["provider"] = { "n", 99398 },	-- Archmage Modera
-							["coord"] = { 28.6, 37.2, HILLSBRAD_FOOTHILLS },
+							["coord"] = { 28.7, 37.3, HILLSBRAD_FOOTHILLS },
 						}),
 						q(11997, {	-- The Frozen Flame
 							["sourceQuest"] = 40270,	-- The Path of Atonement
 							["provider"] = { "n", 99415 },	-- Aethas Sunreaver
-							["coord"] = { 28.6, 37.2, HILLSBRAD_FOOTHILLS },
+							["coord"] = { 28.7, 37.2, HILLSBRAD_FOOTHILLS },
 							["maps"] = { 700 },	-- Icecrown Citadel (Scenario Map)
 							["groups"] = {
 								o(247494, {	-- Felo'melorn
@@ -299,17 +295,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									["groups"] = {
 										i(128820, {	-- Felo'melorn
 											["ItemAppearanceModifierID"] = 9,
-											["groups"] = {
-												artifact(124),	-- Felo'melorn
-											},
+											["groups"] = { artifact(124) },	-- Felo'melorn
 										}),
 									},
 								}),
 								i(133959, {	-- Heart of the Phoenix
 									["ItemAppearanceModifierID"] = 9,
-									["groups"] = {
-										artifact(124),	-- Heart of the Phoenix
-									},
+									["groups"] = { artifact(124) },	-- Heart of the Phoenix
 								}),
 							},
 						}),
@@ -350,7 +342,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									["coord"] = { 35.9, 64.2, DEADWIND_PASS },
 									["groups"] = { i(141327) },	-- Functional Ward (QI!)
 								}),
-								i(173698, {	-- Karazhan Scroll (QI!)
+								i(173698, {	-- Karazhan Scroll (PQI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
 								o(250611, {	-- Ritual Focusing Crystal
@@ -368,7 +360,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 59.1, 43.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 							["groups"] = {
-								i(173699, {	-- Blasted Lands Scroll (QI!)
+								i(173699, {	-- Blasted Lands Scroll (PQI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
 								i(141330),	-- Demon Stone (QI!)
@@ -388,9 +380,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									["groups"] = {
 										i(128862, {	-- Ebonchill
 											["ItemAppearanceModifierID"] = 9,
-											["groups"] = {
-												artifact(168),	-- Ebonchill
-											},
+											["groups"] = { artifact(168) },	-- Ebonchill
 										}),
 									},
 								}),
@@ -412,9 +402,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 112440 },	-- Jackson Watkins
 						["coord"] = { 44.8, 57.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							i(139749),	-- Cowl of Tirisgarde
-						},
+						["groups"] = { i(139749) },	-- Cowl of Tirisgarde
 					}),
 					q(41114, {	-- The Champion's Return
 						["sourceQuests"] = {
@@ -435,17 +423,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					-- Choose Zone
 					q(41112, {	-- The Great Akazamzarak
 						["sourceQuests"] = {
-						-- #if BEFORE 8.0.1
+							-- #if BEFORE 8.0.1
 							41125,	-- Unlocked Potential
-						-- #else
+							-- #else
 							41114,	-- The Champion's Return
-						-- #endif
+							-- #endif
 						},
 						["provider"] = { "n", 102700 },	-- Meryl Felstorm
 						["coord"] = { 56.5, 33.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							i(134060),	-- A Sizeable Pouch of Gold (QI!)
-						},
+						["groups"] = { i(134060) },	-- A Sizeable Pouch of Gold (QI!)
 					}),
 					q(41113, {	-- The Only Way to Travel
 						["sourceQuest"] = 41112,	-- The Great Akazamzarak
@@ -478,17 +464,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42663,	-- Rise, Champions
 						["provider"] = { "n", 108247 },	-- Archmage Kalec <Kirin Tor>
 						["coord"] = { 56.3, 37.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(716),	-- Archmage Kalec
-						},
+						["groups"] = { follower(716) },	-- Archmage Kalec
 					}),
 					q(42685, {	-- Champion: Archmage Modera
 						["sourceQuest"] = 42663,	-- Rise, Champions
 						["provider"] = { "n", 108248 },	-- Archmage Modera <Kirin Tor>
 						["coord"] = { 55.3, 39.6, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(717),	-- Archmage Modera
-						},
+						["groups"] = { follower(717) },	-- Archmage Modera
 					}),
 					q(42703, {	-- Technical Wizardry
 						["sourceQuest"] = 42663,	-- Rise, Champions
@@ -515,11 +497,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108515 },	-- Archmage Melis
 						["coord"] = { 80.9, 63.1, HALL_OF_THE_GUARDIAN },
 					}),
-					-- Chap 1
+					-- Chapter 1
 					q(42433, {	-- Ancient Magic
 						["sourceQuest"] = 42696,	-- Tech It Up a Notch
-						["provider"] = { "n", 107482 },	-- Archmage Vargoth
-						["coord"] = { 74.5, 63.0, HALL_OF_THE_GUARDIAN },
+						["provider"] = { "n", 107482 },	-- Archmage Vargoth (mobileNPC)
+						["coord"] = { 78.0, 58.5, HALL_OF_THE_GUARDIAN },	-- Walks around the room
 					}),
 					q(42418, {	-- An Unexpected Visitor
 						["sourceQuest"] = 42433,	-- Ancient Magic
@@ -535,6 +517,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42434,	-- A Covert Operation
 						["provider"] = { "n", 107532 },	-- Ravandwyr
 						["coord"] = { 64.8, 37.9, AZSUNA },
+						["groups"] = {
+							i(139185),	-- Nar'thalas Scroll (QI!)
+							i(137598),	-- Pearl of Arcane Wisdom (QI!)
+						},
 					}),
 					q(42166, {	-- What Is Going On Here?
 						["sourceQuest"] = 42435,	-- Prepare To Be Assimilated
@@ -562,6 +548,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42166,	-- What Is Going On Here?
 						["provider"] = { "n", 106656 },	-- Esara Verrinde
 						["coord"] = { 66.4, 33.5, AZSUNA },
+						["groups"] = { i(137190) },	-- Rune of Opening (QI!)
 					}),
 					q(42171, {	-- Final Exit
 						["sourceQuests"] = {
@@ -586,24 +573,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42222,	-- Empyrean Society Report
 						["provider"] = { "n", 108380 },	-- Esara Verrinde <Magisters>
 						["coord"] = { 74.0, 59.4, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(726),	-- Esara Verrinde
-						},
+						["groups"] = { follower(726) },	-- Esara Verrinde
 					}),
 					q(42705, {	-- Champion: Ravandwyr
 						["sourceQuest"] = 42222,	-- Empyrean Society Report
 						["provider"] = { "n", 108377 },	-- Ravandwyr <Senior Kirin Tor Apprentice>
 						["coord"] = { 70.4, 53.3, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(725),	-- Ravandwyr
-						},
+						["groups"] = { follower(725) },	-- Ravandwyr
 					}),
 					q(42127, {	-- Building Our Troops
 						["sourceQuest"] = 42126,	-- Archmage Omniara
 						["provider"] = { "n", 108515 },	-- Archmage Melis
 						["coord"] = { 80.8, 63.0, HALL_OF_THE_GUARDIAN },
 					}),
-					-- Chap 2
+					-- Chapter 2
 					q(42416, {	-- The Council is in Session
 						["sourceQuest"] = 42222,	-- Empyrean Society Report
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
@@ -639,6 +622,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42508,	-- Not a Toothless Dragon
 						["provider"] = { "n", 111553 },	-- Kalecgos
 						["coord"] = { 34.1, 83.4, SURAMAR },
+						["groups"] = { i(137659) },	-- Rusty Key (QI!)
 					}),
 					q(42494, {	-- More Than Just A Food Vendor
 						["sourceQuest"] = 42508,	-- Not a Toothless Dragon
@@ -677,7 +661,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 56.0, 58.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["groups"] = { follower(723) },	-- Millhouse Manastorm
 					}),
-					-- Chap 3
+					-- Chapter 3
 					q(42707, {	-- Eye of Azshara: A Magical Affliction
 						["sourceQuest"] = 42520,	-- A Terrible Loss
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
@@ -712,9 +696,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42734,	-- Into the Oculus
 						["provider"] = { "n", 109222 },	-- Meryl Felstorm
 						["coord"] = { 72.8, 61.7, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["groups"] = {
-							follower(761),	-- Meryl Felstorm
-						},
+						["groups"] = { follower(761) },	-- Meryl Felstorm
 					}),
 					q(42917, {	-- Champion: Archmage Vargoth
 						["sourceQuest"] = 42734,	-- Into the Oculus
@@ -823,9 +805,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 121357 },	-- Arcanist Ryanna
 						["coord"] = { 55.8, 41.9, SURAMAR },
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							i(142241),	-- Unusual Crystal (QI!)
-						},
+						["groups"] = { i(142241) },	-- Unusual Crystal (QI!)
 					}),
 					q(46345, {	-- Into the Hornet's Nest
 						["sourceQuests"] = {
@@ -841,9 +821,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 116321 },	-- Arcanist Ryanna
 						["coord"] = { 47.1, 23.5, 691 },
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							i(142212),	-- Nighborne Construct Progenitor (QI!)
-						},
+						["groups"] = { i(142212) },	-- Nighborne Construct Progenitor (QI!)
 					}),
 					q(44770, {	-- Secrets of the Shal'dorei
 						["sourceQuest"] = 46345,	-- Into the Hornet's Nest
@@ -951,9 +929,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["maps"] = { 881 },	-- The Eye of Eternity (Scenario Map)
-						["groups"] = {
-							mount(229376),	-- Archmage's Prismatic Disc (MOUNT!)
-						},
+						["groups"] = { mount(229376) },	-- Archmage's Prismatic Disc (MOUNT!)
 					})),
 					-- Side Quest Ari and Arcane Destroyer
 					q(42954, {	-- A Small Favor
@@ -965,14 +941,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42954,	-- A Small Favor
 						["provider"] = { "n", 109307 },	-- Ari
 						["coord"] = { 37.0, 48.3, HALL_OF_THE_GUARDIAN },
+						["groups"] = {
+							i(138965),	-- Wand of Siphoning (PQI!)
+							--
+							i(138853),	-- Phial of Nightwell Energy (QI!)
+						},
 					}),
 					q(42956, {	-- Ari's Package
 						["sourceQuest"] = 42955,	-- The Proper Way of Things
 						["provider"] = { "n", 109307 },	-- Ari
 						["coord"] = { 37.0, 48.3, HALL_OF_THE_GUARDIAN },
-						["groups"] = {
-							i(141880),	-- Ari's Wooden Ring
-						},
+						["groups"] = { i(141880) },	-- Ari's Wooden Ring
 					}),
 					q(42959, {	-- Three Is a Lucky Number
 						["sourceQuest"] = 42956,	-- Ari's Package
@@ -983,9 +962,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42959,	-- Three Is a Lucky Number
 						["provider"] = { "n", 108368 },	-- Arcane Destroyer
 						["coord"] = { 38.2, 46.1, HALL_OF_THE_GUARDIAN },
-						["groups"] = {
-							follower(724),	-- Arcane Destroyer
-						},
+						["groups"] = { follower(724) },	-- Arcane Destroyer
 					}),
 					-- Side Quest: The Great Akazamzarak
 					q(45615, {	-- Finders Keepers
@@ -1011,17 +988,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 46722,	-- Nothing Up My Sleeve
 						["provider"] = { "n", 103092 },	-- The Great Akazamzarak
 						["coord"] = { 81.5, 60.3, HALL_OF_THE_GUARDIAN },
-						["groups"] = {
-							i(147838),	-- Akazamzarak's Spare Hat (TOY!)
-						},
+						["groups"] = { i(147838) },	-- Akazamzarak's Spare Hat (TOY!)
 					})),
 					q(46724, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Champion: The Great Akazamzarak
 						["sourceQuest"] = 46723,	-- Down the Rabbit Hole
 						["provider"] = { "n", 103092 },	-- The Great Akazamzarak
 						["coord"] = { 81.5, 60.3, HALL_OF_THE_GUARDIAN },
-						["groups"] = {
-							follower(995),	-- The Great Akazamzarak
-						},
+						["groups"] = { follower(995) },	-- The Great Akazamzarak
 					})),
 					-- Misc
 					q(43749, {	-- Hitting the Books

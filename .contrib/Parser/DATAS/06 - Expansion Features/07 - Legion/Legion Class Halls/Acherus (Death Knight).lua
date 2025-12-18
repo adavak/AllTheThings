@@ -663,12 +663,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(46305, {	-- Thorim's Flame
 						["sourceQuest"] = 44775,	-- The Peak of Bones
-						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow
+						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow (mobileNPC)
 						["coord"] = { 51.3, 84.3, STORMHEIM },
 					}),
 					q(44783, {	-- From Bones They Rise
 						["sourceQuest"] = 44775,	-- The Peak of Bones
-						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow
+						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow (mobileNPC)
 						["coord"] = { 51.3, 84.3, STORMHEIM },
 					}),
 					q(44787, {	-- The Bonemother
@@ -676,7 +676,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							44783,	-- From Bones They Rise
 							46305,	-- Thorim's Flame
 						},
-						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow
+						["provider"] = { "n", 116737 },	-- Minerva Ravensorrow (mobileNPC)
 						["maps"] = { STORMHEIM },
 					}),
 					q(45243, {	-- On Daumyr's Wings
