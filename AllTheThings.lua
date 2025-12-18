@@ -3935,9 +3935,12 @@ customWindowUpdates.Random = function(self)
 			-- Named-TypeIDs for the field to Select for a given named-Thing
 			local TypeIDLookups = {
 				Achievement = "achievementID",
+				Campsites = "campsiteID",
+				Decor = "decorID",
 				Dungeon = "instanceID",
 				Factions = "factionID",
-				-- Follower = "followerID",
+				Flight_Paths = "flightpathID",
+				Followers = "followerID",
 				Item = "itemID",
 				Instance = "instanceID",
 				Mount = "mountID",
@@ -3957,11 +3960,14 @@ customWindowUpdates.Random = function(self)
 				Achievement = function(o)
 					return o.collectible and not o.collected and not o.mapID and not o.criteriaID;
 				end,
+				-- Campsites - default
+				-- Decor - default
 				Dungeon = function(o)
 					return not o.isRaid and (((o.total or 0) - (o.progress or 0)) > 0);
 				end,
 				-- Factions - default
-				-- Follower - default
+				-- Flight Paths - default
+				-- Followers - default
 				-- Item - default
 				Instance = function(o)
 					return ((o.total or 0) - (o.progress or 0)) > 0;
@@ -4037,10 +4043,12 @@ customWindowUpdates.Random = function(self)
 						OnUpdate = app.AlwaysShowUpdate,
 					}),
 					AddRandomCategoryButton(L.ACHIEVEMENT, app.asset("Category_Achievements"), L.ACHIEVEMENT_DESC, "Achievement"),
+					AddRandomCategoryButton(L.CAMPSITES, app.asset("Category_Campsites"), L.CAMPSITE_DESC, "Campsites"),
+					AddRandomCategoryButton(L.DECOR, app.asset("Category_Housing"), L.DECOR_DESC, "Decor"),
 					AddRandomCategoryButton(L.DUNGEON, app.asset("Difficulty_Normal"), L.DUNGEON_DESC, "Dungeon"),
 					AddRandomCategoryButton(L.FACTIONS, app.asset("Category_Factions"), L.FACTION_DESC, "Factions"),
-					-- missing locale values
-					-- AddRandomCategoryButton(L.HEADER_NAMES[app.HeaderConstants.FOLLOWERS], L.HEADER_ICONS[app.HeaderConstants.FOLLOWERS], L.FOLLOWER_DESC, "Follower"),
+					AddRandomCategoryButton(L.FLIGHT_PATHS, app.asset("Category_FlightPaths"), L.FLIGHT_PATH_DESC, "Flight_Paths"),
+					AddRandomCategoryButton(L.FOLLOWERS, app.asset("Category_Followers"), L.FOLLOWER_DESC, "Followers"),
 					AddRandomCategoryButton(L.INSTANCE, app.asset("Category_D&R"), L.INSTANCE_DESC, "Instance"),
 					AddRandomCategoryButton(L.ITEM, app.asset("Interface_Zone_drop"), L.ITEM_DESC, "Item"),
 					AddRandomCategoryButton(L.MOUNT, app.asset("Category_Mounts"), L.MOUNT_DESC, "Mount"),
