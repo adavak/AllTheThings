@@ -3855,7 +3855,7 @@ root(ROOTS.Zones, {
 					o(213362, {	-- Ship's Locker
 						["questID"] = 31396,	-- Ship's Locker
 						["description"] = "Located underwater in a boat.",
-						["coord"] = { 51.28, 100.54, THE_JADE_FOREST },	-- Can't use Uncharted Sea MapID, plots the point incorrectly.
+						["coord"] = { 50.88, 99.74, THE_JADE_FOREST },	-- Can't use Uncharted Sea MapID, plots the point incorrectly.
 					}),
 					o(213333, {	-- Spirit Binders
 						["coord"] = { 42.2, 17.4, THE_JADE_FOREST },

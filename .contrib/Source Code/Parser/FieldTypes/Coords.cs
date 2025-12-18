@@ -93,8 +93,7 @@ namespace ATT.FieldTypes
                 foreach (object coordobj in coords)
                 {
                     // we're merging data which represents coords (coord X/Y values should parse as Double but we store as Float)
-                    // TODO: regular warning if all existing 2900+ non-decimal coords are ever converted
-                    if (coordobj.TryConvert(out double eDouble, debugWarnOnConvert: i < 2))
+                    if (coordobj.TryConvert(out double eDouble, warnOnConvert: i < 2))
                     {
                         switch (i)
                         {
@@ -229,8 +228,10 @@ namespace ATT.FieldTypes
 
         public bool Validate() =>
             // apparently we have a couple valid use cases of negative coords
-            //X > 0 &&
-            //Y > 0 &&
+            //X >= 0 &&
+            X <= 100 &&
+            //Y >= 0 &&
+            Y <= 100 &&
             MapID > 0;
     }
 }

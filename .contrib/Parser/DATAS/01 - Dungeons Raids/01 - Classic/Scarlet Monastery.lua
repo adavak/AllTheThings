@@ -369,7 +369,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								q(1951, {	-- Rituals of Power
 									["sourceQuest"] = 1950,	-- Get the Scoop
 									["qg"] = 6548,	-- Magus Tirth
-									["coord"] = { 478.2, 75.8, THOUSAND_NEEDLES },
+									["coord"] = { 47.82, 75.8, THOUSAND_NEEDLES },
 									["timeline"] = { REMOVED_4_0_3 },
 									["maps"] = { DUSTWALLOW_MARSH },
 									["classes"] = { MAGE },
