@@ -732,7 +732,6 @@ do
 		EnsembleItem = true,
 	}
 	local function ScanGroups(group, Collector)
-
 		-- ignore costs for and within certain groups
 		if not group.visible or group.sourceIgnored then return end
 
@@ -757,19 +756,14 @@ do
 	end
 	local function StartUpdating(Collector)
 		local group = Collector.__group
-		if not group then return end
-
 		Collector.Reset()
-		local text = group.__text
-		group.text = (text or "").."  "..BLIZZARD_STORE_PROCESSING
+		group.text = (group.__text or "").."  "..BLIZZARD_STORE_PROCESSING
 		group.OnSetVisibility = app.ReturnTrue
 		-- app.PrintDebug("AGC:Start",text)
 		app.DirectGroupRefresh(group, true)
 	end
 	local function EndUpdating(Collector)
 		local group = Collector.__group
-		if not group then return end
-
 		group.text = group.__text
 		-- app.PrintDebug("AGC:End",group.text)
 		-- app.PrintTable(Collector.Data)
@@ -825,9 +819,6 @@ do
 	end
 	local function ScanSubCosts(Collector)
 		-- app.PrintDebug("SSC:Start",Collector.__group.__text)
-		local group = Collector.__group
-		if not group then return end
-
 		local costThing
 		local anyNewCost
 		local CurCostData = app.CloneDictionary(Collector.Data)
@@ -884,6 +875,7 @@ do
 			if costGroup._SettingsRefresh == app._SettingsRefresh then
 				return
 			end
+			wipe(costGroup.g)
 			-- only need to run costs once per settings refresh, otherwise the costs won't change from regular refreshes
 			costGroup._SettingsRefresh = app._SettingsRefresh
 			Collector.__group = costGroup
@@ -984,8 +976,6 @@ local function BuildTotalCost(group)
 
 		group.window.__RefreshCostCollector = function(window, didUpdate)
 			-- app.PrintDebug("RefreshCollector??",group.window.Suffix,window and app:SearchLink(window.data),didUpdate)
-			wipe(costGroup.g)
-			-- app.PrintDebug("ScanGroups",window)
 			Collector.ScanGroups(group, costGroup)
 		end
 	end
