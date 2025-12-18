@@ -334,7 +334,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(1523, {	-- Call of Fire (1/5) [Thunder Bluff]
 					["qg"] = 5906,	-- Xanis Flameweaver
-					["coord"] = { 25.2, 21.0,0, THUNDER_BLUFF },
+					["coord"] = { 25.2, 21.0, THUNDER_BLUFF },
 					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { SHAMAN },
 					["races"] = HORDE_ONLY,

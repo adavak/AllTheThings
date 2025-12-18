@@ -2453,7 +2453,7 @@ i(233029);	-- Cracked Core
 i(236636);	-- Cracked Crysoberyl
 i(236640);	-- Cracked Earthen Singing Bowl
 i(236955);	-- Crimson Valorstone
-i(235038);	-- Crumpled Schematica
+i(235038);	-- Crumpled Schematic
 i(236639);	-- Dented Censer
 i(234204);	-- Depleted Battery
 i(237330);	-- Disposable Hamburger
