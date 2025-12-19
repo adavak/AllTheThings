@@ -157,6 +157,7 @@ AllTheThings.lua
 # src\Classes\Classic\Mounts & Battle Pets.lua
 
 src\UI\Game Tooltip.lua
+src\UI\Instance Difficulty Icon.lua
 src\UI\Minimap Button.lua
 src\UI\Waypoints.lua
 src\UI\World Map Button.lua
