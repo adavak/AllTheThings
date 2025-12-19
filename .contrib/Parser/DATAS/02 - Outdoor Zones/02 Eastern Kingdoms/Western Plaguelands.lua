@@ -135,6 +135,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(139624, {	-- Shard of Darkness
 					["description"] = "It first took 350 casts in the river (RNG, could be 10 casts, could be 10,000 casts)\n\nYou may fish anywhere along the river, as long as your location says \"Thondroril River\"\nYour fishing skill does not matter",
+					["sourceQuests"] = { 43685 },	-- Phylactery Used
 					["timeline"] = { ADDED_7_0_3 },
 					["classes"] = { PALADIN },
 					["requireSkill"] = FISHING,
