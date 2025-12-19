@@ -1387,87 +1387,302 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						shards(30, i(95758)),	-- Acid-Spine Bonemace
 						shards(30, i(95670)),	-- Amun-Thoth, Sul's Spiritrending Talons
 						shards(30, i(95774)),	-- Athame of the Sanguine Ritual
-
-						-- Two-Handed
+						shards(30, i(95876)),	-- Do-tharak, the Swordbreaker
+						shards(30, i(95860)),	-- Fyn's Flickering Dagger
+						shards(30, i(95770)),	-- Hand of the Dark Animus
+						shards(50, i(95780)),	-- Iron Qon's Boot Knife
+						shards(30, i(95867)),	-- Jerthud, Graceful Hand of the Savior
+						shards(30, i(95666)),	-- Kura-Kura, Kazra'jin's Skullcleaver
+						shards(30, i(95698)),	-- Megaera's Poisoned Fang
+						shards(30, i(95866)),	-- Nadagast's Exsanguinator
+						shards(30, i(95790)),	-- Qon's Flaming Scimitar
+						shards(30, i(95743)),	-- Ritual Dagger of the Mind's Eye
+						shards(30, i(95686)),	-- Shellsplitter Greataxe
+						shards(30, i(95640)),	-- Soulblade of the Breaking Storm
+						shards(30, i(97129)),	-- Tia-Tia, the Scything Star
+						shards(30, i(95815)),	-- Torall, Rod of the Shattered Throne
+						shards(30, i(95632)),	-- Worldbreaker's Stormscythe
+						shards(30, i(95791)),	-- Wu-Lai, Bladed Fan of the Consorts
+						shards(30, i(95861)),	-- Zeeg's Ancient Kegsmasher
 						
+						-- Two-Handed
+						shards(50, i(95877)),	-- Bo-Ris, Horror in the Night
+						shards(50, i(95862)),	-- Darkwood Spiritstaff
+						shards(50, i(95657)),	-- Dinomancer's Spiritbinding Spire
+						shards(50, i(95720)),	-- Giorgio's Caduceus of Pure Moods
+						shards(50, i(95875)),	-- Greatsword of Frozen Hells
+						shards(50, i(95858)),	-- Invocation of the Dawn
+						shards(50, i(95647)),	-- Jalak's Maelstrom Staff
+						shards(50, i(95803)),	-- Shan-Dun, Breaker of Hope
+						shards(50, i(95795)),	-- Suen-Wo, Spire of the Falling Sun
+						shards(50, i(95809)),	-- Uroe, Harbinger of Terror
+						shards(50, i(95675)),	-- Zerat, Malakk's Soulburning Greatsword
 
 						-- Ranged
-						
+						shards(50, i(95728)),	-- Durumu's Baleful Gaze
+						shards(50, i(95859)),	-- Miracoran, the Vehement Chord
+						shards(50, i(95678)),	-- Shattered Tortoiseshell Longbow
+						shards(30, i(95660)),	-- Venomlord's Totemic Wand
+						shards(50, i(95781)),	-- Voice of the Quilen
 
 						-- Off-hand
-						
+						shards(20, i(95710)),	-- Fetish of the Hydra
+						shards(20, i(95818)),	-- Lei Shen's Orb of Command
+						shards(20, i(95786)),	-- Orb of Arcing Lightning
 
 						-- Shields
-						
+						shards(20, i(95768)),	-- Greatshield of the Gloaming
+						shards(20, i(95794)),	-- Shield of Twinned Despair
+						shards(20, i(95692)),	-- Tortos' Discarded Shell
+						shards(20, i(95810)),	-- Ultimate Protection of the Emperor
+						shards(20, i(95878)),	-- Visage of the Doomed
 					},
 					{	-- Necks
 						shards(30, i(95685)),	-- Amulet of the Primal Turtle
+						shards(30, i(95658)),	-- Horridon's Tusk Fragment
+						shards(30, i(95705)),	-- Hydraskull Choker
+						shards(30, i(95709)),	-- Megaera's Shining Eye
+						shards(30, i(95800)),	-- Moonjade Necklace
+						shards(30, i(95958)),	-- Necklace of the Terra-Cotta Archer
+						shards(30, i(95964)),	-- Necklace of the Terra-Cotta Invoker
+						shards(30, i(95969)),	-- Necklace of the Terra-Cotta Mender
+						shards(30, i(95980)),	-- Necklace of the Terra-Cotta Protector
+						shards(30, i(95977)),	-- Necklace of the Terra-Cotta Vanquisher
+						shards(30, i(95793)),	-- Passionfire Choker
+						shards(30, i(95699)),	-- Quadra-Head Brooch
+						shards(30, i(95816)),	-- Soul Prism of Lei Shen
+						shards(30, i(95676)),	-- Talisman of Angry Spirits
+						shards(30, i(95646)),	-- Talisman of Living Poison
 					},
 					{	-- Cloaks
-						
+						shards(30, i(95687)),	-- Beakbreaker Greatcloak
+						shards(30, i(95773)),	-- Constantly Accelerating Cloak
+						shards(30, i(95741)),	-- Deadly Glare Cape
+						shards(30, i(95639)),	-- Drape of Booming Nights
+						shards(30, i(95653)),	-- Horn-Rimmed Doomcloak
+						shards(30, i(95755)),	-- Hydra-Scale Bloodcloak
+						shards(30, i(95717)),	-- Pinionfeather Greatcloak
+						shards(30, i(95736)),	-- Reinforced Mirror-Sheen Cloak
+						shards(30, i(95691)),	-- Shimmershell Cape
+						shards(30, i(95645)),	-- Wastewalker's Sandblasted Drape
 					},
 					{	-- Plate Armor
 						-- Head
+						shards(50, i(95723)),	-- Crown of Potentiated Birth
+						shards(50, i(95778)),	-- Crown of the Golden Golem
+						shards(50, i(95806)),	-- Doomed Crown of Lei Shen
+						shards(50, i(95652)),	-- Puncture-Proof Greathelm
 						-- Shoulders
+						shards(30, i(95754)),	-- Metabolically Boosted Shoulderplates
+						shards(30, i(95874)),	-- Reconstructed Bloody Shoulderplates
+						shards(30, i(95873)),	-- Reconstructed Furious Shoulderplates
+						shards(30, i(95872)),	-- Reconstructed Holy Shoulderplates
+						shards(30, i(95683)),	-- Shoulderguards of Centripetal Destruction
+						shards(30, i(95767)),	-- Spaulders of Primordial Growth
 						-- Chest
+						shards(50, i(95630)),	-- Chestplate of Violent Detonation
+						shards(50, i(95644)),	-- Ionized Yojamban Carapace
+						shards(50, i(95821)),	-- Lei Shen's Grounded Carapace
+						shards(50, i(95674)),	-- Overloaded Bladebreaker Cuirass
+						shards(50, i(95703)),	-- Rot-Proof Greatplate
+						shards(50, i(95724)),	-- Talonrender Chestplate
 						-- Wrist
 						shards(30, i(95664)),	-- Armplates of the Vanquished Abomination
+						shards(30, i(95766)),	-- Bonemender Bracers
+						shards(30, i(95631)),	-- Bracers of Constant Implosion
+						shards(30, i(95732)),	-- Caustic Spike Bracers
+						shards(30, i(95684)),	-- Shell-Coated Wristplates
 						-- Hands
 						shards(30, i(95735)),	-- Artery Rippers
+						shards(30, i(95725)),	-- Egg-Shard Grips
+						shards(30, i(95746)),	-- Iceshatter Gauntlets
+						shards(30, i(95752)),	-- Pathogenic Gauntlets
+						shards(30, i(95789)),	-- Rein-Binder's Fists
+						shards(30, i(95697)),	-- Tortos' Shellseizers
 						-- Waist
 						shards(50, i(95976)),	-- Abandoned Zandalari Bucklebreaker
 						shards(50, i(95975)),	-- Abandoned Zandalari Goreplate
 						shards(50, i(95974)),	-- Abandoned Zandalari Greatbelt
+						shards(50, i(95629)),	-- Cloudbreaker Greatbelt
+						shards(50, i(95702)),	-- Plated Toothbreaker Girdle
+						shards(50, i(95696)),	-- Refreshing Abalone Girdle
 						-- Legs
+						shards(50, i(95753)),	-- Black Blood Legplates
+						shards(50, i(95651)),	-- Bloodlord's Bloodsoaked Legplates
+						shards(50, i(95747)),	-- Legplates of Re-Emergence
+						shards(50, i(95733)),	-- Legplates of the Dark Parasite
+						shards(50, i(95807)),	-- Legplates of the Lightning Throne
+						shards(50, i(95808)),	-- Legplates of Whipping Ionization
+						shards(50, i(95777)),	-- Matter-Swapped Legplates
 						-- Feet
+						shards(50, i(95979)),	-- Columnbreaker Stompers
+						shards(50, i(95716)),	-- Ice-Scored Treads
+						shards(50, i(95978)),	-- Locksmasher Greaves
+						shards(50, i(95798)),	-- Tidal Force Treads
+						shards(50, i(95734)),	-- Treads of the Blind Eye
+						shards(50, i(95968)),	-- Vaultwalker Sabatons
 					},
 					{	-- Mail Armor
 						-- Head
+						shards(50, i(95765)),	-- Clear-Mind Helm
+						shards(50, i(95672)),	-- Gaze of Gara'jal
 						-- Shoulders
 						shards(30, i(95870)),	-- Abandoned Spaulders of Arrowflight
 						shards(30, i(95871)),	-- Abandoned Spaulders of Renewal
+						shards(30, i(95695)),	-- Spaulders of Quaking Fear
+						shards(30, i(95628)),	-- Static-Shot Shoulderguards
 						-- Chest
 						shards(50, i(95731)),	-- Aberrant Chestguard of Torment
+						shards(50, i(95715)),	-- Chain of Consuming Magic
+						shards(50, i(95788)),	-- Ro'shak's Molten Chain
+						shards(50, i(95649)),	-- Sul'lithuz Sandmail
 						-- Wrist
+						shards(30, i(95681)),	-- Beady-Eye Bracers
+						shards(30, i(95750)),	-- Bracers of Mutagenic Fervor
+						shards(30, i(95650)),	-- Frozen Warlord's Bracers
+						shards(30, i(95673)),	-- Loa-Ridden Bracers
+						shards(30, i(95745)),	-- Vein-Cover Bracers
 						-- Hands
+						shards(30, i(95801)),	-- Fingers of the Night
+						shards(30, i(95722)),	-- Grasp of the Ruthless Mother
+						shards(30, i(95701)),	-- Grips of Cinderflesh
+						shards(30, i(95751)),	-- Synapse-String Handguards
 						-- Waist
 						shards(50, i(95972)),	-- Abandoned Zandalari Arrowlinks
 						shards(50, i(95973)),	-- Abandoned Zandalari Waterchain
+						shards(50, i(95714)),	-- Links of the Bifurcated Tongue
+						shards(50, i(95730)),	-- Links of the Disintegrator
 						-- Legs
+						shards(50, i(95805)),	-- Conduit-Breaker Chain Leggings
+						shards(50, i(95820)),	-- Leggings of the Violent Gale
+						shards(50, i(95663)),	-- Legguards of Scintillating Scales
+						shards(50, i(95627)),	-- Spearman's Jingling Leggings
 						-- Feet
+						shards(50, i(95643)),	-- Ghostbinder Greatboots
+						shards(50, i(95682)),	-- Quakestompers
+						shards(50, i(95960)),	-- Scalehide Spurs
+						shards(50, i(95967)),	-- Spiritbound Boots
 					},
 					{	-- Leather Armor
 						-- Head
+						shards(50, i(95713)),	-- Hood of Smoldering Flesh
+						shards(50, i(95626)),	-- Lightning-Eye Hood
 						-- Shoulders
+						shards(30, i(95868)),	-- Forgotten Mantle of the Moon
+						shards(30, i(95869)),	-- Forgotten Mantle of the Sun
+						shards(30, i(95700)),	-- Poisonblood Bladeshoulders
+						shards(30, i(95662)),	-- Spaulders of Dinomancy
 						-- Chest
+						shards(50, i(95804)),	-- Fusion Slasher Chestguard
+						shards(50, i(95694)),	-- Robes of Concussive Shocks
+						shards(50, i(95671)),	-- Robes of Treacherous Ground
+						shards(50, i(95679)),	-- Rockfall Ribwraps
 						-- Wrist
+						shards(30, i(95648)),	-- Bindings of Multiplicative Strikes
+						shards(30, i(95796)),	-- Bracers of the Midnight Comet
+						shards(30, i(95642)),	-- Infinitely Conducting Bracers
+						shards(30, i(95693)),	-- Vampire Bat-Hide Bracers
 						-- Hands
 						shards(30, i(95776)),	-- Anima-Ringed Fingers
+						shards(30, i(95749)),	-- Gloves of Cushioned Air
+						shards(30, i(95819)),	-- Grips of Slicing Electricity
+						shards(30, i(95680)),	-- Grips of Vampiric Cruelty
 						-- Waist
 						shards(50, i(95971)),	-- Abandoned Zandalari Moonstrap
 						shards(50, i(95970)),	-- Abandoned Zandalari Silentbelt
+						shards(50, i(95721)),	-- Featherflight Belt
+						shards(50, i(95797)),	-- Girdle of Night and Day
 						-- Legs
+						shards(50, i(95729)),	-- Crimson Bloom Legguards
+						shards(50, i(95764)),	-- Leggings of the Malformed Sapling
+						shards(50, i(95661)),	-- Roots of Rampaging Earth
+						shards(50, i(95775)),	-- Worldbinder Leggings
 						-- Feet
+						shards(50, i(95966)),	-- Deeproot Treads
+						shards(50, i(95744)),	-- Sandals of the Starving Eye
+						shards(50, i(95959)),	-- Spiderweb Tabi
+						shards(50, i(95787)),	-- Spurs of the Storm Cavalry
 					},
 					{	-- Cloth Armor
 						-- Head
+						shards(50, i(95655)),	-- Flamecaster's Burning Crown
+						shards(50, i(95771)),	-- Hood of the Crimson Wake
+						shards(50, i(95689)),	-- Stonegaze Hood
 						-- Shoulders
+						shards(30, i(95740)),	-- Chilblain Spaulders
+						shards(30, i(95636)),	-- Fissure-Split Shoulderwraps
+						shards(30, i(95707)),	-- Gleaming-Eye Shoulderpads
+						shards(30, i(95863)),	-- Lost Shoulders of Fire
+						shards(30, i(95864)),	-- Lost Shoulders of Healing
+						shards(30, i(95865)),	-- Lost Shoulders of Fluidity
 						-- Chest
+						shards(50, i(95719)),	-- Robe of Midnight Dawn
+						shards(50, i(95759)),	-- Robes of Mutagenic Blood
+						shards(50, i(95637)),	-- Robes of Static Bursts
+						shards(50, i(95792)),	-- Robes of the Moon Lotus
+						shards(50, i(95668)),	-- Zandalari Robes of the Final Rite
 						-- Wrist
 						shards(30, i(95688)),	-- Azure Shell Bracers
+						shards(30, i(95762)),	-- Bracers of Fragile Bone
+						shards(30, i(95708)),	-- Frostborn Wristwraps
+						shards(30, i(95656)),	-- Vaccinator's Armwraps
 						-- Hands
+						shards(30, i(95690)),	-- Crystal-Claw Gloves
+						shards(30, i(95813)),	-- Gloves of the Maimed Vizier
+						shards(30, i(95760)),	-- Helix-Breaker Gloves
+						shards(30, i(95738)),	-- Lifedrainer's Sordid Grip
+						shards(30, i(95634)),	-- Lightningweaver Gauntlets
 						-- Waist
 						shards(50, i(95961)),	-- Abandoned Zandalari Firecord
 						shards(50, i(95962)),	-- Abandoned Zandalari Shadowgirdle
+						shards(50, i(95718)),	-- Cord of Cacophonous Cawing
+						shards(50, i(95782)),	-- Quet'zal's Crackling Cord
 						-- Legs
 						shards(50, i(95635)),	-- Al'set's Tormented Leggings
+						shards(50, i(95761)),	-- Leggings of Ebon Veins
+						shards(50, i(95739)),	-- Leggings of Pulsing Blood
+						shards(50, i(95812)),	-- Legwraps of Cardinality
+						shards(50, i(95783)),	-- Saddle-Scarred Leggings
 						-- Feet
+						shards(50, i(95784)),	-- Dam'ren's Frozen Footguards
+						shards(50, i(95965)),	-- Home-Warding Slippers
+						shards(50, i(95667)),	-- Mar'li's Bloodstained Sandals
+						shards(50, i(95706)),	-- Sandals of Arcane Fury
+						shards(50, i(95963)),	-- Silentflame Sandals
 					},
 					{	-- Rings
-						
+						shards(30, i(95756)),	-- Band of the Scaled Tyrant
+						shards(30, i(95742)),	-- Durumu's Captive Eyeball
+						shards(30, i(95737)),	-- Durumu's Severed Tentacle
+						shards(30, i(95769)),	-- Gore-Soaked Gear
+						shards(30, i(95638)),	-- Jin'rokh's Dreamshard
+						shards(30, i(95633)),	-- Jin'rokh's Soulcrystal
+						shards(30, i(95659)),	-- Petrified Eye of the Basilisk
+						shards(30, i(95785)),	-- Ro'shak's Remembrance
+						shards(30, i(95624)),	-- Sign of the Bloodied God
+						shards(30, i(95704)),	-- Spinescale Seal
 					},
 					{	-- Trinkets
-						
+						shards(50, i(95665)),	-- Bad Juju
+						shards(50, i(95711)),	-- Breath of the Hydra
+						shards(50, i(95772)),	-- Cha-Ye's Essence of Brilliance
+						shards(50, i(95779)),	-- Delicate Vial of the Sanguinaire
+						shards(50, i(95726)),	-- Fabled Feather of Ji-Kun
+						shards(50, i(95677)),	-- Fortitude of the Zandalari
+						shards(50, i(95799)),	-- Gaze of the Twins
+						shards(50, i(95641)),	-- Horridon's Last Gasp
+						shards(50, i(95712)),	-- Inscribed Bag of Hydra-Spawn
+						shards(50, i(95727)),	-- Ji-Kun's Rising Winds
+						shards(50, i(95817)),	-- Lightning-Imbued Chalice
+						shards(50, i(95757)),	-- Primordius' Talisman of Rage
+						shards(50, i(95625)),	-- Renataki's Soul Charm
+						shards(50, i(95802)),	-- Rune of Re-Origination
+						shards(50, i(95811)),	-- Soul Barrier
+						shards(50, i(95654)),	-- Spark of Zandalar
+						shards(50, i(95763)),	-- Stolen Relic of Zuldazar
+						shards(50, i(95748)),	-- Talisman of Bloodlust
+						shards(50, i(95814)),	-- Unerring Vision of Lei Shen
+						shards(50, i(95669)),	-- Wushoolay's Final Choice
 					},
 					{	-- Bags
 						shards(10, i(266273, {	-- Cache of Celestial Chance

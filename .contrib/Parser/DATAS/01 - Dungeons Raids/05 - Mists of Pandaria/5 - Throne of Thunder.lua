@@ -837,6 +837,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
+			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {
 				-- #if AFTER 6.0.1
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
@@ -862,8 +863,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							i(95965),	-- Home-Warding Slippers
 							i(95978),	-- Locksmasher Greaves
 							i(95958),	-- Necklace of the Terra-Cotta Archer
+							i(95964),	-- Necklace of the Terra-Cotta Invoker
 							i(95969),	-- Necklace of the Terra-Cotta Mender
 							i(95980),	-- Necklace of the Terra-Cotta Protector
+							i(95977),	-- Necklace of the Terra-Cotta Vanquisher
 							i(95960),	-- Scalehide Spurs
 							i(95963),	-- Silentflame Sandals
 							i(95959),	-- Spiderweb Tabi
@@ -1230,6 +1233,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
+			-- #endif
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				i(97153, {	-- Spoils of the Thunder King
 					["description"] = "Awarded from completing the Weekly Raid Quest.\n\nThis bag contains gold, flasks, reagents, epic necklaces, and has chance to drop a Primal Egg.",
