@@ -118,26 +118,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					}),
 				}),
 				n(VENDORS, {
-					n(COMMON_VENDOR_ITEMS, {
-						["crs"] = {
-							86683,	-- Tai'tasi
-							86776,	-- Ribchewer
-							-- TODO: missing more horde trading post vendors & alliance vendors
-						},
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_11_2_7 },
-						},{
-							i(245444, {["cost"] = {{"c",GARRISON_RESOURCES,250}}}),	-- Orcish Communal Stove (DECOR!)
-							i(245445, {["cost"] = {{"c",GARRISON_RESOURCES,150}}}),	-- Frostwolf Axe-Dart Board (DECOR!)
-							i(244322, {["cost"] = {{"c",GARRISON_RESOURCES,100}}}),	-- Frostwolf Banded Stool (DECOR!)
-							i(244321, {["cost"] = {{"c",GARRISON_RESOURCES,100}}}),	-- Orcish Lumberjack's Stool (DECOR!)
-						}),
-					}),
 					n(87015, {	-- Kil'rip <Laughing Skull Quartermaster>
 						["races"] = HORDE_ONLY,
 						["crs"] = { 86698 },	-- Kil'rip
 						["groups"] = bubbleDownClassicRep(FACTION_LAUGHING_SKULL_ORCS, {
 							{		-- Neutral
+								i(245444, {	-- Orcish Communal Stove (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{"c",GARRISON_RESOURCES,250}},
+								}),
+								i(245445, {	-- Frostwolf Axe-Dart Board (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{"c",GARRISON_RESOURCES,150}},
+								}),
+								i(244322, {	-- Frostwolf Banded Stool (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{"c",GARRISON_RESOURCES,100}},
+								}),
+								i(244321, {	-- Orcish Lumberjack's Stool (DECOR!)
+									["timeline"] = { ADDED_11_2_7 },
+									["cost"] = {{"c",GARRISON_RESOURCES,100}},
+								}),
 							}, {	-- Friendly
 								i(245433, {	-- Blackrock Strongbox (DECOR!)
 									["timeline"] = { ADDED_11_2_7 },
