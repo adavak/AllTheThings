@@ -934,13 +934,13 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
 					},
 					["DisablePartySync"] = true,
-					["coord"] = { 53.0, 61.2, DEEPRUN_TRAM },
+					["coord"] = { 53.7, 61.6, DEEPRUN_TRAM },
 					["groups"] = { i(254690) },	-- Blood-Soaked Invitation
 				}),
 				q(94363, {	-- The Gloves Are Off
 					["sourceQuest"] = 92851,	-- Questionable Qualifications
 					["qg"] = 253170,	-- Pick Butterworth
-					["coord"] = { 53.0, 61.2, DEEPRUN_TRAM },
+					["coord"] = { 53.7, 61.6, DEEPRUN_TRAM },
 				}),
 			}),
 			sharedData({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = HORDE_ONLY }, {
