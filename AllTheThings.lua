@@ -4226,16 +4226,28 @@ customWindowUpdates.Import = function(self, force)
 			if not ids then return false end
 
 			local foundAnything = false
+			local seen = {}
 
 			for _, id in ipairs(ids) do
 				local found = FindATTObjects(typeKey, id)
 				if found and #found > 0 then
 					for _, ref in ipairs(found) do
-						local clone = app.CloneReference(ref)
-						clone.forceShow = true
-						clone.OnUpdate = app.AlwaysShowUpdate
-						tinsert(self.data.g, clone)
-						foundAnything = true
+						local key = ref.key
+						local value = key and ref[key]
+
+						if key and value then
+							local uid = key .. ":" .. value
+							if not seen[uid] then
+								seen[uid] = true
+
+								local clone = app.CloneReference(ref)
+								clone.forceShow = true
+								clone.OnUpdate = app.AlwaysShowUpdate
+								tinsert(self.data.g, clone)
+
+								foundAnything = true
+							end
+						end
 					end
 				end
 			end
