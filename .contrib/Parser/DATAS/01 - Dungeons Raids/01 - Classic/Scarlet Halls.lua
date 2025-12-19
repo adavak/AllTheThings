@@ -302,6 +302,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86858)),	-- Seal of the Profane (HoF)
 							-- #elseif BEFORE 5.5.5
 							-- Season 2 Drops
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95630)),	-- Chestplate of Violent Detonation
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95739)),	-- Leggings of Pulsing Blood
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95767)),	-- Spaulders of Primordial Growth
 							-- #else
 							-- Season 3 Drops
 							-- #endif
