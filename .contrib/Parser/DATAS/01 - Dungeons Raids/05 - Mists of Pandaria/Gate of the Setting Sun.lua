@@ -435,6 +435,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86885)),	-- Spirits of the Sun (Terrace)
 							-- #elseif BEFORE 5.5.5
 							-- Season 2 Drops
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95679)),	-- Rockfall Ribwraps
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95678)),	-- Shattered Tortoiseshell Longbow
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95654)),	-- Spark of Zandalar
 							-- #else
 							-- Season 3 Drops
 							-- #endif
