@@ -668,7 +668,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 71.7, 54.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["maps"] = { 713 },	-- Eye of Azshara
 						["groups"] = {
-							i(138272),	-- Khadgar's Vial (QI!)
+							i(138272),	-- Khadgar's Vial (PQI!)
+							--
 							i(138271),	-- Vial of Arcane Water (QI!)
 						},
 					}),
@@ -951,12 +952,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42955,	-- The Proper Way of Things
 						["provider"] = { "n", 109307 },	-- Ari
 						["coord"] = { 37.0, 48.3, HALL_OF_THE_GUARDIAN },
-						["groups"] = { i(141880) },	-- Ari's Wooden Ring
+						["groups"] = {
+							i(138866),	-- Well-Wrapped Package (PQI!)
+							--
+							i(141880),	-- Ari's Wooden Ring
+						},
 					}),
 					q(42959, {	-- Three Is a Lucky Number
 						["sourceQuest"] = 42956,	-- Ari's Package
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
 						["coord"] = { 71.7, 54.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+						["groups"] = {
+							i(138971),	-- Cask of Honey Brew (QI!)
+							i(138968),	-- Glittering Necklace (QI!)
+							i(138969),	-- Handful of Ancient Golden Discs (QI!)
+						},
 					}),
 					q(42704, {	-- Champion: Arcane Destroyer
 						["sourceQuest"] = 42959,	-- Three Is a Lucky Number

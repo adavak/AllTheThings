@@ -921,7 +921,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
 					},
 					["DisablePartySync"] = true,
-					["coord"] = { 51.2, 43.4, DORNOGAL },
+					["coords"] = {
+						{ 51.2, 43.4, DORNOGAL },
+						{ 66.6, 72.2, STORMWIND_CITY }
+					},
 				}),
 				q(92851, {	-- Questionable Qualifications
 					["sourceQuest"] = 92845,	-- By Invitation Only?
