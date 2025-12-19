@@ -12,6 +12,7 @@ local GetQuestID,C_QuestLog_IsOnQuest
 -- Modules
 local DelayedCallback = app.CallbackHandlers.DelayedCallback
 local round = app.round
+local SearchForObject = app.SearchForObject
 
 local api = {};
 app.Modules.Contributor = api;
@@ -2587,7 +2588,7 @@ local function OnQUEST_DETAIL(...)
 	end
 	api.LastQUEST_DETAIL = questID
 
-	local objRef = app.SearchForObject("questID", questID, "field") or app.CreateQuest(questID)
+	local objRef = SearchForObject("questID", questID, "field") or app.CreateQuest(questID)
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",objRef and objRef.hash)
 	app.CheckInaccurateQuestInfo(objRef, "viewed")
 
@@ -2686,15 +2687,16 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- close enough to an object to open, track potential looting via mouseclick/interact for a few seconds
 	RegisterUNIT_SPELLCAST_SENT(10)
 
-	local objRef = app.SearchForObject("objectID", id)
+	local objRef = SearchForObject("objectID", id, "field") or SearchForObject("objectID", id)
 	-- only check sourced objects
 	if not objRef then return end
 	-- app.PrintDebug("GameObject",app:SearchLink(objRef))
 
+	-- if an object only has 'maps' then ignore coord check
+	local mapsNoCoords = objRef.maps and not objRef.coords
 	-- check sourced object coords
-	if not IgnoredChecksByType[guidtype].coord(id) then
+	if not mapsNoCoords and not IgnoredChecksByType[guidtype].coord(id) then
 		-- object auto-detect can happen from rather far, so using 2 distance
-		local objID = objRef.keyval
 		local checkCoords = Check_coords(objRef, 2)
 		if not checkCoords then
 			local reportData = {
@@ -2702,7 +2704,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 				type = "Object",
 			}
 			reportData.MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type)
-			AddReportData(objRef.__type,objID,reportData)
+			AddReportData(objRef.__type,objRef.keyval,reportData)
 		elseif checkCoords == 1 then
 			-- no extra data to add for object detection
 		end
@@ -2721,19 +2723,18 @@ local SpellIDHandlers = setmetatable({
 		local id = LastSoftInteract.ID
 		if not id or IgnoredChecksByType.GameObject.coord(id) then return end
 
-		local objRef = app.SearchForObject("objectID", id)
+		local objRef = SearchForObject("objectID", id, "field") or SearchForObject("objectID", id)
 		-- if it's Sourced, we've already checked it via PLAYER_SOFT_INTERACT_CHANGED
 		if objRef then return end
 
 		local tooltipName = dest or (GameTooltipTextLeft1 and GameTooltipTextLeft1:GetText())
 		objRef = UnknownObjectsCache[id]
-		local objID = objRef.keyval
 		-- report openable object
 		local reportData = BuildGenericReportData(objRef, id)
 		reportData.NotSourced = "Openable Object not Sourced!"
 		reportData.Name = tooltipName or "(No Tooltip Text Available)"
 		reportData.objectID = id
-		AddReportData(objRef.__type,objID,reportData)
+		AddReportData(objRef.__type,objRef.keyval,reportData)
 	end
 }, { __index = function(t, key)
 	if app.Debugging then
