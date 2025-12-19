@@ -437,7 +437,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(335, {	-- Sha of Doubt
@@ -445,10 +445,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["groups"] = {
 							ach(60892),	-- Celestial: Temple of the Jade Serpent
 							i(248204),	-- Chimera of Doubt
+							-- #if BEFORE 5.5.3
+							-- Season 1 Drops
 							i(86762),	-- Gara'kal, Fist of the Spiritbinder
 							i(86759),	-- Soulgrasp Choker
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86814)),	-- Fragment of Fear Made Flesh
 							i(86791),	-- Bottle of Infinite Stars
+							-- #elseif BEFORE 5.5.5
+							-- Season 2 Drops
+							-- #else
+							-- Season 3 Drops
+							-- #endif
 						},
 					}),
 				},

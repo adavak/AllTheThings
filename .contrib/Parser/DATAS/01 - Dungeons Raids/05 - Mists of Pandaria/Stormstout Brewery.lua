@@ -385,17 +385,24 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(670, {	-- Yan-Zhu the Uncasked
 						["creatureID"] = 59479,	-- Yan-Zhu the Uncasked
 						["groups"] = {
 							ach(60893),	-- Celestial: Stormstout Brewery
+							-- #if BEFORE 5.5.3
+							-- Season 1 Drops
 							i(86741),	-- Dagger of the Seven Stars
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86865)),	-- Kri'tak, Imperial Scepter of the Swarm (HoF)
 							i(86776),	-- Amulet of the Hidden Kings
 							i(86767),	-- Circuit of the Frail Soul
+							-- #elseif BEFORE 5.5.5
+							-- Season 2 Drops
+							-- #else
+							-- Season 3 Drops
+							-- #endif
 						},
 					}),
 				},

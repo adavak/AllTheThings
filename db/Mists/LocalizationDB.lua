@@ -126,7 +126,9 @@ L.BREADCRUMBS = "Breadcrumbs";
 L.BREADCRUMBS_WARNING = "There are breadcrumb quests that may not be obtainable after completing this:";
 L.CACHED_RECIPES_1 = "Cached ";
 L.CACHED_RECIPES_2 = " known recipes!";
+L.CAMPSITE_DESC = "Click this button to select a random campsite based on what you're missing.";
 L.CAMPSITE_ID = "Campsite ID";
+L.CAMPSITES = WARBAND_SCENES;
 L.CAMPSITES_CHECKBOX = WARBAND_SCENES;
 L.CAMPSITES_CHECKBOX_TOOLTIP = "Enable this option to track warband campsite completion.";
 L.CATALYST = "Catalyst";
@@ -218,8 +220,10 @@ L.DEATHS_CHECKBOX_TOOLTIP = "Enable this option to track each time one of your c
 L.DEBUG_LOGIN = "Awarded for logging in.\n\nGood job! YOU DID IT!\n\nOnly visible while in Debug Mode.";
 L.DEBUG_MODE = "|c" .. _.DefaultColors.Red .. "Debug Mode |cffffffff(Show Everything)|r|r";
 L.DEBUG_MODE_TOOLTIP = "Quite literally ... ALL THE THINGS IN THE GAME. PERIOD. DOT. YEAH, ALL OF IT. Even Uncollectible things like bags, consumables, reagents, etc will appear in the lists. (Even yourself! No, really. Look.)\n\nThis is for Debugging purposes only. Not intended to be used for completion tracking.\n\nThis mode bypasses all filters, including Unobtainables.";
+L.DECOR = BINDING_TAG_DECOR;
 L.DECOR_CHECKBOX = CATALOG_SHOP_TYPE_DECOR;
 L.DECOR_CHECKBOX_TOOLTIP = "Enable this option to track warband decor completion.";
+L.DECOR_DESC = "Click this button to select a random decor based on what you're missing.";
 L.DECOR_ID = "Decor ID";
 L.DELETE_CHARACTER = "Right Click to Delete this Character";
 L.DELETE_LINKED_ACCOUNT = "Right Click to Delete this Linked Account";
@@ -313,12 +317,15 @@ L.FILTER_THINGS_BY_LEVEL_CHECKBOX_TOOLTIP = "Enable this setting if you want to 
 L.FILTER_THINGS_BY_SKILL_LEVEL_CHECKBOX = "No Skill Level Restrictions";
 L.FILTER_THINGS_BY_SKILL_LEVEL_CHECKBOX_TOOLTIP = "Disable this setting if you only want to see content available to the maximum possible skill level available to the game environment.";
 L.FILTERS_PAGE = "Filters";
+L.FLIGHT_PATH_DESC = "Click this button to select a random flight path based on what you're missing.";
 L.FLIGHT_PATH_ID = "Flight Path ID";
 L.FLIGHT_PATHS = "Flight Paths";
 L.FLIGHT_PATHS_CHECKBOX = "Flight Paths";
 L.FLIGHT_PATHS_CHECKBOX_TOOLTIP = "Enable this option to track flight paths and ferry stations.\n\nTo collect these, open the dialog with the flight / ferry master in each continent.\n\nNOTE: Due to phasing technology, you may have to phase to the other versions of a zone to get credit for those points of interest.";
 L.FLIGHT_PATHS_DESC = "Flight paths are cached when you talk to the flight master on each continent.\n  - Crieve";
+L.FOLLOWER_DESC = "Click this button to select a random follower based on what you're missing.";
 L.FOLLOWER_ID = "Follower ID";
+L.FOLLOWERS = GARRISON_FOLLOWERS;
 L.FOLLOWERS_CHECKBOX = "|T" .. _.asset("Expansion_WOD") .. ":0|t Followers & Companions";
 L.FOLLOWERS_CHECKBOX_TOOLTIP = "Enable this option to track followers and champions.\n\nIE: Garrison Followers, Legion Class Hall Champions, BFA Campaign Minions and SL Adventurers.";
 L.FOLLOWERS_COLLECTION_DESC = "Followers can be collected account wide, if you enable this setting in ATT.\n\nYou must manually refresh the addon by " .. SHIFT_KEY_TEXT .. " clicking the header for this to be detected.";
@@ -723,7 +730,7 @@ L.SHOW_RECIPES_CHECKBOX = "Show Recipes";
 L.SHOW_RECIPES_CHECKBOX_TOOLTIP = "Enable this option if you want to see a list of all of the recipes that can be crafted by any of your characters for a reagent in its tooltip.";
 L.SHOW_REMAINING_CHECKBOX = "Show Remaining Things";
 L.SHOW_REMAINING_CHECKBOX_TOOLTIP = "Enable this option if you want to see the number of items remaining instead of the progress over total.";
-L.SHOW_SKYRIDING_CHECKBOX = "Skyriding";
+L.SHOW_SKYRIDING_CHECKBOX = "Dragonriding";
 L.SHOW_SKYRIDING_CHECKBOX_TOOLTIP = "Enable this setting if you want to show content which requires Skyriding within the game.";
 L.SKIP_AUTO_REFRESH = "Skip Settings-Toggle Data Refreshes!";
 L.SKIP_AUTO_REFRESH_TOOLTIP = "By default (unchecked), any Settings change which may affect visible data will cause an automatic refresh.\n\nBy enabling this option, Settings changes won't take effect until the User performs a Full Refresh by " .. SHIFT_KEY_TEXT .. " clicking on an ATT window.";
@@ -1233,7 +1240,6 @@ localize(L.HEADER_NAMES, {
 	[-341] = "Shared Appearances",
 	[-342] = "Unique Appearance",
 	[-343] = "Bounty",
-	[-344] = "Raid Finder Vendor",
 	[-345] = "Flexible Vendor",
 	[-346] = "Raid Vendor",
 	[-347] = "Heroic Vendor",
@@ -1343,6 +1349,7 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Twilight Assist",
 	[-660] = "Twilight Duo",
 	[-661] = "Twilight Zone",
+	[-679] = HOUSING_ITEM_TOAST_TYPE_DECOR,
 	[-691] = "Treasures of Azeroth",
 	[-694] = "TBC Classic Anniversary Edition - Outland Upgrade",
 	[-698] = TRANSMOG_SOURCE_4,
@@ -1523,7 +1530,6 @@ localize(L.HEADER_ICONS, {
 	[-341] = 132874,
 	[-342] = 132873,
 	[-343] = 236188,
-	[-344] = 308480,
 	[-345] = _.asset("category_commonbossdrop"),
 	[-346] = 311236,
 	[-347] = 311235,
@@ -1632,6 +1638,7 @@ localize(L.HEADER_ICONS, {
 	[-659] = 236469,
 	[-660] = 236473,
 	[-661] = 236471,
+	[-679] = _.asset("interface_decor"),
 	[-691] = 7259806,
 	[-694] = _.asset("expansion_tbc"),
 	[-698] = _.asset("category_worlddrops"),
@@ -1687,7 +1694,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=2,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=2,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=14,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=12,["monthDay"]=14,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=21,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=12,["monthDay"]=21,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=28,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=12,["monthDay"]=28,["weekday"]=1,["year"]=2025}),
@@ -1739,7 +1745,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=15,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=15,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=22,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=22,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=11,["monthDay"]=29,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=11,["monthDay"]=29,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=12,["monthDay"]=6,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=12,["monthDay"]=6,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=12,["monthDay"]=13,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=12,["monthDay"]=13,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -5686,7 +5693,6 @@ local ObjectNames = {
 	[307307] = "Broken Barrel",
 	[307330] = "Captain's Footlocker",
 	[375544] = "Wooden Figurine",
-	[420873] = "Ritual Book",
 	[100000000] = "Archaeologist's Cart",
 	[100000001] = "Unlit Torch",
 }; _.ObjectNames = ObjectNames;
@@ -8955,7 +8961,6 @@ local ObjectModels = {
 	[307307] = 199567,
 	[307330] = 198238,
 	[375544] = 201094,
-	[420873] = 1125316,
 	[100000001] = 201129,
 }; _.ObjectModels = ObjectModels;
 
@@ -9430,6 +9435,15 @@ local phases = {
 		buildVersion = 50503,
 		state = 2,
 	},
+	[5201] = {
+		name = "Celestial Dungeons (ToT)",
+		description = "|cFFAAFFAAThis was not available until Celestial Dungeons (ToT) of Mists of Pandaria Classic.|r",
+		lore = "|cFFFFAAAAIncluded Throne of Thunder LFR gear for Celestial Dungeons.|r",
+		minimumBuildVersion = 50500,
+		buildVersion = 50503,
+		release = 1765994400,
+		state = 2,
+	},
 	[53] = {
 		name = "Escalation",
 		description = "|cFFAAFFAAThis was not available until Escalation of Mists of Pandaria Classic.|r",
@@ -9444,6 +9458,15 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Siege of Orgrimmar and the Timeless Isle.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50505,
+		state = 2,
+	},
+	[5401] = {
+		name = "Celestial Dungeons (SoO)",
+		description = "|cFFAAFFAAThis was not available until Celestial Dungeons (SoO) of Mists of Pandaria Classic.|r",
+		lore = "|cFFFFAAAAIncluded Siege of Orgrimmar LFR gear for Celestial Dungeons.|r",
+		minimumBuildVersion = 50500,
+		buildVersion = 50505,
+		release = 1776704400,
 		state = 2,
 	},
 };
@@ -9825,13 +9848,14 @@ localize(L.HEADER_NAMES, {
 	[-72] = "Verteidigungsprotokoll Beta",
 	[-73] = "Verteidigungsprotokoll Gamma",
 	[-74] = "Drachen des Alptraums",
+	[-224] = "Donnergeschmiedet",
+	[-228] = "Kriegsgeschmiedet",
 	[-252] = "Hasserfüllten Gladiator",
 	[-295] = "Elite Rüstung",
 	[-296] = "Gladiatoren Rüstung",
 	[-341] = "Geteilte Vorlagen",
 	[-342] = "Einzigartige Vorlagen",
 	[-343] = "Kopfgeld",
-	[-344] = "Händlerin des Schlachtzugsbrowsers",
 	[-346] = "Händlerin für Schlachtzüge",
 	[-347] = "Händlerin für heroische Schlachtzüge",
 	[-350] = "Die Vier Reiter",
@@ -9839,6 +9863,9 @@ localize(L.HEADER_NAMES, {
 	[-362] = "Bibliothek",
 	[-363] = "Waffenkammer",
 	[-364] = "Kathedrale",
+	[-365] = "Haupttor",
+	[-366] = "Dienstboteneingang",
+	[-367] = "Verteidiger der Atal'ai",
 	[-368] = "Sturm auf die Zitadelle",
 	[-369] = "Die Seuchenwerke",
 	[-371] = "Die Frostschwingenhallen",
@@ -9868,6 +9895,7 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Saisonfisch: Winterkalmar",
 	[-588] = "Anglerwettbewerb im Schlingendorntal",
 	[-591] = "Wanderfest",
+	[-611] = "Adel der Silithiden",
 	[-648] = "Erinnerung an Scholomance",
 	[-654] = "Abbauen",
 	[-655] = "Himmlischen Dungeons",
@@ -12453,7 +12481,6 @@ localize(ObjectNames, {
 	[307307] = "Zerbrochenes Fass",
 	[307330] = "Schließkiste des Kapitäns",
 	[375544] = "Holzstatuette",
-	[420873] = "Ritualbuch",
 	[100000001] = "Nicht angezündete Fackel",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Allianz"; end
@@ -12492,8 +12519,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAADies war erst Celestial Dungeons (ToES) von Mists of Pandaria Classic verfügbar.|r",
 	[51] = "|cFFAAFFAADies war erst Landfall von Mists of Pandaria Classic verfügbar.|r",
 	[52] = "|cFFAAFFAADies war erst Rise of the Thunder King von Mists of Pandaria Classic verfügbar.|r",
+	[5201] = "|cFFAAFFAADies war erst Celestial Dungeons (ToT) von Mists of Pandaria Classic verfügbar.|r",
 	[53] = "|cFFAAFFAADies war erst Escalation von Mists of Pandaria Classic verfügbar.|r",
 	[54] = "|cFFAAFFAADies war erst Siege of Orgrimmar von Mists of Pandaria Classic verfügbar.|r",
+	[5401] = "|cFFAAFFAADies war erst Celestial Dungeons (SoO) von Mists of Pandaria Classic verfügbar.|r",
 })
 do phases[key].description = value; end
 end
@@ -12838,6 +12867,8 @@ localize(L.HEADER_NAMES, {
 	[-86] = "Troisième coffre",
 	[-87] = "Coffre final",
 	[-103] = "Pré-Lancement de l’Extension",
+	[-224] = "Forgé par le tonnerre",
+	[-228] = "De guerre",
 	[-247] = select(2,GetAchievementInfo(2091))..": Saison 1",
 	[-248] = select(2,GetAchievementInfo(418))..": Saison 2",
 	[-249] = select(2,GetAchievementInfo(419))..": Saison 3",
@@ -12858,7 +12889,6 @@ localize(L.HEADER_NAMES, {
 	[-341] = "Apparences Partagées",
 	[-342] = "Apparence unique",
 	[-343] = "Prime",
-	[-344] = "Marchand de l’outil Raids",
 	[-346] = "Marchande d’équipement de raids",
 	[-347] = "Marchande d’équipement héroïque",
 	[-349] = "Capitaines",
@@ -12870,7 +12900,9 @@ localize(L.HEADER_NAMES, {
 	[-362] = "Librairie",
 	[-363] = "Armurerie",
 	[-364] = "Cathédrale",
-	[-367] = "Défenseurs Atal'ai",
+	[-365] = "Grande porte",
+	[-366] = "Entrée de service",
+	[-367] = "Défenseurs atal’ai",
 	[-368] = "La prise de la citadelle",
 	[-369] = "La Pesterie",
 	[-371] = "Les salles de l'Aile de givre",
@@ -12904,6 +12936,7 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Poisson de saison : calmar d'hiver",
 	[-588] = "Concours de pêche de Strangleronce",
 	[-591] = "Festival de l’explorateur",
+	[-611] = "Famille royale silithide",
 	[-648] = "Souvenir de Scholomance",
 	[-654] = "Récolte",
 	[-655] = "Donjons astraux",
@@ -15497,7 +15530,6 @@ localize(ObjectNames, {
 	[307307] = "Tonneau cassé",
 	[307330] = "Cantine du capitaine",
 	[375544] = "Figurine en bois",
-	[420873] = "Livre du rituel",
 	[100000001] = "Torche éteinte",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de l'Alliance"; end
@@ -15536,8 +15568,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAACeci n'était pas disponible avant le Celestial Dungeons (ToES) du Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAACeci n'était pas disponible avant le Landfall du Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAACeci n'était pas disponible avant le Rise of the Thunder King du Mists of Pandaria Classic.|r",
+	[5201] = "|cFFAAFFAACeci n'était pas disponible avant le Celestial Dungeons (ToT) du Mists of Pandaria Classic.|r",
 	[53] = "|cFFAAFFAACeci n'était pas disponible avant le Escalation du Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAACeci n'était pas disponible avant le Siege of Orgrimmar du Mists of Pandaria Classic.|r",
+	[5401] = "|cFFAAFFAACeci n'était pas disponible avant le Celestial Dungeons (SoO) du Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
 end
@@ -15595,11 +15629,12 @@ localize(L.HEADER_NAMES, {
 	[-11] = "Nuovo personaggio",
 	[-17] = "Prova di Classe",
 	[-36] = "Festività",
+	[-224] = "Tuonoforgiato",
+	[-228] = "Guerraforgiato",
 	[-252] = "Gladiatore Perfido",
 	[-341] = "Aspetti Condivisi",
 	[-342] = "Aspetto unico",
 	[-343] = "Premio",
-	[-344] = "Mercante della Ricerca delle Incursioni",
 	[-346] = "Mercante delle Incursioni",
 	[-347] = "Mercante Eroica",
 	[-350] = "I Cavalieri dell'Apocalisse",
@@ -17782,7 +17817,6 @@ localize(ObjectNames, {
 	[307277] = "Vecchio Fiasco",
 	[307307] = "Barile Spezzato",
 	[307330] = "Scrigno del Capitano",
-	[420873] = "Libro Rituale",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Alleanza"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Secchio delle Caramelle"; end
@@ -17820,8 +17854,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAAQuesto non era disponibile fino al Celestial Dungeons (ToES) di Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAQuesto non era disponibile fino al Landfall di Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAQuesto non era disponibile fino al Rise of the Thunder King di Mists of Pandaria Classic.|r",
+	[5201] = "|cFFAAFFAAQuesto non era disponibile fino al Celestial Dungeons (ToT) di Mists of Pandaria Classic.|r",
 	[53] = "|cFFAAFFAAQuesto non era disponibile fino al Escalation di Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAQuesto non era disponibile fino al Siege of Orgrimmar di Mists of Pandaria Classic.|r",
+	[5401] = "|cFFAAFFAAQuesto non era disponibile fino al Celestial Dungeons (SoO) di Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
 end
@@ -17933,14 +17969,18 @@ localize(L.HEADER_NAMES, {
 	[-71] = "Protocolo de Defesa Alfa",
 	[-72] = "Protocolo de Defesa Beta",
 	[-73] = "Protocolo de Defesa Gama",
+	[-224] = "Forjado no Trovão",
+	[-228] = "Forjado para a Guerra",
 	[-252] = "Gladiador Odioso",
 	[-341] = "Aparências Compartilhadas",
 	[-342] = "Aparência Única",
 	[-343] = "Recompensa",
-	[-344] = "Comerciante de Localizador de Raides",
 	[-346] = "Comerciante do Raide",
 	[-347] = "Comerciante Heroico",
 	[-350] = "Os Quatro Cavaleiros",
+	[-365] = "Portão Principal",
+	[-366] = "Entrada de Serviço",
+	[-367] = "Defensores Atal'ai",
 	[-368] = "Invasão da Cidadela",
 	[-369] = "Antro da Peste",
 	[-371] = "Salões da Asa Gélida",
@@ -17970,6 +18010,7 @@ localize(L.HEADER_NAMES, {
 	[-587] = "Peixe sazonal: Lula de Inverno",
 	[-588] = "Festerê de Pesca da Selva do Espinhaço",
 	[-591] = "Festival do Andarilho",
+	[-611] = "Realeza Silítidea",
 	[-648] = "Lembrança de Scolomântia",
 	[-654] = "Colhendo",
 	[-655] = "Masmorras Celestiais",
@@ -20495,8 +20536,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAAIsto não estava disponível até Celestial Dungeons (ToES) de Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAIsto não estava disponível até Landfall de Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAIsto não estava disponível até Rise of the Thunder King de Mists of Pandaria Classic.|r",
+	[5201] = "|cFFAAFFAAIsto não estava disponível até Celestial Dungeons (ToT) de Mists of Pandaria Classic.|r",
 	[53] = "|cFFAAFFAAIsto não estava disponível até Escalation de Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAIsto não estava disponível até Siege of Orgrimmar de Mists of Pandaria Classic.|r",
+	[5401] = "|cFFAAFFAAIsto não estava disponível até Celestial Dungeons (SoO) de Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
 end
@@ -20941,7 +20984,7 @@ L.QUEST_LOOP = "Скорее всего ATT вырвался из цепочки
 L.QUEST_MAY_BE_REMOVED = "Ошибка при получении информации. Это задание, возможно, удалено из игры. ";
 L.QUEST_OBJECTIVE_INVALID = "Недействительная Цель Задания";
 L.QUEST_ONCE_PER_ACCOUNT = "Один-Раз-На-Аккаунт Задание";
-L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Задание '%s' %s не позволит собрать Хлебную Кроху '%s' %s";
+L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Задание '%s' %s не позволит собрать '%s' %s";
 L.QUEST_ROW_INSTRUCTIONS = "Правый клик - Открыть Цепочку Заданий";
 L.QUESTS_CHECKBOX_TOOLTIP = "Включите для отслеживания обычных Заданий.\n\nПри помощи правого клика на любое задание в списках Вы можете открыть полную цепочку заданий, чтобы отобразить Ваш прогресс и любые предшествующие Задания.\n\nПримечание: Задания не отслеживаются перманентно из-за природы отслеживания Ежедневных, Еженедельных, Ежегодных и Локальных заданий в базе данных Blizzard.";
 L.QUESTS_DESC = "Все задания в игре в порядке возрастания номеров.";
@@ -21199,6 +21242,7 @@ localize(L.HEADER_NAMES, {
 	[-216] = "Элитный",
 	[-224] = "Создано в Кузне Грома",
 	[-225] = "Комплект 3-го уровня",
+	[-228] = "Предмет закален в бою",
 	[-243] = "Наложение чар на броню",
 	[-245] = "Наложение чар на оружие",
 	[-247] = select(2,GetAchievementInfo(2091))..": Сезон 1",
@@ -21221,7 +21265,6 @@ localize(L.HEADER_NAMES, {
 	[-341] = "Общие Облики",
 	[-342] = "Уникальный Облик",
 	[-343] = "Премия",
-	[-344] = "Награды за поиск рейда",
 	[-346] = "Награды за рейд",
 	[-347] = "Награды за рейд в героическом режиме",
 	[-349] = "Капитаны",
@@ -21233,6 +21276,8 @@ localize(L.HEADER_NAMES, {
 	[-362] = "Библиотека",
 	[-363] = "Оружейная",
 	[-364] = "Собор",
+	[-365] = "Главные врата",
+	[-366] = "Черный ход",
 	[-367] = "Защитники Атал'ай",
 	[-368] = "Штурм цитадели",
 	[-369] = "Чумодельня",
@@ -21269,6 +21314,7 @@ localize(L.HEADER_NAMES, {
 	[-588] = "Рыбомания Тернистой долины",
 	[-591] = "Фестиваль странника",
 	[-592] = "Годовщина WoW",
+	[-611] = "Силитидская знать",
 	[-648] = "Воспоминание о Некроситете",
 	[-654] = "Сбор",
 	[-656] = "Бойцовская гильдия",
@@ -23875,7 +23921,6 @@ localize(ObjectNames, {
 	[307307] = "Разбитая бочка",
 	[307330] = "Сундучок капитана",
 	[375544] = "Деревянная статуэтка",
-	[420873] = "Обрядовая книга",
 	[100000001] = "Незажженный факел",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Большой костер Альянса"; end
@@ -23926,8 +23971,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAAЭто было недоступно до Celestial Dungeons (ToES) из Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAЭто было недоступно до Landfall из Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAЭто было недоступно до Rise of the Thunder King из Mists of Pandaria Classic.|r",
+	[5201] = "|cFFAAFFAAЭто было недоступно до Celestial Dungeons (ToT) из Mists of Pandaria Classic.|r",
 	[53] = "|cFFAAFFAAЭто было недоступно до Escalation из Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAЭто было недоступно до Siege of Orgrimmar из Mists of Pandaria Classic.|r",
+	[5401] = "|cFFAAFFAAЭто было недоступно до Celestial Dungeons (SoO) из Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -24018,14 +24065,18 @@ localize(L.HEADER_NAMES, {
 	[-71] = "방어 프로토콜 알파",
 	[-72] = "방어 프로토콜 베타",
 	[-73] = "방어 프로토콜 감마",
+	[-224] = "천둥벼림",
+	[-228] = "전쟁벼림 상급",
 	[-252] = "원한에 검투사",
 	[-341] = "공유된 모습",
 	[-342] = "독특한 외관",
 	[-343] = "하사품",
-	[-344] = "공격대 찾기 상인",
 	[-346] = "공격대 상인",
 	[-347] = "영웅급 상인",
 	[-350] = "4인 기사단",
+	[-365] = "정문",
+	[-366] = "공무용 입구",
+	[-367] = "아탈라이 파수병",
 	[-368] = "성채 몰아치기",
 	[-369] = "역병작업장",
 	[-371] = "서리날개 전당",
@@ -24056,6 +24107,7 @@ localize(L.HEADER_NAMES, {
 	[-587] = "제철 생선: 겨울 오징어",
 	[-588] = "가시덤불 골짜기 낚시왕 선발대회",
 	[-591] = "유랑객의 축제",
+	[-611] = "실리시드 왕실",
 	[-648] = "스칼로맨스의 기억",
 	[-654] = "채취",
 	[-656] = "싸움꾼 조합",
@@ -26568,8 +26620,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAACelestial Dungeons (ToES)(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[51] = "|cFFAAFFAALandfall(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[52] = "|cFFAAFFAARise of the Thunder King(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
+	[5201] = "|cFFAAFFAACelestial Dungeons (ToT)(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[53] = "|cFFAAFFAAEscalation(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[54] = "|cFFAAFFAASiege of Orgrimmar(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
+	[5401] = "|cFFAAFFAACelestial Dungeons (SoO)(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 })
 do phases[key].description = value; end
 end
@@ -27444,6 +27498,7 @@ localize(L.HEADER_NAMES, {
 	[-46] = "Raro",
 	[-49] = "Escenario completado",
 	[-56] = "Tesoros",
+	[-58] = "Vendedores",
 	[-61] = "Jefes de mundo",
 	[-63] = "Botín de zona",
 	[-66] = "Protocolo Inferno",
@@ -27459,7 +27514,9 @@ localize(L.HEADER_NAMES, {
 	[-87] = "Cofre final",
 	[-97] = "Reliquias",
 	[-103] = "Evento de pre-parche",
-	[-224] = "Forjas del trueno",
+	[-216] = "Elite",
+	[-219] = "Reliquias",
+	[-224] = "Forjas del Trueno",
 	[-225] = "Conjunto de nivel 3",
 	[-228] = "Forjado por la guerra",
 	[-229] = "Fuente IDs",
@@ -27492,12 +27549,14 @@ localize(L.HEADER_NAMES, {
 	[-341] = "Apariencias compartidas",
 	[-342] = "Apariencia única",
 	[-343] = "Recompensa",
-	[-344] = "Vendedor de buscador de bandas",
-	[-346] = "Vendedor de banda",
-	[-347] = "Vendedor heroico",
+	[-345] = "Vendedor de bandas flexibles",
+	[-346] = "Vendedor de banda normal",
+	[-347] = "Vendedor de banda heroica",
 	[-349] = "Capitanes",
 	[-350] = "Los Cuatro Jinetes",
-	[-366] = "Entrada de servicio",
+	[-365] = "Puerta principal",
+	[-366] = "Entrada del servicio",
+	[-367] = "Defensores Atal'ai",
 	[-368] = "Asaltar la Ciudadela",
 	[-369] = "Los Talleres de la Peste",
 	[-371] = "Las Cámaras de Alaescarcha",
@@ -27543,6 +27602,7 @@ localize(L.HEADER_NAMES, {
 	[-654] = "Cosecha",
 	[-655] = "Mazmorras celestiales",
 	[-656] = "Hermandad de camorristas",
+	[-657] = "Campaña de la Espesura Krasarang",
 	[-659] = "Ayuda Crepuscular",
 	[-660] = "Dúo Crepuscular",
 	[-661] = "Dimensión Desconocida",
@@ -30248,8 +30308,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAAEsto no estuvo disponible hasta Celestial Dungeons (ToES) de Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAEsto no estuvo disponible hasta Desembarco de Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAEsto no estuvo disponible hasta El Rey del Trueno de Mists of Pandaria Classic.|r",
+	[5201] = "|cFFAAFFAAEsto no estuvo disponible hasta Celestial Dungeons (ToT) de Mists of Pandaria Classic.|r",
 	[53] = "|cFFAAFFAAEsto no estuvo disponible hasta Intensificación del Conflicto de Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAEsto no estuvo disponible hasta Asedio de Orgrimmar de Mists of Pandaria Classic.|r",
+	[5401] = "|cFFAAFFAAEsto no estuvo disponible hasta Celestial Dungeons (SoO) de Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -30563,7 +30625,7 @@ localize(L.HEADER_NAMES, {
 	[-74] = "Dragones de pesadilla",
 	[-103] = "Evento de pre-expansion",
 	[-228] = "Forjas de la guerra",
-	[-347] = "Vendedor de modo heroico",
+	[-367] = "Defensores de Atal'ai",
 	[-525] = "Paquete heroico Rasganorte WotLK Classic",
 	[-526] = "Paquete heroico abrasador de Cataclysm Classic",
 	[-527] = "Paquete heroico infundido por los sha",
@@ -30576,9 +30638,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "Esta sección solo mostrará las profesiones de tu personaje actual fuera del modo Cuenta y Debug.",
 	[-49] = "Contiene cosas que se obtienen como recompensa al completar este escenario.",
 	[-592] = "¡Es el aniversario de World of Warcraft! Desde el equipo de desarrollo de WoW, te damos las gracias por disfrutar del mundo de Azeroth y más allá junto a nosotros.",
-});
-localize(ObjectNames, {
-	[420873] = "Libro ritual",
 });
 for key,value in pairs({
 	[2] = "Removido del juego",
@@ -30785,6 +30844,8 @@ L.DEATHS_CHECKBOX_TOOLTIP = "启用此选项可跟踪您的角色每次死亡的
 L.DEBUG_LOGIN = "登录后获得的奖励。\n\n干得好！你做到了！\n\n仅在调试模式下可见。";
 L.DEBUG_MODE = "|c" .. _.DefaultColors.Red .. "调试模式|cffffffff（显示所有）|r|r";
 L.DEBUG_MODE_TOOLTIP = "就字面意思…游戏中的所有事情。时间。点滴。是的，所有的一切。即使是不可收藏的事物，如袋子、消耗品、试剂等也会出现在列表中。（甚至你自己！不，是真的。看。）\n\n这仅用于调试目的。不用于完成追踪。\n\n此模式绕过所有过滤，包括不可获得的。";
+L.DECOR_CHECKBOX_TOOLTIP = "启用此选项以跟踪战团装饰完成情况。";
+L.DECOR_ID = "装饰 ID";
 L.DELETE_CHARACTER = "右击删除此角色";
 L.DELETE_LINKED_ACCOUNT = "右击删除此链接帐号";
 L.DELETE_LINKED_CHARACTER = "右击删除此链接角色";
@@ -31417,10 +31478,22 @@ localize(L.HEADER_NAMES, {
 	[-85] = "二箱",
 	[-86] = "三箱",
 	[-87] = "最终宝箱",
+	[-97] = "圣物",
 	[-103] = "资料片前夕",
+	[-216] = "精英",
 	[-219] = ITEM_QUALITY7_DESC,
 	[-224] = "雷霆",
 	[-225] = "T3套装",
+	[-228] = "战火",
+	[-229] = "来源 ID",
+	[-232] = "补丁 1.x.x",
+	[-235] = "补丁 2.x.x",
+	[-236] = "补丁 3.x.x",
+	[-237] = "补丁 4.x.x",
+	[-238] = "补丁 5.x.x",
+	[-239] = "补丁 6.x.x",
+	[-243] = "护甲附魔",
+	[-245] = "武器附魔",
 	[-247] = select(2,GetAchievementInfo(2091)).."：第1赛季",
 	[-248] = select(2,GetAchievementInfo(418)).."：第2赛季",
 	[-249] = select(2,GetAchievementInfo(419)).."：第3赛季",
@@ -31442,7 +31515,6 @@ localize(L.HEADER_NAMES, {
 	[-341] = "共享外观",
 	[-342] = "独特外观",
 	[-343] = "赏金任务",
-	[-344] = "随机副本商人",
 	[-345] = "灵活供应商",
 	[-346] = "团队副本商人",
 	[-347] = "英雄副本商人",
@@ -31455,6 +31527,8 @@ localize(L.HEADER_NAMES, {
 	[-362] = "图书馆",
 	[-363] = "武器库",
 	[-364] = "修道院",
+	[-365] = "正门",
+	[-366] = "后门",
 	[-367] = "阿塔莱防御者",
 	[-368] = "进攻堡垒",
 	[-369] = "天灾工厂",
@@ -31466,6 +31540,7 @@ localize(L.HEADER_NAMES, {
 	[-416] = "战线：贫瘠之地",
 	[-417] = "传说：黑王子",
 	[-474] = "元素动荡",
+	[-476] = "霸业风暴",
 	[-481] = "安其拉之战捐献",
 	[-482] = "开启黑暗之门",
 	[-483] = "流沙节杖",
@@ -31506,11 +31581,13 @@ localize(L.HEADER_NAMES, {
 	[-588] = "荆棘谷钓鱼大赛",
 	[-591] = "云游节",
 	[-592] = "魔兽世界周年庆",
+	[-611] = "安其拉三宝",
 	[-648] = "通灵学院的回忆",
 	[-652] = "赞达拉入侵",
 	[-654] = "收获",
 	[-655] = "天神地下城",
 	[-656] = "搏击俱乐部",
+	[-657] = "卡桑琅丛林战役",
 	[-659] = "暮光帮凶",
 	[-660] = "暮光二重奏",
 	[-661] = "暮光领域",
@@ -31518,16 +31595,28 @@ localize(L.HEADER_NAMES, {
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "你可能需要在特定的节日活动中才能完成本节中的事物。",
+	[-43] = "宠物对战相关任务和驯练师。",
 	[-44] = "此部分只会显示你当前角色的专业技能，除非处于账号模式或调试模式。",
 	[-47] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
 	[-49] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
 	[-213] = "此部分显示能在正式服的游戏内商城购买的东西。",
+	[-304] = "这些物品需要经典/评级战场的军团士兵/骑士队长或更高的排名才能购买。",
 	[-341] = "此列表中的物品是以下物品的共享外观。在唯一外观模式下，此列表可帮助了解特定物品被标记为已收藏的原因。",
 	[-342] = "此列表中的物品是独特外观。你必须专门收藏这个物品以获得外观。",
 	[-343] = "此列表包含 ATT Discord 报告的无法获取的物品，这些物品是暴雪尚未修复的错误。\n\n注意：在此列表中忽略所有过滤器以获得可见性。此列表中仅显示因疏忽而从游戏中移除的物品。\n\n致暴雪开发者：请修复下面列出的物品和事件。",
+	[-355] = "该副本的此部分可从最东侧的入口进入。（右侧）",
+	[-356] = "该副本的此部分可从最北侧的入口进入。",
+	[-357] = "该副本的此部分可从最西侧的入口进入。（左侧）",
+	[-550] = "这是一个以战场为基础的活动，与夏季奥运会的开始同时进行。唯一一次庆祝是在2008年，以配合北京奥运会，虽然似乎有意图重复这个活动，但它从未回归。",
+	[-560] = "以下小游戏每次游玩需要消耗一枚暗月游戏代币，并且每天都有一个任务可以获得奖券以及一些相关的成就。",
+	[-563] = "为了最大化你的得分，等待当前的标记消失，然后瞄准中间的目标。只要出现任何绿色标记，立即按1，在短暂的施法时间内，如果有必要，将你的枪移动到指向左侧或右侧目标的位置。",
+	[-564] = "位于入口附近，游客们会收到一个大锤，用来敲打从该区域的九个桶中弹出的填充豺狼人。玩家将有60秒的时间来获得30分。豺狼人有三种类型：普通的、霍格和婴儿，分别奖励1分、3分或一次击倒。",
+	[-592] = "这是一个每年重现的活动，发生在十一月初到年底之间。",
 	[-652] = "赞达拉部族对潘达利亚大陆的入侵始于雷神岛的开放。战争使者遍布整个大陆，拥有难度各异的单人挑战机制及可获取的坐骑！与好友一同刷取这些奖励吧。",
 });
 localize(L.HEADER_LORE, {
+	[-74] = "这些龙中的一只会在艾泽拉斯的相关坐标随机生成。",
+	[-318] = "地下城套装的第2套职业套装，通常称为T0.5，是通过完成一条漫长的任务链来获得的，该任务链将作为终极地下城掉落的第一个套装升级为更强大的版本。在当前的魔兽世界中，这些套装受到收藏家的追捧，因为随着大灾变，这条任务链已被完全从游戏中移除。在魔兽世界经典版中，你应该在所有角色上完成这条任务链！",
 	[-389] = "以下物品可以通过在永恒护甲代币上使用不朽之责获得双倍无意随机生成来创建。",
 });
 localize(L.FILTER_ID_TYPES, {
@@ -33822,8 +33911,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAA该功能直到 Celestial Dungeons (ToES) 的 Mists of Pandaria Classic 才可用。|r",
 	[51] = "|cFFAAFFAA该功能直到 Landfall 的 Mists of Pandaria Classic 才可用。|r",
 	[52] = "|cFFAAFFAA该功能直到 Rise of the Thunder King 的 Mists of Pandaria Classic 才可用。|r",
+	[5201] = "|cFFAAFFAA该功能直到 Celestial Dungeons (ToT) 的 Mists of Pandaria Classic 才可用。|r",
 	[53] = "|cFFAAFFAA该功能直到 Escalation 的 Mists of Pandaria Classic 才可用。|r",
 	[54] = "|cFFAAFFAA该功能直到 Siege of Orgrimmar 的 Mists of Pandaria Classic 才可用。|r",
+	[5401] = "|cFFAAFFAA该功能直到 Celestial Dungeons (SoO) 的 Mists of Pandaria Classic 才可用。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -34007,7 +34098,7 @@ L.DYNAMIC_CATEGORY_TOOLTIP_NOTE = "\n\n|cffff0000生成時套用|r";
 L.ENABLE_TOOLTIP_INFORMATION_CHECKBOX = "啟用指標提示";
 L.ENABLE_TOOLTIP_INFORMATION_CHECKBOX_TOOLTIP = "如果希望在指標提示中查看 ATT 提供的資訊，請啟用此選項。這包括其他玩家發送的物品連接，在拍賣行、在地城助手、在你的背包裡、在世界、在 NPC 等等。\n\n如果你關閉了這個功能，就會嚴重降低你快速判斷是否需要擊殺首領或學習外觀的能力。\n\n我們建議你保持此設定。";
 L.ENCOUNTER_ID = "首領戰鬥 ID";
-L.EVENT_ACTIVE = "啟動:";
+L.EVENT_ACTIVE = "啟用:";
 L.EVENT_END = "結束:";
 L.EVENT_SCHEDULE = "事件時程表";
 L.EVENT_START = "開始:";
@@ -34097,6 +34188,7 @@ L.IGNORE_FILTERS_FOR_BOES_CHECKBOX_TOOLTIP = "如果要忽略裝備綁定/拾取
 L.ILLUSIONS_CHECKBOX_TOOLTIP = "啟用此選項以追蹤幻象。\n\n這些看起來很酷的塑形效果，你可以套用到你的武器上！\n\n注意：你不是一個幻象，儘管所有的夜裔精靈都這麼認為。";
 L.INCLUDE_ORIGINAL_CHECKBOX = "原始來源";
 L.INCLUDE_ORIGINAL_CHECKBOX_TOOLTIP = "如果你真的喜歡在指標提示中的共享外觀列表中看到原始來源資訊，請啟用此選項。";
+L.INFORMATION_PAGE = "資訊";
 L.INSTANCE_DESC = "點擊此按鈕可依據缺少的內容選擇隨機副本。";
 L.ITEM_DESC = "點擊此按鈕可依據缺少的內容選擇隨機物品。";
 L.ITEM_EXPLAIN_LABEL = "|cffFFFFFF始終顯示此內容如果位於 |c" .. _.DefaultColors.Account .. "帳號模式|r。|r";
@@ -34112,6 +34204,7 @@ L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] 已加入收藏。在資料庫�
 L.ITEM_ID_REMOVED = "%s (%d) 已從收藏中移除。";
 L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] 已從收藏中移除。";
 L.ITEM_LEVEL = "物品等級";
+L.ITEM_STRING = "物品字串";
 L.KEYBINDINGS_TEXT = "可以在遊戲選項中設定 ATT 的按鍵綁定。";
 L.KNOWN_BY_CHECKBOX_TOOLTIP = "如果你想在指標提示中查看所有伺服器上已知此配方的完整角色列表，請啟用此選項。";
 L.LAYER = "相位";
@@ -34164,6 +34257,7 @@ L.MINIMAP_SLIDER = "小地圖按鈕尺寸";
 L.MINIMAP_SLIDER_TOOLTIP = "使用此選項可自訂小地圖按鈕的大小。\n\n預設：36";
 L.MINUMUM_STANDING_WITH_FACTION = "最低陣營聲望等級 %s 和 %s。";
 L.MISSION_ID = "任務 ID";
+L.MOD_ID = "模組 ID";
 L.MODE_EXPLAIN_LABEL = "|cffFFFFFF您收藏的內容總結在這裡。啟用所有 |c" .. _.DefaultColors.Insane .. "彩色選項|r 解鎖 |c" .. _.DefaultColors.Insane .. "瘋狂模式|r。|r";
 L.MODULES = "模組";
 L.MODULES_LABEL = "模組和小列表";
@@ -34184,7 +34278,7 @@ L.NESTED_QUEST_REQUIREMENTS = "多重任務需要";
 L.NEVER_IMPLEMENTED = "從未實裝";
 L.NEVER_IMPLEMENTED_DESC = "這裡的物品在技術上存在於遊戲內，但從未向玩家開放過";
 L.NEW_VERSION_AVAILABLE = "%s 已有更新的版本。請更新插件 %s。";
-L.NEW_VERSION_FLAVORS = {"因為萬物都飢餓。","無敵下次|cffffaaaa|肯定|r會掉落"};
+L.NEW_VERSION_FLAVORS = {"因為 AllTheThings 餓了。","下次|cffffaaaa一定|r會掉落無敵！","否則今晚會有魚人在你窗外尖叫","因為所謂的收藏不過是換個說法的囤積癖。","而 Crieve 會幫一隻烏龜重新入水。","否則你的戰鬥寵物要成立工會了。"};
 L.NEW_WITH_PATCH = "最新加入內容";
 L.NEW_WITH_PATCH_TOOLTIP = "這會顯示遊戲最新更新中加入的所有內容。";
 L.NO_COORDINATES_FORMAT = "%s 沒有已知座標";
@@ -34194,6 +34288,7 @@ L.NO_LINKED_ACCOUNTS = "未找到連接帳號。";
 L.NO_SEARCH_METHOD = "未指定搜尋方法。";
 L.NOT_AVAILABLE_IN_PL = "在個人拾取中不可用。";
 L.NOTHING_TO_SELECT_FROM = "沒有什麼可以隨意選擇的。如果在“設定”中啟用了“臨時更新”，則必須在使用此視窗之前更新主列表（/att）。";
+L.OBJECT = "物體";
 L.OBJECT_TYPE = "目標類型";
 L.OBJECTIVES = "目標";
 L.ONLY_NOT_TRASH = "排除垃圾物品";
@@ -34215,6 +34310,7 @@ L.PERCENTAGES_CHECKBOX = "顯示完成百分比";
 L.PERCENTAGES_CHECKBOX_TOOLTIP = "如果想查看每行的完成百分比請啟用此選項。\n\n按完成度對組進行著色不受影響。";
 L.PERSONAL_LOOT_DESC = "每位玩家都有獨立的機會拾取對自己職業有用的物品…\n\n…或者像戒指這樣的無用之物。\n\n如果是自己一個人的話，點擊兩次就會自動創建一個隊伍。";
 L.PET_DESC = "點擊此按鈕可依據缺少的內容選擇隨機寵物。";
+L.PHASES_PAGE = "階段";
 L.PLAY_DEATH_SOUND_CHECKBOX = "死亡時播放音效";
 L.PLAY_DEATH_SOUND_CHECKBOX_TOOLTIP = "如果你想在死亡時聽到音效，請啟用此選項。";
 L.PLAYER_COORDINATES = "玩家座標";
@@ -34227,6 +34323,7 @@ L.PLAYER_TITLE_THE_COMPLETIONIST = "|c" .. _.DefaultColors.Raid .. "%s 完美主
 L.PLAYER_TITLE_THE_EXTERMINATOR = "|cffa335ee%s消滅者|r";
 L.PLAYER_TITLE_THE_HUGGLER = "|cffF58CBA擁抱者%s|r";
 L.PLEASE_REPORT_MESSAGE = "請把錯誤回報給 ATT Discord 的 #classic-errors！謝謝！";
+L.POPOUT = "彈出列表";
 L.PRECISION_SLIDER = "百分比精確度";
 L.PRECISION_SLIDER_TOOLTIP = "使用此選項可自訂百分比計算中所需的精度級別。\n\n預設：2";
 L.PREREQUISITE_QUESTS = "必須先完成一些前置任務才有可能獲得：";
@@ -34261,6 +34358,7 @@ L.QUEST_DESC = "點擊此按鈕可依據缺少的內容選擇隨機任務。";
 L.QUEST_GIVER = "任務給予者";
 L.QUEST_GIVERS = "任務給予者";
 L.QUEST_ID = "任務 ID";
+L.QUEST_ITEMS = "任務物品";
 L.QUEST_LOOP = "可能剛剛從無限源任務循環中爆發出來。";
 L.QUEST_MAY_BE_REMOVED = "擷取任務資訊失敗。這個任務可能已從遊戲中移除。";
 L.QUEST_OBJECTIVE_INVALID = "無效的任務目標";
@@ -34288,6 +34386,7 @@ L.REMOTE_ZONES_DESCRIPTION = "包含在當前區域可取得，但來源直接�
 L.REMOVED_WITH_PATCH = "隨更新移除";
 L.REMOVED_WITH_PATCH_CLASSIC_FORMAT = "該物品是隨更新 %s 移除的";
 L.REMOVED_WITH_PATCH_FORMAT = "更新 %s 中被刪除";
+L.REPEATABLES_LABEL = "可重複";
 L.REPORT_COLLECTED_THINGS_CHECKBOX = "回報已收藏事物";
 L.REPORT_COLLECTED_THINGS_CHECKBOX_TOOLTIP = "如果想在聊天中看到一條訊息，詳細說明收藏了哪些物品或從收藏中刪除了哪些物品，請啟用此選項。\n\n注意：這是因為暴雪默默的加入了外觀和其他收藏品並且忽略了通知你可用的其他物品。\n\n我們建議你保持此設定。如果你打開了這個選項，你會聽到警告聲。";
 L.REPORT_COMPLETED_QUESTS_CHECKBOX = "回報任務";
@@ -34397,6 +34496,7 @@ L.STORE_IN_PROFILE_BUTTON_TOOLTIP = "預設情況下，ATT 會依角色儲存這
 L.SUMMARIZE_CHECKBOX = "總結事物";
 L.SUMMARIZE_CHECKBOX_TOOLTIP = "啟用該選項可在指標提示中總結事物。例如，如果一個事物可以變成另一個事物的商人，那麼在指標提示中顯示另一個事物，以提供其多種用途的可見性。如果一個事物作為許多其他事物的容器，這個選項將顯示該容器所包含的所有其他事物。\n\n我們建議你保持此設定開啟。";
 L.SYM_ROW_INFORMATION = "點擊右鍵以查看來自其他位置的其它內容";
+L.SYMLINK = "符號連結";
 L.SYNC_CHARACTERS_TOOLTIP = "這會顯示您帳號中的所有角色。";
 L.TELEPORT_TO_FROM_DUNGEON = "傳送至/出地城";
 L.TELEPORT_TO_FROM_DUNGEON_DESC = "點擊此處傳送到當前地城或從當前地城傳送出去。\n\n潘達利亞之謎可以這種方式快速傳送到當前副本之外。";
@@ -34508,7 +34608,10 @@ localize(L.HEADER_NAMES, {
 	[-86] = "第三個箱子",
 	[-87] = "最後的箱子",
 	[-103] = "資料片前夕",
+	[-224] = "雷霆鑄造",
 	[-225] = "T3套裝",
+	[-228] = "戰鑄",
+	[-243] = "護甲附魔",
 	[-247] = select(2,GetAchievementInfo(2091)).."：第1賽季",
 	[-248] = select(2,GetAchievementInfo(418)).."：第2賽季",
 	[-249] = select(2,GetAchievementInfo(419)).."：第3賽季",
@@ -34528,16 +34631,22 @@ localize(L.HEADER_NAMES, {
 	[-318] = "T0.5套裝",
 	[-341] = "共享外觀",
 	[-342] = "獨特外觀",
-	[-344] = "隨機團隊商人",
+	[-345] = "彈性模式商人",
 	[-346] = "團隊模式商人",
 	[-347] = "英雄模式商人",
 	[-350] = "四騎士",
 	[-355] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
+	[-362] = "圖書館",
+	[-363] = "武器庫",
+	[-365] = "主門",
+	[-366] = "僕從入口",
+	[-367] = "阿塔萊防衛者",
 	[-414] = "元素桎梏",
 	[-415] = "食人妖入侵",
 	[-416] = "戰爭前線：貧瘠之地",
 	[-417] = "傳奇：黑龍王子",
 	[-474] = "元素入侵",
+	[-476] = "強襲風暴",
 	[-481] = "安其拉之戰捐獻",
 	[-483] = "流沙節杖",
 	[-484] = "天譴軍團入侵",
@@ -34556,6 +34665,7 @@ localize(L.HEADER_NAMES, {
 	[-546] = "可口可樂活動",
 	[-557] = "啤酒節",
 	[-559] = "兒童週",
+	[-560] = "小遊戲",
 	[-566] = "亡者節",
 	[-574] = "冬幕節",
 	[-576] = "萬鬼節",
@@ -34572,6 +34682,9 @@ localize(L.HEADER_NAMES, {
 	[-588] = "荊棘谷釣魚大賽",
 	[-591] = "遊子節",
 	[-592] = "《魔獸世界》週年紀念",
+	[-611] = "異種蠍皇族",
+	[-648] = "通靈學院的回憶",
+	[-652] = "贊達拉入侵",
 	[-654] = "採集",
 	[-655] = "天尊地城",
 	[-656] = "鬥陣俱樂部",
@@ -34582,6 +34695,9 @@ localize(L.HEADER_NAMES, {
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
+	[-43] = "這個區塊包含與寵物對戰相關的任務與訓練師。",
+	[-44] = "這個區塊只會顯示你目前角色的專業技能，除非處於帳號或是除錯模式",
+	[-49] = "包含完成戰役獲得的戰利品？",
 	[-213] = "此部分顯示能在正式服的遊戲內商城購買的東西。",
 	[-355] = "副本的這部分可以從最東邊的傳送門進入。（右側）",
 	[-356] = "副本的這部分可以從最北邊的傳送門進入。",
@@ -34667,7 +34783,6 @@ localize(ObjectNames, {
 	[208316] = "英雄召喚告示板",
 	[208317] = "大酋長的命令告示板",
 	[209325] = "風石",
-	[420873] = "儀式之書",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({
@@ -34728,8 +34843,10 @@ for key,value in pairs({
 	[5007] = "|cFFAAFFAA該功能直到 Celestial Dungeons (ToES) 的 Mists of Pandaria Classic 才可用。|r",
 	[51] = "|cFFAAFFAA該功能直到 Landfall 的 Mists of Pandaria Classic 才可用。|r",
 	[52] = "|cFFAAFFAA該功能直到 Rise of the Thunder King 的 Mists of Pandaria Classic 才可用。|r",
+	[5201] = "|cFFAAFFAA該功能直到 Celestial Dungeons (ToT) 的 Mists of Pandaria Classic 才可用。|r",
 	[53] = "|cFFAAFFAA該功能直到 Escalation 的 Mists of Pandaria Classic 才可用。|r",
 	[54] = "|cFFAAFFAA該功能直到 Siege of Orgrimmar 的 Mists of Pandaria Classic 才可用。|r",
+	[5401] = "|cFFAAFFAA該功能直到 Celestial Dungeons (SoO) 的 Mists of Pandaria Classic 才可用。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({

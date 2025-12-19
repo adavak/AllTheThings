@@ -432,18 +432,25 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(698, {	-- Xin the Weaponmaster
 						["creatureID"] = 61398,	-- Xin the Weaponmaster
 						["groups"] = {
 							ach(60894),	-- Celestial: Mogu'shan Palace
+							-- #if BEFORE 5.5.3
+							-- Season 1 Drops
 							i(86789),	-- Elegion, the Fanged Crescent
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86886)),	-- Loshan, Terror Incarnate (Terrace)
 							i(89952),	-- Pheromone-Coated Choker
 							i(86748),	-- Cape of Three Lanterns
 							i(86790),	-- Vial of Dragon's Blood
+							-- #elseif BEFORE 5.5.5
+							-- Season 2 Drops
+							-- #else
+							-- Season 3 Drops
+							-- #endif
 						},
 					}),
 				},

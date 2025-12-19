@@ -1320,19 +1320,26 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(674, {	-- High Inquisitor Whitemane
 						["creatureID"] = 3977,	-- High Inquisitor Whitemane
 						["groups"] = {
 							ach(60898),	-- Celestial: Scarlet Monastery
-							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES,i(86879)),	-- Gao-Rei, Staff of the Legendary Protector (Terrace)
+							-- #if BEFORE 5.5.3
+							-- Season 1 Drops
+							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86879)),	-- Gao-Rei, Staff of the Legendary Protector (Terrace)
 							i(86796),	-- Torch of the Celestial Spark
 							i(86754),	-- Amulet of Seven Curses
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86872)),	-- Kaolan's Withering Necklace (Terrace)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86820)),	-- Ring of the Bladed Tempest
 							i(86792),	-- Light of the Cosmos
+							-- #elseif BEFORE 5.5.5
+							-- Season 2 Drops
+							-- #else
+							-- Season 3 Drops
+							-- #endif
 						},
 					}),
 				},

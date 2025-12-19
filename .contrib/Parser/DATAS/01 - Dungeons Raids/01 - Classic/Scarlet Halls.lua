@@ -286,18 +286,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(656, {	-- Flameweaver Koegler
 						["creatureID"] = 59150,	-- Flameweaver Koegler
 						["groups"] = {
 							ach(60897),	-- Celestial: Scarlet Halls
+							-- #if BEFORE 5.5.3
+							-- Season 1 Drops
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86906)),	-- Kilrak, Jaws of Terror (Terrace)
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
 							i(86753),	-- Cloak of Peacock Feathers
 							i(89967),	-- Feng's Seal of Binding
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86858)),	-- Seal of the Profane (HoF)
+							-- #elseif BEFORE 5.5.5
+							-- Season 2 Drops
+							-- #else
+							-- Season 3 Drops
+							-- #endif
 						},
 					}),
 				},

@@ -2254,6 +2254,14 @@ r(13220,{c={4},rwp=30002,u=2}),
 r(13228,{c={4},rwp=30002,u=2}),
 r(13229,{c={4},rwp=30002,u=2}),
 r(13230,{c={4},rwp=30002,u=2})}})}),
+prof(393,{
+n(7088,{coords={{61,54.6,85}},r=1,g={
+r(74522,{awp=40003,learnedAt=425,rank=7,requireSkill=393,rwp=80001,u=40}),
+r(74495,{awp=40003,learnedAt=0,requireSkill=393,rwp=60002,u=40}),
+r(8613,{learnedAt=0,lvl=5,rank=1,requireSkill=393}),
+r(8617,{learnedAt=50,lvl=10,rank=2,requireSkill=393,rwp=80001}),
+r(8618,{learnedAt=125,lvl=20,rank=3,requireSkill=393,rwp=80001}),
+r(10768,{learnedAt=200,lvl=35,rank=4,requireSkill=393,rwp=80001})}})}),
 prof(197,{
 n(3363,{coords={{60.6,59,85}},r=1,g={
 r(75156,{awp=40003,learnedAt=425,rank=7,requireSkill=197,rwp=80001,u=40}),
@@ -2606,7 +2614,12 @@ toy(54438,{awp=30303,b=1,q=2}),
 toy(54437,{awp=30303,b=1,q=2}),
 toy(44606,{awp=30002,b=1,q=3}),
 toy(45057,{awp=30100,b=1,q=3}),
-toy(69896,{awp=40100,b=1,e=13,q=1})}}),
+toy(69896,{awp=40100,b=1,e=13,q=1}),
+i(44481,{awp=40100,f=55,q=1}),
+i(44601,{awp=40100,f=55,q=1}),
+i(34498,{awp=40100,q=1}),
+i(44482,{awp=40100,f=55,q=1}),
+i(44599,{awp=40100,f=55,q=1})}}),
 n(69977,{awp=50200,coords={{38.6,70,85}},r=1,sym={{"sub","pvp_gear_base",4,-257,-296},{"merge"},{"pop"},{"exclude","headerID",-96,-92,-99}}}),
 n(54659,{awp=40300,coords={{38.2,71,85}},r=1,u=2}),
 n(3364,{coords={{60.6,58.6,85}},r=1,sym={{"sub","common_vendor",5154}},g={
@@ -5704,7 +5717,9 @@ qo(1,{awp=40003,providers={{"n",35095}}}),
 s(203067,53416,{awp=40003,b=1,f=27,q=2}),
 s(203097,53448,{awp=40003,b=1,f=5,q=2})}}),
 q(3621,{coords={{60.8,66.4,76}},lvl=45,maps={224},providers={{"i",10738}},qgs={7783},rwp=40003,sourceQuests={3602},u=2}),
-q(14270,{awp=40003,coords={{58.9,71.8,76}},providers={{"o",195642}},r=1,sourceQuests={14267}}),
+q(14270,{awp=40003,coords={{58.9,71.8,76}},providers={{"o",195642}},r=1,sourceQuests={14267},g={
+o(201579,{awp=40003,coords={{57.6,71,76}},g={
+i(49094,{awp=40003,q=1})}})}}),
 q(8151,_.ResolveQuestData({aqd=
 {coords={{67.6,35.8,84},{70.6,83.8,87},{42.2,7.6,89}},qgs={4205,5116,5516},rwp=40003,u=2},c={3},hqd=
 {coords={{66.2,18.6,85},{57.6,88.6,88}},qgs={3039,3352},rwp=40003,u=2},lvl=50,rwp=40003,u=2})),
@@ -5793,6 +5808,7 @@ s(124212,11305,{f=32,lvl=30,q=2,rwp=40003,u=2})}}),
 n(49887,{awp=40003,coords={{57.53,48.7,76}},r=1,sym={{"select","itemID",7341,7340,7339,7338,7342,7337}}}),
 n(8678,{coords={{45.2,90.8,76}},rwp=40003,u=2,g={
 r(12617,{itemID=10607,learnedAt=230,q=1,requireSkill=202,rwp=40003,u=2})}}),
+n(3621,{coords={{21.8,52,76}},r=1}),
 n(49885,{awp=40001,coords={{57,50.6,76}},r=1,g={
 r(25954,{awp=40001,itemID=21219,learnedAt=175,q=1,requireSkill=185}),
 r(25704,{awp=40001,itemID=21099,learnedAt=80,q=1,requireSkill=185})}}),
@@ -5963,7 +5979,7 @@ crit(21546,{achID=6560,awp=50004,id=2,pb=1})}}),
 h(-45,{awp=20001,u=17,g={
 q(9528,{awp=20001,coords={{13.6,73.2,97}},lvl=6,qgs={17312},r=2,u=17,g={
 s(134491,24113,{awp=20001,b=1,f=4,q=2,u=17})}}),
-q(9612,{awp=20001,coords={{37.6,18.6,97},{40.6,71,97},{42,57.4,97},{46.2,31.8,97},{53.4,42.4,97},{55.6,29.4,97},{55.6,47.8,97},{56.8,59.6,97},{58,41.6,97}},description="1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob\n.3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.",lvl=8,qgs={17587},races={11},u=17}),
+q(9612,{awp=20001,coords={{37.6,18.6,97},{39.5,37.4,97},{40.6,71,97},{42,57.4,97},{46.2,31.8,97},{53.4,42.4,97},{55.6,29.4,97},{55.6,47.8,97},{56.8,59.6,97},{58,41.6,97}},description="1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob\n.3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.\n\nThis can prove to be impossible on higher level characters.",lvl=8,qgs={17587},races={11},u=17}),
 q(9506,{awp=20001,coords={{47,70.2,97}},lvl=5,qgs={17240},r=2,sourceQuests={9505},u=17,g={
 qo(1,{awp=20001,coords={{59.6,67.7,97}},providers={{"i",23738},{"o",181675}},u=17}),
 qo(2,{awp=20001,coords={{58.6,66.4,97}},providers={{"i",23739},{"o",181674}},u=17})}}),
@@ -16478,6 +16494,7 @@ r(24367,{awp=40003,b=1,itemID=20013,learnedAt=285,q=1,requireSkill=171}),
 r(17556,{itemID=13480,learnedAt=275,q=1,requireSkill=171,rwp=20001,u=2})}}),
 n(11187,{coords={{59.8,51.6,83}},g={
 r(15933,{itemID=16110,learnedAt=225,q=1,requireSkill=185})}}),
+n(2303,{coords={{52,29.2,83}},r=2}),
 n(52830,{awp=40100,coords={{59.8,51.6,83}},g={
 p(306,{awp=40100,itemID=69239,npcID=52831,q=1,spellID=97638,g={
 crit(23595,{achID=8397,awp=50400,id=24,pb=1})}})}}),
@@ -18601,6 +18618,14 @@ r(13220,{c={4},rwp=30002,u=2}),
 r(13228,{c={4},rwp=30002,u=2}),
 r(13229,{c={4},rwp=30002,u=2}),
 r(13230,{c={4},rwp=30002,u=2})}})}),
+prof(393,{
+n(1292,{coords={{72.6,62,84}},r=2,g={
+r(74522,{awp=40003,learnedAt=425,rank=7,requireSkill=393,rwp=80001,u=40}),
+r(74495,{awp=40003,learnedAt=0,requireSkill=393,rwp=60002,u=40}),
+r(8613,{learnedAt=0,lvl=5,rank=1,requireSkill=393}),
+r(8617,{learnedAt=50,lvl=10,rank=2,requireSkill=393,rwp=80001}),
+r(8618,{learnedAt=125,lvl=20,rank=3,requireSkill=393,rwp=80001}),
+r(10768,{learnedAt=200,lvl=35,rank=4,requireSkill=393,rwp=80001})}})}),
 prof(197,{
 n(1346,{coords={{53.2,81.6,84}},r=2,g={
 r(75156,{awp=40003,learnedAt=425,rank=7,requireSkill=197,rwp=80001,u=40}),
@@ -19154,7 +19179,12 @@ toy(54438,{awp=30303,b=1,q=2}),
 toy(54437,{awp=30303,b=1,q=2}),
 toy(44606,{awp=30002,b=1,q=3}),
 toy(45057,{awp=30100,b=1,q=3}),
-toy(69896,{awp=40100,b=1,e=13,q=1})}}),
+toy(69896,{awp=40100,b=1,e=13,q=1}),
+i(44481,{awp=40100,f=55,q=1}),
+i(44601,{awp=40100,f=55,q=1}),
+i(34498,{awp=40100,q=1}),
+i(44482,{awp=40100,f=55,q=1}),
+i(44599,{awp=40100,f=55,q=1})}}),
 n(1304,{coords={{42.6,76.8,84}},r=2,g={
 r(23067,{isLimited=1,itemID=18649,learnedAt=150,q=1,requireSkill=202})}}),
 n(50669,{awp=40001,coords={{64.8,71.6,84}},r=2,g={
@@ -26357,7 +26387,7 @@ q(549,{coords={{62.61,20.76,25}},lvl=17,providers={{"o",1763}},r=1,rwp=40003,u=2
 qo(1,{providers={{"n",2260}},rwp=40003,u=2}),
 qo(2,{providers={{"n",2261}},rwp=40003,u=2})}}),
 q(28571,{awp=40003,coords={{62.5,60.5,110},{44,35.4,998},{61.8,75.6,998},{66.5,49.8,998}},isBreadcrumb=1,lvl={19,23},nextQuests={28096},providers={{"o",207324},{"o",207325}},r=1}),
-q(28089,{altQuests={27746},awp=40003,coords={{44.8,40.7,21},{45.3,84.3,21},{52.2,66.3,21},{57.3,10.1,21}},isBreadcrumb=1,lvl=19,nextQuests={28096},qgs={44640},r=1}),
+q(28089,{altQuests={27746},awp=40003,coords={{44.8,40.7,21},{45.3,84.3,21},{52.2,66.3,21},{57.3,10.1,21}},isBreadcrumb=1,lvl=19,nextQuests={28096},qgs={44640,45631,46125},r=1}),
 q(28096,{awp=40001,coords={{29.2,63.3,25}},providers={{"i",62932}},qgs={2215},r=1,sourceQuests={28089,28571},g={
 qo(1,{awp=40001,providers={{"n",47444}}}),
 qo(2,{awp=40001,providers={{"n",47443}}}),
@@ -36336,6 +36366,11 @@ r(29356,{awp=20005,learnedAt=275,requireSkill=186,u=17}),
 r(29360,{awp=20005,learnedAt=350,requireSkill=186,u=17}),
 r(29686,{awp=20005,learnedAt=375,requireSkill=186,u=17}),
 r(29361,{awp=20005,learnedAt=375,requireSkill=186,u=17})}})}}),
+prof(393,{awp=20001,u=17,g={
+n(18777,{awp=20001,coords={{54.6,63.2,100}},r=2,u=17,g={
+r(32678,{awp=20001,learnedAt=275,rank=5,requireSkill=393,rwp=80001,u=17})}}),
+n(18755,{awp=20001,coords={{56.2,38.6,100}},r=1,u=17,g={
+r(32678,{awp=20001,learnedAt=275,rank=5,requireSkill=393,rwp=80001,u=17})}})}}),
 prof(197,{awp=20001,u=17,g={
 n(18772,{awp=20001,coords={{54.6,63.6,100}},r=2,u=17,g={
 r(26790,{awp=20005,learnedAt=275,lvl=50,rank=5,requireSkill=197,rwp=80001,u=17}),
@@ -41006,6 +41041,15 @@ r(70524,{awp=30303,learnedAt=250,requireSkill=186,u=30}),
 r(49258,{awp=30003,learnedAt=400,requireSkill=186,u=30}),
 r(55211,{awp=30003,learnedAt=450,requireSkill=186,u=30}),
 r(55208,{awp=30003,learnedAt=450,requireSkill=186,u=30})}})}}),
+prof(393,{awp=30002,u=30,g={
+n(28696,{awp=30002,coords={{35.2,28.4,125}},u=30,g={
+r(50305,{awp=30003,learnedAt=350,rank=6,requireSkill=393,rwp=80001,u=30}),
+r(53125,{awp=30003,learnedAt=0,requireSkill=393,rwp=60002,u=30}),
+r(53662,{awp=30003,learnedAt=0,requireSkill=393,rwp=60002,u=30}),
+r(53663,{awp=30003,learnedAt=0,requireSkill=393,rwp=60002,u=30}),
+r(53664,{awp=30003,learnedAt=0,requireSkill=393,rwp=60002,u=30}),
+r(53665,{awp=30003,learnedAt=0,requireSkill=393,rwp=60002,u=30}),
+r(53666,{awp=30003,learnedAt=0,requireSkill=393,rwp=60002,u=30})}})}}),
 prof(197,{awp=30002,u=30,g={
 n(28699,{awp=30002,coords={{36.3,33.4,125}},requireSkill=197,u=30,g={
 r(56017,{awp=30002,description="In order to learn this recipe, you must have the Loremaster of Northrend achievement completed.",learnedAt=420,requireSkill=197,sourceAchievements={41},u=30}),
@@ -51183,7 +51227,7 @@ fp(1221,{awp=50200,coords={{41.8,79.2,507}},crs={69359},r=2,u=52}),
 fp(1222,{awp=50200,coords={{51.8,75.4,507}},crs={69360},r=1,u=52})}}),
 h(-46,{awp=50200,u=52,g={
 n(70096,{awp=50200,coords={{76.4,83.8,507},{77.6,82.6,507},{78.6,80.6,507}},u=52,g={
-i(94158,{awp=50200,b=1,description="Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",q=3,sym={{"select","itemID",87218},{"pop"}},u=52}),
+i(94158,{awp=50200,b=1,description="Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",q=3,sym={{"select","itemID",87218},{"groupfill"}},u=52}),
 i(94159,{awp=50200,b=1,description="Can contain all sorts of herbs, ore, and cloth.",q=2,u=52}),
 i(94225,{awp=50200,b=1,f=55,factionID=1341,q=3,u=52}),
 i(94227,{awp=50200,b=1,f=55,factionID=1269,q=3,u=52}),
@@ -51623,7 +51667,7 @@ n(69997,{awp=50200,coords={{50.49,74.96,504},{51.31,71.19,504}},isWeekly=1,u=52,
 crit(22823,{achID=8103,awp=50200,id=4,u=52})}}),
 n(70530,{awp=50200,coords={{39.41,81.6,504}},u=52,g={
 i(95566,{awp=50200,b=1,q=3,u=52}),
-i(94158,{awp=50200,b=1,description="Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",q=3,sym={{"select","itemID",87218},{"pop"}},u=52}),
+i(94158,{awp=50200,b=1,description="Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",q=3,sym={{"select","itemID",87218},{"groupfill"}},u=52}),
 i(94159,{awp=50200,b=1,description="Can contain all sorts of herbs, ore, and cloth.",q=2,u=52})}}),
 n(69961,{awp=50200,providers={{"i",95350}},u=52,g={
 crit(22838,{achID=8110,awp=50200,id=3,u=52})}}),
@@ -53481,9 +53525,6 @@ r(102698,{awp=50004,learnedAt=550,rank=1,requireSkill=129,rwp=80001,u=51}),
 r(102697,{awp=50004,learnedAt=500,requireSkill=129,rwp=80001,u=51}),
 h(-26,{awp=50004,rwp=80001,u=51,g={
 r(102699,{awp=50004,learnedAt=600,rank=2,requireSkill=129,rwp=80001,u=51})}})}})),
-prof(182,{awp=50004,u=50,g={
-n(66980,{awp=50004,coords={{27.8,15.6,371}},r=1,u=50,g={
-r(110413,{awp=50004,learnedAt=0,rank=8,requireSkill=182,rwp=80001,u=51})}})}}),
 prof(773,{awp=50004,u=50,g={
 n(56065,{awp=50004,coords={{54.8,45,371}},u=50}),
 q(31539,{awp=50004,coords={{54.6,44.2,371}},isWeekly=1,qgs={56065},requireSkill=773,u=50,g={
@@ -53943,7 +53984,12 @@ n(65092,{awp=50004,coords={{46,29.4,371}},u=50,g={
 r(102161,{awp=50004,learnedAt=500,rank=8,requireSkill=186,rwp=80001,u=51}),
 r(2656,{awp=50004,learnedAt=0,requireSkill=186,u=51}),
 r(102165,{awp=50004,learnedAt=500,requireSkill=186,u=51}),
-r(102167,{awp=50004,learnedAt=600,requireSkill=186,u=51})}})}})}}),
+r(102167,{awp=50004,learnedAt=600,requireSkill=186,u=51})}})}}),
+prof(393,_.ResolveQuestData({aqd=
+{awp=50004,coords={{44.8,85.6,371}},crs={67026}},awp=50004,hqd=
+{awp=50004,coords={{27.8,15.4,371}},crs={66981}},u=50,g={
+r(102216,{awp=50004,learnedAt=0,rank=8,requireSkill=393,rwp=80001,u=51}),
+r(102219,{awp=50004,learnedAt=0,requireSkill=393,rwp=60002,u=51})}}))}}),
 h(-45,{awp=50004,u=50,g={
 q(29619,{awp=50004,coords={{44.9,24.9,371}},qgs={54913},sourceQuests={29618},u=50,g={
 qo(1,{awp=50004,coords={{45.2,28.5,371}},crs={54930},providers={{"i",72589},{"o",209436}},u=50})}}),
@@ -54805,7 +54851,7 @@ o(214338,{awp=50004,coords={{46.3,80.6,371}},questID=31865,u=50}),
 o(213748,{awp=50004,coords={{23.49,35.05,371}},questID=31404,u=50,g={
 i(86216,{awp=50004,b=1,u=50}),
 crit(20902,{achID=7997,awp=50004,id=4,u=50})}}),
-o(213362,{awp=50004,coords={{51.28,100.54,371}},description="Located underwater in a boat.",questID=31396,u=50,g={
+o(213362,{awp=50004,coords={{50.88,99.74,371}},description="Located underwater in a boat.",questID=31396,u=50,g={
 crit(20895,{achID=7997,awp=50004,id=1,u=50})}}),
 o(213333,{awp=50004,coords={{42.2,17.4,371}},u=50,g={
 crit(19664,{achID=6754,awp=50004,id=3,u=50})}}),
@@ -57017,10 +57063,10 @@ crit(21593,{achID=6560,awp=50004,id=67,pb=1})}}),
 h(-45,{awp=50004,g={
 q(30634,{awp=50004,coords={{56.6,43.6,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=50;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,qgs={58471},rwp=50400,sourceQuests={30632},u=2,g={
 i(80484,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=50;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,q=1,rwp=50400,u=2})}}),
-q(32016,{awp=50004,coords={{85.2,62.6,390}},isWeekly=1,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;t.description="This will be removed when the Rise of the Thunder King phase begins."	end	end,qgs={64029},r=2,rwp=50200,u=2,g={
-cu(697,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;t.description="This will be removed when the Rise of the Thunder King phase begins."	end	end,rwp=50200,u=2})}}),
-q(32017,{awp=50004,coords={{62,20.6,390}},isWeekly=1,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;t.description="This will be removed when the Rise of the Thunder King phase begins."	end	end,qgs={63996},r=1,rwp=50200,u=2,g={
-cu(697,{awp=50004,OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;t.description="This will be removed when the Rise of the Thunder King phase begins."	end	end,rwp=50200,u=2})}}),
+q(32016,{awp=50004,coords={{85.2,62.6,390}},cost={{"c",738,50}},isWeekly=1,qgs={64029},r=2,g={
+cu(697,{awp=50004})}}),
+q(32017,{awp=50004,coords={{62,20.6,390}},cost={{"c",738,50}},isWeekly=1,qgs={63996},r=1,g={
+cu(697,{awp=50004})}}),
 q(32900,{awp=50300,coords={{47.23,49.71,393}},description="Quest may only be completed ONCE per character. Items you receive from the Cache of Treasures are class and spec specific. Not all items are available to all classes able to equip them.",qgs={64101},r=2,u=53,g={
 i(98546,{awp=50300,b=1,q=4,u=53})}}),
 q(32901,{awp=50300,coords={{46.6,56.5,392}},description="Quest may only be completed ONCE per character. Items you receive from the Cache of Treasures are class and spec specific. Not all items are available to all classes able to equip them.",qgs={66998},r=1,u=53,g={
@@ -57029,6 +57075,14 @@ q(30630,{awp=50004,qgs={59964},r=2,sourceQuests={31512},u=2}),
 q(33008,{awp=50004,qgs={59964},r=1,sourceQuests={31511},u=2}),
 q(30635,{awp=50004,coords={{56.6,43.6,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=50;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,qgs={58465},rwp=50400,sourceQuests={30633,30634},u=2}),
 q(30638,{awp=50004,coords={{56.6,43.6,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=50;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,qgs={58465},rwp=50400,sourceQuests={30635,30636,30637,30654},u=2}),
+q(32719,{awp=50200,coords={{85.2,62.6,390}},cost={{"c",738,50}},isWeekly=1,qgs={64029},r=2,rwp=50400,u=2,g={
+cu(752,{awp=50200,rwp=50400,u=2})}}),
+q(32718,{awp=50200,coords={{62,20.6,390}},cost={{"c",738,50}},isWeekly=1,qgs={63996},r=1,rwp=50400,u=2,g={
+cu(752,{awp=50200,rwp=50400,u=2})}}),
+q(94404,_.ResolveQuestData({aqd=
+{awp=50503,coords={{85.2,62.6,390}},qgs={64029}},awp=50503,cost={{"c",738,50}},hqd=
+{awp=50503,coords={{62,20.6,390}},qgs={63996}},isWeekly=1,u=52,g={
+cu(752,{awp=50503,u=52})}})),
 q(30633,{awp=50004,coords={{56.6,43.6,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=50;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,qgs={58465},rwp=50400,sourceQuests={30632},u=2}),
 q(30636,{awp=50004,coords={{56.6,43.6,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(54)then	t.u=2;else	t.u=50;t.description="This will be removed when the Siege of Orgrimmar phase begins."	end	end,qgs={58465},rwp=50400,sourceQuests={30633,30634},u=2}),
 q(31369,{awp=100207,coords={{86.5,60.2,390}},isBreadcrumb=1,qgs={64033},r=2,rwp=50100,u=2}),
@@ -57640,6 +57694,9 @@ r(127115,{awp=50004,learnedAt=560,requireSkill=202,u=51}),
 r(127116,{awp=50004,learnedAt=525,requireSkill=202,u=51})}})}})}}),
 prof(356,{awp=50004,g={
 n(70398,{awp=50200,coords={{58.8,47,376}},description="Ben of the Booming Voice is a pandaren fishing trainer located on the bank of the Gilding Stream in the Valley of the Four Winds. When asked, he tells where fish are swarming in Pandaria that day. Wherever fish are swarming, there are a large number of fishing pools containing the type of fish Ben specifies."})}}),
+prof(182,{awp=50004,g={
+n(65877,{awp=50004,coords={{53.6,51.2,376}},g={
+r(110413,{awp=50004,learnedAt=0,rank=8,requireSkill=182,rwp=80001,u=51})}})}}),
 prof(197,{awp=50004,g={
 n(57405,{awp=50004,coords={{62.6,59.6,376}},g={
 r(110426,{awp=50004,learnedAt=500,rank=8,requireSkill=197,rwp=80001,u=51}),
@@ -58102,6 +58159,7 @@ r(1257682,{awp=50004,b=1,itemID=254315,learnedAt=600,q=3,requireSkill=333,rwp=50
 n(73143,{awp=50004,r=2,u=2}),
 n(65167,{awp=50004,coords={{7.6,64.8,390}},OnUpdate=function(t)if settings:GetUnobtainableFilter(52)then	t.u=2;else	t.u=50;end	end,r=2,rwp=50200,sym={{"sub","pvp_gear_base",5,-259,-296},{"merge"},{"pop"}},u=2}),
 n(64395,{awp=50004,coords={{53.6,51.2,376}},g={
+i(74853,{awp=50004,cost={{"c",402,1}},q=1}),
 heir(86468,{awp=50004,b=2,cost={{"c",402,50}},f=9,learnedAt=1,q=7,requireSkill=185,sourceID=271694,sourceQuests={31820}}),
 i(86425,{awp=50004,b=1,cost={{"c",402,50}},q=3,sourceQuests={31521}}),
 toy(88801,{awp=50004,b=1,cost={{"c",402,40}},q=1}),

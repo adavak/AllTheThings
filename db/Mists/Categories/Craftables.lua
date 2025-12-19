@@ -2041,6 +2041,7 @@ i(10922,{c={4},f=55,lvl=56,rwp=30002,u=2})}}),
 prof(393,{description="The following items can be gathered by skinning creatures out in the world.",g={
 h(-22,{
 s(121696,7005,{collectible=false,description="Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",f=57,learnedAt=1,q=1,requireSkill=393})}),
+sp(8613,{
 i(4234,{maps={22,26,70,71},q=1}),
 i(2318,{maps={10,21,48,52,62,76},q=1}),
 i(2319,{maps={14,65},q=1}),
@@ -2081,7 +2082,7 @@ i(8165,{description="Can be skinned from elite creatures of any Dragonflights ar
 i(20501),
 i(20500),
 i(11512,{b=1,q=1}),
-i(20498)}}),
+i(20498)})}}),
 prof(197,{
 h(-88,{
 s(123361,10030,{f=4,lvl=43,q=2}),

@@ -418,19 +418,26 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			})),
 			-- #if ANYCLASSIC
 			applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_MSV, n(CELESTIAL_DUNGEON_DIFFICULTY, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(649, {	-- Raigonn
 						["creatureID"] = 56877,	-- Raigonn
 						["groups"] = {
 							ach(60896),	-- Celestial: Gate of the Setting Sun
+							-- #if BEFORE 5.5.3
+							-- Season 1 Drops
 							i(86799),	-- Starshatter
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86889)),	-- Taoren, the Soul Burner (Terrace)
 							i(86764),	-- Eye of the Ancient Spirit
 							i(89971),	-- Mindshard Drape
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86851)),	-- Painful Thorned Ring (HoF)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86885)),	-- Spirits of the Sun (Terrace)
+							-- #elseif BEFORE 5.5.5
+							-- Season 2 Drops
+							-- #else
+							-- Season 3 Drops
+							-- #endif
 						},
 					}),
 				},
