@@ -141,6 +141,7 @@ root(ROOTS.HiddenQuestTriggers, {
 				q(94709),	-- Triggered after entering house (tutorial?)
 				q(94714),	-- Triggered after completing 'Feathering the Nest' (94210)
 				-- q(94750),	-- Unflagged after talking to Elven Decor vendor
+				--q(91029),	-- -- Triggered after talking to Xiz'ro <Lumberjack> (added in 11.1.7, probably not housing related?)
 			},
 		}),
 	})
