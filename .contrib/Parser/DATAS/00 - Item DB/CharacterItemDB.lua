@@ -981,7 +981,7 @@ is(0, 1237215);						-- Path of the Eco-Dome
 ------------------
 -- PATCH 11.2.5 --
 ------------------
-ihqt(249242, 91961);				-- Bronze Celebration Titles: Khaz Algar Enthusiast
+iq(249242, 91961);				-- Bronze Celebration Titles: Khaz Algar Enthusiast
 ihqt(248127, 91783);				-- Delver's Cosmetic Surprise Bag
 ihqt(248126, 91784);				-- Delver's Starter Kit
 
