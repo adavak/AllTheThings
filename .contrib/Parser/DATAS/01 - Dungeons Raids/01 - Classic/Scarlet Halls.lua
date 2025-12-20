@@ -305,8 +305,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95685),	-- Amulet of the Primal Turtle
 							i(95630),	-- Chestplate of Violent Detonation
+							i(95740),	-- Chilblain Spaulders
 							i(95739),	-- Leggings of Pulsing Blood
+							i(95792),	-- Robes of the Moon Lotus
 							i(95767),	-- Spaulders of Primordial Growth
 						}),
 						-- #else
