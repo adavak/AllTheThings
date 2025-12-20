@@ -940,7 +940,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 				q(94363, {	-- The Gloves Are Off
 					["sourceQuest"] = 92851,	-- Questionable Qualifications
 					["qg"] = 253170,	-- Pick Butterworth
-					["coord"] = { 53.7, 61.6, DEEPRUN_TRAM },
+					["coords"] = {
+						{ 53.7, 61.6, DEEPRUN_TRAM },
+						{ 55.2, 61.4, DEEPRUN_TRAM },
+					},
 				}),
 			}),
 			sharedData({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = HORDE_ONLY }, {

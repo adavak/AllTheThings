@@ -29,6 +29,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						q(44083, {	-- The Grimoire of the First Necrolyte
 							["description"] = "Only available from Rare Elite (DANGER) World Quests.",
 							["provider"] = { "i", 140764 },	-- Grimoire of the First Necrolyte
+							["groups"] = { i(140762) },	-- Skull of the Executed (QI!)
 						}),
 						n(112862, {	-- Sataiel
 							["sourceQuest"] = 44083,	-- The Grimoire of the First Necrolyte

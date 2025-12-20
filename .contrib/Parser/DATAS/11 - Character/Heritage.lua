@@ -604,9 +604,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					75265,	-- An Urgent Matter (the other one)
 				},
 				["isBreadcrumb"] = true,
-				["groups"] = {
-					i(203475),	-- Urgent Stormwind Summons
-				},
+				["groups"] = { i(203475) },	-- Urgent Stormwind Summons (QI!)
 			}),
 			q(75265, {	-- An Urgent Matter
 				["altQuests"] = {
@@ -615,9 +613,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["provider"] = { "n", 199340 },	-- Agent Render
 				["coord"] = { 54.6, 20.0, STORMWIND_CITY },
 				["isBreadcrumb"] = true,
-				["groups"] = {
-					i(203475),	-- Urgent Stormwind Summons
-				},
+				["groups"] = { i(203475) },	-- Urgent Stormwind Summons (QI!)
 			}),
 			q(72405, {	-- An Unlikely Informant
 				["sourceQuests"] = { 72644, 75265 },	-- Justice Long Overdue
