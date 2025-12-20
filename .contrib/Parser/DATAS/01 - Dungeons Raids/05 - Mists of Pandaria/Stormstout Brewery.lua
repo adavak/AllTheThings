@@ -400,9 +400,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 							i(86767),	-- Circuit of the Frail Soul
 							-- #elseif BEFORE 5.5.5
 							-- Season 2 Drops
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95726)),	-- Fabled Feather of Ji-Kun
 							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95977)),	-- Necklace of the Terra-Cotta Vanquisher
 							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95700)),	-- Poisonblood Bladeshoulders
 							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95646)),	-- Talisman of Living Poison
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95781)),	-- Voice of the Quilen
 							-- #else
 							-- Season 3 Drops
 							-- #endif

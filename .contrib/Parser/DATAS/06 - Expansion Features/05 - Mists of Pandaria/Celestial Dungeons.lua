@@ -1700,6 +1700,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							
 							i(94295),	-- Primal Egg
 							i(94573),	-- Direhorn Runt (PET!)
+							i(88148),	-- Jade Crane Chick (PET!)
 							i(94835),	-- Ji-Kun Hatchling (PET!)
 							i(97959),	-- Living Fluid (PET!)  [Unconfirmed]
 							i(94125),	-- Living Sandling (PET!)
