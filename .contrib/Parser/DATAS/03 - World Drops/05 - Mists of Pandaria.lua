@@ -586,20 +586,20 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = 
 			})))),
 		}),
 		prof(ENGINEERING, {
-			applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, TempForceMisc(i(100910, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {	-- Schematic: Chief Engineer Jard's Journal
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, TempForceMisc(i(100910, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {	-- Schematic: Chief Engineer Jard's Journal
 				r(139197),	-- Advanced Refrigeration Unit
 				r(139176),	-- Jard's Peculiar Energy Source
 				r(139196),	-- Pierre
 				r(143714),	-- Rascal-Bot
 				r(139192),	-- Sky Golem
 			})))),
-			applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, TempForceMisc(i(94847, {	-- Schematic: Chief Engineer Jard's Journal
-				["timeline"] = { ADDED_5_2_0, REMOVED_9_0_2_LAUNCH },
+			applyclassicphase(MOP_PHASE_ESCALATION, TempForceMisc(i(94847, {	-- Schematic: Chief Engineer Jard's Journal
+				["timeline"] = { CREATED_5_2_0, ADDED_5_3_0, REMOVED_5_4_0 },
 				["_drop"] = { "g" },
 			}))),
-			applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32630, {	-- Chief Engineer Jard's Journal
+			applyclassicphase(MOP_PHASE_ESCALATION, q(32630, {	-- Chief Engineer Jard's Journal
 				["provider"] = { "i", 94847 },	-- Schematic: Chief Engineer Jard's Journal
-				["timeline"] = { ADDED_5_2_0, REMOVED_9_0_2_LAUNCH },
+				["timeline"] = { CREATED_5_2_0, ADDED_5_3_0, REMOVED_5_4_0 },
 				["_drop"] = { "g" },
 			})),
 		}),
