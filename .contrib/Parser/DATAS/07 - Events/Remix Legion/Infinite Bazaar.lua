@@ -754,7 +754,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				["coords"] = {
 					{ 45.3, 78.6, LEGION_DALARAN },
 					{ 50.6, 18.8, LEGION_DALARAN },
-				}
+				},
 				["groups"] = {
 					i(216653, {	-- Timerunner's Satchel
 						["cost"] = {{ "c", BRONZE, 5 }},
