@@ -272,7 +272,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["coord"] = { 38.5, 51.1, KARESH_TAZAVESH },
 			["maps"] = { DELVE_ETHEREAL_KYVEZA },
 			["groups"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 					ach(42190, {	-- Let Me Solo Her: Nexus-Princess Ky'veza
 						i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive (MM!)
 					}),
@@ -282,7 +282,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					ach(42194, {	-- Pruning the Princess
 						title(639),	-- Contract Killer %s
 					}),
-				}),
+				})),
 				n(EXPLORATION, {
 					map_exploration(16539,{coord={53.4,82.9,DELVE_ETHEREAL_KYVEZA}}),	-- Voidrazor Sanctuary
 				}),
