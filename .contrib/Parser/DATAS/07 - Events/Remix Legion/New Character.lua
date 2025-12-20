@@ -18,6 +18,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			i(240550),	-- Ered'ruin Legguards
 			i(240549),	-- Ered'ruin Sabatons
 		}),
+		filter(MISC, {
+			i(219243),	-- Recruit's Reagent Bag
+			i(250411),	-- Timerunner's Hearthstone
+			i(216653),	-- Timerunner's Satchel
+		}),
 		filter(PLATE, {
 			i(240688),	-- Nar'thalas Graduate's Breastplate
 			i(240690),	-- Nar'thalas Graduate's Legguards
@@ -36,11 +41,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					i(243368, {	-- Timerunner's Dagger
 						["classes"] = { ROGUE },
 					}),
-				}),
-				filter(MISC, {
-					i(219243),	-- Recruit's Reagent Bag
-					i(250411),	-- Timerunner's Hearthstone
-					i(216653),	-- Timerunner's Satchel
 				}),
 				filter(ONE_HANDED_MACES, {
 					i(243372, {	-- Timerunner's Mace

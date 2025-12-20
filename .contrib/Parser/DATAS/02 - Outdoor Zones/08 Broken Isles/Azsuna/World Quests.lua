@@ -163,6 +163,7 @@ root(ROOTS.Zones, {
 				q(46165),	-- Kazruul (Invasion WQ)
 				q(46167),	-- Kozrum (Invasion WQ)
 				q(42101, {	-- Language of the Lost
+					i(136833),	-- Oracle's Scrying Orb
 					o(249513, {	-- Illegible Writings
 						["coords"] = {
 							{ 58.3, 53.4, AZSUNA },

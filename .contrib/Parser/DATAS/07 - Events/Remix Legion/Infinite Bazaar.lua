@@ -94,6 +94,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
 					i(250404, {	-- Hanging Felsteel Chain (DECOR!)
+						-- #if BEFORE 12.0.0
+						["description"] = "Not awarded by the achievement but unlocked by it so you can buy the Decor from the vendor.",
+						-- #endif
 						["sourceAchievement"] = 42675,	-- Defending the Broken Isles III
 						["cost"] = {{ "c", BRONZE, 5000 }},
 					}),
@@ -122,6 +125,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["cost"] = {{ "c", BRONZE, 30000 }},
 					}),
 					i(256678, {	-- Small Legion Candle (DECOR!)
+						-- #if BEFORE 12.0.0
+						["description"] = "Not awarded by the achievement but unlocked by it so you can buy the Decor from the vendor.",
+						-- #endif
 						["sourceAchievement"] = 42628,	-- The Nightfallen
 						["cost"] = {{ "c", BRONZE, 2500 }},
 					}),
@@ -744,6 +750,17 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 				}),
 			}),
+			n(241192, {	-- Ludwin <Storage Enthusiast>
+				["coords"] = {
+					{ 45.3, 78.6, LEGION_DALARAN },
+					{ 50.6, 18.8, LEGION_DALARAN },
+				}
+				["groups"] = {
+					i(216653, {	-- Timerunner's Satchel
+						["cost"] = {{ "c", BRONZE, 5 }},
+					}),
+				},
+			}),
 			n(241142, {	-- Momentus <Weaponmaster>
 				["coord"] = { 45.8, 68.0, BROKEN_ISLES },
 				["groups"] = sharedData({
@@ -773,6 +790,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 						["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 					}),
 					i(188152),	-- Gateway Control Shard
+					i(44922, {	-- Glyph of Stars
+						["classes"] = { DRUID },
+					}),
 					i(265922, {	-- Pet Training Manual: Fetch
 						["classes"] = { HUNTER },
 					}),

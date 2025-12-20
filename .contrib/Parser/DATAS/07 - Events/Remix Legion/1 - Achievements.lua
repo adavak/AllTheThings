@@ -73,9 +73,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				1642,	-- Val'sharah (Scenario)
 			},
 			["groups"] = {
-				i(250404, {	-- Hanging Felsteel Chain (DECOR!)
-					["timeline"] = { ADDED_11_2_7 },
-				}),
 				i(250622, {	-- Vertical Felsteel Chain (DECOR!)
 					["timeline"] = { ADDED_11_2_7 },
 				}),
