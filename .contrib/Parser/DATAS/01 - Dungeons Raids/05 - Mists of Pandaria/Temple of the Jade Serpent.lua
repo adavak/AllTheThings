@@ -453,6 +453,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 							i(86791),	-- Bottle of Infinite Stars
 							-- #elseif BEFORE 5.5.5
 							-- Season 2 Drops
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95758)),	-- Acid-Spine Bonemace
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95757)),	-- Primordius' Talisman of Rage
+							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95649)),	-- Sul'lithuz Sandmail
 							-- #else
 							-- Season 3 Drops
 							-- #endif
