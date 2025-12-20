@@ -458,7 +458,26 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
-							
+							i(95776),	-- Anima-Ringed Fingers
+							i(95774),	-- Athame of the Sanguine Ritual
+							i(95639),	-- Drape of Booming Nights
+							i(95721),	-- Featherflight Belt
+							i(95720),	-- Giorgio's Caduceus of Pure Moods
+							i(95749),	-- Gloves of Cushioned Air
+							i(95722),	-- Grasp of the Ruthless Mother
+							i(95642),	-- Infinitely Conducting Bracers
+							i(95666),	-- Kura-Kura, Kazra'jin's Skullcleaver
+							i(95747),	-- Legplates of Re-Emergence
+							i(95863),	-- Lost Shoulders of Fire
+							i(95865),	-- Lost Shoulders of Fluidity
+							i(95864),	-- Lost Shoulders of Healing
+							i(95667),	-- Mar'li's Bloodstained Sandals
+							i(95969),	-- Necklace of the Terra-Cotta Mender
+							i(95694),	-- Robes of Concussive Shocks
+							i(95803),	-- Shan-Dun, Breaker of Hope
+							i(95748),	-- Talisman of Bloodlust
+							i(95693),	-- Vampire Bat-Hide Bracers
+							i(95668),	-- Zandalari Robes of the Final Rite
 						}),
 						-- #else
 						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops

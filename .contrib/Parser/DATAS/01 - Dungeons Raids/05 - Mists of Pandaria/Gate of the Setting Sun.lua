@@ -438,15 +438,33 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95877),	-- Bo-Ris, Horror in the Night
+							i(95732),	-- Caustic Spike Bracers
+							i(95876),	-- Do-tharak, the Swordbreaker
+							i(95707),	-- Gleaming-Eye Shoulderpads
+							i(95813),	-- Gloves of the Maimed Vizier
+							i(95875),	-- Greatsword of Frozen Hells
 							i(95680),	-- Grips of Vampiric Cruelty
 							i(95760),	-- Helix-Breaker Gloves
+							i(95653),	-- Horn-Rimmed Doomcloak
+							i(95705),	-- Hydraskull Choker
+							i(95761),	-- Leggings of Ebon Veins
+							i(95733),	-- Legplates of the Dark Parasite
+							i(95626),	-- Lightning-Eye Hood
+							i(95786),	-- Orb of Arcing Lightning
+							i(95652),	-- Puncture-Proof Greathelm
+							i(95625),	-- Renataki's Soul Charm
+							i(95788),	-- Ro'shak's Molten Chain
 							i(95759),	-- Robes of Mutagenic Blood
 							i(95679),	-- Rockfall Ribwraps
+							i(95706),	-- Sandals of Arcane Fury
 							i(95678),	-- Shattered Tortoiseshell Longbow
 							i(95624),	-- Sign of the Bloodied God
 							i(95654),	-- Spark of Zandalar
 							i(95787),	-- Spurs of the Storm Cavalry
 							i(95815),	-- Torall, Rod of the Shattered Throne
+							i(95734),	-- Treads of the Blind Eye
+							i(95814),	-- Unerring Vision of Lei Shen
 						}),
 						-- #else
 						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops

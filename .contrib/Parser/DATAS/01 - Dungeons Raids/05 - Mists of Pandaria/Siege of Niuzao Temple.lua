@@ -471,7 +471,30 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
-							
+							i(95972),	-- Abandoned Zandalari Arrowlinks
+							i(95974),	-- Abandoned Zandalari Greatbelt
+							i(95670),	-- Amun-Thoth, Sul's Spiritrending Talons
+							i(95750),	-- Bracers of Mutagenic Fervor
+							i(95805),	-- Conduit-Breaker Chain Leggings
+							i(95778),	-- Crown of the Golden Golem
+							i(95779),	-- Delicate Vial of the Sanguinaire
+							i(95806),	-- Doomed Crown of Lei Shen
+							i(95725),	-- Egg-Shard Grips
+							i(95868),	-- Forgotten Mantle of the Moon
+							i(95804),	-- Fusion Slasher Chestguard
+							i(95643),	-- Ghostbinder Greatboots
+							i(95644),	-- Ionized Yojamban Carapace
+							i(95867),	-- Jerthud, Graceful Hand of the Savior
+							i(95777),	-- Matter-Swapped Legplates
+							i(95698),	-- Megaera's Poisoned Fang
+							i(95866),	-- Nadagast's Exsanguinator
+							i(95752),	-- Pathogenic Gauntlets
+							i(95696),	-- Refreshing Abalone Girdle
+							i(95671),	-- Robes of Treacherous Ground
+							i(95724),	-- Talonrender Chestplate
+							i(95697),	-- Tortos' Shellseizers
+							i(95645),	-- Wastewalker's Sandblasted Drape
+							i(95669),	-- Wushoolay's Final Choice
 						}),
 						-- #else
 						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops

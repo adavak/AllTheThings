@@ -1340,7 +1340,28 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
-							
+							i(95635),	-- Al'set's Tormented Leggings
+							i(95796),	-- Bracers of the Midnight Comet
+							i(95715),	-- Chain of Consuming Magic
+							i(95741),	-- Deadly Glare Cape
+							i(95742),	-- Durumu's Captive Eyeball
+							i(95860),	-- Fyn's Flickering Dagger
+							i(95797),	-- Girdle of Night and Day
+							i(95769),	-- Gore-Soaked Gear
+							i(95768),	-- Greatshield of the Gloaming
+							i(95770),	-- Hand of the Dark Animus
+							i(95716),	-- Ice-Scored Treads
+							i(95633),	-- Jin'rokh's Soulcrystal
+							i(95634),	-- Lightningweaver Gauntlets
+							i(95714),	-- Links of the Bifurcated Tongue
+							i(95964),	-- Necklace of the Terra-Cotta Invoker
+							i(95743),	-- Ritual Dagger of the Mind's Eye
+							i(95661),	-- Roots of Rampaging Earth
+							i(95963),	-- Silentflame Sandals
+							i(95662),	-- Spaulders of Dinomancy
+							i(95689),	-- Stonegaze Hood
+							i(95795),	-- Suen-Wo, Spire of the Falling Sun
+							i(95660),	-- Venomlord's Totemic Wand
 						}),
 						-- #else
 						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops

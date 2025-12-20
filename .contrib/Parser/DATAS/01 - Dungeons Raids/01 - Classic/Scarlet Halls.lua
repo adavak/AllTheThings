@@ -305,11 +305,27 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95961),	-- Abandoned Zandalari Firecord
+							i(95962),	-- Abandoned Zandalari Shadowgirdle
 							i(95685),	-- Amulet of the Primal Turtle
+							i(95711),	-- Breath of the Hydra
 							i(95630),	-- Chestplate of Violent Detonation
 							i(95740),	-- Chilblain Spaulders
+							i(95765),	-- Clear-Mind Helm
+							i(95819),	-- Grips of Slicing Electricity
+							i(95713),	-- Hood of Smoldering Flesh
+							i(95641),	-- Horridon's Last Gasp
+							i(95658),	-- Horridon's Tusk Fragment
+							i(95712),	-- Inscribed Bag of Hydra-Spawn
 							i(95739),	-- Leggings of Pulsing Blood
+							i(95821),	-- Lei Shen's Grounded Carapace
+							i(95738),	-- Lifedrainer's Sordid Grip
+							i(95793),	-- Passionfire Choker
+							i(95659),	-- Petrified Eye of the Basilisk
 							i(95792),	-- Robes of the Moon Lotus
+							i(95960),	-- Scalehide Spurs
+							i(95684),	-- Shell-Coated Wristplates
+							i(95794),	-- Shield of Twinned Despair
 							i(95767),	-- Spaulders of Primordial Growth
 						}),
 						-- #else

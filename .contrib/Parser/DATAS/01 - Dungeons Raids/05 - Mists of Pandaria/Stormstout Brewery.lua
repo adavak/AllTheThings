@@ -403,10 +403,29 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95870),	-- Abandoned Spaulders of Arrowflight
+							i(95871),	-- Abandoned Spaulders of Renewal
+							i(95975),	-- Abandoned Zandalari Goreplate
+							i(95753),	-- Black Blood Legplates
+							i(95728),	-- Durumu's Baleful Gaze
 							i(95726),	-- Fabled Feather of Ji-Kun
+							i(95869),	-- Forgotten Mantle of the Sun
+							i(95672),	-- Gaze of Gara'jal
+							i(95701),	-- Grips of Cinderflesh
+							i(95755),	-- Hydra-Scale Bloodcloak
+							i(95780),	-- Iron Qon's Boot Knife
+							i(95647),	-- Jalak's Maelstrom Staff
+							i(95807),	-- Legplates of the Lightning Throne
+							i(95808),	-- Legplates of Whipping Ionization
+							i(95673),	-- Loa-Ridden Bracers
+							i(95754),	-- Metabolically Boosted Shoulderplates
 							i(95977),	-- Necklace of the Terra-Cotta Vanquisher
+							i(95674),	-- Overloaded Bladebreaker Cuirass
 							i(95700),	-- Poisonblood Bladeshoulders
+							i(95699),	-- Quadra-Head Brooch
+							i(95782),	-- Quet'zal's Crackling Cord
 							i(95646),	-- Talisman of Living Poison
+							i(95809),	-- Uroe, Harbinger of Terror
 							i(95781),	-- Voice of the Quilen
 						}),
 						-- #else

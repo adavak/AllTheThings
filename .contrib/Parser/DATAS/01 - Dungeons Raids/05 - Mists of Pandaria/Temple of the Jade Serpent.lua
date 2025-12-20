@@ -456,9 +456,32 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						},
 						-- #elseif BEFORE 5.5.5
 						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95731),	-- Aberrant Chestguard of Torment
 							i(95758),	-- Acid-Spine Bonemace
+							i(95756),	-- Band of the Scaled Tyrant
+							i(95651),	-- Bloodlord's Bloodsoaked Legplates
+							i(95979),	-- Columnbreaker Stompers
+							i(95729),	-- Crimson Bloom Legguards
+							i(95784),	-- Dam'ren's Frozen Footguards
+							i(95677),	-- Fortitude of the Zandalari
+							i(95650),	-- Frozen Warlord's Bracers
+							i(95812),	-- Legwraps of Cardinality
+							i(95730),	-- Links of the Disintegrator
+							i(95978),	-- Locksmasher Greaves
+							i(95980),	-- Necklace of the Terra-Cotta Protector
+							i(95702),	-- Plated Toothbreaker Girdle
 							i(95757),	-- Primordius' Talisman of Rage
+							i(95874),	-- Reconstructed Bloody Shoulderplates
+							i(95872),	-- Reconstructed Holy Shoulderplates
+							i(95785),	-- Ro'shak's Remembrance
+							i(95703),	-- Rot-Proof Greatplate
+							i(95783),	-- Saddle-Scarred Leggings
+							i(95811),	-- Soul Barrier
+							i(95704),	-- Spinescale Seal
 							i(95649),	-- Sul'lithuz Sandmail
+							i(95676),	-- Talisman of Angry Spirits
+							i(95810),	-- Ultimate Protection of the Emperor
+							i(95675),	-- Zerat, Malakk's Soulburning Greatsword
 						}),
 						-- #else
 						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
