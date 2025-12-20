@@ -4180,14 +4180,6 @@ customWindowUpdates.Import = function(self, force)
 			self:Update(true)
 		end
 
-		local function NothingFoundRow()
-			return app.CreateRawText("Nothing found", {
-				description = "No matching objects were found for the provided IDs.",
-				visible = true,
-				OnUpdate = app.AlwaysShowUpdate,
-			})
-		end
-
 		function self:ClearResults()
 			local fixed = {}
 			for _, row in ipairs(self.data.g) do
@@ -4220,45 +4212,61 @@ customWindowUpdates.Import = function(self, force)
 			return results
 		end
 
+		local function CreateTypeObject(typeKey, id)
+			return SearchForObject(typeKey, id, "key")
+				or SearchForObject(typeKey, id, "field")
+				or CreateObject({
+					[typeKey] = id,
+					visible = true,
+				})
+		end
+
 		function self:Import(typeKey, input)
 			local ids = ParseIDs(input)
 			self:ClearResults()
 			if not ids then return false end
 
-			local foundAnything = false
 			local seen = {}
 
 			for _, id in ipairs(ids) do
 				local found = FindATTObjects(typeKey, id)
+
 				if found and #found > 0 then
 					for _, ref in ipairs(found) do
 						local key = ref.key
 						local value = key and ref[key]
+						local uid = key and value and (key .. ":" .. value)
 
-						if key and value then
-							local uid = key .. ":" .. value
-							if not seen[uid] then
-								seen[uid] = true
+						if uid and not seen[uid] then
+							seen[uid] = true
 
-								local clone = app.CloneReference(ref)
-								clone.forceShow = true
-								clone.OnUpdate = app.AlwaysShowUpdate
-								tinsert(self.data.g, clone)
-
-								foundAnything = true
-							end
+							local clone = app.CloneReference(ref)
+							clone.forceShow = true
+							clone.OnUpdate = app.AlwaysShowUpdate
+							tinsert(self.data.g, clone)
 						end
+					end
+				else
+					-- Fallback creation
+					local obj = CreateTypeObject(typeKey, id)
+					local key = obj.key
+					local value = key and obj[key]
+					local uid = key and value and (key .. ":" .. value)
+
+					if uid and not seen[uid] then
+						seen[uid] = true
+						obj.forceShow = true
+						obj.OnUpdate = app.AlwaysShowUpdate
+						tinsert(self.data.g, obj)
 					end
 				end
 			end
-
-			return foundAnything
 		end
 
 		local initialButtons = {
 			{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements") },
 			{ id = "sourceID", name = WARDROBE, icon = 135276 },
-			{ id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact") },
+			-- LUA error currently { id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact") },
 			{ id = "azeriteessenceID", name = SPLASH_BATTLEFORAZEROTH_8_2_0_FEATURE2_TITLE, icon = app.asset("Category_AzeriteEssences") },
 			{ id = "speciesID", name = AUCTION_CATEGORY_BATTLE_PETS, icon = app.asset("Category_PetJournal") },
 			{ id = "campsiteID", name = WARBAND_SCENES, icon = app.asset("Category_Campsites") },
@@ -4289,13 +4297,8 @@ customWindowUpdates.Import = function(self, force)
 								return
 							end
 
-							local found = self:Import(typeKey, input)
+							self:Import(typeKey, input)
 							self:ShowResetButton()
-
-							if not found then
-								tinsert(self.data.g, NothingFoundRow())
-							end
-
 							self:Rebuild()
 						end
 					)
