@@ -423,25 +423,37 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				["groups"] = {
 					e(649, {	-- Raigonn
 						["creatureID"] = 56877,	-- Raigonn
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60896),	-- Celestial: Gate of the Setting Sun
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							i(86799),	-- Starshatter
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86889)),	-- Taoren, the Soul Burner (Terrace)
 							i(86764),	-- Eye of the Ancient Spirit
 							i(89971),	-- Mindshard Drape
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86851)),	-- Painful Thorned Ring (HoF)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86885)),	-- Spirits of the Sun (Terrace)
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95679)),	-- Rockfall Ribwraps
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95678)),	-- Shattered Tortoiseshell Longbow
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95654)),	-- Spark of Zandalar
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95680),	-- Grips of Vampiric Cruelty
+							i(95760),	-- Helix-Breaker Gloves
+							i(95759),	-- Robes of Mutagenic Blood
+							i(95679),	-- Rockfall Ribwraps
+							i(95678),	-- Shattered Tortoiseshell Longbow
+							i(95624),	-- Sign of the Bloodied God
+							i(95654),	-- Spark of Zandalar
+							i(95787),	-- Spurs of the Storm Cavalry
+							i(95815),	-- Torall, Rod of the Shattered Throne
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

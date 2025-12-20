@@ -437,21 +437,28 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				["groups"] = {
 					e(698, {	-- Xin the Weaponmaster
 						["creatureID"] = 61398,	-- Xin the Weaponmaster
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60894),	-- Celestial: Mogu'shan Palace
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							i(86789),	-- Elegion, the Fanged Crescent
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86886)),	-- Loshan, Terror Incarnate (Terrace)
 							i(89952),	-- Pheromone-Coated Choker
 							i(86748),	-- Cape of Three Lanterns
 							i(86790),	-- Vial of Dragon's Blood
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

@@ -442,24 +442,30 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				["groups"] = {
 					e(335, {	-- Sha of Doubt
 						["creatureID"] = 56439,	-- Sha of Doubt
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60892),	-- Celestial: Temple of the Jade Serpent
 							i(248204),	-- Chimera of Doubt
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							i(86762),	-- Gara'kal, Fist of the Spiritbinder
 							i(86759),	-- Soulgrasp Choker
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86814)),	-- Fragment of Fear Made Flesh
 							i(86791),	-- Bottle of Infinite Stars
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95758)),	-- Acid-Spine Bonemace
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95757)),	-- Primordius' Talisman of Rage
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95649)),	-- Sul'lithuz Sandmail
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95758),	-- Acid-Spine Bonemace
+							i(95757),	-- Primordius' Talisman of Rage
+							i(95649),	-- Sul'lithuz Sandmail
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

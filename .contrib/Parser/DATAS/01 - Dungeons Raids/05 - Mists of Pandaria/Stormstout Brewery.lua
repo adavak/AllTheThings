@@ -390,25 +390,31 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				["groups"] = {
 					e(670, {	-- Yan-Zhu the Uncasked
 						["creatureID"] = 59479,	-- Yan-Zhu the Uncasked
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60893),	-- Celestial: Stormstout Brewery
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							i(86741),	-- Dagger of the Seven Stars
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86865)),	-- Kri'tak, Imperial Scepter of the Swarm (HoF)
 							i(86776),	-- Amulet of the Hidden Kings
 							i(86767),	-- Circuit of the Frail Soul
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95726)),	-- Fabled Feather of Ji-Kun
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95977)),	-- Necklace of the Terra-Cotta Vanquisher
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95700)),	-- Poisonblood Bladeshoulders
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95646)),	-- Talisman of Living Poison
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95781)),	-- Voice of the Quilen
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95726),	-- Fabled Feather of Ji-Kun
+							i(95977),	-- Necklace of the Terra-Cotta Vanquisher
+							i(95700),	-- Poisonblood Bladeshoulders
+							i(95646),	-- Talisman of Living Poison
+							i(95781),	-- Voice of the Quilen
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

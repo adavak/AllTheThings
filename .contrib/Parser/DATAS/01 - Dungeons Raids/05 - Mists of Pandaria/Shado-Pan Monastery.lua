@@ -443,22 +443,29 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				["groups"] = {
 					e(686, {	-- Taran Zhu
 						["creatureID"] = 56884,	-- Taran Zhu
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60895),	-- Celestial: Shado-Pan Monastery
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
+							i(86805),	-- Qin-xi's Polarizing Seal
 							i(86777),	-- Screaming Tiger, Qiang's Unbreakable Polearm
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86905)),	-- Shin'ka, Execution of Dominion (Terrace)
 							i(86739),	-- Beads of the Mogu'shi
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86813)),	-- Vizier's Ruby Signet (HoF)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86873)),	-- Watersoul Signet (Terrace)
-							i(86805),	-- Qin-xi's Polarizing Seal
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

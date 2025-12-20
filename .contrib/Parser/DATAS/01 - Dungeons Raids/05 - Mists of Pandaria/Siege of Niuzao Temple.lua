@@ -457,21 +457,28 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				["groups"] = {
 					e(727, {	-- Wing Leader Ner'onok
 						["creatureID"] = 62205,	-- Wing Leader Ner'onok
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60900),	-- Celestial: Siege of Niuzao Temple
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							i(86806),	-- Tihan, Scepter of the Sleeping Emperor
 							i(86783),	-- Zian's Choker of Coalesced Shadow
 							i(89972),	-- Band of Bursting Novas
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86830)),	-- Ring of the Shattered Shell
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86890)),	-- Terror in the Mists (Terrace)
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

@@ -291,24 +291,30 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["groups"] = {
 					e(656, {	-- Flameweaver Koegler
 						["creatureID"] = 59150,	-- Flameweaver Koegler
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60897),	-- Celestial: Scarlet Halls
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86906)),	-- Kilrak, Jaws of Terror (Terrace)
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
 							i(86753),	-- Cloak of Peacock Feathers
 							i(89967),	-- Feng's Seal of Binding
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86858)),	-- Seal of the Profane (HoF)
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95630)),	-- Chestplate of Violent Detonation
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95739)),	-- Leggings of Pulsing Blood
-							applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, i(95767)),	-- Spaulders of Primordial Growth
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							i(95630),	-- Chestplate of Violent Detonation
+							i(95739),	-- Leggings of Pulsing Blood
+							i(95767),	-- Spaulders of Primordial Growth
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

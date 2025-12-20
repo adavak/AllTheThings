@@ -1325,22 +1325,29 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["groups"] = {
 					e(674, {	-- High Inquisitor Whitemane
 						["creatureID"] = 3977,	-- High Inquisitor Whitemane
-						["groups"] = {
+						["groups"] = appendGroups(
+						{
 							ach(60898),	-- Celestial: Scarlet Monastery
-							-- #if BEFORE 5.5.3
-							-- Season 1 Drops
+						},
+						-- #if BEFORE 5.5.3
+						{	-- Season 1 Drops
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86879)),	-- Gao-Rei, Staff of the Legendary Protector (Terrace)
 							i(86796),	-- Torch of the Celestial Spark
 							i(86754),	-- Amulet of Seven Curses
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86872)),	-- Kaolan's Withering Necklace (Terrace)
 							applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86820)),	-- Ring of the Bladed Tempest
 							i(86792),	-- Light of the Cosmos
-							-- #elseif BEFORE 5.5.5
-							-- Season 2 Drops
-							-- #else
-							-- Season 3 Drops
-							-- #endif
 						},
+						-- #elseif BEFORE 5.5.5
+						applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
+							
+						}),
+						-- #else
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+							
+						}),
+						-- #endif
+						{}),
 					}),
 				},
 			})),

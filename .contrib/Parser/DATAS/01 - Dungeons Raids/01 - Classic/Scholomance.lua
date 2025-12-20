@@ -2505,21 +2505,28 @@ table.insert(SCHOLOMANCE_GROUPS, applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGE
 		["groups"] = {
 			e(684, {	-- Darkmaster Gandling
 				["creatureID"] = 59080,	-- Darkmaster Gandling
-				["groups"] = {
+				["groups"] = appendGroups(
+				{
 					ach(60899),	-- Celestial: Scholomance
-					-- #if BEFORE 5.5.3
-					-- Season 1 Drops
+				},
+				-- #if BEFORE 5.5.3
+				{	-- Season 1 Drops
+					
+				},
+				-- #elseif BEFORE 5.5.5
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING_CELESTIAL_DUNGEONS, {	-- Season 2 Drops
 					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_HOF, i(86863)),	-- Scimitar of Seven Stars (HoF)
 					applyclassicphase(MOP_PHASE_ONE_CELESTIAL_DUNGEONS_TOES, i(86893)),	-- Jin'ya, Orb of the Waterspeaker (Terrace)
 					i(86782),	-- Arrow Breaking Windcloak
 					i(89968),	-- Feng's Ring of Dreams
 					i(86802),	-- Lei Shen's Final Orders
-					-- #elseif BEFORE 5.5.5
-					-- Season 2 Drops
-					-- #else
-					-- Season 3 Drops
-					-- #endif
-				},
+				}),
+				-- #else
+				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS,{	-- Season 3 Drops
+					
+				}),
+				-- #endif
+				{}),
 			}),
 		},
 })));
