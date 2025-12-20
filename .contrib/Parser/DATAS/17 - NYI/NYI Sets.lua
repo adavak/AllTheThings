@@ -14593,10 +14593,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(MAGE, {
 						i(237713),	-- Augur's Ephemeral Brilliance
 						i(237714),	-- Augur's Ephemeral Bindings
-						i(237715),	-- Augur's Ephemeral Quillsash
-						i(237716),	-- Augur's Ephemeral Orbs of Power
 						i(237717),	-- Augur's Ephemeral Trousers
-						i(237718),	-- Augur's Ephemeral Wide-Brim
 						i(237719),	-- Augur's Ephemeral Mitts
 						i(237720),	-- Augur's Ephemeral Slippers
 						i(237721),	-- Augur's Ephemeral Habiliments
@@ -14710,10 +14707,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(MAGE, {
 						i(237713),	-- Augur's Ephemeral Brilliance
 						i(237714),	-- Augur's Ephemeral Bindings
-						i(237715),	-- Augur's Ephemeral Quillsash
-						i(237716),	-- Augur's Ephemeral Orbs of Power
 						i(237717),	-- Augur's Ephemeral Trousers
-						i(237718),	-- Augur's Ephemeral Wide-Brim
 						i(237719),	-- Augur's Ephemeral Mitts
 						i(237720),	-- Augur's Ephemeral Slippers
 						i(237721),	-- Augur's Ephemeral Habiliments
@@ -14827,10 +14821,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(MAGE, {
 						i(237713),	-- Augur's Ephemeral Brilliance
 						i(237714),	-- Augur's Ephemeral Bindings
-						i(237715),	-- Augur's Ephemeral Quillsash
-						i(237716),	-- Augur's Ephemeral Orbs of Power
 						i(237717),	-- Augur's Ephemeral Trousers
-						i(237718),	-- Augur's Ephemeral Wide-Brim
 						i(237719),	-- Augur's Ephemeral Mitts
 						i(237720),	-- Augur's Ephemeral Slippers
 						i(237721),	-- Augur's Ephemeral Habiliments
@@ -14944,10 +14935,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(MAGE, {
 						i(237713),	-- Augur's Ephemeral Brilliance
 						i(237714),	-- Augur's Ephemeral Bindings
-						i(237715),	-- Augur's Ephemeral Quillsash
-						i(237716),	-- Augur's Ephemeral Orbs of Power
 						i(237717),	-- Augur's Ephemeral Trousers
-						i(237718),	-- Augur's Ephemeral Wide-Brim
 						i(237719),	-- Augur's Ephemeral Mitts
 						i(237720),	-- Augur's Ephemeral Slippers
 						i(237721),	-- Augur's Ephemeral Habiliments
@@ -15166,10 +15154,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(MAGE, {
 						i(237713),	-- Augur's Ephemeral Brilliance
 						i(237714),	-- Augur's Ephemeral Bindings
-						i(237715),	-- Augur's Ephemeral Quillsash
-						i(237716),	-- Augur's Ephemeral Orbs of Power
 						i(237717),	-- Augur's Ephemeral Trousers
-						i(237718),	-- Augur's Ephemeral Wide-Brim
 						i(237719),	-- Augur's Ephemeral Mitts
 						i(237720),	-- Augur's Ephemeral Slippers
 						i(237721),	-- Augur's Ephemeral Habiliments
@@ -15556,10 +15541,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(MAGE, {
 						i(237713),	-- Augur's Ephemeral Brilliance
 						i(237714),	-- Augur's Ephemeral Bindings
-						i(237715),	-- Augur's Ephemeral Quillsash
-						i(237716),	-- Augur's Ephemeral Orbs of Power
 						i(237717),	-- Augur's Ephemeral Trousers
-						i(237718),	-- Augur's Ephemeral Wide-Brim
 						i(237719),	-- Augur's Ephemeral Mitts
 						i(237720),	-- Augur's Ephemeral Slippers
 						i(237721),	-- Augur's Ephemeral Habiliments

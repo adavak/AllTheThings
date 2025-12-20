@@ -7,14 +7,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				40244,	-- Nerub-ar Palace
-				41222,	-- Liberation of Undermine 
-				41598,	-- Manaforge Omega 
+				41222,	-- Liberation of Undermine
+				41598,	-- Manaforge Omega
 				41555,	-- All That Khaz
 				41201,	-- You Xal Not Pass
-				40231,	-- The War Within Pathfinder 
+				40231,	-- The War Within Pathfinder
 				40438,	-- Glory of the Delver
-				41586,	-- Going Goblin Mode 
-				41997,	-- Owner of a Radiant Heart 
+				41586,	-- Going Goblin Mode
+				41997,	-- Owner of a Radiant Heart
 				60889,	-- Unraveled and Persevering
 			}},
 			["groups"] = {
@@ -470,7 +470,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(237646),	-- Midnight Herald's Cowl
 					}),
 					cl(MAGE, {
-						-- Mage has no items
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237718),	-- Augur's Ephemeral Wide-Brim
 					}),
 					cl(MONK, {
 						i(237670),	-- Thunderbund of Fallen Storms
@@ -527,7 +529,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(237646),	-- Midnight Herald's Cowl
 					}),
 					cl(MAGE, {
-						-- Mage has no items
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237718),	-- Augur's Ephemeral Wide-Brim
 					}),
 					cl(MONK, {
 						i(237670),	-- Thunderbund of Fallen Storms
@@ -584,7 +588,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(237646),	-- Midnight Herald's Cowl
 					}),
 					cl(MAGE, {
-						-- Mage has no items
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237718),	-- Augur's Ephemeral Wide-Brim
 					}),
 					cl(MONK, {
 						i(237670),	-- Thunderbund of Fallen Storms
@@ -641,7 +647,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(237646),	-- Midnight Herald's Cowl
 					}),
 					cl(MAGE, {
-						-- Mage has no items
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237718),	-- Augur's Ephemeral Wide-Brim
 					}),
 					cl(MONK, {
 						i(237670),	-- Thunderbund of Fallen Storms
@@ -698,7 +706,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(237646),	-- Midnight Herald's Cowl
 					}),
 					cl(MAGE, {
-						-- Mage has no items
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237718),	-- Augur's Ephemeral Wide-Brim
 					}),
 					cl(MONK, {
 						i(237670),	-- Thunderbund of Fallen Storms
@@ -755,7 +765,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(237646),	-- Midnight Herald's Cowl
 					}),
 					cl(MAGE, {
-						-- Mage has no items
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237718),	-- Augur's Ephemeral Wide-Brim
 					}),
 					cl(MONK, {
 						i(237670),	-- Thunderbund of Fallen Storms
