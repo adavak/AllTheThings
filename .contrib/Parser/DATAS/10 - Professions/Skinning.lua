@@ -3,7 +3,7 @@
 -----------------------------------------------------
 local DF_SKINNING_KNOWLEDGE = 2033;
 local TWW_SKINNING_KNOWLEDGE = 2794;
-root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = HERBALISM }, {
+root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINNING }, {
 	n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		ach(18834, {	-- Broken Isles Skinning Techniques
 			crit(61485, {	-- Felhide
