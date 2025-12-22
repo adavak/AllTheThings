@@ -916,14 +916,10 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			sharedData({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = ALLIANCE_ONLY }, {
 				q(92845, {	-- By Invitation Only?
 					["qg"] = 253181,	-- Babbling Brawler
-					["lockCriteria"] = { 1,
-						"achID", 61413,	-- The First Rule of Brawler's Guild [A]
-						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
-					},
 					["DisablePartySync"] = true,
 					["coords"] = {
 						{ 51.2, 43.4, DORNOGAL },
-						{ 66.6, 72.2, STORMWIND_CITY }
+						{ 66.6, 72.2, STORMWIND_CITY },
 					},
 				}),
 				q(92851, {	-- Questionable Qualifications
@@ -948,13 +944,12 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 			}),
 			sharedData({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = HORDE_ONLY }, {
 				q(92715, {	-- By Invitation Only?
-					--["qg"] = TODO,	-- TODO (same as alliance?)
-					["lockCriteria"] = { 1,
-						"achID", 61413,	-- The First Rule of Brawler's Guild [A]
-						"achID", 61414,	-- The First Rule of Brawler's Guild [H]
-					},
+					["qg"] = 252857,	-- Garrulous Gladiator
 					["DisablePartySync"] = true,
-					--["coord"] = { XX.X, YY.Y, DORNOGAL }, (same as alliance?)
+					["coords"] = {
+						{ 51.4, 40.1, DORNOGAL },
+						{ 46.0, 60.8, ORGRIMMAR },
+					},
 				}),
 				q(92740, {	-- Questionable Qualifications
 					["sourceQuest"] = 92715,	-- By Invitation Only?
