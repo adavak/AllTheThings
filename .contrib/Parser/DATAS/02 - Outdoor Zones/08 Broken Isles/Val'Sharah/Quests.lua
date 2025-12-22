@@ -235,6 +235,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["sourceQuests"] = { 38377 },	-- The Emerald Queen
 					["provider"] = { "n", 98584 },	-- Ysera
 					["coord"] = { 52.4, 63.6, VALSHARAH },
+					["groups"] = { i(127273) },	-- Seal of Ysera (QI!)
 				}),
 				q(38655, {	-- Root Cause
 					["sourceQuests"] = { 38641 },	-- The Temple of Elune

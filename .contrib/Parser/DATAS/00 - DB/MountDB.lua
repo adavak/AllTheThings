@@ -2276,6 +2276,7 @@ i(250108, 1250288);	-- Cragstepper Crest-Horn
 i(258515, 1263387);	-- Crimson Lupine
 i(258188, 1262886);	-- Geargrinder Mk. 11
 i(242715, 1233516);	-- K'arroc Swiftwing
+i(260409, 1266248);	-- Savage Crimson Battle Turtle
 i(259463, 1264988);	-- Snowpaw Glimmerfur Prowler
 --- UNSORTED ---
 i(258488, 1263369);	-- Skypaw Glimmerfur
@@ -2345,7 +2346,6 @@ i(0, 1261391);	-- Relinquished Scarlet Charger
 i(246735, 1243597);	-- Rootstalker Grimlynx
 i(252017, 1253938);	-- Ruddy Sporeglider
 i(260635, 1266700);	-- Sanguine Harrower
-i(260409, 1266248);	-- Savage Crimson Battle Turtle
 i(262708, 1269280);	-- Savage Snapvine
 i(248681, 1247422);	-- Scorching Valor
 i(262500, 1268924);	-- Silvermoon's Arcane Defender

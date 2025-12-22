@@ -1749,4 +1749,42 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 			}),
 		})),
 	}),
+	n(YEAR2026, {
+		n(JANUARY, bubbleDownSelf({ ["timeline"] = { "added 11.2.5.64502", "removed 11.2.7.99999" } }, {	-- TODO: Timeline in/out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				iensemble(258266),	-- Ensemble: Vengeful Regalia of the Crusader
+			}),
+			filter(MOUNTS, {
+				traderstender(750, i(212631)),	-- Reins of the Brilliant Sunburst Peafowl (MOUNT!)
+				traderstender(500, i(260409)),	-- Savage Crimson Battle Turtle (MOUNT!)
+			}),
+			filter(BATTLE_PETS, {
+				traderstender(300, i(233361)),	-- Wind-Up Wuffi (PET!)
+			}),
+			filter(COSMETIC, {
+				traderstender(90, i(260422)),	-- Axe of the Crimson Crescent
+				traderstender(40, i(260418)),	-- Basic Crimson Sabatons
+				traderstender(150, i(256725)),	-- Crest of Unending Woe
+				traderstender(50, i(252748)),	-- Crimson Winter Toque
+				traderstender(200, i(253046)),	-- Crusader's Ruby Blade
+				traderstender(230, i(253050)),	-- Crusader's Ruby Greatblade
+				traderstender(230, i(253277)),	-- Crusader's Ruby Greatmace
+				traderstender(200, i(253280)),	-- Crusader's Ruby Mace
+				traderstender(100, iensemble(242478)),	-- Ensemble: Crimson Sweatsuit
+				traderstender(650, iensemble(233328)),	-- Ensemble: Golden Clockwork Attire
+				traderstender(100, iensemble(257979)),	-- Ensemble: Sorcerer's Brick Garb
+				traderstender(440, iensemble(249946)),	-- Ensemble: Villager's City Attire
+				traderstender(440, iensemble(250911)),	-- Ensemble: Villager's City Collection
+				traderstender(260, i(233277)),	-- Golden Clockwork Defender
+				traderstender(300, i(233257)),	-- Golden Clockwork Doomfist
+				traderstender(325, i(233249)),	-- Golden Clockwork Power Hammer
+				traderstender(150, i(260411)),	-- Iron Chainkini
+				traderstender(300, i(233270)),	-- Long-Range Golden Clockstopper
+				traderstender(100, i(251517)),	-- Shield of Unending Woe
+				traderstender(300, i(233273)),	-- Steam-Powered Golden Cloak
+				traderstender(100, i(260934)),	-- Thalassian Archer's Quiver
+				traderstender(80, i(260394)),	-- Thalassian Recruit's Bow
+			}),
+		})),
+	}),
 }));

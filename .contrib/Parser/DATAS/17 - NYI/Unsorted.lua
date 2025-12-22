@@ -5409,27 +5409,21 @@ root(ROOTS.Unsorted, {
 				i(251514),	-- Shield of Unending Sorrow
 				i(251515),	-- Shield of Unending Grief
 				i(251516),	-- Shield of Unending Pain
-				i(251517),	-- Shield of Unending Woe
 				i(253044),	-- Crusader's Emerald Blade
 				i(253045),	-- Crusader's Amethyst Blade
-				i(253046),	-- Crusader's Ruby Blade
 				i(253047),	-- Crusader's Citrine Blade
 				i(253048),	-- Crusader's Emerald Greatblade
 				i(253049),	-- Crusader's Amethyst Greatblade
-				i(253050),	-- Crusader's Ruby Greatblade
 				i(253051),	-- Crusader's Citrine Greatblade
 				i(253274),	-- Crusader's Emerald Greatmace
 				i(253275),	-- Crusader's Amethyst Greatmace
 				i(253276),	-- Crusader's Citrine Greatmace
-				i(253277),	-- Crusader's Ruby Greatmace
 				i(253278),	-- Crusader's Emerald Mace
 				i(253279),	-- Crusader's Amethyst Mace
-				i(253280),	-- Crusader's Ruby Mace
 				i(253281),	-- Crusader's Citrine Mace
 				i(256722),	-- Crest of Unending Sorrow
 				i(256723),	-- Crest of Unending Grief
 				i(256724),	-- Crest of Unending Pain
-				i(256725),	-- Crest of Unending Woe \\ Demoncaller's Citrine Crest
 				i(257425),	-- Anubisath's Green Greatblade
 				i(257426),	-- Anubisath's Red Greatblade
 				i(257427),	-- Anubisath's Golden Greatblade \\ Anubisath's Gold Greatblade
@@ -5445,7 +5439,6 @@ root(ROOTS.Unsorted, {
 				i(257763),	-- Sorcerer's Cloudy Cowl
 				i(257764),	-- Sorcerer's Deep Cowl
 				i(257765),	-- Sorcerer's Camo Cowl
-				i(257766),	-- Sorcerer's Brick Cowl
 				i(257767),	-- Sorcerer's Lively Cowl
 				i(257769),	-- Sorcerer's Faded Cowl
 				i(257770),	-- Sorcerer's Carrot Cowl
@@ -5463,7 +5456,6 @@ root(ROOTS.Unsorted, {
 				i(257783),	-- Sorcerer's Cloudy Cape
 				i(257784),	-- Sorcerer's Deep Cape
 				i(257785),	-- Sorcerer's Camo Cape
-				i(257786),	-- Sorcerer's Brick Cape
 				i(257787),	-- Sorcerer's Lively Cape
 				i(257788),	-- Sorcerer's Faded Cape
 				i(257789),	-- Sorcerer's Carrot Cape
@@ -5481,7 +5473,6 @@ root(ROOTS.Unsorted, {
 				i(257975),	-- Ensemble: Sorcerer's Cloudy Garb \\ Ensemble: Sorcerer's Cloudy Raiment
 				i(257976),	-- Ensemble: Sorcerer's Deep Garb \\ Ensemble: Sorcerer's Deep Raiment
 				i(257978),	-- Ensemble: Sorcerer's Camo Garb \\ Ensemble: Sorcerer's Camo Raiment
-				i(257979),	-- Ensemble: Sorcerer's Brick Garb \\ Ensemble: Sorcerer's Brick Raiment
 				i(257987),	-- Ensemble: Sorcerer's Lively Garb \\ Ensemble: Sorcerer's Lively Raiment
 				i(257989),	-- Ensemble: Sorcerer's Faded Garb \\ Ensemble: Sorcerer's Faded Raiment
 				i(257994),	-- Ensemble: Sorcerer's Carrot Garb \\ Ensemble: Sorcerer's Carrot Raiment
@@ -5512,16 +5503,6 @@ root(ROOTS.Unsorted, {
 				i(258246),	-- Twilight Cloak of the Crusader
 				i(258249),	-- Twilight Chestplate of the Crusader
 				i(258251),	-- Ensemble: Twilight Regalia of the Crusader
-				i(258254),	-- Vengeful Cowl of the Crusader
-				i(258255),	-- Vengeful Mantle of the Crusader
-				i(258256),	-- Vengeful Robe of the Crusader
-				i(258257),	-- Vengeful Belt of the Crusader
-				i(258258),	-- Vengeful Legguards of the Crusader
-				i(258259),	-- Vengeful Boots of the Crusader
-				i(258260),	-- Vengeful Gloves of the Crusader
-				i(258261),	-- Vengeful Cloak of the Crusader
-				i(258263),	-- Vengeful Chestplate of the Crusader
-				i(258266),	-- Ensemble: Vengeful Regalia of the Crusader
 				i(258308),	-- Pious Cowl of the Crusader
 				i(258309),	-- Pious Mantle of the Crusader
 				i(258310),	-- Pious Robe of the Crusader
@@ -5584,7 +5565,6 @@ root(ROOTS.Unsorted, {
 				i(260391),	-- Pale Wooden Shortbow
 				i(260392),	-- Pink Wooden Shortbow
 				i(260393),	-- Purple Wooden Shortbow
-				i(260394),	-- Thalassian Recruit's Bow \\ Red Wooden Shortbow
 				i(260395),	-- Rugged Wooden Shortbow
 				i(260396),	-- Tranquillien Archer's Bow \\ White Wooden Shortbow
 				i(260397),	-- Sea Green Wooden Shortbow
@@ -5596,15 +5576,11 @@ root(ROOTS.Unsorted, {
 				i(260403),	-- South Guard's Copper Chausses
 				i(260404),	-- South Guard's Golden Chausses
 				i(260405),	-- South Guard's Silver Chausses
-				i(260411),	-- Iron Chainkini
 				i(260412),	-- Rusty Chainkini
 				i(260413),	-- Copper Chainkini
 				i(260415),	-- Silver Chainkini
 				i(260416),	-- Gold Chainkini
-				i(260418),	-- Basic Crimson Sabatons
-				i(260422),	-- Axe of the Crimson Crescent \\ Red Flame Axe
 				i(260933),	-- Basic Pink Quiver
-				i(260934),	-- Thalassian Archer's Quiver \\ Basic Red Quiver
 				i(260935),	-- Tranquillien Archer's Quiver \\ Basic White Quiver
 				i(260936),	-- Basic Brown Quiver
 				i(262358),	-- Sindorei Captain's Mantle \\ Crimson Plate Shoulders
@@ -5705,7 +5681,6 @@ root(ROOTS.Unsorted, {
 				i(249386),	-- Ghost Gear
 			}),
 			filter(MOUNTS, {
-				i(260409),	-- Savage Crimson Battle Turtle
 				i(258488),	-- Skypaw Glimmerfur
 				i(260580),	-- Cloudborn Razorwing
 			}),

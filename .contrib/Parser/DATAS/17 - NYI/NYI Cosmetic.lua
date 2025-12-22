@@ -937,12 +937,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242440),	-- Cloudy Sweatpants
 				i(242411),	-- Cloudy Sweatshirt
 
-				------ Crimson Sweatsuit Set ------
-				i(242478),	-- Ensemble: Crimson Sweatsuit
-				q(90653),	-- Ensemble: Crimson Sweatsuit
-				i(242449),	-- Crimson Sweatpants
-				i(242420),	-- Crimson Sweatshirt
-
 				------ Deep Sweatsuit Set ------
 				i(242460),	-- Ensemble: Deep Sweatsuit
 				q(90644),	-- Ensemble: Deep Sweatsuit
@@ -1156,7 +1150,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(249718),	-- Bronze Food Fanatic Backpack
 				i(252741),	-- Camo Winter Toque
 				i(252714),	-- Cloudy Winter Toque
-				i(252748),	-- Crimson Winter Toque
 				i(252715),	-- Deep Winter Toque
 				i(252744),	-- Faded Winter Toque
 				i(249719),	-- Fine Food Fanatic Backpack
@@ -1211,26 +1204,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(249738),	-- Seafarer's Winter Pauldrons
 				i(249862),	-- Seafarer's Winter Spaulders
 				i(249739),	-- Seafarer's Winter Tunic
-
-				------ Villager's City Set 1 ------
-				i(249946),	-- Ensemble: Villager's City Attire
-				q(92117),	-- Ensemble: Villager's City Attire
-				i(249945),	-- Villager's City Boots
-				i(249943),	-- Villager's City Buckle
-				i(249940),	-- Villager's City Cap
-				i(249941),	-- Villager's City Handwraps
-				i(249944),	-- Villager's City Pants
-				i(249942),	-- Villager's City Tunic
-
-				------ Villager's City Set 2 ------
-				i(250911),	-- Ensemble: Villager's City Collection
-				q(92370),	-- Ensemble: Villager's City Collection
-				i(250908),	-- Villager's City Belt
-				i(250907),	-- Villager's City Blouse
-				i(250905),	-- Villager's City Bonnet
-				i(250906),	-- Villager's City Gloves
-				i(250910),	-- Villager's City Sabatons
-				i(250909),	-- Villager's City Skirt
 
 				------ Villager's Forest Set 1 ------
 				i(250888),	-- Ensemble: Villager's Forest Collection

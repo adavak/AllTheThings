@@ -755,6 +755,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			q(56117),	-- Recyclable Parts
 			o(326027, {	-- Recyclerizer DX-82
 				["modelScale"] = 3,
+				["coords"] = {
+					{ 53.4, 61.2, MECHAGON },
+					{ 54.4, 56.4, MECHAGON },
+					{ 55.9, 62.4, MECHAGON },
+					{ 58.7, 59.3, MECHAGON },
+				},
 				["groups"] = {
 					i(168946, {	-- Bundle of Recyclable Parts
 						["cost"] = {
