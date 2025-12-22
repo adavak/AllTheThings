@@ -799,7 +799,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 				q(9612, {	-- A Hearty Thanks!
-					["description"] = "1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob\n.3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.\n\nThis can prove to be impossible on higher level characters.",
+					["description"] = "1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob.\n3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.\n\nThis quest is presumably unobtainable by Warlocks.",
 					["qg"] = 17587,	-- Draenei Youngling
 					["coords"] = {
 						{ 37.6, 18.6, AZUREMYST_ISLE },
