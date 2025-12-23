@@ -81,6 +81,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				q(41211, {	-- Neltharion's Lair: Neltharion's Treasure
 					["isWorldQuest"] = true,
 				}),
+				q(41857, {	-- Neltharion's Lair: Stonedark Slaves
+					["isWorldQuest"] = true,
+				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				cr(91003, e(1662, {	-- Rokmora
