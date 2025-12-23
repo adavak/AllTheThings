@@ -1310,4 +1310,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}),
 		},
 	}),
-})))
+})));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
+	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
+		["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END },
+		["groups"] = {
+			q(93876),	-- Granted when purchasing Strange Humming Crystal from Horos
+		},
+	})),
+}))
