@@ -49,7 +49,7 @@ root(ROOTS.Zones, {
 					["repeatable"] = true,
 					["groups"] = {
 						i(152104, {	-- Highmountain Supplies
-							i(257724, {    -- Bloodtotem Banner (DECOR!)
+							i(257724, {	-- Bloodtotem Banner (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
 							}),
 							i(147807),	-- Highmountain Elderhorn (MOUNT!)

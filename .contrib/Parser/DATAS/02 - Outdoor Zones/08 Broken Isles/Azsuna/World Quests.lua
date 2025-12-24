@@ -83,6 +83,7 @@ root(ROOTS.Zones, {
 				petbattle(q(42146)),	-- Dazed and Confused and Adorable
 				q(44054),	-- Demonicide
 				q(42276, {	-- Disgusting, but Useful
+					i(137330),	-- Manastalker Tendril (QI!)
 					o(250267, {	-- Felsurge Egg
 						["coords"] = {
 							{ 31.8, 44.4, AZSUNA },
