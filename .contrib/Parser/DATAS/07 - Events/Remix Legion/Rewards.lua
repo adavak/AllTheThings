@@ -96,8 +96,34 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		i(253227, {	-- Flawless Thread of Time (Phase 5)
 			-- Flawless Thread of Time drops at max level during the final phase of Legion Remix and can go past the 11.2.5 iLVL cap of 740 up to iLVL 779
-			-- It is possible that Symlink is the same as i253224
-			["timeline"] = { CREATED_11_2_5, ADDED_11_2_7 }
+			["timeline"] = { CREATED_11_2_5, ADDED_11_2_7 },
+			["sym"] = {
+				-- The Emerald Nightmare
+				{"select","instanceID",768},{"pop"},
+				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
+				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
+				{"finalize"},
+
+				-- Trial of Valor
+				-- No Trial of Valor items are in the mote
+
+				-- The Nighthold
+				{"select","instanceID",786},{"pop"},
+				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
+				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
+				{"finalize"},
+
+				-- Tomb of Sargeras
+				{"select","instanceID",875},{"pop"},
+				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
+				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
+				{"finalize"},
+
+				-- Antorus, the Burning Throne
+				{"select","instanceID",946},{"pop"},
+				{"where","difficultyID",14},{"pop"},			-- Normal difficulty
+				{"where","headerID",COMMON_BOSS_DROPS},{"pop"},	-- Common Boss Drops
+			},
 		}),
 
 		------ Misc ------
