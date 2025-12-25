@@ -1055,9 +1055,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 		cl(WARLOCK, bubbleDownSelf({ ["classes"] = { WARLOCK } }, {
 			q(41154),	-- Attacking Revil Kost During Artifact Quest
 			q(42167),	-- Blood Gather Bit -- choose to use dark magic on NPC during q(42128)
-			q(42205),	-- Entrance Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
+			q(42205),	-- Entrance Bit - using Portal to Scenario during "Dark Whispers" (questID 42125)
 			q(40514),	-- Revil convinced
-			q(42203),	-- Ritual Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
+			q(42203),	-- Ritual Bit - using Portal to Scenario during "Dark Whispers" (questID 42125)
 			q(42084),	-- Selecting a Sixth: Kira
 			q(42085),	-- Selecting a Sixth: Lulubelle
 			q(44655),	-- Tracking Quest: 7.0 Class Hall - Warlock - Pacing Mission 1 - completed the "Searching the Archives" mission

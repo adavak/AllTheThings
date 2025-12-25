@@ -1061,7 +1061,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							i(248011, {	-- Trueshot Skeletal Dragon Head (DECOR!)
 								["sourceAchievement"] = 42273,	-- The Huntmaster's Campaign
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] = { { "c", ORDER_RESOURCES, 1500 }  },
+								["cost"] = { { "c", ORDER_RESOURCES, 1500 } },
 							}),
 							i(250126, {	-- Unseen Path Archer's Gallery (DECOR!)
 								["sourceAchievement"] = 60984,	-- Raise an Army for the Trueshot Lodge

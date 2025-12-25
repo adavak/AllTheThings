@@ -787,7 +787,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(34653),	-- Archerus Knight's Wristguard
 							i(250114, {	-- Acherus Worktable (DECOR!)
 								["timeline"] = { ADDED_11_2_7 },
-								["cost"] =  {{ "c", ORDER_RESOURCES, 500 } },
+								["cost"] = { { "c", ORDER_RESOURCES, 500 } },
 							}),
 							i(38662),	-- Bladed Ebon Amulet
 							i(38663),	-- Blood-Soaked Saronite Plated Spaulders

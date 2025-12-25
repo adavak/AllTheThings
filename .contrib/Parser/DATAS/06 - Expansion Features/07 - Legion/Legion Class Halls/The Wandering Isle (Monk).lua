@@ -954,7 +954,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 		cl(MONK, bubbleDownSelf({ ["classes"] = { MONK } }, {
 			q(40127),	-- Da-Nel's Quest - Da-Nel sends you from Dalaran to Peak of Serenity
 			q(40655),	-- Li Li - hopping on kite during "Off to Adventure!" (questID 40633)
-			q(40516),	-- The Dawning Bit -  triggered after accepting "The Dawning Light" (questID 40236)
+			q(40516),	-- The Dawning Bit - triggered after accepting "The Dawning Light" (questID 40236)
 			q(46939, { ["timeline"] = { ADDED_7_2_0 } }),	-- Monk Finale - Ban-Lu mount cutscene
 			q(44646),	-- Tracking Quest: 7.0 Class Hall - Monk - Pacing Mission 1 - Unlocks Ch 2
 			q(44647),	-- Tracking Quest: 7.0 Class Hall - Monk - Pacing Mission 3A-6 - Unlocks Final Quest - completed the "Impending Danger" mission

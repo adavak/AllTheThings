@@ -1202,7 +1202,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(140351),	-- Sunfruit
 						},
 					}),
-					--[[ TODO: Artifact Appearance  Quests Commented Out For Now
+					--[[ TODO: Artifact Appearance Quests Commented Out For Now
 					o(253118, {	-- Dreamgrove Blossoms
 						sp(220679, { i(139554) }),	-- Acorn of the Endless
 					}),

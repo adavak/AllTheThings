@@ -1319,4 +1319,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(93876),	-- Granted when purchasing Strange Humming Crystal from Horos
 		},
 	})),
-}))
+}));
