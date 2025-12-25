@@ -7511,11 +7511,6 @@ root(ROOTS.Unsorted, {
 			i(167737),	-- Thrice-Folded Letter
 			i(167742),	-- Silas' Decanter of Disguise
 			i(167743),	-- Silas' Potion of Prosperity
-			i(167797),	-- Jolt Jerky
-			i(167798),	-- Rubber Ball
-			i(167799),	-- Ironspine Protocol
-			i(167800),	-- Charged Sparkstone
-			i(167801),	-- Voltweave Fez
 			i(167849),	-- Plundered Chestpiece
 			i(167852),	-- Plundered Headgear
 			i(167854),	-- Plundered Shoulderpads
@@ -7531,7 +7526,6 @@ root(ROOTS.Unsorted, {
 			i(167933),	-- Rubber Scraps
 			i(168015),	-- Taster of Rebirth \\ Fel-Tainted Vessel \\ Fel-tainted Vessel
 			i(168019),	-- Obsidian Sigilstone
-			i(168098),	-- Hati Wipe
 			i(168134),	-- Fine Azerite Powder
 			i(168135),	-- Titan's Blood
 			i(168137),	-- Precision Blessing Tools
