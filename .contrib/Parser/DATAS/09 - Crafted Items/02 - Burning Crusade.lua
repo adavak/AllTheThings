@@ -1243,13 +1243,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["maps"] = { NETHERSTORM },
 			}),
 			o(181280, {	-- Nightmare Vine
+				["description"] = "Although this can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
 				["coords"] = {
 					{ 63.9, 68.3, BLADES_EDGE_MOUNTAINS },	-- Death's Door
 					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
 					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
 					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
 				},
-				["description"] = "Although this can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
 				["maps"] = SHADOWMOON_VALLEY,
 			}),
 			o(181275, {	-- Ragveil
@@ -1264,14 +1264,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
 			}),
 			o(181277, {	-- Terocone
+				["description"] = "Found near the base of trees.",
 				["coords"] = {
 					{ 43.4, 55.8, SHADOWMOON_VALLEY },	-- Sketh'lon Base Camp
 					{ 36.5, 32.5, SHADOWMOON_VALLEY },	-- Sketh'lon Wreckage
 					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
 					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
 				},
-				["description"] = "Found near the base of trees.",
-				["maps"] = TEROKKAR_FOREST,
+				["maps"] = { TEROKKAR_FOREST },
 			}),
 		}),
 	}),

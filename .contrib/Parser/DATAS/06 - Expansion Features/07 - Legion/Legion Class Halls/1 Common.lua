@@ -1235,7 +1235,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					un(REMOVED_FROM_GAME, i(143329)),	-- Dire Summons
 					i(140362),	-- Dust from the Shadowlands
 					un(REMOVED_FROM_GAME, i(143479)),	-- Frayed Banner
+					-- #if BEFORE 11.2.7
 					un(REMOVED_FROM_GAME, i(142522)),	-- Rude Letter (CI!) (removed until Brawler's Guild comes back someday)
+					-- #else
+						i(142522),	-- Rude Letter (CI!)
+					-- #endif
 					i(116415, { ["timeline"] = { REMOVED_10_2_5 } }),	-- Shiny Pet Charm
 					-- Dungeons
 					un(REMOVED_FROM_GAME, i(139471)),	-- Black Rook Missive -> Black Rook Hold: The Lord of Black Rook Hold -> Black Rook Hold

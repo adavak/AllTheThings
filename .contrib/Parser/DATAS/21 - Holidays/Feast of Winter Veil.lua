@@ -1140,7 +1140,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				{ "o", 180743 },	-- Carefully Wrapped Present
 				{ "i", 21191 },	-- Carefully Wrapped Present
 			},
-			["maps"] = { IRONFORGE, ORGRIMMAR },
+			["coords"] = {
+				{ 33.5, 66.5, IRONFORGE },
+				{ 49.5, 78.5, ORGRIMMAR },
+			},
 			["isYearly"] = true,
 			["_drop"] = { "g" },
 			["groups"] = {
@@ -1164,20 +1167,24 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				{ "o", 180793 },	-- Festive Gift
 				{ "i", 21363 },	-- Festive Gift
 			},
-			["maps"] = { IRONFORGE, ORGRIMMAR },
+			["coords"] = {
+				{ 33.6, 66.1, IRONFORGE },
+				{ 49.6, 77.7, ORGRIMMAR },
+			},
 			["isYearly"] = true,
 			["lvl"] = 10,
 			["_drop"] = { "g" },
-			["groups"] = {
-				i(21328),	-- Wand of Holiday Cheer
-			},
+			["groups"] = { i(21328) },	-- Wand of Holiday Cheer
 		}),
 		q(8768, {	-- A Gaily Wrapped Present
 			["providers"] = {
 				{ "o", 180747 },	-- Gaily Wrapped Present
 				{ "i", 21310 },	-- Gaily Wrapped Present
 			},
-			["maps"] = { IRONFORGE, ORGRIMMAR },
+			["coords"] = {
+				{ 33.6, 66.3, IRONFORGE },
+				{ 49.6, 78.2, ORGRIMMAR },
+			},
 			["isYearly"] = true,
 			["lvl"] = 20,
 			["_drop"] = { "g" },
@@ -1431,18 +1438,22 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				{ "o", 180746 },	-- Gently Shaken Gift
 				{ "i", 244906 },	-- Gently Shaken Gift
 			},
-			["maps"] = { IRONFORGE, ORGRIMMAR },
-			["_drop"] = { "g" },
-			["groups"] = {
-				i(245580),	-- Rolling Snowball (TOY!)
+			["coords"] = {
+				{ 33.4, 65.6, IRONFORGE },
+				{ 49.5, 78.7, ORGRIMMAR },
 			},
+			["_drop"] = { "g" },
+			["groups"] = { i(245580) },	-- Rolling Snowball (TOY!)
 		})),
 		q(8769, {	-- A Ticking Present
 			["providers"] = {
 				{ "o", 180748 },	-- Ticking Present
 				{ "i", 21327 },	-- Ticking Present
 			},
-			["maps"] = { IRONFORGE, ORGRIMMAR },
+			["coords"] = {
+				{ 33.6, 66.5, IRONFORGE },
+				{ 49.5, 78.7, ORGRIMMAR },
+			},
 			["isYearly"] = true,
 			["lvl"] = 40,
 			["_drop"] = { "g" },

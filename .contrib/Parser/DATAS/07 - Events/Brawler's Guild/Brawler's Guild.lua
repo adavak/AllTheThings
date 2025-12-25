@@ -27,7 +27,7 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 	["groups"] = {
 		n(ACHIEVEMENTS, {
 			ach(7944, {		-- Bottle Service (Season 1 & 2)
-				["timeline"] = { ADDED_5_1_0, REMOVED_7_0_3 },
+				["timeline"] = { ADDED_5_1_0, REMOVED_7_0_3, ADDED_11_2_7 },
 			}),
 			ach(13191, {	-- Brawler for Azeroth (Alliance)
 				["races"] = ALLIANCE_ONLY,
