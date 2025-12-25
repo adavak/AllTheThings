@@ -1519,7 +1519,6 @@ i(263489);	-- Naaru's Enfold
 -- PATCH 11.2.7 --
 ------------------
 i(242520);	-- Festival Hot Air Balloon
---- UNSORTED ---
 i(243304);	-- Jubilant Snowman Costume
 i(245580);	-- Rolling Snowball
 

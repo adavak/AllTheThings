@@ -4513,6 +4513,7 @@ i(252193, 4896);	-- Slippery Saul
 -- PATCH 11.2.7 --
 ------------------
 i(254876, 4911);	-- P.O.S.T. Assistant
+i(245544, 4851);	-- Tiny Snow Buddy
 
 ------------------
 -- PATCH 12.0.0 --
@@ -4586,7 +4587,6 @@ i(262390, 4953);	-- Sporbie
 i(262342, 4956);	-- Spormilian
 i(251004, 3364);	-- Striped Snakebiter
 i(267838, 5003);	-- Sunwing Hatchling
-i(245544, 4851);	-- Tiny Snow Buddy
 i(259337, 4929);	-- Vermillion Grovecrawler
 i(264434, 4976);	-- Voldy
 i(221495, 4497);	-- Waddles

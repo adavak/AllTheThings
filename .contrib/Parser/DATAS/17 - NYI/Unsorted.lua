@@ -5395,9 +5395,6 @@ root(ROOTS.Unsorted, {
 				i(259025),	-- Azure Guardian's Claymore \\ RENAME 2H Sword
 				i(259026),	-- Azure Guardian's Polearm \\ RENAME Polearm
 			}),
-			filter(BATTLE_PETS, {
-				i(245544),	-- Tiny Snow Buddy
-			}),
 			filter(COSMETIC, {
 				i(250309),	-- Simple Dagger \\ [PH] Simple Dagger
 				i(250310),	-- Simple Knife \\ [PH] Simple Knife
@@ -5663,8 +5660,6 @@ root(ROOTS.Unsorted, {
 				i(243218),	-- Pristine Blushleaf Shell
 				i(243226),	-- Glimmering Elemental Core
 				i(243228),	-- Dim Elemental Essence
-				i(244906),	-- Gently Shaken Gift
-				i(244908),	-- Winter Veil Gift
 				i(252990),	-- Drustvar Candies
 				i(260429),	-- Crescent Cove Crab
 				i(260519),	-- Farm Carrots
@@ -5772,10 +5767,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(TIMEWALKING_HEADER, {	-- Timewalking Shadowlands
 				i(254693),	-- Distilled Knowledge of Timeways
-			}),
-			filter(TOYS, {
-				i(243304),	-- Jubilant Snowman Costume
-				i(245580),	-- Rolling Snowball
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5 } }, {

@@ -841,6 +841,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["provider"] = { "i", 218310 },	-- Box of Puntables (TOY!)
 			["timeline"] = { ADDED_11_0_7 },
 		}),
+		ach(42192, {	-- Snowball Fight (2025)
+			["provider"] = { "i", 243304 },	-- Jubilant Snowman Costume (TOY!)
+			["timeline"] = { ADDED_11_2_7 },
+		}),
 	}),
 	-- #if AFTER 7.3.0.24727
 	filter(BATTLE_PETS, {
@@ -1421,6 +1425,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				}),
 			},
 		})),
+		q(91041, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, "removed 11.2.7.99999" } }, {	-- A Gently Shaken Gift (2025)
+			["description"] = "Gift from 2025.",
+			["providers"] = {
+				{ "o", 180746 },	-- Gently Shaken Gift
+				{ "i", 244906 },	-- Gently Shaken Gift
+			},
+			["maps"] = { IRONFORGE, ORGRIMMAR },
+			["_drop"] = { "g" },
+			["groups"] = {
+				i(245580),	-- Rolling Snowball (TOY!)
+			},
+		})),
 		q(8769, {	-- A Ticking Present
 			["providers"] = {
 				{ "o", 180748 },	-- Ticking Present
@@ -1781,6 +1797,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["groups"] = {
 				i(218310),	-- Box of Puntables (TOY!)
 				i(232653),	-- Portentous Present (PET!)
+			},
+		})),
+		q(91042, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7, "removed 11.2.7.99999" } }, {	-- A Winter Veil Gift (2025)
+			["description"] = "Gift from 2025.",
+			["providers"] = {
+				{ "o", 187236 },	-- Winter Veil Gift
+				{ "i", 244908 },	-- Winter Veil Gift
+			},
+			["maps"] = { IRONFORGE, ORGRIMMAR },
+			["lvl"] = 10,
+			["_drop"] = { "g" },
+			["groups"] = {
+				i(243304),	-- Jubilant Snowman Costume (TOY!)
+				i(245544),	-- Tiny Snow Buddy (PET!)
 			},
 		})),
 		q(7022, {	-- Greatfather Winter is Here! (Alliance)
@@ -2404,11 +2434,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			i(192093, {	-- Gently Shaken Gift
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 			}),
-			i(210657, {	-- Gently Shaken
+			i(210657, {	-- Gently Shaken Gift
 				["timeline"] = { ADDED_10_2_0 },
 			}),
-			i(218309, {	-- Gently Shaken
+			i(218309, {	-- Gently Shaken Gift
 				["timeline"] = { ADDED_11_0_7 },
+			}),
+			i(244906, {	-- Gently Shaken Gift
+				["timeline"] = { ADDED_11_2_7 },
 			}),
 		}),
 		o(341827, {	-- Greatfeather Pepe
@@ -2434,6 +2467,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			}),
 			i(218311, {	-- Winter Veil Gift
 				["timeline"] = { ADDED_11_0_7 },
+			}),
+			i(244908, {	-- Winter Veil Gift
+				["timeline"] = { ADDED_11_2_7 },
 			}),
 		}),
 	}),

@@ -1,5 +1,4 @@
 11.2.7.63642
-ach(42192),	-- Snowball Fight!
 ach(61516),	-- Radiant Singer
 12.0.0.63534
 ach(41293),	-- The Restless Heart kills (Normal Windrunner Spire) \\ [PH] Restless Heart kills (Normal Windrunner Spire)
