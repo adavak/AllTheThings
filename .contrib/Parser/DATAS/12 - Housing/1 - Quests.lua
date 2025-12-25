@@ -105,6 +105,15 @@ root(ROOTS.Housing, n(QUESTS, {
 			},
 			["groups"] = { i(248116) },	-- Valdrakken Chandelier (DECOR!)
 		}),
+		q(92580, {	-- Spare A Chair
+			["qg"] = 252312,	-- Second Chair Pawdo
+			["coords"] = {
+				{ 52.9, 68.0, DORNOGAL },
+				{ 52.9, 89.0, ORGRIMMAR },
+				{ 56.1, 77.1, STORMWIND_CITY },
+			},
+			["groups"] = { i(246487) },	-- Gnomish Tesla Coil (DECOR!)
+		}),
 		-- Repeatables
 		q(92608, {	-- Furniture Favor
 			["qg"] = 252717,	-- Corlen Hordralin
