@@ -11,67 +11,67 @@ root(ROOTS.Housing, prof(DYE_CRAFTING, {
 	},
 	["groups"] = {
 		n(CRAFTABLES, {
-			i(258838),	-- Gold Dye
-			i(259053),	-- Warm Teak Dye
+			i(259115),	-- Alliance Blue Dye
+			i(259131),	-- Arcwine Dye
 			i(259078),	-- Basic Birch Dye
-			i(259096),	-- Mesquite Brown Dye
-			i(259097),	-- Pinewood Dye
-			i(259098),	-- Darkwood Dye
-			i(259099),	-- Highland Birch Dye
-			i(259100),	-- Holy Oak Tan Dye
-			i(259101),	-- Pale Umber Dye
-			i(259102),	-- Mahogany Dye
-			i(259103),	-- Heartwood Dye
-			i(259104),	-- Stormsteel Dye
-			i(259105),	-- Copper Dye
-			i(259106),	-- Zandalari Gold Dye
+			i(259120),	-- Bone-White Dye
 			i(259107),	-- Brass Dye
 			i(259108),	-- Bronze Dye
+			i(259105),	-- Copper Dye
 			i(259109),	-- Dark Iron Dye
-			i(259110),	-- Kul Tiran Steel Dye
-			i(259111),	-- Ironclaw Dye
-			i(259113),	-- Horde Red Dye
-			i(259114),	-- Lush Green Dye
-			i(259115),	-- Alliance Blue Dye
-			i(259116),	-- Kirin Tor Violet Dye
-			i(259117),	-- Sandfury Yellow Dye
-			i(259118),	-- Elwynn Pumpkin Dye
-			i(259119),	-- Netherstorm Fuchsia Dye
-			i(259120),	-- Bone-White Dye
-			i(259121),	-- Obsidium Black Dye
+			i(259098),	-- Darkwood Dye
+			i(259151),	-- Deep Mageroyal Red Dye
+			i(259153),	-- Dusk Lily Grey Dye
+			i(259133),	-- Dustwallow Green Dye
 			i(259122),	-- Earthen Brown Dye
-			i(259123),	-- Stormheim Grey Dye
+			i(259150),	-- Earthroot Dye
+			i(259118),	-- Elwynn Pumpkin Dye
+			i(259134),	-- Emerald Dreaming Dye
+			i(259127),	-- Firebloom Red Dye
+			i(259144),	-- Forsaken Plum Dye
+			i(259139),	-- Gilnean Rose Dye
+			i(258838),	-- Gold Dye
+			i(259143),	-- Gravemoss Green Dye
+			i(259147),	-- Grizzly Hills Green Dye
+			i(259103),	-- Heartwood Dye
+			i(259149),	-- Highborne Marble Dye
+			i(259099),	-- Highland Birch Dye
+			i(259152),	-- Hinterlands Hickory Dye
+			i(259100),	-- Holy Oak Tan Dye
+			i(259113),	-- Horde Red Dye
+			i(259111),	-- Ironclaw Dye
+			i(259128),	-- Kalimdor Sand Dye
+			i(259116),	-- Kirin Tor Violet Dye
+			i(259132),	-- Kodohide Brown Dye
+			i(259110),	-- Kul Tiran Steel Dye
+			i(259114),	-- Lush Green Dye
+			i(259102),	-- Mahogany Dye
+			i(259096),	-- Mesquite Brown Dye
+			i(259135),	-- Midnight Blue Dye
+			i(259140),	-- Moonberry Amethyst Dye
+			i(259146),	-- Nazjatar Navy Dye
+			i(259119),	-- Netherstorm Fuchsia Dye
+			i(259130),	-- Nightsong Lilac Dye
+			i(259121),	-- Obsidium Black Dye
+			i(259101),	-- Pale Umber Dye
+			i(259097),	-- Pinewood Dye
+			i(259154),	-- Rain Poppy Red Dye
+			i(259142),	-- Ratchet Rust Dye
+			i(259117),	-- Sandfury Yellow Dye
+			i(259138),	-- Savannah Gold Dye
 			i(259124),	-- Silversage Green Dye
+			i(259123),	-- Stormheim Grey Dye
+			i(259104),	-- Stormsteel Dye
+			i(259137),	-- Sungrass Yellow Dye
+			i(259148),	-- Tidesage Teal Dye
+			i(259145),	-- Timbermaw Brown Dye
 			i(259125),	-- Un'Goro Green Dye
 			i(259126),	-- Void Violet Dye
-			i(259127),	-- Firebloom Red Dye
-			i(259128),	-- Kalimdor Sand Dye
-			i(259129),	-- Zephras Blue Dye
-			i(259130),	-- Nightsong Lilac Dye
-			i(259131),	-- Arcwine Dye
-			i(259132),	-- Kodohide Brown Dye
-			i(259133),	-- Dustwallow Green Dye
-			i(259134),	-- Emerald Dreaming Dye
-			i(259135),	-- Midnight Blue Dye
-			i(259136),	-- Vortex Teal Dye
-			i(259137),	-- Sungrass Yellow Dye
-			i(259138),	-- Savannah Gold Dye
-			i(259139),	-- Gilnean Rose Dye
-			i(259140),	-- Moonberry Amethyst Dye
 			i(259141),	-- Vol'dun Taupe Dye
-			i(259142),	-- Ratchet Rust Dye
-			i(259143),	-- Gravemoss Green Dye
-			i(259144),	-- Forsaken Plum Dye
-			i(259145),	-- Timbermaw Brown Dye
-			i(259146),	-- Nazjatar Navy Dye
-			i(259147),	-- Grizzly Hills Green Dye
-			i(259148),	-- Tidesage Teal Dye
-			i(259149),	-- Highborne Marble Dye
-			i(259150),	-- Earthroot Dye
-			i(259151),	-- Deep Mageroyal Red Dye
-			i(259152),	-- Hinterlands Hickory Dye
-			i(259153),	-- Dusk Lily Grey Dye
-			i(259154),	-- Rain Poppy Red Dye
+			i(259136),	-- Vortex Teal Dye
+			i(259053),	-- Warm Teak Dye
+			i(259106),	-- Zandalari Gold Dye
+			i(259129),	-- Zephras Blue Dye
 		}),
 		filter(RECIPES, {
 			r(1264719),	-- Alliance Blue Dye
