@@ -2382,6 +2382,7 @@ MobileDB.GameObject = {
 	[525100] = true,	-- Fragrant Dreaming Glory q(88669, 88981)
 	[525110] = true,	-- Stove
 	[525189] = true,	-- Portal to the Oasis
+	[525823] = true,	-- Sureki Shadecaster
 	[526951] = true,	-- Challenger's Cache (Operation: Floodgate)
 	[526959] = true,	-- Challenger's Cache (Priory of the Sacred Flame)
 	[526962] = true,	-- Challenger's Cache (The Dawnbreaker)
