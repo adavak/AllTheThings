@@ -5762,7 +5762,6 @@ root(ROOTS.Unsorted, {
 				i(252947),	-- Honeycomb
 				i(229913),	-- Letter from Aysa
 				i(252423),	-- Truffles
-				i(265822),	-- Unstable Mechagon Re-Localizatron
 			}),
 			n(TIMEWALKING_HEADER, {	-- Timewalking Shadowlands
 				i(254693),	-- Distilled Knowledge of Timeways

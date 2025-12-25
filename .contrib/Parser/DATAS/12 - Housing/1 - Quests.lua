@@ -112,7 +112,10 @@ root(ROOTS.Housing, n(QUESTS, {
 				{ 52.9, 89.0, ORGRIMMAR },
 				{ 56.1, 77.1, STORMWIND_CITY },
 			},
-			["groups"] = { i(246487) },	-- Gnomish Tesla Coil (DECOR!)
+			["groups"] = {
+				i(246487),	-- Gnomish Tesla Coil (DECOR!)
+				i(265822),	-- Unstable Mechagon Re-Localizatron (QI!)
+			},
 		}),
 		-- Repeatables
 		q(92608, {	-- Furniture Favor
