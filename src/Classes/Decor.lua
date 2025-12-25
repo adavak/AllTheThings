@@ -55,7 +55,7 @@ do
 					-- numStored is currently gone on PTR/Beta
 					if not state.numStored then
 						if state.quantity > 100000 then state.quantity = 0 end
-						state.numStored = statestate.remainingRedeemable + state.quantity
+						state.numStored = state.remainingRedeemable + state.quantity
 					end
 
 					saved[id] = true
