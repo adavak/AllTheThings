@@ -657,6 +657,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 101195 },	-- Rensar Greathoof
 						["coord"] = { 44.5, 51.1, THE_DREAMGROVE },
+						["groups"] = { i(134550) },	-- The Seed of Ages (QI!)
 					}),
 					q(40651, {	-- The Seed of Ages
 						["sourceQuests"] = { 41255 },	-- Sowing The Seed
@@ -699,7 +700,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42096, {	-- Champion: Naralex
 						["sourceQuests"] = { 42583 },	-- Rise, Champions
 						["provider"] = { "n", 103778 },	-- Naralex
-						["coord"] = { 67.2, 75.8, THE_DREAMGROVE },
+						["coord"] = { 44.5, 51.4, THE_DREAMGROVE },
 						["groups"] = { follower(639) },	-- Naralex
 					}),
 					q(40650, {	-- Champion: Zen'tabra
@@ -712,6 +713,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42583 },	-- Rise, Champions
 						["provider"] = { "n", 98002 },	-- Skylord Omnuron
 						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+						["groups"] = { i(138120) },	-- Sister Lilith (QI!)
 					}),
 					q(42585, {	-- Recruiting the Troops
 						["sourceQuests"] = { 42584 },	-- Sister Lilith
@@ -722,6 +724,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42585 },	-- Recruiting the Troops
 						["provider"] = { "n", 98002 },	-- Skylord Omnuron
 						["coord"] = { 52.6, 51.4, THE_DREAMGROVE },
+						["groups"] = { i(138121) },	-- Inscribed Leaf of Wisdom (QI!)
 					}),
 					q(42588, {	-- Branching Out
 						["sourceQuests"] = { 42586 },	-- A Glade Defense

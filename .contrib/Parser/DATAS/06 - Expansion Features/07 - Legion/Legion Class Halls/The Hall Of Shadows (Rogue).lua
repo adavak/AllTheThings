@@ -60,6 +60,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								},
 								["sourceQuestNumRequired"] = 1,
 								["provider"] = { "n", 92218 },	-- Thrymjaris <Mother of the Thorignir>
+								["coord"] = { 40.8, 80.8, STORMHEIM },
 								["groups"] = {
 									i(139536, {	-- Emanation of the Winds
 										artifact(881),	-- The Dreadblades [Main Hand]
@@ -1070,7 +1071,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["groups"] = { i(139584) },	-- Sticky Bombs
 							}),
 							o(252272, {	-- Smoky Boots
-								i(139592),	-- Smoky Boots
+								["coord"] = { 37.7, 57.6, THE_HALL_OF_SHADOWS },
+								["groups"] = { i(139592) },	-- Smoky Boots
 							}),
 							o(252282, {	-- Sparkling Set of Keys
 								["coord"] = { 37.3, 59.6, THE_HALL_OF_SHADOWS },

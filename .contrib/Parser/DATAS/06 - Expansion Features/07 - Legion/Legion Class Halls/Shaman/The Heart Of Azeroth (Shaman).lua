@@ -186,9 +186,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								44006,	-- Your Fullest Potential
 							},
 							["sourceQuestNumRequired"] = 1,
-							["provider"] = { "n", 96539 },	-- Stormcaller Mylra
+							["qgs"] = {
+								96539,	-- Stormcaller Mylra
+								105461,	-- Stormcaller Mylra
+							},
 							["coords"] = {
-								{ 34.5, 76.1, 725 },	-- The Maelstrom (Scenario Map)
+								{ 35.8, 77.0, 725 },	-- The Maelstrom (Scenario Map)
 								{ 34.5, 76.1, THE_HEART_OF_AZEROTH },
 							},
 						}),

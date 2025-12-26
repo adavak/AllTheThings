@@ -804,17 +804,35 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				-- The Ring of Blood
 				q(36219, {	-- Garrison Campaign: The Ring of Blood
 					["description"] = "Offered if you have NOT completed |cFFFFD700The Ring of Trials|r in Nagrand or the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
-					["provider"] = { "o", 234243 },	-- Overly Gaudy Note [H Tier 2]
-					["coord"] = { 42.9, 50.2, FROSTWALL },	-- [H Tier 2]
+					["provider"] = { "o", 234243 },	-- Overly Gaudy Note
+					["coords"] = {
+						{ 34.4, 32.8, LUNARFALL },
+						{ 43.8, 48.1, FROSTWALL },
+					},
 				}),
 				q(36280, {	-- Garrison Campaign: The Ring of Blood
 					["description"] = "Offered if you complete |cFFFFD700The Ring of Trials|r in Nagrand.",
+					["provider"] = { "o", 234243 },	-- Overly Gaudy Note
+					["coords"] = {
+						{ 34.4, 32.8, LUNARFALL },
+						{ 43.8, 48.1, FROSTWALL },
+					},
 				}),
 				q(36281, {	-- Garrison Campaign: The Ring of Blood
 					["description"] = "Offered if you complete the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
+					["provider"] = { "o", 234243 },	-- Overly Gaudy Note
+					["coords"] = {
+						{ 34.4, 32.8, LUNARFALL },
+						{ 43.8, 48.1, FROSTWALL },
+					},
 				}),
 				q(36282, {	-- Garrison Campaign: The Ring of Blood
 					["description"] = "Offered if you complete |cFFFFD700The Ring of Trials|r in Nagrand and the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
+					["provider"] = { "o", 234243 },	-- Overly Gaudy Note
+					["coords"] = {
+						{ 34.4, 32.8, LUNARFALL },
+						{ 43.8, 48.1, FROSTWALL },
+					},
 				}),
 				q(36220, {	-- How Tough Are You?
 					["sourceQuests"] = { 36219, 36280, 36281, 36282 },	-- Garrison Campaign: The Ring of Blood (4 different versions... come on, blizzard)

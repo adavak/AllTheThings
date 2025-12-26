@@ -2129,9 +2129,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["races"] = ALLIANCE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = 40,
-			["groups"] = {
-				i(21213),	-- Preserved Holly
-			},
+			["groups"] = { i(21213) },	-- Preserved Holly
 		}),
 		q(8799, {	-- The Hero of the Day (Horde)
 			["description"] = 'Requires Cooking Skill Level 300',
@@ -2151,9 +2149,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["races"] = HORDE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = 40,
-			["groups"] = {
-				i(21213),	-- Preserved Holly
-			},
+			["groups"] = { i(21213) },	-- Preserved Holly
 		}),
 		q(7062, {	-- The Reason for the Season (Alliance)
 			["qg"] = 1365,	-- Goli Krumn
@@ -2161,19 +2157,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["races"] = ALLIANCE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = 10,
-			["groups"] = {
-				i(17735),	-- The Feast of Winter Veil (QI!)
-			},
+			["groups"] = { i(17735)	},	-- The Feast of Winter Veil (QI!)
 		}),
 		q(6964, {	-- The Reason for the Season (Horde)
 			["qg"] = 9550,	-- Furmund
-			["coord"] = { 51.0, 65.4, ORGRIMMAR },
+			["coord"] = { 51.0, 71.1, ORGRIMMAR },
 			["races"] = HORDE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = 10,
-			["groups"] = {
-				i(17735),	-- The Feast of Winter Veil (QI!)
-			},
+			["groups"] = { i(17735)	},	-- The Feast of Winter Veil (QI!)
 		}),
 		{	-- Treats for Greatfather Winter
 			["allianceQuestData"] = q(7025, {	-- Treats for Greatfather Winter (Alliance)
