@@ -81,6 +81,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					116839,	-- Corrupting Shadows
 				},
 				["groups"] = {
+					i(142502),	-- Empowered Portal Stone (QI!)
 					artifact(383, {	-- Blades of the Fallen Prince
 						["classes"] = { DEATHKNIGHT },
 					}),

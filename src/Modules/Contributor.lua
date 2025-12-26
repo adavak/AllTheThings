@@ -1379,6 +1379,7 @@ MobileDB.GameObject = {
 	[251959] = true,	-- Ancient Elven Chest (q:43251)
 	[251960] = true,	-- The Raven's Eye Tablet (q:43253)
 	[252010] = true,	-- Crystallized Bough (q:43361)
+	[252017] = true,	-- The Raven's Eye (q:42680)
 	[252074] = true,	-- Basket of Root Vegetables (q:38331)
 	[252076] = true,	-- Barrel of Krabs
 	[252080] = true,	-- Hearty Vrykul Grains
