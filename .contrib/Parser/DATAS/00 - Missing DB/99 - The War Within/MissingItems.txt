@@ -23314,7 +23314,6 @@ i(139543),	-- Broken Tiller \\ en Tiller
 i(139544),	-- Deteriorating Tideskorn War Banner \\ riorating Tideskorn War Banner
 i(139545),	-- Rusted Mariner's Bell \\ ed Mariner's Bell
 i(139583),	-- Demonic Rune \\ nic Rune
-i(139585),	-- Smoke Powder \\ e Powder
 i(139608),	-- Brittle Spelltome \\ tle Spelltome
 i(139609),	-- Depleted Cadet's Wand \\ eted Cadet's Wand
 i(139610),	-- Musty Azsharan Grimoire \\ y Azsharan Grimoire
