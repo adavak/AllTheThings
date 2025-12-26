@@ -171,7 +171,7 @@ root(ROOTS.Housing, m(RAZORWIND_SHORES, {
 				["groups"] = { i(245398) },	-- Tusked Fireplace (DECOR!)
 			}),
 			q(93111, {	-- Decor Treasure Hunt
-				["description"] = "In a cave",
+				["description"] = "Inside the cave.",
 				["coords"] = {
 					{ 40.0, 73.0, RAZORWIND_SHORES },	-- Cave entrance
 					{ 39.5, 70.2, RAZORWIND_SHORES },	-- Treasure
@@ -187,6 +187,7 @@ root(ROOTS.Housing, m(RAZORWIND_SHORES, {
 				["groups"] = { i(246868) },	-- Wide Hide-Covered Bench (DECOR!)
 			}),
 			q(93132, {	-- Decor Treasure Hunt
+				["description"] = "Under the water.",
 				["coord"] = { 42.6, 50.4, RAZORWIND_SHORES },	-- Treasure
 				["groups"] = { i(246869) },	-- Razorwind Wall Mirror (DECOR!)
 			}),
@@ -247,7 +248,7 @@ root(ROOTS.Housing, m(RAZORWIND_SHORES, {
 				["groups"] = { i(243495) },	-- Elegant Padded Divan (DECOR!)
 			}),
 			q(93150, {	-- Decor Treasure Hunt
-				["description"] = "In a cave",
+				["description"] = "Inside the cave.",
 				["coords"] = {
 					{ 39.7, 57.8, RAZORWIND_SHORES },	-- Cave entrance
 					{ 39.3, 57.6, RAZORWIND_SHORES },	-- Treasure

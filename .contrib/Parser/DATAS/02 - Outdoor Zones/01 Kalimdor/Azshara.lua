@@ -1036,6 +1036,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(45570, {	-- In Safer Hands
+					["sourceQuest"] = 44925,	-- Closing the Eye
 					["qg"] = 117252,	-- Archmage Xylem
 					["coord"] = { 25.2, 38.0, AZSHARA },
 					["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1 },

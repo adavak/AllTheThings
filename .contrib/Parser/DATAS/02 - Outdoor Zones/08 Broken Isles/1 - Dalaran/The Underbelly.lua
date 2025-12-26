@@ -24,6 +24,38 @@ root(ROOTS.Zones, {
 					petbattle(filter(BATTLE_PETS, {
 						pet(1915),	-- Blind Rat (PET!)
 					})),
+					n(QUESTS, {
+						q(43473, {	-- Experimental Potion: Test Subjects Needed
+							["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+							["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
+							["isDaily"] = true,
+						}),
+						q(43474, {	-- Experimental Potion: Test Subjects Needed
+							["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+							["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
+							["isDaily"] = true,
+						}),
+						q(43475, {	-- Experimental Potion: Test Subjects Needed
+							["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+							["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
+							["isDaily"] = true,
+						}),
+						q(43477, {	-- Experimental Potion: Test Subjects Needed
+							["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+							["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
+							["isDaily"] = true,
+						}),
+						q(43476, {	-- Experimental Potion: Test Subjects Needed
+							["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+							["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
+							["isDaily"] = true,
+						}),
+						q(43478, {	-- Experimental Potion: Test Subjects Needed
+							["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+							["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
+							["isDaily"] = true,
+						}),
+					}),
 					n(VENDORS, {
 						n(106056, {	-- Charles Seaton
 							["coord"] = { 74.2, 54.8, LEGION_THE_UNDERBELLY },

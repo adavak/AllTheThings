@@ -2540,6 +2540,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(41820, { ["name"] = "Walk Without Rhythm", }),	-- Walk Without Rhythm
 			q(40590, { ["name"] = "Warrior Inbound", }),	-- Warrior Inbound
 			q(37927, { ["name"] = "We Meet at Light's Hope", }),	-- We Meet at Light's Hope
+			q(44115, { ["name"] = "Welcome to Legion!", }),	-- Welcome to Legion!
 			q(37930, { ["name"] = "Whelp? That Happened.", }),	-- Whelp? That Happened.
 			q(41559, { ["name"] = "Where's Our Wine? - Tracking", }),	-- Where's Our Wine? - Tracking
 			q(41832, { ["name"] = "White Water Terror", }),	-- White Water Terror
