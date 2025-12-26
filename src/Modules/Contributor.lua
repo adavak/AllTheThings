@@ -2419,6 +2419,7 @@ MobileDB.GameObject = {
 	[546928] = true,	-- Dornic Fir Lumber
 	[546955] = true,	-- Dragonpine Lumber
 	[547258] = true,	-- Dragonpine Lumber
+	[547286] = true,	-- Snow Patch
 	[547487] = true,	-- Dragonpine Lumber
 	[547532] = true,	-- Ky'veza's Etheric Cache
 	[547740] = true,	-- Dragonpine Lumber
