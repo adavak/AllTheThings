@@ -58,8 +58,13 @@ do
 						state.numStored = state.remainingRedeemable + state.quantity
 					end
 
-					saved[id] = true
-					added[#added + 1] = id
+					local sum = state.numStored + state.numPlaced
+					if sum > 0 then
+						saved[id] = true
+						added[#added + 1] = id
+					else
+						none[id] = true
+					end
 				end
 			end
 		end
