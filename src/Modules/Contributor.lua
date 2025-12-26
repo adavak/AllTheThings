@@ -2205,6 +2205,7 @@ MobileDB.GameObject = {
 	[454311] = true,	-- Redberry
 	[454312] = true,	-- Redberry
 	[455759] = true,	-- Hulking Raptorial Claw
+	[456100] = true,	-- Blacksteel Cannonballs (q:83753)
 	[456665] = true,	-- Ore Sample
 	[456781] = true,	-- Darkfuse Safe
 	[457143] = true,	-- Kaja'Cola Can
