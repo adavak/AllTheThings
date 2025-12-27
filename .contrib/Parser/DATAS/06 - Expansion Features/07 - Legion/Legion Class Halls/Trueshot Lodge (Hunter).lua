@@ -898,7 +898,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						-- TODO: ko = "",
 						-- TODO: pt = "",
 						-- TODO: ru = "",
-						-- TODO: cn = "",
+						cn = "哈提的后裔",
 						-- TODO: tw = "",
 					},
 				}), {
