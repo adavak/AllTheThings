@@ -217,6 +217,26 @@ DIABLO_IV = createHeader({
 		en = "Granted to owners of Diablo IV Base Version.",
 	},
 });
+DIABLO_IV_LORD_OF_HATRED = createHeader({
+	readable = "Diablo IV: Lord of Hatred",
+	icon = 1529348,
+	text = {
+		en = "Diablo IV: Lord of Hatred",
+		-- TODO: de = "",
+		-- TODO: es = "",
+		-- TODO: mx = "",
+		-- TODO: fr = "",
+		-- TODO: it = "",
+		-- TODO: ko = "",
+		-- TODO: pt = "",
+		-- TODO: ru = "",
+		-- TODO: cn = "",
+		-- TODO: tw = "",
+	},
+	description = {
+		en = "Granted to owners of Diablo IV: Lord of Hatred Standard Edition.",
+	},
+});
 OVERWATCH_ORIGINS = createHeader({
 	readable = "Overwatch: Origins",
 	icon = 1303199,
@@ -1106,6 +1126,28 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		["groups"] = {
 			i(191114),	-- Amalgam of Rage (MOUNT!)
 			ach(15640),	-- Return to Darkness
+		},
+	})),
+	n(DIABLO_IV_LORD_OF_HATRED, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
+		["description"] = "These rewards are available to anyone who purchases Diablo 4: Lord of Hatred Standard Edition.",
+		["groups"] = {
+			i(265804, {	-- Sanctuary Chess Collection
+				-- TODO: We can remove decorID once Wago data is updated
+				i(259059, {["decorID"] = 12251}),	-- Sanctuary Chess Dark Bishop (DECOR!)
+				i(259064, {["decorID"] = 12256}),	-- Sanctuary Chess Dark King (DECOR!)
+				i(259063, {["decorID"] = 12255}),	-- Sanctuary Chess Dark Knight (DECOR!)
+				i(259062, {["decorID"] = 12254}),	-- Sanctuary Chess Dark Pawn (DECOR!)
+				i(259061, {["decorID"] = 12253}),	-- Sanctuary Chess Dark Queen (DECOR!)
+				i(259060, {["decorID"] = 12252}),	-- Sanctuary Chess Dark Rook (DECOR!)
+				i(259065, {["decorID"] = 12257}),	-- Sanctuary Chess Light Bishop (DECOR!)
+				i(259070, {["decorID"] = 12262}),	-- Sanctuary Chess Light King (DECOR!)
+				i(259069, {["decorID"] = 12261}),	-- Sanctuary Chess Light Knight (DECOR!)
+				i(259068, {["decorID"] = 12260}),	-- Sanctuary Chess Light Pawn (DECOR!)
+				i(259067, {["decorID"] = 12259}),	-- Sanctuary Chess Light Queen (DECOR!)
+				i(259066, {["decorID"] = 12258}),	-- Sanctuary Chess Light Rook (DECOR!)
+				i(259058, {["decorID"] = 12250}),	-- Sanctuary's Chess Board (DECOR!)
+				i(259057, {["decorID"] = 12249}),	-- Sanctuary's Chess Match (DECOR!)
+			}),
 		},
 	})),
 	n(OVERWATCH_ORIGINS, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_3, REMOVED_10_0_2 } }, {
