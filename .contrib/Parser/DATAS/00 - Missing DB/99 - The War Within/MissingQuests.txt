@@ -634,8 +634,6 @@ q(40926),	--
 q(40928),	--
 q(40948),	--
 q(40999),	--
-q(41015),	-- Artifacts Need Artificers
-q(41017),	-- Empowering Your Artifact
 q(41020),	--
 q(41046),	--
 q(41061),	--

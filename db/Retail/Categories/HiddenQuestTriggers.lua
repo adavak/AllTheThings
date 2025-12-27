@@ -2242,7 +2242,7 @@ cl(4,{
 q(44871,{awp=70100,c=a[19],repeatable=1,type="hqt"}),
 q(44872,{awp=70100,c=a[19],repeatable=1,type="hqt"}),
 q(42061,{c=a[19],repeatable=1,type="hqt"}),
-q(43634,{c=a[19],isDaily=1,qis={139584,139586,139588,139589,139591,139592},type="hqt"}),
+q(43634,{c=a[19],qis={139584,139585,139586,139588,139589,139591,139592},repeatable=1,type="hqt"}),
 q(50804,{c=a[19],type="hqt"}),
 q(43716,{c=a[19],type="hqt"}),
 q(43720,{c=a[19],type="hqt"}),
@@ -7062,7 +7062,6 @@ q(85172,{type="hqt"})}}),
 m(2451,{awp=110207,maps={2451},g={
 q(93382,{type="hqt"})}}),
 h(-9,{awp=110002,g={
-q(82770,{type="hqt"}),
 q(82788,{type="hqt"}),
 q(82789,{type="hqt"}),
 q(85050,{awp=110207,type="hqt"}),

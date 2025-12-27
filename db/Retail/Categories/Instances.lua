@@ -41170,7 +41170,7 @@ i(137327,{b=1,f=54,lvl=40,modID=23})}}),
 e(1663,{npcID=96759,g={
 ach(10809,{awp=70000}),
 gach(10863,{awp=70000}),
-ach(10412,{awp=70000,crs={98806},description="Absorb the soul at the beginning of Blackrook Hold, clear the dungeon, then clear Maw of Souls. You must not die at all through both dungeons.\n\nWARNING: You must do this with a group of 5 players for the buffs to upgrade after each boss kill.",maps=a[1220],g={
+ach(10412,{awp=70000,crs={98806},description="Absorb the soul at the beginning of Blackrook Hold, clear the dungeon, then clear Maw of Souls. You must not die at all through both dungeons.",maps=a[1220],g={
 p(1930,{b=1,itemID=140323,npcID=112167,spellID=223409}),
 crit(32147,{achID=11163,awp=70003,id=20})}}),
 r(194734,{b=1,itemID=137899,lvl=10,requireSkill=165,skillID=2526}),
@@ -41212,7 +41212,9 @@ crit(34024,{achID=11189,id=403})}}),
 q(41865,{isWorldQuest=1,g={
 crit(34023,{achID=11189,id=402})}}),
 q(41211,{isWorldQuest=1,g={
-crit(34026,{achID=11189,id=405})}})}}),
+crit(34026,{achID=11189,id=405})}}),
+q(41857,{isWorldQuest=1,g={
+crit(34025,{achID=11189,id=404})}})}}),
 d(101,{difficulties=a[47],g={
 e(1662,{awp=110002,npcID=91003,g={
 s(187745,205973,{b=1,f=27,lvl=58})}}),

@@ -1566,7 +1566,7 @@ s(218249,219237,{b=1,cost={{"c",3089,8000}},f=28,lvl=70,u=2}),
 s(218259,219247,{b=1,cost={{"c",3089,5000}},f=27,lvl=70,u=2})}})}})}})}})}),
 h(-656,{awp=110207,maps={499,500,503},g={
 h(-12,{
-ach(7944,{awp=50100,providers={{"s",136314}},rwp=70003,u=2}),
+ach(7944,{providers={{"s",136314}}}),
 ach(13191,{awp=80105,r=2,rwp=90105,u=2,g={
 title(209,{u=2})}}),
 ach(13192,{awp=80105,r=1,rwp=90105,u=2,g={
@@ -1779,7 +1779,7 @@ faction(2010,{awp=70105,r=1,rwp=80001,u=2}),
 faction(2372,{awp=80105,r=1,rwp=90002,u=2}),
 faction(2766,{r=1})}),
 h(-45,{
-q(92715,{DisablePartySync=1,lc=a[58],r=1}),
+q(92715,{coords={{46,60.8,85},{51.4,40.1,2339}},DisablePartySync=1,qgs={252857},r=1}),
 q(92740,{coords={a[442]},DisablePartySync=1,lc=a[58],qgs=a[200],r=1,sourceQuests={92715},g={
 i(254690,{spellID=136149})}}),
 q(94372,{coords={a[442]},qgs=a[200],r=1,sourceQuests={92740}}),
@@ -1967,7 +1967,7 @@ q(53933,{awp=80105,coords={a[293]},lvl=80,qgs=a[104],r=1,rwp=90002,sourceQuests=
 q(53934,{awp=80105,coords={a[293]},lvl=80,qgs=a[104],r=1,rwp=90002,sourceQuests={53933},u=2}),
 q(53935,{awp=80105,lvl=80,maps={109},qgs={149808},r=1,rwp=90002,sourceQuests={53934},u=2,g={
 mnt(289639,{b=1,itemID=166724,lvl=10,u=2})}}),
-q(92845,{coords={{66.6,72.2,84},{51.2,43.4,2339}},DisablePartySync=1,lc=a[58],qgs={253181},r=2}),
+q(92845,{coords={{66.6,72.2,84},{51.2,43.4,2339}},DisablePartySync=1,qgs={253181},r=2}),
 q(92851,{coords={a[345]},DisablePartySync=1,lc=a[58],qgs=a[201],r=2,sourceQuests={92845},g={
 i(254690,{spellID=136149})}}),
 q(94363,{coords={a[345],{55.2,61.4,499}},qgs=a[201],r=2,sourceQuests={92851}})}),
@@ -8039,7 +8039,7 @@ i(249783,{e=447,f=55,spellID=1249739}),
 i(249782,{e=447,f=55,spellID=1249738}),
 i(249781,{e=447,f=55,spellID=1249736}),
 i(253224,{e=447,spellID=1255827,sym={{"select","instanceID",768},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",786},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",875},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",946},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"}}}),
-i(253227,{awp=110207,e=447,spellID=1255828}),
+i(253227,{awp=110207,e=447,spellID=1255828,sym={{"select","instanceID",768},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",786},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",875},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"},{"finalize"},{"select","instanceID",946},{"pop"},{"where","difficultyID",14},{"pop"},{"where","headerID",-19},{"pop"}}}),
 i(248393,{awp=110207,crs={248660,248688},e=447}),
 i(251562,{e=447,f=55,spellID=1252671}),
 i(263226,{e=447,f=55,spellID=1270148}),

@@ -501,6 +501,7 @@ MobileDB.Creature = {
 	[112688] = true,	-- Meryl Felstorm
 	[112689] = true,	-- Archdruid Hamuul Runetotem
 	[112693] = true,	-- Black Harvest Acolyte
+	[112695] = true,	-- Hooded Priest
 	[112696] = true,	-- Initiate Da-Nel
 	[112701] = true,	-- Justicar Julia Celeste
 	[113327] = true,	-- Snowfeather

@@ -1,6 +1,6 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
-local ach,cl,cq,crit,cu,en,flt,h,i,ill,mnt,n,o,p,q,s,settings,title,toy,x=_.CreateAchievement,_.CreateCharacterClass,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateIllusion,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.Settings,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local ach,cl,cq,crit,cu,de,en,flt,h,i,ill,mnt,n,o,p,q,s,settings,title,toy,x=_.CreateAchievement,_.CreateCharacterClass,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateDecor,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateIllusion,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.Settings,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 local a={{"i",116788},{"o",384744},{1},{10},{11},{12},{13},{19.1,82,2023},{2},{201230},{222277},{225347},{3},{35.3,38.2,2339},{38.3,94.9,2112},{4},{49.2,58.3,2025},{5},{56.4,19.3,2022},{6},{68795,72366},{7.4,47.5,2024},{7},{79184},{8},{9}};
 _.Categories.Promotions={
 h(-514,{awp=90005,g={
@@ -469,6 +469,22 @@ crit(34640,{achID=8795,id=3,u=3})}})}}),
 h(-532,{awp=100002,description="These rewards are available to anyone who purchases Diablo 4 Standard Edition.",u=3,g={
 mnt(369476,{b=1,itemID=191114,u=3}),
 ach(15640,{providers={{"i",191114}},u=3})}}),
+h(-703,{awp=110207,description="These rewards are available to anyone who purchases Diablo 4: Lord of Hatred Standard Edition.",u=3,g={
+i(265804,{spellID=1277191,u=3,g={
+de(12251,{itemID=259059,spellID=1264384,u=3}),
+de(12256,{itemID=259064,spellID=1264389,u=3}),
+de(12255,{itemID=259063,spellID=1264388,u=3}),
+de(12254,{itemID=259062,spellID=1264387,u=3}),
+de(12253,{itemID=259061,spellID=1264386,u=3}),
+de(12252,{itemID=259060,spellID=1264385,u=3}),
+de(12257,{itemID=259065,spellID=1264390,u=3}),
+de(12262,{itemID=259070,spellID=1264395,u=3}),
+de(12261,{itemID=259069,spellID=1264394,u=3}),
+de(12260,{itemID=259068,spellID=1264393,u=3}),
+de(12259,{itemID=259067,spellID=1264392,u=3}),
+de(12258,{itemID=259066,spellID=1264391,u=3}),
+de(12250,{itemID=259058,spellID=1264383,u=3}),
+de(12249,{itemID=259057,spellID=1264382,u=3})}})}}),
 h(-533,{awp=60203,description="These rewards are available to anyone who purchases Overwatch Origins Collection.",rwp=100002,u=2,g={
 p(1828,{b=1,itemID=134047,npcID=103159,spellID=204148,u=2}),
 ach(11064,{providers={{"n",103159}},u=2})}}),
