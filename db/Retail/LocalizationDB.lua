@@ -513,6 +513,8 @@ L.OBJECT_TYPE = "Object Type";
 L.OBJECTIVES = "Objectives";
 L.ONLY_NOT_TRASH = "Filter Trash Items";
 L.ONLY_NOT_TRASH_TOOLTIP = "Enable this option to ignore white/grey items. Blizzard does not yet provide API for it in Classic.";
+L.ONLY_OBTAINABLE_CHECKBOX = "Only Obtainable";
+L.ONLY_OBTAINABLE_CHECKBOX_TOOLTIP = "Enable this option if you want to see only obtainable shared appearances.";
 L.ONLY_RELEVANT_CHECKBOX = "Only Relevant";
 L.ONLY_RELEVANT_CHECKBOX_TOOLTIP = "Enable this option if you only want to see shared appearances that your character can unlock.\n\nNOTE: We recommend you keep this off as knowing the unlock requirements for an item can be helpful in identifying why an item is Not Collected.";
 L.ONLY_RWP = "Only RWP";
@@ -1321,6 +1323,7 @@ localize(L.HEADER_NAMES, {
 	[-336] = "Year 2023",
 	[-337] = "Year 2024",
 	[-338] = "Year 2025",
+	[-339] = "Year 2026",
 	[-341] = "Shared Appearances",
 	[-342] = "Unique Appearance",
 	[-343] = "Bounty",
@@ -1603,8 +1606,9 @@ localize(L.HEADER_NAMES, {
 	[-694] = "TBC Classic Anniversary Edition - Outland Upgrade",
 	[-696] = "Nether Portal",
 	[-698] = TRANSMOG_SOURCE_4,
-	[-699] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-700] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-700] = "Hati's Aftermath",
+	[-701] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-702] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -1993,6 +1997,7 @@ localize(L.HEADER_ICONS, {
 	[-336] = 134284,
 	[-337] = 134283,
 	[-338] = 134285,
+	[-339] = 134286,
 	[-341] = 1033585,
 	[-342] = 413576,
 	[-343] = 2125377,
@@ -2271,6 +2276,7 @@ localize(L.HEADER_ICONS, {
 	[-694] = _.asset("expansion_tbc"),
 	[-696] = 607513,
 	[-698] = _.asset("category_worlddrops"),
+	[-700] = 1027879,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -8454,6 +8460,7 @@ local ObjectNames = {
 	[251953] = "Glimmering Treasure Chest",
 	[251954] = "Small Treasure Chest",
 	[251959] = "Ancient Elven Chest",
+	[251960] = "The Raven's Eye Tablet",
 	[251991] = "The Aegis of Aggramar",
 	[252010] = "Crystallized Bough",
 	[252054] = "Scepter of Sargeras",
@@ -16927,6 +16934,7 @@ local ObjectModels = {
 	[251953] = 1349622,
 	[251954] = 1349620,
 	[251959] = 196976,
+	[251960] = 1355115,
 	[251991] = 1361813,
 	[252010] = 1383978,
 	[252054] = 1346397,
@@ -22502,7 +22510,6 @@ L.QUEST_NAMES = {
 	[41846] = "Power in a Vessel",
 	[41848] = "Legion Invaders",
 	[41856] = "Legion Portal",
-	[41857] = "Neltharion's Lair: Stonedark Slaves",
 	[41859] = "Rescue Efforts",
 	[41872] = "[DEPRECATED]",
 	[41874] = "Talked to Tyrande to Start Events",
@@ -22664,6 +22671,7 @@ L.QUEST_NAMES = {
 	[44086] = "Destruction Chosen",
 	[44088] = "Demonology Chosen",
 	[44091] = "Needs of the Many",
+	[44115] = "Welcome to Legion!",
 	[44134] = "DEPRECATED",
 	[44179] = "Treasure",
 	[44200] = "Mathias Visit Not Active 05",
@@ -23015,7 +23023,7 @@ L.QUEST_NAMES = {
 	[50147] = "Step 8: Temple of Karabor",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-700],
+	[52819] = _.L.HEADER_NAMES[-702],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -24590,8 +24598,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Zwielichtzone",
 	[-662] = "Championausrüstung",
 	[-696] = "Netherportal",
-	[-699] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-700] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-701] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-702] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -28139,6 +28147,7 @@ localize(ObjectNames, {
 	[251953] = "Glitzernde Schatztruhe",
 	[251954] = "Kleine Schatztruhe",
 	[251959] = "Uralte Elfentruhe",
+	[251960] = "Rabenaugentafel",
 	[251991] = "Die Aegis von Aggramar",
 	[252010] = "Kristallisierter Ast",
 	[252054] = "Szepter des Sargeras",
@@ -31830,8 +31839,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Chroniques des Crépusculaires",
 	[-662] = "Équipement de champion",
 	[-696] = "Portail de Néant",
-	[-699] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-700] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-701] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-702] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -35396,6 +35405,7 @@ localize(ObjectNames, {
 	[251953] = "Coffre au trésor scintillant",
 	[251954] = "Petit coffre au trésor",
 	[251959] = "Coffre elfique ancien",
+	[251960] = "Tablette de l’œil du corbeau",
 	[251991] = "Égide d’Aggramar",
 	[252010] = "Branche cristallisée",
 	[252054] = "Sceptre de Sargeras",
@@ -38684,8 +38694,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Zona del Crepuscolo",
 	[-662] = "Equipaggiamento campione",
 	[-696] = "Portale Fatuo",
-	[-699] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-700] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-701] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-702] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -41830,6 +41840,7 @@ localize(ObjectNames, {
 	[251953] = "Cassa del Tesoro Luccicante",
 	[251954] = "Cassa del Tesoro Piccola",
 	[251959] = "Antica Corazza Elfica",
+	[251960] = "Tavoletta dell'Occhio del Corvo",
 	[251991] = "Egida di Aggramar",
 	[252010] = "Corteccia Cristallizzata",
 	[252070] = "Iniezione del Vilmotore",
@@ -44917,8 +44928,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Além da Imaginação",
 	[-662] = "Equipamento de Campeão",
 	[-696] = "Portal Etéreo",
-	[-699] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-700] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-701] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-702] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -48376,6 +48387,7 @@ localize(ObjectNames, {
 	[251953] = "Baú do Tesouro Luzente",
 	[251954] = "Baú do Tesouro Pequeno",
 	[251959] = "Baú Élfico Antigo",
+	[251960] = "Tabuleta do Olho do Corvo",
 	[251991] = "A Égide de Aggramar",
 	[252010] = "Galho Cristalizado",
 	[252054] = "Cetro de Sargeras",
@@ -52171,6 +52183,7 @@ localize(L.HEADER_NAMES, {
 	[-336] = "2023 год",
 	[-337] = "2024 год",
 	[-338] = "2025 год",
+	[-339] = "2026 год",
 	[-341] = "Общие Облики",
 	[-342] = "Уникальный Облик",
 	[-343] = "Премия",
@@ -52324,8 +52337,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Зона сумерек",
 	[-662] = "Снаряжение защитника",
 	[-696] = "Врата Пустоты",
-	[-699] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-700] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-701] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-702] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -55914,6 +55927,7 @@ localize(ObjectNames, {
 	[251953] = "Сверкающий сундук с сокровищами",
 	[251954] = "Маленький сундук с сокровищами",
 	[251959] = "Древний эльфийский сундук",
+	[251960] = "Скрижаль с легендой об Оке Ворона",
 	[251991] = "Эгида Агграмара",
 	[252010] = "Окаменелая ветвь",
 	[252054] = "Скипетр Саргераса",
@@ -59259,8 +59273,8 @@ localize(L.HEADER_NAMES, {
 	[-661] = "황혼 지대",
 	[-662] = "용사 장비",
 	[-696] = "황천의 차원문",
-	[-699] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-700] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-701] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-702] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -62622,6 +62636,7 @@ localize(ObjectNames, {
 	[251878] = "기만자의 쌍날검",
 	[251954] = "작은 보물 상자",
 	[251959] = "고대 엘프 궤짝",
+	[251960] = "까마귀의 눈 석판",
 	[251991] = "아그라마르의 아이기스",
 	[252010] = "결정화된 가지",
 	[252054] = "살게라스의 홀",
@@ -66159,6 +66174,7 @@ localize(L.HEADER_NAMES, {
 	[-336] = "Año 2023",
 	[-337] = "Año 2024",
 	[-338] = "Año 2025",
+	[-339] = "Año 2026",
 	[-341] = "Apariencias compartidas",
 	[-342] = "Apariencia única",
 	[-343] = "Recompensa",
@@ -66300,8 +66316,8 @@ localize(L.HEADER_NAMES, {
 	[-684] = "Experiencia de resumen",
 	[-687] = "Conversión de equipo de banda",
 	[-696] = "Portal abisal",
-	[-699] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-700] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-701] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-702] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -69878,6 +69894,7 @@ localize(ObjectNames, {
 	[251953] = "Arqueta brillante",
 	[251954] = "Arqueta pequeña",
 	[251959] = "Cofre élfico antiguo",
+	[251960] = "Tablilla del ojo del cuervo",
 	[251991] = "Égida de Aggramar",
 	[252010] = "Rama cristalizada",
 	[252054] = "Cetro de Sargeras",
@@ -73199,7 +73216,7 @@ localize(L.HEADER_NAMES, {
 	[-654] = "Cosechando",
 	[-656] = "Gremio de luchadores",
 	[-684] = "Experiencia de recapitulación",
-	[-700] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-702] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -74403,6 +74420,7 @@ localize(L.HEADER_NAMES, {
 	[-336] = "2023年",
 	[-337] = "2024年",
 	[-338] = "2025年",
+	[-339] = "2026年",
 	[-341] = "共享外观",
 	[-342] = "独特外观",
 	[-343] = "赏金任务",
@@ -74595,8 +74613,8 @@ localize(L.HEADER_NAMES, {
 	[-687] = "团队装备转换",
 	[-694] = "'燃烧的远征'周年纪念版 - 外域升级",
 	[-696] = "虚空传送门",
-	[-699] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-700] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-701] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-702] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
@@ -77775,6 +77793,7 @@ localize(ObjectNames, {
 	[251953] = "闪闪发光的宝箱",
 	[251954] = "小宝箱",
 	[251959] = "上古精灵宝箱",
+	[251960] = "渡鸦之眼石板",
 	[251991] = "阿格拉玛之盾",
 	[252010] = "晶化树枝",
 	[252069] = "阿兰娜的物品",
