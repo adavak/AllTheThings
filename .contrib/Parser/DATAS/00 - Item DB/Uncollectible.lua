@@ -66,6 +66,9 @@ i(195572);	-- Empty Elixir
 i(194742);	-- Worn Book
 i(210438);	-- Wisp Dust
 i(211768);	-- Hastily Scrawled Satyr Ravings
+
+-- Midnight Greys
+i(260690);	-- Gloomy Root
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 
 -- Dont add anything here /Braghe

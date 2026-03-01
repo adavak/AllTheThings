@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 36.4, 25.0, ARDENWEALD },
 				["groups"] = { i(183129) },	-- Anima-Laden Dreamcatcher
 			}),
-			o(183718, {	-- Extra Gooey Gorm Gunk
+			o(358572, {	-- Extra Gooey Gorm Gunk
 				i(183718);	-- Extra Gooey Gorm Gunk
 			}),
 			o(373460, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Fae Net

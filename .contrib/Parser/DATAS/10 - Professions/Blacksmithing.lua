@@ -1374,7 +1374,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 					i(238546),	-- Sin'dorei Master's Forgemace
 				},
 			}),
-			o(525857, {	-- Voidstorm Defense Spear
+			o(525957, {	-- Voidstorm Defense Spear
 				["coord"] = { 30.6, 69.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				["questID"] = 89181,
 				["groups"] = {

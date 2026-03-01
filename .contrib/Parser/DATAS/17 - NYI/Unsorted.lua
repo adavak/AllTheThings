@@ -410,7 +410,6 @@ root(ROOTS.Unsorted, {
 				i(260603),	-- Frail and Flexible Wing
 				i(260674),	-- Fine Arcane Dust
 				i(260682),	-- Rusty Tusk Ring
-				i(260690),	-- Gloomy Root
 				i(260695),	-- Rancid Aquatic Remains
 				i(262432),	-- Weathered Lockbox
 				i(262559),	-- Spare Key
@@ -1025,8 +1024,6 @@ root(ROOTS.Unsorted, {
 				i(260377),	-- Fading Dawn Sabatons
 				i(260414),	-- Amulet of the Ascendant Void \\ Voidsong Chain
 				-- Armor
-				i(260458),	-- Helthra's Fetish
-				i(260459),	-- Gaahl's Gorget
 				i(260475),	-- Ka'shuk Trainee's Cudgel
 				-- Armor
 				i(260849),	-- [DNT] Trinket 1

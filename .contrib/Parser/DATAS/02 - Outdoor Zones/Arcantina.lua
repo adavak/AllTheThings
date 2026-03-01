@@ -237,6 +237,9 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 			o(614803, {	-- Savory Deviate Delight
 				["coord"] = { 34.0, 28.3, ARCANTINA },
 			}),
+			o(614821, {	-- Savory Deviate Delight
+				["coord"] = { 69.4, 52.2, ARCANTINA },
+			}),
 		})),
 		n(VENDORS, {
 			n(229333, {	-- Ari

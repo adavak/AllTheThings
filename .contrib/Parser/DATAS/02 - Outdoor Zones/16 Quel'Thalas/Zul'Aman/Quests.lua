@@ -183,9 +183,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 51.6, 70.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(260461),	-- Brulagh's Torque
+							i(260459),	-- Gaahl's Gorget
 							i(239083),	-- Head of Brulagh the Crusher (QI!)
 							i(243188),	-- Head of Cragward Gaahl (QI!)
 							i(243189),	-- Head of Pulverizer Helthra (QI!)
+							i(260458),	-- Helthra's Fetish
 						},
 					}),
 					q(86655, {	-- De Ancient Path
@@ -444,7 +446,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = { i(256928) },	-- Banner of the Amani Tribe (DECOR!)
 					}),
 					q(91967, {	-- You Know This Evil?
-						["sourceQuests"] = { 91087 },	-- Reports Returned
+						["sourceQuests"] = { 91084 },	-- Looming Shadows
 						["provider"] = { "n", 235787 },	-- Lor'themar Theron
 						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),

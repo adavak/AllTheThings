@@ -428,8 +428,23 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
 					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
-						o(2567202, {
-							i(248928),	-- Cult Orders (QI!)
+						o(567202, {	-- Cult Orders
+							["coords"] = {
+								{ 35.6, 71.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 35.7, 73.5, MAP.MIDNIGHT.ZULAMAN },
+								{ 37.2, 73.8, MAP.MIDNIGHT.ZULAMAN },
+								{ 37.3, 72.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 37.4, 71.1, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.1, 72.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.2, 70.8, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.8, 70.1, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.8, 72.8, MAP.MIDNIGHT.ZULAMAN },
+								{ 39.0, 72.2, MAP.MIDNIGHT.ZULAMAN },
+								{ 39.8, 71.4, MAP.MIDNIGHT.ZULAMAN },
+							},
+							["groups"] = {
+								i(248928),	-- Cult Orders (QI!)
+							},
 						}),
 					},
 				}),
