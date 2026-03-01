@@ -526,7 +526,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 	m(MAP.MIDNIGHT.QUELTHALAS, {
-		m(PREY, {
+		n(PREY, {
 			n(QUESTS, {
 				--whatever that rng things are happen
 				--q(95485),	-- after zone (Eversong Woods) rare kill during Prey (and unflagged at same frame)
@@ -555,6 +555,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				--- Nightmare
 				q(93170),	-- Chapmpion chest lockout (Nightmare), 1st
 				--q(93158?),	-- Chapmpion chest lockout (Nightmare), 2nd (after it - Chapmpion Sack as reward)
+
+				-- Unknown?
+				q(93857),	-- Completed with questID 91098 and 93168
 			}),
 		}),
 	}),

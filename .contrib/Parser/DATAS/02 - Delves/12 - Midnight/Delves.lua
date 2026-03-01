@@ -145,22 +145,70 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(247423),	-- Recipe: Silvermoon Spire Fountain (RECIPE!)
 		}),
 		n(ARMOR, {
-			-- TODO: probably doesn't exist in s1 and will be wue after it? But seems like you can also it everything from bountiful but even without key, so idk.
 			filter(BACK_F, {
+				i(249625),	-- Elder Mossveil
+				i(249624),	-- Osseoclad Paledrape
+				i(249628),	-- Rampant Bramblecloack
+				i(249619),	-- Sprawling Mycoshroud
 			}),
 			filter(CLOTH, {
+				i(249634),	-- Sprawling Fibershells
+				i(249635),	-- Sprawling Rhizomecord
+				i(249630),	-- Sprawling Rootpads
+				i(249633),	-- Sprawling Rootstockings
+				i(249629),	-- Sprawling Rootunic
+				i(249632),	-- Sprawling Stoloncollar
+				i(249631),	-- Sprawling Tendrils
+				i(249636),	-- Sprawling Wristroots
 			}),
 			filter(FINGER_F, {
+				i(249623),	-- Blooming Leafcoil
+				i(249622),	-- Spiritseal Ring
+				i(249621),	-- Voodoo Band
+				i(249620),	-- Vibrant Wilderloop
 			}),
 			filter(LEATHER, {
+				i(249638),	-- Osseoclad Bonecrushers
+				i(249641),	-- Osseoclad Bonesteppers
+				i(249644),	-- Osseoclad Ivory Wrist
+				i(249637),	-- Osseoclad Marrowvest
+				i(249642),	-- Osseoclad Razorspaulders
+				i(249640),	-- Osseoclad Saberteeth
+				i(249639),	-- Osseoclad Spinegrapplers
+				i(249643),	-- Osseoclad Waistbone
 			}),
 			filter(MAIL, {
+				i(249652),	-- Elder Mossbands
+				i(249651),	-- Elder Mosscinch
+				i(249646),	-- Elder Mossclogs
+				i(249647),	-- Elder Mossfeelers
+				i(249648),	-- Elder Mosshorns
+				i(249645),	-- Elder Mossmail
+				i(249649),	-- Elder Mossvein Breeches
+				i(249650),	-- Elder Mossvein Greatleaves
 			}),
 			filter(NECK_F, {
+				i(249627),	-- Arboreal Vine Collar
+				i(249626),	-- Nocturnal Thorncharm
 			}),
 			filter(PLATE, {
+				i(249657),	-- Rampant Bramblegreaves
+				i(249653),	-- Rampant Brambleplate
+				i(249660),	-- Rampant Briarcuffs
+				i(249656),	-- Rampant Briarhelm
+				i(249655),	-- Rampant Creepers
+				i(249654),	-- Rampant Thistlestompers
+				i(249658),	-- Rampant Thornmantles
+				i(249659),	-- Rampant Thornstrap
 			}),
 			filter(TRINKET_F, {
+				i(251789),	-- Consecrated Chalice
+				i(251790),	-- Desecrated Chalice
+				i(251792),	-- Glorious Crusader's Keepsake
+				i(251791),	-- Holy Retributor's Order
+				i(251787),	-- Sealed Chaos Urn
+				i(251784),	-- Sylvan Wakrapuku
+				i(264694),	-- Ultradon Cuirass
 				i(251785),	-- Void-Reaper's Libram
 			}),
 		}),
@@ -175,7 +223,22 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(263233),	-- Sin'dorei Spinning Library (DECOR!)
 		}),
 		n(WEAPONS, {
+			i(249667),	-- Barbed Rootwand
+			i(249665),	-- Blooming Seedpod
+			i(249676),	-- Bramblebarricade
+			i(249672),	-- Elderbloom Lantern
+			i(249670),	-- Elderoot Spire
+			i(249664),	-- Gnarled Thornmace
+			i(249671),	-- Gnarlroot Spinecleaver
+			i(249669),	-- Organ Piercer's Briarspear
+			i(251885),	-- Radiant Foil
+			i(249661),	-- Root Sculptor's Verdaxe
 			i(260188),	-- Savage Briaredge
+			i(259462),	-- Thorneedle
+			i(249677),	-- Twinthorn Wildglaive
+			i(260187),	-- Underbrush Render
+			i(249662),	-- Wild Fiberknife
+			i(262731),	-- Wildthorn Razorfang
 		}),
 	})),
 	n(FACTIONS, {
