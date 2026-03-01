@@ -328,7 +328,6 @@ namespace ATT
                     var directories = Framework.Config["wago-directories"];
                     if (directories != null)
                     {
-                        var shouldLoadDirectly = Debugger.IsAttached || Framework.PreProcessorTags.Contains("ANYCLASSIC");
                         foreach (var wagoDirectory in (string[])directories)
                         {
                             if (!string.IsNullOrWhiteSpace(wagoDirectory))
@@ -337,14 +336,7 @@ namespace ATT
                                 Trace.WriteLine($"Loading Wago DB CSV files from {wagoDirectory}.");
                                 var filenames = Directory.GetFiles(wagoDirectory, "*.csv", SearchOption.AllDirectories).ToList();
                                 filenames.Sort(StringComparer.InvariantCulture);
-                                if (shouldLoadDirectly)
-                                {
-                                    foreach (var filename in filenames) WagoData.LoadFromCSV(filename);
-                                }
-                                else
-                                {
-                                    filenames.AsParallel().ForAll(WagoData.LoadFromCSV);
-                                }
+                                foreach (var filename in filenames) WagoData.LoadFromCSV(filename);
                             }
                         }
 
