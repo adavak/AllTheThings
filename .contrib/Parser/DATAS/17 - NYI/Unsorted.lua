@@ -389,7 +389,6 @@ root(ROOTS.Unsorted, {
 				i(265048),	-- Scale Fragment
 				i(265049),	-- Drifting Conch Whistle
 				i(265050),	-- Coral Shard
-				i(265051),	-- Carved Root Totem
 				i(265052),	-- Crumbly Stone Shard
 				i(265053),	-- Gnarled Bark Shard
 				i(265055),	-- Torn Dimensional Wrap
@@ -943,7 +942,6 @@ root(ROOTS.Unsorted, {
 				-- Armor
 				i(251934),	-- Blessed Signet
 				-- Trinkets
-				i(251785),	-- Void-Reaper's Libram
 				i(251793),	-- Endosymbiotic Mycelium
 				i(251794),	-- Gris-gris of Confidence
 				i(251882),	-- Fragmented Light Shard

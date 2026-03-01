@@ -135,6 +135,7 @@ i(158873);	-- Crystalline Honeymead
 i(158931);	-- Shiny Object
 i(159621);	-- Personal Anchor
 i(162126);	-- River Clam Meat
+i(265051);	-- Carved Root Totem
 -- Suramar Mana Gems
 i(139890);	-- Ancient Mana Gem
 i(140236);	-- A Mrglrmrl Mlrglr

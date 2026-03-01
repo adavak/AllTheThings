@@ -161,6 +161,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			filter(PLATE, {
 			}),
 			filter(TRINKET_F, {
+				i(251785),	-- Void-Reaper's Libram
 			}),
 		}),
 		n(DECOR, {
@@ -604,7 +605,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 	m(THE_GULF_OF_MEMORY, {
 		--["icon"] = ,
 		["coord"] = { 36.6, 49.1, MAP.MIDNIGHT.HARANDAR },
-		--["maps"] = {},
+		["maps"] = { 2575 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(61898),	-- The Gulf of Memory Discoveries
