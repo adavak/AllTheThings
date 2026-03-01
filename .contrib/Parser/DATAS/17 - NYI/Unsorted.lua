@@ -721,7 +721,6 @@ root(ROOTS.Unsorted, {
 				i(262768),	-- Chirpy Mandrake (PET!) [Trading Post]
 				i(260306),	-- Distorted Memory (PET!) [Quest?]
 				i(262762),	-- Grumpy Mandrake (PET!) [Trading Post]
-				i(260360),	-- Gummi the Glow Wyrm (PET!) [Promotion]
 				i(262881),	-- Lil' Staropod (PET!) [Promotion]
 				i(260585),	-- Linda the Lucky (PET!) [Quest?]
 				i(262763),	-- Plump Mandrake (PET!) [Trading Post]
