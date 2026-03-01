@@ -195,7 +195,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}, {
 					-- Rewards
-					i(184418),	-- Acrobatic Steward (TOY!)
+					i(184418, {	-- Acrobatic Steward (TOY!)
+						["isDaily"] = IGNORED_VALUE,
+					}),
 					-- Objects
 					o(352754, {	-- Silver Strongbox
 						["coord"] = { 45.2, 83.2, BASTION },

@@ -457,7 +457,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		n(QUESTS, {
 			q(95008),	-- Adventuring in Midnight - Triggered after accepting 'Voidstorm' (89388) from the Scouting Map
 			-- During questing
-			q(89196),	-- Zone Choice Made (spellID 1254861), after accepting questID 89193 (Arator)
+			q(89196, {repeatable=true}),	-- Zone Choice Active (spellID 1254861), after accepting questID 89193 (Arator)
 			q(89247),	-- [DNT] (spellID 1227720), after accepting questID 86837 (Meet at the Sunwell)
 			--q(89196),	-- unflagged (???), after turn in questID 86839 (To Light's Hope)
 			--q(89247),	-- unflagged (???), after turn in questID 86903 (The Arcantina)

@@ -52,7 +52,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					["isDaily"] = true,
 					["cost"] = { { "i", 167893, 1 } },	-- Prismatic Crystal
 				}),
-				o_repeated(bubbleDown({ ["isWeekly"] = true }, {
+				o_repeated(bubbleDownFiltered({ ["isWeekly"] = true },FILTERFUNC_questID,{
 					o(324414, {	-- Slimy Cocoon (South)
 						["cr"] = 151218,	-- Ravenous Slime
 						["coord"] = { 55.1, 48.8, NAZJATAR },

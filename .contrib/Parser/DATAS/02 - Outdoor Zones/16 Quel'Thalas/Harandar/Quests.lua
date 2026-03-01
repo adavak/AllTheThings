@@ -613,7 +613,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 			}),
-			header(HEADERS.Achievement, 61574, bubbleDownSelf({ ["isWeekly"] = true }, {	-- Legends Never Die
+			header(HEADERS.Achievement, 61574, bubbleDownFiltered({ ["isWeekly"] = true },FILTERFUNC_questID,{	-- Legends Never Die
 				n(REWARDS, {
 					-- Rewarded on every quest completion. Be it the first time or on the repetition.
 					i(269703),	-- Avid Learner's Supply Pack (TODO: different version? pre-season? race specific?)
