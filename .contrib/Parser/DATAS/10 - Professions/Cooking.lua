@@ -3,13 +3,12 @@
 -----------------------------------------------------
 local function AwardsCost(amount)
 	return {
-		-- #if BEFORE 5.0.4
-		{"i",43016,amount},	-- Dalaran Cooking Award
-		-- #else
+		-- #if AFTER 5.0.4
 		{"c",402,amount},	-- Ironpaw Token
-		-- #endif
-		-- #if AFTER 4.0.3
+		-- #elseif AFTER 4.0.3
 		{"c",81,amount},	-- Epicurean's Award
+		-- #else
+		{"i",43016,amount},	-- Dalaran Cooking Award
 		-- #endif
 	};
 end
