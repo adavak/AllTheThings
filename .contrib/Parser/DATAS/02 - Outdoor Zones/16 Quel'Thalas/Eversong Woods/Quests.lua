@@ -1326,12 +1326,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 					},
 				}),
-				-- TODO idk where to put this
-				q(95276, {	-- The Last Push
-					["qg"] = 235787,	-- Lor'themar Theron <Regent Lord of Quel'Thalas>
-					["coord"] = { 45.4, 70.6, MAP.MIDNIGHT.SILVERMOON_CITY },
-					["lockCriteria"] = { 1, "lvl", 90 },
-				}),
 			}),
 		}),
 	}),

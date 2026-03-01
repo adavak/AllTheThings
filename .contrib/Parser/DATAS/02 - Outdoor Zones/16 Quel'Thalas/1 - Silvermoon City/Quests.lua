@@ -80,6 +80,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 235787 },	-- Lor'themar Theron
 				["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 			}),
+			q(95276, {	-- The Last Push
+				["description"] = "Finish the main campaign before level 90 to access.",
+				["qg"] = 235787,	-- Lor'themar Theron <Regent Lord of Quel'Thalas>
+				["coord"] = { 45.4, 70.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["lockCriteria"] = { 1, "lvl", 90 },
+			}),
 			-- Dungeons
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 256210 },	-- Halduron Brightwing
