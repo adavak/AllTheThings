@@ -2917,7 +2917,7 @@ local function OnQUEST_DETAIL(...)
 
 	local guid = UnitGUID("questnpc") or UnitGUID("npc")
 	local providerid, guidtype, _
-	if not guid then
+	if not guid or app.WOWAPI.issecretvalue(guid) then
 		app.print("No Quest check performed for Quest #", questID,"[GUID]")
 		return
 	end
@@ -2988,6 +2988,8 @@ local RegisterUNIT_SPELLCAST_SENT, UnregisterUNIT_SPELLCAST_SENT
 -- Allows automatically tracking nearby ObjectID's and running check functions on them for data verification
 local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- app.PrintDebug("PLAYER_SOFT_INTERACT_CHANGED",previousGuid,newGuid)
+
+	-- TODO: are these secrets in an instance??
 
 	-- previousGuid == newGuid when the player distance becomes close enough to interact
 	if not newGuid or previousGuid ~= newGuid then
