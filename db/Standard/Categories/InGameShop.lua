@@ -2,7 +2,6 @@
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
 local ach,crit,de,en,flt,h,i,mnt,p,s,toy=_.CreateAchievement,_.CreateAchievementCriteria,_.CreateDecor,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateItemSource,_.CreateToy;
-local a={{70}};
 categories.InGameShop=
 h(-213,{SortPriority=85,g={
 h(-12,{u=3,g={
@@ -81,7 +80,7 @@ i(105912,{rwp=60002,spellID=149223,u=2})}}),
 flt(2,{u=3,g={
 en(208943,{awp=110000,questID=77952,spellID=421823,tmogSetID=3122,u=3,g={
 s(190158,208939,{f=25,spellID=423956}),
-s(190159,208940,{f=28,lvl=a[1],spellID=423960}),
+s(190159,208940,{f=28,lvl={70},spellID=423960}),
 s(190160,208941,{f=20,spellID=423959}),
 s(190162,208959,{f=25,spellID=423958}),
 s(190163,208962,{f=26,spellID=423957})}}),
@@ -178,10 +177,10 @@ en(239481,{awp=110200,questID=89508,spellID=1228334,tmogSetID=4398,u=3,g={
 s(285237,237388,{f=26}),
 s(285239,237390,{f=25}),
 s(285316,237476,{f=28}),
-s(285319,237479,{f=21,lvl=a[1]}),
-s(285321,237481,{f=20,lvl=a[1]}),
-s(285323,237483,{f=27,lvl=a[1]}),
-s(285325,237487,{f=1,lvl=a[1]}),
+s(285319,237479,{f=21,lvl={70}}),
+s(285321,237481,{f=20,lvl={70}}),
+s(285323,237483,{f=27,lvl={70}}),
+s(285325,237487,{f=1,lvl={70}}),
 s(287101,237852,{f=8}),
 s(287269,238022,{f=23}),
 s(287445,238402,{f=29}),
@@ -190,9 +189,9 @@ en(239445,{awp=110200,questID=89504,spellID=1228332,tmogSetID=4397,u=3,g={
 s(285236,237387,{f=26}),
 s(285240,237391,{f=25}),
 s(285315,237475,{f=28}),
-s(285318,237478,{f=21,lvl=a[1]}),
-s(285320,237480,{f=20,lvl=a[1]}),
-s(285322,237482,{f=27,lvl=a[1]}),
+s(285318,237478,{f=21,lvl={70}}),
+s(285320,237480,{f=20,lvl={70}}),
+s(285322,237482,{f=27,lvl={70}}),
 s(285324,237486,{f=1}),
 s(287100,237851,{f=8}),
 s(287268,238021,{f=23}),

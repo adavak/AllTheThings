@@ -2,7 +2,6 @@
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
 local ach,ah,crit,cu,en,flt,gs,h,heir,i,ill,mnt,n,p,r,s,toy=_.CreateAchievement,_.CreateHeader,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateEnsemble,_.CreateFilter,_.CreateGearSet,_.CreateCustomHeader,_.CreateHeirloom,_.CreateItem,_.CreateIllusion,_.CreateMount,_.CreateNPC,_.CreateSpecies,_.CreateRecipe,_.CreateItemSource,_.CreateToy;
-local a={{7}};
 categories.BlackMarket=
 h(-554,{SortPriority=80,g={
 h(-88,{awp=50004,u=9,g={
@@ -75,15 +74,15 @@ s(44853,87000,{f=7,lvl=35,rwp=60002,u=2}),
 s(44854,87001,{f=7,lvl=35,rwp=60002,u=2}),
 s(44845,86992,{f=4,lvl=35,rwp=60002,u=2}),
 s(44848,86995,{f=5,lvl=35,rwp=60002,u=2}),
-i(105751,{b=1,c=a[1],u=9,g={
-s(57077,105745,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57079,105747,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57075,105743,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57080,105748,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57076,105744,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57073,105741,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57078,105746,{b=1,c=a[1],f=2,lvl=35,u=9}),
-s(57074,105742,{b=1,c=a[1],f=2,lvl=35,u=9})}}),
+i(105751,{b=1,c={7},u=9,g={
+s(57077,105745,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57079,105747,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57075,105743,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57080,105748,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57076,105744,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57073,105741,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57078,105746,{b=1,c={7},f=2,lvl=35,u=9}),
+s(57074,105742,{b=1,c={7},f=2,lvl=35,u=9})}}),
 s(194078,211259,{awp=110005,f=2,u=9}),
 s(82990,142000,{awp=80205,f=2,u=9}),
 s(93949,112935,{awp=80205,b=1,f=7,lvl=35,u=9}),

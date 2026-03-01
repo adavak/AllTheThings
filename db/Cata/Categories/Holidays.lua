@@ -3131,7 +3131,7 @@ q(24803,{coords={
 [125]={{52.6,65.6}}},cost={{"i",50289,1}},e=161,isWeekly=1,qgs={38294},u=30,g={
 s(178413,50287,{b=1,e=161,f=2,learnedAt=200,q=3,requireSkill=356,u=30}),
 heir(50255,{b=2,e=161,q=7,rwp=60100,u=30}),
-crit(12910,{achID=306,awp=30002,e=6,id=1,u=30})}})}}),
+crit(12910,{achID=306,awp=30002,e=161,id=1,u=30})}})}}),
 prof(356,{e=161,u=30,g={
 i(50289,{b=1,description="Can be fished from any school of fish in Northrend.",e=161,q=1,u=30})}})}}),
 h(-579,{awp=11101,e=9,g={
@@ -5534,7 +5534,7 @@ q(8193,{coords={
 [210]={{41.4,73}}},cost={{"i",19807,40}},e=6,qgs={15077},repeatable=1,requireSkill=356,g={
 s(130584,19970,{b=1,e=6,f=57,learnedAt=300,q=3,requireSkill=356}),
 i(19979,{b=1,e=6,f=53,q=3}),
-crit(406,{achID=306,awp=30002,e=6,id=1,rwp=50004,u=30})}}),
+crit(406,{achID=306,awp=30002,e=161,id=1,rwp=50004,u=30})}}),
 q(8225,{coords={
 [210]={{41.4,73}}},cost={{"i",19803,1}},e=6,qgs={15079},repeatable=1,requireSkill=356,g={
 s(130583,19969,{b=1,e=6,f=4,lvl=35,q=2,requireSkill=356})}}),
