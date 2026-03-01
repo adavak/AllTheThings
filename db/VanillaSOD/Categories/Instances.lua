@@ -10227,7 +10227,7 @@ q(167,{coords={
 qo(1,{providers={{"i",1875}}}),
 s(156499,1893,{b=1,f=22,q=2})}}),
 q(214,{coords={
-[1436]={{56.7,47.4}}},lvl=14,qgs={820},r=2,rwp=40003,sourceQuests={153},g={
+[1436]={{56.7,47.4}}},lvl=14,qgs={820},r=2,rwp=40003,sourceQuests={153,155},g={
 qo(1,{crs={594,619,824},description="Can also drop from any Defias mob in the Deadmines.",providers={{"i",915}}}),
 s(158311,6094,{b=1,f=22,q=2}),
 s(156615,2089,{b=1,f=20,q=2}),
@@ -10322,7 +10322,7 @@ p(44,{itemID=8490,petTypeID=8,q=1,spellID=10677}),
 s(158051,5198,{b=1,f=27,lvl=17,q=3}),
 s(158050,5197,{b=1,f=23,lvl=16,q=2})}})}}),
 inst(238,{coords={
-[1453]={{41.2,58}}},lore="The Stockade is a high-security prison complex, hidden beneath the canal district of Stormwind city. Presided over by Warden Thelwater, the Stockade is home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the stockade - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, Bazil Thredd.",lvl=15,mapID=225,savedInstanceID=34,["zone-text-areaID"]=717,g={
+[1453]={{41.2,58}}},lore="The Stockade is a high-security prison complex, hidden beneath the canal district of Stormwind city. Presided over by Warden Thelwater, the Stockade is home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the stockade - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, Bazil Thredd.",lvl=15,mapID=225,savedInstanceID=34,["zone-text-areaID"]=717,["zone-text-names"]={"Stormwind Stockade"},g={
 h(-45,{
 q(389,{coords={
 [1453]={{49,30.2}}},lvl=16,qgs={1646},r=2,rwp=40001,sourceQuests={373}}),

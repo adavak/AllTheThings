@@ -2612,7 +2612,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=2,["monthDay"]=22,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=2,["monthDay"]=22,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=3,["monthDay"]=1,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=3,["monthDay"]=1,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=3,["monthDay"]=8,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=3,["monthDay"]=8,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=3,["monthDay"]=15,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=3,["monthDay"]=15,["weekday"]=1,["year"]=2026}),
@@ -2664,7 +2663,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=1,["monthDay"]=31,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=1,["monthDay"]=31,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=2,["monthDay"]=7,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=2,["monthDay"]=7,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=2,["monthDay"]=14,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=2,["monthDay"]=14,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=2,["monthDay"]=21,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=2,["monthDay"]=21,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=2,["monthDay"]=21,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=2,["monthDay"]=21,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=2,["monthDay"]=28,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=2,["monthDay"]=28,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -12630,7 +12630,6 @@ local ObjectNames = {
 	[584508] = "Nemesis Strongbox",
 	[584509] = "Nemesis Strongbox",
 	[584511] = "Nemesis Strongbox",
-	[584514] = "Bountiful Coffer",
 	[584517] = "<span style=\"color: #1EFF00\">Heavy Trunk</span>",
 	[584519] = "<span style=\"color: #1EFF00\">Heavy Trunk</span>",
 	[584525] = "Sporeglider's Tail Spore",
@@ -21333,7 +21332,6 @@ local ObjectModels = {
 	[584508] = 2907352,
 	[584509] = 2907352,
 	[584511] = 2907352,
-	[584514] = 5869301,
 	[584517] = 5128194,
 	[584519] = 5128194,
 	[584525] = 6225696,

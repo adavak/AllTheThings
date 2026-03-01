@@ -418,11 +418,11 @@ crit(6756,{achID=1563,id=9,u=30})}}),
 ach(1797,{awp=30002,rank=75,requireSkill=185,u=30}),
 ach(1796,{awp=30002,rank=50,requireSkill=185,u=30}),
 ach(1795,{awp=30002,rank=25,requireSkill=185,u=30}),
-ach(1998,{awp=30002,cost={{"c",81,1},{"c",402,1}},providers={{"i",57142},{"i",57757}},rank=1,requireSkill=185,u=30}),
-ach(1999,{awp=30002,cost={{"c",81,10},{"c",402,10}},rank=10,requireSkill=185,u=30}),
-ach(2000,{awp=30002,cost={{"c",81,25},{"c",402,25}},rank=25,requireSkill=185,u=30}),
-ach(2001,{awp=30002,cost={{"c",81,50},{"c",402,50}},rank=50,requireSkill=185,u=30}),
-ach(2002,{awp=30002,cost={{"c",81,100},{"c",402,100}},rank=100,requireSkill=185,u=30})}}),
+ach(1998,{awp=30002,cost={{"c",402,1}},providers={{"i",57142},{"i",57757}},rank=1,requireSkill=185,u=30}),
+ach(1999,{awp=30002,cost={{"c",402,10}},rank=10,requireSkill=185,u=30}),
+ach(2000,{awp=30002,cost={{"c",402,25}},rank=25,requireSkill=185,u=30}),
+ach(2001,{awp=30002,cost={{"c",402,50}},rank=50,requireSkill=185,u=30}),
+ach(2002,{awp=30002,cost={{"c",402,100}},rank=100,requireSkill=185,u=30})}}),
 x(1,{requireSkill=185,g={
 ach(123,{requireSkill=185}),
 ach(122,{requireSkill=185}),
@@ -2761,7 +2761,7 @@ q(5143,{altQuests={5141,5144},coords={
 q(5148,{altQuests={5145,5146},coords={
 [224]={{36.6,34.2}}},cost={{"i",8211,1},{"i",8214,1}},learnedAt=225,lvl=40,qgs={7871},r=1,requireSkill=165,sourceQuests={2860},u=2})}})}}),
 x(2,{requireSkill=165})}),
-prof(633,{description="Lockpicking now skills up as you level, you no longer need to practice. Hovering over your Pick Lock ability will show the current level of box you can open.",OnUpdate=function(t)t.DontEnforceSkillRequirements=true;end,g={
+prof(633,{c={4},description="Lockpicking now skills up as you level, you no longer need to practice. Hovering over your Pick Lock ability will show the current level of box you can open.",DontEnforceSkillRequirements=1,g={
 r(1804,{c={4}}),
 r(921,{c={4}})}}),
 prof(186,{

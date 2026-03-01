@@ -140,6 +140,8 @@ namespace ATT.DB
         /// <param name="path">The path of the CSV file.</param>
         public static void LoadFromCSV(string path)
         {
+            System.Diagnostics.Trace.WriteLine($"Wago: {path}");
+
             // Parse the filename for the database type and locale, if specified.
             var filename = path.Substring(path.LastIndexOf('\\') + 1);
             var segments = filename.Split('.', '-', '_'); // Example: Item_enUS.1.15.7.60277

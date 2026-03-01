@@ -6375,7 +6375,7 @@ s(117566,1893,{b=1,f=22,q=3,u=2})}}),
 q(27842,{awp=40003,lvl=15,qgs={46889},r=1,g={
 qo(1,{providers={{"n",47162}}})}}),
 q(214,{coords={
-[1436]={{56.7,47.4}}},lvl=14,qgs={820},r=2,rwp=40003,sourceQuests={153},u=2,g={
+[1436]={{56.7,47.4}}},lvl=14,qgs={820},r=2,rwp=40003,sourceQuests={153,155},u=2,g={
 qo(1,{crs={594,619,824},description="Can also drop from any Defias mob in the Deadmines.",providers={{"i",915}},u=2}),
 s(120944,6094,{b=1,f=22,q=2,u=2}),
 s(117711,2089,{b=1,f=20,q=2,u=2}),

@@ -230,20 +230,20 @@ namespace ATT
 
         static int Main(string[] args)
         {
-            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(UnhandledExceptionHandler);
             // Setup tracing to the console.
             Tracer.OnWrite += Console.Write;
+            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(UnhandledExceptionHandler);
 
 #if DEBUG
             Framework.DebugMode = true;
 #endif
 
-            Framework.CurrentParseStage = ParseStage.InitializeParserConfigs;
-
-
+            // Parser Config Initialization
             try
             {
-                // Determine if running in Debug Mode or not.
+                Framework.CurrentParseStage = ParseStage.InitializeParserConfigs;
+
+                // Parse any arguments passed to Parser
                 if (args != null && args.Length > 0)
                 {
                     char[] argSplit = new[] { '=' };
@@ -258,7 +258,6 @@ namespace ATT
                 {
                     // Ensure the Parser uses the default config if nothing is specified.
                     Framework.InitConfigSettings(".config/retail/retail.config");
-
 #if DEBUG
                     Framework.InitConfigSettings(".config/retail/debug.config");
 #endif
@@ -269,6 +268,13 @@ namespace ATT
                 Framework.Objects.SINGULAR_PLURAL_FIELDS_LONG = Framework.Config["SINGULAR_PLURAL_FIELDS_LONG"];
                 Framework.Objects.NON_SORTED_FIELDS = Framework.Config["NON_SORTED_FIELDS"];
                 Framework.Objects.PASS_THRU_FIELDS = Framework.Config["PASS_THRU_FIELDS"];
+
+                foreach (var preprocessor in Framework.PreProcessorTags)
+                {
+                    Trace.WriteLine($"PREPROCESSOR: {preprocessor}");
+                }
+
+                Framework.ApplyConfigSettings();
             }
             catch (FormatException configException)
             {
@@ -277,22 +283,13 @@ namespace ATT
                 return ErrorCode;
             }
 
-            foreach (var preprocessor in Framework.PreProcessorTags)
-            {
-                Trace.WriteLine($"PREPROCESSOR: {preprocessor}");
-            }
-
-            Framework.ApplyConfigSettings();
-
+            // Load the Database
             try
             {
-                // Prepare console output to a file.
-                string databaseRootFolder = Framework.Config["root-data"] ?? "./DATAS";
-
-                Framework.CurrentParseStage = ParseStage.RawJsonMerge;
-                
+                // Step 1: Load the JSON data modules
                 do
                 {
+                    Framework.CurrentParseStage = ParseStage.RawJsonMerge;
                     Errored = false;
 
                     // Load all of the RAW JSON Data into the database.
@@ -309,14 +306,7 @@ namespace ATT
                             }
                         }
                         filenames.Sort(StringComparer.InvariantCulture);
-                        if (Debugger.IsAttached)
-                        {
-                            foreach (var filename in filenames) ParseJSONFile(filename);
-                        }
-                        else
-                        {
-                            foreach (var filename in filenames) ParseJSONFile(filename);
-                        }
+                        foreach (var filename in filenames) ParseJSONFile(filename);
 
                         if (Errored)
                         {
@@ -328,10 +318,10 @@ namespace ATT
                 }
                 while (Errored && !Framework.Automated);
 
-                // Load all Wago DB CSV files
-                Framework.CurrentParseStage = ParseStage.WagoDBMerge;
+                // Step 2: Load the Wago data modules
                 do
                 {
+                    Framework.CurrentParseStage = ParseStage.WagoDBMerge;
                     Errored = false;
 
                     // Load all of the Wago Data into the database.
@@ -365,61 +355,63 @@ namespace ATT
                             Framework.WaitForUser();
                         }
                     }
+
+                    /*
+                    // Debug all Wago Data Modules
+                    Trace.WriteLine($"ALL WAGO DATA MODULES: ");
+                    foreach (var modulePair in WagoData.GetAllDataModules())
+                    {
+                        Trace.Write("  ");
+                        Trace.Write(modulePair.Key);
+                        Trace.Write(": ");
+                        Trace.Write(modulePair.Value.Count);
+                        Trace.WriteLine(" total entries");
+                    }
+
+                    // Example of how to export localized data for a Wago Data Module
+                    if (WagoData.TryGetValue(2336, out Achievement achievement))
+                    {
+                        Trace.WriteLine($"EXPORTED DATA [{achievement.ID}]:");
+                        var exportedData = achievement.GetExportableData();
+                        if (exportedData != null)
+                        {
+                            foreach (var pair in exportedData)
+                            {
+                                Trace.Write("  ");
+                                Trace.Write(pair.Key);
+                                Trace.Write(": ");
+                                Trace.WriteLine(pair.Value);
+                            }
+                        }
+                        else Trace.WriteLine("  NO EXPORTED DATA FOUND");
+
+                        var localizedData = WagoData.GetLocalizedData<Achievement>(achievement.ID);
+
+                        Trace.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
+                        if (localizedData != null)
+                        {
+                            foreach (var pair in localizedData)
+                            {
+                                Trace.Write("  ");
+                                Trace.Write(pair.Key);
+                                Trace.WriteLine(": ");
+                                foreach (var localeDataPair in pair.Value)
+                                {
+                                    Trace.Write("   ");
+                                    Trace.Write(localeDataPair.Key);
+                                    Trace.Write(": ");
+                                    Trace.WriteLine(localeDataPair.Value);
+                                }
+                            }
+                        }
+                        else Trace.WriteLine("  NO LOCALIZED DATA FOUND");
+                        Console.ReadLine();
+                    }
+                    */
                 }
                 while (Errored && !Framework.Automated);
 
-                /*
-                // Debug all Wago Data Modules
-                Trace.WriteLine($"ALL WAGO DATA MODULES: ");
-                foreach (var modulePair in WagoData.GetAllDataModules())
-                {
-                    Trace.Write("  ");
-                    Trace.Write(modulePair.Key);
-                    Trace.Write(": ");
-                    Trace.Write(modulePair.Value.Count);
-                    Trace.WriteLine(" total entries");
-                }
-
-                // Example of how to export localized data for a Wago Data Module
-                if (WagoData.TryGetValue(2336, out Achievement achievement))
-                {
-                    Trace.WriteLine($"EXPORTED DATA [{achievement.ID}]:");
-                    var exportedData = achievement.GetExportableData();
-                    if (exportedData != null)
-                    {
-                        foreach (var pair in exportedData)
-                        {
-                            Trace.Write("  ");
-                            Trace.Write(pair.Key);
-                            Trace.Write(": ");
-                            Trace.WriteLine(pair.Value);
-                        }
-                    }
-                    else Trace.WriteLine("  NO EXPORTED DATA FOUND");
-
-                    var localizedData = WagoData.GetLocalizedData<Achievement>(achievement.ID);
-
-                    Trace.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
-                    if (localizedData != null)
-                    {
-                        foreach (var pair in localizedData)
-                        {
-                            Trace.Write("  ");
-                            Trace.Write(pair.Key);
-                            Trace.WriteLine(": ");
-                            foreach (var localeDataPair in pair.Value)
-                            {
-                                Trace.Write("   ");
-                                Trace.Write(localeDataPair.Key);
-                                Trace.Write(": ");
-                                Trace.WriteLine(localeDataPair.Value);
-                            }
-                        }
-                    }
-                    else Trace.WriteLine("  NO LOCALIZED DATA FOUND");
-                    Console.ReadLine();
-                }
-                */
+                // Step 3: Conditionally import Achievement data modules
                 if (Framework.PreProcessorTags.Contains("EXPORT_ACHIEVEMENTDB"))
                 {
                     // Pre-Wrath we want all of the achievement data.
@@ -432,86 +424,91 @@ namespace ATT
                     if (WagoData.TryGetValue(5788, out Achievement achievement)) ImportAchievementData(achievement);
                 }
 
-
-                // Load all of the Lua files into the database.
-                var mainFileName = $"{databaseRootFolder}\\..\\_main.lua";
-                var luaFiles = Directory.GetFiles(databaseRootFolder, "*.lua", SearchOption.AllDirectories).ToList();
-                // Do not iterate over the header file.
-                if (!File.Exists(mainFileName))
+                // Step 4: Load the Lua data modules
+                do
                 {
-                    Trace.WriteLine("Could not find the '_main.lua' header file.");
-                    Trace.WriteLine("Operation cannot continue without it.");
-                    Framework.WaitForUser("Press any key to close...");
-                    return ErrorCode;
-                }
-                Framework.CurrentFileName = mainFileName;
-                luaFiles.Sort(StringComparer.InvariantCulture);
-                lua.State.Encoding = Encoding.UTF8;
-                string content = "";
-                try
-                {
-                    // link the Lua 'print' function to instead perform a Trace print
+                    // Link the Lua 'print' function to instead perform a Trace print
+                    lua.State.Encoding = Encoding.UTF8;
                     lua.RegisterFunction("print", typeof(Program).GetMethod(nameof(LuaPrintAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
                     lua.RegisterFunction("error", typeof(Program).GetMethod(nameof(LuaErrorAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
-                    lua.DoString($"CurrentFileName = [[{mainFileName.Replace("\\", "/")}]];CurrentSubFileName = nil;");
-                    lua.DoString(content = ProcessContent(File.ReadAllText(mainFileName, Encoding.UTF8)));
-                }
-                catch
-                {
-                    File.WriteAllText("./ATT-ERROR-FILE.txt", content, Encoding.UTF8);
-                    throw;
-                }
-                Framework.IgnoredValue = lua.GetString("IGNORED_VALUE");
-                Framework.Validator = new DataValidator(lua, Framework.Config);
-                Framework.CurrentFileName = null;
 
-                // Try to Copy in the Alliance Only / Horde Only / All Races lists
-                try
-                {
-                    var set = new HashSet<object>();
-                    foreach (var race in lua.GetTable("ALLIANCE_ONLY").Values.AsTypedEnumerable<long>())
+                    // Load the main lua header file and all associated lib files first.
+                    string databaseRootFolder = Framework.Config["root-data"] ?? "./DATAS";
+                    string content = "";
+                    try
                     {
-                        set.Add(race);
+                        var mainFileName = $"{databaseRootFolder}\\..\\_main.lua";
+                        if (!File.Exists(mainFileName))
+                        {
+                            Trace.WriteLine("Could not find the '_main.lua' header file.");
+                            Trace.WriteLine("Operation cannot continue without it.");
+                            Framework.WaitForUser("Press any key to close...");
+                            return ErrorCode;
+                        }
+                        Framework.CurrentFileName = mainFileName;
+                        lua.DoString($"CurrentFileName = [[{mainFileName.Replace("\\", "/")}]];CurrentSubFileName = nil;");
+                        lua.DoString(content = ProcessContent(File.ReadAllText(mainFileName, Encoding.UTF8)));
                     }
-                    Framework.ALLIANCE_ONLY = set.ToList();
-
-                    set.Clear();
-                    foreach (var race in lua.GetTable("HORDE_ONLY").Values.AsTypedEnumerable<long>())
+                    catch
                     {
-                        set.Add(race);
+                        File.WriteAllText("./ATT-ERROR-FILE.txt", content, Encoding.UTF8);
+                        throw;
                     }
-                    Framework.HORDE_ONLY = set.ToList();
+                    Framework.IgnoredValue = lua.GetString("IGNORED_VALUE");
+                    Framework.Validator = new DataValidator(lua, Framework.Config);
+                    Framework.CurrentFileName = null;
 
-                    set.Clear();
-                    foreach (var race in lua.GetTable("ALL_RACES").Values.AsTypedEnumerable<long>())
+                    // Try to Copy in the Alliance Only / Horde Only / All Races lists
+                    try
                     {
-                        set.Add(race);
-                    }
-                    Framework.ALL_RACES = set.ToList();
+                        var set = new HashSet<object>();
+                        foreach (var race in lua.GetTable("ALLIANCE_ONLY").Values.AsTypedEnumerable<long>())
+                        {
+                            set.Add(race);
+                        }
+                        Framework.ALLIANCE_ONLY = set.ToList();
 
-                    set.Clear();
-                    foreach (var race in lua.GetTable("ALL_CLASSES").Values.AsTypedEnumerable<long>())
+                        set.Clear();
+                        foreach (var race in lua.GetTable("HORDE_ONLY").Values.AsTypedEnumerable<long>())
+                        {
+                            set.Add(race);
+                        }
+                        Framework.HORDE_ONLY = set.ToList();
+
+                        set.Clear();
+                        foreach (var race in lua.GetTable("ALL_RACES").Values.AsTypedEnumerable<long>())
+                        {
+                            set.Add(race);
+                        }
+                        Framework.ALL_RACES = set.ToList();
+
+                        set.Clear();
+                        foreach (var cl in lua.GetTable("ALL_CLASSES").Values.AsTypedEnumerable<long>())
+                        {
+                            set.Add(cl);
+                        }
+                        Framework.ALL_CLASSES = set.ToList();
+
+                        Framework.ALLIANCE_ONLY.Sort();
+                        Framework.HORDE_ONLY.Sort();
+                        Framework.ALL_RACES.Sort();
+                    }
+                    catch (Exception e)
                     {
-                        set.Add(race);
+                        Framework.LogException(e);
+                        Trace.WriteLine("Press Enter once you have resolved the issue.");
+                        Framework.WaitForUser();
                     }
-                    Framework.ALL_CLASSES = set.ToList();
 
-                    Framework.ALLIANCE_ONLY.Sort();
-                    Framework.HORDE_ONLY.Sort();
-                    Framework.ALL_RACES.Sort();
+                    Framework.CurrentParseStage = ParseStage.ContributorDataMerge;
+                    var luaFiles = Directory.GetFiles(databaseRootFolder, "*.lua", SearchOption.AllDirectories).ToList();
+                    luaFiles.Sort(StringComparer.InvariantCulture);
+                    foreach (var fileName in luaFiles)
+                    {
+                        ParseLUAFile(lua, fileName);
+                    }
                 }
-                catch (Exception e)
-                {
-                    Framework.LogException(e);
-                    Trace.WriteLine("Press Enter once you have resolved the issue.");
-                    Framework.WaitForUser();
-                }
-
-                Framework.CurrentParseStage = ParseStage.ContributorDataMerge;
-                foreach (var fileName in luaFiles)
-                {
-                    ParseLUAFile(lua, fileName);
-                }
+                while (Errored && !Framework.Automated);
 
                 Framework.CurrentParseStage = ParseStage.PreProcessingSetup;
                 try
@@ -628,6 +625,7 @@ namespace ATT
 
                 lua.Close();
 
+                // Step 5: Prevent further database execution until errors are resolved.
                 if (Errored && Framework.Automated)
                 {
                     Trace.WriteLine("-- Errors encountered during Parse. Please fix them to allow exporting addon DB properly.");
@@ -1019,6 +1017,8 @@ namespace ATT
 
         private static void ParseJSONFile(string fileName)
         {
+            System.Diagnostics.Trace.WriteLine($"Json: {fileName}");
+
             // Load the text and then convert it to a common JSON data format.
             var data = Framework.ToDictionary(File.ReadAllText(fileName, Encoding.UTF8));
             if (data == null)
@@ -1037,9 +1037,7 @@ namespace ATT
 
         private static void ParseLUAFile(NLua.Lua lua, string fileName)
         {
-            // copy the base LUA state for use on this file due to shared access issues
-            //Lua lua = new Lua(mainLua.State);
-            Framework.LogDebug("Parsing: " + fileName);
+            Trace.WriteLine($"Parsing: {fileName}");
             Framework.CurrentFileName = fileName;
             string content = string.Empty;
             do

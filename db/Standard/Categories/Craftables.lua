@@ -18651,12 +18651,5 @@ i(239703),
 i(239201),
 i(239202),
 i(240164),
-i(240165)}),
-h(-244,{
-q(90018,{an="s:1228941",providers={{"s",1228941}},requireSkill=197,type="hqt"}),
-q(90016,{an="s:1228939",providers={{"s",1228939}},requireSkill=197,type="hqt"}),
-q(90048,{an="s:1228971",providers={{"s",1228971}},requireSkill=197,type="hqt"}),
-q(90050,{an="s:1228973",providers={{"s",1228973}},requireSkill=197,type="hqt"}),
-q(90046,{an="s:1228969",providers={{"s",1228969}},requireSkill=197,type="hqt"}),
-q(90017,{an="s:1228940",providers={{"s",1228940}},requireSkill=197,type="hqt"})})})}})}});
+i(240165)})})}})}});
 end);
