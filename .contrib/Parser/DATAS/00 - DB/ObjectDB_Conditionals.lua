@@ -1,4 +1,3 @@
--- #if NOT DEBUG
 -- PROGRAMMATIC OBJECT LOCALES
 -- Brightly Colored Egg
 local brightlyColoredEgg = ObjectDB[113768];
@@ -241,7 +240,6 @@ ObjectDB[176213].text.es = "Sangre de Héroes";	-- Blood of Heroes
 
 -- #if BEFORE CATA
 ObjectDB[182947].icon = 133738;	-- The Codex of Blood
--- #endif
 -- #endif
 
 -- Hero's Call Board
