@@ -56,7 +56,8 @@ namespace ATT
         {
             if (CurrentParseStageHandler != null)
             {
-                Log(_timer.ElapsedMilliseconds.ToString("000000 ") + $" ...with {CurrentParseStageHandler.ActionSequence.Count} Actions...");
+                //Log(_timer.ElapsedMilliseconds.ToString("000000 ") + $" ...with {CurrentParseStageHandler.ActionSequence.Count} Actions...");
+                Log($"   ...with {CurrentParseStageHandler.ActionSequence.Count} Actions...");
                 CurrentParseStageHandler.RunActions();
             }
         }

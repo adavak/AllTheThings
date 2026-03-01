@@ -1169,27 +1169,13 @@ namespace ATT
 
                 // Build all categories
                 ConcurrentDictionary<string, Exporter> categoryBuilders = new ConcurrentDictionary<string, Exporter>();
-                if (Debugger.IsAttached)
+                foreach (var containerPair in AllContainerClones)
                 {
-                    foreach (var containerPair in AllContainerClones)
+                    if (containerPair.Value.Count > 0)
                     {
-                        if (containerPair.Value.Count > 0)
-                        {
-                            // Build the category file.
-                            categoryBuilders[containerPair.Key] = ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
-                        }
+                        // Build the category file.
+                        categoryBuilders[containerPair.Key] = ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
                     }
-                }
-                else
-                {
-                    AllContainerClones.AsParallel().ForAll((containerPair) =>
-                    {
-                        if (containerPair.Value.Count > 0)
-                        {
-                            // Build the category file.
-                            categoryBuilders[containerPair.Key] = ExportCompressedLuaCategory(containerPair.Key, containerPair.Value);
-                        }
-                    });
                 }
 
                 // Simplify the structure of each Category builder
@@ -1213,21 +1199,9 @@ namespace ATT
                     simplifyFunc = (s) => { SimplifyStructureForLua(s); };
                     Log($"Simplification with defaults (use SimplifyStructures in .config instead!)");
                 }
-
-                if (Debugger.IsAttached)
+                for (int i = 0; i < categoriesByLength.Count; i++)
                 {
-                    // use sequentual replacements when debugging so it's possible to debug at all
-                    for (int i = 0; i < categoriesByLength.Count; i++)
-                    {
-                        simplifyFunc(categoriesByLength[i].Value);
-                    }
-                }
-                else
-                {
-                    // Perform replacements on all small StringBuilders in parallel tasks
-                    // Doing as Tasks instead of AsParallel to ensure we start execution from the longest to the shortest Exporters
-                    Task[] replacementTasks = categoriesByLength.Select(s => Task.Run(() => simplifyFunc(s.Value))).ToArray();
-                    Task.WaitAll(replacementTasks);
+                    simplifyFunc(categoriesByLength[i].Value);
                 }
 
                 // Write the Category file for each builder
