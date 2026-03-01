@@ -2704,6 +2704,7 @@ i(260656);	-- Perforated Wing
 i(243845);	-- Petalwrap Sack
 i(243844);	-- Petalwrap Bag
 i(264994);	-- Pickled Bloom Shoots
+i(250317);	-- Pile of Ash
 i(260643);	-- Pile of Feathers
 i(244039);	-- Pitcher Plant Vase
 i(260662);	-- Polished Purple Pebble
@@ -2735,6 +2736,7 @@ i(265041);	-- Singed Ritual Parchment
 i(260665);	-- Sizable Tusk
 i(260616);	-- Soft Marine Fungi
 i(246376);	-- Solaarian Sintalia
+i(243478);	-- Spare Pamphlets
 i(260260);	-- Springrunner Sparkling
 i(260291);	-- Stargazer Pudding
 i(260267);	-- Steamed Hexx'alor Lobster

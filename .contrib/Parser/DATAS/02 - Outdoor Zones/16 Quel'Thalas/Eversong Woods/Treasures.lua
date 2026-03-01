@@ -106,6 +106,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				o(613252, {	-- Triple-Locked Safebox
+					["description"] = "Pick up the torch and find three keys in your general area.",
 					["coord"] = { 38.9, 76.1, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["questID"] = 93456,
 					["cost"] = {

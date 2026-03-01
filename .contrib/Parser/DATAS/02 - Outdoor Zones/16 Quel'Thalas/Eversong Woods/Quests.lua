@@ -142,17 +142,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 236087 },	-- Magister Umbric
 						["coord"] = { 47.7, 69.8, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {
-							i(244783),	-- Majestic Lightwood Table (DECOR!)
-						},
+						["groups"] = { i(244783) },	-- Majestic Lightwood Table (DECOR!)
 					}),
 					q(86622, {	-- Chance Meeting
 						["sourceQuests"] = { 90907 },	-- The First to Know
 						["provider"] = { "n", 245004 },	-- Lord Antenorian
 						["coord"] = { 47.2, 68.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
-							i(248049),	-- Eversong Chain
 							i(243221),	-- Suspicious Missive (QI!)
+							--
+							i(248049),	-- Eversong Chain
 							i(248050),	-- Tranquillien Choker
 						},
 					}),
@@ -180,16 +179,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 236686 },	-- Arator
 						["coord"] = { 47.7, 69.7, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
+							i(248084),	-- Backstabber's Back Stabber
+							i(248072),	-- Cultist's Pillaged Glaive
 							i(248064),	-- Fallen Matron's Mace
 							i(248065),	-- Gavel of the Unjust
-							i(248066),	--
+							i(248066),	-- Malicious Skullcracker
+							i(248077),	-- Protector's Discarded Shield
+							i(248074),	-- Traitor Captain's Executioner
 							i(248069),	-- Traitorous Acolyte's Blade
-							i(248072),	--
-							i(248074),	--
-							i(248077),	--
-							i(248084),	--
+							i(250356),	-- Treasonous Ranger's Longbow
 							i(250355),	-- Twilight Agitator's Stave
-							i(250356),	--
 						},
 					}),
 					q(90494, {	-- The Missing Magister
@@ -201,13 +200,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 243984 },	-- Arator
 						["coord"] = { 49.0, 68.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
-							i(248051),	-- Corrupted Twilight Cowl
 							i(243468),	-- Jeweled Key (QI!)
-							i(248052),	-- Shroud of Treachery
-							i(243478),	-- Spare Pamphlets TODO: into uncollectible?
 							o(542854, {	-- Ominous Lockbox
-								i(239134),	-- Plans of Infiltration (QI!)
+								["coord"] = { 47.1, 68.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(239134) },	-- Plans of Infiltration (QI!)
 							}),
+							--
+							i(248051),	-- Corrupted Twilight Cowl
+							i(248052),	-- Shroud of Treachery
 						},
 					}),
 					q(86781, {	-- Face the Past
@@ -461,6 +461,61 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 244454 },	-- Belath Dawnblade
 						["coord"] = { 54.5, 54.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["groups"] = { i(244547) },	-- Folded Receipt (QI!)
+					}),
+				}),
+				header(HEADERS.AchCriteria, 61957.02, {	-- Flowers for Amalthea
+					q(92021, {	-- Graveblossom Gardening
+						["sourceQuests"] = { 90494 },	-- The Missing Magister
+						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
+						["coord"] = { 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							o(568332, {	-- Blooming Graveblossom
+								["coords"] = {
+									{ 37.9, 76.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 38.1, 77.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 38.3, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 38.5, 74.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 38.9, 76.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 39.1, 77.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 39.4, 72.9, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 39.5, 74.8, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 39.5, 76.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 40.0, 74.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+									{ 40.4, 73.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+								},
+								["groups"] = { i(249471) },	-- Pristine Graveblossom (QI!)
+							}),
+						},
+					}),
+					q(92022, {	-- A Venomous Vocation
+						["sourceQuests"] = { 90494 },	-- The Missing Magister
+						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
+						["coord"] = { 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(253869) },	-- Potent Mournbat Venom (QI!)
+					}),
+					q(92023, {	-- Suspicious Sundries
+						["sourceQuests"] = {
+							92022,	-- A Venomous Vocation
+							92021,	-- Graveblossom Gardening
+						},
+						["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
+						["coord"] = { 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(254280),	-- Vial of Quicksilver (QI!)
+							i(254281),	-- Flask of Dragon's Blood (QI!)
+							i(254282),	-- Bottle of Magister's Reserve (QI!)
+						},
+					}),
+					q(92024, {	-- House Call
+						["sourceQuests"] = { 92023 },	-- Suspicious Sundries
+						["provider"] = { "n", 249426 },	-- Limien Bountcask
+						["coord"] = { 40.7, 60.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(92025, {	-- Flowers for Amalthea
+						["sourceQuests"] = { 92024 },	-- House Call
+						["provider"] = { "n", 253058 },	-- Well-Loved Tome
+						["coord"] = { 37.4, 72.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(257418) },	-- Ornate Sin'dorei Sconce (DECOR!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61957.03, {	-- Sunbath, Take Me Away
@@ -1079,127 +1134,73 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = { i(262999) },	-- Luma (PET!)
 					}),
 				}),
-				---
-				q(94370, {	-- Slithering Closer
-					["provider"] = { "n", 257393 },	-- Fern Shadestar
-					["coord"] = { 37.3, 73.9, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["isBreadcrumb"] = true,	-- Not sure but lets get some reported errors?
-				}),
-				q(91493, {	-- Not What I Ordered
-					["sourceQuests"] = { 94370 },	-- Slithering Closer
-					["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
-					["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						o(556761, {	--
-							i(246914),	-- Perfectly Fine Grain (QI!)
-						}),
-						o(556758, {	--
-							i(246910),	-- Vintage Vintage (QI!)
-						}),
-						o(556760, {	--
-							i(246912),	-- Unstable Arcana (QI!)
-						}),
-						o(556762, {	--
-							i(246911),	-- Discarded Wand (QI!)
-						}),
-						o(556759, {	--
-							i(246913),	-- Magical Mango (QI!)
-						}),
-					},
-				}),
-				q(91505, {	-- Daggers in My Spine
-					["sourceQuests"] = { 91493 },	-- Not What I Ordered
-					["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
-					["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-				}),
-				q(91494, {	-- One Elf's Trash, Another Elf's Treasure
-					["sourceQuests"] = { 91493 },	-- Not What I Ordered
-					["provider"] = { "n", 250298 },	-- Numia Golden
-					["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(247593),	-- Borrowed Wand (QI!)
-					},
-				}),
-				q(91495, {	-- Familiar Faces In Peril
-					["sourceQuests"] = { 91493 },	-- Not What I Ordered
-					["provider"] = { "n", 250291 },	-- Ranger Krenn'an
-					["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-				}),
-				q(91504, {	-- Arcane Amassing
-					["sourceQuests"] = {
-						91505,	-- Daggers in My Spine
-						91495,	-- Familiar Faces In Peril
-						91494,	-- One Elf's Trash, Another Elf's Treasure
-					},
-					["provider"] = { "n", 250388 },	-- Hathvelion Sungaze
-					["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(247753),	-- Empowered Wand (QI!)
-						i(250317),	-- Pile of Ash (TODO: into uncollectible?)
-						--
-						i(263344),	-- Eversong Farstrider's Ring Mail
-						i(263345),	-- Goldenmist Defender's Chestplate
-						i(263334),	-- Goldenmist Noble's Robes
-						i(263343),	-- Snapdragon Tunic
-					},
-				}),
-				---
-				q(92022, {	-- A Venomous Vocation
-					--["sourceQuests"] = { xx },	-- xx
-					["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
-					["coord"] = { 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(253869),	-- Potent Mournbat Venom (QI!)
-					},
-				}),
-				q(92021, {	-- Graveblossom Gardening
-					--["sourceQuests"] = { xx },	-- xx
-					["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
-					["coord"] = { 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						o(568332, {	-- Blooming Graveblossom
-							["coords"] = {
-								{ 37.9, 76.3, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 38.1, 77.1, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 38.3, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 38.5, 74.0, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 38.9, 76.4, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 39.1, 77.0, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 39.4, 72.9, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 39.5, 74.8, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 39.5, 76.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 40.0, 74.3, MAP.MIDNIGHT.EVERSONG_WOODS },
-								{ 40.4, 73.1, MAP.MIDNIGHT.EVERSONG_WOODS },
-							},
-							["groups"] = { i(249471) },	-- Pristine Graveblossom (QI!)
-						}),
-					},
-				}),
-				q(92023, {	-- Suspicious Sundries
-					["sourceQuests"] = {
-						92022,	-- A Venomous Vocation
-						92021,	-- Graveblossom Gardening
-					},
-					["provider"] = { "n", 249337 },	-- Talandra Dawnsprite
-					["coord"] = { 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(254280),	-- Vial of Quicksilver (QI!)
-						i(254281),	-- Flask of Dragon's Blood (QI!)
-						i(254282),	-- Bottle of Magister's Reserve (QI!)
-					},
-				}),
-				q(92024, {	-- House Call
-					["sourceQuests"] = { 92023 },	-- Suspicious Sundries
-					["provider"] = { "n", 249426 },	-- Limien Bountcask
-					["coord"] = { 40.7, 60.1, MAP.MIDNIGHT.EVERSONG_WOODS },
-				}),
-				q(92025, {	-- Flowers for Amalthea
-					["sourceQuests"] = { 92024 },	-- House Call
-					["provider"] = { "n", 253058 },	-- Well-Loved Tome
-					["coord"] = { 37.4, 72.1, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(257418),	-- Ornate Sin'dorei Sconce (DECOR!)
-					},
+				header(HEADERS.AchCriteria, 61957.17, {	-- Daggerspine Landing
+					q(94370, {	-- Slithering Closer
+						["sourceQuests"] = { 90494 },	-- The Missing Magister
+						["provider"] = { "n", 257393 },	-- Fern Shadestar
+						["coord"] = { 37.3, 73.9, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["isBreadcrumb"] = true,
+					}),
+					q(91493, {	-- Not What I Ordered
+						["sourceQuests"] = { 94370 },	-- Slithering Closer
+						["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
+						["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							o(556758, {	-- Intercepted Shipment
+								["coord"] = { 38.9, 61.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(246910) },	-- Vintage Vintage (QI!)
+							}),
+							o(556759, {	-- Intercepted Shipment
+								["coord"] = { 38.9, 61.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(246913) },	-- Magical Mango (QI!)
+							}),
+							o(556760, {	-- Intercepted Shipment
+								["coord"] = { 38.9, 61.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(246912) },	-- Unstable Arcana (QI!)
+							}),
+							o(556761, {	-- Intercepted Shipment
+								["coord"] = { 38.9, 61.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(246914) },	-- Perfectly Fine Grain (QI!)
+							}),
+							o(556762, {	-- Intercepted Shipment
+								["coord"] = { 38.9, 61.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(246911) },	-- Discarded Wand (QI!)
+							}),
+						},
+					}),
+					q(91505, {	-- Daggers in My Spine
+						["sourceQuests"] = { 91493 },	-- Not What I Ordered
+						["provider"] = { "n", 247503 },	-- Hathvelion Sungaze
+						["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(91494, {	-- One Elf's Trash, Another Elf's Treasure
+						["sourceQuests"] = { 91493 },	-- Not What I Ordered
+						["provider"] = { "n", 250298 },	-- Numia Golden
+						["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(247593) },	-- Borrowed Wand (PQI!)
+					}),
+					q(91495, {	-- Familiar Faces In Peril
+						["sourceQuests"] = { 91493 },	-- Not What I Ordered
+						["provider"] = { "n", 250291 },	-- Ranger Krenn'an
+						["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(91504, {	-- Arcane Amassing
+						["sourceQuests"] = {
+							91505,	-- Daggers in My Spine
+							91495,	-- Familiar Faces In Peril
+							91494,	-- One Elf's Trash, Another Elf's Treasure
+						},
+						["provider"] = { "n", 250388 },	-- Hathvelion Sungaze
+						["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(247753),	-- Empowered Wand (PQI!)
+							--
+							i(263344),	-- Eversong Farstrider's Ring Mail
+							i(263345),	-- Goldenmist Defender's Chestplate
+							i(263334),	-- Goldenmist Noble's Robes
+							i(263343),	-- Snapdragon Tunic
+						},
+					}),
 				}),
 				---
 				q(89383, {	-- One Adventurous Hatchling
