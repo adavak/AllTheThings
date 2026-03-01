@@ -584,7 +584,6 @@ root(ROOTS.Unsorted, {
 				i(244425),	-- Gibby's Marbles
 				i(244459),	-- Twilight Skirmisher's Chest Key
 				i(244462),	-- Amani Orders
-				i(244844),	-- Twilight's Blade Missive
 				i(245346),	-- Void Sample
 				i(245347),	-- Void Sample
 				i(245348),	-- Void Sample
@@ -1055,11 +1054,6 @@ root(ROOTS.Unsorted, {
 				i(263279),	-- Tidewrought Mask \\ [PH] Local Story - Leather HEAD
 				i(263280),	-- Tidewrought Coif \\ [PH] Local Story - Mail HEAD
 				i(263281),	-- Tidewrought Greathelm \\ [PH] Local Story - Plate HEAD
-				-- Quest Armor??
-				i(263374),	-- Archivist's Epaulets
-				i(263375),	-- Cultist's Shoulderpads
-				i(263376),	-- Flaresong's Shoulderguards
-				i(263378),	-- Dawnheart Pauldrons
 				-- Quest Reward
 				i(263448),	-- Eversong Bow
 				-- Quest Rewards?

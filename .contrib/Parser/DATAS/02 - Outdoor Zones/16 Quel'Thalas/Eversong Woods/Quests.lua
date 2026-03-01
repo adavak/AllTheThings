@@ -930,6 +930,91 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 61.7, 62.9, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
 				}),
+				header(HEADERS.AchCriteria, 61957.11, {	-- Paladin Rescue
+					q(90546, {	-- Missing Paladins
+						["provider"] = { "n", 242803 },	-- Taelia Fordragon
+						["coord"] = { 53.2, 69.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["races"] = ALLIANCE_ONLY,
+					}),
+					q(90547, {	-- Missing Paladins
+						--["provider"] = { "n", 242803 },	-- Taelia Fordragon
+						--["coord"] = { 53.2, 69.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["races"] = HORDE_ONLY,
+					}),
+					q(90548, {	-- Twilight Missive
+						["sourceQuests"] = {
+							90546,	-- Missing Paladins
+							90547,	-- Missing Paladins
+						},
+						["provider"] = { "n", 242890 },	-- Salandria
+						["coord"] = { 44.0, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(244844), }	-- Twilight's Blade Missive (QI!)
+					}),
+					q(90549, {	-- Signs of the Struggle
+						["sourceQuests"] = {
+							90546,	-- Missing Paladins
+							90547,	-- Missing Paladins
+						},
+						["provider"] = { "n", 242889 },	-- Taelia Fordragon
+						["coord"] = { 44.0, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90550, {	-- A Somber Sun
+						["sourceQuests"] = {
+							90546,	-- Missing Paladins
+							90547,	-- Missing Paladins
+						},
+						["provider"] = { "n", 242811 },	-- Crusader Sombersun
+						["coord"] = { 43.3, 69.8, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90551, {	-- Captured Information
+						["sourceQuests"] = {
+							90548,	-- Twilight Missive
+							90549,	-- Signs of the Struggle
+							90550,	-- A Somber Sun
+						},
+						["provider"] = { "n", 242890 },	-- Salandria
+						["coord"] = { 44.0, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90552, {	-- Interrogation
+						["sourceQuests"] = { 90551 },	-- Captured Information
+						["provider"] = { "n", 242893 },	-- Salandria
+						["coord"] = { 41.6, 72.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90570, {	-- To the Ruins of Deatholme
+						["sourceQuests"] = { 90552 },	-- Interrogation
+						["provider"] = { "n", 242894 },	-- Taelia Fordragon
+						["coord"] = { 41.6, 72.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90553, {	-- Executing the Blades
+						["sourceQuests"] = { 90570 },	-- To the Ruins of Deatholme
+						["provider"] = { "n", 242897 },	-- Salandria
+						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90554, {	-- Leave Ashes in Your Wake
+						["sourceQuests"] = { 90570 },	-- To the Ruins of Deatholme
+						["provider"] = { "n", 242897 },	-- Salandria
+						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90555, {	-- Blessing of Freedom
+						["sourceQuests"] = { 90570 },	-- To the Ruins of Deatholme
+						["provider"] = { "n", 242898 },	-- Taelia Fordragon
+						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(90556, {	-- Cutting off the Head
+						["sourceQuests"] = {
+							90553,	-- Executing the Blades
+							90554,	-- Leave Ashes in Your Wake
+							90555,	-- Blessing of Freedom
+						},
+						["provider"] = { "n", 245944 },	-- Salandria
+						["groups"] = {
+							i(263374),	-- Archivist's Epaulets
+							i(263375),	-- Cultist's Shoulderpads
+							i(263378),	-- Dawnheart Pauldrons
+							i(263376),	-- Flaresong's Shoulderguards
+						},
+					}),
+				}),
 				header(HEADERS.AchCriteria, 61957.12, {	-- How to Train Your Progege
 					q(94393, {	-- Career Counseling
 						["sourceQuests"] = { 86735 },	-- Paved in Ash
