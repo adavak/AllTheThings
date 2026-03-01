@@ -1194,7 +1194,7 @@ namespace ATT.DB
                         /*
                         else
                         {
-                            Console.WriteLine($"WAGO {ParseType.Name}: Missing property '{header}' in class.");
+                            Trace.WriteLine($"WAGO {ParseType.Name}: Missing property '{header}' in class.");
                         }
                         */
                     }

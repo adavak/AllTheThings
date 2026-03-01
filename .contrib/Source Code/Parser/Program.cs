@@ -166,24 +166,24 @@ namespace ATT
 
             /*
             // CRIEVE NOTE: Uncomment to debug data format
-            Console.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
+            Trace.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
             if (localizedData != null)
             {
                 foreach (var pair in achievementData)
                 {
-                    Console.Write("  ");
-                    Console.Write(pair.Key);
-                    Console.WriteLine(": ");
+                    Trace.Write("  ");
+                    Trace.Write(pair.Key);
+                    Trace.WriteLine(": ");
                     foreach (var localeDataPair in pair.Value)
                     {
-                        Console.Write("   ");
-                        Console.Write(localeDataPair.Key);
-                        Console.Write(": ");
-                        Console.WriteLine(localeDataPair.Value);
+                        Trace.Write("   ");
+                        Trace.Write(localeDataPair.Key);
+                        Trace.Write(": ");
+                        Trace.WriteLine(localeDataPair.Value);
                     }
                 }
             }
-            else Console.WriteLine("  NO LOCALIZED DATA FOUND");
+            else Trace.WriteLine("  NO LOCALIZED DATA FOUND");
             */
         }
 
@@ -207,24 +207,24 @@ namespace ATT
 
             /*
             // CRIEVE NOTE: Uncomment to debug data format
-            Console.WriteLine($"LOCALIZED DATA [{achievementCategory.ID}]");
+            Trace.WriteLine($"LOCALIZED DATA [{achievementCategory.ID}]");
             if (localizedData != null)
             {
                 foreach (var pair in achievementCategoryData)
                 {
-                    Console.Write("  ");
-                    Console.Write(pair.Key);
-                    Console.WriteLine(": ");
+                    Trace.Write("  ");
+                    Trace.Write(pair.Key);
+                    Trace.WriteLine(": ");
                     foreach (var localeDataPair in pair.Value)
                     {
-                        Console.Write("   ");
-                        Console.Write(localeDataPair.Key);
-                        Console.Write(": ");
-                        Console.WriteLine(localeDataPair.Value);
+                        Trace.Write("   ");
+                        Trace.Write(localeDataPair.Key);
+                        Trace.Write(": ");
+                        Trace.WriteLine(localeDataPair.Value);
                     }
                 }
             }
-            else Console.WriteLine("  NO LOCALIZED DATA FOUND");
+            else Trace.WriteLine("  NO LOCALIZED DATA FOUND");
             */
         }
 
@@ -279,7 +279,7 @@ namespace ATT
 
             foreach (var preprocessor in Framework.PreProcessorTags)
             {
-                Console.WriteLine($"PREPROCESSOR: {preprocessor}");
+                Trace.WriteLine($"PREPROCESSOR: {preprocessor}");
             }
 
             Framework.ApplyConfigSettings();
@@ -370,53 +370,53 @@ namespace ATT
 
                 /*
                 // Debug all Wago Data Modules
-                Console.WriteLine($"ALL WAGO DATA MODULES: ");
+                Trace.WriteLine($"ALL WAGO DATA MODULES: ");
                 foreach (var modulePair in WagoData.GetAllDataModules())
                 {
-                    Console.Write("  ");
-                    Console.Write(modulePair.Key);
-                    Console.Write(": ");
-                    Console.Write(modulePair.Value.Count);
-                    Console.WriteLine(" total entries");
+                    Trace.Write("  ");
+                    Trace.Write(modulePair.Key);
+                    Trace.Write(": ");
+                    Trace.Write(modulePair.Value.Count);
+                    Trace.WriteLine(" total entries");
                 }
 
                 // Example of how to export localized data for a Wago Data Module
                 if (WagoData.TryGetValue(2336, out Achievement achievement))
                 {
-                    Console.WriteLine($"EXPORTED DATA [{achievement.ID}]:");
+                    Trace.WriteLine($"EXPORTED DATA [{achievement.ID}]:");
                     var exportedData = achievement.GetExportableData();
                     if (exportedData != null)
                     {
                         foreach (var pair in exportedData)
                         {
-                            Console.Write("  ");
-                            Console.Write(pair.Key);
-                            Console.Write(": ");
-                            Console.WriteLine(pair.Value);
+                            Trace.Write("  ");
+                            Trace.Write(pair.Key);
+                            Trace.Write(": ");
+                            Trace.WriteLine(pair.Value);
                         }
                     }
-                    else Console.WriteLine("  NO EXPORTED DATA FOUND");
+                    else Trace.WriteLine("  NO EXPORTED DATA FOUND");
 
                     var localizedData = WagoData.GetLocalizedData<Achievement>(achievement.ID);
 
-                    Console.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
+                    Trace.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
                     if (localizedData != null)
                     {
                         foreach (var pair in localizedData)
                         {
-                            Console.Write("  ");
-                            Console.Write(pair.Key);
-                            Console.WriteLine(": ");
+                            Trace.Write("  ");
+                            Trace.Write(pair.Key);
+                            Trace.WriteLine(": ");
                             foreach (var localeDataPair in pair.Value)
                             {
-                                Console.Write("   ");
-                                Console.Write(localeDataPair.Key);
-                                Console.Write(": ");
-                                Console.WriteLine(localeDataPair.Value);
+                                Trace.Write("   ");
+                                Trace.Write(localeDataPair.Key);
+                                Trace.Write(": ");
+                                Trace.WriteLine(localeDataPair.Value);
                             }
                         }
                     }
-                    else Console.WriteLine("  NO LOCALIZED DATA FOUND");
+                    else Trace.WriteLine("  NO LOCALIZED DATA FOUND");
                     Console.ReadLine();
                 }
                 */
@@ -944,9 +944,9 @@ namespace ATT
             else if (!(filename.EndsWith("\\") || filename.EndsWith("/")))
             {
                 Console.WriteLine();
-                Console.WriteLine("File doesn't exist:");
-                Console.WriteLine(Path.GetFullPath(filename));
-                Console.Write("You will need to clone the Retail version of AllTheThings in order to develop for this version of the addon.");
+                Trace.WriteLine("File doesn't exist:");
+                Trace.WriteLine(Path.GetFullPath(filename));
+                Trace.Write("You will need to clone the Retail version of AllTheThings in order to develop for this version of the addon.");
                 Framework.WaitForUser();
             }
             // current subfile name is only relevant while the Lua is processing, once it's done remove it

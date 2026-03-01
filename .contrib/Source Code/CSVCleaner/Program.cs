@@ -5,14 +5,14 @@ using System.Text.RegularExpressions;
 
 if (args.Length == 0)
 {
-    Console.WriteLine("[0] => CSV File to Clean | [1] => File containing Regex line(s) for allowed CSV lines");
+    Trace.WriteLine("[0] => CSV File to Clean | [1] => File containing Regex line(s) for allowed CSV lines");
     Console.ReadKey();
     return -1;
 }
 
 foreach (var arg in args)
 {
-    Console.WriteLine($"Argument={arg}");
+    Trace.WriteLine($"Argument={arg}");
 }
 
 string filepath = args[0];
@@ -20,7 +20,7 @@ string regexFile = args[1];
 
 if (!File.Exists(filepath) || !File.Exists(regexFile))
 {
-    Console.WriteLine("[0] => CSV File to Clean | [1] => File containing Regex line(s) for allowed CSV lines");
+    Trace.WriteLine("[0] => CSV File to Clean | [1] => File containing Regex line(s) for allowed CSV lines");
     Console.ReadKey();
     return -1;
 }

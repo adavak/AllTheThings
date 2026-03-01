@@ -3001,18 +3001,18 @@ namespace ATT
                                         var maps = dict.Values.ToList();
                                         IncorporateDataField(data, "_maps", maps);
                                         /*
-                                        Console.WriteLine("ADDED MAP DATA TO ACHIEVEMENT:");
-                                        Console.WriteLine(MiniJSON.Json.Serialize(data));
+                                        Trace.WriteLine("ADDED MAP DATA TO ACHIEVEMENT:");
+                                        Trace.WriteLine(MiniJSON.Json.Serialize(data));
                                         Console.ReadLine();
                                         */
                                     }
                                     /*
                                     else
                                     {
-                                        Console.WriteLine("FAILED TO FIND MAP DATA TO ACHIEVEMENT:");
-                                        Console.WriteLine(MiniJSON.Json.Serialize(data));
-                                        Console.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
-                                        Console.WriteLine(MiniJSON.Json.Serialize(associations));
+                                        Trace.WriteLine("FAILED TO FIND MAP DATA TO ACHIEVEMENT:");
+                                        Trace.WriteLine(MiniJSON.Json.Serialize(data));
+                                        Trace.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
+                                        Trace.WriteLine(MiniJSON.Json.Serialize(associations));
                                         Console.ReadLine();
                                     }
                                     */
@@ -3020,9 +3020,9 @@ namespace ATT
                                 /*
                                 else
                                 {
-                                    Console.WriteLine("FAILED TO FIND AREA DATA TO ACHIEVEMENT:");
-                                    Console.WriteLine(MiniJSON.Json.Serialize(data));
-                                    Console.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
+                                    Trace.WriteLine("FAILED TO FIND AREA DATA TO ACHIEVEMENT:");
+                                    Trace.WriteLine(MiniJSON.Json.Serialize(data));
+                                    Trace.WriteLine(MiniJSON.Json.Serialize(existingModifierTree));
                                     Console.ReadLine();
                                 }
                                 */

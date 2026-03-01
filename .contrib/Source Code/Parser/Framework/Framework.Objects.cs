@@ -1417,7 +1417,7 @@ end");
                 // Do not include "Custom" NPC IDs. We use these for headers and most of these are going to be purged.
                 if (npcID < 1)
                 {
-                    Console.WriteLine($"INVALID NPC ID {npcID} ({MiniJSON.Json.Serialize(data)})");
+                    Trace.WriteLine($"INVALID NPC ID {npcID} ({MiniJSON.Json.Serialize(data)})");
                     Console.ReadLine();
                     return;
                 }
@@ -2534,9 +2534,9 @@ end");
                     return list;
                 }
 
-                Console.Write(field);
-                Console.Write(": ");
-                Console.WriteLine(ToJSON(value));
+                Trace.Write(field);
+                Trace.Write(": ");
+                Trace.WriteLine(ToJSON(value));
 
                 // no hope
                 throw new InvalidDataException("Failed parsing value '" + value?.ToString() + "' for field '" + field + "' merging into: " + ToJSON(item));

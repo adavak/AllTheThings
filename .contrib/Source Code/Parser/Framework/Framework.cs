@@ -793,14 +793,14 @@ namespace ATT
             CURRENT_RELEASE_PHASE_NAME = Config["DataPhase"] ?? "UNKNOWN";
             if (CURRENT_RELEASE_PHASE_NAME == "UNKNOWN")
             {
-                Console.Write("CURRENT_RELEASE_PHASE_NAME is UNKNOWN. Please make sure to assign 'DataPhase' in your config file.");
+                Trace.Write("CURRENT_RELEASE_PHASE_NAME is UNKNOWN. Please make sure to assign 'DataPhase' in your config file.");
                 Framework.WaitForUser();
                 throw new ArgumentNullException("DataPhase");
             }
             int[] configPatch = Config["DataPatch"];
             if (configPatch == null)
             {
-                Console.Write("CURRENT_RELEASE_VERSION is missing. Please make sure to assign 'DataPatch' in your config file.");
+                Trace.Write("CURRENT_RELEASE_VERSION is missing. Please make sure to assign 'DataPatch' in your config file.");
                 Framework.WaitForUser();
                 throw new ArgumentNullException("DataPatch");
             }
@@ -812,12 +812,12 @@ namespace ATT
             if (PreProcessorTags.Contains("ANYCLASSIC"))
             {
                 MAX_PHASE_ID = LAST_EXPANSION_PHASE[CURRENT_RELEASE_PHASE_NAME];
-                Console.Write("Max Phase ID: ");
-                Console.WriteLine(MAX_PHASE_ID);
+                Trace.Write("Max Phase ID: ");
+                Trace.WriteLine(MAX_PHASE_ID);
             }
             else
             {
-                Console.WriteLine("All Phases will be included in this build.");
+                Trace.WriteLine("All Phases will be included in this build.");
             }
             string[] configUseCounts = Config["TrackUseCounts"];
             if (configUseCounts != null)
@@ -2712,8 +2712,8 @@ namespace ATT
                         // Check to see if CategoryDB has any information on our category.
                         if (!CategoryDB.TryGetValue(key, out Dictionary<string, object> categoryData))
                         {
-                            Console.Write("Missing Category information for ");
-                            Console.WriteLine(key);
+                            Trace.Write("Missing Category information for ");
+                            Trace.WriteLine(key);
                             continue;
                         }
 
@@ -3080,8 +3080,8 @@ namespace ATT
                         if (!FilterDB.TryGetValue(key, out Dictionary<string, object> dataEntry))
                         {
                             // If not, report that it is missing.
-                            Console.Write("Missing Filter data for #");
-                            Console.WriteLine(key);
+                            Trace.Write("Missing Filter data for #");
+                            Trace.WriteLine(key);
                             continue;
                         }
                         CleanLocalizedField(key, "text", dataEntry, localizationForText);
