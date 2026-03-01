@@ -63,19 +63,7 @@ namespace ATT
             foreach (var act in ActionSequence)
             {
                 Framework.Log($".. Running '{act.Method.Name}' on {ActionDatas[act].Count} groups");
-                if (Debugger.IsAttached)
-                {
-                    foreach (var data in ActionDatas[act])
-                    {
-                        act(data);
-                    }
-                }
-                else
-                {
-                    // copy the set of concurrent actions into a new container for the parallel access to be allowed
-                    var actionDatas = ActionDatas[act].ToArray();
-                    actionDatas.AsParallel().ForAll(act);
-                }
+                foreach (var data in ActionDatas[act]) act(data);
             }
         }
     }
