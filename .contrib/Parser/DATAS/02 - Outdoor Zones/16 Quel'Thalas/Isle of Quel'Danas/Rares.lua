@@ -19,7 +19,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 			}),
 			n(252465, {	-- Tarhu the Ransacker
-				["coord"] = { 55.5, 28.7, MAP.MIDNIGHT.ISLE_OF_QUELDANAS_SCENARIO },
+				["coords"] = {
+					{ 55.5, 28.7, MAP.MIDNIGHT.ISLE_OF_QUELDANAS_SCENARIO },
+					{ 55.5, 28.7, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
+				},
 				["questID"] = 95011,
 				["groups"] = {
 					i(267271),	-- Nethersteel Deflectors
