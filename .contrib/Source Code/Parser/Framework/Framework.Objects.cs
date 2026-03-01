@@ -1179,25 +1179,19 @@ namespace ATT
                 }
 
                 // Simplify the structure of each Category builder
-                bool doSimplification = !PreProcessorTags.Contains("NOSIMPLIFY");
                 var categoriesByLength = categoryBuilders.OrderByDescending(b => b.Value.Length).ToList();
-                var simplifyConfig = doSimplification ? Config["SimplifyStructures"] : null;
+                var simplifyConfig = !PreProcessorTags.Contains("NOSIMPLIFY") ? Config["SimplifyStructures"] : null;
                 Action<Exporter> simplifyFunc;
-                if (simplifyConfig == null)
+                if (simplifyConfig == null || !simplifyConfig.Defined)
                 {
                     simplifyFunc = (s) => { SimplifyStructureForLua(s, 0, 0); };
                     Log("Simplification is SKIPPED");
                 }
-                else if (simplifyConfig.Defined)
+                else
                 {
                     int[] simplify = simplifyConfig;
                     simplifyFunc = (s) => { SimplifyStructureForLua(s, simplify[0], simplify[1]); };
                     Log($"Simplification with SimplifyStructures : Replacements={simplify[0]},MinUses={simplify[1]}");
-                }
-                else
-                {
-                    simplifyFunc = (s) => { SimplifyStructureForLua(s); };
-                    Log($"Simplification with defaults (use SimplifyStructures in .config instead!)");
                 }
                 for (int i = 0; i < categoriesByLength.Count; i++)
                 {
