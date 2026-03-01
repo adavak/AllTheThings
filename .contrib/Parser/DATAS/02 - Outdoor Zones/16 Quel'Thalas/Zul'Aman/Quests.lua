@@ -452,7 +452,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			n(BONUS_OBJECTIVES, {
 				q(91040, {	-- Vexatious Vilebranch
-					["coord"] = { 36.7, 34.9, MAP.MIDNIGHT.ZULAMAN },
+					["sourceQuests"] = { 86659 },	-- Breaching the Mist
+					["coord"] = { 33.8, 33.6, MAP.MIDNIGHT.ZULAMAN },
 				}),
 			}),
 			--Sojourner
