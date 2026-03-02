@@ -3008,7 +3008,13 @@ local RegisterUNIT_SPELLCAST_SENT, UnregisterUNIT_SPELLCAST_SENT
 local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- app.PrintDebug("PLAYER_SOFT_INTERACT_CHANGED",previousGuid,newGuid)
 
-	-- TODO: are these secrets in an instance??
+	-- are these secrets because blizzard is annoying?
+	if app.WOWAPI.issecretvalue(previousGuid) or app.WOWAPI.issecretvalue(newGuid) then
+		LastSoftInteract.GuidType = nil
+		LastSoftInteract.ID = nil
+		UnregisterUNIT_SPELLCAST_SENT()
+		return
+	end
 
 	-- previousGuid == newGuid when the player distance becomes close enough to interact
 	if not newGuid or previousGuid ~= newGuid then
