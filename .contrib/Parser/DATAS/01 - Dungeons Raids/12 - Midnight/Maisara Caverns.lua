@@ -47,6 +47,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				}),
 				BossOnly(RAKTUL, {
 					ach(61639),	-- Maisara Caverns
+					i(264717),	-- Amani Warding Hex (DECOR!)
+					i(256625),	-- Pattern: Hexwoven Strand (RECIPE!)
 					i(251164),	-- Amalgamation's Harness
 					i(251163),	-- Berserker's Hexclaws
 					i(251179),	-- Decaying Cuirass
@@ -65,7 +67,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				BossOnly(RAKTUL, {
 					ach(61645),	-- Mythic: Maisara Caverns
 					ach(61616),	-- Mythic: Maisara Caverns Guild Run
-					i(256625),	-- Pattern: Hexwoven Strand (RECIPE!)
 				}),
 			}),
 		},

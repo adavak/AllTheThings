@@ -1351,7 +1351,6 @@ root(ROOTS.Unsorted, {
 				i(264500),	-- Devouring Host Ritual Engine (DECOR!)
 				-- Promo?
 				i(255643),	-- Silvermoon Barrel
-				i(264717),	-- Amani Warding Hex
 				i(263383),	-- Corked Bottle of Liquid Mystery
 				i(264278),	-- Sturdy Portable Ice Chest
 				i(264279),	-- Tall Corked Bottle of Liquid Mystery
