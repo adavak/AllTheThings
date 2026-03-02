@@ -558,8 +558,8 @@ namespace ATT
             }
             set
             {
-                if (value <= _stage)
-                    throw new InvalidOperationException($"Do not regress or stagnate in ParseStage tracking: {_stage} => {value}");
+                if (value == _stage) return;
+                if (value < _stage) throw new InvalidOperationException($"Do not regress or stagnate in ParseStage tracking: {_stage} => {value}");
 
                 _stage = value;
                 Log($"PARSER STAGE: {_stage.ToString()}...");

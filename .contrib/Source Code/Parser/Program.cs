@@ -417,90 +417,94 @@ namespace ATT
                 }
 
                 // Step 4: Load the Lua data modules
-                do
+                // Link the Lua 'print' function to instead perform a Trace print
+                lua.State.Encoding = Encoding.UTF8;
+                lua.RegisterFunction("print", typeof(Program).GetMethod(nameof(LuaPrintAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
+                lua.RegisterFunction("error", typeof(Program).GetMethod(nameof(LuaErrorAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
+
+                // Load the main lua header file and all associated lib files first.
+                string databaseRootFolder = Framework.Config["root-data"] ?? "./DATAS";
+                string content = "";
+                try
                 {
-                    // Link the Lua 'print' function to instead perform a Trace print
-                    lua.State.Encoding = Encoding.UTF8;
-                    lua.RegisterFunction("print", typeof(Program).GetMethod(nameof(LuaPrintAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
-                    lua.RegisterFunction("error", typeof(Program).GetMethod(nameof(LuaErrorAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
-
-                    // Load the main lua header file and all associated lib files first.
-                    string databaseRootFolder = Framework.Config["root-data"] ?? "./DATAS";
-                    string content = "";
-                    try
+                    var mainFileName = $"{databaseRootFolder}\\..\\_main.lua";
+                    if (!File.Exists(mainFileName))
                     {
-                        var mainFileName = $"{databaseRootFolder}\\..\\_main.lua";
-                        if (!File.Exists(mainFileName))
-                        {
-                            Trace.WriteLine("Could not find the '_main.lua' header file.");
-                            Trace.WriteLine("Operation cannot continue without it.");
-                            Framework.WaitForUser("Press any key to close...");
-                            return ErrorCode;
-                        }
-                        Framework.CurrentFileName = mainFileName;
-                        lua.DoString($"CurrentFileName = [[{mainFileName.Replace("\\", "/")}]];CurrentSubFileName = nil;");
-                        lua.DoString(content = ProcessContent(File.ReadAllText(mainFileName, Encoding.UTF8)));
+                        Trace.WriteLine("Could not find the '_main.lua' header file.");
+                        Trace.WriteLine("Operation cannot continue without it.");
+                        Framework.WaitForUser("Press any key to close...");
+                        return ErrorCode;
                     }
-                    catch
-                    {
-                        File.WriteAllText("./ATT-ERROR-FILE.txt", content, Encoding.UTF8);
-                        throw;
-                    }
-                    Framework.IgnoredValue = lua.GetString("IGNORED_VALUE");
-                    Framework.Validator = new DataValidator(lua, Framework.Config);
-                    Framework.CurrentFileName = null;
-
-                    // Try to Copy in the Alliance Only / Horde Only / All Races lists
-                    try
-                    {
-                        var set = new HashSet<object>();
-                        foreach (var race in lua.GetTable("ALLIANCE_ONLY").Values.AsTypedEnumerable<long>())
-                        {
-                            set.Add(race);
-                        }
-                        Framework.ALLIANCE_ONLY = set.ToList();
-
-                        set.Clear();
-                        foreach (var race in lua.GetTable("HORDE_ONLY").Values.AsTypedEnumerable<long>())
-                        {
-                            set.Add(race);
-                        }
-                        Framework.HORDE_ONLY = set.ToList();
-
-                        set.Clear();
-                        foreach (var race in lua.GetTable("ALL_RACES").Values.AsTypedEnumerable<long>())
-                        {
-                            set.Add(race);
-                        }
-                        Framework.ALL_RACES = set.ToList();
-
-                        set.Clear();
-                        foreach (var cl in lua.GetTable("ALL_CLASSES").Values.AsTypedEnumerable<long>())
-                        {
-                            set.Add(cl);
-                        }
-                        Framework.ALL_CLASSES = set.ToList();
-
-                        Framework.ALLIANCE_ONLY.Sort();
-                        Framework.HORDE_ONLY.Sort();
-                        Framework.ALL_RACES.Sort();
-                    }
-                    catch (Exception e)
-                    {
-                        Framework.LogException(e);
-                        Trace.WriteLine("Press Enter once you have resolved the issue.");
-                        Framework.WaitForUser();
-                    }
-
-                    Framework.CurrentParseStage = ParseStage.ContributorDataMerge;
-                    var luaFiles = Directory.GetFiles(databaseRootFolder, "*.lua", SearchOption.AllDirectories).ToList();
-                    luaFiles.Sort(StringComparer.InvariantCulture);
-                    foreach (var fileName in luaFiles)
-                    {
-                        ParseLUAFile(lua, fileName);
-                    }
+                    Framework.CurrentFileName = mainFileName;
+                    lua.DoString($"CurrentFileName = [[{mainFileName.Replace("\\", "/")}]];CurrentSubFileName = nil;");
+                    lua.DoString(content = ProcessContent(File.ReadAllText(mainFileName, Encoding.UTF8)));
                 }
-                while (Errored && !Framework.Automated);
+                catch
+                {
+                    File.WriteAllText("./ATT-ERROR-FILE.txt", content, Encoding.UTF8);
+                    throw;
+                }
+                Framework.IgnoredValue = lua.GetString("IGNORED_VALUE");
+                Framework.Validator = new DataValidator(lua, Framework.Config);
+                Framework.CurrentFileName = null;
+
+                // Try to Copy in the Alliance Only / Horde Only / All Races lists
+                try
+                {
+                    var set = new HashSet<object>();
+                    foreach (var race in lua.GetTable("ALLIANCE_ONLY").Values.AsTypedEnumerable<long>())
+                    {
+                        set.Add(race);
+                    }
+                    Framework.ALLIANCE_ONLY = set.ToList();
+
+                    set.Clear();
+                    foreach (var race in lua.GetTable("HORDE_ONLY").Values.AsTypedEnumerable<long>())
+                    {
+                        set.Add(race);
+                    }
+                    Framework.HORDE_ONLY = set.ToList();
+
+                    set.Clear();
+                    foreach (var race in lua.GetTable("ALL_RACES").Values.AsTypedEnumerable<long>())
+                    {
+                        set.Add(race);
+                    }
+                    Framework.ALL_RACES = set.ToList();
+
+                    set.Clear();
+                    foreach (var cl in lua.GetTable("ALL_CLASSES").Values.AsTypedEnumerable<long>())
+                    {
+                        set.Add(cl);
+                    }
+                    Framework.ALL_CLASSES = set.ToList();
+
+                    Framework.ALLIANCE_ONLY.Sort();
+                    Framework.HORDE_ONLY.Sort();
+                    Framework.ALL_RACES.Sort();
+                }
+                catch (Exception e)
+                {
+                    Framework.LogException(e);
+                    Trace.WriteLine("Press Enter once you have resolved the issue.");
+                    Framework.WaitForUser();
+                }
+
+                Framework.CurrentParseStage = ParseStage.ContributorDataMerge;
+                var luaFiles = Directory.GetFiles(databaseRootFolder, "*.lua", SearchOption.AllDirectories).ToList();
+                luaFiles.Sort(StringComparer.InvariantCulture);
+                foreach (var fileName in luaFiles)
+                {
+                    if (Errored) break;
+                    ParseLUAFile(lua, fileName);
+                }
+
+                if (Errored)
+                {
+                    Trace.WriteLine("-- Errors encountered during Processing. Please fix them to allow exporting addon DB properly.");
+                    if(!Framework.Automated) Framework.WaitForUser("Press any key to close...");
+                    return ErrorCode;
+                }
 
                 Framework.CurrentParseStage = ParseStage.PreProcessingSetup;
                 try
