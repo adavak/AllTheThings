@@ -293,7 +293,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 		hqt(92795, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 47
 		hqt(92796, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 48
 		hqt(92797, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 49
-		--hqt(92798),	-- Level 50 (automated?)
+		--hqt(92798, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 50 (automated?)
 		hqt(92799, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 51
 		hqt(92800, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 52
 		hqt(92801, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 53
@@ -303,7 +303,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 		hqt(92806, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 57
 		hqt(92807, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 58
 		hqt(92808, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 59
-		--hqt(92809),	-- Level 60 (automated?)
+		--hqt(92809, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 60 (automated?)
 	}),
 	n(QUESTS, {
 		q(93784, {	-- A Gnawing Void of Curiosity
