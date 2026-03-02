@@ -291,6 +291,7 @@ for i,mapID in ipairs({
 
 	-- #if AFTER MID
 	2481,	-- Eastern Kingdoms
+	2480,	-- Harandar
 	2479,	-- Voidstorm
 	-- #endif
 })
