@@ -188,6 +188,23 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 60.0, 43.0, MAP.MIDNIGHT.HARANDAR },
 					["questID"] = 92305,
 				}),
+				--Unknown Renown, honestly don't think we should sort unless we get reports of specific objects not being available at x renown
+				o(571264, {	-- Glowing Moth
+					["coord"] = { 62.5, 44.3, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92254,
+				}),
+				o(571169, {	-- Glowing Moth
+					["coord"] = { 61.3, 35.2, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92217,
+				}),
+				o(571281, {	-- Glowing Moth
+					["coord"] = { 68.0, 19.9, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92257,
+				}),
+				o(571280, {	-- Glowing Moth
+					["coord"] = { 54.5, 52.0, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92258,
+				}),
 				--Higher renown (6?)
 				o(571128, {	-- Glowing Moth
 					["coord"] = { 42.2, 66.5, MAP.MIDNIGHT.HARANDAR },

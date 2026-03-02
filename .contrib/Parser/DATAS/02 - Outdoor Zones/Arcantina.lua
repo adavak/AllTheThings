@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 				["questID"] = 92356,
 			}),
 			o(571559, {	-- Pygmy Oil
-				["coord"] = { 74.7, 61.9, ARCANTINA },
+				["coord"] = { 73.0, 58.4, ARCANTINA },
 				["questID"] = 92357,
 			}),
 			o(553966, {	-- Pygmy Oil

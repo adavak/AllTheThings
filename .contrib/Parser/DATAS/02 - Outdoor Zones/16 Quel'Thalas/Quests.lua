@@ -79,7 +79,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 							["groups"] = { i(237519) },	-- Uther's Healing Kit (QI!)
 						}),
 						o(523390, {	-- Mara Fordragon's Prayer Book
-							["coord"] = { 78.5, 22.9, LIGHTS_HOPE_CHAPEL },
+							["coord"] = { 78.4, 24.7, LIGHTS_HOPE_CHAPEL },
 							["groups"] = { i(237573) },	-- Mara Fordragon's Prayer Book (QI!)
 						}),
 					},
@@ -357,15 +357,20 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 		q(91787, {	-- The Journey Ends
 			["sourceQuests"] = { 86903 },	-- The Arcantina
 			["provider"] = { "n", 237502 },	-- Arator
-			["coord"] = { 51.3, 61.7, ARCANTINA },
+			["coord"] = { 52.5, 62.3, ARCANTINA },
 		}),
 		q(91854, {	-- Deepening Shadows
-			["sourceQuests"] = { 91787 },	-- The Journey Ends
+			["description"] = "Available after completing one of the optional zones after Eversong's campaign.",
 			["provider"] = { "n", 248631 },	-- Commander Koruth Mountainfist
-			["coord"] = { 51.9, 60.8, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["coord"] = { 45.4, 70.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["groups"] = {
 				--Alex TODO: bug out and npc fade out, probably it is part of other quest chain or 90s campgain, idk
 			},
+		}),
+		q(91967, {	-- You Know This Evil?
+			["sourceQuests"] = { 91084 },	-- Looming Shadows
+			["provider"] = { "n", 235787 },	-- Lor'themar Theron
+			["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 		}),
 		header(HEADERS.Achievement, 60891, {	-- The Crimson Rogue
 			header(HEADERS.AchCriteria, 60891.01, {	-- The Regent's Request

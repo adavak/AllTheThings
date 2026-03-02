@@ -637,7 +637,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 241393 },	-- Magister Aradis
 						["coord"] = { 54.0, 34.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["groups"] = {
-							o(527218, {	-- Depleted Wardbreaker
+							o(527218, {	-- Depleted Wardbreaker	--TODO or 572333???
 								["coord"] = { 54.0, 33.9, MAP.MIDNIGHT.SILVERMOON_CITY },
 								["groups"] = { i(239511) },	-- Depleted Wardbreaker (QI!)
 							}),

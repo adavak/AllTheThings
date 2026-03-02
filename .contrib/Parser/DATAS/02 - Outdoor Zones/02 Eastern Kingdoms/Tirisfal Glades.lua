@@ -908,7 +908,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			m(SCARLET_MONASTERY_ENTRANCE, {
 				n(QUESTS, {
 					q(77644,{	-- The Scarlet Key
-						["coord"] = { 48.0, 56.3, SCARLET_MONASTERY_ENTRANCE },
+						["coord"] = { 46.9, 57.6, SCARLET_MONASTERY_ENTRANCE },
 						["timeline"] = { ADDED_10_1_7 },
 						["cost"] = { { "i", 208485, 1 } },	-- The Scarlet Key
 					}),

@@ -1096,6 +1096,11 @@ root(ROOTS.Zones, {
 						["coord"] = { 81.5, 42.2, DRAGONBLIGHT },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
+							o(189288, {	-- Wintergarde Mine Bomb
+								["coord"] = { 80.7, 41.5, DRAGONBLIGHT },
+								["groups"] = { i(37465) },	-- Wintergarde Mine Bomb (QI!)
+							}),
+							--
 							i(38002),	-- Honorborn Cloak
 							i(37960),	-- Oath Signet
 							i(38106),	-- Petrified Bone Footguards
@@ -1705,12 +1710,22 @@ root(ROOTS.Zones, {
 						["qg"] = 27506,	-- Ceristrasz
 						["coord"] = { 52.2, 50.0, DRAGONBLIGHT },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							o(189992, {	-- Ruby Acorn
+								["groups"] = { i(37727) },	-- Ruby Acorn (QI!)
+							}),
+						},
 					}),
 					q(12449, {	-- Return to the Earth (H)
 						["sourceQuest"] = 12448,	-- Heated Battle
 						["qg"] = 27763,	-- Vargastrasz
 						["coord"] = { 42.9, 50.8, DRAGONBLIGHT },
 						["races"] = HORDE_ONLY,
+						["groups"] = {
+							o(189992, {	-- Ruby Acorn
+								["groups"] = { i(37727) },	-- Ruby Acorn (QI!)
+							}),
+						},
 					}),
 					q(12251, {	-- Return to the High Commander
 						["sourceQuest"] = 12237,	-- Flight of the Wintergarde Defender

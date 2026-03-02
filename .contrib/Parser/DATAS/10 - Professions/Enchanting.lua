@@ -1057,7 +1057,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 					i(238550),	-- Pure Void Crystal
 				},
 			}),
-			o(525946, {	-- Sin'dorei Enchanting Rod //TODO or 613945???
+			o(525946, {	-- Sin'dorei Enchanting Rod --TODO or 613945???
 				["coord"] = { 63.5, 32.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 89107,
 				["groups"] = {

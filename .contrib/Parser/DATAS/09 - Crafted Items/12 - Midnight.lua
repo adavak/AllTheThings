@@ -5,7 +5,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 	i(232875),	-- Spark of Radiance
 	n(DECOR, {
 		o(618517, {	-- Thalassian Lumber
-			i(256963),	-- Thalassian Lumber
+			["maps"] = {
+				MAP.MIDNIGHT.EVERSONG_WOODS,
+				MAP.MIDNIGHT.SILVERMOON_CITY,
+			},
+			["groups"] = { i(256963) },	-- Thalassian Lumber
 		}),
 	}),
 	prof(ALCHEMY, {
@@ -700,6 +704,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(244816),	-- Recipe: Lucky Loa Lure
 			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
 		}),
+		i(241148),	-- Amani Angler's Ward
 		i(243343),	-- Angler's Anomaly
 		i(238494),	-- Another's Treasure
 		i(238371),	-- Arcane Wyrmfish
@@ -1357,13 +1362,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = SKINNING,
 		},{
-			FirstCraft(95459, 256770),	-- Skinning Bilemaw the Gluttonous
-			FirstCraft(88545, 245688),	-- Skinning Gloomclaw
-			FirstCraft(93634, 242032),	-- Skinning Oophaga
-			FirstCraft(95515, 256922),	-- Skinning Screammaxa the Matriarch
-			FirstCraft(93639, 238498),	-- Skinning Territorial Voidscythe
-			FirstCraft(95471, 242035),	-- Skinning The Devouring Invader
+			FirstSkin(95459, 256770),	-- Skinning Bilemaw the Gluttonous
+			FirstSkin(93633, 255348),	-- Skinning Dame Bloodshed
+			FirstSkin(88545, 245688),	-- Skinning Gloomclaw
+			FirstSkin(93632, 246633),	-- Skinning Harried Hawkstrider
+			FirstSkin(93634, 242032),	-- Skinning Oophaga
+			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
+			FirstSkin(93639, 238498),	-- Skinning Territorial Voidscythe
+			FirstSkin(95471, 242035),	-- Skinning The Devouring Invader
 		})),
+		spell(471014, {	-- Midnight Skinning
+			i(238523),	-- Carving Canine
+			i(238525),	-- Fantastic Fur
+			i(238518),	-- Void-Tempered Hide
+		}),
+		i(238657),	-- Lightbloom Diffuser
+		i(238659),	-- Primal Diffuser
+		i(238660),	-- Void Diffuser
+		i(238658),	-- Wild Diffuser
+		--  Lures
+		i(238652),	-- Majestic Eversong Lure
+		i(238653),	-- Majestic Zul'Aman Lure
+		i(238654),	-- Majestic Harandar Lure
+		i(238655),	-- Majestic Voidstorm Lure
+		i(238656),	-- Grand Beast Lure
 	}),
 	prof(TAILORING, {
 		n(ARMOR, {

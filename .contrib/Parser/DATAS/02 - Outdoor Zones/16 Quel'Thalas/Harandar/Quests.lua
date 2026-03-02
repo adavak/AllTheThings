@@ -1032,7 +1032,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 67.8, 27.5, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					o(529370, {	-- Stray Skyshards
-						["coord"] = { 69.6, 29.7, MAP.MIDNIGHT.HARANDAR },
+						["coords"] = {
+							{ 67.9, 30.2, MAP.MIDNIGHT.HARANDAR },
+							{ 68.4, 31.7, MAP.MIDNIGHT.HARANDAR },
+							{ 69.2, 30.3, MAP.MIDNIGHT.HARANDAR },
+							{ 69.3, 32.3, MAP.MIDNIGHT.HARANDAR },
+							{ 70.2, 29.9, MAP.MIDNIGHT.HARANDAR },
+							{ 70.2, 32.0, MAP.MIDNIGHT.HARANDAR },
+							{ 70.4, 31.4, MAP.MIDNIGHT.HARANDAR },
+						},
 						["groups"] = { i(240484) },	-- Stray Skyshards (QI!)
 					}),
 				},

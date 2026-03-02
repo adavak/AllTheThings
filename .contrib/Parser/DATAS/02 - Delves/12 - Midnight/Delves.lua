@@ -310,6 +310,9 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			["provider"] = { "i", 262586 },	-- Primeval Arcane Remnant (QI!/QS!)
 			["isWeekly"] = true,
 		}),
+		q(93453, {	-- A Grave Concern
+
+		}),
 	}),
 	n(RARES, {
 		-- TODO: Alex - I don't think there any point to source them but in case there will be achievement for it or whatever
@@ -436,7 +439,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			n(TREASURES, {
 				--o(XXXXXX, {	-- Sturdy Chest
-				--	["coord"] = { 55.7, 69.9, ATAL_AMAN },
+				--	["coord"] = { 52.9, 57.1, ATAL_AMAN },
 				--	["questID"] = 94000,
 				--}),
 				o(618270, {	-- Sturdy Chest
@@ -445,7 +448,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 					["groups"] = { i(252265) },	-- Hexed Potatoad Mucus (TOY!)
 				}),
 				--o(XXXXXX, {	-- Sturdy Chest
-				--	["coord"] = { 51.8, 64.0, ATAL_AMAN },
+				--	["coord"] = { 52.2, 64.2, ATAL_AMAN },
 				--	["questID"] = 94038,
 				--}),
 			}),
@@ -889,6 +892,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		--	-- One time rep bonus from Bountiful Delves
 		--	--q(),	-- factionName
 		})),
+		q(93866),	-- Die in a delve, trigger mail with A Grave Concern
 
 		-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 		--q(93275, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st (could be wrong and it is rep lockout for Unity Against the Void?)

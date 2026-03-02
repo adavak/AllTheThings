@@ -1395,11 +1395,12 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 			q(54766, {	-- Answer the Call
 				["sourceQuest"] = 54764,	-- Storm in Bloodhoof
-				["provider"] = { "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
-				["coord"] = { 58.3, 51.8, THUNDER_BLUFF },
-				["groups"] = {
-					i(167030),	-- Spiritwalker's Hallowed Vessel (QI!)
+				["qgs"] = {
+					36648,	-- Baine Bloodhoof <High Chieftain>
+					149528,	-- Baine Bloodhoof <High Chieftain>
 				},
+				["coord"] = { 58.3, 51.8, THUNDER_BLUFF },
+				["groups"] = { i(167030) },	-- Spiritwalker's Hallowed Vessel (QI!)
 			}),
 			q(54765, {	-- Thank Your Guide
 				["sourceQuest"] = 54766,	-- Answer the Call

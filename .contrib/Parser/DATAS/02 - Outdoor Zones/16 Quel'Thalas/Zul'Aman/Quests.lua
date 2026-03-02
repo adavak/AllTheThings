@@ -8,7 +8,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			header(HEADERS.Achievement, 41803, {	-- For Zul'Aman!
 				header(HEADERS.AchCriteria, 41803.01, {	-- Dis Was Our Land
 					q(86708, {	-- The Gates of Zul'Aman
-						--["sourceQuests"] = { 86735 },	-- Paved in Ash (Alex TODO: it (for whatever reason) fire 86736 (Paved in Ash) on alpha, fix whatever will be proper one on beta stage
+						["sourceQuests"] = {
+							86735,	-- Paved in Ash [A]
+							86736,	-- Paved in Ash [H]
+						},
+						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 240523 },	-- Scouting Map
 						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
@@ -182,11 +186,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 236140 },	-- Zul'jarra
 						["coord"] = { 51.6, 70.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							i(260461),	-- Brulagh's Torque
-							i(260459),	-- Gaahl's Gorget
 							i(239083),	-- Head of Brulagh the Crusher (QI!)
 							i(243188),	-- Head of Cragward Gaahl (QI!)
 							i(243189),	-- Head of Pulverizer Helthra (QI!)
+							--
+							i(260461),	-- Brulagh's Torque
+							i(260459),	-- Gaahl's Gorget
 							i(260458),	-- Helthra's Fetish
 						},
 					}),
@@ -445,11 +450,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 50.8, 54.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = { i(256928) },	-- Banner of the Amani Tribe (DECOR!)
 					}),
-					q(91967, {	-- You Know This Evil?
-						["sourceQuests"] = { 91084 },	-- Looming Shadows
-						["provider"] = { "n", 235787 },	-- Lor'themar Theron
-						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
-					}),
 				}),
 			}),
 			n(BONUS_OBJECTIVES, {
@@ -563,7 +563,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["groups"] = { i(241612) },	-- Lightwood Javelin (QI!)
 							}),
 							--
+							i(264456),	-- Lightwood Carved Longbow
+							i(264450),	-- Lightwood Carver's Knife
+							i(264458),	-- Lightwood Channeling Staff
+							i(264455),	-- Lightwood Crescent Blades
+							i(264454),	-- Lightwood Forager's Saber
+							i(264449),	-- Lightwood Logging Hatchet
+							i(264453),	-- Lightwood Rune Blade
+							i(264451),	-- Lightwood Spirit Cudgel
+							i(264457),	-- Lightwood Splitter Spear
 							i(264459),	-- Lightwood Sunsword
+							i(264452),	-- Lightwood Timber Maul
 						},
 					}),
 				}),
@@ -860,7 +870,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				header(HEADERS.AchCriteria, 61452.09, {	-- Loa of Murlocs
 					q(92163, {	-- The Loa of Murlocs
 						["qg"] = 257092,	-- Old Teo'zan
-						["coord"] = { 45.0, 65.0, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 46.0, 65.1, MAP.MIDNIGHT.ZULAMAN },
+						["isBreadcrumb"] = true,	-- I Think
 					}),
 					q(92164, {	-- Murloc Madness
 						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs
@@ -891,7 +902,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(92166, {	-- Following Suit
-						["sourceQuests"] = { 92165 },	-- Fish Are Food, Not Friends
+						["sourceQuests"] = { 92164 },	-- Murloc Madness
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -922,17 +933,20 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					q(92452, {	-- Not According to Plan
 						["sourceQuests"] = { 92451 },	-- I Think I Can
-						--["provider"] = { "o", XXXX },	-- Ani's Trinket Bag
+						["provider"] = { "o", 573714 },	-- Ani's Trinket Bag
 						["coord"] = { 48.7, 66.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(587574 , {	--
-								i(259345),	-- Ani's Feathered Totem (QI!)
+							o(587574 , {	-- Ani's Feathered Totem
+								["coord"] = { 47.4, 63.5, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(259345) },	-- Ani's Feathered Totem (QI!)
 							}),
-							o(587576 , {	--
-								i(259348),	-- Ani's Scented Strobilus (QI!)
+							o(587576 , {	-- Ani's Scented Strobilus
+								["coord"] = { 46.0, 62.0, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(259348) },	-- Ani's Scented Strobilus (QI!)
 							}),
-							o(587577, {	--
-								i(259350),	-- Ani's Carved Effigy (QI!)
+							o(587577, {	-- Ani's Carved Effigy
+								["coord"] = { 45.3, 61.1, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(259350) },	-- Ani's Carved Effigy (QI!)
 							}),
 						},
 					}),
@@ -940,6 +954,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 92452 },	-- Not According to Plan
 						["provider"] = { "n", 251258 },	-- Ani
 						["coord"] = { 44.6, 60.5, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(264587) },	-- Ani's Trinket Bag
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.11, {	-- Bitter Honor
@@ -980,6 +995,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 93095 },	-- Gnarldin Fury
 						["provider"] = { "n", 253997 },	-- Kel'venko
 						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							i(264462),	-- Tuskcarver's Bone Hammer
+							i(264460),	-- Tuskcarver's Fang Knife
+							i(264463),	-- Tuskcarver's Hunt Blade
+							i(264461),	-- Tuskcarver's Ritual Maul
+							i(264464),	-- Tuskcarver's Sharpstaff
+							i(264467),	-- Tuskcarver's Shield
+							i(264466),	-- Tuskcarver's Trophy
+							i(264465),	-- Tuskcarver's War Brand
+							i(269980),	-- Tuskcarver's Warglaive
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.12, {	-- The Sound of Her Voice
@@ -1063,6 +1089,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91407 },	-- The Eye of the Loa (TODO: this quest was up when you come at this place to turn in 91563, it could be up by itself here, need more testing)
 						["provider"] = { "n", 250068 },	-- Loa Speaker Tobui
 						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(246621) },	-- Venomous Horn
 					}),
 					q(91405, {	-- Validating the Venom
 						["sourceQuests"] = {
@@ -1126,9 +1153,45 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 46.8, 66.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93049, {	-- Homework Support
-						["sourceQuests"] = { 93048 },	-- Got No Rhythm
+						["sourceQuests"] = { 93047 },	-- Butchery Basics
 						["provider"] = { "n", 254144 },	-- An'jali
 						["coord"] = { 46.6, 68.0, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							o(613439, {	-- Dragonhawk Fern
+								["coords"] = {
+									{ 43.4, 70.1, MAP.MIDNIGHT.ZULAMAN },
+									{ 43.5, 67.5, MAP.MIDNIGHT.ZULAMAN },
+									{ 43.6, 66.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 44.3, 66.0, MAP.MIDNIGHT.ZULAMAN },
+									{ 44.5, 68.5, MAP.MIDNIGHT.ZULAMAN },
+									{ 44.6, 69.5, MAP.MIDNIGHT.ZULAMAN },
+									{ 44.6, 70.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 44.9, 65.4, MAP.MIDNIGHT.ZULAMAN },
+									{ 45.0, 66.9, MAP.MIDNIGHT.ZULAMAN },
+									{ 45.4, 67.8, MAP.MIDNIGHT.ZULAMAN },
+									{ 45.6, 69.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 45.9, 68.7, MAP.MIDNIGHT.ZULAMAN },
+									{ 46.2, 68.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 46.4, 65.9, MAP.MIDNIGHT.ZULAMAN },
+									{ 46.5, 67.4, MAP.MIDNIGHT.ZULAMAN },
+									{ 47.6, 67.3, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(258892) },	-- Dragonhawk Fern Frond (QI!)
+							}),
+							o(613438, {	-- Shade Lily Cluster
+								["coords"] = {
+									{ 42.1, 67.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 42.9, 69.8, MAP.MIDNIGHT.ZULAMAN },
+									{ 43.9, 64.8, MAP.MIDNIGHT.ZULAMAN },
+									{ 43.9, 71.1, MAP.MIDNIGHT.ZULAMAN },
+									{ 44.3, 67.8, MAP.MIDNIGHT.ZULAMAN },
+									{ 45.4, 65.8, MAP.MIDNIGHT.ZULAMAN },
+									{ 46.6, 68.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 46.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(258891) },	-- Pristine Shade Lily (QI!)
+							}),
+						},
 					}),
 					q(93050, {	-- Altar History
 						--["sourceQuests"] = { XXX },	-- ???
@@ -1148,6 +1211,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					q(91835, {	-- Send Dem Home
 						["sourceQuests"] = { 91833 },	-- Dirty Deeps
+						["qg"] = 248838,	-- Dak'zor
+						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91836, {	-- Respect de Totem
 						--["sourceQuests"] = { XXX },	-- ???
@@ -1200,24 +1265,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 32.2, 83.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(260410),	-- Void-Touched Refuse (QI!)
+							--
+							i(263280),	-- Tidewrought Coif
+							i(263281),	-- Tidewrought Greathelm
+							i(263279),	-- Tidewrought Mask
+							i(263278),	-- Tidewrought Veil
 						},
 					}),
 				}),
-			}),
-			--Not in but still in zone
-			--Just one quest
-			q(93049, {	-- Homework Support
-				--["sourceQuests"] = { XXX },	-- ??
-				["provider"] = { "n", 254144 },	-- An'jali
-				["coord"] = { 46.7, 68.0, MAP.MIDNIGHT.ZULAMAN },
-				["groups"] = {
-					o(613439, {	--
-						i(258892),	-- Dragonhawk Fern Frond (QI!)
-					}),
-					o(613438, {	--
-						i(258891),	-- Pristine Shade Lily (QI!)
-					}),
-				},
 			}),
 			--Possible Renown 2/3 quest?
 			q(93792, {	-- Blessings of the Loa
@@ -1249,7 +1304,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					93432,	-- Swords to Plowshares
 				},
 				["provider"] = { "n", 254827 },	-- Elder Doru
-				["coord"] = { 45.9, 47.1, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+				["coord"] = { 45.3, 44.9, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 				["groups"] = {
 					i(259967),	-- Amani Hex Stave (QI!)
 				},
@@ -1260,7 +1315,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					93432,	-- Swords to Plowshares
 				},
 				["provider"] = { "n", 254783 },	-- Torundo the Grizzled
-				["coord"] = { 45.9, 47.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+				["coord"] = { 45.5, 44.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 			}),
 			q(93437, {	-- In Their Own Blood
 				["sourceQuests"] = {
@@ -1272,6 +1327,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			q(94839, {	-- Blessings of Peril
 				["provider"] = { "i", 263938 },	-- Idol of Peril (QS!)
+			}),
+			q(93575, {	-- Maisara Caverns: Maisara Hungers
+				["qg"] = 244521,	-- Kul'amara the Fierce <Witherbark Tribe>
+				["coord"] = { 44.0, 34.6, MAP.MIDNIGHT.ZULAMAN },
+				["maps"] = { 2501 },	-- Maisara Caverns
 			}),
 		}),
 	}),

@@ -56,7 +56,6 @@ root(ROOTS.Unsorted, {
 				i(268490),	-- Apex Cache
 
 				-- Cache
-				i(268545),	-- Preyseeker's Adventurer Chest
 				i(269701),	-- Surplus Bag of Party Favors
 
 				i(269704),	-- Victorious Stormarion Cache
@@ -85,7 +84,6 @@ root(ROOTS.Unsorted, {
 				i(269974),	-- Earthen Traveler's Crusher
 				i(269978),	-- Earthen Traveler's Breaker
 				i(269979),	-- Grateful Goblin's Glaive
-				i(269980),	-- Tuskcarver's Warglaive
 				i(269985),	-- Azure Guardian's Sword
 				i(269986),	-- Dreamer's Spellblade
 				i(269987),	-- Vault Guard's Axe
@@ -252,7 +250,6 @@ root(ROOTS.Unsorted, {
 
 					-- Fishing
 					i(241147),	-- Blood Hunter Lure
-					i(241148),	-- Amani Angler's Ward
 					i(241149),	-- Ominous Octopus Lure
 					i(241150),	-- Sunwell Fish Lure
 					i(241151),	-- Rootland Crab Lure
@@ -298,28 +295,15 @@ root(ROOTS.Unsorted, {
 					i(238512),	-- Void-Tempered Leather \\ Thalassian Leather
 					i(238513),	-- Void-Tempered Scales \\ Thalassian Scales
 					i(238514),	-- Void-Tempered Scales \\ Thalassian Scales
-					i(238518),	-- Void-Tempered Hide \\ Thalassian Hide
 					i(238519),	-- Void-Tempered Hide \\ Thalassian Hide
 					i(238520),	-- Void-Tempered Plating \\ Thalassian Plating
 					i(238521),	-- Void-Tempered Plating \\ Thalassian Plating
 					i(238522),	-- Peerless Plumage
-					i(238523),	-- Carving Canine
-					i(238525),	-- Fantastic Fur
 					i(238528),	-- Majestic Claw
 					i(238529),	-- Majestic Hide
 					i(238530),	-- Majestic Fin
 					i(238531),	-- Radiant Stomach
 
-					-- Skinning
-					i(238652),	-- Majestic Eversong Lure
-					i(238653),	-- Majestic Zul'Aman Lure
-					i(238654),	-- Majestic Harandar Lure
-					i(238655),	-- Majestic Voidstorm Lure
-					i(238656),	-- Grand Beast Lure
-					i(238657),	-- Lightbloom Diffuser
-					i(238658),	-- Wild Diffuser
-					i(238659),	-- Primal Diffuser
-					i(238660),	-- Void Diffuser
 
 					-- Skinning Knowledge
 					i(238604),	-- Dornogal Carving Knife
@@ -340,7 +324,6 @@ root(ROOTS.Unsorted, {
 					i(238630),	-- Primal Hide
 					i(238631),	-- Voidstorm Leather Sample
 					i(238632),	-- Amani Tanning Oil
-					i(238633),	-- Sin'dorei Tanning Oil
 					i(238635),	-- Thalassian Skinning Knife
 				}),
 			}),
@@ -380,7 +363,6 @@ root(ROOTS.Unsorted, {
 				i(264182),	-- Kelum'ko's Generous Aromatic Gift
 				i(264183),	-- Kelum'ko's Generous Aromatic Gift
 				i(264391),	-- Sanctified Touch
-				i(264587),	-- Ani's Trinket Bag
 				i(264990),	-- Fairbreeze Franciacorta
 				i(265043),	-- Dented Voidblade Pommel
 				i(265045),	-- Sealed Blood Vial
@@ -401,10 +383,6 @@ root(ROOTS.Unsorted, {
 				i(265802),	-- Tome of Town Portal
 				i(265817),	-- Forgotten Songwriter's Quill
 				i(265824),	-- The Rootwarden's Notes
-				i(265832),	-- Incomplete Booklet of Sonnets
-				i(265833),	-- Page 1 of a Book of Sonnets
-				i(265834),	-- Page 2 of a Book of Sonnets
-				i(265835),	-- Page 3 of a Book of Sonnets
 				i(266102),	-- Ambiguous Rock
 				i(266213),	-- Incense Materials
 				i(260603),	-- Frail and Flexible Wing
@@ -596,7 +574,6 @@ root(ROOTS.Unsorted, {
 				i(246439),	-- Void Ashes
 				i(246440),	-- Cultist Femur
 				i(246443),	-- Amani Hatchet
-				i(246621),	-- Venomous Horn
 				i(246729),	-- Fang of Shadra
 				i(247422),	-- Spiteful Shadowgraft
 				i(247713),	-- Reliquary of Darkness
@@ -1046,10 +1023,6 @@ root(ROOTS.Unsorted, {
 				i(263273),	-- Fleeg's Hidewraps \\ Fleek's Hidewraps \\ [PH] Local Story - Leather LEGS
 				i(263274),	-- Furgh's Legguards \\ [PH] Local Story - Mail LEGS
 				i(263275),	-- Furgh's Legplates \\ [PH] Local Story - Plate LEGS
-				i(263278),	-- Tidewrought Veil \\ [PH] Local Story - Cloth HEAD
-				i(263279),	-- Tidewrought Mask \\ [PH] Local Story - Leather HEAD
-				i(263280),	-- Tidewrought Coif \\ [PH] Local Story - Mail HEAD
-				i(263281),	-- Tidewrought Greathelm \\ [PH] Local Story - Plate HEAD
 				-- Quest Reward
 				i(263448),	-- Eversong Bow
 				-- Quest Rewards?
@@ -1091,24 +1064,6 @@ root(ROOTS.Unsorted, {
 				i(264424),	-- Voidcaster's Staff \\ [DNT] Agility Staff
 				i(264447),	-- Ring of the Threshadon's Heart
 				i(264448),	-- Featherwoven Promise Band
-				i(264449),	-- Lightwood Logging Hatchet
-				i(264450),	-- Lightwood Carver's Knife
-				i(264451),	-- Lightwood Spirit Cudgel
-				i(264452),	-- Lightwood Timber Maul
-				i(264453),	-- Lightwood Rune Blade
-				i(264454),	-- Lightwood Forager's Saber
-				i(264455),	-- Lightwood Crescent Blades
-				i(264456),	-- Lightwood Carved Longbow
-				i(264457),	-- Lightwood Splitter Spear
-				i(264458),	-- Lightwood Channeling Staff
-				i(264460),	-- Tuskcarver's Fang Knife
-				i(264461),	-- Tuskcarver's Ritual Maul
-				i(264462),	-- Tuskcarver's Bone Hammer
-				i(264463),	-- Tuskcarver's Hunt Blade
-				i(264464),	-- Tuskcarver's Sharpstaff
-				i(264465),	-- Tuskcarver's War Brand
-				i(264466),	-- Tuskcarver's Trophy
-				i(264467),	-- Tuskcarver's Shield
 				i(264468),	-- Cloak of the Revantusk Rite
 				i(264469),	-- Ashbound Tribute Cloak
 				-- Quest Rewards?
@@ -1373,8 +1328,6 @@ root(ROOTS.Unsorted, {
 				i(264689),	-- Cuddly Sapphire Grrgle
 				i(264690),	-- Cuddly Clover Grrgle
 				i(264691),	-- Cuddly Peach Grrgle
-				i(246402),	-- Hollowed Harandar Gourds
-				i(246408),	-- Haranir Herb Rack
 				i(246959),	-- Sealed Fungal Jar
 				i(249768),	-- Fungarian Barrel
 				i(251980),	-- Fungarian Sack
@@ -1384,7 +1337,6 @@ root(ROOTS.Unsorted, {
 				i(263039),	-- Harandar Flowering Lamp
 				i(263194),	-- Harandar Glowvine Sconce \\ Harandar Glow-vine Sconce
 				i(263195),	-- Harandar Glowvine Lamppost \\ Harandar Glow-vine Lamppost
-				i(264243),	-- Firm Haranir Pillow
 				i(264245),	-- Warm Haranir Blanket
 				i(264267),	-- Rutaani Birdfeeder
 				i(264268),	-- Rutaani Birdbath

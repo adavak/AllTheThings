@@ -68,7 +68,7 @@ i(210438);	-- Wisp Dust
 i(211768);	-- Hastily Scrawled Satyr Ravings
 
 -- Midnight Greys
-i(260690);	-- Gloomy Root
+
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 
 -- Dont add anything here /Braghe
@@ -2666,6 +2666,7 @@ i(265040);	-- Fractured Void Focus
 i(265044);	-- Frayed Twilight Sash
 i(260257);	-- Ghostlands Pepper
 i(238481);	-- Glittering Garbage
+i(260690);	-- Gloomy Root
 i(260646);	-- Glowing Gland
 i(260661);	-- Glowing Shrub
 i(264995);	-- Goldenbough Preserves

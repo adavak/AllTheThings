@@ -661,6 +661,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			-- 11.0.2
 			expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 				q(84255),	-- Received item 'The Warband Map to Everywhere All At Once' (itemID 212174) - Not for me, it has to be something else - Darkal
+				q(84587),	-- user obtained within Deaths of Chromie
 			})),
 
 			-- 11.0.5

@@ -12,6 +12,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}, {
 					i(222988),	-- Elder Glowmite (MOUNT!)
 					i(265943),	-- Firm Haranir Pillow (DECOR!)
+					i(264243, {	-- Firm Haranir Pillow (DECOR!) (Available for Marl after first dust purchase)
+						["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+					}),
 					i(257159),	-- Groovewarden's Buckler (COSMETIC!)
 					i(263283),	-- Groovewarden's Dagger (COSMETIC!)
 					i(263285),	-- Groovewarden's Greatsword (COSMETIC!)

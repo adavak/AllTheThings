@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				title(665, {	-- Honorary Hara'ti <Name>
 					["minReputation"] = { FACTION_HARATI, 20 },	-- Hara'ti, Renown 20
 				}),
-				--[[n(QUESTS, sharedData({
+				n(QUESTS, sharedData({
 					["provider"] = { "n", 240407 },	-- Naynar <Renown Quartermaster>
 					["coord"] = { 50.9, 50.7, MAP.MIDNIGHT.HARANDAR },
 				}, bubbleDownRep(FACTION_HARATI, {
@@ -24,6 +24,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 2 --
 					}, {	-- RENOWN 3 --
 					}, {	-- RENOWN 4 --
+						q(92890),	-- A Handful of Voidlight Marl
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
@@ -42,12 +43,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 20 --
 						------ Paragon ------
 					},
-				}))),--]]
+				}))),
 				n(VENDORS, {
 					n(240407, {	-- Naynar <Renown Quartermaster>
 						["coord"] = { 50.9, 50.7, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = bubbleDownRep(FACTION_HARATI, {
 							{		-- RENOWN 1 --
+								i(246402, {	-- Hollowed Harandar Gourds (DECOR!)
+									["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+								}),
+								i(246408, {	-- Haranir Herb Rack (DECOR!)
+									["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+								}),
 							}, {	-- RENOWN 2 --
 								i(267481, {	-- Aspiring Hara'ti Defender's Belt
 									["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },

@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["questID"] = 94747,
 					["groups"] = { i(262616) },	-- Lively Songwriter's Quill (DECOR!)
 				}),
-				o(613697, {	-- Gift of the Phoenix
+				o(613697, {	-- Gift of the Phoenix	--TODO or 621947???
 					["coord"] = { 41.0, 19.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["questID"] = 93544,
 					["groups"] = {
@@ -100,8 +100,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							["coord"] = { 40.8, 60.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 							["groups"] = { i(256397) },	-- Packet of Instant Yeast
 						}),
-						o(587443, {	-- Ripe Grapes
-							["groups"] = { i(256232) },	-- Bunch of Ripe Grapes
+						o_repeated({	-- Ripe Grapes
+							["groups"] = {
+								i(256232),	-- Bunch of Ripe Grapes
+								o(587443),	-- Ripe Grapes
+								o(626983),	-- Ripe Grapes
+								o(626987),	-- Ripe Grapes
+							},
 						}),
 					},
 				}),

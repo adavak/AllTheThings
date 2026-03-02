@@ -135,6 +135,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 				["provider"] = { "n", 259865 },	-- Image of Astalor Bloodsworn
 				["coord"] = { 47.6, 71.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["isBreadcrumb"] = true,
+				["lvl"] = 90,
 			}),
 			q(92926, {	-- Astalor's Initiative
 				["sourceQuests"] = { 95114 },	-- Prey: A Crimson Summons
@@ -306,6 +307,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			--Currency
 			currency(3392),	-- Remnant of Anguish
 			--Used just for tooltip, you recieve item instead of it
+			i(268545),	-- Aspiring Preyseeker's Chest
 			i(257023),	-- Preyseeker's Adventurer Chest
 			i(262346),	-- Preyseeker's Champion Chest
 			i(257026),	-- Preyseeker's Veteran Chest
