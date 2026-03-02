@@ -2434,10 +2434,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
-					["crs"] = {
-						2339,	-- Twilight Thug
-						2338,	-- Twilight Disciple
-					},
 					["lvl"] = 10,
 				}),
 				q(4811, {	-- The Red Crystal
@@ -3323,6 +3319,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if BEFORE 4.0.3
 				i(3173),	-- Bear Meat
 				-- #endif
+				i(5352, {	-- Book: The Powers Below
+					["timeline"] = { REMOVED_4_0_3 },
+					["races"] = ALLIANCE_ONLY,
+					["crs"] = {
+						2339,	-- Twilight Thug
+						2338,	-- Twilight Disciple
+					},
+					["lvl"] = 10,
+				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(211471, {	-- Cliffspring Key
 					["coord"] = { 55.8, 34.2, DARKSHORE },
