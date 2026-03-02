@@ -980,6 +980,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(473, {	-- Report to Captain Stoutfist
+					["sourceQuest"] = 455,	-- The Algaz Gauntlet
 					["qg"] = 2086,	-- Valstag Ironjaw
 					["coord"] = { 10.1, 56.9, WETLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
