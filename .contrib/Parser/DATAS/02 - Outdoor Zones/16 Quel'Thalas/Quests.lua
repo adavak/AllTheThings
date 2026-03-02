@@ -375,7 +375,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 		header(HEADERS.Achievement, 60891, {	-- The Crimson Rogue
 			header(HEADERS.AchCriteria, 60891.01, {	-- The Regent's Request
 				q(91822, {	-- The Regent's Request
-					--["sourceQuests"] = { XX },	-- XX
+					["sourceQuests"] = { 86636 },	-- Void Walk With Me
 					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
 					["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
@@ -402,7 +402,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 						91823,	-- Lines Cut, Tongues Silenced
 						91824,	-- The Thieves' Trail
 					},
-					["provider"] = { "n", 248750 },	-- Valeera Sanguinar
+					["provider"] = { "n", 248874 },	-- Valeera Sanguinar
 					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
 						o(566101, {	-- Unlocked Strongbox
@@ -419,7 +419,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 			}),
 			header(HEADERS.AchCriteria, 60891.02, {	-- A Favor for the Lion
 				q(91828, {	-- A Favor for the Lion
-					["sourceQuests"] = { 91827 },	-- No Loose Ends (TODO: could be wrong)
+					["sourceQuests"] = { 91827 },	-- No Loose Ends (TODO: Nope!)
 					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
 					["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),

@@ -56,13 +56,26 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				i(264335),	-- Colossal Amani Stone Visage (DECOR!)
 			}),
 			ach(62201, {	-- The Frog and the Princesses
-				["coords"] = {	--TODO link coords to creature or criterias
-					{ 31.7, 22.6, MAP.MIDNIGHT.ZULAMAN },
-					{ 68.3, 19.3, MAP.MIDNIGHT.ZULAMAN },
-					{ 53.9, 59.6, MAP.MIDNIGHT.ZULAMAN },
-					{ 29.8, 79.2, MAP.MIDNIGHT.ZULAMAN },
-					{ 27.5, 40.1, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-				},
+				crit(112041, {	-- Princess Fita
+					["provider"] = { "n", 258937 },	-- Princess Fita
+					["coord"] = { 31.7, 22.6, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				crit(112445, {	-- Princess Gabiku
+					["provider"] = { "n", 259684 },	-- Princess Gabiku
+					["coord"] = { 68.3, 19.3, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				crit(112446, {	-- Princess Jakobu
+					["provider"] = { "n", 259682 },	-- Princess Jakobu
+					["coord"] = { 27.5, 40.1, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+				}),
+				crit(112447, {	-- Princess Tafiki
+					["provider"] = { "n", 259683 },	-- Princess Tafiki
+					["coord"] = { 53.9, 59.6, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				crit(112448, {	-- Princess Zambina
+					["provider"] = { "n", 259685 },	-- Princess Zambina
+					["coord"] = { 29.8, 79.2, MAP.MIDNIGHT.ZULAMAN },
+				}),
 			}),
 			pvp(ach(61222)),	-- Tour of Duty: Zul'Aman
 			ach(62125, {	-- Treasures of Zul'Aman

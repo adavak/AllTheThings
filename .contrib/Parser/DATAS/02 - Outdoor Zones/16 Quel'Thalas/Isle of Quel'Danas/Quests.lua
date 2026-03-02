@@ -191,11 +191,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 235787 },	-- Lor'themar Theron
 				["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 			}),
-			q(86735, {	-- Paved in Ash
+			{	-- Paved in Ash
+				["aqd"] = q(86735),	-- Paved in Ash [A]
+				["hqd"] = q(86736),	-- Paved in Ash [H]
 				["sourceQuests"] = { 86734 },	-- Diplomacy
 				["provider"] = { "n", 235787 },	-- Lor'themar Theron
 				["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
-				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(248044),	-- Reluctant Diplomat's Bracers
 					i(248042),	-- Reluctant Diplomat's Cuffs
@@ -204,21 +205,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(263231),	-- Silvermoon Curio Shelves (DECOR!)
 					i(250352),	-- Worn Supply Bag
 				},
-			}),
-			q(86736, {	-- Paved in Ash
-				["sourceQuests"] = { 86734 },	-- Diplomacy
-				["provider"] = { "n", 235787 },	-- Lor'themar Theron
-				["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(248044),	-- Reluctant Diplomat's Bracers
-					i(248042),	-- Reluctant Diplomat's Cuffs
-					i(248043),	-- Reluctant Diplomat's Vambraces
-					i(248045),	-- Reluctant Diplomat's Wraps
-					i(263231),	-- Silvermoon Curio Shelves (DECOR!)
-					i(250352),	-- Worn Supply Bag
-				},
-			}),
+			},
 			-- due to hqt after this quest, I currently treat this as end of all intro part for Midnight
 			n(BONUS_OBJECTIVES, {
 				q(89441, {	-- Clear the Decks

@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.EVERSONG_WOODS, {
 		n(QUESTS, {
-			header(HEADERS.Achievement, 41802, {	-- Eversong Woods
+			header(HEADERS.Achievement, 41802, {	-- Eversong In Reprise
 				header(HEADERS.AchCriteria, 41802.01, {	-- Whispers in the Twillight
 					q(86737, {	-- Fair Breeze, Light Bloom
 						["sourceQuests"] = { 86735 },	-- Paved in Ash
@@ -30,9 +30,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86737 },	-- Fair Breeze, Light Bloom
 						["provider"] = { "n", 236739 },	-- Magistrix Landra Dawnstrider
 						["coord"] = { 46.7, 45.7, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {
-							i(264248),	-- Sin'dorei Storage Jar (DECOR!)
-						},
+						["groups"] = { i(264248) },	-- Sin'dorei Storage Jar (DECOR!)
 					}),
 					q(86738, {	-- Sharpmaw
 						["sourceQuests"] = { 86737 },	-- Fair Breeze, Light Bloom
@@ -251,9 +249,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(86636, {	-- Void Walk With Me
 						["sourceQuests"] = { 86635 },	-- To Deatholme
 						["provider"] = { "n", 236730 },	-- Magister Umbric
-						["coord"] = { 44.7, 85.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["coord"] = { 44.3, 84.7, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
 							i(253153),	-- Stolen Knowledge (QI!)
+							--
+							i(249638),	-- Osseoclad Bonecrushers
+							i(249642),	-- Osseoclad Razorspaulders
 						},
 					}),
 				}),
@@ -262,11 +263,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86636 },	-- Void Walk With Me
 						["provider"] = { "n", 242433 },	-- Arator
 						["coord"] = { 44.6, 85.3, MAP.MIDNIGHT.EVERSONG_WOODS },
-					}),
-					q(86638, {	-- Choking Tendrils
-						["sourceQuests"] = { 86637 },	-- Anything but Reprieve
-						["provider"] = { "n", 236132 },	-- Arator
-						["coord"] = { 52.6, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
 					q(86639, {	-- What's Left
 						["sourceQuests"] = { 86637 },	-- Anything but Reprieve
@@ -277,6 +273,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(248058),	-- Suncrown Savior's Drape
 						},
 					}),
+					q(86638, {	-- Choking Tendrils
+						["sourceQuests"] = { 86637 },	-- Anything but Reprieve
+						["provider"] = { "n", 236132 },	-- Arator
+						["coord"] = { 52.6, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
 					q(86640, {	-- Premonition
 						["sourceQuests"] = {
 							86638,	-- Choking Tendrils
@@ -284,17 +285,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 236572 },	-- Lor'themar Theron
 						["coord"] = { 53.5, 54.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					}),
-					q(86642, {	-- A Foe Unseen
-						["sourceQuests"] = { 86640 },	-- Premonition
-						["provider"] = { "n", 236567 },	-- Arator
-						["coord"] = { 59.1, 51.0, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {
-							o(525307, {	-- Shipment Crate
-								["coord"] = { 60.6, 52.4, MAP.MIDNIGHT.EVERSONG_WOODS },
-								["groups"] = { i(244469) },	-- Lightbloom Axe (QI!)
-							}),
-						},
 					}),
 					q(86641, {	-- Old Scars
 						["sourceQuests"] = { 86640 },	-- Premonition
@@ -305,6 +295,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(248021),	-- Burnt Watha'nan Chainmail
 							i(248022),	-- Burnt Watha'nan Jerkin
 							i(248019),	-- Burnt Watha'nan Robes
+						},
+					}),
+					q(86642, {	-- A Foe Unseen
+						["sourceQuests"] = { 86640 },	-- Premonition
+						["provider"] = { "n", 236567 },	-- Arator
+						["coord"] = { 59.1, 51.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							o(525307, {	-- Shipment Crate
+								["coord"] = { 60.6, 52.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(244469) },	-- Lightbloom Axe (QI!)
+							}),
 						},
 					}),
 					q(86643, {	-- Following the Root
@@ -329,10 +330,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(86644, {	-- Gods Before Us
 						["sourceQuests"] = { 86643 },	-- Following the Root
 						["provider"] = { "n", 236610 },	-- Arator
-						["coord"] = { 44.3, 30.5, 2579 }, -- Wartha'nan Crypts
+						["coord"] = { 43.7, 30.1, 2579 }, -- Wartha'nan Crypts
 						["groups"] = {
 							i(244144),	-- Bloodvein Clot (QI!)
 							i(244143),	-- Bonecarapace Fangs (QI!)
+							--
 							i(252677),	-- Puzzling Crypt Relic
 						},
 					}),
@@ -349,18 +351,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 240662 },	-- Arator (mobileNPC)
 						["coord"] = { 17.1, 36.5, 2579 },	-- Wartha'nan Crypts
 						["groups"] = {
-							i(248080),	-- Enchanted Crypt Fetish
-							i(250470),	-- Enchanted Crypt Bow
 							i(250471),	-- Enchanted Crypt Battlestaff
-							i(250472),	-- Enchanted Crypt Stave
+							i(250470),	-- Enchanted Crypt Bow
 							i(250473),	-- Enchanted Crypt Claymore
-							i(250474),	-- Enchanted Crypt Greatsword
-							i(250475),	-- Enchanted Crypt Sword
+							i(250479),	-- Enchanted Crypt Cleaver
 							i(250476),	-- Enchanted Crypt Falchion
+							i(248080),	-- Enchanted Crypt Fetish
+							i(250474),	-- Enchanted Crypt Greatsword
 							i(250477),	-- Enchanted Crypt Hacker
 							i(250478),	-- Enchanted Crypt Hatchet
-							i(250479),	-- Enchanted Crypt Cleaver
 							i(250480),	-- Enchanted Crypt Shiv
+							i(250472),	-- Enchanted Crypt Stave
+							i(250475),	-- Enchanted Crypt Sword
 						},
 					}),
 					q(86647, {	-- Beat of Blood
@@ -383,17 +385,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86648 },	-- Light Guide Us
 						["provider"] = { "n", 241654 },	-- High-Exarch Turalyon
 						["coord"] = { 60.2, 81.5, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {
-						},
 					}),
 					q(86650, {	-- Fractured
 						["sourceQuests"] = { 86649 },	-- Past Redemption
 						["provider"] = { "n", 237433 },	-- Lor'themar Theron
 						["coord"] = { 60.6, 81.5, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {
-							i(244538),	-- Silvermoon Sundial (DECOR!)
-							--spell(1251016),	-- Silvermoon Wartable (not really NYI but seems to be lead only in 1 quest chain atm)
-						},
+						["groups"] = { i(244538) },	-- Silvermoon Sundial (DECOR!)
 					}),
 				}),
 			}),
@@ -720,6 +717,46 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 89207 },	-- Rats Can Bite
 						["provider"] = { "n", 241404 },	-- Jaeth
 						["coord"] = { 53.0, 33.2, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+				}),
+				header(HEADERS.AchCriteria, 61957.06, {	-- One Adventurous Hatchling
+					q(89383, {	-- One Adventurous Hatchling
+						["sourceQuests"] = { 86650 },	-- Fractured
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(89384, {	-- A Hungry Flock
+						["sourceQuests"] = { 86650 },	-- Fractured
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(244214),	-- Juicy Frog Leg (QI!)
+						},
+					}),
+					q(89386, {	-- A Roost-ed Development
+						["sourceQuests"] = { 86650 },	-- Fractured
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							o(547829, {	-- Golden Sunleaf
+								["coord"] = { 53.4, 35.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["groups"] = { i(245531) },	-- Golden Sunleaf (QI!)
+							}),
+						},
+					}),
+					q(89385, {	-- First Step Into Parenthood
+						["sourceQuests"] = {
+							89384,	-- A Hungry Flock
+							89386,	-- A Roost-ed Development
+							89383,	-- One Adventurous Hatchling
+						},
+						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
+						["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(262510, {	-- Hawkstrider Egg
+								i(244339),	-- Hawkstrider Hatchling (PET!)
+							}),
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61957.07, {	-- Far Striding
@@ -1288,45 +1325,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(263343),	-- Snapdragon Tunic
 						},
 					}),
-				}),
-				---
-				q(89383, {	-- One Adventurous Hatchling
-					--["sourceQuests"] = { xx },	-- xx
-					["provider"] = { "n", 241553 },	-- Vaelith Sunplume
-					["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-				}),
-				q(89384, {	-- A Hungry Flock
-					--["sourceQuests"] = { xx },	-- xx
-					["provider"] = { "n", 241553 },	-- Vaelith Sunplume
-					["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(244214),	-- Juicy Frog Leg (QI!)
-					},
-				}),
-				q(89386, {	-- A Roost-ed Development
-					--["sourceQuests"] = { xx },	-- xx
-					["provider"] = { "n", 241553 },	-- Vaelith Sunplume
-					["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						o(547829, {	-- Golden Sunleaf
-							["coord"] = { 53.4, 35.2, MAP.MIDNIGHT.EVERSONG_WOODS },
-							["groups"] = { i(245531) },	-- Golden Sunleaf (QI!)
-						}),
-					},
-				}),
-				q(89385, {	-- First Step Into Parenthood
-					["sourceQuests"] = {
-						89384,	-- A Hungry Flock
-						89386,	-- A Roost-ed Development
-						89383,	-- One Adventurous Hatchling
-					},
-					["provider"] = { "n", 241553 },	-- Vaelith Sunplume
-					["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-					["groups"] = {
-						i(262510, {	-- Hawkstrider Egg
-							i(244339),	-- Hawkstrider Hatchling (PET!)
-						}),
-					},
 				}),
 			}),
 		}),
