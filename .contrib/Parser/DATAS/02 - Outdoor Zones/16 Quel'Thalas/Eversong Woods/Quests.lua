@@ -935,11 +935,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 242803 },	-- Taelia Fordragon
 						["coord"] = { 53.2, 69.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["races"] = ALLIANCE_ONLY,
+						["lvl"] = 90,
 					}),
 					q(90547, {	-- Missing Paladins
 						--["provider"] = { "n", 242803 },	-- Taelia Fordragon
 						--["coord"] = { 53.2, 69.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = 90,
 					}),
 					q(90548, {	-- Twilight Missive
 						["sourceQuests"] = {

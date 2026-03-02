@@ -79,6 +79,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(95245, {	-- Midnight: World Tour
 				["provider"] = { "n", 235787 },	-- Lor'themar Theron
 				["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["lvl"] = 90,
 			}),
 			q(95276, {	-- The Last Push
 				["description"] = "Finish the main campaign before level 90 to access.",

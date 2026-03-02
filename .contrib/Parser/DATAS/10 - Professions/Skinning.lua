@@ -986,6 +986,11 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 			--}),
 		}),
 		n(TREASURES, {
+			o(525897, {	-- Lightbloom Afflicted Hide
+				["coord"] = { 76.0, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["questID"] = 89166,
+				["groups"] = { i(238628) },	-- Lightbloom Afflicted Hide
+			}),
 			o(525892, {	-- Sin'dorei Tanning Oil
 				["coord"] = { 43.2, 55.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["questID"] = 89171,

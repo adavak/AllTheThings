@@ -608,7 +608,10 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			n(QUESTS, {
 				q(93427, {	-- Delver's Call: Sunkiller Sanctum
 					["provider"] = { "o", 612354 },	-- Sunkiller Sanctum
-					["coord"] = { 63.4, 34.8, SUNKILLER_SANCTUM },
+					["coords"] = {
+						{ 42.7, 70.8, MAP.MIDNIGHT.VOIDSTORM },
+						{ 63.4, 34.8, SUNKILLER_SANCTUM },
+					},
 				}),
 			}),
 			n(TREASURES, {

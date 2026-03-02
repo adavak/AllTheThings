@@ -2314,6 +2314,7 @@ local AccountWideQuestsDB = {
 	92080,	-- Cartel Ba Dead Drop
 	92173,	-- Ensemble: Shoulderguards of the Wastelander Seer
 	92175,	-- Ensemble: Ancient Capes of the Reshii
+	92386,	-- A Handful of Voidlight Marl (Amani Tribe)
 	92402,	-- Magical Touch
 	92417,	-- Farm to Table
 	92429,	-- Alternative Skinning
@@ -2348,6 +2349,7 @@ local AccountWideQuestsDB = {
 	92863,	-- Ensemble: Triumvirate High Guard's Battlegear
 	92886,	-- Taeshalach
 	92889,	-- Arsenal: Odyn's Spears
+	92890,	-- A Handful of Voidlight Marl (Hara'ti)
 	92961,	-- Decor Treasure Hunt
 	92962,	-- Decor Treasure Hunt
 	92963,	-- Decor Treasure Hunt
@@ -2450,6 +2452,7 @@ local AccountWideQuestsDB = {
 	93151,	-- Decor Treasure Hunt
 	93152,	-- Decor Treasure Hunt
 	93154,	-- Ensemble: Sargerei Commander's Voidscarred Regalia
+	93200,	-- A Handful of Voidlight Marl (Silvermoon Court)
 	94210,	-- Feathering the Nest
 	94377,	-- Warden's Companion
 	94378,	-- Duskytooth Fel Snooter
@@ -2457,6 +2460,7 @@ local AccountWideQuestsDB = {
 	94415,	-- Plumbing the Void
 	94416,	-- Rehoming Technology
 	94455,	-- Home at Last
+	94469,	-- A Handful of Voidlight Marl (The Singularity)
 	94995,	-- To Dye For
 	95166,	-- Pet the Dog (245551)
 

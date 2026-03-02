@@ -1476,7 +1476,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(208564),	-- Lesser Verdant Trophy of Conquest
 			i(209348),	-- Lydiara's Notes
 			i(210443),	-- Matchbook
-			i(208856),	-- Pocket Lint
 			i(211418),	-- Q'onzu Edict of Change
 			i(208690),	-- Roottwined Key
 			i(208839),	-- Rune of Adaptive Binding

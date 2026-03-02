@@ -175,6 +175,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 28.2, 66.0, MAP.MIDNIGHT.VOIDSTORM },
 				["questID"] = 94462,
 				["groups"] = {
+					i(264634),	-- Spire of Flowing Void
 					i(264596),	-- Voidthread Veil
 				},
 			}),
@@ -270,21 +271,21 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 					["name"] = "Tremora weekly reputation obtained.",
 				}),
 				--Stormarion Assault rares missing weekly rep flags
-				--q(YYYYY, {	-- Weekly reputation: Abysslick
-				--	["name"] = "Abysslick weekly reputation obtained.",
-				--}),
+				q(94750, {	-- Weekly reputation: Abysslick
+					["name"] = "Abysslick weekly reputation obtained.",
+				}),
 				--q(YYYYY, {	-- Weekly reputation: Blackcore
 				--	["name"] = "Blackcore weekly reputation obtained.",
 				--}),
-				--q(YYYYY, {	-- Weekly reputation: Nullspiral
-				--	["name"] = "Nullspiral weekly reputation obtained.",
-				--}),
-				--q(YYYYY, {	-- Weekly reputation: The Many-Broken
-				--	["name"] = "The Many-Broken weekly reputation obtained.",
-				--}),
-				--q(YYYYY, {	-- Weekly reputation: Voidseer Orivane
-				--	["name"] = "Voidseer Orivane weekly reputation obtained.",
-				--}),
+				q(94760, {	-- Weekly reputation: Nullspiral
+					["name"] = "Nullspiral weekly reputation obtained.",
+				}),
+				q(94764, {	-- Weekly reputation: The Many-Broken
+					["name"] = "The Many-Broken weekly reputation obtained.",
+				}),
+				q(94765, {	-- Weekly reputation: Voidseer Orivane
+					["name"] = "Voidseer Orivane weekly reputation obtained.",
+				}),
 			}),
 		}),
 	}),

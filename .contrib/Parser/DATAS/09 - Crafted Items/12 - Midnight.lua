@@ -702,6 +702,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		filter(RECIPES, {
 			i(244791),	-- Recipe: Amani Angler's Ward
 			i(244816),	-- Recipe: Lucky Loa Lure
+			i(244815),	-- Recipe: Ominous Octopus Lure
 			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
 		}),
 		i(241148),	-- Amani Angler's Ward
@@ -722,6 +723,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238366),	-- Lynxfish
 		i(238380),	-- Null Voidfish
 		i(238373),	-- Ominous Octopus
+		i(241149),	-- Ominous Octopus Lure
 		i(238372),	-- Restored Songfish
 		i(238367),	-- Root Crab
 		i(238378),	-- Shimmersiren
@@ -1375,6 +1377,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(238523),	-- Carving Canine
 			i(238525),	-- Fantastic Fur
 			i(238518),	-- Void-Tempered Hide
+			i(238513),	-- Void-Tempered Scales
+			i(238514),	-- Void-Tempered Scales +
 		}),
 		i(238657),	-- Lightbloom Diffuser
 		i(238659),	-- Primal Diffuser

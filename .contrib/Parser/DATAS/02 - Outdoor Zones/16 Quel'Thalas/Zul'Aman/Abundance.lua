@@ -55,6 +55,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					ach(61681),	-- Abundance: You Should See Him in a Crown
 				}),
 				n(QUESTS, {
+					q(91933, {	-- The Abundant Honor
+						["qg"] = 251601,	-- Dundun <Loa of Abundance>
+						["coord"] = { 31.6, 26.1, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(252607) },	-- Abundant Beacon (QI!)
+					}),
 					q(91930, {	-- The Abundant Lands
 						["qg"] = 241924,	-- Chel the Chip
 						["coord"] = { 45.1, 67.6, MAP.MIDNIGHT.ZULAMAN },

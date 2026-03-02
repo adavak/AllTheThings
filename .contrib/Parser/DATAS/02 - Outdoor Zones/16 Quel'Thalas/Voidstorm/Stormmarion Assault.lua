@@ -59,6 +59,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						i(251284),	-- Anomaly Inverter (QI!)
 					},
 				}),
+				q(91928, {	-- What's For Lunch? --TODO I think this goes here
+					["coord"] = { 26.4, 67.9, MAP.MIDNIGHT.VOIDSTORM },
+				}),
 			}),
 			n(REWARDS, {
 				i(246951),	-- Stormarion Core
@@ -87,7 +90,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				n(QUESTS, {
 					q(90962, {["repeatable"]=true}),	-- "Stormarion Assault", Right when it start (Stage 1 of 7)/ (un)flag completed after successful completion of event (wq unlock?)
 					q(90943),	-- "Stormarion Assault", Before Wave 1 preparation? / (un)flag completed right before end of event
-					q(91938),	-- 
+					q(91938),	--
 					--q(91463?),	-- Wave 1 started (Stage 2 of 7), no hqt
 					q(91464),	-- Wave 2 preparation started (Stage 3 of 7)
 					q(91465),	-- Wave 3 preparation started (Stage 5 of 7)

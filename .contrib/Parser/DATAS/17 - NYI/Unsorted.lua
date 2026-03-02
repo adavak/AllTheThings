@@ -78,7 +78,6 @@ root(ROOTS.Unsorted, {
 				i(268274),	-- Blinky's Collar
 			}),
 			n(WEAPONS, {
-				i(268921),	-- Staff of the Great Dark
 				i(269972),	-- Arathi Miner's Pickaxe
 				i(269973),	-- Warglaive of Unyielding Will
 				i(269974),	-- Earthen Traveler's Crusher
@@ -250,7 +249,6 @@ root(ROOTS.Unsorted, {
 
 					-- Fishing
 					i(241147),	-- Blood Hunter Lure
-					i(241149),	-- Ominous Octopus Lure
 					i(241150),	-- Sunwell Fish Lure
 					i(241151),	-- Rootland Crab Lure
 
@@ -258,7 +256,6 @@ root(ROOTS.Unsorted, {
 					i(243248),	-- Anomaly Filament
 
 					-- Fishing
-					i(244815),	-- Recipe: Ominous Octopus Lure
 					i(244817),	-- Recipe: Blood Hunter Lure
 					i(244818),	-- Recipe: Rootland Crab Lure
 				}),
@@ -293,8 +290,6 @@ root(ROOTS.Unsorted, {
 				}),
 				prof(SKINNING, {
 					i(238512),	-- Void-Tempered Leather \\ Thalassian Leather
-					i(238513),	-- Void-Tempered Scales \\ Thalassian Scales
-					i(238514),	-- Void-Tempered Scales \\ Thalassian Scales
 					i(238519),	-- Void-Tempered Hide \\ Thalassian Hide
 					i(238520),	-- Void-Tempered Plating \\ Thalassian Plating
 					i(238521),	-- Void-Tempered Plating \\ Thalassian Plating
@@ -319,7 +314,6 @@ root(ROOTS.Unsorted, {
 					i(238625),	-- Fine Void-Tempered Hide \\ Fine Thalassian Hide
 					i(238626),	-- Mana-Infused Bone
 					i(238627),	-- Manafused Sample
-					i(238628),	-- Lightbloom Afflicted Hide
 					i(238629),	-- Cadre Skinning Knife
 					i(238630),	-- Primal Hide
 					i(238631),	-- Voidstorm Leather Sample
@@ -477,7 +471,6 @@ root(ROOTS.Unsorted, {
 				i(264972),	-- Voidstorm Victuals
 				i(264988),	-- Endgame Essentials
 				i(265790),	-- Cache of Dawncrests
-				i(267299),	-- Slayer's Duellum Trove
 
 				-- Food
 				i(260278),	-- Potatoad Salad \\ Food 80 01
@@ -551,7 +544,6 @@ root(ROOTS.Unsorted, {
 				i(239226),	-- [DNT]zzOldVoid Resonator
 				i(239498),	-- Strange Sigil
 				i(240838),	-- Twilight's Blade Missive
-				i(241000),	-- Cracked Holokey
 				i(241155),	-- Void Condenser
 				i(243588),	-- Limonite Ochre
 				i(244194),	-- Torn-Out Page
@@ -575,7 +567,6 @@ root(ROOTS.Unsorted, {
 				i(246440),	-- Cultist Femur
 				i(246443),	-- Amani Hatchet
 				i(246729),	-- Fang of Shadra
-				i(247422),	-- Spiteful Shadowgraft
 				i(247713),	-- Reliquary of Darkness
 				i(247854),	-- Filled Reliquary of Darkness
 				i(248082),	-- Shiny Object
@@ -642,21 +633,14 @@ root(ROOTS.Unsorted, {
 				i(258573),	-- Plant Dye
 				i(258738),	-- A Cordial Invitation
 				i(258890),	-- Boar Carcass \\ [PH] Boar Carcass
-				i(260363),	-- Ancient Rubble \\ Ancient Predecean Rubble
 				i(260368),	-- Dirt
-				i(260948),	-- Enigmatic Voidclarion \\ Enigmatic Voidcaller
 				i(263446),	-- Spare Murloc Suit
 				i(263471),	-- Fire Thing
 				i(264009),	-- S.O.S in a Bottle
 				i(264166),	-- Void Artifact Shard
-				i(264188),	-- Golden Vidious Card
-				i(264189),	-- Golden Ziadan Card
 				i(264191),	-- Ziadan's Stolen Battleplans
 				i(264192),	-- Vidious' Stolen Battleplans
 				i(264357),	-- Void-Ridden Crab Meat
-				i(264363),	-- Gar'chak Skullcleave's Head
-				i(264364),	-- Hardin Steellock's Head
-				i(264380),	-- Contract of Service
 				i(265655),	-- Ritual Components
 				i(265710),	-- Elementary Voidcore
 				i(265749),	-- Idol of the Depths \\ [PH] Threshadon Loa Blessing
@@ -707,9 +691,6 @@ root(ROOTS.Unsorted, {
 			n(SPECIAL, {
 				-- Abundance
 				i(239611),	-- Pure Loanite
-				-- Abundance
-				i(252607),	-- Abundant Beacon \\ [TUTORIAL ITEM]
-				i(252608),	-- Unalloyed Abundance \\ [OLD] Unalloyed Abundance
 				-- Eversong event?
 				i(242241),	-- Latent Arcana
 				i(242250),	-- Brimming Arcana
@@ -1046,22 +1027,9 @@ root(ROOTS.Unsorted, {
 				i(264287),	-- Voidbreaker's Circle
 				i(264288),	-- Voidbreaker's Ring
 				-- Quest rewards?
-				i(264403),	-- Repurposed Farstrider Slippers
-				i(264404),	-- Repurposed Farstrider Boots
-				i(264405),	-- Repurposed Farstrider Treads
-				i(264406),	-- Repurposed Farstrider Stompers
 				i(264411),	-- Thief's Ring of Remembrance
 				i(264412),	-- Sin'dorei Magister's Keepsake
 				-- Rewards from what? Quests?
-				i(264415),	-- Voidcaster's Bow \\ [DNT] Agility Bow
-				i(264417),	-- Voidcaster's Greatsword \\ [DNT] Strength Greatsword
-				i(264418),	-- Voidcaster's Cleaver \\ [DNT] Strength Axe
-				i(264419),	-- Voidcaster's Scepter \\ [DNT] Intelligence Mace
-				i(264420),	-- Voidcaster's Warglaive \\ [DNT] Intelligence Glaive
-				i(264421),	-- Voidcaster's Channeler \\ [DNT] Intelligence Staff
-				i(264422),	-- Voidcaster's Dagger \\ [DNT] Agility Dagger
-				i(264423),	-- Voidcaster's Reaver \\ [DNT] Agility Axe
-				i(264424),	-- Voidcaster's Staff \\ [DNT] Agility Staff
 				i(264447),	-- Ring of the Threshadon's Heart
 				i(264448),	-- Featherwoven Promise Band
 				i(264468),	-- Cloak of the Revantusk Rite
@@ -1410,7 +1378,6 @@ root(ROOTS.Unsorted, {
 				i(264557),	-- Borerplate Pauldrons
 				i(264605),	-- Choker of Unyielding Winds
 				i(264625),	-- Gale Force Focus
-				i(264634),	-- Spire of Flowing Void
 				i(264641),	-- Sharpened Skullcleaver
 			}),
 		})),

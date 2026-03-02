@@ -742,6 +742,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				--header(HEADERS.AchCriteria, 61739.01, {	-- Bloomtown / Spot Light?
 					q(92732, {	-- Light Disturbance
 						--["sourceQuests"] = { xx },	-- ??
+						["qg"] = 241629,	-- Hannan
 						["coord"] = { 31.4, 64.9, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(92736, {	-- Light Stroll
@@ -836,7 +837,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(93416, {	-- Delver's Call: The Gulf of Memory
 				["provider"] = { "o", 612259 },	-- The Gulf of Memory
 				["coords"] = {
-					{ 51.4, 16.7, THE_GULF_OF_MEMORY },
+					{ 50.8, 17.8, THE_GULF_OF_MEMORY },
 					{ 52.9, 51.7, MAP.MIDNIGHT.HARANDAR },
 				},
 			}),

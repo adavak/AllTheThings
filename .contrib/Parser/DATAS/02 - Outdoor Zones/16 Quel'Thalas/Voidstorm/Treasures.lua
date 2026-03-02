@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 			}),
 			o(555250, {	-- Forgotten Researcher's Cache
-				["coord"] = { 23.7, 83.1, 2526 },	-- Lair of Predaxas
+				["coord"] = { 23.7, 83.1, 2527 },	-- Lair of Predaxas
 				["questID"] = 94454,
 				["groups"] = {
 					i(250319),	-- Researcher's Shadowgraft (TOY!)
@@ -80,12 +80,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(264482),	-- Void Elf Torch (DECOR!)
 				},
 			}),
+			o(587195, {	-- Mysterious Domanaar Vessel
+			}),
 			o(613368, {	-- Quivering Egg
 				["coord"] = { 31.5, 44.5, MAP.MIDNIGHT.VOIDSTORM },
 				["questID"] = 93500,
 				["groups"] = {
 					i(266076),	-- Nether Siphoner (PET!)
 				},
+			}),
+			o(587238, {	-- Stashed Singularity Supplies
 			}),
 			o(618536, {	-- Scout's Pack
 				["coord"] = { 49.1, 20.1, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },

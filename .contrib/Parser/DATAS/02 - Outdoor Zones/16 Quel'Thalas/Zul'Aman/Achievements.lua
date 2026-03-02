@@ -55,7 +55,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(62122, {	-- Tallest Tree in the Forest
 				i(264335),	-- Colossal Amani Stone Visage (DECOR!)
 			}),
-			ach(62201),	-- The Frog and the Princesses
+			ach(62201, {	-- The Frog and the Princesses
+				["coords"] = {	--TODO link coords to creature or criterias
+					{ 31.7, 22.6, MAP.MIDNIGHT.ZULAMAN },
+					{ 68.3, 19.3, MAP.MIDNIGHT.ZULAMAN },
+					{ 53.9, 59.6, MAP.MIDNIGHT.ZULAMAN },
+					{ 29.8, 79.2, MAP.MIDNIGHT.ZULAMAN },
+					{ 27.5, 40.1, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+				},
+			}),
 			pvp(ach(61222)),	-- Tour of Duty: Zul'Aman
 			ach(62125, {	-- Treasures of Zul'Aman
 				i(268717);	-- Pango Plating (TOY!)

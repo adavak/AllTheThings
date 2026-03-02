@@ -482,10 +482,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 							{ "c", 3392, 500 },	-- Remnant of Anguish
 						},
 					}),
+					i(264434, {	-- Voldy (PET!)
+						["cost"] = { { "c", 3392, 800 } },	-- Remnant of Anguish
+					}),
 				},
 			}),
 		}),
-		n(WORLD_QUESTS, {
+		n(WORLD_QUESTS, sharedData({
+			["isWorldQuest"] = true,
+		}, {
 			q(91601, {	-- Prey: Apex Predator
 				["coord"] = { 42.7, 56.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 			}),
@@ -522,7 +527,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			q(91596, {	-- Prey: Endurance Hunter (TODO: (un)flagged after picked up L-N-0R the Recycler (Hard))
 				--["coord"] = { X, Y, MAP.MIDNIGHT.EVERSONG_WOODS },
 			}),
-		}),
+		})),
 	}),
 })));
 
