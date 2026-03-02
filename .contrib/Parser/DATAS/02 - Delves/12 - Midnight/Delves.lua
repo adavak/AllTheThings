@@ -721,6 +721,9 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			n(EXPLORATION, {
 			}),
+			filter(MISC, {
+				i(247237),	-- Mold Samples
+			}),
 			n(QUESTS, {
 				q(93421, {	-- Delver's Call: The Grudge Pit
 					["provider"] = { "o", 612264 },	-- The Grudge Pit

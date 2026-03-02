@@ -332,7 +332,6 @@ root(ROOTS.Unsorted, {
 				i(245257),	-- Magical Marble
 				i(245276),	-- Zal'vithra Pigment
 				i(245585),	-- Combat Engagement Launcher
-				i(247237),	-- Mold Samples
 				i(249689),	-- Ghostflower Tea with Sunfruit
 				i(250877),	-- Pylon Fragment
 				i(252658),	-- Set Keystone Map: Windrunner Spire
