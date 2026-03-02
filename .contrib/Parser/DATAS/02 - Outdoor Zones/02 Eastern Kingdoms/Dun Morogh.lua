@@ -3686,10 +3686,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				q(2218, {	-- Road to Salvation
-					["altQuests"] = {
-						2205,	-- Seek out SI: 7
-						2241,	-- The Apple Falls
-					},
 					["qg"] = 1234,	-- Hogral Bakkan
 					["coord"] = { 47.6, 52.6, DUN_MOROGH },
 					["timeline"] = { REMOVED_4_0_3 },

@@ -2995,10 +2995,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(2205, {	-- Seek out SI: 7
-					["altQuests"] = {
-						2218,	-- Road to Salvation
-						2241,	-- The Apple Falls
-					},
 					["providers"] = {
 						{ "n",  917 },	-- Keryn Sylvius
 						{ "i", 7674 },	-- Delivery to Mathias (PQI!)

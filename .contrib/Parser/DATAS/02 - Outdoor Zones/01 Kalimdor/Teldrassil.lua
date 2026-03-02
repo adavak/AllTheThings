@@ -1831,10 +1831,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #endif
 				q(2241, {	-- The Apple Falls
-					["altQuests"] = {
-						2218,	-- Road to Salvation
-						2205,	-- Seek out SI: 7
-					},
 					["providers"] = {
 						{ "n", 3599 },	-- Jannok Breezesong
 						{ "i", 7735 },	-- Jannok's Rose
