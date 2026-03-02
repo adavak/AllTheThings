@@ -381,12 +381,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(293, {	-- Cleansing the Eye
 					["sourceQuest"] = 292,	-- The Eye of Paleth
-					["providers"] = {
-						{ "n", 1217 },	-- Glorin Steelbrow
-						{ "i", 2944 },	-- Cursed Eye of Paleth
-					},
+					["qg"] = 1217,	-- Glorin Steelbrow
 					["coord"] = { 10.6, 60.5, WETLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
+					["maps"] = { STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 22,
 					["groups"] = {
@@ -1291,21 +1289,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(292, {	-- The Eye of Paleth
 					["sourceQuest"] = 290,	-- Lifting the Curse
-					["providers"] = {
-						{ "o", 112948 },	-- Intrepid's Locked Strongbox
-						{ "i", 2944 },	-- Cursed Eye of Paleth
-					},
+					["provider"] = { "o", 112948 },	-- Intrepid's Locked Strongbox
 					["coord"] = { 14.5, 24.0, WETLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 22,
+					["groups"] = {
+						i(2944),	-- Cursed Eye of Paleth
+					},
 				}),
 				q(25819, {	-- The Eye of Paleth
 					["sourceQuest"] = 25818,	-- Lifting the Curse
-					["providers"] = {
-						{ "o", 112948 },	-- Intrepid's Locked Strongbox
-						{ "i", 2944 },	-- Cursed Eye of Paleth
-					},
+					["provider"] = { "o", 112948 },	-- Intrepid's Locked Strongbox
 					["coord"] = { 14.3, 24.0, WETLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

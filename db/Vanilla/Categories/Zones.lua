@@ -16806,7 +16806,7 @@ qo(1,{providers={{"n",1024}}}),
 qo(2,{coords={
 [1437]={{17.4,40.4}}},crs={1259},providers={{"i",3618}}})}}),
 q(293,{coords={
-[1437]={{10.6,60.5}}},lvl=22,providers={{"i",2944}},qgs={1217},r=2,rwp=40003,sourceQuests={292},g={
+[1437]={{10.6,60.5}}},lvl=22,maps={1453},qgs={1217},r=2,rwp=40003,sourceQuests={292},g={
 s(157040,2943,{b=1,f=1,q=2})}}),
 q(469,{coords={
 [1437]={{49.8,39.4}}},lvl=18,providers={{"i",3347}},qgs={2093},r=2,rwp=40003}),
@@ -16889,7 +16889,8 @@ qo(2,{providers={{"n",1053}}}),
 qo(3,{providers={{"n",1052}}}),
 qo(4,{providers={{"n",1054}}})}}),
 q(292,{coords={
-[1437]={{14.5,24}}},lvl=22,providers={{"i",2944},{"o",112948}},r=2,rwp=40003,sourceQuests={290}}),
+[1437]={{14.5,24}}},lvl=22,providers={{"o",112948}},r=2,rwp=40003,sourceQuests={290},g={
+s(157041,2944,{b=1,f=1,lvl=26,q=2})}}),
 q(463,{coords={
 [1437]={{10.9,59.6}}},isBreadcrumb=1,lvl=20,nextQuests={276},qgs={1239},r=2,rwp=40003}),
 q(324,{altQuests={526},coords={
