@@ -1207,6 +1207,7 @@ local AccountWideQuestsDB = {
 	75730,
 	75731,
 	75742,
+	75764,	-- Current Patch - Login Video - Watched (spellID 409608)
 	75833,
 	75862,
 	75863,

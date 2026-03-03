@@ -17,6 +17,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 36.6, 68.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["isBreadcrumb"] = true,	-- TODO: next quest was up without turn it this one
 					}),
+					q(91967, {	-- You Know This Evil?
+						["sourceQuests"] = { 91084 },	-- Looming Shadows
+						["provider"] = { "n", 235787 },	-- Lor'themar Theron
+						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
 					q(92061, {	-- Rising Storm
 						["sourceQuests"] = { 91084 },	-- Looming Shadows
 						["provider"] = { "n", 235787 },	-- Lor'themar Theron

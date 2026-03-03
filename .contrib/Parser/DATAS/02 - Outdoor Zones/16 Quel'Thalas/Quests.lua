@@ -367,11 +367,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 				--Alex TODO: bug out and npc fade out, probably it is part of other quest chain or 90s campgain, idk
 			},
 		}),
-		q(91967, {	-- You Know This Evil?
-			["sourceQuests"] = { 91084 },	-- Looming Shadows
-			["provider"] = { "n", 235787 },	-- Lor'themar Theron
-			["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
-		}),
 		header(HEADERS.Achievement, 60891, {	-- The Crimson Rogue
 			header(HEADERS.AchCriteria, 60891.01, {	-- The Regent's Request
 				q(91822, {	-- The Regent's Request

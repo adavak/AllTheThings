@@ -964,7 +964,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 				q(76363),	-- Break out of the crystal prison in the Deepflayer Nest during 'It Was Not Enough' (questID 72873) (spellID 411853)
 				q(75658, {["name"] = "Zaralek Cavern Unlocked [Account]"}),	-- Zaralek Cavern World Quests (spellID 408876)
 				q(75511),	-- Tracking Quest (that's the name)
-				q(75764),	-- Current Patch - Login Video - Watched (spellID 409608)
+				q(75764, {repeatable=true}),	-- Current Patch - Login Video - Watched (spellID 409608)
 				q(76013),	-- Complete Ch 5 and Delay for Ch 6 after 'Stopping Sakareth' (questID 72930) (spellID 411104)
 
 				-- Talk to npc during Respite (73041)

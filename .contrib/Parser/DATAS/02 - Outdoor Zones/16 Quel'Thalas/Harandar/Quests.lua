@@ -605,6 +605,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86897 },	-- Quelling the Frenzy
 						["provider"] = { "n", 241704 },	-- Orweyna
 						["coord"] = { 58.4, 55.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(95324, {	-- The War Beyond the Roots
+						["sourceQuests"] = { 86898 },	-- Rise of the Haranir
+						["provider"] = { "n", 255819 }, -- Elder Hagar
+						["coord"] = { 36.5, 68.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["groups"] = {
 							ach(61506, {	-- Allied Race: Haranir (just in case, atm)
 								i(246736),	-- Ivory Grimlynx (MOUNT!)
