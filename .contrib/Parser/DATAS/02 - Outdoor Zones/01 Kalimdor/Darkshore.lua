@@ -1177,6 +1177,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								2236,	-- Raging Reef Crawler
 							},
 						}),
+						i(7442),	-- Gyromast's Key
 					},
 				}),
 				q(2078, {	-- Gyromast's Revenge
@@ -1188,9 +1189,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 14,
 					["groups"] = {
 						objective(1, {	-- 0/1 Gelkak's First Mate slain
-							["provider"] = { "n", 6669 },	-- The Threshwackonator 4100 <The First Mate>
+							["providers"] = {
+								{ "n", 6669 },	-- The Threshwackonator 4100 <The First Mate>
+								{ "i", 7442 },	-- Gyromast's Key
+							},
 							["coord"] = { 55.8, 18.2, DARKSHORE },
-							["cost"] = { { "i", 7442, 1 } },	-- Gyromast's Key
 						}),
 						-- #if BEFORE 4.0.3
 						i(5996),	-- Elixir of Water Breathing
