@@ -262,16 +262,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							}),
 						}, {	-- RENOWN 11 --
 							-- TODO: missing Scrappy S.C.R.A.P.per II
-							q(85820, {	-- Valorstones
-								["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH },
-								["groups"] = { i(231737), },	-- Undermine Enforcer's Padding (COSMETIC!)
-							}),
+							q(85820, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 						}, {	-- RENOWN 12 --
 							-- TODO: missing Master Negotiator
-							q(85821, {	-- Valorstones
-								["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH },
-								["groups"] = { i(231737), },	-- Undermine Enforcer's Padding (COSMETIC!)
-							}),
+							q(85821, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 						}, {	-- RENOWN 13 --
 						}, {	-- RENOWN 14 --
 						}, {	-- RENOWN 15 --
