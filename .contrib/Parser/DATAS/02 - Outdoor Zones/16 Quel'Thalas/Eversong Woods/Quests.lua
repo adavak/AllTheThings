@@ -253,8 +253,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = {
 							i(253153),	-- Stolen Knowledge (QI!)
 							--
+							i(249646),	-- Elder Mossclogs
+							i(249650),	-- Elder Mossvein Greatleaves
 							i(249638),	-- Osseoclad Bonecrushers
 							i(249642),	-- Osseoclad Razorspaulders
+							i(249654),	-- Rampant Thistlestompers
+							i(249658),	-- Rampant Thornmantles
+							i(249634),	-- Sprawling Fibershells
+							i(249630),	-- Sprawling Rootpads
 						},
 					}),
 				}),

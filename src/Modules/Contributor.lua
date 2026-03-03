@@ -2804,6 +2804,7 @@ MobileDB.GameObject = {
 	[612274] = true,	-- Portal to K'aresh (q:85002)
 	[613268] = true,	-- Burning Torch
 	[613852] = true,	-- Potion of Unquestionable Strength (q:93569)
+	[613945] = true,	-- Orb of Translocation
 	[616052] = true,	-- Flame-Hardened Sap of Teldrassil
 	[616055] = true,	-- Forgotten Cache [Windrunner Spire]
 	[616916] = true,	-- Eye of the Void

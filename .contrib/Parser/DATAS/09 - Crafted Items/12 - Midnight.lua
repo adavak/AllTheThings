@@ -1364,12 +1364,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = SKINNING,
 		},{
+			FirstSkin(93630, 250826),	-- Skinning Banuran
+			FirstSkin(93631, 250582),	-- Skinning Bloated Snapdragon
 			FirstSkin(95459, 256770),	-- Skinning Bilemaw the Gluttonous
 			FirstSkin(93633, 255348),	-- Skinning Dame Bloodshed
 			FirstSkin(88545, 245688),	-- Skinning Gloomclaw
 			FirstSkin(93632, 246633),	-- Skinning Harried Hawkstrider
 			FirstSkin(93634, 242032),	-- Skinning Oophaga
 			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
+			FirstSkin(95446, 250876),	-- Skinning Terrinor
 			FirstSkin(93639, 238498),	-- Skinning Territorial Voidscythe
 			FirstSkin(95471, 242035),	-- Skinning The Devouring Invader
 		})),
