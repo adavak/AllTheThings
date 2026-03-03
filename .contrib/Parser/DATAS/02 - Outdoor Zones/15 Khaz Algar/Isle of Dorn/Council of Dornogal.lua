@@ -44,6 +44,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 5 --
 						q(84404),	-- A Small Bundle of Goods
 					}, {	-- RENOWN 6 --
+						q(96122, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Small Bundle of Goods
 						q(82349, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 						q(82333, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Quests
 					}, {	-- RENOWN 7 --
@@ -60,6 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							i(218346),	-- Honorary Councilmember's Tabard (COSMETIC!)
 						}),
 					}, {	-- RENOWN 11 --
+						q(96123, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Small Bundle of Goods
 					}, {	-- RENOWN 12 --
 						q(82348),	-- A Large Bundle of Goods
 					}, {	-- RENOWN 13 --
@@ -71,6 +73,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(85545),	-- Resonance Crystals
 					}, {	-- RENOWN 18 --
 					}, {	-- RENOWN 19 --
+						q(96124, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Small Bundle of Goods
 						q(82358, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 20 --
 						q(82359),	-- A Shining Bundle of Goods

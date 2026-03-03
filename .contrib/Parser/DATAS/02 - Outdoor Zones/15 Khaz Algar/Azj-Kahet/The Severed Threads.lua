@@ -62,6 +62,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
 						q(82418, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- A Cache of Crests and Power
+						q(96116, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Cache of Crystals
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
 						q(85535),	-- Kej
@@ -76,8 +77,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
+						q(96117, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Cache of Crystals
 						q(82433, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Power, Etched in the Deep
 					}, {	-- RENOWN 13 --
+						q(96118, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Cache of Crystals
 						q(82434, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Unlock a Reward
 					}, {	-- RENOWN 14 --
 						q(82435, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones

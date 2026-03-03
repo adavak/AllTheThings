@@ -247,9 +247,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
 							["groups"] = { i(226148), },	-- Wax-sealed Weathered Crests
 						}),
-						q(85538, {	-- Shinies
-								currency(RESONANCE_CRYSTALS),
-						}),
+						q(85538),	-- Shinies
 					}, {	-- RENOWN 7 --
 						q(84914, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 					}, {	-- RENOWN 8 --
@@ -265,6 +263,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							i(226146),	-- Handful of Humming Shinies
 						}),
 					}, {	-- RENOWN 11 --
+						q(96121, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Small Bundle of Goods
 						q(82373, {	-- Crests and Rocks
 							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
 							["groups"] = { i(226147), },	-- Bunch of Brave Rocks
@@ -291,7 +290,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(83043, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 18 --
 						q(82379, {	-- An Overflowing Bundle of Shinies
-							currency(RESONANCE_CRYSTALS),
 							i(226151),	-- Wax-Coated Coffer Unlocker
 						}),
 					}, {	-- RENOWN 19 --

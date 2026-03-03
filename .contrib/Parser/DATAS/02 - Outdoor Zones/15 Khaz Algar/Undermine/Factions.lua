@@ -235,6 +235,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						{		-- RENOWN 1 --
 						}, {	-- RENOWN 2 --
 						}, {	-- RENOWN 3 --
+							q(96114, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Small Pouch of Crystals
 							q(86934, {	-- Trash to Profit
 								["provider"] = { "n", 237649 },	-- Renzi Boltcutter
 								["coord"] = { 42.8, 50.4, UNDERMINE },
@@ -254,6 +255,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						}, {	-- RENOWN 8 --
 							q(85818),	-- A Small Pouch of Crystals
 						}, {	-- RENOWN 9 --
+							q(96115, {["timeline"] = { ADDED_12_0_1_LAUNCH }}),	-- A Small Pouch of Crystals
 							q(85819, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
 							q(90557, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Whose Key is This?
 						}, {	-- RENOWN 10 --

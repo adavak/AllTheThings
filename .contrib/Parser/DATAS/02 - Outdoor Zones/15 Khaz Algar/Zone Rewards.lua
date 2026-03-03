@@ -171,6 +171,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		}),
+		currency(RESONANCE_CRYSTALS),
 	}),
 }));
 
