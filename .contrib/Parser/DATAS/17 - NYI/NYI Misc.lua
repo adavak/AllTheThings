@@ -2078,6 +2078,8 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 		-- 12.0.0
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
 			i(242719),	-- Chest of Playtest Equipment
+			i(251774),	-- Crate of Holy Relics
+			i(251775),	-- Empty Crate of Relics
 			i(255828),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Alchemy
 			i(255829),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Blacksmithing
 			i(255830),	-- Sr. Professor Instructaur's Top Secret Guide to Midnight Enchanting

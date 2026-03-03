@@ -10,13 +10,13 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 			ach(61082),	-- Old Soldiers
 			ach(61081),	-- Share a Drink
 		}),
-		n(QUESTS, {	-- TODO: same source for all, which unlock arcantina?
+		n(QUESTS, {	-- TODO: same source for all, ["sourceQuests"] = { 86903 },	-- The Arcantina
 			q(92319, {	-- A Favor to Axe
 				["provider"] = { "n", 250415 },	-- Danath Trollbane
-				["coord"] = { 46.4, 56.8, ARCANTINA },
+				["coord"] = { 46.3, 56.7, ARCANTINA },
 				["groups"] = {
 					i(253542),	-- Scarred Orcish Spear (DECOR!)
-					o(579193, {	--
+					o(579193, {	-- Rusty Axe
 						i(254283),	-- Rusty Axe (QI!)
 					}),
 				},
@@ -42,7 +42,6 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 						["groups"] = {
 							i(250882, {	-- Clefthoof Hide (QI!)
 								["coord"] = { 37.2, 53.0, ARCANTINA },
-
 							}),
 						},
 					}),

@@ -391,7 +391,6 @@ root(ROOTS.Unsorted, {
 				i(260311),	-- Empty Felwyrm Core
 
 				-- Alcohol
-				i(250856),	-- Screwdriver
 				i(250857),	-- Rum-Ka
 				i(250858),	-- Genedar Synthol
 				i(250859),	-- Terocone Wine
@@ -524,7 +523,6 @@ root(ROOTS.Unsorted, {
 				i(235651),	-- Conveniently-Shaped Claw
 				i(235656),	-- Relic of Domination
 				i(237142),	-- Arcane Viewfinder
-				i(237574),	-- Krohm Dawnhammer's Smithing Hammer
 				i(237575),	-- PH_Dezco's Hammer
 				i(237772),	-- Everburning Coal
 				i(237827),	-- Fallen Vanguard's Memento
@@ -3582,10 +3580,6 @@ root(ROOTS.Unsorted, {
 			i(169621),	-- Broken Unit 6
 			i(169622),	-- Mechanical Eye
 			i(169650),	-- Blue Paint Bladder - NYI
-			i(169660),	-- Resistance Roller
-			i(169661),	-- Scrap Heap
-			i(169662),	-- Constellation Drop
-			i(169663),	-- Muddy Chassis
 			i(169669),	-- Rustbolt Rootbeer
 			i(169672),	-- Heart of Azeroth
 			i(169680),	-- Coalescing Blood of the Vanquished \\ Battlefield Distinction - PH

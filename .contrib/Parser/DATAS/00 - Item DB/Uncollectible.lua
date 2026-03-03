@@ -451,6 +451,7 @@ i(170030);	-- Burned Codex
 i(169128);	-- Chilled Heating Block
 i(170087);	-- Chromatic "Vinegar"
 i(169139);	-- Clogged Webbing Fabricator
+i(169662);	-- Constellation Drop
 i(170086);	-- Coral-Flecked Chalice
 i(170099);	-- Corroded Elegant Key
 i(169010);	-- Corroded Evaporator Coil
@@ -479,12 +480,15 @@ i(168794);	-- Last Year's Brewfest Flyer
 i(169129);	-- Lovingly Worn Wrench
 i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome
+i(169663);	-- Muddy Chassis
 i(168795);	-- Old Boot
 i(168796);	-- Recycled Scroll
+i(169660);	-- Resistance Roller
 i(168009);	-- Rotten Direbloom Petal
 i(168786);	-- Rotten Food
 i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
+i(169661);	-- Scrap Heap
 i(170001);	-- Seized Engine
 i(169143);	-- Seized Sparksaw
 i(168791);	-- Shiny Rocks
@@ -2728,6 +2732,7 @@ i(238477);	-- Rotten Meat
 i(260637);	-- Rotting Insect Eggs
 i(244040);	-- Sack of Seeds
 i(238493);	-- Screaming Rock
+i(250856);	-- Screwdriver
 i(260277);	-- Sedge Crawler Gumbo
 i(260296);	-- Shadeleaf Tea
 i(260605);	-- Shattered Spear Tip
