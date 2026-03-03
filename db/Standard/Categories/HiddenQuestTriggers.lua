@@ -5636,7 +5636,7 @@ q(76118,{type="hqt"}),
 q(76363,{type="hqt"}),
 q(75658,{type="hqt"}),
 q(75511,{type="hqt"}),
-q(75764,{type="hqt"}),
+q(75764,{repeatable=1,type="hqt"}),
 q(76013,{type="hqt"}),
 q(75425,{type="hqt"}),
 q(75424,{type="hqt"}),
@@ -7229,6 +7229,10 @@ q(94689,{type="hqt"}),
 q(94681,{type="hqt"})}),
 h(-56,{
 q(86645,{type="hqt"})})}}),
+h(-686,{
+h(-45,{
+q(95113,{type="hqt"}),
+q(89290,{type="hqt"})})}),
 m(2413,{maps={2576},lvl=83,g={
 h(-45,{
 q(92712,{type="hqt"}),

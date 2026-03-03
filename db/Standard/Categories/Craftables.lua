@@ -18551,12 +18551,15 @@ i(237363),
 r(1276109,{itemID=265530,requireSkill=164,skillID=2907})}),
 prof(393,{
 h(-244,{
+q(93630,{an="n:250826",isWeekly=1,providers={{"n",250826}},requireSkill=393,type="hqt"}),
+q(93631,{an="n:250582",isWeekly=1,providers={{"n",250582}},requireSkill=393,type="hqt"}),
 q(95459,{an="n:256770",isWeekly=1,providers={{"n",256770}},requireSkill=393,type="hqt"}),
 q(93633,{an="n:255348",isWeekly=1,providers={{"n",255348}},requireSkill=393,type="hqt"}),
 q(88545,{an="n:245688",isWeekly=1,providers={{"n",245688}},requireSkill=393,type="hqt"}),
 q(93632,{an="n:246633",isWeekly=1,providers={{"n",246633}},requireSkill=393,type="hqt"}),
 q(93634,{an="n:242032",isWeekly=1,providers={{"n",242032}},requireSkill=393,type="hqt"}),
 q(95515,{an="n:256922",isWeekly=1,providers={{"n",256922}},requireSkill=393,type="hqt"}),
+q(95446,{an="n:250876",isWeekly=1,providers={{"n",250876}},requireSkill=393,type="hqt"}),
 q(93639,{an="n:238498",isWeekly=1,providers={{"n",238498}},requireSkill=393,type="hqt"}),
 q(95471,{an="n:242035",isWeekly=1,providers={{"n",242035}},requireSkill=393,type="hqt"})}),
 sp(471014,{

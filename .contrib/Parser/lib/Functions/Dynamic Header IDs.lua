@@ -249,6 +249,7 @@ HeaderAssignments = {
 	["First Chest"] = -84,
 	["First Crafts"] = -244,
 	["First of the Val'kyr"] = -429,
+	["FIRST_CRAFTS_TEST"] = -737,
 	["Flexible (5.4)"] = -373,
 	["Flexible Raid Vendor"] = -345,
 	["Flight Paths"] = -32,
@@ -716,4 +717,4 @@ HeaderAssignments = {
 	["Zskera Vaults"] = -403,
 	["Zul'Gurub Hakkar Hardmode"] = -697,
 };
-NextHeaderID = -737;
+NextHeaderID = -738;
