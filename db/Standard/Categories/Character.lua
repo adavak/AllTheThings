@@ -7643,7 +7643,7 @@ i(166899,{races={6},spellID=289849})}}),
 q(54764,{coords={
 [65]={{49.2,60.8}}},lvl=50,qgs={149529},races={6},sourceQuests={54763}}),
 q(54766,{coords={
-[88]={{58.3,51.8}}},lvl=50,qgs={36648},races={6},sourceQuests={54764},g={
+[88]={{58.3,51.8}}},lvl=50,qgs={36648,149528},races={6},sourceQuests={54764},g={
 i(167030,{races={6},spellID=291371})}}),
 q(54765,{coords={
 [88]={{60.3,51.7}}},lvl=50,qgs={36648},races={6},sourceQuests={54766},g={

@@ -7462,7 +7462,15 @@ crit(112357,{achID=62252,id=1})}}),
 ach(62249,{requireSkill=393,g={
 crit(112358,{achID=62252,id=2})}}),
 ach(62252,{requireSkill=393,g={
-title(752,{requireSkill=393})}})}})}})}),
+title(752,{requireSkill=393})}})}}),
+flt(200,{description="These are learned by specialization.",requireSkill=393}),
+h(-56,{requireSkill=393,g={
+o(525897,{coords={
+[2393]={{76,51.1}}},questID=89166,requireSkill=393,g={
+i(238628,{b=1,requireSkill=393,spellID=1225646})}}),
+o(525892,{coords={
+[2393]={{43.2,55.7}}},questID=89171,requireSkill=393,g={
+i(238633,{b=1,requireSkill=393,spellID=1225646})}})}})}})}),
 prof(197,{
 h(-12,{awp=100107,requireSkill=197,g={
 ach(18888,{providers={{"s",419578}},requireSkill=197}),

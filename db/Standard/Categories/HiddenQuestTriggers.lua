@@ -7197,6 +7197,7 @@ q(91183,{isDaily=1,type="hqt"}),
 q(91185,{isDaily=1,type="hqt"}),
 q(91187,{isDaily=1,type="hqt"}),
 q(91190,{isDaily=1,type="hqt"})}),
+q(93866,{type="hqt"}),
 h(-674)}}),
 m(2537,{lvl=80,g={
 m(2393,{
@@ -7303,7 +7304,11 @@ q(94763,{type="hqt"}),
 q(94731,{type="hqt"}),
 q(94728,{type="hqt"}),
 q(94729,{type="hqt"}),
-q(94730,{type="hqt"})}),
+q(94730,{type="hqt"}),
+q(94750,{type="hqt"}),
+q(94760,{type="hqt"}),
+q(94764,{type="hqt"}),
+q(94765,{type="hqt"})}),
 h(-681,{
 h(-45,{
 q(90962,{repeatable=1,type="hqt"}),
