@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["lvl"] = 90,
 			}),
 			q(95276, {	-- The Last Push
-				["description"] = "Finish the main campaign before level 90 to access.",
+				["description"] = "Finish the main campaign before level 90 to access.\nNote: This auto-completes when hitting 90 anyway.",
 				["qg"] = 235787,	-- Lor'themar Theron <Regent Lord of Quel'Thalas>
 				["coord"] = { 45.4, 70.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["lockCriteria"] = { 1, "lvl", 90 },
