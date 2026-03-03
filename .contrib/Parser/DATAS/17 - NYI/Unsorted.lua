@@ -52,7 +52,6 @@ root(ROOTS.Unsorted, {
 				i(268485),	-- Victorious Stormarion Pinnacle Cache
 				i(268487),	-- Avid Learner's Supply Pack
 
-				i(268489),	-- Surplus Bag of Party Favors
 				i(268490),	-- Apex Cache
 
 				-- Cache
@@ -69,7 +68,6 @@ root(ROOTS.Unsorted, {
 				i(246129),	-- Outsider's Gear
 				i(246152),	-- Saptor Frill
 				i(249775),	-- Bright Berry
-				i(249779),	-- Discordant Tune
 				i(253210),	-- Soothsayer's Signet
 				i(268551),	-- Scroll of Reflection
 				i(248723),	-- Stolen Documents
@@ -600,7 +598,6 @@ root(ROOTS.Unsorted, {
 				i(249472),	-- Fragrant Bloodthistle
 				i(249517),	-- Smuggled Goods
 				i(249527),	-- Elder Painting
-				i(249528),	-- Twilight Weaponry
 				i(249541),	-- Naga Fang
 				i(249543),	-- Special Remedy
 				i(249544),	-- Chest of Stolen Valuables
@@ -691,7 +688,6 @@ root(ROOTS.Unsorted, {
 				-- Abundance
 				i(239611),	-- Pure Loanite
 				-- Eversong event?
-				i(242241),	-- Latent Arcana
 				i(242250),	-- Brimming Arcana
 				i(243608),	-- Magisters Reputation
 				i(243609),	-- Blood Knights Reputation
@@ -1038,11 +1034,6 @@ root(ROOTS.Unsorted, {
 				i(264663),	-- Spiritdrain Vest of the Witherbark
 				i(264664),	-- Hexbreaker Chain Hauberk
 				i(264665),	-- Defiant Loa Platebody
-				-- Armor Quest?
-				i(266429),	-- Silvermoon Sunspire
-				i(266430),	-- Silvermoon Sunguard
-				i(266431),	-- Silvermoon Sunveil
-				i(266432),	-- Silvermoon Suncrest
 				-- Armor
 				i(267387),	-- Test Item [DNT] - While you are poisoned
 				i(267388),	-- Test Item [DNT] - Apply Poison - Label

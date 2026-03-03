@@ -30,6 +30,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
 					}, {	-- RENOWN 9 --
+						q(93930, {	-- Courting Success
+							["groups"] = {
+								i(266432),	-- Silvermoon Suncrest
+								i(266430),	-- Silvermoon Sunguard
+								i(266429),	-- Silvermoon Sunspire
+								i(266431),	-- Silvermoon Sunveil
+							},
+						}),
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --

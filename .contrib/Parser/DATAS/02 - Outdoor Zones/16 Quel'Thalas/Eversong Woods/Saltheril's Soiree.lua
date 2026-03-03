@@ -55,12 +55,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				}),
 			}),
-			--Blood-Guards weekly
+			-- Blood Knights weekly
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240835 },	-- Knight-Lord Sunguard
 				["coord"] = { 42.4, 46.7, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["isWeekly"] = true,
 			}, {
+				q(91977),	-- Less Lawless
 				--q(XXX),	-- Fortify the Runestones: XXX
 				q(91971, {	-- Hitting the Hammer
 					["description"] = "Up after 1st Saltheril's Favor donation.",
@@ -89,12 +90,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 			})),
-			--Farstriders weekly
+			-- Farstriders weekly
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240836 },	-- Ranger-Captain Dawnfletch
 				["coord"] = { 42.9, 46.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["isWeekly"] = true,
 			}, {
+				q(91986, {	-- Put a Little Snap in Their Step
+					["groups"] = { i(249779), },	-- Discordant Tune (QI!)
+				}),
 				q(90575),	-- Fortify the Runestones: Farstriders
 				q(91989, {	-- Ghostland Peppers
 					["description"] = "Up after 1st Saltheril's Favor donation.",
@@ -123,6 +127,25 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 			})),
+			-- Magisters weekly
+			n(QUESTS, sharedData({
+				["provider"] = { "n", 240834 },	-- Magistrix Bloodflame
+				["coord"] = { 42.6, 46.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["isWeekly"] = true,
+			}, {
+				q(90573),	-- Fortify the Runestones: Magisters
+				q(89276),	-- Light Snacks
+			})),
+			-- Shades of the Row weekly
+			n(QUESTS, sharedData({
+				["provider"] = { "n", 240837 },	-- Vyrin the Supplier
+				["coord"] = { 42.6, 46.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["isWeekly"] = true,
+			}, {
+				q(92002, {	-- Dangerous Showpieces
+					["groups"] = { i(249528), },	-- Twilight Weaponry
+				}),
+			})),
 			n(BONUS_OBJECTIVES, {
 				q(91966, {	-- Saltheril's Soiree (TODO: possibly wq in future builds? questID unique per chosen faction?)
 					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
@@ -133,7 +156,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				currency(LATENT_ARCANA),
 				currency(BRIMMING_ARCANA),
 				--It was a bad idea to not add it right away, it could be Midnight wqs rewards
+				i(242241),	-- Latent Arcana
 				i(256969),	-- Farstrider's Pendant (neck)
+				i(268489),	-- Surplus Bag of Party Favors
 			}),
 			n(VENDORS, {
 				n(242723, {	-- Apprentice Diell <Magister Vendor>
@@ -285,12 +310,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	}),
 }));
 
--- root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
--- 	m(MAP.MIDNIGHT.QUELTHALAS, {
--- 		n(SALTHERILS_HAVEN, {
--- 			n(QUESTS, {
-
--- 			}),
--- 		}),
--- 	}),
--- }));
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
+		n(SALTHERILS_HAVEN, {
+			n(QUESTS, {
+				q(95113),	-- Weekly completion of ???
+				q(89290),	-- Weekly completion of Farstriders
+			}),
+		}),
+	}),
+}));
