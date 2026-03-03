@@ -474,13 +474,13 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 
 		------ South Guard's Copper Raiment Collection ------
 		iensemble(258802, {	-- Ensemble: South Guard's Copper Raiment
-			["timeline"] = { ADDED_12_0_0, "removed 12.0.1.99999" },	-- Removed March 2nd, 2026
+			["timeline"] = { ADDED_12_0_0, "removed 12.0.1.66198" },	-- Removed March 2nd, 2026
 		}),
 		i(257711, {	-- Anubisath's Sunscorched Blade
-			["timeline"] = { ADDED_12_0_0, "removed 12.0.1.99999" },	-- Removed March 2nd, 2026
+			["timeline"] = { ADDED_12_0_0, "removed 12.0.1.66198" },	-- Removed March 2nd, 2026
 		}),
 		i(257426, {	-- Anubisath's Sunscorched Greatblade
-			["timeline"] = { ADDED_12_0_0, "removed 12.0.1.99999" },	-- Removed March 2nd, 2026
+			["timeline"] = { ADDED_12_0_0, "removed 12.0.1.66198" },	-- Removed March 2nd, 2026
 		}),
 
 		------ Spirit Healer Collection ------

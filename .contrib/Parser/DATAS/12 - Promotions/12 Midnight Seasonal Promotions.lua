@@ -56,7 +56,7 @@ root(ROOTS.Promotions, {
 			}));
 			ach(62387, {	-- It's Nearly Midnight
 				["description"] = "Obtained by logging in to an account with an active subscription before the release of Midnight on March 2nd, 2026.",
-				["timeline"] = { "removed 12.0.1.99999" },	--TODO: timeline out on full launch March 2nd
+				["timeline"] = { "removed 12.0.1.66198" },
 				["groups"] = { i(260785) },	-- The Dark Portal (DECOR!)
 			}),
 			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
