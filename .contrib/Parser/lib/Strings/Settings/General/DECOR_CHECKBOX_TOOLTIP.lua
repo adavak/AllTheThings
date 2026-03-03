@@ -13,6 +13,6 @@ createLocalizationString({
 		-- TODO: ru = "",
 		-- TODO: ko = "",
 		cn = "启用此选项以跟踪战团装饰完成情况。",
-		-- TODO: tw = "",
+		tw = "啟用此選項已追蹤戰隊房屋裝飾完成情況。",
 	},
 })
