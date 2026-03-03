@@ -1114,6 +1114,10 @@ map_exploration = visit_exploration;
 faction = function(id, t)								-- Create a FACTION Object
 	return struct("factionID", id, t);
 end
+firstcraft = function(id, t)							-- Create a FIRST CRAFT Object
+	return struct("firstcraftID", id, t);
+end
+fc = firstcraft;
 flightpath = function(id, t)							-- Create a FLIGHT PATH Object
 	return struct("flightpathID", id, t);
 end
