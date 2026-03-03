@@ -1211,7 +1211,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 252853 },	-- Decimus
 						["coord"] = { 47.3, 49.1, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							ach(61569),	-- Fool Me Once...
 							i(264425),	-- [DNT]
 							i(264426),	-- [DNT] Agility Mace
 							i(264427),	-- [DNT]

@@ -705,6 +705,7 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 			ach(42608),	-- Explore Stormheim
 			ach(42665),	-- Explore Suramar
 			ach(42573),	-- Explore Val'sharah
+			ach(61569),	-- Fool Me Once...
 			ach(42631),	-- Hidden Treasures: Antoran Wastes
 			ach(42626),	-- Hidden Treasures: Eredath
 			ach(42634),	-- Hidden Treasures: Highmountain
