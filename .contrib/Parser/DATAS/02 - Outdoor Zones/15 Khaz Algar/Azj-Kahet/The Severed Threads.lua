@@ -61,12 +61,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 4 --
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
-						q(82418),	-- A Cache of Crests and Power
+						q(82418, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- A Cache of Crests and Power
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
 						q(85535),	-- Kej
 					}, {	-- RENOWN 9 --
-						q(82431),	-- Unsevered Threads
+						q(82431, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Unsevered Threads
 						q(85531, {	-- Earth-Encrusted Gem
 							i(223951),	-- Earth-Encrusted Gem
 						}),
@@ -76,25 +76,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
-						q(82433),	-- Power, Etched in the Deep
+						q(82433, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Power, Etched in the Deep
 					}, {	-- RENOWN 13 --
-						q(82434),	-- Unlock a Reward
+						q(82434, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Unlock a Reward
 					}, {	-- RENOWN 14 --
-						q(82435),	-- Valorstones
+						q(82435, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 						q(85532),	-- The Wealth of a Kingdom
 					}, {	-- RENOWN 15 --
 					}, {	-- RENOWN 16 --
 					}, {	-- RENOWN 17 --
 					}, {	-- RENOWN 18 --
-						q(82440),	-- Crests
+						q(82440, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Crests
 						q(85533),	-- Kej
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 						q(82442),	-- Keep Up Appearances
 					}, {	-- RENOWN 21 --
-						q(82443),	-- Tokens of Her Favor
+						q(82443, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Tokens of Her Favor
 					}, {	-- RENOWN 22 --
-						q(82444),	-- The Weaver's Cache
+						q(82444, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- The Weaver's Cache
 						q(85534),	-- The General's Cache
 					}, {	-- RENOWN 23 --
 					}, {	-- RENOWN 24 --

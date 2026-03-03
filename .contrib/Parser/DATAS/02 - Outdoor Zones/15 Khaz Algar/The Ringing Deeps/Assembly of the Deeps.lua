@@ -244,19 +244,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
 						q(82369, {	-- A Shining Bundle of Goods
-							i(226148),	-- Wax-sealed Weathered Crests
+							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
+							["groups"] = { i(226148), },	-- Wax-sealed Weathered Crests
 						}),
 						q(85538, {	-- Shinies
 								currency(RESONANCE_CRYSTALS),
 						}),
 					}, {	-- RENOWN 7 --
-						q(84914),	-- Valorstones
+						q(84914, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 					}, {	-- RENOWN 8 --
 						q(82371, {	-- A Flickering Candle
 							i(226146),	-- Handful of Humming Shinies
 						}),
 					}, {	-- RENOWN 9 --
-						q(82370),	-- Crests
+						q(82370, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Crests
 						q(85539),	-- Take Candle!
 					}, {	-- RENOWN 10 --
 						q(82372, {	-- Deeps Unifier
@@ -265,7 +266,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 					}, {	-- RENOWN 11 --
 						q(82373, {	-- Crests and Rocks
-							i(226147),	-- Bunch of Brave Rocks
+							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
+							["groups"] = { i(226147), },	-- Bunch of Brave Rocks
 						}),
 					}, {	-- RENOWN 12 --
 						q(82374, {	-- A Shining Candle
@@ -275,18 +277,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(85540, {	-- Take Big Candle!
 							i(226155),	-- Big Candle
 						}),
-						q(82375),	-- Take Key!
+						q(82375, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Take Key!
 					}, {	-- RENOWN 14 --
 						q(82376),	-- A Large Bundle of Goods
 					}, {	-- RENOWN 15 --
-						q(82377),	-- Crests
+						q(82377, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Crests
 						q(85541, {	-- Here's a Shiny!
 							i(226150),	-- Gem-Studded Candelabra
 						}),
 					}, {	-- RENOWN 16 --
-						q(82378),	-- Valorstones
+						q(82378, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 					}, {	-- RENOWN 17 --
-						q(83043),	-- Carved Crests
+						q(83043, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 18 --
 						q(82379, {	-- An Overflowing Bundle of Shinies
 							currency(RESONANCE_CRYSTALS),
@@ -298,17 +300,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							i(226150),	-- Gem-Studded Candelabra
 						}),
 					}, {	-- RENOWN 21 --
-						q(82382),	-- Crests
+						q(82382, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Crests
 						q(85542, {	-- Take Really Big Candle!
 							i(226156),	-- Really Big Candle
 						}),
 					}, {	-- RENOWN 22 --
 						q(82383, {	-- Brave Rocks
-							i(226147),	-- Bunch of Brave Rocks
+							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
+							["groups"] = { i(226147), },	-- Bunch of Brave Rocks
 						}),
 						q(85543),	-- More Shinies!
 					}, {	-- RENOWN 23 --
-						q(83046),	-- Carved Crests
+						q(83046, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 24 --
 						q(82384, {	-- A Big, Big Shiny!
 							i(224072),	-- Enchanted Runed Harbinger Crest
@@ -318,7 +321,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 					}, {	-- RENOWN 25 --
 						q(82385, {	-- For What Glimmers in Candlelight
-							i(226147),	-- Bunch of Rocks
+							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
+							["groups"] = { i(226147), },	-- Bunch of Rocks
 						}),
 						------ Paragon ------
 						q(79220, {	-- Renowned with the Assembly of the Deeps

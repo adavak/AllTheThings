@@ -247,15 +247,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						}, {	-- RENOWN 4 --
 							q(85815),	-- A Small Pouch of Crystals
 						}, {	-- RENOWN 5 --
-							q(85816),	-- Valorstones
+							q(85816, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 						}, {	-- RENOWN 6 --
-							q(85817),	-- Weathered Crests
+							q(85817, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
 						}, {	-- RENOWN 7 --
 						}, {	-- RENOWN 8 --
 							q(85818),	-- A Small Pouch of Crystals
 						}, {	-- RENOWN 9 --
-							q(85819),	-- Weathered Crests
-							q(90557),	-- Whose Key is This?
+							q(85819, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
+							q(90557, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Whose Key is This?
 						}, {	-- RENOWN 10 --
 							q(86555, {	-- Undermine Benefactor
 								i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
@@ -263,22 +263,24 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						}, {	-- RENOWN 11 --
 							-- TODO: missing Scrappy S.C.R.A.P.per II
 							q(85820, {	-- Valorstones
-								i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
+								["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH },
+								["groups"] = { i(231737), },	-- Undermine Enforcer's Padding (COSMETIC!)
 							}),
 						}, {	-- RENOWN 12 --
 							-- TODO: missing Master Negotiator
 							q(85821, {	-- Valorstones
-								i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
+								["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH },
+								["groups"] = { i(231737), },	-- Undermine Enforcer's Padding (COSMETIC!)
 							}),
 						}, {	-- RENOWN 13 --
 						}, {	-- RENOWN 14 --
 						}, {	-- RENOWN 15 --
-							q(85823),	-- Carved Crests
+							q(85823, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 						}, {	-- RENOWN 16 --
 						}, {	-- RENOWN 17 --
-							q(85824),	-- Valorstones
+							q(85824, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 						}, {	-- RENOWN 18 --
-							q(85825),	-- Carved Crests
+							q(85825, {["timeline"] = { ADDED_11_1_0, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 						}, {	-- RENOWN 19 --
 						}, {	-- RENOWN 20 --
 							q(85827, {	-- Glinting and Gleaming

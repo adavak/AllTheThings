@@ -44,17 +44,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 5 --
 						q(84404),	-- A Small Bundle of Goods
 					}, {	-- RENOWN 6 --
-						q(82349),	-- Carved Crests
-						q(82333),	-- Weathered Quests
+						q(82349, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
+						q(82333, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Quests
 					}, {	-- RENOWN 7 --
-						q(82346),	-- A Small Bundle of Valorstones
+						q(82346, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- A Small Bundle of Valorstones
 					}, {	-- RENOWN 8 --
 						q(84403),	-- A Small Bundle of Goods
 						q(85718, {	-- A Shining Stone
 							i(223951),	-- Earth-Encrusted Gem
 						}),
 					}, {	-- RENOWN 9 --
-						q(82344),	-- Weathered Crests
+						q(82344, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
 					}, {	-- RENOWN 10 --
 						q(82347, {	-- Assistant Councilmember
 							i(218346),	-- Honorary Councilmember's Tabard (COSMETIC!)
@@ -67,17 +67,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 15 --
 					}, {	-- RENOWN 16 --
 					}, {	-- RENOWN 17 --
-						q(82356),	-- A Large Bundle of Goods
+						q(82356, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- A Large Bundle of Goods
 						q(85545),	-- Resonance Crystals
 					}, {	-- RENOWN 18 --
 					}, {	-- RENOWN 19 --
-						q(82358),	-- Carved Crests
+						q(82358, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 20 --
 						q(82359),	-- A Shining Bundle of Goods
 					}, {	-- RENOWN 21 --
 					}, {	-- RENOWN 22 --
 						q(82361, {	-- A Small Bundle of Goods
-							i(226147),	-- Bunch of Brave Rocks
+							["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH },
+							["groups"] = { i(226147), },	-- Bunch of Brave Rocks
 						}),
 					}, {	-- RENOWN 23 --
 					}, {	-- RENOWN 24 --
@@ -86,7 +87,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 						q(85546),	-- Resonance Crystals
 					}, {	-- RENOWN 25 --
-						q(82362),	-- For What Glimmers in Stone
+						q(82362, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- For What Glimmers in Stone
 						------ Paragon ------
 						q(79219, {	-- Renowned with the Council of Dornogal
 							["isRepeatable"] = true,

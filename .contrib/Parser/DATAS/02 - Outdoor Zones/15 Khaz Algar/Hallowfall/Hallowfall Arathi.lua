@@ -84,13 +84,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							},
 						}),
 					}, {	-- RENOWN 6 --
-						q(82390),	-- Weathered Crests
+						q(82390, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
 					}, {	-- RENOWN 7 --
-						q(84409),	-- For the Valorous
+						q(84409, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- For the Valorous
 					}, {	-- RENOWN 8 --
 						q(82393),	-- Resonating Crystals
 					}, {	-- RENOWN 9 --
-						q(82394),	-- A Cache of Crests
+						q(82394, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- A Cache of Crests
 					}, {	-- RENOWN 10 --
 						q(82395, {	-- Flame-touched Tabard
 							i(218352),	-- Expeditionary Tabard (COSMETIC!)
@@ -132,23 +132,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 12 --
 						q(82396),	-- A Gift from Mereldar
 					}, {	-- RENOWN 13 --
-						q(84559),	-- Carved Crests
+						q(84559, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 14 --
-						q(82398),	-- Another Rare Key
+						q(82398, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Another Rare Key
 					}, {	-- RENOWN 15 --
 					}, {	-- RENOWN 16 --
-						q(82400),	-- A Hallowfall Windfall
+						q(82400, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- A Hallowfall Windfall
 						q(85536),	-- Resonance Crystals
 					}, {	-- RENOWN 17 --
 					}, {	-- RENOWN 18 --
 					}, {	-- RENOWN 19 --
 						q(85537),	-- Crystals
-						q(82403),	-- Stones
+						q(82403, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- Stones
 					}, {	-- RENOWN 20 --
 						q(82404),	-- Something to Set You Apart
 					}, {	-- RENOWN 21 --
 					}, {	-- RENOWN 22 --
-						q(82406),	-- The Quartermaster's Cache
+						q(82406, {["timeline"] = { ADDED_11_0_2, REMOVED_12_0_1_LAUNCH }}),	-- The Quartermaster's Cache
 						q(81906, {	-- Whispers from the Web
 							["provider"] = { "n", 221867 },	-- Mereldar Child
 						}),

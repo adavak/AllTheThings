@@ -26,32 +26,32 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 4 --
 					}, {	-- RENOWN 5 --
 						q(90630),	-- A Small Bundle of Crystals
-						q(90631),	-- Weathered Crests
+						q(90631, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
 					}, {	-- RENOWN 6 --
-						q(90632),	-- Valorstones
+						q(90632, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
 						q(90634),	-- A Small Bundle of Crystals
-						q(90633),	-- Weathered Crests
+						q(90633, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Weathered Crests
 					}, {	-- RENOWN 9 --
-						q(90635),	-- Valorstones
+						q(90635, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 					}, {	-- RENOWN 10 --
 						q(91142, {	-- Tabard for the Trusted
 							i(245968),	-- Tabard of the Trust (COSMETIC!)
 						}),
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
-						q(90637),	-- A Key in the Wastes
-						q(90636),	-- Carved Crests
+						q(90637, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- A Key in the Wastes
+						q(90636, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 13 --
 						q(90638),	-- A Bundle of Crystals
 					}, {	-- RENOWN 14 --
-						q(91143),	-- Carved Crests
+						q(91143, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 15 --
 					}, {	-- RENOWN 16 --
-						q(92330),	-- Valorstones
+						q(92330, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Valorstones
 					}, {	-- RENOWN 17 --
-						q(90665),	-- Carved Crests
+						q(90665, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 					}, {	-- RENOWN 18 --
 						q(90666),	-- A Bundle of Crystals
 					}, {	-- RENOWN 19 --
