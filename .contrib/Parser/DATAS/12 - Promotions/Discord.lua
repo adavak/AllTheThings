@@ -38,5 +38,9 @@ root(ROOTS.Promotions, n(DISCORD_PROMOTION, {
 			["description"] = "At the top of your Direct messages tab on Discord, click the Quests tab to start the Quest for the Reward.\n\nPlay the game for 15 minutes with Discord running.\n\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.'\n\nPromotion is available from January 27th, 2026 until February 2nd, 2026 (11:59PM UTC).",
 			["timeline"] = { ADDED_12_0_0, "removed 12.0.0.65655" },
 		}),
+		i(264366, {	-- Razeshi C. (PET!)
+			["description"] = "At the top of your Direct messages tab on Discord, click the Quests tab to start the Quest for the Reward.\n\nPlay the game for 15 minutes with Discord running.\n\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.'\n\nPromotion is available from March 2nd, 2026 until March 16th, 2026.",
+			["timeline"] = { "added 12.0.1.66198", "removed 12.0.1.99999" },
+		}),
 	},
 }));

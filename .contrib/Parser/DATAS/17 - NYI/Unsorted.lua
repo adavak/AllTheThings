@@ -680,7 +680,6 @@ root(ROOTS.Unsorted, {
 				i(262881),	-- Lil' Staropod (PET!) [Promotion]
 				i(260585),	-- Linda the Lucky (PET!) [Quest?]
 				i(262763),	-- Plump Mandrake (PET!) [Trading Post]
-				i(264366),	-- Razeshi C. (PET!) [Promotion]
 				i(262769),	-- Screechy Mandrake (PET!) [Trading Post]
 				i(260341),	-- Star the Lucky Dragon (PET!) [In-Game Shop]
 			}),

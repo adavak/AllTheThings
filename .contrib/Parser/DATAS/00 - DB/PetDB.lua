@@ -4534,7 +4534,6 @@ i(262762, 4963);	-- Grumpy Mandrake
 i(262881, 4968);	-- Lil' Staropod
 i(260585, 4946);	-- Linda the Lucky
 i(262763, 4964);	-- Plump Mandrake
-i(264366, 4975);	-- Razeshi C.
 i(262769, 4966);	-- Screechy Mandrake
 i(260341, 4943);	-- Star the Lucky Dragon
 --- NYI ---
@@ -4589,6 +4588,7 @@ i(250145, 4884);	-- Pangolil
 i(258903, 4927);	-- Percival
 i(260730, 4948);	-- Perturbed Sporebat
 i(265609, 4985);	-- Princess Bloodshed
+i(264366, 4975);	-- Razeshi C.
 i(251005, 4892);	-- Riftblade Familiar
 i(250136, 4875);	-- Rootling Nester
 i(255151, 4906);	-- Scruffbeak
