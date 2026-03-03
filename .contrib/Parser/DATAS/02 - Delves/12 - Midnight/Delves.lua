@@ -438,19 +438,19 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			}),
 			n(TREASURES, {
-				--o(XXXXXX, {	-- Sturdy Chest
-				--	["coord"] = { 52.9, 57.1, ATAL_AMAN },
-				--	["questID"] = 94000,
-				--}),
+				o(617852, {	-- Sturdy Chest
+					["coord"] = { 53.1, 57.9, ATAL_AMAN },
+					["questID"] = 94000,
+				}),
 				o(618270, {	-- Sturdy Chest
 					["coord"] = { 48.3, 50.5, ATAL_AMAN },
 					["questID"] = 94014,
 					["groups"] = { i(252265) },	-- Hexed Potatoad Mucus (TOY!)
 				}),
-				--o(XXXXXX, {	-- Sturdy Chest
-				--	["coord"] = { 52.2, 64.2, ATAL_AMAN },
-				--	["questID"] = 94038,
-				--}),
+				o(618290, {	-- Sturdy Chest
+					["coord"] = { 53.1, 65.3, ATAL_AMAN },
+					["questID"] = 94038,
+				}),
 			}),
 			n(REWARDS, {
 				filter(BATTLE_PETS, {
