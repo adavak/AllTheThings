@@ -307,7 +307,6 @@ root(ROOTS.Unsorted, {
 					i(238625),	-- Fine Void-Tempered Hide \\ Fine Thalassian Hide
 					i(238626),	-- Mana-Infused Bone
 					i(238627),	-- Manafused Sample
-					i(238629),	-- Cadre Skinning Knife
 					i(238631),	-- Voidstorm Leather Sample
 				}),
 			}),
