@@ -449,9 +449,11 @@ app:CreateWindow("Tradeskills", {
 						ProfessionsFrameTabSideBar.selTab = 0
 					end
 
-					app.TradeskillTab = CreateFrame("Frame", nil, ProfessionsFrameTabSideBar, "AllTheThings_Tab")
-					app.TradeskillTab:SetPoint("TOPLEFT", ProfessionsFrameTabSideBar, "TOPRIGHT", -2, -52)
-					ProfessionsFrameTabSideBar.Tabs[1] = app.TradeskillTab
+					if not app.TradeskillTab then
+						app.TradeskillTab = CreateFrame("Frame", nil, ProfessionsFrameTabSideBar, "AllTheThings_Tab")
+						app.TradeskillTab:SetPoint("TOPLEFT", ProfessionsFrameTabSideBar, "TOPRIGHT", -2, -52)
+						ProfessionsFrameTabSideBar.Tabs[1] = app.TradeskillTab
+					end
 
 					local function toggleProfTab()
 						local newState = not self:IsShown()
