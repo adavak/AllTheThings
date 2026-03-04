@@ -436,21 +436,22 @@ app:CreateWindow("Debugger", {
 	AddObjectWithHeader = function(self, headerID, info)
 		local header = { key = "headerID", headerID = headerID, g = { info }};
 		-- Bubble Up the Maps
-		local mapInfo;
 		local mapID = app.CurrentMapID;
 		if mapID then
+			header = { key = "mapID", ["mapID"] = mapID, ["g"] = { header } };
 			local pos = C_Map_GetPlayerMapPosition(mapID, "player");
 			if pos then
 				local px, py = pos:GetXY();
 				info.coords = { [mapID] = { { px * 100, py * 100 } } };
 			end
-			repeat
-				mapInfo = C_Map_GetMapInfo(mapID);
-				if mapInfo then
-					header = { key = "mapID", ["mapID"] = mapInfo.mapID, ["g"] = { header } };
-					mapID = mapInfo.parentMapID
+			local mapInfo = C_Map_GetMapInfo(mapID);
+			if mapInfo then
+				while mapID and mapID ~= 0 do
+					header = { key = "mapID", ["mapID"] = mapID, ["g"] = { header } };
+					mapInfo = C_Map_GetMapInfo(mapID);
+					mapID = mapInfo and mapInfo.parentMapID or 0;
 				end
-			until not mapInfo or not mapID or mapID == 0;
+			end
 		end
 		self:AddObject(header);
 	end,
