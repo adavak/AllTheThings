@@ -1,7 +1,9 @@
 createLocalizationString({
 	readable = "Enable this option to track first craft completion.",
 	constant = "FIRST_CRAFTS_CHECKBOX_TOOLTIP",
+	-- #if AFTER 10.0.0
 	export = true,
+	-- #endif
 	text = {
 		en = "Enable this option to track first craft completion.",
 		-- TODO: de = "",

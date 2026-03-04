@@ -1,7 +1,9 @@
 createLocalizationString({
 	readable = "First Crafts",
 	constant = "FIRST_CRAFTS_CHECKBOX",
+	-- #if AFTER 10.0.0
 	export = true,
+	-- #endif
 	text = {
 		en = "First Crafts",
 		-- TODO: de = "",
