@@ -19,6 +19,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #if AFTER CATA
 			{ 55.2, 66.1, 11 },	-- Wailing Caverns, Northern Barrens
 			-- #else
+			{ 52.0, 55.2, KALIMDOR },
 			{ 45.9, 35.7, THE_BARRENS },
 			-- #endif
 		},
