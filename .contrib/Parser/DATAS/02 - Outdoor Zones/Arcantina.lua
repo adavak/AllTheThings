@@ -25,7 +25,8 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 				["provider"] = { "n", 250402 },	-- Gidwin Goldbraids
 				["coords"] = {
 					{ 37.7, 53.6, ARCANTINA },
-					-- { 43.1, 64.3, ARCANTINA },	-- do NPCs change location inside randomly?
+					{ 39.0, 55.1, ARCANTINA },
+					{ 43.1, 64.3, ARCANTINA },
 				},
 				["groups"] = {
 					i(253598),	-- Banner of the Ebon Blade (DECOR!)

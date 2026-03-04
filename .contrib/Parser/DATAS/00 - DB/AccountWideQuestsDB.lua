@@ -19,6 +19,11 @@ local AccountWideQuestsDB = {
 	-- PUT NEW QUESTIDS HERE vv IF YOU DONT WANT TO CHECK WHERE YOU ARE PUTTING IT
 	------------------------------------------------------------------------------
 
+	93872,	-- Prey Complete - Normal #1
+	93873,	-- ??
+	93874,	-- Prey Complete - Hard #2
+	93875,	-- ??
+	93965,	-- Pet Wranglin'
 
 
 	------------------------------------------------------------------------------
