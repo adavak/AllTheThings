@@ -12,7 +12,7 @@ createLocalizationString({
 		-- TODO: pt = "",
 		-- TODO: ru = "",
 		-- TODO: ko = "",
-		-- TODO: cn = "",
+		cn = "设置一个透明度值来应用于非活动窗口。\n\n默认值：1",
 		-- TODO: tw = "",
 	},
 })

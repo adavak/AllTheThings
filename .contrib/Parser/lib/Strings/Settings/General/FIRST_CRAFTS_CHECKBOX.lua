@@ -3,7 +3,7 @@ createLocalizationString({
 	constant = "FIRST_CRAFTS_CHECKBOX",
 	export = true,
 	text = {
-		en = "First Crafts"
+		en = "First Crafts",
 		-- TODO: de = "",
 		-- TODO: es = "",
 		-- TODO: mx = "",
@@ -12,7 +12,7 @@ createLocalizationString({
 		-- TODO: pt = "",
 		-- TODO: ru = "",
 		-- TODO: ko = "",
-		-- TODO: cn = "",
+		cn = "首次制作",
 		-- TODO: tw = "",
 	},
 })

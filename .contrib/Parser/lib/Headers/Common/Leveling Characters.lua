@@ -12,7 +12,7 @@ LEVELING_CHARACTERS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
+		cn = "升级角色",
 		-- TODO: tw = "",
 	},
 	description = {
@@ -25,7 +25,7 @@ LEVELING_CHARACTERS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
+		cn = "包含只能由未达到最高等级的角色获得的物品。",
 		-- TODO: tw = "",
 	},
 });

@@ -12,7 +12,7 @@ createLocalizationString({
 		-- TODO: pt = "",
 		-- TODO: ru = "",
 		-- TODO: ko = "",
-		-- TODO: cn = "",
+		cn = "设置是否根据非标题行中缩进最低的行来调整行的缩进。\n\n默认：是",
 		-- TODO: tw = "",
 	},
 })
