@@ -737,7 +737,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 					["questID"] = 94039,
 				}),
 				o(618279, {	-- Sturdy Chest
-					["coord"] = { 69.9, 31.7, THE_GRUDGE_PIT },
+					["coord"] = { 70.2, 29.8, THE_GRUDGE_PIT },
 					["questID"] = 94022,
 				}),
 				o(618277, {	-- Sturdy Chest

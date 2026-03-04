@@ -711,6 +711,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238371),	-- Arcane Wyrmfish
 		i(243302),	-- Aquarius Bloom
 		i(238377),	-- Blood Hunter
+		i(241147),	-- Blood Hunter Lure
 		i(243342),	-- Bloom Bauble
 		i(238369),	-- Bloomtail Minnow
 		i(238489),	-- Definitely Not a Rock
@@ -728,7 +729,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238367),	-- Root Crab
 		i(238378),	-- Shimmersiren
 		i(238370),	-- Shimmer Spinefish
-		i(262797),	-- Shredded Glimmerline (TODO: probably need to move out)
+		i(262792),	-- Shredded Bloomline
+		i(262797),	-- Shredded Glimmerline
 		i(238365),	-- Sin'dorei Swarmer
 		i(238384),	-- Sunwell Fish
 		i(238368),	-- Twisted Tetra
@@ -1369,19 +1371,29 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(95459, 256770),	-- Skinning Bilemaw the Gluttonous
 			FirstSkin(93633, 255348),	-- Skinning Dame Bloodshed
 			FirstSkin(88545, 245688),	-- Skinning Gloomclaw
+			FirstSkin(95517, 249849),	-- Skinning Ha'kalawe
 			FirstSkin(93632, 246633),	-- Skinning Harried Hawkstrider
+			FirstSkin(88531, 245690),	-- Skinning Lumenfin
 			FirstSkin(93634, 242032),	-- Skinning Oophaga
+			FirstSkin(88542, 253304),	-- Skinning Paingolin
 			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
 			FirstSkin(95446, 250876),	-- Skinning Terrinor
+			FirstSkin(93637, 242033),	-- Skinning Tiny Vermin
 			FirstSkin(93639, 238498),	-- Skinning Territorial Voidscythe
 			FirstSkin(95471, 242035),	-- Skinning The Devouring Invader
+			FirstSkin(93636, 242024),	-- Skinning The Snapping Scourge
 		})),
 		spell(471014, {	-- Midnight Skinning
 			i(238523),	-- Carving Canine
 			i(238525),	-- Fantastic Fur
-			i(238518),	-- Void-Tempered Hide
-			i(238513),	-- Void-Tempered Scales
-			i(238514),	-- Void-Tempered Scales +
+			i(238518),	-- Void-Tempered Hide+
+			i(238519),	-- Void-Tempered Hide++
+			i(238511),	-- Void-Tempered Leather+
+			i(238512),	-- Void-Tempered Leather++
+			i(238520),	-- Void-Tempered Plating+
+			i(238521),	-- Void-Tempered Plating++
+			i(238513),	-- Void-Tempered Scales+
+			i(238514),	-- Void-Tempered Scales++
 		}),
 		i(238657),	-- Lightbloom Diffuser
 		i(238659),	-- Primal Diffuser

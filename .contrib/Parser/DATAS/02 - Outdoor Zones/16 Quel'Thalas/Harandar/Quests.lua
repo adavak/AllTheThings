@@ -1493,7 +1493,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(91512, name(HEADERS.Item,262906)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Russula's Outreach'
 				q(91456, name(HEADERS.Item,263196)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Aln'hara's Bloom'
 				--
-				q(94046),	-- Fly directly up into the glowing skybox
+				q(94046),	-- Fly directly up into the glowing skybox (achievementID 61860 - From The Cradle to the Grave)
 			}),
 		}),
 	}),

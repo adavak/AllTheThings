@@ -2612,6 +2612,7 @@ i(260654);	-- Abrasive Sand
 i(253623);	-- Abstract Painting
 i(260276);	-- Akil'stew
 i(260636);	-- Algae Covered Stone
+i(260288);	-- Alndust-Infused Feast
 i(255688);	-- Anchor of the Abyss
 i(263517);	-- Ancient Text
 i(260641);	-- Arid Tendrils
@@ -2658,6 +2659,7 @@ i(238486);	-- Empty Can
 i(247672);	-- Eversong Fizz
 i(260259);	-- Everspring Water
 i(263518);	-- Expensive-Looking Find
+i(260285);	-- Extract of Lightbloom
 i(260262);	-- Fairbreeze Feast
 i(260672);	-- Fetid Eye
 i(260689);	-- Fine Bioluminescent Powder
@@ -2673,11 +2675,13 @@ i(260257);	-- Ghostlands Pepper
 i(238481);	-- Glittering Garbage
 i(260690);	-- Gloomy Root
 i(260646);	-- Glowing Gland
+i(254874);	-- Glowing Moth Dust
 i(260661);	-- Glowing Shrub
 i(264995);	-- Goldenbough Preserves
 i(264981);	-- Goldengrove Juice
 i(264973);	-- Goldenmist Gouda
 i(238485);	-- Grotesque Globule
+i(260283);	-- Grotto Gulp
 i(260657);	-- Holey Organ
 i(238496);	-- Hunk O' Junk
 i(260688);	-- Insect Exoskeleton
@@ -2689,12 +2693,14 @@ i(260611);	-- Large Bestial Scale
 i(260685);	-- Large Brittle Bone
 i(260617);	-- Large Broken Teeth
 i(260653);	-- Large Lightbloom Fungi
+i(260284);	-- Lashroom Quencher
 i(260606);	-- Light and Shaggy Fur
 i(260618);	-- Light-Infused Leaves
 i(260644);	-- Lightbloom Bark
 i(260613);	-- Lightbloom Flower
 i(260663);	-- Lightbloom Residue
 i(260681);	-- Lightbloom-Infused Spores
+i(260279);	-- Lightbloomin' Onion
 i(260675);	-- Luminous Seeds
 i(260651);	-- Lustrous Wildlife Pelt
 i(260256);	-- Luxurious Omelette
@@ -2718,6 +2724,7 @@ i(250317);	-- Pile of Ash
 i(260643);	-- Pile of Feathers
 i(244039);	-- Pitcher Plant Vase
 i(260662);	-- Polished Purple Pebble
+i(260278);	-- Potatoad Salad
 i(260258);	-- Purified Cordial
 i(260295);	-- Purified Storm Water
 i(260660);	-- Putrid Mushroom Spores
@@ -2725,12 +2732,14 @@ i(260264);	-- Quel'Danas Rations
 i(260290);	-- Quel'Thalas Cheese
 i(242638);	-- Recycle Flasks
 i(242637);	-- Recycle Potions
+i(260282);	-- Refreshing Ahl'ua Water
 i(260289);	-- Ren'dorei Rations
 i(260299);	-- Roasted Abyssal Eel
 i(260271);	-- Root Juice
 i(238477);	-- Rotten Meat
 i(260637);	-- Rotting Insect Eggs
 i(244040);	-- Sack of Seeds
+i(260280);	-- Sauteed Fungal Tubers
 i(238493);	-- Screaming Rock
 i(250856);	-- Screwdriver
 i(260277);	-- Sedge Crawler Gumbo
@@ -2739,6 +2748,7 @@ i(260605);	-- Shattered Spear Tip
 i(260678);	-- Sharp Obsidian Chunk
 i(260684);	-- Sharp Scales
 i(238478);	-- Shimmering Seaweed
+i(260286);	-- Shrooms and Nectar
 i(263519);	-- Snake Oil
 i(238492);	-- Silent Rock
 i(247673);	-- Silvermoon Sin'gria
@@ -2752,6 +2762,7 @@ i(260260);	-- Springrunner Sparkling
 i(260291);	-- Stargazer Pudding
 i(260267);	-- Steamed Hexx'alor Lobster
 i(260659);	-- Stellar Vortex Residue
+i(260281);	-- Stir-Fried Saptor Sirloin
 i(260620);	-- Stone Droppings
 i(253622);	-- Strangely Pleasant Painting
 i(262786);	-- Suntouched Special Reserve
@@ -2777,3 +2788,4 @@ i(260294);	-- Voidwyrm Absinthe
 i(260645);	-- Water Filled Organ
 i(238491);	-- Whispering Rock
 i(264982);	-- Wine Not
+i(260287);	-- World Roots Banquet

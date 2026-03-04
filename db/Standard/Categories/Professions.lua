@@ -2551,7 +2551,7 @@ crit(6756,{achID=1563,id=9})}}),
 ach(1797,{awp=30002,rank=75,requireSkill=185}),
 ach(1796,{awp=30002,rank=50,requireSkill=185}),
 ach(1795,{awp=30002,rank=25,requireSkill=185}),
-ach(1998,{awp=30002,cost={{"c",402,1}},providers={{"i",57142},{"i",57757}},rank=1,requireSkill=185}),
+ach(1998,{awp=30002,cost={{"c",402,1}},providers={{"i",43016},{"i",57142},{"i",57757}},rank=1,requireSkill=185}),
 ach(1999,{awp=30002,cost={{"c",402,10}},rank=10,requireSkill=185}),
 ach(2000,{awp=30002,cost={{"c",402,25}},rank=25,requireSkill=185}),
 ach(2001,{awp=30002,cost={{"c",402,50}},rank=50,requireSkill=185}),
@@ -7467,12 +7467,27 @@ ach(62252,{requireSkill=393,g={
 title(752,{requireSkill=393})}})}}),
 flt(200,{description="These are learned by specialization.",requireSkill=393}),
 h(-56,{requireSkill=393,g={
+o(525891,{coords={
+[2437]={{33.1,79.1}}},questID=89172,requireSkill=393,g={
+i(238634,{b=1,requireSkill=393,spellID=1225646})}}),
+o(525893,{coords={
+[2437]={{40.4,36}}},questID=89170,requireSkill=393,g={
+i(238632,{b=1,requireSkill=393,spellID=1225646})}}),
+o(525896,{coords={
+[2437]={{44.9,45.2}}},questID=89167,requireSkill=393,g={
+i(238629,{b=1,requireSkill=393,spellID=1225646})}}),
 o(525897,{coords={
 [2393]={{76,51.1}}},questID=89166,requireSkill=393,g={
 i(238628,{b=1,requireSkill=393,spellID=1225646})}}),
+o(525895,{coords={
+[2413]={{69.5,49.2}}},questID=89168,requireSkill=393,g={
+i(238630,{b=1,requireSkill=393,spellID=1225646})}}),
 o(525892,{coords={
 [2393]={{43.2,55.7}}},questID=89171,requireSkill=393,g={
-i(238633,{b=1,requireSkill=393,spellID=1225646})}})}})}})}),
+i(238633,{b=1,requireSkill=393,spellID=1225646})}}),
+o(525890,{coords={
+[2395]={{48.4,76.3}}},questID=89173,requireSkill=393,g={
+i(238635,{b=1,requireSkill=393,spellID=1225655})}})}})}})}),
 prof(197,{
 h(-12,{awp=100107,requireSkill=197,g={
 ach(18888,{providers={{"s",419578}},requireSkill=197}),

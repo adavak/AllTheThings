@@ -246,7 +246,6 @@ root(ROOTS.Unsorted, {
 					i(238498),	-- [PH] Trophy Coin
 
 					-- Fishing
-					i(241147),	-- Blood Hunter Lure
 					i(241150),	-- Sunwell Fish Lure
 					i(241151),	-- Rootland Crab Lure
 
@@ -287,10 +286,6 @@ root(ROOTS.Unsorted, {
 					i(245813),	-- Transcribe: Void
 				}),
 				prof(SKINNING, {
-					i(238512),	-- Void-Tempered Leather \\ Thalassian Leather
-					i(238519),	-- Void-Tempered Hide \\ Thalassian Hide
-					i(238520),	-- Void-Tempered Plating \\ Thalassian Plating
-					i(238521),	-- Void-Tempered Plating \\ Thalassian Plating
 					i(238522),	-- Peerless Plumage
 					i(238528),	-- Majestic Claw
 					i(238529),	-- Majestic Hide
@@ -313,10 +308,7 @@ root(ROOTS.Unsorted, {
 					i(238626),	-- Mana-Infused Bone
 					i(238627),	-- Manafused Sample
 					i(238629),	-- Cadre Skinning Knife
-					i(238630),	-- Primal Hide
 					i(238631),	-- Voidstorm Leather Sample
-					i(238632),	-- Amani Tanning Oil
-					i(238635),	-- Thalassian Skinning Knife
 				}),
 			}),
 			filter(MISC, {
@@ -338,7 +330,6 @@ root(ROOTS.Unsorted, {
 				i(253010),	-- Set Keystone Map: Nexus-Point Xenas
 				i(253012),	-- Set Keystone Map: Magisters' Terrace
 				i(253706),	-- Junk Mail
-				i(254874),	-- Glowing Moth Dust
 				i(256342),	-- Griftah's Fool-Proof Embellishing Powder
 				i(258269),	-- [DNT] Tiny Pouch of Supplies
 				i(258270),	-- [DNT] Small Pouch of Supplies
@@ -467,19 +458,6 @@ root(ROOTS.Unsorted, {
 				i(264972),	-- Voidstorm Victuals
 				i(264988),	-- Endgame Essentials
 				i(265790),	-- Cache of Dawncrests
-
-				-- Food
-				i(260278),	-- Potatoad Salad \\ Food 80 01
-				i(260279),	-- Lightbloomin' Onion \\ Food 80 02
-				i(260280),	-- Sauteed Fungal Tubers \\ Food 85 01
-				i(260281),	-- Stir-Fried Saptor Sirloin \\ Food 85 02
-				i(260282),	-- Refreshing Ahl'ua Water \\ Drink 80 01
-				i(260283),	-- Grotto Gulp \\ Drink 80 02
-				i(260284),	-- Lashroom Quencher \\ Drink 85 01
-				i(260285),	-- Extract of Lightbloom \\ Drink 85 02
-				i(260286),	-- Shrooms and Nectar \\ Food/Drink 90 01
-				i(260287),	-- World Roots Banquet \\ Food/Drink 90 02
-				i(260288),	-- Alndust-Infused Feast \\ Food/Drink 90 03
 
 				-- Misc Amani
 				i(254554),	-- Amani Hex Stick

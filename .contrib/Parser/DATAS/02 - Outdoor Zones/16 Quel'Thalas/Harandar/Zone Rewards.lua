@@ -8,10 +8,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(251881, {	-- Small Pile of Luminous Dust (QS!/QI!)
 				--["providers"] = {	-- any (not sure about late renown) Glowing Moth? },
 			}),
-			i(238511, {	-- Crystalized Resin Fragment
-				["description"] = "Can be found in river that flow near Teldrassil roots (top left)",
-				["provider"] = { "o", 616052 },	--
-			}),
 		}),
 	}),
 }));
