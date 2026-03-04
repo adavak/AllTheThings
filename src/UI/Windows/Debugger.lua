@@ -16,6 +16,7 @@ local GetNumLootItems, GetLootSlotLink, GetLootSourceInfo, GetTaxiMapID, C_TaxiM
 	= GetNumLootItems, GetLootSlotLink, GetLootSourceInfo, GetTaxiMapID, C_TaxiMap.GetAllTaxiNodes;
 local GetItemID = app.WOWAPI.GetItemID;
 local issecretvalue = app.WOWAPI.issecretvalue;
+local GetItemLinkByGUID = app.WOWAPI.GetItemLinkByGUID;
 
 local CloneArray, CloneClassInstance, GetRelativeValue, MergeObject
 	= app.CloneArray, app.CloneClassInstance, app.GetRelativeValue, app.MergeObject;
@@ -804,7 +805,7 @@ app:CreateWindow("Debugger", {
 							ot, zero, server_id, instance_id, zone_uid, id, spawn_uid = ("-"):split(dropLink);
 							-- get Item container link
 							if not id then
-								dropLink = CleanLink(C_Item.GetItemLinkByGUID(dropLink))
+								dropLink = CleanLink(GetItemLinkByGUID(dropLink))
 								-- app.PrintDebug("item:droplink",dropLink)
 								ot, zero, server_id, instance_id, zone_uid, id, spawn_uid = ("-"):split(dropLink);
 							end
