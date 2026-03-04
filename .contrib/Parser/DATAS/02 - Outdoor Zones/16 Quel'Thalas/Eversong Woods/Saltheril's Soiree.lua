@@ -62,33 +62,29 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["maxReputation"] =  { FACTION_BLOOD_KNIGHTS, EXALTED },
 				["isWeekly"] = true,
 			}, {
+				q(91979),	-- Chop It Down
+				q(90574),	-- Fortify the Runestones: Blood Knights
+				q(91972),	-- Hold the Watch
 				q(91977),	-- Less Lawless
-				--q(XXX),	-- Fortify the Runestones: XXX
 				q(91971, {	-- Hitting the Hammer
-					["description"] = "Up after 1st Saltheril's Favor donation.",
-					["groups"] = {
-						i(249416),	-- Partially Eaten Rations (QI!)
-						i(249413),	-- Previously Loved Earring (QI!)
-						i(249412),	-- Smelly Left Shoe (QI!)
-						i(249415),	-- Throk's Scroll of Doom (QI!)
-						i(249411),	-- Twilight Tokens (QI!)
-					},
+					i(249416),	-- Partially Eaten Rations (QI!)
+					i(249413),	-- Previously Loved Earring (QI!)
+					i(249412),	-- Smelly Left Shoe (QI!)
+					i(249415),	-- Throk's Scroll of Doom (QI!)
+					i(249411),	-- Twilight Tokens (QI!)
+				}),
+				q(91974, {	-- Sunfire to the Blade
+					i(249691),	-- Holy Sunfire (QI!)
 				}),
 				q(91978, {	-- Taxing the Tideborne
-					["description"] = "Up after 2nd Saltheril's Favor donation.",
-					["groups"] = {
-						o(568550, {	--
-							i(249686),	-- Tideborne Dubloon (QI!)
-						}),
-					},
+					o(568550, {	--
+						i(249686),	-- Tideborne Dubloon (QI!)
+					}),
 				}),
 				q(91973, {	-- Naga Blade
-					["description"] = "Up after 3rd Saltheril's Favor donation.",
-					["groups"] = {
-						o(568483, {	--
-							i(249499),	-- Naga Scimitar (QI!)
-						}),
-					},
+					o(568483, {	--
+						i(249499),	-- Naga Scimitar (QI!)
+					}),
 				}),
 			})),
 			-- Farstriders weekly
@@ -103,33 +99,25 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				q(90575),	-- Fortify the Runestones: Farstriders
 				q(91989, {	-- Ghostland Peppers
-					["description"] = "Up after 1st Saltheril's Favor donation.",
-					["groups"] = {
-						o(568477, {	--
-							i(249497),	-- Ghostland Pepper (QI!)
-						}),
-					},
+					o(568477, {	--
+						i(249497),	-- Ghostland Pepper (QI!)
+					}),
 				}),
 				q(91984, {	-- Sungrub Silk
-					["description"] = "Up after 2nd Saltheril's Favor donation.",
-					["groups"] = {
-						i(249422),	-- Sunsilk (QI!)
-					},
+					i(249422),	-- Sunsilk (QI!)
 				}),
 				q(91985, {	-- Windrunner Memorabilia
-					["description"] = "Up after 3rd Saltheril's Favor donation.",
-					["groups"] = {
-						i(249542),	-- Partially Used Memento (QI!)
-						o(568507, {	--
-							i(249552),	-- Mischievous Mask (QI!)
-							i(249531),	-- Mysterious Cube (QI!)
-							i(249540),	-- Oddly Sealed Book (QI!)
-							i(249554),	-- Variable Timepiece (QI!)
-						}),
-					},
+					i(249542),	-- Partially Used Memento (QI!)
+					o(568507, {	--
+						i(249552),	-- Mischievous Mask (QI!)
+						i(249531),	-- Mysterious Cube (QI!)
+						i(249540),	-- Oddly Sealed Book (QI!)
+						i(249554),	-- Variable Timepiece (QI!)
+					}),
 				}),
 				q(91983, {	-- Lovely Plumage
 					["groups"] = {
+						i(249439),	-- Bright Feather (QI!)
 						i(249440),	-- Bright Feather (QI!)
 					},
 				}),
@@ -154,7 +142,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(92002, {	-- Dangerous Showpieces
 					["groups"] = { i(249528), },	-- Twilight Weaponry
 				}),
-				q(92005),	-- Throw The Dice
+				q(92005, {	-- Throw The Dice
+					i(249541),	-- Naga Fang (QI!)
+				}),
 				q(90576),	-- Fortify the Runestone: Shades of the Row
 				q(92006, {	-- We Need a Refill
 					["groups"] = {
