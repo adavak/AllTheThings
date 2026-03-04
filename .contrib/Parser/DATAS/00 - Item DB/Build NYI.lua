@@ -7,6 +7,7 @@ FIRST_CRAFTS_TEST = createHeader({
 	},
 });
 root(ROOTS.NeverImplemented, {
+	-- #if AFTER 10.0.0
 	n(FIRST_CRAFTS_TEST, {
 		-- Testing section for a new way of implementing First Crafts
 		-- Random Midnight Tailoring recipes
@@ -30,6 +31,7 @@ root(ROOTS.NeverImplemented, {
 		--q(90053), -- FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
 		--q(90050), -- FirstCraft(90050, 1228973);	-- Bright Linen Tailoring Robe
 	}),
+	-- #endif
 	n(ACHIEVEMENTS, {["timeline"] = {CREATED_3_0_2}}),					-- Completed up to 11.2.5
 	n(ARMOR),															-- Not Completed and Not Sorted
 	n(ARTIFACTS),														-- Completed up to 11.2.5
