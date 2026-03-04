@@ -1252,6 +1252,10 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			},
 		},{
 			i(263456),	-- Thalassian Engineer's Notepad
+			q(93534, {	-- MID Weekly Engineering Knowledgepoint #1
+				["name"] = "MID Weekly Engineering Treasure #1",
+				["provider"] = { "i", 259194 },	-- Dance Gear
+			}),
 			--[[ Has same questID as war within
 			q(83728, {	-- MID Inscription Order: Engineering
 				["name"] = "MID Inscription Order: Engineering",
@@ -1260,10 +1264,6 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 			--]]
 			--[[ Needs QuestIDs
-			q(83260, {	-- MID Weekly Engineering Knowledgepoint #1
-				["name"] = "MID Weekly Engineering Treasure #1",
-				["provider"] = { "i", 259194 },	-- Dance Gear
-			}),
 			q(83261, {	-- MID Weekly Engineering Knowledgepoint #2
 				["name"] = "MID Weekly Engineering Treasure #2",
 				["provider"] = { "i", 259195 },	-- Dawn Capacitor

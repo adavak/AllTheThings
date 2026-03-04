@@ -302,6 +302,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			q(91104),	-- Prey: Zadu, Fist of Nalorakk (Normal)
 			q(91228),	-- Prey: Zadu, Fist of Nalorakk (Hard)
 			q(91229),	-- Prey: Zadu, Fist of Nalorakk (Nightmare)
+			q(93872),	-- Prey Complete - Normal #1
+			q(93853),	-- Prey Complete - Normal #2
+			q(93855),	-- Prey Complete - Normal #3
+			q(93856),	-- Prey Complete - Normal #4
+			-- q(TODO),	-- Prey Complete - Hard #1
+			q(93874),	-- Prey Complete - Hard #2
+			q(93858),	-- Prey Complete - Hard #3
+			q(93860),	-- Prey Complete - Hard #4
+			-- q(TODO),	-- Prey Complete - Nightmare #1
+			-- q(TODO),	-- Prey Complete - Nightmare #2
+			-- q(TODO),	-- Prey Complete - Nightmare #3
+			-- q(TODO),	-- Prey Complete - Nightmare #4
 		})),
 		n(REWARDS, {
 			--Currency
@@ -557,19 +569,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				--- Veteran
 				q(93169),	-- Veteran chest lockout (Hard), 1st
 				q(93857),	-- Veteran chest lockout (Hard), 2nd (after it - Veteran Sack as reward)
-				--q(93858),	-- Veteran Sack was looted, 1st after chest
-				--q(93860),	-- Veteran Sack was looted, 2nd after chest
 				--- Nightmare
 				q(93170),	-- Chapmpion chest lockout (Nightmare), 1st
 				--q(93158?),	-- Chapmpion chest lockout (Nightmare), 2nd (after it - Chapmpion Sack as reward)
 
 				-- Unknown?
 				q(93857),	-- Completed with questID 91098 and 93168
-
-
-				q(93872),	-- Knight-Errant Bloodshatter (Normal) popped after kill
-				q(93853),	-- L-N-0R the Recycler (Normal) popped after kill
-				q(93872),	-- Mordril Shadowfell (Normal) popped after kill
 			}),
 		}),
 	}),
