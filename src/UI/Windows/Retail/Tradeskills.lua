@@ -40,7 +40,7 @@ local function RefreshTradeSkillCache()
 	wipe(cache);
 	-- "Professions" that anyone can "know"
 	for _,skillID in ipairs(app.SkillDB.AlwaysAvailable) do
-		cache[skillID] = true
+		cache[skillID] = 1
 	end
 	-- app.PrintDebug("RefreshTradeSkillCache");
 	local prof1, prof2, archaeology, fishing, cooking, firstAid = GetProfessions();

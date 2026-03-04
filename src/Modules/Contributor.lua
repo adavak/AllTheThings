@@ -97,10 +97,23 @@ local function DoReport(reporttype, id)
 	-- common report data
 	reportData[#reportData + 1] = "---- User Info ----"
 	reportData[#reportData + 1] = "PlayerLocation: "..GetReportPlayerLocation()
+	local lastQuests = app.TableConcat(app.MostRecentQuestTurnIns, nil, nil, "<") or ""
+	if lastQuests ~= "" then
+		reportData[#reportData + 1] = "LastQuests:"..lastQuests
+	end
 	reportData[#reportData + 1] = "Character: L:"..app.Level.." R:"..app.RaceID.." ("..app.Race..") C:"..app.ClassIndex.." ("..app.Class..")"
-	reportData[#reportData + 1] = "ATT: "..app.Version
-	reportData[#reportData + 1] = "GameBuild: "..app.GameBuildVersion
-	reportData[#reportData + 1] = "UTC: "..date("!%Y-%m-%dT%H:%M:%SZ", time())
+	if app.CurrentCharacter.Professions then
+		local skills = {};
+		for profID,known in pairs(app.CurrentCharacter.Professions) do
+			-- professions inherently known by all characters are marked 1 specifically; dynamic ones are true
+			if known ~= 1 then
+				skills[#skills + 1] = "|"..profID..":"
+				skills[#skills + 1] = C_TradeSkillUI.GetTradeSkillDisplayName(profID):sub(1,4)
+			end
+		end
+		reportData[#reportData + 1] = "Profs: "..(app.TableConcat(skills) or "")
+	end
+	reportData[#reportData + 1] = "ATT: "..app.Version.." GameBuild: "..app.GameBuildVersion.." UTC: "..date("!%Y-%m-%dT%H:%M:%SZ", time())
 	reportData[#reportData + 1] = "```";	-- discord fancy box end
 
 	if app:SetupReportDialog(dialogID, "Contributor Report: " .. dialogID, reportData) then
@@ -2635,6 +2648,7 @@ MobileDB.GameObject = {
 	[528309] = true,	-- Arcane Recorder (q:87394)
 	[528358] = true,	-- Uncharged Crystal
 	[529289] = true,	-- Spore Sample (q:88711)
+	[531477] = true,	-- Coalesced Light
 	[531495] = true,	-- Slain Beas (q:86516)
 	[531507] = true,	-- Depleted Wardbreaker (q:89205)
 	[531961] = true,	-- Untethered Xy'bucha
