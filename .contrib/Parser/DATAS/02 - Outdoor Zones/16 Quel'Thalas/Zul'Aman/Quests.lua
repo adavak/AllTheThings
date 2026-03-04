@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 46.3, 48.4, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 						["groups"] = {
 							o(539207, {	-- Hastily Packed Belongings
-								["coord"] = { 16.8, 20.4, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+								["coord"] = { 16.5, 20.7, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 								["groups"] = { i(237768) },	-- Hash'ey Staff (QI!)
 							}),
 						},
@@ -74,13 +74,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 16.6, 20.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 						["groups"] = {
 							i(237767),	-- Lightwood Weapon (QI!)
-							i(248555),	--
-							i(248556),	--
-							i(248557),	--
-							i(248558),	--
-							i(248559),	--
-							i(248560),	--
+							--
+							i(248560),	-- Stonebough Blade
+							i(248559),	-- Stonebough Bow
+							i(248557),	-- Stonebough Dagger
+							i(248558),	-- Stonebough Edge
+							i(248556),	-- Stonebough Greatsword
 							i(248561),	-- Stonebough Hatchet
+							i(248555),	-- Stonebough Kris
 							i(248562),	-- Stonebough Spear
 						},
 					}),
@@ -98,9 +99,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							86717,	-- Show Us Your Worth
 						},
 						["provider"] = { "n", 236540 },	-- Zul'jan
-						["coord"] = { 22.5, 79.9, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["coord"] = { 22.6, 79.9, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 						["groups"] = {
-							i(237501),	-- Lightwood Weapon (QI!)
+							i(237501),	-- Lightwood Weapon (PQI!)
+							--
 							i(264257),	-- Zul'Aman Armament Rest (DECOR!)
 						},
 					}),
@@ -110,7 +112,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							86721,	-- Everything We Worked For
 						},
 						["provider"] = { "n", 236542 },	-- Lady Liadrin
-						["coord"] = { 23.1, 79.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["coord"] = { 23.1, 79.9, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 					}),
 					q(86718, {	-- Twilight Bled
 						["sourceQuests"] = {
@@ -118,7 +120,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							86721,	-- Everything We Worked For
 						},
 						["provider"] = { "n", 236541 },	-- Zul'jarra
-						["coord"] = { 23.1, 79.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["coord"] = { 22.9, 79.3, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 						["groups"] = {
 							i(260470),	-- Bloodspattered Bindings
 							i(260469),	-- Bloodspattered Cuffs
@@ -130,10 +132,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = {
 							86712,	-- The Amani Stand Strong
 							86715,	-- Rituals Cut Short
-							--??,	--
+							86718,	-- Twilight Bled
 						},
 						["provider"] = { "n", 236587 },	-- Zul'jarra
-						["coord"] = { 47.6, 46.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["coord"] = { 47.5, 46.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 						["groups"] = {
 							i(248563),	-- Zulguard's Shoes
 							i(248564),	-- Zulguard's Stompers
@@ -145,14 +147,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86720 },	-- Break the Blade
 						["provider"] = { "n", 236601 },	-- Zul'jarra
 						["coord"] = { 47.8, 47.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-						["groups"] = {
-							--spell(1239146),	-- Guest of Zul'Aman
-						},
 					}),
 					q(86723, {	-- Isolation
 						["sourceQuests"] = { 86722 },	-- Heart of the Amani
 						["provider"] = { "n", 236602 },	-- Zul'jarra
-						["coord"] = { 42.6, 66.9, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 42.7, 66.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(86652, {	-- Left in the Shadows
 						["sourceQuests"] = { 86723 },	-- Isolation

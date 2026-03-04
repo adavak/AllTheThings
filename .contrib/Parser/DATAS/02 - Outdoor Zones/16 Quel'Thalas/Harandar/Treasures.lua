@@ -479,7 +479,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					n(254030, {	-- Child-like Spirit
 						["coord"] = { 51.4, 47.5, MAP.MIDNIGHT.HARANDAR },
-						["cost"] = { { "i", 256882, 1 }, },	-- A Tattered Ball
+						["cost"] = { { "i", 256882, 1 } },	-- A Tattered Ball
 						["questID"] = 93130,
 						["groups"] = {
 							o(588966, {	-- A Tattered Ball
@@ -492,7 +492,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					n(254116, {	-- Elder Spirit
 						["coord"] = { 51.2, 58.6, MAP.MIDNIGHT.HARANDAR },
-						["cost"] = { { "i", 257054, 1 }, },	-- A Rolled-Up Pillow
+						["cost"] = { { "i", 257054, 1 } },	-- A Rolled-Up Pillow
 						["questID"] = 93146,
 						["groups"] = {
 							o(590801, {	-- A Rolled-Up Pillow
@@ -505,7 +505,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					n(254104, {	-- Huntress Spirit
 						["coord"] = { 47.2, 53.2, MAP.MIDNIGHT.HARANDAR },
-						["cost"] = { { "i", 257024, 1 }, },	-- A Lost Hunting Knife
+						["cost"] = { { "i", 257024, 1 } },	-- A Lost Hunting Knife
 						["questID"] = 93145,
 						["groups"] = {
 							o(589205, {	-- A Lost Hunting Knife
@@ -523,7 +523,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["description"] = "Obtain mysterious fluids from other objects in same cave, then mix red and purple for Fizzing Fluid.",
 				["coord"] = { 26.7, 67.6, MAP.MIDNIGHT.HARANDAR },
 				["questID"] = 93508,
-				["cost"] = { { "i", 260266, 1 }, },	-- 1x Fizzing Fluid
+				["cost"] = { { "i", 260266, 1 } },	-- 1x Fizzing Fluid
 				["groups"] = {
 					i(260730),	-- Perturbed Sporebat (PET!)
 					--
@@ -551,7 +551,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			o(614483, {	-- Peculiar Cauldron
 				["coord"] = { 40.6, 28.0, MAP.MIDNIGHT.HARANDAR },
 				["questID"] = 93587,
-				["cost"] = { { "i", 260531, 150 }, },	-- 150x Crystalized Resin Fragment
+				["cost"] = { { "i", 260531, 150 } },	-- 150x Crystalized Resin Fragment
 				["groups"] = {
 					i(252017),	-- Ruddy Sporeglider (MOUNT!)
 				},

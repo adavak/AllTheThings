@@ -357,9 +357,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 			["description"] = "Available after completing one of the optional zones after Eversong's campaign.",
 			["provider"] = { "n", 248631 },	-- Commander Koruth Mountainfist
 			["coord"] = { 45.4, 70.2, MAP.MIDNIGHT.SILVERMOON_CITY },
-			["groups"] = {
-				--Alex TODO: bug out and npc fade out, probably it is part of other quest chain or 90s campgain, idk
-			},
 		}),
 		header(HEADERS.Achievement, 60891, {	-- The Crimson Rogue
 			header(HEADERS.AchCriteria, 60891.01, {	-- The Regent's Request

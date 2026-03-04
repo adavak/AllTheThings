@@ -1970,6 +1970,10 @@ h(-246,{requireSkill=171,g={
 i(263454,{b=1,isWeekly=1,requireSkill=171,spellID=1270530,g={
 cu(3150,{requireSkill=171})}}),
 q(95127,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245755}},requireSkill=171,g={
+cu(3150,{requireSkill=171})}}),
+q(93528,{isWeekly=1,providers={{"i",259189}},requireSkill=171,g={
+cu(3150,{requireSkill=171})}}),
+q(93529,{isWeekly=1,providers={{"i",259188}},requireSkill=171,g={
 cu(3150,{requireSkill=171})}})}})}})}),
 prof(164,{
 h(-12,{awp=100107,requireSkill=164,g={
@@ -2536,6 +2540,10 @@ h(-246,{requireSkill=164,g={
 i(263455,{b=1,isWeekly=1,requireSkill=164,spellID=1270531,g={
 cu(3151,{requireSkill=164})}}),
 q(95128,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245763}},requireSkill=164,g={
+cu(3151,{requireSkill=164})}}),
+q(93530,{isWeekly=1,providers={{"i",259190}},requireSkill=164,g={
+cu(3151,{requireSkill=164})}}),
+q(93531,{isWeekly=1,providers={{"i",259191}},requireSkill=164,g={
 cu(3151,{requireSkill=164})}})}})}})}),
 prof(185,{
 h(-12,{requireSkill=185,g={
@@ -4158,6 +4166,8 @@ o(525939,{coords={
 i(238562,{b=1,requireSkill=202,spellID=1225666})}})}}),
 h(-246,{requireSkill=202,g={
 i(263456,{b=1,isWeekly=1,requireSkill=202,spellID=1270533,g={
+cu(3153,{requireSkill=202})}}),
+q(93534,{isWeekly=1,providers={{"i",259194}},requireSkill=202,g={
 cu(3153,{requireSkill=202})}})}})}})}),
 prof(129,{rwp=80001,u=2,g={
 x(1,{awp=30002,requireSkill=129,u=2,g={
@@ -4962,7 +4972,8 @@ o(525970,{coords={
 [2413]={{38.3,67}}},questID=89162,requireSkill=182,g={
 i(238468,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525975,{coords={
-[2413]={{76.1,51.1}}},questID=89157,requireSkill=182,g={
+[2413]={{76.1,51.1}},
+[2437]={{41.9,46}}},questID=89157,requireSkill=182,g={
 i(238473,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525973,{coords={
 [2413]={{36.7,25.1}}},questID=89159,requireSkill=182,g={

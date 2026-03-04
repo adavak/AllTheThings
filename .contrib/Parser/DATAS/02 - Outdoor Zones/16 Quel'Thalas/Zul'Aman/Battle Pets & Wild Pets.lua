@@ -18,6 +18,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250139, {	-- Ebon Snapling (PET!)
 				["crs"] = { 249818 },	-- Ebon Snapling
 				["coords"] = {
+					{ 41.4, 48.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			i(250146, {	-- Gloom Toad (PET!)
@@ -39,6 +40,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250140, {	-- Swamp Biter (PET!)
 				["crs"] = { 249820 },	-- Swamp Biter
 				["coords"] = {
+					{ 40.3, 72.9, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 		}),
