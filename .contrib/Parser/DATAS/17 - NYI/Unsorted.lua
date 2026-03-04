@@ -1358,11 +1358,8 @@ root(ROOTS.Unsorted, {
 				i(258742),	-- Scroll of the Adherent
 			}),
 			n(RARES, {
-				i(264548),	-- Sash of Cosmic Tranquility
-				i(264557),	-- Borerplate Pauldrons
 				i(264605),	-- Choker of Unyielding Winds
 				i(264625),	-- Gale Force Focus
-				i(264641),	-- Sharpened Skullcleaver
 			}),
 		})),
 	}),

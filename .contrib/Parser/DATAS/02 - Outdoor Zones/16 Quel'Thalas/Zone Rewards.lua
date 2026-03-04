@@ -64,10 +64,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			filter(TRINKET_F, {
 				i(259896),	-- Bark of the Guardian Tree
+				i(264701),	-- Cosmic Bell
 				i(248583),	-- Drum of Renewed Bonds
+				i(251786),	-- Ever-Collapsing Void Fissure
+				i(251788),	-- Gift of Light
 				i(251791),	-- Holy Retributor's Order
 				i(251783),	-- Lost Idol of the Hash'ey
+				i(265027),	-- Lucky Lynx Locket
+				i(251784),	-- Sylvan Wakrapuku
 				i(252957),	-- Tangle of Vibrant Vines
+				i(264968),	-- Telluric Leyblossom
+				i(264694),	-- Ultradon Cuirass
 				i(251782),	-- Withered Saptor's Paw
 			}),
 		}),

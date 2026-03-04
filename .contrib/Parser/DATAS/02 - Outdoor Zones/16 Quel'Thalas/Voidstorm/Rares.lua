@@ -47,7 +47,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 35.5, 50.2, MAP.MIDNIGHT.VOIDSTORM },
 				["questID"] = 93884,
 				["groups"] = {
-					i(264701),	-- Cosmic Bell
 					i(264579),	-- Hungering Wristplates
 					i(264623),	-- Shredding Fang
 				},
@@ -73,11 +72,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					257249,	-- Neevus
 					257245,	-- Veserra
 				},
-				["coord"] = { 75.8, 79.5, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },	-- a bit off, didn't kill it
+				["coord"] = { 70.6, 77.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				--["questID"] = XXXX,	-- missing questID
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(264609),	-- Gar'chak's Mark of Honor
+					i(264641),	-- Sharpened Skullcleaver
 				},
 			}),
 			n(257199, {	-- Hardin Steellock
@@ -89,7 +89,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 94461,
 				["races"] = HORDE_ONLY,
 				["groups"] = {
-					i(264701),	-- Cosmic Bell (TODO: could be Midnight zone reward)
 					i(264615),	-- Hardin's Backup Blade
 					i(264599),	-- Kul'Tiran Signet Ring
 				},
@@ -99,6 +98,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 93947,
 				["groups"] = {
 					i(264632),	-- Darkblossom's Crook
+					i(264548),	-- Sash of Cosmic Tranquility
 				},
 			}),
 			n(245044, {	-- Nightbrood
@@ -124,7 +124,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(264630),	-- Colossal Voidsunderer
 					i(264561),	-- Primal Bonestompers
-					i(264694),	-- Ultradon Cuirass
 				},
 			}),
 			n(256808, {	-- Ravengerus
@@ -140,7 +139,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 93966,
 				["groups"] = {
 					i(264583),	-- Barbute of the Winged Hunter
-					i(264701),	-- Cosmic Bell
 					i(264545),	-- Harrower-Claw Grips
 				},
 			}),
@@ -158,7 +156,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(264642),	-- Carving Voidscythe
 					i(264565),	-- Voidscale Shoulderpads
-					i(264694),	-- Ultradon Cuirass
 				},
 			}),
 			n(241443, {	-- Tremora
@@ -215,7 +212,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 				["questID"] = 94459,
 				["groups"] = {
-					i(251786),	-- Ever-Collapsing Void Fissure
 					i(264628),	-- Spear of Nothingness
 					i(264556),	-- Voidforged Cinch
 				},

@@ -30,8 +30,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 92404,
 				["groups"] = {
 					i(264621),	-- Bad Zed's Worst Channeler
-					i(251788),	-- Gift of Light
-					i(265027),	-- Lucky Lynx Locket
 					i(264536),	-- Zedling Summoning Collar
 				},
 			}),
@@ -64,7 +62,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 92391,
 				["groups"] = {
 					i(264647),	-- Cre'van's Punisher
-					i(265027),	-- Lucky Lynx Locket
 					i(264573),	-- Taskmaster's Sadistic Shoulderguards
 				},
 			}),
@@ -74,7 +71,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(265609),	-- Princess Bloodshed (PET!)
 					i(264624),	-- Fang of the Dame
-					i(265027),	-- Lucky Lynx Locket
 					i(264595),	-- Lynxhide Shawl
 				},
 			}),
@@ -108,7 +104,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 59.1, 79.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 92399,
 				["groups"] = {
-					i(251788),	-- Gift of Light
 					i(264575),	-- Hexwood Helm
 					i(264555),	-- Splintered Hexwood Clasps
 				},
@@ -134,7 +129,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 92409,
 				["groups"] = {
 					i(264546),	-- Bat Fur Boots
-					i(265027),	-- Lucky Lynx Locket
 					i(264537),	-- Winged Terror Gloves
 				},
 			}),

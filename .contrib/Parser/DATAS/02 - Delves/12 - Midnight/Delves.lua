@@ -207,8 +207,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				i(251792),	-- Glorious Crusader's Keepsake
 				i(251791),	-- Holy Retributor's Order
 				i(251787),	-- Sealed Chaos Urn
-				i(251784),	-- Sylvan Wakrapuku
-				i(264694),	-- Ultradon Cuirass
 				i(251785),	-- Void-Reaper's Libram
 			}),
 		}),

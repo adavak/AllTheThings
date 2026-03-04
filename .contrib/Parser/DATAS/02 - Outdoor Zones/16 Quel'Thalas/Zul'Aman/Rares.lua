@@ -50,7 +50,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 89572,
 				["groups"] = {
 					i(264529),	-- Cover of the Furbolg Elder
-					i(251784),	-- Sylvan Wakrapuku
 					i(264547),	-- Worn Furbolg Bindings
 				},
 			}),
@@ -58,6 +57,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 28.9, 24.4, MAP.MIDNIGHT.ZULAMAN },
 				["questID"] = 89575,
 				["groups"] = {
+					i(264557),	-- Borerplate Pauldrons
 					i(264640),	-- Sharpened Borer Claw
 				},
 			}),
@@ -89,7 +89,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 39.0, 50.1, MAP.MIDNIGHT.ZULAMAN },
 				["questID"] = 91634,
 				["groups"] = {
-					i(248583),	-- Drum of Renewed Bonds
 					i(264911),	-- Forest Hunter's Arc
 					i(264627),	-- Rav'ik's Spare Hunting Spear
 				},
@@ -98,7 +97,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 51.8, 72.9, MAP.MIDNIGHT.ZULAMAN },
 				["questID"] = 89571,
 				["groups"] = {
-					--i(248583),	-- Drum of Renewed Bonds
 					i(264631),	-- Harak's Skullcutter
 					i(264542),	-- Skullcrusher's Mantle
 				},
@@ -135,7 +133,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(264617),	-- Scourge's Spike
 					i(264585),	-- Snapper Steppers
-					i(251784),	-- Sylvan Wakrapuku
 				},
 			}),
 			n(242033, {	-- Tiny Vermin
@@ -156,7 +153,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(264564),	-- Crab Wrangling Harness
 					i(264586),	-- Crustacean Carapace Chestguard
-					i(251784),	-- Sylvan Wakrapuku
 				},
 			}),
 		})),

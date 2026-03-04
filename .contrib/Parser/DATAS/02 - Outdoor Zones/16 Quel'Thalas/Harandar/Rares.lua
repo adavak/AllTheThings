@@ -57,7 +57,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(264626),	-- Scepter of Radiant Conversion
 					i(264604),	-- Sludgy Verdant Signet
-					i(264968),	-- Telluric Leyblossom
 				},
 			}),
 			n(250231, {	-- Dracaena
@@ -82,7 +81,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = {
 					i(264550),	-- Fungal Stalker's Stockings
 					i(264649),	-- Mindrot Claw-Hammer
-					i(251782),	-- Withered Saptor's Paw (midnight zone reward)
 				},
 			}),
 			n(250317, {	-- Oro'ohna
