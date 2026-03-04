@@ -4088,7 +4088,7 @@ i(226292,{b=1,requireSkill=202,spellID=458722})}})}}),
 h(-246,{requireSkill=202,g={
 i(228775,{b=1,isWeekly=1,requireSkill=202,spellID=463201,g={
 cu(2788,{requireSkill=202})}}),
-q(83728,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",222621}},qis={245809},requireSkill=202,g={
+q(83728,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",222621}},requireSkill=202,g={
 cu(2788,{requireSkill=202})}}),
 q(83260,{isWeekly=1,providers={{"i",225228}},requireSkill=202,g={
 cu(2788,{requireSkill=202})}}),
@@ -6045,6 +6045,8 @@ h(-246,{requireSkill=755,g={
 i(263458,{b=1,isWeekly=1,requireSkill=755,spellID=1270536,g={
 cu(3156,{requireSkill=755})}}),
 q(95133,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245760}},requireSkill=755,g={
+cu(3156,{requireSkill=755})}}),
+q(93539,{isWeekly=1,providers={{"i",259199}},requireSkill=755,g={
 cu(3156,{requireSkill=755})}})}})}})}),
 prof(165,{
 h(-12,{awp=100107,requireSkill=165,g={

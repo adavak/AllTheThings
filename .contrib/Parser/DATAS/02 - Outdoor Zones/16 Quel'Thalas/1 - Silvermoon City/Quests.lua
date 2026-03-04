@@ -98,6 +98,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(93758),	-- Nexus-Point Xenas
 			q(93757),	-- Voidscar Arena
 			q(93751),	-- Windrunner Spire
+			q(93753),	-- Magister's Terrace
 		})),
 		-- Housing
 		n(QUESTS, sharedData({

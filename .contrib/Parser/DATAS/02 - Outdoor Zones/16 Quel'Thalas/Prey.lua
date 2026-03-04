@@ -565,6 +565,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 
 				-- Unknown?
 				q(93857),	-- Completed with questID 91098 and 93168
+
+
+				q(93872),	-- Knight-Errant Bloodshatter (Normal) popped after kill
+				q(93853),	-- L-N-0R the Recycler (Normal) popped after kill
+				q(93872),	-- Mordril Shadowfell (Normal) popped after kill
 			}),
 		}),
 	}),

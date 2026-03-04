@@ -14090,6 +14090,8 @@ i(237769,{spellID=1223492})}})}),
 x(12,{awp=120000,g={
 x(12.0000001,{
 i(242719,{b=1,spellID=1233528}),
+i(251774,{b=1,lvl=80,spellID=1253043}),
+i(251775,{b=1,f=53,lvl=80,spellID=1253042}),
 i(255828,{b=1,requireSkill=2906,spellID=1259308}),
 i(255829,{b=1,requireSkill=2907,spellID=1259309}),
 i(255830,{b=1,requireSkill=2909,spellID=1259306}),

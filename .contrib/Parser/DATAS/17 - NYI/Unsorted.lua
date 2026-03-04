@@ -600,9 +600,7 @@ root(ROOTS.Unsorted, {
 				i(249543),	-- Special Remedy
 				i(249544),	-- Chest of Stolen Valuables
 				i(249553),	-- Lost Mirror
-				i(249555),	-- Bloodthistle Brandy
-				i(249556),	-- Mana Burner
-				i(249557),	-- Sun-Kissed Tranquilla
+				
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
 				i(249691),	-- Holy Sunfire

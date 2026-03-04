@@ -967,11 +967,11 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 245760 },	-- Thalassian Treatise on Jewelcrafting
 			}),
-			--[[Needs QuestIDs
-			q(83265, {	-- MID Weekly Jewelcrafting Knowledgepoint #1
+			q(93539, {	-- MID Weekly Jewelcrafting Knowledgepoint #1
 				["name"] = "MID Weekly Jewelcrafting Treasure #1",
 				["provider"] = { "i", 259199 },	-- Harandar Stone Sample
 			}),
+			--[[
 			q(83266, {	-- MID Weekly Jewelcrafting Knowledgepoint #2
 				["name"] = "MID Weekly Jewelcrafting Treasure #2",
 				["provider"] = { "i", 259198 },	-- Void-Touched Eversong Diamond Fragments

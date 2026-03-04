@@ -59,6 +59,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240835 },	-- Knight-Lord Sunguard
 				["coord"] = { 42.4, 46.7, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["maxReputation"] =  { FACTION_BLOOD_KNIGHTS, EXALTED },
 				["isWeekly"] = true,
 			}, {
 				q(91977),	-- Less Lawless
@@ -94,6 +95,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240836 },	-- Ranger-Captain Dawnfletch
 				["coord"] = { 42.9, 46.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["maxReputation"] =  { FACTION_FARSTRIDERS, EXALTED },
 				["isWeekly"] = true,
 			}, {
 				q(91986, {	-- Put a Little Snap in Their Step
@@ -126,11 +128,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 					},
 				}),
+				q(91983, {	-- Lovely Plumage
+					["groups"] = {
+						i(249440),	-- Bright Feather (QI!)
+					},
+				}),
 			})),
 			-- Magisters weekly
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240834 },	-- Magistrix Bloodflame
 				["coord"] = { 42.6, 46.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["maxReputation"] =  { FACTION_MAGISTERS, EXALTED },
 				["isWeekly"] = true,
 			}, {
 				q(90573),	-- Fortify the Runestones: Magisters
@@ -140,11 +148,22 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240837 },	-- Vyrin the Supplier
 				["coord"] = { 42.6, 46.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["maxReputation"] =  { FACTION_SHADES_OF_THE_ROW, EXALTED },
 				["isWeekly"] = true,
 			}, {
 				q(92002, {	-- Dangerous Showpieces
 					["groups"] = { i(249528), },	-- Twilight Weaponry
 				}),
+				q(92005),	-- Throw The Dice
+				q(90576),	-- Fortify the Runestone: Shades of the Row
+				q(92006, {	-- We Need a Refill
+					["groups"] = {
+						i(249555),	-- Bloodthistle Brandy (QI!)
+						i(249556),	-- Mana Burner (QI!)
+						i(249557),	-- Sun-Kissed Tranquilla (QI!)
+					},
+				}),
+				q(92007),	-- Begged, Borrowed or Stolen
 			})),
 			n(BONUS_OBJECTIVES, {
 				q(91966, {	-- Saltheril's Soiree (TODO: possibly wq in future builds? questID unique per chosen faction?)
