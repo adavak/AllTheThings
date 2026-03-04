@@ -149,6 +149,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(BONUS_OBJECTIVES, {
 				q(91966, {	-- Saltheril's Soiree (TODO: possibly wq in future builds? questID unique per chosen faction?)
 					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+					["isWeekly"] = true,
 				}),
 			}),
 			n(REWARDS, {

@@ -77,6 +77,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(269702),	-- Overflowing Abundant Satchel
 						},
 					}),
+					q(94361, {	-- The Abundant Life
+						["qg"] = 241928,	-- Chel the Chip
+						["coord"] = { 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN }, -- maybe any zone??
+					}),
+					q(94834, {	-- Blessings of Abundance
+						["provider"] = { "i", 265746 },	-- Idol of Abundance (QS!)
+					})
 				}),
 				n(VENDORS, {
 					["crs"] = {
@@ -92,7 +99,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						--{ X, Y, MAP.MIDNIGHT.VOIDSTORM },
 					},
 					["groups"] = {
-						i(265746, {	-- Idol of Abundance (QI!)
+						i(265746, {	-- Idol of Abundance (QS!)
 							["cost"] = {{ "c", UNALLOYED_ABUNDANCE, 1600 }},
 						}),
 						filter(COSMETIC, {

@@ -2823,6 +2823,7 @@ MobileDB.GameObject = {
 	[626987] = true,	-- Ripe Grapes
 	[627049] = true,	-- Hearthlight Armillary
 	[628381] = true,	-- Weapon Rack (Arcantina)
+	[630870] = true,	-- Portal to Astalor's Sanctum
 	[638873] = true,	-- Orb of Translocation
 }
 
