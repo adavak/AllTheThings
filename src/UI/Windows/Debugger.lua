@@ -201,7 +201,7 @@ local function ExportKeyValue(key, value)
 	elseif key == "crs" or key == "qgs" then
 		str = str .. "{\n";
 		for i,id in ipairs(value) do
-			str = str .. "\t" .. id .. ",\t-- " .. app.NPCNameFromID[id] .. "\n";
+			str = str .. "\t" .. id .. ",\t-- " .. (app.NPCNameFromID[id] or UNKNOWN) .. "\n";
 		end
 		str = str .. "},";
 	elseif key == "coords" then
