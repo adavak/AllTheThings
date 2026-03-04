@@ -932,8 +932,10 @@ app:CreateWindow("Debugger", {
 		pcall(self.RegisterEvent, self, "QUEST_LOOT_RECEIVED");
 
 		-- Capture accepted quests which skip NPC dialog windows (addons, auto-accepted)
-		handlers.QUEST_ACCEPTED = function(self, questID)
-			if questID then
+		handlers.QUEST_ACCEPTED = function(self, questLogIndex, questID)
+			if questLogIndex then
+				-- Classic passes this information along via a second argument. Silly Blizzard.
+				if not questID then questID = questLogIndex; end
 				local info = { key = "questID", ["questID"] = questID };
 				info.name = app.GetQuestName(questID)
 				self:AddObjectWithHeader(app.HeaderConstants.QUESTS, info);
