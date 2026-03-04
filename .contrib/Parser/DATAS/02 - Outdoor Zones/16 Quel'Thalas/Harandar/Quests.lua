@@ -1443,11 +1443,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 256313 },	-- Kaleo
 				["coord"] = { 51.0, 50.9, MAP.MIDNIGHT.HARANDAR },
 			}),
-			-- Idk where to put yet
-			q(93932, {	-- Legendary Prosperity
-				["qg"] = 240407,	-- Naynar <Renown Quartermaster>
-				["coord"] = { 51.0, 50.8, MAP.MIDNIGHT.HARANDAR },
-			}),
 		}),
 		n(QUESTS, sharedData({
 			--["sourceQuests"] = { X },	--

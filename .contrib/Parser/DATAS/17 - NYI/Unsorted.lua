@@ -600,7 +600,7 @@ root(ROOTS.Unsorted, {
 				i(249543),	-- Special Remedy
 				i(249544),	-- Chest of Stolen Valuables
 				i(249553),	-- Lost Mirror
-				
+
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
 				i(249691),	-- Holy Sunfire
@@ -986,10 +986,6 @@ root(ROOTS.Unsorted, {
 				i(260872),	-- Hazy Penumbral Cloak \\ [DNT] Cloak A
 				i(260873),	-- Cowl of Infinite Gravity \\ [DNT] Cloak B
 				-- Quest Armor
-				i(263265),	-- Hara'ti Defender's Sash
-				i(263267),	-- Hara'ti Defender's Cord
-				i(263268),	-- Hara'ti Defender's Belt
-				i(263269),	-- Hara'ti Defender's Greatbelt
 				i(263272),	-- Fleeg's Trousers \\ Fleek's Trousers \\ [PH] Local Story - Cloth LEGS
 				i(263273),	-- Fleeg's Hidewraps \\ Fleek's Hidewraps \\ [PH] Local Story - Leather LEGS
 				i(263274),	-- Furgh's Legguards \\ [PH] Local Story - Mail LEGS
