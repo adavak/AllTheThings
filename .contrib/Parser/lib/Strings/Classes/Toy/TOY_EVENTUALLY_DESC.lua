@@ -12,7 +12,7 @@ createLocalizationString({
 		-- TODO: pt = "",
 		-- TODO: ru = "",
 		-- TODO: ko = "",
-		-- TODO: cn = "",
+		cn = "这还不是官方的玩具，但它应该是玩具！在暴雪将其改为玩具之前，保持在你的物品栏中！",
 		-- TODO: tw = "",
 	},
 })

@@ -25,7 +25,7 @@ createLocalizationString({
 		-- TODO: pt = "",
 		-- TODO: ru = "",
 		-- TODO: ko = "",
-		-- TODO: cn = "",
+		cn = "当使用地下城查找器时，点击此处传送到/从当前副本传送。",
 		-- TODO: tw = "",
 		-- #endif
 	},

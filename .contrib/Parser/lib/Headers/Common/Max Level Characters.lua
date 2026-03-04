@@ -12,7 +12,7 @@ MAX_LEVEL_CHARACTERS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
+		cn = "最高等级角色",
 		-- TODO: tw = "",
 	},
 	description = {
@@ -25,7 +25,7 @@ MAX_LEVEL_CHARACTERS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
+		cn = "包含只能由最高等级角色获得的物品。",
 		-- TODO: tw = "",
 	},
 });

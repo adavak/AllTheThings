@@ -12,7 +12,7 @@ createLocalizationString({
 		-- TODO: pt = "",
 		-- TODO: ru = "",
 		-- TODO: ko = "",
-		-- TODO: cn = "",
+		cn = "如果你想在主列表中看到死亡追踪器，请启用此选项。",
 		-- TODO: tw = "",
 	},
 })
