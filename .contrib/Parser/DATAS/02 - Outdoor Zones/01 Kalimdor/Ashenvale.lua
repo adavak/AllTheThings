@@ -1195,6 +1195,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 5456, 1 },	-- Divining Scroll
 								{ "i", 12220, 5 },	-- Intact Elemental Bracer
 							},
+						}),
+						i(5456),	-- Divining Scroll
+						i(12220, {	-- Intact Elemental Bracer
 							["crs"] = {
 								3917,	-- Befouled Water Elemental
 								12759,	-- Tideress
@@ -2515,6 +2518,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 5456, 1 },	-- Divining Scroll
 								{ "i", 12220, 5 },	-- Intact Elemental Bracer
 							},
+						}),
+						i(5456),	-- Divining Scroll
+						i(12220, {	-- Intact Elemental Bracer
 							["crs"] = {
 								3917,	-- Befouled Water Elemental
 								12759,	-- Tideress
