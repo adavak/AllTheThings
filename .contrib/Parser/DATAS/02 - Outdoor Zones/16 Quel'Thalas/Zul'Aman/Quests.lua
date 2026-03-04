@@ -604,6 +604,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 240975 },	-- Namaji
 						["coord"] = { 44.4, 65.7, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							i(264448),	-- Featherwoven Promise Band
+							i(264447),	-- Ring of the Threshadon's Heart
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.04, {	-- Sorrowing Kin
@@ -766,6 +770,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 93734 },	-- Precious Trinkets
 						["provider"] = { "n", 248123 },	-- Fleeg
 						["coord"] = { 41.3, 80.1, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							i(263273),	-- Fleeg's Hidewraps
+							i(263274),	-- Furgh's Legguards
+							i(263275),	-- Furgh's Legplates
+							i(263272),	-- Fleeg's Trousers
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.07, {	-- Reclaiming de Honor
@@ -826,6 +836,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 251669 },	-- Lilaju
 						["coord"] = { 22.6, 63.9, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							i(264469),	-- Ashbound Tribute Cloak
+							i(264468),	-- Cloak of the Revantusk Rite
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.08, {	-- Vengeance for Tolbani
@@ -1230,6 +1244,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					q(91839, {	-- Sacrifice Denied
 						--["sourceQuests"] = { XXX },	-- ???
+						["groups"] = {
+							i(264665),	-- Defiant Loa Platebody
+							i(264664),	-- Hexbreaker Chain Hauberk
+							i(264662),	-- Robe of the Knife Priestess
+							i(264663),	-- Spiritdrain Vest of the Witherbark
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.16, {	-- River-Walkers of the Prowl
@@ -1324,6 +1344,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 				["provider"] = { "n", 254783 },	-- Torundo the Grizzled
 				["coord"] = { 46.0, 47.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+				["groups"] = {
+					iensemble(264184),	-- Arsenal: Heirlooms of Atal'Aman
+				},
 			}),
 			q(94839, {	-- Blessings of Peril
 				["provider"] = { "i", 263938 },	-- Idol of Peril (QS!)

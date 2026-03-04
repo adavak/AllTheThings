@@ -985,11 +985,6 @@ root(ROOTS.Unsorted, {
 				i(260871),	-- [DNT] Cloth Feet Gear
 				i(260872),	-- Hazy Penumbral Cloak \\ [DNT] Cloak A
 				i(260873),	-- Cowl of Infinite Gravity \\ [DNT] Cloak B
-				-- Quest Armor
-				i(263272),	-- Fleeg's Trousers \\ Fleek's Trousers \\ [PH] Local Story - Cloth LEGS
-				i(263273),	-- Fleeg's Hidewraps \\ Fleek's Hidewraps \\ [PH] Local Story - Leather LEGS
-				i(263274),	-- Furgh's Legguards \\ [PH] Local Story - Mail LEGS
-				i(263275),	-- Furgh's Legplates \\ [PH] Local Story - Plate LEGS
 				-- Quest Reward
 				i(263448),	-- Eversong Bow
 				-- Quest Rewards?
@@ -1015,16 +1010,6 @@ root(ROOTS.Unsorted, {
 				-- Quest rewards?
 				i(264411),	-- Thief's Ring of Remembrance
 				i(264412),	-- Sin'dorei Magister's Keepsake
-				-- Rewards from what? Quests?
-				i(264447),	-- Ring of the Threshadon's Heart
-				i(264448),	-- Featherwoven Promise Band
-				i(264468),	-- Cloak of the Revantusk Rite
-				i(264469),	-- Ashbound Tribute Cloak
-				-- Quest Rewards?
-				i(264662),	-- Robe of the Knife Priestess
-				i(264663),	-- Spiritdrain Vest of the Witherbark
-				i(264664),	-- Hexbreaker Chain Hauberk
-				i(264665),	-- Defiant Loa Platebody
 				-- Armor
 				i(267387),	-- Test Item [DNT] - While you are poisoned
 				i(267388),	-- Test Item [DNT] - Apply Poison - Label
@@ -1181,12 +1166,6 @@ root(ROOTS.Unsorted, {
 				i(263575),	-- Ensemble: Elder Moss Outfit
 				i(263576),	-- Ensemble: Rampant Thorn Armor
 				i(263577),	-- Arsenal: Rootlands Weaponry
-				i(264184),	-- Arsenal: Heirlooms of Atal'Aman
-				i(264193),	-- Amani Skyhunter's Sight
-				i(264194),	-- Amani Flamebinder's Staff
-				i(264195),	-- Amani Fangcaller's Spear
-				i(264196),	-- Amani Warbringer's Edge
-				i(264197),	-- Amani Spiritbark Ward
 				i(264847),	-- Dozing Vinepouch
 				i(264852),	-- Bladed Twilight Spaulder
 				i(264859),	-- Twilight Follower's Cowl
@@ -1200,8 +1179,6 @@ root(ROOTS.Unsorted, {
 				i(265366),	-- Twilight Executioner
 				i(265367),	-- Twilight Fang
 				i(265368),	-- Twilight Destroyer
-				i(265775),	-- Amani Warrior Stave
-				i(265781),	-- Amani Spiritdancer's Boneweight
 				i(266077),	-- Basic Black Quiver
 				i(266078),	-- Basic Blue Quiver
 				i(266079),	-- Basic Bronze Quiver
