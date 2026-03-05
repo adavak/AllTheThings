@@ -783,10 +783,14 @@ namespace ATT
 
         private static void CloneAndMergeForDebugData(IDictionary<string, object> data, IDictionary<string, object> keyValueValues)
         {
-            Dictionary<string, object> clone = new Dictionary<string, object>(data);
-            clone.Remove("g");
-            // cost can be variable so don't merge into Debug DBs
-            clone.Remove("cost");
+            Dictionary<string, object> clone = new Dictionary<string, object>();
+            foreach (KeyValuePair<string, object> kvp in data)
+            {
+                if (kvp.Key != "g" && kvp.Key != "cost")
+                {
+                    Objects.Merge(clone, kvp.Key, kvp.Value);
+                }
+            }
             // special case for criteria, to list under their achievement instead of into it since they contain the same achID
             if (data.ContainsKey("criteriaID"))
             {

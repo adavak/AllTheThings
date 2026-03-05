@@ -144,7 +144,11 @@ namespace ATT.FieldTypes
 
             if (_providerTypes == null)
             {
-                _providerTypes = new Dictionary<string, HashSet<decimal>>(merge._providerTypes);
+                _providerTypes = new Dictionary<string, HashSet<decimal>>();
+                foreach (var kvp in merge._providerTypes)
+                {
+                    _providerTypes.Add(kvp.Key, new HashSet<decimal>(kvp.Value));
+                }
                 return;
             }
 
