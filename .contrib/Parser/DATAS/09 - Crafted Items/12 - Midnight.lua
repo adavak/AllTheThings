@@ -67,6 +67,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(257420),	-- Silvermoon Spire Fountain (DECOR!)
 			i(256356),	-- Sunsmoke Censer (DECOR!)
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = ALCHEMY,
+		},{
+			-- TODO: Add rest of FirstCrafts
+			fc(1230864),	-- Amani Extract
+		})),
 		filter(MISC, {
 			i(245650),	-- Bouquet of Herbs+
 			i(245651),	-- Bouquet of Herbs++
@@ -582,6 +588,98 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(262602),	-- Ren'dorei Warp Orb (DECOR!)
 			i(262789),	-- Small Telogrus Lamp (DECOR!)
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = ENGINEERING,
+		},{
+			FirstCraft(90264, 1229875);	-- Aetherlume Bands
+			FirstCraft(90265, 1229876);	-- Aetherlume Bracelets
+			FirstCraft(90289, 1229880);	-- Aetherlume Clonkers
+			FirstCraft(90259, 1229870);	-- Aetherlume Eye Wrap
+			FirstCraft(90266, 1229877);	-- Aetherlume Guards
+			FirstCraft(90260, 1229871);	-- Aetherlume Optics
+			FirstCraft(90288, 1229879);	-- Aetherlume Runners
+			FirstCraft(90263, 1229874);	-- Aetherlume Silken Cuffs
+			FirstCraft(90287, 1229878);	-- Aetherlume Softsteppers
+			FirstCraft(90290, 1229881);	-- Aetherlume Stompers
+			FirstCraft(90262, 1229873);	-- Aetherlume Sun Guard
+			FirstCraft(90261, 1229872);	-- Aetherlume Vision Shroud
+			FirstCraft(93236, 1261945);	-- B0P, Curator of Booms
+			FirstCraft(90307, 1229922);	-- B1P, Scorcher of Souls
+			FirstCraft(90235, 1229858);	-- Consistent Cogwheel
+			FirstCraft(90303, 1229927);	-- Curious Red Button
+			FirstCraft(90311, 1229923);	-- Emergency Soul Link
+			FirstCraft(90296, 1229867);	-- Evercore Binding
+			FirstCraft(90298, 1229869);	-- Evercore Gear Weight
+			FirstCraft(90294, 1229938);	-- Evercore Greaseplates
+			FirstCraft(90297, 1229868);	-- Evercore Chainguards
+			FirstCraft(90269, 1229864);	-- Evercore Reconissance
+			FirstCraft(90268, 1229863);	-- Evercore Shade
+			FirstCraft(90292, 1229936);	-- Evercore Stichwraps
+			FirstCraft(90291, 1229935);	-- Evercore Swiftfeet
+			FirstCraft(90293, 1229937);	-- Evercore Turbochains
+			FirstCraft(90270, 1229865);	-- Evercore Vision Guard
+			FirstCraft(90295, 1229866);	-- Evercore Wrist Latch
+			FirstCraft(90267, 1229862);	-- Evercore Zoomshroud
+			FirstCraft(90243, 1229898);	-- Farstrider Clampers
+			FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
+			FirstCraft(90245, 1229904);	-- Farstrider Hardhat
+			FirstCraft(90241, 1229895);	-- Farstrider Hobbyist Rod
+			FirstCraft(90249, 1229899);	-- Farstrider Rock Satchel
+			FirstCraft(93228, 1261866);	-- Farstrider's Hawkeye
+			FirstCraft(90232, 1229859);	-- Flux Cogwheel
+			FirstCraft(90233, 1229857);	-- Greased Cogwheel
+			FirstCraft(90318, 1229921);	-- HU5H, Nonchalant Pup
+			FirstCraft(90250, 1229906);	-- Junker's Big Ol' Bag
+			FirstCraft(90239, 1229901);	-- Junker's Junk Visor
+			FirstCraft(90247, 1229896);	-- Junker's Multitool
+			FirstCraft(90299, 1229919);	-- Kinetic Ankle Primers
+			FirstCraft(93231, 1261895);	-- Laced Zoomshots
+			FirstCraft(90306, 1229916);	-- Lucky Keychain
+			FirstCraft(93235, 1261938);	-- M0LL1, Atomic Anomaly
+			FirstCraft(90308, 1229924);	-- M3DDY
+			FirstCraft(90300, 1229917);	-- M3DDY, Travel-Sized
+			FirstCraft(90234, 1229856);	-- Perfected Cogwheel
+			FirstCraft(90272, 1229887);	-- Quel'dorei Bands
+			FirstCraft(90273, 1229888);	-- Quel'dorei Bracelets
+			FirstCraft(90285, 1229892);	-- Quel'dorei Clonkers
+			FirstCraft(90275, 1229882);	-- Quel'dorei Cloth Goggles
+			FirstCraft(90274, 1229889);	-- Quel'dorei Guards
+			FirstCraft(90276, 1229883);	-- Quel'dorei Leather Optics
+			FirstCraft(90277, 1229884);	-- Quel'dorei Mail Shroud
+			FirstCraft(90284, 1229891);	-- Quel'dorei Runners
+			FirstCraft(90271, 1229886);	-- Quel'dorei Silken Cuffs
+			FirstCraft(90283, 1229890);	-- Quel'dorei Softsteppers
+			FirstCraft(90286, 1229893);	-- Quel'dorei Stompers
+			FirstCraft(90278, 1229885);	-- Quel'dorei Visor
+			FirstCraft(90242, 1229902);	-- Sin'dorei Angler's Rod
+			FirstCraft(90244, 1229905);	-- Sin'dorei Clampers
+			FirstCraft(90246, 1229897);	-- Sin'dorei Gilded Hardhat
+			FirstCraft(90240, 1229894);	-- Sin'dorei Headlamp
+			FirstCraft(90238, 1229907);	-- Sin'dorei Snippers
+			FirstCraft(93230, 1261893);	-- Smuggler's Lynxeye
+			FirstCraft(90138, 1229755);	-- Song Gear
+			FirstCraft(90229, 1229853);	-- Soul Sprocket
+			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
+			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
+			FirstCraft(90279, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
+			FirstCraft(90258, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
+			FirstCraft(90256, 1229913);	-- Thalassian Competitor's Leather Bands
+			FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
+			FirstCraft(90280, 1261491);	-- Thalassian Competitor's Leather Sliders
+			FirstCraft(90258, 1261491);	-- Thalassian Competitor's Leather Sliders
+			FirstCraft(90281, 1261492);	-- Thalassian Competitor's Mail Footlinks
+			FirstCraft(90258, 1261492);	-- Thalassian Competitor's Mail Footlinks
+			FirstCraft(90257, 1229914);	-- Thalassian Competitor's Mail Links
+			FirstCraft(90253, 1229910);	-- Thalassian Competitor's Mail Visor
+			FirstCraft(90258, 1229915);	-- Thalassian Competitor's Plate Bindings
+			FirstCraft(90282, 1261493);	-- Thalassian Competitor's Plate Dunkers
+			FirstCraft(90258, 1261493);	-- Thalassian Competitor's Plate Dunkers
+			FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
+			FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool
+			FirstCraft(90302, 1229926);	-- W-47CH D0G
+			FirstCraft(93231, 1261913);	-- Weighted Boomshots
+			FirstCraft(90304, 1229928);	-- Wormhole Generator: Quel'Thalas
+		})),
 		filter(MISC, {
 			i(248138),	-- Curious Red Button
 			i(248486),	-- Emergency Soul Link+
@@ -881,6 +979,73 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(262612),	-- Sturdy Ren'dorei Cask (DECOR!)
 			i(262601),	-- Wild Hanging Scroll (DECOR!)
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = INSCRIPTION,
+		},{
+			FirstCraft(90433, 1230060);	-- Aln'hara Cane
+			FirstCraft(90434, 1230061);	-- Aln'hara Lantern
+			FirstCraft(90432, 1230059);	-- Aln'hara Pikestaff
+			FirstCraft(90435, 1230062);	-- Aln'hara Sprigshot
+			FirstCraft(90391, 1230018);	-- Codified Azeroot
+			FirstCraft(90425, 1230052);	-- Contract: The Amani Tribe
+			FirstCraft(90426, 1230053);	-- Contract: The Hara'ti
+			FirstCraft(90424, 1230051);	-- Contract: The Silvermoon Court
+			FirstCraft(90427, 1230054);	-- Contract: The Singularity
+			FirstCraft(90443, 1230070);	-- Darkmoon Dominion: Blood
+			FirstCraft(90445, 1230072);	-- Darkmoon Dominion: Hunt
+			FirstCraft(90444, 1230071);	-- Darkmoon Dominion: Rot
+			FirstCraft(90446, 1230073);	-- Darkmoon Dominion: Void
+			FirstCraft(90447, 1230074);	-- Darkmoon Sigil: Blood
+			FirstCraft(90449, 1230076);	-- Darkmoon Sigil: Hunt
+			FirstCraft(90448, 1230075);	-- Darkmoon Sigil: Rot
+			FirstCraft(90450, 1230077);	-- Darkmoon Sigil: Void
+			FirstCraft(90428, 1230055);	-- Faunatender's Baton
+			FirstCraft(90431, 1230058);	-- Faunatender's Trust
+			FirstCraft(90429, 1230056);	-- Floratender's Crutch
+			FirstCraft(90394, 1230021);	-- Hobbyist Alchemist's Mixing Rod
+			FirstCraft(90393, 1230020);	-- Hobbyist Rolling Pin
+			FirstCraft(90395, 1230022);	-- Hobbyist Scribe's Quill
+			FirstCraft(90390, 1230017);	-- Munsell Ink
+			FirstCraft(90436, 1230063);	-- Pigments of the Wind
+			FirstCraft(90430, 1230057);	-- Rootwarden's Lamp
+			FirstCraft(90389, 1230016);	-- Sienna Ink
+			FirstCraft(90397, 1230024);	-- Sin'dorei Alchemist's Mixing Rod
+			FirstCraft(90398, 1230025);	-- Sin'dorei Quill
+			FirstCraft(90396, 1230023);	-- Sin'dorei Rolling Pin
+			FirstCraft(90392, 1230019);	-- Soul Cipher
+			FirstCraft(93124, 1260760);	-- Thalassian Competitor's Bow
+			FirstCraft(90440, 1230067);	-- Thalassian Competitor's Emblem
+			FirstCraft(90441, 1230068);	-- Thalassian Competitor's Insignia of Alacrity
+			FirstCraft(90437, 1230064);	-- Thalassian Competitor's Lamp
+			FirstCraft(90442, 1230069);	-- Thalassian Competitor's Medallion
+			FirstCraft(90439, 1230066);	-- Thalassian Competitor's Pillar
+			FirstCraft(90438, 1230065);	-- Thalassian Competitor's Staff
+			FirstCraft(90419, 1230046);	-- Thalassian Missive of Crafting Speed
+			FirstCraft(90416, 1230043);	-- Thalassian Missive of Deftness
+			FirstCraft(90418, 1230045);	-- Thalassian Missive of Finesse
+			FirstCraft(90422, 1230049);	-- Thalassian Missive of Ingenuity
+			FirstCraft(90420, 1230047);	-- Thalassian Missive of Multicraft
+			FirstCraft(90417, 1230044);	-- Thalassian Missive of Perception
+			FirstCraft(90421, 1230048);	-- Thalassian Missive of Resourcefulness
+			FirstCraft(90415, 1230042);	-- Thalassian Missive of the Aurora
+			FirstCraft(90414, 1230041);	-- Thalassian Missive of the Feverflare
+			FirstCraft(90413, 1230040);	-- Thalassian Missive of the Fireflash
+			FirstCraft(90412, 1230039);	-- Thalassian Missive of the Harmonious
+			FirstCraft(90411, 1230038);	-- Thalassian Missive of the Peerless
+			FirstCraft(90410, 1230037);	-- Thalassian Missive of the Quickblade
+			FirstCraft(90407, 1230034);	-- Thalassian Treatise on Alchemy
+			FirstCraft(90399, 1230026);	-- Thalassian Treatise on Blacksmithing
+			FirstCraft(90409, 1230036);	-- Thalassian Treatise on Engineering
+			FirstCraft(90403, 1230030);	-- Thalassian Treatise on Enchanting
+			FirstCraft(90401, 1230028);	-- Thalassian Treatise on Herbalism
+			FirstCraft(90405, 1230032);	-- Thalassian Treatise on Inscription
+			FirstCraft(90402, 1230029);	-- Thalassian Treatise on Jewelcrafting
+			FirstCraft(90404, 1230031);	-- Thalassian Treatise on Leatherworking
+			FirstCraft(90400, 1230027);	-- Thalassian Treatise on Mining
+			FirstCraft(90408, 1230035);	-- Thalassian Treatise on Skinning
+			FirstCraft(90406, 1230033);	-- Thalassian Treatise on Tailoring
+			FirstCraft(90423, 1230050);	-- Vantus Rune: Radiant
+		})),
 		filter(MISC, {
 			i(245797),	-- Contract: The Amani Tribe+
 			i(245798),	-- Contract: The Amani Tribe++
@@ -1491,6 +1656,70 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(262599),	-- Silvermoon Curtains (DECOR!)
 			i(262611),	-- Voidstrider Saddlebag (DECOR!)
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = TAILORING,
+		},{
+			FirstCraft(90027, 1228950);	-- Adherent's Silken Shroud
+			FirstCraft(90082, 1227926);	-- Arcanoweave Bolt
+			FirstCraft(90062, 1228985);	-- Arcanoweave Cloak
+			FirstCraft(90065, 1228988);	-- Arcanoweave Cord
+			FirstCraft(90038, 1228961);	-- Arcanoweave Lining
+			FirstCraft(90056, 1228979);	-- Arcanoweave Reagent Rucksack
+			FirstCraft(90052, 1228975);	-- Arcanoweave Spellthread
+			FirstCraft(90063, 1228986);	-- Arcanoweave Treads
+			FirstCraft(90045, 1228968);	-- Bright Linen Alchemy Apron
+			FirstCraft(90018, 1228941);	-- Bright Linen Bandage
+			FirstCraft(90016, 1228939);	-- Bright Linen Bolt
+			FirstCraft(90047, 1228970);	-- Bright Linen Enchanting Hat
+			FirstCraft(90048, 1228971);	-- Bright Linen Fishing Hat
+			FirstCraft(90049, 1228972);	-- Bright Linen Herbalism Hat
+			FirstCraft(90055, 1228978);	-- Bright Linen Reagent Satchel
+			FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
+			FirstCraft(90050, 1228973);	-- Bright Linen Tailoring Robe
+			FirstCraft(90030, 1228953);	-- Courtly Belt
+			FirstCraft(90035, 1228958);	-- Courtly Cloak
+			FirstCraft(90029, 1228952);	-- Courtly Gloves
+			FirstCraft(90028, 1228951);	-- Courtly Helm
+			FirstCraft(90033, 1228956);	-- Courtly Pants
+			FirstCraft(90032, 1228955);	-- Courtly Robes
+			FirstCraft(90036, 1228959);	-- Courtly Shoulders
+			FirstCraft(90034, 1228957);	-- Courtly Slippers
+			FirstCraft(90031, 1228954);	-- Courtly Wrists
+			FirstCraft(90039, 1228962);	-- Elegant Artisan's Alchemy Coveralls
+			FirstCraft(90040, 1228963);	-- Elegant Artisan's Cooking Hat
+			FirstCraft(90041, 1228964);	-- Elegant Artisan's Enchanting Hat
+			FirstCraft(90042, 1228965);	-- Elegant Artisan's Fishing Hat
+			FirstCraft(90043, 1228966);	-- Elegant Artisan's Herbalism Hat
+			FirstCraft(90044, 1228967);	-- Elegant Artisan's Tailoring Robe
+			FirstCraft(90046, 1228969);	-- Chef's Bright Linen Cooking Chapeau
+			FirstCraft(90054, 1228977);	-- Imbued Bright Linen Backpack
+			FirstCraft(90017, 1228940);	-- Imbued Bright Linen Bolt
+			FirstCraft(90022, 1228945);	-- Martyr's Bindings
+			FirstCraft(90019, 1228942);	-- Martyr's Crown
+			FirstCraft(90020, 1228943);	-- Martyr's Gloves
+			FirstCraft(90024, 1228947);	-- Martyr's Leggings
+			FirstCraft(90026, 1228949);	-- Martyr's Mantle
+			FirstCraft(90025, 1228948);	-- Martyr's Slippers
+			FirstCraft(90023, 1228946);	-- Martyr's Vestments
+			FirstCraft(90021, 1228944);	-- Martyr's Waistwrap
+			FirstCraft(90058, 1228981);	-- Sunfire Bracers
+			FirstCraft(90059, 1228982);	-- Sunfire Cloak
+			FirstCraft(90064, 1228987);	-- Sunfire Sash
+			FirstCraft(90057, 1228980);	-- Sunfire Silk Backpack
+			FirstCraft(90083, 1228060);	-- Sunfire Silk Bolt
+			FirstCraft(90037, 1228960);	-- Sunfire Silk Lining
+			FirstCraft(90051, 1228974);	-- Sunfire Silk Spellthread
+			FirstCraft(90060, 1228983);	-- Sunfire Treads
+			FirstCraft(90066, 1228989);	-- Thalassian Competitor's Cloth Bands
+			FirstCraft(90067, 1228990);	-- Thalassian Competitor's Cloth Cloak
+			FirstCraft(90068, 1228991);	-- Thalassian Competitor's Cloth Gloves
+			FirstCraft(90069, 1228992);	-- Thalassian Competitor's Cloth Hood
+			FirstCraft(90070, 1228993);	-- Thalassian Competitor's Cloth Leggings
+			FirstCraft(90071, 1228994);	-- Thalassian Competitor's Cloth Sash
+			FirstCraft(90072, 1228995);	-- Thalassian Competitor's Cloth Shoulderpads
+			FirstCraft(90073, 1228996);	-- Thalassian Competitor's Cloth Treads
+			FirstCraft(90074, 1228997);	-- Thalassian Competitor's Cloth Tunic
+		})),
 		filter(MISC, {
 			i(239711),	-- Bright Linen Bandage+
 			i(239713),	-- Bright Linen Bandage++
@@ -1531,236 +1760,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
-	n(PROFESSIONS, {
-		prof(ENGINEERING, {
-			-- First Craft tracking for non-gathering professions appears to be unfinished since Alpha/Beta.
-			-- It seems Blizzard may have discontinued the use of questIDs, with the new approach being C_TradeSkillUI.IsRecipeFirstCraft(recipeID)
-			-- Currently, only Engineering, Inscription, and Tailoring still have questIDs.
-			-- For consistency in Midnight, we may want to rely entirely on the API for all non-gathering professions.
-			q(90264),	-- FirstCraft(90264, 1229875);	-- Aetherlume Bands
-			q(90265),	-- FirstCraft(90265, 1229876);	-- Aetherlume Bracelets
-			q(90289),	-- FirstCraft(90289, 1229880);	-- Aetherlume Clonkers
-			q(90259),	-- FirstCraft(90259, 1229870);	-- Aetherlume Eye Wrap
-			q(90266),	-- FirstCraft(90266, 1229877);	-- Aetherlume Guards
-			q(90260),	-- FirstCraft(90260, 1229871);	-- Aetherlume Optics
-			q(90288),	-- FirstCraft(90288, 1229879);	-- Aetherlume Runners
-			q(90263),	-- FirstCraft(90263, 1229874);	-- Aetherlume Silken Cuffs
-			q(90287),	-- FirstCraft(90287, 1229878);	-- Aetherlume Softsteppers
-			q(90290),	-- FirstCraft(90290, 1229881);	-- Aetherlume Stompers
-			q(90262),	-- FirstCraft(90262, 1229873);	-- Aetherlume Sun Guard
-			q(90261),	-- FirstCraft(90261, 1229872);	-- Aetherlume Vision Shroud
-			q(93236),	-- FirstCraft(93236, 1261945);	-- B0P, Curator of Booms
-			q(90307),	-- FirstCraft(90307, 1229922);	-- B1P, Scorcher of Souls
-			q(90235),	-- FirstCraft(90235, 1229858);	-- Consistent Cogwheel
-			q(90303),	-- FirstCraft(90303, 1229927);	-- Curious Red Button
-			q(90311),	-- FirstCraft(90311, 1229923);	-- Emergency Soul Link
-			q(90296),	-- FirstCraft(90296, 1229867);	-- Evercore Binding
-			q(90298),	-- FirstCraft(90298, 1229869);	-- Evercore Gear Weight
-			q(90294),	-- FirstCraft(90294, 1229938);	-- Evercore Greaseplates
-			q(90297),	-- FirstCraft(90297, 1229868);	-- Evercore Chainguards
-			q(90269),	-- FirstCraft(90269, 1229864);	-- Evercore Reconissance
-			q(90268),	-- FirstCraft(90268, 1229863);	-- Evercore Shade
-			q(90292),	-- FirstCraft(90292, 1229936);	-- Evercore Stichwraps
-			q(90291),	-- FirstCraft(90291, 1229935);	-- Evercore Swiftfeet
-			q(90293),	-- FirstCraft(90293, 1229937);	-- Evercore Turbochains
-			q(90270),	-- FirstCraft(90270, 1229865);	-- Evercore Vision Guard
-			q(90295),	-- FirstCraft(90295, 1229866);	-- Evercore Wrist Latch
-			q(90267),	-- FirstCraft(90267, 1229862);	-- Evercore Zoomshroud
-			q(90243),	-- FirstCraft(90243, 1229898);	-- Farstrider Clampers
-			q(90237),	-- FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
-			q(90245),	-- FirstCraft(90245, 1229904);	-- Farstrider Hardhat
-			q(90241),	-- FirstCraft(90241, 1229895);	-- Farstrider Hobbyist Rod
-			q(90249),	-- FirstCraft(90249, 1229899);	-- Farstrider Rock Satchel
-			q(93228),	-- FirstCraft(93228, 1261866);	-- Farstrider's Hawkeye
-			q(90232),	-- FirstCraft(90232, 1229859);	-- Flux Cogwheel
-			q(90233),	-- FirstCraft(90233, 1229857);	-- Greased Cogwheel
-			q(90318),	-- FirstCraft(90318, 1229921);	-- HU5H, Nonchalant Pup
-			q(90250),	-- FirstCraft(90250, 1229906);	-- Junker's Big Ol' Bag
-			q(90239),	-- FirstCraft(90239, 1229901);	-- Junker's Junk Visor
-			q(90247),	-- FirstCraft(90247, 1229896);	-- Junker's Multitool
-			q(90299),	-- FirstCraft(90299, 1229919);	-- Kinetic Ankle Primers
-			q(93231),	-- FirstCraft(93231, 1261895);	-- Laced Zoomshots
-			q(90306),	-- FirstCraft(90306, 1229916);	-- Lucky Keychain
-			q(93235),	-- FirstCraft(93235, 1261938);	-- M0LL1, Atomic Anomaly
-			q(90308),	-- FirstCraft(90308, 1229924);	-- M3DDY
-			q(90300),	-- FirstCraft(90300, 1229917);	-- M3DDY, Travel-Sized
-			q(90234),	-- FirstCraft(90234, 1229856);	-- Perfected Cogwheel
-			q(90272),	-- FirstCraft(90272, 1229887);	-- Quel'dorei Bands
-			q(90273),	-- FirstCraft(90273, 1229888);	-- Quel'dorei Bracelets
-			q(90285),	-- FirstCraft(90285, 1229892);	-- Quel'dorei Clonkers
-			q(90275),	-- FirstCraft(90275, 1229882);	-- Quel'dorei Cloth Goggles
-			q(90274),	-- FirstCraft(90274, 1229889);	-- Quel'dorei Guards
-			q(90276),	-- FirstCraft(90276, 1229883);	-- Quel'dorei Leather Optics
-			q(90277),	-- FirstCraft(90277, 1229884);	-- Quel'dorei Mail Shroud
-			q(90284),	-- FirstCraft(90284, 1229891);	-- Quel'dorei Runners
-			q(90271),	-- FirstCraft(90271, 1229886);	-- Quel'dorei Silken Cuffs
-			q(90283),	-- FirstCraft(90283, 1229890);	-- Quel'dorei Softsteppers
-			q(90286),	-- FirstCraft(90286, 1229893);	-- Quel'dorei Stompers
-			q(90278),	-- FirstCraft(90278, 1229885);	-- Quel'dorei Visor
-			q(90242),	-- FirstCraft(90242, 1229902);	-- Sin'dorei Angler's Rod
-			q(90244),	-- FirstCraft(90244, 1229905);	-- Sin'dorei Clampers
-			q(90246),	-- FirstCraft(90246, 1229897);	-- Sin'dorei Gilded Hardhat
-			q(90240),	-- FirstCraft(90240, 1229894);	-- Sin'dorei Headlamp
-			q(90238),	-- FirstCraft(90238, 1229907);	-- Sin'dorei Snippers
-			q(93230),	-- FirstCraft(93230, 1261893);	-- Smuggler's Lynxeye
-			q(90138),	-- FirstCraft(90138, 1229755);	-- Song Gear
-			q(90229),	-- FirstCraft(90229, 1229853);	-- Soul Sprocket
-			q(90255),	-- FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
-			q(90251),	-- FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
-			q(90279),	-- FirstCraft(90279, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
-			q(90258),	-- FirstCraft(90258, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
-			q(90256),	-- FirstCraft(90256, 1229913);	-- Thalassian Competitor's Leather Bands
-			q(90252),	-- FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
-			q(90280),	-- FirstCraft(90280, 1261491);	-- Thalassian Competitor's Leather Sliders
-			q(90258),	-- FirstCraft(90258, 1261491);	-- Thalassian Competitor's Leather Sliders
-			q(90281),	-- FirstCraft(90281, 1261492);	-- Thalassian Competitor's Mail Footlinks
-			q(90258),	-- FirstCraft(90258, 1261492);	-- Thalassian Competitor's Mail Footlinks
-			q(90257),	-- FirstCraft(90257, 1229914);	-- Thalassian Competitor's Mail Links
-			q(90253),	-- FirstCraft(90253, 1229910);	-- Thalassian Competitor's Mail Visor
-			q(90258),	-- FirstCraft(90258, 1229915);	-- Thalassian Competitor's Plate Bindings
-			q(90282),	-- FirstCraft(90282, 1261493);	-- Thalassian Competitor's Plate Dunkers
-			q(90258),	-- FirstCraft(90258, 1261493);	-- Thalassian Competitor's Plate Dunkers
-			q(90254),	-- FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
-			q(90248),	-- FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool
-			q(90302),	-- FirstCraft(90302, 1229926);	-- W-47CH D0G
-			q(93231),	-- FirstCraft(93231, 1261913);	-- Weighted Boomshots
-			q(90304),	-- FirstCraft(90304, 1229928);	-- Wormhole Generator: Quel'Thalas
-		}),
-		prof(INSCRIPTION, {
-			-- First Craft tracking for non-gathering professions appears to be unfinished since Alpha/Beta.
-			-- It seems Blizzard may have discontinued the use of questIDs, with the new approach being C_TradeSkillUI.IsRecipeFirstCraft(recipeID)
-			-- Currently, only Engineering, Inscription, and Tailoring still have questIDs.
-			-- For consistency in Midnight, we may want to rely entirely on the API for all non-gathering professions.
-			q(90433),	-- FirstCraft(90433, 1230060);	-- Aln'hara Cane
-			q(90434),	-- FirstCraft(90434, 1230061);	-- Aln'hara Lantern
-			q(90432),	-- FirstCraft(90432, 1230059);	-- Aln'hara Pikestaff
-			q(90435),	-- FirstCraft(90435, 1230062);	-- Aln'hara Sprigshot
-			q(90391),	-- FirstCraft(90391, 1230018);	-- Codified Azeroot
-			q(90425),	-- FirstCraft(90425, 1230052);	-- Contract: The Amani Tribe
-			q(90426),	-- FirstCraft(90426, 1230053);	-- Contract: The Hara'ti
-			q(90424),	-- FirstCraft(90424, 1230051);	-- Contract: The Silvermoon Court
-			q(90427),	-- FirstCraft(90427, 1230054);	-- Contract: The Singularity
-			q(90443),	-- FirstCraft(90443, 1230070);	-- Darkmoon Dominion: Blood
-			q(90445),	-- FirstCraft(90445, 1230072);	-- Darkmoon Dominion: Hunt
-			q(90444),	-- FirstCraft(90444, 1230071);	-- Darkmoon Dominion: Rot
-			q(90446),	-- FirstCraft(90446, 1230073);	-- Darkmoon Dominion: Void
-			q(90447),	-- FirstCraft(90447, 1230074);	-- Darkmoon Sigil: Blood
-			q(90449),	-- FirstCraft(90449, 1230076);	-- Darkmoon Sigil: Hunt
-			q(90448),	-- FirstCraft(90448, 1230075);	-- Darkmoon Sigil: Rot
-			q(90450),	-- FirstCraft(90450, 1230077);	-- Darkmoon Sigil: Void
-			q(90428),	-- FirstCraft(90428, 1230055);	-- Faunatender's Baton
-			q(90431),	-- FirstCraft(90431, 1230058);	-- Faunatender's Trust
-			q(90429),	-- FirstCraft(90429, 1230056);	-- Floratender's Crutch
-			q(90394),	-- FirstCraft(90394, 1230021);	-- Hobbyist Alchemist's Mixing Rod
-			q(90393),	-- FirstCraft(90393, 1230020);	-- Hobbyist Rolling Pin
-			q(90395),	-- FirstCraft(90395, 1230022);	-- Hobbyist Scribe's Quill
-			q(90390),	-- FirstCraft(90390, 1230017);	-- Munsell Ink
-			q(90436),	-- FirstCraft(90436, 1230063);	-- Pigments of the Wind
-			q(90430),	-- FirstCraft(90430, 1230057);	-- Rootwarden's Lamp
-			q(90389),	-- FirstCraft(90389, 1230016);	-- Sienna Ink
-			q(90397),	-- FirstCraft(90397, 1230024);	-- Sin'dorei Alchemist's Mixing Rod
-			q(90398),	-- FirstCraft(90398, 1230025);	-- Sin'dorei Quill
-			q(90396),	-- FirstCraft(90396, 1230023);	-- Sin'dorei Rolling Pin
-			q(90392),	-- FirstCraft(90392, 1230019);	-- Soul Cipher
-			q(93124),	-- FirstCraft(93124, 1260760);	-- Thalassian Competitor's Bow
-			q(90440),	-- FirstCraft(90440, 1230067);	-- Thalassian Competitor's Emblem
-			q(90441),	-- FirstCraft(90441, 1230068);	-- Thalassian Competitor's Insignia of Alacrity
-			q(90437),	-- FirstCraft(90437, 1230064);	-- Thalassian Competitor's Lamp
-			q(90442),	-- FirstCraft(90442, 1230069);	-- Thalassian Competitor's Medallion
-			q(90439),	-- FirstCraft(90439, 1230066);	-- Thalassian Competitor's Pillar
-			q(90438),	-- FirstCraft(90438, 1230065);	-- Thalassian Competitor's Staff
-			q(90419),	-- FirstCraft(90419, 1230046);	-- Thalassian Missive of Crafting Speed
-			q(90416),	-- FirstCraft(90416, 1230043);	-- Thalassian Missive of Deftness
-			q(90418),	-- FirstCraft(90418, 1230045);	-- Thalassian Missive of Finesse
-			q(90422),	-- FirstCraft(90422, 1230049);	-- Thalassian Missive of Ingenuity
-			q(90420),	-- FirstCraft(90420, 1230047);	-- Thalassian Missive of Multicraft
-			q(90417),	-- FirstCraft(90417, 1230044);	-- Thalassian Missive of Perception
-			q(90421),	-- FirstCraft(90421, 1230048);	-- Thalassian Missive of Resourcefulness
-			q(90415),	-- FirstCraft(90415, 1230042);	-- Thalassian Missive of the Aurora
-			q(90414),	-- FirstCraft(90414, 1230041);	-- Thalassian Missive of the Feverflare
-			q(90413),	-- FirstCraft(90413, 1230040);	-- Thalassian Missive of the Fireflash
-			q(90412),	-- FirstCraft(90412, 1230039);	-- Thalassian Missive of the Harmonious
-			q(90411),	-- FirstCraft(90411, 1230038);	-- Thalassian Missive of the Peerless
-			q(90410),	-- FirstCraft(90410, 1230037);	-- Thalassian Missive of the Quickblade
-			q(90407),	-- FirstCraft(90407, 1230034);	-- Thalassian Treatise on Alchemy
-			q(90399),	-- FirstCraft(90399, 1230026);	-- Thalassian Treatise on Blacksmithing
-			q(90409),	-- FirstCraft(90409, 1230036);	-- Thalassian Treatise on Engineering
-			q(90403),	-- FirstCraft(90403, 1230030);	-- Thalassian Treatise on Enchanting
-			q(90401),	-- FirstCraft(90401, 1230028);	-- Thalassian Treatise on Herbalism
-			q(90405),	-- FirstCraft(90405, 1230032);	-- Thalassian Treatise on Inscription
-			q(90402),	-- FirstCraft(90402, 1230029);	-- Thalassian Treatise on Jewelcrafting
-			q(90404),	-- FirstCraft(90404, 1230031);	-- Thalassian Treatise on Leatherworking
-			q(90400),	-- FirstCraft(90400, 1230027);	-- Thalassian Treatise on Mining
-			q(90408),	-- FirstCraft(90408, 1230035);	-- Thalassian Treatise on Skinning
-			q(90406),	-- FirstCraft(90406, 1230033);	-- Thalassian Treatise on Tailoring
-			q(90423),	-- FirstCraft(90423, 1230050);	-- Vantus Rune: Radiant
-		}),
-		prof(TAILORING, {
-			-- First Craft tracking for non-gathering professions appears to be unfinished since Alpha/Beta.
-			-- It seems Blizzard may have discontinued the use of questIDs, with the new approach being C_TradeSkillUI.IsRecipeFirstCraft(recipeID)
-			-- Currently, only Engineering, Inscription, and Tailoring still have questIDs.
-			-- For consistency in Midnight, we may want to rely entirely on the API for all non-gathering professions.
-			q(90027), -- FirstCraft(90027, 1228950);	-- Adherent's Silken Shroud
-			q(90082), -- FirstCraft(90082, 1227926);	-- Arcanoweave Bolt
-			q(90062), -- FirstCraft(90062, 1228985);	-- Arcanoweave Cloak
-			q(90065), -- FirstCraft(90065, 1228988);	-- Arcanoweave Cord
-			q(90038), -- FirstCraft(90038, 1228961);	-- Arcanoweave Lining
-			q(90056), -- FirstCraft(90056, 1228979);	-- Arcanoweave Reagent Rucksack
-			q(90052), -- FirstCraft(90052, 1228975);	-- Arcanoweave Spellthread
-			q(90063), -- FirstCraft(90063, 1228986);	-- Arcanoweave Treads
-			q(90045), -- FirstCraft(90045, 1228968);	-- Bright Linen Alchemy Apron
-			q(90018), -- FirstCraft(90018, 1228941);	-- Bright Linen Bandage
-			q(90016), -- FirstCraft(90016, 1228939);	-- Bright Linen Bolt
-			q(90047), -- FirstCraft(90047, 1228970);	-- Bright Linen Enchanting Hat
-			q(90048), -- FirstCraft(90048, 1228971);	-- Bright Linen Fishing Hat
-			q(90049), -- FirstCraft(90049, 1228972);	-- Bright Linen Herbalism Hat
-			q(90055), -- FirstCraft(90055, 1228978);	-- Bright Linen Reagent Satchel
-			q(90053), -- FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
-			q(90050), -- FirstCraft(90050, 1228973);	-- Bright Linen Tailoring Robe
-			q(90030), -- FirstCraft(90030, 1228953);	-- Courtly Belt
-			q(90035), -- FirstCraft(90035, 1228958);	-- Courtly Cloak
-			q(90029), -- FirstCraft(90029, 1228952);	-- Courtly Gloves
-			q(90028), -- FirstCraft(90028, 1228951);	-- Courtly Helm
-			q(90033), -- FirstCraft(90033, 1228956);	-- Courtly Pants
-			q(90032), -- FirstCraft(90032, 1228955);	-- Courtly Robes
-			q(90036), -- FirstCraft(90036, 1228959);	-- Courtly Shoulders
-			q(90034), -- FirstCraft(90034, 1228957);	-- Courtly Slippers
-			q(90031), -- FirstCraft(90031, 1228954);	-- Courtly Wrists
-			q(90039), -- FirstCraft(90039, 1228962);	-- Elegant Artisan's Alchemy Coveralls
-			q(90040), -- FirstCraft(90040, 1228963);	-- Elegant Artisan's Cooking Hat
-			q(90041), -- FirstCraft(90041, 1228964);	-- Elegant Artisan's Enchanting Hat
-			q(90042), -- FirstCraft(90042, 1228965);	-- Elegant Artisan's Fishing Hat
-			q(90043), -- FirstCraft(90043, 1228966);	-- Elegant Artisan's Herbalism Hat
-			q(90044), -- FirstCraft(90044, 1228967);	-- Elegant Artisan's Tailoring Robe
-			q(90046), -- FirstCraft(90046, 1228969);	-- Chef's Bright Linen Cooking Chapeau
-			q(90054), -- FirstCraft(90054, 1228977);	-- Imbued Bright Linen Backpack
-			q(90017), -- FirstCraft(90017, 1228940);	-- Imbued Bright Linen Bolt
-			q(90022), -- FirstCraft(90022, 1228945);	-- Martyr's Bindings
-			q(90019), -- FirstCraft(90019, 1228942);	-- Martyr's Crown
-			q(90020), -- FirstCraft(90020, 1228943);	-- Martyr's Gloves
-			q(90024), -- FirstCraft(90024, 1228947);	-- Martyr's Leggings
-			q(90026), -- FirstCraft(90026, 1228949);	-- Martyr's Mantle
-			q(90025), -- FirstCraft(90025, 1228948);	-- Martyr's Slippers
-			q(90023), -- FirstCraft(90023, 1228946);	-- Martyr's Vestments
-			q(90021), -- FirstCraft(90021, 1228944);	-- Martyr's Waistwrap
-			q(90058), -- FirstCraft(90058, 1228981);	-- Sunfire Bracers
-			q(90059), -- FirstCraft(90059, 1228982);	-- Sunfire Cloak
-			q(90064), -- FirstCraft(90064, 1228987);	-- Sunfire Sash
-			q(90057), -- FirstCraft(90057, 1228980);	-- Sunfire Silk Backpack
-			q(90083), -- FirstCraft(90083, 1228060);	-- Sunfire Silk Bolt
-			q(90037), -- FirstCraft(90037, 1228960);	-- Sunfire Silk Lining
-			q(90051), -- FirstCraft(90051, 1228974);	-- Sunfire Silk Spellthread
-			q(90060), -- FirstCraft(90060, 1228983);	-- Sunfire Treads
-			q(90066), -- FirstCraft(90066, 1228989);	-- Thalassian Competitor's Cloth Bands
-			q(90067), -- FirstCraft(90067, 1228990);	-- Thalassian Competitor's Cloth Cloak
-			q(90068), -- FirstCraft(90068, 1228991);	-- Thalassian Competitor's Cloth Gloves
-			q(90069), -- FirstCraft(90069, 1228992);	-- Thalassian Competitor's Cloth Hood
-			q(90070), -- FirstCraft(90070, 1228993);	-- Thalassian Competitor's Cloth Leggings
-			q(90071), -- FirstCraft(90071, 1228994);	-- Thalassian Competitor's Cloth Sash
-			q(90072), -- FirstCraft(90072, 1228995);	-- Thalassian Competitor's Cloth Shoulderpads
-			q(90073), -- FirstCraft(90073, 1228996);	-- Thalassian Competitor's Cloth Treads
-			q(90074), -- FirstCraft(90074, 1228997);	-- Thalassian Competitor's Cloth Tunic
-		}),
-	}),
-})));
+-- root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
+-- 	n(PROFESSIONS, {
+
+-- 	}),
+-- })));

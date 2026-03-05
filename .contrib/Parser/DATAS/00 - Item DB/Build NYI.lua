@@ -1,37 +1,5 @@
 -- Build NYI
-FIRST_CRAFTS_TEST = createHeader({
-	readable = "FIRST_CRAFTS_TEST",
-	icon = 134116,
-	text = {
-		en = "First Crafts TEST"
-	},
-});
 root(ROOTS.NeverImplemented, {
-	-- #if AFTER 10.0.0
-	n(FIRST_CRAFTS_TEST, {
-		-- Testing section for a new way of implementing First Crafts
-		-- Random Midnight Tailoring recipes
-		fc(1228968),	-- Bright Linen Alchemy Apron
-		fc(1228941),	-- Bright Linen Bandage
-		fc(1228939),	-- Bright Linen Bolt
-		fc(1228970),	-- Bright Linen Enchanting Hat
-		fc(1228971),	-- Bright Linen Fishing Hat
-		fc(1228972),	-- Bright Linen Herbalism Hat
-		fc(1228978),	-- Bright Linen Reagent Satchel
-		fc(1228976),	-- Bright Linen Spellthread
-		fc(1228973),	-- Bright Linen Tailoring Robe
-
-		--q(90045), -- FirstCraft(90045, 1228968);	-- Bright Linen Alchemy Apron
-		--q(90018), -- FirstCraft(90018, 1228941);	-- Bright Linen Bandage
-		--q(90016), -- FirstCraft(90016, 1228939);	-- Bright Linen Bolt
-		--q(90047), -- FirstCraft(90047, 1228970);	-- Bright Linen Enchanting Hat
-		--q(90048), -- FirstCraft(90048, 1228971);	-- Bright Linen Fishing Hat
-		--q(90049), -- FirstCraft(90049, 1228972);	-- Bright Linen Herbalism Hat
-		--q(90055), -- FirstCraft(90055, 1228978);	-- Bright Linen Reagent Satchel
-		--q(90053), -- FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
-		--q(90050), -- FirstCraft(90050, 1228973);	-- Bright Linen Tailoring Robe
-	}),
-	-- #endif
 	n(ACHIEVEMENTS, {["timeline"] = {CREATED_3_0_2}}),					-- Completed up to 11.2.5
 	n(ARMOR),															-- Not Completed and Not Sorted
 	n(ARTIFACTS),														-- Completed up to 11.2.5

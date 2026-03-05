@@ -1055,7 +1055,7 @@ local PatchDecimals = 2
 local RevDecimals = 2
 local PatchShift = 10 ^ PatchDecimals
 local RevShift = 10 ^ RevDecimals
-expansion = function(id, patch, t)							-- Create an EXPANSION Object
+expansion = function(id, patch, t)						-- Create an EXPANSION Object
 	-- patch is optional
 	local hasPatch
 	if not t then
@@ -1433,7 +1433,7 @@ qo = questobjective;									-- Create a QUEST OBJECTIVE Object (alternative sho
 race = function(id, t)									-- Create a RACE Object
 	return struct("raceID", id, t);
 end
-raceWithoutLock = function(id, t)							-- Create a CHARACTER RACE Object without a Race Lock
+raceWithoutLock = function(id, t)						-- Create a CHARACTER RACE Object without a Race Lock
 	t = struct("headerID", id, t);
 	t.type = HEADERS.Race;
 	return t;
@@ -1483,7 +1483,7 @@ dragonridingrace = function(id, t)						-- Creates a QUEST which is for a Dragon
 	};
 	return t;
 end
-skyridingrace = function(id, t)						-- Creates a QUEST which is for a Skyriding Race
+skyridingrace = function(id, t)							-- Creates a QUEST which is for a Skyriding Race
 	t = q(id, t);
 	t.repeatable = true;
 	t.collectible = false;	-- quest literally cannot be completed
@@ -1495,7 +1495,7 @@ skyridingrace = function(id, t)						-- Creates a QUEST which is for a Skyriding
 	-- };
 	return t;
 end
-driverace = function(id, t)						-- Creates a QUEST which is for a D.R.I.V.E. Race
+driverace = function(id, t)								-- Creates a QUEST which is for a D.R.I.V.E. Race
 	t = q(id, t);
 	t.repeatable = true;
 	t.collectible = false;	-- quest literally cannot be completed
@@ -1509,7 +1509,7 @@ driverace = function(id, t)						-- Creates a QUEST which is for a D.R.I.V.E. Ra
 end
 -- Simple function for First Craft HQTs
 FirstCraft = function(questID, recipeID, added, removed)
-	local t = hqt(questID, name(HEADERS.Spell, recipeID))
+	local t = fc(recipeID, {questID=questID})
 	t.provider = { "s", recipeID };
 	if added then
 		t.timeline = { added };
@@ -1598,7 +1598,7 @@ end
 convertItem = function(itemID, subItemID, subItemAmount, includeItemToSubitem)
 	return i(itemID, {["cost"]={{"i",subItemID,subItemAmount}},["groups"]=includeItemToSubitem and {i(subItemID)} or nil})
 end
-crs = function(id, t)											-- Add a Creature List to an object.
+crs = function(id, t)									-- Add a Creature List to an object.
 	if type(id) == "number" then
 		t.cr = id;
 	else
