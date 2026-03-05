@@ -3071,3 +3071,6 @@
 7826@@@Colorful Shroomic Egg
 7827@@@Colorful Dotted Egg
 7828@@@Colorful Striped Egg
+12.0.1.66263
+16691@@@Farstriders' Pride Statue
+17294@@@Farstriders' Glory Statue
