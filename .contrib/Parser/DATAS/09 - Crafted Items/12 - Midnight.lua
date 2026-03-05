@@ -70,8 +70,40 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ALCHEMY,
 		},{
-			-- TODO: Add rest of FirstCrafts
 			fc(1230864),	-- Amani Extract
+			fc(1230892),	-- Bouquet of Herbs
+			fc(1230891),	-- Box of Rocks
+			fc(1230874),	-- Cauldron of Sin'dorei Flasks
+			fc(1230855),	-- Composite Flora
+			fc(1230860),	-- Draught of Rampant Abandon
+			fc(1230886),	-- Enlightenment Tonic
+			fc(1230854),	-- Entropic Extract
+			fc(1230875),	-- Flask of Thalassian Resistance
+			fc(1230876),	-- Flask of the Magisters
+			fc(1230877),	-- Flask of the Blood Knights
+			fc(1230878),	-- Flask of the Shattered Sun
+			fc(1230870),	-- Haranir Phial of Finesse
+			fc(1230872),	-- Haranir Phial of Ingenuity
+			fc(1230873),	-- Haranir Phial of Perception
+			fc(1230865),	-- Lightfused Mana Potion
+			fc(1230858),	-- Light's Preservation
+			fc(1230869),	-- Light's Potential
+			fc(1230885),	-- Magister's Alchemist Stone
+			fc(1230859),	-- Potion of Recklessness
+			fc(1230862),	-- Potion of Devoured Dreams
+			fc(1230863),	-- Potion of Zealotry
+			fc(1230861),	-- Primal Philosopher's Stone
+			fc(1230868),	-- Refreshing Serum
+			fc(1230893),	-- School of Gems
+			fc(1230866),	-- Silvermoon Health Potion
+			fc(1230887),	-- Transmute: Mote of Wild Magic
+			fc(1230888),	-- Transmute: Mote of Pure Void
+			fc(1230889),	-- Transmute: Mote of Primal Energy
+			fc(1230890),	-- Transmute: Mote of Light
+			fc(1230883),	-- Vicious Thalassian Flask of Honor
+			fc(1230857),	-- Voidlight Potion Cauldron
+			fc(1230867),	-- Void-Shrouded Tincture
+			fc(1230856),	-- Wondrous Synergist
 		})),
 		filter(MISC, {
 			i(245650),	-- Bouquet of Herbs+
