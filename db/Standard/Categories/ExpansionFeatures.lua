@@ -13376,7 +13376,7 @@ cl(2,{
 i(147566,{awp=70200,b=1,c={2},f=55,spellID=242136}),
 i(139867,{b=1,c={2},f=55,spellID=221975}),
 i(139869,{b=1,c={2},f=55,spellID=221977}),
-i(147300,{awp=70302,b=2,c={2},f=55,lvl=40,spellID=240512}),
+i(147300,{awp=70302,b=2,c={2},f=55,lvl=40}),
 i(139868,{b=1,c={2},f=55,spellID=221976}),
 i(139870,{b=1,c={2},f=55,spellID=221978})}),
 cl(5,{
@@ -13401,7 +13401,7 @@ cl(9,{
 i(139858,{b=1,c={9},f=55,spellID=221965}),
 i(139856,{b=1,c={9},f=55,spellID=221963}),
 i(139857,{b=1,c={9},f=55,spellID=221964}),
-i(147304,{awp=70302,b=2,c={9},f=55,lvl=40,spellID=240516}),
+i(147304,{awp=70302,b=2,c={9},f=55,lvl=40}),
 i(147561,{awp=70200,b=1,c={9},f=55,spellID=242132}),
 i(139855,{b=1,c={9},f=55,spellID=221962})}),
 cl(1,{
@@ -19047,7 +19047,7 @@ crit(42082,{achID=13133,id=14,providers={{"n",130301}},r=2}),
 crit(42083,{achID=13133,id=15,providers={{"n",130303}},r=2}),
 crit(42084,{achID=13133,id=16,providers={{"n",134269}},r=2}),
 crit(42085,{achID=13133,id=17,providers={{"n",134270}},r=2}),
-crit(42086,{achID=13133,id=18,providers={{"n",134270},{"n",134271}},r=2}),
+crit(42086,{achID=13133,id=18,providers={{"n",134271}},r=2}),
 crit(44167,{achID=13133,id=19,providers={{"n",144784}},r=2}),
 crit(44168,{achID=13133,id=20,providers={{"n",144785}},r=2}),
 crit(44169,{achID=13133,id=21,providers={{"n",144789}},r=2}),
@@ -19060,7 +19060,7 @@ crit(42087,{achID=13135,id=1,providers={{"n",135248}},r=1}),
 crit(42088,{achID=13135,id=2,providers={{"n",135246}},r=1}),
 crit(42089,{achID=13135,id=3,providers={{"n",135247}},r=1}),
 crit(42090,{achID=13135,id=4,providers={{"n",130620}},r=1}),
-crit(42091,{achID=13135,id=5,providers={{"n",130621},{"n",130622}},r=1}),
+crit(42091,{achID=13135,id=5,providers={{"n",130622}},r=1}),
 crit(42092,{achID=13135,id=6,providers={{"n",130621}},r=1}),
 crit(42093,{achID=13135,id=7,providers={{"n",134283}},r=1}),
 crit(42094,{achID=13135,id=8,providers={{"n",134286}},r=1}),
@@ -26152,7 +26152,7 @@ s(115587,184271,{b=1,cost={{"i",183899.083,1},{"i",183898.083,1},{"i",183897.083
 n(174937,{coords={
 [1708]={{63.3,30.6}}},customCollect={"SL_COV_KYR"},g={
 mnt(353880,{b=1,cost={{"c",1813,7500}},customCollect={"SL_COV_KYR"},itemID=186485}),
-i(184665,{b=1,cost={{"c",1885,35}},customCollect={"SL_COV_KYR"},f=55,lvl=60,spellID=347413,sym={{"select","headerID",-221},{"extract","runeforgepowerID"},{"exclude","itemID",190584,190587,190588,199552,190589,190590,190591,190592,190593,190594,190595,190596,190598}}}),
+i(184665,{b=1,cost={{"c",1885,35}},customCollect={"SL_COV_KYR","SL_COV_NEC","SL_COV_VEN"},f=55,lvl=60,spellID=347413,sym={{"select","headerID",-221},{"extract","runeforgepowerID"},{"exclude","itemID",190584,190587,190588,199552,190589,190590,190591,190592,190593,190594,190595,190596,190598}}}),
 mnt(334386,{b=1,cost={{"c",1885,100},{"c",1813,5000}},customCollect={"SL_COV_KYR"},itemID=180762}),
 mnt(334398,{b=1,cost={{"c",1813,5000}},customCollect={"SL_COV_KYR"},itemID=180764}),
 toy(184353,{b=1,cost={{"c",1813,750}},customCollect={"SL_COV_KYR"}}),
@@ -27607,7 +27607,7 @@ s(115575,184256,{b=1,cost={{"i",183899.085,1},{"i",183898.085,1},{"i",183897.085
 s(115584,184260,{b=1,cost={{"i",183899.085,1},{"i",183898.085,1},{"i",183897.085,1},{"i",183896.085,1}},customCollect={"SL_COV_NEC"},f=35,lvl=50,modID=85})}}),
 n(175311,{coords={
 [1698]={{57.1,48.3}}},customCollect={"SL_COV_NEC"},sym={{"select","itemID",182276,182268,182274,182271,182272,182273,182270,182269,182275,182251,182253,182258,182250,182254,182255,182252,182257,182256,182284,182281,182285,182277,182280,182283,182278,182279,182282,182266,182265,182261,182263,182267,182260,182264,182262,182259}},g={
-i(184665,{b=1,cost={{"c",1885,35}},customCollect={"SL_COV_NEC"},f=55,lvl=60,spellID=347413,sym={{"select","headerID",-221},{"extract","runeforgepowerID"},{"exclude","itemID",190584,190587,190588,199552,190589,190590,190591,190592,190593,190594,190595,190596,190598}}}),
+i(184665,{b=1,cost={{"c",1885,35}},customCollect={"SL_COV_KYR","SL_COV_NEC","SL_COV_VEN"},f=55,lvl=60,spellID=347413,sym={{"select","headerID",-221},{"extract","runeforgepowerID"},{"exclude","itemID",190584,190587,190588,199552,190589,190590,190591,190592,190593,190594,190595,190596,190598}}}),
 s(114617,183451,{cost={{"c",1885,10},{"c",1813,3500}},customCollect={"SL_COV_NEC"},f=8,lvl=60}),
 s(114622,183456,{cost={{"c",1885,10},{"c",1813,3500}},customCollect={"SL_COV_NEC"},f=31,lvl=60}),
 s(115043,183946,{cost={{"c",1885,10},{"c",1813,3500}},customCollect={"SL_COV_NEC"},f=21,lvl=60}),
@@ -30614,7 +30614,7 @@ s(114134,182418,{b=1,cost={{"i",183890.004,1},{"i",183891.004,1},{"i",183892.004
 s(114139,182423,{b=1,cost={{"i",183890.004,1},{"i",183891.004,1},{"i",183892.004,1},{"i",183893.004,1},{"i",183890.003,1},{"i",183891.003,1},{"i",183892.003,1},{"i",183893.003,1},{"i",183890.005,1},{"i",183891.005,1},{"i",183892.005,1},{"i",183893.005,1}},customCollect={"SL_COV_VEN"},f=35,lvl=50})}}),
 n(174710,{coords={
 [1699]={{54,25.6}}},customCollect={"SL_COV_VEN"},g={
-i(184665,{b=1,cost={{"c",1885,35}},customCollect={"SL_COV_VEN"},f=55,lvl=60,spellID=347413,sym={{"select","headerID",-221},{"extract","runeforgepowerID"},{"exclude","itemID",190584,190587,190588,199552,190589,190590,190591,190592,190593,190594,190595,190596,190598}}}),
+i(184665,{b=1,cost={{"c",1885,35}},customCollect={"SL_COV_KYR","SL_COV_NEC","SL_COV_VEN"},f=55,lvl=60,spellID=347413,sym={{"select","headerID",-221},{"extract","runeforgepowerID"},{"exclude","itemID",190584,190587,190588,199552,190589,190590,190591,190592,190593,190594,190595,190596,190598}}}),
 rfl(205,{b=1,cost={{"c",1813,250}},customCollect={"SL_COV_KYR","SL_COV_NEC","SL_COV_NFA","SL_COV_VEN"},itemID=183249,spellID=342040}),
 mnt(333021,{b=1,cost={{"c",1885,50},{"c",1813,100}},customCollect={"SL_COV_VEN"},itemID=182332}),
 mnt(332882,{b=1,cost={{"c",1885,100},{"c",1813,5000}},customCollect={"SL_COV_VEN"},itemID=180461}),

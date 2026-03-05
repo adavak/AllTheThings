@@ -7042,7 +7042,8 @@ prof(171,{
 q(82473,{type="hqt"}),
 q(82474,{type="hqt"}),
 q(82388,{isDaily=1,type="hqt"}),
-q(81898,{isDaily=1,type="hqt"})}),
+q(81898,{isDaily=1,type="hqt"}),
+q(81090,{isDaily=1,type="hqt"})}),
 prof(164,{
 q(83111,{type="hqt"}),
 q(83112,{type="hqt"}),
