@@ -377,6 +377,20 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		-- #endif
 
+		------ Cozy Kobold Collection ------
+		-- iensemble(xxxxxx, {	-- Ensemble: Blue Candlelight Kobold Romper
+		-- 	["timeline"] = { ADDED_12_0_1 },
+		-- }),
+		-- iensemble(xxxxxx, {	-- Ensemble: Brown Candlelight Kobold Romper
+		-- 	["timeline"] = { ADDED_12_0_1 },
+		-- }),
+		-- iensemble(xxxxxx, {	-- Ensemble: Pink Candlelight Kobold Romper
+		-- 	["timeline"] = { ADDED_12_0_1 },
+		-- }),
+		-- iensemble(xxxxxx, {	-- Ensemble: Tan Candlelight Kobold Romper
+		-- 	["timeline"] = { ADDED_12_0_1 },
+		-- }),
+
 		iensemble(212218, {	-- Ensemble: Dreadlord's Shadowsbane Regalia
 			["timeline"] = { ADDED_10_2_5 },
 		}),
@@ -778,6 +792,19 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		mount(347812, {	-- Sapphire Skyblazer (MOUNT!)
 			["timeline"] = { ADDED_9_0_5 },
 		}),
+		------ Scurrywind Groveglider Collection ------
+		-- i(xxxxxx, {	-- Blossombranch Groveglider (MOUNT!)
+		-- 	["timeline"] = { ADDED_12_0_1, },
+		-- }),
+		-- i(xxxxxx, {	-- Cindertuft Groveglider (MOUNT!)
+		-- 	["timeline"] = { ADDED_12_0_1, },
+		-- }),
+		-- i(xxxxxx, {	-- Frostfall Groveglider (MOUNT!)
+		-- 	["timeline"] = { ADDED_12_0_1, },
+		-- }),
+		-- i(xxxxxx, {	-- Gloombough Groveglider (MOUNT!)
+		-- 	["timeline"] = { ADDED_12_0_1, },
+		-- }),
 		i(156564, {	-- Shu-zen, the Divine Sentinel (MOUNT!)
 			["timeline"] = { ADDED_8_0_1 },
 		}),
