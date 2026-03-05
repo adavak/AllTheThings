@@ -177,6 +177,100 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(262456),	-- Ornamental Silvermoon Hanger (DECOR!)
 			i(262460),	-- Ren'dorei Anvil (DECOR!)
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = BLACKSMITHING,
+		},{
+			fc(1229648),	-- Blood Knight's Warblade
+			fc(1229652),	-- Blood Knight's Mercy
+			fc(1229653),	-- Blood Knight's Impetus
+			fc(1229621),	-- Blood-Tempered Gauntlets
+			fc(1229622),	-- Blood-Tempered Pauldrons
+			fc(1229623),	-- Blood-Tempered Bracers
+			fc(1229624),	-- Blood-Tempered Leggings
+			fc(1229625),	-- Blood-Tempered Basinet
+			fc(1229626),	-- Blood-Tempered Bulwark
+			fc(1229627),	-- Blood-Tempered Greatbelt
+			fc(1229628),	-- Blood-Tempered Chestplate
+			fc(1229629),	-- Blood-Tempered Greaves
+			fc(1229649),	-- Bloomforged Claw
+			fc(1229655),	-- Bloomforged Greataxe
+			fc(1229615),	-- Dawnforged Splitter
+			fc(1229616),	-- Dawnforged War Mace
+			fc(1229618),	-- Dawnforged Long Blade
+			fc(1229619),	-- Dawnforged Edge
+			fc(1229620),	-- Dawnforged Ritual Knife
+			fc(1229646),	-- Farstrider's Chopper
+			fc(1229659),	-- Farstrider's Mercy
+			fc(1230762),	-- Gloaming Alloy
+			fc(1230767),	-- Knight-Commander's Palisade
+			fc(1229647),	-- Magister's Valediction
+			fc(1229650),	-- Magister's Ritual Knife
+			fc(1229651),	-- Magister's Mana Sword
+			fc(1229654),	-- Magister's Cleaver
+			fc(1230766),	-- Murder Row Fleet Feet
+			fc(1230768),	-- Murder Row Fishhook
+			fc(1229614),	-- Primalforged Heavy Axe
+			fc(1229617),	-- Primalforged Knuckles
+			fc(1230758),	-- Refulgent Whetstone
+			fc(1230759),	-- Refulgent Weightstone
+			fc(1230760),	-- Refulgent Razorstone
+			fc(1230761),	-- Refulgent Copper Ingot
+			fc(1230764),	-- Refulgent Repair Hammer
+			fc(1229656),	-- Spellbreaker's Ultimatum
+			fc(1229657),	-- Spellbreaker's Warglaive
+			fc(1229658),	-- Spellbreaker's Blade
+			fc(1229660),	-- Spellbreaker's Resolve
+			fc(1229661),	-- Spellbreaker's Mantle
+			fc(1229662),	-- Spellbreaker's Bracers
+			fc(1229663),	-- Spellbreaker's Legguards
+			fc(1229664),	-- Spellbreaker's Cover
+			fc(1229665),	-- Spellbreaker's Rebuke
+			fc(1229666),	-- Spellbreaker's Girdle
+			fc(1229667),	-- Spellbreaker's Shelter
+			fc(1229668),	-- Spellbreaker's March
+			fc(1230763),	-- Sterling Alloy
+			fc(1230769),	-- Sunforged Blacksmith's Hammer
+			fc(1262899),	-- Sunforged Leatherworker's Knife
+			fc(1262905),	-- Sunforged Skinning Knife
+			fc(1262919),	-- Sunforged Pickaxe
+			fc(1264644),	-- Sunforged Blacksmith's Toolbox
+			fc(1264645),	-- Sunforged Leatherworker's Toolset
+			fc(1264646),	-- Sunforged Needle Set
+			fc(1264651),	-- Sunforged Sickle
+			fc(1229598),	-- Sun-Blessed Blacksmith's Hammer
+			fc(1229599),	-- Sun-Blessed Leatherworker's Knife
+			fc(1229600),	-- Sun-Blessed Skinning Knife
+			fc(1229601),	-- Sun-Blessed Pickaxe
+			fc(1229602),	-- Sun-Blessed Sickle
+			fc(1229603),	-- Sun-Blessed Blacksmith's Toolbox
+			fc(1229604),	-- Sun-Blessed Leatherworker's Toolset
+			fc(1229605),	-- Sun-Blessed Needle Set
+			fc(1229606),	-- Thalassian Blacksmith's Hammer
+			fc(1229607),	-- Thalassian Leatherworker's Knife
+			fc(1229608),	-- Thalassian Skinning Knife
+			fc(1229609),	-- Thalassian Pickaxe
+			fc(1229610),	-- Thalassian Sickle
+			fc(1229611),	-- Thalassian Blacksmith's Toolbox
+			fc(1229612),	-- Thalassian Leatherworker's Toolset
+			fc(1229613),	-- Thalassian Needle Set
+			fc(1229630),	-- Thalassian Competitor's Sword
+			fc(1229631),	-- Thalassian Competitor's Greatsword
+			fc(1229632),	-- Thalassian Competitor's Spelldagger [SKEWER NAME DOES NOT MATCH]
+			fc(1229633),	-- Thalassian Competitor's Splitter
+			fc(1229634),	-- Thalassian Competitor's Bulwark
+			fc(1229635),	-- Thalassian Competitor's Maxim
+			fc(1229636),	-- Thalassian Competitor's Knife
+			fc(1229637),	-- Thalassian Competitor's Pickaxe
+			fc(1229638),	-- Thalassian Competitor's Plate Armguards
+			fc(1229639),	-- Thalassian Competitor's Plate Waistguard
+			fc(1229640),	-- Thalassian Competitor's Plate Pauldrons
+			fc(1229641),	-- Thalassian Competitor's Plate Helm
+			fc(1229642),	-- Thalassian Competitor's Plate Gauntlets
+			fc(1229643),	-- Thalassian Competitor's Plate Sabatons
+			fc(1229644),	-- Thalassian Competitor's Plate Greaves
+			fc(1229645),	-- Thalassian Competitor's Plate Breastplate
+			fc(1265906),	-- Thalassian Skeleton Key
+		})),
 		filter(MISC, {
 			i(238020),	-- Thalassian Master Repair Hammer
 		}),
