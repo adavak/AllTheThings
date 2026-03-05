@@ -224,7 +224,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 					filter(MAIL, {
 						honor(875, i(255297)),	-- Galactic Aspirant's Armored Tunic
 						honor(875, i(255265)),	-- Galactic Aspirant's Armored Vest
-						honor(700, i(255320)),	-- Galactic Aspirant's Chain Belt
+						honor(700, i(255288)),	-- Galactic Aspirant's Chain Belt
 						honor(525, i(255324)),	-- Galactic Aspirant's Chain Bracer
 						honor(700, i(255320)),	-- Galactic Aspirant's Chain Clasp
 						honor(700, i(255274)),	-- Galactic Aspirant's Chain Gauntlets
@@ -232,7 +232,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 						honor(875, i(255308)),	-- Galactic Aspirant's Chain Headguard
 						honor(875, i(255276)),	-- Galactic Aspirant's Chain Helm
 						honor(875, i(255280)),	-- Galactic Aspirant's Chain Leggings
-						honor(700, i(255301)),	-- Galactic Aspirant's Chain Sabatons
+						honor(700, i(255269)),	-- Galactic Aspirant's Chain Sabatons
 						honor(700, i(255317)),	-- Galactic Aspirant's Chain Shoulderguards
 						honor(700, i(255285)),	-- Galactic Aspirant's Chain Spaulders
 						honor(700, i(255301)),	-- Galactic Aspirant's Chain Stompers

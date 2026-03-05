@@ -736,8 +736,6 @@ root(ROOTS.Unsorted, {
 				mount(1270673),	-- Vivacious Chlorocoers (MOUNT!) [Harandar Treasures?]
 			}),
 			n(PVP, {
-				i(255269),	-- Galactic Aspirant's Chain Sabatons
-				i(255288),	-- Galactic Aspirant's Chain Belt
 				i(255618),	-- Galactic Gladiator's Splitter
 				i(258620),	-- Field Medic's Hazard Payout
 				i(258622),	-- Medal of Conquest
