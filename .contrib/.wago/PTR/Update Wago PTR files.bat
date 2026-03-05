@@ -5,14 +5,13 @@ del /Q "%1*.csv"
 
 @REM Download new file versions
 call :download Achievement
-call :downloadrenamed AreaTable areatable
+call :download AreaTable
 call :download ArtifactAppearance
-call :downloadrenamed BattlePetSpecies battlepetspecies
+call :download BattlePetSpecies
 call :download ContentTuning
 call :download Criteria
 call :download CriteriaTree
 call :download GlyphProperties
-call :download HolidayNames
 call :downloadrenamed Holiday Holidays
 call :download HouseDecor
 call :download Item
@@ -29,7 +28,12 @@ call :download TransmogSet
 call :download TransmogSetItem
 call :download UiMap
 call :download UiMapAssignment
-call :downloadrenamed WorldMapOverlay worldmapoverlay
+call :download WorldMapOverlay
+
+@REM Run the locale update script from its own folder
+pushd "%~dp0localized"
+call "Update Wago Build Files.bat"
+popd
 
 @REM Cleanup the ItemBonus file
 call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\ItemBonus.csv" "..\ItemBonus.regex"
