@@ -90,7 +90,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				n(VENDORS, {
 					n(236861, {	-- Cravitz Lorent <Shady Art Dealer>
 						i(246857, {	-- "Shu'halo Perspective" Painting (DECOR!)
-							["cost"] = 99999999999,	-- 9,999,999g
+							["description"] = "|cFFE50D12WARNING! DO NOT BUY RIGHT AWAY!|r\nGet 13 different Sargle's Fortunes to drastically cut down the price.",
+							["cost"] = 9999999,	-- 999g 99s 99c
 						}),
 						i(237764, {	-- Exquisite Painting
 							["cost"] = { { "c", 3250, 1 } },	-- 1x Faceted Crystaline Fel
