@@ -708,6 +708,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
 		}),
 		i(241148),	-- Amani Angler's Ward
+		i(262649),	-- An Angler's Deep Dive
 		i(243343),	-- Angler's Anomaly
 		i(238494),	-- Another's Treasure
 		i(238371),	-- Arcane Wyrmfish
@@ -723,7 +724,19 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238381),	-- Hollow Grouper
 		i(263938),	-- Idol of Peril (QS!)
 		i(238376),	-- Lucky Loa
+		i(260905),	-- Lost Blade of Spacial Descent
+		i(260898),	-- Lost Cerulean Edge
+		i(260908),	-- Lost Frostwolf's Stand
+		i(260904),	-- Lost Soul Collector
+		i(260901),	-- Lost Stave of Burrowing Contortion
+		i(260902),	-- Lost Sunset Scepter
+		i(260903),	-- Lost Sunwell Splitter
+		i(260900),	-- Lost Thunder Fist
+		i(260907),	-- Lost Winter's Hunger
 		i(238366),	-- Lynxfish
+		i(268730, {	-- Nether-Warped Egg
+			i(260916),	-- Nether-Swept Drake
+		}),
 		i(238380),	-- Null Voidfish
 		i(238373),	-- Ominous Octopus
 		i(241149),	-- Ominous Octopus Lure
@@ -733,6 +746,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238370),	-- Shimmer Spinefish
 		i(262792),	-- Shredded Bloomline
 		i(262797),	-- Shredded Glimmerline
+		i(262793),	-- Stranded Bloomline (Green Quality)
+		i(262798),	-- Stranded Glimmerline (Green Quality)
 		i(238365),	-- Sin'dorei Swarmer
 		i(238384),	-- Sunwell Fish
 		i(238368),	-- Twisted Tetra
