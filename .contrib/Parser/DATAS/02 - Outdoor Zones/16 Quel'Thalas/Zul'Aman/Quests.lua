@@ -1220,6 +1220,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				header(HEADERS.AchCriteria, 61452.15, {	-- Something Vile This Way Comes
 					q(91833, {	-- Dirty Deeps
 						--["sourceQuests"] = { XXX },	-- ???
+						["qg"] = 244591,	-- Vun'zarah
+						["coord"] = { 38.6, 22.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = { i(248814) },	-- Witherbark Supplies (QI!)
 					}),
 					q(91835, {	-- Send Dem Home

@@ -1270,11 +1270,11 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 245755 },	-- Thalassian Treatise on Alchemy
 			}),
-			q(93528, {	-- MID Weekly Alchemy Knowledgepoint #1
+			q(93529, {	-- MID Weekly Alchemy Knowledgepoint #1
 				["name"] = "MID Weekly Alchemy Treasure #1",
 				["provider"] =  { "i", 259189 },	-- Aged Cruor
 			}),
-			q(93529, {	-- MID Weekly Alchemy Knowledgepoint #2
+			q(93528, {	-- MID Weekly Alchemy Knowledgepoint #2
 				["name"] = "MID Weekly Alchemy Treasure #2",
 				["provider"] = { "i", 259188 } ,	-- Lightbloomed Spore Sample
 			}),

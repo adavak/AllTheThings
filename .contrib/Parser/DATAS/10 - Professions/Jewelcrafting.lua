@@ -971,12 +971,10 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				["name"] = "MID Weekly Jewelcrafting Treasure #1",
 				["provider"] = { "i", 259199 },	-- Harandar Stone Sample
 			}),
-			--[[
-			q(83266, {	-- MID Weekly Jewelcrafting Knowledgepoint #2
+			q(93538, {	-- MID Weekly Jewelcrafting Knowledgepoint #2
 				["name"] = "MID Weekly Jewelcrafting Treasure #2",
 				["provider"] = { "i", 259198 },	-- Void-Touched Eversong Diamond Fragments
 			}),
-			--]]
 		})),
 	})),
 })));

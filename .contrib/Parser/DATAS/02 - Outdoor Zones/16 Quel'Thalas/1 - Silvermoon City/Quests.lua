@@ -124,6 +124,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(93767),	-- Midnight: Arcantina
 			q(94457),	-- Midnight: Battlegrounds
 			q(93911),	-- Midnight: Dungeons
+			q(93769),	-- Midnight: Housing
 			q(93910),	-- Midnight: Prey
 			q(93889),	-- Midnight: Saltheril's Soiree
 			q(93892),	-- Midnight: Stormarion Assault
@@ -139,6 +140,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(93275),	-- after turn in Unity Against the Void weekly quest. Could also be spark lockout, idk.
 				q(93789),	-- Apex Cache (season 1) was opened / bpnus roll for something?
 				q(94419, {["timeline"]={ADDED_12_0_X_SEASONSTART,REMOVED_12_1_0}}),	-- player recieve 10x Veteran Dawncrest during questID 94418 (Crest Transmutation)
+				q(94410),	-- After turning in Unity Against the Void? Spark lockout?
 			}),
 		}),
 	}),

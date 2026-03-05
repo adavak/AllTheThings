@@ -30,7 +30,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
 					}, {	-- RENOWN 9 --
+						q(93931, {	-- An Abundance of Wealth
+							["groups"] = {
+
+							},
+						}),
 					}, {	-- RENOWN 10 --
+						q(94813, {	-- Fine Fashion Funding
+							["groups"] = {
+								i(FINERY_FUNDS),
+							},
+						}),
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
 					}, {	-- RENOWN 13 --

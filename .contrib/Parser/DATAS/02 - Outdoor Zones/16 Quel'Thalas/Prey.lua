@@ -306,8 +306,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			q(93853),	-- Prey Complete - Normal #2
 			q(93855),	-- Prey Complete - Normal #3
 			q(93856),	-- Prey Complete - Normal #4
-			-- q(TODO),	-- Prey Complete - Hard #1
-			q(93874),	-- Prey Complete - Hard #2
+			q(93874),	-- Prey Complete - Hard #1
+			q(93875),	-- Prey Complete - Hard #2
 			q(93858),	-- Prey Complete - Hard #3
 			q(93860),	-- Prey Complete - Hard #4
 			-- q(TODO),	-- Prey Complete - Nightmare #1

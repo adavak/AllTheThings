@@ -216,3 +216,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		}),
 	}),
 }));
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
+	m(MAP.MIDNIGHT.QUELTHALAS, {
+		n(ABUNDANCE, {
+			n(QUESTS, {
+				q(88770),	-- Popped after entering Loaknit Den
+				q(87350),	-- Abundance. Loaknit Den
+				q(94426),	-- Popped after Loaknit Den
+
+				q(91432),	-- Popped after entering Wath'nan Crypts
+				q(91467),	-- Abundance: Watha'nan Crypts
+			}),
+		}),
+	}),
+}));
