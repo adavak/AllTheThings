@@ -806,7 +806,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(87754, 1223149),	-- Lush Mana Lily
 			FirstCraft(87757, 1224889),	-- Primal Mana Lily
 			FirstCraft(87758, 1224899),	-- Voidbound Mana Lily
-			FirstCraft(87756, 12244894),	-- Wild Mana Lily
+			FirstCraft(87756, 1224894),	-- Wild Mana Lily
 		})),
 		i(236776),	-- Argentleaf+
 		i(236777),	-- Argentleaf++
