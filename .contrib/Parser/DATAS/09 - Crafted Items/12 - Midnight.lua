@@ -844,7 +844,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90299, 1229919);	-- Kinetic Ankle Primers
 			FirstCraft(93231, 1261895);	-- Laced Zoomshots
 			FirstCraft(90306, 1229916);	-- Lucky Keychain
-			FirstCraft(93235, 1261938);	-- M0LL1, Atomic Anomaly
 			FirstCraft(90308, 1229924);	-- M3DDY
 			FirstCraft(90300, 1229917);	-- M3DDY, Travel-Sized
 			FirstCraft(90234, 1229856);	-- Perfected Cogwheel
