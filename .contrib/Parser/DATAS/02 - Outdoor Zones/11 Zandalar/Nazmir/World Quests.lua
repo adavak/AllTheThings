@@ -256,13 +256,17 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(50961, {	-- Save Our Scrolls!
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(158176),	-- Intact Tortollan Scroll (QI!)
+					o(281722, {	-- Grimy Scroll
+						i(158176),	-- Intact Tortollan Scroll (QI!)
+					}),
 				},
 			}),
 			q(50634, {	-- Save Our Scrolls!
 				["races"] = HORDE_ONLY,
 				["groups"] = {
-					i(158176),	-- Intact Tortollan Scroll (QI!)
+					o(281722, {	-- Grimy Scroll
+						i(158176),	-- Intact Tortollan Scroll (QI!)
+					}),
 				},
 			}),
 			q(50521, {	-- Scorched Earth

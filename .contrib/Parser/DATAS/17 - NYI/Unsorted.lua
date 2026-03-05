@@ -264,7 +264,6 @@ root(ROOTS.Unsorted, {
 					-- Prof Knoweldge
 					i(238467),	-- Thalassian Phoenix Ember
 					i(238469),	-- Sweeping Harvester's Scythe
-					i(238472),	-- A Spade
 
 					-- Herb Knowledge
 					i(238564),	-- Ancient Flower
@@ -287,9 +286,7 @@ root(ROOTS.Unsorted, {
 				}),
 				prof(SKINNING, {
 					i(238522),	-- Peerless Plumage
-					i(238528),	-- Majestic Claw
 					i(238529),	-- Majestic Hide
-					i(238530),	-- Majestic Fin
 					i(238531),	-- Radiant Stomach
 
 
@@ -575,9 +572,7 @@ root(ROOTS.Unsorted, {
 				i(249527),	-- Elder Painting
 				i(249541),	-- Naga Fang
 				i(249543),	-- Special Remedy
-				i(249544),	-- Chest of Stolen Valuables
 				i(249553),	-- Lost Mirror
-
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
 				i(249691),	-- Holy Sunfire
@@ -636,7 +631,6 @@ root(ROOTS.Unsorted, {
 				i(260191),	-- Hand of the Rootkeeper
 				i(260192),	-- Wildthorn Razorfang
 				-- Wep
-				i(262729),	-- Hand of the Rootkeeper
 				i(262732),	-- Heavy Bramblebolter
 				i(246189),	-- The Brightstar
 				i(246209),	-- 12.0 Monster - Arator - Sword1H - Sword_1H_Arator_D_01
@@ -831,7 +825,6 @@ root(ROOTS.Unsorted, {
 				i(249604),	-- [PH] 12.0 Delves - Level-Up - Armor - Plate WAIST - A
 				i(249605),	-- [PH] 12.0 Delves - Level-Up - Armor - Plate WRIST - A
 				i(249608),	-- [PH] 12.0 Delves - Level-Up - Weapon - 1H Axe INT
-				i(249610),	-- Resinous Blossomblade
 				i(249611),	-- [PH] 12.0 Delves - Level-Up - Weapon - 1H Fist AGI
 				i(249612),	-- [PH] 12.0 Delves - Level-Up - Weapon - 1H Sword STR
 				i(249613),	-- [PH] 12.0 Delves - Level-Up - Weapon - 2H Axe STR
@@ -1066,7 +1059,6 @@ root(ROOTS.Unsorted, {
 				i(260904),	-- Lost Soul Collector
 				i(260905),	-- Lost Blade of Spacial Descent
 				i(260907),	-- Lost Winter's Hunger
-				i(260908),	-- Lost Frostwolf's Stand
 				i(262715),	-- Simple Mossy Trowel
 				i(262716),	-- Simple Rosy Trowl
 				i(262717),	-- Simple Rooting Trowl
@@ -1231,7 +1223,6 @@ root(ROOTS.Unsorted, {
 				i(249768),	-- Fungarian Barrel
 				i(251980),	-- Fungarian Sack
 				i(263019),	-- Haranir Pennant
-				i(263036),	-- Hanging Dawnflower
 				i(263038),	-- Haranir Reclined Bed \\ Haranir Canopy Bed
 				i(263039),	-- Harandar Flowering Lamp
 				i(263194),	-- Harandar Glowvine Sconce \\ Harandar Glow-vine Sconce

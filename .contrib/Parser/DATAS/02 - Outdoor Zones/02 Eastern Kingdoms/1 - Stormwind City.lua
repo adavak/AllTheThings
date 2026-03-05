@@ -3725,7 +3725,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(46728, {	-- The Nation of Kul Tiras
 					["sourceQuest"] = 46727,	-- Battle for Azeroth: Tides of War (BfA version)
 					["qg"] = 120756,	-- Anduin Wyrnn
-					["coord"] = { 85.0, 32.4, STORMWIND_CITY },
+					["coords"] = {
+						{ 80.4, 33.4, STORMWIND_CITY },
+						{ 85.0, 32.4, STORMWIND_CITY },
+					},
 					["timeline"] = { ADDED_8_0_1 },
 					["races"] = ALLIANCE_ONLY,
 				}),

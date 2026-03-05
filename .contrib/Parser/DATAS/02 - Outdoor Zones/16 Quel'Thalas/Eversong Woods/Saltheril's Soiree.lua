@@ -153,7 +153,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						i(249557),	-- Sun-Kissed Tranquilla (QI!)
 					},
 				}),
-				q(92007),	-- Begged, Borrowed or Stolen
+				q(92007, {	-- Begged, Borrowed or Stolen
+					["groups"] = { i(249544) },	-- Chest of Stolen Valuables (QI!)
+				}),
 			})),
 			n(BONUS_OBJECTIVES, {
 				q(91966, {	-- Saltheril's Soiree (TODO: possibly wq in future builds? questID unique per chosen faction?)

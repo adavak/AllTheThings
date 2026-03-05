@@ -2324,6 +2324,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 				}),
 				header(HEADERS.Item, 229974, sharedDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {	-- Delver's Gob-Trotter
+					i(229974, {	-- Delver's Gob-Trotter (MOUNT!)
+						["cost"] = { { "c", RESONANCE_CRYSTALS, 10000 } },
+						["timeline"] = { ADDED_12_0_1_LAUNCH },
+					}),
 					i(230219, {	-- Delver's Gob-Trotter Schematic: Balloon (MM!)
 						["cost"] = { { "c", RESONANCE_CRYSTALS, 10 } },
 					}),

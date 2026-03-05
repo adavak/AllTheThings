@@ -2355,6 +2355,7 @@ i(257444, 1261576);	-- Hexed Vilefeather Eagle
 i(257446, 1261583);	-- Insatiable Shredclaw
 i(260697, 1266703);	-- Lab-grown Stormray
 i(260231, 1265784);	-- Lucent Hawkstrider
+i(260916, 3363);	-- Nether-Swept Drake
 i(257191, 1261336);	-- Preyseeker's Hubris
 i(257193, 1261338);	-- Preyseeker's Nightmare
 i(257192, 1261337);	-- Preyseeker's Wrath
@@ -2376,5 +2377,3 @@ i(263579, 1270673);	-- Vivacious Chlorocoers
 i(263580, 1270675);	-- Vivid Chloroceros
 i(260696, 1266702);	-- Voidbound Stormray
 i(257200, 1261351);	-- Witherbark Pango
-
-i(260916, 3363);	-- Nether-Warped Drake / Nether-Swept Drake?? Might not be accurate and using old SpellID...

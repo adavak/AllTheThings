@@ -310,12 +310,28 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 12553,	-- Skimmer Spinnerets
 						["qg"] = 28284,	-- Specialist Cogwheel
 						["coord"] = { 58.2, 72.0, ZULDRAK },
+						["groups"] = {
+							o(190537, {	-- Crashed Plague Sprayer
+								["coord"] = { 49.0, 75.6, ZULDRAK },
+								["groups"] = { i(38560) },	-- Plague Sprayer Parts (QI!)
+							}),
+						},
 					}),
 					q(12599, {	-- Creature Comforts
 						["description"] = "Must be on |cFFFFD700Pa'Troll|r to see this quest.",
 						["sourceQuest"] = 12740,	-- Parachutes for the Argent Crusade
 						["qg"] = 28043,	-- Captain Grondel
 						["coord"] = { 48.1, 63.8, ZULDRAK },
+						["groups"] = {
+							o_repeated({	-- Dead Thornwood
+								["groups"] = {
+									i(38563),	-- Dead Thornwood (QI!)
+									o(190541),	-- Dead Thornwood
+									o(190542),	-- Dead Thornwood
+									o(190543),	-- Dead Thornwood
+								},
+							})
+						},
 					}),
 					q(12894, {	-- Crusader Forward Camp
 						["sourceQuest"] = 12883,	-- Orders From Drakuru
@@ -494,6 +510,15 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 12740,	-- Parachutes for the Argent Crusade
 						["qg"] = 28205,	-- Alchemist Finklestein
 						["coord"] = { 35.0, 52.1, ZULDRAK },
+						["groups"] = {
+							o(190478, {		-- Muddy Mire Maggots
+								["coords"] = {
+									{ 34.8, 51.3, ZULDRAK },
+									{ 35.0, 53.4, ZULDRAK },
+								},
+								["groups"] = { i(38386) },	-- Muddy Mire Maggot (QI!)
+							}),
+						},
 					}),
 					q(12512, {	-- Leave No One Behind -- aa
 						["qg"] = 28125,	-- Dr. Rogers
@@ -616,6 +641,22 @@ root(ROOTS.Zones, {
 						["qg"] = 28044,	-- Captain Rupert
 						["coord"] = { 58.0, 72.4, ZULDRAK },
 						["groups"] = {
+							o(190540, {	-- Chunk of Saronite
+								["coords"] = {
+									{ 60.1, 78.9, ZULDRAK },
+									{ 60.3, 77.4, ZULDRAK },
+									{ 60.4, 80.3, ZULDRAK },
+									{ 61.1, 80.4, ZULDRAK },
+									{ 61.3, 78.7, ZULDRAK },
+									{ 61.5, 79.6, ZULDRAK },
+									{ 61.7, 76.4, ZULDRAK },
+									{ 62.0, 78.1, ZULDRAK },
+									{ 62.5, 79.1, ZULDRAK },
+									{ 62.6, 77.8, ZULDRAK },
+								},
+								["groups"] = { i(38562) },	-- Chunk of Saronite (QI!)
+							}),
+							--
 							i(39773),	-- Soothsayer's Shoulderpads
 							i(39837),	-- Gloves of Swift Death
 							i(39795),	-- Boots of the Altar
@@ -720,6 +761,35 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 12740,	-- Parachutes for the Argent Crusade
 						["qg"] = 28042,	-- Captain Brandon
 						["coord"] = { 48.7, 78.8, ZULDRAK },
+						["groups"] = {
+							o(190534, {	-- Mature Water-Poppy
+								["groups"] = {
+									{ 40.8, 78.8, ZULDRAK },
+									{ 41.2, 77.4, ZULDRAK },
+									{ 41.4, 78.0, ZULDRAK },
+									{ 41.4, 79.5, ZULDRAK },
+									{ 41.6, 80.1, ZULDRAK },
+									{ 42.0, 79.4, ZULDRAK },
+									{ 42.2, 77.7, ZULDRAK },
+									{ 42.2, 81.0, ZULDRAK },
+									{ 42.8, 75.5, ZULDRAK },
+									{ 42.8, 80.3, ZULDRAK },
+									{ 42.9, 82.4, ZULDRAK },
+									{ 43.0, 77.1, ZULDRAK },
+									{ 43.1, 81.4, ZULDRAK },
+									{ 43.2, 75.4, ZULDRAK },
+									{ 43.6, 80.5, ZULDRAK },
+									{ 43.7, 76.2, ZULDRAK },
+									{ 43.9, 78.7, ZULDRAK },
+									{ 43.9, 81.5, ZULDRAK },
+									{ 44.4, 78.0, ZULDRAK },
+									{ 44.8, 77.9, ZULDRAK },
+									{ 45.0, 80.0, ZULDRAK },
+									{ 45.5, 79.5, ZULDRAK },
+								},
+								["groups"] = { i(38552) },	-- Mature Water-Poppy (QI!)
+							}),
+						},
 					}),
 					q(12642, {	-- Spirit of Rhunok
 						["sourceQuest"] = 12632,	-- But First My Offspring
@@ -993,6 +1063,35 @@ root(ROOTS.Zones, {
 						["qg"] = 28042,	-- Captain Brandon
 						["coord"] = { 48.7, 78.8, ZULDRAK },
 						["isDaily"] = true,
+						["groups"] = {
+							o(190534, {	-- Mature Water-Poppy
+								["groups"] = {
+									{ 40.8, 78.8, ZULDRAK },
+									{ 41.2, 77.4, ZULDRAK },
+									{ 41.4, 78.0, ZULDRAK },
+									{ 41.4, 79.5, ZULDRAK },
+									{ 41.6, 80.1, ZULDRAK },
+									{ 42.0, 79.4, ZULDRAK },
+									{ 42.2, 77.7, ZULDRAK },
+									{ 42.2, 81.0, ZULDRAK },
+									{ 42.8, 75.5, ZULDRAK },
+									{ 42.8, 80.3, ZULDRAK },
+									{ 42.9, 82.4, ZULDRAK },
+									{ 43.0, 77.1, ZULDRAK },
+									{ 43.1, 81.4, ZULDRAK },
+									{ 43.2, 75.4, ZULDRAK },
+									{ 43.6, 80.5, ZULDRAK },
+									{ 43.7, 76.2, ZULDRAK },
+									{ 43.9, 78.7, ZULDRAK },
+									{ 43.9, 81.5, ZULDRAK },
+									{ 44.4, 78.0, ZULDRAK },
+									{ 44.8, 77.9, ZULDRAK },
+									{ 45.0, 80.0, ZULDRAK },
+									{ 45.5, 79.5, ZULDRAK },
+								},
+								["groups"] = { i(38552) },	-- Mature Water-Poppy (QI!)
+							}),
+						},
 					}),
 					q(12541, {	-- Troll Patrol: The Alchemist's Apprentice
 						["sourceQuest"] = 12596,	-- Pa'Troll

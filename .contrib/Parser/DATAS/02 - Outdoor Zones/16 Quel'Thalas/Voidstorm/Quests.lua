@@ -1324,7 +1324,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(92512),]]--
 			--to Master's Perch (not a breadcrumb?)
 			q(93810, {	-- Masters' Perch
-				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				--["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 				["provider"] = { "n", 254765 },	-- Perodius
 				["coord"] = { 51.4, 67.6, MAP.MIDNIGHT.VOIDSTORM },
 			}),

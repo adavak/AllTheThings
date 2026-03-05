@@ -1948,6 +1948,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		spell(471014, {	-- Midnight Skinning
 			i(238523),	-- Carving Canine
 			i(238525),	-- Fantastic Fur
+			i(238528),	-- Majestic Claw
+			i(238530),	-- Majestic Fin
 			i(238518),	-- Void-Tempered Hide+
 			i(238519),	-- Void-Tempered Hide++
 			i(238511),	-- Void-Tempered Leather+

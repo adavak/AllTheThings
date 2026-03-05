@@ -187,6 +187,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["questID"] = 94540,
 				}),
 			}),
+			o(531480, {	-- Dead Drop
+			}),
+			o(531479, {	-- Ranger's Cache
+			}),
 		}),
 	}),
 }));

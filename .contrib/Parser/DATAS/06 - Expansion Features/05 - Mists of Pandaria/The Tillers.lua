@@ -850,7 +850,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				q(31313, {	-- Just A Folk Story
 					["sourceQuest"] = 31312,	-- The Old Map
 					["qg"] = 58705,	-- Fish Fellreed
-					["coord"] = { 52.8, 51.8, VALLEY_OF_THE_FOUR_WINDS },
+					["coords"] = {
+						{ 41.7, 30.1, VALLEY_OF_THE_FOUR_WINDS },
+						{ 52.8, 51.8, VALLEY_OF_THE_FOUR_WINDS },
+					},
 					["groups"] = {
 						objective(1, {	-- Speak to Grainsorter Pei
 							["provider"] = { "n", 64312 },	-- Grainsorter Pei
@@ -1153,7 +1156,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				q(31314, {	-- Old Man Thistle's Treasure
 					["sourceQuest"] = 31313,	-- Just a Folk Story
 					["qg"] = 58705,	-- Fish Fellreed
-					["coord"] = { 52.8, 51.8, VALLEY_OF_THE_FOUR_WINDS },
+					["coords"] = {
+						{ 41.7, 30.1, VALLEY_OF_THE_FOUR_WINDS },
+						{ 52.8, 51.8, VALLEY_OF_THE_FOUR_WINDS },
+					},
 					["groups"] = {
 						i(86428, {	-- Old Man Thistle's Treasure
 							["description"] = "Contains a number of Pandarian rare quality Gems.",

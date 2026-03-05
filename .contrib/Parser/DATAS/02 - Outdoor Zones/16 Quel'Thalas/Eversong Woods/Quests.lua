@@ -10,7 +10,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(86737, {	-- Fair Breeze, Light Bloom
 						["sourceQuests"] = { 86735 },	-- Paved in Ash
 						["provider"] = { "n", 235787 },	-- Lor'themar Theron
-						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["coord"] = { 45.4, 70.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(94871, {	-- Eversong
+						["description"] = "Adventure Mode Exclusive Quest from the Scouting Map as you pick to quest in Eversong Woods.",
+						["sourceQuests"] = { 86735 },	-- Paved in Ash
 					}),
 					------ Stay awhile and listen ------
 					--hqt(XXXXX, {	-- Stay awhile and listen: Lady Liadrin

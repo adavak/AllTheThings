@@ -350,15 +350,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				40844,	-- Sojourner of Hallowfall
 				40636,	-- Sojourner of Azj-Kahet
 			}},
-			["groups"] = {
-				iensemble(219132),	-- Crimson Cartographer's Orientation
-			},
+			["groups"] = { iensemble(219132) },	-- Crimson Cartographer's Orientation (COSMETIC!)
 		}),
 		ach(61498, {	-- Ready for Midnight
 			["timeline"] = { ADDED_11_2_7 },
-			["groups"] = {
-				title(669),	-- %s, Azeroth's Vanguard
-			},
+			["groups"] = { title(669) },	-- %s, Azeroth's Vanguard
 		}),
 		ach(20597),		-- The War Within (automated)
 		ach(40231, {	-- The War Within Pathfinder

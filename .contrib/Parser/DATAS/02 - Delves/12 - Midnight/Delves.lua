@@ -217,6 +217,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(264258),	-- Blossoming Forge (DECOR!)
 			i(264342),	-- Cosmic Void Cache (DECOR!)
 			i(251967),	-- Fungarian Banner (DECOR!)
+			i(263036),	-- Hanging Dawnflower (DECOR!)
 			i(263042),	-- Rootlight Lamppost (DECOR!)
 			i(263233),	-- Sin'dorei Spinning Library (DECOR!)
 		}),
@@ -228,8 +229,10 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(249670),	-- Elderoot Spire
 			i(249664),	-- Gnarled Thornmace
 			i(249671),	-- Gnarlroot Spinecleaver
+			i(262729),	-- Hand of the Rootkeeper
 			i(249669),	-- Organ Piercer's Briarspear
 			i(251885),	-- Radiant Foil
+			i(249610),	-- Resinous Blossomblade
 			i(249661),	-- Root Sculptor's Verdaxe
 			i(260188),	-- Savage Briaredge
 			i(259462),	-- Thorneedle
@@ -552,7 +555,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			n(QUESTS, {
 				q(93428, {	-- Delver's Call: Shadowguard Point
-					["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: added from alpha open world version of it)
 					["provider"] = { "o", 612364 },	-- Shadowguard Point (TODO: missing open world objectID)
 					["coords"] = {
 						{ 47.6, 79.3, SHADOWGUARD_POINT },
@@ -720,7 +722,11 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			n(EXPLORATION, {
 			}),
 			filter(MISC, {
-				i(247237),	-- Mold Samples
+				o_repeated({
+					i(247237),	-- Mold Samples
+					o(558184),	-- Decaying Fighter
+					o(563491),	-- Moldy Chunks
+				}),
 			}),
 			n(QUESTS, {
 				q(93421, {	-- Delver's Call: The Grudge Pit
@@ -860,7 +866,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 					["questID"] = 94037,
 				}),
 				o(618276, {	-- Sturdy Chest
-					["coord"] = { 56.8, 85.9, 2504 },
+					["coord"] = { 57.5, 84.5, 2504 },
 					["questID"] = 94020,
 				}),
 				o(618288, {	-- Sturdy Chest

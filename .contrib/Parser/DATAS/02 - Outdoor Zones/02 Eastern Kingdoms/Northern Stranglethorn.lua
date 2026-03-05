@@ -449,7 +449,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_1_2_0, REMOVED_4_0_3 },
 						}),
 						i(17687, {	-- Master Hunter's Rifle
-							["timeline"] = { ADDED_1_2_0, REMOVED_4_0_3 },
+							["timeline"] = { ADDED_1_2_0, REMOVED_4_0_3, ADDED_12_0_1 },	-- Obtained 2026/03/05
 						}),
 						i(4110, {	-- Master Hunter's Bow
 							["timeline"] = { REMOVED_1_2_0 },
