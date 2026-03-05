@@ -3067,3 +3067,7 @@
 20632@@@Devouring Ritual Spire
 12.0.1.65893
 11287@@@Sanctuary's Horadric Cube
+12.0.1.66013
+7826@@@Colorful Shroomic Egg
+7827@@@Colorful Dotted Egg
+7828@@@Colorful Striped Egg
