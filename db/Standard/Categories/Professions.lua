@@ -1971,9 +1971,9 @@ i(263454,{b=1,isWeekly=1,requireSkill=171,spellID=1270530,g={
 cu(3150,{requireSkill=171})}}),
 q(95127,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245755}},requireSkill=171,g={
 cu(3150,{requireSkill=171})}}),
-q(93528,{isWeekly=1,providers={{"i",259189}},requireSkill=171,g={
+q(93529,{isWeekly=1,providers={{"i",259189}},requireSkill=171,g={
 cu(3150,{requireSkill=171})}}),
-q(93529,{isWeekly=1,providers={{"i",259188}},requireSkill=171,g={
+q(93528,{isWeekly=1,providers={{"i",259188}},requireSkill=171,g={
 cu(3150,{requireSkill=171})}})}})}})}),
 prof(164,{
 h(-12,{awp=100107,requireSkill=164,g={
@@ -6058,6 +6058,8 @@ cu(3156,{requireSkill=755})}}),
 q(95133,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245760}},requireSkill=755,g={
 cu(3156,{requireSkill=755})}}),
 q(93539,{isWeekly=1,providers={{"i",259199}},requireSkill=755,g={
+cu(3156,{requireSkill=755})}}),
+q(93538,{isWeekly=1,providers={{"i",259198}},requireSkill=755,g={
 cu(3156,{requireSkill=755})}})}})}})}),
 prof(165,{
 h(-12,{awp=100107,requireSkill=165,g={

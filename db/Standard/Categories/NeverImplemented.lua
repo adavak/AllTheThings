@@ -1,18 +1,8 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local ach,ah,campsite,cl,crit,cs,d,de,exp,faction,fc,flt,follower,fp,gb,h,heir,i,ill,inst,m,mm,mnt,n,o,p,prof,q,r,s,sp,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterClass,_.CreateAchievementCriteria,_.CreateCharacterUnlockSpell,_.CreateDifficulty,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFirstCraft,_.CreateFilter,_.CreateFollower,_.CreateFlightPath,_.CreateGarrisonBuilding,_.CreateCustomHeader,_.CreateHeirloom,_.CreateItem,_.CreateIllusion,_.CreateInstance,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateSpell,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local ach,ah,campsite,cl,crit,cs,d,de,exp,faction,flt,follower,fp,gb,h,heir,i,ill,inst,m,mm,mnt,n,o,p,prof,q,r,s,sp,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterClass,_.CreateAchievementCriteria,_.CreateCharacterUnlockSpell,_.CreateDifficulty,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFollower,_.CreateFlightPath,_.CreateGarrisonBuilding,_.CreateCustomHeader,_.CreateHeirloom,_.CreateItem,_.CreateIllusion,_.CreateInstance,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateSpell,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.NeverImplemented={
-h(-737,{
-fc(1228968),
-fc(1228941),
-fc(1228939),
-fc(1228970),
-fc(1228971),
-fc(1228972),
-fc(1228978),
-fc(1228976),
-fc(1228973)}),
 h(-12,{
 x(1,{
 ach(15329),
@@ -14089,9 +14079,11 @@ i(237750,{spellID=1223065}),
 i(237769,{spellID=1223492})}})}),
 x(12,{awp=120000,g={
 x(12.0000001,{
+i(265611),
 i(242719,{b=1,spellID=1233528}),
 i(251774,{b=1,lvl=80,spellID=1253043}),
 i(251775,{b=1,f=53,lvl=80,spellID=1253042}),
+i(265626),
 i(255828,{b=1,requireSkill=2906,spellID=1259308}),
 i(255829,{b=1,requireSkill=2907,spellID=1259309}),
 i(255830,{b=1,requireSkill=2909,spellID=1259306}),
@@ -19256,7 +19248,7 @@ i(233287),
 i(229898,{spellID=465697}),
 i(229404),
 i(229406),
-i(242547,{spellID=1232759}),
+i(242547),
 i(232280),
 i(232516),
 i(233012),

@@ -1692,7 +1692,6 @@ localize(L.HEADER_NAMES, {
 	[-734] = BATTLE_PET_SOURCE_7,
 	[-735] = GetCategoryInfo(15301),
 	[-736] = BATTLE_PET_SOURCE_8,
-	[-737] = "First Crafts TEST",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -2405,7 +2404,6 @@ localize(L.HEADER_ICONS, {
 	[-734] = _.asset("category_event"),
 	[-735] = _.asset("category_expansionfeatures"),
 	[-736] = _.asset("category_promo"),
-	[-737] = 134116,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -25252,11 +25250,12 @@ L.QUEST_NAMES = {
 	[92651] = "Deathless Attempt Finished",
 	[93399] = "We are all frustrated, Danath.",
 	[93466] = "Increased Spring Butterfly Droprate (Daily Accountwide)",
-	[93528] = "MID Weekly Alchemy Treasure #1",
-	[93529] = "MID Weekly Alchemy Treasure #2",
+	[93528] = "MID Weekly Alchemy Treasure #2",
+	[93529] = "MID Weekly Alchemy Treasure #1",
 	[93530] = "MID Weekly Blacksmithing Treasure #1",
 	[93531] = "MID Weekly Blacksmithing Treasure #2",
 	[93534] = "MID Weekly Engineering Treasure #1",
+	[93538] = "MID Weekly Jewelcrafting Treasure #2",
 	[93539] = "MID Weekly Jewelcrafting Treasure #1",
 	[93916] = "Sealing Orb #1, Unlocked",
 	[93917] = "Sealing Orb #2, Unlocked",
