@@ -225,7 +225,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		},{
 			-- Alchemy Essentials
 			FirstCraft(81132, 433087);	-- Formulated Courage
-			FirstCraft(81090, 430315);	-- Thaumaturgy
 			FirstCraft(78604, 427174);	-- Wild Experimentation
 			-- Reagents
 			FirstCraft(84492, 462121);	-- Bubbling Mycobloom Culture
@@ -2859,6 +2858,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(82474),	-- Transmutation 30/30
 			q(82388, {["isDaily"]=true}),	-- Daily craft bonus potion
 			q(81898, {["isDaily"]=true}),	-- Daily craft bonus flask
+			q(81090, {["isDaily"]=true}),	-- Daily craft Thaumaturgy
 		}),
 		prof(BLACKSMITHING, {
 			q(83111),	-- 10/40 Everburning Forge
