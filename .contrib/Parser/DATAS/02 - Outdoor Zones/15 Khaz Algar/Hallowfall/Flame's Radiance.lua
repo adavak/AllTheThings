@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 3 --
 						q(89390),	-- Flame's Radiance Stipend
 					}, {	-- RENOWN 4 --
-						q(89398),	-- Carved Crests
+						q(89398, {["timeline"] = { ADDED_11_1_5, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 						q(89391),	-- Flame's Radiance Stipend
 					}, {	-- RENOWN 5 --
 						q(89494, {	-- A Frocking Good Job
@@ -50,14 +50,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}, {	-- RENOWN 6 --
 						q(89393),	-- Flame's Radiance Stipend
 					}, {	-- RENOWN 7 --
-						q(89399),	-- Carved Crests
+						q(89399, {["timeline"] = { ADDED_11_1_5, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 						q(89394),	-- Flame's Radiance Stipend
 					}, {	-- RENOWN 8 --
 						q(89395),	-- Flame's Radiance Stipend
 					}, {	-- RENOWN 9 --
 						q(89396),	-- Flame's Radiance Stipend
 					}, {	-- RENOWN 10 --
-						q(89400),	-- Carved Crests
+						q(89400, {["timeline"] = { ADDED_11_1_5, REMOVED_12_0_1_LAUNCH }}),	-- Carved Crests
 						q(89496, {	-- Defender of the Sacred Flame
 							["sourceQuest"] = 89494,	-- A Frocking Good Job
 							["groups"] = {
