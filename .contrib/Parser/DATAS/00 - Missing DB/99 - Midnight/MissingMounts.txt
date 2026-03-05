@@ -1,0 +1,18 @@
+12.0.0.64228
+mount(1261349),	-- Giganto Manis
+12.0.0.65560
+mount(1258573),	-- Thunderhoof Celestial
+12.0.1.66013
+mount(1289395),	-- Swift Spectral Dragonhawk
+
+
+
+
+Missing in MountDB.lua
+
+12.0.0.64124
+mount(1261334),	-- Contained Stormarion Defender
+12.0.1.65337
+mount(1270673),	-- Vivacious Chloroceros
+12.0.1.66013
+mount(1289395),	-- Swift Spectral Dragonhawk

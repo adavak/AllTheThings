@@ -8,40 +8,29 @@ i(58),	-- OLDAcolyte's Belt
 i(77),	-- Deprecated Outfitter Cloth Armor
 i(86),	-- Deprecated Old Belt
 i(87),	-- Deprecated Old Boots
-i(89),	-- OLDThick Trapper's Shirt
 i(90),	-- OLDDwarven Initiate's Belt
 i(92),	-- OLDDwarven Initiate's Boots
-i(93),	-- OLDDwarven Initiate's Shirt
 i(94),	-- Deprecated Dwarven Novice's Belt
 i(95),	-- Deprecated Dwarven Novice's Boots
 i(98),	-- Deprecated Dwarven Squire's Belt
 i(99),	-- Deprecated Dwarven Squire's Boots
-i(101),	-- Deprecated Dwarven Squire's Shirt
 i(102),	-- Deprecated Dwarven Recruit's Belt
 i(103),	-- Deprecated Dwarven Recruit's Boots
-i(105),	-- Deprecated Dwarven Recruit's Shirt
 i(114),	-- Deprecated Dwarven Apprentice Boots
 i(115),	-- Deprecated Dwarven Apprentice Belt
-i(119),	-- Deprecated Rogue's Vest
 i(122),	-- OLDThug Belt
-i(123),	-- Deprecated Orc Apprentice Shirt
 i(125),	-- Deprecated Orc Apprentice Boots
 i(126),	-- Deprecated Orc Apprentice Belt
 i(130),	-- Deprecated Tauren Trapper's Belt
 i(131),	-- Deprecated Orc Acolyte's Belt
 i(132),	-- Deprecated Orc Acolyte's Boots
-i(133),	-- Deprecated Orc Acolyte's Shirt
-i(134),	-- Deprecated Stiff Leather Shirt
 i(136),	-- Deprecated Old Leather Boots
 i(137),	-- OLDNeophyte's Belt
-i(138),	-- Deprecated War Harness
 i(141),	-- OLDBrawler's Belt
 i(146),	-- OLDRugged Trapper's Belt
 i(149),	-- Deprecated Tauren Apprentice Belt
-i(151),	-- Deprecated Tauren Apprentice Shirt
 i(152),	-- OLDPrimitive Leather Belt
 i(155),	-- Deprecated Tauren Recruit's Belt
-i(157),	-- Deprecated Tauren Recruit's Shirt
 i(184),	-- Deprecated Small Brown Pouch
 i(527),	-- Deprecated Gnoll War Beads
 i(537),	-- Frenzy Scale \\ Dull Frenzy Scale
@@ -102,7 +91,6 @@ i(957),	-- iam's Shipment \\ William's Shipment
 i(958),	-- Deprecated Area Trigger Flag - Darkhollow Mine
 i(960),	-- Deprecated Area Trigger Flag - Fargodeep
 i(962),	-- Belly Pie \\ Pork Belly Pie
-i(964),	-- Deprecated Red Linen Shirt
 i(965),	-- Deprecated Red Linen Sack
 i(966),	-- Tome of Frost Shield
 i(967),	-- Tome of Frost Ward
@@ -196,7 +184,6 @@ i(1150),	-- Libram: Purify
 i(1151),	-- Libram: Holy Light III
 i(1162),	-- Pirates Patch (Test)
 i(1163),	-- Dwarven Explorer's Monocle (Test)
-i(1164),	-- Sam's Tome
 i(1165),	-- Test Food
 i(1170),	-- Deprecated Brown Leather Vest
 i(1174),	-- Deprecated Light Soldier Boots
@@ -251,7 +238,6 @@ i(1352),	-- ked Skull Mortar \\ Cracked Skull Mortar
 i(1353),	-- 's Report \\ Shaw's Report
 i(1354),	-- Deprecated Homespun Shawl
 i(1356),	-- endation - Elwynn Forest \\ Commendation - Elwynn Forest
-i(1357),	-- ain Sanders' Treasure Map \\ Captain Sanders' Treasure Map \\ Captain Sander's Treasure Map
 i(1358),	-- ue to Sanders' Treasure \\ A Clue to Sanders' Treasure \\ A Clue to Sander's Treasure
 i(1361),	-- her Clue to Sanders' Treasure \\ Another Clue to Sanders' Treasure \\ Another Clue to Sander's Treasure
 i(1362),	-- l Clue to Sanders' Treasure \\ Final Clue to Sanders' Treasure \\ Final Clue to Sander's Treasure
@@ -373,7 +359,6 @@ i(2161),	-- from Sven's Farm \\ Book from Sven's Farm
 i(2162),	-- h's Ring \\ Sarah's Ring
 i(2187),	-- ack of Letters \\ A Stack of Letters
 i(2188),	-- tter to Grelin Whitebeard \\ A Letter to Grelin Whitebeard
-i(2189),	-- Tigole's Boomstick (TEST)
 i(2191),	-- Deprecated End Spawn Ticket
 i(2223),	-- Collector's Schedule \\ The Collector's Schedule
 i(2250),	-- y Crab Cakes \\ Dusky Crab Cakes
@@ -501,7 +486,6 @@ i(3032),	-- Deprecated Impact Shot
 i(3033),	-- d Shot \\ Solid Shot
 i(3034),	-- Deprecated BKP "Impact" Shot
 i(3035),	-- d Pumpkin \\ Laced Pumpkin
-i(3068),	-- Deprecated Silver-thread Cowl
 i(3081),	-- er Gem \\ Nether Gem
 i(3083),	-- abilization Cog \\ Restabilization Cog
 i(3085),	-- el of Shimmer Stout \\ Barrel of Shimmer Stout
@@ -557,9 +541,6 @@ i(3142),	-- Grimoire of Curse of Sargeras
 i(3143),	-- Grimoire of Burning Spirit
 i(3144),	-- Grimoire of Burning Spirit II
 i(3146),	-- Grimoire of Burning Spirit III
-i(3147),	-- Deprecated Tattered Shirt
-i(3148),	-- Deprecated Work Shirt
-i(3149),	-- Deprecated Ripped Vest
 i(3165),	-- n's Potion \\ Quinn's Potion
 i(3167),	-- k Spider Hair \\ Thick Spider Hair
 i(3168),	-- ped Scale \\ Chipped Scale
@@ -669,7 +650,6 @@ i(3674),	-- mposed Boot \\ Decomposed Boot
 i(3676),	-- y Ichor \\ Slimy Ichor
 i(3677),	-- Deprecated Remington's List
 i(3686),	-- Deprecated Jkaplan TEST
-i(3687),	-- Deprecated Unholy Avenger
 i(3701),	-- halia's Sealed Commendation \\ Darthalia's Sealed Commendation
 i(3702),	-- Gall Bladder \\ Bear Gall Bladder
 i(3705),	-- Deprecated Rabid Fang
@@ -710,8 +690,6 @@ i(3898),	-- ary Scrip \\ Library Scrip
 i(3922),	-- y's Payment \\ Shaky's Payment
 i(3929),	-- Maury's Loot
 i(3931),	-- oned Spider Fang \\ Poisoned Spider Fang
-i(3933),	-- Deprecated Moon Glaive
-i(3934),	-- Deprecated Warden Blade
 i(3960),	-- of Water Elemental Bracers \\ Bag of Water Elemental Bracers
 i(3985),	-- grammed Sash \\ Monogrammed Sash
 i(4028),	-- le of Akiris Reeds \\ Bundle of Akiris Reeds
@@ -919,7 +897,6 @@ i(4756),	-- Ruined Cat Pelt
 i(4757),	-- ked Egg Shells \\ Cracked Egg Shells
 i(4760),	-- OLDThunderhorn Cleansing Totem
 i(4762),	-- OLDWildmane Cleansing Totem
-i(4763),	-- Blackwood Recurve Bow
 i(4775),	-- ked Bill \\ Cracked Bill
 i(4776),	-- led Feather \\ Ruffled Feather
 i(4779),	-- Kodo Tooth \\ Dull Kodo Tooth
@@ -950,7 +927,6 @@ i(4877),	-- e Arrowhead \\ Stone Arrowhead
 i(4878),	-- en Bloodstained Bow \\ Broken Bloodstained Bow
 i(4879),	-- shed Rabbit Carcass \\ Squashed Rabbit Carcass
 i(4880),	-- en Spear \\ Broken Spear
-i(4881),	-- Envelope \\ Aged Envelope
 i(4883),	-- ral Proudmoore's Orders \\ Admiral Proudmoore's Orders
 i(4884),	-- Deprecated Small Scorpid Carapace
 i(4885),	-- Deprecated Large Scorpid Carapace
@@ -967,7 +943,6 @@ i(4966),	-- Mazzranache's Head
 i(4981),	-- Agmond's Belt Pouch
 i(4992),	-- uitment Letter \\ Recruitment Letter
 i(4995),	-- ed Recruitment Letter \\ Signed Recruitment Letter
-i(5000),	-- Coral Band
 i(5013),	-- Fertile Bulb
 i(5014),	-- Wrapping Paper (PT)
 i(5015),	-- Wrapped Item (PT)
@@ -991,8 +966,6 @@ i(5065),	-- y Lieutenant Ring \\ Harpy Lieutenant Ring
 i(5066),	-- ure Plant \\ Fissure Plant
 i(5080),	-- owe's Ledger \\ Gazlowe's Ledger
 i(5082),	-- Kodo Leather \\ Thin Kodo Leather
-i(5090),	-- Deprecated Torn Shirt
-i(5091),	-- test Eric Shirt
 i(5099),	-- of Lakota'mani \\ Hoof of Lakota'mani
 i(5102),	-- anka's Tailspike \\ Owatanka's Tailspike
 i(5103),	-- te Pawne's Feather \\ Washte Pawne's Feather
@@ -1074,7 +1047,6 @@ i(5331),	-- OLDBlackfathom MAGIC Relic
 i(5333),	-- Deprecated Mathystra Relic
 i(5349),	-- ured Muffin \\ Conjured Muffin
 i(5350),	-- ured Water \\ Conjured Water
-i(5352),	-- : The Powers Below \\ Book: The Powers Below
 i(5353),	-- age for Elissa Starbreeze \\ Message for Elissa Starbreeze
 i(5354),	-- er to Delgren \\ Letter to Delgren
 i(5361),	-- bone Toothpick \\ Fishbone Toothpick
@@ -1130,7 +1102,6 @@ i(5450),	-- Deprecated Busted Elemental Bracer
 i(5451),	-- hed Elemental Bracer \\ Crushed Elemental Bracer
 i(5453),	-- Deprecated Shattered Elemental Bracer
 i(5454),	-- Deprecated Split Elemental Bracer
-i(5456),	-- ning Scroll \\ Divining Scroll
 i(5460),	-- dil's Cure \\ Orendil's Cure
 i(5475),	-- en Key \\ Wooden Key
 i(5505),	-- nis' Journal \\ Teronis' Journal
@@ -1195,7 +1166,6 @@ i(5682),	-- Libram: Turn Undead II
 i(5683),	-- Libram: Divine Shield II
 i(5684),	-- Libram: Seal of Salvation
 i(5685),	-- Libram: Redemption
-i(5688),	-- Test Language Item
 i(5692),	-- te Detonator (Red) \\ Remote Detonator (Red)
 i(5693),	-- te Detonator (Blue) \\ Remote Detonator (Blue)
 i(5694),	-- Explosives (Red) \\ NG-5 Explosives (Red)
@@ -1253,7 +1223,6 @@ i(5807),	-- 's Stout Report \\ Fool's Stout Report
 i(5823),	-- Poisonous Mushroom
 i(5826),	-- el's Scheme \\ Kravel's Scheme
 i(5827),	-- le Brassbolts' Letter \\ Fizzle Brassbolts' Letter
-i(5828),	-- Ring of Uber Resists (TEST)
 i(5829),	-- r-Sharp Beak \\ Razor-Sharp Beak \\ Razor-sharp Beak
 i(5833),	-- rium Ore \\ Indurium Ore
 i(5838),	-- Skin Scroll \\ Kodo Skin Scroll
@@ -1287,7 +1256,6 @@ i(6086),	-- tin's Truth Serum \\ Faustin's Truth Serum
 i(6089),	-- dus' Brew \\ Zraedus' Brew \\ Zraedus's Brew
 i(6090),	-- OLDNoboru's Cudgel
 i(6091),	-- e of Power Stones \\ Crate of Power Stones
-i(6130),	-- Trapper's Shirt
 i(6132),	-- Libram: Seal of Wisdom
 i(6133),	-- Libram: Seal of Fury
 i(6145),	-- ice's Pendant \\ Clarice's Pendant
@@ -1306,7 +1274,6 @@ i(6216),	-- Mystical Powder
 i(6243),	-- n Woolen Robe \\ Green Woolen Robe
 i(6244),	-- ggggfg
 i(6253),	-- witch's Package \\ Leftwitch's Package
-i(6255),	-- Fishing Pole (JEFFTEST)
 i(6262),	-- Galen's Journal
 i(6265),	-- Shard \\ Soul Shard
 i(6276),	-- Musty Note
@@ -1379,13 +1346,7 @@ i(6650),	-- ing Stream Totem Scroll \\ Healing Stream Totem Scroll
 i(6656),	-- h Quartz \\ Rough Quartz
 i(6658),	-- ple Collar \\ Example Collar
 i(6683),	-- Tyranis' Pendant (old)
-i(6698),	-- Stone of Pierce
-i(6707),	-- Stone of Lapidis
-i(6708),	-- Stone of Goodman
-i(6711),	-- Stone of Kurtz
 i(6715),	-- ed Jumper Cables \\ Ruined Jumper Cables
-i(6724),	-- Stone of Backus
-i(6728),	-- Stone of Brownell
 i(6753),	-- her Charm \\ Feather Charm
 i(6754),	-- Large Moneybag
 i(6766),	-- ed Demon Skin (old2) \\ Flayed Demon Skin (old2)
@@ -1439,13 +1400,8 @@ i(7347),	-- Bingles' Cog Inverter
 i(7388),	-- Skull Key
 i(7389),	-- ure Co. Ledger \\ Venture Co. Ledger
 i(7425),	-- Cyrik's Head
-i(7426),	-- Cerulean Ring
-i(7442),	-- mast's Key \\ Gyromast's Key
 i(7464),	-- hs of Summoning \\ Glyphs of Summoning
-i(7466),	-- Vermilion Band
-i(7497),	-- Ivory Band
 i(7516),	-- tha's Instructions \\ Tabetha's Instructions
-i(7547),	-- Onyx Ring
 i(7587),	-- 'grim's Instructions \\ Thun'grim's Instructions
 i(7626),	-- le of Furs \\ Bundle of Furs
 i(7627),	-- naar Delivery \\ Dolanaar Delivery
@@ -2007,7 +1963,6 @@ i(9581),	-- ant Note \\ Verdant Note
 i(9628),	-- sh's Herb Pouch \\ Xerash's Herb Pouch \\ Neeru's Herb Pouch
 i(9629),	-- runken Head \\ A Shrunken Head
 i(9685),	-- Will of the Mountain Giant
-i(9888),	-- Deprecated Elven Protector
 i(10000),	-- ol's Horn \\ Margol's Horn
 i(10022),	-- f of Deed \\ Proof of Deed
 i(10049),	-- Diabolist's Blade
@@ -2135,17 +2090,7 @@ i(11602),	-- Guzzler Key \\ Grim Guzzler Key
 i(11609),	-- red Black Dragonflight Molt \\ Altered Black Dragonflight Molt
 i(11613),	-- G Samophlange Manual Cover \\ DEBUG Samophlange Manual Cover
 i(11616),	-- G Samophlange Manual Page \\ DEBUG Samophlange Manual Page
-i(11663),	-- [PH] Greater Arcane Amalgamation (MANA/FR)
-i(11664),	-- [PH] Greater Arcane Amalgamation (HP/FR)
-i(11666),	-- [PH] Greater Arcane Amalgamation (AC/FR)
-i(11667),	-- [PH] Greater Arcane Amalgamation (STR/FR)
 i(11668),	-- e of Xavaric \\ Flute of Xavaric
-i(11670),	-- [PH] Greater Arcane Amalgamation (STA/FR)
-i(11671),	-- [PH] Greater Arcane Amalgamation (AGI/FR)
-i(11672),	-- [PH] Greater Arcane Amalgamation (SPI/FR)
-i(11673),	-- [PH] Greater Arcane Amalgamation (INT/FR)
-i(11676),	-- [PH] Legendary Arcane Amalgamation (Melee)
-i(11683),	-- [PH] Legendary Arcane Amalgamation (Caster)
 i(11804),	-- ggle's Canteen \\ Spraggle's Canteen
 i(11818),	-- Grimesilt Outhouse Key
 i(11843),	-- Voucher \\ Bank Voucher
@@ -2171,7 +2116,6 @@ i(12187),	-- Test Defense Chest
 i(12188),	-- Test Armor Chest
 i(12189),	-- Test Strength Chest
 i(12211),	-- Spiced Wolf Ribs
-i(12220),	-- ct Elemental Bracer \\ Intact Elemental Bracer
 i(12244),	-- Test Agility Chest
 i(12245),	-- Test Spirit Chest
 i(12262),	-- y Worg Pup Cage \\ Empty Worg Pup Cage
@@ -2215,16 +2159,13 @@ i(12778),	-- Document Chest
 i(12789),	-- QATest Raid Buffs lvl 60 \\ Horn of Uber Buffing (test)
 i(12813),	-- k of Mystery Goo \\ Flask of Mystery Goo
 i(12842),	-- ely-Written Log \\ Crudely-Written Log \\ Crudely-written Log
-i(12904),	-- n's Super Special Swami Hat \\ Shawn's Super Special Swami Hat
 i(12923),	-- e's Scale \\ Awbee's Scale
 i(12924),	-- al Candle \\ Ritual Candle
 i(12938),	-- d of Heroes \\ Blood of Heroes
 i(12942),	-- her Cage Key \\ Panther Cage Key
-i(12947),	-- Alex's Ring of Audacity
 i(12962),	-- JEFF TEST GLOVES
 i(12970),	-- General's Ceremonial Plate
 i(12973),	-- let Cannonball \\ Scarlet Cannonball
-i(13092),	-- Deprecated Dragonstalker Tunic
 i(13149),	-- Eldarathian Tome of Summoning Vol. 1
 i(13151),	-- The Mystic Studies of Hor'ank
 i(13152),	-- The Story With No Conclusion
@@ -2236,7 +2177,6 @@ i(13191),	-- ed Dalson's Tears Bottle \\ Filled Dalson's Tears Bottle
 i(13192),	-- ed Writhing Haunt Bottle \\ Filled Writhing Haunt Bottle
 i(13193),	-- ed Gahrron's Withering Bottle \\ Filled Gahrron's Withering Bottle
 i(13223),	-- Stratholme Courier's Pouch
-i(13242),	-- Deprecated Stormrage Boots
 i(13302),	-- Market Row Postbox Key
 i(13303),	-- Crusaders' Square Postbox Key
 i(13304),	-- Festival Lane Postbox Key
@@ -2345,9 +2285,7 @@ i(13799),	-- [PH] Cloth Boots of the Rising Dawn
 i(13800),	-- [PH] Cloth Boots of the Shining Dawn
 i(13875),	-- bound Locked Chest \\ Ironbound Locked Chest
 i(13890),	-- ed Armorfish \\ Plated Armorfish
-i(13936),	-- Deprecated Dreadmaster's Shroud
 i(14338),	-- y Water Tube \\ Empty Water Tube
-i(14363),	-- Deprecated Runic Cloth Pants
 i(14381),	-- totem Satchel \\ Grimtotem Satchel
 i(14382),	-- Durability Chestpiece
 i(14383),	-- Durability Bracers
@@ -2356,12 +2294,9 @@ i(14385),	-- Durability Cloak
 i(14386),	-- Durability Hat
 i(14387),	-- Durability Gloves
 i(14388),	-- Durability Leggings
-i(14389),	-- Durability Shoulderpads
 i(14390),	-- Durability Belt
 i(14542),	-- el's Crate \\ Kravel's Crate
 i(14546),	-- 's Kodo Horn \\ Roon's Kodo Horn
-i(14597),	-- Deprecated Warden's Buckler
-i(14609),	-- Deprecated Ceremonial Buckler
 i(14628),	-- ed Skeletal Fragments \\ Imbued Skeletal Fragments
 i(14644),	-- eton Key Mold \\ Skeleton Key Mold
 i(14646),	-- shire Gift Voucher \\ Goldshire Gift Voucher \\ Northshire Gift Voucher
@@ -2402,8 +2337,6 @@ i(15876),	-- anos' Chest \\ Nathanos' Chest
 i(15882),	-- Pendant of Aquatic Endurance \\ Half Pendant of Aquatic Endurance
 i(15883),	-- Pendant of Aquatic Agility \\ Half Pendant of Aquatic Agility
 i(15886),	-- lain's Phylactery \\ Timolain's Phylactery
-i(15888),	-- Deprecated Glorious Shield
-i(15889),	-- Deprecated Jademir Scale Shield
 i(15908),	-- ng Rod \\ Taming Rod
 i(15911),	-- ng Rod \\ Taming Rod
 i(15913),	-- ng Rod \\ Taming Rod
@@ -2411,7 +2344,6 @@ i(15998),	-- s' Note \\ Lewis' Note
 i(16024),	-- Ashbringer Test 001
 i(16025),	-- Ashbringer Test 002
 i(16057),	-- Explorer's Knapsack
-i(16067),	-- Test Fire Res Ring
 i(16068),	-- Test Fire Resist Cloth LockBox
 i(16069),	-- Test Fire Resist Leather LockBox
 i(16070),	-- Test Fire Resist Mail LockBox
@@ -2434,9 +2366,6 @@ i(16107),	-- Test Enchant Bracer Greater Spirit
 i(16108),	-- Test Enchant 2H Weapon Greater Impact
 i(16109),	-- Test Enchantments LockBox (Enchanting Items)
 i(16115),	-- c's Crate \\ Osric's Crate
-i(16123),	-- Test Nature Res Neck
-i(16124),	-- Test Frost Res Neck
-i(16125),	-- Test Arcane Res Neck
 i(16166),	-- Soup \\ Bean Soup
 i(16167),	-- icolor Treat \\ Versicolor Treat
 i(16168),	-- en Peach \\ Heaven Peach
@@ -2478,7 +2407,6 @@ i(16307),	-- hka's Letter \\ Gryshka's Letter
 i(16308),	-- Northridge Crowbar
 i(16310),	-- lock's List \\ Gremlock's List \\ Brock's List
 i(16311),	-- rary Cleavers \\ Honorary Cleavers \\ Honorary Picks
-i(16315),	-- Sergeant Major's Cape
 i(16316),	-- oire of Firebolt (Rank 3) \\ Grimoire of Firebolt (Rank 3)
 i(16317),	-- oire of Firebolt (Rank 4) \\ Grimoire of Firebolt (Rank 4)
 i(16318),	-- oire of Firebolt (Rank 5) \\ Grimoire of Firebolt (Rank 5)
@@ -2495,8 +2423,6 @@ i(16328),	-- oire of Fire Shield (Rank 3) \\ Grimoire of Fire Shield (Rank 3)
 i(16329),	-- oire of Fire Shield (Rank 4) \\ Grimoire of Fire Shield (Rank 4)
 i(16330),	-- oire of Fire Shield (Rank 5) \\ Grimoire of Fire Shield (Rank 5)
 i(16331),	-- oire of Phase Shift \\ Grimoire of Phase Shift
-i(16336),	-- Sergeant Major's Cape
-i(16337),	-- Sergeant Major's Cape
 i(16346),	-- oire of Torment (Rank 2) \\ Grimoire of Torment (Rank 2)
 i(16347),	-- oire of Torment (Rank 3) \\ Grimoire of Torment (Rank 3)
 i(16348),	-- oire of Torment (Rank 4) \\ Grimoire of Torment (Rank 4)
@@ -2518,10 +2444,8 @@ i(16363),	-- oire of Suffering (Rank 1) \\ Grimoire of Suffering (Rank 1)
 i(16364),	-- oire of Suffering (Rank 2) \\ Grimoire of Suffering (Rank 2)
 i(16365),	-- oire of Suffering (Rank 3) \\ Grimoire of Suffering (Rank 3)
 i(16366),	-- oire of Suffering (Rank 4) \\ Grimoire of Suffering (Rank 4)
-i(16367),	-- Knight-Captain's Silk Sash
 i(16368),	-- oire of Lash of Pain (Rank 2) \\ Grimoire of Lash of Pain (Rank 2)
 i(16369),	-- ht-Lieutenant's Silk Boots \\ Knight-Lieutenant's Silk Boots
-i(16370),	-- Knight-Captain's Silk Cuffs
 i(16371),	-- oire of Lash of Pain (Rank 3) \\ Grimoire of Lash of Pain (Rank 3)
 i(16372),	-- oire of Lash of Pain (Rank 4) \\ Grimoire of Lash of Pain (Rank 4)
 i(16373),	-- oire of Lash of Pain (Rank 5) \\ Grimoire of Lash of Pain (Rank 5)
@@ -2545,15 +2469,9 @@ i(16390),	-- oire of Paranoia \\ Grimoire of Paranoia
 i(16391),	-- ht-Lieutenant's Silk Gloves \\ Knight-Lieutenant's Silk Gloves
 i(16392),	-- ht-Lieutenant's Leather Boots \\ Knight-Lieutenant's Leather Boots
 i(16393),	-- ht-Lieutenant's Dragonhide Footwraps \\ Knight-Lieutenant's Dragonhide Footwraps
-i(16394),	-- Knight-Captain's Leather Bracers
-i(16395),	-- Knight-Captain's Dragonhide Armsplints
 i(16396),	-- ht-Lieutenant's Leather Gauntlets \\ Knight-Lieutenant's Leather Gauntlets
 i(16397),	-- ht-Lieutenant's Dragonhide Gloves \\ Knight-Lieutenant's Dragonhide Gloves
-i(16398),	-- Knight-Captain's Leather Belt
-i(16399),	-- Knight-Captain's Dragonhide Girdle
-i(16400),	-- Knight-Captain's Chain Girdle
 i(16401),	-- ht-Lieutenant's Chain Boots \\ Knight-Lieutenant's Chain Boots
-i(16402),	-- Knight-Captain's Chain Armguards
 i(16403),	-- ht-Lieutenant's Chain Gauntlets \\ Knight-Lieutenant's Chain Gauntlets
 i(16404),	-- Knight-Captain's Plate Wristguards
 i(16405),	-- ht-Lieutenant's Plate Boots \\ Knight-Lieutenant's Plate Boots
@@ -2562,8 +2480,6 @@ i(16407),	-- Knight-Captain's Plate Girdle
 i(16408),	-- uled Water Globe \\ Befouled Water Globe
 i(16409),	-- ht-Lieutenant's Lamellar Sabatons \\ Knight-Lieutenant's Lamellar Sabatons
 i(16410),	-- ht-Lieutenant's Lamellar Gauntlets \\ Knight-Lieutenant's Lamellar Gauntlets
-i(16411),	-- Knight-Captain's Lamellar Cinch
-i(16412),	-- Knight-Captain's Lamellar Armsplints
 i(16413),	-- ht-Captain's Silk Raiment \\ Knight-Captain's Silk Raiment
 i(16414),	-- ht-Captain's Silk Leggings \\ Knight-Captain's Silk Leggings
 i(16415),	-- tenant Commander's Silk Spaulders \\ Lieutenant Commander's Silk Spaulders
@@ -2588,39 +2504,9 @@ i(16433),	-- ht-Captain's Lamellar Breastplate \\ Knight-Captain's Lamellar Brea
 i(16434),	-- tenant Commander's Lamellar Headguard \\ Lieutenant Commander's Lamellar Headguard
 i(16435),	-- ht-Captain's Lamellar Leggings \\ Knight-Captain's Lamellar Leggings
 i(16436),	-- tenant Commander's Lamellar Shoulders \\ Lieutenant Commander's Lamellar Shoulders
-i(16438),	-- Marshal's Silk Bracers
-i(16439),	-- Marshal's Silk Sash
-i(16445),	-- Marshal's Dragonhide Bracers
-i(16447),	-- Marshal's Dragonhide Waistguard
-i(16458),	-- Marshal's Leather Cinch
-i(16460),	-- Marshal's Leather Armsplints
-i(16461),	-- Marshal's Chain Bracers
-i(16464),	-- Marshal's Chain Girdle
-i(16469),	-- Marshal's Lamellar Armguards
-i(16470),	-- Marshal's Lamellar Belt
-i(16481),	-- Marshal's Plate Bracers
-i(16482),	-- Marshal's Plate Girdle
-i(16488),	-- Legionnaire's Silk Belt
-i(16493),	-- Legionnaire's Dragonhide Armguards
-i(16495),	-- Legionnaire's Dragonhide Waistband
-i(16500),	-- Legionnaire's Leather Girdle
 i(16511),	-- Legionnaire's Plate Cinch
 i(16512),	-- Legionnaire's Plate Bracers
-i(16517),	-- Legionnaire's Chain Bracers
 i(16520),	-- Legionnaire's Mail Cinch
-i(16529),	-- Legionnaire's Chain Girdle
-i(16537),	-- General's Silk Sash
-i(16538),	-- General's Silk Cuffs
-i(16546),	-- General's Plate Armguards
-i(16547),	-- General's Plate Girdle
-i(16553),	-- General's Dragonhide Bracers
-i(16556),	-- General's Dragonhide Belt
-i(16557),	-- General's Leather Girdle
-i(16559),	-- General's Leather Armsplints
-i(16570),	-- General's Chain Wristguards
-i(16572),	-- General's Chain Girdle
-i(16575),	-- General's Mail Waistband
-i(16576),	-- General's Mail Bracers
 i(16583),	-- nic Figurine \\ Demonic Figurine
 i(16645),	-- dder Operating Manual - Page 1 \\ Shredder Operating Manual - Page 1
 i(16646),	-- dder Operating Manual - Page 2 \\ Shredder Operating Manual - Page 2
@@ -2635,7 +2521,6 @@ i(16654),	-- dder Operating Manual - Page 10 \\ Shredder Operating Manual - Page
 i(16655),	-- dder Operating Manual - Page 11 \\ Shredder Operating Manual - Page 11
 i(16656),	-- dder Operating Manual - Page 12 \\ Shredder Operating Manual - Page 12
 i(16662),	-- ment of the Dragon's Eye \\ Fragment of the Dragon's Eye
-i(16664),	-- Ornate Bracers
 i(16746),	-- ong Report \\ Warsong Report
 i(16747),	-- en Lock \\ Broken Lock
 i(16748),	-- ed Lining \\ Padded Lining
@@ -2671,7 +2556,6 @@ i(17058),	-- Oil \\ Fish Oil
 i(17115),	-- Squirrel Token
 i(17116),	-- Squirrel Token
 i(17118),	-- on of Mystery Meat \\ Carton of Mystery Meat
-i(17122),	-- ALEX BUG TEST ITEM
 i(17124),	-- icate Emblem \\ Syndicate Emblem
 i(17125),	-- of Ravenholdt \\ Seal of Ravenholdt
 i(17126),	-- Elegant Letter
@@ -2707,33 +2591,17 @@ i(17507),	-- ore's Beacon \\ Slidore's Beacon
 i(17522),	-- deep Supplies \\ Irondeep Supplies
 i(17542),	-- tooth Supplies \\ Coldtooth Supplies
 i(17562),	-- ht-Lieutenant's Dreadweave Boots \\ Knight-Lieutenant's Dreadweave Boots
-i(17563),	-- Knight-Captain's Dreadweave Bracers
 i(17564),	-- ht-Lieutenant's Dreadweave Gloves \\ Knight-Lieutenant's Dreadweave Gloves
-i(17565),	-- Knight-Captain's Dreadweave Belt
 i(17566),	-- tenant Commander's Headguard \\ Lieutenant Commander's Headguard
 i(17567),	-- ht-Captain's Dreadweave Leggings \\ Knight-Captain's Dreadweave Leggings
 i(17568),	-- ht-Captain's Dreadweave Robe \\ Knight-Captain's Dreadweave Robe
 i(17569),	-- tenant Commander's Dreadweave Mantle \\ Lieutenant Commander's Dreadweave Mantle
-i(17574),	-- Legionnaire's Dreadweave Belt
-i(17575),	-- Legionnaire's Dreadweave Bracers
-i(17582),	-- Marshal's Dreadweave Cuffs
-i(17585),	-- Marshal's Dreadweave Sash
-i(17587),	-- General's Dreadweave Bracers
-i(17589),	-- General's Dreadweave Belt
 i(17594),	-- ht-Lieutenant's Satin Boots \\ Knight-Lieutenant's Satin Boots
-i(17595),	-- Knight-Captain's Satin Cuffs
 i(17596),	-- ht-Lieutenant's Satin Gloves \\ Knight-Lieutenant's Satin Gloves
-i(17597),	-- Knight-Captain's Satin Cord
 i(17598),	-- tenant Commander's Diadem \\ Lieutenant Commander's Diadem
 i(17599),	-- ht-Captain's Satin Leggings \\ Knight-Captain's Satin Leggings
 i(17600),	-- ht-Captain's Satin Robes \\ Knight-Captain's Satin Robes
 i(17601),	-- tenant Commander's Satin Amice \\ Lieutenant Commander's Satin Amice
-i(17606),	-- Marshal's Satin Bracers
-i(17609),	-- Marshal's Satin Sash
-i(17614),	-- Legionnaire's Satin Sash
-i(17615),	-- Legionnaire's Satin Cuffs
-i(17619),	-- General's Satin Bracers
-i(17621),	-- General's Satin Cinch
 i(17642),	-- rac Ram Hide \\ Alterac Ram Hide
 i(17643),	-- twolf Hide \\ Frostwolf Hide
 i(17693),	-- ed Cerulean Vial \\ Coated Cerulean Vial
@@ -2748,7 +2616,6 @@ i(17762),	-- of the Second Khan \\ Gem of the Second Khan
 i(17763),	-- of the Third Khan \\ Gem of the Third Khan
 i(17764),	-- of the Fourth Khan \\ Gem of the Fourth Khan
 i(17765),	-- of the Fifth Khan \\ Gem of the Fifth Khan
-i(17769),	-- Sagebrush Spaulders
 i(17781),	-- Pariah's Instructions \\ The Pariah's Instructions
 i(17822),	-- twolf Maps \\ Frostwolf Maps
 i(17823),	-- mpike Battle Plans \\ Stormpike Battle Plans
@@ -2820,13 +2687,7 @@ i(18145),	-- en Hoof \\ Tauren Hoof
 i(18146),	-- spear Troll Mojo \\ Darkspear Troll Mojo
 i(18147),	-- aken Heart \\ Forsaken Heart
 i(18148),	-- l of Korrak \\ Skull of Korrak
-i(18153),	-- Moro'gai Gem \\ Red Moro'gai Gem
 i(18154),	-- Blizzard Stationery
-i(18155),	-- Blue Moro'gai Gem
-i(18156),	-- Green Moro'gai Gem
-i(18157),	-- Black Moro'gai Gem
-i(18158),	-- Gold Moro'gai Gem
-i(18159),	-- White Moro'gai Gem
 i(18161),	-- 5% Test Speed Boots
 i(18162),	-- 8% Test Speed Boots
 i(18163),	-- 10% Test Speed Boots
@@ -2852,11 +2713,7 @@ i(18286),	-- ensed Mana Fragment \\ Condensed Mana Fragment
 i(18300),	-- l Nectar \\ Hyjal Nectar
 i(18512),	-- al Acid \\ Larval Acid
 i(18539),	-- quary of Purity \\ Reliquary of Purity
-i(18565),	-- Vessel of Rebirth \\ Vessel of Rebirth DEPRECATED
-i(18566),	-- Essence of the Firelord DEPRECATED
-i(18589),	-- Dormant Wind Kissed Blade DEPRECATED
 i(18591),	-- of Blood \\ Case of Blood
-i(18593),	-- Thorium Brotherhood Contract (OLD)
 i(18598),	-- n Orphan Whistle \\ Human Orphan Whistle
 i(18599),	-- QAEnchant 2H Weapon +25 Agility
 i(18601),	-- ing Crystal Prison \\ Glowing Crystal Prison
@@ -2877,31 +2734,19 @@ i(18675),	-- tary Ranks of the Horde & Alliance \\ Military Ranks of the Horde &
 i(18685),	-- Shadowy Potion OLD
 i(18688),	-- in a Jar \\ Imp in a Jar
 i(18708),	-- ified Bark \\ Petrified Bark
-i(18747),	-- Item Properties Test
 i(18752),	-- cism Censer \\ Exorcism Censer
 i(18753),	-- nite Barding \\ Arcanite Barding
-i(18763),	-- TEST GUN Alliance20
-i(18764),	-- TEST GUN Raid
-i(18765),	-- TEST GUN Horde50
 i(18769),	-- Torn Scroll \\ Enchanted Thorium Platemail
 i(18770),	-- Torn Scroll \\ Enchanted Thorium Platemail
 i(18771),	-- Torn Scroll \\ Enchanted Thorium Platemail
-i(18800),	-- TEST 1H Amberseal Keeper
-i(18801),	-- TEST 1H Benediction
 i(18804),	-- Grayson's Satchel \\ Lord Grayson's Satchel
 i(18818),	-- zul's Instructions \\ Mor'zul's Instructions
 i(18819),	-- n's Exorcism Censer \\ Rohan's Exorcism Censer
-i(18881),	-- TEST Ragnaros Hammer
-i(18882),	-- TEST Level 80 Epic
 i(18904),	-- in's Ultra-Shrinker \\ Zorbin's Ultra-Shrinker
 i(18942),	-- Fiery Flux
 i(18950),	-- Pillamaster's Pillow \\ bermaid Pillaclencher's Pillow \\ Chambermaid Pillaclencher's Pillow
-i(18968),	-- Ring of Critical Testing
 i(18969),	-- tine Yeti Hide \\ Pristine Yeti Hide
-i(18970),	-- Ring of Critical Testing 2
-i(18971),	-- Ring of Critical Testing 3
 i(18972),	-- ect Yeti Hide \\ Perfect Yeti Hide
-i(18982),	-- Ring of Critical Testing 4
 i(19004),	-- thstone \\ Healthstone \\ Minor Healthstone
 i(19005),	-- thstone \\ Healthstone \\ Minor Healthstone
 i(19006),	-- er Healthstone \\ Lesser Healthstone
@@ -2921,55 +2766,13 @@ i(19066),	-- ong Gulch Runecloth Bandage \\ Warsong Gulch Runecloth Bandage
 i(19067),	-- ong Gulch Mageweave Bandage \\ Warsong Gulch Mageweave Bandage
 i(19068),	-- ong Gulch Silk Bandage \\ Warsong Gulch Silk Bandage
 i(19082),	-- Monster - Fire Arrow
-i(19158),	-- Sulfuras, Hand of Ragnaros \\ TEST Sulfuras, Hand of Ragnaros
-i(19184),	-- 3800 Test 2h Axe 63 blue
-i(19185),	-- 2100 Test 2h Axe 63 blue
-i(19186),	-- 2700 Test 2h Axe 63 blue
-i(19187),	-- 3200 Test 2h Axe 63 blue
-i(19188),	-- 2200 Test 2h Axe 63 blue
-i(19189),	-- 2300 Test 2h Axe 63 blue
-i(19190),	-- 2400 Test 2h Axe 63 blue
-i(19191),	-- 2500 Test 2h Axe 63 blue
-i(19192),	-- 2600 Test 2h Axe 63 blue
-i(19193),	-- 2800 Test 2h Axe 63 blue
-i(19194),	-- 2900 Test 2h Axe 63 blue
-i(19195),	-- 3000 Test 2h Axe 63 blue
-i(19196),	-- 3100 Test 2h Axe 63 blue
-i(19197),	-- 3300 Test 2h Axe 63 blue
-i(19198),	-- 3400 Test 2h Axe 63 blue
-i(19199),	-- 3500 Test 2h Axe 63 blue
-i(19200),	-- 3600 Test 2h Axe 63 blue
-i(19201),	-- 3700 Test 2h Axe 63 blue
 i(19286),	-- Fast Test Ammo
-i(19313),	-- 1300 Test Dagger 63 blue
-i(19314),	-- 2000 Test Dagger 63 blue
 i(19338),	-- Ticket Voucher \\ Free Ticket Voucher
-i(19427),	-- 1500 Test sword 63 blue
-i(19428),	-- 2900 Test sword 63 blue
-i(19455),	-- 3500 Test 2h Axe 70 purple
-i(19456),	-- 2900 Test sword 80 purple
-i(19457),	-- 1500 Test sword 80 purple
 i(19482),	-- LeCraft Rabbit Pelt
-i(19489),	-- 3300 Test Crossbow 63 blue
-i(19502),	-- 2200 Test sword 63 blue
-i(19503),	-- 2200 Test sword 80 purple
-i(19504),	-- 2200 Test sword 70 purple
-i(19622),	-- 1800 Test Dagger 63 blue
 i(19642),	-- e Prize Voucher \\ iCoke Prize Voucher
-i(19662),	-- 3500 Test 2h Axe 80 purple
-i(19742),	-- Earthborn Kilt TEST
-i(19743),	-- Cloaked Hood TEST
-i(19809),	-- 2500 Test 2h Axe 60 blue
-i(19810),	-- 1000 Test dagger 60 blue
-i(19811),	-- 2500 Test 2h Axe 60 blue (bear)
-i(19837),	-- Test Ranged Slot
-i(19844),	-- Zandalar Illusionist's Robe DEPRECATED
-i(19847),	-- Zandalar Demoniac's Robe DEPRECATED
-i(19879),	-- Alex's Test Beatdown Staff
 i(19882),	-- Hexxer's Head \\ The Hexxer's Head
 i(19883),	-- ed Cord \\ Sacred Cord
 i(19911),	-- weed Heart \\ Whipweed Heart
-i(19926),	-- Flowing Ritual Robes DEPRECATED
 i(19932),	-- UNUSED Empowered Mojo Bundle
 i(19933),	-- ing Scorpid Blood \\ Glowing Scorpid Blood
 i(19934),	-- e Scorpid Claw \\ Large Scorpid Claw
@@ -2993,19 +2796,6 @@ i(20064),	-- hi Basin Iron Ration \\ Arathi Basin Iron Ration
 i(20065),	-- hi Basin Mageweave Bandage \\ Arathi Basin Mageweave Bandage
 i(20066),	-- hi Basin Runecloth Bandage \\ Arathi Basin Runecloth Bandage
 i(20067),	-- hi Basin Silk Bandage \\ Arathi Basin Silk Bandage
-i(20135),	-- 90 Epic Warrior Bracelets
-i(20136),	-- 90 Epic Warrior Breastplate
-i(20137),	-- 90 Epic Warrior Gauntlets
-i(20138),	-- 90 Epic Warrior Helm
-i(20139),	-- 90 Epic Warrior Legplates
-i(20140),	-- 90 Epic Warrior Pauldrons
-i(20141),	-- 90 Epic Warrior Sabatons
-i(20142),	-- 90 Epic Warrior Waistband
-i(20143),	-- 90 Epic Warrior Neck
-i(20144),	-- 90 Epic Warrior Ring
-i(20145),	-- 90 Epic Warrior Cloak
-i(20146),	-- 90 Epic Warrior Gun
-i(20149),	-- 90 Epic Warrior Axe
 i(20222),	-- ler's Enriched Ration \\ Defiler's Enriched Ration
 i(20223),	-- ler's Field Ration \\ Defiler's Field Ration
 i(20224),	-- ler's Iron Ration \\ Defiler's Iron Ration
@@ -3016,120 +2806,14 @@ i(20232),	-- ler's Mageweave Bandage \\ Defiler's Mageweave Bandage
 i(20234),	-- ler's Runecloth Bandage \\ Defiler's Runecloth Bandage
 i(20235),	-- ler's Silk Bandage \\ Defiler's Silk Bandage
 i(20237),	-- lander's Mageweave Bandage \\ Highlander's Mageweave Bandage
-i(20238),	-- 90 Green Warrior Axe
-i(20239),	-- 90 Green Warrior Bracelets
-i(20240),	-- 90 Green Warrior Breastplate
-i(20241),	-- 90 Green Warrior Cloak
-i(20242),	-- 90 Green Warrior Gauntlets
 i(20243),	-- lander's Runecloth Bandage \\ Highlander's Runecloth Bandage
 i(20244),	-- lander's Silk Bandage \\ Highlander's Silk Bandage
-i(20245),	-- 90 Green Warrior Gun
-i(20246),	-- 90 Green Warrior Helm
-i(20247),	-- 90 Green Warrior Legplates
-i(20248),	-- 90 Green Warrior Neck
-i(20249),	-- 90 Green Warrior Pauldrons
-i(20250),	-- 90 Green Warrior Ring
-i(20251),	-- 90 Green Warrior Sabatons
-i(20252),	-- 90 Green Warrior Waistband
-i(20267),	-- 90 Epic Rogue Belt
-i(20268),	-- 90 Epic Rogue Boots
-i(20269),	-- 90 Epic Rogue Bracers
-i(20270),	-- 90 Epic Rogue Cap
-i(20271),	-- 90 Epic Rogue Gloves
-i(20272),	-- 90 Epic Rogue Pants
-i(20273),	-- 90 Epic Rogue Spaulders
-i(20274),	-- 90 Epic Rogue Tunic
-i(20275),	-- 90 Epic Rogue Neck
-i(20276),	-- 90 Epic Rogue Cloak
-i(20277),	-- 90 Epic Rogue Ring
-i(20279),	-- 90 Epic Rogue Dagger
-i(20280),	-- 63 Green Warrior Axe
-i(20281),	-- 63 Green Warrior Bracelets
-i(20282),	-- 63 Green Warrior Breastplate
-i(20283),	-- 63 Green Warrior Cloak
-i(20284),	-- 63 Green Warrior Gauntlets
-i(20285),	-- 63 Green Warrior Gun
-i(20286),	-- 63 Green Warrior Helm
-i(20287),	-- 63 Green Warrior Legplates
-i(20288),	-- 63 Green Warrior Neck
-i(20289),	-- 63 Green Warrior Pauldrons
-i(20290),	-- 63 Green Warrior Ring
-i(20291),	-- 63 Green Warrior Sabatons
-i(20292),	-- 63 Green Warrior Waistband
-i(20297),	-- 90 Green Rogue Belt
-i(20298),	-- 90 Green Rogue Boots
-i(20300),	-- 90 Green Rogue Bracers
-i(20301),	-- 90 Green Rogue Cap
-i(20302),	-- 90 Green Rogue Cloak
-i(20303),	-- 90 Green Rogue Dagger
-i(20304),	-- 90 Green Rogue Gloves
-i(20305),	-- 90 Green Rogue Neck
-i(20306),	-- 90 Green Rogue Pants
-i(20307),	-- 90 Green Rogue Ring
-i(20308),	-- 90 Green Rogue Spaulders
-i(20309),	-- 90 Green Rogue Tunic
 i(20310),	-- ed Demon Skin [Depricated] \\ Flayed Demon Skin [Depricated] \\ Flayed Demon Skin
-i(20311),	-- 63 Green Rogue Belt
-i(20312),	-- 63 Green Rogue Boots
-i(20314),	-- 63 Green Rogue Bracers
-i(20315),	-- 63 Green Rogue Cap
-i(20316),	-- 63 Green Rogue Cloak
-i(20317),	-- 63 Green Rogue Dagger
-i(20318),	-- 63 Green Rogue Gloves
-i(20319),	-- 63 Green Rogue Neck
-i(20320),	-- 63 Green Rogue Pants
-i(20321),	-- 63 Green Rogue Ring
-i(20322),	-- 63 Green Rogue Spaulders
-i(20323),	-- 63 Green Rogue Tunic
-i(20324),	-- 90 Epic Frost Belt
-i(20325),	-- 90 Epic Frost Bindings
-i(20326),	-- 90 Epic Frost Boots
-i(20327),	-- 90 Epic Frost Crown
-i(20328),	-- 90 Epic Frost Gloves
-i(20329),	-- 90 Epic Frost Leggings
-i(20330),	-- 90 Epic Frost Mantle
-i(20331),	-- 90 Epic Frost Robes
-i(20332),	-- 90 Epic Frost Neck
-i(20333),	-- 90 Epic Frost Ring
-i(20334),	-- 90 Epic Frost Staff
-i(20335),	-- 90 Epic Frost Wand
-i(20336),	-- 90 Epic Frost Shroud
-i(20338),	-- 90 Green Frost Belt
-i(20339),	-- 90 Green Frost Bindings
-i(20340),	-- 90 Green Frost Boots
-i(20341),	-- 90 Green Frost Crown
-i(20342),	-- 90 Green Frost Gloves
-i(20343),	-- 90 Green Frost Leggings
-i(20344),	-- 90 Green Frost Mantle
-i(20345),	-- 90 Green Frost Neck
-i(20346),	-- 90 Green Frost Ring
-i(20347),	-- 90 Green Frost Robes
-i(20348),	-- 90 Green Frost Shroud
-i(20349),	-- 90 Green Frost Staff
-i(20350),	-- 90 Green Frost Wand
-i(20351),	-- 63 Green Frost Belt
-i(20352),	-- 63 Green Frost Bindings
-i(20353),	-- 63 Green Frost Boots
-i(20354),	-- 63 Green Frost Crown
-i(20355),	-- 63 Green Frost Gloves
-i(20356),	-- 63 Green Frost Leggings
-i(20357),	-- 63 Green Frost Mantle
-i(20358),	-- 63 Green Frost Neck
-i(20359),	-- 63 Green Frost Ring
-i(20360),	-- 63 Green Frost Robes
-i(20361),	-- 63 Green Frost Shroud
-i(20362),	-- 63 Green Frost Staff
-i(20363),	-- 63 Green Frost Wand
 i(20364),	-- Test Ammo Lockbox
-i(20370),	-- Test Staff 90 epic
-i(20372),	-- Test Staff 77 epic
 i(20401),	-- ored Twilight Tablet \\ Restored Twilight Tablet
-i(20402),	-- t of Nozdormu \\ Agent of Nozdormu
 i(20405),	-- ded Tablet Transcription \\ Decoded Tablet Transcription
 i(20415),	-- War of the Shifting Sands \\ The War of the Shifting Sands
 i(20423),	-- Sandy Scorpid Claw
-i(20445),	-- Test Defense Ring +120
-i(20446),	-- Test Defense Ring +140 \\ Test Defense Ring +80
 i(20453),	-- ogist's Transcription Kit \\ Geologist's Transcription Kit
 i(20454),	-- 'Zora Rubbing \\ Hive'Zora Rubbing
 i(20455),	-- 'Ashi Rubbing \\ Hive'Ashi Rubbing
@@ -3141,29 +2825,12 @@ i(20462),	-- Hallow's End Medallion
 i(20463),	-- hed Crystal Prism \\ Glyphed Crystal Prism
 i(20467),	-- Recipe Page \\ Torn Recipe Page
 i(20485),	-- Duke's Seal
-i(20487),	-- delar, Stave of the Ancient Keepers DEP \\ Lok'delar, Stave of the Ancient Keepers DEP
 i(20489),	-- Crown of the Council
 i(20499),	-- en Silithid Chitin \\ Broken Silithid Chitin
 i(20516),	-- ing Apple \\ Bobbing Apple
 i(20541),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20545),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20552),	-- ded Twilight Text \\ Decoded Twilight Text
-i(20583),	-- Sturdy Female Dwarf Mask
-i(20584),	-- Sturdy Female Gnome Mask
-i(20585),	-- Sturdy Female Human Mask
-i(20586),	-- Sturdy Female Night Elf Mask \\ Sturdy Female Nightelf Mask
-i(20587),	-- Sturdy Female Orc Mask
-i(20588),	-- Sturdy Female Tauren Mask
-i(20589),	-- Sturdy Female Troll Mask
-i(20590),	-- Sturdy Female Undead Mask
-i(20591),	-- Sturdy Male Dwarf Mask
-i(20592),	-- Sturdy Male Gnome Mask
-i(20593),	-- Sturdy Male Human Mask
-i(20594),	-- Sturdy Male Night Elf Mask \\ Sturdy Male Nightelf Mask
-i(20595),	-- Sturdy Male Orc Mask
-i(20596),	-- Sturdy Male Tauren Mask
-i(20597),	-- Sturdy Male Troll Mask
-i(20598),	-- Sturdy Male Undead Mask
 i(20605),	-- en Eggs \\ Rotten Eggs
 i(20609),	-- Voodoo Feathers
 i(20612),	-- t Scourgestone \\ Inert Scourgestone
@@ -3171,7 +2838,6 @@ i(20676),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20677),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20678),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20679),	-- ded Twilight Text \\ Decoded Twilight Text
-i(20706),	-- rion Reservist's Pants \\ Cenarion Reservist's Pants
 i(20737),	-- ed Corestone \\ Singed Corestone
 i(20739),	-- Deadwood Headdress Feather DEPRECATED
 i(20740),	-- Winterfall Spirit Beads DEPRECATED
@@ -3191,13 +2857,8 @@ i(21032),	-- dith's Love Letter \\ Meridith's Love Letter
 i(21033),	-- sh Kimchi \\ Radish Kimchi
 i(21038),	-- packed Snowball \\ Hardpacked Snowball
 i(21043),	-- erious Envelope \\ Mysterious Envelope
-i(21101),	-- Staff of Spell Penetration - Fire (TEST)
-i(21102),	-- Staff of Spell Penetration - Frost (TEST)
 i(21112),	-- cal Book Binding \\ Magical Book Binding
 i(21114),	-- ey Rum Dark \\ Rumsey Rum Dark
-i(21124),	-- Ahn'Qiraj Wand [PH]
-i(21125),	-- Ahn'Qiraj Staff [PH]
-i(21127),	-- Ahn'Qiraj Mace [PH]
 i(21130),	-- y of Weavil \\ Diary of Weavil
 i(21131),	-- owup Combat Assignment \\ Followup Combat Assignment
 i(21136),	-- nite Buoy \\ Arcanite Buoy
@@ -3227,15 +2888,11 @@ i(21267),	-- ting Goblet \\ Toasting Goblet
 i(21270),	-- ly Shaken Gift \\ Gently Shaken Gift
 i(21271),	-- ly Shaken Gift \\ Gently Shaken Gift
 i(21274),	-- Test Stackable Items
-i(21276),	-- Blessed Qiraji Naturalist Staff UNUSED
 i(21310),	-- y Wrapped Present \\ Gaily Wrapped Present
 i(21327),	-- ing Present \\ Ticking Present
-i(21339),	-- Doomcaller's Handwraps [PH]
 i(21363),	-- ive Gift \\ Festive Gift
 i(21439),	-- AHNQIRAJ TEST ITEM D PLATE HELM
 i(21445),	-- AHNQIRAJ TEST ITEM D PLATE BRACER
-i(21516),	-- Dagger of Spell Penetration - Fire 150 Resist (TEST)
-i(21518),	-- Dagger of Spell Penetration - Frost 150 Resist (TEST)
 i(21533),	-- ssus of Zora's Husk \\ Colossus of Zora's Husk
 i(21534),	-- ssus of Ashi's Husk \\ Colossus of Ashi's Husk
 i(21535),	-- ssus of Regal's Husk \\ Colossus of Regal's Husk
@@ -3248,7 +2905,6 @@ i(21577),	-- e Rocket Cluster \\ White Rocket Cluster
 i(21578),	-- ow Rocket Cluster \\ Yellow Rocket Cluster
 i(21591),	-- e Purple Rocket \\ Large Purple Rocket
 i(21593),	-- e White Rocket \\ Large White Rocket
-i(21594),	-- ers of the Fallen Son \\ Bracers of the Fallen Son
 i(21595),	-- e Yellow Rocket \\ Large Yellow Rocket
 i(21628),	-- Test AQ Resource - Copper
 i(21629),	-- Test AQ Resource - Iron
@@ -3279,7 +2935,6 @@ i(21717),	-- Large Purple Rocket Cluster
 i(21719),	-- Large White Rocket Cluster
 i(21720),	-- Large Yellow Rocket Cluster
 i(21739),	-- Lunar Festival Invitation DEBUG
-i(21782),	-- 2000 Test sword 63 blue
 i(21811),	-- [PH] Object of Affection
 i(21830),	-- y Wrapper \\ Empty Wrapper
 i(21831),	-- pered Gift \\ Wrappered Gift
@@ -3408,7 +3063,6 @@ i(22381),	-- thus Venom Sample \\ Silithus Venom Sample
 i(22382),	-- ed Venom Container \\ Sealed Venom Container
 i(22386),	-- of Instructor Razuvious DEP \\ Head of Instructor Razuvious DEP
 i(22387),	-- t of Anub'Rekhan \\ Heart of Anub'Rekhan
-i(22391),	-- Monster - Staff, Lord Valthalak
 i(22485),	-- [UNUSED] Scourge Invasion Focus Object
 i(22486),	-- [UNUSED] Scourge Invasion Boss Summoner
 i(22523),	-- gnia of the Dawn \\ Insignia of the Dawn
@@ -3430,8 +3084,6 @@ i(22723),	-- tter from the Keeper of the Rolls \\ A Letter from the Keeper of th
 i(22727),	-- e of Atiesh \\ Frame of Atiesh
 i(22737),	-- sh, Greatstaff of the Guardian \\ Atiesh, Greatstaff of the Guardian
 i(22765),	-- Mildewed Letter
-i(22814),	-- Naxxramas Sword 2H 2 [PH]
-i(22817),	-- Naxxramas Polearm [PH]
 i(22822),	-- e Prize Voucher \\ iCoke Prize Voucher
 i(22895),	-- ured Cinnamon Roll \\ Conjured Cinnamon Roll
 i(22930),	-- oodstained Envelope \\ A Bloodstained Envelope
@@ -3443,7 +3095,6 @@ i(22946),	-- gged Page \\ A Ragged Page
 i(22948),	-- udged Document \\ A Smudged Document
 i(22949),	-- ked Necrotic Crystal \\ Cracked Necrotic Crystal
 i(22950),	-- t Necrotic Crystal \\ Faint Necrotic Crystal
-i(23034),	-- PH Crit Plate Shoulders \\ Nax PH Crit Plate Shoulders
 i(23086),	-- [UNUSED] Letter Cookie
 i(23160),	-- ndship Bread \\ Friendship Bread
 i(23161),	-- hly-Squeezed Lemonade \\ Freshly-Squeezed Lemonade
@@ -3490,7 +3141,6 @@ i(24232),	-- by Knot \\ Shabby Knot
 i(24281),	-- ed Ivory Bone \\ Carved Ivory Bone
 i(24282),	-- e's Diary \\ Rogue's Diary
 i(24283),	-- ntique Gun \\ An Antique Gun
-i(24358),	-- QATest +1000 Spell Dmg Ring
 1.13.4.33491
 i(122270),	-- Token \\ WoW Token
 i(122284),	-- Token \\ WoW Token
@@ -3498,11 +3148,7 @@ i(122284),	-- Token \\ WoW Token
 i(20473),	-- The Arcanist's Compendium, Volume 4
 i(20762),	-- DEPRECATED: Crystallized Essence
 i(20781),	-- 63 green shaman neck
-i(20783),	-- 63 green shaman ring
-i(20784),	-- 63 green shaman weapon
 i(20792),	-- 90 green shaman neck
-i(20794),	-- 90 green shaman ring
-i(20796),	-- 90 green shaman weapon
 i(20798),	-- Intact Arcane Converter
 i(20804),	-- a's Package \\ Erona's Package
 i(20812),	-- ered Pelt \\ Tattered Pelt
@@ -3519,11 +3165,8 @@ i(20935),	-- ted Wraith Essence \\ Tainted Wraith Essence
 i(20938),	-- onwing Square Gift Voucher \\ Falconwing Square Gift Voucher
 i(21026),	-- Oracle Sphere
 i(21044),	-- Reindeer Reins (TEST)
-i(21045),	-- 63 Blue Fire Belt
-i(21046),	-- 63 Blue Fire Bindings
 i(21047),	-- 63 Blue Fire Boots
 i(21048),	-- 63 Blue Fire Crown
-i(21049),	-- 63 Blue Fire Gloves
 i(21050),	-- 63 Blue Fire Leggings
 i(21051),	-- 63 Blue Fire Mantle
 i(21052),	-- 63 Blue Fire Neck
@@ -3532,11 +3175,8 @@ i(21054),	-- 63 Blue Fire Robes
 i(21055),	-- 63 Blue Fire Shroud
 i(21056),	-- 63 Blue Fire Staff
 i(21057),	-- 63 Blue Fire Wand
-i(21058),	-- 66 Epic Fire Belt
-i(21059),	-- 66 Epic Fire Bindings
 i(21060),	-- 66 Epic Fire Boots
 i(21061),	-- 66 Epic Fire Crown
-i(21062),	-- 66 Epic Fire Gloves
 i(21063),	-- 66 Epic Fire Leggings
 i(21064),	-- 66 Epic Fire Mantle
 i(21065),	-- 66 Epic Fire Neck
@@ -3545,11 +3185,8 @@ i(21067),	-- 66 Epic Fire Robes
 i(21068),	-- 66 Epic Fire Shroud
 i(21069),	-- 66 Epic Fire Staff
 i(21070),	-- 66 Epic Fire Wand
-i(21073),	-- 63 Blue Shadow Belt
-i(21074),	-- 63 Blue Shadow Bindings
 i(21075),	-- 63 Blue Shadow Boots
 i(21076),	-- 63 Blue Shadow Crown
-i(21077),	-- 63 Blue Shadow Gloves
 i(21078),	-- 63 Blue Shadow Leggings
 i(21079),	-- 63 Blue Shadow Mantle
 i(21080),	-- 63 Blue Shadow Neck
@@ -3558,11 +3195,8 @@ i(21082),	-- 63 Blue Shadow Robes
 i(21083),	-- 63 Blue Shadow Shroud
 i(21084),	-- 63 Blue Shadow Staff
 i(21085),	-- 63 Blue Shadow Wand
-i(21086),	-- 66 Epic Shadow Belt
-i(21087),	-- 66 Epic Shadow Bindings
 i(21088),	-- 66 Epic Shadow Boots
 i(21089),	-- 66 Epic Shadow Crown
-i(21090),	-- 66 Epic Shadow Gloves
 i(21091),	-- 66 Epic Shadow Leggings
 i(21092),	-- 66 Epic Shadow Mantle
 i(21093),	-- 66 Epic Shadow Neck
@@ -3636,10 +3270,7 @@ i(23214),	-- p Helboar Carcass \\ Plump Helboar Carcass
 i(23216),	-- Pulsating Voidwalker Essence
 i(23222),	-- thoof Hide \\ Clefthoof Hide
 i(23223),	-- thoof Bones \\ Clefthoof Bones
-i(23229),	-- Sword of Sockety Goodness
-i(23230),	-- Dagger of Sockety Goodness
 i(23231),	-- thoof Sinew \\ Clefthoof Sinew
-i(23232),	-- Huge Sword of Sockety Goodness
 i(23233),	-- Bold Red Bryanite \\ Red Bryanite of Strength stuff
 i(23234),	-- Delicate Blue Bryanite \\ Blue Bryanite of Agility
 i(23235),	-- Solid Yellow Bryanite \\ Yellow Bryanite of Stamina
@@ -3658,8 +3289,6 @@ i(23352),	-- nt Voidwalker Essence \\ Potent Voidwalker Essence
 i(23353),	-- Residue \\ Mana Residue
 i(23355),	-- c Helboar Meat \\ Toxic Helboar Meat
 i(23357),	-- Hatched Ravager Egg
-i(23362),	-- Hammer of the Sun
-i(23363),	-- Titanic Breastplate
 i(23364),	-- zzDEPRECATEDHeart of the Sky
 i(23366),	-- zzDEPRECATEDPerfect Diamond
 i(23368),	-- Leather Boots \\ Soft Leather Boots
@@ -3687,13 +3316,6 @@ i(23584),	-- Modan Lager \\ Loch Modan Lager
 i(23586),	-- e Peak Pale Ale \\ Aerie Peak Pale Ale
 i(23616),	-- Crushed Crystal Fragment
 i(23644),	-- e of Reagents \\ Crate of Reagents
-i(23647),	-- Deprecated: Keanna's Will
-i(23648),	-- Deprecated: Keanna's Will
-i(23649),	-- Deprecated: Keanna's Will
-i(23650),	-- Deprecated: Keanna's Will
-i(23651),	-- Deprecated: Keanna's Will
-i(23652),	-- Deprecated: Keanna's Will
-i(23653),	-- Deprecated: Keanna's Will
 i(23654),	-- nei Fishing Net \\ Draenei Fishing Net
 i(23655),	-- Elven Manacles
 i(23662),	-- er from Nazgrel \\ Letter from Nazgrel
@@ -3744,13 +3366,6 @@ i(23895),	-- Netted Goods
 i(23902),	-- lan's List \\ Chellan's List \\ Topher's List
 i(23903),	-- uni's Supplies \\ Nurguni's Supplies
 i(23904),	-- Shattered Blade
-i(23905),	-- Deprecated: Keanna's Will
-i(23911),	-- Deprecated: Keanna's Will
-i(23912),	-- Deprecated: Keanna's Will
-i(23914),	-- Deprecated: Keanna's Will
-i(23916),	-- Deprecated: Keanna's Will
-i(23917),	-- Deprecated: Keanna's Will
-i(23918),	-- Deprecated: Keanna's Will
 i(23919),	-- k of Reports \\ Stack of Reports
 i(23920),	-- ered Handkerchief \\ Tattered Handkerchief
 i(23922),	-- Skeleton \\ Rat Skeleton
@@ -3834,7 +3449,6 @@ i(24235),	-- ium Powder \\ Thorium Powder
 i(24237),	-- en's Journal \\ Galaen's Journal
 i(24239),	-- e of Materials \\ Crate of Materials
 i(24242),	-- Iron Powder \\ Fel Iron Powder
-i(24265),	-- Old Spellstrike Hood
 i(24269),	-- y Netherweave Net \\ Heavy Netherweave Net
 i(24277),	-- s for Magister Astalor Bloodsworn \\ Items for Magister Astalor Bloodsworn
 i(24278),	-- e Gun \\ Flare Gun
@@ -3842,12 +3456,10 @@ i(24288),	-- zzDEPRECATED Greater Spellthread \\ zzOLDGreater Spellthread
 i(24318),	-- r Sample Flask \\ Water Sample Flask
 i(24323),	-- slated Sunhawk Missive \\ Translated Sunhawk Missive
 i(24329),	-- Test Robe
-i(24330),	-- n Schematics \\ Drain Schematics
 i(24369),	-- fang Spellbook \\ Coilfang Spellbook
 i(24382),	-- i's Report \\ Zurai's Report
 i(24386),	-- am of Saints Departed \\ Libram of Saints Departed
 i(24410),	-- Needle Shrike DEPRECATED
-i(24412),	-- Warden's Arrow
 i(24413),	-- m of the Thunderhead \\ Totem of the Thunderhead
 i(24415),	-- icator Idaar's Letter \\ Vindicator Idaar's Letter
 i(24442),	-- Plate Belt of the Silverpine \\ e Belt of the Silverpine \\ Mail Belt of the Silverpine
@@ -3876,23 +3488,11 @@ i(24517),	-- d Soaked Tail \\ Blood Soaked Tail
 i(24518),	-- Coarse Mane
 i(24519),	-- ted Rock Flayer Talon \\ Twisted Rock Flayer Talon
 i(24521),	-- led Tail \\ Mangled Tail
-i(24524),	-- 130 Epic Warrior Axe
-i(24525),	-- zzold
-i(24526),	-- 130 Epic Warrior Bracelets
-i(24527),	-- 130 Epic Warrior Breastplate
 i(24528),	-- 130 Epic Warrior Cloak
-i(24529),	-- 130 Epic Warrior Gauntlets
-i(24530),	-- 130 Epic Warrior Gun
-i(24531),	-- 130 Epic Warrior Helm
-i(24532),	-- 130 Epic Warrior Legplates
 i(24533),	-- 130 Epic Warrior Neck
-i(24534),	-- 130 Epic Warrior Pauldrons
 i(24535),	-- 130 Epic Warrior Ring
-i(24536),	-- 130 Epic Warrior Sabatons
-i(24537),	-- 130 Epic Warrior Waistband
 i(24538),	-- Bomb \\ Fire Bomb
 i(24541),	-- Medicinal Swamp Moss
-i(24548),	-- zzOLDbrokenitem
 i(24558),	-- blood Invasion Plans \\ Murkblood Invasion Plans
 i(24559),	-- blood Invasion Plans \\ Murkblood Invasion Plans
 i(24567),	-- 130 Test Caster Cloak
@@ -3943,29 +3543,16 @@ i(25455),	-- phorescent Globe \\ Phosphorescent Globe
 i(25456),	-- ing Spores \\ Glowing Spores
 i(25457),	-- ndescent Spores \\ Incandescent Spores
 i(25458),	-- har Battle Standard \\ Mag'har Battle Standard
-i(25459),	-- nt" Ungula's Mandible \\ "Count" Ungula's Mandible
 i(25463),	-- of Ivory Tusks \\ Pair of Ivory Tusks
 i(25466),	-- en Antenna \\ Broken Antenna
 i(25467),	-- Moth Wing \\ Torn Moth Wing
 i(25469),	-- oire of Avoidance \\ Grimoire of Avoidance
 i(25491),	-- aged Spore Sacs \\ Salvaged Spore Sacs
-i(25493),	-- QR 9447 2H Axe
 i(25539),	-- on of Water Breathing \\ Potion of Water Breathing
-i(25546),	-- QR XXXX Paladin Chest
-i(25547),	-- QR XXXX Druid Shoulders
-i(25551),	-- QR XXXX Hunter Legs
 i(25552),	-- aul Ogre Banner \\ Warmaul Ogre Banner
 i(25555),	-- sorrow Banner \\ Kil'sorrow Banner
-i(25571),	-- QR 9863 Druid Helm
-i(25572),	-- QR 9863 Shaman Legs
-i(25573),	-- QR 9863 Warrior Chest
-i(25580),	-- QR 9867 Warrior Legs
-i(25581),	-- QR 9867 Hunter Gloves
-i(25582),	-- QR 9867 Druid Moonkin Belt
 i(25586),	-- ing Blade Peace Offering \\ Burning Blade Peace Offering
 i(25625),	-- QR 9922 Feral Druid Staff
-i(25626),	-- QR 9922 Paladin Bracer
-i(25627),	-- QR 9922 Shield
 i(25635),	-- of Veil Skith \\ Eye of Veil Skith
 i(25643),	-- Harold's Rejuvenating Brooch \\ ld's Rejuvenating Brooch \\ Harold's Rejuvenating Broach
 i(25644),	-- sed Book of Nagrand \\ Blessed Book of Nagrand
@@ -3997,17 +3584,12 @@ i(25765),	-- Orc Plans \\ Fel Orc Plans
 i(25766),	-- atures That Owe Sal'salabim Golds" \\ "Creatures That Owe Sal'salabim Golds"
 i(25770),	-- Cannon Activator \\ Fel Cannon Activator
 i(25771),	-- Cannon Activator \\ Fel Cannon Activator
-i(25798),	-- 130 Epic Warrior Trinket
-i(25799),	-- 130 Epic Warrior 1H Axe
-i(25800),	-- 130 Test Caster Legs
-i(25801),	-- 130 Test Caster Trinket
 i(25813),	-- l Mushroom \\ Small Mushroom
 i(25814),	-- hskitter's Fang \\ Deathskitter's Fang
 i(25840),	-- Extract of the Afterlife
 i(25850),	-- em Artifact \\ Tuurem Artifact
 i(25861),	-- e Throwing Axe \\ Crude Throwing Axe
 i(25866),	-- tmother's List of Herbs \\ Greatmother's List of Herbs
-i(25871),	-- Standard Thrown Weapon
 i(25872),	-- nced Throwing Dagger \\ Balanced Throwing Dagger
 i(25873),	-- Throwing Knife \\ Keen Throwing Knife
 i(25875),	-- ly Throwing Axe \\ Deadly Throwing Axe
@@ -4028,490 +3610,7 @@ i(25996),	-- em of Perseverance \\ Emblem of Perseverance
 i(26046),	-- [PH] Mark of Nagrand, Alliance
 i(26047),	-- [PH] Mark of Nagrand, Horde
 i(26048),	-- er to Kialon \\ Letter to Kialon
-i(26072),	-- 61 TEST Green Cloth Belt
-i(26073),	-- 61 TEST Green Cloth Boot
-i(26074),	-- 61 TEST Green Cloth Chest
-i(26075),	-- 61 TEST Green Cloth Hand
-i(26076),	-- 61 TEST Green Cloth Head
-i(26077),	-- 61 TEST Green Cloth Legs
-i(26078),	-- 61 TEST Green Cloth Shoulder
-i(26079),	-- 61 TEST Green Cloth Wrist
-i(26504),	-- 59 TEST Green Cloth Cloak
-i(26505),	-- 60 TEST Green Cloth Cloak
-i(26506),	-- 61 TEST Green Cloth Cloak
-i(26507),	-- 62 TEST Green Cloth Cloak
-i(26508),	-- 63 TEST Green Cloth Cloak
-i(26509),	-- 64 TEST Green Cloth Cloak
-i(26510),	-- 65 TEST Green Cloth Cloak
-i(26511),	-- 66 TEST Green Cloth Cloak
-i(26512),	-- 67 TEST Green Cloth Cloak
-i(26513),	-- 68 TEST Green Cloth Cloak
-i(26514),	-- 69 TEST Green Cloth Cloak
-i(26515),	-- 70 TEST Green Cloth Cloak
-i(26516),	-- 71 TEST Green Cloth Cloak
-i(26517),	-- 72 TEST Green Cloth Cloak
-i(26518),	-- 59 TEST Green Cloth Ring
-i(26519),	-- 60 TEST Green Cloth Ring
-i(26520),	-- 61 TEST Green Cloth Ring
-i(26521),	-- 62 TEST Green Cloth Ring
-i(26522),	-- 63 TEST Green Cloth Ring
-i(26523),	-- 64 TEST Green Cloth Ring
-i(26524),	-- 65 TEST Green Cloth Ring
-i(26525),	-- 66 TEST Green Cloth Ring
-i(26526),	-- 67 TEST Green Cloth Ring
-i(26527),	-- 68 TEST Green Cloth Ring
-i(26528),	-- 69 TEST Green Cloth Ring
-i(26529),	-- 70 TEST Green Cloth Ring
-i(26530),	-- 71 TEST Green Cloth Ring
-i(26531),	-- 72 TEST Green Cloth Ring
-i(26532),	-- 59 TEST Green Cloth Necklace
-i(26533),	-- 60 TEST Green Cloth Necklace
-i(26534),	-- 61 TEST Green Cloth Necklace
-i(26535),	-- 62 TEST Green Cloth Necklace
-i(26536),	-- 63 TEST Green Cloth Necklace
-i(26537),	-- 64 TEST Green Cloth Necklace
-i(26538),	-- 65 TEST Green Cloth Necklace
-i(26539),	-- 66 TEST Green Cloth Necklace
-i(26540),	-- 67 TEST Green Cloth Necklace
-i(26541),	-- 68 TEST Green Cloth Necklace
-i(26542),	-- 69 TEST Green Cloth Necklace
-i(26543),	-- 70 TEST Green Cloth Necklace
-i(26544),	-- 71 TEST Green Cloth Necklace
-i(26545),	-- 72 TEST Green Cloth Necklace
-i(26546),	-- 59 TEST Green Shield
-i(26547),	-- 60 TEST Green Shield
-i(26548),	-- 61 TEST Green Shield
-i(26549),	-- 62 TEST Green Shield
-i(26550),	-- 63 TEST Green Shield
-i(26551),	-- 64 TEST Green Shield
-i(26552),	-- 65 TEST Green Shield
-i(26553),	-- 66 TEST Green Shield
-i(26554),	-- 67 TEST Green Shield
-i(26555),	-- 68 TEST Green Shield
-i(26556),	-- 69 TEST Green Shield
-i(26557),	-- 70 TEST Green Shield
-i(26558),	-- 71 TEST Green Shield
-i(26559),	-- 72 TEST Green Shield
-i(26560),	-- 59 TEST Green Off Hand
-i(26561),	-- 60 TEST Green Off Hand
-i(26562),	-- 61 TEST Green Off Hand
-i(26563),	-- 62 TEST Green Off Hand
-i(26564),	-- 63 TEST Green Off Hand
-i(26565),	-- 64 TEST Green Off Hand
-i(26566),	-- 65 TEST Green Off Hand
-i(26567),	-- 66 TEST Green Off Hand
-i(26568),	-- 67 TEST Green Off Hand
-i(26569),	-- 68 TEST Green Off Hand
-i(26570),	-- 69 TEST Green Off Hand
-i(26571),	-- 70 TEST Green Off Hand
-i(26572),	-- 71 TEST Green Off Hand
-i(26573),	-- 72 TEST Green Off Hand
-i(26574),	-- 59 TEST Green Dagger
-i(26575),	-- 60 TEST Green Dagger
-i(26576),	-- 61 TEST Green Dagger
-i(26577),	-- 62 TEST Green Dagger
-i(26578),	-- 63 TEST Green Dagger
-i(26579),	-- 64 TEST Green Dagger
-i(26580),	-- 65 TEST Green Dagger
-i(26581),	-- 66 TEST Green Dagger
-i(26582),	-- 67 TEST Green Dagger
-i(26583),	-- 68 TEST Green Dagger
-i(26584),	-- 69 TEST Green Dagger
-i(26585),	-- 70 TEST Green Dagger
-i(26586),	-- 71 TEST Green Dagger
-i(26587),	-- 72 TEST Green Dagger
-i(26588),	-- 59 TEST Green Mace1H
-i(26589),	-- 60 TEST Green Mace1H
-i(26590),	-- 61 TEST Green Mace1H
-i(26591),	-- 62 TEST Green Mace1H
-i(26592),	-- 63 TEST Green Mace1H
-i(26593),	-- 64 TEST Green Mace1H
-i(26594),	-- 65 TEST Green Mace1H
-i(26595),	-- 66 TEST Green Mace1H
-i(26596),	-- 67 TEST Green Mace1H
-i(26597),	-- 68 TEST Green Mace1H
-i(26598),	-- 69 TEST Green Mace1H
-i(26599),	-- 70 TEST Green Mace1H
-i(26600),	-- 71 TEST Green Mace1H
-i(26601),	-- 72 TEST Green Mace1H
-i(26602),	-- 59 TEST Green Mace2H
-i(26603),	-- 60 TEST Green Mace2H
-i(26604),	-- 61 TEST Green Mace2H
-i(26605),	-- 62 TEST Green Mace2H
-i(26606),	-- 63 TEST Green Mace2H
-i(26607),	-- 64 TEST Green Mace2H
-i(26608),	-- 65 TEST Green Mace2H
-i(26609),	-- 66 TEST Green Mace2H
-i(26610),	-- 67 TEST Green Mace2H
-i(26611),	-- 68 TEST Green Mace2H
-i(26612),	-- 69 TEST Green Mace2H
-i(26613),	-- 70 TEST Green Mace2H
-i(26614),	-- 71 TEST Green Mace2H
-i(26615),	-- 72 TEST Green Mace2H
-i(26616),	-- 59 TEST Green Sword1H
-i(26617),	-- 60 TEST Green Sword1H
-i(26618),	-- 61 TEST Green Sword1H
-i(26619),	-- 62 TEST Green Sword1H
-i(26620),	-- 63 TEST Green Sword1H
-i(26621),	-- 64 TEST Green Sword1H
-i(26622),	-- 65 TEST Green Sword1H
-i(26623),	-- 66 TEST Green Sword1H
-i(26624),	-- 67 TEST Green Sword1H
-i(26625),	-- 68 TEST Green Sword1H
-i(26626),	-- 69 TEST Green Sword1H
-i(26627),	-- 70 TEST Green Sword1H
-i(26628),	-- 71 TEST Green Sword1H
-i(26629),	-- 72 TEST Green Sword1H
-i(26630),	-- 59 TEST Green Sword2H
-i(26631),	-- 60 TEST Green Sword2H
-i(26632),	-- 61 TEST Green Sword2H
-i(26633),	-- 62 TEST Green Sword2H
-i(26634),	-- 63 TEST Green Sword2H
-i(26635),	-- 64 TEST Green Sword2H
-i(26636),	-- 65 TEST Green Sword2H
-i(26637),	-- 66 TEST Green Sword2H
-i(26638),	-- 67 TEST Green Sword2H
-i(26639),	-- 68 TEST Green Sword2H
-i(26640),	-- 69 TEST Green Sword2H
-i(26641),	-- 70 TEST Green Sword2H
-i(26642),	-- 71 TEST Green Sword2H
-i(26643),	-- 72 TEST Green Sword2H
-i(26644),	-- 59 TEST Green Staff
-i(26645),	-- 60 TEST Green Staff
-i(26646),	-- 61 TEST Green Staff
-i(26647),	-- 62 TEST Green Staff
-i(26648),	-- 63 TEST Green Staff
-i(26649),	-- 64 TEST Green Staff
-i(26650),	-- 65 TEST Green Staff
-i(26651),	-- 66 TEST Green Staff
-i(26652),	-- 67 TEST Green Staff
-i(26653),	-- 68 TEST Green Staff
-i(26654),	-- 69 TEST Green Staff
-i(26655),	-- 70 TEST Green Staff
-i(26656),	-- 71 TEST Green Staff
-i(26657),	-- 72 TEST Green Staff
-i(26658),	-- 59 TEST Green FistWeapon
-i(26659),	-- 60 TEST Green FistWeapon
-i(26660),	-- 61 TEST Green FistWeapon
-i(26661),	-- 62 TEST Green FistWeapon
-i(26662),	-- 63 TEST Green FistWeapon
-i(26663),	-- 64 TEST Green FistWeapon
-i(26664),	-- 65 TEST Green FistWeapon
-i(26665),	-- 66 TEST Green FistWeapon
-i(26666),	-- 67 TEST Green FistWeapon
-i(26667),	-- 68 TEST Green FistWeapon
-i(26668),	-- 69 TEST Green FistWeapon
-i(26669),	-- 70 TEST Green FistWeapon
-i(26670),	-- 71 TEST Green FistWeapon
-i(26671),	-- 72 TEST Green FistWeapon
 i(26672),	-- 59 TEST Green Axe1H
-i(26673),	-- 60 TEST Green Axe1H
-i(26674),	-- 61 TEST Green Axe1H
-i(26675),	-- 62 TEST Green Axe1H
-i(26676),	-- 63 TEST Green Axe1H
-i(26677),	-- 64 TEST Green Axe1H
-i(26678),	-- 65 TEST Green Axe1H
-i(26679),	-- 66 TEST Green Axe1H
-i(26680),	-- 67 TEST Green Axe1H
-i(26681),	-- 68 TEST Green Axe1H
-i(26682),	-- 69 TEST Green Axe1H
-i(26683),	-- 70 TEST Green Axe1H
-i(26684),	-- 71 TEST Green Axe1H
-i(26685),	-- 72 TEST Green Axe1H
-i(26686),	-- 59 TEST Green Axe2H
-i(26687),	-- 60 TEST Green Axe2H
-i(26688),	-- 61 TEST Green Axe2H
-i(26689),	-- 62 TEST Green Axe2H
-i(26690),	-- 63 TEST Green Axe2H
-i(26691),	-- 64 TEST Green Axe2H
-i(26692),	-- 65 TEST Green Axe2H
-i(26693),	-- 66 TEST Green Axe2H
-i(26694),	-- 67 TEST Green Axe2H
-i(26695),	-- 68 TEST Green Axe2H
-i(26696),	-- 69 TEST Green Axe2H
-i(26697),	-- 70 TEST Green Axe2H
-i(26698),	-- 71 TEST Green Axe2H
-i(26699),	-- 72 TEST Green Axe2H
-i(26700),	-- 59 TEST Green Polearm
-i(26701),	-- 60 TEST Green Polearm
-i(26702),	-- 61 TEST Green Polearm
-i(26703),	-- 62 TEST Green Polearm
-i(26704),	-- 63 TEST Green Polearm
-i(26705),	-- 64 TEST Green Polearm
-i(26706),	-- 65 TEST Green Polearm
-i(26707),	-- 66 TEST Green Polearm
-i(26708),	-- 67 TEST Green Polearm
-i(26709),	-- 68 TEST Green Polearm
-i(26710),	-- 69 TEST Green Polearm
-i(26711),	-- 70 TEST Green Polearm
-i(26712),	-- 71 TEST Green Polearm
-i(26713),	-- 72 TEST Green Polearm
-i(26714),	-- 59 TEST Green Bow
-i(26715),	-- 60 TEST Green Bow
-i(26716),	-- 61 TEST Green Bow
-i(26717),	-- 62 TEST Green Bow
-i(26718),	-- 63 TEST Green Bow
-i(26719),	-- 64 TEST Green Bow
-i(26720),	-- 65 TEST Green Bow
-i(26721),	-- 66 TEST Green Bow
-i(26722),	-- 67 TEST Green Bow
-i(26723),	-- 68 TEST Green Bow
-i(26724),	-- 69 TEST Green Bow
-i(26725),	-- 70 TEST Green Bow
-i(26726),	-- 71 TEST Green Bow
-i(26727),	-- 72 TEST Green Bow
-i(26728),	-- 59 TEST Green Crossbow
-i(26729),	-- 60 TEST Green Crossbow
-i(26730),	-- 61 TEST Green Crossbow
-i(26731),	-- 62 TEST Green Crossbow
-i(26732),	-- 63 TEST Green Crossbow
-i(26733),	-- 64 TEST Green Crossbow
-i(26734),	-- 65 TEST Green Crossbow
-i(26735),	-- 66 TEST Green Crossbow
-i(26736),	-- 67 TEST Green Crossbow
-i(26737),	-- 68 TEST Green Crossbow
-i(26738),	-- 69 TEST Green Crossbow
-i(26739),	-- 70 TEST Green Crossbow
-i(26740),	-- 71 TEST Green Crossbow
-i(26741),	-- 72 TEST Green Crossbow
-i(26742),	-- 59 TEST Green Gun
-i(26743),	-- 60 TEST Green Gun
-i(26744),	-- 61 TEST Green Gun
-i(26745),	-- 62 TEST Green Gun
-i(26746),	-- 63 TEST Green Gun
-i(26747),	-- 64 TEST Green Gun
-i(26748),	-- 65 TEST Green Gun
-i(26749),	-- 66 TEST Green Gun
-i(26750),	-- 67 TEST Green Gun
-i(26751),	-- 68 TEST Green Gun
-i(26752),	-- 69 TEST Green Gun
-i(26753),	-- 70 TEST Green Gun
-i(26754),	-- 71 TEST Green Gun
-i(26755),	-- 72 TEST Green Gun
-i(26756),	-- 59 TEST Green Wand
-i(26757),	-- 60 TEST Green Wand
-i(26758),	-- 61 TEST Green Wand
-i(26759),	-- 62 TEST Green Wand
-i(26760),	-- 63 TEST Green Wand
-i(26761),	-- 64 TEST Green Wand
-i(26762),	-- 65 TEST Green Wand
-i(26763),	-- 66 TEST Green Wand
-i(26764),	-- 67 TEST Green Wand
-i(26765),	-- 68 TEST Green Wand
-i(26766),	-- 69 TEST Green Wand
-i(26767),	-- 70 TEST Green Wand
-i(26768),	-- 71 TEST Green Wand
-i(26769),	-- 72 TEST Green Wand
-i(26770),	-- 59 TEST Green Spell Dagger
-i(26771),	-- 60 TEST Green Spell Dagger
-i(26772),	-- 61 TEST Green Spell Dagger
-i(26773),	-- 62 TEST Green Spell Dagger
-i(26774),	-- 63 TEST Green Spell Dagger
-i(26775),	-- 64 TEST Green Spell Dagger
-i(26776),	-- 65 TEST Green Spell Dagger
-i(26777),	-- 66 TEST Green Spell Dagger
-i(26778),	-- 67 TEST Green Spell Dagger
-i(26779),	-- 68 TEST Green Spell Dagger
-i(26780),	-- 69 TEST Green Spell Dagger
-i(26781),	-- 70 TEST Green Spell Dagger
-i(26782),	-- 71 TEST Green Spell Dagger
-i(26783),	-- 72 TEST Green Spell Dagger
-i(26784),	-- 59 TEST Green Healer Mace
-i(26785),	-- 60 TEST Green Healer Mace
-i(26786),	-- 61 TEST Green Healer Mace
-i(26787),	-- 62 TEST Green Healer Mace
-i(26788),	-- 63 TEST Green Healer Mace
-i(26789),	-- 64 TEST Green Healer Mace
-i(26790),	-- 65 TEST Green Healer Mace
-i(26791),	-- 66 TEST Green Healer Mace
-i(26792),	-- 67 TEST Green Healer Mace
-i(26793),	-- 68 TEST Green Healer Mace
-i(26794),	-- 69 TEST Green Healer Mace
-i(26795),	-- 70 TEST Green Healer Mace
-i(26796),	-- 71 TEST Green Healer Mace
-i(26797),	-- 72 TEST Green Healer Mace
-i(26798),	-- 59 TEST Green Feral Staff
-i(26799),	-- 60 TEST Green Feral Staff
-i(26800),	-- 61 TEST Green Feral Staff
-i(26801),	-- 62 TEST Green Feral Staff
-i(26802),	-- 63 TEST Green Feral Staff
-i(26803),	-- 64 TEST Green Feral Staff
-i(26804),	-- 65 TEST Green Feral Staff
-i(26805),	-- 66 TEST Green Feral Staff
-i(26806),	-- 67 TEST Green Feral Staff
-i(26807),	-- 68 TEST Green Feral Staff
-i(26808),	-- 69 TEST Green Feral Staff
-i(26809),	-- 70 TEST Green Feral Staff
-i(26810),	-- 71 TEST Green Feral Staff
-i(26811),	-- 72 TEST Green Feral Staff
-i(27148),	-- 59 TEST Green Rogue/Hunter Cloak
-i(27149),	-- 60 TEST Green Rogue/Hunter Cloak
-i(27150),	-- 61 TEST Green Rogue/Hunter Cloak
-i(27151),	-- 62 TEST Green Rogue/Hunter Cloak
-i(27152),	-- 63 TEST Green Rogue/Hunter Cloak
-i(27153),	-- 64 TEST Green Rogue/Hunter Cloak
-i(27154),	-- 65 TEST Green Rogue/Hunter Cloak
-i(27155),	-- 66 TEST Green Rogue/Hunter Cloak
-i(27156),	-- 67 TEST Green Rogue/Hunter Cloak
-i(27157),	-- 68 TEST Green Rogue/Hunter Cloak
-i(27158),	-- 69 TEST Green Rogue/Hunter Cloak
-i(27159),	-- 70 TEST Green Rogue/Hunter Cloak
-i(27160),	-- 71 TEST Green Rogue/Hunter Cloak
-i(27161),	-- 72 TEST Green Rogue/Hunter Cloak
-i(27162),	-- 59 TEST Green Rogue/Hunter Ring
-i(27163),	-- 60 TEST Green Rogue/Hunter Ring
-i(27164),	-- 61 TEST Green Rogue/Hunter Ring
-i(27165),	-- 62 TEST Green Rogue/Hunter Ring
-i(27166),	-- 63 TEST Green Rogue/Hunter Ring
-i(27167),	-- 64 TEST Green Rogue/Hunter Ring
-i(27168),	-- 65 TEST Green Rogue/Hunter Ring
-i(27169),	-- 66 TEST Green Rogue/Hunter Ring
-i(27170),	-- 67 TEST Green Rogue/Hunter Ring
-i(27171),	-- 68 TEST Green Rogue/Hunter Ring
-i(27172),	-- 69 TEST Green Rogue/Hunter Ring
-i(27173),	-- 70 TEST Green Rogue/Hunter Ring
-i(27174),	-- 71 TEST Green Rogue/Hunter Ring
-i(27175),	-- 72 TEST Green Rogue/Hunter Ring
-i(27176),	-- 59 TEST Green Rogue/Hunter Necklace
-i(27177),	-- 60 TEST Green Rogue/Hunter Necklace
-i(27178),	-- 61 TEST Green Rogue/Hunter Necklace
-i(27179),	-- 62 TEST Green Rogue/Hunter Necklace
-i(27180),	-- 63 TEST Green Rogue/Hunter Necklace
-i(27181),	-- 64 TEST Green Rogue/Hunter Necklace
-i(27182),	-- 65 TEST Green Rogue/Hunter Necklace
-i(27183),	-- 66 TEST Green Rogue/Hunter Necklace
-i(27184),	-- 67 TEST Green Rogue/Hunter Necklace
-i(27185),	-- 68 TEST Green Rogue/Hunter Necklace
-i(27186),	-- 69 TEST Green Rogue/Hunter Necklace
-i(27187),	-- 70 TEST Green Rogue/Hunter Necklace
-i(27188),	-- 71 TEST Green Rogue/Hunter Necklace
-i(27189),	-- 72 TEST Green Rogue/Hunter Necklace
-i(27190),	-- 59 TEST Green Druid/Warrior Cloak
-i(27191),	-- 60 TEST Green Druid/Warrior Cloak
-i(27192),	-- 61 TEST Green Druid/Warrior Cloak
-i(27193),	-- 62 TEST Green Druid/Warrior Cloak
-i(27194),	-- 63 TEST Green Druid/Warrior Cloak
-i(27195),	-- 64 TEST Green Druid/Warrior Cloak
-i(27196),	-- 65 TEST Green Druid/Warrior Cloak
-i(27197),	-- 66 TEST Green Druid/Warrior Cloak
-i(27198),	-- 67 TEST Green Druid/Warrior Cloak
-i(27199),	-- 68 TEST Green Druid/Warrior Cloak
-i(27200),	-- 69 TEST Green Druid/Warrior Cloak
-i(27201),	-- 70 TEST Green Druid/Warrior Cloak
-i(27202),	-- 71 TEST Green Druid/Warrior Cloak
-i(27203),	-- 72 TEST Green Druid/Warrior Cloak
-i(27204),	-- 59 TEST Green Druid/Warrior Ring
-i(27205),	-- 60 TEST Green Druid/Warrior Ring
-i(27206),	-- 61 TEST Green Druid/Warrior Ring
-i(27207),	-- 62 TEST Green Druid/Warrior Ring
-i(27208),	-- 63 TEST Green Druid/Warrior Ring
-i(27209),	-- 64 TEST Green Druid/Warrior Ring
-i(27210),	-- 65 TEST Green Druid/Warrior Ring
-i(27211),	-- 66 TEST Green Druid/Warrior Ring
-i(27212),	-- 67 TEST Green Druid/Warrior Ring
-i(27213),	-- 68 TEST Green Druid/Warrior Ring
-i(27214),	-- 69 TEST Green Druid/Warrior Ring
-i(27215),	-- 70 TEST Green Druid/Warrior Ring
-i(27216),	-- 71 TEST Green Druid/Warrior Ring
-i(27217),	-- 72 TEST Green Druid/Warrior Ring
-i(27218),	-- 59 TEST Green Druid/Warrior Necklace
-i(27219),	-- 60 TEST Green Druid/Warrior Necklace
-i(27220),	-- 61 TEST Green Druid/Warrior Necklace
-i(27221),	-- 62 TEST Green Druid/Warrior Necklace
-i(27222),	-- 63 TEST Green Druid/Warrior Necklace
-i(27223),	-- 64 TEST Green Druid/Warrior Necklace
-i(27224),	-- 65 TEST Green Druid/Warrior Necklace
-i(27225),	-- 66 TEST Green Druid/Warrior Necklace
-i(27226),	-- 67 TEST Green Druid/Warrior Necklace
-i(27227),	-- 68 TEST Green Druid/Warrior Necklace
-i(27228),	-- 69 TEST Green Druid/Warrior Necklace
-i(27229),	-- 70 TEST Green Druid/Warrior Necklace
-i(27230),	-- 71 TEST Green Druid/Warrior Necklace
-i(27231),	-- 72 TEST Green Druid/Warrior Necklace
-i(27232),	-- 59 TEST Green Shaman Cloak
-i(27233),	-- 60 TEST Green Shaman Cloak
-i(27234),	-- 61 TEST Green Shaman Cloak
-i(27235),	-- 62 TEST Green Shaman Cloak
-i(27236),	-- 63 TEST Green Shaman Cloak
-i(27237),	-- 64 TEST Green Shaman Cloak
-i(27238),	-- 65 TEST Green Shaman Cloak
-i(27239),	-- 66 TEST Green Shaman Cloak
-i(27240),	-- 67 TEST Green Shaman Cloak
-i(27241),	-- 68 TEST Green Shaman Cloak
-i(27242),	-- 69 TEST Green Shaman Cloak
-i(27243),	-- 70 TEST Green Shaman Cloak
-i(27244),	-- 71 TEST Green Shaman Cloak
-i(27245),	-- 72 TEST Green Shaman Cloak
-i(27246),	-- 59 TEST Green Shaman Ring
-i(27247),	-- 60 TEST Green Shaman Ring
-i(27248),	-- 61 TEST Green Shaman Ring
-i(27249),	-- 62 TEST Green Shaman Ring
-i(27250),	-- 63 TEST Green Shaman Ring
-i(27251),	-- 64 TEST Green Shaman Ring
-i(27252),	-- 65 TEST Green Shaman Ring
-i(27253),	-- 66 TEST Green Shaman Ring
-i(27254),	-- 67 TEST Green Shaman Ring
-i(27255),	-- 68 TEST Green Shaman Ring
-i(27256),	-- 69 TEST Green Shaman Ring
-i(27257),	-- 70 TEST Green Shaman Ring
-i(27258),	-- 71 TEST Green Shaman Ring
-i(27259),	-- 72 TEST Green Shaman Ring
-i(27260),	-- 59 TEST Green Shaman Necklace
-i(27261),	-- 60 TEST Green Shaman Necklace
-i(27262),	-- 61 TEST Green Shaman Necklace
-i(27263),	-- 62 TEST Green Shaman Necklace
-i(27264),	-- 63 TEST Green Shaman Necklace
-i(27265),	-- 64 TEST Green Shaman Necklace
-i(27266),	-- 65 TEST Green Shaman Necklace
-i(27267),	-- 66 TEST Green Shaman Necklace
-i(27268),	-- 67 TEST Green Shaman Necklace
-i(27269),	-- 68 TEST Green Shaman Necklace
-i(27270),	-- 69 TEST Green Shaman Necklace
-i(27271),	-- 70 TEST Green Shaman Necklace
-i(27272),	-- 71 TEST Green Shaman Necklace
-i(27273),	-- 72 TEST Green Shaman Necklace
-i(27274),	-- 59 TEST Green Paladin Cloak
-i(27275),	-- 60 TEST Green Paladin Cloak
-i(27276),	-- 61 TEST Green Paladin Cloak
-i(27277),	-- 62 TEST Green Paladin Cloak
-i(27278),	-- 63 TEST Green Paladin Cloak
-i(27279),	-- 64 TEST Green Paladin Cloak
-i(27280),	-- 65 TEST Green Paladin Cloak
-i(27281),	-- 66 TEST Green Paladin Cloak
-i(27282),	-- 67 TEST Green Paladin Cloak
-i(27283),	-- 68 TEST Green Paladin Cloak
-i(27284),	-- 69 TEST Green Paladin Cloak
-i(27285),	-- 70 TEST Green Paladin Cloak
-i(27286),	-- 71 TEST Green Paladin Cloak
-i(27287),	-- 72 TEST Green Paladin Cloak
-i(27288),	-- 59 TEST Green Paladin Ring
-i(27289),	-- 60 TEST Green Paladin Ring
-i(27290),	-- 61 TEST Green Paladin Ring
-i(27291),	-- 62 TEST Green Paladin Ring
-i(27292),	-- 63 TEST Green Paladin Ring
-i(27293),	-- 64 TEST Green Paladin Ring
-i(27294),	-- 65 TEST Green Paladin Ring
-i(27295),	-- 66 TEST Green Paladin Ring
-i(27296),	-- 67 TEST Green Paladin Ring
-i(27297),	-- 68 TEST Green Paladin Ring
-i(27298),	-- 69 TEST Green Paladin Ring
-i(27299),	-- 70 TEST Green Paladin Ring
-i(27300),	-- 71 TEST Green Paladin Ring
-i(27301),	-- 72 TEST Green Paladin Ring
-i(27302),	-- 59 TEST Green Paladin Necklace
-i(27303),	-- 60 TEST Green Paladin Necklace
-i(27304),	-- 61 TEST Green Paladin Necklace
-i(27305),	-- 62 TEST Green Paladin Necklace
-i(27306),	-- 63 TEST Green Paladin Necklace
-i(27307),	-- 64 TEST Green Paladin Necklace
-i(27308),	-- 65 TEST Green Paladin Necklace
-i(27309),	-- 66 TEST Green Paladin Necklace
-i(27310),	-- 67 TEST Green Paladin Necklace
-i(27311),	-- 68 TEST Green Paladin Necklace
-i(27312),	-- 69 TEST Green Paladin Necklace
-i(27313),	-- 70 TEST Green Paladin Necklace
-i(27314),	-- 71 TEST Green Paladin Necklace
-i(27315),	-- 72 TEST Green Paladin Necklace
 i(27316),	-- Level 61 Test Gear Green - Cloth
 i(27317),	-- ental Sapta \\ Elemental Sapta
 i(27318),	-- Level 62 Test Gear Green - Cloth
@@ -4599,7 +3698,6 @@ i(27444),	-- Foulfin
 i(27484),	-- am of Avengement \\ Libram of Avengement
 i(27486),	-- Alex Test BK Helm
 i(27518),	-- y Idol of the Moongoddess \\ Ivory Idol of the Moongoddess
-i(27530),	-- Test Epic Belt
 i(27544),	-- m of Spontaneous Regrowth \\ Totem of Spontaneous Regrowth
 i(27553),	-- son Steer Energy Drink \\ Crimson Steer Energy Drink
 i(27554),	-- Level 60 Test Gear Green - Cloth 2
@@ -4702,26 +3800,10 @@ i(27934),	-- al Claw \\ Vorpal Claw
 i(27935),	-- le Fang \\ Needle Fang
 i(27947),	-- m of Impact \\ Totem of Impact
 i(27949),	-- am of Zeal \\ Libram of Zeal
-i(27958),	-- TEST 60 Blue Paladin DPS Necklace
-i(27959),	-- TEST 60 Blue Paladin DPS Ring
-i(27961),	-- TEST 60 Blue Paladin DPS Sword2H Slow
-i(27962),	-- TEST 60 Blue Paladin DPS Sword2H Fast
-i(27971),	-- TEST 130 Epic Paladin DPS Necklace
-i(27972),	-- TEST 130 Epic Paladin DPS Ring
-i(27974),	-- TEST 130 Epic Paladin DPS Sword2H Slow
-i(27975),	-- TEST 130 Epic Paladin DPS Sword2H Fast
 i(27983),	-- am of Zeal \\ Libram of Zeal
 i(27984),	-- m of Impact \\ Totem of Impact
 i(27989),	-- of Savagery \\ Idol of Savagery
 i(27990),	-- of Savagery \\ Idol of Savagery
-i(28005),	-- TEST 60 Blue Ret Paladin DPS Necklace
-i(28006),	-- TEST 60 Blue Ret Paladin DPS Ring
-i(28008),	-- TEST 60 Blue Ret Paladin DPS Sword2H Slow
-i(28009),	-- TEST 60 Blue Ret Paladin DPS Sword2H Fast
-i(28018),	-- TEST 130 Epic Ret Paladin DPS Necklace
-i(28019),	-- TEST 130 Epic Ret Paladin DPS Ring
-i(28021),	-- TEST 130 Epic Ret Paladin DPS Sword2H Slow
-i(28022),	-- TEST 130 Epic Ret Paladin DPS Sword2H Fast
 i(28024),	-- n's Report \\ Orion's Report
 i(28039),	-- e Explosives \\ Crude Explosives
 i(28046),	-- Legion Missive
@@ -4753,7 +3835,6 @@ i(28083),	-- Level 67 Test Gear Green - Leather - Rogue 3
 i(28084),	-- Level 68 Test Gear Green - Leather - Rogue 3
 i(28085),	-- Level 69 Test Gear Green - Leather - Rogue 3
 i(28086),	-- Level 70 Test Gear Green - Leather - Rogue 3
-i(28087),	-- Monster - Sword, Iblis, Blade of the Fallen Seraph
 i(28088),	-- Level 60 Test Gear Green - Plate - Warrior 3
 i(28089),	-- Level 61 Test Gear Green - Plate - Warrior 3
 i(28090),	-- Level 62 Test Gear Green - Plate - Warrior 3
@@ -4772,12 +3853,10 @@ i(28110),	-- Fat Gnome and Little Elf
 i(28112),	-- rspore Pod \\ Underspore Pod
 i(28113),	-- Warboss Nekrogg's Orders
 i(28114),	-- Warboss Nekrogg's Orders
-i(28115),	-- Monster - Obsidian Edged Blade
 i(28117),	-- zzOLDBold Ornate Ruby
 i(28122),	-- zzOLDEnscribed Ornate Topaz
 i(28131),	-- Reaver Buster Launcher
 i(28135),	-- Bomb Crate
-i(28165),	-- TEST GUN RocketLauncher
 i(28209),	-- Whitebark's Pendant \\ Old Whitebark's Pendant
 i(28248),	-- m of the Void \\ Totem of the Void
 i(28258),	-- ershrike \\ Nethershrike
@@ -4789,7 +3868,6 @@ i(28355),	-- iator's Idol of Tenacity \\ Gladiator's Idol of Tenacity
 i(28356),	-- iator's Libram of Justice \\ Gladiator's Libram of Justice
 i(28357),	-- iator's Totem of the Third Wind \\ Gladiator's Totem of the Third Wind
 i(28359),	-- erologist's Notes \\ Netherologist's Notes
-i(28366),	-- Test Orb
 i(28369),	-- ery Recharging Blaster \\ Battery Recharging Blaster
 i(28372),	-- of Feral Shadows \\ Idol of Feral Shadows
 i(28388),	-- TCHILTON TEST RUBY
@@ -4871,9 +3949,6 @@ i(29235),	-- nrath's Mantle \\ Luminrath's Mantle
 i(29236),	-- ien's Cap \\ Cohlien's Cap
 i(29293),	-- Bonestripper Buzzard Hotwings
 i(29311),	-- Fel Reaver Construction Manual
-i(29393),	-- ond Berries \\ Diamond Berries
-i(29394),	-- bread \\ Lyribread
-i(29395),	-- rmead \\ Ethermead
 i(29402),	-- Jessen's Special Slop OLD
 i(29427),	-- Mark of the Betrayer
 i(29428),	-- y's Bell \\ Bessy's Bell
@@ -4881,7 +3956,6 @@ i(29429),	-- 's Doom \\ Boom's Doom
 i(29434),	-- e of Justice \\ Badge of Justice
 i(29445),	-- eying Markers \\ Surveying Markers
 i(29447),	-- Zapper \\ Fel Zapper
-i(29454),	-- erwine \\ Silverwine
 i(29473),	-- ectorate Igniter \\ Protectorate Igniter
 i(29475),	-- fying Dust \\ Pacifying Dust
 i(29477),	-- son Crystal Shard \\ Crimson Crystal Shard
@@ -4943,8 +4017,6 @@ i(29829),	-- Warrior 105 Epic Test Chest
 i(29830),	-- Warrior 150 Epic Test Chest
 i(29831),	-- Warrior 105 Test 1H Sword
 i(29832),	-- Warrior 150 Test 1H Sword
-i(29833),	-- Warrior 105 Test 2H Axe
-i(29834),	-- Warrior 150 Test 2H Axe
 i(29835),	-- Paladin 105 Epic Test Chest
 i(29836),	-- Paladin 150 Epic Test Chest
 i(29837),	-- QAEnchant Weapon +81 Healing
@@ -4990,12 +4062,9 @@ i(29876),	-- Warlock 150 Epic Test Chest
 i(29877),	-- Indalamar's Super Hot \\ Indalamar's Trinket of Pwnage
 i(29878),	-- Priest 105 Epic Test Chest
 i(29879),	-- Priest 150 Epic Test Chest
-i(29880),	-- Paladin 105 Test 2H Axe
-i(29881),	-- Paladin 150 Test 2H Axe
 i(29882),	-- Hunter 105 Epic Test Chest
 i(29883),	-- Hunter 150 Epic Test Chest
 i(29884),	-- Hunter 105 Epic Test Gun
-i(29885),	-- Hunter 120 Epic Test Bullets
 i(29886),	-- Hunter 105 Epic Ammo Box
 i(29887),	-- Hunter 150 Epic Ammo Box
 i(29888),	-- Hunter 150 Epic Test Gun
@@ -5030,7 +4099,6 @@ i(30309),	-- ebreaker Brew \\ Stonebreaker Brew
 i(30325),	-- Ravenous Ravager Egg
 i(30326),	-- chewer Blood Samples \\ Bonechewer Blood Samples
 i(30347),	-- Test Healthstone \\ Alexander's Test Healthstone
-i(30353),	-- dmaul Brutebane Keg \\ Bloodmaul Brutebane Keg
 i(30354),	-- a Deconsolodation Zapper \\ Ultra Deconsolodation Zapper
 i(30355),	-- led Shadowmoon Tuber \\ Grilled Shadowmoon Tuber
 i(30385),	-- QR XXXX Plate Spell Bracer
@@ -5066,8 +4134,6 @@ i(30526),	-- ent Draenei Manuscript, Chapter 3 \\ Ancient Draenei Manuscript, Ch
 i(30527),	-- Draenei Tomb Relic
 i(30528),	-- Druid 105 Epic Bear Test Chest
 i(30530),	-- ful of Feathers \\ Fistful of Feathers
-i(30539),	-- y's Waiver (Signed) \\ Tally's Waiver (Signed)
-i(30540),	-- y's Waiver (Unsigned) \\ Tally's Waiver (Unsigned)
 i(30545),	-- Cavrylin's Medallion
 i(30561),	-- 'nir Crystal \\ Vekh'nir Crystal
 i(30567),	-- ged Vekh'nir Crystal \\ Charged Vekh'nir Crystal
@@ -5088,7 +4154,6 @@ i(30652),	-- rok's Second Wand \\ Dertrok's Second Wand
 i(30653),	-- rok's Third Wand \\ Dertrok's Third Wand
 i(30654),	-- rok's Fourth Wand \\ Dertrok's Fourth Wand
 i(30655),	-- sed Vekh'nir Crystal \\ Infused Vekh'nir Crystal
-i(30656),	-- ovoltaic Magneto Collector \\ Protovoltaic Magneto Collector
 i(30688),	-- hforge Key \\ Deathforge Key
 i(30700),	-- rgestone Fragments \\ Scourgestone Fragments
 i(30701),	-- llating Frequency Scanners \\ Oscillating Frequency Scanners
@@ -5096,6 +4161,7 @@ i(30703),	-- ured Mountain Spring Water \\ Conjured Mountain Spring Water
 i(30704),	-- n'ok Claw \\ Ruuan'ok Claw
 i(30711),	-- QATest Raid Buffs lvl 70
 i(30717),	-- Harbinger's Pendant
+i(30742),	-- oral Phase Modulator \\ Temporal Phase Modulator
 i(30760),	-- al Draenic Robe \\ Formal Draenic Robe
 i(30793),	-- Skettis See Invis Potion
 i(30796),	-- Outland Ore
@@ -5105,13 +4171,11 @@ i(30812),	-- escent Scale \\ Iridescent Scale
 i(30813),	-- nomed Fang \\ Envenomed Fang
 i(30814),	-- mous Molar \\ Enormous Molar
 i(30815),	-- t Scale \\ Giant Scale
-i(30818),	-- larized Magneto Sphere \\ Repolarized Magneto Sphere
 i(30820),	-- ous Scorpid Claw \\ Vicious Scorpid Claw
 i(30821),	-- nomed Scorpid Stinger \\ Envenomed Scorpid Stinger
 i(30822),	-- of Ingots \\ Box of Ingots
 i(30845),	-- Arcanum of Chromatic Warding \\ Glyph of Chromatic Warding
 i(30850),	-- hly Drawn Blood \\ Freshly Drawn Blood
-i(30852),	-- i-Spectrum Light Trap \\ Multi-Spectrum Light Trap
 i(30853),	-- ed Silver Spear \\ Imbued Silver Spear
 i(30875),	-- ed Illidari-Bane Blade \\ Forged Illidari-Bane Blade
 i(30877),	-- QAEnchant Bracer +6 Mana\5 Sec
@@ -5130,7 +4194,6 @@ i(31087),	-- Ata'mal Crystal
 i(31088),	-- ted Core \\ Tainted Core
 i(31120),	-- ing Note \\ Meeting Note
 i(31123),	-- ning Nether-Weather Vane \\ Spinning Nether-Weather Vane \\ Spinning Nether-weather Vane
-i(31124),	-- er-Weather Vane \\ Nether-Weather Vane \\ Nether-weather Vane
 i(31128),	-- ar's Whistle \\ Rexxar's Whistle
 i(31129),	-- kwhelp Net \\ Blackwhelp Net
 i(31130),	-- cult Blackwhelp \\ Wyrmcult Blackwhelp
@@ -5140,15 +4203,12 @@ i(31144),	-- it's Whistle \\ Spirit's Whistle
 i(31146),	-- ar's Battle Horn \\ Rexxar's Battle Horn
 i(31167),	-- Cracked Gateway Control Stone \\ ked Gateway Control Stone \\ Gateway Control Stone \\ [PH] Gnome Cannon Reagent
 i(31252),	-- red Key Mold \\ Charred Key Mold
-i(31273),	-- Monster - Polearm, Epic D
 i(31300),	-- root Seeds \\ Ironroot Seeds
 i(31344),	-- monial Incense \\ Ceremonial Incense
 i(31350),	-- er's Whistle \\ Huffer's Whistle
 i(31351),	-- onfire Trap \\ Dragonfire Trap
 i(31363),	-- rom's Favor \\ Gorgrom's Favor
-i(31366),	-- worn Gas Mask \\ Felsworn Gas Mask
 i(31373),	-- nail Flayer Giblets \\ Rocknail Flayer Giblets
-i(31384),	-- ged Mask \\ Damaged Mask
 i(31387),	-- ery Mask \\ Mystery Mask
 i(31389),	-- Captured Eye of Grillok
 i(31403),	-- emane's Sleeping Powder \\ Sablemane's Sleeping Powder
@@ -5181,9 +4241,7 @@ i(31755),	-- rn Cage Key \\ Wyvern Cage Key
 i(31763),	-- d Signal \\ Druid Signal
 i(31767),	-- [TXT]Rexxar's Misha Summoner
 i(31769),	-- tari Torch \\ Sha'tari Torch
-i(31807),	-- ralized Ammunition \\ Naturalized Ammunition
 i(31808),	-- emane's Signet \\ Sablemane's Signet
-i(31809),	-- grove Wand \\ Evergrove Wand
 i(31810),	-- er \\ Fumper
 i(31811),	-- d Relic \\ Dread Relic
 i(31812),	-- Skull \\ Doom Skull
@@ -5232,7 +4290,6 @@ i(32355),	-- nce of the Eagle \\ Essence of the Eagle
 i(32356),	-- nce of the Hawk \\ Essence of the Hawk
 i(32359),	-- orn's Package \\ Arthorn's Package
 i(32368),	-- of the Lightbringer \\ Tome of the Lightbringer
-i(32371),	-- Monster - Polearm, Epic D - Glow
 i(32372),	-- Blade's Edge Test Shard
 i(32378),	-- er Star \\ Silver Star
 i(32384),	-- Monster - Sword, 1H - Blackwing A02
@@ -5319,7 +4376,6 @@ i(32714),	-- ntered Spider Fang \\ Splintered Spider Fang
 i(32725),	-- blood Miner's Pick \\ Murkblood Miner's Pick
 i(32727),	-- of Tears \\ Vial of Tears
 i(32728),	-- ge \\ Sludge
-i(32729),	-- Monster - Polearm, Epic D 05
 i(32735),	-- Delicate Spencerite \\ Radiant Spencerite
 i(32741),	-- by Arakkoa Disguise \\ Shabby Arakkoa Disguise
 i(32743),	-- Monster - Axe -Doomguard Punisher
@@ -5368,7 +4424,6 @@ i(32959),	-- Tom's Bracer 3
 i(32965),	-- DEBUG - Headless Horseman - Create Fire Node
 i(32966),	-- DEBUG - Headless Horseman - Start Fire
 i(32967),	-- DEBUG - Headless Horseman - Extinguish Fire
-i(32970),	-- [TEST] Steadfast Breastplate
 i(32972),	-- Beer Goggles
 i(33001),	-- Reflective Dust
 i(33003),	-- Test Sword Skill Trinket
@@ -5376,7 +4431,6 @@ i(33005),	-- TEST CHEST MAIL HUNTER
 i(33007),	-- booze's Secret Recipe \\ Grimbooze's Secret Recipe
 i(33010),	-- tah's Note \\ Griftah's Note
 i(33022),	-- Brewfest Mug 2008 (Filled, F)
-i(33027),	-- TEST Mike's Dagger
 i(33046),	-- Insignia of PvP Pwn
 i(33060),	-- Soulbound Test Gem
 i(33061),	-- totem Key \\ Grimtotem Key
@@ -5478,10 +4532,6 @@ i(33995),	-- Indalamar's Ring of Healer Ownage
 i(33996),	-- Indalamar's Ring of 234 Spell Damage
 i(33997),	-- Indalamar's Ring of 400 Attack Power
 i(33998),	-- Indalamar's Ring of 1400 Armor Penetration
-i(34004),	-- Sturdy Female Draenei Mask
-i(34005),	-- Sturdy Female Blood Elf Mask
-i(34006),	-- Sturdy Male Blood Elf Mask
-i(34007),	-- Sturdy Male Draenei Mask
 i(34008),	-- 's Eyesight Enhancing Romance Goggles \\ Blix's Eyesight Enhancing Romance Goggles
 i(34036),	-- QA Test Ring +300 Lifesteal \\ QA Test Ring +300 Resilience Rating
 i(34037),	-- QA Test Ring +100 Hit Rating
@@ -5520,7 +4570,6 @@ i(34419),	-- ium Flight Blade \\ Thorium Flight Blade
 i(34420),	-- ured Legion Scroll \\ Captured Legion Scroll
 i(34426),	-- er Veil Gift \\ Winter Veil Gift
 i(34465),	-- Test Firebloom
-i(34466),	-- Test Fel Iron Toolbox
 i(34467),	-- Test Handful of Fel Iron Bolts
 i(34474),	-- nge Engine Part \\ Strange Engine Part
 i(34476),	-- en Engine Part \\ Broken Engine Part
@@ -5568,7 +4617,6 @@ i(35041),	-- al Gladiator's Libram of Vengeance \\ Brutal Gladiator's Libram of 
 i(35104),	-- al Gladiator's Totem of Indomitability \\ Brutal Gladiator's Totem of Indomitability
 i(35105),	-- al Gladiator's Totem of Survival \\ Brutal Gladiator's Totem of Survival
 i(35106),	-- al Gladiator's Totem of the Third Wind \\ Brutal Gladiator's Totem of the Third Wind
-i(35287),	-- nous Bluetail \\ Luminous Bluetail
 i(35314),	-- ially Digested Weeds \\ Partially Digested Weeds
 i(35396),	-- ant 2H Weapon - Major Agility \\ Enchant 2H Weapon - Major Agility
 i(35397),	-- ant 2H Weapon - Savagery \\ Enchant 2H Weapon - Savagery
@@ -5621,7 +4669,6 @@ i(35459),	-- ant Weapon - Potency \\ Enchant Weapon - Potency
 i(35460),	-- ant Weapon - Soulfrost \\ Enchant Weapon - Soulfrost
 i(35461),	-- ant Weapon - Spellsurge \\ Enchant Weapon - Spellsurge
 i(35462),	-- ant Weapon - Sunfire \\ Enchant Weapon - Sunfire
-i(35485),	-- Goblin Rocket Launcher [PH]
 i(35489),	-- liant Crimson Spinel \\ Brilliant Crimson Spinel \\ Teardrop Crimson Spinel
 i(35499),	-- Ninja Grenade [PH]
 i(35512),	-- et Full of Snow \\ Pocket Full of Snow
@@ -5882,7 +4929,6 @@ i(34778),	-- rean's Primal \\ Imperean's Primal
 i(34779),	-- rean's Primal \\ Imperean's Primal
 i(34781),	-- nishu's Fetish \\ Kaganishu's Fetish
 i(34801),	-- ty's Shopping List \\ Crafty's Shopping List
-i(34802),	-- ty's Tools \\ Crafty's Tools
 i(34803),	-- Tier 1 Northrend Engineering Widget
 i(34804),	-- ndful of Rocknar's Grit \\ A Handful of Rocknar's Grit
 i(34806),	-- Aeire's Totem \\ Sage Aeire's Totem
@@ -6205,7 +5251,6 @@ i(37455),	-- BT56 Mail Healer Gloves2
 i(37457),	-- BT55 Mail Physical Legs4
 i(37459),	-- terflash's Homing Bot \\ Quarterflash's Homing Bot
 i(37464),	-- erfin Horn of Distress \\ Winterfin Horn of Distress
-i(37465),	-- ergarde Mine Bomb \\ Wintergarde Mine Bomb
 i(37466),	-- BT59 Plate Physical Chest4
 i(37469),	-- BT57 Plate Healer Bracer2
 i(37470),	-- BT56 Plate Physical Shoulders4
@@ -6245,7 +5290,6 @@ i(37707),	-- Carrot \\ Wild Carrot
 i(37711),	-- Currency Token Test Token 1
 i(37713),	-- le and Thread \\ Needle and Thread
 i(37716),	-- hbang Grenade \\ Flashbang Grenade
-i(37727),	-- Acorn \\ Ruby Acorn
 i(37738),	-- A Handful of Quills
 i(37741),	-- er of Amnesty \\ Letter of Amnesty
 i(37742),	-- Currency Token Test Token 2
@@ -6963,7 +6007,6 @@ i(41431),	-- packed Explosive Bundle \\ Hardpacked Explosive Bundle
 i(41503),	-- omaceous Earth \\ Diatomaceous Earth
 i(41504),	-- hee Essence \\ Banshee Essence
 i(41505),	-- im's Charm of Earth \\ Thorim's Charm of Earth
-i(41506),	-- ite Boulder \\ Granite Boulder
 i(41507),	-- o Seaforium Charge \\ Jumbo Seaforium Charge
 i(41514),	-- e of the Wind \\ Voice of the Wind
 i(41517),	-- Charred Glyph \\ red Glyph \\ Glyph of Unstable Earth \\ Glyph of Chain Heal
@@ -6986,7 +6029,6 @@ i(41541),	-- Charred Glyph \\ red Glyph \\ Glyph of Water Shield \\ Glyph of Wat
 i(41542),	-- Charred Glyph \\ red Glyph \\ Glyph of Cleansing Waters \\ Glyph of Windfury Weapon
 i(41547),	-- Charred Glyph \\ red Glyph \\ Glyph of Frost Shock
 i(41552),	-- Charred Glyph \\ red Glyph \\ Glyph of Chaining \\ Glyph of Elemental Mastery
-i(41556),	-- Covered Metal \\ Slag Covered Metal
 i(41557),	-- ned Gleaming Ore \\ Refined Gleaming Ore
 i(41558),	-- ous Spark \\ Furious Spark
 i(41584),	-- tbite Bullets \\ Frostbite Bullets
@@ -7164,7 +6206,6 @@ i(42779),	-- ming Chicken Soup \\ Steaming Chicken Soup
 i(42781),	-- Chieftain's Totem \\ The Chieftain's Totem
 i(42782),	-- mhoof's Spear \\ Stormhoof's Spear
 i(42783),	-- mhoof's Mail \\ Stormhoof's Mail
-i(42784),	-- l Proto-Drake Egg \\ Small Proto-Drake Egg
 i(42797),	-- en Proto-Dragon Eggs \\ Stolen Proto-Dragon Eggs
 i(42838),	-- d Harness \\ Runed Harness
 i(42839),	-- Lorehammer \\ The Lorehammer
@@ -7634,7 +6675,6 @@ i(44807),	-- Indalamar's Holy Hand Grenade
 i(44808),	-- ed Horde Armor \\ Imbued Horde Armor
 i(44809),	-- e Herb Pouch \\ Horde Herb Pouch
 i(44812),	-- ey Shooter \\ Turkey Shooter
-i(44818),	-- egarden Egg \\ Noblegarden Egg
 i(44832),	-- Squirt Gun [PH]
 i(44833),	-- Empty Squirt Gun [PH]
 i(44845),	-- Test Mace of Unending Life
@@ -10497,8 +9537,6 @@ i(62276),	-- oded Skull \\ Corroded Skull
 i(62277),	-- lting Ichor \\ Revolting Ichor
 i(62278),	-- sible Fang \\ Invisible Fang
 i(62279),	-- ker-Snack Claw \\ Snicker-Snack Claw
-i(62281),	-- ent Elven Etching \\ Ancient Elven Etching
-i(62282),	-- ent Elven Etching \\ Ancient Elven Etching
 i(62284),	-- Wildhammer Spirit Totem
 i(62312),	-- Plans: <Random Blacksmithing Plan>
 i(62313),	-- Burned Recipe Fragments
@@ -20887,7 +19925,6 @@ i(114678),	-- Stolen Inscription Papers \\ en Inscription Papers
 i(114679),	-- Icespine Stinger \\ pine Stinger
 i(114744),	-- Sentry Turret Dispenser \\ ry Turret Dispenser
 i(114750),	-- 6.0 Leather Hand - Leather_PVPRogue_O_01 - Blue \\ Leather Hand - Leather_PVPRogue_O_01 - Blue
-i(114779),	-- Azerothian Rose \\ othian Rose
 i(114781),	-- Timber \\ er
 i(114820),	-- Spiresalve \\ esalve
 i(114826),	-- Contract: Bruma Swiftstone \\ ract: Bruma Swiftstone
@@ -23514,6 +22551,17 @@ i(140767),	-- Pile of Bits and Bones \\ of Bits and Bones
 i(140774),	-- Vault Ticket \\ t Ticket
 i(140788),	-- Bug Zapper XT \\ Zapper XT
 i(140856),	-- Musken Hide \\ en Hide
+i(140922),	-- Imp Pact \\ Pact
+i(140923),	-- Ghoul Tombstone \\ l Tombstone
+i(140924),	-- Ashtongue Beacon \\ ongue Beacon
+i(140925),	-- Enchanted Bark \\ anted Bark
+i(140926),	-- Bowmen's Orders \\ en's Orders
+i(140927),	-- Water Globe \\ r Globe
+i(140928),	-- Ox Initiate's Pledge \\ nitiate's Pledge
+i(140929),	-- Squire's Oath \\ re's Oath
+i(140930),	-- Acolyte's Vows \\ yte's Vows
+i(140932),	-- Earthen Mark \\ hen Mark
+i(140933),	-- Runed Aspirant's Band \\ d Aspirant's Band
 i(140947),	-- Flourishing Aethril \\ rishing Aethril
 i(140948),	-- Lively Aethril \\ ly Aethril
 i(140950),	-- Iridescent Aethril \\ escent Aethril
@@ -23629,14 +22677,6 @@ i(141333),	-- Codex of the Tranquil Mind \\ x of the Tranquil Mind
 i(141334),	-- Mighty Mess Remover \\ ty Mess Remover
 i(141335),	-- Lost Research Notes \\ Research Notes
 i(141344),	-- Tribute of the Broken Isles \\ ute of the Broken Isles
-i(141384),	-- Emblem of the Dark Covenant \\ em of the Dark Covenant
-i(141386),	-- Giant Pearl Scepter \\ t Pearl Scepter
-i(141392),	-- Fragment of the Soulcage \\ ment of the Soulcage
-i(141393),	-- Onyx Arrowhead \\ Arrowhead
-i(141401),	-- Renewed Lifeblood \\ wed Lifeblood
-i(141403),	-- Tablet of Tyr \\ et of Tyr
-i(141404),	-- Insignia of the Second Command \\ gnia of the Second Command
-i(141405),	-- Senegos' Favor \\ gos' Favor
 i(141527),	-- Slightly Rusted Canteen \\ htly Rusted Canteen
 i(141531),	-- Powered Security Module \\ red Security Module
 i(141624),	-- Love Potion No. 13 \\ Love Potion No. 8 \\ Potion No. 8
@@ -24538,7 +23578,6 @@ i(152861),	-- Rusted Cragscaler Horseshoe \\ ed Cragscaler Horseshoe
 i(152863),	-- Orphaned Krokul Doll \\ aned Krokul Doll
 7.3.0.24651
 i(152897),	-- Fouled Felcore \\ ed Felcore
-i(152939),	-- Mark of the Triumvirate Warriors \\ of the Triumvirate Warriors
 i(152996),	-- Vrykul Toy Boat \\ ul Toy Boat
 i(152999),	-- Imp Meat \\ Meat
 i(153000),	-- Tarnished Timeless Coin \\ ished Timeless Coin
@@ -24665,5 +23704,36 @@ i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 i(248941),	-- [DNT] Dreadscar Battle Planning Map - do not use - new asset
 11.2.7.64877
 i(268368),	-- Fragmented Memento of Epoch Challenges
-11.2.7.64978
-i(252650),	-- Heartglow Listener
+12.0.0.63534
+i(258499),	-- Technique: Restful Bronze Bench \\ Technique: Sturdy Bench
+i(259996),	-- Quel'Thalas Equipment Chest
+12.0.0.63854
+i(262734),	-- [DNT] Mace of the Great Dark \\ Mace of the Great Dark
+12.0.0.64499
+i(266965),	-- Tabard of Amani Abundance
+i(266966),	-- Mantle of Amani Abundance
+i(266967),	-- Shawl of Amani Abundance
+12.0.0.64741
+i(262453),	-- Hearthlight Armillary
+12.0.1.66017
+i(271616),	-- Add Keystone Affix: Lindormi's Guidance
+12.0.1.66102
+i(257199),	-- Giganto Manis
+i(263579),	-- Vivacious Chloroceros
+12.0.1.66192
+i(271631),	-- Light Guardian's Reward
+i(271703),	-- Title: Volunteer
+i(271704),	-- Title: Caring Citizen
+i(271709),	-- Title: The Backbone of the Realm
+i(271710),	-- Title: The Philanthropist
+i(271711),	-- Title: The Everlasting
+i(271712),	-- Title: World Apex
+i(271713),	-- Title: Azeroth's Top Ten Youth
+i(271714),	-- Title: Model of the Era
+i(271715),	-- Title: Big Brother
+12.0.1.66263
+i(265106),	-- Farstriders' Pride Statue
+i(265631),	-- Farstriders' Glory Statue
+i(267466),	-- Silversun Compact Cape
+i(267467),	-- Silversun Compact Tabard
+i(267468),	-- Silversun Compact Shoulderpads

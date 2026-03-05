@@ -16755,7 +16755,6 @@ s(149)/i(908),	-- Plate Shoulderpad (Test)
 s(150)/i(909),	-- Silver Mail Shoulderpads (Test)
 s(185)/i(1162),	-- Pirates Patch (Test)
 s(186)/i(1163),	-- Dwarven Explorer's Monocle (Test)
-s(656)/i(2189),	-- Tigole's Boomstick (TEST)
 s(837)/i(2512),	-- h Arrow \\ Rough Arrow
 s(838)/i(2515),	-- p Arrow \\ Sharp Arrow
 s(839)/i(2516),	-- t Shot \\ Light Shot
@@ -16824,7 +16823,6 @@ s(4402)/i(12385),	-- test
 s(4424)/i(12442),	-- Charm Pouch (DND)
 s(4425)/i(12443),	-- Knucklebone Pouch (DND)
 s(4510)/i(12654),	-- shot \\ Doomshot
-s(4585)/i(12904),	-- n's Super Special Swami Hat \\ Shawn's Super Special Swami Hat
 s(4608)/i(12961),	-- JEFF TEST SHIELD
 s(4609)/i(12962),	-- JEFF TEST GLOVES
 s(4617)/i(12971),	-- JEFF TEST SWORD
@@ -16915,8 +16913,6 @@ s(7483)/i(18764),	-- TEST GUN Raid
 s(7484)/i(18765),	-- TEST GUN Horde50
 s(7485)/i(18800),	-- TEST 1H Amberseal Keeper
 s(7486)/i(18801),	-- TEST 1H Benediction
-s(7537)/i(18881),	-- TEST Ragnaros Hammer
-s(7538)/i(18882),	-- TEST Level 80 Epic
 s(7568)/i(19082),	-- Monster - Fire Arrow
 s(7627)/i(19158),	-- Sulfuras, Hand of Ragnaros \\ TEST Sulfuras, Hand of Ragnaros
 s(7640)/i(19286),	-- Fast Test Ammo
@@ -16925,39 +16921,15 @@ s(7651)/i(19317),	-- Threaded Bullet \\ Ice Threaded Bullet
 s(7790)/i(19742),	-- Earthborn Kilt TEST
 s(7791)/i(19743),	-- Cloaked Hood TEST
 s(7838)/i(19879),	-- Alex's Test Beatdown Staff
-s(8062)/i(20326),	-- 90 Epic Frost Boots
-s(8063)/i(20340),	-- 90 Green Frost Boots
-s(8064)/i(20353),	-- 63 Green Frost Boots
-s(8066)/i(20370),	-- Test Staff 90 epic
-s(8067)/i(20372),	-- Test Staff 77 epic
 s(8091)/i(20487),	-- delar, Stave of the Ancient Keepers DEP \\ Lok'delar, Stave of the Ancient Keepers DEP
-s(8190)/i(20706),	-- rion Reservist's Pants \\ Cenarion Reservist's Pants
-s(8216)/i(20784),	-- 63 green shaman weapon
-s(8226)/i(20796),	-- 90 green shaman weapon
 s(8319)/i(21047),	-- 63 Blue Fire Boots
 s(8320)/i(21060),	-- 66 Epic Fire Boots
 s(8321)/i(21075),	-- 63 Blue Shadow Boots
 s(8322)/i(21088),	-- 66 Epic Shadow Boots
-s(8323)/i(21101),	-- Staff of Spell Penetration - Fire (TEST)
-s(8324)/i(21102),	-- Staff of Spell Penetration - Frost (TEST)
-s(8328)/i(21124),	-- Ahn'Qiraj Wand [PH]
-s(8329)/i(21125),	-- Ahn'Qiraj Staff [PH]
 s(8331)/i(21127),	-- Ahn'Qiraj Mace [PH]
-s(8352)/i(21276),	-- Blessed Qiraji Naturalist Staff UNUSED
-s(8373)/i(21339),	-- Doomcaller's Handwraps [PH]
-s(8538)/i(21594),	-- ers of the Fallen Son \\ Bracers of the Fallen Son
-s(8811)/i(22391),	-- Monster - Staff, Lord Valthalak
-s(8984)/i(22814),	-- Naxxramas Sword 2H 2 [PH]
-s(8987)/i(22817),	-- Naxxramas Polearm [PH]
-s(9075)/i(23034),	-- PH Crit Plate Shoulders \\ Nax PH Crit Plate Shoulders
 s(9084)/i(23051),	-- Monster - Bow, Raid Snake ZG
 s(9123)/i(23212),	-- Scrapper's Vest
 s(9124)/i(23213),	-- Scrapper's Pants
-s(9130)/i(23229),	-- Sword of Sockety Goodness
-s(9131)/i(23230),	-- Dagger of Sockety Goodness
-s(9132)/i(23232),	-- Huge Sword of Sockety Goodness
-s(9219)/i(23362),	-- Hammer of the Sun
-s(9220)/i(23363),	-- Titanic Breastplate
 s(9223)/i(23368),	-- Leather Boots \\ Soft Leather Boots
 s(9261)/i(23421),	-- Engraved Sword
 s(9373)/i(23691),	-- upted Mark of the Lightbringer \\ Corrupted Mark of the Lightbringer
@@ -16969,21 +16941,7 @@ s(9540)/i(24417),	-- t's Arrow \\ Scout's Arrow
 s(9557)/i(24442),	-- Plate Belt of the Silverpine \\ e Belt of the Silverpine \\ Mail Belt of the Silverpine
 s(9558)/i(24443),	-- ers of Shed Fur \\ Bracers of Shed Fur
 s(9559)/i(24444),	-- y Weaved Pants \\ Newly Weaved Pants
-s(9586)/i(24548),	-- zzOLDbrokenitem
-s(10448)/i(25546),	-- QR XXXX Paladin Chest
-s(10449)/i(25547),	-- QR XXXX Druid Shoulders
-s(10451)/i(25551),	-- QR XXXX Hunter Legs
-s(10465)/i(25571),	-- QR 9863 Druid Helm
-s(10466)/i(25572),	-- QR 9863 Shaman Legs
-s(10467)/i(25573),	-- QR 9863 Warrior Chest
-s(10474)/i(25580),	-- QR 9867 Warrior Legs
-s(10475)/i(25581),	-- QR 9867 Hunter Gloves
-s(10476)/i(25582),	-- QR 9867 Druid Moonkin Belt
 s(10511)/i(25625),	-- QR 9922 Feral Druid Staff
-s(10512)/i(25626),	-- QR 9922 Paladin Bracer
-s(10513)/i(25627),	-- QR 9922 Shield
-s(10593)/i(25799),	-- 130 Epic Warrior 1H Axe
-s(10594)/i(25800),	-- 130 Test Caster Legs
 s(10625)/i(25861),	-- e Throwing Axe \\ Crude Throwing Axe
 s(10626)/i(25871),	-- Standard Thrown Weapon
 s(10627)/i(25872),	-- nced Throwing Dagger \\ Balanced Throwing Dagger
@@ -16997,370 +16955,22 @@ s(10676)/i(25967),	-- e Crested Pauldrons \\ Eagle Crested Pauldrons
 s(10677)/i(25968),	-- assi Sentry's Epaulets \\ Shalassi Sentry's Epaulets
 s(10678)/i(25969),	-- callion's Touch \\ Rapscallion's Touch
 s(10679)/i(25970),	-- assi Oracle's Sandals \\ Shalassi Oracle's Sandals
-s(11195)/i(26504),	-- 59 TEST Green Cloth Cloak
-s(11196)/i(26505),	-- 60 TEST Green Cloth Cloak
-s(11197)/i(26506),	-- 61 TEST Green Cloth Cloak
-s(11198)/i(26507),	-- 62 TEST Green Cloth Cloak
-s(11199)/i(26508),	-- 63 TEST Green Cloth Cloak
-s(11200)/i(26509),	-- 64 TEST Green Cloth Cloak
-s(11201)/i(26510),	-- 65 TEST Green Cloth Cloak
-s(11202)/i(26511),	-- 66 TEST Green Cloth Cloak
-s(11203)/i(26512),	-- 67 TEST Green Cloth Cloak
-s(11204)/i(26513),	-- 68 TEST Green Cloth Cloak
-s(11205)/i(26514),	-- 69 TEST Green Cloth Cloak
-s(11206)/i(26515),	-- 70 TEST Green Cloth Cloak
-s(11207)/i(26516),	-- 71 TEST Green Cloth Cloak
-s(11208)/i(26517),	-- 72 TEST Green Cloth Cloak
-s(11209)/i(26546),	-- 59 TEST Green Shield
-s(11210)/i(26547),	-- 60 TEST Green Shield
-s(11211)/i(26548),	-- 61 TEST Green Shield
-s(11212)/i(26549),	-- 62 TEST Green Shield
-s(11213)/i(26550),	-- 63 TEST Green Shield
-s(11214)/i(26551),	-- 64 TEST Green Shield
-s(11215)/i(26552),	-- 65 TEST Green Shield
-s(11216)/i(26553),	-- 66 TEST Green Shield
-s(11217)/i(26554),	-- 67 TEST Green Shield
-s(11218)/i(26555),	-- 68 TEST Green Shield
-s(11219)/i(26556),	-- 69 TEST Green Shield
-s(11220)/i(26557),	-- 70 TEST Green Shield
-s(11221)/i(26558),	-- 71 TEST Green Shield
-s(11222)/i(26559),	-- 72 TEST Green Shield
-s(11223)/i(26560),	-- 59 TEST Green Off Hand
-s(11224)/i(26561),	-- 60 TEST Green Off Hand
-s(11225)/i(26562),	-- 61 TEST Green Off Hand
-s(11226)/i(26563),	-- 62 TEST Green Off Hand
-s(11227)/i(26564),	-- 63 TEST Green Off Hand
-s(11228)/i(26565),	-- 64 TEST Green Off Hand
-s(11229)/i(26566),	-- 65 TEST Green Off Hand
-s(11230)/i(26567),	-- 66 TEST Green Off Hand
-s(11231)/i(26568),	-- 67 TEST Green Off Hand
-s(11232)/i(26569),	-- 68 TEST Green Off Hand
-s(11233)/i(26570),	-- 69 TEST Green Off Hand
-s(11234)/i(26571),	-- 70 TEST Green Off Hand
-s(11235)/i(26572),	-- 71 TEST Green Off Hand
-s(11236)/i(26573),	-- 72 TEST Green Off Hand
-s(11237)/i(26574),	-- 59 TEST Green Dagger
-s(11238)/i(26575),	-- 60 TEST Green Dagger
-s(11239)/i(26576),	-- 61 TEST Green Dagger
-s(11240)/i(26577),	-- 62 TEST Green Dagger
-s(11241)/i(26578),	-- 63 TEST Green Dagger
-s(11242)/i(26579),	-- 64 TEST Green Dagger
-s(11243)/i(26580),	-- 65 TEST Green Dagger
-s(11244)/i(26581),	-- 66 TEST Green Dagger
-s(11245)/i(26582),	-- 67 TEST Green Dagger
-s(11246)/i(26583),	-- 68 TEST Green Dagger
-s(11247)/i(26584),	-- 69 TEST Green Dagger
-s(11248)/i(26585),	-- 70 TEST Green Dagger
-s(11249)/i(26586),	-- 71 TEST Green Dagger
-s(11250)/i(26587),	-- 72 TEST Green Dagger
-s(11251)/i(26588),	-- 59 TEST Green Mace1H
-s(11252)/i(26589),	-- 60 TEST Green Mace1H
-s(11253)/i(26590),	-- 61 TEST Green Mace1H
-s(11254)/i(26591),	-- 62 TEST Green Mace1H
-s(11255)/i(26592),	-- 63 TEST Green Mace1H
-s(11256)/i(26593),	-- 64 TEST Green Mace1H
-s(11257)/i(26594),	-- 65 TEST Green Mace1H
-s(11258)/i(26595),	-- 66 TEST Green Mace1H
-s(11259)/i(26596),	-- 67 TEST Green Mace1H
-s(11260)/i(26597),	-- 68 TEST Green Mace1H
-s(11261)/i(26598),	-- 69 TEST Green Mace1H
-s(11262)/i(26599),	-- 70 TEST Green Mace1H
-s(11263)/i(26600),	-- 71 TEST Green Mace1H
-s(11264)/i(26601),	-- 72 TEST Green Mace1H
-s(11265)/i(26602),	-- 59 TEST Green Mace2H
-s(11266)/i(26603),	-- 60 TEST Green Mace2H
-s(11267)/i(26604),	-- 61 TEST Green Mace2H
-s(11268)/i(26605),	-- 62 TEST Green Mace2H
-s(11269)/i(26606),	-- 63 TEST Green Mace2H
-s(11270)/i(26607),	-- 64 TEST Green Mace2H
-s(11271)/i(26608),	-- 65 TEST Green Mace2H
-s(11272)/i(26609),	-- 66 TEST Green Mace2H
-s(11273)/i(26610),	-- 67 TEST Green Mace2H
-s(11274)/i(26611),	-- 68 TEST Green Mace2H
-s(11275)/i(26612),	-- 69 TEST Green Mace2H
-s(11276)/i(26613),	-- 70 TEST Green Mace2H
-s(11277)/i(26614),	-- 71 TEST Green Mace2H
-s(11278)/i(26615),	-- 72 TEST Green Mace2H
-s(11279)/i(26616),	-- 59 TEST Green Sword1H
-s(11280)/i(26617),	-- 60 TEST Green Sword1H
-s(11281)/i(26618),	-- 61 TEST Green Sword1H
-s(11282)/i(26619),	-- 62 TEST Green Sword1H
-s(11283)/i(26620),	-- 63 TEST Green Sword1H
-s(11284)/i(26621),	-- 64 TEST Green Sword1H
-s(11285)/i(26622),	-- 65 TEST Green Sword1H
-s(11286)/i(26623),	-- 66 TEST Green Sword1H
-s(11287)/i(26624),	-- 67 TEST Green Sword1H
-s(11288)/i(26625),	-- 68 TEST Green Sword1H
-s(11289)/i(26626),	-- 69 TEST Green Sword1H
-s(11290)/i(26627),	-- 70 TEST Green Sword1H
-s(11291)/i(26628),	-- 71 TEST Green Sword1H
-s(11292)/i(26629),	-- 72 TEST Green Sword1H
-s(11293)/i(26630),	-- 59 TEST Green Sword2H
-s(11294)/i(26631),	-- 60 TEST Green Sword2H
-s(11295)/i(26632),	-- 61 TEST Green Sword2H
-s(11296)/i(26633),	-- 62 TEST Green Sword2H
-s(11297)/i(26634),	-- 63 TEST Green Sword2H
-s(11298)/i(26635),	-- 64 TEST Green Sword2H
-s(11299)/i(26636),	-- 65 TEST Green Sword2H
-s(11300)/i(26637),	-- 66 TEST Green Sword2H
-s(11301)/i(26638),	-- 67 TEST Green Sword2H
-s(11302)/i(26639),	-- 68 TEST Green Sword2H
-s(11303)/i(26640),	-- 69 TEST Green Sword2H
-s(11304)/i(26641),	-- 70 TEST Green Sword2H
-s(11305)/i(26642),	-- 71 TEST Green Sword2H
-s(11306)/i(26643),	-- 72 TEST Green Sword2H
-s(11307)/i(26644),	-- 59 TEST Green Staff
-s(11308)/i(26645),	-- 60 TEST Green Staff
-s(11309)/i(26646),	-- 61 TEST Green Staff
-s(11310)/i(26647),	-- 62 TEST Green Staff
-s(11311)/i(26648),	-- 63 TEST Green Staff
-s(11312)/i(26649),	-- 64 TEST Green Staff
-s(11313)/i(26650),	-- 65 TEST Green Staff
-s(11314)/i(26651),	-- 66 TEST Green Staff
-s(11315)/i(26652),	-- 67 TEST Green Staff
-s(11316)/i(26653),	-- 68 TEST Green Staff
-s(11317)/i(26654),	-- 69 TEST Green Staff
-s(11318)/i(26655),	-- 70 TEST Green Staff
-s(11319)/i(26656),	-- 71 TEST Green Staff
-s(11320)/i(26657),	-- 72 TEST Green Staff
-s(11321)/i(26658),	-- 59 TEST Green FistWeapon
-s(11322)/i(26659),	-- 60 TEST Green FistWeapon
-s(11323)/i(26660),	-- 61 TEST Green FistWeapon
-s(11324)/i(26661),	-- 62 TEST Green FistWeapon
-s(11325)/i(26662),	-- 63 TEST Green FistWeapon
-s(11326)/i(26663),	-- 64 TEST Green FistWeapon
-s(11327)/i(26664),	-- 65 TEST Green FistWeapon
-s(11328)/i(26665),	-- 66 TEST Green FistWeapon
-s(11329)/i(26666),	-- 67 TEST Green FistWeapon
-s(11330)/i(26667),	-- 68 TEST Green FistWeapon
-s(11331)/i(26668),	-- 69 TEST Green FistWeapon
-s(11332)/i(26669),	-- 70 TEST Green FistWeapon
-s(11333)/i(26670),	-- 71 TEST Green FistWeapon
-s(11334)/i(26671),	-- 72 TEST Green FistWeapon
 s(11335)/i(26672),	-- 59 TEST Green Axe1H
-s(11336)/i(26673),	-- 60 TEST Green Axe1H
-s(11337)/i(26674),	-- 61 TEST Green Axe1H
-s(11338)/i(26675),	-- 62 TEST Green Axe1H
-s(11339)/i(26676),	-- 63 TEST Green Axe1H
-s(11340)/i(26677),	-- 64 TEST Green Axe1H
-s(11341)/i(26678),	-- 65 TEST Green Axe1H
-s(11342)/i(26679),	-- 66 TEST Green Axe1H
-s(11343)/i(26680),	-- 67 TEST Green Axe1H
-s(11344)/i(26681),	-- 68 TEST Green Axe1H
-s(11345)/i(26682),	-- 69 TEST Green Axe1H
-s(11346)/i(26683),	-- 70 TEST Green Axe1H
-s(11347)/i(26684),	-- 71 TEST Green Axe1H
-s(11348)/i(26685),	-- 72 TEST Green Axe1H
-s(11349)/i(26686),	-- 59 TEST Green Axe2H
-s(11350)/i(26687),	-- 60 TEST Green Axe2H
-s(11351)/i(26688),	-- 61 TEST Green Axe2H
-s(11352)/i(26689),	-- 62 TEST Green Axe2H
-s(11353)/i(26690),	-- 63 TEST Green Axe2H
-s(11354)/i(26691),	-- 64 TEST Green Axe2H
-s(11355)/i(26692),	-- 65 TEST Green Axe2H
-s(11356)/i(26693),	-- 66 TEST Green Axe2H
-s(11357)/i(26694),	-- 67 TEST Green Axe2H
-s(11358)/i(26695),	-- 68 TEST Green Axe2H
-s(11359)/i(26696),	-- 69 TEST Green Axe2H
-s(11360)/i(26697),	-- 70 TEST Green Axe2H
-s(11361)/i(26698),	-- 71 TEST Green Axe2H
-s(11362)/i(26699),	-- 72 TEST Green Axe2H
-s(11363)/i(26700),	-- 59 TEST Green Polearm
-s(11364)/i(26701),	-- 60 TEST Green Polearm
-s(11365)/i(26702),	-- 61 TEST Green Polearm
-s(11366)/i(26703),	-- 62 TEST Green Polearm
-s(11367)/i(26704),	-- 63 TEST Green Polearm
-s(11368)/i(26705),	-- 64 TEST Green Polearm
-s(11369)/i(26706),	-- 65 TEST Green Polearm
-s(11370)/i(26707),	-- 66 TEST Green Polearm
-s(11371)/i(26708),	-- 67 TEST Green Polearm
-s(11372)/i(26709),	-- 68 TEST Green Polearm
-s(11373)/i(26710),	-- 69 TEST Green Polearm
-s(11374)/i(26711),	-- 70 TEST Green Polearm
-s(11375)/i(26712),	-- 71 TEST Green Polearm
-s(11376)/i(26713),	-- 72 TEST Green Polearm
-s(11377)/i(26714),	-- 59 TEST Green Bow
-s(11378)/i(26715),	-- 60 TEST Green Bow
-s(11379)/i(26716),	-- 61 TEST Green Bow
-s(11380)/i(26717),	-- 62 TEST Green Bow
-s(11381)/i(26718),	-- 63 TEST Green Bow
-s(11382)/i(26719),	-- 64 TEST Green Bow
-s(11383)/i(26720),	-- 65 TEST Green Bow
-s(11384)/i(26721),	-- 66 TEST Green Bow
-s(11385)/i(26722),	-- 67 TEST Green Bow
-s(11386)/i(26723),	-- 68 TEST Green Bow
-s(11387)/i(26724),	-- 69 TEST Green Bow
-s(11388)/i(26725),	-- 70 TEST Green Bow
-s(11389)/i(26726),	-- 71 TEST Green Bow
-s(11390)/i(26727),	-- 72 TEST Green Bow
-s(11391)/i(26728),	-- 59 TEST Green Crossbow
-s(11392)/i(26729),	-- 60 TEST Green Crossbow
-s(11393)/i(26730),	-- 61 TEST Green Crossbow
-s(11394)/i(26731),	-- 62 TEST Green Crossbow
-s(11395)/i(26732),	-- 63 TEST Green Crossbow
-s(11396)/i(26733),	-- 64 TEST Green Crossbow
-s(11397)/i(26734),	-- 65 TEST Green Crossbow
-s(11398)/i(26735),	-- 66 TEST Green Crossbow
-s(11399)/i(26736),	-- 67 TEST Green Crossbow
-s(11400)/i(26737),	-- 68 TEST Green Crossbow
-s(11401)/i(26738),	-- 69 TEST Green Crossbow
-s(11402)/i(26739),	-- 70 TEST Green Crossbow
-s(11403)/i(26740),	-- 71 TEST Green Crossbow
-s(11404)/i(26741),	-- 72 TEST Green Crossbow
-s(11405)/i(26742),	-- 59 TEST Green Gun
-s(11406)/i(26743),	-- 60 TEST Green Gun
-s(11407)/i(26744),	-- 61 TEST Green Gun
-s(11408)/i(26745),	-- 62 TEST Green Gun
-s(11409)/i(26746),	-- 63 TEST Green Gun
-s(11410)/i(26747),	-- 64 TEST Green Gun
-s(11411)/i(26748),	-- 65 TEST Green Gun
-s(11412)/i(26749),	-- 66 TEST Green Gun
-s(11413)/i(26750),	-- 67 TEST Green Gun
-s(11414)/i(26751),	-- 68 TEST Green Gun
-s(11415)/i(26752),	-- 69 TEST Green Gun
-s(11416)/i(26753),	-- 70 TEST Green Gun
-s(11417)/i(26754),	-- 71 TEST Green Gun
-s(11418)/i(26755),	-- 72 TEST Green Gun
-s(11419)/i(26756),	-- 59 TEST Green Wand
-s(11420)/i(26757),	-- 60 TEST Green Wand
-s(11421)/i(26758),	-- 61 TEST Green Wand
-s(11422)/i(26759),	-- 62 TEST Green Wand
-s(11423)/i(26760),	-- 63 TEST Green Wand
-s(11424)/i(26761),	-- 64 TEST Green Wand
-s(11425)/i(26762),	-- 65 TEST Green Wand
-s(11426)/i(26763),	-- 66 TEST Green Wand
-s(11427)/i(26764),	-- 67 TEST Green Wand
-s(11428)/i(26765),	-- 68 TEST Green Wand
-s(11429)/i(26766),	-- 69 TEST Green Wand
-s(11430)/i(26767),	-- 70 TEST Green Wand
-s(11431)/i(26768),	-- 71 TEST Green Wand
-s(11432)/i(26769),	-- 72 TEST Green Wand
-s(11433)/i(26770),	-- 59 TEST Green Spell Dagger
-s(11434)/i(26771),	-- 60 TEST Green Spell Dagger
-s(11435)/i(26772),	-- 61 TEST Green Spell Dagger
-s(11436)/i(26773),	-- 62 TEST Green Spell Dagger
-s(11437)/i(26774),	-- 63 TEST Green Spell Dagger
-s(11438)/i(26775),	-- 64 TEST Green Spell Dagger
-s(11439)/i(26776),	-- 65 TEST Green Spell Dagger
-s(11440)/i(26777),	-- 66 TEST Green Spell Dagger
-s(11441)/i(26778),	-- 67 TEST Green Spell Dagger
-s(11442)/i(26779),	-- 68 TEST Green Spell Dagger
-s(11443)/i(26780),	-- 69 TEST Green Spell Dagger
-s(11444)/i(26781),	-- 70 TEST Green Spell Dagger
-s(11445)/i(26782),	-- 71 TEST Green Spell Dagger
-s(11446)/i(26783),	-- 72 TEST Green Spell Dagger
-s(11447)/i(26784),	-- 59 TEST Green Healer Mace
-s(11448)/i(26785),	-- 60 TEST Green Healer Mace
-s(11449)/i(26786),	-- 61 TEST Green Healer Mace
-s(11450)/i(26787),	-- 62 TEST Green Healer Mace
-s(11451)/i(26788),	-- 63 TEST Green Healer Mace
-s(11452)/i(26789),	-- 64 TEST Green Healer Mace
-s(11453)/i(26790),	-- 65 TEST Green Healer Mace
-s(11454)/i(26791),	-- 66 TEST Green Healer Mace
-s(11455)/i(26792),	-- 67 TEST Green Healer Mace
-s(11456)/i(26793),	-- 68 TEST Green Healer Mace
-s(11457)/i(26794),	-- 69 TEST Green Healer Mace
-s(11458)/i(26795),	-- 70 TEST Green Healer Mace
-s(11459)/i(26796),	-- 71 TEST Green Healer Mace
-s(11460)/i(26797),	-- 72 TEST Green Healer Mace
-s(11461)/i(26798),	-- 59 TEST Green Feral Staff
-s(11462)/i(26799),	-- 60 TEST Green Feral Staff
-s(11463)/i(26800),	-- 61 TEST Green Feral Staff
-s(11464)/i(26801),	-- 62 TEST Green Feral Staff
-s(11465)/i(26802),	-- 63 TEST Green Feral Staff
-s(11466)/i(26803),	-- 64 TEST Green Feral Staff
-s(11467)/i(26804),	-- 65 TEST Green Feral Staff
-s(11468)/i(26805),	-- 66 TEST Green Feral Staff
-s(11469)/i(26806),	-- 67 TEST Green Feral Staff
-s(11470)/i(26807),	-- 68 TEST Green Feral Staff
-s(11471)/i(26808),	-- 69 TEST Green Feral Staff
-s(11472)/i(26809),	-- 70 TEST Green Feral Staff
-s(11473)/i(26810),	-- 71 TEST Green Feral Staff
-s(11474)/i(26811),	-- 72 TEST Green Feral Staff
-s(11811)/i(27148),	-- 59 TEST Green Rogue/Hunter Cloak
-s(11812)/i(27149),	-- 60 TEST Green Rogue/Hunter Cloak
-s(11813)/i(27150),	-- 61 TEST Green Rogue/Hunter Cloak
-s(11814)/i(27151),	-- 62 TEST Green Rogue/Hunter Cloak
-s(11815)/i(27152),	-- 63 TEST Green Rogue/Hunter Cloak
-s(11816)/i(27153),	-- 64 TEST Green Rogue/Hunter Cloak
-s(11817)/i(27154),	-- 65 TEST Green Rogue/Hunter Cloak
-s(11818)/i(27155),	-- 66 TEST Green Rogue/Hunter Cloak
-s(11819)/i(27156),	-- 67 TEST Green Rogue/Hunter Cloak
-s(11820)/i(27157),	-- 68 TEST Green Rogue/Hunter Cloak
-s(11821)/i(27158),	-- 69 TEST Green Rogue/Hunter Cloak
-s(11822)/i(27159),	-- 70 TEST Green Rogue/Hunter Cloak
-s(11823)/i(27160),	-- 71 TEST Green Rogue/Hunter Cloak
-s(11824)/i(27161),	-- 72 TEST Green Rogue/Hunter Cloak
-s(11825)/i(27190),	-- 59 TEST Green Druid/Warrior Cloak
-s(11826)/i(27191),	-- 60 TEST Green Druid/Warrior Cloak
-s(11827)/i(27192),	-- 61 TEST Green Druid/Warrior Cloak
-s(11828)/i(27193),	-- 62 TEST Green Druid/Warrior Cloak
-s(11829)/i(27194),	-- 63 TEST Green Druid/Warrior Cloak
-s(11830)/i(27195),	-- 64 TEST Green Druid/Warrior Cloak
-s(11831)/i(27196),	-- 65 TEST Green Druid/Warrior Cloak
-s(11832)/i(27197),	-- 66 TEST Green Druid/Warrior Cloak
-s(11833)/i(27198),	-- 67 TEST Green Druid/Warrior Cloak
-s(11834)/i(27199),	-- 68 TEST Green Druid/Warrior Cloak
-s(11835)/i(27200),	-- 69 TEST Green Druid/Warrior Cloak
-s(11836)/i(27201),	-- 70 TEST Green Druid/Warrior Cloak
-s(11837)/i(27202),	-- 71 TEST Green Druid/Warrior Cloak
-s(11838)/i(27203),	-- 72 TEST Green Druid/Warrior Cloak
-s(11839)/i(27232),	-- 59 TEST Green Shaman Cloak
-s(11840)/i(27233),	-- 60 TEST Green Shaman Cloak
-s(11841)/i(27234),	-- 61 TEST Green Shaman Cloak
-s(11842)/i(27235),	-- 62 TEST Green Shaman Cloak
-s(11843)/i(27236),	-- 63 TEST Green Shaman Cloak
-s(11844)/i(27237),	-- 64 TEST Green Shaman Cloak
-s(11845)/i(27238),	-- 65 TEST Green Shaman Cloak
-s(11846)/i(27239),	-- 66 TEST Green Shaman Cloak
-s(11847)/i(27240),	-- 67 TEST Green Shaman Cloak
-s(11848)/i(27241),	-- 68 TEST Green Shaman Cloak
-s(11849)/i(27242),	-- 69 TEST Green Shaman Cloak
-s(11850)/i(27243),	-- 70 TEST Green Shaman Cloak
-s(11851)/i(27244),	-- 71 TEST Green Shaman Cloak
-s(11852)/i(27245),	-- 72 TEST Green Shaman Cloak
-s(11853)/i(27274),	-- 59 TEST Green Paladin Cloak
-s(11854)/i(27275),	-- 60 TEST Green Paladin Cloak
-s(11855)/i(27276),	-- 61 TEST Green Paladin Cloak
-s(11856)/i(27277),	-- 62 TEST Green Paladin Cloak
-s(11857)/i(27278),	-- 63 TEST Green Paladin Cloak
-s(11858)/i(27279),	-- 64 TEST Green Paladin Cloak
-s(11859)/i(27280),	-- 65 TEST Green Paladin Cloak
-s(11860)/i(27281),	-- 66 TEST Green Paladin Cloak
-s(11861)/i(27282),	-- 67 TEST Green Paladin Cloak
-s(11862)/i(27283),	-- 68 TEST Green Paladin Cloak
-s(11863)/i(27284),	-- 69 TEST Green Paladin Cloak
-s(11864)/i(27285),	-- 70 TEST Green Paladin Cloak
-s(11865)/i(27286),	-- 71 TEST Green Paladin Cloak
-s(11866)/i(27287),	-- 72 TEST Green Paladin Cloak
 s(11929)/i(27486),	-- Alex Test BK Helm
 s(11947)/i(27515),	-- Spotted Feltail \\ Huge Spotted Feltail
 s(11948)/i(27516),	-- mous Barbed Gill Trout \\ Enormous Barbed Gill Trout
-s(11959)/i(27530),	-- Test Epic Belt
 s(11978)/i(27631),	-- le Shrike \\ Needle Shrike
 s(12154)/i(27916),	-- ekk Feather-Darts \\ Sethekk Feather-Darts
 s(12158)/i(27928),	-- inal Edge \\ Terminal Edge
 s(12159)/i(27929),	-- inal Edge \\ Terminal Edge
-s(12178)/i(27961),	-- TEST 60 Blue Paladin DPS Sword2H Slow
-s(12179)/i(27962),	-- TEST 60 Blue Paladin DPS Sword2H Fast
-s(12189)/i(27974),	-- TEST 130 Epic Paladin DPS Sword2H Slow
-s(12190)/i(27975),	-- TEST 130 Epic Paladin DPS Sword2H Fast
-s(12210)/i(28008),	-- TEST 60 Blue Ret Paladin DPS Sword2H Slow
-s(12211)/i(28009),	-- TEST 60 Blue Ret Paladin DPS Sword2H Fast
-s(12221)/i(28021),	-- TEST 130 Epic Ret Paladin DPS Sword2H Slow
-s(12222)/i(28022),	-- TEST 130 Epic Ret Paladin DPS Sword2H Fast
 s(12223)/i(28023),	-- Monster - Throwing Axe (Poison)
 s(12236)/i(28053),	-- ed Arrow \\ Wicked Arrow
 s(12237)/i(28054),	-- hripper's Bladed Chestplate \\ Fleshripper's Bladed Chestplate
 s(12239)/i(28056),	-- kflight Arrow \\ Blackflight Arrow
 s(12241)/i(28060),	-- ct Shot \\ Impact Shot
 s(12242)/i(28061),	-- bite Shell \\ Ironbite Shell
-s(12250)/i(28087),	-- Monster - Sword, Iblis, Blade of the Fallen Seraph
-s(12251)/i(28115),	-- Monster - Obsidian Edged Blade
-s(12289)/i(28165),	-- TEST GUN RocketLauncher
 s(12358)/i(28258),	-- ershrike \\ Nethershrike
 s(12395)/i(28319),	-- iator's War Edge \\ Gladiator's War Edge
-s(12422)/i(28366),	-- Test Orb
 s(12452)/i(28408),	-- en Silver Star \\ Broken Silver Star
 s(12530)/i(28531),	-- ed Shrike \\ Barbed Shrike
 s(12531)/i(28532),	-- er Throwing Knives \\ Silver Throwing Knives \\ Silver Throwing Knifes
@@ -17387,6 +16997,7 @@ s(12893)/i(29009),	-- y Throwing Dagger \\ Heavy Throwing Dagger
 s(12894)/i(29010),	-- ed Throwing Dagger \\ Wicked Throwing Dagger
 s(12897)/i(29013),	-- ed Throwing Axe \\ Jagged Throwing Axe
 s(12898)/i(29014),	-- ksteel Throwing Dagger \\ Blacksteel Throwing Dagger
+s(12980)/i(29114),	-- Monster - Staff, Blood Elf A02 Red - High Red Glow
 s(13025)/i(29201),	-- k Bronze Darts \\ Thick Bronze Darts
 s(13026)/i(29202),	-- ling Steel Axes \\ Whirling Steel Axes
 s(13027)/i(29203),	-- anted Thorium Blades \\ Enchanted Thorium Blades
@@ -17405,8 +17016,6 @@ s(13341)/i(29829),	-- Warrior 105 Epic Test Chest
 s(13342)/i(29830),	-- Warrior 150 Epic Test Chest
 s(13343)/i(29831),	-- Warrior 105 Test 1H Sword
 s(13344)/i(29832),	-- Warrior 150 Test 1H Sword
-s(13345)/i(29833),	-- Warrior 105 Test 2H Axe
-s(13346)/i(29834),	-- Warrior 150 Test 2H Axe
 s(13347)/i(29835),	-- Paladin 105 Epic Test Chest
 s(13348)/i(29836),	-- Paladin 150 Epic Test Chest
 s(13349)/i(29855),	-- Mage 105 Epic Test Chest
@@ -17415,8 +17024,6 @@ s(13351)/i(29875),	-- Warlock 105 Epic Test Chest
 s(13352)/i(29876),	-- Warlock 150 Epic Test Chest
 s(13353)/i(29878),	-- Priest 105 Epic Test Chest
 s(13354)/i(29879),	-- Priest 150 Epic Test Chest
-s(13355)/i(29880),	-- Paladin 105 Test 2H Axe
-s(13356)/i(29881),	-- Paladin 150 Test 2H Axe
 s(13357)/i(29882),	-- Hunter 105 Epic Test Chest
 s(13358)/i(29883),	-- Hunter 150 Epic Test Chest
 s(13359)/i(29884),	-- Hunter 105 Epic Test Gun
@@ -17454,7 +17061,6 @@ s(14022)/i(30949),	-- QR 10574 Mail Hunter Helm
 s(14027)/i(30954),	-- QR 10637 Mail Hunter Bracers
 s(14036)/i(30963),	-- QR 10574 Plate Warrior Gloves
 s(14038)/i(30965),	-- QR 10637 Plate Warrior Boots
-s(14275)/i(31273),	-- Monster - Polearm, Epic D
 s(14334)/i(31366),	-- worn Gas Mask \\ Felsworn Gas Mask
 s(14431)/i(31497),	-- Monster - Throwing Trident, Wicked
 s(14432)/i(31499),	-- Monster - Throwing Trident, Wicked Blue Glow
@@ -17464,7 +17070,6 @@ s(14645)/i(31949),	-- en's Arrow \\ Warden's Arrow
 s(14740)/i(32054),	-- iless Gladiator's War Edge \\ Merciless Gladiator's War Edge
 s(14764)/i(32091),	-- Alex's Test Beatdown Mace
 s(14907)/i(32326),	-- ted Blades of Zarak \\ Twisted Blades of Zarak
-s(14940)/i(32371),	-- Monster - Polearm, Epic D - Glow
 s(14946)/i(32378),	-- er Star \\ Silver Star
 s(14947)/i(32384),	-- Monster - Sword, 1H - Blackwing A02
 s(14965)/i(32414),	-- Tom's Legs A
@@ -17477,7 +17082,6 @@ s(14972)/i(32421),	-- Tom's Axe A
 s(14973)/i(32422),	-- Tom's Axe B
 s(14983)/i(32466),	-- Bland Blade
 s(15046)/i(32594),	-- Ogrela Test Tunic
-s(15079)/i(32729),	-- Monster - Polearm, Epic D 05
 s(15082)/i(32740),	-- Monster - Dagger (Maiev)
 s(15083)/i(32743),	-- Monster - Axe -Doomguard Punisher
 s(15085)/i(32760),	-- Macho Gnome's Arrow \\ The Macho Gnome's Arrow
@@ -17490,10 +17094,8 @@ s(15168)/i(32914),	-- Bland Shiv
 s(15197)/i(32949),	-- Unusually Slow Sword
 s(15198)/i(32950),	-- Unusually Slow Mace
 s(15199)/i(32951),	-- Unusually Slow Two-Hander
-s(15205)/i(32970),	-- [TEST] Steadfast Breastplate
 s(15234)/i(33005),	-- TEST CHEST MAIL HUNTER
 s(15244)/i(33022),	-- Brewfest Mug 2008 (Filled, F)
-s(15245)/i(33027),	-- TEST Mike's Dagger
 s(15246)/i(33040),	-- ired Diving Gear \\ Repaired Diving Gear
 s(15249)/i(33073),	-- Test_Ears_Hidden(builtByBlue)
 s(15250)/i(33074),	-- Test_Eyes_Hidden(builtByBlue)
@@ -18110,6 +17712,7 @@ s(26316)/i(53815),	-- Art Template Leather Head - Leather_Common_B_02 - Default
 s(26317)/i(53816),	-- Art Template Leather Legs - Leather_Common_B_02 - Default
 s(26318)/i(53817),	-- Art Template Leather Shoulder - Leather_Common_B_02 - Default
 s(26319)/i(53818),	-- Art Template Leather Wrist - Leather_Common_B_02 - Default
+s(26322)/i(53869),	-- Paint (Shirt) NOT GOOD FOR THE LADIES (NYI) \\ War Paint (Shirt) NOT GOOD FOR THE LADIES (NYI)
 s(26325)/i(53881),	-- Art Template Leather Belt  - Leather_Common_C_01 - Blue
 s(26326)/i(53882),	-- Art Template Leather Boot  - Leather_Common_C_01 - Blue
 s(26327)/i(53883),	-- Art Template Leather Chest  - Leather_Common_C_01 - Blue
@@ -35557,6 +35160,7 @@ s(169560)/i(190960),	-- Duck Tail Feathers
 s(169561)/i(190964),	-- Ornate Chest Key
 s(169562)/i(190965),	-- Bundle of Duck Feathers
 s(169602)/i(191078),	-- Gold Rolling Pin
+s(169644)/i(191271),	-- Black Smith's Tabard
 s(169691)/i(191647),	-- Tuskarr Fishing Pole
 s(180390)/i(191229),	-- Khaz'gorite Leatherworker's Toolset \\ Titanicium Leatherworker's Toolset
 s(180653)/i(193485),	-- Protective Gloves \\ Engineer's Protective Gloves
@@ -35568,6 +35172,14 @@ s(181139)/i(195480),	-- Seal of Diurna's Chosen \\ Seal of Diurna's Chosesn \\ 1
 s(181155)/i(195496),	-- Eye of the Vengeful Hurricane \\ 10.0 Raid - Vault of the Incarnates - Boss 03 - Windform - Accessory - Neck
 s(181161)/i(195502),	-- Terros's Captive Core \\ Terros' Captive Core \\ 10.0 Raid - Vault of the Incarnates - Boss 04 - Terros - Accessory - Neck
 s(181185)/i(195526),	-- Seal of Filial Duty \\ 10.0 Raid - Vault of the Incarnates - Boss 07 - Diurna - Accessory - Ring
+s(181345)/i(197910),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Shoulder
+s(181346)/i(197911),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Legs
+s(181347)/i(197912),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Chest
+s(181348)/i(197913),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Helm
+s(181349)/i(197914),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Hands
+s(181350)/i(197915),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Feet
+s(181351)/i(197916),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Belt
+s(181352)/i(197917),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Wrist
 s(181355)/i(197910),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Shoulder
 s(181356)/i(197910),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Shoulder
 s(181357)/i(197910),	-- 10.0 Raid - Vault of the Incarnates - DK Set - Armor - Plate Shoulder
@@ -35657,6 +35269,8 @@ s(182328)/i(199933),	-- 10.0 Enchanting - Weapon - Wand 2
 s(183122)/i(201046),	-- Dreamwarding Dripbrew \\ [NYI] PH Food - Late Night Lab
 10.0.0.45661
 s(183298)/i(198246),	-- Khaz'gorite Encased Samophlange \\ Titanicium Encased Samophlange \\ Multitool T2 [PH] \\ Multitool T2
+10.0.0.45970
+s(183900)/i(201775),	-- Crimson Aspirant's Wand
 10.0.0.46479
 s(184043)/i(201972),	-- Crimson Gladiator's Splitter
 s(184046)/i(201992),	-- [PH] BoE Ring \\ Emissary's Flamewrought Seal
@@ -35669,6 +35283,20 @@ s(184009)/i(201962),	-- Heat of Primal Winter \\ Remnant of Primal Winter
 10.0.7.47910
 s(185364)/i(203798),	-- Copy Jin'do's Bag of Whammies
 10.1.0.48480
+s(184554)/i(202581),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Leather - WRIST 1
+s(184581)/i(202608),	-- Power-Draining Spire
+s(184582)/i(202648),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Accessory - CLOAK 2
+s(184583)/i(202651),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Cloth - FEET 2
+s(184585)/i(202653),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Cloth - WRIST 2
+s(184586)/i(202654),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Leather - FEET 2
+s(184588)/i(202656),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Leather - WRIST 2
+s(184589)/i(202657),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Mail - FEET 2
+s(184590)/i(202658),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Mail - WAIST 2
+s(184592)/i(202660),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Plate - FEET 2
+s(184593)/i(202661),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Plate - WAIST 2
+s(184594)/i(202662),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Armor - Plate - WRIST 2
+s(184595)/i(202666),	-- 10.1 Raid - Black Dragon Labs - Boss <#> - <Boss Name> - Accessory - CLOAK 3
+s(185425)/i(204087),	-- 10.1 Cloak Test Item
 s(185531)/i(202608),	-- Power-Draining Spire
 s(185532)/i(202608),	-- Power-Draining Spire
 s(185533)/i(202608),	-- Power-Draining Spire
@@ -35755,6 +35383,11 @@ s(192438)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
 s(192439)/i(207129),	-- Robes of the Ashen Grove \\ Leather - CHEST 1
 10.2.6.53840
 s(197334)/i(216027),	-- Draconic Gladiator's Silk Blouse
+11.0.0.54311
+s(219604)/i(222813),	-- Adaptive Delver's Shawl
+s(219648)/i(222493),	-- Artisan Leatherworker's Toolset
+11.0.0.54361
+s(220382)/i(224467),	-- Forgotten Axe
 12.0.0.63534
 s(287077)/i(237828),	-- Spellbreaker's March
 s(287078)/i(237829),	-- Spellbreaker's Shelter
@@ -35833,6 +35466,8 @@ s(302133)/i(260376),	-- Breastplate of the Final Defense \\ 12.0 Raid - Plate - 
 s(302135)/i(260377),	-- Fading Dawn Sabatons \\ 12.0 Raid - Plate - Feet
 s(302136)/i(260377),	-- Fading Dawn Sabatons \\ 12.0 Raid - Plate - Feet
 s(302137)/i(260377),	-- Fading Dawn Sabatons \\ 12.0 Raid - Plate - Feet
+12.0.0.63854
+s(302487)/i(262734),	-- [DNT] Mace of the Great Dark \\ Mace of the Great Dark
 12.0.0.63967
 s(303352)/i(264447),	-- Ring of the Threshadon's Heart
 s(303353)/i(264448),	-- Featherwoven Promise Band
@@ -35840,6 +35475,10 @@ s(303353)/i(264448),	-- Featherwoven Promise Band
 s(303634)/i(264969),	-- Extinction Voulge
 12.0.0.64228
 s(303985)/i(265814),	-- Noble's Signet Ring
+12.0.0.64499
+s(304223)/i(266965),	-- Tabard of Amani Abundance
+s(304224)/i(266966),	-- Mantle of Amani Abundance
+s(304225)/i(266967),	-- Shawl of Amani Abundance
 12.0.1.64889
 s(304617)/i(268634),	--
 s(304618)/i(268635),	--
@@ -35855,3 +35494,16 @@ s(304626)/i(268643),	--
 s(304733)/i(268960),	--
 s(304734)/i(268971),	--
 s(304735)/i(269014),	--
+12.0.1.66013
+s(307643)/i(249335),	-- Imperator's Banner \\ 12.0 Raid - Generic - Cloak
+s(307644)/i(249335),	-- Imperator's Banner \\ 12.0 Raid - Generic - Cloak
+s(307645)/i(249335),	-- Imperator's Banner \\ 12.0 Raid - Generic - Cloak
+s(307646)/i(249335),	-- Imperator's Banner \\ 12.0 Raid - Generic - Cloak
+s(307647)/i(249370),	-- Draconic Nullcape \\ 12.0 Raid - Generic - Cloak
+s(307648)/i(249370),	-- Draconic Nullcape \\ 12.0 Raid - Generic - Cloak
+s(307649)/i(249370),	-- Draconic Nullcape \\ 12.0 Raid - Generic - Cloak
+s(307650)/i(249370),	-- Draconic Nullcape \\ 12.0 Raid - Generic - Cloak
+12.0.1.66263
+s(304272)/i(267466),	-- Silversun Compact Cape
+s(304273)/i(267467),	-- Silversun Compact Tabard
+s(304274)/i(267468),	-- Silversun Compact Shoulderpads

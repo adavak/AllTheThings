@@ -4,7 +4,6 @@ r(1221172),	-- Green Thumb
 r(1221179),	-- Magical Mulch
 r(1221180),	-- Imbued Mulch
 r(1221181),	-- Empowered Mulch
-r(1224892),	-- Wild Argentleaf
 r(1224894),	-- Wild Mana Lily
 r(1225128),	-- Overload Lightfused Herb
 r(1225137),	-- Overload Primal Herb
@@ -18,6 +17,8 @@ r(1265720),	-- Finesse
 r(1265724),	-- Perception
 r(1265728),	-- Deftness
 r(1265814),	-- Artisan Herbalist's Moxie
+12.0.1.66066
+r(1223014),	-- Overload Infused Herb
 
 
 
@@ -72,3 +73,5 @@ r(1265720),	-- Finesse
 r(1265724),	-- Perception
 r(1265728),	-- Deftness
 r(1265814),	-- Artisan Herbalist's Moxie
+12.0.1.66066
+r(1223014),	-- Overload Infused Herb

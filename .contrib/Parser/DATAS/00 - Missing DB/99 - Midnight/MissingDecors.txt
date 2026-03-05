@@ -542,6 +542,7 @@ decor(12419),	-- [DNT] [AUTOGEN] 12PM_Primitive_Ritual_Effigy02.m2
 decor(14349),	-- [DNT] [AUTOGEN] 12PM_Primitive_Ritual_Effigy07.m2
 decor(14353),	-- [DNT] [AUTOGEN] 12PH_Leg_6HU_BLACKSMITH_FORGE03.m2
 decor(14556),	-- [DNT] [AUTOGEN] 12VE_VoidElf_Decor_Rugs03.m2
+decor(14583),	-- Hearthlight Armillary \\ Gilded Thalassian Armillary \\ [DNT] [AUTOGEN] 12BE_BloodElf_Decor_ArmillarySphere01.m2
 decor(14628),	-- [DNT] [AUTOGEN] 12PM_Primitive_Decor_Rug01.m2
 decor(14629),	-- [DNT] [AUTOGEN] 12PM_Primitive_Lighting_CampFire01.m2
 decor(14630),	-- [DNT] [AUTOGEN] 12PM_Primitive_Lighting_CampFire_Unlit01.m2
@@ -638,10 +639,10 @@ decor(16097),	-- Void Elf Bedroll \\ [DNT] [AUTOGEN] 12VE_VoidElf_Furniture_BedR
 decor(16316),	-- [DNT] [AUTOGEN] 12TR_Amani_Navigation_SignPost01.m2
 decor(16317),	-- [DNT] [AUTOGEN] 12DU_MaisaraHills_Ritual_EncounterAltar01.M2
 12.0.0.64228
-decor(16691),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue06.M2
+decor(16691),	-- Farstriders' Pride Statue \\ [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue06.M2
 decor(16808),	-- [DNT] [AUTOGEN] 12TR_Amani_Structure_Hex_Awning01.m2
 decor(16963),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Decor_DraperySet05.m2
-decor(17294),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue07.M2
+decor(17294),	-- Farstriders' Glory Statue \\ [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue07.M2
 decor(17476),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Crafting_Tongs01.m2
 decor(17517),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Navigation_Fence02.m2
 12.0.0.64339
@@ -686,5 +687,3 @@ decor(20172),	-- [DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_HangingLight01.m
 12.0.1.65337
 decor(20162),	-- [DNT] [AUTOGEN] 12SN_Snakeoid_Decor_Tendril07.m2
 decor(20163),	-- [DNT] [AUTOGEN] 12SN_Snakeoid_Decor_Tendril08.m2
-12.0.1.65893
-decor(11287),	-- Sanctuary's Horadric Cube

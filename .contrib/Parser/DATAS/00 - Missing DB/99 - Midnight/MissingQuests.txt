@@ -1,5 +1,3 @@
-1.13.2.30073
-q(55296),	--
 2.5.1.38043
 q(8344),	-- Windows to the Source	 TBC:Windows to the Source	 WOTLK:Windows to the Source	 CATA:Windows to the Source	 MOP:Windows to the Source
 q(9347),	-- Voidwalkers Gone Wild	 TBC:Voidwalkers Gone Wild	 WOTLK:Voidwalkers Gone Wild	 CATA:Voidwalkers Gone Wild
@@ -142,7 +140,6 @@ q(24427),	-- Call to Arms: Alterac Valley	 WOTLK:Call to Arms: Alterac Valley	 C
 q(24508),	-- Temp Quest Record	 WOTLK:Temp Quest Record	 CATA:Temp Quest Record	 MOP:Temp Quest Record
 q(24509),	-- Temp Quest Record	 WOTLK:Temp Quest Record	 CATA:Temp Quest Record	 MOP:Temp Quest Record
 q(24746),	-- REUSE	 WOTLK:REUSE	 CATA:REUSE	 MOP:REUSE
-q(25286),	-- Words for Delivery	 WOTLK:Words for Delivery	 CATA:Words for Delivery	 MOP:Words for Delivery
 4.4.0.53627
 q(13574),	-- Peering Into the Vortex (DEPRECATED)
 q(13608),	-- Along for the Ride
@@ -1011,6 +1008,8 @@ q(48457),	-- Tracking Quest
 q(48796),	--
 q(48798),	--
 q(48937),	-- Create Netherwalker's Portal Generator
+10.0.7.48966
+q(75449),	--
 12.0.0.63534
 q(85916),	-- BETA:Midnight
 q(85917),	-- BETA:Midnight
@@ -1021,17 +1020,14 @@ q(85921),	-- BETA:Midnight
 q(86478),	--
 q(86526),	--
 q(86625),	-- BETA:The Clue in the Inn
-q(86645),	-- BETA:Hidden Quest [DNT]
 q(86662),	--
 q(86688),	--
 q(86689),	--
 q(86690),	--
 q(86691),	--
 q(86713),	--
-q(86736),	-- BETA:Paved in Ash
 q(86794),	--
 q(86802),	--
-q(86810),	--
 q(86816),	--
 q(86847),	--
 q(86863),	--
@@ -1046,38 +1042,8 @@ q(86996),	--
 q(87300),	--
 q(87309),	--
 q(87326),	-- BETA:deprecates
-q(87421),	--
 q(87670),	--
-q(87729),	--
 q(87730),	--
-q(87731),	--
-q(87732),	--
-q(87733),	--
-q(87734),	--
-q(87735),	--
-q(87736),	--
-q(87737),	--
-q(87738),	--
-q(87739),	--
-q(87740),	--
-q(87741),	--
-q(87742),	--
-q(87743),	--
-q(87744),	--
-q(87745),	--
-q(87746),	--
-q(87747),	--
-q(87748),	--
-q(87749),	--
-q(87750),	--
-q(87751),	--
-q(87752),	--
-q(87753),	--
-q(87754),	--
-q(87755),	--
-q(87756),	--
-q(87757),	--
-q(87758),	--
 q(87762),	--
 q(87763),	--
 q(87764),	--
@@ -1779,35 +1745,14 @@ q(88459),	--
 q(88460),	--
 q(88461),	--
 q(88462),	--
-q(88463),	--
 q(88464),	--
-q(88465),	--
-q(88466),	--
 q(88467),	--
 q(88468),	--
-q(88469),	--
-q(88470),	--
-q(88471),	--
-q(88472),	--
 q(88473),	--
 q(88474),	--
-q(88475),	--
-q(88476),	--
-q(88477),	--
-q(88478),	--
-q(88479),	--
-q(88480),	--
-q(88481),	--
 q(88482),	--
 q(88483),	--
-q(88484),	--
-q(88485),	--
-q(88486),	--
-q(88487),	--
-q(88488),	--
 q(88489),	--
-q(88490),	--
-q(88491),	--
 q(88492),	--
 q(88493),	--
 q(88494),	--
@@ -1847,7 +1792,6 @@ q(88527),	--
 q(88528),	--
 q(88529),	--
 q(88530),	--
-q(88531),	--
 q(88532),	--
 q(88533),	--
 q(88534),	--
@@ -1858,10 +1802,8 @@ q(88538),	--
 q(88539),	--
 q(88540),	--
 q(88541),	--
-q(88542),	--
 q(88543),	--
 q(88544),	--
-q(88545),	--
 q(88546),	--
 q(88547),	--
 q(88548),	--
@@ -1918,10 +1860,6 @@ q(88598),	--
 q(88599),	--
 q(88600),	--
 q(88601),	--
-q(88610),	--
-q(88611),	--
-q(88618),	--
-q(88619),	--
 q(88622),	--
 q(88623),	--
 q(88624),	--
@@ -1952,12 +1890,6 @@ q(88648),	--
 q(88649),	--
 q(88650),	--
 q(88651),	--
-q(88673),	--
-q(88674),	--
-q(88675),	--
-q(88676),	--
-q(88677),	--
-q(88678),	--
 q(88696),	--
 q(88697),	--
 q(88698),	--
@@ -1968,13 +1900,11 @@ q(88702),	--
 q(88703),	--
 q(88704),	--
 q(88705),	--
-q(88706),	--
+q(88707),	--
 q(88709),	--
-q(88770),	--
 q(88918),	--
 q(88924),	--
 q(88982),	-- BETA:Prey Contract: Renegade Magister
-q(88985),	-- BETA:Recuperating Returns
 q(89000),	--
 q(89002),	-- BETA:zzzDEPRECATEDzzz
 q(89003),	-- BETA:zzzDEPRECATEDzzz
@@ -1982,137 +1912,49 @@ q(89004),	-- BETA:zzzDEPRECATEDzzz
 q(89005),	-- BETA:zzzDEPRECATEDzzz
 q(89030),	--
 q(89044),	--
-q(89067),	--
-q(89068),	--
-q(89069),	--
-q(89070),	--
-q(89071),	--
 q(89072),	--
-q(89073),	--
-q(89074),	--
 q(89075),	--
 q(89076),	--
 q(89077),	--
-q(89078),	--
-q(89079),	--
-q(89080),	--
-q(89081),	--
-q(89082),	--
-q(89083),	--
-q(89084),	--
-q(89085),	--
 q(89086),	--
 q(89087),	--
 q(89088),	--
-q(89089),	--
-q(89090),	--
-q(89091),	--
-q(89092),	--
-q(89093),	--
-q(89094),	--
-q(89095),	--
-q(89096),	--
 q(89097),	--
 q(89098),	--
 q(89099),	--
-q(89100),	--
 q(89101),	--
-q(89102),	--
-q(89103),	--
-q(89104),	--
-q(89105),	--
-q(89106),	--
-q(89107),	--
 q(89108),	--
 q(89109),	--
 q(89110),	--
 q(89111),	--
-q(89112),	--
-q(89113),	--
-q(89114),	--
-q(89115),	--
-q(89116),	--
-q(89117),	--
-q(89118),	--
 q(89119),	--
 q(89120),	--
 q(89121),	--
-q(89122),	--
-q(89123),	--
-q(89124),	--
-q(89125),	--
-q(89126),	--
-q(89127),	--
-q(89128),	--
-q(89129),	--
 q(89130),	--
 q(89131),	--
 q(89132),	--
-q(89133),	--
-q(89134),	--
-q(89135),	--
-q(89136),	--
-q(89137),	--
-q(89138),	--
-q(89139),	--
-q(89140),	--
 q(89141),	--
 q(89142),	--
 q(89143),	--
-q(89144),	--
-q(89145),	--
-q(89146),	--
-q(89147),	--
-q(89148),	--
-q(89149),	--
-q(89150),	--
-q(89151),	--
 q(89152),	--
 q(89153),	--
 q(89154),	--
-q(89155),	--
-q(89156),	--
-q(89157),	--
 q(89158),	--
-q(89159),	--
-q(89160),	--
 q(89161),	--
-q(89162),	--
 q(89163),	--
 q(89164),	--
 q(89165),	--
-q(89166),	--
-q(89167),	--
-q(89168),	--
 q(89169),	--
-q(89170),	--
-q(89171),	--
-q(89172),	--
-q(89173),	--
 q(89174),	--
 q(89175),	--
 q(89176),	--
-q(89177),	--
-q(89178),	--
-q(89179),	--
-q(89180),	--
-q(89181),	--
-q(89182),	--
-q(89183),	--
-q(89184),	--
 q(89185),	--
 q(89186),	--
 q(89187),	--
 q(89272),	--
 q(89275),	--
-q(89276),	--
 q(89277),	--
 q(89278),	--
-q(89279),	--
-q(89280),	--
-q(89281),	--
-q(89282),	--
-q(89283),	--
 q(89285),	--
 q(89286),	--
 q(89287),	--
@@ -2128,23 +1970,8 @@ q(89315),	--
 q(89316),	--
 q(89339),	--
 q(89387),	--
-q(89388),	--
 q(89422),	--
 q(89423),	--
-q(89424),	--
-q(89425),	--
-q(89426),	--
-q(89427),	--
-q(89428),	--
-q(89429),	--
-q(89430),	--
-q(89432),	--
-q(89433),	--
-q(89434),	--
-q(89435),	--
-q(89436),	--
-q(89437),	--
-q(89438),	--
 q(89439),	--
 q(89460),	--
 q(89461),	--
@@ -2152,229 +1979,29 @@ q(89483),	-- BETA:Beginning of Abundance
 q(89564),	--
 q(89576),	--
 q(89577),	--
-q(90016),	--
-q(90017),	--
-q(90018),	--
-q(90019),	--
-q(90020),	--
-q(90021),	--
-q(90022),	--
-q(90023),	--
-q(90024),	--
-q(90025),	--
-q(90026),	--
-q(90027),	--
-q(90028),	--
-q(90029),	--
-q(90030),	--
-q(90031),	--
-q(90032),	--
-q(90033),	--
-q(90034),	--
-q(90035),	--
-q(90036),	--
-q(90037),	--
-q(90038),	--
-q(90039),	--
-q(90040),	--
-q(90041),	--
-q(90042),	--
-q(90043),	--
-q(90044),	--
-q(90045),	--
-q(90046),	--
-q(90047),	--
-q(90048),	--
-q(90049),	--
-q(90050),	--
-q(90051),	--
-q(90052),	--
-q(90053),	--
-q(90054),	--
-q(90055),	--
-q(90056),	--
-q(90057),	--
-q(90058),	--
-q(90059),	--
-q(90060),	--
 q(90061),	--
-q(90062),	--
-q(90063),	--
-q(90064),	--
-q(90065),	--
-q(90066),	--
-q(90067),	--
-q(90068),	--
-q(90069),	--
-q(90070),	--
-q(90071),	--
-q(90072),	--
-q(90073),	--
-q(90074),	--
 q(90075),	--
 q(90076),	--
 q(90077),	--
 q(90078),	--
 q(90079),	--
 q(90080),	--
-q(90082),	--
-q(90083),	--
 q(90092),	--
 q(90093),	-- BETA:Prey Contract: Murloc Shadowhunter
 q(90137),	--
-q(90138),	--
-q(90229),	--
 q(90230),	--
 q(90231),	--
-q(90232),	--
-q(90233),	--
-q(90234),	--
-q(90235),	--
 q(90236),	--
-q(90237),	--
-q(90238),	--
-q(90239),	--
-q(90240),	--
-q(90241),	--
-q(90242),	--
-q(90243),	--
-q(90244),	--
-q(90245),	--
-q(90246),	--
-q(90247),	--
-q(90248),	--
-q(90249),	--
-q(90250),	--
-q(90251),	--
-q(90252),	--
-q(90253),	--
-q(90254),	--
-q(90255),	--
-q(90256),	--
-q(90257),	--
-q(90258),	--
-q(90259),	--
-q(90260),	--
-q(90261),	--
-q(90262),	--
-q(90263),	--
-q(90264),	--
-q(90265),	--
-q(90266),	--
-q(90267),	--
-q(90268),	--
-q(90269),	--
-q(90270),	--
-q(90271),	--
-q(90272),	--
-q(90273),	--
-q(90274),	--
-q(90275),	--
-q(90276),	--
-q(90277),	--
-q(90278),	--
-q(90279),	--
-q(90280),	--
-q(90281),	--
-q(90282),	--
-q(90283),	--
-q(90284),	--
-q(90285),	--
-q(90286),	--
-q(90287),	--
-q(90288),	--
-q(90289),	--
-q(90290),	--
-q(90291),	--
-q(90292),	--
-q(90293),	--
-q(90294),	--
-q(90295),	--
-q(90296),	--
-q(90297),	--
-q(90298),	--
-q(90299),	--
-q(90300),	--
 q(90301),	--
-q(90302),	--
-q(90303),	--
-q(90304),	--
 q(90305),	--
-q(90306),	--
-q(90307),	--
-q(90308),	--
 q(90309),	--
 q(90310),	--
-q(90311),	--
 q(90312),	--
 q(90313),	--
 q(90314),	--
 q(90315),	--
 q(90316),	--
 q(90317),	--
-q(90318),	--
-q(90389),	--
-q(90390),	--
-q(90391),	--
-q(90392),	--
-q(90393),	--
-q(90394),	--
-q(90395),	--
-q(90396),	--
-q(90397),	--
-q(90398),	--
-q(90399),	--
-q(90400),	--
-q(90401),	--
-q(90402),	--
-q(90403),	--
-q(90404),	--
-q(90405),	--
-q(90406),	--
-q(90407),	--
-q(90408),	--
-q(90409),	--
-q(90410),	--
-q(90411),	--
-q(90412),	--
-q(90413),	--
-q(90414),	--
-q(90415),	--
-q(90416),	--
-q(90417),	--
-q(90418),	--
-q(90419),	--
-q(90420),	--
-q(90421),	--
-q(90422),	--
-q(90423),	--
-q(90424),	--
-q(90425),	--
-q(90426),	--
-q(90427),	--
-q(90428),	--
-q(90429),	--
-q(90430),	--
-q(90431),	--
-q(90432),	--
-q(90433),	--
-q(90434),	--
-q(90435),	--
-q(90436),	--
-q(90437),	--
-q(90438),	--
-q(90439),	--
-q(90440),	--
-q(90441),	--
-q(90442),	--
-q(90443),	--
-q(90444),	--
-q(90445),	--
-q(90446),	--
-q(90447),	--
-q(90448),	--
-q(90449),	--
-q(90450),	--
 q(90451),	--
 q(90452),	--
 q(90453),	--
@@ -2385,24 +2012,7 @@ q(90457),	--
 q(90458),	--
 q(90505),	--
 q(90538),	-- BETA:Prey Contract: Zealous Crusader
-q(90546),	-- BETA:Missing Paladins
-q(90547),	-- BETA:Missing Paladins
-q(90548),	--
-q(90549),	--
-q(90550),	--
-q(90551),	--
-q(90552),	--
-q(90553),	--
-q(90554),	--
-q(90555),	--
-q(90570),	--
-q(90573),	--
-q(90574),	--
-q(90576),	--
-q(90615),	-- BETA:Be Grudge You
 q(90618),	--
-q(90620),	--
-q(90621),	--
 q(90623),	--
 q(90658),	--
 q(90671),	-- BETA:Friend of the Grummles
@@ -2414,6 +2024,7 @@ q(90720),	--
 q(90721),	--
 q(90722),	--
 q(90723),	--
+q(90724),	--
 q(90735),	--
 q(90736),	--
 q(90737),	--
@@ -2450,7 +2061,6 @@ q(90936),	--
 q(90937),	--
 q(90942),	--
 q(90956),	--
-q(90962),	--
 q(90965),	-- BETA:How to Train Your Protegee
 q(90966),	--
 q(90967),	--
@@ -2471,92 +2081,15 @@ q(91022),	--
 q(91023),	--
 q(91024),	--
 q(91043),	--
-q(91049),	--
 q(91074),	--
 q(91077),	--
-q(91095),	-- BETA:Prey: Magister Sunbreaker (Normal)
-q(91097),	-- BETA:Prey: Senior Tinker Ozwold (Normal)
-q(91098),	-- BETA:Prey: L-N-0R the Recycler (Normal)
-q(91100),	-- BETA:Prey: Deliah Gloomsong (Normal)
-q(91101),	-- BETA:Prey: Phaseblade Talasha (Normal)
-q(91102),	-- BETA:Prey: Nexus-Edge Hadim (Normal)
-q(91103),	-- BETA:Prey: Jo'zolo the Breaker (Normal)
-q(91104),	-- BETA:Prey: Zadu, Fist of Nalorakk (Normal)
-q(91106),	-- BETA:Prey: The Wing of Akil'zon (Normal)
-q(91107),	-- BETA:Prey: Ranger Swiftglade (Normal)
-q(91108),	-- BETA:Prey: Lieutenant Blazewing (Normal)
-q(91109),	-- BETA:Prey: Petyoll the Razorleaf (Normal)
-q(91110),	-- BETA:Prey: Lamyne of the Undercroft (Normal)
-q(91111),	-- BETA:Prey: High Vindicator Vureem (Normal)
-q(91112),	-- BETA:Prey: Crusader Luxia Maxwell (Normal)
-q(91114),	-- BETA:Prey: Consul Nebulor (Normal)
-q(91115),	-- BETA:Prey: Executor Kaenius (Normal)
-q(91116),	-- BETA:Prey: Imperator Enigmalia (Normal)
-q(91117),	-- BETA:Prey: Knight-Errant Bloodshatter (Normal)
-q(91118),	-- BETA:Prey: Vylenna the Defector (Normal)
-q(91119),	-- BETA:Prey: Lost Theldrin (Normal)
-q(91120),	-- BETA:Prey: Neydra the Starving (Normal)
-q(91121),	-- BETA:Prey: Thornspeaker Edgath (Normal)
-q(91122),	-- BETA:Prey: Thorn-Witch Liset (Normal)
-q(91123),	-- BETA:Prey: Grothoz, the Burning Shadow (Normal)
-q(91124),	-- BETA:Prey: Dengzag, the Darkened Blaze (Normal)
+q(91078),	--
 q(91141),	-- BETA:My First Kill Quest [DNT]
 q(91182),	--
-q(91183),	--
 q(91191),	--
 q(91192),	--
 q(91199),	--
 q(91201),	--
-q(91210),	-- BETA:Prey: Magister Sunbreaker (Hard)
-q(91211),	-- BETA:Prey: Magister Sunbreaker (Nightmare)
-q(91212),	-- BETA:Prey: Magistrix Emberlash (Hard)
-q(91213),	-- BETA:Prey: Magistrix Emberlash (Nightmare)
-q(91214),	-- BETA:Prey: Senior Tinker Ozwold (Hard)
-q(91217),	-- BETA:Prey: L-N-0R the Recycler (Nightmare)
-q(91218),	-- BETA:Prey: Mordril Shadowfell (Hard)
-q(91219),	-- BETA:Prey: Mordril Shadowfell (Nightmare)
-q(91221),	-- BETA:Prey: Deliah Gloomsong (Nightmare)
-q(91222),	-- BETA:Prey: Phaseblade Talasha (Hard)
-q(91223),	-- BETA:Prey: Phaseblade Talasha (Nightmare)
-q(91224),	-- BETA:Prey: Nexus-Edge Hadim (Hard)
-q(91225),	-- BETA:Prey: Nexus-Edge Hadim (Nightmare)
-q(91226),	-- BETA:Prey: Jo'zolo the Breaker (Hard)
-q(91227),	-- BETA:Prey: Jo'zolo the Breaker (Nightmare)
-q(91228),	-- BETA:Prey: Zadu, Fist of Nalorakk (Hard)
-q(91229),	-- BETA:Prey: Zadu, Fist of Nalorakk (Nightmare)
-q(91230),	-- BETA:Prey: The Talon of Janali (Hard)
-q(91231),	-- BETA:Prey: The Talon of Janali (Nightmare)
-q(91232),	-- BETA:Prey: The Wing of Akil'zon (Hard)
-q(91233),	-- BETA:Prey: The Wing of Akil'zon (Nightmare)
-q(91234),	-- BETA:Prey: Ranger Swiftglade (Hard)
-q(91236),	-- BETA:Prey: Lieutenant Blazewing (Hard)
-q(91238),	-- BETA:Prey: Petyoll the Razorleaf (Hard)
-q(91239),	-- BETA:Prey: Petyoll the Razorleaf (Nightmare)
-q(91240),	-- BETA:Prey: Lamyne of the Undercroft (Hard)
-q(91241),	-- BETA:Prey: Lamyne of the Undercroft (Nightmare)
-q(91242),	-- BETA:Prey: High Vindicator Vureem (Hard)
-q(91243),	-- BETA:Prey: Crusader Luxia Maxwell (Hard)
-q(91245),	-- BETA:Prey: Consul Nebulor (Hard)
-q(91246),	-- BETA:Prey: Executor Kaenius (Hard)
-q(91247),	-- BETA:Prey: Imperator Enigmalia (Hard)
-q(91248),	-- BETA:Prey: Knight-Errant Bloodshatter (Hard)
-q(91249),	-- BETA:Prey: Vylenna the Defector (Hard)
-q(91250),	-- BETA:Prey: Lost Theldrin (Hard)
-q(91251),	-- BETA:Prey: Neydra the Starving (Hard)
-q(91253),	-- BETA:Prey: Thorn-Witch Liset (Hard)
-q(91255),	-- BETA:Prey: Dengzag, the Darkened Blaze (Hard)
-q(91256),	-- BETA:Prey: High Vindicator Vureem (Nightmare)
-q(91258),	-- BETA:Prey: Praetor Singularis (Nightmare)
-q(91259),	-- BETA:Prey: Consul Nebulor (Nightmare)
-q(91260),	-- BETA:Prey: Executor Kaenius (Nightmare)
-q(91262),	-- BETA:Prey: Knight-Errant Bloodshatter (Nightmare)
-q(91263),	-- BETA:Prey: Vylenna the Defector (Nightmare)
-q(91264),	-- BETA:Prey: Lost Theldrin (Nightmare)
-q(91265),	-- BETA:Prey: Neydra the Starving (Nightmare)
-q(91266),	-- BETA:Prey: Thornspeaker Edgath (Nightmare)
-q(91267),	-- BETA:Prey: Thorn-Witch Liset (Nightmare)
-q(91268),	-- BETA:Prey: Grothoz, the Burning Shadow (Nightmare)
-q(91269),	-- BETA:Prey: Dengzag, the Darkened Blaze (Nightmare)
 q(91273),	--
 q(91277),	--
 q(91278),	--
@@ -2568,18 +2101,10 @@ q(91330),	--
 q(91331),	--
 q(91362),	--
 q(91364),	--
-q(91365),	--
-q(91366),	--
-q(91367),	--
-q(91368),	--
-q(91369),	--
-q(91370),	--
-q(91371),	--
-q(91372),	--
 q(91373),	--
 q(91374),	--
-q(91375),	-- BETA:The Silence at Fungara Village
 q(91390),	-- BETA:What Remains of a Temple Broken
+q(91395),	--
 q(91396),	--
 q(91398),	-- BETA:Tomes of Terror
 q(91399),	-- BETA:Ashes of the Void
@@ -2590,8 +2115,6 @@ q(91414),	--
 q(91415),	--
 q(91417),	--
 q(91426),	--
-q(91432),	--
-q(91490),	--
 q(91496),	--
 q(91508),	--
 q(91509),	--
@@ -2602,68 +2125,29 @@ q(91515),	--
 q(91518),	--
 q(91519),	--
 q(91520),	--
-q(91523),	--
 q(91543),	--
 q(91544),	--
 q(91545),	--
-q(91557),	-- BETA:Message to the Molt
 q(91562),	--
-q(91565),	--
-q(91566),	--
 q(91570),	--
 q(91571),	--
-q(91583),	--
 q(91584),	--
-q(91596),	--
-q(91597),	--
-q(91598),	--
-q(91599),	--
-q(91600),	--
-q(91602),	--
-q(91603),	--
-q(91605),	--
 q(91633),	--
 q(91644),	--
-q(91694),	--
-q(91700),	--
 q(91739),	--
-q(91785),	--
 q(91793),	--
 q(91797),	--
-q(91803),	--
 q(91807),	--
 q(91809),	--
-q(91810),	--
-q(91820),	--
-q(91833),	-- BETA:Dirty Deeps
 q(91834),	-- BETA:Guardians Must Go
-q(91835),	--
-q(91836),	--
 q(91837),	-- BETA:Bring Back De Bones
-q(91838),	--
-q(91839),	--
 q(91922),	--
-q(91927),	--
-q(91928),	--
 q(91929),	--
-q(91930),	-- BETA:The Abundant Lands
 q(91931),	--
-q(91932),	--
-q(91937),	--
-q(91938),	--
 q(91956),	--
 q(91963),	--
-q(91970),	--
-q(91972),	--
-q(91974),	--
 q(91975),	--
 q(91976),	--
-q(91977),	--
-q(91979),	--
-q(91980),	--
-q(91981),	--
-q(91983),	--
-q(91986),	--
 q(91987),	--
 q(91988),	--
 q(91990),	--
@@ -2674,30 +2158,13 @@ q(91994),	--
 q(91995),	--
 q(91996),	--
 q(91997),	--
-q(91998),	--
 q(91999),	--
 q(92000),	--
 q(92001),	--
-q(92002),	--
 q(92003),	--
 q(92004),	--
-q(92005),	--
-q(92006),	--
-q(92007),	--
-q(92010),	--
-q(92012),	--
-q(92013),	-- BETA:WANTED: Dionaea's Thorntusks
 q(92034),	--
-q(92063),	--
-q(92087),	-- BETA:Unlock Ability 1 - Level 2
-q(92088),	-- BETA:Unlock Ability 2 - Level 3
-q(92089),	-- BETA:Unlock Ability 3 - Level 4
-q(92090),	-- BETA:Unlock Ability 4 - Level 5
-q(92091),	-- BETA:Unlock Ability 5 - Level 6
-q(92092),	-- BETA:Unlock Ability 6 - Level 7
-q(92093),	-- BETA:Unlock Ability 7 - Level 8
 q(92099),	--
-q(92121),	--
 q(92123),	--
 q(92127),	--
 q(92128),	--
@@ -2706,31 +2173,10 @@ q(92130),	--
 q(92131),	--
 q(92139),	--
 q(92151),	--
-q(92152),	--
-q(92160),	--
-q(92162),	--
-q(92163),	-- BETA:The Loa of Murlocs
-q(92164),	-- BETA:Murloc Madness
-q(92165),	-- BETA:Fish Are Food, Not Friends
-q(92166),	-- BETA:Following Suit
-q(92174),	--
-q(92179),	--
-q(92180),	--
-q(92181),	--
-q(92182),	--
 q(92184),	--
-q(92186),	--
-q(92187),	--
-q(92188),	--
 q(92334),	--
-q(92365),	--
-q(92371),	--
-q(92372),	--
-q(92373),	--
-q(92386),	--
 q(92387),	--
 q(92388),	--
-q(92407),	--
 q(92418),	--
 q(92423),	--
 q(92438),	--
@@ -2741,21 +2187,13 @@ q(92508),	--
 q(92509),	--
 q(92510),	--
 q(92511),	--
-q(92512),	--
 q(92513),	--
 q(92518),	--
-q(92520),	--
 q(92554),	-- BETA:Addition of Anguish
 q(92560),	--
 q(92564),	--
 q(92565),	--
 q(92566),	--
-q(92571),	--
-q(92583),	--
-q(92616),	--
-q(92617),	--
-q(92618),	--
-q(92624),	--
 q(92636),	--
 q(92637),	--
 q(92668),	--
@@ -2774,61 +2212,10 @@ q(92722),	--
 q(92724),	--
 q(92725),	--
 q(92730),	--
-q(92732),	-- BETA:Light Encroachment
 q(92735),	-- BETA:Breadcrumb
-q(92736),	--
-q(92737),	--
-q(92738),	--
-q(92756),	-- BETA:Level 9
-q(92759),	-- BETA:Level 11
-q(92760),	-- BETA:Level 12
-q(92761),	-- BETA:Level 13
-q(92762),	-- BETA:Level 14
-q(92763),	-- BETA:Level 15
-q(92764),	-- BETA:Level 16
-q(92765),	-- BETA:Level 17
-q(92766),	-- BETA:Level 18
-q(92767),	-- BETA:Level 19
-q(92769),	-- BETA:Level 21
-q(92770),	-- BETA:Level 22
-q(92771),	-- BETA:Level 23
-q(92772),	-- BETA:Level 24
-q(92773),	-- BETA:Level 25
-q(92774),	-- BETA:Level 26
-q(92775),	-- BETA:Level 27
-q(92776),	-- BETA:Level 28
-q(92777),	-- BETA:Level 29
-q(92779),	-- BETA:Level 31
-q(92780),	-- BETA:Level 32
-q(92781),	-- BETA:Level 33
-q(92782),	-- BETA:Level 34
-q(92783),	-- BETA:Level 35
-q(92784),	-- BETA:Level 36
-q(92785),	-- BETA:Level 37
-q(92786),	-- BETA:Level 38
-q(92787),	-- BETA:Level 39
-q(92789),	-- BETA:Level 41
-q(92790),	-- BETA:Level 42
-q(92791),	-- BETA:Level 43
-q(92792),	-- BETA:Level 44
-q(92793),	-- BETA:Level 45
-q(92794),	-- BETA:Level 46
-q(92795),	-- BETA:Level 47
-q(92796),	-- BETA:Level 48
-q(92797),	-- BETA:Level 49
-q(92799),	-- BETA:Level 51
-q(92800),	-- BETA:Level 52
-q(92801),	-- BETA:Level 53
-q(92803),	-- BETA:Level 54
-q(92804),	-- BETA:Level 55
-q(92805),	-- BETA:Level 56
-q(92806),	-- BETA:Level 57
-q(92807),	-- BETA:Level 58
-q(92808),	-- BETA:Level 59
 q(92879),	--
 q(92887),	--
 q(92888),	--
-q(92890),	--
 q(92891),	--
 q(92892),	--
 q(92916),	-- BETA:[PH] RENAME
@@ -2840,39 +2227,16 @@ q(92921),	--
 q(92922),	--
 q(92923),	--
 q(92924),	-- BETA:[PH] RENAME
-q(92939),	--
 q(92940),	--
-q(92944),	--
-q(92946),	--
-q(93013),	--
-q(93047),	-- BETA:Butchery Basics
-q(93048),	-- BETA:Got No Rhythm
-q(93050),	-- BETA:A Shaman's Story
 q(93053),	--
-q(93067),	--
-q(93124),	--
-q(93130),	--
-q(93145),	--
-q(93146),	--
-q(93168),	--
-q(93169),	--
-q(93170),	--
 q(93171),	--
 q(93177),	--
 q(93186),	--
 q(93187),	--
-q(93200),	--
-q(93228),	--
-q(93230),	--
-q(93231),	--
 q(93232),	--
 q(93234),	--
-q(93235),	--
-q(93236),	--
-q(93244),	--
 q(93262),	--
 q(93270),	-- BETA:Midnight (90) E
-q(93275),	--
 q(93276),	-- BETA:Midnight (90) E
 q(93279),	-- BETA:Midnight (90) E
 q(93282),	-- BETA:Midnight (90) E
@@ -2886,16 +2250,10 @@ q(93365),	-- BETA:Midnight (81-89) E
 q(93373),	-- BETA:Midnight (81-89) E
 q(93378),	-- BETA:Midnight (81-89) E
 q(93380),	--
-q(93409),	-- BETA:Delver's Call: Atal'Aman
 q(93423),	--
-q(93425),	--
 q(93442),	--
 q(93445),	--
-q(93446),	--
-q(93447),	--
 q(93448),	--
-q(93453),	-- BETA:A Grave Concern
-q(93481),	--
 q(93486),	--
 q(93487),	--
 q(93488),	--
@@ -2903,46 +2261,28 @@ q(93489),	--
 q(93490),	--
 q(93491),	--
 q(93494),	--
-q(93507),	--
 q(93513),	--
-q(93515),	--
 q(93519),	--
 q(93523),	-- BETA:Short-Supply Reward
-q(93524),	--
 q(93526),	--
 q(93527),	--
-q(93528),	--
-q(93529),	--
-q(93530),	--
-q(93531),	--
 q(93532),	--
 q(93533),	--
-q(93534),	--
 q(93535),	--
 q(93536),	--
 q(93537),	--
-q(93538),	--
-q(93539),	--
 q(93540),	--
 q(93541),	--
 q(93542),	--
 q(93543),	--
 q(93548),	--
-q(93549),	--
-q(93560),	--
-q(93569),	--
-q(93571),	--
-q(93575),	-- BETA:Maisara Hungers
 q(93583),	--
 q(93586),	-- BETA:Conditional - Multiple Objectives, Non Sequenced
 q(93588),	--
 q(93589),	--
 q(93590),	--
 q(93591),	--
-q(93593),	-- BETA:A Call to Battle
-q(93595),	--
 q(93598),	--
-q(93599),	--
 q(93600),	--
 q(93602),	--
 q(93605),	--
@@ -2964,144 +2304,63 @@ q(93624),	--
 q(93625),	--
 q(93626),	--
 q(93627),	--
-q(93628),	--
-q(93630),	--
-q(93631),	--
-q(93632),	--
-q(93633),	--
-q(93634),	--
 q(93635),	--
-q(93636),	--
-q(93637),	--
 q(93638),	--
-q(93639),	--
 12.0.0.63724
 q(93640),	--
 q(93641),	--
 q(93642),	--
 q(93645),	--
-q(93652),	--
-q(93667),	-- BETA:Camp Stonewash
-q(93687),	--
-q(93690),	--
-q(93691),	--
-q(93692),	--
-q(93693),	--
-q(93694),	--
-q(93695),	--
-q(93696),	--
 q(93697),	--
-q(93698),	--
-q(93699),	--
-q(93700),	--
 q(93701),	--
-q(93702),	--
-q(93703),	--
 q(93704),	--
 q(93705),	--
-q(93706),	--
 q(93707),	--
 q(93708),	--
-q(93709),	--
 q(93710),	--
 q(93711),	--
 q(93712),	--
 q(93713),	--
 q(93714),	--
-q(93724),	--
-q(93726),	--
-q(93727),	--
-q(93728),	--
-q(93729),	--
-q(93730),	--
-q(93731),	--
 q(93742),	--
 q(93743),	--
-q(93744),	-- BETA:Unity Against the Void
-q(93751),	-- BETA:Windrunner Spire
-q(93752),	-- BETA:Murder Row
-q(93753),	-- BETA:Magisters' Terrace
 q(93754),	-- BETA:Maisara Caverns
 q(93755),	-- BETA:Den of Nalorakk
 q(93756),	-- BETA:The Blinding Vale
-q(93757),	-- BETA:Voidscar Arena
-q(93758),	-- BETA:Nexus Point Xenas
-q(93766),	-- BETA:Midnight: World Quests
-q(93767),	-- BETA:Midnight: Arcantina
-q(93769),	-- BETA:Midnight: Housing
-q(93776),	-- BETA:Har'alnor, Village of Twilight
 q(93782),	-- BETA:Conditional - Multiple Objectives, Sequenced
 q(93783),	-- BETA:Conditional - Just One Objective
-q(93789),	--
-q(93794),	--
-q(93795),	--
-q(93796),	--
 12.0.0.63854
 q(93800),	--
-q(93812),	--
-q(93813),	--
-q(93814),	--
-q(93815),	--
-q(93817),	--
-q(93818),	--
 q(93819),	--
 q(93820),	--
 q(93821),	--
 q(93822),	--
-q(93850),	-- BETA:Windrunner Spire: Haunting Melodies
-q(93853),	--
-q(93855),	--
-q(93856),	--
-q(93857),	--
-q(93858),	--
-q(93860),	--
 q(93861),	--
 q(93863),	--
 q(93864),	--
-q(93866),	--
-q(93867),	--
 q(93868),	--
-q(93872),	--
 q(93873),	--
-q(93874),	--
-q(93875),	--
-q(93889),	-- BETA:Midnight: Saltheril's Soiree
 q(93890),	-- BETA:Midnight: Abundance
 q(93891),	-- BETA:Midnight: Legends of the Haranir
-q(93892),	-- BETA:Midnight: Stormarion Assault
-q(93899),	-- BETA:Slayer's Rise
-q(93905),	--
 q(93909),	-- BETA:Midnight: Delves
-q(93910),	-- BETA:Midnight: Prey
-q(93911),	-- BETA:Midnight: Dungeons
 q(93912),	-- BETA:Midnight: Raid
 q(93913),	-- BETA:Midnight: World Boss
 q(93915),	--
-q(93916),	--
-q(93917),	--
-q(93918),	--
-q(93919),	--
 q(93920),	--
 q(93921),	--
 q(93922),	-- BETA:A Singular Focus Unleashed
 q(93923),	--
 q(93924),	-- BETA:An Unrelenting March
-q(93930),	--
-q(93931),	--
-q(93932),	--
-q(93933),	--
 q(93935),	--
 q(93936),	--
 q(93937),	--
 q(93941),	--
-q(93942),	--
 12.0.0.63967
 q(93957),	--
 q(93959),	--
 q(93960),	--
 q(93961),	--
 q(93962),	--
-q(93969),	-- BETA:Call Shot
 q(93980),	--
 q(93981),	--
 q(93982),	--
@@ -3118,64 +2377,22 @@ q(93992),	--
 q(93993),	--
 q(93994),	--
 q(93995),	--
-q(93997),	--
-q(93999),	--
-q(94005),	-- BETA:Stellar Stash
 q(94009),	--
 q(94010),	-- BETA:Gnome Out of Water
-q(94046),	--
-q(94052),	--
-q(94055),	--
-q(94056),	--
 q(94057),	--
-q(94361),	--
-q(94362),	--
-q(94370),	-- BETA:Slithering Closer
-q(94371),	-- BETA:A Ranger's Dream
-q(94388),	-- BETA:Second Times a Choice
-q(94390),	-- BETA:Special Assignment: A Hunter's Regret
-q(94391),	-- BETA:Special Assignment: Push Back the Light
-q(94393),	-- BETA:Career Counseling
-q(94396),	-- BETA:Down a Peg
-q(94402),	--
-q(94403),	--
-q(94408),	--
 q(94409),	--
-q(94410),	--
-q(94417),	--
-q(94418),	--
-q(94419),	--
 q(94423),	--
 12.0.0.64124
-q(89507),	-- BETA:Weekly: Abundance
-q(94425),	--
-q(94426),	--
-q(94430),	-- BETA:Adventuring Gear
-q(94432),	--
 q(94442),	--
 q(94443),	--
 q(94444),	--
-q(94446),	-- BETA:A Nightmarish Task
 q(94448),	--
-q(94450),	--
-q(94451),	--
-q(94452),	--
-q(94453),	--
-q(94457),	-- BETA:Midnight: Battlegrounds
-q(94458),	--
-q(94459),	--
-q(94460),	--
-q(94461),	--
-q(94462),	--
-q(94463),	--
-q(94469),	--
 q(94470),	--
 q(94471),	--
 q(94475),	--
 q(94476),	--
 q(94477),	--
 12.0.0.64228
-q(94482),	--
 q(94515),	--
 q(94560),	--
 q(94561),	--
@@ -3185,10 +2402,8 @@ q(94564),	--
 q(94565),	--
 q(94566),	--
 q(94567),	--
-q(94570),	--
 q(94575),	--
 q(94580),	-- BETA:Kate's Test Quest
-q(94581),	--
 q(94582),	--
 q(94583),	--
 q(94584),	--
@@ -3216,88 +2431,31 @@ q(94605),	--
 q(94606),	--
 q(94607),	--
 q(94622),	--
-q(94623),	-- BETA:Building the Voidforge
-q(94626),	--
 q(94630),	--
 q(94635),	--
 q(94636),	--
 q(94637),	--
 q(94639),	--
 q(94671),	-- BETA:Finery Funds
-q(94675),	-- BETA:Voidforge Reforged
-q(94677),	-- BETA:The Missing Rootwarden
-q(94683),	--
-q(94689),	--
-q(94690),	--
-q(94691),	--
-q(94697),	--
-q(94698),	--
-q(94699),	--
-q(94700),	--
-q(94702),	--
-q(94703),	--
-q(94705),	--
-q(94708),	--
-q(94710),	--
-q(94711),	--
-q(94713),	--
-q(94715),	--
-q(94717),	--
-q(94718),	--
-q(94719),	--
-q(94720),	--
-q(94721),	--
-q(94723),	--
-q(94724),	--
-q(94725),	--
-q(94726),	--
-q(94728),	--
-q(94729),	--
-q(94730),	--
-q(94731),	--
-q(94732),	--
 q(94735),	--
 q(94736),	--
 q(94738),	--
-q(94742),	--
-q(94747),	--
-q(94750),	--
-q(94751),	--
-q(94752),	--
+q(94740),	--
 q(94753),	--
-q(94754),	--
-q(94755),	--
 q(94756),	--
 q(94757),	--
-q(94758),	--
-q(94759),	--
-q(94760),	--
-q(94761),	--
-q(94762),	--
-q(94763),	--
-q(94764),	--
-q(94765),	--
 q(94766),	--
 q(94767),	--
 12.0.0.64339
-q(94781),	--
 q(94783),	-- BETA:Midnight (90) E
-q(94788),	--
-q(94790),	--
 q(94794),	--
-q(94795),	-- BETA:Special Assignment: Agents of the Shield
 q(94810),	--
-q(94813),	--
-q(94815),	-- BETA:HIDDEN QUEST - Special Assignment: The Grand Magister's Drink [DNT]
-q(94816),	--
 q(94827),	--
 q(94831),	-- BETA:An Idol in Hand
-q(94834),	--
 q(94835),	-- BETA:Early Morning Training
 q(94836),	--
 q(94837),	--
 q(94838),	--
-q(94839),	--
 q(94840),	--
 q(94844),	--
 q(94845),	--
@@ -3308,8 +2466,6 @@ q(94852),	--
 q(94853),	--
 q(94854),	--
 q(94855),	--
-q(94865),	-- BETA:Special Assignment: Into the Depths
-q(94867),	-- BETA:Lost in Atal'Abasi
 q(94868),	-- BETA:It Takes Two
 q(94869),	-- BETA:Hungry Hungry Hatchlings
 q(94870),	--
@@ -3319,42 +2475,25 @@ q(94875),	--
 q(94882),	--
 q(94883),	--
 q(94904),	--
-q(94908),	--
 q(94910),	--
-q(94933),	-- BETA:Lessons in the Void
 q(94942),	--
-q(94943),	--
 q(94944),	--
 q(94945),	--
-q(94951),	--
 q(94952),	--
 q(94957),	-- BETA:War of Light and Shadow
 q(94959),	--
 q(94966),	--
 q(94976),	--
 q(94990),	--
-q(94991),	--
 12.0.0.64741
 q(94994),	--
-q(95000),	--
-q(95001),	--
-q(95002),	--
-q(95003),	--
 q(95004),	--
 q(95005),	--
 q(95007),	--
-q(95008),	-- BETA:Adventuring in Midnight
 q(95043),	-- BETA:[DNT] House Level 6 Decor Award
 q(95044),	--
 q(95045),	--
-q(95048),	--
-q(95049),	--
-q(95050),	--
-q(95051),	--
-q(95052),	--
-q(95053),	--
 q(95054),	--
-q(95067),	--
 q(95068),	--
 12.0.0.64975
 q(95146),	--
@@ -3366,19 +2505,7 @@ q(95237),	-- BETA:Midnight (81-89) E
 q(93581),	-- BETA:Against Overwhelming Odds
 q(93582),	--
 q(95091),	--
-q(95113),	--
-q(95127),	--
-q(95128),	--
-q(95129),	--
-q(95130),	--
-q(95131),	--
 q(95132),	--
-q(95133),	--
-q(95134),	--
-q(95135),	--
-q(95136),	--
-q(95137),	--
-q(95138),	--
 q(95154),	--
 q(95155),	--
 q(95167),	--
@@ -3388,17 +2515,13 @@ q(95170),	--
 q(95171),	--
 q(95172),	--
 q(95173),	--
-q(95175),	-- BETA:Anchoring the Defense
 q(95234),	--
 q(95240),	--
 q(95243),	--
 q(95244),	--
-q(95245),	-- BETA:Midnight: World Tour
 12.0.1.65337
-q(95276),	--
 q(95286),	--
 q(95308),	--
-q(95324),	--
 q(95341),	--
 q(95342),	--
 q(95343),	--
@@ -3414,30 +2537,21 @@ q(95409),	--
 q(95410),	--
 q(95411),	--
 q(95412),	--
-q(95413),	--
 q(95414),	--
-q(95416),	--
 12.0.1.65448
-q(95435),	--
 q(95437),	--
-q(95438),	--
+q(95438),	-- BETA:Lost Animals
 q(95439),	--
-q(95440),	--
-q(95446),	--
-q(95450),	--
-q(95459),	--
 q(95469),	--
 q(95470),	--
-q(95471),	--
 12.0.1.65617
 q(95482),	--
 q(95485),	--
 q(95514),	--
-q(95515),	--
 q(95516),	--
-q(95517),	--
 q(95518),	--
 q(95519),	--
+q(95535),	--
 q(95536),	--
 q(95537),	--
 q(95538),	--
@@ -3446,3 +2560,23 @@ q(95540),	--
 q(95541),	--
 q(95542),	--
 q(95543),	--
+12.0.1.66192
+q(95963),	--
+q(95964),	--
+q(95965),	--
+q(95966),	--
+q(95967),	--
+q(95968),	--
+q(95969),	--
+q(95970),	--
+q(95971),	--
+12.0.1.66263
+q(90861),	--
+q(90862),	--
+q(90871),	--
+q(90876),	--
+q(92689),	--
+q(92757),	--
+q(92802),	--
+q(92810),	--
+q(96120),	--
