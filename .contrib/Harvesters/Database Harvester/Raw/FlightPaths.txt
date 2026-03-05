@@ -474,6 +474,8 @@
 438@@@Durotar - ET - CC Prologue Troll Taxi Bat Start
 439@@@Durotar - ET - CC Prologue Troll Recruit End
 440@@@Durotar - ET - CC Prologue - Troll Battle End
+3.80.0.65990
+3251@@@Naxxramas, Dragonblight
 4.0.1.12911
 25@@@Crossroads, Northern Barrens
 26@@@Lor'danel, Darkshore
