@@ -1719,6 +1719,103 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(262600),	-- Stitched Haranir Rug (DECOR!)
 			i(243090),	-- Sturdy Haranir Chair (DECOR!)
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = LEATHERWORKING,
+		},{
+			fc(1237551),	-- Apprentice Smith's Apron
+			fc(1237560),	-- Apprentice Jeweler's Apron
+			fc(1237516),	-- Axe-Flingin' Bands
+			fc(1237577),	-- Blessed Pango Charm
+			fc(1237545),	-- Blood Knight's Armor Kit
+			fc(1237548),	-- Chemist's Cap
+			fc(1237579),	-- Devouring Banding
+			fc(1237557),	-- Eversong Botanist's Satchel
+			fc(1237570),	-- Eversong Hunter's Headcover
+			fc(1237536),	-- Farstrider's Scouting Vest
+			fc(1237537),	-- Farstrider's Razor Talons
+			fc(1237538),	-- Farstrider's Sharpened Claws
+			fc(1237539),	-- Farstrider's Unwavering Visage
+			fc(1237540),	-- Farstrider's Reinforced Faulds
+			fc(1237541),	-- Farstrider's Brilliant Plumes
+			fc(1237542),	-- Farstrider's Trophy Belt
+			fc(1237543),	-- Farstrider's Plated Bracers
+			fc(1237544),	-- Forest Hunter's Armor Kit
+			fc(1237489),	-- Hexwoven Strand
+			fc(1237563),	-- Hideworker's Cover
+			fc(1237573),	-- Infused Scalewoven Hide
+			fc(1237578),	-- Primal Spore Binding
+			fc(1237515),	-- Ranger-General's Grips
+			fc(1237486),	-- Row Walker's Deflectors
+			fc(1237487),	-- Row Walker's Insurance
+			fc(1237488),	-- Row Walker's Swiftgrips
+			fc(1237572),	-- Scalewoven Hide
+			fc(1237528),	-- Scout's Scaled Vest
+			fc(1237529),	-- Scout's Scaled Boots
+			fc(1237530),	-- Scout's Polished Gauntlets
+			fc(1237531),	-- Scout's Polished Skullcap
+			fc(1237532),	-- Scout's Polished Legguards
+			fc(1237533),	-- Scout's Polished Spaulders
+			fc(1237534),	-- Scout's Polished Wrap
+			fc(1237535),	-- Scout's Scaled Bracers
+			fc(1237507),	-- Silvermoon Agent's Coat
+			fc(1237508),	-- Silvermoon Agent's Sneakers
+			fc(1237509),	-- Silvermoon Agent's Handwraps
+			fc(1237510),	-- Silvermoon Agent's Cover
+			fc(1237511),	-- Silvermoon Agent's Leggings
+			fc(1237512),	-- Silvermoon Agent's Mantle
+			fc(1237513),	-- Silvermoon Agent's Utility Belt
+			fc(1237514),	-- Silvermoon Agent's Deflectors
+			fc(1237575),	-- Silvermoon Weapon Wrap
+			fc(1237549),	-- Sin'dorei Alchemist's Hat
+			fc(1237552),	-- Sin'dorei Forgemaster's Cover
+			fc(1237555),	-- Sin'dorei Engineer's Gloves
+			fc(1237558),	-- Sin'dorei Herbalist's Backpack
+			fc(1237561),	-- Sin'dorei Jeweler's Cover
+			fc(1237564),	-- Sin'dorei Leathershaper's Smock
+			fc(1237567),	-- Sin'dorei Hunter's Pack
+			fc(1237574),	-- Sin'dorei Armor Banding
+			fc(1237566),	-- Skinner's Backpack
+			fc(1237569),	-- Skinner's Cap
+			fc(1237499),	-- Smuggler's Leather Tunic
+			fc(1237500),	-- Smuggler's Leather Footpads
+			fc(1237501),	-- Smuggler's Reinforced Gloves
+			fc(1237502),	-- Smuggler's Reinforced Hood
+			fc(1237503),	-- Smuggler's Reinforced Pants
+			fc(1237504),	-- Smuggler's Reinforced Shoulderguards
+			fc(1237505),	-- Smuggler's Reinforced Binding
+			fc(1237506),	-- Smuggler's Leather Wristbands
+			fc(1237490),	-- Thalassian Competitor's Leather Boots
+			fc(1237491),	-- Thalassian Competitor's Leather Chestpiece
+			fc(1237492),	-- Thalassian Competitor's Leather Gloves
+			fc(1237493),	-- Thalassian Competitor's Leather Mask
+			fc(1237494),	-- Thalassian Competitor's Leather Trousers
+			fc(1237495),	-- Thalassian Competitor's Leather Shoulderpads
+			fc(1237496),	-- Thalassian Competitor's Leather Belt
+			fc(1237497),	-- Thalassian Competitor's Leather Wristwraps
+			fc(1237520),	-- Thalassian Competitor's Chain Tunic
+			fc(1237521),	-- Thalassian Competitor's Chain Stompers
+			fc(1237522),	-- Thalassian Competitor's Chain Grips
+			fc(1237523),	-- Thalassian Competitor's Chain Cowl
+			fc(1237524),	-- Thalassian Competitor's Chain Leggings
+			fc(1237525),	-- Thalassian Competitor's Chain Epaulets
+			fc(1237526),	-- Thalassian Competitor's Chain Girdle
+			fc(1237527),	-- Thalassian Competitor's Chain Cuffs
+			fc(1237546),	-- Thalassian Scout Armor Kit
+			fc(1237550),	-- Thalassian Alchemist's Mixcap
+			fc(1237553),	-- Thalassian Ironbender's Regalia
+			fc(1237556),	-- Thalassian Scrapmaster's Gauntlets
+			fc(1237559),	-- Thalassian Herbtender's Cradle
+			fc(1237562),	-- Thalassian Gemshaper's Grand Cover
+			fc(1237565),	-- Thalassian Hideshaper's Regalia
+			fc(1237568),	-- Thalassian Wildseeker's Workbag
+			fc(1237571),	-- Thalassian Wildseeker's Stridercap
+			fc(1237554),	-- Tinker's Handguard
+			fc(1237547),	-- Void-touched Drums
+			fc(1237498),	-- World Tree Rootwraps
+			fc(1237517),	-- World Tender's Trunkplate
+			fc(1237518),	-- World Tender's Rootslippers
+			fc(1237519),	-- World Tender's Barkclasp
+		})),
 		filter(MISC, {
 			i(244639),	-- Void-Touched Drums
 		}),
