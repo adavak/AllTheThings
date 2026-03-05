@@ -1440,6 +1440,81 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(241140),	-- Signet of Azerothian Blessings
 			i(240951),	-- Thalassian Competitor's Signet
 		}),
+		n(FIRST_CRAFTS_HEADER, sharedData({
+			["requireSkill"] = JEWELCRAFTING,
+		},{
+			fc(1230482),	-- Amani Lapis Prism
+			fc(1242464),	-- Attuned Thalassian Rune-Prism
+			fc(1230494),	-- Bold Biographer's Bifocals
+			fc(1230501),	-- Cognitive Heliotrope
+			fc(1230439),	-- Deadly Peridot
+			fc(1230447),	-- Deadly Lapis
+			fc(1230455),	-- Deadly Amethyst
+			fc(1230463),	-- Deadly Garnet
+			fc(1230500),	-- Determined Heliotrope
+			fc(1230502),	-- Enduring Heliotrope
+			fc(1230493),	-- Fantastic Font Focuser
+			fc(1230442),	-- Flawless Quick Peridot
+			fc(1230443),	-- Flawless Deadly Peridot
+			fc(1230444),	-- Flawless Masterful Peridot
+			fc(1230445),	-- Flawless Versatile Peridot
+			fc(1230450),	-- Flawless Quick Lapis
+			fc(1230451),	-- Flawless Deadly Lapis
+			fc(1230452),	-- Flawless Masterful Lapis
+			fc(1230453),	-- Flawless Versatile Lapis
+			fc(1230458),	-- Flawless Quick Amethyst
+			fc(1230459),	-- Flawless Deadly Amethyst
+			fc(1230460),	-- Flawless Masterful Amethyst
+			fc(1230461),	-- Flawless Versatile Amethyst
+			fc(1230466),	-- Flawless Quick Garnet
+			fc(1230467),	-- Flawless Deadly Garnet
+			fc(1230468),	-- Flawless Masterful Garnet
+			fc(1230469),	-- Flawless Versatile Garnet
+			fc(1242463),	-- Flawless Text Scrutinizers
+			fc(1230489),	-- Gleaming Copper Band
+			fc(1230481),	-- Harandar Peridot Prism
+			fc(1230497),	-- Improved Right-Handed Magnifying Glass
+			fc(1230473),	-- Indecipherable Eversong Diamond
+			fc(1230474),	-- Kaleidoscopic Prism
+			fc(1230479),	-- Loa Worshiper's Band
+			fc(1242461),	-- Mage-Eye Precision Loupes
+			fc(1230440),	-- Masterful Peridot
+			fc(1230448),	-- Masterful Lapis
+			fc(1230456),	-- Masterful Amethyst
+			fc(1230464),	-- Masterful Garnet
+			fc(1230485),	-- Masterwork Sin'dorei Band
+			fc(1230486),	-- Masterwork Sin'dorei Amulet
+			fc(1230499),	-- Monologuer's Chalice
+			fc(1230490),	-- Nocturnal Charm
+			fc(1230470),	-- Powerful Eversong Diamond
+			fc(1230477),	-- Prismatic Focusing Iris
+			fc(1230437),	-- Quick Peridot
+			fc(1230446),	-- Quick Lapis
+			fc(1230454),	-- Quick Amethyst
+			fc(1230462),	-- Quick Garnet
+			fc(1230484),	-- Sanguine Garnet Prism
+			fc(1230487),	-- Signet of Azerothian Blessings
+			fc(1230491),	-- Silvermoon Focusing Shard
+			fc(1230492),	-- Silvermoon Loupes
+			fc(1230475),	-- Sin'dorei Lens
+			fc(1230495),	-- Sin'dorei Enchanter's Crystal
+			fc(1230496),	-- Sin'dorei Jeweler's Loupes
+			fc(1230498),	-- Sin'dorei Scribe's Spectacles
+			fc(1230478),	-- Stabilizing Gemstone Bandolier
+			fc(1230472),	-- Stoic Eversong Diamond
+			fc(1230476),	-- Sunglass Vial
+			fc(1230471),	-- Telluric Eversong Diamond
+			fc(1230483),	-- Tenebrous Amethyst Prism
+			fc(1230488),	-- Thalassian Phoenix Torque
+			fc(1230503),	-- Thalassian Competitor's Signet
+			fc(1230504),	-- Thalassian Competitor's Amulet
+			fc(1242462),	-- Thalassian Scribe's Crystalline Lens
+			fc(1230441),	-- Versatile Peridot
+			fc(1230449),	-- Versatile Lapis
+			fc(1230457),	-- Versatile Amethyst
+			fc(1230465),	-- Versatile Garnet
+			fc(1251983),	-- Voidstone Shielding Array
+		})),
 		filter(GEMS, {
 			i(241143),	-- Cognitive Heliotrope
 			i(240865),	-- Deadly Amethyst+
