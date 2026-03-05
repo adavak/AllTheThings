@@ -733,7 +733,6 @@ root(ROOTS.Unsorted, {
 				i(257143),	-- Peridot Dragonhawk (MOUNT!) [Questline?]
 				i(262708),	-- Savage Snapvine (MOUNT!) [Trading Post]
 				i(262705),	-- Vicious Snapvine (MOUNT!) [Trading Post]
-				mount(1270673),	-- Vivacious Chlorocoers (MOUNT!) [Harandar Treasures?]
 			}),
 			n(PVP, {
 				i(255618),	-- Galactic Gladiator's Splitter

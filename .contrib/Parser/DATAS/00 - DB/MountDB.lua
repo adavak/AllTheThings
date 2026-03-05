@@ -2372,6 +2372,7 @@ i(256423, 1260354);	-- Untainted Grove Crawler
 i(252012, 1253927);	-- Vibrant Petalwing
 i(257504, 1261648);	-- Vicious Snaplizard [A]
 i(257502, 1261629);	-- Vicious Snaplizard [H]
+i(263579, 1270673);	-- Vivacious Chlorocoers
 i(263580, 1270675);	-- Vivid Chloroceros
 i(260696, 1266702);	-- Voidbound Stormray
 i(257200, 1261351);	-- Witherbark Pango

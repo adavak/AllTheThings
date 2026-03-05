@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(62260),	-- That's Aln, Folks!
 			ach(42278),	-- The Empty Cradle
 			ach(61263, {	-- Treasures of Harandar
-				--i(263579),	-- Vivacious Chloroceros (MOUNT!)
+				i(263579),	-- Vivacious Chloroceros (MOUNT!)
 			}),
 			pvp(ach(61223)),	-- Tour of Duty: Harandar
 		}),
