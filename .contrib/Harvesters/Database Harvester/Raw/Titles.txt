@@ -998,3 +998,13 @@
 755@@@Preyseeker %s
 12.0.1.65337
 690@@@Spirebane %s
+12.0.1.66192
+756@@@Volunteer %s
+757@@@Caring Citizen %s
+758@@@%s, The Backbone of the Realm
+759@@@%s, The Philanthropist
+760@@@%s, The Everlasting
+761@@@%s, World Apex
+762@@@Azeroth's Top Ten Youth %s
+763@@@Model of the Era %s
+764@@@Big Brother %s
