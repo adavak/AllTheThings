@@ -701,8 +701,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		})),
 		filter(RECIPES, {
 			i(244791),	-- Recipe: Amani Angler's Ward
+			i(244817),	-- Recipe: Blood Hunter Lure
 			i(244816),	-- Recipe: Lucky Loa Lure
 			i(244815),	-- Recipe: Ominous Octopus Lure
+			i(258511),	-- Recipe: Sunwell Fish Lure
 			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
 		}),
 		i(241148),	-- Amani Angler's Ward
