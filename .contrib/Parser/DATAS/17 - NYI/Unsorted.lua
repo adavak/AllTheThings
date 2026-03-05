@@ -594,7 +594,6 @@ root(ROOTS.Unsorted, {
 				i(254665),	-- Void "Ink"
 				i(254671),	-- Talon of the Towering Ultradon
 				i(255161),	-- Callum's Belongings
-				i(257081),	-- Bloodied Spear Tip
 				i(257727),	-- Condensed Void Reserves
 				i(257870),	-- Void Residue
 				i(258329),	-- Carrion Essence
@@ -2394,7 +2393,6 @@ root(ROOTS.Unsorted, {
 				i(163155),	-- Cannon Shot
 				i(163156),	-- Grapeshot
 				i(163157),	-- Musket Muddler
-				i(163158),	-- White Tortollan
 				i(163159),	-- Golden Sunrise
 				i(163160),	-- The Tempest
 				i(163165),	-- Tiki Tumbler
@@ -2405,7 +2403,6 @@ root(ROOTS.Unsorted, {
 				i(163207),	-- Gral's Growler
 				i(163208),	-- Uncle Sezahjin's Fried Chicken
 				i(163387),	-- Toil and Trouble
-				i(163388),	-- Shellini
 				i(163391),	-- Anchormaker
 				i(163395),	-- Sunken Pylon
 				i(163399),	-- Sludge Fizz
@@ -2579,8 +2576,6 @@ root(ROOTS.Unsorted, {
 				i(163688),	-- A Peg Hand
 				i(163692),	-- Scroll of Subsistence
 				i(163694),	-- Scroll of Luxurious Recall
-				i(163695),	-- Scroll of Inner Truth
-				i(163707),	-- Scroll of Torga's Swiftness
 				i(163734),	-- Bulging Coin Purse
 				i(163751),	-- Demolisher Controller
 				i(163752),	-- Signet of Orgrimmar

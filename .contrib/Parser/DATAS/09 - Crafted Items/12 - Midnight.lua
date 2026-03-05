@@ -735,7 +735,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(260907),	-- Lost Winter's Hunger
 		i(238366),	-- Lynxfish
 		i(268730, {	-- Nether-Warped Egg
-			i(260916),	-- Nether-Swept Drake
+			i(260916),	-- Nether-Swept Drake (MOUNT!)
 		}),
 		i(238380),	-- Null Voidfish
 		i(238373),	-- Ominous Octopus

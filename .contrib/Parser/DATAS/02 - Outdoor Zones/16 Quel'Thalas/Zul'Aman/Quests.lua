@@ -517,16 +517,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.02, {	-- Sawdust to Sawdust
 					q(88985, {	-- Recuperating Returns
-						--["sourceQuests"] = { XXX },	-- ??
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["qg"] = 241082,	-- Torundo the Grizzled <War Advisor>
-						["coord"] = { 45.6, 65.6, MAP.MIDNIGHT.ZULAMAN },
-						["isBreadcrumb"] = true,	-- I think
+						["coord"] = { 45.7, 65.5, MAP.MIDNIGHT.ZULAMAN },
+						["isBreadcrumb"] = true,
 					}),
 					q(88986, {	-- Blind The Bandits
 						["sourceQuests"] = { 88985 },	-- Recuperating Returns
 						["provider"] = { "n", 240521 },	-- Woodcrafter Azai
 						["coord"] = { 28.4, 27.3, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(238962) },	-- Lightwood Splinters (QI!)
+						["groups"] = { i(238962) },	-- Lightwood Splinters (PQI!)
 					}),
 					q(88987, {	-- Salvaged Sabotage
 						["sourceQuests"] = { 88985 },	-- Recuperating Returns
@@ -534,7 +534,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 28.4, 27.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(525374, {	-- Stolen Equipment
-								i(238964),	-- Stolen Equipment (QI!)
+								["coords"] = {
+									{ 29.9, 27.9, MAP.MIDNIGHT.ZULAMAN },
+									{ 30.3, 27.7, MAP.MIDNIGHT.ZULAMAN },
+									{ 30.3, 28.4, MAP.MIDNIGHT.ZULAMAN },
+									{ 30.4, 27.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 30.7, 27.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 30.8, 27.6, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(238964) },	-- Stolen Equipment (QI!)
 							}),
 						},
 					}),
@@ -547,7 +555,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 28.4, 27.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(527670, {	-- Lightwood Pile
-								["coord"] = { 28.6, 27.5, MAP.MIDNIGHT.ZULAMAN },
+								["coord"] = { 28.6, 27.6, MAP.MIDNIGHT.ZULAMAN },
 								["groups"] = { i(239138) },	-- Lightwood Chunk (QI!)
 							}),
 						},
@@ -611,7 +619,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.04, {	-- Sorrowing Kin
 					q(89565, {	-- The Path of Mourning
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 242014 },	-- Chana
 						["coord"] = { 45.4, 69.7, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -620,7 +628,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247424 },	-- Chana
 						["coord"] = { 45.9, 72.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(528004, {	--
+							o(528004, {	-- Weeping Caps
 								i(239447),	-- Weeping Spores (QI!)
 							}),
 						},
@@ -629,27 +637,35 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 89503 },	-- Somber Siblings
 						["qgs"] = {
 							247425,	-- Chana (mobileNPC)
-							256867, -- Grieving Amani
+							256867, -- Grieving Amani (mobileNPC)
 						},
-						["groups"] = {
-							i(239480),	-- Resilient Sinew (QI!)
-						},
-					}),
-					q(89559, {	-- Reasonless Worship
-						["sourceQuests"] = { 89506 },	-- Strong Ties
-						["provider"] = { "n", 247425 },	-- Chana (mobileNPC)
-						["groups"] = {
-							o(528071, {	--
-								i(239494),	-- Shrine Piece (QI!)
-							}),
-						},
+						["coord"] = { 46.2, 74.8, MAP.MIDNIGHT.ZULAMAN },	-- General area where previous quest takes place
+						["groups"] = { i(239480) },	-- Resilient Sinew (QI!)
 					}),
 					q(89513, {	-- Kindling Aplenty
 						["sourceQuests"] = { 89506 },	-- Strong Ties
-						["provider"] = { "n", 247425 },	-- Chana (mobileNPC)
+						["qgs"] = {
+							247425,	-- Chana (mobileNPC)
+							256867, -- Grieving Amani (mobileNPC)
+						},
+						["coord"] = { 46.7, 78.0, MAP.MIDNIGHT.ZULAMAN },	-- General area where previous quest takes place
 						["groups"] = {
-							o(528034, {	--
+							o(528034, {	-- Fallen Branch
 								i(239483),	-- Fallen Branch (QI!)
+							}),
+						},
+					}),
+					q(89559, {	-- Reasonless Worship
+						["sourceQuests"] = { 89513 },	-- Kindling Aplenty
+						["qgs"] = {
+							247425,	-- Chana (mobileNPC)
+							256867, -- Grieving Amani (mobileNPC)
+						},
+						["coord"] = { 48.5, 85.1, MAP.MIDNIGHT.ZULAMAN },	-- General area where previous quest takes place
+						["groups"] = {
+							o(528071, {	-- Shrine Piece
+								["coord"] = { 47.3, 87.6, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(239494) },	-- Weathered Shrine Piece (QI!)
 							}),
 						},
 					}),
@@ -658,10 +674,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							89513,	-- Kindling Aplenty
 							89559,	-- Reasonless Worship
 						},
-						["provider"] = { "n", 247425 },	-- Chana (mobileNPC)
-						["groups"] = {
-							i(264654),	-- Emberwing Hatchling (PET!)
+						["qgs"] = {
+							247425,	-- Chana (mobileNPC)
+							256867, -- Grieving Amani (mobileNPC)
 						},
+						["coord"] = { 47.3, 87.6, MAP.MIDNIGHT.ZULAMAN },	-- General area where previous quest takes place
+						["groups"] = { i(264654) },	-- Emberwing Hatchling (PET!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.05, {	-- Unlikely Friends
@@ -887,12 +905,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["isBreadcrumb"] = true,	-- I Think
 					}),
 					q(92164, {	-- Murloc Madness
-						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs
+						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs	// Unlocked when "Paved in Ash" is completed in Eversong Campaign on Live realms. Leaving it as is because of breadcrumb
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92165, {	-- Fish Are Food, Not Friends
-						["sourceQuests"] = { 92164 },	-- Murloc Madness
+						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
@@ -915,7 +933,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(92166, {	-- Following Suit
-						["sourceQuests"] = { 92164 },	-- Murloc Madness
+						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -935,7 +953,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.10, {	-- No Fear
 					q(92450, {	-- Growing Up is Hard
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 251258 },	-- Ani
 						["coord"] = { 45.2, 69.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -972,27 +990,38 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.11, {	-- Bitter Honor
 					q(93093, {	-- Gnarldin Trophies
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 253997 },	-- Kel'venko
 						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							i(257084),	-- Bashed In Bark (QI!)
-							i(257090),	-- Bone Belt (QI!)
-							i(257086),	-- Chewed Remains (QI!)
-							i(257087),	-- Crumbling Ring (QI!)
-							i(257082),	-- Gnarldin Necklace (QI!)
-							i(256672),	-- Gnarldin Trophies (QI!)
-							i(257080),	-- Rune-Carved Skull (QI!)
-							i(257088),	-- Torn Bracer (QI!)
+							i(256672, {	-- Gnarldin Trophies (QI!)
+								-- All of these count as i:256672 when looted
+								i(257084),	-- Bashed In Bark (QI!)
+								i(257081),	-- Bloodied Spear Tip (QI!)
+								i(257090),	-- Bone Belt (QI!)
+								i(257086),	-- Chewed Remains (QI!)
+								i(257087),	-- Crumbling Ring (QI!)
+								i(257082),	-- Gnarldin Necklace (QI!)
+								i(257080),	-- Rune-Carved Skull (QI!)
+								i(257088),	-- Torn Bracer (QI!)
+							}),
 						},
 					}),
 					q(93094, {	-- Scavenged Victory
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 253997 },	-- Kel'venko
 						["coord"] = { 28.9, 33.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(588832, {	--
-								i(256685),	-- Hunter's Tablet (QI!)
+							o(588832, {	-- Fallen Hunter
+								["coords"] = {
+									{ 26.8, 36.2, MAP.MIDNIGHT.ZULAMAN },	-- NPC:254239, faking being fallen
+									{ 27.6, 35.1, MAP.MIDNIGHT.ZULAMAN },
+									{ 28.1, 37.0, MAP.MIDNIGHT.ZULAMAN },
+									{ 28.4, 35.0, MAP.MIDNIGHT.ZULAMAN },
+									{ 28.5, 38.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 29.0, 36.4, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(256685) },	-- Hunter's Tablet (QI!)
 							}),
 						},
 					}),
@@ -1023,22 +1052,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.12, {	-- The Sound of Her Voice
 					q(93178, {	-- A Quiet Walk Interrupted
-						--["sourceQuests"] = { XXX },	-- ??
+						["sourceQuests"] = { 86735 },	-- Paved in Ash	// I am sure this is a bug but this is currently accurate. -Exo
 						["provider"] = { "n", 254716 },	-- Nerunda
-						["coord"] = { 36.7, 25.1, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							--o(XXX, {
-								i(265611),	-- Broken Picnic Basket (QI!)
-							--}),
-							o(616571, {
-								i(265626),	-- Shattered Teapot (QI!)
-							}),
-						},
+						["coord"] = { 36.8, 25.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93179, {	-- Child-like Devotion
 						["sourceQuests"] = { 93178 },	-- A Quiet Walk Interrupted
 						["provider"] = { "n", 254716 },	-- Nerunda
-						["coord"] = { 36.7, 25.1, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 36.8, 25.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93180, {	-- Shrine Preparations
 						["sourceQuests"] = { 93179 },	-- Child-like Devotion
@@ -1047,7 +1068,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = {
 							o(619616, {	-- Thorncap
 								["coords"] = {
-									{ 51.4, 30.4, MAP.MIDNIGHT.ZULAMAN },
+									{ 51.3, 30.4, MAP.MIDNIGHT.ZULAMAN },
+									{ 51.4, 30.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 51.8, 30.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 52.0, 30.6, MAP.MIDNIGHT.ZULAMAN },
 									{ 52.7, 29.8, MAP.MIDNIGHT.ZULAMAN },
 									{ 53.0, 30.6, MAP.MIDNIGHT.ZULAMAN },
 								},
@@ -1059,17 +1083,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 93180 },	-- Shrine Preparations
 						["provider"] = { "n", 258014 },	-- Kanza
 						["coord"] = { 51.4, 30.6, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(265401),	-- Antique Tuskarr Teapot (QI!)
-						},
+						["groups"] = { i(265401) },	-- Antique Tuskarr Teapot (QI!)
 					}),
 					q(93182, {	-- Healing Homeward
 						["sourceQuests"] = { 93181 },	-- Temple and a Teapot
 						["provider"] = { "n", 258363 },	-- Kanza
-						["coord"] = { 52.3, 32.1, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							--spell(1276571),	-- Blessings of Children
-						},
+						["coord"] = { 52.3, 32.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.13, {	-- A Venomous History

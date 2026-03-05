@@ -638,7 +638,9 @@ MobileDB.Creature = {
 	[241603] = true,	-- Threadis
 	[241604] = true,	-- Destien
 	[241605] = true,	-- Kitzy
+	[247425] = true,	-- Chana
 	[252807] = true,	-- Vanguard Paladin
+	[256867] = true,	-- Grieving Amani
 }
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
@@ -2638,6 +2640,8 @@ MobileDB.GameObject = {
 	[527827] = true,	-- Trampled Bush (q:86740)
 	[527829] = true,	-- Hasty Nest (q:86740)
 	[527831] = true,	-- Territorial Dispute (q:86740)
+	[528004] = true,	-- Weeping Caps (q:89503)
+	[528034] = true,	-- Fallen Branch (q:89513)
 	[528074] = true,	-- Missing Voidband (q:89505)
 	[528080] = true,	-- Missing Token Box (q:89505)
 	[528082] = true,	-- Missing Luggage (q:89505)
@@ -2822,6 +2826,7 @@ MobileDB.GameObject = {
 	[586651] = true,	-- Ashwood Lumber
 	[587238] = true,	-- Stashed Singularity Supplies
 	[587913] = true,	-- Shabby Stockpile
+	[588950] = true,	-- Tusk Taker's Taken Tusk Trophy (q:93095)
 	[612274] = true,	-- Portal to K'aresh (q:85002)
 	[613268] = true,	-- Burning Torch
 	[613852] = true,	-- Potion of Unquestionable Strength (q:93569)

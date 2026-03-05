@@ -12,6 +12,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250143, {	-- Dragonhawk Mosswing (PET!)
 				["crs"] = { 249824 },	-- Dragonhawk Mosswing
 				["coords"] = {
+					{ 50.5, 24.7, MAP.MIDNIGHT.ZULAMAN },
+					{ 51.8, 28.9, MAP.MIDNIGHT.ZULAMAN },
 					{ 54.2, 22.4, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),

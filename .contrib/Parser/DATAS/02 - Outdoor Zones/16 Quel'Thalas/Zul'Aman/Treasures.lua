@@ -5,7 +5,6 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.ZULAMAN, {
 		n(TREASURES, {
-			i(256739),	-- Formula: Enchant Ring - Eyes of the Eagle (RECIPE!)
 			header(HEADERS.Achievement, 62104, {	-- Midnight Lore Hunter
 				o(620314, {	-- Tablet of Akil'zon
 					["coord"] = { 53.1, 82.1, MAP.MIDNIGHT.ZULAMAN },
@@ -190,9 +189,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			-- Repeatable Treasures, contain currencies, grays, potions, etc.
 			o(555462, {	-- Forgotten Amani Cache
 				["description"] = "Spawns randomly around the coastal areas of the zone.",
-				["groups"] = {
-					i(259112),	-- Dark Gold Dye
-				},
 			}),
 			o(587912, {	-- Giant Grab Bag
 				["coords"] = {
@@ -224,6 +220,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["description"] = "Spawns randomly around the coastal areas of the zone.",
 			}),
 			o(582179, {	-- Twilight Ordinance
+				["description"] = "Spawns randomly (mostly) around the area of Broken Throne.",
 				["coords"] = {
 					{ 20.9, 62.5, MAP.MIDNIGHT.ZULAMAN },
 					{ 21.6, 69.1, MAP.MIDNIGHT.ZULAMAN },
@@ -245,6 +242,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					{ 28.6, 76.6, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
+			-- Has a chance to drop from any treasure
+			i(256739),	-- Formula: Enchant Ring - Eyes of the Eagle (RECIPE!)
+			-- Housing Dyes can drop from any repeatable treasures. Should we even bother adding them in here?
+			i(259112),	-- Dark Gold Dye
+			i(259130),	-- Nightsong Lilac Dye
 			--[[ Keeping these for a while in case they get introduced back. When we get too deep into expansion cycle and these do not get added back, I think it's safe to remove the section.
 			o(539042, {	-- Ruz'avalt's Prized Tackle	-- TODO: Present but un-interactable on Early Acces, Removed at Full Launch.
 				["coord"] = { 44.3, 56.2, MAP.MIDNIGHT.ZULAMAN },

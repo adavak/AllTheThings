@@ -361,11 +361,14 @@ i(161053);	-- Salty Dog Crackers
 i(162630);	-- Sandy Ornate Relic
 i(163087);	-- Satchel of Blood Oranges
 i(158849);	-- Sawtooth Jawbone
+i(163695);	-- Scroll of Inner Truth
+i(163707);	-- Scroll of Torga's Swiftness
 i(163106);	-- Seasoned Stag Jerky
 i(162025);	-- Sermon of the High Exarch
 i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible
 i(155629);	-- Shaggy Mane
+i(163388);	-- Shellini
 i(163844);	-- Shredded Alliance Emblem
 i(163843);	-- Shredded Horde Emblem
 i(152099);	-- Shriveled Onion
@@ -405,6 +408,7 @@ i(155636);	-- Viscous Ink
 i(158864);	-- Viscous Webbing
 i(163901);	-- Waterproof Flintbox
 i(158789);	-- Webbed Frill
+i(163158);	-- White Tortollan
 i(158834);	-- Winch Coil
 i(162672);	-- Witch Doctor's Juju Beads
 i(161205);	-- Wooden Horse Carving
