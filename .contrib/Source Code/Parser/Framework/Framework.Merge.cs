@@ -922,9 +922,12 @@ namespace ATT
                 {
                     if (data.TryGetValue(keyID, out long id))
                     {
-                        data[keyID] = id;
                         Objects.MergeFromDB(keyID, data);
                         Items.MergeFromDB(data);
+                    }
+                    else
+                    {
+                        LogError($"Trying to merge DB data which doesn't have the expected Merge Key! {keyID}", data);
                     }
                 }
                 else

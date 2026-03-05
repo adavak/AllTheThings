@@ -16,7 +16,11 @@ namespace ATT
         private static bool Errored
         {
             get => !Framework.PreProcessorTags.Contains("IGNORE_ERRORS") && (_Errored || Framework.IsErrored);
-            set => _Errored = value;
+            set
+            {
+                _Errored = value;
+                Framework.ClearError();
+            }
         }
         private static int ErrorCode => Errored ? -1 : 0;
 
@@ -311,7 +315,6 @@ namespace ATT
                         if (Errored)
                         {
                             Trace.WriteLine("Please fix the formatting of the above Invalid JSON file(s)");
-                            Trace.WriteLine("Press Enter once you have resolved the issue.");
                             Framework.WaitForUser();
                         }
                     }
@@ -343,7 +346,6 @@ namespace ATT
                         if (Errored)
                         {
                             Trace.WriteLine("Please re-download the above Invalid CSV file(s) from wago.tools/db2");
-                            Trace.WriteLine("Press Enter once you have resolved the issue.");
                             Framework.WaitForUser();
                         }
                     }
@@ -486,7 +488,6 @@ namespace ATT
                 catch (Exception e)
                 {
                     Framework.LogException(e);
-                    Trace.WriteLine("Press Enter once you have resolved the issue.");
                     Framework.WaitForUser();
                 }
 
@@ -502,7 +503,7 @@ namespace ATT
                 if (Errored)
                 {
                     Trace.WriteLine("-- Errors encountered during Processing. Please fix them to allow exporting addon DB properly.");
-                    if(!Framework.Automated) Framework.WaitForUser("Press any key to close...");
+                    if (!Framework.Automated) Framework.WaitForUser("Press any key to close...");
                     return ErrorCode;
                 }
 
@@ -557,7 +558,7 @@ namespace ATT
                         Framework.ParseAsStringDictionary(lua.GetTable("MERGE_OBJECT_FIELDS") ?? throw new InvalidDataException("Missing 'MERGE_OBJECT_FIELDS' Global!"))
                         .ToDictionary(kvp => kvp.Key, kvp => (kvp.Value as List<object>)?.Select(o => o.ToString()).ToArray());
                     Trace.WriteLine("MERGE_OBJECT_FIELDS:");
-                    foreach(var keyValuePair in Framework.Objects.MERGE_OBJECT_FIELDS)
+                    foreach (var keyValuePair in Framework.Objects.MERGE_OBJECT_FIELDS)
                     {
                         Trace.WriteLine($" {keyValuePair.Key}: {string.Join(", ", keyValuePair.Value)}");
                     }
@@ -613,7 +614,6 @@ namespace ATT
                     catch (Exception e)
                     {
                         Framework.LogException(e);
-                        Trace.WriteLine("Press Enter once you have resolved the issue.");
                         Framework.WaitForUser();
                     }
                 }
@@ -627,7 +627,6 @@ namespace ATT
                 catch (Exception e)
                 {
                     Framework.LogException(e);
-                    Trace.WriteLine("Press Enter once you have resolved the issue.");
                     Framework.WaitForUser();
                 }
 
@@ -1095,7 +1094,6 @@ namespace ATT
 
 
                     File.WriteAllText("./ATT-ERROR-FILE.txt", content, Encoding.UTF8);
-                    Trace.WriteLine("Press Enter once you have resolved the issue.");
                     Framework.WaitForUser();
                 }
                 catch (Exception e)
@@ -1116,7 +1114,6 @@ namespace ATT
                         }
                     }
                     else Trace.WriteLine(e);
-                    Trace.WriteLine("Press Enter once you have resolved the issue.");
                     Framework.WaitForUser();
                 }
             }

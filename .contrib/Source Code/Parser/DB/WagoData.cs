@@ -160,6 +160,10 @@ namespace ATT.DB
                 });
                 method.Invoke(null, new object[] { File.ReadAllText(path), SupportedLocales[locale] });
             }
+            else
+            {
+                Framework.LogError($"Unsupported Wago File Encountered: {path}");
+            }
         }
 
         /// <summary>
@@ -1091,7 +1095,10 @@ namespace ATT.DB
                 lock (_lock)
                 {
                     if (AllDataTypes.ContainsKey(ParseType.Name))
+                    {
+                        Framework.LogWarn($"Skipped Loading repeated Wago content of Type {ParseType.Name}", ParseType);
                         return;
+                    }
 
                     var exportableDataProperties = new Dictionary<string, PropertyInfo>();
                     var localizedProperties = new List<PropertyInfo>();

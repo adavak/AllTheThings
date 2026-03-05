@@ -14,6 +14,8 @@ namespace ATT
         /// </summary>
         public static bool IsErrored { get; private set; }
 
+        public static void ClearError() => IsErrored = false;
+
         public static bool DebugLogging { get; internal set; }
 
         /// <summary>
