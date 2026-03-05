@@ -292,6 +292,18 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					i_DecorCoupons(253802, 30),	-- Deed of Patronage
 				},
 			}),
+			-- Weekly Quests
+			n(QUESTS, sharedData({
+				["isWeekly"] = true,
+			},{
+				q(92608, {	-- Landscape Photography
+					["qg"] = 252717, -- Corlen Hordralin
+					["coords"] = {
+						{53.0, 37.2, FOUNDERS_POINT},	-- Founder's Point
+						-- {},	-- Razorwind Shores
+					},
+				}),
+			})),
 		}),
 	},
 }));

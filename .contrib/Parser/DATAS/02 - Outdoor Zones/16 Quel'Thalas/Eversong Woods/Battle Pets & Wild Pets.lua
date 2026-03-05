@@ -13,6 +13,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(251001, {	-- Vibrant Manaling (PET!)
 				["crs"] = { 250572 },	-- Vibrant Manaling
 				["coords"] = {
+					{ 40.3, 36.7, MAP.MIDNIGHT.EVERSONG_WOODS },
 					{ 53.0, 54.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 				},
 			}),

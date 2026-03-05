@@ -7,6 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250135, {	-- Akil Fledgling (PET!)
 				["crs"] = { 249812 },	-- Akil Fledgling
 				["coords"] = {
+					{ 56.3, 70.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			i(250143, {	-- Dragonhawk Mosswing (PET!)
@@ -21,6 +22,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["crs"] = { 249818 },	-- Ebon Snapling
 				["coords"] = {
 					{ 41.4, 48.5, MAP.MIDNIGHT.ZULAMAN },
+					{ 55.6, 84.9, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			i(250146, {	-- Gloom Toad (PET!)
@@ -37,6 +39,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(251004, {	-- Striped Snakebiter (PET!)
 				["crs"] = { 192368 },	-- Striped Snakebiter
 				["coords"] = {
+					{ 46.5, 57.6, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			i(250140, {	-- Swamp Biter (PET!)
