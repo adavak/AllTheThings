@@ -861,10 +861,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.08, {	-- Vengeance for Tolbani
 					q(94867, {	-- Lost in Atal'Abasi
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["qg"] = 258950,	-- Vakala
 						["coord"] = { 45.1, 68.3, MAP.MIDNIGHT.ZULAMAN },
-						["isBreadcrumb"] = true,	-- I think
+						["isBreadcrumb"] = true,
 					}),
 					q(91069, {	-- Vengeance for Tolbani
 						["sourceQuests"] = { 94867 },	-- Lost in Atal'Abasi
@@ -877,7 +877,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 53.1, 62.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(548731, {	-- Stolen Provisions
-								["coord"] = { 50.2, 66.6, MAP.MIDNIGHT.ZULAMAN },
+								["coords"] = {
+									{ 48.4, 67.2, MAP.MIDNIGHT.ZULAMAN },
+									{ 48.8, 64.0, MAP.MIDNIGHT.ZULAMAN },
+									{ 50.3, 66.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 50.5, 64.4, MAP.MIDNIGHT.ZULAMAN },
+									{ 52.6, 62.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 54.0, 66.3, MAP.MIDNIGHT.ZULAMAN },
+								},
 								["groups"] = { i(245588) },	-- Food Provisions (QI!)
 							}),
 						},
@@ -1174,10 +1181,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.14, {	-- Beyond the Walls
+					-- This entire Quest "Chain" is convoluted... A bunch of disjointed quests.
 					q(93047, {	-- Butchery Basics
 						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 241072 },	-- Gijaniji
 						["coord"] = { 45.6, 69.4, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(258890) },	-- Boar Carcass (QI!)
 					}),
 					q(93048, {	-- Got No Rhythm
 						["sourceQuests"] = { 86652 },	-- Left in the Shadows
@@ -1185,7 +1194,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 46.8, 66.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93049, {	-- Homework Support
-						["sourceQuests"] = { 93047 },	-- Butchery Basics
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 254144 },	-- An'jali
 						["coord"] = { 46.6, 68.0, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
@@ -1225,15 +1234,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							}),
 						},
 					}),
+					q(93051, {	-- The Final Exam
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
+						["provider"] = { "n", 255406 },	-- Recruit Dar'rak
+						["coord"] = { 43.1, 67.1, MAP.MIDNIGHT.ZULAMAN },
+					}),
 					q(93050, {	-- Altar History
+						-- TODO: I think this one has a sourceQuest a bit later in the campaign as it requires you to recharge Loa Altars (that are not available when other quests in this "chain" get unlocked). I'll add it as I figure it out. -Exo
 						--["sourceQuests"] = { XXX },	-- ???
 						["provider"] = { "n", 254146 },	-- Rakan
 						["coord"] = { 43.5, 68.84, MAP.MIDNIGHT.ZULAMAN },
-					}),
-					q(93051, {	-- The Final Exam
-						--["sourceQuests"] = { XXX },	-- ???
-						["provider"] = { "n", 255406 },	-- Recruit Dar'rak
-						["coord"] = { 43.1, 67.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.15, {	-- Something Vile This Way Comes
@@ -1274,9 +1284,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.16, {	-- River-Walkers of the Prowl
 					q(93257, {	-- Revantusk at Risk
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 254488 },	-- Jak'zari
-						["coord"] = { 45.9, 70.7, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 45.9, 70.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93258, {	-- Crab Clues
 						["sourceQuests"] = { 93257 },	-- Revantusk at Risk
@@ -1287,6 +1297,19 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 93258 },	-- Crab Clues
 						["provider"] = { "n", 254491 },	-- Kahanea
 						["coord"] = { 40.2, 79.2, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							o(614503, {	-- Crab Trap
+								["coords"] = {
+									{ 32.3, 84.2, MAP.MIDNIGHT.ZULAMAN },
+									{ 33.3, 81.1, MAP.MIDNIGHT.ZULAMAN },
+									{ 33.7, 83.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 34.8, 82.2, MAP.MIDNIGHT.ZULAMAN },
+									{ 35.6, 81.7, MAP.MIDNIGHT.ZULAMAN },
+									{ 37.5, 81.2, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(264166) },	-- Void Artifact Shard
+							}),
+						},
 					}),
 					q(93259, {	-- Clobbering Crawlers
 						["sourceQuests"] = { 93258 },	-- Crab Clues
@@ -1304,7 +1327,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 254491 },	-- Kahanea
 						["coord"] = { 32.2, 83.8, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							i(260410),	-- Void-Touched Refuse (QI!)
+							i(260410),	-- Chipped Twilight's Blade Artifact (QI!)
 							--
 							i(263280),	-- Tidewrought Coif
 							i(263281),	-- Tidewrought Greathelm

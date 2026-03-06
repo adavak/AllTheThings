@@ -7,6 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250135, {	-- Akil Fledgling (PET!)
 				["crs"] = { 249812 },	-- Akil Fledgling
 				["coords"] = {
+					{ 47.1, 76.0, MAP.MIDNIGHT.ZULAMAN },
 					{ 56.3, 70.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
@@ -40,6 +41,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["crs"] = { 192368 },	-- Striped Snakebiter
 				["coords"] = {
 					{ 46.5, 57.6, MAP.MIDNIGHT.ZULAMAN },
+					{ 51.7, 67.1, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			i(250140, {	-- Swamp Biter (PET!)

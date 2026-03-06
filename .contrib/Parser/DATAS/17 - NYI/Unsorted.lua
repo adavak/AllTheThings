@@ -562,11 +562,9 @@ root(ROOTS.Unsorted, {
 				i(258572),	-- Crystal Essence
 				i(258573),	-- Plant Dye
 				i(258738),	-- A Cordial Invitation
-				i(258890),	-- Boar Carcass \\ [PH] Boar Carcass
 				i(260368),	-- Dirt
 				i(263471),	-- Fire Thing
 				i(264009),	-- S.O.S in a Bottle
-				i(264166),	-- Void Artifact Shard
 				i(264191),	-- Ziadan's Stolen Battleplans
 				i(264192),	-- Vidious' Stolen Battleplans
 				i(264357),	-- Void-Ridden Crab Meat
@@ -962,7 +960,6 @@ root(ROOTS.Unsorted, {
 				i(266187),	-- Mind-Seeker Clutches
 			}),
 			filter(COSMETIC, {
-				i(242635),	-- Twilight's Blade - Armor - Tabard \\ Twilight's Blade Tabard
 				i(246726),	-- Greatsword of Returning Light
 				i(248933),	-- Burden of War
 				i(253389),	-- Manaforge Raider's Umbral Ward (MAIN HAND SLOT)
