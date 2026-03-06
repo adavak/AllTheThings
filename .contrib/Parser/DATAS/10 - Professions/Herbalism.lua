@@ -1624,10 +1624,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				},
 			}),
 			o(525975, {	-- Harvester's Sickle
-				["coords"] = {
-					{ 76.1, 51.1, MAP.MIDNIGHT.HARANDAR },
-					{ 41.9, 46.0, MAP.MIDNIGHT.ZULAMAN },
-				},
+				["coord"] = { 76.1, 51.1, MAP.MIDNIGHT.HARANDAR },
 				["questID"] = 89157,
 				["groups"] = {
 					i(238473),	-- Harvester's Sickle
