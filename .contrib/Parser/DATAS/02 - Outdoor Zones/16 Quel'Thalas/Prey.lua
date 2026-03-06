@@ -10,6 +10,23 @@ PREY = createHeader({
 	},
 });
 
+local PREYSEEKER_BOX_SYM = {
+	{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+	{"where","headerID",PREY},{"pop"},
+	{"where","headerID",REWARDS},{"pop"},
+	{"where","headerID",ARMOR},{"finalize"},
+
+	{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+	{"where","headerID",PREY},{"pop"},
+	{"where","headerID",REWARDS},{"pop"},
+	{"where","headerID",WEAPONS},{"finalize"},
+
+	{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+	{"where","headerID",ZONE_REWARDS},{"pop"},
+	{"where","headerID",ARMOR},{"pop"},
+	{"where","filterID",TRINKET_F},
+}
+
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
 	-- TODO: Move this all to Expansion Features instead?
 	n(PREY, {
@@ -316,14 +333,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			-- q(TODO),	-- Prey Complete - Nightmare #4
 		})),
 		n(REWARDS, {
-			--Currency
+			-- Currency
 			currency(3392),	-- Remnant of Anguish
-			--Used just for tooltip, you recieve item instead of it
-			i(268545),	-- Aspiring Preyseeker's Chest
-			i(257023),	-- Preyseeker's Adventurer Chest
-			i(262346),	-- Preyseeker's Champion Chest
-			i(257026),	-- Preyseeker's Veteran Chest
-			--Gear
+			-- Gear
 			n(ARMOR, {
 				filter(BACK_F, {
 					i(259909),	-- Preyseeker's Refined Shawl
@@ -411,6 +423,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			}),
 			filter(RECIPES, {
 			}),
+			-- Boxes
+			i(257023, {	-- Preyseeker's Adventurer Chest
+				["sym"] = PREYSEEKER_BOX_SYM,
+			}),
+			i(257026, {	-- Preyseeker's Veteran Chest
+				["sym"] = PREYSEEKER_BOX_SYM,
+			}),
+			i(262346, {	-- Preyseeker's Champion Chest
+				["sym"] = PREYSEEKER_BOX_SYM,
+			}),
+			i(268545),	-- Aspiring Preyseeker's Chest
 		}),
 		n(VENDORS, {
 			n(258181, {	-- Construct Ali'a <Decor Specialist>
