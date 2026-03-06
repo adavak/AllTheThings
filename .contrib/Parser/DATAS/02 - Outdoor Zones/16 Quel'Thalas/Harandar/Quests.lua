@@ -15,13 +15,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["races"] = { HARANIR_ALLIANCE, HARANIR_HORDE },
 			}, {
 				q(90957, {	-- Initiation Day
-					["qg"] = 237332,	-- Hagar
+					["qg"] = 245090,	-- Hagar
 					["coord"] = { 34.8, 24.9, MAP.MIDNIGHT.HARANDAR },
 					["groups"] = {
-						i(257527),	-- Woven Haranir Cowl
-						i(257528),	-- Entwined Haranir Cowl
 						i(257529),	-- Coarse Haranir Cowl
+						i(257528),	-- Entwined Haranir Cowl
 						i(257530),	-- Hardened Haranir Cowl
+						i(257527),	-- Woven Haranir Cowl
 					},
 				}),
 				q(90958, {	-- Roots Above All
@@ -621,7 +621,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			header(HEADERS.Achievement, 61574, bubbleDownFiltered({ ["isWeekly"] = true },FILTERFUNC_questID,{	-- Legends Never Die
 				n(REWARDS, {
 					-- Rewarded on every quest completion. Be it the first time or on the repetition.
-					i(269703),	-- Avid Learner's Supply Pack (TODO: different version? pre-season? race specific?)
+					i(269703),	-- Avid Learner's Supply Pack
+					i(268487),	-- Avid Learner's Supply Pack (Pre-Season)
 					i(263467),	-- Avid Learner's Supply Pack
 				}),
 				q(89268, {	-- Lost Legends

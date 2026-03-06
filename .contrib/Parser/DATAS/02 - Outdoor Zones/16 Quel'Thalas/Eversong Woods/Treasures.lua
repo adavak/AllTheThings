@@ -189,6 +189,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			o(531480, {	-- Dead Drop
 			}),
+			o(531478, {	-- Misplaced Tome
+			}),
 			o(531479, {	-- Ranger's Cache
 			}),
 		}),

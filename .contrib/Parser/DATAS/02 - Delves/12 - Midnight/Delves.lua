@@ -210,6 +210,16 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				i(251785),	-- Void-Reaper's Libram
 			}),
 		}),
+		filter(COSMETIC, {
+			i(262983),	-- Archival Magnimace (COSMETIC!)
+			i(262992),	-- Myth Maker's Brush (COSMETIC!)
+			i(262970),	-- Ominous Tome (COSMETIC!)
+			i(264848),	-- Sunlit Vinepouch (COSMETIC!)
+			i(264857),	-- Twilight Fanatic's Cowl (COSMETIC!)
+			i(264855),	-- Vilebranch Deathseer (COSMETIC!)
+			i(264854),	-- Vilebranch Soulseer (COSMETIC!)
+			i(264851),	-- Voidtouched Twilight Spaulder (COSMETIC!)
+		}),
 		n(DECOR, {
 			i(264329),	-- Amani Dining Table (DECOR!)
 			i(264330),	-- Amani Hanging Brazier (DECOR!)
@@ -332,6 +342,12 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				i(254756),	-- Chunk of Companion Experience (Uncommon)
 				i(254757),	-- Chunk of Companion Experience (Rare)
 				i(254748),	-- Chunk of Companion Experience (Epic)
+			},
+		}),
+		o(618495, {	-- Nullaeus Cache
+			["groups"] = {
+				i(262391),	-- Ominous Domanus (PET!)
+				i(265367),	-- Twilight Fang (COSMETIC!)
 			},
 		}),
 	})),
@@ -457,9 +473,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				filter(BATTLE_PETS, {
 					i(262390),	-- Sporbie (PET!)
 				}),
-				filter(COSMETIC, {
-					i(264855),	-- Vilebranch Deathseer (COSMETIC!)
-				}),
 				filter(MISC, {
 					i(262965),	-- Delver's Delight (TODO: should be questID)
 				}),
@@ -503,9 +516,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			n(REWARDS, {
 				filter(BATTLE_PETS, {
 					i(262390),	-- Sporbie (PET!)
-				}),
-				filter(COSMETIC, {
-					i(264857),	-- Twilight Fanatic's Cowl (COSMETIC!)
 				}),
 				filter(MISC, {
 				}),
@@ -585,10 +595,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			}),
 			n(REWARDS, {
-				filter(COSMETIC, {
-					i(264848),	-- Sunlit Vinepouch (COSMETIC!)
-					i(264854),	-- Vilebranch Soulseer (COSMETIC!)
-				}),
 				filter(MISC, {
 				}),
 			}),
@@ -634,7 +640,8 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			n(REWARDS, {
 				filter(COSMETIC, {
-					i(264851),	-- Voidtouched Twilight Spaulder (COSMETIC!)
+					filter(MISC, {
+					}),
 				}),
 			}),
 		},
@@ -704,8 +711,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			}),
 			n(REWARDS, {
-				filter(COSMETIC, {
-					i(262970),	-- Ominous Tome (COSMETIC!)
+				filter(MISC, {
 				}),
 			}),
 		},
@@ -778,16 +784,15 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				filter(MISC, {
 					i(263368),	-- Armageddon and You - A Beginner's Guide to Thriving in the Apocalypse
 					i(263361),	-- Chicken Soup for the Soulless
+					i(263354),	-- Filling the Void in Your Heart
 					i(263350),	-- Harbringer Fan Fiction
+					i(263379),	-- Personal Advertising Platform
 					i(263348),	-- Purple Is The New Black
+					i(263380),	-- Recruitment Pamphlets
 					i(263382),	-- Twilight Material
 					i(263377),	-- Xal-a-Pal
 					i(263381),	-- Xal'atath Wall Scrolls
 					i(263373),	-- You Can't Believe It's Not Void
-					--didn't saw it, but they probably exist here too
-					--i(263354),	-- Filling the Void in Your Heart
-					--i(263379),	-- Personal Advertising Platform
-					--i(263380),	-- Recruitment Pamphlets
 				}),
 			}),
 			n(TREASURES, {
@@ -805,8 +810,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			}),
 			n(REWARDS, {
-				filter(COSMETIC, {
-					i(262983),	-- Archival Magnimace (COSMETIC!)
+				filter(MISC, {
 				}),
 			}),
 		},
@@ -875,9 +879,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			}),
 			n(REWARDS, {
-				filter(COSMETIC, {
-					i(262992),	-- Myth Maker's Brush (COSMETIC!)
-				}),
 				filter(MISC, {
 					i(266438),	-- Idol of Pestilence (QS!/QI!)
 				}),
@@ -887,7 +888,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	n(DELVES, applyDataSelf({ ["timeline"] = { ADDED_12_0_X_SEASONSTART } }, {
+	n(DELVES, applyDataSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
 		n(BOUNTIFUL, sharedData({
 			["isDaily"] = true,
 		},{
@@ -903,6 +904,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		--	--q(),	-- factionName
 		})),
 		q(93866),	-- Die in a delve, trigger mail with A Grave Concern
+		q(92887),	-- Invaded by Nullaeus
 
 		-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 		--q(93275, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st (could be wrong and it is rep lockout for Unity Against the Void?)

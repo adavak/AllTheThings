@@ -313,6 +313,9 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				--["races"] = { HARANIR_ALLIANCE, HARANIR_HORDE },
 				["timeline"] = { ADDED_12_0_1_LAUNCH },
 			}),
+			i(270433, {	-- Dawnroot Haranir Quarterstaff
+				["timeline"] = { ADDED_12_0_1_LAUNCH },
+			}),
 			i(3661),	-- Handcrafted Staff
 		}),
 		n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 }, }, {

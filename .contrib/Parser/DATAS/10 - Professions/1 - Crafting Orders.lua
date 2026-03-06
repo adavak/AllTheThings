@@ -146,7 +146,10 @@ root(ROOTS.Professions, n(CRAFTING_ORDERS, {
 				i(246335, {	-- Glimmer of Midnight Tailoring Knowledge
 					currency(PROFESSION_KNOWLEDGE.MID.TAILORING),
 				}),
+				i(260630),	-- Ingenious Identifier
 				i(246449),	-- Mentor's Helpful Handiwork
+				i(247719),	-- Multicraft Matrix
+				i(247725),	-- Resourceful Rebar
 			})),
 		}),
 	},

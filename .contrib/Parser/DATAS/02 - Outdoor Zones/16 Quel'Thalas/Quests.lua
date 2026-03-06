@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 							["groups"] = { i(237518) },	-- Lena Stormpike's Stein (QI!)
 						}),
 						o(523391, {	-- Uther's Healing Kit
-							["coord"] = { 71.3, 13.8, LIGHTS_HOPE_CHAPEL },
+							["coord"] = { 72.8, 14.7, LIGHTS_HOPE_CHAPEL },
 							["groups"] = { i(237519) },	-- Uther's Healing Kit (QI!)
 						}),
 						o(523390, {	-- Mara Fordragon's Prayer Book

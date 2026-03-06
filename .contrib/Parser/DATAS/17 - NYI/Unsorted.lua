@@ -48,11 +48,6 @@ root(ROOTS.Unsorted, {
 				i(259354),	-- Brown Paper Sack
 			}),
 			filter(MISC, {
-				-- Midnight Preseason
-				i(268485),	-- Victorious Stormarion Pinnacle Cache
-				i(268487),	-- Avid Learner's Supply Pack
-
-				i(268490),	-- Apex Cache
 
 				-- Cache
 				i(269701),	-- Surplus Bag of Party Favors
@@ -90,7 +85,6 @@ root(ROOTS.Unsorted, {
 				-- Haranir Class Trial?
 				i(270430),	-- Windpetal Haranir Crook
 				i(270431),	-- Haranir Footlocker
-				i(270433),	-- Dawnroot Haranir Quarterstaff
 				i(270439),	-- Wildgrove Haranir Spear
 				i(270440),	-- Rootbound Haranir Handaxe
 				i(270441),	-- Thornpierce Haranir Chopper
@@ -126,9 +120,7 @@ root(ROOTS.Unsorted, {
 				i(248245),	-- Super Sin'dorei Gilded Hardhat
 
 				-- Prof
-				i(247719),	-- Multicraft Matrix
 				i(247724),	-- Multicraft Manifold
-				i(247725),	-- Resourceful Rebar \\ [PH] Resourcefulness Finishing Reagent
 				i(247726),	-- Resourceful Routing \\ [PH] Resourcefulness Finishing Reagent
 				i(247787),	-- [PH] Perception Finishing Reagent
 				i(247788),	-- Ingenious Identity \\ Ingenuious Identity \\ [PH] Perception Finishing Reagent
@@ -166,16 +158,12 @@ root(ROOTS.Unsorted, {
 				-- Proff LW NYI
 				i(256648),	-- Pattern: Devouring Banding
 				i(256651),	-- Pattern: Blood Knight's Armor Kit
-				-- Prof
-				i(260630),	-- Ingenious Identifier
 				-- Fishing
 				i(262650),	-- Writhing Wiggleworm
 				i(262651),	-- Pointed Spikesnail
 				-- Inscr
 				i(262908),	-- Milling
 
-				-- Proff
-				i(263461),	-- Thalassian Skinner's Notes
 				-- Alch NYi
 				i(241335),	-- Vicious Thalassian Flask of Honor++
 				-- Alchemy
@@ -240,9 +228,7 @@ root(ROOTS.Unsorted, {
 					i(244789),	-- [PH] Test Fishing Rod B
 				}),
 				prof(FISHING, {
-					i(238374),	-- Tender Lumifin
 
-					i(238490),	-- Ambiguous Rock
 					i(238498),	-- [PH] Trophy Coin
 
 					-- Fishing
@@ -253,7 +239,6 @@ root(ROOTS.Unsorted, {
 					i(243248),	-- Anomaly Filament
 
 					-- Fishing
-					i(244817),	-- Recipe: Blood Hunter Lure
 					i(244818),	-- Recipe: Rootland Crab Lure
 				}),
 				prof(HERBALISM, {
@@ -262,7 +247,6 @@ root(ROOTS.Unsorted, {
 					i(237500),	-- Primal Resilient Seed
 
 					-- Prof Knoweldge
-					i(238467),	-- Thalassian Phoenix Ember
 					i(238469),	-- Sweeping Harvester's Scythe
 
 					-- Herb Knowledge
@@ -286,7 +270,6 @@ root(ROOTS.Unsorted, {
 				}),
 				prof(SKINNING, {
 					i(238522),	-- Peerless Plumage
-					i(238529),	-- Majestic Hide
 					i(238531),	-- Radiant Stomach
 
 
@@ -301,8 +284,6 @@ root(ROOTS.Unsorted, {
 					i(238611),	-- Carapace Shiner
 
 					-- Skinning Knowledge
-					i(238625),	-- Fine Void-Tempered Hide \\ Fine Thalassian Hide
-					i(238626),	-- Mana-Infused Bone
 					i(238627),	-- Manafused Sample
 				}),
 			}),
@@ -360,7 +341,6 @@ root(ROOTS.Unsorted, {
 				i(265802),	-- Tome of Town Portal
 				i(265817),	-- Forgotten Songwriter's Quill
 				i(265824),	-- The Rootwarden's Notes
-				i(266102),	-- Ambiguous Rock
 				i(266213),	-- Incense Materials
 				i(260603),	-- Frail and Flexible Wing
 				i(260674),	-- Fine Arcane Dust
@@ -476,8 +456,6 @@ root(ROOTS.Unsorted, {
 				i(265014),	-- Echo of Radiance
 				i(265015),	-- Echo of Radiance
 				i(265016),	-- Echo of Radiance
-				-- Lockbox
-				i(264475),	-- Umbral Tin Lockbox
 
 				--misc
 				i(263354),	-- Filling the Void in Your Heart
@@ -487,8 +465,6 @@ root(ROOTS.Unsorted, {
 				i(249228),	-- 12.0 Delves - Season 1 - Curio - Utility 5
 				-- Cache
 				i(250117),	-- Cache of Quel'Thalas Treasures
-				--Arcantina
-				i(250872),	-- Scarred Spear
 				-- Boon?
 				i(260910),	-- Boon of Vitality
 			}),
@@ -574,7 +550,6 @@ root(ROOTS.Unsorted, {
 				i(249553),	-- Lost Mirror
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
-				i(249691),	-- Holy Sunfire
 				i(249724),	-- Sunfruit Wedge
 				i(249732),	-- Vintner's Golden
 				i(250705),	-- Naga Missive PH NAME
@@ -596,7 +571,6 @@ root(ROOTS.Unsorted, {
 				i(258738),	-- A Cordial Invitation
 				i(258890),	-- Boar Carcass \\ [PH] Boar Carcass
 				i(260368),	-- Dirt
-				i(263446),	-- Spare Murloc Suit
 				i(263471),	-- Fire Thing
 				i(264009),	-- S.O.S in a Bottle
 				i(264166),	-- Void Artifact Shard
@@ -666,7 +640,6 @@ root(ROOTS.Unsorted, {
 				i(258029),	-- Vaunted Preyseeker's Plumed Helm
 				i(258031),	-- Vaunted Preyseeker's Knapsack
 				i(258032),	-- Ensemble: Skilled Preyseeker's Attire
-				i(258533),	-- Preyseeker's Polished Cloak \\ [DNT] 12.0 Prey - Accessory - CLOAK - D
 				i(259954),	-- [DNT] 12.0 Prey - Weapon - 1H Mace STR - A
 				-- Anglers
 				i(253516),	-- Depthdiver's Used Tank \\ Oxygen Tank II
@@ -987,7 +960,6 @@ root(ROOTS.Unsorted, {
 				i(265740),	-- Amani Totemstring
 				-- Trinket
 				i(264878),	-- Astalor's Anguish Agitator
-				i(265657),	-- Fiber of Living Agony
 				-- Trinket
 				i(262753),	-- Shard of VoidStalker's Bracers
 				i(262754),	-- Void Pearl of Haste
@@ -1050,8 +1022,6 @@ root(ROOTS.Unsorted, {
 				i(260763),	-- Lil' Tan Popper
 				i(260764),	-- Lil' Green Popper
 				i(260765),	-- Lil' Red Popper
-				i(260898),	-- Lost Cerulean Edge
-				i(260900),	-- Lost Thunder Fist
 				i(260901),	-- Lost Stave of Burrowing Contortion
 				i(260902),	-- Lost Sunset Scepter
 				i(260903),	-- Lost Sunwell Splitter
@@ -1141,7 +1111,6 @@ root(ROOTS.Unsorted, {
 				i(265364),	-- Twilight Infiltrator's Blade
 				i(265365),	-- Twilight Duskwhisper Dagger
 				i(265366),	-- Twilight Executioner
-				i(265367),	-- Twilight Fang
 				i(265368),	-- Twilight Destroyer
 				i(266077),	-- Basic Black Quiver
 				i(266078),	-- Basic Blue Quiver

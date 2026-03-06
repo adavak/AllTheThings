@@ -1745,6 +1745,8 @@ root(ROOTS.Zones, {
 						["questID"] = 38762,
 						["coord"] = { 34.5, 78.3, TANAAN_JUNGLE },
 					}),
+					o(243796, {	-- Suspiciously Glowing Chest
+					}),
 					o(240543, {	-- Stolen Captain's Chest
 						["questID"] = 38283,
 						["coord"] = { 17.0, 52.9, TANAAN_JUNGLE },

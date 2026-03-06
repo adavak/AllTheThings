@@ -72,6 +72,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				i(260979, {	-- Victorious Stormarion Cache
 					i(257180),	-- Reins of Contained Stormarion Defender (MOUNT!) TODO: Blizzard bug - missing spellID for it, fix on live
 				}),
+				i(268485),	-- Victorious Stormarion Pinnacle Cache (Pre-Season)
 				i(260940, {	-- Victorious Stormarion Pinnacle Cache
 					i(265030),	-- Kai (PET!)
 					i(262608),	-- Void Elf Stool (DECOR!)

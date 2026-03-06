@@ -1152,8 +1152,14 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 		n(QUESTS, {
 			q(93692, {	-- Engineering Services Requested
 				["sourceQuests"] = { 93727 },	-- Crafting Orders: Engineering
-				["provider"] = { "n", 241452 },	-- Danwe <Engineering Trainer>
-				["coord"] = { 43.5, 54.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["qgs"] = {
+					243283,	-- Captain Flaresworn <Requisitions Officer>
+					241452,	-- Danwe <Engineering Trainer>
+				},
+				["coords"] = {
+					{ 43.5, 54.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+					{ 45.1, 55.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+				},
 				["isWeekly"] = true,
 				["groups"] = {
 					i(263456),	-- Thalassian Engineer's Notepad

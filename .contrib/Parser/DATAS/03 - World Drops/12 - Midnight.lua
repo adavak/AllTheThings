@@ -128,6 +128,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(258950),	-- Tarnished Dawnlit Warmace
 	}),
 	filter(MISC, {
+		i(264475),	-- Umbral Tin Lockbox
 	}),
 	filter(REAGENTS, {
 		i(236963),	-- Bright Linen+

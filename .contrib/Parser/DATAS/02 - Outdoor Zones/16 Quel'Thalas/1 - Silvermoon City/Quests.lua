@@ -116,6 +116,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["coord"] = { 49.0, 64.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["isWeekly"] = true,
 			["groups"] = {
+				i(268490),	-- Apex Cache (Pre-Season)
 				i(254677),	-- Apex Cache
 				-- zone reward
 			},

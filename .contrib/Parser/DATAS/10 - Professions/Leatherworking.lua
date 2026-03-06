@@ -1538,16 +1538,14 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 245758 },	-- Thalassian Treatise on Leatherworking
 			}),
-			--[[ Needs QuestIDs
-			q(83267, {	-- MID Weekly Leatherworking Knowledgepoint #1
+			q(93540, {	-- MID Weekly Leatherworking Knowledgepoint #1
 				["name"] = "MID Weekly Leatherworking Treasure #1",
 				["provider"] = { "i", 259200 },		-- Amani Tanning Oil
 			}),
-			q(83268, {	-- MID Weekly Leatherworking Knowledgepoint #2
+			q(93541, {	-- MID Weekly Leatherworking Knowledgepoint #2
 				["name"] = "MID Weekly Leatherworking Treasure #2",
 				["provider"] = { "i", 259201 },		-- Thalassian Mana Oil
 			}),
-			--]]
 		})),
 	})),
 })));

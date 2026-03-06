@@ -963,23 +963,17 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				},
 			}),
 		}),
-		--[[
 		n(QUESTS, sharedData({
 			-- ["description"] = "Requires 50 Skill.",
-			["provider"] = { "n", 219083 },	-- Ginnad <Skinning Trainer>
-			["coord"] = { 54.5, 57.6, DORNOGAL },
+			["provider"] = { "n", 243527 },	-- Tyn <Skinning Trainer>
+			["coord"] = { 43.2, 55.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["isWeekly"] = true,
 			["groups"] = {
-				i(224807),	-- Algari Skinner's Notes
+				i(263461),	-- Thalassian Skinner's Notes
 			},
 		},{
-			q(83097),	-- Cinder and Storm
-			q(83100),	-- Cracking the Shell
-			q(82993),	-- From Shadows
-			q(83098),	-- Snap and Crackle
-			q(82992),	-- Stormcharged Goods
+			q(93712),	-- Style and Skill
 		})),
-		--]]
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
 			--["groups"] = sharedData({ ["cost"] = {{ "c", MID_SKINNING_KNOWLEDGE, 1 }} }, {
@@ -1027,37 +1021,36 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				["groups"] = { i(238631) },	-- Voidstorm Leather Sample
 			}),
 		}),
-		--[[
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
 			["groups"] = {
 				currency(MID_SKINNING_KNOWLEDGE),
 			},
 		},{
-			q(81459, {	-- TWW Weekly Skinning Knowledgepoint #1
-				["name"] = "TWW Weekly Skinning Knowledgepoint #1",
-				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			q(88529, {	-- MID Weekly Skinning Knowledgepoint #1
+				["name"] = "MID Weekly Skinning Knowledgepoint #1",
+				["provider"] = { "i", 238626 },	-- Mana-Infused Bone
 			}),
-			q(81460, {	-- TWW Weekly Skinning Knowledgepoint #2
-				["name"] = "TWW Weekly Skinning Knowledgepoint #2",
-				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
-			}),
-			q(81461, {	-- TWW Weekly Skinning Knowledgepoint #3
-				["name"] = "TWW Weekly Skinning Knowledgepoint #3",
-				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
-			}),
-			q(81462, {	-- TWW Weekly Skinning Knowledgepoint #4
-				["name"] = "TWW Weekly Skinning Knowledgepoint #4",
-				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
-			}),
-			q(81463, {	-- TWW Weekly Skinning Knowledgepoint #5
-				["name"] = "TWW Weekly Skinning Knowledgepoint #5",
-				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
-			}),
-			q(81464, {	-- TWW Weekly Skinning Knowledgepoint #6
-				["name"] = "TWW Weekly Skinning Knowledgepoint #6",
-				["provider"] = { "i", 224781 },	-- Abyssal Fur
-			}),
-		})),--]]
+			--q(81460, {	-- TWW Weekly Skinning Knowledgepoint #2
+				--["name"] = "TWW Weekly Skinning Knowledgepoint #2",
+				--["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			--}),
+			--q(81461, {	-- TWW Weekly Skinning Knowledgepoint #3
+				--["name"] = "TWW Weekly Skinning Knowledgepoint #3",
+				--["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			--}),
+			--q(81462, {	-- TWW Weekly Skinning Knowledgepoint #4
+				--["name"] = "TWW Weekly Skinning Knowledgepoint #4",
+				--["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			--}),
+			--q(81463, {	-- TWW Weekly Skinning Knowledgepoint #5
+				--["name"] = "TWW Weekly Skinning Knowledgepoint #5",
+				--["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
+			--}),
+			--q(81464, {	-- TWW Weekly Skinning Knowledgepoint #6
+				--["name"] = "TWW Weekly Skinning Knowledgepoint #6",
+				--["provider"] = { "i", 224781 },	-- Abyssal Fur
+			--}),
+		})),
 	})),
 })));

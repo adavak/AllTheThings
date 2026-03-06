@@ -1013,6 +1013,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(258511),	-- Recipe: Sunwell Fish Lure
 			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
 		}),
+		i(238490, {	-- Ambiguous Rock
+			i(266102),	-- Ambiguous Rock
+		}),
 		i(241148),	-- Amani Angler's Ward
 		i(262649),	-- An Angler's Deep Dive
 		i(243343),	-- Angler's Anomaly
@@ -1056,6 +1059,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(262798),	-- Stranded Glimmerline (Green Quality)
 		i(238365),	-- Sin'dorei Swarmer
 		i(238384),	-- Sunwell Fish
+		i(238374),	-- Tender Lumifin
 		i(238368),	-- Twisted Tetra
 		i(238379),	-- Warping Wise
 	}),
@@ -1135,7 +1139,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(236777),	-- Argentleaf++
 		i(236774),	-- Azeroot+
 		i(236775),	-- Azeroot++
-		i(237507),	-- Cloudy Quartz
 		i(238389),	-- Empowered Mulch
 		i(238388),	-- Imbued Mulch
 		i(238387),	-- Magical Mulch
@@ -1145,6 +1148,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(237497),	-- Resilient Seed
 		i(236770),	-- Sanguithorn+
 		i(236771),	-- Sanguithorn++
+		i(238467),	-- Thalassian Phoenix Ember
 		i(238465),	-- Thalassian Phoenix Plume
 		i(238466),	-- Thalassian Phoenix Tail
 		i(236761),	-- Tranquility Bloom+
@@ -1915,6 +1919,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		})),
 		i(237364),	-- Brilliant Silver Ore+
 		i(237365),	-- Brilliant Silver Ore++
+		i(237507),	-- Cloudy Quartz
 		i(237366),	-- Dazzling Thorium
 		i(237496),	-- Igneous Rock Specimen
 		i(237359),	-- Refulgent Copper Ore+
@@ -1948,8 +1953,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		spell(471014, {	-- Midnight Skinning
 			i(238523),	-- Carving Canine
 			i(238525),	-- Fantastic Fur
+			i(238625),	-- Fine Void-Tempered Hide
 			i(238528),	-- Majestic Claw
 			i(238530),	-- Majestic Fin
+			i(238529),	-- Majestic Hide
+			i(238626),	-- Mana-Infused Bone
 			i(238518),	-- Void-Tempered Hide+
 			i(238519),	-- Void-Tempered Hide++
 			i(238511),	-- Void-Tempered Leather+

@@ -19,6 +19,10 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 					o(579193, {	-- Rusty Axe
 						i(254283),	-- Rusty Axe (QI!)
 					}),
+					o(572029, {	-- Scarred Spear
+						["questID"] = 92375,
+						["groups"] = { i(250872) },	-- Scarred Spear
+					}),
 				},
 			}),
 			q(92321, {	-- A Frostbitten Tally
@@ -30,8 +34,12 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 				},
 				["groups"] = {
 					i(253598),	-- Banner of the Ebon Blade (DECOR!)
-					o(614636, {	--
+					o(614636, {	-- Frostbitten Tabard
 						i(260227),	-- Frostbitten Tabard (QI!)
+					}),
+					o(572030, {	-- Ebon Banner
+						["questID"] = 92376,
+						["groups"] = { i(250873) },	-- Ebon Banner
 					}),
 				},
 			}),
@@ -148,9 +156,6 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 			}),
 			-- Unsorted, these are part of the highly decorated achievement, need to be fitted into the rest of the structure of this file. Do not put them in HQT or you will get parser warnings.
 			q(92380),	-- Defense Fragment
-			q(92376, {	-- Ebon Banner
-				i(250873),	-- Ebon Banner
-			}),
 			q(92379, {	-- Evergreen Vine
 				i(250876),	-- Evergreen Vine
 			}),
@@ -159,9 +164,6 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 			}),
 			q(92383, {	-- Sandy Tapestry
 				i(250880),	-- Sandy Tapestry
-			}),
-			q(92375, {	-- Scarred Spear
-				i(250877),	-- Scarred Spear
 			}),
 		}),
 		n(TREASURES, sharedData({["isDaily"] = true,}, {

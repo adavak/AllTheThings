@@ -1439,6 +1439,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 		},{
 			q(93706),	-- Aggressive Tin-dencies
+			q(93708),	-- Conductive Metals
 			q(93709),	-- Stocking the Staples
 		})),
 		--[[filter(RECIPES, {

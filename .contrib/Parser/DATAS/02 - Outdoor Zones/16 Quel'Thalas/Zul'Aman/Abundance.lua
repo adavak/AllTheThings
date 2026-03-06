@@ -78,7 +78,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(94361, {	-- The Abundant Life
-						["qg"] = 241928,	-- Chel the Chip
+						["qgs"] = {
+							241928,	-- Chel the Chip
+							251601,	-- Dundun <Loa of Abundance>
+						},
 						["coord"] = { 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN }, -- maybe any zone??
 					}),
 					q(94834, {	-- Blessings of Abundance
@@ -220,12 +223,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 	m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(ABUNDANCE, {
 			n(QUESTS, {
+				q(91475),	-- Abundance: Abundant Voidburrow
+
 				q(88770),	-- Popped after entering Loaknit Den
 				q(87350),	-- Abundance. Loaknit Den
 				q(94426),	-- Popped after Loaknit Den
 
 				q(91432),	-- Popped after entering Wath'nan Crypts
-				q(91467),	-- Abundance: Watha'nan Crypts
+				q(91457),	-- Abundance: Watha'nan Crypts
 			}),
 		}),
 	}),

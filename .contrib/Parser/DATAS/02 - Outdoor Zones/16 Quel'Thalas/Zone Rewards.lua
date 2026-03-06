@@ -67,6 +67,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				i(264701),	-- Cosmic Bell
 				i(248583),	-- Drum of Renewed Bonds
 				i(251786),	-- Ever-Collapsing Void Fissure
+				i(265657),	-- Fiber of Living Agony
 				i(251788),	-- Gift of Light
 				i(251791),	-- Holy Retributor's Order
 				i(251783),	-- Lost Idol of the Hash'ey
