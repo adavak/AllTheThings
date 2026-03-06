@@ -140,7 +140,7 @@ namespace ATT.DB
         /// <param name="path">The path of the CSV file.</param>
         public static void LoadFromCSV(string path)
         {
-            System.Diagnostics.Trace.WriteLine($"Wago: {path}");
+            Framework.LogDebug($"Wago.LoadFromCSV: {path}");
 
             // Parse the filename for the database type and locale, if specified.
             var filename = path.Substring(path.LastIndexOf('\\') + 1);
@@ -1207,7 +1207,14 @@ namespace ATT.DB
                         }
                         */
                     }
-                    CachedData.TryAdd(obj.ID, obj);
+                    if (CachedData.TryAdd(obj.ID, obj))
+                    {
+                        //Framework.LogWarn($"WagoData.Load.{ParseType.Name}.Add: {obj.ID}", line.Values);
+                    }
+                    else
+                    {
+                        //Framework.LogWarn($"WagoData.Load.{ParseType.Name}.Skip: {obj.ID}", line.Values);
+                    }
                     StoreLocalizedData(obj, locale);
                 }
             }

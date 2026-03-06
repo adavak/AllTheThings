@@ -32,6 +32,8 @@ namespace ATT
 
         public static string CurrentImportFilename { get; set; }
 
+        private static bool ShouldLoadInSequence => Debugger.IsAttached || Framework.PreProcessorTags.Contains("ANYCLASSIC");
+
         static void UnhandledExceptionHandler(object sender, UnhandledExceptionEventArgs e)
         {
             Exception ex = (Exception)e.ExceptionObject;
@@ -288,6 +290,8 @@ namespace ATT
             }
 
             // Load the Database
+            // Since we have Object types defined in the Export static constructor, they need to exist before any data is merged in or we potentially get failed ObjectData checks
+            Export.Initialize();
             try
             {
                 // Step 1: Load the JSON data modules
@@ -297,26 +301,22 @@ namespace ATT
                     Errored = false;
 
                     // Load all of the RAW JSON Data into the database.
-                    var directories = Framework.Config["json-directories"];
-                    if (directories != null)
+                    var directories = (string[])Framework.Config["json-directories"];
+                    var filenames = new List<string>();
+                    foreach (var jsonDirectory in directories)
                     {
-                        var filenames = new List<string>();
-                        foreach (var jsonDirectory in (string[])directories)
+                        if (!string.IsNullOrWhiteSpace(jsonDirectory))
                         {
-                            if (!string.IsNullOrWhiteSpace(jsonDirectory))
-                            {
-                                Trace.WriteLine($"Loading JSON files from {jsonDirectory}.");
-                                filenames.AddRange(Directory.GetFiles(jsonDirectory, "*.json", SearchOption.AllDirectories));
-                            }
+                            Trace.WriteLine($"Loading JSON files from {jsonDirectory}.");
+                            filenames.AddRange(Directory.GetFiles(jsonDirectory, "*.json", SearchOption.AllDirectories));
+                            LoadFilesWith(filenames, ParseJSONFile);
                         }
-                        filenames.Sort(StringComparer.InvariantCulture);
-                        foreach (var filename in filenames) ParseJSONFile(filename);
+                    }
 
-                        if (Errored)
-                        {
-                            Trace.WriteLine("Please fix the formatting of the above Invalid JSON file(s)");
-                            Framework.WaitForUser();
-                        }
+                    if (Errored)
+                    {
+                        Trace.WriteLine("Please fix the formatting of the above Invalid JSON file(s)");
+                        Framework.WaitForUser();
                     }
                 }
                 while (Errored && !Framework.Automated);
@@ -328,26 +328,22 @@ namespace ATT
                     Errored = false;
 
                     // Load all of the Wago Data into the database.
-                    var directories = Framework.Config["wago-directories"];
-                    if (directories != null)
+                    var directories = (string[])Framework.Config["wago-directories"];
+                    foreach (var wagoDirectory in directories)
                     {
-                        foreach (var wagoDirectory in (string[])directories)
+                        if (!string.IsNullOrWhiteSpace(wagoDirectory))
                         {
-                            if (!string.IsNullOrWhiteSpace(wagoDirectory))
-                            {
-                                // CRIEVE NOTE: I need the directories themselves to run in a specific order.
-                                Trace.WriteLine($"Loading Wago DB CSV files from {wagoDirectory}.");
-                                var filenames = Directory.GetFiles(wagoDirectory, "*.csv", SearchOption.AllDirectories).ToList();
-                                filenames.Sort(StringComparer.InvariantCulture);
-                                foreach (var filename in filenames) WagoData.LoadFromCSV(filename);
-                            }
+                            // CRIEVE NOTE: I need the directories themselves to run in a specific order.
+                            Trace.WriteLine($"Loading Wago DB CSV files from {wagoDirectory}.");
+                            var filenames = Directory.GetFiles(wagoDirectory, "*.csv", SearchOption.AllDirectories).ToList();
+                            LoadFilesWith(filenames, WagoData.LoadFromCSV);
                         }
+                    }
 
-                        if (Errored)
-                        {
-                            Trace.WriteLine("Please re-download the above Invalid CSV file(s) from wago.tools/db2");
-                            Framework.WaitForUser();
-                        }
+                    if (Errored)
+                    {
+                        Trace.WriteLine("Please re-download the above Invalid CSV file(s) from wago.tools/db2");
+                        Framework.WaitForUser();
                     }
 
                     /*
@@ -709,6 +705,30 @@ namespace ATT
             return ErrorCode;
         }
 
+        private static void LoadFilesWith(List<string> filenames, Action<string> fileLoadFunc)
+        {
+            if (ShouldLoadInSequence)
+            {
+                // GetFiles loads sub-directories at the end, and alphabetical within each directory
+                foreach (var filename in filenames) fileLoadFunc(filename);
+            }
+            else
+            {
+                var localizedData = new List<string>();
+                for (int i = filenames.Count - 1; i >= 0; i--)
+                {
+                    if (filenames[i].Contains("Localized"))
+                    {
+                        localizedData.Insert(0, filenames[i]);
+                        filenames.RemoveAt(i);
+                    }
+                }
+                filenames.AsParallel().ForAll(fileLoadFunc);
+                // the only difference in localized wago files should be readable text, not ID values, so order won't matter
+                localizedData.AsParallel().ForAll(fileLoadFunc);
+            }
+        }
+
         private static void PurgeCoordShiftsBeyondParserVersion()
         {
             var keys = Framework.Objects.MAPID_COORD_SHIFTS.Keys.ToArray();
@@ -1024,7 +1044,7 @@ namespace ATT
 
         private static void ParseJSONFile(string fileName)
         {
-            System.Diagnostics.Trace.WriteLine($"Json: {fileName}");
+            Framework.LogDebug($"Json.Load: {fileName}");
 
             // Load the text and then convert it to a common JSON data format.
             var data = Framework.ToDictionary(File.ReadAllText(fileName, Encoding.UTF8));

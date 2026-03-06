@@ -546,6 +546,9 @@ namespace ATT
 
                         Merge(merged, field, val);
                     }
+
+                    // instead of cleaning the merged data when merging into objects, let's make sure we don't even retain
+                    PreMerge(objectData, merged);
                 }
             }
 

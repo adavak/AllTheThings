@@ -763,21 +763,6 @@ namespace ATT
         /// <summary>
         /// Merge the data into the database.
         /// </summary>
-        /// <param name="listing">The listing.</param>
-        public static void MergeFromDB(List<object> listing)
-        {
-            foreach (var o in listing)
-            {
-                if (o is IDictionary<string, object> entry)
-                {
-                    Items.MergeFromDB(entry);
-                }
-            }
-        }
-
-        /// <summary>
-        /// Merge the data into the database.
-        /// </summary>
         /// <param name="data">The data.</param>
         public static void Merge(IDictionary<string, object> data)
         {
@@ -787,13 +772,13 @@ namespace ATT
             // Are we dealing with an Items Database section?
             if (data.TryGetValue("items", out List<object> listing))
             {
-                MergeFromDB(listing);
+                DBMerge(listing, "itemID");
             }
 
             // Are we dealing with a Mounts Database section?
             if (data.TryGetValue("mounts", out listing))
             {
-                MergeFromDB(listing);
+                DBMerge(listing, "itemID");
             }
 
             // Are we dealing with a Quests Database section?
