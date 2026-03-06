@@ -916,6 +916,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuest"] = 90621,	-- Tiny Heroes' Journeys
 				["qg"] = 243226,	-- Boletus <Fight Promoter>
 				["coord"] = { 71.8, 64.0, MAP.MIDNIGHT.HARANDAR },
+				["groups"] = {
+					title(670),	-- <name>, Teacher of Strong
+				},
 			}),
 			---2
 			q(92882, {	-- A Hunter's Plight
