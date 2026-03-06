@@ -15,6 +15,7 @@
 ExportDB._Compressed.AccountWideQuestsDB = true
 local AccountWideQuestsDB = {
 
+	-- #IF AFTER MID
 	------------------------------------------------------------------------------
 	-- PUT NEW QUESTIDS HERE vv IF YOU DONT WANT TO CHECK WHERE YOU ARE PUTTING IT
 	------------------------------------------------------------------------------
@@ -29,6 +30,7 @@ local AccountWideQuestsDB = {
 	------------------------------------------------------------------------------
 	-- PUT NEW QUESTIDS HERE ^^ IF YOU DONT WANT TO CHECK WHERE YOU ARE PUTTING IT
 	------------------------------------------------------------------------------
+	-- #ENDIF
 
 	-- Drakewatcher Manuscripts
 	-- #IF AFTER DF
