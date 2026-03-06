@@ -5738,13 +5738,13 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 		}),
 		n(TREASURES, {
-			--o(455982, {	-- Half-Baked Techniques
-			--	["coord"] = { 62.4, 58.0, THE_RINGING_DEEPS },
-			--	["questID"] = 83885,
-			--	["groups"] = {
+			o(525932, {	-- Half-Baked Techniques
+				["coord"] = { 39.3, 45.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["questID"] = 89072,
+				["groups"] = {
 					i(238577),	-- Half-Baked Techniques
-			--	},
-			--}),
+				},
+			}),
 			o(525934, {	-- Intrepid Explorer's Marker
 				["coord"] = { 52.4, 52.6, MAP.MIDNIGHT.HARANDAR },
 				["questID"] = 89070,
@@ -5787,7 +5787,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 					i(238574),	-- Spare Ink
 				},
 			}),
-			o(455978, {	-- Void-Touched Quill
+			o(525937, {	-- Void-Touched Quill
 				["coord"] = { 60.7, 84.3, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				["questID"] = 89067,
 				["groups"] = {
