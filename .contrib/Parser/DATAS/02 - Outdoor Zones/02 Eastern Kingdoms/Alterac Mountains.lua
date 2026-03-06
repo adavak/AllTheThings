@@ -57,6 +57,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			-- #endif
+			pickpocketing({
+				i(17124, {	-- Syndicate Emblem
+					["crs"] = {
+						14221,	-- Gravis Slipknot
+						2246,	-- Syndicate Assassin
+						2247,	-- Syndicate Enforcer
+						2240,	-- Syndicate Footpad
+						2245,	-- Syndicate Saboteur
+						2243,	-- Syndicate Sentry
+						2242,	-- Syndicate Spy
+						2241,	-- Syndicate Thief
+						2319,	-- Syndicate Wizard
+					},
+				}),
+			}),
 			n(PROFESSIONS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(214212, {	-- Shadowy Figure

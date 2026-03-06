@@ -110,6 +110,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
+			pickpocketing({
+				i(17124, {	-- Syndicate Emblem
+					["crs"] = {
+						2590,	-- Syndicate Conjuror
+						2586,	-- Syndicate Highwayman
+						2591,	-- Syndicate Magus
+						2589,	-- Syndicate Mercenary
+						2587,	-- Syndicate Pathstalker
+						2588,	-- Syndicate Prowler
+					},
+				}),
+			}),
 			n(PROFESSIONS, {
 				prof(FIRST_AID, {
 					n(12920, {	-- Doctor Gregory Victor <Trauma Surgeon>
