@@ -1957,6 +1957,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(238528),	-- Majestic Claw
 			i(238530),	-- Majestic Fin
 			i(238529),	-- Majestic Hide
+			i(238627),	-- Manafused Sample
 			i(238626),	-- Mana-Infused Bone
 			i(238518),	-- Void-Tempered Hide+
 			i(238519),	-- Void-Tempered Hide++

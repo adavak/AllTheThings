@@ -279,9 +279,6 @@ root(ROOTS.Unsorted, {
 					i(238609),	-- Arathi Craftsman's Spokeshave
 					i(238610),	-- Nerubian's Slicking Iron
 					i(238611),	-- Carapace Shiner
-
-					-- Skinning Knowledge
-					i(238627),	-- Manafused Sample
 				}),
 			}),
 			filter(MISC, {

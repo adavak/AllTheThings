@@ -193,7 +193,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								},
 							}),
 							i(245345, {	-- Fused Vitality
-								["cost"] = {{ "c", UNALLOYED_ABUNDANCE, 400 }},
+								["cost"] = {{ "c", UNALLOYED_ABUNDANCE, 800 }},
 							}),
 							i(254875, {	-- Muck-Covered Writings
 								["cost"] = {{ "c", UNALLOYED_ABUNDANCE, 6400 }},
