@@ -7199,6 +7199,7 @@ q(91185,{isDaily=1,type="hqt"}),
 q(91187,{isDaily=1,type="hqt"}),
 q(91190,{isDaily=1,type="hqt"})}),
 q(93866,{type="hqt"}),
+q(92887,{type="hqt"}),
 h(-674)}}),
 m(2537,{lvl=80,g={
 m(2393,{
@@ -7250,6 +7251,7 @@ q(91511,{an="i:264262",type="hqt"}),
 q(91512,{an="i:262906",type="hqt"}),
 q(91456,{an="i:263196",type="hqt"}),
 q(94046,{type="hqt"}),
+q(95146,{type="hqt"}),
 q(94390,{type="hqt"}),
 q(94391,{type="hqt"})}),
 h(-46,{
@@ -7332,11 +7334,13 @@ q(93814,{type="hqt"}),
 q(93815,{type="hqt"})})}}),
 h(-729,{
 h(-45,{
+q(91302,{type="hqt"}),
+q(91475,{repeatable=1,type="hqt"}),
 q(88770,{type="hqt"}),
 q(87350,{type="hqt"}),
 q(94426,{type="hqt"}),
 q(91432,{type="hqt"}),
-q(91467,{lvl=36,sourceQuests={72951},type="hqt"})})}),
+q(91457,{repeatable=1,type="hqt"})})}),
 m(2437,{maps={2536},lvl=83,g={
 h(-45,{
 q(91965,{repeatable=1,type="hqt"}),

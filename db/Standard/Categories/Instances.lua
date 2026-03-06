@@ -64374,7 +64374,7 @@ flt(50,{
 cu(3250,{description="Can be found scattered throughout the Murder Row Dungeon.\nUsed for buying buffs from highlighted vendors.\nOnly 1 per player, per run can be obtained."})}),
 h(-58,{
 n(236861,{
-de(2523,{cost=99999999999,itemID=246857,spellID=1244129}),
+de(2523,{cost=9999999,description="|cFFE50D12WARNING! DO NOT BUY RIGHT AWAY!|r\nGet 13 different Sargle's Fortunes to drastically cut down the price.",itemID=246857,spellID=1244129}),
 i(237764,{cost={{"c",3250,1}},f=55,spellID=1223555})}),
 n(236076,{
 i(237765,{cost={{"c",3250,1}},f=55,spellID=1223563})}),
@@ -64567,6 +64567,8 @@ s(298097,251091,{b=1,f=7,lvl=78}),
 s(298094,251088,{b=1,f=21,lvl=78})}}),
 e(2658,{npcID=231636,g={
 ach(41287),
+r(1237515,{itemID=256653,requireSkill=165,skillID=2915}),
+r(1228987,{itemID=258125,requireSkill=197,skillID=2918}),
 de(11284,{itemID=256683,spellID=1260663}),
 s(298102,251098,{b=1,f=7,lvl=78}),
 i(250256,{b=1,f=53,lvl=78,spellID=1250599}),
@@ -64584,9 +64586,7 @@ e(2658,{npcID=231636,g={
 ach(41291,{
 crit(110322,{achID=61568,id=8})}),
 gach(61621),
-mnt(1263635,{b=1,itemID=262914,lvl=10}),
-r(1237515,{itemID=256653,requireSkill=165,skillID=2915}),
-r(1228987,{itemID=258125,requireSkill=197,skillID=2918})}})})}}),
+mnt(1263635,{b=1,itemID=262914,lvl=10})}})})}}),
 h(-21,{
 r(1230473,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256714,requireSkill=755,skillID=2914}),
 r(1230470,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256704,requireSkill=755,skillID=2914}),

@@ -1457,7 +1457,10 @@ i(246333,{awp=120001,b=1,requireSkill=165,spellID=1241735,g={
 cu(3157)}}),
 i(246335,{awp=120001,b=1,requireSkill=197,spellID=1241733,g={
 cu(3160)}}),
-i(246449,{awp=120001,spellID=1269452})})})}}),
+i(260630,{awp=120001,b=1,spellID=1269429}),
+i(246449,{awp=120001,spellID=1269452}),
+i(247719,{awp=120001,b=1,spellID=1269427}),
+i(247725,{awp=120001,b=1,spellID=1269426})})})}}),
 prof(171,{
 h(-12,{awp=100107,requireSkill=171,g={
 ach(18733,{requireSkill=171}),
@@ -1956,7 +1959,9 @@ i(238537,{b=1,requireSkill=171,spellID=1225669})}}),
 o(525963,{coords={
 [2393]={{47.8,51.8}}},questID=89117,requireSkill=171,g={
 i(238538,{b=1,requireSkill=171,spellID=1225669})}}),
-i(238532,{b=1,requireSkill=171,spellID=1225669}),
+o(525969,{coords={
+[2393]={{45.1,44.9}}},questID=89111,requireSkill=171,g={
+i(238532,{b=1,requireSkill=171,spellID=1225669})}}),
 o(525967,{coords={
 [2413]={{34.8,24.7}}},questID=89113,requireSkill=171,g={
 i(238534,{b=1,requireSkill=171,spellID=1225669})}}),
@@ -3512,7 +3517,9 @@ h(-56,{requireSkill=333,g={
 o(525953,{coords={
 [2536]={{48.4,22.9}}},questID=89100,requireSkill=333,g={
 i(238548,{b=1,requireSkill=333,spellID=1225667})}}),
-i(238549,{b=1,requireSkill=333,spellID=1225667}),
+o(525952,{coords={
+[2395]={{40.2,61.2}}},questID=89101,requireSkill=333,g={
+i(238549,{b=1,requireSkill=333,spellID=1225667})}}),
 o(525949,{coords={
 [2413]={{37.7,65.3}}},questID=89104,requireSkill=333,g={
 i(238552,{b=1,requireSkill=333,spellID=1225667})}}),
@@ -4114,7 +4121,7 @@ title(744,{requireSkill=202})}}),
 ach(60888,{questID=91820,requireSkill=202})}}),
 h(-45,{requireSkill=202,g={
 q(93692,{coords={
-[2393]={{43.5,54.1}}},isWeekly=1,lvl=78,qgs={241452},requireSkill=202,sourceQuests={93727},g={
+[2393]={{43.5,54.1},{45.1,55.1}}},isWeekly=1,lvl=78,qgs={241452,243283},requireSkill=202,sourceQuests={93727},g={
 i(263456,{b=1,isWeekly=1,requireSkill=202,spellID=1270533})}})}}),
 flt(200,{description="These are learned by specialization.",requireSkill=202,g={
 r(1229875,{cost={{"c",3153,1}},learnedAt=90,requireSkill=202,skillID=2910}),
@@ -4968,12 +4975,14 @@ q(93703,{coords={
 [2393]={{48.3,51.4}}},isWeekly=1,lvl=78,qgs={243355},requireSkill=182,g={
 i(263462,{b=1,requireSkill=182,spellID=1270534})}})}}),
 h(-56,{requireSkill=182,g={
+o(525974,{coords={
+[2413]={{64.2,30.5}}},questID=89158,requireSkill=182,g={
+i(238472,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525970,{coords={
 [2413]={{38.3,67}}},questID=89162,requireSkill=182,g={
 i(238468,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525975,{coords={
-[2413]={{76.1,51.1}},
-[2437]={{41.9,46}}},questID=89157,requireSkill=182,g={
+[2413]={{76.1,51.1}}},questID=89157,requireSkill=182,g={
 i(238473,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525973,{coords={
 [2413]={{36.7,25.1}}},questID=89159,requireSkill=182,g={
@@ -4986,7 +4995,10 @@ o(525977,{coords={
 i(238475,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525972,{coords={
 [2393]={{49,75.9}}},questID=89160,requireSkill=182,g={
-i(238470,{b=1,requireSkill=182,spellID=1225358})}})}}),
+i(238470,{b=1,requireSkill=182,spellID=1225358})}}),
+o(525971,{coords={
+[2437]={{41.9,46}}},questID=89161,requireSkill=182,g={
+i(238469,{b=1,requireSkill=182,spellID=1225358})}})}}),
 h(-246,{requireSkill=182,g={
 q(81425,{isWeekly=1,providers={{"i",238465}},requireSkill=182,g={
 cu(3154,{requireSkill=182})}}),
@@ -5620,7 +5632,9 @@ r(1230082,{cost={{"c",3155,1}},learnedAt=30,requireSkill=773,skillID=2913}),
 r(1230080,{cost={{"c",3155,1}},learnedAt=30,requireSkill=773,skillID=2913}),
 r(1230078,{cost={{"c",3155,1}},learnedAt=30,requireSkill=773,skillID=2913})}}),
 h(-56,{awp=120001,requireSkill=773,g={
-i(238577,{b=1,requireSkill=773,spellID=1225662}),
+o(525932,{coords={
+[2395]={{39.3,45.4}}},questID=89072,requireSkill=773,g={
+i(238577,{b=1,requireSkill=773,spellID=1225662})}}),
 o(525934,{coords={
 [2413]={{52.4,52.6}}},questID=89070,requireSkill=773,g={
 i(238575,{b=1,requireSkill=773,spellID=1225662})}}),
@@ -5639,7 +5653,7 @@ i(238579,{b=1,requireSkill=773,spellID=1225662})}}),
 o(525935,{coords={
 [2395]={{48.3,75.6}}},questID=89069,requireSkill=773,g={
 i(238574,{b=1,requireSkill=773,spellID=1225662})}}),
-o(455978,{coords={
+o(525937,{coords={
 [2444]={{60.7,84.3}}},questID=89067,requireSkill=773,g={
 i(238572,{b=1,requireSkill=773,spellID=1225662})}})}}),
 h(-246,{awp=120001,requireSkill=773,g={
@@ -5647,9 +5661,7 @@ i(263457,{b=1,isWeekly=1,requireSkill=773,spellID=1270535,g={
 cu(3155,{requireSkill=773})}}),
 q(95131,{isWeekly=1,providers={{"i",245757}},requireSkill=773,g={
 cu(3155,{requireSkill=773})}}),
-q(83264,{isWeekly=1,providers={{"i",259196}},requireSkill=773,g={
-cu(3155,{requireSkill=773})}}),
-q(83262,{isWeekly=1,providers={{"i",259197}},requireSkill=773,g={
+q(93537,{isWeekly=1,providers={{"i",259197}},requireSkill=773,g={
 cu(3155,{requireSkill=773})}})}})}})}}),
 prof(755,{
 h(-12,{awp=100107,requireSkill=755,g={
@@ -6708,6 +6720,10 @@ h(-246,{requireSkill=165,g={
 i(263459,{b=1,isWeekly=1,requireSkill=165,spellID=1270537,g={
 cu(3157,{requireSkill=165})}}),
 q(95134,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245758}},requireSkill=165,g={
+cu(3157,{requireSkill=165})}}),
+q(93540,{isWeekly=1,providers={{"i",259200}},requireSkill=165,g={
+cu(3157,{requireSkill=165})}}),
+q(93541,{isWeekly=1,providers={{"i",259201}},requireSkill=165,g={
 cu(3157,{requireSkill=165})}})}})}})}),
 prof(633,{c={4},description="Lockpicking now skills up as you level, you no longer need to practice. Hovering over your Pick Lock ability will show the current level of box you can open.",DontEnforceSkillRequirements=1,g={
 r(1804,{c={4},requireSkill=921}),
@@ -7076,6 +7092,9 @@ ach(62251,{requireSkill=186,g={
 title(750,{requireSkill=186})}})}}),
 h(-45,{requireSkill=186,sharedDescription="Requires 25 Skill.",g={
 q(93706,{coords={
+[2393]={{42.6,52.9}}},isWeekly=1,lvl=78,qgs={241455},requireSkill=186,g={
+i(263463,{b=1,requireSkill=186,spellID=1270538})}}),
+q(93708,{coords={
 [2393]={{42.6,52.9}}},isWeekly=1,lvl=78,qgs={241455},requireSkill=186,g={
 i(263463,{b=1,requireSkill=186,spellID=1270538})}}),
 q(93709,{coords={
@@ -7478,6 +7497,10 @@ ach(62249,{requireSkill=393,g={
 crit(112358,{achID=62252,id=2})}}),
 ach(62252,{requireSkill=393,g={
 title(752,{requireSkill=393})}})}}),
+h(-45,{requireSkill=393,g={
+q(93712,{coords={
+[2393]={{43.2,55.6}}},isWeekly=1,lvl=78,qgs={243527},requireSkill=393,g={
+i(263461,{b=1,requireSkill=393,spellID=1270539})}})}}),
 flt(200,{description="These are learned by specialization.",requireSkill=393}),
 h(-56,{requireSkill=393,g={
 o(525891,{coords={
@@ -7487,10 +7510,10 @@ o(525893,{coords={
 [2437]={{40.4,36}}},questID=89170,requireSkill=393,g={
 i(238632,{b=1,requireSkill=393,spellID=1225646})}}),
 o(525896,{coords={
-[2437]={{44.9,45.2}}},questID=89167,requireSkill=393,g={
+[2536]={{44.9,45.2}}},questID=89167,requireSkill=393,g={
 i(238629,{b=1,requireSkill=393,spellID=1225646})}}),
 o(525897,{coords={
-[2393]={{76,51.1}}},questID=89166,requireSkill=393,g={
+[2413]={{76,51.1}}},questID=89166,requireSkill=393,g={
 i(238628,{b=1,requireSkill=393,spellID=1225646})}}),
 o(525895,{coords={
 [2413]={{69.5,49.2}}},questID=89168,requireSkill=393,g={
@@ -7500,7 +7523,23 @@ o(525892,{coords={
 i(238633,{b=1,requireSkill=393,spellID=1225646})}}),
 o(525890,{coords={
 [2395]={{48.4,76.3}}},questID=89173,requireSkill=393,g={
-i(238635,{b=1,requireSkill=393,spellID=1225655})}})}})}})}),
+i(238635,{b=1,requireSkill=393,spellID=1225655})}}),
+o(525894,{coords={
+[2444]={{45.5,42.4}}},questID=89169,requireSkill=393,g={
+i(238631,{b=1,requireSkill=393,spellID=1225646})}})}}),
+h(-246,{requireSkill=393,g={
+q(88534,{isWeekly=1,providers={{"i",238625}},requireSkill=393,g={
+cu(3159,{requireSkill=393})}}),
+q(88549,{isWeekly=1,providers={{"i",238625}},requireSkill=393,g={
+cu(3159,{requireSkill=393})}}),
+q(88537,{isWeekly=1,providers={{"i",238625}},requireSkill=393,g={
+cu(3159,{requireSkill=393})}}),
+q(88536,{isWeekly=1,providers={{"i",238625}},requireSkill=393,g={
+cu(3159,{requireSkill=393})}}),
+q(88530,{isWeekly=1,providers={{"i",238625}},requireSkill=393,g={
+cu(3159,{requireSkill=393})}}),
+q(88529,{isWeekly=1,providers={{"i",238626}},requireSkill=393,g={
+cu(3159,{requireSkill=393})}})}})}})}),
 prof(197,{
 h(-12,{awp=100107,requireSkill=197,g={
 ach(18888,{providers={{"s",419578}},requireSkill=197}),

@@ -5378,7 +5378,7 @@ n(59567,{coords={
 q(32682,{coords={
 [376]={{54.6,47}}},description="Must also have a fully unlocked farm.",lvl=15,minReputation={1272,42000},qgs={64597},sourceQuests={30529}}),
 q(31313,{coords={
-[376]={{52.8,51.8}}},lvl=15,qgs={58705},sourceQuests={31312},g={
+[376]={{41.7,30.1},{52.8,51.8}}},lvl=15,qgs={58705},sourceQuests={31312},g={
 n(64312,{coords={
 [376]={{54.2,44.6}}}}),
 n(64313,{coords={
@@ -5467,7 +5467,7 @@ q(31340,{coords={
 n(64391,{coords={
 [376]={{30.2,43.6}}}})}}),
 q(31314,{coords={
-[376]={{52.8,51.8}}},lvl=15,qgs={58705},sourceQuests={31313},g={
+[376]={{41.7,30.1},{52.8,51.8}}},lvl=15,qgs={58705},sourceQuests={31313},g={
 i(86428,{b=1,description="Contains a number of Pandarian rare quality Gems."})}}),
 q(32198,{awp=50100,coords={
 [376]={{53.2,51.4}}},description="Available only on days where Barnaby Fletcher is in Halfhill.",lvl=15,qgs={67565},sourceQuests={32189},g={

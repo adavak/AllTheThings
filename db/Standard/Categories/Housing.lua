@@ -245,7 +245,8 @@ i(259114),
 i(259126)}}),
 q(92608,{coords={
 [2339]={{53.9,55.7}},
-[2351]={{53.9,55.7}}},lvl=25,qgs={252717},repeatable=1,g={
+[2351]={{53.9,55.7}},
+[2352]={{53,37.3}}},lvl=25,qgs={252717},repeatable=1,g={
 i(253316,{spellID=1256057})}})}}),
 h(-22,{awp=110207,description="It is advised to use the |cffffffffNPC Filler for the Mini List|r to allow these Items to fill properly under NPCs within your current Housing Neighborhood.",g={
 de(1452,{crs={255222,255278},itemID=244662,spellID=1237792}),
@@ -716,7 +717,10 @@ de(10273,{cost={{"c",3363,5}},itemID=254235,spellID=1257513}),
 de(9422,{cost={{"c",3363,10}},itemID=253525,spellID=1256590}),
 de(9423,{cost={{"c",3363,15}},itemID=253526,spellID=1256591}),
 de(9476,{cost={{"c",3363,15}},itemID=253599,spellID=1256818}),
-i(253802,{b=1,cost={{"c",3363,30}},f=55,questID=92710,spellID=1257276})}})})}}),
+i(253802,{b=1,cost={{"c",3363,30}},f=55,questID=92710,spellID=1257276})}}),
+h(-45,{
+q(92608,{coords={
+[2352]={{53,37.2}}},isWeekly=1,lvl=25,qgs={252717}})})})}}),
 m(2352,{awp=110207,g={
 h(-30,{
 exp(16704,{collectible=false,coords={
