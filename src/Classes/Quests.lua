@@ -1030,7 +1030,7 @@ else	-- no C_QuestLog_GetAllCompletedQuestIDs
 		wipe(DirtyQuests);
 		GetQuestsCompleted(CompletedQuests);
 		if #DirtyQuests > 0 then
-			app.UpdateRawIDs("questID", DirtyQuests);
+			CacheQuestsByScope(CompletedQuests, 1);
 		end
 		BatchRefresh = nil
 	end
