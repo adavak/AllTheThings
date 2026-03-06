@@ -1029,28 +1029,27 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 		},{
 			q(88534, {	-- MID Weekly Skinning Knowledgepoint #1
 				["name"] = "MID Weekly Skinning Knowledgepoint #1",
-				["provider"] = { "i", 238627 },	-- Manafused Sample
+				["provider"] = { "i", 238625 },	-- Fine Void-Tempered Hide
 			}),
 			q(88549, {	-- MID Weekly Skinning Knowledgepoint #2
 				["name"] = "MID Weekly Skinning Knowledgepoint #2",
-				["provider"] = { "i", 238627 },	-- Manafused Sample
+				["provider"] = { "i", 238625 },	-- Fine Void-Tempered Hide
 			}),
 			q(88537, {	-- MID Weekly Skinning Knowledgepoint #3
 				["name"] = "MID Weekly Skinning Knowledgepoint #3",
-				["provider"] = { "i", 238627 },	-- Manafused Sample
+				["provider"] = { "i", 238625 },	-- Fine Void-Tempered Hide
 			}),
 			q(88536, {	-- MID Weekly Skinning Knowledgepoint #4
 				["name"] = "MID Weekly Skinning Knowledgepoint #4",
-				["provider"] = { "i", 238627 },	-- Manafused Sample
+				["provider"] = { "i", 238625 },	-- Fine Void-Tempered Hide
 			}),
 			q(88530, {	-- MID Weekly Skinning Knowledgepoint #5
 				["name"] = "MID Weekly Skinning Knowledgepoint #5",
-				["provider"] = { "i", 238627 },	-- Manafused Sample
+				["provider"] = { "i", 238625 },	-- Fine Void-Tempered Hide
 			}),
 			q(88529, {	-- MID Weekly Skinning Knowledgepoint #6
 				["name"] = "MID Weekly Skinning Knowledgepoint #6",
 				["provider"] = { "i", 238626 },	-- Mana-Infused Bone
-
 			}),
 		})),
 	})),
