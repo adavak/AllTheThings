@@ -1661,14 +1661,13 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					i(238470),	-- Simple Leaf Pruners
 				},
 			}),
-			-- Needs ObjectID
-			-- o(525972, {	-- Sweeping Harvester's Scythe
-			-- 	["coord"] = { 41.9, 46.0, MAP.MIDNIGHT.ZULAMAN},
-			-- 	["questID"] = 89161,
-			-- 	["groups"] = {
+			o(525971, {	-- Sweeping Harvester's Scythe
+				["coord"] = { 41.9, 46.0, MAP.MIDNIGHT.ZULAMAN},
+				["questID"] = 89161,
+				["groups"] = {
 					i(238469),	-- Sweeping Harvester's Scythe
-			-- 	},
-			-- }),
+				},
+			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,

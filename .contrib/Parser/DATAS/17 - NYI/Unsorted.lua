@@ -246,9 +246,6 @@ root(ROOTS.Unsorted, {
 					i(237499),	-- Wild Resilient Seed
 					i(237500),	-- Primal Resilient Seed
 
-					-- Prof Knoweldge
-					i(238469),	-- Sweeping Harvester's Scythe
-
 					-- Herb Knowledge
 					i(238564),	-- Ancient Flower
 					i(238565),	-- Dornogal Gardening Scythe
