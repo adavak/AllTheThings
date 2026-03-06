@@ -290,6 +290,9 @@ app:CreateWindow("Auctions", {
 				self:SetWidth(width);
 				if app.Settings:GetTooltipSetting("Auto:AuctionList") and app.IsClassic then
 					self:Show();
+				elseif AuctionHouseFrameTabSideBar and app.IsRetail then
+					AuctionHouseFrameTabSideBar:SetPoint("TOPLEFT", AuctionHouseFrame, "TOPRIGHT")
+					AuctionHouseFrameTabSideBar:SetPoint("BOTTOMLEFT", AuctionHouseFrame, "BOTTOMRIGHT")
 				end
 
 				if app.IsRetail then

@@ -469,8 +469,11 @@ app:CreateWindow("Tradeskills", {
 				self:SetTSMCraftingVisible(false);
 			end
 			self:UpdateFrameVisibility();
-			if app.Settings:GetTooltipSetting("Auto:ProfessionList") then
+			if app.Settings:GetTooltipSetting("Auto:ProfessionList") and app.IsClassic then
 				self:SetVisible(true);
+			elseif ProfessionsFrameTabSideBar and app.IsRetail then
+				ProfessionsFrameTabSideBar:SetPoint("TOPLEFT", ProfessionsFrame, "TOPRIGHT")
+				ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
 			end
 			RefreshSkills();
 			self:RefreshRecipes();
