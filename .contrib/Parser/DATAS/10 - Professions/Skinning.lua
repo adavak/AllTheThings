@@ -997,12 +997,12 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				["groups"] = { i(238632) },	-- Amani Tanning Oil
 			}),
 			o(525896, {	-- Cadre Skinning Knife
-				["coord"] = { 44.9, 45.2, MAP.MIDNIGHT.ZULAMAN },
+				["coord"] = { 44.9, 45.2, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 				["questID"] = 89167,
 				["groups"] = { i(238629) },	-- Cadre Skinning Knife
 			}),
 			o(525897, {	-- Lightbloom Afflicted Hide
-				["coord"] = { 76.0, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["coord"] = { 76.0, 51.1, MAP.MIDNIGHT.HARANDAR },
 				["questID"] = 89166,
 				["groups"] = { i(238628) },	-- Lightbloom Afflicted Hide
 			}),
@@ -1020,6 +1020,11 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				["coord"] = { 48.4, 76.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 89173,
 				["groups"] = { i(238635) },	-- Thalassian Skinning Knife
+			}),
+			o(525894, {	-- Voidstorm Leather Sample
+				["coord"] = { 45.5, 42.4, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+				["questID"] = 89169,
+				["groups"] = { i(238631) },	-- Voidstorm Leather Sample
 			}),
 		}),
 		--[[
