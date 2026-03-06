@@ -8,6 +8,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["crs"] = { 249812 },	-- Akil Fledgling
 				["coords"] = {
 					{ 47.1, 76.0, MAP.MIDNIGHT.ZULAMAN },
+					{ 52.9, 80.9, MAP.MIDNIGHT.ZULAMAN },
 					{ 56.3, 70.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),

@@ -168,17 +168,22 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(91060, {	-- Stay awhile and listen: Loa Speaker Kinduru
 						["name"] = "Stay awhile and listen: Loa Speaker Kinduru",
-						["description"] = "Dialogue becomes available during 'The Path of the Amani' (86653).",
+						["description"] = "Dialogue becomes available after accepting 'The Path of the Amani' (86653).",
 						["sourceQuests"] = { 86652 },	-- Left in the Shadows
 						["provider"] = { "n", 244479 },	-- Loa Speaker Kinduru
 						["coord"] = { 43.8, 68.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					--
-					q(86654, {	-- Gnarldin Bashing
+					q(86655, {	-- De Ancient Path
 						["sourceQuests"] = { 86653 },	-- The Path of the Amani
-						["provider"] = { "n", 236143 },	-- Lady Liadrin
-						["coord"] = { 51.6, 70.7, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(264255) },	-- Amani Trophy Frame (DECOR!)
+						["provider"] = { "n", 236140 },	-- Zul'jarra
+						["coord"] = { 51.6, 70.8, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							i(248570),	-- Skyblessed Breastplate
+							i(248569),	-- Skyblessed Chainmail
+							i(248568),	-- Skyblessed Vest
+							i(248567),	-- Skyblessed Vestment
+						},
 					}),
 					q(89334, {	-- Ahead of the Issue
 						["sourceQuests"] = { 86653 },	-- The Path of the Amani
@@ -194,16 +199,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(260458),	-- Helthra's Fetish
 						},
 					}),
-					q(86655, {	-- De Ancient Path
+					q(86654, {	-- Gnarldin Bashing
 						["sourceQuests"] = { 86653 },	-- The Path of the Amani
-						["provider"] = { "n", 236140 },	-- Zul'jarra
-						["coord"] = { 51.6, 70.8, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(248570),	-- Skyblessed Breastplate
-							i(248569),	-- Skyblessed Chainmail
-							i(248568),	-- Skyblessed Vest
-							i(248567),	-- Skyblessed Vestment
-						},
+						["provider"] = { "n", 236143 },	-- Lady Liadrin
+						["coord"] = { 51.6, 70.7, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(264255) },	-- Amani Trophy Frame (DECOR!)
 					}),
 					q(86656, {	-- Brutal Feast
 						["sourceQuests"] = {
@@ -231,10 +231,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86656 },	-- Brutal Feast
 						["provider"] = { "n", 244422 },	-- Zul'jarra
 						["coord"] = { 52.4, 81.0, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							--spell(1239215),	-- Blessing: Akil'zon's Gale
-							--spell(1239206),	-- Winds of Akil'zon
-						},
 					}),
 					q(86657, {	-- Shadebasin Watch
 						["sourceQuests"] = { 86809 },	-- Brutal Feast
@@ -244,18 +240,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(92125, {	-- Stay awhile and listen: Zul'jarra
 						["name"] = "Stay awhile and listen: Zul'jarra",
-						["description"] = "Dialogue becomes available during 'Shadebasin Watch' (86657).",
+						["description"] = "Dialogue becomes available after accepting 'Shadebasin Watch' (86657).",
 						["sourceQuests"] = { 86809 },	-- Test of Conviction
 						["provider"] = { "n", 236141 },	-- Zul'jarra
 						["coord"] = { 52.4, 81.0, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					--
-					q(86660, {	-- Rescue from the Shadows
-						["sourceQuests"] = { 86657 },	-- Shadebasin Watch
-						["provider"] = { "n", 244438 },	-- Zul'jarra
-						["coord"] = { 44.1, 34.5, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(253469) },	-- Ritual-Cursed Sarcophagus (DECOR!)
-					}),
 					q(86658, {	-- The Crypt in the Mist
 						["sourceQuests"] = { 86657 },	-- Shadebasin Watch
 						["provider"] = { "n", 244438 },	-- Zul'jarra
@@ -266,6 +256,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(248572),	-- Spiritwarden's Sash
 							i(248574),	-- Spiritwarden's Waistguard
 						},
+					}),
+					q(86660, {	-- Rescue from the Shadows
+						["sourceQuests"] = { 86657 },	-- Shadebasin Watch
+						["provider"] = { "n", 244438 },	-- Zul'jarra
+						["coord"] = { 44.1, 34.5, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(253469) },	-- Ritual-Cursed Sarcophagus (DECOR!)
 					}),
 					q(86659, {	-- Breaching the Mist
 						["sourceQuests"] = {
@@ -684,18 +680,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.05, {	-- Unlikely Friends
 					q(93667, {	-- Camp Stonewash
+						["sourceQuests"] = { 86657 },	-- Shadebasin Watch
 						["qg"] = 255852,	-- Scout Zel'kanra
 						["coord"] = { 44.2, 33.6, MAP.MIDNIGHT.ZULAMAN },
+						["isBreadcrumb"] = true,
 					}),
 					q(90481, {	-- I Have a Permit
 						["sourceQuests"] = { 93667 },	-- Camp Stonewash
 						["provider"] = { "n", 242383 },	-- Seeker Crikkash
 						["coord"] = { 46.3, 26.1, MAP.MIDNIGHT.ZULAMAN },
-					}),
-					q(90484, {	-- Sightseeing Stegadon
-						["sourceQuests"] = { 90481 },	-- I Have a Permit
-						["provider"] = { "n", 242393 },	-- Trishe
-						["coord"] = { 47.3, 26.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90482, {	-- Cuisine Connection
 						["sourceQuests"] = { 90481 },	-- I Have a Permit
@@ -703,7 +696,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 47.2, 24.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(241013),	-- Zapgut Eel Stomach (QI!)
-							o(529683, {	--
+							o(529683, {	-- Blisterskin Kelp
 								i(241014),	-- Blisterskin Kelp (QI!)
 							}),
 						},
@@ -718,19 +711,28 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
 						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(572498, {	--
-								i(241615),	-- Lost Amani Trinket (QI!)
+							o(572498, {	-- Lost Amani Trinket
+								["coord"] = { 49.5, 27.8, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(241615) },	-- Lost Amani Trinket (QI!)
 							}),
-							o(572428, {	--
-								i(251075),	-- Lost Amani Bolt (QI!)
+							o(572428, {	-- Lost Amani Bolt
+								["coord"] = { 48.9, 28.4, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(251075) },	-- Lost Amani Bolt (QI!)
 							}),
 							o(531227, {	--
-								i(251272),	-- Lost Amani Oar (QI!)
+								["coord"] = { 48.4, 28.3, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(251272) },	-- Lost Amani Oar (QI!)
 							}),
-							o(531213, {	--
-								i(241614),	-- Old Amani Pot (QI!)
+							o(531213, {	-- Old Amani Pot
+								["coord"] = { 48.7, 28.7, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(241614) },	-- Old Amani Pot (QI!)
 							}),
 						},
+					}),
+					q(90484, {	-- Sightseeing Stegadon
+						["sourceQuests"] = { 90481 },	-- I Have a Permit
+						["provider"] = { "n", 242393 },	-- Trishe
+						["coord"] = { 47.3, 26.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(90486, {	-- Dangerous Delicacies
 						["sourceQuests"] = { 90482 },	-- Cuisine Connection
@@ -741,9 +743,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = {
 							90483,	-- A Witherbark Story
 							90485,	-- Afterthought Artifacts
+							90486,	-- Dangerous Delicacies
+							90484,	-- Sightseeing Stegadon
 						},
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
 						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(264182) ),	-- Kelum'ko's Generous Aromatic Gift
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.06, {	-- The Voice of Nalorakk
@@ -917,7 +922,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92165, {	-- Fish Are Food, Not Friends
-						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs
+						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs	// Unlocked when "Paved in Ash" is completed in Eversong Campaign on Live realms. Leaving it as is because of breadcrumb
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
@@ -940,7 +945,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(92166, {	-- Following Suit
-						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs
+						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs	// Unlocked when "Paved in Ash" is completed in Eversong Campaign on Live realms. Leaving it as is because of breadcrumb
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
 						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),

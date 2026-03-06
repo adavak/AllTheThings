@@ -312,7 +312,6 @@ root(ROOTS.Unsorted, {
 				i(262724),	-- Currency Wallet
 				i(262994),	-- Phial of Ritual Fluid
 				i(263974),	-- Relaxing Tisane
-				i(264182),	-- Kelum'ko's Generous Aromatic Gift
 				i(264183),	-- Kelum'ko's Generous Aromatic Gift
 				i(264391),	-- Sanctified Touch
 				i(264990),	-- Fairbreeze Franciacorta

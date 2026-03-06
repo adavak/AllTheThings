@@ -2662,6 +2662,7 @@ MobileDB.GameObject = {
 	[528309] = true,	-- Arcane Recorder (q:87394)
 	[528358] = true,	-- Uncharged Crystal
 	[529289] = true,	-- Spore Sample (q:88711)
+	[529683] = true,	-- Blisterskin Kelp (q:90482)
 	[531388] = true,	-- Weapon Rack
 	[531477] = true,	-- Coalesced Light
 	[531478] = true,	-- Misplaced Tome
