@@ -1015,9 +1015,10 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 					i(238548),	-- Enchanted Amani Mask
 				},
 			}),
+			-- Needs ObjectID
 			--o(456002, {	-- Enchanted Sunfire Silk
-			--	["coord"] = { 57.3, 44.0, AZJ_KAHET },
-			--	["questID"] = 83865,
+			--	["coord"] = { 40.2, 61.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+			--	["questID"] = 89101,
 			--	["groups"] = {
 					i(238549),	-- Enchanted Sunfire Silk
 			--	},

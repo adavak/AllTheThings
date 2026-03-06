@@ -1228,10 +1228,10 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 					i(238538),	-- Pristine Potion
 				},
 			}),
-			-- Needs ObjectID and QuestID, Coords
+			-- Needs ObjectID
 			--o(456020, {	-- Vial of Eversong Oddities
-			--	["coord"] = { 41.7, 55.8, HALLOWFALL },
-			--	["questID"] = 83845,
+			--	["coord"] = { 45.1, 44.9, MAP.MIDNIGHT.SILVERMOON_CITY },
+			--	["questID"] = 89111,
 			--	["groups"] = {
 					i(238532),	-- Vial of Eversong Oddities
 			--	},
