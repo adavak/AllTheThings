@@ -18,11 +18,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 						{ 50.3, 89.4, TWILIGHT_HIGHLANDS },	-- Void Elf Campsite
 						{ 58.7, 51.9, TWILIGHT_HIGHLANDS },	-- Floating in the sky!
 					},
-					["providers"] = {
-						{ "o", 566765 },	-- Stolen Twilight's Blade Stratagem, Blood Elf Campsite
-						-- The below is Portal to Stormwind and no other object is showing in wowhead
-						-- { "o", 508350 },	-- Stolen Twilight's Blade Stratagem, Void Elf Campsite
-					},
+					["provider"] = { "o", 566765 },	-- Stolen Twilight's Blade Stratagem
 				}),
 				ach(42300, {	-- Two Minutes to Midnight (automated)
 					title(642),	-- <Name>, Thorn of Twilight
@@ -204,7 +200,13 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["coord"] = { 49.7, 81.3, TWILIGHT_HIGHLANDS },
 				["groups"] = {
 					n(LEVELING_CHARACTERS, bubbleDownFiltered({
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 10 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 100 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 10 },
+							-- #endif
+						},
 					},FILTERFUNC_itemID,{
 						filter(CLOAKS, {
 							i(251610),	-- Ascension Agitator's Cape
@@ -275,7 +277,13 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 						}),
 					})),
 					n(MAX_LEVEL_CHARACTERS, bubbleDownFiltered({
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 20 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 200 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 20 },
+							-- #endif
+						},
 					},FILTERFUNC_itemID,{
 						filter(CLOAKS, {
 							i(246674),	-- Ascension Arrestor's Cape
@@ -351,34 +359,94 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["coord"] = { 49.8, 81.3, TWILIGHT_HIGHLANDS },
 				["groups"] = {
 					iensemble(248218, {	-- Arsenal: Weathered Twilight's Hammer Armaments
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 40 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 400 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 40 },
+							-- #endif
+						},
 					}),
 					iensemble(249438, {	-- Ensemble: Well-Worn Twilight Cultist's Attire
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 40 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 400 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 40 },
+							-- #endif
+						},
 					}),
 					i(246628, {	-- Emerald Sporbit (PET!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 300 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
+							-- #endif
+						},
 					}),
 					i(245330, {	-- Enchanted Blood Elven Candelabra (DECOR!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 50 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 500 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 50 },
+							-- #endif
+						},
 					}),
 					i(224148, {	-- Retrained Skyrazor (MOUNT!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 100 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 1000 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 100 },
+							-- #endif
+						},
 					}),
 					i(244911, {	-- Rhay'Dahr (PET!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 300 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
+							-- #endif
+						},
 					}),
 					i(232856, {	-- Scruff (PET!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 300 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
+							-- #endif
+						},
 					}),
 					i(245284, {	-- Silvermoon Wooden Chair (DECOR!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 50 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 500 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 50 },
+							-- #endif
+						},
 					}),
 					i(251997, {	-- Sin'dorei Winged Chaise (DECOR!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 75 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 750 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 75 },
+							-- #endif
+						},
 					}),
 					i(249468, {	-- Twilight's Blade Top Secret Strategy Training Guide (TOY!)
-						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
+						["cost"] = {
+							-- #if AFTER 12.0.1.66198
+							{ "c", RESONANCE_CRYSTALS, 300 },
+							-- #else
+							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
+							-- #endif
+						},
 					}),
 				},
 			}),
