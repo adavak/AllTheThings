@@ -121,22 +121,6 @@ namespace ATT
                             }
                         }
                         break;
-                    case "Items.SOURCES":
-                        {
-                            if (pair.Value is Dictionary<decimal, object> db)
-                            {
-                                db.AsParallel().ForAll(Items.AddItemSourceID);
-                            }
-                            else if (pair.Value is Dictionary<long, object> longdb)
-                            {
-                                longdb.AsParallel().ForAll(Items.AddItemSourceID);
-                            }
-                            else
-                            {
-                                ThrowBadFormatDB(pair.Key, pair);
-                            }
-                        }
-                        break;
                     case "RecipeDB":
                         MergeRecipeDB(pair.Value);
                         break;
