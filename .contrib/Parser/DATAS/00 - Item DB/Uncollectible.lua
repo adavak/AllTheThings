@@ -24,6 +24,10 @@ i(118067);	-- Old Chain Link
 i(180786);	-- Empty Binding
 -- TBC
 i(30744);	-- Draenic Leather Pack
+-- MoP
+i(81205);	-- Funereal Ashes
+i(83157);	-- Shattered Bone fRagment
+i(82328);	-- Shiny Carapace
 -- Legion
 i(138293);	-- Explorer's Pack
 i(139398);	-- Pant Loaf
@@ -68,6 +72,24 @@ i(210438);	-- Wisp Dust
 i(211768);	-- Hastily Scrawled Satyr Ravings
 
 -- Midnight Greys
+i(265043);	-- Dented Voidblade Pommel
+i(260647);	-- Digested Human Hand
+i(260672);	-- Fetid Eye
+i(260689);	-- Fine Bioluminescent Powder
+i(260638);	-- Fine Void Residue
+i(260642);	-- Fossilized Wildlife
+i(265040);	-- Fractured Void Focus
+i(265044);	-- Frayed Twilight Sash
+i(260646);	-- Glowing Gland
+i(260657);	-- Holey Organ
+i(260671);	-- Oversized Gland
+i(260637);	-- Rotting Insect Eggs
+i(265041);	-- Singed Ritual Parchment
+i(260659);	-- Stellar Vortex Residue
+i(265042);	-- Tarnished Shadow Torque
+i(260615);	-- Void Dust Residue
+i(260677);	-- Void Flakes
+i(260691);	-- Void-Tainted Pelt
 
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 
@@ -2654,7 +2676,6 @@ i(260687);	-- Decaying Leather
 i(238488);	-- Definitely a Rock
 i(264993);	-- Delicate Dart Legs
 i(260274);	-- Denshroom Deep Roast
-i(260647);	-- Digested Human Hand
 i(264989);	-- Dragonhawk Flight
 i(260666);	-- Earthy Mushroom
 i(260650);	-- Elemental Debris
@@ -2665,20 +2686,13 @@ i(260259);	-- Everspring Water
 i(263518);	-- Expensive-Looking Find
 i(260285);	-- Extract of Lightbloom
 i(260262);	-- Fairbreeze Feast
-i(260672);	-- Fetid Eye
-i(260689);	-- Fine Bioluminescent Powder
 i(260683);	-- Fine Magenta Sand
-i(260638);	-- Fine Void Residue
 i(260679);	-- Fleshless Bone
-i(260642);	-- Fossilized Wildlife
 i(260694);	-- Foul Kelp
 i(260639);	-- Fractured Bone
-i(265040);	-- Fractured Void Focus
-i(265044);	-- Frayed Twilight Sash
 i(260257);	-- Ghostlands Pepper
 i(238481);	-- Glittering Garbage
 i(260690);	-- Gloomy Root
-i(260646);	-- Glowing Gland
 i(254874);	-- Glowing Moth Dust
 i(260661);	-- Glowing Shrub
 i(264995);	-- Goldenbough Preserves
@@ -2686,7 +2700,6 @@ i(264981);	-- Goldengrove Juice
 i(264973);	-- Goldenmist Gouda
 i(238485);	-- Grotesque Globule
 i(260283);	-- Grotto Gulp
-i(260657);	-- Holey Organ
 i(238496);	-- Hunk O' Junk
 i(260688);	-- Insect Exoskeleton
 i(260604);	-- Insect Shedding
@@ -2717,7 +2730,6 @@ i(264991);	-- Murder Roe
 i(260680);	-- Nesting Materials
 i(238495);	-- One Angler's Trash
 i(238480);	-- Opened Lockbox
-i(260671);	-- Oversized Gland
 i(260268);	-- Pango and Mash
 i(260673);	-- Partially Digested Bracers
 i(260656);	-- Perforated Wing
@@ -2741,7 +2753,6 @@ i(260289);	-- Ren'dorei Rations
 i(260299);	-- Roasted Abyssal Eel
 i(260271);	-- Root Juice
 i(238477);	-- Rotten Meat
-i(260637);	-- Rotting Insect Eggs
 i(244040);	-- Sack of Seeds
 i(260280);	-- Sauteed Fungal Tubers
 i(238493);	-- Screaming Rock
@@ -2757,7 +2768,6 @@ i(263519);	-- Snake Oil
 i(238492);	-- Silent Rock
 i(247673);	-- Silvermoon Sin'gria
 i(260263);	-- Silvermoon Soiree Spread
-i(265041);	-- Singed Ritual Parchment
 i(260665);	-- Sizable Tusk
 i(260616);	-- Soft Marine Fungi
 i(246376);	-- Solaarian Sintalia
@@ -2765,14 +2775,12 @@ i(243478);	-- Spare Pamphlets
 i(260260);	-- Springrunner Sparkling
 i(260291);	-- Stargazer Pudding
 i(260267);	-- Steamed Hexx'alor Lobster
-i(260659);	-- Stellar Vortex Residue
 i(260281);	-- Stir-Fried Saptor Sirloin
 i(260620);	-- Stone Droppings
 i(253622);	-- Strangely Pleasant Painting
 i(262786);	-- Suntouched Special Reserve
 i(264983);	-- Sunwell Shot
 i(260667);	-- Tainted Organs
-i(265042);	-- Tarnished Shadow Torque
 i(260648);	-- Tattered Clothes
 i(260273);	-- Tea of Mists and Rain
 i(260309);	-- Thrumming Plant Matter
@@ -2783,10 +2791,7 @@ i(260676);	-- Unremarkable Crystal
 i(260649);	-- Vibrant Vortex
 i(260686);	-- Vibrant Wings
 i(244038);	-- Vinetwinted Crate
-i(260615);	-- Void Dust Residue
-i(260677);	-- Void Flakes
 i(260293);	-- Void Port
-i(260691);	-- Void-Tainted Pelt
 i(260297);	-- Voidfarer's Respite
 i(260294);	-- Voidwyrm Absinthe
 i(260645);	-- Water Filled Organ

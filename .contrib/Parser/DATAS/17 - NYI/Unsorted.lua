@@ -319,7 +319,6 @@ root(ROOTS.Unsorted, {
 				i(264183),	-- Kelum'ko's Generous Aromatic Gift
 				i(264391),	-- Sanctified Touch
 				i(264990),	-- Fairbreeze Franciacorta
-				i(265043),	-- Dented Voidblade Pommel
 				i(265045),	-- Sealed Blood Vial
 				i(265046),	-- Warped Summoning Sigil
 				i(265047),	-- Cracked Soul Phylactery
