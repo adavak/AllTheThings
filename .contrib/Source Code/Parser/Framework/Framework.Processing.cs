@@ -556,6 +556,8 @@ namespace ATT
             ProcessingNYICategory = container.Key.Contains("NeverImplemented") ||
                                     container.Key.Contains("NYI");
 
+            Log($"ProcessContainer",container.Key);
+
             Dictionary<string, object> fakeRoot = new Dictionary<string, object>();
             Process(container.Value, fakeRoot);
         }

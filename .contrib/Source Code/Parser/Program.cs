@@ -1064,7 +1064,7 @@ namespace ATT
 
         private static void ParseLUAFile(NLua.Lua lua, string fileName)
         {
-            Trace.WriteLine($"Parsing: {fileName}");
+            Framework.LogDebug($"Parsing: {fileName}");
             Framework.CurrentFileName = fileName;
             string content = string.Empty;
             do

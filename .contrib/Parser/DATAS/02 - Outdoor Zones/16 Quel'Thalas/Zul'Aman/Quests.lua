@@ -748,7 +748,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
 						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(264182) ),	-- Kelum'ko's Generous Aromatic Gift
+						["groups"] = { i(264182) },	-- Kelum'ko's Generous Aromatic Gift
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.06, {	-- The Voice of Nalorakk
