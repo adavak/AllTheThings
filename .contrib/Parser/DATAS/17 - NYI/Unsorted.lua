@@ -610,7 +610,6 @@ root(ROOTS.Unsorted, {
 				i(260306),	-- Distorted Memory (PET!) [Quest?]
 				i(262762),	-- Grumpy Mandrake (PET!) [Trading Post]
 				i(262881),	-- Lil' Staropod (PET!) [Promotion]
-				i(260585),	-- Linda the Lucky (PET!) [Quest?]
 				i(262763),	-- Plump Mandrake (PET!) [Trading Post]
 				i(262769),	-- Screechy Mandrake (PET!) [Trading Post]
 				i(260341),	-- Star the Lucky Dragon (PET!) [In-Game Shop]
@@ -1188,7 +1187,6 @@ root(ROOTS.Unsorted, {
 				i(263039),	-- Harandar Flowering Lamp
 				i(263194),	-- Harandar Glowvine Sconce \\ Harandar Glow-vine Sconce
 				i(263195),	-- Harandar Glowvine Lamppost \\ Harandar Glow-vine Lamppost
-				i(264245),	-- Warm Haranir Blanket
 				i(264267),	-- Rutaani Birdfeeder
 				i(264268),	-- Rutaani Birdbath
 				i(264269),	-- Rutaani Bird Perch

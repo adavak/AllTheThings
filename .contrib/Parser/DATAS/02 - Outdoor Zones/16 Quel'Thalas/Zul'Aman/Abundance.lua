@@ -223,6 +223,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 	m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(ABUNDANCE, {
 			n(QUESTS, {
+				q(91302),	-- Abundance: Abundant Grove
+
 				q(91475),	-- Abundance: Abundant Voidburrow
 
 				q(88770),	-- Popped after entering Loaknit Den

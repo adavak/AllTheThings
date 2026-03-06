@@ -493,6 +493,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 									{ 31.5, 81.8, MAP.MIDNIGHT.HARANDAR },
 									{ 33.0, 79.3, MAP.MIDNIGHT.HARANDAR },
 									{ 33.7, 83.9, MAP.MIDNIGHT.HARANDAR },
+									{ 35.3, 81.2, MAP.MIDNIGHT.HARANDAR },
 								},
 								["groups"] = { i(238792) },	-- Haranir Artifacts (QI!)
 							}),
@@ -753,14 +754,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					q(92736, {	-- Light Stroll
 						["sourceQuests"] = { 92732 },	-- Light Disturbance
+						["qg"] = 253087,	-- Luminescent Corpse
 						["coord"] = { 40.6, 63.0, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(92737, {	-- Light Carnage
 						["sourceQuests"] = { 92736 },	-- Light Stroll
+						["qg"] = 253105,	-- Hannan
 						["coord"] = { 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(92738, {	-- Potatoad Tots
 						["sourceQuests"] = { 92736 },	-- Light Stroll
+						["qg"] = 253105,	-- Hannan
 						["coord"] = { 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(92739, {	-- O.K. Bloomer
@@ -768,12 +772,19 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							92737,	-- Light Carnage
 							92738,	-- Potatoad Tots
 						},
-						--["coord"] = { 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
+						["qg"] = 253105,	-- Hannan
+						["coord"] = { 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(260585) },	-- Linda the Lucky (PET!)
 					}),
 				--}),
 				--header(HEADERS.AchCriteria, 61739.01, {	-- The Silence at Fungara Village?
 					q(91375, {	-- The Silence at Fungara Village
-						["sourceQuest"] = 86864,	-- Watch The Den
+						["sourceQuests"] = {
+							86877,	-- Righteous Pruning
+							86880,	-- Our Beloved Returned
+							86881,	-- At the Root
+						},
+						["qg"] = 257002,	-- Ghikal
 						["coord"] = { 33.3, 66.7, MAP.MIDNIGHT.HARANDAR },
 						["isBreadcrumb"] = true,	-- I Think
 					}),
@@ -926,6 +937,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 86864 },	-- Watch The Den
 				["provider"] = { "n", 253390 },	-- Ketan
 				["coord"] = { 69.4, 52.8, MAP.MIDNIGHT.HARANDAR },
+				["isBreadcrumb"] = true,	-- I Think
 			}),
 			q(92883, {	-- A Hunter's Duty
 				["sourceQuests"] = { 92882 },	-- A Hunter's Plight
@@ -982,6 +994,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 86864 },	-- Watch The Den
 				["provider"] = { "n", 252871 },	-- Shay'neia
 				["coord"] = { 70.5, 51.2, MAP.MIDNIGHT.HARANDAR },
+				["isBreadcrumb"] = true,	-- I Think
 			}),
 			q(92695, {	-- The Stroke of Storms
 				["sourceQuests"] = { 92694 },	-- Dusk Among Pigments
@@ -1087,12 +1100,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			---6
 			q(91346, {	-- Supplicants to The Goddess
 				["sourceQuests"] = { 86864 },	-- Watch The Den
-				["provider"] = { "n", 246607 },	-- Cyenna
+				["provider"] = { "n", 246607 },	-- Greenspeaker Cyenna
 				["coord"] = { 65.4, 28.1, MAP.MIDNIGHT.HARANDAR },
 			}),
 			q(91359, {	-- Fungal Lashers B Gone
 				["sourceQuests"] = { 91346 },	-- Supplicants to The Goddess
-				["provider"] = { "n", 246607 },	-- Cyenna
+				["provider"] = { "n", 246607 },	-- Greenspeaker Cyenna
 				["coord"] = { 65.4, 28.1, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					i(246886),	-- Harmonious Lash (QI!)
@@ -1100,7 +1113,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			q(91360, {	-- Weeding Out the Unwanted
 				["sourceQuests"] = { 91346 },	-- Supplicants to The Goddess
-				["provider"] = { "n", 246607 },	-- Cyenna
+				["provider"] = { "n", 246607 },	-- Greenspeaker Cyenna
 				["coord"] = { 65.4, 28.1, MAP.MIDNIGHT.HARANDAR },
 			}),
 			q(91360, {	-- Weeding Out the Unwanted
@@ -1108,7 +1121,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					91359,	-- Fungal Lashers B Gone
 					91346,	-- Supplicants to The Goddess
 				},
-				["provider"] = { "n", 246607 },	-- Cyenna
+				["provider"] = { "n", 246607 },	-- Greenspeaker Cyenna
+				["coord"] = { 65.4, 28.1, MAP.MIDNIGHT.HARANDAR },
+			}),
+			q(91361, {	-- Back on Duty?
+				["sourceQuest"] = 91360,	-- Weeding Out the Unwanted
+				["provider"] = { "n", 246607 },	-- Greenspeaker Cyenna
 				["coord"] = { 65.4, 28.1, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					i(260432),	-- Riverscale's Choker
@@ -1120,23 +1138,28 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 86864 },	-- Watch The Den
 				["provider"] = { "n", 245637 },	-- Su'meera
 				["coord"] = { 65.4, 22.6, MAP.MIDNIGHT.HARANDAR },
+				["isBreadcrumb"] = true,	-- I Think
 			}),
 			q(91065, {	-- Purloining Petals
 				["sourceQuests"] = { 91063 },	-- The Blooming Lattice
 				["provider"] = { "n", 245639 },	-- Su'meera
 				["coord"] = { 60.8, 29.9, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
-					o(550011, {
-						i(245886),	-- Paint-Speckled Gourd (QI!)
+					o(550011, {	-- Paint-Speckled Gourd
+						["coord"] = { 55.3, 30.7, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(245886) },	-- Paint-Speckled Gourd (QI!)
 					}),
-					o(550008, {
-						i(245883),	-- Splattered Scroll (QI!)
+					o(550008, {	-- Splattered Scroll
+						["coord"] = { 54.9, 32.1, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(245883) },	-- Splattered Scroll (QI!)
 					}),
-					o(548703, {
-						i(245570),	-- Pilfered Crafting Drill (QI!)
+					o(548703, {	-- Pilfered Crafting Drill
+						["coord"] = { 54.6, 28.3, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(245570) },	-- Pilfered Crafting Drill (QI!)
 					}),
-					o(548700, {
-						i(245569),	-- Well-worn Ladle (QI!)
+					o(548700, {	-- Well-Worn Ladle
+						["coord"] = { 55.3, 28.3, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(245569) },	-- Well-worn Ladle (QI!)
 					}),
 				},
 			}),
@@ -1145,8 +1168,23 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 245639 },	-- Su'meera
 				["coord"] = { 60.8, 29.9, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
-					o(557986, {
-						i(245571),	-- Petalwing Plume (QI!)
+					o(557986, {	-- Petalwing Plume
+						["coords"] = {
+							{ 52.5, 29.2, MAP.MIDNIGHT.HARANDAR },
+							{ 53.2, 28.1, MAP.MIDNIGHT.HARANDAR },
+							{ 54.2, 31.8, MAP.MIDNIGHT.HARANDAR },
+							{ 54.7, 28.9, MAP.MIDNIGHT.HARANDAR },
+							{ 54.7, 29.8, MAP.MIDNIGHT.HARANDAR },
+							{ 54.9, 32.1, MAP.MIDNIGHT.HARANDAR },
+							{ 55.1, 32.5, MAP.MIDNIGHT.HARANDAR },
+							{ 55.3, 30.6, MAP.MIDNIGHT.HARANDAR },
+							{ 55.4, 28.4, MAP.MIDNIGHT.HARANDAR },
+							{ 56.8, 29.8, MAP.MIDNIGHT.HARANDAR },
+							{ 57.3, 28.2, MAP.MIDNIGHT.HARANDAR },
+							{ 57.4, 29.3, MAP.MIDNIGHT.HARANDAR },
+							{ 58.1, 28.8, MAP.MIDNIGHT.HARANDAR },
+						},
+						["groups"] = { i(245571) },	-- Petalwing Plume (QI!)
 					}),
 				},
 			}),
@@ -1226,8 +1264,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 242650 },	-- Ney'leia
 				["coord"] = { 37.0, 26.0, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
-					o(544785, {	--
-						i(244337),	-- Empty Seed Sack (QI!)
+					o(544785, {	-- Empty Seed Sack
+						["coord"] = { 48.7, 32.1, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(244337) },	-- Empty Seed Sack (QI!)
 					}),
 				},
 			}),
@@ -1257,8 +1296,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 245166 },	-- Ney'leia
 				["coord"] = { 49.7, 23.3, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
-					o(531575, {	--
-						i(244429),	-- Glowshroom (QI!)
+					o(531575, {	-- Glowshroom
+						["coords"] = {
+							{ 47.4, 22.1, MAP.MIDNIGHT.HARANDAR },
+							{ 47.4, 23.0, MAP.MIDNIGHT.HARANDAR },
+							{ 49.0, 23.0, MAP.MIDNIGHT.HARANDAR },
+							{ 49.3, 21.9, MAP.MIDNIGHT.HARANDAR },
+							{ 49.5, 22.3, MAP.MIDNIGHT.HARANDAR },
+						},
+						["groups"] = { i(244429) },	-- Glowshroom (QI!)
 					}),
 				},
 			}),
@@ -1287,12 +1333,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			q(91874, {	-- Flare Up
 				["sourceQuests"] = { 91873 },	-- Buffer Zone
-				["provider"] = { "n", 252497 },	-- Hagar
+				["provider"] = { "n", 252496 },	-- Hagar
 				["coord"] = { 42.3, 34.2, MAP.MIDNIGHT.HARANDAR },
 			}),
 			q(91875, {	-- Natural Remedy
-				["sourceQuests"] = { 91874 },	-- Flare Up
-				["provider"] = { "n", 252496 },	-- Hagar
+				["sourceQuests"] = { 91873 },	-- Buffer Zone
+				["provider"] = { "n", 252497 },	-- Hagar
 				["coord"] = { 42.4, 34.4, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					i(252649),	-- Verdant Stalker Sludge (QI!)
@@ -1312,9 +1358,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 86864 },	-- Watch The Den
 				["provider"] = { "n", 242593 },	-- Monte Gazlowe
 				["coord"] = { 47.1, 45.8, MAP.MIDNIGHT.HARANDAR },
-				["groups"] = {
-					i(241125),	-- Handcrafted Plush (QI!)
-				},
+				["groups"] = { i(241125) },	-- Handcrafted Plush (QI!)
 			}),
 			q(90534, {	-- The Home of the Haranir
 				["sourceQuests"] = { 86864 },	-- Watch The Den
@@ -1324,10 +1368,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(90535, {	-- Leave Your Mark
 				["sourceQuests"] = { 90534 },	-- The Home of the Haranir
 				["provider"] = { "n", 242882 },	-- Orweyna
-				["coord"] = { 51.3, 49.4, MAP.MIDNIGHT.HARANDAR },
-				["groups"] = {
-					i(260427),	-- Nahuut's Second-Favorite Chew Toy
-				},
+				["coord"] = { 47.9, 22.4, 2576 },	-- The Den
+				["groups"] = { i(260427) },	-- Nahuut's Second-Favorite Chew Toy
 			}),
 			---12
 			q(91550, {	-- A Game of Silence and Shadow
@@ -1361,6 +1403,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 86864 },	-- Watch The Den
 				["provider"] = { "n", 244163 },	-- Chua
 				["coord"] = { 52.2, 55.1, MAP.MIDNIGHT.HARANDAR },
+				["isBreadcrumb"] = true,	-- I Think
 			}),
 			q(90826, {	-- The Healing Waters of Ahl'ua
 				["sourceQuests"] = { 90824 },	-- My Brother's Alive!
@@ -1415,14 +1458,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 244455 },	-- Amarakk
 				["coord"] = { 62.9, 62.4, MAP.MIDNIGHT.HARANDAR },
 			}),
-			--[[q(, {	-- From This Point Forward (TODO: forgot to copy-paste, again)
+			q(90834, {	-- From This Point Forward
 				["sourceQuests"] = { 90833 },	-- The Final Rite
 				["provider"] = { "n", 244473 },	-- En'liahn
-				["coord"] = { 62.9, 62.4, MAP.MIDNIGHT.HARANDAR },
-				["groups"] = {
-					--PH
-				},
-			}),]]--
+				["coord"] = { 61.6, 60.2, MAP.MIDNIGHT.HARANDAR },
+				["groups"] = { i(263020) },	-- Ward of the Shul'ka (DECOR!)
+			}),
 			--Leading to villages, could be breadcrumb but they are not?
 			q(93776, {	-- Har'alnor, Village of Twilight
 				["sourceQuests"] = { 86864 },	-- Watch The Den
@@ -1498,6 +1539,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(91456, name(HEADERS.Item,263196)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Aln'hara's Bloom'
 				--
 				q(94046),	-- Fly directly up into the glowing skybox (achievementID 61860 - From The Cradle to the Grave)
+				q(95146),	-- After accepting 92739 (O.K. Bloomer)
 			}),
 		}),
 	}),

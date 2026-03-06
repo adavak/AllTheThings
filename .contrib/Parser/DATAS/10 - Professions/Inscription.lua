@@ -5806,11 +5806,11 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["name"] = "MID Inscription Order: Inscription",
 				["provider"] = { "i", 245757 },	-- Thalassian Treatise on Inscription
 			}),
-			q(83264, {	-- MID Weekly Inscription Knowledgepoint #1
-				["name"] = "MID Weekly Inscription Treasure #1",
-				["provider"] = { "i", 259196 },	-- Brilliant Phoenix Ink
-			}),
-			q(83262, {	-- MID Weekly Inscription Knowledgepoint #2
+			--q(83264, {	-- MID Weekly Inscription Knowledgepoint #1
+				--["name"] = "MID Weekly Inscription Treasure #1",
+				--["provider"] = { "i", 259196 },	-- Brilliant Phoenix Ink
+			--}),
+			q(93537, {	-- MID Weekly Inscription Knowledgepoint #2
 				["name"] = "MID Weekly Inscription Treasure #2",
 				["provider"] = { "i", 259197 },	-- Loa-Blessed Rune
 			}),

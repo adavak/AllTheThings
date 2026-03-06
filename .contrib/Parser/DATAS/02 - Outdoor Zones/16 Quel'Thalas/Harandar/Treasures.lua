@@ -155,7 +155,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				o(571168, {	-- Glowing Moth
 					["coord"] = { 55.8, 66.7, MAP.MIDNIGHT.HARANDAR },
-					["questID"] = 92219,
+					["questID"] = 92218,
 				}),
 				o(571156, {	-- Glowing Moth
 					["coord"] = { 53.8, 59.1, MAP.MIDNIGHT.HARANDAR },
@@ -349,6 +349,55 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				o(571280, {	-- Glowing Moth
 					["coord"] = { 54.5, 52.0, MAP.MIDNIGHT.HARANDAR },
 					["questID"] = 92258,
+				}),
+				--IDK what renown these comes from
+				o(571306, {	-- Glowing Moth
+					["coord"] = { 66.5, 33.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92279,
+				}),
+				o(571315, {	-- Glowing Moth
+					["coord"] = { 71.2, 39.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92271,
+				}),
+				o(571305, {	-- Glowing Moth
+					["coord"] = { 72.0, 33.2, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92280,
+				}),
+				o(571303, {	-- Glowing Moth
+					["coord"] = { 55.8, 25.0, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92282,
+				}),
+				o(571316, {	-- Glowing Moth
+					["coord"] = { 54.5, 31.8, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92270,
+				}),
+				o(571317, {	-- Glowing Moth
+					["coord"] = { 52.5, 29.3, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92269,
+				}),
+				o(571318, {	-- Glowing Moth
+					["coord"] = { 47.8, 32.9, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92268,
+				}),
+				o(571322, {	-- Glowing Moth
+					["coord"] = { 48.5, 26.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92293,
+				}),
+				o(571307, {	-- Glowing Moth
+					["coord"] = { 43.2, 27.3, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92278,
+				}),
+				o(571329, {	-- Glowing Moth
+					["coord"] = { 39.2, 18.4, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92297,
+				}),
+				o(571300, {	-- Glowing Moth
+					["coord"] = { 34.7, 24.2, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92285,
+				}),
+				o(571299, {	-- Glowing Moth
+					["coord"] = { 44.4, 45.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92286,
 				}),
 			}),
 			header(HEADERS.Achievement, 61344, {	-- Chronicler of the Haranir

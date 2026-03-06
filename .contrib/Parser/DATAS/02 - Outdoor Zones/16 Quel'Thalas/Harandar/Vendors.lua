@@ -24,7 +24,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(263284),	-- Groovewarden's Staff (COSMETIC!)
 					i(265946),	-- Haranir Reclined Bed (DECOR!)
 					i(263580),	-- Vivid Chloroceros (MOUNT!)
-					i(265945),	-- Warm Haranir Blanket (DECOR!)
+					i(265945, {	-- Warm Haranir Blanket (DECOR!)
+						i(264245, {	-- Warm Haranir Blanket (DECOR!) (Available for Marl after first dust purchase)
+							["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+						}),
+					}),
 				}),
 			}),
 			n(255114, {	-- Maku <Decor Specialist>

@@ -96,7 +96,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 43.6, 54.6, MAP.MIDNIGHT.HARANDAR },
 					["groups"] = {
 						o(539208, {	-- Healing Waters of Ahl'ua
-							i(269022),	-- Healing Waters of Ahl'ua (QI!)
+							["coords"] = {
+								{ 39.7, 53.1, MAP.MIDNIGHT.HARANDAR },
+								{ 40.3, 56.3, MAP.MIDNIGHT.HARANDAR },
+								{ 40.4, 54.4, MAP.MIDNIGHT.HARANDAR },
+								{ 40.4, 59.7, MAP.MIDNIGHT.HARANDAR },
+								{ 41.0, 52.2, MAP.MIDNIGHT.HARANDAR },
+								{ 41.0, 58.0, MAP.MIDNIGHT.HARANDAR },
+								{ 42.3, 52.4, MAP.MIDNIGHT.HARANDAR },
+								{ 43.1, 54.2, MAP.MIDNIGHT.HARANDAR },
+								{ 44.7, 54.1, MAP.MIDNIGHT.HARANDAR },
+							},
+							["groups"] = { i(269022) },	-- Healing Waters of Ahl'ua (QI!)
 						}),
 						i(269023),	-- Phytogenic Poison Part (QI!)
 					},

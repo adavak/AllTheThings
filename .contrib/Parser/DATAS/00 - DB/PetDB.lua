@@ -4532,7 +4532,6 @@ i(262768, 4965);	-- Chirpy Mandrake
 i(260306, 4942);	-- Distorted Memory
 i(262762, 4963);	-- Grumpy Mandrake
 i(262881, 4968);	-- Lil' Staropod
-i(260585, 4946);	-- Linda the Lucky
 i(262763, 4964);	-- Plump Mandrake
 i(262769, 4966);	-- Screechy Mandrake
 i(260341, 4943);	-- Star the Lucky Dragon
@@ -4572,6 +4571,7 @@ i(262395, 4959);	-- Hexed Bunny
 i(265030, 4983);	-- Kai
 i(262393, 4955);	-- Kreepah'zoyd
 i(259991, 4930);	-- Lil' Preyseeker
+i(260585, 4946);	-- Linda the Lucky
 i(262396, 4957);	-- Lost Star
 i(262999, 4971);	-- Luma
 i(265035, 4984);	-- Medusa
