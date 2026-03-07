@@ -921,7 +921,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["provider"] = { "n", 2318 },	-- Argus Shadow Mage
 						}),
 						objective(2, {	-- 0/1 Head of Nagaz
-							["provider"] = { "n", 3672 },	-- Head of Nagaz
+							["provider"] = { "i", 3672 },	-- Head of Nagaz
 							["coord"] = { 39.6, 15.8, ALTERAC_MOUNTAINS },
 							["cr"] = 2320,	-- Nagaz
 						}),
