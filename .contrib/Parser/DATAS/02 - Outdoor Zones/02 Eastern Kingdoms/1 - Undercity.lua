@@ -309,7 +309,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 22629 },	-- Sealed Sin'dorei Orders
 					},
 					["coord"] = { 57.8, 90.6, UNDERCITY },
-					["timeline"] = { ADDED_3_3_0, REMOVED_4_0_3 },
+					["timeline"] = { ADDED_2_0_3, REMOVED_4_0_3 },
 					["races"] = { BLOODELF },
 					["lvl"] = lvlsquish(15, 15, 1),
 				}),
