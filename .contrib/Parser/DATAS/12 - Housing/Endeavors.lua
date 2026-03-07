@@ -288,8 +288,10 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					i_DecorCoupons(253526, 15),	-- Sin'dorei Wine Display (DECOR!)
 					i_DecorCoupons(253599, 15),	-- Artisanal Display Tent (DECOR!)
 					-- Reach the fourth milestone of the endeavor
-					-- Exo Note: This will probably have some HQT hidden behind it. Used to buy paintings in Silvermoon Bazaar but tooltip states "you don't need to keep the deed on you".
-					i_DecorCoupons(253802, 30),	-- Deed of Patronage
+					i(253802, { -- Deed of Patronage
+						["cost"] = {{ "c", COMMUNITY_COUPONS, 30 }},
+						["description"] = "Once you've purchased this item, you can talk to Hesta Forlath in Midnight Silvermoon City (/att n:252916) to purchase paintings.\n\nYou can safely delete this item."
+					}),
 				},
 			}),
 			-- Weekly Quests

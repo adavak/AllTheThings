@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = sharedData({
 					["cost"] = { { "g", 50000000 } },	-- 5,000g
 					["sourceAchievement"] = 42117,	-- The War of Light and Shadow
-				}, {
+				},{
 					i(253604),	-- "A Bridge Over Calm Waters" Painting (DECOR!)
 					i(253615),	-- "Autumnal Eversong" Painting (DECOR!)
 					i(253614),	-- "Brunch and a Book" Painting (DECOR!)
@@ -309,15 +309,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 44.1, 62.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = {
 					n(DECOR, {
-						i(253612),	-- "Autumnal Eversong" Unframed Painting (DECOR!)
-						i(253606),	-- "Brunch and a Book" Unframed Painting (DECOR!)
-						i(253610),	-- "Isolation" Unframed Painting (DECOR!)
-						i(253613),	-- "Reclamation" Unframed Painting (DECOR!)
-						i(253609),	-- "River's Protectors" Unframed Painting (DECOR!)
-						i(253611),	-- "The Fallen Protectors" Unframed Painting (DECOR!)
-						i(253705),	-- "The Light Blooms" Unframed Painting (DECOR!)
-						i(253704),	-- Fresh Canvas (DECOR!)
-						i(244656),	-- Silvermoon Painter's Cushion (DECOR!)
+						i(253612, { ["cost"] = { { "g", 15000000 } } }),	-- "Autumnal Eversong" Unframed Painting (DECOR!)
+						i(253606, { ["cost"] = { { "g", 15000000 } } }),	-- "Brunch and a Book" Unframed Painting (DECOR!)
+						i(253610, { ["cost"] = { { "g", 15000000 } } }),	-- "Isolation" Unframed Painting (DECOR!)
+						i(253613, { ["cost"] = { { "g", 15000000 } } }),	-- "Reclamation" Unframed Painting (DECOR!)
+						i(253609, { ["cost"] = { { "g", 15000000 } } }),	-- "River's Protectors" Unframed Painting (DECOR!)
+						i(253611, { ["cost"] = { { "g", 15000000 } } }),	-- "The Fallen Protectors" Unframed Painting (DECOR!)
+						i(253705, { ["cost"] = { { "g", 15000000 } } }),	-- "The Light Blooms" Unframed Painting (DECOR!)
+						i(253704, { ["cost"] = { { "g", 15000000 } } }),	-- Fresh Canvas (DECOR!)
+						i(244656, { ["cost"] = { { "g", 1500000 } } }),		-- Silvermoon Painter's Cushion (DECOR!)
 					}),
 				},
 			}),
