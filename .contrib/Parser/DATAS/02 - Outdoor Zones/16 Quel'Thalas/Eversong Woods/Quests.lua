@@ -1075,34 +1075,29 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 94393 },	-- Career Counseling
 						["provider"] = { "n", 245192 },	-- Kyltus Bloodburn
 						["coord"] = { 42.6, 14.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {	-- Maybe a stupid idea to nest quests under a quest but, seeing as these are "objectives" of the main quest...
-							q(91288, {	-- A Test of the Hunt
-								["description"] = "Available after accepting, and only during, 'A Path Not Yet Chosen' (91284).",
-								["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
-								["provider"] = { "n", 245202 },	-- Ranger Hannovia
-								["coord"] = { 42.2, 13.3, MAP.MIDNIGHT.EVERSONG_WOODS },
-								["groups"] = {
-									i(246166),	-- Farstrider Recommendation (QI!)
-									i(246153),	-- Invasive Lynx Pelt (QI!)
-								},
-							}),
-							q(91291, {	-- A Test of Blood
-								["description"] = "Available after accepting, and only during, 'A Path Not Yet Chosen' (91284).",
-								["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
-								["provider"] = { "n", 245200 },	-- Jesthenis Sunstriker
-								["coord"] = { 43.0, 13.8, MAP.MIDNIGHT.EVERSONG_WOODS },
-								["groups"] = { i(246167) },	-- Blood Knight Recommendation (QI!)
-							}),
-							q(91292, {	-- A Test of the Arcane
-								["description"] = "Available after accepting, and only during, 'A Path Not Yet Chosen' (91284).",
-								["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
-								["provider"] = { "n", 245201 },	-- Magister Jaronis
-								["coord"] = { 43.2, 14.7, MAP.MIDNIGHT.EVERSONG_WOODS },
-								["groups"] = {
-									i(244539),	-- Arcane Transfer Staff (QI!)
-									i(246168),	-- Magister Recommendation (QI!)
-								},
-							}),
+					}),
+					q(91288, {	-- A Test of the Hunt
+						["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
+						["provider"] = { "n", 245202 },	-- Ranger Hannovia
+						["coord"] = { 42.2, 13.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(246166),	-- Farstrider Recommendation (QI!)
+							i(246153),	-- Invasive Lynx Pelt (QI!)
+						},
+					}),
+					q(91291, {	-- A Test of Blood
+						["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
+						["provider"] = { "n", 245200 },	-- Jesthenis Sunstriker
+						["coord"] = { 43.0, 13.8, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(246167) },	-- Blood Knight Recommendation (QI!)
+					}),
+					q(91292, {	-- A Test of the Arcane
+						["sourceQuests"] = { 91284 },	-- A Path Not Yet Chosen (TODO: ??)
+						["provider"] = { "n", 245201 },	-- Magister Jaronis
+						["coord"] = { 43.2, 14.7, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(244539),	-- Arcane Transfer Staff (QI!)
+							i(246168),	-- Magister Recommendation (QI!)
 						},
 					}),
 					q(91301, {	-- How to Train Your Protege
@@ -1324,7 +1319,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							91495,	-- Familiar Faces In Peril
 							91494,	-- One Elf's Trash, Another Elf's Treasure
 						},
-						["provider"] = { "n", 250388 },	-- Hathvelion Sungaze
+						["providers"] = {
+							{ "n", 247503 },	-- Hathvelion Sungaze
+							{ "n", 250388 },	-- Hathvelion Sungaze
+						},
 						["coord"] = { 39.0, 61.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
 							i(247753),	-- Empowered Wand (PQI!)

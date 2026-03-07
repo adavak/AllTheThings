@@ -640,6 +640,7 @@ MobileDB.Creature = {
 	[241605] = true,	-- Kitzy
 	[245944] = true,	-- Salandria
 	[247425] = true,	-- Chana
+	[250295] = true,	-- Valeera Sanguinar
 	[252807] = true,	-- Vanguard Paladin
 	[256867] = true,	-- Grieving Amani
 }
