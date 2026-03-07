@@ -161,6 +161,11 @@ i(89427);	-- Ancient Mogu Treasure
 i(85224);	-- Basic Seed Pack
 i(140360);	-- Rockwurm Barb
 i(153119);	-- Wyrmtongue Cache of Finery
+i(265049);	-- Drifting Conch Whistle
+i(260695);	-- Rancid Aquatic Remains
+i(260674);	-- Fine Arcane Dust
+i(265055);	-- Torn Dimensional Wrap
+i(265053);	-- Gnarled Bark Shard
 -------------------------------------------------------------------- NOT SORTED --------------------------------------------------------------------
 -----------------
 -- PATCH 3.0.2 --

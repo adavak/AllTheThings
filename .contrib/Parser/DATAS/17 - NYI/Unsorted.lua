@@ -319,11 +319,8 @@ root(ROOTS.Unsorted, {
 				i(265046),	-- Warped Summoning Sigil
 				i(265047),	-- Cracked Soul Phylactery
 				i(265048),	-- Scale Fragment
-				i(265049),	-- Drifting Conch Whistle
 				i(265050),	-- Coral Shard
 				i(265052),	-- Crumbly Stone Shard
-				i(265053),	-- Gnarled Bark Shard
-				i(265055),	-- Torn Dimensional Wrap
 				i(265056),	-- Flickering Energy Coil
 				i(265057),	-- Hollow Binding Strand
 				i(265058),	-- Distorted Echo Fragment
@@ -335,9 +332,7 @@ root(ROOTS.Unsorted, {
 				i(265824),	-- The Rootwarden's Notes
 				i(266213),	-- Incense Materials
 				i(260603),	-- Frail and Flexible Wing
-				i(260674),	-- Fine Arcane Dust
 				i(260682),	-- Rusty Tusk Ring
-				i(260695),	-- Rancid Aquatic Remains
 				i(262432),	-- Weathered Lockbox
 				i(262559),	-- Spare Key
 				i(267487),	-- Ignited Torch
