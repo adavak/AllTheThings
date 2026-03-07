@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = sharedData({
 					["cost"] = { { "g", 50000000 } },	-- 5,000g
 					["sourceAchievement"] = 42117,	-- The War of Light and Shadow
-				},{
+				}, {
 					i(253604),	-- "A Bridge Over Calm Waters" Painting (DECOR!)
 					i(253615),	-- "Autumnal Eversong" Painting (DECOR!)
 					i(253614),	-- "Brunch and a Book" Painting (DECOR!)

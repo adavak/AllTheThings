@@ -235,6 +235,7 @@ local MapPrecisionOverrides = {
 	[2477] = 4,	-- Voidscar Cavern, K'aresh
 	[2565] = 3,	-- Parhelion Plaza, Isle of Quel'Danas (Intro)
 	[2579] = 2,	-- Wartha'nan Crypts
+	[2583] = 2,	-- Wit'Kalar Crypt
 }
 
 local function Check_coords(objRef, maxCoordDistance)

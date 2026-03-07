@@ -51,6 +51,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["timeline"] = { ADDED_12_0_1_LAUNCH },
 			["maps"] = {
 				2536,	-- Atal'Aman
+				2583,	-- Wit'Kalar Crypt
 			},
 		}),
 	},

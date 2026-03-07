@@ -279,9 +279,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86659 },	-- Breaching the Mist
 						["provider"] = { "n", 236155 },	-- Zul'jarra
 						["coord"] = { 32.4, 31.6, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							--spell(1239217),	-- Blessing: Halazzi's Guile
-						},
 					}),
 					q(86661, {	-- Coals of a Dead Loa
 						["sourceQuests"] = { 92084 },	-- Halazzi's Guile
@@ -1105,7 +1102,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.13, {	-- A Venomous History
 					q(91406, {	-- Far from the Hinterlands
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 92084 },	-- Halazzi's Guile
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
 						["coord"] = { 36.1, 24.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -1119,21 +1116,22 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247014 },	-- Nija Torntusk
 						["coord"] = { 36.1, 24.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
+					q(91403, {	-- Probable Paralytic
+						["sourceQuests"] = { 91407 },	-- The Eye of the Loa
+						["provider"] = { "n", 250068 },	-- Loa Speaker Tobui
+						["coord"] = { 32.2, 31.6, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(246621) },	-- Venomous Horn
+					}),
 					q(91404, {	-- A Most Vile Venom
 						["sourceQuests"] = { 91563 },	-- Halazzi's Hunt
 						["provider"] = { "n", 250068 },	-- Loa Speaker Tobui
-						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 32.2, 31.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(584793, {	--
-								i(246681),	-- Ritual Fang (QI!)
+							o(584793, {	-- Ritual Supplies
+								["coord"] = { 40.4, 36.0, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(246681) },	-- Ritual Fang (QI!)
 							}),
 						},
-					}),
-					q(91403, {	-- Probable Paralytic
-						["sourceQuests"] = { 91407 },	-- The Eye of the Loa (TODO: this quest was up when you come at this place to turn in 91563, it could be up by itself here, need more testing)
-						["provider"] = { "n", 250068 },	-- Loa Speaker Tobui
-						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(246621) },	-- Venomous Horn
 					}),
 					q(91405, {	-- Validating the Venom
 						["sourceQuests"] = {
@@ -1141,7 +1139,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							91404,	-- A Most Vile Venom
 						},
 						["provider"] = { "n", 250068 },	-- Loa Speaker Tobui
-						["coord"] = { 32.3, 31.6, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 32.2, 31.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91408, {	-- Seeking Shadra
 						["sourceQuests"] = { 91405 },	-- Validating the Venom
@@ -1153,7 +1151,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
 						["coords"] = {
 							{ 39.1, 22.3, MAP.MIDNIGHT.ZULAMAN },
-							{ 60.3, 57.6, 2583 },	-- Wit'Kalar Crypt
+							{ 59.6, 57.2, 2583 },	-- Wit'Kalar Crypt
 						},
 						["groups"] = { i(246744) },	-- Eye of Shadra (QI!)
 					}),
@@ -1162,7 +1160,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
 						["coords"] = {
 							{ 39.1, 22.3, MAP.MIDNIGHT.ZULAMAN },
-							{ 60.3, 57.6, 2583 },	-- Wit'Kalar Crypt
+							{ 59.6, 57.2, 2583 },	-- Wit'Kalar Crypt
 						},
 					}),
 					q(91411, {	-- Maisara Caverns: Deep in Maisara
@@ -1170,19 +1168,25 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247251 },	-- Nija Torntusk
 						["coords"] = {
 							{ 38.8, 22.7, MAP.MIDNIGHT.ZULAMAN },
-							{ 46.4, 71.9, 2583 },	-- Wit'Kalar Crypt
+							{ 46.2, 71.9, 2583 },	-- Wit'Kalar Crypt
 						},
 						["groups"] = { i(246586) },	-- Shell of Shadra (QI!)
 					}),
 					q(91412, {	-- Return of the Venom Queen
 						["sourceQuests"] = { 91411 },	-- Maisara Caverns: Deep in Maisara
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 43.3, 71.7, 2583 },	-- Wit'Kalar Crypt
+						["coords"] = {
+							{ 38.7, 22.7, MAP.MIDNIGHT.ZULAMAN },
+							{ 43.0, 71.9, 2583 },	-- Wit'Kalar Crypt
+						},
 					}),
 					q(91410, {	-- Shared Loa
 						["sourceQuests"] = { 91412 },	-- Return of the Venom Queen
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 43.3, 71.7, 2583 },	-- Wit'Kalar Crypt
+						["coords"] = {
+							{ 38.7, 22.7, MAP.MIDNIGHT.ZULAMAN },
+							{ 43.0, 71.9, 2583 },	-- Wit'Kalar Crypt
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.14, {	-- Beyond the Walls
@@ -1253,10 +1257,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.15, {	-- Something Vile This Way Comes
 					q(91833, {	-- Dirty Deeps
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 86664 },	-- Seer or Sear
 						["qg"] = 244591,	-- Vun'zarah
 						["coord"] = { 38.6, 22.4, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(248814) },	-- Witherbark Supplies (QI!)
+						["groups"] = { i(248814) },	-- Witherbark Supplies (PQI!)
 					}),
 					q(91835, {	-- Send Dem Home
 						["sourceQuests"] = { 91833 },	-- Dirty Deeps
@@ -1406,11 +1410,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			q(94839, {	-- Blessings of Peril
 				["provider"] = { "i", 263938 },	-- Idol of Peril (QS!)
-			}),
-			q(93575, {	-- Maisara Caverns: Maisara Hungers
-				["qg"] = 244521,	-- Kul'amara the Fierce <Witherbark Tribe>
-				["coord"] = { 44.0, 34.6, MAP.MIDNIGHT.ZULAMAN },
-				["maps"] = { 2501 },	-- Maisara Caverns
 			}),
 		}),
 	}),

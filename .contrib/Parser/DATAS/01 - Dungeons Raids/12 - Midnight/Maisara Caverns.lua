@@ -27,6 +27,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 		["coord"] = { 44.0, 39.6, MAP.MIDNIGHT.ZULAMAN },
 		["maps"] = { 2501 },	-- Maisara Caverns
 		["groups"] = {
+			n(QUESTS, {
+				q(93575, {	-- Maisara Caverns: Maisara Hungers
+					["sourceQuests"] = { 92084 },	-- Halazzi's Guile
+					["qg"] = 244521,	-- Kul'amara the Fierce <Witherbark Tribe>
+					["coord"] = { 44.1, 34.5, MAP.MIDNIGHT.ZULAMAN },
+				}),
+			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(MUROJIN, {
 					i(251174),	-- Deciever's Rotbow
