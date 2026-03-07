@@ -92,10 +92,6 @@ root(ROOTS.Unsorted, {
 				i(270443),	-- Wildbloom Haranir Bastion
 				i(270444),	-- Wildbloom Haranir Carver
 			}),
-			filter(MOUNTS, {
-				-- Pet/Mount? Might have to do with that netherdrake...
-				i(268730),	-- Nether-Warped Egg \\ Void-Touched Egg
-			}),
 			n(PROFESSIONS, {
 				-- Cooking
 				i(268680),	-- Hearty Flora Frenzy
