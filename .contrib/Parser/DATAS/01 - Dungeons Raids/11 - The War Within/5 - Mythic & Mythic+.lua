@@ -186,7 +186,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 		})),
 		header(HEADERS.Achievement, SEASON_3_TWW, bubbleDownSelf({
-			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_X_SEASONSTART }
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_1_LAUNCH }
 		},{
 			ach(42169),	-- The War Within Keystone Explorer: Season Three
 			ach(42170, {	-- The War Within Keystone Conqueror: Season Three
@@ -231,10 +231,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				spell(445414),	-- Path of the Arathi Flagship
 			}),
 			ach(61876, {	-- The Unbound Damage Dealer (automated)
-				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_X_SEASONSTART },	-- Added October 24th (hotfixed)
+				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_1_LAUNCH },	-- Added October 24th (hotfixed)
 			}),
 			ach(61877, {	-- The Unbound Dungeon Master
-				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_X_SEASONSTART },	-- Added October 24th (hotfixed)
+				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_1_LAUNCH },	-- Added October 24th (hotfixed)
 				-- Meta achievement
 				["sym"] = {{"meta_achievement",
 					61876,	-- The Unbound Damage Dealer
@@ -246,10 +246,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				},
 			}),
 			ach(61875, {	-- The Unbound Healer (automated)
-				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_X_SEASONSTART },	-- Added October 24th (hotfixed)
+				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_1_LAUNCH },	-- Added October 24th (hotfixed)
 			}),
 			ach(61874, {	-- The Unbound Tank (automated)
-				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_X_SEASONSTART },	-- Added October 24th (hotfixed)
+				["timeline"] = { ADDED_11_2_5, REMOVED_12_0_1_LAUNCH },	-- Added October 24th (hotfixed)
 			}),
 			-- Using ["_noautomation"] for all to reduce numbers a bit.
 			-- Have to see what Blizzard does with those kind of achievements -- Goldenshacal 20th August 2025
@@ -288,35 +288,27 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 			ach(42160, {	-- The War Within Season 3: Resilient Keystone 23
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42161, {	-- The War Within Season 3: Resilient Keystone 24
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42162, {	-- The War Within Season 3: Resilient Keystone 25
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42802, {	-- The War Within Season 3: Resilient Keystone 26
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42803, {	-- The War Within Season 3: Resilient Keystone 27
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42804, {	-- The War Within Season 3: Resilient Keystone 28
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42805, {	-- The War Within Season 3: Resilient Keystone 29
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 			ach(42806, {	-- The War Within Season 3: Resilient Keystone 30
 				["_noautomation"] = true,
-				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_X_SEASONSTART },
 			}),
 		})),
 		n(QUESTS, {
