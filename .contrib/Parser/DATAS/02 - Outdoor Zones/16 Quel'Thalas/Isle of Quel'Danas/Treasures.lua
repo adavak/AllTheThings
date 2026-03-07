@@ -7,6 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(TREASURES, bubbleDownSelf({
 			["sourceQuest"] = 86806,	-- Luminous Wings
 			-- Exo Note: Treasures become visible after accepting 'The Gate' (86807).
+			["lockCriteria"] = { 1, "questID", 86852 },	-- Light's Last Stand
 		}, {
 			o(555178, {	-- Artisan's Cache
 				["coord"] = { 38.4, 33.0, MAP.MIDNIGHT.ISLE_OF_QUELDANAS_SCENARIO },

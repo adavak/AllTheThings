@@ -216,17 +216,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						86780,	-- Where Heroes Hold
 					},
 					["coord"] = { 39.8, 57.4, MAP.MIDNIGHT.ISLE_OF_QUELDANAS_SCENARIO },
-					["lockCriteria"] = { 1, "questID", 86733 },	-- Silvermoon Negotiations
+					["lockCriteria"] = { 1, "questID", 86852 },	-- Light's Last Stand
 				}),
 				q(90849, {	-- Light Show
 					["sourceQuests"] = { 86807 },	-- The Gate
 					["coord"] = { 36.2, 27.5, MAP.MIDNIGHT.ISLE_OF_QUELDANAS_SCENARIO },
-					["lockCriteria"] = { 1, "questID", 86733 },	-- Silvermoon Negotiations
+					["lockCriteria"] = { 1, "questID", 86852 },	-- Light's Last Stand
 				}),
 				q(89440, {	-- Protecting the Flank
 					["sourceQuests"] = { 86807 },	-- The Gate
 					["coord"] = { 55.5, 28.0, MAP.MIDNIGHT.ISLE_OF_QUELDANAS_SCENARIO },
-					["lockCriteria"] = { 1, "questID", 86733 },	-- Silvermoon Negotiations
+					["lockCriteria"] = { 1, "questID", 86852 },	-- Light's Last Stand
 				}),
 			}),
 		}),
