@@ -186,44 +186,34 @@ namespace ATT
             AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("_objectiveItems"), Consolidate__objectiveItems);
             AddHandlerAction(ParseStage.Consolidation, data => data.ContainsKey("questID"), Consolidate_questID);
             AddHandlerAction(ParseStage.Consolidation, Handler.AlwaysHandle, Consolidate_Parallel);
+            // the last operation since it involves deletion of many fields from data which may otherwise be needed in prior steps
+            AddHandlerAction(ParseStage.Consolidation, Handler.AlwaysHandle, Consolidate_Cleaning);
 
             // Merge the Item Data into the Containers.
             CurrentParseStage = ParseStage.Validation;
             Validator.OnlyClean = (bool)Config["Validation"]["clean"];
             ProcessingFunction = DataValidation;
-            foreach (var container in Objects.AllContainers)
-            {
-                ProcessContainer(container);
-            }
+            ProcessContainers();
             RunCurrentParseStageHandlers();
 
             // Capture Conditional DB data into the global DBs, and then merge that data into the respective Objects
             CurrentParseStage = ParseStage.ConditionalData;
             AdditionalProcessing();
             ProcessingFunction = DataConditionalMerge;
-            foreach (var container in Objects.AllContainers)
-            {
-                ProcessContainer(container);
-            }
+            ProcessContainers();
             RunCurrentParseStageHandlers();
 
             // Incorporate external or other DB information into the Objects
             CurrentParseStage = ParseStage.Incorporation;
             ProcessingFunction = DataIncorporation;
-            foreach (var container in Objects.AllContainers)
-            {
-                ProcessContainer(container);
-            }
+            ProcessContainers();
             RunCurrentParseStageHandlers();
 
             // Pass to clean up and consolidate final information within Objects
             CurrentParseStage = ParseStage.Consolidation;
             Validator.OnlyClean = true;
             ProcessingFunction = DataConsolidation;
-            foreach (var container in Objects.AllContainers)
-            {
-                ProcessContainer(container);
-            }
+            ProcessContainers();
             RunCurrentParseStageHandlers();
 
             // Sort World Drops by Name
@@ -534,6 +524,14 @@ namespace ATT
             Objects.NotifyPostProcessMergeFailures();
         }
 
+        private static void ProcessContainers()
+        {
+            foreach (var container in Objects.AllContainers.OrderBy(c => c.Key, stringComparer))
+            {
+                ProcessContainer(container);
+            }
+        }
+
         private static void ProcessContainer(KeyValuePair<string, List<object>> container)
         {
             switch (container.Key)
@@ -556,7 +554,7 @@ namespace ATT
             ProcessingNYICategory = container.Key.Contains("NeverImplemented") ||
                                     container.Key.Contains("NYI");
 
-            Log($"ProcessContainer",container.Key);
+            // Log($"ProcessContainer", container.Key);
 
             Dictionary<string, object> fakeRoot = new Dictionary<string, object>();
             Process(container.Value, fakeRoot);
@@ -598,7 +596,15 @@ namespace ATT
             // Iterate through the list and process all of the relative data dictionaries.
             for (int i = list.Count - 1; i >= 0; --i)
             {
-                if (!Process(list[i] as IDictionary<string, object>, parentData)) list.RemoveAt(i);
+                var data = list[i] as IDictionary<string, object>;
+                if (Process(data, parentData))
+                {
+                    CaptureForSOURCED(data);
+                }
+                else
+                {
+                    list.RemoveAt(i);
+                }
             }
         }
 
@@ -903,8 +909,6 @@ namespace ATT
                 else MarkPhaseAsRequired(phase);
             }
 
-            CaptureForSOURCED(data);
-
             return true;
         }
 
@@ -921,9 +925,6 @@ namespace ATT
         {
             // Merge all relevant dictionary info into the data
             DoConditionalDataMerging(data);
-
-            // capture the data for sourced groups (i.e. contains the field)
-            CaptureForSOURCED(data);
 
             return true;
         }
@@ -944,9 +945,6 @@ namespace ATT
             // Handles Spell->SpellEffect incorporation
             Incorporate_Spell(data);
             Incorporate_Ensemble(data);
-
-            // capture the data for sourced groups (i.e. contains the field)
-            CaptureForSOURCED(data);
 
             return true;
         }
@@ -1035,7 +1033,6 @@ namespace ATT
 
             Items.DetermineSourceID(data);
 
-            CaptureForSOURCED(data);
             CaptureDebugDBData(data);
 
             return true;
@@ -1117,6 +1114,11 @@ namespace ATT
                 }
             }
 
+            Consolidate_TrackUsage(data);
+        }
+
+        private static void Consolidate_Cleaning(IDictionary<string, object> data)
+        {
             List<string> removeKeys = new List<string>();
 
             // clean out any temporary 'type' fields which do not yet have a corresponding conversion in parser.config
@@ -1166,7 +1168,6 @@ namespace ATT
             {
                 data.Remove(key);
             }
-            Consolidate_TrackUsage(data);
         }
 
         private static void Incorporate_sort_g(IDictionary<string, object> data)
@@ -4226,7 +4227,7 @@ namespace ATT
                 {
                     // this single Quest Item on HQT is Sourced 1 time in ATT without a questID itself, maybe remove the HQT?
                     if (TryGetSOURCED("itemID", itemID, out var itemSources)
-                        && itemSources.Count() == 1
+                        && itemSources.Count == 1
                         && !itemSources.First().ContainsKey("questID"))
                     {
                         LogDebugWarn($"Possibly remove HQT {questID} since it is linked from one non-Quest Item {itemID} which is has one Source and could simply be an ItemWithQuest", data);
