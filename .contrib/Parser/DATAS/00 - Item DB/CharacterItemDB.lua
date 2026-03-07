@@ -989,6 +989,14 @@ ihqt(248126, 91784);				-- Delver's Starter Kit
 ------------------
 -- PATCH 12.0.1 --
 ------------------
+ihqt(262645, 93794);				-- Beyond the Event Horizon: Alchemy
+ihqt(262644, 93795);				-- Beyond the Event Horizon: Blacksmithing
+ihqt(262646, 93796);				-- Beyond the Event Horizon: Engineering
+iq(253802, 92710);					-- Deed of Patronage
+ihqt(250445, 92186);				-- Echo of Abundance: Enchanting
+ihqt(250443, 92174);				-- Echo of Abundance: Herbalism
+ihqt(250444, 92187);				-- Echo of Abundance: Mining
+ihqt(250360, 92188);				-- Echo of Abundance: Skinning
 ihqt(265071, 94482);				-- Gleaming Sunmote
 is(0, 1254559);						-- Path of Cavernous Depths
 is(0, 1254563);						-- Path of the Fractured Core
@@ -997,23 +1005,15 @@ is(0, 1254400);						-- Path of the Windrunners
 is(0, 1254551);						-- Path of Dark Dereliction
 is(0, 1254555);						-- Path of Unyielding Blight
 is(0, 1254557);						-- Path of the Crowning Pinnacle
-
-ihqt(262645, 93794);				-- Beyond the Event Horizon: Alchemy
-ihqt(262644, 93795);				-- Beyond the Event Horizon: Blacksmithing
-ihqt(262646, 93796);				-- Beyond the Event Horizon: Engineering
 ihqt(257600, 92374);				-- Skill Issue: Enchanting
 ihqt(257599, 93222);				-- Skill Issue: Jewelcrafting
 ihqt(257601, 93201);				-- Skill Issue: Tailoring
+ihqt(258410, 93411);				-- Traditions of the Haranir: Herbalism
+ihqt(258411, 93412);				-- Traditions of the Haranir: Inscription
+iq(264895, 87421, HUNTER);			-- Trials of the Florafaun Hunter
 ihqt(250922, 92371);				-- Whisper of the Loa: Leatherworking
 ihqt(250924, 92372);				-- Whisper of the Loa: Mining
 ihqt(250923, 92373);				-- Whisper of the Loa: Skinning
-ihqt(250445, 92186);				-- Echo of Abundance: Enchanting
-ihqt(250443, 92174);				-- Echo of Abundance: Herbalism
-ihqt(250444, 92187);				-- Echo of Abundance: Mining
-ihqt(250360, 92188);				-- Echo of Abundance: Skinning
-
-iq(253802, 92710);					-- Deed of Patronage (Hesta Forlath Paintings Unlock)
-iq(264895, 87421, HUNTER);			-- Trials of the Florafaun Hunter
 
 ------------
 -- UNUSED --

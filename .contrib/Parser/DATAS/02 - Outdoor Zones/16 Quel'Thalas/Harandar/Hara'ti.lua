@@ -161,13 +161,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							}, {	-- RENOWN 6 --
 								i(258410, {	-- Traditions of the Haranir: Herbalism (CI!)
 									["cost"] = {
-										{ "c", ARTISAN_MOXIE.HERBALISM, 150 },
+										{ "c", ARTISAN_MOXIE.HERBALISM, 75 },
 										{ "c", VOIDLIGHT_MARL, 750 },
 									},
 								}),
 								i(258411, {	-- Traditions of the Haranir: Inscription (CI!)
 									["cost"] = {
-										{ "c", ARTISAN_MOXIE.INSCRIPTION, 150 },
+										{ "c", ARTISAN_MOXIE.INSCRIPTION, 75 },
 										{ "c", VOIDLIGHT_MARL, 750 },
 									},
 								}),

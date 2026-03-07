@@ -141,18 +141,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 									},
 								}),
 							}, {	-- RENOWN 6 --
-								i(258410, {	-- Traditions of the Haranir: Herbalism (CI!)
-									["cost"] = {
-										{ "c", ARTISAN_MOXIE.HERBALISM, 150 },
-										{ "c", VOIDLIGHT_MARL, 750 },
-									},
-								}),
-								i(258411, {	-- Traditions of the Haranir: Inscription (CI!)
-									["cost"] = {
-										{ "c", ARTISAN_MOXIE.INSCRIPTION, 150 },
-										{ "c", VOIDLIGHT_MARL, 750 },
-									},
-								}),
 							}, {	-- RENOWN 7 --
 							}, {	-- RENOWN 8 --
 								i(264344, {	-- Cosmic Void Orb (DECOR!)
@@ -168,21 +156,21 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								i(262645, {	-- Beyond the Event Horizon: Alchemy (CI!)
 									["requireSkill"] = ALCHEMY,
 									["cost"] = {
-										{ "c", ARTISAN_MOXIE.ALCHEMY, 150 },
+										{ "c", ARTISAN_MOXIE.ALCHEMY, 75 },
 										{ "c", VOIDLIGHT_MARL, 1500 },
 									},
 								}),
 								i(262644, {	-- Beyond the Event Horizon: Blacksmithing (CI!)
 									["requireSkill"] = BLACKSMITHING,
 									["cost"] = {
-										{ "c", ARTISAN_MOXIE.BLACKSMITHING, 150 },
+										{ "c", ARTISAN_MOXIE.BLACKSMITHING, 75 },
 										{ "c", VOIDLIGHT_MARL, 1500 },
 									},
 								}),
 								i(262646, {	-- Beyond the Event Horizon: Engineering (CI!)
 									["requireSkill"] = ENGINEERING,
 									["cost"] = {
-										{ "c", ARTISAN_MOXIE.ENGINEERING, 150 },
+										{ "c", ARTISAN_MOXIE.ENGINEERING, 75 },
 										{ "c", VOIDLIGHT_MARL, 1500 },
 									},
 								}),
