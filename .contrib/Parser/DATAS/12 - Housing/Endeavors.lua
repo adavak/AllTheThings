@@ -289,8 +289,8 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					i_DecorCoupons(253599, 15),	-- Artisanal Display Tent (DECOR!)
 					-- Reach the fourth milestone of the endeavor
 					i(253802, { -- Deed of Patronage
-						["cost"] = {{ "c", COMMUNITY_COUPONS, 30 }},
-						["description"] = "Once you've purchased this item, you can talk to Hesta Forlath in Midnight Silvermoon City (/att n:252916) to purchase paintings.\n\nYou can safely delete this item."
+						["description"] = "Once you've purchased this item, you can talk to Hesta Forlath in Midnight Silvermoon City (/att n:252916) to purchase paintings.\n\nYou can safely delete this item.",
+						["cost"] = { { "c", COMMUNITY_COUPONS, 30 } },
 					}),
 				},
 			}),
@@ -301,8 +301,8 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 				q(92608, {	-- Landscape Photography
 					["qg"] = 252717, -- Corlen Hordralin
 					["coords"] = {
-						{53.0, 37.2, FOUNDERS_POINT},	-- Founder's Point
-						-- {},	-- Razorwind Shores
+						{ 53.0, 37.2, FOUNDERS_POINT },	-- Founder's Point
+						{ 53.8, 55.6, RAZORWIND_SHORES },	-- Razorwind Shores
 					},
 				}),
 			})),

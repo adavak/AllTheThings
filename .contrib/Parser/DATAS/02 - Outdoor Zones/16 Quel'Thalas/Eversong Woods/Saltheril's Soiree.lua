@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240835 },	-- Knight-Lord Sunguard
 				["coord"] = { 42.4, 46.7, MAP.MIDNIGHT.EVERSONG_WOODS },
-				["maxReputation"] =  { FACTION_BLOOD_KNIGHTS, EXALTED },
+				["maxReputation"] =  { FACTION_BLOOD_KNIGHTS, 6 },	-- Luminary
 				["isWeekly"] = true,
 			}, {
 				q(91979),	-- Chop It Down
@@ -92,7 +92,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240836 },	-- Ranger-Captain Dawnfletch
 				["coord"] = { 42.9, 46.4, MAP.MIDNIGHT.EVERSONG_WOODS },
-				["maxReputation"] =  { FACTION_FARSTRIDERS, EXALTED },
+				["maxReputation"] = { FACTION_FARSTRIDERS, 6 },	-- Luminary
 				["isWeekly"] = true,
 			}, {
 				q(91986, {	-- Put a Little Snap in Their Step
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240834 },	-- Magistrix Bloodflame
 				["coord"] = { 42.6, 46.2, MAP.MIDNIGHT.EVERSONG_WOODS },
-				["maxReputation"] =  { FACTION_MAGISTERS, EXALTED },
+				["maxReputation"] = { FACTION_MAGISTERS, 6 },	-- Luminary
 				["isWeekly"] = true,
 			}, {
 				q(90573),	-- Fortify the Runestones: Magisters
@@ -137,7 +137,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 240837 },	-- Vyrin the Supplier
 				["coord"] = { 42.6, 46.2, MAP.MIDNIGHT.EVERSONG_WOODS },
-				["maxReputation"] =  { FACTION_SHADES_OF_THE_ROW, EXALTED },
+				["maxReputation"] = { FACTION_SHADES_OF_THE_ROW, 6 },	-- Luminary
 				["isWeekly"] = true,
 			}, {
 				q(92002, {	-- Dangerous Showpieces
