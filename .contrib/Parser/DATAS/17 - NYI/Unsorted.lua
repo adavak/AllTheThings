@@ -492,10 +492,6 @@ root(ROOTS.Unsorted, {
 				i(246221),	-- Stolen Belongings
 				i(246374),	-- Juvenile Blood
 				i(246397),	-- Twilight Cultist Robes
-				i(246436),	-- Ogre Tome of Dark Magic
-				i(246437),	-- Ogre Tome of Fighting Techniques
-				i(246439),	-- Void Ashes
-				i(246440),	-- Cultist Femur
 				i(246443),	-- Amani Hatchet
 				i(246729),	-- Fang of Shadra
 				i(247713),	-- Reliquary of Darkness
