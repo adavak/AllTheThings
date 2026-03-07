@@ -6,9 +6,9 @@
 		},
 	},
 	[525952] = {
-		readable = "Enchanted Amani Mask",
+		readable = "Enchanted Sunfire Silk",
 		text = {
-			en = "Enchanted Amani Mask",
+			en = "Enchanted Sunfire Silk",
 		},
 	},
 	[553966] = {
