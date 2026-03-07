@@ -47,7 +47,7 @@
 			ru = "Светящийся мотылек",
 			ko = "빛나는 나방",
 			cn = "发光的飞蛾",
-			tw = "[Glowing Moth]",
+			tw = "發光蛾",
 		},
 	},
 	[571167] = {
@@ -79,7 +79,7 @@
 			it = "Falena Luminosa",
 			pt = "Mariposa Brilhante",
 			ru = "Светящийся мотылек",
-			ko = "[Glowing Moth]",
+			ko = "빛나는 나방",
 			cn = "发光的飞蛾",
 			tw = "發光蛾",
 		},
@@ -192,6 +192,15 @@
 		text = {
 			en = "Glowing Moth",
 			es = "Polilla resplandeciente",
+			mx = "Polilla brillante",
+			de = "Leuchtende Motte",
+			fr = "Phalène luminescent",
+			it = "Falena Luminosa",
+			pt = "Mariposa Brilhante",
+			ru = "Светящийся мотылек",
+			ko = "빛나는 나방",
+			cn = "发光的飞蛾",
+			tw = "發光蛾",
 		},
 	},
 })
