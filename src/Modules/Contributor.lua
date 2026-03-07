@@ -2683,6 +2683,7 @@ MobileDB.GameObject = {
 	[543115] = true,	-- Funny Candle
 	[543116] = true,	-- Funny Candle
 	[543723] = true,	-- Dornic Fir Lumber
+	[540505] = true,	-- Patient Treasure
 	[544167] = true,	-- Grappling Hook Rope (q:87398)
 	[544781] = true,	-- Dornic Fir Lumber
 	[546728] = true,	-- Legacy Stone of True Calling (q:90960)
