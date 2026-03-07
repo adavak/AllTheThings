@@ -2803,6 +2803,7 @@ MobileDB.GameObject = {
 	[574619] = true,	-- Rich Loamy Soil (wq:92086)
 	[574731] = true,	-- Ironwood Lumber
 	[574913] = true,	-- Ironwood Lumber
+	[574925] = true,	-- Mislaid Curiosity
 	[574938] = true,	-- Ironwood Lumber
 	[574966] = true,	-- Ironwood Lumber
 	[575031] = true,	-- Ironwood Lumber
