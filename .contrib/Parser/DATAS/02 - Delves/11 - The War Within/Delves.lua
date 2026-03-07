@@ -1672,8 +1672,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(242850, {	-- Ancient Curio (QS!)
 				["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			}),
-			--
+			-- #if BEFORE 12.0.1
 			currency(2803),	-- Undercoin
+			-- #endif
 		}),
 		filter(RECIPES, {
 			i(223085),	-- Design: Fractured Gemstone Locket (RECIPE!)

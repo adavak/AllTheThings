@@ -110,8 +110,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 		filter(CONSUMABLES, {
 		}),
 		filter(MISC, {
-			-- Currency
-			--currency(),	-- ??
 			-- Display (reward) only (not actually an item
 			--TODO: move it into Season 1 file, if needed
 			i(254250),	-- Bountiful Coffer
@@ -124,6 +122,9 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(265714),	-- Trovehunter's Bounty
 			-- Items and different things
 			i(262586),	-- Primeval Arcane Remnant (QI!/QS!)
+			-- #if BEFORE TLT
+			currency(2803),	-- Undercoin
+			-- #endif
 		}),
 		filter(RECIPES, {
 			i(259366),	-- Design: Replica Haranir Mural (RECIPE!)
