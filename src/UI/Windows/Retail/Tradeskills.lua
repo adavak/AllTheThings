@@ -483,8 +483,9 @@ app:CreateWindow("Tradeskills", {
 						end
 					end
 					app.TradeskillTab:SetCustomOnMouseUpHandler(toggleProfTab)
-					self:Show()	-- Show, then toggle, to set the icon
-					toggleProfTab()
+					app.TradeskillTab:SetChecked(false)
+					app.TradeskillTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
+					app.TradeskillTab.Icon:SetSize(24, 24)
 				end
 			else
 				self:SetMovable(false);

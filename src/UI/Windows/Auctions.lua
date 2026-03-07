@@ -341,8 +341,9 @@ app:CreateWindow("Auctions", {
 						end
 					end
 					app.AuctionHouseTab:SetCustomOnMouseUpHandler(toggleAHTab)
-					self:Show()	-- Show, then toggle, to set the icon
-					toggleAHTab()
+					app.AuctionHouseTab:SetChecked(false)
+					app.AuctionHouseTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
+					app.AuctionHouseTab.Icon:SetSize(24, 24)
 				end
 			else
 				self:Hide();
