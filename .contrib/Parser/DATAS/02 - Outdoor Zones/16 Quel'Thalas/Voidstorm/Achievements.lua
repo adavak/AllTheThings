@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 54.9, 45.6, MAP.MIDNIGHT.VOIDSTORM },
 			})),
 			skyriding(ach(61564, {	-- Skyriding Glyphs: Hanaar Outpost
-				--["coord"] = { X, Y, MAP.MIDNIGHT.VOIDSTORM },
+				["coord"] = { 36.2, 45, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 			})),
 			skyriding(ach(61562, {	-- Skyriding Glyphs: Masters' Perch
 				["coord"] = { 45.3, 52.3, MAP.MIDNIGHT.VOIDSTORM },
