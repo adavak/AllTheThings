@@ -160,9 +160,62 @@ end
 
 local RIDERS_OF_AZEROTH_BADGE = 2588;
 
+-- TODO: I would like this file de-duplicated using common vendors with crs, but vendor items disappear when learned so
+-- would have to cross-reference wowhead i guess to figure out how to properly organize the items
+local VENDOR = {
+	MAZTHA = 206744,
+	DATHENDRASH = 212027,
+}
+
 root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT, {
 	["timeline"] = { ADDED_10_1_5 },
 	["groups"] = {
+		--[[
+		-- 11.2 - EK Cup
+		n(COMMON_VENDOR_ITEMS, sharedData({
+			["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+			["timeline"] = { ADDED_11_2_0 },
+			["crs"] = {
+				VENDOR.MAZTHA,
+				VENDOR.DATHENDRASH,
+			},
+		},{
+			i(249560, {	-- Skymaster's Silver Mantle
+			}),
+			i(249561, {	-- Skymaster's Silver Cloak
+			}),
+			i(249562, {	-- Skymaster's Silver Tabard
+				["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+			}),
+			i(249563, {	-- Skymaster's Sapphire Crown
+			}),
+			i(249564, {	-- Skymaster's Sapphire Shoulderguards
+			}),
+			i(249565, {	-- Skymaster's Sapphire Epaulets
+			}),
+		})),
+		-- 12.0.1 - Outland Cup
+		n(COMMON_VENDOR_ITEMS, sharedData({
+			["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+			["timeline"] = { ADDED_12_0_1 },
+			["crs"] = {
+				VENDOR.MAZTHA,
+				VENDOR.DATHENDRASH,
+			},
+		},{
+			i(263503, {	-- Skymaster's Blood Circlet
+			}),
+			i(263501, {	-- Skymaster's Blood Cloak
+			}),
+			i(263500, {	-- Skymaster's Blood Mantle
+			}),
+			i(263504, {	-- Skymaster's Blood Pauldrons
+			}),
+			i(263502, {	-- Skymaster's Blood Tabard
+				["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+			}),
+		})),
+		--]]
 		applyevent(EVENTS.EASTERN_KINGDOMS_CUP, n(EASTERN_KINGDOMS_CUP_HEADER, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {	-- Eastern Kingdom Cup
 			n(ACHIEVEMENTS, {
 				ach(18566, {	-- Eastern Kingdoms: Bronze
