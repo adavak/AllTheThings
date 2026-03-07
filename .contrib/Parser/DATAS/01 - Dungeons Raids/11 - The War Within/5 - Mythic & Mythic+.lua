@@ -326,7 +326,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					197711,	-- Lindormi
 					197915,	-- Lindormi
 				},
-				["coord"] = { 53.9, 39.0, DORNOGAL },
+				["coords"] = {
+					{ 53.9, 39.0, DORNOGAL },
+					-- #if AFTER MID
+					{ 42.1, 58.8, SILVERMOON_CITY },
+					-- #endif
+				},
 				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				["isYearly"] = true,	-- can be completed once per season
 			}),

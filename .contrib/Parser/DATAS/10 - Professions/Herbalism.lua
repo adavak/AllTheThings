@@ -1612,7 +1612,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		}),]]--
 		n(TREASURES, {
 			o(525974, {	-- A Spade
-				["coord"] = { 64.2, 30.5, MAP.MIDNIGHT.HARANDAR },
+				["coord"] = { 64.2, 30.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 89158,
 				["groups"] = { i(238472) },	-- A Spade
 			}),

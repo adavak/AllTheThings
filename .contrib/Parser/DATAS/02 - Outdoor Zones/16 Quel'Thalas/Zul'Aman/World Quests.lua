@@ -23,7 +23,23 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 42.2, 47.8, MAP.MIDNIGHT.ZULAMAN },
 					["groups"] = {
 						o(574830, {	-- Heartwisp Shrub
-							i(252370),	-- Heartwisp Frond (QI!)
+							["coords"] = {
+								{ 37.8, 49.6, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.3, 48.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.6, 49.3, MAP.MIDNIGHT.ZULAMAN },
+								{ 38.9, 44.6, MAP.MIDNIGHT.ZULAMAN },
+								{ 39.1, 50.1, MAP.MIDNIGHT.ZULAMAN },
+								{ 39.4, 45.6, MAP.MIDNIGHT.ZULAMAN },
+								{ 39.8, 44.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 40.2, 48.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 40.3, 45.2, MAP.MIDNIGHT.ZULAMAN },
+								{ 40.4, 49.0, MAP.MIDNIGHT.ZULAMAN },
+								{ 40.7, 47.0, MAP.MIDNIGHT.ZULAMAN },
+								{ 41.1, 48.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 41.3, 49.5, MAP.MIDNIGHT.ZULAMAN },
+								{ 41.6, 47.5, MAP.MIDNIGHT.ZULAMAN },
+							},
+							["groups"] = { i(252370) },	-- Heartwisp Frond (QI!)
 						}),
 					},
 				}),
@@ -51,7 +67,21 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 48.3, 63.5, MAP.MIDNIGHT.ZULAMAN },
 					["groups"] = {
 						o(574750, {	-- Stolen Supplies
-							i(249498),	-- Stolen Supplies (QI!)
+							["coords"] = {
+								{ 48.6, 64.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 48.7, 66.1, MAP.MIDNIGHT.ZULAMAN },
+								{ 49.5, 66.2, MAP.MIDNIGHT.ZULAMAN },
+								{ 49.8, 63.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 50.5, 64.5, MAP.MIDNIGHT.ZULAMAN },
+								{ 51.4, 63.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 51.4, 65.7, MAP.MIDNIGHT.ZULAMAN },
+								{ 51.9, 64.7, MAP.MIDNIGHT.ZULAMAN },
+								{ 52.0, 65.5, MAP.MIDNIGHT.ZULAMAN },
+								{ 52.7, 63.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 53.1, 64.8, MAP.MIDNIGHT.ZULAMAN },
+								{ 53.9, 66.3, MAP.MIDNIGHT.ZULAMAN },
+							},
+							["groups"] = { i(249498) },	-- Stolen Supplies (QI!)
 						}),
 					},
 				}),

@@ -1947,9 +1947,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(95519, 248741),	-- Skinning Rhazul
 			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
 			FirstSkin(95518, 250180),	-- Skinning Serrasa
+			FirstSkin(95470, 242031),	-- Skinning Spinefrill
 			FirstSkin(95446, 250876),	-- Skinning Terrinor
 			FirstSkin(93637, 242033),	-- Skinning Tiny Vermin
 			FirstSkin(93639, 238498),	-- Skinning Territorial Voidscythe
+			FirstSkin(93635, 245691),	-- Skinning The Decaying Diamondback
 			FirstSkin(95471, 242035),	-- Skinning The Devouring Invader
 			FirstSkin(93636, 242024),	-- Skinning The Snapping Scourge
 		})),
@@ -1962,6 +1964,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(238529),	-- Majestic Hide
 			i(238627),	-- Manafused Sample
 			i(238626),	-- Mana-Infused Bone
+			i(238522),	-- Peerless Plumage
 			i(238518),	-- Void-Tempered Hide+
 			i(238519),	-- Void-Tempered Hide++
 			i(238511),	-- Void-Tempered Leather+

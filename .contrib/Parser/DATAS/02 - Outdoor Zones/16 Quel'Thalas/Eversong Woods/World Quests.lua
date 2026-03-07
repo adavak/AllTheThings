@@ -71,7 +71,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(92120, {	-- To Understand Magic
 					["coord"] = { 35.0, 59.9, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
-						i(255842),	-- Training Rod of Polymorph (QI!)
+						o(551390, {	-- Training Rod of Polymorph
+							i(255842),	-- Training Rod of Polymorph (QI!)
+						}),
 						o(613517, {	-- Tome of Polymorph
 							i(258965),	-- Tome of Polymorph (QI!)
 						}),

@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(262578, {	-- Amani Stonework Chisel
 								["cost"] = {{ "c", UNALLOYED_ABUNDANCE, 800 }},
 							}),
-							i(266970, {	-- Ensemble: Abundant Raiment
+							iensemble(266970, {	-- Ensemble: Abundant Raiment
 								["cost"] = {{ "c", UNALLOYED_ABUNDANCE, 3200 }},
 							}),
 						}),
@@ -228,7 +228,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(91475),	-- Abundance: Abundant Voidburrow
 
 				q(88770),	-- Popped after entering Loaknit Den
-				q(87350),	-- Abundance. Loaknit Den
+				q(87350),	-- Abundance: Loaknit Den
 				q(94426),	-- Popped after Loaknit Den
 
 				q(91432),	-- Popped after entering Wath'nan Crypts

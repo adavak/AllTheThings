@@ -106,6 +106,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(257013),	-- Viridescent Crusher
 		}),
 		--
+		i(264274, {	-- Fabled Adventurer's Cache
+			["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
+		}),
 		i(260193, {	-- Fabled Veteran's Cache
 			["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
 			--["groups"] = {

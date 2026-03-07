@@ -1177,12 +1177,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(91412, {	-- Return of the Venom Queen
 						["sourceQuests"] = { 91411 },	-- Maisara Caverns: Deep in Maisara
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 38.7, 22.7, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 43.3, 71.7, 2583 },	-- Wit'Kalar Crypt
 					}),
 					q(91410, {	-- Shared Loa
 						["sourceQuests"] = { 91412 },	-- Return of the Venom Queen
 						["provider"] = { "n", 247254 },	-- Mixer Jamanga
-						["coord"] = { 38.7, 22.7, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 43.3, 71.7, 2583 },	-- Wit'Kalar Crypt
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.14, {	-- Beyond the Walls
@@ -1264,21 +1264,29 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91836, {	-- Respect de Totem
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91835 },	-- Send Dem Home
+						["qg"] = 248838,	-- Dak'zor
+						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = { i(254430) },	-- Totem Remnant (QI!)
 					}),
 					q(91838, {	-- De Vile Diminished
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91836 },	-- Respect de Totem
+						["qg"] = 248787,	-- Tan'zin
+						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(91840, {	-- One Will Not Rise
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91838 },	-- De Vile Diminished
+						["qg"] = 248787,	-- Tan'zin
+						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(254778),	-- Altered Totem (QI!)
 							i(250190),	-- Knife Priestess Hezzia's Head (QI!)
 						},
 					}),
 					q(91839, {	-- Sacrifice Denied
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91840 },	-- One Will Not Rise
+						["qg"] = 248838,	-- Dak'zor
+						["coord"] = { 38.5, 22.3, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(264665),	-- Defiant Loa Platebody
 							i(264664),	-- Hexbreaker Chain Hauberk

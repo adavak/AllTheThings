@@ -316,13 +316,18 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 		hqt(92808, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 59
 		--hqt(92809, {["timeline"] = { ADDED_12_0_X_SEASONSTART }}),	-- Level 60 (automated?)
 	}),
+	n(MAILBOX, {
+		i(258738, {	-- A Cordial Invitation (QS!)
+			["description"] = "Mailed to you after your first death in a delve.",
+		}),
+	}),
 	n(QUESTS, {
 		q(93784, {	-- A Gnawing Void of Curiosity
 			["provider"] = { "i", 262586 },	-- Primeval Arcane Remnant (QI!/QS!)
 			["isWeekly"] = true,
 		}),
 		q(93453, {	-- A Grave Concern
-
+			["provider"] = { "i", 258738 },	-- A Cordial Invitation (QI!/QS!)
 		}),
 	}),
 	n(RARES, {

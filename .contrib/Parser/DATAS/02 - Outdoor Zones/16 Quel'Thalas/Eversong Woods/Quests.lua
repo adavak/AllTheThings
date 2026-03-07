@@ -985,8 +985,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["lvl"] = 90,
 					}),
 					q(90547, {	-- Missing Paladins
-						--["provider"] = { "n", 242803 },	-- Taelia Fordragon
-						--["coord"] = { 53.2, 69.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["provider"] = { "n", 242802 },	-- Salandria
+						["coord"] = { 53.2, 69.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["races"] = HORDE_ONLY,
 						["lvl"] = 90,
 					}),

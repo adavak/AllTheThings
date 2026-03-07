@@ -415,6 +415,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			filter(MISC, {
 				i(262928),	-- Preyseeker's Adventurer Sack
 				i(262938),	-- Preyseeker's Champion Sack
+				i(269005),	-- Preyseeker's Glinting Coin Pouch
 				i(262936),	-- Preyseeker's Veteran Sack
 				i(255825),	-- Disarmed Trap
 			}),

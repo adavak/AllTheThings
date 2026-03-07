@@ -55,7 +55,6 @@ root(ROOTS.Unsorted, {
 				i(269704),	-- Victorious Stormarion Cache
 
 				-- prey
-				i(269005),	-- Preyseeker's Glinting Coin Pouch
 				i(269006),	-- Preyseeker's Gleaming Coin Pouch
 				i(269007),	-- Preyseeker's Glittering Coin Pouch
 			}),
@@ -128,8 +127,6 @@ root(ROOTS.Unsorted, {
 				i(251920),	-- Inscribe: Rot
 				i(251921),	-- Inscribe: Hunt
 				i(251922),	-- Inscribe: Void
-				-- Prof ENgi
-				i(253849),	--
 					-- Engi
 				i(257733),	-- M0LL1, Atomic Anomaly
 				i(257734),	-- M0LL1, Atomic Anomaly
@@ -262,7 +259,6 @@ root(ROOTS.Unsorted, {
 					i(245813),	-- Transcribe: Void
 				}),
 				prof(SKINNING, {
-					i(238522),	-- Peerless Plumage
 					i(238531),	-- Radiant Stomach
 
 
@@ -412,7 +408,6 @@ root(ROOTS.Unsorted, {
 				i(263465),	-- Surplus Bag of Party Favors
 				i(263466),	-- Overflowing Abundant Satchel
 				i(263468),	-- Stormarion Spoils
-				i(264274),	-- Fabled Adventurer's Cache
 				i(264972),	-- Voidstorm Victuals
 				i(264988),	-- Endgame Essentials
 				i(265790),	-- Cache of Dawncrests
@@ -524,7 +519,6 @@ root(ROOTS.Unsorted, {
 				i(249472),	-- Fragrant Bloodthistle
 				i(249517),	-- Smuggled Goods
 				i(249527),	-- Elder Painting
-				i(249541),	-- Naga Fang
 				i(249543),	-- Special Remedy
 				i(249553),	-- Lost Mirror
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
@@ -547,12 +541,9 @@ root(ROOTS.Unsorted, {
 				i(258329),	-- Carrion Essence
 				i(258572),	-- Crystal Essence
 				i(258573),	-- Plant Dye
-				i(258738),	-- A Cordial Invitation
 				i(260368),	-- Dirt
 				i(263471),	-- Fire Thing
 				i(264009),	-- S.O.S in a Bottle
-				i(264191),	-- Ziadan's Stolen Battleplans
-				i(264192),	-- Vidious' Stolen Battleplans
 				i(264357),	-- Void-Ridden Crab Meat
 				i(265655),	-- Ritual Components
 				i(265710),	-- Elementary Voidcore
@@ -1079,9 +1070,6 @@ root(ROOTS.Unsorted, {
 				i(264970),	-- Oblivion's Edge
 				i(264971),	-- Annihilation Rod
 				i(265072),	-- Amani Fangstitch Quiver
-				i(265363),	-- Twilight Shadowguard's Hatchet
-				i(265364),	-- Twilight Infiltrator's Blade
-				i(265365),	-- Twilight Duskwhisper Dagger
 				i(265366),	-- Twilight Executioner
 				i(265368),	-- Twilight Destroyer
 				i(266077),	-- Basic Black Quiver

@@ -161,11 +161,6 @@ i(89427);	-- Ancient Mogu Treasure
 i(85224);	-- Basic Seed Pack
 i(140360);	-- Rockwurm Barb
 i(153119);	-- Wyrmtongue Cache of Finery
-i(265049);	-- Drifting Conch Whistle
-i(260695);	-- Rancid Aquatic Remains
-i(260674);	-- Fine Arcane Dust
-i(265055);	-- Torn Dimensional Wrap
-i(265053);	-- Gnarled Bark Shard
 -------------------------------------------------------------------- NOT SORTED --------------------------------------------------------------------
 -----------------
 -- PATCH 3.0.2 --
@@ -2664,6 +2659,7 @@ i(260274);	-- Denshroom Deep Roast
 i(265043);	-- Dented Voidblade Pommel
 i(260647);	-- Digested Human Hand
 i(264989);	-- Dragonhawk Flight
+i(265049);	-- Drifting Conch Whistle
 i(260666);	-- Earthy Mushroom
 i(260650);	-- Elemental Debris
 i(220262);	-- Elongated Proboscis
@@ -2674,6 +2670,7 @@ i(263518);	-- Expensive-Looking Find
 i(260285);	-- Extract of Lightbloom
 i(260262);	-- Fairbreeze Feast
 i(260672);	-- Fetid Eye
+i(260674);	-- Fine Arcane Dust
 i(260689);	-- Fine Bioluminescent Powder
 i(260683);	-- Fine Magenta Sand
 i(260638);	-- Fine Void Residue
@@ -2689,6 +2686,7 @@ i(260690);	-- Gloomy Root
 i(260646);	-- Glowing Gland
 i(254874);	-- Glowing Moth Dust
 i(260661);	-- Glowing Shrub
+i(265053);	-- Gnarled Bark Shard
 i(264995);	-- Goldenbough Preserves
 i(264981);	-- Goldengrove Juice
 i(264973);	-- Goldenmist Gouda
@@ -2742,8 +2740,10 @@ i(260295);	-- Purified Storm Water
 i(260660);	-- Putrid Mushroom Spores
 i(260264);	-- Quel'Danas Rations
 i(260290);	-- Quel'Thalas Cheese
+i(260695);	-- Rancid Aquatic Remains
 i(242638);	-- Recycle Flasks
 i(242637);	-- Recycle Potions
+i(253849);	-- Recycling
 i(260282);	-- Refreshing Ahl'ua Water
 i(260289);	-- Ren'dorei Rations
 i(260299);	-- Roasted Abyssal Eel
@@ -2784,8 +2784,9 @@ i(265042);	-- Tarnished Shadow Torque
 i(260648);	-- Tattered Clothes
 i(260273);	-- Tea of Mists and Rain
 i(260309);	-- Thrumming Plant Matter
-i(238944);	-- Torn Material
 i(238479);	-- Torn Caster's Net
+i(265055);	-- Torn Dimensional Wrap
+i(238944);	-- Torn Material
 i(260614);	-- Unrecognizable Organ
 i(260676);	-- Unremarkable Crystal
 i(260649);	-- Vibrant Vortex

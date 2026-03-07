@@ -388,7 +388,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 						91823,	-- Lines Cut, Tongues Silenced
 						91824,	-- The Thieves' Trail
 					},
-					["provider"] = { "n", 248874 },	-- Valeera Sanguinar
+					["qgs"] = {
+						248750,	-- Valeera Sanguinar
+						248874,	-- Valeera Sanguinar
+					},
 					["coord"] = { 61.9, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
 						o(566101, {	-- Unlocked Strongbox

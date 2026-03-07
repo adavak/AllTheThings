@@ -206,8 +206,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			o(583965, {	-- Maisara Vilevessel
 				["coords"] = {
+					{ 34.4, 38.3, MAP.MIDNIGHT.ZULAMAN },
+					{ 41.9, 39.6, MAP.MIDNIGHT.ZULAMAN },
+					{ 44.8, 39.0, MAP.MIDNIGHT.ZULAMAN },
+					{ 44.9, 41.4, MAP.MIDNIGHT.ZULAMAN },
+					{ 45.3, 38.1, MAP.MIDNIGHT.ZULAMAN },
+					{ 46.6, 37.4, MAP.MIDNIGHT.ZULAMAN },
+					{ 46.7, 40.1, MAP.MIDNIGHT.ZULAMAN },
 					{ 47.8, 46.1, MAP.MIDNIGHT.ZULAMAN },
 					{ 48.0, 48.6, MAP.MIDNIGHT.ZULAMAN },
+					{ 48.0, 50.4, MAP.MIDNIGHT.ZULAMAN },
+					{ 49.0, 46.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			o(587913, {	-- Shabby Stockpile
