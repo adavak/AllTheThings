@@ -1891,6 +1891,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r(1225366),	-- Umbral Tin Seam
 			r(1225370),	-- Voidbound Umbral Tin
 			r(1225368),	-- Wild Umbral Tin
+			-- Appendix II - Overload
+			r(1225818),	-- Overload Lightfused Deposits
+			r(1225392),	-- Overload Infused Deposit
+			r(1225817),	-- Overload Primal Deposits
+			r(1225820),	-- Overload Voidbound Deposits
+			r(1225819),	-- Overload Wild Deposits
 		}),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = MINING,

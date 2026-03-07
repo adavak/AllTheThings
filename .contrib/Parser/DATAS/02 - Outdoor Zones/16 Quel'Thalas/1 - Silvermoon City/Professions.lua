@@ -438,13 +438,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 			}),
-			--[[
 			prof(MINING, {
-				n(219097, {	-- Tarib <Mining Trainer>
-					["coord"] = { 52.6, 52.6, DORNOGAL },
-					["groups"] = TWW_MINING,
+				n(241455, {	-- Belil <Mining Trainer>
+					["coord"] = { 42.6, 52.9, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["groups"] = MID_MINING,
 				}),
 			}),
+			--[[
 			prof(SKINNING, {
 				n(219083, {	-- Ginnad <Skinning Trainer>
 					["coord"] = { 54.3, 57.4, DORNOGAL },
