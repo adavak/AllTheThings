@@ -488,18 +488,18 @@ app:CreateWindow("Tradeskills", {
 					app.TradeskillTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
 					app.TradeskillTab.Icon:SetSize(24, 24)
 
-					-- if not app.CreatedTabTradeskill then
-					-- 	ProfessionsFrame:HookScript("OnHide", function()
-					-- 		ProfessionsFrameTabSideBar:ClearAllPoints()
-					-- 		ProfessionsFrameTabSideBar:SetPoint("TOPLEFT", ProfessionsFrame, "TOPRIGHT")
-					-- 		ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
-					-- 		ProfessionsFrameTabSideBar.selTab = 0
-					-- 		app.TradeskillTab:SetChecked(false)
-					-- 		self:Hide()
-					-- 	end)
+					if not app.CreatedTabTradeskill then
+						ProfessionsFrame:HookScript("OnHide", function()
+							-- ProfessionsFrameTabSideBar:ClearAllPoints()
+							-- ProfessionsFrameTabSideBar:SetPoint("TOPLEFT", ProfessionsFrame, "TOPRIGHT")
+							-- ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
+							ProfessionsFrameTabSideBar.selTab = 0
+							app.TradeskillTab:SetChecked(false)
+							self:Hide()
+						end)
 
-					-- 	app.CreatedTabTradeskill = true
-					-- end
+						app.CreatedTabTradeskill = true
+					end
 				end
 			else
 				self:SetMovable(false);

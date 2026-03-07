@@ -346,18 +346,18 @@ app:CreateWindow("Auctions", {
 					app.AuctionHouseTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
 					app.AuctionHouseTab.Icon:SetSize(24, 24)
 
-					-- if not app.CreatedTabAuction then
-					-- 	AuctionHouseFrame:HookScript("OnHide", function()
-					-- 		AuctionHouseFrameTabSideBar:ClearAllPoints()
-					-- 		AuctionHouseFrameTabSideBar:SetPoint("TOPLEFT", AuctionHouseFrame, "TOPRIGHT")
-					-- 		AuctionHouseFrameTabSideBar:SetPoint("BOTTOMLEFT", AuctionHouseFrame, "BOTTOMRIGHT")
-					-- 		AuctionHouseFrameTabSideBar.selTab = 0
-					-- 		app.AuctionHouseTab:SetChecked(false)
-					-- 		self:Hide()
-					-- 	end)
+					if not app.CreatedTabAuction then
+						AuctionHouseFrame:HookScript("OnHide", function()
+							-- AuctionHouseFrameTabSideBar:ClearAllPoints()
+							-- AuctionHouseFrameTabSideBar:SetPoint("TOPLEFT", AuctionHouseFrame, "TOPRIGHT")
+							-- AuctionHouseFrameTabSideBar:SetPoint("BOTTOMLEFT", AuctionHouseFrame, "BOTTOMRIGHT")
+							AuctionHouseFrameTabSideBar.selTab = 0
+							app.AuctionHouseTab:SetChecked(false)
+							self:Hide()
+						end)
 
-					-- 	app.CreatedTabAuction = true
-					-- end
+						app.CreatedTabAuction = true
+					end
 				end
 			else
 				self:Hide();
