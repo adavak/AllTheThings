@@ -997,9 +997,6 @@ root(ROOTS.Unsorted, {
 				i(260763),	-- Lil' Tan Popper
 				i(260764),	-- Lil' Green Popper
 				i(260765),	-- Lil' Red Popper
-				i(260901),	-- Lost Stave of Burrowing Contortion
-				i(260902),	-- Lost Sunset Scepter
-				i(260903),	-- Lost Sunwell Splitter
 				i(260904),	-- Lost Soul Collector
 				i(260905),	-- Lost Blade of Spacial Descent
 				i(260907),	-- Lost Winter's Hunger

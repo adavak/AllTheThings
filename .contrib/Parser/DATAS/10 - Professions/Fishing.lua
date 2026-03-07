@@ -890,5 +890,11 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["groups"] = { i(264002) },	-- Midnight Fisher's Shop Sign (DECOR!)
 			}),
 		}),
+		n(TREASURES, {
+			o(540505, {	-- Patient Treasure
+				["description"] =  "Has a chance to spawn nearby while fishing.",
+				["maps"] = { MAP.MIDNIGHT.QUELTHALAS },
+			}),
+		}),
 	})),
 })));
