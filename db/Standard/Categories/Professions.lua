@@ -3543,6 +3543,10 @@ i(263464,{b=1,isWeekly=1,requireSkill=333,spellID=1270532,g={
 cu(3152,{requireSkill=333})}}),
 q(95129,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245759}},requireSkill=333,g={
 cu(3152,{requireSkill=333})}}),
+q(93533,{isWeekly=1,providers={{"i",259193}},requireSkill=333,g={
+cu(3152,{requireSkill=333})}}),
+q(93532,{isWeekly=1,providers={{"i",259192}},requireSkill=333,g={
+cu(3152,{requireSkill=333})}}),
 q(95048,{description="Rewarded when disenchanting items.",isWeekly=1,providers={{"i",267654}},requireSkill=333,g={
 cu(3152,{requireSkill=333})}}),
 q(95049,{description="Rewarded when disenchanting items.",isWeekly=1,providers={{"i",267654}},requireSkill=333,g={
@@ -4595,7 +4599,9 @@ i(225768,{f=55,requireSkill=356,spellID=456068})}})}}),
 x(12,{awp=120001,requireSkill=356,g={
 h(-12,{requireSkill=356,g={
 ach(42797,{cost={{"i",254875,2}},requireSkill=356,g={
-de(15407,{itemID=264002,requireSkill=356,spellID=1271033})}})}})}})}),
+de(15407,{itemID=264002,requireSkill=356,spellID=1271033})}})}}),
+h(-56,{requireSkill=356,g={
+o(540505,{description="Has a chance to spawn nearby while fishing.",maps={2537},requireSkill=356})}})}})}),
 prof(182,{
 h(-26,{awp=30002,requireSkill=182,rwp=60002,u=2,g={
 r(81708,{awp=40003,rank=1,requireSkill=182,u=2}),
@@ -4976,7 +4982,7 @@ q(93703,{coords={
 i(263462,{b=1,requireSkill=182,spellID=1270534})}})}}),
 h(-56,{requireSkill=182,g={
 o(525974,{coords={
-[2413]={{64.2,30.5}}},questID=89158,requireSkill=182,g={
+[2395]={{64.2,30.5}}},questID=89158,requireSkill=182,g={
 i(238472,{b=1,requireSkill=182,spellID=1225358})}}),
 o(525970,{coords={
 [2413]={{38.3,67}}},questID=89162,requireSkill=182,g={
@@ -5027,7 +5033,7 @@ crit(61609,{achID=18859,id=2,providers={{"n",209635}},r=2}),
 crit(61611,{achID=18859,id=4,providers={{"n",209637}},r=2}),
 crit(61610,{achID=18859,id=3,providers={{"n",209636}},r=2}),
 crit(61613,{achID=18859,id=6,providers={{"n",209639}},r=2})}}),
-ach(18724,{providers={{"i",226036},{"i",232935},{"i",232936},{"i",232937},{"i",244147},{"i",244148},{"i",244149}},questID=39695,requireSkill=773}),
+ach(18724,{requireSkill=773,sourceQuests={39695}}),
 ach(18879,{providers={{"s",419575}},requireSkill=773}),
 ach(18878,{providers={{"s",419575}},requireSkill=773}),
 ach(18877,{providers={{"s",419575}},requireSkill=773}),
@@ -8124,5 +8130,7 @@ h(-246,{requireSkill=197,g={
 i(263460,{b=1,isWeekly=1,requireSkill=197,spellID=1270540,g={
 cu(3160,{requireSkill=197})}}),
 q(95137,{description="Requires a crafting order from Inscription.",isWeekly=1,providers={{"i",245756}},requireSkill=197,g={
+cu(3160,{requireSkill=197})}}),
+q(93543,{isWeekly=1,providers={{"i",259203}},requireSkill=197,g={
 cu(3160,{requireSkill=197})}})}})}})})}});
 end);

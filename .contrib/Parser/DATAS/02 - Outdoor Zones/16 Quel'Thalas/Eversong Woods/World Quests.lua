@@ -86,6 +86,21 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(92145, {	-- Special Assignment: The Grand Magister's Drink
 					["coord"] = { 40.7, 61.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
+						ach(62187, {	-- Grand Magister's Sommelier
+						--TODO: automation lead into weird npcIDs, proper in order list as in criteria list for achievement in-game
+						-- Heron Skygaze 249861 @ 39.3, 60.2
+						-- Innkeeper Areyn 249879 @ 39.3, 61.4
+						-- Kyrenna 251409 @ 40.7, 59.5
+						-- Lady Marilin 252649 @ 40.3, 61.2
+						-- Landraelanis 251406 @ 41.5, 61.3
+						-- Limien Bountcask 249426 @ 40.7, 60.1
+						-- Magister Duskwither 249862 @ 38.3, 58.4
+						-- Nara Fadebranch 249437 @ 39.6, 60.6
+						-- Quarelestra 251408 @ 39.8, 60.9
+						-- Sheri 251405 @ 40.8, 60.5
+						-- Vehn Sorrelstride 249436 @ 39.3, 61.1
+						-- Zalene Firstlight 249882 @ 40.3, 61.5
+						}),
 						i(254373),	-- Areyn's Elrendar Red
 						i(254387),	-- Duskwither's Dancing Merlot
 						i(253521),	-- Heron's Vision of Cloudwalking

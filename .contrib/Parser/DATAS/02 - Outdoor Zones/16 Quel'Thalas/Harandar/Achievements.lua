@@ -6,9 +6,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.HARANDAR, {
 		n(ACHIEVEMENTS, {
 			ach(61917),	-- "Hold aggro, I got this"
-			ach(61344, {	-- Chronicler of the Haranir
-				title(680),	-- <Name>, Chronicler of the Haranir
-			}),
 			ach(61052, {	-- Dust 'Em Off
 				title(754),	-- Dustlord <Name>
 			}),
@@ -34,10 +31,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(61264, {	-- Leaf None Behind
 				i(264266),	-- Lightbloom Moss Mound (DECOR!)
 			}),
-			ach(61574, {	-- Legends Never Die
-				i(264259),	-- On'ohia's Call (DECOR!)
-			}),
-			ach(61219),	-- No Time to Paws
 			ach(41804),	-- One Does Not Simply Walk Into Harandar
 			skyriding(ach(61547, {	-- Skyriding Glyphs: Blooming Lattice
 				["coord"] = { 54.6, 35.6, MAP.MIDNIGHT.HARANDAR },
@@ -68,7 +61,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			})),
 			ach(61739),	-- Sojourner of Harandar
 			ach(62260),	-- That's Aln, Folks!
-			ach(42278),	-- The Empty Cradle
 			ach(61263, {	-- Treasures of Harandar
 				i(263579),	-- Vivacious Chloroceros (MOUNT!)
 			}),

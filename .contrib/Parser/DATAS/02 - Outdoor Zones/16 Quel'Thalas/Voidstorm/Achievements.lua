@@ -5,12 +5,8 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.VOIDSTORM, {
 		n(ACHIEVEMENTS, {
-			ach(61913),	-- A Singular Problem
-			ach(61912),	-- Anchoring the Defense
 			ach(41806),	-- Breaching the Voidstorm
 			ach(61857),	-- Explore Voidstorm
-			ach(62105),	-- Lysikas Would Be Proud
-			ach(61922),	-- Ninety Percent is Good Enough
 			ach(61861),	-- Oh, No You Don't!
 			skyriding(ach(61563, {	-- Skyriding Glyphs: Ethereum Refinery
 				["coord"] = { 38.9, 76.1, MAP.MIDNIGHT.VOIDSTORM },

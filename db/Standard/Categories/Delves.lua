@@ -2216,7 +2216,8 @@ ach(61707),
 ach(61708),
 ach(61709),
 ach(61710),
-ach(61906),
+ach(61906,{
+mnt(1261349,{itemID=257199})}),
 ach(61720),
 ach(61721,{
 i(264882,{f=55})}),
@@ -2435,9 +2436,11 @@ q(92805,{awp=120001,type="hqt"}),
 q(92806,{awp=120001,type="hqt"}),
 q(92807,{awp=120001,type="hqt"}),
 q(92808,{awp=120001,type="hqt"})}),
+h(-39,{
+i(258738,{b=1,description="Mailed to you after your first death in a delve."})}),
 h(-45,{
 q(93784,{isWeekly=1,lvl=80,providers={{"i",262586}}}),
-q(93453,{lvl=78})}),
+q(93453,{lvl=78,providers={{"i",258738}}})}),
 h(-46),
 h(-56,{maps={2502,2503,2505,2506,2510,2525,2528,2535,2545,2547},g={
 o(584752,{awp=120001,description="Contains Chunk of Companion Experience tokens.",g={

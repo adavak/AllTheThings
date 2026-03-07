@@ -43,6 +43,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						{ 52.9, 52.3, MAP.MIDNIGHT.HARANDAR },
 						{ 62.9, 70.4, 2576 },	-- The Den
 					},
+					["groups"] = {
+						ach(61219),	-- No Time to Paws
+					},
 				}),
 				q(91555, {	-- Defenders of the Vale
 					["coord"] = { 58.7, 52.8, MAP.MIDNIGHT.HARANDAR },

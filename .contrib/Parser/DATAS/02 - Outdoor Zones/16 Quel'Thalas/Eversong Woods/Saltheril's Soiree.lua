@@ -20,6 +20,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				ach(62190, {	-- Life of the Party
 					i(257144),	-- Umbral Dragonhawk (MOUNT!)
 				}),
+				ach(61961),	-- Runestone Rush
 				ach(62186, {	-- The Party Must Go On
 					i(251909),	-- Eversong Feast Platter (DECOR!)
 				}),

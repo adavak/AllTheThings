@@ -14,6 +14,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.VOIDSTORM, {
 		n(STORMMARION_ASSAULT, {
 			n(ACHIEVEMENTS, {
+				ach(61913),	-- A Singular Problem
+				ach(61912),	-- Anchoring the Defense
+				ach(61922),	-- Ninety Percent is Good Enough
 			}),
 			n(EVENT_COMPLETION, {
 				o(560325, {	-- Core Chest

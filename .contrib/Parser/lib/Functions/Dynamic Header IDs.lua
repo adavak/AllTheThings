@@ -343,6 +343,7 @@ HeaderAssignments = {
 	["Legendaries"] = -221,
 	["Legendary"] = -220,
 	["Legendary: The Black Prince"] = -417,
+	["Legends of the Haranir"] = -738,
 	["Legion Invasions"] = -139,
 	["Legs"] = -95,
 	["level 48"] = -7,
@@ -717,4 +718,4 @@ HeaderAssignments = {
 	["Zskera Vaults"] = -403,
 	["Zul'Gurub Hakkar Hardmode"] = -697,
 };
-NextHeaderID = -738;
+NextHeaderID = -739;

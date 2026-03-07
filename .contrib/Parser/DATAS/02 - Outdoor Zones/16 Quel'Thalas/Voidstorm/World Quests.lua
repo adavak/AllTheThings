@@ -84,6 +84,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				q(93438, {	-- Special Assignment: Precision Excision
 					["coord"] = { 35.8, 70.4, MAP.MIDNIGHT.VOIDSTORM },
+					["groups"] = {
+						ach(62105, {	-- Lysikas Would Be Proud
+							["description"] = "This achievement has a lot of bugs. Keep reporting to blizzard if you dont get it.",
+						}),
+					},
 				}),
 				q(94581, {	-- Stand Your Ground
 					["coord"] = { 26.7, 68.3, MAP.MIDNIGHT.VOIDSTORM },
