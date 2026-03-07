@@ -1077,16 +1077,14 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 245759 },	-- Thalassian Treatise on Enchanting
 			}),
-			--[[ Needs QuestID
-			q(83258, {	-- MID Weekly Enchanting Knowledgepoint #1
+			q(93533, {	-- MID Weekly Enchanting Knowledgepoint #1
 				["name"] = "MID Weekly Enchanting Treasure #1",
 				["provider"] =  { "i", 259193 },	-- Lost Thalassian Vellum
 			}),
-			q(83259, {	-- MID Weekly Enchanting Knowledgepoint #2
+			q(93532, {	-- MID Weekly Enchanting Knowledgepoint #2
 				["name"] = "MID Weekly Enchanting Treasure #2",
 				["provider"] =  { "i", 259192 },	-- Voidstorm Ashes
 			}),
-			--]]
 			q(95048, {	-- MID Weekly Enchanting Knowledgepoint #3
 				["name"] = "MID Weekly Enchanting Disenchant #1",
 				["description"] = "Rewarded when disenchanting items.",
