@@ -2338,6 +2338,7 @@ i(252014, 1253929);	-- Cerulean Sporeglider
 i(257147, 1261302);	-- Cobalt Dragonhawk
 i(263451, 1270522);	-- Comfy Bel'ameth Flying Quilt
 i(263452, 1270523);	-- Comfy Silvermoon Flying Quilt
+i(257180, 1261334);	-- Contained Stormarion Defender
 i(262621, 1257081);	-- Convalescent Carrion
 i(257145, 1261298);	-- Crimson Dragonhawk
 i(257154, 1261322);	-- Crimson Silvermoon Hawkstrider

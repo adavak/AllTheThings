@@ -70,15 +70,69 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				i(248680),	-- Unstable Focusing Crystal
 				i(260979, {	-- Victorious Stormarion Cache
-					i(257180),	-- Reins of Contained Stormarion Defender (MOUNT!) TODO: Blizzard bug - missing spellID for it, fix on live
+					["sym"] = {{"select","itemID",
+						257180,	-- Reins of Contained Stormarion Defender (MOUNT!)
+						265030,	-- Kai (PET!)
+						256761,	-- Formula: Enchant Shoulders - Voidtouched (RECIPE!)
+						258134,	-- Pattern: Voidstrider Saddlebag (RECIPE!)
+						267396,	-- Technique: Restful Bronze Bench (RECIPE!)
+						264343,	-- Cosmic Void Gravitational Orb (DECOR!)
+						264483,	-- Cosmic Void Campfire (DECOR!)
+						262608,	-- Void Elf Stool (DECOR!)
+					}},
 				}),
-				i(268485),	-- Victorious Stormarion Pinnacle Cache (Pre-Season)
+				i(269704, {	-- Victorious Stormarion Cache (Leveling)
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
+				i(268485, {	-- Victorious Stormarion Pinnacle Cache (Pre-Season)
+					["groups"] = {
+						i(257180),	-- Reins of Contained Stormarion Defender (MOUNT!)
+						i(265030),	-- Kai (PET!)
+						i(256761),	-- Formula: Enchant Shoulders - Voidtouched (RECIPE!)
+						i(258134),	-- Pattern: Voidstrider Saddlebag (RECIPE!)
+						i(267396),	-- Technique: Restful Bronze Bench (RECIPE!)
+						i(264343),	-- Cosmic Void Gravitational Orb (DECOR!)
+						i(264483),	-- Cosmic Void Campfire (DECOR!)
+						i(262608),	-- Void Elf Stool (DECOR!)
+					},
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
 				i(260940, {	-- Victorious Stormarion Pinnacle Cache
-					i(265030),	-- Kai (PET!)
-					i(262608),	-- Void Elf Stool (DECOR!)
-					i(256761),	-- Formula: Enchant Shoulders - Voidtouched (RECIPE!)
-					i(258134),	-- Pattern: Voidstrider Saddlebag (RECIPE!)
-					i(267396),	-- Technique: Restful Bronze Bench (RECIPE!)
+					["groups"] = {
+						i(257180),	-- Reins of Contained Stormarion Defender (MOUNT!)
+						i(265030),	-- Kai (PET!)
+						i(256761),	-- Formula: Enchant Shoulders - Voidtouched (RECIPE!)
+						i(258134),	-- Pattern: Voidstrider Saddlebag (RECIPE!)
+						i(267396),	-- Technique: Restful Bronze Bench (RECIPE!)
+						i(264343),	-- Cosmic Void Gravitational Orb (DECOR!)
+						i(264483),	-- Cosmic Void Campfire (DECOR!)
+						i(262608),	-- Void Elf Stool (DECOR!)
+					},
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
 				}),
 			}),
 		}),

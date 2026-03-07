@@ -74,7 +74,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 		ach(61709),	-- Delver of the Depths III: Midnight
 		ach(61710),	-- Delver of the Depths IV: Midnight
 		ach(61906, {	-- Glory of the Midnight Delver
-			--i(257199),	-- Giganto Manis (MOUNT!)
+			i(257199),	-- Giganto Manis (MOUNT!)
 		}),
 		ach(61720),	-- Midnight Delver
 		ach(61721, {	-- Midnight Delver II

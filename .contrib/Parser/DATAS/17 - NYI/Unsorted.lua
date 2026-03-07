@@ -32,8 +32,6 @@ root(ROOTS.Unsorted, {
 				i(265653),	-- Elegant Storage Table
 				i(265654),	-- Elegant Elven Washbasin
 				i(266130),	-- Gilded Silvermoon Gazebo
-				i(264343),	-- Cosmic Void Gravitational Orb
-				i(264483),	-- Cosmic Void Campfire
 				i(250793),	-- Lush Garden Trellis
 				i(250794),	-- Colorful White Noblegarden Egg
 				i(250795),	-- Colorful Blue Noblegarden Egg
@@ -48,11 +46,8 @@ root(ROOTS.Unsorted, {
 				i(259354),	-- Brown Paper Sack
 			}),
 			filter(MISC, {
-
 				-- Cache
 				i(269701),	-- Surplus Bag of Party Favors
-
-				i(269704),	-- Victorious Stormarion Cache
 
 				-- prey
 				i(269006),	-- Preyseeker's Gleaming Coin Pouch
@@ -651,7 +646,6 @@ root(ROOTS.Unsorted, {
 				i(260893),	-- Arboreal Pseudoshell (MOUNT!) [Trading Post]
 				i(262707),	-- Blooded Snapvine (MOUNT!) [Trading Post]
 				i(260894),	-- Cabbage Pseudoshell (MOUNT!) [Trading Post]
-				mount(1261334),	-- Contained Stormarion Defender (MOUNT!) [Stomarion Event?]
 				i(262496),	-- Delver's Arcane Golem (MOUNT!) [Delves?]
 				i(260233),	-- Emerald Hawkstrider (MOUNT!) [Questline?]
 				i(262438),	-- Fantastical Goblin Waveshredder (MOUNT!) [Promotions?]
