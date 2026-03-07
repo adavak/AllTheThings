@@ -1,3 +1,8 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+--	READ ME:																														--
+--	This file contains the following seactions:	Loading Dock, Not Sorted, and Sorted.												--
+--	New entries should be added to the Loading Dock, unless you know which patch it came with. Then it can go directly to Sorted.	--
+--------------------------------------------------------------------------------------------------------------------------------------
 local Items = root(ROOTS.Uncollectible);
 local NonCollectibleItems = ItemDBConditional
 local i = function(itemID, t)
@@ -162,6 +167,9 @@ i(85224);	-- Basic Seed Pack
 i(140360);	-- Rockwurm Barb
 i(153119);	-- Wyrmtongue Cache of Finery
 -------------------------------------------------------------------- NOT SORTED --------------------------------------------------------------------
+
+
+---------------------------------------------------------------------- SORTED ----------------------------------------------------------------------
 -----------------
 -- PATCH 3.0.2 --
 -----------------
