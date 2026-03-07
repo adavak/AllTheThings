@@ -113,15 +113,9 @@ root(ROOTS.Unsorted, {
 				i(247724),	-- Multicraft Manifold
 				i(247726),	-- Resourceful Routing \\ [PH] Resourcefulness Finishing Reagent
 				i(247787),	-- [PH] Perception Finishing Reagent
-				i(247788),	-- Ingenious Identity \\ Ingenuious Identity \\ [PH] Perception Finishing Reagent
 
 				i(256136),	-- Professor Instructaur's Brain Pertaining to Midnight
 
-				-- Inscription?
-				i(251919),	-- Inscribe: Blood
-				i(251920),	-- Inscribe: Rot
-				i(251921),	-- Inscribe: Hunt
-				i(251922),	-- Inscribe: Void
 					-- Engi
 				i(257733),	-- M0LL1, Atomic Anomaly
 				i(257734),	-- M0LL1, Atomic Anomaly
@@ -149,8 +143,6 @@ root(ROOTS.Unsorted, {
 				-- Fishing
 				i(262650),	-- Writhing Wiggleworm
 				i(262651),	-- Pointed Spikesnail
-				-- Inscr
-				i(262908),	-- Milling
 
 				-- Alch NYi
 				i(241335),	-- Vicious Thalassian Flask of Honor++
@@ -935,7 +927,6 @@ root(ROOTS.Unsorted, {
 				i(253389),	-- Manaforge Raider's Umbral Ward (MAIN HAND SLOT)
 				i(253402),	-- Scorching
 				i(253582),	-- Fangfin Flailer
-				i(258045),	-- Dawnblade's Glaives
 				i(258404),	-- Lil' Blue Whirlwind
 				i(258405),	-- Lil' Black Whirlwind
 				i(258407),	-- Lil' Green Whirlwind

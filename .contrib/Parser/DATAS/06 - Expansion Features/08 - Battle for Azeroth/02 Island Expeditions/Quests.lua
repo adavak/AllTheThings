@@ -27,6 +27,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 			q(51870, {	-- Island Expedition (1/2) (H)
 				["sourceQuest"] = 53062,	-- The Azerite Advantage
 				["altQuests"] = { 51994 },	-- Unlock the ability to go on Island Expeditions in search of Azerite
+				["qg"] = 135691,	-- Nathanos Blightcaller <Champion of the Banshee Queen>
+				["coord"] = { 58.4, 62.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 			}),
 			q(51888, {	-- Island Expedition (2/2) (H)

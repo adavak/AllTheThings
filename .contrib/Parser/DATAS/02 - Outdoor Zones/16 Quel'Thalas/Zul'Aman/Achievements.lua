@@ -14,7 +14,25 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(41803),	-- For Zul'Aman!
 			ach(62200),	-- Gnome Alone
 			ach(61453),	-- Making an Amani Out of You
-			ach(62199),	-- Put a Pin in It
+			ach(62199, {	-- Put a Pin in It
+				hqt(95005, {	-- Talk to Chu'ke on a ridge by the coast
+					["name"] = "Talk to Chu'ke on a ridge by the coast.",
+					["qg"] = 258933,	-- Chu'ke <Lost Doll>
+					["coord"] = { 59.2, 71.1, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				o(627489, {	-- Forgotten Button
+					["description"] = "Talk to Kalika and take the Forgotten Button.",
+					["sourceQuest"] = 95005,	-- Talk to Chu'ke on a ridge by the coast
+					["coord"] = { 38.7, 23.9, MAP.MIDNIGHT.ZULAMAN },
+					["questID"] = 95045,
+				}),
+				hqt(95046, {	-- Talk to Chu'ke again south of the Den of Nalorakk
+					["name"] = "Talk to Chu'ke again south of the Den of Nalorakk.",
+					["sourceQuest"] = 95045,	-- Forgotten Button
+					["qg"] = 258933,	-- Chu'ke <Lost Doll>
+					["coord"] = { 37.8, 90.1, MAP.MIDNIGHT.ZULAMAN },
+				}),
+			}),
 			ach(61455),	-- Shadowpine Scattered
 			skyriding(ach(61540, {	-- Skyriding Glyphs: Amani Pass
 				["coords"] = {

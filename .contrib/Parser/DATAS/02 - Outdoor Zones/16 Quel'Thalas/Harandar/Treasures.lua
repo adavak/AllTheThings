@@ -350,7 +350,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 54.5, 52.0, MAP.MIDNIGHT.HARANDAR },
 					["questID"] = 92258,
 				}),
-				--IDK what renown these comes from
+				--IDK what renown these come from
 				o(571306, {	-- Glowing Moth
 					["coord"] = { 66.5, 33.1, MAP.MIDNIGHT.HARANDAR },
 					["questID"] = 92279,
@@ -398,6 +398,58 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				o(571299, {	-- Glowing Moth
 					["coord"] = { 44.4, 45.1, MAP.MIDNIGHT.HARANDAR },
 					["questID"] = 92286,
+				}),
+				o(571293, {	-- Glowing Moth
+					["coord"] = { 40.8, 51.6, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92313,
+				}),
+				o(571308, {	-- Glowing Moth
+					["coord"] = { 47.2, 66.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92267,
+				}),
+				o(571292, {	-- Glowing Moth
+					["coord"] = { 41.0, 67.4, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92314,
+				}),
+				o(571319, {	-- Glowing Moth
+					["coord"] = { 34.5, 68.9, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92296,
+				}),
+				o(571328, {	-- Glowing Moth
+					["coord"] = { 27.3, 70.3, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92287,
+				}),
+				o(571294, {	-- Glowing Moth
+					["coord"] = { 28.9, 66.9, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92312,
+				}),
+				o(571327, {	-- Glowing Moth
+					["coord"] = { 29.9, 87.7, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92288,
+				}),
+				o(571312, {	-- Glowing Moth
+					["coord"] = { 54.0, 73.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92274,
+				}),
+				o(571314, {	-- Glowing Moth
+					["coord"] = { 67.0, 48.4, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92272,
+				}),
+				o(571291, {	-- Glowing Moth
+					["coord"] = { 69.5, 49.0, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92315,
+				}),
+				o(571290, {	-- Glowing Moth
+					["coord"] = { 75.8, 50.1, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92316,
+				}),
+				o(571323, {	-- Glowing Moth
+					["coord"] = { 69.4, 63.0, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92292,
+				}),
+				o(571324, {	-- Glowing Moth
+					["coord"] = { 71.7, 67.5, MAP.MIDNIGHT.HARANDAR },
+					["questID"] = 92291,
 				}),
 			}),
 			header(HEADERS.Achievement, 62290, {	-- Harandar: The Highest Peaks

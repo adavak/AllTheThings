@@ -704,7 +704,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 248881 },	-- Scout Nefina
 						["coord"] = { 41.4, 74.0, MAP.MIDNIGHT.VOIDSTORM },
-						["isBreadcrumb"] = true,	-- I Think
+						["isBreadcrumb"] = true,
 					}),
 					q(91885, {	-- Drain You
 						["sourceQuests"] = 91884,	-- The Illusion of Motion

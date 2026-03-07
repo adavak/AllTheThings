@@ -2702,6 +2702,10 @@ i(238485);	-- Grotesque Globule
 i(260283);	-- Grotto Gulp
 i(260657);	-- Holey Organ
 i(238496);	-- Hunk O' Junk
+i(251919);	-- Inscribe: Blood
+i(251920);	-- Inscribe: Rot
+i(251921);	-- Inscribe: Hunt
+i(251922);	-- Inscribe: Void
 i(260688);	-- Insect Exoskeleton
 i(260604);	-- Insect Shedding
 i(260269);	-- Jerk Boar Jerky
@@ -2725,6 +2729,7 @@ i(260256);	-- Luxurious Omelette
 i(260621);	-- Magic Infused Bark
 i(264987);	-- Magister's Mead
 i(260255);	-- Managi Roll
+i(262908);	-- Milling
 i(260693);	-- Mossy Lump of Dirt
 i(260275);	-- Mukleech Curry
 i(264991);	-- Murder Roe

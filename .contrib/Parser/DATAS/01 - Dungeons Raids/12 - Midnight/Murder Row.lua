@@ -76,6 +76,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 					i(258487),	-- Plans: Murder Row Fleet Feet (RECIPE!)
 					i(263238),	-- Illicit Long Table (DECOR!)
 					i(251138),	-- Cinderfury Shoulderguards
+					i(258045),	-- Dawnblade's Glaives (COSMETIC!)
 					i(251141),	-- Lithiel's Linked Leggings
 					i(251142),	-- Pendant of Malefic Fury
 					i(251139),	-- Summoner's Searing Shirt

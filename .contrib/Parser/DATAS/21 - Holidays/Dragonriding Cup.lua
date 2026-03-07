@@ -2191,6 +2191,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 				q(79127, {	-- The Outland Cup Begins
 					["qgs"] = {
 						214031,	-- Racing Enthusiast
+						214085,	-- Racing Enthusiast
 						-- #if AFTER TWW
 						220307,	-- Holiday Enthusiast
 						220870,	-- Holiday Enthusiast
@@ -2198,6 +2199,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 					},
 					["coords"] = {
 						{ 61.8, 75.1, STORMWIND_CITY },
+						{ 38.4, 62.1, LEGION_DALARAN },
 						-- #if AFTER TWW
 						{ 46.0, 55.1, DORNOGAL },
 						{ 55.5, 61.0, DORNOGAL },
