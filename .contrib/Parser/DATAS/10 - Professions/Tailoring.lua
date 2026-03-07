@@ -1430,11 +1430,11 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["name"] = "MID Weekly Tailoring Treasure #1",
 				["provider"] =  { "i", 259202 },	-- Embroidered Memento
 			}),
-			q(83269, {	-- MID Weekly Tailoring Knowledgepoint #2
+			--]]
+			q(93543, {	-- MID Weekly Tailoring Knowledgepoint #2
 				["name"] = "MID Weekly Tailoring Treasure #2",
 				["provider"] =  { "i", 259203 },	-- Finely Woven Lynx Collar
 			}),
-			--]]
 		})),
 	})),
 })));
