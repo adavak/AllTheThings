@@ -200,13 +200,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["coord"] = { 49.7, 81.3, TWILIGHT_HIGHLANDS },
 				["groups"] = {
 					n(LEVELING_CHARACTERS, bubbleDownFiltered({
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 100 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 10 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 10 } },
 					},FILTERFUNC_itemID,{
 						filter(CLOAKS, {
 							i(251610),	-- Ascension Agitator's Cape
@@ -277,13 +271,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 						}),
 					})),
 					n(MAX_LEVEL_CHARACTERS, bubbleDownFiltered({
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 200 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 20 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 20 } },
 					},FILTERFUNC_itemID,{
 						filter(CLOAKS, {
 							i(246674),	-- Ascension Arrestor's Cape
@@ -359,94 +347,34 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["coord"] = { 49.8, 81.3, TWILIGHT_HIGHLANDS },
 				["groups"] = {
 					iensemble(248218, {	-- Arsenal: Weathered Twilight's Hammer Armaments
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 400 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 40 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 40 } },
 					}),
 					iensemble(249438, {	-- Ensemble: Well-Worn Twilight Cultist's Attire
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 400 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 40 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 40 } },
 					}),
 					i(246628, {	-- Emerald Sporbit (PET!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 300 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
 					}),
 					i(245330, {	-- Enchanted Blood Elven Candelabra (DECOR!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 500 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 50 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 50 } },
 					}),
 					i(224148, {	-- Retrained Skyrazor (MOUNT!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 1000 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 100 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 100 } },
 					}),
 					i(244911, {	-- Rhay'Dahr (PET!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 300 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
 					}),
 					i(232856, {	-- Scruff (PET!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 300 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
 					}),
 					i(245284, {	-- Silvermoon Wooden Chair (DECOR!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 500 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 50 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 50 } },
 					}),
 					i(251997, {	-- Sin'dorei Winged Chaise (DECOR!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 750 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 75 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 75 } },
 					}),
 					i(249468, {	-- Twilight's Blade Top Secret Strategy Training Guide (TOY!)
-						["cost"] = {
-							-- #if AFTER 12.0.1.66198
-							{ "c", RESONANCE_CRYSTALS, 300 },
-							-- #else
-							{ "c", TWILIGHTS_BLADE_INSIGNIA, 30 },
-							-- #endif
-						},
+						["cost"] = { { "c", TWILIGHTS_BLADE_INSIGNIA, 30 } },
 					}),
 				},
 			}),
