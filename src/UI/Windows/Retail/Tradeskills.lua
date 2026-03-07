@@ -441,6 +441,7 @@ app:CreateWindow("Tradeskills", {
 				if app.IsRetail then
 					app.Settings:SetTooltipSetting("Auto:ProfessionList", false)
 					self.CloseButton:Disable()	-- Hiding would be better, but it reasserts itself too often for that
+					self:Hide()
 					if not ProfessionsFrameTabSideBar then	-- This runs in other addons as well, to create the shared parent frame
 						ProfessionsFrameTabSideBar = CreateFrame("Frame", nil, ProfessionsFrame, "")
 						ProfessionsFrameTabSideBar:SetWidth(1)
@@ -486,6 +487,19 @@ app:CreateWindow("Tradeskills", {
 					app.TradeskillTab:SetChecked(false)
 					app.TradeskillTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
 					app.TradeskillTab.Icon:SetSize(24, 24)
+
+					-- if not app.CreatedTabTradeskill then
+					-- 	ProfessionsFrame:HookScript("OnHide", function()
+					-- 		ProfessionsFrameTabSideBar:ClearAllPoints()
+					-- 		ProfessionsFrameTabSideBar:SetPoint("TOPLEFT", ProfessionsFrame, "TOPRIGHT")
+					-- 		ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
+					-- 		ProfessionsFrameTabSideBar.selTab = 0
+					-- 		app.TradeskillTab:SetChecked(false)
+					-- 		self:Hide()
+					-- 	end)
+
+					-- 	app.CreatedTabTradeskill = true
+					-- end
 				end
 			else
 				self:SetMovable(false);
@@ -527,6 +541,7 @@ app:CreateWindow("Tradeskills", {
 			if app.Settings:GetTooltipSetting("Auto:ProfessionList") and app.IsClassic then
 				self:SetVisible(true)
 			elseif ProfessionsFrameTabSideBar and app.IsRetail then
+				ProfessionsFrameTabSideBar:ClearAllPoints()
 				ProfessionsFrameTabSideBar:SetPoint("TOPLEFT", ProfessionsFrame, "TOPRIGHT")
 				ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
 			end

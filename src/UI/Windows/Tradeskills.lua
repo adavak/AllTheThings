@@ -472,6 +472,7 @@ app:CreateWindow("Tradeskills", {
 			if app.Settings:GetTooltipSetting("Auto:ProfessionList") and app.IsClassic then
 				self:SetVisible(true);
 			elseif ProfessionsFrameTabSideBar and app.IsRetail then
+				ProfessionsFrameTabSideBar:ClearAllPoints()
 				ProfessionsFrameTabSideBar:SetPoint("TOPLEFT", ProfessionsFrame, "TOPRIGHT")
 				ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
 			end
