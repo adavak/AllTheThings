@@ -2157,8 +2157,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 	}),
 })));
 
--- root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
--- 	n(PROFESSIONS, {
-
--- 	}),
--- })));
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
+	n(PROFESSIONS, {
+		prof(TAILORING, {
+			q(89423),	-- 30/30 Arcanoweave Expertise
+		}),
+	}),
+})));

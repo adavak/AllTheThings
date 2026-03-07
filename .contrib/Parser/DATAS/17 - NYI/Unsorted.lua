@@ -562,7 +562,6 @@ root(ROOTS.Unsorted, {
 				i(251935),	-- Lightgrasp Worldroot \\ Light's Righteous Arm
 				i(251936),	-- Nullified Quarterstaff
 				i(253388),	-- Tyrannus's Runeblade
-				i(260189),	-- Rootkeeper's Dancing Needle
 				i(260190),	-- Heavy Bramblebolter
 				i(260191),	-- Hand of the Rootkeeper
 				i(260192),	-- Wildthorn Razorfang
@@ -1051,14 +1050,11 @@ root(ROOTS.Unsorted, {
 				i(263009),	-- Valeera's Wicked Knife
 				i(263286),	-- Repurposed Fungarian Gong
 				i(263413),	-- Nullaeus Domaneye
-				i(263442),	-- Voidridden Domaneye
 				i(263520),	-- Ensemble: Sprawling's Garb
 				i(263574),	-- Ensemble: Osseoclad's Wear
 				i(263575),	-- Ensemble: Elder Moss Outfit
 				i(263576),	-- Ensemble: Rampant Thorn Armor
 				i(263577),	-- Arsenal: Rootlands Weaponry
-				i(264847),	-- Dozing Vinepouch
-				i(264852),	-- Bladed Twilight Spaulder
 				i(264859),	-- Twilight Follower's Cowl
 				i(264969),	-- Extinction Voulge
 				i(264970),	-- Oblivion's Edge

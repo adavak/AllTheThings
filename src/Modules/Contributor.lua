@@ -2860,7 +2860,6 @@ MobileDB.GameObject = {
 	[613268] = true,	-- Burning Torch
 	[613789] = true,	-- Paint Globule (q:92695)
 	[613852] = true,	-- Potion of Unquestionable Strength (q:93569)
-	[613945] = true,	-- Orb of Translocation
 	[614893] = true,	-- Paint Bowl (q:90535)
 	[616052] = true,	-- Flame-Hardened Sap of Teldrassil
 	[616055] = true,	-- Forgotten Cache [Windrunner Spire]
@@ -2878,6 +2877,12 @@ MobileDB.GameObject = {
 	[627049] = true,	-- Hearthlight Armillary
 	[628381] = true,	-- Weapon Rack (Arcantina)
 	[630870] = true,	-- Portal to Astalor's Sanctum
+
+	-- Ignore these objects in report
+	-- They are too close to real sourced object and cause wrong object reports
+	[555879] = true,	-- Orb of Translocation
+	[613945] = true,	-- Orb of Translocation
+	[614762] = true,	-- UNKNOWN
 	[638873] = true,	-- Orb of Translocation
 }
 

@@ -212,12 +212,15 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		filter(COSMETIC, {
 			i(262983),	-- Archival Magnimace (COSMETIC!)
+			i(264852),	-- Bladed Twilight Spaulder (COSMETIC!)
+			i(264847),	-- Dozing Vinepouch (COSMETIC!)
 			i(262992),	-- Myth Maker's Brush (COSMETIC!)
 			i(262970),	-- Ominous Tome (COSMETIC!)
 			i(264848),	-- Sunlit Vinepouch (COSMETIC!)
 			i(264857),	-- Twilight Fanatic's Cowl (COSMETIC!)
 			i(264855),	-- Vilebranch Deathseer (COSMETIC!)
 			i(264854),	-- Vilebranch Soulseer (COSMETIC!)
+			i(263442),	-- Voidridden Domaneye (COSMETIC!)
 			i(264851),	-- Voidtouched Twilight Spaulder (COSMETIC!)
 		}),
 		n(DECOR, {
@@ -244,6 +247,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(251885),	-- Radiant Foil
 			i(249610),	-- Resinous Blossomblade
 			i(249661),	-- Root Sculptor's Verdaxe
+			i(260189),	-- Rootkeeper's Dancing Needle
 			i(260188),	-- Savage Briaredge
 			i(259462),	-- Thorneedle
 			i(249677),	-- Twinthorn Wildglaive
@@ -616,6 +620,26 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			n(EXPLORATION, {
 			}),
+			n(FLIGHT_PATHS, {
+				fp(3169, {	-- Base Node
+					--["coord"] = {},	-- TODO: Add coord
+				}),
+				fp(3170, {	-- Collapsar
+					--["coord"] = {},	-- TODO: Add coord
+				}),
+				fp(3171, {	-- Deep Well
+					--["coord"] = {},	-- TODO: Add coord
+				}),
+				fp(3172, {	-- Exposed Vein
+					--["coord"] = {},	-- TODO: Add coord
+				}),
+				fp(3173, {	-- Focal Point
+					--["coord"] = {},	-- TODO: Add coord
+				}),
+				fp(3174, {	-- Forge of Secrets
+					--["coord"] = {},	-- TODO: Add coord
+				}),
+			}),
 			n(QUESTS, {
 				q(93427, {	-- Delver's Call: Sunkiller Sanctum
 					["provider"] = { "o", 612354 },	-- Sunkiller Sanctum
@@ -750,7 +774,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			n(TREASURES, {
 				o(618291, {	-- Sturdy Chest
-					["coord"] = { 37.2, 28.7, THE_GRUDGE_PIT },
+					["coord"] = { 37.6, 27.6, THE_GRUDGE_PIT },
 					["questID"] = 94039,
 				}),
 				o(618279, {	-- Sturdy Chest
