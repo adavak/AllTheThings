@@ -1577,3 +1577,4 @@ i(258963);	-- Shroom Jumper's Parachute
 i(259240);	-- Sin'dorei Wine
 i(263198);	-- Valdekar's Special
 i(256552);	-- Verdant Rutaani Seed
+i(248485);	-- Wormhole Generator: Quel'Thalas
