@@ -495,6 +495,8 @@ app:CreateWindow("Tradeskills", {
 							-- ProfessionsFrameTabSideBar:SetPoint("BOTTOMLEFT", ProfessionsFrame, "BOTTOMRIGHT")
 							ProfessionsFrameTabSideBar.selTab = 0
 							app.TradeskillTab:SetChecked(false)
+							app.TradeskillTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
+							app.TradeskillTab.Icon:SetSize(24, 24)
 							self:Hide()
 						end)
 

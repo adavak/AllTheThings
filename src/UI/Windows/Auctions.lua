@@ -353,6 +353,8 @@ app:CreateWindow("Auctions", {
 							-- AuctionHouseFrameTabSideBar:SetPoint("BOTTOMLEFT", AuctionHouseFrame, "BOTTOMRIGHT")
 							AuctionHouseFrameTabSideBar.selTab = 0
 							app.AuctionHouseTab:SetChecked(false)
+							app.AuctionHouseTab.Icon:SetTexture("Interface\\Addons\\AllTheThings\\assets\\logo_32x32")
+							app.AuctionHouseTab.Icon:SetSize(24, 24)
 							self:Hide()
 						end)
 
