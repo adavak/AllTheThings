@@ -1837,9 +1837,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			}),
 		}),
 		-- #endif
-		spell(2575, {	-- Mining
+		header(HEADERS.Spell, 2575, appendAllGroups(sharedData({ ["requireSkill"] = MINING, }, {	-- Mining
 			-- Nodes
 			o(202738, {	-- Elementium Vein
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 475,
+				-- #endif
 				["maps"] = {
 					TOL_BARAD,
 					TOL_BARAD_PENINSULA,
@@ -1848,6 +1851,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			o(202736, {	-- Obsidium Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 425,
+				-- #endif
 				["maps"] = {
 					DEEPHOLM,
 					MOUNT_HYJAL,
@@ -1857,12 +1863,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			o(202737, {	-- Pyrite Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 525,
+				-- #endif
 				["maps"] = {
 					TWILIGHT_HIGHLANDS,
 					ULDUM,
 				},
 			}),
 			o(202741, {	-- Rich Elementium Vein
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 500,
+				-- #endif
 				["maps"] = {
 					TOL_BARAD,
 					TOL_BARAD_PENINSULA,
@@ -1871,6 +1883,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			o(202739, {	-- Rich Obsidium Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 450,
+				-- #endif
 				["maps"] = {
 					DEEPHOLM,
 					MOUNT_HYJAL,
@@ -1880,12 +1895,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			o(202740, {	-- Rich Pyrite Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 525,
+				-- #endif
 				["maps"] = {
 					TOL_BARAD,
 					TOL_BARAD_PENINSULA,
 				},
 			}),
-			-- Ores
+		}),
+		{	-- Ores
 			i(52185, {	-- Elementium Ore
 				["maps_disp"] = {
 					TOL_BARAD,
@@ -1965,8 +1984,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(52180),	-- Nightstone
 			i(52178),	-- Zephyrite
 			--]]
-		}),
-		spell(2656, {	-- Smelting
+		})),
+		header(HEADERS.Spell, 2656, {	-- Smelting
 			i(52186),	-- Elementium Bar
 			i(53039),	-- Hardened Elementium Bar
 			i(54849),	-- Obsidium Bar

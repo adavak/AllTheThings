@@ -2380,9 +2380,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 	}),
 	prof(MINING, {
-		header(HEADERS.Spell, 2575, {	-- Mining
+		header(HEADERS.Spell, 2575, appendAllGroups(sharedData({ ["requireSkill"] = MINING, }, {	-- Mining
 			-- Nodes
 			o(189978, {	-- Cobalt Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 350,
+				-- #endif
 				["maps"] = {
 					BOREAN_TUNDRA,
 					DRAGONBLIGHT,
@@ -2392,6 +2395,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			o(189979, {	-- Rich Cobalt Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 375,
+				-- #endif
 				["maps"] = {
 					BOREAN_TUNDRA,
 					DRAGONBLIGHT,
@@ -2401,6 +2407,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			o(189981, {	-- Rich Saronite Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 425,
+				-- #endif
 				["maps"] = {
 					DRAGONBLIGHT,
 					ICECROWN,
@@ -2410,6 +2419,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			o(189980, {	-- Saronite Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 400,
+				-- #endif
 				["maps"] = {
 					DRAGONBLIGHT,
 					ICECROWN,
@@ -2419,6 +2431,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			o(191133, {	-- Titanium Vein
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 450,
+				-- #endif
 				["maps"] = {
 					DRAGONBLIGHT,
 					ICECROWN,
@@ -2427,7 +2442,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					WINTERGRASP,
 				},
 			}),
-			-- Ores
+		}),
+		{	-- Ores
 			i(36909, {	-- Cobalt Ore
 				["maps_disp"] = {
 					BOREAN_TUNDRA,
@@ -2515,7 +2531,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(35624),	-- Eternal Earth
 			i(35627),	-- Eternal Shadow
 			--]]
-		}),
+		})),
 		header(HEADERS.Spell, 2656, {	-- Smelting
 			i(36916, {	-- Cobalt Bar
 				["cost"] = ClassicCost({ { "i", 36909, 1 } }),	-- Cobalt Ore

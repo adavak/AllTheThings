@@ -1992,9 +1992,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 	}),
 	prof(MINING, {
-		header(HEADERS.Spell, 2575, {	-- Mining
+		header(HEADERS.Spell, 2575, appendAllGroups(sharedData({ ["requireSkill"] = MINING, }, {	-- Mining
 			-- Nodes
 			o(181556, {	-- Adamantite Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 325,
+				-- #endif
 				["maps"] = {
 					BLADES_EDGE_MOUNTAINS,
 					ISLE_OF_QUELDANAS,
@@ -2005,32 +2008,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					ZANGARMARSH,
 				},
 			}),
-			o(185557, {	-- Ancient Gem Vein
-				["maps"] = { THE_BATTLE_FOR_MOUNT_HYJAL },
-				["timeline"] = { ADDED_2_1_0 },
-				["groups"] = appendAllGroups(
-					{	-- Rare quality (blue) gems:
-						i(23440),	-- Dawnstone
-						i(23436),	-- Living Ruby
-						i(23441),	-- Nightseye
-						i(23439),	-- Noble Topaz
-						i(23438),	-- Star of Elune
-						i(23437),	-- Talasite
-					},
-					sharedData({
-						["timeline"] = { ADDED_2_1_0 },
-					}, {
-						-- Epiq quality (purple) gems:
-						i(32227),	-- Crimson Spinel
-						i(32228),	-- Empyrean Sapphire
-						i(32229),	-- Lionseye
-						i(32231),	-- Pyrestone
-						i(32249),	-- Seaspray Emerald
-						i(32230),	-- Shadowsong Amethyst
-					})
-				),
-			}),
 			o(181555, {	-- Fel Iron Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 300,
+				-- #endif
 				["maps"] = {
 					BLADES_EDGE_MOUNTAINS,
 					HELLFIRE_PENINSULA,
@@ -2042,6 +2023,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			o(181557, {	-- Khorium Vein
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 350,
+				-- #endif
 				["maps"] = {
 					AUCHINDOUN_AUCHENAI_CRYPTS,
 					AUCHINDOUN_MANA_TOMBS,
@@ -2059,6 +2043,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			o(181569, {	-- Rich Adamantite Deposit
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 350,
+				-- #endif
 				["maps"] = {
 					BLADES_EDGE_MOUNTAINS,
 					ISLE_OF_QUELDANAS,
@@ -2070,9 +2057,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			o(181570, {	-- Rich Adamantite Deposit (Another ID for deposits exclusive to Nagrand.)
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 350,
+				-- #endif
 				["maps"] = { NAGRAND },
 			}),
-			-- Ores
+		}),
+		{	-- Ores
 			i(23425, {	-- Adamantite Ore
 				["maps_disp"] = {
 					BLADES_EDGE_MOUNTAINS,
@@ -2167,7 +2158,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}
 			}),
 			i(35229, {["timeline"] = {ADDED_2_4_0}}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
-		}),
+		})),
 		header(HEADERS.Spell, 2656, {	-- Smelting
 			i(23446, {	-- Adamantite Bar
 				["cost"] = ClassicCost({ { "i", 23425, 2 } }),	-- Adamantite Ore

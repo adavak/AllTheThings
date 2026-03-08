@@ -6410,6 +6410,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						}),
 						-- Dark Iron Ore
 						o(165658, {	-- Dark Iron Deposit
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 230,
+							-- #endif
 							["maps"] = {
 								BLACKROCK_DEPTHS,
 								MOLTEN_CORE,
@@ -6422,6 +6425,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- ____________________________________________
 						-- Gold
 						o(1734, {	-- Gold Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 155,
+							-- #endif
 							["maps"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
@@ -6453,10 +6459,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						o(150080, {	-- Gold Vein (Blasted Lands - Horde only)
 							-- Note: This node get removed at an unknown point between MOP and TWW.
 							["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 155,
+							-- #endif
 							["races"] = HORDE_ONLY,
 						}),
 						o(181109, {	-- Gold Vein (Felwood)
 							-- Note: This node get replaced by o(1734) at an unknown point between MOP and TWW.
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 155,
+							-- #endif
 							["maps"] = { FELWOOD },
 						}),
 						-- #endif
@@ -6466,10 +6478,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
 								{ 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
 							},
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 155,
+							-- #endif
 						}),
 						-- ____________________________________________
 						-- Iron
 						o(1735, {	-- Iron Deposit
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 125,
+							-- #endif
 							["maps"] = {
 								ARATHI_HIGHLANDS,
 								BADLANDS,
@@ -6491,6 +6509,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- ____________________________________________
 						-- Mithril
 						o(2040, {	-- Mithril Deposit
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 175,
+							-- #endif
 							["maps"] = {
 								BADLANDS,
 								BURNING_STEPPES,
@@ -6512,10 +6533,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						o(150079, {	-- Mithril Deposit (Blasted Lands - Horde only)
 							-- Note: This node get removed at an unknown point between MOP and TWW.
 							["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 175,
+							-- #endif
 							["races"] = HORDE_ONLY,
 						}),
 						o(176645, {	-- Mithril Deposit (Felwood)
 							-- Note: This node get replaced by o(2040) at an unknown point between MOP and TWW.
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 175,
+							-- #endif
 							["maps"] = { FELWOOD },
 						}),
 						-- #endif
@@ -6525,10 +6552,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
 								{ 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
 							},
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 175,
+							-- #endif
 						}),
 						-- ____________________________________________
 						-- Obsidian Chunk
 						o(181069, {	-- Large Obsidian Chunk
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 305,
+							-- #endif
 							["maps"] = {
 								RUINS_OF_AHNQIRAJ,
 								TEMPLE_OF_AHNQIRAJ,
@@ -6538,6 +6571,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						o(181068, {	-- Small Obsidian Chunk
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 305,
+							-- #endif
 							["maps"] = {
 								RUINS_OF_AHNQIRAJ,
 								TEMPLE_OF_AHNQIRAJ,
@@ -6549,9 +6585,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- ____________________________________________
 						-- Silver
 						o(73940, {	-- Ooze Covered Silver Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 75,
+							-- #endif
 							["coord"] = { 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
 						}),
 						o(1733, {	-- Silver Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 75,
+							-- #endif
 							["maps"] = {
 								ARATHI_HIGHLANDS,
 								ASHENVALE,
@@ -6588,22 +6630,37 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								{ 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
 								-- #endif
 							},
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 75,
+							-- #endif
 							["races"] = HORDE_ONLY,
 						}),
 						-- #endif
 						-- ____________________________________________
 						-- Thorium
 						o(180215, {	-- Hakkari Thorium Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 275,
+							-- #endif
 							["maps"] = { ZULGURUB },
 							["timeline"] = { REMOVED_4_0_1 },
 						}),
 						o(177388, {	-- Ooze Covered Rich Thorium Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 275,
+							-- #endif
 							["maps"] = { SILITHUS },
 						}),
 						o(123848, {	-- Ooze Covered Thorium Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 245,
+							-- #endif
 							["coord"] = { 50.0, 81.2, UNGORO_CRATER },	-- The Slithering Scar
 						}),
 						o(175404, {	-- Rich Thorium Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 275,
+							-- #endif
 							["maps"] = {
 								UNGORO_CRATER,
 								WINTERSPRING,
@@ -6619,6 +6676,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						o(324, {	-- Small Thorium Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 245,
+							-- #endif
 							["maps"] = {
 								SILITHUS,
 								UNGORO_CRATER,
@@ -6637,17 +6697,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- #if ANYCLASSIC
 						o(150082, {	-- Small Thorium Vein (Blasted Lands - Horde only)
 							-- Note: This node get replaced by o(324) at an unknown point between MOP and TWW.
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 245,
+							-- #endif
 							["maps"] = { BLASTED_LANDS },
 							["races"] = HORDE_ONLY,
 						}),
-						o(1731, {	-- Small Thorium Vein (Felwood)
+						o(176643, {	-- Small Thorium Vein (Felwood)
 							-- Note: This node get removed at an unknown point between MOP and TWW.
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 245,
+							-- #endif
 							["maps"] = { FELWOOD },
 						}),
 						-- #endif
 						-- ____________________________________________
 						-- Tin
 						o(1732, {	-- Tin Vein
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 65,
+							-- #endif
 							["maps"] = {
 								ASHENVALE,
 								HILLSBRAD_FOOTHILLS,
@@ -6672,14 +6741,23 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								{ 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
 								-- #endif
 							},
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 65,
+							-- #endif
 							["races"] = HORDE_ONLY,
 						}),
 						o(2054, {	-- Tin Vein (Redridge Mountains - Rethban Ore)
 							-- Note: This node get replaced by o(1732) at an unknown point between MOP and TWW.
 							["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 65,
+							-- #endif
 						}),
 						o(3764, {	-- Tin Vein (The Barrens - Blood Shard)
 							-- Note: This node get replaced by o(1732) at an unknown point between MOP and TWW.
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 65,
+							-- #endif
 							["maps"] = {
 								-- #if AFTER CATA
 								NORTHERN_BARRENS,
@@ -6692,6 +6770,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						o(181249, {	-- Tin Vein (Ghostlands - Underlight Ore)
 							["coord"] = { 30.0, 50.0, GHOSTLANDS },
 							["timeline"] = { ADDED_2_0_1 },
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 65,
+							-- #endif
 						}),
 						-- ____________________________________________
 						-- Truesilver
@@ -6703,9 +6784,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								-- #endif
 								{ 50.0, 81.2, UNGORO_CRATER },	-- The Slithering Scar
 							},
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 230,
+							-- #endif
 							["maps"] = { SILITHUS },
 						}),
 						o(2047, {	-- Truesilver Deposit
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 230,
+							-- #endif
 							["maps"] = {
 								BADLANDS,
 								BURNING_STEPPES,
@@ -6730,10 +6817,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						o(150081, {	-- Truesilver Deposit (Blasted Lands - Horde only)
 							-- Note: This node get removed at an unknown point between MOP and TWW.
 							["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 230,
+							-- #endif
 							["races"] = HORDE_ONLY,
 						}),
 						o(181108, {	-- Truesilver Deposit (Felwood)
 							-- Note: This node get replaced by o(2047) at an unknown point between MOP and TWW.
+							-- #if BEFORE 6.0.0
+							["learnedAt"] = 230,
+							-- #endif
 							["maps"] = { FELWOOD },
 						}),
 						-- #endif

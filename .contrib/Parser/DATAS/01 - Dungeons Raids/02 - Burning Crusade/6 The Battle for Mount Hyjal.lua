@@ -30,6 +30,37 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					["maps"] = { CAVERNS_OF_TIME },
 				}),
 			}),
+			header(HEADERS.Spell, 2575, {	-- Mining
+				o(185557, {	-- Ancient Gem Vein
+					["maps"] = { THE_BATTLE_FOR_MOUNT_HYJAL },
+					["timeline"] = { ADDED_2_1_0 },
+					["requireSkill"] = MINING,
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 375,
+					-- #endif
+					["groups"] = appendAllGroups(
+						{	-- Rare quality (blue) gems:
+							i(23440),	-- Dawnstone
+							i(23436),	-- Living Ruby
+							i(23441),	-- Nightseye
+							i(23439),	-- Noble Topaz
+							i(23438),	-- Star of Elune
+							i(23437),	-- Talasite
+						},
+						sharedData({
+							["timeline"] = { ADDED_2_1_0 },
+						}, {
+							-- Epic quality (purple) gems:
+							i(32227),	-- Crimson Spinel
+							i(32228),	-- Empyrean Sapphire
+							i(32229),	-- Lionseye
+							i(32231),	-- Pyrestone
+							i(32249),	-- Seaspray Emerald
+							i(32230),	-- Shadowsong Amethyst
+						})
+					),
+				}),
+			}),
 			n(QUESTS, {
 				["groups"] = bubbleDownClassicRep(FACTION_THE_SCALE_OF_THE_SANDS, {
 					{		-- Neutral
