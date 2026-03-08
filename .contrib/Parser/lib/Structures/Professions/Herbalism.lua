@@ -153,3 +153,15 @@ TWW_HERBALISM = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	r(452269),	-- Deepgrove Rose
 	r(435811),	-- Mycobloom
 });
+MID_HERBALISM = bubbleDown({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
+	r(471009),	-- Herb Gathering (Quel'Thalas)
+	r(193290),	-- Herbalism Journal
+	r(1265814),	-- Artisan Herbalist's Moxie
+	r(1265728),	-- Deftness
+	r(1265720),	-- Finesse
+	r(1265713),	-- Knowledge
+	r(1265724),	-- Perception
+	r(1265710),	-- Quality
+	r(1265716),	-- Skill
+	r(1225182),	-- Thalassian Phoenix Tail
+});

@@ -1442,17 +1442,13 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			q(93708),	-- Conductive Metals
 			q(93709),	-- Stocking the Staples
 		})),
-		--[[filter(RECIPES, {
+		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_MINING_KNOWLEDGE, 1 }} }, {
-				r(442330),	-- Refine Aqirite++
-				r(442331),	-- Refine Aqirite+++
-				r(442328),	-- Refine Bismuth++
-				r(442329),	-- Refine Bismuth+++
-				r(442332),	-- Refine Ironclaw Ore++
-				r(442333),	-- Refine Ironclaw Ore+++
+			["groups"] = sharedData({ ["cost"] = {{ "c", MID_MINING_KNOWLEDGE, 1 }} }, {
+				r(1225392),	-- Overload Infused Deposit
 			}),
 		}),
+		--[[
 		n(QUESTS, {
 			q(91420, {	-- Swap Meet
 				["description"] = "Obtained the first time you harvest Desolate Deposit.",

@@ -406,7 +406,6 @@ i(0, 1225359);		-- Lightfused Brilliant Silver
 i(0, 1225351);		-- Lightfused Refulgent Copper
 i(0, 1225367);		-- Lightfused Umbral Tin
 i(0, 1225818);		-- Overload Lightfused Deposits
-i(0, 1225392);		-- Overload Infused Deposit
 i(0, 1225817);		-- Overload Primal Deposits
 i(0, 1225820);		-- Overload Voidbound Deposits
 i(0, 1225819);		-- Overload Wild Deposits
@@ -426,3 +425,5 @@ i(0, 1225370);		-- Voidbound Umbral Tin
 i(0, 1225363);		-- Wild Brilliant Silver
 i(0, 1225353);		-- Wild Refulgent Copper
 i(0, 1225368);		-- Wild Umbral Tin
+--- SPECIALIZATION ---
+i(0, 1225392);		-- Overload Infused Deposit

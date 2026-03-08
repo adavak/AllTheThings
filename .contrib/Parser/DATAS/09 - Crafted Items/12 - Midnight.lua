@@ -1100,7 +1100,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r(1223149),	-- Lush Mana Lily
 			r(1224889),	-- Primal Mana Lily
 			r(1224899),	-- Voidbound Mana Lily
-			r(12244894),	-- Wild Mana Lily
+			r(1224894),	-- Wild Mana Lily
+			-- Appendix II - Overload
+			r(1225128),	-- Overload Lightfused Herb
+			r(1225137),	-- Overload Primal Herb
+			r(1225144),	-- Overload Voidbound Herb
+			r(1225150),	-- Overload Wild Herb
 		}),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = HERBALISM,
@@ -1894,7 +1899,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r(1225368),	-- Wild Umbral Tin
 			-- Appendix II - Overload
 			r(1225818),	-- Overload Lightfused Deposits
-			r(1225392),	-- Overload Infused Deposit
 			r(1225817),	-- Overload Primal Deposits
 			r(1225820),	-- Overload Voidbound Deposits
 			r(1225819),	-- Overload Wild Deposits

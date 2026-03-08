@@ -387,13 +387,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 			}),
+			--]]
 			prof(HERBALISM, {
-				n(219101, {	-- Akdan <Herbalism Trainer>
-					["coord"] = { 44.8, 69.3, DORNOGAL },
-					["groups"] = TWW_HERBALISM,
+				n(243355, {	-- Botanist Nathera <Herbalism Trainer>
+					["coord"] = { 48.3, 51.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["groups"] = MID_HERBALISM,
 				}),
 			}),
-			--]]
 			prof(INSCRIPTION, {
 				n(243553, {	-- Zantasia <Inscription Trainer>
 					["coord"] = { 46.9, 51.7, MAP.MIDNIGHT.SILVERMOON_CITY },

@@ -1577,16 +1577,13 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			q(93702),	-- The Root of Life
 			q(93703),	-- Sin'dorei Vices
 		})),
-		--[[filter(RECIPES, {
+		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_HERBALISM_KNOWLEDGE, 1 }} }, {
-				r(442990),	-- Empowered Mulch
-				r(442989),	-- Imbued Mulch
-				r(442988),	-- Magical Mulch
-				r(438811),	-- Refine Herbs++
-				r(438812),	-- Refine Herbs+++
+			["groups"] = sharedData({ ["cost"] = {{ "c", MID_HERBALISM_KNOWLEDGE, 1 }} }, {
+				r(1223014),	-- Overload Infused Herb
 			}),
 		}),
+		--[[
 		n(QUESTS, sharedData({
 			["provider"] = { "n", 219101 },	-- Akdan <Herbalism Trainer>
 			["coord"] = { 44.8, 69.4, DORNOGAL },
