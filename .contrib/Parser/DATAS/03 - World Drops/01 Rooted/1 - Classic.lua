@@ -4818,7 +4818,8 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				i(5498),	-- Small Lustrous Pearl
 			},
 		}),
-		o(2744),	-- Giant Clam (with Giant Clam Meat, found in STV)
+		-- CRIEVE NOTE: If something is from a specific zone, don't put them in here.
+		--o(2744),	-- Giant Clam (with Giant Clam Meat, found in STV)
 		o(19017, {	-- Giant Clam (with Clam Meat, found in Bloodmyst Isle and Ghostlands)
 			["description"] = "Can be found in the sea.",
 			["groups"] = {
