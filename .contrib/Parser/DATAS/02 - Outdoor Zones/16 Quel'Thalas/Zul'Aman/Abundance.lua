@@ -80,6 +80,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(94361, {	-- The Abundant Life
 						["qgs"] = {
 							241928,	-- Chel the Chip
+							242704,	-- Dundun <Loa of Abundance>
 							251601,	-- Dundun <Loa of Abundance>
 						},
 						["coord"] = { 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN }, -- maybe any zone??

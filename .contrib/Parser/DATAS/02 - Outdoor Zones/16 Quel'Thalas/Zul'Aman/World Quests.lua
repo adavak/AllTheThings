@@ -13,11 +13,29 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(91811, {	-- A Scorched Mirror
 					["coord"] = { 52.0, 19.8, MAP.MIDNIGHT.ZULAMAN },
 				}),
+				q(91806, {	-- Big Game Hunting
+					["coord"] = { 29.3, 37.7, MAP.MIDNIGHT.ZULAMAN },
+					["groups"] = {
+						o(612282, {	-- Stolen Meat
+							["coords"] = {
+								{ 26.0, 37.6, MAP.MIDNIGHT.ZULAMAN },
+								{ 27.4, 36.0, MAP.MIDNIGHT.ZULAMAN },
+								{ 27.4, 37.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 27.4, 39.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 27.5, 35.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 27.6, 34.8, MAP.MIDNIGHT.ZULAMAN },
+								{ 28.1, 37.0, MAP.MIDNIGHT.ZULAMAN },
+								{ 28.1, 39.0, MAP.MIDNIGHT.ZULAMAN },
+								{ 28.4, 34.2, MAP.MIDNIGHT.ZULAMAN },
+								{ 28.5, 38.5, MAP.MIDNIGHT.ZULAMAN },
+							},
+							["groups"] = { i(258324) },	-- Stolen Game Meat (QI!)
+						}),
+					},
+				}),
 				q(91810, {	-- Blistereel Boar Buffet
 					["coord"] = { 45.3, 28.5, MAP.MIDNIGHT.ZULAMAN },
-					["groups"] = {
-						i(260890),	-- Bag of Skewers (QI!)
-					},
+					["groups"] = { i(260890) },	-- Bag of Skewers (QI!)
 				}),
 				q(91805, {	-- Boughs in the Burrows
 					["coord"] = { 42.2, 47.8, MAP.MIDNIGHT.ZULAMAN },
@@ -59,7 +77,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 25.8, 65.2, MAP.MIDNIGHT.ZULAMAN },
 					["groups"] = {
 						o(612932, {	-- Ransacked Heirloom
-							i(258321),	-- Ransacked Heirloom (QI!)
+							["coord"] = { 23.9, 62.7, MAP.MIDNIGHT.ZULAMAN },
+							["groups"] = { i(258321) },	-- Ransacked Heirloom (QI!)
 						}),
 					},
 				}),
@@ -90,7 +109,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = {
 						i(238962),	-- Lightwood Splinters (QI!)
 						o(525374, {	-- Stolen Equipment
-							i(238964),	-- Stolen Equipment (QI!)
+							["coords"] = {
+								{ 29.9, 27.9, MAP.MIDNIGHT.ZULAMAN },
+								{ 30.3, 27.7, MAP.MIDNIGHT.ZULAMAN },
+								{ 30.3, 28.4, MAP.MIDNIGHT.ZULAMAN },
+								{ 30.4, 27.3, MAP.MIDNIGHT.ZULAMAN },
+								{ 30.7, 27.6, MAP.MIDNIGHT.ZULAMAN },
+								{ 30.8, 27.6, MAP.MIDNIGHT.ZULAMAN },
+							},
+							["groups"] = { i(238964) },	-- Stolen Equipment (QI!)
 						}),
 					},
 				}),
@@ -137,8 +164,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 25.5, 74.6, MAP.MIDNIGHT.ZULAMAN },
 					["isDaily"] = true,
 				}),
-
-
 				q(91801, {	-- Twilight's Bane
 					["coord"] = { 38.7, 73.1, MAP.MIDNIGHT.ZULAMAN },
 				}),

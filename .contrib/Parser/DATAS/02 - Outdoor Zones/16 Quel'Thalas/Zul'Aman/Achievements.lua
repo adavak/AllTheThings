@@ -12,7 +12,26 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(62120),	-- Altar of Blessings: The Penitent Troll
 			ach(61856),	-- Explore Zul'Aman
 			ach(41803),	-- For Zul'Aman!
-			ach(62200),	-- Gnome Alone
+			ach(62200, {	-- Gnome Alone
+				o(633792, {	-- Message in a Bottle
+					["coord"] = { 54.9, 32.5, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				o(633814, {	-- Scrap of Singed Paper
+					["coord"] = { 54.3, 20.7, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				o(633820, {	-- Discarded Scroll
+					["coord"] = { 45.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				o(633805, {	-- Hastily-Scribbled Note
+					["coord"] = { 46.5, 41.3, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				o(633815, {	-- Moldy Diary
+					["coord"] = { 35.8, 25.2, MAP.MIDNIGHT.ZULAMAN },
+				}),
+				o(633823, {	-- Parting Note
+					["coord"] = { 34.8, 17.2, MAP.MIDNIGHT.ZULAMAN },
+				}),
+			}),
 			ach(61453),	-- Making an Amani Out of You
 			ach(62199, {	-- Put a Pin in It
 				hqt(95005, {	-- Talk to Chu'ke on a ridge by the coast

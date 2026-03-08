@@ -474,8 +474,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
 						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(554628, {	--
-								i(246210),	-- Shattered Staff (QI!)
+							o(554628, {	-- Forgotten Staff
+								["coord"] = { 39.5, 44.9, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(246210) },	-- Shattered Staff (QI!)
 							}),
 						},
 					}),
@@ -574,7 +575,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 43.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(249236),	-- Amani Headdress (QI!)
-							o(567976, {	--
+							o(567976, {	-- Eagle Feather
 								i(249231),	-- Eagle Feather (QI!)
 							}),
 						},
@@ -634,7 +635,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 46.7, 78.0, MAP.MIDNIGHT.ZULAMAN },	-- General area where previous quest takes place
 						["groups"] = {
 							o(528034, {	-- Fallen Branch
-								i(239483),	-- Fallen Branch (QI!)
+								["coords"] = {
+									{ 48.0, 84.7, MAP.MIDNIGHT.ZULAMAN },
+									{ 48.1, 85.5, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(239483) },	-- Fallen Branch (QI!)
 							}),
 						},
 					}),
@@ -684,7 +689,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = {
 							i(241013),	-- Zapgut Eel Stomach (QI!)
 							o(529683, {	-- Blisterskin Kelp
-								i(241014),	-- Blisterskin Kelp (QI!)
+								["coords"] = {
+									{ 48.0, 28.5, MAP.MIDNIGHT.ZULAMAN },
+									{ 48.4, 26.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 48.4, 27.7, MAP.MIDNIGHT.ZULAMAN },
+									{ 48.5, 29.2, MAP.MIDNIGHT.ZULAMAN },
+									{ 48.7, 26.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 49.4, 27.6, MAP.MIDNIGHT.ZULAMAN },
+									{ 49.9, 25.3, MAP.MIDNIGHT.ZULAMAN },
+									{ 50.3, 27.9, MAP.MIDNIGHT.ZULAMAN },
+									{ 50.6, 26.1, MAP.MIDNIGHT.ZULAMAN },
+								},
+								["groups"] = { i(241014) },	-- Blisterskin Kelp (QI!)
 							}),
 						},
 					}),
@@ -706,7 +722,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["coord"] = { 48.9, 28.4, MAP.MIDNIGHT.ZULAMAN },
 								["groups"] = { i(251075) },	-- Lost Amani Bolt (QI!)
 							}),
-							o(531227, {	--
+							o(531227, {	-- Lost Amani Oar
 								["coord"] = { 48.4, 28.3, MAP.MIDNIGHT.ZULAMAN },
 								["groups"] = { i(251272) },	-- Lost Amani Oar (QI!)
 							}),
@@ -735,7 +751,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 242391 },	-- Seeker Crikkash
 						["coord"] = { 47.3, 24.4, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(264182) },	-- Kelum'ko's Generous Aromatic Gift
+						["groups"] = {
+							i(264182, {	-- Kelum'ko's Generous Aromatic Gift
+								i(264183),	-- Kelum'ko's Generous Aromatic Gift
+							})
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.06, {	-- The Voice of Nalorakk
@@ -779,9 +799,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 248123 },	-- Fleeg
 						["coord"] = { 41.3, 80.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							i(263273),	-- Fleeg's Hidewraps
 							i(263274),	-- Furgh's Legguards
 							i(263275),	-- Furgh's Legplates
+							i(263273),	-- Fleeg's Hidewraps
 							i(263272),	-- Fleeg's Trousers
 						},
 					}),
@@ -1122,7 +1142,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91407 },	-- The Eye of the Loa
 						["provider"] = { "n", 250068 },	-- Loa Speaker Tobui
 						["coord"] = { 32.2, 31.6, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = { i(246621) },	-- Venomous Horn
+						["groups"] = { i(246621) },	-- Venomous Horn (QI!)
 					}),
 					q(91404, {	-- A Most Vile Venom
 						["sourceQuests"] = { 91563 },	-- Halazzi's Hunt
@@ -1254,6 +1274,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 254146 },	-- Rakan
 						["coord"] = { 43.5, 68.84, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(267005) },	-- Rakan's Totem (QI!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.15, {	-- Something Vile This Way Comes
@@ -1326,7 +1347,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 									{ 35.6, 81.7, MAP.MIDNIGHT.ZULAMAN },
 									{ 37.5, 81.2, MAP.MIDNIGHT.ZULAMAN },
 								},
-								["groups"] = { i(264166) },	-- Void Artifact Shard
+								["groups"] = { i(264166) },	-- Void Artifact Shard (QI!)
 							}),
 						},
 					}),

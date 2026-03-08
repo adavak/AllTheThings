@@ -291,7 +291,6 @@ root(ROOTS.Unsorted, {
 				i(262724),	-- Currency Wallet
 				i(262994),	-- Phial of Ritual Fluid
 				i(263974),	-- Relaxing Tisane
-				i(264183),	-- Kelum'ko's Generous Aromatic Gift
 				i(264391),	-- Sanctified Touch
 				i(264990),	-- Fairbreeze Franciacorta
 				i(265045),	-- Sealed Blood Vial
@@ -537,7 +536,6 @@ root(ROOTS.Unsorted, {
 				i(265749),	-- Idol of the Depths \\ [PH] Threshadon Loa Blessing
 				i(266183),	-- Enigmatic Voidclarion
 				i(266440),	-- Idol of Growth
-				i(267005),	-- Rakan's Totem
 				i(267040),	-- Sea Caller
 				i(267614),	-- Whispering Phial
 				-- QI /Devourer??
@@ -908,8 +906,6 @@ root(ROOTS.Unsorted, {
 				i(267391),	-- Test Item [DNT] - Dispelling a poison from target
 				i(267392),	-- Test Item [DNT] - When you have poison dispelled from you
 				i(267403),	-- Test Item [DNT] - Apply Poison - DISPEL TYPE
-				i(265739),	-- Amani Heartstring Pendant
-				i(265740),	-- Amani Totemstring
 				-- Trinket
 				i(264878),	-- Astalor's Anguish Agitator
 				-- Trinket

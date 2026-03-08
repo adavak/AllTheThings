@@ -756,17 +756,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(92157, {	-- Ritual Activity
 						["sourceQuests"] = { 92156 },	-- It Follows Me
 						["provider"] = { "n", 249935 },	-- Lanlae Noxa
-						["coord"] = { 69.1, 63.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						["coord"] = { 64.7, 64.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
 					q(92158, {	-- Let it In
 						["sourceQuests"] = { 92157 },	-- Ritual Activity
 						["provider"] = { "n", 249935 },	-- Lanlae Noxa
-						["coord"] = { 67.1, 65.4, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						["coord"] = { 62.9, 66.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
 					q(92159, {	-- A Final Destination
 						["sourceQuests"] = { 92158 },	-- Let it In
 						["provider"] = { "n", 251277 },	-- Lanlae Noxa
-						["coord"] = { 74.4, 60.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						["coord"] = { 69.1, 62.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 						["groups"] = {
 							i(264304),	-- [DNT] Cloth Chest
 							i(264305),	-- [DNT] Leather Chest

@@ -28,13 +28,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 41.4, 32.3, MAP.MIDNIGHT.HARANDAR },
 					["groups"] = { i(269603) },	-- Verdant Stalker Sludge (QI!)
 				}),
-				q(91806, {	-- Big Game Hunting
-					["coord"] = { 29.3, 37.7, MAP.MIDNIGHT.HARANDAR },
-					["groups"] = {
-						i(258324),	-- Stolen Game Meat (QI!)
-						o(612282),	-- Stolen Meat
-					},
-				}),
 				q(92119, {	-- Bitterbloom Burn Down
 					["coord"] = { 32.1, 69.5, MAP.MIDNIGHT.HARANDAR },
 				}),
