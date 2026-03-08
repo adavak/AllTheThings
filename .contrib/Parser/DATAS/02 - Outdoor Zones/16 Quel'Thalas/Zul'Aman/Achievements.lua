@@ -21,11 +21,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					crit(112845, {	-- Hastily-Scribbled Note
 						["provider"] = { "o", 633805 },	-- Hastily-Scribbled Note
-						["coord"] = { 46.5, 41.3, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 46.4, 41.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					crit(112039, {	-- Message in a Bottle
 						["provider"] = { "o", 633792 },	-- Message in a Bottle
-						["coord"] = { 54.9, 32.5, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 54.9, 32.4, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					crit(112844, {	-- Moldy Diary Found
 						["provider"] = { "o", 633815 },	-- Moldy Diary
@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					crit(112846, {	-- Scrap of Singed Paper
 						["provider"] = { "o", 633814 },	-- Scrap of Singed Paper
-						["coord"] = { 54.3, 20.7, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 54.3, 20.6, MAP.MIDNIGHT.ZULAMAN },
 					}),
 				},
 			}),
