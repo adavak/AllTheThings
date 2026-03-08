@@ -3278,15 +3278,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 697,	-- Bloodscalp Shaman
 				}),
-				-- #if BEFORE CATA
-				i(4611, {	-- Blue Pearl
-					["crs"] = {
-						877,	-- Saltscale Forager
-						879,	-- Saltscale Hunter
-						871,	-- Saltscale Warrior
-					},
-				}),
-				-- #endif
 				i(1703, {	-- Crystal Basilisk Spine
 					["timeline"] = { REMOVED_4_0_3 },
 					["cr"] = 689,	-- Crystal Spine Basilisk
