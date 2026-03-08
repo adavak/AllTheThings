@@ -336,4 +336,8 @@ i(0, 1224894);		-- Wild Mana Lily
 i(0, 1224896);		-- Wild Sanguithorn
 i(0, 1224893);		-- Wild Tranquility Bloom
 --- SPECIALIZATION ---
+i(0, 1221181);		-- Empowered Mulch
+i(0, 1221172);		-- Green Thumb
+i(0, 1221180);		-- Imbued Mulch
+i(0, 1221179);		-- Magical Mulch
 i(0, 1223014);		-- Overload Infused Herb

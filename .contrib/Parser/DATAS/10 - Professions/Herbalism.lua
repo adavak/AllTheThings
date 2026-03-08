@@ -1580,6 +1580,10 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
 			["groups"] = sharedData({ ["cost"] = {{ "c", MID_HERBALISM_KNOWLEDGE, 1 }} }, {
+				r(1221181),	-- Empowered Mulch
+				r(1221172),	-- Green Thumb
+				r(1221180),	-- Imbued Mulch
+				r(1221179),	-- Magical Mulch
 				r(1223014),	-- Overload Infused Herb
 			}),
 		}),
