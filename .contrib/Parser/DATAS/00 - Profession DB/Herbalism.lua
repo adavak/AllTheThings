@@ -291,49 +291,49 @@ i(0, 1250314);	-- Phantom Bloom
 ------------------
 -- PATCH 12.0.1 --
 ------------------
-r(471009);		-- Herb Gathering (Quel'Thalas)
-r(1265814);		-- Artisan Herbalist's Moxie
-r(1265728);		-- Deftness
-r(1265720);		-- Finesse
-r(1265713);		-- Knowledge
-r(1265724);		-- Perception
-r(1265710);		-- Quality
-r(1265716);		-- Skill
-r(1225182);		-- Thalassian Phoenix Tail
+i(0, 471009);		-- Herb Gathering (Quel'Thalas)
+i(0, 1265814);		-- Artisan Herbalist's Moxie
+i(0, 1265728);		-- Deftness
+i(0, 1265720);		-- Finesse
+i(0, 1265713);		-- Knowledge
+i(0, 1265724);		-- Perception
+i(0, 1265710);		-- Quality
+i(0, 1265716);		-- Skill
+i(0, 1225182);		-- Thalassian Phoenix Tail
 --- DISCOVERY ---
-r(1223138);		-- Argentleaf
-r(1223137);		-- Azeroot
-r(1224882);		-- Lightfused Argentleaf
-r(1224885);		-- Lightfused Azeroot
-r(1224884);		-- Lightfused Mana Lily
-r(1224886);		-- Lightfused Sanguithorn
-r(1224883);		-- Lightfused Tranquility Bloom
-r(1223146);		-- Lush Argentleaf
-r(1223150);		-- Lush Azeroot
-r(1223149);		-- Lush Mana Lily
-r(1223151);		-- Lush Sanguithorn
-r(1223148);		-- Lush Tranquility Bloom
-r(1223139);		-- Mana Lily
-r(1225128);		-- Overload Lightfused Herb
-r(1225137);		-- Overload Primal Herb
-r(1225144);		-- Overload Voidbound Herb
-r(1225150);		-- Overload Wild Herb
-r(1224887);		-- Primal Argentleaf
-r(1224890);		-- Primal Azeroot
-r(1224889);		-- Primal Mana Lily
-r(1224891);		-- Primal Sanguithorn
-r(1224888);		-- Primal Tranquility Bloom
-r(1223135);		-- Sanguithorn
-r(1223099);		-- Tranquility Bloom
-r(1224897);		-- Voidbound Argentleaf
-r(1224900);		-- Voidbound Azeroot
-r(1224899);		-- Voidbound Mana Lily
-r(1224901);		-- Voidbound Sanguithorn
-r(1224898);		-- Voidbound Tranquility Bloom
-r(1224892);		-- Wild Argentleaf
-r(1224895);		-- Wild Azeroot
-r(1224894);		-- Wild Mana Lily
-r(1224896);		-- Wild Sanguithorn
-r(1224893);		-- Wild Tranquility Bloom
+i(0, 1223138);		-- Argentleaf
+i(0, 1223137);		-- Azeroot
+i(0, 1224882);		-- Lightfused Argentleaf
+i(0, 1224885);		-- Lightfused Azeroot
+i(0, 1224884);		-- Lightfused Mana Lily
+i(0, 1224886);		-- Lightfused Sanguithorn
+i(0, 1224883);		-- Lightfused Tranquility Bloom
+i(0, 1223146);		-- Lush Argentleaf
+i(0, 1223150);		-- Lush Azeroot
+i(0, 1223149);		-- Lush Mana Lily
+i(0, 1223151);		-- Lush Sanguithorn
+i(0, 1223148);		-- Lush Tranquility Bloom
+i(0, 1223139);		-- Mana Lily
+i(0, 1225128);		-- Overload Lightfused Herb
+i(0, 1225137);		-- Overload Primal Herb
+i(0, 1225144);		-- Overload Voidbound Herb
+i(0, 1225150);		-- Overload Wild Herb
+i(0, 1224887);		-- Primal Argentleaf
+i(0, 1224890);		-- Primal Azeroot
+i(0, 1224889);		-- Primal Mana Lily
+i(0, 1224891);		-- Primal Sanguithorn
+i(0, 1224888);		-- Primal Tranquility Bloom
+i(0, 1223135);		-- Sanguithorn
+i(0, 1223099);		-- Tranquility Bloom
+i(0, 1224897);		-- Voidbound Argentleaf
+i(0, 1224900);		-- Voidbound Azeroot
+i(0, 1224899);		-- Voidbound Mana Lily
+i(0, 1224901);		-- Voidbound Sanguithorn
+i(0, 1224898);		-- Voidbound Tranquility Bloom
+i(0, 1224892);		-- Wild Argentleaf
+i(0, 1224895);		-- Wild Azeroot
+i(0, 1224894);		-- Wild Mana Lily
+i(0, 1224896);		-- Wild Sanguithorn
+i(0, 1224893);		-- Wild Tranquility Bloom
 --- SPECIALIZATION ---
-r(1223014);		-- Overload Infused Herb
+i(0, 1223014);		-- Overload Infused Herb
