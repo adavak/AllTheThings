@@ -2331,10 +2331,12 @@ i(263222, 1268949);	-- Arcanovoid Construct
 i(246590, 1242904);	-- Ashes of Belo'ren
 i(257085, 1261155);	-- Augmented Stormray
 i(257197, 1261348);	-- Blessed Amani Burrower
+i(0, 1251765);		-- Blossombranch Groveglider
 i(252011, 1253924);	-- Brilliant Petalwing
 i(262620, 1257058);	-- Calamitous Carrion
 i(257156, 1261323);	-- Cerulean Hawkstrider
 i(252014, 1253929);	-- Cerulean Sporeglider
+i(0, 1251762);		-- Cindertuft Groveglider
 i(257147, 1261302);	-- Cobalt Dragonhawk
 i(263451, 1270522);	-- Comfy Bel'ameth Flying Quilt
 i(263452, 1270523);	-- Comfy Silvermoon Flying Quilt
@@ -2349,8 +2351,10 @@ i(262502, 1268926);	-- Elven Arcane Guardian
 i(246734, 1243593);	-- Fierce Grimlynx
 i(257142, 1261291);	-- Fiery Dragonhawk
 i(257448, 1261585);	-- Frenzied Shredclaw
+i(0, 1251697);		-- Frostfall Groveglider
 i(260228, 1262840);	-- Galactic Gladiator's Goredrake
 i(257199, 1261349);	-- Giganto Manis
+i(0, 1251764);		-- Gloombough Groveglider
 i(269009, 1284640);	-- Golden Ashened Cataclysm (CN ONLY)
 i(257444, 1261576);	-- Hexed Vilefeather Eagle
 i(257446, 1261583);	-- Insatiable Shredclaw
@@ -2378,8 +2382,3 @@ i(263579, 1270673);	-- Vivacious Chlorocoers
 i(263580, 1270675);	-- Vivid Chloroceros
 i(260696, 1266702);	-- Voidbound Stormray
 i(257200, 1261351);	-- Witherbark Pango
---- UNSORTED ---
-i(0, 1251765);	-- Blossombranch Groveglider
-i(0, 1251762);	-- Cindertuft Groveglider
-i(0, 1251697);	-- Frostfall Groveglider
-i(0, 1251764);	-- Gloombough Groveglider

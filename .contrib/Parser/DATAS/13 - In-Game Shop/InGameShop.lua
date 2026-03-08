@@ -793,18 +793,18 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_9_0_5 },
 		}),
 		------ Scurrywind Groveglider Collection ------
-		-- i(xxxxxx, {	-- Blossombranch Groveglider (MOUNT!)
-		-- 	["timeline"] = { ADDED_12_0_1, },
-		-- }),
-		-- i(xxxxxx, {	-- Cindertuft Groveglider (MOUNT!)
-		-- 	["timeline"] = { ADDED_12_0_1, },
-		-- }),
-		-- i(xxxxxx, {	-- Frostfall Groveglider (MOUNT!)
-		-- 	["timeline"] = { ADDED_12_0_1, },
-		-- }),
-		-- i(xxxxxx, {	-- Gloombough Groveglider (MOUNT!)
-		-- 	["timeline"] = { ADDED_12_0_1, },
-		-- }),
+		mount(1251765, {	-- Blossombranch Groveglider (MOUNT!)
+			["timeline"] = { ADDED_12_0_1, },
+		}),
+		mount(1251762, {	-- Cindertuft Groveglider (MOUNT!)
+			["timeline"] = { ADDED_12_0_1, },
+		}),
+		mount(1251697, {	-- Frostfall Groveglider (MOUNT!)
+			["timeline"] = { ADDED_12_0_1, },
+		}),
+		mount(1251764, {	-- Gloombough Groveglider (MOUNT!)
+			["timeline"] = { ADDED_12_0_1, },
+		}),
 		i(156564, {	-- Shu-zen, the Divine Sentinel (MOUNT!)
 			["timeline"] = { ADDED_8_0_1 },
 		}),
