@@ -7341,7 +7341,7 @@ q(87350,{type="hqt"}),
 q(94426,{type="hqt"}),
 q(91432,{type="hqt"}),
 q(91457,{repeatable=1,type="hqt"})})}),
-m(2437,{maps={2536},lvl=83,g={
+m(2437,{maps={2536,2583,2584},lvl=83,g={
 h(-45,{
 q(91965,{repeatable=1,type="hqt"}),
 q(91964,{repeatable=1,type="hqt"}),
@@ -7389,6 +7389,9 @@ q(94510,{type="hqt",u=2})}})}),
 h(-705,{awp=120000,g={
 h(-45,{
 q(94788,{isDaily=1,type="hqt"})})}}),
+h(-44,{awp=120001,g={
+prof(197,{
+q(89423,{type="hqt"})})}}),
 h(-682,{awp=120000,g={
 q(94905,{type="hqt"})}}),
 h(-714,{awp=120000,g={

@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
-local ach,ah,campsite,cu,de,exp,faction,flt,fp,h,i,m,n,prof,q,r,title=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCurrencyClass,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateNPC,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateTitle;
+local ach,ah,campsite,cq,cu,de,exp,faction,flt,fp,h,i,m,n,prof,q,r,title=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateCurrencyClass,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateNPC,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateTitle;
 categories.Housing=
 h(-682,{SortPriority=45,g={
 h(-12,{awp=110207,g={
@@ -717,9 +717,10 @@ de(10273,{cost={{"c",3363,5}},itemID=254235,spellID=1257513}),
 de(9422,{cost={{"c",3363,10}},itemID=253525,spellID=1256590}),
 de(9423,{cost={{"c",3363,15}},itemID=253526,spellID=1256591}),
 de(9476,{cost={{"c",3363,15}},itemID=253599,spellID=1256818}),
-i(253802,{b=1,cost={{"c",3363,30}},f=55,questID=92710,spellID=1257276})}}),
+cq(92710,{b=1,cost={{"c",3363,30}},description="Once you've purchased this item, you can talk to Hesta Forlath in Midnight Silvermoon City (/att n:252916) to purchase paintings.\n\nYou can safely delete this item.",itemID=253802,spellID=1257276})}}),
 h(-45,{
 q(92608,{coords={
+[2351]={{53.8,55.6}},
 [2352]={{53,37.2}}},isWeekly=1,lvl=25,qgs={252717}})})})}}),
 m(2352,{awp=110207,g={
 h(-30,{

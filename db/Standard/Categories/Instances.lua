@@ -3747,7 +3747,7 @@ q(7492,{coords={
 [88]={{41.4,54.2}},
 [90]={{69.2,49.2}}},isBreadcrumb=1,maps={69},nextQuests={7489},qgs={10879,10880,10881},r=1,rwp=40003,u=2}),
 q(5527,{coords={
-[80]={{51.7,45.1}}},maps={81},qgs={11801},qis={22201},rwp=40003,u=2,g={
+[80]={{51.7,45.1}}},description="The character must first visit Dire Maul, so that the Moonglade NPC will offer a conversation that unlocks the quest.",maps={81},qgs={11801},qis={22201},rwp=40003,u=2,g={
 o(179565,{coords={
 [81]={{63.2,55.4}}}})}}),
 q(5526,{coords={
@@ -64293,6 +64293,9 @@ gach(61615),
 mnt(1265784,{b=1,itemID=260231,lvl=10})}})})}}),
 inst(1315,{awp=120001,coords={
 [2437]={{44,39.6}}},maps={2501},g={
+h(-45,{
+q(93575,{coords={
+[2437]={{44.1,34.5}}},lvl=83,qgs={244521},sourceQuests={92084}})}),
 d(101,{difficulties={1,2,23},g={
 e(2810,{crs={247570,247572},g={
 s(298172,251174,{b=1,f=32,lvl=78}),
@@ -64366,6 +64369,7 @@ r(1230768,{itemID=258518,requireSkill=164,skillID=2907}),
 r(1230766,{itemID=258487,requireSkill=164,skillID=2907}),
 de(15069,{itemID=263238,spellID=1270139}),
 s(298139,251138,{b=1,f=7,lvl=78}),
+s(301396,258045,{f=35}),
 s(298142,251141,{b=1,f=6,lvl=78}),
 i(251142,{b=1,f=51,lvl=78}),
 s(298140,251139,{b=1,f=4,lvl=78}),

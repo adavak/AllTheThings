@@ -19112,7 +19112,8 @@ i(168616,{b=1,f=55,lvl=50,spellID=298607})}})}})}),
 h(-45,{
 q(51903,{altQuests={51994},lvl=40,r=2,sourceQuests={53061}}),
 q(51904,{altQuests={51994},lvl=40,maps={1022},r=2,sourceQuests={51903}}),
-q(51870,{altQuests={51994},lvl=40,r=1,sourceQuests={53062}}),
+q(51870,{altQuests={51994},coords={
+[862]={{58.4,62.6}}},lvl=40,qgs={135691},r=1,sourceQuests={53062}}),
 q(51888,{altQuests={51994},lvl=40,maps={1022},r=1,sourceQuests={51870}}),
 q(53061,{altQuests={51994},DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",53062},lvl=35,nextQuests={51903},r=2}),
 q(53062,{altQuests={51994},DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",53061},lvl=35,nextQuests={51870},r=1}),

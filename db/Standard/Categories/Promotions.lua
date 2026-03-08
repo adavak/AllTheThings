@@ -66,8 +66,8 @@ p(329,{b=1,itemID=71726,npcID=54438,spellID=101606,u=3,g={
 crit(34643,{achID=6185,awp=40300,id=3,u=2})}})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 p(333,{b=1,itemID=72134,npcID=54730,spellID=102317,u=3}))}}),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 ach(40910,{description="Rewarded for the Aid in the stress testing of the realms in China",rwp=110005,u=2})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-mnt(366962,{description="Rewarded for returning to World of Warcraft in 2024. China Only.",itemID=190231,lvl=10,u=2})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-p(4286,{b=1,description="Rewarded for returning to World of Warcraft in 2024. China Only.",itemID=210409,npcID=211942,spellID=425472,u=2})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+mnt(366962,{itemID=190231,lvl=10,u=2})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+p(4286,{b=1,itemID=210409,npcID=211942,spellID=425472,u=2})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 mnt(464443,{b=1,description="Rewarded for returning to World of Warcraft in 2024. China Only.",itemID=229128,lvl=10,u=2})),
 mnt(136505,{awp=110002,itemID=93671,lvl=10,u=2}),
 p(3254,{awp=110002,description="Obtained by gifting an eligible creator's channel two Twitch subscriptions between August 26th, 03:00 p.m. & September 26th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.\n\nSpecial Note: If you buy a sub for yourself and gift one more, that will also reward the pet!",itemID=190609,npcID=185621,spellID=367800,u=2}),

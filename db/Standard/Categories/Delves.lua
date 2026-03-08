@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
-local ach,ah,campsite,cq,crit,cu,de,en,exp,faction,flt,h,i,m,mm,mnt,n,o,p,q,r,s,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateDecor,_.CreateEnsemble,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local ach,ah,campsite,cq,crit,cu,de,en,exp,faction,flt,fp,h,i,m,mm,mnt,n,o,p,q,r,s,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateAchievementCriteria,_.CreateCurrencyClass,_.CreateDecor,_.CreateEnsemble,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateObject,_.CreateSpecies,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.Delves=
 h(-204,{SortPriority=2,g={
 x(11,{
@@ -512,8 +512,7 @@ i(228581,{b=1}),
 i(234329,{awp=110100,b=1}),
 i(234330,{awp=110100,b=1}),
 i(242849,{awp=110200,b=1}),
-i(242850,{awp=110200,b=1}),
-cu(2803)}),
+i(242850,{awp=110200,b=1})}),
 h(-381,{providers={{"o",413590}},g={
 i(220520,{b=1,cost={{"c",3028,1}},f=55,lvl=70,rwp=110100,u=2}),
 i(235897,{awp=110100,b=1,cost={{"c",3028,1}},f=55,lvl=70,rwp=110200,u=2}),
@@ -2266,7 +2265,8 @@ i(263488,{b=1,f=55,spellID=1277957}),
 i(257386,{lvl=80}),
 i(257379,{f=55,spellID=1261502}),
 i(265714,{lvl=90}),
-i(262586,{b=1})}),
+i(262586,{b=1}),
+cu(2803)}),
 flt(200,{
 r(1246893,{itemID=259366,requireSkill=755,skillID=2914}),
 r(1230478,{itemID=256718,requireSkill=755,skillID=2914}),
@@ -2344,12 +2344,15 @@ i(251787,{b=1,f=53,lvl=78,spellID=1253115}),
 i(251785,{b=1,f=53,lvl=78,spellID=1253113})})}),
 flt(2,{
 s(302611,262983,{f=23}),
+s(303518,264852,{f=2}),
+s(303514,264847,{f=3}),
 s(302620,262992,{f=23,spellID=1269965}),
 s(302599,262970,{f=1}),
 s(303515,264848,{f=3}),
 s(303523,264857,{f=2}),
 s(303521,264855,{f=2}),
 s(303520,264854,{f=2}),
+s(302739,263442,{f=2}),
 s(303517,264851,{f=2})}),
 h(-679,{
 de(15567,{itemID=264329,spellID=1271716}),
@@ -2374,6 +2377,7 @@ s(300974,249669,{b=1,f=29,lvl=78}),
 s(302103,251885,{b=1,f=25,lvl=78,spellID=1253359}),
 s(301995,249610,{b=1,f=20,lvl=78}),
 s(300969,249661,{b=1,f=21,lvl=78}),
+s(302082,260189,{b=1,f=28,lvl=78}),
 s(302081,260188,{b=1,f=22,lvl=78}),
 s(301997,259462,{b=1,f=32,lvl=78}),
 s(300978,249677,{b=1,f=35,lvl=78}),
@@ -2584,6 +2588,13 @@ ach(61899,{
 crit(111288,{achID=61901,id=9})}),
 ach(61732,{
 crit(111029,{achID=61741,id=9})})}}),
+h(-32,{
+fp(3169),
+fp(3170),
+fp(3171),
+fp(3172),
+fp(3173),
+fp(3174)}),
 h(-45,{
 q(93427,{coords={
 [2405]={{42.7,70.8}},
@@ -2656,7 +2667,7 @@ q(93421,{coords={
 [2510]={{39.2,42.9}}},lvl=80,providers={{"o",612264}}})}),
 h(-56,{awp=120000,g={
 o(618291,{coords={
-[2510]={{37.2,28.7}}},questID=94039,g={
+[2510]={{37.6,27.6}}},questID=94039,g={
 crit(111270,{achID=61897,id=3})}}),
 o(618279,{coords={
 [2510]={{70.2,29.8}}},questID=94022,g={
