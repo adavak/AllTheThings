@@ -1952,6 +1952,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(95517, 249849),	-- Skinning Ha'kalawe
 			FirstSkin(93632, 246633),	-- Skinning Harried Hawkstrider
 			FirstSkin(88531, 245690),	-- Skinning Lumenfin
+			FirstSkin(88524, 247101),	-- Skinning Netherscythe
 			FirstSkin(93634, 242032),	-- Skinning Oophaga
 			FirstSkin(88542, 253304),	-- Skinning Paingolin
 			FirstSkin(95516, 250321),	-- Skinning Pterrock
@@ -1960,6 +1961,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(95519, 248741),	-- Skinning Rhazul
 			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
 			FirstSkin(95518, 250180),	-- Skinning Serrasa
+			FirstSkin(88526, 245699),	-- Skinning Silverscale
 			FirstSkin(95470, 242031),	-- Skinning Spinefrill
 			FirstSkin(95446, 250876),	-- Skinning Terrinor
 			FirstSkin(93637, 242033),	-- Skinning Tiny Vermin
@@ -1967,6 +1969,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(93635, 245691),	-- Skinning The Decaying Diamondback
 			FirstSkin(95471, 242035),	-- Skinning The Devouring Invader
 			FirstSkin(93636, 242024),	-- Skinning The Snapping Scourge
+			FirstSkin(88532, 247096),	-- Skinning Umbrafang
 		})),
 		spell(471014, {	-- Midnight Skinning
 			i(238523),	-- Carving Canine
