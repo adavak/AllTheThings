@@ -1017,14 +1017,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.12, {	-- Oaths to Family
-					--[[q(90838, {	--
+					q(90838, {	-- Oaths and Heirlooms
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
-						["provider"] = { "n", XXXX },	-- XXXXX
-						["coord"] = { X, Y, MAP.MIDNIGHT.VOIDSTORM },
+						["provider"] = { "n", 244490 },	-- Kifaan
+						["coord"] = { 50.7, 73.2, MAP.MIDNIGHT.VOIDSTORM },
 						["isBreadcrumb"] = true,
-					}),]]--
+					}),
 					q(90845, {	-- Distant Memories
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: temo source, fix to 90838 when you find it)
+						["sourceQuests"] = { 90838 },	-- Oaths and Heirlooms
 						["provider"] = { "n", 244499 },	-- Kifaan
 						["coord"] = { 44.7, 68.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
