@@ -150,7 +150,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			q(95114, {	-- Prey: A Crimson Summons
 				--["sourceQuests"] = { ??? },	-- ??
 				["provider"] = { "n", 259865 },	-- Image of Astalor Bloodsworn
-				["coord"] = { 47.6, 71.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["coords"] = {
+					{ 47.6, 71.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+					{ 51.6, 70.1, MAP.MIDNIGHT.VOIDSTORM },
+				},
 				["isBreadcrumb"] = true,
 				["lvl"] = 90,
 			}),
@@ -508,13 +511,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 					}),
 					i(267399, {	-- Technique: Sturdy Ren'dorei Cask (RECIPE!)
 						["cost"] = {
-							{ "c", ARTISAN_MOXIE.ENCHANTING, 150 },	-- Artisan Enchanter's Moxie (TODO: take a look if they fix it)
+							{ "c", ARTISAN_MOXIE.INSCRIPTION, 150 },
 							{ "c", 3392, 500 },	-- Remnant of Anguish
 						},
 					}),
 					i(267400, {	-- Technique: Wild Hanging Scroll (RECIPE!)
 						["cost"] = {
-							{ "c", ARTISAN_MOXIE.ENCHANTING, 150 },	-- Artisan Enchanter's Moxie (TODO: take a look if they fix it)
+							{ "c", ARTISAN_MOXIE.INSCRIPTION, 150 },
 							{ "c", 3392, 500 },	-- Remnant of Anguish
 						},
 					}),

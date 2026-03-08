@@ -323,7 +323,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["coord"] = { 52.1, 68.3, KARESH },
 							["groups"] = {
 								ach(42730),	-- Jump, Jump, and Away!
-								i(246293), 	-- Buckler of the Last Stand (COSMETIC!)
+								i(246293),	-- Buckler of the Last Stand (COSMETIC!)
 							},
 						}),
 						o(529537, {	-- Efrat's Forgotten Bulwark

@@ -1735,7 +1735,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(24708, {	-- The Fossil-Finder 3000
 					["sourceQuest"] = 24730,	-- Roll the Bones
 					["providers"] = {
-						{ "n", 	9272 },	-- Spark Nilminer
+						{ "n", 9272 },	-- Spark Nilminer
 						{ "i", 50405 },	-- Fossil-Finder 3000
 					},
 					["coord"] = { 31.9, 50.3, UNGORO_CRATER },

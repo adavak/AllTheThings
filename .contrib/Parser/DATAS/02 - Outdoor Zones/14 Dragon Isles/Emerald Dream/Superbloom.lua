@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 								i(210383),	-- Winter Warden's Bulwark
 								i(210400),	-- Winter Warden's Gavel
 								i(210401),	-- Winter Warden's Greatsword
-								i(208365), 	-- Winter's Stand
+								i(208365),	-- Winter's Stand
 							-- }),
 							-- filter(FINGER_F, {	-- Commented out due Tooltip Length
 								i(210376),	-- Beautiful Blizzard Binding

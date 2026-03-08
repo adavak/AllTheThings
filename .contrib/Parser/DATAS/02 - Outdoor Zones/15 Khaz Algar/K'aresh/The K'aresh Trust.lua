@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}))),
 				n(QUESTS, {
-					header(HEADERS.Item, 242733, bubbleDownSelf({ 	-- Blue Barry (Ba'eth's Request Storyline)
+					header(HEADERS.Item, 242733, bubbleDownSelf({	-- Blue Barry (Ba'eth's Request Storyline)
 						["minReputation"] = { FACTION_THE_KARESH_TRUST, 9 },	-- The K'aresh Trust Renown 9
 					},{
 						-- Quests have daily lockout.

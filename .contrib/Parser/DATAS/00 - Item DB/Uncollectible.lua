@@ -1952,7 +1952,6 @@ i(210451);	-- Imp Tail
 i(209863);	-- Moontouched Thorns
 i(209864);	-- Moontouched Thorns
 i(209865);	-- Moontouched Thorns
-i(208856);	-- Pocket Lint
 i(211270);	-- Pristine Core Leather
 i(210452);	-- Small Demon Horn
 i(209866);	-- Thornspeaker Ritual Knife

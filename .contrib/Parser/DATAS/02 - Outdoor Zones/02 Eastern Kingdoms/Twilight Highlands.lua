@@ -335,7 +335,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			-- #if ANYCLASSIC
- 			n(PROFESSIONS, {
+			n(PROFESSIONS, {
 				prof(FISHING, {
 					o(208311, {	-- Deepsea Sagefish School
 						i(22739),	-- Tome of Polymorph: Turtle (CI!)

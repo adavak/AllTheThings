@@ -132,7 +132,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = {
 							i(232441),	-- Boreal Battleaxe
 							i(232442),	-- Boreal Blade
-							i(238250), 	-- Boreal Cleaver
+							i(238250),	-- Boreal Cleaver
 							i(235660),	-- Boreal Glaive
 							i(238249),	-- Boreal Greatsword
 							i(232446),	-- Boreal Rifle

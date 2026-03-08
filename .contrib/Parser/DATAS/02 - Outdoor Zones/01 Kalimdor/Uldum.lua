@@ -234,7 +234,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			-- #if ANYCLASSIC
- 			n(PROFESSIONS, {
+			n(PROFESSIONS, {
 				prof(FISHING, {
 					o(202779, {	-- Blackbelly Mudfish School
 						i(22739),	-- Tome of Polymorph: Turtle (CI!)

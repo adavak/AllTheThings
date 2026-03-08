@@ -84,7 +84,7 @@ root(ROOTS.Zones, {
 					}),
 					q(29784, {	-- Balanced Perspective
 						["sourceQuests"] = {
-							29779, 	-- The Direct Solution
+							29779,	-- The Direct Solution
 							29780,	-- Do No Evil
 							29781,	-- MOnkey Advisory Warning
 						},

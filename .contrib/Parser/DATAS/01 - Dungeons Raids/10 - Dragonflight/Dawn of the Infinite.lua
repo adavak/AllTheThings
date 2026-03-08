@@ -658,16 +658,16 @@ local QUANTUM_GROUP = sharedData({
 		hqt(77610, {	-- when you learn everything from Quantum Wand
 			["name"] = "Quantum Wand completed.",
 		}),
-		ig(152871, {	-- Seapriest's Wand 				(NYI)
+		ig(152871, {	-- Seapriest's Wand					(NYI)
 			["races"] = HORDE_ONLY,
 		}),
-		ig(161924, {	-- Seapriest's Wand 				(NYI)
+		ig(161924, {	-- Seapriest's Wand					(NYI)
 			["races"] = ALLIANCE_ONLY,
 		}),
-		ig(152873, {	-- Talanji's Salutary Scepter 		(NYI)
+		ig(152873, {	-- Talanji's Salutary Scepter		(NYI)
 			["races"] = HORDE_ONLY,
 		}),
-		ig(161926, {	-- Talanji's Salutary Scepter 		(NYI)
+		ig(161926, {	-- Talanji's Salutary Scepter		(NYI)
 			["races"] = ALLIANCE_ONLY,
 		}),
 		ig(134728),	-- Cold-Touched Wand					(Removed)

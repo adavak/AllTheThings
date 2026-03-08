@@ -37,7 +37,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				q(70720, {	-- Can't Have These
 					["coord"] = { 12.4, 42.4, THE_AZURE_SPAN },
 					["groups"] = {
-						i(199704),	-- Artifact Fragment (QI!)
+						o(381283, {	-- Iskhdormi Artifact
+							["coords"] = {
+								{ 12.2, 41.8, THE_AZURE_SPAN },
+								{ 12.4, 40.7, THE_AZURE_SPAN },
+								{ 12.5, 43.1, THE_AZURE_SPAN },
+							},
+							["groups"] = { i(199704) },	-- Artifact Fragment (QI!)
+						}),
 						i(199692),	-- Artifact Locator (QI!)
 					},
 				}),

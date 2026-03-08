@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["questID"] = 94747,
 					["groups"] = { i(262616) },	-- Lively Songwriter's Quill (DECOR!)
 				}),
-				o(613697, {	-- Gift of the Phoenix	--TODO or 621947???
+				o(613697, {	-- Gift of the Phoenix
 					["coord"] = { 41.0, 19.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["questID"] = 93544,
 					["groups"] = {

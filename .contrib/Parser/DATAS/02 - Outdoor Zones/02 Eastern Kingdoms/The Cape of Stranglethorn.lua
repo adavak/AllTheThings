@@ -2923,7 +2923,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["collectible"] = false,
 						["providers"] = {
 							{ "n", 17512},	-- Arred <Jewelcrafting Supplies>
-							{ "n", 49887}, 	-- Gappy Silvertooth <Bling Merchant>
+							{ "n", 49887},	-- Gappy Silvertooth <Bling Merchant>
 							{ "n", 16624},	-- Gelanthis <Jewelcrafting Supplies>
 							{ "n", 2849},	-- Qixdi Goodstitch <Cloth Armor & Accessories>
 						},

@@ -8020,10 +8020,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 -- This will prevent instances that don't have Timewalking currently from showing in the mini list.
 AddInstancesToRotation(EXPANSION.SL, {
 	-- Dungeons
-	1188, 	-- De Other Side
+	1188,	-- De Other Side
 	1185,	-- Halls of Atonement
 	1183,	-- Plaguefall
-	1189, 	-- Sanguine Depths
+	1189,	-- Sanguine Depths
 	1186,	-- Spires of Ascension
 	1182,	-- The Necrotic Wake
 });

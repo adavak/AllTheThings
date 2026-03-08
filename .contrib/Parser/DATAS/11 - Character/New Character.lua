@@ -19,22 +19,22 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		ach(14797, {	-- Epic [Shadowlands]
 			["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_10_1_5 },
 		}),
-		applyclassicphase(BFA_PHASE_ONE, ach(12547, {	-- Epic 				[Battle For Azeorth]
+		applyclassicphase(BFA_PHASE_ONE, ach(12547, {	-- Epic					[Battle For Azeorth]
 			["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_9_0_2_LAUNCH },
 		})),
-		applyclassicphase(LEGION_PHASE_ONE, ach(10765, {	-- Brokenly Epic 	[Legion]
+		applyclassicphase(LEGION_PHASE_ONE, ach(10765, {	-- Brokenly Epic	[Legion]
 			["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1_LAUNCH },
 		})),
-		applyclassicphase(WOD_PHASE_ONE, ach(9708, {	-- Savagely Epic 		[Warlords Of Draenor]
+		applyclassicphase(WOD_PHASE_ONE, ach(9708, {	-- Savagely Epic		[Warlords Of Draenor]
 			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_7_0_3_LAUNCH },
 		})),
-		applyclassicphase(MOP_PHASE_ONE, ach(6349, {	-- Mystically Epic 		[Mists of Pandaria]
+		applyclassicphase(MOP_PHASE_ONE, ach(6349, {	-- Mystically Epic		[Mists of Pandaria]
 			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_3_LAUNCH },
 		})),
 		applyclassicphase(CATA_PHASE_ONE, ach(5372, {	-- Cataclysmically Epic [Cataclysm]
 			["timeline"] = { ADDED_4_0_3_LAUNCH, REMOVED_5_0_4 },
 		})),
-		applyclassicphase(WRATH_PHASE_ONE, ach(556, {	-- Epic 				[Wrath of the Lich King]
+		applyclassicphase(WRATH_PHASE_ONE, ach(556, {	-- Epic					[Wrath of the Lich King]
 			["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3_LAUNCH },
 		})),
 		------ Superior ------

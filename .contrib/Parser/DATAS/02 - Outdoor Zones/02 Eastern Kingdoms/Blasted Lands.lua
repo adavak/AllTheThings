@@ -1854,7 +1854,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(244777, { 	-- Surwich Peddler's Wagon (DECOR!)
+						i(244777, {	-- Surwich Peddler's Wagon (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
 							["cost"] = 8800000,	-- 880g
 						}),

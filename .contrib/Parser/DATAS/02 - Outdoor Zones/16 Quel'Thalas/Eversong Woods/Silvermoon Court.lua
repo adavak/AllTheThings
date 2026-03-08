@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["groups"] = {
 				faction(FACTION_SILVERMOON_COURT),
 				n(ACHIEVEMENTS, {
-					ach(62262, {	-- -- Silvermoon Court Champion
+					ach(62262, {	-- Silvermoon Court Champion
 						["minReputation"] = { FACTION_SILVERMOON_COURT, 20 },	-- Silvermoon Court, Renown 20
 					}),
 				}),

@@ -1384,7 +1384,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 					i(238616),	-- Book of Sin'dorei Stitches
 				},
 			}),
-			o(525899, {	-- Particularly Enchanting Tablecloth --TODO or 572540???
+			o(525899, {	-- Particularly Enchanting Tablecloth
 				["coord"] = { 31.8, 68.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["questID"] = 89084,
 				["groups"] = {

@@ -481,14 +481,12 @@ root(ROOTS.Unsorted, {
 				i(248611),	-- Blackrock Bulletin Message
 				i(248612),	-- Blackrock Bulletin Message
 				i(248715),	-- Bones of de Fallen
-				i(248724),	-- Scout's Sights
 				i(248756),	-- Shadra's Gift
 				i(248826),	-- Trigore Flank
 				i(248905),	-- Void Malgrease
 				i(248927),	-- Stormray Fin
 				i(248929),	-- Domanaar Snack Pack
 				i(248931),	-- Tarnished Vilebranch Coin
-				i(249387),	-- Latent Shadowgraft
 				i(249401),	-- Vial of Gelatinous Ooze
 				i(249407),	-- Harvested Lightwood
 				i(249414),	-- Feelings Journal
@@ -507,7 +505,6 @@ root(ROOTS.Unsorted, {
 				i(249553),	-- Lost Mirror
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
-				i(249724),	-- Sunfruit Wedge
 				i(249732),	-- Vintner's Golden
 				i(250705),	-- Naga Missive PH NAME
 				i(251899),	-- Anasterian's Book of Law
@@ -518,7 +515,6 @@ root(ROOTS.Unsorted, {
 				i(254368),	-- Soul Essence
 				i(254381),	-- Troll Torch
 				i(254665),	-- Void "Ink"
-				i(254671),	-- Talon of the Towering Ultradon
 				i(255161),	-- Callum's Belongings
 				i(257727),	-- Condensed Void Reserves
 				i(257870),	-- Void Residue
@@ -559,7 +555,6 @@ root(ROOTS.Unsorted, {
 				i(246209),	-- 12.0 Monster - Arator - Sword1H - Sword_1H_Arator_D_01
 				-- Wep Quest?
 				i(239133),	-- Infinity Blade
-				i(264433),	-- Voidformed Impaler
 			}),
 			filter(BATTLE_PETS, {
 				i(258739),	-- Chillcrawler (PET!)
@@ -893,9 +888,6 @@ root(ROOTS.Unsorted, {
 				i(264286),	-- Voidbreaker's Choker
 				i(264287),	-- Voidbreaker's Circle
 				i(264288),	-- Voidbreaker's Ring
-				-- Quest rewards?
-				i(264411),	-- Thief's Ring of Remembrance
-				i(264412),	-- Sin'dorei Magister's Keepsake
 				-- Armor
 				i(267387),	-- Test Item [DNT] - While you are poisoned
 				i(267388),	-- Test Item [DNT] - Apply Poison - Label
@@ -966,8 +958,6 @@ root(ROOTS.Unsorted, {
 				i(260763),	-- Lil' Tan Popper
 				i(260764),	-- Lil' Green Popper
 				i(260765),	-- Lil' Red Popper
-				i(260904),	-- Lost Soul Collector
-				i(260905),	-- Lost Blade of Spacial Descent
 				i(260907),	-- Lost Winter's Hunger
 				i(262715),	-- Simple Mossy Trowel
 				i(262716),	-- Simple Rosy Trowl
@@ -1081,7 +1071,6 @@ root(ROOTS.Unsorted, {
 				i(266976),	-- [PH] Hara'ti Cloak - Blue
 				i(266977),	-- [PH] Hara'ti Set - Blue
 				i(266978),	-- [PH] Hara'ti Set - Yellow
-				i(267004),	-- Twinblade of the Devourer
 				i(260386),	-- Farstrider's Forest Bow
 				i(262585),	-- Pristine Lunch Bag
 				i(262587),	-- Brown Lunch Bag

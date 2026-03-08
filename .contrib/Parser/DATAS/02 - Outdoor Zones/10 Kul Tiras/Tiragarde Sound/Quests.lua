@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(158255),	-- Sea Raider's Crushers
 					i(158250),	-- Sea Raider's Legguards
 					--
-					h(i(161249)), 	-- Jambani Britches
+					h(i(161249)),	-- Jambani Britches
 					h(i(161253)),	-- Rastari Greaves
 					h(i(161251)),	-- Torcalin Leggings
 					h(i(161246)),	-- Zanchuli Woolies
@@ -844,7 +844,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 52.5, 28.5, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(252392, { 	-- Admiral's Chandelier (DECOR!)
+					i(252392, {	-- Admiral's Chandelier (DECOR!)
 						["timeline"] = { ADDED_11_2_7 },
 					}),
 					i(153357),	-- Battlehorn of the Mountain (PQI!)

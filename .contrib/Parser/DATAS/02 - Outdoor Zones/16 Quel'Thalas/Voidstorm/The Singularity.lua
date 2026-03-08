@@ -33,6 +33,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 					}, {	-- RENOWN 8 --
 					}, {	-- RENOWN 9 --
+						q(94671, {	-- Finery Funds
+							i(FINERY_FUNDS),
+						}),
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --

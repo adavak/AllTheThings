@@ -61,7 +61,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["coord"] = { 40.0, 74.2, DEADWIND_PASS },
 						}),
 					},
-				}),	
+				}),
 				q(86965, {	-- No Ordinary Shadows
 					["sourceQuest"] = 86964,	-- For Gold and Glory!
 					["qg"] = 237820,	-- Deceased Adventurer
@@ -81,7 +81,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["lvl"] = 60,
 					["groups"] = {
 						objective(1, {
-							["provider"] = { "n", 237819 },	
+							["provider"] = { "n", 237819 },
 							["coords"] = {
 								{ 59.2, 73.4, DEADWIND_PASS },	-- Entrance of the Ogre Cave
 								{ 65.2, 78.6, DEADWIND_PASS },	-- Injured Adventurer
@@ -137,7 +137,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						objective(2, {	-- 0/1 Ancient Ironwood Branch
 							["provider"] = { "i", 235787 },	-- Ancient Ironwood Branch (QI!)
 							["crs"] = {
-								11489, 	-- Tendris Warpwood
+								11489,	-- Tendris Warpwood
 								226923,	-- Grimroot <The Mourning Guardian>
 							},
 						}),
@@ -208,7 +208,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(236716),	-- Bracers of Undead Cleansing
 						i(236725),	-- Wristwraps of Undead Slaying
 						i(236710),	-- Wristguards of Undead Slaying
-						i(236712),	-- Bracers of Undead Slaying				
+						i(236712),	-- Bracers of Undead Slaying
 						i(236740),	-- Wristguards of Undead Purification
 						i(236737),	-- Wristguards of Undead Warding
 						i(236743),	-- Bracers of Undead Purification
@@ -222,7 +222,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(236710),	-- Wristguards of Undead Slaying
 						i(236712),	-- Bracers of Undead Slaying
 					}),
-					n(APPRENTICE , {	-- Apprentice						
+					n(APPRENTICE , {	-- Apprentice
 						["description"] = "There are 3 Failed Apprentices locked in cells. The Warden can be found patrolling the Prison, if you kill him, he drops Portcullis Key. You can use this key to free one of the Failed Apprentices",
 						["groups"] = {
 							n(238560, {		-- The Warden
@@ -300,7 +300,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					n(238365, {	-- Dark Rider		(4)
 						["description"] = "To summon the Dark Rider Boss, you will need to collect 3 Mysterious Relics - a Staff, Sword, and Scythe. Once you have these you can use them to summon Dark Rider in the Prison",
-						["cost"] = { 
+						["cost"] = {
 							{ "i", 236878, 1 }, -- Mysterious Relic (Sword)
 							{ "i", 236879, 1 }, -- Mysterious Relic (Staff)
 							{ "i", 236880, 1 }, -- Mysterious Relic (Scythe)

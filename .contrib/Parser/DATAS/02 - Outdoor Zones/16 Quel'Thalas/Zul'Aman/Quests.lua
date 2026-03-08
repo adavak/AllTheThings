@@ -1430,7 +1430,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 254783 },	-- Torundo the Grizzled
 				["coord"] = { 46.0, 47.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
 				["groups"] = {
-					iensemble(264184),	-- Arsenal: Heirlooms of Atal'Aman
+					iensemble(264184),	-- Arsenal: Heirlooms of Atal'Aman (COSMETIC!)
 				},
 			}),
 			q(94839, {	-- Blessings of Peril

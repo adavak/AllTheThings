@@ -338,7 +338,7 @@ root(ROOTS.Zones, {
 								{ 71.8, 56.4, SURAMAR },
 							},
 							["groups"] = {
-								i(132371), 	-- Driftwood (QI!)
+								i(132371),	-- Driftwood (QI!)
 								o(245887),	-- Driftwood
 								o(245792),	-- Driftwood
 							},

@@ -634,7 +634,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				-- #endif
 			})),
 			applyclassicphase(TBC_PHASE_FIVE, i(34357, {["timeline"] = {ADDED_2_4_0}})),	-- Hard Khorium Goggles
-			applyclassicphase(TBC_PHASE_FIVE, i(35182, { 	-- Hyper-Magnified Moon Specs
+			applyclassicphase(TBC_PHASE_FIVE, i(35182, {	-- Hyper-Magnified Moon Specs
 				["timeline"] = { ADDED_2_4_0 },
 				-- #if BEFORE 7.3.0
 				["classes"] = LEATHER_CLASSES_INTELLECT,

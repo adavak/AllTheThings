@@ -18,7 +18,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					header(HEADERS.Item, 239301, {	-- Corrupted Ashbringer
 						["classes"] = { HUNTER, PALADIN, WARRIOR },
 						["isRaid"] = true,
-						["groups"] = {	
+						["groups"] = {
 							-- ToDO: Add Coords
 							-- https://www.wowhead.com/classic/guide/season-of-discovery/ashbringer-unlock-questline
 							header(HEADERS.Item, 239196, {	-- Ruined Lightforged Blade
@@ -658,7 +658,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(239117),	-- Crusader's Chalice
 							i(240841),	-- High Commander's Guard
 							i(239696, {	-- Hilt of the Ashbringer (QUEST!)
-								["sourceQuest"] = 89304,	-- -- The Perfect Metal
+								["sourceQuest"] = 89304,	-- The Perfect Metal
 								["description"] = "Only drops once you have completed the 'Ruined Lightforged Blade' Questchain.",
 							}),
 							i(242366),	-- Inescapable Fate (QUEST!)

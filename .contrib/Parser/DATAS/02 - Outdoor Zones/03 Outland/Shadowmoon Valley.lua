@@ -2707,7 +2707,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 57.3, 47.1, SHADOWMOON_VALLEY },
 						["modelScale"] = .5,
 						["groups"] = {
-							i(122228), 	-- Music Roll: The Black Temple
+							i(122228),	-- Music Roll: The Black Temple
 						},
 					})),
 				})

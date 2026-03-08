@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	["groups"] = {
 		n(ACHIEVEMENTS, {
 			ach(41805, { ["timeline"] = { ADDED_12_0_1_LAUNCH } }),	-- Arator's Journey
-			ach(62188, { ["timeline"] = { ADDED_12_0_1_LAUNCH } }), 	-- More Than Just Their Roots (automated) -- TODO idk where else to put this
+			ach(62188, { ["timeline"] = { ADDED_12_0_1_LAUNCH } }),	-- More Than Just Their Roots (automated) -- TODO idk where else to put this
 			ach(62386, {	-- Light Up the Night
 				i(252011),	-- Brilliant Petalwing (MOUNT)
 			}),

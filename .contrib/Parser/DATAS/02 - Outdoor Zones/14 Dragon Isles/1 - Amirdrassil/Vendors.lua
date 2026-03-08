@@ -48,7 +48,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 				["sourceQuest"] = 76283,	-- Andu-falah-dor
 				["coord"] = { 48.2, 53.6, AMIRDRASSIL },
 				["groups"] = {
-					i(248401, { 	-- Ornamental Kaldorei Glaive (DECOR!)
+					i(248401, {	-- Ornamental Kaldorei Glaive (DECOR!)
 						["races"] = NIGHTELF,
 						["timeline"] = { ADDED_11_2_7 },
 						["cost"] = { { "c", DRAGON_SUPPLIES, 500 } },

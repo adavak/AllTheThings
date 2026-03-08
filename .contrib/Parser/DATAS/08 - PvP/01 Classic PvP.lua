@@ -342,7 +342,7 @@ root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
 				i(18862, { ["classes"] = { PRIEST }  }),	-- Insignia of the Alliance
 				i(18857, { ["classes"] = { ROGUE }   }),	-- Insignia of the Alliance
 				i(18858, { ["classes"] = { WARLOCK } }),	-- Insignia of the Alliance
-				i(18854, { ["classes"] = { WARRIOR } }), 	-- Insignia of the Alliance
+				i(18854, { ["classes"] = { WARRIOR } }),	-- Insignia of the Alliance
 				-- #ELSE
 				n(WEAPONS, {
 					moh(2, i(18825)),	-- Grand Marshal's Aegis
@@ -388,7 +388,7 @@ root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
 					moh(3, i(16465)),	-- Field Marshal's Chain Helm
 					moh(2, i(16468)),	-- Field Marshal's Chain Spaulders
 					moh(3, i(16466)),	-- Field Marshal's Chain Breastplate
-					moh(2, i(16463)), 	-- Marshal's Chain Grips
+					moh(2, i(16463)),	-- Marshal's Chain Grips
 					moh(3, i(16467)),	-- Marshal's Chain Legguards
 					moh(2, i(16462)),	-- Marshal's Chain Boots
 					-- Rare set
@@ -562,7 +562,7 @@ root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
 				i(18862, { ["classes"] = { PRIEST }  }),	-- Insignia of the Alliance
 				i(18857, { ["classes"] = { ROGUE }   }),	-- Insignia of the Alliance
 				i(18858, { ["classes"] = { WARLOCK } }),	-- Insignia of the Alliance
-				i(18854, { ["classes"] = { WARRIOR } }), 	-- Insignia of the Alliance
+				i(18854, { ["classes"] = { WARRIOR } }),	-- Insignia of the Alliance
 				-- #ENDIF
 			},
 		})),
@@ -835,9 +835,9 @@ root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
 				i(18436, { ["classes"] = { DRUID }					}),	-- First Sergeant's Dragonhide Armguards (45)
 				i(216706, { ["classes"] = { ROGUE }					}),	-- First Sergeant's Leather Armguards (58)
 				i(18435, { ["classes"] = { ROGUE }					}),	-- First Sergeant's Leather Armguards (45)
-				i(216703, { ["classes"] = { HUNTER, SHAMAN }			}),	-- First Sergeant's Mail Wristguards (58)
+				i(216703, { ["classes"] = { HUNTER, SHAMAN }		}),	-- First Sergeant's Mail Wristguards (58)
 				i(18432, { ["classes"] = { HUNTER, SHAMAN }			}),	-- First Sergeant's Mail Wristguards (45)
-				i(216705, { ["classes"] = { PALADIN, WARRIOR } 		}),	-- First Sergeant's Plate Bracers (58)
+				i(216705, { ["classes"] = { PALADIN, WARRIOR }		}),	-- First Sergeant's Plate Bracers (58)
 				i(18430, { ["classes"] = { PALADIN, WARRIOR }		}),	-- First Sergeant's Plate Bracers (45)
 				i(216707, { ["classes"] = { MAGE, PRIEST, WARLOCK }	}),	-- First Sergeant's Silk Cuffs (58)
 				i(18437, { ["classes"] = { MAGE, PRIEST, WARLOCK }	}),	-- First Sergeant's Silk Cuffs (45)
@@ -1037,7 +1037,7 @@ root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
 				i(18435, { ["classes"] = { ROGUE }					}),	-- First Sergeant's Leather Armguards (45)
 				i(16532, { ["classes"] = { HUNTER, SHAMAN }			}),	-- First Sergeant's Mail Wristguards (58)
 				i(18432, { ["classes"] = { HUNTER, SHAMAN }			}),	-- First Sergeant's Mail Wristguards (45)
-				i(18429, { ["classes"] = { PALADIN, WARRIOR } 		}),	-- First Sergeant's Plate Bracers (58)
+				i(18429, { ["classes"] = { PALADIN, WARRIOR }		}),	-- First Sergeant's Plate Bracers (58)
 				i(18430, { ["classes"] = { PALADIN, WARRIOR }		}),	-- First Sergeant's Plate Bracers (45)
 				i(16486, { ["classes"] = { MAGE, PRIEST, WARLOCK }	}),	-- First Sergeant's Silk Cuffs (58)
 				i(18437, { ["classes"] = { MAGE, PRIEST, WARLOCK }	}),	-- First Sergeant's Silk Cuffs (45)

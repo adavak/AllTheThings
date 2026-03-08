@@ -15,11 +15,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(LEGENDS_OF_THE_HARANIR, {
 			n(ACHIEVEMENTS, {
 				ach(61344, {	-- Chronicler of the Haranir
-				    title(680),	-- <Name>, Chronicler of the Haranir
-			    }),
+					title(680),	-- <Name>, Chronicler of the Haranir
+				}),
                 ach(61574, {	-- Legends Never Die
-				    i(264259),	-- On'ohia's Call (DECOR!)
-			    }),
+					i(264259),	-- On'ohia's Call (DECOR!)
+				}),
                 ach(42278),	-- The Empty Cradle
 			}),
 			n(QUESTS, bubbleDownFiltered({ ["isWeekly"] = true },FILTERFUNC_questID,{	-- Legends Never Die

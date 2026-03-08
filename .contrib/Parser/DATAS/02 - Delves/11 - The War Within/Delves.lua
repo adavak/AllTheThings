@@ -1062,7 +1062,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(221496),	-- Wriggle (PET!)
 		}),
 		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
-			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
+			i(230924),	-- Spotlight Materializer 1000 (TOY!)
 			i(228413, { ["timeline"] = { ADDED_11_2_0 } }),	-- Lampyridae Lure (TOY!)
 		})),
 		filter(COSMETIC, {

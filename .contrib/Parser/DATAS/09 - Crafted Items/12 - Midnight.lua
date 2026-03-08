@@ -1955,6 +1955,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(93634, 242032),	-- Skinning Oophaga
 			FirstSkin(88542, 253304),	-- Skinning Paingolin
 			FirstSkin(95516, 250321),	-- Skinning Pterrock
+			FirstSkin(95469, 257027),	-- Skinning Rakshur the Bonegrinder
+			FirstSkin(95514, 256808),	-- Skinning Ravengerus
 			FirstSkin(95519, 248741),	-- Skinning Rhazul
 			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
 			FirstSkin(95518, 250180),	-- Skinning Serrasa

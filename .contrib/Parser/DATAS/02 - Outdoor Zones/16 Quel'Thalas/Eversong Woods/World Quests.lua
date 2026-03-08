@@ -75,7 +75,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(255842),	-- Training Rod of Polymorph (QI!)
 						}),
 						o(613517, {	-- Tome of Polymorph
-							i(258965),	-- Tome of Polymorph (QI!)
+							["coord"] = { 35.7, 55.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+							["groups"] = { i(258965) },	-- Tome of Polymorph (QI!)
 						}),
 					},
 				}),

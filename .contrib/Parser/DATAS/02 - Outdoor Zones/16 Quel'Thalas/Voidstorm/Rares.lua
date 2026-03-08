@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					257245,	-- Veserra
 				},
 				["coord"] = { 70.6, 77.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-				--["questID"] = XXXX,	-- missing questID
+				["questID"] = 94461,
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(264609),	-- Gar'chak's Mark of Honor

@@ -55,6 +55,21 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					ach(61681),	-- Abundance: You Should See Him in a Crown
 				}),
 				n(QUESTS, {
+					q(89507, {	-- Abundant Offerings
+						["qgs"] = {
+							241928,	-- Chel the Chip [Zul'Aman]
+							257632,	-- Chel the Chip [Voidstorm]
+						},
+						["coords"] = {
+							{ 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN },
+							{ 38.9, 53.2, MAP.MIDNIGHT.VOIDSTORM },
+						},
+						["isWeekly"] = true,
+						["groups"] = {
+							i(268488),	-- Overflowing Abundant Satchel
+							i(269702),	-- Overflowing Abundant Satchel
+						},
+					}),
 					q(91933, {	-- The Abundant Honor
 						["qg"] = 251601,	-- Dundun <Loa of Abundance>
 						["coord"] = { 31.6, 26.1, MAP.MIDNIGHT.ZULAMAN },
@@ -67,15 +82,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(91932, {	-- The Abundant Awakening
 						["qg"] = 241928,	-- Chel the Chip
 						["coord"] = { 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN },
-					}),
-					q(89507, {	-- Weekly: Abundance
-						["qg"] = 241928,	-- Chel the Chip
-						["coord"] = { 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN },
-						["isWeekly"] = true,
-						["groups"] = {
-							i(268488),	-- Overflowing Abundant Satchel
-							i(269702),	-- Overflowing Abundant Satchel
-						},
 					}),
 					q(94361, {	-- The Abundant Life
 						["qgs"] = {

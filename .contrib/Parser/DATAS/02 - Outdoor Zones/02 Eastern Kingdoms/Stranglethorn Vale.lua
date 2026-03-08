@@ -3303,7 +3303,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							{ "n", 16624},	-- Gelanthis <Jewelcrafting Supplies>
 							-- #endif
 							-- #if AFTER CATA
-							{ "n", 49887}, 	-- Gappy Silvertooth <Bling Merchant>
+							{ "n", 49887},	-- Gappy Silvertooth <Bling Merchant>
 							-- #endif
 						},
 					}, {

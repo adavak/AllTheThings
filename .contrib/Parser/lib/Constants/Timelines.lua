@@ -281,9 +281,9 @@ CREATED_2_5_4_A = "created 2.5.4.43638";				-- The Burning Crusade Classic 2.5.4
 ADDED_2_5_4_A = "added 2.5.4.43638";					-- The Burning Crusade Classic 2.5.4a launch on May 12th, 2022
 REMOVED_2_5_4_A = "removed 2.5.4.43638";				-- The Burning Crusade Classic 2.5.4a launch on May 12th, 2022
 --- ANNIVERSARY CLASSIC TIMELINES ---
-CREATED_2_5_5 = "created 2.5.5";		    		    -- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
-ADDED_2_5_5 = "added 2.5.5";				    	    -- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
-REMOVED_2_5_5 = "removed 2.5.5";				        -- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
+CREATED_2_5_5 = "created 2.5.5";						-- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
+ADDED_2_5_5 = "added 2.5.5";							-- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
+REMOVED_2_5_5 = "removed 2.5.5";						-- The Burning Crusade Classic Pre-patch launch on January 13th, 2026
 CREATED_2_5_6 = "created 2.5.6";						-- CRIEVE NOTE: Sorry, in a rush. Update this when it happens. TBC Phase 2.
 ADDED_2_5_6 = "added 2.5.6";
 REMOVED_2_5_6 = "removed 2.5.6";

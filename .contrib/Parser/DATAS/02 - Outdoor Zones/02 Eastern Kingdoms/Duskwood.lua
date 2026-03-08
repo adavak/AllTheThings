@@ -2479,10 +2479,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(256905, { 	-- Small Gilnean Table (DECOR!)
+						i(256905, {	-- Small Gilnean Table (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
 						}),
-						i(245624, { 	-- Waning Wood Fence (DECOR!)
+						i(245624, {	-- Waning Wood Fence (DECOR!)
 							["timeline"] = { ADDED_11_2_7 }
 						}),
 					},

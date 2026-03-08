@@ -522,10 +522,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(159039),	-- Nazmani Warplate Armguards
 					i(159041),	-- Ritual Flayer's Armbands
 					--
-					a(i(158632)), 	-- Banisher Bindings
-					a(i(158633)), 	-- Crone-Seeker's Bindings
-					a(i(158634)), 	-- Waycrest Militia Wristguards
-					a(i(158631)), 	-- Wickerwoven Bindings
+					a(i(158632)),	-- Banisher Bindings
+					a(i(158633)),	-- Crone-Seeker's Bindings
+					a(i(158634)),	-- Waycrest Militia Wristguards
+					a(i(158631)),	-- Wickerwoven Bindings
 				},
 			}),
 			q(49314, {	-- Hunting Zardrax

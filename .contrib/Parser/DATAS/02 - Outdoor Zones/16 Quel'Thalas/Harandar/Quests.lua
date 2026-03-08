@@ -134,7 +134,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["groups"] = { i(239014) },	-- Iceberries (QI!)
 							}),
 							--
-							i(246415), 	-- Ruddy Haranir Pigment Bowl (DECOR!)
+							i(246415),	-- Ruddy Haranir Pigment Bowl (DECOR!)
 						},
 					}),
 					------ Stay awhile and listen ------
@@ -647,7 +647,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							92738,	-- Potatoad Tots
 						},
 						["qg"] = 253105,	-- Hannan
-						["coord"] = { 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
+						["coords"] = {
+							{ 37.4, 72.4, MAP.MIDNIGHT.HARANDAR },
+							{ 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
+						},
 						["groups"] = { i(260585) },	-- Linda the Lucky (PET!)
 					}),
 				--}),
@@ -1285,8 +1288,19 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 43.1, 61.4, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = {
 					i(246118),	-- En'liahn's Jug (QI!)
-					o(539208, {
-						i(243196),	-- Healing Waters of Ahl'ua (QI!)
+					o(539208, {	-- Healing Waters of Ahl'ua
+						["coords"] = {
+							{ 39.7, 53.1, MAP.MIDNIGHT.HARANDAR },
+							{ 40.3, 56.3, MAP.MIDNIGHT.HARANDAR },
+							{ 40.4, 54.4, MAP.MIDNIGHT.HARANDAR },
+							{ 40.4, 59.7, MAP.MIDNIGHT.HARANDAR },
+							{ 41.0, 52.2, MAP.MIDNIGHT.HARANDAR },
+							{ 41.0, 58.0, MAP.MIDNIGHT.HARANDAR },
+							{ 42.3, 52.4, MAP.MIDNIGHT.HARANDAR },
+							{ 43.1, 54.2, MAP.MIDNIGHT.HARANDAR },
+							{ 44.7, 54.1, MAP.MIDNIGHT.HARANDAR },
+						},
+						["groups"] = { i(243196) },	-- Healing Waters of Ahl'ua (QI!)
 					}),
 				},
 			}),
@@ -1305,9 +1319,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 				["provider"] = { "n", 244242 },	-- En'liahn
 				["coord"] = { 43.1, 61.4, MAP.MIDNIGHT.HARANDAR },
-				["groups"] = {
-					i(243598),	-- Phytogenic Poison Part (QI!)
-				},
 			}),
 			q(90830, {	-- The Path Will Reveal Itself
 				["sourceQuests"] = { 90829 },	-- Meeting My Mentor

@@ -72,7 +72,7 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 				["coord"] = { 72.6, 57.6, ARCANTINA },
 				["groups"] = {
 					i(253544),	-- Weathered History of the Warchiefs (DECOR!)
-					i(262911, {	-- 	-- Tombstone Piece (QI!)
+					i(262911, {	-- Tombstone Piece (QI!)
 						["providers"] = {
 							{ "o", 617246 },	--
 							{ "o", 617247 },	--

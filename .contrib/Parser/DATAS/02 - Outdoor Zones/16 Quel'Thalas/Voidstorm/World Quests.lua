@@ -25,9 +25,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				pvp(q(89377, {	-- Undercover Hunt
 					["coord"] = { 45.7, 36.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				})),
-				q(92571, {	-- Armies of Darkness
+				q(92566, {	-- Armies of Darkness [A]
+					["coord"] = { 76.0, 75.3, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(92571, {	-- Armies of Darkness [H]
 					["coord"] = { 23.4, 54.3, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-					--["races"] = HORDE_ONLY,	-- speculation due to zone
+					["races"] = HORDE_ONLY,
 				}),
 				q(92731, {	-- Artificing Aggression
 					["coord"] = { 51.6, 70.2, MAP.MIDNIGHT.VOIDSTORM },
@@ -56,11 +60,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(93397, {	-- Gnawing Hunger
 					["coord"] = { 57.7, 72.7, MAP.MIDNIGHT.VOIDSTORM },
 					["groups"] = {
-						o(612079, {	-- Foul Carcass
+						o_repeated({
 							i(258146),	-- Rotten Carrion (QI!)
-						}),
-						o(612081, {	-- Foul Carcass
-							i(258146),	-- Rotten Carrion (QI!)
+							o(612079),	-- Foul Carcass
+							o(612081),	-- Foul Carcass
 						}),
 					},
 				}),

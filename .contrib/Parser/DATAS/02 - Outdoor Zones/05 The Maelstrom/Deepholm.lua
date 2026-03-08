@@ -174,7 +174,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				-- #if ANYCLASSIC
- 				n(PROFESSIONS, {
+				n(PROFESSIONS, {
 					prof(FISHING, {
 						o(202778, {	-- Albino Cavefish School
 							i(22739),	-- Tome of Polymorph: Turtle (CI!)

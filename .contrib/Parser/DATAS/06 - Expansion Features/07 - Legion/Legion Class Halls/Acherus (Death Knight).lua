@@ -160,11 +160,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								}),
 								o(247386, {	-- Blades of the Fallen Prince
 									["coords"] = {
-										{ 49.2, 52.3, 701 }, 	-- Icecrown Citadel (Scenario Map)
-										{ 49.3, 50.8, 701 }, 	-- Icecrown Citadel (Scenario Map)
-										{ 49.9, 51.4, 701 }, 	-- Icecrown Citadel (Scenario Map)
-										{ 50.0, 52.7, 701 }, 	-- Icecrown Citadel (Scenario Map)
-										{ 50.3, 51.6, 701 }, 	-- Icecrown Citadel (Scenario Map)
+										{ 49.2, 52.3, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 49.3, 50.8, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 49.9, 51.4, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 50.0, 52.7, 701 },	-- Icecrown Citadel (Scenario Map)
+										{ 50.3, 51.6, 701 },	-- Icecrown Citadel (Scenario Map)
 									},
 									["groups"] = {
 										i(128292, {	-- Blades of the Fallen Prince [Main Hand]

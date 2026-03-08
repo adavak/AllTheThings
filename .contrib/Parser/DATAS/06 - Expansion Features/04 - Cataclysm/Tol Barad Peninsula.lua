@@ -57,7 +57,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"
 				}),
 			}),
 			-- #if ANYCLASSIC
- 			n(PROFESSIONS, {
+			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(22739, {	-- Tome of Polymorph: Turtle (CI!)
 						["providers"] = {

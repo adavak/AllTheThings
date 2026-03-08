@@ -53,10 +53,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 53.4, 31.3, TIRAGARDE_SOUND },
 				["timeline"] = { ADDED_11_2_7 },
 				["groups"] = {
-					i(252392, { 	-- Admiral's Chandelier (DECOR!)
+					i(252392, {	-- Admiral's Chandelier (DECOR!)
 						["cost"] = { { "c", 1560, 250 } },	-- 250x War Resources
 					}),
-					i(252405, { 	-- Admiral's Low-Hanging Chandelier (DECOR!)
+					i(252405, {	-- Admiral's Low-Hanging Chandelier (DECOR!)
 						["sourceQuest"] = 48089,	-- Mountain Sounds	// Not rewarded by the quest but simply unlocked for buying at the vendor
 						["cost"] = { { "c", 1560, 250 } },	-- 250x War Resources
 					}),

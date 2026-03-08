@@ -600,7 +600,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							["qg"] = 232596,	-- Riosus
 							["coord"] = { 74.2, 70.0, WETLANDS },
 							["groups"] = {
-								objective(1, {	-- 	Bathe the Dragonscale in Shadowflame
+								objective(1, {	--	Bathe the Dragonscale in Shadowflame
 									["provider"] = { "i", 232414 },	-- Dragontooth Blade
 									["cr"] = 11583,	-- Shadowmage <Cult of the Damned>
 								}),

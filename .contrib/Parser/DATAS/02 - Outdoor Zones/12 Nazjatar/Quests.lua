@@ -776,7 +776,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				i(170075),	-- Recipe: Unagi Skewer (RECIPE!)
 				o_repeated({	-- Shipwrecked Keg
 					i(168629),	-- Ocean "Infused" Lager (QI!)
-					o(326727), 	-- Shipwrecked Keg
+					o(326727),	-- Shipwrecked Keg
 					o(329896),	-- Shipwrecked Keg
 				}),
 			},
@@ -792,7 +792,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				i(170075),	-- Recipe: Unagi Skewer (RECIPE!)
 				o_repeated({	-- Shipwrecked Keg
 					i(168629),	-- Ocean "Infused" Lager (QI!)
-					o(326727), 	-- Shipwrecked Keg
+					o(326727),	-- Shipwrecked Keg
 					o(329896),	-- Shipwrecked Keg
 				}),
 			},

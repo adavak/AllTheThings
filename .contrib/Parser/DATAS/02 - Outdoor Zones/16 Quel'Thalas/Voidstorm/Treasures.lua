@@ -66,12 +66,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(264303),	-- Willie (PET!)
 				},
 			}),
-			o(554678, {	-- Lost Shadowstep
+			o(554678, {	-- Lost Shadowstep Supplies
 				["coord"] = { 39.3, 63.8, MAP.MIDNIGHT.VOIDSTORM },
 				["questID"] = 91308,
-				["groups"] = {
-					-- TODO: Blizzard bug, STILL PH
-				},
+				["groups"] = { i(208856) },	-- Pocket Lint
 			}),
 			o(617163, {	-- Malignant Chest
 				["coord"] = { 53.4, 42.7, MAP.MIDNIGHT.VOIDSTORM },
