@@ -36,11 +36,6 @@ local function dragonsoul(t)
 	return applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, t);
 end
 
-local MAPS_FIELD = "maps"
--- #if RETAIL_STYLE_FILL_ENABLED
--- Filling allows users to 'chose' whether the Items dropped from Objects should show up in lists and potentially be Filled
-MAPS_FIELD = "maps_disp"
--- #ENDIF
 root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 	i(180055, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I
 	i(180057, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II
@@ -601,7 +596,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		i(53071, {	-- Algaefin Rockfish
 			-- Danny Donkey: Wowhead comments indicates that these possibly had dedicated schools before 4.3.0.
 			["description"] = "Can be caught on the seaside, though might be more uncommon than other saltwater fish.",
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				TOL_BARAD_PENINSULA,
 				TWILIGHT_HIGHLANDS,
 				VASHJIR_KELPTHAR_FOREST,
@@ -613,7 +608,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(53066, {	-- Blackbelly Mudfish
 			["description"] = "Schools can be found in inland waterways.",
-			[MAPS_FIELD] = { ULDUM },
+			["maps_disp"] = { ULDUM },
 			["provider"] = { "o", 202779 },	-- Blackbelly Mudfish School
 		}),
 		i(53072, {	-- Deepsea Sagefish
@@ -622,7 +617,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			-- #else
 			["description"] = "Schools can be found on the seaside.",
 			-- #endif
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				TOL_BARAD_PENINSULA,
 				TWILIGHT_HIGHLANDS,
 				VASHJIR_KELPTHAR_FOREST,
@@ -639,7 +634,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(53070, {	-- Fathom Eel
 			["description"] = "Schools can be found on the seaside.",
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				TOL_BARAD_PENINSULA,
 				ULDUM,
 			},
@@ -652,12 +647,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(53064, {	-- Highland Guppy
 			["description"] = "Schools can be found in inland waterways.",
-			[MAPS_FIELD] = { TWILIGHT_HIGHLANDS },
+			["maps_disp"] = { TWILIGHT_HIGHLANDS },
 			["provider"] = { "o", 202777 },	-- Highland Guppy School
 		}),
 		i(53068, {	-- Lavascale Catfish
 			["description"] = "Can be caught in inland waterways.",
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				DEEPHOLM,
 				ULDUM,
 			},
@@ -678,7 +673,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(53069, {	-- Murglesnout
 			["description"] = "Can be caught on the seaside.",
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				TOL_BARAD_PENINSULA,
 				TWILIGHT_HIGHLANDS,
 				VASHJIR_KELPTHAR_FOREST,
@@ -687,7 +682,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(46109, {	-- Sea Turtle (MOUNT!)
 			-- #if BEFORE 5.0.3
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				BOREAN_TUNDRA,
 				CRYSTALSONG_FOREST,
 				DEEPHOLM,
@@ -725,7 +720,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(53062, {	-- Sharptooth
 			["description"] = "Can be caught in inland waterways.",
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				DEEPHOLM,
 				MOUNT_HYJAL,
 				TWILIGHT_HIGHLANDS,
@@ -747,14 +742,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		-- #endif
 		i(53067, {	-- Striped Lurker
 			["description"] = "Can be caught in inland waterways.",
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				MOUNT_HYJAL,
 				TWILIGHT_HIGHLANDS,
 			},
 		}),
 		-- #if NOT ANYCLASSIC
 		i(22739, {	-- Tome of Polymorph: Turtle (CI!)
-			[MAPS_FIELD] = {
+			["maps_disp"] = {
 				DEEPHOLM,
 				MOUNT_HYJAL,
 				TOL_BARAD_PENINSULA,
@@ -843,7 +838,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			-- Herbs:
 			i(52985, {	-- Azshara's Veil
 				["description"] = "Can be found near and in waters.",
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					TOL_BARAD_PENINSULA,
 					VASHJIR_ABYSSAL_DEPTHS,
 					VASHJIR_KELPTHAR_FOREST,
@@ -858,7 +853,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			}),
 			i(52983, {	-- Cinderbloom
 				["description"] = "Mount Hyjal is the better place to look for these.",
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					DEEPHOLM,
 					MOUNT_HYJAL,
 					TOL_BARAD,
@@ -874,7 +869,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				["timeline"] = { ADDED_6_0_2 },
 			}),
 			i(52986, {	-- Heartblossom
-				[MAPS_FIELD] = { DEEPHOLM },
+				["maps_disp"] = { DEEPHOLM },
 				["provider"] = { "o", 202750 },	-- Heartblossom
 			}),
 			i(108363, {	-- Heartblossom Petal
@@ -900,7 +895,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					{ 38.3, 64.1, VASHJIR_SHIMMERING_EXPANSE },	-- Quel'Dormir Gardens
 				},
 				["description"] = "Can be found near the base of vegetation and structures.",
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					MOUNT_HYJAL,
 					VASHJIR_KELPTHAR_FOREST,
 				},
@@ -913,7 +908,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				["timeline"] = { ADDED_6_0_2 },
 			}),
 			i(52987, {	-- Twilight Jasmine
-				[MAPS_FIELD] = { TWILIGHT_HIGHLANDS },
+				["maps_disp"] = { TWILIGHT_HIGHLANDS },
 				["providers"] = {
 					-- #if AFTER 4.1.0
 					{ "i", 69817 },	-- Hive Queen's Honeycomb
@@ -1828,7 +1823,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		filter(BATTLE_PETS, {
 			i(67282, {	-- Elementium Geode (PET!)
 				["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					TOL_BARAD,
 					TOL_BARAD_PENINSULA,
 					TWILIGHT_HIGHLANDS,
@@ -1892,7 +1887,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			}),
 			-- Ores
 			i(52185, {	-- Elementium Ore
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					TOL_BARAD,
 					TOL_BARAD_PENINSULA,
 					TWILIGHT_HIGHLANDS,
@@ -1915,7 +1910,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			i(53038, {	-- Obsidium Ore
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					DEEPHOLM,
 					MOUNT_HYJAL,
 					VASHJIR_ABYSSAL_DEPTHS,
@@ -1938,7 +1933,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			i(52183, {	-- Pyrite Ore
-				[MAPS_FIELD] = {
+				["maps_disp"] = {
 					TOL_BARAD,
 					TOL_BARAD_PENINSULA,
 					TWILIGHT_HIGHLANDS,
