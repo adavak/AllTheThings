@@ -323,9 +323,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86665 },	-- Face in the Fire
 						["provider"] = { "n", 236162 },	-- Zul'jarra
 						["coord"] = { 55.0, 18.3, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							spell(1239220),	-- Blessing: Jan'alai's Everburn
-						},
 					}),
 					q(86666, {	-- In the Shadow of Rebirth
 						["sourceQuests"] = { 90772 },	-- The Flames Rise Higher
@@ -334,7 +331,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41803.03, {	-- Where War Slumbers
-					q(86681, {	-- A Taste of Vengeance
+					q(86681, {	-- Den of Nalorakk: A Taste of Vengeance
 						["sourceQuests"] = { 86666 },	-- In the Shadow of Rebirth
 						["provider"] = { "n", 240186 },	-- Zul'jarra
 						["coord"] = { 43.8, 68.3, MAP.MIDNIGHT.ZULAMAN },
@@ -344,7 +341,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(264479),	-- Skyweave Amani Tapestry (DECOR!)
 						},
 					}),
-					q(86682, {	-- Waking de Bear
+					q(86682, {	-- Den of Nalorakk: Waking de Bear
 						["sourceQuests"] = { 86681 },	-- A Taste of Vengeance
 						["provider"] = { "n", 240186 },	-- Zul'jarra
 						["coord"] = { 43.8, 68.3, MAP.MIDNIGHT.ZULAMAN },
@@ -353,9 +350,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86681 },	-- A Taste of Vengeance
 						["provider"] = { "n", 240215 },	-- Zul'jarra
 						["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							--spell(1239223),	-- Blessing: Nalorakk's Pressure
-						},
 					}),
 					------ Stay awhile and listen ------
 					--hqt(??, {	-- Stay awhile and listen: Zul'jarra
@@ -412,9 +406,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91001 },	-- Clear de Way
 						["provider"] = { "n", 240034 },	-- Zul'jarra
 						["coord"] = { 22.5, 77.4, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(248583),	-- Drum of Renewed Bonds
-						},
+						["groups"] = { i(248583) },	-- Drum of Renewed Bonds
 					}),
 					q(86693, {	-- De Legend of Hash'ey
 						["sourceQuests"] = { 86692 },	-- Blade Shattered
@@ -454,7 +446,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			header(HEADERS.Achievement, 61452, {	-- Sojourner of Zul'Aman
 				header(HEADERS.AchCriteria, 61452.01, {	-- Healing the Spirit
 					q(91206, {	-- Loa Disturbance
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 254665 },	-- Elder Doru
 						["coord"] = { 43.1, 67.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -462,17 +454,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91206 },	-- Loa Disturbance
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
 						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(245982),	-- Large Pango Liver (QI!)
-						},
+						["groups"] = { i(245982) },	-- Large Pango Liver (QI!)
 					}),
 					q(87256, {	-- Alternative Medicine
 						["sourceQuests"] = { 91206 },	-- Loa Disturbance
 						["provider"] = { "n", 237953 },	-- Loa Speaker Sij'ta
 						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(516293, {	--
-								i(235912),	-- Bloodclot Branch (QI!)
+							o(516293, {	-- Bloodweed Shrub
+								i(235912),	-- Bloodweed Branch (QI!)
 							}),
 						},
 					}),
@@ -579,7 +569,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.03, {	-- Love Triangle
 					q(89231, {	-- A Fighter Not a Lover
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 240977 },	-- Zak'kash
 						["coord"] = { 43.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
@@ -590,7 +580,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(89230, {	-- A Lover Not a Fighter
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 240976 },	-- Kagara
 						["coord"] = { 44.0, 66.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
@@ -750,7 +740,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.06, {	-- The Voice of Nalorakk
 					q(91813, {	-- The Spiritpaw
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91958 },	-- Den of Nalorakk: Unforgiven
 						["provider"] = { "n", 248657 },	-- Pel'na Torntusk
 						["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -758,9 +748,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91813 },	-- The Spiritpaw
 						["provider"] = { "n", 248121 },	-- Furgh
 						["coord"] = { 41.4, 80.1, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(248300),	-- Nalorakk Trinket (QI!)
-						},
+						["groups"] = { i(248300) },	-- Nalorakk Trinket (QI!)
 					}),
 					q(91748, {	-- Too Much Twilight
 						["sourceQuests"] = { 91813 },	-- The Spiritpaw
@@ -775,8 +763,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 248121 },	-- Furgh
 						["coord"] = { 41.4, 80.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(566020 , {	--
-								i(248659),	-- Groffa's Treasures (QI!)
+							o(566020 , {	-- Groffa's Hoard
+								["coord"] = { 44.5, 79.3, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(248659) },	-- Groffa's Treasures (QI!)
 							}),
 						},
 					}),
@@ -799,30 +788,33 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.07, {	-- Reclaiming de Honor
 					q(92492, {	-- Honorin' de Sacrifice
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 245664 },	-- Lilaju
 						["coord"] = { 33.6, 78.8, MAP.MIDNIGHT.ZULAMAN },
-					}),
-					q(92495, {	-- Disruptin' de Blade
-						["sourceQuests"] = { 92492 },	-- Honorin' de Sacrifice
-						["provider"] = { "n", 251669 },	-- Lilaju
-						["coord"] = { 26.1, 64.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92493, {	-- What Remains of Idago
 						["sourceQuests"] = { 92492 },	-- Honorin' de Sacrifice
 						["provider"] = { "n", 251669 },	-- Lilaju
 						["coord"] = { 26.1, 64.5, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							o(574576 , {	--
-								i(252134),	-- Idago's Warspear (QI!)
+							o(574585 , {	-- Idago's Banner
+								["coord"] = { 23.4, 60.4, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(252135) },	-- Idago's Banner (QI!)
 							}),
-							--o(XXXX, {	--
-								i(252136),	-- Idago's Letter (QI!)
-							--}),
-							o(574585 , {	--
-								i(252135),	-- Idago's Banner (QI!)
+							o(574576 , {	-- Idago's Warspear
+								["coord"] = { 25.0, 63.3, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(252134) },	-- Idago's Warspear (QI!)
+							}),
+							o(574587, {	-- Lilaju's Hiding Spot
+								["coord"] = { 24.1, 59.7, MAP.MIDNIGHT.ZULAMAN },
+								["groups"] = { i(252136) },	-- Idago's Letter (QI!)
 							}),
 						},
+					}),
+					q(92495, {	-- Disruptin' de Blade
+						["sourceQuests"] = { 92492 },	-- Honorin' de Sacrifice
+						["provider"] = { "n", 251669 },	-- Lilaju
+						["coord"] = { 26.1, 64.5, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92496, {	-- Spears Against de Shadow
 						["sourceQuests"] = {
@@ -838,13 +830,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							92493,	-- What Remains of Idago
 						},
 						["provider"] = { "n", 251522 },	-- Idago
-						["coord"] = { 21.2, 63.4, MAP.MIDNIGHT.ZULAMAN },
+						["coords"] = {
+							{ 21.2, 63.4, MAP.MIDNIGHT.ZULAMAN },
+							{ 61.2, 39.8, 2584 },	-- Revantusk Sedge
+						},
 						["groups"] = {
-							o(580011, {	--
-								i(260406),	-- Page of Pain (QI!)
+							o(580011, {	-- Tome of Pain
+								["coord"] = { 35.7, 39.4, 2584 },	-- Revantusk Sedge
+								["groups"] = { i(260406) },	-- Page of Pain (QI!)
 							}),
-							o(580012, {	--
-								i(260407),	-- Page of Binding (QI!)
+							o(580012, {	-- Tome of Binding
+								["coord"] = { 46.8, 75.7, 2584 },	-- Revantusk Sedge
+								["groups"] = { i(260407) },	-- Page of Binding (QI!)
 							}),
 						},
 					}),
@@ -909,19 +906,20 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61452.09, {	-- Loa of Murlocs
 					q(92163, {	-- The Loa of Murlocs
+						["sourceQuests"] = { 91958 },	-- Den of Nalorakk: Unforgiven
 						["qg"] = 257092,	-- Old Teo'zan
 						["coord"] = { 46.0, 65.1, MAP.MIDNIGHT.ZULAMAN },
-						["isBreadcrumb"] = true,	-- I Think
+						["isBreadcrumb"] = true,
 					}),
 					q(92164, {	-- Murloc Madness
 						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs	// Unlocked when "Paved in Ash" is completed in Eversong Campaign on Live realms. Leaving it as is because of breadcrumb
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
-						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 52.9, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92165, {	-- Fish Are Food, Not Friends
 						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs	// Unlocked when "Paved in Ash" is completed in Eversong Campaign on Live realms. Leaving it as is because of breadcrumb
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
-						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 52.9, 60.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(617375, {	-- Murloc-Skewered Lynxfish
 								["coords"] = {
@@ -944,14 +942,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(92166, {	-- Following Suit
 						["sourceQuests"] = { 92163 },	-- The Loa of Murlocs	// Unlocked when "Paved in Ash" is completed in Eversong Campaign on Live realms. Leaving it as is because of breadcrumb
 						["qg"] = 250196,	-- King Mrgl-Mrgl <"Loa of Murlocs">
-						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 52.9, 60.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92167, {	-- There Can Be Only One
-						["sourceQuests"] = { 92166 },	-- Following Suit
+						["sourceQuests"] = {
+							92165,	-- Fish Are Food, Not Friends
+							92166,	-- Following Suit
+							92164,	-- Murloc Madness
+						},
 						["qg"] = 250197,	-- Assistant Grgl-Grgl <"Priestess" of the "Loa of Murlocs">
-						["coord"] = { 52.8, 60.2, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 52.9, 60.1, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
-							i(263446),	-- Spare Murloc Suit (QI!)
+							i(263446),	-- Spare Murloc Suit (PQI!)
 							--
 							i(264474),	-- Loa Impostor's Brinefists
 							i(264472),	-- Loa Impostor's Clawguards
@@ -1249,8 +1251,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 43.1, 67.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(93050, {	-- Altar History
-						-- TODO: I think this one has a sourceQuest a bit later in the campaign as it requires you to recharge Loa Altars (that are not available when other quests in this "chain" get unlocked). I'll add it as I figure it out. -Exo
-						--["sourceQuests"] = { XXX },	-- ???
+						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 254146 },	-- Rakan
 						["coord"] = { 43.5, 68.84, MAP.MIDNIGHT.ZULAMAN },
 					}),
@@ -1266,11 +1267,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91833 },	-- Dirty Deeps
 						["qg"] = 248838,	-- Dak'zor
 						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(248745) },	-- Hex Breaker (PQI!)
 					}),
 					q(91836, {	-- Respect de Totem
 						["sourceQuests"] = { 91835 },	-- Send Dem Home
 						["qg"] = 248838,	-- Dak'zor
-						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
+						["coord"] = { 44.9, 36.6, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = { i(254430) },	-- Totem Remnant (QI!)
 					}),
 					q(91838, {	-- De Vile Diminished
@@ -1280,8 +1282,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					q(91840, {	-- One Will Not Rise
 						["sourceQuests"] = { 91838 },	-- De Vile Diminished
-						["qg"] = 248787,	-- Tan'zin
-						["coord"] = { 44.9, 36.5, MAP.MIDNIGHT.ZULAMAN },
+						["qg"] = 249106, -- Witherbark Scout (Dak'zor) (mobileNPC)
+						["coord"] = { 47.1, 41.2, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							i(254778),	-- Altered Totem (QI!)
 							i(250190),	-- Knife Priestess Hezzia's Head (QI!)
@@ -1354,14 +1356,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 			}),
-			--Possible Renown 2/3 quest?
+			-- Altar of Blessings
 			q(93792, {	-- Blessings of the Loa
+				-- Exo Note: Quest completion is a criterion for ach:62270 (Altar of Blessings: One for Altar)
+				["sourceQuests"] = { 91062 },	-- Broken Bridges
 				["provider"] = { "n", 256510 },	-- Du'gal
 				["coord"] = { 43.1, 69.2, MAP.MIDNIGHT.ZULAMAN },
 			}),
 			--Odd chain, could be one of criteria questID but missing it?
 			q(93440, {	-- Personal History
-				--["sourceQuests"] = { XXX },	-- ??
+				["sourceQuests"] = { 91062 },	-- Broken Bridges
 				["provider"] = { "n", 249653 },	-- Zul'jarra
 				["coord"] = { 45.8, 65.5, MAP.MIDNIGHT.ZULAMAN },
 			}),

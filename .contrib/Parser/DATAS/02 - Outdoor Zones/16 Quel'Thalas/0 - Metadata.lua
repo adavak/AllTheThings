@@ -52,6 +52,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["maps"] = {
 				2536,	-- Atal'Aman
 				2583,	-- Wit'Kalar Crypt
+				2584,	-- Revantusk Sedge
 			},
 		}),
 	},

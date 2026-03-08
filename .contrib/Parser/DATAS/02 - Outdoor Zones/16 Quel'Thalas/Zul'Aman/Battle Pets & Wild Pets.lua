@@ -30,7 +30,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250146, {	-- Gloom Toad (PET!)
 				["crs"] = { 249826 },	-- Gloom Toad
 				["coords"] = {
+					{ 34.6, 82.9, MAP.MIDNIGHT.ZULAMAN },
 					{ 35.7, 76.7, MAP.MIDNIGHT.ZULAMAN },
+					{ 48.0, 57.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			i(250145, {	-- Pangolil (PET!)
