@@ -1034,7 +1034,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(90844, {	-- Fits of Lucidity
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: temo source, fix to 90838 when you find it)
+						["sourceQuests"] = { 90838 },	-- Oaths and Heirlooms
 						["provider"] = { "n", 244499 },	-- Kifaan
 						["coord"] = { 44.7, 68.6, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
