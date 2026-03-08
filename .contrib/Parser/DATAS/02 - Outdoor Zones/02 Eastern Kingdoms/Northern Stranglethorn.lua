@@ -700,7 +700,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["provider"] = { "n", 978 },	-- Kurzen Subchief
 						}),
 						objective(3, {	-- 0/1 Kurzen's Head
-							["provider"] = { "n", 3615 },	-- Kurzen's Head
+							["provider"] = { "i", 3615 },	-- Kurzen's Head
 							["coord"] = { 49.6, 4.0, STRANGLETHORN_VALE },
 							["cr"] = 813,	-- Colonel Kurzen
 						}),
