@@ -615,9 +615,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 90910 },	-- Overwhelming Darkness
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
 						["coord"] = { 47.9, 78.6, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(246435),	-- Reliquary of Darkness (QI!)
-						},
+						["groups"] = { i(246435) },	-- Reliquary of Darkness (QI!)
 					}),
 					q(91340, {	-- For Violence's Sake
 						["sourceQuests"] = { 90910 },	-- Overwhelming Darkness

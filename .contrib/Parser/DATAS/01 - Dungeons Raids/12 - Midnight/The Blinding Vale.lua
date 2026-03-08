@@ -31,6 +31,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 		["maps"] = { 2500 },
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
+				n(SPECIAL, {
+					n(251885, {	-- Gravid Potatoad
+						["description"] = "Left of the path towards the last boss, target and use Hexed Potatoad Mucus to receive a toy.",
+						["questID"] = 92518,
+						["groups"] = {
+							i(251903, {	-- Potatoad Egg (TOY!)
+								["provider"] = { "i", 252265 },	-- Hexed Potatoad Mucus
+							}),
+						},
+					}),
+				}),
 				BossOnly(TRINITY, {
 					i(251182),	-- Bedrock Breeches
 					i(251184),	-- Ironroot Collar

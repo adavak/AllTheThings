@@ -620,9 +620,6 @@ root(ROOTS.Unsorted, {
 				i(265778),	-- Hollowcore Harpoon Turret
 				i(265779),	-- Heavy Harpoon Cannon
 			}),
-			filter(TOYS, {
-				i(251903),	-- Potatoad Egg (TOY!)
-			}),
 			filter(MOUNTS, {
 				i(260896),	-- Accented Pseudoshell (MOUNT!) [Trading Post]
 				i(260893),	-- Arboreal Pseudoshell (MOUNT!) [Trading Post]

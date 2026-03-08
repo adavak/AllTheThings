@@ -1533,8 +1533,7 @@ i(258135);	-- Gilded Coil Spire
 i(258840);	-- Gilded Fountain
 i(251491);	-- Magical Pet Clicker
 i(249468);	-- Twilight's Blade Top Secret Strategy Training Guide
---- UNSORTED ---
-i(251903);	-- Potatoad Egg
+
 --- NYI ---
 i(258129);	-- Jade Monument
 i(250320);	-- Lightgraft
@@ -1568,6 +1567,7 @@ i(264414);	-- Midnight Delver's Flare Gun
 i(268717);	-- Pango Plating
 i(253629);	-- Personal Key to the Arcantina
 i(268695);	-- Pin-o-Matic Camera
+i(251903);	-- Potatoad Egg
 i(263933);	-- Preyseeker's Hearthstone
 i(243146);	-- Ren'dorei Struggle
 i(250319);	-- Researcher's Shadowgraft
