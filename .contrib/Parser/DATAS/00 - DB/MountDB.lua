@@ -2378,3 +2378,8 @@ i(263579, 1270673);	-- Vivacious Chlorocoers
 i(263580, 1270675);	-- Vivid Chloroceros
 i(260696, 1266702);	-- Voidbound Stormray
 i(257200, 1261351);	-- Witherbark Pango
+--- UNSORTED ---
+i(0, 1251765);	-- Blossombranch Groveglider
+i(0, 1251762);	-- Cindertuft Groveglider
+i(0, 1251697);	-- Frostfall Groveglider
+i(0, 1251764);	-- Gloombough Groveglider
