@@ -149,8 +149,6 @@ root(ROOTS.Unsorted, {
 				-- Alchemy
 				i(241292),	-- Draught of Rampant Abandon
 
-				-- Prof Knowledge Ench
-				i(267653),	-- Glimmering Powder
 				-- Enchatning
 				i(268032),	-- Conjured Illusory Adornment - Blooming Light
 				i(268033),	-- Conjured Illusory Adornment - Nature's Embrace

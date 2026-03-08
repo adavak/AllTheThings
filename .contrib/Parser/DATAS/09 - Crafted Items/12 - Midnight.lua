@@ -430,6 +430,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(243606),	-- Dawn Crystal++
 			i(243599),	-- Eversinging Dust+
 			i(243600),	-- Eversinging Dust++
+			i(267653),	-- Glimmering Powder
 			i(243602),	-- Radiant Shard+
 			i(243603),	-- Radiant Shard++
 			i(267654),	-- Swirling Arcane Essence
