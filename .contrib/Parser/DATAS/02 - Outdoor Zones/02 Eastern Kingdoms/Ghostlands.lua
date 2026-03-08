@@ -1407,7 +1407,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				}),
 			}),
 			n(TREASURES, {
-				o(19017),	-- Giant Clam
+				o(19017, {	-- Giant Clam
+					i(5503),	-- Clam Meat
+					i(5498),	-- Small Lustrous Pearl
+				}),
 				o(2847, {	-- Tattered Chest
 					["coords"] = {
 						{ 10.9, 22.7, GHOSTLANDS },

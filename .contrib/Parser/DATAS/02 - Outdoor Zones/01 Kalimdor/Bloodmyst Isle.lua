@@ -1340,7 +1340,10 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				}),
 			}),
 			n(TREASURES, {
-				o(19017),	-- Giant Clam
+				o(19017, {	-- Giant Clam
+					i(5503),	-- Clam Meat
+					i(5498),	-- Small Lustrous Pearl
+				}),
 			}),
 			n(VENDORS, {
 				n(18427, {	-- Fazu <Tradesman>

@@ -4819,7 +4819,8 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			},
 		}),
 		-- CRIEVE NOTE: If something is from a specific zone, don't put them in here.
-		--o(2744),	-- Giant Clam (with Giant Clam Meat, found in STV)
+		--[[
+		o(2744),	-- Giant Clam (with Giant Clam Meat, found in STV)
 		o(19017, {	-- Giant Clam (with Clam Meat, found in Bloodmyst Isle and Ghostlands)
 			["description"] = "Can be found in the sea.",
 			["groups"] = {
@@ -4834,6 +4835,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				i(5504),	-- Tangy Clam Meat
 			},
 		}),
+		]]--
 		i(5523, {	-- Small Barnacled Clam
 			["maps"] = {
 				-- #if BEFORE 4.0.3

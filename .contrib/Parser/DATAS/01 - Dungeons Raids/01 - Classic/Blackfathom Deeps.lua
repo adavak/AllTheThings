@@ -514,7 +514,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 			}),
 			n(TREASURES, {
-				o(19018),	-- Giant Clam
+				o(19018, {	-- Giant Clam
+					i(2143),	-- Cuirboulli Boots (confirmed - Danny Donkey)
+					i(5500),	-- Iridescent Pearl
+					i(5504),	-- Tangy Clam Meat
+				}),
 			}),
 			n(4887, {	-- Ghamoo-ra
 				["timeline"] = { REMOVED_6_0_2 },
