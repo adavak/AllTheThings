@@ -13,24 +13,33 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(61856),	-- Explore Zul'Aman
 			ach(41803),	-- For Zul'Aman!
 			ach(62200, {	-- Gnome Alone
-				o(633792, {	-- Message in a Bottle
-					["coord"] = { 54.9, 32.5, MAP.MIDNIGHT.ZULAMAN },
-				}),
-				o(633814, {	-- Scrap of Singed Paper
-					["coord"] = { 54.3, 20.7, MAP.MIDNIGHT.ZULAMAN },
-				}),
-				o(633820, {	-- Discarded Scroll
-					["coord"] = { 45.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
-				}),
-				o(633805, {	-- Hastily-Scribbled Note
-					["coord"] = { 46.5, 41.3, MAP.MIDNIGHT.ZULAMAN },
-				}),
-				o(633815, {	-- Moldy Diary
-					["coord"] = { 35.8, 25.2, MAP.MIDNIGHT.ZULAMAN },
-				}),
-				o(633823, {	-- Parting Note
-					["coord"] = { 34.8, 17.2, MAP.MIDNIGHT.ZULAMAN },
-				}),
+				["_noautomation"] = true,
+				["groups"] = {
+					crit(112847, {	-- Discarded Scroll
+						["provider"] = { "o", 633820 },	-- Discarded Scroll
+						["coord"] = { 45.9, 66.0, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(112845, {	-- Hastily-Scribbled Note
+						["provider"] = { "o", 633805 },	-- Hastily-Scribbled Note
+						["coord"] = { 46.5, 41.3, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(112039, {	-- Message in a Bottle
+						["provider"] = { "o", 633792 },	-- Message in a Bottle
+						["coord"] = { 54.9, 32.5, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(112844, {	-- Moldy Diary Found
+						["provider"] = { "o", 633815 },	-- Moldy Diary
+						["coord"] = { 35.7, 25.2, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(112848, {	-- Parting Note
+						["provider"] = { "o", 633823 },	-- Parting Note
+						["coord"] = { 34.8, 17.2, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(112846, {	-- Scrap of Singed Paper
+						["provider"] = { "o", 633814 },	-- Scrap of Singed Paper
+						["coord"] = { 54.3, 20.7, MAP.MIDNIGHT.ZULAMAN },
+					}),
+				},
 			}),
 			ach(61453),	-- Making an Amani Out of You
 			ach(62199, {	-- Put a Pin in It
