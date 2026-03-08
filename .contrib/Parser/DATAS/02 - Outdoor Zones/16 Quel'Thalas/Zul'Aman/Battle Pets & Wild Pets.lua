@@ -32,6 +32,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coords"] = {
 					{ 34.6, 82.9, MAP.MIDNIGHT.ZULAMAN },
 					{ 35.7, 76.7, MAP.MIDNIGHT.ZULAMAN },
+					{ 45.7, 34.8, MAP.MIDNIGHT.ZULAMAN },
 					{ 48.0, 57.5, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
@@ -50,6 +51,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250140, {	-- Swamp Biter (PET!)
 				["crs"] = { 249820 },	-- Swamp Biter
 				["coords"] = {
+					{ 19.8, 77.1, MAP.MIDNIGHT.ZULAMAN },
 					{ 40.3, 72.9, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),

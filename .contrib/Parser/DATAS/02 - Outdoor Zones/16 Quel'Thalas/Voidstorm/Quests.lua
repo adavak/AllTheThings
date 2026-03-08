@@ -145,7 +145,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(86528, {	-- A Cracked Holokey
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
 						["providers"] = {
-							{ "i", 241000 }, -- Cracked Holokey
+							{ "i", 241000 },	-- Cracked Holokey
 							{ "o", 504349 },	-- Cracked Holokey
 						},
 						["coord"] = { 35.7, 79.2, MAP.MIDNIGHT.VOIDSTORM },

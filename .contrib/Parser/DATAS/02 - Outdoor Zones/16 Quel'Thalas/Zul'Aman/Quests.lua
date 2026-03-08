@@ -475,7 +475,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 40.5, 49.4, MAP.MIDNIGHT.ZULAMAN },
 						["groups"] = {
 							o(554628, {	-- Forgotten Staff
-								["coord"] = { 39.5, 44.9, MAP.MIDNIGHT.ZULAMAN },
+								["coord"] = { 39.4, 44.9, MAP.MIDNIGHT.ZULAMAN },
 								["groups"] = { i(246210) },	-- Shattered Staff (QI!)
 							}),
 						},
@@ -493,10 +493,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(92531, {	-- The Medicine Loa's Shrine
 						["sourceQuests"] = { 87317 },	-- Denial Denied
 						["provider"] = { "n", 237956 },	-- Kulzi
-						["coord"] = { 38.8, 44.8, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(256645),	-- Pattern: Blessed Pango Charm (RECIPE!)
-						},
+						["coord"] = { 38.8, 44.9, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = { i(256645) },	-- Pattern: Blessed Pango Charm (RECIPE!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61452.02, {	-- Sawdust to Sawdust
@@ -568,7 +566,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61452.03, {	-- Love Triangle
+				header(HEADERS.AchCriteria, 61452.03, {	-- Between Two Trolls
 					q(89231, {	-- A Fighter Not a Lover
 						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 240977 },	-- Zak'kash
@@ -584,9 +582,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91062 },	-- Broken Bridges
 						["provider"] = { "n", 240976 },	-- Kagara
 						["coord"] = { 44.0, 66.2, MAP.MIDNIGHT.ZULAMAN },
-						["groups"] = {
-							i(249271),	-- Gnarldin Necklace (QI!)
-						},
+						["groups"] = { i(249271) },	-- Gnarldin Necklace (QI!)
 					}),
 					q(89233, {	-- Love Triangle
 						["sourceQuests"] = {
@@ -924,7 +920,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = { i(264470) },	-- Ash-Tied Offering
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61452.09, {	-- Loa of Murlocs
+				header(HEADERS.AchCriteria, 61452.09, {	-- The Loa of Murlocs
 					q(92163, {	-- The Loa of Murlocs
 						["sourceQuests"] = { 91958 },	-- Den of Nalorakk: Unforgiven
 						["qg"] = 257092,	-- Old Teo'zan
@@ -1376,6 +1372,59 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
+				header(HEADERS.AchCriteria, 61452.17, {	-- Bloodstains
+					------ Stay awhile and listen ------
+					--hqt(??, {	-- Stay awhile and listen: Lady Liadrin
+					--	["name"] = "Stay awhile and listen: Lady Liadrin",
+					--	["description"] = "Dialogue is available before accepting 'Personal History' (93440).",
+					--	["sourceQuests"] = { 91062 },	-- Broken Bridges
+					--	["provider"] = { "n", 258727 },	-- Lady Liadrin
+					--	["coord"] = { 45.7, 65.4, MAP.MIDNIGHT.ZULAMAN },
+					--}),
+					--
+					q(93440, {	-- Personal History
+						["sourceQuests"] = { 91062 },	-- Broken Bridges
+						["provider"] = { "n", 249653 },	-- Zul'jarra
+						["coord"] = { 45.8, 65.5, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					q(93432, {	-- Swords to Plowshares
+						["sourceQuests"] = { 93440 },	-- Personal History
+						["provider"] = { "n", 254783 },	-- Torundo the Grizzled
+						["coord"] = { 46.1, 47.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["groups"] = { i(259204) },	-- Raider Ash Remains (QI!)
+					}),
+					q(93433, {	-- Shrine, Sealed, Delivered
+						["sourceQuests"] = { 93440 },	-- Personal History
+						["provider"] = { "n", 254827 },	-- Elder Doru
+						["coord"] = { 46.2, 47.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+					}),
+					q(93435, {	-- Four Instigators
+						["sourceQuests"] = {
+							93433,	-- Shrine, Sealed, Delivered
+							93432,	-- Swords to Plowshares
+						},
+						["provider"] = { "n", 254783 },	-- Torundo the Grizzled
+						["coord"] = { 45.4, 44.7, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+					}),
+					q(93436, {	-- Hex the Innocent, Disrupt the Guilty
+						["sourceQuests"] = {
+							93433,	-- Shrine, Sealed, Delivered
+							93432,	-- Swords to Plowshares
+						},
+						["provider"] = { "n", 254827 },	-- Elder Doru
+						["coord"] = { 45.2, 44.9, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["groups"] = { i(259967) },	-- Amani Hex Stave (QI!)
+					}),
+					q(93437, {	-- In Their Own Blood
+						["sourceQuests"] = {
+							93435,	-- Four Instigators
+							93436,	-- Hex the Innocent, Disrupt the Guilty
+						},
+						["provider"] = { "n", 254783 },	-- Torundo the Grizzled
+						["coord"] = { 45.9, 47.4, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
+						["groups"] = { iensemble(264184) },	-- Arsenal: Heirlooms of Atal'Aman (COSMETIC!)
+					}),
+				}),
 			}),
 			-- Altar of Blessings
 			q(93792, {	-- Blessings of the Loa
@@ -1384,55 +1433,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 256510 },	-- Du'gal
 				["coord"] = { 43.1, 69.2, MAP.MIDNIGHT.ZULAMAN },
 			}),
-			--Odd chain, could be one of criteria questID but missing it?
-			q(93440, {	-- Personal History
-				["sourceQuests"] = { 91062 },	-- Broken Bridges
-				["provider"] = { "n", 249653 },	-- Zul'jarra
-				["coord"] = { 45.8, 65.5, MAP.MIDNIGHT.ZULAMAN },
-			}),
-			q(93433, {	-- Shrine, Sealed, Delivered
-				["sourceQuests"] = { 93440 },	-- Personal History
-				["provider"] = { "n", 254827 },	-- Elder Doru
-				["coord"] = { 46.3, 47.3, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-			}),
-			q(93432, {	-- Swords to Plowshares
-				["sourceQuests"] = { 93440 },	-- Personal History
-				["provider"] = { "n", 254783 },	-- Torundo the Grizzled
-				["coord"] = { 46.3, 47.3, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-				["groups"] = {
-					i(259204),	-- Raider Ash Remains (QI!)
-				},
-			}),
-			q(93436, {	-- Hex the Innocent, Disrupt the Guilty
-				["sourceQuests"] = {
-					93433,	-- Shrine, Sealed, Delivered
-					93432,	-- Swords to Plowshares
-				},
-				["provider"] = { "n", 254827 },	-- Elder Doru
-				["coord"] = { 45.3, 44.9, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-				["groups"] = {
-					i(259967),	-- Amani Hex Stave (QI!)
-				},
-			}),
-			q(93435, {	-- Four Instigators
-				["sourceQuests"] = {
-					93433,	-- Shrine, Sealed, Delivered
-					93432,	-- Swords to Plowshares
-				},
-				["provider"] = { "n", 254783 },	-- Torundo the Grizzled
-				["coord"] = { 45.5, 44.8, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-			}),
-			q(93437, {	-- In Their Own Blood
-				["sourceQuests"] = {
-					93435,	-- Four Instigators
-					93436,	-- Hex the Innocent, Disrupt the Guilty
-				},
-				["provider"] = { "n", 254783 },	-- Torundo the Grizzled
-				["coord"] = { 46.0, 47.5, MAP.MIDNIGHT.ATAL_AMAN_OUTDOOR },
-				["groups"] = {
-					iensemble(264184),	-- Arsenal: Heirlooms of Atal'Aman (COSMETIC!)
-				},
-			}),
+			--
 			q(94839, {	-- Blessings of Peril
 				["provider"] = { "i", 263938 },	-- Idol of Peril (QS!)
 			}),
