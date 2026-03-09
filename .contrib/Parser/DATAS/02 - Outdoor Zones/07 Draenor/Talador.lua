@@ -2563,11 +2563,9 @@ root(ROOTS.Zones, {
 					n(256946, sharedDataSelf({["timeline"] = { ADDED_12_0_0 }}, {	-- Duskcaller Erthix
 						["coord"] = { 70.4, 57.4, TALADOR },
 						["groups"] = {
-							["groups"] = {
-								i(258742, {	-- Scroll of the Adherent (DECOR!)
-									["sourceQuest"] = 33582,	-- Kura's Vengeance
-								}),
-							},
+							i(258742, {	-- Scroll of the Adherent (DECOR!)
+								["sourceQuest"] = 33582,	-- Kura's Vengeance
+							}),
 						},
 					})),
 					n(84212, {	-- Kazbala
