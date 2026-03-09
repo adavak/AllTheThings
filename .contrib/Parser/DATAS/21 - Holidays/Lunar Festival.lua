@@ -136,24 +136,24 @@ local eldersHeader = function(achievementID, timeline, t)
 		["groups"] = bubbleDown(YEARLY_REPUTATION, t),
 	});
 end
-local preWrathEldersHeader = function(headerID, achievementID, timeline, t)
-	return
-		-- #if BEFORE WRATH
-		n
-		-- #else
-		header
-		-- #endif
-		(
-		-- #if BEFORE WRATH
-		headerID,
-		-- #else
-		HEADERS.Achievement, achievementID,
-		-- #endif
-		{
-			["timeline"] = type(timeline) == "table" and timeline or { timeline },
-			["groups"] = bubbleDown(YEARLY_REPUTATION, t),
-		});
+local preWrathEldersHeader
+-- #if BEFORE WRATH
+preWrathEldersHeader = function(headerID, achievementID, timeline, t)
+	return n(headerID,
+	{
+		["timeline"] = type(timeline) == "table" and timeline or { timeline },
+		["groups"] = bubbleDown(YEARLY_REPUTATION, t),
+	});
 end
+-- #else
+preWrathEldersHeader = function(headerID, achievementID, timeline, t)
+	return header(HEADERS.Achievement, achievementID,
+	{
+		["timeline"] = type(timeline) == "table" and timeline or { timeline },
+		["groups"] = bubbleDown(YEARLY_REPUTATION, t),
+	});
+end
+-- #endif
 
 root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, {
 	-- #if AFTER WRATH
