@@ -1159,7 +1159,6 @@ root(ROOTS.Unsorted, {
 				i(264282),	-- Bluebird's Golden Cage
 				i(264283),	-- Backboard and Hoop Playset
 				i(264384),	-- Zapmaster Viewer 3000
-				i(264397),	-- Simply Adorned Vase and Flowers
 				i(253254),	-- Lunar Celebrant's Cradle
 				i(253255),	-- Lunar Celebrant's Wide Pillow Roll
 				i(253256),	-- Lunar Celebrant's Pillow Roll
