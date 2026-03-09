@@ -993,6 +993,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["races"] = HORDE_ONLY,
 				}),
 			}),
+			prof(HERBALISM, {
+				o(181166, {	-- Bloodthistle
+					["timeline"] = { ADDED_2_0_5 },
+					-- #if ANYCLASSIC
+					["description"] = "This node can be gathered by any herbalist, but is expected to become restricted to Blood-Elf only in a future expansion. Please let us know in the ATT Discord if this already have happened in given iterations of Classic.",
+					-- #else
+					["races"] = { BLOODELF },
+					-- #endif
+					["groups"] = {
+						i(22710, {	-- Bloodthistle
+							["races"] = { BLOODELF },
+						}),
+					},
+				}),
+			}),
 			petbattles({
 				q(31581, {	-- Got one! (Jarson)
 					["sourceQuest"] = 31830,	-- Level Up!

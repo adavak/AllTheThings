@@ -3320,15 +3320,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #endif
 					["description"] = "Can be found near wet terrain and/or waterways, somehow Blizzard managed to make this very inconsistent in some zones.",
 				}),
-				o(181166, {	-- Bloodthistle
-					["maps"] = { EVERSONG_WOODS },
-					["timeline"] = { ADDED_2_0_5 },
-					-- #if ANYCLASSIC
-					["description"] = "This node can be gathered by any herbalist, but is expected to become restricted to Blood-Elf only in a future expansion. Please let us know in the ATT Discord if this already have happened in given iterations of Classic.",
-					-- #else
-					["races"] = { BLOODELF },
-					-- #endif
-				}),
 				o(1621, {	-- Briarthorn
 					-- #if BEFORE 6.0.0
 					["learnedAt"] = 70,
@@ -3994,23 +3985,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						i(8839),	-- Blindweed
 					},
 				}),
-				i(22710, {	-- Bloodthistle
-					["maps_disp"] = { EVERSONG_WOODS },
-					["provider"] = { "o", 181166 },	-- Bloodthistle
-					["races"] = BLOODELF,
-					["timeline"] = { ADDED_2_0_5 },
-				}),
-				applyclassicphase(PHASE_FOUR, i(19726, {	-- Bloodvine
-					["maps_disp"] = { ZULGURUB },
-					["providers"] = {
-						{ "o", 180168 },	-- Dreamfoil (Zul'Gurub)
-						{ "o", 180167 },	-- Golden Sansam (Zul'Gurub)
-						{ "o", 180166 },	-- Mountain Silversage (Zul'Gurub)
-						{ "o", 180165 },	-- Purple Lotus (Zul'Gurub)
-						{ "o", 180164 },	-- Sungrass (Zul'Gurub)
-					},
-					["timeline"] = { REMOVED_4_0_3 },
-				})),
 				i(2450, {	-- Briarthorn
 					["maps_disp"] = {
 						DARKSHORE,
