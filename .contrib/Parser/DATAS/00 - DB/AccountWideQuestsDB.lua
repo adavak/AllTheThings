@@ -2233,10 +2233,10 @@ local AccountWideQuestsDB = {
 	91168,	-- Hellcaller chest tracker
 	91169,	-- Hellcaller chest tracker
 	91170,	-- Hellcaller chest tracker
-	91309,	-- Korgoth the Hungerer
-	91310,	-- Miasmawrath
-	91311,	-- The Harvester
-	91312,	-- The Wallbreaker
+	91309,	-- Korgoth the Hungerer (Devoured Energy-Pod)
+	91310,	-- Miasmawrath (Devoured Energy-Pod)
+	91311,	-- The Harvester (Devoured Energy-Pod)
+	91312,	-- The Wallbreaker (Devoured Energy-Pod)
 	91413,	-- A Twilight Oath's End
 	91421,	-- Weekly reputation: Malek'ta
 	91422,	-- Weekly reputation: Heka'tamos

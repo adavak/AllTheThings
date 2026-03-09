@@ -77,14 +77,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
 				["coord"] = { 71.5, 27.4, KARESH },
 				["crs"] = { 231232 },	-- Devourer Attack (Vignette)
-				["questID"] = 91309,
+				["questID"] = 91286,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
 				["groups"] = {
 					i(232467, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					q(91286, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
+					q(91309, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
 						["name"] = "Devoured Energy-Pod Devourer Attack: The Oasis",
 						["isWeekly"] = true,
 						["groups"] = {
@@ -115,14 +115,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
 				["coord"] = { 50.6, 54.1, KARESH },
 				["crs"] = { 234967 },	-- Soroth Miasmawrath (Vignette)
-				["questID"] = 91310,
+				["questID"] = 91287,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
 				["groups"] = {
 					i(238663, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					q(91287, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
+					q(91310, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 						["name"] = "Devoured Energy-Pod Devourer Attack: Eco-dome Primus",
 						["isWeekly"] = true,
 						["groups"] = {
@@ -171,14 +171,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
 				["coord"] = { 49.5, 64.2, KARESH },
 				["crs"] = { 235085 },	-- Devourer Attack 3 [DNT] (Vignette)
-				["questID"] = 91311,
+				["questID"] = 91289,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
 				["groups"] = {
 					i(238664, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					q(91289, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
+					q(91311, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
 						["name"] = "Devoured Energy-Pod Devourer Attack: The Atrium",
 						["isWeekly"] = true,
 						["groups"] = {
@@ -201,14 +201,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
 				["coord"] = { 27.5, 72.3, KARESH_TAZAVESH },
 				["crs"] = { 235102 },	-- Devourer Attack 4 (Vignette)
-				["questID"] = 91312,
+				["questID"] = 91290,
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
 				["groups"] = {
 					i(238665, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
-					q(91290, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
+					q(91312, { -- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
 						["name"] = "Devoured Energy-Pod Devourer Attack: Tazavesh",
 						["isWeekly"] = true,
 						["groups"] = {
