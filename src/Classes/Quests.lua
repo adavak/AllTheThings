@@ -1547,6 +1547,7 @@ local QuestWithReputationCostCollectibles = setmetatable({}, {
 					costCollectibles = false;
 				else
 					faction.r = quest.r;
+					faction.c = quest.c;
 					costCollectibles = { faction }
 				end
 			else
