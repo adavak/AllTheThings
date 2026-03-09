@@ -6583,6 +6583,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							["learnedAt"] = 175,
 							-- #endif
 							["maps"] = {
+								ARATHI_HIGHLANDS,
 								BADLANDS,
 								BURNING_STEPPES,
 								FERALAS,
