@@ -1006,7 +1006,39 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 			}),
 			prof(HERBALISM, {
 				i(19726, {	-- Bloodvine
+					["providers"] = {
+						{ "o", 180168 },	-- Dreamfoil (Zul'Gurub)
+						{ "o", 180167 },	-- Golden Sansam (Zul'Gurub)
+						{ "o", 180166 },	-- Mountain Silversage (Zul'Gurub)
+						{ "o", 180165 },	-- Purple Lotus (Zul'Gurub)
+						{ "o", 180164 },	-- Sungrass (Zul'Gurub)
+					},
 					["cost"] = { { "i", 19727, 1 } },	-- Blood Scythe
+				}),
+				o(180168, {	-- Dreamfoil (Zul'Gurub)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 270,
+					-- #endif
+				}),
+				o(180167, {	-- Golden Sansam (Zul'Gurub)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 260,
+					-- #endif
+				}),
+				o(180166, {	-- Mountain Silversage (Zul'Gurub)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 280,
+					-- #endif
+				}),
+				o(180165, {	-- Purple Lotus (Zul'Gurub)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 210,
+					-- #endif
+				}),
+				o(180164, {	-- Sungrass (Zul'Gurub)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 230,
+					-- #endif
 				}),
 			}),
 			prof(MINING, {

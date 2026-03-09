@@ -3241,8 +3241,701 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	prof(HERBALISM, {
 		["description"] = "It is beneficial to gather all herbs in the area even if you only need specific herbs because the node spawns are often connected.",
 		["groups"] = {
-			header(HEADERS.Spell, 2366, {	-- Herb Gathering
-				-- Herbs:
+			header(HEADERS.Spell, 2366, appendAllGroups(sharedData({ ["requireSkill"] = HERBALISM, }, {	-- Herb Gathering
+				-- Nodes:
+				o(142141, {	-- Arthas' Tears (Scourge)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 220,
+					-- #endif
+					["maps"] = {
+						EASTERN_PLAGUELANDS,
+						RAZORFEN_DOWNS,
+						STRATHOLME,
+						WESTERN_PLAGUELANDS,
+					},
+					["timeline"] = { REMOVED_4_0_3 }
+				}),
+				o(176642, {	-- Arthas' Tears (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 220,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 }
+				}),
+				o(176589, {	-- Black Lotus
+					-- #if NOT ANYCLASSIC
+					["description"] = "Black Lotus is a rare spawn, and can spawn in place of other herbs.",
+					-- #else
+					["description"] = "Black Lotus is a rare spawn, and can spawn in place of other herbs. Please let us know in the ATT discord if the listed zones does not reflect the current spawn locations.",
+					-- #endif
+					-- #if BEFORE 8.0.0
+					["learnedAt"] = 300,
+					-- #endif
+					["maps"] = {
+						SILITHUS,
+						-- #if BEFORE WRATH
+						BURNING_STEPPES,
+						EASTERN_PLAGUELANDS,
+						WINTERSPRING,
+						-- #elseif WRATH
+						BURNING_STEPPES,
+						WINTERSPRING,
+						-- #elseif MOP
+						BURNING_STEPPES,
+						EASTERN_PLAGUELANDS,
+						WINTERSPRING,
+						-- #endif
+						-- #if AFTER WRATH
+						BLASTED_LANDS,
+						-- #endif
+					},
+				}),
+				o(253069, {	-- Blacker Lotus
+					["description"] = "Blacker Lotus is a special node at the given coords which can take days to respawn. This location also has a group of un-gatherable Black Lotuses.",
+					["coord"] = { 74.8, 54.5, EASTERN_PLAGUELANDS },	-- Light's Hope Chapel
+					-- #if BEFORE 8.0.0
+					["learnedAt"] = 300,
+					-- #endif
+					["timeline"] = { ADDED_7_0_3 },
+				}),
+				o(142143, {	-- Blindweed
+					-- #if AFTER CATA
+					["coords"] = {
+						{ 75.3, 46.2, FERALAS },	-- Wildwind Lake
+						{ 72.1, 52.85, FERALAS },	-- Lower Wilds
+						{ 64.9, 58.1, FERALAS },	-- Darkmist Ruins
+						{ 62.9, 51.5, FERALAS },	-- Verdantis River
+						{ 49.35, 23.2, FERALAS },	-- The Twin Colossals
+						{ 46.65, 18.9, FERALAS },	-- The Twin Colossals
+						{ 48.05, 13.3, FERALAS },	-- Southwestern Jademir Lake
+						{ 52.8, 13.9, FERALAS },	-- Southeastern Jademir Lake
+						{ 53.5, 7.5, FERALAS },	-- Northeastern Jademir Lake
+						{ 49.2, 5.9, FERALAS },	-- Northwestern Jademir Lake
+					},
+					-- #else
+					["maps"] = { SWAMP_OF_SORROWS },
+					-- #endif
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 235,
+					-- #endif
+					["description"] = "Can be found near wet terrain and/or waterways, somehow Blizzard managed to make this very inconsistent in some zones.",
+				}),
+				o(181166, {	-- Bloodthistle
+					["maps"] = { EVERSONG_WOODS },
+					["timeline"] = { ADDED_2_0_5 },
+					-- #if ANYCLASSIC
+					["description"] = "This node can be gathered by any herbalist, but is expected to become restricted to Blood-Elf only in a future expansion. Please let us know in the ATT Discord if this already have happened in given iterations of Classic.",
+					-- #else
+					["races"] = { BLOODELF },
+					-- #endif
+				}),
+				o(1621, {	-- Briarthorn
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 70,
+					-- #endif
+					["maps"] = {
+						DARKSHORE,
+						DUSKWOOD,
+						HILLSBRAD_FOOTHILLS,
+						STONETALON_MOUNTAINS,
+						WETLANDS,
+						-- #if AFTER CATA
+						AZSHARA,
+						NORTHERN_BARRENS,
+						-- #else
+						ASHENVALE,
+						REDRIDGE_MOUNTAINS,
+						SILVERPINE_FOREST,
+						-- #endif
+					},
+					["description"] = "Usually found near trees.",
+				}),
+				-- #if ANYCLASSIC
+				o(3729, {	-- Briarthorn (The Barrens)
+					-- Note: This node get replaced by o(1621) at an unknown point between MOP and TWW.
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 70,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						NORTHERN_BARRENS,
+						-- #else
+						THE_BARRENS
+						-- #endif
+					},
+				}),
+				-- #endif
+				o(1622, {	-- Bruiseweed
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 100,
+					-- #endif
+					["maps"] = {
+						ASHENVALE,
+						DUSKWOOD,
+						HILLSBRAD_FOOTHILLS,
+						STONETALON_MOUNTAINS,
+						-- #if AFTER CATA
+						NORTHERN_STRANGLETHORN,
+						-- #else
+						REDRIDGE_MOUNTAINS,
+						THOUSAND_NEEDLES,
+						WETLANDS,
+						-- #endif
+					},
+					["description"] = "Usually found near hillsides, buildings and structures.",
+				}),
+				-- #if ANYCLASSIC
+				o(3730, {	-- Bruiseweed (The Barrens/Stonetalon Mountains)
+					-- Note: This node get replaced by o(1622) at an unknown point between MOP and TWW.
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 100,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						NORTHERN_BARRENS,
+						STONETALON_MOUNTAINS,
+						-- #else
+						THE_BARRENS
+						-- #endif
+					},
+				}),
+				-- #endif
+				o(2044, {	-- Dragon's Teeth [CATA+] / Wintersbite
+					-- #if AFTER CATA
+					["coord"] = { 33.5,52.7, BADLANDS },	-- Scar of the Worldbreaker
+					-- #else
+					["maps"] = { ALTERAC_MOUNTAINS },
+					-- #endif
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 195,
+					-- #endif
+				}),
+				o(176584, {	-- Dreamfoil
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 270,
+					-- #endif
+					["maps"] = {
+						BURNING_STEPPES,
+						SILITHUS,
+						-- #if AFTER CATA
+						BLASTED_LANDS,
+						FELWOOD,
+						-- #else
+						AZSHARA,
+						EASTERN_PLAGUELANDS,
+						UNGORO_CRATER,
+						WESTERN_PLAGUELANDS,
+						-- #endif
+					},
+					["description"] = "Can usually be found on flat open spaces.",
+				}),
+				o(176693, {	-- Dreamfoil (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 270,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 },
+				}),
+				o(1619, {	-- Earthroot
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 15,
+					-- #endif
+					["maps"] = {
+						DUN_MOROGH,
+						DUROTAR,
+						ELWYNN_FOREST,
+						MULGORE,
+						SILVERPINE_FOREST,
+						TELDRASSIL,
+						TIRISFAL_GLADES,
+						WESTFALL,
+						-- #if BEFORE CATA
+						DARKSHORE,
+						REDRIDGE_MOUNTAINS,
+						-- #endif
+					},
+					["description"] = "Can be found on uneven terrain and mountain sides.",
+				}),
+				-- #if ANYCLASSIC
+				o(3726, {	-- Earthroot (The Barrens)
+					-- Note: This node get replaced by o(1619) at an unknown point between MOP and TWW.
+					-- #if AFTER CATA
+					["coords"] = {
+						{ 65.8, 13.5, NORTHERN_BARRENS },
+						{ 67.0, 23.2, NORTHERN_BARRENS },
+						{ 66.7, 52.5, NORTHERN_BARRENS },
+					},
+					-- #else
+					["maps"] = { THE_BARRENS },
+					-- #endif
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 15,
+					-- #endif
+				}),
+				-- #endif
+				o(2042, {	-- Fadeleaf
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 160,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						FERALAS,
+						THE_CAPE_OF_STRANGLETHORN,
+						WESTERN_PLAGUELANDS,
+						-- #else
+						ALTERAC_MOUNTAINS,
+						ARATHI_HIGHLANDS,
+						DUSTWALLOW_MARSH,
+						STRANGLETHORN_VALE,
+						-- #endif
+					},
+					["description"] = "Can be found in fertile terrain and fields.",
+				}),
+				o(2866, {	-- Firebloom
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 205,
+					-- #endif
+					["maps"] = {
+						BADLANDS,
+						SEARING_GORGE,
+						TANARIS,
+						-- #if AFTER CATA
+						BURNING_STEPPES,
+						-- #else
+						BLASTED_LANDS,
+						-- #endif
+					},
+					["description"] = "Can be found on hot deserts.",
+				}),
+				o(206085, {	-- Frozen Herb (Hillsbrad Foothills)
+					["coord"] = { 47.0, 26.0, HILLSBRAD_FOOTHILLS },	-- Alterac Mountains
+					["description"] = "Found all over Alterac Mountains",
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 125,
+					-- #endif
+					["timeline"] = { ADDED_4_0_3 },
+				}),
+				o(142144, {	-- Ghost Mushroom
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 64.3, 16.3, UNGORO_CRATER },	-- Fungal Rock
+						-- #else
+						{ 58.0, 41.2, THE_HINTERLANDS },
+						{ 55.8, 68.1, THE_HINTERLANDS },
+						{ 57.0, 81.0, THE_HINTERLANDS },
+						-- #endif
+						-- #if AFTER TBC
+						{ 74.4, 92.2, ZANGARMARSH },	-- Funggor Cavern
+						{ 17.25, 9.2, ZANGARMARSH },	-- Ango'rosh Stronghold cave
+						-- #endif
+					},
+					["description"] = "Can be found inside caves.",
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 245,
+					-- #endif
+				}),
+				o(176583, {	-- Golden Sansam
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 260,
+					-- #endif
+					["maps"] = {
+						SILITHUS,
+						UNGORO_CRATER,
+						-- #if AFTER CATA
+						BADLANDS,
+						FELWOOD,
+						SWAMP_OF_SORROWS,
+						-- #else
+						AZSHARA,
+						BURNING_STEPPES,
+						EASTERN_PLAGUELANDS,
+						FERALAS,
+						THE_HINTERLANDS,
+						-- #endif
+					},
+					["description"] = "Can be found by trees and other natural structures.",
+				}),
+				o(176638, {	-- Golden Sansam (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 260,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 },
+				}),
+				o(2046, {	-- Goldthorn
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 170,
+					-- #endif
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						DUSTWALLOW_MARSH,
+						FERALAS,
+						THE_HINTERLANDS,
+						-- #if AFTER CATA
+						SOUTHERN_BARRENS,
+						THE_CAPE_OF_STRANGLETHORN,
+						-- #else
+						ALTERAC_MOUNTAINS,
+						STRANGLETHORN_VALE,
+						SWAMP_OF_SORROWS,
+						-- #endif
+					},
+					["description"] = "Can be found on uneven terrain and mountain sides.",
+				}),
+				o(1628, {	-- Grave Moss
+					["coords"] = {
+						{ 20.0, 40.0, DUSKWOOD },	-- Raven Hill Cemetery
+						-- #if BEFORE CATA
+						{ 50.0, 58.0, DESOLACE },
+						{ 80.0, 71.0, DUSKWOOD },
+						-- #endif
+					},
+					["description"] = "Can be found on graves.",
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 120,
+					-- #endif
+				}),
+				o(142145, {	-- Gromsblood
+					["coords"] = {
+						{ 84.1, 71.65, ASHENVALE },	-- Felfire Hill
+						{ 53.5, 46.5, BLASTED_LANDS },
+						{ 50.0, 80.0, DESOLACE },
+					},
+					-- #if AFTER CATA
+					["maps"] = { FELWOOD },
+					-- #endif
+					["description"] = "Found in locations corrupted by the Burning Legion.",
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 250,
+					-- #endif
+				}),
+				o(176637, {	-- Gromsblood (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 250,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 },
+				}),
+				o(176588, {	-- Icecap
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 290,
+					-- #endif
+					["maps"] = { WINTERSPRING },
+				}),
+				o(2043, {	-- Khadgar's Whisker
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 185,
+					-- #endif
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						DUSTWALLOW_MARSH,
+						FERALAS,
+						-- #if AFTER CATA
+						EASTERN_PLAGUELANDS,
+						SOUTHERN_BARRENS,
+						THE_CAPE_OF_STRANGLETHORN,
+						THE_HINTERLANDS,
+						WESTERN_PLAGUELANDS,
+						-- #else
+						ALTERAC_MOUNTAINS,
+						AZSHARA,
+						BADLANDS,
+						STRANGLETHORN_VALE,
+						SWAMP_OF_SORROWS,
+						-- #endif
+					},
+					["description"] = "Can be found near trees.",
+				}),
+				o(1624, {	-- Kingsblood
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 125,
+					-- #endif
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						DUSKWOOD,
+						WETLANDS,
+						-- #if AFTER CATA
+						FERALAS,
+						NORTHERN_STRANGLETHORN,
+						SOUTHERN_BARRENS,
+						THE_HINTERLANDS,
+						WESTERN_PLAGUELANDS,
+						-- #else
+						ALTERAC_MOUNTAINS,
+						ASHENVALE,
+						BADLANDS,
+						DESOLACE,
+						DUSTWALLOW_MARSH,
+						HILLSBRAD_FOOTHILLS,
+						STONETALON_MOUNTAINS,
+						STRANGLETHORN_VALE,
+						SWAMP_OF_SORROWS,
+						THOUSAND_NEEDLES,
+						-- #endif
+					},
+					["description"] = "Can be found in the woods.",
+				}),
+				o(2041, {	-- Liferoot
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 150,
+					-- #endif
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						DUSTWALLOW_MARSH,
+						THE_HINTERLANDS,
+						WETLANDS,
+						-- #if AFTER CATA
+						EASTERN_PLAGUELANDS,
+						NORTHERN_STRANGLETHORN,
+						SOUTHERN_BARRENS,
+						-- #else
+						ALTERAC_MOUNTAINS,
+						DESOLACE,
+						FERALAS,
+						HILLSBRAD_FOOTHILLS,
+						STRANGLETHORN_VALE,
+						SWAMP_OF_SORROWS,
+						WESTERN_PLAGUELANDS,
+						-- #endif
+					},
+					["description"] = "Can usually be found on fertile grounds by inland waters and waterways, but coherency is not Blizzard's forte.",
+				}),
+				o(1620, {	-- Mageroyal
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 50,
+					-- #endif
+					["maps"] = {
+						DARKSHORE,
+						LOCH_MODAN,
+						SILVERPINE_FOREST,
+						TELDRASSIL,
+						WESTFALL,
+						WETLANDS,
+						-- #if AFTER CATA
+						AZSHARA,
+						HILLSBRAD_FOOTHILLS,
+						NORTHERN_BARRENS,
+						-- #else
+						ASHENVALE,
+						REDRIDGE_MOUNTAINS,
+						-- #endif
+					},
+				}),
+				-- #if ANYCLASSIC
+				o(3727, {	-- Mageroyal (The Barrens)
+					-- Note: This node get replaced by o(1620) at an unknown point between MOP and TWW.
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 50,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						NORTHERN_BARRENS,
+						-- #else
+						THE_BARRENS
+						-- #endif
+					},
+				}),
+				-- #endif
+				o(176586, {	-- Mountain Silversage
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 280,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						BLASTED_LANDS,
+						-- #else
+						AZSHARA,
+						BURNING_STEPPES,
+						EASTERN_PLAGUELANDS,
+						-- #endif
+						SILITHUS,
+						UNGORO_CRATER,
+						WINTERSPRING,
+					},
+					["description"] = "Can be found on uneven terrain and mountain sides.",
+				}),
+				o(176640, {	-- Mountain Silversage (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 280,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 },
+				}),
+				o(1618, {	-- Peacebloom
+					["maps"] = {
+						DARKSHORE,
+						DUN_MOROGH,
+						DUROTAR,
+						ELWYNN_FOREST,
+						LOCH_MODAN,
+						MULGORE,
+						-- #if BEFORE CATA
+						SILVERPINE_FOREST,
+						-- #endif
+						TELDRASSIL,
+						TIRISFAL_GLADES,
+						WESTFALL,
+					},
+				}),
+				-- #if ANYCLASSIC
+				o(3724, {	-- Peacebloom (The Barrens)
+					-- Note: This node get replaced by o(1618) at an unknown point between MOP and TWW.
+					["maps"] = {
+						-- #if AFTER CATA
+						NORTHERN_BARRENS,
+						-- #else
+						THE_BARRENS
+						-- #endif
+					},
+				}),
+				-- #endif
+				o(142140, {	-- Purple Lotus
+					-- #if AFTER CATA
+					["coords"] = {
+						{ 49.35, 30.85, FELWOOD },	-- Irontree Woods ruins
+						{ 42.2, 36.1, FELWOOD },	-- Shatter Scale Vale northern ruins
+						{ 39.45, 45.1, FELWOOD },	-- Shatter Scale Vale southern ruins
+						{ 38.6, 67.5, FELWOOD },	-- Ruins of Constellas
+						{ 56.95, 85.55, FELWOOD },	-- Morlos'Aran
+					},
+					-- #else
+					["maps"] = {
+						AZSHARA,
+						FERALAS,
+						STRANGLETHORN_VALE,
+						TANARIS,
+						THE_HINTERLANDS,
+					},
+					-- #endif
+					["description"] = "Can be found in elven ruins.",
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 210,
+					-- #endif
+				}),
+				o(1617, {	-- Silverleaf
+					["maps"] = {
+						DARKSHORE,
+						DUN_MOROGH,
+						DUROTAR,
+						ELWYNN_FOREST,
+						LOCH_MODAN,
+						MULGORE,
+						SILVERPINE_FOREST,
+						TELDRASSIL,
+						TIRISFAL_GLADES,
+						WESTFALL,
+					},
+				}),
+				-- #if ANYCLASSIC
+				o(3725, {	-- Silverleaf (The Barrens)
+					-- Note: This node get replaced by o(1617) at an unknown point between MOP and TWW.
+					["maps"] = {
+						-- #if AFTER CATA
+						NORTHERN_BARRENS,
+						-- #else
+						THE_BARRENS
+						-- #endif
+					},
+				}),
+				-- #endif
+				o(176587, {	-- Sorrowmoss [CATA+] / Plaguebloom
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 285,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						SWAMP_OF_SORROWS,
+						-- #else
+						EASTERN_PLAGUELANDS,
+						WESTERN_PLAGUELANDS,
+						-- #endif
+					},
+				}),
+				o(176641, {	-- Plaguebloom (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 285,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 },
+				}),
+				o(2045, {	-- Stranglekelp
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 85,
+					-- #endif
+					["maps"] = {
+						ASHENVALE,
+						DARKSHORE,
+						DUSTWALLOW_MARSH,
+						HILLSBRAD_FOOTHILLS,
+						SILVERPINE_FOREST,
+						SWAMP_OF_SORROWS,
+						THE_HINTERLANDS,
+						WESTFALL,
+						WETLANDS,
+						-- #if AFTER CATA
+						NORTHERN_STRANGLETHORN,
+						THE_CAPE_OF_STRANGLETHORN,
+						THOUSAND_NEEDLES,
+						-- #else
+						AZSHARA,
+						DESOLACE,
+						STRANGLETHORN_VALE,
+						THE_BARRENS,
+						-- #endif
+					},
+					["description"] = "Can usually be found in the sea, but also sometimes in bodies of inland waters and waterways.",
+				}),
+				o(142142, {	-- Sungrass
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 230,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						BADLANDS,
+						BURNING_STEPPES,
+						SEARING_GORGE,
+						SILITHUS,
+						TANARIS,
+						THOUSAND_NEEDLES,
+						-- #else
+						AZSHARA,
+						BLASTED_LANDS,
+						FERALAS,
+						THE_HINTERLANDS,
+						UNGORO_CRATER,
+						WESTERN_PLAGUELANDS,
+						-- #endif
+						EASTERN_PLAGUELANDS,
+					},
+				}),
+				o(176636, {	-- Sungrass (Felwood)
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 230,
+					-- #endif
+					["maps"] = { FELWOOD },
+					["timeline"] = { REMOVED_4_0_3 },
+				}),
+				o(1623, {	-- Wild Steelbloom
+					-- #if BEFORE 6.0.0
+					["learnedAt"] = 115,
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						ASHENVALE,
+						DESOLACE,
+						NORTHERN_STRANGLETHORN,
+						-- #else
+						STRANGLETHORN_VALE,
+						THOUSAND_NEEDLES,
+						-- #endif
+						ARATHI_HIGHLANDS,
+						STONETALON_MOUNTAINS,
+						WETLANDS,
+					},
+					["description"] = "Can be found on uneven terrain and mountain sides.",
+				}),
+			}),
+			{	-- Herbs:
 				i(8836, {	-- Arthas' Tears
 					["providers"] = {
 						{ "o", 142141 },	-- Arthas' Tears (Scourge)
@@ -4066,604 +4759,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(8153, {	-- Wildvine
 					["provider"] = { "o", 142140 },	-- Purple Lotus
 				}),
-				-- ___________________________________________
-				--
-				-- Nodes:
-				o(142141, {	-- Arthas' Tears (Scourge)
-					["maps"] = {
-						EASTERN_PLAGUELANDS,
-						RAZORFEN_DOWNS,
-						STRATHOLME,
-						WESTERN_PLAGUELANDS,
-					},
-					["timeline"] = { REMOVED_4_0_3 }
-				}),
-				o(176642, {	-- Arthas' Tears (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 }
-				}),
-				o(176589, {	-- Black Lotus
-					-- #if NOT ANYCLASSIC
-					["description"] = "Black Lotus is a rare spawn, and can spawn in place of other herbs.",
-					-- #else
-					["description"] = "Black Lotus is a rare spawn, and can spawn in place of other herbs. Please let us know in the ATT discord if the listed zones does not reflect the current spawn locations.",
-					-- #endif
-					["maps"] = {
-						SILITHUS,
-						-- #if BEFORE WRATH
-						BURNING_STEPPES,
-						EASTERN_PLAGUELANDS,
-						WINTERSPRING,
-						-- #elseif WRATH
-						BURNING_STEPPES,
-						WINTERSPRING,
-						-- #elseif MOP
-						BURNING_STEPPES,
-						EASTERN_PLAGUELANDS,
-						WINTERSPRING,
-						-- #endif
-						-- #if AFTER WRATH
-						BLASTED_LANDS,
-						-- #endif
-					},
-				}),
-				o(253069, {	-- Blacker Lotus
-					["coord"] = { 74.8, 54.5, EASTERN_PLAGUELANDS },	-- Light's Hope Chapel
-					["description"] = "Blacker Lotus is a special node at the given coords which can take days to respawn. This location also have a group of un-gatherable Black Lotuses.",
-					["timeline"] = { ADDED_7_0_3 },
-				}),
-				o(142143, {	-- Blindweed
-					-- #if AFTER CATA
-					["coords"] = {
-						{ 75.3, 46.2, FERALAS },	-- Wildwind Lake
-						{ 72.1, 52.85, FERALAS },	-- Lower Wilds
-						{ 64.9, 58.1, FERALAS },	-- Darkmist Ruins
-						{ 62.9, 51.5, FERALAS },	-- Verdantis River
-						{ 49.35, 23.2, FERALAS },	-- The Twin Colossals
-						{ 46.65, 18.9, FERALAS },	-- The Twin Colossals
-						{ 48.05, 13.3, FERALAS },	-- Southwestern Jademir Lake
-						{ 52.8, 13.9, FERALAS },	-- Southeastern Jademir Lake
-						{ 53.5, 7.5, FERALAS },	-- Northeastern Jademir Lake
-						{ 49.2, 5.9, FERALAS },	-- Northwestern Jademir Lake
-					},
-					-- #else
-					["maps"] = { SWAMP_OF_SORROWS },
-					-- #endif
-					["description"] = "Can be found near wet terrain and/or waterways, somehow Blizzard managed to make this very inconsistent in some zones.",
-				}),
-				o(181166, {	-- Bloodthistle
-					["maps"] = { EVERSONG_WOODS },
-					["timeline"] = { ADDED_2_0_5 },
-					-- #if ANYCLASSIC
-					["description"] = "This node can be gathered by any herbalist, but is expected to become restricted to Blood-Elf only in a future expansion. Please let us know in the ATT Discord if this already have happened in given iterations of Classic.",
-					-- #else
-					["races"] = BLOODELF,
-					-- #endif
-				}),
-				o(1621, {	-- Briarthorn
-					["maps"] = {
-						DARKSHORE,
-						DUSKWOOD,
-						HILLSBRAD_FOOTHILLS,
-						STONETALON_MOUNTAINS,
-						WETLANDS,
-						-- #if AFTER CATA
-						AZSHARA,
-						NORTHERN_BARRENS,
-						-- #else
-						ASHENVALE,
-						REDRIDGE_MOUNTAINS,
-						SILVERPINE_FOREST,
-						-- #endif
-					},
-					["description"] = "Usually found near trees.",
-				}),
-				-- #if ANYCLASSIC
-				o(3729, {	-- Briarthorn (The Barrens)
-					-- Note: This node get replaced by o(1621) at an unknown point between MOP and TWW.
-					["maps"] = {
-						-- #if AFTER CATA
-						NORTHERN_BARRENS,
-						-- #else
-						THE_BARRENS
-						-- #endif
-					},
-				}),
-				-- #endif
-				o(1622, {	-- Bruiseweed
-					["maps"] = {
-						ASHENVALE,
-						DUSKWOOD,
-						HILLSBRAD_FOOTHILLS,
-						STONETALON_MOUNTAINS,
-						-- #if AFTER CATA
-						NORTHERN_STRANGLETHORN,
-						-- #else
-						REDRIDGE_MOUNTAINS,
-						THOUSAND_NEEDLES,
-						WETLANDS,
-						-- #endif
-					},
-					["description"] = "Usually found near hillsides, buildings and structures.",
-				}),
-				-- #if ANYCLASSIC
-				o(3730, {	-- Bruiseweed (The Barrens/Stonetalon Mountains)
-					-- Note: This node get replaced by o(1622) at an unknown point between MOP and TWW.
-					["maps"] = {
-						-- #if AFTER CATA
-						NORTHERN_BARRENS,
-						STONETALON_MOUNTAINS,
-						-- #else
-						THE_BARRENS
-						-- #endif
-					},
-				}),
-				-- #endif
-				o(2044, {	-- Dragon's Teeth [CATA+] / Wintersbite
-					-- #if AFTER CATA
-					["coord"] = { 33.5,52.7, BADLANDS },	-- Scar of the Worldbreaker
-					-- #else
-					["maps"] = { ALTERAC_MOUNTAINS },
-					-- #endif
-				}),
-				o(176584, {	-- Dreamfoil
-					["maps"] = {
-						BURNING_STEPPES,
-						SILITHUS,
-						-- #if AFTER CATA
-						BLASTED_LANDS,
-						FELWOOD,
-						-- #else
-						AZSHARA,
-						EASTERN_PLAGUELANDS,
-						UNGORO_CRATER,
-						WESTERN_PLAGUELANDS,
-						-- #endif
-					},
-					["description"] = "Can usually be found on flat open spaces.",
-				}),
-				o(176693, {	-- Dreamfoil (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(180168, {	-- Dreamfoil (Zul'Gurub)
-					["maps"] = { ZULGURUB },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(1619, {	-- Earthroot
-					["maps"] = {
-						DUN_MOROGH,
-						DUROTAR,
-						ELWYNN_FOREST,
-						MULGORE,
-						SILVERPINE_FOREST,
-						TELDRASSIL,
-						TIRISFAL_GLADES,
-						WESTFALL,
-						-- #if BEFORE CATA
-						DARKSHORE,
-						REDRIDGE_MOUNTAINS,
-						-- #endif
-					},
-					["description"] = "Can be found on uneven terrain and mountain sides.",
-				}),
-				-- #if ANYCLASSIC
-				o(3726, {	-- Earthroot (The Barrens)
-					-- Note: This node get replaced by o(1619) at an unknown point between MOP and TWW.
-					-- #if AFTER CATA
-					["coords"] = {
-						{ 65.8, 13.5, NORTHERN_BARRENS },
-						{ 67.0, 23.2, NORTHERN_BARRENS },
-						{ 66.7, 52.5, NORTHERN_BARRENS },
-					},
-					-- #else
-					["maps"] = { THE_BARRENS },
-					-- #endif
-				}),
-				-- #endif
-				o(2042, {	-- Fadeleaf
-					["maps"] = {
-						-- #if AFTER CATA
-						FERALAS,
-						THE_CAPE_OF_STRANGLETHORN,
-						WESTERN_PLAGUELANDS,
-						-- #else
-						ALTERAC_MOUNTAINS,
-						ARATHI_HIGHLANDS,
-						DUSTWALLOW_MARSH,
-						STRANGLETHORN_VALE,
-						-- #endif
-					},
-					["description"] = "Can be found in fertile terrain and fields.",
-				}),
-				o(2866, {	-- Firebloom
-					["maps"] = {
-						BADLANDS,
-						SEARING_GORGE,
-						TANARIS,
-						-- #if AFTER CATA
-						BURNING_STEPPES,
-						-- #else
-						BLASTED_LANDS,
-						-- #endif
-					},
-					["description"] = "Can be found on hot deserts.",
-				}),
-				o(206085, {	-- Frozen Herb (Hillsbrad Foothills)
-					["coord"] = { 47.0, 26.0, HILLSBRAD_FOOTHILLS },	-- Alterac Mountains
-					["description"] = "Found all over Alterac Mountains",
-					["timeline"] = { ADDED_4_0_3 },
-				}),
-				o(142144, {	-- Ghost Mushroom
-					["coords"] = {
-						-- #if AFTER CATA
-						{ 64.3, 16.3, UNGORO_CRATER },	-- Fungal Rock
-						-- #else
-						{ 58.0, 41.2, THE_HINTERLANDS },
-						{ 55.8, 68.1, THE_HINTERLANDS },
-						{ 57.0, 81.0, THE_HINTERLANDS },
-						-- #endif
-						-- #if AFTER TBC
-						{ 74.4, 92.2, ZANGARMARSH },	-- Funggor Cavern
-						{ 17.25, 9.2, ZANGARMARSH },	-- Ango'rosh Stronghold cave
-						-- #endif
-					},
-					["description"] = "Can be found inside caves.",
-				}),
-				o(176583, {	-- Golden Sansam
-					["maps"] = {
-						SILITHUS,
-						UNGORO_CRATER,
-						-- #if AFTER CATA
-						BADLANDS,
-						FELWOOD,
-						SWAMP_OF_SORROWS,
-						-- #else
-						AZSHARA,
-						BURNING_STEPPES,
-						EASTERN_PLAGUELANDS,
-						FERALAS,
-						THE_HINTERLANDS,
-						-- #endif
-					},
-					["description"] = "Can be found by trees and other natural structures.",
-				}),
-				o(176638, {	-- Golden Sansam (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(180167, {	-- Golden Sansam (Zul'Gurub)
-					["maps"] = { ZULGURUB },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(2046, {	-- Goldthorn
-					["maps"] = {
-						ARATHI_HIGHLANDS,
-						DUSTWALLOW_MARSH,
-						FERALAS,
-						THE_HINTERLANDS,
-						-- #if AFTER CATA
-						SOUTHERN_BARRENS,
-						THE_CAPE_OF_STRANGLETHORN,
-						-- #else
-						ALTERAC_MOUNTAINS,
-						STRANGLETHORN_VALE,
-						SWAMP_OF_SORROWS,
-						-- #endif
-					},
-					["description"] = "Can be found on uneven terrain and mountain sides.",
-				}),
-				o(1628, {	-- Grave Moss
-					["coords"] = {
-						{ 20.0, 40.0, DUSKWOOD },	-- Raven Hill Cemetery
-						-- #if BEFORE CATA
-						{ 50.0, 58.0, DESOLACE },
-						{ 80.0, 71.0, DUSKWOOD },
-						-- #endif
-					},
-					["description"] = "Can be found on graves.",
-				}),
-				o(142145, {	-- Gromsblood
-					["coords"] = {
-						{ 84.1, 71.65, ASHENVALE },	-- Felfire Hill
-						{ 53.5, 46.5, BLASTED_LANDS },
-						{ 50.0, 80.0, DESOLACE },
-					},
-					-- #if AFTER CATA
-					["maps"] = { FELWOOD },
-					-- #endif
-					["description"] = "Found in locations corrupted by the Burning Legion.",
-				}),
-				o(176637, {	-- Gromsblood (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(176588, {	-- Icecap
-					["maps"] = { WINTERSPRING },
-				}),
-				o(2043, {	-- Khadgar's Whisker
-					["maps"] = {
-						ARATHI_HIGHLANDS,
-						DUSTWALLOW_MARSH,
-						FERALAS,
-						-- #if AFTER CATA
-						EASTERN_PLAGUELANDS,
-						SOUTHERN_BARRENS,
-						THE_CAPE_OF_STRANGLETHORN,
-						THE_HINTERLANDS,
-						WESTERN_PLAGUELANDS,
-						-- #else
-						ALTERAC_MOUNTAINS,
-						AZSHARA,
-						BADLANDS,
-						STRANGLETHORN_VALE,
-						SWAMP_OF_SORROWS,
-						-- #endif
-					},
-					["description"] = "Can be found near trees.",
-				}),
-				o(1624, {	-- Kingsblood
-					["maps"] = {
-						ARATHI_HIGHLANDS,
-						DUSKWOOD,
-						WETLANDS,
-						-- #if AFTER CATA
-						FERALAS,
-						NORTHERN_STRANGLETHORN,
-						SOUTHERN_BARRENS,
-						THE_HINTERLANDS,
-						WESTERN_PLAGUELANDS,
-						-- #else
-						ALTERAC_MOUNTAINS,
-						ASHENVALE,
-						BADLANDS,
-						DESOLACE,
-						DUSTWALLOW_MARSH,
-						HILLSBRAD_FOOTHILLS,
-						STONETALON_MOUNTAINS,
-						STRANGLETHORN_VALE,
-						SWAMP_OF_SORROWS,
-						THOUSAND_NEEDLES,
-						-- #endif
-					},
-					["description"] = "Can be found in the woods.",
-				}),
-				o(2041, {	-- Liferoot
-					["maps"] = {
-						ARATHI_HIGHLANDS,
-						DUSTWALLOW_MARSH,
-						THE_HINTERLANDS,
-						WETLANDS,
-						-- #if AFTER CATA
-						EASTERN_PLAGUELANDS,
-						NORTHERN_STRANGLETHORN,
-						SOUTHERN_BARRENS,
-						-- #else
-						ALTERAC_MOUNTAINS,
-						DESOLACE,
-						FERALAS,
-						HILLSBRAD_FOOTHILLS,
-						STRANGLETHORN_VALE,
-						SWAMP_OF_SORROWS,
-						WESTERN_PLAGUELANDS,
-						-- #endif
-					},
-					["description"] = "Can usually be found on fertile grounds by inland waters and waterways, but coherency is not Blizzard's forte.",
-				}),
-				o(1620, {	-- Mageroyal
-					["maps"] = {
-						DARKSHORE,
-						LOCH_MODAN,
-						SILVERPINE_FOREST,
-						TELDRASSIL,
-						WESTFALL,
-						WETLANDS,
-						-- #if AFTER CATA
-						AZSHARA,
-						HILLSBRAD_FOOTHILLS,
-						NORTHERN_BARRENS,
-						-- #else
-						ASHENVALE,
-						REDRIDGE_MOUNTAINS,
-						-- #endif
-					},
-				}),
-				-- #if ANYCLASSIC
-				o(3727, {	-- Mageroyal (The Barrens)
-					-- Note: This node get replaced by o(1620) at an unknown point between MOP and TWW.
-					["maps"] = {
-						-- #if AFTER CATA
-						NORTHERN_BARRENS,
-						-- #else
-						THE_BARRENS
-						-- #endif
-					},
-				}),
-				-- #endif
-				o(176586, {	-- Mountain Silversage
-					["maps"] = {
-						-- #if AFTER CATA
-						BLASTED_LANDS,
-						-- #else
-						AZSHARA,
-						BURNING_STEPPES,
-						EASTERN_PLAGUELANDS,
-						-- #endif
-						SILITHUS,
-						UNGORO_CRATER,
-						WINTERSPRING,
-					},
-					["description"] = "Can be found on uneven terrain and mountain sides.",
-				}),
-				o(176640, {	-- Mountain Silversage (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(180166, {	-- Mountain Silversage (Zul'Gurub)
-					["maps"] = { ZULGURUB },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(1618, {	-- Peacebloom
-					["maps"] = {
-						DARKSHORE,
-						DUN_MOROGH,
-						DUROTAR,
-						ELWYNN_FOREST,
-						LOCH_MODAN,
-						MULGORE,
-						-- #if BEFORE CATA
-						SILVERPINE_FOREST,
-						-- #endif
-						TELDRASSIL,
-						TIRISFAL_GLADES,
-						WESTFALL,
-					},
-				}),
-				-- #if ANYCLASSIC
-				o(3724, {	-- Peacebloom (The Barrens)
-					-- Note: This node get replaced by o(1618) at an unknown point between MOP and TWW.
-					["maps"] = {
-						-- #if AFTER CATA
-						NORTHERN_BARRENS,
-						-- #else
-						THE_BARRENS
-						-- #endif
-					},
-				}),
-				-- #endif
-				o(142140, {	-- Purple Lotus
-					-- #if AFTER CATA
-					["coords"] = {
-						{ 49.35, 30.85, FELWOOD },	-- Irontree Woods ruins
-						{ 42.2, 36.1, FELWOOD },	-- Shatter Scale Vale northern ruins
-						{ 39.45, 45.1, FELWOOD },	-- Shatter Scale Vale southern ruins
-						{ 38.6, 67.5, FELWOOD },	-- Ruins of Constellas
-						{ 56.95, 85.55, FELWOOD },	-- Morlos'Aran
-					},
-					-- #else
-					["maps"] = {
-						AZSHARA,
-						FERALAS,
-						STRANGLETHORN_VALE,
-						TANARIS,
-						THE_HINTERLANDS,
-					},
-					-- #endif
-					["description"] = "Can be found in elven ruins.",
-				}),
-				o(180165, {	-- Purple Lotus (Zul'Gurub)
-					["maps"] = { ZULGURUB },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(1617, {	-- Silverleaf
-					["maps"] = {
-						DARKSHORE,
-						DUN_MOROGH,
-						DUROTAR,
-						ELWYNN_FOREST,
-						LOCH_MODAN,
-						MULGORE,
-						SILVERPINE_FOREST,
-						TELDRASSIL,
-						TIRISFAL_GLADES,
-						WESTFALL,
-					},
-				}),
-				-- #if ANYCLASSIC
-				o(3725, {	-- Silverleaf (The Barrens)
-					-- Note: This node get replaced by o(1617) at an unknown point between MOP and TWW.
-					["maps"] = {
-						-- #if AFTER CATA
-						NORTHERN_BARRENS,
-						-- #else
-						THE_BARRENS
-						-- #endif
-					},
-				}),
-				-- #endif
-				o(176587, {	-- Sorrowmoss [CATA+] / Plaguebloom
-					["maps"] = {
-						-- #if AFTER CATA
-						SWAMP_OF_SORROWS,
-						-- #else
-						EASTERN_PLAGUELANDS,
-						WESTERN_PLAGUELANDS,
-						-- #endif
-					},
-				}),
-				o(176641, {	-- Plaguebloom (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(2045, {	-- Stranglekelp
-					["maps"] = {
-						ASHENVALE,
-						DARKSHORE,
-						DUSTWALLOW_MARSH,
-						HILLSBRAD_FOOTHILLS,
-						SILVERPINE_FOREST,
-						SWAMP_OF_SORROWS,
-						THE_HINTERLANDS,
-						WESTFALL,
-						WETLANDS,
-						-- #if AFTER CATA
-						NORTHERN_STRANGLETHORN,
-						THE_CAPE_OF_STRANGLETHORN,
-						THOUSAND_NEEDLES,
-						-- #else
-						AZSHARA,
-						DESOLACE,
-						STRANGLETHORN_VALE,
-						THE_BARRENS,
-						-- #endif
-					},
-					["description"] = "Can usually be found in the sea, but also sometimes in bodies of inland waters and waterways.",
-				}),
-				o(142142, {	-- Sungrass
-					["maps"] = {
-						-- #if AFTER CATA
-						BADLANDS,
-						BURNING_STEPPES,
-						SEARING_GORGE,
-						SILITHUS,
-						TANARIS,
-						THOUSAND_NEEDLES,
-						-- #else
-						AZSHARA,
-						BLASTED_LANDS,
-						FERALAS,
-						THE_HINTERLANDS,
-						UNGORO_CRATER,
-						WESTERN_PLAGUELANDS,
-						-- #endif
-						EASTERN_PLAGUELANDS,
-					},
-				}),
-				o(176636, {	-- Sungrass (Felwood)
-					["maps"] = { FELWOOD },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(180164, {	-- Sungrass (Zul'Gurub)
-					["maps"] = { ZULGURUB },
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				o(1623, {	-- Wild Steelbloom
-					["maps"] = {
-						-- #if AFTER CATA
-						ASHENVALE,
-						DESOLACE,
-						NORTHERN_STRANGLETHORN,
-						-- #else
-						STRANGLETHORN_VALE,
-						THOUSAND_NEEDLES,
-						-- #endif
-						ARATHI_HIGHLANDS,
-						STONETALON_MOUNTAINS,
-						WETLANDS,
-					},
-					["description"] = "Can be found on uneven terrain and mountain sides.",
-				}),
-			}),
+			})),
 			filter(MISC, {
 				i(11020, bubbleDownSelf({ ["timeline"] = { REMOVED_4_0_3 } }, {	-- Evergreen Pouch
 					["cost"] = {

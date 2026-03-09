@@ -834,8 +834,77 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 	}),
 	prof(HERBALISM, {
-		spell(2366, {	-- Herb Gathering
-			-- Herbs:
+		header(HEADERS.Spell, 2366, appendAllGroups(sharedData({ ["requireSkill"] = HERBALISM, }, {	-- Herb Gathering
+			-- Nodes:
+			o(202749, {	-- Azshara's Veil
+				["description"] = "Can be found near and in waters.",
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 425,
+				-- #endif
+				["maps"] = {
+					MOUNT_HYJAL,
+					TOL_BARAD_PENINSULA,
+					VASHJIR_ABYSSAL_DEPTHS,
+					VASHJIR_KELPTHAR_FOREST,
+					VASHJIR_SHIMMERING_EXPANSE,
+				},
+			}),
+			o(202747, {	-- Cinderbloom
+				["description"] = "Mount Hyjal is the better place to look for these.",
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 425,
+				-- #endif
+				["maps"] = {
+					DEEPHOLM,
+					MOUNT_HYJAL,
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+			}),
+			o(202750, {	-- Heartblossom
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 475,
+				-- #endif
+				["maps"] = { DEEPHOLM },
+			}),
+			o(202748, {	-- Stormvine
+				["coords"] = {
+					{ 22.7, 65.4, VASHJIR_ABYSSAL_DEPTHS },	-- Abandoned Reef
+					{ 41.0, 36.2, VASHJIR_ABYSSAL_DEPTHS },	-- The Scalding Chasm
+					{ 50.4, 35.4, VASHJIR_SHIMMERING_EXPANSE },	-- Silver Tide Trench, beneath
+					{ 38.3, 64.1, VASHJIR_SHIMMERING_EXPANSE },	-- Quel'Dormir Gardens
+				},
+				["description"] = "Can be found near the base of vegetation and structures.",
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 425,
+				-- #endif
+				["maps"] = {
+					MOUNT_HYJAL,
+					VASHJIR_KELPTHAR_FOREST,
+				},
+			}),
+			o(202751, {	-- Twilight Jasmine
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 525,
+				-- #endif
+				["maps"] = { TWILIGHT_HIGHLANDS },
+			}),
+			o(202752, {	-- Whiptail
+				["coords"] = {
+					{ 39.8, 49.2, TOL_BARAD },	-- Croc swamp
+					{ 56.2, 22.6, ULDUM },	-- Vir'naal Oasis, northeast of Ramkahen
+					{ 49.7, 32.2, ULDUM },	-- Vir'naal Oasis, west of Ramkahen
+					{ 56.6, 48.9, ULDUM },	-- Vir'naal River
+					{ 62.0, 77.9, ULDUM },	-- Vir'naal River Delta
+				},
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 500,
+				-- #endif
+			}),
+		}),
+		{	-- Herbs:
 			i(52985, {	-- Azshara's Veil
 				["description"] = "Can be found near and in waters.",
 				["maps_disp"] = {
@@ -937,57 +1006,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				["provider"] = { "o", 202752 },	-- Whiptail
 				["timeline"] = { ADDED_6_0_2 },
 			}),
-			-- Nodes:
-			o(202749, {	-- Azshara's Veil
-				["description"] = "Can be found near and in waters.",
-				["maps"] = {
-					MOUNT_HYJAL,
-					TOL_BARAD_PENINSULA,
-					VASHJIR_ABYSSAL_DEPTHS,
-					VASHJIR_KELPTHAR_FOREST,
-					VASHJIR_SHIMMERING_EXPANSE,
-				},
-			}),
-			o(202747, {	-- Cinderbloom
-				["description"] = "Mount Hyjal is the better place to look for these.",
-				["maps"] = {
-					DEEPHOLM,
-					MOUNT_HYJAL,
-					TOL_BARAD,
-					TOL_BARAD_PENINSULA,
-					TWILIGHT_HIGHLANDS,
-					ULDUM,
-				},
-			}),
-			o(202750, {	-- Heartblossom
-				["maps"] = { DEEPHOLM },
-			}),
-			o(202748, {	-- Stormvine
-				["coords"] = {
-					{ 22.7, 65.4, VASHJIR_ABYSSAL_DEPTHS },	-- Abandoned Reef
-					{ 41.0, 36.2, VASHJIR_ABYSSAL_DEPTHS },	-- The Scalding Chasm
-					{ 50.4, 35.4, VASHJIR_SHIMMERING_EXPANSE },	-- Silver Tide Trench, beneath
-					{ 38.3, 64.1, VASHJIR_SHIMMERING_EXPANSE },	-- Quel'Dormir Gardens
-				},
-				["description"] = "Can be found near the base of vegetation and structures.",
-				["maps"] = {
-					MOUNT_HYJAL,
-					VASHJIR_KELPTHAR_FOREST,
-				},
-			}),
-			o(202751, {	-- Twilight Jasmine
-				["maps"] = { TWILIGHT_HIGHLANDS },
-			}),
-			o(202752, {	-- Whiptail
-				["coords"] = {
-					{ 39.8, 49.2, TOL_BARAD },	-- Croc swamp
-					{ 56.2, 22.6, ULDUM },	-- Vir'naal Oasis, northeast of Ramkahen
-					{ 49.7, 32.2, ULDUM },	-- Vir'naal Oasis, west of Ramkahen
-					{ 56.6, 48.9, ULDUM },	-- Vir'naal River
-					{ 62.0, 77.9, ULDUM },	-- Vir'naal River Delta
-				},
-			}),
-		}),
+		})),
 	}),
 	prof(INSCRIPTION, {
 		-- Inks and reagents:

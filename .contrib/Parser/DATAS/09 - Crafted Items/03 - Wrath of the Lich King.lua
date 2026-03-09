@@ -1082,8 +1082,75 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 	}),
 	prof(HERBALISM, {
-		spell(2366, {	-- Herb Gathering
-			-- Herbs
+		header(HEADERS.Spell, 2366, appendAllGroups(sharedData({ ["requireSkill"] = HERBALISM, }, {	-- Herb Gathering
+			-- Nodes
+			o(191019, {	-- Adder's Tongue
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 400,
+				-- #endif
+				["maps"] = { SHOLAZAR_BASIN },
+			}),
+			o(191303, {	-- Firethorn
+				["coord"] = { 70.6, 33.7, BOREAN_TUNDRA },	-- The Southern Geyser Fields
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 360,
+				-- #endif
+			}),
+			o(189973, {	-- Goldclover
+				["coords"] = {
+					{ 48.8, 48.4, DRAGONBLIGHT },	-- Ruby Dragonshrine
+					{ 63.5, 72.5, DRAGONBLIGHT },	-- Emerald Dragonshrine
+				},
+				["description"] = "Found on grassy terrain.",
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 350,
+				-- #endif
+				["maps"] = {
+					BOREAN_TUNDRA,
+					GRIZZLY_HILLS,
+					HOWLING_FJORD,
+					SHOLAZAR_BASIN,
+				},
+			}),
+			o(190172, {	-- Icethorn
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 435,
+				-- #endif
+				["maps"] = {
+					ICECROWN,
+					THE_STORM_PEAKS,
+				},
+			}),
+			o(190171, {	-- Lichbloom
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 425,
+				-- #endif
+				["maps"] = {
+					ICECROWN,
+					THE_STORM_PEAKS,
+				},
+			}),
+			o(190170, {	-- Talandra's Rose
+				["description"] = "Found around the lower tiers of Zul'Drak.",
+				["coord"] = { 33.2, 66.7, ZULDRAK },	-- Lower Zul'Drak
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 385,
+				-- #endif
+			}),
+			o(190169, {	-- Tiger Lily
+				["description"] = "Found around inland waters and waterways.",
+				["coord"] = { 51.6, 45.0, BOREAN_TUNDRA },	-- Lake Kum'uya
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 375,
+				-- #endif
+				["maps"] = {
+					GRIZZLY_HILLS,
+					HOWLING_FJORD,
+					SHOLAZAR_BASIN,
+				},
+			}),
+		}),
+		{	-- Herbs
 			i(36903, {	-- Adder's Tongue
 				["maps_disp"] = { SHOLAZAR_BASIN },
 				["provider"] = { "o", 191019 },	-- Adder's Tongue
@@ -1222,52 +1289,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					i(36904),	-- Tiger Lily
 				},
 			}),
-			-- Nodes
-			o(191019, {	-- Adder's Tongue
-				["maps"] = { SHOLAZAR_BASIN },
-			}),
-			o(191303, {	-- Firethorn
-				["coord"] = { 70.6, 33.7, BOREAN_TUNDRA },	-- The Southern Geyser Fields
-			}),
-			o(189973, {	-- Goldclover
-				["coords"] = {
-					{ 48.8, 48.4, DRAGONBLIGHT },	-- Ruby Dragonshrine
-					{ 63.5, 72.5, DRAGONBLIGHT },	-- Emerald Dragonshrine
-				},
-				["description"] = "Found on grassy terrain.",
-				["maps"] = {
-					BOREAN_TUNDRA,
-					GRIZZLY_HILLS,
-					HOWLING_FJORD,
-					SHOLAZAR_BASIN,
-				},
-			}),
-			o(190172, {	-- Icethorn
-				["maps"] = {
-					ICECROWN,
-					THE_STORM_PEAKS,
-				},
-			}),
-			o(190171, {	-- Lichbloom
-				["maps"] = {
-					ICECROWN,
-					THE_STORM_PEAKS,
-				},
-			}),
-			o(190170, {	-- Talandra's Rose
-				["coord"] = { 33.2, 66.7, ZULDRAK },	-- Lower Zul'Drak
-				["description"] = "Found around the lower tiers of Zul'Drak.",
-			}),
-			o(190169, {	-- Tiger Lily
-				["coord"] = { 51.6, 45.0, BOREAN_TUNDRA },	-- Lake Kum'uya
-				["description"] = "Found around inland waters and waterways.",
-				["maps"] = {
-					GRIZZLY_HILLS,
-					HOWLING_FJORD,
-					SHOLAZAR_BASIN,
-				},
-			}),
-		}),
+		})),
 	}),
 	prof(INSCRIPTION, {
 		-- Inks and reagents:

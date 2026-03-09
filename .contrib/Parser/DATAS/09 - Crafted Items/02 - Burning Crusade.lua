@@ -1022,8 +1022,111 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 	}),
 	prof(HERBALISM, {
-		header(HEADERS.Spell, 2366, {	-- Herb Gathering
-			-- Herbs
+		header(HEADERS.Spell, 2366, appendAllGroups(sharedData({ ["requireSkill"] = HERBALISM, }, {	-- Herb Gathering
+			-- Nodes
+			o(181278, {	-- Ancient Lichen
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 340,
+				-- #endif
+				["maps"] = {
+					AUCHINDOUN_AUCHENAI_CRYPTS,
+					AUCHINDOUN_MANA_TOMBS,
+					AUCHINDOUN_SETHEKK_HALLS,
+					AUCHINDOUN_SHADOW_LABYRINTH,
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+				},
+			}),
+			o(181271, {	-- Dreaming Glory
+				["description"] = "Found near edges and highly uneven terrain.",
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 315,
+				-- #endif
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+				},
+			}),
+			o(181270, {	-- Felweed
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 300,
+				-- #endif
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					HELLFIRE_PENINSULA,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			o(181276, {	-- Flame Cap
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 335,
+				-- #endif
+				["maps"] = {
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ZANGARMARSH,
+				},
+			}),
+			o(181281, {	-- Mana Thistle
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 375,
+				-- #endif
+				["maps"] = { ISLE_OF_QUELDANAS },
+			}),
+			o(181279, {	-- Netherbloom
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 350,
+				-- #endif
+				["maps"] = { NETHERSTORM },
+			}),
+			o(181280, {	-- Nightmare Vine
+				["description"] = "Although this can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
+				["coords"] = {
+					{ 63.9, 68.3, BLADES_EDGE_MOUNTAINS },	-- Death's Door
+					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
+					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
+				},
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 365,
+				-- #endif
+				["maps"] = SHADOWMOON_VALLEY,
+			}),
+			o(181275, {	-- Ragveil
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 325,
+				-- #endif
+				["maps"] = {
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ZANGARMARSH,
+				},
+			}),
+			o(181277, {	-- Terocone
+				["description"] = "Found near the base of trees.",
+				["coords"] = {
+					{ 43.4, 55.8, SHADOWMOON_VALLEY },	-- Sketh'lon Base Camp
+					{ 36.5, 32.5, SHADOWMOON_VALLEY },	-- Sketh'lon Wreckage
+					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
+				},
+				-- #if BEFORE 6.0.0
+				["learnedAt"] = 325,
+				-- #endif
+				["maps"] = { TEROKKAR_FOREST },
+			}),
+		}),
+		{	-- Herbs
 			i(22790, {	-- Ancient Lichen
 				["maps_disp"] = {
 					AUCHINDOUN_AUCHENAI_CRYPTS,
@@ -1195,85 +1298,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(24401, {	-- Unidentified Plant Parts (Quest Item for Zangarmarsh q(9802) and q(9784))
 				["maps_disp"] = ZANGARMARSH,
 			}),
-			-- Nodes
-			o(181278, {	-- Ancient Lichen
-				["maps"] = {
-					AUCHINDOUN_AUCHENAI_CRYPTS,
-					AUCHINDOUN_MANA_TOMBS,
-					AUCHINDOUN_SETHEKK_HALLS,
-					AUCHINDOUN_SHADOW_LABYRINTH,
-					COILFANG_RESERVOIR_SLAVE_PENS,
-					COILFANG_RESERVOIR_STEAMVAULT,
-					COILFANG_RESERVOIR_UNDERBOG,
-				},
-			}),
-			o(181271, {	-- Dreaming Glory
-				["description"] = "Found near edges and highly uneven terrain.",
-				["maps"] = {
-					BLADES_EDGE_MOUNTAINS,
-					NAGRAND,
-					NETHERSTORM,
-					SHADOWMOON_VALLEY,
-					TEROKKAR_FOREST,
-				},
-			}),
-			o(181270, {	-- Felweed
-				["maps"] = {
-					BLADES_EDGE_MOUNTAINS,
-					HELLFIRE_PENINSULA,
-					NAGRAND,
-					NETHERSTORM,
-					SHADOWMOON_VALLEY,
-					TEROKKAR_FOREST,
-					ZANGARMARSH,
-				},
-			}),
-			o(181276, {	-- Flame Cap
-				["maps"] = {
-					COILFANG_RESERVOIR_SLAVE_PENS,
-					COILFANG_RESERVOIR_STEAMVAULT,
-					COILFANG_RESERVOIR_UNDERBOG,
-					ZANGARMARSH,
-				},
-			}),
-			o(181281, {	-- Mana Thistle
-				["maps"] = { ISLE_OF_QUELDANAS },
-			}),
-			o(181279, {	-- Netherbloom
-				["maps"] = { NETHERSTORM },
-			}),
-			o(181280, {	-- Nightmare Vine
-				["description"] = "Although this can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
-				["coords"] = {
-					{ 63.9, 68.3, BLADES_EDGE_MOUNTAINS },	-- Death's Door
-					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
-					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
-					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
-				},
-				["maps"] = SHADOWMOON_VALLEY,
-			}),
-			o(181275, {	-- Ragveil
-				["maps"] = {
-					COILFANG_RESERVOIR_SLAVE_PENS,
-					COILFANG_RESERVOIR_STEAMVAULT,
-					COILFANG_RESERVOIR_UNDERBOG,
-					ZANGARMARSH,
-				},
-			}),	-- Sanguine Hibiscus
-			o(183385, {
-				["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
-			}),
-			o(181277, {	-- Terocone
-				["description"] = "Found near the base of trees.",
-				["coords"] = {
-					{ 43.4, 55.8, SHADOWMOON_VALLEY },	-- Sketh'lon Base Camp
-					{ 36.5, 32.5, SHADOWMOON_VALLEY },	-- Sketh'lon Wreckage
-					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
-					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
-				},
-				["maps"] = { TEROKKAR_FOREST },
-			}),
-		}),
+		})),
 	}),
 	-- #if AFTER WRATH
 	prof(INSCRIPTION, {
