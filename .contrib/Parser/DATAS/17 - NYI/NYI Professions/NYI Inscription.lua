@@ -555,6 +555,13 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					r(1213516),	-- Unknown
 				})),
 			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					-- Without SpellID attached
+					i(267396),	-- Technique: Restful Bronze Bench
+				})),
+			}),
 		}),
 	}),
 	-- Needs Sorting

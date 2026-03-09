@@ -1844,7 +1844,7 @@ i(267395, 1248627);	-- Homely Wall Shelves
 i(258502, 1248623);	-- Lively Songwriter's Quill
 i(258510, 1248631);	-- Magnificent Towering Bookcase
 i(258503, 1248624);	-- Opened Sin'dorei Scroll [Item is Sin'dorei Opened Scroll]
-i(267396, 1248620);	-- Restful Bronze Bench
+i(258499, 1248620);	-- Restful Bronze Bench
 i(258505, 1248626);	-- Sin'dorei Phoenix Quill
 i(267399, 1248619);	-- Sturdy Ren'dorei Cask
 i(267400, 1248628);	-- Wild Hanging Scroll
@@ -1884,3 +1884,5 @@ i(0, 1230031);		-- Thalassian Treatise on Leatherworking
 i(0, 1230027);		-- Thalassian Treatise on Mining
 i(0, 1230035);		-- Thalassian Treatise on Skinning
 i(0, 1230033);		-- Thalassian Treatise on Tailoring
+--- NYI ---
+i(267396, 0);		-- Restful Bronze Bench
