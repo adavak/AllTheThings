@@ -1157,4 +1157,14 @@ root(ROOTS.NeverImplemented, n(EXPLORATION, {
 			exploration(15515),	-- Housing_Plots
 		})),
 	}),
+	expansion(EXPANSION.MID, {
+		-- 12.0.0
+		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+			-- Zone: Silvermoon City
+			exploration(16647),	-- Den of Indulgence
+			exploration(16087),	-- Farstrider Square
+			exploration(16627),	-- Sunwing Sundries
+			exploration(16665),	-- Umbral Atrium
+		})),
+	}),
 }));
