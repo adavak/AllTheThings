@@ -2082,18 +2082,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		}),
 		filter(MISC, {
 			i(203412, {["timeline"] = {ADDED_10_0_7}}),	-- Arcane Dispelling Rune
-			i(194871),	-- Azurescale Sigil+
-			i(199051),	-- Azurescale Sigil++
-			i(199052),	-- Azurescale Sigil+++
-			i(194870),	-- Bronzescale Sigil+
-			i(199053),	-- Bronzescale Sigil++
-			i(199054),	-- Bronzescale Sigil+++
 			i(194821),	-- Buzzing Rune+
 			i(194822),	-- Buzzing Rune++
 			i(194823),	-- Buzzing Rune+++
-			i(194859),	-- Chilled Rune+
-			i(194767),	-- Chilled Rune++
-			i(194768),	-- Chilled Rune+++
 			i(194824),	-- Chirping Rune+
 			i(194825),	-- Chirping Rune++
 			i(194826),	-- Chirping Rune+++
@@ -2118,6 +2109,115 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(198497),	-- Contract: Valdrakken Accord+
 			i(198498),	-- Contract: Valdrakken Accord++
 			i(198499),	-- Contract: Valdrakken Accord+++
+			i(194697, {	-- Draconic Treatise on Alchemy
+				["questID"] = 74108,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.ALCHEMY) },
+			}),
+			i(198454, {	-- Draconic Treatise on Blacksmithing
+				["questID"] = 74109,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.BLACKSMITHING) },
+			}),
+			i(194702, {	-- Draconic Treatise on Enchanting
+				["questID"] = 74110,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.ENCHANTING) },
+			}),
+			i(198510, {	-- Draconic Treatise on Engineering
+				["questID"] = 74111,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.ENGINEERING) },
+			}),
+			i(194704, {	-- Draconic Treatise on Herbalism
+				["questID"] = 74107,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.HERBALISM) },
+			}),
+			i(194699, {	-- Draconic Treatise on Inscription
+				["questID"] = 74105,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.INSCRIPTION) },
+			}),
+			i(194703, {	-- Draconic Treatise on Jewelcrafting
+				["questID"] = 74112,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.JEWELCRAFTING) },
+			}),
+			i(194700, {	-- Draconic Treatise on Leatherworking
+				["questID"] = 74113,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.LEATHERWORKING) },
+			}),
+			i(194708, {	-- Draconic Treatise on Mining
+				["questID"] = 74106,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.MINING) },
+			}),
+			i(201023, {	-- Draconic Treatise on Skinning
+				["questID"] = 74114,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.SKINNING) },
+			}),
+			i(194698, {	-- Draconic Treatise on Tailoring
+				["questID"] = 74115,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.TAILORING) },
+			}),
+			i(204971, {["timeline"] = {ADDED_10_1_0}}),	-- Hissing Rune+
+			i(204972, {["timeline"] = {ADDED_10_1_0}}),	-- Hissing Rune++
+			i(204973, {["timeline"] = {ADDED_10_1_0}}),	-- Hissing Rune+++
+			i(194817),	-- Howling Rune+
+			i(194819),	-- Howling Rune++
+			i(194820),	-- Howling Rune+++
+			i(194733),	-- Illusion Parchment: Aqua Torrent
+			i(194735),	-- Illusion Parchment: Arcane Burst
+			i(194736),	-- Illusion Parchment: Chilling Wind
+			i(194732),	-- Illusion Parchment: Love Charm
+			i(194731),	-- Illusion Parchment: Magma Missile
+			i(194738),	-- Illusion Parchment: Shadow Orb
+			i(194737),	-- Illusion Parchment: Spell Shield
+			i(194734),	-- Illusion Parchment: Whirling Breeze
+			i(197718),	-- Scroll of Sales+
+			i(198616),	-- Scroll of Sales++
+			i(198617),	-- Scroll of Sales+++
+			i(204858, {["timeline"] = {ADDED_10_1_0}}),	-- Vantus Rune: Aberrus, the Shadowed Crucible+
+			i(204859, {["timeline"] = {ADDED_10_1_0}}),	-- Vantus Rune: Aberrus, the Shadowed Crucible++
+			i(204860, {["timeline"] = {ADDED_10_1_0}}),	-- Vantus Rune: Aberrus, the Shadowed Crucible+++
+			i(210247, {["timeline"] = {ADDED_10_2_0}}),	-- Vantus Rune: Amirdrassil, the Dream's Hope+
+			i(210248, {["timeline"] = {ADDED_10_2_0}}),	-- Vantus Rune: Amirdrassil, the Dream's Hope++
+			i(210249, {["timeline"] = {ADDED_10_2_0}}),	-- Vantus Rune: Amirdrassil, the Dream's Hope+++
+			i(198491),	-- Vantus Rune: Vault of the Incarnates+
+			i(198492),	-- Vantus Rune: Vault of the Incarnates++
+			i(198493),	-- Vantus Rune: Vault of the Incarnates+++
+		}),
+		filter(PROFESSION_EQUIPMENT, {
+			i(191234, {["requireSkill"] = ALCHEMY}),	-- Alchemist's Sturdy Mixing Rod
+			i(191231, {["requireSkill"] = ALCHEMY}),	-- Alchemist's Brilliant Mixing Rod
+			i(191232, {["requireSkill"] = COOKING}),	-- Chef's Splendid Rolling Pin
+			i(191233, {["requireSkill"] = COOKING}),	-- Chef's Smooth Rolling Pin
+			i(194874, {["requireSkill"] = INSCRIPTION}),	-- Scribe's Fastened Quill
+			i(194875, {["requireSkill"] = INSCRIPTION}),	-- Scribe's Resplendent Quill
+		}),
+		filter(REAGENTS, {
+			i(194871),	-- Azurescale Sigil+
+			i(199051),	-- Azurescale Sigil++
+			i(199052),	-- Azurescale Sigil+++
+			i(194751),	-- Blazing Ink+
+			i(194752),	-- Blazing Ink++
+			i(194846),	-- Blazing Ink+++
+			i(194870),	-- Bronzescale Sigil+
+			i(199053),	-- Bronzescale Sigil++
+			i(199054),	-- Bronzescale Sigil+++
+			i(194760),	-- Burnished Ink+
+			i(194761),	-- Burnished Ink++
+			i(194855),	-- Burnished Ink+++
+			i(194859),	-- Chilled Rune+
+			i(194767),	-- Chilled Rune++
+			i(194768),	-- Chilled Rune+++
+			i(194754),	-- Cosmic Ink+
+			i(194755),	-- Cosmic Ink++
+			i(194756),	-- Cosmic Ink+++
 			i(194570),	-- Draconic Missive of the Aurora+
 			i(194571),	-- Draconic Missive of the Aurora++
 			i(194569),	-- Draconic Missive of the Aurora+++
@@ -2157,77 +2257,21 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(200565),	-- Draconic Missive of Resourcefulness+
 			i(200566),	-- Draconic Missive of Resourcefulness++
 			i(200567),	-- Draconic Missive of Resourcefulness+++
-			i(194697),	-- Draconic Treatise on Alchemy
-			i(198454),	-- Draconic Treatise on Blacksmithing
-			i(194702),	-- Draconic Treatise on Enchanting
-			i(198510),	-- Draconic Treatise on Engineering
-			i(194704),	-- Draconic Treatise on Herbalism
-			i(194699),	-- Draconic Treatise on Inscription
-			i(194703),	-- Draconic Treatise on Jewelcrafting
-			i(194700),	-- Draconic Treatise on Leatherworking
-			i(194708),	-- Draconic Treatise on Mining
-			i(201023),	-- Draconic Treatise on Skinning
-			i(194698),	-- Draconic Treatise on Tailoring
 			i(194868),	-- Emberscale Sigil+
 			i(199055),	-- Emberscale Sigil++
 			i(199056),	-- Emberscale Sigil+++
-			i(204971, {["timeline"] = {ADDED_10_1_0}}),	-- Hissing Rune+
-			i(204972, {["timeline"] = {ADDED_10_1_0}}),	-- Hissing Rune++
-			i(204973, {["timeline"] = {ADDED_10_1_0}}),	-- Hissing Rune+++
-			i(194817),	-- Howling Rune+
-			i(194819),	-- Howling Rune++
-			i(194820),	-- Howling Rune+++
-			i(194733),	-- Illusion Parchment: Aqua Torrent
-			i(194735),	-- Illusion Parchment: Arcane Burst
-			i(194736),	-- Illusion Parchment: Chilling Wind
-			i(194732),	-- Illusion Parchment: Love Charm
-			i(194731),	-- Illusion Parchment: Magma Missile
-			i(194738),	-- Illusion Parchment: Shadow Orb
-			i(194737),	-- Illusion Parchment: Spell Shield
-			i(194734),	-- Illusion Parchment: Whirling Breeze
-			i(198431),	-- Jetscale Sigil+
-			i(199057),	-- Jetscale Sigil++
-			i(199058),	-- Jetscale Sigil+++
-			i(194869),	-- Sagescale Sigil+
-			i(199059),	-- Sagescale Sigil++
-			i(199060),	-- Sagescale Sigil+++
-			i(197718),	-- Scroll of Sales+
-			i(198616),	-- Scroll of Sales++
-			i(198617),	-- Scroll of Sales+++
-			i(204858, {["timeline"] = {ADDED_10_1_0}}),	-- Vantus Rune: Aberrus, the Shadowed Crucible+
-			i(204859, {["timeline"] = {ADDED_10_1_0}}),	-- Vantus Rune: Aberrus, the Shadowed Crucible++
-			i(204860, {["timeline"] = {ADDED_10_1_0}}),	-- Vantus Rune: Aberrus, the Shadowed Crucible+++
-			i(210247, {["timeline"] = {ADDED_10_2_0}}),	-- Vantus Rune: Amirdrassil, the Dream's Hope+
-			i(210248, {["timeline"] = {ADDED_10_2_0}}),	-- Vantus Rune: Amirdrassil, the Dream's Hope++
-			i(210249, {["timeline"] = {ADDED_10_2_0}}),	-- Vantus Rune: Amirdrassil, the Dream's Hope+++
-			i(198491),	-- Vantus Rune: Vault of the Incarnates+
-			i(198492),	-- Vantus Rune: Vault of the Incarnates++
-			i(198493),	-- Vantus Rune: Vault of the Incarnates+++
-		}),
-		filter(PROFESSION_EQUIPMENT, {
-			i(191234, {["requireSkill"] = ALCHEMY}),	-- Alchemist's Sturdy Mixing Rod
-			i(191231, {["requireSkill"] = ALCHEMY}),	-- Alchemist's Brilliant Mixing Rod
-			i(191232, {["requireSkill"] = COOKING}),	-- Chef's Splendid Rolling Pin
-			i(191233, {["requireSkill"] = COOKING}),	-- Chef's Smooth Rolling Pin
-			i(194874, {["requireSkill"] = INSCRIPTION}),	-- Scribe's Fastened Quill
-			i(194875, {["requireSkill"] = INSCRIPTION}),	-- Scribe's Resplendent Quill
-		}),
-		filter(REAGENTS, {
-			i(194751),	-- Blazing Ink+
-			i(194752),	-- Blazing Ink++
-			i(194846),	-- Blazing Ink+++
-			i(194760),	-- Burnished Ink+
-			i(194761),	-- Burnished Ink++
-			i(194855),	-- Burnished Ink+++
-			i(194754),	-- Cosmic Ink+
-			i(194755),	-- Cosmic Ink++
-			i(194756),	-- Cosmic Ink+++
 			i(194850),	-- Flourishing Ink+
 			i(194758),	-- Flourishing Ink++
 			i(194852),	-- Flourishing Ink+++
+			i(198431),	-- Jetscale Sigil+
+			i(199057),	-- Jetscale Sigil++
+			i(199058),	-- Jetscale Sigil+++
 			i(194862),	-- Runed Writhebark+
 			i(194863),	-- Runed Writhebark++
 			i(194864),	-- Runed Writhebark+++
+			i(194869),	-- Sagescale Sigil+
+			i(199059),	-- Sagescale Sigil++
+			i(199060),	-- Sagescale Sigil+++
 			i(194856),	-- Serene Ink+
 			i(194857),	-- Serene Ink++
 			i(194858),	-- Serene Ink+++

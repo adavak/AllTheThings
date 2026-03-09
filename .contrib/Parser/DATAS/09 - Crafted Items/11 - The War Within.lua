@@ -1721,56 +1721,61 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(234248),	-- Glyph of the Twilight Pistol Shot
 		}),
 		filter(MISC, {
-			i(222635),	-- Algari Missive of Crafting Speed+
-			i(222636),	-- Algari Missive of Crafting Speed++
-			i(222637),	-- Algari Missive of Crafting Speed+++
-			i(222644),	-- Algari Missive of Deftness+
-			i(222645),	-- Algari Missive of Deftness++
-			i(222646),	-- Algari Missive of Deftness+++
-			i(222638),	-- Algari Missive of Finesse+
-			i(222639),	-- Algari Missive of Finesse++
-			i(222640),	-- Algari Missive of Finesse+++
-			i(222626),	-- Algari Missive of Ingenuity+
-			i(222627),	-- Algari Missive of Ingenuity++
-			i(222628),	-- Algari Missive of Ingenuity+++
-			i(222632),	-- Algari Missive of Multicraft+
-			i(222633),	-- Algari Missive of Multicraft++
-			i(222634),	-- Algari Missive of Multicraft+++
-			i(222641),	-- Algari Missive of Perception+
-			i(222642),	-- Algari Missive of Perception++
-			i(222643),	-- Algari Missive of Perception+++
-			i(222629),	-- Algari Missive of Resourcefulness+
-			i(222630),	-- Algari Missive of Resourcefulness++
-			i(222631),	-- Algari Missive of Resourcefulness+++
-			i(222579),	-- Algari Missive of the Aurora+
-			i(222580),	-- Algari Missive of the Aurora++
-			i(222581),	-- Algari Missive of the Aurora+++
-			i(222582),	-- Algari Missive of the Feverflare+
-			i(222583),	-- Algari Missive of the Feverflare++
-			i(222584),	-- Algari Missive of the Feverflare+++
-			i(222585),	-- Algari Missive of the Fireflash+
-			i(222586),	-- Algari Missive of the Fireflash++
-			i(222587),	-- Algari Missive of the Fireflash+++
-			i(222588),	-- Algari Missive of the Harmonious+
-			i(222589),	-- Algari Missive of the Harmonious++
-			i(222590),	-- Algari Missive of the Harmonious+++
-			i(222591),	-- Algari Missive of the Peerless+
-			i(222592),	-- Algari Missive of the Peerless++
-			i(222593),	-- Algari Missive of the Peerless+++
-			i(222594),	-- Algari Missive of the Quickblade+
-			i(222595),	-- Algari Missive of the Quickblade++
-			i(222596),	-- Algari Missive of the Quickblade+++
-			i(222546, {["questID"]=83725,["isWeekly"]=true}),	-- Algari Treatise on Alchemy
-			i(222554, {["questID"]=83726,["isWeekly"]=true}),	-- Algari Treatise on Blacksmithing
-			i(222550, {["questID"]=83727,["isWeekly"]=true}),	-- Algari Treatise on Enchanting
-			TempForceMisc(i(222621, {["questID"]=83728,["isWeekly"]=true})),	-- Algari Treatise on Engineering
-			i(222552, {["questID"]=83729,["isWeekly"]=true}),	-- Algari Treatise on Herbalism
-			i(222548, {["questID"]=83730,["isWeekly"]=true}),	-- Algari Treatise on Inscription
-			i(222551, {["questID"]=83731,["isWeekly"]=true}),	-- Algari Treatise on Jewelcrafting
-			i(222549, {["questID"]=83732,["isWeekly"]=true}),	-- Algari Treatise on Leatherworking
-			i(222553, {["questID"]=83733,["isWeekly"]=true}),	-- Algari Treatise on Mining
-			i(222649, {["questID"]=83734,["isWeekly"]=true}),	-- Algari Treatise on Skinning
-			i(222547, {["questID"]=83735,["isWeekly"]=true}),	-- Algari Treatise on Tailoring
+			i(222546, {	-- Algari Treatise on Alchemy
+				["questID"]= 83725,
+				["isWeekly"]=true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.ALCHEMY) },
+			}),
+			i(222554, {	-- Algari Treatise on Blacksmithing
+				["questID"]= 83726,
+				["isWeekly"]=true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.BLACKSMITHING) },
+			}),
+			i(222550, {	-- Algari Treatise on Enchanting
+				["questID"]= 83727,
+				["isWeekly"]=true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.ENCHANTING) },
+			}),
+			TempForceMisc(i(222621, {	-- Algari Treatise on Engineering
+				["questID"]= 83728,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.ENGINEERING) },
+			})),
+			i(222552, {	-- Algari Treatise on Herbalism
+				["questID"]= 83729,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.HERBALISM) },
+			}),
+			i(222548, {	-- Algari Treatise on Inscription
+				["questID"]= 83730,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.INSCRIPTION) },
+			}),
+			i(222551, {	-- Algari Treatise on Jewelcrafting
+				["questID"]= 83731,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.JEWELCRAFTING) },
+			}),
+			i(222549, {	-- Algari Treatise on Leatherworking
+				["questID"]= 83732,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.LEATHERWORKING) },
+			}),
+			i(222553, {	-- Algari Treatise on Mining
+				["questID"]= 83733,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.MINING) },
+			}),
+			i(222649, {	-- Algari Treatise on Skinning
+				["questID"]= 83734,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.SKINNING) },
+			}),
+			i(222547, {	-- Algari Treatise on Tailoring
+				["questID"]= 83735,
+				["isWeekly"]= true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.TWW.TAILORING) },
+			}),
 			i(222600, {["questID"]=84484,["isWeekly"]=true}),	-- Contract: Assembly of the Deeps+
 			i(222601, {["questID"]=84483,["isWeekly"]=true}),	-- Contract: Assembly of the Deeps++
 			i(222602, {["questID"]=84482,["isWeekly"]=true}),	-- Contract: Assembly of the Deeps+++
@@ -1789,18 +1794,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222606, {["questID"]=84478,["isWeekly"]=true}),	-- Contract: The Severed Threads+
 			i(222607, {["questID"]=84477,["isWeekly"]=true}),	-- Contract: The Severed Threads++
 			i(222608, {["questID"]=84476,["isWeekly"]=true}),	-- Contract: The Severed Threads+++
-			i(226022),	-- Darkmoon Sigil: Ascension+
-			i(226023),	-- Darkmoon Sigil: Ascension++
-			i(226024),	-- Darkmoon Sigil: Ascension+++
-			i(226025),	-- Darkmoon Sigil: Radiance+
-			i(226026),	-- Darkmoon Sigil: Radiance++
-			i(226027),	-- Darkmoon Sigil: Radiance+++
-			i(226028),	-- Darkmoon Sigil: Symbiosis+
-			i(226029),	-- Darkmoon Sigil: Symbiosis++
-			i(226030),	-- Darkmoon Sigil: Symbiosis+++
-			i(226031),	-- Darkmoon Sigil: Vivacity+
-			i(226032),	-- Darkmoon Sigil: Vivacity++
-			i(226033),	-- Darkmoon Sigil: Vivacity+++
 			i(249702, {	-- Deal: Cartel Ba
 				["timeline"] = {ADDED_11_2_0},
 				["questID"]= 92072,
@@ -1854,6 +1847,45 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222574),	-- Silver Tongue's Quill
 		}),
 		filter(REAGENTS, {
+			i(222635),	-- Algari Missive of Crafting Speed+
+			i(222636),	-- Algari Missive of Crafting Speed++
+			i(222637),	-- Algari Missive of Crafting Speed+++
+			i(222644),	-- Algari Missive of Deftness+
+			i(222645),	-- Algari Missive of Deftness++
+			i(222646),	-- Algari Missive of Deftness+++
+			i(222638),	-- Algari Missive of Finesse+
+			i(222639),	-- Algari Missive of Finesse++
+			i(222640),	-- Algari Missive of Finesse+++
+			i(222626),	-- Algari Missive of Ingenuity+
+			i(222627),	-- Algari Missive of Ingenuity++
+			i(222628),	-- Algari Missive of Ingenuity+++
+			i(222632),	-- Algari Missive of Multicraft+
+			i(222633),	-- Algari Missive of Multicraft++
+			i(222634),	-- Algari Missive of Multicraft+++
+			i(222641),	-- Algari Missive of Perception+
+			i(222642),	-- Algari Missive of Perception++
+			i(222643),	-- Algari Missive of Perception+++
+			i(222629),	-- Algari Missive of Resourcefulness+
+			i(222630),	-- Algari Missive of Resourcefulness++
+			i(222631),	-- Algari Missive of Resourcefulness+++
+			i(222579),	-- Algari Missive of the Aurora+
+			i(222580),	-- Algari Missive of the Aurora++
+			i(222581),	-- Algari Missive of the Aurora+++
+			i(222582),	-- Algari Missive of the Feverflare+
+			i(222583),	-- Algari Missive of the Feverflare++
+			i(222584),	-- Algari Missive of the Feverflare+++
+			i(222585),	-- Algari Missive of the Fireflash+
+			i(222586),	-- Algari Missive of the Fireflash++
+			i(222587),	-- Algari Missive of the Fireflash+++
+			i(222588),	-- Algari Missive of the Harmonious+
+			i(222589),	-- Algari Missive of the Harmonious++
+			i(222590),	-- Algari Missive of the Harmonious+++
+			i(222591),	-- Algari Missive of the Peerless+
+			i(222592),	-- Algari Missive of the Peerless++
+			i(222593),	-- Algari Missive of the Peerless+++
+			i(222594),	-- Algari Missive of the Quickblade+
+			i(222595),	-- Algari Missive of the Quickblade++
+			i(222596),	-- Algari Missive of the Quickblade+++
 			i(222615),	-- Apricate Ink+
 			i(222616),	-- Apricate Ink++
 			i(222617),	-- Apricate Ink+++
@@ -1863,6 +1895,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222555),	-- Codified Greenwood+
 			i(222556),	-- Codified Greenwood++
 			i(222557),	-- Codified Greenwood+++
+			i(226022),	-- Darkmoon Sigil: Ascension+
+			i(226023),	-- Darkmoon Sigil: Ascension++
+			i(226024),	-- Darkmoon Sigil: Ascension+++
+			i(226025),	-- Darkmoon Sigil: Radiance+
+			i(226026),	-- Darkmoon Sigil: Radiance++
+			i(226027),	-- Darkmoon Sigil: Radiance+++
+			i(226028),	-- Darkmoon Sigil: Symbiosis+
+			i(226029),	-- Darkmoon Sigil: Symbiosis++
+			i(226030),	-- Darkmoon Sigil: Symbiosis+++
+			i(226031),	-- Darkmoon Sigil: Vivacity+
+			i(226032),	-- Darkmoon Sigil: Vivacity++
+			i(226033),	-- Darkmoon Sigil: Vivacity+++
 			i(222609),	-- Shadow Ink+
 			i(222610),	-- Shadow Ink++
 			i(222611),	-- Shadow Ink+++

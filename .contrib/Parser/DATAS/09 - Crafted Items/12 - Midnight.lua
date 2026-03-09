@@ -1273,17 +1273,61 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(245800),	-- Contract: The Silvermoon Court++
 			i(245793),	-- Contract: The Singularity+
 			i(245794),	-- Contract: The Singularity++
-			i(245755),	-- Thalassian Treatise on Alchemy
-			i(245763),	-- Thalassian Treatise on Blacksmithing
-			i(245759),	-- Thalassian Treatise on Enchanting
-			i(245809),	-- Thalassian Treatise on Engineering
-			i(245761),	-- Thalassian Treatise on Herbalism
-			i(245757),	-- Thalassian Treatise on Inscription
-			i(245760),	-- Thalassian Treatise on Jewelcrafting
-			i(245758),	-- Thalassian Treatise on Leatherworking
-			i(245762),	-- Thalassian Treatise on Mining
-			i(245828),	-- Thalassian Treatise on Skinning
-			i(245756),	-- Thalassian Treatise on Tailoring
+			i(245755, {	-- Thalassian Treatise on Alchemy
+				["questID"] = 95127,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.ALCHEMY) },
+			}),
+			i(245763, {	-- Thalassian Treatise on Blacksmithing
+				["questID"] = 95128,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.BLACKSMITHING) },
+			}),
+			i(245759, {	-- Thalassian Treatise on Enchanting
+				["questID"] = 95129,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.ENCHANTING) },
+			}),
+			i(245809, {	-- Thalassian Treatise on Engineering
+				["questID"] = 95138,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.ENGINEERING) },
+			}),
+			i(245761, {	-- Thalassian Treatise on Herbalism
+				["questID"] = 95130,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.HERBALISM) },
+			}),
+			i(245757, {	-- Thalassian Treatise on Inscription
+				["questID"] = 95131,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.INSCRIPTION) },
+			}),
+			i(245760, {	-- Thalassian Treatise on Jewelcrafting
+				["questID"] = 95133,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.JEWELCRAFTING) },
+			}),
+			i(245758, {	-- Thalassian Treatise on Leatherworking
+				["questID"] = 95134,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.LEATHERWORKING) },
+			}),
+			i(245762, {	-- Thalassian Treatise on Mining
+				["questID"] = 95135,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.MINING) },
+			}),
+			i(245828, {	-- Thalassian Treatise on Skinning
+				["questID"] = 95136,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.SKINNING) },
+			}),
+			i(245756, {	-- Thalassian Treatise on Tailoring
+				["questID"] = 95137,
+				["isWeekly"] = true,
+				["groups"] = { currency(PROFESSION_KNOWLEDGE.MID.TAILORING) },
+			}),
 			i(245879),	-- Vantus Rune: Radiant+
 			i(245880),	-- Vantus Rune: Radiant++
 			i(245856),	-- Ace of Blood

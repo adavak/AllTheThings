@@ -920,6 +920,11 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				currency(TWW_SKINNING_KNOWLEDGE),
 			},
 		},{
+			q(83734, {	-- TWW Inscription Order: Skinning
+				["name"] = "TWW Inscription Order: Skinning",
+				["description"] = "Requires a crafting order from Inscription.",
+				["provider"] = { "i", 222649 },	-- Algari Treatise on Skinning
+			}),
 			q(81459, {	-- TWW Weekly Skinning Knowledgepoint #1
 				["name"] = "TWW Weekly Skinning Knowledgepoint #1",
 				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide
@@ -1027,6 +1032,11 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				currency(MID_SKINNING_KNOWLEDGE),
 			},
 		},{
+			q(95136, {	-- MID Inscription Order: Skinning
+				["name"] = "MID Inscription Order: Skinning",
+				["description"] = "Requires a crafting order from Inscription.",
+				["provider"] = { "i", 245828 },	-- Thalassian Treatise on Skinning
+			}),
 			q(88534, {	-- MID Weekly Skinning Knowledgepoint #1
 				["name"] = "MID Weekly Skinning Knowledgepoint #1",
 				["provider"] = { "i", 238625 },	-- Fine Void-Tempered Hide

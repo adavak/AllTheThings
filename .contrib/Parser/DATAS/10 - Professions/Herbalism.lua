@@ -1521,6 +1521,11 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			},
 		},{
 			i(224817),	-- Algari Herbalism Notes
+			q(83729, {	-- TWW Inscription Order: Herbalism
+				["name"] = "TWW Inscription Order: Herbalism",
+				["description"] = "Requires a crafting order from Inscription.",
+				["provider"] = { "i", 222552 },	-- Algari Treatise on Herbalism
+			}),
 			q(81416, {	-- TWW Weekly Herbalism Knowledgepoint #1
 				["name"] = "TWW Weekly Herbalism Knowledgepoint #1",
 				["provider"] = { "i", 224264 },	-- Deepgrove Petal
@@ -1673,6 +1678,11 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				currency(MID_HERBALISM_KNOWLEDGE),
 			},
 		},{
+			q(95130, {	-- MID Inscription Order: Herbalism
+				["name"] = "MID Inscription Order: Herbalism",
+				["description"] = "Requires a crafting order from Inscription.",
+				["provider"] = { "i", 245761 },	-- Thalassian Treatise on Herbalism
+			}),
 			q(81425, {	-- Midnight Weekly Herbalism Knowledgepoint #1
 				["name"] = "Midnight Weekly Herbalism Knowledgepoint #1",
 				["provider"] = { "i", 238465 },	-- Thalassian Phoenix Plume

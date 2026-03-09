@@ -1241,7 +1241,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 		},{
 			i(199122),	-- Mining Field Notes
-			q(74106, {		-- DF Inscription Order: Mining
+			q(74106, {	-- DF Inscription Order: Mining
 				["name"] = "DF Inscription Order: Mining",
 				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 194708 },	-- Draconic Treatise on Mining
@@ -1386,6 +1386,11 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				currency(TWW_MINING_KNOWLEDGE),
 			},
 		},{
+			q(83733, {	-- TWW Inscription Order: Mining
+				["name"] = "TWW Inscription Order: Mining",
+				["description"] = "Requires a crafting order from Inscription.",
+				["provider"] = { "i", 222553 },	-- Algari Treatise on Mining
+			}),
 			q(83054, {	-- TWW Weekly Mining Knowledgepoint #1
 				["name"] = "TWW Weekly Mining Knowledgepoint #1",
 				["provider"] = { "i", 224583 },	-- Slab of Slate
@@ -1524,6 +1529,11 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				currency(MID_MINING_KNOWLEDGE),
 			},
 		},{
+			q(95135, {	-- MID Inscription Order: Mining
+				["name"] = "MID Inscription Order: Mining",
+				["description"] = "Requires a crafting order from Inscription.",
+				["provider"] = { "i", 245762 },	-- Thalassian Treatise on Mining
+			}),
 			q(88673, {	-- Midnight Weekly Mining Knowledgepoint #1
 				["name"] = "Midnight Weekly Mining Knowledgepoint #1",
 				["provider"] = { "i", 237496 },	-- Igneous Rock Specimen
