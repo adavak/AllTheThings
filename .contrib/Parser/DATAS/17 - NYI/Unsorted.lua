@@ -482,8 +482,6 @@ root(ROOTS.Unsorted, {
 				i(248612),	-- Blackrock Bulletin Message
 				i(248715),	-- Bones of de Fallen
 				i(248756),	-- Shadra's Gift
-				i(248826),	-- Trigore Flank
-				i(248905),	-- Void Malgrease
 				i(248927),	-- Stormray Fin
 				i(248929),	-- Domanaar Snack Pack
 				i(248931),	-- Tarnished Vilebranch Coin
@@ -510,7 +508,6 @@ root(ROOTS.Unsorted, {
 				i(251899),	-- Anasterian's Book of Law
 				i(251904),	-- Crown of the High King
 				i(252192),	-- Rune Key
-				i(253518),	-- Pathogen Antidote \\ Detoxifying Agent
 				i(253519),	-- Pathogenic Essence
 				i(254368),	-- Soul Essence
 				i(254381),	-- Troll Torch

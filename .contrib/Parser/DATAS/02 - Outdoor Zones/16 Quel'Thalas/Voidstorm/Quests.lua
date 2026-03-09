@@ -654,8 +654,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247664 },	-- Lady Darkglen
 						["coord"] = { 35.9, 48.3, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(573747, {
-								i(251902),	-- Mature Blood Petal (QI!)
+							o(573747, {	-- Mature Blood Petal
+								["coords"] = {
+									{ 34.3, 47.4, MAP.MIDNIGHT.VOIDSTORM },
+									{ 34.4, 45.4, MAP.MIDNIGHT.VOIDSTORM },
+									{ 34.7, 47.8, MAP.MIDNIGHT.VOIDSTORM },
+									{ 34.9, 46.5, MAP.MIDNIGHT.VOIDSTORM },
+									{ 35.4, 46.2, MAP.MIDNIGHT.VOIDSTORM },
+									{ 35.4, 48.5, MAP.MIDNIGHT.VOIDSTORM },
+									{ 35.8, 47.2, MAP.MIDNIGHT.VOIDSTORM },
+									{ 35.9, 48.1, MAP.MIDNIGHT.VOIDSTORM },
+								},
+								["groups"] = { i(251902) },	-- Mature Blood Petal (QI!)
 							}),
 						},
 					}),
@@ -663,9 +673,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuest"] = 91557,	-- Message to the Molt
 						["provider"] = { "n", 247664 },	-- Lady Darkglen
 						["coord"] = { 35.9, 48.3, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(251905),	-- Specialized Liver (QI!)
-						},
+						["groups"] = { i(251905) },	-- Specialized Liver (QI!)
 					}),
 					q(91560, {	-- Expunging Explorers
 						["sourceQuests"] = {
@@ -674,9 +682,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 247674 },	-- Lady Darkglen
 						["coord"] = { 34.6, 43.8, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(251905),	-- Specialized Liver (QI!)
-						},
+						["groups"] = { i(253518) },	-- Pathogen Antidote (QI!)
 					}),
 					q(93801, {	-- Calculated Culling
 						["description"] = "Available after you cured Ren'dorei Scout during 'Expunging Explorers' (91560)",
@@ -686,9 +692,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 254402 },	-- Cured Ren'dorei Scout
 						["coord"] = { 34.7, 43.8, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(251905),	-- Specialized Liver (QI!)
-						},
 					}),
 					q(91561, {	-- Bloodborne Pathogen
 						["sourceQuests"] = {
@@ -698,10 +701,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 247674 },	-- Lady Darkglen
 						["coord"] = { 34.6, 43.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							i(264300),	-- [DNT] Cloth Belt
-							i(264299),	-- [DNT] Leather Belt
-							i(264301),	-- [DNT] Mail Belt
-							i(264302),	-- [DNT] Plate Belt
+							i(264302),	-- Viral Coagulation Cinch
+							i(264299),	-- Viral Coagulation Belt
+							i(264301),	-- Viral Coagulation Girdle
+							i(264300),	-- Viral Coagulation Sash
 						},
 					}),
 				}),
@@ -1198,8 +1201,20 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 248616 },	-- Riftblade Astre
 						["coord"] = { 41.8, 74.8, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							o(555428, {	--
-								i(248241),	-- Ghostflower Leaves (QI!)
+							o(555428, {	-- Mature Ghostflower
+								["coords"] = {
+									{ 41.2, 77.1, MAP.MIDNIGHT.VOIDSTORM },
+									{ 41.3, 78.2, MAP.MIDNIGHT.VOIDSTORM },
+									{ 42.1, 77.9, MAP.MIDNIGHT.VOIDSTORM },
+									{ 42.4, 71.1, MAP.MIDNIGHT.VOIDSTORM },
+									{ 42.9, 72.4, MAP.MIDNIGHT.VOIDSTORM },
+									{ 43.2, 73.6, MAP.MIDNIGHT.VOIDSTORM },
+									{ 43.3, 74.6, MAP.MIDNIGHT.VOIDSTORM },
+									{ 43.4, 73.0, MAP.MIDNIGHT.VOIDSTORM },
+									{ 43.7, 75.9, MAP.MIDNIGHT.VOIDSTORM },
+									{ 44.1, 75.0, MAP.MIDNIGHT.VOIDSTORM },
+								},
+								["groups"] = { i(248241) },	-- Ghostflower Leaves (QI!)
 							}),
 						},
 					}),

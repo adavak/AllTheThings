@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 26.8, 68.0, MAP.MIDNIGHT.VOIDSTORM },
 				}),
 				q(91700, {	-- Darkness Unmade
-					["provider"] = { "n", 244749 },	-- Xy'dax
+					["qg"] = 244749, 	-- Xy'dax <Shadowtrade Imports>
 					["isWeekly"] = true,
 					["coord"] = { 26.4, 67.5, MAP.MIDNIGHT.VOIDSTORM },
 				}),
@@ -64,6 +64,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				q(91928, {	-- What's For Lunch? --TODO I think this goes here
 					["coord"] = { 26.4, 67.9, MAP.MIDNIGHT.VOIDSTORM },
+					["groups"] = { i(248826) },	-- Trigore Flank (QI!)
+				}),
+				q(91929, {	-- What's For Lunch?
+					["qg"] = 244749, 	-- Xy'dax <Shadowtrade Imports>
+					["coord"] = { 26.4, 67.6, MAP.MIDNIGHT.VOIDSTORM },
+					["groups"] = { i(248905) },	-- Void Malgrease (QI!)
 				}),
 			}),
 			n(REWARDS, {
