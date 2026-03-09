@@ -110,6 +110,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
+			prof(MINING, {
+				o(2653, {	-- Lesser Bloodstone Deposit
+					["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
+					["requireSkill"] = MINING,
+					["learnedAt"] = 75,
+					["groups"] = {
+						i(4278),	-- Lesser Bloodstone Ore
+					},
+				}),
+			}),
 			pickpocketing({
 				i(17124, {	-- Syndicate Emblem
 					["crs"] = {
