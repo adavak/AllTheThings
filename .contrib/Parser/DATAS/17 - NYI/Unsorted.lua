@@ -4,7 +4,7 @@
 -- Everything in this file hasn't been sorted yet.
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.MID, {
-		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
+		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1 } }, {
 			n(ARMOR, {
 				-- Armor Quest
 				i(248036),	-- Twilight Tamer's Mantle
@@ -18,7 +18,6 @@ root(ROOTS.Unsorted, {
 			n(DECOR, {
 				-- Housing
 				i(269010),	-- Essence of Lumber
-
 				i(253497),	-- Embroidered Sunfury Chair
 				i(256042),	-- Silvermoon Bench
 				i(256043),	-- Silvermoon Fencepost
@@ -27,7 +26,6 @@ root(ROOTS.Unsorted, {
 				i(264251),	-- Depthdiver's Cooking Spit
 				i(264352),	-- Elegant Elven Bathtub
 				i(264353),	-- Empty Elegant Elven Bathtub
-				i(264477),	-- Thunder Totem Mailbox
 				i(265031),	-- Consortium Translocation Portal
 				i(265653),	-- Elegant Storage Table
 				i(265654),	-- Elegant Elven Washbasin
@@ -539,15 +537,11 @@ root(ROOTS.Unsorted, {
 				i(248060),	-- [TEMPLATE] 1h Dagger Int
 				i(248079),	-- [TEMPLATE] Summer Soother's Wand
 				i(248280),	-- Void Analysis Baton
-				i(251884),	-- Abyss Sabre \\ Umbral Sabre
-				i(251935),	-- Lightgrasp Worldroot \\ Light's Righteous Arm
 				i(251936),	-- Nullified Quarterstaff
 				i(253388),	-- Tyrannus's Runeblade
 				i(260190),	-- Heavy Bramblebolter
 				i(260191),	-- Hand of the Rootkeeper
 				i(260192),	-- Wildthorn Razorfang
-				-- Wep
-				i(262732),	-- Heavy Bramblebolter
 				i(246189),	-- The Brightstar
 				i(246209),	-- 12.0 Monster - Arator - Sword1H - Sword_1H_Arator_D_01
 				-- Wep Quest?
@@ -1109,7 +1103,6 @@ root(ROOTS.Unsorted, {
 				i(249768),	-- Fungarian Barrel
 				i(251980),	-- Fungarian Sack
 				i(263019),	-- Haranir Pennant
-				i(263038),	-- Haranir Reclined Bed \\ Haranir Canopy Bed
 				i(263039),	-- Harandar Flowering Lamp
 				i(263194),	-- Harandar Glowvine Sconce \\ Harandar Glow-vine Sconce
 				i(263195),	-- Harandar Glowvine Lamppost \\ Harandar Glow-vine Lamppost
@@ -1177,7 +1170,6 @@ root(ROOTS.Unsorted, {
 				i(253294),	-- Lunar Celebrant's Teacup
 				i(253295),	-- Lunar Celebrant's Teapot
 				i(253297),	-- Lunar Celebrant's Vase with Maple Branch
-				i(258742),	-- Scroll of the Adherent
 			}),
 			n(RARES, {
 				i(264605),	-- Choker of Unyielding Winds

@@ -11,9 +11,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["cost"] = { { "c", 3385, 10 } },	-- Luminous Dust
 				}, {
 					i(222988),	-- Elder Glowmite (MOUNT!)
-					i(265943),	-- Firm Haranir Pillow (DECOR!)
-					i(264243, {	-- Firm Haranir Pillow (DECOR!) (Available for Marl after first dust purchase)
-						["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+					i(265943, {	-- Firm Haranir Pillow (DECOR!)
+						i(264243, {	-- Firm Haranir Pillow (DECOR!) (Available for Marl after first dust purchase)
+							["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+						}),
 					}),
 					i(257159),	-- Groovewarden's Buckler (COSMETIC!)
 					i(263283),	-- Groovewarden's Dagger (COSMETIC!)
@@ -22,7 +23,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(257155),	-- Groovewarden's Kris (COSMETIC!)
 					i(257158),	-- Groovewarden's Rapier (COSMETIC!)
 					i(263284),	-- Groovewarden's Staff (COSMETIC!)
-					i(265946),	-- Haranir Reclined Bed (DECOR!)
+					i(265946, {	-- Haranir Reclined Bed (DECOR!)
+						i(263038, {	-- Haranir Reclined Bed (DECOR!) (Available for Marl after first dust purchase)
+							["cost"] = { { "c", VOIDLIGHT_MARL, 2500 } },
+						}),
+					}),
 					i(263580),	-- Vivid Chloroceros (MOUNT!)
 					i(265945, {	-- Warm Haranir Blanket (DECOR!)
 						i(264245, {	-- Warm Haranir Blanket (DECOR!) (Available for Marl after first dust purchase)

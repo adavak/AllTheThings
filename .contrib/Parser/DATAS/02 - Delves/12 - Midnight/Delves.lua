@@ -236,6 +236,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(263233),	-- Sin'dorei Spinning Library (DECOR!)
 		}),
 		n(WEAPONS, {
+			i(251884),	-- Abyss Sabre
 			i(249667),	-- Barbed Rootwand
 			i(249665),	-- Blooming Seedpod
 			i(249676),	-- Bramblebarricade
@@ -244,6 +245,8 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			i(249664),	-- Gnarled Thornmace
 			i(249671),	-- Gnarlroot Spinecleaver
 			i(262729),	-- Hand of the Rootkeeper
+			i(262732),	-- Heavy Bramblebolter
+			i(251935),	-- Lightgrasp Worldroot
 			i(249669),	-- Organ Piercer's Briarspear
 			i(251885),	-- Radiant Foil
 			i(249610),	-- Resinous Blossomblade

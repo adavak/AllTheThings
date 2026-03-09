@@ -1243,6 +1243,9 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 33579,	-- What the Draenei Found
 						["qg"] = 75324,	-- Kura the Blind
 						["coord"] = { 70.7, 56.7, TALADOR },
+						["groups"] = {
+							i(258742, {["timeline"] = { ADDED_12_0_0 }}),	-- Scroll of the Adherent (DECOR!)
+						},
 					}),
 					q(34452, {	-- Light's Rest
 						["sourceQuests"] = { -- TODO: is The Heart of Auchindoun and Holding the Line required here?
@@ -2557,6 +2560,16 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(VENDORS, {
+					n(256946, sharedDataSelf({["timeline"] = { ADDED_12_0_0 }}, {	-- Duskcaller Erthix
+						["coord"] = { 70.4, 57.4, TALADOR },
+						["groups"] = {
+							["groups"] = {
+								i(258742, {	-- Scroll of the Adherent (DECOR!)
+									["sourceQuest"] = 33582,	-- Kura's Vengeance
+								}),
+							},
+						},
+					})),
 					n(84212, {	-- Kazbala
 						["description"] = "This vendor is only available until you reach 50 (Can be lower).\nItems are also available from vendors in Stormwind, Orgrimmar, and Dalaran.",
 						["coord"] = { 45.2, 38.8, TALADOR },

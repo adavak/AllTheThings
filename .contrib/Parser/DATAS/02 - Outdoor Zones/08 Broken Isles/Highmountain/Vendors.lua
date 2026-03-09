@@ -246,6 +246,13 @@ root(ROOTS.Zones, {
 								{ "c", ORDER_RESOURCES, 1000 },
 							},
 						}),
+						i(264477, {	-- Thunder Totem Mailbox (DECOR!)
+							["timeline"] = { ADDED_12_0_1 },
+							["cost"] = {
+								{ "g", 5000000 },	-- 500g
+								{ "c", ORDER_RESOURCES, 750 },
+							},
+						}),
 						i(245456, {	-- Warbrave's Brazier (DECOR!)
 							["cost"] = {
 								{ "g", 5000000 },	-- 500g

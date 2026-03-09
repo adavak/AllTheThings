@@ -233,6 +233,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 96038 },	-- Jale Rivermane
 					["groups"] = {
+						i(264477, {["timeline"] = { ADDED_12_0_1 }}),	-- Thunder Totem Mailbox (DECOR!)
 						i(200662, {	-- Encrusted Blade of the Mountains
 							["timeline"] = ADDED_10_0_2,
 							["classes"] = { EVOKER },
