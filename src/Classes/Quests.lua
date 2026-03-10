@@ -2408,6 +2408,8 @@ local SuperSpammyWorldQuestDrops = {
 	[2003] = true,	-- Dragon Isles Supplies
 	-- TWW
 	[2815] = true,	-- Resonance Crystals
+	-- MID
+	[3316] = true,	-- Voidlight Marl
 };
 
 -- Quest Harvesting Lib (http://www.wowinterface.com/forums/showthread.php?t=46934)
