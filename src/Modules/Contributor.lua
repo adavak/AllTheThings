@@ -2725,6 +2725,7 @@ MobileDB.GameObject = {
 	[553947] = true,	-- Weapon Rack (Arcantina)
 	[554498] = true,	-- Dropped Shield (q:90549)
 	[554501] = true,	-- Dropped Shield (q:90549)
+	[554505] = true,	-- Dropped Weapon (q:90549)
 	[554508] = true,	-- Dropped Weapon (q:90549)
 	[554509] = true,	-- Dropped Weapon (q:90549)
 	[554661] = true,	-- Arden Lumber

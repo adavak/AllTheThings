@@ -739,9 +739,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86650 },	-- Fractured
 						["provider"] = { "n", 241553 },	-- Vaelith Sunplume
 						["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = {
-							i(244214),	-- Juicy Frog Leg (QI!)
-						},
+						["groups"] = { i(244214) },	-- Juicy Frog Leg (QI!)
 					}),
 					q(89386, {	-- A Roost-ed Development
 						["sourceQuests"] = { 86650 },	-- Fractured
@@ -749,7 +747,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 56.8, 35.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
 							o(547829, {	-- Golden Sunleaf
-								["coord"] = { 53.4, 35.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+								["coord"] = { 53.3, 36.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 								["groups"] = { i(245531) },	-- Golden Sunleaf (QI!)
 							}),
 						},
@@ -996,7 +994,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							90547,	-- Missing Paladins
 						},
 						["provider"] = { "n", 242890 },	-- Salandria
-						["coord"] = { 44.0, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["coord"] = { 44.1, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = { i(244844), }	-- Twilight's Blade Missive (QI!)
 					}),
 					q(90549, {	-- Signs of the Struggle
@@ -1022,7 +1020,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							90550,	-- A Somber Sun
 						},
 						["provider"] = { "n", 242890 },	-- Salandria
-						["coord"] = { 44.0, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["coord"] = { 44.1, 67.0, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
 					q(90552, {	-- Interrogation
 						["sourceQuests"] = { 90551 },	-- Captured Information
@@ -1034,6 +1032,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 242894 },	-- Taelia Fordragon
 						["coord"] = { 41.6, 72.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
+					q(90555, {	-- Blessing of Freedom
+						["sourceQuests"] = { 90570 },	-- To the Ruins of Deatholme
+						["provider"] = { "n", 242898 },	-- Taelia Fordragon
+						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
 					q(90553, {	-- Executing the Blades
 						["sourceQuests"] = { 90570 },	-- To the Ruins of Deatholme
 						["provider"] = { "n", 242897 },	-- Salandria
@@ -1044,18 +1047,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 242897 },	-- Salandria
 						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
-					q(90555, {	-- Blessing of Freedom
-						["sourceQuests"] = { 90570 },	-- To the Ruins of Deatholme
-						["provider"] = { "n", 242898 },	-- Taelia Fordragon
-						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },
-					}),
 					q(90556, {	-- Cutting off the Head
 						["sourceQuests"] = {
 							90553,	-- Executing the Blades
 							90554,	-- Leave Ashes in Your Wake
 							90555,	-- Blessing of Freedom
 						},
-						["provider"] = { "n", 245944 },	-- Salandria
+						["provider"] = { "n", 245944 },	-- Salandria (mobileNPC)
+						["coord"] = { 44.4, 81.2, MAP.MIDNIGHT.EVERSONG_WOODS },	-- Vignette location
 						["groups"] = {
 							i(263374),	-- Archivist's Epaulets
 							i(263375),	-- Cultist's Shoulderpads
@@ -1344,6 +1343,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		m(MAP.MIDNIGHT.EVERSONG_WOODS, {
 			n(QUESTS, {
 				q(93818),	-- After turning in The Line Must be Drawn Here (86710)
+				q(87730),	-- Triggered when the counter reached 100% while on 'Leave Ashes in Your Wake' (90554)
 			}),
 		}),
 	}),

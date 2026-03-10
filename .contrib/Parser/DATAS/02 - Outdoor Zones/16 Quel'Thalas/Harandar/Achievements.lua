@@ -5,7 +5,9 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.HARANDAR, {
 		n(ACHIEVEMENTS, {
-			ach(61917),	-- "Hold aggro, I got this"
+			ach(61917, {	-- "Hold aggro, I got this"
+				["cr"] = 248649,	-- Fungal Strider
+			}),
 			ach(61052, {	-- Dust 'Em Off
 				title(754),	-- Dustlord <Name>
 			}),

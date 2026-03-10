@@ -152,7 +152,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				crit(112448, {	-- Princess Zambina
 					["provider"] = { "n", 259685 },	-- Princess Zambina
-					["coord"] = { 29.8, 79.2, MAP.MIDNIGHT.ZULAMAN },
+					["coord"] = { 29.8, 79.1, MAP.MIDNIGHT.ZULAMAN },
 				}),
 			}),
 			pvp(ach(61222)),	-- Tour of Duty: Zul'Aman

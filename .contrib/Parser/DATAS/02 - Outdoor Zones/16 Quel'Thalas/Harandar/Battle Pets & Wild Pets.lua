@@ -7,7 +7,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250142, {	-- Azure Sporebat (PET!)
 				["crs"] = { 249822 },	-- Azure Sporebat
 				["coords"] = {
+					{ 52.4, 80.2, MAP.MIDNIGHT.HARANDAR },
+					{ 53.4, 67.0, MAP.MIDNIGHT.HARANDAR },
 					{ 59.9, 45.7, MAP.MIDNIGHT.HARANDAR },
+					{ 62.0, 48.0, MAP.MIDNIGHT.HARANDAR },
+					{ 64.9, 57.1, MAP.MIDNIGHT.HARANDAR },
 				},
 			}),
 			i(250137, {	-- Mud Potadpole (PET!)
@@ -18,6 +22,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(250136, {	-- Rootling Nester (PET!)
 				["crs"] = { 249815 },	-- Rootling Nester
 				["coords"] = {
+					{ 40.6, 43.1, MAP.MIDNIGHT.HARANDAR },
+					{ 52.9, 80.2, MAP.MIDNIGHT.HARANDAR },
+					{ 55.9, 59.7, MAP.MIDNIGHT.HARANDAR },
 					{ 68.4, 41.9, MAP.MIDNIGHT.HARANDAR },
 				},
 			}),
@@ -25,6 +32,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["crs"] = { 249827 },	-- Silkcrawler
 				["coords"] = {
 					{ 50.5, 26.9, MAP.MIDNIGHT.HARANDAR },
+					{ 56.0, 60.9, MAP.MIDNIGHT.HARANDAR },
 				},
 			}),
 			i(221495, {	-- Waddles (PET!)

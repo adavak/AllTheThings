@@ -6373,7 +6373,7 @@ q(86325,{type="hqt"}),
 q(86439,{awp=110100,type="hqt"}),
 q(91045,{awp=110200,type="hqt"}),
 q(87286,{awp=110100,isWeekly=1,providers={{"i",248017},{"n",244755},{"o",547532}},type="hqt"})}}),
-m(2274,{
+m(2274,{lvl=70,g={
 m(2339,{
 h(-45,{
 q(80538,{type="hqt"}),
@@ -6661,7 +6661,7 @@ q(85010,{type="hqt"}),
 q(86298,{type="hqt"}),
 q(86307,{type="hqt"}),
 q(85777,{type="hqt"}),
-q(85778,{type="hqt"})})}})}),
+q(85778,{type="hqt"})})}})}}),
 ah(2600,{type="fa",g={
 h(-406,{
 q(81601,{type="hqt"}),
@@ -6848,9 +6848,9 @@ q(86300,{type="hqt"}),
 q(86302,{type="hqt"}),
 q(86303,{type="hqt"})})})}}),
 h(-62,{
-m(2274,{
+m(2274,{lvl=70,g={
 q(83280,{an="i:228361",isWeekly=1,type="hqt"}),
-q(83281,{an="i:228361",isWeekly=1,type="hqt"})})}),
+q(83281,{an="i:228361",isWeekly=1,type="hqt"})}})}),
 h(-34,{awp=110002,g={
 q(39751,{awp=110005,type="hqt"}),
 q(83707,{lvl=80,type="hqt"}),
@@ -7212,6 +7212,7 @@ q(94410,{type="hqt"})})}),
 m(2395,{lvl=80,g={
 h(-45,{
 q(93818,{type="hqt"}),
+q(87730,{type="hqt"}),
 q(94815,{type="hqt"}),
 q(95435,{type="hqt"}),
 q(92848,{type="hqt"})}),

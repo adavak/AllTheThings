@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(86901, {	-- The Rift and the Den
 						["sourceQuests"] = { 86900 },	-- To Har'athir
 						["provider"] = { "n", 237483 },	-- Orweyna
-						["coord"] = { 70.0, 51.6, MAP.MIDNIGHT.HARANDAR },
+						["coord"] = { 70.0, 51.5, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(86929, {	-- The Council Assembles
 						["sourceQuests"] = { 86901 },	-- The Rift and the Den
@@ -116,7 +116,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(86907, {	-- The Den of Echoes
 						["sourceQuests"] = { 86929 },	-- The Council Assembles
 						["provider"] = { "n", 237332 },	-- Hagar
-						["coord"] = { 44.0, 54.5, 2576 },	-- The Den
+						["coord"] = { 43.8, 54.3, 2576 },	-- The Den
 					}),
 					q(86911, {	-- Echoes and Memories
 						["sourceQuests"] = { 86907 },	-- The Den of Echoes
