@@ -378,18 +378,18 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		-- #endif
 
 		------ Cozy Kobold Collection ------
-		-- iensemble(xxxxxx, {	-- Ensemble: Blue Candlelight Kobold Romper
-		-- 	["timeline"] = { ADDED_12_0_1 },
-		-- }),
-		-- iensemble(xxxxxx, {	-- Ensemble: Brown Candlelight Kobold Romper
-		-- 	["timeline"] = { ADDED_12_0_1 },
-		-- }),
-		-- iensemble(xxxxxx, {	-- Ensemble: Pink Candlelight Kobold Romper
-		-- 	["timeline"] = { ADDED_12_0_1 },
-		-- }),
-		-- iensemble(xxxxxx, {	-- Ensemble: Tan Candlelight Kobold Romper
-		-- 	["timeline"] = { ADDED_12_0_1 },
-		-- }),
+		iensemble(262413, {	-- Ensemble: Blue Candlelight Kobold Romper
+			["timeline"] = { ADDED_12_0_1 },
+		}),
+		iensemble(262422, {	-- Ensemble: Brown Candlelight Kobold Romper
+			["timeline"] = { ADDED_12_0_1 },
+		}),
+		iensemble(262405, {	-- Ensemble: Pink Candlelight Kobold Romper
+			["timeline"] = { ADDED_12_0_1 },
+		}),
+		iensemble(262430, {	-- Ensemble: Tan Candlelight Kobold Romper
+			["timeline"] = { ADDED_12_0_1 },
+		}),
 
 		iensemble(212218, {	-- Ensemble: Dreadlord's Shadowsbane Regalia
 			["timeline"] = { ADDED_10_2_5 },
