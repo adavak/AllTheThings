@@ -22,6 +22,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						--TODO: when I fly into area pop q(94005), -- Stellar Stash
 					},
 				})),
+				pvp(q(88679, {	-- Encountering the Unexpected
+					-- ["coord"] = { 45.7, 36.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+				})),
 				pvp(q(89377, {	-- Undercover Hunt
 					["coord"] = { 45.7, 36.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				})),
