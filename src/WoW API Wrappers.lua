@@ -151,6 +151,7 @@ local C_QuestLog = C_QuestLog;
 AssignAPIWrapper("IsQuestFlaggedCompletedOnAccount",
 	C_QuestLog and C_QuestLog.IsQuestFlaggedCompletedOnAccount,
 	function(questID) return app.IsAccountCached("Quests",questID) end)
+AssignAPIWrapper("GetQuestRewardCurrencies", C_QuestLog and C_QuestLog.GetQuestRewardCurrencies, app.EmptyFunction)
 
 -- C_TradeSkillUI
 local C_TradeSkillUI = C_TradeSkillUI;

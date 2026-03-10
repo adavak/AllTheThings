@@ -26,6 +26,7 @@ local GetQuestLogRewardInfo =
 local GetFactionName = app.WOWAPI.GetFactionName;
 local GetSpellName = app.WOWAPI.GetSpellName;
 local GetSpellIcon = app.WOWAPI.GetSpellIcon;
+local GetQuestRewardCurrencies = app.WOWAPI.GetQuestRewardCurrencies;
 local IsQuestFlaggedCompletedOnAccount = app.WOWAPI.IsQuestFlaggedCompletedOnAccount;
 
 -- Class locals
@@ -2415,7 +2416,6 @@ QuestHarvester.AllTheThingsIgnored = true;
 
 local GetNumQuestLogRewards,HaveQuestRewardData =
 	  GetNumQuestLogRewards,HaveQuestRewardData;
-local GetQuestRewardCurrencies = C_QuestLog.GetQuestRewardCurrencies
 local function TryPopulateQuestRewards(questObject)
 	-- Will attempt to populate the rewards of the quest object into itself or request itself to be loaded
 	if not questObject then return end
