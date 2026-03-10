@@ -61,7 +61,39 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 37.8, 90.1, MAP.MIDNIGHT.ZULAMAN },
 				}),
 			}),
-			ach(61455),	-- Shadowpine Scattered
+			ach(61455, {	-- Shadowpine Scattered
+				["_noautomation"] = true,
+				["groups"] = {
+					crit(109749, {	-- Songseeker Baz'wa
+						["description"] = "Becomes available after completing Zul'Aman campaign.",
+						["provider"] = { "n", 254808 },	-- Songseeker Baz'wa
+						["coord"] = { 52.7, 79.3, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(109752, {	-- Songseeker Dova
+						["provider"] = { "n", 254839 },	-- Songseeker Dova
+						["coord"] = { 39.2, 56.4, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(109750, {	-- Songseeker Far'lan
+						["provider"] = { "n", 254807 },	-- Songseeker Far'lan
+						["coord"] = { 47.3, 81.9, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(109753, {	-- Songseeker Ikaja
+						["description"] = "On top of the temple.",
+						["provider"] = { "n", 254841 },	-- Songseeker Ikaja
+						["coord"] = { 55.2, 18.1, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					crit(109751, {	-- Songseeker Jebanda
+						["description"] = "Walks around with a group of Shadowpine Travelers along the given path.",
+						["provider"] = { "n", 254840 },	-- Songseeker Jebanda
+						["coords"] = {
+							{ 31.6, 38.1, MAP.MIDNIGHT.ZULAMAN },
+							{ 31.6, 46.5, MAP.MIDNIGHT.ZULAMAN },
+							{ 33.1, 44.0, MAP.MIDNIGHT.ZULAMAN },
+							{ 33.3, 39.9, MAP.MIDNIGHT.ZULAMAN },
+						},
+					}),
+				},
+			}),
 			skyriding(ach(61540, {	-- Skyriding Glyphs: Amani Pass
 				["coords"] = {
 					{ 63.8, 81.9, MAP.MIDNIGHT.EVERSONG_WOODS },	-- NOTE: Blizzard bug. While standing on the spot, the game displays you as if you are in Eversong Woods
