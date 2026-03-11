@@ -24,6 +24,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(267287),	-- Plans: Magister's Ritual Knife (RECIPE!)
 							i(258519),	-- Plans: Magister's Valediction (RECIPE!)
 							i(265536),	-- Plans: Masterwork Crafting Hammer (RECIPE!)
+							i(260246),	-- Plans: Thalassian Skeleton Key (RECIPE!)
+						})),
+						prof(BLACKSMITHING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.BLACKSMITHING, 200 } } }, {
 							i(259237),	-- Plans: Sunforged Blacksmith's Hammer (RECIPE!)
 							i(259231),	-- Plans: Sunforged Blacksmith's Toolbox (RECIPE!)
 							i(259318),	-- Plans: Sunforged Leatherworker's Knife (RECIPE!)
@@ -32,12 +35,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(259319),	-- Plans: Sunforged Pickaxe (RECIPE!)
 							i(259317),	-- Plans: Sunforged Sickle (RECIPE!)
 							i(259322),	-- Plans: Sunforged Skinning Knife (RECIPE!)
-							i(260246),	-- Plans: Thalassian Skeleton Key (RECIPE!)
 						})),
-						prof(ENCHANTING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.ENCHANTING, 150 } } }, {
+						prof(ENCHANTING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.ENCHANTING, 200 } } }, {
 							i(256742),	-- Formula: Runed Dazzling Thorium Rod (RECIPE!)
 						})),
-						prof(ENGINEERING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.ENGINEERING, 150 } } }, {
+						prof(ENGINEERING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.ENGINEERING, 200 } } }, {
 							i(259182),	-- Schematic: Giga-Gem Grippers (RECIPE!)
 							i(259172),	-- Schematic: Head-Mounted Beam Bummer (RECIPE!)
 							i(259176),	-- Schematic: Heavy-Duty Rock Assister (RECIPE!)
@@ -47,10 +49,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(259184),	-- Schematic: Turbo-Junker's Multitool v9 (RECIPE!)
 						})),
 						prof(INSCRIPTION, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.INSCRIPTION, 150 } } }, {
-							i(259206),	-- Technique: Gilded Alchemist's Mixing Rod (RECIPE!)
 							i(258504),	-- Technique: Gilded Eversong Book (RECIPE!)
-							i(259210),	-- Technique: Gilded Sin'dorei Quill (RECIPE!)
-							i(259208),	-- Technique: Gilded Sin'dorei Rolling Pin (RECIPE!)
 							i(267394),	-- Technique: Homely Sin'dorei Shelf (RECIPE!)
 							i(258502),	-- Technique: Lively Songwriter's Quill (RECIPE!)
 							i(258503),	-- Technique: Sin'dorei Opened Scroll (RECIPE!)
@@ -62,14 +61,21 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(258491),	-- Technique: Thalassian Missive of Perception (RECIPE!)
 							i(258495),	-- Technique: Thalassian Missive of Resourcefulness (RECIPE!)
 						})),
+						prof(INSCRIPTION, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.INSCRIPTION, 200 } } }, {
+							i(259206),	-- Technique: Gilded Alchemist's Mixing Rod (RECIPE!)
+							i(259210),	-- Technique: Gilded Sin'dorei Quill (RECIPE!)
+							i(259208),	-- Technique: Gilded Sin'dorei Rolling Pin (RECIPE!)
+						})),
 						prof(JEWELCRAFTING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.JEWELCRAFTING, 150 } } }, {
-							i(256701),	-- Design: Attuned Thalassian Rune-Prism (RECIPE!)
-							i(256705),	-- Design: Flawless Text Scrutinizers (RECIPE!)
 							i(256713),	-- Design: Improved Right-Handed Magnifying Glass (RECIPE!)
-							i(256707),	-- Design: Mage-Eye Precision Loupes (RECIPE!)
 							i(256699),	-- Design: Sin'dorei Enchanter's Crystal (RECIPE!)
 							i(256709),	-- Design: Sin'dorei Jeweler's Loupes (RECIPE!)
 							i(256703),	-- Design: Sin'dorei Scribe's Spectacles (RECIPE!)
+						})),
+						prof(JEWELCRAFTING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.JEWELCRAFTING, 200 } } }, {
+							i(256701),	-- Design: Attuned Thalassian Rune-Prism (RECIPE!)
+							i(256705),	-- Design: Flawless Text Scrutinizers (RECIPE!)
+							i(256707),	-- Design: Mage-Eye Precision Loupes (RECIPE!)
 							i(256711),	-- Design: Thalassian Scribe's Crystalline Lens (RECIPE!)
 						})),
 						prof(LEATHERWORKING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.LEATHERWORKING, 150 } } }, {
@@ -83,6 +89,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(256665),	-- Pattern: Sin'dorei Leathershaper's Smock (RECIPE!)
 							i(259371),	-- Pattern: Stitched Haranir Rug (RECIPE!)
 							i(259368),	-- Pattern: Sturdy Haranir Chair (RECIPE!)
+						})),
+						prof(LEATHERWORKING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.LEATHERWORKING, 200 } } }, {
 							i(256658),	-- Pattern: Thalassian Alchemist's Mixcap (RECIPE!)
 							i(256667),	-- Pattern: Thalassian Gemshaper's Grand Cover (RECIPE!)
 							i(256663),	-- Pattern: Thalassian Herbtender's Cradle (RECIPE!)
@@ -101,6 +109,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(258039),	-- Pattern: Elegant Artisan's Herbalism Hat (RECIPE!)
 							i(258040),	-- Pattern: Elegant Artisan's Tailoring Robe (RECIPE!)
 							i(258132),	-- Pattern: Plush Silvermoon Bed (RECIPE!)
+						})),
+						prof(TAILORING, sharedData({ ["cost"] = { { "c", ARTISAN_MOXIE.TAILORING, 200 } } }, {
 							i(267053),	-- Pattern: Thalassian Alchemy Coveralls (RECIPE!)
 							i(267055),	-- Pattern: Thalassian Chef's Chapeau (RECIPE!)
 							i(267057),	-- Pattern: Thalassian Enchanter's Bonnet (RECIPE!)
