@@ -100,6 +100,30 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(212295),	-- Vicious Flask of Manifested Fury
 				})),
 			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					i(245927),	-- Fleeting Flask of Thalassian Resistance+
+					i(245926),	-- Fleeting Flask of Thalassian Resistance++
+					i(245930),	-- Fleeting Flask of the Blood Knights+
+					i(245931),	-- Fleeting Flask of the Blood Knights++
+					i(245932),	-- Fleeting Flask of the Magisters+
+					i(245933),	-- Fleeting Flask of the Magisters++
+					i(245928),	-- Fleeting Flask of the Shattered Sun+
+					i(245929),	-- Fleeting Flask of the Shattered Sun++
+					i(245897),	-- Fleeting Light's Potential+
+					i(245898),	-- Fleeting Light's Potential++
+					i(245900),	-- Fleeting Potion of Zealotry+
+					i(245901),	-- Fleeting Potion of Zealotry++
+					i(241315),	-- Haranir Phial of Concentrated Ingenuity+
+					i(241314),	-- Haranir Phial of Concentrated Ingenuity++
+					i(241279),	-- Midnight Catalyst
+					i(241328),	-- Midnight Stacking Heals Flask++
+					i(241329),	-- Midnight Stacking Heals Flask+
+					i(241290),	-- Midnight Void Potion 3
+					i(241335),	-- Vicious Thalassian Flask of Honor++
+				})),
+			}),
 		}),
 		filter(RECIPES, {
 			expansion(EXPANSION.CLASSIC, {
@@ -296,6 +320,20 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					r(433608),	-- Unknown
 					-- With SpellID attached
 					i(224019),	-- Recipe: Vicious Flask of Manifested Fury (RECIPE!)
+				})),
+			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					r(1230772),	-- [DNT] 12.0 Alchemy Recipe Spell Template
+					r(1233131),	-- [DNT] 12.0 Alchemy Recipe Spell Template
+					r(1233139),	-- [DNT] 12.0 Alchemy Recipe Spell Template
+					r(1230871),	-- [DNT] Alchemy Recipe - Reuse Me
+					r(1230879),	-- [DNT] Midnight Stacking Heals Flask
+					r(1230884),	-- [DNT] Midnight Vicious Flask of Classical Spirits
+					r(1230882),	-- [DNT] Midnight Vicious Flask of Determination
+					r(1230881),	-- [DNT] Midnight Vicious Flask of Manifested Fury
+					r(1230880),	-- [DNT] Midnight Vicious Flask of the Wrecking Ball
 				})),
 			}),
 		}),

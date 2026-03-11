@@ -436,6 +436,12 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					r(1269498),	-- Snowfall Tribe Scare-Totem
 				})),
 			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					r(1237576),	-- Recraft Equipment
+				})),
+			}),
 		}),
 	}),
 }));

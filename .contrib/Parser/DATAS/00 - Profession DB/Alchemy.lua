@@ -1375,3 +1375,13 @@ i(0, 1230893);		-- School of Gems
 i(0, 1230890);		-- Transmute: Mote of Light
 i(0, 1230889);		-- Transmute: Mote of Primal Energy
 i(0, 1230888);		-- Transmute: Mote of Pure Void
+--- NYI ---
+i(0, 1230772);		-- [DNT] 12.0 Alchemy Recipe Spell Template
+i(0, 1233131);		-- [DNT] 12.0 Alchemy Recipe Spell Template
+i(0, 1233139);		-- [DNT] 12.0 Alchemy Recipe Spell Template
+i(0, 1230871);		-- [DNT] Alchemy Recipe - Reuse Me
+i(0, 1230879);		-- [DNT] Midnight Stacking Heals Flask
+i(0, 1230884);		-- [DNT] Midnight Vicious Flask of Classical Spirits
+i(0, 1230882);		-- [DNT] Midnight Vicious Flask of Determination
+i(0, 1230881);		-- [DNT] Midnight Vicious Flask of Manifested Fury
+i(0, 1230880);		-- [DNT] Midnight Vicious Flask of the Wrecking Ball

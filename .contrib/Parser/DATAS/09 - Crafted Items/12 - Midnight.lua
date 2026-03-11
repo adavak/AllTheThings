@@ -18,7 +18,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(241298),	-- Amani Extract++
 			i(241319),	-- Cauldron of Sin'dorei Flasks+
 			i(241318),	-- Cauldron of Sin'dorei Flasks++
-			i(241293),	-- Draught of Rampant Abandon+ [Missing Next Rank]
+			i(241293),	-- Draught of Rampant Abandon+
+			i(241292),	-- Draught of Rampant Abandon++
 			i(241339),	-- Enlightenment Tonic+
 			i(241338),	-- Enlightenment Tonic++
 			i(268954),	-- Entropic Extract+
@@ -895,6 +896,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(269586),	-- Emergency Soul Link++
 			i(248137),	-- M3DDY
 			i(248409),	-- W-47CH D0G
+			i(257751),	-- Weighted Boomshots+
+			i(257752),	-- Weighted Boomshots++
 		}),
 		filter(PROFESSION_EQUIPMENT, {
 			i(244713, {["requireSkill"] = JEWELCRAFTING}),	-- Farstrider Clampers

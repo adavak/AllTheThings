@@ -93,92 +93,9 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				i(237505),	-- Artisan's Moxie
-				i(238215),	-- Essence of Prey
-				-- PvP reagent
-				i(246496),	-- Remnant of Anguish
-
-				-- Prof Tools
-				i(246514),	-- Super Elegant Artisan's Tailoring Robe
-				i(246515),	-- Super Elegant Artisan's Herbalism Hat
-				i(246521),	-- Super Elegant Artisan's Alchemy Coveralls
-				i(246522),	-- Super Elegant Artisan's Cooking Hat
-				i(246523),	-- Super Elegant Artisan's Enchanting Hat
-				-- cosmetic/Prof?
-				i(248245),	-- Super Sin'dorei Gilded Hardhat
-
-				-- Prof
-				i(247724),	-- Multicraft Manifold
-				i(247726),	-- Resourceful Routing \\ [PH] Resourcefulness Finishing Reagent
-				i(247787),	-- [PH] Perception Finishing Reagent
-
-				i(256136),	-- Professor Instructaur's Brain Pertaining to Midnight
-
-				-- Engi
-				i(257733),	-- M0LL1, Atomic Anomaly
-				i(257734),	-- M0LL1, Atomic Anomaly
-				i(257751),	-- Weighted Boomshots
-				i(257752),	-- Weighted Boomshots
-
-				-- Cooking
-				i(258490),	-- Recipe: Argentleaf Tea \\ Recipe: Peacebloom Tea
-				-- Inscription
-				i(258497),	-- Technique: Technique: Thalassian Missive of Deftness
-				i(258498),	-- Technique: Ren'dorei Sturdy Cask
-				i(258501),	-- Technique: Sin'dorei Homely Shelf
-				i(258506),	-- Technique: Homely Wall Shelves
-				i(258507),	-- Technique: Wild Hanging Scroll
-				i(258508),	-- Technique: Harandar Runestone
-				-- Fishing
-				i(258511),	-- Recipe: Sunwell Fish Lure
-				-- blacksmithing
-				i(258520),	-- Plans: Farstrider's Strike
-				-- Prof
-				i(258839),	-- Concealed Catalogue
-				-- Proff LW NYI
-				i(256648),	-- Pattern: Devouring Banding
-				i(256651),	-- Pattern: Blood Knight's Armor Kit
-				-- Fishing
-				i(262650),	-- Writhing Wiggleworm
-				i(262651),	-- Pointed Spikesnail
-
-				-- Alch NYi
-				i(241335),	-- Vicious Thalassian Flask of Honor++
-				-- Alchemy
-				i(241292),	-- Draught of Rampant Abandon
-
-				-- Enchatning
-				i(268032),	-- Conjured Illusory Adornment - Blooming Light
-				i(268033),	-- Conjured Illusory Adornment - Nature's Embrace
-				i(268034),	-- Conjured Illusory Adornment - Voidtouched
-				-- Prof
-				i(267393),	-- Radiant Shatter
-				i(267401),	-- Dawn Shatter
-				prof(ALCHEMY, {
-					i(241279),	-- Midnight Catalyst
-
-					i(241290),	-- Midnight Void Potion 3
-					i(241314),	-- Haranir Phial of Concentrated Ingenuity++
-					i(241315),	-- Haranir Phial of Concentrated Ingenuity+
-					i(241328),	-- Midnight Stacking Heals Flask++
-					i(241329),	-- Midnight Stacking Heals Flask+
-
-					-- Alchemy
-					i(245897),	-- Fleeting Light's Potential
-					i(245898),	-- Fleeting Light's Potential
-					i(245900),	-- Fleeting Potion of Zealotry
-					i(245901),	-- Fleeting Potion of Zealotry
-					i(245926),	-- Fleeting Flask of Thalassian Resistance
-					i(245927),	-- Fleeting Flask of Thalassian Resistance
-					i(245928),	-- Fleeting Flask of the Shattered Sun
-					i(245929),	-- Fleeting Flask of the Shattered Sun
-					i(245930),	-- Fleeting Flask of the Blood Knights
-					i(245931),	-- Fleeting Flask of the Blood Knights
-					i(245932),	-- Fleeting Flask of the Magisters
-					i(245933),	-- Fleeting Flask of the Magisters
-				}),
 				prof(BLACKSMITHING, {
 					i(238206),	-- [PH] Weightstone - Quality 1
+					i(258520),	-- Plans: Farstrider's Strike
 				}),
 				prof(COOKING, {
 					i(235919),	-- [PH] 12.0 Cooking - Test Food
@@ -188,34 +105,36 @@ root(ROOTS.Unsorted, {
 					i(242279),	-- Baked Lucky Loa
 					i(266986),	-- Hearty Quel'dorei Medley
 					i(242751),	-- Hearty Rootland Surprise
+					i(258490),	-- Recipe: Argentleaf Tea
 				}),
 				prof(ENCHANTING, {
-					-- Enchanting
 					i(243434),	-- Enchant Shoulders - Nature's Embrace
 					i(243442),	-- Enchant Shoulders - Voidtouched
-					i(243448),	-- Illusory Adornment - Blooming Light \\ Enchant Shoulders - Blooming Light
-					-- Ench
+					i(243448),	-- Illusory Adornment - Blooming Light
 					i(245934),	-- Shatter Essence
+					i(268032),	-- Conjured Illusory Adornment - Blooming Light
+					i(268033),	-- Conjured Illusory Adornment - Nature's Embrace
+					i(268034),	-- Conjured Illusory Adornment - Voidtouched
+					i(267401),	-- Dawn Shatter
+					i(267393),	-- Radiant Shatter
 				}),
 				prof(ENGINEERING, {
 					i(244705),	-- Mini-Medical Team
 					i(244706),	-- Mini-Medical Team
 					i(244788),	-- [PH] Test Fishing Rod A
 					i(244789),	-- [PH] Test Fishing Rod B
+					i(257733),	-- M0LL1, Atomic Anomaly
+					i(257734),	-- M0LL1, Atomic Anomaly
 				}),
 				prof(FISHING, {
-
 					i(238498),	-- [PH] Trophy Coin
-
-					-- Fishing
 					i(241150),	-- Sunwell Fish Lure
 					i(241151),	-- Rootland Crab Lure
-
-					-- Fishing?
 					i(243248),	-- Anomaly Filament
-
-					-- Fishing
 					i(244818),	-- Recipe: Rootland Crab Lure
+					i(262651),	-- Pointed Spikesnail
+					i(258511),	-- Recipe: Sunwell Fish Lure
+					i(262650),	-- Writhing Wiggleworm
 				}),
 				prof(HERBALISM, {
 					i(237498),	-- Glowing Resilient Seed
@@ -233,17 +152,25 @@ root(ROOTS.Unsorted, {
 					i(238571),	-- Tunneler's Shovel
 				}),
 				prof(INSCRIPTION, {
-								-- Inscription
 					i(245754),	-- Milling
 					i(245774),	-- Vantus Rune: 12.0 Raid
 					i(245810),	-- Transcribe: Blood
 					i(245811),	-- Transcribe: Rot
 					i(245812),	-- Transcribe: Hunt
 					i(245813),	-- Transcribe: Void
+					i(258497),	-- Technique: Technique: Thalassian Missive of Deftness
+					i(258498),	-- Technique: Ren'dorei Sturdy Cask
+					i(258501),	-- Technique: Sin'dorei Homely Shelf
+					i(258506),	-- Technique: Homely Wall Shelves
+					i(258507),	-- Technique: Wild Hanging Scroll
+					i(258508),	-- Technique: Harandar Runestone
+				}),
+				prof(LEATHERWORKING, {
+					i(256648),	-- Pattern: Devouring Banding
+					i(256651),	-- Pattern: Blood Knight's Armor Kit
 				}),
 				prof(SKINNING, {
 					i(238531),	-- Radiant Stomach
-
 
 					-- Skinning Knowledge
 					i(238604),	-- Dornogal Carving Knife
@@ -255,6 +182,27 @@ root(ROOTS.Unsorted, {
 					i(238610),	-- Nerubian's Slicking Iron
 					i(238611),	-- Carapace Shiner
 				}),
+				-- Professions
+				i(258839),	-- Concealed Catalogue
+
+				-- Crafting Reagent
+				i(237505),	-- Artisan's Moxie
+				i(247724),	-- Multicraft Manifold
+				i(247726),	-- Resourceful Routing
+
+				-- Profession Tool
+				i(246514),	-- Super Elegant Artisan's Tailoring Robe
+				i(246515),	-- Super Elegant Artisan's Herbalism Hat
+				i(246521),	-- Super Elegant Artisan's Alchemy Coveralls
+				i(246522),	-- Super Elegant Artisan's Cooking Hat
+
+				-- NYI
+				i(238215),	-- Essence of Prey
+				i(246496),	-- Remnant of Anguish
+				i(246523),	-- Super Elegant Artisan's Enchanting Hat
+				i(248245),	-- Super Sin'dorei Gilded Hardhat
+				i(256136),	-- Professor Instructaur's Brain Pertaining to Midnight
+				i(247787),	-- [PH] Perception Finishing Reagent
 			}),
 			filter(MISC, {
 				i(235637),	-- [NYI] Lockpick Power

@@ -2745,3 +2745,5 @@ i(0, 1237511);		-- Silvermoon Agent's Leggings
 i(0, 1237512);		-- Silvermoon Agent's Mantle
 i(0, 1237508);		-- Silvermoon Agent's Sneakers
 i(0, 1237513);		-- Silvermoon Agent's Utility Belt
+--- NYI ---
+i(0, 1237576);		-- Recraft Equipment
