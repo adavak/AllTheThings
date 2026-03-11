@@ -1200,10 +1200,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(594, {	-- Message in a Bottle (1/2)
-					["providers"] = {
-						{ "i", 4098 },	-- Carefully Folded Note
-						{ "o", 2560 },	-- Half-Buried Bottle
-					},
+					["provider"] = { "i", 4098 },	-- Carefully Folded Note
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 45,
 				}),
@@ -2695,11 +2692,30 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				o(2744, {	-- Giant Clam
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 28.1, 45.9, NORTHERN_STRANGLETHORN },	-- The Vile Reef
+						-- #else
+						{ 25.8, 28.0, STRANGLETHORN_VALE },
+						-- #endif
 					},
 					["groups"] = {
 						i(4611),	-- Blue Pearl
 						i(4655),	-- Giant Clam Meat
+					},
+				}),
+				o(2560, {	-- Half-Buried Bottle
+					["coords"] = {
+						{ 40.4, 60.6, STRANGLETHORN_VALE },
+						{ 37.0, 65.4, STRANGLETHORN_VALE },
+						{ 36.0, 71.1, STRANGLETHORN_VALE },
+						{ 33.7, 75.0, STRANGLETHORN_VALE },
+						{ 32.8, 78.7, STRANGLETHORN_VALE },
+						{ 36.4, 78.5, STRANGLETHORN_VALE },
+					},
+					["timeline"] = { REMOVED_4_0_3 },
+					["lvl"] = 45,
+					["groups"] = {
+						i(4098),	-- Carefully Folded Note
 					},
 				}),
 			}),
@@ -3598,6 +3614,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 				}),
+				i(2799),	-- Gorilla Fang
 				i(1986, {	-- Gutrender
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 709,	-- Mosh'Ogg Warmonger

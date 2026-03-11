@@ -1298,10 +1298,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(594, {	-- Message in a Bottle (1/2)
-					["providers"] = {
-						{ "i", 4098 },	-- Carefully Folded Note
-						{ "o", 2560 },	-- Half-Buried Bottle
-					},
+					["provider"] = { "i", 4098 },	-- Carefully Folded Note
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 45,
 				}),
@@ -2691,6 +2688,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				})),
+				o(2560, {	-- Half-Buried Bottle
+					["timeline"] = { REMOVED_4_0_3 },
+					["groups"] = {
+						i(4098),	-- Carefully Folded Note
+					},
+				}),
 			}),
 			n(VENDORS, {
 				n(2846, {	-- Blixrez Goodstitch <Leatherworking Supplies>
