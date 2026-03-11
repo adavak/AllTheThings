@@ -33,10 +33,7 @@ root(ROOTS.Unsorted, {
 				i(259354),	-- Brown Paper Sack
 			}),
 			filter(MISC, {
-				-- Cache
-				i(269701),	-- Surplus Bag of Party Favors
-
-				-- prey
+				-- Prey
 				i(269006),	-- Preyseeker's Gleaming Coin Pouch
 				i(269007),	-- Preyseeker's Glittering Coin Pouch
 			}),
@@ -275,8 +272,6 @@ root(ROOTS.Unsorted, {
 				i(262635),	-- Cache of Delver's Spoils
 				i(263400),	-- Cache of Delver's Spoils
 				i(263433),	-- Overflowing Silvermoon Trove
-				i(263465),	-- Surplus Bag of Party Favors
-				i(263466),	-- Overflowing Abundant Satchel
 				i(263468),	-- Stormarion Spoils
 				i(264972),	-- Voidstorm Victuals
 				i(264988),	-- Endgame Essentials

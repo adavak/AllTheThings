@@ -102,6 +102,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				i(268485, {	-- Victorious Stormarion Pinnacle Cache (Pre-Season)
+					["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_X_SEASONSTART },
 					["groups"] = {
 						i(257180),	-- Reins of Contained Stormarion Defender (MOUNT!)
 						i(265030),	-- Kai (PET!)
@@ -122,7 +123,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						{"where","headerID",WEAPONS},
 					},
 				}),
-				i(260940, {	-- Victorious Stormarion Pinnacle Cache
+				i(260940, {	-- Victorious Stormarion Pinnacle Cache (Season 1)
+					["timeline"] = { ADDED_12_0_X_SEASONSTART },
 					["groups"] = {
 						i(257180),	-- Reins of Contained Stormarion Defender (MOUNT!)
 						i(265030),	-- Kai (PET!)

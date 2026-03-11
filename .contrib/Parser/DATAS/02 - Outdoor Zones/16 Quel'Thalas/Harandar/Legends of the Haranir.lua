@@ -145,10 +145,41 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
                 }),
             }),
 			n(REWARDS, {
-				-- Rewarded on every quest completion. Be it the first time or on the repetition.
-                i(269703),	-- Avid Learner's Supply Pack
-                i(268487),	-- Avid Learner's Supply Pack (Pre-Season)
-                i(263467),	-- Avid Learner's Supply Pack
+                i(269703, {	-- Avid Learner's Supply Pack
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
+                i(268487, {	-- Avid Learner's Supply Pack (Pre-Season)
+					["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_X_SEASONSTART },
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
+                i(263467, {	-- Avid Learner's Supply Pack (Season 1)
+					["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
 			}),
             n(TREASURES, {
                 ["lore"] = "Discover all of the lore objects found within the Legends of the Haranir relic stories.",

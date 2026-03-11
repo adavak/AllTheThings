@@ -10,7 +10,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 49.1, 64.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["isWeekly"] = true,	-- Presumed
 				["groups"] = {
-					i(265995),	-- Quel'Thalas Adventurer's Cache
+					i(265995, {	-- Quel'Thalas Adventurer's Cache
+						["sym"] = { -- [Quel'Thalas Zone Rewards content]
+							{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+							{"where","headerID",ZONE_REWARDS},{"pop"},
+							{"where","headerID",ARMOR},{"finalize"},
+
+							{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+							{"where","headerID",ZONE_REWARDS},{"pop"},
+							{"where","headerID",WEAPONS},
+						},
+					}),
 				},
 			}),
 			-- Battle Pet
@@ -123,9 +133,30 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["coord"] = { 49.0, 64.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["isWeekly"] = true,
 			["groups"] = {
-				i(268490),	-- Apex Cache (Pre-Season)
-				i(254677),	-- Apex Cache
-				-- zone reward
+				i(268490, {	-- Apex Cache (Pre-Season)
+					["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_X_SEASONSTART },
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
+				i(254677, {	-- Apex Cache (Season 1)
+					["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
+					["sym"] = { -- [Quel'Thalas Zone Rewards content]
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",ARMOR},{"finalize"},
+
+						{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+						{"where","headerID",ZONE_REWARDS},{"pop"},
+						{"where","headerID",WEAPONS},
+					},
+				}),
 			},
 		}, {
 			q(93744),	-- Unity Against the Void (fire in addition to player choose quest)

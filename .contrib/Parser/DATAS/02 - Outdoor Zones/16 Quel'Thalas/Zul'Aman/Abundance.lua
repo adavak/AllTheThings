@@ -66,8 +66,41 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["isWeekly"] = true,
 						["groups"] = {
-							i(268488),	-- Overflowing Abundant Satchel
-							i(269702),	-- Overflowing Abundant Satchel
+							i(269702, {	-- Overflowing Abundant Satchel
+								["sym"] = { -- [Quel'Thalas Zone Rewards content]
+									{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+									{"where","headerID",ZONE_REWARDS},{"pop"},
+									{"where","headerID",ARMOR},{"finalize"},
+
+									{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+									{"where","headerID",ZONE_REWARDS},{"pop"},
+									{"where","headerID",WEAPONS},
+								},
+							}),
+							i(268488, {	-- Overflowing Abundant Satchel (Pre-Season)
+								["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_X_SEASONSTART },
+								["sym"] = { -- [Quel'Thalas Zone Rewards content]
+									{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+									{"where","headerID",ZONE_REWARDS},{"pop"},
+									{"where","headerID",ARMOR},{"finalize"},
+
+									{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+									{"where","headerID",ZONE_REWARDS},{"pop"},
+									{"where","headerID",WEAPONS},
+								},
+							}),
+							i(263466, {	-- Overflowing Abundant Satchel (Season 1)
+								["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
+								["sym"] = { -- [Quel'Thalas Zone Rewards content]
+									{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+									{"where","headerID",ZONE_REWARDS},{"pop"},
+									{"where","headerID",ARMOR},{"finalize"},
+
+									{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+									{"where","headerID",ZONE_REWARDS},{"pop"},
+									{"where","headerID",WEAPONS},
+								},
+							}),
 						},
 					}),
 					q(91933, {	-- The Abundant Honor

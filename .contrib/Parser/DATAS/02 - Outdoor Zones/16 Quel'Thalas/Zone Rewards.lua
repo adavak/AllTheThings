@@ -50,6 +50,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				i(256982),	-- Rootspeaker's Trunk
 			}),
 			filter(NECK_F, {
+				i(256969),	-- Farstrider's Pendant
 				i(256970),	-- Loa-Blessed Beads
 			}),
 			filter(PLATE, {
@@ -106,14 +107,29 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			i(257013),	-- Viridescent Crusher
 		}),
 		--
-		i(264274, {	-- Fabled Adventurer's Cache
-			["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
+		i(264274, {	-- Fabled Adventurer's Cache (Pre-Season)
+			["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_X_SEASONSTART },
+			["sym"] = { -- [Quel'Thalas Zone Rewards content]
+				{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+				{"where","headerID",ZONE_REWARDS},{"pop"},
+				{"where","headerID",ARMOR},{"finalize"},
+
+				{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+				{"where","headerID",ZONE_REWARDS},{"pop"},
+				{"where","headerID",WEAPONS},
+			},
 		}),
-		i(260193, {	-- Fabled Veteran's Cache
+		i(260193, {	-- Fabled Veteran's Cache (Season 1)
 			["timeline"] = { ADDED_12_0_X_SEASONSTART, REMOVED_12_1_0 },
-			--["groups"] = {
-			--	zone_rewards?
-			--},
+			["sym"] = { -- [Quel'Thalas Zone Rewards content]
+				{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+				{"where","headerID",ZONE_REWARDS},{"pop"},
+				{"where","headerID",ARMOR},{"finalize"},
+
+				{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
+				{"where","headerID",ZONE_REWARDS},{"pop"},
+				{"where","headerID",WEAPONS},
+			},
 		}),
 	}),
 }));
