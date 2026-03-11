@@ -47,14 +47,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 					},
 				}),
-				o(539047, {	-- Abandoned Ritual Skull
-					["coord"] = { 44.7, 44.1, MAP.MIDNIGHT.ZULAMAN },
-					["cost"] = { { "i", 259361, 1000 } },	-- 1000x Vile Essence
-					["questID"] = 90794,
-					["groups"] = {
-						i(257444),	-- Hexed Vilefeather Eagle (MOUNT!)
-					},
-				}),
 				o(539049, {	-- Bait and Tackle
 					["coord"] = { 20.8, 66.5, MAP.MIDNIGHT.ZULAMAN },
 					["questID"] = 90795,
@@ -185,6 +177,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 41.9, 41.6, MAP.MIDNIGHT.ZULAMAN },
 					["questID"] = 94545,
 				}),
+			}),
+			o(539047, {	-- Abandoned Ritual Skull
+				["coord"] = { 44.7, 44.1, MAP.MIDNIGHT.ZULAMAN },
+				["cost"] = { { "i", 259361, 1000 } },	-- 1000x Vile Essence
+				["questID"] = 90794,
+				["groups"] = {
+					i(257444),	-- Hexed Vilefeather Eagle (MOUNT!)
+				},
 			}),
 			-- Repeatable Treasures, contain currencies, grays, potions, etc.
 			o(555462, {	-- Forgotten Amani Cache
