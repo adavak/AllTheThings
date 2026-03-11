@@ -2610,3 +2610,6 @@ i(0, 1229605);		-- Sun-Blessed Needle Set
 i(0, 1229601);		-- Sun-Blessed Pickaxe
 i(0, 1229602);		-- Sun-Blessed Sickle
 i(0, 1229600);		-- Sun-Blessed Skinning Knife
+--- NYI ---
+i(258520, 0);		-- Murder Row Fleet Feet
+i(265538, 0);		-- Plans: Ornate Crafter's Tongs

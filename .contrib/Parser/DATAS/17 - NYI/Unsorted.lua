@@ -87,16 +87,10 @@ root(ROOTS.Unsorted, {
 			n(PROFESSIONS, {
 				-- Cooking
 				i(268680),	-- Hearty Flora Frenzy
-				-- BS
-				i(265538),	-- Plans: Ornate Crafter's Tongs
 			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(BLACKSMITHING, {
-					i(238206),	-- [PH] Weightstone - Quality 1
-					i(258520),	-- Plans: Farstrider's Strike
-				}),
 				prof(COOKING, {
 					i(235919),	-- [PH] 12.0 Cooking - Test Food
 					i(242530),	-- [PH] Vegetarian Recipe

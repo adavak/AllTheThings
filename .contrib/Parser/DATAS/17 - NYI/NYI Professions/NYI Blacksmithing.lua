@@ -761,6 +761,12 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(218093),	-- <Vendor Reagent A>
 				})),
 			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					i(238206),	-- [PH] Weightstone - Quality 1
+				})),
+			}),
 		}),
 		filter(RECIPES, {
 			expansion(EXPANSION.CLASSIC, {
@@ -1146,7 +1152,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(223018),	-- Plans: Echoing Truncheon
 					i(223046),	-- Plans: Entangling Cutlass
 					i(223047),	-- Plans: Haunting Void
-					-- Without SpellId attached
+					-- Without SpellID attached
 					i(218102),	-- Bloodstained Plans: <PVP Alloy>
 					i(223026),	-- Plans: Artisan Leatherworker's Knife
 					i(223027),	-- Plans: Artisan Leatherworker's Toolset
@@ -1221,6 +1227,14 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				-- 11.2.7
 				expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
 					r(1246473),	-- [DNT] TWW Blacksmithing Decor Template
+				})),
+			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					-- Without SpellID attached
+					i(258520),	-- Plans: Farstrider's Strike
+					i(265538),	-- Plans: Ornate Crafter's Tongs
 				})),
 			}),
 		}),
