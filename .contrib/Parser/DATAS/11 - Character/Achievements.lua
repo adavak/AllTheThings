@@ -195,7 +195,7 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 		["timeline"] = { ADDED_3_0_2, REMOVED_4_0_1 },
 	})),
 	ach(2716, {		-- Dual Talent Specialization
-		["timeline"] = { ADDED_3_1_0, REMOVED_7_0_3 },
+		["timeline"] = { REMOVED_7_0_3 },
 	}),
 	applyclassicphase(WRATH_PHASE_ONE, ach(558, {		-- Greedy
 		["timeline"] = { ADDED_3_0_2, REMOVED_8_0_1 },

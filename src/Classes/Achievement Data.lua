@@ -32,6 +32,7 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 local GetPVPLifetimeStats = GetPVPLifetimeStats;
 local GetNumBankSlots = GetNumBankSlots;
 local GetFactionCurrentReputation = app.WOWAPI.GetFactionCurrentReputation;
+local GetNumTalentGroups = GetNumTalentGroups;
 
 -- Locals from future-loaded Modules
 app.AddEventHandler("OnLoad", function()
@@ -51,6 +52,9 @@ local BrokenTypeDescriptions = setmetatable({
 local IgnoredReputationsForAchievements = {
 	[169] = 1,	-- Steamweedle Cartel doesn't count toward reputation achievements
 };
+local function IsDualTalentSpecializationLearned()
+	return GetNumTalentGroups() > 1 and 1 or 0;
+end
 local function GetQuestCompleted(questID)
 	return IsQuestFlaggedCompleted(questID) and 1 or 0;
 end
@@ -205,9 +209,17 @@ local AchievementCriteriaQuestDataCache = setmetatable({}, {
 		return value;
 	end,
 });
+local AchievementCriteriaSpellDataCacheHelper = setmetatable({
+	[63624] = IsDualTalentSpecializationLearned,
+}, {
+	__index = function(t, key)
+		t[key] = GetSpellCompleted;
+		return GetSpellCompleted;
+	end,
+});
 local AchievementCriteriaSpellDataCache = setmetatable({}, {
 	__index = function(t, key)
-		local value = GetSpellCompleted(key);
+		local value = AchievementCriteriaSpellDataCacheHelper[key](key);
 		t[key] = value;
 		return value;
 	end,
@@ -437,7 +449,7 @@ local CreateCriteriaType = app.CreateClass("CriteriaType", "__criteriaUID", {
 "ForLevel", ForLevelFields, function(t) return t.type == 5; end,
 "ForOwnItem", ForOwnItemFields, function(t) return t.type == 36 or t.type == 57 or t.type == 41 or t.type == 42; end,	-- 41 is using the item, 42 is for specifically looting the item.
 "ForQuest", ForQuestFields, function(t) return t.type == 27; end,
-"ForSpells", ForSpellsFields, function(t) return t.type == 34; end,
+"ForSpells", ForSpellsFields, function(t) return t.type == 34 or t.type == 69; end,
 "ForExploration", ForExplorationFields, function(t)
 	if t.type == 43 then
 		t.overlayData = WorldMapOverlayData[t.asset] or {};
