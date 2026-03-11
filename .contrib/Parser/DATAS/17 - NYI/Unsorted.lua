@@ -434,7 +434,6 @@ root(ROOTS.Unsorted, {
 				i(237142),	-- Arcane Viewfinder
 				i(237575),	-- PH_Dezco's Hammer
 				i(237772),	-- Everburning Coal
-				i(237827),	-- Fallen Vanguard's Memento
 				i(238256),	-- Cattail
 				i(238359),	-- Nalorakk's Totem
 				i(238476),	-- Irritating Spores
@@ -679,7 +678,6 @@ root(ROOTS.Unsorted, {
 				--pvp
 				i(266314),	-- Novice Combatant's Necklace
 				i(266317),	-- Novice Combatant's Ring
-				i(267076),	-- Novice Combatant's Medallion
 				i(267077),	-- Novice Combatant's Emblem
 				i(267177),	-- Slayer's Duellum Commendation
 			}),
@@ -760,45 +758,13 @@ root(ROOTS.Unsorted, {
 				i(251794),	-- Gris-gris of Confidence
 				i(251882),	-- Fragmented Light Shard
 				i(251886),	-- Unstable Mana-Locket
-				-- Armor QUest
-				i(257164),	-- Voidbreaker's Diadem \\ [DNT] [PH] Max Level Campaign - Cloth - HEAD
-				i(257165),	-- Voidbreaker's Casque \\ [DNT] [PH] Max Level Campaign - Mail - HEAD
-				i(257166),	-- Voidbreaker's Shroud \\ [DNT] [PH] Max Level Campaign - Leather - HEAD
-				i(257167),	-- Voidbreaker's Greathelm \\ [DNT] [PH] Max Level Campaign - Plate - HEAD
+				-- Armor Quest
 				i(257169),	-- Voidbreaker's Signet \\ [DNT] [PH] Max Level Campaign - Accessory - FINGER 1
 				i(257171),	-- Voidbreaker's Pendant \\ [DNT] [PH] Max Level Campaign - Accessory - NECK
 				i(257172),	-- Voidbreaker's Cape \\ [DNT] [PH] Max Level Campaign - Cloth - CLOAK
 				i(257173),	-- Voidbreaker's Drape \\ [DNT] [PH] Max Level Campaign - Leather - CLOAK
 				i(257174),	-- Voidbreaker's Mantle \\ [DNT] [PH] Max Level Campaign - Mail - CLOAK
 				i(257175),	-- Voidbreaker's Wrap \\ [DNT] [PH] Max Level Campaign - Plate - CLOAK
-				i(257178),	-- Voidbreaker's Flames \\ [DNT] [PH] Max Level Campaign - Cloth - SHOULDER
-				i(257179),	-- Voidbreaker's Mantle \\ [DNT] [PH] Max Level Campaign - Leather - SHOULDER
-				i(257181),	-- Voidbreaker's Spaulders \\ [DNT] [PH] Max Level Campaign - Mail - SHOULDER
-				i(257182),	-- Voidbreaker's Shoulderplates \\ [DNT] [PH] Max Level Campaign - Plate - SHOULDER
-				i(257183),	-- Voidbreaker's Robe \\ [DNT] [PH] Max Level Campaign - Cloth - ROBE
-				i(257184),	-- Voidbreaker's Jacket \\ [DNT] [PH] Max Level Campaign - Leather - CHEST
-				i(257185),	-- Voidbreaker's Cuirass \\ [DNT] [PH] Max Level Campaign - Mail - CHEST
-				i(257186),	-- Voidbreaker's Breastplate \\ [DNT] [PH] Max Level Campaign - Plate - CHEST
-				i(257187),	-- Voidbreaker's Bracers \\ [DNT] [PH] Max Level Campaign - Cloth - WRIST
-				i(257188),	-- Voidbreaker's Wristwraps \\ [DNT] [PH] Max Level Campaign - Leather - WRIST
-				i(257189),	-- Voidbreaker's Clasps \\ [DNT] [PH] Max Level Campaign - Mail - WRIST
-				i(257190),	-- Voidbreaker's Armguards \\ [DNT] [PH] Max Level Campaign - Plate - WRIST
-				i(257201),	-- Voidbreaker's Glovettes \\ [DNT] [PH] Max Level Campaign - Cloth - HAND
-				i(257202),	-- Voidbreaker's Grasps \\ [DNT] [PH] Max Level Campaign - Leather - HAND
-				i(257203),	-- Voidbreaker's Gauntlets \\ [DNT] [PH] Max Level Campaign - Mail - HAND
-				i(257204),	-- Voidbreaker's Handguards \\ [DNT] [PH] Max Level Campaign - Plate - HAND
-				i(257205),	-- Voidbreaker's Waistguard \\ [DNT] [PH] Max Level Campaign - Plate - WAIST
-				i(257206),	-- Voidbreaker's Sash \\ [DNT] [PH] Max Level Campaign - Mail - WAIST
-				i(257207),	-- Voidbreaker's Cord \\ [DNT] [PH] Max Level Campaign - Leather - WAIST
-				i(257208),	-- Voidbreaker's Clasp \\ [DNT] [PH] Max Level Campaign - Cloth - WAIST
-				i(257209),	-- Voidbreaker's Leggings \\ [DNT] [PH] Max Level Campaign - Cloth - LEGS
-				i(257210),	-- Voidbreaker's Pants \\ [DNT] [PH] Max Level Campaign - Leather - LEGS
-				i(257212),	-- Voidbreaker's Legguards \\ [DNT] [PH] Max Level Campaign - Mail - LEGS
-				i(257213),	-- Voidbreaker's Faulds \\ [DNT] [PH] Max Level Campaign - Plate - LEGS
-				i(257214),	-- Voidbreaker's Soles \\ [DNT] [PH] Max Level Campaign - Cloth - FEET
-				i(257216),	-- Voidbreaker's Striders \\ [DNT] [PH] Max Level Campaign - Leather - FEET
-				i(257217),	-- Voidbreaker's Waders \\ [DNT] [PH] Max Level Campaign - Mail - FEET
-				i(257218),	-- Voidbreaker's Sabatons \\ [DNT] [PH] Max Level Campaign - Plate - FEET
 				i(257220),	-- Voidbreaker's Band \\ [DNT] [PH] Max Level Campaign - Accessory - FINGER 2
 				i(257234),	-- Voidbreaker's Waraxe \\ [DNT] [PH] Max Level Campaign - Weapon - Axe1H - AGI
 				i(257237),	-- Voidbreaker's Longbow \\ [DNT] [PH] Max Level Campaign - Weapon - Bows - AGI
@@ -1068,9 +1034,7 @@ root(ROOTS.Unsorted, {
 			n(DECOR, {
 				-- On a Sathren Azuredawn vendor during Beta, not there on live. Maybe moved to some other vendor?
 				i(246458),	-- Grand Aethercharged Crystal
-				i(264660),	-- Ren'dorei Spired Tent (DECOR!)
 				i(251914),	-- Sumptuous Berry Pie (DECOR!)
-				i(262610),	-- Swirling Ritual Pedestal (DECOR!)
 				--
 				i(260727),	-- Alliance Doormat
 				i(260728),	-- Horde Doormat

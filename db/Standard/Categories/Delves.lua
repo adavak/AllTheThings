@@ -2243,8 +2243,7 @@ ach(61832),
 ach(61835),
 ach(61836),
 ach(61734,{
-crit(111012,{achID=61734,id=2,questID=90806}),
-crit(111077,{achID=61734,id=2,questID=90777})}),
+crit(111012,{achID=61734,id=2,questID=90806})}),
 ach(61901,{
 title(691),
 crit(111291,{achID=61906,id=2})})}}),
