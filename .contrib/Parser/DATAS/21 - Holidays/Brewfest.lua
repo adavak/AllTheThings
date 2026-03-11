@@ -66,13 +66,17 @@ local BREWFEST_RIDING_RAMS_ONUPDATE = [[function(t)
 	if not (_.IsQuestFlaggedCompleted(t.sourceQuests[1])) then
 -- #if NOT ANYCLASSIC
 		t.description = "You are unable to purchase the rams from the vendor because you did not complete the 'Brewfest Riding Rams' quest back in 2007. :(";
-		for i,item in ipairs(t.g) do
-			item.u = 2;
+		if t.g then
+			for i,item in ipairs(t.g) do
+				item.u = 2;
+			end
 		end
 -- #else
 		t.description = "You are unable to purchase the rams from this vendor as you have not completed the 'Brewfest Riding Rams' quest. GO GET IT!";
-		for i,item in ipairs(t.g) do
-			item.u = ]] .. EVENTS.BREWFEST .. [[;
+		if t.g then
+			for i,item in ipairs(t.g) do
+				item.u = ]] .. EVENTS.BREWFEST .. [[;
+			end
 		end
 -- #endif
 	else
@@ -81,8 +85,10 @@ local BREWFEST_RIDING_RAMS_ONUPDATE = [[function(t)
 -- #else
 		t.description = "You completed the 'Brewfest Riding Rams' quest and are now eligible to buy the rams!";
 -- #endif
-		for i,item in ipairs(t.g) do
-			item.u = ]] .. EVENTS.BREWFEST .. [[;
+		if t.g then
+			for i,item in ipairs(t.g) do
+				item.u = ]] .. EVENTS.BREWFEST .. [[;
+			end
 		end
 	end
 end]];
