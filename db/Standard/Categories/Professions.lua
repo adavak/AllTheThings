@@ -7527,6 +7527,9 @@ title(752,{requireSkill=393})}})}}),
 h(-45,{requireSkill=393,g={
 q(93712,{coords={
 [2393]={{43.2,55.6}}},isWeekly=1,lvl=78,qgs={243527},requireSkill=393,g={
+i(263461,{b=1,requireSkill=393,spellID=1270539})}}),
+q(93710,{coords={
+[2393]={{43.2,55.6}}},isWeekly=1,lvl=78,qgs={243527},requireSkill=393,g={
 i(263461,{b=1,requireSkill=393,spellID=1270539})}})}}),
 flt(200,{description="These are learned by specialization.",requireSkill=393}),
 h(-56,{requireSkill=393,g={

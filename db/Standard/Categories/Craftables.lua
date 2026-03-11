@@ -19119,6 +19119,7 @@ h(-244,{
 q(93630,{an="n:250826",isWeekly=1,providers={{"n",250826}},requireSkill=393,type="hqt"}),
 q(93631,{an="n:250582",isWeekly=1,providers={{"n",250582}},requireSkill=393,type="hqt"}),
 q(95459,{an="n:256770",isWeekly=1,providers={{"n",256770}},requireSkill=393,type="hqt"}),
+q(93638,{an="n:249844",isWeekly=1,providers={{"n",249844}},requireSkill=393,type="hqt"}),
 q(93633,{an="n:255348",isWeekly=1,providers={{"n",255348}},requireSkill=393,type="hqt"}),
 q(88545,{an="n:245688",isWeekly=1,providers={{"n",245688}},requireSkill=393,type="hqt"}),
 q(95517,{an="n:249849",isWeekly=1,providers={{"n",249849}},requireSkill=393,type="hqt"}),

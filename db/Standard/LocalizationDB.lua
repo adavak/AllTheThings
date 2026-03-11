@@ -25612,6 +25612,7 @@ L.QUEST_NAMES = {
 	[94750] = "Abysslick weekly reputation obtained.",
 	[94751] = "Aeonelle Blackstar weekly reputation obtained.",
 	[94752] = "Bilemaw the Gluttonous weekly reputation obtained.",
+	[94753] = "Blackcore weekly reputation obtained.",
 	[94754] = "Eruundi weekly reputation obtained.",
 	[94755] = "Far'thana the Mad weekly reputation obtained.",
 	[94758] = "Lotus Darkblossom weekly reputation obtained.",

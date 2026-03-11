@@ -270,9 +270,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(94750, {	-- Weekly reputation: Abysslick
 					["name"] = "Abysslick weekly reputation obtained.",
 				}),
-				--q(YYYYY, {	-- Weekly reputation: Blackcore
-				--	["name"] = "Blackcore weekly reputation obtained.",
-				--}),
+				q(94753, {	-- Weekly reputation: Blackcore
+					["name"] = "Blackcore weekly reputation obtained.",
+				}),
 				q(94760, {	-- Weekly reputation: Nullspiral
 					["name"] = "Nullspiral weekly reputation obtained.",
 				}),

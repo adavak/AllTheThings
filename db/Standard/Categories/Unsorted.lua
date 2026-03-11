@@ -318,12 +318,6 @@ i(267235,{f=55,spellID=1279745}),
 i(267236,{f=55,spellID=1279743}),
 i(267242,{f=55,spellID=1279747}),
 i(267243,{f=55,spellID=1279748}),
-i(265664,{f=55,lvl=80,spellID=1269919}),
-i(265665,{f=55,lvl=80,spellID=1269919}),
-i(265666,{f=55,lvl=80,spellID=1269919}),
-i(265667,{f=55,lvl=80,spellID=1269919}),
-i(265668,{f=55,lvl=85,spellID=11009}),
-i(265669,{f=55,lvl=85,spellID=11009}),
 i(262964,{b=1,spellID=1269620}),
 i(262966,{b=1,spellID=1269622}),
 i(265014),
@@ -3702,8 +3696,6 @@ q(93705,{description="Area: |cFFf09f26Silvermoon City|r",g={
 i(263463)}}),
 q(93707,{description="Area: |cFFf09f26Silvermoon City|r",g={
 i(263463)}}),
-q(93710,{description="Area: |cFFf09f26Silvermoon City|r",g={
-i(263461)}}),
 q(93711,{description="Area: |cFFf09f26Silvermoon City|r",g={
 i(263461)}}),
 q(93713,{description="Area: |cFFf09f26Silvermoon City|r",g={
@@ -3714,7 +3706,6 @@ q(93755,{description="Type: |cFFf09f26Dungeon|r\nCategory: |cFFf09f26Dungeon|r"}
 q(93756,{description="Type: |cFFf09f26Dungeon|r\nCategory: |cFFf09f26Dungeon|r"}),
 q(93782,{description="Area: |cFFf09f26Zul'Aman|r"}),
 q(93783,{description="Area: |cFFf09f26Zul'Aman|r"}),
-q(93891,{description="Category: |cFFf09f26Meta Quests|r"}),
 q(93909,{description="Category: |cFFf09f26Meta Quests|r"}),
 q(93912,{description="Category: |cFFf09f26Meta Quests|r"}),
 q(93913,{description="Category: |cFFf09f26Meta Quests|r"}),

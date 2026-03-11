@@ -723,10 +723,13 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, applyDataSelf({ ["timeline"] = { ADD
 			n(EXPLORATION, {
 			}),
 			n(QUESTS, {
-				---q(XXXX, {	-- ??
-				---	["provider"] = { "n", ???? },	-- ????
-				---	["coord"] = { X, Y, MAPID },
-				---}),
+				q(93416, {	-- Delver's Call: The Gulf of Memory
+					["provider"] = { "o", 612259 },	-- The Gulf of Memory
+					["coords"] = {
+						{ 50.8, 17.8, THE_GULF_OF_MEMORY },
+						{ 52.9, 51.7, MAP.MIDNIGHT.HARANDAR },
+					},
+				}),
 			}),
 			n(TREASURES, {
 				o(618278, {	-- Sturdy Chest
