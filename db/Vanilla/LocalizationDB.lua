@@ -4737,6 +4737,13 @@ local achievements = {
 		category = 81,
 		criteria = {9198},
 	},
+	[2716] = {
+		name = "Dual Talent Specialization",
+		description = "Visit your class trainer when you are at least level 40 and activate your Dual Talent Specialization.",
+		icon = 236544,
+		category = 92,
+		criteria = {-180,9619},
+	},
 	[3356] = {
 		name = "Winterspring Frostsaber",
 		description = "Obtain a Winterspring Frosaber.",
@@ -4873,6 +4880,11 @@ local achievementCategories = {
 L.ACHIEVEMENT_CATEGORY_DATA = achievementCategories;
 
 local achievementCriterias = {
+	[-180] = {
+		name = "Level up to 40.",
+		amount = 40,
+		type = 5,
+	},
 	[-175] = {
 		name = "Obtain 25 mounts",
 		amount = 25,
@@ -10339,6 +10351,12 @@ local achievementCriterias = {
 		amount = 550,
 		type = 11,
 		asset = 133,
+	},
+	[9619] = {
+		name = "Learn a Second Talent Specialization.",
+		amount = 1,
+		type = 69,
+		asset = 63624,
 	},
 	[10738] = {
 		name = nil,

@@ -191,9 +191,9 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 		},
 		["classes"] = { PALADIN },
 	}),
-	applyclassicphase(WRATH_PHASE_ONE, ach(16, {		-- Did Somebody Order a Knuckle Sandwich?
-		["timeline"] = { ADDED_3_0_2, REMOVED_4_0_1 },
-	})),
+	ach(16, {		-- Did Somebody Order a Knuckle Sandwich?
+		["timeline"] = { REMOVED_4_0_1 },
+	}),
 	ach(2716, {		-- Dual Talent Specialization
 		["timeline"] = { REMOVED_7_0_3 },
 	}),

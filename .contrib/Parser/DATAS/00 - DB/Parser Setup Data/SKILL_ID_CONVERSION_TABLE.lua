@@ -321,6 +321,28 @@ ExportDB.SkillDB = {
 		[554] = 10906,	-- Undead Horsemanship
 		[149] = 825,	-- Wolf Riding
 		-- #endif
+		
+		-- #if ANYCLASSIC
+		-- Weapon Proficiencies
+		[95] = 204,		-- Defense
+		[118] = 674,	-- Dual Wield
+		[162] = 203,	-- Unarmed
+		[45] = 264,		-- Bows
+		[226] = 5011,	-- Crossbows
+		[173] = 1180,	-- Daggers
+		[44] = 196,		-- One-Handed Axes
+		[54] = 198,		-- One-Handed Maces
+		[43] = 201,		-- One-Handed Swords
+		[229] = 200,	-- Polearms
+		[136] = 227,	-- Staves
+		[176] = 2567,	-- Thrown
+		[172] = 197,	-- Two-Handed Axes
+		[160] = 199,	-- Two-Handed Maces
+		[55] = 202,		-- Two-Handed Swords
+		[228] = 5009,	-- Wands
+		[473] = 15590,	-- Fist Weapons
+		[46] = 266,		-- Guns
+		-- #endif
 	},
 	-- Skills with possible Specializations
 	Specializations = {

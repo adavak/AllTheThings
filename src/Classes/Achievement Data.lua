@@ -322,6 +322,28 @@ local ForSkillCountFields = {	-- Type 75
 		return GetRelatedThingsForSkillID[t.asset];
 	end
 };
+local ForSkillLevelFields = {	-- Type 7
+	["collectible"] = app.ReturnTrue,
+	["collected"] = function(t)
+		return t.current >= t.total;
+	end,
+	["current"] = function(t)
+		local skill = app.CurrentCharacter.ActiveSkills[t.spellID];
+		if skill then return skill[1]; end
+		return 0;
+	end,
+	["name"] = function(t)
+		local spellID = t.spellID;
+		return spellID and GetSpellName(spellID);
+	end,
+	["total"] = function(t) return t.amount; end,
+	["spellID"] = function(t)
+		return app.SkillDB.SkillToSpell[t.asset];
+	end,
+	["GetRelatedThings"] = function(t)
+		return GetRelatedThingsForSkillRanks;
+	end
+};
 local ForSkillRankFields = {	-- Type 40
 	["collectible"] = app.ReturnTrue,
 	["collected"] = function(t)
@@ -440,6 +462,7 @@ local CreateCriteriaType = app.CreateClass("CriteriaType", "__criteriaUID", {
 },
 "ForBrokenTypes", ForBrokenTypesFields, function(t) return t.type == 11 or t.type == 0 or t.type == 74; end,	-- 74 appears to be if someone has a title, but no id is provided.
 "ForBankSlots", DefaultCriteriaFields, function(t) return t.type == 45; end,
+"ForSkillLevel", ForSkillLevelFields, function(t) return t.type == 7; end,
 "ForSkillRank", ForSkillRankFields, function(t) return t.type == 40; end,
 "ForSkillCount", ForSkillCountFields, function(t) return t.type == 75; end,
 "ForSubAchievement", ForSubAchievementFields, function(t) return t.type == 8; end,
