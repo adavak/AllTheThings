@@ -346,7 +346,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(242287),	-- Arcano Cutlets
 		i(242298),	-- Argentleaf Tea
 		i(242301),	-- Azeroot Tea
-		i(242296),	-- Bloodthistle-wrapped Cutlets
+		i(242296),	-- Bloodthistle-Wrapped Cutlets
 		i(242302),	-- Bloom Skewers
 		i(242273),	-- Blooming Feast
 		i(242276),	-- Braised Blood Hunter
@@ -361,6 +361,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(242306),	-- Forager's Medley
 		i(242291),	-- Fried Bloomtail
 		i(242281),	-- Glitter Skewers
+		i(255846),	-- Harandar Celebration
 		i(242295),	-- Hearthflame Supper
 		i(242759),	-- Hearty Arcano Cutlets
 		i(242768),	-- Hearty Bloodthistle-Wrapped Cutlets
@@ -375,11 +376,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(228721),	-- Hearty Feast
 		i(242758),	-- Hearty Fel-Kissed Filet
 		i(242766),	-- Hearty Felberry Figs
-		i(267000),	-- Hearty Flora Frenzy
+		i(268680),	-- Hearty Flora Frenzy
 		i(222693),	-- Hearty Food
 		i(242773),	-- Hearty Forager's Medley
 		i(242763),	-- Hearty Fried Bloomtail
 		i(242753),	-- Hearty Glitter Skewers
+		i(266996),	-- Hearty Harandar Celebration
 		i(242767),	-- Hearty Hearthflame Supper
 		i(268679),	-- Hearty Impossibly Royal Roast
 		i(242770),	-- Hearty Mana-Infused Stew
@@ -387,7 +389,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(242775),	-- Hearty Portable Snack
 		i(242744),	-- Hearty Quel'dorei Medley
 		i(242774),	-- Hearty Quick Sandwich
-		i(266996),	-- Hearty Rootland Celebration
 		i(242747),	-- Hearty Royal Roast
 		i(266985),	-- Hearty Silvermoon Parade
 		i(242772),	-- Hearty Silvermoon Standard
@@ -407,7 +408,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(242308),	-- Portable Snack
 		i(242272),	-- Quel'dorei Medley
 		i(242307),	-- Quick Sandwich
-		i(255846),	-- Rootland Celebration
 		i(242275),	-- Royal Roast
 		i(242299),	-- Sanguithorn Tea
 		i(255845),	-- Silvermoon Parade

@@ -276,6 +276,19 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(220424),	-- zzOldFeast of the Divine Day
 				})),
 			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					i(235919),	-- [PH] 12.0 Cooking - Test Food
+					i(242530),	-- [PH] Vegetarian Recipe
+					i(242531),	-- [PH] Vegetarian Recipe
+					i(242532),	-- [PH] Vegetarian Recipe
+					i(242279),	-- Baked Lucky Loa
+					i(267000),	-- Hearty Flora Frenzy
+					i(266986),	-- Hearty Quel'dorei Medley
+					i(242751),	-- Hearty Rootland Surprise
+				})),
+			}),
 		}),
 		filter(RECIPES, {
 			expansion(EXPANSION.CLASSIC, {
@@ -447,6 +460,13 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				-- 11.2.7
 				expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
 					r(1245945),	-- [DNT] TWW Cooking Decor Template
+				})),
+			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					-- Without SpellID attached
+					i(258490),	-- Recipe: Argentleaf Tea
 				})),
 			}),
 		}),

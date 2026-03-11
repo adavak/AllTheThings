@@ -1001,3 +1001,5 @@ i(0, 1226181);		-- Warped Wise Wings
 i(0, 1226186);		-- Wise Tails
 --- ITEM ---
 i(263473, 1259660);	-- Flora Frenzy
+--- NYI ---
+i(258490, 0);		-- Recipe: Argentleaf Tea

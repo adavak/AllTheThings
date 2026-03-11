@@ -84,23 +84,9 @@ root(ROOTS.Unsorted, {
 				i(270443),	-- Wildbloom Haranir Bastion
 				i(270444),	-- Wildbloom Haranir Carver
 			}),
-			n(PROFESSIONS, {
-				-- Cooking
-				i(268680),	-- Hearty Flora Frenzy
-			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(COOKING, {
-					i(235919),	-- [PH] 12.0 Cooking - Test Food
-					i(242530),	-- [PH] Vegetarian Recipe
-					i(242531),	-- [PH] Vegetarian Recipe
-					i(242532),	-- [PH] Vegetarian Recipe
-					i(242279),	-- Baked Lucky Loa
-					i(266986),	-- Hearty Quel'dorei Medley
-					i(242751),	-- Hearty Rootland Surprise
-					i(258490),	-- Recipe: Argentleaf Tea
-				}),
 				prof(ENCHANTING, {
 					i(243434),	-- Enchant Shoulders - Nature's Embrace
 					i(243442),	-- Enchant Shoulders - Voidtouched
