@@ -743,6 +743,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r(1248614),	-- Small Telogrus Lamp
 			r(1261893),	-- Smuggler's Lynxeye
 			r(1229926),	-- W-47CH D0G
+			r(1261913),	-- Weighted Boomshots
 			r(1229928),	-- Wormhole Generator: Quel'Thalas
 		}),
 		n(ARMOR, {

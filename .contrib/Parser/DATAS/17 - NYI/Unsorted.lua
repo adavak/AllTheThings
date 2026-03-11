@@ -87,14 +87,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(ENGINEERING, {
-					i(244705),	-- Mini-Medical Team
-					i(244706),	-- Mini-Medical Team
-					i(244788),	-- [PH] Test Fishing Rod A
-					i(244789),	-- [PH] Test Fishing Rod B
-					i(257733),	-- M0LL1, Atomic Anomaly
-					i(257734),	-- M0LL1, Atomic Anomaly
-				}),
 				prof(FISHING, {
 					i(238498),	-- [PH] Trophy Coin
 					i(241150),	-- Sunwell Fish Lure

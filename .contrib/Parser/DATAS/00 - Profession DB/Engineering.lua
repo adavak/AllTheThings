@@ -1549,4 +1549,11 @@ i(0, 1248616);		-- Ren'dorei Warp Orb
 i(0, 1248614);		-- Small Telogrus Lamp
 i(0, 1261893);		-- Smuggler's Lynxeye
 i(0, 1229926);		-- W-47CH D0G
+i(0, 1261913);		-- Weighted Boomshots
 i(0, 1229928);		-- Wormhole Generator: Quel'Thalas
+--- NYI ---
+i(0, 1261938);		-- M0LL1, Atomic Anomaly
+i(0, 1229918);		-- Unknown
+i(0, 1229925);		-- Unknown
+i(0, 1229929);		-- Unknown
+i(0, 1229934);		-- Spark of Beginnings

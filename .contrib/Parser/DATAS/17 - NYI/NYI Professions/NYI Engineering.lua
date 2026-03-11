@@ -162,6 +162,17 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(221902),	-- Tinker: Overclocked S.E.L.F.I.E. Camera
 				})),
 			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					i(244788),	-- [PH] Test Fishing Rod A
+					i(244789),	-- [PH] Test Fishing Rod B
+					i(257733),	-- M0LL1, Atomic Anomaly
+					i(257734),	-- M0LL1, Atomic Anomaly
+					i(244705),	-- Mini-Medical Team
+					i(244706),	-- Mini-Medical Team
+				})),
+			}),
 		}),
 		filter(RECIPES, {
 			expansion(EXPANSION.CLASSIC, {
@@ -403,6 +414,16 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					r(1246464),	-- [DNT] TWW Engineering Decor Template
 					-- With SpellID attached
 					i(233203),	-- Schematic: Housing Crafting Test Recipe
+				})),
+			}),
+			expansion(EXPANSION.MID, {
+				-- 12.0.0
+				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					r(1261938),	-- M0LL1, Atomic Anomaly
+					r(1229918),	-- Unknown
+					r(1229925),	-- Unknown
+					r(1229929),	-- Unknown
+					r(1229934),	-- Spark of Beginnings
 				})),
 			}),
 		}),
