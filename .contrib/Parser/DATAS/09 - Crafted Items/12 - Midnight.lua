@@ -1991,6 +1991,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(93630, 250826),	-- Skinning Banuran
 			FirstSkin(93631, 250582),	-- Skinning Bloated Snapdragon
 			FirstSkin(95459, 256770),	-- Skinning Bilemaw the Gluttonous
+			FirstSkin(93638, 249844),	-- Skinning Chironex
 			FirstSkin(93633, 255348),	-- Skinning Dame Bloodshed
 			FirstSkin(88545, 245688),	-- Skinning Gloomclaw
 			FirstSkin(95517, 249849),	-- Skinning Ha'kalawe
@@ -2221,6 +2222,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["time
 	n(PROFESSIONS, {
 		prof(TAILORING, {
 			q(89423),	-- 30/30 Arcanoweave Expertise
+		}),
+		prof(SKINNING, {
+			q(88522),	-- 20/40 Thorough Tanning (2nd charge)
 		}),
 	}),
 })));

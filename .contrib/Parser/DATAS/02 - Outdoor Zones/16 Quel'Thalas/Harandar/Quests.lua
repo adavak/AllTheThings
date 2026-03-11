@@ -1423,8 +1423,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(91512, name(HEADERS.Item,262906)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Russula's Outreach'
 				q(91456, name(HEADERS.Item,263196)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Aln'hara's Bloom'
 				--
-				q(94046),	-- Fly directly up into the glowing skybox (achievementID 61860 - From The Cradle to the Grave)
-				q(95146),	-- After accepting 92739 (O.K. Bloomer)
+				q(94046),	-- The Cradle - Boundary Catcher - Caught 03 - Teleport [DNT] (spellID 1266363), fly directly up into the glowing skybox (achievementID 61860 - From The Cradle to the Grave)
+				q(95146),	-- 12.0 Local 13 Q03a Accept Hannan Leaves (JKP) (spellID 1282413), after accepting O.K. Bloomer (questID 92739)
 			}),
 		}),
 	}),

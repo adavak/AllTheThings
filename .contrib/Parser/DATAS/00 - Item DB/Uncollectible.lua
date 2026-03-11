@@ -2638,10 +2638,13 @@ i(260670);	-- Bloody Broken Beak
 i(260261);	-- Bloom Nectar
 i(260270);	-- Bog Legs
 i(238483);	-- Bottom Grass
+i(265667);	-- Bright Claw
 i(263515);	-- Broken Soulstealing Mirror
 i(266002);	-- Broken Trap Mechanism
 i(260652);	-- Broken Wildfire Claw
+i(265664);	-- Budding Light
 i(244041);	-- Budding Seed
+i(265665);	-- Chanterelle Shandy
 i(260692);	-- Chunk of Mystery Meat
 i(260668);	-- Cloudy Purple Gem
 i(260619);	-- Colorful Leaves
@@ -2676,6 +2679,7 @@ i(260259);	-- Everspring Water
 i(263518);	-- Expensive-Looking Find
 i(260285);	-- Extract of Lightbloom
 i(260262);	-- Fairbreeze Feast
+i(265669);	-- Fermented Rift Water
 i(260672);	-- Fetid Eye
 i(260674);	-- Fine Arcane Dust
 i(260689);	-- Fine Bioluminescent Powder
@@ -2699,6 +2703,7 @@ i(264981);	-- Goldengrove Juice
 i(264973);	-- Goldenmist Gouda
 i(238485);	-- Grotesque Globule
 i(260283);	-- Grotto Gulp
+i(265668);	-- Har'kuai Mai Tai
 i(260657);	-- Holey Organ
 i(238496);	-- Hunk O' Junk
 i(251919);	-- Inscribe: Blood
@@ -2813,4 +2818,5 @@ i(260294);	-- Voidwyrm Absinthe
 i(260645);	-- Water Filled Organ
 i(238491);	-- Whispering Rock
 i(264982);	-- Wine Not
+i(265666);	-- World Root Beer
 i(260287);	-- World Roots Banquet

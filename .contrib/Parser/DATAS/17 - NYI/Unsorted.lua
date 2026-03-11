@@ -403,13 +403,6 @@ root(ROOTS.Unsorted, {
 				i(267236),	-- Boon of Speed
 				i(267242),	-- Boon of Speed
 				i(267243),	-- Boon of Vitality
-				-- alcohol
-				i(265664),	-- Budding Light
-				i(265665),	-- Chanterelle Shandy
-				i(265666),	-- World Root Beer
-				i(265667),	-- Bright Claw
-				i(265668),	-- Har'kuai Mai Tai
-				i(265669),	-- Fermented Rift Water
 				-- Delve
 				i(262964),	-- Death's Hope
 				i(262966),	-- Budget Friendly
