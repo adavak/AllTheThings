@@ -114,7 +114,7 @@ root(ROOTS.Unsorted, {
 
 				i(256136),	-- Professor Instructaur's Brain Pertaining to Midnight
 
-					-- Engi
+				-- Engi
 				i(257733),	-- M0LL1, Atomic Anomaly
 				i(257734),	-- M0LL1, Atomic Anomaly
 				i(257751),	-- Weighted Boomshots
@@ -1000,12 +1000,6 @@ root(ROOTS.Unsorted, {
 				i(266091),	-- Basic Rugged Quiver
 				i(266092),	-- Basic Sea Green Quiver
 				i(266160),	-- Trapper's Green Slippers
-				i(266384),	-- Sanctum Magister's Post
-				i(266386),	-- Sanctum Acolyte's Post
-				i(266387),	-- Sanctum Magister's Pylon
-				i(266388),	-- Sanctum Acolyte's Pylon
-				i(266393),	-- Farstrider's Gilded Bow
-				i(266396),	-- Farstrider's Solemn Bow
 				i(266901),	-- Depthdiver's Cloak
 				i(266902),	-- Depthdiver's Tabard
 				i(266903),	-- Depthdiver's Shoulderpads

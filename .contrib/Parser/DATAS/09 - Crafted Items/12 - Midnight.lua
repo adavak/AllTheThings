@@ -959,6 +959,26 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		}),
 	}),
 	prof(FISHING, {
+		filter(BATTLE_PETS, {
+			i(260942),	-- Bubbly Snapling (PET!)
+		}),
+		filter(COSMETIC, {
+			i(266393),	-- Farstrider's Gilded Bow (COSMETIC!)
+			i(266396),	-- Farstrider's Solemn Bow (COSMETIC!)
+			i(260905),	-- Lost Blade of Spacial Descent (COSMETIC!)
+			i(260898),	-- Lost Cerulean Edge (COSMETIC!)
+			i(260908),	-- Lost Frostwolf's Stand (COSMETIC!)
+			i(260904),	-- Lost Soul Collector (COSMETIC!)
+			i(260901),	-- Lost Stave of Burrowing Contortion (COSMETIC!)
+			i(260902),	-- Lost Sunset Scepter (COSMETIC!)
+			i(260903),	-- Lost Sunwell Splitter (COSMETIC!)
+			i(260900),	-- Lost Thunder Fist (COSMETIC!)
+			i(260907),	-- Lost Winter's Hunger (COSMETIC!)
+			i(266386),	-- Sanctum Acolyte's Post (COSMETIC!)
+			i(266388),	-- Sanctum Acolyte's Pylon (COSMETIC!)
+			i(266384),	-- Sanctum Magister's Post (COSMETIC!)
+			i(266387),	-- Sanctum Magister's Pylon (COSMETIC!)
+		}),
 		n(DISCOVERY, {
 			r(1225274),	-- Blood Hunter
 			r(1225266),	-- Bloomtail Minnow
@@ -978,9 +998,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r(1225280),	-- Twisted Tetra
 			r(1225279),	-- Warping Wise
 			r(1225282),	-- Wyrmfish
-		}),
-		filter(BATTLE_PETS, {
-			i(260942),	-- Bubbly Snapling (PET!)
 		}),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = FISHING,
@@ -1034,15 +1051,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238381),	-- Hollow Grouper
 		i(263938),	-- Idol of Peril (QS!)
 		i(238376),	-- Lucky Loa
-		i(260905),	-- Lost Blade of Spacial Descent
-		i(260898),	-- Lost Cerulean Edge
-		i(260908),	-- Lost Frostwolf's Stand
-		i(260904),	-- Lost Soul Collector
-		i(260901),	-- Lost Stave of Burrowing Contortion
-		i(260902),	-- Lost Sunset Scepter
-		i(260903),	-- Lost Sunwell Splitter
-		i(260900),	-- Lost Thunder Fist
-		i(260907),	-- Lost Winter's Hunger
 		i(238366),	-- Lynxfish
 		i(268730, {	-- Nether-Warped Egg
 			i(260916),	-- Nether-Swept Drake (MOUNT!)

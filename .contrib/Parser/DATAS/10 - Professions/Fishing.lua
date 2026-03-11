@@ -261,17 +261,19 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		}),
 	})),
 	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
-		ach(9503),	-- Draenor Fisherman
-		ach(9456),	-- Abyssal Gulper Eel Angler
-		ach(9457),	-- Blackwater Whiptail Angler
-		ach(9458),	-- Blind Lake Sturgeon Angler
-		ach(9547, {	-- Everything Is Awesome!
-			["cost"] = {{"i", 118414, 20}},	-- 20x Awesomefish
+		n(ACHIEVEMENTS, {
+			ach(9503),	-- Draenor Fisherman
+			ach(9456),	-- Abyssal Gulper Eel Angler
+			ach(9457),	-- Blackwater Whiptail Angler
+			ach(9458),	-- Blind Lake Sturgeon Angler
+			ach(9547, {	-- Everything Is Awesome!
+				["cost"] = {{"i", 118414, 20}},	-- 20x Awesomefish
+			}),
+			ach(9459),	-- Fat Sleeper Angler
+			ach(9455),	-- Fire Ammonite Angler
+			ach(9460),	-- Jawless Skulker Angler
+			ach(9461),	-- Sea Scorpion Angler
 		}),
-		ach(9459),	-- Fat Sleeper Angler
-		ach(9455),	-- Fire Ammonite Angler
-		ach(9460),	-- Jawless Skulker Angler
-		ach(9461),	-- Sea Scorpion Angler
 	})),
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 		n(ACHIEVEMENTS, {
@@ -759,7 +761,9 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		})),
 	})),
 	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-		ach(14333),	-- Shadowlands Fisherman
+		n(ACHIEVEMENTS, {
+			ach(14333),	-- Shadowlands Fisherman
+		}),
 	})),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 		n(ACHIEVEMENTS, {
@@ -858,22 +862,6 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 			ach(19415, {	-- Algari Fisherman
 				["cost"] = {{"i", 224752, 20}},	-- 20x Soaked Journal Entry
 			}),
-		}),
-		filter(COSMETIC, {
-			i(225759),	-- Coreway Engineer's Forceps (COSMETIC!)
-			i(225762),	-- Coreway Engineer's Screwdriver (COSMETIC!)
-			i(225757),	-- Coreway Pickaxe (COSMETIC!)
-			i(225756),	-- Coreway Shovel (COSMETIC!)
-			i(225755),	-- Coreway Sledgehammer (COSMETIC!)
-			i(225752),	-- Dornogal Defender (COSMETIC!)
-			i(225754),	-- Dornogal Guard's Hammer (COSMETIC!)
-			i(225753),	-- Dornogal Guard's Splitter (COSMETIC!)
-			i(225760),	-- Dornogal Spear (COSMETIC!)
-			i(225884),	-- Extra Large Leek (COSMETIC!)
-			i(225763),	-- Fallen Dalaran Defender (COSMETIC!)
-			i(225758),	-- Hallowfall Harvester's Pitchfork (COSMETIC!)
-			i(225761),	-- Jeweler's Careful Crusher (COSMETIC!)
-			i(226385),	-- Oxidized Wrench	(COSMETIC!)
 		}),
 		filter(MISC, {
 			i(226392, {	-- Careless Dasher's Treasure

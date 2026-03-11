@@ -1383,6 +1383,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 	}),
 	prof(FISHING, {
+		filter(COSMETIC, {
+			i(225759),	-- Coreway Engineer's Forceps (COSMETIC!)
+			i(225762),	-- Coreway Engineer's Screwdriver (COSMETIC!)
+			i(225757),	-- Coreway Pickaxe (COSMETIC!)
+			i(225756),	-- Coreway Shovel (COSMETIC!)
+			i(225755),	-- Coreway Sledgehammer (COSMETIC!)
+			i(225752),	-- Dornogal Defender (COSMETIC!)
+			i(225754),	-- Dornogal Guard's Hammer (COSMETIC!)
+			i(225753),	-- Dornogal Guard's Splitter (COSMETIC!)
+			i(225760),	-- Dornogal Spear (COSMETIC!)
+			i(225884),	-- Extra Large Leek (COSMETIC!)
+			i(225763),	-- Fallen Dalaran Defender (COSMETIC!)
+			i(225758),	-- Hallowfall Harvester's Pitchfork (COSMETIC!)
+			i(225761),	-- Jeweler's Careful Crusher (COSMETIC!)
+			i(226385),	-- Oxidized Wrench	(COSMETIC!)
+		}),
 		n(DISCOVERY, {
 			r(471359, {["timeline"] = {ADDED_11_1_0}}),	-- "Gold" Fish
 			r(456154),	-- Anglerthread
