@@ -48,6 +48,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 						------ Paragon ------
+						q(89032, {	-- Renowned with The Singularity
+							["isRepeatable"] = true,
+							["groups"] = { i(259334) },	-- Overflowing Singularity Trove
+						}),
 					},
 				}))),
 				n(VENDORS, {

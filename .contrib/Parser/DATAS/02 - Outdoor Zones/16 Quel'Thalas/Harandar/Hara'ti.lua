@@ -48,6 +48,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 						------ Paragon ------
+						q(89035, {	-- Renowned with the Hara'ti
+							["isRepeatable"] = true,
+							["groups"] = { i(256055) },	-- Overflowing Hara'ti Trove
+						}),
 					},
 				}))),
 				n(VENDORS, {

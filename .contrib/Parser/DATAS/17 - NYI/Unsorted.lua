@@ -263,15 +263,11 @@ root(ROOTS.Unsorted, {
 				-- Cache?
 				i(251286),	-- Bundle of Petrified Roots
 				i(251287),	-- Generous Bundle of Petrified Roots
-				i(251970),	-- Overflowing Amani Trove
-				i(256055),	-- Overflowing Hara'ti Trove
 				i(256142),	-- [DNT] TEMPLATE - 12.0 Max Level Campaign - Gear Box
 				i(257347),	-- [DNT] [PH] 12.0 Armor Box
-				i(259334),	-- Overflowing Singularity Trove
 				i(262349),	-- Satchel of Compensation
 				i(262635),	-- Cache of Delver's Spoils
 				i(263400),	-- Cache of Delver's Spoils
-				i(263433),	-- Overflowing Silvermoon Trove
 				i(263468),	-- Stormarion Spoils
 				i(264972),	-- Voidstorm Victuals
 				i(264988),	-- Endgame Essentials

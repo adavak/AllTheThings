@@ -56,6 +56,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 						------ Paragon ------
+						q(93811, {	-- Renowned with the Silvermoon Court
+							["isRepeatable"] = true,
+							["groups"] = { i(263433) },	-- Overflowing Silvermoon Trove
+						}),
 					},
 				}))),
 				n(VENDORS, {

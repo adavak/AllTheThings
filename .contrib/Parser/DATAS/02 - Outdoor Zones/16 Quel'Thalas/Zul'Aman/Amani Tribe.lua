@@ -53,6 +53,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
 						------ Paragon ------
+						q(93566, {	-- Renowned with the Amani Tribe
+							["isRepeatable"] = true,
+							["groups"] = { i(251970) },	-- Overflowing Amani Trove
+						}),
 					},
 				}))),
 				n(VENDORS, {
