@@ -1322,6 +1322,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				r(1229601),	-- Sun-Blessed Pickaxe
 				r(1229602),	-- Sun-Blessed Sickle
 				r(1229600),	-- Sun-Blessed Skinning Knife
+				r(1230765),	-- Thalassian Master Repair Hammer
 			}),
 		}),
 		n(TREASURES, {

@@ -1232,9 +1232,11 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 			expansion(EXPANSION.MID, {
 				-- 12.0.0
 				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
+					r(1230770),	-- [DNT] 12.0 Engineering Recipe Spell Template
+					-- With SpellID attached
+					i(265538),	-- Plans: Ornate Crafter's Tongs
 					-- Without SpellID attached
 					i(258520),	-- Plans: Farstrider's Strike
-					i(265538),	-- Plans: Ornate Crafter's Tongs
 				})),
 			}),
 		}),
