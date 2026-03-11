@@ -160,10 +160,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			},
 		}, {
 			q(93744),	-- Unity Against the Void (fire in addition to player choose quest)
+			q(93890),	-- Midnight: Abundance
 			q(93767),	-- Midnight: Arcantina
 			q(94457),	-- Midnight: Battlegrounds
 			q(93909),	-- Midnight: Delves
 			q(93911),	-- Midnight: Dungeons
+			q(93912),	-- Midnight: Raid
+			q(93913),	-- Midnight: World Boss
 			q(93769),	-- Midnight: Housing
 			q(93891),	-- Midnight: Legends of the Haranir
 			q(93910),	-- Midnight: Prey

@@ -55,6 +55,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["provider"] = { "n", 240832 },	-- Lord Saltheril
 					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				}),
+				q(89289, {	-- Favor of the Court
+					["isWeekly"] = true,
+				}),
 			}),
 			-- Blood Knights weekly
 			n(QUESTS, sharedData({

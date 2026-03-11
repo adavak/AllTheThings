@@ -124,9 +124,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["coord"] = { 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN }, -- maybe any zone??
 					}),
-					q(93890, {	-- Midnight: Abundance
-						["coord"] = { 49.0, 64.8, MAP.MIDNIGHT.SILVERMOON_CITY },
-					}),
 					q(94834, {	-- Blessings of Abundance
 						["provider"] = { "i", 265746 },	-- Idol of Abundance (QS!)
 					})
