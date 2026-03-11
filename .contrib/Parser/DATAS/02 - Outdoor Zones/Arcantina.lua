@@ -98,8 +98,9 @@ root(ROOTS.Zones, m(ARCANTINA, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LA
 					o(613535, {	--
 						["questID"] = 92377,
 						["groups"] = {
-							i(250874, {	-- Corrupted Lantern (QI!)
-								--["coord"] = { X, Y, ARCANTINA },
+							o(613535, {	-- Dark Evil Corrupted Chest of Tormented Darkness
+								["coord"] = { 49.9, 53.7, 2557 },	-- Derelict Legion Vessel
+								["groups"] = { i(250874) },	-- Corrupted Lantern (QI!)
 							}),
 						},
 					}),
