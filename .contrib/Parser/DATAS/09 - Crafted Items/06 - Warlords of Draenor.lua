@@ -442,7 +442,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 		i(122347, {["timeline"] = {ADDED_6_1_0}}),	-- Whiptail Fillet
 	}),
 	prof(ENCHANTING, {
-		spell(13262, {	-- Disenchant
+		header(HEADERS.Spell, 13262, {	-- Disenchant
 			i(109693),	-- Draenic Dust
 			i(115504),	-- Fractured Temporal Crystal
 			i(111245),	-- Luminous Shard

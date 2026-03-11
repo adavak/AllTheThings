@@ -217,7 +217,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 		i(186704, {["timeline"] = {ADDED_9_1_0}}),	-- Twilight Tea
 	}),
 	prof(ENCHANTING, {
-		spell(13262, {	-- Disenchant
+		header(HEADERS.Spell, 324750, {	-- Disenchant
 			i(172232),	-- Eternal Crystal
 			i(172231),	-- Sacred Shard
 			i(172230),	-- Soul Dust

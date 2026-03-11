@@ -87,17 +87,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(ENCHANTING, {
-					i(243434),	-- Enchant Shoulders - Nature's Embrace
-					i(243442),	-- Enchant Shoulders - Voidtouched
-					i(243448),	-- Illusory Adornment - Blooming Light
-					i(245934),	-- Shatter Essence
-					i(268032),	-- Conjured Illusory Adornment - Blooming Light
-					i(268033),	-- Conjured Illusory Adornment - Nature's Embrace
-					i(268034),	-- Conjured Illusory Adornment - Voidtouched
-					i(267401),	-- Dawn Shatter
-					i(267393),	-- Radiant Shatter
-				}),
 				prof(ENGINEERING, {
 					i(244705),	-- Mini-Medical Team
 					i(244706),	-- Mini-Medical Team

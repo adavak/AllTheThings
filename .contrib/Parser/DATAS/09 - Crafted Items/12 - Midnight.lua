@@ -436,6 +436,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(243603),	-- Radiant Shard++
 			i(267654),	-- Swirling Arcane Essence
 		}),
+		header(HEADERS.Spell, 1280401, {	-- Dawn Shatter
+			i(267401),	-- Dawn Shatter
+		}),
+		header(HEADERS.Spell, 1280394, {	-- Radiant Shatter
+			i(267393),	-- Radiant Shatter
+		}),
+		header(HEADERS.Spell, 1235731, {	-- Shatter Essence
+			i(245934),	-- Shatter Essence
+		}),
 		n(ARMOR_ENCHANTMENTS, {
 			i(244008),	-- Enchant Boots - Farstrider's Hunt+
 			i(244009),	-- Enchant Boots - Farstrider's Hunt++

@@ -348,7 +348,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 		i(133570),	-- The Hungry Magister
 	}),
 	prof(ENCHANTING, {
-		spell(13262, {	-- Disenchant
+		header(HEADERS.Spell, 13262, {	-- Disenchant
 			i(124440),	-- Arkhana
 			i(124442),	-- Chaos Crystal
 			i(124441),	-- Leylight Shard

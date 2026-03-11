@@ -642,7 +642,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 	}),
 	prof(ENCHANTING, {
-		spell(455970, {	-- Disenchant
+		header(HEADERS.Spell, 455970, {	-- Disenchant
 			i(219949),	-- Gleaming Shard+
 			i(219950),	-- Gleaming Shard++
 			i(219951),	-- Gleaming Shard+++
@@ -656,8 +656,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(219947),	-- Storm Dust++
 			i(219948),	-- Storm Dust+++
 		}),
-		spell(445466, {	-- Shatter Essence
+		header(HEADERS.Spell, 445466, {	-- Shatter Essence
 			i(220381),	-- Shatter Essence
+		}),
+		header(HEADERS.Spell, 470726, {	-- Gleaming Shatter
+			i(232492),	-- Gleaming Shatter
 		}),
 		n(ARMOR_ENCHANTMENTS, {
 			i(223618),	-- Enchant Boots - Cavalry's March+

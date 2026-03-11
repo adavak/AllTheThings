@@ -500,7 +500,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		i(166343, {["timeline"] = {ADDED_8_1_0}}),	-- Wild Berry Bread
 	}),
 	prof(ENCHANTING, {
-		spell(13262, {	-- Disenchant
+		header(HEADERS.Spell, 302695, {	-- Disenchant
 			i(152875),	-- Gloom Dust
 			i(152876),	-- Umbra Shard
 			i(152877),	-- Veiled Crystal

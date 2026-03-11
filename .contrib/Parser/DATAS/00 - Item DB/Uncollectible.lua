@@ -1572,7 +1572,6 @@ i(201216);	-- Crumbled Elemental Spark
 i(193384);	-- Crumbling Bone
 i(194083);	-- Crushed Stone
 i(201926);	-- Crushing
-i(200647);	-- Crystalline Shatter
 i(192746);	-- Curio of Yore
 i(192651);	-- Damaged Core
 i(200532);	-- Damaged Qiraji Ring
@@ -1599,7 +1598,6 @@ i(192687);	-- Duck Bill
 i(191851);	-- Dull Draconium Weapon Head
 i(192689);	-- Eagle Eye
 i(192614);	-- Elemental Ooze
-i(200648);	-- Elemental Shatter
 i(201467);	-- Emerald Bloom
 i(193849);	-- Emptied Satchel
 i(201195);	-- Empty Herb Pouch
@@ -2198,7 +2196,6 @@ i(228487);	-- Freshly Fallen Sticks
 i(224767);	-- Giant Candle Parts
 i(225677);	-- Gleaming Chaos
 i(225811);	-- Gleaming Deep-Pearl
-i(232492);	-- Gleaming Shatter
 i(227333);	-- Glimmering Delicacy
 i(225831);	-- Glittering Rock
 i(220444);	-- Gnawed Spine

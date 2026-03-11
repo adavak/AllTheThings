@@ -777,6 +777,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		i(197770),	-- Zesty Water
 	}),
 	prof(ENCHANTING, {
+		header(HEADERS.Spell, 392888, {	-- Disenchant
+			i(194123),	-- Chromatic Dust
+			i(200113),	-- Resonant Crystal
+			i(194124),	-- Vibrant Shard
+			i(201360, {	-- Glimmer of Order
+				["cost"] = {{"i",200479,1}},	-- 1x Sophic Amalgamation
+			}),
+		}),
+		header(HEADERS.Spell, 391304, {	-- Elemental Shatter
+			i(200648),	-- Elemental Shatter
+			i(200969),	-- Elemental Shatter: Air
+			i(200984),	-- Elemental Shatter: Earth
+			i(200989),	-- Elemental Shatter: Fire
+			i(200991),	-- Elemental Shatter: Frost
+			i(200994),	-- Elemental Shatter: Order
+		}),
+		header(HEADERS.Spell, 391302, {	-- Crystalline Shatter
+			i(200647),	-- Crystalline Shatter
+		}),
 		n(DISCOVERY, sharedData({
 			["requireSkill"] = ENCHANTING,
 		},{
@@ -828,21 +847,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			itemDropHQT(201357, 71942),	-- Glimmer of Frost Drop
 			itemDropHQT(201360, 71943),	-- Glimmer of Order Drop
 		})),
-		spell(392888, {	-- Disenchant
-			i(194123),	-- Chromatic Dust
-			i(200113),	-- Resonant Crystal
-			i(194124),	-- Vibrant Shard
-			i(201360, {	-- Glimmer of Order
-				["cost"] = {{"i",200479,1}},	-- 1x Sophic Amalgamation
-			}),
-		}),
-		spell(391304, {	-- Elemental Shatter
-			i(200969),	-- Elemental Shatter: Air
-			i(200984),	-- Elemental Shatter: Earth
-			i(200989),	-- Elemental Shatter: Fire
-			i(200991),	-- Elemental Shatter: Frost
-			i(200994),	-- Elemental Shatter: Order
-		}),
 		n(ARMOR_ENCHANTMENTS, {
 			i(199934),	-- Enchant Boots - Plainsrunner's Breeze+
 			i(199976),	-- Enchant Boots - Plainsrunner's Breeze++
