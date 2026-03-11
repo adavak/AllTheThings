@@ -87,6 +87,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 45.4, 70.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["lockCriteria"] = { 1, "lvl", 90 },
 			}),
+			-- PVP 4 part quest
+			q(94835, {	-- Early Morning Training
+				["provider"] = { "n", 256212 },	-- Archmage Aethas Sunreave
+				["coord"] = { 48.9, 64.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["groups"] = { i(267076) },	-- Novice Combatant's Medallion
+			}),
 		}),
 		-- Dungeons
 		n(QUESTS, sharedData({
@@ -99,6 +105,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(93757),	-- Voidscar Arena
 			q(93751),	-- Windrunner Spire
 			q(93753),	-- Magister's Terrace
+			q(93754),	-- Maisara Caverns
 		})),
 		-- Housing
 		n(QUESTS, sharedData({
