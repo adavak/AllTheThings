@@ -25,7 +25,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				{ 56.6, 65.8, MAP.MIDNIGHT.EVERSONG_WOODS },
 				{ 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN },
 				{ 66.0, 61.4, MAP.MIDNIGHT.HARANDAR },
-				--{ X, Y, MAP.MIDNIGHT.VOIDSTORM },
+				{ 38.9, 53.2, MAP.MIDNIGHT.VOIDSTORM },
 			},
 			["groups"] = {
 				n(ACHIEVEMENTS, {
@@ -136,13 +136,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						257633,	-- Chel the Chip <Abundance Vendor>
 						241928,	-- Chel the Chip <Abundance Vendor>
 						248658,	-- Chel the Chip <Abundance Vendor>
-						--XXXXXX,	-- Chel the Chip <Abundance Vendor>
+						257632,	-- Chel the Chip <Abundance Vendor>
 					},
 					["coords"] = {
 						{ 56.6, 65.8, MAP.MIDNIGHT.EVERSONG_WOODS },
 						{ 31.6, 26.7, MAP.MIDNIGHT.ZULAMAN },
 						{ 66.0, 61.4, MAP.MIDNIGHT.HARANDAR },
-						--{ X, Y, MAP.MIDNIGHT.VOIDSTORM },
+						{ 38.9, 53.2, MAP.MIDNIGHT.VOIDSTORM },
 					},
 					["groups"] = {
 						i(265746, {	-- Idol of Abundance (QS!)
@@ -267,15 +267,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		n(ABUNDANCE, {
 			n(QUESTS, {
 				q(91302),	-- Abundance: Abundant Grove
-
 				q(91475),	-- Abundance: Abundant Voidburrow
+				q(87350),	-- Abundance: Loaknit Den
+				q(91457),	-- Abundance: Watha'nan Crypts
 
 				q(88770),	-- Popped after entering Loaknit Den
-				q(87350),	-- Abundance: Loaknit Den
 				q(94426),	-- Popped after Loaknit Den
-
 				q(91432),	-- Popped after entering Wath'nan Crypts
-				q(91457),	-- Abundance: Watha'nan Crypts
+
+				q(94952),	-- Accepted 'Abudant Offerings' (questID 89507)
 			}),
 		}),
 	}),
