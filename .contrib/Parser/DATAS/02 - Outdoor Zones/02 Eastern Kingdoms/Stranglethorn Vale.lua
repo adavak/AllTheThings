@@ -767,10 +767,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(626, {	-- Cortello's Riddle (3/3)
 					["sourceQuest"] = 625,	-- Cortello's Riddle (2/3)
-					["provider"] = { "o", 2555 },	-- Musty Scroll
-					["coord"] = { 31.1, 66.1, DUSTWALLOW_MARSH },
+					["providers"] = {
+						{ "o", 2555 },	-- Musty Scroll
+						{ "o", 2556 },	-- Cortello's Treasure
+					},
+					["coords"] = {
+						{ 31.1, 66.1, DUSTWALLOW_MARSH },
+						{ 80.8, 46.8, THE_HINTERLANDS },
+					},
 					["timeline"] = { REMOVED_4_0_3 },
-					["maps"] = { THE_HINTERLANDS },
 					["lvl"] = 35,
 					["groups"] = {
 						i(11324, {	-- Explorer's Knapsack

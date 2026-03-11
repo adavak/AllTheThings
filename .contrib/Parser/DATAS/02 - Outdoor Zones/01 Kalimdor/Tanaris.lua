@@ -1800,9 +1800,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						objective(1, {	-- 0/30 Gahz'ridian Ornament
 							["providers"] = {
 								{ "i",   8443 },	-- Gahz'ridian Ornament
-								{ "i",   9978 },	-- Gahz'ridian Detector
 								{ "o", 140971 },	-- Gahz'ridian
 							},
+						}),
+						i(9978, {	-- Gahz'ridian Detector
+							["timeline"] = { REMOVED_4_0_3 },
 						}),
 						i(10827, {	-- Surveyor's Tunic
 							["timeline"] = { REMOVED_4_0_3 },
