@@ -20,11 +20,7 @@ local AccountWideQuestsDB = {
 	-- PUT NEW QUESTIDS HERE vv IF YOU DONT WANT TO CHECK WHERE YOU ARE PUTTING IT
 	------------------------------------------------------------------------------
 
-	93872,	-- Prey Complete - Normal #1
-	93873,	-- ??
-	93874,	-- Prey Complete - Hard #2
-	93875,	-- ??
-	93965,	-- Pet Wranglin'
+
 
 
 	------------------------------------------------------------------------------
@@ -2200,6 +2196,7 @@ local AccountWideQuestsDB = {
 	90776,	-- Ancient Curiosity: Combat
 	90778,	-- Ancient Curiosity: Utility
 	90783,
+	90806,	-- Criteria: Midnight campaign
 	90815,	-- ??
 	90816,
 	90839,	-- Sturdy Chest
@@ -2352,6 +2349,7 @@ local AccountWideQuestsDB = {
 	92681,	-- Ensemble: Zealous Felslingers Battle Armor
 	92710,  -- Hesta Forlath Paintings Unlock
 	92733,	-- Triggered after entering house
+	92758,	-- Criteria: Buddy System
 	92857,	-- Ta'readon's Mount Voucher
 	92861,	-- Ensemble: Eredath Lightseeker's Regalia
 	92862,	-- Ensemble: Forgotten Conservatory Clothes
@@ -2462,6 +2460,16 @@ local AccountWideQuestsDB = {
 	93152,	-- Decor Treasure Hunt
 	93154,	-- Ensemble: Sargerei Commander's Voidscarred Regalia
 	93200,	-- A Handful of Voidlight Marl (Silvermoon Court)
+	93475,	-- Echoes of Our Past--Part 1: Fading History
+	93556,	-- Ancient Runestone
+	93557,	-- Derelict Mural
+	93872,	-- Prey Complete - Normal #1
+	93873,	-- ??
+	93874,	-- Prey Complete - Hard #2
+	93875,	-- ??
+	93943,	-- Ancient Curiosity: Combat
+	93945,	-- Ancient Curiosity: Utility
+	93965,	-- Pet Wranglin'
 	94210,	-- Feathering the Nest
 	94377,	-- Warden's Companion
 	94378,	-- Duskytooth Fel Snooter
@@ -2470,6 +2478,16 @@ local AccountWideQuestsDB = {
 	94416,	-- Rehoming Technology
 	94455,	-- Home at Last
 	94469,	-- A Handful of Voidlight Marl (The Singularity)
+	94685,	-- Bloated Snapdragon weekly reputation
+	94687,	-- Coralfang weekly reputation
+	94692,	-- Banuran weekly reputation
+	94694,	-- Duskburn weekly reputation
+	94708,	-- Depthborn Eelamental weekly reputation
+	94710,	-- Ash'an the Empowered weekly reputation
+	94713,	-- Chionex weekly reputation
+	94721,	-- Dracaena weekly reputation
+	94751,	-- Aeonelle Blackstar weekly reputation
+	94753,	-- Blackcore weekly reputation
 	94995,	-- To Dye For
 	95166,	-- Pet the Dog (245551)
 
