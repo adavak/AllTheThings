@@ -671,8 +671,26 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	})),
 	-- #endif
 	n(DECOR, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1 } }, {
+		i(260727),	-- Alliance Doormat (DECOR!)
 		i(263052),	-- Beloved Lion Plushie (DECOR!)
 		i(263053),	-- Beloved Wolf Plushie (DECOR!)
+		i(250795),	-- Colorful Dotted Egg (DECOR!)
+		i(250794),	-- Colorful Shroomic Egg (DECOR!)
+		i(250796),	-- Colorful Striped Egg (DECOR!)
+		i(260728),	-- Horde Doormat (DECOR!)
+		i(253546),	-- Lush Garden Butterfly Sconce (DECOR!)
+		i(252419),	-- Lush Garden Fungal Basin (DECOR!)
+		i(258567),	-- Lush Garden Fungal Chair (DECOR!)
+		i(258888),	-- Lush Garden Fungal Fountain (DECOR!)
+		i(258294),	-- Lush Garden Gnome-Like Statue (DECOR!)
+		i(250793),	-- Lush Garden Trellis (DECOR!)
+		i(250797),	-- Spring Blossom Ceiling Light (DECOR!)
+		i(258569),	-- Spring Blossom Gazebo (DECOR!)
+		i(254417),	-- Spring Blossom Hanging Chair (DECOR!)
+		i(250798),	-- Spring Blossom Shelf (DECOR!)
+		i(263290),	-- Spring Blossom Tree (DECOR!)
+		i(258568),	-- Spring Blossom Window (DECOR!)
+		i(253547),	-- Spring Blossom Wreath (DECOR!)
 	})),
 	filter(MOUNTS, {	-- AVAILABLE --
 		-- #if ANYCLASSIC

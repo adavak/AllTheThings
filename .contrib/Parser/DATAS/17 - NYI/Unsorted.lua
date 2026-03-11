@@ -30,17 +30,6 @@ root(ROOTS.Unsorted, {
 				i(265653),	-- Elegant Storage Table
 				i(265654),	-- Elegant Elven Washbasin
 				i(266130),	-- Gilded Silvermoon Gazebo
-				i(250793),	-- Lush Garden Trellis
-				i(250794),	-- Colorful White Noblegarden Egg
-				i(250795),	-- Colorful Blue Noblegarden Egg
-				i(250796),	-- Colorful Purple Noblegarden Egg
-				i(252419),	-- Lush Garden Fungal Basin
-				i(253546),	-- Lush Garden Butterfly Sconce
-				i(253547),	-- Spring Blossom Wreath
-				i(254417),	-- Spring Blossom Hanging Chair
-				i(258294),	-- Lush Garden Gnome-Like Statue
-				i(258567),	-- Lush Garden Fungal Chair
-				i(258888),	-- Lush Garden Fungal Fountain
 				i(259354),	-- Brown Paper Sack
 			}),
 			filter(MISC, {
@@ -922,8 +911,6 @@ root(ROOTS.Unsorted, {
 				i(246458),	-- Grand Aethercharged Crystal
 				i(251914),	-- Sumptuous Berry Pie (DECOR!)
 				--
-				i(260727),	-- Alliance Doormat
-				i(260728),	-- Horde Doormat
 				i(263239),	-- Cuddly Tan Grrgle \\ Cuddly  Tan Grrgle
 				i(263241),	-- Cuddly Seafoam Grrgle
 				i(263242),	-- Cuddly Saffron Grrgle
@@ -984,8 +971,6 @@ root(ROOTS.Unsorted, {
 				i(265553),	-- Cuddly Ochre Grrgle
 				i(266064),	-- Elegant Cushioned Chaise
 				i(259217),	-- Ambient Aethercharged Crystal (DECOR!)
-				i(250797),	-- Spring Blossom Ceiling Light
-				i(250798),	-- Spring Blossom Shelf
 				i(250868),	-- Crimson Crystal Column
 				i(250869),	-- Crimson Crystal Core
 				i(250870),	-- Crimson Crystal Fragment
@@ -993,9 +978,6 @@ root(ROOTS.Unsorted, {
 				i(258536),	-- Windmark Tribal Charm
 				i(258537),	-- Amani Dreamer's Charm
 				i(258538),	-- Barebone Rope Charm
-				i(258568),	-- Spring Blossom Window
-				i(258569),	-- Spring Blossom Gazebo
-				i(263290),	-- Spring Blossom Tree
 				i(263291),	-- Spring Blossom Pond
 				i(264252),	-- Zul'Aman Forest Hammock
 				i(264500),	-- Devouring Host Ritual Engine (DECOR!)
