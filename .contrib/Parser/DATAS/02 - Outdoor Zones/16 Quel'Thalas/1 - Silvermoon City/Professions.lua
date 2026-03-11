@@ -384,20 +384,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 			}),
-			--[[
 			prof(FISHING, {
-				n(219106, {	-- Drokar <Fishing Trainer>
-					["coord"] = { 50.5, 26.8, DORNOGAL },
-					["groups"] = TWW_FISHING,
+				n(253468, {	-- Drathen <Fishing Trainer>
+					["coord"] = { 44.8, 60.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["groups"] = MID_FISHING,
 				}),
-				n(219105, {	-- Hinodin <Fishing Supplies>
-					["coord"] = { 50.6, 26.8, DORNOGAL },
+				n(257539, {	-- Olirea <Fishing Supplies>
+					["coord"] = { 45.0, 59.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
 						i(228954),	-- Angler's Guide [Find Fish] (RECIPE!)
 					},
 				}),
 			}),
-			--]]
 			prof(HERBALISM, {
 				n(243355, {	-- Botanist Nathera <Herbalism Trainer>
 					["coord"] = { 48.3, 51.4, MAP.MIDNIGHT.SILVERMOON_CITY },

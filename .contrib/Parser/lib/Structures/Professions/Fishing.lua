@@ -154,3 +154,10 @@ TWW_FISHING = bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	r(471365, {["timeline"] = {ADDED_11_1_0}}),	-- Undermine
 	r(456150),	-- What is an Algari Weaverline?
 });
+MID_FISHING = bubbleDown({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
+	r(471008),	-- Midnight Fishing
+	r(1225322),	-- Eversong Woods
+	r(1225340),	-- Midnight Anglin'
+	r(1265725),	-- Perception
+	r(1265717),	-- Skill
+});

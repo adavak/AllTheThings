@@ -87,16 +87,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(FISHING, {
-					i(238498),	-- [PH] Trophy Coin
-					i(241150),	-- Sunwell Fish Lure
-					i(241151),	-- Rootland Crab Lure
-					i(243248),	-- Anomaly Filament
-					i(244818),	-- Recipe: Rootland Crab Lure
-					i(262651),	-- Pointed Spikesnail
-					i(258511),	-- Recipe: Sunwell Fish Lure
-					i(262650),	-- Writhing Wiggleworm
-				}),
 				prof(HERBALISM, {
 					i(237498),	-- Glowing Resilient Seed
 					i(237499),	-- Wild Resilient Seed

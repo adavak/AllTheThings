@@ -197,34 +197,36 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		}),
 	}))),
 	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
-		ach(4917),	-- Cataclysmic Fisherman
-		ach(5851, {	-- Gone Fishin' (A)
-			["timeline"] = { ADDED_4_2_0 },
-			-- #if BEFORE 5.0.4
-			["races"] = ALLIANCE_ONLY,
-			-- #endif
-			["sym"] = {{"meta_achievement",
-				5848,	-- Fish or Cut Bait: Darnassus
-				5847,	-- Fish or Cut Bait: Ironforge
-				5476,	-- Fish or Cut Bait: Stormwind
-				-- #if AFTER 5.0.4
-				5477,	-- Fish or Cut Bait: Orgrimmar
-				5850,	-- Fish or Cut Bait: Undercity
-				5849,	-- Fish or Cut Bait: Thunder Bluff
+		n(ACHIEVEMENTS, {
+			ach(4917),	-- Cataclysmic Fisherman
+			ach(5851, {	-- Gone Fishin' (A)
+				["timeline"] = { ADDED_4_2_0 },
+				-- #if BEFORE 5.0.4
+				["races"] = ALLIANCE_ONLY,
 				-- #endif
-			}},
+				["sym"] = {{"meta_achievement",
+					5848,	-- Fish or Cut Bait: Darnassus
+					5847,	-- Fish or Cut Bait: Ironforge
+					5476,	-- Fish or Cut Bait: Stormwind
+					-- #if AFTER 5.0.4
+					5477,	-- Fish or Cut Bait: Orgrimmar
+					5850,	-- Fish or Cut Bait: Undercity
+					5849,	-- Fish or Cut Bait: Thunder Bluff
+					-- #endif
+				}},
+			}),
+			-- #if BEFORE 5.0.4
+			ach(5852, {	-- Gone Fishin' (H)
+				["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
+				["races"] = HORDE_ONLY,
+				["sym"] = {{"meta_achievement",
+					5850,	-- Fish or Cut Bait: Undercity
+					5849,	-- Fish or Cut Bait: Thunder Bluff
+					5477,	-- Fish or Cut Bait: Orgrimmar
+				}},
+			}),
+			-- #endif
 		}),
-		-- #if BEFORE 5.0.4
-		ach(5852, {	-- Gone Fishin' (H)
-			["timeline"] = { ADDED_4_2_0, REMOVED_5_0_4 },
-			["races"] = HORDE_ONLY,
-			["sym"] = {{"meta_achievement",
-				5850,	-- Fish or Cut Bait: Undercity
-				5849,	-- Fish or Cut Bait: Thunder Bluff
-				5477,	-- Fish or Cut Bait: Orgrimmar
-			}},
-		}),
-		-- #endif
 		container(67414, {	-- Bag of Shiny Things
 			["description"] = "Fishing Daily Quest Reward",
 			["timeline"] = { ADDED_4_0_1 },
@@ -877,6 +879,13 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["timeline"] = { ADDED_12_0_1_LAUNCH },
 				["groups"] = { i(264002) },	-- Midnight Fisher's Shop Sign (DECOR!)
 			}),
+		}),
+		filter(RECIPES, {
+			i(244791),	-- Recipe: Amani Angler's Ward
+			i(244817),	-- Recipe: Blood Hunter Lure
+			i(244816),	-- Recipe: Lucky Loa Lure
+			i(244815),	-- Recipe: Ominous Octopus Lure
+			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
 		}),
 		n(TREASURES, {
 			o(540505, {	-- Patient Treasure

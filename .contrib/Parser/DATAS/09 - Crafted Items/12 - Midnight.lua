@@ -998,19 +998,24 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r(1225283),	-- Eversong Trout
 			r(1225276),	-- Fungalskin Pike
 			r(1225275),	-- Gore Guppy
+			r(1225337),	-- Harandar
 			r(1225267),	-- Hollow Grouper
 			r(1225284),	-- Lucky Loa
 			r(1225270),	-- Lynxfish
 			r(1225268),	-- Null Voidfish
+			r(1225273),	-- Ominous Octopus
 			r(1225277),	-- Restored Songfish
 			r(1225269),	-- Root Crab
 			r(1225271),	-- Shimmersiren
 			r(1225272),	-- Shimmer Spinefish
 			r(1225245),	-- Sin'dorei Swarmer
 			r(1225278),	-- Sunwell Fish
+			r(1225281),	-- Tender Lumifin
 			r(1225280),	-- Twisted Tetra
+			r(1225336),	-- Voidstorm
 			r(1225279),	-- Warping Wise
 			r(1225282),	-- Wyrmfish
+			r(1225335),	-- Zul'Aman
 		}),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = FISHING,
@@ -1036,20 +1041,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(88616, 1225279),	-- Warping Wise
 			FirstCraft(88608, 1225282),	-- Wyrmfish
 		})),
-		filter(RECIPES, {
-			i(244791),	-- Recipe: Amani Angler's Ward
-			i(244817),	-- Recipe: Blood Hunter Lure
-			i(244816),	-- Recipe: Lucky Loa Lure
-			i(244815),	-- Recipe: Ominous Octopus Lure
-			i(258511),	-- Recipe: Sunwell Fish Lure
-			i(267395),	-- Technique: Homely Wall Shelves (RECIPE!)
-		}),
 		i(238490, {	-- Ambiguous Rock
 			i(266102),	-- Ambiguous Rock
 		}),
 		i(241148),	-- Amani Angler's Ward
 		i(262649),	-- An Angler's Deep Dive
-		i(243343),	-- Angler's Anomaly
+		i(243248, {	-- Anomaly Filament
+			i(243343),	-- Angler's Anomaly
+		}),
 		i(238494),	-- Another's Treasure
 		i(238371),	-- Arcane Wyrmfish
 		i(243302),	-- Aquarius Bloom
