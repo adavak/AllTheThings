@@ -942,9 +942,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		q(93866),	-- Die in a delve, trigger mail with A Grave Concern
 		q(92887),	-- Invaded by Nullaeus
 
-		-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
-		--q(93275, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st (could be wrong and it is rep lockout for Unity Against the Void?)
-
 		-- Weekly summon boss questID
 		--hqt(86371, {	--	// automated/use TWW questID?
 		--	["name"] = "Seasonal delve map lockout"

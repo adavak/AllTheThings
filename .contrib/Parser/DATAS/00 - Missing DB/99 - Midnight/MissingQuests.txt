@@ -2342,7 +2342,6 @@ q(93868),	--
 q(93873),	--
 q(93890),	-- BETA:Midnight: Abundance
 q(93891),	-- BETA:Midnight: Legends of the Haranir
-q(93909),	-- BETA:Midnight: Delves
 q(93912),	-- BETA:Midnight: Raid
 q(93913),	-- BETA:Midnight: World Boss
 q(93915),	--

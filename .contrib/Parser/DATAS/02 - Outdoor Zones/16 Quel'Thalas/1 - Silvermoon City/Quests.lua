@@ -162,6 +162,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(93744),	-- Unity Against the Void (fire in addition to player choose quest)
 			q(93767),	-- Midnight: Arcantina
 			q(94457),	-- Midnight: Battlegrounds
+			q(93909),	-- Midnight: Delves
 			q(93911),	-- Midnight: Dungeons
 			q(93769),	-- Midnight: Housing
 			q(93891),	-- Midnight: Legends of the Haranir
@@ -177,8 +178,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		m(MAP.MIDNIGHT.SILVERMOON_CITY, {
 			n(QUESTS, {
 				q(93067),	-- "Stay a while and listen" objectID 551501 (In Memoriam) @ 35.2, 70.3
-				q(93275),	-- after turn in Unity Against the Void weekly quest. Could also be spark lockout, idk.
-				q(93789),	-- Apex Cache (season 1) was opened / bpnus roll for something?
+				q(93275, name(HEADERS.Item,232875,{["isWeekly"]=true})),	-- Weekly lockout for Spark of Radiance
+				q(93789),	-- Apex Cache (season 1) was opened / bonus roll for something?
 				q(94419, {["timeline"]={ADDED_12_0_X_SEASONSTART,REMOVED_12_1_0}}),	-- player recieve 10x Veteran Dawncrest during questID 94418 (Crest Transmutation)
 				q(94410),	-- After turning in Unity Against the Void? Spark lockout?
 			}),
