@@ -579,6 +579,8 @@ local HookableTooltips = {
 	["NotGameTooltip01"]=1,
 	["NotGameTooltip012"]=1,
 	["NotGameTooltip0123"]=1,
+	-- WorldQuestList
+	WQLTooltip = 1,
 };
 
 -- Shared Tooltip Functions
