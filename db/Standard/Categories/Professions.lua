@@ -2516,7 +2516,8 @@ r(1229604,{cost={{"c",3151,1}},learnedAt=90,requireSkill=164,skillID=2907}),
 r(1229605,{cost={{"c",3151,1}},learnedAt=90,requireSkill=164,skillID=2907}),
 r(1229601,{cost={{"c",3151,1}},learnedAt=90,requireSkill=164,skillID=2907}),
 r(1229602,{cost={{"c",3151,1}},learnedAt=90,requireSkill=164,skillID=2907}),
-r(1229600,{cost={{"c",3151,1}},learnedAt=90,requireSkill=164,skillID=2907})}}),
+r(1229600,{cost={{"c",3151,1}},learnedAt=90,requireSkill=164,skillID=2907}),
+r(1230765,{cost={{"c",3151,1}},learnedAt=50,requireSkill=164,skillID=2907})}}),
 h(-56,{requireSkill=164,g={
 o(525959,{coords={
 [2536]={{33.2,65.9}}},questID=89179,requireSkill=164,g={
@@ -4338,8 +4339,9 @@ crit(845,{achID=1516,id=2})}}),
 ach(1517,{maps={114,115,116,117,119,127},requireSkill=356,g={
 crit(5690,{achID=1516,id=12})}})}}),
 x(4,{requireSkill=356,g={
-ach(4917,{awp=40003,requireSkill=356}),
-ach(5851,{awp=40200,requireSkill=356}),
+h(-12,{awp=40003,requireSkill=356,g={
+ach(4917,{requireSkill=356}),
+ach(5851,{awp=40200,requireSkill=356})}}),
 ah(67414,{awp=40001,description="Fishing Daily Quest Reward",providers={{"i",67414},{"i",112623}},requireSkill=356,type="i",g={
 p(211,{awp=40003,b=1,itemID=44983,npcID=33226,requireSkill=356,spellID=62561}),
 s(15661,33820,{awp=40003,b=1,f=4,requireSkill=356,spellID=7823}),
@@ -4366,6 +4368,7 @@ crit(21985,{achID=7611,id=11,providers={{"i",86544}}})}})}}),
 h(-45,{requireSkill=356,g={
 i(97981,{awp=50300,b=1,lvl=40,requireSkill=356,rwp=70003,u=2})}})}}),
 x(6,{awp=60003,requireSkill=356,g={
+h(-12,{requireSkill=356,g={
 ach(9503,{requireSkill=356}),
 ach(9456,{cost={{"i",111671,100}},requireSkill=356}),
 ach(9457,{cost={{"i",111670,100}},requireSkill=356}),
@@ -4374,7 +4377,7 @@ ach(9547,{cost={{"i",118414,20}},requireSkill=356}),
 ach(9459,{cost={{"i",111675,100}},requireSkill=356}),
 ach(9455,{cost={{"i",111673,100}},requireSkill=356}),
 ach(9460,{cost={{"i",111676,100}},requireSkill=356}),
-ach(9461,{cost={{"i",111672,100}},requireSkill=356})}}),
+ach(9461,{cost={{"i",111672,100}},requireSkill=356})}})}}),
 x(7,{awp=70003,requireSkill=356,g={
 h(-12,{requireSkill=356,g={
 ach(10594,{requireSkill=356}),
@@ -4543,7 +4546,8 @@ s(80798,139406,{bonusID=1812,f=5,lvl=40,requireSkill=356}),
 s(2726,7188,{f=8,lvl=7,requireSkill=356}),
 s(2725,7187,{f=5,lvl=7})}})}}),
 x(9,{awp=90002,requireSkill=356,g={
-ach(14333,{requireSkill=356})}}),
+h(-12,{requireSkill=356,g={
+ach(14333,{requireSkill=356})}})}}),
 x(10,{awp=100002,requireSkill=356,g={
 h(-12,{requireSkill=356,g={
 ach(16632,{requireSkill=356}),
@@ -4578,21 +4582,6 @@ ach(40490,{cost={{"i",225771,80}},requireSkill=356}),
 ach(40491,{cost={{"i",225771,90}},requireSkill=356}),
 ach(40492,{cost={{"i",225771,100}},requireSkill=356}),
 ach(19415,{cost={{"i",224752,20}},requireSkill=356})}}),
-flt(2,{requireSkill=356,g={
-s(222805,225759,{f=1,requireSkill=356}),
-s(222808,225762,{f=23,requireSkill=356}),
-s(222803,225757,{f=21,requireSkill=356}),
-s(222802,225756,{f=24,requireSkill=356}),
-s(222801,225755,{f=24,requireSkill=356}),
-s(222798,225752,{f=8,requireSkill=356}),
-s(222800,225754,{f=23,requireSkill=356}),
-s(222799,225753,{f=21,requireSkill=356}),
-s(222806,225760,{f=29,requireSkill=356}),
-s(222830,225884,{f=23,requireSkill=356}),
-s(222809,225763,{f=8,requireSkill=356}),
-s(222804,225758,{f=28,requireSkill=356}),
-s(222807,225761,{f=23,requireSkill=356}),
-s(222975,226385,{f=23,lvl=70,requireSkill=356})}}),
 flt(50,{requireSkill=356,g={
 i(226392,{f=55,requireSkill=356,spellID=458859,g={
 cu(3055,{requireSkill=356})}}),
@@ -4601,6 +4590,12 @@ x(12,{awp=120001,requireSkill=356,g={
 h(-12,{requireSkill=356,g={
 ach(42797,{cost={{"i",254875,2}},requireSkill=356,g={
 de(15407,{itemID=264002,requireSkill=356,spellID=1271033})}})}}),
+flt(200,{requireSkill=356,g={
+r(1226159,{b=1,itemID=244791,requireSkill=356,skillID=2911}),
+r(1235486,{b=1,itemID=244817,requireSkill=356,skillID=2911}),
+r(1226157,{b=1,itemID=244816,requireSkill=356,skillID=2911}),
+r(1226161,{b=1,itemID=244815,requireSkill=356,skillID=2911}),
+r(1248627,{itemID=267395,requireSkill=773,skillID=2913})}}),
 h(-56,{requireSkill=356,g={
 o(540505,{description="Has a chance to spawn nearby while fishing.",maps={2537},requireSkill=356})}})}})}),
 prof(182,{
