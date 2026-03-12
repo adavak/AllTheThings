@@ -7526,7 +7526,18 @@ i(263461,{b=1,requireSkill=393,spellID=1270539})}}),
 q(93710,{coords={
 [2393]={{43.2,55.6}}},isWeekly=1,lvl=78,qgs={243527},requireSkill=393,g={
 i(263461,{b=1,requireSkill=393,spellID=1270539})}})}}),
-flt(200,{description="These are learned by specialization.",requireSkill=393}),
+flt(200,{description="These are learned by specialization.",requireSkill=393,g={
+r(1226037,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225948,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225939,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225943,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225945,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225946,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225944,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225940,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1223388,{cost={{"c",3159,1}},requireSkill=393}),
+r(1225942,{cost={{"c",3159,1}},requireSkill=393,skillID=2917}),
+r(1225941,{cost={{"c",3159,1}},requireSkill=393,skillID=2917})}}),
 h(-56,{requireSkill=393,g={
 o(525891,{coords={
 [2437]={{33.1,79.1}}},questID=89172,requireSkill=393,g={

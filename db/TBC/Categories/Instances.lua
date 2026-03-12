@@ -1437,7 +1437,12 @@ s(133112,22713,{b=1,crs={14507,14509,14510,14515,14517},f=23,lvl=60,q=3,u=14})}}
 prof(356,{u=14,g={
 i(19975,{providers={{"o",180369}},q=1,u=14})}}),
 prof(182,{u=14,g={
-i(19726,{cost={{"i",19727,1}},q=2,u=14})}}),
+i(19726,{cost={{"i",19727,1}},providers={{"o",180164},{"o",180165},{"o",180166},{"o",180167},{"o",180168}},q=2,u=14}),
+o(180168,{learnedAt=270,u=14}),
+o(180167,{learnedAt=260,u=14}),
+o(180166,{learnedAt=280,u=14}),
+o(180165,{learnedAt=210,u=14}),
+o(180164,{learnedAt=230,u=14})}}),
 prof(186,{u=14,g={
 i(19774,{providers={{"o",180215}},q=2,u=14})}}),
 prof(393,{u=14,g={
@@ -2783,7 +2788,10 @@ qo(1,{crs={4809,4810,4811,4812,4813,4814},providers={{"i",5879}}}),
 s(121691,7000,{b=1,f=5,q=2}),
 s(121689,6998,{b=1,f=4,q=2})}})}),
 h(-56,{
-o(19018)}),
+o(19018,{
+s(117748,2143,{f=5,lvl=22,q=1}),
+i(5500,{q=2}),
+i(5504,{q=1})})}),
 n(4887,{rwp=60002,g={
 s(121634,6907,{b=1,f=6,lvl=20,q=3}),
 s(121635,6908,{b=1,f=4,lvl=20,q=3})}}),
@@ -3743,7 +3751,7 @@ q(7492,{coords={
 [1456]={{41.4,54.2}},
 [1458]={{69.2,49.2}}},isBreadcrumb=1,lvl=54,maps={1444},nextQuests={7489},qgs={10879,10880,10881},r=1,rwp=40003,u=1101}),
 q(5527,{coords={
-[1450]={{51.7,45.1}}},lvl=56,maps={1451},qgs={11801},rwp=40003,u=1101,g={
+[1450]={{51.7,45.1}}},description="The character must first visit Dire Maul, so that the Moonglade NPC will offer a conversation that unlocks the quest.",lvl=56,maps={1451},qgs={11801},rwp=40003,u=1101,g={
 qo(1,{coords={
 [1451]={{63.2,55.4}}},providers={{"i",22201},{"o",179565}},u=1101})}}),
 q(5526,{coords={
@@ -5864,7 +5872,8 @@ o(141979,{description="Found in the Hall of the Crafters after you defeat Archae
 o(131474,{description="Talk to the Lore Keeper until he has finished talking and then pick up the quest from The Discs of Norgannon again.",modelScale=3,g={
 i(6064,{q=1})}})}}),
 inst(240,{coords={
-[1413]={{45.9,35.7}}},lore="Recently, a night elf druid named Naralex discovered a network of underground caverns within the heart of the Barrens. Dubbed the 'Wailing Caverns', these natural caves were filled with steam fissures which produced long, mournful wails as they vented. Naralex believed he could use the caverns' underground springs to restore lushness and fertility to the Barrens - but to do so would require siphoning the energies of the fabled Emerald Dream.\n\nOnce connected to the Dream, however, the druid's vision somehow became a nightmare. Soon the Wailing Caverns began to change - the waters turned foul and the once-docile creatures inside metamorphosed into vicious, deadly predators. It is said that Naralex himself still resides somewhere inside the heart of the labyrinth, trapped beyond the edges of the Emerald Dream. Even his former acolytes have been corrupted by their master's waking nightmare - transformed into the wicked Druids of the Fang.",lvl=10,mapID=279,savedInstanceID=43,["zone-text-areaID"]=718,["zone-text-names"]={"The Wailing Caverns","Las Cuevas de los Lamentos"},g={
+[1413]={{45.9,35.7}},
+[1414]={{52,55.2}}},lore="Recently, a night elf druid named Naralex discovered a network of underground caverns within the heart of the Barrens. Dubbed the 'Wailing Caverns', these natural caves were filled with steam fissures which produced long, mournful wails as they vented. Naralex believed he could use the caverns' underground springs to restore lushness and fertility to the Barrens - but to do so would require siphoning the energies of the fabled Emerald Dream.\n\nOnce connected to the Dream, however, the druid's vision somehow became a nightmare. Soon the Wailing Caverns began to change - the waters turned foul and the once-docile creatures inside metamorphosed into vicious, deadly predators. It is said that Naralex himself still resides somewhere inside the heart of the labyrinth, trapped beyond the edges of the Emerald Dream. Even his former acolytes have been corrupted by their master's waking nightmare - transformed into the wicked Druids of the Fang.",lvl=10,mapID=279,savedInstanceID=43,["zone-text-areaID"]=718,["zone-text-names"]={"The Wailing Caverns","Las Cuevas de los Lamentos"},g={
 h(-45,{description="To get to the quest giver hub outside the instance:\n\nWhen facing the mouth of the cave, you should see that the entrance looks like a skull. The questgivers are in the left eye. To get there, climb up the mountain, drop onto the head, drop onto the brow, drop onto the nose, face the instance, and go into the eye on the left",g={
 q(1487,{coords={
 [1413]={{46,35.7}}},lvl=15,qgs={5768},rwp=40003,g={
@@ -6785,6 +6794,20 @@ h(-12,{u=19,g={
 ach(959,{maps={75},minReputation={990,42000},u=19})}}),
 h(-31,{u=19,g={
 faction(990,{maps={75},u=19})}}),
+ah(2575,{type="s",u=19,g={
+o(185557,{awp=20100,learnedAt=375,maps={329},requireSkill=186,u=19,g={
+i(23440,{awp=20001,q=3,u=19}),
+i(23436,{awp=20001,q=3,u=19}),
+i(23441,{awp=20001,q=3,u=19}),
+i(23439,{awp=20001,q=3,u=19}),
+i(23438,{awp=20001,q=3,u=19}),
+i(23437,{awp=20001,q=3,u=19}),
+i(32227,{q=4,u=19}),
+i(32228,{q=4,u=19}),
+i(32229,{q=4,u=19}),
+i(32231,{q=4,u=19}),
+i(32249,{q=4,u=19}),
+i(32230,{q=4,u=19})}})}}),
 h(-45,{u=19,g={
 q(10947,{coords={
 [1948]={{58,48.2}}},minReputation={990,0},qgs={21700},sourceQuests={10946},u=19,g={
@@ -7988,7 +8011,7 @@ q(12513,{coords={
 qo(1,{providers={{"i",38329}},u=17}),
 s(145451,38276,{b=1,f=4,filterForRWP=2,q=1,u=17})}}),
 q(12515,{coords={
-[1446]={{53.9,28.9}}},lvl=66,qgs={28126},races={2,4,5,6,8,10,11,24},u=17,g={
+[1446]={{53.9,28.9}}},lvl=66,qgs={28126},races={2,4,5,6,8,10,11},u=17,g={
 qo(1,{providers={{"i",38329}},u=17}),
 s(145451,38276,{b=1,f=4,filterForRWP=2,q=1,u=17})}}),
 q(10282,{coords={
