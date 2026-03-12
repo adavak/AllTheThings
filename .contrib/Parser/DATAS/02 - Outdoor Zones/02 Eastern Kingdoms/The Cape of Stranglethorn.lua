@@ -2873,6 +2873,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				n(2832, {	-- Nixxrax Fillamug <Food & Drink>
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 40.8, 73.6, THE_CAPE_OF_STRANGLETHORN },
+						-- #else
+						{ 40.8, 73.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
+					["groups"] = {
+						i(4595),	-- Junglevine Wine
+					},
+				}),
 				n(2626, {	-- Old Man Heming <Fisherman>
 					["coord"] = { 41.6, 73.4, THE_CAPE_OF_STRANGLETHORN },
 					["groups"] = {

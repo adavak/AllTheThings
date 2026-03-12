@@ -918,7 +918,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["description"] = "This quest is repeatable, but can only be completed while you have the quest \"Facing Negolash\" in your quest log.",
 							["provider"] = { "o", 2289 },	-- Ruined Lifeboat
 							["timeline"] = { REMOVED_4_0_3 },
-							["cost"] = { { "i", 4457, 10 } },	-- Barbecued Buzzard Wing
+							["cost"] = {
+								{ "i", 4457, 10 },	-- Barbecued Buzzard Wing
+								{ "i", 4595, 5 },	-- Junglevine Wine
+							},
 							["repeatable"] = true,
 							["groups"] = {
 								objective(1, {	-- 0/1 Smotts' Cutlass
@@ -926,11 +929,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["provider"] = { "i", 3935 },	-- Smotts' Cutlass
 									["coord"] = { 32.5, 81.9, STRANGLETHORN_VALE },
 									["cr"] = 1494,	-- Negolash
-								}),
-								objective(2, {	-- 0/5 Junglevine Wine
-									["provider"] = { "i", 4595 },	-- Junglevine Wine
-									["coord"] = { 40.8, 73.6, STRANGLETHORN_VALE },
-									["cr"] = 2832,	-- Nixxrax Fillamug <Food & Drink>
 								}),
 							},
 						}),
@@ -3084,6 +3082,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(3682),	-- Recipe: Curiously Tasty Omelet (RECIPE!)
 						i(12231),	-- Recipe: Jungle Stew (RECIPE!)
 						i(12228),	-- Recipe: Roast Raptor (RECIPE!)
+					},
+				}),
+				n(2832, {	-- Nixxrax Fillamug <Food & Drink>
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 40.8, 73.6, THE_CAPE_OF_STRANGLETHORN },
+						-- #else
+						{ 40.8, 73.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
+					["groups"] = {
+						i(4595),	-- Junglevine Wine
 					},
 				}),
 				n(2626, {	-- Old Man Heming <Fisherman>
