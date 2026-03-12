@@ -1402,19 +1402,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				-- During questing
 				--q(89196),	-- Zone Choice Made (spellID 1254861), same hqt as previously.
 				q(92712),	-- after turn in questID 86929 (The Council Assembles), could be some phase swtiches or faction renown?
-				-- Legends Never Die Achievement
-				q(89266, name(HEADERS.NPC,241213)),	-- Triggered after chosing 'Wey'nan's Ward' during 'Lost Legends' (89268)
-				q(91049, name(HEADERS.NPC,243491)),	-- Triggered after chosing 'Cauldron of Echoes' during 'Lost Legends' (89268)
-				q(91516, name(HEADERS.NPC,243540)),	-- Triggered after chosing 'The Echoless Flame' during 'Lost Legends' (89268)
-				q(91517, name(HEADERS.NPC,243542)),	-- Triggered after chosing 'Russula's Outreach' during 'Lost Legends' (89268)
-				q(91455, name(HEADERS.NPC,243514)),	-- Triggered after chosing 'Aln'hara's Bloom' during 'Lost Legends' (89268)
-				q(89284, { ["name"] = "Relic chosen" }),	-- Triggered after selecting a Relic during 'Lost Legends' (89268)
-				q(91053, name(HEADERS.Item,263037)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Wey'nan's Ward'
-				q(91054, name(HEADERS.Item,263315)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Bubbling Haranir Cauldron'
-				q(91511, name(HEADERS.Item,264262)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'The Echoless Flame'
-				q(91512, name(HEADERS.Item,262906)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Russula's Outreach'
-				q(91456, name(HEADERS.Item,263196)),	-- Triggered after turning in 'Lost Legends' (89268), after chosing 'Aln'hara's Bloom'
-				--
 				q(94046),	-- The Cradle - Boundary Catcher - Caught 03 - Teleport [DNT] (spellID 1266363), fly directly up into the glowing skybox (achievementID 61860 - From The Cradle to the Grave)
 				q(95146),	-- 12.0 Local 13 Q03a Accept Hannan Leaves (JKP) (spellID 1282413), after accepting O.K. Bloomer (questID 92739)
 			}),
