@@ -2461,22 +2461,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(219506),	-- Writhing Armor Banding+++
 		}),
 		filter(PROFESSION_EQUIPMENT, {
-			i(219866),	-- Apothecary's Cap
-			i(219871),	-- Arathi Leatherworker's Smock
-			i(219870),	-- Charged Scrapmaster's Gauntlets
-			i(219869),	-- Deep Tracker's Cap
-			i(219868),	-- Deep Tracker's Pack
-			i(219874),	-- Earthen Forgemaster's Apron
-			i(219876),	-- Earthen Jeweler's Cover
-			i(219861),	-- Gardener's Basket
-			i(219875),	-- Gemcutter's Apron
-			i(219863),	-- Hideseeker's Hat
-			i(219862),	-- Hideseeker's Pack
-			i(219865),	-- Hideshaper's Cover
-			i(219872),	-- Nerubian Alchemist's Hat
-			i(219864),	-- Scrapsmith's Gloves
-			i(219873),	-- Steelsmith's Apron
-			i(219867),	-- Stonebound Herbalist's Pack
+			i(219866, {["requireSkill"] = ALCHEMY}),	-- Apothecary's Cap
+			i(219871, {["requireSkill"] = LEATHERWORKING}),	-- Arathi Leatherworker's Smock
+			i(219870, {["requireSkill"] = ENGINEERING}),	-- Charged Scrapmaster's Gauntlets
+			i(219869, {["requireSkill"] = SKINNING}),	-- Deep Tracker's Cap
+			i(219868, {["requireSkill"] = SKINNING}),	-- Deep Tracker's Pack
+			i(219874, {["requireSkill"] = BLACKSMITHING}),	-- Earthen Forgemaster's Apron
+			i(219876, {["requireSkill"] = JEWELCRAFTING}),	-- Earthen Jeweler's Cover
+			i(219861, {["requireSkill"] = HERBALISM}),	-- Gardener's Basket
+			i(219875, {["requireSkill"] = JEWELCRAFTING}),	-- Gemcutter's Apron
+			i(219863, {["requireSkill"] = SKINNING}),	-- Hideseeker's Hat
+			i(219862, {["requireSkill"] = SKINNING}),	-- Hideseeker's Pack
+			i(219865, {["requireSkill"] = LEATHERWORKING}),	-- Hideshaper's Cover
+			i(219872, {["requireSkill"] = ALCHEMY}),	-- Nerubian Alchemist's Hat
+			i(219864, {["requireSkill"] = ENGINEERING}),	-- Scrapsmith's Gloves
+			i(219873, {["requireSkill"] = BLACKSMITHING}),	-- Steelsmith's Apron
+			i(219867, {["requireSkill"] = HERBALISM}),	-- Stonebound Herbalist's Pack
 		}),
 		filter(REAGENTS, {
 			i(219880),	-- Carapace-Backed Hide+

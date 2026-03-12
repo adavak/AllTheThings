@@ -73,10 +73,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(LEATHERWORKING, {
-					i(256648),	-- Pattern: Devouring Banding
-					i(256651),	-- Pattern: Blood Knight's Armor Kit
-				}),
 				prof(SKINNING, {
 					i(238531),	-- Radiant Stomach
 
