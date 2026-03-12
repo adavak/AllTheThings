@@ -1184,27 +1184,42 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(237499),	-- Wild Resilient Seed
 	}),
 	prof(INSCRIPTION, {
-		n(DISCOVERY, {
-			r(1230034),	-- Thalassian Treatise on Alchemy
-			r(1230026),	-- Thalassian Treatise on Blacksmithing
-			r(1230030),	-- Thalassian Treatise on Enchanting
-			r(1230036),	-- Thalassian Treatise on Engineering
-			r(1230028),	-- Thalassian Treatise on Herbalism
-			r(1230029),	-- Thalassian Treatise on Jewelcrafting
-			r(1230031),	-- Thalassian Treatise on Leatherworking
-			r(1230027),	-- Thalassian Treatise on Mining
-			r(1230035),	-- Thalassian Treatise on Skinning
-			r(1230033),	-- Thalassian Treatise on Tailoring
-		}),
 		header(HEADERS.Spell, 1269575, {	-- Midnight Milling
 			i(245803),	-- Argentleaf Pigment+
 			i(245804),	-- Argentleaf Pigment++
 			i(245867),	-- Mana Lily Pigment+
 			i(245866),	-- Mana Lily Pigment++
+			i(262908),	-- Milling
 			i(245807),	-- Powder Pigment+
 			i(245808),	-- Powder Pigment++
 			i(245865),	-- Sanguithorn Pigment+
 			i(245864),	-- Sanguithorn Pigment++
+		}),
+		header(HEADERS.Spell, 1230084, {	-- Transcribe: Blood
+			i(245810),	-- Transcribe: Blood
+		}),
+		header(HEADERS.Spell, 1230082, {	-- Transcribe: Hunt
+			i(245812),	-- Transcribe: Hunt
+		}),
+		header(HEADERS.Spell, 1230080, {	-- Transcribe: Rot
+			i(245811),	-- Transcribe: Rot
+		}),
+		header(HEADERS.Spell, 1230078, {	-- Transcribe: Void
+			i(245813),	-- Transcribe: Void
+		}),
+		n(DISCOVERY, {
+			header(HEADERS.Spell, 1230032, {	-- Algari Treatise on Inscription
+				r(1230034),	-- Thalassian Treatise on Alchemy
+				r(1230026),	-- Thalassian Treatise on Blacksmithing
+				r(1230030),	-- Thalassian Treatise on Enchanting
+				r(1230036),	-- Thalassian Treatise on Engineering
+				r(1230028),	-- Thalassian Treatise on Herbalism
+				r(1230029),	-- Thalassian Treatise on Jewelcrafting
+				r(1230031),	-- Thalassian Treatise on Leatherworking
+				r(1230027),	-- Thalassian Treatise on Mining
+				r(1230035),	-- Thalassian Treatise on Skinning
+				r(1230033),	-- Thalassian Treatise on Tailoring
+			}),
 		}),
 		n(DECOR, {
 			i(262464),	-- Floating Void-Touched Tome (DECOR!)
@@ -1247,7 +1262,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90393, 1230020);	-- Hobbyist Rolling Pin
 			FirstCraft(90395, 1230022);	-- Hobbyist Scribe's Quill
 			FirstCraft(90390, 1230017);	-- Munsell Ink
-			FirstCraft(90436, 1230063);	-- Pigments of the Wind
 			FirstCraft(90430, 1230057);	-- Rootwarden's Lamp
 			FirstCraft(90389, 1230016);	-- Sienna Ink
 			FirstCraft(90397, 1230024);	-- Sin'dorei Alchemist's Mixing Rod

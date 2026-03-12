@@ -1802,13 +1802,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		})),
 	}),
 	prof(INSCRIPTION, {
-		spell(382981, {	-- Dragon Isles Milling
+		header(HEADERS.Spell, 382981, {	-- Dragon Isles Milling
 			i(198418),	-- Blazing Pigment+
 			i(198419),	-- Blazing Pigment++
 			i(198420),	-- Blazing Pigment+++
 			i(198415),	-- Flourishing Pigment+
 			i(198416),	-- Flourishing Pigment++
 			i(198417),	-- Flourishing Pigment+++
+			i(198390),	-- Milling
 			i(198412),	-- Serene Pigment+
 			i(198413),	-- Serene Pigment++
 			i(198414),	-- Serene Pigment+++
@@ -1817,16 +1818,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(198423),	-- Shimmering Pigment+++
 		}),
 		n(DISCOVERY, {
-			r(383522),	-- Draconic Treatise on Alchemy
-			r(383517),	-- Draconic Treatise on Blacksmithing
-			r(383523),	-- Draconic Treatise on Enchanting
-			r(383844),	-- Draconic Treatise on Engineering
-			r(383515),	-- Draconic Treatise on Herbalism
-			r(383524),	-- Draconic Treatise on Jewelcrafting
-			r(383519),	-- Draconic Treatise on Leatherworking
-			r(383516),	-- Draconic Treatise on Mining
-			r(392944),	-- Draconic Treatise on Skinning
-			r(383520),	-- Draconic Treatise on Tailoring
+			header(HEADERS.Spell, 383759, {	-- Draconic Treatise on Inscription
+				r(383522),	-- Draconic Treatise on Alchemy
+				r(383517),	-- Draconic Treatise on Blacksmithing
+				r(383523),	-- Draconic Treatise on Enchanting
+				r(383844),	-- Draconic Treatise on Engineering
+				r(383515),	-- Draconic Treatise on Herbalism
+				r(383524),	-- Draconic Treatise on Jewelcrafting
+				r(383519),	-- Draconic Treatise on Leatherworking
+				r(383516),	-- Draconic Treatise on Mining
+				r(392944),	-- Draconic Treatise on Skinning
+				r(383520),	-- Draconic Treatise on Tailoring
+			}),
 		}),
 		n(DECOR, sharedDataSelf({["timeline"] = { ADDED_11_2_7 }}, {
 			i(248118),	-- Literature of the Blue Dragonflight (DECOR!)

@@ -1611,19 +1611,32 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		})),
 	}),
 	prof(INSCRIPTION, {
-		spell(444181, {	-- Khaz Algar Milling
+		header(HEADERS.Spell, 444181, {	-- Khaz Algar Milling
 			i(224805),	-- Blossom Pigment+
 			i(224804),	-- Blossom Pigment++
 			i(224803),	-- Blossom Pigment+++
 			i(222612),	-- Luredrop Pigment+
 			i(222613),	-- Luredrop Pigment++
 			i(222614),	-- Luredrop Pigment+++
+			i(222545),	-- Milling
 			i(222618),	-- Nacreous Pigment+
 			i(222619),	-- Nacreous Pigment++
 			i(222620),	-- Nacreous Pigment+++
 			i(224802),	-- Orbinid Pigment+
 			i(224801),	-- Orbinid Pigment++
 			i(224800),	-- Orbinid Pigment+++
+		}),
+		header(HEADERS.Spell, 444224, {	-- Transcribe to Ascension
+			i(222622),	-- Transcribe to Ascension
+		}),
+		header(HEADERS.Spell, 444227, {	-- Transcribe to Radiance
+			i(222625),	-- Transcribe to Radiance
+		}),
+		header(HEADERS.Spell, 444226, {	-- Transcribe to Symbiosis
+			i(222624),	-- Transcribe to Symbiosis
+		}),
+		header(HEADERS.Spell, 444225, {	-- Transcribe to Vivacity
+			i(222623),	-- Transcribe to Vivacity
 		}),
 		n(DISCOVERY, {
 			header(HEADERS.Spell, 447868, {	-- Algari Treatise on Inscription

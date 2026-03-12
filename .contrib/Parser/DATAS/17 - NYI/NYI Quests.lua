@@ -9985,6 +9985,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
 			q(93969),	-- BETA:Call Shot
 			q(93235),	-- First Craft: M0LL1, Atomic Anomaly
+			q(90436),	-- First Craft: Pigments of the Wind
 		})),
 	}),
 }));

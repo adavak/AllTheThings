@@ -73,20 +73,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(INSCRIPTION, {
-					i(245754),	-- Milling
-					i(245774),	-- Vantus Rune: 12.0 Raid
-					i(245810),	-- Transcribe: Blood
-					i(245811),	-- Transcribe: Rot
-					i(245812),	-- Transcribe: Hunt
-					i(245813),	-- Transcribe: Void
-					i(258497),	-- Technique: Technique: Thalassian Missive of Deftness
-					i(258498),	-- Technique: Ren'dorei Sturdy Cask
-					i(258501),	-- Technique: Sin'dorei Homely Shelf
-					i(258506),	-- Technique: Homely Wall Shelves
-					i(258507),	-- Technique: Wild Hanging Scroll
-					i(258508),	-- Technique: Harandar Runestone
-				}),
 				prof(LEATHERWORKING, {
 					i(256648),	-- Pattern: Devouring Banding
 					i(256651),	-- Pattern: Blood Knight's Armor Kit
