@@ -1131,7 +1131,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			["requireSkill"] = HERBALISM,
 		},{
 			FirstCraft(87731, 1224883),	-- Lightfused Tranquility Bloom
-			--FirstCraft(XXXXX, 1223148),	-- Lush Tranquility Bloom
+			FirstCraft(87730, 1223148),	-- Lush Tranquility Bloom
 			FirstCraft(87733, 1224888),	-- Primal Tranquility Bloom
 			FirstCraft(87729, 1223099),	-- Tranquility Bloom
 			FirstCraft(87734, 1224898),	-- Voidbound Tranquility Bloom
@@ -1166,11 +1166,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(236774),	-- Azeroot+
 		i(236775),	-- Azeroot++
 		i(238389),	-- Empowered Mulch
+		i(237498),	-- Glowing Resilient Seed
 		i(238388),	-- Imbued Mulch
 		i(238387),	-- Magical Mulch
 		i(236778),	-- Mana Lily+
 		i(236779),	-- Mana Lily++
 		i(236780),	-- Nocturnal Lotus
+		i(237500),	-- Primal Resilient Seed
 		i(237497),	-- Resilient Seed
 		i(236770),	-- Sanguithorn+
 		i(236771),	-- Sanguithorn++
@@ -1179,6 +1181,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238466),	-- Thalassian Phoenix Tail
 		i(236761),	-- Tranquility Bloom+
 		i(236767),	-- Tranquility Bloom++
+		i(237499),	-- Wild Resilient Seed
 	}),
 	prof(INSCRIPTION, {
 		n(DISCOVERY, {
