@@ -2117,9 +2117,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(8552, {	-- The Monogrammed Sash
 					["altQuests"] = { 620 },	-- The Monogrammed Sash [Old]
 					["provider"] = { "i", 3985 },	-- Monogrammed Sash
-					["coord"] = { 23.0, 71.4, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
-					["cr"] = 1493,	-- Mok'rash
 					["lvl"] = 35,
 				}),
 				q(3642, {	-- The Pledge of Secrecy
@@ -3644,6 +3642,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(1679, {	-- Korg Bat
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 1142,	-- Mosh'Ogg Brute
+				}),
+				i(3985, {	-- Monogrammed Sash
+					["coord"] = { 23.0, 71.4, STRANGLETHORN_VALE },
+					["timeline"] = { REMOVED_4_0_3 },
+					["cr"] = 1493,	-- Mok'rash
+					["lvl"] = 35,
 				}),
 				i(5755, {	-- Onyx Shredder Plate
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },

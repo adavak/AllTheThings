@@ -2247,9 +2247,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(8552, {	-- The Monogrammed Sash
 					["altQuests"] = { 620 },	-- The Monogrammed Sash [Old]
 					["provider"] = { "i", 3985 },	-- Monogrammed Sash
-					["coord"] = { 23.0, 71.4, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
-					["cr"] = 1493,	-- Mok'rash
 					["lvl"] = 35,
 				}),
 				q(3642, {	-- The Pledge of Secrecy
@@ -3107,6 +3105,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["description"] = "This item has a chance to drop from any killed creature in the zone.",
 					-- #endif
 					["timeline"] = { ADDED_1_11_1 },
+				}),
+				i(3985, {	-- Monogrammed Sash
+					["coord"] = { 23.0, 71.4, STRANGLETHORN_VALE },
+					["timeline"] = { REMOVED_4_0_3 },
+					["cr"] = 1493,	-- Mok'rash
+					["lvl"] = 35,
 				}),
 				i(5789, {	-- Pattern: Murloc Scale Bracers (RECIPE!)
 					["cr"] = 1561,	-- Bloodsail Raider
