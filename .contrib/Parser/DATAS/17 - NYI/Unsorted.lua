@@ -73,19 +73,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PROFESSIONS, {
-				prof(SKINNING, {
-					i(238531),	-- Radiant Stomach
-
-					-- Skinning Knowledge
-					i(238604),	-- Dornogal Carving Knife
-					i(238605),	-- Earthen Worker's Beams
-					i(238606),	-- Artisan's Drawing Knife
-					i(238607),	-- Fungarian's Rich Tannin
-					i(238608),	-- Arathi Tanning Agent
-					i(238609),	-- Arathi Craftsman's Spokeshave
-					i(238610),	-- Nerubian's Slicking Iron
-					i(238611),	-- Carapace Shiner
-				}),
 				-- Professions
 				i(258839),	-- Concealed Catalogue
 

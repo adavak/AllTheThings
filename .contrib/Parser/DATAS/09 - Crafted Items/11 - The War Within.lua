@@ -2666,7 +2666,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(83412, 216039),	-- Skinning Xishorr
 			FirstSkin(81457, 220270),	-- Skinning Zilthara
 		})),
-		spell(423342, {	-- Khaz Algar Skinning
+		header(HEADERS.Spell, 423342, {	-- Khaz Algar Skinning
 			i(224781),	-- Abyssal Fur
 			i(218338),	-- Bottled Storm
 			i(218339),	-- Burning Cinderbee Setae

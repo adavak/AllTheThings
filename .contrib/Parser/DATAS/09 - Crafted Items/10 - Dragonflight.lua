@@ -3349,7 +3349,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			FirstSkin(74170, 193209),	-- Skinning Zenet Avis
 			FirstSkin(74181, 188451),	-- Skinning Zerimek
 		})),
-		spell(366259, {	-- Skinning
+		header(HEADERS.Spell, 366259, {	-- Skinning (Dragon Isle)
 			i(193213),	-- Adamant Scales+
 			i(193214),	-- Adamant Scales++
 			i(193215),	-- Adamant Scales+++

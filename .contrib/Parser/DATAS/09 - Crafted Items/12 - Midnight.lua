@@ -2052,7 +2052,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(93636, 242024),	-- Skinning The Snapping Scourge
 			FirstSkin(88532, 247096),	-- Skinning Umbrafang
 		})),
-		spell(471014, {	-- Midnight Skinning
+		header(HEADERS.Spell, 471014, {	-- Midnight Skinning
 			i(238523),	-- Carving Canine
 			i(238525),	-- Fantastic Fur
 			i(238625),	-- Fine Void-Tempered Hide
@@ -2071,16 +2071,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(238513),	-- Void-Tempered Scales+
 			i(238514),	-- Void-Tempered Scales++
 		}),
+		i(238656),	-- Grand Beast Lure
 		i(238657),	-- Lightbloom Diffuser
-		i(238659),	-- Primal Diffuser
-		i(238660),	-- Void Diffuser
-		i(238658),	-- Wild Diffuser
-		--  Lures
 		i(238652),	-- Majestic Eversong Lure
 		i(238653),	-- Majestic Zul'Aman Lure
 		i(238654),	-- Majestic Harandar Lure
 		i(238655),	-- Majestic Voidstorm Lure
-		i(238656),	-- Grand Beast Lure
+		i(238659),	-- Primal Diffuser
+		i(238531),	-- Radiant Stomach
+		i(238660),	-- Void Diffuser
+		i(238658),	-- Wild Diffuser
 	}),
 	prof(TAILORING, {
 		n(ARMOR, {
