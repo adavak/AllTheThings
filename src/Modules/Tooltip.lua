@@ -761,7 +761,7 @@ app.WipeTooltipInfoCache = WipeTooltipInfoCache
 -- app.AddEventHandler("OnThingRemoved", WipeTooltipInfoCache);
 -- app.AddEventHandler("OnSettingsRefreshed", WipeTooltipInfoCache);
 local function AttachTooltipSearchResults(tooltip, method, ...)
-	-- app.PrintDebug("AttachTooltipSearchResults",...)
+	-- app.PrintDebug("AttachTooltipSearchResults",SafeGetName(tooltip),...)
 	app.SetSkipLevel(1);
 	local status, group, working = pcall(app.GetCachedSearchResults, method, ...)
 	app.SetSkipLevel(0);
@@ -796,7 +796,7 @@ do
 		npcID = NPCSearchOptions,
 		objectID = NPCSearchOptions,
 	}, { __index = function() return DefaultSearchOptions end})
-	
+
 	-- In Retail, we want to put the Thing being searched into the tooltip. Whether other content should be included
 	-- is based on Fillers and other logic based on that Thing and is not always included based on caching
 	AttachTypicalSearchResults = function(self, field, id)

@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				q(90575),	-- Fortify the Runestones: Farstriders
 				q(91989, {	-- Ghostland Peppers
-					o(568477, {	--
+					o(568477, {	-- Ghostland Pepper
 						i(249497),	-- Ghostland Pepper (QI!)
 					}),
 				}),
