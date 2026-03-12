@@ -311,14 +311,11 @@ root(ROOTS.Unsorted, {
 				i(249401),	-- Vial of Gelatinous Ooze
 				i(249407),	-- Harvested Lightwood
 				i(249414),	-- Feelings Journal
-				i(249418),	-- Lightblooming Bulb
 				i(249421),	-- Mana-Fortified Vintage
-				i(249437),	-- Wand of Diminutive Proportions
 				i(249439),	-- Bright Feather
 				i(249440),	-- Bright Feather
 				i(249444),	-- Eversong Pyrepetal
 				i(249445),	-- Bolt of Mana Silk Cloth
-				i(249452),	-- Inanimate Broom
 				i(249472),	-- Fragrant Bloodthistle
 				i(249517),	-- Smuggled Goods
 				i(249527),	-- Elder Painting
@@ -326,7 +323,6 @@ root(ROOTS.Unsorted, {
 				i(249553),	-- Lost Mirror
 				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
-				i(249732),	-- Vintner's Golden
 				i(250705),	-- Naga Missive PH NAME
 				i(251899),	-- Anasterian's Book of Law
 				i(251904),	-- Crown of the High King

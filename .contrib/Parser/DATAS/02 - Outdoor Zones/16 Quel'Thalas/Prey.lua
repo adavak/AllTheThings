@@ -146,6 +146,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDown({ ["timeline"] = { ADDED
 			ach(62143),	-- Trapped In The Middle With You
 			ach(62138),	-- You're Trapped In Here With Me
 		}),
+		n(FACTIONS, {
+			faction(2764),	-- Prey: Season 1
+		}),
 		n(QUESTS, {
 			q(95114, {	-- Prey: A Crimson Summons
 				--["sourceQuests"] = { ??? },	-- ??

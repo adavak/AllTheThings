@@ -56,6 +56,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 				}),
 				q(89289, {	-- Favor of the Court
+					["provider"] = { "n", 240832 },	-- Lord Saltheril
+					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["isWeekly"] = true,
 				}),
 			}),
@@ -98,14 +100,23 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["maxReputation"] = { FACTION_FARSTRIDERS, 6 },	-- Luminary
 				["isWeekly"] = true,
 			}, {
-				q(91986, {	-- Put a Little Snap in Their Step
-					["groups"] = { i(249779), },	-- Discordant Tune (QI!)
+				q(91991, {	-- A Little Errand
+					o(568943, {	-- Vintner's Golden
+						i(249732),	-- Vintner's Golden (QI!)
+					}),
 				}),
 				q(90575),	-- Fortify the Runestones: Farstriders
 				q(91989, {	-- Ghostland Peppers
 					o(568477, {	-- Ghostland Pepper
-						i(249497),	-- Ghostland Pepper (QI!)
+						["coord"] = { 39.9, 60.8, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(249497), },	-- Ghostland Pepper (QI!)
 					}),
+				}),
+				q(91987, {	-- Potted Lashers
+					["groups"] = { i(249418), },	-- Lightblooming Bulb (QI!)
+				}),
+				q(91986, {	-- Put a Little Snap in Their Step
+					["groups"] = { i(249779), },	-- Discordant Tune (QI!)
 				}),
 				q(91984, {	-- Sungrub Silk
 					i(249422),	-- Sunsilk (QI!)
@@ -133,8 +144,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["maxReputation"] = { FACTION_MAGISTERS, 6 },	-- Luminary
 				["isWeekly"] = true,
 			}, {
+				q(91993, {	-- Diminutive Demand
+					["groups"] = { i(249437), },	-- Wand of Diminutive Proportions (QI!)
+				}),
 				q(90573),	-- Fortify the Runestones: Magisters
 				q(89276),	-- Light Snacks
+				q(91997, {	-- Power Clean
+					["groups"] = { i(249452), },	-- Inanimate Broom (QI!)
+				}),
+				q(91995),	-- What Horrible Magic
 			})),
 			-- Shades of the Row weekly
 			n(QUESTS, sharedData({
@@ -144,7 +162,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["isWeekly"] = true,
 			}, {
 				q(92002, {	-- Dangerous Showpieces
-					["groups"] = { i(249528), },	-- Twilight Weaponry
+					["groups"] = { i(249528), },	-- Twilight Weaponry (QI!)
 				}),
 				q(92005, {	-- Throw The Dice
 					i(249541),	-- Naga Fang (QI!)
@@ -162,7 +180,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 			})),
 			n(BONUS_OBJECTIVES, {
-				q(91966, {	-- Saltheril's Soiree (TODO: possibly wq in future builds? questID unique per chosen faction?)
+				q(91966, {	-- Saltheril's Soiree
+					["sourceQuests"] = { 89289 },	-- Favor of the Court
 					["coord"] = { 42.7, 47.3, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["isDaily"] = true,
 				}),
