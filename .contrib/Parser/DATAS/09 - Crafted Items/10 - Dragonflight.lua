@@ -2348,7 +2348,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		}),
 	}),
 	prof(JEWELCRAFTING, {
-		spell(374627, {	-- Dragon Isles Prospecting
+		header(HEADERS.Spell, 374627, {	-- Dragon Isles Prospecting
 			i(192852),	-- Alexstraszite+
 			i(192853),	-- Alexstraszite++
 			i(192855),	-- Alexstraszite+++
