@@ -1184,12 +1184,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(237499),	-- Wild Resilient Seed
 	}),
 	prof(INSCRIPTION, {
-		header(HEADERS.Spell, 1269575, {	-- Midnight Milling
+		salvagerecipe(1269575, 262908, {	-- Midnight Milling
 			i(245803),	-- Argentleaf Pigment+
 			i(245804),	-- Argentleaf Pigment++
 			i(245867),	-- Mana Lily Pigment+
 			i(245866),	-- Mana Lily Pigment++
-			i(262908),	-- Milling
 			i(245807),	-- Powder Pigment+
 			i(245808),	-- Powder Pigment++
 			i(245865),	-- Sanguithorn Pigment+

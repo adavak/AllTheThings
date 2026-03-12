@@ -1802,14 +1802,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		})),
 	}),
 	prof(INSCRIPTION, {
-		header(HEADERS.Spell, 382981, {	-- Dragon Isles Milling
+		salvagerecipe(382981, 198390, {	-- Dragon Isles Milling
 			i(198418),	-- Blazing Pigment+
 			i(198419),	-- Blazing Pigment++
 			i(198420),	-- Blazing Pigment+++
 			i(198415),	-- Flourishing Pigment+
 			i(198416),	-- Flourishing Pigment++
 			i(198417),	-- Flourishing Pigment+++
-			i(198390),	-- Milling
 			i(198412),	-- Serene Pigment+
 			i(198413),	-- Serene Pigment++
 			i(198414),	-- Serene Pigment+++

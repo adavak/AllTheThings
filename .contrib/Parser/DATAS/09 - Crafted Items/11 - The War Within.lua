@@ -1611,14 +1611,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		})),
 	}),
 	prof(INSCRIPTION, {
-		header(HEADERS.Spell, 444181, {	-- Khaz Algar Milling
+		salvagerecipe(444181, 222545, {	-- Khaz Algar Milling
 			i(224805),	-- Blossom Pigment+
 			i(224804),	-- Blossom Pigment++
 			i(224803),	-- Blossom Pigment+++
 			i(222612),	-- Luredrop Pigment+
 			i(222613),	-- Luredrop Pigment++
 			i(222614),	-- Luredrop Pigment+++
-			i(222545),	-- Milling
 			i(222618),	-- Nacreous Pigment+
 			i(222619),	-- Nacreous Pigment++
 			i(222620),	-- Nacreous Pigment+++
