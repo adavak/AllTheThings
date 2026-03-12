@@ -102,14 +102,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}, {
 				q(91991, {	-- A Little Errand
 					o(568943, {	-- Vintner's Golden
-						i(249732),	-- Vintner's Golden (QI!)
+						["coord"] = { 39.9, 60.8, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(249732), },	-- Vintner's Golden (QI!)
 					}),
 				}),
 				q(90575),	-- Fortify the Runestones: Farstriders
 				q(91989, {	-- Ghostland Peppers
 					o(568477, {	-- Ghostland Pepper
-						["coord"] = { 39.9, 60.8, MAP.MIDNIGHT.EVERSONG_WOODS },
-						["groups"] = { i(249497), },	-- Ghostland Pepper (QI!)
+						i(249497),	-- Ghostland Pepper (QI!)
 					}),
 				}),
 				q(91987, {	-- Potted Lashers
