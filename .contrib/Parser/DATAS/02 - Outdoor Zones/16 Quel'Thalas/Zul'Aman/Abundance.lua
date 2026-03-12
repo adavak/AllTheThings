@@ -32,7 +32,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					ach(61941),	-- Abundance: Acolyte of a Glorious Entity
 					ach(62341),	-- Abundance: Ain't Dun Till It's Dun
 					ach(62266),	-- Abundance: An Acolyte no Longer
-					ach(62338),	-- Abundance: Artisan
+					ach(62338, {	-- Abundance: Artisan
+						["description"] = "Requires you to click 4 profession items during an Abundance.\nRequires 25 or more Skill to click.\nEach zone has specific professions:\n\nEversong Woods: Enchanting, Jewelcrafting, Tailoring\n\nZul’Aman: Cooking, Leatherworking, Skinning\n\nHarandar: Alchemy, Herbalism, Inscription\n\nVoidstorm: Blacksmithing, Engineering, Mining",
+					}),
 					ach(61939),	-- Abundance: Artisan of Floaret
 					ach(61938),	-- Abundance: Artisan of Loaknit
 					ach(61940),	-- Abundance: Artisan of Loanite
