@@ -1928,37 +1928,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(265530),	-- Plans: Ornamental Silvermoon Hanger (RECIPE!)
 	}),
 	prof(SKINNING, {
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = SKINNING,
-		},{
-			FirstSkin(93630, 250826),	-- Skinning Banuran
-			FirstSkin(93631, 250582),	-- Skinning Bloated Snapdragon
-			FirstSkin(95459, 256770),	-- Skinning Bilemaw the Gluttonous
-			FirstSkin(93638, 249844),	-- Skinning Chironex
-			FirstSkin(93633, 255348),	-- Skinning Dame Bloodshed
-			FirstSkin(88545, 245688),	-- Skinning Gloomclaw
-			FirstSkin(95517, 249849),	-- Skinning Ha'kalawe
-			FirstSkin(93632, 246633),	-- Skinning Harried Hawkstrider
-			FirstSkin(88531, 245690),	-- Skinning Lumenfin
-			FirstSkin(88524, 247101),	-- Skinning Netherscythe
-			FirstSkin(93634, 242032),	-- Skinning Oophaga
-			FirstSkin(88542, 253304),	-- Skinning Paingolin
-			FirstSkin(95516, 250321),	-- Skinning Pterrock
-			FirstSkin(95469, 257027),	-- Skinning Rakshur the Bonegrinder
-			FirstSkin(95514, 256808),	-- Skinning Ravengerus
-			FirstSkin(95519, 248741),	-- Skinning Rhazul
-			FirstSkin(95515, 256922),	-- Skinning Screammaxa the Matriarch
-			FirstSkin(95518, 250180),	-- Skinning Serrasa
-			FirstSkin(88526, 245699),	-- Skinning Silverscale
-			FirstSkin(95470, 242031),	-- Skinning Spinefrill
-			FirstSkin(95446, 250876),	-- Skinning Terrinor
-			FirstSkin(93637, 242033),	-- Skinning Tiny Vermin
-			FirstSkin(93639, 238498),	-- Skinning Territorial Voidscythe
-			FirstSkin(93635, 245691),	-- Skinning The Decaying Diamondback
-			FirstSkin(95471, 242035),	-- Skinning The Devouring Invader
-			FirstSkin(93636, 242024),	-- Skinning The Snapping Scourge
-			FirstSkin(88532, 247096),	-- Skinning Umbrafang
-		})),
 		header(HEADERS.Spell, 471014, {	-- Midnight Skinning
 			i(238523),	-- Carving Canine
 			i(238525),	-- Fantastic Fur
@@ -2169,5 +2138,34 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["time
 		prof(SKINNING, {
 			q(88522),	-- 20/40 Thorough Tanning (2nd charge)
 		}),
+		prof(SKINNING, sharedData({ ["isDaily"] = true }, {
+			q(93630, name(HEADERS.NPC, 250826)),	-- Skinning Banuran
+			q(93631, name(HEADERS.NPC, 250582)),	-- Skinning Bloated Snapdragon
+			q(95459, name(HEADERS.NPC, 256770)),	-- Skinning Bilemaw the Gluttonous
+			q(93638, name(HEADERS.NPC, 249844)),	-- Skinning Chironex
+			q(93633, name(HEADERS.NPC, 255348)),	-- Skinning Dame Bloodshed
+			q(88545, name(HEADERS.NPC, 245688)),	-- Skinning Gloomclaw
+			q(95517, name(HEADERS.NPC, 249849)),	-- Skinning Ha'kalawe
+			q(93632, name(HEADERS.NPC, 246633)),	-- Skinning Harried Hawkstrider
+			q(88531, name(HEADERS.NPC, 245690)),	-- Skinning Lumenfin
+			q(88524, name(HEADERS.NPC, 247101)),	-- Skinning Netherscythe
+			q(93634, name(HEADERS.NPC, 242032)),	-- Skinning Oophaga
+			q(88542, name(HEADERS.NPC, 253304)),	-- Skinning Paingolin
+			q(95516, name(HEADERS.NPC, 250321)),	-- Skinning Pterrock
+			q(95469, name(HEADERS.NPC, 257027)),	-- Skinning Rakshur the Bonegrinder
+			q(95514, name(HEADERS.NPC, 256808)),	-- Skinning Ravengerus
+			q(95519, name(HEADERS.NPC, 248741)),	-- Skinning Rhazul
+			q(95515, name(HEADERS.NPC, 256922)),	-- Skinning Screammaxa the Matriarch
+			q(95518, name(HEADERS.NPC, 250180)),	-- Skinning Serrasa
+			q(88526, name(HEADERS.NPC, 245699)),	-- Skinning Silverscale
+			q(95470, name(HEADERS.NPC, 242031)),	-- Skinning Spinefrill
+			q(95446, name(HEADERS.NPC, 250876)),	-- Skinning Terrinor
+			q(93637, name(HEADERS.NPC, 242033)),	-- Skinning Tiny Vermin
+			q(93639, name(HEADERS.NPC, 238498)),	-- Skinning Territorial Voidscythe
+			q(93635, name(HEADERS.NPC, 245691)),	-- Skinning The Decaying Diamondback
+			q(95471, name(HEADERS.NPC, 242035)),	-- Skinning The Devouring Invader
+			q(93636, name(HEADERS.NPC, 242024)),	-- Skinning The Snapping Scourge
+			q(88532, name(HEADERS.NPC, 247096)),	-- Skinning Umbrafang
+		})),
 	}),
 })));

@@ -2500,67 +2500,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 	}),
 	prof(SKINNING, {
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = SKINNING,
-		},{
-			FirstSkin(91127, 232098, ADDED_11_2_0),	-- Skinning "Chowdar"
-			FirstSkin(83410, 216031),	-- Skinning Abyssal Devourer
-			FirstSkin(83411, 214151),	-- Skinning Ahg'zagall
-			FirstSkin(81450, 219264),	-- Skinning Bloodmaw
-			FirstSkin(83414, 216042),	-- Skinning Cha'tak
-			FirstSkin(85549, 214757),	-- Skinning Croakit
-			FirstSkin(83408, 220286),	-- Skinning Deepflayer Broodmother
-			FirstSkin(83404, 218393),	-- Skinning Disturbed Earthgorger
-			FirstSkin(81446, 224924),	-- Skinning Elusive Gargantuan Stormscale
-			FirstSkin(81445, 224515),	-- Skinning Elusive Ironhide Maelstrom Wolf
-			FirstSkin(81447, 224963),	-- Skinning Elusive Kaheti Battle Tank
-			FirstSkin(81448, 226232),	-- Skinning Elusive Razormouth Steelhide
-			FirstSkin(81451, 219265),	-- Skinning Emperor Pitfang
-			FirstSkin(85548, 220492),	-- Skinning Finclaw Bloodtide
-			FirstSkin(86795, 228601, ADDED_11_0_7),	-- Skinning Ghostmaker
-			FirstSkin(87592, 230935, ADDED_11_1_0),	-- Skinning Grease
-			FirstSkin(87593, 230936, ADDED_11_1_0),	-- Skinning Grime
-			FirstSkin(87590, 231017, ADDED_11_1_0),	-- Skinning Grimewick
-			FirstSkin(91132, 238540, ADDED_11_2_0),	-- Skinning Grubber
-			FirstSkin(83402, 221668),	-- Skinning Horror of the Shallows
-			FirstSkin(83413, 221327),	-- Skinning Kaheti Silk Hauler
-			FirstSkin(81455, 220275),	-- Skinning King Splash
-			FirstSkin(91126, 232077, ADDED_11_2_0),	-- Skinning Korgorath the Ravager
-			FirstSkin(83409, 220285),	-- Skinning Lurker of the Deeps
-			FirstSkin(83400, 221534),	-- Skinning Lytfang the Lost
-			FirstSkin(83416, 216044),	-- Skinning Maddened Siegebomber
-			FirstSkin(91272, 245997, ADDED_11_2_0),	-- Skinning Malek'ta
-			FirstSkin(83406, 220890),	-- Skinning Matriarch Charfuria
-			FirstSkin(91134, 231981, ADDED_11_2_0),	-- Skinning Maw of the Sands
-			FirstSkin(91128, 232108, ADDED_11_2_0),	-- Skinning Morgil the Netherspawn
-			FirstSkin(81458, 218452),	-- Skinning Murkshade
-			FirstSkin(87589, 230995, ADDED_11_1_0),	-- Skinning Nitro
-			FirstSkin(91135, 232127, ADDED_11_2_0),	-- Skinning Orith the Dreadful
-			FirstSkin(81452, 219267),	-- Skinning Plaguehart
-			FirstSkin(83403, 221786),	-- Skinning Pride of Beledar
-			FirstSkin(87591, 230934, ADDED_11_1_0),	-- Skinning Ratspit
-			FirstSkin(85547, 207826),	-- Skinning Ravageant
-			FirstSkin(87594, 230931, ADDED_11_1_0),	-- Skinning Scrapbeak
-			FirstSkin(87596, 233471, ADDED_11_1_0),	-- Skinning Scrapchewer
-			FirstSkin(91125, 232129, ADDED_11_2_0),	-- Skinning Shadowhowl
-			FirstSkin(85550, 219278),	-- Skinning Shallowshell the Clacker
-			FirstSkin(91133, 232006, ADDED_11_2_0),	-- Skinning Sha'ryth the Cursed
-			FirstSkin(84259, 228439),	-- Skinning Slatefang
-			FirstSkin(83405, 221217),	-- Skinning Spore-infused Shalewing
-			FirstSkin(91130, 232193, ADDED_11_2_0),	-- Skinning Stalker of the Wastes
-			FirstSkin(85551, 221690),	-- Skinning Strength of Beledar
-			FirstSkin(83407, 221126),	-- Skinning Tephratennae
-			FirstSkin(81456, 220271),	-- Skinning Terror of the Forge
-			FirstSkin(91129, 232111, ADDED_11_2_0),	-- Skinning The Nightreaver
-			FirstSkin(83401, 221648),	-- Skinning The Perchfather
-			FirstSkin(81453, 219271),	-- Skinning Twice-Stinger the Wretched
-			FirstSkin(91131, 232195, ADDED_11_2_0),	-- Skinning Urmag
-			FirstSkin(83415, 216037),	-- Skinning Vilewing
-			FirstSkin(87595, 233472, ADDED_11_1_0),	-- Skinning Volstrike the Charged
-			FirstSkin(81449, 219263),	-- Skinning Warphorn
-			FirstSkin(83412, 216039),	-- Skinning Xishorr
-			FirstSkin(81457, 220270),	-- Skinning Zilthara
-		})),
 		header(HEADERS.Spell, 423342, {	-- Khaz Algar Skinning
 			i(224781),	-- Abyssal Fur
 			i(218338),	-- Bottled Storm
@@ -2852,6 +2791,65 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(81443),	-- 30/40 Meat Carver
 			q(81444),	-- 40/40 Meat Carver
 		}),
+		prof(SKINNING, sharedData({ ["isWeekly"] = true }, {
+			q(91127, name(HEADERS.NPC, 232098, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning "Chowdar"
+			q(83410, name(HEADERS.NPC, 216031)),	-- Skinning Abyssal Devourer
+			q(83411, name(HEADERS.NPC, 214151)),	-- Skinning Ahg'zagall
+			q(81450, name(HEADERS.NPC, 219264)),	-- Skinning Bloodmaw
+			q(83414, name(HEADERS.NPC, 216042)),	-- Skinning Cha'tak
+			q(85549, name(HEADERS.NPC, 214757)),	-- Skinning Croakit
+			q(83408, name(HEADERS.NPC, 220286)),	-- Skinning Deepflayer Broodmother
+			q(83404, name(HEADERS.NPC, 218393)),	-- Skinning Disturbed Earthgorger
+			q(81446, name(HEADERS.NPC, 224924)),	-- Skinning Elusive Gargantuan Stormscale
+			q(81445, name(HEADERS.NPC, 224515)),	-- Skinning Elusive Ironhide Maelstrom Wolf
+			q(81447, name(HEADERS.NPC, 224963)),	-- Skinning Elusive Kaheti Battle Tank
+			q(81448, name(HEADERS.NPC, 226232)),	-- Skinning Elusive Razormouth Steelhide
+			q(81451, name(HEADERS.NPC, 219265)),	-- Skinning Emperor Pitfang
+			q(85548, name(HEADERS.NPC, 220492)),	-- Skinning Finclaw Bloodtide
+			q(86795, name(HEADERS.NPC, 228601, {["timeline"] = { ADDED_11_0_7 }})),	-- Skinning Ghostmaker
+			q(87592, name(HEADERS.NPC, 230935, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Grease
+			q(87593, name(HEADERS.NPC, 230936, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Grime
+			q(87590, name(HEADERS.NPC, 231017, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Grimewick
+			q(91132, name(HEADERS.NPC, 238540, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Grubber
+			q(83402, name(HEADERS.NPC, 221668)),	-- Skinning Horror of the Shallows
+			q(83413, name(HEADERS.NPC, 221327)),	-- Skinning Kaheti Silk Hauler
+			q(81455, name(HEADERS.NPC, 220275)),	-- Skinning King Splash
+			q(91126, name(HEADERS.NPC, 232077, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Korgorath the Ravager
+			q(83409, name(HEADERS.NPC, 220285)),	-- Skinning Lurker of the Deeps
+			q(83400, name(HEADERS.NPC, 221534)),	-- Skinning Lytfang the Lost
+			q(83416, name(HEADERS.NPC, 216044)),	-- Skinning Maddened Siegebomber
+			q(91272, name(HEADERS.NPC, 245997, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Malek'ta
+			q(83406, name(HEADERS.NPC, 220890)),	-- Skinning Matriarch Charfuria
+			q(91134, name(HEADERS.NPC, 231981, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Maw of the Sands
+			q(91128, name(HEADERS.NPC, 232108, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Morgil the Netherspawn
+			q(81458, name(HEADERS.NPC, 218452)),	-- Skinning Murkshade
+			q(87589, name(HEADERS.NPC, 230995, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Nitro
+			q(91135, name(HEADERS.NPC, 232127, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Orith the Dreadful
+			q(81452, name(HEADERS.NPC, 219267)),	-- Skinning Plaguehart
+			q(83403, name(HEADERS.NPC, 221786)),	-- Skinning Pride of Beledar
+			q(87591, name(HEADERS.NPC, 230934, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Ratspit
+			q(85547, name(HEADERS.NPC, 207826)),	-- Skinning Ravageant
+			q(87594, name(HEADERS.NPC, 230931, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Scrapbeak
+			q(87596, name(HEADERS.NPC, 233471, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Scrapchewer
+			q(91125, name(HEADERS.NPC, 232129, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Shadowhowl
+			q(85550, name(HEADERS.NPC, 219278)),	-- Skinning Shallowshell the Clacker
+			q(91133, name(HEADERS.NPC, 232006, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Sha'ryth the Cursed
+			q(84259, name(HEADERS.NPC, 228439)),	-- Skinning Slatefang
+			q(83405, name(HEADERS.NPC, 221217)),	-- Skinning Spore-infused Shalewing
+			q(91130, name(HEADERS.NPC, 232193, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Stalker of the Wastes
+			q(85551, name(HEADERS.NPC, 221690)),	-- Skinning Strength of Beledar
+			q(83407, name(HEADERS.NPC, 221126)),	-- Skinning Tephratennae
+			q(81456, name(HEADERS.NPC, 220271)),	-- Skinning Terror of the Forge
+			q(91129, name(HEADERS.NPC, 232111, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning The Nightreaver
+			q(83401, name(HEADERS.NPC, 221648)),	-- Skinning The Perchfather
+			q(81453, name(HEADERS.NPC, 219271)),	-- Skinning Twice-Stinger the Wretched
+			q(91131, name(HEADERS.NPC, 232195, {["timeline"] = { ADDED_11_2_0 }})),	-- Skinning Urmag
+			q(83415, name(HEADERS.NPC, 216037)),	-- Skinning Vilewing
+			q(87595, name(HEADERS.NPC, 233472, {["timeline"] = { ADDED_11_1_0 }})),	-- Skinning Volstrike the Charged
+			q(81449, name(HEADERS.NPC, 219263)),	-- Skinning Warphorn
+			q(83412, name(HEADERS.NPC, 216039)),	-- Skinning Xishorr
+			q(81457, name(HEADERS.NPC, 220270)),	-- Skinning Zilthara
+		})),
 		prof(TAILORING, {
 			q(84591),	-- 0/20 Dawnweaving
 			q(84592),	-- 20/20 Dawnweaving

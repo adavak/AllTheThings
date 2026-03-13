@@ -1522,16 +1522,6 @@ FirstCraft = function(questID, recipeID, added, removed)
 	end
 	return t;
 end
--- Simple function for First Skin HQTs
-FirstSkin = function(questID, creatureID, added, t)
-	local t = hqt(questID, name(HEADERS.NPC, creatureID, t))
-	t.provider = { "n", creatureID };
-	t.isWeekly = true;
-	if added then
-		t.timeline = { added };
-	end
-	return t;
-end
 -- Simple function for Recipes with HQTs
 r_withQuest = function(recipeID, questID, added, description, maps)
 	local t = r(recipeID, {questID=questID})
