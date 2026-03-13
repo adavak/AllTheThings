@@ -545,8 +545,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 
-		-- TODO: Turn back to iensemble when parser is fixed
-		i(204888, {	-- Ensemble: Waveborne Diplomat's Regalia
+		iensemble(204888, {	-- Ensemble: Waveborne Diplomat's Regalia
 			["timeline"] = { ADDED_10_0_7 },
 			["groups"] = {
 				i(204882),	-- Waveborne Diplomat's Belt
@@ -557,7 +556,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 				i(204875),	-- Waveborne Diplomat's Puffed Pauldrons
 				i(204876),	-- Waveborne Diplomat's Vestment
 				i(204879),	-- Waveborne Diplomat's Waders
-				hqt(75449, {["collectible"]=false}),
 			},
 		}),
 
