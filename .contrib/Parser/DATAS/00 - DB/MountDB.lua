@@ -2382,3 +2382,10 @@ i(263579, 1270673);	-- Vivacious Chlorocoers
 i(263580, 1270675);	-- Vivid Chloroceros
 i(260696, 1266702);	-- Voidbound Stormray
 i(257200, 1261351);	-- Witherbark Pango
+
+------------------
+-- PATCH 12.0.5 --
+------------------
+i(264348, 1271698);	-- Unbound Manawyrm
+--- NYI ---
+i(268578, 1282936);	-- Void-Touched Hawkstrider

@@ -1695,6 +1695,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Legends of the Haranir",
 	[-739] = COVENANT_SANCTUM_TAB_RENOWN.." 2",
 	[-740] = COVENANT_SANCTUM_TAB_RENOWN.." 4",
+	[-741] = "Void Assaults & Ritual Sites",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -2410,6 +2411,7 @@ localize(L.HEADER_ICONS, {
 	[-738] = 7491037,
 	[-739] = 5015301,
 	[-740] = 5015301,
+	[-741] = 4914669,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,

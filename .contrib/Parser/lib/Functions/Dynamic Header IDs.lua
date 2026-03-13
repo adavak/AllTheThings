@@ -645,6 +645,7 @@ HeaderAssignments = {
 	["Vicious Gladiator"] = -256,
 	["Vindictive Gladiator: Legion Season 1"] = -269,
 	["Visions of Nzoth"] = -145,
+	["Void Assaults & Ritual Sites"] = -741,
 	["Volund's Folly"] = -436,
 	["Waist"] = -100,
 	["Wanderer's Festival"] = -591,
@@ -720,4 +721,4 @@ HeaderAssignments = {
 	["Zskera Vaults"] = -403,
 	["Zul'Gurub Hakkar Hardmode"] = -697,
 };
-NextHeaderID = -741;
+NextHeaderID = -742;

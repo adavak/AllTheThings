@@ -4609,3 +4609,10 @@ i(221495, 4497);	-- Waddles
 i(264303, 4972);	-- Willie
 i(251003, 4891);	-- Wrathful Wyrm
 i(262394, 4954);	-- Ziorg'pharon
+
+------------------
+-- PATCH 12.0.1 --
+------------------
+i(270989, 5039);	-- Cappy
+i(270331, 5037);	-- Void-Infused Mindbreaker Fry
+i(270330, 5036);	-- Void-Touched Dragonhawk Egg
