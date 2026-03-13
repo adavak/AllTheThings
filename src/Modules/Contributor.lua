@@ -2879,6 +2879,7 @@ MobileDB.GameObject = {
 	[587443] = true,	-- Ripe Grapes
 	[587913] = true,	-- Shabby Stockpile
 	[588950] = true,	-- Tusk Taker's Taken Tusk Trophy (q:93095)
+	[602746] = true,	-- Lady Selen'vjar Ritual Chest [Daggerspine Landing, Ritual Site]
 	[605174] = true,	-- Haunted Weapon Rack
 	[609858] = true,	-- Budget Friendly (q:93453)
 	[612079] = true,	-- Foul Carcass (q:93397)
@@ -2912,6 +2913,7 @@ MobileDB.GameObject = {
 	[628381] = true,	-- Weapon Rack (Arcantina)
 	[630870] = true,	-- Portal to Astalor's Sanctum
 	[638873] = true,	-- Orb of Translocation
+	[650051] = true,	-- Faithbreaker Ger'lok's Ritual Chest [Broken Throne, Ritual Site]
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
