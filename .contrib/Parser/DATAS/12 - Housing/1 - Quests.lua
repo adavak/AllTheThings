@@ -144,16 +144,16 @@ root(ROOTS.Housing, n(QUESTS, {
 			},
 		}),
 		-- Repeatables
-		q(92608, {	-- Furniture Favor
-			["qg"] = 252717,	-- Corlen Hordralin
-			["coords"] = {
-				{ 53.0, 37.3, FOUNDERS_POINT },
-				{ 53.9, 55.7, DORNOGAL },
-				{ 53.9, 55.7, RAZORWIND_SHORES },
-			},
-			["repeatable"] = true,
-			["groups"] = { i(253316) },	-- Scoped Max Falcon Stealth Dragon 90 (PQI!)
-		}),
+		-- q(92608, {	-- Furniture Favor (converted to Landscape Photography)
+		-- 	["qg"] = 252717,	-- Corlen Hordralin
+		-- 	["coords"] = {
+		-- 		{ 53.0, 37.3, FOUNDERS_POINT },
+		-- 		{ 53.9, 55.7, DORNOGAL },
+		-- 		{ 53.9, 55.7, RAZORWIND_SHORES },
+		-- 	},
+		-- 	["repeatable"] = true,
+		-- 	["groups"] = { i(253316) },	-- Scoped Max Falcon Stealth Dragon 90 (PQI!)
+		-- }),
 	},
 }));
 

@@ -2065,46 +2065,57 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(198498),	-- Contract: Valdrakken Accord++
 			i(198499),	-- Contract: Valdrakken Accord+++
 			i(194697, {	-- Draconic Treatise on Alchemy
+				["questID"] = 74108,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.ALCHEMY) },
 			}),
 			i(198454, {	-- Draconic Treatise on Blacksmithing
+				["questID"] = 74109,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.BLACKSMITHING) },
 			}),
 			i(194702, {	-- Draconic Treatise on Enchanting
+				["questID"] = 74110,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.ENCHANTING) },
 			}),
 			i(198510, {	-- Draconic Treatise on Engineering
+				["questID"] = 74111,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.ENGINEERING) },
 			}),
 			i(194704, {	-- Draconic Treatise on Herbalism
+				["questID"] = 74107,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.HERBALISM) },
 			}),
 			i(194699, {	-- Draconic Treatise on Inscription
+				["questID"] = 74105,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.INSCRIPTION) },
 			}),
 			i(194703, {	-- Draconic Treatise on Jewelcrafting
+				["questID"] = 74112,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.JEWELCRAFTING) },
 			}),
 			i(194700, {	-- Draconic Treatise on Leatherworking
+				["questID"] = 74113,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.LEATHERWORKING) },
 			}),
 			i(194708, {	-- Draconic Treatise on Mining
+				["questID"] = 74106,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.MINING) },
 			}),
 			i(201023, {	-- Draconic Treatise on Skinning
+				["questID"] = 74114,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.SKINNING) },
 			}),
 			i(194698, {	-- Draconic Treatise on Tailoring
+				["questID"] = 74115,
 				["isWeekly"] = true,
 				["groups"] = { currency(PROFESSION_KNOWLEDGE.DF.TAILORING) },
 			}),
