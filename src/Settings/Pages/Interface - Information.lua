@@ -260,6 +260,7 @@ local function ProcessForCompletedBy(t, reference, tooltipInfo)
 			end
 		end
 		BuildKnownByInfoForKind(tooltipInfo, L.COMPLETED_BY);
+		return
 	end
 
 	-- Completed By for Exploration
@@ -271,6 +272,19 @@ local function ProcessForCompletedBy(t, reference, tooltipInfo)
 			end
 		end
 		BuildKnownByInfoForKind(tooltipInfo, L.COMPLETED_BY);
+		return
+	end
+
+	-- Completed By for FirstCrafts
+	local id = reference.firstcraftID;
+	if id then
+		for _,character in pairs(ATTCharacterData) do
+			if character.FirstCrafts and character.FirstCrafts[id] then
+				tinsert(knownBy, character);
+			end
+		end
+		BuildKnownByInfoForKind(tooltipInfo, L.COMPLETED_BY);
+		return
 	end
 
 	-- Pre-WOD Known By types
