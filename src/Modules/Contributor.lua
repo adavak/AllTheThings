@@ -229,6 +229,7 @@ local MapPrecisionOverrides = {
 	[1702] = 2,	-- The Roots
 	[1703] = 5,	-- Heart of the Forest
 	[1912] = 10,	-- The Runecarver's Oubliette
+	[2215] = 0.25,	-- Hallowfall
 	[2328] = 3,	-- The Proscenium
 	[2438] = 5,	-- Scarlet Halls (Arator's Journey)
 	[2541] = 10,	-- Arcantina
@@ -266,9 +267,7 @@ local function Check_coords(objRef, maxCoordDistance)
 		-- quest has an accurate coord on accurate map
 		if closest > maxCoordDistance then
 			local reportData = BuildGenericReportData(objRef, id)
-			-- round to the tenth
-			closest = round(closest, 1)
-			reportData.VerifyOrAddCoords = ("Closest %s Coordinates are off by: %d on mapID: %d"):format(relCoords and "relative" or "existing", closest, mapID)
+			reportData.VerifyOrAddCoords = ("Closest %s Coordinates are off by: %.2f on mapID: %d"):format(relCoords and "relative" or "existing", closest, mapID)
 			AddReportData(objRef.__type,id,reportData)
 			return 1
 		end
