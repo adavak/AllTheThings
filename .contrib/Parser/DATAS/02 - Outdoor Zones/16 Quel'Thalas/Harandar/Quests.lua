@@ -258,7 +258,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 240533 },	-- Orweyna
 						["coord"] = { 35.7, 25.3, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							o(629603, {
+							o(629603, {	-- Glistening Seed Bag
 								["coord"] = { 34.9, 25.1, MAP.MIDNIGHT.HARANDAR },
 								["groups"] = { i(258623) },	-- Glistening Seed Bag (QI!)
 							}),
