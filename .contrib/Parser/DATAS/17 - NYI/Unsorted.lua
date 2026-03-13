@@ -200,10 +200,6 @@ root(ROOTS.Unsorted, {
 				i(254275),	-- Radiant Echo
 				i(254276),	-- Radiant Echo
 				i(254984),	-- Potent Assassin's Subtle Tea
-				i(257380),	-- Player Experience
-				i(257381),	-- Player Experience
-				i(257383),	-- Companion Experience
-				i(257384),	-- Companion Experience
 
 				-- Crests!
 				i(246745),	-- Triumphant Satchel of Carved Ethereal Crests
@@ -243,10 +239,6 @@ root(ROOTS.Unsorted, {
 				i(265015),	-- Echo of Radiance
 				i(265016),	-- Echo of Radiance
 
-				--misc
-				i(263354),	-- Filling the Void in Your Heart
-				i(263379),	-- Personal Advertising Platform
-				i(263380),	-- Recruitment Pamphlets
 				-- DElve
 				i(249228),	-- 12.0 Delves - Season 1 - Curio - Utility 5
 				-- Cache
@@ -397,13 +389,6 @@ root(ROOTS.Unsorted, {
 				i(258031),	-- Vaunted Preyseeker's Knapsack
 				i(258032),	-- Ensemble: Skilled Preyseeker's Attire
 				i(259954),	-- [DNT] 12.0 Prey - Weapon - 1H Mace STR - A
-				-- Anglers
-				i(253516),	-- Depthdiver's Used Tank \\ Oxygen Tank II
-				i(253624),	-- Fathom-Tested Tank \\ Oxygen Tank III
-				i(253625),	-- Nalorakk's Breath Tank \\ Oxygen Tank IV
-				i(253626),	-- Reinforced Joints \\ Dive Suit II
-				i(253627),	-- Depth Grease \\ Dive Suit III
-				i(253628),	-- Pahk Trench Fins \\ Dive Suit IV
 				-- Prey
 				i(262596),	-- Preyseeker's Satchel of Voidlight Marl
 				i(262622),	-- Preyseeker's Satchel of Coffer Key Shards
@@ -420,17 +405,6 @@ root(ROOTS.Unsorted, {
 				i(262636),	-- Anguish-Scribed Rune
 				i(262637),	-- Anguish-Infused Rune
 				i(262638),	-- Anguish-Permeated Rune
-
-
-
-				-- Abyss
-				i(265767),	-- Loaknit-Woven Catch Satchel
-				i(265768),	-- Amazardhide Catch Case
-				i(265769),	-- Boarhide Catch Sack
-				i(265770),	-- Triple-Thread Net
-				i(265771),	-- Shallows Net \\ Small Net
-				i(265778),	-- Hollowcore Harpoon Turret
-				i(265779),	-- Heavy Harpoon Cannon
 			}),
 			filter(MOUNTS, {
 				i(260896),	-- Accented Pseudoshell (MOUNT!) [Trading Post]
