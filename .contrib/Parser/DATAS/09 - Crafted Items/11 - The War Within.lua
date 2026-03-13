@@ -1523,92 +1523,47 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(213611),	-- Writhing Sample
 		}),
 		n(DISCOVERY, {
-			r(435858),	-- Altered Luredrop
-			r(435840),	-- Altered Mycobloom
-			r(435864),	-- Altered Orbinid
-			r(435826),	-- Arathor's Spear
-			r(435823),	-- Blessing Blossom
-			r(435879),	-- Camouflaged Arathor's Spear
-			r(435872),	-- Camouflaged Blessing Blossom
-			r(435860),	-- Camouflaged Luredrop
-			r(435851),	-- Camouflaged Mycobloom
-			r(435866),	-- Camouflaged Orbinid
-			r(435877),	-- Crystallized Arathor's Spear
-			r(435870),	-- Crystallized Blessing Blossom
-			r(435857),	-- Crystallized Luredrop
-			r(435838),	-- Crystallized Mycobloom
-			r(435862),	-- Crystallized Orbinid
+			r_withQuest(435858, 79916);	-- Altered Luredrop
+			r_withQuest(435840, 79909);	-- Altered Mycobloom
+			r_withQuest(435864, 79923);	-- Altered Orbinid
+			r_withQuest(435826, 79933);	-- Arathor's Spear
+			r_withQuest(435823, 79927);	-- Blessing Blossom
+			r_withQuest(435879, 79937);	-- Camouflaged Arathor's Spear
+			r_withQuest(435872, 79931);	-- Camouflaged Blessing Blossom
+			r_withQuest(435860, 79918);	-- Camouflaged Luredrop
+			r_withQuest(435851, 79911);	-- Camouflaged Mycobloom
+			r_withQuest(435866, 79925);	-- Camouflaged Orbinid
+			r_withQuest(435877, 79935);	-- Crystallized Arathor's Spear
+			r_withQuest(435870, 79929);	-- Crystallized Blessing Blossom
+			r_withQuest(435857, 79915);	-- Crystallized Luredrop
+			r_withQuest(435838, 79908);	-- Crystallized Mycobloom
+			r_withQuest(435862, 79922);	-- Crystallized Orbinid
 			r(439871),	-- Green Thumb
-			r(435878),	-- Irradiated Arathor's Spear
-			r(435871),	-- Irradiated Blessing Blossom
-			r(435859),	-- Irradiated Luredrop
-			r(435843),	-- Irradiated Mycobloom
-			r(435865),	-- Irradiated Orbinid
-			r(435821),	-- Luredrop
-			r(435836),	-- Lush Arathor's Spear
-			r(435834),	-- Lush Blessing Blossom
-			r(435829),	-- Lush Luredrop
-			r(435812),	-- Lush Mycobloom
-			r(435830),	-- Lush Orbinid
-			r(1250317, {["timeline"] = {ADDED_11_2_0}}),	-- Lush Phantom Bloom
-			r(435822),	-- Orbinid
+			r_withQuest(435878, 79936);	-- Irradiated Arathor's Spear
+			r_withQuest(435871, 79930);	-- Irradiated Blessing Blossom
+			r_withQuest(435859, 79917);	-- Irradiated Luredrop
+			r_withQuest(435843, 79910);	-- Irradiated Mycobloom
+			r_withQuest(435865, 79924);	-- Irradiated Orbinid
+			r_withQuest(435821, 79913);	-- Luredrop
+			r_withQuest(435836, 79934);	-- Lush Arathor's Spear
+			r_withQuest(435834, 79928);	-- Lush Blessing Blossom
+			r_withQuest(435829, 79914);	-- Lush Luredrop
+			r_withQuest(435812, 79907);	-- Lush Mycobloom
+			r_withQuest(435830, 79921);	-- Lush Orbinid
+			r_withQuest(1250317, 92133, ADDED_11_2_0);	-- Lush Phantom Bloom
+			r_withQuest(435822, 79920);	-- Orbinid
 			r(438953),	-- Overload Altered Herb
 			r(438952),	-- Overload Crystallized Herb
 			r(423395),	-- Overload Empowered Herb
 			r(438955),	-- Overload Irradiated Herb
 			r(438961),	-- Overload Sporefused Herb
-			r(1250314, {["timeline"] = {ADDED_11_2_0}}),	-- Phantom Bloom
-			r(435880),	-- Sporefused Arathor's Spear
-			r(435873),	-- Sporefused Blessing Blossom
-			r(435861),	-- Sporefused Luredrop
-			r(435850),	-- Sporefused Mycobloom
-			r(435867),	-- Sporefused Orbinid
+			r_withQuest(1250314, 92132, ADDED_11_2_0);	-- Phantom Bloom
+			r_withQuest(435880, 79938);	-- Sporefused Arathor's Spear
+			r_withQuest(435873, 79932);	-- Sporefused Blessing Blossom
+			r_withQuest(435861, 79919);	-- Sporefused Luredrop
+			r_withQuest(435850, 79912);	-- Sporefused Mycobloom
+			r_withQuest(435867, 79926);	-- Sporefused Orbinid
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = HERBALISM,
-		},{
-			-- Arathor's Spear
-			FirstCraft(79933, 435826);	-- Arathor's Spear
-			FirstCraft(79937, 435879);	-- Camouflaged Arathor's Spear
-			FirstCraft(79935, 435877);	-- Crystallized Arathor's Spear
-			FirstCraft(79936, 435878);	-- Irradiated Arathor's Spear
-			FirstCraft(79934, 435836);	-- Lush Arathor's Spear
-			FirstCraft(79938, 435880);	-- Sporefused Arathor's Spear
-			-- Blessing Blossom
-			FirstCraft(79927, 435823);	-- Blessing Blossom
-			FirstCraft(79931, 435872);	-- Camouflaged Blessing Blossom
-			FirstCraft(79929, 435870);	-- Crystallized Blessing Blossom
-			FirstCraft(79930, 435871);	-- Irradiated Blessing Blossom
-			FirstCraft(79928, 435834);	-- Lush Blessing Blossom
-			FirstCraft(79932, 435873);	-- Sporefused Blessing Blossom
-			-- Luredrop
-			FirstCraft(79913, 435821);	-- Luredrop
-			FirstCraft(79916, 435858);	-- Altered Luredrop
-			FirstCraft(79918, 435860);	-- Camouflaged Luredrop
-			FirstCraft(79915, 435857);	-- Crystallized Luredrop
-			FirstCraft(79917, 435859);	-- Irradiated Luredrop
-			FirstCraft(79914, 435829);	-- Lush Luredrop
-			FirstCraft(79919, 435861);	-- Sporefused Luredrop
-			-- Mycobloom
-			FirstCraft(79906, 435811);	-- Mycobloom
-			FirstCraft(79909, 435840);	-- Altered Mycobloom
-			FirstCraft(79911, 435851);	-- Camouflaged Mycobloom
-			FirstCraft(79908, 435838);	-- Crystallized Mycobloom
-			FirstCraft(79910, 435843);	-- Irradiated Mycobloom
-			FirstCraft(79907, 435812);	-- Lush Mycobloom
-			FirstCraft(79912, 435850);	-- Sporefused Mycobloom
-			-- Orbinid
-			FirstCraft(79920, 435822);	-- Orbinid
-			FirstCraft(79923, 435864);	-- Altered Orbinid
-			FirstCraft(79925, 435866);	-- Camouflaged Orbinid
-			FirstCraft(79922, 435862);	-- Crystallized Orbinid
-			FirstCraft(79924, 435865);	-- Irradiated Orbinid
-			FirstCraft(79921, 435830);	-- Lush Orbinid
-			FirstCraft(79926, 435867);	-- Sporefused Orbinid
-			-- Phantom Bloom
-			FirstCraft(92132, 1250314, ADDED_11_2_0);	-- Phantom Bloom
-			FirstCraft(92133, 1250317, ADDED_11_2_0);	-- Lush Phantom Bloom
-		})),
 	}),
 	prof(INSCRIPTION, {
 		salvagerecipe(444181, 222545, {	-- Khaz Algar Milling

@@ -1532,7 +1532,14 @@ FirstSkin = function(questID, creatureID, added, t)
 	end
 	return t;
 end
-
+-- Simple function for Recipes with HQTs
+r_withQuest = function(recipeID, questID, added)
+	local t = r(recipeID, {questID=questID})
+	if added then
+		t.timeline = { added };
+	end
+    return t
+end
 -- Outdoor Zones Headers with Filters
 battlepets = function(timeline, t)						-- Creates a BATTLE_PETS header with pet battle filter on it. Use this with Outdoor Zones.
 	if not t then

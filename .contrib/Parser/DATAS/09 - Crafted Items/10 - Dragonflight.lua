@@ -1698,108 +1698,57 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 				["groups"] = sharedData({
 					["maps"] = { EMERALD_DREAM }
 				},{
-					r(422293),	-- Overload Overgrown Herb
-					r(421176),	-- Overgrown Bubble Poppy
-					r(421224),	-- Overgrown Hochenblume
-					r(421226),	-- Overgrown Saxifrage
-					r(421227),	-- Overgrown Writhebark
+					r_withQuest(421176, 77824),	-- Overgrown Bubble Poppy
+					r_withQuest(421224, 77823),	-- Overgrown Hochenblume
+					r_withQuest(421226, 77826),	-- Overgrown Saxifrage
+					r_withQuest(421227, 77825),	-- Overgrown Writhebark
+					r_withQuest(422293, 78007),	-- Overload Overgrown Herb
 				}),
 			})),
 			header(HEADERS.Map, ZARALEK_CAVERN, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 }, }, {
 				["groups"] = sharedData({
 					["maps"] = { ZARALEK_CAVERN }
 				},{
-					r(405124),	-- Lambent Bubble Poppy
-					r(405123),	-- Lambent Hochenblume
-					r(405126),	-- Lambent Saxifrage
-					r(405127),	-- Lambent Writhebark
-					r(405134),	-- Overload Lambent Herb
+					r_withQuest(405124, 75142),	-- Lambent Bubble Poppy
+					r_withQuest(405123, 75141),	-- Lambent Hochenblume
+					r_withQuest(405126, 75143),	-- Lambent Saxifrage
+					r_withQuest(405127, 75144),	-- Lambent Writhebark
+					r_withQuest(405134, 75138),	-- Overload Lambent Herb
 				}),
 			})),
-			r(391444),	-- Bubble Poppy
-			r(391507),	-- Decayed Bubble Poppy
-			r(391492),	-- Decayed Hochenblume
-			r(391500),	-- Decayed Saxifrage
-			r(391508),	-- Decayed Writhebark
-			r(391509),	-- Frigid Bubble Poppy
-			r(391460),	-- Frigid Hochenblume
-			r(391501),	-- Frigid Saxifrage
-			r(391510),	-- Frigid Writhebark
-			r(391505),	-- Infurious Bubble Poppy
-			r(391498),	-- Infurious Hochenblume
-			r(391499),	-- Infurious Saxifrage
-			r(391506),	-- Infurious Writhebark
-			r(391511),	-- Lush Bubble Poppy
-			r(391415),	-- Lush Hochenblume
-			r(391502),	-- Lush Saxifrage
-			r(391512),	-- Lush Writhebark
-			r(391564),	-- Overload Decayed Herb
-			r(391562),	-- Overload Frigid Herb
-			r(391558),	-- Overload Infurious Herb
-			r(391557),	-- Overload Titan-Touched Herb
-			r(391560),	-- Overload Windswept Herb
-			r(391441),	-- Saxifrage
-			r(391513),	-- Titan-Touched Bubble Poppy
-			r(391496),	-- Titan-Touched Hochenblume
-			r(391503),	-- Titan-Touched Saxifrage
-			r(391514),	-- Titan-Touched Writhebark
-			r(391515),	-- Windswept Bubble Poppy
-			r(391431),	-- Windswept Hochenblume
-			r(391504),	-- Windswept Saxifrage
-			r(391516),	-- Windswept Writhebark
-			r(391447),	-- Writhebark
+			r_withQuest(391444, 71972),	-- Bubble Poppy
+			r_withQuest(391507, 71990),	-- Decayed Bubble Poppy
+			r_withQuest(391492, 71988),	-- Decayed Hochenblume
+			r_withQuest(391500, 71991),	-- Decayed Saxifrage
+			r_withQuest(391508, 71989),	-- Decayed Writhebark
+			r_withQuest(391509, 71982),	-- Frigid Bubble Poppy
+			r_withQuest(391460, 71980),	-- Frigid Hochenblume
+			r_withQuest(391501, 71983),	-- Frigid Saxifrage
+			r_withQuest(391510, 71981),	-- Frigid Writhebark
+			r_withQuest(391505, 71994),	-- Infurious Bubble Poppy
+			r_withQuest(391498, 71992),	-- Infurious Hochenblume
+			r_withQuest(391499, 72341),	-- Infurious Saxifrage
+			r_withQuest(391506, 71993),	-- Infurious Writhebark
+			r_withQuest(391511, 71973),	-- Lush Bubble Poppy
+			r_withQuest(391415, 71969),	-- Lush Hochenblume
+			r_withQuest(391502, 71975),	-- Lush Saxifrage
+			r_withQuest(391512, 71971),	-- Lush Writhebark
+			r_withQuest(391564, 72345),	-- Overload Decayed Herb
+			r_withQuest(391562, 72343),	-- Overload Frigid Herb
+			r_withQuest(391558, 72348),	-- Overload Infurious Herb
+			r_withQuest(391557, 72344),	-- Overload Titan-Touched Herb
+			r_withQuest(391560, 72342),	-- Overload Windswept Herb
+			r_withQuest(391441, 71974),	-- Saxifrage
+			r_withQuest(391513, 71986),	-- Titan-Touched Bubble Poppy
+			r_withQuest(391496, 71984),	-- Titan-Touched Hochenblume
+			r_withQuest(391503, 71987),	-- Titan-Touched Saxifrage
+			r_withQuest(391514, 71985),	-- Titan-Touched Writhebark
+			r_withQuest(391515, 71978),	-- Windswept Bubble Poppy
+			r_withQuest(391431, 71976),	-- Windswept Hochenblume
+			r_withQuest(391504, 71979),	-- Windswept Saxifrage
+			r_withQuest(391516, 71977),	-- Windswept Writhebark
+			r_withQuest(391447, 71970),	-- Writhebark
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = HERBALISM,
-		},{
-			-- Bubble Poppy
-			FirstCraft(71972, 391444);	-- Bubble Poppy
-			FirstCraft(71990, 391507);	-- Decayed Bubble Poppy
-			FirstCraft(71982, 391509);	-- Frigid Bubble Poppy
-			FirstCraft(71994, 391505);	-- Infurious Bubble Poppy
-			FirstCraft(75142, 405124, ADDED_10_1_0);	-- Lambent Bubble Poppy
-			FirstCraft(71973, 391511);	-- Lush Bubble Poppy
-			FirstCraft(77824, 421176, ADDED_10_2_0);	-- Overgrown Bubble Poppy
-			FirstCraft(71986, 391513);	-- Titan-Touched Bubble Poppy
-			FirstCraft(71978, 391515);	-- Windswept Bubble Poppy
-			-- Hochenblume
-			FirstCraft(71988, 391492);	-- Decayed Hochenblume
-			FirstCraft(71980, 391460);	-- Frigid Hochenblume
-			FirstCraft(71992, 391498);	-- Infurious Hochenblume
-			FirstCraft(75141, 405123, ADDED_10_1_0);	-- Lambent Hochenblume
-			FirstCraft(71969, 391415);	-- Lush Hochenblume
-			FirstCraft(77823, 421224, ADDED_10_2_0);	-- Overgrown Hochenblume
-			FirstCraft(71984, 391496);	-- Titan-Touched Hochenblume
-			FirstCraft(71976, 391431);	-- Windswept Hochenblume
-			-- Saxifrage
-			FirstCraft(71974, 391441);	-- Saxifrage
-			FirstCraft(71991, 391500);	-- Decayed Saxifrage
-			FirstCraft(71983, 391501);	-- Frigid Saxifrage
-			FirstCraft(72341, 391499);	-- Infurious Saxifrage
-			FirstCraft(75143, 405126, ADDED_10_1_0);	-- Lambent Saxifrage
-			FirstCraft(71975, 391502);	-- Lush Saxifrage
-			FirstCraft(77826, 421226, ADDED_10_2_0);	-- Overgrown Saxifrage
-			FirstCraft(71987, 391503);	-- Titan-Touched Saxifrage
-			FirstCraft(71979, 391504);	-- Windswept Saxifrage
-			-- Writhebark
-			FirstCraft(71970, 391447);	-- Writhebark
-			FirstCraft(71989, 391508);	-- Decayed Writhebark
-			FirstCraft(71981, 391510);	-- Frigid Writhebark
-			FirstCraft(71993, 391506);	-- Infurious Writhebark
-			FirstCraft(75144, 405127, ADDED_10_1_0);	-- Lambent Writhebark
-			FirstCraft(71971, 391512);	-- Lush Writhebark
-			FirstCraft(77825, 421227, ADDED_10_2_0);	-- Overgrown Writhebark
-			FirstCraft(71985, 391514);	-- Titan-Touched Writhebark
-			FirstCraft(71977, 391516);	-- Windswept Writhebark
-			-- Overload
-			FirstCraft(72345, 391564);	-- Overload Decayed Herb
-			FirstCraft(72343, 391562);	-- Overload Frigid Herb
-			FirstCraft(72348, 391558);	-- Overload Infurious Herb
-			FirstCraft(75138, 405134, ADDED_10_1_0);	-- Overload Lambent Herb
-			FirstCraft(78007, 422293, ADDED_10_2_0);	-- Overload Overgrown Herb
-			FirstCraft(72344, 391557);	-- Overload Titan-Touched Herb
-			FirstCraft(72342, 391560);	-- Overload Windswept Herb
-		})),
 	}),
 	prof(INSCRIPTION, {
 		salvagerecipe(382981, 198390, {	-- Dragon Isles Milling

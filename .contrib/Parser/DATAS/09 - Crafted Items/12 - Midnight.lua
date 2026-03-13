@@ -1086,81 +1086,41 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(HERBALISM, {
 		n(DISCOVERY, {
-			-- Section I - Peacebloom
-			r(1224883),	-- Lightfused Tranquility Bloom
-			r(1223148),	-- Lush Tranquility Bloom
-			r(1224888),	-- Primal Tranquility Bloom
-			r(1223099),	-- Tranquility Bloom
-			r(1224898),	-- Voidbound Tranquility Bloom
-			r(1224893),	-- Wild Tranquility Bloom
-			-- Section II - Sanguithorn
-			r(1224886),	-- Lightfused Sanguithorn
-			r(1223151),	-- Lush Sanguithorn
-			r(1224891),	-- Primal Sanguithorn
-			r(1223135),	-- Sanguithorn
-			r(1224901),	-- Voidbound Sanguithorn
-			r(1224896),	-- Wild Sanguithorn
-			-- Section III - Azeroot
-			r(1223137),	-- Azeroot
-			r(1224885),	-- Lightfused Azeroot
-			r(1223150),	-- Lush Azeroot
-			r(1224890),	-- Primal Azeroot
-			r(1224900),	-- Voidbound Azeroot
-			r(1224895),	-- Wild Azeroot
-			-- Section IV - Argentleaf
-			r(1223138),	-- Argentleaf
-			r(1224882),	-- Lightfused Argentleaf
-			r(1223146),	-- Lush Argentleaf
-			r(1224887),	-- Primal Argentleaf
-			r(1224897),	-- Voidbound Argentleaf
-			r(1224892),	-- Wild Argentleaf
-			-- Section V - Mana Lily
-			r(1223139),	-- Mana Lily
-			r(1224884),	-- Lightfused Mana Lily
-			r(1223149),	-- Lush Mana Lily
-			r(1224889),	-- Primal Mana Lily
-			r(1224899),	-- Voidbound Mana Lily
-			r(1224894),	-- Wild Mana Lily
-			-- Appendix II - Overload
+			r_withQuest(1223138, 87747),	-- Argentleaf
+			r_withQuest(1223137, 87741),	-- Azeroot
+			r_withQuest(1224882, 87749),	-- Lightfused Argentleaf
+			r_withQuest(1224885, 87743),	-- Lightfused Azeroot
+			r_withQuest(1224884, 87755),	-- Lightfused Mana Lily
+			r_withQuest(1224886, 87737),	-- Lightfused Sanguithorn
+			r_withQuest(1224883, 87731),	-- Lightfused Tranquility Bloom
+			r_withQuest(1223146, 87748),	-- Lush Argentleaf
+			r_withQuest(1223150, 87742),	-- Lush Azeroot
+			r_withQuest(1223149, 87754),	-- Lush Mana Lily
+			r_withQuest(1223151, 87736),	-- Lush Sanguithorn
+			r_withQuest(1223148, 87730),	-- Lush Tranquility Bloom
+			r_withQuest(1223139, 87753),	-- Mana Lily
 			r(1225128),	-- Overload Lightfused Herb
 			r(1225137),	-- Overload Primal Herb
 			r(1225144),	-- Overload Voidbound Herb
 			r(1225150),	-- Overload Wild Herb
+			r_withQuest(1224887, 87751),	-- Primal Argentleaf
+			r_withQuest(1224890, 87745),	-- Primal Azeroot
+			r_withQuest(1224889, 87757),	-- Primal Mana Lily
+			r_withQuest(1224891, 87739),	-- Primal Sanguithorn
+			r_withQuest(1224888, 87733),	-- Primal Tranquility Bloom
+			r_withQuest(1223135, 87735),	-- Sanguithorn
+			r_withQuest(1223099, 87729),	-- Tranquility Bloom
+			r_withQuest(1224897, 87752),	-- Voidbound Argentleaf
+			r_withQuest(1224900, 87746),	-- Voidbound Azeroot
+			r_withQuest(1224899, 87758),	-- Voidbound Mana Lily
+			r_withQuest(1224901, 87740),	-- Voidbound Sanguithorn
+			r_withQuest(1224898, 87734),	-- Voidbound Tranquility Bloom
+			r_withQuest(1224892, 87750),	-- Wild Argentleaf
+			r_withQuest(1224895, 87744),	-- Wild Azeroot
+			r_withQuest(1224894, 87756),	-- Wild Mana Lily
+			r_withQuest(1224896, 87738),	-- Wild Sanguithorn
+			r_withQuest(1224893, 87732),	-- Wild Tranquility Bloom
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = HERBALISM,
-		},{
-			FirstCraft(87731, 1224883),	-- Lightfused Tranquility Bloom
-			FirstCraft(87730, 1223148),	-- Lush Tranquility Bloom
-			FirstCraft(87733, 1224888),	-- Primal Tranquility Bloom
-			FirstCraft(87729, 1223099),	-- Tranquility Bloom
-			FirstCraft(87734, 1224898),	-- Voidbound Tranquility Bloom
-			FirstCraft(87732, 1224893),	-- Wild Tranquility Bloom
-			FirstCraft(87737, 1224886),	-- Lightfused Sanguithorn
-			FirstCraft(87736, 1223151),	-- Lush Sanguithorn
-			FirstCraft(87739, 1224891),	-- Primal Sanguithorn
-			FirstCraft(87735, 1223135),	-- Sanguithorn
-			FirstCraft(87740, 1224901),	-- Voidbound Sanguithorn
-			FirstCraft(87738, 1224896),	-- Wild Sanguithorn
-			FirstCraft(87741, 1223137),	-- Azeroot
-			FirstCraft(87743, 1224885),	-- Lightfused Azeroot
-			FirstCraft(87742, 1223150),	-- Lush Azeroot
-			FirstCraft(87745, 1224890),	-- Primal Azeroot
-			FirstCraft(87746, 1224900),	-- Voidbound Azeroot
-			FirstCraft(87744, 1224895),	-- Wild Azeroot
-			FirstCraft(87747, 1223138),	-- Argentleaf
-			FirstCraft(87749, 1224882),	-- Lightfused Argentleaf
-			FirstCraft(87748, 1223146),	-- Lush Argentleaf
-			FirstCraft(87751, 1224887),	-- Primal Argentleaf
-			FirstCraft(87752, 1224897),	-- Voidbound Argentleaf
-			FirstCraft(87750, 1224892),	-- Wild Argentleaf
-			FirstCraft(87753, 1223139),	-- Mana Lily
-			FirstCraft(87755, 1224884),	-- Lightfused Mana Lily
-			FirstCraft(87754, 1223149),	-- Lush Mana Lily
-			FirstCraft(87757, 1224889),	-- Primal Mana Lily
-			FirstCraft(87758, 1224899),	-- Voidbound Mana Lily
-			FirstCraft(87756, 1224894),	-- Wild Mana Lily
-		})),
 		i(236776),	-- Argentleaf+
 		i(236777),	-- Argentleaf++
 		i(236774),	-- Azeroot+
