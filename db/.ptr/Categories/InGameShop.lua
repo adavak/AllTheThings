@@ -1,8 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
-local ach,crit,en,flt,h,i,mnt,p,s,toy=_.CreateAchievement,_.CreateAchievementCriteria,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateItemSource,_.CreateToy;
-local a={{70}};
+local ach,crit,en,flt,h,i,mnt,p,q,s,toy=_.CreateAchievement,_.CreateAchievementCriteria,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateToy;
 categories.InGameShop=
 h(-213,{SortPriority=85,g={
 h(-12,{u=3,g={
@@ -33,11 +32,12 @@ p(3253,{awp=100105,itemID=190608,npcID=185611,spellID=367778,u=3}),
 p(2780,{awp=90005,npcID=158142,u=3}),
 p(1386,{awp=100100,itemID=109014,npcID=77137,spellID=155748,u=3,g={
 crit(24600,{achID=8917,id=3,u=3})}}),
-p(4264,{awp=110105,b=1,itemID=208446,npcID=209163,spellID=419467,u=3}),
+p(4264,{awp=110105,b=1,itemID=208446,npcID=209163,spellID=419467,u=3}),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+p(4894,{awp=110207,itemID=252650,npcID=251511,spellID=1254822,u=3})),
 p(297,{awp=40003,b=1,itemID=68385,npcID=51600,spellID=95787,u=3}),
 p(3249,{awp=90205,b=1,itemID=190586,npcID=185586,spellID=367702,u=3}),
 p(671,{awp=80300,itemID=85871,npcID=63832,spellID=124660,u=3,g={
-crit(34637,{achID=6848,id=3,u=3})}}),
+crit(34637,{achID=6848,id=3,u=2})}}),
 p(3175,{awp=100200,npcID=181535,u=3}),
 p(4855,{awp=110205,itemID=246342,npcID=246662,rwp=110207,spellID=1241760,u=2}),
 p(4796,{awp=110107,itemID=239082,npcID=241416,spellID=1227251,u=3}),
@@ -80,7 +80,7 @@ i(105912,{rwp=60002,spellID=149223,u=2})}}),
 flt(2,{u=3,g={
 en(208943,{awp=110000,questID=77952,spellID=421823,tmogSetID=3122,u=3,g={
 s(190158,208939,{f=25,spellID=423956}),
-s(190159,208940,{f=28,lvl=a[1],spellID=423960}),
+s(190159,208940,{f=28,lvl={70},spellID=423960}),
 s(190160,208941,{f=20,spellID=423959}),
 s(190162,208959,{f=25,spellID=423958}),
 s(190163,208962,{f=26,spellID=423957})}}),
@@ -177,10 +177,10 @@ en(239481,{awp=110200,questID=89508,spellID=1228334,tmogSetID=4398,u=3,g={
 s(285237,237388,{f=26}),
 s(285239,237390,{f=25}),
 s(285316,237476,{f=28}),
-s(285319,237479,{f=21,lvl=a[1]}),
-s(285321,237481,{f=20,lvl=a[1]}),
-s(285323,237483,{f=27,lvl=a[1]}),
-s(285325,237487,{f=1,lvl=a[1]}),
+s(285319,237479,{f=21,lvl={70}}),
+s(285321,237481,{f=20,lvl={70}}),
+s(285323,237483,{f=27,lvl={70}}),
+s(285325,237487,{f=1,lvl={70}}),
 s(287101,237852,{f=8}),
 s(287269,238022,{f=23}),
 s(287445,238402,{f=29}),
@@ -189,9 +189,9 @@ en(239445,{awp=110200,questID=89504,spellID=1228332,tmogSetID=4397,u=3,g={
 s(285236,237387,{f=26}),
 s(285240,237391,{f=25}),
 s(285315,237475,{f=28}),
-s(285318,237478,{f=21,lvl=a[1]}),
-s(285320,237480,{f=20,lvl=a[1]}),
-s(285322,237482,{f=27,lvl=a[1]}),
+s(285318,237478,{f=21,lvl={70}}),
+s(285320,237480,{f=20,lvl={70}}),
+s(285322,237482,{f=27,lvl={70}}),
 s(285324,237486,{f=1}),
 s(287100,237851,{f=8}),
 s(287268,238021,{f=23}),
@@ -314,15 +314,16 @@ s(230531,233037,{f=2}),
 s(230532,233038,{f=2}),
 s(230533,233039,{f=2}),
 s(230534,233040,{f=3})}}),
-en(204888,{awp=100007,questID=75449,spellID=407401,tmogSetID=2857,u=3,g={
-s(185909,204882,{f=2}),
-s(185910,204881,{f=3}),
-s(185911,204880,{f=2}),
-s(185912,204879,{f=2}),
-s(185913,204878,{f=2}),
-s(185914,204876,{f=2}),
-s(185915,204875,{f=2}),
-s(185916,204874,{f=2})}}),
+i(204888,{awp=100007,f=55,providers={{"i",200915}},questID=72082,spellID=407401,tmogSetID=2857,u=3,g={
+s(185909,204882,{f=2,u=3}),
+s(185910,204881,{f=3,u=3}),
+s(185916,204874,{f=2,u=3}),
+s(185913,204878,{f=2,u=3}),
+s(185911,204880,{f=2,u=3}),
+s(185915,204875,{f=2,u=3}),
+s(185914,204876,{f=2,u=3}),
+s(185912,204879,{f=2,u=3}),
+q(75449,{collectible=false,type="hqt",u=3})}}),
 en(255827,{awp=110205,spellID=1259474,tmogSetID=2293,u=3,g={
 s(165610,188256,{f=3}),
 s(165611,188257,{f=3}),

@@ -156,17 +156,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 239795 },	-- Zur'ashar Kassameh
 						["coord"] = { 34.9, 42.8, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							i(256176),	-- Spire of Painted Memories
-							i(256178),	-- Spear of Painted Memories
-							i(256179),	-- Bow of Painted Memories
-							i(256181),	-- Glaive of Painted Memories
 							i(256182),	-- Blade of Painted Memories
-							i(256183),	-- Sword of Painted Memories
+							i(256179),	-- Bow of Painted Memories
 							i(256185),	-- Cudgel of Painted Memories
-							i(256187),	-- Mace of Painted Memories
-							i(256189),	-- Knife of Painted Memories
-							i(256191),	-- Handaxe of Painted Memories
+							i(256181),	-- Glaive of Painted Memories
 							i(256230),	-- Greatsword of Painted Memories
+							i(256191),	-- Handaxe of Painted Memories
+							i(256189),	-- Knife of Painted Memories
+							i(256187),	-- Mace of Painted Memories
+							i(256178),	-- Spear of Painted Memories
+							i(256176),	-- Spire of Painted Memories
+							i(256183),	-- Sword of Painted Memories
 						},
 					}),
 					q(86912, {	-- Down the Rootways
