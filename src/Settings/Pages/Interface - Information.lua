@@ -240,7 +240,11 @@ local function ProcessForCompletedBy(t, reference, tooltipInfo)
 	if reference.objectiveID then return end
 
 	-- Completed By for Quests
-	local id = reference.questID;
+	local id =
+		-- we now have Recipes which are linked to QuestID, so let's ignore showing questID completion for those since
+		-- the Recipe is shown in 'Known by'
+		not reference.recipeID
+		and reference.questID
 	if id and (not KnownByIgnoredTypes[reference.__type] or reference.perCharacter) then
 		-- Account-Wide Quests
 		if app.AccountWideQuestsDB[id] then
