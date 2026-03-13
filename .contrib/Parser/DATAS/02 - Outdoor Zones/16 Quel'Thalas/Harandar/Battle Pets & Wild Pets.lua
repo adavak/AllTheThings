@@ -33,12 +33,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coords"] = {
 					{ 50.5, 26.9, MAP.MIDNIGHT.HARANDAR },
 					{ 56.0, 60.9, MAP.MIDNIGHT.HARANDAR },
+					{ 71.7, 53.3, MAP.MIDNIGHT.HARANDAR },
 				},
 			}),
 			i(221495, {	-- Waddles (PET!)
 				["crs"] = { 222077 },	-- Waddles
 				["coords"] = {
 					{ 60.9, 19.4, MAP.MIDNIGHT.HARANDAR },
+					{ 61.4, 18.1, MAP.MIDNIGHT.HARANDAR },
 				},
 			}),
 		}),

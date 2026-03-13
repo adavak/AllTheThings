@@ -1694,6 +1694,7 @@ localize(L.HEADER_NAMES, {
 	[-736] = BATTLE_PET_SOURCE_8,
 	[-738] = "Legends of the Haranir",
 	[-739] = COVENANT_SANCTUM_TAB_RENOWN.." 2",
+	[-740] = COVENANT_SANCTUM_TAB_RENOWN.." 4",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -2408,6 +2409,7 @@ localize(L.HEADER_ICONS, {
 	[-736] = _.asset("category_promo"),
 	[-738] = 7491037,
 	[-739] = 5015301,
+	[-740] = 5015301,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -26303,6 +26305,7 @@ localize(L.HEADER_NAMES, {
 	[-709] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
 	[-710] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 	[-729] = "Überfluss",
+	[-738] = "Legenden der Haranir",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -33896,6 +33899,7 @@ localize(L.HEADER_NAMES, {
 	[-709] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
 	[-710] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 	[-729] = "Abondance",
+	[-738] = "Légendes des Haranir",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -41091,6 +41095,7 @@ localize(L.HEADER_NAMES, {
 	[-709] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
 	[-710] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 	[-729] = "Abbondanza",
+	[-738] = "Leggende degli Haranir",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -47594,6 +47599,7 @@ localize(L.HEADER_NAMES, {
 	[-709] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
 	[-710] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 	[-729] = "Abundância",
+	[-738] = "Lendas dos Haranir",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -55267,6 +55273,7 @@ localize(L.HEADER_NAMES, {
 	[-709] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
 	[-710] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 	[-729] = "Изобилие",
+	[-738] = "Легенды хараниров",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -62519,6 +62526,7 @@ localize(L.HEADER_NAMES, {
 	[-709] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
 	[-710] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 	[-729] = "풍요",
+	[-738] = "하라니르의 전설",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -69764,6 +69772,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 	[-723] = "Incursiones elementales",
 	[-729] = "Abundancia",
+	[-738] = "Leyendas de los haranir",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -78504,6 +78513,7 @@ localize(L.HEADER_NAMES, {
 	[-713] = "最高等级角色",
 	[-723] = "元素入侵",
 	[-729] = "丰饶",
+	[-738] = "哈籁尼尔的传说",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成事件时奖励的事物。",
@@ -85528,6 +85538,7 @@ localize(L.HEADER_NAMES, {
 	[-696] = "虛空傳送門",
 	[-703] = "暗黑破壞神IV：憎恨之王",
 	[-729] = "豐足",
+	[-738] = "哈拉尼爾的傳說",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成探究時獎勵的東西。",

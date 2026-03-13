@@ -477,6 +477,7 @@ HeaderAssignments = {
 	["Remote Zones"] = -721,
 	["Renown"] = -170,
 	["Renown 2: Moth Watching I"] = -739,
+	["Renown 4: Big Moth Hunter I"] = -740,
 	["Rewards"] = -47,
 	["Riding Trainer"] = -48,
 	["Rune Engraving"] = -639,
@@ -719,4 +720,4 @@ HeaderAssignments = {
 	["Zskera Vaults"] = -403,
 	["Zul'Gurub Hakkar Hardmode"] = -697,
 };
-NextHeaderID = -740;
+NextHeaderID = -741;
