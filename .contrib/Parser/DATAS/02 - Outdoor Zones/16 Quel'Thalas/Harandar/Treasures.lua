@@ -362,23 +362,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["questID"] = 92266,
 					}),
 				}),
-				-- NYI or now Renown 9?
-				o(571264, {	-- Glowing Moth
-					["coord"] = { 62.5, 44.3, MAP.MIDNIGHT.HARANDAR },
-					["questID"] = 92254,
-				}),
-				o(571169, {	-- Glowing Moth
-					["coord"] = { 61.3, 35.2, MAP.MIDNIGHT.HARANDAR },
-					["questID"] = 92217,
-				}),
-				o(571281, {	-- Glowing Moth
-					["coord"] = { 68.0, 19.9, MAP.MIDNIGHT.HARANDAR },
-					["questID"] = 92257,
-				}),
-				o(571280, {	-- Glowing Moth
-					["coord"] = { 54.5, 52.0, MAP.MIDNIGHT.HARANDAR },
-					["questID"] = 92258,
-				}),
 				-- Renown 9
 				o(571296, {	-- Glowing Moth
 					["coord"] = { 74.1, 53.4, MAP.MIDNIGHT.HARANDAR },
