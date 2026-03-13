@@ -1403,60 +1403,35 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(226385),	-- Oxidized Wrench	(COSMETIC!)
 		}),
 		n(DISCOVERY, {
-			r(471359, {["timeline"] = {ADDED_11_1_0}}),	-- "Gold" Fish
+			r_withQuest(471359, 85857, ADDED_11_1_0),	-- "Gold" Fish
 			r(456154),	-- Anglerthread
-			r(444795),	-- Arathor Hammerfish
-			r(444803),	-- Awoken Coelacanth
-			r(456591),	-- Azj-Kahet
-			r(444787),	-- Bismuth Bitterling
-			r(444785),	-- Bloody Perch
-			r(444786),	-- Crystalline Sturgeon
-			r(444802),	-- Cursed Ghoulfish
-			r(444792),	-- Dilly-Dally Dace
-			r(444793),	-- Dornish Pike
-			r(454442),	-- Fishing Skill and You
-			r(444790),	-- Goldengill Trout
+			r_withQuest(444795, 82907),	-- Arathor Hammerfish
+			r_withQuest(444803, 82915),	-- Awoken Coelacanth
+			r(456591, {["learnedAt"]=225}),	-- Azj-Kahet
+			r_withQuest(444787, 82899),	-- Bismuth Bitterling
+			r_withQuest(444785, 82897),	-- Bloody Perch
+			r_withQuest(444786, 82898),	-- Crystalline Sturgeon
+			r_withQuest(444802, 82914),	-- Cursed Ghoulfish
+			r_withQuest(444792, 82896),	-- Dilly-Dally Dace
+			r_withQuest(444793, 82905),	-- Dornish Pike
+			r(454442, {["learnedAt"]=25}),	-- Fishing Skill and You
+			r_withQuest(444790, 82902),	-- Goldengill Trout
 			r(456590, {["learnedAt"]=150}),	-- Hallowfall
-			r(444797),	-- Kaheti Slum Shark
+			r_withQuest(444797, 82909),	-- Kaheti Slum Shark
 			r(456180, {["learnedAt"]=150}),	-- Mereldar Fishing Derby
-			r(444788),	-- Nibbling Minnow
-			r(444798),	-- Pale Huskfish
-			r(444801),	-- Queen's Lurefish
-			r(454443),	-- Quiet River Bass
-			r(444796),	-- Regal Dottyback
-			r(444794),	-- Roaring Anglerseeker
-			r(444799),	-- Sanguine Dogfish
+			r_withQuest(444788, 82900),	-- Nibbling Minnow
+			r_withQuest(444798, 82910),	-- Pale Huskfish
+			r_withQuest(444801, 82913),	-- Queen's Lurefish
+			r_withQuest(454443, 82904),	-- Quiet River Bass
+			r_withQuest(444796, 82908),	-- Regal Dottyback
+			r_withQuest(444794, 82906),	-- Roaring Anglerseeker
+			r_withQuest(444799, 82911),	-- Sanguine Dogfish
 			r(456152),	-- Seekerthread
-			r(444791),	-- Specular Rainbowfish
-			r(444800),	-- Spiked Sea Raven
-			r(456589),	-- The Ringing Deeps
-			r(444789),	-- Whispering Stargazer
+			r_withQuest(444791, 82903),	-- Specular Rainbowfish
+			r_withQuest(444800, 82912),	-- Spiked Sea Raven
+			r(456589, {["learnedAt"]=75}),	-- The Ringing Deeps
+			r_withQuest(444789, 82901),	-- Whispering Stargazer
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = FISHING,
-		},{
-			FirstCraft(85857, 471359, ADDED_11_1_0),	-- "Gold" Fish
-			FirstCraft(82907, 444795),	-- Arathor Hammerfish
-			FirstCraft(82915, 444803),	-- Awoken Coelacanth
-			FirstCraft(82899, 444787),	-- Bismuth Bitterling
-			FirstCraft(82897, 444785),	-- Bloody Perch
-			FirstCraft(82898, 444786),	-- Crystalline Sturgeon
-			FirstCraft(82914, 444802),	-- Cursed Ghoulfish
-			FirstCraft(82896, 444792),	-- Dilly-Dally Dace
-			FirstCraft(82905, 444793),	-- Dornish Pike
-			FirstCraft(82902, 444790),	-- Goldengill Trout
-			FirstCraft(82909, 444797),	-- Kaheti Slum Shark
-			FirstCraft(82900, 444788),	-- Nibbling Minnow
-			FirstCraft(82910, 444798),	-- Pale Huskfish
-			FirstCraft(82913, 444801),	-- Queen's Lurefish
-			FirstCraft(82904, 454443),	-- Quiet River Bass
-			FirstCraft(82908, 444796),	-- Regal Dottyback
-			FirstCraft(82906, 444794),	-- Roaring Anglerseeker
-			FirstCraft(82911, 444799),	-- Sanguine Dogfish
-			FirstCraft(82903, 444791),	-- Specular Rainbowfish
-			FirstCraft(82912, 444800),	-- Spiked Sea Raven
-			FirstCraft(82901, 444789),	-- Whispering Stargazer
-		})),
 		i(227673, {["timeline"] = {ADDED_11_1_0}}),	-- "Gold" Fish
 		i(225770),	-- Algari Anglerthread
 		i(225771),	-- Algari Seekerthread

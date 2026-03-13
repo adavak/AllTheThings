@@ -993,54 +993,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(266387),	-- Sanctum Magister's Pylon (COSMETIC!)
 		}),
 		n(DISCOVERY, {
-			r(1225274),	-- Blood Hunter
-			r(1225266),	-- Bloomtail Minnow
-			r(1225283),	-- Eversong Trout
-			r(1225276),	-- Fungalskin Pike
-			r(1225275),	-- Gore Guppy
-			r(1225337),	-- Harandar
-			r(1225267),	-- Hollow Grouper
-			r(1225284),	-- Lucky Loa
-			r(1225270),	-- Lynxfish
-			r(1225268),	-- Null Voidfish
-			r(1225273),	-- Ominous Octopus
-			r(1225277),	-- Restored Songfish
-			r(1225269),	-- Root Crab
-			r(1225271),	-- Shimmersiren
-			r(1225272),	-- Shimmer Spinefish
-			r(1225245),	-- Sin'dorei Swarmer
-			r(1225278),	-- Sunwell Fish
-			r(1225281),	-- Tender Lumifin
-			r(1225280),	-- Twisted Tetra
-			r(1225336),	-- Voidstorm
-			r(1225279),	-- Warping Wise
-			r(1225282),	-- Wyrmfish
-			r(1225335),	-- Zul'Aman
+			r_withQuest(1225274, 88614),	-- Blood Hunter
+			r_withQuest(1225266, 88606),	-- Bloomtail Minnow
+			r_withQuest(1225283, 88620),	-- Eversong Trout
+			r_withQuest(1225276, 88612),	-- Fungalskin Pike
+			r_withQuest(1225275, 88619),	-- Gore Guppy
+			r(1225337, {["learnedAt"]=150}),	-- Harandar
+			r_withQuest(1225267, 88618),	-- Hollow Grouper
+			r_withQuest(1225284, 88613),	-- Lucky Loa
+			r_withQuest(1225270, 88603),	-- Lynxfish
+			r_withQuest(1225268, 88617),	-- Null Voidfish
+			r_withQuest(1225273, 88610),	-- Ominous Octopu
+			r_withQuest(1225277, 88609),	-- Restored Songfish
+			r_withQuest(1225269, 88604),	-- Root Crab
+			r_withQuest(1225271, 88615),	-- Shimmersiren
+			r_withQuest(1225272, 88607),	-- Shimmer Spinefish
+			r_withQuest(1225245, 88602),	-- Sin'dorei Swarmer
+			r_withQuest(1225278, 88621),	-- Sunwell Fish
+			r_withQuest(1225281, 88611),	-- Tender Lumifin
+			r_withQuest(1225280, 88605),	-- Twisted Tetra
+			r(1225336, {["learnedAt"]=225}),	-- Voidstorm
+			r_withQuest(1225279, 88616),	-- Warping Wise
+			r_withQuest(1225282, 88608),	-- Wyrmfish
+			r(1225335, {["learnedAt"]=75}),	-- Zul'Aman
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = FISHING,
-		},{
-			FirstCraft(88614, 1225274),	-- Blood Hunter
-			FirstCraft(88606, 1225266),	-- Bloomtail Minnow
-			FirstCraft(88620, 1225283),	-- Eversong Trout
-			FirstCraft(88612, 1225276),	-- Fungalskin Pike
-			FirstCraft(88619, 1225275),	-- Gore Guppy
-			FirstCraft(88618, 1225267),	-- Hollow Grouper
-			FirstCraft(88613, 1225284),	-- Lucky Loa
-			FirstCraft(88603, 1225270),	-- Lynxfish
-			FirstCraft(88617, 1225268),	-- Null Voidfish
-			FirstCraft(88610, 1225273),	-- Ominous Octopu
-			FirstCraft(88609, 1225277),	-- Restored Songfish
-			FirstCraft(88604, 1225269),	-- Root Crab
-			FirstCraft(88615, 1225271),	-- Shimmersiren
-			FirstCraft(88607, 1225272),	-- Shimmer Spinefish
-			FirstCraft(88602, 1225245),	-- Sin'dorei Swarmer
-			FirstCraft(88621, 1225278),	-- Sunwell Fish
-			FirstCraft(88611, 1225281),	-- Tender Lumifin
-			FirstCraft(88605, 1225280),	-- Twisted Tetra
-			FirstCraft(88616, 1225279),	-- Warping Wise
-			FirstCraft(88608, 1225282),	-- Wyrmfish
-		})),
 		i(238490, {	-- Ambiguous Rock
 			i(266102),	-- Ambiguous Rock
 		}),
