@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
-local ach,ah,campsite,cu,de,exp,faction,flt,fp,h,i,m,n,prof,q,r,title=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCurrencyClass,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateNPC,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateTitle;
+local ach,ah,campsite,cq,cu,de,exp,faction,flt,fp,h,i,m,n,prof,q,r,title=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterUnlockQuest,_.CreateCurrencyClass,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMap,_.CreateNPC,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateTitle;
 categories.Housing=
 h(-682,{SortPriority=45,g={
 h(-12,{awp=110207,g={
@@ -17,6 +17,25 @@ ach(61316),
 ach(61317),
 ach(61318,{
 title(657)}),
+ach(62371,{awp=120001}),
+ach(62373,{awp=120001}),
+ach(62374,{awp=120001}),
+ach(62375,{awp=120001}),
+ach(62376,{awp=120001}),
+ach(62377,{awp=120001}),
+ach(62378,{awp=120001}),
+ach(62357,{awp=120001,cost={{"i",245586,250}}}),
+ach(62358,{awp=120001,cost={{"i",242691,250}}}),
+ach(62359,{awp=120001,cost={{"i",251762,250}}}),
+ach(62360,{awp=120001,cost={{"i",251764,250}}}),
+ach(62361,{awp=120001,cost={{"i",251763,250}}}),
+ach(62362,{awp=120001,cost={{"i",251766,250}}}),
+ach(62363,{awp=120001,cost={{"i",251767,250}}}),
+ach(62364,{awp=120001,cost={{"i",251768,250}}}),
+ach(62365,{awp=120001,cost={{"i",251772,250}}}),
+ach(62366,{awp=120001,cost={{"i",251773,250}}}),
+ach(62369,{awp=120001,cost={{"i",248012,250}}}),
+ach(62370,{awp=120001,cost={{"i",256963,250}}}),
 ach(40887,{awp=120000}),
 ach(61211,{description="Build your own home through Housing",sourceQuests={91863,92486}})}}),
 h(-31,{awp=120000,g={
@@ -686,6 +705,19 @@ de(16228,{cost={{"c",3363,20}},itemID=264916,spellID=1272870})}}),
 flt(50,{
 i(265361,{b=1,spellID=1275652})})}),
 h(-718,{
+n(252917,{awp=120001,coords={
+[2351]={{54.3,56.1}},
+[2352]={{53.1,38.3}}},g={
+de(9478,{cost={{"c",3363,5}},itemID=253601,spellID=1256820}),
+de(9420,{cost={{"c",3363,5}},itemID=253523,spellID=1256588}),
+de(9477,{cost={{"c",3363,5}},itemID=253600,spellID=1256819}),
+de(9419,{cost={{"c",3363,5}},itemID=253522,spellID=1256587}),
+de(9421,{cost={{"c",3363,10}},itemID=253524,spellID=1256589}),
+de(10273,{cost={{"c",3363,5}},itemID=254235,spellID=1257513}),
+de(9422,{cost={{"c",3363,10}},itemID=253525,spellID=1256590}),
+de(9423,{cost={{"c",3363,15}},itemID=253526,spellID=1256591}),
+de(9476,{cost={{"c",3363,15}},itemID=253599,spellID=1256818}),
+cq(92710,{b=1,cost={{"c",3363,30}},description="Once you've purchased this item, you can talk to Hesta Forlath in Midnight Silvermoon City (/att n:252916) to purchase paintings.\n\nYou can safely delete this item.",itemID=253802,spellID=1257276})}}),
 h(-45,{
 q(92608,{coords={
 [2351]={{53.8,55.6}},
