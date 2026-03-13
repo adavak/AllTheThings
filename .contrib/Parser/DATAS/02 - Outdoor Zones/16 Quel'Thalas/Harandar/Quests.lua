@@ -156,17 +156,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 239795 },	-- Zur'ashar Kassameh
 						["coord"] = { 34.9, 42.8, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							i(256176),	--
+							i(256176),	-- Spire of Painted Memories
 							i(256178),	-- Spear of Painted Memories
-							i(256179),	--
-							i(256181),	--
-							i(256182),	--
-							i(256183),	--
-							i(256185),	--
-							i(256187),	--
-							i(256189),	--
+							i(256179),	-- Bow of Painted Memories
+							i(256181),	-- Glaive of Painted Memories
+							i(256182),	-- Blade of Painted Memories
+							i(256183),	-- Sword of Painted Memories
+							i(256185),	-- Cudgel of Painted Memories
+							i(256187),	-- Mace of Painted Memories
+							i(256189),	-- Knife of Painted Memories
 							i(256191),	-- Handaxe of Painted Memories
-							i(256230),	--
+							i(256230),	-- Greatsword of Painted Memories
 						},
 					}),
 					q(86912, {	-- Down the Rootways
@@ -178,6 +178,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["coord"] = { 50.8, 64.2, THE_GULF_OF_MEMORY },
 								["groups"] = { i(251512) },	-- Fragment of Revelation (QI!)
 							}),
+							--
+							i(249627),	-- Arboreal Vine Collar
+							i(249620),	-- Vibrant Wilderloop
 						},
 					}),
 					q(86913, {	-- A Hut in Har'mara
@@ -190,7 +193,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 237572 },	-- Hagar
 						["coord"] = { 34.9, 25.0, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							i(238024),	-- Watering Can (QI!)
+							i(238024),	-- Watering Can (PQI!)
 							--
 							i(256175),	-- Spore-Touched Baton
 							i(256188),	-- Spore-Touched Bludgeon
@@ -238,7 +241,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(89034, {	-- Burning Bitterblooms
 						["sourceQuests"] = { 86910 },	-- Koozat's Trample
 						["provider"] = { "n", 240630 },	-- Halduron Brightwing
-						["coord"] = { 34.9, 25.0, MAP.MIDNIGHT.HARANDAR },
+						["coord"] = { 35.7, 25.2, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
 							i(256196),	-- Greathelm of Scorched Fronds
 							i(256204),	-- Har'mara Defender's Helm
@@ -255,11 +258,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 240533 },	-- Orweyna
 						["coord"] = { 35.7, 25.3, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							i(258623),	-- Glistening Seed Bag (QI!)
+							o(629603, {
+								["coord"] = { 34.9, 25.1, MAP.MIDNIGHT.HARANDAR },
+								["groups"] = { i(258623) },	-- Glistening Seed Bag (QI!)
+							}),
 						},
 					}),
 					------ Stay awhile and listen ------
-					hqt(90884, {	-- Stay awhile and listen: Orweyna
+					hqt(90884, {	-- Stay awhile and listen: Orweyna	// Exo 12.03.2026. I did not get this... Does not exist?
 						["name"] = "Stay awhile and listen: Orweyna",
 						["description"] = "Dialogue becomes available during 'Seeds of the Rift' (86944).",
 						["sourceQuests"] = {
@@ -288,11 +294,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 237860 },	-- Orweyna
 						["coords"] = {
-							{ 44.3, 52.4, 2576 },	-- The Den
+							{ 44.2, 52.6, 2576 },	-- The Den
 							{ 50.8, 53.2, MAP.MIDNIGHT.HARANDAR },
-						},
-						["groups"] = {
-							--This quest unlock (almost) all side quests in zone
 						},
 					}),
 					q(86836, {	-- The Hunter Awaits
@@ -622,13 +625,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			header(HEADERS.Achievement, 61739, {	-- Sojourner of Harandar
 				header(HEADERS.AchCriteria, 61739.01, {	-- A Goblin in Harandar
 					q(90533, {	-- Go Get Orweyna!
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 242593 },	-- Monte Gazlowe
 						["coord"] = { 47.1, 45.8, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(241125) },	-- Handcrafted Plush (QI!)
 					}),
 					q(90534, {	-- The Home of the Haranir
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 242592 },	-- Orweyna
 						["coord"] = { 47.2, 45.8, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -641,7 +644,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.02, {	-- The Legend of Aln'sharan
 					q(90467, {	-- Tales of the Sky
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 242358 },	-- Kuri
 						["coord"] = { 67.8, 27.5, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
@@ -660,7 +663,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(90468, {	-- Ugh, Chores!
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 242358 },	-- Kuri
 						["coord"] = { 67.8, 27.5, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
@@ -691,7 +694,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.03, {	-- Late Bloomers
 					q(90537, {	-- Late Bloomers
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 242650 },	-- Ney'leia
 						["coord"] = { 37.0, 26.0, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
@@ -754,7 +757,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.04, {	-- The Greenspeaker's Vigil
 					q(91346, {	-- Supplicants to The Goddess
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 246607 },	-- Greenspeaker Cyenna
 						["coord"] = { 65.4, 28.1, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -786,7 +789,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.05, {	-- Peril Among Petals
 					q(91063, {	-- The Blooming Lattice
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 245637 },	-- Su'meera
 						["coord"] = { 65.4, 22.6, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -866,7 +869,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.06, {	-- Haranir Never Say Die
 					q(91550, {	-- A Game of Silence and Shadow
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 247640 },	-- Shao'mal
 						["coord"] = { 48.8, 44.3, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -894,7 +897,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.07, {	-- Harandar's Kitchen
 					q(91587, {	-- Carcass Cuisine
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 247936 },	-- Yu'relen
 						["coord"] = { 40.9, 23.2, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
@@ -993,7 +996,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.09, {	-- Cultivating Hope
 					q(91872, {	-- The Former Rootwarden
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 237572 },	-- Hagar
 						["coord"] = { 34.9, 25.0, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1025,9 +1028,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61739.10, {	-- Hunter's Rights / TODO: Blizzard bug - Hunter's Rite
+				header(HEADERS.AchCriteria, 61739.10, {	-- Hunter's Rights
 					q(92882, {	-- A Hunter's Plight
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 253390 },	-- Ketan
 						["coord"] = { 69.4, 52.8, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1059,8 +1062,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 253433 },	-- Ketan
 						["coord"] = { 70.0, 52.9, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							o(602759, {	--
-								i(257717),	-- Ka'dani Spear (QI!)
+							o(602759, {	-- Ka'dani Spear
+								["coord"] = { 70.0, 52.8, MAP.MIDNIGHT.HARANDAR },
+								["groups"] = { i(257717) },	-- Ka'dani Spear (QI!)
 							}),
 						},
 					}),
@@ -1084,7 +1088,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.11, {	-- A Palette of Feelings
 					q(92694, {	-- Dusk Among Pigments
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 252871 },	-- Shay'neia
 						["coord"] = { 70.5, 51.2, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1117,29 +1121,25 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61739.12, {	-- Predator Reintroduction
-					q(92864, {	-- Feeding the Buds
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+					q(92865, {	-- Feeding the Buds
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 253312 },	-- Ney'tar
 						["coord"] = { 69.5, 50.6, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(255577) },	-- Chloroceros Bud (QI!)
 					}),
-					q(92865, {	-- Dusk Among Pigments
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+					q(92864, {	-- Drift Them Away
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 253312 },	-- Ney'tar
 						["coord"] = { 69.5, 50.6, MAP.MIDNIGHT.HARANDAR },
-						["groups"] = {
-							i(255577),	-- Chloroceros Bud (QI!)
-						},
 					}),
 					q(92866, {	-- Re-Hydra-ted
 						["sourceQuests"] = {
-							92864,	-- Feeding the Buds
-							92865,	-- Dusk Among Pigments
+							92864,	-- Drift Them Away
+							92865,	-- Feeding the Buds
 						},
 						["provider"] = { "n", 253312 },	-- Ney'tar
 						["coord"] = { 69.5, 50.6, MAP.MIDNIGHT.HARANDAR },
-						["groups"] = {
-							i(260705),	-- Assistant Botanist Leafy (PET!)
-						},
+						["groups"] = { i(260705) },	-- Assistant Botanist Leafy (PET!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61739.13, {	-- Bloomtown / TODO: Blizzard bug - Spot Light
@@ -1178,7 +1178,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.14, {	-- The Grudge Pit
 					q(90615, {	-- Be Grudge You
-						["sourceQuest"] = 86864,	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["qg"] = 254903,	-- Motta
 						["coord"] = { 70.3, 52.9, MAP.MIDNIGHT.HARANDAR },
 						["isBreadcrumb"] = true,
@@ -1244,7 +1244,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.15, {	-- Trials of the Shul'ka
 					q(90824, {	-- My Brother's Alive!
-						["sourceQuests"] = { 86864 },	-- Watch The Den
+						["sourceQuests"] = { 86930 },	-- To Sow the Seed
 						["provider"] = { "n", 244163 },	-- Chua
 						["coord"] = { 52.2, 55.1, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1348,11 +1348,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 30.5, 77.2, MAP.MIDNIGHT.HARANDAR },
 			}),
 			q(93745, {	-- Har'athir, Village of Memory
-				["sourceQuests"] = { 86864 },	-- Watch The Den
+				["sourceQuests"] = { 86930 },	-- To Sow the Seed
 				["provider"] = { "n", 256245 },	-- Orna
 				["coords"] = {
 					{ 54.2, 53.3, MAP.MIDNIGHT.HARANDAR },
 					{ 71.1, 53.9, 2576 },	-- The Den
+				},
+				["altQuests"] = {	-- Quest gets auto-completed as soon as you accept 'Feeding the Buds'. Since there are several Sojourner quest-chains branching from this one, I assume it works the same for other quests here.	-- Exo
+					92882,	-- A Hunter's Plight
+					90615,	-- Be Grudge You	// This one may not be accurate
+					92694,	-- Dusk Among Pigments
+					92864,	-- Drift Them Away
+					92865,	-- Feeding the Buds
 				},
 			}),
 			q(93775, {	-- Har'mara, Village of Balance
@@ -1367,7 +1374,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 		}),
 		n(QUESTS, sharedData({
-			--["sourceQuests"] = { X },	--
+			["sourceQuests"] = { 86930 },	-- To Sow the Seed
 			["qg"] = 249361,	-- Shul'ka Li'tya
 			["coord"] = { 51.8, 74.2, MAP.MIDNIGHT.HARANDAR },
 			["isWeekly"] = true,	-- Probably? Blue !
