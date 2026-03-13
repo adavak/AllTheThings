@@ -648,7 +648,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				o(113757, {	-- Shadowforge Cache
 					["description"] = "WARNING: Defeat the Galgann Firehammer first as looting this chest will spawn two dwarven Ambushers.\n\nNOTE: This trigger only occurs once per instance lockout.",
 					["groups"] = {
-						i(7671),	-- Shattered Necklace Topaz
+						i(7669),	-- Shattered Necklace Ruby
 					},
 				}),
 				i(7733, {	-- Staff of Prehistoria
