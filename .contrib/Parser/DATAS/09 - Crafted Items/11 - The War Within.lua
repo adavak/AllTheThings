@@ -1523,46 +1523,46 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(213611),	-- Writhing Sample
 		}),
 		n(DISCOVERY, {
-			r_withQuest(435858, 79916);	-- Altered Luredrop
-			r_withQuest(435840, 79909);	-- Altered Mycobloom
-			r_withQuest(435864, 79923);	-- Altered Orbinid
-			r_withQuest(435826, 79933);	-- Arathor's Spear
-			r_withQuest(435823, 79927);	-- Blessing Blossom
-			r_withQuest(435879, 79937);	-- Camouflaged Arathor's Spear
-			r_withQuest(435872, 79931);	-- Camouflaged Blessing Blossom
-			r_withQuest(435860, 79918);	-- Camouflaged Luredrop
-			r_withQuest(435851, 79911);	-- Camouflaged Mycobloom
-			r_withQuest(435866, 79925);	-- Camouflaged Orbinid
-			r_withQuest(435877, 79935);	-- Crystallized Arathor's Spear
-			r_withQuest(435870, 79929);	-- Crystallized Blessing Blossom
-			r_withQuest(435857, 79915);	-- Crystallized Luredrop
-			r_withQuest(435838, 79908);	-- Crystallized Mycobloom
-			r_withQuest(435862, 79922);	-- Crystallized Orbinid
-			r(439871),	-- Green Thumb
-			r_withQuest(435878, 79936);	-- Irradiated Arathor's Spear
-			r_withQuest(435871, 79930);	-- Irradiated Blessing Blossom
-			r_withQuest(435859, 79917);	-- Irradiated Luredrop
-			r_withQuest(435843, 79910);	-- Irradiated Mycobloom
-			r_withQuest(435865, 79924);	-- Irradiated Orbinid
-			r_withQuest(435821, 79913);	-- Luredrop
-			r_withQuest(435836, 79934);	-- Lush Arathor's Spear
-			r_withQuest(435834, 79928);	-- Lush Blessing Blossom
-			r_withQuest(435829, 79914);	-- Lush Luredrop
-			r_withQuest(435812, 79907);	-- Lush Mycobloom
-			r_withQuest(435830, 79921);	-- Lush Orbinid
-			r_withQuest(1250317, 92133, ADDED_11_2_0);	-- Lush Phantom Bloom
-			r_withQuest(435822, 79920);	-- Orbinid
+			r_withQuest(435858, 79916),	-- Altered Luredrop
+			r_withQuest(435840, 79909),	-- Altered Mycobloom
+			r_withQuest(435864, 79923),	-- Altered Orbinid
+			r_withQuest(435826, 79933),	-- Arathor's Spear
+			r_withQuest(435823, 79927),	-- Blessing Blossom
+			r_withQuest(435879, 79937),	-- Camouflaged Arathor's Spear
+			r_withQuest(435872, 79931),	-- Camouflaged Blessing Blossom
+			r_withQuest(435860, 79918),	-- Camouflaged Luredrop
+			r_withQuest(435851, 79911),	-- Camouflaged Mycobloom
+			r_withQuest(435866, 79925),	-- Camouflaged Orbinid
+			r_withQuest(435877, 79935),	-- Crystallized Arathor's Spear
+			r_withQuest(435870, 79929),	-- Crystallized Blessing Blossom
+			r_withQuest(435857, 79915),	-- Crystallized Luredrop
+			r_withQuest(435838, 79908),	-- Crystallized Mycobloom
+			r_withQuest(435862, 79922),	-- Crystallized Orbinid
+			r(439871),	-- Green Thumb,
+			r_withQuest(435878, 79936),	-- Irradiated Arathor's Spear
+			r_withQuest(435871, 79930),	-- Irradiated Blessing Blossom
+			r_withQuest(435859, 79917),	-- Irradiated Luredrop
+			r_withQuest(435843, 79910),	-- Irradiated Mycobloom
+			r_withQuest(435865, 79924),	-- Irradiated Orbinid
+			r_withQuest(435821, 79913),	-- Luredrop
+			r_withQuest(435836, 79934),	-- Lush Arathor's Spear
+			r_withQuest(435834, 79928),	-- Lush Blessing Blossom
+			r_withQuest(435829, 79914),	-- Lush Luredrop
+			r_withQuest(435812, 79907),	-- Lush Mycobloom
+			r_withQuest(435830, 79921),	-- Lush Orbinid
+			r_withQuest(1250317, 92133, ADDED_11_2_0),	-- Lush Phantom Bloom
+			r_withQuest(435822, 79920),	-- Orbinid
 			r(438953),	-- Overload Altered Herb
 			r(438952),	-- Overload Crystallized Herb
 			r(423395),	-- Overload Empowered Herb
 			r(438955),	-- Overload Irradiated Herb
 			r(438961),	-- Overload Sporefused Herb
-			r_withQuest(1250314, 92132, ADDED_11_2_0);	-- Phantom Bloom
-			r_withQuest(435880, 79938);	-- Sporefused Arathor's Spear
-			r_withQuest(435873, 79932);	-- Sporefused Blessing Blossom
-			r_withQuest(435861, 79919);	-- Sporefused Luredrop
-			r_withQuest(435850, 79912);	-- Sporefused Mycobloom
-			r_withQuest(435867, 79926);	-- Sporefused Orbinid
+			r_withQuest(1250314, 92132, ADDED_11_2_0),	-- Phantom Bloom
+			r_withQuest(435880, 79938),	-- Sporefused Arathor's Spear
+			r_withQuest(435873, 79932),	-- Sporefused Blessing Blossom
+			r_withQuest(435861, 79919),	-- Sporefused Luredrop
+			r_withQuest(435850, 79912),	-- Sporefused Mycobloom
+			r_withQuest(435867, 79926),	-- Sporefused Orbinid
 		}),
 	}),
 	prof(INSCRIPTION, {
@@ -2461,75 +2461,40 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(MINING, {
 		n(DISCOVERY, {
-			-- TODO: link to objects which provide, maybe using new sources tech eventually
-			r(439713, {	-- Aqirite Seam
-				["description"] = "Best farmed in 'The Underkeep' Delve during a story that allows ores to spawn. The first room on the right can an Aqirite Seam.\n\nCan also be found very very rarely in Caves in Hallowfall & Ajzkahet as well as in the Sinkhole, Skittering Breach and Underkeep Delve",
-				["maps"] = { HALLOWFALL, AZJ_KAHET, THE_SINKHOLE, SKITTERING_BREACH, THE_UNDERKEEP,}
-			}),
 			r(439707),	-- Aqirite
-			r(439712),	-- Bismuth Seam
-			r(439725),	-- Camouflaged Aqirite
-			r(439724),	-- Camouflaged Bismuth
-			r(439726),	-- Camouflaged Ironclaw
-			r(439716),	-- Crystallized Aqirite
-			r(439715),	-- Crystallized Bismuth
-			r(439717),	-- Crystallized Ironclaw
-			r(1250351, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Deposit
-			r(439722),	-- EZ-Mine Aqirite
-			r(439721),	-- EZ-Mine Bismuth
-			r(439723),	-- EZ-Mine Ironclaw
-			r(439708),	-- Ironclaw
-			r(439714),	-- Ironclaw Seam
+			r_withQuest(439713, 80357, ADDED_11_0_2,	-- Aqirite Seam
+				"Best farmed in 'The Underkeep' Delve during a story that allows ores to spawn. The first room on the right can an Aqirite Seam.\n\nCan also be found very very rarely in Caves in Hallowfall & Ajzkahet as well as in the Sinkhole, Skittering Breach and Underkeep Delve.",
+				{ HALLOWFALL, AZJ_KAHET, THE_SINKHOLE, SKITTERING_BREACH, THE_UNDERKEEP }
+			),
+			r_withQuest(439712, 80356), -- Bismuth Seam
+			r_withQuest(439725, 80369), -- Camouflaged Aqirite
+			r_withQuest(439724, 80368), -- Camouflaged Bismuth
+			r_withQuest(439726, 80370), -- Camouflaged Ironclaw
+			r_withQuest(439716, 80360), -- Crystallized Aqirite
+			r_withQuest(439715, 80359), -- Crystallized Bismuth
+			r_withQuest(439717, 80361), -- Crystallized Ironclaw
+			r_withQuest(1250351, 92134, ADDED_11_2_0), -- Desolate Deposit
+			r_withQuest(439722, 80366), -- EZ-Mine Aqirite
+			r_withQuest(439721, 80365), -- EZ-Mine Bismuth
+			r_withQuest(439723, 80367), -- EZ-Mine Ironclaw
+			r_withQuest(439708, 80352), -- Ironclaw
+			r_withQuest(439714, 80358), -- Ironclaw Seam
 			r(439742),	-- Overload Crystallized
 			r(423394),	-- Overload Empowered Deposit
 			r(439744),	-- Overload Explosives
 			r(439747),	-- Overload Webbed Deposits
 			r(439743),	-- Overload Weeping
-			r(439710),	-- Rich Aqirite
-			r(439709),	-- Rich Bismuth
-			r(1250356, {["timeline"]={ADDED_11_2_0}}),	-- Rich Desolate Deposit
-			r(439711),	-- Rich Ironclaw
-			r(439728),	-- Webbed Aqirite
-			r(439727),	-- Webbed Bismuth
-			r(439729),	-- Webbed Ironclaw
-			r(439719),	-- Weeping Aqirite
-			r(439718),	-- Weeping Bismuth
-			r(439720, {providers={{"o",413902}}}),	-- Weeping Ironclaw
+			r_withQuest(439710, 80354), -- Rich Aqirite
+			r_withQuest(439709, 80353), -- Rich Bismuth
+			r_withQuest(1250356, 92135, ADDED_11_2_0), -- Rich Desolate Deposit
+			r_withQuest(439711, 80355), -- Rich Ironclaw
+			r_withQuest(439728, 80372), -- Webbed Aqirite
+			r_withQuest(439727, 80371), -- Webbed Bismuth
+			r_withQuest(439729, 80373), -- Webbed Ironclaw
+			r_withQuest(439719, 80363), -- Weeping Aqirite
+			r_withQuest(439718, 80362), -- Weeping Bismuth
+			r_withQuest(439720, 80364), -- Weeping Ironclaw
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = MINING,
-		},{
-			-- Aqirite
-			-- FirstCraft(XXXXX, 439707);	-- Aqirite //??how do we not have this yet?
-			FirstCraft(80357, 439713);	-- Aqirite Seam
-			FirstCraft(80369, 439725);	-- Camouflaged Aqirite
-			FirstCraft(80360, 439716);	-- Crystallized Aqirite
-			FirstCraft(80366, 439722);	-- EZ-Mine Aqirite
-			FirstCraft(80354, 439710);	-- Rich Aqirite
-			FirstCraft(80372, 439728);	-- Webbed Aqirite
-			FirstCraft(80363, 439719);	-- Weeping Aqirite
-			-- Bismuth
-			FirstCraft(80350, 439705);	-- Bismuth
-			FirstCraft(80356, 439712);	-- Bismuth Seam
-			FirstCraft(80368, 439724);	-- Camouflaged Bismuth
-			FirstCraft(80359, 439715);	-- Crystallized Bismuth
-			FirstCraft(80365, 439721);	-- EZ-Mine Bismuth
-			FirstCraft(80353, 439709);	-- Rich Bismuth
-			FirstCraft(80371, 439727);	-- Webbed Bismuth
-			FirstCraft(80362, 439718);	-- Weeping Bismuth
-			-- Ironclaw
-			FirstCraft(80352, 439708);	-- Ironclaw
-			FirstCraft(80358, 439714);	-- Ironclaw Seam
-			FirstCraft(80370, 439726);	-- Camouflaged Ironclaw
-			FirstCraft(80361, 439717);	-- Crystallized Ironclaw
-			FirstCraft(80367, 439723);	-- EZ-Mine Ironclaw
-			FirstCraft(80355, 439711);	-- Rich Ironclaw
-			FirstCraft(80373, 439729);	-- Webbed Ironclaw
-			FirstCraft(80364, 439720);	-- Weeping Ironclaw
-			-- Desolate Talus
-			FirstCraft(92134, 1250351, ADDED_11_2_0);	-- Desolate Deposit
-			FirstCraft(92135, 1250356, ADDED_11_2_0);	-- Rich Desolate Deposit
-		})),
 		-- Gathered Items
 		i(210933),	-- Aqirite+
 		i(210934),	-- Aqirite++

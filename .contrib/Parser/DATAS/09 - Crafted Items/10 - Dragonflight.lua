@@ -3111,66 +3111,33 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			--]]
 		}),
 		n(DISCOVERY, {
-			r(384688),	-- Draconium Deposit
-			r(389458, {["timeline"] = {ADDED_10_0_7}}),	-- Draconium Seam
-			r(389413),	-- Hardened Draconium Deposit
-			r(389463),	-- Hardened Serevite Deposit
-			r(389420),	-- Infurious Draconium Deposit
-			r(389464),	-- Infurious Serevite Deposit
-			r(421247, {["timeline"] = {ADDED_10_2_0}}),	-- Living Draconium Deposit
-			r(421244, {["timeline"] = {ADDED_10_2_0}}),	-- Living Serevite Deposit
-			r(405121, {["timeline"] = {ADDED_10_1_0}}),	-- Metamorphic Draconium Deposit
-			r(405120, {["timeline"] = {ADDED_10_1_0}}),	-- Metamorphic Serevite Deposit
-			r(384690),	-- Molten Draconium Deposit
-			r(389459),	-- Molten Serevite Deposit
-			r(389701),	-- Overload Hardened Node
-			r(389704),	-- Overload Infurious Node
-			r(422809, {["timeline"] = {ADDED_10_2_0}}),	-- Overload Living Deposit
-			r(405131, {["timeline"] = {ADDED_10_1_0}}),	-- Overload Metamorphic Deposit
-			r(389700),	-- Overload Molten Node
-			r(389702),	-- Overload Primal Node
-			r(389703),	-- Overload Titan Node
-			r(389409),	-- Primal Draconium Deposit
-			r(389462),	-- Primal Serevite Deposit
-			r(384693),	-- Rich Draconium Deposit
-			r(389460),	-- Rich Serevite Deposit
-			r(389465, {["timeline"] = {ADDED_10_0_7}}),	-- Serevite Seam
-			r(389406),	-- Titan-Touched Draconium Deposit
-			r(389461),	-- Titan-Touched Serevite Deposit
+			r_withQuest(384688, 71951),	-- Draconium Deposit
+			r_withQuest(389458, 72347, ADDED_10_0_7),	-- Draconium Seam
+			r_withQuest(389413, 71956),	-- Hardened Draconium
+			r_withQuest(389463, 71955),	-- Hardened Serevite
+			r_withQuest(389420, 71962),	-- Infurious Draconium
+			r_withQuest(389464, 71961),	-- Infurious Serevite
+			r_withQuest(421247, 77828, ADDED_10_2_0),	-- Living Draconium Deposit
+			r_withQuest(421244, 77827, ADDED_10_2_0),	-- Living Serevite Deposit
+			r_withQuest(405121, 75140, ADDED_10_1_0),	-- Metamorphic Draconium
+			r_withQuest(405120, 75139, ADDED_10_1_0),	-- Metamorphic Serevite
+			r_withQuest(384690, 71954),	-- Molten Draconium
+			r_withQuest(389459, 71953),	-- Molten Serevite
+			r_withQuest(389701, 71964),	-- Overload Hardened Node
+			r_withQuest(389704, 71967),	-- Overload Infurious Node
+			r_withQuest(422809, 78061, ADDED_10_2_0),	-- Overload Living Deposit
+			r_withQuest(405131, 75137, ADDED_10_1_0),	-- Overload Metamorphic Node
+			r_withQuest(389700, 71963),	-- Overload Molten Node
+			r_withQuest(389702, 71966),	-- Overload Primal Node
+			r_withQuest(389703, 71965),	-- Overload Titan-Touched Node
+			r_withQuest(389409, 71960),	-- Primal Draconium
+			r_withQuest(389462, 71959),	-- Primal Serevite
+			r_withQuest(384693, 71952),	-- Rich Draconium
+			r_withQuest(389460, 71950),	-- Rich Serevite
+			r_withQuest(389465, 72346, ADDED_10_0_7),	-- Serevite Seam
+			r_withQuest(389406, 71958),	-- Titan-Touched Draconium
+			r_withQuest(389461, 71957),	-- Titan-Touched Serevite
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = MINING,
-		},{
-			-- Draconium
-			FirstCraft(71951, 384688);	-- Draconium Deposit
-			FirstCraft(72347, 389458, ADDED_10_0_7);	-- Draconium Seam
-			FirstCraft(71956, 389413);	-- Hardened Draconium
-			FirstCraft(71962, 389420);	-- Infurious Draconium
-			FirstCraft(77828, 421247, ADDED_10_2_0);	-- Living Draconium Deposit
-			FirstCraft(75140, 405121, ADDED_10_1_0);	-- Metamorphic Draconium
-			FirstCraft(71954, 384690);	-- Molten Draconium
-			FirstCraft(71960, 389409);	-- Primal Draconium
-			FirstCraft(71952, 384693);	-- Rich Draconium
-			FirstCraft(71958, 389406);	-- Titan-Touched Draconium
-			-- Serevite
-			FirstCraft(72346, 389465, ADDED_10_0_7);	-- Serevite Seam
-			FirstCraft(71955, 389463);	-- Hardened Serevite
-			FirstCraft(71961, 389464);	-- Infurious Serevite
-			FirstCraft(77827, 421244, ADDED_10_2_0);	-- Living Serevite Deposit
-			FirstCraft(75139, 405120, ADDED_10_1_0);	-- Metamorphic Serevite
-			FirstCraft(71953, 389459);	-- Molten Serevite
-			FirstCraft(71959, 389462);	-- Primal Serevite
-			FirstCraft(71950, 389460);	-- Rich Serevite
-			FirstCraft(71957, 389461);	-- Titan-Touched Serevite
-			-- Overload
-			FirstCraft(71964, 389701);	-- Overload Hardened Node
-			FirstCraft(71967, 389704);	-- Overload Infurious Node
-			FirstCraft(78061, 422809, ADDED_10_2_0);	-- Overload Living Deposit
-			FirstCraft(75137, 405131, ADDED_10_1_0);	-- Overload Metamorphic Node
-			FirstCraft(71963, 389700);	-- Overload Molten Node
-			FirstCraft(71966, 389702);	-- Overload Primal Node
-			FirstCraft(71965, 389703);	-- Overload Titan-Touched Node
-		})),
 	}),
 	prof(SKINNING, {
 		n(FIRST_CRAFTS_HEADER, sharedData({

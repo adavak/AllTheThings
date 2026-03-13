@@ -1913,61 +1913,32 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(MINING, {
 		n(DISCOVERY, {
-			-- Section I - Refulgent Copper
-			r(1225351),	-- Lightfused Refulgent Copper
-			r(1225354),	-- Primal Refulgent Copper
-			r(1225343),	-- Refulgent Copper
-			r(1225350),	-- Refulgent Copper Seam
-			r(1225349),	-- Rich Refulgent Copper
-			r(1225352),	-- Voidbound Refulgent Copper
-			r(1225353),	-- Wild Refulgent Copper
-			-- Section II - Brilliant Silver
-			r(1225348),	-- Brilliant Silver
-			r(1225357),	-- Brilliant Silver Seam
-			r(1225359),	-- Lightfused Brilliant Silver
-			r(1225361),	-- Primal Brilliant Silver
-			r(1225355),	-- Rich Brilliant Silver
-			r(1225362),	-- Voidbound Brilliant Silver
-			r(1225363),	-- Wild Brilliant Silver
-			-- Section III - Umbral Tin
-			r(1225367),	-- Lightfused Umbral Tin
-			r(1225369),	-- Primal Umbral Tin
-			r(1225365),	-- Rich Umbral Tin
-			r(1225347),	-- Umbral Tin
-			r(1225366),	-- Umbral Tin Seam
-			r(1225370),	-- Voidbound Umbral Tin
-			r(1225368),	-- Wild Umbral Tin
-			-- Appendix II - Overload
+			r_withQuest(1225348, 88471),	-- Brilliant Silver
+			r_withQuest(1225357, 88466),	-- Brilliant Silver Seam
+			r_withQuest(1225359, 88484),	-- Lightfused Brilliant Silver
+			r_withQuest(1225351, 88487),	-- Lightfused Refulgent Copper
+			r_withQuest(1225367, 88488),	-- Lightfused Umbral Tin
 			r(1225818),	-- Overload Lightfused Deposits
 			r(1225817),	-- Overload Primal Deposits
 			r(1225820),	-- Overload Voidbound Deposits
 			r(1225819),	-- Overload Wild Deposits
+			r_withQuest(1225361, 88490),	-- Primal Brilliant Silver
+			r_withQuest(1225354, 88479),	-- Primal Refulgent Copper
+			r_withQuest(1225369, 88469),	-- Primal Umbral Tin
+			r_withQuest(1225343, 88475),	-- Refulgent Copper
+			r_withQuest(1225350, 88480),	-- Refulgent Copper Seam
+			r_withQuest(1225355, 88491),	-- Rich Brilliant Silver
+			r_withQuest(1225349, 88476),	-- Rich Refulgent Copper
+			r_withQuest(1225365, 88478),	-- Rich Umbral Tin
+			r_withQuest(1225347, 88477),	-- Umbral Tin
+			r_withQuest(1225366, 88481),	-- Umbral Tin Seam
+			r_withQuest(1225362, 88465),	-- Voidbound Brilliant Silver
+			r_withQuest(1225352, 88463),	-- Voidbound Refulgent Copper
+			r_withQuest(1225370, 88470),	-- Voidbound Umbral Tin
+			r_withQuest(1225363, 88472),	-- Wild Brilliant Silver
+			r_withQuest(1225353, 88486),	-- Wild Refulgent Copper
+			r_withQuest(1225368, 88485),	-- Wild Umbral Tin
 		}),
-		n(FIRST_CRAFTS_HEADER, sharedData({
-			["requireSkill"] = MINING,
-		},{
-			FirstCraft(88487, 1225351),	-- Lightfused Refulgent Copper
-			FirstCraft(88479, 1225354),	-- Primal Refulgent Copper
-			FirstCraft(88475, 1225343),	-- Refulgent Copper
-			FirstCraft(88480, 1225350),	-- Refulgent Copper Seam
-			FirstCraft(88476, 1225349),	-- Rich Refulgent Copper
-			FirstCraft(88463, 1225352),	-- Voidbound Refulgent Copper
-			FirstCraft(88486, 1225353),	-- Wild Refulgent Copper
-			FirstCraft(88471, 1225348),	-- Brilliant Silver
-			FirstCraft(88466, 1225357),	-- Brilliant Silver Seam
-			FirstCraft(88484, 1225359),	-- Lightfused Brilliant Silver
-			FirstCraft(88490, 1225361),	-- Primal Brilliant Silver
-			FirstCraft(88491, 1225355),	-- Rich Brilliant Silver
-			FirstCraft(88465, 1225362),	-- Voidbound Brilliant Silver
-			FirstCraft(88472, 1225363),	-- Wild Brilliant Silver
-			FirstCraft(88488, 1225367),	-- Lightfused Umbral Tin
-			FirstCraft(88469, 1225369),	-- Primal Umbral Tin
-			FirstCraft(88478, 1225365),	-- Rich Umbral Tin
-			FirstCraft(88477, 1225347),	-- Umbral Tin
-			FirstCraft(88481, 1225366),	-- Umbral Tin Seam
-			FirstCraft(88470, 1225370),	-- Voidbound Umbral Tin
-			FirstCraft(88485, 1225368),	-- Wild Umbral Tin
-		})),
 		i(237364),	-- Brilliant Silver Ore+
 		i(237365),	-- Brilliant Silver Ore++
 		i(237507),	-- Cloudy Quartz

@@ -1533,10 +1533,16 @@ FirstSkin = function(questID, creatureID, added, t)
 	return t;
 end
 -- Simple function for Recipes with HQTs
-r_withQuest = function(recipeID, questID, added)
+r_withQuest = function(recipeID, questID, added, description, maps)
 	local t = r(recipeID, {questID=questID})
 	if added then
 		t.timeline = { added };
+	end
+	if description then
+		t.description = description;
+	end
+	if maps then
+		t.maps = maps;
 	end
     return t
 end
