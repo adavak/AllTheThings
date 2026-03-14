@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.HARANDAR, {
 		n(BONUS_OBJECTIVES, {
 			q(86874, {	-- Culling the Light
-				["sourceQuests"] = { 86866 },	-- Can we Heal This? (It require 86867 to be picked up)
+				["sourceQuest"] = 86867,	-- Into the Lightbloom
 				["coord"] = { 30.6, 77.2, MAP.MIDNIGHT.HARANDAR },
 			}),
 		}),
@@ -317,9 +317,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 237236 },	-- Amarakk
 						["coord"] = { 62.0, 54.6, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
+							i(243595),	-- Salve of Aln (PQI!)
+							--
 							i(256335),	-- Amarakk's Woven Signet
 							i(256334),	-- Band of Severed Connections
-							i(243595),	-- Salve of Aln (QI!)
 						},
 					}),
 					q(86851, {	-- The Foundation of Aln
@@ -327,8 +328,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 237236 },	-- Amarakk
 						["coord"] = { 62.0, 54.6, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
-							i(266259),	-- Altar of the Shul'ka (DECOR!)
 							i(238417),	-- Diminished Alndust (QI!)
+							--
+							i(266259),	-- Altar of the Shul'ka (DECOR!)
 						},
 					}),
 					q(86856, {	-- Dampening the Call
@@ -356,20 +358,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(256223),	-- Robe of the Alndust-Addled
 						},
 					}),
-					q(86861, {	-- Herding Manifestations
-						["sourceQuests"] = { 86858 },	-- The Madness Roots Deep
-						["provider"] = { "n", 237284 },	-- Amarakk
-						["coord"] = { 61.1, 57.3, MAP.MIDNIGHT.HARANDAR },
-						["groups"] = { i(252045) },	-- Fungal Pergola (DECOR!)
-					}),
-					q(86860, {	-- Before They Grow
-						["sourceQuests"] = { 86858 },	-- The Madness Roots Deep
-						["provider"] = { "n", 237284 },	-- Amarakk
-						["coord"] = { 61.1, 57.3, MAP.MIDNIGHT.HARANDAR },
-						["groups"] = {
-							i(239131),	-- Amarakk's Influence (QI!)
-						},
-					}),
 					q(86859, {	-- Grinding Out a Solution
 						["sourceQuests"] = { 86858 },	-- The Madness Roots Deep
 						["provider"] = { "n", 237284 },	-- Amarakk
@@ -388,6 +376,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["groups"] = { i(238651) },	-- Alngrown Fungus (QI!)
 							}),
 						},
+					}),
+					q(86860, {	-- Before They Grow
+						["sourceQuests"] = { 86858 },	-- The Madness Roots Deep
+						["provider"] = { "n", 237284 },	-- Amarakk
+						["coord"] = { 61.1, 57.3, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(239131) },	-- Amarakk's Influence (PQI!)
+					}),
+					q(86861, {	-- Herding Manifestations
+						["sourceQuests"] = { 86858 },	-- The Madness Roots Deep
+						["provider"] = { "n", 237284 },	-- Amarakk
+						["coord"] = { 61.1, 57.3, MAP.MIDNIGHT.HARANDAR },
+						["groups"] = { i(252045) },	-- Fungal Pergola (DECOR!)
 					}),
 					q(86862, {	-- The Greater They Aln
 						["sourceQuests"] = {
@@ -428,6 +428,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 31.4, 64.9, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(254319) },	-- Root-Woven Door (DECOR!)
 					}),
+					------ Stay awhile and listen ------
+					hqt(94951, {	-- Stay awhile and listen: Hannan
+						["name"] = "Stay awhile and listen: Hannan",
+						["description"] = "Dialogue becomes available during 'Can we Heal This?' (86866).",
+						["sourceQuests"] = { 86865 },	-- In Search of the Problem
+						["provider"] = { "n", 241629 },	-- Hannan
+						["coord"] = { 31.4, 64.9, MAP.MIDNIGHT.HARANDAR },
+					}),
+					--
 					q(94677, {	-- The Missing Rootwarden
 						["sourceQuests"] = { 86865 },	-- In Search of the Problem
 						["provider"] = { "n", 237325 },	-- Orweyna
@@ -447,15 +456,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							})
 						},
 					}),
-					------ Stay awhile and listen ------
-					hqt(94951, {	-- Stay awhile and listen: Hannan
-						["name"] = "Stay awhile and listen: Hannan",
-						["description"] = "Dialogue becomes available during 'Can we Heal This?' (86866).",
-						["sourceQuests"] = { 86865 },	-- In Search of the Problem
-						["provider"] = { "n", 241629 },	-- Hannan
-						["coord"] = { 31.4, 64.9, MAP.MIDNIGHT.HARANDAR },
-					}),
-					--
 					q(86882, {	-- Alndust in Right Hands
 						["sourceQuests"] = {
 							86866,	-- Can we Heal This?
@@ -471,7 +471,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					q(86867, {	-- Into the Lightbloom
-						["sourceQuests"] = { 86866 },	-- Can we Heal This?
+						["sourceQuests"] = { 86882 },	-- Alndust in Right Hands
 						["provider"] = { "n", 237356 },	-- Orweyna
 						["coord"] = { 33.2, 76.0, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(253467) },	-- Rutaani Sporepod (DECOR!)
@@ -542,12 +542,21 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 62.2, 59.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = {
 							i(238196),	-- Lightbleached Rootbone (QI!)
+							--
 							i(256224),	-- Light-Bleached Amulet
 							i(256225),	-- Rootbone Choker
 						},
 					}),
 					q(86885, {	-- Stem the Tides
 						["sourceQuests"] = { 86883 },	-- The Frenzied March
+						["provider"] = { "n", 237465 },	-- Halduron Brightwing
+						["coord"] = { 62.3, 59.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(86887, {	-- Expeditious Retreat
+						["sourceQuests"] = {
+							86884,	-- Cull and Burn
+							86885,	-- Stem the Tides
+						},
 						["provider"] = { "n", 237465 },	-- Halduron Brightwing
 						["coord"] = { 62.3, 59.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
@@ -559,14 +568,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 237465 },	-- Halduron Brightwing
 						["coord"] = { 62.3, 59.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 						["groups"] = { i(254878) },	-- Root-Woven Window (DECOR!)
-					}),
-					q(86887, {	-- Expeditious Retreat
-						["sourceQuests"] = {
-							86884,	-- Cull and Burn
-							86885,	-- Stem the Tides
-						},
-						["provider"] = { "n", 237465 },	-- Halduron Brightwing
-						["coord"] = { 62.3, 59.5, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
 					q(86892, {	-- Survive
 						["sourceQuests"] = {
@@ -615,7 +616,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 255819 }, -- Elder Hagar
 						["coord"] = { 36.5, 68.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 						["groups"] = {
-							ach(61506, {	-- Allied Race: Haranir (just in case, atm)
+							ach(61506, {	-- Allied Race: Haranir
 								i(246736),	-- Ivory Grimlynx (MOUNT!)
 							}),
 						},
@@ -625,13 +626,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			header(HEADERS.Achievement, 61739, {	-- Sojourner of Harandar
 				header(HEADERS.AchCriteria, 61739.01, {	-- A Goblin in Harandar
 					q(90533, {	-- Go Get Orweyna!
-						["sourceQuests"] = { 86930 },	-- To Sow the Seed
+						["sourceQuests"] = { 86898 },	-- Rise of the Haranir
 						["provider"] = { "n", 242593 },	-- Monte Gazlowe
 						["coord"] = { 47.1, 45.8, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(241125) },	-- Handcrafted Plush (QI!)
 					}),
 					q(90534, {	-- The Home of the Haranir
-						["sourceQuests"] = { 86930 },	-- To Sow the Seed
+						["sourceQuests"] = { 90533 },	-- Go Get Orweyna!
 						["provider"] = { "n", 242592 },	-- Orweyna
 						["coord"] = { 47.2, 45.8, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -643,7 +644,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61739.02, {	-- The Legend of Aln'sharan
-					["description"] = "It is recommended you do this Sojourner as soon as possible as it unlocks the |cFF4A54E8Mysterious Skyshards|r to drop from any creature in the zone.",
+					["description"] = "It is recommended to do this Sojourner quest chain as soon as possible as it unlocks the |cFF4A54E8Mysterious Skyshards|r to drop from any creature in the zone.",
 					["groups"] = {
 						q(90467, {	-- Tales of the Sky
 							["sourceQuests"] = { 86930 },	-- To Sow the Seed
@@ -948,19 +949,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.08, {	-- Silence at Fungara Village
 					q(91375, {	-- The Silence at Fungara Village
-						["sourceQuests"] = {
-							86877,	-- Righteous Pruning
-							86880,	-- Our Beloved Returned
-							86881,	-- At the Root
-						},
+						["sourceQuest"] = 86890,	-- Tell the People What You Have Seen
 						["qg"] = 257002,	-- Ghikal
 						["coord"] = { 33.3, 66.7, MAP.MIDNIGHT.HARANDAR },
 						["isBreadcrumb"] = true,
-					}),
-					q(91377, {	-- Spawn of the Dead
-						["sourceQuest"] = 91375,	-- The Silence at Fungara Village
-						["provider"] = { "n", 246777 },	-- Ghikal
-						["coord"] = { 43.9, 71.7, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(91376, {	-- Little Monsters
 						["sourceQuest"] = 91375,	-- The Silence at Fungara Village
@@ -968,7 +960,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 43.9, 71.7, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(247243) },	-- Strange Mycelium (QI!)
 					}),
-					q(91379, {	-- Decayed Land
+					q(91377, {	-- Spawn of the Dead
+						["sourceQuest"] = 91375,	-- The Silence at Fungara Village
+						["provider"] = { "n", 246777 },	-- Ghikal
+						["coord"] = { 43.9, 71.7, MAP.MIDNIGHT.HARANDAR },
+					}),
+					q(91378, {	-- You Are Legend
 						["sourceQuests"] = {
 							91376,	-- Little Monsters
 							91377,	-- Spawn of the Dead
@@ -976,7 +973,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 246777 },	-- Ghikal
 						["coord"] = { 44.1, 66.4, MAP.MIDNIGHT.HARANDAR },
 					}),
-					q(91378, {	-- You Are Legend
+					q(91379, {	-- Decayed Land
 						["sourceQuests"] = {
 							91376,	-- Little Monsters
 							91377,	-- Spawn of the Dead
@@ -1001,7 +998,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.09, {	-- Cultivating Hope
 					q(91872, {	-- The Former Rootwarden
-						["sourceQuests"] = { 86930 },	-- To Sow the Seed
+						["sourceQuests"] = { 86898 },	-- Rise of the Haranir
 						["provider"] = { "n", 237572 },	-- Hagar
 						["coord"] = { 34.9, 25.0, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1009,11 +1006,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91872 },	-- The Former Rootwarden
 						["provider"] = { "n", 252495 },	-- Hagar
 						["coord"] = { 42.6, 34.1, MAP.MIDNIGHT.HARANDAR },
-					}),
-					q(91874, {	-- Flare Up
-						["sourceQuests"] = { 91873 },	-- Buffer Zone
-						["provider"] = { "n", 252496 },	-- Hagar
-						["coord"] = { 42.3, 34.2, MAP.MIDNIGHT.HARANDAR },
 					}),
 					q(91875, {	-- Natural Remedy
 						["sourceQuests"] = { 91873 },	-- Buffer Zone
@@ -1023,8 +1015,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(252649),	-- Verdant Stalker Sludge (QI!)
 						},
 					}),
-					q(91876, {	-- Tending Hope
+					q(91874, {	-- Flare Up
 						["sourceQuests"] = { 91875 },	-- Natural Remedy
+						["provider"] = { "n", 252496 },	-- Hagar
+						["coord"] = { 42.3, 34.2, MAP.MIDNIGHT.HARANDAR },
+					}),
+					q(91876, {	-- Tending Hope
+						["sourceQuests"] = { 91874 },	-- Flare Up
 						["provider"] = { "n", 248886 },	-- Hagar
 						["coord"] = { 42.6, 33.6, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = {
@@ -1147,9 +1144,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = { i(260705) },	-- Assistant Botanist Leafy (PET!)
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61739.13, {	-- Bloomtown / TODO: Blizzard bug - Spot Light
+				header(HEADERS.AchCriteria, 61739.13, {	-- Bloomtown
 					q(92732, {	-- Light Disturbance
-						--["sourceQuests"] = { xx },	-- ??
+						["sourceQuests"] = { 86898 },	-- Rise of the Haranir
 						["qg"] = 241629,	-- Hannan
 						["coord"] = { 31.4, 64.9, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1175,7 +1172,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["qg"] = 253105,	-- Hannan
 						["coords"] = {
-							{ 37.4, 72.4, MAP.MIDNIGHT.HARANDAR },
+							{ 37.3, 72.3, MAP.MIDNIGHT.HARANDAR },
 							{ 41.7, 67.8, MAP.MIDNIGHT.HARANDAR },
 						},
 						["groups"] = { i(260585) },	-- Linda the Lucky (PET!)
@@ -1247,7 +1244,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61739.15, {	-- Trials of the Shul'ka
 					q(90824, {	-- My Brother's Alive!
-						["sourceQuests"] = { 86930 },	-- To Sow the Seed
+						["sourceQuest"] = 86890,	-- Tell the People What You Have Seen
 						["provider"] = { "n", 244163 },	-- Chua
 						["coord"] = { 52.2, 55.1, MAP.MIDNIGHT.HARANDAR },
 					}),
@@ -1277,9 +1274,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 90824 },	-- My Brother's Alive!
 						["provider"] = { "n", 244242 },	-- En'liahn
 						["coord"] = { 43.1, 61.4, MAP.MIDNIGHT.HARANDAR },
-						["groups"] = {
-							i(243598),	-- Phytogenic Poison Part (QI!)
-						},
+						["groups"] = { i(243598) },	-- Phytogenic Poison Part (QI!)
 					}),
 					q(90829, {	-- Meeting My Mentor
 						["sourceQuests"] = {
@@ -1346,7 +1341,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			--Side quests
 			--Leading to villages, could be breadcrumb but they are not?
 			q(93776, {	-- Har'alnor, Village of Twilight
-				["sourceQuests"] = { 86930 },	-- To Sow the Seed
+				["sourceQuests"] = {
+					86881,	-- At the Root
+					86880,	-- Our Beloved, Returned
+					86877,	-- Righteous Pruning
+				},
 				["qg"] = 241655,	-- Hannan
 				["coord"] = { 30.5, 77.2, MAP.MIDNIGHT.HARANDAR },
 			}),

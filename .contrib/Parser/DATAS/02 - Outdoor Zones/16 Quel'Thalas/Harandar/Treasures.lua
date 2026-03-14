@@ -22,6 +22,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(TREASURES, {
 			i(259362),	-- Pattern: Haranir Canopy Bed (RECIPE!)
 			header(HEADERS.Achievement, 61052, {	-- Dust 'Em Off
+				n(REWARDS, {
+					currency(3385),	-- Luminous Dust
+				}),
 				-- Alex: there should be 120 in total, whoever do this in Blizz - was it fun to implement this?
 				n(MOTH_RENOWN2, {	-- Exo: Verified Renown 2
 					o(571099, {	-- Glowing Moth (R2)
@@ -188,7 +191,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["questID"] = 92225,
 					}),
 				}),
-				n(MOTH_RENOWN4, {	-- Exo: Verified Renown 4, No vignette shown on minimap for any of them
+				n(MOTH_RENOWN4, {	-- Exo: Verified Renown 4, Mini-map Vignettes are unlocked at Renown 6
 					o(571162, {	-- Glowing Moth (R4)
 						["coord"] = { 43.1, 39.5, MAP.MIDNIGHT.HARANDAR },
 						["questID"] = 92224,
