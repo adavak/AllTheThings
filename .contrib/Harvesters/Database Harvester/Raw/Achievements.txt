@@ -17832,3 +17832,7 @@
 62514@@@Slayer's Rise Dominance
 62516@@@The Voided Gazelle
 62517@@@Rise of the Ultradon Slayer
+12.0.1.66337
+62603@@@[DNT] <Hidden> Mythic+ Rating > 0 (The War Within, any season) (copy)
+62612@@@[DNT] Midnight Epic Edition Decor
+62620@@@Allied Race: Haranir (copy)
