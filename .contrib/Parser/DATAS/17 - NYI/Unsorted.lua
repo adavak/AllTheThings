@@ -313,7 +313,6 @@ root(ROOTS.Unsorted, {
 				i(249527),	-- Elder Painting
 				i(249543),	-- Special Remedy
 				i(249553),	-- Lost Mirror
-				i(249687),	-- Poisonous Frog Secretions \\ Poison Frog Secretions
 				i(249688),	-- Felo'melorn Replica
 				i(250705),	-- Naga Missive PH NAME
 				i(251899),	-- Anasterian's Book of Law
