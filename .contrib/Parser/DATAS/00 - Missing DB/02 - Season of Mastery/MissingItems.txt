@@ -19,6 +19,7 @@ i(190186),	-- [NYI] Stormwind Incubus Summon \\ Wooden Figurine
 i(190187),	-- Withered Scarf
 i(190232),	-- Withered Scarf
 i(190307),	-- Unlit Torch
+i(190308),	-- Burning Torch
 i(190309),	-- [PH] Love Artifact \\ Wooden Figurine
 1.14.3.42770
 i(191204),	-- Lesser Deathstone
@@ -39,6 +40,7 @@ i(191458),	-- Shattered Phylactery
 i(191459),	-- Rune of Fortune
 i(191477),	-- Skeletal Hitching Post
 i(191480),	-- Skeletal Steed
+i(191481),	-- Tabard of Mastery
 i(191550),	-- Book of Deathstones: Mask of Death
 i(191605),	-- Book of Deathstones: Rune of Teleportation I
 i(191606),	-- Book of Deathstones: Orb of Corruption
