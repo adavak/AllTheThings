@@ -1,13 +1,6 @@
 1.14.1.40688
 q(65309),	--
 1.14.2.42065
-q(65593),	-- CLASSIC:Hearts of the Lovers	 TBC:Hearts of the Lovers	 WOTLK:Hearts of the Lovers	 CATA:Hearts of the Lovers	 MOP:Hearts of the Lovers
-q(65597),	-- CLASSIC:The Binding	 TBC:The Binding	 WOTLK:The Binding	 CATA:The Binding	 MOP:The Binding
-q(65601),	-- CLASSIC:Love Hurts	 TBC:Love Hurts	 WOTLK:Love Hurts	 CATA:Love Hurts	 MOP:Love Hurts
-q(65602),	-- CLASSIC:What Is Love?	 TBC:What Is Love?	 WOTLK:What Is Love?	 CATA:What Is Love?	 MOP:What Is Love?
-q(65603),	-- CLASSIC:The Binding	 TBC:The Binding	 WOTLK:The Binding	 CATA:The Binding	 MOP:The Binding
-q(65604),	-- CLASSIC:The Binding	 TBC:The Binding	 WOTLK:The Binding	 CATA:The Binding	 MOP:The Binding
-q(65610),	-- CLASSIC:Wish You Were Here	 TBC:Wish You Were Here	 WOTLK:Wish You Were Here	 CATA:Wish You Were Here	 MOP:Wish You Were Here
 q(65616),	--
 1.14.3.42770
 q(66145),	--

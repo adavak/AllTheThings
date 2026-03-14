@@ -1,4 +1,2 @@
-1.14.1.40800
-ach(15335),	-- Survivor of the Damned (Season of Mastery) \\ Survivor of the Damned
-1.14.3.42770
-ach(15637),	-- The Immortal (Season of Mastery) \\ The Immortal
+1.14.1.40688
+ach(15332),	-- [DNT] Survivor (Season of Mastery) (hidden) \\ Survivor
