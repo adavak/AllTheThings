@@ -2751,6 +2751,7 @@ MobileDB.GameObject = {
 	[556425] = true,	-- Darkpine Lumber
 	[556498] = true,	-- Echo of a Wounded Retreat (q:91544)
 	[556704] = true,	-- Darkpine Lumber
+	[557572] = true,	-- Nutrient-Rich Dirt (q:91586)
 	[557988] = true,	-- Darkpine Lumber
 	[558184] = true,	-- Decaying Fighter
 	[558338] = true,	-- Darkpine Lumber

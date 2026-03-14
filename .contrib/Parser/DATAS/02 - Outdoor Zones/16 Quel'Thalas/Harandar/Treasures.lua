@@ -282,8 +282,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 62.5, 44.3, MAP.MIDNIGHT.HARANDAR },
 						["questID"] = 92254,
 					}),
-					o(571265, {	-- Glowing Moth (Unverified, Server restart)
-						["coord"] = { 60.7, 45.4, MAP.MIDNIGHT.HARANDAR },
+					o(571265, {	-- Glowing Moth (R4)
+						["coords"] = {
+							{ 60.3, 46.1, MAP.MIDNIGHT.HARANDAR },	-- Cave Entrance
+							{ 60.7, 45.4, MAP.MIDNIGHT.HARANDAR },	-- Glowing Moth
+						},
 						["questID"] = 92253,
 					}),
 					o(571266, {	-- Glowing Moth (R4)
