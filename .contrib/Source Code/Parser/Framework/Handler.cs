@@ -1,7 +1,5 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using DataCondition = System.Func<System.Collections.Generic.IDictionary<string, object>, bool>;
 using DataAction = System.Action<System.Collections.Generic.IDictionary<string, object>>;
 using Data = System.Collections.Generic.IDictionary<string, object>;
@@ -66,7 +64,12 @@ namespace ATT
                 foreach (var data in ActionDatas[act])
                 {
                     // data.DataBreakPoint("achID", 12896);
+                    //bool track = data.TryGetValue("itemID", out long tempItemID) && tempItemID == Framework.Config["TEMP_itemID"];
+                    //if (track)
+                    //    Framework.Log($"Tracking Item: {tempItemID} change during {act.Method.Name} handler", data);
                     act(data);
+                    //if (track)
+                    //    Framework.Log($"Resulting Item: {tempItemID} after {act.Method.Name} handler", data);
                 }
             }
         }
