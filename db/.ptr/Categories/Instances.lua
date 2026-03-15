@@ -7158,8 +7158,19 @@ n(7057,{coords={
 s(3230,9378,{f=21,lvl=15}),
 s(3229,9375,{f=5,lvl=15}),
 s(3233,9382,{f=5,lvl=15})}})}}),
+h(-56,{
+o(141979,{description="Found in the Hall of the Crafters after you defeat Archaedas. Contains 2-3 items.",modelScale=3,sym={{"select","itemID",8029}}}),
+o(123329,{
+i(7740,{description="Use this item along with the Shaft of Tsol to create the Staff of Prehistoria required to open the door to Ironaya.\n\nYou should ask whoever loots the Shaft of Tsol from Revelosh to trade it to you.",rwp=40100,spellID=9594,u=2})}),
 o(125477,{description="In the room with the Lost Dwarves next to the sealed door opposite to the dwarves on top fo the stairs. You will need to kill some stealthed Troggs to get there.",g={
 i(7671)}}),
+o(113757,{description="WARNING: Defeat the Galgann Firehammer first as looting this chest will spawn two dwarven Ambushers.\n\nNOTE: This trigger only occurs once per instance lockout.",g={
+i(7669)}}),
+i(7733,{cost={{"i",7741,1},{"i",7740,1}},description="Use this on the Keystone in the digsite that has the miniature city to open the door to Ironaya.\n\nThis is a reference to the Raiders of the Lost Ark.",rwp=40100,spellID=9577,u=2}),
+o(142088,{description="Located in the same room as Galgann Firehammer.",g={
+i(5824)}}),
+o(131474,{description="Talk to the Lore Keeper until he has finished talking and then pick up the quest from The Discs of Norgannon again.",modelScale=3,g={
+i(6064)}})}),
 e(468,{crs={6906,6907,6908},r=1,g={
 s(3251,9400,{b=1,f=32,lvl=15}),
 s(3254,9403,{b=1,f=8,lvl=15}),
@@ -7169,12 +7180,9 @@ s(3252,9401,{b=1,f=25,lvl=15}),
 s(3255,9404,{b=1,f=8,lvl=15,spellID=12438}),
 s(76411,132734,{awp=70003,b=1,f=6,lvl=15}),
 s(3249,9398,{b=1,f=5,lvl=15})}}),
-o(123329,{
-i(7740,{description="Use this item along with the Shaft of Tsol to create the Staff of Prehistoria required to open the door to Ironaya.\n\nYou should ask whoever loots the Shaft of Tsol from Revelosh to trade it to you.",rwp=40100,spellID=9594,u=2})}),
 n(6912,{description="This dead Paladin was central in now removed dungeon quests, and remains abandoned on the ground without any purpose.",g={
 i(7886)}}),
 e(467,{npcID=6910,g={
-i(7733,{cost={{"i",7741,1},{"i",7740,1}},description="Use this on the keyhole looking gizmo in the digsite that has the miniature city to open the door to Ironaya.\n\nThis is a reference to the Raiders of the Lost Ark.",rwp=40100,spellID=9577,u=2}),
 i(7741,{description="Use this item along with the Gni'kiv Medallion to create the Staff of Prehistoria required to open the door to Ironaya.\n\nYou should trade this to the person that looted the Gni'kiv Medallion.",rwp=40100,spellID=9595,u=2}),
 s(76413,132736,{awp=70003,b=1,f=6,lvl=15}),
 s(3240,9389,{b=1,f=5,lvl=15}),
@@ -7182,7 +7190,7 @@ s(3239,9388,{b=1,f=6,lvl=15}),
 s(3241,9390,{b=1,f=4,lvl=15}),
 s(89402,151395,{awp=70300,b=1,f=7,lvl=15}),
 s(3238,9387,{b=1,f=6,lvl=15})}}),
-e(469,{npcID=7228,g={
+e(469,{npcID=7228,providers={{"o",124371}},g={
 s(3259,9408,{b=1,f=28,lvl=15}),
 s(89405,151398,{awp=70300,b=1,f=5,lvl=15}),
 s(89424,151420,{awp=70300,b=1,f=7,lvl=15}),
@@ -7204,10 +7212,6 @@ s(3269,9419,{b=1,f=23,lvl=15,spellID=248274}),
 s(3263,9412,{b=1,f=31,lvl=15,spellID=29633}),
 s(4166,11310,{b=1,f=4,lvl=15}),
 s(4167,11311,{b=1,f=3,lvl=15})}}),
-o(113757,{description="WARNING: Defeat the Galgann Firehammer first as looting this chest will spawn two dwarven Ambushers.\n\nNOTE: This trigger only occurs once per instance lockout.",g={
-i(7671)}}),
-o(142088,{description="Located in the same room as Galgann Firehammer.",g={
-i(5824)}}),
 e(472,{npcID=4854,g={
 i(7670),
 s(3267,9416,{b=1,f=29,lvl=15}),
@@ -7222,10 +7226,7 @@ gach(5047,{awp=40003}),
 i(7672),
 s(3268,9418,{b=1,f=26,lvl=15,spellID=248198}),
 s(3264,9413,{b=1,f=24,lvl=15}),
-i(11118,{b=1,f=52,lvl=15})}}),
-o(141979,{description="Found in the Hall of the Crafters after you defeat Archaedas. Contains 2-3 items.",modelScale=3,sym={{"select","itemID",8029}}}),
-o(131474,{description="Talk to the Lore Keeper until he has finished talking and then pick up the quest from The Discs of Norgannon again.",modelScale=3,g={
-i(6064)}})}}),
+i(11118,{b=1,f=52,lvl=15})}})}}),
 inst(240,{coords={
 [11]={{55.2,66.1}}},mapID=279,savedInstanceID=43,g={
 h(-45,{
@@ -36572,8 +36573,8 @@ s(82539,141449,{b=1,f=4,lvl=45,modID=3}),
 s(82860,141543,{b=1,f=3,lvl=45,modID=3}),
 i(141492,{b=1,f=52,lvl=45,modID=3}),
 i(141482,{b=1,f=53,lvl=45,modID=3}),
-crit(35022,{achID=11160,awp=70000,id=11}),
-crit(33785,{achID=11189,awp=70003,id=143})}})}}),
+crit(33785,{achID=11189,awp=70003,id=143}),
+crit(35022,{achID=11160,awp=70000,id=11})}})}}),
 inst(768,{coords={
 [641]={{56.3,36.9}}},isRaid=1,maps={777,778,779,780,781,782,783,784,785,786,787,788,789},savedInstanceID=1520,g={
 h(-12,{
@@ -37253,7 +37254,7 @@ s(296251,249678,{b=1,f=7,lvl={45}}),
 s(296255,249679,{b=1,f=7,lvl={45}})}})}})}),
 d(109,{difficulties={17,14,15,16},g={
 h(-19,{crs={114263,114323,114344,114537},g={
-en(143509,{b=1,c={5,8,9},lvl=45,questID=45225,spellID=231673,tmogSetID=174,g={
+en(143509,{b=1,c={5,8,9},lvl=45,providers={{"i",241607}},questID=45225,spellID=231673,tmogSetID=174,g={
 s(84111,143338,{f=4,lvl={45},modID=4}),
 s(84114,143343,{f=4,lvl={45},modID=4}),
 s(84117,143346,{f=4,lvl={45},modID=4}),
@@ -37271,7 +37272,7 @@ s(294661,247571,{b=1,f=4,lvl={45},modID=4}),
 s(294713,247584,{b=1,f=4,lvl={45},modID=4}),
 s(296278,249684,{b=1,f=4,lvl={45},modID=4}),
 s(296282,249685,{b=1,f=4,lvl={45},modID=4})}}),
-en(143513,{b=1,c={4,10,11,12},lvl=45,questID=45229,spellID=231677,tmogSetID=178,g={
+en(143513,{b=1,c={4,10,11,12},lvl=45,providers={{"i",241604}},questID=45229,spellID=231677,tmogSetID=178,g={
 s(84192,143336,{f=5,lvl={45},modID=4}),
 s(84195,143340,{f=5,lvl={45},modID=4}),
 s(84198,143341,{f=5,lvl={45},modID=4}),
@@ -37289,7 +37290,7 @@ s(294717,247585,{b=1,f=5,lvl={45},modID=4}),
 s(294725,247587,{b=1,f=5,lvl={45},modID=4}),
 s(296270,249682,{b=1,f=5,lvl={45},modID=4}),
 s(296274,249683,{b=1,f=5,lvl={45},modID=4})}}),
-en(143517,{b=1,c={3,7,13},lvl=45,questID=45233,spellID=231681,tmogSetID=182,g={
+en(143517,{b=1,c={3,7,13},lvl=45,providers={{"i",241601}},questID=45233,spellID=231681,tmogSetID=182,g={
 s(84138,143335,{f=6,lvl={45},modID=4}),
 s(84141,143339,{f=6,lvl={45},modID=4}),
 s(84144,143344,{f=6,lvl={45},modID=4}),
@@ -37307,7 +37308,7 @@ s(294729,247588,{b=1,f=6,lvl={45},modID=4}),
 s(294733,247589,{b=1,f=6,lvl={45},modID=4}),
 s(296262,249680,{b=1,f=6,lvl={45},modID=4}),
 s(296266,249681,{b=1,f=6,lvl={45},modID=4})}}),
-en(143521,{b=1,c={1,2,6},lvl=45,questID=45237,spellID=231686,tmogSetID=186,g={
+en(143521,{b=1,c={1,2,6},lvl=45,providers={{"i",241597}},questID=45237,spellID=231686,tmogSetID=186,g={
 s(84165,143334,{f=7,lvl={45},modID=4}),
 s(84168,143337,{f=7,lvl={45},modID=4}),
 s(84171,143342,{f=7,lvl={45},modID=4}),
@@ -37614,7 +37615,7 @@ gach(11404),
 gach(11405,{u=2}),
 ach(11387,{crs={116229},rwp=80001,u=2,g={
 title(347),
-en(143508,{b=1,c={5,8,9},lvl=45,questID=45224,spellID=231672,tmogSetID=173,g={
+en(143508,{b=1,c={5,8,9},lvl=45,providers={{"i",241608}},questID=45224,spellID=231672,tmogSetID=173,g={
 s(84110,143338,{f=4,lvl={45},modID=6}),
 s(84113,143343,{f=4,lvl={45},modID=6}),
 s(84116,143346,{f=4,lvl={45},modID=6}),
@@ -37630,7 +37631,7 @@ s(294652,247569,{b=1,f=4,lvl={45},modID=6}),
 s(294656,247570,{b=1,f=4,lvl={45},modID=6}),
 s(294660,247571,{b=1,f=4,lvl={45},modID=6}),
 s(294712,247584,{b=1,f=4,lvl={45},modID=6})}}),
-en(143512,{b=1,c={4,10,11,12},lvl=45,questID=45228,spellID=231676,tmogSetID=177,g={
+en(143512,{b=1,c={4,10,11,12},lvl=45,providers={{"i",241603}},questID=45228,spellID=231676,tmogSetID=177,g={
 s(84191,143336,{f=5,lvl={45},modID=6}),
 s(84194,143340,{f=5,lvl={45},modID=6}),
 s(84197,143341,{f=5,lvl={45},modID=6}),
@@ -37646,7 +37647,7 @@ s(294672,247574,{b=1,f=5,lvl={45},modID=6}),
 s(294676,247575,{b=1,f=5,lvl={45},modID=6}),
 s(294716,247585,{b=1,f=5,lvl={45},modID=6}),
 s(294724,247587,{b=1,f=5,lvl={45},modID=6})}}),
-en(143516,{b=1,c={3,7,13},lvl=45,questID=45232,spellID=231680,tmogSetID=181,g={
+en(143516,{b=1,c={3,7,13},lvl=45,providers={{"i",241599}},questID=45232,spellID=231680,tmogSetID=181,g={
 s(84137,143335,{f=6,lvl={45},modID=6}),
 s(84140,143339,{f=6,lvl={45},modID=6}),
 s(84143,143344,{f=6,lvl={45},modID=6}),
@@ -37662,7 +37663,7 @@ s(294688,247578,{b=1,f=6,lvl={45},modID=6}),
 s(294692,247579,{b=1,f=6,lvl={45},modID=6}),
 s(294728,247588,{b=1,f=6,lvl={45},modID=6}),
 s(294732,247589,{b=1,f=6,lvl={45},modID=6})}}),
-en(143520,{b=1,c={1,2,6},lvl=45,questID=45236,spellID=231685,tmogSetID=185,g={
+en(143520,{b=1,c={1,2,6},lvl=45,providers={{"i",241596}},questID=45236,spellID=231685,tmogSetID=185,g={
 s(84164,143334,{f=7,lvl={45},modID=6}),
 s(84167,143337,{f=7,lvl={45},modID=6}),
 s(84170,143342,{f=7,lvl={45},modID=6}),
@@ -55902,7 +55903,7 @@ crit(63147,{achID=19349,id=4})}),
 crit(64989,{achID=19570,awp=100206,rwp=110002,u=2})}}),
 e(2553,{npcID=208445,g={
 ach(19089,{
-p(4291,{b=1,itemID=210556,npcID=212275,providers={{"i",210691},{"i",210692},{"i",210870}},questID=78855,spellID=426156}),
+p(4291,{b=1,itemID=210556,npcID=212275,spellID=426156}),
 crit(63148,{achID=19349,id=5})}),
 crit(64990,{achID=19570,awp=100206,rwp=110002,u=2})}}),
 e(2556,{npcID=206172,g={

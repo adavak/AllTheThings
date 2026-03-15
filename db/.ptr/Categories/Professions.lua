@@ -5046,7 +5046,7 @@ crit(61609,{achID=18859,id=2,providers={{"n",209635}},r=2}),
 crit(61611,{achID=18859,id=4,providers={{"n",209637}},r=2}),
 crit(61610,{achID=18859,id=3,providers={{"n",209636}},r=2}),
 crit(61613,{achID=18859,id=6,providers={{"n",209639}},r=2})}}),
-ach(18724,{requireSkill=773,sourceQuests={39695}}),
+ach(18724,{providers={{"i",226036},{"i",232935},{"i",232936},{"i",232937},{"i",244147},{"i",244148},{"i",244149}},questID=39695,requireSkill=773}),
 ach(18879,{providers={{"s",419575}},requireSkill=773}),
 ach(18878,{providers={{"s",419575}},requireSkill=773}),
 ach(18877,{providers={{"s",419575}},requireSkill=773}),
@@ -6039,7 +6039,7 @@ ach(62244,{requireSkill=755,g={
 title(746,{requireSkill=755})}})}}),
 h(-45,{requireSkill=755,g={
 q(93694,{coords={
-[2393]={{48.2,55.1}}},isWeekly=1,lvl=78,qgs={243345},requireSkill=755,sourceQuests={93729},g={
+[2393]={{45,55.2},{48.2,55.1}}},isWeekly=1,lvl=78,qgs={243283,243345},requireSkill=755,sourceQuests={93729},g={
 i(263458,{b=1,isWeekly=1,requireSkill=755,spellID=1270536})}})}}),
 flt(200,{description="These are learned by specialization.",requireSkill=755,g={
 r(1230482,{cost={{"c",3156,1}},learnedAt=60,requireSkill=755,skillID=2914}),

@@ -716,7 +716,8 @@ cq(92710,{b=1,cost={{"c",3363,30}},description="Once you've purchased this item,
 h(-45,{
 q(92608,{coords={
 [2351]={{53.8,55.6}},
-[2352]={{53,37.2}}},isWeekly=1,lvl=25,qgs={252717}})})})}}),
+[2352]={{53,37.2}}},isWeekly=1,lvl=25,qgs={252717},g={
+i(253316,{spellID=1256057})}})})})}}),
 m(2352,{awp=110207,g={
 h(-30,{
 exp(16704,{collectible=false,coords={

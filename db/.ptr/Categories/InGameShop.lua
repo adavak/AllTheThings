@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildDataCache", function(categories)
-local ach,crit,de,en,flt,h,i,mnt,p,q,s,toy=_.CreateAchievement,_.CreateAchievementCriteria,_.CreateDecor,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateToy;
+local ach,crit,de,en,flt,h,i,mnt,p,s,toy=_.CreateAchievement,_.CreateAchievementCriteria,_.CreateDecor,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateItemSource,_.CreateToy;
 categories.InGameShop=
 h(-213,{SortPriority=85,g={
 h(-12,{u=3,g={
@@ -318,16 +318,15 @@ s(230531,233037,{f=2}),
 s(230532,233038,{f=2}),
 s(230533,233039,{f=2}),
 s(230534,233040,{f=3})}}),
-i(204888,{awp=100007,f=55,providers={{"i",200915}},questID=72082,spellID=407401,tmogSetID=2857,u=3,g={
-s(185909,204882,{f=2,u=3}),
-s(185910,204881,{f=3,u=3}),
-s(185916,204874,{f=2,u=3}),
-s(185913,204878,{f=2,u=3}),
-s(185911,204880,{f=2,u=3}),
-s(185915,204875,{f=2,u=3}),
-s(185914,204876,{f=2,u=3}),
-s(185912,204879,{f=2,u=3}),
-q(75449,{collectible=false,type="hqt",u=3})}}),
+en(204888,{awp=100007,questID=75449,spellID=407401,tmogSetID=2857,u=3,g={
+s(185909,204882,{f=2}),
+s(185910,204881,{f=3}),
+s(185911,204880,{f=2}),
+s(185912,204879,{f=2}),
+s(185913,204878,{f=2}),
+s(185914,204876,{f=2}),
+s(185915,204875,{f=2}),
+s(185916,204874,{f=2})}}),
 en(255827,{awp=110205,spellID=1259474,tmogSetID=2293,u=3,g={
 s(165610,188256,{f=3}),
 s(165611,188257,{f=3}),

@@ -5014,12 +5014,12 @@ n(16714,{coords={
 [103]={{69.8,89.4}}},r=2,sym={{"select","itemID",926,2025,2520,1198,2029,851,922,927,2024,2528,852,2207,2209,923,2526,2208,2534,2027,1196}},u=17}),
 n(16750,{coords={
 [103]={{67.6,94.6}}},r=2,sym={{"select","itemID",847,1845,849,1846,850,848,2392,2393,2395,2396,2397,2394,1853,287,1852,718,286,285}},u=17})}}),
+h(-43,{awp=50004,pb=1,g={
+crit(19848,{achID=6584,id=4,pb=1})}}),
 h(-12,{
 crit(11080,{achID=3556,awp=30202,e=101,id=3,r=2}),
 crit(11138,{achID=3581,awp=30202,e=101,id=3,r=1}),
-crit(18291,{achID=6030,awp=40300,e=1,id=4,providers={{"i",74142}},r=2})}),
-h(-43,{awp=50004,pb=1,g={
-crit(19848,{achID=6584,id=4,pb=1})}})}}),
+crit(18291,{achID=6030,awp=40300,e=1,id=4,providers={{"i",74142}},r=2})})}}),
 m(88,{icon=255144,isRaid=1,lore="Thunder Bluff is the Tauren capital city located in the northern part of the region of Mulgore. The whole of the city is built on bluffs several hundred feet above the surrounding landscape, and is accessible by elevators on the southwestern and northeastern sides.",g={
 h(-12,{
 ach(5849,{awp=40200,r=1,requireSkill=356,u=40,g={
@@ -5344,10 +5344,10 @@ crit(21702,{achID=6585,id=27,pb=1})}}),
 p(495,{npcID=62312,pb=1,g={
 crit(21691,{achID=6585,id=28,pb=1})}}),
 p(450,{npcID=61753,pb=1,g={
+crit(19443,{achID=2556,awp=30002,id=13,u=30}),
 crit(21514,{achID=6585,id=42,pb=1}),
 crit(21514,{achID=6586,id=44,pb=1}),
-crit(21514,{achID=6588,id=15,pb=1,u=30}),
-crit(19443,{achID=2556,awp=30002,id=13,u=30})}}),
+crit(21514,{achID=6588,id=15,pb=1,u=30})}}),
 p(496,{description="Can be found on the Blackfathom Deeps beach in Ashenvale.",npcID=62313,pb=1,g={
 crit(21703,{achID=6585,id=62,pb=1})}})}}),
 h(-30,{
@@ -8564,9 +8564,9 @@ crit(21712,{achID=6585,id=20,pb=1})}}),
 p(483,{npcID=62185,pb=1,g={
 crit(21715,{achID=6585,id=35,pb=1})}}),
 p(482,{npcID=62184,pb=1,g={
+crit(21307,{achID=5548,awp=40003,id=8}),
 crit(21699,{achID=6585,id=61,pb=1}),
-crit(21716,{achID=6587,id=14,pb=1,u=17}),
-crit(21307,{achID=5548,awp=40003,id=8})}}),
+crit(21716,{achID=6587,id=14,pb=1,u=17})}}),
 p(485,{description="Found in the southeastern area of Desolace. It only spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE).",npcID=62187,pb=1,g={
 crit(21717,{achID=6585,id=84,pb=1})}}),
 p(480,{coords={
@@ -9567,30 +9567,30 @@ crit(11082,{achID=3557,awp=30202,e=101,id=2,r=1}),
 crit(11134,{achID=3580,awp=30202,e=101,id=2,r=2})}),
 flt(101,{awp=50004,pb=1,g={
 p(635,{npcID=61325,pb=1,g={
+crit(19368,{achID=2556,awp=30002,id=12,u=30}),
 crit(21509,{achID=6585,id=1,pb=1}),
 crit(21509,{achID=6586,id=1,pb=1}),
-crit(21509,{achID=6587,id=1,pb=1,u=17}),
-crit(19368,{achID=2556,awp=30002,id=12,u=30})}}),
+crit(21509,{achID=6587,id=1,pb=1,u=17})}}),
 p(468,{npcID=62116,pb=1,g={
 crit(21698,{achID=6585,id=15,pb=1})}}),
 p(467,{npcID=62115,pb=1,g={
 crit(21719,{achID=6585,id=22,pb=1})}}),
 p(448,{npcID=61751,pb=1,g={
+crit(21285,{achID=1206,awp=30002,id=10}),
 crit(21612,{achID=6585,id=33,pb=1}),
-crit(21612,{achID=6586,id=26,pb=1}),
-crit(21285,{achID=1206,awp=30002,id=10})}}),
+crit(21612,{achID=6586,id=26,pb=1})}}),
 p(466,{npcID=62114,pb=1,g={
 crit(21720,{achID=6585,id=80,pb=1})}}),
 p(420,{npcID=61369,pb=1,g={
+crit(21291,{achID=1206,awp=30002,id=20}),
 crit(21646,{achID=6585,id=90,pb=1}),
 crit(21646,{achID=6586,id=81,pb=1}),
 crit(21646,{achID=6587,id=25,pb=1,u=17}),
-crit(21646,{achID=6588,id=30,pb=1,u=30}),
-crit(21291,{achID=1206,awp=30002,id=20})}}),
+crit(21646,{achID=6588,id=30,pb=1,u=30})}}),
 p(418,{npcID=61367,pb=1,g={
+crit(19438,{achID=2556,awp=30002,id=2,u=30}),
 crit(21661,{achID=6585,id=99,pb=1}),
-crit(21661,{achID=6586,id=86,pb=1}),
-crit(19438,{achID=2556,awp=30002,id=2,u=30})}})}}),
+crit(21661,{achID=6586,id=86,pb=1})}})}}),
 h(-30,{
 exp(374),
 exp(365,{collectible=false}),
@@ -10016,11 +10016,11 @@ ach(850,{awp=30002,g={
 crit(1495,{achID=43,id=15})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",398,387,412,420}},g={
 p(385,{npcID=61143,pb=1,g={
+crit(19440,{achID=2556,awp=30002,id=7,u=30}),
 crit(21631,{achID=6585,id=46,pb=1}),
 crit(21631,{achID=6586,id=49,pb=1}),
 crit(21631,{achID=6587,id=9,pb=1,u=17}),
-crit(21631,{achID=6588,id=17,pb=1,u=30}),
-crit(19440,{achID=2556,awp=30002,id=7,u=30})}}),
+crit(21631,{achID=6588,id=17,pb=1,u=30})}}),
 p(489,{description="Can be found in the area around Onyxia's Lair in Dustwallow Marsh.",npcID=62201,pb=1,g={
 crit(21721,{achID=6585,id=77,pb=1})}})}}),
 h(-30,{
@@ -11668,11 +11668,11 @@ flt(101,{awp=50004,pb=1,sym={{"select","speciesID",378,379}},g={
 p(557,{description="Can be found in the surrounding areas outside of the Dire Maul instance portals in Feralas.",npcID=62395,pb=1,g={
 crit(21726,{achID=6585,id=47,pb=1})}}),
 p(387,{npcID=61142,pb=1,g={
+crit(19428,{achID=2556,awp=30002,id=10,u=30}),
 crit(21519,{achID=6585,id=75,pb=1}),
 crit(21519,{achID=6586,id=67,pb=1}),
 crit(21519,{achID=6587,id=20,pb=1,u=17}),
-crit(21519,{achID=6588,id=25,pb=1,u=30}),
-crit(19428,{achID=2556,awp=30002,id=10,u=30})}}),
+crit(21519,{achID=6588,id=25,pb=1,u=30})}}),
 p(1158,{awp=50100,description="Can be found near Feral Scar Yetis south of Dire Maul.",npcID=68805,pb=1})}}),
 h(-30,{
 exp(1099,{awp=30002,g={
@@ -12644,9 +12644,9 @@ p(479,{coords={
 crit(21713,{achID=6585,id=23,pb=1})}}),
 p(415,{coords={
 [198]={{60,70}}},description="Common around fiery and dry areas of Mount Hyjal, as well as around Searing Gorge, Blasted Lands and Burning Steppes",npcID=61328,pb=1,g={
+crit(19442,{achID=2556,awp=30002,id=16,u=30}),
 crit(21621,{achID=6585,id=25,pb=1}),
-crit(21621,{achID=6586,id=21,pb=1}),
-crit(19442,{achID=2556,awp=30002,id=16,u=30})}}),
+crit(21621,{achID=6586,id=21,pb=1})}}),
 p(541,{coords={
 [198]={{60,70}}},description="Common around fiery and dry areas of Mount Hyjal.",npcID=62886,pb=1,g={
 crit(21732,{achID=6585,id=26,pb=1})}}),
@@ -14131,10 +14131,10 @@ crit(21737,{achID=6585,id=12,pb=1}),
 crit(23581,{achID=8397,awp=50400,id=5,pb=1})}}),
 p(1157,{awp=50100,description="Can be found at The Dry Hills, alongside Witchwing Harpies.",npcID=68804,pb=1}),
 p(386,{npcID=61141,pb=1,g={
+crit(21292,{achID=1206,awp=30002,id=21}),
 crit(21613,{achID=6585,id=51,pb=1}),
 crit(21613,{achID=6586,id=52,pb=1}),
-crit(21613,{achID=6587,id=11,pb=1,u=17}),
-crit(21292,{achID=1206,awp=30002,id=21})}})}}),
+crit(21613,{achID=6587,id=11,pb=1,u=17})}})}}),
 h(-30,{
 exp(381,{
 crit(917,{achID=750,id=2})}),
@@ -16482,10 +16482,10 @@ flt(101,{awp=50004,pb=1,sym={{"select","speciesID",487,633,378,472,417,424}},g={
 p(488,{npcID=62190,pb=1,g={
 crit(21743,{achID=6585,id=14,pb=1})}}),
 p(412,{description="The best place to catch these seems to be south of Windshear Hold, but it can definitely be found in other listed places.",npcID=61327,pb=1,g={
+crit(19448,{achID=2556,awp=30002,id=3,u=30}),
 crit(21521,{achID=6585,id=78,pb=1}),
 crit(21521,{achID=6586,id=70,pb=1}),
-crit(21521,{achID=6588,id=26,pb=1,u=30}),
-crit(19448,{achID=2556,awp=30002,id=3,u=30})}}),
+crit(21521,{achID=6588,id=26,pb=1,u=30})}}),
 p(506,{description="Can be found south of Windshear Hold in Webwinder Hollow with larger spiders.",npcID=62191,pb=1,g={
 crit(21744,{achID=6585,id=98,pb=1})}})}}),
 h(-30,{
@@ -17230,9 +17230,9 @@ ach(4935,{awp=40003,sourceQuests={24950,24953,25001,25065,25107,25166,25421,2551
 crit(6127,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",484,431,511}},g={
 p(430,{npcID=61438,pb=1,g={
+crit(19449,{achID=2556,awp=30002,id=17,u=30}),
 crit(21616,{achID=6585,id=31,pb=1}),
-crit(21616,{achID=6586,id=23,pb=1}),
-crit(19449,{achID=2556,awp=30002,id=17,u=30})}}),
+crit(21616,{achID=6586,id=23,pb=1})}}),
 p(491,{description="This pet has very few spawn points and may be easier to find as a second pet, but is sometimes around Gadgetzan. 'Rare' kittens are not easy to come across.",npcID=62257,pb=1,g={
 crit(21746,{achID=6585,id=63,pb=1}),
 crit(23589,{achID=8397,awp=50400,id=16,pb=1})}}),
@@ -19847,12 +19847,12 @@ p(543,{coords={
 crit(21752,{achID=6585,id=39,pb=1})}}),
 p(542,{coords={
 [249]={{48.5,34.15},{57.3,50.8},{58,76.8},{59.2,31.5},{66,72.4}}},description="Found around Vir'nal river.",npcID=62892,pb=1,g={
-crit(21753,{achID=6585,id=41,pb=1}),
-crit(21305,{achID=5548,awp=40003,id=5})}}),
+crit(21305,{achID=5548,awp=40003,id=5}),
+crit(21753,{achID=6585,id=41,pb=1})}}),
 p(544,{coords={
 [249]={{48.5,34.15},{57.3,50.8},{58,76.8},{59.2,31.5}}},description="Found around Vir'nal river.",npcID=62895,pb=1,g={
-crit(21754,{achID=6585,id=49,pb=1}),
-crit(21303,{achID=5548,awp=40003,id=6})}}),
+crit(21303,{achID=5548,awp=40003,id=6}),
+crit(21754,{achID=6585,id=49,pb=1})}}),
 p(511,{coords={
 [81]={{36.7,77.7},{48,37}},
 [249]={{30.6,15},{32,62.7},{50.4,21.8},{65.5,33.4},{76,55.7}}},description="Can be found in most places around Uldum and Silithus, the listed coordinates indicates the wider areas where the pet is most common.",npcID=62523,pb=1,g={
@@ -20442,9 +20442,9 @@ crit(21750,{achID=6585,id=21,pb=1})}}),
 p(631,{npcID=62127,pb=1,g={
 crit(21738,{achID=6585,id=24,pb=1})}}),
 p(403,{npcID=61313,pb=1,g={
+crit(21286,{achID=1206,awp=30002,id=11}),
 crit(21657,{achID=6585,id=50,pb=1}),
-crit(21657,{achID=6586,id=50,pb=1}),
-crit(21286,{achID=1206,awp=30002,id=11})}}),
+crit(21657,{achID=6586,id=50,pb=1})}}),
 p(502,{description="Only found around water in Un'goro.",npcID=62370,pb=1,g={
 crit(21756,{achID=6585,id=81,pb=1})}})}}),
 h(-30,{
@@ -20944,13 +20944,13 @@ ach(4940,{awp=40003,sourceQuests={28472,28628,28639,28710,28722,28742,28782,2882
 crit(6134,{achID=1678,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",441,633,472,471}},g={
 p(487,{npcID=62189,pb=1,g={
-crit(21728,{achID=6585,id=2,pb=1}),
-crit(21300,{achID=5548,awp=40003,id=1})}}),
+crit(21300,{achID=5548,awp=40003,id=1}),
+crit(21728,{achID=6585,id=2,pb=1})}}),
 p(1163,{awp=50100,description="Found in Everlook.",npcID=68839,pb=1}),
 p(634,{description="Can most commonly be found in Frostwhisper Gorge in southern Winterspring and Lake Kel'theril.",npcID=62435,pb=1,g={
+crit(19417,{achID=2556,awp=30002,id=11,u=30}),
 crit(21512,{achID=6585,id=17,pb=1}),
-crit(21512,{achID=6586,id=16,pb=1}),
-crit(19417,{achID=2556,awp=30002,id=11,u=30})}}),
+crit(21512,{achID=6586,id=16,pb=1})}}),
 p(69,{description="Starts spawning December 21st. Stops spawning March 20th",npcID=7554,pb=1,g={
 crit(21757,{achID=6585,id=76,pb=1})}})}}),
 h(-30,{
@@ -22265,10 +22265,10 @@ n(16664,{coords={
 [110]={{78.45,42.55}}},r=1,sym={{"sub","common_vendor",4599}},u=17}),
 n(16623,{coords={
 [110]={{64.8,48.6}}},r=1,sym={{"select","itemID",16059,3428,16060,837,3589,3590,839,838,840,3597,3598,203,201,202,200,3606,2367,3607,2369,2366,2364}},u=17})}}),
-h(-12,{awp=40300,g={
-crit(18296,{achID=6031,e=1,id=5,providers={{"i",74142}},r=1})}}),
 h(-43,{awp=50004,pb=1,g={
-crit(19852,{achID=6621,id=4,pb=1})}})}}),
+crit(19852,{achID=6621,id=4,pb=1})}}),
+h(-12,{awp=40300,g={
+crit(18296,{achID=6031,e=1,id=5,providers={{"i",74142}},r=1})}})}}),
 m(84,{icon=255130,isRaid=1,lore="Stormwind City is the capital city of the Alliance. It is located in the northwestern part of Elwynn Forest.\n\nDuring the First War, the Kingdom of Azeroth, including its capital, Stormwind Keep, was utterly destroyed by the Horde and its survivors fled to Lordaeron. After the orcs were defeated at the Dark Portal at the end of the Second War, it was decided that the city would be rebuilt. The nobles of Stormwind assembled a team of the most skilled and ingenious stonemasons and architects they could find--which later turned sour and led to the rise of the Defias.\n\nWith the fall of the northern kingdoms, Stormwind is by far the most populated city in the world. It serves in many ways as the cultural and trade center of the Alliance, even with remote access to the sea. It is home to the Academy of Arcane Sciences, the only wizarding school in Eastern Kingdoms, as well as SI:7, a rogue intelligence organization.",g={
 h(-12,{
 ach(5476,{awp=40200,r=2,requireSkill=356,u=40,g={
@@ -29948,11 +29948,11 @@ crit(21630,{achID=6586,id=17,pb=1})}}),
 p(399,{npcID=61258,pb=1,g={
 crit(21632,{achID=6586,id=55,pb=1})}}),
 p(397,{npcID=61255,pb=1,g={
+crit(21290,{achID=1206,awp=30002,id=16}),
 crit(21633,{achID=6585,id=73,pb=1}),
 crit(21633,{achID=6586,id=65,pb=1}),
 crit(21633,{achID=6587,id=18,pb=1,u=17}),
-crit(21633,{achID=6588,id=24,pb=1,u=30}),
-crit(21290,{achID=1206,awp=30002,id=16})}}),
+crit(21633,{achID=6588,id=24,pb=1,u=30})}}),
 p(400,{description="Spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE), but can be found as a secondary pet all day long.",npcID=61259,pb=1,g={
 crit(21634,{achID=6586,id=88,pb=1})}})}}),
 h(-30,{
@@ -32107,32 +32107,32 @@ flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646}},g={
 p(374,{npcID=60649,pb=1,g={
 crit(22886,{achID=6586,id=9,pb=1})}}),
 p(459,{description="Found commonly around the small farmhouse SW of Northshire and on Sunstrider Isle.",npcID=62019,pb=1,g={
+crit(21278,{achID=1206,awp=30002,id=2}),
 crit(21610,{achID=6586,id=12,pb=1}),
 crit(21610,{achID=6587,id=4,pb=1,u=17}),
-crit(21278,{achID=1206,awp=30002,id=2}),
 crit(23580,{achID=8397,awp=50400,id=4,pb=1})}}),
 p(447,{npcID=61165,pb=1,g={
+crit(21282,{achID=1206,awp=30002,id=7}),
 crit(21639,{achID=6586,id=18,pb=1}),
-crit(21639,{achID=6588,id=9,pb=1,u=30}),
-crit(21282,{achID=1206,awp=30002,id=7})}}),
+crit(21639,{achID=6588,id=9,pb=1,u=30})}}),
 p(378,{npcID=61080,pb=1,g={
+crit(21287,{achID=1206,awp=30002,id=12}),
 crit(21508,{achID=6585,id=53,pb=1}),
 crit(21508,{achID=6586,id=53,pb=1}),
 crit(21508,{achID=6587,id=12,pb=1,u=17}),
-crit(21508,{achID=6588,id=19,pb=1,u=30}),
-crit(21287,{achID=1206,awp=30002,id=12})}}),
+crit(21508,{achID=6588,id=19,pb=1,u=30})}}),
 p(419,{npcID=61071,pb=1,g={
+crit(21283,{achID=1206,awp=30002,id=8,maps={10,14,57,89,102,153,154}}),
 crit(21518,{achID=6585,id=74,pb=1}),
 crit(21518,{achID=6586,id=66,pb=1}),
-crit(21518,{achID=6587,id=19,pb=1,u=17}),
-crit(21283,{achID=1206,awp=30002,id=8,maps={10,14,57,89,102,153,154}})}}),
+crit(21518,{achID=6587,id=19,pb=1,u=17})}}),
 p(379,{npcID=61081,pb=1,g={
+crit(19426,{achID=2556,awp=30002,id=4,u=30}),
+crit(21276,{achID=1206,awp=30002,id=17}),
 crit(21522,{achID=6585,id=82,pb=1}),
 crit(21522,{achID=6586,id=73,pb=1}),
 crit(21522,{achID=6587,id=22,pb=1,u=17}),
-crit(21522,{achID=6588,id=27,pb=1,u=30}),
-crit(19426,{achID=2556,awp=30002,id=4,u=30}),
-crit(21276,{achID=1206,awp=30002,id=17})}}),
+crit(21522,{achID=6588,id=27,pb=1,u=30})}}),
 p(675,{npcID=62954,pb=1,g={
 crit(21641,{achID=6586,id=75,pb=1})}})}}),
 h(-30,{
@@ -33001,8 +33001,8 @@ ach(4908,{awp=40003,r=1,sourceQuests={9149,9150,9152,9155,9156,9159,9164,9167,91
 crit(5916,{achID=1676,awp=30002,id=1})}})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",450,417,419,387,420}},u=17,g={
 p(461,{npcID=62022,pb=1,u=17,g={
-crit(21647,{achID=6586,id=37,pb=1}),
-crit(19437,{achID=2556,awp=30002,id=1,u=30})}}),
+crit(19437,{achID=2556,awp=30002,id=1,u=30}),
+crit(21647,{achID=6586,id=37,pb=1})}}),
 p(463,{description="Found along the western coastline and on the little island.",npcID=62034,pb=1,u=17,g={
 crit(21648,{achID=6586,id=72,pb=1})}})}}),
 h(-30,{u=17,g={
@@ -36722,10 +36722,10 @@ crit(21663,{achID=6586,id=47,pb=1})}}),
 p(392,{npcID=61168,pb=1,g={
 crit(21664,{achID=6586,id=58,pb=1})}}),
 p(424,{npcID=61169,pb=1,g={
+crit(19423,{achID=2556,awp=30002,id=9,u=30}),
 crit(21517,{achID=6585,id=59,pb=1}),
 crit(21517,{achID=6586,id=60,pb=1}),
-crit(21517,{achID=6588,id=21,pb=1,u=30}),
-crit(19423,{achID=2556,awp=30002,id=9,u=30})}})}}),
+crit(21517,{achID=6588,id=21,pb=1,u=30})}})}}),
 h(-30,{
 exp(97,{awp=30002,g={
 crit(1191,{achID=780,id=1})}}),
@@ -37348,8 +37348,8 @@ flt(101,{awp=50004,pb=1,sym={{"select","speciesID",415}},g={
 p(427,{npcID=61420,pb=1,g={
 crit(21665,{achID=6586,id=3,pb=1})}}),
 p(423,{npcID=61383,pb=1,g={
-crit(21627,{achID=6586,id=39,pb=1}),
-crit(21297,{achID=2557,awp=30002,id=8,u=30})}}),
+crit(21297,{achID=2557,awp=30002,id=8,u=30}),
+crit(21627,{achID=6586,id=39,pb=1})}}),
 p(428,{npcID=61425,pb=1,g={
 crit(21666,{achID=6586,id=46,pb=1})}})}}),
 h(-30,{
@@ -38282,9 +38282,9 @@ ach(4904,{awp=40003,sourceQuests={24913,27600,27849,27851,27857,27911,27914},g={
 crit(5939,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",403,401,420,418}},g={
 p(648,{npcID=61368,pb=1,g={
+crit(21296,{achID=2557,awp=30002,id=7,u=30}),
 crit(21649,{achID=6586,id=30,pb=1}),
-crit(21649,{achID=6588,id=13,pb=1,u=30}),
-crit(21296,{achID=2557,awp=30002,id=7,u=30})}}),
+crit(21649,{achID=6588,id=13,pb=1,u=30})}}),
 p(422,{npcID=61372,pb=1,g={
 crit(21671,{achID=6586,id=45,pb=1})}}),
 p(402,{npcID=61370,pb=1,g={
@@ -38772,8 +38772,8 @@ crit(21659,{achID=6585,id=85,pb=1}),
 crit(21659,{achID=6586,id=74,pb=1}),
 crit(21659,{achID=6588,id=28,pb=1,u=30})}}),
 p(410,{description="Can be found reliably as secondary pets alongside Baby Apes, but also found in Booty Bay.",npcID=61323,pb=1,g={
-crit(21670,{achID=6586,id=87,pb=1}),
-crit(21312,{achID=5548,awp=40003,id=12})}})}}),
+crit(21312,{achID=5548,awp=40003,id=12}),
+crit(21670,{achID=6586,id=87,pb=1})}})}}),
 h(-30,{
 exp(35,{awp=40003,g={
 crit(14050,{achID=4995,id=2})}}),
@@ -40107,11 +40107,11 @@ m(18,{icon=236849,lore="On the northern coast of Lordaeron lies the eerie Tirisf
 m(465,{icon=236457,lore="Deathknell is a small Forsaken village nestled in a well guarded valley just north of Silverpine Forest in Tirisfal Glades which serves as the starting area for the Forsaken.",maps={466},g={
 flt(101,{awp=50004,pb=1,g={
 p(417,{description="Found in MANY zones on Azeroth and Draenor, this place just seems to have the highest concentration of them.",npcID=61366,pb=1,g={
+crit(19451,{achID=2556,awp=30002,id=18,u=30}),
 crit(21516,{achID=6585,id=55,pb=1}),
 crit(21516,{achID=6586,id=54,pb=1}),
 crit(21516,{achID=6587,id=13,pb=1,u=17}),
-crit(21516,{achID=6588,id=20,pb=1,u=30}),
-crit(19451,{achID=2556,awp=30002,id=18,u=30})}}),
+crit(21516,{achID=6588,id=20,pb=1,u=30})}}),
 p(458,{description="Found mostly around the Ruins of Lordaeron.",npcID=61905,pb=1,g={
 crit(21676,{achID=6586,id=43,pb=1})}})}}),
 h(-45,{
@@ -40782,14 +40782,14 @@ crit(21681,{achID=6586,id=28,pb=1})}}),
 p(645,{coords={
 [241]={{29.8,25.13},{46.5,25.1}},
 [634]={{60.78,54.4},{68.25,40}}},description="Commonly found around Vermillion Redoubt in Twilight Highlands.",npcID=62906,pb=1,g={
-crit(21682,{achID=6586,id=29,pb=1}),
-crit(21302,{achID=5548,awp=40003,id=4})}}),
+crit(21302,{achID=5548,awp=40003,id=4}),
+crit(21682,{achID=6586,id=29,pb=1})}}),
 p(431,{coords={
 [71]={{48.9,36.55}},
 [241]={{42.85,53.3},{57,38.7},{65.75,41}}},description="Most commonly found thorough the Verall River valley in Twilight Highlands. Can also be found scattered around north of the river valley, as well as around Badlands and Tanaris.",npcID=61439,pb=1,g={
+crit(21306,{achID=5548,awp=40003,id=7}),
 crit(21617,{achID=6585,id=56,pb=1}),
-crit(21617,{achID=6586,id=56,pb=1}),
-crit(21306,{achID=5548,awp=40003,id=7})}}),
+crit(21617,{achID=6586,id=56,pb=1})}}),
 p(552,{coords={
 [241]={{40.2,47.6},{58.2,29.8},{59.6,51}}},description="Found within the breaches caused by Twilight cultists.",npcID=62914,pb=1,g={
 crit(21683,{achID=6586,id=83,pb=1})}}),
@@ -40804,8 +40804,8 @@ p(548,{coords={
 crit(21685,{achID=6586,id=89,pb=1})}}),
 p(549,{coords={
 [241]={{45.6,41.3},{46.5,25.1},{50.6,32.2},{56.6,71},{65.5,58},{71.6,66.65}}},description="Very common pet in the forests of Twilight Highlands.",npcID=62904,pb=1,g={
-crit(21686,{achID=6586,id=90,pb=1}),
-crit(21313,{achID=5548,awp=40003,id=13})}})}}),
+crit(21313,{achID=5548,awp=40003,id=13}),
+crit(21686,{achID=6586,id=90,pb=1})}})}}),
 h(-30,{
 exp(5584,{collectible=false}),
 exp(5138,{
@@ -43600,15 +43600,15 @@ ach(4903,{awp=40003,r=2,sourceQuests={26270,26297,26370},g={
 crit(5948,{achID=1676,awp=30002,id=1})}})}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",385,386,387,419,379}},g={
 p(646,{npcID=62664,pb=1,g={
+crit(21279,{achID=1206,awp=30002,id=3}),
 crit(21629,{achID=6585,id=11,pb=1}),
 crit(21629,{achID=6586,id=13,pb=1}),
-crit(21629,{achID=6588,id=5,pb=1,u=30}),
-crit(21279,{achID=1206,awp=30002,id=3})}}),
+crit(21629,{achID=6588,id=5,pb=1,u=30})}}),
 p(388,{npcID=61158,pb=1,g={
+crit(21280,{achID=1206,awp=30002,id=15}),
 crit(21706,{achID=6585,id=69,pb=1}),
 crit(21706,{achID=6588,id=23,pb=1,u=30}),
-crit(21706,{achID=6589,id=39,u=50}),
-crit(21280,{achID=1206,awp=30002,id=15})}}),
+crit(21706,{achID=6589,id=39,u=50})}}),
 p(389,{npcID=61160,pb=1,g={
 crit(21687,{achID=6586,id=79,pb=1})}})}}),
 h(-30,{
@@ -47150,10 +47150,10 @@ ach(1271,{r=1,sourceQuests={9345,9351,9356,9370,9387,9391,9397,9406,9472,10136,1
 crit(3915,{achID=1262,id=1,u=17})}})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",635}},u=17,g={
 p(414,{npcID=61326,pb=1,u=17,g={
+crit(19425,{achID=2556,awp=30002,id=14,u=30}),
 crit(21622,{achID=6585,id=65,pb=1}),
 crit(21622,{achID=6586,id=62,pb=1}),
-crit(21622,{achID=6587,id=16,pb=1,u=17}),
-crit(19425,{achID=2556,awp=30002,id=14,u=30})}})}}),
+crit(21622,{achID=6587,id=16,pb=1,u=17})}})}}),
 h(-30,{u=17,g={
 exp(3671,{u=17}),
 exp(3808,{u=17}),
@@ -56800,12 +56800,12 @@ ach(1012,{minReputation={1037,42000},r=2,u=30}),
 ach(1011,{minReputation={1052,42000},r=1,u=30})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",388}},u=30,g={
 p(641,{npcID=62693,pb=1,u=30,g={
-crit(21767,{achID=6588,id=2,pb=1,u=30}),
-crit(21293,{achID=2557,awp=30002,id=1,u=30})}}),
+crit(21293,{achID=2557,awp=30002,id=1,u=30}),
+crit(21767,{achID=6588,id=2,pb=1,u=30})}}),
 p(639,{coords={
 [114]={{57,35}}},description="Found all over the yellow/brown tundra between Warsong Hold and Sholazar Basin.",npcID=62695,pb=1,u=30,g={
-crit(21768,{achID=6588,id=4,pb=1,u=30}),
-crit(21294,{achID=2557,awp=30002,id=2,u=30})}}),
+crit(21294,{achID=2557,awp=30002,id=2,u=30}),
+crit(21768,{achID=6588,id=4,pb=1,u=30})}}),
 p(1165,{awp=50100,coords={
 [114]={{30,30}}},description="Found in Coldarra.",npcID=68845,pb=1,u=30}),
 p(530,{coords={
@@ -56813,8 +56813,8 @@ p(530,{coords={
 crit(21769,{achID=6588,id=18,pb=1,u=30})}}),
 p(536,{coords={
 [115]={{9,60},{18.7,63.3}}},description="There is only a few spawns of this pet, which can be found by the shore in the westernmost part of Dragonblight. However, it is a common secondary pet in both Borean Tundra and Dragonblight!",npcID=62835,pb=1,u=30,g={
-crit(21770,{achID=6588,id=31,pb=1,u=30}),
-crit(21299,{achID=2557,awp=30002,id=12,u=30})}})}}),
+crit(21299,{achID=2557,awp=30002,id=12,u=30}),
+crit(21770,{achID=6588,id=31,pb=1,u=30})}})}}),
 h(-30,{u=30,g={
 exp(4023,{collectible=false,u=30,g={
 crit(4130,{achID=1264,id=10,u=30})}}),
@@ -59129,16 +59129,16 @@ ach(2016,{pvp=1,r=2,u=30}),
 ach(2017,{pvp=1,r=1,u=30})}}),
 flt(101,{awp=50004,pb=1,u=30,g={
 p(647,{npcID=62818,pb=1,u=30,g={
+crit(21295,{achID=2557,awp=30002,id=6,u=30}),
 crit(21679,{achID=6586,id=25,pb=1}),
-crit(21679,{achID=6588,id=12,pb=1,u=30}),
-crit(21295,{achID=2557,awp=30002,id=6,u=30})}}),
+crit(21679,{achID=6588,id=12,pb=1,u=30})}}),
 p(534,{npcID=62819,pb=1,u=30,g={
 crit(21772,{achID=6588,id=14,pb=1,u=30})}}),
 p(633,{npcID=61677,pb=1,u=30,g={
+crit(21298,{achID=2557,awp=30002,id=9,u=30}),
 crit(21688,{achID=6585,id=45,pb=1}),
 crit(21688,{achID=6586,id=48,pb=1}),
-crit(21688,{achID=6588,id=16,pb=1,u=30}),
-crit(21298,{achID=2557,awp=30002,id=9,u=30})}})}}),
+crit(21688,{achID=6588,id=16,pb=1,u=30})}})}}),
 h(-30,{u=30,g={
 exp(4204,{u=30,g={
 crit(4188,{achID=1266,id=12,u=30})}}),
@@ -59954,12 +59954,12 @@ crit(5049,{achID=41,id=2,u=30})}})}}),
 flt(101,{awp=50004,pb=1,sym={{"select","speciesID",646,647,450,378,417,424,388,397,387,412,379}},u=30,g={
 p(523,{coords={
 [117]={{56.5,51}}},description="Can be found in the Utgarde Catacombs at the very bottom of the zombie pit, as well as occasionally as a secondary pet.",npcID=62640,pb=1,u=30,g={
-crit(21773,{achID=6588,id=7,pb=1,u=30}),
-crit(19444,{achID=2556,awp=30002,id=6,u=30})}}),
+crit(19444,{achID=2556,awp=30002,id=6,u=30}),
+crit(21773,{achID=6588,id=7,pb=1,u=30})}}),
 p(644,{coords={
 [117]={{58,52}}},description="Found in Wyrmskull Village outside Utgarde Keep as well as occasionally as a secondary pet.",npcID=62641,pb=1,u=30,g={
-crit(21774,{achID=6588,id=10,pb=1,u=30}),
-crit(19439,{achID=2556,awp=30002,id=15,u=30})}}),
+crit(19439,{achID=2556,awp=30002,id=15,u=30}),
+crit(21774,{achID=6588,id=10,pb=1,u=30})}}),
 p(529,{coords={
 [117]={{30,62}}},description="Found around Kamagua, on The Isle of Spears.",npcID=62669,pb=1,u=30,g={
 crit(21775,{achID=6588,id=11,pb=1,u=30})}}),
@@ -65357,20 +65357,20 @@ p(732,{coords={
 [422]={{47.4,16.8},{55.6,33.6}}},npcID=65187,pb=1,g={
 crit(21832,{achID=6589,id=3,u=50})}}),
 p(742,{npcID=64242,pb=1,g={
-crit(21838,{achID=6589,id=8,u=50}),
-crit(20821,{achID=6350,id=3,u=50})}}),
+crit(20821,{achID=6350,id=3,u=50}),
+crit(21838,{achID=6589,id=8,u=50})}}),
 p(745,{npcID=63548,pb=1,g={
 crit(21839,{achID=6589,id=9,u=50})}}),
 p(746,{coords={
 [422]={{25.5,65.6}}},npcID=65203,pb=1,g={
-crit(21840,{achID=6589,id=11,u=50}),
-crit(20822,{achID=6350,id=6,u=50})}}),
+crit(20822,{achID=6350,id=6,u=50}),
+crit(21840,{achID=6589,id=11,u=50})}}),
 p(743,{coords={
 [422]={{36.6,63.4}}},npcID=64352,pb=1,g={
 crit(21841,{achID=6589,id=34,u=50})}}),
 p(744,{npcID=64238,pb=1,g={
-crit(21843,{achID=6589,id=35,u=50}),
-crit(20823,{achID=6350,id=14,u=50})}}),
+crit(20823,{achID=6350,id=14,u=50}),
+crit(21843,{achID=6589,id=35,u=50})}}),
 p(741,{npcID=64804,pb=1,g={
 crit(21842,{achID=6589,id=44,u=50})}})}}),
 h(-30,{
@@ -66862,19 +66862,19 @@ ach(6536,{r=1,g={
 crit(19384,{achID=6541,id=5,u=50})}})}),
 flt(101,{pb=1,g={
 p(716,{npcID=63288,pb=1,g={
-crit(21809,{achID=6589,id=4,u=50}),
-crit(20817,{achID=6350,id=1,u=50})}}),
+crit(20817,{achID=6350,id=1,u=50}),
+crit(21809,{achID=6589,id=4,u=50})}}),
 p(714,{coords={
 [418]={{18,43.8}}},npcID=65054,pb=1,g={
 crit(21810,{achID=6589,id=12,u=50})}}),
 p(678,{npcID=63304,pb=1,g={
 crit(21811,{achID=6589,id=19,u=50})}}),
 p(718,{npcID=65124,pb=1,g={
-crit(21812,{achID=6589,id=22,u=50}),
-crit(20813,{achID=6350,id=10,u=50})}}),
+crit(20813,{achID=6350,id=10,u=50}),
+crit(21812,{achID=6589,id=22,u=50})}}),
 p(708,{npcID=63094,pb=1,g={
-crit(21800,{achID=6589,id=23,u=50}),
-crit(20825,{achID=6350,id=11,u=50})}}),
+crit(20825,{achID=6350,id=11,u=50}),
+crit(21800,{achID=6589,id=23,u=50})}}),
 p(722,{coords={
 [418]={{37.6,44}}},npcID=65185,pb=1,g={
 crit(21814,{achID=6589,id=28,u=50})}}),
@@ -66882,8 +66882,8 @@ p(717,{npcID=63291,pb=1,g={
 crit(21815,{achID=6589,id=37,u=50})}}),
 p(711,{coords={
 [418]={{86.4,10.4}}},npcID=63057,pb=1,g={
-crit(21797,{achID=6589,id=42,u=50}),
-crit(21316,{achID=6350,id=16,u=50})}}),
+crit(21316,{achID=6350,id=16,u=50}),
+crit(21797,{achID=6589,id=42,u=50})}}),
 p(712,{coords={
 [418]={{85.8,16.6}}},npcID=63358,pb=1,g={
 crit(21816,{achID=6589,id=43,u=50})}}),
@@ -68644,8 +68644,8 @@ p(565,{coords={
 [371]={{54.2,71}}},npcID=62997,pb=1,u=50,g={
 crit(21788,{achID=6589,id=18,u=50})}}),
 p(702,{npcID=63919,pb=1,u=50,g={
-crit(21789,{achID=6589,id=21,u=50}),
-crit(20824,{achID=6350,id=9,u=50})}}),
+crit(20824,{achID=6350,id=9,u=50}),
+crit(21789,{achID=6589,id=21,u=50})}}),
 p(570,{npcID=63003,pb=1,u=50,g={
 crit(21790,{achID=6589,id=26,u=50})}}),
 p(703,{npcID=63716,pb=1,u=50,g={
@@ -68658,12 +68658,12 @@ p(573,{coords={
 crit(21793,{achID=6589,id=36,u=50})}}),
 p(754,{coords={
 [371]={{33.4,50.6},{36.6,58.6}}},npcID=65216,pb=1,u=50,g={
-crit(21794,{achID=6589,id=40,u=50}),
-crit(18980,{achID=6350,id=15,u=50})}}),
+crit(18980,{achID=6350,id=15,u=50}),
+crit(21794,{achID=6589,id=40,u=50})}}),
 p(711,{coords={
 [371]={{40.6,93.8}}},npcID=63057,pb=1,u=50,g={
-crit(21797,{achID=6589,id=42,u=50}),
-crit(21316,{achID=6350,id=16,u=50})}}),
+crit(21316,{achID=6350,id=16,u=50}),
+crit(21797,{achID=6589,id=42,u=50})}}),
 p(712,{coords={
 [371]={{38.2,92.6}}},npcID=63358,pb=1,u=50,g={
 crit(21816,{achID=6589,id=43,u=50})}}),
@@ -70851,11 +70851,11 @@ s(272477,87522,{f=5,lvl=80,q=3,u=50})}})}}),
 m(433,{icon=656543,petBattleLvl=23,g={
 flt(101,{pb=1,g={
 p(706,{npcID=63062,pb=1,g={
-crit(21798,{achID=6589,id=5,u=50}),
-crit(21314,{achID=6350,id=2,u=50})}}),
+crit(21314,{achID=6350,id=2,u=50}),
+crit(21798,{achID=6589,id=5,u=50})}}),
 p(708,{npcID=63094,pb=1,g={
-crit(21800,{achID=6589,id=23,u=50}),
-crit(20825,{achID=6350,id=11,u=50})}}),
+crit(20825,{achID=6350,id=11,u=50}),
+crit(21800,{achID=6589,id=23,u=50})}}),
 p(709,{npcID=63095,pb=1,g={
 crit(21801,{achID=6589,id=24,u=50})}})}}),
 h(-30,{
@@ -72414,13 +72414,13 @@ crit(21833,{achID=6589,id=15,u=50})}}),
 p(680,{npcID=63953,pb=1,g={
 crit(21834,{achID=6589,id=20,u=50})}}),
 p(737,{npcID=65190,pb=1,g={
-crit(21835,{achID=6589,id=30,u=50}),
-crit(20819,{achID=6350,id=13,u=50})}}),
+crit(20819,{achID=6350,id=13,u=50}),
+crit(21835,{achID=6589,id=30,u=50})}}),
 p(739,{npcID=63954,pb=1,g={
 crit(21836,{achID=6589,id=31,u=50})}}),
 p(740,{npcID=63957,pb=1,g={
-crit(21837,{achID=6589,id=54,u=50}),
-crit(20820,{achID=6350,id=17,u=50})}})}}),
+crit(20820,{achID=6350,id=17,u=50}),
+crit(21837,{achID=6589,id=54,u=50})}})}}),
 h(-30,{
 exp(6342,{collectible=false}),
 exp(6190,{collectible=false}),
@@ -73890,25 +73890,25 @@ ach(6301,{
 crit(19378,{achID=6541,id=1,u=50})})}),
 flt(101,{pb=1,g={
 p(706,{npcID=63062,pb=1,g={
-crit(21798,{achID=6589,id=5,u=50}),
-crit(21314,{achID=6350,id=2,u=50})}}),
+crit(21314,{achID=6350,id=2,u=50}),
+crit(21798,{achID=6589,id=5,u=50})}}),
 p(707,{npcID=63064,pb=1,g={
 crit(21799,{achID=6589,id=6,u=50})}}),
 p(708,{npcID=63094,pb=1,g={
-crit(21800,{achID=6589,id=23,u=50}),
-crit(20825,{achID=6350,id=11,u=50})}}),
+crit(20825,{achID=6350,id=11,u=50}),
+crit(21800,{achID=6589,id=23,u=50})}}),
 p(709,{npcID=63095,pb=1,g={
 crit(21801,{achID=6589,id=24,u=50})}}),
 p(710,{coords={
 [376]={{41.6,45.2}}},npcID=63096,pb=1,g={
-crit(21802,{achID=6589,id=25,u=50}),
-crit(18979,{achID=6350,id=12,u=50})}}),
+crit(18979,{achID=6350,id=12,u=50}),
+crit(21802,{achID=6589,id=25,u=50})}}),
 p(677,{coords={
 [376]={{17.8,42.8}}},npcID=64246,pb=1,g={
 crit(21803,{achID=6589,id=41,u=50})}}),
 p(711,{npcID=63057,pb=1,g={
-crit(21797,{achID=6589,id=42,u=50}),
-crit(21316,{achID=6350,id=16,u=50})}}),
+crit(21316,{achID=6350,id=16,u=50}),
+crit(21797,{achID=6589,id=42,u=50})}}),
 p(713,{npcID=63060,pb=1,g={
 crit(21806,{achID=6589,id=46,u=50})}})}}),
 h(-30,{
