@@ -7459,6 +7459,7 @@ m(2405,{maps={2444,2526,2527},lvl=88,g={
 h(-45,{
 q(92633,{repeatable=1,type="hqt"}),
 q(93515,{type="hqt"}),
+q(96244,{type="hqt"}),
 q(94795,{type="hqt"}),
 q(94743,{type="hqt"})}),
 h(-46,{

@@ -1113,6 +1113,7 @@ root(ROOTS.Unsorted, {
 				i(249219),	-- 12.0 Delves - Season 1 - Curio - Combat 1
 				i(249223),	-- 12.0 Delves - Season 1 - Curio - Combat 5
 				i(249227),	-- 12.0 Delves - Season 1 - Curio - Utility 4
+				i(252608),	-- Unalloyed Abundance
 				i(252609),	-- Coffer Key Shard
 				i(252648),	-- Key Shard Cluster
 				i(253226),	-- Restored Coffer Key
@@ -1274,7 +1275,6 @@ root(ROOTS.Unsorted, {
 				i(266183),	-- Enigmatic Voidclarion
 				i(266440),	-- Idol of Growth
 				i(267040),	-- Sea Caller
-				i(267614),	-- Whispering Phial
 				-- QI /Devourer??
 				i(250325),	-- Night's Embrace
 			}),

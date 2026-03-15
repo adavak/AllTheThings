@@ -460,10 +460,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			header(HEADERS.Achievement, 61864, {	-- Sojourner of Voidstorm
 				header(HEADERS.AchCriteria, 61864.01, {	-- The Void Peers Back
 					q(88755, {	-- Scholarly Pursuits
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["provider"] = { "n", 242700 },	-- Kelia Everglow
 						["coord"] = { 35.8, 58.6, MAP.MIDNIGHT.VOIDSTORM },
-						["isBreadcrumb"] = true,	-- I Think
+						["isBreadcrumb"] = true,
 					}),
 					q(87388, {	-- A Bigger Beast
 						["sourceQuests"] = { 88755 },	-- Scholarly Pursuits
@@ -474,9 +474,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 88755 },	-- Scholarly Pursuits
 						["provider"] = { "n", 236930 },	-- Kelia Everglow
 						["coord"] = { 41.2, 61.5, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(235632),	-- Exotic Tissue Sample (QI!)
-						},
+						["groups"] = { i(235632) },	-- Exotic Tissue Sample (QI!)
 					}),
 					q(88653, {	-- Yolks on You
 						["sourceQuests"] = {
@@ -493,17 +491,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 236930 },	-- Kelia Everglow
 						["coord"] = { 41.2, 61.5, MAP.MIDNIGHT.VOIDSTORM },
+						["groups"] = { i(267614) },	-- Whispering Phial (PQI!)
 					}),
-					q(88708, {	--
+					q(88708, {	-- Violent Conclusions
 						["sourceQuests"] = {
 							87672,	-- Void is in the Air
 							88653,	-- Yolks on You
 						},
 						["provider"] = { "n", 236930 },	-- Kelia Everglow
 						["coord"] = { 41.2, 61.5, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(243146),	-- Ren'dorei Struggle (TOY!)
-						},
+						["groups"] = { i(243146) },	-- Ren'dorei Struggle (TOY!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.02, {	-- Shadow Puppets
@@ -615,8 +612,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.04, {	-- The Nightbreaker
-					q(90910, {	-- Overwhelming Darkness (Alex TODO: wrong quest in chain index or breadcrumb?)
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+					q(90910, {	-- Overwhelming Darkness
+						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
 						["coord"] = { 42.4, 75.4, MAP.MIDNIGHT.VOIDSTORM },
 					}),
@@ -644,19 +641,19 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
 						["coord"] = { 50.9, 45.3, 2527 },	-- Lair of Predaxas
 						["groups"] = {
-							i(264295),	-- [DNT] Cloth Bracers
-							i(264296),	-- [DNT] Leather Bracers
-							i(264297),	-- [DNT] Mail Bracers
+							i(264295),	-- Nightbreaker's Bands
+							i(264296),	-- Nightbreaker's Bracers
+							i(264297),	-- Nightbreaker's Cuffs
 							i(264298),	-- Nightbreaker's Vambraces
 						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.05, {	-- Pathogenic Problem
 					q(91557, {	-- Message to the Molt
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark (TODO: temp source which lead into zone)
+						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["qg"] = 248040,	-- Researcher Verigien
 						["coord"] = { 35.5, 58.8, MAP.MIDNIGHT.VOIDSTORM },
-						["isBreadcrumb"] = true,	-- I Think
+						["isBreadcrumb"] = true,
 					}),
 					q(91558, {	-- Pestilent Petals
 						["sourceQuest"] = 91557,	-- Message to the Molt
@@ -719,7 +716,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61864.06, {	-- A Voice Inside
 					q(91884, {	-- The Illusion of Motion
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["provider"] = { "n", 248881 },	-- Scout Nefina
 						["coord"] = { 41.4, 74.0, MAP.MIDNIGHT.VOIDSTORM },
 						["isBreadcrumb"] = true,
@@ -728,7 +725,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = 91884,	-- The Illusion of Motion
 						["provider"] = { "n", 248880 },	-- Starving Voidwalker
 						["coord"] = { 48.8, 82.3, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = { i(249433) },	-- Void Splinter (QI!)
+						["groups"] = { i(249433) },	-- Void Splinter (PQI!)
 					}),
 					q(91886, {	-- Voices of Omens
 						["sourceQuests"] = { 91885 },	-- Drain You
@@ -1069,33 +1066,27 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61864.11, {	-- Something to Prove
+				header(HEADERS.AchCriteria, 61864.11, {	-- Secrets in the Dark
 					q(92939, {	-- It's Not Just a Rock!
+						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["qg"] = 253038,	-- Riftwalker Alayshen
 						["coord"] = { 36.9, 58.5, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(260363),	-- Ancient Rubble (QI!)
-							--
-							i(252608),	-- Unalloyed Abundance
-						},
-					}),
-					q(92946, {	-- Buried in the Dark
-						["sourceQuest"] = 92939,	-- It's Not Just a Rock!
-						["qg"] = 253038,	-- Riftwalker Alayshen
-						["coord"] = { 36.9, 58.5, MAP.MIDNIGHT.VOIDSTORM },
+						["groups"] = { i(260363) },	-- Ancient Rubble (QI!)
 					}),
 					q(92944, {	-- Sifting Through Void
-						["sourceQuest"] = 92946,	-- Buried in the Dark
+						["sourceQuest"] = 92939,	-- It's Not Just a Rock!
 						["qg"] = 253038,	-- Riftwalker Alayshen
-						["coords"] = {
-							{ 36.9, 58.5, MAP.MIDNIGHT.VOIDSTORM },
-							{ 40.2, 56.1, MAP.MIDNIGHT.VOIDSTORM },
-						},
+						["coord"] = { 40.2, 56.1, MAP.MIDNIGHT.VOIDSTORM },
 					}),
-					q(92948, {	-- In Over My Head
+					q(92946, {	-- Buried in the Dark
 						["sourceQuest"] = 92944,	-- Sifting Through Void
 						["qg"] = 253038,	-- Riftwalker Alayshen
-						["coord"] = { 36.9, 58.5, MAP.MIDNIGHT.VOIDSTORM },
+						["coord"] = { 40.2, 56.1, MAP.MIDNIGHT.VOIDSTORM },
+					}),
+					q(92948, {	-- In Over My Head
+						["sourceQuest"] = 92946,	-- Buried in the Dark
+						["qg"] = 253038,	-- Riftwalker Alayshen
+						["coord"] = { 40.2, 56.1, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
 							i(264404),	-- Repurposed Farstrider Boots
 							i(264403),	-- Repurposed Farstrider Slippers
@@ -1380,7 +1371,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
-				header(HEADERS.AchCriteria, 61864.14, {	-- A Domanaar's Best Friend
+				header(HEADERS.AchCriteria, 61864.15, {	-- A Domanaar's Best Friend
 					q(91363, {	-- Harvest of Darkness
 						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
 						["provider"] = { "n", 246727 },	-- Ravenia
@@ -1424,6 +1415,54 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
+				header(HEADERS.AchCriteria, 61864.16, {	-- A More Potent Foe
+					--'This Questline contains the story of Leona Darkstrider becoming the first Devourer Demon Hunter'
+					q(92505, {	-- Truth of the Past
+						["sourceQuests"] = { 86543 },	-- Magisters' Terrace: Homecoming
+						["provider"] = { "n", 252110 },	-- Leona Darkstrider
+						["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
+					}),
+					q(92506, {	-- The Soul Price
+						["sourceQuests"] = { 92505 },	-- Truth of the Past
+						["provider"] = { "n", 256285 },	-- Allari the Souleater
+						["coord"] = { 52.9, 14.2, EREDATH },
+					}),
+					q(92507, {	-- A More Potent Foe
+						["sourceQuests"] = { 92506 },	-- The Soul Price
+						["provider"] = { "n", 256285 },	-- Allari the Souleater
+						["coord"] = { 52.9, 14.2, EREDATH },
+					}),
+					q(92508, {	-- The Mark of Sacrifice
+						["sourceQuest"] = 92507,	-- A More Potent Foe
+						["qg"] = 252109,	-- Allari the Souleater
+						["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
+					}),
+					q(92509, {	-- One Cruel Implement
+						["sourceQuest"] = 92507,	-- A More Potent Foe
+						["qg"] = 252109,	-- Allari the Souleater
+						["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
+						["groups"] = { i(254671) },	-- Talon of the Towering Ultradon (QI!)
+					}),
+					q(92510, {	-- Dark Infusion
+						["sourceQuests"] = {
+							92508,	-- The Mark of Sacrifice
+							92509,	-- One Cruel Implement
+						},
+						["qg"] = 252109,	-- Allari the Souleater
+						["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
+					}),
+					q(92511, {	-- Event Horizon
+						["sourceQuest"] = 92510,	-- Dark Infusion
+						["qg"] = 235698,	-- Magister Umbric
+						["coord"] = { 52.2, 69.6, MAP.MIDNIGHT.VOIDSTORM },
+					}),
+					q(92512, {	-- Devourer
+						["sourceQuest"] = 92511,	-- Event Horizon
+						["qg"] = 253948,	-- Leona Darkstrider
+						["coord"] = { 52.0, 69.6, MAP.MIDNIGHT.VOIDSTORM },
+						["groups"] = { i(267004) },	-- Twinblade of the Devourer
+					}),
+				}),
 			}),
 			n(BONUS_OBJECTIVES, {
 				q(92641, {	-- Bloodying the Plain
@@ -1451,56 +1490,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					currency(3400),	-- Uncontaminated Void Sample
 				},
 			}),
-			--questchainID 6001 (A More Potent Foe) TODO: bugged in 63967, could be dh only but something vent wrong?
-			--'This Questline contains the story of Leona Darkstrider becoming the first Devourer Demon Hunter'
-			q(92505, {	-- Truth of the Past
-				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
-				["provider"] = { "n", 252110 },	-- Leona Darkstrider
-				["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
-			}),
-			q(92506, {	-- The Soul Price
-				["sourceQuests"] = { 92505 },	-- Truth of the Past
-				["provider"] = { "n", 256285 },	-- Allari the Souleater
-				["coord"] = { 52.9, 14.2, EREDATH },
-			}),
-			q(92507, {	-- A More Potent Foe
-				["sourceQuests"] = { 92506 },	-- The Soul Price
-				["provider"] = { "n", 256285 },	-- Allari the Souleater
-				["coord"] = { 52.9, 14.2, EREDATH },
-			}),
-			q(92508, {	-- The Mark of Sacrifice
-				["sourceQuest"] = 92507,	-- A More Potent Foe
-				["qg"] = 252109,	-- Allari the Souleater
-				["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
-			}),
-			q(92509, {	-- One Cruel Implement
-				["sourceQuest"] = 92507,	-- A More Potent Foe
-				["qg"] = 252109,	-- Allari the Souleater
-				["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
-				["groups"] = { i(254671) },	-- Talon of the Towering Ultradon (QI!)
-			}),
-			q(92510, {	-- Dark Infusion
-				["sourceQuests"] = {
-					92508,	-- The Mark of Sacrifice
-					92509,	-- One Cruel Implement
-				},
-				["qg"] = 252109,	-- Allari the Souleater
-				["coord"] = { 53.2, 70.4, MAP.MIDNIGHT.VOIDSTORM },
-			}),
-			q(92511, {	-- Event Horizon
-				["sourceQuest"] = 92510,	-- Dark Infusion
-				["qg"] = 235698,	-- Magister Umbric
-				["coord"] = { 52.2, 69.6, MAP.MIDNIGHT.VOIDSTORM },
-			}),
-			q(92512, {	-- Devourer
-				["sourceQuest"] = 92511,	-- Event Horizon
-				["qg"] = 253948,	-- Leona Darkstrider
-				["coord"] = { 52.0, 69.6, MAP.MIDNIGHT.VOIDSTORM },
-				["groups"] = { i(267004) },	-- Twinblade of the Devourer
-			}),
-			--to Master's Perch (not a breadcrumb?)
+			-- To Master's Perch (Not a breadcrumb)
 			q(93810, {	-- Masters' Perch
-				--["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 				["provider"] = { "n", 254765 },	-- Perodius
 				["coord"] = { 51.4, 67.6, MAP.MIDNIGHT.VOIDSTORM },
 			}),
@@ -1623,6 +1615,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				--q(89196),	-- Zone Choice Made (spellID 1254861), same hqt as previously.
 				q(92633),	-- during 90922 (The Fallen Wake), absorb light from n(252619),	-- Fallen Defender
 				q(93515),	-- Triggered after turning 'Magisters' Terrace: Homecoming' (86543)
+				q(96244),	-- Triggered after turning 'Ambition's Reward' (91343)
 			}),
 		}),
 	}),
