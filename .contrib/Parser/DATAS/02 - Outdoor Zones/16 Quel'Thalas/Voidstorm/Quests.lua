@@ -952,12 +952,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 					},
 					q(91605, {	-- Voidscar Arena: The Wrong Side
-						["sourceQuest"] = 91600,	-- Voidscar Arena: Setting it Aside [A]
+						["sourceQuests"] = {
+							91600,	-- Voidscar Arena: Setting it Aside [A]
+							94855,	-- Voidscar Arena: Setting it Aside [H]
+						},
 						["qg"] = 256815,	-- Vidious
 						["coord"] = { 53.7, 21.5, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
 					q(91603, {	-- Voidscar Arena: Two Against One
-						["sourceQuest"] = 94855,	-- Voidscar Arena: Setting it Aside [H]
+						["sourceQuests"] = {
+							91600,	-- Voidscar Arena: Setting it Aside [A]
+							94855,	-- Voidscar Arena: Setting it Aside [H]
+						},
 						["qg"] = 256813,	-- Ziadan
 						["coord"] = { 53.5, 21.5, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
