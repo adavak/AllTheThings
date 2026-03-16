@@ -416,7 +416,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					------ Stay awhile and listen ------
 					--hqt(XXXXX, {	-- Stay awhile and listen: Lothraxion
-					--	["name"] = "Stay awhile and listen: Lothraxion ",
+					--	["name"] = "Stay awhile and listen: Lothraxion",
 					--	["description"] = "Dialogue becomes available during 'The Mantle of Predation' (86518).",
 					--	["sourceQuests"] = {
 					--		86516,	-- All Become Prey
@@ -451,7 +451,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					------ Stay awhile and listen ------
 					--hqt(XXXXX, {	-- Stay awhile and listen: Alleria Windrunner
-					--	["name"] = "Stay awhile and listen: Alleria Windrunner ",
+					--	["name"] = "Stay awhile and listen: Alleria Windrunner",
 					--	["description"] = "Dialogue becomes available during 'Nexus-Point Xenas: Eclipse' (86521).",
 					--	["sourceQuests"] = { 86520 },	-- Hunt the Light
 					--	["provider"] = { "n", 235763 },	-- Alleria Windrunner
