@@ -238,7 +238,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(94755, {	-- Weekly reputation: Far'thana the Mad
 					["name"] = "Far'thana the Mad weekly reputation obtained.",
 				}),
-				-- TODO: Blizzard bug - Gar'chak Skullcleave & Hardin Steellock missing weekly rep flag questIDs
+				q(94756, {	-- Weekly reputation: Dominaar Proxy (Gar'chak Skullcleave & Hardin Steellock)
+					["name"] = "Dominaar Proxy weekly reputation obtained.",
+				}),
 				q(94758, {	-- Weekly reputation: Lotus Darkblossom
 					["name"] = "Lotus Darkblossom weekly reputation obtained.",
 				}),
