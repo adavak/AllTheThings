@@ -408,19 +408,28 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 			}),
 			header(HEADERS.AchCriteria, 60891.02, {	-- A Favor for the Lion
 				q(91828, {	-- A Favor for the Lion
-					["sourceQuests"] = { 91827 },	-- No Loose Ends (TODO: Nope!)
+					["sourceQuests"] = {
+						91827,	-- No Loose Ends
+						86522,	-- Daylight is Breaking
+					},
 					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
 					["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(91829, {	-- One by One
 					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
-					["provider"] = { "n", 248982 },	-- Valeera Sanguinar
+					["qg"] = {
+						248982,	-- Valeera Sanguinar
+						250295,	-- Valeera Sanguinar (mobileNPC)
+					},
 					["coord"] = { 40.4, 71.7, MAP.MIDNIGHT.ZULAMAN },
 				}),
 				q(91830, {	-- Intercepted
 					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
-					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
-					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["qg"] = {
+						248982,	-- Valeera Sanguinar
+						250295,	-- Valeera Sanguinar (mobileNPC)
+					},
+					["coord"] = { 40.4, 71.7, MAP.MIDNIGHT.ZULAMAN },
 					["groups"] = {
 						o(567202, {	-- Cult Orders
 							["coords"] = {
@@ -444,8 +453,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 				}),
 				q(91831, {	-- Keys Are Optional
 					["sourceQuests"] = { 91828 },	-- A Favor for the Lion
-					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
-					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["qg"] = {
+						248982,	-- Valeera Sanguinar
+						250295,	-- Valeera Sanguinar (mobileNPC)
+					},
+					["coord"] = { 40.4, 71.7, MAP.MIDNIGHT.ZULAMAN },
 				}),
 				q(91918, {	-- Delves: Measure Once, Cut Twice
 					["sourceQuests"] = {
@@ -453,8 +465,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 						91831,	-- Keys Are Optional
 						91829,	-- One by One
 					},
-					["provider"] = { "n", 250295 },	-- Valeera Sanguinar
-					--["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["provider"] = { "n", 250295 },	-- Valeera Sanguinar (mobileNPC)
+					["coord"] = { 40.4, 71.7, MAP.MIDNIGHT.ZULAMAN },	-- Vignette location on the map
 				}),
 			}),
 		}),
