@@ -2771,6 +2771,7 @@ MobileDB.GameObject = {
 	[563491] = true,	-- Moldy Chunks
 	[563492] = true,	-- Containment Ward (q:91506)
 	[564925] = true,	-- Surplus Elementium (wq:91778)
+	[566083] = true,	-- Stormarion Supplies
 	[566093] = true,	-- Locked Strongbox (q:91826)
 	[566768] = true,	-- Cache of the Deathless
 	[567396] = true,	-- Echo of Burning Revenge (q:91544)
