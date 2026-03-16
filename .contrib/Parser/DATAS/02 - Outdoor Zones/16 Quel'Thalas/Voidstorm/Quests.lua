@@ -151,10 +151,19 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							i(262675),	-- Void-Touched Baton
 						},
 					}),
+					------ Stay awhile and listen ------
+					--hqt(XXXXXX, {	-- Stay awhile and listen: Lothraxion
+					--	["name"] = "Stay awhile and listen: Lothraxion",
+					--	["description"] = "Dialogue becomes available after accepting 'First, The Shells' (86530).",
+					--	["sourceQuests"] = { 86536 },	-- Reliable Enemies
+					--	["provider"] = { "n", 235394 },	-- Lothraxion
+					--	["coord"] = { 36.7, 73.1, MAP.MIDNIGHT.VOIDSTORM },
+					--}),
+					--
 					q(86528, {	-- A Cracked Holokey
 						["sourceQuests"] = { 86536 },	-- Reliable Enemies
 						["providers"] = {
-							{ "i", 241000 },	-- Cracked Holokey
+							{ "i", 241000 },	-- Cracked Holokey (QS!)
 							{ "o", 504349 },	-- Cracked Holokey
 						},
 						["coord"] = { 35.7, 79.2, MAP.MIDNIGHT.VOIDSTORM },
@@ -170,7 +179,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = {
 							i(237745),	-- Encrypted Device (QI!)
 							--
-							--i(262734),	-- [DNT] Mace of the Great Dark
 							i(262730),	-- Axe of Desolation
 							i(262738),	-- Axe of the Eternal Void
 							i(262677),	-- Darkness Dagger
@@ -203,7 +211,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 									{ 34.6, 78.3, MAP.MIDNIGHT.VOIDSTORM },
 									{ 35.0, 81.1, MAP.MIDNIGHT.VOIDSTORM },
 								},
-								["groups"] = { i(237744) },	-- Arcane Remnant] (QI!)
+								["groups"] = { i(237744) },	-- Arcane Remnant (QI!)
 							}),
 						},
 					}),
@@ -225,9 +233,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86539 },	-- A Naaru!
 						["provider"] = { "n", 235660 },	-- Alleria Windrunner
 						["coord"] = { 39.4, 82.2, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(263282),	-- Repurposed Volatile Manacell
-						},
+						["groups"] = { i(263282) },	-- Repurposed Volatile Manacell
 					}),
 					q(86541, {	-- Just In Case...
 						["sourceQuests"] = { 86539 },	-- A Naaru!
@@ -264,19 +270,17 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 89249 },	-- Overwhelmed
 						["provider"] = { "n", 235724 },	-- Arator
 						["coord"] = { 41.7, 74.7, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(238500),	-- Maella's Report (QI!)
-						},
+						["groups"] = { i(238500) },	-- Maella's Report (QI!)
 					}),
-					--[[------ Stay awhile and listen ------
-					hqt(XXXX, {	-- Stay awhile and listen: Alleria Windrunner
-						["name"] = "Stay awhile and listen: Alleria Windrunner",
-						["description"] = "Dialogue becomes available during 'Post-Mortem' (86544).",
-						["sourceQuests"] = { 89249 },	-- Overwhelmed
-						["provider"] = { "n", 235664 },	-- Alleria Windrunner
-						["coord"] = { 41.7, 74.7, MAP.MIDNIGHT.VOIDSTORM },
-					}),
-					--]]--
+					------ Stay awhile and listen ------
+					--hqt(XXXXXX, {	-- Stay awhile and listen: Alleria Windrunner
+					--	["name"] = "Stay awhile and listen: Alleria Windrunner",
+					--	["description"] = "Dialogue becomes available during 'Post-Mortem' (86544).",
+					--	["sourceQuests"] = { 89249 },	-- Overwhelmed
+					--	["provider"] = { "n", 235664 },	-- Alleria Windrunner
+					--	["coord"] = { 41.7, 74.7, MAP.MIDNIGHT.VOIDSTORM },
+					--}),
+					--
 					q(86545, {	-- The Light's Brand
 						["sourceQuests"] = { 86544 },	-- Post-Mortem
 						["provider"] = { "n", 235724 },	-- Arator
@@ -295,15 +299,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 240691 },	-- Decimus
 						["coord"] = { 41.2, 72.7, MAP.MIDNIGHT.VOIDSTORM },
 					}),
-					--[[------ Stay awhile and listen ------
-					hqt(XXXX, {	-- Stay awhile and listen: Lothraxion
-						["name"] = "Stay awhile and listen: Lothraxion",
-						["description"] = "Dialogue becomes available during 'Friend or Fiend' (86509).",
-						["sourceQuests"] = { 86545 },	-- The Light's Brand
-						["provider"] = { "n", 240673 },	-- Lothraxion
-						["coord"] = { 41.0, 72.6, MAP.MIDNIGHT.VOIDSTORM },
-					}),
-					--]]--
+					------ Stay awhile and listen ------
+					--hqt(XXXXXX, {	-- Stay awhile and listen: Lothraxion
+					--	["name"] = "Stay awhile and listen: Lothraxion",
+					--	["description"] = "Dialogue becomes available during 'Friend or Fiend' (86509).",
+					--	["sourceQuests"] = { 86545 },	-- The Light's Brand
+					--	["provider"] = { "n", 240673 },	-- Lothraxion
+					--	["coord"] = { 41.0, 72.6, MAP.MIDNIGHT.VOIDSTORM },
+					--}),
+					--
 					q(86510, {	-- Domus Penumbra
 						["sourceQuests"] = { 86509 },	-- Friend or Fiend
 						["provider"] = { "n", 235697 },	-- Decimus
@@ -564,7 +568,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61864.03, {	-- The Nethersent
 					q(90782, {	-- The Nethersent
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+						["sourceQuests"] = { 86509 },	-- Friend or Fiend
 						["provider"] = { "n", 242233 },	-- Juras the Nethersent
 						["coord"] = { 56.2, 71.9, MAP.MIDNIGHT.VOIDSTORM },
 					}),
@@ -572,9 +576,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 90782 },	-- The Nethersent
 						["provider"] = { "n", 241620 },	-- Tul'amar, Twice-Exiled
 						["coord"] = { 39.9, 49.0, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(243350),	-- Predator Blood (QI!)
-						},
+						["groups"] = { i(243350) },	-- Predator Blood (QI!)
 					}),
 					q(90872, {	-- Drenched In It
 						["sourceQuests"] = { 90866 },	-- Universal Language
@@ -585,17 +587,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 90872 },	-- Drenched In It
 						["provider"] = { "n", 241620 },	-- Tul'amar, Twice-Exiled
 						["coord"] = { 35.0, 88.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["groups"] = {
-							i(244173),	-- Relic of Liberation (QI!)
-						},
+						["groups"] = { i(244173) },	-- Relic of Liberation (PQI!)
 					}),
 					q(90874, {	-- Their Violent Ends
 						["sourceQuests"] = { 90872 },	-- Drenched In It
 						["provider"] = { "n", 241620 },	-- Tul'amar, Twice-Exiled
 						["coord"] = { 35.0, 88.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["groups"] = {
-							i(244171),	-- Abductor's Mark (QI!)
-						},
+						["groups"] = { i(244171) },	-- Abductor's Mark (QI!)
 					}),
 					q(90875, {	-- Across Worlds
 						["sourceQuests"] = {
@@ -605,8 +603,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 241620 },	-- Tul'amar, Twice-Exiled
 						["coord"] = { 35.0, 88.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 						["groups"] = {
-							i(264293),	-- Exile's Tattered Shawl
 							i(244435),	-- Lodestar of the Great Dark (QI!)
+							--
+							i(264293),	-- Exile's Tattered Shawl
 							i(264294),	-- Nethersent Eredar's Cloak
 						},
 					}),
@@ -751,7 +750,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61864.07, {	-- Shadowguard's Shadow
 					q(92390, {	-- Risk for Research
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+						["sourceQuests"] = { 86509 },	-- Friend or Fiend
 						["provider"] = { "n", 250677 },	-- Lanlae Noxa
 						["coord"] = { 39.8, 84.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
@@ -764,7 +763,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 92155 },	-- Object Exorcism
 						["provider"] = { "n", 249917 },	-- Havazza
 						["coord"] = { 64.7, 64.1, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["groups"] = { i(251278) },	-- Consuming Brand (QI!)
+						["groups"] = { i(251278) },	-- Consuming Brand (PQI!)
 					}),
 					q(92157, {	-- Ritual Activity
 						["sourceQuests"] = { 92156 },	-- It Follows Me
@@ -790,9 +789,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61864.08, {	-- A Gift, Given Freely
 					q(92603, {	-- O Lonely Star
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+						["sourceQuests"] = { 86509 },	-- Friend or Fiend
 						["provider"] = { "n", 252510 },	-- Orin Straylight
 						["coord"] = { 39.9, 84.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+					}),
+					q(92604, {	-- Speak in Blood
+						["sourceQuests"] = { 92603 },	-- O Lonely Star
+						["provider"] = { "n", 254012 },	-- Orin Straylight
+						["coord"] = { 39.5, 38.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						["groups"] = { i(256692) },	-- Viscous Ichor (QI!)
 					}),
 					q(92605, {	-- Honest as Bone
 						["sourceQuests"] = { 92603 },	-- O Lonely Star
@@ -833,14 +838,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							}),
 						},
 					}),
-					q(92604, {	-- Speak in Blood
-						["sourceQuests"] = { 92603 },	-- O Lonely Star
-						["provider"] = { "n", 254012 },	-- Orin Straylight
-						["coord"] = { 39.5, 38.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["groups"] = {
-							i(256692),	-- Viscous Ichor (QI!)
-						},
-					}),
 					q(92606, {	-- Take Up Your Gift
 						["sourceQuests"] = {
 							92604,	-- Speak in Blood
@@ -863,116 +860,118 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.09, {	-- Breaking the Triad
-					q(91566, {	-- Voidscar Arena: The Hate Spire
-						["qg"] = 257478,	-- Dar'gul <Renegade Combatant>
-						["coord"] = { 34.8, 80.4, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = HORDE_ONLY,
-					}),
-					q(94844, {	-- Voidscar Arena: For My Horde
-						["sourceQuest"] = 91566,	-- Voidscar Arena: The Hate Spire
-						["qg"] = 247374,	-- Ziadan
-						["coord"] = { 23.6, 54.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = HORDE_ONLY,
+					{	-- Voidscar Arena: The ... Spire
+						["sourceQuests"] = { 86509 },	-- Friend or Fiend
+						["aqd"] = q(91565, {	-- Voidscar Arena: The Grief Spire
+							["qg"] = 257479,	-- Amari Lyndon <Renegade Combatant>
+							["coord"] = { 40.8, 84.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+						["hqd"] = q(91566, {	-- Voidscar Arena: The Hate Spire
+							["qg"] = 257478,	-- Dar'gul <Renegade Combatant>
+							["coord"] = { 34.8, 80.4, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+					},
+					{	-- Voidscar Arena: For My ...
+						["aqd"] = q(91597, {	-- Voidscar Arena: For My Alliance
+							["sourceQuest"] = 91565,	-- Voidscar Arena: The Grief Spire
+							["qg"] = 247375,	-- Vidious
+							["coord"] = { 74.0, 75.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+						["hqd"] = q(94844, {	-- Voidscar Arena: For My Horde
+							["sourceQuest"] = 91566,	-- Voidscar Arena: The Hate Spire
+							["qg"] = 247374,	-- Ziadan
+							["coord"] = { 23.6, 54.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
 						["groups"] = { i(260948) },	-- Enigmatic Voidclarion (QI!)
-					}),
-					q(94845, {	-- Voidscar Arena: The Bastion of Might
-						["sourceQuest"] = 91566,	-- Voidscar Arena: The Hate Spire
-						["qg"] = 247374,	-- Ziadan
-						["coord"] = { 23.6, 54.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = HORDE_ONLY,
+					},
+					{	-- Voidscar Arena: The Bastion of ...
+						["aqd"] = q(91583, {	-- Voidscar Arena: The Bastion of Valor
+							["sourceQuest"] = 91565,	-- Voidscar Arena: The Grief Spire
+							["qg"] = 247375,	-- Vidious
+							["coord"] = { 74.0, 75.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+						["hqd"] = q(94845, {	-- Voidscar Arena: The Bastion of Might
+							["sourceQuest"] = 91566,	-- Voidscar Arena: The Hate Spire
+							["qg"] = 247374,	-- Ziadan
+							["coord"] = { 23.6, 54.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
 						["groups"] = { i(247422) },	-- Spiteful Shadowgraft (QI!)
-					}),
-					--
-					q(91565, {	-- Voidscar Arena: The Grief Spire
-						["qg"] = 257479,	-- Amari Lyndon <Renegade Combatant>
-						["coord"] = { 40.8, 84.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					q(91597, {	-- Voidscar Arena: For My Alliance
-						["sourceQuest"] = 91565,	-- Voidscar Arena: The Grief Spire
-						["qg"] = 247375,	-- Vidious
-						["coord"] = { 74.0, 75.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = { i(260948) },	-- Enigmatic Voidclarion (QI!)
-					}),
-					q(91583, {	-- Voidscar Arena: The Bastion of Valor
-						["sourceQuest"] = 91565,	-- Voidscar Arena: The Grief Spire
-						["qg"] = 247375,	-- Vidious
-						["coord"] = { 74.0, 75.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = { i(247422) },	-- Spiteful Shadowgraft (QI!)
-					}),
-					--
-					q(94849, {	-- Voidscar Arena: A Familiar Grudge [H]
-						["sourceQuests"] = {
-							94844,	-- Voidscar Arena: For My Horde
-							94845,	-- Voidscar Arena: The Bastion of Might
-						},
-						["qg"] = 256796,	-- Ziadan
-						["coord"] = { 50.6, 59.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = HORDE_ONLY,
-					}),
-					q(94848, {	-- Voidscar Arena: Pre-Provoked Violence [H]
-						["sourceQuests"] = {
-							94844,	-- Voidscar Arena: For My Horde
-							94845,	-- Voidscar Arena: The Bastion of Might
-						},
-						["qg"] = 256796,	-- Ziadan
-						["coord"] = { 50.6, 59.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = HORDE_ONLY,
-					}),
-					--
-					q(91599, {	-- Voidscar Arena: A Familiar Grudge [A]
-						["sourceQuests"] = {
-							91597,	-- Voidscar Arena: For My Alliance
-							91583,	-- Voidscar Arena: The Bastion of Valor
-						},
-						["qg"] = 256782,	-- Vidious
-						["coord"] = { 50.9, 58.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					q(91598, {	-- Voidscar Arena: Pre-Provoked Violence [A]
-						["sourceQuests"] = {
-							91597,	-- Voidscar Arena: For My Alliance
-							91583,	-- Voidscar Arena: The Bastion of Valor
-						},
-						["qg"] = 256782,	-- Vidious
-						["coord"] = { 50.9, 58.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					--
-					q(94855, {	-- Voidscar Arena: Setting it Aside [H]
-						["sourceQuests"] = {
-							94849,	-- Voidscar Arena: A Familiar Grudge [H]
-							94848,	-- Voidscar Arena: Pre-Provoked Violence [H]
-						},
-						["qg"] = 256796,	-- Ziadan
-						["coord"] = { 50.6, 59.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = HORDE_ONLY,
-					}),
-					q(91600, {	-- Voidscar Arena: Setting it Aside [A]
-						["sourceQuests"] = {
-							91599,	-- Voidscar Arena: A Familiar Grudge [A]
-							91598,	-- Voidscar Arena: Pre-Provoked Violence [A]
-						},
-						["qg"] = 256782,	-- Vidious
-						["coord"] = { 50.9, 58.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					--
+					},
+					{	-- Voidscar Arena: A Familiar Grudge
+						["aqd"] = q(91599, {	-- Voidscar Arena: A Familiar Grudge [A]
+							["sourceQuests"] = {
+								91597,	-- Voidscar Arena: For My Alliance
+								91583,	-- Voidscar Arena: The Bastion of Valor
+							},
+							["qg"] = 256782,	-- Vidious
+							["coord"] = { 50.9, 58.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+						["hqd"] = q(94849, {	-- Voidscar Arena: A Familiar Grudge [H]
+							["sourceQuests"] = {
+								94844,	-- Voidscar Arena: For My Horde
+								94845,	-- Voidscar Arena: The Bastion of Might
+							},
+							["qg"] = 256796,	-- Ziadan
+							["coord"] = { 50.6, 59.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+					},
+					{	-- Voidscar Arena: Pre-Provoked Violence
+						["aqd"] = q(91598, {	-- Voidscar Arena: Pre-Provoked Violence [A]
+							["sourceQuests"] = {
+								91597,	-- Voidscar Arena: For My Alliance
+								91583,	-- Voidscar Arena: The Bastion of Valor
+							},
+							["qg"] = 256782,	-- Vidious
+							["coord"] = { 50.9, 58.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+						["hqd"] = q(94848, {	-- Voidscar Arena: Pre-Provoked Violence [H]
+							["sourceQuests"] = {
+								94844,	-- Voidscar Arena: For My Horde
+								94845,	-- Voidscar Arena: The Bastion of Might
+							},
+							["qg"] = 256796,	-- Ziadan
+							["coord"] = { 50.6, 59.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+					},
+					{	-- Voidscar Arena: Setting it Aside
+						["aqd"] = q(91600, {	-- Voidscar Arena: Setting it Aside [A]
+							["sourceQuests"] = {
+								91599,	-- Voidscar Arena: A Familiar Grudge [A]
+								91598,	-- Voidscar Arena: Pre-Provoked Violence [A]
+							},
+							["qg"] = 256782,	-- Vidious
+							["coord"] = { 50.9, 58.7, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+						["hqd"] = q(94855, {	-- Voidscar Arena: Setting it Aside [H]
+							["sourceQuests"] = {
+								94849,	-- Voidscar Arena: A Familiar Grudge [H]
+								94848,	-- Voidscar Arena: Pre-Provoked Violence [H]
+							},
+							["qg"] = 256796,	-- Ziadan
+							["coord"] = { 50.6, 59.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+						}),
+					},
 					q(91605, {	-- Voidscar Arena: The Wrong Side
-						["sourceQuest"] = 91600,	-- Voidscar Arena: Setting it Aside
+						["sourceQuest"] = 91600,	-- Voidscar Arena: Setting it Aside [A]
 						["qg"] = 256815,	-- Vidious
 						["coord"] = { 53.7, 21.5, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
 					q(91603, {	-- Voidscar Arena: Two Against One
-						["sourceQuest"] = 91605,	-- Voidscar Arena: The Wrong Side
+						["sourceQuest"] = 94855,	-- Voidscar Arena: Setting it Aside [H]
 						["qg"] = 256813,	-- Ziadan
 						["coord"] = { 53.5, 21.5, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
 					q(91606, {	-- Voidscar Arena: Clearing House
-						["sourceQuest"] = 91603,	-- Voidscar Arena: Two Against One
-						["qg"] = 256885,	-- Vidious
+						["sourceQuests"] = {
+							91605,	-- Voidscar Arena: The Wrong Side
+							91603,	-- Voidscar Arena: Two Against One
+						},
+						["aqd"] = {
+							["qg"] = 256885,	-- Vidious
+						},
+						["hqd"] = {
+							["qg"] = 256901,	-- Ziadan
+						},
 						["coord"] = { 53.7, 11.3, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 					}),
 					q(91694, {	-- Voidscar Arena: Breaking the Triad
@@ -1373,11 +1372,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61864.15, {	-- A Domanaar's Best Friend
 					q(91363, {	-- Harvest of Darkness
-						["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+						["sourceQuests"] = { 86509 },	-- Friend or Fiend
 						["provider"] = { "n", 246727 },	-- Ravenia
 						["coord"] = { 52.1, 67.4, MAP.MIDNIGHT.VOIDSTORM },
 						["groups"] = {
-							i(246372),	-- Void-Infused Protein (QI!)
+							i(246372),	-- Void-Infused Morsel (QI!)
 							o(556121, {
 								["coords"] = {
 									{ 51.4, 75.2, MAP.MIDNIGHT.VOIDSTORM },
@@ -1410,9 +1409,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 91380 },	-- Belly of the Beast
 						["provider"] = { "n", 246727 },	-- Ravenia
 						["coord"] = { 52.1, 67.4, MAP.MIDNIGHT.VOIDSTORM },
-						["groups"] = {
-							i(260922),	-- Fidoficus (PET!)
-						},
+						["groups"] = { i(260922) },	-- Fidoficus (PET!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61864.16, {	-- A More Potent Foe
@@ -1444,6 +1441,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = { i(254671) },	-- Talon of the Towering Ultradon (QI!)
 					}),
 					q(92510, {	-- Dark Infusion
+						["description"] = "If you get stuck on this quest where Magister Umbric is missing and you can't turn it in, you need to progress further into campaign up to the point where Howling Ridge gets unlocked as a Quest Hub.",
 						["sourceQuests"] = {
 							92508,	-- The Mark of Sacrifice
 							92509,	-- One Cruel Implement
@@ -1473,7 +1471,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			--Zone buffs console tutorial (warbound?)
 			q(93970, {	-- Researching the Storm
-				["sourceQuests"] = { 86549 },	-- No Fear of the Dark
+				["sourceQuests"] = { 86509 },	-- Friend or Fiend
 				["provider"] = { "n", 248328 },	-- Void Researcher Anomander
 				["coord"] = { 52.6, 72.9, MAP.MIDNIGHT.VOIDSTORM },
 				["groups"] = {

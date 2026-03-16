@@ -9,6 +9,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coords"] = {
 					{ 31.1, 44.2, MAP.MIDNIGHT.VOIDSTORM },
 					{ 46.9, 88.5, MAP.MIDNIGHT.VOIDSTORM },
+					{ 53.4, 72.5, MAP.MIDNIGHT.VOIDSTORM },
 				},
 			}),
 			i(238793, {	-- Devouring Runt (PET!)

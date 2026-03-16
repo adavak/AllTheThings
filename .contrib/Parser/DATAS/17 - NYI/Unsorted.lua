@@ -1647,6 +1647,7 @@ root(ROOTS.Unsorted, {
 				i(262716),	-- Simple Rosy Trowl
 				i(262717),	-- Simple Rooting Trowl
 				i(262718),	-- Simple Withering Trowl
+				i(262734),	-- [DNT] Mace of the Great Dark
 				i(262747),	-- Green Dagger-Tined Rake
 				i(262748),	-- [PH] Pink Rake
 				i(262749),	-- [PH] Purple Rake
