@@ -7380,7 +7380,8 @@ q(93067,{type="hqt"}),
 q(93275,{an="i:232875",isWeekly=1,type="hqt"}),
 q(93789,{type="hqt"}),
 q(94419,{awp=120001,rwp=120100,type="hqt"}),
-q(94410,{type="hqt"})})}),
+q(94410,{type="hqt"}),
+q(94836,{lvl=90,type="hqt"})})}),
 m(2395,{lvl=80,g={
 h(-45,{
 q(93818,{type="hqt"}),
@@ -7459,6 +7460,8 @@ m(2405,{maps={2444,2526,2527},lvl=88,g={
 h(-45,{
 q(92633,{repeatable=1,type="hqt"}),
 q(93515,{type="hqt"}),
+q(96244,{type="hqt"}),
+q(94448,{type="hqt"}),
 q(94795,{type="hqt"}),
 q(94743,{type="hqt"})}),
 h(-46,{
@@ -7467,6 +7470,8 @@ q(94732,{type="hqt"}),
 q(94752,{type="hqt"}),
 q(94754,{type="hqt"}),
 q(94755,{type="hqt"}),
+q(94756,{type="hqt"}),
+q(94757,{type="hqt"}),
 q(94758,{type="hqt"}),
 q(94759,{type="hqt"}),
 q(94761,{type="hqt"}),
@@ -7486,6 +7491,7 @@ h(-45,{
 q(90962,{repeatable=1,type="hqt"}),
 q(90943,{lvl=90,type="hqt"}),
 q(91938,{type="hqt"}),
+q(91931,{type="hqt"}),
 q(91464,{isDaily=1,lvl=90,type="hqt"}),
 q(91465,{lvl=90,type="hqt"}),
 q(93793,{type="hqt"})})}),
@@ -7537,7 +7543,17 @@ q(93170,{type="hqt"})})}),
 h(-741,{awp=120005,g={
 h(-45,{
 q(92589,{type="hqt"}),
-q(94456,{type="hqt"})})}}),
+q(94456,{type="hqt"}),
+q(95823,{type="hqt"}),
+q(96146,{type="hqt"}),
+q(96147,{type="hqt"}),
+q(96148,{type="hqt"}),
+q(96149,{type="hqt"}),
+q(96150,{type="hqt"}),
+q(96151,{type="hqt"}),
+q(96152,{type="hqt"}),
+q(96153,{type="hqt"}),
+q(96154,{type="hqt"})})}}),
 h(-103,{
 h(-45,{
 q(95669,{isDaily=1,type="hqt"})}),
@@ -7569,6 +7585,7 @@ prof(197,{
 q(89423,{type="hqt"})}),
 prof(393,{
 q(88522,{type="hqt"}),
+q(88525,{type="hqt"}),
 q(93630,{an="n:250826",isDaily=1,type="hqt"}),
 q(93631,{an="n:250582",isDaily=1,type="hqt"}),
 q(95459,{an="n:256770",isDaily=1,type="hqt"}),

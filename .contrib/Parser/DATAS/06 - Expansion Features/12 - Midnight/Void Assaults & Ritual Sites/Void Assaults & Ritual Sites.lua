@@ -176,6 +176,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 					["coord"] = { 48.1, 49.9, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["isWeekly"] = true,	-- Speculation
 				}),
+				-- Sorted but unsorted (not sure what sourceQuest or action for it)
+				q(95550, {	-- Thin Their Ranks
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257411,	-- Ranger Captain Lilatha
+					["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95552, {	-- Dark Obelisk Investigation
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257416,	-- Lady Darkglen
+					["coord"] = { 47.7, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95553, {	-- Manifested Density
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257411,	-- Ranger Captain Lilatha
+					["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95549, {	-- Raising Magical Alarms
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257416,	-- Lady Darkglen
+					["coord"] = { 47.7, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["groups"] = {
+						i(271094),	-- Lady Darkglen's Device (QI!)
+					},
+				}),
 			}),
 			n(REWARDS, {
 				-- Currencies
@@ -188,9 +212,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 					filter(CLOTH, {
 					}),
 					filter(FINGER_F, {
+						i(263888),	-- Void-Laced Band
 					}),
 					filter(LEATHER, {
-						i(263792),	-- Vest of the Void Acolyte (Obtained from 263928, Cache of Void-Touched Armaments)
+						--Cache of Void-Touched Armaments (itemID 263928)
+						i(263800),	-- Bindings of the Void Acolyte
+						i(263798),	-- Cord of the Void Acolyte
+						i(263794),	-- Grips of the Void Acolyte
+						i(263795),	-- Helm of the Void Acolyte
+						i(263796),	-- Pants of the Void Acolyte
+						i(263797),	-- Spaulders of the Void Acolyte
+						i(263793),	-- Talons of the Void Acolyte
+						i(263792),	-- Vest of the Void Acolyte
+						i(263752),	-- Voidwalker's Bracers
+						i(263750),	-- Voidwalker's Cord
+						i(263746),	-- Voidwalker's Gloves
+						i(263744),	-- Voidwalker's Harness
+						i(263748),	-- Voidwalker's Leggings
+						i(263745),	-- Voidwalker's Sandals
+						i(263749),	-- Voidwalker's Shoulderblades
+						i(263747),	-- Voidwalker's Skullcap
 					}),
 					filter(MAIL, {
 					}),
@@ -302,17 +343,76 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 			m(BROKEN_THRONE, {
 				--["icon"] = ,
 				["coord"] = { 29.6, 77.9, MAP.MIDNIGHT.ZULAMAN },
+				["groups"] = {
+					o(645183, {	-- Ethereal Treasure
+						["coord"] = { 40.9, 56.5, BROKEN_THRONE },
+						["groups"] = {
+							i(271429),	-- Ethereal Treasure (QS!/QI!)
+						},
+					}),
+					o(649209, {	-- Misplaced Ritual Candle
+						["coord"] = { 51.5, 47.9, BROKEN_THRONE },
+						["groups"] = {
+							i(271999),	-- Misplaced Ritual Candle
+						},
+					}),
+					o(645184, {	-- Sculpted Treasure
+						["coord"] = { 47.7, 66.5, BROKEN_THRONE },
+						["groups"] = {
+							i(271430),	-- Sculpted Treasure (QS!/QI!)
+						},
+					}),
+					i(269828, {	-- Void-Corrupted Eagle Talon (MOUNT!)
+						["cost"] = { { "i", 271999, 1 }, },	-- 1x Misplaced Ritual Candle
+					}),
+				},
 			}),
 			m(DAGGERSPINE_LANDING, {
 				--["icon"] = ,
 				["coord"] = { 37.6, 65.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+				["groups"] = {
+					i(271644),	-- Ember of Power (QS!/QI!)
+					o(644396, {	-- Tainted Bone Pile
+						["coord"] = { 66.6, 63.7, DAGGERSPINE_LANDING },
+						["groups"] = {
+							i(270562),	-- Tainted Sample (QS!/QI!)
+						},
+					}),
+					o(645182, {	-- Crystalline Treasure
+						--["coord"] = { X, Y, DAGGERSPINE_LANDING },
+						["groups"] = {
+							i(271428),	-- Crystalline Treasure (QS!/QI!)
+						},
+					}),
+					o(645181, {	-- Exquisite Treasure
+						["coord"] = { 58.8, 49.1, DAGGERSPINE_LANDING },
+						["groups"] = {
+							i(271427),	-- Exquisite Treasure (QS!/QI!)
+						},
+					}),
+				},
 			}),
 			n(EVENT_COMPLETION, {
 				i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
 			}),
 			n(QUESTS, {
+				q(95551, {	-- Misappropriated Treasures
+					["providers"] = { 
+						--TODO: could be only Exquisite Treasure as started of quest, not sure
+						{ "i", 271428 },	-- Crystalline Treasure (QS!/QI!)
+						{ "i", 271429 },	-- Ethereal Treasure (QS!/QI!)
+						{ "i", 271427 },	-- Exquisite Treasure (QS!/QI!)
+						{ "i", 271430 },	-- Sculpted Treasure (QS!/QI!)
+					},
+				}),
 				q(95547, {	-- Ritual Site Challenge Report: Tendrils
 					["provider"] = { "i", 269817 },	-- Ritual Site Challenge Report: Tendrils (QS!)
+				}),
+				q(95548, {	-- Tainted Sample
+					["provider"] = { "i", 270562 },	-- Tainted Sample (QS!/QI!)
+				}),
+				q(95554, {	-- Questionable Power
+					["provider"] = { "i", 271644 },	-- Ember of Power (QS!/QI!)
 				}),
 			}),
 			n(REWARDS, {
@@ -331,6 +431,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["time
 		n(QUESTS, {
 			q(92589),	-- <DNT> Last Scenario Step Quest, Triggers after completing any Void Ritual
 			q(94456),	-- <DNT> Last Scenario Step Quest, Triggers after completing a Void Incursion
+			-- Daggerspine Landing
+			q(95823),	-- after looting chest (Lady Selen'vjar Ritual Chest) in the end first time (of day & week), could be push quest for questID 95547 (Ritual Site Challenge Report: Tendrils)
+			q(96146),	-- Dark Obelisk @ 66.3, 38.9, DAGGERSPINE_LANDING
+			q(96147),	-- Dark Obelisk @ 64.7, 50.0, DAGGERSPINE_LANDING
+			q(96148),	-- Dark Obelisk @ 61.9, 62.1, DAGGERSPINE_LANDING
+			q(96149),	-- Dark Obelisk @ 63.8, 70.5, DAGGERSPINE_LANDING
+			q(96150),	-- Dark Obelisk @ 39.5, 76.2, DAGGERSPINE_LANDING
+			q(96151),	-- Dark Obelisk @ 35.0, 63.8, DAGGERSPINE_LANDING
+			q(96152),	-- Dark Obelisk @ 50.4, 42.8, DAGGERSPINE_LANDING
+			q(96153),	-- Dark Obelisk @ 44.8, 47.4, DAGGERSPINE_LANDING
+			q(96154),	-- Dark Obelisk @ 42.5, 57.0, DAGGERSPINE_LANDING
 		}),
 	}),
 })));

@@ -25686,6 +25686,8 @@ L.QUEST_NAMES = {
 	[94753] = "Blackcore weekly reputation obtained.",
 	[94754] = "Eruundi weekly reputation obtained.",
 	[94755] = "Far'thana the Mad weekly reputation obtained.",
+	[94756] = "Gar'chak Skullcleave weekly reputation obtained.",
+	[94757] = "Hardin Steellock weekly reputation obtained.",
 	[94758] = "Lotus Darkblossom weekly reputation obtained.",
 	[94759] = "Nightbrood weekly reputation obtained.",
 	[94760] = "Nullspiral weekly reputation obtained.",
@@ -78098,7 +78100,7 @@ L.ENABLE_TOOLTIP_INFORMATION_CHECKBOX = "启用鼠标提示";
 L.ENABLE_TOOLTIP_INFORMATION_CHECKBOX_TOOLTIP = "如果希望在鼠标提示中查看 ATT 提供的信息，请启用此选项。这包括其他玩家发送的物品链接，在拍卖行、在地下城助手、在你的包里、在世界、在 NPC 等等。\n\n如果你关闭了这个功能，就会严重降低你快速判断是否需要击杀首领或学习外观的能力。\n\n我们建议你保持此设置。";
 L.ENABLED = "已启用";
 L.ENCOUNTER_ID = "首领战斗 ID";
-L.ENSEMBLE_LEARNED = "该套装已被你的某个角色使用。";
+L.ENSEMBLE_LEARNED = "这套服装已被你的某个角色使用过。";
 L.EVENT_ACTIVE = "激活:";
 L.EVENT_END = "结束:";
 L.EVENT_ID = "事件 ID";
@@ -79020,7 +79022,7 @@ localize(L.HEADER_NAMES, {
 	[-708] = "雷蛇",
 	[-709] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
 	[-710] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
-	[-712] = "升级角色",
+	[-712] = "升级中角色",
 	[-713] = "最高等级角色",
 	[-723] = "元素入侵",
 	[-729] = "丰饶",
@@ -85456,6 +85458,7 @@ L.EAST = "東部";
 L.ENABLE_TOOLTIP_INFORMATION_CHECKBOX = "啟用指標提示";
 L.ENABLE_TOOLTIP_INFORMATION_CHECKBOX_TOOLTIP = "如果希望在指標提示中查看 ATT 提供的資訊，請啟用此選項。這包括其他玩家發送的物品連接，在拍賣行、在地城助手、在你的背包裡、在世界、在 NPC 等等。\n\n如果你關閉了這個功能，就會嚴重降低你快速判斷是否需要擊殺首領或學習外觀的能力。\n\n我們建議你保持此設定。";
 L.ENCOUNTER_ID = "首領戰鬥 ID";
+L.ENSEMBLE_LEARNED = "這套服裝已被你的某個角色使用過。";
 L.EVENT_ACTIVE = "啟用:";
 L.EVENT_END = "結束:";
 L.EVENT_SCHEDULE = "事件時程表";
@@ -86148,6 +86151,8 @@ localize(L.HEADER_NAMES, {
 	[-694] = "燃燒的遠征：經典週年紀念版 - 外域升級",
 	[-696] = "虛空傳送門",
 	[-703] = "暗黑破壞神IV：憎恨之王",
+	[-712] = "升級中角色",
+	[-713] = "最高等級角色",
 	[-729] = "豐足",
 	[-738] = "哈拉尼爾的傳說",
 });
@@ -86169,6 +86174,8 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-552] = "這些是在《魔獸：崛起》電影仍在上映期間，每個陣營至少登入一次所獲得的獎勵。",
 	[-553] = "手遊《魔獸兵團》的促銷活動",
 	[-592] = "這是一個每年重複的活動，發生在十一月初到年底之間。",
+	[-712] = "包含只能由未達到最高等級的角色獲得的物品。",
+	[-713] = "包含只能由最高等級角色獲得的物品。",
 	[-721] = "包含在當前區域可取得，但來源直接來自另一個區域的內容。",
 });
 localize(L.HEADER_LORE, {

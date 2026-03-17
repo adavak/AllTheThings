@@ -261,15 +261,7 @@ root(ROOTS.Unsorted, {
 			i(263741),	-- Void Rider's Girdle
 			i(263742),	-- Void Rider's Cloak
 			i(263743),	-- Void Rider's Vambraces
-			i(263744),	-- Voidwalker's Harness
-			i(263745),	-- Voidwalker's Sandals
-			i(263746),	-- Voidwalker's Gloves
-			i(263747),	-- Voidwalker's Skullcap
-			i(263748),	-- Voidwalker's Leggings
-			i(263749),	-- Voidwalker's Shoulderblades
-			i(263750),	-- Voidwalker's Cord
 			i(263751),	-- Voidwalker's Cloak
-			i(263752),	-- Voidwalker's Bracers
 			i(263753),	-- Voidrage Robe
 			i(263754),	-- Voidrage Boots
 			i(263755),	-- Voidrage Handguards
@@ -308,15 +300,7 @@ root(ROOTS.Unsorted, {
 			i(263789),	-- Voidwind Cloak
 			i(263790),	-- Voidwind Bindings
 			i(263791),	-- Voidwind Blouse
-			i(263792),	-- Vest of the Void Acolyte
-			i(263793),	-- Talons of the Void Acolyte
-			i(263794),	-- Grips of the Void Acolyte
-			i(263795),	-- Helm of the Void Acolyte
-			i(263796),	-- Pants of the Void Acolyte
-			i(263797),	-- Spaulders of the Void Acolyte
-			i(263798),	-- Cord of the Void Acolyte
 			i(263799),	-- Cloak of the Void Acolyte
-			i(263800),	-- Bindings of the Void Acolyte
 			i(263801),	-- Void's Judgment Breastplate
 			i(263802),	-- Void's Judgment Sabatons
 			i(263803),	-- Void's Judgment Gauntlets
@@ -377,7 +361,6 @@ root(ROOTS.Unsorted, {
 			i(263860),	-- Bracelets of Voidwrath
 			i(263879),	-- [DNT] [AUTOGEN] 12PH_Folk_Gazebo02.M2
 			i(263883),	-- [DNT] [AUTOGEN] 12PH_Folk_Trellis02.M2
-			i(263888),	-- Void-Laced Band
 			i(263889),	-- Void-Laced Signet
 			i(263890),	-- Void-Laced Ring
 			i(263891),	-- Void-Laced Pendant
@@ -656,7 +639,6 @@ root(ROOTS.Unsorted, {
 			i(269668),	-- Hungering Oblivium
 			i(269768),	-- Nebulous Voidcache: Prey
 			i(269817),	-- Ritual Site Challenge Report: Tendrils
-			i(269828),	-- Void-Corrupted Eagle Talon
 			i(269829),	-- Void-Scarred Eaglet
 			i(269836),	-- Chubs
 			i(269999),	-- Overloaded Manaling
@@ -687,7 +669,6 @@ root(ROOTS.Unsorted, {
 			i(270297),	-- Crown of Sunny Springflowers
 			i(270330),	-- Void-Touched Dragonhawk Egg
 			i(270331),	-- Void-Infused Mindbreaker Fry
-			i(270562),	-- Tainted Sample
 			i(270932),	-- Wriggling Field Pouch
 			i(270933),	-- Bulging Field Pouch
 			i(270934),	-- Recruit's Field Pouch
@@ -805,7 +786,6 @@ root(ROOTS.Unsorted, {
 			i(271048),	-- Wriggling Tentacle Fetish
 			i(271049),	-- Ritual Weaver's Spellstick
 			i(271050),	-- Forest Hunter's Quiver
-			i(271094),	-- Lady Darkglen's Device
 			i(271158),	-- Dark Obelisk
 			i(271162),	-- Sin'dorei Garden Swing
 			i(271163),	-- Blazing Guardian's Rug
@@ -825,11 +805,6 @@ root(ROOTS.Unsorted, {
 			i(271341),	-- Galactic Voidsliver
 			i(271342),	-- Galactic Void Matrix
 			i(271353),	-- Collection of Valuables
-			i(271427),	-- Exquisite Treasure
-			i(271428),	-- Crystalline Treasure
-			i(271429),	-- Ethereal Treasure
-			i(271430),	-- Sculpted Treasure
-			i(271644),	-- Ember of Power
 			i(271785),	-- Ritual Spoils
 			i(271786),	-- Ritual Site Reports
 			i(271787),	-- Field Accolades
@@ -838,7 +813,6 @@ root(ROOTS.Unsorted, {
 			i(271974),	-- Ritual Spoils
 			i(271975),	-- Ritual Spoils
 			i(271976),	-- Ritual Spoils
-			i(271999),	-- Misplaced Ritual Candle
 			i(272046),	-- Mana-Singed Divining Rod
 			i(272047),	-- Deeplurk Scrying Stone
 			i(272048),	-- Shattered Containment Pearl

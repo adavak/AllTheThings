@@ -2388,6 +2388,7 @@ i(257200, 1261351);	-- Witherbark Pango
 ------------------
 i(264348, 1271698);	-- Unbound Manawyrm
 i(268578, 1282936);	-- Void-Touched Hawkstrider
+i(269828, 1286606);	-- Void-Corrupted Eagle Talon
 --- Unsorted ---
 i(268878, 1283906);	-- [PH] Giant Eagle Sunwalker Mount Blue
 i(268875, 1283911);	-- [PH] Giant Eagle Sunwalker Mount White
@@ -2402,7 +2403,6 @@ i(268481, 1282471);	-- Breaker Bee
 i(268363, 1282275);	-- Pyrewood Rebel's Rouncey
 i(264348, 1271698);	-- Unbound Manawyrm
 i(270058, 1287359);	-- Void-Corrupted Lynx
-i(269828, 1286606);	-- Void-Corrupted Hex Eagle
 i(270041, 1287357);	-- Void-Touched Snapdragon
 i(0, 1261362);	-- Witherbark Warbear Mother
 --- NYI ---
