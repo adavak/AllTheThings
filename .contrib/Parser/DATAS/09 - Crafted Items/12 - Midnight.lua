@@ -2137,6 +2137,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, bubbleDownSelf({ ["time
 		}),
 		prof(SKINNING, {
 			q(88522),	-- 20/40 Thorough Tanning (2nd charge)
+			q(88525),	-- 40/40 Thorough Tanning (3rd charge)
 		}),
 		prof(SKINNING, sharedData({ ["isDaily"] = true }, {
 			q(93630, name(HEADERS.NPC, 250826)),	-- Skinning Banuran

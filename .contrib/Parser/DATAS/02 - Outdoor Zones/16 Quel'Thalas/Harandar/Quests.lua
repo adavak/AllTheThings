@@ -1379,12 +1379,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 86930 },	-- To Sow the Seed
 				["provider"] = { "n", 256313 },	-- Kaleo
 				["coord"] = { 51.0, 50.9, MAP.MIDNIGHT.HARANDAR },
-				["altQuests"] = {	-- Quest gets auto-completed as soon as you accept any of the altQuests
-					91346,	-- Supplicants to The Goddess
-					90467,	-- Tales of the Sky
-					91063,	-- The Blooming Lattice
-					90468,	-- Ugh, Chores!
-				},
+				--["altQuests"] = {	-- Quest gets auto-completed as soon as you accept any of the altQuests / Alex: probably Blizzard bug - this one are not.
+				--	91346,	-- Supplicants to The Goddess
+				--	90467,	-- Tales of the Sky
+				--	91063,	-- The Blooming Lattice
+				--	90468,	-- Ugh, Chores!
+				--},
 			}),
 		}),
 		n(QUESTS, sharedData({

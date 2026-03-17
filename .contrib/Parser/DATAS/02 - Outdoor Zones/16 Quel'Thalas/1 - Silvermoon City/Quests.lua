@@ -185,6 +185,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(93789),	-- Apex Cache (season 1) was opened / bonus roll for something?
 				q(94419, {["timeline"]={ADDED_12_0_X_SEASONSTART,REMOVED_12_1_0}}),	-- player recieve 10x Veteran Dawncrest during questID 94418 (Crest Transmutation)
 				q(94410),	-- After turning in Unity Against the Void? Spark lockout?
+				--
+				q(94836),	-- Late Night Training: Week 2 of 4, after turn in questID 94835 (Early Morning Training (1st week))
 			}),
 		}),
 	}),

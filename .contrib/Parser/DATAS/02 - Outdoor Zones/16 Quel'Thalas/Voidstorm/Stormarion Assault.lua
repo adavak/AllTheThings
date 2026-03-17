@@ -72,6 +72,15 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 26.4, 67.6, MAP.MIDNIGHT.VOIDSTORM },
 					["groups"] = { i(248905) },	-- Void Malgrease (QI!)
 				}),
+				--Alex: this quest currently in HQT but seems like Blizzard are dumb and re-use it, uncomment if it will be live
+				--q(54781, {	-- What's For Lunch?
+				--	["qg"] = 244749, 	-- Xy'dax <Shadowtrade Imports>
+				--	["coord"] = { 26.4, 67.6, MAP.MIDNIGHT.VOIDSTORM },
+				--	["groups"] = {
+				--		i(248929),	-- Domanaar Snack Pack (QI!)
+				--		i(248927),	-- Stormray Fin (QI!)
+				--	},
+				--}),
 			}),
 			n(REWARDS, {
 				i(246951),	-- Stormarion Core
@@ -163,6 +172,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 					q(90962, {["repeatable"]=true}),	-- "Stormarion Assault", Right when it start (Stage 1 of 7)/ (un)flag completed after successful completion of event (wq unlock?)
 					q(90943),	-- "Stormarion Assault", Before Wave 1 preparation? / (un)flag completed right before end of event
 					q(91938),	-- What's For Lunch (spellID 1248164), ???
+					q(91931),	-- Flag Tracking (spellID 1248085) AND Clear Quest (spellID 1248080), after turn in questID 91928 (What's For Lunch?)
 					--q(91463?),	-- Wave 1 started (Stage 2 of 7), no hqt
 					q(91464),	-- Wave 2 preparation started (Stage 3 of 7)
 					q(91465),	-- Wave 3 preparation started (Stage 5 of 7)

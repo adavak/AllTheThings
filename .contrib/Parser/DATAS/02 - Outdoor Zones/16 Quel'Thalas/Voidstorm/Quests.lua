@@ -900,7 +900,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							["qg"] = 247374,	-- Ziadan
 							["coord"] = { 23.6, 54.2, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 						}),
-						["groups"] = { i(247422) },	-- Spiteful Shadowgraft (QI!)
+						["groups"] = {
+							i(266183),	-- Enigmatic Voidclarion (QI!) [H]
+							i(247422),	-- Spiteful Shadowgraft (QI!) [A]
+						},
 					},
 					{	-- Voidscar Arena: A Familiar Grudge
 						["aqd"] = q(91599, {	-- Voidscar Arena: A Familiar Grudge [A]
@@ -1534,6 +1537,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			q(94408, {	-- Contract of Service
 				["qg"] = 257501,	-- Pursewarden of Grief
 				["coord"] = { 41.0, 83.8, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = { i(264380) },	-- Contract of Service (QI!)
+			}),
+			q(94409, {	-- Contract of Service
+				["qg"] = 257502,	-- Tallymaster of Hate
+				["coord"] = { 34.7, 80.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
+				["races"] = HORDE_ONLY,
 				["groups"] = { i(264380) },	-- Contract of Service (QI!)
 			}),
 			q(94056, {	-- A Golden Pull [A]
@@ -1621,6 +1631,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(92633),	-- during 90922 (The Fallen Wake), absorb light from n(252619),	-- Fallen Defender
 				q(93515),	-- Triggered after turning 'Magisters' Terrace: Homecoming' (86543)
 				q(96244),	-- Triggered after turning 'Ambition's Reward' (91343)
+				q(94448),	-- after turn in questID 91694 (Voidscar Arena: Breaking the Triad) TODO: I'm not sure why there wasn't report about it
 			}),
 		}),
 	}),

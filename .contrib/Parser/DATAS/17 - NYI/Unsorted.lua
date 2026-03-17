@@ -1272,7 +1272,6 @@ root(ROOTS.Unsorted, {
 				i(265655),	-- Ritual Components
 				i(265710),	-- Elementary Voidcore
 				i(265749),	-- Idol of the Depths \\ [PH] Threshadon Loa Blessing
-				i(266183),	-- Enigmatic Voidclarion
 				i(266440),	-- Idol of Growth
 				i(267040),	-- Sea Caller
 				-- QI /Devourer??
