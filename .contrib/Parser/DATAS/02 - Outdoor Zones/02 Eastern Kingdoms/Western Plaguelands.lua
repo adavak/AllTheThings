@@ -3090,7 +3090,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #if BEFORE 4.0.3
 			n(TREASURES, {
-				i(176213, {	-- Blood of Heroes
+				o(176213, {	-- Blood of Heroes
 					["description"] = "This item can be found sporatically on the ground in the Plaguelands.",
 					["coords"] = {
 						-- Hearthglen
