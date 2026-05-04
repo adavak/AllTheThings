@@ -364,6 +364,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 		n(REWARDS, {
 			-- Currency
 			currency(3392),	-- Remnant of Anguish
+			-- Bonus roll
+			i(269768, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Prey
 			-- Gear
 			n(ARMOR, {
 				filter(BACK_F, {

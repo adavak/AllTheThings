@@ -1585,10 +1585,10 @@ i(248485);	-- Wormhole Generator: Quel'Thalas
 i(268456);	-- Animated Bench
 i(268455);	-- Enchanted Hourglass
 i(272287);	-- Nap Mat
+i(272339);	-- Umbral Champion's Illustrious Banner
 --- Unsorted ---
 i(267472);	-- Gnomatic Projector
 i(267323);	-- Troll Scroll of Rainbow Roll
-i(272339);	-- Umbral Champion's Illustrious Banner
 
 ------------------
 -- PATCH 12.0.7 --

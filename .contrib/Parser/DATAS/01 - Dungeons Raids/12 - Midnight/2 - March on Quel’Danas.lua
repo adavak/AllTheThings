@@ -104,12 +104,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				BossOnly(BELOREN, {
 					i(256715),	-- Design: Thalassian Phoenix Torque (RECIPE!)
 					i(264187),	-- Blessed Phoenix Egg (DECOR!)
+					i(268458, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Belo'ren, Child of Al'ar
 				}),
 				BossOnly(LURA, {
-					--i(258519),	-- Plans: Magister's Valediction (RECIPE!)
 					i(264492),	-- Chaotic Void Maw (DECOR!)
 					i(260408),	-- Lightless Lament
 					i(267646, {["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 }}),	-- March on Quel'Danas Vanquisher's Argent Trophy (DECOR!)
+					i(262658, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Midnight Falls
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({

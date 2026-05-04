@@ -209,6 +209,10 @@ root(ROOTS.Promotions, {
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between April 23rd, 3:00 p.m. & May 21st, 3:00 p.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_12_0_5, "removed 12.0.5.99999" }, -- TODO: Timeline out. Available through May 21 at 3:00 pm PDT
 			}),
+			i(272339, {	-- Umbral Champion's Illustrious Banner (TOY!)
+				-- ["description"] = "",	-- TODO
+				["timeline"] = { ADDED_12_0_5, REMOVED_12_0_5 },
+			}),
 			-- Season 2
 
 			-- Season 3

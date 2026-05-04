@@ -129,12 +129,14 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 				i(253245),	-- Cracked Keystone (QI!/QS!)
 				i(268297),	-- Rattling Bag o' Gold
 				i(252415),	-- Trovehunter's Bounty
-				--Blessings
+				-- Blessings
 				i(264669),	-- Blessing of Potency
 				i(264670),	-- Blessing of Zeal
 				i(260913),	-- Crimson Blessing
 				i(260924),	-- Sentinel's Blessing
 				i(262389),	-- Veiled Blessing
+				-- Bonus roll
+				i(268969, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Delver's Trove
 			})),
 			n(FACTIONS, {
 				faction(2742),	-- Delves: Season 1

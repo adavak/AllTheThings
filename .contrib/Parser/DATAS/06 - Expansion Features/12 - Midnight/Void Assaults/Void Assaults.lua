@@ -1372,6 +1372,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				}),
 			}),
 			n(REWARDS, {
+				i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
+				i(272392),	-- Broken Lynx Leash
 				currency(3429),	-- Ritual Site Reports
 				i(DARK_PARTICLE),
 				i(271787),	-- Field Accolades

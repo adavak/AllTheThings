@@ -796,25 +796,6 @@ root(ROOTS.Unsorted, {
 				i(272894),	-- Inert Runestone
 				i(259472),	-- Lost Revantusk Possessions
 				i(260621),	-- Magic-Infused Bark
-				i(268465),	-- Nebulous Voidcache: Algeth'ar Academy
-				i(268458),	-- Nebulous Voidcache: Belo'ren, Child of Al'ar
-				i(268464),	-- Nebulous Voidcache: Chimaerus the Undreamt God
-				i(267488),	-- Nebulous Voidcache: Crown of the Cosmos
-				i(268969),	-- Nebulous Voidcache: Delver's Trove
-				i(268461),	-- Nebulous Voidcache: Fallen-King Salhadaar
-				i(268459),	-- Nebulous Voidcache: Imperator Averzian
-				i(268463),	-- Nebulous Voidcache: Lightblinded Vanguard
-				i(268466),	-- Nebulous Voidcache: Magisters' Terrace
-				i(268473),	-- Nebulous Voidcache: Maisara Caverns
-				i(262658),	-- Nebulous Voidcache: Midnight Falls
-				i(268467),	-- Nebulous Voidcache: Nexus-Point Xenas
-				i(268468),	-- Nebulous Voidcache: Pit of Saron
-				i(269768),	-- Nebulous Voidcache: Prey
-				i(268469),	-- Nebulous Voidcache: Seat of the Triumvirate
-				i(268470),	-- Nebulous Voidcache: Skyreach
-				i(268462),	-- Nebulous Voidcache: Vaelgor & Ezzorak
-				i(268460),	-- Nebulous Voidcache: Vorasius
-				i(268471),	-- Nebulous Voidcache: Windrunner Spire
 				i(267381),	-- Official G.G.R. Rehydration Container
 				i(269234),	-- Overflowing Ritual Site Cache
 				i(267352),	-- Pocket Rainbow
@@ -834,30 +815,19 @@ root(ROOTS.Unsorted, {
 				i(268876),	-- Flame-Painted Sun Roc (MOUNT!)
 				i(268362),	-- Gilnean Copper Charger (MOUNT!)
 				i(268360),	-- Gilnean Iron Charger (MOUNT!)
-				i(270058),	-- Rope Lynx Harness (MOUNT!)
 			}),
 			filter(QUEST_ITEMS, {
 				i(259473),	-- Charred Amani Trinket
-				i(253386),	-- Light-Pulsing Seed
 				i(259474),	-- Lost Amani Toy
 				i(259475),	-- Misplaced Loa Statue
 			}),
 			filter(TITLES, {
-				title(766),	-- <Name>, Mrglgrgl of Grglmrgl
-				title(773),	-- <Name> the Umbral Contender
 				title(749),	-- Darkspear Dasher <Name>
 				title(772),	-- Void Breacher <Name>
 			}),
 			filter(TOYS, {
 				i(267472),	-- Gnomatic Projector (TOY!)
 				i(267323),	-- Troll Scroll of Rainbow Roll (TOY!)
-				i(272339),	-- Umbral Champion's Illustrious Banner (TOY!)
-			}),
-			n(PROFESSIONS, {
-				prof(LEATHERWORKING, {
-					i(272392),	-- Broken Lynx Leash
-					i(272391),	-- Pattern: Rope Lynx Harness
-				}),
 			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1 } }, {

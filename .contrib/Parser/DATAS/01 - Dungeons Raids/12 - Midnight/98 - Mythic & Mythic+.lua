@@ -27,6 +27,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				i(262621),	-- Convalescent Carrion (MOUNT!)
 			}),
 			ach(63097, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {	-- Midnight Keystone Myth: Season One
+				title(773),	-- <Name> the Umbral Contender
 				i(275436),	-- Timelost Saddle
 			})),
 			--[[ach( ,{	-- Umbral Champion: Season One
@@ -150,6 +151,18 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				["collectible"] = false,
 			}),
 		})),
+		n(REWARDS, bubbleDownSelf({
+			["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }
+		}, {
+			i(268465),	-- Nebulous Voidcache: Algeth'ar Academy
+			i(268466),	-- Nebulous Voidcache: Magisters' Terrace
+			i(268473),	-- Nebulous Voidcache: Maisara Caverns
+			i(268467),	-- Nebulous Voidcache: Nexus-Point Xenas
+			i(268468),	-- Nebulous Voidcache: Pit of Saron
+			i(268469),	-- Nebulous Voidcache: Seat of the Triumvirate
+			i(268470),	-- Nebulous Voidcache: Skyreach
+			i(268471),	-- Nebulous Voidcache: Windrunner Spire
+		})),
 		cnONLY(filter(TITLES, bubbleDownSelf({
 			["timeline"] = { ADDED_12_0_1 }
 		}, {
@@ -202,7 +215,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		header(HEADERS.Achievement, SEASON_UMBRAL, bubbleDownSelf({
 			["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 }
 		}, {
-			q(92491, {isWeekly=true}),	-- first M+ key of the 
+			q(92491, {isWeekly=true}),	-- first M+ key of the
 			q(95375),	-- Using Nebulous Voidcore
 		})),
 	}),

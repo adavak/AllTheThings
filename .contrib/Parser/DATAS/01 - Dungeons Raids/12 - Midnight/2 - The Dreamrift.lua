@@ -90,6 +90,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 					i(256656),	-- Pattern: World Tender's Barkclasp (RECIPE!)
 					i(267645, { ["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 } }),	-- Dreamrift Vanquisher's Argent Trophy (DECOR!)
 					i(264246),	-- Eerie Iridescent Riftshroom (DECOR!)
+					i(268464, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Chimaerus the Undreamt God
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({

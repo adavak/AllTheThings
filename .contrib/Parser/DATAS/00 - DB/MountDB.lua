@@ -2404,6 +2404,7 @@ i(264348, 1271698);	-- Unbound Manawyrm
 i(268578, 1282936);	-- Void-Touched Hawkstrider
 i(270041, 1287357);	-- Void-Touched Snapdragon
 i(269828, 1286606);	-- Void-Corrupted Eagle Talon
+i(270058, 1287359);	-- Void-Corrupted Lynx
 i(257225, 1261362);	-- Witherbark Warbear Harness
 --- Unsorted ---
 i(268878, 1283906);	-- [PH] Giant Eagle Sunwalker Mount Blue
@@ -2412,7 +2413,6 @@ i(268877, 1283908);	-- Dusk-Painted Sun Roc
 i(268876, 1283910);	-- Flame-Painted Sun Roc
 i(268362, 1282274);	-- Gilnean Copper Charger
 i(268360, 1282268);	-- Gilnean Iron Charger
-i(270058, 1287359);	-- Void-Corrupted Lynx
 --- NYI ---
 i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 
