@@ -402,6 +402,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					i(271029),	-- Fathom-Coral Lightstaff (COSMETIC!)
 					i(270998),	-- Fetish of the Vanquished Foe (COSMETIC!)
 					i(270999),	-- Forest Berserker's Hatchet (COSMETIC!)
+					i(271050),	-- Forest Hunter's Quiver (COSMETIC!)
 					i(271036),	-- Forest Shaman's Voodoo Staff (COSMETIC!)
 					i(271006),	-- Forest Stalker's Bow (COSMETIC!)
 					i(271012),	-- Forest Tiki Twinblade (COSMETIC!)

@@ -526,13 +526,11 @@ root(ROOTS.Unsorted, {
 					i(270296),	-- Crown of Snowy Springflowers
 					i(270297),	-- Crown of Sunny Springflowers
 					i(270294),	-- Crown of Violet Springflowers
-					i(271050),	-- Forest Hunter's Quiver
 				}),
 				filter(TABARDS, {
 					i(267280),	-- Darkspear Dash Tabard
 				}),
 				n(SETS, {
-					-- TODO: They probably fixed missing weapons in these
 					i(269001),	-- Arsenal: Drakebreaker's Weapons
 					i(269002),	-- Arsenal: Hellbloom Weapons
 
@@ -663,115 +661,8 @@ root(ROOTS.Unsorted, {
 				}),
 			}),
 			n(DECOR, {
-				i(245298),	-- Wild Violet Bellflowers
-				i(245299),	-- Reaching Violet Bellflowers
-				i(245300),	-- Arched Violet Bellflowers
-				i(245301),	-- Algari Lettuce Plant
-				i(246803),	-- Arched Wooden Bench
-				i(246870),	-- Farmer's Water Trough
-				i(246871),	-- Hay-Filled Sturdy Feeding Trough
-				i(246872),	-- Carved Stone Bench
-				i(246874),	-- Sturdy Brazier
-				i(246875),	-- Founder's Point Street Light
-				i(246876),	-- Founder's Point Lamppost
-				i(246877),	-- Sturdy Feeding Trough
-				i(246934),	-- Small Covered Wooden Table
-				i(246935),	-- Small Sturdy Wooden Table
-				i(248400),	-- Founder's Point Signpost
-				i(249822),	-- Founder's Point Street Sign
-				i(249823),	-- Founder's Point Navigation Sign
-				i(250092),	-- Small Wooden Footstool
-				i(250095),	-- Runed Stone Placard
-				i(250249),	-- Founder's Point Gravestone
-				i(250250),	-- Small Founder's Point Gravestone
-				i(250251),	-- Founder's Point Gravestone Tower
-				i(250252),	-- Large Founder's Point Gravestone
-				i(250691),	-- Tusked Leather Tapestry
-				i(250692),	-- Razorwind Banner Pelt
-				i(251011),	-- Painted Wood Scraps
-				i(251012),	-- Painted Wood Scrap Pile
-				i(252004),	-- Wooden Planter Pot
-				i(252005),	-- Wooden Planter Row
-				i(252006),	-- Founder's Point Fence
-				i(252007),	-- Long Founder's Point Fence
-				i(252008),	-- Razorwind Wheelbarrow
-				i(252037),	-- Covered Wooden Desk
-				i(252038),	-- Sturdy Wooden Desk
-				i(252407),	-- Founder's Point Framed Torch
-				i(252408),	-- Long Old Founder's Point Fence
-				i(252409),	-- Old Founder's Point Fence
-				i(252410),	-- Founder's Point Fencepost
-				i(252412),	-- Old Founder's Point Fencepost
-				i(252414),	-- Broken Founder's Point Fence
-				i(252416),	-- Old Broken Founder's Point Fence
-				i(253018),	-- Founder's Point Standing Torch
-				i(253019),	-- Razorwind Banded Planter
-				i(253707),	-- Open Sturdy Wooden Crate
-				i(254395),	-- Razorwind Smith's Hammer
-				i(254396),	-- Razorwind Miner's Pickaxe
-				i(254397),	-- Razorwind Woodworker's Hand Saw
-				i(254398),	-- Razorwind Crafter's Chisel
-				i(254399),	-- Razorwind Peon's Shovel
-				i(254678),	-- Razorwind Logger's Axe
-				i(255706),	-- Razorwind Iron Chandelier
-				i(255707),	-- Low-Hanging Razorwind Iron Chandelier
-				i(255709),	-- Razorwind Shores Canoe
-				i(256329),	-- Razorwind Standing Tusk
-				i(258300),	-- Sparse Razorwind Fisher's Rack
-				i(258307),	-- Razorwind Fisher's Rack
-				i(258565),	-- Reinforced Wooden Barrel
-				i(258566),	-- Empty Reinforced Wooden Barrel
-				i(258570),	-- Refined Wooden Bed
-				i(258663),	-- Razorwind River Paddle
-				i(258664),	-- Tusk-Adorned Stitched Rug
-				i(258665),	-- Small Stitched Rug
-				i(258818),	-- Padded Wooden Bench
-				i(258819),	-- Sturdy Wooden Crate
-				i(259464),	-- Rolled Razorwind Leathers
-				i(259465),	-- Low-Hanging Razorwind Ropes
-				i(259466),	-- Knotted Hanging Razorwind Ropes
-				i(259467),	-- Tusked Hanging Razorwind Ropes
-				i(259468),	-- Plain Hanging Razorwind Ropes
-				i(259469),	-- Adorned Hanging Razorwind Ropes
-				i(259470),	-- Lightly Adorned Hanging Razorwind Ropes
-				i(260486),	-- Large Razorwind Farmer's Hay Pile
-				i(260487),	-- Razorwind Farmer's Hay Pile
-				i(260488),	-- Small Razorwind Farmer's Hay Pile
-				i(262962),	-- Carved Wooden Chair
-				i(263032),	-- Razorwind Fishing Net
-				i(263581),	-- Razorwind Roofer's Shingle
-				i(263582),	-- Razorwind Roofer's Shingle Pile
-				i(263583),	-- Tiny Clump of Hay
-				i(263584),	-- Razorwind Construction Crane
-				i(263879),	-- [DNT] [AUTOGEN] 12PH_Folk_Gazebo02.M2
-				i(263883),	-- Small Sturdy Wooden Trellis
-				i(264324),	-- PH Decor (Floating Podium, Ink Well, Runed Paper, Void Candle)
-				i(265924),	-- High-Mounted Razorwind Bowl Chandelier
-				i(265925),	-- Razorwind Bowl Chandelier
-				i(265926),	-- Low-Hanging Razorwind Bowl Chandelier
-				i(266233),	-- Short Hanging Tavern Lantern
-				i(266249),	-- Hanging Tavern Lantern
-				i(266250),	-- Long Hanging Tavern Lantern
-				i(266260),	-- [DNT] [AUTOGEN] 12PH_Opulent_Crate02_Open.M2
-				i(267075),	-- Ornate Elven Stovetop
-				i(267083),	-- Razorwind Campfire Grill
-				i(267084),	-- Founder's Point Hay Bale
-				i(267088),	-- Iron Candlelight Lantern
-				i(267202),	-- Elegant Elven Water Well
-				i(267616),	-- Loose Wisps of Hay
-				i(268026),	-- Scattered Wisps of Hay
-				i(268027),	-- Windblown Wisps of Hay
-				i(268028),	-- Trampled Wisps of Hay
-				i(268029),	-- Mounted Founder's Point Lantern
-				i(268030),	-- Mounted Tavern Lantern
-				i(271163),	-- Blazing Guardian's Rug
-				i(271164),	-- Dream Guardian's Rug
-				i(271165),	-- Nightmare Guardian's Rug
-				i(271166),	-- Eventide Guardian's Rug
-				i(271171),	-- Eventide Guardian's Table
-				i(271172),	-- Nightmare Guardian's Table
-				i(271173),	-- Blazing Guardian's Table
-				i(271174),	-- Dream Guardian's Table
+				i(245298),	-- Wild Violet Bellflowers (DECOR!)
+				i(263883),	-- Small Sturdy Wooden Trellis (DECOR!)
 			}),
 			filter(MISC, {
 				i(267278),	-- Angler Pearls
