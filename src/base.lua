@@ -668,6 +668,7 @@ function app:ShowPopupDialogWithEditBox(msg, text, callback, timeout)
 			hideOnEscape = true,
 			enterClicksFirstButton = true,
 			hasEditBox = true,
+			maxLetters = 0,
 			OnAccept = function(self)
 				if popup.callback and type(popup.callback) == "function" then
 					local editBox = self.editBox or self.EditBox or (self.GetEditBox and self:GetEditBox())
