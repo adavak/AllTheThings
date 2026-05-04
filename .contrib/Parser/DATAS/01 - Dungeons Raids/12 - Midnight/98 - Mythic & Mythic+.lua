@@ -28,7 +28,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 			}),
 			ach(63097, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {	-- Midnight Keystone Myth: Season One
 				title(773),	-- <Name> the Umbral Contender
-				i(275436),	-- Timelost Saddle
 			})),
 			--[[ach( ,{	-- Umbral Champion: Season One
 				["groups"] = {
@@ -149,6 +148,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 			ach(61253, {	-- Midnight Season 1: Resilient Keystone 30
 				["_noautomation"] = true,
 				["collectible"] = false,
+			}),
+		})),
+		n(QUESTS, bubbleDownSelf({
+			["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }
+		}, {
+			q(96936, {	-- Accolades for the Umbral Contender
+				["sourceAchievement"] = 63097,
+				["groups"] = { i(275436), }	-- Timelost Saddle
 			}),
 		})),
 		n(REWARDS, bubbleDownSelf({
