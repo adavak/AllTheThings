@@ -154,7 +154,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 			["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }
 		}, {
 			q(96936, {	-- Accolades for the Umbral Contender
-				["sourceAchievement"] = 63097,
+				["sourceAchievement"] = 63097,	-- Midnight Keystone Myth: Season One
 				["groups"] = { i(275436), }	-- Timelost Saddle
 			}),
 		})),

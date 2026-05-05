@@ -177,6 +177,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["qg"] = 257416,	-- Lady Darkglen
 					["coord"] = { 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
+				q(95933, {	-- Traces in the Dark
+					["sourceAchievement"] = 62569,	-- Traces in the Dark
+					["qg"] = 263121,	-- Mayven Ombrewing
+					["coord"] = { 47.9, 49.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
 				-- Sorted but unsorted (not sure what sourceQuest or action for it)
 				-- Exo: Unconfirmed, but I am pretty sure this unlocks after you have completed at least 1 Ritual Site
 				q(95550, {	-- Thin Their Ranks
