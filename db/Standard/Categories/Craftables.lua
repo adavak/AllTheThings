@@ -18693,6 +18693,8 @@ fc(1237518,{providers={{"s",1237518}},requireSkill=165}),
 fc(1237519,{providers={{"s",1237519}},requireSkill=165})}),
 flt(50,{
 i(244639,{f=55,lvl=81,spellID=1243972})}),
+flt(100,{awp=120005,g={
+mnt(1287359,{itemID=270058})}}),
 flt(57,{
 s(292355,244629,{f=57,lvl=68,requireSkill=755,spellID=1234155}),
 s(292353,244627,{f=57,lvl=68,requireSkill=164,spellID=1234183}),

@@ -100,53 +100,53 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				BossOnly(RANJIT, {
 					ach(9033),	-- Ready for Raiding IV
 					i(258046, {	-- Chakram-Breaker Greatsword
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258574, {	-- Legwraps of Swirling Light
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258575, {	-- Rigid Scale Greatcloak
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258218, {	-- Skybreaker's Blade
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258412, {	-- Stormshaper's Crossbow
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 				}),
 				BossOnly(ARAKNATH, {
 					i(258577, {	-- Boots of Burning Focus
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258436, {	-- Edge of the Burning Sun
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258579, {	-- Gutcrusher Greathelm
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258578, {	-- Lightbinder Shoulderguards
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258576, {	-- Sharpeye Chestguard
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(252418, {	-- Solar Core Igniter
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258047, {	-- Spire of the Furious Construct
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 				}),
@@ -155,35 +155,35 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 76227 },	-- Solar Flare
 					}),
 					i(258048, {	-- Beakbreaker Scimitar
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258438, {	-- Blazing Sunclaws
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258581, {	-- Bloodfeather Mantle
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258580, {	-- Bracers of Blazing Light
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258583, {	-- Incarnadine Gauntlets
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(252411, {	-- Radiant Sunstone
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258582, {	-- Rigid Scale Boots
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258472, {	-- Rukhran's Solar Reliquary
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 				}),
@@ -197,35 +197,35 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 76292 },	-- Skyreach Shield Construct
 					}),
 					i(258050, {	-- Arcanic of the High Sage
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258586, {	-- Bloodfeather Chestguard
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258584, {	-- Lightbinder Treads
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258585, {	-- Sharpeye Gleam
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(252420, {	-- Solarflare Prism
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258587, {	-- Spaulders of Scorching Ray
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258484, {	-- Sunlance of Viryx
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 					i(258049, {	-- Viryx's Indomitable Bulwark
-						["timeline"] = { ADDED_12_0_1_SEASONSTART },
+						["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 						["ItemAppearanceModifierID"] = 0,
 					}),
 				}),
@@ -256,6 +256,50 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					})
 				}),
 			}),
+			n(MYTHIC_PLUS, sharedDataSelf({ ["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 } }, {
+				e(965, {	-- Ranjit
+					["crs"] = { 75964 },	-- Ranjit
+					["groups"] = bubbleDownFiltered({ ["modID"] = 35 },FILTERFUNC_itemID,{
+						i(258046),	-- Chakram-Breaker Greatsword
+						i(258574),	-- Legwraps of Swirling Light
+						i(258575),	-- Rigid Scale Greatcloak
+					}),
+				}),
+				e(966, {	-- Araknath
+					["crs"] = { 76141 },	-- Araknath
+					["groups"] = bubbleDownFiltered({ ["modID"] = 35 },FILTERFUNC_itemID,{
+						i(258577),	-- Boots of Burning Focus
+						i(258579),	-- Gutcrusher Greathelm
+						i(258578),	-- Lightbinder Shoulderguards
+						i(258576),	-- Sharpeye Chestguard
+						i(252418),	-- Solar Core Igniter
+						i(258047),	-- Spire of the Furious Construct
+					}),
+				}),
+				e(967, {	-- Rukhran
+					["crs"] = { 76143 },	-- Rukhran
+					["groups"] = bubbleDownFiltered({ ["modID"] = 35 },FILTERFUNC_itemID,{
+						i(258048),	-- Beakbreaker Scimitar
+						i(258581),	-- Bloodfeather Mantle
+						i(258580),	-- Bracers of Blazing Light
+						i(258583),	-- Incarnadine Gauntlets
+						i(252411),	-- Radiant Sunstone
+						i(258582),	-- Rigid Scale Boots
+					}),
+				}),
+				e(968, {	-- High Sage Viryx
+					["crs"] = { 76266 },	-- High Sage Viryx
+					["groups"] = bubbleDownFiltered({ ["modID"] = 35 },FILTERFUNC_itemID,{
+						i(258050),	-- Arcanic of the High Sage
+						i(258586),	-- Bloodfeather Chestguard
+						i(258584),	-- Lightbinder Treads
+						i(258585),	-- Sharpeye Gleam
+						i(252420),	-- Solarflare Prism
+						i(258587),	-- Spaulders of Scorching Ray
+						i(258049),	-- Viryx's Indomitable Bulwark
+					}),
+				}),
+			})),
 		},
 	}),
 })));
