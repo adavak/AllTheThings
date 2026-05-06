@@ -208,6 +208,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["cost"] = {{"i",253342,1}},	-- Beacon of Hope
 					["groups"] = {
 						i(264971),	-- Annihilation Rod (COSMETIC!)
+						i(264970),	-- Oblivion's Edge (COSMETIC!)
 						i(262391),	-- Ominous Domanus (PET!)
 						i(265368),	-- Twilight Destroyer (COSMETIC!)
 						i(265366),	-- Twilight Executioner (COSMETIC!)
