@@ -544,15 +544,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				}),
 				-- Boxes given to Leveling Characters
 				i(271222, {	-- Bulging Recruit's Field Pouch
+					["description"] = "Earned with characters under level 90.",
 					["sym"] = COSMETIC_AND_LEVELING_BOX_SYM,
 				}),
 				i(270934, {	-- Recruit's Field Pouch
+					["description"] = "Earned with characters under level 90.",
 					["sym"] = LEVELING_BOX_SYM,
 				}),
 				i(270987, {	-- Recruit's Field Satchel
+					["description"] = "Earned with characters under level 90.",
 					["sym"] = LEVELING_BOX_SYM,
 				}),
 				i(271221, {	-- Wriggling Recruit's Field Pouch
+					["description"] = "Earned with characters under level 90.",
 					["sym"] = {
 						{ "select", "itemID", 270990 },{ "finalize" },	-- Curious Lynx Kitten (PET!)
 						{ "select", "itemID", 270988 },{ "finalize" },	-- Wriggling Capybara (PET!)
@@ -1019,7 +1023,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["provider"] = { "n", 263355 },	-- Lost Bear Cub
 							["cost"] = { { "i", 242639, 1 } },	-- 1x Practically Pork
 						}),
-						i(269829),	-- Void-Scarred Eaglet (PET!)
+						i(269829, {	-- Void-Scarred Eaglet (PET!)
+							["coord"] = { 49.5, 78.3, BROKEN_THRONE },
+							["description"] = "You need to mount up on the Void-Corrupted Hex Eagle and step into the tornado at the corner of the pillar at the given coordinates.",
+						}),
 					}),
 					filter(MOUNTS, {
 						i(269828, {	-- Void-Corrupted Eagle Talon (MOUNT!)

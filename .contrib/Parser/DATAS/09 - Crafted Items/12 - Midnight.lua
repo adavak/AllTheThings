@@ -870,19 +870,19 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90229, 1229853);	-- Soul Sprocket
 			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
 			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
-			FirstCraft(90279, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
-			FirstCraft(90258, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
+			FirstCraft(90279, 1261490, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
+			FirstCraft(95578, 1261490, ADDED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
 			FirstCraft(90256, 1229913);	-- Thalassian Competitor's Leather Bands
 			FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
-			FirstCraft(90280, 1261491);	-- Thalassian Competitor's Leather Sliders
-			FirstCraft(90258, 1261491);	-- Thalassian Competitor's Leather Sliders
-			FirstCraft(90281, 1261492);	-- Thalassian Competitor's Mail Footlinks
-			FirstCraft(90258, 1261492);	-- Thalassian Competitor's Mail Footlinks
+			FirstCraft(90280, 1261491, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Leather Sliders
+			FirstCraft(95579, 1261491, ADDED_12_0_5);	-- Thalassian Competitor's Leather Sliders
+			FirstCraft(90281, 1261492, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
+			FirstCraft(95581, 1261492, ADDED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
 			FirstCraft(90257, 1229914);	-- Thalassian Competitor's Mail Links
 			FirstCraft(90253, 1229910);	-- Thalassian Competitor's Mail Visor
 			FirstCraft(90258, 1229915);	-- Thalassian Competitor's Plate Bindings
-			FirstCraft(90282, 1261493);	-- Thalassian Competitor's Plate Dunkers
-			FirstCraft(90258, 1261493);	-- Thalassian Competitor's Plate Dunkers
+			FirstCraft(90282, 1261493, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
+			FirstCraft(95582, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
 			FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
 			FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool
 			FirstCraft(90302, 1229926);	-- W-47CH D0G
