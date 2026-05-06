@@ -1673,7 +1673,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 				["timeline"] = { ADDED_12_0_5 },
-				["isRepeatable"] = true,	-- It instantly unflags after completing, although it's not repeatable probably?
+				["isWeekly"] = true,
 				["groups"] = { i(269668) },	-- Hungering Oblivium (QI!)
 			}),
 		}),
