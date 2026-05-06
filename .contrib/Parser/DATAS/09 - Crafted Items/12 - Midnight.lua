@@ -2065,6 +2065,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			["requireSkill"] = TAILORING,
 		},{
 			FirstCraft(90027, 1228950);	-- Adherent's Silken Shroud
+			FirstCraft(90061, 1228984);	-- Arcanoweave Bracers
 			FirstCraft(90082, 1227926);	-- Arcanoweave Bolt
 			FirstCraft(90062, 1228985);	-- Arcanoweave Cloak
 			FirstCraft(90065, 1228988);	-- Arcanoweave Cord
