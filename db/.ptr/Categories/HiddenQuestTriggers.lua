@@ -7359,6 +7359,7 @@ hqt(85833,{an="cu:3100"}),
 hqt(84608,{an="cu:3100"})})}),
 x(12,{
 inst(1308,{awp=120001,isRaid=1,g={
+hqt(94564,{an="n:250803",isWeekly=1}),
 hqt(94561,{an="n:250802",isWeekly=1}),
 hqt(94565,{an="n:250803",isWeekly=1}),
 hqt(94563,{an="n:250802",isWeekly=1}),

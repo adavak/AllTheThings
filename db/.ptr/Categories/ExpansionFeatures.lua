@@ -8226,7 +8226,7 @@ r(176420,{requireSkill=165,u=5}),
 r(176411,{requireSkill=165,u=5}),
 r(176425,{requireSkill=165,u=5})}}),
 h(-58,{
-n(77383,{r=2,sym={{"sub","common_vendor",87062}}}),
+n(77383,{r=2,sym={{"sub","common_vendor",87057}}}),
 n(79834,{r=1,sym={{"sub","common_vendor",87549}}})})}),
 gb(145,{
 h(-12,{
@@ -41776,7 +41776,7 @@ ach(62573),
 ach(62572),
 ach(62518,{
 crit(113609,{achID=62563,id=6})}),
-ach(62570),
+ach(62570,{crs={263912}}),
 ach(62571),
 ach(62513,{
 crit(113608,{achID=62563,id=5})}),
@@ -41865,6 +41865,8 @@ i(268809),
 i(266448),
 i(268808),
 i(268807)}),
+h(-28,{
+q(95391,{repeatable=1})}),
 h(-45,{
 q(94380,{coords={
 [2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
@@ -41938,27 +41940,10 @@ q(96233,{coords={
 ah(63325,{awp=120007,type="a",g={
 q(96410,{coords={
 [2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96233}}),
-q(96831,{description="You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",isBreadcrumb=1,nextQuests={96441},sourceQuests={96410}}),
+q(96831,{description="You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",isBreadcrumb=1,isWeekly=1,nextQuests={96441},sourceQuests={96410}}),
 q(96441,{coords={
 [2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96831},g={
-i(274576)}})}}),
-ah(96713,{awp=120007,type="q",g={
-q(96048,{description="Can be accepted from the Adventure Journal.",isBreadcrumb=1,nextQuests={96049,96703}}),
-q(96049,{coords={
-[2393]={{47.6,51}}},qgs={263479},sourceQuests={96048}}),
-q(96703,{coords={
-[2393]={{47.6,51}}},qgs={263479},sourceQuests={96048}}),
-q(96708,{coords={
-[2393]={{47.6,51}}},qgs={263479},sourceQuests={96049,96703}}),
-q(96051,{coords={
-[2405]={{51.6,71.1}}},qgs={263480},sourceQuests={96708}}),
-q(96053,{coords={
-[2599]={{59.3,19.5}}},qgs={263482},sourceQuests={96051}}),
-q(96473,{coords={
-[2599]={{41.7,84.6}}},qgs={263987},sourceQuests={96053}}),
-q(96713,{coords={
-[2599]={{59.3,19.5}}},isWeekly=1,qgs={263482},sourceQuests={96051},g={
-i(275690,{f=55})}})}})}),
+i(274576)}})}})}),
 h(-47,{
 flt(101,{
 p(5040,{description="This pet can drop only during Void Assault in Eversong Woods.",itemID=270990,npcID=262788,spellID=1288381}),
@@ -42094,6 +42079,7 @@ i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741
 i(270244,{f=55}),
 i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270932,{f=55,sym={{"select","itemID",270990,270988}}}),
+i(269234),
 i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
 i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
 i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
@@ -42495,13 +42481,39 @@ p(5023,{coords={
 [2594]={{35.1,44.5},{41.76,49.69},{42.03,80.03},{43.31,57.99},{55,79.3},{63.58,65.58},{66.4,52.46},{68.46,37.62}}},description="Tier 3 or higher. Found by clicking the Rustling Bushes inside the Ritual Site.\nYou will have to find multiple Bushes across multiple instances as only 1 Bush is available per run.",itemID=270063,npcID=262092,spellID=1287380})}),
 h(-56,{
 o(649380,{coords={
-[2594]={{41,73},{46.6,46},{47.9,72.1},{50.1,55.1},{53.4,55.4},{62,77.1},{66,74}}},crs={263617},description="Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",modelScale=3,g={
+[2594]={{38,63.6},{41,73},{46.6,46},{47.9,72.1},{50.1,55.1},{53.4,55.4},{62,77.1},{66,74}}},crs={263617},description="Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",modelScale=3,g={
 mnt(1287357,{itemID=270041})}})}),
 h(-63,{
 i(271644),
 i(272128,{crs={257827,257828,257829},description="Has a chance to drop from any Naga-type creature within the Ritual Site.",spellID=1290269})})}}),
+m(2600,{awp=120007,coords={
+[2405]={{51.4,71.3}}},crs={264322},icon=775461,g={
+h(-45,{
+q(96052,{coords={
+[2405]={{51.6,71.1}}},qgs={263480}})}),
+h(-47,{
+i(276089,{spellID=1298536}),
+i(276091,{spellID=1298538}),
+i(276093,{spellID=1298539})})}}),
 m(2599,{awp=120007,coords={
-[2405]={{51.4,71.3}}},crs={264308},icon=4226156,maps={2617,2618,2621},lvl=80,g={
+[2405]={{51.4,71.3}}},crs={264308},icon=429385,maps={2617,2618,2621},lvl=80,g={
+h(-45,{
+q(96048,{description="Can be accepted from the Adventure Journal.",isBreadcrumb=1,nextQuests={96049,96703}}),
+q(96049,{coords={
+[2393]={{47.6,51}}},qgs={263479},sourceQuests={96048}}),
+q(96703,{coords={
+[2393]={{47.6,51}}},qgs={263479},sourceQuests={96048}}),
+q(96708,{coords={
+[2393]={{47.6,51}}},qgs={263479},sourceQuests={96049,96703}}),
+q(96051,{coords={
+[2405]={{51.6,71.1}}},qgs={263480},sourceQuests={96708}}),
+q(96053,{coords={
+[2599]={{59.3,19.5}}},qgs={263482},sourceQuests={96051}}),
+q(96473,{coords={
+[2599]={{41.7,84.6}}},qgs={263987},sourceQuests={96053}}),
+q(96713,{coords={
+[2599]={{59.3,19.5}}},isWeekly=1,qgs={263482},sourceQuests={96051},g={
+i(275690,{f=55})}})}),
 h(-46,{
 n(264866,{coords={
 [2599]={{44.6,52.8}}},g={

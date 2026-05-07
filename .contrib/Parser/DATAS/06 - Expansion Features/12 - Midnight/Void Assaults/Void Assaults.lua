@@ -148,6 +148,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				i(268808),	-- Permafrosted Keystone (QS!)
 				i(268807),	-- Torn Twilight Missive (QS!)
 			}),
+			n(EMISSARY_QUESTS, {
+				------ Paragon ------
+				q(95391, {	-- Ritual Site Renowned
+					["isRepeatable"] = true,
+				}),
+			}),
 			n(QUESTS, {
 				q(94380, {	-- Ranger Captain's Summons
 					["qg"] = 257459,	-- Farstrider Scout
@@ -340,6 +346,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["sourceQuest"] = 96410,	-- Seeking Knowledge: The Omnium Folio
 						["description"] = "You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",	-- Or will it pop-up on first log-in when eligible?
 						["isBreadcrumb"] = true,
+						["isWeekly"] = true,	-- Unflagged at first relog. My best guess is that this one will be a breadcrumb for all the 'Seeking Knowledge Week X of 5' quests.	-- Exo
 					}),
 					q(96441, {	-- Seeking Knowledge Week 2 of 5: Ritualized Arcana
 						["sourceQuest"] = 96831,	-- Magister's Summons
@@ -348,56 +355,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["groups"] = { i(274576) },	-- Ritualized Arcana (QI!)
 					}),
 				})),
-				header(HEADERS.Quest, 96713, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- Showdown on Val
-					q(96048, {	-- The Time to Strike
-						["description"] = "Can be accepted from the Adventure Journal.",	-- Or will it pop-up on first log-in when eligible?
-						["isBreadcrumb"] = true,	-- ?? You can't accept followup quests without it?
-					}),
-					q(96049, {	-- Stalkers of the Stars
-						["sourceQuest"] = 96048,	-- The Time to Strike
-						["qg"] = 263479,	-- Riftblade Maella
-						["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
-					}),
-					q(96703, {	-- Veterans of the Great Dark
-						["sourceQuest"] = 96048,	-- The Time to Strike
-						["qg"] = 263479,	-- Riftblade Maella
-						["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
-					}),
-					q(96708, {	-- To the Voidstorm and Beyond!
-						["sourceQuests"] = {
-							96049,	-- Stalkers of the Stars
-							96703,	-- Veterans of the Great Dark
-						},
-						["qg"] = 263479,	-- Riftblade Maella
-						["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
-					}),
-					q(96051, {	-- Through the Cold Rift
-						["sourceQuest"] = 96708,	-- To the Voidstorm and Beyond!
-						["qg"] = 263480,	-- Riftblade Maella
-						["coord"] = { 51.6, 71.1, MAP.MIDNIGHT.VOIDSTORM },
-					}),
-					q(96053, {	-- Surveying the Frozen Wastes
-						["sourceQuest"] = 96051,	-- Through the Cold Rift
-						["qg"] = 263482,	-- Riftblade Maella
-						["coord"] = { 59.3, 19.5, VAL },
-					}),
-					q(96473, {	-- Imperator Pertinax
-						["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
-						["qg"] = 263987,	-- Belath Dawnblade
-						["coord"] = { 41.7, 84.6, VAL },
-					}),
-					q(96713, {	-- Showdown on Val
-						["sourceQuest"] = 96051,	-- Through the Cold Rift
-						["qg"] = 263482,	-- Riftblade Maella
-						["coord"] = { 59.3, 19.5, VAL },
-						["groups"] = { i(275690) },	-- Riftstalker's Cache
-						["isWeekly"] = true,	-- Speculation
-					}),
-				})),
-				------ Paragon ------
-				q(95391, {	-- Ritual Site Renowned
-					["isRepeatable"] = true,
-				}),
 			}),
 			n(REWARDS, {
 				filter(BATTLE_PETS, {
@@ -1135,7 +1092,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["modelScale"] = 3,
 							["cr"] = 263617,	-- Void-Touched Snapdragon
 							["coords"] = {
-								{ 38.0, 63.6, DAGGERSPINE_POINT}, -- Verified
+								{ 38.0, 63.6, DAGGERSPINE_POINT },	-- Verified
 								{ 41.0, 73.0, DAGGERSPINE_POINT },	-- Not verified, WoWhead data
 								{ 46.6, 46.0, DAGGERSPINE_POINT },	-- Verified
 								{ 47.9, 72.1, DAGGERSPINE_POINT },	-- Verified
@@ -1160,8 +1117,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					}),
 				},
 			}),
+			m(NAIGTAL, {
+				["icon"] = 775461,
+				["timeline"] = { ADDED_12_0_7 },
+				["cr"] = 264322,	-- Greater Void Portal
+				["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
+				--["maps"] = {
+				--	
+				--},
+				["groups"] = {
+					n(QUESTS, {
+						q(96052, {	-- Through the Mana Rift
+							["qg"] = 263480,	-- Riftblade Maella
+							["coord"] = { 51.6, 71.1, MAP.MIDNIGHT.VOIDSTORM },
+						}),
+					}),
+					n(REWARDS, {
+						i(276089),	-- Field Accolades (Normal)
+						i(276091),	-- Lost Armaments (Normal)
+						i(276093),	-- Nexus-Captain Leth'ir (Normal)
+					}),
+				},
+			}),
 			m(VAL, {
-				["icon"] = 4226156,
+				["icon"] = 429385,
 				["timeline"] = { ADDED_12_0_7 },
 				["cr"] = 264308,	-- Greater Void Portal
 				["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
@@ -1169,8 +1148,55 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					2621,	-- The Forgotten Depths
 					2617,	-- Void Acropolis (Upper)
 					2618,	-- Void Acropolis (Lower)
+					-- There should be more maps here. There are a lot of sub-zones
 				},
 				["groups"] = {
+					n(QUESTS, {
+						q(96048, {	-- The Time to Strike
+							["description"] = "Can be accepted from the Adventure Journal.",	-- Or will it pop-up on first log-in when eligible?
+							["isBreadcrumb"] = true,	-- ?? You can't accept followup quests without it?
+						}),
+						q(96049, {	-- Stalkers of the Stars
+							["sourceQuest"] = 96048,	-- The Time to Strike
+							["qg"] = 263479,	-- Riftblade Maella
+							["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+						}),
+						q(96703, {	-- Veterans of the Great Dark
+							["sourceQuest"] = 96048,	-- The Time to Strike
+							["qg"] = 263479,	-- Riftblade Maella
+							["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+						}),
+						q(96708, {	-- To the Voidstorm and Beyond!
+							["sourceQuests"] = {
+								96049,	-- Stalkers of the Stars
+								96703,	-- Veterans of the Great Dark
+							},
+							["qg"] = 263479,	-- Riftblade Maella
+							["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+						}),
+						q(96051, {	-- Through the Cold Rift
+							["sourceQuest"] = 96708,	-- To the Voidstorm and Beyond!
+							["qg"] = 263480,	-- Riftblade Maella
+							["coord"] = { 51.6, 71.1, MAP.MIDNIGHT.VOIDSTORM },
+						}),
+						q(96053, {	-- Surveying the Frozen Wastes
+							["sourceQuest"] = 96051,	-- Through the Cold Rift
+							["qg"] = 263482,	-- Riftblade Maella
+							["coord"] = { 59.3, 19.5, VAL },
+						}),
+						q(96473, {	-- Imperator Pertinax
+							["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
+							["qg"] = 263987,	-- Belath Dawnblade
+							["coord"] = { 41.7, 84.6, VAL },
+						}),
+						q(96713, {	-- Showdown on Val
+							["sourceQuest"] = 96051,	-- Through the Cold Rift
+							["qg"] = 263482,	-- Riftblade Maella
+							["coord"] = { 59.3, 19.5, VAL },
+							["groups"] = { i(275690) },	-- Riftstalker's Cache
+							["isWeekly"] = true,	-- Speculation
+						}),
+					}),
 					n(RARES, {
 						n(264866, {	-- Krilkan
 							["coord"] = { 44.6, 52.8, VAL },

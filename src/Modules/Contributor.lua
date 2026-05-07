@@ -3169,6 +3169,7 @@ MobileDB.GameObject = {
 	[641533] = true,	-- Corrupted Lantern (q:92320)
 	[650051] = true,	-- Faithbreaker Ger'lok's Ritual Chest [Broken Throne, Ritual Site]
 	[653416] = true,	-- Cynosure of Twilight (q:96051)
+	[653485] = true,	-- Cynosure of Twilight (q:96052)
 	[655270] = true,	-- Dominaar Storage Vessel [Ritual Site: Val]
 }
 

@@ -16,7 +16,6 @@ root(ROOTS.Unsorted, {
 				i(274794),	-- Shockwave
 				i(276090),	-- Field Accolades
 				i(276092),	-- Lost Armaments
-				i(276093),	-- Nexus-Captain Leth'ir
 				i(276094),	-- Nexus-Captain Leth'ir
 				i(276096),	-- Imperator Pertinax
 				i(276097),	-- Lost Armaments
