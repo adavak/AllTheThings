@@ -1175,6 +1175,184 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(248737),	-- Well-Used Great Steak Knife
 			}),
 		})),
+		
+		-- 11.2.7
+		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
+			n(ARMOR, {
+				i(260936),	-- Basic Brown Quiver
+				i(260413),	-- Copper Chainkini
+				i(256723),	-- Crest of Unending Grief
+				i(256724),	-- Crest of Unending Pain
+				i(256722),	-- Crest of Unending Sorrow
+				i(260412),	-- Rusty Chainkini
+			}),
+			n(SETS, {
+				------ Sorcerer's Aquatic Garb Set ------
+				i(258019),	-- Ensemble: Sorcerer's Aquatic Garb
+				i(257794),	-- Sorcerer's Aquatic Cape
+				i(257775),	-- Sorcerer's Aquatic Cowl
+
+				------ Sorcerer's Azure Garb Set ------
+				i(257971),	-- Ensemble: Sorcerer's Azure Garb
+				i(257780),	-- Sorcerer's Azure Cape
+				i(257760),	-- Sorcerer's Azure Cowl
+
+				------ Sorcerer's Camo Garb Set ------
+				i(257978),	-- Ensemble: Sorcerer's Camo Garb
+				i(257785),	-- Sorcerer's Camo Cape
+				i(257765),	-- Sorcerer's Camo Cowl
+
+				------ Sorcerer's Carrot Garb Set ------
+				i(257994),	-- Ensemble: Sorcerer's Carrot Garb
+				i(257789),	-- Sorcerer's Carrot Cape
+				i(257770),	-- Sorcerer's Carrot Cowl
+
+				------ Sorcerer's Cloudy Garb Set ------
+				i(257975),	-- Ensemble: Sorcerer's Cloudy Garb
+				i(257783),	-- Sorcerer's Cloudy Cape
+				i(257763),	-- Sorcerer's Cloudy Cowl
+
+				------ Sorcerer's Crimson Garb Set ------
+				i(258017),	-- Ensemble: Sorcerer's Crimson Garb
+				i(257792),	-- Sorcerer's Crimson Cape
+				i(257773),	-- Sorcerer's Crimson Cowl
+
+				------ Sorcerer's Deep Garb Set ------
+				i(257976),	-- Ensemble: Sorcerer's Deep Garb
+				i(257784),	-- Sorcerer's Deep Cape
+				i(257764),	-- Sorcerer's Deep Cowl
+
+				------ Sorcerer's Grassy Garb Set ------
+				i(257974),	-- Ensemble: Sorcerer's Grassy Garb
+				i(257782),	-- Sorcerer's Grassy Cape
+				i(257762),	-- Sorcerer's Grassy Cowl
+
+				------ Sorcerer's Midnight Garb Set ------
+				i(257970),	-- Ensemble: Sorcerer's Midnight Garb
+				i(257779),	-- Sorcerer's Midnight Cape
+				i(257759),	-- Sorcerer's Midnight Cowl
+
+				------ Sorcerer's Plum Garb Set ------
+				i(258003),	-- Ensemble: Sorcerer's Plum Garb
+				i(257791),	-- Sorcerer's Plum Cape
+				i(257772),	-- Sorcerer's Plum Cowl
+
+				------ Sorcerer's Snowy Garb Set ------
+				i(258020),	-- Ensemble: Sorcerer's Snowy Garb
+				i(257795),	-- Sorcerer's Snowy Cape
+				i(257776),	-- Sorcerer's Snowy Cowl
+
+				------ Sorcerer's Sunny Garb Set ------
+				i(258021),	-- Ensemble: Sorcerer's Sunny Garb
+				i(257796),	-- Sorcerer's Sunny Cape
+				i(257778),	-- Sorcerer's Sunny Cowl
+				
+				------ Corrupted Regalia of the Crusader Set ------
+				i(258186),	-- Ensemble: Corrupted Regalia of the Crusader
+				i(258178),	-- Corrupted Belt of the Crusader
+				i(258180),	-- Corrupted Boots of the Crusader
+				i(258183),	-- Corrupted Chestplate of the Crusader
+				i(258182),	-- Corrupted Cloak of the Crusader
+				i(258174),	-- Corrupted Cowl of the Crusader
+				i(258181),	-- Corrupted Gloves of the Crusader
+				i(258179),	-- Corrupted Legguards of the Crusader
+				i(258176),	-- Corrupted Mantle of the Crusader
+				i(258177),	-- Corrupted Robe of the Crusader
+				
+
+				------ Twilight Regalia of the Crusader Set ------
+				i(258251),	-- Ensemble: Twilight Regalia of the Crusader
+				i(258233),	-- Twilight Belt of the Crusader
+				i(258241),	-- Twilight Boots of the Crusader
+				i(258249),	-- Twilight Chestplate of the Crusader
+				i(258246),	-- Twilight Cloak of the Crusader
+				i(258228),	-- Twilight Cowl of the Crusader
+				i(258243),	-- Twilight Gloves of the Crusader
+				i(258236),	-- Twilight Legguards of the Crusader
+				i(258229),	-- Twilight Mantle of the Crusader
+				i(258231),	-- Twilight Robe of the Crusader
+
+				------ Pious Regalia of the Crusader Set ------
+				i(258317),	-- Ensemble: Pious Regalia of the Crusader
+				i(258311),	-- Pious Belt of the Crusader
+				i(258313),	-- Pious Boots of the Crusader
+				i(258316),	-- Pious Chestplate of the Crusader
+				i(258315),	-- Pious Cloak of the Crusader
+				i(258308),	-- Pious Cowl of the Crusader
+				i(258314),	-- Pious Gloves of the Crusader
+				i(258312),	-- Pious Legguards of the Crusader
+				i(258309),	-- Pious Mantle of the Crusader
+				i(258310),	-- Pious Robe of the Crusader
+
+				------ South Guard's Silver Raiment Set ------
+				i(258784),	-- Ensemble: South Guard's Silver Raiment
+				i(258780),	-- South Guard's Silver Boots
+				i(260405),	-- South Guard's Silver Chausses
+				i(258778),	-- South Guard's Silver Cinch
+				i(258782),	-- South Guard's Silver Cloak
+				i(258783),	-- South Guard's Silver Cuirass
+				i(258776),	-- South Guard's Silver Facemask
+				i(258781),	-- South Guard's Silver Gauntlets
+				i(258779),	-- South Guard's Silver Greaves
+				i(260401),	-- South Guard's Silver Handwraps
+				i(258777),	-- South Guard's Silver Mantle
+
+				------ South Guard's Iron Raiment Set ------
+				i(258811),	-- Ensemble: South Guard's Iron Raiment
+				i(258807),	-- South Guard's Iron Boots
+				i(260402),	-- South Guard's Iron Chausses
+				i(258805),	-- South Guard's Iron Cinch
+				i(258809),	-- South Guard's Iron Cloak
+				i(258810),	-- South Guard's Iron Cuirass
+				i(258803),	-- South Guard's Iron Facemask
+				i(258808),	-- South Guard's Iron Gauntlets
+				i(258806),	-- South Guard's Iron Greaves
+				i(260398),	-- South Guard's Iron Handwraps
+				i(258804),	-- South Guard's Iron Mantle
+			}),
+			n(WEAPONS, {
+				i(257713),	-- Anubisath's Ethereal Blade
+				i(257428),	-- Anubisath's Ethereal Greatblade
+				i(257710),	-- Anubisath's Green Blade
+				i(257425),	-- Anubisath's Green Greatblade
+				i(260379),	-- Black Wooden Shortbow
+				i(260380),	-- Blue Wooden Shortbow
+				i(260381),	-- Bronze Wooden Shortbow
+				i(253045),	-- Crusader's Amethyst Blade
+				i(253049),	-- Crusader's Amethyst Greatblade
+				i(253275),	-- Crusader's Amethyst Greatmace
+				i(253279),	-- Crusader's Amethyst Mace
+				i(253047),	-- Crusader's Citrine Blade
+				i(253051),	-- Crusader's Citrine Greatblade
+				i(253276),	-- Crusader's Citrine Greatmace
+				i(253281),	-- Crusader's Citrine Mace
+				i(253044),	-- Crusader's Emerald Blade
+				i(253048),	-- Crusader's Emerald Greatblade
+				i(253274),	-- Crusader's Emerald Greatmace
+				i(253278),	-- Crusader's Emerald Mace
+				i(260383),	-- Dark Blue Wooden Shortbow
+				i(260384),	-- Dark Red Wooden Shortbow
+				i(260385),	-- Frost Wooden Shortbow
+				i(250315),	-- Hunter's Etched Glaive
+				i(260387),	-- Icey Wooden Shortbow
+				i(260390),	-- Light Brown Wooden Shortbow
+				i(260388),	-- Light Wooden Shortbow
+				i(260391),	-- Pale Wooden Shortbow
+				i(260393),	-- Purple Wooden Shortbow
+				i(260395),	-- Rugged Wooden Shortbow
+				i(260397),	-- Sea Green Wooden Shortbow
+				i(251515),	-- Shield of Unending Grief
+				i(251516),	-- Shield of Unending Pain
+				i(251514),	-- Shield of Unending Sorrow
+				i(250309),	-- Simple Dagger
+				i(250310),	-- Simple Knife
+				i(250314),	-- Standard Hunter's Glaive
+				i(250311),	-- Standard Warrior's Sword
+				i(250313),	-- Vicious Warrior's Blade
+				i(250312),	-- Warrior's Katana
+				i(260378),	-- Wooden Shortbow
+			}),
+		})),
 	}),
 	expansion(EXPANSION.MID, {
 		-- 12.0.0

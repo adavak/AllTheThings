@@ -6008,6 +6008,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				itemsource(290211),	-- The First Satyr's Spaulders
 			}),
 		})),
+
+		-- 11.2.7
+		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
+			i(254332),	-- Garden Tender's Shawl
+		})),
 	}),
 	expansion(EXPANSION.MID, {
 		-- 12.0.0
@@ -6415,6 +6420,17 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(249142),	-- TEMPLATE 12.0 Raid - Ranged DPS - Trinket
 			i(251886),	-- Unstable Mana-Locket
 			i(262754),	-- Void Pearl of Haste
+		})),
+
+		-- 12.0.1
+		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_1 } }, {
+			-- Armor
+			i(248036),	-- Twilight Tamer's Mantle
+			i(248035),	-- Twilight Tamer's Pauldrons
+			i(248034),	-- Twilight Tamer's Shoulderpads
+			i(248037),	-- Twilight Tamer's Spaulders
+			-- Trinket
+			i(268534),	-- Sanctum's Decree
 		})),
 	}),
 }));

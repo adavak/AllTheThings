@@ -1067,6 +1067,13 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 				-- ["displayID"] = ,
 			}),
 		})),
+
+		-- 11.2.7
+		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
+			i(258488, {	-- Skypaw Glimmerfur (MOUNT!)
+				["displayID"] = 138435,
+			}),
+		})),
 	}),
 	expansion(EXPANSION.MID, {
 		-- 12.0.0

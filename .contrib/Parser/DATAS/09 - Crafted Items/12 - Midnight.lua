@@ -1044,6 +1044,39 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			r_withQuest(1225282, 88608),	-- Wyrmfish
 			r(1225335, {["learnedAt"]=75}),	-- Zul'Aman
 		}),
+		header(HEADERS.Item, 262796, {	-- Midnight Angler's Grand Line
+			i(262796, {	-- Midnight Angler's Grand Line
+				["cost"] = {
+					{"i", 262795, 1},	-- Angler's Bloomline
+					{"i", 262800, 1},	-- Angler's Glimmerline
+				},
+			}),
+			i(262795, {	-- Angler's Bloomline (Epic Quality)
+				["cost"] = {{"i", 262794, 5}},	-- 5xWeak Bloomline
+			}),
+			i(262800, {	-- Angler's Glimmerline (Epic Quality)
+				["cost"] = {{"i", 262799, 20}},	-- 20xWeak Glimmerline
+			}),
+			i(262794, {	-- Weak Bloomline (Rare Quality)
+				["cost"] = {{"i", 262793, 20}},	-- 20xStranded Bloomline
+			}),
+			i(262799, {	-- Weak Glimmerline (Rare Quality)
+				["cost"] = {{"i", 262798, 20}},	-- 20xStranded Glimmerline
+			}),
+			i(262793, {	-- Stranded Bloomline (Uncommon Quality)
+				["cost"] = {{"i", 262792, 100}},	-- 100xShredded Bloomline
+			}),
+			i(262798, {	-- Stranded Glimmerline (Uncommon Quality)
+				["cost"] = {{"i", 262797, 100}},	-- 100xShredded Glimmerline
+			}),
+			i(262792),	-- Shredded Bloomline
+			i(262797),	-- Shredded Glimmerline
+		}),
+		filter(MOUNTS, {
+			i(268730, {	-- Nether-Warped Egg
+				i(260916),	-- Nether-Swept Drake (MOUNT!)
+			}),
+		}),
 		i(238490, {	-- Ambiguous Rock
 			i(266102),	-- Ambiguous Rock
 		}),
@@ -1060,6 +1093,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(243342),	-- Bloom Bauble
 		i(238369),	-- Bloomtail Minnow
 		i(238489),	-- Definitely Not a Rock
+		i(262787),	-- Dredged Journal Entry
 		i(238383),	-- Eversong Trout
 		i(238375),	-- Fungalskin Pike
 		i(238382),	-- Gore Guppy
@@ -1067,27 +1101,20 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(263938),	-- Idol of Peril (QS!)
 		i(238376),	-- Lucky Loa
 		i(238366),	-- Lynxfish
-		i(268730, {	-- Nether-Warped Egg
-			i(260916),	-- Nether-Swept Drake (MOUNT!)
-		}),
 		i(238380),	-- Null Voidfish
 		i(238373),	-- Ominous Octopus
 		i(241149),	-- Ominous Octopus Lure
-		i(262651, { ["timeline"] = { ADDED_12_0_5 } }),	-- Pointed Spikesnail
+		i(262651, {["timeline"] = {ADDED_12_0_5}}),	-- Pointed Spikesnail
 		i(238372),	-- Restored Songfish
 		i(238367),	-- Root Crab
 		i(238378),	-- Shimmersiren
 		i(238370),	-- Shimmer Spinefish
-		i(262792),	-- Shredded Bloomline
-		i(262797),	-- Shredded Glimmerline
-		i(262793),	-- Stranded Bloomline (Green Quality)
-		i(262798),	-- Stranded Glimmerline (Green Quality)
 		i(238365),	-- Sin'dorei Swarmer
 		i(238384),	-- Sunwell Fish
 		i(238374),	-- Tender Lumifin
 		i(238368),	-- Twisted Tetra
 		i(238379),	-- Warping Wise
-		i(262650, { ["timeline"] = { ADDED_12_0_5 } }),	-- Writhing Wiggleworm
+		i(262650, {["timeline"] = {ADDED_12_0_5}}),	-- Writhing Wiggleworm
 	}),
 	prof(HERBALISM, {
 		n(DISCOVERY, {

@@ -761,8 +761,10 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(231804),	-- Game Piece
 			i(232522),	-- High Priest's Record[DNT]
 			i(231821),	-- Makeshift Explosives
+			i(229405),	-- Entropic Core
 			i(233005),	-- Om'taha's Toolkit[DNT]
 			i(229399),	-- Patram's Tuning Key
+			i(238296),	-- Phase Disruptor
 			i(232568),	-- Priest's Remains[DNT]
 			i(229398),	-- Sabeel's Tuning Key
 			i(229402),	-- Serving Tray
@@ -781,6 +783,24 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(231801),	-- Well-Worn Coin
 			i(229400),	-- Xaheen's Tuning Key
 			i(232630),	-- Xy Imports Ledger
+		})),
+
+		-- 11.2.5
+		expansion(EXPANSION.TWW, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_5 } }, {
+			i(247894),	-- Dalaran Hearthstone
+		})),
+
+		-- 11.2.7
+		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
+			i(252952),	-- Bewitched Berries
+			i(257891),	-- Dog Whistle
+			i(253043),	-- Duskwood Candies
+			i(253042),	-- Felwood Candies
+			i(229995),	-- Gorgoa Reed
+			i(258217),	-- Honey Drops
+			i(252947),	-- Honeycomb
+			i(229913),	-- Letter from Aysa
+			i(252423),	-- Truffles
 		})),
 	}),
 	expansion(EXPANSION.MID, {
@@ -847,6 +867,17 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(245348),	-- Void Sample
 			i(264357),	-- Void-Ridden Crab Meat
 			i(245276),	-- Zal'vithra Pigment
+		})),
+
+		-- 12.0.1
+		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_1 } }, {
+			i(243295),	-- Letter from Rhonin
+			i(249005),	-- Rhonin's Focus
+			i(246152),	-- Saptor Frill
+			i(268551),	-- Scroll of Reflection
+			i(253210),	-- Soothsayer's Signet
+			i(243294),	-- Staff of Rhonin
+			i(248723),	-- Stolen Documents
 		})),
 	}),
 }));

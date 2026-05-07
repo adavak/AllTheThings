@@ -2524,6 +2524,7 @@ i(200282);	-- A Steamy Romance Novel: The Lusty Draconian Mage
 i(238881);	-- Barbed Predator Tusk
 i(245672);	-- Blade of the Void Swamp
 i(238834);	-- Burnished Void Claw
+i(240937);	-- Celebratory Pack of Runed Undermine Crests
 i(238808);	-- Celeste-Touched Fin
 i(238874);	-- Congealed Mana
 i(246298);	-- Cracked Staff of the Desperate Defender
@@ -2538,16 +2539,18 @@ i(244359);	-- Ethereal Pylon Conduit
 i(238886);	-- Faintly Glowing Vellum
 i(238868);	-- Flickering Primeval Element
 i(238833);	-- Flowing Ridge Spikes
-i(238872);	-- Fragmented Fin
 i(238851);	-- Fractured Dragon Scale
+i(238872);	-- Fragmented Fin
+i(243246);	-- Funny Candle
+i(240935);	-- Glorious Cluster of Gilded Undermine Crests
 i(238799);	-- Harrowed Ichor
 i(238877);	-- Hollow Mandible
 i(238813);	-- Irridescent Eye
-i(243154);	-- Korgorath's Broken Nail
 i(244360);	-- K'aresh Nightbloom
+i(243154);	-- Korgorath's Broken Nail
 i(243014);	-- Light-Dimmed Cleaver
-i(243161);	-- Long-Pressed Flowers
 i(238812);	-- Long Fibrous Tongue
+i(243161);	-- Long-Pressed Flowers
 i(238871);	-- Luminous Brushtail
 i(238884);	-- Machine Remnant
 i(238876);	-- Malicious Mandible
@@ -2561,15 +2564,17 @@ i(246296);	-- Off-Balance Mace of the Tazavesh Lookout
 i(238880);	-- Oily Blubber
 i(238849);	-- Ominous Unblinking Eye
 i(245670);	-- P.O.S.T. Employee's Backup Stamp
+i(240932);	-- Pack of Runed Undermine Crests
 i(238870);	-- Pearly Incisor
 i(243018);	-- Petrified Twig of the Fennad
 i(250305);	-- Phase-Lost Detritus
 i(246301);	-- Pitted Blade of Lost Hope
+i(240934);	-- Pouch of Weathered Undermine Crests
 i(245674);	-- Rifle of Leaden Movement
 i(240933);	-- Satchel of Carved Undermine Crests
 i(238873);	-- Serrated Scale Shard
-i(243021);	-- Shadowguard Bonker
 i(238878);	-- Shadow-Touched Fang
+i(243021);	-- Shadowguard Bonker
 i(246294);	-- Shattered Buckler of the Last Stand
 i(238832);	-- Sinuous Wing Membrane
 i(238854);	-- Sleek Beak
@@ -2583,6 +2588,7 @@ i(248200);	-- The Brothers' Not-So-Final Present
 i(244357);	-- Time-Worn Memento
 i(238847);	-- Torn Maw Fragment
 i(238887);	-- Torn Voidscript Page
+i(240938);	-- Triumphant Satchel of Carved Undermine Crests
 i(243017);	-- Tulwar of the Pyrite Guard
 i(238875);	-- Twisted Sediment
 i(238885);	-- Unstable Power Source
@@ -2590,10 +2596,10 @@ i(238867);	-- Unstable Void Essence
 i(238814);	-- Vibrantly Colored Crest
 i(238866);	-- Void Dust
 i(238848);	-- Void Tendril
-i(244355);	-- Voidstorm Obsidian
 i(244361);	-- Void-Carved Amethyst
 i(238841);	-- Void-Seeping Eyeball
 i(238865);	-- Void-Warped Hoof
+i(244355);	-- Voidstorm Obsidian
 i(245668);	-- Warglaive of the Subdued Tracker
 i(243145);	-- Well-Preserved Wrappings
 
@@ -2601,16 +2607,23 @@ i(243145);	-- Well-Preserved Wrappings
 -- PATCH 11.2.7 --
 ------------------
 i(192604);	-- Ancient Lantern
+i(243206);	-- Cracked Predator's Claw
+i(260429);	-- Crescent Cove Crab
 i(243228);	-- Dim Elemental Essence
 i(176878);	-- Dulled Memento
+i(243215);	-- Enlarged Insect Organs
+i(260519);	-- Farm Carrots
+i(260589);	-- Flame-Blessed Beach Towel
+i(243226);	-- Glimmering Elemental Core
 i(243227);	-- Handful of Water Droplets
 i(263508);	-- Human Brain
 i(243199);	-- Majestic Whisker
 i(243225);	-- Mashed Carrot
+i(243201);	-- Massive Serpent Fang
 i(243207);	-- Matted Cat Hair
 i(158769);	-- Monkey's Paw
-i(243222);	-- Pillaged Rake
 i(243224);	-- Pilfered Spade
+i(243222);	-- Pillaged Rake
 i(260428);	-- Raw Mussel
 i(243223);	-- Shredded Linen Cloth
 i(163064);	-- Silver Monkey Statue

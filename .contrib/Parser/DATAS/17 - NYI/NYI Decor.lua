@@ -7,7 +7,12 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 		-- 11.2.7
 		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
 			i(238862),	-- [DNT] Cenarion Round Rug - do not use - new asset (DECOR!)
+			i(248941),	-- [DNT] Dreadscar Battle Planning Map - do not use - new asset (DECOR!)
 			i(247743),	-- [DNT] Hanging Paper Lanterns - do not use - duplicate (DECOR!)
+			i(263021),	-- Brumewood Hollow Grassy Patch (DECOR!)
+			i(263022),	-- Brumewood Hollow Grassy Spread (DECOR!)
+			i(263023),	-- Founder's Point Grassy Patch (DECOR!)
+			i(263024),	-- Founder's Point Grassy Spread (DECOR!)
 			i(247739),	-- Kun-Lai Lacquered Rickshaw (DECOR!)
 			i(241625),	-- Open Elven Wood Crate (DECOR!)
 			i(246026),	-- Orgrimmar Beam Platform (DECOR!)
@@ -662,6 +667,18 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 
 		-- 12.0.1
 		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_1 } }, {
+			i(259354),	-- Brown Paper Sack (DECOR!)
+			i(265031),	-- Consortium Translocation Portal (DECOR!)
+			i(264352),	-- Elegant Elven Bathtub (DECOR!)
+			i(265654),	-- Elegant Elven Washbasin (DECOR!)
+			i(265653),	-- Elegant Storage Table (DECOR!)
+			i(253497),	-- Embroidered Sunfury Chair (DECOR!)
+			i(264353),	-- Empty Elegant Elven Bathtub (DECOR!)
+			i(266130),	-- Gilded Silvermoon Gazebo (DECOR!)
+			i(256042),	-- Silvermoon Bench (DECOR!)
+			i(256172),	-- Silvermoon Fence (DECOR!)
+			i(256043),	-- Silvermoon Fencepost (DECOR!)
+			i(263031),	-- Twisted Rope Coil (DECOR!)
 			rawdecor(20162),	-- [DNT] [AUTOGEN] 12SN_Snakeoid_Decor_Tendril07.m2
 			rawdecor(20163),	-- [DNT] [AUTOGEN] 12SN_Snakeoid_Decor_Tendril08.m2
 		})),
