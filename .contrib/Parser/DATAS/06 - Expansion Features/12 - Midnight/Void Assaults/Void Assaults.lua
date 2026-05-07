@@ -152,6 +152,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				------ Paragon ------
 				q(95391, {	-- Ritual Site Renowned
 					["isRepeatable"] = true,
+					["groups"] = { i(269234) },	-- Overflowing Ritual Site Cache
 				}),
 			}),
 			n(QUESTS, {
@@ -523,7 +524,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						270988,	-- Wriggling Capybara (PET!)
 					}},
 				}),
-				i(269234),	-- Overflowing Ritual Site Cache
 				-- Boxes given to Leveling Characters
 				i(271222, {	-- Bulging Recruit's Field Pouch
 					["description"] = "Earned with characters under level 90.",
