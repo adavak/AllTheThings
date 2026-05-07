@@ -9880,10 +9880,14 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 17101,NaigtalMilitaryGrounds,"Staging Grounds",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
 17102,NaigtalManaforgeHQ,"Command Point: Primos",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
 17103,NaigtalVilaldoun,Vilaldoun,3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
-17104,UmbralBaseNaigtal,"Naigtal Outpost",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
+17104,UmbralBaseNaigtal,"Umbral Base Camp",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
 17195,sleepersgrotto,"Sleeper's Grotto",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,0,-1,0,0,0,3321,1140850688,128,0,0,0,0
 17198,NaigtalManaforge,"Manaforge: Arcvein",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
 17199,NaigtalDraeneiCryptShore,"Shoals of Rememberance",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,13,-1,0,0,0,3321,1140850752,128,0,0,0,0
+17217,12EversongDawnstarSpireHidden,"Hidden Spire",0,15968,0,0,0,0,0,3256,0,0,0,0,0,15,-1,0,0,0,3085,1073745984,8320,0,0,0,0
+17218,ValDevouringIngress,"The Devouring Ingress",3047,16900,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,3321,1073741888,8320,0,0,0,0
+17219,ValBeastPens,"The Beast Pens",3047,16900,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,3321,1073741888,8320,0,0,0,0
+17220,marshwalkerrefuge,"Marshwalker Refuge",3075,16943,0,0,0,0,0,0,0,0,0,0,0.15000000596,0,-1,0,0,0,3321,1140850688,128,0,0,0,0
 16310,NewQuelDanas12CampaignFinaleScenario,"Isle of Quel'Danas",2907,0,0,96,0,3009,675,0,0,0,0,0,0,15,-1,0,0,0,3320,4160,128,0,0,0,0
 16311,SilvermoonEasternKingdoms12CampaignFinaleScenario,"Silvermoon City",2907,0,0,96,0,3249,0,3404,0,0,0,0,0,15,-1,0,0,0,3320,4096,128,0,0,0,0
 16312,EversongWoodsEasternKingdoms12CampaignFinaleScenario,"Eversong Woods",2907,0,0,96,0,3250,0,0,0,0,0,0,0,15,-1,0,0,0,3320,4160,128,0,0,0,0
