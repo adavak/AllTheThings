@@ -6352,7 +6352,9 @@ i(112623,{b=1})}}),
 q(35075,{coords={
 [590]={{38,72.2}}},isDaily=1,lvl=10,qgs={79892},r=1,requireSkill=356,sourceQuests={36132},g={
 i(112623,{b=1})}}),
-q(36802,{cost={{"i",116818,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(36802,{coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",116818,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
 q(36616,{lvl=20,qgs={85984},requireSkill=356,sourceQuests={36611},g={
 follower(202)}}),
@@ -6362,9 +6364,13 @@ i(112623,{b=1})}}),
 q(35074,{coords={
 [590]={{38,72.2}}},isDaily=1,lvl=10,qgs={79892},r=1,requireSkill=356,sourceQuests={36132},g={
 i(112623,{b=1})}}),
-q(36803,{cost={{"i",116817,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(36803,{coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",116817,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
-q(36804,{cost={{"i",116820,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(36804,{coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",116820,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
 q(36514,{coords={
 [582]={{54.4,13.9}}},isDaily=1,lvl=10,qgs={77733},r=2,requireSkill=356,sourceQuests={36132},g={
@@ -6378,9 +6384,13 @@ i(112623,{b=1})}}),
 q(35072,{coords={
 [590]={{38,72.2}}},isDaily=1,lvl=10,qgs={79892},r=1,requireSkill=356,sourceQuests={36132},g={
 i(112623,{b=1})}}),
-q(36805,{cost={{"i",116821,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(36805,{coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",116821,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
-q(39283,{awp=60200,cost={{"i",127994,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(39283,{awp=60200,coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",127994,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
 q(36608,{lvl=20,qgs={79917,85708},sourceQuests={36612,36870}}),
 q(36510,{coords={
@@ -6389,7 +6399,9 @@ i(112623,{b=1})}}),
 q(35066,{coords={
 [590]={{38,72.2}}},isDaily=1,lvl=10,qgs={79892},r=1,requireSkill=356,sourceQuests={36132},g={
 i(112623,{b=1})}}),
-q(36800,{cost={{"i",116819,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(36800,{coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",116819,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
 q(36511,{coords={
 [582]={{54.4,13.9}}},isDaily=1,lvl=10,qgs={77733},r=2,requireSkill=356,sourceQuests={36132},g={
@@ -6397,7 +6409,9 @@ i(112623,{b=1})}}),
 q(35071,{coords={
 [590]={{38,72.2}}},isDaily=1,lvl=10,qgs={79892},r=1,requireSkill=356,sourceQuests={36132},g={
 i(112623,{b=1})}}),
-q(36806,{cost={{"i",116822,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(36806,{coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",116822,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}}),
 q(34194,{coords={
 [582]={{53.9,13.4}}},lvl=20,qgs={77733},r=2,requireSkill=356,sourceQuests={36592}}),
@@ -6405,7 +6419,9 @@ q(34758,{coords={
 [590]={{38.1,72.2}}},lvl=20,qgs={79892},r=1,requireSkill=356}),
 q(36870,{description="Requires upgrading your Fishing Shack to level 3 and having at least 100 Draenor Fishing skill (items/buffs included).",lvl=20,qgs={85708},r=2}),
 q(36612,{description="Requires upgrading your Fishing Shack to level 3 and having at least 100 Draenor Fishing skill (items/buffs included).",lvl=20,qgs={79971},r=1}),
-q(38406,{awp=60100,cost={{"i",122696,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
+q(38406,{awp=60100,coords={
+[582]={{53.8,15.2}},
+[590]={{38.8,73}}},cost={{"i",122696,1}},isDaily=1,lvl=10,qgs={85984},repeatable=1,requireSkill=356,g={
 i(117397,{b=1})}})}),
 h(-46,{
 i(116158,{b=1,r=2,spellID=163769,g={
@@ -41789,7 +41805,8 @@ i(266448),
 i(268808),
 i(268807)}),
 h(-28,{
-q(95391,{repeatable=1})}),
+q(95391,{repeatable=1,g={
+i(269234)}})}),
 h(-45,{
 q(94380,{coords={
 [2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
@@ -41970,7 +41987,6 @@ i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741
 i(270244,{f=55}),
 i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270932,{f=55,sym={{"select","itemID",270990,270988}}}),
-i(269234),
 i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
 i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
 i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
