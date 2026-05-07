@@ -2858,10 +2858,15 @@ i(260287);	-- World Roots Banquet
 i(272049);	-- Bloodied Propaganda Leaflet
 i(272109);	-- Crumpled Propaganda Page
 i(272047);	-- Deeplurk Scrying Stone
+i(272114);	-- Discarded Excavation Tool
+i(272112);	-- Golden Rune-Etched Circlet
 i(273014);	-- Howling Glass Shard
+i(272118);	-- Inert Arcane Explosive
+i(272894);	-- Inert Runestone
 i(272046);	-- Mana-Singed Divining Rod
 i(272120);	-- Mysterious Vial
 i(272052);	-- Ripped Propaganda Page
+i(272113);	-- Scourge Shard Fragment
 i(272048);	-- Shattered Containment Pearl
 i(272117);	-- Shattered Energy Weapon
 i(272892);	-- Shattered Gem

@@ -71,10 +71,8 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				-- 12.0.0
 				expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_0 } }, {
 					i(238498),	-- [PH] Trophy Coin
-					i(262651),	-- Pointed Spikesnail
 					i(241151),	-- Rootland Crab Lure
 					i(241150),	-- Sunwell Fish Lure
-					i(262650),	-- Writhing Wiggleworm
 				})),
 			}),
 		}),

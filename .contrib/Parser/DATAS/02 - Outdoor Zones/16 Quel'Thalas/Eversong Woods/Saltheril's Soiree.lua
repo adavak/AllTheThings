@@ -80,6 +80,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				q(91972),	-- Hold the Watch
 				q(91977),	-- Less Lawless
+				q(91976),	-- Lightbloom Dimmed
 				q(91973, {	-- Naga Blade
 					o(568483, {	-- Naga Scimitar
 						["coords"] = {
@@ -156,14 +157,28 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				q(91985, {	-- Windrunner Memorabilia
 					i(249542),	-- Partially Used Memento (QI!)
-					o(568507, {	--
-						i(249527),	-- Elder Painting (QI!)
-						i(249553),	-- Lost Mirror (QI!)
-						i(249552),	-- Mischievous Mask (QI!)
-						i(249531),	-- Mysterious Cube (QI!)
-						i(249540),	-- Oddly Sealed Book (QI!)
-						i(249543),	-- Special Remedy (QI!)
-						i(249554),	-- Variable Timepiece (QI!)
+					o(568507, {	-- Relocation Crate
+						["coords"] = {
+							{ 36.3, 73.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 36.4, 75.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 36.4, 75.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 36.7, 74.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.0, 73.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.4, 72.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.4, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.5, 72.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.8, 74.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.8, 74.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+						},
+						["groups"] = {
+							i(249527),	-- Elder Painting (QI!)
+							i(249553),	-- Lost Mirror (QI!)
+							i(249552),	-- Mischievous Mask (QI!)
+							i(249531),	-- Mysterious Cube (QI!)
+							i(249540),	-- Oddly Sealed Book (QI!)
+							i(249543),	-- Special Remedy (QI!)
+							i(249554),	-- Variable Timepiece (QI!)
+						},
 					}),
 				}),
 			})),
@@ -240,6 +255,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							{ 38.1, 45.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 							{ 39.2, 44.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 							{ 40.6, 43.9, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 40.6, 44.9, MAP.MIDNIGHT.EVERSONG_WOODS },
 							{ 40.7, 44.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 						},
 						["groups"] = { i(249517) },	-- Smuggled Goods (QI!)

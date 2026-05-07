@@ -226,6 +226,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		["isWeekly"] = true,
 	},{	--TODO Uncomment when source and npcids are confirmed and added
 		-- LFR
+		q(94564, name(HEADERS.NPC, 250803)),	-- Gladius Morinas
 		-- Normal
 		q(94561, name(HEADERS.NPC, 250802)),	-- Voidbreaker Throggar
 		q(94565, name(HEADERS.NPC, 250803)),	-- Gladius Morinas

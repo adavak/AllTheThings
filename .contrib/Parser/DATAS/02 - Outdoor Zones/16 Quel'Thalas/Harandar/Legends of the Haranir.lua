@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 238170 },	-- Zur'ashar Kassameh
 						["coord"] = { 54.2, 53.1, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(262906) },	-- Harandar Anvil (DECOR!)
-					}),	
+					}),
 				}),
 				header(HEADERS.AchCriteria, 61574.06, {	-- Root of the World
 					q(88998, {	-- Root of the World
@@ -89,7 +89,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["provider"] = { "n", 238170 },	-- Zur'ashar Kassameh
 						["coord"] = { 54.2, 53.1, MAP.MIDNIGHT.HARANDAR },
 					}),
-				}),	
+				}),
 			}),
 			n(QUESTS, sharedData({
 				["provider"] = { "n", 238170 },	-- Zur'ashar Kassameh
@@ -97,6 +97,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["maxReputation"] = { FACTION_HARATI, 20 },
 				["isWeekly"] = true
 			}, {
+				q(92713),	-- Echoes Rekindled
 				q(89268),	-- Lost Legends
 				q(92720),	-- The Story of Aln'hara's Bloom
 				q(91492, {	-- The Tale of Aln'hara's Bloom

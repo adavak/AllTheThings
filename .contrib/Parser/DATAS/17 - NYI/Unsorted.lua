@@ -674,20 +674,14 @@ root(ROOTS.Unsorted, {
 				i(264162),	-- Enchanted Snowflake [PH]
 				i(272400),	-- Fine Lynx Fur
 				i(271342),	-- Galactic Void Matrix
-				i(271341),	-- Galactic Voidsliver
-				i(272112),	-- Golden Rune-Etched Circlet
 				i(272893),	-- Icy Harness
-				i(272118),	-- Inert Arcane Explosive
-				i(272894),	-- Inert Runestone
 				i(259472),	-- Lost Revantusk Possessions
 				i(260621),	-- Magic-Infused Bark
 				i(267381),	-- Official G.G.R. Rehydration Container
-				i(269234),	-- Overflowing Ritual Site Cache
 				i(267352),	-- Pocket Rainbow
 				i(267353),	-- Pocket Sand
 				i(268694),	-- Rainbow Runners
 				i(272119),	-- Residue-Covered Tool
-				i(272113),	-- Scourge Shard Fragment
 				i(273013),	-- Void-Permeated Hide Scrap
 				i(267380),	-- Volatile Pink Brightbursts
 				i(260892),	-- "Arcane Ranger" Kit

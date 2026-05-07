@@ -1073,6 +1073,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238380),	-- Null Voidfish
 		i(238373),	-- Ominous Octopus
 		i(241149),	-- Ominous Octopus Lure
+		i(262651, { ["timeline"] = { ADDED_12_0_5 } }),	-- Pointed Spikesnail
 		i(238372),	-- Restored Songfish
 		i(238367),	-- Root Crab
 		i(238378),	-- Shimmersiren
@@ -1086,6 +1087,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(238374),	-- Tender Lumifin
 		i(238368),	-- Twisted Tetra
 		i(238379),	-- Warping Wise
+		i(262650, { ["timeline"] = { ADDED_12_0_5 } }),	-- Writhing Wiggleworm
 	}),
 	prof(HERBALISM, {
 		n(DISCOVERY, {

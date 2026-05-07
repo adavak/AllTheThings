@@ -40,6 +40,7 @@ root(ROOTS.Holidays,
 	bubbleDown({ ["timeline"] = { ADDED_12_0_5 } }, {
 	n(DECOR_DUEL, {
 		["maps"] = { MAP.MIDNIGHT.SILVERMOON_CITY },	-- Silvermoon City
+		["cr"] = 257125,	-- Fieldweaver Amolenne <Match Coordinator>
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(61793),	-- Deployed to the Void
@@ -56,7 +57,10 @@ root(ROOTS.Holidays,
 			n(QUESTS, {
 				q(93774, {	-- When is a Chair not for Sitting?
 					["qg"] = 256307,	-- Silvermoon Cizizen / Completely Ordinary Brazier
-					["coord"] = { 51.9, 71.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["coords"] = {
+						{ 35.6, 61.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+						{ 51.9, 71.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+					},
 				}),
 				q(93716, {	-- Learning the Cloaks - Part 1
 					["sourceQuest"] = 93774,	-- When is a Chair not for Sitting?
@@ -100,6 +104,7 @@ root(ROOTS.Holidays,
 				currency(ILLUSIONARY_COIN, {
 					["description"] = "You must personally find at least 1 person as a seeker to receive this currency, otherwise you get the 'try harder next time' popup and no reward, regardless of your performance.\n\nRecommended: Use the Spell Breaker Seeker with 'Leap' and 'Swift' upgrade find people.",
 				}),
+				i(268122),	-- Dispelled Coins
 			}),
 			n(VENDORS, {
 				n(264056, {	-- Disguised Decor Duel Vendor <Illusionary Coin Trader>

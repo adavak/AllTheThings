@@ -3112,6 +3112,7 @@ MobileDB.GameObject = {
 	[613789] = true,	-- Paint Globule (q:92695)
 	[613852] = true,	-- Potion of Unquestionable Strength (q:93569)
 	[613945] = true,	-- Orb of Translocation
+	[614044] = true,	-- Dropped Trinket
 	[614762] = true,	-- UNKNOWN
 	[614787] = true,	-- Summons to Broken Shorw (q:92320)
 	[614788] = true,	-- Summons to Broken Shorw (q:92320)

@@ -948,6 +948,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 				["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 				["description"] = "Rewarded within the first few wins in queued PvP Content.",
 			}),
+			i(271341, { ["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 } }),	-- Galactic Voidsliver
 		}),
 	}),
 }))));

@@ -80,7 +80,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62573),	-- Air Traffic Controller
 				ach(62572),	-- Battery Bombardment
 				ach(62518),	-- Cosmic Exterminator
-				ach(62570),	-- Cosmic Slayer
+				ach(62570, {	-- Cosmic Slayer
+					["crs"] = {
+						263912,	-- Void-Corrupted Springclaw Patriarch
+					},
+				}),
 				ach(62571),	-- Everybody Gets One
 				ach(62513),	-- Outstanding in the Field
 				ach(62569),	-- Traces in the Dark
@@ -390,14 +394,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["isWeekly"] = true,	-- Speculation
 					}),
 				})),
+				------ Paragon ------
+				q(95391, {	-- Ritual Site Renowned
+					["isRepeatable"] = true,
+				}),
 			}),
 			n(REWARDS, {
 				filter(BATTLE_PETS, {
 					i(270990, {	-- Curious Lynx Kitten (PET!)
-						["description"] = "This pet can drop only during Void Assault in Eversong Woods."
+						["description"] = "This pet can drop only during Void Assault in Eversong Woods.",
 					}),
 					i(270988, {	-- Wriggling Capybara (PET!)
-						["description"] = "This pet can drop only during Void Assault in Zul'Aman."
+						["description"] = "This pet can drop only during Void Assault in Zul'Aman.",
 					}),
 				}),
 				filter(COSMETIC, {
@@ -558,6 +566,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						270988,	-- Wriggling Capybara (PET!)
 					}},
 				}),
+				i(269234),	-- Overflowing Ritual Site Cache
 				-- Boxes given to Leveling Characters
 				i(271222, {	-- Bulging Recruit's Field Pouch
 					["description"] = "Earned with characters under level 90.",
@@ -1126,6 +1135,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["modelScale"] = 3,
 							["cr"] = 263617,	-- Void-Touched Snapdragon
 							["coords"] = {
+								{ 38.0, 63.6, DAGGERSPINE_POINT}, -- Verified
 								{ 41.0, 73.0, DAGGERSPINE_POINT },	-- Not verified, WoWhead data
 								{ 46.6, 46.0, DAGGERSPINE_POINT },	-- Verified
 								{ 47.9, 72.1, DAGGERSPINE_POINT },	-- Verified
