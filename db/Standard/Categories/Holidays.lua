@@ -2768,7 +2768,7 @@ s(293000,246181,{awp=110205,e=81,f=2}),
 s(292992,246155,{awp=110205,e=81,f=2}),
 s(22471,46860,{e=81,f=2}),
 i(79048,{awp=50004,b=1,e=81,f=55,spellID=110648})}})}})}}),
-h(-749,{awp=120005,maps={2393},g={
+h(-749,{awp=120005,crs={257125},maps={2393},g={
 h(-12,{
 ach(61793,{providers={{"s",1271455}},g={
 crit(111218,{achID=61887,id=2})}}),
@@ -2799,7 +2799,7 @@ ach(61879,{providers={{"s",1271459}},g={
 crit(111220,{achID=61887,id=4})}})}),
 h(-45,{
 q(93774,{coords={
-[2393]={{51.9,71}}},qgs={256307}}),
+[2393]={{35.6,61.7},{51.9,71}}},qgs={256307}}),
 q(93716,{coords={
 [2393]={{27.4,76.6}}},qgs={255368},sourceQuests={93774}}),
 q(93717,{coords={
@@ -2815,7 +2815,8 @@ q(96242,{coords={
 q(93870,{coords={
 [2393]={{31.5,76.4}}},isDaily=1,qgs={256697},sourceQuests={93719}})}),
 h(-47,{
-cu(3393,{description="You must personally find at least 1 person as a seeker to receive this currency, otherwise you get the 'try harder next time' popup and no reward, regardless of your performance.\n\nRecommended: Use the Spell Breaker Seeker with 'Leap' and 'Swift' upgrade find people."})}),
+cu(3393,{description="You must personally find at least 1 person as a seeker to receive this currency, otherwise you get the 'try harder next time' popup and no reward, regardless of your performance.\n\nRecommended: Use the Spell Breaker Seeker with 'Leap' and 'Swift' upgrade find people."}),
+i(268122)}),
 h(-58,{
 n(264056,{coords={
 [2393]={{31.6,76.7}}},g={

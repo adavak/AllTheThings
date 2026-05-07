@@ -8226,7 +8226,7 @@ r(176420,{requireSkill=165,u=5}),
 r(176411,{requireSkill=165,u=5}),
 r(176425,{requireSkill=165,u=5})}}),
 h(-58,{
-n(77383,{r=2,sym={{"sub","common_vendor",87062}}}),
+n(77383,{r=2,sym={{"sub","common_vendor",87057}}}),
 n(79834,{r=1,sym={{"sub","common_vendor",87549}}})})}),
 gb(145,{
 h(-12,{
@@ -41763,7 +41763,7 @@ ach(62573),
 ach(62572),
 ach(62518,{
 crit(113609,{achID=62563,id=6})}),
-ach(62570),
+ach(62570,{crs={263912}}),
 ach(62571),
 ach(62513,{
 crit(113608,{achID=62563,id=5})}),
@@ -41788,6 +41788,8 @@ i(268809),
 i(266448),
 i(268808),
 i(268807)}),
+h(-28,{
+q(95391,{repeatable=1})}),
 h(-45,{
 q(94380,{coords={
 [2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
@@ -41801,6 +41803,8 @@ q(94383,{coords={
 [2393]={{48.1,49.9}}},description="Becomes available after accepting 'Outfitting and Allies' (94381).",qgs={257415},sourceQuests={96080}}),
 q(94382,{coords={
 [2393]={{47.7,49.6}}},qgs={257416},sourceQuests={94383}}),
+q(95933,{coords={
+[2393]={{47.9,49.4}}},qgs={263121},sourceAchievements={62569}}),
 q(95550,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},g={
 crit(113703,{achID=62621,id=4})}}),
@@ -41966,10 +41970,11 @@ i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741
 i(270244,{f=55}),
 i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270932,{f=55,sym={{"select","itemID",270990,270988}}}),
-i(271222,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270934,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270987,{f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(271221,{f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}),
+i(269234),
+i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}),
 h(-58,{
 n(255473,{coords={
 [2393]={{48,49.2}}},g={
@@ -42336,7 +42341,8 @@ ach(62534)}),
 flt(101,{
 p(5019,{coords={
 [2585]={{55.8,49.6}}},cost={{"i",242639,1}},itemID=269836,npcID=261684,providers={{"n",263355}},spellID=1286634}),
-p(5017,{itemID=269829,npcID=261676,spellID=1286610})}),
+p(5017,{coords={
+[2585]={{49.5,78.3}}},description="You need to mount up on the Void-Corrupted Hex Eagle and step into the tornado at the corner of the pillar at the given coordinates.",itemID=269829,npcID=261676,spellID=1286610})}),
 flt(100,{
 mnt(1286606,{coords={
 [2585]={{50.6,47.3},{51.5,47.8}}},cost={{"i",271999,1}},itemID=269828,providers={{"n",263527}}}),
@@ -42366,7 +42372,7 @@ p(5023,{coords={
 [2594]={{35.1,44.5},{41.76,49.69},{42.03,80.03},{43.31,57.99},{55,79.3},{63.58,65.58},{66.4,52.46},{68.46,37.62}}},description="Tier 3 or higher. Found by clicking the Rustling Bushes inside the Ritual Site.\nYou will have to find multiple Bushes across multiple instances as only 1 Bush is available per run.",itemID=270063,npcID=262092,spellID=1287380})}),
 h(-56,{
 o(649380,{coords={
-[2594]={{41,73},{46.6,46},{47.9,72.1},{50.1,55.1},{53.4,55.4},{62,77.1},{66,74}}},crs={263617},description="Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",modelScale=3,g={
+[2594]={{38,63.6},{41,73},{46.6,46},{47.9,72.1},{50.1,55.1},{53.4,55.4},{62,77.1},{66,74}}},crs={263617},description="Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",modelScale=3,g={
 mnt(1287357,{itemID=270041})}})}),
 h(-63,{
 i(271644),

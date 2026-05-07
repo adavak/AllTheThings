@@ -44602,7 +44602,8 @@ s(303889,265629,{bonusID=7532,cost={{"i",137642,5}},f=25,lvl=90,pvp=1}),
 s(303882,265618,{bonusID=7532,cost={{"i",137642,5}},f=1,lvl=90,pvp=1}),
 s(303877,265613,{bonusID=7532,cost={{"i",137642,5}},f=35,lvl=90,pvp=1})}})}}),
 h(-47,{pvp=1,g={
-i(257194,{b=1,description="Rewarded within the first few wins in queued PvP Content.",pvp=1,rwp=120100})}})}})}}),
+i(257194,{b=1,description="Rewarded within the first few wins in queued PvP Content.",pvp=1,rwp=120100}),
+i(271341,{awp=120005,f=55,pvp=1,rwp=120100,spellID=1288884})}})}})}}),
 h(-291,{awp=30002,pvp=1,g={
 h(-12,{pvp=1,g={
 ach(397,{pvp=1}),
