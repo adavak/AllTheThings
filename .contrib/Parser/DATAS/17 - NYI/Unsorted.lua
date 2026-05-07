@@ -409,7 +409,6 @@ root(ROOTS.Unsorted, {
 				i(272975),	-- Hal'Hadar Keeper Keycode
 				i(273844),	-- Shaja's Cleansing Vial
 				i(274407),	-- Hal'Hadar Automaton Fuel Cell
-				i(274576),	-- Ritualized Arcana
 				i(274577),	-- Dark-Ley Coalescence
 				i(274580),	-- Primessence of Disorder
 				i(274913),	-- Brazier Pieces
@@ -670,11 +669,6 @@ root(ROOTS.Unsorted, {
 				i(268650),	-- Ascendant Voidshard
 				i(271353),	-- Collection of Valuables
 				i(272111),	-- Decaying Necromancer Cloak
-				i(273152),	-- Delve Gearbox
-				i(273153),	-- Delve Gearbox
-				i(273154),	-- Delve Gearbox
-				i(273155),	-- Delve Gearbox
-				i(273156),	-- Delve Gearbox
 				i(272114),	-- Discarded Excavation Tool
 				i(268122),	-- Dispelled Coins
 				i(264162),	-- Enchanted Snowflake [PH]

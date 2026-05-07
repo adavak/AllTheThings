@@ -122,6 +122,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62608),	-- Leyline Assaults
 				ach(62609),	-- Magical Primeessence
 				ach(62610),	-- Off-World Magic
+				ach(63325, {	-- Omnium Folio Studies
+					i(276083),	-- Sunstrider Omnium Simulacrum (DECOR!)
+				}),
 				ach(62905),	-- Pain of Command
 				ach(62900),	-- Power Beyond Measure
 				ach(62896),	-- Power Creep
@@ -130,9 +133,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62881),	-- Showdown Slugger: Val
 				ach(62882),	-- Showdown Success: Naigtal
 				ach(62880),	-- Showdown Success: Val
-				ach(62944),	-- [DNT] Showdown Unlock: Bouncy Mushrooms
-				ach(62945),	-- [DNT] Showdown Unlock: Grapple Skiffs
-				ach(62949),	-- [DNT] Showdown Unlock: Naigtal Spores
+				ach(62944),	-- Showdown Unlock: Bouncy Mushrooms
+				ach(62945),	-- Showdown Unlock: Grapple Skiffs
+				ach(62949),	-- Showdown Unlock: Naigtal Spores
 				ach(62606),	-- The Sunstrider Omnium
 			})),
 			n(DROPS, {
@@ -322,15 +325,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["qg"] = 264066,	-- Grand Magister Rommath
 						["coord"] = { 63.6, 13.8, 2649 },	-- The Lycaneum, Magister's Terrace
 					}),
-					q(96410, {	-- Seeking Knowledge: The Omnium Folio (Not part of the Achievement)
+				})),
+				header(HEADERS.Achievement, 63325, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- Omnium Folio Studies
+					q(96410, {	-- Seeking Knowledge: The Omnium Folio
 						["sourceQuest"] = 96233,	-- The Omnium Reawakens
 						["qg"] = 264069,	-- Magister Umbric
-						["coord"] = { 60.3, 10.4, 2649 },	-- The Lycaneum, Magister's Terrace
+						["coord"] = { 60.4, 10.4, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					q(96831, {	-- Magister's Summons
+						["sourceQuest"] = 96410,	-- Seeking Knowledge: The Omnium Folio
+						["description"] = "You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",	-- Or will it pop-up on first log-in when eligible?
+						["isBreadcrumb"] = true,
+					}),
+					q(96441, {	-- Seeking Knowledge Week 2 of 5: Ritualized Arcana
+						["sourceQuest"] = 96831,	-- Magister's Summons
+						["qg"] = 264069,	-- Magister Umbric
+						["coord"] = { 60.4, 10.4, 2649 },	-- The Lycaneum, Magister's Terrace
+						["groups"] = { i(274576) },	-- Ritualized Arcana (QI!)
 					}),
 				})),
 				header(HEADERS.Quest, 96713, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- Showdown on Val
 					q(96048, {	-- The Time to Strike
-						["description"] = "Can be accepted from the Adventure Journal.",
+						["description"] = "Can be accepted from the Adventure Journal.",	-- Or will it pop-up on first log-in when eligible?
 						["isBreadcrumb"] = true,	-- ?? You can't accept followup quests without it?
 					}),
 					q(96049, {	-- Stalkers of the Stars

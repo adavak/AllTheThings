@@ -41606,6 +41606,7 @@ q(91229,{coords={
 [2393]={{56.8,65.3}}},isWeekly=1,lvl=90,maxReputation={2764,10},qgs={245824}})}),
 h(-47,{
 cu(3392),
+i(269768,{awp=120005,rwp=120100}),
 h(-88,{
 flt(3,{
 s(302014,259909,{b=1,f=3,lvl=80}),
@@ -41813,12 +41814,14 @@ ach(62887,{awp=120007}),
 ach(62608,{awp=120007,questID=96442}),
 ach(62609,{awp=120007,questID=96443}),
 ach(62610,{awp=120007,questID=96444}),
+ach(63325,{awp=120007,g={
+de(25307,{itemID=276083,spellID=1298527})}}),
 ach(62905,{awp=120007,g={
 crit(114968,{achID=62905,id=1,providers={{"n",261072}}}),
 crit(114969,{achID=62905,id=2,providers={{"n",260875}}})}}),
 ach(62900,{awp=120007}),
 ach(62896,{awp=120007}),
-ach(62607,{awp=120007,questID=96441}),
+ach(62607,{awp=120007,sourceQuests={96441}}),
 ach(62883,{awp=120007,g={
 crit(114005,{achID=62883,id=1,providers={{"n",263947}}}),
 crit(114006,{achID=62883,id=2,providers={{"n",263950}}}),
@@ -41875,6 +41878,8 @@ q(94383,{coords={
 [2393]={{48.1,49.9}}},description="Becomes available after accepting 'Outfitting and Allies' (94381).",qgs={257415},sourceQuests={96080}}),
 q(94382,{coords={
 [2393]={{47.7,49.6}}},qgs={257416},sourceQuests={94383}}),
+q(95933,{coords={
+[2393]={{47.9,49.4}}},qgs={263121},sourceAchievements={62569}}),
 q(95550,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},g={
 crit(113703,{achID=62621,id=4})}}),
@@ -41929,9 +41934,14 @@ q(96232,{coords={
 q(96238,{coords={
 [2424]={{58.9,57.3}}},qgs={264945},sourceQuests={96229,96231}}),
 q(96233,{coords={
-[2649]={{63.6,13.8}}},qgs={264066},sourceQuests={96226,96227}}),
+[2649]={{63.6,13.8}}},qgs={264066},sourceQuests={96226,96227}})}}),
+ah(63325,{awp=120007,type="a",g={
 q(96410,{coords={
-[2649]={{60.3,10.4}}},qgs={264069},sourceQuests={96233}})}}),
+[2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96233}}),
+q(96831,{description="You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",isBreadcrumb=1,nextQuests={96441},sourceQuests={96410}}),
+q(96441,{coords={
+[2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96831},g={
+i(274576)}})}}),
 ah(96713,{awp=120007,type="q",g={
 q(96048,{description="Can be accepted from the Adventure Journal.",isBreadcrumb=1,nextQuests={96049,96703}}),
 q(96049,{coords={
@@ -41976,6 +41986,7 @@ s(306329,271024,{f=1}),
 s(306334,271029,{f=28}),
 s(306303,270998,{f=1}),
 s(306304,270999,{f=21}),
+s(306355,271050,{f=3}),
 s(306341,271036,{f=28}),
 s(306311,271006,{f=32}),
 s(306317,271012,{f=20}),
@@ -42083,10 +42094,10 @@ i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741
 i(270244,{f=55}),
 i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270932,{f=55,sym={{"select","itemID",270990,270988}}}),
-i(271222,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270934,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270987,{f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(271221,{f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}),
+i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}),
 h(-58,{
 n(255473,{coords={
 [2393]={{48,49.2}}},g={
@@ -42453,7 +42464,8 @@ ach(62534)}),
 flt(101,{
 p(5019,{coords={
 [2585]={{55.8,49.6}}},cost={{"i",242639,1}},itemID=269836,npcID=261684,providers={{"n",263355}},spellID=1286634}),
-p(5017,{itemID=269829,npcID=261676,spellID=1286610})}),
+p(5017,{coords={
+[2585]={{49.5,78.3}}},description="You need to mount up on the Void-Corrupted Hex Eagle and step into the tornado at the corner of the pillar at the given coordinates.",itemID=269829,npcID=261676,spellID=1286610})}),
 flt(100,{
 mnt(1286606,{coords={
 [2585]={{50.6,47.3},{51.5,47.8}}},cost={{"i",271999,1}},itemID=269828,providers={{"n",263527}}}),
@@ -42658,6 +42670,8 @@ crit(113700,{achID=62621,id=1})}}),
 q(95548,{providers={{"i",270562}},g={
 crit(113701,{achID=62621,id=2})}})}),
 h(-47,{
+r(1291046,{itemID=272391,requireSkill=165,skillID=2915}),
+i(272392),
 cu(3429),
 i(267051),
 i(271787,{spellID=1289516}),

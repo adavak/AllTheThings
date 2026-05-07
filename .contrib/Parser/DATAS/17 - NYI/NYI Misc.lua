@@ -2220,5 +2220,13 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(258901),	-- Waterlogged Reliquary Paintbrush
 			i(260918),	-- Zealot's Surge
 		})),
+		-- 12.0.1
+		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_5 } }, {
+			i(273152),	-- Delve Gearbox
+			i(273153),	-- Delve Gearbox
+			i(273154),	-- Delve Gearbox
+			i(273155),	-- Delve Gearbox
+			i(273156),	-- Delve Gearbox
+		})),
 	}),
 }));
