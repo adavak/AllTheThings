@@ -1987,7 +1987,6 @@ root(ROOTS.Unsorted, {
 				i(160575),	-- PVP Reward 1
 				i(160576),	-- PVP Reward 2
 				i(160659),	-- Hunting Rifle
-				i(162127),	-- River Clam Pearl
 				i(162513),	-- Zenbaro's Empty Canteen
 				i(162514),	-- Zenbaro's Canteen
 				i(162518),	-- Mystical Flask
@@ -2217,9 +2216,7 @@ root(ROOTS.Unsorted, {
 				i(161209),	-- Coven Dream Catcher
 				i(161210),	-- Homemade Child's Doll
 				i(161212),	-- Wavespeaker's Star Chart
-				i(158736),	-- Trophy Antlers
 				i(158797),	-- Jar of Truffles
-				i(158858),	-- Adder's Fork
 				i(163847),	-- Silver Monkey Torso
 				i(163850),	-- Bloody Gamekeeper's Arm
 				i(163854),	-- Weighty Bag of Sand

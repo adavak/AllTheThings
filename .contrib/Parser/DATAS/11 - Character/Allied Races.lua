@@ -63,7 +63,10 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 		["groups"] = {
 			q(51813, {	-- Blackrock Depths
 				["sourceQuests"] = { 50239 },	-- A Choice of Allies (A)
-				["provider"] = { "n", 133197 },	-- Moira Thaurissan
+				["qgs"] = {
+					126332,	-- Aysa Cloudsinger
+					133197,	-- Moira Thaurissan
+				},
 				["coord"] = { 52.0, 13.8, STORMWIND_CITY },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -547,7 +550,10 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 		["groups"] = {
 			q(54706, {	-- Made in Kul Tiras
 				["sourceQuests"] = { 50239 },	-- A Choice of Allies (A)
-				["provider"] = { "n", 148798 },	-- Lady Jaina Proudmoore
+				["qgs"] = {
+					126332,	-- Aysa Cloudsinger
+					148798,	-- Lady Jaina Proudmoore
+				},
 				["coord"] = { 52.3, 13.5, STORMWIND_CITY },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -637,6 +643,12 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 				["provider"] = { "n", 150884 },	-- Chelsea Wright
 				["coord"] = { 33.1, 30.4, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					o(322620, {	-- Storeroom Keys
+						["coord"] = { 36.6, 28.9, DRUSTVAR },
+						["groups"] = { i(167168) },	-- Storehouse Key (QI!)
+					}),
+				},
 			}),
 			q(55136, {	-- Her Dog Days Are Over
 				["sourceQuests"] = { 54732 },	-- Drop It!
@@ -644,10 +656,19 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 				["coord"] = { 36.5, 28.9, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(167174),	-- Gnawed Bone (QI!)
-					i(167173),	-- Squeaky Toy (QI!)
+					o(322638, {	-- Gnawed Bone
+						["coord"] = { 35.3, 29.0, DRUSTVAR },
+						["groups"] = { i(167174) },	-- Gnawed Bone (QI!)
+					}),
+					o(322637, {	-- Squeaky Toy
+						["coord"] = { 34.6, 30.6, DRUSTVAR },
+						["groups"] = { i(167173) },	-- Squeaky Toy (QI!)
+					}),
+					o(322636, {	-- Worn Collar
+						["coord"] = { 36.0, 30.9, DRUSTVAR },
+						["groups"] = { i(167172) },	-- Worn Collar (QI!)
+					}),
 					i(167168),	-- Storehouse Key (QI!)
-					i(167172),	-- Worn Collar (QI!)
 				},
 			}),
 			q(54733, {	-- Make it Wright

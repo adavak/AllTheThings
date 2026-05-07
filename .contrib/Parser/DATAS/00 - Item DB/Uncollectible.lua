@@ -253,6 +253,7 @@ i(153570);	-- "Magic" Rock
 i(155842);	-- "Preserved" Foodstuffs
 i(153566);	-- "Shiny" Rock
 i(153567);	-- "Smooth" Rock
+i(158858);	-- Adder's Fork
 i(158862);	-- Ancient Grave Dust
 i(162634);	-- Ancient Nazmani Coins
 i(158811);	-- Ashen Coal
@@ -411,6 +412,7 @@ i(158775);	-- Thick Hivewax
 i(158808);	-- Thick Tendon
 i(158747);	-- Thorny Prickle
 i(163921);	-- Tiny Wicker Effigy
+i(158736);	-- Trophy Antlers
 i(158754);	-- Trueflight Fletching
 i(155844);	-- Unreliable Lodestone
 i(158872);	-- Unstable Essence

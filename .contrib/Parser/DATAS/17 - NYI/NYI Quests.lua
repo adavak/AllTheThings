@@ -8669,7 +8669,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(83009),	--
 			q(83010),	--
 			q(83011),	--
-			q(83014),	--
 			q(83015),	--
 			q(83016),	--
 			q(83017),	--
@@ -9683,7 +9682,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(90479),	--
 			q(90480),	--
 			q(90774),	--
-			q(90900),	--
 			q(89566),	--
 		})),
 

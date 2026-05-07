@@ -1123,7 +1123,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				["cr"] = 264322,	-- Greater Void Portal
 				["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
 				--["maps"] = {
-				--	
+				--
 				--},
 				["groups"] = {
 					n(QUESTS, {
