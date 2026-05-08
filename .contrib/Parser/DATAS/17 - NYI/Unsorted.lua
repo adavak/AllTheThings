@@ -2726,8 +2726,6 @@ root(ROOTS.Unsorted, {
 			i(170379),	-- Sunwarmed Sand
 			i(168633),	-- Supplemental Oxygenation Device
 			i(168648),	-- Emergency Anti-Gravity Device
-			i(168785),	-- Subroutine: Defragmentation
-			i(168800),	-- Subroutine: Recalibration
 			i(168913),	-- Regenerative Capacitors
 			i(170252),	-- Pouch of Gangrenous Spores
 			i(170253),	-- Poisoned Whetstone

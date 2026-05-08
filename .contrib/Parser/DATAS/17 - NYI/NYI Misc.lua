@@ -2262,7 +2262,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(265824),	-- The Rootwarden's Notes
 			i(265802),	-- Tome of Town Portal
 			i(267621),	-- Traditional Stein
-			i(252608),	-- Unalloyed Abundance
 			i(237514),	-- Viridian Ore
 			i(264972),	-- Voidstorm Victuals
 			i(258901),	-- Waterlogged Reliquary Paintbrush

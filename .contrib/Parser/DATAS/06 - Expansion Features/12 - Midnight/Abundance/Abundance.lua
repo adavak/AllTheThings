@@ -82,7 +82,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 					["sourceQuest"] = 91932,	-- The Abundant Awakening
 					["qg"] = 251601,	-- Dundun <Loa of Abundance>
 					["coord"] = { 31.6, 26.1, MAP.MIDNIGHT.ZULAMAN },
-					["groups"] = { i(252607) },	-- Abundant Beacon (QI!)
+					["groups"] = {
+						i(252607),	-- Abundant Beacon (QI!)
+						i(252608),	-- Unalloyed Abundance
+					},
 				}),
 				q(94361, {	-- The Abundant Life
 					["sourceQuest"] = 91933,	-- The Abundant Honor

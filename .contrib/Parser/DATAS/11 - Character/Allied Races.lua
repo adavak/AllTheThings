@@ -412,7 +412,10 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 		["groups"] = {
 			q(48066, {	-- A Feast for Our Kin
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
-				["provider"] = { "n", 125285 },	-- Baine Bloodhoof <High Chieftain>
+				["qgs"] = {
+					125285,	-- Baine Bloodhoof <High Chieftain>
+					133523,	-- Ji Firepaw
+				},
 				["coord"] = { 38.0, 81.0, ORGRIMMAR },
 				["races"] = HORDE_ONLY,
 			}),
@@ -811,7 +814,10 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 		["groups"] = {
 			q(53466, {	-- Vision of Time
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
-				["provider"] = { "n", 126066 },	-- Eitrigg
+				["qgs"] = {
+					126066,	-- Eitrigg
+					133523,	-- Ji Firepaw
+				},
 				["coord"] = { 37.8, 80.6, ORGRIMMAR },
 				["races"] = HORDE_ONLY,
 			}),
@@ -824,7 +830,10 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 			q(53354, {	-- Echo of Gul'dan
 				["sourceQuests"] = { 53467 },	-- Caverns of Time
 				["provider"] = { "n", 15192 },	-- Anachronos
-				["coord"] = { 63.0, 57.2, TANARIS },
+				["coords"] = {
+					{ 41.7, 49.4, CAVERNS_OF_TIME },
+					{ 63.0, 57.2, TANARIS },
+				},
 				["races"] = HORDE_ONLY,
 			}),
 			q(53353, {	-- Echo of Warlord Zaela
@@ -1174,7 +1183,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 			}),
 			q(53893, {	-- A Little Goodwill
 				["sourceQuests"] = { 53892 },	-- Where Are the Workers?
-				["provider"] = { "n", 145416 },	-- Kiro
+				["provider"] = { "n", 163488 },	-- Kiro
 				["coord"] = { 46.8, 66.2, TWILIGHT_HIGHLANDS },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
@@ -1207,7 +1216,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 					53895,	-- Peon Promotions!
 					53894,	-- Worthwhile Repairs
 				},
-				["provider"] = { "n", 145416 },	-- Kiro
+				["provider"] = { "n", 145641 },	-- Kiro
 				["coord"] = { 46.8, 66.2, TWILIGHT_HIGHLANDS },
 				["races"] = HORDE_ONLY,
 			}),
@@ -1225,7 +1234,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 			}),
 			q(53899, {	-- On the Outskirts
 				["sourceQuests"] = { 54026 },	-- Job's Done
-				["provider"] = { "n", 145416 },	-- Kiro
+				["provider"] = { "n", 163489 },	-- Kiro
 				["coord"] = { 49.0, 73.6, ORGRIMMAR },
 				["races"] = HORDE_ONLY,
 			}),
@@ -1273,7 +1282,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 			}),
 			q(53903, {	-- Meet with Meerah
 				["sourceQuests"] = { 54027 },	-- Threat Contained
-				["provider"] = { "n", 145416 },	-- Kiro
+				["provider"] = { "n", 146261 },	-- Kiro
 				["coord"] = { 49.0, 73.6, ORGRIMMAR },
 			}),
 			q(53904, {	-- The Vintner's Assistants
