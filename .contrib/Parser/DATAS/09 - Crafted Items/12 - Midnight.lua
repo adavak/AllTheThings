@@ -920,22 +920,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90243, 1229898);	-- Farstrider Clampers
 			FirstCraft(90245, 1229904);	-- Farstrider Hardhat
 			FirstCraft(90249, 1229899);	-- Farstrider Rock Satchel
-			--FirstCraft(TODO, );	-- Giga-Gem Grippers
-			--FirstCraft(TODO, );	-- Head-Mounted Beam Bummer
-			--FirstCraft(TODO, );	-- Heavy-Duty Rock Assister
+			--FirstCraft(TODO, 1264528);	-- Giga-Gem Grippers
+			--FirstCraft(TODO, 1264523);	-- Head-Mounted Beam Bummer
+			--FirstCraft(TODO, 1264525);	-- Heavy-Duty Rock Assister
 			FirstCraft(90239, 1229901);	-- Junker's Junk Visor
 			FirstCraft(90247, 1229896);	-- Junker's Multitool
 			FirstCraft(90250, 1229906);	-- Junker's Big Ol' Bag
-			--FirstCraft(TODO, );	-- Rock Bonkin' Hardhat
-			--FirstCraft(TODO, );	-- Self-Sharpening Sin'dorei Snippers
+			--FirstCraft(TODO, 1264524);	-- Rock Bonkin' Hardhat
+			--FirstCraft(TODO, 1264526);	-- Self-Sharpening Sin'dorei Snippers
 			FirstCraft(90238, 1229907);	-- Sin'dorei Snippers
 			FirstCraft(90240, 1229894);	-- Sin'dorei Headlamp
 			FirstCraft(90242, 1229902);	-- Sin'dorei Angler's Rod
 			FirstCraft(90244, 1229905);	-- Sin'dorei Clampers
 			FirstCraft(90246, 1229897);	-- Sin'dorei Gilded Hardhat
-			--FirstCraft(TODO, );	-- Sin'dorei Reeler's Rod
+			--FirstCraft(TODO, 1264527);	-- Sin'dorei Reeler's Rod
 			FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool v1
-			--FirstCraft(TODO, );	-- Turbo-Junker's Multitool v9
+			--FirstCraft(TODO, 1264529);	-- Turbo-Junker's Multitool v9
 		})),
 		filter(MISC, {
 			i(248138),	-- Curious Red Button
