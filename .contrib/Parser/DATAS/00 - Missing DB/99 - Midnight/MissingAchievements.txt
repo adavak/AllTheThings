@@ -1,30 +1,4 @@
 12.0.7.67227
-ach(61335),	-- Flame Keeper of Midnight
-ach(61336),	-- Flame Warden of Midnight
-ach(61442),	-- Lorewalking: The Loa
-ach(61463),	-- Master of the Turbulent Timeways V
-ach(62413),	-- The Curse of Ula'tek
-ach(62606),	-- The Sunstrider Omnium
-ach(62842),	-- A Celestial Pain
-ach(62857),	-- [DNT] Moth Hunt - 10 Moths Acquired
-ach(62858),	-- [DNT] Moth Hunt - 20 Moths Acquired
-ach(62859),	-- [DNT] Moth Hunt - 30 Moths Acquired
-ach(62860),	-- [DNT] Moth Hunt - 40 Moths Acquired
-ach(62861),	-- [DNT] Moth Hunt - 50 Moths Acquired
-ach(62862),	-- [DNT] Moth Hunt - 60 Moths Acquired
-ach(62863),	-- [DNT] Moth Hunt - 70 Moths Acquired
-ach(62864),	-- [DNT] Moth Hunt - 80 Moths Acquired
-ach(62865),	-- [DNT] Moth Hunt - 90 Moths Acquired
-ach(62866),	-- [DNT] Moth Hunt - 100 Moths Acquired
-ach(62867),	-- [DNT] Moth Hunt - 110 Moths Acquired
-ach(62875),	-- [DNT] Storm mitigation 1 - Val - Hidden
-ach(62876),	-- [DNT] Storm mitigation 1 - Naigtal - Hidden
-ach(62877),	-- [DNT] Storm mitigation 2 - Val - Hidden
-ach(62878),	-- [DNT] Storm mitigation 2 - Naigtal - Hidden
-ach(62879),	-- [DNT] Moth Hunt - 1 Moths Acquired
-ach(62942),	-- [DNT] Pinnacle Ritual Work - Broken Throne
-ach(62943),	-- [DNT] Pinnacle Ritual Work - Daggerspine Point
-ach(63164),	-- Big Prey Hunter (Season 1)
 ach(63233),	-- Rotmire (Raid Finder Sporefall)
 ach(63234),	-- Rotmire (Normal Sporefall)
 ach(63235),	-- Rotmire (Heroic Sporefall)

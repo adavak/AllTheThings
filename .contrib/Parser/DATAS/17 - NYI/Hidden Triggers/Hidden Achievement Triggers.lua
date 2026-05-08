@@ -4182,6 +4182,24 @@ root(ROOTS.HiddenAchievementTriggers, {
 		-- 12.0.7
 		expansion(EXPANSION.MID, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
 			-- 12.0.7.67227
+			ach(62879),	-- [DNT] Moth Hunt - 1 Moths Acquired
+			ach(62857),	-- [DNT] Moth Hunt - 10 Moths Acquired
+			ach(62858),	-- [DNT] Moth Hunt - 20 Moths Acquired
+			ach(62859),	-- [DNT] Moth Hunt - 30 Moths Acquired
+			ach(62860),	-- [DNT] Moth Hunt - 40 Moths Acquired
+			ach(62861),	-- [DNT] Moth Hunt - 50 Moths Acquired
+			ach(62862),	-- [DNT] Moth Hunt - 60 Moths Acquired
+			ach(62863),	-- [DNT] Moth Hunt - 70 Moths Acquired
+			ach(62864),	-- [DNT] Moth Hunt - 80 Moths Acquired
+			ach(62865),	-- [DNT] Moth Hunt - 90 Moths Acquired
+			ach(62866),	-- [DNT] Moth Hunt - 100 Moths Acquired
+			ach(62867),	-- [DNT] Moth Hunt - 110 Moths Acquired
+			ach(62942),	-- [DNT] Pinnacle Ritual Work - Broken Throne
+			ach(62943),	-- [DNT] Pinnacle Ritual Work - Daggerspine Point
+			ach(62875),	-- [DNT] Storm mitigation 1 - Val - Hidden
+			ach(62876),	-- [DNT] Storm mitigation 1 - Naigtal - Hidden
+			ach(62877),	-- [DNT] Storm mitigation 2 - Val - Hidden
+			ach(62878),	-- [DNT] Storm mitigation 2 - Naigtal - Hidden
 			ach(62607),	-- Ritualized Arcana (2nd Omnium Point)
 			ach(62608),	-- Leyline Assaults (3rd Omnium Point)
 			ach(62609),	-- Magical Primeessence (4th Omnium Point)
