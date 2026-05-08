@@ -829,93 +829,113 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = ENGINEERING,
 		},{
-			FirstCraft(90264, 1229875);	-- Aetherlume Bands
-			FirstCraft(90265, 1229876);	-- Aetherlume Bracelets
-			FirstCraft(90289, 1229880);	-- Aetherlume Clonkers
-			FirstCraft(90259, 1229870);	-- Aetherlume Eye Wrap
-			FirstCraft(90266, 1229877);	-- Aetherlume Guards
-			FirstCraft(90260, 1229871);	-- Aetherlume Optics
-			FirstCraft(90288, 1229879);	-- Aetherlume Runners
-			FirstCraft(90263, 1229874);	-- Aetherlume Silken Cuffs
-			FirstCraft(90287, 1229878);	-- Aetherlume Softsteppers
-			FirstCraft(90290, 1229881);	-- Aetherlume Stompers
-			FirstCraft(90262, 1229873);	-- Aetherlume Sun Guard
-			FirstCraft(90261, 1229872);	-- Aetherlume Vision Shroud
-			FirstCraft(93236, 1261945);	-- B0P, Curator of Booms
-			FirstCraft(90307, 1229922);	-- B1P, Scorcher of Souls
+			-- Parts
+			FirstCraft(90138, 1229755);	-- Song Gear
+			FirstCraft(90229, 1229853);	-- Soul Sprocket
+			-- Cogwheels
 			FirstCraft(90235, 1229858);	-- Consistent Cogwheel
-			FirstCraft(90303, 1229927);	-- Curious Red Button
-			FirstCraft(90311, 1229923);	-- Emergency Soul Link
-			FirstCraft(90296, 1229867);	-- Evercore Binding
-			FirstCraft(90298, 1229869);	-- Evercore Gear Weight
-			FirstCraft(90294, 1229938);	-- Evercore Greaseplates
-			FirstCraft(90297, 1229868);	-- Evercore Chainguards
-			FirstCraft(90269, 1229864);	-- Evercore Reconissance
-			FirstCraft(90268, 1229863);	-- Evercore Shade
-			FirstCraft(90292, 1229936);	-- Evercore Stichwraps
-			FirstCraft(90291, 1229935);	-- Evercore Swiftfeet
-			FirstCraft(90293, 1229937);	-- Evercore Turbochains
-			FirstCraft(90270, 1229865);	-- Evercore Vision Guard
-			FirstCraft(90295, 1229866);	-- Evercore Wrist Latch
-			FirstCraft(90267, 1229862);	-- Evercore Zoomshroud
-			FirstCraft(90243, 1229898);	-- Farstrider Clampers
-			FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
-			FirstCraft(90245, 1229904);	-- Farstrider Hardhat
-			FirstCraft(90241, 1229895);	-- Farstrider Hobbyist Rod
-			FirstCraft(90249, 1229899);	-- Farstrider Rock Satchel
-			FirstCraft(93228, 1261866);	-- Farstrider's Hawkeye
 			FirstCraft(90232, 1229859);	-- Flux Cogwheel
 			FirstCraft(90233, 1229857);	-- Greased Cogwheel
-			FirstCraft(90318, 1229921);	-- HU5H, Nonchalant Pup
-			FirstCraft(90250, 1229906);	-- Junker's Big Ol' Bag
-			FirstCraft(90239, 1229901);	-- Junker's Junk Visor
-			FirstCraft(90247, 1229896);	-- Junker's Multitool
+			FirstCraft(90234, 1229856);	-- Perfected Cogwheel
+			-- Bits
+			FirstCraft(90303, 1229927);	-- Curious Red Button
+			FirstCraft(90311, 1229923);	-- Emergency Soul Link
+			FirstCraft(93228, 1261866);	-- Farstrider's Hawkeye
 			FirstCraft(90299, 1229919);	-- Kinetic Ankle Primers
 			FirstCraft(93231, 1261895);	-- Laced Zoomshots
 			FirstCraft(90306, 1229916);	-- Lucky Keychain
+			FirstCraft(93230, 1261893);	-- Smuggler's Lynxeye
+			FirstCraft(93231, 1261913);	-- Weighted Boomshots
+			FirstCraft(90304, 1229928);	-- Wormhole Generator: Quel'Thalas
+			-- Bots
+			FirstCraft(93236, 1261945);	-- B0P, Curator of Booms
+			FirstCraft(90307, 1229922);	-- B1P, Scorcher of Souls
+			FirstCraft(90318, 1229921);	-- HU5H, Nonchalant Pup
 			FirstCraft(90308, 1229924);	-- M3DDY
 			FirstCraft(90300, 1229917);	-- M3DDY, Travel-Sized
-			FirstCraft(90234, 1229856);	-- Perfected Cogwheel
-			FirstCraft(90272, 1229887);	-- Quel'dorei Bands
-			FirstCraft(90273, 1229888);	-- Quel'dorei Bracelets
-			FirstCraft(90285, 1229892);	-- Quel'dorei Clonkers
+			FirstCraft(90302, 1229926);	-- W-47CH D0G
+			-- Guns
+			--FirstCraft(TODO, 1282455);	-- Evercore Dome Dinger
+			--FirstCraft(TODO, 1282456);	-- P.O.W. x3
+			--FirstCraft(TODO, 1282457);	-- Thalassian Competitor's Rifle
+			-- Cloth Equipment
+			FirstCraft(90259, 1229870);	-- Aetherlume Eye Wrap
+			FirstCraft(90263, 1229874);	-- Aetherlume Silken Cuffs
+			FirstCraft(90287, 1229878);	-- Aetherlume Softsteppers
+			FirstCraft(90291, 1229935);	-- Evercore Swiftfeet
+			FirstCraft(90295, 1229866);	-- Evercore Wrist Latch
+			FirstCraft(90267, 1229862);	-- Evercore Zoomshroud
 			FirstCraft(90275, 1229882);	-- Quel'dorei Cloth Goggles
-			FirstCraft(90274, 1229889);	-- Quel'dorei Guards
-			FirstCraft(90276, 1229883);	-- Quel'dorei Leather Optics
-			FirstCraft(90277, 1229884);	-- Quel'dorei Mail Shroud
-			FirstCraft(90284, 1229891);	-- Quel'dorei Runners
 			FirstCraft(90271, 1229886);	-- Quel'dorei Silken Cuffs
 			FirstCraft(90283, 1229890);	-- Quel'dorei Softsteppers
-			FirstCraft(90286, 1229893);	-- Quel'dorei Stompers
-			FirstCraft(90278, 1229885);	-- Quel'dorei Visor
-			FirstCraft(90242, 1229902);	-- Sin'dorei Angler's Rod
-			FirstCraft(90244, 1229905);	-- Sin'dorei Clampers
-			FirstCraft(90246, 1229897);	-- Sin'dorei Gilded Hardhat
-			FirstCraft(90240, 1229894);	-- Sin'dorei Headlamp
-			FirstCraft(90238, 1229907);	-- Sin'dorei Snippers
-			FirstCraft(93230, 1261893);	-- Smuggler's Lynxeye
-			FirstCraft(90138, 1229755);	-- Song Gear
-			FirstCraft(90229, 1229853);	-- Soul Sprocket
 			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
 			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
 			FirstCraft(90279, 1261490, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
 			FirstCraft(95578, 1261490, ADDED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
+			-- Leather Equipment
+			FirstCraft(90264, 1229875);	-- Aetherlume Bands
+			FirstCraft(90260, 1229871);	-- Aetherlume Optics
+			FirstCraft(90288, 1229879);	-- Aetherlume Runners
+			FirstCraft(90296, 1229867);	-- Evercore Binding
+			FirstCraft(90268, 1229863);	-- Evercore Shade
+			FirstCraft(90292, 1229936);	-- Evercore Stichwraps
+			FirstCraft(90272, 1229887);	-- Quel'dorei Bands
+			FirstCraft(90276, 1229883);	-- Quel'dorei Leather Optics
+			FirstCraft(90284, 1229891);	-- Quel'dorei Runners
 			FirstCraft(90256, 1229913);	-- Thalassian Competitor's Leather Bands
-			FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
 			FirstCraft(90280, 1261491, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Leather Sliders
 			FirstCraft(95579, 1261491, ADDED_12_0_5);	-- Thalassian Competitor's Leather Sliders
+			FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
+			-- Mail Equipment
+			FirstCraft(90265, 1229876);	-- Aetherlume Bracelets
+			FirstCraft(90289, 1229880);	-- Aetherlume Clonkers
+			FirstCraft(90261, 1229872);	-- Aetherlume Vision Shroud
+			FirstCraft(90297, 1229868);	-- Evercore Chainguards
+			FirstCraft(90269, 1229864);	-- Evercore Reconissance
+			FirstCraft(90293, 1229937);	-- Evercore Turbochains
+			FirstCraft(90273, 1229888);	-- Quel'dorei Bracelets
+			FirstCraft(90285, 1229892);	-- Quel'dorei Clonkers
+			FirstCraft(90277, 1229884);	-- Quel'dorei Mail Shroud
 			FirstCraft(90281, 1261492, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
 			FirstCraft(95581, 1261492, ADDED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
 			FirstCraft(90257, 1229914);	-- Thalassian Competitor's Mail Links
 			FirstCraft(90253, 1229910);	-- Thalassian Competitor's Mail Visor
+			-- Plate Equipment
+			FirstCraft(90266, 1229877);	-- Aetherlume Guards
+			FirstCraft(90290, 1229881);	-- Aetherlume Stompers
+			FirstCraft(90262, 1229873);	-- Aetherlume Sun Guard
+			FirstCraft(90298, 1229869);	-- Evercore Gear Weight
+			FirstCraft(90294, 1229938);	-- Evercore Greaseplates
+			FirstCraft(90270, 1229865);	-- Evercore Vision Guard
+			FirstCraft(90274, 1229889);	-- Quel'dorei Guards
+			FirstCraft(90286, 1229893);	-- Quel'dorei Stompers
+			FirstCraft(90278, 1229885);	-- Quel'dorei Visor
 			FirstCraft(90258, 1229915);	-- Thalassian Competitor's Plate Bindings
 			FirstCraft(90282, 1261493, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
 			FirstCraft(95582, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
 			FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
-			FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool
-			FirstCraft(90302, 1229926);	-- W-47CH D0G
-			FirstCraft(93231, 1261913);	-- Weighted Boomshots
-			FirstCraft(90304, 1229928);	-- Wormhole Generator: Quel'Thalas
+			-- Tools and Accessories
+			FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
+			FirstCraft(90241, 1229895);	-- Farstrider Hobbyist Rod
+			FirstCraft(90243, 1229898);	-- Farstrider Clampers
+			FirstCraft(90245, 1229904);	-- Farstrider Hardhat
+			FirstCraft(90249, 1229899);	-- Farstrider Rock Satchel
+			--FirstCraft(TODO, );	-- Giga-Gem Grippers
+			--FirstCraft(TODO, );	-- Head-Mounted Beam Bummer
+			--FirstCraft(TODO, );	-- Heavy-Duty Rock Assister
+			FirstCraft(90239, 1229901);	-- Junker's Junk Visor
+			FirstCraft(90247, 1229896);	-- Junker's Multitool
+			FirstCraft(90250, 1229906);	-- Junker's Big Ol' Bag
+			--FirstCraft(TODO, );	-- Rock Bonkin' Hardhat
+			--FirstCraft(TODO, );	-- Self-Sharpening Sin'dorei Snippers
+			FirstCraft(90238, 1229907);	-- Sin'dorei Snippers
+			FirstCraft(90240, 1229894);	-- Sin'dorei Headlamp
+			FirstCraft(90242, 1229902);	-- Sin'dorei Angler's Rod
+			FirstCraft(90244, 1229905);	-- Sin'dorei Clampers
+			FirstCraft(90246, 1229897);	-- Sin'dorei Gilded Hardhat
+			--FirstCraft(TODO, );	-- Sin'dorei Reeler's Rod
+			FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool v1
+			--FirstCraft(TODO, );	-- Turbo-Junker's Multitool v9
 		})),
 		filter(MISC, {
 			i(248138),	-- Curious Red Button
