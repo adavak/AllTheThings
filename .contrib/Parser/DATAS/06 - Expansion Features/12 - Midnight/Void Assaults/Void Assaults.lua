@@ -1287,6 +1287,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				},
 				["groups"] = {
 					n(ACHIEVEMENTS, {
+						ach(62842),	-- A Celestial Pain
 						ach(62903),	-- Climate Strange: Val
 						ach(62917),	-- Heroic Climate Strange: Val
 						ach(62881),	-- Showdown Slugger: Val

@@ -57,6 +57,7 @@ local TrapNPCs = {	-- probably a ton of these, it seems unique per target & diff
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
 	n(PREY, {
 		n(ACHIEVEMENTS, {
+			ach(63164, { ["timeline"] = { ADDED_12_0_7 } }),	-- Big Prey Hunter (Season 1)
 			ach(62403),	-- 'Tis But A Scratch
 			ach(62383),	-- Gotta Hunt Them All
 			ach(62142),	-- I Didn't Hear No Bell
