@@ -1047,27 +1047,27 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		header(HEADERS.Item, 262796, {	-- Midnight Angler's Grand Line
 			i(262796, {	-- Midnight Angler's Grand Line
 				["cost"] = {
-					{"i", 262795, 1},	-- Angler's Bloomline
-					{"i", 262800, 1},	-- Angler's Glimmerline
+					{ "i", 262795, 1 },	-- Angler's Bloomline
+					{ "i", 262800, 1 },	-- Angler's Glimmerline
 				},
 			}),
 			i(262795, {	-- Angler's Bloomline (Epic Quality)
-				["cost"] = {{"i", 262794, 5}},	-- 5xWeak Bloomline
+				["cost"] = { { "i", 262794, 5 } },	-- 5x Weak Bloomline
 			}),
 			i(262800, {	-- Angler's Glimmerline (Epic Quality)
-				["cost"] = {{"i", 262799, 20}},	-- 20xWeak Glimmerline
+				["cost"] = { { "i", 262799, 20 } },	-- 20x Weak Glimmerline
 			}),
 			i(262794, {	-- Weak Bloomline (Rare Quality)
-				["cost"] = {{"i", 262793, 20}},	-- 20xStranded Bloomline
+				["cost"] = { { "i", 262793, 20 } },	-- 20x Stranded Bloomline
 			}),
 			i(262799, {	-- Weak Glimmerline (Rare Quality)
-				["cost"] = {{"i", 262798, 20}},	-- 20xStranded Glimmerline
+				["cost"] = { { "i", 262798, 20 } },	-- 20x Stranded Glimmerline
 			}),
 			i(262793, {	-- Stranded Bloomline (Uncommon Quality)
-				["cost"] = {{"i", 262792, 100}},	-- 100xShredded Bloomline
+				["cost"] = { { "i", 262792, 100 } },	-- 100x Shredded Bloomline
 			}),
 			i(262798, {	-- Stranded Glimmerline (Uncommon Quality)
-				["cost"] = {{"i", 262797, 100}},	-- 100xShredded Glimmerline
+				["cost"] = { { "i", 262797, 100 } },	-- 100x Shredded Glimmerline
 			}),
 			i(262792),	-- Shredded Bloomline
 			i(262797),	-- Shredded Glimmerline

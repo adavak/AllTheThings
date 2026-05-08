@@ -993,7 +993,7 @@ q(50254,{coords={
 [85]={{37.8,81}}},qgs={126065,133523},r=1,u=2}),
 ra(34,{description="To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",r=2,g={
 q(51813,{coords={
-[84]={{52,13.8}}},lc={1,"achID",12516},lvl=40,qgs={133197},r=2,sourceQuests={50239}}),
+[84]={{52,13.8}}},lc={1,"achID",12516},lvl=40,qgs={126332,133197},r=2,sourceQuests={50239}}),
 q(53351,{coords={
 [1159]={{57,30.6}}},lc={1,"achID",12516},lvl=40,maps={1160},qgs={140309},r=2,sourceQuests={51813},g={
 i(163708)}}),
@@ -1287,7 +1287,7 @@ q(50319,{coords={
 [85]={{39.4,79.2}}},lvl=10,qgs={133407},races={28},sourceQuests={49773}})}}),
 ra(32,{description="To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",r=2,g={
 q(54706,{coords={
-[84]={{52.3,13.5}}},lc={1,"achID",13157},lvl=40,qgs={148798},r=2,sourceQuests={50239}}),
+[84]={{52.3,13.5}}},lc={1,"achID",13157},lvl=40,qgs={126332,148798},r=2,sourceQuests={50239}}),
 q(55039,{coords={
 [1161]={{67.9,22.1}}},lc={1,"achID",13157},lvl=40,qgs={122370},r=2,sourceQuests={54706}}),
 q(55043,{coords={
@@ -1316,13 +1316,22 @@ i(167200)}}),
 q(54729,{coords={
 [895]={{67.1,12.3}}},lc={1,"achID",13157},lvl=40,qgs={148870},r=2,sourceQuests={54727}}),
 q(54732,{coords={
-[896]={{33.1,30.4}}},lc={1,"achID",13157},lvl=40,qgs={150884},r=2,sourceQuests={54729}}),
+[896]={{33.1,30.4}}},lc={1,"achID",13157},lvl=40,qgs={150884},r=2,sourceQuests={54729},g={
+o(322620,{coords={
+[896]={{36.6,28.9}}},g={
+i(167168)}})}}),
 q(55136,{coords={
 [896]={{36.5,28.9}}},lc={1,"achID",13157},lvl=40,qgs={150885},r=2,sourceQuests={54732},g={
-i(167174,{b=4}),
-i(167173,{b=4}),
-i(167168),
+o(322638,{coords={
+[896]={{35.3,29}}},g={
+i(167174,{b=4})}}),
+o(322637,{coords={
+[896]={{34.6,30.6}}},g={
+i(167173,{b=4})}}),
+o(322636,{coords={
+[896]={{36,30.9}}},g={
 i(167172,{b=4})}}),
+i(167168)}}),
 q(54733,{coords={
 [896]={{33.1,30.4}}},lc={1,"achID",13157},lvl=40,qgs={150884},r=2,sourceQuests={55136},g={
 i(167199)}}),
@@ -5792,8 +5801,9 @@ i(154115,{b=1,c={1},f=52,lvl=45,u=2}),
 i(154114,{b=1,c={1},f=52,lvl=45,u=2}),
 i(154116,{b=1,c={1},f=53,lvl=45,u=2}),
 i(154117,{b=1,c={1},f=53,lvl=45,u=2})}})}})}})}),
-x(11,{awp=110000,g={
-ah(15805,{description="These are gained by using a Level 70 Boost of that particular class.  Each class has one default spec.  Shamans and Druids have two specs available and both are needed to 100% each category.",type="a",g={
+x(11,{
+i(243235,{awp=110200,b=1,f=55}),
+ah(15805,{awp=110000,description="These are gained by using a Level 70 Boost of that particular class.  Each class has one default spec.  Shamans and Druids have two specs available and both are needed to 100% each category.",type="a",g={
 i(185940,{b=1,spellID=351857}),
 cl(6,{
 i(187659,{b=1,f=55,g={
@@ -6079,7 +6089,7 @@ s(91230,154027,{b=1,c={1},f=7,lvl=45}),
 i(154115,{b=1,c={1},f=52,lvl=45}),
 i(154114,{b=1,c={1},f=52,lvl=45}),
 i(154116,{b=1,c={1},f=53,lvl=45}),
-i(154117,{b=1,c={1},f=53,lvl=45})})})}})}})}),
+i(154117,{b=1,c={1},f=53,lvl=45})})})}})})}),
 h(-31,{sharedDescription="This is a hidden reputation. It might not count towards reputation achievements.",g={
 faction(469,{icon=374217,r=2}),
 faction(67,{icon=374221,r=1}),

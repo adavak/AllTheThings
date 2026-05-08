@@ -4178,5 +4178,17 @@ root(ROOTS.HiddenAchievementTriggers, {
 			-- 12.0.5.67235
 			ach(63263),	-- [DNT]Midnight Keystone Myth: Season One Personal Achievement
 		})),
+
+		-- 12.0.7
+		expansion(EXPANSION.MID, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
+			-- 12.0.7.67227
+			ach(62607),	-- Ritualized Arcana (2nd Omnium Point)
+			ach(62608),	-- Leyline Assaults (3rd Omnium Point)
+			ach(62609),	-- Magical Primeessence (4th Omnium Point)
+			ach(62610),	-- Off-World Magic (5th Omnium Point)
+			ach(62944),	-- Showdown Unlock: Bouncy Mushrooms
+			ach(62945),	-- Showdown Unlock: Grapple Skiffs
+			ach(62949),	-- Showdown Unlock: Naigtal Spores
+		})),
 	}),
 });

@@ -1809,6 +1809,7 @@ i(211086, 428065);	-- Jeweled Jade Scarab
 -- #if BEFORE 12.0.7
 i(210140, 404018);	-- Black-Furred Bakar
 -- #endif
+
 ------------------
 -- PATCH 10.2.5 --
 ------------------
@@ -2416,10 +2417,11 @@ i(268360, 1282268);	-- Gilnean Iron Charger
 --- NYI ---
 i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 
-
-
-
-
-
+------------------
+-- PATCH 12.0.7 --
+------------------
 i(210140, 404018);	-- Black-Furred Bakar
 i(258884, 1264184);	-- Spawn of Vyranoth
+i(274650, 1294663);	-- Starmech Cosmic-Collapser
+i(275664, 1297427);	-- Tortured Gorger
+i(274649, 1294648);	-- Voidmancer's Starcarver

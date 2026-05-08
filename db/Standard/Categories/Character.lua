@@ -5801,8 +5801,9 @@ i(154115,{b=1,c={1},f=52,lvl=45,u=2}),
 i(154114,{b=1,c={1},f=52,lvl=45,u=2}),
 i(154116,{b=1,c={1},f=53,lvl=45,u=2}),
 i(154117,{b=1,c={1},f=53,lvl=45,u=2})}})}})}})}),
-x(11,{awp=110000,g={
-ah(15805,{description="These are gained by using a Level 70 Boost of that particular class.  Each class has one default spec.  Shamans and Druids have two specs available and both are needed to 100% each category.",type="a",g={
+x(11,{
+i(243235,{awp=110200,b=1,f=55}),
+ah(15805,{awp=110000,description="These are gained by using a Level 70 Boost of that particular class.  Each class has one default spec.  Shamans and Druids have two specs available and both are needed to 100% each category.",type="a",g={
 i(185940,{b=1,spellID=351857}),
 cl(6,{
 i(187659,{b=1,f=55,g={
@@ -6088,7 +6089,7 @@ s(91230,154027,{b=1,c={1},f=7,lvl=45}),
 i(154115,{b=1,c={1},f=52,lvl=45}),
 i(154114,{b=1,c={1},f=52,lvl=45}),
 i(154116,{b=1,c={1},f=53,lvl=45}),
-i(154117,{b=1,c={1},f=53,lvl=45})})})}})}})}),
+i(154117,{b=1,c={1},f=53,lvl=45})})})}})})}),
 h(-31,{sharedDescription="This is a hidden reputation. It might not count towards reputation achievements.",g={
 faction(469,{icon=374217,r=2}),
 faction(67,{icon=374221,r=1}),

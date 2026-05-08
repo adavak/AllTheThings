@@ -86,14 +86,43 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					},
 				}),
 				ach(62571),	-- Everybody Gets One
+				ach(63325, {	-- Omnium Folio Studies
+					["timeline"] = { ADDED_12_0_7 },
+					["maps"] = {
+						MAP.MIDNIGHT.EVERSONG_WOODS,
+						MAP.MIDNIGHT.ISLE_OF_QUELDANAS,
+						MAP.MIDNIGHT.SILVERMOON_CITY,
+					},
+					["groups"] = { i(276083) },	-- Sunstrider Omnium Simulacrum (DECOR!)
+				}),
 				ach(62513),	-- Outstanding in the Field
 				ach(62569),	-- Traces in the Dark
-				ach(62498),	-- Void Assault: Eversong
-				ach(62499),	-- Void Assault: Zul'Aman
-				ach(62509),	-- Void Bane: Eversong
-				ach(62512),	-- Void Bane: Zul'Aman
-				ach(62508),	-- Void Eradicator: Eversong
-				ach(62511),	-- Void Eradicator: Zul'Aman
+				ach(62606, {	-- The Sunstrider Omnium
+					["timeline"] = { ADDED_12_0_7 },
+					["maps"] = {
+						MAP.MIDNIGHT.EVERSONG_WOODS,
+						MAP.MIDNIGHT.ISLE_OF_QUELDANAS,
+						MAP.MIDNIGHT.SILVERMOON_CITY,
+					},
+				}),
+				ach(62498, {	-- Void Assault: Eversong
+					["maps"] = { MAP.MIDNIGHT.EVERSONG_WOODS },
+				}),
+				ach(62499, {	-- Void Assault: Zul'Aman
+					["maps"] = { MAP.MIDNIGHT.ZULAMAN },
+				}),
+				ach(62509, {	-- Void Bane: Eversong
+					["maps"] = { MAP.MIDNIGHT.EVERSONG_WOODS },
+				}),
+				ach(62512, {	-- Void Bane: Zul'Aman
+					["maps"] = { MAP.MIDNIGHT.ZULAMAN },
+				}),
+				ach(62508, {	-- Void Eradicator: Eversong
+					["maps"] = { MAP.MIDNIGHT.EVERSONG_WOODS },
+				}),
+				ach(62511, {	-- Void Eradicator: Zul'Aman
+					["maps"] = { MAP.MIDNIGHT.ZULAMAN },
+				}),
 				ach(62563, {	-- Void Response Team
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",
@@ -106,42 +135,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					}},
 				}),
 				ach(62568),	-- Void Shmoid
-				ach(62507),	-- Void Smasher: Eversong
-				ach(62510),	-- Void Smasher: Zul'Aman
-			}),
-			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_12_0_7 } }, {
-				ach(62873),	-- A Trip Around the Stars
-				ach(62874),	-- A Trip Through the Stars
-				ach(62899),	-- Absolute Power
-				ach(62904),	-- Climate Strange: Naigtal
-				ach(62903),	-- Climate Strange: Val
-				ach(62898),	-- Cradle of Power
-				ach(62919),	-- Heroic Climate Strange: Naigtal
-				ach(62917),	-- Heroic Climate Strange: Val
-				ach(63264),	-- Heroic Showdowns
-				ach(63323),	-- Heroic Tendencies
-				ach(62909),	-- Heroic: Pain of Command
-				ach(62901),	-- Heroic: Power Creep
-				ach(62887),	-- Heroic: Worlds Ahead
-				ach(62608),	-- Leyline Assaults
-				ach(62609),	-- Magical Primeessence
-				ach(62610),	-- Off-World Magic
-				ach(63325, {	-- Omnium Folio Studies
-					i(276083),	-- Sunstrider Omnium Simulacrum (DECOR!)
+				ach(62507, {	-- Void Smasher: Eversong
+					["maps"] = { MAP.MIDNIGHT.EVERSONG_WOODS },
 				}),
-				ach(62905),	-- Pain of Command
-				ach(62900),	-- Power Beyond Measure
-				ach(62896),	-- Power Creep
-				ach(62607),	-- Ritualized Arcana
-				ach(62883),	-- Showdown Slugger: Naigtal
-				ach(62881),	-- Showdown Slugger: Val
-				ach(62882),	-- Showdown Success: Naigtal
-				ach(62880),	-- Showdown Success: Val
-				ach(62944),	-- Showdown Unlock: Bouncy Mushrooms
-				ach(62945),	-- Showdown Unlock: Grapple Skiffs
-				ach(62949),	-- Showdown Unlock: Naigtal Spores
-				ach(62606),	-- The Sunstrider Omnium
-			})),
+				ach(62510, {	-- Void Smasher: Zul'Aman
+					["maps"] = { MAP.MIDNIGHT.ZULAMAN },
+				}),
+			}),
 			n(DROPS, {
 				i(268809),	-- Enchanted Naga Scroll (QS!)
 				i(266448),	-- Hal'hadar Battery Core (QS!)
@@ -267,7 +267,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				header(HEADERS.Achievement, 62606, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- The Sunstrider Omnium
 					q(96223, {	-- The Magister's Call
 						["qg"] = 265903,	-- Magister's Missive
-						["coord"] = { 50.9, 73.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["coord"] = { 47.9, 62.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(96224, {	-- The Magister's Conundrum
 						["sourceQuest"] = 96223,	-- The Magister's Call
@@ -1123,13 +1123,68 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				["cr"] = 264322,	-- Greater Void Portal
 				["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
 				--["maps"] = {
-				--
 				--},
 				["groups"] = {
+					n(ACHIEVEMENTS, {
+						ach(62904),	-- Climate Strange: Naigtal
+						ach(62919),	-- Heroic Climate Strange: Naigtal
+						ach(62883),	-- Showdown Slugger: Naigtal
+						ach(62882),	-- Showdown Success: Naigtal
+					}),
 					n(QUESTS, {
 						q(96052, {	-- Through the Mana Rift
 							["qg"] = 263480,	-- Riftblade Maella
 							["coord"] = { 51.6, 71.1, MAP.MIDNIGHT.VOIDSTORM },
+						}),
+						q(96054, {	-- Surveying the Mana-Bog
+							["sourceQuest"] = 96052,	-- Through the Mana Rift
+							["qg"] = 264024,	-- Riftblade Maella
+							["coord"] = { 48.1, 81.1, NAIGTAL },
+						}),
+						q(96569, {	-- Conductive Crystals
+							["sourceQuest"] = 96052,	-- Through the Mana Rift
+							["provider"] = { "o", 654497 },	-- Energized Crystal Conductor
+							["coord"] = { 70.4, 48.5, NAIGTAL },
+							["groups"] = {
+								o(654422, {	-- Energized Crystal Conductor
+									i(274936),	-- Energized Crystal Conductor (QI!)
+								}),
+							},
+						}),
+						q(97072, {	-- A Swampy Welcome to Naigtal
+							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
+							["qg"] = 264028,	-- Commander Tala'saan
+							["coord"] = { 70.8, 62.2, NAIGTAL },
+						}),
+						q(96472, {	-- The Nexus-Captain
+							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
+							["qg"] = 264028,	-- Commander Tala'saan
+							["coord"] = { 70.8, 62.2, NAIGTAL },
+						}),
+						-- Repeatable
+						q(96717, {	-- Showdown on Naigtal
+							["sourceQuest"] = 96052,	-- Through the Mana Rift
+							["qg"] = 265303,	-- Decimus
+							["coord"] = { 48.2, 81.2, NAIGTAL },
+							["groups"] = { i(275690) },	-- Riftstalker's Cache
+							["isWeekly"] = true,
+						}),
+					}),
+					n(RARES, {
+						n(263955, {	-- Lomelith
+							["description"] = "Roams around the area.",
+							["coord"] = { 67.7, 62.9, NAIGTAL },
+							--["questID"] = XXXXX,
+						}),
+						n(264576, {	-- Slaipaan
+							["description"] = "Roams around the area.",
+							["coord"] = { 56.1, 61.4, NAIGTAL },
+							--["questID"] = XXXXX,
+						}),
+						n(267422, {	-- Warbringer Thal'kuur
+							["description"] = "Roams around the area.",
+							["coord"] = { 56.1, 61.4, NAIGTAL },
+							--["questID"] = XXXXX,
 						}),
 					}),
 					n(REWARDS, {
@@ -1137,6 +1192,86 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276091),	-- Lost Armaments (Normal)
 						i(276093),	-- Nexus-Captain Leth'ir (Normal)
 					}),
+					n(TREASURES, {
+						o(655271, {	-- Hal'hadar Pocket-Storage
+							["description"] = "Spawns randomly throughout the zone.",
+						}),
+					}),
+					n(VENDORS, {
+						n(265559, {	-- Kifaan <The Consortium>
+							["coord"] = { 47.7, 81.2, NAIGTAL },
+							["groups"] = {
+								i(275662, {	-- Frosticus Maximus (PET!)
+									["sourceAchievement"] = 63349,	-- Ultradon Carnage
+									["sourceQuest"] = 95395,	-- Until it is Done
+									["cost"] = { { "g", 1000000 } },	-- 100g
+								}),
+								i(275663, {	-- Silento (PET!)
+									["sourceAchievements"] = {
+										62882,	-- Showdown Success: Naigtal
+										62880,	-- Showdown Success: Val
+									},
+									["cost"] = { { "c", VOIDLIGHT_MARL, 1800 } },
+								}),
+								i(274650, {	-- Starmech Cosmic-Collapser (MOUNT!)
+									["sourceAchievement"] = 62874,	-- A Trip Through the Stars
+									["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
+								}),
+								i(275664, {	-- Tortured Gorger (MOUNT!)
+									["sourceAchievement"] = 63264,	-- Heroic Showdowns
+									["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
+								}),
+								i(274649, {	-- Voidmancer's Starcarver (MOUNT!)
+									["sourceAchievement"] = 62873,	-- A Trip Around the Stars
+									["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
+								}),
+							},
+						}),
+						n(265581, {	-- Zuronar <Lightveil Artificer>
+							["coord"] = { 48.1, 83.3, NAIGTAL },
+							["groups"] = sharedData({
+								["cost"] = {
+									{ "c", FIELD_ACCOLADE,  60 },
+									{ "c", VOIDLIGHT_MARL, 500 },
+								},
+							}, {
+								i(276301),	-- Lightruned Crystal Beacon (COSMETIC!)
+								i(276289),	-- Lightveil Argunite Blade (COSMETIC!)
+								iensemble(276364, {	-- Arsenal: Lightforged Armaments (COSMETIC!)
+									["sourceAchievements"] = {
+										62883,	-- Showdown Slugger: Naigtal
+										62881,	-- Showdown Slugger: Val
+									},
+								}),
+							}),
+						}),
+					}),
+					n(WORLD_QUESTS, bubbleDownFiltered({
+						["isWorldQuest"] = true,
+					},FILTERFUNC_questID,{
+						q(96557, {	-- Flying Debris
+							["coord"] = { 54.9, 33.6, NAIGTAL },
+						}),
+						q(96548, {	-- High Spore (Bonus Objective)
+							["coord"] = { 53.1, 67.0, NAIGTAL },
+						}),
+						q(96293, {	-- Mush-Vroom!
+							["coord"] = { 34.2, 45.9, NAIGTAL },
+						}),
+						q(96698, {	-- Naigtal Tendril Sling
+							["coord"] = { 58.9, 56.6, NAIGTAL },
+						}),
+						q(96432, {	-- Power Overload
+							["coord"] = { 70.7, 44.2, NAIGTAL },
+							["groups"] = { i(274407) },	-- Hal'Hadar Automaton Fuel Cell (QI!)
+						}),
+						q(96000, {	-- Skiff Joyride
+							["coord"] = { 62.1, 58.5, NAIGTAL },
+						}),
+						q(96651, {	-- Subdue the Spore Storm (Bonus Objective)
+							["coord"] = { 32.2, 45.0, NAIGTAL },
+						}),
+					})),
 				},
 			}),
 			m(VAL, {
@@ -1151,6 +1286,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					-- There should be more maps here. There are a lot of sub-zones
 				},
 				["groups"] = {
+					n(ACHIEVEMENTS, {
+						ach(62903),	-- Climate Strange: Val
+						ach(62917),	-- Heroic Climate Strange: Val
+						ach(62881),	-- Showdown Slugger: Val
+						ach(62880),	-- Showdown Success: Val
+						ach(63349),	-- Ultradon Carnage
+					}),
 					n(QUESTS, {
 						q(96048, {	-- The Time to Strike
 							["description"] = "Can be accepted from the Adventure Journal.",	-- Or will it pop-up on first log-in when eligible?
@@ -1194,7 +1336,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["qg"] = 263482,	-- Riftblade Maella
 							["coord"] = { 59.3, 19.5, VAL },
 							["groups"] = { i(275690) },	-- Riftstalker's Cache
-							["isWeekly"] = true,	-- Speculation
+							["isWeekly"] = true,
 						}),
 					}),
 					n(RARES, {
@@ -1226,102 +1368,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					n(TREASURES, {
 						o(655270, {	-- Dominaar Storage Vessel
 							["description"] = "Spawns randomly throughout the zone.",
-						}),
-					}),
-					n(VENDORS, {
-						n(267315, {	-- Fieldsmith Ventem <Field Gear and Repairs>
-							["coord"] = { 60.2, 16.1, VAL },
-							["groups"] = {	-- All items are (COSMETIC!)
-								n(WEAPONS, sharedData({
-									["cost"] = {
-										{ "c", FIELD_ACCOLADE,  60 },
-										{ "c", VOIDLIGHT_MARL, 500 },
-									},
-								}, {
-									i(275212),	-- Response Team's Falchion
-									i(275206),	-- Response Team's Hammer
-									i(275204),	-- Response Team's Hatchet
-									i(275205),	-- Response Team's Kukri
-									i(275213),	-- Response Team's Lantern
-									i(275209),	-- Response Team's Longbow
-									i(275207),	-- Response Team's Longsword
-									i(275210),	-- Response Team's Spear
-									i(275211),	-- Response Team's Spire
-									i(275214),	-- Response Team's Tower Shield
-									i(275208),	-- Response Team's Warglaive
-								})),
-								filter(CLOAKS, sharedData({
-									["cost"] = {
-										{ "c", FIELD_ACCOLADE,  30 },
-										{ "c", VOIDLIGHT_MARL, 300 },
-									},
-								}, {
-									i(275168),	-- Response Team's Cape
-									i(275169),	-- Response Team's Cloak
-									i(275171),	-- Response Team's Drape
-									i(275170),	-- Response Team's Shawl
-								})),
-								filter(CLOTH, sharedData({
-									["cost"] = {
-										{ "c", FIELD_ACCOLADE,  30 },
-										{ "c", VOIDLIGHT_MARL, 300 },
-									},
-								}, {
-									i(275178),	-- Response Team's Cord
-									i(275175),	-- Response Team's Crown
-									i(275179),	-- Response Team's Cuffs
-									i(275174),	-- Response Team's Gloves
-									i(275173),	-- Response Team's Slippers
-									i(275177),	-- Response Team's Spires
-									i(275176),	-- Response Team's Tights
-									i(275172),	-- Response Team's Vestments
-								})),
-								filter(LEATHER, sharedData({
-									["cost"] = {
-										{ "c", FIELD_ACCOLADE,  30 },
-										{ "c", VOIDLIGHT_MARL, 300 },
-									},
-								}, {
-									i(275186),	-- Response Team's Belt
-									i(275187),	-- Response Team's Bindings
-									i(275181),	-- Response Team's Boots
-									i(275182),	-- Response Team's Handguards
-									i(275180),	-- Response Team's Jerkin
-									i(275183),	-- Response Team's Mask
-									i(275185),	-- Response Team's Shoulderpads
-									i(275184),	-- Response Team's Trousers
-								})),
-								filter(MAIL, sharedData({
-									["cost"] = {
-										{ "c", FIELD_ACCOLADE,  30 },
-										{ "c", VOIDLIGHT_MARL, 300 },
-									},
-								}, {
-									i(275195),	-- Response Team's Bands
-									i(275194),	-- Response Team's Clasp
-									i(275190),	-- Response Team's Grips
-									i(275188),	-- Response Team's Hauberk
-									i(275191),	-- Response Team's Helmet
-									i(275192),	-- Response Team's Legguards
-									i(275189),	-- Response Team's Sabatons
-									i(275193),	-- Response Team's Shoulderguards
-								})),
-								filter(PLATE, sharedData({
-									["cost"] = {
-										{ "c", FIELD_ACCOLADE,  30 },
-										{ "c", VOIDLIGHT_MARL, 300 },
-									},
-								}, {
-									i(275196),	-- Response Team's Chestplate
-									i(275198),	-- Response Team's Gauntlets
-									i(275202),	-- Response Team's Girdle
-									i(275197),	-- Response Team's Greatboots
-									i(275199),	-- Response Team's Helm
-									i(275200),	-- Response Team's Legplates
-									i(275201),	-- Response Team's Pauldrons
-									i(275203),	-- Response Team's Vambraces
-								})),
-							},
 						}),
 					}),
 					n(WORLD_QUESTS, bubbleDownFiltered({
@@ -1414,6 +1460,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62454),	-- Ritual Sites 505: A Seminar in Void Ritual Nuance
 				ach(62940, { ["timeline"] = { ADDED_12_0_7 } }),	-- Ritual Sites 612: Practical Ritual Work
 			})),
+			n(ACHIEVEMENTS, bubbleDown({
+				["timeline"] = { ADDED_12_0_7 },
+				["maps"] = {
+					NAIGTAL,
+					VAL,
+				},
+			}, {
+				ach(62873),	-- A Trip Around the Stars
+				ach(62874),	-- A Trip Through the Stars
+				ach(62899),	-- Absolute Power
+				ach(62898),	-- Cradle of Power
+				ach(63264),	-- Heroic Showdowns
+				ach(63323),	-- Heroic Tendencies
+				ach(62909),	-- Heroic: Pain of Command
+				ach(62901),	-- Heroic: Power Creep
+				ach(62887),	-- Heroic: Worlds Ahead
+				ach(62905),	-- Pain of Command
+				ach(62900),	-- Power Beyond Measure
+				ach(62896),	-- Power Creep
+			})),
 			n(EVENT_COMPLETION, {
 				i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
 			}),
@@ -1451,7 +1517,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				i(273855),	-- Ritual Tablet (1st Ritual of the Week)
 				i(273856),	-- Ritual Tablet Fragment (2nd Ritual of the Week)
 			}),
-			n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.
+			n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Daggerspine Point and Broken Throne Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.
 				o(645182, {	-- Crystalline Treasure
 					["coords"] = {
 						{ 45.5, 55.5, DAGGERSPINE_POINT },
@@ -1488,6 +1554,105 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						{ 66.6, 63.7, DAGGERSPINE_POINT },	-- The only location
 					},
 					["groups"] = { i(270562) },	-- Tainted Sample (QS!/QI!)
+				}),
+			}),
+			n(VENDORS, {
+				n(267315, {	-- Fieldsmith Ventem <Field Gear and Repairs>
+					["coords"] = {
+						{ 48.6, 81.6, NAIGTAL },
+						{ 60.2, 16.1, VAL },
+					},
+					["groups"] = {	-- All items are (COSMETIC!)
+						n(WEAPONS, sharedData({
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  60 },
+								{ "c", VOIDLIGHT_MARL, 500 },
+							},
+						}, {
+							i(275212),	-- Response Team's Falchion
+							i(275206),	-- Response Team's Hammer
+							i(275204),	-- Response Team's Hatchet
+							i(275205),	-- Response Team's Kukri
+							i(275213),	-- Response Team's Lantern
+							i(275209),	-- Response Team's Longbow
+							i(275207),	-- Response Team's Longsword
+							i(275210),	-- Response Team's Spear
+							i(275211),	-- Response Team's Spire
+							i(275214),	-- Response Team's Tower Shield
+							i(275208),	-- Response Team's Warglaive
+						})),
+						filter(CLOAKS, sharedData({
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  30 },
+								{ "c", VOIDLIGHT_MARL, 300 },
+							},
+						}, {
+							i(275168),	-- Response Team's Cape
+							i(275169),	-- Response Team's Cloak
+							i(275171),	-- Response Team's Drape
+							i(275170),	-- Response Team's Shawl
+						})),
+						filter(CLOTH, sharedData({
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  30 },
+								{ "c", VOIDLIGHT_MARL, 300 },
+							},
+						}, {
+							i(275178),	-- Response Team's Cord
+							i(275175),	-- Response Team's Crown
+							i(275179),	-- Response Team's Cuffs
+							i(275174),	-- Response Team's Gloves
+							i(275173),	-- Response Team's Slippers
+							i(275177),	-- Response Team's Spires
+							i(275176),	-- Response Team's Tights
+							i(275172),	-- Response Team's Vestments
+						})),
+						filter(LEATHER, sharedData({
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  30 },
+								{ "c", VOIDLIGHT_MARL, 300 },
+							},
+						}, {
+							i(275186),	-- Response Team's Belt
+							i(275187),	-- Response Team's Bindings
+							i(275181),	-- Response Team's Boots
+							i(275182),	-- Response Team's Handguards
+							i(275180),	-- Response Team's Jerkin
+							i(275183),	-- Response Team's Mask
+							i(275185),	-- Response Team's Shoulderpads
+							i(275184),	-- Response Team's Trousers
+						})),
+						filter(MAIL, sharedData({
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  30 },
+								{ "c", VOIDLIGHT_MARL, 300 },
+							},
+						}, {
+							i(275195),	-- Response Team's Bands
+							i(275194),	-- Response Team's Clasp
+							i(275190),	-- Response Team's Grips
+							i(275188),	-- Response Team's Hauberk
+							i(275191),	-- Response Team's Helmet
+							i(275192),	-- Response Team's Legguards
+							i(275189),	-- Response Team's Sabatons
+							i(275193),	-- Response Team's Shoulderguards
+						})),
+						filter(PLATE, sharedData({
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  30 },
+								{ "c", VOIDLIGHT_MARL, 300 },
+							},
+						}, {
+							i(275196),	-- Response Team's Chestplate
+							i(275198),	-- Response Team's Gauntlets
+							i(275202),	-- Response Team's Girdle
+							i(275197),	-- Response Team's Greatboots
+							i(275199),	-- Response Team's Helm
+							i(275200),	-- Response Team's Legplates
+							i(275201),	-- Response Team's Pauldrons
+							i(275203),	-- Response Team's Vambraces
+						})),
+					},
 				}),
 			}),
 		}),
