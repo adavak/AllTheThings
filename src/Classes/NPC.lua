@@ -75,12 +75,21 @@ if C_TooltipInfo_GetHyperlink then
 			RetryNames[id] = RetryNames[id] + 1
 			if RetryNames[id] > MAX_RETRY then
 				t[id] = AUCTION_MAIL_ITEM_STACK:format("NPC", id)
-				RetryNames[id] = nil
+				RetryNames[id] = 0
 			end
 		else
 			return L.HEADER_NAMES[id]
 		end
 	end})
+	app.AddEventHandler("OnCurrentMapIDChanged", function()
+		-- Wipe failed name retrievals from cache if the player changes maps
+		for id,count in pairs(RetryNames) do
+			if count == 0 then
+				NPCNameFromID[id] = nil
+				RetryNames[id] = nil
+			end
+		end
+	end)
 else
 	---@class ATTNPCHarvesterForRetail: GameTooltip
 	local ATTCNPCHarvester = CreateFrame("GameTooltip", "ATTCNPCHarvester", UIParent, "GameTooltipTemplate")
