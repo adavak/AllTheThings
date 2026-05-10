@@ -1244,7 +1244,7 @@ q(94445,{coords={
 [84]={{53.1,15.3}}},lvl=10,qgs={133362},races={86},sourceQuests={90961}})}}),
 ra(28,{description="To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",r=1,g={
 q(48066,{coords={
-[85]={{38,81}}},lc={1,"achID",12452},lvl=40,qgs={125285},r=1,sourceQuests={50242}}),
+[85]={{38,81}}},lc={1,"achID",12452},lvl=40,qgs={125285,133523},r=1,sourceQuests={50242}}),
 q(48067,{coords={
 [88]={{61.2,51.8}}},lc={1,"achID",12452},lvl=40,qgs={129914},r=1,sourceQuests={48066}}),
 q(49756,{coords={
@@ -1372,11 +1372,12 @@ q(50313,{coords={
 [84]={{53.1,15.4}}},lvl=10,qgs={133362},races={30},sourceQuests={49772}})}}),
 ra(36,{description="To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",r=1,g={
 q(53466,{coords={
-[85]={{37.8,80.6}}},lc={1,"achID",12517},lvl=40,qgs={126066},r=1,sourceQuests={50242}}),
+[85]={{37.8,80.6}}},lc={1,"achID",12517},lvl=40,qgs={126066,133523},r=1,sourceQuests={50242}}),
 q(53467,{coords={
 [1185]={{67,73.7}}},lc={1,"achID",12517},lvl=40,qgs={131443},r=1,sourceQuests={53466}}),
 q(53354,{coords={
-[71]={{63,57.2}}},lc={1,"achID",12517},lvl=40,qgs={15192},r=1,sourceQuests={53467}}),
+[71]={{63,57.2}},
+[75]={{41.7,49.4}}},lc={1,"achID",12517},lvl=40,qgs={15192},r=1,sourceQuests={53467}}),
 q(53353,{coords={
 [17]={{54.4,50.2}}},lc={1,"achID",12517},lvl=40,qgs={143692},r=1,sourceQuests={53354}}),
 q(53355,{coords={
@@ -1481,7 +1482,7 @@ q(53891,{coords={
 q(53892,{coords={
 [241]={{44.1,73.4}}},lc={1,"achID",13207},lvl=40,qgs={145641},r=1,sourceQuests={53891}}),
 q(53893,{coords={
-[241]={{46.8,66.2}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={53892},g={
+[241]={{46.8,66.2}}},lc={1,"achID",13207},lvl=40,qgs={163488},r=1,sourceQuests={53892},g={
 i(171358),
 i(171356,{spellID=307378}),
 i(164926),
@@ -1493,13 +1494,13 @@ i(164927)})}}),
 q(53895,{coords={
 [241]={{46.8,66.2}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={53892}}),
 q(53897,{coords={
-[241]={{46.8,66.2}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={53893,53894,53895}}),
+[241]={{46.8,66.2}}},lc={1,"achID",13207},lvl=40,qgs={145641},r=1,sourceQuests={53893,53894,53895}}),
 q(53898,{coords={
 [241]={{45,76.2}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={53897}}),
 q(54026,{coords={
 [241]={{45,76.2}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={53898}}),
 q(53899,{coords={
-[85]={{49,73.6}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={54026}}),
+[85]={{49,73.6}}},lc={1,"achID",13207},lvl=40,qgs={163489},r=1,sourceQuests={54026}}),
 q(58087,{coords={
 [862]={{74.8,63}}},lc={1,"achID",13207},lvl=40,qgs={145980},r=1,sourceQuests={53899}}),
 q(53901,{coords={
@@ -1517,7 +1518,7 @@ q(53902,{coords={
 q(54027,{coords={
 [862]={{74.8,63}}},lc={1,"achID",13207},lvl=40,qgs={145980},r=1,sourceQuests={53902}}),
 q(53903,{coords={
-[85]={{49,73.6}}},lc={1,"achID",13207},lvl=40,qgs={145416},r=1,sourceQuests={54027}}),
+[85]={{49,73.6}}},lc={1,"achID",13207},lvl=40,qgs={146261},r=1,sourceQuests={54027}}),
 q(53904,{coords={
 [680]={{58.9,55}}},lc={1,"achID",13207},lvl=40,qgs={146264},r=1,sourceQuests={53903}}),
 q(53905,{coords={

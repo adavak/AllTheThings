@@ -430,6 +430,8 @@ L.KNOWN_BY = "Known by %s";
 L.KNOWN_BY_CHECKBOX = "Known By";
 L.KNOWN_BY_CHECKBOX_TOOLTIP = "Enable this option if you want to see the full list of characters on all servers that know the Recipe in the tooltip.";
 L.LAYER = "Layer";
+L.LEAVE_DELVE = "Leave Delve";
+L.LEAVE_DELVE_DESC = "Click here to leave the delve.";
 L.LEAVE_GROUP = "Leave Group";
 L.LEAVE_GROUP_DESC = "Click here to leave the group. In most instances, this will also port you to the nearest graveyard after 60 seconds or so.\n\nNOTE: Only works if you're in a group or if the game thinks you're in a group.";
 L.LEGACY_RAID_DIFF = "Legacy Raid Difficulty";
@@ -1757,7 +1759,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=24,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=24,["weekday"]=1,["year"]=2026}),
@@ -1809,7 +1810,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=11,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=11,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -4540,6 +4542,7 @@ local ObjectNames = {
 	[194787] = "Charred Book",
 	[194908] = "Lance Rack",
 	[194909] = "Lance Rack",
+	[194997] = "Thorned Bloodcup",
 	[195001] = "Wolf Chains",
 	[195002] = "Lava Fissure",
 	[195003] = "Wolf Chains",
@@ -7875,6 +7878,7 @@ local ObjectModels = {
 	[194787] = 200910,
 	[194908] = 198636,
 	[194909] = 200609,
+	[194997] = 196278,
 	[195001] = 199210,
 	[195002] = 191550,
 	[195003] = 199210,
@@ -12257,6 +12261,7 @@ localize(ObjectNames, {
 	[194787] = "Versengtes Buch",
 	[194908] = "Lanzenständer",
 	[194909] = "Lanzenständer",
+	[194997] = "Dorniger Blutkelch",
 	[195002] = "Lavafelsspalt",
 	[195006] = "Köderbotsteuerkonsole",
 	[195007] = "Feder eines getöteten Wildekin",
@@ -15344,6 +15349,7 @@ localize(ObjectNames, {
 	[194787] = "Livre calciné",
 	[194908] = "Râtelier de lances",
 	[194909] = "Râtelier de lances",
+	[194997] = "Sanguinette épineuse",
 	[195002] = "Crevasse de lave",
 	[195006] = "Console de contrôle du robot-leurre",
 	[195007] = "Plume d'indomptable tué",
@@ -17672,6 +17678,7 @@ localize(ObjectNames, {
 	[194787] = "Libro Carbonizzato",
 	[194908] = "Rastrelliera delle Lance",
 	[194909] = "Rastrelliera delle Lance",
+	[194997] = "Sanguigna Spinosa",
 	[195002] = "Fenditura Lavica",
 	[195006] = "Console di Controllo del Robot Esca",
 	[195007] = "Penna di Silvagufo Ucciso",
@@ -20377,6 +20384,7 @@ localize(ObjectNames, {
 	[194787] = "Livro Queimado",
 	[194908] = "Cavalete de Lanças",
 	[194909] = "Cavalete de Lanças",
+	[194997] = "Copo-de-sangue Espinhoso",
 	[195002] = "Fissura de Lava",
 	[195006] = "Painel de Controle do Robô Chamariz",
 	[195007] = "Pena de Coruscante Massacrado",
@@ -23841,6 +23849,7 @@ localize(ObjectNames, {
 	[194787] = "Обожженная книга",
 	[194908] = "Подставка для копий",
 	[194909] = "Подставка для копий",
+	[194997] = "Колючковая кровавая чашечка",
 	[195002] = "Лавовый разлом",
 	[195006] = "Панель управления ловушкой",
 	[195007] = "Перо убитого дикого совуха",
@@ -26550,6 +26559,7 @@ localize(ObjectNames, {
 	[194787] = "까맣게 탄 책",
 	[194908] = "창 선반",
 	[194909] = "창 선반",
+	[194997] = "가시 핏빛주발꽃",
 	[195002] = "용암 균열",
 	[195006] = "유인 로봇 제어장치",
 	[195007] = "죽은 올빼미야수 깃털",
@@ -30198,6 +30208,7 @@ localize(ObjectNames, {
 	[194787] = "Libro carbonizado",
 	[194908] = "Expositor de lanzas",
 	[194909] = "Expositor de lanzas",
+	[194997] = "Peziza escarlata espinada",
 	[195002] = "Fisura de lava",
 	[195006] = "Consola de control de Bot señuelo",
 	[195007] = "Pluma de lechúcico salvaje muerto",
@@ -34160,6 +34171,7 @@ localize(ObjectNames, {
 	[194714] = "恶心的工作台",
 	[194908] = "长枪架",
 	[194909] = "长枪架",
+	[194997] = "带刺的血盅花",
 	[195002] = "熔岩裂缝",
 	[195006] = "诱饵机器人控制台",
 	[195007] = "死去野枭兽的羽毛",
