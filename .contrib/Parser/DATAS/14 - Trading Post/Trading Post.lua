@@ -2213,7 +2213,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(100, i(251987)),	-- Wildstalker's Hunting Quiver
 			}),
 		})),
-		n(MAY, bubbleDownSelf({ ["timeline"] = { "added 12.0.5.67314", "removed 12.0.7.99999" } }, {	-- TODO: Timeline out correctly
+		n(MAY, bubbleDownSelf({ ["timeline"] = { "added 12.0.5.67314", "removed 12.0.5.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(268445),	-- Ensemble: Pyrewood Rebel Streetwear
 			}),
