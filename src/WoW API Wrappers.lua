@@ -20,6 +20,10 @@ app.EmptyTable = setmetatable({}, { __newindex = app.EmptyFunction });
 
 local lib = setmetatable({}, {
 	__index = function(t, key)
+		-- Blizzard tries accessing ToDebugString on every table randomly because no one knows why
+		if key == "ToDebugString" then
+			return
+		end
 		error("API " .. key .. " not available! Please yell at Runaway or Crieve to add it to the WoW API Wrappers function");
 	end
 });

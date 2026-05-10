@@ -20,6 +20,10 @@ NPCHarvester:SetPoint("TOPRIGHT", UIParent, "BOTTOMRIGHT", 0, 0)
 NPCHarvester:SetSize(1, 1)
 NPCHarvester:Hide()
 local NPCDisplayIDFromID = setmetatable({}, { __index = function(t, id)
+	id = tonumber(id)
+	-- Blizzard tries accessing ToDebugString on every table randomly because no one knows why
+	if not id then return end
+
 	if id > 0 then
 		NPCHarvester:SetDisplayInfo(0)
 		NPCHarvester:SetUnit("none")
@@ -45,7 +49,10 @@ if C_TooltipInfo_GetHyperlink then
 	local issecretvalue = app.WOWAPI.issecretvalue
 	setmetatable(NPCNameFromID, { __index = function(t, id)
 		id = tonumber(id)
-		if id and id > 0 then
+		-- Blizzard tries accessing ToDebugString on every table randomly because no one knows why
+		if not id then return end
+
+		if id > 0 then
 			local tooltipData = C_TooltipInfo_GetHyperlink(("unit:Creature-0-0-0-0-%d-0000000000"):format(id))
 			if tooltipData then
 				local title = tooltipData.lines[1].leftText
