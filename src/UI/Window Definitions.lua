@@ -14,6 +14,7 @@ local C_AddOns_GetAddOnMetadata
 local GameTooltip = GameTooltip;
 local RETRIEVING_DATA = RETRIEVING_DATA;
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
+local issecretvalue = app.WOWAPI.issecretvalue
 local debugprofilestop = debugprofilestop;
 local Callback = app.CallbackHandlers.Callback
 
@@ -780,21 +781,26 @@ local function SetRowData(self, row, data)
 
 	-- Check to see what the text is currently
 	local text = data.text;
-	if IsRetrieving(text) then
-		-- This means the link is still rendering
-		text = RETRIEVING_DATA;
+	if issecretvalue(text) then
+		row.text = "<secret>"
+		row.Label:SetText(text)
+	else
+		if IsRetrieving(text) then
+			-- This means the link is still rendering
+			text = RETRIEVING_DATA;
 
-		local AsyncRefreshFunc = data.AsyncRefreshFunc
-		if AsyncRefreshFunc then
-			AsyncRefreshFunc(data)
-		else
-			-- app.PrintDebug("No Async Redraw Func for Type!",data.__type,data.hash)
-			Callback(self.Redraw, self)
+			local AsyncRefreshFunc = data.AsyncRefreshFunc
+			if AsyncRefreshFunc then
+				AsyncRefreshFunc(data)
+			else
+				-- app.PrintDebug("No Async Redraw Func for Type!",data.__type,data.hash)
+				Callback(self.Redraw, self)
+			end
 		end
-	end
-	if text ~= row.text then
-		row.text = text;
-		row.Label:SetText(text);
+		if text ~= row.text then
+			row.text = text;
+			row.Label:SetText(text);
+		end
 	end
 
 	-- If the data has a texture, assign it.
