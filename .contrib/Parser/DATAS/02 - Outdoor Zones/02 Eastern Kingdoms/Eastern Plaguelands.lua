@@ -6023,7 +6023,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 83.6, 44.0, EASTERN_PLAGUELANDS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						8546,	-- Dark Adept <Cult of the Damned>
 						8550,	-- Shadowmage <Cult of the Damned>

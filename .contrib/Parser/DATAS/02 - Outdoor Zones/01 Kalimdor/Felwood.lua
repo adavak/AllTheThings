@@ -3112,7 +3112,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 38.6, 69.6, FELWOOD },
 						{ 33.8, 66.6, FELWOOD },
 					},
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					["cr"] = 7106,	-- Jadefire Rogue
 				}),
 			}),

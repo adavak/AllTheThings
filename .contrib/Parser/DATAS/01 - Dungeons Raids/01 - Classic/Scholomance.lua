@@ -9,7 +9,7 @@ local ignoreTimeline = function(item)	-- Items applied with this were never actu
 	return item;
 end
 
-local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4, ADDED_10_1_5 } }, {
+local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, REMOVED_5_0_4, ADDED_10_1_5 } }, {
 	n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4, ADDED_10_1_5 } }, {
 		ach(18368, {	-- Memory of Scholomance
 			["sourceQuest"] = 76249,	-- Memory of Scholomance
