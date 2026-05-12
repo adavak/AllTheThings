@@ -1390,7 +1390,6 @@ localize(L.HEADER_NAMES, {
 	[-661] = "Twilight Zone",
 	[-679] = CATALOG_SHOP_TYPE_DECOR,
 	[-691] = "Treasures of Azeroth",
-	[-694] = "TBC Classic Anniversary Edition - Outland Upgrade",
 	[-698] = TRANSMOG_SOURCE_4,
 	[-721] = TRACKER_FILTER_REMOTE_ZONES,
 	[-723] = "Elemental Invasions",
@@ -1698,7 +1697,6 @@ localize(L.HEADER_ICONS, {
 	[-661] = 236471,
 	[-679] = _.asset("interface_decor"),
 	[-691] = 7259806,
-	[-694] = _.asset("expansion_tbc"),
 	[-698] = _.asset("category_worlddrops"),
 	[-721] = 450908,
 	[-723] = 135793,
@@ -9484,7 +9482,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Mogu'shan Vaults.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1753956000,
+		release = 1753981200,
 		state = 2,
 	},
 	[5002] = {
@@ -9493,7 +9491,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Celestial Dungeons with MSV loot.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1754992800,
+		release = 1755018000,
 		state = 2,
 	},
 	[5003] = {
@@ -9502,7 +9500,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1755770400,
+		release = 1755795600,
 		state = 2,
 	},
 	[5004] = {
@@ -9511,7 +9509,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Tier 14 Gear from Sha of Anger.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756202400,
+		release = 1756227600,
 		state = 2,
 	},
 	[5005] = {
@@ -9520,7 +9518,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Heart of Fear LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756807200,
+		release = 1756832400,
 		state = 2,
 	},
 	[5006] = {
@@ -9529,7 +9527,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1756980000,
+		release = 1757005200,
 		state = 2,
 	},
 	[5007] = {
@@ -9538,7 +9536,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Terrace of Endless Springs LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50500,
-		release = 1758016800,
+		release = 1758042000,
 		state = 2,
 	},
 	[51] = {
@@ -9563,7 +9561,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Throne of Thunder LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50503,
-		release = 1765969200,
+		release = 1765994400,
 		state = 2,
 	},
 	[53] = {
@@ -9588,7 +9586,7 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Siege of Orgrimmar LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
 		buildVersion = 50505,
-		release = 1776679200,
+		release = 1776704400,
 		state = 2,
 	},
 };
@@ -28769,7 +28767,6 @@ localize(L.HEADER_NAMES, {
 	[-660] = "Dúo Crepuscular",
 	[-661] = "Dimensión Desconocida",
 	[-691] = "Tesoros de Azeroth",
-	[-694] = "Mejora de la edición del aniversario de Burning Crusade Classic™",
 	[-723] = "Incursiones elementales",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -31843,7 +31840,6 @@ localize(L.HEADER_NAMES, {
 	[-654] = "Cosechando",
 	[-655] = "Calabozos celestiales",
 	[-656] = "Gremio de luchadores",
-	[-694] = "Mejoras de Burning Crusade Classic™ Edición Aniversario",
 	[-723] = "Invasiones elementales",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -32921,7 +32917,6 @@ localize(L.HEADER_NAMES, {
 	[-660] = "暮光二重奏",
 	[-661] = "暮光领域",
 	[-691] = "艾泽拉斯的宝藏",
-	[-694] = "'燃烧的远征'周年纪念版 - 外域升级",
 	[-723] = "元素入侵",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -36215,7 +36210,6 @@ localize(L.HEADER_NAMES, {
 	[-659] = "暮光協助",
 	[-660] = "暮光雙人組",
 	[-661] = "暮光地帶",
-	[-694] = "燃燒的遠征：經典週年紀念版 - 外域升級",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
