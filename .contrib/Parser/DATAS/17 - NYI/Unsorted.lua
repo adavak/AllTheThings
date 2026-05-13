@@ -657,8 +657,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(267278),	-- Angler Pearls
-				i(268552),	-- Ascendant Voidcore
-				i(268650),	-- Ascendant Voidshard
 				i(271353),	-- Collection of Valuables
 				i(272111),	-- Decaying Necromancer Cloak
 				i(272114),	-- Discarded Excavation Tool
@@ -700,7 +698,6 @@ root(ROOTS.Unsorted, {
 				i(267472),	-- Gnomatic Projector (TOY!)
 				i(267323),	-- Troll Scroll of Rainbow Roll (TOY!)
 			}),
-			i(273873),	-- Void-Touched Sunfury Poleaxe
 			i(274427),	-- Sha Loot Box
 			i(273307),	-- Vial of Intrepid Lemonade
 			i(274578),	-- Offering of Unalloyed Abundance

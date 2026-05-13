@@ -1049,6 +1049,9 @@ root(ROOTS.WorldEvents, applyclassicphase(MOP_PHASE_LANDFALL, n(BRAWLERS_GUILD, 
 					["coords"] = {
 						{ 51.2, 43.4, DORNOGAL },
 						{ 66.6, 72.2, STORMWIND_CITY },
+						-- #if AFTER MID
+						{ 43.0, 77.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+						-- #endif
 					},
 				}),
 				q(92851, {	-- Questionable Qualifications

@@ -161,6 +161,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		n(REWARDS, bubbleDownSelf({
 			["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }
 		}, {
+			i(268650, {	-- Ascendant Voidshard
+				i(268552),	-- Ascendant Voidcore
+			}),
 			i(268465),	-- Nebulous Voidcache: Algeth'ar Academy
 			i(268466),	-- Nebulous Voidcache: Magisters' Terrace
 			i(268473),	-- Nebulous Voidcache: Maisara Caverns

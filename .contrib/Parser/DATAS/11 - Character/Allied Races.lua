@@ -1072,7 +1072,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 			}),
 			-- Nightborne Starter Quests
 			q(49933, {	-- For the Horde
-				["provider"] = { "n", 143845 },	-- First Arcanist Thalyssra
+				["provider"] = { "n", 131326 },	-- First Arcanist Thalyssra
 				["coord"] = { 59.4, 85.4, SURAMAR },
 				["races"] = { NIGHTBORNE },
 				["lvl"] = 20,

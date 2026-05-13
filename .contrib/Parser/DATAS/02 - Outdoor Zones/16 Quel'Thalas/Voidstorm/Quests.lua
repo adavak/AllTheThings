@@ -1677,6 +1677,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["isWeekly"] = true,
 				["groups"] = { i(269668) },	-- Hungering Oblivium (QI!)
 			}),
+			q(95271, {	-- The Ascendant Nilhammer
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
+				["groups"] = { i(268650) },	-- Ascendant Voidshard
+			}),
 		}),
 	}),
 }));
