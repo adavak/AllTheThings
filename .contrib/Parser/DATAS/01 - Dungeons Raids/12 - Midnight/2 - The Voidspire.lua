@@ -331,8 +331,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 					i(268460, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Vorasius
 				}),
 				n(240864, {	-- Blinky
-					["name"] = "Blinky",	-- Name does not resolve in the raid due to secrets
-					["groups"] = { i(268274) },	-- Blinky's Collar
+					i(268274),	-- Blinky's Collar
 				}),
 				BossOnly(SALHADAAR, {
 					i(264672),	-- Cosmic Ritual Stone (TOY!)
