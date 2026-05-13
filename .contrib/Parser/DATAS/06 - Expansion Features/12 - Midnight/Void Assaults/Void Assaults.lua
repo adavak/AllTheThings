@@ -953,6 +953,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 		n(RITUAL_SITES, {
 			m(BROKEN_THRONE, {
 				["icon"] = 7578705,
+				["cr"] = 260104,	-- Curious Obelisk
 				["coord"] = { 29.6, 77.9, MAP.MIDNIGHT.ZULAMAN },
 				["groups"] = {
 					n(ACHIEVEMENTS, {
@@ -970,33 +971,32 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["provider"] = { "n", 263355 },	-- Lost Bear Cub
 							["cost"] = { { "i", 242639, 1 } },	-- 1x Practically Pork
 						}),
-						i(269829, {	-- Void-Scarred Eaglet (PET!)
-							["coord"] = { 49.5, 78.3, BROKEN_THRONE },
-							["description"] = "You need to mount up on the Void-Corrupted Hex Eagle and step into the tornado at the corner of the pillar at the given coordinates.",
-						}),
-					}),
-					filter(MOUNTS, {
-						i(269828, {	-- Void-Corrupted Eagle Talon (MOUNT!)
-							["provider"] = { "n", 263527 },	-- Void-Corrupted Hex Eagle
-							["coords"] = {	-- TODO: Restructure Properly with ObjectIDs
-								{ 51.5, 47.8, BROKEN_THRONE },	-- Misplaced Ritual Candle
-								{ 50.6, 47.3, BROKEN_THRONE },	-- Ritual Candle
-							},
-							["cost"] = { { "i", 271999, 1 } },	-- 1x Misplaced Ritual Candle
-						}),
-						i(257225, {	-- Witherbark Warbear Harness (MOUNT!)
-							-- TODO: Get ObjectID for the Meat Piles
-							["description"] = "Summon 'Chubs' at the Meat Piles. Defeat Angry Amani Warbears and then use 5x Practically Pork.",
-							["coord"] = { 55.8, 38.8, BROKEN_THRONE },
-							["cost"] = { { "i", 242639, 5 } },	-- 1x Practically Pork
-						}),
 					}),
 					n(TREASURES, {
+						o(649115, {	-- Chewed Meat
+							["description"] = "Summon Pet 'Chubs' at the Meat Piles. Defeat Angry Amani Warbear. Once it turns friendly, feed it.",
+							["coord"] = { 55.8, 38.8, BROKEN_THRONE },
+							["cost"] = { { "i", 242639, 5 } },	-- 5x Practically Pork
+							["groups"] = { i(257225) },	-- Witherbark Warbear Harness (MOUNT!)
+						}),
 						o(649209, {	-- Misplaced Ritual Candle
-							["coord"] = { 51.5, 47.9, BROKEN_THRONE },
-							["groups"] = {
-								i(271999),	-- Misplaced Ritual Candle
+							["coord"] = { 51.5, 47.8, BROKEN_THRONE },
+							["groups"] = { i(271999) },	-- Misplaced Ritual Candle
+						}),
+						o(649189, {	-- Ritual Circle
+							["description"] = "Find the Misplaced Ritual Candle nearby and place it on the appropriate place. After that, begin the ritual.",
+							["coord"] = { 50.6, 47.3, BROKEN_THRONE },
+							["cr"] = 263527,	-- Void-Corrupted Hex Eagle
+							["cost"] = { { "i", 271999, 1 } },	-- 1x Misplaced Ritual Candle
+							["groups"] = { i(269828) },	-- Void-Corrupted Eagle Talon (MOUNT!)
+						}),
+						o(649412, {	-- Void-Tainted Nest
+							["description"] = "You need to be mounted on the 'Void-Corrupted Hex Eagle' in order to see the Updraft at the corner of the pillar in the southern part of the Ritual Site.\nStep into the Updraft to be flown to the nest.",
+							["coords"] = {
+								{ 49.5, 78.3, BROKEN_THRONE },	-- Updraft that carries you to the nest
+								{ 45.8, 64.8, BROKEN_THRONE },	-- Nest
 							},
+							["groups"] = { i(269829) },	-- Void-Scarred Eaglet (PET!)
 						}),
 					}),
 				},

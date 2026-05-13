@@ -42378,7 +42378,7 @@ s(303202,263952,{f=28}),
 s(303209,263959,{f=1})}})}})})}}),
 h(-742,{awp=120005,maps={2395,2437},g={
 m(2585,{coords={
-[2437]={{29.6,77.9}}},icon=7578705,g={
+[2437]={{29.6,77.9}}},crs={260104},icon=7578705,g={
 h(-12,{
 ach(62537),
 ach(62536),
@@ -42389,18 +42389,20 @@ ach(62523),
 ach(62534)}),
 flt(101,{
 p(5019,{coords={
-[2585]={{55.8,49.6}}},cost={{"i",242639,1}},itemID=269836,npcID=261684,providers={{"n",263355}},spellID=1286634}),
-p(5017,{coords={
-[2585]={{49.5,78.3}}},description="You need to mount up on the Void-Corrupted Hex Eagle and step into the tornado at the corner of the pillar at the given coordinates.",itemID=269829,npcID=261676,spellID=1286610})}),
-flt(100,{
-mnt(1286606,{coords={
-[2585]={{50.6,47.3},{51.5,47.8}}},cost={{"i",271999,1}},itemID=269828,providers={{"n",263527}}}),
-mnt(1261362,{coords={
-[2585]={{55.8,38.8}}},cost={{"i",242639,5}},description="Summon 'Chubs' at the Meat Piles. Defeat Angry Amani Warbears and then use 5x Practically Pork.",itemID=257225})}),
+[2585]={{55.8,49.6}}},cost={{"i",242639,1}},itemID=269836,npcID=261684,providers={{"n",263355}},spellID=1286634})}),
 h(-56,{
+o(649115,{coords={
+[2585]={{55.8,38.8}}},cost={{"i",242639,5}},description="Summon Pet 'Chubs' at the Meat Piles. Defeat Angry Amani Warbear. Once it turns friendly, feed it.",g={
+mnt(1261362,{itemID=257225})}}),
 o(649209,{coords={
-[2585]={{51.5,47.9}}},g={
-i(271999)}})})}}),
+[2585]={{51.5,47.8}}},g={
+i(271999)}}),
+o(649189,{coords={
+[2585]={{50.6,47.3}}},cost={{"i",271999,1}},crs={263527},description="Find the Misplaced Ritual Candle nearby and place it on the appropriate place. After that, begin the ritual.",g={
+mnt(1286606,{itemID=269828})}}),
+o(649412,{coords={
+[2585]={{45.8,64.8},{49.5,78.3}}},description="You need to be mounted on the 'Void-Corrupted Hex Eagle' in order to see the Updraft at the corner of the pillar in the southern part of the Ritual Site.\nStep into the Updraft to be flown to the nest.",g={
+p(5017,{itemID=269829,npcID=261676,spellID=1286610})}})})}}),
 m(2594,{coords={
 [2395]={{37.6,65.3}}},crs={260103},icon=3012072,g={
 h(-12,{
