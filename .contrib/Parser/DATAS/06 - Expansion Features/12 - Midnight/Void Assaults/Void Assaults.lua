@@ -186,41 +186,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["coord"] = { 48.1, 49.9, MAP.MIDNIGHT.SILVERMOON_CITY },
 					-- This quest unlocks the 'Ritual Sites' faction
 				}),
-				q(94382, {	-- Ritual Problems
-					["sourceQuest"] = 94383,	-- Ritual Interest
-					["qg"] = 257416,	-- Lady Darkglen
-					["coord"] = { 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
-				}),
-				q(95933, {	-- Traces in the Dark
-					["sourceAchievement"] = 62569,	-- Traces in the Dark
-					["qg"] = 263121,	-- Mayven Ombrewing
-					["coord"] = { 47.9, 49.4, MAP.MIDNIGHT.SILVERMOON_CITY },
-				}),
-				-- Sorted but unsorted (not sure what sourceQuest or action for it)
-				-- Exo: Unconfirmed, but I am pretty sure this unlocks after you have completed at least 1 Ritual Site
-				q(95550, {	-- Thin Their Ranks
-					--["sourceQuest"] = ???,	-- ???
-					["qg"] = 257411,	-- Ranger Captain Lilatha
-					["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
-				}),
-				q(95552, {	-- Dark Obelisk Investigation
-					--["sourceQuest"] = ???,	-- ???
-					["qg"] = 257416,	-- Lady Darkglen
-					["coord"] = { 47.7, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
-				}),
-				q(95553, {	-- Manifested Density
-					--["sourceQuest"] = ???,	-- ???
-					["qg"] = 257411,	-- Ranger Captain Lilatha
-					["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
-				}),
-				q(95549, {	-- Raising Magical Alarms
-					--["sourceQuest"] = ???,	-- ???
-					["qg"] = 257416,	-- Lady Darkglen
-					["coord"] = { 47.7, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
-					["groups"] = {
-						i(271094),	-- Lady Darkglen's Device (QI!)
-					},
-				}),
 				-- Repeatable Quests, Assaults are weekly per zone. 1 week is in Eversong, 1 week is in Zul'Aman
 				q(94385, {	-- Void Assaults: Eversong Woods
 					["sourceQuest"] = 94381,	-- Outfitting and Allies
@@ -1485,6 +1450,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
 			}),
 			n(QUESTS, {
+				q(94382, {	-- Ritual Problems
+					["sourceQuest"] = 94383,	-- Ritual Interest
+					["qg"] = 257416,	-- Lady Darkglen
+					["coord"] = { 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95933, {	-- Traces in the Dark
+					["sourceAchievement"] = 62569,	-- Traces in the Dark
+					["qg"] = 263121,	-- Mayven Ombrewing
+					["coord"] = { 47.9, 49.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				-- These unlock after you have completed at least 1 Ritual Site
+				q(95550, {	-- Thin Their Ranks
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257411,	-- Ranger Captain Lilatha
+					["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95552, {	-- Dark Obelisk Investigation
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257416,	-- Lady Darkglen
+					["coord"] = { 47.7, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95553, {	-- Manifested Density
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257411,	-- Ranger Captain Lilatha
+					["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+				}),
+				q(95549, {	-- Raising Magical Alarms
+					--["sourceQuest"] = ???,	-- ???
+					["qg"] = 257416,	-- Lady Darkglen
+					["coord"] = { 47.7, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["groups"] = {
+						i(271094),	-- Lady Darkglen's Device (QI!)
+					},
+				}),
 				q(95551, {	-- Misappropriated Treasures
 					["providers"] = {	-- All of these trigger the Quest and also serve as Quest Items
 						{ "i", 271428 },	-- Crystalline Treasure (QS!/QI!)

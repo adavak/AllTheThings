@@ -7675,6 +7675,7 @@ hqt(93170,{isWeekly=1}),
 hqt(93861,{isWeekly=1}),
 hqt(93863,{isWeekly=1}),
 hqt(93864,{isWeekly=1}),
+hqt(91414),
 hqt(91415,{repeatable=1})})}),
 h(-741,{awp=120005,g={
 h(-45,{

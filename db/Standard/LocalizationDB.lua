@@ -1730,6 +1730,7 @@ localize(L.HEADER_NAMES, {
 	[-746] = "Profession Nodes",
 	[-748] = "Fanta",
 	[-749] = "Decor Duel",
+	[-750] = "Phase Conduits",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -1848,6 +1849,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-736] = "This section is for real world promotions that seeped extremely rare content into the game prior to some of them appearing within the In-Game Shop.",
 	[-748] = "Go to https://www.coca-cola.com/us/en/offerings/fanta/wanta-fanta/come-get-it, play a short game and get 1 reward per week. Sweepstakes starts on April 1, 2026 and ends at 11:59 pm ET on July 30, 2026 or once all rewards have been claimed, whichever occurs first. 2392 of each reward available per week. Resets at 12:00 am ET weekly. No purchase necessary.",
 	[-749] = "Decor Duel is a team-based prop hunt event in Silvermoon City, offering a fun activity to escape the madness of the Void invasion with a friendly magical game of hide and seek.\n\nPlayers can access the Decor Duel queue through the Quick Match section in the PvP tab of the Group Finder. Teams of up to 5 can queue up together for this casual PvP activity. Groups of 1 to 4 players will be matched with other random queuers.",
+	[-750] = "Phase Conduits are teleporters used to enter, exit, and instantly move around the Untethered Space (Phase Diving). All but two locations (on Vanquisher's Wake) are connected with each other.",
 });
 localize(L.HEADER_LORE, {
 	[-74] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -2454,6 +2456,7 @@ localize(L.HEADER_ICONS, {
 	[-746] = 4622272,
 	[-748] = 4672182,
 	[-749] = 1392559,
+	[-750] = 6654410,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
