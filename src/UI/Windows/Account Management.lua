@@ -2166,7 +2166,10 @@ app:CreateWindow("Account Management", {
 					app:ShowPopupDialogWithEditBox("Please type the name of the character to link to.", "", function(cmd)
 						if cmd and cmd ~= "" then
 							-- Prevent server names.
+							-- TODO: Refactor this restriction because people are lazy and have same character name on various servers
 							cmd = ("-"):split(cmd);
+							-- Also title case the name because we can't trust people to type the name correctly
+							cmd = cmd:lower():gsub("^%l", string.upper);
 							LinkedCharacters[cmd] = true;
 							SendAddonMessage(cmd, "Link " .. cmd, "link," .. GetSyncIdentityToken());
 							self:Rebuild();
