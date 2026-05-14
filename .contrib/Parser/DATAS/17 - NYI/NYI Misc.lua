@@ -1218,7 +1218,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(193057),	-- 10.0 Placeholder Enchanting Crystal
 			i(193067),	-- Acadia's Tools [DNT/Unused]
 			i(200964),	-- Alliance Dueling Flag
-			i(192684),	-- Ancient War Tusk
 			i(201175),	-- Arakkoa Ritual Feather
 			i(193448),	-- Arcane Cell
 			i(201823),	-- Arcane-Infused Webbing
@@ -2163,7 +2162,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(267573),	-- Cracked Medal of Conquest
 			i(251774),	-- Crate of Holy Relics
 			i(237515),	-- Crimson Ore
-			i(262724),	-- Currency Wallet
 			i(254256),	-- Delver's Bounty
 			i(254257),	-- Delver's Bounty
 			i(254258),	-- Delver's Bounty

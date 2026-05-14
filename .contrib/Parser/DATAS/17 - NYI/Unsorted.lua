@@ -665,7 +665,6 @@ root(ROOTS.Unsorted, {
 				i(271342),	-- Galactic Void Matrix
 				i(272893),	-- Icy Harness
 				i(259472),	-- Lost Revantusk Possessions
-				i(260621),	-- Magic-Infused Bark
 				i(267381),	-- Official G.G.R. Rehydration Container
 				i(267352),	-- Pocket Rainbow
 				i(267353),	-- Pocket Sand

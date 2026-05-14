@@ -644,6 +644,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 			--q(95539),	-- unflagged when looted some ore in zone (Zul'Aman) during prey (hard mode)
 			q(91414),	-- Flags and unflags after accepting and completing Random Prey contracts
 			q(91415),	-- After choosing a Preference Killing
+			q(97115),	-- First Preference Killing of the week
 		}),
 	}),
 }));

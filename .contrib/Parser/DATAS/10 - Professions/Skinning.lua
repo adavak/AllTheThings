@@ -1016,6 +1016,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				i(263461),	-- Thalassian Skinner's Notes
 			},
 		},{
+			q(93713),	-- Essential Materials
 			q(93714),	-- Minor Scales
 			q(93712),	-- Style and Skill
 			q(93710),	-- Tempered in Darkness

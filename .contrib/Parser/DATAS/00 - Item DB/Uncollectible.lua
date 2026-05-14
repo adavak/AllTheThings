@@ -1520,6 +1520,7 @@ i(201210);	-- Albino Feather
 i(200804);	-- Ancestor's Scales
 i(192608);	-- Ancient Resin
 i(201220);	-- Ancient Tool
+i(192684);	-- Ancient War Tusk
 i(192717);	-- Animated Splinter
 i(194884);	-- Annoy-o-Tron Gang
 i(192646);	-- Aqueous Speck

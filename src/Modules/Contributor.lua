@@ -2173,6 +2173,7 @@ MobileDB.GameObject = {
 	[349593] = true,	-- Banner of Remembrance
 	[349607] = true,	-- Soul Cage
 	[349613] = true,	-- Banner of Remembrance (q:61342)
+	[349614] = true,	-- Banner of Remembrance (q:61342)
 	[349885] = true,	-- Guide To Marching (q:58622)
 	[350064] = true,	-- Battered Scrollcase (q:58771)
 	[350065] = true,	-- Creased Scroll (q:58771)

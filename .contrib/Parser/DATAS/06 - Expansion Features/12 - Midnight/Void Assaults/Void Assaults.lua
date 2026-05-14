@@ -1568,6 +1568,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						{ 48.6, 81.6, NAIGTAL },
 						{ 60.2, 16.1, VAL },
 					},
+					["timeline"] = { ADDED_12_0_7 },
 					["groups"] = {	-- All items are (COSMETIC!)
 						n(WEAPONS, sharedData({
 							["cost"] = {
@@ -1665,6 +1666,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						{ 48.1, 83.3, NAIGTAL },
 						{ 63.7, 21.2, VAL },
 					},
+					["timeline"] = { ADDED_12_0_7 },
 					["groups"] = sharedData({
 						["cost"] = {
 							{ "c", FIELD_ACCOLADE,  60 },
