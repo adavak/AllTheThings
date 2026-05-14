@@ -1700,10 +1700,13 @@ local AccountWideQuestsDB = {
 	82442,	-- Keep Up Appearances
 	82676,	-- Broken Masquerade
 	82689,	-- Only Darkness
+	82770,	-- Ensemble: Earthen Copper Regalia
 	82775,	-- Quickchange Artist
 	82781,	-- Attention-Getter
 	82782,	-- Authenticity in Dress
 	82784,	-- Resonant Performance
+	82788,	-- Quest #82788*
+	82789,	-- Quest #82789*
 	82809,
 	82833,	-- Quest #82833*
 	82998,	-- Beledar's Attunement
@@ -2652,6 +2655,7 @@ local AccountWideQuestsDB = {
 	93880,	-- Delver's Starter Kit
 	93881,	-- Delver's Cosmetic Surprise Bag
 	93922,	-- A Singular Focus Unleashed
+	93923,	-- Tenacity of the Shul'ka
 	93924,	-- An Unrelenting March
 	93943,	-- Ancient Curiosity: Combat
 	93945,	-- Ancient Curiosity: Utility
@@ -2728,6 +2732,7 @@ local AccountWideQuestsDB = {
 	94681,	-- Warden of Weeds weekly reputation obtained.
 	94682,	-- Harried Hawkstrider weekly reputation obtained.
 	94683,	-- Necrohexxer Raz'ka weekly reputation obtained.
+	94684,	-- Overfester Hydra weekly reputation obtained.
 	94685,	-- Bloated Snapdragon weekly reputation
 	94686,	-- Cre'van weekly reputation obtained.
 	94687,	-- Coralfang weekly reputation
@@ -2798,8 +2803,10 @@ local AccountWideQuestsDB = {
 	95003,	-- Quest #95003*
 	95166,	-- Pet the Dog (245551)
 	95268,	-- New Tools, New Heights
+	95271,	-- The Ascendant Nilhammer
 	95324,	-- The War Beyond the Roots
 	95373,	-- A Nebulous Endeavour
+	95375,	-- Quest #95375*
 	95406,	-- Lost Animals
 	95413,	-- Community Engagement
 	95416,	-- Going Postal
@@ -2827,6 +2834,7 @@ local AccountWideQuestsDB = {
 	96124,	-- A Small Bundle of Goods
 	96214,	-- Tracking Quest
 	96215,	-- Tracking Quest
+	97115,	-- Quest #97115*
 
 	-- Weird partial cases... ??
 	-- 45237,	-- Ensemble: Funerary Plate of the Chosen Dead (Only flags complete for Plate characters)
