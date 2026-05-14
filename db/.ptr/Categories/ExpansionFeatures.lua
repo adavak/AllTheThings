@@ -41891,23 +41891,6 @@ q(94381,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},sourceQuests={96080}}),
 q(94383,{coords={
 [2393]={{48.1,49.9}}},description="Becomes available after accepting 'Outfitting and Allies' (94381).",qgs={257415},sourceQuests={96080}}),
-q(94382,{coords={
-[2393]={{47.7,49.6}}},qgs={257416},sourceQuests={94383}}),
-q(95933,{coords={
-[2393]={{47.9,49.4}}},qgs={263121},sourceAchievements={62569}}),
-q(95550,{coords={
-[2393]={{48.1,49.7}}},qgs={257411},g={
-crit(113703,{achID=62621,id=4})}}),
-q(95552,{coords={
-[2393]={{47.7,49.7}}},qgs={257416},g={
-crit(113705,{achID=62621,id=6})}}),
-q(95553,{coords={
-[2393]={{48.1,49.7}}},qgs={257411},g={
-crit(113706,{achID=62621,id=7})}}),
-q(95549,{coords={
-[2393]={{47.7,49.7}}},qgs={257416},g={
-i(271094,{spellID=1288474}),
-crit(113702,{achID=62621,id=3})}}),
 q(94385,{coords={
 [2393]={{48.1,49.7}}},isWeekly=1,qgs={257411},sourceQuests={94381},g={
 i(264914,{f=55}),
@@ -41953,10 +41936,15 @@ q(96233,{coords={
 ah(63325,{awp=120007,type="a",g={
 q(96410,{coords={
 [2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96233}}),
-q(96831,{description="You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",isBreadcrumb=1,isWeekly=1,nextQuests={96441},sourceQuests={96410}}),
+q(96831,{description="You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",isBreadcrumb=1,isWeekly=1,nextQuests={96441,96442},sourceQuests={96410}}),
 q(96441,{coords={
-[2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96831},g={
-i(274576)}})}})}),
+[2649]={{60.4,10.4}}},qgs={264069},sourceQuests={96410,96831},g={
+i(274576)}}),
+hqt(97139,{coords={
+[2649]={{59.7,10.9}}},description="Dialogue becomes available after completing 'Seeking Knowledge Week 2 of 5: Ritualized Arcana' (96441).",qgs={264070},sourceQuests={96441}}),
+q(96442,{coords={
+[2649]={{59.7,10.9}}},qgs={264070},sourceQuests={96441,96831},g={
+i(274577)}})}})}),
 h(-47,{
 flt(101,{
 p(5040,{description="This pet can drop only during Void Assault in Eversong Woods.",itemID=270990,npcID=262788,spellID=1288381}),
@@ -42450,7 +42438,7 @@ s(303202,263952,{f=28}),
 s(303209,263959,{f=1})}})}})})}}),
 h(-742,{awp=120005,maps={2395,2437},g={
 m(2585,{coords={
-[2437]={{29.6,77.9}}},icon=7578705,g={
+[2437]={{29.6,77.9}}},crs={260104},icon=7578705,g={
 h(-12,{
 ach(62537),
 ach(62536),
@@ -42461,18 +42449,20 @@ ach(62523),
 ach(62534)}),
 flt(101,{
 p(5019,{coords={
-[2585]={{55.8,49.6}}},cost={{"i",242639,1}},itemID=269836,npcID=261684,providers={{"n",263355}},spellID=1286634}),
-p(5017,{coords={
-[2585]={{49.5,78.3}}},description="You need to mount up on the Void-Corrupted Hex Eagle and step into the tornado at the corner of the pillar at the given coordinates.",itemID=269829,npcID=261676,spellID=1286610})}),
-flt(100,{
-mnt(1286606,{coords={
-[2585]={{50.6,47.3},{51.5,47.8}}},cost={{"i",271999,1}},itemID=269828,providers={{"n",263527}}}),
-mnt(1261362,{coords={
-[2585]={{55.8,38.8}}},cost={{"i",242639,5}},description="Summon 'Chubs' at the Meat Piles. Defeat Angry Amani Warbears and then use 5x Practically Pork.",itemID=257225})}),
+[2585]={{55.8,49.6}}},cost={{"i",242639,1}},itemID=269836,npcID=261684,providers={{"n",263355}},spellID=1286634})}),
 h(-56,{
+o(649115,{coords={
+[2585]={{55.8,38.8}}},cost={{"i",242639,5}},description="Summon Pet 'Chubs' at the Meat Piles. Defeat Angry Amani Warbear. Once it turns friendly, feed it.",g={
+mnt(1261362,{itemID=257225})}}),
 o(649209,{coords={
-[2585]={{51.5,47.9}}},g={
-i(271999)}})})}}),
+[2585]={{51.5,47.8}}},g={
+i(271999)}}),
+o(649189,{coords={
+[2585]={{50.6,47.3}}},cost={{"i",271999,1}},crs={263527},description="Find the Misplaced Ritual Candle nearby and place it on the appropriate place. After that, begin the ritual.",g={
+mnt(1286606,{itemID=269828})}}),
+o(649412,{coords={
+[2585]={{45.8,64.8},{49.5,78.3}}},description="You need to be mounted on the 'Void-Corrupted Hex Eagle' in order to see the Updraft at the corner of the pillar in the southern part of the Ritual Site.\nStep into the Updraft to be flown to the nest.",g={
+p(5017,{itemID=269829,npcID=261676,spellID=1286610})}})})}}),
 m(2594,{coords={
 [2395]={{37.6,65.3}}},crs={260103},icon=3012072,g={
 h(-12,{
@@ -42801,6 +42791,23 @@ crit(115048,{achID=62896,id=11,providers={{"n",267636}}})}})}),
 h(-29,{
 i(269817)}),
 h(-45,{
+q(94382,{coords={
+[2393]={{47.7,49.6}}},qgs={257416},sourceQuests={94383}}),
+q(95933,{coords={
+[2393]={{47.9,49.4}}},qgs={263121},sourceAchievements={62569}}),
+q(95550,{coords={
+[2393]={{48.1,49.7}}},qgs={257411},g={
+crit(113703,{achID=62621,id=4})}}),
+q(95552,{coords={
+[2393]={{47.7,49.7}}},qgs={257416},g={
+crit(113705,{achID=62621,id=6})}}),
+q(95553,{coords={
+[2393]={{48.1,49.7}}},qgs={257411},g={
+crit(113706,{achID=62621,id=7})}}),
+q(95549,{coords={
+[2393]={{47.7,49.7}}},qgs={257416},g={
+i(271094,{spellID=1288474}),
+crit(113702,{achID=62621,id=3})}}),
 q(95551,{providers={{"i",271428}},qis={271427,271429,271430},g={
 crit(113704,{achID=62621,id=5})}}),
 q(95554,{providers={{"i",271644}},g={

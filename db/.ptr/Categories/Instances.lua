@@ -21102,7 +21102,13 @@ h(-19,{crs={55265,55294,55308,55312,55689,56427},g={
 cu(614,{description="Used to buy uncut gems contained in Crystalline Geode from vendor Dasnurimi in Wyrmrest Temple."})}}),
 h(-58,{
 n(58153,{
-i(78890,{b=1,cost={{"c",614,1}},description="Contains random uncut Cataclysm gems.",spellID=109946}),
+i(78890,{b=1,cost={{"c",614,1}},description="Contains random uncut Cataclysm gems.",spellID=109946,g={
+i(71807),
+i(71810),
+i(71808),
+i(71806),
+i(71805),
+i(71809)}}),
 i(78891,{b=1,cost={{"c",615,1}},spellID=109947})}),
 n(188112,{awp=90205,g={
 i(191734,{b=1,f=55,spellID=371050})}})}),
@@ -64413,6 +64419,8 @@ h(-45,{awp=120005,rwp=120100,g={
 q(96936,{sourceAchievements={63097},g={
 i(275436,{f=55})}})}}),
 h(-47,{awp=120005,rwp=120100,g={
+i(268650,{f=55,spellID=1283168,g={
+i(268552,{f=55,spellID=1282778})}}),
 i(268465),
 i(268466),
 i(268473),

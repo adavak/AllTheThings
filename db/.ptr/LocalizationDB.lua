@@ -1730,6 +1730,7 @@ localize(L.HEADER_NAMES, {
 	[-746] = "Profession Nodes",
 	[-748] = "Fanta",
 	[-749] = "Decor Duel",
+	[-750] = "Phase Conduits",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -1848,6 +1849,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-736] = "This section is for real world promotions that seeped extremely rare content into the game prior to some of them appearing within the In-Game Shop.",
 	[-748] = "Go to https://www.coca-cola.com/us/en/offerings/fanta/wanta-fanta/come-get-it, play a short game and get 1 reward per week. Sweepstakes starts on April 1, 2026 and ends at 11:59 pm ET on July 30, 2026 or once all rewards have been claimed, whichever occurs first. 2392 of each reward available per week. Resets at 12:00 am ET weekly. No purchase necessary.",
 	[-749] = "Decor Duel is a team-based prop hunt event in Silvermoon City, offering a fun activity to escape the madness of the Void invasion with a friendly magical game of hide and seek.\n\nPlayers can access the Decor Duel queue through the Quick Match section in the PvP tab of the Group Finder. Teams of up to 5 can queue up together for this casual PvP activity. Groups of 1 to 4 players will be matched with other random queuers.",
+	[-750] = "Phase Conduits are teleporters used to enter, exit, and instantly move around the Untethered Space (Phase Diving). All but two locations (on Vanquisher's Wake) are connected with each other.",
 });
 localize(L.HEADER_LORE, {
 	[-74] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -2454,6 +2456,7 @@ localize(L.HEADER_ICONS, {
 	[-746] = 4622272,
 	[-748] = 4672182,
 	[-749] = 1392559,
+	[-750] = 6654410,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -13164,8 +13167,11 @@ local ObjectNames = {
 	[645182] = "Crystalline Treasure",
 	[645183] = "Ethereal Treasure",
 	[645184] = "Sculpted Treasure",
+	[649115] = "Chewed Meat",
+	[649189] = "Ritual Circle",
 	[649209] = "Misplaced Ritual Candle",
 	[649380] = "Washed Up Kelp",
+	[649412] = "Void-Tainted Nest",
 	[9000000] = "Wind Sculpted Stone",
 	[9000001] = "Ancient Incense Brazier",
 	[9000002] = "Ancient Incense Brazier",
@@ -22174,8 +22180,11 @@ local ObjectModels = {
 	[645182] = 1687827,
 	[645183] = 196155,
 	[645184] = 4209086,
+	[649115] = 198343,
+	[649189] = 5975159,
 	[649209] = 5975162,
 	[649380] = 1569583,
+	[649412] = 1279713,
 }; _.ObjectModels = ObjectModels;
 -- Consolidated Object Data
 local ALLIANCE_BONFIRES = { 187564,187914,187916,187917,187919,187920,187921,187922,187923,187924,187925,187926,187927,187928,187929,187930,187931,187932,187933,187934,187935,187936,187937,187938,187939,187940,187941,187942,187943,187944,187945,187946,194032,194035,194036,194038,194040,194044,194045,194049,207982,207984,207985,207987,207988,207993,208089,208093,217851,259871,259927,316788,316791,316793 };
@@ -26021,6 +26030,7 @@ L.QUEST_NAMES = {
 	[95136] = "MID Inscription Order: Skinning",
 	[95137] = "MID Inscription Order: Tailoring",
 	[95138] = "MID Inscription Order: Engineering",
+	[97139] = "Stay awhile and listen: Grand Magister Rommath",
 }
 L.SOURCE_NAMES = {
 	[90628] = "Monel-Hardened Breastplate",
@@ -33854,6 +33864,9 @@ localize(ObjectNames, {
 	[633815] = "Modriges Tagebuch",
 	[633820] = "Weggeworfene Schriftrolle",
 	[633823] = "Abschiedsbrief",
+	[649115] = "Angekautes Fleisch",
+	[649189] = "Ritualkreis",
+	[649412] = "Leerenbesudeltes Nest",
 	[9999908] = "|cFFFFFFFFSchritt 1:|r Gather Consumables.",
 	[9999909] = "|cFFFFFFFFSchritt 2:|r Caverns of Consumption",
 	[9999910] = "|cFFFFFFFFSchritt 3:|r Fire Barrier",
@@ -41571,6 +41584,9 @@ localize(ObjectNames, {
 	[633815] = "Journal moisi",
 	[633820] = "Parchemin abandonné",
 	[633823] = "Note d’adieu",
+	[649115] = "Viande mâchonnée",
+	[649189] = "Cercle rituel",
+	[649412] = "Nid corrompu par le Vide",
 	[9000000] = "Pierre de vent sculptée",
 	[9999908] = "|cFFFFFFFFÉtape 1:|r Rassemblez les consommables.",
 	[9999909] = "|cFFFFFFFFÉtape 2:|r Caverns of Consumption",
@@ -48236,6 +48252,7 @@ localize(ObjectNames, {
 	[633815] = "Diario Ammuffito",
 	[633820] = "Pergamena Scartata",
 	[633823] = "Messaggio d'Addio",
+	[649189] = "Circolo del Rituale",
 	[9999912] = "|cFFFFFFFFStep 5:|r Guardiano Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Guardia di Pietra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Strana Pietra",
@@ -55371,6 +55388,8 @@ localize(ObjectNames, {
 	[633815] = "Diário Mofado",
 	[633820] = "Pergaminho Descartado",
 	[633823] = "Bilhete de Partida",
+	[649189] = "Círculo Ritual",
+	[649412] = "Ninho Maculado de Caos",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigia Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Observador de Pedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Pedra Estranha",
@@ -63535,6 +63554,9 @@ localize(ObjectNames, {
 	[633815] = "Покрытый плесенью дневник",
 	[633820] = "Выброшенный свиток",
 	[633823] = "Прощальная записка",
+	[649115] = "Пожеванное мясо",
+	[649189] = "Ритуальный круг",
+	[649412] = "Оскверненное Бездной гнездо",
 	[9999908] = "|cFFFFFFFFШаг 1:|r Соберите Расходники.",
 	[9999909] = "|cFFFFFFFFШаг 2:|r Пещера Увядания",
 	[9999910] = "|cFFFFFFFFШаг 3:|r Огненный Барьер",
@@ -70145,6 +70167,9 @@ localize(ObjectNames, {
 	[633815] = "곰팡이 슨 일기",
 	[633820] = "버려진 두루마리",
 	[633823] = "작별 쪽지",
+	[649115] = "물어뜯긴 고기",
+	[649189] = "의식 진",
+	[649412] = "공허에 오염된 둥지",
 	[9999912] = "|cFFFFFFFFStep 5:|r 성실한 감시자",
 	[9999915] = "|cFFFFFFFFStep 8:|r 바위 감시병",
 	[9999917] = "|cFFFFFFFFStep 10:|r 이상한 돌",
@@ -78284,6 +78309,9 @@ localize(ObjectNames, {
 	[633815] = "Diario mohoso",
 	[633820] = "Pergamino desechado",
 	[633823] = "Nota de despedida",
+	[649115] = "Carne mordisqueada",
+	[649189] = "Círculo ritual",
+	[649412] = "Nido contaminado del Vacío",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigía diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Vigía de piedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Piedra extraña",
@@ -86636,6 +86664,9 @@ localize(ObjectNames, {
 	[633814] = "烧焦的纸片",
 	[633815] = "发霉的日记",
 	[633820] = "丢弃的卷轴",
+	[649115] = "碎烂的肉",
+	[649189] = "仪式法阵",
+	[649412] = "虚空侵染的巢穴",
 	[9000000] = "微风雕塑之石",
 	[9999908] = "|cFFFFFFFF第1步:|r 收集消耗品",
 	[9999909] = "|cFFFFFFFF第2步:|r 吞噬洞穴",
@@ -88231,6 +88262,9 @@ localize(ObjectNames, {
 	[633814] = "燒焦的碎紙片",
 	[633815] = "發黴的日記",
 	[633820] = "被丟棄的卷軸",
+	[649115] = "被咬過的肉",
+	[649189] = "儀式法陣",
+	[649412] = "虛無污化鷹巢",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({

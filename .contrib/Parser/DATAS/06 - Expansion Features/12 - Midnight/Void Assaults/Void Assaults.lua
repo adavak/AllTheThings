@@ -312,13 +312,34 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["sourceQuest"] = 96410,	-- Seeking Knowledge: The Omnium Folio
 						["description"] = "You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",	-- Or will it pop-up on first log-in when eligible?
 						["isBreadcrumb"] = true,
-						["isWeekly"] = true,	-- Unflagged at first relog. My best guess is that this one will be a breadcrumb for all the 'Seeking Knowledge Week X of 5' quests.	-- Exo
+						["isWeekly"] = true,	-- Unflags at first relog. This is a breadcrumb for all the 'Seeking Knowledge Week X of 5' quests.	-- Exo
 					}),
 					q(96441, {	-- Seeking Knowledge Week 2 of 5: Ritualized Arcana
-						["sourceQuest"] = 96831,	-- Magister's Summons
+						["sourceQuests"] = {
+							96831,	-- Magister's Summons
+							96410,	-- Seeking Knowledge: The Omnium Folio
+						},
 						["qg"] = 264069,	-- Magister Umbric
 						["coord"] = { 60.4, 10.4, 2649 },	-- The Lycaneum, Magister's Terrace
 						["groups"] = { i(274576) },	-- Ritualized Arcana (QI!)
+					}),
+					------ Stay awhile and listen ------
+					hqt(97139, {	-- Stay awhile and listen: Grand Magister Rommath
+						["name"] = "Stay awhile and listen: Grand Magister Rommath",
+						["description"] = "Dialogue becomes available after completing 'Seeking Knowledge Week 2 of 5: Ritualized Arcana' (96441).",
+						["sourceQuest"] = 96441,	-- Seeking Knowledge Week 2 of 5: Ritualized Arcana
+						["qg"] = 264070,	-- Grand Magister Rommath
+						["coord"] = { 59.7, 10.9, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					--
+					q(96442, {	-- Seeking Knowledge Week 3 of 5: Leyline Assaults
+						["sourceQuests"] = {
+							96831,	-- Magister's Summons
+							96441,	-- Seeking Knowledge Week 2 of 5: Ritualized Arcana
+						},
+						["qg"] = 264070,	-- Grand Magister Rommath
+						["coord"] = { 59.7, 10.9, 2649 },	-- The Lycaneum, Magister's Terrace
+						["groups"] = { i(274577) },	-- Dark-Ley Coalescence (QI!)
 					}),
 				})),
 			}),

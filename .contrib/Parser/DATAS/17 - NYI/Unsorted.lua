@@ -402,7 +402,6 @@ root(ROOTS.Unsorted, {
 				i(269666),	-- Feather of Jan'alai
 				i(272975),	-- Hal'Hadar Keeper Keycode
 				i(273844),	-- Shaja's Cleansing Vial
-				i(274577),	-- Dark-Ley Coalescence
 				i(274580),	-- Primessence of Disorder
 				i(274913),	-- Brazier Pieces
 				i(274924),	-- Spore Infused Lungs
