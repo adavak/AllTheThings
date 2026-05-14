@@ -1213,24 +1213,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								}),
 							},
 						}),
-						n(265581, {	-- Zuronar <Lightveil Artificer>
-							["coord"] = { 48.1, 83.3, NAIGTAL },
-							["groups"] = sharedData({
-								["cost"] = {
-									{ "c", FIELD_ACCOLADE,  60 },
-									{ "c", VOIDLIGHT_MARL, 500 },
-								},
-							}, {
-								i(276301),	-- Lightruned Crystal Beacon (COSMETIC!)
-								i(276289),	-- Lightveil Argunite Blade (COSMETIC!)
-								iensemble(276364, {	-- Arsenal: Lightforged Armaments (COSMETIC!)
-									["sourceAchievements"] = {
-										62883,	-- Showdown Slugger: Naigtal
-										62881,	-- Showdown Slugger: Val
-									},
-								}),
-							}),
-						}),
 					}),
 					n(WORLD_QUESTS, bubbleDownFiltered({
 						["isWorldQuest"] = true,
@@ -1321,7 +1303,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96713, {	-- Showdown on Val
 							["sourceQuest"] = 96051,	-- Through the Cold Rift
 							["qg"] = 263482,	-- Riftblade Maella
-							["coord"] = { 59.3, 19.5, VAL },
+							["coords"] = {
+								{ 59.3, 19.5, VAL },
+								{ 59.5, 22.1, VAL },
+							},
 							["groups"] = { i(275690) },	-- Riftstalker's Cache
 							["isWeekly"] = true,
 						}),
@@ -1674,6 +1659,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							i(275203),	-- Response Team's Vambraces
 						})),
 					},
+				}),
+				n(265581, {	-- Zuronar <Lightveil Artificer>
+					["coords"] = {
+						{ 48.1, 83.3, NAIGTAL },
+						{ 63.7, 21.2, VAL },
+					},
+					["groups"] = sharedData({
+						["cost"] = {
+							{ "c", FIELD_ACCOLADE,  60 },
+							{ "c", VOIDLIGHT_MARL, 500 },
+						},
+					}, {
+						i(276301),	-- Lightruned Crystal Beacon (COSMETIC!)
+						i(276289),	-- Lightveil Argunite Blade (COSMETIC!)
+						iensemble(276364, {	-- Arsenal: Lightforged Armaments (COSMETIC!)
+							["sourceAchievements"] = {
+								62883,	-- Showdown Slugger: Naigtal
+								62881,	-- Showdown Slugger: Val
+							},
+						}),
+					}),
 				}),
 			}),
 		}),
