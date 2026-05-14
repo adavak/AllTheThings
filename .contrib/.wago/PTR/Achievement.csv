@@ -13036,14 +13036,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Crown of the Cosmos (Normal Voidspire)",,61297,2912,-1,0,15542,0,0,1,46,0,0,216740,0,0,0,0
 ,"Crown of the Cosmos (Heroic Voidspire)",,61298,2912,-1,0,15542,0,0,1,47,0,0,216742,0,0,0,0
 ,"Crown of the Cosmos (Mythic Voidspire)",,61299,2912,-1,0,15542,0,0,1,48,0,0,216744,0,0,0,0
-,"Belo'ren, Child of Al'ar (Raid Finder March on Quel'Danas)",,61300,2913,-1,0,15542,0,0,1,57,0,0,216746,0,0,0,0
-,"Belo'ren, Child of Al'ar (Normal March on Quel'Danas)",,61301,2913,-1,0,15542,0,0,1,58,0,0,216748,0,0,0,0
-,"Belo'ren, Child of Al'ar (Heroic March on Quel'Danas)",,61302,2913,-1,0,15542,0,0,1,59,0,0,216750,0,0,0,0
-,"Belo'ren, Child of Al'ar (Mythic March on Quel'Danas)",,61303,2913,-1,0,15542,0,0,1,60,0,0,216752,0,0,0,0
-,"Midnight Falls (Raid Finder March on Quel'Danas)",,61304,2913,-1,0,15542,0,0,1,61,0,0,216754,0,0,0,0
-,"Midnight Falls (Normal March on Quel'Danas)",,61305,2913,-1,0,15542,0,0,1,62,0,0,216756,0,0,0,0
-,"Midnight Falls (Heroic March on Quel'Danas)",,61306,2913,-1,0,15542,0,0,1,63,0,0,216758,0,0,0,0
-,"Midnight Falls (Mythic March on Quel'Danas)",,61307,2913,-1,0,15542,0,0,1,64,0,0,216760,0,0,0,0
+,"Belo'ren, Child of Al'ar (Raid Finder March on Quel'Danas)",,61300,2913,-1,0,15542,0,0,1,53,0,0,216746,0,0,0,0
+,"Belo'ren, Child of Al'ar (Normal March on Quel'Danas)",,61301,2913,-1,0,15542,0,0,1,54,0,0,216748,0,0,0,0
+,"Belo'ren, Child of Al'ar (Heroic March on Quel'Danas)",,61302,2913,-1,0,15542,0,0,1,55,0,0,216750,0,0,0,0
+,"Belo'ren, Child of Al'ar (Mythic March on Quel'Danas)",,61303,2913,-1,0,15542,0,0,1,56,0,0,216752,0,0,0,0
+,"Midnight Falls (Raid Finder March on Quel'Danas)",,61304,2913,-1,0,15542,0,0,1,57,0,0,216754,0,0,0,0
+,"Midnight Falls (Normal March on Quel'Danas)",,61305,2913,-1,0,15542,0,0,1,58,0,0,216756,0,0,0,0
+,"Midnight Falls (Heroic March on Quel'Danas)",,61306,2913,-1,0,15542,0,0,1,59,0,0,216758,0,0,0,0
+,"Midnight Falls (Mythic March on Quel'Danas)",,61307,2913,-1,0,15542,0,0,1,60,0,0,216760,0,0,0,0
 "Collect 1 unique decor of uncommon quality or higher.","Score a Decor",,61308,-1,-1,0,15606,0,10,131072,2,134928,0,216790,0,0,0,0
 "Collect 50 unique decor of uncommon quality or higher.","Amateur Antiquarian",,61309,-1,-1,61308,15606,0,10,131072,3,463484,0,216792,0,0,0,0
 "Collect 100 unique decor of uncommon quality or higher.","Casual Collector",,61310,-1,-1,61309,15606,0,10,131072,4,975742,0,216794,0,0,0,0
@@ -13135,9 +13135,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat 15 Challenge Card exclusive bosses.","The Best There Is",,61466,-1,-1,0,15567,0,10,131072,3,1036482,0,218765,0,0,0,0
 "Complete the Elves of Quel'Thalas Lorewalking Campaign.","Lorewalking: The Elves of Quel'Thalas","Decor Reward: Tome of Silvermoon Intrigue",61467,-1,-1,0,15552,0,5,132096,6,236439,0,218825,0,0,0,0
 ,"Chimaerus, the Undreamt God (Raid Finder Dreamrift)",,61474,2939,-1,0,15542,0,0,1,49,0,0,218846,0,0,0,0
-,"Chimaerus, the Undreamt God (Normal Dreamrift)",,61475,2939,-1,0,15542,0,0,1,54,0,0,218848,0,0,0,0
-,"Chimaerus, the Undreamt God (Heroic Dreamrift)",,61476,2939,-1,0,15542,0,0,1,55,0,0,218850,0,0,0,0
-,"Chimaerus, the Undreamt God (Mythic Dreamrift)",,61477,2939,-1,0,15542,0,0,1,56,0,0,218852,0,0,0,0
+,"Chimaerus, the Undreamt God (Normal Dreamrift)",,61475,2939,-1,0,15542,0,0,1,50,0,0,218848,0,0,0,0
+,"Chimaerus, the Undreamt God (Heroic Dreamrift)",,61476,2939,-1,0,15542,0,0,1,51,0,0,218850,0,0,0,0
+,"Chimaerus, the Undreamt God (Mythic Dreamrift)",,61477,2939,-1,0,15542,0,0,1,52,0,0,218852,0,0,0,0
 "Defeat Chimaerus, the Undreamt God in The Dreamrift on any difficulty.","Chimaerus, the Undreamt God",,61487,2939,-1,0,15566,0,10,131072,7,7448202,0,218874,0,0,0,0
 "Defeat Chimaerus, the Undreamt God in The Dreamrift on Heroic difficulty.","Heroic: Chimaerus, the Undreamt God",,61488,2939,-1,61487,15566,0,10,131072,8,7448202,0,218876,0,0,0,0
 "Defeat Chimaerus, the Undreamt God in The Dreamrift on Mythic difficulty.","Mythic: Chimaerus, the Undreamt God","Title: Dream-Eater",61489,2939,-1,61488,15566,0,10,131072,9,7448202,0,218878,0,0,0,0
@@ -13709,11 +13709,11 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"[DNT] Research Sites: Collection - Lynx Pet - Tracking",,62602,-1,-1,0,15608,0,0,1179648,59,136243,0,225313,0,0,0,0
 ,"[DNT] <Hidden> Mythic+ Rating > 0 (Midnight, any season)",,62603,-1,-1,0,15428,0,0,9568260,5,136243,0,225325,0,0,0,0
 ,"[DNT] Research Sites: Collection - Snapdragon Pet - Tracking",,62605,-1,-1,0,15608,0,0,1179648,60,136243,0,225342,0,0,0,0
-"Complete the quest The Omnium Reawakens.","The Sunstrider Omnium",,62606,-1,-1,0,15610,0,10,131072,44,632353,0,225744,0,0,0,0
-"Complete the quest Seeking Knowledge: Ritualized Arcana.","Ritualized Arcana",,62607,-1,-1,0,15610,0,5,1179648,46,7439232,0,225746,0,0,0,0
-"Complete the quest Seeking Knowledge: Leyline Assaults.","Leyline Assaults",,62608,-1,-1,0,15610,0,5,1179648,47,7439213,0,225748,0,0,0,0
-"Complete the quest Seeking Knowledge: Magical Primeessence.","Magical Primeessence",,62609,-1,-1,0,15610,0,5,1179648,48,2011125,0,225750,0,0,0,0
-"Complete the quest Seeking Knowledge: Off-World Magic.","Off-World Magic",,62610,-1,-1,0,15610,0,5,1179648,49,236855,0,225752,0,0,0,0
+"Complete the quest The Omnium Reawakens.","The Sunstrider Omnium",,62606,-1,-1,0,15610,0,10,131072,48,632353,0,225744,0,0,0,0
+"Complete the quest Seeking Knowledge: Ritualized Arcana.","Ritualized Arcana",,62607,-1,-1,0,15610,0,0,1179648,50,7439232,0,225746,0,0,0,0
+"Complete the quest Seeking Knowledge: Leyline Assaults.","Leyline Assaults",,62608,-1,-1,0,15610,0,0,1179648,51,7439213,0,225748,0,0,0,0
+"Complete the quest Seeking Knowledge: Magical Primeessence.","Magical Primeessence",,62609,-1,-1,0,15610,0,0,1179648,52,2011125,0,225750,0,0,0,0
+"Complete the quest Seeking Knowledge: Off-World Magic.","Off-World Magic",,62610,-1,-1,0,15610,0,0,1179648,53,236855,0,225752,0,0,0,0
 ,"[DNT] Midnight Epic Edition Decor",,62612,-1,-1,0,15268,0,0,3276804,95,136243,0,225372,0,0,0,0
 "Complete the Midnight storylines listed below.","Allied Race: Haranir (copy)","Reward: Haranir Race Unlocked",62620,-1,-1,0,15547,0,0,1048580,13,7448213,0,225376,0,0,0,0
 "Unlock all of the following Ritual Sites challenges.","Challenging Sites",,62621,-1,-1,0,15608,0,20,0,2,236368,0,225380,0,0,0,0
@@ -13754,45 +13754,45 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "[DNT] Tracking achievement for acquiring 90 moths.","[DNT] Moth Hunt - 90 Moths Acquired",,62865,-1,-1,0,15553,0,0,1179648,124,136243,0,226785,0,0,0,0
 "[DNT] Tracking achievement for acquiring 100 moths.","[DNT] Moth Hunt - 100 Moths Acquired",,62866,-1,-1,0,15553,0,0,1179648,125,136243,0,226906,0,0,0,0
 "[DNT] Tracking achievement for acquiring 110 moths.","[DNT] Moth Hunt - 110 Moths Acquired",,62867,-1,-1,0,15553,0,0,1179648,126,136243,0,227027,0,0,0,0
-"Complete the following achievements:","A Trip Around the Stars","Reward: Unlock the Voidmancer's Starcarver for purchase",62873,-1,-1,0,15610,0,15,196608,19,7649260,0,0,0,0,0,0
-"Complete the following achievements:","A Trip Through the Stars","Reward: Unlock the Starmech Cosmic-Collapser for purchase",62874,-1,-1,0,15610,0,15,196608,20,7535090,0,0,0,0,0,0
-"Storms in Val will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 1 - Val - Hidden",,62875,-1,-1,0,15610,0,0,1179652,50,7439192,0,227437,0,0,0,0
-"Spore Storms in Naigtal will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 1 - Naigtal - Hidden",,62876,-1,-1,0,15610,0,0,1179652,52,133693,0,227441,0,0,0,0
-"Storms in Val will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 2 - Val - Hidden",,62877,-1,-1,0,15610,0,0,1179652,51,135798,0,227439,0,0,0,0
-"Spore Storms in Naigtal will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 2 - Naigtal - Hidden",,62878,-1,-1,0,15610,0,0,1179652,53,7501332,0,227443,0,0,0,0
+"Complete the following achievements:","A Trip Around the Stars","Reward: Unlock the Voidmancer's Starcarver for purchase",62873,-1,-1,0,15610,0,15,196608,19,7649260,0,229649,0,0,0,0
+"Complete the following achievements:","A Trip Through the Stars","Reward: Unlock the Starmech Cosmic-Collapser for purchase",62874,-1,-1,0,15610,0,15,196608,20,7535090,0,229650,0,0,0,0
+"Storms in Val will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 1 - Val - Hidden",,62875,-1,-1,0,15610,0,0,1179652,54,7439192,0,227437,0,0,0,0
+"Spore Storms in Naigtal will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 1 - Naigtal - Hidden",,62876,-1,-1,0,15610,0,0,1179652,56,133693,0,227441,0,0,0,0
+"Storms in Val will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 2 - Val - Hidden",,62877,-1,-1,0,15610,0,0,1179652,55,135798,0,227439,0,0,0,0
+"Spore Storms in Naigtal will affect you slower and have a lower total effectiveness.","[DNT] Storm mitigation 2 - Naigtal - Hidden",,62878,-1,-1,0,15610,0,0,1179652,57,7501332,0,227443,0,0,0,0
 "[DNT] Tracking achievement for acquiring 11 moths.","[DNT] Moth Hunt - 1 Moths Acquired",,62879,-1,-1,0,15553,0,0,1179648,115,136243,0,227249,0,0,0,0
 "Complete 8 different World Quests in Val.","Showdown Success: Val","Pet Reward: Required to unlock Silento for purchase",62880,-1,-1,0,15610,0,5,196608,21,4226156,0,227372,0,0,0,0
 "Defeat 6 rare creatures found in Val.","Showdown Slugger: Val","Transmog Reward: Required to unlock Lightforged Armaments for purchase",62881,-1,-1,0,15610,0,5,196608,23,4554459,0,227387,0,0,0,0
 "Complete 8 different World Quests in Naigtal.","Showdown Success: Naigtal","Pet Reward: Required to unlock Silento for purchase",62882,-1,-1,0,15610,0,5,196608,22,451162,0,227398,0,0,0,0
 "Defeat 6 rare creatures found in Naigtal.","Showdown Slugger: Naigtal","Transmog Reward: Required to unlock Lightforged Armaments for purchase",62883,-1,-1,0,15610,0,5,196608,24,4554456,0,227399,0,0,0,0
-"Complete 15 World Quests in Val or Naigtal on Heroic World Tier.","Heroic: Worlds Ahead",,62887,-1,-1,0,15610,0,5,196608,34,7658128,0,227463,0,0,0,0
-"Defeat 5 creatures with the following Affixes in Val or Naigtal.","Power Creep",,62896,-1,-1,0,15610,0,5,196608,36,841379,0,227515,0,0,0,0
-"Defeat 6 creatures with the following Affixes in Val or Naigtal.","Cradle of Power",,62898,-1,-1,0,15610,0,5,196608,37,841380,0,227527,0,0,0,0
-"Defeat 6 creatures with the following Affixes in Val or Naigtal.","Absolute Power",,62899,-1,-1,0,15610,0,5,196608,38,841381,0,227536,0,0,0,0
-"Defeat 6 creatures with the following Affixes in Val or Naigtal.","Power Beyond Measure",,62900,-1,-1,0,15610,0,5,196608,39,841382,0,227545,0,0,0,0
-"Defeat 10 creatures with the following Affixes in Val or Naigtal in Heroic World Tier.","Heroic: Power Creep",,62901,-1,-1,0,15610,0,5,196608,40,841383,0,227555,0,0,0,0
+"Complete 15 World Quests in Val or Naigtal on Heroic World Tier.","Heroic: Worlds Ahead",,62887,-1,-1,0,15610,0,5,196608,38,7658128,0,227463,0,0,0,0
+"Defeat 5 creatures with the following Affixes in Val or Naigtal.","Power Creep",,62896,-1,-1,0,15610,0,5,196608,40,841379,0,227515,0,0,0,0
+"Defeat 6 creatures with the following Affixes in Val or Naigtal.","Cradle of Power",,62898,-1,-1,0,15610,0,5,196608,41,841380,0,227527,0,0,0,0
+"Defeat 6 creatures with the following Affixes in Val or Naigtal.","Absolute Power",,62899,-1,-1,0,15610,0,5,196608,42,841381,0,227536,0,0,0,0
+"Defeat 6 creatures with the following Affixes in Val or Naigtal.","Power Beyond Measure",,62900,-1,-1,0,15610,0,5,196608,43,841382,0,227545,0,0,0,0
+"Defeat 10 creatures with the following Affixes in Val or Naigtal in Heroic World Tier.","Heroic: Power Creep",,62901,-1,-1,0,15610,0,5,196608,44,841383,0,227555,0,0,0,0
 "Dissipate 5 Storms in Val.","Climate Strange: Val",,62903,-1,-1,0,15610,0,5,131072,28,135833,0,227629,0,0,0,0
 "Dissipate 5 Storms in Naigtal.","Climate Strange: Naigtal",,62904,-1,-1,0,15610,0,5,131072,29,627487,0,227644,0,0,0,0
 "Defeat Imperator Pertinax and Nexus-Captain Leth'ir.","Pain of Command",,62905,-1,-1,0,15610,0,5,196608,30,1325312,0,227656,0,0,0,0
-"Defeat Imperator Pertinax and Nexus-Captain Leth'ir in Heroic World Tier.","Heroic: Pain of Command",,62909,-1,-1,0,15610,0,5,196608,43,1307173,0,227659,0,0,0,0
-"Dissipate 5 Storms in Val in Heroic World Tier.","Heroic Climate Strange: Val",,62917,-1,-1,0,15610,0,5,131072,41,429385,0,227822,0,0,0,0
-"Dissipate 5 Storms in Naigtal in Heroic World Tier.","Heroic Climate Strange: Naigtal",,62919,-1,-1,0,15610,0,5,131072,42,775461,0,227826,0,0,0,0
+"Defeat Imperator Pertinax and Nexus-Captain Leth'ir in Heroic World Tier.","Heroic: Pain of Command",,62909,-1,-1,0,15610,0,5,196608,47,1307173,0,227659,0,0,0,0
+"Dissipate 5 Storms in Val in Heroic World Tier.","Heroic Climate Strange: Val",,62917,-1,-1,0,15610,0,5,131072,45,429385,0,227822,0,0,0,0
+"Dissipate 5 Storms in Naigtal in Heroic World Tier.","Heroic Climate Strange: Naigtal",,62919,-1,-1,0,15610,0,5,131072,46,775461,0,227826,0,0,0,0
 "Complete a Tier 6 Ritual Site.","Ritual Sites 612: Practical Ritual Work",,62940,-1,-1,62454,15608,0,15,131072,9,442737,0,0,0,0,0,0
 "Disrupt both the Broken Throne and Daggerspine Point Ritual Sites on Tier 6 with all 8 challenges active. 
 
 This achievement will become a Feat of Strength at the end of Midnight.","Pinnacle Ritual Work","Title: Ritual Breaker",62941,-1,-1,0,15608,0,0,131072,50,236349,0,227969,0,0,0,0
-"Disrupt the Broken Throne Ritual Sites on Tier 6 with all 8 challenges active.","Broken Throne",,62942,-1,-1,0,15608,0,10,1179648,52,236349,0,0,0,0,0,0
-"Disrupt the Daggerspine Point Ritual Sites on Tier 6 with all 8 challenges active.","Daggerspine Point",,62943,-1,-1,0,15608,0,10,1179648,53,236349,0,0,0,0,0,0
-"Unlock Very Bouncy Mushrooms.","Showdown Unlock: Bouncy Mushrooms",,62944,-1,-1,0,15610,0,5,1245184,25,4554456,0,227976,0,0,0,0
-"Unlock the Grappling Hook.","Showdown Unlock: Grapple Skiffs",,62945,-1,-1,0,15610,0,5,1245184,26,4554456,0,227978,0,0,0,0
-"Unlock Naigtal Spores.","Showdown Unlock: Naigtal Spores",,62949,-1,-1,0,15610,0,5,1245184,27,4554456,0,227980,0,0,0,0
+"Disrupt the Broken Throne Ritual Sites on Tier 6 with all 8 challenges active.","Broken Throne",,62942,-1,-1,0,15608,0,0,1179648,52,236349,0,0,0,0,0,0
+"Disrupt the Daggerspine Point Ritual Sites on Tier 6 with all 8 challenges active.","Daggerspine Point",,62943,-1,-1,0,15608,0,0,1179648,53,236349,0,0,0,0,0,0
+"Unlock Very Bouncy Mushrooms.","Showdown Unlock: Bouncy Mushrooms",,62944,-1,-1,0,15610,0,0,1245188,25,4554456,0,227976,0,0,0,0
+"Unlock the Grappling Hook.","Showdown Unlock: Grapple Skiffs",,62945,-1,-1,0,15610,0,0,1245188,26,4554456,0,227978,0,0,0,0
+"Unlock Naigtal Spores.","Showdown Unlock: Naigtal Spores",,62949,-1,-1,0,15610,0,0,1245188,27,4554456,0,227980,0,0,0,0
 "Attain a Mythic+ Rating of at least 3400 during Midnight Season One.","Midnight Keystone Myth: Season One","Title: The Umbral Contender & Item: Timelost Saddle",63097,-1,-1,61258,15272,0,0,133120,189,648753,0,229048,0,0,0,0
 "Complete the Prey Journey before Midnight: Season 1 ends.","Big Prey Hunter (Season 1)",,63164,-1,-1,0,81,0,0,133120,2,7493985,0,228804,0,0,0,0
 "Complete the following advanced studies for Lady Darkglen.","Advanced Ritual Site Studies",,63182,-1,-1,0,15608,0,10,0,51,458721,0,228853,0,0,0,0
-,"Rotmire (Raid Finder Sporefall)",,63233,1592,-1,0,15542,0,0,1,50,0,0,229007,0,0,0,0
-,"Rotmire (Normal Sporefall)",,63234,1592,-1,0,15542,0,0,1,51,0,0,229013,0,0,0,0
-,"Rotmire (Heroic Sporefall)",,63235,1592,-1,0,15542,0,0,1,52,0,0,229011,0,0,0,0
-,"Rotmire (Mythic Sporefall)",,63236,1592,-1,0,15542,0,0,1,53,0,0,229019,0,0,0,0
+,"Rotmire (Raid Finder Sporefall)",,63233,1592,-1,0,15542,0,0,1,61,0,0,229007,0,0,0,0
+,"Rotmire (Normal Sporefall)",,63234,1592,-1,0,15542,0,0,1,62,0,0,229013,0,0,0,0
+,"Rotmire (Heroic Sporefall)",,63235,1592,-1,0,15542,0,0,1,63,0,0,229011,0,0,0,0
+,"Rotmire (Mythic Sporefall)",,63236,1592,-1,0,15542,0,0,1,64,0,0,229019,0,0,0,0
 "Defeat Rotmire in Sporefall on any difficulty.",Rotmire,,63237,1592,-1,0,15566,0,10,131072,31,7852823,0,229023,0,0,0,0
 "Defeat Rotmire in Sporefall on Heroic difficulty.","Heroic: Rotmire",,63240,1592,-1,0,15566,0,10,131072,32,7852823,0,229025,0,0,0,0
 "Defeat Rotmire in Sporefall on Mythic difficulty.","Mythic: Rotmire",,63241,1592,-1,0,15566,0,10,131072,33,7852823,0,229027,0,0,0,0
@@ -13800,10 +13800,14 @@ This achievement will become a Feat of Strength at the end of Midnight.","Pinnac
 "Defeat Rotmire in Sporefall on Heroic difficulty while in a guild group.","Heroic: Rotmire Guild Run",,63246,1592,-1,0,15570,0,10,61440,11,7852823,0,229033,0,0,0,0
 "Defeat Rotmire in Sporefall on Mythic difficulty while in a guild group.","Mythic: Rotmire Guild Run",,63247,1592,-1,0,15570,0,10,61440,12,7852823,0,229035,0,0,0,0
 ,"[DNT]Midnight Keystone Myth: Season One Personal Achievement",,63263,-1,-1,0,15272,0,0,9437188,227,136243,0,228514,0,0,0,0
-"Complete the following achievements:","Heroic Showdowns",,63264,-1,-1,0,15610,0,0,131072,33,255347,0,0,0,0,0,0
-"Defeat a world boss in Naigtal or Val.","Heroic Tendencies","Unlocks Heroic World Tier for Naigtal and Val",63323,-1,-1,0,15610,0,10,131072,32,236497,0,229215,0,0,0,0
+"Complete the following achievements:","Heroic Showdowns",,63264,-1,-1,0,15610,0,15,196608,37,255347,0,229642,0,0,0,0
+"Defeat a world boss in Naigtal or Val.","Heroic Tendencies","Unlocks Heroic World Tier for Naigtal and Val",63323,-1,-1,0,15610,0,10,131072,36,236497,0,229215,0,0,0,0
 "Earn 5 Motes of Omnial Inquiry to use in the Omnium Folio.
 
-Additional decor available from Rae'ana in Silvermoon City.","Omnium Folio Studies","Decor Reward: Sunstrider Omnium Simulacrum",63325,-1,-1,0,15610,0,10,131072,45,7549225,276083,229349,0,0,0,0
-"Defeat 15 rare creatures found in Val or Naigtal on Heroic World Tier.","Heroic Slugger",,63348,-1,-1,0,15610,0,5,196608,35,4554456,0,229606,0,0,0,0
-"Kill 100 enemies while controlling the Ultradon Slayer on the World Quest Until it is Done on Val.","Ultradon Carnage","Pet Reward: Unlock Frosticus Maxiums for purchase",63349,-1,-1,0,15610,0,10,131072,31,7388252,0,0,0,0,0,0
+Additional decor available from Rae'ana in Silvermoon City.","Omnium Folio Studies","Decor Reward: Sunstrider Omnium Simulacrum",63325,-1,-1,0,15610,0,10,131072,49,7549225,0,229349,0,0,0,0
+"Defeat 15 rare creatures found in Val or Naigtal on Heroic World Tier.","Heroic Slugger",,63348,-1,-1,0,15610,0,5,196608,39,4554456,0,229606,0,0,0,0
+"Kill 100 enemies while controlling the Ultradon Slayer on the World Quest Until it is Done on Val.","Ultradon Carnage","Pet Reward: Unlock Frosticus Maxiums for purchase",63349,-1,-1,0,15610,0,10,131072,31,7388252,0,229776,0,0,0,0
+"Complete the introduction quest lines for Naigtal and Val.","Into the Stars",,63383,-1,-1,0,15610,0,5,0,32,2065615,0,229858,0,0,0,0
+"Complete the following quests on Val and Naigtal.","Prepared for a Showdown",,63384,-1,-1,0,15610,0,5,0,33,132594,0,229865,0,0,0,0
+"Complete the following quest lines on Naigtal.","A Hal'hadar Walks into a Swamp",,63385,-1,-1,0,15610,0,10,0,34,1711338,0,229872,0,0,0,0
+"Complete the following quest lines on Val.","Frosty Domanaar Politics",,63386,-1,-1,0,15610,0,10,0,35,6994479,0,229883,0,0,0,0
