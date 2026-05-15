@@ -143,10 +143,10 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 			}),
 			n(QUESTS, {
 				q(93519, {	-- Midnight Delves! (it pop on login but after cancel it	-- didn't re-pop)
-					["description"] = "Pops on login",
+					["description"] = "Pops on login. Do not abandon!",
+					["isBreadcrumb"] = true,
 				}),
 				q(93501, {	-- The Season Starts: Midnight
-					--TODO: could be account wide one time quest per season, breadcrumb?
 					["sourceQuests"] = { 93519 },	-- Midnight Delves!
 					["provider"] = { "n", 242381 },	-- Valeera Sanguinar
 					["coord"] = { 52.5, 78.3, MAP.MIDNIGHT.SILVERMOON_CITY },
