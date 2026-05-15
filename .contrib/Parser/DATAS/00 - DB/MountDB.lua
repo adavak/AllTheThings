@@ -1806,9 +1806,6 @@ i(210145, 424611);	-- [PH] YellowBlack-Furred Bakar
 i(211075, 428013);	-- Deathbringer's Shadowcycle
 -- #endif
 i(211086, 428065);	-- Jeweled Jade Scarab
--- #if BEFORE 12.0.7
-i(210140, 404018);	-- Black-Furred Bakar
--- #endif
 
 ------------------
 -- PATCH 10.2.5 --
@@ -2425,3 +2422,15 @@ i(258884, 1264184);	-- Spawn of Vyranoth
 i(274650, 1294663);	-- Starmech Cosmic-Collapser
 i(275664, 1297427);	-- Tortured Gorger
 i(274649, 1294648);	-- Voidmancer's Starcarver
+--- Unsorted ---
+i(0, 1294677);	-- [PH] Horse with Hat
+i(0, 1261369);	-- Amani Hex Bear
+i(274681, 1294767);	-- Badlands Buzzard
+i(273651, 1292344);	-- Bligewater X-TREME Firework Rocket
+i(273317, 1292102);	-- Blackwater X-TREME Firework Rocket
+i(273650, 1292342);	-- Green Rocket Mount [PH]
+i(269240, 1284973);	-- Luminous Sporeglider
+i(273652, 1292345);	-- Pink Rocket Mount [PH]
+i(275464, 1298439);	-- Sun Festival's Painted Roc
+i(268833, 1283837);	-- Zothwing Darkseeker
+i(268834, 1283838);	-- Zothwing Deepseeker
