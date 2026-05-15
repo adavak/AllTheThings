@@ -78,9 +78,12 @@ app.AddEventHandler("OnRefreshCollections", RefreshSkills);
 
 -- Local variables that change per game flavor (Thanks, Blizzard.)
 local xOffSet, topYOffset, bottomYOffset = -37, -11, 72;	-- Original values...?
-if app.GameBuildVersion < 50000 then
-	-- Classic Era / TBC / Wrath / Cata
+if app.GameBuildVersion < 20000 then
+	-- Classic Era
 	xOffSet, topYOffset, bottomYOffset = -24, -7, 52;
+elseif app.GameBuildVersion < 50000 then
+	-- TBC / Wrath / Cata
+	xOffSet, topYOffset, bottomYOffset = -37, -11, 72;
 else
 	-- MOP
 	xOffSet, topYOffset, bottomYOffset = -50, -18, 106;
