@@ -15,7 +15,7 @@ DECOR_DUEL = createHeader({
 		--ko = "Decor Duel",
 		--pt = "Decor Duel",
 		--ru = "Decor Duel",
-		--cn = "Decor Duel",
+		cn = "装饰决斗",
 		--tw = "Decor Duel",
 	},
 	description = {
@@ -28,7 +28,7 @@ DECOR_DUEL = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
+		cn = "装饰决斗是银月城的一项基于团队的道具猎杀活动，为玩家提供了一个有趣的活动来逃避虚空入侵的疯狂，享受一场友好的魔法捉迷藏游戏。\n\n玩家可以通过组队查找器中的 PvP 标签下的快速匹配部分进入装饰决斗队列。最多5人的团队可以一起排队参加这个休闲的 PvP 活动。1到4人的团队将与其它随机排队的玩家匹配。",
 		-- TODO: tw = "",
 	},
 });

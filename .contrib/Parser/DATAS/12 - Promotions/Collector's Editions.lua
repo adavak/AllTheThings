@@ -105,7 +105,7 @@ WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		cn = "'巫妖王之怒'怀旧服 - 北裂境升级",
+		cn = "'巫妖王之怒'怀旧服 - 诺森德升级",
 		tw = "巫妖王之怒：經典版 - 北裂境升級",
 	},
 });
@@ -172,8 +172,8 @@ WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了魔兽世界15周年典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了魔獸世界15週年典藏版的玩家的。",
 	},
 });
 DIABLO_III = createHeader({
@@ -194,8 +194,8 @@ DIABLO_III = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了暗黑破坏神III典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了暗黑破壞神III典藏版的玩家的。",
 	},
 });
 DIABLO_III_REAPER_OF_SOULS = createHeader({
@@ -216,8 +216,8 @@ DIABLO_III_REAPER_OF_SOULS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了暗黑破坏神III：夺魂之镰典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了暗黑破壞神III：奪魂之鐮典藏版的玩家的。",
 	},
 });
 DIABLO_IV = createHeader({
@@ -238,8 +238,8 @@ DIABLO_IV = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了暗黑破坏神IV基础版的玩家的。",
+		tw = "這些獎勵是提供給購買了暗黑破壞神IV基礎版的玩家的。",
 	},
 });
 DIABLO_IV_LORD_OF_HATRED = createHeader({
@@ -247,7 +247,7 @@ DIABLO_IV_LORD_OF_HATRED = createHeader({
 	icon = 1529348,
 	text = {
 		en = "Diablo IV: Lord of Hatred",
-		cn = "暗黑破坏神 IV：憎恨之王",
+		cn = "暗黑破坏神IV：憎恨之王",
 		tw = "暗黑破壞神IV：憎恨之王",
 	},
 	description = {
@@ -260,8 +260,8 @@ DIABLO_IV_LORD_OF_HATRED = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了暗黑破坏神IV：憎恨之王标准版的玩家的。",
+		tw = "這些獎勵是提供給購買了暗黑破壞神IV：憎恨之王標準版的玩家的。",
 	},
 });
 DIABLO_II_RESURRECTED_REIGN_OF_WARLOCK = createHeader({
@@ -269,8 +269,8 @@ DIABLO_II_RESURRECTED_REIGN_OF_WARLOCK = createHeader({
 	icon = 1529348,
 	text = {
 		en = "Diablo II: Resurrected - Reign of Warlock",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "暗黑破坏神II重制版 - 术士君临",
+		tw = "暗黑破壞神II：獄火重生 ─ 術士軍臨",
 	},
 	description = {
 		en = "Granted to owners of Diablo II: Resurrected - Reign of Warlock.",
@@ -282,8 +282,8 @@ DIABLO_II_RESURRECTED_REIGN_OF_WARLOCK = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了暗黑破坏神II重制版 - 术士君临的玩家的。",
+		tw = "這些獎勵是提供給購買了暗黑破壞神II：獄火重生 ─ 術士軍臨的玩家的。",
 	},
 });
 OVERWATCH_ORIGINS = createHeader({
@@ -304,8 +304,8 @@ OVERWATCH_ORIGINS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了守望先锋：起源典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了守望先鋒：啟元版的玩家的。",
 	},
 });
 STARCRAFT_II_WINGS_OF_LIBERTY = createHeader({
@@ -326,8 +326,8 @@ STARCRAFT_II_WINGS_OF_LIBERTY = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了星际争霸II：自由之翼典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了星海爭霸II：自由之翼典藏版的玩家的。",
 	},
 });
 STARCRAFT_II_HEART_OF_THE_SWARM = createHeader({
@@ -348,8 +348,8 @@ STARCRAFT_II_HEART_OF_THE_SWARM = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了星际争霸II：虫群之心典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了星海爭霸II：蟲族之心典藏版的玩家的。",
 	},
 });
 STARCRAFT_II_LEGACY_OF_THE_VOID = createHeader({
@@ -370,8 +370,8 @@ STARCRAFT_II_LEGACY_OF_THE_VOID = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了星际争霸II：虚空之遗典藏版的玩家的。",
+		tw = "這些獎勵是提供給購買了星海爭霸II：虛空之遺典藏版的玩家的。",
 	},
 });
 WARCRAFT_III_REFORGED_SPOILS_OF_WAR = createHeader({
@@ -392,8 +392,8 @@ WARCRAFT_III_REFORGED_SPOILS_OF_WAR = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
-		-- TODO: tw = "",
+		cn = "这些奖励是提供给购买了魔兽争霸III战争嘉奖版的玩家的。",
+		tw = "這些獎勵是提供給購買了魔獸爭霸III：淬鍊重生 - 數位戰利版的玩家的。",
 	},
 });
 
