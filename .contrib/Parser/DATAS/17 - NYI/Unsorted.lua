@@ -662,7 +662,6 @@ root(ROOTS.Unsorted, {
 				i(268122),	-- Dispelled Coins
 				i(264162),	-- Enchanted Snowflake [PH]
 				i(272400),	-- Fine Lynx Fur
-				i(271342),	-- Galactic Void Matrix
 				i(272893),	-- Icy Harness
 				i(259472),	-- Lost Revantusk Possessions
 				i(267381),	-- Official G.G.R. Rehydration Container
