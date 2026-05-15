@@ -15,7 +15,7 @@ PHASE_CONDUITS = createHeader({
 		--ko = "Phase Conduits",
 		--pt = "Phase Conduits",
 		--ru = "Phase Conduits",
-		--cn = "Phase Conduits",
+		cn = "相位导管",
 		--tw = "Phase Conduits",
 	},
 	description = {
@@ -28,7 +28,7 @@ PHASE_CONDUITS = createHeader({
 		-- TODO: ko = "",
 		-- TODO: pt = "",
 		-- TODO: ru = "",
-		-- TODO: cn = "",
+		cn = "相位导管是用于进入、退出和在无拘之域（相位潜行）中瞬间移动的传送器。除了两个位置（在征服者之痕）外，所有位置都相互连接。",
 		-- TODO: tw = "",
 	},
 
