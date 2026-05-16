@@ -1434,8 +1434,6 @@ i(52408, 73359);	-- Veiled Demonseye
 i(68359, 95754);	-- Willful Ember Topaz
 i(52431, 73383);	-- Zen Dream Emerald
 i(52388, 73280);	-- Zen Jasper
---- NYI ---
-i(52497, 0);	-- Jeweler's Sapphire Monocle
 
 -----------------
 -- PATCH 4.0.6 --
@@ -1756,7 +1754,6 @@ i(95471, 140060);	-- Primal Diamond
 i(116087, 0);		-- Glowing Blackrock Band
 i(116081, 0);		-- Glowing Iron Band
 i(116084, 0);		-- Glowing Iron Choker
-i(116080, 0);		-- Greater Taladite Amplifier
 i(116088, 0);		-- Shifting Blackrock Band
 i(116082, 0);		-- Shifting Iron Band
 i(116085, 0);		-- Shifting Iron Choker

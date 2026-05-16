@@ -43801,12 +43801,12 @@ ach(61183,{pvp=1,g={
 crit(109682,{achID=2090,awp=30002,id=34,pvp=1})}}),
 ach(61184,{pvp=1}),
 ach(61187,{pvp=1,g={
-s(303229,264164,{b=1,f=9,lvl=90,pvp=1,r=2}),
-s(302180,260441,{b=1,f=9,lvl=90,pvp=1,r=1}),
-crit(109688,{achID=2092,awp=30002,id=33,pvp=1})}}),
-ach(61197,{pvp=1,g={
 s(303228,264010,{b=1,f=3,lvl=90,pvp=1,r=2}),
 s(302182,260443,{b=1,f=3,lvl=90,pvp=1,r=1}),
+crit(109688,{achID=2092,awp=30002,id=33,pvp=1})}}),
+ach(61197,{pvp=1,g={
+s(303229,264164,{b=1,f=9,lvl=90,pvp=1,r=2}),
+s(302180,260441,{b=1,f=9,lvl=90,pvp=1,r=1}),
 crit(111102,{achID=61858,id=2})}}),
 ach(61180,{pvp=1,g={
 title(654,{pvp=1})}}),
@@ -44603,7 +44603,8 @@ s(303882,265618,{bonusID=7532,cost={{"i",137642,5}},f=1,lvl=90,pvp=1}),
 s(303877,265613,{bonusID=7532,cost={{"i",137642,5}},f=35,lvl=90,pvp=1})}})}}),
 h(-47,{pvp=1,g={
 i(257194,{b=1,description="Rewarded within the first few wins in queued PvP Content.",pvp=1,rwp=120100}),
-i(271341,{awp=120005,f=55,pvp=1,rwp=120100,spellID=1288884})}})}})}}),
+i(271341,{awp=120005,f=55,pvp=1,rwp=120100,spellID=1288884,g={
+i(271342,{awp=120001,f=55,pvp=1,spellID=1288889})}})}})}})}}),
 h(-291,{awp=30002,pvp=1,g={
 h(-12,{pvp=1,g={
 ach(397,{pvp=1}),
