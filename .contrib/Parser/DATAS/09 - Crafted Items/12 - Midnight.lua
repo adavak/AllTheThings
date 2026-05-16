@@ -871,7 +871,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
 			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
 			FirstCraft(90279, 1261490, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
-			FirstCraft(95578, 1261490, ADDED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
+			FirstCraft(95582, 1261490, ADDED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
 			-- Leather Equipment
 			FirstCraft(90264, 1229875);	-- Aetherlume Bands
 			FirstCraft(90260, 1229871);	-- Aetherlume Optics
@@ -912,7 +912,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90278, 1229885);	-- Quel'dorei Visor
 			FirstCraft(90258, 1229915);	-- Thalassian Competitor's Plate Bindings
 			FirstCraft(90282, 1261493, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
-			FirstCraft(95582, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
+			FirstCraft(95578, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
 			FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
 			-- Tools and Accessories
 			FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
