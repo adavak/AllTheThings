@@ -3847,7 +3847,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["groups"] = {
 						i(18046, {	-- Recipe: Tender Wolf Steak (RECIPE!)
-							-- #if CLASSIC_	ANNIVERSARY
+							-- #if CLASSIC_ANNIVERSARY
 							["timeline"] = { ADDED_2_5_5 },
 							-- #endif
 						}),
