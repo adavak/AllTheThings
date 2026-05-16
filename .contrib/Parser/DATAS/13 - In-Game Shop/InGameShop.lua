@@ -207,7 +207,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		-- #endif
 		i(262982, {	-- Roofus (PET!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(239082, {	-- Sa'bak's Blessed (PET!)
 			["timeline"] = { ADDED_11_1_7 },
@@ -697,35 +697,35 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(264692, {["timeline"] = { ADDED_12_0_5 }}),	-- Lush Garden Window (DECOR!)
 		i(259046, {	-- Paw Pal Bed (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(259045, {	-- Paw Pal Bed and Blanket (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(264275, {	-- Paw Pal House Durotar Roof (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(259094, {	-- Paw Pal House Elwynn Roof (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(264276, {	-- Paw Pal House Eversong Roof (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(259093, {	-- Paw Pal House Frame (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(264277, {	-- Paw Pal House Shadowglen Roof (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(259044, {	-- Paw Pal Water Dish (DECOR!)
 			["description"] = "Part of the charity Roofus Pack.",
-			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.99999" },	-- Removed May 12, 2026
+			["timeline"] = { "added 12.0.1.66384", "removed 12.0.5.67451" },	-- Removed May 12, 2026
 		}),
 		i(250797),	-- Spring Blossom Ceiling Light (DECOR!)
 		i(258569),	-- Spring Blossom Gazebo (DECOR!)
