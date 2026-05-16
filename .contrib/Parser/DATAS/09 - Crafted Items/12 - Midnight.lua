@@ -1437,8 +1437,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			i(245779, {["requireSkill"] = COOKING}),	-- Hobbyist Rolling Pin
 			i(245775, {["requireSkill"] = INSCRIPTION}),	-- Hobbyist Scribe's Quill
 			i(245778, {["requireSkill"] = ALCHEMY}),	-- Sin'dorei Alchemist's Mixing Rod
-			i(245776, {["requireSkill"] = COOKING}),	-- Sin'dorei Quill
-			i(245780, {["requireSkill"] = INSCRIPTION}),	-- Sin'dorei Rolling Pin
+			i(245776, {["requireSkill"] = INSCRIPTION}),	-- Sin'dorei Quill
+			i(245780, {["requireSkill"] = COOKING}),	-- Sin'dorei Rolling Pin
 		}),
 		filter(REAGENTS, {
 			i(245764),	-- Codified Azeroot+

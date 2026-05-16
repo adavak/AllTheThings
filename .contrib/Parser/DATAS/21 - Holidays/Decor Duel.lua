@@ -56,9 +56,10 @@ root(ROOTS.Holidays,
 			}),
 			n(QUESTS, {
 				q(93774, {	-- When is a Chair not for Sitting?
-					["qg"] = 256307,	-- Silvermoon Cizizen / Completely Ordinary Brazier
+					["qg"] = 256307,	-- Silvermoon Cizizen / Completely Ordinary *Decor* (Depends on the NPC)
 					["coords"] = {
 						{ 35.6, 61.7, MAP.MIDNIGHT.SILVERMOON_CITY },
+						{ 51.1, 65.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 						{ 51.9, 71.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 					},
 				}),
