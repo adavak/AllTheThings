@@ -178,6 +178,11 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["maps"] = ALL_REGULAR_DELVES_MID,
 				}),
 			}),
+			n(REWARDS, sharedDataSelf({["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}, {
+				i(268650, {	-- Ascendant Voidshard
+					i(268552),	-- Ascendant Voidcore
+				}),
+			})),
 			mapped(n(TREASURES, {
 				o(584752, {	-- Mislaid Curiosity
 					["groups"] = {

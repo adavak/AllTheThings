@@ -83,6 +83,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 
 					}),
 				}),
+				n(REWARDS, sharedDataSelf({["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}, {
+					i(268650, {	-- Ascendant Voidshard
+						i(268552),	-- Ascendant Voidcore
+					}),
+				})),
 				BossOnly(CHIMAERUS, {
 					ach(61487),	-- Chimaerus, the Undreamt God
 					ach(61612),	-- Chimaerus the Undreamt God Guild Run

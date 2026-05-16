@@ -101,6 +101,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 						["qg"] = 260421,	-- Hurried Courier
 					}),
 				}),
+				n(REWARDS, sharedDataSelf({["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}, {
+					i(268650, {	-- Ascendant Voidshard
+						i(268552),	-- Ascendant Voidcore
+					}),
+				})),
 				BossOnly(BELOREN, {
 					i(256715),	-- Design: Thalassian Phoenix Torque (RECIPE!)
 					i(264187),	-- Blessed Phoenix Egg (DECOR!)
