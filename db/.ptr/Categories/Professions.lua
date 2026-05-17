@@ -1436,6 +1436,7 @@ i(246447,{awp=120001,spellID=1269450}),
 i(246450,{awp=120001,b=1}),
 i(246585,{awp=120001,b=1}),
 i(246448,{awp=120001,spellID=1269451}),
+i(262724,{awp=120001,f=55}),
 i(246320,{awp=120001,b=1,requireSkill=171,spellID=1241751,g={
 cu(3150)}}),
 i(246322,{awp=120001,b=1,requireSkill=164,spellID=1241748,g={
@@ -8373,6 +8374,9 @@ pn(106119,{cost={{"c",3159,1}},requireSkill=393}),
 pn(106089,{cost={{"c",3159,1}},requireSkill=393}),
 pn(106057,{cost={{"c",3159,1}},requireSkill=393})}}),
 h(-45,{requireSkill=393,g={
+q(93713,{coords={
+[2393]={{43.2,55.6}}},isWeekly=1,lvl=78,qgs={243527},requireSkill=393,g={
+i(263461,{b=1,requireSkill=393,spellID=1270539})}}),
 q(93714,{coords={
 [2393]={{43.2,55.6}}},isWeekly=1,lvl=78,qgs={243527},requireSkill=393,g={
 i(263461,{b=1,requireSkill=393,spellID=1270539})}}),

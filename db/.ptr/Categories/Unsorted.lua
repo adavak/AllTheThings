@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local de,flt,h,i,mnt,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local de,flt,h,i,mnt,p,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.Unsorted={
 x(12,{
 x(12.0007,{awp=120007,g={
@@ -139,7 +139,7 @@ s(309229,275225,{f=5}),
 s(309237,275226,{f=6}),
 s(309245,275227,{f=7})}),
 flt(101,{
-i(271185,{f=101,spellID=1288774}),
+p(5041,{itemID=271185,npcID=262985,spellID=1288774}),
 i(275818)}),
 flt(2,{
 s(302143,260383,{f=32}),
@@ -340,7 +340,7 @@ s(309314,275460,{f=26}),
 i(275461,{f=55,spellID=1298441}),
 s(309315,275462,{f=3}),
 s(309316,275463,{f=3}),
-i(275464,{f=100,spellID=1298439}),
+mnt(1298439,{itemID=275464}),
 s(309317,275465,{f=10}),
 s(309318,275466,{f=2}),
 s(309319,275467,{f=2}),
@@ -375,13 +375,13 @@ i(275228),
 i(275910,{f=55,spellID=1271402}),
 i(275691,{f=55})}),
 flt(100,{
-i(269240,{f=100,spellID=1284973}),
+mnt(1284973,{itemID=269240}),
 i(269245,{f=55,spellID=1284976}),
-i(273317,{f=100,spellID=1292102}),
-i(273650,{f=100,spellID=1292342}),
-i(273651,{f=100,spellID=1292344}),
-i(273652,{f=100,spellID=1292345}),
-i(274681,{f=100,spellID=1294767})}),
+mnt(1292102,{itemID=273317}),
+mnt(1292342,{itemID=273650}),
+mnt(1292344,{itemID=273651}),
+mnt(1292345,{itemID=273652}),
+mnt(1294767,{itemID=274681})}),
 flt(104,{
 i(269612),
 i(269666),
@@ -618,10 +618,8 @@ i(272114),
 i(268122),
 i(264162,{f=55}),
 i(272400,{spellID=1291056}),
-i(271342,{f=55,spellID=1288889}),
 i(272893),
 i(259472),
-i(260621),
 i(267381,{f=55,spellID=1280336}),
 i(267352,{f=55,spellID=203534}),
 i(267353,{f=55,spellID=393985}),
@@ -2923,8 +2921,6 @@ q(93641,{description="Category: |cFFf09f26World PvP|r",r=2}),
 q(93642,{description="Category: |cFFf09f26World PvP|r",r=1}),
 q(93701,{description="Area: |cFFf09f26Silvermoon City|r",g={
 i(263462)}}),
-q(93713,{description="Area: |cFFf09f26Silvermoon City|r",g={
-i(263461)}}),
 q(93782,{description="Area: |cFFf09f26Zul'Aman|r"}),
 q(93783,{description="Area: |cFFf09f26Zul'Aman|r"}),
 q(94010),

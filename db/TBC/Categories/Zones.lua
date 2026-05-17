@@ -7645,7 +7645,7 @@ n(15165,{awp=20402,coords={
 r(49677,{isLimited=1,itemID=37915,learnedAt=250,q=1,requireSkill=197}),
 r(50644,{itemID=38327,learnedAt=250,q=1,requireSkill=197}),
 r(50647,{itemID=38328,learnedAt=245,q=1,requireSkill=197})}}),
-n(7733,{coords={
+n(7733,{awp=20505,coords={
 [1446]={{52.4,27.8}}},g={
 r(22480,{itemID=18046,learnedAt=225,q=1,requireSkill=185})}}),
 n(8139,{coords={

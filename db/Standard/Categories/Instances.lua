@@ -819,7 +819,7 @@ q(7497,{coords={
 r(19093,{awp=30202,learnedAt=320,requireSkill=165,skillID=2532}),
 r(19093,{awp=10001,itemID=15769,requireSkill=165,rwp=30202,skillID=2532,u=2})}}),
 q(7493,{coords={
-[85]={{52.2,75.8}}},learnedAt=300,lvl=30,qgs={14392},r=1,requireSkill=165,sourceQuests={7491,24429},g={
+[85]={{51.5,83}}},learnedAt=300,lvl=30,qgs={14392},r=1,requireSkill=165,sourceQuests={7491,24429},g={
 r(19093,{awp=30202,learnedAt=320,requireSkill=165,skillID=2532}),
 r(19093,{awp=10001,itemID=15769,requireSkill=165,rwp=30202,skillID=2532,u=2})}}),
 q(7495,{awp=10001,lvl=30,maps={84},providers={{"i",18423}},r=2,rwp=30202,u=2}),

@@ -41823,7 +41823,6 @@ q(91595,{coords={
 [2437]={{41.2,30}}},isWorldQuest=1}),
 q(91596,{isWorldQuest=1})})}}),
 h(-741,{awp=120005,maps={2395,2437},g={
-faction(2792),
 h(-12,{
 ach(62574),
 ach(62573),
@@ -42206,7 +42205,7 @@ s(303078,263909,{f=28}),
 s(303085,263916,{f=1}),
 s(303084,263915,{f=23}),
 s(303071,263902,{f=20})})}}),
-i(263929,{cost={{"c",3405,500}},sym={{"select","itemID",263928}}}),
+i(263929,{cost={{"c",3405,500}},sym={{"select","itemID",263928},{"pop"}}}),
 i(268996,{cost={{"i",267051,100}},spellID=1284514,g={
 cu(3405)}})}}),
 n(255495,{coords={
@@ -42378,6 +42377,7 @@ s(308640,273874,{f=29}),
 s(303202,263952,{f=28}),
 s(303209,263959,{f=1})}})}})})}}),
 h(-742,{awp=120005,maps={2395,2437},g={
+faction(2792),
 m(2585,{coords={
 [2437]={{29.6,77.9}}},crs={260104},icon=7578705,g={
 h(-12,{
@@ -42419,9 +42419,7 @@ p(5020,{crs={259971},itemID=269999,minReputation={2792,8},npcID=262066,spellID=1
 p(5021,{coords={
 [2594]={{30,63.1}}},cost={{"i",272128,1}},crs={263917},description="Use |cff1eff00Soggy Lynx Toy|r at the Soggy Nest.",itemID=270061,npcID=262089,spellID=1287374}),
 p(5022,{coords={
-[2594]={{55.8,45.6},{68.7,47.7},{71.6,50.3}}},crs={263805},description="A small, inconspicuous, egg is floating down the river. Catch it.",itemID=270062,npcID=262090,spellID=1287376}),
-p(5023,{coords={
-[2594]={{35.1,44.5},{41.76,49.69},{42.03,80.03},{43.31,57.99},{55,79.3},{63.58,65.58},{66.4,52.46},{68.46,37.62}}},description="Tier 3 or higher. Found by clicking the Rustling Bushes inside the Ritual Site.\nYou will have to find multiple Bushes across multiple instances as only 1 Bush is available per run.",itemID=270063,npcID=262092,spellID=1287380})}),
+[2594]={{55.8,45.6},{68.7,47.7},{71.6,50.3}}},crs={263805},description="A small, inconspicuous, egg is floating down the river. Catch it.",itemID=270062,npcID=262090,spellID=1287376})}),
 h(-56,{
 o(649380,{coords={
 [2594]={{38,63.6},{41,73},{46.6,46},{47.9,72.1},{50.1,55.1},{53.4,55.4},{62,77.1},{66,74}}},crs={263617},description="Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",modelScale=3,g={
@@ -42520,6 +42518,10 @@ i(271429)}}),
 o(645181,{coords={
 [2594]={{57.3,18.4},{58.8,49.1}}},g={
 i(271427)}}),
+ah(270063,{coords={
+[2585]={{39,45},{40.9,67.4},{42,45},{48.1,83.1},{48.48,76.9},{51.5,44.9},{51.59,36.43},{52.85,83.4},{54.3,45},{54.3,72.6},{58.22,79.36},{58.46,49.58},{60.1,66.1}},
+[2594]={{35.1,44.5},{41.76,49.69},{42.03,80.03},{42.99,49.68},{43.31,57.99},{55,79.3},{63.58,65.58},{66.4,52.46},{66.62,37.14},{68.46,37.62}}},description="Tier 3 or higher. Found by clicking the Rustling Bushes/Ferns inside the Ritual Site.\nYou will have to find multiple Bushes/Ferns across multiple instances as only 1 Bush is available per run.",providers={{"o",649420},{"o",649437}},type="i",g={
+p(5023,{itemID=270063,npcID=262092,spellID=1287380})}}),
 o(645184,{coords={
 [2585]={{47.7,66.5}},
 [2594]={{63.9,34.5}}},g={

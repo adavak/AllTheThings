@@ -2667,7 +2667,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=24,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=24,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=31,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=31,["weekday"]=1,["year"]=2026}),
@@ -2719,7 +2718,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=16,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=16,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -13168,6 +13168,8 @@ local ObjectNames = {
 	[649209] = "Misplaced Ritual Candle",
 	[649380] = "Washed Up Kelp",
 	[649412] = "Void-Tainted Nest",
+	[649420] = "Rustling Bush",
+	[649437] = "Rustling Fern",
 	[9000000] = "Wind Sculpted Stone",
 	[9000001] = "Ancient Incense Brazier",
 	[9000002] = "Ancient Incense Brazier",
@@ -22181,6 +22183,8 @@ local ObjectModels = {
 	[649209] = 5975162,
 	[649380] = 1569583,
 	[649412] = 1279713,
+	[649420] = 5884908,
+	[649437] = 5789864,
 }; _.ObjectModels = ObjectModels;
 -- Consolidated Object Data
 local ALLIANCE_BONFIRES = { 187564,187914,187916,187917,187919,187920,187921,187922,187923,187924,187925,187926,187927,187928,187929,187930,187931,187932,187933,187934,187935,187936,187937,187938,187939,187940,187941,187942,187943,187944,187945,187946,194032,194035,194036,194038,194040,194044,194045,194049,207982,207984,207985,207987,207988,207993,208089,208093,217851,259871,259927,316788,316791,316793 };
@@ -33881,6 +33885,8 @@ localize(ObjectNames, {
 	[649115] = "Angekautes Fleisch",
 	[649189] = "Ritualkreis",
 	[649412] = "Leerenbesudeltes Nest",
+	[649420] = "Raschelndes Gebüsch",
+	[649437] = "Raschelnder Farn",
 	[9999908] = "|cFFFFFFFFSchritt 1:|r Gather Consumables.",
 	[9999909] = "|cFFFFFFFFSchritt 2:|r Caverns of Consumption",
 	[9999910] = "|cFFFFFFFFSchritt 3:|r Fire Barrier",
@@ -41624,6 +41630,8 @@ localize(ObjectNames, {
 	[649115] = "Viande mâchonnée",
 	[649189] = "Cercle rituel",
 	[649412] = "Nid corrompu par le Vide",
+	[649420] = "Buisson frémissant",
+	[649437] = "Fougère frémissante",
 	[9000000] = "Pierre de vent sculptée",
 	[9999908] = "|cFFFFFFFFÉtape 1:|r Rassemblez les consommables.",
 	[9999909] = "|cFFFFFFFFÉtape 2:|r Caverns of Consumption",
@@ -48312,6 +48320,7 @@ localize(ObjectNames, {
 	[633820] = "Pergamena Scartata",
 	[633823] = "Messaggio d'Addio",
 	[649189] = "Circolo del Rituale",
+	[649420] = "Cespuglio Frusciante",
 	[9999912] = "|cFFFFFFFFStep 5:|r Guardiano Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Guardia di Pietra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Strana Pietra",
@@ -55471,6 +55480,7 @@ localize(ObjectNames, {
 	[633823] = "Bilhete de Partida",
 	[649189] = "Círculo Ritual",
 	[649412] = "Ninho Maculado de Caos",
+	[649420] = "Arbusto Farfalhante",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigia Diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Observador de Pedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Pedra Estranha",
@@ -63649,6 +63659,8 @@ localize(ObjectNames, {
 	[649115] = "Пожеванное мясо",
 	[649189] = "Ритуальный круг",
 	[649412] = "Оскверненное Бездной гнездо",
+	[649420] = "Шуршащий куст",
+	[649437] = "Шуршащий папоротник",
 	[9999908] = "|cFFFFFFFFШаг 1:|r Соберите Расходники.",
 	[9999909] = "|cFFFFFFFFШаг 2:|r Пещера Увядания",
 	[9999910] = "|cFFFFFFFFШаг 3:|r Огненный Барьер",
@@ -70286,6 +70298,7 @@ localize(ObjectNames, {
 	[649115] = "물어뜯긴 고기",
 	[649189] = "의식 진",
 	[649412] = "공허에 오염된 둥지",
+	[649437] = "바스락거리는 고사리",
 	[9999912] = "|cFFFFFFFFStep 5:|r 성실한 감시자",
 	[9999915] = "|cFFFFFFFFStep 8:|r 바위 감시병",
 	[9999917] = "|cFFFFFFFFStep 10:|r 이상한 돌",
@@ -78435,6 +78448,8 @@ localize(ObjectNames, {
 	[649115] = "Carne mordisqueada",
 	[649189] = "Círculo ritual",
 	[649412] = "Nido contaminado del Vacío",
+	[649420] = "Arbusto siseante",
+	[649437] = "Helecho siseante",
 	[9999912] = "|cFFFFFFFFStep 5:|r Vigía diligente",
 	[9999915] = "|cFFFFFFFFStep 8:|r Vigía de piedra",
 	[9999917] = "|cFFFFFFFFStep 10:|r Piedra extraña",
@@ -79319,6 +79334,7 @@ localize(ObjectNames, {
 	[628954] = "Madera sombraluna",
 	[628955] = "Madera sombraluna",
 	[633820] = "Pergamino descartado",
+	[649420] = "Arbusto susurrante",
 });
 for key,value in pairs({
 	[2] = "Removido del juego",
@@ -86823,6 +86839,7 @@ localize(ObjectNames, {
 	[649115] = "碎烂的肉",
 	[649189] = "仪式法阵",
 	[649412] = "虚空侵染的巢穴",
+	[649437] = "沙沙作响的蕨类",
 	[9000000] = "微风雕塑之石",
 	[9999908] = "|cFFFFFFFF第1步:|r 收集消耗品",
 	[9999909] = "|cFFFFFFFF第2步:|r 吞噬洞穴",
@@ -88443,6 +88460,7 @@ localize(ObjectNames, {
 	[649115] = "被咬過的肉",
 	[649189] = "儀式法陣",
 	[649412] = "虛無污化鷹巢",
+	[649437] = "窸窣作響的蕨類",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({

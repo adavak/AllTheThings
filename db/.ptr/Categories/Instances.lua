@@ -819,7 +819,7 @@ q(7497,{coords={
 r(19093,{awp=30202,learnedAt=320,requireSkill=165,skillID=2532}),
 r(19093,{awp=10001,itemID=15769,requireSkill=165,rwp=30202,skillID=2532,u=2})}}),
 q(7493,{coords={
-[85]={{52.2,75.8}}},learnedAt=300,lvl=30,qgs={14392},r=1,requireSkill=165,sourceQuests={7491,24429},g={
+[85]={{51.5,83}}},learnedAt=300,lvl=30,qgs={14392},r=1,requireSkill=165,sourceQuests={7491,24429},g={
 r(19093,{awp=30202,learnedAt=320,requireSkill=165,skillID=2532}),
 r(19093,{awp=10001,itemID=15769,requireSkill=165,rwp=30202,skillID=2532,u=2})}}),
 q(7495,{awp=10001,lvl=30,maps={84},providers={{"i",18423}},r=2,rwp=30202,u=2}),
@@ -62988,6 +62988,9 @@ gach(61610)}),
 d(109,{difficulties={17,14,15,16},g={
 h(-45,{
 q(93924,{lvl=90,qgs={260421}})}),
+h(-47,{awp=120005,rwp=120100,g={
+i(268650,{f=55,spellID=1283168,g={
+i(268552,{awp=120001,f=55,spellID=1282778})}})}}),
 e(2739,{npcID=249637,g={
 r(1230488,{itemID=256715,requireSkill=755,skillID=2914}),
 de(15467,{itemID=264187,spellID=1271354}),
@@ -63150,6 +63153,9 @@ crit(113785,{achID=11761,awp=70200,id=73})})}),
 d(109,{difficulties={17,14,15,16},g={
 h(-45,{
 q(93923,{lvl=90})}),
+h(-47,{awp=120005,rwp=120100,g={
+i(268650,{f=55,spellID=1283168,g={
+i(268552,{awp=120001,f=55,spellID=1282778})}})}}),
 e(2795,{npcID=256116,g={
 ach(61487),
 gach(61612),
@@ -63578,6 +63584,9 @@ s(296397,249948,{b=1,c={1},f=7,lvl=90,modID=6})}})}})}}),
 d(109,{difficulties={17,14,15,16},g={
 h(-45,{
 q(93922,{lvl=90})}),
+h(-47,{awp=120005,rwp=120100,g={
+i(268650,{f=55,spellID=1283168,g={
+i(268552,{awp=120001,f=55,spellID=1282778})}})}}),
 e(2733,{npcID=240435,g={
 de(15761,{itemID=264497,spellID=1272060}),
 i(268459,{awp=120005,rwp=120100}),
